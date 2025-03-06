@@ -3,10 +3,16 @@ title: Tạo dữ liệu theo pha thời gian trong Aspose.Tasks
 linktitle: Tạo dữ liệu theo pha thời gian cho các bài tập tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo dữ liệu theo pha thời gian cho các nhiệm vụ tài nguyên bằng Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với hướng dẫn toàn diện này.
-type: docs
 weight: 24
 url: /vi/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo dữ liệu theo pha thời gian trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tạo dữ liệu theo pha thời gian cho các nhiệm vụ tài nguyên bằng cách sử dụng Aspose.Tasks cho Java. Dữ liệu theo pha thời gian cung cấp những hiểu biết có giá trị về cách phân bổ nguồn lực theo thời gian trong một dự án, giúp người quản lý dự án đưa ra quyết định sáng suốt.
 ## Điều kiện tiên quyết
@@ -124,3 +130,9 @@ Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án khác nhau, b
 Có, Aspose.Tasks cho phép người dùng xác định đường viền công việc tùy chỉnh để phù hợp với nhu cầu dự án cụ thể của họ.
 ### Có diễn đàn cộng đồng nào để tôi có thể nhận trợ giúp về Aspose.Tasks không?
  Có, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

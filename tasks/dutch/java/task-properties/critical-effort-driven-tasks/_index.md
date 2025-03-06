@@ -3,10 +3,16 @@ title: Beheer kritieke en inspanningsgerichte taken in Aspose.Tasks
 linktitle: Beheer kritieke en inspanningsgerichte taken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Beheer moeiteloos kritische en inspanningsgerichte taken in uw Java-projecten met Aspose.Tasks. Download de bibliotheek en verbeter uw projectmanagementmogelijkheden.
-type: docs
 weight: 14
 url: /nl/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer kritieke en inspanningsgerichte taken in Aspose.Tasks
+
 In de snel veranderende wereld van projectmanagement is het efficiënt afhandelen van kritische en inspanningsgerichte taken essentieel voor een succesvolle afronding van het project. Aspose.Tasks voor Java biedt een robuuste oplossing om deze taken naadloos te beheren. In deze zelfstudie begeleiden we u bij het gebruik van Aspose.Tasks voor Java om kritieke en inspanningsgerichte taken in uw projecten uit te voeren.
 ## Vereisten
 Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
@@ -60,3 +66,9 @@ Ja, Aspose.Tasks voor Java is platformonafhankelijk en kan in zowel Windows- als
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik Aspose.Tasks voor Java kopen?
  U kunt Aspose.Tasks voor Java kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

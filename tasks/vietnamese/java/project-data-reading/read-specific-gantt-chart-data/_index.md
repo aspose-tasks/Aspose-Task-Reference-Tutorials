@@ -3,10 +3,16 @@ title: Đọc dữ liệu biểu đồ Gantt cụ thể trong Aspose.Tasks
 linktitle: Đọc dữ liệu biểu đồ Gantt cụ thể trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách trích xuất dữ liệu biểu đồ Gantt cụ thể bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để tích hợp liền mạch vào các ứng dụng Java của bạn.
-type: docs
 weight: 16
 url: /vi/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu biểu đồ Gantt cụ thể trong Aspose.Tasks
+
 ## Giới thiệu
 Biểu đồ Gantt là công cụ vô giá để quản lý dự án, cho phép người dùng trực quan hóa các nhiệm vụ, mốc thời gian và các yếu tố phụ thuộc. Với Aspose.Tasks cho Java, các nhà phát triển có thể trích xuất dữ liệu cụ thể từ biểu đồ Gantt một cách hiệu quả để tích hợp vào ứng dụng của họ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình đọc dữ liệu biểu đồ Gantt cụ thể.
 ## Điều kiện tiên quyết
@@ -104,3 +110,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án 
 Đ: Chắc chắn rồi. Aspose.Tasks cung cấp các API mở rộng để tùy chỉnh giao diện biểu đồ Gantt theo yêu cầu của bạn.
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
 Trả lời: Có, Aspose.Tasks cung cấp hỗ trợ kỹ thuật toàn diện thông qua diễn đàn và các kênh hỗ trợ riêng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

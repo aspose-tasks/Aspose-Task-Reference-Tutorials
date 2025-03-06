@@ -3,10 +3,16 @@ title: Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
 linktitle: Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý hiệu quả thời gian sẵn có của tài nguyên bằng Aspose.Tasks cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để làm việc với các khoảng thời gian sẵn có trong dự án .NET của bạn.
-type: docs
 weight: 17
 url: /vi/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các khoảng thời gian khả dụng trong Aspose.Tasks dành cho .NET. Khoảng thời gian sẵn sàng là rất quan trọng để quản lý tài nguyên hiệu quả trong các tình huống quản lý dự án. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -107,3 +113,9 @@ Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí As
 ### Câu hỏi 5: Bạn có cung cấp giấy phép tạm thời cho Aspose.Tasks cho .NET không?
 
  Câu trả lời 5: Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

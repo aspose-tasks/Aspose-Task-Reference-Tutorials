@@ -3,10 +3,16 @@ title: Aspose.Tasks परियोजनाओं में मुद्रा 
 linktitle: Aspose.Tasks परियोजनाओं में मुद्रा गुण पढ़ें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से मुद्रा जानकारी निकालने का तरीका जानें। चरण-दर-चरण मार्गदर्शिका प्रदान की गई.
-type: docs
 weight: 10
 url: /hi/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks परियोजनाओं में मुद्रा गुण पढ़ें
+
 ## परिचय
 इस ट्यूटोरियल में, हम सीखेंगे कि माइक्रोसॉफ्ट प्रोजेक्ट फाइलों से मुद्रा गुणों को पढ़ने के लिए जावा के लिए Aspose.Tasks का उपयोग कैसे करें। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट को स्थापित करने की आवश्यकता के बिना Microsoft प्रोजेक्ट दस्तावेज़ों में हेरफेर करने में सक्षम बनाता है। नीचे दिए गए चरणों का पालन करके, आप मुद्रा से संबंधित जानकारी आसानी से निकालने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -57,3 +63,9 @@ System.out.println("Process completed Successfully");
  उत्तर: हाँ, आप Aspose.Tasks के निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं Aspose.Tasks के लिए सहायता या सहायता कहां से मांग सकता हूं?
  उत्तर: आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15) किसी भी सहायता या प्रश्न के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

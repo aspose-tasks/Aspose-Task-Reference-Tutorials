@@ -3,10 +3,16 @@ title: Trích xuất thông tin dự án MS trong Aspose.Tasks
 linktitle: Trích xuất thông tin dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách trích xuất thông tin MS Project một cách dễ dàng bằng Aspose.Tasks for .NET. Đi sâu vào hướng dẫn toàn diện của chúng tôi.
-type: docs
 weight: 20
 url: /vi/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách trích xuất thông tin từ các tệp Microsoft Project một cách hiệu quả bằng Aspose.Tasks cho .NET? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình. Nhưng trước khi đi sâu vào chi tiết triển khai, trước tiên hãy đảm bảo bạn có mọi thứ mình cần.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Trả lời: Có, Aspose.Tasks cho .NET tương thích với cả nền tảng W
  Đáp: Có, bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Tasks for .NET thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp từ các chuyên gia.
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua không?
  Đ: Chắc chắn rồi! Bạn có thể tận dụng bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang phát hành](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi đưa ra quyết định mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

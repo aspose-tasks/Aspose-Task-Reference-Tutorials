@@ -3,10 +3,16 @@ title: Aspose.Tasks Gelişmiş Konseptler
 linktitle: Aspose.Tasks Gelişmiş Konseptler
 second_title: Aspose.Tasks .NET API'si
 description: Görüntü kaydetmeyi, istisnaları yönetmeyi, ağaç algoritmalarını, etiket görüntülemeyi, yükleme seçeneklerini ve daha fazlasını öğrenin. Aspose.Tasks for .NET'te ileri düzey kavramlarda uzmanlaşın
-type: docs
 weight: 24
 url: /tr/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gelişmiş Konseptler
+
 
 ## giriiş
 
@@ -84,3 +90,9 @@ Görevleri etkili bir şekilde filtrelemek için Aspose.Tasks for .NET'te NOT i�
 Aspose.Tasks'ı kullanarak .NET uygulamalarında OLE nesneleriyle nasıl verimli bir şekilde çalışabileceğinizi öğrenin ve proje yönetimi yeteneklerini geliştirin.
 ### [Aspose.Tasks'ta OLE Nesnelerinin Toplanması](./ole-object-collection/)
 Bu kapsamlı eğitimle Aspose.Tasks for .NET'te OLE nesnelerini nasıl yöneteceğinizi öğrenin. Proje belgeleri içindeki gömülü dosyaların işlenmesinde zahmetsizce ustalaşın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

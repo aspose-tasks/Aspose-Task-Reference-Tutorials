@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Grup Kriterlerinin Değiştirilmesi
 linktitle: Aspose.Tasks'ta Grup Kriterleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak MS Project dosyalarını .NET'te programlı olarak nasıl değiştireceğinizi keşfedin. Görev grubu ve kriter bilgilerini adım adım örneklerle alın.
-type: docs
 weight: 27
 url: /tr/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Grup Kriterlerinin Değiştirilmesi
+
 ## giriiş
 Aspose.Tasks for .NET, .NET uygulamalarınızda Microsoft Project dosyalarıyla çalışmayı kolaylaştıran güçlü bir API'dir. İster proje yönetimi yazılımı geliştiriyor olun ister proje verilerini programlı olarak manipüle etmek istiyor olun, Aspose.Tasks ihtiyaçlarınızı karşılayacak kapsamlı bir dizi özellik sunar.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Kesinlikle Aspose.Tasks, görevler, kaynaklar, takvimler ve daha fazlası dahil 
 Evet, Aspose.Tasks; .NET Framework, .NET Core ve .NET Standard dahil olmak üzere birden fazla .NET platformunu destekler.
 ### Aspose.Tasks için yardım isteyebileceğim bir topluluk forumu var mı?
  Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Soru sormak, bilgi paylaşmak ve diğer kullanıcılarla işbirliği yapmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

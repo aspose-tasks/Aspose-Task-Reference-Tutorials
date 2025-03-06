@@ -3,10 +3,16 @@ title: Aspose.Tasks में विभाजित कार्य समाप
 linktitle: Aspose.Tasks में विभाजित कार्य समाप्ति तिथि
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके कार्य समाप्ति तिथियों को आसानी से विभाजित करना सीखें। सटीक समयसीमा के साथ परियोजना प्रबंधन बढ़ाएँ।
-type: docs
 weight: 28
 url: /hi/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में विभाजित कार्य समाप्ति तिथि
+
 ## परिचय
 परियोजना प्रबंधन में, परियोजना के सफल समापन के लिए कार्य की समय-सीमा को समझना महत्वपूर्ण है। जावा के लिए Aspose.Tasks परियोजना कार्यों में कुशलतापूर्वक हेरफेर करने के लिए शक्तिशाली सुविधाएँ प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके कार्य समाप्ति तिथियों को विभाजित करने में गहराई से उतरेंगे, जिससे आपको प्रोजेक्ट टाइमलाइन को प्रभावी ढंग से प्रबंधित करने में मदद मिलेगी।
 ## आवश्यक शर्तें
@@ -54,3 +60,9 @@ System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 h
  उ4: सहायता मंच पर जाएँ[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### Q5: क्या मैं Aspose.Tasks खरीद सकता हूँ?
  A5: हाँ, आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

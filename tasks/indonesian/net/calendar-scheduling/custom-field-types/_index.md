@@ -3,10 +3,16 @@ title: Jenis Bidang Kustom di Aspose.Tasks
 linktitle: Jenis Bidang Kustom di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja dengan tipe bidang kustom di Aspose.Tasks untuk .NET. Panduan langkah demi langkah dengan contoh kode dan FAQ.
-type: docs
 weight: 23
 url: /id/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jenis Bidang Kustom di Aspose.Tasks
+
 ## Perkenalan
 
 Selamat datang di tutorial kami tentang bekerja dengan tipe bidang khusus di Aspose.Tasks untuk .NET! Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Dalam tutorial ini, kita akan fokus pada pemahaman dan pemanfaatan jenis bidang khusus, yang merupakan aspek penting dalam bekerja dengan data proyek.
@@ -89,3 +95,9 @@ A4: Ya, Aspose.Tasks memungkinkan Anda memanipulasi data tugas dan sumber daya d
 ### Q5: Apakah ada forum komunitas untuk pengguna Aspose.Tasks?
 
  A5: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk berinteraksi dengan pengguna lain dan mendapatkan dukungan dari tim Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

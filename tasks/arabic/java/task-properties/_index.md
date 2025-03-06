@@ -3,10 +3,16 @@ title: خصائص المهمة
 linktitle: خصائص المهمة
 second_title: Aspose.Tasks جافا API
 description: تحسين إدارة مشروعات Java باستخدام Aspose.Tasks. استكشف البرامج التعليمية حول خصائص المهام، بدءًا من التعامل مع الأولويات وحتى إدارة التكاليف. تحسين مشروعك اليوم!
-type: docs
 weight: 34
 url: /ar/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خصائص المهمة
+
 ## مقدمة
 
 يمكنك إدارة ملفات Microsoft Project وتخصيصها بسهولة في Java باستخدام Aspose.Tasks. استكشف البرامج التعليمية التي تغطي جوانب مختلفة من خصائص المهمة لتعزيز قدرات إدارة مشروعك.
@@ -138,3 +144,9 @@ url: /ar/java/task-properties/
 تعرف على كيفية تحديث بيانات المهمة إلى تنسيق MPP باستخدام Aspose.Tasks لـ Java. اتبع دليلنا خطوة بخطوة لإدارة المشاريع بكفاءة.
 ### [WBS المرتبطة بالمهمة في Aspose.Tasks](./wbs-associated-with-task/)
 إتقان WBS باستخدام Aspose.Tasks لـ Java - تعلم كيفية قراءة رموز WBS للمهام وإعادة ترقيمها. تعزيز كفاءة إدارة المشروع!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

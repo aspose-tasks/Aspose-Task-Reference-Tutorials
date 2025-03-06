@@ -3,10 +3,16 @@ title: Aspose.Tasks Projektmenedzsment és integráció
 linktitle: Aspose.Tasks Projektmenedzsment és integráció
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az átfogó Aspose.Tasks for .NET oktatóanyagokat, amelyek lefedik az MS Project kezelését, integrációját és testreszabását. Fejlessze projektmenedzsment készségeit most!
-type: docs
 weight: 27
 url: /hu/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projektmenedzsment és integráció
+
 
 ## Bevezetés
 
@@ -62,3 +68,9 @@ Ismerje meg, hogyan kezelheti zökkenőmentesen az MS Project Server hitelesít�
 Oldja fel az MS Project Server zökkenőmentes kezelését az Aspose.Tasks for .NET segítségével. Automatizálja a projektfeladatokat könnyedén.
 ### [MS Project Views testreszabása az Aspose.Tasks programban](./project-views/)
 Ismerje meg, hogyan testreszabhatja az MS Project nézeteit az Aspose.Tasks for .NET használatával. Kövesse lépésről lépésre útmutatónkat a hatékony projektmenedzsment-vizualizációhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

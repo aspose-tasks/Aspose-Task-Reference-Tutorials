@@ -3,10 +3,16 @@ title: Projektledning
 linktitle: Projektledning
 second_title: Aspose.Tasks Java API
 description: Utforska Aspose.Tasks Java med våra omfattande självstudier för projektledning. Från kritiska vägberäkningar till räkenskapsårsfastigheter, effektivisera ditt arbetsflöde.
-type: docs
 weight: 27
 url: /sv/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektledning
+
 ## Introduktion
 
 Är du redo att höja dina färdigheter i projektledning med Aspose.Tasks för Java? Dyk in i våra exklusiva tutorials som täcker ett spektrum av funktioner och funktioner som kommer att stärka din Java-utvecklingsresa. Från kritiska sökvägsberäkningar till hantering av undantag för uppgiftsskrivning under utskrift, vi har dig täckt. Låt oss utforska rikedomen av kunskap som väntar på dig.
@@ -69,3 +75,9 @@ Lär dig hur du läser MS Project-filer från Primavera XML sömlöst med Aspose
 Lär dig hur du skriver ut sidor för att separera bilder i Aspose.Tasks för Java. Förbättra projektvisualiseringen med denna steg-för-steg-guide.
 ### [Hantera undantag för uppgiftsskrivning under utskrift i Aspose.Tasks](./print-task-exceptions/)
 Bemästra undantagshantering i Aspose.Tasks för Java för att säkerställa sömlös projektexekvering. Lär dig hur du hanterar undantag för uppgiftsskrivning under utskrift utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

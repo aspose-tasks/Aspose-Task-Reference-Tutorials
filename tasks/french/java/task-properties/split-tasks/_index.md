@@ -3,10 +3,16 @@ title: Fractionner les tâches dans Aspose.Tasks
 linktitle: Fractionner les tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Maîtrisez la gestion des tâches en Java avec Aspose.Tasks ! Apprenez à répartir efficacement les tâches pour optimiser les délais de projet. Télécharger maintenant!
-type: docs
 weight: 29
 url: /fr/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fractionner les tâches dans Aspose.Tasks
+
 ## Introduction
 Avez-vous des difficultés avec la gestion des tâches dans votre projet Java ? Aspose.Tasks for Java fournit une solution puissante pour diviser efficacement les tâches, améliorant ainsi les capacités de gestion de projet. Dans ce didacticiel, nous vous guiderons tout au long du processus de répartition des tâches à l'aide d'Aspose.Tasks for Java, vous aidant ainsi à optimiser les délais de votre projet et les allocations de ressources.
 ## Conditions préalables
@@ -88,3 +94,9 @@ Aspose.Tasks for Java propose un essai gratuit, vous permettant d'explorer ses f
  Visiter le[Forum de support Aspose.Tasks pour Java](https://forum.aspose.com/c/tasks/15) pour obtenir de l'aide et entrer en contact avec la communauté.
 ### Ai-je besoin d’une licence temporaire pour Aspose.Tasks pour Java ?
  Vous pouvez obtenir une licence temporaire auprès de[ce lien](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

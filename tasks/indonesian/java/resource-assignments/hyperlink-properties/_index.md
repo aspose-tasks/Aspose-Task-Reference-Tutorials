@@ -3,10 +3,16 @@ title: Kelola Properti Hyperlink untuk Tugas di Aspose.Tasks
 linktitle: Kelola Properti Hyperlink untuk Penugasan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola properti hyperlink untuk penetapan sumber daya di Aspose.Tasks untuk Java. Meningkatkan kolaborasi dan aksesibilitas dalam manajemen proyek.
-type: docs
 weight: 16
 url: /id/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Properti Hyperlink untuk Tugas di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java menawarkan fitur canggih untuk mengelola tugas dan sumber daya proyek. Dalam tutorial ini, kita akan fokus pada cara mengelola properti hyperlink untuk penetapan sumber daya menggunakan Aspose.Tasks. Dengan mengikuti petunjuk langkah demi langkah ini, Anda akan dapat menangani hyperlink yang terkait dengan penetapan sumber daya proyek Anda secara efisien.
 ## Prasyarat
@@ -84,3 +90,9 @@ J: Aspose.Tasks tidak menerapkan batasan ketat pada panjang hyperlink. Namun, di
 J: Ya, Anda dapat menghapus hyperlink dari penetapan sumber daya dengan mengatur properti hyperlink ke string nol atau kosong.
 ### T: Apakah Aspose.Tasks mendukung validasi hyperlink?
 J: Aspose.Tasks berfokus pada pengelolaan properti hyperlink daripada memvalidasi hyperlink. Namun, Anda dapat menerapkan logika validasi khusus dalam aplikasi Java Anda untuk memastikan integritas hyperlink.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý chi phí tài nguyên dự án MS với Aspose.Tasks cho Java
 linktitle: Xử lý chi phí tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý chi phí tài nguyên MS Project một cách hiệu quả với Aspose.Tasks cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 18
 url: /vi/java/resource-management/resource-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý chi phí tài nguyên dự án MS với Aspose.Tasks cho Java
+
 ## Giới thiệu
 
 Trong quản lý dự án, việc giám sát và quản lý chi phí nguồn lực là rất quan trọng để duy trì dự án trong phạm vi ngân sách và đảm bảo lợi nhuận. Aspose.Tasks for Java cung cấp các công cụ mạnh mẽ để xử lý chi phí tài nguyên Microsoft Project một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách quản lý hiệu quả chi phí tài nguyên bằng Aspose.Tasks cho Java, chia nhỏ từng bước thành các hướng dẫn dễ thực hiện.
@@ -93,3 +99,9 @@ Câu trả lời 4: Có, Aspose cung cấp hỗ trợ khách hàng tuyệt vời
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho Java không?
 
 Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks dành cho Java để khám phá các tính năng của nó trước khi đưa ra quyết định mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Освоение повременного сбора данных в Aspo
 linktitle: Сбор повременных данных в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите повременный сбор данных в Aspose.Tasks для .NET. Пошаговое руководство, часто задаваемые вопросы и многое другое. Расширьте свои возможности управления проектами уже сегодня!
-type: docs
 weight: 15
 url: /ru/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение повременного сбора данных в Aspose.Tasks
+
 ## Введение
 Хотите использовать возможности повременных данных в своих .NET-приложениях с помощью Aspose.Tasks? Не смотрите дальше! Это подробное руководство проведет вас через процесс сбора повременных данных с помощью Aspose.Tasks для .NET, гарантируя, что вы максимально эффективно используете эту мощную библиотеку.
 ## Предварительные условия
@@ -121,3 +127,9 @@ Aspose.Tasks обрабатывает проекты разного размер
  Да, вы можете изучить возможности Aspose.Tasks для .NET, открыв[бесплатная пробная версия](https://releases.aspose.com/).
 ### Где я могу приобрести лицензию на Aspose.Tasks для .NET?
 Вы можете приобрести лицензию на Aspose.Tasks для .NET.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

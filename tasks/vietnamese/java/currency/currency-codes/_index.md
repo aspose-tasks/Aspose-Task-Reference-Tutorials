@@ -3,10 +3,16 @@ title: Quản lý mã tiền tệ trong Aspose.Tasks
 linktitle: Quản lý mã tiền tệ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý tiền tệ mã MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Hợp lý hóa các nhiệm vụ quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý mã tiền tệ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách quản lý mã MS Project tiền tệ bằng Aspose.Tasks cho Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xử lý mã tiền tệ trong tệp MS Project của bạn một cách dễ dàng. Aspose.Tasks là một API Java mạnh mẽ cho phép bạn thao tác các tài liệu Microsoft Project theo chương trình, cung cấp nhiều chức năng để hợp lý hóa các nhiệm vụ quản lý dự án của bạn.
 ## Điều kiện tiên quyết
@@ -53,3 +59,9 @@ Trả lời: Có, Aspose.Tasks cung cấp tài liệu toàn diện và hỗ tr�
 Trả lời: Có, bạn có thể khám phá Aspose.Tasks thông qua bản dùng thử miễn phí để đánh giá các tính năng và mức độ phù hợp của nó với yêu cầu dự án của bạn.
 ### Câu hỏi: Tôi có thể lấy giấy phép tạm thời cho Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể lấy giấy phép tạm thời cho Aspose.Tasks từ[trang mạng](https://purchase.aspose.com/temporary-license/) trong một thời gian giới hạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arbeta med Kalender i Aspose.Tasks
 linktitle: Arbeta med Kalender i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Hantera projektkalendrar, beräkna varaktigheter, hantera undantag med lätthet med Aspose.Tasks för .NET.
-type: docs
 weight: 10
 url: /sv/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med Kalender i Aspose.Tasks
+
 ## Introduktion
 
 Aspose.Tasks för .NET tillhandahåller kraftfulla funktioner för att arbeta med kalendrar, vilket gör det möjligt för utvecklare att effektivt hantera projektscheman och resursallokeringar. I den här handledningen kommer vi att utforska hur man använder Aspose.Tasks för att interagera med kalendrar, och täcker viktiga funktioner som att hämta kalenderinformation, definiera arbetsveckor, beräkna arbetstimmar och mer.
@@ -497,3 +503,9 @@ S4: Ja, du kan skapa anpassade kalendrar som nattskiftskalendrar med Aspose.Task
 ### F5: Kan jag hämta information om kalenderundantag från projektfiler?
 
 S5: Ja, du kan enkelt hämta information om kalenderundantag från projektfiler med Aspose.Tasks för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

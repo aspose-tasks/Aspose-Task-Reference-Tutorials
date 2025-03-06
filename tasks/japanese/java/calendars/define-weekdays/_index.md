@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用してカレンダーの平日を定義する
 linktitle: Aspose.Tasks を使用してカレンダーの平日を定義する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project Calendar で曜日を定義する方法を学びます。稼働日とタイミングを簡単にカスタマイズできます。
-type: docs
 weight: 12
 url: /ja/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用してカレンダーの平日を定義する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して MS Project カレンダーで平日を定義するプロセスを順を追って説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力な Java ライブラリです。
 ## 前提条件
@@ -82,3 +88,9 @@ A: はい、Aspose.Tasks は、MPP、MPT、XML 形式など、さまざまなバ
 A: はい、カレンダーを含む既存のプロジェクトをロードし、変更を加えて、変更を元のファイルに保存できます。
 ### Q5: Aspose.Tasks は定期的なタスクをサポートしていますか?
 A: はい、Aspose.Tasks を使用すると、繰り返しのパターンや期間の定義など、繰り返しのタスクを操作できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

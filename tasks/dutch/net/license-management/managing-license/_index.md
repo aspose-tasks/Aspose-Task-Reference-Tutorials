@@ -3,10 +3,16 @@ title: Beheer van MS Project-licentie in Aspose.Tasks .NET
 linktitle: Aspose.Tasks-licentie beheren in .NET
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Aspose.Tasks-licenties in .NET-applicaties naadloos kunt beheren met behulp van op bestanden of streams gebaseerde benaderingen.
-type: docs
 weight: 10
 url: /nl/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer van MS Project-licentie in Aspose.Tasks .NET
+
 ## Invoering
 Het beheren van licenties is een cruciaal aspect van het effectief gebruik van Aspose.Tasks in .NET-applicaties. Zonder de juiste licenties kunt u beperkingen of beperkingen tegenkomen op uw gebruik. Gelukkig biedt Aspose.Tasks eenvoudige methoden om licenties toe te passen met behulp van bestanden of streams in uw .NET-projecten. In deze zelfstudie onderzoeken we stap voor stap hoe u Aspose.Tasks-licenties in .NET-toepassingen kunt beheren.
 ## Vereisten
@@ -98,3 +104,9 @@ A: Zonder een geldige licentie werkt Aspose.Tasks in de evaluatiemodus, die bepa
 ### Vraag: Kan ik hetzelfde licentiebestand voor meerdere toepassingen gebruiken?
 
 A: Ja, u kunt hetzelfde licentiebestand gebruiken voor meerdere applicaties die door dezelfde licentiehouder zijn ontwikkeld. Zorg er echter voor dat uw licentie voldoet aan de gebruiksvoorwaarden die door Aspose zijn gespecificeerd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

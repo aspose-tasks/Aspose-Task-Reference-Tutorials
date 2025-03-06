@@ -3,10 +3,16 @@ title: Lettura dei dati di MS Project Primavera con Aspose.Tasks
 linktitle: Lettura dei dati Primavera con Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come leggere i dati di MS Project Primavera utilizzando Aspose.Tasks per .NET. Guida passo passo con esempi di codice.
-type: docs
 weight: 12
 url: /it/net/project-management-integration/primavera-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lettura dei dati di MS Project Primavera con Aspose.Tasks
+
 ## introduzione
 Benvenuti nella nostra guida completa sulla lettura di MS Project Primavera Data con Aspose.Tasks per .NET! In questo tutorial ti guideremo attraverso il processo di accesso e manipolazione dei dati di MS Project Primavera utilizzando Aspose.Tasks, una potente API .NET che consente agli sviluppatori di lavorare con i file di Microsoft Project a livello di codice.
 ## Prerequisiti
@@ -67,3 +73,9 @@ R: Assolutamente! Aspose.Tasks ti consente non solo di leggere ma anche di modif
  R: Sì, puoi usufruire di una prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/)per esplorare le sue caratteristiche e capacità prima di effettuare un acquisto.
 ### D: Dove posso ottenere supporto per Aspose.Tasks?
  R: Per qualsiasi domanda o assistenza relativa ad Aspose.Tasks, è possibile visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dove puoi ottenere aiuto dalla comunità o dallo staff di supporto Aspose.## Codice sorgente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

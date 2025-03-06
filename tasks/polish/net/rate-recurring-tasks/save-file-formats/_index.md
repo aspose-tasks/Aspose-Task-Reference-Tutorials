@@ -3,10 +3,16 @@ title: Zapisywanie plików MS Project w różnych formatach w Aspose.Tasks
 linktitle: Zapisywanie plików w różnych formatach w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisywać pliki MS Project w różnych formatach przy użyciu Aspose.Tasks dla .NET. Proste kroki do skutecznego zarządzania projektami.
-type: docs
 weight: 17
 url: /pl/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisywanie plików MS Project w różnych formatach w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy, jak zapisywać pliki Microsoft Project w różnych formatach przy użyciu Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który pozwala programistom programowo manipulować plikami projektu i zarządzać nimi.
 ## Warunki wstępne
@@ -55,3 +61,9 @@ Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https:/
  Odpowiedź: Tak, licencje tymczasowe są dostępne do celów próbnych. Możesz taki otrzymać[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Jaka jest cena Aspose.Tasks?
  Odp.: Informacje o cenach można znaleźć na stronie zakupu Aspose.Tasks[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

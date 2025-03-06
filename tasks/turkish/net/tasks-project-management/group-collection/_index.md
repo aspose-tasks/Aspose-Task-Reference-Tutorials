@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Proje Koleksiyonlarını Yönetme
 linktitle: Aspose.Tasks'ta Grup Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project koleksiyonlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım kılavuzumuzu takip edin.
-type: docs
 weight: 26
 url: /tr/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Proje Koleksiyonlarını Yönetme
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET kullanarak grup MS Project koleksiyonlarının nasıl yönetileceğini inceleyeceğiz. Grup koleksiyonlarını yönetmek, projenizdeki görevleri ve kaynakları verimli bir şekilde organize etmek ve yönetmek için çok önemlidir.
 ## Önkoşullar
@@ -108,3 +114,9 @@ Aspose.Tasks for .NET öncelikle .NET çerçevesini hedefler ancak .NET Core ve 
  Aspose.Tasks for .NET için destek alabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
  Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

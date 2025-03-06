@@ -3,10 +3,16 @@ title: Schritt-für-Schritt-PSP-Codekonfiguration in Aspose.Tasks .NET
 linktitle: Konfigurieren von WBS-Codemasken in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Schritt-für-Schritt-Konfiguration von WBS-Codemasken in .NET-Projekten mit Aspose.Tasks. Erweitern Sie mühelos Ihre Projektmanagementfunktionen.
-type: docs
 weight: 14
 url: /de/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schritt-für-Schritt-PSP-Codekonfiguration in Aspose.Tasks .NET
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die effiziente Bearbeitung von Projektmanagementdaten in .NET-Anwendungen ermöglicht. In diesem Tutorial untersuchen wir den Prozess der Konfiguration von WBS-Codemasken (Work Breakdown Structure) mithilfe von Aspose.Tasks.
 ## Voraussetzungen
@@ -91,3 +97,9 @@ In diesem Tutorial haben wir den schrittweisen Prozess der Konfiguration von WBS
  Ja, die umfassende Dokumentation ist vorhanden[Hier](https://reference.aspose.com/tasks/net/).
 ### Wo kann ich Aspose.Tasks kaufen?
  Kaufen Sie Aspose.Tasks[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

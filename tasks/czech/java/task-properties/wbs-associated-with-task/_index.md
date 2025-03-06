@@ -3,10 +3,16 @@ title: WBS spojené s úlohou v Aspose.Tasks
 linktitle: WBS spojené s úlohou v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Zvládněte WBS pomocí Aspose.Tasks for Java - Naučte se číst a přečíslovat kódy úkolu WBS. Zvyšte efektivitu řízení projektů!
-type: docs
 weight: 36
 url: /cs/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS spojené s úlohou v Aspose.Tasks
+
 ## Úvod
 Vítejte ve světě projektového řízení s Aspose.Tasks for Java! V tomto tutoriálu se ponoříme do složitosti Work Breakdown Structure (WBS) spojené s úkoly pomocí Aspose.Tasks for Java. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vám pomůže procházet základy efektivní správy kódů WBS.
 ## Předpoklady
@@ -90,3 +96,9 @@ Gratulujeme! Úspěšně jste se naučili pracovat s kódy WBS pomocí Aspose.Ta
  A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu.
 ### Otázka: Mohu získat dočasnou licenci pro Aspose.Tasks for Java?
  Odpověď: Ano, získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

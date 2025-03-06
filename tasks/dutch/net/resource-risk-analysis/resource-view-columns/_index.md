@@ -3,10 +3,16 @@ title: Pas de kolommen van de MS Project Resource View aan in Aspose.Tasks
 linktitle: Kolommen voor bronweergave aanpassen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de kolommen voor de resourceweergave van MS Project efficiënt kunt aanpassen met Aspose.Tasks voor .NET. Creëer op maat gemaakte weergaven voor beter projectbeheer.
-type: docs
 weight: 17
 url: /nl/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de kolommen van de MS Project Resource View aan in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken. Een veel voorkomende taak bij projectbeheer is het aanpassen van weergaven om specifieke informatie weer te geven. In deze zelfstudie onderzoeken we hoe u de kolommen voor de resourceweergave van MS Project kunt aanpassen met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -94,3 +100,9 @@ Absoluut, Aspose.Tasks biedt uitgebreide opmaakopties om het uiterlijk van uw aa
 Ja, u kunt de aangepaste weergave bijwerken en opnieuw genereren wanneer de onderliggende projectgegevens veranderen.
 ### Ondersteunt Aspose.Tasks platformonafhankelijke ontwikkeling?
 Aspose.Tasks voor .NET richt zich primair op .NET-platforms, maar er zijn ook versies beschikbaar voor Java en andere platforms.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

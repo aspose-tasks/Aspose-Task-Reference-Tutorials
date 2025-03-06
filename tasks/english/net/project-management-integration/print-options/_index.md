@@ -3,10 +3,16 @@ title: Configuring MS Project Printing Options in Aspose.Tasks
 linktitle: Configuring Printing Options in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure MS Project printing options seamlessly using Aspose.Tasks for .NET. Enhance your project management capabilities.
-type: docs
 weight: 14
 url: /net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring MS Project Printing Options in Aspose.Tasks
+
 ## Introduction
 In the realm of software development, Aspose.Tasks for .NET stands out as a powerful tool for managing tasks and projects efficiently. One of its key features is the ability to configure Microsoft Project printing options seamlessly. In this tutorial, we'll delve into the process of configuring MS Project printing options using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -61,3 +67,10 @@ A: Yes, Aspose.Tasks for .NET is designed to support multi-threading, enabling e
 A: Yes, users can access comprehensive technical support through the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), where they can seek assistance and guidance from experts.
 ### Q: Can I evaluate Aspose.Tasks for .NET before making a purchase?
 A: Absolutely! You can avail of a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/) to explore its features and functionalities before making a commitment.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Weekdays in Aspose.Tasks
 linktitle: Collection of Weekdays in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Discover the power of Aspose.Tasks for .NET in managing weekdays effortlessly. Customize working days, remove weekends, and create specialized calendars with ease.
-type: docs
 weight: 11
 url: /net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Weekdays in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that facilitates efficient manipulation of project management data. In this tutorial, we will explore the collection of weekdays in Aspose.Tasks, enabling you to customize working days, remove weekends, and create specialized calendars to meet your project requirements. Whether you are a seasoned developer or a newcomer, this step-by-step guide will walk you through the process of working with weekdays in Aspose.Tasks for .NET.
 ## Prerequisites
@@ -95,3 +101,10 @@ A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for commu
 A: Refer to the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) for detailed information.
 ### Q: How do I obtain a temporary license for Aspose.Tasks for .NET?
 A: You can acquire a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

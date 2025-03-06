@@ -3,10 +3,16 @@ title: تكوين طرق عرض الاستخدام في Aspose.Tasks
 linktitle: تكوين طرق عرض الاستخدام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين طرق عرض استخدام المهام في Aspose.Tasks لـ .NET. تعزيز تصور المشروع بخطوات تفصيلية. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 17
 url: /ar/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين طرق عرض الاستخدام في Aspose.Tasks
+
 ## مقدمة
 إذا كنت مطور .NET وتتطلع إلى تحسين قدرات إدارة مشروعك، فإن Aspose.Tasks هي أداة قوية تسمح لك بمعالجة ملفات Microsoft Project دون عناء. في هذا البرنامج التعليمي، سنركز على تكوين طرق عرض الاستخدام باستخدام Aspose.Tasks لـ .NET. تابع للحصول على رؤى حول عرض طرق عرض استخدام المهام مع تفاصيل لتحسين تصور المشروع.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  نعم، استكشف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: هل تحتاج إلى دعم أو لديك أسئلة؟
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

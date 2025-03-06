@@ -3,10 +3,16 @@ title: Beheers MS-projectrapportage met Aspose.Tasks
 linktitle: Werken met rapporttypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u met MS Project-bestanden kunt werken met Aspose.Tasks voor .NET. Genereer moeiteloos verschillende rapporttypen.
-type: docs
 weight: 16
 url: /nl/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheers MS-projectrapportage met Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden gemakkelijk kunnen manipuleren. Of u nu werkt aan projectbeheer, planning of rapportagetaken, Aspose.Tasks biedt een uitgebreide reeks functies om uw workflow te stroomlijnen. In deze zelfstudie onderzoeken we hoe u met MS Project-bestanden kunt werken en verschillende rapporttypen kunt genereren met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -55,3 +61,9 @@ A: Ja, u kunt Aspose.Tasks voor .NET gebruiken in commerciële projecten, maar u
  A: U kunt steun krijgen van de gemeenschap[hier](https://forum.aspose.com/c/tasks/15).
 ### V5: Hoe download ik Aspose.Tasks voor .NET?
  A: U kunt Aspose.Tasks voor .NET downloaden van[hier](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

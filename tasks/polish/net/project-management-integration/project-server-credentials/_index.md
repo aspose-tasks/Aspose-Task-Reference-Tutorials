@@ -3,10 +3,16 @@ title: Zarządzanie poświadczeniami serwera MS Project w Aspose.Tasks
 linktitle: Zarządzanie poświadczeniami serwera projektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak płynnie zarządzać poświadczeniami MS Project Server za pomocą Aspose.Tasks dla .NET. Zwiększ efektywność zarządzania projektami.
-type: docs
 weight: 22
 url: /pl/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie poświadczeniami serwera MS Project w Aspose.Tasks
+
 ## Wstęp
 zarządzaniu projektami skuteczna koordynacja i płynna komunikacja mają kluczowe znaczenie dla pomyślnej realizacji projektu. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do zarządzania poświadczeniami Microsoft Project Server, umożliwiając użytkownikom bezpieczny dostęp i manipulowanie danymi projektu. Ten samouczek omawia proces zarządzania poświadczeniami MS Project Server przy użyciu Aspose.Tasks dla .NET, prowadząc użytkowników przez każdy krok, aby zapewnić płynne działanie.
 ## Warunki wstępne
@@ -83,3 +89,9 @@ Odpowiedź: Oczywiście, Aspose.Tasks dla .NET oferuje kompleksowe wsparcie w za
 O: Tak, Aspose.Tasks dla .NET oferuje elastyczne opcje licencjonowania, w tym licencje tymczasowe do celów próbnych i licencje pełne do użytku komercyjnego.
 ### P: Gdzie mogę szukać pomocy lub wsparcia dla Aspose.Tasks dla .NET?
  Odp.: W przypadku jakichkolwiek pytań lub pomocy dotyczącej Aspose.Tasks dla .NET możesz odwiedzić forum pomocy technicznej pod adresem[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletny kod źródłowy
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

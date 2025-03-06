@@ -3,10 +3,16 @@ title: Configuring MS Project Legends in Aspose.Tasks
 linktitle: Configuring Page Legend in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure MS Project page legends in .NET using Aspose.Tasks for efficient project management. Step-by-step guide provided.
-type: docs
 weight: 18
 url: /net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring MS Project Legends in Aspose.Tasks
+
 ## Introduction
 In the realm of .NET development, managing tasks efficiently is crucial, especially when dealing with project management. Aspose.Tasks for .NET emerges as a powerful tool, offering a plethora of functionalities to streamline task management processes. One such feature is the ability to configure MS Project page legends, providing users with valuable insights into project data presentation.
 ## Prerequisites
@@ -85,3 +91,10 @@ A: Temporary licenses offer full access to Aspose.Tasks for .NET functionalities
 A: Absolutely, Aspose.Tasks for .NET offers extensive customization options, allowing you to tailor page legends according to your specific project requirements.
 ### Q: Where can I find support or community forums for Aspose.Tasks for .NET?
 A: You can seek support and engage with the community at the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), where you can find answers to queries and interact with fellow developers.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

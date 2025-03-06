@@ -3,10 +3,16 @@ title: حساب النسب المئوية لتخصيص الموارد باستخ
 linktitle: حساب النسب المئوية لتعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية حساب النسب المئوية لتعيينات الموارد بكفاءة في مشاريع Java باستخدام Aspose.Tasks، مما يبسط مهام إدارة المشروع.
-type: docs
 weight: 13
 url: /ar/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب النسب المئوية لتخصيص الموارد باستخدام Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، يعد حساب تخصيصات الموارد بدقة أمرًا بالغ الأهمية لضمان إنجاز المهام في الوقت المناسب والتخصيص الفعال للموارد. يوفر Aspose.Tasks for Java أدوات قوية لتسهيل هذه العملية، مما يسمح للمطورين بحساب النسب المئوية لتعيينات الموارد بسهولة.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  ج: نعم، يقدم Aspose.Tasks دعمًا مخصصًا للعملاء من خلال المنتدى الخاص بهم. يمكنك العثور على المساعدة[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
  ج: نعم، يمكنك استكشاف Aspose.Tasks من خلال الإصدار التجريبي المجاني المتاح[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

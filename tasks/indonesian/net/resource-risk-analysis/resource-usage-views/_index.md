@@ -3,10 +3,16 @@ title: Mengonfigurasi Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks
 linktitle: Mengonfigurasi Tampilan Penggunaan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tampilan penggunaan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
-type: docs
 weight: 15
 url: /id/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project (MS Project) adalah alat yang ampuh untuk manajemen proyek, memungkinkan pengguna merencanakan, melaksanakan, dan melacak proyek mereka secara efisien. Aspose.Tasks untuk .NET menyediakan integrasi yang lancar dengan file MS Project, memungkinkan pengembang memanipulasi data proyek secara terprogram. Dalam tutorial ini, kita akan mempelajari cara mengonfigurasi tampilan penggunaan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -58,3 +64,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format output termasuk XLSX, MPP, XML, HT
  A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk pertanyaan, diskusi, atau kebutuhan dukungan apa pun.
 ### T: Dapatkah saya mencoba Aspose.Tasks sebelum membeli?
  J: Tentu saja, Anda dapat menjelajahi Aspose.Tasks dengan tersedia uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

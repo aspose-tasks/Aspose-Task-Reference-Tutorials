@@ -3,10 +3,16 @@ title: Proje Yapılandırması
 linktitle: Proje Yapılandırması
 second_title: Aspose.Tasks Java API'si
 description: Kapsamlı eğitimlerimizle Aspose.Tasks for Java'nın gücünü keşfedin. Gantt grafiklerini yapılandırın, MS Project dosyaları oluşturun ve proje yönetimini kolaylaştırın.
-type: docs
 weight: 26
 url: /tr/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proje Yapılandırması
+
 ## giriiş
 
 Aspose.Tasks for Java'nın tüm potansiyelini ortaya çıkarmaya hazır mısınız? Bu güçlü aracı kullanarak proje yapılandırmasında uzmanlaşmak için ayrıntılı eğitimlerimize dalın. İster deneyimli bir geliştirici ister yeni başlayan biri olun, adım adım kılavuzlarımız Aspose.Tasks'ın özelliklerinden sorunsuz bir şekilde yararlanmanızı sağlayacak.
@@ -45,3 +51,9 @@ Aspose.Tasks'ı kullanarak Java'da boş Microsoft Project dosyalarını nasıl o
 Aspose.Tasks for Java'yı kullanarak boş bir MS Project dosyasını (MPP) nasıl oluşturup kaydedeceğinizi öğrenin. Proje yönetimi görevlerini zahmetsizce basitleştirin.
 ### [Aspose.Tasks'ta Boş Proje Oluşturun ve Akışa Kaydedin](./create-save-stream/)
 Aspose.Tasks ile boş MS Project dosyalarını oluşturmayı ve Java'daki bir akışa kaydetmeyi öğrenin, proje yönetimi görevlerini zahmetsizce basitleştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

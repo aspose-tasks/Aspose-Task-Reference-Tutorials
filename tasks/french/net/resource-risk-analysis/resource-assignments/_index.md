@@ -3,10 +3,16 @@ title: Gestion des affectations de ressources MS Project dans Aspose.Tasks
 linktitle: Gestion des affectations de ressources dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les affectations de ressources MS Project à l'aide d'Aspose.Tasks pour .NET. Ce document complet fournit des conseils étape par étape aux développeurs.
-type: docs
 weight: 11
 url: /fr/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des affectations de ressources MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment gérer efficacement les affectations de ressources Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Aspose.Tasks est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. En suivant ces étapes, vous apprendrez à gérer efficacement les affectations de ressources au sein de vos applications .NET.
 ## Conditions préalables
@@ -73,3 +79,9 @@ Absolument, Aspose.Tasks offre des options de personnalisation étendues pour le
 Oui, Aspose.Tasks permet d'exporter les données du projet vers différents formats tels que XML, PDF et HTML, entre autres.
 ### Le support technique est-il disponible pour les utilisateurs d'Aspose.Tasks ?
 Oui, Aspose fournit une assistance technique dédiée via son forum et d'autres canaux pour aider les utilisateurs en cas de questions ou de problèmes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

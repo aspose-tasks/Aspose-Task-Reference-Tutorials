@@ -3,10 +3,16 @@ title: Použití operátoru AND za všech podmínek s Aspose.Tasks
 linktitle: Použití operátoru AND za všech podmínek s Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se používat operátor AND za všech podmínek s Aspose.Tasks for .NET k efektivnímu filtrování projektových úkolů.
-type: docs
 weight: 11
 url: /cs/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití operátoru AND za všech podmínek s Aspose.Tasks
+
 ## Úvod
 
 Chcete efektivně zefektivnit své úkoly projektového řízení? S Aspose.Tasks for .NET můžete využít výkonné funkce pro efektivní manipulaci s projektovými daty. Jednou z takových funkcí je schopnost používat operátor AND za všech podmínek, což vám umožňuje filtrovat úkoly na základě více kritérií současně. V tomto tutoriálu vás krok za krokem provedeme procesem implementace této funkce.
@@ -118,3 +124,9 @@ Odpověď 4: Ano, můžete bezproblémově integrovat Aspose.Tasks s jinými fra
 ### Q5: Je pro uživatele Aspose.Tasks k dispozici komunitní fórum nebo kanál podpory?
 
  A5: Ano, máte přístup k fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

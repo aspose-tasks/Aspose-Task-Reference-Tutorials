@@ -3,10 +3,16 @@ title: プロジェクトデータの読み込み
 linktitle: プロジェクトデータの読み込み
 second_title: Aspose.Tasks Java API
 description: チュートリアルで Aspose.Tasks for Java のパワーを解き放ちましょう!グループ定義の読み取りからガント チャート データの抽出まで、シームレスな統合をマスターします。
-type: docs
 weight: 28
 url: /ja/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プロジェクトデータの読み込み
+
 ## 導入
 Java でのプロジェクト管理の広大な状況をナビゲートする場合は、Aspose.Tasks チュートリアルがガイドの星となります。ステップバイステップのガイドのおかげで、プロジェクト データの読み取りが簡単になる領域に飛び込んでください。一緒にこの知識の冒険に乗り出しましょう!
 
@@ -48,3 +54,9 @@ Aspose.Tasks for Java を使用して Microsoft Project Online データを簡�
 Aspose.Tasks for Java を使用して特定のガント チャート データを抽出する方法を学びます。 Java アプリケーションにシームレスに統合するためのステップバイステップのチュートリアル。
 ### [Aspose.Tasks のファイルからテーブル データを読み取る](./read-table-data/)
 Aspose.Tasks for Java の機能を解放します。この包括的なチュートリアルでは、ファイルからテーブル データを抽出する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσαρμοσμένοι τύποι πεδίων στο Aspose.Tasks
 linktitle: Προσαρμοσμένοι τύποι πεδίων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εργάζεστε με προσαρμοσμένους τύπους πεδίων στο Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα και συχνές ερωτήσεις.
-type: docs
 weight: 23
 url: /el/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμοσμένοι τύποι πεδίων στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με την εργασία με προσαρμοσμένους τύπους πεδίων στο Aspose.Tasks για .NET! Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται τα αρχεία του Microsoft Project μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην κατανόηση και τη χρήση προσαρμοσμένων τύπων πεδίων, μια κρίσιμη πτυχή της εργασίας με δεδομένα έργου.
@@ -89,3 +95,9 @@ A4: Ναι, το Aspose.Tasks σάς επιτρέπει να χειρίζεστ�
 ### Ε5: Υπάρχει φόρουμ κοινότητας για χρήστες Aspose.Tasks;
 
  A5: Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για να αλληλεπιδράσετε με άλλους χρήστες και να λάβετε υποστήριξη από την ομάδα Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

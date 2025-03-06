@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 달력 속성 관리
 linktitle: Aspose.Tasks에서 달력 속성 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java에서 MS Project 달력 속성을 관리하는 방법을 알아보세요. 이는 Java 애플리케이션 내의 달력에 대한 단계별 지침을 제공합니다.
-type: docs
 weight: 10
 url: /ko/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 달력 속성 관리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS Project 달력 속성을 관리하는 방법을 살펴보겠습니다. 달력 속성을 조작하는 방법을 이해하면 특정 요구 사항을 효율적으로 충족하도록 프로젝트 일정을 조정할 수 있습니다.
 ## 전제조건
@@ -71,3 +77,9 @@ A: Aspose.Tasks는 사용자 정의 옵션에 대한 제한을 최소화하면�
 A: 예, Aspose.Tasks는 작업, 리소스 및 프로젝트 구조를 관리하기 위한 광범위한 기능을 제공하여 Java 프로젝트 관리를 위한 포괄적인 솔루션을 만듭니다.
 ### Q: Aspose.Tasks를 사용하는 개발자에게 기술 지원이 제공됩니까?
 A: 예, 개발자는 Aspose.Tasks 포럼을 통해 기술 지원에 액세스하여 구현 중에 발생하는 모든 쿼리나 문제에 대한 지원을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

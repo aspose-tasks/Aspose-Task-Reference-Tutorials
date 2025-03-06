@@ -3,10 +3,16 @@ title: Beherrschen von MS Project-Ansichtsspalten mit Aspose.Tasks für .NET
 linktitle: Umgang mit Ansichtsspalten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Verbessern Sie die Projektvisualisierung mit Aspose.Tasks für .NET. Erfahren Sie Schritt für Schritt, wie Sie mit den Ansichtsspalten von MS Project umgehen. Steigern Sie Effizienz und Individualisierung.
-type: docs
 weight: 12
 url: /de/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von MS Project-Ansichtsspalten mit Aspose.Tasks für .NET
+
 ## Einführung
 Im Bereich Projektmanagement sticht Aspose.Tasks für .NET als leistungsstarkes Toolkit für den Umgang mit Microsoft Project-Dateien hervor. Einer der wesentlichen Aspekte der Projektvisualisierung ist die effiziente Verwaltung von Ansichtsspalten. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks mit MS Project-Ansichtsspalten umgehen, sodass Sie Ihre Projektansichten anpassen und optimieren können.
 ## Voraussetzungen
@@ -80,3 +86,9 @@ A: Aspose.Tasks konzentriert sich hauptsächlich auf Microsoft Project-Dateien. 
  A: Die`MyTextStyleCallback` Der Kurs zeigt, wie Textstile für eine verbesserte visuelle Darstellung in bestimmten Ansichten angepasst werden.
 ### F: Wo finde ich zusätzliche Ressourcen und Dokumentation für Aspose.Tasks?
  A: Siehe[Aspose.Tasks-Dokumentation](https://reference.aspose.com/tasks/net/) für ausführliche Anleitung und Ressourcen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

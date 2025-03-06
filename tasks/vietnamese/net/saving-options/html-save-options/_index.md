@@ -3,10 +3,16 @@ title: Lưu MS Project dưới dạng HTML với Aspose.Tasks
 linktitle: Tùy chọn lưu HTML cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu tệp Microsoft Project dưới dạng HTML bằng Aspose.Tasks cho .NET. Chuyển đổi dữ liệu dự án một cách dễ dàng với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu MS Project dưới dạng HTML với Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách lưu tệp Microsoft Project dưới dạng HTML bằng Aspose.Tasks cho .NET! Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks để lưu dữ liệu dự án dưới dạng HTML, cung cấp hướng dẫn từng bước trong quá trình thực hiện.
 ## Điều kiện tiên quyết
@@ -57,3 +63,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản tệp Microsoft P
 Trả lời: Hoàn toàn có thể, bạn có thể trích xuất và đưa vào các trang hoặc phần cụ thể của dự án dựa trên yêu cầu của bạn.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks không?
 Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks để khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

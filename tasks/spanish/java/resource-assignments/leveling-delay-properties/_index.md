@@ -3,10 +3,16 @@ title: Manejar las propiedades de retardo de nivelación en Aspose.Tasks
 linktitle: Manejar propiedades de retardo de nivelación para asignaciones de recursos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a manejar las propiedades de retardo de nivelación para asignaciones de recursos en Aspose.Tasks para Java con este completo tutorial.
-type: docs
 weight: 17
 url: /es/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejar las propiedades de retardo de nivelación en Aspose.Tasks
+
 ## Introducción
 En este tutorial, recorreremos el proceso de manejo de propiedades de retardo de nivelación para asignaciones de recursos en Aspose.Tasks para Java. Aspose.Tasks es una poderosa biblioteca de Java que le permite trabajar con archivos de Microsoft Project sin necesidad de instalar Microsoft Project en su sistema.
 ## Requisitos previos
@@ -91,3 +97,9 @@ R: Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, l
 ### P: ¿Cómo puedo obtener una licencia temporal para Aspose.Tasks?
 
  R: Puede solicitar una licencia temporal al[página de licencia temporal](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

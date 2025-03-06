@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for Java 提取 Microsoft Project 信息
 linktitle: 使用 Aspose.Tasks 讀取項目信息
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 擷取 Microsoft Project 資訊。輕鬆增強 Java 應用程式中的專案管理。
-type: docs
 weight: 11
 url: /zh-hant/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for Java 提取 Microsoft Project 信息
+
 ## 介紹
 在專案管理和任務追蹤領域，Microsoft Project 佔有重要地位。 Aspose.Tasks for Java 成為一個強大的工具，可以在 Java 環境中與 Microsoft Project 檔案進行無縫互動。本教學深入探討使用 Aspose.Tasks for Java 從 Microsoft Project 檔案中擷取重要專案資訊的過程。
 ## 先決條件
@@ -65,3 +71,9 @@ System.out.println("Calendar: " + project.get(Prj.CALENDAR).getName());
 答：是的，Aspose.Tasks for Java 允許透過其全面的 API 實現自動化，從而簡化資料提取和分析的流程。
 ### Q：是否有 Java 使用者的 Aspose.Tasks 的社群論壇或支援管道？
 答：是的，您可以找到有用的資源並與社區互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

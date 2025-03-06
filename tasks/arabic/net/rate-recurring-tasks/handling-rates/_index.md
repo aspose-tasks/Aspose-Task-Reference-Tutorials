@@ -3,10 +3,16 @@ title: التعامل مع معدلات مشروع MS باستخدام Aspose.Ta
 linktitle: التعامل مع الأسعار في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: إتقان إدارة معدلات MS Project بسهولة باستخدام Aspose.Tasks لـ .NET. أتمتة المهام بكفاءة لسير عمل المشروع بشكل أكثر سلاسة.
-type: docs
 weight: 10
 url: /ar/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع معدلات مشروع MS باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي حول التعامل مع معدلات MS Project باستخدام Aspose.Tasks لـ .NET! في هذا الدليل، سنرشدك خلال العملية خطوة بخطوة، مما يضمن قدرتك على إدارة الأسعار بكفاءة ضمن مستندات MS Project الخاصة بك. يوفر Aspose.Tasks for .NET ميزات قوية لمعالجة ملفات MS Project برمجيًا، مما يسمح لك بتبسيط مهام إدارة مشروعك دون عناء.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ rate2.CostPerUse = 2m;
 ج: نعم، يمكنك تنفيذ حسابات الأسعار المخصصة باستخدام Aspose.Tasks لتلبية متطلبات المشروع المحددة.
 ### س: هل هناك منتدى مجتمعي أو دعم متاح لمستخدمي Aspose.Tasks؟
  ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لطلب المساعدة والتفاعل مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

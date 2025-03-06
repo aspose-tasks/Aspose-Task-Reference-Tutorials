@@ -3,10 +3,16 @@ title: Repetição por dia do ano em Aspose.Tasks
 linktitle: Repetição por dia do ano em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com repetições de dias do ano em Aspose.Tasks for .NET para agilizar o gerenciamento de tarefas recorrentes com eficiência.
-type: docs
 weight: 27
 url: /pt/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Repetição por dia do ano em Aspose.Tasks
+
 ## Introdução
 
 No domínio do gerenciamento de projetos, o agendamento eficiente e a recorrência de tarefas desempenham papéis essenciais para garantir a execução oportuna e o fluxo de trabalho tranquilo. Aspose.Tasks for .NET oferece uma solução robusta para os desenvolvedores lidarem com tarefas recorrentes sem esforço em seus aplicativos. Neste tutorial, nos aprofundamos nas complexidades de trabalhar com repetições de dias do ano usando Aspose.Tasks, fornecendo um guia completo para a criação de tarefas recorrentes com base em padrões anuais.
@@ -109,3 +115,9 @@ A4: Certamente, Aspose.Tasks fornece APIs robustas para manipular propriedades d
 ### P5: O Aspose.Tasks é adequado para projetos de pequena escala e de nível empresarial?
 
 A5: Na verdade, o Aspose.Tasks foi projetado para atender às necessidades dos desenvolvedores que trabalham em projetos de todas as escalas, desde tarefas individuais até projetos empresariais de grande escala.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

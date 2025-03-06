@@ -3,10 +3,16 @@ title: Guia de compactação Tiff em Aspose.Tasks
 linktitle: Escolhendo compactação Tiff em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore o poder do Aspose.Tasks for .NET na escolha da compactação Tiff. Siga nosso guia passo a passo para uma visualização eficiente do projeto.
-type: docs
 weight: 12
 url: /pt/net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guia de compactação Tiff em Aspose.Tasks
+
 ## Introdução
 No domínio do gerenciamento de projetos e rastreamento de tarefas, Aspose.Tasks for .NET surge como uma ferramenta poderosa. Com seus recursos robustos, oferece uma maneira eficiente de gerenciar projetos de maneira integrada. Um recurso notável é a capacidade de renderizar projetos no formato TIFF, oferecendo uma solução versátil para visualização de dados do projeto. Neste tutorial, nos aprofundaremos no processo de escolha da compactação Tiff em Aspose.Tasks usando o .NET framework. Vamos embarcar nessa jornada passo a passo, garantindo um bom entendimento do processo.
 ## Pré-requisitos
@@ -56,3 +62,9 @@ Aspose.Tasks concentra-se principalmente na integração .NET. No entanto, você
  Para qualquer dúvida ou discussão, visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Como posso obter uma licença temporária para Aspose.Tasks?
  Para obter uma licença temporária, visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

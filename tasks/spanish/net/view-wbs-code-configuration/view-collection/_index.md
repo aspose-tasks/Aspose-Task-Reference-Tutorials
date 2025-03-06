@@ -3,10 +3,16 @@ title: Gestión de vistas de MS Project sin esfuerzo con Aspose.Tasks .NET
 linktitle: Colección de vistas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks para .NET y domine el arte de administrar vistas de MS Project sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de gestión de proyectos perfecta.
-type: docs
 weight: 11
 url: /es/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de vistas de MS Project sin esfuerzo con Aspose.Tasks .NET
+
 ## Introducción
 Bienvenido al mundo de Aspose.Tasks para .NET, una poderosa biblioteca que permite a los desarrolladores administrar de manera eficiente las vistas de Microsoft Project en sus aplicaciones .NET. En este tutorial, profundizaremos en los conceptos básicos del manejo de vistas de MS Project usando Aspose.Tasks, brindándole una guía paso a paso para mejorar sus capacidades de gestión de proyectos.
 ## Requisitos previos
@@ -95,3 +101,9 @@ Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
  Interactúe con la comunidad Aspose.Tasks en el[foro](https://forum.aspose.com/c/tasks/15) para cualquier consulta o ayuda.
 ### ¿Hay licencias temporales disponibles para Aspose.Tasks?
  Sí, explore las licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

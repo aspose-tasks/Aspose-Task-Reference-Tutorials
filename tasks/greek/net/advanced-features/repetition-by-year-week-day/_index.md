@@ -3,10 +3,16 @@ title: Επανάληψη ανά έτος Εβδομάδα Ημέρα στο Asp
 linktitle: Επανάληψη ανά έτος Εβδομάδα Ημέρα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για το .NET στην αποτελεσματική διαχείριση επαναλαμβανόμενων εργασιών. Οδηγός βήμα προς βήμα για την εφαρμογή της δυνατότητας Επανάληψη ανά έτος Εβδομάδα Ημέρα.
-type: docs
 weight: 28
 url: /el/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επανάληψη ανά έτος Εβδομάδα Ημέρα στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Στον τομέα της διαχείρισης έργων, η αποτελεσματικότητα και η ακρίβεια είναι πρωταρχικής σημασίας. Το Aspose.Tasks για το .NET αναδεικνύεται ως ένα ισχυρό εργαλείο, προσφέροντας μια πληθώρα δυνατοτήτων για τον εξορθολογισμό του χειρισμού έργων. Ανάμεσα στο οπλοστάσιό του είναι η ικανότητα διαχείρισης επαναλαμβανόμενων εργασιών με αξιοσημείωτη ευελιξία. Ένα τέτοιο χαρακτηριστικό είναι η λειτουργία "Επανάληψη ανά έτος, ημέρα εβδομάδας", που επιτρέπει στους χρήστες να ρυθμίζουν εργασίες που επαναλαμβάνονται σε συγκεκριμένες ημέρες της εβδομάδας, εντός καθορισμένων μηνών και σε πολλά χρόνια.
@@ -126,3 +132,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
 
 Α: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για .NET από το[δικτυακός τόπος](https://releases.aspose.com/), επιτρέποντάς σας να εξερευνήσετε τις δυνατότητές του πριν πάρετε μια απόφαση αγοράς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

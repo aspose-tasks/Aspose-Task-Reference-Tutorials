@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET で平日をマスターする
 linktitle: Aspose.Tasks での平日の定義
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks .NET で平日を定義する機能を試してください。詳細なチュートリアルに従って、プロジェクト カレンダーを効率的に管理したり、作業時間などをカスタマイズしたりできます。
-type: docs
 weight: 10
 url: /ja/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET で平日をマスターする
+
 ## 導入
 Aspose.Tasks for .NET を使用してプロジェクト管理の世界に飛び込む場合、平日を理解し、操作することが重要な側面となります。プロジェクト カレンダー内の平日を効率的に管理およびカスタマイズすると、プロジェクトのタイムラインに大きな影響を与える可能性があります。このチュートリアルでは、Aspose.Tasks を使用して平日を定義するプロセスを説明し、よりわかりやすくするために段階的な手順と例を示します。
 ## 前提条件
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 はい、平日への変更は保存時にプロジェクト ファイルに反映されます。
 ### Aspose.Tasks を他のプログラミング言語で使用できますか?
 Aspose.Tasks はさまざまなプログラミング言語をサポートしていますが、ここでの例は .NET に特化しています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

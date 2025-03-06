@@ -3,10 +3,16 @@ title: Sammeln Sie MS Project von Split Parts in Aspose.Tasks
 linktitle: Sammlung geteilter Teile in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie geteilte Teile in MS Project mit Aspose.Tasks für .NET sammeln. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
-type: docs
 weight: 19
 url: /de/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammeln Sie MS Project von Split Parts in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie geteilte Teile in MS Project mit Aspose.Tasks für .NET sammeln. Das Aufteilen von Aufgaben in Teile kann ein entscheidender Aspekt des Projektmanagements sein, und Aspose.Tasks bietet praktische Methoden, um dies effizient zu erledigen.
 ## Voraussetzungen
@@ -66,3 +72,9 @@ A: Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien und g
  A: Temporäre Lizenzen können bei erworben werden[Hier](https://purchase.aspose.com/temporary-license/) für den kurzfristigen Einsatz.
 ### F: Wo kann ich Hilfe oder Unterstützung zu Aspose.Tasks suchen?
  A: Sie können das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15)um Hilfe von der Community oder dem Aspose-Supportteam zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

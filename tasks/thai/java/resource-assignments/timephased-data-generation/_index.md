@@ -3,10 +3,16 @@ title: สร้างข้อมูลตามช่วงเวลาใน 
 linktitle: สร้างข้อมูลตามช่วงเวลาสำหรับการมอบหมายทรัพยากรใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีสร้างข้อมูลตามช่วงเวลาสำหรับการมอบหมายทรัพยากรโดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงประสิทธิภาพการจัดการโครงการด้วยคำแนะนำที่ครอบคลุมนี้
-type: docs
 weight: 24
 url: /th/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างข้อมูลตามช่วงเวลาใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการสร้างข้อมูลตามช่วงเวลาสำหรับการกำหนดทรัพยากรโดยใช้ Aspose.Tasks สำหรับ Java ข้อมูลตามช่วงเวลาจะให้ข้อมูลเชิงลึกอันมีค่าเกี่ยวกับวิธีการจัดสรรทรัพยากรในช่วงเวลาหนึ่งภายในโครงการ ช่วยให้ผู้จัดการโครงการตัดสินใจได้อย่างมีข้อมูล
 ## ข้อกำหนดเบื้องต้น
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 ใช่ Aspose.Tasks อนุญาตให้ผู้ใช้กำหนดโครงร่างการทำงานแบบกำหนดเองเพื่อให้เหมาะกับความต้องการเฉพาะของโครงการ
 ### มีฟอรัมชุมชนที่ฉันสามารถขอความช่วยเหลือเกี่ยวกับ Aspose.Tasks ได้หรือไม่
  ใช่ คุณสามารถเยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนและการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

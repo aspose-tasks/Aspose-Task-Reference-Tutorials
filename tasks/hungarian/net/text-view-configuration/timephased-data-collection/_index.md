@@ -3,10 +3,16 @@ title: Az időfázisú adatgyűjtés elsajátítása az Aspose.Tasks programban
 linktitle: Időfázisú adatok gyűjtése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az időzített adatgyűjtést az Aspose.Tasks for .NET-ben. Lépésről lépésre útmutató, GYIK és egyebek. Fejlessze projektmenedzsment képességeit még ma!
-type: docs
 weight: 15
 url: /hu/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az időfázisú adatgyűjtés elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 Szeretné kihasználni az időfázisú adatok erejét .NET-alkalmazásaiban az Aspose.Tasks használatával? Ne keressen tovább! Ez az átfogó útmutató végigvezeti Önt az Aspose.Tasks for .NET-hez készült időfázisos adatok gyűjtésének folyamatán, így biztosítva, hogy a legtöbbet hozza ki ebből a hatékony könyvtárból.
 ## Előfeltételek
@@ -121,3 +127,9 @@ Az Aspose.Tasks különböző méretű projekteket kezel, és nincs szigorú kor
  Igen, felfedezheti az Aspose.Tasks for .NET szolgáltatásait, ha eléri a[ingyenes próbaverzió](https://releases.aspose.com/).
 ### Hol vásárolhatok licencet az Aspose.Tasks for .NET-hez?
 Vásárolhat licencet az Aspose.Tasks for .NET számára[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

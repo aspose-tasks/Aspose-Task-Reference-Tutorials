@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 자원 할당 생성
 linktitle: Aspose.Tasks에서 자원 할당 생성
 second_title: Aspose.Tasks 자바 API
 description: 이 단계별 튜토리얼을 통해 Aspose.Tasks for Java에서 리소스 할당을 쉽게 생성하는 방법을 알아보세요. 효율적인 프로젝트 자원 관리가 쉬워졌습니다.
-type: docs
 weight: 14
 url: /ko/java/resource-assignments/create-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 자원 할당 생성
+
 ## 소개
 프로젝트 관리에서 자원 할당은 다양한 작업에 자원을 효과적으로 할당하는 데 중요한 역할을 합니다. Aspose.Tasks for Java는 프로젝트 자원과 할당을 프로그래밍 방식으로 관리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 리소스 할당을 단계별로 생성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -59,3 +65,9 @@ A: 예, 상용 프로젝트에서 Aspose.Tasks for Java를 사용하려면 유�
 A: 예, Aspose.Tasks for Java를 웹 애플리케이션에 통합하여 프로젝트 리소스를 동적으로 관리할 수 있습니다.
 ### Q: Java용 Aspose.Tasks에 대한 추가 지원은 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 도서관에 관한 기술 지원이나 문의 사항이 있는 경우.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

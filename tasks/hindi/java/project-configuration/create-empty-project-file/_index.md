@@ -3,10 +3,16 @@ title: Aspose.Tasks में खाली MS प्रोजेक्ट फ़
 linktitle: Aspose.Tasks में खाली प्रोजेक्ट फ़ाइल बनाएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks का उपयोग करके जावा में खाली Microsoft प्रोजेक्ट फ़ाइलें बनाने का तरीका जानें। निर्बाध एकीकरण के लिए आसान कदम.
-type: docs
 weight: 11
 url: /hi/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में खाली MS प्रोजेक्ट फ़ाइल बनाएँ
+
 ## परिचय
 प्रोजेक्ट प्रबंधन और कार्य शेड्यूलिंग के क्षेत्र में, Microsoft प्रोजेक्ट फ़ाइलों को संभालना अक्सर एक आवश्यकता होती है। जावा के लिए Aspose.Tasks जावा अनुप्रयोगों के भीतर इन फ़ाइलों को निर्बाध रूप से बनाने, हेरफेर करने और प्रबंधित करने के लिए एक मजबूत समाधान प्रदान करता है। इस ट्यूटोरियल में, हम Java के लिए Aspose.Tasks का उपयोग करके एक खाली Microsoft प्रोजेक्ट फ़ाइल बनाने की प्रक्रिया के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -53,3 +59,9 @@ System.out.println("Project file generated Successfully");
  आप सामुदायिक मंचों से समर्थन मांग सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### मैं जावा के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

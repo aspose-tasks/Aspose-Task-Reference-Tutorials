@@ -3,10 +3,16 @@ title: Obsługa wartości logicznych dopuszczających wartość null w Aspose.Ta
 linktitle: Obsługa wartości logicznych dopuszczających wartość null w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać wartości logiczne null w Aspose.Tasks dla .NET dzięki temu wszechstronnemu samouczkowi. Opanuj wykorzystanie klasy `NullableBool` i usprawnij rozwój swojej platformy .NET.
-type: docs
 weight: 21
 url: /pl/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa wartości logicznych dopuszczających wartość null w Aspose.Tasks
+
 ## Wstęp
 
  tym samouczku zagłębimy się w pracę z wartościami logicznymi dopuszczającymi wartość null w Aspose.Tasks dla .NET. Wartości logiczne null oferują elastyczność w reprezentowaniu wartości logicznych, dopuszczając możliwość bycia niezdefiniowanym. Zastanowimy się, jak korzystać z`NullableBool` klasa, jej konstruktory, właściwości i metody.
@@ -153,3 +159,9 @@ Odpowiedź 4: Tak, możesz ustawić wartość logiczną zerową jako niezdefinio
 ### P5: Gdzie mogę znaleźć dalszą dokumentację dotyczącą Aspose.Tasks dla .NET?
 
  Odpowiedź 5: Możesz znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

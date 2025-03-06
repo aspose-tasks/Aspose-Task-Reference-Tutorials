@@ -3,10 +3,16 @@ title: Számítsa ki a kritikus MS projekt elérési útját az Aspose.Tasks pro
 linktitle: Számítsa ki a kritikus útvonalat az Aspose.Tasks projektekben
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan számíthatja ki a kritikus útvonalat az MS Projectben az Aspose.Tasks for Java segítségével. Ez lépésről lépésre útmutatást ad a hatékony projektmenedzsmenthez.
-type: docs
 weight: 10
 url: /hu/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számítsa ki a kritikus MS projekt elérési útját az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük az MS Project kritikus elérési útjának kiszámításán az Aspose.Tasks for Java használatával. A kritikus út elengedhetetlen a projektmenedzsmenthez, mivel segít azonosítani azokat a feladatokat, amelyeket időben el kell végezni, hogy a projekt általános ütemezése ne csússzon el.
 ## Előfeltételek
@@ -72,3 +78,9 @@ V: Igen, az Aspose.Tasks for Java támogatja az MS Project fájlok különféle 
  V: Igen, vásárolhat ideiglenes licencet a következőtől[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hogyan vásárolhatok Aspose.Tasks for Java-t?
  V: Az Aspose.Tasks for Java megvásárolható a webhelyen[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 특정 간트 차트 데이터 읽기
 linktitle: Aspose.Tasks에서 특정 간트 차트 데이터 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 특정 간트 차트 데이터를 추출하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하기 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 16
 url: /ko/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 특정 간트 차트 데이터 읽기
+
 ## 소개
 간트 차트는 프로젝트 관리를 위한 귀중한 도구로, 사용자가 작업, 일정 및 종속성을 시각화할 수 있도록 해줍니다. Aspose.Tasks for Java를 사용하면 개발자는 Gantt 차트에서 특정 데이터를 효율적으로 추출하여 애플리케이션에 통합할 수 있습니다. 이 튜토리얼에서는 특정 간트 차트 데이터를 읽는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -104,3 +110,9 @@ A: 예, Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 프로젝트 파
 답: 물론이죠. Aspose.Tasks는 요구 사항에 따라 Gantt 차트 모양을 사용자 정의하기 위한 광범위한 API를 제공합니다.
 ### Q: Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
 A: 예, Aspose.Tasks는 포럼과 전용 지원 채널을 통해 포괄적인 기술 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

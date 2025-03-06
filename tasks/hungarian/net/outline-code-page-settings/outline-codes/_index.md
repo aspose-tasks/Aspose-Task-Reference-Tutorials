@@ -3,10 +3,16 @@ title: projektvázlat kódjainak kezelése az Aspose.Tasks for .NET-ben
 linktitle: Outline kódok kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg az MS Project vázlatkódjainak kezelését az Aspose.Tasks for .NET segítségével. Egyszerűsítse a projektszervezést könnyedén.
-type: docs
 weight: 10
 url: /hu/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# projektvázlat kódjainak kezelése az Aspose.Tasks for .NET-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a Microsoft Project vázlatkódjait az Aspose.Tasks for .NET használatával. A vázlatkódok olyan egyéni mezők a Microsoft Projectben, amelyek lehetővé teszik a felhasználók számára, hogy meghatározott feltételek szerint kategorizálják és rendezzék a feladatokat. Az Aspose.Tasks leegyszerűsíti ezen vázlatkódok programozott olvasásának és kezelésének folyamatát.
 ## Előfeltételek
@@ -71,3 +77,9 @@ V: Igen, az Aspose.Tasks kereskedelmi használatához érvényes licenc szüksé
 V: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről, hogy értékelje szolgáltatásait és képességeit.
 ### K: Hol kaphatok támogatást az Aspose.Tasks-hoz?
  V: Támogatást kaphat az Aspose.Tasks-hoz, ha felkeresi a fórumot a címen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).## Teljes forráskód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

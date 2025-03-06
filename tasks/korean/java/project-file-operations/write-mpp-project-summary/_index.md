@@ -3,10 +3,16 @@ title: Aspose.Tasks에 MPP 프로젝트 요약 작성
 linktitle: Aspose.Tasks에 MPP 프로젝트 요약 작성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java로 MPP 프로젝트 요약을 작성하는 방법을 알아보세요. 프로젝트 정보를 쉽게 설정하고 검색할 수 있습니다.
-type: docs
 weight: 27
 url: /ko/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 MPP 프로젝트 요약 작성
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 활용하여 MPP 프로젝트 요약을 작성하는 방법을 알아봅니다. Aspose.Tasks는 Microsoft Project 파일 작업을 위한 강력한 Java 라이브러리입니다. 아래 설명된 단계를 따르면 이 라이브러리를 사용하여 프로젝트에 대한 다양한 요약 정보를 설정하고 검색할 수 있습니다.
 ## 전제조건
@@ -87,3 +93,9 @@ A: Aspose.Tasks for Java는 최신 버전의 Java 및 Microsoft Project 파일�
 A: 물론, Aspose.Tasks for Java는 특정 요구 사항에 따라 프로젝트 요약 정보를 사용자 정의할 수 있는 광범위한 옵션을 제공합니다.
 ### Q: Java용 Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
 A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

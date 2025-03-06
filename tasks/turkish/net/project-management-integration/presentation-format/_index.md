@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Sunumunu Formatlama
 linktitle: Aspose.Tasks'ta Proje Sunumunu Formatlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project sunumlarını nasıl formatlayacağınızı öğrenin. Proje ayrıntılarının görselleştirilmesini ve iletişimini zahmetsizce geliştirin.
-type: docs
 weight: 10
 url: /tr/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Sunumunu Formatlama
+
 ## giriiş
 
 Aspose.Tasks for .NET'i kullanarak MS Project projelerinizin sunumunu geliştirmek mi istiyorsunuz? Bu eğitimde, MS Project proje sunumlarını adım adım biçimlendirme sürecinde size rehberlik edeceğiz. Sonunda, projenizin ayrıntılarını etkili bir şekilde ileten gösterişli sunumlar oluşturabileceksiniz.
@@ -90,3 +96,9 @@ C: Kesinlikle, Aspose.Tasks, MS Project'in en son sürümleriyle uyumluluğu sa�
 
 ### S5: Test amacıyla geçici bir lisansa ihtiyacım var mı?
  C: Test veya değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa, buradan bir lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) Aspose'un web sitesinde.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

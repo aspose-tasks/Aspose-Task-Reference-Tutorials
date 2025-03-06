@@ -3,10 +3,16 @@ title: Konfigurowanie legend projektu MS w Aspose.Tasks
 linktitle: Konfigurowanie legendy strony w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować legendy stron MS Project w .NET przy użyciu Aspose.Tasks w celu wydajnego zarządzania projektami. Dostarczono przewodnik krok po kroku.
-type: docs
 weight: 18
 url: /pl/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie legend projektu MS w Aspose.Tasks
+
 ## Wstęp
 W obszarze rozwoju .NET efektywne zarządzanie zadaniami jest kluczowe, szczególnie w przypadku zarządzania projektami. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcjonalności usprawniających procesy zarządzania zadaniami. Jedną z takich funkcji jest możliwość konfiguracji legend stron MS Project, zapewniając użytkownikom cenny wgląd w prezentację danych projektu.
 ## Warunki wstępne
@@ -85,3 +91,9 @@ Odp.: Licencje tymczasowe zapewniają pełny dostęp do funkcjonalności Aspose.
 Odp.: Oczywiście, Aspose.Tasks dla .NET oferuje szerokie opcje dostosowywania, umożliwiając dostosowanie legend stron zgodnie z konkretnymi wymaganiami projektu.
 ### P: Gdzie mogę znaleźć wsparcie lub fora społeczności dla Aspose.Tasks dla .NET?
  O: Możesz szukać wsparcia i nawiązać kontakt ze społecznością na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz znaleźć odpowiedzi na pytania i komunikować się z innymi programistami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

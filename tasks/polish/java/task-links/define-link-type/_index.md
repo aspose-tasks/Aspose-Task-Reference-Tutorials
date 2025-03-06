@@ -3,10 +3,16 @@ title: Zdefiniuj typ łącza w Aspose.Tasks
 linktitle: Zdefiniuj typ łącza w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj moc Aspose.Tasks for Java w zarządzaniu projektami. Zdefiniuj i dostosuj typy linków bez wysiłku, korzystając z naszego samouczka krok po kroku.
-type: docs
 weight: 13
 url: /pl/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zdefiniuj typ łącza w Aspose.Tasks
+
 ## Wstęp
 Witamy w świecie efektywnego zarządzania projektami z Aspose.Tasks dla Java! Jeśli chcesz usprawnić obsługę projektów i zwiększyć produktywność, jesteś we właściwym miejscu. W tym kompleksowym samouczku przeprowadzimy Cię przez proces definiowania typów łączy w Aspose.Tasks dla Java, zwiększając Twoje możliwości zarządzania projektami.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ Odp.: Absolutnie! Aspose.Tasks zapewnia elastyczność, umożliwiając definiowa
  Wizyta[ten link](https://purchase.aspose.com/temporary-license/) nabyć tymczasową licencję do celów testowych.
 ### P: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Tasks?
  O: Dołącz do społeczności Aspose.Tasks na stronie[forum wsparcia](https://forum.aspose.com/c/tasks/15) za pomoc i dyskusję.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

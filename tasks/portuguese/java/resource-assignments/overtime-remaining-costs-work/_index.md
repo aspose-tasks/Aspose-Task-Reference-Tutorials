@@ -3,10 +3,16 @@ title: Monitore horas extras, custos restantes e trabalho em Aspose.Tasks
 linktitle: Monitore horas extras, custos restantes e trabalho em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como monitorar horas extras, custos restantes e trabalhar em projetos Java usando Aspose.Tasks. Etapas fáceis para gerenciamento de projetos eficaz.
-type: docs
 weight: 18
 url: /pt/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Monitore horas extras, custos restantes e trabalho em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, aprenderemos como usar Aspose.Tasks for Java para monitorar horas extras, custos restantes e trabalho em um projeto. Isso pode ser inestimável para gerentes de projeto e líderes de equipe, para garantir que os projetos permaneçam no caminho certo e dentro do orçamento.
 ## Pré-requisitos
@@ -73,3 +79,9 @@ Sim, Aspose.Tasks oferece suporte a vários formatos de arquivo de projeto, incl
  Você pode visitar o fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15) para suporte.
 ### Como posso adquirir uma licença para Aspose.Tasks?
  Você pode comprar uma licença de[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

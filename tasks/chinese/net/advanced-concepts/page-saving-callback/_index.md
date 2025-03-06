@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中实现页面保存回调
 linktitle: 在Aspose.Tasks中实现页面保存回调
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中实现页面保存回调，从而实现多页面文档输出流的自定义处理。
-type: docs
 weight: 12
 url: /zh/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中实现页面保存回调
+
 ## 介绍
 
 在本教程中，我们将探讨如何在 Aspose.Tasks for .NET 中实现页面保存回调。此功能允许我们将多页文档保存到用户提供的流中，从而在处理输出方面提供灵活性和定制性。
@@ -121,3 +127,9 @@ A4：您可以在回调方法中实现错误处理机制来管理异常并确保
 ### Q5：在哪里可以找到更多关于 Aspose.Tasks 的资源和支持？
 
  A5：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)如需帮助，请访问文档[这里](https://reference.aspose.com/tasks/net/)，或探索其他功能和许可选项[Aspose.Tasks 网站](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

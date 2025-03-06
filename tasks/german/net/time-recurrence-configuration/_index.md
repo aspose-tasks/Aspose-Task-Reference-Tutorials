@@ -3,10 +3,16 @@ title: Aspose.Tasks Zeitkonfiguration und Wiederholungsmuster
 linktitle: Aspose.Tasks Zeitkonfiguration und Wiederholungsmuster
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET-Tutorials zur Zeitkonfiguration und zu Wiederholungsmustern. Verwalten Sie mühelos Kalender, passen Sie Arbeitszeiten an und optimieren Sie die Projektplanung.
-type: docs
 weight: 33
 url: /de/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zeitkonfiguration und Wiederholungsmuster
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.Tasks für .NET, wo effizientes Projektmanagement auf die Leistungsfähigkeit anpassbarer Zeitkonfigurationen und Wiederholungsmuster trifft. In diesem umfassenden Leitfaden befassen wir uns mit verschiedenen Tutorials, die Sie in die Lage versetzen, die Kunst der Projektplanung und des Ressourcenmanagements zu meistern.
@@ -58,3 +64,9 @@ Erfahren Sie, wie Sie Arbeitswochen mühelos in Aspose.Tasks für .NET konfiguri
 Erfahren Sie, wie Sie Arbeitswochen in Aspose.Tasks für .NET anpassen. Schritt-für-Schritt-Anleitung zum Erstellen personalisierter Projektkalender. Jetzt downloaden!
 ### [Konfigurieren jährlicher Wiederholungsmuster in Aspose.Tasks](./yearly-recurrence-patterns/)
 Erfahren Sie, wie Sie jährliche Wiederholungsmuster in Aspose.Tasks für .NET konfigurieren. Verbessern Sie Ihre Projektmanagementfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

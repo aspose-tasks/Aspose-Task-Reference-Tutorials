@@ -3,10 +3,16 @@ title: 更新Aspose.Tasks中的MPP文件
 linktitle: 更新Aspose.Tasks中的MPP文件
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 无缝更新 MPP 文件。请按照我们的分步指南进行高效的项目文件操作。
-type: docs
 weight: 19
 url: /zh/java/project-management/update-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 更新Aspose.Tasks中的MPP文件
+
 ## 介绍
 在项目管理领域，处理和更新项目文件是一项至关重要的任务。 Aspose.Tasks for Java 为 Java 开发人员提供了一个强大的解决方案来无缝操作 Microsoft Project 文件。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 更新 MPP 文件。
 ## 先决条件
@@ -71,3 +77,9 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 答：是的，临时许可证可用于测试目的。您可以从以下位置获取它们：[临时许可证页面](https://purchase.aspose.com/temporary-license/).
 ### 问：我可以在哪里寻求有关 Aspose.Tasks for Java 的帮助或支持？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)如有任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

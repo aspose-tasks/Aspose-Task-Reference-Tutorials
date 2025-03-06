@@ -3,10 +3,16 @@ title: Управление коллекцией типов дней в Aspose.T
 linktitle: Управление коллекцией типов дней в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями типов дней в Aspose.Tasks для .NET. С легкостью создавайте, изменяйте и управляйте исключениями календаря.
-type: docs
 weight: 28
 url: /ru/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекцией типов дней в Aspose.Tasks
+
 ## Введение
 
  Aspose.Tasks для .NET предоставляет надежную функциональность для управления коллекциями типов дней, что имеет решающее значение для определения исключений еженедельного календаря в приложениях управления проектами. В этом уроке мы рассмотрим, как использовать`DayTypeCollection` класс эффективно. 
@@ -141,3 +147,9 @@ foreach (var dayType in exc3.DaysOfWeek)
 ### Вопрос 5: Могу ли я приобрести временную лицензию на Aspose.Tasks для .NET?
 
  О5: Да, временные лицензии можно приобрести на сайте[Веб-сайт Aspose](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

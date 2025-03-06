@@ -3,10 +3,16 @@ title: Identifiera projektöverskridande uppgifter i Aspose.Tasks
 linktitle: Identifiera projektöverskridande uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska uppgiftsidentifiering över projekt med Aspose.Tasks för Java. Sömlös integration och effektiv hantering. Ladda ner nu!
-type: docs
 weight: 14
 url: /sv/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifiera projektöverskridande uppgifter i Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår omfattande handledning om att identifiera projektöverskridande uppgifter effektivt med Aspose.Tasks för Java. Oavsett om du är en erfaren utvecklare eller nybörjare, kommer den här guiden att leda dig genom processen att sömlöst integrera den här funktionen i dina Java-projekt.
 ## Förutsättningar
@@ -60,3 +66,9 @@ S: Ja, Aspose.Tasks stöder flera programmeringsspråk, inklusive Java, .NET och
  S: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Behöver du hjälp eller har specifika frågor?
 S: Besök Aspose.Tasks supportforum[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

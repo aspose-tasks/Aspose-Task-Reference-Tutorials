@@ -3,10 +3,16 @@ title: Konfigurace hlavní tabulky v Aspose.Tasks pro .NET
 linktitle: Konfigurace tabulek v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat tabulky v Aspose.Tasks pro .NET pomocí tohoto podrobného průvodce. Vylepšete své zkušenosti s řízením projektů bez námahy.
-type: docs
 weight: 10
 url: /cs/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace hlavní tabulky v Aspose.Tasks pro .NET
+
 ## Úvod
 Vítejte v tomto komplexním průvodci konfigurací tabulek v Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory aplikace Microsoft Project. V tomto tutoriálu vás provedeme procesem konfigurace tabulek pomocí Aspose.Tasks, přičemž každý krok rozebereme, aby bylo jasno.
 ## Předpoklady
@@ -68,3 +74,9 @@ Gratulujeme! Úspěšně jste nakonfigurovali tabulky v Aspose.Tasks pro .NET. T
  Odpověď: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Kde mohu zakoupit Aspose.Tasks?
  Odpověď: Můžete si zakoupit plnou licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

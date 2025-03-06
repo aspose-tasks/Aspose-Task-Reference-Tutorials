@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Gantt Grafiği Sütunlarını Özelleştirin
 linktitle: Aspose.Tasks'taki Gantt Grafiği Sütunları
 second_title: Aspose.Tasks .NET API'si
 description: Belirli görev bilgilerini verimli bir şekilde görüntülemek için Aspose.Tasks for .NET'te Gantt şeması sütunlarını nasıl özelleştireceğinizi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Gantt Grafiği Sütunlarını Özelleştirin
+
 ## giriiş
 Gantt şemaları, proje yönetiminde görevlerin, zaman çizelgelerinin ve kaynakların görsel bir temsilini sağlayan temel bir araçtır. Aspose.Tasks for .NET, belirli görev bilgilerini görüntülemek için sütunları özelleştirmek de dahil olmak üzere, Gantt grafiklerini yönetmek için güçlü yetenekler sunar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak Gantt şeması sütunlarıyla nasıl çalışılacağını inceleyeceğiz.
 ## Önkoşullar
@@ -99,3 +105,9 @@ C: Aspose.Tasks for .NET, karmaşık proje yapılarını yönetmek için esnekli
 C: Aspose.Tasks for .NET, kapsamlı özelleştirme seçenekleri sunarak, Gantt grafiklerine sınırlama olmaksızın önemli sayıda sütun eklemenizi sağlar.
 ### S: Aspose.Tasks for .NET için ek destek ve kaynakları nerede bulabilirim?
 C: Kapsamlı kaynaklara ve yardıma erişmek için Aspose.Tasks for .NET tarafından sağlanan belgeleri, topluluk forumlarını ve destek kanallarını keşfedebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

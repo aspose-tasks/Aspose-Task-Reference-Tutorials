@@ -3,10 +3,16 @@ title: Định cấu hình tùy chọn hiển thị dự án MS trong Aspose.Tas
 linktitle: Định cấu hình tùy chọn hiển thị dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình các tùy chọn hiển thị MS Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Tùy chỉnh giao diện dự án của bạn một cách dễ dàng.
-type: docs
 weight: 17
 url: /vi/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình tùy chọn hiển thị dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project cung cấp rất nhiều tùy chọn hiển thị để tùy chỉnh giao diện dự án của bạn. Aspose.Tasks for .NET cung cấp một khung mạnh mẽ để thao tác các tùy chọn này theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách định cấu hình các tùy chọn hiển thị MS Project bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Trả lời: Không, các tùy chọn này chỉ sửa đổi cách trình bày 
 Trả lời: Có, bạn có thể đặt lại các tùy chọn hiển thị về giá trị mặc định bằng API Aspose.Tasks.
 ### Câu hỏi: Có bất kỳ hạn chế nào đối với việc tùy chỉnh các tùy chọn hiển thị theo chương trình không?
 Trả lời: Mặc dù Aspose.Tasks cung cấp khả năng tùy chỉnh rộng rãi nhưng một số tùy chọn hiển thị nhất định có thể không truy cập được bằng chương trình do những hạn chế trong định dạng tệp MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

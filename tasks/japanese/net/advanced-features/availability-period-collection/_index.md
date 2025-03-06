@@ -3,10 +3,16 @@ title: Aspose.Tasks の利用可能期間のコレクション
 linktitle: Aspose.Tasks の利用可能期間のコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でリソースの利用可能期間を管理する方法を学習します。このステップバイステップのチュートリアルでは、有効期間の追加、更新、削除について説明し、効果的なプロジェクト リソースの計画を確実にします。
-type: docs
 weight: 18
 url: /ja/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の利用可能期間のコレクション
+
 ## 導入
 
 このチュートリアルでは、Aspose.Tasks for .NET でリソースの利用可能期間コレクションを操作する方法を説明します。利用可能期間の管理はプロジェクト管理にとって重要であり、プロジェクト内のタスクにリソースがいつ利用できるかを定義できるようになります。
@@ -148,3 +154,9 @@ A4: Aspose.Tasks for .NET には、重複する期間を処理するための組
 ### Q5: リソースが持つことができる利用可能期間の数に制限はありますか?
 
 A5: リソースが持つことができる利用可能期間の数に事前定義された制限はありませんが、期間が多数になるとパフォーマンスが低下する可能性があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

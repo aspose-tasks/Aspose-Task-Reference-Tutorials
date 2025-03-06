@@ -3,10 +3,16 @@ title: บันทึกไฟล์โครงการ MS ในรูปแ
 linktitle: การบันทึกไฟล์ในรูปแบบต่างๆ ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีบันทึกไฟล์ MS Project ในรูปแบบต่างๆ โดยใช้ Aspose.Tasks สำหรับ .NET ขั้นตอนง่ายๆ สำหรับการจัดการโครงการอย่างมีประสิทธิภาพ
-type: docs
 weight: 17
 url: /th/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกไฟล์โครงการ MS ในรูปแบบต่าง ๆ ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกไฟล์ Microsoft Project ในรูปแบบต่างๆ โดยใช้ Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาจัดการและจัดการไฟล์โปรเจ็กต์โดยทางโปรแกรม
 ## ข้อกำหนดเบื้องต้น
@@ -55,3 +61,9 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
  ตอบ: ใช่ ใบอนุญาตชั่วคราวมีไว้เพื่อวัตถุประสงค์ในการประเมิน คุณสามารถได้รับอย่างใดอย่างหนึ่ง[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: Aspose.Tasks มีราคาเท่าใด
  ตอบ: สามารถดูข้อมูลราคาได้ที่หน้าการซื้อ Aspose.Tasks[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

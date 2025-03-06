@@ -3,10 +3,16 @@ title: Przeczytaj dane definicji grupy w Aspose.Tasks
 linktitle: Przeczytaj dane definicji grupy w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak czytać dane definicji grupy z plików Microsoft Project przy użyciu Aspose.Tasks dla Java. Postępuj zgodnie z naszym samouczkiem krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przeczytaj dane definicji grupy w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla Java to potężna biblioteka, która pozwala programistom z łatwością manipulować plikami Microsoft Project. W tym samouczku omówimy krok po kroku proces odczytywania danych definicji grupy z pliku projektu za pomocą Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -79,3 +85,9 @@ O: Można zaimplementować mechanizmy obsługi błędów przy użyciu bloków tr
 O: Tak, Aspose.Tasks for Java umożliwia eksport danych projektu do formatów takich jak PDF, XLSX i CSV.
 ### P: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Tasks dla Java?
  O: Możesz odwiedzić[Aspose.Tasks dla dokumentacji Java](https://reference.aspose.com/tasks/java/) szczegółowe przewodniki można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

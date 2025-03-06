@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Maliyet Tahakkuk Türleri
 linktitle: Aspose.Tasks'ta Maliyet Tahakkuk Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje maliyetlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Doğru bütçe takibi için maliyet tahakkuk türlerini tanımlayın.
-type: docs
 weight: 19
 url: /tr/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Maliyet Tahakkuk Türleri
+
 ## giriiş
 
 Proje yönetiminde, bütçe kontrolünün sürdürülmesi ve projenin başarısının sağlanması için maliyetlerin doğru bir şekilde takip edilmesi çok önemlidir. Aspose.Tasks for .NET, farklı maliyet tahakkuk türlerini tanımlama yeteneği de dahil olmak üzere, proje maliyetlerini yönetmek için güçlü bir araç seti sunar. Bu eğitim, Aspose.Tasks for .NET'i kullanarak maliyet tahakkuk türlerini anlama ve uygulama sürecinde size rehberlik edecektir.
@@ -86,3 +92,9 @@ C4: Evet, projenizdeki her görev ve kaynak için maliyet tahakkuk türünü ba�
 ### S5: Aspose.Tasks for .NET özel maliyet tahakkuk türlerini destekliyor mu?
 
 Cevap5: En son sürümden itibaren Aspose.Tasks for .NET, özel maliyet tahakkuk türlerinin tanımlanmasını desteklememektedir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

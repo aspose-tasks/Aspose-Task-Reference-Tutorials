@@ -3,10 +3,16 @@ title: Gérer les exceptions de calendrier dans Aspose.Tasks
 linktitle: Ajouter et supprimer des exceptions de calendrier dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment ajouter et supprimer efficacement des exceptions de calendrier dans Aspose.Tasks pour Java. Améliorez les flux de travail de gestion de projet sans effort.
-type: docs
 weight: 10
 url: /fr/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les exceptions de calendrier dans Aspose.Tasks
+
 
 ## Introduction
 Dans la gestion de projet, la gestion des exceptions dans les calendriers est cruciale pour planifier avec précision les tâches et gérer les ressources. Aspose.Tasks for Java fournit des fonctionnalités puissantes pour ajouter et supprimer des exceptions de calendrier sans effort. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus.
@@ -79,3 +85,10 @@ R : Aspose.Tasks for Java offre une compatibilité avec différentes versions de
 ### Q : Où puis-je demander de l'aide pour tout problème ou requête lié à Aspose.Tasks for Java ?
 
  R : Vous pouvez visiter le forum Aspose.Tasks pour Java sur le[site web](https://reference.aspose.com/tasks/java/) pour demander de l'aide à la communauté ou contacter directement l'équipe d'assistance pour une aide personnalisée.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

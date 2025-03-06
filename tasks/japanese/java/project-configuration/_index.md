@@ -3,10 +3,16 @@ title: プロジェクト構成
 linktitle: プロジェクト構成
 second_title: Aspose.Tasks Java API
 description: 包括的なチュートリアルで、Aspose.Tasks for Java の威力を発見してください。ガント チャートを構成し、MS Project ファイルを作成し、プロジェクト管理を合理化します。
-type: docs
 weight: 26
 url: /ja/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プロジェクト構成
+
 ## 導入
 
 Aspose.Tasks for Java の可能性を最大限に引き出す準備はできていますか?この強力なツールを使用してプロジェクト構成をマスターするには、詳細なチュートリアルに進んでください。経験豊富な開発者でも初心者でも、当社のステップバイステップ ガイドを参考にすれば、Aspose.Tasks の機能をシームレスに利用できるようになります。
@@ -45,3 +51,9 @@ Aspose.Tasks を使用して Java で空の Microsoft Project ファイルを作
 Aspose.Tasks for Java を使用して空の MS プロジェクト ファイル (MPP) を作成して保存する方法を学びます。プロジェクト管理タスクを簡単に簡素化します。
 ### [Aspose.Tasks でストリームする空のプロジェクトを作成して保存する](./create-save-stream/)
 Aspose.Tasks を使用して空の MS Project ファイルを Java のストリームに作成して保存し、プロジェクト管理タスクを簡単に簡素化する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Metni ve Görünüm Yapılandırması
 linktitle: Aspose.Tasks Metni ve Görünüm Yapılandırması
 second_title: Aspose.Tasks .NET API'si
 description: Metin ve görünüm yapılandırmasıyla ilgili Aspose.Tasks for .NET Eğitimlerini keşfedin. Gelişmiş proje yönetimi için metin stillerinde, Tiff sıkıştırmasında, zaman çizelgesi görünümlerinde ve daha fazlasında uzmanlaşın.
-type: docs
 weight: 30
 url: /tr/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Metni ve Görünüm Yapılandırması
+
 ## giriiş
 
 Aspose.Tasks for .NET Eğitimleri hakkındaki metin ve görünüm yapılandırmasına odaklanan kapsamlı kılavuza hoş geldiniz. Bu makalede proje yönetiminin çeşitli yönlerini inceleyerek Aspose.Tasks'in işlevselliklerinde uzmanlaşmaya yönelik adım adım bilgiler sunacağız.
@@ -53,3 +59,9 @@ Aspose.Tasks for .NET'te zaman aşamalı veri toplamayı keşfedin. Adım adım 
 Hassas proje zaman çizelgesi görselleştirmesi için Gantt Grafiği görünümünüzdeki zaman ölçeği katmanlarını yapılandırmak üzere Aspose.Tasks for .NET'i keşfedin.
 ### [Aspose.Tasks'ta Kullanım Görünümlerini Yapılandırma](./usage-views/)
 Aspose.Tasks for .NET'te görev kullanım görünümlerini yapılandırmayı öğrenin. Ayrıntılı adımlarla proje görselleştirmesini geliştirin. Kütüphaneyi şimdi indirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中的调平延迟属性
 linktitle: 处理 Aspose.Tasks 中资源分配的调配延迟属性
 second_title: Aspose.Tasks Java API
 description: 通过这个综合教程，了解如何在 Aspose.Tasks for Java 中处理资源分配的调平延迟属性。
-type: docs
 weight: 17
 url: /zh/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中的调平延迟属性
+
 ## 介绍
 在本教程中，我们将逐步介绍在 Aspose.Tasks for Java 中处理资源分配的均衡延迟属性的过程。 Aspose.Tasks 是一个功能强大的 Java 库，允许您使用 Microsoft Project 文件，而无需在系统上安装 Microsoft Project。
 ## 先决条件
@@ -91,3 +97,9 @@ System.out.println("Process completed Successfully");
 ### 问：如何获得 Aspose.Tasks 的临时许可证？
 
 答：您可以向以下机构申请临时许可证[临时许可证页面](https://purchase.aspose.com/temporary-license/)出于评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

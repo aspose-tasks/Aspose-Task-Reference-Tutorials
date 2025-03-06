@@ -3,10 +3,16 @@ title: Dominando o tratamento de unidades de trabalho em Aspose.Tasks
 linktitle: Manipulação de unidades de trabalho em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks for .NET, uma biblioteca poderosa para gerenciamento eficiente de projetos. Lide com unidades de trabalho com precisão para otimizar a utilização de recursos.
-type: docs
 weight: 15
 url: /pt/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando o tratamento de unidades de trabalho em Aspose.Tasks
+
 ## Introdução
 No mundo dinâmico do gerenciamento de projetos, o manuseio eficiente das unidades de trabalho é crucial para a conclusão bem-sucedida do projeto. Aspose.Tasks for .NET fornece um conjunto de ferramentas poderoso para navegar pelas informações da unidade de trabalho, garantindo controle preciso sobre os cronogramas do projeto e a alocação de recursos.
 ## Pré-requisitos
@@ -57,3 +63,9 @@ Concluindo, Aspose.Tasks for .NET capacita os desenvolvedores a lidar perfeitame
  Adquira uma licença temporária para Aspose.Tasks visitando o[página de licença temporária](https://purchase.aspose.com/temporary-license/).
 ### Quais benefícios o Aspose.Tasks oferece para lidar com unidades de trabalho?
 Aspose.Tasks fornece um conjunto robusto de funcionalidades para trabalhar com unidades de trabalho, permitindo controle preciso sobre cronogramas de projetos, alocação de recursos e gerenciamento geral de projetos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قراءة بيانات مشروع MS عبر الإنترنت بسهول�
 linktitle: قراءة بيانات المشروع عبر الإنترنت في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة بيانات Microsoft Project Online بسهولة باستخدام Aspose.Tasks لـ Java. تعزيز قدرات إدارة المشروع الخاص بك.
-type: docs
 weight: 13
 url: /ar/java/project-data-reading/read-project-online/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات مشروع MS عبر الإنترنت بسهولة باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التعامل مع بيانات Microsoft Project Online بكفاءة أمرًا بالغ الأهمية لتبسيط العمليات. يوفر Aspose.Tasks for Java حلاً قويًا لقراءة مثل هذه البيانات دون عناء. يتعمق هذا البرنامج التعليمي في الاستفادة من Aspose.Tasks للوصول إلى بيانات MS Project Online ومعالجتها بسلاسة.
 ## المتطلبات الأساسية
@@ -70,3 +76,9 @@ for (ProjectInfo p : reader.getProjectList()) {
  ج: يمكنك الرجوع إلى الوثائق التفصيلية[هنا](https://reference.aspose.com/tasks/java/)للحصول على إرشادات شاملة حول استخدام Aspose.Tasks في مشاريع Java الخاصة بك.
 ### س: ما هي خيارات الدعم المتاحة لـ Aspose.Tasks لـ Java؟
  ج: إذا واجهت أية مشكلات أو كانت لديك استفسارات، يمكنك طلب المساعدة من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

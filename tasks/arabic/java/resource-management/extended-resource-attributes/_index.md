@@ -3,10 +3,16 @@ title: إدارة سمات مشروع MS بكفاءة باستخدام Aspose.Ta
 linktitle: التعامل مع سمات الموارد الموسعة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع سمات موارد Microsoft Project الموسعة بكفاءة باستخدام Aspose.Tasks لـ Java. خطوات سهلة ودليل شامل.
-type: docs
 weight: 11
 url: /ar/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة سمات مشروع MS بكفاءة باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية التعامل بفعالية مع سمات موارد Microsoft Project الموسعة باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة قوية تمكن المطورين من التعامل مع ملفات Microsoft Project برمجياً، مما يوفر وظائف واسعة النطاق لإدارة المهام والموارد.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ System.out.println("Process completed Successfully");
 بالتأكيد، يمكن دمج Aspose.Tasks بسلاسة مع مكتبات Java الأخرى لتحسين الوظائف وتبسيط عمليات التطوير.
 ### هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
 نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال منتدى Aspose.Tasks، حيث يمكنهم طلب المساعدة والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

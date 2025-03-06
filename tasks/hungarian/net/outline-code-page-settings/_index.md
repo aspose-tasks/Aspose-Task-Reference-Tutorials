@@ -3,10 +3,16 @@ title: Aspose.Tasks Vázlatkód és oldalbeállítások
 linktitle: Aspose.Tasks Vázlatkód és oldalbeállítások
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET oktatóanyaggal a vázlatkódokról, gyűjteményről, definíciókról, maszkokról és oldalbeállításokról. Javítsa a projektszervezést és a testreszabást.
-type: docs
 weight: 25
 url: /hu/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Vázlatkód és oldalbeállítások
+
 ## Bevezetés
 Üdvözöljük a zökkenőmentes projektmenedzsment világában az Aspose.Tasks for .NET segítségével! Ebben a digitális korszakban, ahol a precizitás és a hatékonyság nem alku tárgya, a Microsoft Project fortélyainak elsajátítása játékmódot jelent. Átfogó oktatóanyag-sorozatunk végigvezeti Önt az Aspose.Tasks for .NET árnyalatain, lehetővé téve a vázlatkódok könnyed kezelését, az adatdefiníciók kezelését, a maszkokkal és értékekkel való munkát, valamint az oldalbeállítások testreszabását. Akár tapasztalt projektmenedzser, akár újonc a területen, oktatóanyagaink minden készségszintet kielégítenek, lépésről lépésre útmutatóval és kódpéldákkal. Csatlakozzon hozzánk ezen az úton, hogy kiaknázza az Aspose.Tasksben rejlő lehetőségeket, forradalmasítva a projektszervezési és testreszabási megközelítést. Merüljön el, és emelje új magasságokba projektmenedzsment-készségeit!
 ## Outline kódok kezelése az Aspose.Tasks segítségével .NET-hez
@@ -71,3 +77,9 @@ Ismerje meg, hogyan állíthatja be az oldalmargókat a Microsoft Project fájlo
 Ismerje meg, hogyan konfigurálhatja az MS Project oldalbeállításait az Aspose.Tasks for .NET használatával. Egyszerű lépésekkel testreszabhatja a tájolást, a méretet és egyebeket.
 ### [Testreszabhatja az MS Project oldalnézeti beállításait az Aspose.Tasks alkalmazásban](./page-view-settings/)
 Ismerje meg, hogyan konfigurálhatja az Aspose.Tasks for .NET oldalnézeti beállításait a Microsoft Project-dokumentumok nyomtatási formátumának testreszabásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

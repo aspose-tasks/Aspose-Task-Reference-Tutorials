@@ -3,10 +3,16 @@ title: Ottieni l'orario di lavoro dal calendario utilizzando Aspose.Tasks
 linktitle: Ottieni l'orario di lavoro dal calendario utilizzando Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Estrai facilmente gli orari di lavoro dai calendari di MS Project con Aspose.Tasks per Java. Semplifica le attività di gestione del progetto.
-type: docs
 weight: 13
 url: /it/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni l'orario di lavoro dal calendario utilizzando Aspose.Tasks
+
 ## introduzione
 Gestire i calendari di progetto ed estrarre le ore di lavoro è essenziale per una gestione efficace del progetto. Aspose.Tasks per Java fornisce funzionalità robuste per recuperare facilmente l'orario di lavoro dai calendari di MS Project. In questo tutorial ti guideremo attraverso il processo passo dopo passo.
 ## Prerequisiti
@@ -83,3 +89,9 @@ R: Sì, puoi personalizzare facilmente l'orario di lavoro e le festività in bas
 R: Sì, Aspose.Tasks per Java fornisce un'ampia documentazione e forum di supporto dedicati per assistere gli sviluppatori nell'utilizzo efficace delle sue funzionalità.
 ### D: È disponibile una versione di prova per Aspose.Tasks per Java?
  R: Sì, puoi accedere a una versione di prova gratuita di Aspose.Tasks per Java da[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gestire le proprietà del ritardo di livellamento in Aspose.Tasks
 linktitle: Gestire le proprietà del ritardo di livellamento per le assegnazioni di risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire le proprietà di ritardo del livellamento per le assegnazioni di risorse in Aspose.Tasks per Java con questo tutorial completo.
-type: docs
 weight: 17
 url: /it/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire le proprietà del ritardo di livellamento in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, esamineremo il processo di gestione delle proprietà di ritardo del livellamento per le assegnazioni di risorse in Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java che ti consente di lavorare con i file di Microsoft Project senza richiedere l'installazione di Microsoft Project sul tuo sistema.
 ## Prerequisiti
@@ -91,3 +97,9 @@ R: Sì, Aspose.Tasks supporta varie versioni dei file Microsoft Project, garante
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks?
 
  R: Puoi richiedere una licenza temporanea al[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

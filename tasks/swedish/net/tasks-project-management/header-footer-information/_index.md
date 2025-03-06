@@ -3,10 +3,16 @@ title: Extrahera sidhuvuds- och sidfotsinformation med Aspose.Tasks
 linktitle: Information om sidhuvud och sidfot i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig att extrahera sidhuvuds- och sidfotsinformation från MS Project-filer med Aspose.Tasks för .NET. Enkel, effektiv och utvecklarvänlig lösning.
-type: docs
 weight: 29
 url: /sv/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahera sidhuvuds- och sidfotsinformation med Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som tillåter utvecklare att manipulera Microsoft Project-filer med lätthet. I den här handledningen kommer vi att lära oss hur du hämtar sidhuvuds- och sidfotsinformation från MS Project-filer med Aspose.Tasks.
 ## Förutsättningar
@@ -70,3 +76,9 @@ Ja, Aspose.Tasks stöder olika projektfilformat, inklusive MPP, XML och MPX.
  Du hittar dokumentationen för Aspose.Tasks[här](https://reference.aspose.com/tasks/net/).
 ### Hur kan jag få support för Aspose.Tasks?
  Du kan få support för Aspose.Tasks genom att besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

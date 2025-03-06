@@ -3,10 +3,16 @@ title: 貨幣屬性
 linktitle: 貨幣屬性
 second_title: Aspose.Tasks Java API
 description: 釋放 Aspose.Tasks for Java 教學的強大功能。輕鬆了解在 MS Project 檔案中讀取和設定貨幣屬性的逐步指南。
-type: docs
 weight: 25
 url: /zh-hant/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 貨幣屬性
+
 ## 介紹
 您準備好提升您的 Aspose.Tasks for Java 技能了嗎？深入研究我們關於貨幣屬性的綜合教程，並掌握在 MS Project 檔案中處理貨幣資訊的藝術。
 
@@ -35,3 +41,9 @@ url: /zh-hant/java/currency-properties/
 了解如何使用 Aspose.Tasks for Java 從 MS Project 檔案中提取貨幣資訊。提供逐步指南。
 ### [在 Aspose.Tasks 專案中設定貨幣屬性](./set-properties/)
 了解如何使用 Java 在 Aspose.Tasks 專案中設定貨幣屬性。輕鬆操作 Microsoft Project 檔案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان تخصيص نمط النص في Aspose.Tasks
 linktitle: تكوين أنماط النص في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: قم بتعزيز جماليات مستند المشروع باستخدام Aspose.Tasks لـ .NET. قم بتخصيص أنماط النص بسهولة للحصول على تمثيل جذاب بصريًا.
-type: docs
 weight: 11
 url: /ar/net/text-view-configuration/text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان تخصيص نمط النص في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع باستخدام .NET، تعد Aspose.Tasks أداة قوية توفر عددًا لا يحصى من الميزات. إحدى هذه الميزات التي تعمل على تحسين التمثيل المرئي لبيانات المشروع بشكل كبير هي القدرة على تخصيص أنماط النص. في هذا البرنامج التعليمي، سنتعمق في عملية تكوين أنماط النص باستخدام Aspose.Tasks لـ .NET، مما يسمح لك بإضفاء لمسة شخصية على مستندات مشروعك.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 نعم، يدعم Aspose.Tasks تنسيقات الإخراج المختلفة، مثل XLSX، وPNG، وHTML. اضبط خيارات الحفظ وفقًا لذلك.
 ### هل هناك مجتمع يمكنني من خلاله طلب المساعدة أو تبادل الخبرات المتعلقة بـ Aspose.Tasks؟
  بالتأكيد، قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

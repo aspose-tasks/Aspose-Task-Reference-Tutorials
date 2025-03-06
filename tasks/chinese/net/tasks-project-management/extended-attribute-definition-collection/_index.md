@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中掌握 MS 项目的扩展属性定义
 linktitle: Aspose.Tasks 中扩展属性定义的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中管理扩展属性定义。轻松定制和增强您的项目数据。
-type: docs
 weight: 14
 url: /zh/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中掌握 MS 项目的扩展属性定义
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中使用扩展属性定义。扩展属性提供了一种灵活的方式来自定义和增强项目数据，允许用户添加默认提供的标准字段之外的其他字段。借助 Aspose.Tasks，您可以轻松管理这些扩展属性，以满足您的项目管理需求。
 ## 先决条件
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 答：Aspose.Tasks 与各种.NET 框架兼容，确保灵活性和易于集成。
 ### 问：在哪里可以找到有关 Aspose.Tasks 的更多资源和支持？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求支持并探索文档[这里](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

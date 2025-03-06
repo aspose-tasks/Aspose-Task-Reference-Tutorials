@@ -3,10 +3,16 @@ title: Определите дни недели для исключений ка
 linktitle: Определите дни недели для исключений календаря с помощью Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как определить дни недели для исключений календаря в проектах Java, используя Aspose.Tasks для точного планирования проектов.
-type: docs
 weight: 11
 url: /ru/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определите дни недели для исключений календаря с помощью Aspose.Tasks
+
 ### Введение
 В управлении проектами определение исключений для календарей имеет решающее значение для точного представления нестандартных рабочих дней или праздников в рамках графика проекта. Aspose.Tasks for Java предоставляет надежные функции для эффективного управления календарями, включая определение исключений, таких как праздники или особые рабочие дни. В этом уроке мы углубимся в то, как определить дни недели для исключений календаря с помощью Aspose.Tasks для Java.
 ### Предварительные условия
@@ -68,3 +74,10 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 О: Вы можете программно обрабатывать исключения на основе динамических требований проекта, используя обширный API, предоставляемый Aspose.Tasks для Java.
 ### Вопрос: Доступна ли пробная версия Aspose.Tasks для Java?
  О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks для Java на сайте[Веб-сайт](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

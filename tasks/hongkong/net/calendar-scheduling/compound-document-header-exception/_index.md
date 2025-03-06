@@ -3,10 +3,16 @@ title: 處理 Aspose.Tasks 中的複合文檔頭異常
 linktitle: 處理 Aspose.Tasks 中的複合文檔頭異常
 second_title: Aspose.Tasks .NET API
 description: 了解如何處理 Aspose.Tasks for .NET 中的CompoundDocumentHeaderException。透過程式碼範例獲取逐步指導。
-type: docs
 weight: 16
 url: /zh-hant/net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 處理 Aspose.Tasks 中的複合文檔頭異常
+
 ## 介紹
 
 在 .NET 開發領域，有效管理專案任務是最重要的問題。 Aspose.Tasks 為.NET 開發人員提供了一個全面的解決方案來無縫處理專案管理任務。然而，遇到異常是軟體開發中不可避免的一個面向。開發人員可能遇到的例外是`CompoundDocumentHeaderException`。本教學課程旨在指導開發人員如何使用 Aspose.Tasks for .NET 有效處理此例外狀況。
@@ -105,3 +111,9 @@ A4：是的，Aspose.Tasks 提供雲端 API，可與基於雲端的專案管理�
 ### Q5：Aspose.Tasks 發布更新和錯誤修復的頻率如何？
 
 A5：Aspose.Tasks定期發布更新和錯誤修復，以確保庫的穩定性和可靠性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

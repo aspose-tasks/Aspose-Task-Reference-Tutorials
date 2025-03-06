@@ -3,10 +3,16 @@ title: Управляйте значениями структуры проект
 linktitle: Сбор значений Outline в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять значениями структуры в файлах Microsoft Project с помощью Aspose.Tasks для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 17
 url: /ru/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управляйте значениями структуры проекта MS с помощью Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET предоставляет полный набор функций для взаимодействия с файлами Microsoft Project. Одной из таких функций является возможность управлять значениями схемы в рамках проекта. В этом уроке мы рассмотрим, как собирать значения структуры и манипулировать ими с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -108,3 +114,9 @@ foreach (var outlineValue in outlineValues)
 О: Да, Aspose.Tasks предоставляет обширные API для настройки внешнего вида и поведения значений схемы в соответствии с вашими требованиями.
 ### Вопрос: Где я могу найти дополнительные ресурсы и поддержку для Aspose.Tasks?
  О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку сообщества и изучить[документация](https://reference.aspose.com/tasks/net/) для получения подробной информации об API и функциях.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

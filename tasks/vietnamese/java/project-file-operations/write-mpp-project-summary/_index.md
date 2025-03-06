@@ -3,10 +3,16 @@ title: Viết tóm tắt dự án MPP trong Aspose.Tasks
 linktitle: Viết tóm tắt dự án MPP trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách viết tóm tắt dự án MPP bằng Java bằng Aspose.Tasks. Thiết lập và truy xuất thông tin dự án một cách dễ dàng.
-type: docs
 weight: 27
 url: /vi/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viết tóm tắt dự án MPP trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để viết tóm tắt dự án MPP. Aspose.Tasks là một thư viện Java mạnh mẽ để làm việc với các tệp Microsoft Project. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể thiết lập và truy xuất các thông tin tóm tắt khác nhau về một dự án bằng thư viện này.
 ## Điều kiện tiên quyết
@@ -87,3 +93,9 @@ Trả lời: Aspose.Tasks cho Java được cập nhật thường xuyên để 
 Trả lời: Hoàn toàn có thể, Aspose.Tasks cho Java cung cấp các tùy chọn mở rộng để tùy chỉnh thông tin tóm tắt dự án theo yêu cầu cụ thể của bạn.
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?
 Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

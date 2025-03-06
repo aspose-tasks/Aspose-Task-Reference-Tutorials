@@ -3,10 +3,16 @@ title: Làm việc với các đối tượng OLE trong Aspose.Tasks
 linktitle: Làm việc với các đối tượng OLE trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc hiệu quả với các đối tượng OLE trong ứng dụng .NET bằng Aspose.Tasks, nâng cao khả năng quản lý dự án.
-type: docs
 weight: 22
 url: /vi/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các đối tượng OLE trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET cung cấp chức năng toàn diện để làm việc với các đối tượng OLE (Liên kết và nhúng đối tượng) trong các tệp dự án. Hướng dẫn này sẽ hướng dẫn bạn quy trình quản lý hiệu quả các đối tượng OLE bằng Aspose.Tasks trong các ứng dụng .NET của bạn.
@@ -148,3 +154,9 @@ Câu trả lời 4: Có, Aspose.Tasks rất phù hợp cho cả dự án quy mô
 ### Câu hỏi 5: Aspose.Tasks có cung cấp tài nguyên tài liệu và hỗ trợ khách hàng không?
 
 Câu trả lời 5: Có, Aspose.Tasks cung cấp tài liệu, diễn đàn và hỗ trợ khách hàng phong phú để hỗ trợ các nhà phát triển sử dụng các tính năng của nó một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

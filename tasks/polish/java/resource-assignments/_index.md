@@ -3,10 +3,16 @@ title: Przydziały zasobów
 linktitle: Przydziały zasobów
 second_title: Aspose.Tasks API Java
 description: Z łatwością opanuj Aspose.Tasks dla języka Java, korzystając z naszych samouczków dotyczących przypisywania zasobów. Zarządzaj manipulacją MS Project, budżetami przydziałów, kosztami i nie tylko.
-type: docs
 weight: 30
 url: /pl/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przydziały zasobów
+
 
 ## Wstęp
 
@@ -101,3 +107,9 @@ Dowiedz się, jak zarządzać notatkami dotyczącymi przydziałów zasobów w As
 Dowiedz się, jak efektywnie zarządzać przydziałami zasobów w Aspose.Tasks dla Java, korzystając z tego samouczka krok po kroku.
 ### [Generuj dane okresowe w Aspose.Tasks](./timephased-data-generation/)
 Dowiedz się, jak generować dane okresowe dla przydziałów zasobów za pomocą Aspose.Tasks dla Java. Popraw efektywność zarządzania projektami dzięki temu kompleksowemu przewodnikowi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

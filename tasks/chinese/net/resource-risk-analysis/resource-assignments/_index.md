@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中处理 MS Project 资源分配
 linktitle: 在 Aspose.Tasks 中处理资源分配
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效处理 MS Project 资源分配。该综合指南为开发人员提供了分步指导。
-type: docs
 weight: 11
 url: /zh/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中处理 MS Project 资源分配
+
 ## 介绍
 在本教程中，我们将深入研究如何使用 Aspose.Tasks for .NET 高效处理 Microsoft Project 资源分配。 Aspose.Tasks 是一个功能强大的 API，允许开发人员以编程方式操作 Microsoft Project 文件。通过执行这些步骤，您将了解如何在 .NET 应用程序中有效管理资源分配。
 ## 先决条件
@@ -73,3 +79,9 @@ project.Save(DataDir + "CreateSplitTasks_out.xml", SaveFileFormat.Xml);
 是的，Aspose.Tasks 允许将项目数据导出为各种格式，例如 XML、PDF 和 HTML 等。
 ### Aspose.Tasks 用户可以获得技术支持吗？
 是的，Aspose 通过其论坛和其他渠道提供专门的技术支持，以帮助用户解决任何疑问或问题。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menangani Pengecualian Ukuran Tidak Valid untuk Bitmap di Aspose.Tasks
 linktitle: Menangani Pengecualian Ukuran Tidak Valid untuk Bitmap di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani BitmapInvalidSizeException di Aspose.Tasks untuk .NET saat menyimpan proyek sebagai gambar. Tutorial komprehensif dengan panduan langkah demi langkah.
-type: docs
 weight: 22
 url: /id/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Pengecualian Ukuran Tidak Valid untuk Bitmap di Aspose.Tasks
+
 ## Perkenalan
 
  Dalam tutorial ini, kita akan mempelajari penanganannya`BitmapInvalidSizeException` saat bekerja dengan Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram, memungkinkan tugas seperti menyimpan proyek sebagai gambar. Namun, terkadang, saat mencoba menyimpan proyek sebagai gambar, kami mungkin menemui masalah`Invalid Size Exception`terkait dengan bitmap. Tutorial ini bertujuan untuk memandu Anda melalui proses menangkap dan menangani pengecualian ini secara efektif.
@@ -111,3 +117,9 @@ A4: Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, memungkink
 ### Q5: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
 
 A5: Anda dapat memperoleh lisensi sementara untuk tujuan evaluasi melalui tautan yang disediakan di artikel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Handle Currency Digits with Aspose.Tasks
 linktitle: Handle Currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to handle currency MS Project digits efficiently using Aspose.Tasks for Java. Step-by-step guide with code examples.
-type: docs
 weight: 11
 url: /java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Currency Digits with Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive tutorial on handling currency MS Project digits using Aspose.Tasks for Java. In this tutorial, we will guide you through the process step by step, ensuring you grasp each concept thoroughly.
 ## Prerequisites
@@ -56,3 +62,10 @@ Yes, you can use Aspose.Tasks for Java on different platforms that support Java 
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Tasks?
 You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

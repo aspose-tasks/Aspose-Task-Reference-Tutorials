@@ -3,10 +3,16 @@ title: Настройте параметры страницы проекта MS 
 linktitle: Настройка параметров страницы в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить параметры страницы MS Project с помощью Aspose.Tasks для .NET. Настройте ориентацию, размер и другие параметры с помощью простых шагов.
-type: docs
 weight: 20
 url: /ru/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте параметры страницы проекта MS с помощью Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим процесс настройки параметров страницы Microsoft Project с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно манипулировать файлами Microsoft Project.
 ## Предварительные условия
@@ -77,3 +83,9 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 О: Конечно, вы можете интегрировать эту функцию в рабочий процесс вашего приложения, чтобы автоматизировать настройку параметров страницы.
 ### Вопрос: Предлагает ли Aspose.Tasks поддержку других форматов файлов, кроме .mpp?
 О: Да, Aspose.Tasks поддерживает различные форматы файлов, такие как XML, MPT и HTML и другие.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

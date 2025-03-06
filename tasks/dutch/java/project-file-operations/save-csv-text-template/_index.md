@@ -3,10 +3,16 @@ title: Opslaan als CSV, tekst en sjabloon in Aspose.Tasks
 linktitle: Opslaan als CSV, tekst en sjabloon in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u Microsoft Project-bestanden in CSV-, tekst- en sjabloonindelingen kunt opslaan met Aspose.Tasks voor Java.
-type: docs
 weight: 16
 url: /nl/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan als CSV, tekst en sjabloon in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u projectbestanden in verschillende indelingen, zoals CSV, tekst en sjabloon, kunt opslaan met Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project hoeft te worden geïnstalleerd.
 ## Vereisten
@@ -77,3 +83,9 @@ EEN: Absoluut! Aspose.Tasks voor Java kan met gemak projecten van verschillende 
  A: Ja, u kunt een tijdelijke licentie kopen bij[hier](https://purchase.aspose.com/temporary-license/), zodat u het volledige potentieel van de bibliotheek kunt evalueren.
 ### Vraag: Is Aspose.Tasks voor Java compatibel met verschillende besturingssystemen?
 A: Ja, Aspose.Tasks voor Java is compatibel met verschillende besturingssystemen, waaronder Windows, macOS en Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

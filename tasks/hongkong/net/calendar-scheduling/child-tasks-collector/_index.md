@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中收集子任務
 linktitle: 在 Aspose.Tasks 中收集子任務
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效地收集子任務。改進 .NET 應用程式中的專案管理。
-type: docs
 weight: 15
 url: /zh-hant/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中收集子任務
+
 ## 介紹
 
 在專案管理領域，Aspose.Tasks for .NET 作為高效能處理任務和專案的強大解決方案脫穎而出。這個強大的程式庫為開發人員提供了無縫管理任務、專案和所有內容所需的工具。在本教程中，我們將深入研究 Aspose.Tasks 的一個特定方面：收集子任務。
@@ -96,3 +102,9 @@ A4：是的，使用者可以透過[Aspose.Tasks 論壇](https://forum.aspose.co
 ### Q5：我可以在購買前試用 Aspose.Tasks for .NET 嗎？
 
  A5：當然！您可以從以下網站獲得免費試用[發布頁面](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

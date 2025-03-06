@@ -3,10 +3,16 @@ title: WBS ที่เกี่ยวข้องกับงานใน Aspos
 linktitle: WBS ที่เกี่ยวข้องกับงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เชี่ยวชาญ WBS ด้วย Aspose.Tasks สำหรับ Java - เรียนรู้การอ่านและกำหนดหมายเลขรหัส WBS ของงานใหม่ เพิ่มประสิทธิภาพการจัดการโครงการ!
-type: docs
 weight: 36
 url: /th/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS ที่เกี่ยวข้องกับงานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกแห่งการจัดการโครงการด้วย Aspose.Tasks สำหรับ Java! ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของโครงสร้างการแบ่งงาน (WBS) ที่เกี่ยวข้องกับงานที่ใช้ Aspose.Tasks สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คู่มือนี้จะช่วยให้คุณเข้าใจถึงสิ่งสำคัญในการจัดการโค้ด WBS ได้อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -90,3 +96,9 @@ for (Task task : tasks) {
  ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุน
 ### ถาม: ฉันสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้หรือไม่
  ตอบ: ได้ รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

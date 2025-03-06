@@ -3,10 +3,16 @@ title: Verwalten Sie Projektgliederungscodes in Aspose.Tasks für .NET
 linktitle: Gliederungscodes in Aspose.Tasks verwalten
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Gliederungscodes mit Aspose.Tasks für .NET verwalten. Vereinfachen Sie die Projektorganisation mühelos.
-type: docs
 weight: 10
 url: /de/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie Projektgliederungscodes in Aspose.Tasks für .NET
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Microsoft Project-Gliederungscodes mit Aspose.Tasks für .NET verwalten. Gliederungscodes sind benutzerdefinierte Felder in Microsoft Project, die es Benutzern ermöglichen, Aufgaben nach bestimmten Kriterien zu kategorisieren und zu organisieren. Aspose.Tasks vereinfacht das programmgesteuerte Lesen und Bearbeiten dieser Gliederungscodes.
 ## Voraussetzungen
@@ -71,3 +77,9 @@ A: Ja, für die kommerzielle Nutzung von Aspose.Tasks ist eine gültige Lizenz e
 A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks von der Website herunterladen, um die Funktionen und Fähigkeiten zu testen.
 ### F: Wo kann ich Unterstützung für Aspose.Tasks erhalten?
  A: Sie können Unterstützung für Aspose.Tasks erhalten, indem Sie das Forum unter besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).## Vollständiger Quellcode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

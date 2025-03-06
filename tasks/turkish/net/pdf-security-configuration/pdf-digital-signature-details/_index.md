@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project PDF Dijital İmzasını Yapılandırma
 linktitle: Aspose.Tasks'ta PDF Dijital İmza Ayrıntılarını Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project PDF dijital imza ayrıntılarını nasıl yapılandıracağınızı öğrenin. Proje dosyalarınızın güvenliğini ve orijinalliğini sağlayın.
-type: docs
 weight: 10
 url: /tr/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project PDF Dijital İmzasını Yapılandırma
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Microsoft Project PDF dijital imza ayrıntılarını yapılandırma sürecinde size rehberlik edeceğiz. Bu adımları izleyerek, dijital imzaları MS Project dosyalarınıza sorunsuz bir şekilde entegre ederek güvenlik ve orijinallik sağlayabilirsiniz.
 ## Önkoşullar
@@ -84,3 +90,9 @@ C: Evet, ihtiyaçlarınıza göre metin, yazı tipi, renk ve konum dahil olmak �
 C: Hayır, bir PDF'ye dijital imza uygulandığında kaldırılamaz veya güncellenemez. Ancak gerekirse ek imzalar ekleyebilirsiniz.
 ### S: Microsoft Project dosyasının boyutu veya karmaşıklığı konusunda herhangi bir sınırlama var mı?
 C: Aspose.Tasks, çeşitli boyut ve karmaşıklıktaki Microsoft Project dosyalarını sınırlama olmaksızın işleyebilir. Ancak performans, mevcut donanıma ve kaynaklara bağlı olarak değişebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

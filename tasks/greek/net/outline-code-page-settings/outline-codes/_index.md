@@ -3,10 +3,16 @@ title: Διαχείριση Κωδικών Περίληψης Έργων στο 
 linktitle: Διαχείριση κωδικών περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε να διαχειρίζεστε τους κωδικούς περίληψης του MS Project με το Aspose.Tasks για .NET. Απλοποιήστε την οργάνωση του έργου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση Κωδικών Περίληψης Έργων στο Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε τους κώδικες περίληψης του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Οι κωδικοί διάρθρωσης είναι προσαρμοσμένα πεδία στο Microsoft Project που επιτρέπουν στους χρήστες να κατηγοριοποιούν και να οργανώνουν εργασίες σύμφωνα με συγκεκριμένα κριτήρια. Το Aspose.Tasks απλοποιεί τη διαδικασία ανάγνωσης και χειρισμού αυτών των κωδίκων περιγράμματος μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks από τον ιστότοπο για να αξιολογήσετε τις δυνατότητες και τις δυνατότητές του.
 ### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να λάβετε υποστήριξη για το Aspose.Tasks επισκεπτόμενοι το φόρουμ στη διεύθυνση[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Ολοκληρώστε τον πηγαίο κώδικα
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 이미지를 분리하기 위해 페이지 인쇄
 linktitle: Aspose.Tasks에서 이미지를 분리하기 위해 페이지 인쇄
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 페이지를 인쇄하여 이미지를 분리하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트 시각화를 개선하세요.
-type: docs
 weight: 22
 url: /ko/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 이미지를 분리하기 위해 페이지 인쇄
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 페이지를 인쇄하여 이미지를 분리하는 과정을 안내합니다. 이 기능은 프로젝트 레이아웃이나 중요한 작업을 별도로 시각화해야 할 때 특히 유용할 수 있습니다.
 ## 전제조건
@@ -77,3 +83,9 @@ A: 예. 적절한 종속성을 추가하여 Java용 Aspose.Tasks를 Maven 또는
 A: 예, Aspose.Tasks for Java는 프로젝트 데이터를 PDF, HTML, XLSX 등과 같은 다양한 형식으로 내보내는 것을 지원하여 데이터 시각화 및 보고에 유연성을 제공합니다.
 ### Q: Aspose.Tasks for Java에 사용할 수 있는 커뮤니티 지원이 있나요?
  A: 예. 커뮤니티 지원을 찾고, 질문하고, 다른 사용자와 소통할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

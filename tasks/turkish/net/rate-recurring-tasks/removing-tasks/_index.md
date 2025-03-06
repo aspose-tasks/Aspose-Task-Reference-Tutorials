@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Görevlerini Kaldırma
 linktitle: Aspose.Tasks'ta Görevleri Kaldırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project görevlerini programlı olarak nasıl kaldıracağınızı öğrenin. Kod örneklerinin yer aldığı adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Görevlerini Kaldırma
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak bir Microsoft Project dosyasından görevlerin nasıl kaldırılacağını inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir API'dir. Görevleri bir proje dosyasından kaldırmak, proje yönetimi senaryolarında yaygın bir gereklilik olabilir ve Aspose.Tasks, bunu başarmanın basit bir yolunu sunar.
 ## Önkoşullar
@@ -75,3 +81,9 @@ C: Aspose.Tasks, geri alınan işlemler için güçlü işlevsellik sağlar. Ger
 C: Kesinlikle, Aspose.Tasks karmaşık proje yapıları için kapsamlı destek sunarak görevleri, kaynakları ve diğer proje öğelerini kolaylıkla yönetmenize olanak tanır.
 ### S: Aspose.Tasks'ın deneme sürümü mevcut mu?
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/tasks/net/) Bir satın alma işlemi yapmadan önce özelliklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

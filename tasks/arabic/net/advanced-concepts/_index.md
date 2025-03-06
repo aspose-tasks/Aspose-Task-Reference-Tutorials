@@ -3,10 +3,16 @@ title: Aspose.Tasks المفاهيم المتقدمة
 linktitle: Aspose.Tasks المفاهيم المتقدمة
 second_title: Aspose.Tasks .NET API
 description: تعرف على حفظ الصور ومعالجة الاستثناءات وخوارزميات الشجرة وعروض الملصقات وخيارات التحميل والمزيد. إتقان المفاهيم المتقدمة في Aspose.Tasks لـ .NET
-type: docs
 weight: 24
 url: /ar/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks المفاهيم المتقدمة
+
 
 ## مقدمة
 
@@ -84,3 +90,9 @@ url: /ar/net/advanced-concepts/
 تعرف على كيفية العمل بكفاءة مع كائنات OLE في تطبيقات .NET باستخدام Aspose.Tasks، مما يعزز قدرات إدارة المشروع.
 ### [مجموعة كائنات OLE في Aspose.Tasks](./ole-object-collection/)
 تعرف على كيفية إدارة كائنات OLE في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي الشامل. أتقن التعامل مع الملفات المضمنة في مستندات المشروع دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

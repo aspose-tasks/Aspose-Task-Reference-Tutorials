@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Atamalar için Köprü Özelliklerini Yönetme
 linktitle: Aspose.Tasks'ta Kaynak Atamaları için Köprü Özelliklerini Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da kaynak atamaları için köprü özelliklerini nasıl yöneteceğinizi öğrenin. Proje yönetiminde işbirliğini ve erişilebilirliği geliştirin.
-type: docs
 weight: 16
 url: /tr/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Atamalar için Köprü Özelliklerini Yönetme
+
 ## giriiş
 Aspose.Tasks for Java, proje görevlerini ve kaynaklarını yönetmek için güçlü özellikler sunar. Bu eğitimde Aspose.Tasks kullanarak kaynak atamaları için köprü özelliklerinin nasıl yönetileceğine odaklanacağız. Bu adım adım talimatları izleyerek projenizin kaynak atamalarıyla ilişkili köprüleri verimli bir şekilde yönetebileceksiniz.
 ## Önkoşullar
@@ -84,3 +90,9 @@ C: Aspose.Tasks, köprülerin uzunluğuna katı sınırlamalar getirmez. Ancak d
 C: Evet, köprü özelliklerini boş veya boş dizelere ayarlayarak köprüleri kaynak atamalarından kaldırabilirsiniz.
 ### S: Aspose.Tasks köprü doğrulamayı destekliyor mu?
 C: Aspose.Tasks, köprüleri doğrulamak yerine köprü özelliklerini yönetmeye odaklanır. Ancak köprü bütünlüğünü sağlamak için Java uygulamanızda özel doğrulama mantığını uygulayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

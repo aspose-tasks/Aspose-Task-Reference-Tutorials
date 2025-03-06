@@ -3,10 +3,16 @@ title: Mastering Task Baselines in Aspose.Tasks for .NET
 linktitle: Handling Task Baselines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle task baselines in Aspose.Tasks for .NET with this comprehensive tutorial. Enhance your project management skills today!
-type: docs
 weight: 16
 url: /net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Baselines in Aspose.Tasks for .NET
+
 ## Introduction
 In the dynamic world of project management, staying organized and informed is crucial. Aspose.Tasks for .NET provides a powerful solution for handling task baselines, allowing you to access valuable baseline information efficiently. This step-by-step guide will walk you through the process, ensuring you grasp each concept with clarity.
 ## Prerequisites
@@ -72,3 +78,10 @@ A: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temp
 A: Explore the [documentation](https://reference.aspose.com/tasks/net/) for a wide range of tutorials on Aspose.Tasks features.
 ### Q: Where can I purchase Aspose.Tasks for .NET?
 A: You can conveniently purchase Aspose.Tasks [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

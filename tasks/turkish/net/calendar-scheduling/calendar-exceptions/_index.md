@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Takvim İstisnalarını Yönetme
 linktitle: Aspose.Tasks'ta Takvim İstisnalarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Adım adım eğitimler ve örneklerle Aspose.Tasks for .NET'te takvim istisnalarını nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 12
 url: /tr/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Takvim İstisnalarını Yönetme
+
 ## giriiş
 
 Bu eğitimde, .NET çerçevesini kullanarak Aspose.Tasks'ta takvim istisnalarının nasıl yönetileceğini inceleyeceğiz. Takvim istisnaları, bir proje takviminde tatiller veya geçici kapanışlar gibi normal çalışma programının değiştirildiği özel tarihler veya dönemler tanımlamamıza olanak tanır. Aspose.Tasks for .NET'i kullanarak takvim istisnalarını adım adım ele almak için çeşitli yöntemleri ele alacağız.
@@ -156,3 +162,9 @@ Cevap4: Aspose.Tasks, günlük, haftalık, aylık ve yıllık istisnalar dahil o
 ### S5: Belirli istisna tarihleri için çalışma saatlerini özelleştirebilir miyim?
 
 C5: Evet, Aspose.Tasks tarafından sağlanan uygun yöntemleri kullanarak ayrı ayrı istisna tarihleri için özel çalışma süreleri tanımlayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gerenciar tarefas pai e filho em Aspose.Tasks
 linktitle: Gerenciar tarefas pai e filho em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aumente a eficiência do gerenciamento de projetos com Aspose.Tasks for Java. Aprenda a gerenciar tarefas de pais e filhos passo a passo. Comece agora!
-type: docs
 weight: 24
 url: /pt/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar tarefas pai e filho em Aspose.Tasks
+
 ## Introdução
 No domínio do gerenciamento de projetos, a organização eficaz das tarefas é crucial. Aspose.Tasks for Java fornece uma solução robusta para gerenciar tarefas pai e filho com eficiência. Neste tutorial, orientaremos você no processo de uso do Aspose.Tasks for Java para agilizar as tarefas do seu projeto.
 ## Pré-requisitos
@@ -103,3 +109,9 @@ Absolutamente! Aspose.Tasks for Java oferece amplas opções de personalização
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar documentação abrangente para Aspose.Tasks for Java?
  A documentação está disponível[aqui](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

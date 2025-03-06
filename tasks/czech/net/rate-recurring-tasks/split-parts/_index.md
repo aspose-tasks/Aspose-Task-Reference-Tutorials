@@ -3,10 +3,16 @@ title: Manipulace s rozdělenými díly MS Project v Aspose.Tasks
 linktitle: Manipulace s rozdělenými díly v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně zacházet s rozdělenými částmi MS Project pomocí Aspose.Tasks pro .NET. Vylepšete svůj pracovní postup projektového řízení.
-type: docs
 weight: 18
 url: /cs/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s rozdělenými díly MS Project v Aspose.Tasks
+
 
 ## Úvod
 Správa rozdělených částí MS Project může být zásadním aspektem projektového řízení při použití Aspose.Tasks pro .NET. V tomto tutoriálu prozkoumáme, jak efektivně zacházet s rozdělenými částmi pomocí pokynů krok za krokem.
@@ -94,3 +100,9 @@ Odpověď: Ano, Aspose.Tasks for .NET vám umožňuje efektivně spravovat zdroj
 A: Rozhodně si můžete přizpůsobit projektové kalendáře podle vašich požadavků projektu.
 ### Otázka: Kde najdu podporu pro Aspose.Tasks pro .NET?
  Odpověď: Podporu a pomoc najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

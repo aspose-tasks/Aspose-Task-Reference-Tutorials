@@ -3,10 +3,16 @@ title: Címkék megjelenítése az Aspose.Tasks-ban
 linktitle: Címkék megjelenítése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan testreszabhatja a címkemegjelenítéseket a projektmenedzsmentben az Aspose.Tasks for .NET segítségével. Fokozatmentesen javítja az olvashatóságot és az áttekinthetőséget.
-type: docs
 weight: 14
 url: /hu/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Címkék megjelenítése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 A szoftverfejlesztés területén a feladatok hatékony kezelése elengedhetetlen a projekt sikeréhez. Az Aspose.Tasks for .NET robusztus megoldást kínál a projektmenedzsment feladatok zökkenőmentes kezelésére a .NET keretrendszeren belül. A projektmenedzsment egyik kulcsfontosságú szempontja a megjelenítési beállítások testreszabásának képessége az adott követelményeknek megfelelően. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET a perc-, óra-, nap-, hét-, hónap- és évcímkék megjelenítésére a projektfájlokban.
@@ -137,3 +143,10 @@ public void WorkWithYearLabelDisplay()
 ### 5. kérdés: Az Aspose.Tasks támogatja az integrációt más projektmenedzsment eszközökkel?
 
 5. válasz: Igen, az Aspose.Tasks zökkenőmentes integrációs lehetőségeket kínál, megkönnyítve az együttműködést más projektmenedzsment eszközökkel és platformokkal.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

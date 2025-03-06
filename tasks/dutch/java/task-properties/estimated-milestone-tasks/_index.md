@@ -3,10 +3,16 @@ title: Behandel geschatte taken en mijlpaaltaken in Aspose.Tasks
 linktitle: Behandel geschatte taken en mijlpaaltaken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek effectief projectbeheer met Aspose.Tasks voor Java. Voer moeiteloos geschatte en mijlpaaltaken uit. Download de bibliotheek nu!
-type: docs
 weight: 15
 url: /nl/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandel geschatte taken en mijlpaaltaken in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java is een krachtige bibliotheek die het moeiteloos afhandelen van taken, het beheren van projecten en het manipuleren van projectgegevens vergemakkelijkt. In deze zelfstudie concentreren we ons op een cruciaal aspect van projectbeheer: het verwerken van geschatte taken en mijlpaaltaken met behulp van Aspose.Tasks voor Java.
 ## Vereisten
@@ -60,3 +66,9 @@ Ja, u kunt Aspose.Tasks naadloos integreren in uw Java-projecten door de meegele
  Ja, u heeft toegang tot een gratis proefversie van Aspose.Tasks[hier](https://releases.aspose.com/).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
  U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

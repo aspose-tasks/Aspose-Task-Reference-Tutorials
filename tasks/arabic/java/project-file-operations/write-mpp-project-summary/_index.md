@@ -3,10 +3,16 @@ title: اكتب ملخص مشروع MPP في Aspose.Tasks
 linktitle: اكتب ملخص مشروع MPP في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية كتابة ملخصات مشروع MPP في Java باستخدام Aspose.Tasks. قم بتعيين واسترجاع معلومات المشروع دون عناء.
-type: docs
 weight: 27
 url: /ar/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اكتب ملخص مشروع MPP في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعلم كيفية استخدام Aspose.Tasks لـ Java لكتابة ملخصات مشروع MPP. Aspose.Tasks هي مكتبة Java قوية للعمل مع ملفات Microsoft Project. باتباع الخطوات الموضحة أدناه، ستتمكن من تعيين واسترجاع معلومات تلخيصية متنوعة حول مشروع باستخدام هذه المكتبة.
 ## المتطلبات الأساسية
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ج: بالتأكيد، يوفر Aspose.Tasks for Java خيارات شاملة لتخصيص معلومات ملخص المشروع وفقًا لمتطلباتك المحددة.
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks لـ Java؟
 ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

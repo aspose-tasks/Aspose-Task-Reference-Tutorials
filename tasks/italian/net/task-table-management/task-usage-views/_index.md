@@ -3,10 +3,16 @@ title: Padroneggiare le visualizzazioni di utilizzo delle attività in Aspose.Ta
 linktitle: Configurazione delle visualizzazioni di utilizzo delle attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET e scopri come configurare le visualizzazioni di utilizzo delle attività. Personalizza le impostazioni della scala temporale e migliora gli elementi visivi della gestione del progetto.
-type: docs
 weight: 24
 url: /it/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le visualizzazioni di utilizzo delle attività in Aspose.Tasks per .NET
+
 ## introduzione
 Nell'ambito della gestione dei progetti, visualizzare l'utilizzo delle attività è fondamentale per una pianificazione ed esecuzione efficaci. Aspose.Tasks per .NET fornisce una soluzione solida per il rendering delle visualizzazioni di utilizzo delle attività, consentendo di personalizzare le impostazioni della scala temporale e i formati di presentazione. In questo tutorial verranno illustrati i passaggi per configurare le visualizzazioni di utilizzo delle attività utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -75,3 +81,9 @@ Sì, Aspose.Tasks supporta i formati di file di progetto più diffusi come MPP, 
 Assolutamente, puoi personalizzare le impostazioni della scala temporale per le singole attività all'interno del tuo progetto.
 ### Come posso ottenere supporto o chiedere assistenza per Aspose.Tasks?
  Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto e l’orientamento della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

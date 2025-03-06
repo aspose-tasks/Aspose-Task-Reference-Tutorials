@@ -3,10 +3,16 @@ title: Statistiques concernant les éléments à risque dans Aspose.Tasks
 linktitle: Statistiques concernant les éléments à risque dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Libérez la puissance de l’analyse des risques dans les fichiers MS Project à l’aide d’Aspose.Tasks pour .NET. Obtenez des informations, atténuez les incertitudes et favorisez la réussite de vos projets sans effort.
-type: docs
 weight: 21
 url: /fr/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Statistiques concernant les éléments à risque dans Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à améliorer vos prouesses en matière de gestion de projet à l’aide d’Aspose.Tasks pour .NET ? Plongez dans le domaine de l'analyse des risques avec notre didacticiel étape par étape sur l'obtention de statistiques sur les éléments de risque dans les fichiers MS Project. En tirant parti des puissantes capacités d'Aspose.Tasks, vous pouvez obtenir des informations inestimables sur les incertitudes du projet et prendre des décisions éclairées pour atténuer efficacement les risques.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Nous nous efforçons d'améliorer continuellement Aspose.Tasks en publiant péri
 Certainement! Notre équipe d'assistance dédiée est facilement disponible sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour vous aider à répondre à toutes vos questions ou difficultés que vous pourriez rencontrer au cours de votre parcours de mise en œuvre.
 ### Proposez-vous des licences temporaires pour des projets à court terme ?
  Oui, si vous avez besoin d'Aspose.Tasks pour un projet à court terme, vous pouvez profiter de notre service pratique[permis temporaire](https://purchase.aspose.com/temporary-license/) option pour répondre à vos besoins en matière de licences sans aucun engagement à long terme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

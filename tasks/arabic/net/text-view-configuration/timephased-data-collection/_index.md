@@ -3,10 +3,16 @@ title: إتقان جمع البيانات على مراحل في Aspose.Tasks
 linktitle: جمع البيانات الموزعة على الوقت في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف جمع البيانات الموزعة على الوقت في Aspose.Tasks لـ .NET. دليل خطوة بخطوة والأسئلة الشائعة والمزيد. تعزيز قدرات إدارة المشروع الخاص بك اليوم!
-type: docs
 weight: 15
 url: /ar/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان جمع البيانات على مراحل في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى الاستفادة من قوة البيانات الموزعة على الوقت في تطبيقات .NET الخاصة بك باستخدام Aspose.Tasks؟ لا مزيد من البحث! سيرشدك هذا الدليل الشامل خلال عملية جمع البيانات الموزعة على الوقت باستخدام Aspose.Tasks لـ .NET، مما يضمن تحقيق أقصى استفادة من هذه المكتبة القوية.
 ## المتطلبات الأساسية
@@ -121,3 +127,9 @@ foreach (var timephasedData in tds)
  نعم، يمكنك استكشاف ميزات Aspose.Tasks لـ .NET عن طريق الوصول إلى[تجربة مجانية](https://releases.aspose.com/).
 ### أين يمكنني شراء ترخيص Aspose.Tasks لـ .NET؟
 يمكنك شراء ترخيص Aspose.Tasks لـ .NET[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

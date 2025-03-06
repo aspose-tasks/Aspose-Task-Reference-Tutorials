@@ -3,10 +3,16 @@ title: حساب المسار الحرج لمشروع MS في Aspose.Tasks
 linktitle: حساب المسار الحرج في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية حساب المسار الحرج في MS Project باستخدام Aspose.Tasks لـ Java. وهذا يوفر إرشادات خطوة بخطوة لإدارة المشروع بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب المسار الحرج لمشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية حساب المسار الحرج في MS Project باستخدام Aspose.Tasks لـ Java. يعد المسار الحرج ضروريًا لإدارة المشروع لأنه يساعد في تحديد تسلسل المهام التي يجب إكمالها في الوقت المحدد لضمان عدم تأخير الجدول الزمني الإجمالي للمشروع.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، يمكنك شراء ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: كيف يمكنني شراء Aspose.Tasks لـ Java؟
  ج: يمكنك شراء Aspose.Tasks لـ Java من موقع الويب[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

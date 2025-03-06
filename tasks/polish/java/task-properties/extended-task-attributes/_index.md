@@ -3,10 +3,16 @@ title: Rozszerzone atrybuty zadań w Aspose.Tasks
 linktitle: Rozszerzone atrybuty zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Przeglądaj rozszerzone atrybuty zadań w Aspose.Tasks dla Java. Przewodnik krok po kroku, często zadawane pytania i wsparcie. Zoptymalizuj zarządzanie projektami już dziś!
-type: docs
 weight: 16
 url: /pl/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozszerzone atrybuty zadań w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat wykorzystania rozszerzonych atrybutów zadań w Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia płynną pracę z dokumentami Microsoft Project. W tym samouczku zagłębimy się w rozszerzone atrybuty zadań i pokażemy, jak można je wykorzystać w celu zwiększenia możliwości zarządzania projektami.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Tak, możesz modyfikować rozszerzone atrybuty zadań za pomocą Aspose.Tasks dl
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić pełną wersję Aspose.Tasks dla Java?
  Można kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

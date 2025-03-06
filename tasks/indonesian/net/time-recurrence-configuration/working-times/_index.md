@@ -3,10 +3,16 @@ title: Mengonfigurasi Waktu Kerja di Aspose.Tasks
 linktitle: Mengonfigurasi Waktu Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan penjadwalan proyek di .NET dengan Aspose.Tasks. Konfigurasikan waktu kerja dengan mudah untuk pengelolaan sumber daya yang tepat. Unduh perpustakaannya sekarang!
-type: docs
 weight: 13
 url: /id/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Waktu Kerja di Aspose.Tasks
+
 ## Perkenalan
 Dalam manajemen proyek, pengendalian waktu kerja yang tepat sangat penting untuk penjadwalan dan alokasi sumber daya yang akurat. Aspose.Tasks untuk .NET memberikan solusi ampuh untuk menangani informasi waktu kerja dalam proyek Anda. Tutorial ini akan memandu Anda melalui proses konfigurasi waktu kerja menggunakan Aspose.Tasks di lingkungan .NET.
 ## Prasyarat
@@ -84,3 +90,9 @@ Ya, Aspose.Tasks memfasilitasi integrasi dengan berbagai alat manajemen proyek, 
 Aspose.Tasks mendukung berbagai format file, memungkinkan operasi impor/ekspor yang lancar untuk data proyek.
 ### Seberapa sering pembaruan Aspose.Tasks dirilis?
 Pembaruan dirilis secara berkala untuk memastikan kompatibilitas dengan teknologi terbaru dan menanggapi masukan pengguna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

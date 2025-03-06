@@ -3,10 +3,16 @@ title: Feladat hivatkozások
 linktitle: Feladat hivatkozások
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java-t oktatóanyagainkkal. Fokozza az együttműködést, határozzon meg hivatkozástípusokat, és zökkenőmentesen kezelje a feladatokat. Növelje projektje hatékonyságát most!
-type: docs
 weight: 33
 url: /hu/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat hivatkozások
+
 ## Bevezetés
 
 Ha elmélyül a Java projektmenedzsment világában, az Aspose.Tasks az Ön számára ideális eszköz. Átfogó oktatóanyagaink lehetővé teszik a különböző szempontok elsajátítását, biztosítva az Aspose.Tasks for Java könyvtár optimális kihasználását.
@@ -38,3 +44,9 @@ Fedezze fel az Aspose.Tasks for Java erejét a projektmenedzsmentben. Határozzo
 Fedezze fel a projektek közötti feladat-azonosítást az Aspose.Tasks for Java segítségével. Zökkenőmentes integráció és hatékony kezelés. Letöltés most!
 ### [Az Aspose.Tasks előd- és utódfeladatok kezelése](./predecessor-successor-tasks/)
 Fedezze fel a hatékony feladatkezelést az Aspose.Tasks for Java segítségével. Könnyen kezelheti az előd- és utódfeladatokat a projektekben. Töltse le ingyenes próbaverzióját most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

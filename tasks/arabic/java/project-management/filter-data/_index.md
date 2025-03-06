@@ -3,10 +3,16 @@ title: تصفية البيانات من ملف MPP في Aspose.Tasks
 linktitle: تصفية البيانات من ملف MPP في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تصفية البيانات من ملفات MPP باستخدام Aspose.Tasks لـ Java. قم بتحسين سير عمل إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 14
 url: /ar/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصفية البيانات من ملف MPP في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير Java، تعد إدارة مهام المشروع بكفاءة جانبًا محوريًا لإدارة المشروع الناجحة. يوفر Aspose.Tasks for Java حلاً قويًا للتعامل مع مهام إدارة المشاريع برمجيًا، مما يوفر للمطورين الأدوات اللازمة لتصفية البيانات من ملفات MPP بسلاسة. في هذا البرنامج التعليمي، سنتعمق في عملية تصفية البيانات من ملفات MPP باستخدام Aspose.Tasks لـ Java، مع تفصيل كل خطوة لضمان الفهم الشامل.
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ System.out.println(criteria22.getField());
  ج: بالتأكيد! يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/tasks/java/) للحصول على أدلة مفصلة ومراجع API. بالإضافة إلى ذلك، يمكنك طلب المساعدة من منتديات مجتمع Aspose.Tasks لأية استفسارات أو مشكلات تواجهها.
 ### س: هل يمكنني استكشاف وظائف Aspose.Tasks لـ Java قبل إجراء عملية شراء؟
  ج: بالطبع! يمكنك الاستفادة من النسخة التجريبية المجانية من[موقع إلكتروني](https://releases.aspose.com/) لتجربة ميزات وإمكانيات Aspose.Tasks لـ Java بشكل مباشر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

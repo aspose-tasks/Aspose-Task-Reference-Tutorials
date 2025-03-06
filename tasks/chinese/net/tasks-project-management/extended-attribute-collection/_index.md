@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理 MS 项目属性集合
 linktitle: 管理 Aspose.Tasks 中的扩展属性集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效管理 MS Project 扩展属性。通过分步指导无缝操作任务属性。
-type: docs
 weight: 12
 url: /zh/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理 MS 项目属性集合
+
 ## 介绍
 您是否希望使用 Aspose.Tasks for .NET 高效管理 MS Project 扩展属性？在本教程中，我们将逐步指导您完成该过程。让我们深入了解吧！
 ## 先决条件
@@ -105,3 +111,9 @@ foreach (var attribute in attributes)
 答：是的，Aspose.Tasks for .NET 支持跨不同版本的 MS Project 文件格式。
 ### 问：Aspose.Tasks for .NET 有试用版吗？
 答：是的，您可以从以下位置下载免费试用版：[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

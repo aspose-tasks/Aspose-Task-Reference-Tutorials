@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置甘特圖時間刻度層
 linktitle: 在 Aspose.Tasks 中配置時間刻度層
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在甘特圖視圖中配置時間刻度層，以實現精確的專案時間軸視覺化。 #Aspose.Tasks #MS 項目
-type: docs
 weight: 16
 url: /zh-hant/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置甘特圖時間刻度層
+
 ## 介紹
 在專案管理的動態環境中，有效的視覺化對於理解時間表和截止日期至關重要。 Aspose.Tasks for .NET 提供了強大的工具集，在本教程中，我們將探討如何配置時間刻度層以在甘特圖視圖中實現最佳表示。請按照這些逐步說明來增強您的專案視覺化。
 ## 先決條件
@@ -86,3 +92,9 @@ project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 當然，您可以探索時間刻度表示的各種格式和樣式，以最適合您的專案環境。
 ### 是否有 Aspose.Tasks 支援的社群論壇？
 是的，請訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

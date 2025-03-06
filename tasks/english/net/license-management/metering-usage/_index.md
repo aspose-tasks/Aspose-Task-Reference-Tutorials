@@ -3,10 +3,16 @@ title: Metering MS Project Usage with Aspose.Tasks for .NET
 linktitle: Metering Usage in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to effectively monitor and optimize your MS Project usage with Aspose.Tasks for .NET. Step-by-step guide for efficient project management.
-type: docs
 weight: 17
 url: /net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metering MS Project Usage with Aspose.Tasks for .NET
+
 ## Introduction
 Are you looking to effectively manage and monitor your MS Project usage with Aspose.Tasks? With the power of metering, you can keep track of your usage and optimize your project management efforts. In this tutorial, we'll guide you through the process of metering MS Project usage step by step using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -77,3 +83,10 @@ A: Yes, an internet connection is required to communicate with Aspose's servers 
 A: Yes, you can track usage in real-time by periodically checking credits spent and bytes consumed.
 ### Q: Is metering MS Project usage available in the trial version?
 A: Yes, metering MS Project usage is available in both trial and licensed versions of Aspose.Tasks for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

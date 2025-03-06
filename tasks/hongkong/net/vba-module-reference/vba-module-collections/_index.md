@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的 VBA 模組集合
 linktitle: 在 Aspose.Tasks 中管理 VBA 模組集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中有效率地管理 VBA 模組集合。無縫整合到您的專案中的逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/net/vba-module-reference/vba-module-collections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的 VBA 模組集合
+
 ## 介紹
 歡迎來到我們關於在 Aspose.Tasks for .NET 中管理 VBA 模組集合的綜合教學！如果您正在使用 Aspose.Tasks 進入令人興奮的專案管理世界，那麼了解如何使用 VBA 模組至關重要。本指南將逐步引導您完成整個流程，確保您獲得有效管理專案中的 VBA 模組所需的技能。
 ## 先決條件
@@ -72,3 +78,9 @@ Aspose.Tasks 主要支援 .NET 語言，例如 C#。但是，有一些 Java 版�
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到 Aspose.Tasks 的詳細文件？
 探索文件[這裡](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

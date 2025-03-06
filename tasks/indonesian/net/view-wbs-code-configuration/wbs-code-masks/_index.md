@@ -3,10 +3,16 @@ title: Konfigurasi Kode WBS Langkah demi Langkah di Aspose.Tasks .NET
 linktitle: Mengonfigurasi Masker Kode WBS di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi konfigurasi Masker Kode WBS langkah demi langkah di proyek .NET menggunakan Aspose.Tasks. Tingkatkan kemampuan manajemen proyek dengan mudah.
-type: docs
 weight: 14
 url: /id/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Kode WBS Langkah demi Langkah di Aspose.Tasks .NET
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi data manajemen proyek secara efisien dalam aplikasi .NET. Dalam tutorial ini, kita akan menjelajahi proses mengonfigurasi Masker Kode Work Breakdown Structure (WBS) menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -91,3 +97,9 @@ Dalam tutorial ini, kita telah menjelajahi proses langkah demi langkah mengonfig
  Ya, dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/tasks/net/).
 ### Di mana saya dapat membeli Aspose.Tasks?
  Beli Aspose.Tugas[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

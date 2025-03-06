@@ -3,10 +3,16 @@ title: قم بتكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NE
 linktitle: تكوين خيارات XLSX في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NET. قم بتخصيص الأعمدة والتشفير وغير ذلك الكثير بسهولة.
-type: docs
 weight: 11
 url: /ar/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NET
+
 ## مقدمة
 يعد Microsoft Project (MS Project) أداة قوية لإدارة المشاريع، ويوفر Aspose.Tasks for .NET تكاملًا سلسًا للعمل مع ملفات MS Project برمجيًا. في هذا البرنامج التعليمي، سنتعرف على عملية تكوين خيارات MS Project XLSX باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ project.Save("OutputFile.xlsx", options);
 ### س: هل هناك أي خيارات ترخيص مؤقتة متاحة لأغراض الاختبار؟
 
  ج: نعم، يمكنك الحصول على ترخيص مؤقت من[صفحة الترخيص المؤقتة Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

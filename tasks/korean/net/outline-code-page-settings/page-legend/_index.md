@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 범례 구성
 linktitle: Aspose.Tasks에서 페이지 범례 구성
 second_title: Aspose.태스크 .NET API
 description: 효율적인 프로젝트 관리를 위해 Aspose.Tasks를 사용하여 .NET에서 MS 프로젝트 페이지 범례를 구성하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.
-type: docs
 weight: 18
 url: /ko/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 범례 구성
+
 ## 소개
 .NET 개발 영역에서는 특히 프로젝트 관리를 다룰 때 작업을 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 작업 관리 프로세스를 간소화하기 위한 다양한 기능을 제공하는 강력한 도구로 등장합니다. 그러한 기능 중 하나는 MS 프로젝트 페이지 범례를 구성하여 사용자에게 프로젝트 데이터 프레젠테이션에 대한 귀중한 통찰력을 제공하는 기능입니다.
 ## 전제조건
@@ -85,3 +91,9 @@ A: 임시 라이선스는 .NET용 Aspose.Tasks 기능에 대한 전체 액세스
 A: 물론 .NET용 Aspose.Tasks는 광범위한 사용자 정의 옵션을 제공하므로 특정 프로젝트 요구 사항에 따라 페이지 범례를 맞춤 설정할 수 있습니다.
 ### Q: .NET용 Aspose.Tasks에 대한 지원이나 커뮤니티 포럼은 어디에서 찾을 수 있나요?
  답변: 다음에서 지원을 구하고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)에서 쿼리에 대한 답변을 찾고 동료 개발자와 상호 작용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

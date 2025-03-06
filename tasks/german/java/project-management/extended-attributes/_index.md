@@ -3,10 +3,16 @@ title: Behandeln Sie erweiterte Attribute in Aspose.Tasks-Projekten
 linktitle: Behandeln Sie erweiterte Attribute in Aspose.Tasks-Projekten
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Java effizient mit erweiterten Attributen in Aspose.Tasks-Projekten umgehen. Schritt-für-Schritt-Anleitung für effektives Projektmanagement.
-type: docs
 weight: 13
 url: /de/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandeln Sie erweiterte Attribute in Aspose.Tasks-Projekten
+
 ## Einführung
 Die Verwaltung erweiterter Attribute im Projektmanagement ist für die Anpassung und Verbesserung von Projektdaten von entscheidender Bedeutung. Aspose.Tasks für Java bietet robuste Tools zur effizienten Handhabung erweiterter Attribute in MS Project-Dateien. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie jedes Konzept gründlich verstehen.
 ## Voraussetzungen
@@ -86,3 +92,9 @@ A: Absolut, mit Aspose.Tasks können Sie benutzerdefinierte erweiterte Attributt
  A: Eine umfassende Dokumentation finden Sie auf der Aspose.Tasks-Website[Dokumentation](https://reference.aspose.com/tasks/java/).
 ### F: Ist technischer Support für Aspose.Tasks-Benutzer verfügbar?
  A: Ja, Sie können über das Aspose.Tasks-Forum auf technischen Support zugreifen[Webseite](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

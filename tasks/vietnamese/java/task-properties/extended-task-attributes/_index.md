@@ -3,10 +3,16 @@ title: Thuộc tính nhiệm vụ mở rộng trong Aspose.Tasks
 linktitle: Thuộc tính nhiệm vụ mở rộng trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá các thuộc tính tác vụ mở rộng trong Aspose.Tasks cho Java. Hướng dẫn từng bước, Câu hỏi thường gặp và hỗ trợ. Tối ưu hóa quản lý dự án của bạn ngay hôm nay!
-type: docs
 weight: 16
 url: /vi/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính nhiệm vụ mở rộng trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tận dụng các thuộc tính tác vụ mở rộng trong Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép bạn làm việc liền mạch với các tài liệu Microsoft Project. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các thuộc tính nhiệm vụ mở rộng và trình bày cách bạn có thể sử dụng chúng để nâng cao khả năng quản lý dự án của mình.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Có, bạn có thể sửa đổi các thuộc tính tác vụ mở rộng bằn
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua phiên bản đầy đủ của Aspose.Tasks cho Java ở đâu?
  Bạn có thể mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

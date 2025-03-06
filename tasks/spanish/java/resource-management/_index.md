@@ -3,10 +3,16 @@ title: Administracion de recursos
 linktitle: Administracion de recursos
 second_title: Aspose.Tasks API de Java
 description: Dominar la gestión de recursos en MS Project con Aspose.Tasks para Java. Aprenda a crear, iterar, gestionar costos y más. Optimice el desarrollo con nuestros tutoriales.
-type: docs
 weight: 31
 url: /es/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administracion de recursos
+
 ## Introducción
 
 En el ámbito del desarrollo de MS Project utilizando Java, Aspose.Tasks se destaca como una biblioteca sólida que ofrece un conjunto completo de funcionalidades para una gestión eficaz de los recursos. Esta serie de tutoriales lo guiará a través de varios aspectos, asegurándole que se convierta en un experto en el manejo de recursos de Microsoft Project sin problemas.
@@ -63,3 +69,9 @@ Aprenda cómo administrar los costos de recursos de MS Project de manera eficien
 Aprenda a configurar las propiedades de recursos de MS Project en Java usando Aspose.Tasks para una integración perfecta y una gestión de tareas eficiente.
 ### [Escriba datos de recursos actualizados en Aspose.Tasks](./write-updated-resource-data/)
 Aprenda cómo actualizar sin esfuerzo datos de recursos en archivos de MS Project usando Aspose.Tasks para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

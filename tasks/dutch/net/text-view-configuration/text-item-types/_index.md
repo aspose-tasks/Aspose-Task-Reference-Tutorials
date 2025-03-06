@@ -3,10 +3,16 @@ title: Handleiding voor het aanpassen van tekstitemtypes in Aspose.Tasks
 linktitle: Omgaan met tekstitemtypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Beheer de aanpassing van het tekstitemtype in Aspose.Tasks voor .NET met deze stapsgewijze handleiding. Breng uw projectmanagementgame moeiteloos naar een hoger niveau.
-type: docs
 weight: 10
 url: /nl/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handleiding voor het aanpassen van tekstitemtypes in Aspose.Tasks
+
 ## Invoering
 Als je een .NET-ontwikkelaar bent die zich bezighoudt met projectbeheer met behulp van Aspose.Tasks, dan ben je hier aan het juiste adres! In deze stapsgewijze handleiding onderzoeken we de fijne kneepjes van het omgaan met tekstitemtypen in Aspose.Tasks, waarbij we ons concentreren op maatwerk met behulp van de krachtige .NET-bibliotheek.
 ## Vereisten
@@ -74,3 +80,9 @@ Gefeliciteerd! U heeft zojuist de oppervlakte bereikt van het omgaan met tekstit
 A: Ontdek meer tutorials in de Aspose.Tasks-documentatie.
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?
  A: Koop de bibliotheek[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

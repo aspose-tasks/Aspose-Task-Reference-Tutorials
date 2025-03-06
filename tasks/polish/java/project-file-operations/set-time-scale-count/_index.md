@@ -3,10 +3,16 @@ title: Opanowanie liczenia skali czasu projektu MS w Aspose.Tasks
 linktitle: Ustaw licznik skali czasu w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie zarządzać skalą czasu w MS Project przy użyciu Aspose.Tasks dla Java. Bez wysiłku optymalizuj wizualizację projektu i zarządzanie nim.
-type: docs
 weight: 22
 url: /pl/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie liczenia skali czasu projektu MS w Aspose.Tasks
+
 ## Wstęp
 Zarządzanie skalą czasową w MS Project może znacząco wpłynąć na wizualizację i zarządzanie projektem. Dzięki Aspose.Tasks for Java, potężnemu API do programowej obsługi zadań związanych z zarządzaniem projektami, możesz efektywnie manipulować licznikiem skali czasu, aby dostosować widoki projektu do swoich konkretnych potrzeb.
 ## Warunki wstępne
@@ -91,3 +97,9 @@ O: Oczywiście, Aspose.Tasks dla Java zapewnia szerokie możliwości dostosowywa
  Odp.: Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### P: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Tasks dla Java?
  O: Możesz znaleźć wsparcie i pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Guardar como PDF en Aspose.Tasks
 linktitle: Guardar como PDF en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a convertir archivos de proyecto a PDF usando Aspose.Tasks para Java. Pasos simples para una conversión eficiente.
-type: docs
 weight: 17
 url: /es/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar como PDF en Aspose.Tasks
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de guardar un proyecto como PDF usando Aspose.Tasks para Java. Con Aspose.Tasks, puede convertir de manera eficiente los archivos de su proyecto a formato PDF, garantizando compatibilidad y facilidad para compartir. Profundicemos en los pasos:
 ## Requisitos previos
@@ -68,3 +74,9 @@ R: Sí, Aspose.Tasks admite una amplia gama de formatos de archivo, incluidos MP
  R: Sí, puede obtener una prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/).
 ### P: ¿Dónde puedo obtener soporte para Aspose.Tasks?
  R: Para obtener soporte y asistencia, puede visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

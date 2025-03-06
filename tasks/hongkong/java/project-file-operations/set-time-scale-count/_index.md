@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中掌握 MS 專案時間尺度計數
 linktitle: 在 Aspose.Tasks 中設定時間刻度計數
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效管理 MS Project 中的時間刻度計數。輕鬆優化專案視覺化和管理。
-type: docs
 weight: 22
 url: /zh-hant/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中掌握 MS 專案時間尺度計數
+
 ## 介紹
 在 MS Project 中管理時間尺度計數可以顯著影響專案視覺化和管理。使用 Aspose.Tasks for Java（一種用於以程式設計方式處理專案管理任務的強大 API），您可以有效地操作時間刻度計數，以根據您的特定需求自訂專案視圖。
 ## 先決條件
@@ -91,3 +97,9 @@ project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 答：是的，您可以從以下位置取得免費試用版[這裡](https://releases.aspose.com/).
 ### Q：在哪裡可以獲得 Aspose.Tasks for Java 的支援？
 答：您可以在 Aspose.Tasks 論壇上找到支援和協助[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

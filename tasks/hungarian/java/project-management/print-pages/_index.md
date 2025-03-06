@@ -3,10 +3,16 @@ title: Oldalak nyomtatása külön képként az Aspose.Tasks alkalmazásban
 linktitle: Oldalak nyomtatása külön képként az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan nyomtathat oldalakat külön képekhez az Aspose.Tasks for Java programban. Javítsa a projekt vizualizációját ezzel a lépésenkénti útmutatóval.
-type: docs
 weight: 22
 url: /hu/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalak nyomtatása külön képként az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük az Aspose.Tasks for Java segítségével oldalak nyomtatásának folyamatán. Ez a funkció különösen akkor lehet hasznos, ha külön kell megjelenítenie a projektelrendezéseket vagy a kritikus feladatokat.
 ## Előfeltételek
@@ -77,3 +83,9 @@ V: Igen, az Aspose.Tasks for Java könnyen integrálható Maven vagy Gradle proj
 V: Igen, az Aspose.Tasks for Java támogatja a projektadatok exportálását különféle formátumokba, például PDF, HTML, XLSX stb., rugalmasságot biztosítva az adatok megjelenítésében és jelentéseiben.
 ### K: Elérhető közösségi támogatás az Aspose.Tasks for Java számára?
  V: Igen, a webhelyen találhat közösségi támogatást, kérdéseket tehet fel, és kapcsolatba léphet más felhasználókkal[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

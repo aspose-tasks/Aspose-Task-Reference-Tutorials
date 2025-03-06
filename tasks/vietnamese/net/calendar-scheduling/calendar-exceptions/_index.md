@@ -3,10 +3,16 @@ title: Xử lý ngoại lệ lịch trong Aspose.Tasks
 linktitle: Xử lý ngoại lệ lịch trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các ngoại lệ lịch trong Aspose.Tasks dành cho .NET với các ví dụ và hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý ngoại lệ lịch trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các ngoại lệ lịch trong Aspose.Tasks bằng .NET framework. Các trường hợp ngoại lệ về lịch cho phép chúng tôi xác định các ngày hoặc giai đoạn đặc biệt trong lịch dự án khi lịch làm việc thông thường bị thay đổi, chẳng hạn như ngày lễ hoặc thời gian đóng cửa tạm thời. Chúng tôi sẽ đề cập đến các phương pháp khác nhau để xử lý các ngoại lệ của lịch theo từng bước bằng cách sử dụng Aspose.Tasks cho .NET.
@@ -156,3 +162,9 @@ Câu trả lời 4: Aspose.Tasks hỗ trợ nhiều loại ngoại lệ khác nh
 ### Câu hỏi 5: Tôi có thể tùy chỉnh giờ làm việc cho những ngày ngoại lệ cụ thể không?
 
 Câu trả lời 5: Có, bạn có thể xác định thời gian làm việc tùy chỉnh cho từng ngày ngoại lệ riêng lẻ bằng các phương pháp thích hợp do Aspose.Tasks cung cấp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

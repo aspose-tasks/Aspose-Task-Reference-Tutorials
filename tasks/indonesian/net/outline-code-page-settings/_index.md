@@ -3,10 +3,16 @@ title: Kode Garis Besar Aspose.Tugas dan Pengaturan Halaman
 linktitle: Kode Garis Besar Aspose.Tugas dan Pengaturan Halaman
 second_title: Aspose.Tugas .NET API
 description: Kuasai Aspose.Tasks untuk .NET dengan tutorial tentang kode kerangka, koleksi, definisi, masker, dan pengaturan halaman. Meningkatkan organisasi dan penyesuaian proyek.
-type: docs
 weight: 25
 url: /id/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kode Garis Besar Aspose.Tugas dan Pengaturan Halaman
+
 ## Perkenalan
 Selamat datang di dunia manajemen proyek yang lancar dengan Aspose.Tasks untuk .NET! Di era digital ini, ketika presisi dan efisiensi tidak dapat ditawar lagi, menguasai seluk-beluk Microsoft Project menjadi sebuah terobosan. Rangkaian tutorial komprehensif kami akan memandu Anda memahami nuansa Aspose.Tasks untuk .NET, memberdayakan Anda untuk dengan mudah mengelola kode outline, memanipulasi definisi data, bekerja dengan mask, nilai, dan menyesuaikan pengaturan halaman. Baik Anda seorang manajer proyek berpengalaman atau pendatang baru di bidang ini, tutorial kami melayani semua tingkat keahlian, memberikan petunjuk langkah demi langkah dan contoh kode. Bergabunglah dengan kami dalam perjalanan ini untuk membuka potensi penuh Aspose.Tasks, merevolusi cara Anda mendekati organisasi dan penyesuaian proyek. Mari selami dan tingkatkan keterampilan manajemen proyek Anda ke tingkat yang lebih tinggi!
 ## Mengelola Kode Garis Besar dengan Aspose.Tasks untuk .NET
@@ -71,3 +77,9 @@ Pelajari cara menyesuaikan margin halaman di file Microsoft Project menggunakan 
 Pelajari cara mengonfigurasi pengaturan halaman MS Project menggunakan Aspose.Tasks untuk .NET. Sesuaikan orientasi, ukuran, dan lainnya dengan langkah sederhana.
 ### [Sesuaikan Pengaturan Tampilan Halaman Proyek MS di Aspose.Tasks](./page-view-settings/)
 Pelajari cara mengonfigurasi pengaturan tampilan halaman di Aspose.Tasks untuk .NET untuk menyesuaikan format pencetakan dokumen Microsoft Project Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

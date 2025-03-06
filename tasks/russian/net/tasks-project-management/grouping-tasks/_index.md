@@ -3,10 +3,16 @@ title: Эффективная группировка задач MS Project с п
 linktitle: Группировка задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно группировать задачи Microsoft Project с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 25
 url: /ru/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффективная группировка задач MS Project с помощью Aspose.Tasks
+
 ## Введение
 Управление задачами в Microsoft Project иногда может быть сложной задачей, особенно когда речь идет об их эффективной организации. Aspose.Tasks for .NET предлагает комплексное решение этой проблемы, предоставляя функциональные возможности для эффективной группировки задач. В этом уроке мы рассмотрим, как группировать задачи MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 Разумеется, Aspose.Tasks предоставляет возможности настройки внешнего вида сгруппированных задач, включая цвета ячеек, шрифты и стили.
 ### Где я могу найти поддержку Aspose.Tasks для .NET?
  Вы можете найти поддержку и помощь по Aspose.Tasks для .NET в[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

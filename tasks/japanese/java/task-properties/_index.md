@@ -3,10 +3,16 @@ title: タスクのプロパティ
 linktitle: タスクのプロパティ
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java プロジェクト管理を強化します。優先順位の処理からコストの管理まで、タスクのプロパティに関するチュートリアルをご覧ください。今すぐプロジェクトを最適化しましょう!
-type: docs
 weight: 34
 url: /ja/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# タスクのプロパティ
+
 ## 導入
 
 Aspose.Tasks を使用すると、Java で Microsoft Project ファイルを簡単に管理およびカスタマイズできます。タスク プロパティのさまざまな側面をカバーするチュートリアルを参照して、プロジェクト管理機能を強化します。
@@ -138,3 +144,9 @@ Aspose.Tasks for Java とマスター タスクのタイムスケール デー�
 Aspose.Tasks for Java を使用してタスク データを MPP 形式に更新する方法を学習します。効率的なプロジェクト管理のために、ステップバイステップのガイドに従ってください。
 ### [Aspose.Tasks のタスクに関連付けられた WBS](./wbs-associated-with-task/)
 Aspose.Tasks for Java で WBS をマスターする - タスク WBS コードの読み取りと再番号付けを学びます。プロジェクト管理を効率化！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

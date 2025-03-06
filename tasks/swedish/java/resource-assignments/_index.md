@@ -3,10 +3,16 @@ title: Resursuppdrag
 linktitle: Resursuppdrag
 second_title: Aspose.Tasks Java API
 description: Bemästra Aspose.Tasks för Java utan ansträngning med våra självstudier för resursuppdrag. Hantera MS Project-manipulation, uppdragsbudgetar, kostnader och mer.
-type: docs
 weight: 30
 url: /sv/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resursuppdrag
+
 
 ## Introduktion
 
@@ -101,3 +107,9 @@ Lär dig hur du hanterar anteckningar för resurstilldelningar i Aspose.Tasks f�
 Lär dig hur du hanterar resurstilldelningar effektivt i Aspose.Tasks för Java med denna steg-för-steg handledning.
 ### [Generera tidsfasdata i Aspose.Tasks](./timephased-data-generation/)
 Lär dig hur du genererar tidsfasdata för resurstilldelningar med Aspose.Tasks för Java. Förbättra projektledningseffektiviteten med denna omfattande guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

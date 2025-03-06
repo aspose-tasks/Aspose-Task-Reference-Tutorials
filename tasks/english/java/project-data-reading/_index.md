@@ -3,10 +3,16 @@ title: Project Data Reading
 linktitle: Project Data Reading
 second_title: Aspose.Tasks Java API
 description: Unlock the power of Aspose.Tasks for Java with our tutorials! From reading group definitions to extracting Gantt chart data, master seamless integration.
-type: docs
 weight: 28
 url: /java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Project Data Reading
+
 ## Introduction
 If you're navigating the vast landscape of project management in Java, our Aspose.Tasks tutorials are your guiding stars. Dive into a realm where reading project data becomes an effortless journey, thanks to our step-by-step guides. Let's embark on this knowledge adventure together!
 
@@ -48,3 +54,9 @@ Learn how to read password-protected files in Aspose.Tasks for Java effortlessly
 Learn how to extract specific Gantt chart data using Aspose.Tasks for Java. Step-by-step tutorial for seamless integration into your Java applications.
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Unlock the power of Aspose.Tasks for Java. Learn to extract table data from files in this comprehensive tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

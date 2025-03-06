@@ -3,10 +3,16 @@ title: Làm chủ các thuộc tính tác vụ trong Aspose.Tasks
 linktitle: Đọc và ghi các thuộc tính chung của nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks dành cho Java trong việc quản lý các thuộc tính tác vụ một cách dễ dàng. Đọc và viết dễ dàng bằng cách sử dụng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 26
 url: /vi/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các thuộc tính tác vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Khai phá toàn bộ tiềm năng quản lý tác vụ trong Java với Aspose.Tasks. Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào việc đọc và viết các thuộc tính chung của tác vụ bằng Aspose.Tasks cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn các kỹ năng để thao tác các thuộc tính tác vụ một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Có, Aspose.Tasks tương thích với Java 11 và các phiên bản mới hơn.
  Tham gia thảo luận cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và hợp tác.
 ### Có dự án mẫu nào có sẵn để tham khảo không?
  Khám phá phần ví dụ của tài liệu[đây](https://reference.aspose.com/tasks/java/) cho các dự án mẫu và đoạn mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

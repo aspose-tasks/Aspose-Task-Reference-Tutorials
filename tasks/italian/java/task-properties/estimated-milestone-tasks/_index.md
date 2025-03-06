@@ -3,10 +3,16 @@ title: Gestire attività stimate e cardine in Aspose.Tasks
 linktitle: Gestire attività stimate e cardine in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora una gestione efficace dei progetti con Aspose.Tasks per Java. Gestisci le attività stimate e quelle fondamentali senza sforzo. Scarica subito la libreria!
-type: docs
 weight: 15
 url: /it/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire attività stimate e cardine in Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per Java è una potente libreria che facilita la gestione delle attività, la gestione dei progetti e la manipolazione dei dati del progetto senza sforzo. In questo tutorial, ci concentreremo su un aspetto cruciale della gestione del progetto: gestire attività stimate e cardine utilizzando Aspose.Tasks per Java.
 ## Prerequisiti
@@ -60,3 +66,9 @@ Sì, puoi integrare perfettamente Aspose.Tasks nei tuoi progetti Java seguendo l
  Sì, puoi accedere a una prova gratuita di Aspose.Tasks[Qui](https://releases.aspose.com/).
 ### Come posso ottenere una licenza temporanea per Aspose.Tasks?
  È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

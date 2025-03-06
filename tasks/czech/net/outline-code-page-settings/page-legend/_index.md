@@ -3,10 +3,16 @@ title: Konfigurace MS Project Legends v Aspose.Tasks
 linktitle: Konfigurace legendy stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat legendy stránek MS Project v .NET pomocí Aspose.Tasks pro efektivní řízení projektů. Poskytován průvodce krok za krokem.
-type: docs
 weight: 18
 url: /cs/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace MS Project Legends v Aspose.Tasks
+
 ## Úvod
 V oblasti vývoje .NET je efektivní řízení úkolů zásadní, zejména při řízení projektů. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění procesů správy úloh. Jednou z takových funkcí je možnost konfigurovat legendy stránek MS Project, které uživatelům poskytují cenné informace o prezentaci dat projektu.
 ## Předpoklady
@@ -85,3 +91,9 @@ Odpověď: Dočasné licence nabízejí plný přístup k funkcím Aspose.Tasks 
 Odpověď: Aspose.Tasks for .NET nabízí rozsáhlé možnosti přizpůsobení, které vám umožňují přizpůsobit legendy stránek podle vašich specifických požadavků projektu.
 ### Otázka: Kde najdu podporu nebo komunitní fóra pro Aspose.Tasks pro .NET?
  Odpověď: Můžete hledat podporu a zapojit se do komunity na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), kde můžete najít odpovědi na dotazy a komunikovat s ostatními vývojáři.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

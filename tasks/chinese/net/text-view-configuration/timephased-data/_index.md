@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 掌握时间分段数据处理
 linktitle: 在 Aspose.Tasks 中处理时间分段数据
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 轻松处理时间分段数据、增强项目规划并优化资源管理。 #Aspose #Tasks #MS 项目
-type: docs
 weight: 14
 url: /zh/net/text-view-configuration/timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 掌握时间分段数据处理
+
 ## 介绍
 在项目管理领域，有效处理时间分段数据对于资源分配、成本估算和总体项目规划至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来无缝处理自定义时间分段数据。本教程将指导您完成使用 Aspose.Tasks 处理时间分段数据的过程，使您能够优化项目中的资源管理。
 ## 先决条件
@@ -90,3 +96,9 @@ Aspose.Tasks 主要是为.NET 开发而设计的。然而，它的功能可以�
 了解临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Tasks for .NET 的文档？
 参考综合[文档](https://reference.aspose.com/tasks/net/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

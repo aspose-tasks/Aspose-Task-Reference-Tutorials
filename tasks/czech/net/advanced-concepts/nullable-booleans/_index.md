@@ -3,10 +3,16 @@ title: Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
 linktitle: Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně zacházet s booleany s možnou hodnotou Null v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Osvojte si používání třídy `NullableBool` a vylepšete svůj vývoj .NET.
-type: docs
 weight: 21
 url: /cs/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
+
 ## Úvod
 
  tomto tutoriálu se ponoříme do práce s booleany s možností null v Aspose.Tasks pro .NET. Booleovské hodnoty s možností null nabízejí flexibilitu při reprezentaci booleovských hodnot, což umožňuje možnost, že nebudou definovány. Prozkoumáme, jak používat`NullableBool` třída, její konstruktory, vlastnosti a metody.
@@ -153,3 +159,9 @@ Odpověď 4: Ano, můžete nastavit boolean s možnou hodnotou Null tak, aby byl
 ### Q5: Kde najdu další dokumentaci k Aspose.Tasks pro .NET?
 
  A5: Můžete najít podrobnou dokumentaci[tady](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

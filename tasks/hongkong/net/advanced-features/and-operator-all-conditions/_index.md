@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 的所有條件下使用 AND 運算符
 linktitle: 在 Aspose.Tasks 的所有條件下使用 AND 運算符
 second_title: Aspose.Tasks .NET API
 description: 了解如何在所有情況下透過 Aspose.Tasks for .NET 使用 AND 運算子來有效地篩選專案任務。
-type: docs
 weight: 11
 url: /zh-hant/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 的所有條件下使用 AND 運算符
+
 ## 介紹
 
 您是否希望有效地簡化您的專案管理任務？透過 Aspose.Tasks for .NET，您可以利用強大的功能來有效地操作專案資料。其中一項功能是能夠在所有條件下使用 AND 運算符，讓您可以同時根據多個條件篩選任務。在本教程中，我們將指導您逐步完成此功能的實現過程。
@@ -118,3 +124,9 @@ A4：是的，您可以將 Aspose.Tasks 與其他 .NET 框架和程式庫無縫�
 ### Q5：Aspose.Tasks 使用者有可用的社群論壇或支援管道嗎？
 
  A5：是的，您可以造訪 Aspose.Tasks 社群論壇[這裡](https://forum.aspose.com/c/tasks/15)如有任何疑問或幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

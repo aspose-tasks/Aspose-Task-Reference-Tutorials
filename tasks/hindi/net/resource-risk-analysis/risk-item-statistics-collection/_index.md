@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट जोखिम आ
 linktitle: Aspose.Tasks में जोखिम मद सांख्यिकी का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से जोखिम आइटम आँकड़े एकत्र करना सीखें। अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाएँ।
-type: docs
 weight: 22
 url: /hi/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट जोखिम आइटम सांख्यिकी एकत्रित करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से जोखिम आइटम आँकड़े कैसे एकत्र करें। यह लाइब्रेरी जोखिम मूल्यांकन और सांख्यिकीय विश्लेषण सहित परियोजना डेटा का विश्लेषण करने के लिए शक्तिशाली कार्यक्षमता प्रदान करती है।
 ## आवश्यक शर्तें
@@ -88,3 +94,9 @@ foreach (var statistic in statistics)
 उत्तर: हां, Aspose.Tasks आपकी विशिष्ट परियोजना आवश्यकताओं और परिदृश्यों के अनुरूप जोखिम विश्लेषण सेटिंग्स को कॉन्फ़िगर करने में लचीलापन प्रदान करता है।
 ### प्रश्न: क्या Aspose.Tasks उपयोगकर्ताओं के लिए तकनीकी सहायता उपलब्ध है?
  उत्तर: हाँ, Aspose.Tasks उपयोगकर्ता Aspose के माध्यम से तकनीकी सहायता प्राप्त कर सकते हैं[मंचों](https://forum.aspose.com/c/tasks/15), जहां वे प्रश्न पूछ सकते हैं, मुद्दों की रिपोर्ट कर सकते हैं और समुदाय के साथ बातचीत कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

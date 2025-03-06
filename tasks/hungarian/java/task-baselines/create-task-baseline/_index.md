@@ -3,10 +3,16 @@ title: Hozzon létre MS Project Task Baseline-t az Aspose.Tasks programban
 linktitle: Feladatbázis létrehozása az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan hozhat létre Microsoft Project-feladatbázist Java nyelven az Aspose.Tasks segítségével, amely egy hatékony könyvtár a projektadatok könnyű kezeléséhez.
-type: docs
 weight: 11
 url: /hu/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre MS Project Task Baseline-t az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban a Microsoft Project feladat alapvonalának létrehozásának folyamatát mutatjuk be az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül dolgozzanak Microsoft Project fájlokkal. Az Aspose.Tasks segítségével könnyedén kezelheti a projektadatokat, beleértve a feladatokat, az erőforrásokat és a naptárakat, a projektmenedzsment feladatok egyszerűsítése érdekében.
 ## Előfeltételek
@@ -59,3 +65,9 @@ Az Aspose.Tasks for Java robusztus szolgáltatásokat nyújt a projekt erőforr�
 Igen, az Aspose.Tasks for Java segítségével könnyedén beállíthat feladatfüggőségeket, lehetővé téve a projekten belüli feladatok sorrendjének meghatározását.
 ### Elérhető technikai támogatás az Aspose.Tasks for Java számára?
  Igen, elérheti az Aspose.Tasks for Java technikai támogatását a következőn keresztül[támogatói fórum](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehet fel, és segítséget kérhet a közösségtől és az Aspose támogató személyzetétől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

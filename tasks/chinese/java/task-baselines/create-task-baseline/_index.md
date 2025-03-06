@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中创建 MS Project 任务基线
 linktitle: 在 Aspose.Tasks 中创建任务基线
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中创建 Microsoft Project 任务基线，Aspose.Tasks 是一个用于轻松管理项目数据的强大库。
-type: docs
 weight: 11
 url: /zh/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中创建 MS Project 任务基线
+
 ## 介绍
 在本教程中，我们将深入研究使用 Aspose.Tasks for Java 创建 Microsoft Project 任务基线的过程。 Aspose.Tasks 是一个功能强大的 Java 库，使开发人员能够使用 Microsoft Project 文件，而无需安装 Microsoft Project。借助 Aspose.Tasks，您可以轻松操作项目数据，包括任务、资源和日历，以简化项目管理任务。
 ## 先决条件
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 是的，您可以使用 Aspose.Tasks for Java 轻松设置任务依赖关系，从而使您能够在项目中建立任务顺序。
 ### Aspose.Tasks for Java 是否提供技术支持？
 是的，您可以通过以下方式访问 Aspose.Tasks for Java 的技术支持：[支持论坛](https://forum.aspose.com/c/tasks/15)，您可以在其中提出问题并寻求社区和 Aspose 支持人员的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

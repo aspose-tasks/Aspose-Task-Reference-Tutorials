@@ -3,10 +3,16 @@ title: Maîtrisez les masques de plan MS Project avec Aspose.Tasks
 linktitle: Collection de masques de contour dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à manipuler les masques de plan de collection MS Project à l'aide d'Aspose.Tasks pour .NET. Améliorez la productivité avec ce didacticiel complet.
-type: docs
 weight: 15
 url: /fr/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtrisez les masques de plan MS Project avec Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à exploiter la puissance des masques de plan de Microsoft Project à l’aide d’Aspose.Tasks pour .NET ? Vous êtes arrivé au bon endroit! Dans ce didacticiel complet, nous vous guiderons étape par étape tout au long du processus, vous assurant ainsi de bien comprendre comment manipuler efficacement les masques de contour dans vos projets. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce guide vous fournira les connaissances et les compétences nécessaires pour optimiser votre flux de travail.
 ## Conditions préalables
@@ -109,3 +115,9 @@ R : Absolument ! Vous pouvez personnaliser les masques de contour en ajustant le
  : Oui, Aspose.Tasks for .NET propose une documentation complète et une assistance dédiée via son site Web et[forums](https://forum.aspose.com/c/tasks/15).
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
  R : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET depuis leur[site web](https://releases.aspose.com/tasks/net/). pour explorer ses caractéristiques et fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

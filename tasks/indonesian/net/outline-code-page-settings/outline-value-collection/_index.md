@@ -3,10 +3,16 @@ title: Kelola Nilai Garis Besar Proyek MS dengan Aspose.Tasks
 linktitle: Kumpulan Nilai Garis Besar di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah dengan contoh kode.
-type: docs
 weight: 17
 url: /id/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Nilai Garis Besar Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET menyediakan serangkaian fitur komprehensif untuk berinteraksi dengan file Microsoft Project. Salah satu fitur tersebut adalah kemampuan untuk mengelola nilai garis besar dalam suatu proyek. Dalam tutorial ini, kita akan mempelajari cara mengumpulkan dan memanipulasi nilai kerangka menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -108,3 +114,9 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan seperti blok coba-tangka
 J: Ya, Aspose.Tasks menyediakan API ekstensif untuk menyesuaikan tampilan dan perilaku nilai kerangka sesuai dengan kebutuhan Anda.
 ### T: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan menjelajahi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk informasi mendetail tentang API dan fitur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

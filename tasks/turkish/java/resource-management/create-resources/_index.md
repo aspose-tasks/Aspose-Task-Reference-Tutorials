@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Kaynakları Oluşturun
 linktitle: Aspose.Tasks'ta Kaynak Oluşturma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks kütüphanesini kullanarak Java'da Microsoft Project kaynaklarını nasıl oluşturacağınızı öğrenin. Verimli kaynak yönetimi için adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Kaynakları Oluşturun
+
 ## giriiş
 Microsoft Project kaynakları oluşturmak için Aspose.Tasks for Java'nın kullanımına ilişkin kapsamlı kılavuzumuza hoş geldiniz! Aspose.Tasks, geliştiricilerin Java uygulamalarında Microsoft Project dosyalarını verimli bir şekilde yönetmelerine olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, Aspose.Tasks'ı kullanarak MS Project kaynaklarını oluşturma sürecinde size adım adım yol göstereceğiz.
 ## Önkoşullar
@@ -45,3 +51,9 @@ Kesinlikle! Aspose.Tasks, sağlam özellikleri ve mükemmel performansıyla kuru
 Aspose.Tasks forumunda destek ve yardım bulabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks'ı kullanmak için geçici bir lisansa ihtiyacım var mı?
  Aspose.Tasks'ı lisans olmadan kullanabilirsiniz ancak geçici bir lisans, ek özellik ve işlevlerin kilidini açabilir. adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Управление бюджетом назначений в Aspose.Task
 linktitle: Управление бюджетом назначений в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно управлять бюджетами заданий на Java с помощью Aspose.Tasks, мощной библиотеки для манипулирования файлами Microsoft Project.
-type: docs
 weight: 11
 url: /ru/java/resource-assignments/assignment-budget/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление бюджетом назначений в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for Java — это мощная библиотека, предоставляющая разработчикам инструменты, необходимые для эффективного управления файлами Microsoft Project и манипулирования ими в их приложениях Java. Независимо от того, создаете ли вы инструмент управления проектами, автоматизируете задачи или просто хотите программно взаимодействовать с файлами проекта, Aspose.Tasks упрощает процесс благодаря своим комплексным функциям и интуитивно понятному API.
 В этом уроке мы углубимся в мир управления бюджетом заданий с помощью Aspose.Tasks для Java. Мы рассмотрим все: от импорта необходимых пакетов до разбивки каждого примера на пошаговые руководства. К концу вы получите четкое представление о том, как управлять бюджетом заданий в ваших Java-проектах.
@@ -76,3 +82,9 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
  О: Да, вы можете изучить возможности Aspose.Tasks для Java, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу приобрести лицензию на Aspose.Tasks для Java?
  О: Вы можете купить лицензию на Aspose.Tasks для Java на странице покупки.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

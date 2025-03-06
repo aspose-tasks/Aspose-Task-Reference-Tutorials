@@ -3,10 +3,16 @@ title: Guia de personalização de tipo de item de texto em Aspose.Tasks
 linktitle: Tratamento de tipos de itens de texto em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine a personalização do tipo de item de texto no Aspose.Tasks for .NET com este guia passo a passo. Eleve seu jogo de gerenciamento de projetos sem esforço.
-type: docs
 weight: 10
 url: /pt/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guia de personalização de tipo de item de texto em Aspose.Tasks
+
 ## Introdução
 Se você é um desenvolvedor .NET que está mergulhando no gerenciamento de projetos usando Aspose.Tasks, você veio ao lugar certo! Neste guia passo a passo, exploraremos os meandros do manuseio de tipos de itens de texto no Aspose.Tasks, com foco na personalização usando a poderosa biblioteca .NET.
 ## Pré-requisitos
@@ -74,3 +80,9 @@ Parabéns! Você acabou de arranhar a superfície do tratamento de tipos de iten
 R: Explore mais tutoriais na documentação do Aspose.Tasks.
 ### P: Onde posso comprar o Aspose.Tasks para .NET?
  R: Compre a biblioteca[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

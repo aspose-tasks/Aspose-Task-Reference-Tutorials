@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 관리
 linktitle: Aspose.Tasks에서 작업 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용한 작업 관리에 대한 포괄적인 가이드를 살펴보세요. 추가, 분할된 부품 표시, 이동, 속성 가져오기/설정 등의 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 관리
+
 ## 소개
 프로젝트 내의 작업을 효율적으로 관리하려는 .NET 개발자라면 Aspose.Tasks for .NET이 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Tasks를 사용하여 작업을 관리하는 다양한 측면을 안내하고 단계별 지침과 코드 예제를 제공합니다. 작업 추가, 분할된 부분 표시, 동일한 상위 항목 아래 작업 이동, 작업 속성 가져오기/설정, 작업 할당 반복, 작업 기준 읽기 또는 작업 삭제 등 무엇이든 이 가이드에서 다룹니다.
 ## 전제조건
@@ -144,3 +150,9 @@ A: 예, Aspose.Tasks는 다양한 .NET 프레임워크를 지원하여 개발 �
 답: 물론이죠! Aspose.Tasks는 작업 속성에 대한 광범위한 사용자 정의 옵션을 제공합니다. 자세한 내용은 설명서를 확인하세요.
 ### Q: Aspose.Tasks에 대한 지원은 어떻게 받나요?
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

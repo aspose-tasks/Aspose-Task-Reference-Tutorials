@@ -3,10 +3,16 @@ title: Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
 linktitle: Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak přidat vlastní sloupce zobrazení přiřazení do Aspose.Tasks pro .NET, abyste zlepšili možnosti řízení projektů.
-type: docs
 weight: 16
 url: /cs/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak přidat vlastní sloupce pro zobrazení přiřazení pomocí Aspose.Tasks for .NET. Vlastní sloupce poskytují flexibilitu a umožňují zobrazit další informace relevantní pro potřeby řízení vašeho projektu.
@@ -116,3 +122,9 @@ Odpověď 3: Ano, vzhled vlastních sloupců můžete upravit úpravou vlastnost
 ### Q5: Podporuje Aspose.Tasks export projektů do jiných formátů kromě tabulek s vlastními sloupci?
 
 Odpověď 5: Ano, Aspose.Tasks podporuje export projektů do různých formátů, jako jsou PDF, HTML a XML, což umožňuje všestranné možnosti vykazování projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

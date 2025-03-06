@@ -3,10 +3,16 @@ title: Thao tác ký hiệu tiền tệ trong Aspose.Tasks
 linktitle: Thao tác ký hiệu tiền tệ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách thao tác các ký hiệu tiền tệ trong tệp MS Project bằng Aspose.Tasks cho Java. Các bước đơn giản để quản lý dự án hiệu quả
-type: docs
 weight: 12
 url: /vi/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác ký hiệu tiền tệ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thao tác các ký hiệu tiền tệ trong tệp MS Project bằng thư viện Aspose.Tasks cho Java. Aspose.Tasks cung cấp các chức năng mạnh mẽ để làm việc với các tài liệu Microsoft Project, cho phép các nhà phát triển xử lý hiệu quả các khía cạnh khác nhau của quản lý dự án.
 ## Điều kiện tiên quyết
@@ -53,3 +59,9 @@ Có, các nhà phát triển có thể truy cập tài liệu toàn diện và c
  Hoàn toàn có thể, các nhà phát triển có thể tận dụng bản dùng thử miễn phí Aspose.Tasks từ[trang mạng](https://purchase.aspose.com/buy) để đánh giá các tính năng và chức năng của nó trước khi đưa ra quyết định mua hàng.
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
  Các nhà phát triển có thể có được giấy phép tạm thời cho Aspose.Tasks từ[trang mạng](https://purchase.aspose.com/temporary-license/) trang mua hàng, cho phép họ khám phá toàn bộ khả năng của thư viện trong giai đoạn đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

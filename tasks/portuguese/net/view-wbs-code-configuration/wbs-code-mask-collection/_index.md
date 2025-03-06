@@ -3,10 +3,16 @@ title: Dominando as máscaras de código WBS com Aspose.Tasks para .NET
 linktitle: Coleção de máscaras de código WBS em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprimore o gerenciamento de projetos com Aspose.Tasks for .NET. Aprenda a criar, gerenciar e transferir máscaras de código WBS sem esforço neste tutorial abrangente.
-type: docs
 weight: 15
 url: /pt/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando as máscaras de código WBS com Aspose.Tasks para .NET
+
 ## Introdução
 No mundo dinâmico do gerenciamento de projetos, organizar tarefas de forma eficiente é crucial. Aspose.Tasks for .NET fornece uma solução poderosa para gerenciar códigos de estrutura analítica do projeto (EAP) sem esforço. Neste tutorial, nos aprofundaremos na coleção de máscaras de código WBS, explorando como implementá-las e manipulá-las usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -139,3 +145,9 @@ R: Aspose.Tasks oferece suporte principalmente a linguagens .NET, mas você pode
 R: Os códigos EAP ajudam a organizar e estruturar as tarefas do projeto de forma hierárquica, fornecendo uma abordagem sistemática ao planejamento do projeto.
 ### P: Posso personalizar o formato dos códigos WBS no Aspose.Tasks for .NET?
 R: Com certeza, você tem controle total sobre o formato e a estrutura dos códigos WBS usando Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

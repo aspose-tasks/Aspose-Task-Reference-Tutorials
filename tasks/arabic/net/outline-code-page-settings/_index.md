@@ -3,10 +3,16 @@ title: Aspose.Tasks رمز المخطط التفصيلي وإعدادات الص
 linktitle: Aspose.Tasks رمز المخطط التفصيلي وإعدادات الصفحة
 second_title: Aspose.Tasks .NET API
 description: أتقن Aspose.Tasks لـ .NET من خلال برامج تعليمية حول أكواد المخطط التفصيلي والجمع والتعريفات والأقنعة وإعدادات الصفحة. تعزيز تنظيم المشروع والتخصيص.
-type: docs
 weight: 25
 url: /ar/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks رمز المخطط التفصيلي وإعدادات الصفحة
+
 ## مقدمة
 مرحبًا بك في عالم الإدارة السلسة للمشاريع باستخدام Aspose.Tasks لـ .NET! في هذا العصر الرقمي، حيث الدقة والكفاءة غير قابلة للتفاوض، فإن إتقان تعقيدات Microsoft Project يصبح بمثابة تغيير لقواعد اللعبة. سوف ترشدك سلسلتنا الشاملة من البرامج التعليمية عبر الفروق الدقيقة في Aspose.Tasks لـ .NET، مما يتيح لك إدارة رموز المخطط التفصيلي بسهولة ومعالجة تعريفات البيانات والعمل مع الأقنعة والقيم وتخصيص إعدادات الصفحة. سواء كنت مدير مشروع متمرسًا أو وافدًا جديدًا إلى هذا المجال، فإن برامجنا التعليمية تلبي جميع مستويات المهارات، وتوفر إرشادات خطوة بخطوة وأمثلة على التعليمات البرمجية. انضم إلينا في هذه الرحلة لإطلاق الإمكانات الكاملة لـ Aspose.Tasks، مما سيحدث ثورة في الطريقة التي تتعامل بها مع تنظيم المشروع وتخصيصه. دعنا نتعمق ونرفع مهاراتك في إدارة المشاريع إلى آفاق جديدة!
 ## إدارة رموز المخطط التفصيلي باستخدام Aspose.Tasks لـ .NET
@@ -71,3 +77,9 @@ url: /ar/net/outline-code-page-settings/
 تعرف على كيفية تكوين إعدادات صفحة MS Project باستخدام Aspose.Tasks لـ .NET. قم بتخصيص الاتجاه والحجم والمزيد بخطوات بسيطة.
 ### [قم بتخصيص إعدادات عرض صفحة مشروع MS في Aspose.Tasks](./page-view-settings/)
 تعرف على كيفية تكوين إعدادات عرض الصفحة في Aspose.Tasks لـ .NET لتخصيص تنسيق الطباعة لمستندات Microsoft Project الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

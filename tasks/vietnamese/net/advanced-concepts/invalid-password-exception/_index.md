@@ -3,10 +3,16 @@ title: Xử lý ngoại lệ mật khẩu không hợp lệ trong Aspose.Tasks
 linktitle: Xử lý ngoại lệ mật khẩu không hợp lệ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý InvalidPasswordException trong Aspose.Tasks cho .NET một cách hiệu quả. Đảm bảo mã của bạn được thực thi suôn sẻ với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/net/advanced-concepts/invalid-password-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý ngoại lệ mật khẩu không hợp lệ trong Aspose.Tasks
+
 ## Giới thiệu
 
  Trong quá trình phát triển phần mềm, việc gặp phải ngoại lệ là điều thường xuyên xảy ra và việc biết cách xử lý chúng hiệu quả là điều tối quan trọng để có hiệu suất ứng dụng mạnh mẽ. Khi làm việc với Aspose.Tasks cho .NET, các nhà phát triển có thể gặp phải`InvalidPasswordException` khi xử lý các tệp dự án được bảo vệ bằng mật khẩu. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình xử lý ngoại lệ này, đảm bảo mã của bạn được thực thi suôn sẻ.
@@ -81,3 +87,9 @@ A3: Chắc chắn rồi! Aspose.Tasks cung cấp các tính năng mạnh mẽ v�
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể khám phá Aspose.Tasks bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

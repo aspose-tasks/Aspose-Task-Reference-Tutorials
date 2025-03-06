@@ -3,10 +3,16 @@ title: Αποτελεσματική ομαδοποίηση εργασιών MS P
 linktitle: Ομαδοποίηση εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να ομαδοποιείτε αποτελεσματικά τις εργασίες του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET.
-type: docs
 weight: 25
 url: /el/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποτελεσματική ομαδοποίηση εργασιών MS Project με Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση εργασιών στο Microsoft Project μπορεί μερικές φορές να είναι δύσκολη, ειδικά όταν πρόκειται για την αποτελεσματική τους οργάνωση. Το Aspose.Tasks for .NET προσφέρει μια ολοκληρωμένη λύση σε αυτό παρέχοντας λειτουργίες για την αποτελεσματική ομαδοποίηση εργασιών. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο ομαδοποίησης εργασιών MS Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 Οπωσδήποτε, το Aspose.Tasks παρέχει επιλογές για την προσαρμογή της εμφάνισης ομαδοποιημένων εργασιών, συμπεριλαμβανομένων των χρωμάτων κελιών, των γραμματοσειρών και των στυλ.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για .NET;
  Μπορείτε να βρείτε υποστήριξη και βοήθεια για το Aspose.Tasks για .NET στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

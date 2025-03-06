@@ -3,10 +3,16 @@ title: Olvassa el a jelszóval védett fájlokat az Aspose.Tasks programban
 linktitle: Olvassa el a jelszóval védett fájlokat az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Ennek az oktatóanyagnak a lépésenkénti útmutatásaival megtudhatja, hogyan olvassa el a jelszóval védett fájlokat az Aspose.Tasks for Java programban.
-type: docs
 weight: 14
 url: /hu/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el a jelszóval védett fájlokat az Aspose.Tasks programban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A fejlesztők egyik gyakori feladata a jelszóval védett fájlok olvasása. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az ilyen fájlok olvasásának folyamatán.
 ## Előfeltételek
@@ -49,3 +55,9 @@ V: Részletes dokumentációt találhat az Aspose.Tasks for Java webhelyen[itt](
  V: Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### K: Szükségem van ideiglenes licencre az Aspose.Tasks for Java használatához?
  V: Előfordulhat, hogy bizonyos funkciókhoz vagy az értékelési időszak alatt ideiglenes licencre van szükség. Szerezd meg[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

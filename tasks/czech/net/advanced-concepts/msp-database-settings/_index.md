@@ -3,10 +3,16 @@ title: Nastavení pro databázi Microsoft Project v Aspose.Tasks
 linktitle: Nastavení pro databázi Microsoft Project v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat nastavení databáze Microsoft Project pomocí Aspose.Tasks pro bezproblémovou integraci do aplikací .NET.
-type: docs
 weight: 19
 url: /cs/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení pro databázi Microsoft Project v Aspose.Tasks
+
 ## Úvod
 
 Pokud pracujete s databázemi Microsoft Project ve svých aplikacích .NET pomocí Aspose.Tasks, budete muset nakonfigurovat potřebná nastavení pro bezproblémový import dat projektu. Tento tutoriál vás provede procesem krok za krokem.
@@ -99,3 +105,9 @@ Odpověď 1: Ano, Aspose.Tasks podporuje různé verze databází Microsoft Proj
 ### Q5: Kde najdu podrobnější dokumentaci k používání Aspose.Tasks?
 
  A5: Můžete prozkoumat komplexní dokumentaci[tady](https://reference.aspose.com/tasks/net/) pro podrobné informace o funkcích Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

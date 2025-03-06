@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks में प्रोजेक्ट 
 linktitle: Aspose.Tasks में आउटलाइन कोड प्रबंधित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट आउटलाइन कोड प्रबंधित करना सीखें। परियोजना संगठन को सहजता से सरल बनाएं।
-type: docs
 weight: 10
 url: /hi/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks में प्रोजेक्ट आउटलाइन कोड प्रबंधित करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट आउटलाइन कोड को कैसे प्रबंधित किया जाए। आउटलाइन कोड Microsoft प्रोजेक्ट में कस्टम फ़ील्ड हैं जो उपयोगकर्ताओं को विशिष्ट मानदंडों के अनुसार कार्यों को वर्गीकृत और व्यवस्थित करने की अनुमति देते हैं। Aspose.Tasks इन रूपरेखा कोडों को प्रोग्रामेटिक रूप से पढ़ने और हेरफेर करने की प्रक्रिया को सरल बनाता है।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 उ: हाँ, आप इसकी विशेषताओं और क्षमताओं का मूल्यांकन करने के लिए वेबसाइट से Aspose.Tasks का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं।
 ### प्रश्न: मुझे Aspose.Tasks के लिए सहायता कहाँ से मिल सकती है?
  उत्तर: आप यहां फोरम पर जाकर Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15).## संपूर्ण स्रोत कोड
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

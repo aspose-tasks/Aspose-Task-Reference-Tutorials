@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 그룹 기준 관리
 linktitle: Aspose.Tasks에서 그룹 기준 수집 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Group Criterion MS 프로젝트 컬렉션을 관리하는 방법을 알아보세요. 개발자를 위한 단계별 가이드.
-type: docs
 weight: 28
 url: /ko/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 그룹 기준 관리
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 내에서 Group Criterion 컬렉션을 관리하는 방법을 살펴보겠습니다.
 
@@ -126,3 +132,9 @@ A: 물론, 각 기준을 반복하고 그에 따라 추가하여 그룹에 여�
 ### Q5: 문제가 발생하면 어떻게 지원을 받을 수 있나요?
 
  A: 질문이 있거나 문제가 있는 경우 Aspose.Tasks 포럼에서 지원을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

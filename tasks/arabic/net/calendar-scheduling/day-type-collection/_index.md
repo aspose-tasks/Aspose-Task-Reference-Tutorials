@@ -3,10 +3,16 @@ title: إدارة مجموعة أنواع اليوم في Aspose.Tasks
 linktitle: إدارة مجموعة أنواع اليوم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات أنواع اليوم بكفاءة في Aspose.Tasks لـ .NET. يمكنك إنشاء استثناءات التقويم وتعديلها ومعالجتها بسهولة.
-type: docs
 weight: 28
 url: /ar/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعة أنواع اليوم في Aspose.Tasks
+
 ## مقدمة
 
  يوفر Aspose.Tasks for .NET وظائف قوية لإدارة مجموعات أنواع اليوم، وهو أمر ضروري لتحديد استثناءات التقويم الأسبوعية في تطبيقات إدارة المشاريع. في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من`DayTypeCollection` الطبقة بكفاءة. 
@@ -141,3 +147,9 @@ foreach (var dayType in exc3.DaysOfWeek)
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks لـ .NET؟
 
  ج5: نعم، التراخيص المؤقتة متاحة للشراء من[موقع أسبوز](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

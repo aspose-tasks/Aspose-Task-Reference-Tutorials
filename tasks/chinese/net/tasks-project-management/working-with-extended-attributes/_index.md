@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 操作 MS Project 扩展属性
 linktitle: 在 Aspose.Tasks 中使用扩展属性
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 来处理 MS Project 扩展属性。以编程方式轻松操作任务数据。
-type: docs
 weight: 11
 url: /zh/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 操作 MS Project 扩展属性
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，允许开发人员以编程方式操作 Microsoft Project 文件。该库的主要功能之一是它能够使用 MS Project 扩展属性。扩展属性为项目中的任务提供额外的自定义和元数据，使用户能够存储和管理标准任务属性之外的特定信息。
 在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 来处理 MS Project 扩展属性。我们将介绍先决条件、导入命名空间，并以分步指南的形式将每个示例分解为多个步骤。学完本教程后，您将深入了解如何在 .NET 应用程序中利用扩展属性。
@@ -72,3 +78,9 @@ foreach (var task in project.RootTask.Children)
 是的，Aspose.Tasks for .NET 提供了广泛的功能来自定义扩展属性以满足您项目的特定需求。
 ### 如果在使用 Aspose.Tasks for .NET 时遇到任何问题，我可以在哪里获得支持？
 您可以从 Aspose.Tasks 社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

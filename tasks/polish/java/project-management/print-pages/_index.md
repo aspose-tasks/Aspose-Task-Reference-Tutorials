@@ -3,10 +3,16 @@ title: Drukuj strony, aby oddzielić obraz w Aspose.Tasks
 linktitle: Drukuj strony, aby oddzielić obraz w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak drukować strony w celu oddzielenia obrazów w Aspose.Tasks dla Java. Popraw wizualizację projektu dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 22
 url: /pl/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drukuj strony, aby oddzielić obraz w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces drukowania stron w celu oddzielenia obrazów przy użyciu Aspose.Tasks dla Java. Ta funkcjonalność może być szczególnie przydatna, gdy trzeba osobno wizualizować układy projektu lub krytyczne zadania.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ O: Tak, możesz łatwo zintegrować Aspose.Tasks for Java ze swoim projektem Mav
 O: Tak, Aspose.Tasks for Java obsługuje eksport danych projektu do różnych formatów, takich jak PDF, HTML, XLSX itp., zapewniając elastyczność w wizualizacji danych i raportowaniu.
 ### P: Czy jest dostępne wsparcie społeczności dla Aspose.Tasks dla Java?
  O: Tak, możesz znaleźć wsparcie społeczności, zadawać pytania i kontaktować się z innymi użytkownikami na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

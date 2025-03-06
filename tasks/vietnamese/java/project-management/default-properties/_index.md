@@ -3,10 +3,16 @@ title: Quản lý hiệu quả các thuộc tính dự án MS trong Aspose.Tasks
 linktitle: Quản lý thuộc tính dự án mặc định trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý các thuộc tính MS Project mặc định bằng Aspose.Tasks cho Java. Hợp lý hóa quy trình quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý hiệu quả các thuộc tính dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách hợp lý hóa quy trình quản lý dự án của mình với Aspose.Tasks cho Java? Quản lý các thuộc tính mặc định trong tệp Microsoft Project có thể nâng cao hiệu quả một cách đáng kể. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước về cách quản lý các thuộc tính MS Project mặc định bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Câu trả lời 3: Có, bạn có thể tìm sự trợ giúp và hỗ trợ c�
  A4: Tất nhiên! Bạn có thể tận dụng bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/).
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
  Câu trả lời 5: Bạn có thể nhận được giấy phép tạm thời từ[trang mua hàng](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

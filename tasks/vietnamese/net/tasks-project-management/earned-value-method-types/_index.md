@@ -3,10 +3,16 @@ title: Làm chủ các phương pháp dự án MS có giá trị kiếm được
 linktitle: Các loại phương thức giá trị kiếm được trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Các loại phương pháp dự án MS có giá trị kiếm được chính với Aspose.Tasks cho .NET. Nâng cao hiệu quả quản lý dự án một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các phương pháp dự án MS có giá trị kiếm được với Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc tận dụng các công cụ và phương pháp phù hợp là điều tối quan trọng để thành công. Aspose.Tasks for .NET cung cấp một khuôn khổ mạnh mẽ để quản lý các tác vụ liên quan đến dự án một cách hiệu quả. Một khía cạnh quan trọng như vậy là sử dụng các phương pháp Quản lý giá trị thu được (EVM), phương pháp này cung cấp thông tin chuyên sâu về hiệu suất dự án bằng cách so sánh công việc theo kế hoạch với công việc thực tế đã hoàn thành. Trong hướng dẫn này, chúng ta sẽ đi sâu tìm hiểu và triển khai các Loại phương pháp dự án MS có giá trị kiếm được bằng cách sử dụng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -53,3 +59,9 @@ Trả lời: Có, bạn có thể sử dụng bản dùng thử miễn phí Aspo
  Trả lời: Có, giấy phép tạm thời có sẵn cho Aspose.Tasks for .NET. Bạn có thể lấy chúng từ:[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
  Trả lời: Bạn có thể mua Aspose.Tasks cho .NET từ trang web:[Mua](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

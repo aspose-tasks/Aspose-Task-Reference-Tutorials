@@ -3,10 +3,16 @@ title: Προσδιορίστε εργασίες μεταξύ έργων στο 
 linktitle: Προσδιορίστε εργασίες μεταξύ έργων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε την ταυτοποίηση εργασιών μεταξύ έργων με το Aspose.Tasks για Java. Ομαλή ενοποίηση και αποτελεσματική διαχείριση. Κατεβάστε τώρα!
-type: docs
 weight: 14
 url: /el/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσδιορίστε εργασίες μεταξύ έργων στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με τον αποτελεσματικό προσδιορισμό εργασιών μεταξύ έργων με το Aspose.Tasks για Java. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία της απρόσκοπτης ενσωμάτωσης αυτής της λειτουργικότητας στα έργα σας Java.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
  Α: Λάβετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Χρειάζεστε βοήθεια ή έχετε συγκεκριμένες ερωτήσεις;
 Α: Επισκεφτείτε το φόρουμ υποστήριξης Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

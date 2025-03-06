@@ -3,10 +3,16 @@ title: Sesuaikan Garis Kisi Proyek dengan Aspose.Tasks untuk .NET
 linktitle: Manajemen Gridlines di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyesuaikan pengaturan garis kisi secara terprogram di file Microsoft Project menggunakan Aspose.Tasks untuk .NET, visualisasi proyek, dan efisiensi manajemen.
-type: docs
 weight: 24
 url: /id/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Garis Kisi Proyek dengan Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Mengelola proyek secara efisien sering kali melibatkan visualisasi jadwal dan tugas dengan jelas. Salah satu aspek penting dari visualisasi proyek adalah garis kisi, yang membantu dalam mengatur dan memahami struktur proyek. Aspose.Tasks untuk .NET memberikan kemampuan yang kuat untuk memanipulasi garis kisi dalam file Microsoft Project secara terprogram. Dalam tutorial ini, kita akan mempelajari cara bekerja dengan garis kisi menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -69,3 +75,9 @@ J: Tentu saja. Aspose.Tasks memberikan opsi luas untuk menyesuaikan garis kisi b
 J: Tentu saja. Dengan Aspose.Tasks, Anda dapat menggabungkan logika untuk menyesuaikan pengaturan garis kisi secara dinamis berdasarkan data proyek atau kriteria yang ditentukan pengguna.
 ### T: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Tasks untuk .NET?
  A: Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk panduan komprehensif, kunjungi[forum dukungan](https://forum.aspose.com/c/tasks/15) untuk bantuan, atau mempertimbangkan untuk mendapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi yang lebih panjang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

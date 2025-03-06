@@ -3,10 +3,16 @@ title: Определите тип ссылки в Aspose.Tasks
 linktitle: Определите тип ссылки в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Исследуйте возможности Aspose.Tasks для Java в управлении проектами. С легкостью определяйте и настраивайте типы ссылок с помощью нашего пошагового руководства.
-type: docs
 weight: 13
 url: /ru/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определите тип ссылки в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в мир эффективного управления проектами с помощью Aspose.Tasks для Java! Если вы хотите оптимизировать работу с проектами и повысить производительность, вы попали по адресу. В этом подробном руководстве мы проведем вас через процесс определения типов ссылок в Aspose.Tasks для Java, расширяя ваши возможности управления проектами.
 ## Предварительные условия
@@ -60,3 +66,9 @@ for (TaskLink tskLink : allLinks) {
  Визит[эта ссылка](https://purchase.aspose.com/temporary-license/) приобрести временную лицензию для целей тестирования.
 ### Вопрос: Где я могу получить поддержку по запросам, связанным с Aspose.Tasks?
  О: Присоединяйтесь к сообществу Aspose.Tasks на[форум поддержки](https://forum.aspose.com/c/tasks/15) за помощь и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

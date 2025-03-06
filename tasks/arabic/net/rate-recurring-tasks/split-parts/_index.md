@@ -3,10 +3,16 @@ title: التعامل مع أجزاء مشروع MS المقسمة في Aspose.T
 linktitle: التعامل مع الأجزاء المنقسمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع أجزاء MS Project المقسمة بكفاءة باستخدام Aspose.Tasks لـ .NET. تعزيز سير عمل إدارة المشروع الخاص بك.
-type: docs
 weight: 18
 url: /ar/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أجزاء مشروع MS المقسمة في Aspose.Tasks
+
 
 ## مقدمة
 يمكن أن تكون إدارة أجزاء MS Project المقسمة جانبًا مهمًا لإدارة المشروع عند استخدام Aspose.Tasks لـ .NET. في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع الأجزاء المنقسمة بشكل فعال باستخدام إرشادات خطوة بخطوة.
@@ -94,3 +100,9 @@ foreach (var splitPart in task.SplitParts)
 ج: بالتأكيد، يمكنك تخصيص تقويمات المشروع وفقًا لمتطلبات مشروعك.
 ### س: أين يمكنني العثور على الدعم لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك العثور على الدعم والمساعدة على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

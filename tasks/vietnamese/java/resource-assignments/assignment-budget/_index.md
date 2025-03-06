@@ -3,10 +3,16 @@ title: Quản lý ngân sách phân công trong Aspose.Tasks
 linktitle: Quản lý ngân sách phân công trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý hiệu quả ngân sách phân công trong Java bằng Aspose.Tasks, một thư viện mạnh mẽ để thao tác tệp Microsoft Project.
-type: docs
 weight: 11
 url: /vi/java/resource-assignments/assignment-budget/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ngân sách phân công trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for Java là một thư viện mạnh mẽ cung cấp cho các nhà phát triển những công cụ họ cần để quản lý và thao tác hiệu quả các tệp Microsoft Project trong ứng dụng Java của họ. Cho dù bạn đang xây dựng một công cụ quản lý dự án, tự động hóa các tác vụ hay chỉ cần tương tác với các tệp Dự án theo chương trình, Aspose.Tasks sẽ đơn giản hóa quy trình bằng các tính năng toàn diện và API trực quan.
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới quản lý ngân sách nhiệm vụ bằng cách sử dụng Aspose.Tasks cho Java. Chúng tôi sẽ đề cập đến mọi thứ từ việc nhập các gói cần thiết đến chia nhỏ từng ví dụ thành hướng dẫn từng bước. Cuối cùng, bạn sẽ hiểu rõ về cách xử lý ngân sách phân công trong các dự án Java của mình.
@@ -76,3 +82,9 @@ Trả lời: Có, Aspose.Tasks for Java hỗ trợ nhiều phiên bản khác nh
  Trả lời: Có, bạn có thể khám phá các tính năng của Aspose.Tasks cho Java với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể mua giấy phép Aspose.Tasks cho Java ở đâu?
  Trả lời: Bạn có thể mua giấy phép Aspose.Tasks cho Java từ trang mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

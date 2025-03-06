@@ -3,10 +3,16 @@ title: Verzamel statistieken over MS Project-risico-items in Aspose.Tasks
 linktitle: Verzameling van risico-itemstatistieken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u statistieken over risico-items verzamelt uit MS Project-bestanden met behulp van Aspose.Tasks voor .NET. Verbeter uw projectmanagementmogelijkheden.
-type: docs
 weight: 22
 url: /nl/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzamel statistieken over MS Project-risico-items in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u risico-itemstatistieken kunt verzamelen uit MS Project-bestanden met behulp van Aspose.Tasks voor .NET. Deze bibliotheek biedt krachtige functionaliteiten voor het analyseren van projectgegevens, inclusief risicobeoordeling en statistische analyse.
 ## Vereisten
@@ -88,3 +94,9 @@ A: Absoluut, Aspose.Tasks is ontworpen om te voldoen aan de eisen van projectbeh
 A: Ja, Aspose.Tasks biedt flexibiliteit bij het configureren van risicoanalyse-instellingen om aan uw specifieke projectvereisten en scenario's te voldoen.
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
  A: Ja, Aspose.Tasks-gebruikers hebben toegang tot technische ondersteuning via Aspose[forums](https://forum.aspose.com/c/tasks/15), waar ze vragen kunnen stellen, problemen kunnen melden en met de community kunnen communiceren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

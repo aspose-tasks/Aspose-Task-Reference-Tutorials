@@ -3,10 +3,16 @@ title: Customize MS Project Resource View Columns in Aspose.Tasks
 linktitle: Customizing Resource View Columns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to customize MS Project resource view columns efficiently using Aspose.Tasks for .NET. Create tailored views for better project management.
-type: docs
 weight: 17
 url: /net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize MS Project Resource View Columns in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful API that allows developers to work with Microsoft Project files programmatically. One common task in project management is customizing views to display specific information. In this tutorial, we will explore how to customize MS Project resource view columns using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -94,3 +100,9 @@ Absolutely, Aspose.Tasks provides extensive formatting options to enhance the ap
 Yes, you can update and regenerate the custom view whenever the underlying project data changes.
 ### Does Aspose.Tasks support cross-platform development?
 Aspose.Tasks for .NET primarily targets .NET platforms, but there are also versions available for Java and other platforms.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

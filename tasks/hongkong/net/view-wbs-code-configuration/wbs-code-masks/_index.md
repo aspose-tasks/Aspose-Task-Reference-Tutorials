@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET 中的逐步 WBS 程式碼配置
 linktitle: 在 Aspose.Tasks 中配置 WBS 代碼掩碼
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks 探索 .NET 專案中的逐步 WBS 程式碼遮罩配置。輕鬆提升專案管理能力。
-type: docs
 weight: 14
 url: /zh-hant/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET 中的逐步 WBS 程式碼配置
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員有效地操作 .NET 應用程式中的專案管理資料。在本教程中，我們將探索使用 Aspose.Tasks 配置工作分解結構 (WBS) 程式碼遮罩的過程。
 ## 先決條件
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 是的，有完整的文檔可供使用[這裡](https://reference.aspose.com/tasks/net/).
 ### 在哪裡可以購買 Aspose.Tasks？
 購買 Aspose.Tasks[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

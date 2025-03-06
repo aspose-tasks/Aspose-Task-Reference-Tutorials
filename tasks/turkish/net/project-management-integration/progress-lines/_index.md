@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project İlerleme Satırlarını Yönetme
 linktitle: Aspose.Tasks'ta İlerleme Çizgilerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarındaki ilerleme çizgilerini nasıl değiştireceğinizi, proje görselleştirmesini ve yönetimini nasıl geliştireceğinizi öğrenin.
-type: docs
 weight: 15
 url: /tr/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project İlerleme Satırlarını Yönetme
+
 ## giriiş
 Microsoft Project (MS Project), kullanıcıların projelerinin çeşitli yönlerini takip etmelerine olanak tanıyan güçlü bir proje yönetimi aracıdır. MS Project'in önemli özelliklerinden biri, paydaşların projenin durumunu ve gidişatını anlamalarına yardımcı olan ilerleme çizgilerini görselleştirme yeteneğidir. Bu eğitimde, .NET için Aspose.Tasks kütüphanesini kullanarak MS Project'te ilerleme satırlarının nasıl ele alınacağını keşfedeceğiz.
 ## Önkoşullar
@@ -96,3 +102,9 @@ C: Kesinlikle, Aspose.Tasks diğer .NET kitaplıklarıyla sorunsuz bir şekilde 
  C: Evet, Aspose.Tasks forumunda faydalı kaynaklar bulabilir ve yardım alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks değerlendirme amaçlı geçici lisanslar sunuyor mu?
  C: Evet, değerlendirme için geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

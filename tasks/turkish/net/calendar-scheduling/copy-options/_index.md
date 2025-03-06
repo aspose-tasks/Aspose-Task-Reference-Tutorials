@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Kopyalama Seçenekleri
 linktitle: Aspose.Tasks'taki Kopyalama Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak proje verilerini verimli bir şekilde nasıl kopyalayacağınızı öğrenin. .NET uygulamalarınızı güçlü proje yönetimi yetenekleriyle geliştirin.
-type: docs
 weight: 18
 url: /tr/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Kopyalama Seçenekleri
+
 ## giriiş
 
 .NET geliştirme dünyasında, görevlerin verimli bir şekilde yönetilmesi projenin başarısı için çok önemlidir. Aspose.Tasks for .NET, geliştiricilerin proje yönetimi görevlerini sorunsuzca yerine getirebilmeleri için kapsamlı bir çözüm sunar. Önemli özelliklerden biri, proje verilerinin belirli ihtiyaçlara göre uyarlanmış çeşitli seçeneklerle kopyalanabilmesidir. Bu eğitimde Aspose.Tasks'taki Kopyalama Seçeneklerini inceleyeceğiz ve süreç boyunca size yol göstermek için her örneği birden fazla adıma ayıracağız.
@@ -98,3 +104,9 @@ Cevap4: Aspose.Tasks for .NET, API'si aracılığıyla kapsamlı özelleştirme 
 ### S5: Aspose.Tasks for .NET için ek kaynakları ve desteği nerede bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) destek, dokümantasyon, eğitimler ve topluluk tartışmaları için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

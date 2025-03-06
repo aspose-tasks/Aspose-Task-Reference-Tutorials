@@ -3,10 +3,16 @@ title: Gerenciar horas extras para recursos em Aspose.Tasks
 linktitle: Gerenciar horas extras para recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Gerencie com eficiência horas extras para recursos do MS Project usando Aspose.Tasks for Java. Otimize a utilização de recursos e o gerenciamento de custos sem esforço.
-type: docs
 weight: 13
 url: /pt/java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar horas extras para recursos em Aspose.Tasks
+
 ## Introdução
 No gerenciamento de projetos, o gerenciamento eficiente de recursos é crucial para a conclusão bem-sucedida do projeto. A gestão de horas extras é um aspecto significativo, garantindo que os recursos sejam utilizados de forma otimizada, sem gastos excessivos. Aspose.Tasks for Java fornece funcionalidade robusta para gerenciar horas extras para recursos do MS Project de maneira integrada. Neste tutorial, orientaremos você passo a passo no processo de gerenciamento de horas extras.
 ## Pré-requisitos
@@ -59,3 +65,9 @@ Absolutamente! Aspose.Tasks fornece APIs robustas para automatizar tarefas de ge
  Sim, Aspose.Tasks fornece suporte técnico abrangente por meio de seu fórum. Você pode acessar o fórum de suporte[aqui](https://forum.aspose.com/c/tasks/15).
 ### Posso experimentar o Aspose.Tasks for Java antes de comprar?
 Sim, você pode explorar o Aspose.Tasks for Java com uma avaliação gratuita. Baixe a versão de teste[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: معالجة الخطوط في مشروع MS لـ Aspose.Tasks
 linktitle: وسيطات حفظ الخط في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع الخطوط في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 19
 url: /ar/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الخطوط في مشروع MS لـ Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول استخدام Aspose.Tasks لـ .NET لمعالجة الخطوط في مستندات MS Project. Aspose.Tasks هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Microsoft Project برمجياً، مما يتيح مجموعة واسعة من الوظائف لمهام مثل القراءة والكتابة وتعديل بيانات المشروع.
 في هذا البرنامج التعليمي، سنركز بشكل خاص على حفظ الخطوط في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. سنقوم بتقسيم العملية إلى خطوات سهلة المتابعة، مما يضمن أنه يمكنك دمج إمكانات حفظ الخطوط في تطبيقات .NET الخاصة بك بسلاسة.
@@ -72,3 +78,9 @@ args.KeepStreamOpen = false;
 نعم، يمكن استخدام Aspose.Tasks for .NET في كل من تطبيقات سطح المكتب وتطبيقات الويب التي تم تطويرها باستخدام .NET Framework.
 ### أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Tasks لـ .NET؟
  يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على الدعم، قم بالوصول إلى الوثائق الموجودة على[صفحة التوثيق](https://reference.aspose.com/tasks/net/)واستكشف البرامج التعليمية والأمثلة على موقع Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

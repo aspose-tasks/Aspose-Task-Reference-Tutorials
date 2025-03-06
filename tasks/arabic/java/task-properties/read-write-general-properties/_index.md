@@ -3,10 +3,16 @@ title: إتقان خصائص المهمة في Aspose.Tasks
 linktitle: قراءة وكتابة الخصائص العامة للمهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java في إدارة خصائص المهام دون عناء. اقرأ واكتب بسهولة باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 26
 url: /ar/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان خصائص المهمة في Aspose.Tasks
+
 ## مقدمة
 أطلق العنان للإمكانات الكاملة لإدارة المهام في Java باستخدام Aspose.Tasks. في هذا الدليل الشامل، سنتعمق في قراءة وكتابة الخصائص العامة للمهام باستخدام Aspose.Tasks for Java. سواء كنت مطورًا متمرسًا أو مبتدئًا، سيزودك هذا البرنامج التعليمي بالمهارات اللازمة للتعامل مع خصائص المهمة دون عناء.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ for (Task tsk : collector.getTasks()) {
  انضم إلى مناقشة المجتمع في[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للمساعدة والتعاون.
 ### هل هناك أي مشاريع عينة متاحة للرجوع إليها؟
  استكشف قسم أمثلة الوثائق[هنا](https://reference.aspose.com/tasks/java/) لنماذج المشاريع ومقتطفات التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

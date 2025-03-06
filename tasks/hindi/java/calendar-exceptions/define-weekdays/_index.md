@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ कैलेंडर अपवादों
 linktitle: Aspose.Tasks के साथ कैलेंडर अपवादों के लिए सप्ताह के दिनों को परिभाषित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: सटीक प्रोजेक्ट शेड्यूलिंग के लिए Aspose.Tasks का उपयोग करके जावा प्रोजेक्ट्स में कैलेंडर अपवादों के लिए कार्यदिवसों को परिभाषित करना सीखें।
-type: docs
 weight: 11
 url: /hi/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ कैलेंडर अपवादों के लिए सप्ताह के दिनों को परिभाषित करें
+
 ### परिचय
 परियोजना प्रबंधन में, परियोजना समयरेखा के भीतर गैर-मानक कार्य दिवसों या छुट्टियों का सटीक प्रतिनिधित्व करने के लिए कैलेंडर के लिए अपवादों को परिभाषित करना महत्वपूर्ण है। जावा के लिए Aspose.Tasks कैलेंडर को कुशलतापूर्वक प्रबंधित करने के लिए मजबूत कार्यक्षमता प्रदान करता है, जिसमें छुट्टियों या विशेष कार्य दिवसों जैसे अपवादों को परिभाषित करना शामिल है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके कैलेंडर अपवादों के लिए कार्यदिवसों को कैसे परिभाषित करें, इस पर विस्तार से चर्चा करेंगे।
 ### आवश्यक शर्तें
@@ -68,3 +74,10 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ए: आप जावा के लिए Aspose.Tasks द्वारा प्रदान की गई व्यापक एपीआई का उपयोग करके गतिशील परियोजना आवश्यकताओं के आधार पर अपवादों को प्रोग्रामेटिक रूप से संभाल सकते हैं।
 ### प्रश्न: क्या जावा के लिए Aspose.Tasks का कोई परीक्षण संस्करण उपलब्ध है?
  उत्तर: हाँ, आप जावा के लिए Aspose.Tasks के निःशुल्क परीक्षण संस्करण का लाभ उठा सकते हैं[वेबसाइट](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

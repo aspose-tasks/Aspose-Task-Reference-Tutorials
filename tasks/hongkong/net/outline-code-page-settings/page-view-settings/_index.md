@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中自訂 MS Project 頁面視圖設定
 linktitle: 在 Aspose.Tasks 中配置頁面視圖設置
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中設定頁面視圖設定以自訂 Microsoft Project 文件的列印格式。
-type: docs
 weight: 21
 url: /zh-hant/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中自訂 MS Project 頁面視圖設定
+
 ## 介紹
 Microsoft Project 是一個功能強大的專案管理工具，但有時您需要自訂專案的檢視和列印方式。使用 Aspose.Tasks for .NET，您可以輕鬆配置頁面視圖設定以滿足您的特定要求。在本教程中，我們將逐步指導您完成流程。
 ## 先決條件
@@ -76,3 +82,9 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 答：Aspose.Tasks 提供與 Microsoft Project 2003 及更高版本的兼容性。
 ### Q：我可以在哪裡找到有關 Aspose.Tasks 的進一步幫助或支援？
 答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)對於您在使用過程中遇到的任何疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

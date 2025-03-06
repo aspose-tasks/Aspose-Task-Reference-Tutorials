@@ -3,10 +3,16 @@ title: Fractionner la date de fin de la tâche dans Aspose.Tasks
 linktitle: Fractionner la date de fin de la tâche dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à diviser les dates de fin des tâches sans effort à l'aide d'Aspose.Tasks pour Java. Améliorez la gestion de projet avec des délais précis.
-type: docs
 weight: 28
 url: /fr/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fractionner la date de fin de la tâche dans Aspose.Tasks
+
 ## Introduction
 En gestion de projet, comprendre les délais des tâches est crucial pour la réussite du projet. Aspose.Tasks for Java fournit des fonctionnalités puissantes pour manipuler efficacement les tâches du projet. Dans ce didacticiel, nous aborderons le fractionnement des dates de fin des tâches à l'aide d'Aspose.Tasks, vous aidant ainsi à gérer efficacement les délais du projet.
 ## Conditions préalables
@@ -54,3 +60,9 @@ Maîtriser l’art de manipuler les dates de fin des tâches est essentiel pour 
  A4 : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/tasks/15).
 ### Q5 : Puis-je acheter Aspose.Tasks ?
  A5 : Oui, vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

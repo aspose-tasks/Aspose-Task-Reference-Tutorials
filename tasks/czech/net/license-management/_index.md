@@ -3,10 +3,16 @@ title: Správa licencí Aspose.Tasks
 linktitle: Správa licencí Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Odemkněte sílu Aspose.Tasks pro .NET pomocí našich komplexních výukových programů. Spravujte licence a optimalizujte využití MS Project pro efektivní správu projektů.
-type: docs
 weight: 36
 url: /cs/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa licencí Aspose.Tasks
+
 
 ## Úvod
 
@@ -35,3 +41,9 @@ Jste připraveni pozvednout své dovednosti Aspose.Tasks? Ponořte se do našich
 Naučte se, jak bezproblémově spravovat licence Aspose.Tasks v aplikacích .NET pomocí přístupů založených na souborech nebo proudech.
 ### [Využití měření v Aspose.Tasks](./metering-usage/)
 Naučte se, jak efektivně monitorovat a optimalizovat využití MS Project pomocí Aspose.Tasks pro .NET. Průvodce krok za krokem pro efektivní řízení projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

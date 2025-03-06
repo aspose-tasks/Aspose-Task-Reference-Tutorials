@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.Tasks의 종합 튜토리얼 및 예
 linktitle: .NET 튜토리얼용 Aspose.Tasks
-type: docs
 weight: 10
 url: /ko/net/
 description: 저장 옵션, 달력 및 일정 관리, 프로젝트 관리 등을 다루는 .NET 튜토리얼용 Aspose.Tasks를 살펴보세요. 프로젝트 관리 기술을 향상하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks의 종합 튜토리얼 및 예
+
 ## 소개
 
 .NET용 Aspose.Tasks의 잠재력을 최대한 활용할 준비가 되셨습니까? 프로젝트 관리 기술을 향상시키기 위해 광범위한 주제를 다루는 포괄적인 튜토리얼과 예제를 살펴보세요. 옵션 저장부터 고급 기능, 일정 및 일정 작업, 프로젝트 관리, 사용자 정의까지 모든 것을 다룹니다.
@@ -72,3 +77,9 @@ Aspose.Tasks .NET에서 Aspose.Tasks 파일 형식 옵션과 마스터 구성 XA
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project PDF의 보안을 강화하는 방법을 알아보세요. 디지털 서명 및 암호화 기술을 알아보세요.
 ### [Aspose.Tasks 라이선스 관리](./license-management/)
 포괄적인 튜토리얼을 통해 .NET용 Aspose.Tasks의 강력한 기능을 활용해 보세요. 효율적인 프로젝트 관리를 위해 라이선스를 관리하고 MS 프로젝트 사용을 최적화합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

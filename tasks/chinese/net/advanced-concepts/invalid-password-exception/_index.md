@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中的无效密码异常
 linktitle: 处理 Aspose.Tasks 中的无效密码异常
 second_title: Aspose.Tasks .NET API
 description: 了解如何有效处理 Aspose.Tasks for .NET 中的 InvalidPasswordException。通过此分步指南确保代码顺利执行。
-type: docs
 weight: 11
 url: /zh/net/advanced-concepts/invalid-password-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中的无效密码异常
+
 ## 介绍
 
 在软件开发中，遇到异常是很常见的，了解如何有效处理异常对于稳定的应用程序性能至关重要。在使用 Aspose.Tasks for .NET 时，开发人员可能会遇到以下问题`InvalidPasswordException`处理受密码保护的项目文件时。本教程将逐步指导您完成处理此异常的过程，确保您的代码顺利执行。
@@ -81,3 +87,9 @@ A3：当然！ Aspose.Tasks 提供强大的功能和卓越的性能，使其适�
 ### Q5：我可以在购买前试用Aspose.Tasks吗？
 
  A5：是的，您可以通过下载免费试用版来探索 Aspose.Tasks[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

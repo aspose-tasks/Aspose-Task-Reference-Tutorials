@@ -3,10 +3,16 @@ title: Opanowanie dni powszednich w Aspose.Tasks dla .NET
 linktitle: Definiowanie dni tygodnia w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Odkryj moc definiowania dni tygodnia w Aspose.Tasks .NET. Postępuj zgodnie z naszym szczegółowym samouczkiem, aby efektywnie zarządzać kalendarzami projektów, dostosowywać godziny pracy i nie tylko.
-type: docs
 weight: 10
 url: /pl/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie dni powszednich w Aspose.Tasks dla .NET
+
 ## Wstęp
 Jeśli zagłębiasz się w świat zarządzania projektami przy użyciu Aspose.Tasks dla .NET, zrozumienie dni tygodnia i manipulowanie nimi jest kluczowym aspektem. Efektywne zarządzanie dniami tygodnia i dostosowywanie ich w kalendarzu projektu może znacząco wpłynąć na harmonogram projektu. W tym samouczku przeprowadzimy Cię przez proces definiowania dni tygodnia za pomocą Aspose.Tasks, dostarczając instrukcje krok po kroku i przykłady dla większej przejrzystości.
 ## Warunki wstępne
@@ -116,3 +122,9 @@ Skorzystaj z odpowiednich metod udostępnianych przez bibliotekę Aspose.Tasks, 
 Tak, wszelkie zmiany dni tygodnia zostaną odzwierciedlone w pliku projektu po zapisaniu.
 ### Czy mogę używać Aspose.Tasks z innymi językami programowania?
 Aspose.Tasks obsługuje różne języki programowania, ale przykłady tutaj dotyczą specjalnie .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Read Table Data from File in Aspose.Tasks
 linktitle: Read Table Data from File in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Unlock the power of Aspose.Tasks for Java. Learn to extract table data from files in this comprehensive tutorial.
-type: docs
 weight: 17
 url: /java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read Table Data from File in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to read table data from a file using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows developers to work with Microsoft Project documents programmatically.
 ## Prerequisites
@@ -62,3 +68,10 @@ A: Yes, you need to purchase a license for Aspose.Tasks if you intend to use it 
 A: Yes, you can download a free trial version of Aspose.Tasks from the [releases page](https://releases.aspose.com/).
 ### Q: Where can I find help and support for Aspose.Tasks?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for assistance and support from the community and Aspose team.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

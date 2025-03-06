@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Takvim İstisnalarını Alın
 linktitle: Aspose.Tasks ile Takvim İstisnalarını Alın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project'ten takvim istisnalarını nasıl alacağınızı öğrenin. Kusursuz entegrasyon için adım adım eğitim.
-type: docs
 weight: 13
 url: /tr/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Takvim İstisnalarını Alın
+
 ## giriiş
 Bu eğitimde, Java için Aspose.Tasks kütüphanesini kullanarak MS Project'ten takvim istisnalarının nasıl alınacağını inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir araçtır. Kolay anlaşılması için her örneği birden fazla adıma ayırarak süreç boyunca size adım adım rehberlik edeceğiz.
 ## Önkoşullar
@@ -55,3 +61,9 @@ Evet, Aspose.Tasks, MPP, MPT ve XML formatları da dahil olmak üzere MS Project
  Topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks için geçici lisans seçeneği var mı?
  Evet, geçici lisansları şuradan alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

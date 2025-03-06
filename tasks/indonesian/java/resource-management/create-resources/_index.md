@@ -3,10 +3,16 @@ title: Buat Sumber Daya Proyek MS di Aspose.Tasks
 linktitle: Buat Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat sumber daya Microsoft Project di Java menggunakan pustaka Aspose.Tasks. Panduan langkah demi langkah untuk pengelolaan sumber daya yang efisien.
-type: docs
 weight: 10
 url: /id/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Sumber Daya Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang penggunaan Aspose.Tasks untuk Java untuk membuat sumber daya Microsoft Project! Aspose.Tasks adalah pustaka Java canggih yang memberdayakan pengembang untuk memanipulasi file Microsoft Project secara efisien dalam aplikasi Java mereka. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan sumber daya MS Project menggunakan Aspose.Tasks langkah demi langkah.
 ## Prasyarat
@@ -45,3 +51,9 @@ Sangat! Aspose.Tasks dirancang untuk memenuhi tuntutan aplikasi tingkat perusaha
 Anda dapat menemukan dukungan dan bantuan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks?
  Meskipun Anda dapat menggunakan Aspose.Tasks tanpa lisensi, lisensi sementara dapat membuka fitur dan fungsi tambahan. Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

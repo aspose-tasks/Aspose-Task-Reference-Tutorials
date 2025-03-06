@@ -3,10 +3,16 @@ title: إدارة رموز العملة في Aspose.Tasks
 linktitle: إدارة رموز العملة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة رموز MS Project للعملة بكفاءة باستخدام Aspose.Tasks لـ Java. تبسيط مهام إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة رموز العملة في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي حول إدارة رموز MS Project للعملة باستخدام Aspose.Tasks لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال عملية التعامل مع رموز العملات في ملفات MS Project الخاصة بك بسهولة. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تسمح لك بمعالجة مستندات Microsoft Project برمجيًا، مما يوفر نطاقًا واسعًا من الوظائف لتبسيط مهام إدارة مشروعك.
 ## المتطلبات الأساسية
@@ -53,3 +59,9 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 ج: نعم، يمكنك استكشاف Aspose.Tasks من خلال نسخة تجريبية مجانية لتقييم مميزاته ومدى ملاءمته لمتطلبات مشروعك.
 ### س: أين يمكنني الحصول على تراخيص مؤقتة لـ Aspose.Tasks؟
  ج: يمكن الحصول على تراخيص مؤقتة لـ Aspose.Tasks من[موقع إلكتروني](https://purchase.aspose.com/temporary-license/) لمدة محدودة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks कार्य प्रबंधन और तालिक
 linktitle: Aspose.Tasks कार्य प्रबंधन और तालिका स्वरूपण
 second_title: Aspose.Tasks .NET API
 description: चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Tasks में तालिकाओं को आसानी से कॉन्फ़िगर और प्रबंधित करें। परियोजना प्रबंधन दक्षता और प्रस्तुति कौशल बढ़ाएँ।
-type: docs
 weight: 29
 url: /hi/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks कार्य प्रबंधन और तालिका स्वरूपण
+
 ## परिचय
 
 .NET के लिए Aspose.Tasks अपनी मजबूत सुविधाओं के साथ परियोजना प्रबंधन में क्रांति ला देता है। यह आलेख कार्य प्रबंधन और तालिका स्वरूपण पर विभिन्न ट्यूटोरियल की पड़ताल करता है, जो आपकी दक्षता को अधिकतम करने के लिए एक व्यापक मार्गदर्शिका प्रदान करता है। आइए प्रमुख विषयों पर गौर करें:
@@ -91,3 +97,9 @@ url: /hi/net/task-table-management/
 प्रोजेक्ट डेटा को सहजता से प्रबंधित और विज़ुअलाइज़ करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें। उन्नत परियोजना अंतर्दृष्टि के लिए कार्य उपयोग दृश्य फ़ील्ड में गोता लगाएँ।
 ### [Aspose.Tasks में कार्य उपयोग दृश्य फ़ील्ड का संग्रह](./task-usage-view-fields/)
 .NET के लिए Aspose.Tasks का अन्वेषण करें और जानें कि कार्य उपयोग दृश्यों को कैसे कॉन्फ़िगर करें। टाइमस्केल सेटिंग्स को अनुकूलित करें और अपने प्रोजेक्ट प्रबंधन दृश्यों को बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

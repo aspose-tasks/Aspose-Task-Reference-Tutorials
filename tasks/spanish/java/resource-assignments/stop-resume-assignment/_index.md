@@ -3,10 +3,16 @@ title: Detener y reanudar asignaciones de recursos en Aspose.Tasks
 linktitle: Detener y reanudar asignaciones de recursos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda cómo gestionar las asignaciones de recursos de forma eficaz en Aspose.Tasks para Java con este tutorial paso a paso.
-type: docs
 weight: 23
 url: /es/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detener y reanudar asignaciones de recursos en Aspose.Tasks
+
 ## Introducción
 En este tutorial, aprenderemos cómo detener y reanudar asignaciones de recursos usando Aspose.Tasks para Java. Aspose.Tasks es una potente API de Java que permite a los desarrolladores trabajar con archivos de Microsoft Project sin necesidad de que Microsoft Project esté instalado en sus sistemas. Dividiremos el proceso en pasos manejables para que sea fácil de seguir.
 ## Requisitos previos
@@ -71,3 +77,9 @@ Sí, Aspose.Tasks le permite trabajar con archivos de Microsoft Project sin nece
 Puedes obtener apoyo de la comunidad.[aquí](https://forum.aspose.com/c/tasks/15).
 ### ¿Puedo comprar una licencia temporal?
  Sí, puedes comprar una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

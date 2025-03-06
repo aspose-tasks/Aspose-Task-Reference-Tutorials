@@ -3,10 +3,16 @@ title: قم بإنشاء ملف مشروع MS فارغ في Aspose.Tasks
 linktitle: قم بإنشاء ملف مشروع فارغ في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء ملفات Microsoft Project فارغة في Java باستخدام Aspose.Tasks. خطوات سهلة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء ملف مشروع MS فارغ في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع وجدولة المهام، غالبًا ما يكون التعامل مع ملفات Microsoft Project أمرًا ضروريًا. يوفر Aspose.Tasks for Java حلاً قويًا لإنشاء هذه الملفات ومعالجتها وإدارتها بسلاسة داخل تطبيقات Java. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء ملف Microsoft Project فارغ باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -53,3 +59,9 @@ System.out.println("Project file generated Successfully");
  يمكنك طلب الدعم من منتديات المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  يمكن الحصول على التراخيص المؤقتة من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

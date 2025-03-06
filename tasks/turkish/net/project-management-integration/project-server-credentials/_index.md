@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Server Kimlik Bilgilerini Yönetme
 linktitle: Aspose.Tasks'ta Project Server Kimlik Bilgilerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project Server kimlik bilgilerini sorunsuz bir şekilde nasıl yöneteceğinizi öğrenin. Proje yönetimi verimliliğini artırın.
-type: docs
 weight: 22
 url: /tr/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Server Kimlik Bilgilerini Yönetme
+
 ## giriiş
 Proje yönetimi alanında, etkili koordinasyon ve kesintisiz iletişim, projenin başarılı bir şekilde yürütülmesi için çok önemlidir. Aspose.Tasks for .NET, Microsoft Project Server kimlik bilgilerini yönetmek için kapsamlı bir çözüm sunarak kullanıcıların proje verilerine güvenli bir şekilde erişmesine ve bunları yönetmesine olanak tanır. Bu eğitim, Aspose.Tasks for .NET kullanarak MS Project Server kimlik bilgilerini yönetme sürecini ayrıntılı olarak ele alıyor ve sorunsuz bir deneyim sağlamak için kullanıcılara her adımda rehberlik ediyor.
 ## Önkoşullar
@@ -83,3 +89,9 @@ C: Kesinlikle, Aspose.Tasks for .NET, proje kaynaklarına erişim ve bunları y�
 C: Evet, Aspose.Tasks for .NET, deneme amaçlı geçici lisanslar ve ticari kullanım için tam lisanslar dahil olmak üzere esnek lisanslama seçenekleri sunar.
 ### S: Aspose.Tasks for .NET için nereden yardım veya destek alabilirim?
  C: Aspose.Tasks for .NET ile ilgili sorularınız veya yardım için şu adresteki destek forumunu ziyaret edebilirsiniz:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15).## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

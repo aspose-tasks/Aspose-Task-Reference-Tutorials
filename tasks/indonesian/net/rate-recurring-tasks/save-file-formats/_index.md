@@ -3,10 +3,16 @@ title: Menyimpan File Proyek MS dalam berbagai Format di Aspose.Tasks
 linktitle: Menyimpan File dalam Berbagai Format di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan file MS Project dalam berbagai format menggunakan Aspose.Tasks untuk .NET. Langkah mudah untuk manajemen proyek yang efisien.
-type: docs
 weight: 17
 url: /id/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan File Proyek MS dalam berbagai Format di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyimpan file Microsoft Project dalam berbagai format menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah API canggih yang memungkinkan pengembang memanipulasi dan mengelola file proyek secara terprogram.
 ## Prasyarat
@@ -55,3 +61,9 @@ J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](htt
  J: Ya, lisensi sementara tersedia untuk tujuan evaluasi. Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Berapa harga Aspose.Tasks?
  A: Informasi harga dapat ditemukan di halaman pembelian Aspose.Tasks[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

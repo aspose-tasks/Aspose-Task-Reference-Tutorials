@@ -3,10 +3,16 @@ title: การอ่านข้อมูลโครงการ
 linktitle: การอ่านข้อมูลโครงการ
 second_title: Aspose.Tasks Java API
 description: ปลดล็อกพลังของ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนของเรา! ตั้งแต่การอ่านคำจำกัดความของกลุ่มไปจนถึงการแยกข้อมูลแผนภูมิแกนต์ เชี่ยวชาญการบูรณาการอย่างราบรื่น
-type: docs
 weight: 28
 url: /th/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การอ่านข้อมูลโครงการ
+
 ## การแนะนำ
 หากคุณกำลังสำรวจภูมิทัศน์อันกว้างใหญ่ของการจัดการโครงการใน Java บทช่วยสอน Aspose.Tasks ของเราคือดาวเด่นของคุณ ดำดิ่งสู่อาณาจักรที่การอ่านข้อมูลโครงการกลายเป็นการเดินทางที่ง่ายดาย ด้วยคำแนะนำทีละขั้นตอนของเรา มาเริ่มต้นการผจญภัยแห่งความรู้นี้ด้วยกัน!
 
@@ -48,3 +54,9 @@ url: /th/java/project-data-reading/
 เรียนรู้วิธีแยกข้อมูลแผนภูมิ Gantt เฉพาะโดยใช้ Aspose.Tasks สำหรับ Java บทช่วยสอนทีละขั้นตอนสำหรับการผสานรวมเข้ากับแอปพลิเคชัน Java ของคุณอย่างราบรื่น
 ### [อ่านข้อมูลตารางจากไฟล์ใน Aspose.Tasks](./read-table-data/)
 ปลดล็อกพลังของ Aspose.Tasks สำหรับ Java เรียนรู้วิธีแยกข้อมูลตารางออกจากไฟล์ในบทช่วยสอนที่ครอบคลุมนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

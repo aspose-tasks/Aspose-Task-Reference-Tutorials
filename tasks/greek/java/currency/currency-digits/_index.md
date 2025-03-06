@@ -3,10 +3,16 @@ title: Χειριστείτε ψηφία νομίσματος με το Aspose.T
 linktitle: Χειριστείτε ψηφία νομίσματος με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά τα ψηφία του νομίσματος MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 11
 url: /el/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειριστείτε ψηφία νομίσματος με το Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με το χειρισμό των ψηφίων του νομίσματος MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι κατανοείτε πλήρως κάθε έννοια.
 ## Προαπαιτούμενα
@@ -56,3 +62,9 @@ System.out.println(project.get(Prj.CURRENCY_DIGITS));
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Μπορείτε να βρείτε υποστήριξη στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

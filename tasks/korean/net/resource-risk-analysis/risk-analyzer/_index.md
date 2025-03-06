@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 위험 분석
 linktitle: Aspose.Tasks로 위험 분석
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 MS 프로젝트 위험을 효율적으로 분석하는 방법을 알아보세요. 포괄적인 위험 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 20
 url: /ko/net/resource-risk-analysis/risk-analyzer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 위험 분석
+
 ## 소개
 프로젝트 관리에서 위험을 관리하는 것은 성공적인 프로젝트 전달을 보장하는 데 필수적입니다. Aspose.Tasks for .NET은 Microsoft Project 파일의 위험을 분석하고 완화하기 위한 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 위험을 분석하는 방법을 단계별로 살펴보겠습니다.
 ## 전제조건
@@ -98,3 +104,9 @@ A: 예, 프로젝트의 특정 요구 사항에 따라 위험 분석 설정을 �
 A: Aspose.Tasks는 주로 .NET 언어를 대상으로 하지만 Java에 대한 지원도 제공합니다.
 ### Q: Aspose.Tasks에 대한 추가 지원은 어디서 찾을 수 있나요?
  A: Aspose.Tasks 문서를 살펴보거나 지원 센터를 방문하세요.[법정]( https://forum.aspose.com/c/tasks/15) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

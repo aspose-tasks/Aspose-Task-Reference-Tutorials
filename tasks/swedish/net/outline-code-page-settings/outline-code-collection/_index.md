@@ -3,10 +3,16 @@ title: Samling MS-projekt av dispositionskoder i Aspose.Tasks
 linktitle: Samling av dispositionskoder i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du samlar in Microsoft Project-konturkoder med Aspose.Tasks för .NET. Denna omfattande handledning ger steg-för-steg-instruktioner.
-type: docs
 weight: 11
 url: /sv/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling MS-projekt av dispositionskoder i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man samlar in Microsoft Project-konturkoder med Aspose.Tasks för .NET. Vi delar upp processen i steg-för-steg-instruktioner för att säkerställa tydlighet och förståelse.
 ## Förutsättningar
@@ -95,3 +101,9 @@ S: Ja, Aspose.Tasks för .NET stöder olika versioner av Microsoft Project, inkl
 S: Absolut, Aspose.Tasks för .NET erbjuder omfattande alternativ för att anpassa utdataformatet enligt dina krav.
 ### F: Var kan jag hitta ytterligare support eller resurser för Aspose.Tasks för .NET?
  A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för all hjälp eller frågor angående Aspose.Tasks för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

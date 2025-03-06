@@ -3,10 +3,16 @@ title: Create Cross-Project Task Link in Aspose.Tasks
 linktitle: Create Cross-Project Task Link in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Enhance project collaboration with Aspose.Tasks for Java. Learn to create cross-project task links step by step. Boost efficiency now!
-type: docs
 weight: 10
 url: /java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Cross-Project Task Link in Aspose.Tasks
+
 ## Introduction
 In the dynamic world of project management, efficiency and collaboration are paramount. Aspose.Tasks for Java provides a robust solution to enhance your project management capabilities. In this tutorial, we will delve into the process of creating cross-project task links using Aspose.Tasks for Java. This step-by-step guide will equip you with the skills to seamlessly link tasks across different projects, fostering improved coordination and streamlined workflows.
 ## Prerequisites
@@ -78,3 +84,10 @@ Yes, Aspose.Tasks for Java supports linking tasks between projects in various fi
 Yes, you can unlink tasks by removing the task link using the appropriate Aspose.Tasks methods.
 ### Are there any limitations on the number of tasks that can be linked across projects?
 The number of tasks that can be linked is subject to the capabilities and limitations of your Aspose.Tasks license.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

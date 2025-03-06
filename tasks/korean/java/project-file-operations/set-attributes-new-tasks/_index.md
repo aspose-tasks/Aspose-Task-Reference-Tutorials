@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 새 작업에 대한 MS 프로젝트 속성 설정
 linktitle: Aspose.Tasks에서 새 작업에 대한 속성 설정
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 새 작업에 대한 MS 프로젝트 속성을 설정하는 방법을 알아보세요. 이 포괄적인 가이드를 사용하여 작업 속성을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 21
 url: /ko/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 새 작업에 대한 MS 프로젝트 속성 설정
+
 ## 소개
 Aspose.Tasks for Java의 새로운 작업에 대한 MS 프로젝트 속성 설정에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 이 강력한 Java 라이브러리를 사용하여 작업을 쉽게 관리하고 사용자 정의할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: 예, Aspose.Tasks for Java는 다양한 형식으로 읽기, 수정 및 저�
  A: Aspose.Tasks for Java의 임시 라이선스는 다음에서 얻을 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for Java와 관련된 문제나 쿼리에 대한 지원은 어디서 받을 수 있나요?
  A: 다음에서 지원을 받고 커뮤니티와 상호 작용할 수 있습니다.[Aspose.Tasks for Java 지원 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

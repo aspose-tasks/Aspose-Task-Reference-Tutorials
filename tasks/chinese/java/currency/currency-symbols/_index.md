@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的货币符号操作
 linktitle: Aspose.Tasks 中的货币符号操作
 second_title: Aspose.Tasks Java API
 description: 学习使用 Aspose.Tasks for Java 操作 MS Project 文件中的货币符号。简单的步骤即可实现高效的项目管理。
-type: docs
 weight: 12
 url: /zh/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的货币符号操作
+
 ## 介绍
 在本教程中，我们将使用 Java 的 Aspose.Tasks 库深入研究 MS Project 文件中货币符号的操作。 Aspose.Tasks 提供了强大的功能来处理 Microsoft Project 文档，使开发人员能够有效地处理项目管理的各个方面。
 ## 先决条件
@@ -53,3 +59,9 @@ Aspose.Tasks支持多种MS Project文件格式，包括MPP、MPT和XML格式，�
 当然，开发人员可以免费试用 Aspose.Tasks[网站](https://purchase.aspose.com/buy)在做出购买决定之前评估其特性和功能。
 ### 问：如何获得 Aspose.Tasks 的临时许可证？
 开发人员可以从 Aspose.Tasks 获取临时许可证[网站](https://purchase.aspose.com/temporary-license/)购买页面，使他们能够在评估期间探索图书馆的全部功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

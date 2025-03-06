@@ -3,10 +3,16 @@ title: Könnyedén mentheti az MS Project Options for Aspose.Tasks
 linktitle: Az Aspose.Tasks MPP mentési beállításai
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan mentheti könnyedén az MS Project beállításait az Aspose.Tasks for .NET segítségével. Növelje projektmenedzsmentjének hatékonyságát.
-type: docs
 weight: 12
 url: /hu/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Könnyedén mentheti az MS Project Options for Aspose.Tasks
+
 ## Bevezetés
 .NET-fejlesztés világában a projektfájlok hatékony kezelése és kezelése kulcsfontosságú a sikerhez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlok (MPP) egyszerű kezelésére. Számos funkciója mellett az Aspose.Tasks lehetővé teszi a felhasználók számára az MS Project opcióinak zökkenőmentes elmentését, egyszerűsítve a munkafolyamatot és biztosítva a projekt integritását. Ebben az oktatóanyagban az MS Project opcióinak Aspose.Tasks for .NET használatával történő mentésének folyamatát mutatjuk be.
 ## Előfeltételek
@@ -67,3 +73,9 @@ Technikai segítségért keresse fel az Aspose.Tasks fórumot[itt](https://forum
  Az ideiglenes licenc lehetővé teszi az Aspose.Tasks .NET-hez korlátozás nélküli értékelését. Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Tasks licencelt verzióját .NET-hez?
  Az Aspose.Tasks for .NET licencelt verzióját a következő webhelyről vásárolhatja meg[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

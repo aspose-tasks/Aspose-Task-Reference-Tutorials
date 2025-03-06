@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks में टास्क बेसल
 linktitle: Aspose.Tasks में कार्य बेसलाइन को संभालना
 second_title: Aspose.Tasks .NET API
 description: इस व्यापक ट्यूटोरियल के साथ जानें कि .NET के लिए Aspose.Tasks में कार्य बेसलाइन को कैसे संभालना है। आज ही अपना प्रोजेक्ट प्रबंधन कौशल बढ़ाएँ!
-type: docs
 weight: 16
 url: /hi/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks में टास्क बेसलाइन में महारत हासिल करना
+
 ## परिचय
 परियोजना प्रबंधन की गतिशील दुनिया में, संगठित और सूचित रहना महत्वपूर्ण है। .NET के लिए Aspose.Tasks कार्य बेसलाइन को संभालने के लिए एक शक्तिशाली समाधान प्रदान करता है, जिससे आप मूल्यवान बेसलाइन जानकारी को कुशलतापूर्वक एक्सेस कर सकते हैं। यह चरण-दर-चरण मार्गदर्शिका आपको प्रक्रिया से गुजराएगी, यह सुनिश्चित करते हुए कि आप प्रत्येक अवधारणा को स्पष्टता के साथ समझें।
 ## आवश्यक शर्तें
@@ -72,3 +78,9 @@ foreach (var data in baseline.TimephasedData)
  ए: अन्वेषण करें[प्रलेखन](https://reference.aspose.com/tasks/net/) Aspose.Tasks सुविधाओं पर ट्यूटोरियल की एक विस्तृत श्रृंखला के लिए।
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  उ: आप आसानी से Aspose.Tasks खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

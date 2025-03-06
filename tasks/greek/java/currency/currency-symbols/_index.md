@@ -3,10 +3,16 @@ title: Χειρισμός συμβόλων νομισμάτων στο Aspose.Ta
 linktitle: Χειρισμός συμβόλων νομισμάτων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε να χειρίζεστε τα σύμβολα νομισμάτων σε αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Εύκολα βήματα για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 12
 url: /el/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός συμβόλων νομισμάτων στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον χειρισμό των συμβόλων νομισμάτων στα αρχεία του MS Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Το Aspose.Tasks παρέχει ισχυρές λειτουργίες για εργασία με έγγραφα του Microsoft Project, επιτρέποντας στους προγραμματιστές να χειρίζονται αποτελεσματικά διάφορες πτυχές της διαχείρισης έργων.
 ## Προαπαιτούμενα
@@ -53,3 +59,9 @@ System.out.println(project.get(Prj.CURRENCY_SYMBOL));
  Οπωσδήποτε, οι προγραμματιστές μπορούν να επωφεληθούν από μια δωρεάν δοκιμή του Aspose.Tasks από το[δικτυακός τόπος](https://purchase.aspose.com/buy) να αξιολογήσει τα χαρακτηριστικά και τις λειτουργίες του πριν λάβετε μια απόφαση αγοράς.
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
  Οι προγραμματιστές μπορούν να αποκτήσουν μια προσωρινή άδεια για το Aspose.Tasks από το[δικτυακός τόπος](https://purchase.aspose.com/temporary-license/) σελίδα αγοράς, επιτρέποντάς τους να εξερευνήσουν τις πλήρεις δυνατότητες της βιβλιοθήκης κατά την περίοδο αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

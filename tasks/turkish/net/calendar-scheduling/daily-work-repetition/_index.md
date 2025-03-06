@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Günlük İş Tekrarı
 linktitle: Aspose.Tasks'ta Günlük İş Tekrarı
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarında günlük yinelenen görevleri nasıl oluşturacağınızı öğrenin. Verimliliği ve organizasyonu zahmetsizce artırın.
-type: docs
 weight: 26
 url: /tr/net/calendar-scheduling/daily-work-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Günlük İş Tekrarı
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını kolaylıkla yönetmelerini sağlayan güçlü bir kitaplıktır. Sayısız özelliği arasında yinelenen görevleri verimli bir şekilde yerine getirme yeteneği de vardır. Bu eğitimde, bir proje içinde günlük olarak tekrarlanan görevlerin oluşturulmasına olanak tanıyan Günlük İş Tekrarı işlevini inceleyeceğiz.
@@ -98,3 +104,9 @@ Cevap4: Kesinlikle Aspose.Tasks, projeleri PDF, HTML, XML ve daha fazlasını i�
 ### S5: Aspose.Tasks teknik destek sunuyor mu?
 
 C5: Evet, Aspose.Tasks, yardım arayabileceğiniz, deneyimlerinizi paylaşabileceğiniz ve diğer kullanıcılarla iletişim kurabileceğiniz forum aracılığıyla kapsamlı teknik destek sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

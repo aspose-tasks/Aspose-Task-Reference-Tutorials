@@ -3,10 +3,16 @@ title: Analyzing MS Project Risks with Aspose.Tasks
 linktitle: Analyzing Risks with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to analyze MS Project risks efficiently with Aspose.Tasks for .NET. Follow our step-by-step guide for comprehensive risk management.
-type: docs
 weight: 20
 url: /net/resource-risk-analysis/risk-analyzer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Analyzing MS Project Risks with Aspose.Tasks
+
 ## Introduction
 Managing risks in project management is essential for ensuring successful project delivery. Aspose.Tasks for .NET provides powerful tools for analyzing and mitigating risks in Microsoft Project files. In this tutorial, we'll explore how to analyze MS Project risks using Aspose.Tasks, step by step.
 ## Prerequisites
@@ -98,3 +104,10 @@ A: Yes, you can tailor risk analysis settings according to your project's specif
 A: Aspose.Tasks primarily targets .NET languages, but it also offers support for Java.
 ### Q: Where can I find additional support for Aspose.Tasks?
 A: You can explore the Aspose.Tasks documentation or visit the support [forum]( https://forum.aspose.com/c/tasks/15) for assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

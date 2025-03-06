@@ -3,10 +3,16 @@ title: Detener y reanudar tarea en Aspose.Tasks
 linktitle: Detener y reanudar tarea en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore el poder de Aspose.Tasks para Java con nuestra guía paso a paso sobre cómo detener y reanudar tareas. ¡Mejore la gestión de proyectos sin problemas!
-type: docs
 weight: 30
 url: /es/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detener y reanudar tarea en Aspose.Tasks
+
 ## Introducción
 En el ámbito del desarrollo de Java, gestionar tareas de manera eficiente es un aspecto crucial de la ejecución de proyectos. Aspose.Tasks para Java proporciona una solución sólida para manejar tareas con sus potentes funciones. En este tutorial, profundizaremos en una funcionalidad específica: detener y reanudar tareas. Si sigue esta guía paso a paso, podrá integrar perfectamente esta función en sus proyectos Java.
 ## Requisitos previos
@@ -69,3 +75,9 @@ Sí, el ejemplo proporcionado permite flexibilidad a la hora de establecer la fe
  Sí, puedes acceder a[prueba gratis](https://releases.aspose.com/) para explorar las funciones antes de realizar una compra.
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.Tasks para Java?
  Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) con fines de prueba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

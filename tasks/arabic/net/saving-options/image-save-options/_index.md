@@ -3,10 +3,16 @@ title: صورة حفظ خيارات مشروع MS لـ Aspose.Tasks
 linktitle: خيارات حفظ الصورة لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ خيارات MS Project كصور باستخدام Aspose.Tasks لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# صورة حفظ خيارات مشروع MS لـ Aspose.Tasks
+
 
 ## مقدمة
 في عالم تطوير البرمجيات، يعد التعامل مع مهام المشروع بكفاءة أمرًا بالغ الأهمية لإدارة المشروع بنجاح. يوفر Aspose.Tasks for .NET حلاً قويًا للمطورين الذين يعملون مع ملفات Microsoft Project، مما يسمح لهم بمعالجة مهام المشروع وتحويلها وإدارتها بسلاسة داخل تطبيقات .NET الخاصة بهم.
@@ -76,3 +82,9 @@ project.Save(DataDir + "SaveSelectedPagesImageSaveOptions_page2_out.jpeg", optio
 ج: نعم، يمكنك تخصيص خيارات حفظ الصورة وفقًا لمتطلباتك المحددة، مثل ضبط حجم الصفحة أو الدقة أو تنسيق الإخراج.
 ### س5: أين يمكنني العثور على دعم Aspose.Tasks لـ .NET؟
  ج: يمكنك العثور على الدعم والمساعدة فيما يتعلق بـ Aspose.Tasks لـ .NET على الموقع[المنتدى](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

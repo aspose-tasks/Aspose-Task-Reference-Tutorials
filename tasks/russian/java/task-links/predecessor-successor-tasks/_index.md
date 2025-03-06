@@ -3,10 +3,16 @@ title: Управляйте задачами-предшественниками 
 linktitle: Управляйте задачами-предшественниками и преемниками в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите эффективное управление задачами с помощью Aspose.Tasks для Java. Легко справляйтесь с задачами-предшественниками и преемниками в своих проектах. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 15
 url: /ru/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управляйте задачами-предшественниками и преемниками в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами эффективное управление зависимостями задач имеет первостепенное значение. Aspose.Tasks for Java предлагает надежное решение для управления задачами-предшественниками и последующими задачами в ваших проектах. Это руководство проведет вас через процесс использования Aspose.Tasks для эффективного управления связями задач, что позволит вам устанавливать зависимости между задачами.
 ## Предварительные условия
@@ -52,3 +58,9 @@ for (TaskLink tsklnk : allinks) {
  Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку сообщества и обсуждения.
 ### Могу ли я загрузить бесплатную пробную версию Aspose.Tasks для Java?
  Да, загрузите бесплатную пробную версию с[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

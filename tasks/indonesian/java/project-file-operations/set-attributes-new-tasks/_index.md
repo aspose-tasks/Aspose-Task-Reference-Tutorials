@@ -3,10 +3,16 @@ title: Mengatur Atribut Proyek MS untuk Tugas Baru di Aspose.Tasks
 linktitle: Tetapkan Atribut untuk Tugas Baru di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengatur atribut MS Project untuk tugas baru menggunakan Aspose.Tasks untuk Java. Sesuaikan properti tugas dengan mudah dengan panduan komprehensif ini.
-type: docs
 weight: 21
 url: /id/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Atribut Proyek MS untuk Tugas Baru di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang pengaturan atribut MS Project untuk tugas baru di Aspose.Tasks untuk Java! Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan bahwa Anda dapat dengan mudah mengelola dan menyesuaikan tugas Anda dengan pustaka Java yang canggih ini.
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Ya, Aspose.Tasks for Java menyediakan fungsionalitas luas untuk memanipulasi 
  A: Lisensi sementara untuk Aspose.Tasks untuk Java dapat diperoleh dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun terkait Aspose.Tasks untuk Java?
  A: Anda bisa mendapatkan dukungan dan berinteraksi dengan komunitas di[Aspose.Tasks untuk forum dukungan Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

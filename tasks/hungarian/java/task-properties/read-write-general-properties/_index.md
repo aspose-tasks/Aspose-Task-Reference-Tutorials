@@ -3,10 +3,16 @@ title: A feladat tulajdonságainak elsajátítása az Aspose.Tasks-ban
 linktitle: Olvassa el és írja be a feladatok általános tulajdonságait az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java erejét a feladat tulajdonságainak könnyed kezelésében. Könnyedén olvashat és írhat lépésenkénti útmutatónk segítségével.
-type: docs
 weight: 26
 url: /hu/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A feladat tulajdonságainak elsajátítása az Aspose.Tasks-ban
+
 ## Bevezetés
 Használja ki a Java feladatkezelésben rejlő teljes potenciált az Aspose.Tasks segítségével. Ebben az átfogó útmutatóban az Aspose.Tasks for Java használatával kapcsolatos feladatok általános tulajdonságainak olvasásával és írásával foglalkozunk. Akár tapasztalt fejlesztő, akár kezdő, ez az oktatóanyag felvértezi azokat a készségeket, amelyek segítségével könnyedén kezelheti a feladat tulajdonságait.
 ## Előfeltételek
@@ -85,3 +91,9 @@ Igen, az Aspose.Tasks kompatibilis a Java 11 és újabb verzióival.
  Csatlakozzon a közösségi beszélgetéshez a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) segítségért és együttműködésért.
 ### Vannak referenciaként használható mintaprojektek?
  Tekintse meg a dokumentáció példák szakaszát[itt](https://reference.aspose.com/tasks/java/) mintaprojektekhez és kódrészletekhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

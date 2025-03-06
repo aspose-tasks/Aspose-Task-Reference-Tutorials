@@ -3,10 +3,16 @@ title: Gestion des liens de tâches dans Aspose.Tasks
 linktitle: Gestion des liens de tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez la puissance d'Aspose.Tasks pour .NET dans la gestion efficace des liens entre les tâches du projet. Suivez notre guide étape par étape pour améliorer votre expérience de gestion de projet.
-type: docs
 weight: 19
 url: /fr/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des liens de tâches dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans le guide étape par étape sur la gestion des liens de tâches dans Aspose.Tasks pour .NET ! Les liens de tâches jouent un rôle crucial dans la gestion de projet, vous permettant d'établir des relations entre les tâches et de créer des dépendances. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation des collections de liens de tâches à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -85,3 +91,9 @@ Actuellement, Aspose.Tasks prend en charge les types de liens de tâches standar
 Aspose.Tasks peut gérer efficacement des fichiers de projet volumineux avec un impact minimal sur les performances.
 ### Existe-t-il un forum communautaire pour le support d'Aspose.Tasks ?
  Oui, vous pouvez trouver du soutien et interagir avec la communauté sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

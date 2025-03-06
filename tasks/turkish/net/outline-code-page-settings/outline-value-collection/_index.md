@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Outline Değerlerini Yönetin
 linktitle: Aspose.Tasks'ta Anahat Değerlerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki anahat değerlerini nasıl yöneteceğinizi öğrenin. Kod örnekleriyle adım adım eğitim.
-type: docs
 weight: 17
 url: /tr/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Outline Değerlerini Yönetin
+
 ## giriiş
 Aspose.Tasks for .NET, Microsoft Project dosyalarıyla etkileşim kurmak için kapsamlı bir dizi özellik sunar. Bu özelliklerden biri, bir proje içindeki anahat değerlerini yönetme yeteneğidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak anahat değerlerinin nasıl toplanıp değiştirileceğini inceleyeceğiz.
 ## Önkoşullar
@@ -108,3 +114,9 @@ C: İstisnaları düzgün bir şekilde yönetmek için try-catch blokları gibi 
 C: Evet, Aspose.Tasks, anahat değerlerinin görünümünü ve davranışını gereksinimlerinize göre özelleştirmeniz için kapsamlı API'ler sağlar.
 ### S: Aspose.Tasks için ek kaynakları ve desteği nerede bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için ve keşfetmek için[dokümantasyon](https://reference.aspose.com/tasks/net/) API'ler ve özellikler hakkında ayrıntılı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

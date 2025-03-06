@@ -3,10 +3,16 @@ title: Aspose.Tasks 中日历异常的集合
 linktitle: Aspose.Tasks 中日历异常的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 高效处理 .NET 项目中的日历异常，确保准确的调度和资源管理。
-type: docs
 weight: 13
 url: /zh/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中日历异常的集合
+
 ## 介绍
 
 在项目管理中，精确的调度对于成功至关重要。然而，由于假期、特殊事件或其他因素，现实场景通常需要偏离标准时间表。 Aspose.Tasks for .NET 提供了一个强大的解决方案，通过其日历异常收集功能来管理此类异常。本教程将指导您逐步完成使用此功能的过程。
@@ -143,3 +149,9 @@ A4：Aspose.Tasks for .NET 允许您根据项目需求定义优先级或解决�
 ### Q5：例外情况下我可以自定义每天的工作时间吗？
 
 A5：是的，您可以在例外情况下为个别日期指定自定义工作时间，以满足特定的日程安排需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

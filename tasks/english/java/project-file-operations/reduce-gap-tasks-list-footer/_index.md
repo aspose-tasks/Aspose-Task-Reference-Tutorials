@@ -3,10 +3,16 @@ title: Reducing Gap Between Tasks List and Footer in Aspose.Tasks
 linktitle: Reducing Gap Between Tasks List and Footer in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to reduce the gap between MS Project task lists and footers using Aspose.Tasks for Java. Optimize project document layout effortlessly.
-type: docs
 weight: 10
 url: /java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reducing Gap Between Tasks List and Footer in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will delve into reducing the gap between the task list and footer in Microsoft Project files using Aspose.Tasks for Java. By following these steps, you'll be able to optimize the layout of your project documents effortlessly.
 ## Prerequisites
@@ -105,3 +111,10 @@ A: Yes, you can download a free trial version of Aspose.Tasks from [here](https:
 ### Q: Where can I get support if I encounter any issues while using Aspose.Tasks?
 
 A: You can get assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

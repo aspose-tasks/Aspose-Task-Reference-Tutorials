@@ -3,10 +3,16 @@ title: Поля просмотра использования задач в Aspo
 linktitle: Коллекция полей просмотра использования задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите Aspose.Tasks для .NET, чтобы легко управлять и визуализировать данные проекта. Погрузитесь в поля просмотра использования задач, чтобы получить более подробную информацию о проекте.
-type: docs
 weight: 25
 url: /ru/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поля просмотра использования задач в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами Aspose.Tasks для .NET представляет собой надежное решение, предоставляющее разработчикам мощный набор инструментов для манипулирования и управления данными проекта. Одной из примечательных функций является представление «Использование задач», предлагающее информацию о различных полях, что повышает наглядность проекта. В этом руководстве мы углубимся в тонкости полей просмотра использования задач с использованием Aspose.Tasks для .NET, разбив каждый шаг для полного понимания.
 ## Предварительные условия
@@ -64,3 +70,9 @@ Aspose.Tasks в первую очередь ориентирован на при
  Да, вы можете приобрести временные лицензии[здесь](https://purchase.aspose.com/temporary-license/) для кратковременного использования.
 ### Какие форматы файлов поддерживаются проектными документами?
 Aspose.Tasks для .NET поддерживает различные форматы, включая MPP, XML и CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

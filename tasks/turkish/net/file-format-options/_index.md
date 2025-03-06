@@ -3,10 +3,16 @@ title: Aspose.Tasks Dosya Formatı Seçenekleri
 linktitle: Aspose.Tasks Dosya Formatı Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks .NET'te Aspose.Tasks dosya formatı seçeneklerini ve XAML ve XLSX ana yapılandırma seçeneklerini keşfedin. Özelleştirme ipuçlarıyla proje yönetimini geliştirin.
-type: docs
 weight: 34
 url: /tr/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Dosya Formatı Seçenekleri
+
 
 ## giriiş
 
@@ -27,3 +33,9 @@ Sonuç olarak Aspose.Tasks dosya formatı seçenekleri eğitimlerimiz, XAML ve X
 Aspose.Tasks for .NET'te MS Project XAML seçeneklerini nasıl yapılandıracağınızı öğrenin. Adım adım rehberlikle proje yönetimi esnekliğini ve özelleştirmeyi geliştirin.
 ### [Aspose.Tasks'ta XLSX Seçeneklerini Yapılandırma](./configuring-xlsx-options/)
 Aspose.Tasks for .NET'te MS Project XLSX seçeneklerini nasıl yapılandıracağınızı öğrenin. Sütunları, kodlamayı ve daha fazlasını zahmetsizce özelleştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

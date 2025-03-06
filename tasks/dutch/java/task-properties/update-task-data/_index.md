@@ -3,10 +3,16 @@ title: Update taakgegevens naar MPP-indeling in Aspose.Tasks
 linktitle: Update taakgegevens naar MPP-indeling in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u taakgegevens kunt bijwerken naar MPP-indeling met behulp van Aspose.Tasks voor Java. Volg onze stap-voor-stap handleiding voor efficiënt projectmanagement.
-type: docs
 weight: 35
 url: /nl/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Update taakgegevens naar MPP-indeling in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze stapsgewijze handleiding voor het bijwerken van taakgegevens naar MPP-indeling met behulp van Aspose.Tasks voor Java. In deze zelfstudie leiden we u door het proces, zodat u elke stap duidelijk begrijpt. Aspose.Tasks voor Java biedt een robuuste oplossing voor het werken met Microsoft Project-bestanden, en aan het einde van deze handleiding kunt u taakgegevens efficiënt bijwerken in MPP-indeling.
 ## Vereisten
@@ -93,3 +99,9 @@ Gefeliciteerd! U hebt een uitgebreide handleiding voltooid over het bijwerken va
  A: Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Bieden jullie tijdelijke licenties aan voor testdoeleinden?
  A: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

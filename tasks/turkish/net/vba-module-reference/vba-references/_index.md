@@ -3,10 +3,16 @@ title: VBA Referans İşleme konusunda Uzmanlaşma - Adım Adım Kılavuz
 linktitle: Aspose.Tasks'ta VBA Referanslarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Kapsamlı eğitimimizle Aspose.Tasks .NET'te VBA referanslarını işlemenin gücünü keşfedin. VBA referanslarını sorunsuz bir şekilde okumayı, karşılaştırmayı ve bunlarla çalışmayı öğrenin.
-type: docs
 weight: 15
 url: /tr/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA Referans İşleme konusunda Uzmanlaşma - Adım Adım Kılavuz
+
 ## giriiş
 Aspose.Tasks for .NET'e giriyorsanız ve VBA referanslarını yönetmenin inceliklerini keşfetmek istiyorsanız doğru yerdesiniz. Bu adım adım kılavuz, Aspose.Tasks'ı kullanarak okuma, eşitliği kontrol etme, karma kodları edinme ve VBA referans koleksiyonuyla çalışma sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -79,3 +85,9 @@ C: Aspose.Tasks öncelikli olarak .NET dillerini destekler ancak farklı platfor
  C: Belgeler mevcut[Burada](https://reference.aspose.com/tasks/net/).
 ### S: Aspose.Tasks'ı satın alabilir miyim?
  C: Evet, satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kezelje az Aspose.Tasks feladateltéréseit
 linktitle: Kezelje az Aspose.Tasks feladateltéréseit
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java erejét a projektfeladatok eltéréseinek kezelésében. Kövesse átfogó útmutatónkat a zökkenőmentes integráció és a hatékony kezelés érdekében.
-type: docs
 weight: 19
 url: /hu/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje az Aspose.Tasks feladateltéréseit
+
 ## Bevezetés
 projektmenedzsment világában az Aspose.Tasks for Java robusztus és sokoldalú eszköz a feladatok eltéréseinek hatékony kezelésére. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks használatának folyamatán, amellyel zökkenőmentesen kezelheti és alkalmazkodhat a feladatok eltéréseihez.
 ## Előfeltételek
@@ -68,3 +74,9 @@ Igen, beszerezhet ideiglenes licencet az Aspose.Tasks számára[itt](https://pur
  Támogatásért és megbeszélésekért keresse fel az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15).
 ### Letölthetem az Aspose.Tasks-t Java-hoz?
  Igen, töltse le az Aspose.Tasks for Java legújabb verzióját[itt](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

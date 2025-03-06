@@ -3,10 +3,16 @@ title: MS Project Primavera adatok olvasása az Aspose.Tasks segítségével
 linktitle: Primavera adatok olvasása az Aspose.Tasks segítségével
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan olvassa be az MS Project Primavera adatait az Aspose.Tasks for .NET használatával. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 12
 url: /hu/net/project-management-integration/primavera-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Primavera adatok olvasása az Aspose.Tasks segítségével
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az MS Project Primavera adatok olvasásához az Aspose.Tasks for .NET segítségével! Ebben az oktatóanyagban végigvezetjük az MS Project Primavera adatok elérésének és kezelésének folyamatán az Aspose.Tasks, egy hatékony .NET API segítségével, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal.
 ## Előfeltételek
@@ -67,3 +73,9 @@ V: Abszolút! Az Aspose.Tasks lehetővé teszi az MS Project Primavera fájlok z
  V: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/)hogy vásárlás előtt feltárja a funkcióit és képességeit.
 ### K: Hol kaphatok támogatást az Aspose.Tasks-hoz?
  V: Az Aspose.Tasks-szal kapcsolatos kérdéseivel vagy segítségével látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) ahol segítséget kaphat a közösségtől vagy az Aspose támogató személyzetétől.## Töltse ki a forráskódot
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

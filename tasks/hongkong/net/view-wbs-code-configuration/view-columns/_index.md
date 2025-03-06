@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 掌握 MS Project 視圖列
 linktitle: 處理 Aspose.Tasks 中的視圖列
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 增強專案視覺化。了解逐步處理 MS Project 視圖列。提高效率和客製化。
-type: docs
 weight: 12
 url: /zh-hant/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 掌握 MS Project 視圖列
+
 ## 介紹
 在專案管理領域，Aspose.Tasks for .NET 作為處理 Microsoft Project 檔案的強大工具包脫穎而出。專案視覺化的重要方面之一是有效管理視圖列。在本教程中，我們將探索如何使用 Aspose.Tasks 處理 MS Project 視圖列，使您能夠自訂和最佳化專案視圖。
 ## 先決條件
@@ -80,3 +86,9 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 答： 的`MyTextStyleCallback`類別示範如何自訂文字樣式以改善特定視圖中的視覺表示。
 ### Q：在哪裡可以找到 Aspose.Tasks 的其他資源和文件？
 答：請參閱[Aspose.Tasks 文檔](https://reference.aspose.com/tasks/net/)以獲得深入的指導和資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

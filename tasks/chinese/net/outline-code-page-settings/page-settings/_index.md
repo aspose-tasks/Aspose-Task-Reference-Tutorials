@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 配置 MS Project 页面设置
 linktitle: 在 Aspose.Tasks 中配置页面设置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 配置 MS Project 页面设置。通过简单的步骤自定义方向、尺寸等。
-type: docs
 weight: 20
 url: /zh/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 配置 MS Project 页面设置
+
 ## 介绍
 在本教程中，我们将逐步介绍使用 Aspose.Tasks for .NET 配置 Microsoft Project 页面设置的过程。 Aspose.Tasks 是一个功能强大的 API，允许开发人员以编程方式操作 Microsoft Project 文件。
 ## 先决条件
@@ -77,3 +83,9 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 答：当然，您可以将此功能集成到应用程序的工作流程中以自动执行页面设置配置。
 ### 问：Aspose.Tasks 是否支持除 .mpp 之外的其他文件格式？
 答：是的，Aspose.Tasks 支持各种文件格式，例如 XML、MPT 和 HTML 等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stoppa och återuppta resurstilldelningar i Aspose.Tasks
 linktitle: Stoppa och återuppta resurstilldelningar i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar resurstilldelningar effektivt i Aspose.Tasks för Java med denna steg-för-steg handledning.
-type: docs
 weight: 23
 url: /sv/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stoppa och återuppta resurstilldelningar i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att lära oss hur du stoppar och återupptar resurstilldelningar med Aspose.Tasks för Java. Aspose.Tasks är ett kraftfullt Java API som tillåter utvecklare att arbeta med Microsoft Project-filer utan att behöva Microsoft Project installerat på sina system. Vi delar upp processen i hanterbara steg för att göra det enkelt att följa med.
 ## Förutsättningar
@@ -71,3 +77,9 @@ Ja, Aspose.Tasks låter dig arbeta med Microsoft Project-filer utan att behöva 
 Du kan få stöd från samhället[här](https://forum.aspose.com/c/tasks/15).
 ### Kan jag köpa en tillfällig licens?
  Ja, du kan köpa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

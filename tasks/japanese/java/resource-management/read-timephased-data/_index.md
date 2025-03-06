@@ -3,10 +3,16 @@ title: Aspose.Tasks でリソースのタイムスケール データを読み�
 linktitle: Aspose.Tasks でリソースのタイムスケール データを読み取る
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project リソースからタイムスケール データを抽出する方法を学びます。ステップバイステップのチュートリアル。
-type: docs
 weight: 15
 url: /ja/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でリソースのタイムスケール データを読み取る
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して MS Project リソースのタイムスケール データを読み取るプロセスを説明します。このライブラリは、Microsoft Project ファイルをプログラムで管理するための強力な機能を提供します。
 ## 前提条件
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 はい。Aspose.Tasks は、その信頼性と拡張性によりエンタープライズ環境で広く使用されています。
 ### Aspose.Tasks の使用中に問題が発生した場合、どこでサポートを見つけられますか?
 訪問できます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティとサポートチームからの支援が必要です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

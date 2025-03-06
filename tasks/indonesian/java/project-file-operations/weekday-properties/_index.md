@@ -3,10 +3,16 @@ title: Properti Hari Kerja di Aspose.Tasks
 linktitle: Properti Hari Kerja di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola properti hari kerja secara efisien di Aspose.Tasks untuk Java. Sesuaikan tanggal mulai minggu, hari per bulan, dan lainnya dengan mudah.
-type: docs
 weight: 25
 url: /id/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Hari Kerja di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java adalah API canggih yang memungkinkan pengembang Java bekerja dengan file Microsoft Project tanpa menginstal Microsoft Project di mesin. Salah satu fungsi utamanya adalah mengelola properti hari kerja, memungkinkan pengguna menyesuaikan tanggal mulai minggu, hari per bulan, menit per hari, dan menit per minggu. Tutorial ini akan memberikan panduan rinci tentang cara memanfaatkan fitur-fitur ini secara efektif.
 ## Prasyarat
@@ -74,3 +80,9 @@ J: Ya, Aspose.Tasks untuk Java menawarkan kemampuan integrasi yang lancar, memun
  J: Ya, Anda dapat mengakses dokumentasi ekstensif dan dukungan komunitas untuk Aspose.Tasks for Java di situs mereka[situs web](https://releases.aspose.com/).
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk Java?
 J: Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis untuk Java dari situs mereka[situs web](https://reference.aspose.com/tasks/java/) untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

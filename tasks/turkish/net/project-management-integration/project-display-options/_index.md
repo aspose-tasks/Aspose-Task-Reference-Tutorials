@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Görüntüleme Seçeneklerini Yapılandırma
 linktitle: Aspose.Tasks'ta Proje Görüntüleme Seçeneklerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project görüntüleme seçeneklerini programlı olarak nasıl yapılandıracağınızı öğrenin. Projenizin görünümünü zahmetsizce özelleştirin.
-type: docs
 weight: 17
 url: /tr/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Görüntüleme Seçeneklerini Yapılandırma
+
 ## giriiş
 Microsoft Project, projenizin görünümünü özelleştirmek için çok sayıda görüntüleme seçeneği sunar. Aspose.Tasks for .NET, bu seçenekleri programlı olarak yönetmek için sağlam bir çerçeve sağlar. Bu eğitimde Aspose.Tasks'ı kullanarak MS Project görüntüleme seçeneklerini nasıl yapılandıracağımızı keşfedeceğiz.
 ## Önkoşullar
@@ -85,3 +91,9 @@ C: Hayır, bazı seçenekler MS Project'in belirli sürümlerine özel olabilir.
 C: Evet, Aspose.Tasks API'yi kullanarak görüntüleme seçeneklerini varsayılan değerlerine sıfırlayabilirsiniz.
 ### S: Görüntüleme seçeneklerini programlı olarak özelleştirmede herhangi bir sınırlama var mı?
 C: Aspose.Tasks kapsamlı özelleştirme yetenekleri sunsa da, MS Project dosya formatındaki sınırlamalar nedeniyle belirli görüntüleme seçeneklerine program aracılığıyla erişilemeyebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

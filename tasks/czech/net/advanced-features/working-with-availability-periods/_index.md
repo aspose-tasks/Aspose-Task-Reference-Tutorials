@@ -3,10 +3,16 @@ title: Práce s obdobími dostupnosti v Aspose.Tasks
 linktitle: Práce s obdobími dostupnosti v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat období dostupnosti zdrojů pomocí Aspose.Tasks for .NET. Tento kurz poskytuje podrobného průvodce pro práci s obdobími dostupnosti ve vašich projektech .NET.
-type: docs
 weight: 17
 url: /cs/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s obdobími dostupnosti v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak pracovat s obdobími dostupnosti v Aspose.Tasks pro .NET. Období dostupnosti jsou zásadní pro efektivní řízení zdrojů ve scénářích projektového řízení. Provedeme vás procesem krok za krokem.
@@ -107,3 +113,9 @@ A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET[tady
 ### Q5: Nabízíte dočasné licence pro Aspose.Tasks pro .NET?
 
  A5: Ano, dočasné licence jsou k dispozici[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

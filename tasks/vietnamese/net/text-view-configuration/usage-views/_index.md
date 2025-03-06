@@ -3,10 +3,16 @@ title: Định cấu hình Chế độ xem sử dụng trong Aspose.Tasks
 linktitle: Định cấu hình Chế độ xem sử dụng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình chế độ xem sử dụng tác vụ trong Aspose.Tasks cho .NET. Tăng cường trực quan hóa dự án với các bước chi tiết. Tải thư viện ngay bây giờ!
-type: docs
 weight: 17
 url: /vi/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình Chế độ xem sử dụng trong Aspose.Tasks
+
 ## Giới thiệu
 Nếu bạn là nhà phát triển .NET đang tìm cách nâng cao khả năng quản lý dự án của mình thì Aspose.Tasks là một công cụ mạnh mẽ cho phép bạn thao tác các tệp Microsoft Project một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc định cấu hình chế độ xem sử dụng bằng Aspose.Tasks cho .NET. Hãy theo dõi để hiểu rõ hơn về cách hiển thị các chế độ xem sử dụng tác vụ cùng với các chi tiết để trực quan hóa dự án tốt hơn.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Chúc mừng! Bạn đã định cấu hình thành công chế độ xem sử d
  Có, hãy khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Hỏi: Cần hỗ trợ hoặc có thắc mắc?
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

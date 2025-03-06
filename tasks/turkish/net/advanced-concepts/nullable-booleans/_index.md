@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Nullable Boolean'ları İşleme
 linktitle: Aspose.Tasks'ta Nullable Boolean'ları İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Bu kapsamlı eğitimle Aspose.Tasks for .NET'te null olabilen booleanları etkili bir şekilde nasıl kullanacağınızı öğrenin. 'NullableBool' sınıfının kullanımında uzmanlaşın ve .NET gelişiminizi geliştirin.
-type: docs
 weight: 21
 url: /tr/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Nullable Boolean'ları İşleme
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te null olabilen boolean'larla çalışmayı derinlemesine inceleyeceğiz. Null yapılabilir boolean'lar, boolean değerleri temsil etmede esneklik sunarak tanımsız olma olasılığına olanak tanır. nasıl kullanılacağını araştıracağız.`NullableBool` sınıf, yapıcıları, özellikleri ve yöntemleri.
@@ -153,3 +159,9 @@ C4: Evet, null olabilen bir boolean'ı yapım sırasında tanımsız olacak şek
 ### S5: Aspose.Tasks for .NET ile ilgili daha fazla belgeyi nerede bulabilirim?
 
  A5: Ayrıntılı belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

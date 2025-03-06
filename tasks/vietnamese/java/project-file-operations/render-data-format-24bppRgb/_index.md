@@ -3,10 +3,16 @@ title: Kết xuất dữ liệu dự án MS với định dạng 24bppRgb trong 
 linktitle: Kết xuất dữ liệu với định dạng 24bppRgb trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách hiển thị dữ liệu MS Project dưới dạng hình ảnh trong Java bằng Aspose.Tasks. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất dữ liệu dự án MS với định dạng 24bppRgb trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kết xuất dữ liệu với định dạng MS Project 24bppRgb bằng Aspose.Tasks cho Java. Việc hiển thị dữ liệu dự án thành định dạng hình ảnh có thể hữu ích cho nhiều mục đích khác nhau như chia sẻ tiến độ dự án một cách trực quan hoặc tạo báo cáo.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Trả lời: Có, bạn có thể tùy chỉnh độ phân giải và định d�
  Trả lời: Có, bạn cần mua giấy phép sử dụng Aspose.Tasks cho mục đích thương mại. Bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể nhận hỗ trợ cho Aspose.Tasks từ[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vestavěná kolekce vlastností projektu v Aspose.Tasks
 linktitle: Vestavěná kolekce vlastností projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat metavlastnosti projektu v aplikacích .NET pomocí Aspose.Tasks. Čtěte, upravujte a iterujte vlastnosti bez námahy.
-type: docs
 weight: 24
 url: /cs/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vestavěná kolekce vlastností projektu v Aspose.Tasks
+
 ## Úvod
 
 V oblasti vývoje softwaru je pro úspěch rozhodující efektivní řízení úkolů a projektů. Aspose.Tasks for .NET je výkonná knihovna navržená pro usnadnění úkolů projektového řízení v rámci aplikací .NET. Díky svým robustním funkcím a intuitivnímu rozhraní mohou vývojáři zefektivnit procesy řízení projektů a šetřit čas a zdroje.
@@ -106,3 +112,9 @@ Odpověď 3: Ano, Aspose.Tasks for .NET podporuje širokou škálu formátů sou
 ### Q5: Kde najdu další podporu a zdroje pro Aspose.Tasks for .NET?
 
  A5: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu komunity a projděte si dokumentaci, kde najdete komplexní pokyny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

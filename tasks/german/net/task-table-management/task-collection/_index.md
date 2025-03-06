@@ -3,10 +3,16 @@ title: Verwalten von Aufgabensammlungen in Aspose.Tasks
 linktitle: Verwalten von Aufgabensammlungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die effiziente Verwaltung von Aufgabensammlungen in Aspose.Tasks für .NET. Meistern Sie das Projektmanagement von der Erstellung bis zur Bearbeitung mit Leichtigkeit.
-type: docs
 weight: 18
 url: /de/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von Aufgabensammlungen in Aspose.Tasks
+
 ## Einführung
 Wenn Sie in die Welt des Projektmanagements mit .NET eintauchen, ist Aspose.Tasks Ihre Lösung der Wahl für die nahtlose Handhabung von Aufgabensammlungen. Dieses Tutorial führt Sie durch den Prozess der effizienten Verwaltung von Aufgabensammlungen und stellt sicher, dass Sie diese leistungsstarke Bibliothek optimal nutzen.
 ## Voraussetzungen
@@ -95,3 +101,9 @@ Absolut! Aspose.Tasks bietet vielseitige Exportoptionen, einschließlich PDF, XL
  Ja, Sie können Unterstützung finden und mit der Community interagieren unter[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
 ### Kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

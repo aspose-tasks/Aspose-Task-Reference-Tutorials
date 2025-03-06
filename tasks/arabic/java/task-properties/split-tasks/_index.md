@@ -3,10 +3,16 @@ title: تقسيم المهام في Aspose.Tasks
 linktitle: تقسيم المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: إدارة المهام الرئيسية في Java باستخدام Aspose.Tasks! تعرف على كيفية تقسيم المهام بكفاءة للحصول على جداول زمنية محسنة للمشروع. التحميل الان!
-type: docs
 weight: 29
 url: /ar/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم المهام في Aspose.Tasks
+
 ## مقدمة
 هل تواجه صعوبة في إدارة المهام في مشروع Java الخاص بك؟ يوفر Aspose.Tasks for Java حلاً قويًا لتقسيم المهام بكفاءة، وتعزيز قدرات إدارة المشروع. في هذا البرنامج التعليمي، سنرشدك خلال عملية تقسيم المهام باستخدام Aspose.Tasks لـ Java، مما يساعدك على تحسين الجداول الزمنية لمشروعك وتخصيص الموارد.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ java.util.Calendar cal2 = java.util.Calendar.getInstance();
  قم بزيارة[Aspose.Tasks لمنتدى دعم جافا](https://forum.aspose.com/c/tasks/15) للحصول على المساعدة والتواصل مع المجتمع.
 ### هل أحتاج إلى ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  يمكنك الحصول على ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

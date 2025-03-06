@@ -3,10 +3,16 @@ title: Handle Task Variances in Aspose.Tasks
 linktitle: Handle Task Variances in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore the power of Aspose.Tasks for Java in managing project task variances. Follow our comprehensive guide for seamless integration and efficient handling.
-type: docs
 weight: 19
 url: /java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Task Variances in Aspose.Tasks
+
 ## Introduction
 In the world of project management, Aspose.Tasks for Java stands out as a robust and versatile tool for handling task variances efficiently. This tutorial will guide you through the process of utilizing Aspose.Tasks to manage and adapt to task variances seamlessly.
 ## Prerequisites
@@ -68,3 +74,10 @@ Yes, you can obtain a temporary license for Aspose.Tasks [here](https://purchase
 For support and discussions, visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
 ### Can I download Aspose.Tasks for Java?
 Yes, download the latest version of Aspose.Tasks for Java [here](https://releases.aspose.com/tasks/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

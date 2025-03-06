@@ -3,10 +3,16 @@ title: Beheersing van MS-projectfiltercriteria met Aspose.Tasks
 linktitle: Filtercriteria in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u filtercriteria in MS Project kunt implementeren met behulp van Aspose.Tasks voor .NET. Verhoog de efficiëntie van projectmanagement met gerichte data-analyse.
-type: docs
 weight: 18
 url: /nl/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van MS-projectfiltercriteria met Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement is Microsoft Project een krachtig hulpmiddel dat een overvloed aan functies biedt om projectplanners en -managers te helpen. Een van de vele functionaliteiten is de mogelijkheid om projectgegevens te filteren, waardoor gebruikers zich kunnen concentreren op specifieke aspecten van de taken van hun project. Zonder de juiste begeleiding kan het echter een lastige opgave zijn om deze filtermogelijkheden onder de knie te krijgen. Deze tutorial heeft tot doel het proces te demystificeren door een stapsgewijze handleiding te bieden voor het implementeren van filtercriteria in MS Project met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
@@ -89,3 +95,9 @@ A: Aspose.Tasks ondersteunt .NET Framework, .NET Core en .NET Standard, waardoor
 A: Absoluut, u kunt filtercriteria programmatisch aanpassen op basis van dynamische parameters, waardoor adaptieve analyse van projectgegevens mogelijk wordt.
 ### Vraag: Waar kan ik hulp zoeken als ik problemen tegenkom met Aspose.Tasks?
  A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om steun te zoeken bij de gemeenschap of rechtstreeks contact op te nemen met Aspose.Tasks-ondersteuning voor persoonlijke hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

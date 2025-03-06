@@ -3,10 +3,16 @@ title: Hantera VBA-moduler i Aspose.Tasks
 linktitle: Hantera VBA-moduler i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Hantera VBA-moduler enkelt i Microsoft Project-filer med Aspose.Tasks för .NET. Utforska steg-för-steg-vägledning och förbättra ditt utvecklingsarbetsflöde.
-type: docs
 weight: 10
 url: /sv/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera VBA-moduler i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft Project-filer i sina .NET-applikationer. En av nyckelfunktionerna i Aspose.Tasks är dess förmåga att hantera VBA-moduler (Visual Basic for Applications) i projektfiler. I den här handledningen kommer vi att fördjupa oss i processen att hantera VBA-moduler med Aspose.Tasks i en steg-för-steg-guide.
 ## Förutsättningar
@@ -74,3 +80,9 @@ Absolut! Aspose.Tasks tillhandahåller metoder för att inte bara läsa utan ock
 Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 ### Hur kan jag få support eller söka hjälp för frågor relaterade till Aspose.Tasks?
 Besök gärna[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

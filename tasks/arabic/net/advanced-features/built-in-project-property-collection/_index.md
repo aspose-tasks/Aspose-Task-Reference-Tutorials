@@ -3,10 +3,16 @@ title: مجموعة خصائص المشروع المضمنة في Aspose.Tasks
 linktitle: مجموعة خصائص المشروع المضمنة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة خصائص تعريف المشروع بكفاءة في تطبيقات .NET باستخدام Aspose.Tasks. قراءة وتعديل وتكرار الخصائص دون عناء.
-type: docs
 weight: 24
 url: /ar/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة خصائص المشروع المضمنة في Aspose.Tasks
+
 ## مقدمة
 
 في مجال تطوير البرمجيات، تعد إدارة المهام والمشاريع بكفاءة أمرًا بالغ الأهمية لتحقيق النجاح. Aspose.Tasks for .NET هي مكتبة قوية مصممة لتسهيل مهام إدارة المشاريع ضمن تطبيقات .NET. بفضل ميزاته القوية وواجهته البديهية، يمكن للمطورين تبسيط عمليات إدارة المشاريع، مما يوفر الوقت والموارد.
@@ -106,3 +112,9 @@ foreach (Property property in project.BuiltInProps)
 ### س5: أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على دعم المجتمع وتصفح الوثائق للحصول على إرشادات شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

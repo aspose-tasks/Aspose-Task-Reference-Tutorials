@@ -3,10 +3,16 @@ title: Manipular atributos estendidos do MS Project com Aspose.Tasks
 linktitle: Trabalhando com atributos estendidos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como trabalhar com atributos estendidos do MS Project usando Aspose.Tasks for .NET. Manipule dados de tarefas programaticamente com facilidade.
-type: docs
 weight: 11
 url: /pt/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipular atributos estendidos do MS Project com Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for .NET é uma biblioteca poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente. Um dos principais recursos desta biblioteca é a capacidade de trabalhar com atributos estendidos do MS Project. Atributos estendidos fornecem personalização e metadados adicionais para tarefas em um projeto, permitindo que os usuários armazenem e gerenciem informações específicas além das propriedades padrão da tarefa.
 Neste tutorial, exploraremos como trabalhar com atributos estendidos do MS Project usando Aspose.Tasks for .NET. Abordaremos os pré-requisitos, importaremos namespaces e dividiremos cada exemplo em várias etapas em um formato de guia passo a passo. Ao final deste tutorial, você terá um conhecimento sólido de como aproveitar atributos estendidos em seus aplicativos .NET.
@@ -72,3 +78,9 @@ Sim, você precisa adquirir uma licença para uso comercial do Aspose.Tasks for 
 Sim, o Aspose.Tasks for .NET oferece amplos recursos para personalizar atributos estendidos para atender às necessidades específicas do seu projeto.
 ### Onde posso obter suporte se encontrar algum problema ao usar o Aspose.Tasks for .NET?
  Você pode obter suporte no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 달력에서 근무 시간 가져오기
 linktitle: Aspose.Tasks를 사용하여 달력에서 근무 시간 가져오기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 달력에서 작업 시간을 쉽게 추출하세요. 프로젝트 관리 작업을 단순화합니다.
-type: docs
 weight: 13
 url: /ko/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 달력에서 근무 시간 가져오기
+
 ## 소개
 효과적인 프로젝트 관리를 위해서는 프로젝트 일정을 관리하고 근무 시간을 추출하는 것이 필수적입니다. Aspose.Tasks for Java는 MS 프로젝트 달력에서 작업 시간을 쉽게 검색할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -83,3 +89,9 @@ A: 예, Aspose.Tasks for Java API를 사용하여 프로젝트 요구 사항에 
 A: 예, Aspose.Tasks for Java는 개발자가 해당 기능을 효과적으로 활용하는 데 도움이 되는 광범위한 문서와 전용 지원 포럼을 제공합니다.
 ### Q: Aspose.Tasks for Java에 사용할 수 있는 평가판이 있습니까?
  A: 예, 다음에서 Aspose.Tasks for Java의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

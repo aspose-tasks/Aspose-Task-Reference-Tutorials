@@ -3,10 +3,16 @@ title: Aspose.Tasks에 대한 MS 프로젝트의 눈금선 사용자 정의
 linktitle: Aspose.Tasks의 눈금선
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트에서 눈금선을 사용자 정의하는 방법을 알아보세요. 따라하기 쉬운 단계를 통해 프로젝트 시각화 및 관리를 향상하세요.
-type: docs
 weight: 23
 url: /ko/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 대한 MS 프로젝트의 눈금선 사용자 정의
+
 ## 소개
 
 프로젝트 관리에서 시각적 표현은 프로젝트 일정, 종속성 및 진행 상황을 이해하는 데 중요한 역할을 합니다. Aspose.Tasks for .NET은 프로그래밍 방식으로 프로젝트 파일을 조작할 수 있는 강력한 도구를 제공합니다. 그러한 기능 중 하나는 Aspose.Tasks를 사용하여 MS 프로젝트에서 눈금선을 사용자 정의하는 기능입니다.
@@ -113,3 +119,9 @@ A: 예, Aspose.Tasks for .NET은 널리 사용되는 프로젝트 관리 도구 
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
  A: 예, 무료 평가판을 다운로드할 수 있습니다.[.NET용 Aspose.Tasks](https://forum.aspose.com/c/tasks/15). 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

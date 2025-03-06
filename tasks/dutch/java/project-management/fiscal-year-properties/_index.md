@@ -3,10 +3,16 @@ title: Beheer fiscale jaareigenschappen in Aspose.Tasks
 linktitle: Beheer fiscale jaareigenschappen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u fiscale jaareigenschappen efficiënt kunt beheren met Aspose.Tasks voor Java. Stap-voor-stap handleiding met voorbeelden.
-type: docs
 weight: 15
 url: /nl/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer fiscale jaareigenschappen in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars projectbestanden efficiënt kunnen beheren, inclusief het verwerken van fiscale jaareigenschappen. In deze zelfstudie doorlopen we het proces van het beheren van fiscale jaareigenschappen met behulp van Aspose.Tasks in Java.
 ## Vereisten
@@ -66,3 +72,9 @@ A: Ja, Aspose.Tasks ondersteunt een breed scala aan projectbestandsindelingen, w
  A: Ja, u kunt toegang krijgen tot de gratis proefversie van Aspose.Tasks vanaf[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik een licentie kopen voor Aspose.Tasks voor Java?
  A: U kunt een licentie voor Aspose.Tasks voor Java aanschaffen bij[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

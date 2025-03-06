@@ -3,10 +3,16 @@ title: Az Aspose.Tasks erőforrásainak típusai
 linktitle: Az Aspose.Tasks erőforrásainak típusai
 second_title: Aspose.Tasks .NET API
 description: Az Aspose.Tasks for .NET alkalmazásban megtanulhatja, hogyan dolgozhat különböző típusú erőforrásokkal, beleértve a munka-, anyag- és költségforrásokat, egy lépésről lépésre bemutatott oktatóanyag segítségével.
-type: docs
 weight: 14
 url: /hu/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks erőforrásainak típusai
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. Függetlenül attól, hogy feladatokat, erőforrásokat vagy ütemezéseket kezel, az Aspose.Tasks leegyszerűsíti a folyamatot azáltal, hogy átfogó API-készletet biztosít. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával projektjei során felhasználható különböző típusú erőforrásokba fogunk belemenni.
 ## Előfeltételek
@@ -60,3 +66,9 @@ V: Igen, az Aspose.Tasks különféle formátumokat támogat, beleértve a Micro
  V: Igen, vásárolhat ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Az Aspose.Tasks for .NET tartalmaz dokumentációt referenciaként?
  V: Igen, megtalálja a dokumentációt[itt](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

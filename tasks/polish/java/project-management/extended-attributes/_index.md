@@ -3,10 +3,16 @@ title: Obsługa rozszerzonych atrybutów w projektach Aspose.Tasks
 linktitle: Obsługa rozszerzonych atrybutów w projektach Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie obsługiwać rozszerzone atrybuty w projektach Aspose.Tasks przy użyciu języka Java. Przewodnik krok po kroku dotyczący skutecznego zarządzania projektami.
-type: docs
 weight: 13
 url: /pl/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa rozszerzonych atrybutów w projektach Aspose.Tasks
+
 ## Wstęp
 Zarządzanie rozszerzonymi atrybutami w zarządzaniu projektami ma kluczowe znaczenie dla dostosowywania i ulepszania danych projektu. Aspose.Tasks dla Java zapewnia solidne narzędzia do wydajnej obsługi rozszerzonych atrybutów w plikach MS Project. Ten samouczek poprowadzi Cię przez proces krok po kroku, zapewniając dokładne zrozumienie każdej koncepcji.
 ## Warunki wstępne
@@ -86,3 +92,9 @@ O: Oczywiście, Aspose.Tasks umożliwia definiowanie niestandardowych rozszerzon
  Odp.: Obszerną dokumentację można znaleźć na stronie internetowej Aspose.Tasks[dokumentacja](https://reference.aspose.com/tasks/java/).
 ### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
  Odp.: Tak, możesz uzyskać dostęp do pomocy technicznej za pośrednictwem forum Aspose.Tasks[strona internetowa](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

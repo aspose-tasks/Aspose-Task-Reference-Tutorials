@@ -3,10 +3,16 @@ title: Aspose.Tasks 中任務基線的集合
 linktitle: Aspose.Tasks 中任務基線的集合
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 輕鬆探索任務基線。高效率的專案管理變得簡單。現在下載！ #Aspose.Tasks #MS 項目
-type: docs
 weight: 17
 url: /zh-hant/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中任務基線的集合
+
 ## 介紹
 歡迎來到 Aspose.Tasks for .NET 的世界，這是一個功能強大的程式庫，可促進專案任務的無縫操作和管理。在本教程中，我們將深入研究任務基線的迷人領域——專案規劃和追蹤的一個重要方面。在本指南結束時，您將掌握使用任務基線集合的藝術，從而增強您的專案管理能力。
 ## 先決條件
@@ -68,3 +74,9 @@ for (var i = 0; i < baselines.Count; i++)
 答：當然！列印基線詳細資訊時，您可以完全控制格式，從而可以根據您的特定要求進行自訂。
 ### Q：如果我遇到問題或有其他疑問，可以在哪裡尋求協助？
 答：訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得專門的支持和社區援助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

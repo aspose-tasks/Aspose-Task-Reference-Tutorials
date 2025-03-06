@@ -3,10 +3,16 @@ title: Verwaltung der Aufgabenbasisdauer in Aspose.Tasks
 linktitle: Verwaltung der Aufgabenbasisdauer in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Aufgabenbasispläne in MS Project mit Aspose.Tasks für Java effizient verwalten. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
-type: docs
 weight: 12
 url: /de/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwaltung der Aufgabenbasisdauer in Aspose.Tasks
+
 ## Einführung
 Die Verwaltung von Aufgabenbasisplänen in MS Project ist für die Projektplanung und -verfolgung von entscheidender Bedeutung. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für Java die Basisdauer von Aufgaben effektiv verwalten.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ Ja, Sie können Aufgabenbasispläne in MS Project ändern, um Änderungen im Pro
 Ja, Aspose.Tasks bietet eine breite Palette von Funktionen für das Projektmanagement, einschließlich Aufgabenplanung, Ressourcenzuweisung und Erstellung von Gantt-Diagrammen.
 ### Wo finde ich Unterstützung für Aspose.Tasks?
  Unterstützung für Aspose.Tasks finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15), wo Sie Fragen stellen und mit anderen Benutzern interagieren können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

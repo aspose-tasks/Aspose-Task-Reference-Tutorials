@@ -3,10 +3,16 @@ title: Typ výpočtu v Aspose.Tasks
 linktitle: Typ výpočtu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak přizpůsobit výpočty hodnot v projektech .NET pomocí Typu výpočtu v knihovně Aspose.Tasks.
-type: docs
 weight: 30
 url: /cs/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typ výpočtu v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme funkci Typ výpočtu v Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům .NET pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project na jejich systémy. Typ výpočtu nám umožňuje definovat způsob výpočtu hodnot pro úkoly a souhrnné úkoly v rámci projektu.
@@ -97,3 +103,9 @@ A4: Ano, Aspose.Tasks poskytuje různé typy kumulativních úloh, jako je prům
 ### Q5: Kde najdu další zdroje na Aspose.Tasks pro .NET?
 
  A5: Můžete prozkoumat dokumentaci a fóra podpory komunity dostupná na webu[Aspose.Tasks pro .NET](https://reference.aspose.com/tasks/net/) za komplexní vedení a pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

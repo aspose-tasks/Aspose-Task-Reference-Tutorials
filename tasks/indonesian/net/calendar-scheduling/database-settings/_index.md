@@ -3,10 +3,16 @@ title: Pengaturan Basis Data di Aspose.Tasks
 linktitle: Pengaturan Basis Data di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengimpor proyek dari database Primavera menggunakan Aspose.Tasks untuk .NET. Dapatkan panduan langkah demi langkah dalam tutorial komprehensif ini.
-type: docs
 weight: 29
 url: /id/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengaturan Basis Data di Aspose.Tasks
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project di aplikasi .NET mereka. Dalam tutorial ini, kami akan fokus mengimpor proyek dari database Primavera menggunakan Aspose.Tasks.
@@ -100,3 +106,9 @@ A1: Ya, Anda dapat mengimpor proyek dari berbagai penyedia database dengan menye
 ### Q5: Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks untuk .NET?
 
  A5: Jika Anda ingin mengevaluasi fungsionalitas penuh perpustakaan, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

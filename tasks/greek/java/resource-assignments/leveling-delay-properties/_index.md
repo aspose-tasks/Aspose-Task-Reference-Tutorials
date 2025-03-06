@@ -3,10 +3,16 @@ title: Χειριστείτε τις ιδιότητες καθυστέρησης
 linktitle: Χειριστείτε τις ιδιότητες καθυστέρησης ισοπέδωσης για αναθέσεις πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να χειρίζεστε τις ιδιότητες καθυστέρησης ισοπέδωσης για αναθέσεις πόρων στο Aspose.Tasks για Java με αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 17
 url: /el/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειριστείτε τις ιδιότητες καθυστέρησης ισοπέδωσης στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα περιηγηθούμε στη διαδικασία χειρισμού των ιδιοτήτων καθυστέρησης ισοπέδωσης για αναθέσεις πόρων στο Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να εργάζεστε με αρχεία Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project στο σύστημά σας.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ System.out.println("Process completed Successfully");
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
 
  Α: Μπορείτε να ζητήσετε μια προσωρινή άδεια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

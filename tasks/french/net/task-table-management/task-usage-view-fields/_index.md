@@ -3,10 +3,16 @@ title: Dévoilement des champs d'affichage de l'utilisation des tâches dans Asp
 linktitle: Collection de champs d'affichage d'utilisation des tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez Aspose.Tasks pour .NET pour gérer et visualiser sans effort les données du projet. Plongez dans les champs d’affichage de l’utilisation des tâches pour obtenir des informations améliorées sur le projet.
-type: docs
 weight: 25
 url: /fr/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dévoilement des champs d'affichage de l'utilisation des tâches dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, Aspose.Tasks for .NET constitue une solution robuste, offrant aux développeurs une boîte à outils puissante pour manipuler et gérer les données du projet. L'une des fonctionnalités remarquables est la vue d'utilisation des tâches, offrant des informations sur divers domaines qui améliorent la visibilité du projet. Dans ce didacticiel, nous aborderons les subtilités des champs d'affichage d'utilisation des tâches à l'aide d'Aspose.Tasks pour .NET, en décomposant chaque étape pour une compréhension globale.
 ## Conditions préalables
@@ -64,3 +70,9 @@ Aspose.Tasks se concentre principalement sur les applications .NET. Cependant, v
  Oui, vous pouvez acquérir des licences temporaires[ici](https://purchase.aspose.com/temporary-license/) pour une utilisation à court terme.
 ### Quels formats de fichiers sont pris en charge pour les documents de projet ?
 Aspose.Tasks for .NET prend en charge divers formats, notamment MPP, XML et CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

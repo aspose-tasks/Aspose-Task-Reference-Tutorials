@@ -3,10 +3,16 @@ title: Načtení výjimek kalendáře pomocí Aspose.Tasks
 linktitle: Načtení výjimek kalendáře pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak načíst výjimky kalendáře z MS Project pomocí Aspose.Tasks for Java. Výukový program krok za krokem pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načtení výjimek kalendáře pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak načíst výjimky kalendáře z MS Project pomocí knihovny Aspose.Tasks pro Javu. Aspose.Tasks je výkonný nástroj, který umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project. Provedeme vás procesem krok za krokem, přičemž každý příklad rozdělíme do několika kroků pro snadné pochopení.
 ## Předpoklady
@@ -55,3 +61,9 @@ Ano, Aspose.Tasks podporuje různé verze souborů MS Project, včetně formát�
  Podporu můžete získat na komunitním fóru[tady](https://forum.aspose.com/c/tasks/15).
 ### Existuje možnost dočasných licencí pro Aspose.Tasks?
  Ano, můžete získat dočasné licence od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

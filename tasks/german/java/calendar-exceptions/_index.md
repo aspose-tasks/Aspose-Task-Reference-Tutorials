@@ -3,10 +3,16 @@ title: Kalenderausnahmen
 linktitle: Kalenderausnahmen
 second_title: Aspose.Tasks Java-API
 description: Mit Aspose.Tasks können Sie Kalenderausnahmen in Java-Projekten mühelos verwalten, definieren, behandeln und abrufen. Optimieren Sie Projektabläufe für ein effizientes Projektmanagement.
-type: docs
 weight: 20
 url: /de/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalenderausnahmen
+
 
 ## Einführung
 
@@ -34,3 +40,9 @@ Erfahren Sie, wie Sie mithilfe von Aspose.Tasks Wochentage für Kalenderausnahme
 Erfahren Sie, wie Sie Kalenderausnahmen in Java-Projekten mit Aspose.Tasks für Java effektiv behandeln. Optimieren Sie jetzt Ihren Projektmanagementprozess.
 ### [Kalenderausnahmen mit Aspose.Tasks abrufen](./retrieve/)
 Erfahren Sie, wie Sie mit Aspose.Tasks für Java Kalenderausnahmen aus MS Project abrufen. Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ανάγνωση δεδομένων έργου από τη βάση δε�
 linktitle: Ανάγνωση δεδομένων έργου από τη βάση δεδομένων Microsoft Project στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαβάζετε δεδομένα έργου από τη βάση δεδομένων Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 12
 url: /el/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάγνωση δεδομένων έργου από τη βάση δεδομένων MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε τον τρόπο ανάγνωσης δεδομένων έργου από μια βάση δεδομένων έργου Microsoft χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να χειρίζονται έγγραφα του Microsoft Project χωρίς να χρειάζεται να εγκατασταθεί το Microsoft Project. Ακολουθώντας τα βήματα που περιγράφονται σε αυτόν τον οδηγό, θα μάθετε πώς να εξάγετε αποτελεσματικά δεδομένα έργου από μια βάση δεδομένων και να τα αποθηκεύετε στην επιθυμητή μορφή.
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 Α: Ναι, το Aspose.Tasks υποστηρίζει διάφορες μορφές εξόδου, όπως XML, PDF, HTML και μορφές εικόνας όπως PNG και JPEG.
 ### Ε: Πού μπορώ να βρω περαιτέρω υποστήριξη ή βοήθεια με το Aspose.Tasks;
  Α: Για πρόσθετη υποστήριξη ή βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks ή να εξερευνήσετε την τεκμηρίωση που είναι διαθέσιμη στον ιστότοπο[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

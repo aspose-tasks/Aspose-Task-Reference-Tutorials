@@ -3,10 +3,16 @@ title: Görev Temelleri
 linktitle: Görev Temelleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks Java'yı Görev Temelleri Eğitimlerimizle keşfedin. Görev zamanlamasını kolaylaştırın, MS Project görev temelleri oluşturun ve temel süre yönetimine hakim olun.
-type: docs
 weight: 32
 url: /tr/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görev Temelleri
+
 ## giriiş
 Aspose.Tasks for Java ile proje yönetimi becerilerinizi geliştirecek bir yolculuğa çıkın. Bu eğitim serisinde, görev temellerinin inceliklerini derinlemesine inceleyerek size değerli içgörüler ve pratik bilgiler sağlıyoruz. Bu kapsamlı kılavuzu oluşturan temel eğitimleri inceleyelim.
 
@@ -51,3 +57,9 @@ Aspose.Tasks for Java ile görev temellerini etkili bir şekilde nasıl planlaya
 Proje verilerini zahmetsizce yönetmek için güçlü bir kütüphane olan Aspose.Tasks'ı kullanarak Java'da bir Microsoft Project görev temelini nasıl oluşturacağınızı öğrenin.
 ### [Aspose.Tasks'ta Görev Temel Süre Yönetimi](./task-baseline-duration/)
 Aspose.Tasks for Java'yı kullanarak MS Project'te görev temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Bu eğitim, süreç boyunca size adım adım yol gösterir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

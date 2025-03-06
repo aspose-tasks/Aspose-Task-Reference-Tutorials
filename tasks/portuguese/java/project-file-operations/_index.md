@@ -3,10 +3,16 @@ title: Operações de arquivo de projeto
 linktitle: Operações de arquivo de projeto
 second_title: API Java Aspose.Tasks
 description: Otimize facilmente os layouts do MS Project com Aspose.Tasks para Java. Aprenda tutoriais passo a passo sobre como reduzir lacunas, renderizar dados, substituir calendários e muito mais.
-type: docs
 weight: 29
 url: /pt/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operações de arquivo de projeto
+
 ## Introdução
 Você está procurando aprimorar seus recursos de gerenciamento de projetos Java? Mergulhe em nossos tutoriais abrangentes sobre Aspose.Tasks for Java, com foco em várias operações de arquivo de projeto. Desde a redução de lacunas nas listas de tarefas até a personalização das visualizações do MS Project, nós ajudamos você.
 
@@ -94,3 +100,9 @@ Aprenda como criar visualizações personalizadas do MS Project sem esforço usa
 Aprenda a gerenciar propriedades de dias da semana com eficiência em Aspose.Tasks for Java. Personalize datas de início da semana, dias por mês e muito mais com facilidade.
 ### [Escreva o resumo do projeto MPP em Aspose.Tasks](./write-mpp-project-summary/)
 Aprenda como escrever resumos de projetos MPP em Java usando Aspose.Tasks. Defina e recupere informações do projeto sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

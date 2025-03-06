@@ -3,10 +3,16 @@ title: Koleksi Proyek MS Kode Garis Besar di Aspose.Tasks
 linktitle: Kumpulan Kode Garis Besar di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengumpulkan kode kerangka Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial komprehensif ini memberikan petunjuk langkah demi langkah.
-type: docs
 weight: 11
 url: /id/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Koleksi Proyek MS Kode Garis Besar di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengumpulkan kode kerangka Microsoft Project menggunakan Aspose.Tasks untuk .NET. Kami akan membagi prosesnya menjadi petunjuk langkah demi langkah untuk memastikan kejelasan dan pemahaman.
 ## Prasyarat
@@ -95,3 +101,9 @@ J: Ya, Aspose.Tasks untuk .NET mendukung berbagai versi Microsoft Project, terma
 J: Tentu saja, Aspose.Tasks untuk .NET menyediakan opsi luas untuk menyesuaikan format output sesuai kebutuhan Anda.
 ### T: Di mana saya dapat menemukan dukungan atau sumber daya tambahan untuk Aspose.Tasks untuk .NET?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bantuan atau pertanyaan apa pun mengenai Aspose.Tasks untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

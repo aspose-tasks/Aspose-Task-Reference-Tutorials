@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 통화 코드 관리
 linktitle: Aspose.Tasks에서 통화 코드 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 통화 MS 프로젝트 코드를 효율적으로 관리하는 방법을 알아보세요. 프로젝트 관리 작업을 손쉽게 간소화하세요.
-type: docs
 weight: 10
 url: /ko/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 통화 코드 관리
+
 ## 소개
 Java용 Aspose.Tasks를 사용하여 통화 MS 프로젝트 코드를 관리하는 방법에 대한 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼에서는 MS 프로젝트 파일의 통화 코드를 쉽게 처리하는 과정을 안내합니다. Aspose.Tasks는 Microsoft Project 문서를 프로그래밍 방식으로 조작할 수 있는 강력한 Java API로, 프로젝트 관리 작업을 간소화할 수 있는 다양한 기능을 제공합니다.
 ## 전제조건
@@ -53,3 +59,9 @@ A: 예, Aspose.Tasks는 사용자가 프로젝트 관리 요구에 맞게 API를
 A: 예, 무료 평가판을 통해 Aspose.Tasks를 탐색하여 프로젝트 요구 사항에 대한 기능과 적합성을 평가할 수 있습니다.
 ### Q: Aspose.Tasks의 임시 라이선스는 어디서 구할 수 있나요?
  A: Aspose.Tasks에 대한 임시 라이센스는 다음에서 얻을 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/) 제한된 기간 동안.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

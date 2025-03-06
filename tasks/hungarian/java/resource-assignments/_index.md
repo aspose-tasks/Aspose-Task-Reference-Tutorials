@@ -3,10 +3,16 @@ title: Erőforrás-hozzárendelések
 linktitle: Erőforrás-hozzárendelések
 second_title: Aspose.Tasks Java API
 description: Könnyedén elsajátíthatja az Aspose.Tasks for Java-t erőforrás-hozzárendelési oktatóanyagainkkal. Kezelje az MS Project manipulációit, a hozzárendelési költségvetéseket, a költségeket és egyebeket.
-type: docs
 weight: 30
 url: /hu/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erőforrás-hozzárendelések
+
 
 ## Bevezetés
 
@@ -101,3 +107,9 @@ Ismerje meg, hogyan kezelheti az Aspose.Tasks for Java erőforrás-hozzárendel�
 Ezzel a lépésenkénti oktatóanyaggal megtudhatja, hogyan kezelheti hatékonyan az erőforrás-hozzárendeléseket az Aspose.Tasks for Java programban.
 ### [Időfázisú adatok létrehozása az Aspose.Tasks programban](./timephased-data-generation/)
 Ismerje meg, hogyan hozhat létre időfázisú adatokat erőforrás-hozzárendelésekhez az Aspose.Tasks for Java használatával. Növelje a projektmenedzsment hatékonyságát ezzel az átfogó útmutatóval.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maak MS-projectbronnen in Aspose.Tasks
 linktitle: Maak bronnen aan in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u Microsoft Project-bronnen in Java maakt met behulp van de Aspose.Tasks-bibliotheek. Stapsgewijze handleiding voor efficiënt resourcebeheer.
-type: docs
 weight: 10
 url: /nl/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak MS-projectbronnen in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het gebruik van Aspose.Tasks voor Java om Microsoft Project-bronnen te maken! Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden efficiënt kunnen manipuleren binnen hun Java-applicaties. In deze zelfstudie begeleiden we u stap voor stap door het proces van het maken van MS Project-bronnen met Aspose.Tasks.
 ## Vereisten
@@ -45,3 +51,9 @@ Absoluut! Aspose.Tasks is ontworpen om te voldoen aan de eisen van applicaties o
 Ondersteuning en hulp vindt u op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
 ### Heb ik een tijdelijke licentie nodig om Aspose.Tasks te gebruiken?
  Hoewel u Aspose.Tasks zonder licentie kunt gebruiken, kan een tijdelijke licentie extra functies en functionaliteiten ontgrendelen. Een tijdelijke licentie kunt u verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

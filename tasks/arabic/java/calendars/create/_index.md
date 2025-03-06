@@ -3,10 +3,16 @@ title: إنشاء تقويمات مشروع MS باستخدام Aspose.Tasks
 linktitle: إنشاء التقويم باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء تقويمات MS Project باستخدام Aspose.Tasks لـ Java. تبسيط إدارة المشروع بكل سهولة.
-type: docs
 weight: 11
 url: /ar/java/calendars/create/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تقويمات مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في العصر الرقمي الحالي، تعد الإدارة الفعالة للمشاريع أمرًا حيويًا لازدهار الشركات. يظهر Aspose.Tasks for Java كأداة قوية في هذا المجال، مما يسهل المعالجة السلسة لملفات Microsoft Project برمجيًا. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء تقويم MS Project باستخدام Aspose.Tasks لـ Java. باتباع هذه الخطوات، ستتمكن من تحسين قدرات إدارة مشروعك وتبسيط سير عملك بشكل فعال.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ System.out.println("Process completed Successfully");
 ج: نعم، Aspose.Tasks for Java يسهل إدارة المهام المتكررة، مما يتيح الجدولة والتتبع بكفاءة.
 ### س: هل يوجد منتدى مجتمعي لـ Aspose.Tasks لمستخدمي Java؟
  ج: نعم، يمكنك العثور على موارد قيمة والتفاعل مع المجتمع في[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

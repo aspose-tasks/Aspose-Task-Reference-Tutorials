@@ -3,10 +3,16 @@ title: Naptári kivételek gyűjteménye az Aspose.Tasks-ban
 linktitle: Naptári kivételek gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti hatékonyan a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével, biztosítva a pontos ütemezést és az erőforrás-kezelést.
-type: docs
 weight: 13
 url: /hu/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptári kivételek gyűjteménye az Aspose.Tasks-ban
+
 ## Bevezetés
 
 projektmenedzsmentben a pontos ütemezés elengedhetetlen a sikerhez. A valós forgatókönyvek azonban gyakran megkövetelik a szokásos ütemezéstől való eltérést ünnepek, különleges események vagy egyéb tényezők miatt. Az Aspose.Tasks for .NET robusztus megoldást kínál az ilyen kivételek kezelésére a Calendar Exception Collection szolgáltatáson keresztül. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a funkció használatának folyamatán.
@@ -143,3 +149,9 @@ naptári kivételek kezelése kulcsfontosságú a projekt pontos ütemezéséhez
 ### 5. kérdés: Testreszabhatom-e a munkaidőt minden egyes napra, kivételen belül?
 
 5. válasz: Igen, egyedi munkaidőket határozhat meg az egyes napokra, kivételeken belül, hogy megfeleljen a konkrét ütemezési igényeknek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

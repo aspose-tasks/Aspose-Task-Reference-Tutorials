@@ -3,10 +3,16 @@ title: Intervalos recorrentes do MS Project sem esforço em Aspose.Tasks
 linktitle: Gerenciando intervalos recorrentes em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Descubra como gerenciar intervalos recorrentes sem esforço no MS Project usando Aspose.Tasks for .NET.
-type: docs
 weight: 12
 url: /pt/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Intervalos recorrentes do MS Project sem esforço em Aspose.Tasks
+
 ## Introdução
 Você deseja gerenciar intervalos recorrentes com eficiência em arquivos do Microsoft Project usando Aspose.Tasks for .NET? Este tutorial abrangente irá guiá-lo passo a passo pelo processo, garantindo que você possa lidar facilmente com intervalos recorrentes em seus projetos. Antes de mergulhar no tutorial, vamos examinar alguns pré-requisitos para garantir que você esteja pronto para começar.
 ## Pré-requisitos
@@ -103,3 +109,9 @@ Sim, Aspose.Tasks for .NET pode ser usado com qualquer linguagem compatível com
  Sim, você pode comprar uma licença temporária de[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar a documentação completa do Aspose.Tasks for .NET?
  A documentação completa pode ser encontrada[aqui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

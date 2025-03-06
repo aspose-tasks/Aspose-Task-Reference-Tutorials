@@ -3,10 +3,16 @@ title: Task Properties
 linktitle: Task Properties
 second_title: Aspose.Tasks Java API
 description: Enhance Java project management with Aspose.Tasks. Explore tutorials on task properties, from handling priorities to managing costs. Optimize your project today!
-type: docs
 weight: 34
 url: /java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Properties
+
 ## Introduction
 
 Effortlessly manage and customize Microsoft Project files in Java with Aspose.Tasks. Explore tutorials covering various aspects of task properties to enhance your project management capabilities.
@@ -138,3 +144,9 @@ Explore Aspose.Tasks for Java and master task timephased data management. Downlo
 Learn how to update task data to MPP format using Aspose.Tasks for Java. Follow our step-by-step guide for efficient project management.
 ### [WBS Associated with Task in Aspose.Tasks](./wbs-associated-with-task/)
 Master WBS with Aspose.Tasks for Java - Learn to read and renumber task WBS codes. Boost project management efficiency!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

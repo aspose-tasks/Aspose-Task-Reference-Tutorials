@@ -3,10 +3,16 @@ title: Mengelola Tugas di Aspose.Tasks
 linktitle: Mengelola Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi panduan komprehensif tentang mengelola tugas dengan Aspose.Tasks untuk .NET. Pelajari cara menambah, menampilkan bagian yang terpisah, memindahkan, mendapatkan/mengatur properti, dan banyak lagi.
-type: docs
 weight: 15
 url: /id/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Tugas di Aspose.Tasks
+
 ## Perkenalan
 Jika Anda seorang pengembang .NET yang ingin mengelola tugas dalam proyek Anda secara efisien, Aspose.Tasks untuk .NET memberikan solusi yang kuat. Tutorial ini akan memandu Anda melalui berbagai aspek pengelolaan tugas menggunakan Aspose.Tasks, menawarkan petunjuk langkah demi langkah dan contoh kode. Baik Anda menambahkan tugas, menampilkan bagian yang terpisah, memindahkan tugas di bawah induk yang sama, mendapatkan/mengatur properti tugas, mengulangi penetapan tugas, membaca garis dasar tugas, atau menghapus tugas, panduan ini siap membantu Anda.
 ## Prasyarat
@@ -144,3 +150,9 @@ J: Ya, Aspose.Tasks mendukung berbagai kerangka .NET, memastikan kompatibilitas 
 J: Tentu saja! Aspose.Tasks menyediakan opsi penyesuaian yang luas untuk properti tugas. Periksa dokumentasi untuk lebih jelasnya.
 ### T: Bagaimana cara mendapatkan dukungan untuk Aspose.Tasks?
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

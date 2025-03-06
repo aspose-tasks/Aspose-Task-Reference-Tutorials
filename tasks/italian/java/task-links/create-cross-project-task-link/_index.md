@@ -3,10 +3,16 @@ title: Crea un collegamento attività tra progetti in Aspose.Tasks
 linktitle: Crea un collegamento attività tra progetti in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Migliora la collaborazione sui progetti con Aspose.Tasks per Java. Impara a creare collegamenti di attività tra progetti passo dopo passo. Aumenta l'efficienza ora!
-type: docs
 weight: 10
 url: /it/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un collegamento attività tra progetti in Aspose.Tasks
+
 ## introduzione
 Nel dinamico mondo della gestione dei progetti, l’efficienza e la collaborazione sono fondamentali. Aspose.Tasks per Java fornisce una soluzione solida per migliorare le capacità di gestione dei progetti. In questo tutorial, approfondiremo il processo di creazione di collegamenti di attività tra progetti utilizzando Aspose.Tasks per Java. Questa guida passo passo ti fornirà le competenze per collegare perfettamente le attività tra diversi progetti, favorendo un migliore coordinamento e flussi di lavoro semplificati.
 ## Prerequisiti
@@ -78,3 +84,9 @@ Sì, Aspose.Tasks per Java supporta il collegamento di attività tra progetti in
 Sì, puoi scollegare le attività rimuovendo il collegamento dell'attività utilizzando i metodi Aspose.Tasks appropriati.
 ### Esistono limitazioni al numero di attività che possono essere collegate tra progetti?
 Il numero di attività che possono essere collegate è soggetto alle capacità e alle limitazioni della licenza Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

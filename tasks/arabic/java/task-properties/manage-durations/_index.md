@@ -3,10 +3,16 @@ title: إدارة مدة المهام في Aspose.Tasks
 linktitle: إدارة مدة المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks لـ Java وتعلم كيفية إدارة فترات المهام دون عناء. اتبع دليلنا خطوة بخطوة للتخطيط والتنفيذ الفعال للمشروع.
-type: docs
 weight: 20
 url: /ar/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مدة المهام في Aspose.Tasks
+
 ## مقدمة
 يوفر Aspose.Tasks for Java حلاً قويًا لإدارة مهام المشروع ومدده بكفاءة. في هذا البرنامج التعليمي، سنستكشف كيفية إدارة فترات المهام باستخدام Aspose.Tasks، وإرشادك خلال كل خطوة. سواء كنت مطورًا متمرسًا أو مبتدئًا، سيساعدك هذا الدليل على فهم أساسيات العمل مع فترات المهام في مشاريعك.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ Aspose.Tasks متوافق مع Java 6 والإصدارات الأحدث.
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) لاستكشاف Aspose.Tasks قبل إجراء عملية شراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

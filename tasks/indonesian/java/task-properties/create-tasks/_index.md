@@ -3,10 +3,16 @@ title: Buat Tugas di Aspose.Tasks
 linktitle: Buat Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Kelola proyek Java dengan mudah menggunakan Aspose.Tasks. Buat tugas, subtugas, dan lainnya. Ikuti panduan langkah demi langkah kami untuk manajemen proyek yang lancar.
-type: docs
 weight: 13
 url: /id/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tugas di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Tugas untuk Java! Jika Anda ingin mengelola tugas dan proyek secara efisien di aplikasi Java, Anda berada di tempat yang tepat. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses pembuatan tugas menggunakan Aspose.Tasks untuk Java, menguraikan setiap langkah untuk memastikan pengalaman yang lancar.
 ## Prasyarat
@@ -54,3 +60,9 @@ Sangat! Aspose.Tasks serbaguna dan dapat digunakan untuk proyek dalam skala apa 
 Ya, Anda dapat menyesuaikan atribut tugas secara ekstensif agar sesuai dengan kebutuhan proyek Anda.
 ### Apakah ada komunitas dukungan untuk pengguna Aspose.Tasks?
  Sangat! Bergabunglah dengan komunitas Aspose.Tasks di[forum dukungan](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

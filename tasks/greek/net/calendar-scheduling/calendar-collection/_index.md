@@ -3,10 +3,16 @@ title: Διαχείριση της συλλογής ημερολογίου στ�
 linktitle: Διαχείριση της συλλογής ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις συλλογές ημερολογίων στο Aspose.Tasks για .NET. Δημιουργήστε, τροποποιήστε και χειριστείτε ημερολόγια με ευκολία.
-type: docs
 weight: 11
 url: /el/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση της συλλογής ημερολογίου στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο διαχείρισης συλλογών ημερολογίου στο Aspose.Tasks για .NET. Τα ημερολόγια διαδραματίζουν κρίσιμο ρόλο στη διαχείριση έργων, καθορίζοντας εργάσιμες ημέρες, αργίες και εξαιρέσεις. Το Aspose.Tasks παρέχει ισχυρή λειτουργικότητα για τον χειρισμό ημερολογίων στα έργα σας.
@@ -160,3 +166,9 @@ A4: Ναι, το Aspose.Tasks επιτρέπει την εξαγωγή ημερ�
 ### Ε5: Μπορώ να προσαρμόσω τις ώρες εργασίας για συγκεκριμένες ημέρες σε ένα ημερολόγιο;
 
 A5: Σίγουρα, μπορείτε να ορίσετε τις ώρες εργασίας για μεμονωμένες ημέρες χρησιμοποιώντας εξαιρέσεις στο ημερολόγιο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

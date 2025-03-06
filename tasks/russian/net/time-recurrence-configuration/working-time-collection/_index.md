@@ -3,10 +3,16 @@ title: Управление рабочим временем в Aspose.Tasks
 linktitle: Сбор рабочего времени в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите возможности Aspose.Tasks for .NET для эффективного управления сроками проекта. Настраивайте календари, устанавливайте рабочее время и с легкостью оптимизируйте свои проекты.
-type: docs
 weight: 14
 url: /ru/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление рабочим временем в Aspose.Tasks
+
 ## Введение
 Вы хотите овладеть искусством управления рабочим временем в Aspose.Tasks для .NET? Не смотрите дальше! В этом пошаговом руководстве мы углубимся в тонкости сбора рабочего времени с помощью Aspose.Tasks, что позволит вам эффективно управлять пользовательскими календарями и оптимизировать сроки вашего проекта.
 ## Предварительные условия
@@ -114,3 +120,9 @@ foreach (var day in calendar.WeekDays)
  Да, вы можете изучить Aspose.Tasks с помощью бесплатной пробной версии, посетив[эта ссылка](https://releases.aspose.com/).
 ### Где я могу получить поддержку для Aspose.Tasks?
  По любым вопросам или помощи посетите[Форум поддержки Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

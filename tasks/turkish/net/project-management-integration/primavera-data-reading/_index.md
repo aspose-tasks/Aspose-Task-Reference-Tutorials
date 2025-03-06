@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Primavera Verilerini Okumak
 linktitle: Aspose.Tasks ile Primavera Verilerini Okumak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project Primavera verilerini nasıl okuyacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/net/project-management-integration/primavera-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Primavera Verilerini Okumak
+
 ## giriiş
 Aspose.Tasks for .NET ile MS Project Primavera Verilerini okumaya ilişkin kapsamlı kılavuzumuza hoş geldiniz! Bu eğitimde, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir .NET API olan Aspose.Tasks'ı kullanarak MS Project Primavera verilerine erişme ve bunları değiştirme sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -67,3 +73,9 @@ C: Kesinlikle! Aspose.Tasks, .NET uygulamalarınız içerisinde MS Project Prima
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmek için.
 ### S: Aspose.Tasks için nereden destek alabilirim?
  C: Aspose.Tasks ile ilgili sorularınız veya yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan veya Aspose destek personelinden yardım alabileceğiniz yer.## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

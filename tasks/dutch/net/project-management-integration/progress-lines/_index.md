@@ -3,10 +3,16 @@ title: MS-projectvoortgangslijnen afhandelen met Aspose.Tasks
 linktitle: Voortgangslijnen verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u voortgangslijnen in MS Project-bestanden kunt manipuleren met Aspose.Tasks voor .NET, waardoor de visualisatie en het beheer van projecten worden verbeterd.
-type: docs
 weight: 15
 url: /nl/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS-projectvoortgangslijnen afhandelen met Aspose.Tasks
+
 ## Invoering
 Microsoft Project (MS Project) is een krachtig hulpmiddel voor projectbeheer, waarmee gebruikers verschillende aspecten van hun projecten kunnen volgen. Een cruciaal kenmerk van MS Project is de mogelijkheid om voortgangslijnen te visualiseren, waardoor belanghebbenden de status en het traject van het project kunnen begrijpen. In deze zelfstudie onderzoeken we hoe u voortgangsregels in MS Project kunt verwerken met behulp van de Aspose.Tasks-bibliotheek voor .NET.
 ## Vereisten
@@ -96,3 +102,9 @@ A: Absoluut, Aspose.Tasks is ontworpen om naadloos te integreren met andere .NET
  A: Ja, u kunt nuttige bronnen vinden en hulp zoeken op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Biedt Aspose.Tasks tijdelijke licenties voor evaluatiedoeleinden?
  A: Ja, u kunt een tijdelijke licentie voor evaluatie verkrijgen van[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

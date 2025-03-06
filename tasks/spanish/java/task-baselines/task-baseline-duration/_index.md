@@ -3,10 +3,16 @@ title: Gestión de la duración de la línea base de tareas en Aspose.Tasks
 linktitle: Gestión de la duración de la línea base de tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a administrar de manera eficiente las líneas base de tareas en MS Project usando Aspose.Tasks para Java. Este tutorial lo guía paso a paso a través del proceso.
-type: docs
 weight: 12
 url: /es/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de la duración de la línea base de tareas en Aspose.Tasks
+
 ## Introducción
 La gestión de líneas base de tareas en MS Project es crucial para la planificación y el seguimiento de proyectos. En este tutorial, exploraremos cómo administrar eficazmente la duración de la línea base de las tareas usando Aspose.Tasks para Java.
 ## Requisitos previos
@@ -76,3 +82,9 @@ Sí, puede modificar las líneas base de tareas en MS Project para reflejar los 
 Sí, Aspose.Tasks ofrece una amplia gama de funciones para la gestión de proyectos, incluida la programación de tareas, la asignación de recursos y la generación de diagramas de Gantt.
 ### ¿Dónde puedo encontrar soporte para Aspose.Tasks?
  Puede encontrar soporte para Aspose.Tasks en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15), donde podrás hacer preguntas e interactuar con otros usuarios.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

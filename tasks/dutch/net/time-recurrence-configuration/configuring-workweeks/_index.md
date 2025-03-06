@@ -3,10 +3,16 @@ title: Beheersing van de werkweekconfiguratie in Aspose.Tasks
 linktitle: Werkweken configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u moeiteloos werkweken kunt configureren in Aspose.Tasks voor .NET. Verbeter projectplanning en resourcebeheer met onze stapsgewijze handleiding.
-type: docs
 weight: 16
 url: /nl/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van de werkweekconfiguratie in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het configureren van werkweken in Aspose.Tasks voor .NET. Het efficiënt beheren van werkweken is cruciaal voor projectplanning en planning. Aspose.Tasks vereenvoudigt dit proces, waardoor u werkweken kunt aanpassen aan de behoeften van uw project. In deze zelfstudie leiden we u door de stappen om werkweken naadloos te configureren.
 ## Vereisten
@@ -90,3 +96,9 @@ Hoewel Aspose.Tasks robuuste import-/exportmogelijkheden biedt, zijn werkweken m
 Vanaf de huidige versie is er geen vooraf gedefinieerde limiet op het aantal werkweken dat u in een project kunt configureren.
 ### Zijn er ingebouwde sjablonen voor gewone werkweken?
 Ja, Aspose.Tasks bevat een standaard kalendersjabloon dat u als uitgangspunt voor uw project kunt gebruiken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

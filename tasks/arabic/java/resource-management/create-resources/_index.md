@@ -3,10 +3,16 @@ title: قم بإنشاء موارد مشروع MS في Aspose.Tasks
 linktitle: إنشاء الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء موارد Microsoft Project في Java باستخدام مكتبة Aspose.Tasks. دليل خطوة بخطوة لإدارة الموارد بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء موارد مشروع MS في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول استخدام Aspose.Tasks لـ Java لإنشاء موارد Microsoft Project! Aspose.Tasks هي مكتبة Java قوية تمكن المطورين من التعامل بكفاءة مع ملفات Microsoft Project داخل تطبيقات Java الخاصة بهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء موارد MS Project باستخدام Aspose.Tasks خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -45,3 +51,9 @@ Resource resource = project.getResources().add("ResourceName");
 يمكنك العثور على الدعم والمساعدة في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks؟
  بينما يمكنك استخدام Aspose.Tasks بدون ترخيص، يمكن للترخيص المؤقت أن يفتح ميزات ووظائف إضافية. يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS Project attribútumok beállítása új feladatokhoz az Aspose.Tasks p
 linktitle: Állítsa be az attribútumokat az új feladatokhoz az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan állíthat be MS Project attribútumokat új feladatokhoz az Aspose.Tasks for Java használatával. Ezzel az átfogó útmutatóval könnyedén testreszabhatja a feladat tulajdonságait.
-type: docs
 weight: 21
 url: /hu/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project attribútumok beállítása új feladatokhoz az Aspose.Tasks programban
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban az MS Project attribútumainak beállításáról az Aspose.Tasks for Java új feladataihoz! Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy könnyedén kezelhesse és testreszabhassa feladatait ezzel a hatékony Java-könyvtárral.
 ## Előfeltételek
@@ -68,3 +74,9 @@ V: Igen, az Aspose.Tasks for Java kiterjedt funkcionalitást biztosít a meglév
  V: Az Aspose.Tasks for Java ideiglenes licencei a következő webhelyen szerezhetők be[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz kapcsolódó problémákhoz vagy kérdésekhez?
  V: Támogatást kaphat, és kapcsolatba léphet a közösséggel a webhelyen[Aspose.Tasks for Java támogatási fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استثناءات التقويم
 linktitle: استثناءات التقويم
 second_title: Aspose.Tasks جافا API
 description: قم بإدارة استثناءات التقويم وتعريفها والتعامل معها واستردادها بسهولة في مشاريع Java باستخدام Aspose.Tasks. تبسيط سير عمل المشروع لإدارة المشروع بكفاءة.
-type: docs
 weight: 20
 url: /ar/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استثناءات التقويم
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/java/calendar-exceptions/
 تعرف على كيفية التعامل مع استثناءات التقويم بشكل فعال في مشاريع Java باستخدام Aspose.Tasks for Java. قم بتبسيط عملية إدارة مشروعك الآن.
 ### [استرداد استثناءات التقويم باستخدام Aspose.Tasks](./retrieve/)
 تعرف على كيفية استرداد استثناءات التقويم من MS Project باستخدام Aspose.Tasks لـ Java. البرنامج التعليمي خطوة بخطوة للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

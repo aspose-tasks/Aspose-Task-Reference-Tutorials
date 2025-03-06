@@ -3,10 +3,16 @@ title: Taken splitsen in Aspose.Tasks
 linktitle: Taken splitsen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Beheers taakbeheer in Java met Aspose.Tasks! Leer hoe u taken efficiënt kunt splitsen voor geoptimaliseerde projecttijdlijnen. Download nu!
-type: docs
 weight: 29
 url: /nl/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taken splitsen in Aspose.Tasks
+
 ## Invoering
 Worstelt u met taakbeheer in uw Java-project? Aspose.Tasks voor Java biedt een krachtige oplossing voor het efficiënt splitsen van taken, waardoor de mogelijkheden voor projectbeheer worden verbeterd. In deze zelfstudie begeleiden we u door het proces van het splitsen van taken met Aspose.Tasks voor Java, zodat u uw projecttijdlijnen en resourcetoewijzingen kunt optimaliseren.
 ## Vereisten
@@ -88,3 +94,9 @@ Aspose.Tasks voor Java biedt een gratis proefperiode, zodat u de functies ervan 
  Bezoek de[Aspose.Tasks voor Java-ondersteuningsforum](https://forum.aspose.com/c/tasks/15) om hulp te krijgen en verbinding te maken met de gemeenschap.
 ### Heb ik een tijdelijke licentie nodig voor Aspose.Tasks voor Java?
  Een tijdelijke licentie kunt u verkrijgen bij[deze link](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

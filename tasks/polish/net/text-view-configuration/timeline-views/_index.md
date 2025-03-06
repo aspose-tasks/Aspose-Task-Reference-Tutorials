@@ -3,10 +3,16 @@ title: Opanowanie widoków osi czasu projektu w Aspose.Tasks
 linktitle: Dostosowywanie widoków osi czasu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Opanuj Aspose.Tasks dla .NET w dostosowywaniu widoków osi czasu. Usprawnij zarządzanie projektami dzięki atrakcyjnym wizualnie harmonogramom dostosowanym do potrzeb Twojego projektu.
-type: docs
 weight: 13
 url: /pl/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie widoków osi czasu projektu w Aspose.Tasks
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie i bogatych w informacje widoków osi czasu ma kluczowe znaczenie dla skutecznego zarządzania projektami. Aspose.Tasks dla .NET zapewnia solidne rozwiązanie do dostosowywania widoków osi czasu, umożliwiając dostosowanie wyświetlania zadań do konkretnych potrzeb projektu. W tym przewodniku krok po kroku odkryjemy, jak używać Aspose.Tasks do łatwego tworzenia i dostosowywania widoków osi czasu.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ Absolutnie! Aspose.Tasks zapewnia elastyczność dostosowywania wyglądu każdeg
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak uzyskać tymczasową licencję na Aspose.Tasks?
  Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

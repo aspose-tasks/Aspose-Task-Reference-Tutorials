@@ -3,10 +3,16 @@ title: Aspose.Tasks में दैनिक कार्य दोहराव
 linktitle: Aspose.Tasks में दैनिक कार्य दोहराव
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों में दैनिक आवर्ती कार्य बनाना सीखें। सहजता से उत्पादकता और संगठन को बढ़ावा दें।
-type: docs
 weight: 26
 url: /hi/net/calendar-scheduling/daily-work-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में दैनिक कार्य दोहराव
+
 ## परिचय
 
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों में आसानी से हेरफेर करने में सक्षम बनाती है। इसकी असंख्य विशेषताओं में आवर्ती कार्यों को कुशलतापूर्वक संभालने की क्षमता है। इस ट्यूटोरियल में, हम दैनिक कार्य दोहराव कार्यक्षमता के बारे में विस्तार से जानेंगे, जो एक प्रोजेक्ट के भीतर प्रतिदिन दोहराए जाने वाले कार्यों के निर्माण की अनुमति देता है।
@@ -98,3 +104,9 @@ A4: बिल्कुल, Aspose.Tasks पीडीएफ, HTML, XML और अ
 ### Q5: क्या Aspose.Tasks तकनीकी सहायता प्रदान करता है?
 
 A5: हाँ, Aspose.Tasks अपने फ़ोरम के माध्यम से व्यापक तकनीकी सहायता प्रदान करता है, जहाँ आप सहायता प्राप्त कर सकते हैं, अनुभव साझा कर सकते हैं और साथी उपयोगकर्ताओं के साथ जुड़ सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

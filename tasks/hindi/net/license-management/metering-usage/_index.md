@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks के साथ मीटरिंग
 linktitle: Aspose.Tasks में मीटरिंग का उपयोग
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ अपने MS प्रोजेक्ट उपयोग की प्रभावी ढंग से निगरानी और अनुकूलन करना सीखें। कुशल परियोजना प्रबंधन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 17
 url: /hi/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks के साथ मीटरिंग MS प्रोजेक्ट उपयोग
+
 ## परिचय
 क्या आप Aspose.Tasks के साथ अपने MS प्रोजेक्ट उपयोग को प्रभावी ढंग से प्रबंधित और मॉनिटर करना चाहते हैं? मीटरिंग की शक्ति से, आप अपने उपयोग पर नज़र रख सकते हैं और अपने परियोजना प्रबंधन प्रयासों को अनुकूलित कर सकते हैं। इस ट्यूटोरियल में, हम आपको .NET के लिए Aspose.Tasks का उपयोग करके चरण दर चरण MS प्रोजेक्ट उपयोग को मापने की प्रक्रिया के बारे में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -77,3 +83,9 @@ metered.ResetMeteredKey();
 उत्तर: हां, आप समय-समय पर खर्च किए गए क्रेडिट और उपभोग किए गए बाइट्स की जांच करके वास्तविक समय में उपयोग को ट्रैक कर सकते हैं।
 ### प्रश्न: क्या मीटरिंग एमएस प्रोजेक्ट का उपयोग परीक्षण संस्करण में उपलब्ध है?
 उत्तर: हां, मीटरिंग एमएस प्रोजेक्ट का उपयोग .NET के लिए Aspose.Tasks के परीक्षण और लाइसेंस प्राप्त दोनों संस्करणों में उपलब्ध है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beherrschen von WBS-Sequenzen mit Aspose.Tasks für .NET
 linktitle: Definieren von PSP-Sequenzen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Stärken Sie Ihr Projektmanagement mit Aspose.Tasks für .NET – definieren Sie WBS-Sequenzen nahtlos und steigern Sie mühelos die Effizienz. #Aufgaben #Aufgaben #MS-Projekt
-type: docs
 weight: 16
 url: /de/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von WBS-Sequenzen mit Aspose.Tasks für .NET
+
 ## Einführung
 Arbeiten Sie an einer Projektmanagementanwendung und benötigen ein robustes Tool zur Verwaltung von Projektstrukturplänen (WBS)? Suchen Sie nicht weiter als nach Aspose.Tasks für .NET, einer leistungsstarken Bibliothek, die Projektmanagementaufgaben vereinfacht. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess der Definition von WBS-Sequenzen.
 ## Voraussetzungen
@@ -74,3 +80,9 @@ Absolut! Aspose.Tasks bietet Flexibilität bei der Definition von WBS-Codes ents
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) um mit der Community in Kontakt zu treten und Hilfe zu suchen.
 ### Sind temporäre Lizenzen verfügbar?
  Ja, Sie können eine erhalten[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

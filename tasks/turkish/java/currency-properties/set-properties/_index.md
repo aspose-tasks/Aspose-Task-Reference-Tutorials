@@ -3,10 +3,16 @@ title: Aspose.Tasks Projelerinde Para Birimi Özelliklerini Ayarlama
 linktitle: Aspose.Tasks Projelerinde Para Birimi Özelliklerini Ayarlama
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks projelerinde Java kullanarak para birimi özelliklerini nasıl ayarlayacağınızı öğrenin. Microsoft Project dosyalarını zahmetsizce yönetin.
-type: docs
 weight: 11
 url: /tr/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projelerinde Para Birimi Özelliklerini Ayarlama
+
 ## giriiş
 Bu eğitimde Aspose.Tasks projelerinde Java kullanarak para birimi özelliklerinin nasıl ayarlanacağını inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir Java kitaplığıdır.
 ## Önkoşullar
@@ -64,3 +70,9 @@ Kesinlikle Aspose.Tasks, belirli proje gereksinimlerini karşılamak için özel
 Evet, Aspose.Tasks diğer Java kütüphaneleri ve çerçeveleriyle sorunsuz bir şekilde entegre edilebilir, böylece işlevselliği ve çok yönlülüğü arttırılabilir.
 ### Aspose.Tasks için nereden ek destek veya yardım bulabilirim?
  Ek destek için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15), yararlı kaynaklar bulabileceğiniz ve toplulukla etkileşim kurabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Utwórz zasoby MS Project w Aspose.Tasks
 linktitle: Twórz zasoby w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak tworzyć zasoby Microsoft Project w Javie przy użyciu biblioteki Aspose.Tasks. Przewodnik krok po kroku dotyczący efektywnego zarządzania zasobami.
-type: docs
 weight: 10
 url: /pl/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz zasoby MS Project w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat wykorzystania Aspose.Tasks dla Java do tworzenia zasobów Microsoft Project! Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom efektywne manipulowanie plikami Microsoft Project w ich aplikacjach Java. W tym samouczku przeprowadzimy Cię krok po kroku przez proces tworzenia zasobów MS Project przy użyciu Aspose.Tasks.
 ## Warunki wstępne
@@ -45,3 +51,9 @@ Absolutnie! Aspose.Tasks został zaprojektowany, aby sprostać wymaganiom aplika
 Możesz znaleźć wsparcie i pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Czy potrzebuję tymczasowej licencji, aby korzystać z Aspose.Tasks?
  Chociaż możesz używać Aspose.Tasks bez licencji, licencja tymczasowa może odblokować dodatkowe funkcje i funkcjonalności. Licencję tymczasową można uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

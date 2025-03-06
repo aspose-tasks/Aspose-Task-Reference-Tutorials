@@ -3,10 +3,16 @@ title: Aspose.Tasks Fitur Lanjutan
 linktitle: Aspose.Tasks Fitur Lanjutan
 second_title: Aspose.Tugas .NET API
 description: Temukan fitur lanjutan di Aspose.Tasks untuk .NET dengan tutorial kami. Dari operasi AND hingga penanganan pengecualian memori, tingkatkan keterampilan manajemen proyek Anda.
-type: docs
 weight: 21
 url: /id/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Fitur Lanjutan
+
 
 ## Perkenalan
 
@@ -93,3 +99,9 @@ Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola tugas berulang secara 
 Pelajari cara mengelola mode perhitungan secara efektif di Aspose.Tasks untuk .NET untuk menyederhanakan penjadwalan proyek dan dependensi tugas.
 ### [Ketik Perhitungan di Aspose.Tasks](./calculation-type/)
 Pelajari cara mengkustomisasi perhitungan nilai dalam proyek .NET dengan Jenis Perhitungan di perpustakaan Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spara alternativ för Aspose.Tasks
 linktitle: Spara alternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Spara, konvertera och hantera MS Project-filer med Aspose.Tasks för .NET. Utforska steg-för-steg handledningar för HTML, bilder, PDF-filer, Primavera, mallar och mer.
-type: docs
 weight: 20
 url: /sv/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara alternativ för Aspose.Tasks
+
 
 ## Introduktion
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 Spara MS Project Options med Aspose.Tasks för .NET. Sö
 Lär dig hur du använder Aspose.Tasks för .NET för att generera SVG-representationer av Microsoft Project-filer utan ansträngning för förbättrad projektvisualisering.
 ### [Konvertera MSP till XPS-alternativ med Aspose.Tasks](./xps-options/)
 Lär dig hur du konverterar Microsoft Project-filer till XPS-format med Aspose.Tasks för .NET. Enkel integration, robust funktionalitet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

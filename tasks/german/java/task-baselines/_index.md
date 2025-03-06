@@ -3,10 +3,16 @@ title: Aufgabenbasislinien
 linktitle: Aufgabenbasislinien
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie Aspose.Tasks Java mit unseren Task Baselines-Tutorials. Optimieren Sie die Aufgabenplanung, erstellen Sie MS Project-Aufgabenbasispläne und verwalten Sie die Dauer der Basispläne.
-type: docs
 weight: 32
 url: /de/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufgabenbasislinien
+
 ## Einführung
 Begeben Sie sich auf eine Reise zur Verbesserung Ihrer Projektmanagementfähigkeiten mit Aspose.Tasks für Java. In dieser Reihe von Tutorials tauchen wir tief in die Feinheiten von Aufgabenbasislinien ein und vermitteln Ihnen wertvolle Einblicke und praktisches Wissen. Sehen wir uns die wichtigsten Tutorials an, aus denen dieser umfassende Leitfaden besteht.
 
@@ -51,3 +57,9 @@ Erfahren Sie, wie Sie mit Aspose.Tasks für Java Aufgaben-Baselines effektiv pla
 Erfahren Sie, wie Sie mit Aspose.Tasks, einer leistungsstarken Bibliothek zur mühelosen Verwaltung von Projektdaten, eine Microsoft Project-Aufgabenbasislinie in Java erstellen.
 ### [Verwaltung der Aufgabenbasisdauer in Aspose.Tasks](./task-baseline-duration/)
 Erfahren Sie, wie Sie Aufgabenbasispläne in MS Project mit Aspose.Tasks für Java effizient verwalten. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

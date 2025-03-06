@@ -3,10 +3,16 @@ title: Quản lý thông tin xác thực máy chủ MS Project trong Aspose.Task
 linktitle: Quản lý thông tin xác thực máy chủ dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý thông tin đăng nhập MS Project Server một cách liền mạch với Aspose.Tasks cho .NET. Nâng cao hiệu quả quản lý dự án.
-type: docs
 weight: 22
 url: /vi/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thông tin xác thực máy chủ MS Project trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, sự phối hợp hiệu quả và giao tiếp liền mạch là yếu tố then chốt để thực hiện dự án thành công. Aspose.Tasks for .NET cung cấp giải pháp toàn diện để quản lý thông tin đăng nhập Microsoft Project Server, cho phép người dùng truy cập và thao tác dữ liệu dự án một cách an toàn. Hướng dẫn này đi sâu vào quy trình quản lý thông tin đăng nhập MS Project Server bằng Aspose.Tasks cho .NET, hướng dẫn người dùng qua từng bước để đảm bảo trải nghiệm suôn sẻ.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks for .NET cung cấp hỗ trợ 
 Trả lời: Có, Aspose.Tasks cho .NET cung cấp các tùy chọn cấp phép linh hoạt, bao gồm giấy phép tạm thời cho mục đích dùng thử và giấy phép đầy đủ cho mục đích sử dụng thương mại.
 ### Câu hỏi: Tôi có thể tìm kiếm sự trợ giúp hoặc hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Trả lời: Nếu có bất kỳ thắc mắc hoặc trợ giúp nào về Aspose.Tasks cho .NET, bạn có thể truy cập diễn đàn hỗ trợ tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Mã nguồn hoàn chỉnh
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

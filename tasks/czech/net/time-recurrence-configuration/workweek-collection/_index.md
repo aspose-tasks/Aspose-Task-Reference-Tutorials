@@ -3,10 +3,16 @@ title: Přizpůsobte si pracovní týdny v Aspose.Tasks
 linktitle: Kolekce pracovních týdnů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak přizpůsobit pracovní týdny v Aspose.Tasks pro .NET. Podrobný průvodce vytvářením personalizovaných projektových kalendářů. Stáhnout teď!
-type: docs
 weight: 17
 url: /cs/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte si pracovní týdny v Aspose.Tasks
+
 ## Úvod
 Vítejte v našem tutoriálu o vytvoření vlastního pracovního týdne pomocí Aspose.Tasks pro .NET! V tomto podrobném průvodci vás provedeme procesem definování personalizovaného pracovního týdne pro kalendář ve vašem projektu. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům efektivně pracovat s dokumenty Microsoft Project v jejich aplikacích .NET.
 ## Předpoklady
@@ -82,3 +88,9 @@ Ano, Aspose.Tasks podporuje .NET Core.
 Rozhodně vám Aspose.Tasks umožňuje uložit váš projekt v různých formátech, včetně Microsoft Project.
 ### Kde mohu hledat podporu pro dotazy související s Aspose.Tasks?
  Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakoukoli podporu nebo pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

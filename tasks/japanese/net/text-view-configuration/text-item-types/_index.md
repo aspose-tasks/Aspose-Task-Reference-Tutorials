@@ -3,10 +3,16 @@ title: Aspose.Tasks のテキスト項目タイプのカスタマイズ ガイ�
 linktitle: Aspose.Tasks でのテキスト項目タイプの処理
 second_title: Aspose.Tasks .NET API
 description: このステップバイステップ ガイドを使用して、Aspose.Tasks for .NET でのテキスト項目タイプのカスタマイズをマスターしてください。プロジェクト管理ゲームを簡単に向上させます。
-type: docs
 weight: 10
 url: /ja/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のテキスト項目タイプのカスタマイズ ガイド
+
 ## 導入
 Aspose.Tasks を使用したプロジェクト管理に取り組んでいる .NET 開発者なら、ここが正しい場所です。このステップバイステップ ガイドでは、強力な .NET ライブラリを使用したカスタマイズに焦点を当て、Aspose.Tasks でのテキスト項目タイプの処理の複雑さを説明します。
 ## 前提条件
@@ -74,3 +80,9 @@ A: Aspose.Tasks にアクセスしてください。[フォーラム](https://fo
 A: Aspose.Tasks ドキュメントでその他のチュートリアルを参照してください。
 ### Q: Aspose.Tasks for .NET はどこで購入できますか?
  A: ライブラリを購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

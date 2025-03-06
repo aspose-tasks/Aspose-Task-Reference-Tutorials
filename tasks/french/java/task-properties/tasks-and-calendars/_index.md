@@ -3,10 +3,16 @@ title: Tâches et calendriers dans Aspose.Tasks
 linktitle: Tâches et calendriers dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez la puissance d'Aspose.Tasks pour Java pour gérer efficacement les tâches et les calendriers. Téléchargez-le maintenant pour une expérience de gestion de projet fluide !
-type: docs
 weight: 33
 url: /fr/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tâches et calendriers dans Aspose.Tasks
+
 ## Introduction
 Êtes-vous prêt à améliorer votre jeu de gestion de projet avec Aspose.Tasks pour Java ? Ce guide complet vous guidera à travers le monde complexe des tâches et des calendriers utilisant Aspose.Tasks, vous permettant d'exploiter tout son potentiel pour une planification et une exécution efficaces des projets.
 ## Conditions préalables
@@ -55,3 +61,9 @@ Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/)
  Rejoignez la communauté sur[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien.
 ### Puis-je acheter une licence pour Aspose.Tasks ?
  Oui, vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

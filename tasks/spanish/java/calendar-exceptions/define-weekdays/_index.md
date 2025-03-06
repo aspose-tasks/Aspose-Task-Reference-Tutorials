@@ -3,10 +3,16 @@ title: Defina los días laborables para las excepciones del calendario con Aspos
 linktitle: Defina los días laborables para las excepciones del calendario con Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a definir los días de la semana para excepciones de calendario en proyectos Java utilizando Aspose.Tasks para una programación precisa de proyectos.
-type: docs
 weight: 11
 url: /es/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Defina los días laborables para las excepciones del calendario con Aspose.Tasks
+
 ### Introducción
 En la gestión de proyectos, definir excepciones para los calendarios es crucial para representar con precisión los días laborables o festivos no estándar dentro del cronograma de un proyecto. Aspose.Tasks para Java proporciona funcionalidades sólidas para administrar calendarios de manera eficiente, incluida la definición de excepciones como días festivos o días laborables especiales. En este tutorial, profundizaremos en cómo definir los días de la semana para excepciones de calendario usando Aspose.Tasks para Java.
 ### Requisitos previos
@@ -68,3 +74,10 @@ R: Por supuesto, Aspose.Tasks para Java brinda flexibilidad para definir excepci
 R: Puede manejar excepciones mediante programación según los requisitos dinámicos del proyecto utilizando la API extensa proporcionada por Aspose.Tasks para Java.
 ### P: ¿Existe una versión de prueba disponible de Aspose.Tasks para Java?
  R: Sí, puede aprovechar una versión de prueba gratuita de Aspose.Tasks para Java desde[sitio web](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

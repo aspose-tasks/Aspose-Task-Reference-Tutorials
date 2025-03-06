@@ -3,10 +3,16 @@ title: Efektivně spravujte vlastnosti MS Project v Aspose.Tasks
 linktitle: Spravujte výchozí vlastnosti projektu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak spravovat výchozí vlastnosti MS Project pomocí Aspose.Tasks for Java. Zjednodušte svůj pracovní postup řízení projektů bez námahy.
-type: docs
 weight: 11
 url: /cs/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efektivně spravujte vlastnosti MS Project v Aspose.Tasks
+
 ## Úvod
 Chcete zefektivnit proces řízení projektů pomocí Aspose.Tasks for Java? Správa výchozích vlastností v souborech aplikace Microsoft Project může výrazně zvýšit efektivitu. V tomto tutoriálu si krok za krokem projdeme pokyny, jak spravovat výchozí vlastnosti MS Project pomocí Aspose.Tasks.
 ## Předpoklady
@@ -79,3 +85,9 @@ A3: Ano, pomoc a podporu komunity najdete na[Fórum Aspose.Tasks](https://forum.
  A4: Samozřejmě! Můžete využít bezplatnou zkušební verzi z[webová stránka](https://releases.aspose.com/).
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
  A5: Můžete získat dočasnou licenci z[nákupní stránku](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

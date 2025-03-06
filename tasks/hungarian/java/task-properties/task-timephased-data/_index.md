@@ -3,10 +3,16 @@ title: Feladat időfázisú adatok az Aspose.Tasks-ban
 linktitle: Feladat időfázisú adatok az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java-t és a főfeladat időfázisú adatkezelését. Töltse le a könyvtárat, élvezze az ingyenes próbaverziót, és egyszerűsítse projektje nyomon követését.
-type: docs
 weight: 34
 url: /hu/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat időfázisú adatok az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsment területén a feladatok időfázisos adatainak pontos nyomon követése elengedhetetlen a hatékony projektvégrehajtáshoz. Az Aspose.Tasks for Java hatékony eszköz a folyamat egyszerűsítésére, robusztus szolgáltatásokat és rugalmasságot kínálva. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks for Java használatán a feladatok időfázisos adatainak hatékony kezeléséhez.
 ## Előfeltételek
@@ -104,3 +110,9 @@ V: Igen, az Aspose.Tasks for Java minden Java-alapú projekttel kompatibilis.
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatom meg az Aspose.Tasks for Java-t?
  V: Megvásárolhatja az Aspose.Tasks-t Java-hoz[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

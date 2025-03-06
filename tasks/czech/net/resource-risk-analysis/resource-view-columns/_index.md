@@ -3,10 +3,16 @@ title: Přizpůsobte si sloupce zobrazení zdrojů MS Project v Aspose.Tasks
 linktitle: Přizpůsobení sloupců zobrazení zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně přizpůsobit sloupce zobrazení zdrojů MS Project pomocí Aspose.Tasks for .NET. Vytvářejte přizpůsobené pohledy pro lepší řízení projektů.
-type: docs
 weight: 17
 url: /cs/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte si sloupce zobrazení zdrojů MS Project v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft Project programově. Jedním z běžných úkolů při řízení projektů je přizpůsobení zobrazení tak, aby zobrazovaly konkrétní informace. V tomto tutoriálu prozkoumáme, jak přizpůsobit sloupce zobrazení prostředků MS Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -94,3 +100,9 @@ Aspose.Tasks rozhodně poskytuje rozsáhlé možnosti formátování pro vylepš
 Ano, můžete aktualizovat a znovu vytvořit vlastní pohled, kdykoli se změní podkladová data projektu.
 ### Podporuje Aspose.Tasks vývoj napříč platformami?
 Aspose.Tasks for .NET primárně cílí na platformy .NET, ale jsou k dispozici i verze pro Javu a další platformy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

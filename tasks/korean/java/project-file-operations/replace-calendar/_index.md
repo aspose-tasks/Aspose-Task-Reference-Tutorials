@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 캘린더 교체
 linktitle: Aspose.Tasks에서 달력 교체
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 Microsoft Project 달력을 바꾸는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 캘린더 교체
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 Microsoft Project 달력을 바꾸는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 Java 라이브러리입니다. 프로젝트 관리의 일반적인 작업 중 하나는 달력을 사용자 정의하는 것이며 Aspose.Tasks는 이 프로세스를 크게 단순화합니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A: 물론 Aspose.Tasks는 개발자가 광범위한 프로젝트 관리 작업�
  A: 예, 다음에서 Aspose.Tasks for Java의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 관한 지원이나 도움을 어디서 구할 수 있나요?
  A: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 지역사회의 지원과 지도를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

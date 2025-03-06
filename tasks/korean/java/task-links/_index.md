@@ -3,10 +3,16 @@ title: 작업 링크
 linktitle: 작업 링크
 second_title: Aspose.Tasks 자바 API
 description: 튜토리얼을 통해 Java용 Aspose.Tasks를 살펴보세요. 협업을 강화하고, 링크 유형을 정의하고, 작업을 원활하게 관리하세요. 지금 프로젝트 효율성을 높이세요!
-type: docs
 weight: 33
 url: /ko/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 링크
+
 ## 소개
 
 Java 프로젝트 관리의 세계를 탐구하고 있다면 Aspose.Tasks가 가장 적합한 도구입니다. 우리의 포괄적인 튜토리얼을 통해 다양한 측면을 마스터할 수 있어 Aspose.Tasks for Java 라이브러리를 최적으로 활용할 수 있습니다.
@@ -38,3 +44,9 @@ Aspose.Tasks를 사용하여 Java 프로젝트에서 원활한 작업 연결을 
 Aspose.Tasks for Java를 사용하여 프로젝트 간 작업 식별을 살펴보세요. 원활한 통합 및 효율적인 관리. 지금 다운로드하세요!
 ### [Aspose.Tasks에서 선행 작업과 후속 작업 관리](./predecessor-successor-tasks/)
 Aspose.Tasks for Java로 효율적인 작업 관리를 살펴보세요. 프로젝트의 선행 작업과 후속 작업을 쉽게 처리하세요. 지금 무료 평가판을 다운로드하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

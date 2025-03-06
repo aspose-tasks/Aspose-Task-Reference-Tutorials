@@ -3,10 +3,16 @@ title: Samling av fält för resursanvändning i Aspose.Tasks
 linktitle: Samling av fält för resursanvändning i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt får åtkomst till och manipulerar vyfält för resursanvändning i Microsoft Project-filer med Aspose.Tasks för .NET.
-type: docs
 weight: 16
 url: /sv/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av fält för resursanvändning i Aspose.Tasks
+
 ## Introduktion
 När det gäller projektledning är det avgörande att hantera Microsoft Project-filer effektivt. Aspose.Tasks för .NET tillhandahåller en heltäckande lösning för att arbeta med MS Project-filer sömlöst. I den här handledningen kommer vi att fördjupa oss i processen att komma åt och använda fälten för resursanvändning med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -67,3 +73,9 @@ A: Absolut! Aspose.Tasks för .NET tillhandahåller omfattande funktionalitet f�
  S: Ja, du kan få tillgång till en gratis testversion från[hemsida](https://releases.aspose.com/).
 ### F: Hur kan jag få en tillfällig licens för Aspose.Tasks för .NET?
  S: Du kan skaffa en tillfällig licens från[köpsidan](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přizpůsobte nastavení zobrazení stránky MS Project v Aspose.Tasks
 linktitle: Konfigurace nastavení zobrazení stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak nakonfigurovat nastavení zobrazení stránky v Aspose.Tasks for .NET, abyste přizpůsobili formát tisku vašich dokumentů Microsoft Project.
-type: docs
 weight: 21
 url: /cs/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte nastavení zobrazení stránky MS Project v Aspose.Tasks
+
 ## Úvod
 Microsoft Project je výkonný nástroj pro správu projektů, ale někdy je potřeba upravit způsob zobrazení a tisku projektu. S Aspose.Tasks for .NET můžete snadno nakonfigurovat nastavení zobrazení stránky tak, aby vyhovovalo vašim specifickým požadavkům. V tomto tutoriálu vás provedeme procesem krok za krokem.
 ## Předpoklady
@@ -76,3 +82,9 @@ Odpověď: Ano, nastavení zobrazení stránky můžete upravit nezávisle pro k
 Odpověď: Aspose.Tasks nabízí kompatibilitu s Microsoft Project 2003 a novějšími verzemi.
 ### Otázka: Kde najdu další pomoc nebo podporu pro Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo problémy, se kterými se během používání setkáte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

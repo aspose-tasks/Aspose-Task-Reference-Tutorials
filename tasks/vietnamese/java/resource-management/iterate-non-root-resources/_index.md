@@ -3,10 +3,16 @@ title: Lặp lại các tài nguyên không phải root trong Aspose.Tasks
 linktitle: Lặp lại các tài nguyên không phải root trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách lặp lại hiệu quả các tài nguyên không phải gốc trong tệp Microsoft Project bằng Aspose.Tasks cho Java. Tăng cường quá trình phát triển của bạn.
-type: docs
 weight: 12
 url: /vi/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lặp lại các tài nguyên không phải root trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for Java là một thư viện mạnh mẽ cung cấp cho các nhà phát triển những công cụ họ cần để thao tác các tệp Microsoft Project một cách hiệu quả. Với giao diện trực quan và chức năng mở rộng, Aspose.Tasks đơn giản hóa quy trình làm việc với dữ liệu dự án, cho phép các nhà phát triển tập trung vào việc xây dựng các ứng dụng mạnh mẽ.
 ## Điều kiện tiên quyết
@@ -56,3 +62,9 @@ Có, Aspose.Tasks có thể được tích hợp liền mạch vào các khung J
 Hoàn toàn có thể, Aspose.Tasks cung cấp các API mở rộng để tùy chỉnh các trường dữ liệu dự án theo yêu cầu của bạn.
 ### Aspose.Tasks có cung cấp hỗ trợ và tài liệu cho nhà phát triển không?
 Có, Aspose.Tasks cung cấp tài liệu toàn diện và một diễn đàn hỗ trợ chuyên dụng để hỗ trợ các nhà phát triển về bất kỳ thắc mắc hoặc vấn đề nào họ gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

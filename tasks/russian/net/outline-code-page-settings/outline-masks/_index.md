@@ -3,10 +3,16 @@ title: Освоение масок контуров Microsoft Project в Aspose.
 linktitle: Работа с контурными масками в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как программно работать с файлами Microsoft Project с помощью Aspose.Tasks для .NET. Освойте контурные маски эффективно.
-type: docs
 weight: 14
 url: /ru/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение масок контуров Microsoft Project в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами и отслеживания задач Microsoft Project является краеугольным инструментом. Однако, когда дело доходит до программного манипулирования и управления файлами проекта, Aspose.Tasks for .NET оказывается мощным решением. В этом руководстве будет рассмотрен один конкретный аспект работы с файлами MS Project с использованием Aspose.Tasks for .NET: обработка контурных масок.
 ## Предварительные условия
@@ -76,3 +82,9 @@ A: Действительно, вы можете посетить[Форум Asp
  А: Конечно! Вы можете получить доступ к бесплатной пробной версии Aspose.Tasks.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу получить временную лицензию на Aspose.Tasks?
  О: Если вам нужна временная лицензия для целей оценки или тестирования, вы можете получить ее.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

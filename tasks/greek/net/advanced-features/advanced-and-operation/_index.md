@@ -3,10 +3,16 @@ title: Advanced AND Operation στο Aspose.Tasks
 linktitle: Advanced AND Operation στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εκτελείτε προηγμένες λειτουργίες ΚΑΙ στο Aspose.Tasks για .NET για να φιλτράρετε αποτελεσματικά τις εργασίες έργου με βάση πολλά κριτήρια.
-type: docs
 weight: 10
 url: /el/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced AND Operation στο Aspose.Tasks
+
 ## Εισαγωγή
 
  Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην προηγμένη λειτουργία AND στο Aspose.Tasks για .NET, ένα ισχυρό εργαλείο για τη διαχείριση εργασιών και έργων. Θα διερευνήσουμε πώς να φιλτράρουμε εργασίες έργου με βάση πολλαπλές συνθήκες χρησιμοποιώντας το`Util.And` τάξη.
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks για .NET;
 
 Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

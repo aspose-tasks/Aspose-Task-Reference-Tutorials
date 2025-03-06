@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 進行高效能資料過濾
 linktitle: 在 Aspose.Tasks 中過濾數據
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 過濾 MS Project 檔案中的資料。輕鬆提高生產力和分析能力。
-type: docs
 weight: 16
 url: /zh-hant/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 進行高效能資料過濾
+
 ## 介紹
 Aspose.Tasks for .NET 提供了強大的功能來過濾 Microsoft Project 檔案中的數據，使用戶能夠有效地管理和分析專案資訊。在本教程中，我們將以逐步指南的形式探索如何使用 Aspose.Tasks 過濾資料。
 ## 先決條件
@@ -78,3 +84,9 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 答： 是的，您可以參考綜合[文件](https://reference.aspose.com/tasks/net/)Aspose.Tasks 提供了詳細指導。
 ### Q：Aspose.Tasks 用戶可以獲得技術支援嗎？
 答：是的，您可以透過以下方式獲得技術支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)對於您遇到的任何疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 리소스 속성 설정
 linktitle: Aspose.Tasks에서 리소스 속성 설정
 second_title: Aspose.Tasks 자바 API
 description: 원활한 통합과 효율적인 작업 관리를 위해 Aspose.Tasks를 사용하여 Java에서 MS 프로젝트 리소스 속성을 설정하는 방법을 알아보세요.
-type: docs
 weight: 20
 url: /ko/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 리소스 속성 설정
+
 ## 소개
 Java 개발 영역에서 작업을 효율적으로 관리하는 것은 프로젝트 관리의 중요한 측면입니다. Aspose.Tasks for Java는 개발자가 Microsoft Project 파일과 상호 작용할 수 있는 강력한 솔루션을 제공하여 작업 관리 기능을 Java 애플리케이션에 원활하게 통합할 수 있도록 해줍니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS Project 리소스 속성을 설정하는 방법을 살펴보겠습니다. 이 가이드를 마치면 Java 프로젝트 내에서 리소스 속성을 조작하는 방법을 포괄적으로 이해하게 됩니다.
 ## 전제조건
@@ -63,3 +69,9 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
  임시면허를 취득할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
 ### Java용 Aspose.Tasks의 라이선스 버전을 어디에서 구입할 수 있나요?
  다음에서 Java용 Aspose.Tasks의 라이센스 버전을 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

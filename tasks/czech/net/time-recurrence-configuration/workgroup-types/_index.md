@@ -3,10 +3,16 @@ title: Snadná manipulace s pracovní skupinou pomocí Aspose.Tasks pro .NET
 linktitle: Práce s typy pracovních skupin v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte Aspose.Tasks for .NET, abyste ve svém projektu snadno zvládli typy pracovních skupin. Optimalizujte alokaci zdrojů a vylepšete řízení projektů.
-type: docs
 weight: 12
 url: /cs/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Snadná manipulace s pracovní skupinou pomocí Aspose.Tasks pro .NET
+
 ## Úvod
 Aspose.Tasks for .NET poskytuje robustní řešení pro manipulaci s typy pracovních skupin ve scénářích řízení projektů. Efektivní správa pracovních skupin je zásadní pro optimalizaci alokace zdrojů a zajištění hladké realizace projektu. V tomto tutoriálu se ponoříme do procesu manipulace s typy pracovních skupin pomocí Aspose.Tasks a nabídneme pokyny krok za krokem.
 ## Předpoklady
@@ -46,3 +52,9 @@ Ano, v různých fázích projektu můžete pro zdroj nastavit různé typy prac
  Ano, máte přístup k bezplatné zkušební verzi z[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

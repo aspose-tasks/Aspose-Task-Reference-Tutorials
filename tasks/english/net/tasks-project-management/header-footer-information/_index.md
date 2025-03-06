@@ -3,10 +3,16 @@ title: Extract Header and Footer Information with Aspose.Tasks
 linktitle: Header and Footer Information in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn to extract header & footer info from MS Project files using Aspose.Tasks for .NET. Easy, efficient, and developer-friendly solution.
-type: docs
 weight: 29
 url: /net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Header and Footer Information with Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that allows developers to manipulate Microsoft Project files with ease. In this tutorial, we will learn how to retrieve header and footer information from MS Project files using Aspose.Tasks.
 ## Prerequisites
@@ -70,3 +76,9 @@ Yes, you can download a free trial of Aspose.Tasks from [here](https://releases.
 You can find the documentation for Aspose.Tasks [here](https://reference.aspose.com/tasks/net/).
 ### How can I get support for Aspose.Tasks?
 You can get support for Aspose.Tasks by visiting the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

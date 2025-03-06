@@ -3,10 +3,16 @@ title: Parameters voor terugkerende taken instellen in Aspose.Tasks
 linktitle: Parameters voor terugkerende taken instellen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u terugkerende taakparameters instelt in Microsoft Project met behulp van Aspose.Tasks voor .NET. Uitgebreide tutorial met stapsgewijze handleiding.
-type: docs
 weight: 14
 url: /nl/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Parameters voor terugkerende taken instellen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het instellen van terugkerende taakparameters van Microsoft Project met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
@@ -79,3 +85,9 @@ Ja, Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder 
 Ja, u kunt het Aspose.Tasks-forum bezoeken voor hulp van de community of contact opnemen met de ondersteuning voor directe hulp.
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
  Een tijdelijke licentie kunt u verkrijgen bij de[website](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

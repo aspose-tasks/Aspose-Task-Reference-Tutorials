@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Nitelik Koleksiyonunu Yönetme
 linktitle: Aspose.Tasks'ta Genişletilmiş Özellik Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project'in genişletilmiş niteliklerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım rehberlikle görev niteliklerini sorunsuz bir şekilde yönetin.
-type: docs
 weight: 12
 url: /tr/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Nitelik Koleksiyonunu Yönetme
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak MS Project'in genişletilmiş özelliklerini verimli bir şekilde yönetmek mi istiyorsunuz? Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz. Hadi dalalım!
 ## Önkoşullar
@@ -105,3 +111,9 @@ C: Kesinlikle! Aspose.Tasks for .NET, proje gereksinimlerinize göre uyarlanmı�
 C: Evet, Aspose.Tasks for .NET, farklı sürümlerdeki MS Project dosya formatlarını destekler.
 ### S: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

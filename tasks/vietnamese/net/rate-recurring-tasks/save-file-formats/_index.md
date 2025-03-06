@@ -3,10 +3,16 @@ title: Lưu tệp dự án MS ở các định dạng khác nhau trong Aspose.Ta
 linktitle: Lưu tệp ở nhiều định dạng khác nhau trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu tệp MS Project ở nhiều định dạng khác nhau bằng Aspose.Tasks cho .NET. Các bước đơn giản để quản lý dự án hiệu quả
-type: docs
 weight: 17
 url: /vi/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tệp dự án MS ở các định dạng khác nhau trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tệp Microsoft Project ở nhiều định dạng khác nhau bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác và quản lý các tệp dự án theo chương trình.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng 
  Đáp: Có, giấy phép tạm thời được cấp cho mục đích đánh giá. Bạn có thể có được một[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Giá của Aspose.Tasks là bao nhiêu?
  Trả lời: Bạn có thể tìm thấy thông tin về giá trên trang mua hàng Aspose.Tasks[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

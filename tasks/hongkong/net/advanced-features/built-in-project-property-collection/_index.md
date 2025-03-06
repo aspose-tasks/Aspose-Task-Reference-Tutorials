@@ -3,10 +3,16 @@ title: Aspose.Tasks 中內建的項目屬性集合
 linktitle: Aspose.Tasks 中內建的項目屬性集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 在 .NET 應用程式中有效管理專案元屬性。輕鬆讀取、修改和迭代屬性。
-type: docs
 weight: 24
 url: /zh-hant/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中內建的項目屬性集合
+
 ## 介紹
 
 在軟體開發領域，有效管理任務和專案對於成功至關重要。 Aspose.Tasks for .NET 是一個功能強大的程式庫，旨在促進 .NET 應用程式中的專案管理任務。憑藉其強大的功能和直覺的介面，開發人員可以簡化專案管理流程，節省時間和資源。
@@ -106,3 +112,9 @@ A3：是的，Aspose.Tasks for .NET 支援多種專案檔案格式，包括 MPP�
 ### 問題 5：在哪裡可以找到 Aspose.Tasks for .NET 的其他支援和資源？
 
  A5：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求社群支援並瀏覽文件以獲得全面的指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

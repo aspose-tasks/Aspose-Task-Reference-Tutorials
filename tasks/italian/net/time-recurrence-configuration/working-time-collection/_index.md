@@ -3,10 +3,16 @@ title: Padroneggiare i tempi di lavoro in Aspose.Tasks
 linktitle: Raccolta degli orari di lavoro in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora la potenza di Aspose.Tasks per .NET nella gestione efficiente delle tempistiche dei progetti. Personalizza i calendari, imposta gli orari di lavoro e semplifica i tuoi progetti con facilità.
-type: docs
 weight: 14
 url: /it/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare i tempi di lavoro in Aspose.Tasks
+
 ## introduzione
 Stai cercando di padroneggiare l'arte della gestione dell'orario di lavoro in Aspose.Tasks per .NET? Non guardare oltre! In questa guida passo passo, approfondiremo le complessità della raccolta dell'orario di lavoro utilizzando Aspose.Tasks, consentendoti di gestire in modo efficiente calendari personalizzati e semplificare le tempistiche del progetto.
 ## Prerequisiti
@@ -114,3 +120,9 @@ Certamente! Aspose.Tasks si integra perfettamente con altre librerie .NET, migli
  Sì, puoi esplorare Aspose.Tasks con una prova gratuita visitando[questo link](https://releases.aspose.com/).
 ### Dove posso chiedere supporto per Aspose.Tasks?
  Per qualsiasi domanda o assistenza, visitare il[Forum di supporto Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

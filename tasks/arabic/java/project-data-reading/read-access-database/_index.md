@@ -3,10 +3,16 @@ title: قراءة بيانات المشروع من قاعدة بيانات MS Ac
 linktitle: قراءة بيانات المشروع من قاعدة بيانات Microsoft Access باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة بيانات MS Project من قاعدة بيانات Microsoft Access باستخدام Aspose.Tasks لـ Java. اتبع البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات المشروع من قاعدة بيانات MS Access في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft Project بسلاسة في تطبيقات Java. في هذا البرنامج التعليمي، سنركز على قراءة بيانات MS Project من قاعدة بيانات Microsoft Access باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
  ج: قد تحتاج إلى ترخيص مؤقت لبعض الميزات المتقدمة. احصل عليه من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Tasks لـ Java؟
  ج: يمكنك شراء Aspose.Tasks لـ Java من[هذا الرابط](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Att bemästra arbetstider i Aspose.Tasks
 linktitle: Samling av arbetstider i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska kraften i Aspose.Tasks för .NET för att effektivt hantera projekttidslinjer. Anpassa kalendrar, ställ in arbetstider och effektivisera dina projekt med lätthet.
-type: docs
 weight: 14
 url: /sv/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Att bemästra arbetstider i Aspose.Tasks
+
 ## Introduktion
 Vill du behärska konsten att hantera arbetstider i Aspose.Tasks för .NET? Kolla inte vidare! I den här steg-för-steg-guiden kommer vi att fördjupa oss i krångligheterna med arbetstidsinsamling med Aspose.Tasks, vilket ger dig möjlighet att effektivt hantera anpassade kalendrar och effektivisera dina projekttidslinjer.
 ## Förutsättningar
@@ -114,3 +120,9 @@ Säkert! Aspose.Tasks integreras sömlöst med andra .NET-bibliotek, vilket för
  Ja, du kan utforska Aspose.Tasks med en gratis provperiod genom att besöka[den här länken](https://releases.aspose.com/).
 ### Var kan jag söka stöd för Aspose.Tasks?
  För eventuella frågor eller hjälp, besök[Aspose.Tasks supportforum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

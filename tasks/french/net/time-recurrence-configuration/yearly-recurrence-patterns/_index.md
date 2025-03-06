@@ -3,10 +3,16 @@ title: Maîtrisez les modèles de récurrence annuelle dans Aspose.Tasks pour .N
 linktitle: Configuration des modèles de récurrence annuelle dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à configurer des modèles de récurrence annuels dans Aspose.Tasks pour .NET. Améliorez vos compétences en gestion de projet avec ce guide étape par étape.
-type: docs
 weight: 18
 url: /fr/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtrisez les modèles de récurrence annuelle dans Aspose.Tasks pour .NET
+
 ## Introduction
 Dans le monde dynamique de la gestion de projet, gérer efficacement les tâches récurrentes est un aspect clé. Aspose.Tasks for .NET fournit une solution puissante pour configurer des modèles de récurrence annuelle, vous permettant de rationaliser la planification et la gestion de votre projet. Dans ce guide étape par étape, nous explorerons comment configurer des modèles de récurrence annuelle à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -69,3 +75,9 @@ Dans ce didacticiel, nous avons exploré le processus de configuration des modè
  Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et l’assistance de la communauté.
 ### Puis-je essayer Aspose.Tasks gratuitement avant d’acheter ?
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

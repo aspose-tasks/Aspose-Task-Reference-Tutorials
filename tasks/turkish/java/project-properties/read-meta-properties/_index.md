@@ -3,10 +3,16 @@ title: Aspose.Tasks Projelerindeki Meta Özelliklerini Okuyun
 linktitle: Aspose.Tasks Projelerindeki Meta Özelliklerini Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Bu kapsamlı eğitimle Aspose.Tasks projelerinde meta verilerin gücünü ortaya çıkarın. Meta özellikleri zahmetsizce çıkarmayı ve bunlardan yararlanmayı öğrenin.
-type: docs
 weight: 10
 url: /tr/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projelerindeki Meta Özelliklerini Okuyun
+
 ## giriiş
 Proje yönetimi ve veri analizi alanında, proje dosyalarının meta verilerini incelemek paha biçilmez bilgiler sağlayabilir. Aspose.Tasks for Java, bu meta özellikler arasında zahmetsizce gezinmek için güçlü bir araç seti sunar. Bu eğitim, Aspose.Tasks projelerinizdeki meta özelliklerin çıkarılması ve anlaşılması için kapsamlı bir kılavuz görevi görmektedir.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Evet, Aspose.Tasks, MPP, XML ve daha fazlasını içeren çok çeşitli proje
  C: Evet, Aspose.Tasks ile ilgili kapsamlı belgeleri şu adreste bulabilirsiniz:[dokümantasyon sayfası](https://reference.aspose.com/tasks/java/).
 ### S: Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
  C: Aspose.Tasks ile ilgili her türlü yardım veya sorularınız için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan ve uzmanlardan özel destek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

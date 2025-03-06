@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Anahat Kodlarını Alma
 linktitle: Aspose.Tasks'ta Anahat Kodlarını Alma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project anahat kodlarını programlı olarak nasıl alacağınızı öğrenin. Proje yönetimi yeteneklerinizi geliştirin.
-type: docs
 weight: 15
 url: /tr/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Anahat Kodlarını Alma
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak Microsoft Project anahat kodlarını nasıl alacağımızı öğreneceğiz. MS Project'teki anahat kodları, proje görevlerini, kaynaklarını ve atamalarını kategorize etmek ve düzenlemek için yapılandırılmış bir yol sağlar. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine ve yönetmesine olanak tanıyan güçlü bir Java kitaplığıdır.
 ## Önkoşullar
@@ -82,3 +88,9 @@ C: Evet, Aspose.Tasks for Java, MS Project dosyalarındaki anahat kodlarını pr
  C: Evet, Aspose.Tasks for Java için geçici lisansı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/temporary-license/).
 ### S5: Aspose.Tasks for Java'nın tüm belgelerini nerede bulabilirim?
  C: Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/tasks/java/) Aspose.Tasks for Java kullanımına ilişkin ayrıntılı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

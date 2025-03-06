@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 표준 달력 만들기
 linktitle: Aspose.Tasks에서 표준 달력 만들기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java에서 표준 MS 프로젝트 달력을 만드는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 프로젝트 관리 역량을 강화하세요.
-type: docs
 weight: 14
 url: /ko/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 표준 달력 만들기
+
 
 ## 소개
 이 튜토리얼에서는 개발자가 Microsoft Project 파일을 원활하게 조작할 수 있는 강력한 라이브러리인 Aspose.Tasks for Java의 세계를 탐구합니다. 특히 Aspose.Tasks를 사용하여 표준 MS 프로젝트 달력을 만드는 데 중점을 둘 것입니다. 이 가이드를 마치면 Java 애플리케이션에서 이 기능을 구현하는 방법을 확실하게 이해하게 될 것입니다.
@@ -63,3 +69,9 @@ A: 예, Aspose.Tasks는 다양한 버전의 Microsoft Project를 지원하여 �
 A: 예, 개발자는 Aspose.Tasks 포럼을 통해 포괄적인 기술 지원에 액세스하여 모든 쿼리나 문제에 대한 시기적절한 지원을 보장할 수 있습니다.
 ### Q: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 예, 다음에서 제공되는 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다.[웹사이트](https://purchase.aspose.com/buy), 결정을 내리기 전에 기능을 평가할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

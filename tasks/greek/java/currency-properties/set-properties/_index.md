@@ -3,10 +3,16 @@ title: Ορισμός ιδιοτήτων νομίσματος στα έργα As
 linktitle: Ορισμός ιδιοτήτων νομίσματος στα έργα Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ορίζετε ιδιότητες νομίσματος σε έργα Aspose.Tasks χρησιμοποιώντας Java. Χειριστείτε τα αρχεία του Microsoft Project χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός ιδιοτήτων νομίσματος στα έργα Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να ορίσετε ιδιότητες νομίσματος σε έργα Aspose.Tasks χρησιμοποιώντας Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία του Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 Ναι, το Aspose.Tasks μπορεί να ενσωματωθεί απρόσκοπτα με άλλες βιβλιοθήκες και πλαίσια Java, βελτιώνοντας τη λειτουργικότητα και την ευελιξία του.
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη ή βοήθεια για το Aspose.Tasks;
  Για πρόσθετη υποστήριξη, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15), όπου μπορείτε να βρείτε χρήσιμους πόρους και να αλληλεπιδράσετε με την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

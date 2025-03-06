@@ -3,10 +3,16 @@ title: Gestión de licencias de Aspose.Tasks
 linktitle: Gestión de licencias de Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Desbloquee el poder de Aspose.Tasks para .NET con nuestros tutoriales completos. Administre licencias y optimice el uso de MS Project para una gestión eficiente de proyectos.
-type: docs
 weight: 36
 url: /es/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de licencias de Aspose.Tasks
+
 
 ## Introducción
 
@@ -35,3 +41,9 @@ Descubra el potencial de Aspose.Tasks para .NET mientras lo guiamos a través de
 Aprenda a administrar licencias de Aspose.Tasks en aplicaciones .NET sin problemas utilizando enfoques basados en archivos o secuencias.
 ### [Uso de medición en Aspose.Tasks](./metering-usage/)
 Aprenda cómo monitorear y optimizar efectivamente su uso de MS Project con Aspose.Tasks para .NET. Guía paso a paso para una gestión eficiente de proyectos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

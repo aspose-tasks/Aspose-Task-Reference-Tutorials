@@ -3,10 +3,16 @@ title: Dati rapportati alla scala cronologica delle attività in Aspose.Tasks
 linktitle: Dati rapportati alla scala cronologica delle attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora Aspose.Tasks per Java e la gestione dei dati rapportati alla scala cronologica delle attività principali. Scarica la libreria, goditi una prova gratuita e semplifica il monitoraggio del tuo progetto.
-type: docs
 weight: 34
 url: /it/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dati rapportati alla scala cronologica delle attività in Aspose.Tasks
+
 ## introduzione
 Nell'ambito della gestione dei progetti, il monitoraggio preciso dei dati delle attività rapportati alla scala cronologica è fondamentale per un'esecuzione efficiente del progetto. Aspose.Tasks per Java emerge come un potente strumento per semplificare questo processo, offrendo funzionalità robuste e flessibilità. Questo tutorial ti guiderà attraverso l'utilizzo di Aspose.Tasks per Java per gestire in modo efficace i dati delle attività rapportati alla scala cronologica.
 ## Prerequisiti
@@ -104,3 +110,9 @@ R: Sì, Aspose.Tasks per Java è compatibile con qualsiasi progetto basato su Ja
  R: Puoi acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso acquistare Aspose.Tasks per Java?
  R: È possibile acquistare Aspose.Tasks per Java[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

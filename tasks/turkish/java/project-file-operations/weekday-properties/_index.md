@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Hafta İçi Özellikleri
 linktitle: Aspose.Tasks'ta Hafta İçi Özellikleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da hafta içi özelliklerini verimli bir şekilde yönetmeyi öğrenin. Haftanın başlangıç tarihlerini, aylık günleri ve daha fazlasını kolaylıkla özelleştirin.
-type: docs
 weight: 25
 url: /tr/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Hafta İçi Özellikleri
+
 ## giriiş
 Aspose.Tasks for Java, Java geliştiricilerinin makinede Microsoft Project yüklü olmadan Microsoft Project dosyalarıyla çalışmasını sağlayan güçlü bir API'dir. Temel işlevlerinden biri, kullanıcıların haftanın başlangıç tarihlerini, aylık günleri, günlük dakikaları ve haftalık dakikaları özelleştirmesine olanak tanıyarak hafta içi özelliklerini yönetmektir. Bu eğitimde, bu özelliklerin etkili bir şekilde nasıl kullanılacağına dair ayrıntılı bir kılavuz sağlanacaktır.
 ## Önkoşullar
@@ -74,3 +80,9 @@ C: Evet, Aspose.Tasks for Java, Java uygulamalarınızı güçlü proje yönetim
  C: Evet, Aspose.Tasks for Java ile ilgili kapsamlı belgelere ve topluluk desteğine kendi sitelerinden erişebilirsiniz.[İnternet sitesi](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java'nın ücretsiz deneme sürümü mevcut mu?
 C: Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümünü şuradan indirebilirsiniz:[İnternet sitesi](https://reference.aspose.com/tasks/java/) Bir satın alma işlemi yapmadan önce özelliklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

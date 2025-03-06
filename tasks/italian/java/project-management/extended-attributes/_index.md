@@ -3,10 +3,16 @@ title: Gestire gli attributi estesi nei progetti Aspose.Tasks
 linktitle: Gestire gli attributi estesi nei progetti Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire gli attributi estesi nei progetti Aspose.Tasks utilizzando Java in modo efficiente. Guida passo passo per una gestione efficace del progetto.
-type: docs
 weight: 13
 url: /it/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire gli attributi estesi nei progetti Aspose.Tasks
+
 ## introduzione
 La gestione degli attributi estesi nella gestione dei progetti è fondamentale per personalizzare e migliorare i dati del progetto. Aspose.Tasks per Java fornisce strumenti robusti per gestire in modo efficiente gli attributi estesi nei file MS Project. Questo tutorial ti guiderà attraverso il processo passo dopo passo, assicurandoti di comprendere a fondo ogni concetto.
 ## Prerequisiti
@@ -86,3 +92,9 @@ R: Assolutamente, Aspose.Tasks ti consente di definire tipi di attributi estesi 
  R: È possibile trovare la documentazione completa sul sito Web Aspose.Tasks[documentazione](https://reference.aspose.com/tasks/java/).
 ### D: Il supporto tecnico è disponibile per gli utenti Aspose.Tasks?
  R: Sì, puoi accedere al supporto tecnico tramite il forum Aspose.Tasks[sito web](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

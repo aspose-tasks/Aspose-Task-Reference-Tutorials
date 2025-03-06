@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 달력 예외 발생 처리
 linktitle: Aspose.Tasks를 사용하여 달력 예외 발생 처리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 Java 프로젝트에서 달력 예외를 효과적으로 처리하는 방법을 알아보세요. 지금 프로젝트 관리 프로세스를 간소화하세요.
-type: docs
 weight: 12
 url: /ko/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 달력 예외 발생 처리
+
 ## 소개
 프로젝트 관리 영역에서 달력의 예외를 처리하는 것은 정확성과 효율성을 유지하는 데 중요합니다. Aspose.Tasks for Java는 달력 내에서 발생하는 일을 효과적으로 처리하는 것을 포함하여 프로젝트 관련 작업을 관리하기 위한 강력한 도구 키트를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 달력에서 발생하는 예외를 관리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -59,3 +65,9 @@ Aspose.Tasks는 다양한 프로젝트 파일 형식을 지원하여 Microsoft P
 예, Aspose.Tasks는 광범위한 사용자 정의 옵션을 제공하므로 사용자는 프로젝트의 고유한 요구 사항에 맞게 달력 예외를 맞춤 설정할 수 있습니다.
 ### Aspose.Tasks는 구매 전 무료 평가판을 제공합니까?
  예, 관심 있는 사용자는 다음에서 Aspose.Tasks for Java의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

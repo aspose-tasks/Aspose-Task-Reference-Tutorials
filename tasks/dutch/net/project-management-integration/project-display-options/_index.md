@@ -3,10 +3,16 @@ title: Weergaveopties voor MS Project configureren in Aspose.Tasks
 linktitle: Projectweergaveopties configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-weergaveopties programmatisch configureert met Aspose.Tasks voor .NET. Pas het uiterlijk van uw project moeiteloos aan.
-type: docs
 weight: 17
 url: /nl/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weergaveopties voor MS Project configureren in Aspose.Tasks
+
 ## Invoering
 Microsoft Project biedt een overvloed aan weergaveopties om het uiterlijk van uw project aan te passen. Aspose.Tasks voor .NET biedt een robuust raamwerk om deze opties programmatisch te manipuleren. In deze zelfstudie onderzoeken we hoe u de weergaveopties van MS Project kunt configureren met Aspose.Tasks.
 ## Vereisten
@@ -85,3 +91,9 @@ A: Nee, sommige opties kunnen specifiek zijn voor bepaalde versies van MS Projec
 A: Ja, u kunt de weergaveopties terugzetten naar hun standaardwaarden met behulp van de Aspose.Tasks API.
 ### Vraag: Zijn er beperkingen bij het programmatisch aanpassen van weergaveopties?
 A: Hoewel Aspose.Tasks uitgebreide aanpassingsmogelijkheden biedt, zijn bepaalde weergaveopties mogelijk niet programmatisch toegankelijk vanwege beperkingen in de MS Project-bestandsindeling.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

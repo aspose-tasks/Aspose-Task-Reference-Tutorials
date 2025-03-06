@@ -3,10 +3,16 @@ title: Quản lý ghi chú cho việc phân công tài nguyên trong Aspose.Task
 linktitle: Quản lý ghi chú cho việc phân công tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý ghi chú cho các bài tập tài nguyên trong Aspose.Tasks cho Java. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 21
 url: /vi/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ghi chú cho việc phân công tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc quản lý ghi chú cho các bài tập tài nguyên bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ được thiết kế để xử lý các tác vụ quản lý dự án một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, cho phép bạn tích hợp liền mạch việc quản lý ghi chú vào quy trình làm việc dự án của mình.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Aspose.Tasks cho Java tương thích với mọi IDE Java, bao gồm IntelliJ ID
 Không, giấy phép tạm thời không cần thiết trong thời gian dùng thử. Bạn có thể sử dụng phiên bản dùng thử mà không cần bất kỳ giấy phép nào.
 ### Tôi có thể mua Aspose.Tasks cho Java ở đâu?
 Bạn có thể mua Aspose.Tasks cho Java từ trang mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

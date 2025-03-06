@@ -3,10 +3,16 @@ title: تقسيم تاريخ انتهاء المهمة في Aspose.Tasks
 linktitle: تقسيم تاريخ انتهاء المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تقسيم تواريخ انتهاء المهمة بسهولة باستخدام Aspose.Tasks لـ Java. تعزيز إدارة المشروع بجداول زمنية دقيقة.
-type: docs
 weight: 28
 url: /ar/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم تاريخ انتهاء المهمة في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، يعد فهم الجداول الزمنية للمهام أمرًا بالغ الأهمية لإنجاز المشروع بنجاح. يوفر Aspose.Tasks for Java ميزات قوية للتعامل مع مهام المشروع بكفاءة. في هذا البرنامج التعليمي، سنتعمق في تقسيم تواريخ انتهاء المهام باستخدام Aspose.Tasks، مما يساعدك على إدارة الجداول الزمنية للمشروع بفعالية.
 ## المتطلبات الأساسية
@@ -54,3 +60,9 @@ System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 h
  ج4: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
 ### س5: هل يمكنني شراء Aspose.Tasks؟
  ج5: نعم، يمكنك شرائه[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

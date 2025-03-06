@@ -3,10 +3,16 @@ title: Aspose.Tasks での OLE オブジェクトの操作
 linktitle: Aspose.Tasks での OLE オブジェクトの操作
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して .NET アプリケーションで OLE オブジェクトを効率的に操作し、プロジェクト管理機能を強化する方法を学びます。
-type: docs
 weight: 22
 url: /ja/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での OLE オブジェクトの操作
+
 ## 導入
 
 Aspose.Tasks for .NET は、プロジェクト ファイル内の OLE (Object Linking and Embedding) オブジェクトを操作するための包括的な機能を提供します。このチュートリアルでは、.NET アプリケーションで Aspose.Tasks を使用して OLE オブジェクトを効率的に管理するプロセスについて説明します。
@@ -148,3 +154,9 @@ A4: はい、Aspose.Tasks は小規模プロジェクトとエンタープライ
 ### Q5: Aspose.Tasks はカスタマー サポートとドキュメント リソースを提供しますか?
 
 A5: はい、Aspose.Tasks は、開発者がその機能を効果的に活用できるよう、広範なドキュメント、フォーラム、カスタマー サポートを提供しています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

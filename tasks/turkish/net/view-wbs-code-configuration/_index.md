@@ -3,10 +3,16 @@ title: Aspose.Tasks Görünümü ve WBS Kodu Yapılandırması
 linktitle: Aspose.Tasks Görünümü ve WBS Kodu Yapılandırması
 second_title: Aspose.Tasks .NET API'si
 description: .NET görünümleri ve WBS kodları için Aspose.Tasks'ta uzmanlaşın. Adım adım eğitimlerimizle proje yönetimini özelleştirin. Kusursuz proje görselleştirmesi için hemen indirin.
-type: docs
 weight: 32
 url: /tr/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Görünümü ve WBS Kodu Yapılandırması
+
 
 ## giriiş
 
@@ -56,3 +62,9 @@ Aspose.Tasks'ı kullanarak .NET projelerinde adım adım WBS Kod Maskeleri yapı
 Aspose.Tasks for .NET ile proje yönetimini geliştirin. Bu kapsamlı eğitimde WBS Kod Maskelerini zahmetsizce oluşturmayı, yönetmeyi ve aktarmayı öğrenin.
 ### [Aspose.Tasks'ta WBS Dizilerini Tanımlama](./wbs-sequences/)
 Aspose.Tasks for .NET ile proje yönetiminizi güçlendirin; WBS dizilerini sorunsuz bir şekilde tanımlayın ve verimliliği zahmetsizce artırın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

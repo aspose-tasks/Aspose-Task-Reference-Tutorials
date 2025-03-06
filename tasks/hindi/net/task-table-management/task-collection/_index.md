@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य संग्रह प्रबं
 linktitle: Aspose.Tasks में कार्य संग्रह प्रबंधित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks में कुशल कार्य संग्रह प्रबंधन का अन्वेषण करें। निर्माण से लेकर संपादन तक, परियोजना प्रबंधन में आसानी से महारत हासिल करें।
-type: docs
 weight: 18
 url: /hi/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य संग्रह प्रबंधित करना
+
 ## परिचय
 यदि आप .NET का उपयोग करके परियोजना प्रबंधन की दुनिया में गहराई से उतर रहे हैं, तो Aspose.Tasks कार्य संग्रह के निर्बाध संचालन के लिए आपका पसंदीदा समाधान है। यह ट्यूटोरियल आपको कार्य संग्रह को कुशलतापूर्वक प्रबंधित करने की प्रक्रिया में मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आप इस शक्तिशाली लाइब्रेरी का अधिकतम लाभ उठा सकें।
 ## आवश्यक शर्तें
@@ -95,3 +101,9 @@ foreach (var task in tasks)
  हां, आप यहां समर्थन पा सकते हैं और समुदाय के साथ जुड़ सकते हैं[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15).
 ### क्या मैं Aspose.Tasks के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
  हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

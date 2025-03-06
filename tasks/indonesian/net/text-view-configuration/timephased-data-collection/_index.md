@@ -3,10 +3,16 @@ title: Menguasai Pengumpulan Data Bertahap Waktu di Aspose.Tasks
 linktitle: Pengumpulan Data Bertahap Waktu di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi pengumpulan data bertahap di Aspose.Tasks untuk .NET. Panduan langkah demi langkah, FAQ, dan banyak lagi. Tingkatkan kemampuan manajemen proyek Anda hari ini!
-type: docs
 weight: 15
 url: /id/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Pengumpulan Data Bertahap Waktu di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda ingin memanfaatkan kekuatan data bertahap dalam aplikasi .NET Anda menggunakan Aspose.Tasks? Tidak perlu mencari lagi! Panduan komprehensif ini akan memandu Anda melalui proses pengumpulan data bertahap dengan Aspose.Tasks untuk .NET, memastikan bahwa Anda memanfaatkan perpustakaan canggih ini semaksimal mungkin.
 ## Prasyarat
@@ -121,3 +127,9 @@ Aspose.Tasks menangani proyek dengan berbagai ukuran, dan tidak ada batasan keta
  Ya, Anda dapat menjelajahi fitur Aspose.Tasks untuk .NET dengan mengakses[uji coba gratis](https://releases.aspose.com/).
 ### Di mana saya dapat membeli lisensi Aspose.Tasks untuk .NET?
 Anda dapat membeli lisensi Aspose.Tasks untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

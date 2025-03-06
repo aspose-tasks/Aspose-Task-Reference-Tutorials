@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Listesi ile Altbilgi Arasındaki Boşluğu Azaltma
 linktitle: Aspose.Tasks'ta Görev Listesi ile Altbilgi Arasındaki Boşluğu Azaltma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project görev listeleri ve alt bilgiler arasındaki boşluğu nasıl azaltacağınızı öğrenin. Proje belgesi düzenini zahmetsizce optimize edin.
-type: docs
 weight: 10
 url: /tr/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Listesi ile Altbilgi Arasındaki Boşluğu Azaltma
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak Microsoft Project dosyalarındaki görev listesi ile alt bilgi arasındaki boşluğu azaltmayı ele alacağız. Bu adımları izleyerek proje belgelerinizin düzenini zahmetsizce optimize edebileceksiniz.
 ## Önkoşullar
@@ -105,3 +111,9 @@ C: Evet, Aspose.Tasks, diğerlerinin yanı sıra XLSX, XML ve MPP dahil çok çe
 ### S: Aspose.Tasks'ı kullanırken herhangi bir sorunla karşılaşırsam nereden destek alabilirim?
 
  C: Aspose.Tasks topluluk forumundan yardım alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

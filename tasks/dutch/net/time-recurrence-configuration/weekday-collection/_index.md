@@ -3,10 +3,16 @@ title: Weekdagen beheersen in Aspose.Tasks
 linktitle: Verzameling van weekdagen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het moeiteloos beheren van weekdagen. Pas werkdagen aan, verwijder weekenden en maak eenvoudig gespecialiseerde kalenders.
-type: docs
 weight: 11
 url: /nl/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weekdagen beheersen in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek die efficiënte manipulatie van projectmanagementgegevens mogelijk maakt. In deze zelfstudie verkennen we de verzameling weekdagen in Aspose.Tasks, zodat u werkdagen kunt aanpassen, weekends kunt verwijderen en gespecialiseerde kalenders kunt maken om aan uw projectvereisten te voldoen. Of u nu een doorgewinterde ontwikkelaar of een nieuwkomer bent, deze stapsgewijze handleiding leidt u door het proces van het werken met weekdagen in Aspose.Tasks voor .NET.
 ## Vereisten
@@ -95,3 +101,9 @@ A: Aspose.Tasks ondersteunt voornamelijk .NET-talen, maar biedt ook versies voor
  A: Raadpleeg de[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/) voor gedetailleerde informatie.
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Tasks voor .NET?
  A: U kunt een tijdelijke licentie verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

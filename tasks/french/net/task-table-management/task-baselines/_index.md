@@ -3,10 +3,16 @@ title: Maîtriser les lignes de base des tâches dans Aspose.Tasks pour .NET
 linktitle: Gestion des lignes de base des tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les lignes de base des tâches dans Aspose.Tasks pour .NET avec ce didacticiel complet. Améliorez vos compétences en gestion de projet dès aujourd'hui !
-type: docs
 weight: 16
 url: /fr/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les lignes de base des tâches dans Aspose.Tasks pour .NET
+
 ## Introduction
 Dans le monde dynamique de la gestion de projet, rester organisé et informé est crucial. Aspose.Tasks for .NET fournit une solution puissante pour gérer les références de tâches, vous permettant d'accéder efficacement à des informations de base précieuses. Ce guide étape par étape vous guidera tout au long du processus, vous assurant de comprendre chaque concept avec clarté.
 ## Conditions préalables
@@ -72,3 +78,9 @@ R : Aspose.Tasks est compatible avec plusieurs frameworks .NET, offrant ainsi un
  R : Explorez le[Documentation](https://reference.aspose.com/tasks/net/) pour un large éventail de didacticiels sur les fonctionnalités d'Aspose.Tasks.
 ### Q : Où puis-je acheter Aspose.Tasks pour .NET ?
  R : Vous pouvez facilement acheter Aspose.Tasks[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理分配基线
 linktitle: 在 Aspose.Tasks 中管理分配基线
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效管理分配基线，确保准确跟踪项目进度和绩效。
-type: docs
 weight: 14
 url: /zh/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理分配基线
+
 ## 介绍
 
 在执行项目管理任务时，管理分配基线对于准确跟踪进度至关重要。 Aspose.Tasks for .NET 提供了一套全面的工具来有效地处理分配基线。在本教程中，我们将逐步深入研究管理分配基线的过程。
@@ -123,3 +129,9 @@ A4：是的，开发人员可以在 Aspose.Tasks 网站上访问全面的文档�
 ### Q5：Aspose.Tasks for .NET 有试用版吗？
 
  A5：是的，开发人员可以从以下位置获取 Aspose.Tasks for .NET 的免费试用版：[这里](https://releases.aspose.com/)，使他们能够在做出购买决定之前评估其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

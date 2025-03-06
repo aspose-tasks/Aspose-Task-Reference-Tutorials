@@ -3,10 +3,16 @@ title: Verwendung des AND-Operators unter allen Bedingungen mit Aspose.Tasks
 linktitle: Verwendung des AND-Operators unter allen Bedingungen mit Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET den AND-Operator unter allen Bedingungen verwenden, um Projektaufgaben effizient zu filtern.
-type: docs
 weight: 11
 url: /de/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwendung des AND-Operators unter allen Bedingungen mit Aspose.Tasks
+
 ## Einführung
 
 Möchten Sie Ihre Projektmanagementaufgaben effizient optimieren? Mit Aspose.Tasks für .NET können Sie leistungsstarke Funktionen nutzen, um Projektdaten effektiv zu bearbeiten. Eine dieser Funktionen ist die Möglichkeit, den AND-Operator unter allen Bedingungen zu verwenden, sodass Sie Aufgaben gleichzeitig nach mehreren Kriterien filtern können. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess der Implementierung dieser Funktionalität.
@@ -118,3 +124,9 @@ A4: Ja, Sie können Aspose.Tasks nahtlos in andere .NET-Frameworks und -Biblioth
 ### F5: Gibt es ein Community-Forum oder einen Support-Kanal für Aspose.Tasks-Benutzer?
 
  A5: Ja, Sie können auf das Aspose.Tasks-Community-Forum zugreifen[Hier](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスクに拡張属性を追加する
 linktitle: Aspose.Tasks のタスクに拡張属性を追加する
 second_title: Aspose.Tasks Java API
 description: 拡張属性を使用して Microsoft Project ファイルをカスタマイズする際の Aspose.Tasks Java の機能を探索します。プロジェクト管理機能を簡単に強化します。
-type: docs
 weight: 11
 url: /ja/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスクに拡張属性を追加する
+
 ## 導入
 プロジェクト管理機能を強化することは、効率的なタスク追跡とリソース管理にとって非常に重要です。 Aspose.Tasks for Java は、Java 開発者が Microsoft Project ファイルをシームレスに操作するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Tasks for Java を使用してタスクに拡張属性を追加し、特定の要件に応じてプロジェクト データをカスタマイズおよび整理できるようにする方法を説明します。
 ## 前提条件
@@ -75,3 +81,9 @@ A: 確かに、Aspose.Tasks for Java は、大規模なアプリケーション�
  A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートとディスカッションのために。
 ### Q: 購入する前に Aspose.Tasks for Java を試すことはできますか?
  A: はい、無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

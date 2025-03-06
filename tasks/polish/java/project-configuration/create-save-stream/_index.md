@@ -3,10 +3,16 @@ title: Utwórz i zapisz pusty projekt do transmisji strumieniowej w Aspose.Tasks
 linktitle: Utwórz i zapisz pusty projekt do transmisji strumieniowej w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Naucz się tworzyć i zapisywać puste pliki MS Project w strumieniu w Javie za pomocą Aspose.Tasks, upraszczając bez wysiłku zadania związane z zarządzaniem projektami.
-type: docs
 weight: 13
 url: /pl/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz i zapisz pusty projekt do transmisji strumieniowej w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku odkryjemy, jak wykorzystać Aspose.Tasks dla Java do utworzenia i zapisania pustego projektu MS w strumieniu. Aspose.Tasks to potężny interfejs API języka Java, który umożliwia programistom pracę z plikami programu Microsoft Project bez konieczności instalowania programu Microsoft Project na komputerze. Postępując zgodnie z tym przewodnikiem, nauczysz się niezbędnych kroków, aby utworzyć i zapisać pusty plik MS Project za pomocą Aspose.Tasks.
 ## Warunki wstępne
@@ -69,3 +75,9 @@ Tak, Aspose.Tasks obsługuje wiele języków programowania, w tym .NET, C++i Jav
  Możesz uzyskać wsparcie na forum społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Czy mogę kupić tymczasową licencję na Aspose.Tasks?
  Tak, można kupić licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

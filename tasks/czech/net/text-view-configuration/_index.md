@@ -3,10 +3,16 @@ title: Aspose.Tasks Text and View Configuration
 linktitle: Aspose.Tasks Text and View Configuration
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte výukové programy Aspose.Tasks for .NET o konfiguraci textu a zobrazení. Ovládněte styly textu, komprese Tiff, zobrazení časové osy a další pro vylepšenou správu projektů.
-type: docs
 weight: 30
 url: /cs/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Text and View Configuration
+
 ## Úvod
 
 Vítejte v obsáhlém průvodci Aspose.Tasks for .NET Tutorials se zaměřením na konfiguraci textu a zobrazení. V tomto článku se ponoříme do různých aspektů projektového řízení a poskytneme podrobné informace o zvládnutí funkcí Aspose.Tasks.
@@ -53,3 +59,9 @@ Prozkoumejte časově uspořádaný sběr dat v Aspose.Tasks pro .NET. Podrobný
 Prozkoumejte Aspose.Tasks for .NET a nakonfigurujte úrovně časové osy v zobrazení Ganttova diagramu pro přesnou vizualizaci časové osy projektu.
 ### [Konfigurace zobrazení použití v Aspose.Tasks](./usage-views/)
 Naučte se konfigurovat zobrazení využití úloh v Aspose.Tasks pro .NET. Vylepšete vizualizaci projektu pomocí podrobných kroků. Stáhněte si knihovnu nyní!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

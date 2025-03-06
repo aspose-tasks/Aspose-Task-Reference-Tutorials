@@ -3,10 +3,16 @@ title: 작업 속성
 linktitle: 작업 속성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks로 Java 프로젝트 관리를 강화하세요. 우선순위 처리부터 비용 관리까지 작업 속성에 대한 튜토리얼을 살펴보세요. 지금 바로 프로젝트를 최적화하세요!
-type: docs
 weight: 34
 url: /ko/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 속성
+
 ## 소개
 
 Aspose.Tasks를 사용하여 Java로 Microsoft Project 파일을 손쉽게 관리하고 사용자 정의하세요. 프로젝트 관리 기능을 향상시키기 위해 작업 속성의 다양한 측면을 다루는 튜토리얼을 살펴보세요.
@@ -138,3 +144,9 @@ Java 및 마스터 작업의 시간대별 데이터 관리를 위한 Aspose.Task
 Aspose.Tasks for Java를 사용하여 작업 데이터를 MPP 형식으로 업데이트하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 단계별 가이드를 따르세요.
 ### [Aspose.Tasks의 작업과 연결된 WBS](./wbs-associated-with-task/)
 Aspose.Tasks for Java를 사용하여 WBS 마스터 - 작업 WBS 코드를 읽고 번호를 다시 매기는 방법을 알아보세요. 프로젝트 관리 효율성을 높이세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

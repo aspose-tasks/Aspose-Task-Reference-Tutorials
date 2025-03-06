@@ -3,10 +3,16 @@ title: Buat dan Simpan Proyek Kosong untuk Dialirkan di Aspose.Tasks
 linktitle: Buat dan Simpan Proyek Kosong untuk Dialirkan di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat dan menyimpan file MS Project kosong ke aliran di Java dengan Aspose.Tasks, menyederhanakan tugas manajemen proyek dengan mudah.
-type: docs
 weight: 13
 url: /id/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat dan Simpan Proyek Kosong untuk Dialirkan di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk Java untuk membuat dan menyimpan Proyek MS kosong ke aliran. Aspose.Tasks adalah Java API yang kuat yang memungkinkan pengembang untuk bekerja dengan file Microsoft Project tanpa memerlukan Microsoft Project untuk diinstal pada mesin. Dengan mengikuti panduan ini, Anda akan mempelajari langkah-langkah yang diperlukan untuk membuat dan menyimpan file MS Project kosong menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -69,3 +75,9 @@ Ya, Aspose.Tasks mendukung berbagai bahasa pemrograman termasuk .NET, C++, dan J
  Anda bisa mendapatkan dukungan dari forum komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Tasks?
  Ya, lisensi sementara tersedia untuk dibeli[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

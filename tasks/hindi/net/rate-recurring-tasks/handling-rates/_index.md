@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks के साथ MS प्रोजे
 linktitle: Aspose.Tasks में हैंडलिंग दरें
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट दरों को आसानी से प्रबंधित करने में महारत हासिल करें। सुचारू प्रोजेक्ट वर्कफ़्लो के लिए कार्यों को कुशलतापूर्वक स्वचालित करें।
-type: docs
 weight: 10
 url: /hi/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट दरों को संभालना
+
 ## परिचय
 .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट दरों को संभालने पर हमारे ट्यूटोरियल में आपका स्वागत है! इस गाइड में, हम आपको चरण दर चरण प्रक्रिया के बारे में बताएंगे, यह सुनिश्चित करते हुए कि आप अपने एमएस प्रोजेक्ट दस्तावेज़ों में दरों को कुशलतापूर्वक प्रबंधित कर सकते हैं। .NET के लिए Aspose.Tasks एमएस प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए शक्तिशाली सुविधाएं प्रदान करता है, जिससे आप अपने प्रोजेक्ट प्रबंधन कार्यों को आसानी से सुव्यवस्थित कर सकते हैं।
 ## आवश्यक शर्तें
@@ -77,3 +83,9 @@ rate2.CostPerUse = 2m;
 उत्तर: हां, आप विशिष्ट परियोजना आवश्यकताओं को पूरा करने के लिए Aspose.Tasks का उपयोग करके कस्टम दर गणना लागू कर सकते हैं।
 ### प्रश्न: क्या Aspose.Tasks उपयोगकर्ताओं के लिए कोई सामुदायिक मंच या सहायता उपलब्ध है?
  उत्तर: हां, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15)सहायता लेने और अन्य उपयोगकर्ताओं के साथ बातचीत करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

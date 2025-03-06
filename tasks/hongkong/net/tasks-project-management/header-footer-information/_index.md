@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 提取頁首和頁尾資訊
 linktitle: Aspose.Tasks 中的頁首和頁尾訊息
 second_title: Aspose.Tasks .NET API
 description: 學習使用 Aspose.Tasks for .NET 從 MS Project 檔案中提取頁首和頁尾資訊。簡單、有效率且對開發人員友善的解決方案。
-type: docs
 weight: 29
 url: /zh-hant/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 提取頁首和頁尾資訊
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員輕鬆操作 Microsoft Project 檔案。在本教程中，我們將學習如何使用 Aspose.Tasks 從 MS Project 檔案中檢索頁首和頁尾資訊。
 ## 先決條件
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
 您可以找到 Aspose.Tasks 的文檔[這裡](https://reference.aspose.com/tasks/net/).
 ### 我如何獲得 Aspose.Tasks 的支援？
 您可以透過造訪獲取 Aspose.Tasks 支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

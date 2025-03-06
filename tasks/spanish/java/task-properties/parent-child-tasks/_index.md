@@ -3,10 +3,16 @@ title: Administrar tareas principales y secundarias en Aspose.Tasks
 linktitle: Administrar tareas principales y secundarias en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Mejore la eficiencia de la gestión de proyectos con Aspose.Tasks para Java. Aprenda a gestionar las tareas de padres e hijos paso a paso. ¡Empieza ahora!
-type: docs
 weight: 24
 url: /es/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar tareas principales y secundarias en Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, la organización eficaz de las tareas es crucial. Aspose.Tasks para Java proporciona una solución sólida para administrar las tareas principales y secundarias de manera eficiente. En este tutorial, lo guiaremos a través del proceso de uso de Aspose.Tasks para Java para optimizar las tareas de su proyecto.
 ## Requisitos previos
@@ -103,3 +109,9 @@ Sí, Aspose.Tasks para Java admite varios formatos de archivos de proyecto, incl
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar documentación completa para Aspose.Tasks para Java?
  La documentación está disponible.[aquí](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

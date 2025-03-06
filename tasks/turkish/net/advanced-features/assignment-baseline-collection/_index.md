@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
 linktitle: Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak proje yönetiminde atama temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Üretkenliği ve doğruluğu artırın.
-type: docs
 weight: 15
 url: /tr/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
+
 ## giriiş
 
 Proje yönetimi alanında, atama temel çizgilerinin izlenmesi ve yönetilmesi, projenin başarısının ve zaman çizelgelerine bağlılığın sağlanması açısından çok önemlidir. Aspose.Tasks for .NET, projelerdeki atama temel çizgilerinin verimli bir şekilde ele alınmasını kolaylaştırmak için güçlü bir dizi özellik sunar. Bu eğitimde Aspose.Tasks for .NET kullanarak Atama Temel Koleksiyonları ile çalışmanın inceliklerini ele alacağız.
@@ -100,3 +106,9 @@ C4: Evet, Aspose.Tasks, geliştiricilerin yardım isteyebileceği, bilgi paylaş
 ### S5: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
 
 Cevap5: Evet, Aspose.Tasks, geliştiricilerin satın alma kararı vermeden önce özelliklerini ve işlevlerini keşfetmesine olanak tanıyan ücretsiz bir deneme sürümü sunuyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

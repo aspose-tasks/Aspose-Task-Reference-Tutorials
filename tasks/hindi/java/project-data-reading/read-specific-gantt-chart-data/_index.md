@@ -3,10 +3,16 @@ title: Aspose.Tasks में विशिष्ट गैंट चार्ट
 linktitle: Aspose.Tasks में विशिष्ट गैंट चार्ट डेटा पढ़ें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके विशिष्ट गैंट चार्ट डेटा निकालना सीखें। आपके जावा अनुप्रयोगों में निर्बाध एकीकरण के लिए चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 16
 url: /hi/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में विशिष्ट गैंट चार्ट डेटा पढ़ें
+
 ## परिचय
 गैंट चार्ट परियोजना प्रबंधन के लिए अमूल्य उपकरण हैं, जो उपयोगकर्ताओं को कार्यों, समयसीमा और निर्भरता की कल्पना करने की अनुमति देते हैं। जावा के लिए Aspose.Tasks के साथ, डेवलपर्स अपने अनुप्रयोगों में एकीकृत करने के लिए गैंट चार्ट से विशिष्ट डेटा को कुशलतापूर्वक निकाल सकते हैं। इस ट्यूटोरियल में, हम आपको चरण दर चरण विशिष्ट गैंट चार्ट डेटा पढ़ने की प्रक्रिया में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -104,3 +110,9 @@ System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier()
 ए: निश्चित रूप से. Aspose.Tasks आपकी आवश्यकताओं के अनुसार गैंट चार्ट उपस्थिति को अनुकूलित करने के लिए व्यापक एपीआई प्रदान करता है।
 ### प्रश्न: क्या Aspose.Tasks उपयोगकर्ताओं के लिए तकनीकी सहायता उपलब्ध है?
 उत्तर: हां, Aspose.Tasks अपने फोरम और समर्पित समर्थन चैनलों के माध्यम से व्यापक तकनीकी सहायता प्रदान करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

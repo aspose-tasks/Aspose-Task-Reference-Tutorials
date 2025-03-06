@@ -3,10 +3,16 @@ title: إتقان التعامل مع مراجع VBA - دليل خطوة بخط�
 linktitle: التعامل مع مراجع VBA في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة التعامل مع مراجع VBA في Aspose.Tasks .NET من خلال برنامجنا التعليمي الشامل. تعلم القراءة والمقارنة والعمل مع مراجع VBA بسلاسة.
-type: docs
 weight: 15
 url: /ar/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التعامل مع مراجع VBA - دليل خطوة بخطوة
+
 ## مقدمة
 إذا كنت تتعمق في Aspose.Tasks لـ .NET وترغب في استكشاف تعقيدات التعامل مع مراجع VBA، فأنت في المكان الصحيح. سيرشدك هذا الدليل خطوة بخطوة خلال عملية القراءة والتحقق من المساواة والحصول على رموز التجزئة والعمل مع المجموعة المرجعية لـ VBA باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ foreach (var reference in project.VbaProject.References)
  ج: الوثائق متاحة[هنا](https://reference.aspose.com/tasks/net/).
 ### س: هل يمكنني شراء Aspose.Tasks؟
  ج: نعم يمكنك شرائها[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

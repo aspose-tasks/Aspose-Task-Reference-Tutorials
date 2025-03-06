@@ -3,10 +3,16 @@ title: Aspose.Tasks PDF-beveiligingsconfiguratie
 linktitle: Aspose.Tasks PDF-beveiligingsconfiguratie
 second_title: Aspose.Tasks .NET API
 description: Ontdek hoe u de beveiliging van uw Microsoft Project PDF's kunt verbeteren met Aspose.Tasks voor .NET. Leer digitale handtekening- en encryptietechnieken.
-type: docs
 weight: 35
 url: /nl/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks PDF-beveiligingsconfiguratie
+
 ## Invoering
 
 In de digitale wereld is het beschermen van uw projectbestanden van het allergrootste belang. Aspose.Tasks voor .NET biedt een robuuste oplossing om de beveiliging van uw Microsoft Project PDF's te verbeteren. Deze tutorialserie gaat dieper in op de fijne kneepjes van de PDF-beveiligingsconfiguratie en waarborgt de vertrouwelijkheid en authenticiteit van uw waardevolle projectgegevens.
@@ -36,3 +42,9 @@ In een wereld waar over gegevensbeveiliging niet kan worden onderhandeld, is het
 Leer hoe u de details van de digitale handtekening van Microsoft Project PDF kunt configureren met Aspose.Tasks voor .NET. Garandeer de veiligheid en authenticiteit van uw projectbestanden.
 ### [Configureer MS Project PDF-coderingsdetails in Aspose.Tasks](./pdf-encryption-details/)
 Leer hoe u MS Project PDF-coderingsdetails configureert in Aspose.Tasks voor .NET. Beveilig uw projectbestanden met gebruikers- en eigenaarwachtwoorden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menguasai Opsi Penyimpanan Proyek MS untuk Aspose.Tasks
 linktitle: Opsi Penyimpanan Umum untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan file MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Sesuaikan opsi keluaran dengan mudah untuk proyek Anda.
-type: docs
 weight: 17
 url: /id/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Opsi Penyimpanan Proyek MS untuk Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET menawarkan fitur canggih untuk memanipulasi file Microsoft Project secara terprogram. Dalam tutorial ini, kita akan mempelajari seluk-beluk menyimpan file MS Project menggunakan berbagai opsi yang disediakan oleh Aspose.Tasks. Secara khusus, kami akan fokus pada opsi penyimpanan umum yang tersedia untuk Aspose.Tasks, memungkinkan Anda menyesuaikan output dengan kebutuhan spesifik Anda.
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Ya, Aspose.Tasks mendukung berbagai versi file MS Project, memastikan kompati
  J: Lisensi sementara tersedia untuk tujuan evaluasi[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
  A: Anda dapat bergabung dengan forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15)untuk mendapatkan bantuan dari para ahli dan sesama pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: فترات زمنية متكررة لمشروع MS بدون جهد في A
 linktitle: إدارة الفواصل الزمنية المتكررة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف كيفية إدارة الفواصل الزمنية المتكررة بسهولة في MS Project باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 12
 url: /ar/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فترات زمنية متكررة لمشروع MS بدون جهد في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى إدارة الفواصل الزمنية المتكررة بكفاءة في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET؟ سيرشدك هذا البرنامج التعليمي الشامل خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك التعامل بسهولة مع الفواصل الزمنية المتكررة في مشاريعك. قبل الغوص في البرنامج التعليمي، دعنا نراجع بعض المتطلبات الأساسية للتأكد من أنك مستعد للبدء.
 ## المتطلبات الأساسية
@@ -103,3 +109,9 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
  نعم، يمكنك شراء ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الوثائق الكاملة لـ Aspose.Tasks لـ .NET؟
  يمكن العثور على الوثائق الكاملة[هنا](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: สร้างงานพื้นฐานโครงการ MS ใ
 linktitle: การสร้างงานพื้นฐานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีสร้างงานพื้นฐาน Microsoft Project ใน Java โดยใช้ Aspose.Tasks ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการข้อมูลโครงการได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างงานพื้นฐานโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการสร้างงานพื้นฐาน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ได้โดยไม่ต้องติดตั้ง Microsoft Project ด้วย Aspose.Tasks คุณสามารถจัดการข้อมูลโครงการ รวมถึงงาน ทรัพยากร และปฏิทิน ได้อย่างง่ายดาย เพื่อปรับปรุงงานการจัดการโครงการ
 ## ข้อกำหนดเบื้องต้น
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 ใช่ คุณสามารถตั้งค่าการขึ้นต่อกันของงานได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java ซึ่งช่วยให้คุณสร้างลำดับของงานภายในโปรเจ็กต์ของคุณได้
 ### มีการสนับสนุนด้านเทคนิคสำหรับ Aspose.Tasks สำหรับ Java หรือไม่
  ใช่ คุณสามารถเข้าถึงการสนับสนุนด้านเทคนิคสำหรับ Aspose.Tasks สำหรับ Java ผ่านทาง[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/tasks/15)ซึ่งคุณสามารถถามคำถามและขอความช่วยเหลือจากชุมชนและเจ้าหน้าที่สนับสนุน Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kritik ve Çaba Odaklı Görevleri Yönetin
 linktitle: Aspose.Tasks'ta Kritik ve Çaba Odaklı Görevleri Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java projelerinizde kritik ve efor gerektiren görevleri zahmetsizce yönetin. Kitaplığı indirin ve proje yönetimi becerilerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kritik ve Çaba Odaklı Görevleri Yönetin
+
 Proje yönetiminin hızlı dünyasında, kritik ve çaba gerektiren görevlerin verimli bir şekilde ele alınması, projenin başarılı bir şekilde tamamlanması için çok önemlidir. Aspose.Tasks for Java, bu görevleri sorunsuz bir şekilde yönetmek için güçlü bir çözüm sunar. Bu eğitimde, projelerinizde kritik ve efor gerektiren görevleri yerine getirmek için Aspose.Tasks for Java'yı kullanma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
@@ -60,3 +66,9 @@ Evet, Aspose.Tasks for Java platformdan bağımsızdır ve hem Windows hem de Li
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java'yı nereden satın alabilirim?
  Aspose.Tasks for Java'yı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

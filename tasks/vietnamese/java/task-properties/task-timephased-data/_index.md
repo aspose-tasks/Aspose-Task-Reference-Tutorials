@@ -3,10 +3,16 @@ title: Dữ liệu theo thời gian của nhiệm vụ trong Aspose.Tasks
 linktitle: Dữ liệu theo thời gian của nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks dành cho Java và quản lý dữ liệu theo pha theo thời gian của tác vụ chính. Tải xuống thư viện, tận hưởng bản dùng thử miễn phí và hợp lý hóa việc theo dõi dự án của bạn.
-type: docs
 weight: 34
 url: /vi/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dữ liệu theo thời gian của nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc theo dõi chính xác dữ liệu theo thời gian của nhiệm vụ là rất quan trọng để thực hiện dự án hiệu quả. Aspose.Tasks cho Java nổi lên như một công cụ mạnh mẽ để hợp lý hóa quy trình này, cung cấp các tính năng mạnh mẽ và linh hoạt. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng Aspose.Tasks cho Java để quản lý dữ liệu theo pha thời gian của tác vụ một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -104,3 +110,9 @@ Trả lời: Có, Aspose.Tasks for Java tương thích với mọi dự án dự
  A: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho Java ở đâu?
  Trả lời: Bạn có thể mua Aspose.Tasks cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Özelliklerini Ayarlayın
 linktitle: Aspose.Tasks'ta Kaynak Özelliklerini Ayarlayın
 second_title: Aspose.Tasks Java API'si
 description: Kusursuz entegrasyon ve verimli görev yönetimi için Aspose.Tasks'ı kullanarak Java'da MS Project kaynak özelliklerini nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 20
 url: /tr/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Özelliklerini Ayarlayın
+
 ## giriiş
 Java geliştirme alanında görevleri verimli bir şekilde yönetmek, proje yönetiminin çok önemli bir yönüdür. Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarıyla etkileşim kurması için sağlam bir çözüm sunarak görev yönetimi işlevlerinin Java uygulamalarına kusursuz entegrasyonuna olanak tanır. Bu eğitimde Aspose.Tasks for Java'yı kullanarak MS Project kaynak özelliklerini ayarlamayı ele alacağız. Bu kılavuzun sonunda, Java projelerinizde kaynak özelliklerini nasıl yöneteceğiniz konusunda kapsamlı bir anlayışa sahip olacaksınız.
 ## Önkoşullar
@@ -63,3 +69,9 @@ Evet, Aspose.Tasks for Java, kapsamlı görev hiyerarşilerine sahip karmaşık 
  Geçici lisansı adresinden alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
 ### Aspose.Tasks for Java'nın lisanslı sürümünü nereden satın alabilirim?
  Aspose.Tasks for Java'nın lisanslı sürümünü şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройка представления диаграммы Гант
 linktitle: Настройка представления диаграммы Ганта в проектах Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как настроить представление диаграммы проекта Gantt MS Project в Aspose.Tasks с использованием Java. Настраивайте проекты и поэтапно визуализируйте их в диаграмме Ганта.
-type: docs
 weight: 10
 url: /ru/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка представления диаграммы Ганта в проектах Aspose.Tasks
+
 ## Введение
 В этом руководстве вы узнаете, как настроить представление диаграммы проекта Gantt MS Project в проектах Aspose.Tasks с использованием Java. Aspose.Tasks — это мощный Java API, который позволяет программно работать с файлами Microsoft Project. Выполнив эти шаги, вы сможете настроить представление диаграммы Ганта в соответствии с требованиями вашего проекта.
 ## Предварительные условия
@@ -76,3 +82,9 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
  О: Вы можете приобрести лицензию на[здесь](https://purchase.aspose.com/buy).
 ### Вопрос: Нужна ли мне временная лицензия для целей тестирования?
  О: Да, вы можете получить временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

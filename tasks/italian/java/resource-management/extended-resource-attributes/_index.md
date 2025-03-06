@@ -3,10 +3,16 @@ title: Gestisci in modo efficiente gli attributi di MS Project con Aspose.Tasks
 linktitle: Gestire gli attributi delle risorse estese in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire in modo efficiente gli attributi estesi delle risorse di Microsoft Project utilizzando Aspose.Tasks per Java. Passaggi semplici e guida completa.
-type: docs
 weight: 11
 url: /it/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci in modo efficiente gli attributi di MS Project con Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo come gestire in modo efficace gli attributi estesi delle risorse di Microsoft Project utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di codice, offrendo ampie funzionalità per la gestione di attività e risorse.
 ## Prerequisiti
@@ -83,3 +89,9 @@ Sì, gli sviluppatori possono utilizzare Aspose.Tasks per Java su diverse piatta
 Assolutamente, Aspose.Tasks può essere perfettamente integrato con altre librerie Java per migliorare la funzionalità e semplificare i processi di sviluppo.
 ### Il supporto tecnico è disponibile per gli utenti Aspose.Tasks?
 Sì, gli utenti possono accedere al supporto tecnico tramite il forum Aspose.Tasks, dove possono cercare assistenza e interagire con la comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

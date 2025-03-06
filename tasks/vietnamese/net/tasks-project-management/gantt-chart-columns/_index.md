@@ -3,10 +3,16 @@ title: Tùy chỉnh các cột biểu đồ Gantt bằng Aspose.Tasks
 linktitle: Cột biểu đồ Gantt trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách điều chỉnh các cột biểu đồ Gantt trong Aspose.Tasks cho .NET để hiển thị thông tin nhiệm vụ cụ thể một cách hiệu quả.
-type: docs
 weight: 21
 url: /vi/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh các cột biểu đồ Gantt bằng Aspose.Tasks
+
 ## Giới thiệu
 Biểu đồ Gantt là một công cụ cơ bản trong quản lý dự án, cung cấp sự trình bày trực quan về các nhiệm vụ, tiến trình và nguồn lực. Aspose.Tasks for .NET cung cấp các khả năng mạnh mẽ để thao tác biểu đồ Gantt, bao gồm tùy chỉnh các cột để hiển thị thông tin nhiệm vụ cụ thể. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các cột biểu đồ Gantt bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -99,3 +105,9 @@ Trả lời: Aspose.Tasks cho .NET cung cấp các API và tính năng toàn di�
 Đáp: Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn thêm một số lượng cột đáng kể vào biểu đồ Gantt mà không bị giới hạn.
 ### Câu hỏi: Tôi có thể tìm nguồn hỗ trợ và tài nguyên bổ sung cho Aspose.Tasks cho .NET ở đâu?
 Trả lời: Bạn có thể khám phá tài liệu, diễn đàn cộng đồng và các kênh hỗ trợ do Aspose.Tasks cung cấp cho .NET để truy cập các tài nguyên và hỗ trợ toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

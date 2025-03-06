@@ -3,10 +3,16 @@ title: Personalice la configuración de vista de página de MS Project en Aspose
 linktitle: Configuración de los ajustes de vista de página en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar los ajustes de vista de página en Aspose.Tasks para .NET para adaptar el formato de impresión de sus documentos de Microsoft Project.
-type: docs
 weight: 21
 url: /es/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalice la configuración de vista de página de MS Project en Aspose.Tasks
+
 ## Introducción
 Microsoft Project es una poderosa herramienta para la gestión de proyectos, pero a veces es necesario personalizar la forma en que se ve e imprime su proyecto. Con Aspose.Tasks para .NET, puede configurar fácilmente los ajustes de vista de página para satisfacer sus requisitos específicos. En este tutorial, lo guiaremos a través del proceso paso a paso.
 ## Requisitos previos
@@ -76,3 +82,9 @@ R: Sí, puedes ajustar la configuración de vista de página de forma independie
 R: Aspose.Tasks ofrece compatibilidad con Microsoft Project 2003 y versiones posteriores.
 ### P: ¿Dónde puedo encontrar más ayuda o soporte para Aspose.Tasks?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para cualquier consulta o problema que encuentre durante el uso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

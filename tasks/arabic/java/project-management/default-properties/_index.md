@@ -3,10 +3,16 @@ title: إدارة خصائص مشروع MS بكفاءة في Aspose.Tasks
 linktitle: إدارة خصائص المشروع الافتراضية في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة خصائص MS Project الافتراضية باستخدام Aspose.Tasks لـ Java. قم بتبسيط سير عمل إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خصائص مشروع MS بكفاءة في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى تبسيط عملية إدارة مشروعك باستخدام Aspose.Tasks لـ Java؟ يمكن أن تؤدي إدارة الخصائص الافتراضية في ملفات Microsoft Project إلى تحسين الكفاءة بشكل كبير. في هذا البرنامج التعليمي، سنتعرف على إرشادات خطوة بخطوة حول كيفية إدارة خصائص MS Project الافتراضية باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ System.out.println("Process completed Successfully");
  ج4: بالطبع! يمكنك الاستفادة من النسخة التجريبية المجانية من[موقع إلكتروني](https://releases.aspose.com/).
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  ج5: يمكنك الحصول على ترخيص مؤقت من[صفحة الشراء](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

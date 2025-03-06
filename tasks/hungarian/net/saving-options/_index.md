@@ -3,10 +3,16 @@ title: Aspose.Tasks Mentési lehetőségek
 linktitle: Aspose.Tasks Mentési lehetőségek
 second_title: Aspose.Tasks .NET API
 description: Mentse, konvertálja és kezelje az MS Project fájlokat az Aspose.Tasks for .NET segítségével. Fedezze fel a HTML-hez, képekhez, PDF-ekhez, Primaverához, sablonokhoz és egyebekhez szóló, lépésről lépésre szóló oktatóanyagokat.
-type: docs
 weight: 20
 url: /hu/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Mentési lehetőségek
+
 
 ## Bevezetés
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 MS Project Options mentése az Aspose.Tasks segítségé
 Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET-et Microsoft Project-fájlok SVG-reprezentációinak egyszerű létrehozásához a továbbfejlesztett projektvizualizáció érdekében.
 ### [Konvertálja az MSP-t XPS-beállításokká az Aspose.Tasks segítségével](./xps-options/)
 Ismerje meg, hogyan konvertálhat Microsoft Project fájlokat XPS formátumba az Aspose.Tasks for .NET segítségével. Könnyű integráció, robusztus funkcionalitás.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

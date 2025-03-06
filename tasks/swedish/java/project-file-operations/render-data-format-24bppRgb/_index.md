@@ -3,10 +3,16 @@ title: Rendera MS Project Data med formatet 24bppRgb i Aspose.Tasks
 linktitle: Rendera data med formatet 24bppRgb i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du renderar MS Project-data som bilder i Java med Aspose.Tasks. Följ vår steg-för-steg handledning för sömlös integration.
-type: docs
 weight: 11
 url: /sv/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendera MS Project Data med formatet 24bppRgb i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen guidar vi dig genom processen att rendera data med MS Project-formatet 24bppRgb med Aspose.Tasks för Java. Att rendera projektdata till ett bildformat kan vara användbart för olika ändamål som att dela projektförlopp visuellt eller skapa rapporter.
 ## Förutsättningar
@@ -63,3 +69,9 @@ S: Ja, du kan anpassa upplösningen och pixelformatet enligt dina krav med Aspos
  S: Ja, du måste köpa en licens för kommersiell användning av Aspose.Tasks. Du kan få en tillfällig licens för teständamål från[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag få support för Aspose.Tasks?
  S: Du kan få support för Aspose.Tasks från[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

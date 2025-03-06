@@ -3,10 +3,16 @@ title: Konfigurace zabezpečení PDF Aspose.Tasks
 linktitle: Konfigurace zabezpečení PDF Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak zvýšit zabezpečení vašich souborů Microsoft Project PDF pomocí Aspose.Tasks for .NET. Naučte se techniky digitálního podpisu a šifrování.
-type: docs
 weight: 35
 url: /cs/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace zabezpečení PDF Aspose.Tasks
+
 ## Úvod
 
 digitální sféře je ochrana vašich projektových souborů prvořadá. Aspose.Tasks for .NET poskytuje robustní řešení pro posílení bezpečnosti vašich souborů Microsoft Project PDF. Tato série výukových programů se ponoří do složitosti konfigurace zabezpečení PDF a zajistí důvěrnost a autenticitu vašich cenných projektových dat.
@@ -36,3 +42,9 @@ Ve světě, kde o zabezpečení dat nelze vyjednávat, je zvládnutí konfigurac
 Naučte se konfigurovat podrobnosti digitálního podpisu Microsoft Project PDF pomocí Aspose.Tasks for .NET. Zajistěte bezpečnost a autenticitu souborů projektu.
 ### [Nakonfigurujte podrobnosti o šifrování PDF MS Project v Aspose.Tasks](./pdf-encryption-details/)
 Naučte se, jak nakonfigurovat podrobnosti šifrování MS Project PDF v Aspose.Tasks pro .NET. Zabezpečte své projektové soubory hesly uživatelů a vlastníků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

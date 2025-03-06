@@ -3,10 +3,16 @@ title: Aspose.Tasks でのタスク コレクションの管理
 linktitle: Aspose.Tasks でのタスク コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET での効率的なタスク コレクション管理を検討してください。作成から編集まで、プロジェクト管理を簡単にマスターします。
-type: docs
 weight: 18
 url: /ja/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのタスク コレクションの管理
+
 ## 導入
 .NET を使用したプロジェクト管理の世界を詳しく調べている場合は、タスク コレクションをシームレスに処理するための Aspose.Tasks が頼りになるソリューションです。このチュートリアルでは、タスク コレクションを効率的に管理するプロセスをガイドし、この強力なライブラリを最大限に活用できるようにします。
 ## 前提条件
@@ -95,3 +101,9 @@ foreach (var task in tasks)
 はい、次の場所でサポートを見つけたり、コミュニティに参加したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks の一時ライセンスを取得できますか?
 はい、仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

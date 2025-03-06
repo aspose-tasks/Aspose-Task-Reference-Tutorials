@@ -3,10 +3,16 @@ title: إتقان أيام الأسبوع في Aspose.Tasks
 linktitle: مجموعة من أيام الأسبوع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في إدارة أيام الأسبوع دون عناء. قم بتخصيص أيام العمل وإزالة عطلات نهاية الأسبوع وإنشاء تقويمات متخصصة بسهولة.
-type: docs
 weight: 11
 url: /ar/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أيام الأسبوع في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسهل المعالجة الفعالة لبيانات إدارة المشروع. في هذا البرنامج التعليمي، سوف نستكشف مجموعة أيام الأسبوع في Aspose.Tasks، مما يتيح لك تخصيص أيام العمل، وإزالة عطلات نهاية الأسبوع، وإنشاء تقويمات متخصصة لتلبية متطلبات مشروعك. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا الدليل خطوة بخطوة خلال عملية العمل مع أيام الأسبوع في Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
  ج: راجع[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/) للحصول على معلومات مفصلة.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك الحصول على ترخيص مؤقت من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

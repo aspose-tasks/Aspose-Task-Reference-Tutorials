@@ -3,10 +3,16 @@ title: Łatwe zarządzanie widokami projektów MS za pomocą Aspose.Tasks .NET
 linktitle: Zbiór widoków w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Poznaj Aspose.Tasks dla .NET i opanuj sztukę łatwego zarządzania widokami MS Project. Pobierz teraz, aby uzyskać płynne zarządzanie projektami.
-type: docs
 weight: 11
 url: /pl/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Łatwe zarządzanie widokami projektów MS za pomocą Aspose.Tasks .NET
+
 ## Wstęp
 Witamy w świecie Aspose.Tasks dla .NET, potężnej biblioteki, która umożliwia programistom efektywne zarządzanie widokami Microsoft Project w ich aplikacjach .NET. W tym samouczku zagłębimy się w podstawy obsługi widoków MS Project przy użyciu Aspose.Tasks, zapewniając krok po kroku przewodnik zwiększający możliwości zarządzania projektami.
 ## Warunki wstępne
@@ -95,3 +101,9 @@ Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://re
  Nawiąż kontakt ze społecznością Aspose.Tasks na stronie[forum](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.
 ### Czy dostępne są licencje tymczasowe dla Aspose.Tasks?
  Tak, sprawdź licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

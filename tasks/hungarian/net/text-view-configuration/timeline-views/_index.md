@@ -3,10 +3,16 @@ title: A projekt idővonalainak nézeteinek elsajátítása az Aspose.Tasks prog
 linktitle: Az Aspose.Tasks idővonal-nézeteinek testreszabása
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET az idővonal nézetek testreszabásában. Javítsa projektmenedzsmentjét a projekt igényeihez szabott, tetszetős idővonalakkal.
-type: docs
 weight: 13
 url: /hu/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A projekt idővonalainak nézeteinek elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 A látványos és informatív idővonal-nézetek létrehozása kulcsfontosságú a hatékony projektmenedzsmenthez. Az Aspose.Tasks for .NET robusztus megoldást kínál az idővonal-nézetek testreszabására, lehetővé téve a feladatok megjelenítésének testreszabását a projekt sajátos igényei szerint. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan használhatja az Aspose.Tasks-t az idővonal-nézetek könnyű létrehozásához és testreszabásához.
 ## Előfeltételek
@@ -76,3 +82,9 @@ Teljesen! Az Aspose.Tasks rugalmasságot biztosít az egyes feladatok megjelené
  Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

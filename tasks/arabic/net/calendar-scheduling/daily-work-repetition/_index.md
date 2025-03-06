@@ -3,10 +3,16 @@ title: تكرار العمل اليومي في Aspose.Tasks
 linktitle: تكرار العمل اليومي في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إنشاء مهام متكررة يومية في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. تعزيز الإنتاجية والتنظيم دون عناء.
-type: docs
 weight: 26
 url: /ar/net/calendar-scheduling/daily-work-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكرار العمل اليومي في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET هي مكتبة قوية تمكن المطورين من التعامل مع ملفات Microsoft Project بسهولة. ومن بين ميزاته التي لا تعد ولا تحصى القدرة على التعامل مع المهام المتكررة بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في وظيفة تكرار العمل اليومي، والتي تسمح بإنشاء المهام التي تتكرر يوميًا داخل المشروع.
@@ -98,3 +104,9 @@ task.Set(Tsk.Start, new DateTime(2020, 4, 27, 8, 0, 0));
 ### س5: هل يقدم Aspose.Tasks الدعم الفني؟
 
 ج5: نعم، توفر Aspose.Tasks دعمًا فنيًا شاملاً من خلال المنتدى الخاص بها، حيث يمكنك طلب المساعدة وتبادل الخبرات والتفاعل مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

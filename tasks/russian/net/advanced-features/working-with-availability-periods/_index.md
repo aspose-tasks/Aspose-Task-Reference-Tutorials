@@ -3,10 +3,16 @@ title: Работа с периодами доступности в Aspose.Tasks
 linktitle: Работа с периодами доступности в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять периодами доступности ресурсов с помощью Aspose.Tasks для .NET. В этом руководстве представлено пошаговое руководство по работе с периодами доступности в проектах .NET.
-type: docs
 weight: 17
 url: /ru/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с периодами доступности в Aspose.Tasks
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как работать с периодами доступности в Aspose.Tasks для .NET. Периоды доступности имеют решающее значение для эффективного управления ресурсами в сценариях управления проектами. Мы проведем вас через этот процесс шаг за шагом.
@@ -107,3 +113,9 @@ foreach (var period in resource.AvailabilityPeriods)
 ### Вопрос 5: Предлагаете ли вы временные лицензии на Aspose.Tasks для .NET?
 
  О5: Да, доступны временные лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Azonosítsa a projektközi feladatokat az Aspose.Tasks-ban
 linktitle: Azonosítsa a projektközi feladatokat az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel a projektek közötti feladat-azonosítást az Aspose.Tasks for Java segítségével. Zökkenőmentes integráció és hatékony kezelés. Letöltés most!
-type: docs
 weight: 14
 url: /hu/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Azonosítsa a projektközi feladatokat az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban a projektek közötti feladatok hatékony azonosításáról az Aspose.Tasks for Java segítségével. Akár tapasztalt fejlesztő, akár kezdő, ez az útmutató végigvezeti Önt a funkció Java-projektekbe való zökkenőmentes integrálásának folyamatán.
 ## Előfeltételek
@@ -60,3 +66,9 @@ V: Igen, az Aspose.Tasks több programozási nyelvet támogat, beleértve a Java
  V: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Segítségre van szüksége, vagy konkrét kérdései vannak?
 V: Látogassa meg az Aspose.Tasks támogatási fórumot[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

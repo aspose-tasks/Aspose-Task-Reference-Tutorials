@@ -3,10 +3,16 @@ title: Az MS Project megjelenítési beállításainak konfigurálása az Aspose
 linktitle: Projektmegjelenítési beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja programozottan az MS Project megjelenítési beállításait az Aspose.Tasks for .NET használatával. Könnyedén testreszabhatja projektje megjelenését.
-type: docs
 weight: 17
 url: /hu/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project megjelenítési beállításainak konfigurálása az Aspose.Tasks-ban
+
 ## Bevezetés
 Microsoft Project számos megjelenítési lehetőséget kínál a projekt megjelenésének testreszabásához. Az Aspose.Tasks for .NET robusztus keretrendszert biztosít ezen beállítások programozott kezeléséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan konfigurálhatjuk az MS Project megjelenítési beállításait az Aspose.Tasks segítségével.
 ## Előfeltételek
@@ -85,3 +91,9 @@ V: Nem, egyes beállítások az MS Project bizonyos verzióira vonatkozhatnak. A
 V: Igen, az Aspose.Tasks API segítségével visszaállíthatja a megjelenítési beállításokat az alapértelmezett értékekre.
 ### K: Vannak korlátai a megjelenítési beállítások programozott testreszabásának?
 V: Míg az Aspose.Tasks kiterjedt testreszabási lehetőségeket biztosít, előfordulhat, hogy bizonyos megjelenítési lehetőségek nem érhetők el programozottan az MS Project fájlformátumának korlátai miatt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

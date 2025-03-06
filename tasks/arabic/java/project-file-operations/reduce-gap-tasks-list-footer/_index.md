@@ -3,10 +3,16 @@ title: تقليل الفجوة بين قائمة المهام والتذييل �
 linktitle: تقليل الفجوة بين قائمة المهام والتذييل في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تقليل الفجوة بين قوائم مهام MS Project والتذييلات باستخدام Aspose.Tasks لـ Java. تحسين تخطيط وثيقة المشروع دون عناء.
-type: docs
 weight: 10
 url: /ar/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقليل الفجوة بين قائمة المهام والتذييل في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في تقليل الفجوة بين قائمة المهام والتذييل في ملفات Microsoft Project باستخدام Aspose.Tasks لـ Java. باتباع هذه الخطوات، ستتمكن من تحسين تخطيط مستندات مشروعك دون عناء.
 ## المتطلبات الأساسية
@@ -105,3 +111,9 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ### س: أين يمكنني الحصول على الدعم إذا واجهت أية مشكلات أثناء استخدام Aspose.Tasks؟
 
  ج: يمكنك الحصول على المساعدة من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

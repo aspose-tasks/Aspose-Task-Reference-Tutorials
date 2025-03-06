@@ -3,10 +3,16 @@ title: Handle Estimated and Milestone Tasks in Aspose.Tasks
 linktitle: Handle Estimated and Milestone Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore effective project management with Aspose.Tasks for Java. Handle estimated and milestone tasks effortlessly. Download the library now!
-type: docs
 weight: 15
 url: /java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Estimated and Milestone Tasks in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java is a powerful library that facilitates handling tasks, managing projects, and manipulating project data effortlessly. In this tutorial, we'll focus on a crucial aspect of project management – handling estimated and milestone tasks using Aspose.Tasks for Java.
 ## Prerequisites
@@ -60,3 +66,10 @@ The Aspose.Tasks community forum at [Aspose.Tasks Forum](https://forum.aspose.co
 Yes, you can access a free trial of Aspose.Tasks [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Tasks?
 You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

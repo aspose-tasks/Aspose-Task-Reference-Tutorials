@@ -3,10 +3,16 @@ title: Repetição diária do calendário em Aspose.Tasks
 linktitle: Repetição diária do calendário em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como criar tarefas recorrentes com repetições diárias de calendário em Aspose.Tasks for .NET. Aumente a eficiência do gerenciamento de projetos sem esforço.
-type: docs
 weight: 25
 url: /pt/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Repetição diária do calendário em Aspose.Tasks
+
 ## Introdução
 
  Aspose.Tasks for .NET fornece um poderoso conjunto de ferramentas para gerenciar tarefas e projetos de forma programática. Uma de suas características notáveis é a capacidade de lidar com repetições diárias do calendário com eficiência. Neste tutorial, exploraremos como utilizar o`DailyCalendarRepetition` classe junto com outras classes relevantes para criar tarefas recorrentes com repetições diárias baseadas em um calendário especificado.
@@ -117,3 +123,9 @@ A4: Certamente, Aspose.Tasks oferece opções de visualização para ajudá-lo a
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks?
 
  A5: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/) para explorar seus recursos antes de fazer uma compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Frissítse az MS Project Calendars-t MPP formátumra az Aspose.Tasks seg�
 linktitle: Frissítse a naptárt MPP formátumra az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan frissítheti az MS Project naptárait könnyedén MPP formátumra az Aspose.Tasks for Java segítségével.
-type: docs
 weight: 16
 url: /hu/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse az MS Project Calendars-t MPP formátumra az Aspose.Tasks segítségével
+
 ## Bevezetés
 
 A projektmenedzsment területén a különböző fájlformátumok kezelése kulcsfontosságú a zökkenőmentes együttműködés és a hatékony munkafolyamat szempontjából. Az Aspose.Tasks for Java robusztus megoldást kínál a Microsoft Project fájlok manipulálására, megkönnyítve például az MS Project naptárainak MPP formátumra frissítését. Ebben az oktatóanyagban az Aspose.Tasks for Java használatával való végrehajtásához szükséges lépésekkel foglalkozunk.
@@ -116,3 +122,9 @@ Ezen lépések aprólékos követésével könnyedén frissítheti az MS Project
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for Java számára?
 
  5. válasz: Az Aspose.Tasks for Java ideiglenes licencének beszerzéséhez látogasson el a webhelyre[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

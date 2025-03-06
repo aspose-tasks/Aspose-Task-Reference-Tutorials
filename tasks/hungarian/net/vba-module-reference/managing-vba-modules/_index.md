@@ -3,10 +3,16 @@ title: VBA-modulok kezelése az Aspose.Tasks-ban
 linktitle: VBA-modulok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Könnyedén kezelheti a VBA modulokat a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével. Fedezze fel a lépésről lépésre szóló útmutatást, és javítsa fejlesztési munkafolyamatát.
-type: docs
 weight: 10
 url: /hu/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA-modulok kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak .NET-alkalmazásaikban. Az Aspose.Tasks egyik legfontosabb jellemzője, hogy képes VBA (Visual Basic for Applications) modulokat kezelni a Project fájlokon belül. Ebben az oktatóanyagban részletesen bemutatjuk a VBA-modulok Aspose.Tasks használatával történő kezelésének folyamatát.
 ## Előfeltételek
@@ -74,3 +80,9 @@ Teljesen! Az Aspose.Tasks módszereket biztosít a VBA-modulok forráskódjának
 Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Tasks-szal kapcsolatos problémákhoz?
 Nyugodtan látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理项目集合
 linktitle: 在 Aspose.Tasks 中管理组集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效管理 MS Project 集合。请遵循我们的分步指南。
-type: docs
 weight: 26
 url: /zh/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理项目集合
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 管理组 MS Project 集合。管理组集合对于在项目中有效地组织和操作任务和资源至关重要。
 ## 先决条件
@@ -108,3 +114,9 @@ Aspose.Tasks for .NET 主要针对 .NET 框架，但它可以用于 .NET Core �
 您可以通过以下方式获得对 Aspose.Tasks for .NET 的支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for .NET 是否有试用版？
 是的，您可以从以下位置下载 Aspose.Tasks for .NET 的免费试用版：[网站](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

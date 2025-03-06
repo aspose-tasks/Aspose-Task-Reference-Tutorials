@@ -3,10 +3,16 @@ title: Aspose.Tasks 中大纲代码的集合 MS 项目
 linktitle: Aspose.Tasks中大纲代码的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 收集 Microsoft Project 大纲代码。这个综合教程提供了分步说明。
-type: docs
 weight: 11
 url: /zh/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中大纲代码的集合 MS 项目
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 收集 Microsoft Project 大纲代码。我们将把该过程分解为分步说明，以确保清晰度和理解性。
 ## 先决条件
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 答：当然，Aspose.Tasks for .NET 提供了广泛的选项，可根据您的要求自定义输出格式。
 ### 问：在哪里可以找到 Aspose.Tasks for .NET 的其他支持或资源？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)有关 Aspose.Tasks for .NET 的任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

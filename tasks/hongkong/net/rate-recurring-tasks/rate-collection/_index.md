@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 專案費率
 linktitle: Aspose.Tasks 中的費率收集
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 管理 MS Project 檔案中的費率。有效資源管理的逐步教學。
-type: docs
 weight: 11
 url: /zh-hant/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 專案費率
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Tasks for .NET 在 MS Project 中管理費率的教學！在本指南中，我們將引導您完成使用 Aspose.Tasks 處理 MS Project 檔案中的費率的過程。無論您是經驗豐富的開發人員還是剛開始 .NET 開發，本教學都將為您提供有效處理專案中的速率的分步說明。
 ## 先決條件
@@ -110,3 +116,9 @@ foreach (var rt in list)
 答：是的，您可以免費試用 Aspose.Tasks for .NET 來評估其功能以及與您的要求的兼容性。
 ### Q：如何購買 Aspose.Tasks for .NET 的授權？
 答：您可以從 Aspose.Tasks for .NET 購買許可證[網站](https://purchase.aspose.com/temporary-license/)，它提供了靈活的許可選項來滿足您的需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

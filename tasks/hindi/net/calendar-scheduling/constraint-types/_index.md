@@ -3,10 +3,16 @@ title: Aspose.Tasks में बाधा प्रकार
 linktitle: Aspose.Tasks में बाधा प्रकार
 second_title: Aspose.Tasks .NET API
 description: प्रोजेक्ट शेड्यूल को कुशलतापूर्वक प्रबंधित करने के लिए .NET के लिए Aspose.Tasks में बाधा प्रकार सेट करना सीखें।
-type: docs
 weight: 17
 url: /hi/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में बाधा प्रकार
+
 ## परिचय
 
 .NET में प्रोजेक्ट प्रबंधन के साथ काम करते समय, यह समझना महत्वपूर्ण है कि कार्यों में विभिन्न बाधाओं को कैसे लागू किया जाए। .NET के लिए Aspose.Tasks परियोजना बाधाओं को कुशलतापूर्वक प्रबंधित करने के लिए उपकरणों का एक व्यापक सेट प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.Tasks में उपलब्ध विभिन्न बाधाओं के प्रकारों और उन्हें चरण दर चरण कैसे कार्यान्वित करें, इस पर विस्तार से चर्चा करेंगे।
@@ -83,3 +89,9 @@ A4: हाँ, Aspose.Tasks को छोटे कार्यों से ल
 ### Q5: Aspose.Tasks-संबंधित प्रश्नों के लिए मुझे सहायता कहाँ से मिल सकती है?
 
  A5: आप Aspose.Tasks पर जाकर उनके लिए समर्थन प्राप्त कर सकते हैं[मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

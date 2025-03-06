@@ -3,10 +3,16 @@ title: Gestion efficace des écarts de projet avec Aspose.Tasks
 linktitle: Gérer les écarts dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les écarts de projet avec Aspose.Tasks pour Java. Gérez les écarts de travail, de coûts, de début et de fin sans effort.
-type: docs
 weight: 15
 url: /fr/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion efficace des écarts de projet avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment gérer les variations dans Aspose.Tasks pour Java. Les écarts sont des écarts par rapport aux valeurs planifiées, telles que le travail, le coût, les dates de début ou de fin, dans la gestion de projet. Aspose.Tasks fournit des méthodes efficaces pour récupérer et gérer ces écarts, aidant ainsi les développeurs à analyser et à ajuster efficacement les calendriers des projets.
 ## Conditions préalables
@@ -65,3 +71,9 @@ R : Certes, Aspose.Tasks fournit des fonctionnalités étendues pour personnalis
  R : Oui, les utilisateurs peuvent accéder au support technique via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour toute aide ou question.
 ### Q : Puis-je essayer Aspose.Tasks avant d'acheter ?
  R : Oui, vous pouvez bénéficier d’un essai gratuit d’Aspose.Tasks depuis[ici](https://releases.aspose.com/) pour évaluer ses fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

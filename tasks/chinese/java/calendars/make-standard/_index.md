@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中制作标准日历
 linktitle: 在Aspose.Tasks中制作标准日历
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中创建标准 MS Project 日历。通过此分步教程增强您的项目管理能力。
-type: docs
 weight: 14
 url: /zh/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中制作标准日历
+
 
 ## 介绍
 在本教程中，我们将深入研究 Aspose.Tasks for Java 的世界，这是一个功能强大的库，允许开发人员无缝操作 Microsoft Project 文件。具体来说，我们将专注于使用 Aspose.Tasks 创建标准 MS Project 日历。读完本指南后，您将对如何在 Java 应用程序中实现此功能有深入的了解。
@@ -63,3 +69,9 @@ System.out.println("Process completed Successfully");
 答：是的，开发人员可以通过 Aspose.Tasks 论坛获得全面的技术支持，确保及时为任何疑问或问题提供帮助。
 ### 问：我可以在购买前试用 Aspose.Tasks 吗？
 答：是的，您可以通过以下网站上提供的免费试用版探索 Aspose.Tasks：[网站](https://purchase.aspose.com/buy)，让您可以在做出决定之前评估其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

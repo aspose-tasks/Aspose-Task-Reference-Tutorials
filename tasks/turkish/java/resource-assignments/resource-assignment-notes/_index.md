@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Atamaları için Notları Yönetme
 linktitle: Aspose.Tasks'ta Kaynak Atamaları için Notları Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da kaynak atamalarına ilişkin notları nasıl yöneteceğinizi öğrenin. Kusursuz entegrasyon için adım adım eğitim.
-type: docs
 weight: 21
 url: /tr/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Atamaları için Notları Yönetme
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak kaynak atamalarına ilişkin notları yönetmeyi ayrıntılı olarak ele alacağız. Aspose.Tasks, proje yönetimi görevlerini verimli bir şekilde gerçekleştirmek için tasarlanmış güçlü bir Java kütüphanesidir. Bu eğitim, not yönetimini proje iş akışlarınıza sorunsuz bir şekilde entegre etmenizi sağlayacak şekilde süreç boyunca size adım adım rehberlik edecektir.
 ## Önkoşullar
@@ -76,3 +82,9 @@ Aspose.Tasks for Java; IntelliJ IDEA, Eclipse ve NetBeans dahil tüm Java IDE'le
 Hayır, deneme süresi boyunca geçici lisansa gerek yoktur. Deneme sürümünü herhangi bir lisansa ihtiyaç duymadan kullanabilirsiniz.
 ### Aspose.Tasks for Java'yı nereden satın alabilirim?
 Aspose.Tasks for Java'yı satın alma sayfasından satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

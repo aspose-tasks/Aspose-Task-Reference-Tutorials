@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.Tasks dla Java
 linktitle: Aspose.Tasks dla samouczków Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Poznaj Aspose.Tasks dla Java dzięki naszym samouczkom. Kalendarz główny, zarządzanie projektami i nie tylko. Usprawnij przepływ pracy, aby efektywnie realizować projekty.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.Tasks dla Java
+
 
 ## Wstęp
 Czy jesteś gotowy, aby podnieść swoje umiejętności zarządzania projektami Java? Zanurz się w świat Aspose.Tasks dla Java dzięki naszym obszernym samouczkom obejmującym różne aspekty zarządzania projektami. Od wyjątków kalendarza po integrację z VBA – mamy wszystko, czego potrzebujesz.
@@ -93,3 +98,9 @@ Poznaj Javę Aspose.Tasks dzięki naszym samouczkom dotyczącym baz zadań. Uspr
 Ulepsz zarządzanie projektami Java dzięki Aspose.Tasks. Zapoznaj się z samouczkami na temat właściwości zadań, od obsługi priorytetów po zarządzanie kosztami. Zoptymalizuj swój projekt już dziś!
 ### [Integracja z VBA](./vba-integration/)
 Poznaj Aspose.Tasks Java z integracją VBA. Usprawnij przepływ pracy w projektach i usprawnij śledzenie zadań. Zapoznaj się z obszernymi samouczkami dotyczącymi bezproblemowej integracji z VBA!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

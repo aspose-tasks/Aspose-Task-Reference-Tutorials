@@ -3,10 +3,16 @@ title: Raccolta MS Project di codici di struttura in Aspose.Tasks
 linktitle: Raccolta di codici di struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come raccogliere codici di struttura di Microsoft Project utilizzando Aspose.Tasks per .NET. Questo tutorial completo fornisce istruzioni dettagliate.
-type: docs
 weight: 11
 url: /it/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccolta MS Project di codici di struttura in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come raccogliere i codici di struttura di Microsoft Project utilizzando Aspose.Tasks per .NET. Suddivideremo il processo in istruzioni dettagliate per garantire chiarezza e comprensione.
 ## Prerequisiti
@@ -95,3 +101,9 @@ R: Sì, Aspose.Tasks per .NET supporta varie versioni di Microsoft Project, comp
 R: Assolutamente, Aspose.Tasks per .NET fornisce ampie opzioni per personalizzare il formato di output in base alle proprie esigenze.
 ### D: Dove posso trovare ulteriore supporto o risorse per Aspose.Tasks per .NET?
  R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per qualsiasi assistenza o domanda riguardante Aspose.Tasks per .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

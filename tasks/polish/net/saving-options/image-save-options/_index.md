@@ -3,10 +3,16 @@ title: Obraz Zapisz opcje MS Project dla Aspose.Tasks
 linktitle: Opcje zapisywania obrazu dla Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisywać opcje MS Project jako obrazy przy użyciu Aspose.Tasks dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 11
 url: /pl/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obraz Zapisz opcje MS Project dla Aspose.Tasks
+
 
 ## Wstęp
 W świecie tworzenia oprogramowania wydajna realizacja zadań projektowych ma kluczowe znaczenie dla skutecznego zarządzania projektami. Aspose.Tasks dla .NET oferuje potężne rozwiązanie dla programistów pracujących z plikami Microsoft Project, umożliwiając im płynne manipulowanie, konwertowanie i zarządzanie zadaniami projektowymi w aplikacjach .NET.
@@ -76,3 +82,9 @@ Odp.: Tak, Aspose.Tasks dla .NET jest kompatybilny z różnymi frameworkami .NET
 O: Tak, możesz dostosować opcje zapisywania obrazu zgodnie ze swoimi specyficznymi wymaganiami, takimi jak rozmiar strony, rozdzielczość lub format wyjściowy.
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Tasks dla .NET?
  Odp.: Możesz znaleźć wsparcie i pomoc dla Aspose.Tasks dla .NET na[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maîtriser les valeurs générales de MS Project avec Aspose.Tasks
 linktitle: Gestion des valeurs de plan dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les valeurs de plan MS Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez facilement les grandes lignes du projet.
-type: docs
 weight: 16
 url: /fr/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les valeurs générales de MS Project avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment gérer les valeurs de plan Microsoft Project à l'aide de la bibliothèque Aspose.Tasks pour .NET. Avec Aspose.Tasks, vous pouvez facilement manipuler les codes hiérarchiques, créer de nouvelles valeurs hiérarchiques et personnaliser les contours du projet en fonction de vos besoins.
 ## Conditions préalables
@@ -76,3 +82,9 @@ R : Oui, Aspose.Tasks est compatible avec divers frameworks .NET, garantissant a
  : Oui, vous pouvez acheter une licence temporaire pour Aspose.Tasks auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je trouver une documentation détaillée pour Aspose.Tasks ?
  R : Vous pouvez vous référer à la documentation complète disponible[ici](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

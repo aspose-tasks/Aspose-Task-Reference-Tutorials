@@ -3,10 +3,16 @@ title: 管理 Aspose.Tasks 中的 MS Project Online 异常
 linktitle: 在 Aspose.Tasks 中处理 Project Online 异常
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 无缝处理 Microsoft Project Online 异常。有效项目管理的分步教程。
-type: docs
 weight: 21
 url: /zh/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Aspose.Tasks 中的 MS Project Online 异常
+
 ## 介绍
 在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 处理 Microsoft Project Online 异常的复杂性。 Aspose.Tasks 是一个功能强大的.NET API，允许开发人员轻松操作和管理 Microsoft Project 文件。我们将逐步完成该过程，确保全面了解如何在 .NET 应用程序中使用 MS Project Online 异常。
 ## 先决条件
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 答：您可以从 Aspose.Tasks 社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：如何购买 Aspose.Tasks 的许可证？
 答：您可以从以下位置购买 Aspose.Tasks 的许可证：[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

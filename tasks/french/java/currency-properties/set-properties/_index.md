@@ -3,10 +3,16 @@ title: Définir les propriétés de devise dans les projets Aspose.Tasks
 linktitle: Définir les propriétés de devise dans les projets Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment définir les propriétés monétaires dans les projets Aspose.Tasks à l'aide de Java. Manipulez les fichiers Microsoft Project sans effort.
-type: docs
 weight: 11
 url: /fr/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir les propriétés de devise dans les projets Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment définir les propriétés de devise dans les projets Aspose.Tasks à l'aide de Java. Aspose.Tasks est une puissante bibliothèque Java qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme.
 ## Conditions préalables
@@ -64,3 +70,9 @@ Absolument, Aspose.Tasks offre une flexibilité dans la définition de formats d
 Oui, Aspose.Tasks peut être intégré de manière transparente à d’autres bibliothèques et frameworks Java, améliorant ainsi sa fonctionnalité et sa polyvalence.
 ### Où puis-je trouver une assistance ou une assistance supplémentaire pour Aspose.Tasks ?
  Pour une assistance supplémentaire, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), où vous pouvez trouver des ressources utiles et interagir avec la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

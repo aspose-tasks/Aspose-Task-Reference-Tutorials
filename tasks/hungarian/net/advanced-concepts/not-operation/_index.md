@@ -3,10 +3,16 @@ title: A NOT művelet használata az Aspose.Tasks-ban
 linktitle: A NOT művelet használata az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan használhatja a NOT műveletet az Aspose.Tasks for .NET-ben a feladatok hatékony szűrésére. Bővítse projektkezelési képességeit most.
-type: docs
 weight: 20
 url: /hu/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A NOT művelet használata az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a NOT műveletet az Aspose.Tasks for .NET-ben. A NOT művelet lehetővé teszi egy szűrőfeltétel megfordítását, lehetővé téve olyan elemek kiválasztását, amelyek nem felelnek meg egy meghatározott kritériumnak.
@@ -114,3 +120,9 @@ V: Igen, az Aspose.Tasks különféle .NET-keretrendszereket támogat, beleértv
 ### 5. kérdés: Hol találom az Aspose.Tasks átfogó dokumentációját?
 
  V: A teljes dokumentációt a következő oldalon érheti el[Aspose.Tasks dokumentációs oldal](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

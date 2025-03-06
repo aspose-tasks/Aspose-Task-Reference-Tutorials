@@ -3,10 +3,16 @@ title: Gestion des exceptions de calendrier dans Aspose.Tasks
 linktitle: Gestion des exceptions de calendrier dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les exceptions de calendrier dans Aspose.Tasks pour .NET avec des didacticiels et des exemples étape par étape.
-type: docs
 weight: 12
 url: /fr/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des exceptions de calendrier dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment gérer les exceptions de calendrier dans Aspose.Tasks à l'aide du framework .NET. Les exceptions de calendrier nous permettent de définir des dates ou des périodes spéciales dans le calendrier d'un projet où l'horaire de travail régulier est modifié, comme les jours fériés ou les fermetures temporaires. Nous aborderons étape par étape diverses méthodes pour gérer les exceptions de calendrier, à l’aide d’Aspose.Tasks pour .NET.
@@ -156,3 +162,9 @@ A4 : Aspose.Tasks prend en charge différents types d'exceptions, notamment les
 ### Q5 : Puis-je personnaliser les heures de travail pour des dates d'exception spécifiques ?
 
 A5 : Oui, vous pouvez définir des horaires de travail personnalisés pour des dates d'exception individuelles en utilisant les méthodes appropriées fournies par Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

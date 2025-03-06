@@ -3,10 +3,16 @@ title: Освоение значений структуры проекта MS с
 linktitle: Управление значениями структуры в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять значениями структуры MS Project с помощью Aspose.Tasks для .NET. С легкостью настраивайте контуры проектов.
-type: docs
 weight: 16
 url: /ru/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение значений структуры проекта MS с помощью Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как управлять значениями структуры Microsoft Project с помощью библиотеки Aspose.Tasks для .NET. С помощью Aspose.Tasks вы можете легко манипулировать кодами структуры, создавать новые значения схемы и настраивать схемы проекта в соответствии с вашими требованиями.
 ## Предварительные условия
@@ -76,3 +82,9 @@ outline2.Values.Add(value2);
 О: Да, вы можете приобрести временную лицензию для Aspose.Tasks на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу найти подробную документацию по Aspose.Tasks?
  О: Вы можете обратиться к доступной подробной документации.[здесь](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

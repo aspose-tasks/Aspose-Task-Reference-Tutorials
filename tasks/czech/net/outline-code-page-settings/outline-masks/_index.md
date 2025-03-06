@@ -3,10 +3,16 @@ title: Zvládnutí masky osnovy Microsoft Project v Aspose.Tasks
 linktitle: Práce s obrysovými maskami v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se pracovat se soubory Microsoft Project programově pomocí Aspose.Tasks for .NET. Ovládněte masky obrysů efektivně.
-type: docs
 weight: 14
 url: /cs/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí masky osnovy Microsoft Project v Aspose.Tasks
+
 ## Úvod
 V oblasti řízení projektů a sledování úkolů je Microsoft Project základním nástrojem. Nicméně, pokud jde o manipulaci a správu projektových souborů programově, Aspose.Tasks for .NET se ukazuje jako výkonné řešení. Tento tutoriál se ponoří do jednoho konkrétního aspektu práce se soubory MS Project pomocí Aspose.Tasks pro .NET: manipulace s maskami obrysu.
 ## Předpoklady
@@ -76,3 +82,9 @@ A: Opravdu, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c
  A: Samozřejmě! Máte přístup k bezplatné zkušební verzi Aspose.Tasks[tady](https://releases.aspose.com/).
 ### Otázka: Kde mohu získat dočasnou licenci pro Aspose.Tasks?
  Odpověď: Pokud potřebujete dočasnou licenci pro účely hodnocení nebo testování, můžete si ji pořídit[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

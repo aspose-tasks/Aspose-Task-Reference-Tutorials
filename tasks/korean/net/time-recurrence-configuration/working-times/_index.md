@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 시간 구성
 linktitle: Aspose.Tasks에서 작업 시간 구성
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET에서 프로젝트 일정을 개선하세요. 정확한 자원 관리를 위해 작업 시간을 손쉽게 구성하세요. 지금 라이브러리를 다운로드하세요!
-type: docs
 weight: 13
 url: /ko/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 시간 구성
+
 ## 소개
 프로젝트 관리에서는 정확한 일정 관리와 리소스 할당을 위해 작업 시간을 정밀하게 제어하는 것이 중요합니다. Aspose.Tasks for .NET은 프로젝트 내 작업 시간 정보를 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼은 .NET 환경에서 Aspose.Tasks를 사용하여 작업 시간을 구성하는 과정을 안내합니다.
 ## 전제조건
@@ -84,3 +90,9 @@ Aspose.Tasks for .NET에서 작업 시간을 효과적으로 구성하면 정확
 Aspose.Tasks는 다양한 파일 형식을 지원하여 프로젝트 데이터에 대한 원활한 가져오기/내보내기 작업을 가능하게 합니다.
 ### Aspose.Tasks 업데이트는 얼마나 자주 출시되나요?
 최신 기술과의 호환성을 보장하고 사용자 피드백을 해결하기 위해 업데이트가 정기적으로 출시됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

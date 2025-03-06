@@ -3,10 +3,16 @@ title: Identify Cross-Project Tasks in Aspose.Tasks
 linktitle: Identify Cross-Project Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore cross-project task identification with Aspose.Tasks for Java. Seamless integration and efficient management. Download now!
-type: docs
 weight: 14
 url: /java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identify Cross-Project Tasks in Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive tutorial on identifying cross-project tasks efficiently with Aspose.Tasks for Java. Whether you're a seasoned developer or a beginner, this guide will walk you through the process of seamlessly integrating this functionality into your Java projects.
 ## Prerequisites
@@ -60,3 +66,9 @@ A: Yes, you can get a free trial [here](https://releases.aspose.com/).
 A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Need help or have specific questions?
 A: Visit the Aspose.Tasks support forum [here](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

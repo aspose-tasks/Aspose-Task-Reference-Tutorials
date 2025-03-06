@@ -3,10 +3,16 @@ title: Menguasai Hitungan Skala Waktu Proyek MS di Aspose.Tasks
 linktitle: Tetapkan Jumlah Skala Waktu di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola penghitungan skala waktu secara efektif di MS Project menggunakan Aspose.Tasks untuk Java. Optimalkan visualisasi dan manajemen proyek dengan mudah.
-type: docs
 weight: 22
 url: /id/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Hitungan Skala Waktu Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Mengelola penghitungan skala waktu di MS Project dapat memengaruhi visualisasi dan manajemen proyek secara signifikan. Dengan Aspose.Tasks untuk Java, API canggih untuk menangani tugas manajemen proyek secara terprogram, Anda dapat memanipulasi penghitungan skala waktu secara efisien untuk menyesuaikan tampilan proyek dengan kebutuhan spesifik Anda.
 ## Prasyarat
@@ -91,3 +97,9 @@ J: Tentu saja, Aspose.Tasks untuk Java menyediakan kemampuan ekstensif untuk men
  A: Ya, Anda bisa mendapatkan versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk Java?
  J: Anda dapat menemukan dukungan dan bantuan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

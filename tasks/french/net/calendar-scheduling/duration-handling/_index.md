@@ -3,10 +3,16 @@ title: Gestion de la durée dans Aspose.Tasks
 linktitle: Gestion de la durée dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les durées dans Aspose.Tasks pour .NET avec des didacticiels étape par étape.
-type: docs
 weight: 30
 url: /fr/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de la durée dans Aspose.Tasks
+
 ## Introduction
 
 La gestion efficace des durées est cruciale dans les applications de gestion de projet. Aspose.Tasks for .NET fournit des fonctionnalités robustes pour gérer efficacement les durées. Dans ce didacticiel, nous explorerons différents aspects de la gestion de la durée à l'aide d'Aspose.Tasks pour .NET.
@@ -156,3 +162,9 @@ A4 : Oui, Aspose.Tasks prend en charge la lecture et l'écriture de fichiers Mic
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
 A5 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

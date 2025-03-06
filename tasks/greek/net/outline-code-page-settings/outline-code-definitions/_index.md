@@ -3,10 +3,16 @@ title: Ορισμοί χειρισμού κώδικα περίληψης έργ�
 linktitle: Χειρισμός ορισμών κώδικα περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε τους ορισμούς του κώδικα περίληψης του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET, ενδυναμώνοντας τις εφαρμογές διαχείρισης έργων σας.
-type: docs
 weight: 12
 url: /el/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμοί χειρισμού κώδικα περίληψης έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Microsoft Project είναι ένα ισχυρό εργαλείο για τη διαχείριση έργων και το Aspose.Tasks για .NET παρέχει ολοκληρωμένη υποστήριξη για το χειρισμό αρχείων έργου μέσω προγραμματισμού. Μια βασική πτυχή της διαχείρισης έργου είναι η οργάνωση εργασιών χρησιμοποιώντας κώδικες περιγράμματος. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χειριστούμε τους ορισμούς του κώδικα περίγραμμα του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ outline.Values.Add(value);
 Α: Απολύτως, το Aspose.Tasks για .NET υποστηρίζει την ανάγνωση και εγγραφή προσαρμοσμένων πεδίων, συμπεριλαμβανομένων των κωδικών περίγραμμα, από αρχεία MS Project.
 ### Ε5: Υπάρχει ένα φόρουμ κοινότητας για το Aspose.Tasks για .NET;
  Α: Ναι, μπορείτε να εγγραφείτε στο φόρουμ κοινότητας για το Aspose.Tasks για .NET[εδώ](https://forum.aspose.com/c/tasks/15) για να κάνετε ερωτήσεις, να μοιραστείτε γνώσεις και να συνεργαστείτε με άλλους προγραμματιστές.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中读取受密码保护的文件
 linktitle: 在 Aspose.Tasks 中读取受密码保护的文件
 second_title: Aspose.Tasks Java API
 description: 通过本教程的分步指导，了解如何轻松读取 Aspose.Tasks for Java 中受密码保护的文件。
-type: docs
 weight: 14
 url: /zh/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中读取受密码保护的文件
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的库，允许开发人员以编程方式操作 Microsoft Project 文件。开发人员面临的一项常见任务是读取受密码保护的文件。在本教程中，我们将引导您逐步完成读取此类文件的过程。
 ## 先决条件
@@ -49,3 +55,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 问：我需要临时许可证才能使用 Aspose.Tasks for Java 吗？
 答：对于某些功能或在评估期间，您可能需要临时许可证。得到它[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nắm vững các đường cơ sở của nhiệm vụ trong Aspose.Task
 linktitle: Xử lý các đường cơ sở của nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các đường cơ sở của nhiệm vụ trong Aspose.Tasks for .NET với hướng dẫn toàn diện này. Hãy nâng cao kỹ năng quản lý dự án của bạn ngay hôm nay!
-type: docs
 weight: 16
 url: /vi/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các đường cơ sở của nhiệm vụ trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án, việc luôn tổ chức và cập nhật thông tin là rất quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý các đường cơ sở của nhiệm vụ, cho phép bạn truy cập thông tin cơ sở có giá trị một cách hiệu quả. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn nắm bắt từng khái niệm một cách rõ ràng.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Trả lời: Aspose.Tasks tương thích với nhiều khung .NET, mang lại s�
  A: Khám phá[tài liệu](https://reference.aspose.com/tasks/net/) để biết nhiều hướng dẫn về các tính năng của Aspose.Tasks.
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
  Trả lời: Bạn có thể mua Aspose.Tasks một cách thuận tiện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

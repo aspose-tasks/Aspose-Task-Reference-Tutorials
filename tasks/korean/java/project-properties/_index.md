@@ -3,10 +3,16 @@ title: 프로젝트 속성
 linktitle: 프로젝트 속성
 second_title: Aspose.Tasks 자바 API
 description: 프로젝트 속성 튜토리얼을 통해 Java용 Aspose.Tasks의 잠재력을 활용해 보세요. Microsoft Project 정보를 손쉽게 추출, 활용 및 조작할 수 있습니다.
-type: docs
 weight: 24
 url: /ko/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프로젝트 속성
+
 ## 소개
 
 Aspose.Tasks for Java 기술을 향상시킬 준비가 되셨나요? 프로젝트 속성 튜토리얼을 통해 메타 속성 읽기, Microsoft Project 정보 추출, MS 프로젝트 조작 마스터링이라는 세 가지 주요 측면에 중점을 두고 이 강력한 라이브러리의 잠재력을 최대한 활용할 수 있습니다. Java 개발 및 프로젝트 관리 기능을 향상하려면 이 튜토리얼을 자세히 살펴보세요.
@@ -35,3 +41,9 @@ MS 프로젝트 정보 조작에 대한 숙달을 원하는 Java 개발자를 �
 Aspose.Tasks for Java를 사용하여 Microsoft Project 정보를 추출하는 방법을 알아보세요. Java 애플리케이션의 프로젝트 관리를 손쉽게 향상하세요.
 ### [Java용 Aspose.Tasks를 사용하여 MS 프로젝트 조작 마스터하기](./write-project-info/)
 Aspose.Tasks for Java를 사용하여 MS 프로젝트 정보를 효율적으로 작성하는 방법을 알아보세요. Java 개발자를 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

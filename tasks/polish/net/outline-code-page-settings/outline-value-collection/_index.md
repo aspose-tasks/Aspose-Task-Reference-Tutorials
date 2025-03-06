@@ -3,10 +3,16 @@ title: Zarządzaj wartościami konspektu projektu MS za pomocą Aspose.Tasks
 linktitle: Zbiór wartości konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
-type: docs
 weight: 17
 url: /pl/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj wartościami konspektu projektu MS za pomocą Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET zapewnia kompleksowy zestaw funkcji do interakcji z plikami Microsoft Project. Jedną z takich funkcji jest możliwość zarządzania wartościami konspektu w projekcie. W tym samouczku odkryjemy, jak zbierać i manipulować wartościami konspektu za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -108,3 +114,9 @@ O: Możesz zaimplementować mechanizmy obsługi błędów, takie jak bloki try-c
 O: Tak, Aspose.Tasks zapewnia rozbudowane interfejsy API umożliwiające dostosowanie wyglądu i zachowania wartości konspektu zgodnie z Twoimi wymaganiami.
 ### P: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Tasks?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie społeczności i poznaj[dokumentacja](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowe informacje na temat interfejsów API i funkcji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

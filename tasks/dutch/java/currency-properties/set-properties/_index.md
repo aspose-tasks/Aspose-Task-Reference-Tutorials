@@ -3,10 +3,16 @@ title: Stel valuta-eigenschappen in Aspose.Tasks-projecten in
 linktitle: Stel valuta-eigenschappen in Aspose.Tasks-projecten in
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u valuta-eigenschappen in Aspose.Tasks-projecten instelt met behulp van Java. Manipuleer Microsoft Project-bestanden moeiteloos.
-type: docs
 weight: 11
 url: /nl/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel valuta-eigenschappen in Aspose.Tasks-projecten in
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u valuta-eigenschappen in Aspose.Tasks-projecten kunt instellen met behulp van Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren.
 ## Vereisten
@@ -64,3 +70,9 @@ Absoluut, Aspose.Tasks biedt flexibiliteit bij het definiëren van aangepaste va
 Ja, Aspose.Tasks kan naadloos worden geïntegreerd met andere Java-bibliotheken en -frameworks, waardoor de functionaliteit en veelzijdigheid ervan wordt vergroot.
 ### Waar kan ik aanvullende ondersteuning of assistentie vinden voor Aspose.Tasks?
  Voor extra ondersteuning kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15), waar u nuttige bronnen kunt vinden en kunt communiceren met de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Rate Management a opakující se úkoly
 linktitle: Aspose.Tasks Rate Management a opakující se úkoly
 second_title: Aspose.Tasks .NET API
 description: Master MS Project sazba řízení a opakující se úkoly s Aspose.Tasks. NET. Naučte se automatizovat úkoly, zpracovávat sazby a spravovat rozdělené části pro pracovní postupy projektu.
-type: docs
 weight: 28
 url: /cs/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Rate Management a opakující se úkoly
+
 
 ## Úvod
 
@@ -67,3 +73,9 @@ Naučte se ukládat soubory MS Project v různých formátech pomocí Aspose.Tas
 Naučte se, jak efektivně zacházet s rozdělenými částmi MS Project pomocí Aspose.Tasks pro .NET. Vylepšete svůj pracovní postup projektového řízení.
 ### [Sbírejte MS Project of Split Parts v Aspose.Tasks](./split-part-collection/)
 Naučte se shromažďovat rozdělené části v MS Project pomocí Aspose.Tasks for .NET. Tento komplexní návod vás provede procesem krok za krokem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

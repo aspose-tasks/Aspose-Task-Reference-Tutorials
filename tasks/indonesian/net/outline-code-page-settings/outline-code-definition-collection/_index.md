@@ -3,10 +3,16 @@ title: Kumpulan Definisi Kode Garis Besar di Aspose.Tasks .NET
 linktitle: Kumpulan Definisi Kode Garis Besar di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memanipulasi definisi kode kerangka dalam dokumen Microsoft Project menggunakan Aspose.Tasks untuk .NET. Kategorisasi data proyek Anda dengan mudah.
-type: docs
 weight: 13
 url: /id/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Definisi Kode Garis Besar di Aspose.Tasks .NET
+
 ## Perkenalan
 Aspose.Tasks adalah pustaka .NET canggih yang dirancang untuk memanipulasi dokumen Microsoft Project dengan mudah dan efisien. Salah satu fitur utamanya adalah kemampuan untuk bekerja dengan definisi kode garis besar, memungkinkan pengguna untuk mengatur dan mengkategorikan data proyek secara efektif. Dalam tutorial ini, kita akan mempelajari cara bekerja dengan definisi kode kerangka menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -83,3 +89,9 @@ J: Jika definisi kode outline bersifat baca-saja, Anda tidak akan dapat mengubah
 J: Aspose.Tasks untuk .NET tidak menerapkan batasan spesifik apa pun pada jumlah definisi kode kerangka yang dapat Anda tambahkan ke proyek. Namun, pertimbangkan implikasi kinerja ketika bekerja dengan sejumlah besar definisi.
 ### T: Dapatkah saya menggunakan definisi kode kerangka untuk mengelompokkan tugas berdasarkan kriteria khusus?
 J: Ya, definisi kode kerangka memungkinkan Anda mengkategorikan tugas berdasarkan kriteria khusus, memberikan fleksibilitas dalam mengatur data proyek.## Kode Sumber Lengkap
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

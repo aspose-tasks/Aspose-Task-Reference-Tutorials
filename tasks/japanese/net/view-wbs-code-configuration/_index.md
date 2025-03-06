@@ -3,10 +3,16 @@ title: Aspose.Tasks ビューと WBS コード構成
 linktitle: Aspose.Tasks ビューと WBS コード構成
 second_title: Aspose.Tasks .NET API
 description: .NET ビューと WBS コードの Aspose.Tasks をマスターします。ステップバイステップのチュートリアルでプロジェクト管理をカスタマイズします。今すぐダウンロードして、プロジェクトをシームレスに視覚化しましょう。
-type: docs
 weight: 32
 url: /ja/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ビューと WBS コード構成
+
 
 ## 導入
 
@@ -56,3 +62,9 @@ Aspose.Tasks を使用して、.NET プロジェクトで WBS コード マス�
 Aspose.Tasks for .NET を使用してプロジェクト管理を強化します。この包括的なチュートリアルでは、WBS コード マスクを簡単に作成、管理、転送する方法を学びます。
 ### [Aspose.Tasks での WBS シーケンスの定義](./wbs-sequences/)
 Aspose.Tasks for .NET でプロジェクト管理を強化 – WBS シーケンスをシームレスに定義し、効率を簡単に向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

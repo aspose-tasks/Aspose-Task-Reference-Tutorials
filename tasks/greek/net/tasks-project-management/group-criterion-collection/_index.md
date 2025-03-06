@@ -3,10 +3,16 @@ title: Διαχείριση κριτηρίων ομάδας έργου MS με �
 linktitle: Διαχείριση συλλογής κριτηρίων ομάδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τη συλλογή MS Criterion Project χρησιμοποιώντας το Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 28
 url: /el/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση κριτηρίων ομάδας έργου MS με το Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks for .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε τη συλλογή Κριτηρίων ομάδας στο MS Project χρησιμοποιώντας το Aspose.Tasks.
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;
 
  Α: Εάν έχετε οποιεσδήποτε ερωτήσεις ή αντιμετωπίζετε προβλήματα, μπορείτε να ζητήσετε υποστήριξη από το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

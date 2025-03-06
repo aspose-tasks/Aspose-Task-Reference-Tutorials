@@ -3,10 +3,16 @@ title: MS-projectbestanden opslaan in verschillende formaten in Aspose.Tasks
 linktitle: Bestanden in verschillende formaten opslaan in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-bestanden in verschillende formaten kunt opslaan met Aspose.Tasks voor .NET. Eenvoudige stappen voor efficiënt projectbeheer.
-type: docs
 weight: 17
 url: /nl/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS-projectbestanden opslaan in verschillende formaten in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Microsoft Project-bestanden in verschillende indelingen kunt opslaan met Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige API waarmee ontwikkelaars projectbestanden programmatisch kunnen manipuleren en beheren.
 ## Vereisten
@@ -55,3 +61,9 @@ A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https:
  A: Ja, er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Wat zijn de prijzen voor Aspose.Tasks?
  A: Prijsinformatie is te vinden op de aankooppagina van Aspose.Tasks[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Пошаговая настройка кода WBS в Aspose.Tasks .NET
 linktitle: Настройка масок кода WBS в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите пошаговую настройку масок кода WBS в проектах .NET с помощью Aspose.Tasks. Расширьте возможности управления проектами без особых усилий.
-type: docs
 weight: 14
 url: /ru/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пошаговая настройка кода WBS в Aspose.Tasks .NET
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам эффективно манипулировать данными управления проектами в приложениях .NET. В этом уроке мы рассмотрим процесс настройки масок кода Work Breakdown Structure (WBS) с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  Да, полная документация доступна[здесь](https://reference.aspose.com/tasks/net/).
 ### Где я могу приобрести Aspose.Tasks?
  Купить Aspose.Tasks[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中处理估计任务和里程碑任务
 linktitle: 在 Aspose.Tasks 中处理估计任务和里程碑任务
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 探索有效的项目管理。轻松处理预计任务和里程碑任务。立即下载库！
-type: docs
 weight: 15
 url: /zh/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中处理估计任务和里程碑任务
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的库，可以帮助您轻松处理任务、管理项目和操作项目数据。在本教程中，我们将重点关注项目管理的一个重要方面 - 使用 Aspose.Tasks for Java 处理估计任务和里程碑任务。
 ## 先决条件
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
 是的，您可以免费试用 Aspose.Tasks[这里](https://releases.aspose.com/).
 ### 我如何获得 Aspose.Tasks 的临时许可证？
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

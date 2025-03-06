@@ -3,10 +3,16 @@ title: Đọc dữ liệu bảng từ tệp trong Aspose.Tasks
 linktitle: Đọc dữ liệu bảng từ tệp trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khai phá sức mạnh của Aspose.Tasks cho Java. Tìm hiểu cách trích xuất dữ liệu bảng từ các tệp trong hướng dẫn toàn diện này.
-type: docs
 weight: 17
 url: /vi/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu bảng từ tệp trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đọc dữ liệu bảng từ một tệp bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -62,3 +68,9 @@ Trả lời: Có, bạn có thể sử dụng Aspose.Tasks để sửa đổi d�
  Đáp: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks từ[trang phát hành](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm trợ giúp và hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để được hỗ trợ và hỗ trợ từ cộng đồng và nhóm Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 달력에서 평일 정의
 linktitle: Aspose.Tasks를 사용하여 달력에서 평일 정의
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS Project Calendar에서 평일을 정의하는 방법을 알아보세요. 근무일과 시간을 손쉽게 맞춤설정하세요.
-type: docs
 weight: 12
 url: /ko/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 달력에서 평일 정의
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 달력에서 평일을 정의하는 과정을 안내합니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -82,3 +88,9 @@ A: 예, Aspose.Tasks는 MPP, MPT 및 XML 형식을 포함한 다양한 버전의
 A: 예, 달력이 포함된 기존 프로젝트를 로드하고 수정한 다음 변경 사항을 원본 파일에 다시 저장할 수 있습니다.
 ### Q5: Aspose.Tasks는 반복 작업을 지원합니까?
 A: 예, Aspose.Tasks를 사용하면 반복 패턴 및 기간 정의를 포함하여 반복 작업을 수행할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

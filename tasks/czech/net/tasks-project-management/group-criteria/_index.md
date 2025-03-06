@@ -3,10 +3,16 @@ title: Manipulace s kritérii skupiny MS Project v Aspose.Tasks
 linktitle: Skupinová kritéria v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte, jak programově manipulovat se soubory MS Project v .NET pomocí Aspose.Tasks. Získejte podrobné příklady informací o skupinách úkolů a kritériích.
-type: docs
 weight: 27
 url: /cs/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s kritérii skupiny MS Project v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonné API, které usnadňuje práci se soubory Microsoft Project ve vašich aplikacích .NET. Ať už vyvíjíte software pro řízení projektů nebo potřebujete manipulovat s daty projektu programově, Aspose.Tasks nabízí komplexní sadu funkcí, které splní vaše potřeby.
 ## Předpoklady
@@ -78,3 +84,9 @@ Aspose.Tasks rozhodně poskytuje rozsáhlé funkce pro manipulaci s projektovým
 Ano, Aspose.Tasks podporuje více platforem .NET včetně .NET Framework, .NET Core a .NET Standard.
 ### Existuje komunitní fórum pro Aspose.Tasks, kde mohu vyhledat pomoc?
  Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) klást otázky, sdílet znalosti a spolupracovat s ostatními uživateli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

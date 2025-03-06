@@ -3,10 +3,16 @@ title: Reduzindo a lacuna entre a lista de tarefas e o rodapé em Aspose.Tasks
 linktitle: Reduzindo a lacuna entre a lista de tarefas e o rodapé em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como reduzir a lacuna entre as listas de tarefas e rodapés do MS Project usando Aspose.Tasks for Java. Otimize o layout dos documentos do projeto sem esforço.
-type: docs
 weight: 10
 url: /pt/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reduzindo a lacuna entre a lista de tarefas e o rodapé em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, nos aprofundaremos na redução da lacuna entre a lista de tarefas e o rodapé nos arquivos do Microsoft Project usando Aspose.Tasks for Java. Seguindo estas etapas, você poderá otimizar o layout dos documentos do seu projeto sem esforço.
 ## Pré-requisitos
@@ -105,3 +111,9 @@ R: Sim, Aspose.Tasks oferece suporte a uma ampla variedade de formatos, incluind
 ### P: Onde posso obter suporte se encontrar algum problema ao usar o Aspose.Tasks?
 
  R: Você pode obter assistência no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

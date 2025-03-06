@@ -3,10 +3,16 @@ title: Διαχείριση διάρκειας εργασιών στο Aspose.Ta
 linktitle: Διαχείριση διάρκειας εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε το Aspose.Tasks για Java και μάθετε να διαχειρίζεστε τη διάρκεια εργασιών χωρίς κόπο. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματικό σχεδιασμό και εκτέλεση έργου.
-type: docs
 weight: 20
 url: /el/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση διάρκειας εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για την αποτελεσματική διαχείριση των εργασιών και των διάρκειων του έργου. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε τη διάρκεια των εργασιών χρησιμοποιώντας το Aspose.Tasks, καθοδηγώντας σας σε κάθε βήμα. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος, αυτός ο οδηγός θα σας βοηθήσει να κατανοήσετε τα βασικά στοιχεία της εργασίας με τη διάρκεια εργασιών στα έργα σας.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ System.out.println("Duration equals 0.5 wks: " + task.get(Tsk.DURATION).toString
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμές και αξιολόγηση.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks;
  Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/) για να εξερευνήσετε το Aspose.Tasks πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

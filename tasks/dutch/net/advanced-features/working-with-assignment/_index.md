@@ -3,10 +3,16 @@ title: Werken met toewijzingen in Aspose.Tasks
 linktitle: Werken met toewijzingen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u projecttoewijzingen in .NET beheert met Aspose.Tasks. Ontdek verschillende contouren voor resourceplanning.
-type: docs
 weight: 13
 url: /nl/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met toewijzingen in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u met opdrachten in Aspose.Tasks voor .NET kunt werken. Toewijzingen zijn cruciaal in projectmanagement, omdat ze middelen toewijzen aan taken, wat helpt bij het plannen en volgen van de voortgang. We zullen ons concentreren op het genereren van tijdgebonden gegevens voor resourcetoewijzing met verschillende contouren met behulp van Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Ja, zoals gedemonstreerd in deze tutorial, kunt u verschillende contouren in
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Tasks-gerelateerde vragen?
 
 A5: U kunt ondersteuning vinden op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) waar experts en leden van de gemeenschap actief deelnemen aan discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

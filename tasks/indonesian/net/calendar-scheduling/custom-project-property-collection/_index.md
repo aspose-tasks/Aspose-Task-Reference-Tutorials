@@ -3,10 +3,16 @@ title: Mengelola Koleksi Properti Proyek Kustom di Aspose.Tasks
 linktitle: Mengelola Koleksi Properti Proyek Kustom di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola properti proyek kustom secara efektif di Aspose.Tasks untuk .NET, sehingga meningkatkan pengalaman manajemen proyek Anda.
-type: docs
 weight: 24
 url: /id/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Koleksi Properti Proyek Kustom di Aspose.Tasks
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan pengalaman manajemen proyek Anda dengan Aspose.Tasks untuk .NET? Mengelola properti proyek khusus adalah aspek penting dalam manajemen proyek, memungkinkan Anda menambahkan metadata spesifik yang disesuaikan dengan kebutuhan proyek Anda. Dalam tutorial ini, kita akan mendalami bagaimana Anda dapat bekerja secara efektif dengan kumpulan properti proyek kustom menggunakan Aspose.Tasks untuk .NET.
@@ -131,3 +137,9 @@ A4: Ya, Anda bisa mendapatkan lisensi sementara dari situs Aspose untuk tujuan e
 ### Q5: Di mana saya dapat menemukan dukungan atau bantuan lebih lanjut mengenai Aspose.Tasks untuk .NET?
 
  A5: Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

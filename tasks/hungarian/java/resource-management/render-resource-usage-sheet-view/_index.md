@@ -3,10 +3,16 @@ title: Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Task
 linktitle: Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan jeleníthet meg MS Project erőforrás-használati és munkalapnézeteket az Aspose.Tasks for Java alkalmazásban. Kövesse lépésenkénti útmutatónkat, hogy könnyedén készítsen részletes PDF jelentéseket.
-type: docs
 weight: 16
 url: /hu/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan használhatja az Aspose.Tasks for Java-t az MS Project Resource Usage és Sheet nézeteinek megjelenítéséhez. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül dolgozzanak Microsoft Project fájlokkal.
 ## Előfeltételek
@@ -78,3 +84,9 @@ Teljesen! Az Aspose.Tasks kiterjedt lehetőségeket kínál a renderelt nézetek
 Nem, az Aspose.Tasks egy önálló könyvtár, és működéséhez nem szükséges a Microsoft Project telepítése.
 ### Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
  Igen, az Aspose.Tasks felhasználók technikai támogatást vehetnek igénybe a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

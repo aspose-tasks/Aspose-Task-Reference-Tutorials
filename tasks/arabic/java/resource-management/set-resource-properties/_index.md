@@ -3,10 +3,16 @@ title: قم بتعيين خصائص الموارد في Aspose.Tasks
 linktitle: قم بتعيين خصائص الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تعيين خصائص موارد MS Project في Java باستخدام Aspose.Tasks للتكامل السلس وإدارة المهام بكفاءة.
-type: docs
 weight: 20
 url: /ar/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين خصائص الموارد في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير Java، تعد إدارة المهام بكفاءة جانبًا حاسمًا في إدارة المشاريع. يوفر Aspose.Tasks for Java حلاً قويًا للمطورين للتفاعل مع ملفات Microsoft Project، مما يسمح بالتكامل السلس لوظائف إدارة المهام في تطبيقات Java. في هذا البرنامج التعليمي، سوف نتعمق في إعداد خصائص موارد MS Project باستخدام Aspose.Tasks لـ Java. بحلول نهاية هذا الدليل، سيكون لديك فهم شامل لكيفية التعامل مع خصائص الموارد داخل مشاريع Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
  يمكنك الحصول على ترخيص مؤقت من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
 ### أين يمكنني شراء نسخة مرخصة من Aspose.Tasks لـ Java؟
  يمكنك شراء نسخة مرخصة من Aspose.Tasks لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

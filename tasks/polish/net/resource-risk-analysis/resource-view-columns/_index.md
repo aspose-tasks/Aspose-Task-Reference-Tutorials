@@ -3,10 +3,16 @@ title: Dostosuj kolumny widoku zasobów projektu MS w Aspose.Tasks
 linktitle: Dostosowywanie kolumn widoku zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie dostosowywać kolumny widoku zasobów MS Project za pomocą Aspose.Tasks dla .NET. Twórz dostosowane widoki, aby lepiej zarządzać projektami.
-type: docs
 weight: 17
 url: /pl/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj kolumny widoku zasobów projektu MS w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft Project. Jednym z typowych zadań w zarządzaniu projektami jest dostosowywanie widoków w celu wyświetlania określonych informacji. W tym samouczku przyjrzymy się, jak dostosować kolumny widoku zasobów MS Project za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -94,3 +100,9 @@ Oczywiście, Aspose.Tasks zapewnia szerokie opcje formatowania, aby poprawić wy
 Tak, możesz aktualizować i ponownie generować widok niestandardowy za każdym razem, gdy zmienią się podstawowe dane projektu.
 ### Czy Aspose.Tasks obsługuje rozwój międzyplatformowy?
 Aspose.Tasks dla .NET jest przeznaczony głównie dla platform .NET, ale dostępne są również wersje dla Java i innych platform.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

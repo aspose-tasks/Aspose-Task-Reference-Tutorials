@@ -3,10 +3,16 @@ title: Opanowanie właściwości zadań w Aspose.Tasks
 linktitle: Odczytuj i zapisuj ogólne właściwości zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Odkryj moc Aspose.Tasks for Java w łatwym zarządzaniu właściwościami zadań. Czytaj i pisz z łatwością, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 26
 url: /pl/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie właściwości zadań w Aspose.Tasks
+
 ## Wstęp
 Odblokuj pełny potencjał zarządzania zadaniami w Javie dzięki Aspose.Tasks. W tym obszernym przewodniku zagłębimy się w odczytywanie i zapisywanie ogólnych właściwości zadań przy użyciu Aspose.Tasks dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten samouczek wyposaży Cię w umiejętności łatwego manipulowania właściwościami zadań.
 ## Warunki wstępne
@@ -85,3 +91,9 @@ Tak, Aspose.Tasks jest kompatybilny z Java 11 i nowszymi wersjami.
  Dołącz do dyskusji społeczności na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za pomoc i współpracę.
 ### Czy są dostępne jakieś przykładowe projekty w celach informacyjnych?
  Zapoznaj się z sekcją przykładów w dokumentacji[Tutaj](https://reference.aspose.com/tasks/java/) dla przykładowych projektów i fragmentów kodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

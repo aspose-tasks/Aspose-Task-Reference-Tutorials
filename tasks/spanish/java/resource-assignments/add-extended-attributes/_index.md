@@ -3,10 +3,16 @@ title: Dominar la manipulación de proyectos MS con Aspose.Tasks para Java
 linktitle: Agregue atributos extendidos a las asignaciones de recursos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a escribir de manera eficiente información de MS Project usando Aspose.Tasks para Java. Guía paso a paso para desarrolladores de Java.
-type: docs
 weight: 10
 url: /es/java/resource-assignments/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar la manipulación de proyectos MS con Aspose.Tasks para Java
+
 ## Introducción
 En este tutorial, profundizaremos en la utilización de Aspose.Tasks para Java, una poderosa biblioteca para manipular archivos de Microsoft Project mediante programación. Nos centraremos en una tarea fundamental: escribir información de MS Project usando Aspose.Tasks. Si es un desarrollador experimentado o recién está comenzando su viaje en la programación Java, esta guía lo guiará a través del proceso paso a paso.
 ## Requisitos previos
@@ -72,3 +78,9 @@ R: Si bien la versión de prueba le permite explorar las capacidades de la bibli
  R: Puede buscar ayuda en el foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
 ### P: ¿Puedo comprar una licencia temporal de Aspose.Tasks para Java?
  R: Sí, hay licencias temporales disponibles para uso a corto plazo. Puedes obtener uno de[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
 linktitle: Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zaimplementować wywołanie zwrotne oszczędzające stronę w Aspose.Tasks dla .NET, umożliwiając niestandardową obsługę wielostronicowych strumieni wyjściowych dokumentów.
-type: docs
 weight: 12
 url: /pl/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku przyjrzymy się, jak zaimplementować wywołanie zwrotne zapisywania strony w Aspose.Tasks dla .NET. Ta funkcja pozwala nam zapisać wielostronicowy dokument w strumieniach dostarczonych przez użytkownika, oferując elastyczność i dostosowanie w obsłudze wyników.
@@ -121,3 +127,9 @@ O4: Możesz zaimplementować mechanizmy obsługi błędów w ramach metod wywoł
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Tasks?
 
  A5: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) uzyskać pomoc, uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/) lub zapoznaj się z dodatkowymi funkcjami i opcjami licencjonowania na stronie[Witryna Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

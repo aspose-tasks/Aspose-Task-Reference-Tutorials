@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 중지 및 재개
 linktitle: Aspose.Tasks에서 작업 중지 및 재개
 second_title: Aspose.Tasks 자바 API
 description: 작업 중지 및 재개에 대한 단계별 가이드를 통해 Aspose.Tasks for Java의 강력한 기능을 살펴보세요. 프로젝트 관리를 원활하게 강화하세요!
-type: docs
 weight: 30
 url: /ko/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 중지 및 재개
+
 ## 소개
 Java 개발 영역에서 작업을 효율적으로 관리하는 것은 프로젝트 실행의 중요한 측면입니다. Aspose.Tasks for Java는 강력한 기능으로 작업을 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 작업 중지 및 재개라는 특정 기능을 자세히 살펴보겠습니다. 이 단계별 가이드를 따르면 이 기능을 Java 프로젝트에 원활하게 통합할 수 있습니다.
 ## 전제조건
@@ -69,3 +75,9 @@ Java 프로젝트에서 이러한 단계를 반복하여 Aspose.Tasks for Java�
  예, 액세스할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
 ### Aspose.Tasks for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

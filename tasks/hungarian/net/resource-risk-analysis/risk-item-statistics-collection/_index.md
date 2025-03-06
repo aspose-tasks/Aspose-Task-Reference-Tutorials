@@ -3,10 +3,16 @@ title: Gyűjtse össze az MS Project kockázati elem statisztikáit az Aspose.Ta
 linktitle: Kockázati tétel statisztikák gyűjtése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan gyűjthet kockázati tételekre vonatkozó statisztikákat MS Project fájlokból az Aspose.Tasks for .NET segítségével. Növelje projektmenedzsment képességeit.
-type: docs
 weight: 22
 url: /hu/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gyűjtse össze az MS Project kockázati elem statisztikáit az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthetünk kockázati tételekre vonatkozó statisztikákat MS Project fájlokból az Aspose.Tasks for .NET segítségével. Ez a könyvtár hatékony funkciókat kínál a projektadatok elemzéséhez, beleértve a kockázatértékelést és a statisztikai elemzést.
 ## Előfeltételek
@@ -88,3 +94,9 @@ V: Természetesen az Aspose.Tasks úgy lett kialakítva, hogy megfeleljen a vál
 V: Igen, az Aspose.Tasks rugalmasságot kínál a kockázatelemzési beállítások konfigurálásában, hogy megfeleljenek az Ön konkrét projektkövetelményeinek és forgatókönyveinek.
 ### K: Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
  V: Igen, az Aspose.Tasks felhasználók hozzáférhetnek a technikai támogatáshoz az Aspose-on keresztül[fórumok](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehetnek fel, problémákat jelenthetnek be, és kapcsolatba léphetnek a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

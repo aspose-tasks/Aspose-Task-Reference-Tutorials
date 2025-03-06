@@ -3,10 +3,16 @@ title: Feladathasználati nézetek elsajátítása az Aspose.Tasks for .NET-ben
 linktitle: Feladathasználati nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja projektmenedzsment látványvilágát.
-type: docs
 weight: 24
 url: /hu/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladathasználati nézetek elsajátítása az Aspose.Tasks for .NET-ben
+
 ## Bevezetés
 projektmenedzsment területén a feladatok használatának vizualizálása kulcsfontosságú a hatékony tervezés és végrehajtás szempontjából. Az Aspose.Tasks for .NET robusztus megoldást kínál a feladatok használati nézeteinek megjelenítésére, lehetővé téve az időskálás beállítások és a prezentációs formátumok testreszabását. Ebben az oktatóanyagban végigvezetjük a feladathasználati nézetek Aspose.Tasks használatával történő konfigurálásának lépéseit.
 ## Előfeltételek
@@ -75,3 +81,9 @@ Igen, az Aspose.Tasks támogatja az olyan népszerű projektfájlformátumokat, 
 Természetesen személyre szabhatja az időskála beállításait az egyes feladatokhoz a projekten belül.
 ### Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Tasks számára?
  Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és útmutatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

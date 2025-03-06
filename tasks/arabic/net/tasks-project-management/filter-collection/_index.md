@@ -3,10 +3,16 @@ title: إدارة مرشحات مشروع MS بكفاءة باستخدام Aspos
 linktitle: إدارة مجموعة عوامل التصفية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات تصفية MS Project بشكل فعال باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 17
 url: /ar/net/tasks-project-management/filter-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مرشحات مشروع MS بكفاءة باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة مجموعات تصفية MS Project بشكل فعال باستخدام Aspose.Tasks لـ .NET. تعد إدارة عوامل التصفية أمرًا ضروريًا لتنظيم بيانات المشروع وتحليلها بكفاءة. يوفر Aspose.Tasks وظائف قوية للتعامل مع مرشحات المهام والموارد بسلاسة.
 ## المتطلبات الأساسية
@@ -102,3 +108,9 @@ foreach (var filter in filtersToDelete)
 ج: نعم، يقدم Aspose.Tasks وثائق شاملة وبرامج تعليمية ومنتدى دعم مخصص لمساعدة المطورين في كل خطوة من خطوات تنفيذ مشروعهم.
 ### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
 ج: نعم، يمكن للمطورين الوصول إلى نسخة تجريبية مجانية من Aspose.Tasks لاستكشاف ميزاته قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

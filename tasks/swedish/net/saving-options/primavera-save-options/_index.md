@@ -3,10 +3,16 @@ title: Spara MS Project Options Primavera med Aspose.Tasks
 linktitle: Primavera Spara alternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Upptäck hur du sparar MS Project-alternativ för Primavera sömlöst med Aspose.Tasks för .NET. Följ vår steg-för-steg handledning.
-type: docs
 weight: 14
 url: /sv/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara MS Project Options Primavera med Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft Project-filer i sina .NET-applikationer sömlöst. En av nyckelfunktionerna som den erbjuder är möjligheten att spara MS Project-alternativ för Primavera, en populär programvara för projekthantering. I den här handledningen kommer vi att fördjupa oss i hur man uppnår detta med Aspose.Tasks.
 ## Förutsättningar
@@ -59,3 +65,9 @@ S: Absolut, Aspose.Tasks är designat för att tillgodose behoven hos utvecklare
  S: Ja, du kan ladda ner en gratis testversion av Aspose.Tasks från[här](https://releases.aspose.com/) att utforska dess funktioner och möjligheter.
 ### F: Var kan jag få support om jag stöter på problem eller har frågor när jag använder Aspose.Tasks?
  S: Du kan söka hjälp från Aspose.Tasks-communityt och supportteamet på[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

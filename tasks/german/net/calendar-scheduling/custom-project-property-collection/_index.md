@@ -3,10 +3,16 @@ title: Verwalten der Sammlung benutzerdefinierter Projekteigenschaften in Aspose
 linktitle: Verwalten der Sammlung benutzerdefinierter Projekteigenschaften in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie benutzerdefinierte Projekteigenschaften in Aspose.Tasks für .NET effektiv verwalten und so Ihr Projektmanagementerlebnis verbessern.
-type: docs
 weight: 24
 url: /de/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten der Sammlung benutzerdefinierter Projekteigenschaften in Aspose.Tasks
+
 ## Einführung
 
 Sind Sie bereit, Ihr Projektmanagement-Erlebnis mit Aspose.Tasks für .NET zu verbessern? Die Verwaltung benutzerdefinierter Projekteigenschaften ist ein entscheidender Aspekt des Projektmanagements und ermöglicht Ihnen das Hinzufügen spezifischer Metadaten, die auf die Anforderungen Ihres Projekts zugeschnitten sind. In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Tasks für .NET effektiv mit benutzerdefinierten Projekteigenschaftssammlungen arbeiten können.
@@ -131,3 +137,9 @@ A4: Ja, Sie können zu Evaluierungszwecken eine temporäre Lizenz auf der Aspose
 ### F5: Wo finde ich Unterstützung oder weitere Hilfe zu Aspose.Tasks für .NET?
 
  A5: Sie können das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

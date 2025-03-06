@@ -3,10 +3,16 @@ title: إتقان القيم التفصيلية لمشروع MS باستخدام
 linktitle: إدارة القيم التفصيلية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة القيم التفصيلية لـ MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. تخصيص الخطوط العريضة للمشروع بكل سهولة.
-type: docs
 weight: 16
 url: /ar/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان القيم التفصيلية لمشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة القيم التفصيلية لـ Microsoft Project باستخدام مكتبة Aspose.Tasks لـ .NET. باستخدام Aspose.Tasks، يمكنك بسهولة التعامل مع رموز المخطط التفصيلي وإنشاء قيم مخطط تفصيلي جديدة وتخصيص مخططات المشروع وفقًا لمتطلباتك.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ outline2.Values.Add(value2);
 ج: نعم، يمكنك شراء ترخيص مؤقت لـ Aspose.Tasks من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Tasks؟
  ج: يمكنك الرجوع إلى الوثائق الشاملة المتاحة[هنا](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS Project のリソース使用状況ビューの構
 linktitle: Aspose.Tasks でのリソース使用状況ビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project のリソース使用状況ビューを構成する方法を学びます。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 15
 url: /ja/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS Project のリソース使用状況ビューの構成
+
 ## 導入
 Microsoft Project (MS Project) は、ユーザーがプロジェクトを効率的に計画、実行、追跡できるようにする強力なプロジェクト管理ツールです。 Aspose.Tasks for .NET は MS Project ファイルとのシームレスな統合を提供し、開発者がプロジェクト データをプログラムで操作できるようにします。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project のリソース使用状況ビューを構成する方法を説明します。
 ## 前提条件
@@ -58,3 +64,9 @@ A: はい、Aspose.Tasks は、XLSX、MPP、XML、HTML などを含むさまざ�
  A: はい、次のサイトにアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)ご質問、ディスカッション、サポートのニーズにお応えします。
 ### Q: 購入する前に Aspose.Tasks を試すことはできますか?
  A: もちろん、無料トライアルを利用して Aspose.Tasks を試すことができます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

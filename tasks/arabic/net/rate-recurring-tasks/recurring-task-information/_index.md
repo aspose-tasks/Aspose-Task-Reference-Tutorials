@@ -3,10 +3,16 @@ title: استخراج معلومات المهمة المتكررة في Aspose.T
 linktitle: استخراج معلومات المهمة المتكررة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استخراج معلومات المهام المتكررة من ملفات MS Project باستخدام Aspose.Tasks لـ .NET. التكامل السهل لمطوري .NET.
-type: docs
 weight: 13
 url: /ar/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج معلومات المهمة المتكررة في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Microsoft Project في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنستكشف كيفية استخراج معلومات المهام المتكررة من ملفات MS Project باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
  ج: يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/tasks/net/).
 ### س: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

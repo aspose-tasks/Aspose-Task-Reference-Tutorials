@@ -3,10 +3,16 @@ title: ลิงค์งาน
 linktitle: ลิงค์งาน
 second_title: Aspose.Tasks Java API
 description: สำรวจ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนของเรา ปรับปรุงการทำงานร่วมกัน กำหนดประเภทลิงก์ และจัดการงานได้อย่างราบรื่น เพิ่มประสิทธิภาพโครงการของคุณทันที!
-type: docs
 weight: 33
 url: /th/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ลิงค์งาน
+
 ## การแนะนำ
 
 หากคุณกำลังเจาะลึกโลกแห่งการจัดการโครงการ Java Aspose.Tasks คือเครื่องมือที่คุณใช้งาน บทช่วยสอนที่ครอบคลุมของเราช่วยให้คุณเชี่ยวชาญด้านต่างๆ ได้อย่างเชี่ยวชาญ ทำให้มั่นใจได้ว่า Aspose.Tasks สำหรับไลบรารี Java จะใช้ประโยชน์ได้อย่างเหมาะสมที่สุด
@@ -38,3 +44,9 @@ url: /th/java/task-links/
 สำรวจการระบุงานข้ามโครงการด้วย Aspose.Tasks สำหรับ Java การบูรณาการที่ราบรื่นและการจัดการที่มีประสิทธิภาพ ดาวน์โหลดเดี๋ยวนี้!
 ### [จัดการงานก่อนหน้าและงานต่อใน Aspose.Tasks](./predecessor-successor-tasks/)
 สำรวจการจัดการงานที่มีประสิทธิภาพด้วย Aspose.Tasks สำหรับ Java จัดการงานก่อนหน้าและผู้สืบทอดในโครงการของคุณได้อย่างง่ายดาย ดาวน์โหลดทดลองใช้ฟรีตอนนี้!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

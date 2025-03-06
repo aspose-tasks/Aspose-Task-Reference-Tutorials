@@ -3,10 +3,16 @@ title: Αλλαγή της προόδου της εργασίας στο Aspose.
 linktitle: Αλλαγή της προόδου της εργασίας στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Βελτιώστε τη διαχείριση έργων Java με το Aspose.Tasks. Μάθετε να τροποποιείτε απρόσκοπτα την πρόοδο της εργασίας σε αυτό το βήμα προς βήμα σεμινάριο. Κατεβάστε τώρα!
-type: docs
 weight: 12
 url: /el/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή της προόδου της εργασίας στο Aspose.Tasks
+
 ## Εισαγωγή
 Στη δυναμική σφαίρα της διαχείρισης έργου, η αποτελεσματική παρακολούθηση της προόδου των εργασιών είναι ζωτικής σημασίας. Το Aspose.Tasks για Java ξεχωρίζει ως μια ισχυρή λύση, που απλοποιεί τη διαδικασία με τα ισχυρά χαρακτηριστικά του. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στα βήματα για να αλλάξετε την πρόοδο μιας εργασίας χρησιμοποιώντας το Aspose.Tasks για Java.
 ## Προαπαιτούμενα
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
  Εξερευνήστε την πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/java/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
  Επισκέψου το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

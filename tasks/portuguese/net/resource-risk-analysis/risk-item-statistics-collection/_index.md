@@ -3,10 +3,16 @@ title: Colete estatísticas de itens de risco do MS Project em Aspose.Tasks
 linktitle: Coleta de estatísticas de itens de risco em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como coletar estatísticas de itens de risco de arquivos do MS Project usando Aspose.Tasks for .NET. Aprimore seus recursos de gerenciamento de projetos.
-type: docs
 weight: 22
 url: /pt/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colete estatísticas de itens de risco do MS Project em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como coletar estatísticas de itens de risco de arquivos do MS Project usando Aspose.Tasks for .NET. Esta biblioteca fornece funcionalidades poderosas para analisar dados do projeto, incluindo avaliação de riscos e análise estatística.
 ## Pré-requisitos
@@ -88,3 +94,9 @@ R: Com certeza, o Aspose.Tasks foi projetado para atender às demandas de aplica
 R: Sim, Aspose.Tasks oferece flexibilidade na definição de configurações de análise de risco para atender aos requisitos e cenários específicos do seu projeto.
 ### P: O suporte técnico está disponível para usuários do Aspose.Tasks?
  R: Sim, os usuários do Aspose.Tasks podem acessar o suporte técnico através do Aspose.[fóruns](https://forum.aspose.com/c/tasks/15), onde podem fazer perguntas, relatar problemas e interagir com a comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

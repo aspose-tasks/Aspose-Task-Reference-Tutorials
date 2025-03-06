@@ -3,10 +3,16 @@ title: Personalice líneas de cuadrícula en MS Project para Aspose.Tasks
 linktitle: Líneas de cuadrícula en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a personalizar líneas de cuadrícula en MS Project usando Aspose.Tasks para .NET. Mejore la visualización y gestión de su proyecto con pasos fáciles de seguir.
-type: docs
 weight: 23
 url: /es/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalice líneas de cuadrícula en MS Project para Aspose.Tasks
+
 ## Introducción
 
 En la gestión de proyectos, la representación visual juega un papel crucial en la comprensión de los plazos, las dependencias y el progreso del proyecto. Aspose.Tasks para .NET proporciona herramientas sólidas para manipular archivos de proyecto mediante programación. Una de esas características es la capacidad de personalizar líneas de cuadrícula en MS Project usando Aspose.Tasks.
@@ -113,3 +119,9 @@ R: Sí, Aspose.Tasks para .NET ofrece amplia documentación y soporte para la in
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Tasks para .NET?
 
  R: Sí, puedes descargar una versión de prueba gratuita de[Aspose.Tasks para .NET desde](https://forum.aspose.com/c/tasks/15). para explorar sus características antes de realizar una compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

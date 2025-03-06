@@ -3,10 +3,16 @@ title: Labels weergeven in Aspose.Tasks
 linktitle: Labels weergeven in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u labelweergaven in projectbeheer kunt aanpassen met Aspose.Tasks voor .NET. Verbeter moeiteloos de leesbaarheid en duidelijkheid.
-type: docs
 weight: 14
 url: /nl/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Labels weergeven in Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van softwareontwikkeling is het efficiënt beheren van taken essentieel voor het succes van projecten. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het naadloos afhandelen van projectbeheertaken binnen het .NET-framework. Een belangrijk aspect van projectmanagement is de mogelijkheid om de weergaveopties aan te passen aan specifieke vereisten. In deze zelfstudie onderzoeken we hoe u Aspose.Tasks voor .NET kunt gebruiken om de weergave van minuten-, uur-, dag-, week-, maand- en jaarlabels in projectbestanden te manipuleren.
@@ -137,3 +143,10 @@ A4: Aspose.Tasks voor .NET biedt uitgebreide aanpassingsmogelijkheden voor label
 ### V5: Ondersteunt Aspose.Tasks integratie met andere projectmanagementtools?
 
 A5: Ja, Aspose.Tasks biedt naadloze integratiemogelijkheden, waardoor interoperabiliteit met andere projectmanagementtools en -platforms wordt vergemakkelijkt.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

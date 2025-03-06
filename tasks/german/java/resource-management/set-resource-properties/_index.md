@@ -3,10 +3,16 @@ title: Legen Sie Ressourceneigenschaften in Aspose.Tasks fest
 linktitle: Legen Sie Ressourceneigenschaften in Aspose.Tasks fest
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mithilfe von Aspose.Tasks MS Project-Ressourceneigenschaften in Java für eine nahtlose Integration und effiziente Aufgabenverwaltung festlegen.
-type: docs
 weight: 20
 url: /de/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie Ressourceneigenschaften in Aspose.Tasks fest
+
 ## Einführung
 Im Bereich der Java-Entwicklung ist die effiziente Verwaltung von Aufgaben ein entscheidender Aspekt des Projektmanagements. Aspose.Tasks für Java bietet Entwicklern eine robuste Lösung für die Interaktion mit Microsoft Project-Dateien und ermöglicht die nahtlose Integration von Aufgabenverwaltungsfunktionen in Java-Anwendungen. In diesem Tutorial befassen wir uns mit dem Festlegen von MS Project-Ressourceneigenschaften mithilfe von Aspose.Tasks für Java. Am Ende dieses Handbuchs verfügen Sie über umfassende Kenntnisse darüber, wie Sie Ressourceneigenschaften in Ihren Java-Projekten bearbeiten.
 ## Voraussetzungen
@@ -63,3 +69,9 @@ Ja, Aspose.Tasks für Java ist in der Lage, eine Vielzahl von MS Project-Dateifo
  Eine temporäre Lizenz erhalten Sie bei der[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
 ### Wo kann ich eine lizenzierte Version von Aspose.Tasks für Java erwerben?
  Sie können eine lizenzierte Version von Aspose.Tasks für Java erwerben[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

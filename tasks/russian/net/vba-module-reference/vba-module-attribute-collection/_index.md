@@ -3,10 +3,16 @@ title: Освоение атрибутов модуля VBA в Aspose.Tasks
 linktitle: Сбор атрибутов модуля VBA в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите возможности Aspose.Tasks для .NET в управлении атрибутами модулей VBA. Улучшайте свои проекты .NET без особых усилий. Скачать сейчас! #Aspose #Задачи #MS Project
-type: docs
 weight: 12
 url: /ru/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение атрибутов модуля VBA в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в мир Aspose.Tasks для .NET! Если вы разработчик, желающий использовать возможности Aspose.Tasks для .NET в своих проектах, вы попали по адресу. В этом руководстве мы углубимся в тонкости работы с атрибутами модуля VBA и предоставим вам пошаговое руководство по их эффективному использованию в ваших .NET-приложениях.
 ## Предварительные условия
@@ -63,3 +69,9 @@ foreach (var attribute in module.Attributes)
  О: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу получить поддержку по Aspose.Tasks для .NET?
  А: Посетите[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

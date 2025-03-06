@@ -3,10 +3,16 @@ title: Aspose.Tasks の OLE オブジェクトのコレクション
 linktitle: Aspose.Tasks の OLE オブジェクトのコレクション
 second_title: Aspose.Tasks .NET API
 description: この包括的なチュートリアルで、Aspose.Tasks for .NET で OLE オブジェクトを管理する方法を学びましょう。プロジェクトドキュメント内の埋め込みファイルの処理を簡単にマスターできます。
-type: docs
 weight: 23
 url: /ja/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の OLE オブジェクトのコレクション
+
 ## 導入
 
 このチュートリアルでは、Aspose.Tasks for .NET での OLE (Object Linking and Embedding) オブジェクトの管理について詳しく説明します。 OLE オブジェクトを使用すると、ユーザーはプロジェクト ファイル内に他のアプリケーションのファイルを埋め込んだりリンクしたりできます。これらのオブジェクトのコレクションを操作する方法を段階的に説明します。
@@ -97,3 +103,9 @@ A3: C# の基本的な知識が推奨されていますが、Aspose.Tasks では
 ### Q5: Aspose.Tasks のサポートはどこで見つけられますか?
 
  A5: Aspose.Tasks フォーラムでサポートを求めたり、質問したりできます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

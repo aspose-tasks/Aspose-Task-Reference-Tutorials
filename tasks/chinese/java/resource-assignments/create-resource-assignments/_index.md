@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中创建资源分配
 linktitle: 在 Aspose.Tasks 中创建资源分配
 second_title: Aspose.Tasks Java API
 description: 通过此分步教程，了解如何在 Aspose.Tasks for Java 中轻松创建资源分配。高效的项目资源管理变得轻松。
-type: docs
 weight: 14
 url: /zh/java/resource-assignments/create-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中创建资源分配
+
 ## 介绍
 在项目管理中，资源分配在将资源有效分配给各种任务方面发挥着至关重要的作用。 Aspose.Tasks for Java 提供了一个强大的解决方案，用于以编程方式管理项目资源及其分配。在本教程中，我们将探索如何使用 Aspose.Tasks for Java 逐步创建资源分配。
 ## 先决条件
@@ -59,3 +65,9 @@ ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
 答：是的，您可以将 Aspose.Tasks for Java 集成到您的 Web 应用程序中，以动态管理项目资源。
 ### 问：在哪里可以找到 Aspose.Tasks for Java 的其他支持？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)有关图书馆的任何技术援助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

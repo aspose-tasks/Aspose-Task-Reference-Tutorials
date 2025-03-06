@@ -3,10 +3,16 @@ title: Az MS Project Filter Criteria elsajátítása az Aspose.Tasks segítség�
 linktitle: Szűrési feltételek az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan valósíthat meg szűrési feltételeket az MS Projectben az Aspose.Tasks for .NET használatával. Növelje a projektmenedzsment hatékonyságát célzott adatelemzéssel.
-type: docs
 weight: 18
 url: /hu/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Filter Criteria elsajátítása az Aspose.Tasks segítségével
+
 ## Bevezetés
 A projektmenedzsment területén a Microsoft Project megbízható eszköz, amely számos funkciót kínál a projekttervezőknek és -menedzsereknek. Számos funkciója között rejlik a projektadatok szűrésének képessége, amely lehetővé teszi a felhasználók számára, hogy projektfeladataik bizonyos szempontjaira összpontosítsanak. E szűrési képességek elsajátítása azonban megfelelő útmutatás nélkül ijesztő feladat lehet. Ennek az oktatóanyagnak a célja, hogy tisztázza a folyamatot azáltal, hogy lépésről lépésre ismerteti a szűrőkritériumok megvalósítását az MS Projectben az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -89,3 +95,9 @@ V: Az Aspose.Tasks támogatja a .NET Framework-et, a .NET Core-t és a .NET Stan
 V: Természetesen programozottan módosíthatja a szűrési feltételeket a dinamikus paraméterek alapján, lehetővé téve az adaptív projektadatok elemzését.
 ### K: Hol kérhetek segítséget, ha problémákat tapasztalok az Aspose.Tasks szolgáltatással?
  V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) hogy kérjen támogatást a közösségtől, vagy közvetlenül forduljon az Aspose-hoz.Tasks személyre szabott segítségnyújtás.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

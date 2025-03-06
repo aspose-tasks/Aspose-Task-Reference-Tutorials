@@ -3,10 +3,16 @@ title: Các loại tích lũy chi phí trong Aspose.Tasks
 linktitle: Các loại tích lũy chi phí trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý chi phí dự án một cách hiệu quả với Aspose.Tasks for .NET. Xác định các loại chi phí tích lũy để theo dõi ngân sách chính xác.
-type: docs
 weight: 19
 url: /vi/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại tích lũy chi phí trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong quản lý dự án, việc theo dõi chính xác chi phí là rất quan trọng để duy trì kiểm soát ngân sách và đảm bảo sự thành công của dự án. Aspose.Tasks for .NET cung cấp một bộ công cụ mạnh mẽ để quản lý chi phí dự án, bao gồm khả năng xác định các loại chi phí tích lũy khác nhau. Hướng dẫn này sẽ hướng dẫn bạn quy trình tìm hiểu và triển khai các loại tích lũy chi phí bằng cách sử dụng Aspose.Tasks cho .NET.
@@ -86,3 +92,9 @@ Câu trả lời 4: Có, bạn có thể đặt loại tích lũy chi phí một
 ### Câu hỏi 5: Aspose.Tasks cho .NET có hỗ trợ các loại tích lũy chi phí tùy chỉnh không?
 
 Câu trả lời 5: Kể từ phiên bản mới nhất, Aspose.Tasks dành cho .NET không hỗ trợ xác định các loại tích lũy chi phí tùy chỉnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

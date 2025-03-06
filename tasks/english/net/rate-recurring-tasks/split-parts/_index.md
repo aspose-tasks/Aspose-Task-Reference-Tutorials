@@ -3,10 +3,16 @@ title: Handling MS Project Split Parts in Aspose.Tasks
 linktitle: Handling Split Parts in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle MS Project split parts efficiently with Aspose.Tasks for .NET. Enhance your project management workflow.
-type: docs
 weight: 18
 url: /net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling MS Project Split Parts in Aspose.Tasks
+
 
 ## Introduction
 Managing MS Project split parts can be a crucial aspect of project management when using Aspose.Tasks for .NET. In this tutorial, we'll explore how to effectively handle split parts using step-by-step guidance.
@@ -94,3 +100,10 @@ A: Yes, Aspose.Tasks for .NET allows you to manage project resources efficiently
 A: Absolutely, you can customize project calendars according to your project requirements.
 ### Q: Where can I find support for Aspose.Tasks for .NET?
 A: You can find support and assistance on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

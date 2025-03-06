@@ -3,10 +3,16 @@ title: Testreszabhatja a rácsvonalakat az MS Projectben az Aspose.Tasks számá
 linktitle: Rácsvonalak az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan testreszabhatja a rácsvonalakat az MS Projectben az Aspose.Tasks for .NET használatával. Egyszerűen követhető lépésekkel javíthatja projektjeit és kezelését.
-type: docs
 weight: 23
 url: /hu/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja a rácsvonalakat az MS Projectben az Aspose.Tasks számára
+
 ## Bevezetés
 
 A projektmenedzsmentben a vizuális megjelenítés döntő szerepet játszik a projekt idővonalainak, függőségei és előrehaladásának megértésében. Az Aspose.Tasks for .NET robusztus eszközöket biztosít a projektfájlok programozott kezeléséhez. Az egyik ilyen funkció az MS Project rácsvonalainak testreszabása az Aspose.Tasks segítségével.
@@ -113,3 +119,9 @@ V: Igen, az Aspose.Tasks for .NET kiterjedt dokumentációt és támogatást kí
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
  V: Igen, letöltheti a program ingyenes próbaverzióját[Aspose.Tasks for .NET from](https://forum.aspose.com/c/tasks/15). hogy vásárlás előtt ismerkedjen meg funkcióival.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

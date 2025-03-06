@@ -3,10 +3,16 @@ title: Aspose.Tasks Lisans Yönetimi
 linktitle: Aspose.Tasks Lisans Yönetimi
 second_title: Aspose.Tasks .NET API'si
 description: Kapsamlı eğitimlerimizle Aspose.Tasks for .NET'in gücünü ortaya çıkarın. Verimli proje yönetimi için lisansları yönetin ve MS Project kullanımını optimize edin.
-type: docs
 weight: 36
 url: /tr/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Lisans Yönetimi
+
 
 ## giriiş
 
@@ -35,3 +41,9 @@ Aspose.Tasks becerilerinizi yükseltmeye hazır mısınız? Eğitimlerimize dal�
 Dosya tabanlı veya akış tabanlı yaklaşımları kullanarak .NET uygulamalarında Aspose.Tasks lisanslarını sorunsuz bir şekilde nasıl yöneteceğinizi öğrenin.
 ### [Aspose.Tasks'ta Ölçüm Kullanımı](./metering-usage/)
 Aspose.Tasks for .NET ile MS Project kullanımınızı etkili bir şekilde nasıl izleyeceğinizi ve optimize edeceğinizi öğrenin. Etkin proje yönetimi için adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

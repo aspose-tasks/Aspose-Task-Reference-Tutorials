@@ -3,10 +3,16 @@ title: Aspose.Tasks 中 Microsoft Project 資料庫的設置
 linktitle: Aspose.Tasks 中 Microsoft Project 資料庫的設置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 配置 Microsoft Project 資料庫設置，以便無縫整合到 .NET 應用程式中。
-type: docs
 weight: 19
 url: /zh-hant/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中 Microsoft Project 資料庫的設置
+
 ## 介紹
 
 如果您使用 Aspose.Tasks 在 .NET 應用程式中使用 Microsoft Project 資料庫，則需要配置必要的設定以無縫匯入專案資料。本教學將逐步指導您完成流程。
@@ -99,3 +105,9 @@ A1：是的，Aspose.Tasks 支援各種版本的 Microsoft Project 資料庫，�
 ### Q5：在哪裡可以找到有關使用 Aspose.Tasks 的更詳細文件？
 
  A5：您可以探索全面的文檔[這裡](https://reference.aspose.com/tasks/net/)了解 Aspose.Tasks 功能的詳細見解。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

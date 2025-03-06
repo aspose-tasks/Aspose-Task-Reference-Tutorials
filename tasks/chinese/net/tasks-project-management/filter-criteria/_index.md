@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 项目过滤标准
 linktitle: Aspose.Tasks 中的过滤条件
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 MS Project 中实现过滤条件。通过有针对性的数据分析提高项目管理效率。
-type: docs
 weight: 18
 url: /zh/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 项目过滤标准
+
 ## 介绍
 在项目管理领域，Microsoft Project 是一款强大的工具，提供大量功能来帮助项目规划者和经理。其众多功能包括过滤项目数据的能力，使用户能够专注于项目任务的特定方面。然而，如果没有正确的指导，掌握这些过滤功能可能是一项艰巨的任务。本教程旨在通过提供有关使用 Aspose.Tasks for .NET 在 MS Project 中实现过滤条件的分步指南来揭开该过程的神秘面纱。
 ## 先决条件
@@ -89,3 +95,9 @@ Console.WriteLine(criteria22.ToString());
 答：当然，您可以根据动态参数以编程方式调整过滤条件，从而实现自适应项目数据分析。
 ### 问：如果遇到 Aspose.Tasks 问题，我可以在哪里寻求帮助？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持或直接联系 Aspose.Tasks 支持以获得个性化帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

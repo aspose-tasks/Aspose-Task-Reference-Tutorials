@@ -3,10 +3,16 @@ title: Nắm vững cách xử lý tệp dự án MS với Aspose.Tasks
 linktitle: Xử lý các định dạng tệp dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khai phá sức mạnh của thao tác tệp Microsoft Project với Aspose.Tasks for .NET. Đi sâu vào việc tích hợp và quản lý liền mạch.
-type: docs
 weight: 18
 url: /vi/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững cách xử lý tệp dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các định dạng tệp Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và quản lý các tệp dự án theo chương trình. Cho dù bạn đang làm việc với các tệp .mpp, .xml hay .csv, Aspose.Tasks đều cung cấp một bộ tính năng toàn diện để xử lý các khía cạnh khác nhau của quản lý dự án.
 ## Điều kiện tiên quyết
@@ -52,3 +58,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cung cấp chức năng mở r�
 Trả lời: Có, bạn có thể làm việc với các trường dự án tùy chỉnh bằng Aspose.Tasks và thực hiện các thao tác như thêm, cập nhật hoặc xóa các trường tùy chỉnh.
 ### Câu hỏi: Tôi có thể tạo báo cáo dự án bằng Aspose.Tasks không?
 Trả lời: Có, Aspose.Tasks cho phép bạn tạo nhiều loại báo cáo dự án khác nhau theo chương trình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

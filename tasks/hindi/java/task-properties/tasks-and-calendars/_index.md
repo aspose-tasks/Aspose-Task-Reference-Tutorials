@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य और कैलेंडर
 linktitle: Aspose.Tasks में कार्य और कैलेंडर
 second_title: Aspose.Tasks जावा एपीआई
 description: कार्यों और कैलेंडरों को कुशलतापूर्वक प्रबंधित करने में जावा के लिए Aspose.Tasks की शक्ति का अन्वेषण करें। निर्बाध परियोजना प्रबंधन अनुभव के लिए अभी डाउनलोड करें!
-type: docs
 weight: 33
 url: /hi/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य और कैलेंडर
+
 ## परिचय
 क्या आप जावा के लिए Aspose.Tasks के साथ अपने प्रोजेक्ट प्रबंधन गेम को उन्नत करने के लिए तैयार हैं? यह व्यापक मार्गदर्शिका आपको Aspose.Tasks का उपयोग करके कार्यों और कैलेंडर की जटिल दुनिया के बारे में बताएगी, जिससे आप कुशल परियोजना योजना और निष्पादन के लिए इसकी पूरी क्षमता का उपयोग कर सकेंगे।
 ## आवश्यक शर्तें
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  समुदाय में शामिल हों[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15) समर्थन के लिए।
 ### क्या मैं Aspose.Tasks के लिए लाइसेंस खरीद सकता हूँ?
  हां, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

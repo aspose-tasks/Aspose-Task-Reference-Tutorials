@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Workweek Yapılandırmasında Uzmanlaşma
 linktitle: Aspose.Tasks'ta Workweeks'i Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te çalışma haftalarını zahmetsizce nasıl yapılandıracağınızı öğrenin. Adım adım kılavuzumuzla proje planlamasını ve kaynak yönetimini geliştirin.
-type: docs
 weight: 16
 url: /tr/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Workweek Yapılandırmasında Uzmanlaşma
+
 ## giriiş
 Aspose.Tasks for .NET'te çalışma haftalarını yapılandırmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Çalışma haftalarını verimli bir şekilde yönetmek, proje planlama ve zamanlama için çok önemlidir. Aspose.Tasks bu süreci basitleştirerek çalışma haftalarınızı projenizin ihtiyaçlarına göre özelleştirmenize olanak tanır. Bu eğitimde, çalışma haftalarını sorunsuz bir şekilde yapılandırma adımlarında size yol göstereceğiz.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Aspose.Tasks güçlü içe/dışa aktarma yetenekleri sağlarken, çalışma haf
 Mevcut sürüm itibarıyla, bir projede yapılandırabileceğiniz çalışma haftası sayısına ilişkin önceden tanımlanmış bir sınır yoktur.
 ### Ortak çalışma haftaları için yerleşik şablonlar var mı?
 Evet, Aspose.Tasks projeniz için başlangıç noktası olarak kullanabileceğiniz standart bir takvim şablonu içerir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

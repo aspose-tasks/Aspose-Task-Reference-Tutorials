@@ -3,10 +3,16 @@ title: 掌握 VBA 參考處理 - 逐步指南
 linktitle: 在 Aspose.Tasks 中處理 VBA 引用
 second_title: Aspose.Tasks .NET API
 description: 透過我們的綜合教學探索在 Aspose.Tasks .NET 中處理 VBA 參考的強大功能。學習無縫閱讀、比較和使用 VBA 參考資料。
-type: docs
 weight: 15
 url: /zh-hant/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 VBA 參考處理 - 逐步指南
+
 ## 介紹
 如果您正在深入研究 Aspose.Tasks for .NET 並希望探索處理 VBA 引用的複雜性，那麼您來對地方了。本逐步指南將引導您完成閱讀、檢查相等性、取得雜湊程式碼以及使用 Aspose.Tasks 處理 VBA 參考集合的過程。
 ## 先決條件
@@ -79,3 +85,9 @@ foreach (var reference in project.VbaProject.References)
 答：文檔已提供[這裡](https://reference.aspose.com/tasks/net/).
 ### Q：我可以購買 Aspose.Tasks 嗎？
 答： 是的，您可以購買[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

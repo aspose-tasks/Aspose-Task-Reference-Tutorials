@@ -3,10 +3,16 @@ title: Manipulation von Währungssymbolen in Aspose.Tasks
 linktitle: Manipulation von Währungssymbolen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Währungssymbole in MS Project-Dateien mit Aspose.Tasks für Java bearbeiten. Einfache Schritte für effizientes Projektmanagement.
-type: docs
 weight: 12
 url: /de/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation von Währungssymbolen in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial befassen wir uns mit der Manipulation von Währungssymbolen in MS Project-Dateien mithilfe der Aspose.Tasks-Bibliothek für Java. Aspose.Tasks bietet leistungsstarke Funktionen für die Arbeit mit Microsoft Project-Dokumenten und ermöglicht es Entwicklern, verschiedene Aspekte des Projektmanagements effizient abzuwickeln.
 ## Voraussetzungen
@@ -53,3 +59,9 @@ Ja, Entwickler können auf der Aspose.Tasks-Website auf umfassende Dokumentation
  Auf jeden Fall können Entwickler eine kostenlose Testversion von Aspose.Tasks unter der nutzen[Webseite](https://purchase.aspose.com/buy) um seine Merkmale und Funktionalitäten zu bewerten, bevor eine Kaufentscheidung getroffen wird.
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  Entwickler können eine temporäre Lizenz für Aspose.Tasks erwerben[Webseite](https://purchase.aspose.com/temporary-license/) Kaufseite, sodass sie während des Evaluierungszeitraums alle Funktionen der Bibliothek erkunden können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

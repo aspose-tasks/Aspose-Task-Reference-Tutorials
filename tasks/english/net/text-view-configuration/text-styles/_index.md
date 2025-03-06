@@ -3,10 +3,16 @@ title: Mastering Text Style Customization in Aspose.Tasks
 linktitle: Configuring Text Styles in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Enhance project document aesthetics with Aspose.Tasks for .NET. Customize text styles effortlessly for a visually appealing representation.
-type: docs
 weight: 11
 url: /net/text-view-configuration/text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Text Style Customization in Aspose.Tasks
+
 ## Introduction
 In the realm of project management using .NET, Aspose.Tasks is a powerful tool that offers a myriad of features. One such feature that significantly enhances the visual representation of project data is the ability to customize text styles. In this tutorial, we'll delve into the process of configuring text styles using Aspose.Tasks for .NET, allowing you to bring a personalized touch to your project documents.
 ## Prerequisites
@@ -65,3 +71,10 @@ Certainly, you can either omit the customization code or explicitly set styles b
 Yes, Aspose.Tasks supports various output formats, such as XLSX, PNG, and HTML. Adjust the save options accordingly.
 ### Is there a community where I can seek help or share experiences related to Aspose.Tasks?
 Absolutely, visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

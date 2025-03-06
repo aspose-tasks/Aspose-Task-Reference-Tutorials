@@ -3,10 +3,16 @@ title: Manipulación de fuentes en MS Project para Aspose.Tasks
 linktitle: Argumentos para guardar fuentes en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a manipular fuentes en archivos de MS Project usando Aspose.Tasks para .NET. Guía paso a paso para desarrolladores.
-type: docs
 weight: 19
 url: /es/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de fuentes en MS Project para Aspose.Tasks
+
 ## Introducción
 Bienvenido a nuestro tutorial completo sobre el uso de Aspose.Tasks para .NET para manipular fuentes en documentos de MS Project. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos de Microsoft Project mediante programación, lo que permite una amplia gama de funcionalidades para tareas como leer, escribir y modificar datos del proyecto.
 En este tutorial, nos centraremos específicamente en guardar fuentes en archivos de MS Project usando Aspose.Tasks para .NET. Dividiremos el proceso en pasos fáciles de seguir, asegurándonos de que pueda integrar sin problemas capacidades de guardado de fuentes en sus aplicaciones .NET.
@@ -72,3 +78,9 @@ Sí, Aspose.Tasks para .NET proporciona una amplia gama de funcionalidades para 
 Sí, Aspose.Tasks para .NET se puede utilizar tanto en aplicaciones web como de escritorio desarrolladas con .NET Framework.
 ### ¿Dónde puedo encontrar soporte y recursos adicionales para Aspose.Tasks para .NET?
  Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) Para obtener soporte, acceda a la documentación en el[página de documentación](https://reference.aspose.com/tasks/net/)y explore tutoriales y ejemplos en el sitio web Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

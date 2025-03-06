@@ -3,10 +3,16 @@ title: Nắm vững số lượng quy mô thời gian của dự án MS trong As
 linktitle: Đặt số lượng quy mô thời gian trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý hiệu quả số lượng quy mô thời gian trong MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa trực quan hóa và quản lý dự án một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững số lượng quy mô thời gian của dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Việc quản lý số lượng quy mô thời gian trong MS Project có thể ảnh hưởng đáng kể đến việc quản lý và trực quan hóa dự án. Với Aspose.Tasks cho Java, một API mạnh mẽ để xử lý các tác vụ quản lý dự án theo chương trình, bạn có thể thao tác một cách hiệu quả số lượng quy mô thời gian để điều chỉnh chế độ xem dự án theo nhu cầu cụ thể của mình.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Trả lời: Có, Aspose.Tasks dành cho Java hoạt động liền mạch với
  Đ: Có, bạn có thể tải phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?
  Trả lời: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

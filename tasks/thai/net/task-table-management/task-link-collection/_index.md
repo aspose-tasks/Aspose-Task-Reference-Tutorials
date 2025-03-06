@@ -3,10 +3,16 @@ title: การจัดการลิงค์งานใน Aspose.Tasks
 linktitle: การจัดการลิงค์งานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจพลังของ Aspose.Tasks สำหรับ .NET ในการจัดการลิงก์งานโครงการอย่างมีประสิทธิภาพ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงประสบการณ์การจัดการโครงการของคุณ
-type: docs
 weight: 19
 url: /th/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการลิงค์งานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการจัดการลิงก์งานใน Aspose.Tasks for .NET! ลิงก์งานมีบทบาทสำคัญในการจัดการโครงการ ทำให้คุณสามารถสร้างความสัมพันธ์ระหว่างงานและสร้างการขึ้นต่อกันได้ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทำงานกับคอลเลกชันลิงก์งานโดยใช้ Aspose.Tasks
 ## ข้อกำหนดเบื้องต้น
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 Aspose.Tasks สามารถจัดการไฟล์โปรเจ็กต์ขนาดใหญ่ได้อย่างมีประสิทธิภาพโดยมีผลกระทบต่อประสิทธิภาพน้อยที่สุด
 ### มีฟอรัมชุมชนสำหรับการสนับสนุน Aspose.Tasks หรือไม่
  ใช่ คุณสามารถหาการสนับสนุนและมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

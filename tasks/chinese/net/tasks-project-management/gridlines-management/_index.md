@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 自定义项目网格线
 linktitle: Aspose.Tasks 中的网格线管理
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以编程方式调整 Microsoft Project 文件中的网格线设置、项目可视化和管理效率。
-type: docs
 weight: 24
 url: /zh/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 自定义项目网格线
+
 ## 介绍
 有效管理项目通常涉及清晰地可视化时间表和任务。项目可视化的一个重要方面是网格线，它有助于组织和理解项目的结构。 Aspose.Tasks for .NET 提供了以编程方式操作 Microsoft Project 文件中的网格线的强大功能。在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 来处理网格线。
 ## 先决条件
@@ -69,3 +75,9 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 答：当然可以。使用Aspose.Tasks，您可以合并逻辑，根据项目数据或用户定义的条件动态调整网格线设置。
 ### 问：在哪里可以找到有关 Aspose.Tasks for .NET 的更多资源和支持？
 答：您可以探索[文档](https://reference.aspose.com/tasks/net/)如需全面指南，请访问[支持论坛](https://forum.aspose.com/c/tasks/15)寻求帮助，或考虑获得[临时执照](https://purchase.aspose.com/temporary-license/)用于扩展评估。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

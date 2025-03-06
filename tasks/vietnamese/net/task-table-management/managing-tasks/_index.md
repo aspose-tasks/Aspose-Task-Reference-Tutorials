@@ -3,10 +3,16 @@ title: Quản lý tác vụ trong Aspose.Tasks
 linktitle: Quản lý tác vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá hướng dẫn toàn diện về cách quản lý tác vụ với Aspose.Tasks cho .NET. Tìm hiểu cách thêm, hiển thị các phần được chia nhỏ, di chuyển, lấy/đặt thuộc tính, v.v.
-type: docs
 weight: 15
 url: /vi/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý tác vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Nếu bạn là nhà phát triển .NET đang tìm cách quản lý hiệu quả các tác vụ trong dự án của mình thì Aspose.Tasks for .NET sẽ cung cấp một giải pháp mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn qua các khía cạnh khác nhau của việc quản lý tác vụ bằng Aspose.Tasks, cung cấp hướng dẫn từng bước và ví dụ về mã. Cho dù bạn đang thêm nhiệm vụ, hiển thị các phần được chia nhỏ, di chuyển nhiệm vụ trong cùng một phần gốc, nhận/đặt thuộc tính nhiệm vụ, lặp lại các nhiệm vụ nhiệm vụ, đọc đường cơ sở của nhiệm vụ hoặc xóa nhiệm vụ, hướng dẫn này sẽ giúp bạn.
 ## Điều kiện tiên quyết
@@ -144,3 +150,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều khung .NET khác nhau, đảm 
 Đ: Chắc chắn rồi! Aspose.Tasks cung cấp các tùy chọn tùy chỉnh mở rộng cho các thuộc tính nhiệm vụ. Kiểm tra tài liệu để biết thêm chi tiết.
 ### Câu hỏi: Làm cách nào để tôi nhận được hỗ trợ cho Aspose.Tasks?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

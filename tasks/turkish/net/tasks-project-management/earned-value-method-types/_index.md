@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Kazanılan Değerde Uzmanlaşın MS Proje Yöntemleri
 linktitle: Aspose.Tasks'ta Kazanılan Değer Yöntemi Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile Kazanılan Değerde Ustalaşın MS Project Yöntem Türleri. Proje yönetimi verimliliğini zahmetsizce artırın.
-type: docs
 weight: 10
 url: /tr/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Kazanılan Değerde Uzmanlaşın MS Proje Yöntemleri
+
 ## giriiş
 Proje yönetimi alanında doğru araç ve metodolojilerden yararlanmak başarı için çok önemlidir. Aspose.Tasks for .NET, projeyle ilgili görevleri verimli bir şekilde yönetmek için sağlam bir çerçeve sağlar. Bu kadar önemli yönlerden biri, planlanan çalışmayı tamamlanan fiili çalışmayla karşılaştırarak proje performansına ilişkin öngörüler sunan Kazanılmış Değer Yönetimi (EVM) yöntemlerini kullanmaktır. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Kazanılan Değer MS Proje Yöntem Türlerini anlama ve uygulama konusuna değineceğiz.
 ## Önkoşullar
@@ -53,3 +59,9 @@ C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünden şu web sitesin
  C: Evet, Aspose.Tasks for .NET için geçici lisanslar mevcuttur. Bunları şu adresten alabilirsiniz:[Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
  C: Aspose.Tasks for .NET'i web sitesinden satın alabilirsiniz:[Satın almak](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

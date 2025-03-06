@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 시간대별 데이터 수집 마스터하기
 linktitle: Aspose.Tasks에서 시간대별 데이터 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 시간대별 데이터 수집을 살펴보세요. 단계별 가이드, FAQ 등. 오늘 귀하의 프로젝트 관리 역량을 강화하십시오!
-type: docs
 weight: 15
 url: /ko/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 시간대별 데이터 수집 마스터하기
+
 ## 소개
 Aspose.Tasks를 사용하여 .NET 애플리케이션에서 시간대별 데이터의 강력한 기능을 활용하려고 하시나요? 더 이상 보지 마세요! 이 포괄적인 가이드는 Aspose.Tasks for .NET을 사용하여 시간대별 데이터를 수집하는 과정을 안내하여 이 강력한 라이브러리를 최대한 활용할 수 있도록 보장합니다.
 ## 전제조건
@@ -121,3 +127,9 @@ Aspose.Tasks는 다양한 규모의 프로젝트를 처리하며 리소스 및 �
  예, 다음에 액세스하여 .NET용 Aspose.Tasks의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
 ### .NET용 Aspose.Tasks 라이선스는 어디서 구매할 수 있나요?
 .NET용 Aspose.Tasks 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

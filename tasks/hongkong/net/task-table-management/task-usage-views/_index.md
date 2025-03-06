@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks for .NET 中的任務使用視圖
 linktitle: 在 Aspose.Tasks 中配置任務使用視圖
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 並了解如何設定任務使用視圖。自訂時間刻度設定並增強您的專案管理視覺效果。
-type: docs
 weight: 24
 url: /zh-hant/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks for .NET 中的任務使用視圖
+
 ## 介紹
 在專案管理領域，視覺化任務使用對於有效規劃和執行至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來渲染任務使用視圖，讓您可以自訂時間刻度設定和示範格式。在本教學中，我們將逐步完成使用 Aspose.Tasks 配置任務使用視圖的步驟。
 ## 先決條件
@@ -75,3 +81,9 @@ Aspose.Tasks 支援各種示範格式，包括甘特圖、ResourceUsage 等。
 當然，您可以為專案中的各個任務自訂時間刻度設定。
 ### 我如何獲得 Aspose.Tasks 的支持或尋求協助？
 參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區的支持和指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

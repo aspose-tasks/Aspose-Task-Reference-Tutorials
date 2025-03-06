@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中创建空的 MS 项目文件
 linktitle: 在 Aspose.Tasks 中创建空项目文件
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中创建空的 Microsoft Project 文件。简单的步骤即可实现无缝集成。
-type: docs
 weight: 11
 url: /zh/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中创建空的 MS 项目文件
+
 ## 介绍
 在项目管理和任务调度领域，处理 Microsoft Project 文件通常是必要的。 Aspose.Tasks for Java 提供了一个强大的解决方案，可以在 Java 应用程序中无缝地创建、操作和管理这些文件。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 创建空 Microsoft Project 文件的过程。
 ## 先决条件
@@ -53,3 +59,9 @@ System.out.println("Project file generated Successfully");
 您可以从社区论坛寻求支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 如何获得 Aspose.Tasks for Java 的临时许可证？
 临时许可证可以从[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

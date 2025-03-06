@@ -3,10 +3,16 @@ title: Aspose.Tasks でのガント チャートのタイムスケール層の�
 linktitle: Aspose.Tasks でのタイムスケール層の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を探索して、ガント チャート ビューでタイムスケール層を構成し、プロジェクトのタイムラインを正確に視覚化します。 #Aspose.Task #MS プロジェクト
-type: docs
 weight: 16
 url: /ja/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのガント チャートのタイムスケール層の構成
+
 ## 導入
 プロジェクト管理の動的な状況では、タイムラインと期限を理解するために効果的な視覚化が非常に重要です。 Aspose.Tasks for .NET は強力なツールセットを提供します。このチュートリアルでは、ガント チャート ビューで最適に表示されるようにタイムスケール層を構成する方法を検討します。以下の段階的な手順に従って、プロジェクトの視覚化を強化します。
 ## 前提条件
@@ -86,3 +92,9 @@ project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 確かに、プロジェクトのコンテキストに最適なタイムスケール表現のさまざまな形式とスタイルを検討できます。
 ### Aspose.Tasks サポートのためのコミュニティ フォーラムはありますか?
 はい、訪問してください[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

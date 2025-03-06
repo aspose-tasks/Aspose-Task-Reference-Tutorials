@@ -3,10 +3,16 @@ title: Aspose.Tasks การกำหนดค่าข้อความแล
 linktitle: Aspose.Tasks การกำหนดค่าข้อความและดู
 second_title: Aspose.Tasks .NET API
 description: สำรวจ Aspose.Tasks สำหรับ .NET บทช่วยสอนเกี่ยวกับการกำหนดค่าข้อความและดู รูปแบบข้อความหลัก การบีบอัด Tiff มุมมองไทม์ไลน์ และอื่นๆ อีกมากมายเพื่อการจัดการโครงการที่ได้รับการปรับปรุง
-type: docs
 weight: 30
 url: /th/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks การกำหนดค่าข้อความและดู
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับ Aspose.Tasks สำหรับ .NET Tutorials โดยเน้นที่การกำหนดค่าข้อความและมุมมอง ในบทความนี้ เราจะเจาะลึกแง่มุมต่างๆ ของการจัดการโครงการ โดยให้ข้อมูลเชิงลึกแบบทีละขั้นตอนในการเรียนรู้ฟังก์ชันการทำงานของ Aspose.Tasks
@@ -53,3 +59,9 @@ Master Aspose.Tasks สำหรับ .NET ในการปรับแต่
 สำรวจ Aspose.Tasks สำหรับ .NET เพื่อกำหนดค่าระดับมาตราส่วนเวลาในมุมมองแผนภูมิ Gantt ของคุณเพื่อการแสดงภาพไทม์ไลน์ของโปรเจ็กต์ที่แม่นยำ
 ### [การกำหนดค่ามุมมองการใช้งานใน Aspose.Tasks](./usage-views/)
 เรียนรู้วิธีกำหนดค่ามุมมองการใช้งานใน Aspose.Tasks สำหรับ .NET ปรับปรุงการแสดงภาพโครงการด้วยขั้นตอนโดยละเอียด ดาวน์โหลดห้องสมุดทันที!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

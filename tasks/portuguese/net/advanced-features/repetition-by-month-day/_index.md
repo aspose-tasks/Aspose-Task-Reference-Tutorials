@@ -3,10 +3,16 @@ title: Repetição por dia do mês em Aspose.Tasks
 linktitle: Repetição por dia do mês em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar tarefas recorrentes em projetos .NET com Aspose.Tasks. Guia passo a passo para lidar com a repetição por mês e dia.
-type: docs
 weight: 25
 url: /pt/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Repetição por dia do mês em Aspose.Tasks
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.Tasks se destaca como uma ferramenta poderosa para gerenciar tarefas e cronogramas de projetos. Ele oferece uma infinidade de funcionalidades para agilizar os fluxos de trabalho de gerenciamento de projetos, incluindo o gerenciamento de tarefas recorrentes. A repetição por dia do mês é um requisito comum no agendamento de projetos, e Aspose.Tasks fornece suporte robusto para esse cenário.
@@ -105,3 +111,9 @@ A3: Com certeza, Aspose.Tasks oferece uma ampla gama de recursos para gerenciame
 ### P5: Onde posso procurar assistência se encontrar problemas ou tiver dúvidas?
 
  A5: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para buscar apoio da comunidade ou da equipe Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 有效率地管理 MS 專案屬性
 linktitle: 處理 Aspose.Tasks 中的擴充資源屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效處理擴充功能的 Microsoft Project 資源屬性。簡單的步驟和全面的指南。
-type: docs
 weight: 11
 url: /zh-hant/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 有效率地管理 MS 專案屬性
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 有效處理擴充功能的 Microsoft Project 資源屬性。 Aspose.Tasks 是一個功能強大的函式庫，使開發人員能夠以程式設計方式操作 Microsoft Project 文件，為任務和資源管理提供廣泛的功能。
 ## 先決條件
@@ -83,3 +89,9 @@ Aspose.Tasks定期更新，以確保與最新版本的Microsoft Project相容，
 當然，Aspose.Tasks 可以與其他 Java 程式庫無縫集成，以增強功能並簡化開發流程。
 ### Aspose.Tasks 用戶可以獲得技術支援嗎？
 是的，用戶可以透過 Aspose.Tasks 論壇獲得技術支持，在那裡他們可以尋求幫助並與社群互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

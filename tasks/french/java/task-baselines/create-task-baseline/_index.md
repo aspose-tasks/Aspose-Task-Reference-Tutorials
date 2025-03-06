@@ -3,10 +3,16 @@ title: Créer une référence de tâches MS Project dans Aspose.Tasks
 linktitle: Création d'une référence de tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment créer une base de données de tâches Microsoft Project en Java à l'aide d'Aspose.Tasks, une bibliothèque puissante permettant de gérer les données de projet sans effort.
-type: docs
 weight: 11
 url: /fr/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer une référence de tâches MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous aborderons le processus de création d'une base de tâches Microsoft Project à l'aide d'Aspose.Tasks pour Java. Aspose.Tasks est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers Microsoft Project sans nécessiter l'installation de Microsoft Project. Avec Aspose.Tasks, vous pouvez manipuler sans effort les données du projet, y compris les tâches, les ressources et les calendriers, pour rationaliser les tâches de gestion de projet.
 ## Conditions préalables
@@ -59,3 +65,9 @@ Absolument, Aspose.Tasks for Java fournit des fonctionnalités robustes pour man
 Oui, vous pouvez définir facilement les dépendances des tâches à l'aide d'Aspose.Tasks for Java, vous permettant d'établir la séquence des tâches au sein de votre projet.
 ### Un support technique est-il disponible pour Aspose.Tasks pour Java ?
  Oui, vous pouvez accéder au support technique pour Aspose.Tasks for Java via le[forum d'entraide](https://forum.aspose.com/c/tasks/15), où vous pouvez poser des questions et demander de l'aide à la communauté et au personnel d'assistance d'Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

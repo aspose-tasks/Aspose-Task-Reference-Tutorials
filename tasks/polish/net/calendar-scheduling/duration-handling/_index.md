@@ -3,10 +3,16 @@ title: Obsługa czasu trwania w Aspose.Tasks
 linktitle: Obsługa czasu trwania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać czasy trwania w Aspose.Tasks dla .NET, korzystając z samouczków krok po kroku.
-type: docs
 weight: 30
 url: /pl/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa czasu trwania w Aspose.Tasks
+
 ## Wstęp
 
 Efektywna obsługa czasów trwania ma kluczowe znaczenie w aplikacjach do zarządzania projektami. Aspose.Tasks dla .NET zapewnia solidną funkcjonalność do efektywnego zarządzania czasem trwania. W tym samouczku omówimy różne aspekty obsługi czasu trwania przy użyciu Aspose.Tasks dla .NET.
@@ -156,3 +162,9 @@ O4: Tak, Aspose.Tasks obsługuje odczytywanie i zapisywanie plików Microsoft Pr
 ### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
 
 O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET od[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

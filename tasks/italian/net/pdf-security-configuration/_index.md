@@ -3,10 +3,16 @@ title: Aspose.Tasks Configurazione della sicurezza PDF
 linktitle: Aspose.Tasks Configurazione della sicurezza PDF
 second_title: Aspose.Tasks API .NET
 description: Scopri come migliorare la sicurezza dei tuoi PDF di Microsoft Project utilizzando Aspose.Tasks per .NET. Imparare le tecniche di firma digitale e crittografia.
-type: docs
 weight: 35
 url: /it/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Configurazione della sicurezza PDF
+
 ## introduzione
 
 Nel regno digitale, salvaguardare i file di progetto è fondamentale. Aspose.Tasks per .NET fornisce una soluzione solida per rafforzare la sicurezza dei tuoi PDF di Microsoft Project. Questa serie di tutorial approfondisce le complessità della configurazione della sicurezza PDF, garantendo la riservatezza e l'autenticità dei tuoi preziosi dati di progetto.
@@ -36,3 +42,9 @@ In un mondo in cui la sicurezza dei dati non è negoziabile, padroneggiare Aspos
 Scopri come configurare i dettagli della firma digitale di Microsoft Project PDF utilizzando Aspose.Tasks per .NET. Garantisci la sicurezza e l'autenticità dei file del tuo progetto.
 ### [Configurare i dettagli di crittografia PDF di MS Project in Aspose.Tasks](./pdf-encryption-details/)
 Scopri come configurare i dettagli di crittografia PDF di MS Project in Aspose.Tasks per .NET. Proteggi i tuoi file di progetto con password utente e proprietario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

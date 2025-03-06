@@ -3,10 +3,16 @@ title: Renderuj wykorzystanie zasobów i widok arkusza w Aspose.Tasks
 linktitle: Renderuj wykorzystanie zasobów i widok arkusza w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak renderować widoki użycia zasobów i arkuszy MS Project w Aspose.Tasks dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku wygenerować szczegółowe raporty w formacie PDF.
-type: docs
 weight: 16
 url: /pl/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderuj wykorzystanie zasobów i widok arkusza w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku dowiemy się, jak używać Aspose.Tasks dla Java do renderowania widoków użycia zasobów i arkusza MS Project. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Absolutnie! Aspose.Tasks zapewnia rozbudowane opcje dostosowywania wyglądu i uk
 Nie, Aspose.Tasks jest samodzielną biblioteką i do swojego działania nie wymaga instalacji Microsoft Project.
 ### Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
  Tak, użytkownicy Aspose.Tasks mogą skorzystać ze wsparcia technicznego za pośrednictwem[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

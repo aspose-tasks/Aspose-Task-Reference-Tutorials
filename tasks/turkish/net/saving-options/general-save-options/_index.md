@@ -3,10 +3,16 @@ title: Aspose.Tasks için MS Project Kaydetme Seçeneklerinde Uzmanlaşma
 linktitle: Aspose.Tasks için Genel Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarını verimli bir şekilde kaydetmeyi öğrenin. Projeleriniz için çıktı seçeneklerini zahmetsizce özelleştirin.
-type: docs
 weight: 17
 url: /tr/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için MS Project Kaydetme Seçeneklerinde Uzmanlaşma
+
 ## giriiş
 Aspose.Tasks for .NET, Microsoft Project dosyalarını programlı olarak yönetmek için güçlü özellikler sunar. Bu eğitimde Aspose.Tasks tarafından sağlanan çeşitli seçenekleri kullanarak MS Project dosyalarını kaydetmenin inceliklerini inceleyeceğiz. Özellikle Aspose.Tasks için mevcut olan genel kaydetme seçeneklerine odaklanacağız ve çıktıyı özel gereksinimlerinize göre uyarlamanıza olanak tanıyacağız.
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Evet, Aspose.Tasks, MS Project dosyalarının çeşitli sürümlerini destekl
  C: Değerlendirme amacıyla geçici lisanslar mevcuttur[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
  C: Aspose.Tasks topluluk forumuna katılabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15)uzmanlardan ve diğer geliştiricilerden yardım almak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

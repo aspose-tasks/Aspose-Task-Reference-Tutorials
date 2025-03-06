@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 将 MS 项目保存为 HTML
 linktitle: Aspose.Tasks 的 HTML 保存选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 将 Microsoft Project 文件另存为 HTML。使用我们的分步指南轻松转换项目数据。
-type: docs
 weight: 10
 url: /zh/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 将 MS 项目保存为 HTML
+
 ## 介绍
 欢迎来到我们关于使用 Aspose.Tasks for .NET 将 Microsoft Project 文件保存为 HTML 的教程！ Aspose.Tasks 是一个功能强大的库，允许开发人员以编程方式处理 Microsoft Project 文件。在本教程中，我们将探索如何利用 Aspose.Tasks 将项目数据保存为 HTML，并在此过程中提供分步指导。
 ## 先决条件
@@ -57,3 +63,9 @@ project.Save("OutputFilePath.html", options);
 答：当然，您可以根据您的要求提取并包含项目的特定页面或部分。
 ### 问：Aspose.Tasks 有试用版吗？
 答：是的，您可以在购买之前免费试用 Aspose.Tasks 以探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

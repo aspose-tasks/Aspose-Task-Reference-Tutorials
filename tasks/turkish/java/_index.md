@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Java için Aspose.Tasks Örnekleri
 linktitle: Java Eğitimleri için Aspose.Tasks
-type: docs
 weight: 10
 url: /tr/java/
 description: Eğitimlerimizle Aspose.Tasks for Java'yı keşfedin. Ana takvim, proje yönetimi ve daha fazlası. Verimli proje yürütme için iş akışlarınızı kolaylaştırın.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Java için Aspose.Tasks Örnekleri
+
 
 ## giriiş
 Java proje yönetimi becerilerinizi yükseltmeye hazır mısınız? Proje yönetiminin çeşitli yönlerini kapsayan kapsamlı eğitimlerimizle Aspose.Tasks for Java dünyasına dalın. Takvim istisnalarından VBA entegrasyonuna kadar her konuda yanınızdayız.
@@ -93,3 +98,9 @@ Aspose.Tasks Java'yı Görev Temelleri Eğitimlerimizle keşfedin. Görev zamanl
 Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerin ele alınmasından maliyetlerin yönetilmesine kadar görev özelliklerine ilişkin eğitimleri keşfedin. Projenizi bugün optimize edin!
 ### [VBA Entegrasyonu](./vba-integration/)
 Aspose.Tasks Java'yı VBA entegrasyonuyla keşfedin. Proje iş akışlarını kolaylaştırın ve görev takibini iyileştirin. Sorunsuz VBA entegrasyonu için kapsamlı eğitimleri keşfedin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

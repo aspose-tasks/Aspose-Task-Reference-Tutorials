@@ -3,10 +3,16 @@ title: Коллекция MS Project Outline Codes в Aspose.Tasks
 linktitle: Коллекция структурных кодов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как собирать структурные коды Microsoft Project с помощью Aspose.Tasks для .NET. Это подробное руководство содержит пошаговые инструкции.
-type: docs
 weight: 11
 url: /ru/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Коллекция MS Project Outline Codes в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как собирать структурные коды Microsoft Project с помощью Aspose.Tasks для .NET. Мы разобьем процесс на пошаговые инструкции, чтобы обеспечить ясность и понимание.
 ## Предварительные условия
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 О: Конечно, Aspose.Tasks для .NET предоставляет широкие возможности для настройки формата вывода в соответствии с вашими требованиями.
 ### Вопрос: Где я могу найти дополнительную поддержку или ресурсы для Aspose.Tasks для .NET?
  О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любой помощи или вопросов, касающихся Aspose.Tasks для .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

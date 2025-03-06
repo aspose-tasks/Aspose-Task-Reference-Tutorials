@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 자원 할당 처리
 linktitle: Aspose.Tasks에서 자원 할당 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 리소스 할당을 효율적으로 처리하는 방법을 알아보세요. 이 포괄적인 문서는 개발자를 위한 단계별 지침을 제공합니다.
-type: docs
 weight: 11
 url: /ko/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 자원 할당 처리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스 할당을 효율적으로 처리하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 API입니다. 다음 단계를 수행하면 .NET 애플리케이션 내에서 리소스 할당을 효과적으로 관리하는 방법을 배우게 됩니다.
 ## 전제조건
@@ -73,3 +79,9 @@ project.Save(DataDir + "CreateSplitTasks_out.xml", SaveFileFormat.Xml);
 예, Aspose.Tasks를 사용하면 프로젝트 데이터를 XML, PDF, HTML 등 다양한 형식으로 내보낼 수 있습니다.
 ### Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
 예, Aspose는 사용자의 질문이나 문제를 돕기 위해 포럼 및 기타 채널을 통해 전담 기술 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

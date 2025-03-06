@@ -3,10 +3,16 @@ title: Aspose.Tasks-weergave en WBS-codeconfiguratie
 linktitle: Aspose.Tasks-weergave en WBS-codeconfiguratie
 second_title: Aspose.Tasks .NET API
 description: Beheers Aspose.Tasks voor .NET-weergaven en WBS-codes. Pas het projectbeheer aan met onze stapsgewijze tutorials. Download nu voor naadloze projectvisualisatie.
-type: docs
 weight: 32
 url: /nl/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks-weergave en WBS-codeconfiguratie
+
 
 ## Invoering
 
@@ -56,3 +62,9 @@ Ontdek de stapsgewijze configuratie van WBS-codemaskers in .NET-projecten met be
 Verbeter projectbeheer met Aspose.Tasks voor .NET. Leer moeiteloos WBS-codemaskers maken, beheren en overdragen in deze uitgebreide zelfstudie.
 ### [WBS-reeksen definiëren in Aspose.Tasks](./wbs-sequences/)
 Versterk uw projectbeheer met Aspose.Tasks voor .NET – definieer naadloos WBS-reeksen en verbeter moeiteloos de efficiëntie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

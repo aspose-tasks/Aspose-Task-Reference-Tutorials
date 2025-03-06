@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
 linktitle: Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Projeleri görüntü olarak kaydederken Aspose.Tasks for .NET'te BitmapInvalidSizeException'ın nasıl işleneceğini öğrenin. Adım adım rehberlik içeren kapsamlı eğitim.
-type: docs
 weight: 22
 url: /tr/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
+
 ## giriiş
 
  Bu eğitimde, aşağıdaki işlemleri ele alacağız:`BitmapInvalidSizeException` Aspose.Tasks for .NET ile çalışırken. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan, projeleri görüntü olarak kaydetme gibi görevleri mümkün kılan güçlü bir kütüphanedir. Ancak bazen bir projeyi resim olarak kaydetmeye çalışırken bir hatayla karşılaşabiliriz.`Invalid Size Exception`Bitmap ile ilgili. Bu eğitimin amacı, bu istisnayı etkili bir şekilde yakalama ve işleme süreci boyunca size rehberlik etmektir.
@@ -111,3 +117,9 @@ Cevap4: Evet, Aspose.Tasks, Microsoft Project dosyalarının çeşitli sürümle
 ### S5: Aspose.Tasks için nasıl geçici lisans alabilirim?
 
 Cevap5: Makalede verilen bağlantıdan değerlendirme amaçlı geçici lisans alabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

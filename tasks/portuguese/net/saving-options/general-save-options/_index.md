@@ -3,10 +3,16 @@ title: Dominando as opções de salvamento do MS Project para Aspose.Tasks
 linktitle: Opções gerais de salvamento para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a salvar arquivos do MS Project com eficiência usando Aspose.Tasks for .NET. Personalize facilmente as opções de saída para seus projetos.
-type: docs
 weight: 17
 url: /pt/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando as opções de salvamento do MS Project para Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for .NET oferece recursos poderosos para manipular arquivos do Microsoft Project programaticamente. Neste tutorial, nos aprofundaremos nas complexidades de salvar arquivos do MS Project usando várias opções fornecidas pelo Aspose.Tasks. Especificamente, vamos nos concentrar nas opções gerais de salvamento disponíveis para Aspose.Tasks, permitindo que você adapte a saída aos seus requisitos específicos.
 ## Pré-requisitos
@@ -68,3 +74,9 @@ R: Sim, Aspose.Tasks oferece suporte a várias versões de arquivos do MS Projec
  R: Licenças temporárias estão disponíveis para fins de avaliação[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso buscar suporte para consultas relacionadas ao Aspose.Tasks?
  R: Você pode participar do fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15)para obter assistência de especialistas e colegas desenvolvedores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

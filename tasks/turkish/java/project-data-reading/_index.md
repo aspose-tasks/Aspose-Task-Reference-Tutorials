@@ -3,10 +3,16 @@ title: Proje Verilerinin Okunması
 linktitle: Proje Verilerinin Okunması
 second_title: Aspose.Tasks Java API'si
 description: Eğitimlerimizle Aspose.Tasks for Java'nın gücünü ortaya çıkarın! Grup tanımlarını okumaktan Gantt şeması verilerini çıkarmaya kadar kusursuz entegrasyonda uzmanlaşın.
-type: docs
 weight: 28
 url: /tr/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proje Verilerinin Okunması
+
 ## giriiş
 Java'da proje yönetiminin geniş ortamında geziniyorsanız Aspose.Tasks eğitimlerimiz yol gösterici yıldızlarınızdır. Adım adım kılavuzlarımız sayesinde proje verilerini okumanın zahmetsiz bir yolculuğa dönüştüğü bir dünyaya dalın. Gelin bu bilgi macerasına birlikte çıkalım!
 
@@ -48,3 +54,9 @@ Bu eğitimdeki adım adım rehberlikle Aspose.Tasks for Java'daki şifre korumal
 Aspose.Tasks for Java'yı kullanarak belirli Gantt şeması verilerini nasıl çıkaracağınızı öğrenin. Java uygulamalarınızla kusursuz entegrasyon için adım adım eğitim.
 ### [Aspose.Tasks'taki Dosyadan Tablo Verilerini Oku](./read-table-data/)
 Aspose.Tasks for Java'nın gücünün kilidini açın. Bu kapsamlı eğitimde dosyalardan tablo verilerini çıkarmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

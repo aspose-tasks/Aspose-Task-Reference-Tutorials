@@ -3,10 +3,16 @@ title: Xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks
 linktitle: Xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks cho .NET bằng hướng dẫn từng bước này.
-type: docs
 weight: 18
 url: /vi/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một trong những chức năng thiết yếu mà nó cung cấp là khả năng xử lý các tác vụ định kỳ một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách làm việc với các mẫu lặp lại hàng tháng bằng Aspose.Tasks, theo từng bước.
@@ -94,3 +100,9 @@ Câu trả lời 2: Có, Aspose.Tasks cung cấp các tùy chọn mở rộng đ
 ### Câu hỏi 5: Tôi có thể mua giấy phép cho Aspose.Tasks ở đâu?
 
  Câu trả lời 5: Bạn có thể mua giấy phép cho Aspose.Tasks từ trang web[đây](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

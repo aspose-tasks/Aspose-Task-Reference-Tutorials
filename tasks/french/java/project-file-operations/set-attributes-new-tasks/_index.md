@@ -3,10 +3,16 @@ title: Définition des attributs MS Project pour les nouvelles tâches dans Aspo
 linktitle: Définir les attributs des nouvelles tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment définir les attributs MS Project pour les nouvelles tâches à l'aide d'Aspose.Tasks pour Java. Personnalisez les propriétés des tâches sans effort avec ce guide complet.
-type: docs
 weight: 21
 url: /fr/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des attributs MS Project pour les nouvelles tâches dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre didacticiel complet sur la configuration des attributs MS Project pour les nouvelles tâches dans Aspose.Tasks pour Java ! Dans ce guide, nous vous guiderons pas à pas tout au long du processus, en veillant à ce que vous puissiez facilement gérer et personnaliser vos tâches avec cette puissante bibliothèque Java.
 ## Conditions préalables
@@ -68,3 +74,9 @@ R : Oui, Aspose.Tasks pour Java fournit des fonctionnalités étendues pour mani
  R : Des licences temporaires pour Aspose.Tasks pour Java peuvent être obtenues auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je obtenir de l'aide pour tout problème ou requête lié à Aspose.Tasks for Java ?
  R : Vous pouvez obtenir de l'aide et interagir avec la communauté sur le[Forum de support Aspose.Tasks pour Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

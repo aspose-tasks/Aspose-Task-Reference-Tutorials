@@ -3,10 +3,16 @@ title: إتقان معايير تصفية مشروع MS باستخدام Aspose.
 linktitle: معايير التصفية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تنفيذ معايير التصفية في MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشروع من خلال تحليل البيانات المستهدفة.
-type: docs
 weight: 18
 url: /ar/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان معايير تصفية مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد Microsoft Project بمثابة أداة قوية، حيث يقدم عددًا كبيرًا من الميزات لمساعدة مخططي ومديري المشاريع. ومن بين وظائفه العديدة تكمن القدرة على تصفية بيانات المشروع، مما يسمح للمستخدمين بالتركيز على جوانب محددة من مهام مشروعهم. ومع ذلك، فإن إتقان قدرات التصفية هذه يمكن أن يكون مهمة شاقة بدون التوجيه الصحيح. يهدف هذا البرنامج التعليمي إلى إزالة الغموض عن العملية من خلال توفير دليل خطوة بخطوة حول تطبيق معايير التصفية في MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ Explanation: يقوم هذا الجزء باسترجاع وعرض معلومات
 ج: بالتأكيد، يمكنك ضبط معايير التصفية برمجيًا استنادًا إلى المعلمات الديناميكية، مما يتيح تحليل بيانات المشروع التكيفي.
 ### س: أين يمكنني طلب المساعدة إذا واجهت مشاكل مع Aspose.Tasks؟
  ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لطلب الدعم من المجتمع أو التواصل مباشرة مع دعم Aspose.Tasks للحصول على مساعدة شخصية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

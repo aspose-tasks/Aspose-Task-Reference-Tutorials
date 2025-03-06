@@ -3,10 +3,16 @@ title: Zobrazení štítků v Aspose.Tasks
 linktitle: Zobrazení štítků v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak přizpůsobit zobrazení štítků ve správě projektů pomocí Aspose.Tasks for .NET. Zvyšte čitelnost a srozumitelnost bez námahy.
-type: docs
 weight: 14
 url: /cs/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zobrazení štítků v Aspose.Tasks
+
 ## Úvod
 
 V oblasti vývoje softwaru je efektivní řízení úkolů nezbytností pro úspěch projektu. Aspose.Tasks for .NET nabízí robustní řešení pro bezproblémové zpracování úkolů projektového řízení v rámci .NET. Jedním z klíčových aspektů projektového řízení je schopnost přizpůsobit možnosti zobrazení tak, aby vyhovovaly konkrétním požadavkům. V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks pro .NET k manipulaci se zobrazením minut, hodin, dnů, týdnů, měsíců a let v souborech projektu.
@@ -137,3 +143,10 @@ A4: Aspose.Tasks for .NET nabízí rozsáhlé možnosti přizpůsobení zobrazen
 ### Q5: Podporuje Aspose.Tasks integraci s jinými nástroji pro řízení projektů?
 
 Odpověď 5: Ano, Aspose.Tasks nabízí možnosti bezproblémové integrace a usnadňuje interoperabilitu s jinými nástroji a platformami pro řízení projektů.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

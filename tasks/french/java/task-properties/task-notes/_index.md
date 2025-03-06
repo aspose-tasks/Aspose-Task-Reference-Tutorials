@@ -3,10 +3,16 @@ title: Gestion des notes de tâches dans Aspose.Tasks
 linktitle: Gestion des notes de tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez la gestion des notes de tâches dans Aspose.Tasks pour Java. Guide étape par étape pour un développement Java efficace. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 22
 url: /fr/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des notes de tâches dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java fournit une solution robuste pour gérer les données liées au projet, y compris les notes de tâches. Dans ce didacticiel, nous aborderons les subtilités de la gestion efficace des notes de tâches à l'aide d'Aspose.Tasks pour Java. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous guidera tout au long du processus de gestion transparente des notes de tâches.
 ## Conditions préalables
@@ -51,3 +57,9 @@ La gestion des notes de tâches dans Aspose.Tasks pour Java est un processus sim
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter Aspose.Tasks pour Java ?
  Vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

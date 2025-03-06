@@ -3,10 +3,16 @@ title: Efficient Project Variance Handling with Aspose.Tasks
 linktitle: Deal with Variances in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to handle project variances efficiently with Aspose.Tasks for Java. Manage work, cost, start, and finish variances effortlessly.
-type: docs
 weight: 15
 url: /java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efficient Project Variance Handling with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to handle variances in Aspose.Tasks for Java. Variances are deviations from planned values, such as work, cost, start, or finish dates, in project management. Aspose.Tasks provides efficient methods to retrieve and manage these variances, helping developers to analyze and adjust project schedules effectively.
 ## Prerequisites
@@ -65,3 +71,10 @@ A: Certainly, Aspose.Tasks provides extensive features to customize reports acco
 A: Yes, users can access technical support through the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries.
 ### Q: Can I try Aspose.Tasks before purchasing?
 A: Yes, you can avail of a free trial of Aspose.Tasks from [here](https://releases.aspose.com/) to evaluate its features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

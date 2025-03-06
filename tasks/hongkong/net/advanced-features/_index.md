@@ -3,10 +3,16 @@ title: Aspose.Tasks 進階功能
 linktitle: Aspose.Tasks 進階功能
 second_title: Aspose.Tasks .NET API
 description: 透過我們的教學探索 Aspose.Tasks for .NET 中的進階功能。從 AND 運算到記憶體異常處理，增強您的專案管理技能。
-type: docs
 weight: 21
 url: /zh-hant/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 進階功能
+
 
 ## 介紹
 
@@ -93,3 +99,9 @@ url: /zh-hant/net/advanced-features/
 了解如何在 Aspose.Tasks for .NET 中有效管理運算模式，以簡化專案排程和任務依賴性。
 ### [Aspose.Tasks 中的計算類型](./calculation-type/)
 了解如何使用 Aspose.Tasks 庫中的計算類型在 .NET 專案中自訂值計算。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

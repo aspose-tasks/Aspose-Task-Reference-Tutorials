@@ -3,10 +3,16 @@ title: Aspose.Tasks में आवर्ती कार्य पैराम
 linktitle: Aspose.Tasks में आवर्ती कार्य पैरामीटर सेट करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट में आवर्ती कार्य पैरामीटर सेट करना सीखें। चरण-दर-चरण मार्गदर्शिका के साथ व्यापक ट्यूटोरियल।
-type: docs
 weight: 14
 url: /hi/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में आवर्ती कार्य पैरामीटर सेट करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम आपको .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट आवर्ती कार्य पैरामीटर सेट करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 हाँ, आप समुदाय से सहायता के लिए Aspose.Tasks फ़ोरम पर जा सकते हैं या सीधे सहायता के लिए समर्थन से संपर्क कर सकते हैं।
 ### मैं Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  आप से अस्थायी लाइसेंस प्राप्त कर सकते हैं[वेबसाइट](https://purchase.aspose.com/temporary-license/) परीक्षण प्रयोजनों के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

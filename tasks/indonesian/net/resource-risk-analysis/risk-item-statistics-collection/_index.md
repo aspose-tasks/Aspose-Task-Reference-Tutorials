@@ -3,10 +3,16 @@ title: Kumpulkan Statistik Item Risiko Proyek MS di Aspose.Tasks
 linktitle: Kumpulan Statistik Item Risiko di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengumpulkan statistik item risiko dari file MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan kemampuan manajemen proyek Anda.
-type: docs
 weight: 22
 url: /id/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulkan Statistik Item Risiko Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengumpulkan statistik item risiko dari file MS Project menggunakan Aspose.Tasks untuk .NET. Perpustakaan ini menyediakan fungsionalitas canggih untuk menganalisis data proyek, termasuk penilaian risiko dan analisis statistik.
 ## Prasyarat
@@ -88,3 +94,9 @@ J: Tentu saja, Aspose.Tasks dirancang untuk memenuhi tuntutan aplikasi manajemen
 J: Ya, Aspose.Tasks menawarkan fleksibilitas dalam mengonfigurasi pengaturan analisis risiko agar sesuai dengan kebutuhan dan skenario proyek spesifik Anda.
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
  J: Ya, pengguna Aspose.Tasks dapat mengakses dukungan teknis melalui Aspose[forum](https://forum.aspose.com/c/tasks/15), tempat mereka dapat mengajukan pertanyaan, melaporkan masalah, dan berinteraksi dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

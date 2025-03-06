@@ -3,10 +3,16 @@ title: Projecttijdlijnweergaven beheersen in Aspose.Tasks
 linktitle: Tijdlijnweergaven aanpassen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Beheers Aspose.Tasks voor .NET bij het aanpassen van tijdlijnweergaven. Verbeter uw projectmanagement met visueel aantrekkelijke tijdlijnen die zijn afgestemd op de behoeften van uw project.
-type: docs
 weight: 13
 url: /nl/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projecttijdlijnweergaven beheersen in Aspose.Tasks
+
 ## Invoering
 Het creëren van visueel aantrekkelijke en informatieve tijdlijnweergaven is cruciaal voor effectief projectmanagement. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het aanpassen van tijdlijnweergaven, waardoor u de weergave van taken kunt afstemmen op de specifieke behoeften van uw project. In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Tasks kunt gebruiken om moeiteloos tijdlijnweergaven te maken en aan te passen.
 ## Vereisten
@@ -76,3 +82,9 @@ Absoluut! Aspose.Tasks biedt flexibiliteit om het uiterlijk van elke taak in de 
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.Tasks?
  Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

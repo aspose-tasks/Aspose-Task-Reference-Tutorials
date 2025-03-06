@@ -3,10 +3,16 @@ title: Στήλη Προσαρμοσμένης Προβολής Ανάθεσης
 linktitle: Στήλη Προσαρμοσμένης Προβολής Ανάθεσης στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσθέτετε στήλες προσαρμοσμένης προβολής ανάθεσης στο Aspose.Tasks για .NET για να βελτιώσετε τις δυνατότητες διαχείρισης έργου.
-type: docs
 weight: 16
 url: /el/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Στήλη Προσαρμοσμένης Προβολής Ανάθεσης στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε προσαρμοσμένες στήλες για προβολές ανάθεσης χρησιμοποιώντας το Aspose.Tasks για .NET. Οι προσαρμοσμένες στήλες παρέχουν ευελιξία και σας επιτρέπουν να εμφανίζετε πρόσθετες πληροφορίες σχετικές με τις ανάγκες διαχείρισης του έργου σας.
@@ -116,3 +122,9 @@ A3: Ναι, μπορείτε να προσαρμόσετε την εμφάνισ
 ### Ε5: Το Aspose.Tasks υποστηρίζει την εξαγωγή έργων σε άλλες μορφές εκτός από υπολογιστικά φύλλα με προσαρμοσμένες στήλες;
 
 A5: Ναι, το Aspose.Tasks υποστηρίζει την εξαγωγή έργων σε διάφορες μορφές όπως PDF, HTML και XML, επιτρέποντας ευέλικτες επιλογές αναφοράς έργων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

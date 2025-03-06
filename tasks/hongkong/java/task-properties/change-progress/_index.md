@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中更改任務進度
 linktitle: 在 Aspose.Tasks 中更改任務進度
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 增強 Java 專案管理。在此逐步教程中學習無縫修改任務進度。現在下載！
-type: docs
 weight: 12
 url: /zh-hant/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中更改任務進度
+
 ## 介紹
 在專案管理的動態領域，有效的任務進度追蹤至關重要。 Aspose.Tasks for Java 作為一個強大的解決方案脫穎而出，以其強大的功能簡化了流程。在本教程中，我們將指導您完成使用 Aspose.Tasks for Java 變更任務進度的步驟。
 ## 先決條件
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 探索全面的文檔[這裡](https://reference.aspose.com/tasks/java/).
 ### 如何取得 Aspose.Tasks for Java 的臨時授權？
 參觀[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

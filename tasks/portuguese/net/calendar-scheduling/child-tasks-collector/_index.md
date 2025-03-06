@@ -3,10 +3,16 @@ title: Coletando tarefas filho em Aspose.Tasks
 linktitle: Coletando tarefas filho em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como coletar tarefas filhas com eficiência usando Aspose.Tasks for .NET. Melhore o gerenciamento de projetos em seus aplicativos .NET.
-type: docs
 weight: 15
 url: /pt/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coletando tarefas filho em Aspose.Tasks
+
 ## Introdução
 
 No domínio do gerenciamento de projetos, Aspose.Tasks for .NET se destaca como uma solução robusta para lidar com tarefas e projetos com eficiência. Esta poderosa biblioteca fornece aos desenvolvedores as ferramentas necessárias para gerenciar tarefas, projetos e tudo mais de maneira integrada. Neste tutorial, nos aprofundaremos em um aspecto específico do Aspose.Tasks: coleta de tarefas filhas.
@@ -96,3 +102,9 @@ A4: Sim, os usuários podem acessar o suporte técnico através do[Fórum Aspose
 ### Q5: Posso experimentar o Aspose.Tasks for .NET antes de comprar?
 
  A5: Certamente! Você pode aproveitar um teste gratuito no[página de lançamento](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

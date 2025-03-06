@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट संसा
 linktitle: Aspose.Tasks में संसाधनों का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट संसाधन संग्रह को सहजता से प्रबंधित करना सीखें। उत्पादकता बढ़ाएँ और प्रोजेक्ट वर्कफ़्लो को सुव्यवस्थित करें।
-type: docs
 weight: 10
 url: /hi/net/resource-risk-analysis/managing-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट संसाधनों को सहजता से प्रबंधित करें
+
 ## परिचय
 परियोजना प्रबंधन में संसाधनों का कुशलतापूर्वक प्रबंधन करना महत्वपूर्ण है, खासकर जटिल शेड्यूल और कार्य असाइनमेंट से निपटते समय। .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट संसाधन संग्रह को निर्बाध रूप से संभालने के लिए उपकरणों का एक मजबूत सेट प्रदान करता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संसाधन संग्रह को प्रबंधित करने के तरीके के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -62,3 +68,9 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 उत्तर: हाँ, .NET के लिए Aspose.Tasks प्रोजेक्ट डेटा को MPP, PDF, XLSX और HTML सहित विभिन्न प्रारूपों में निर्यात करने का समर्थन करता है।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए और सहायता या समर्थन कहां मिल सकता है?
  उत्तर: अधिक सहायता या समर्थन के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) या देखें[प्रलेखन](https://reference.aspose.com/tasks/net/) Aspose द्वारा प्रदान किया गया।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks PDF-säkerhetskonfiguration
 linktitle: Aspose.Tasks PDF-säkerhetskonfiguration
 second_title: Aspose.Tasks .NET API
 description: Upptäck hur du förbättrar säkerheten för dina Microsoft Project PDF-filer med Aspose.Tasks för .NET. Lär dig digitala signaturer och krypteringstekniker.
-type: docs
 weight: 35
 url: /sv/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks PDF-säkerhetskonfiguration
+
 ## Introduktion
 
 den digitala sfären är det viktigt att skydda dina projektfiler. Aspose.Tasks för .NET tillhandahåller en robust lösning för att stärka säkerheten för dina Microsoft Project PDF-filer. Denna handledningsserie fördjupar sig i krångligheterna med PDF-säkerhetskonfiguration, vilket säkerställer konfidentialitet och äkthet för dina värdefulla projektdata.
@@ -36,3 +42,9 @@ I en värld där datasäkerhet inte är förhandlingsbar är det en värdefull f
 Lär dig hur du konfigurerar Microsoft Project PDFs digitala signaturdetaljer med Aspose.Tasks för .NET. Säkerställ säkerhet och autenticitet för dina projektfiler.
 ### [Konfigurera MS Project PDF-krypteringsdetaljer i Aspose.Tasks](./pdf-encryption-details/)
 Lär dig hur du konfigurerar MS Project PDF-krypteringsdetaljer i Aspose.Tasks för .NET. Säkra dina projektfiler med användar- och ägarlösenord.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

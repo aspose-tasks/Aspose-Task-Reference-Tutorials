@@ -3,10 +3,16 @@ title: Реализация обратного вызова сохранения
 linktitle: Реализация обратного вызова сохранения страницы в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как реализовать обратный вызов для сохранения страниц в Aspose.Tasks для .NET, позволяющий настраивать обработку потоков вывода многостраничных документов.
-type: docs
 weight: 12
 url: /ru/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация обратного вызова сохранения страницы в Aspose.Tasks
+
 ## Введение
 
 В этом уроке мы рассмотрим, как реализовать обратный вызов сохранения страницы в Aspose.Tasks для .NET. Эта функция позволяет нам сохранять многостраничный документ в предоставленные пользователем потоки, обеспечивая гибкость и настройку обработки вывода.
@@ -121,3 +127,9 @@ A1: Обратный вызов сохранения страницы — это
 ### Вопрос 5: Где я могу найти дополнительные ресурсы и поддержку для Aspose.Tasks?
 
  A5: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для помощи, доступ к документации[здесь](https://reference.aspose.com/tasks/net/) или изучите дополнительные функции и варианты лицензирования на[Сайт Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

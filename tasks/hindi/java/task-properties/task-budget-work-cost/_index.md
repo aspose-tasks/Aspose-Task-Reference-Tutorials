@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्यों के लिए बजट, 
 linktitle: Aspose.Tasks में कार्यों के लिए बजट, कार्य और लागत प्रबंधन
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ जावा परियोजनाओं में कुशल बजट और लागत प्रबंधन अनलॉक करें। निर्बाध एकीकरण के लिए चरण-दर-चरण मार्गदर्शन का अन्वेषण करें।
-type: docs
 weight: 31
 url: /hi/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्यों के लिए बजट, कार्य और लागत प्रबंधन
+
 ## परिचय
 सफल परियोजना निष्पादन के लिए बजट, कार्य और लागत का कुशलतापूर्वक प्रबंधन करना महत्वपूर्ण है। जावा के लिए Aspose.Tasks बजट और लागत प्रबंधन सहित परियोजना-संबंधित कार्यों को संभालने के लिए एक मजबूत समाधान प्रदान करता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि आपकी परियोजनाओं में प्रभावी बजट, कार्य और लागत प्रबंधन प्राप्त करने के लिए जावा के लिए Aspose.Tasks का उपयोग कैसे करें।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ for (ResourceAssignment assn : projSummary.getAssignments()) {
  एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन उद्देश्यों के लिए।
 ### क्या जावा के लिए Aspose.Tasks के लिए कोई अतिरिक्त संसाधन हैं?
  दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/tasks/java/) गहन जानकारी और उदाहरणों के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA 모듈 및 참조 처리
 linktitle: Aspose.Tasks VBA 모듈 및 참조 처리
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks .NET을 사용하여 프로젝트 관리 기능을 향상시킬 준비가 되셨습니까? VBA 모듈 및 참조 처리에 대한 포괄적인 튜토리얼을 살펴보세요.
-type: docs
 weight: 31
 url: /ko/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA 모듈 및 참조 처리
+
 
 ## Aspose.Tasks에서 VBA 모듈 관리
 
@@ -40,3 +46,9 @@ VBA 모듈 속성 관리에서 .NET용 Aspose.Tasks의 강력한 기능을 살�
 VBA 프로젝트를 손쉽게 관리할 수 있는 Aspose.Tasks for .NET의 강력한 기능을 살펴보세요. 이 단계별 가이드를 통해 프로젝트 관리 역량을 강화하세요.
 ### [Aspose.Tasks에서 VBA 참조 처리](./vba-references/)
 포괄적인 튜토리얼을 통해 Aspose.Tasks .NET에서 VBA 참조 처리 기능을 살펴보세요. VBA 참조를 원활하게 읽고, 비교하고, 작업하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

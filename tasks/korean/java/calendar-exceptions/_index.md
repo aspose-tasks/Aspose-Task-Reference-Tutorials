@@ -3,10 +3,16 @@ title: 달력 예외
 linktitle: 달력 예외
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트의 달력 예외를 쉽게 관리, 정의, 처리 및 검색하세요. 효율적인 프로젝트 관리를 위해 프로젝트 워크플로를 간소화합니다.
-type: docs
 weight: 20
 url: /ko/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 달력 예외
+
 
 ## 소개
 
@@ -34,3 +40,9 @@ Aspose.Tasks for Java에서 달력 예외를 효율적으로 추가하고 제거
 Aspose.Tasks for Java를 사용하여 Java 프로젝트에서 달력 예외를 효과적으로 처리하는 방법을 알아보세요. 지금 프로젝트 관리 프로세스를 간소화하세요.
 ### [Aspose.Tasks를 사용하여 달력 예외 검색](./retrieve/)
 Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 달력 예외를 검색하는 방법을 알아보세요. 원활한 통합을 위한 단계별 튜토리얼입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

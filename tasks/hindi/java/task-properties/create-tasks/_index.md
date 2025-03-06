@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य बनाएँ
 linktitle: Aspose.Tasks में कार्य बनाएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ जावा प्रोजेक्ट्स को सहजता से प्रबंधित करें। कार्य, उपकार्य और बहुत कुछ बनाएं। निर्बाध परियोजना प्रबंधन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 13
 url: /hi/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य बनाएँ
+
 ## परिचय
 जावा के लिए Aspose.Tasks की दुनिया में आपका स्वागत है! यदि आप अपने जावा एप्लिकेशन में कार्यों और परियोजनाओं को कुशलतापूर्वक प्रबंधित करना चाहते हैं, तो आप सही जगह पर हैं। इस व्यापक मार्गदर्शिका में, हम आपको जावा के लिए Aspose.Tasks का उपयोग करके कार्य बनाने की प्रक्रिया के बारे में बताएंगे, एक सहज अनुभव सुनिश्चित करने के लिए प्रत्येक चरण को तोड़ेंगे।
 ## आवश्यक शर्तें
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 हां, आप अपनी परियोजना की आवश्यकताओं के अनुरूप कार्य विशेषताओं को बड़े पैमाने पर अनुकूलित कर सकते हैं।
 ### क्या Aspose.Tasks उपयोगकर्ताओं के लिए कोई सहायता समुदाय है?
  बिल्कुल! Aspose.Tasks समुदाय से जुड़ें[समर्थन मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

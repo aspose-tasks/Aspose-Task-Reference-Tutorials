@@ -3,10 +3,16 @@ title: Đặt thuộc tính dự án MS cho nhiệm vụ mới trong Aspose.Task
 linktitle: Đặt thuộc tính cho nhiệm vụ mới trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đặt thuộc tính MS Project cho các tác vụ mới bằng Aspose.Tasks cho Java. Tùy chỉnh các thuộc tính nhiệm vụ một cách dễ dàng với hướng dẫn toàn diện này.
-type: docs
 weight: 21
 url: /vi/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thuộc tính dự án MS cho nhiệm vụ mới trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách thiết lập thuộc tính MS Project cho các tác vụ mới trong Aspose.Tasks for Java! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo rằng bạn có thể dễ dàng quản lý và tùy chỉnh các tác vụ của mình bằng thư viện Java mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Có, Aspose.Tasks cho Java cung cấp chức năng mở rộng đ�
  Trả lời: Bạn có thể lấy giấy phép tạm thời cho Aspose.Tasks cho Java từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể nhận hỗ trợ ở đâu cho bất kỳ vấn đề hoặc truy vấn nào liên quan đến Aspose.Tasks cho Java?
  Đáp: Bạn có thể nhận được hỗ trợ và tương tác với cộng đồng trên[Aspose.Tasks cho diễn đàn hỗ trợ Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

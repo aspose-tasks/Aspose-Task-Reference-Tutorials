@@ -3,10 +3,16 @@ title: Aspose.Tasks 中按年日重复
 linktitle: Aspose.Tasks 中按年日重复
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中处理年日重复，以高效简化重复任务管理。
-type: docs
 weight: 27
 url: /zh/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中按年日重复
+
 ## 介绍
 
 在项目管理领域，高效的任务调度和重复在确保及时执行和工作流程顺利进行方面发挥着关键作用。 Aspose.Tasks for .NET 为开发人员提供了一个强大的解决方案，可以在其应用程序中轻松处理重复任务。在本教程中，我们深入研究使用 Aspose.Tasks 处理年日重复的复杂性，为根据年度模式创建重复任务提供全面的指南。
@@ -109,3 +115,9 @@ A4：当然，Aspose.Tasks 提供了强大的 API 来动态操作任务属性，
 ### Q5：Aspose.Tasks 适合小型和企业级项目吗？
 
 A5：事实上，Aspose.Tasks 旨在满足各种规模项目开发人员的需求，从个人任务到大型企业项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

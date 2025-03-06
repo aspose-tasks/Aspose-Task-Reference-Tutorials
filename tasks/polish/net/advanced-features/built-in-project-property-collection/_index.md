@@ -3,10 +3,16 @@ title: Wbudowana kolekcja właściwości projektu w Aspose.Tasks
 linktitle: Wbudowana kolekcja właściwości projektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać meta-właściwościami projektu w aplikacjach .NET przy użyciu Aspose.Tasks. Bez wysiłku czytaj, modyfikuj i iteruj po właściwościach.
-type: docs
 weight: 24
 url: /pl/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wbudowana kolekcja właściwości projektu w Aspose.Tasks
+
 ## Wstęp
 
 W dziedzinie tworzenia oprogramowania efektywne zarządzanie zadaniami i projektami ma kluczowe znaczenie dla sukcesu. Aspose.Tasks dla .NET to potężna biblioteka zaprojektowana w celu ułatwienia zadań związanych z zarządzaniem projektami w aplikacjach .NET. Dzięki solidnym funkcjom i intuicyjnemu interfejsowi programiści mogą usprawnić procesy zarządzania projektami, oszczędzając czas i zasoby.
@@ -106,3 +112,9 @@ O3: Tak, Aspose.Tasks dla .NET obsługuje szeroką gamę formatów plików proje
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie i zasoby dla Aspose.Tasks dla .NET?
 
  A5: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) aby uzyskać wsparcie społeczności i przejrzyj dokumentację, aby uzyskać wyczerpujące wskazówki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

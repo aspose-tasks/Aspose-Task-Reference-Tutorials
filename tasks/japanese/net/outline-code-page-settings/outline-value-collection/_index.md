@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS プロジェクトのアウトライン�
 linktitle: Aspose.Tasks のアウトライン値のコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学習します。コード例を含むステップバイステップのチュートリアル。
-type: docs
 weight: 17
 url: /ja/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS プロジェクトのアウトライン値を管理する
+
 ## 導入
 Aspose.Tasks for .NET は、Microsoft Project ファイルと対話するための包括的な機能セットを提供します。そのような機能の 1 つは、プロジェクト内のアウトライン値を管理する機能です。このチュートリアルでは、Aspose.Tasks for .NET を使用してアウトライン値を収集および操作する方法を検討します。
 ## 前提条件
@@ -108,3 +114,9 @@ A: try-catch ブロックなどのエラー処理メカニズムを実装して�
 A: はい、Aspose.Tasks は、要件に応じてアウトライン値の外観と動作をカスタマイズするための広範な API を提供します。
 ### Q: Aspose.Tasks の追加リソースとサポートはどこで入手できますか?
  A: にアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートを求めて、[ドキュメンテーション](https://reference.aspose.com/tasks/net/) API と機能の詳細については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

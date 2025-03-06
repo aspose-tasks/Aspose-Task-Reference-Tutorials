@@ -3,10 +3,16 @@ title: Verwalten Sie Vorgänger- und Nachfolgeraufgaben in Aspose.Tasks
 linktitle: Verwalten Sie Vorgänger- und Nachfolgeraufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie effizientes Aufgabenmanagement mit Aspose.Tasks für Java. Erledigen Sie problemlos Vorgänger- und Nachfolgeraufgaben in Ihren Projekten. Laden Sie jetzt Ihre kostenlose Testversion herunter!
-type: docs
 weight: 15
 url: /de/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie Vorgänger- und Nachfolgeraufgaben in Aspose.Tasks
+
 ## Einführung
 Im Bereich des Projektmanagements steht der effektive Umgang mit Aufgabenabhängigkeiten im Vordergrund. Aspose.Tasks für Java bietet eine robuste Lösung für die Verwaltung von Vorgänger- und Nachfolgeraufgaben in Ihren Projekten. Dieses Tutorial führt Sie durch den Prozess der Nutzung von Aspose.Tasks zur effizienten Verwaltung von Aufgabenverknüpfungen, sodass Sie Abhängigkeiten zwischen Aufgaben herstellen können.
 ## Voraussetzungen
@@ -52,3 +58,9 @@ Ja, Aspose.Tasks unterstützt verschiedene Projektdateiformate, darunter MPP, XM
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und Diskussionen.
 ### Kann ich eine kostenlose Testversion von Aspose.Tasks für Java herunterladen?
  Ja, laden Sie eine kostenlose Testversion herunter von[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

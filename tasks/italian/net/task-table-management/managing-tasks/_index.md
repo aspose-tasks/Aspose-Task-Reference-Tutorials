@@ -3,10 +3,16 @@ title: Gestione delle attività in Aspose.Tasks
 linktitle: Gestione delle attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora la guida completa sulla gestione delle attività con Aspose.Tasks per .NET. Impara ad aggiungere, visualizzare parti divise, spostare, ottenere/impostare proprietà e altro ancora.
-type: docs
 weight: 15
 url: /it/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione delle attività in Aspose.Tasks
+
 ## introduzione
 Se sei uno sviluppatore .NET che desidera gestire in modo efficiente le attività all'interno dei tuoi progetti, Aspose.Tasks per .NET fornisce una soluzione solida. Questo tutorial ti guiderà attraverso vari aspetti della gestione delle attività utilizzando Aspose.Tasks, offrendo istruzioni dettagliate ed esempi di codice. Che tu stia aggiungendo attività, visualizzando parti divise, spostando attività sotto lo stesso genitore, ottenendo/impostando proprietà di attività, ripetendo assegnazioni di attività, leggendo linee di base di attività o eliminando attività, questa guida ti copre.
 ## Prerequisiti
@@ -144,3 +150,9 @@ R: Sì, Aspose.Tasks supporta vari framework .NET, garantendo la compatibilità 
 R: Assolutamente! Aspose.Tasks fornisce ampie opzioni di personalizzazione per le proprietà dell'attività. Controlla la documentazione per maggiori dettagli.
 ### D: Come posso ottenere supporto per Aspose.Tasks?
  R: Visita il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto e le discussioni della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

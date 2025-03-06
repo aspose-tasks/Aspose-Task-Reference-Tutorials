@@ -3,10 +3,16 @@ title: مجموعة من الخطوط الأساسية للمهام في Aspose.
 linktitle: مجموعة من الخطوط الأساسية للمهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف الخطوط الأساسية للمهام دون عناء باستخدام Aspose.Tasks لـ .NET. أصبحت إدارة المشاريع الفعالة بسيطة. التحميل الان! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /ar/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة من الخطوط الأساسية للمهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks for .NET، وهي مكتبة قوية تسهل المعالجة السلسة وإدارة مهام المشروع. في هذا البرنامج التعليمي، سوف نتعمق في عالم الخطوط الأساسية للمهام الرائعة - وهو جانب حاسم في تخطيط المشروع وتتبعه. بنهاية هذا الدليل، سوف تتقن فن العمل مع مجموعات المهام الأساسية، مما يتيح لك تحسين قدرات إدارة المشروع لديك.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ for (var i = 0; i < baselines.Count; i++)
 ج: بالتأكيد! لديك سيطرة كاملة على التنسيق عند طباعة التفاصيل الأساسية، مما يسمح لك بتخصيصها وفقًا لمتطلباتك المحددة.
 ### س: أين يمكنني طلب المساعدة إذا واجهت مشكلات أو كانت لدي أسئلة إضافية؟
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على الدعم المخصص والمساعدة المجتمعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

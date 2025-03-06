@@ -3,10 +3,16 @@ title: Aspose.Tasks 保存選項
 linktitle: Aspose.Tasks 保存選項
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 儲存、轉換和管理 MS Project 檔案。探索 HTML、圖像、PDF、Primavera、模板等的逐步教學。
-type: docs
 weight: 20
 url: /zh-hant/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 保存選項
+
 
 ## 介紹
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 使用 Aspose.Tasks for .NET 儲存 MS 專案選項。�
 了解如何利用 Aspose.Tasks for .NET 輕鬆產生 Microsoft Project 檔案的 SVG 表示形式，以增強專案視覺化。
 ### [使用 Aspose.Tasks 將 MSP 轉換為 XPS 選項](./xps-options/)
 了解如何使用 Aspose.Tasks for .NET 將 Microsoft Project 檔案轉換為 XPS 格式。易於集成，功能強大。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

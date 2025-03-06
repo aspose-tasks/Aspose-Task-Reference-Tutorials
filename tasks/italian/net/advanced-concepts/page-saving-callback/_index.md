@@ -3,10 +3,16 @@ title: Implementazione della richiamata di salvataggio della pagina in Aspose.Ta
 linktitle: Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come implementare un callback per il salvataggio delle pagine in Aspose.Tasks per .NET, consentendo la gestione personalizzata dei flussi di output di documenti multipagina.
-type: docs
 weight: 12
 url: /it/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
+
 ## introduzione
 
 In questo tutorial, esploreremo come implementare una richiamata di salvataggio della pagina in Aspose.Tasks per .NET. Questa funzionalità ci consente di salvare un documento di più pagine nei flussi forniti dall'utente, offrendo flessibilità e personalizzazione nella gestione dell'output.
@@ -121,3 +127,9 @@ A4: è possibile implementare meccanismi di gestione degli errori all'interno de
 ### Q5: Dove posso trovare più risorse e supporto per Aspose.Tasks?
 
  A5: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per assistenza, accedere alla documentazione[Qui](https://reference.aspose.com/tasks/net/) oppure esplora funzionalità aggiuntive e opzioni di licenza su[Sito web Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

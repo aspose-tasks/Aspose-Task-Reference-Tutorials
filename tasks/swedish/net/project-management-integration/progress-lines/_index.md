@@ -3,10 +3,16 @@ title: Hantera MS Project Progress Lines med Aspose.Tasks
 linktitle: Hantera framstegsrader i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du manipulerar framstegslinjer i MS Project-filer med Aspose.Tasks för .NET, vilket förbättrar projektvisualisering och hantering.
-type: docs
 weight: 15
 url: /sv/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Progress Lines med Aspose.Tasks
+
 ## Introduktion
 Microsoft Project (MS Project) är ett kraftfullt verktyg för projektledning, som låter användare spåra olika aspekter av sina projekt. En avgörande egenskap hos MS Project är förmågan att visualisera framstegslinjer, vilket hjälper intressenter att förstå projektets status och bana. I den här handledningen kommer vi att utforska hur man hanterar framstegsrader i MS Project med Aspose.Tasks-biblioteket för .NET.
 ## Förutsättningar
@@ -96,3 +102,9 @@ S: Absolut, Aspose.Tasks är designat för att sömlöst integreras med andra .N
  S: Ja, du kan hitta användbara resurser och söka hjälp på Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
 ### F: Erbjuder Aspose.Tasks tillfälliga licenser för utvärderingssyften?
  S: Ja, du kan få en tillfällig licens för utvärdering från[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

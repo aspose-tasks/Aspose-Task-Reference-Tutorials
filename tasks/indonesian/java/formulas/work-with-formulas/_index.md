@@ -3,10 +3,16 @@ title: Rumus Proyek MS dengan Aspose.Tasks untuk Java
 linktitle: Bekerja dengan Rumus di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara memanipulasi file MS Project di Java menggunakan perpustakaan Aspose.Tasks. Membuat, memodifikasi, dan menghitung atribut dengan mudah.
-type: docs
 weight: 11
 url: /id/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rumus Proyek MS dengan Aspose.Tasks untuk Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara bekerja dengan Rumus Proyek MS menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Dengan fiturnya yang luas, Anda dapat dengan mudah membuat, membaca, memodifikasi, dan mengonversi file proyek di aplikasi Java.
 ## Prasyarat
@@ -64,3 +70,9 @@ J: Ya, Aspose.Tasks mendukung berbagai bahasa pemrograman termasuk Java, .NET, d
  A: Untuk dukungan, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### T: Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks?
 J: Jika Anda memerlukan fitur tambahan, Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

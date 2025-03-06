@@ -3,10 +3,16 @@ title: Zapisz jako plik CSV, tekst i szablon w Aspose.Tasks
 linktitle: Zapisz jako plik CSV, tekst i szablon w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak zapisywać pliki Microsoft Project w formatach CSV, tekstowych i szablonach przy użyciu Aspose.Tasks dla Java.
-type: docs
 weight: 16
 url: /pl/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz jako plik CSV, tekst i szablon w Aspose.Tasks
+
 ## Wstęp
 tym samouczku omówimy, jak zapisywać pliki projektu w różnych formatach, takich jak CSV, tekst i szablon, za pomocą Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ Odp.: Absolutnie! Aspose.Tasks for Java może z łatwością obsługiwać projek
  Odpowiedź: Tak, możesz kupić tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/), co pozwala ocenić pełny potencjał biblioteki.
 ### P: Czy Aspose.Tasks for Java jest kompatybilny z różnymi systemami operacyjnymi?
 Odp.: Tak, Aspose.Tasks for Java jest kompatybilny z różnymi systemami operacyjnymi, w tym Windows, macOS i Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

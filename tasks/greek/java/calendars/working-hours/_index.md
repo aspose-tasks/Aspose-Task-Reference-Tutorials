@@ -3,10 +3,16 @@ title: Λάβετε Ώρες εργασίας από το Ημερολόγιο �
 linktitle: Λάβετε Ώρες εργασίας από το Ημερολόγιο χρησιμοποιώντας το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξάγετε εύκολα τις ώρες εργασίας από τα ημερολόγια του MS Project με το Aspose.Tasks για Java. Απλοποιήστε τις εργασίες διαχείρισης έργου.
-type: docs
 weight: 13
 url: /el/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε Ώρες εργασίας από το Ημερολόγιο χρησιμοποιώντας το Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση ημερολογίων έργων και η εξαγωγή ωρών εργασίας είναι απαραίτητα για την αποτελεσματική διαχείριση του έργου. Το Aspose.Tasks για Java παρέχει ισχυρή λειτουργικότητα για την ανάκτηση ωρών εργασίας από τα ημερολόγια του MS Project χωρίς κόπο. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -83,3 +89,9 @@ System.out.println();
 Α: Ναι, το Aspose.Tasks για Java παρέχει εκτενή τεκμηρίωση και ειδικά φόρουμ υποστήριξης για να βοηθήσει τους προγραμματιστές να χρησιμοποιήσουν αποτελεσματικά τις δυνατότητές του.
 ### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για Java;
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.Tasks για Java από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
 linktitle: Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý khoảng thời gian sẵn có của tài nguyên trong Aspose.Tasks for .NET. Hướng dẫn từng bước này hướng dẫn bạn cách thêm, cập nhật và xóa các khoảng thời gian sẵn có, đảm bảo lập kế hoạch nguồn lực dự án hiệu quả.
-type: docs
 weight: 18
 url: /vi/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với bộ sưu tập tài nguyên trong khoảng thời gian khả dụng trong Aspose.Tasks cho .NET. Quản lý thời gian sẵn sàng là rất quan trọng đối với việc quản lý dự án, cho phép chúng tôi xác định thời điểm có sẵn nguồn lực cho các nhiệm vụ trong dự án.
@@ -148,3 +154,9 @@ Câu trả lời 4: Aspose.Tasks dành cho .NET không cung cấp cơ chế tíc
 ### Câu hỏi 5: Có giới hạn về số lượng thời gian sẵn sàng mà một nguồn lực có thể có không?
 
 Câu trả lời 5: Không có giới hạn được xác định trước đối với số khoảng thời gian khả dụng mà tài nguyên có thể có, nhưng hiệu suất có thể giảm theo số lượng khoảng thời gian lớn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

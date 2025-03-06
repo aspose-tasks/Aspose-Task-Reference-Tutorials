@@ -3,10 +3,16 @@ title: Definire il tipo di collegamento in Aspose.Tasks
 linktitle: Definire il tipo di collegamento in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora la potenza di Aspose.Tasks per Java nella gestione dei progetti. Definisci e personalizza facilmente i tipi di collegamento con il nostro tutorial passo passo.
-type: docs
 weight: 13
 url: /it/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definire il tipo di collegamento in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel mondo della gestione efficiente dei progetti con Aspose.Tasks per Java! Se stai cercando di semplificare la gestione dei tuoi progetti e aumentare la produttività, sei nel posto giusto. In questo tutorial completo, ti guideremo attraverso il processo di definizione dei tipi di collegamento in Aspose.Tasks per Java, migliorando le tue capacità di gestione dei progetti.
 ## Prerequisiti
@@ -60,3 +66,9 @@ R: Assolutamente! Aspose.Tasks offre flessibilità, consentendoti di definire e 
  Una visita[questo link](https://purchase.aspose.com/temporary-license/) acquisire una licenza temporanea a scopo di test.
 ### D: Dove posso ottenere supporto per le query relative ad Aspose.Tasks?
  R: Unisciti alla community Aspose.Tasks su[Forum di assistenza](https://forum.aspose.com/c/tasks/15) per assistenza e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Task ライセンス管理
 linktitle: Aspose.Task ライセンス管理
 second_title: Aspose.Tasks .NET API
 description: 包括的なチュートリアルを使用して、Aspose.Tasks for .NET の機能を最大限に活用してください。ライセンスを管理し、MS Project の使用を最適化して、効率的なプロジェクト管理を実現します。
-type: docs
 weight: 36
 url: /ja/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Task ライセンス管理
+
 
 ## 導入
 
@@ -35,3 +41,9 @@ Aspose.Tasks のスキルを高める準備はできていますか?チュート
 ファイルベースまたはストリームベースのアプローチを使用して、.NET アプリケーションで Aspose.Tasks ライセンスをシームレスに管理する方法を学びます。
 ### [Aspose.Tasks での使用量の計測](./metering-usage/)
 Aspose.Tasks for .NET を使用して MS Project の使用状況を効果的に監視し、最適化する方法を学びます。効率的なプロジェクト管理のためのステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

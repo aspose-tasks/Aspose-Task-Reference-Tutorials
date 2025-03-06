@@ -3,10 +3,16 @@ title: Beherrschen der Projektzeitleistenansichten in Aspose.Tasks
 linktitle: Anpassen von Zeitleistenansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Beherrschen Sie Aspose.Tasks für .NET im Anpassen von Zeitleistenansichten. Verbessern Sie Ihr Projektmanagement mit optisch ansprechenden Zeitplänen, die auf die Anforderungen Ihres Projekts zugeschnitten sind.
-type: docs
 weight: 13
 url: /de/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der Projektzeitleistenansichten in Aspose.Tasks
+
 ## Einführung
 Die Erstellung optisch ansprechender und informativer Zeitleistenansichten ist für ein effektives Projektmanagement von entscheidender Bedeutung. Aspose.Tasks für .NET bietet eine robuste Lösung zum Anpassen von Zeitleistenansichten, sodass Sie die Anzeige von Aufgaben an die spezifischen Anforderungen Ihres Projekts anpassen können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Tasks mühelos Zeitleistenansichten erstellen und anpassen können.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ Absolut! Aspose.Tasks bietet die Flexibilität, das Erscheinungsbild jeder Aufga
  Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 ### Wie erhalte ich eine temporäre Lizenz für Aspose.Tasks?
  Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jenis Sumber Daya di Aspose.Tugas
 linktitle: Jenis Sumber Daya di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja dengan berbagai jenis sumber daya di Aspose.Tasks untuk .NET, termasuk sumber daya pekerjaan, material, dan biaya, melalui tutorial langkah demi langkah.
-type: docs
 weight: 14
 url: /id/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jenis Sumber Daya di Aspose.Tugas
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram. Baik Anda mengelola tugas, sumber daya, atau jadwal, Aspose.Tasks menyederhanakan proses dengan menyediakan serangkaian API yang komprehensif. Dalam tutorial ini, kami akan mempelajari berbagai jenis sumber daya yang dapat Anda manfaatkan dalam proyek Anda menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -60,3 +66,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format, termasuk Microsoft Project (MPP),
  J: Ya, Anda dapat membeli lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Apakah Aspose.Tasks untuk .NET menyediakan dokumentasi untuk referensi?
  A: Ya, Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Rate Management és ismétlődő feladatok
 linktitle: Aspose.Tasks Rate Management és ismétlődő feladatok
 second_title: Aspose.Tasks .NET API
 description: Master MS Project rátakezelés és ismétlődő feladatok az Aspose.Tasks .NET segítségével. Tanulja meg a feladatok automatizálását, az arányok kezelését és a projektmunkafolyamatok osztott részeinek kezelését.
-type: docs
 weight: 28
 url: /hu/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Rate Management és ismétlődő feladatok
+
 
 ## Bevezetés
 
@@ -67,3 +73,9 @@ Ismerje meg, hogyan mentheti az MS Project fájlokat különböző formátumokba
 Tanulja meg, hogyan kezelheti hatékonyan az MS Project felosztott részeket az Aspose.Tasks for .NET segítségével. Javítsa projektmenedzsment munkafolyamatát.
 ### [Gyűjtse össze az MS Project of Split Parts az Aspose.Tasks-ban](./split-part-collection/)
 Ismerje meg, hogyan gyűjthet össze osztott részeket az MS Projectben az Aspose.Tasks for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

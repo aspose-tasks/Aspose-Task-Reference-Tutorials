@@ -3,10 +3,16 @@ title: Recopilar tareas secundarias en Aspose.Tasks
 linktitle: Recopilar tareas secundarias en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a recopilar tareas secundarias de manera eficiente utilizando Aspose.Tasks para .NET. Mejore la gestión de proyectos en sus aplicaciones .NET.
-type: docs
 weight: 15
 url: /es/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recopilar tareas secundarias en Aspose.Tasks
+
 ## Introducción
 
 En el ámbito de la gestión de proyectos, Aspose.Tasks para .NET se destaca como una solución sólida para manejar tareas y proyectos de manera eficiente. Esta poderosa biblioteca proporciona a los desarrolladores las herramientas que necesitan para administrar tareas, proyectos y todo lo demás sin problemas. En este tutorial, profundizaremos en un aspecto específico de Aspose.Tasks: recopilar tareas secundarias.
@@ -96,3 +102,9 @@ R4: Sí, los usuarios pueden acceder a soporte técnico a través del[Foro Aspos
 ### P5: ¿Puedo probar Aspose.Tasks para .NET antes de comprarlo?
 
  R5: ¡Por supuesto! Puede aprovechar una prueba gratuita desde el[página de lanzamiento](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

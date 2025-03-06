@@ -3,10 +3,16 @@ title: Obsługa wyjątków kalendarza w Aspose.Tasks
 linktitle: Obsługa wyjątków kalendarza w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać wyjątkami kalendarza w Aspose.Tasks dla .NET, korzystając ze szczegółowych samouczków i przykładów.
-type: docs
 weight: 12
 url: /pl/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa wyjątków kalendarza w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku przyjrzymy się, jak zarządzać wyjątkami kalendarza w Aspose.Tasks przy użyciu platformy .NET. Wyjątki kalendarzowe pozwalają na zdefiniowanie w kalendarzu projektu specjalnych dat lub okresów, w których następuje zmiana normalnego harmonogramu pracy, np. święta czy tymczasowe zamknięcia. Omówimy krok po kroku różne metody obsługi wyjątków kalendarza, używając Aspose.Tasks dla .NET.
@@ -156,3 +162,9 @@ O4: Aspose.Tasks obsługuje różne typy wyjątków, w tym wyjątki dzienne, tyg
 ### P5: Czy mogę dostosować godziny pracy do konkretnych dat wyjątków?
 
 O5: Tak, możesz zdefiniować niestandardowe godziny pracy dla poszczególnych dat wyjątków, korzystając z odpowiednich metod dostarczonych przez Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

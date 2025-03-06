@@ -3,10 +3,16 @@ title: قم بإنشاء خط الأساس لمهمة مشروع MS في Aspose.
 linktitle: إنشاء خط الأساس للمهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء خط أساس لمهمة Microsoft Project في Java باستخدام Aspose.Tasks، وهي مكتبة قوية لإدارة بيانات المشروع دون عناء.
-type: docs
 weight: 11
 url: /ar/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء خط الأساس لمهمة مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في عملية إنشاء خط أساسي لمهمة Microsoft Project باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تمكن المطورين من العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project. باستخدام Aspose.Tasks، يمكنك التعامل بسهولة مع بيانات المشروع، بما في ذلك المهام والموارد والتقويمات، لتبسيط مهام إدارة المشروع.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 نعم، يمكنك تعيين تبعيات المهام بسهولة باستخدام Aspose.Tasks لـ Java، مما يتيح لك إنشاء تسلسل المهام داخل مشروعك.
 ### هل يتوفر الدعم الفني لـ Aspose.Tasks لـ Java؟
  نعم، يمكنك الوصول إلى الدعم الفني لـ Aspose.Tasks لـ Java عبر[منتدى الدعم](https://forum.aspose.com/c/tasks/15)حيث يمكنك طرح الأسئلة وطلب المساعدة من المجتمع وموظفي الدعم في Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

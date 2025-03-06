@@ -3,10 +3,16 @@ title: Konfigurace vrstev časové osy Ganttova diagramu v Aspose.Tasks
 linktitle: Konfigurace vrstev časové osy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte Aspose.Tasks for .NET a nakonfigurujte úrovně časové osy v zobrazení Ganttova diagramu pro přesnou vizualizaci časové osy projektu. #Apose.Tasks #MS Project
-type: docs
 weight: 16
 url: /cs/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace vrstev časové osy Ganttova diagramu v Aspose.Tasks
+
 ## Úvod
 V dynamickém prostředí projektového řízení je efektivní vizualizace zásadní pro pochopení časových os a termínů. Aspose.Tasks for .NET poskytuje výkonnou sadu nástrojů a v tomto tutoriálu prozkoumáme, jak nakonfigurovat vrstvy časové osy pro optimální reprezentaci v zobrazení Ganttova diagramu. Chcete-li zlepšit vizualizaci projektu, postupujte podle těchto podrobných pokynů.
 ## Předpoklady
@@ -86,3 +92,9 @@ Aspose.Tasks rozhodně poskytuje rozsáhlé možnosti přizpůsobení pro zobraz
 Jistě můžete prozkoumat různé formáty a styly pro reprezentaci časové osy, aby co nejlépe odpovídaly kontextu vašeho projektu.
 ### Existuje komunitní fórum pro podporu Aspose.Tasks?
  Ano, navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

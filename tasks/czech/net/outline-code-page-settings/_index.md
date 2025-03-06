@@ -3,10 +3,16 @@ title: Aspose.Tasks Outline Code a Nastavení stránky
 linktitle: Aspose.Tasks Outline Code a Nastavení stránky
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET s návody na kódy osnovy, kolekce, definice, masky a nastavení stránky. Vylepšete organizaci projektu a přizpůsobení.
-type: docs
 weight: 25
 url: /cs/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Outline Code a Nastavení stránky
+
 ## Úvod
 Vítejte ve světě bezproblémového řízení projektů s Aspose.Tasks pro .NET! V této digitální éře, kde se o přesnosti a efektivitě nedá vyjednávat, se zvládnutí složitosti Microsoft Project stává změnou hry. Naše komplexní série výukových programů vás provede nuancemi Aspose.Tasks pro .NET a umožní vám bez námahy spravovat obrysové kódy, manipulovat s definicemi dat, pracovat s maskami, hodnotami a přizpůsobovat nastavení stránky. Ať už jste zkušený projektový manažer nebo nováček v oboru, naše výukové programy uspokojí všechny úrovně dovedností a poskytují podrobné pokyny a příklady kódu. Připojte se k nám na této cestě k odemknutí plného potenciálu Aspose.Tasks, který přináší revoluci ve způsobu, jakým přistupujete k organizaci projektů a přizpůsobení. Pojďme se ponořit a pozvedněte své dovednosti projektového řízení do nových výšin!
 ## Správa obrysových kódů pomocí Aspose.Tasks pro .NET
@@ -71,3 +77,9 @@ Naučte se, jak upravit okraje stránek v souborech Microsoft Project pomocí As
 Naučte se konfigurovat nastavení stránky MS Project pomocí Aspose.Tasks for .NET. Přizpůsobte si orientaci, velikost a další pomocí jednoduchých kroků.
 ### [Přizpůsobte nastavení zobrazení stránky MS Project v Aspose.Tasks](./page-view-settings/)
 Naučte se, jak nakonfigurovat nastavení zobrazení stránky v Aspose.Tasks for .NET, abyste přizpůsobili formát tisku vašich dokumentů Microsoft Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

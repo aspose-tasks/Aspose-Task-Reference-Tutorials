@@ -3,10 +3,16 @@ title: Gestione delle raccolte di progetti in Aspose.Tasks
 linktitle: Gestione della raccolta di gruppi in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le raccolte di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Segui la nostra guida passo passo.
-type: docs
 weight: 26
 url: /it/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione delle raccolte di progetti in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come gestire le raccolte di gruppo MS Project utilizzando Aspose.Tasks per .NET. La gestione delle raccolte di gruppo è fondamentale per organizzare e manipolare attività e risorse in modo efficiente all'interno del progetto.
 ## Prerequisiti
@@ -108,3 +114,9 @@ Aspose.Tasks per .NET è destinato principalmente al framework .NET, ma può ess
  È possibile ottenere supporto per Aspose.Tasks per .NET tramite il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### È disponibile una versione di prova per Aspose.Tasks per .NET?
  Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

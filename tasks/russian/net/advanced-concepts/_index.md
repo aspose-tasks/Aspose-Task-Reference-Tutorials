@@ -3,10 +3,16 @@ title: Расширенные концепции Aspose.Tasks
 linktitle: Расширенные концепции Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите сохранение изображений, обработку исключений, древовидные алгоритмы, отображение меток, параметры загрузки и многое другое. Освойте расширенные концепции в Aspose.Tasks для .NET.
-type: docs
 weight: 24
 url: /ru/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные концепции Aspose.Tasks
+
 
 ## Введение
 
@@ -84,3 +90,9 @@ url: /ru/net/advanced-concepts/
 Узнайте, как эффективно работать с объектами OLE в приложениях .NET с помощью Aspose.Tasks, расширяя возможности управления проектами.
 ### [Коллекция объектов OLE в Aspose.Tasks](./ole-object-collection/)
 Узнайте, как управлять объектами OLE в Aspose.Tasks для .NET, с помощью этого подробного руководства. Освойте обработку встроенных файлов в документах проекта без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

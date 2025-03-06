@@ -3,10 +3,16 @@ title: Διαχειριστείτε τις τιμές περίληψης έργ�
 linktitle: Συλλογή των τιμών περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τις τιμές περιγράμματος σε αρχεία Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Βήμα προς βήμα σεμινάριο με παραδείγματα κώδικα.
-type: docs
 weight: 17
 url: /el/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχειριστείτε τις τιμές περίληψης έργου MS με το Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για .NET παρέχει ένα ολοκληρωμένο σύνολο δυνατοτήτων για αλληλεπίδραση με αρχεία Microsoft Project. Ένα τέτοιο χαρακτηριστικό είναι η δυνατότητα διαχείρισης τιμών περιγράμματος μέσα σε ένα έργο. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να συλλέγουμε και να χειριζόμαστε τιμές περιγράμματος χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -108,3 +114,9 @@ foreach (var outlineValue in outlineValues)
 Α: Ναι, το Aspose.Tasks παρέχει εκτεταμένα API για την προσαρμογή της εμφάνισης και της συμπεριφοράς των τιμών περίγραμμα σύμφωνα με τις απαιτήσεις σας.
 ### Ε: Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για υποστήριξη της κοινότητας και να εξερευνήσετε το[τεκμηρίωση](https://reference.aspose.com/tasks/net/) για λεπτομερείς πληροφορίες σχετικά με τα API και τις δυνατότητες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

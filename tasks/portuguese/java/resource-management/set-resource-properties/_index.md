@@ -3,10 +3,16 @@ title: Definir propriedades de recursos em Aspose.Tasks
 linktitle: Definir propriedades de recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como definir propriedades de recursos do MS Project em Java usando Aspose.Tasks para integração perfeita e gerenciamento eficiente de tarefas.
-type: docs
 weight: 20
 url: /pt/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir propriedades de recursos em Aspose.Tasks
+
 ## Introdução
 No domínio do desenvolvimento Java, o gerenciamento eficiente de tarefas é um aspecto crucial do gerenciamento de projetos. Aspose.Tasks for Java fornece uma solução robusta para desenvolvedores interagirem com arquivos do Microsoft Project, permitindo integração perfeita de funcionalidades de gerenciamento de tarefas em aplicativos Java. Neste tutorial, nos aprofundaremos na configuração das propriedades de recursos do MS Project usando Aspose.Tasks para Java. Ao final deste guia, você terá uma compreensão abrangente de como manipular propriedades de recursos em seus projetos Java.
 ## Pré-requisitos
@@ -63,3 +69,9 @@ Sim, Aspose.Tasks for Java é capaz de lidar com uma ampla variedade de formatos
  Você pode obter uma licença temporária do[página de licença temporária](https://purchase.aspose.com/temporary-license/) para fins de avaliação.
 ### Onde posso comprar uma versão licenciada do Aspose.Tasks for Java?
  Você pode adquirir uma versão licenciada do Aspose.Tasks for Java no site[página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

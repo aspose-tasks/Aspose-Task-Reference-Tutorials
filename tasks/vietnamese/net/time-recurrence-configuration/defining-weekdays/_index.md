@@ -3,10 +3,16 @@ title: Nắm vững các ngày trong tuần trong Aspose.Tasks cho .NET
 linktitle: Xác định các ngày trong tuần trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của việc xác định các ngày trong tuần trong Aspose.Tasks .NET. Hãy làm theo hướng dẫn chi tiết của chúng tôi để quản lý hiệu quả lịch dự án, tùy chỉnh thời gian làm việc, v.v.
-type: docs
 weight: 10
 url: /vi/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các ngày trong tuần trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Nếu bạn đang đi sâu vào thế giới quản lý dự án bằng Aspose.Tasks cho .NET, việc hiểu và thao tác các ngày trong tuần là một khía cạnh quan trọng. Quản lý và tùy chỉnh hiệu quả các ngày trong tuần trong lịch dự án của bạn có thể tác động đáng kể đến tiến độ dự án. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xác định các ngày trong tuần bằng Aspose.Tasks, cung cấp hướng dẫn và ví dụ từng bước để hiểu rõ hơn.
 ## Điều kiện tiên quyết
@@ -116,3 +122,9 @@ Sử dụng các phương pháp thích hợp do thư viện Aspose.Tasks cung c�
 Có, mọi sửa đổi đối với các ngày trong tuần đều được phản ánh trong tệp dự án khi được lưu.
 ### Tôi có thể sử dụng Aspose.Tasks với các ngôn ngữ lập trình khác không?
 Aspose.Tasks hỗ trợ nhiều ngôn ngữ lập trình khác nhau, nhưng các ví dụ ở đây dành riêng cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

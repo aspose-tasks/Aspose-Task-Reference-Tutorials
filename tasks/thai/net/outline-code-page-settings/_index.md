@@ -3,10 +3,16 @@ title: Aspose.Tasks โค้ดโครงร่างและการตั
 linktitle: Aspose.Tasks โค้ดโครงร่างและการตั้งค่าเพจ
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks สำหรับ .NET พร้อมบทช่วยสอนเกี่ยวกับโค้ดโครงร่าง คอลเลกชัน คำจำกัดความ มาสก์ และการตั้งค่าหน้า ปรับปรุงการจัดระเบียบโครงการและการปรับแต่ง
-type: docs
 weight: 25
 url: /th/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks โค้ดโครงร่างและการตั้งค่าเพจ
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกแห่งการจัดการโครงการที่ราบรื่นด้วย Aspose.Tasks สำหรับ .NET! ในยุคดิจิทัลนี้ ซึ่งความแม่นยำและประสิทธิภาพไม่สามารถต่อรองได้ การเรียนรู้ความซับซ้อนของ Microsoft Project จะกลายเป็นตัวเปลี่ยนเกม ชุดบทช่วยสอนที่ครอบคลุมของเราจะแนะนำคุณเกี่ยวกับความแตกต่างของ Aspose.Tasks สำหรับ .NET ซึ่งช่วยให้คุณจัดการโค้ดโครงร่าง จัดการคำจำกัดความของข้อมูล ทำงานกับมาสก์ ค่า และปรับแต่งการตั้งค่าเพจได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นผู้จัดการโครงการผู้ช่ำชองหรือเป็นมือใหม่ในสาขานี้ บทช่วยสอนของเราจะรองรับทุกระดับทักษะ โดยให้คำแนะนำทีละขั้นตอนและตัวอย่างโค้ด เข้าร่วมกับเราในการเดินทางครั้งนี้เพื่อปลดล็อกศักยภาพทั้งหมดของ Aspose.Tasks ปฏิวัติวิธีที่คุณเข้าถึงการจัดโครงการและการปรับแต่ง มาดำดิ่งและยกระดับทักษะการจัดการโครงการของคุณให้สูงขึ้นอีกระดับ!
 ## การจัดการรหัสเค้าร่างด้วย Aspose.Tasks สำหรับ .NET
@@ -71,3 +77,9 @@ url: /th/net/outline-code-page-settings/
 เรียนรู้วิธีกำหนดการตั้งค่าหน้า MS Project โดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งการวางแนว ขนาด และอื่นๆ ด้วยขั้นตอนง่ายๆ
 ### [ปรับแต่งการตั้งค่ามุมมองหน้าโครงการ MS ใน Aspose.Tasks](./page-view-settings/)
 เรียนรู้วิธีกำหนดการตั้งค่าการดูเพจใน Aspose.Tasks for .NET เพื่อปรับแต่งรูปแบบการพิมพ์ของเอกสาร Microsoft Project ของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Làm chủ dữ liệu dự án với Aspose.Tasks
 linktitle: Làm việc với Dữ liệu dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thao tác dữ liệu Microsoft Project bằng Aspose.Tasks trong .NET. Tạo nhiệm vụ, thêm tài nguyên và lưu dự án một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ dữ liệu dự án với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với dữ liệu Microsoft Project bằng thư viện Aspose.Tasks cho .NET. Aspose.Tasks cung cấp các tính năng mạnh mẽ để thao tác với tệp dự án, bao gồm tạo tác vụ, thêm tài nguyên, đặt thuộc tính và lưu dự án ở nhiều định dạng khác nhau.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks tích hợp liền mạch với
 Trả lời: Có, Aspose.Tasks bao gồm các thuật toán lập lịch nâng cao để giúp bạn tối ưu hóa tiến trình dự án và việc sử dụng tài nguyên.
 ### Câu hỏi: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Tasks không?
  Trả lời: Có, bạn có thể tìm thấy các tài nguyên hữu ích và tương tác với những người dùng Aspose.Tasks khác trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

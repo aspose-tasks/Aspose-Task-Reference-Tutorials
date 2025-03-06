@@ -3,10 +3,16 @@ title: Penjadwalan Tugas Dasar di Aspose.Tasks
 linktitle: Penjadwalan Tugas Dasar di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menjadwalkan garis dasar tugas secara efektif dengan Aspose.Tasks untuk Java. Sederhanakan proses manajemen proyek Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penjadwalan Tugas Dasar di Aspose.Tasks
+
 ## Perkenalan
 Mengelola garis dasar tugas adalah aspek penting dalam manajemen proyek, memungkinkan Anda membandingkan kemajuan yang direncanakan dan kemajuan aktual secara akurat. Dalam tutorial ini, kita akan mempelajari cara melakukan penjadwalan tugas dasar menggunakan Aspose.Tasks untuk Java. Dengan mengikuti langkah-langkah ini, Anda akan diperlengkapi untuk menyederhanakan proses manajemen proyek Anda secara efisien.
 ## Prasyarat
@@ -63,3 +69,9 @@ Tentu saja, Aspose.Tasks untuk Java menyediakan fungsionalitas ekstensif untuk m
  Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk Java dari[halaman rilis](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Tasks untuk Java?
  Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

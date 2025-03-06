@@ -3,10 +3,16 @@ title: Formuły MS Project z Aspose.Tasks dla Java
 linktitle: Pracuj z formułami w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak manipulować plikami MS Project w Javie przy użyciu biblioteki Aspose.Tasks. Z łatwością twórz, modyfikuj i obliczaj atrybuty.
-type: docs
 weight: 11
 url: /pl/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formuły MS Project z Aspose.Tasks dla Java
+
 ## Wstęp
 W tym samouczku zagłębimy się w pracę z formułami MS Project przy użyciu Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project. Dzięki rozbudowanym funkcjom możesz łatwo tworzyć, czytać, modyfikować i konwertować pliki projektów w aplikacjach Java.
 ## Warunki wstępne
@@ -64,3 +70,9 @@ Odp.: Tak, Aspose.Tasks obsługuje różne języki programowania, w tym Java, .N
  O: Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: Czy potrzebuję tymczasowej licencji na korzystanie z Aspose.Tasks?
 Odp.: Jeśli potrzebujesz dodatkowych funkcji, możesz uzyskać licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

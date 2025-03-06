@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中掌握 MS 專案的擴充屬性定義
 linktitle: Aspose.Tasks 中擴充屬性定義的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中管理擴充屬性定義。輕鬆自訂和增強您的專案數據。
-type: docs
 weight: 14
 url: /zh-hant/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中掌握 MS 專案的擴充屬性定義
+
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中使用擴充屬性定義。擴充屬性提供了一種靈活的方式來自訂和增強項目數據，允許使用者添加預設提供的標準欄位之外的其他欄位。透過 Aspose.Tasks，您可以輕鬆管理這些擴充屬性，以滿足您的專案管理需求。
 ## 先決條件
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 答：Aspose.Tasks 與各種.NET 框架相容，確保靈活性和易於整合。
 ### Q：在哪裡可以找到更多有關 Aspose.Tasks 的資源和支援？
 答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求支持並探索文檔[這裡](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

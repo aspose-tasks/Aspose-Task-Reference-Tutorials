@@ -3,10 +3,16 @@ title: Coleção de exceções de calendário em Aspose.Tasks
 linktitle: Coleção de exceções de calendário em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com exceções de calendário com eficiência em seus projetos .NET usando Aspose.Tasks, garantindo agendamento preciso e gerenciamento de recursos.
-type: docs
 weight: 13
 url: /pt/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção de exceções de calendário em Aspose.Tasks
+
 ## Introdução
 
 No gerenciamento de projetos, o agendamento preciso é vital para o sucesso. No entanto, os cenários do mundo real muitas vezes exigem desvios dos horários padrão devido a feriados, eventos especiais ou outros fatores. Aspose.Tasks for .NET fornece uma solução robusta para gerenciar tais exceções por meio de seu recurso Calendar Exception Collection. Este tutorial irá guiá-lo através do processo de utilização desta funcionalidade passo a passo.
@@ -143,3 +149,9 @@ A4: Aspose.Tasks for .NET permite que você lide com exceções sobrepostas defi
 ### P5: Posso personalizar os horários de trabalho de cada dia dentro de uma exceção?
 
 R5: Sim, você pode especificar horários de trabalho personalizados para dias individuais dentro de uma exceção para acomodar necessidades específicas de agendamento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

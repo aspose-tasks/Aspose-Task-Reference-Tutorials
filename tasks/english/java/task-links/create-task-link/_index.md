@@ -3,10 +3,16 @@ title: Create Task Link in Aspose.Tasks
 linktitle: Create Task Link in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Unlock seamless task linking in Java projects with Aspose.Tasks. Master the art of task link creation with our step-by-step guide. Download now!
-type: docs
 weight: 11
 url: /java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Task Link in Aspose.Tasks
+
 ## Introduction
 Efficient task linking is pivotal for streamlined project management, and Aspose.Tasks for Java provides developers with powerful tools to achieve this seamlessly. This step-by-step guide will walk you through the process of mastering task link creation using Aspose.Tasks for Java.
 ## Prerequisites
@@ -57,3 +63,10 @@ A: Acquire a temporary license [here](https://purchase.aspose.com/temporary-lice
 A: Yes, check the documentation for comprehensive sample projects and code snippets.
 ### Q: What is the recommended way to purchase Aspose.Tasks for Java?
 A: Secure your copy by visiting the [purchase page](https://purchase.aspose.com/buy) and explore licensing options.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

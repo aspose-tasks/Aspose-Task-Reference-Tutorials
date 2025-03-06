@@ -3,10 +3,16 @@ title: Převeďte možnosti MSP na XPS pomocí Aspose.Tasks
 linktitle: Možnosti XPS pro Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se převádět soubory Microsoft Project do formátu XPS pomocí Aspose.Tasks for .NET. Snadná integrace, robustní funkčnost.
-type: docs
 weight: 21
 url: /cs/net/saving-options/xps-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte možnosti MSP na XPS pomocí Aspose.Tasks
+
 ## Úvod
 Microsoft Project (MSP) je široce používaný nástroj pro řízení projektů, který usnadňuje plánování, sledování a vykazování aktivit projektu. Aspose.Tasks for .NET nabízí robustní funkce pro programovou manipulaci se soubory MSP, což umožňuje vývojářům automatizovat různé úkoly související s řízením projektů. V tomto tutoriálu se ponoříme do využití Aspose.Tasks pro .NET ke generování souborů XPS z dokumentů MSP a prozkoumáme nezbytné kroky a úvahy.
 ## Předpoklady
@@ -60,3 +66,9 @@ Odpověď: Ano, Aspose.Tasks for .NET podporuje různé výstupní formáty, jak
 Odpověď: Rozhodně, Aspose.Tasks for .NET poskytuje rozsáhlé možnosti přizpůsobení parametrů vykreslování podle vašich požadavků.
 ### Otázka: Kde najdu další podporu nebo pomoc pro Aspose.Tasks pro .NET?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc týkající se Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

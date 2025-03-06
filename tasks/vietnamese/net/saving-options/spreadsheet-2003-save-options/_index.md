@@ -3,10 +3,16 @@ title: Dự án MS với các tùy chọn bảng tính 2003 cho Aspose.Tasks
 linktitle: Bảng tính 2003 Tùy chọn lưu cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Bảng tính chính 2003 Lưu các tùy chọn dự án MS với Aspose.Tasks cho .NET. Tùy chỉnh và lưu các tệp MS Project một cách liền mạch theo chương trình.
-type: docs
 weight: 19
 url: /vi/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dự án MS với các tùy chọn bảng tính 2003 cho Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tận dụng Aspose.Tasks cho .NET để sử dụng Tùy chọn Dự án Lưu MS của Bảng tính 2003. Công cụ mạnh mẽ này cho phép thao tác và tùy chỉnh liền mạch các tệp MS Project trong môi trường .NET. Hãy chia nhỏ quá trình này từng bước một.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Trả lời: Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉn
  Đ: Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ và tài nguyên toàn diện trên diễn đàn Aspose.Tasks tại[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), nơi các chuyên gia và thành viên cộng đồng sẵn sàng giúp giải quyết mọi thắc mắc hoặc thách thức mà bạn có thể gặp phải.
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho .NET?
  Trả lời: Bạn có thể lấy giấy phép tạm thời cho Aspose.Tasks cho .NET từ[trang mua hàng](https://purchase.aspose.com/temporary-license/), cho phép bạn đánh giá toàn bộ khả năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

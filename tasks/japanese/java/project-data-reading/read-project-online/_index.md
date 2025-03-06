@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用した簡単な MS Project オンライン デー�
 linktitle: Aspose.Tasks でのプロジェクト オンライン データの読み取り
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して Microsoft Project Online データを簡単に読み取る方法を学びます。プロジェクト管理能力を強化します。
-type: docs
 weight: 13
 url: /ja/java/project-data-reading/read-project-online/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用した簡単な MS Project オンライン データ読み取り
+
 ## 導入
 プロジェクト管理の分野では、Microsoft Project Online データを効率的に処理することは、業務を合理化するために非常に重要です。 Aspose.Tasks for Java は、そのようなデータを簡単に読み取るための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Tasks を活用して MS Project Online データにシームレスにアクセスして操作する方法について詳しく説明します。
 ## 前提条件
@@ -70,3 +76,9 @@ A: もちろん、Aspose.Tasks は MPP、XML などを含むさまざまなフ�
  A: 詳細なドキュメントを参照してください。[ここ](https://reference.aspose.com/tasks/java/)Java プロジェクトで Aspose.Tasks を利用するための包括的なガイダンスを参照してください。
 ### Q: Aspose.Tasks for Java ではどのようなサポート オプションが利用できますか?
  A: 問題が発生した場合、または質問がある場合は、Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

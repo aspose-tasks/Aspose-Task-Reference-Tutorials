@@ -3,10 +3,16 @@ title: Получить информацию о файле проекта MS в 
 linktitle: Получение информации о файле проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как получить информацию о файле Microsoft Project с помощью Aspose.Tasks для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 19
 url: /ru/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить информацию о файле проекта MS в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по получению информации о файле Microsoft Project с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощная библиотека, которая позволяет .NET-разработчикам программно работать с файлами Microsoft Project, выполняя такие задачи, как чтение, запись и манипулирование данными проекта.
 ## Предварительные условия
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks.[здесь](https://releases.aspose.com/).
 ### Где я могу получить поддержку для Aspose.Tasks?
  Вы можете получить поддержку Aspose.Tasks через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Полный исходный код
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

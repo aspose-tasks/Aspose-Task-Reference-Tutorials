@@ -3,10 +3,16 @@ title: قم بتعيين هوامش صفحة مشروع MS بسهولة باست
 linktitle: ضبط هوامش الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية ضبط هوامش الصفحة في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. تحسين تخطيط المستند وعرضه بسهولة.
-type: docs
 weight: 19
 url: /ar/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين هوامش صفحة مشروع MS بسهولة باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، تعتبر الكفاءة والدقة أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET مجموعة أدوات قوية لإدارة ملفات Microsoft Project برمجيًا، مما يوفر للمطورين القدرة على تبسيط العمليات وتحسين الإنتاجية. في هذا البرنامج التعليمي، سوف نتعمق في جانب واحد محدد من جوانب معالجة ملف المشروع: تعيين هوامش الصفحة باستخدام Aspose.Tasks لـ .NET. بحلول نهاية هذا الدليل، ستكون مجهزًا بالمعرفة اللازمة لضبط هوامش الصفحة بسلاسة داخل ملفات Microsoft Project، مما يسهل تخطيط المستندات وعرضها التقديمي بشكل أفضل.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ج: نعم، يقدم Aspose.Tasks مجموعة شاملة من الميزات لإدارة المشاريع، بما في ذلك جدولة المهام وتخصيص الموارد وإعداد التقارير.
 ### س: هل يمكنني دمج Aspose.Tasks في تطبيقات الويب؟
 ج: بالتأكيد! يمكن دمج Aspose.Tasks for .NET بسلاسة في تطبيقات الويب لتعزيز قدرات إدارة المشروع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

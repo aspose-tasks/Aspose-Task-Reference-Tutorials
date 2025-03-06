@@ -3,10 +3,16 @@ title: Create Empty MS Project File in Aspose.Tasks
 linktitle: Create Empty Project File in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to create empty Microsoft Project files in Java using Aspose.Tasks. Easy steps for seamless integration.
-type: docs
 weight: 11
 url: /java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Empty MS Project File in Aspose.Tasks
+
 ## Introduction
 In the realm of project management and task scheduling, handling Microsoft Project files is often a necessity. Aspose.Tasks for Java offers a robust solution to create, manipulate, and manage these files seamlessly within Java applications. In this tutorial, we'll delve into the process of creating an empty Microsoft Project file using Aspose.Tasks for Java.
 ## Prerequisites
@@ -53,3 +59,10 @@ Detailed documentation is available [here](https://reference.aspose.com/tasks/ja
 You can seek support from the community forums [here](https://forum.aspose.com/c/tasks/15).
 ### How can I obtain a temporary license for Aspose.Tasks for Java?
 Temporary licenses can be obtained from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converteer MS-project naar SVG in Java
 linktitle: Opslaan als SVG in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u Microsoft Project-bestanden opslaat als SVG in Java met behulp van de Aspose.Tasks-bibliotheek. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 18
 url: /nl/java/project-file-operations/save-as-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer MS-project naar SVG in Java
+
 ## Invoering
 Aspose.Tasks voor Java is een krachtige bibliotheek voor het werken met projectbeheerbestanden, waarmee ontwikkelaars projectgegevens kunnen manipuleren, verschillende bewerkingen kunnen uitvoeren en efficiënt rapporten kunnen genereren. In deze zelfstudie onderzoeken we hoe u een project als SVG kunt opslaan met Aspose.Tasks voor Java. SVG (Scalable Vector Graphics) is een veelgebruikt formaat voor de weergave van vectorafbeeldingen op internet en biedt schaalbaarheid en weergave van hoge kwaliteit.
 ## Vereisten
@@ -58,3 +64,9 @@ Ja, u kunt het uiterlijk van de SVG-uitvoer aanpassen door parameters zoals lett
  Ja, u kunt via de website een gratis proefversie van Aspose.Tasks voor Java aanvragen[hier](https://purchase.aspose.com/buy) om de kenmerken en mogelijkheden ervan te evalueren.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
  U kunt ondersteuning krijgen voor Aspose.Tasks voor Java door het forum te bezoeken[hier](https://forum.aspose.com/c/tasks/15), waar u vragen kunt stellen en kunt communiceren met de community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

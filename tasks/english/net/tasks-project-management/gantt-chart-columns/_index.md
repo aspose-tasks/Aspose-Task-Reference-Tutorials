@@ -3,10 +3,16 @@ title: Customize Gantt Chart Columns with Aspose.Tasks
 linktitle: Gantt Chart Columns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to tailor Gantt chart columns in Aspose.Tasks for .NET to display specific task information efficiently.
-type: docs
 weight: 21
 url: /net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize Gantt Chart Columns with Aspose.Tasks
+
 ## Introduction
 Gantt charts are a fundamental tool in project management, providing a visual representation of tasks, timelines, and resources. Aspose.Tasks for .NET offers powerful capabilities to manipulate Gantt charts, including customizing columns to display specific task information. In this tutorial, we'll explore how to work with Gantt chart columns using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -99,3 +105,10 @@ A: Aspose.Tasks for .NET provides comprehensive APIs and features to manage comp
 A: Aspose.Tasks for .NET offers extensive customization options, allowing you to add a significant number of columns to Gantt charts without limitations.
 ### Q: Where can I find additional support and resources for Aspose.Tasks for .NET?
 A: You can explore the documentation, community forums, and support channels provided by Aspose.Tasks for .NET to access comprehensive resources and assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

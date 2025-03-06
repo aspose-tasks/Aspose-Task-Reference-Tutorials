@@ -3,10 +3,16 @@ title: Формулы
 linktitle: Формулы
 second_title: API Aspose.Tasks Java
 description: Повысьте свои навыки управления проектами с помощью Aspose.Tasks для Java. Освойте формулы MS Project, повысьте производительность и легко и эффективно записывайте и читайте формулы.
-type: docs
 weight: 23
 url: /ru/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Формулы
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/java/formulas/
 Узнайте, как манипулировать файлами MS Project на Java с помощью библиотеки Aspose.Tasks. С легкостью создавайте, изменяйте и рассчитывайте атрибуты.
 ### [Написание и чтение формул MS Project в Aspose.Tasks](./write-read-formulas/)
 Научитесь эффективно писать и читать формулы MS Project с помощью Aspose.Tasks для Java. Совершенствуйте свои навыки управления проектами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

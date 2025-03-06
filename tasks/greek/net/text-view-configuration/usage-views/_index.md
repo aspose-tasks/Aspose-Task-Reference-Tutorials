@@ -3,10 +3,16 @@ title: Διαμόρφωση προβολών χρήσης στο Aspose.Tasks
 linktitle: Διαμόρφωση προβολών χρήσης στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε να διαμορφώνετε τις προβολές χρήσης εργασιών στο Aspose.Tasks για .NET. Βελτιώστε την οπτικοποίηση του έργου με λεπτομερή βήματα. Κατεβάστε τη βιβλιοθήκη τώρα!
-type: docs
 weight: 17
 url: /el/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση προβολών χρήσης στο Aspose.Tasks
+
 ## Εισαγωγή
 Εάν είστε προγραμματιστής .NET που θέλει να βελτιώσει τις δυνατότητες διαχείρισης του έργου σας, το Aspose.Tasks είναι ένα ισχυρό εργαλείο που σας επιτρέπει να χειρίζεστε τα αρχεία του Microsoft Project χωρίς κόπο. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη διαμόρφωση των προβολών χρήσης χρησιμοποιώντας το Aspose.Tasks για .NET. Ακολουθήστε για να αποκτήσετε πληροφορίες σχετικά με την απόδοση προβολών χρήσης εργασιών με λεπτομέρειες για καλύτερη οπτικοποίηση του έργου.
 ## Προαπαιτούμενα
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  Ναι, εξερευνήστε τη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε: Χρειάζεστε υποστήριξη ή έχετε ερωτήσεις;
  Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

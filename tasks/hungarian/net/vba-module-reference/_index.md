@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA modul és referenciakezelés
 linktitle: Aspose.Tasks VBA modul és referenciakezelés
 second_title: Aspose.Tasks .NET API
 description: Készen áll arra, hogy növelje projektmenedzsment képességeit az Aspose.Tasks .NET használatával? Merüljön el a VBA modullal és a referenciakezeléssel kapcsolatos átfogó oktatóanyagainkban.
-type: docs
 weight: 31
 url: /hu/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA modul és referenciakezelés
+
 
 ## VBA-modulok kezelése az Aspose.Tasks-ban
 
@@ -40,3 +46,9 @@ Fedezze fel, hogyan kezelheti hatékonyan a VBA-modulgyűjteményeket az Aspose.
 Fedezze fel az Aspose.Tasks for .NET erejét a VBA-projektek könnyed kezelésében. Bővítse projektmenedzsment képességeit ezzel a lépésről-lépésre szóló útmutatóval.
 ### [VBA-referenciák kezelése az Aspose.Tasks-ban](./vba-references/)
 Fedezze fel a VBA-referenciák kezelésének erejét az Aspose.Tasks .NET-ben átfogó oktatóanyagunk segítségével. Tanuljon meg zökkenőmentesen olvasni, összehasonlítani és dolgozni VBA-referenciákkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

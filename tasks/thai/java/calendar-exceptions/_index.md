@@ -3,10 +3,16 @@ title: ข้อยกเว้นของปฏิทิน
 linktitle: ข้อยกเว้นของปฏิทิน
 second_title: Aspose.Tasks Java API
 description: จัดการ กำหนด จัดการ และเรียกข้อมูลข้อยกเว้นปฏิทินในโปรเจ็กต์ Java ได้อย่างง่ายดายด้วย Aspose.Tasks ปรับปรุงขั้นตอนการทำงานของโครงการเพื่อการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 20
 url: /th/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ข้อยกเว้นของปฏิทิน
+
 
 ## การแนะนำ
 
@@ -34,3 +40,9 @@ url: /th/java/calendar-exceptions/
 เรียนรู้วิธีจัดการข้อยกเว้นปฏิทินอย่างมีประสิทธิภาพในโปรเจ็กต์ Java ด้วย Aspose.Tasks สำหรับ Java ปรับปรุงกระบวนการจัดการโครงการของคุณทันที
 ### [รับข้อยกเว้นปฏิทินด้วย Aspose.Tasks](./retrieve/)
 เรียนรู้วิธีดึงข้อมูลข้อยกเว้นปฏิทินจาก MS Project โดยใช้ Aspose.Tasks สำหรับ Java บทช่วยสอนทีละขั้นตอนเพื่อการผสานรวมที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में आवर्ती कार्य जानका
 linktitle: Aspose.Tasks में आवर्ती कार्य जानकारी निकालना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से आवर्ती कार्य जानकारी निकालने का तरीका जानें। .NET डेवलपर्स के लिए आसान एकीकरण।
-type: docs
 weight: 13
 url: /hi/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में आवर्ती कार्य जानकारी निकालना
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से आवर्ती कार्य जानकारी निकालने का तरीका जानेंगे।
 ## आवश्यक शर्तें
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
  उत्तर: आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/tasks/net/).
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks के लिए तकनीकी सहायता कैसे प्राप्त कर सकता हूं?
  उत्तर: आप Aspose.Tasks फोरम से तकनीकी सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

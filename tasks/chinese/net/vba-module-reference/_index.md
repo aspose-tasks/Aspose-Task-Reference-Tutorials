@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA 模块和引用处理
 linktitle: Aspose.Tasks VBA 模块和引用处理
 second_title: Aspose.Tasks .NET API
 description: 您准备好使用 Aspose.Tasks .NET 提升您的项目管理能力了吗？深入了解我们有关 VBA 模块和引用处理的综合教程。
-type: docs
 weight: 31
 url: /zh/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA 模块和引用处理
+
 
 ## 在 Aspose.Tasks 中管理 VBA 模块
 
@@ -40,3 +46,9 @@ url: /zh/net/vba-module-reference/
 探索 Aspose.Tasks for .NET 在轻松管理 VBA 项目方面的强大功能。通过本分步指南增强您的项目管理能力。
 ### [在 Aspose.Tasks 中处理 VBA 引用](./vba-references/)
 通过我们的综合教程探索在 Aspose.Tasks .NET 中处理 VBA 引用的强大功能。学习无缝阅读、比较和使用 VBA 参考资料。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

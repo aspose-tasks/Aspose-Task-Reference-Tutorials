@@ -3,10 +3,16 @@ title: Kuasai Proyek MS Definisi Atribut yang Diperluas di Aspose.Tasks
 linktitle: Kumpulan Definisi Atribut yang Diperluas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola definisi atribut yang diperluas di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Sesuaikan dan tingkatkan data proyek Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Proyek MS Definisi Atribut yang Diperluas di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara bekerja dengan definisi atribut yang diperluas di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Atribut yang diperluas menawarkan cara yang fleksibel untuk menyesuaikan dan menyempurnakan data proyek, memungkinkan pengguna menambahkan kolom tambahan di luar kolom standar yang disediakan secara default. Dengan Aspose.Tasks, Anda dapat dengan mudah mengelola atribut tambahan ini untuk menyesuaikan kebutuhan manajemen proyek Anda.
 ## Prasyarat
@@ -92,3 +98,9 @@ J: Tentu saja, atribut yang diperluas dapat digunakan untuk menghitung kolom khu
 J: Aspose.Tasks kompatibel dengan berbagai kerangka .NET, memastikan fleksibilitas dan kemudahan integrasi.
 ### T: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan menjelajahi dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

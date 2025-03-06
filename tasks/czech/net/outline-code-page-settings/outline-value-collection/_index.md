@@ -3,10 +3,16 @@ title: Spravujte hodnoty osnovy MS Project pomocí Aspose.Tasks
 linktitle: Sbírka hodnot osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se spravovat hodnoty osnovy v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Výukový program krok za krokem s příklady kódu.
-type: docs
 weight: 17
 url: /cs/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spravujte hodnoty osnovy MS Project pomocí Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET poskytuje komplexní sadu funkcí pro interakci se soubory Microsoft Project. Jednou z takových funkcí je schopnost spravovat hodnoty osnovy v rámci projektu. V tomto tutoriálu prozkoumáme, jak shromažďovat a manipulovat s hodnotami osnovy pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -108,3 +114,9 @@ Odpověď: Můžete implementovat mechanismy zpracování chyb, jako jsou bloky 
 Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlá rozhraní API pro přizpůsobení vzhledu a chování hodnot osnovy podle vašich požadavků.
 ### Otázka: Kde najdu další zdroje a podporu pro Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a prozkoumejte[dokumentace](https://reference.aspose.com/tasks/net/) pro podrobné informace o API a funkcích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 管理 MS 项目大纲值
 linktitle: Aspose.Tasks 中大纲值的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 文件中的大纲值。带有代码示例的分步教程。
-type: docs
 weight: 17
 url: /zh/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 管理 MS 项目大纲值
+
 ## 介绍
 Aspose.Tasks for .NET 提供了一套全面的功能来与 Microsoft Project 文件进行交互。其中一项功能是能够管理项目内的大纲值。在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 收集和操作大纲值。
 ## 先决条件
@@ -108,3 +114,9 @@ foreach (var outlineValue in outlineValues)
 答：是的，Aspose.Tasks 提供了广泛的 API，可以根据您的要求自定义大纲值的外观和行为。
 ### 问：在哪里可以找到 Aspose.Tasks 的其他资源和支持？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持并探索[文档](https://reference.aspose.com/tasks/net/)有关 API 和功能的详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

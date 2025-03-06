@@ -3,10 +3,16 @@ title: สูตร
 linktitle: สูตร
 second_title: Aspose.Tasks Java API
 description: ยกระดับทักษะการจัดการโครงการของคุณด้วย Aspose.Tasks สำหรับ Java สูตร Master MS Project เพิ่มประสิทธิภาพการทำงาน และเขียน/อ่านสูตรอย่างมีประสิทธิภาพได้อย่างง่ายดาย
-type: docs
 weight: 23
 url: /th/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สูตร
+
 
 ## การแนะนำ
 
@@ -38,3 +44,9 @@ url: /th/java/formulas/
 เรียนรู้วิธีจัดการไฟล์ MS Project ใน Java โดยใช้ไลบรารี Aspose.Tasks สร้าง แก้ไข และคำนวณแอตทริบิวต์ได้อย่างง่ายดาย
 ### [การเขียนและการอ่านสูตร MS Project ใน Aspose.Tasks](./write-read-formulas/)
 เรียนรู้การเขียนและอ่านสูตร MS Project อย่างมีประสิทธิภาพด้วย Aspose.Tasks สำหรับ Java พัฒนาทักษะการจัดการโครงการของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

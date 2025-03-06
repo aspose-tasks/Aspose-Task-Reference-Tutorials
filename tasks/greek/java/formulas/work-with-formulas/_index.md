@@ -3,10 +3,16 @@ title: MS Project Formulas με Aspose.Tasks για Java
 linktitle: Εργαστείτε με τύπους στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να χειρίζεστε αρχεία MS Project σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks. Δημιουργήστε, τροποποιήστε και υπολογίστε χαρακτηριστικά με ευκολία.
-type: docs
 weight: 11
 url: /el/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Formulas με Aspose.Tasks για Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην εργασία με τους τύπους MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία του Microsoft Project μέσω προγραμματισμού. Με τις εκτεταμένες δυνατότητες του, μπορείτε εύκολα να δημιουργήσετε, να διαβάσετε, να τροποποιήσετε και να μετατρέψετε αρχεία έργου σε εφαρμογές Java.
 ## Προαπαιτούμενα
@@ -64,3 +70,9 @@ project.save("SaveFile.mpp", SaveFileFormat.Mpp);
  Α: Για υποστήριξη, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Χρειάζομαι μια προσωρινή άδεια χρήσης για τη χρήση του Aspose.Tasks;
 Α: Εάν χρειάζεστε πρόσθετες λειτουργίες, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

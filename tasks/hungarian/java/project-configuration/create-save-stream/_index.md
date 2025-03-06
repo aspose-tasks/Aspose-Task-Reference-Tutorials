@@ -3,10 +3,16 @@ title: Üres projekt létrehozása és mentése az Aspose.Tasks streaminghez
 linktitle: Üres projekt létrehozása és mentése az Aspose.Tasks streaminghez
 second_title: Aspose.Tasks Java API
 description: Tanulja meg, hogyan hozhat létre és menthet üres MS Project fájlokat egy adatfolyamba Java nyelven az Aspose.Tasks segítségével, amely könnyedén leegyszerűsíti a projektkezelési feladatokat.
-type: docs
 weight: 13
 url: /hu/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Üres projekt létrehozása és mentése az Aspose.Tasks streaminghez
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for Java üres MS Project létrehozására és adatfolyamba mentésére. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak anélkül, hogy a Microsoft Projectet telepíteni kellene a gépre. Ha követi ezt az útmutatót, megtudhatja, milyen lépések szükségesek egy üres MS Project fájl létrehozásához és mentéséhez az Aspose.Tasks segítségével.
 ## Előfeltételek
@@ -69,3 +75,9 @@ Igen, az Aspose.Tasks több programozási nyelvet támogat, beleértve a .NET-et
  Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### Vásárolhatok ideiglenes licencet az Aspose.Tasks számára?
  Igen, az ideiglenes licencek megvásárolhatók[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

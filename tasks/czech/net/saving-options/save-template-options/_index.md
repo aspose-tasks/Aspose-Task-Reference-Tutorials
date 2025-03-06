@@ -3,10 +3,16 @@ title: Uložit soubory MS Project jako šablony pomocí Aspose.Tasks
 linktitle: Uložit možnosti šablony pro Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se ukládat soubory Microsoft Project jako šablony pomocí Aspose.Tasks for .NET. Přizpůsobte nastavení šablony pro zjednodušené řízení projektů.
-type: docs
 weight: 18
 url: /cs/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit soubory MS Project jako šablony pomocí Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu projdeme procesem uložení šablony pomocí Aspose.Tasks for .NET. Šablony jsou užitečné pro standardizaci projektových struktur a nastavení pro budoucí použití. Ukážeme si, jak uložit projekt jako šablonu, a přitom ladit jeho vlastnosti.
 ## Předpoklady
@@ -76,3 +82,9 @@ Odpověď: Ano, šablony můžete aplikovat na existující projekty načtením 
 A: Aspose.Tasks for .NET je primárně navržen pro aplikace .NET framework běžící na platformách Windows.
 ### Otázka: Je k dispozici technická podpora pro Aspose.Tasks pro .NET?
  Odpověď: Ano, technickou pomoc a pokyny můžete vyhledat od komunity Aspose.Tasks[fórech](https://forum.aspose.com/c/tasks/15)nebo kontaktujte přímo jejich tým podpory.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

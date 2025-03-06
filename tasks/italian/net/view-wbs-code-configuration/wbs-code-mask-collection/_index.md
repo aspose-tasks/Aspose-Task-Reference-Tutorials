@@ -3,10 +3,16 @@ title: Padroneggiare le maschere di codice WBS con Aspose.Tasks per .NET
 linktitle: Raccolta di maschere di codice WBS in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Migliora la gestione dei progetti con Aspose.Tasks per .NET. Impara a creare, gestire e trasferire facilmente le maschere codice WBS in questo tutorial completo.
-type: docs
 weight: 15
 url: /it/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le maschere di codice WBS con Aspose.Tasks per .NET
+
 ## introduzione
 Nel mondo dinamico della gestione dei progetti, organizzare le attività in modo efficiente è fondamentale. Aspose.Tasks per .NET fornisce una potente soluzione per gestire facilmente i codici della struttura di ripartizione del lavoro del progetto (WBS). In questo tutorial, approfondiremo la raccolta di maschere di codice WBS, esplorando come implementarle e manipolarle utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -139,3 +145,9 @@ R: Aspose.Tasks supporta principalmente i linguaggi .NET, ma puoi esplorare le o
 R: I codici WBS aiutano a organizzare e strutturare le attività del progetto in modo gerarchico, fornendo un approccio sistematico alla pianificazione del progetto.
 ### D: Posso personalizzare il formato dei codici WBS in Aspose.Tasks per .NET?
 R: Assolutamente, hai il pieno controllo sul formato e sulla struttura dei codici WBS utilizzando Aspose.Tasks per .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

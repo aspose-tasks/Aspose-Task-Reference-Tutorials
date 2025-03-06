@@ -3,10 +3,16 @@ title: احفظ بتنسيق CSV ونص ونموذج في Aspose.Tasks
 linktitle: احفظ بتنسيق CSV ونص ونموذج في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية حفظ ملفات Microsoft Project بتنسيقات CSV، والنص، والقوالب باستخدام Aspose.Tasks لـ Java.
-type: docs
 weight: 16
 url: /ar/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ بتنسيق CSV ونص ونموذج في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ ملفات المشروع بتنسيقات مختلفة مثل CSV، والنص، والقالب باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ project.saveAsTemplate(templateName, options);
  ج: نعم، يمكنك شراء ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/)مما يسمح لك بتقييم الإمكانات الكاملة للمكتبة.
 ### س: هل Aspose.Tasks لـ Java متوافق مع أنظمة التشغيل المختلفة؟
 ج: نعم، Aspose.Tasks for Java متوافق مع أنظمة التشغيل المختلفة، بما في ذلك Windows وmacOS وLinux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

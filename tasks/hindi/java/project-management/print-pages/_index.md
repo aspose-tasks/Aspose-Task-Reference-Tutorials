@@ -3,10 +3,16 @@ title: Aspose.Tasks में छवि को अलग करने के ल
 linktitle: Aspose.Tasks में छवि को अलग करने के लिए पेज प्रिंट करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks में छवियों को अलग करने के लिए पृष्ठों को प्रिंट करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ प्रोजेक्ट विज़ुअलाइज़ेशन में सुधार करें।
-type: docs
 weight: 22
 url: /hi/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में छवि को अलग करने के लिए पेज प्रिंट करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके छवियों को अलग करने के लिए पृष्ठों को प्रिंट करने की प्रक्रिया में आपका मार्गदर्शन करेंगे। यह कार्यक्षमता विशेष रूप से तब उपयोगी हो सकती है जब आपको प्रोजेक्ट लेआउट या महत्वपूर्ण कार्यों को अलग से देखने की आवश्यकता हो।
 ## आवश्यक शर्तें
@@ -77,3 +83,9 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 उत्तर: हां, जावा के लिए Aspose.Tasks प्रोजेक्ट डेटा को पीडीएफ, HTML, XLSX आदि जैसे विभिन्न प्रारूपों में निर्यात करने का समर्थन करता है, जो डेटा विज़ुअलाइज़ेशन और रिपोर्टिंग में लचीलापन प्रदान करता है।
 ### प्रश्न: क्या जावा के लिए Aspose.Tasks के लिए कोई सामुदायिक सहायता उपलब्ध है?
  उत्तर: हां, आप सामुदायिक सहायता पा सकते हैं, प्रश्न पूछ सकते हैं और अन्य उपयोगकर्ताओं के साथ जुड़ सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

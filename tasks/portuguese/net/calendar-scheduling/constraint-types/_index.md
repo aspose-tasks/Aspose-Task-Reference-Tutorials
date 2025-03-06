@@ -3,10 +3,16 @@ title: Tipos de restrição em Aspose.Tasks
 linktitle: Tipos de restrição em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como definir tipos de restrição em Aspose.Tasks for .NET para gerenciar cronogramas de projetos com eficiência.
-type: docs
 weight: 17
 url: /pt/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tipos de restrição em Aspose.Tasks
+
 ## Introdução
 
 Ao trabalhar com gerenciamento de projetos em .NET, é crucial entender como aplicar diferentes restrições às tarefas. Aspose.Tasks for .NET fornece um conjunto abrangente de ferramentas para gerenciar as restrições do projeto com eficiência. Neste tutorial, nos aprofundaremos nos vários tipos de restrições disponíveis em Aspose.Tasks e como implementá-los passo a passo.
@@ -83,3 +89,9 @@ A4: Sim, o Aspose.Tasks foi projetado para lidar com projetos de todos os tamanh
 ### P5: Onde posso obter suporte para consultas relacionadas ao Aspose.Tasks?
 
  A5: Você pode obter suporte para Aspose.Tasks visitando seu[fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

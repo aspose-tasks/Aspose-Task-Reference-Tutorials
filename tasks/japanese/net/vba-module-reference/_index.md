@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA モジュールと参照の処理
 linktitle: Aspose.Tasks VBA モジュールと参照の処理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks .NET を使用してプロジェクト管理機能を向上させる準備はできていますか? VBA モジュールと参照の処理に関する包括的なチュートリアルを詳しく見てみましょう。
-type: docs
 weight: 31
 url: /ja/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA モジュールと参照の処理
+
 
 ## Aspose.Tasks での VBA モジュールの管理
 
@@ -40,3 +46,9 @@ Aspose.Tasks for .NET で VBA モジュール コレクションを効率的に�
 VBA プロジェクトを簡単に管理できる Aspose.Tasks for .NET の機能を試してください。このステップバイステップのガイドを使用して、プロジェクト管理機能を強化します。
 ### [Aspose.Tasks での VBA 参照の処理](./vba-references/)
 包括的なチュートリアルで、Aspose.Tasks .NET での VBA 参照の処理能力を体験してください。 VBA 参照をシームレスに読み取り、比較し、操作する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

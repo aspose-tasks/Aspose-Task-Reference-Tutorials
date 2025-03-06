@@ -3,10 +3,16 @@ title: Aspose.Tasks의 CSV 옵션
 linktitle: Aspose.Tasks의 CSV 옵션
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 활용하여 CSV 파일을 효율적으로 작업하고 프로젝트 관리 기능을 손쉽게 향상시키는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/calendar-scheduling/csv-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 CSV 옵션
+
 ## 소개
 
 오늘날의 디지털 시대에 비즈니스가 성공하려면 작업과 프로젝트를 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 개발자가 프로젝트 관리 파일을 쉽게 사용할 수 있는 강력한 툴킷을 제공합니다. 제공되는 주요 기능 중 하나는 CSV(쉼표로 구분된 값) 파일로 작업하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET의 CSV 옵션을 자세히 살펴보고 각 예제를 단계별 가이드로 나누어 원활하게 이해하고 구현하는 데 도움을 드립니다.
@@ -84,3 +90,9 @@ A4: 예, Aspose.Tasks for .NET은 요구 사항에 따라 CSV 내보내기 설�
 ### Q5: .NET용 Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 또는 Aspose.Tasks for .NET에 관한 지원이나 문의 사항이 있으면 Aspose 지원팀에 문의하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

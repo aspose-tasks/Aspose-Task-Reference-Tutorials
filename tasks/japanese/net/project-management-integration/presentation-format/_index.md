@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクト プレゼンテーションをフ�
 linktitle: Aspose.Tasks でのプロジェクト プレゼンテーションの書式設定
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project プレゼンテーションをフォーマットする方法を学びます。プロジェクトの詳細の視覚化とコミュニケーションを簡単に強化します。
-type: docs
 weight: 10
 url: /ja/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクト プレゼンテーションをフォーマットする
+
 ## 導入
 
 Aspose.Tasks for .NET を使用して MS Project プロジェクトのプレゼンテーションを強化したいと考えていますか?このチュートリアルでは、MS Project プロジェクト プレゼンテーションをフォーマットするプロセスを段階的に説明します。最終的には、プロジェクトの詳細を効果的に伝える洗練されたプレゼンテーションを作成できるようになります。
@@ -90,3 +96,9 @@ A: もちろん、Aspose.Tasks は常に更新され、MS Project の最新バ�
 
 ### Q5: テスト目的には一時ライセンスが必要ですか?
  A: テストまたは評価の目的で一時ライセンスが必要な場合は、次のサイトからライセンスを取得できます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/) Aspose Web サイトで。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

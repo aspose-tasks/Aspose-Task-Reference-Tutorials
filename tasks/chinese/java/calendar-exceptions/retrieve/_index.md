@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 检索日历异常
 linktitle: 使用 Aspose.Tasks 检索日历异常
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 MS Project 检索日历异常。无缝集成的分步教程。
-type: docs
 weight: 13
 url: /zh/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 检索日历异常
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Java 的 Aspose.Tasks 库从 MS Project 检索日历异常。 Aspose.Tasks 是一个功能强大的工具，允许开发人员以编程方式操作 Microsoft Project 文件。我们将逐步指导您完成整个过程，将每个示例分解为多个步骤以便于理解。
 ## 先决条件
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
 您可以从社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 是否有 Aspose.Tasks 临时许可证的选项？
 是的，您可以从以下位置获取临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

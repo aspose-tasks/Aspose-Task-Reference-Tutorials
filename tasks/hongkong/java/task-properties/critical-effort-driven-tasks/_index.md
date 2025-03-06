@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理關鍵任務和工作驅動任務
 linktitle: 在 Aspose.Tasks 中管理關鍵任務和工作驅動任務
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 輕鬆管理 Java 專案中的關鍵和需要大量精力的任務。下載該庫並增強您的專案管理能力。
-type: docs
 weight: 14
 url: /zh-hant/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理關鍵任務和工作驅動任務
+
 在快節奏的專案管理世界中，有效處理關鍵和需要付出努力的任務對於成功完成專案至關重要。 Aspose.Tasks for Java 提供了一個強大的解決方案來無縫管理這些任務。在本教程中，我們將指導您完成使用 Aspose.Tasks for Java 處理專案中的關鍵任務和工作驅動型任務的過程。
 ## 先決條件
 在我們深入學習本教程之前，請確保您具備以下先決條件：
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：哪裡可以購買 Aspose.Tasks for Java？
 您可以從以下位置購買 Aspose.Tasks for Java[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

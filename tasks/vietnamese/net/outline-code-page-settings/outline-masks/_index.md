@@ -3,10 +3,16 @@ title: Làm chủ các mặt nạ phác thảo của Microsoft Project trong Asp
 linktitle: Làm việc với Mặt nạ phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc với các tệp Microsoft Project theo chương trình bằng Aspose.Tasks cho .NET. Làm chủ phác thảo mặt nạ một cách hiệu quả.
-type: docs
 weight: 14
 url: /vi/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các mặt nạ phác thảo của Microsoft Project trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án và theo dõi nhiệm vụ, Microsoft Project được coi là công cụ nền tảng. Tuy nhiên, khi nói đến việc thao tác và quản lý các tệp dự án theo chương trình, Aspose.Tasks for .NET nổi lên như một giải pháp mạnh mẽ. Hướng dẫn này sẽ đi sâu vào một khía cạnh cụ thể khi làm việc với các tệp MS Project bằng Aspose.Tasks for .NET: xử lý các mặt nạ phác thảo.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ A: Thật vậy, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://f
  Đ: Tất nhiên! Bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể lấy giấy phép tạm thời cho Aspose.Tasks ở đâu?
  Đáp: Nếu bạn cần giấy phép tạm thời cho mục đích đánh giá hoặc thử nghiệm, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

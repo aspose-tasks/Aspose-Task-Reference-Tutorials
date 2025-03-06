@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्यदिवसों में मह
 linktitle: Aspose.Tasks में सप्ताह के दिनों का संग्रह
 second_title: Aspose.Tasks .NET API
 description: कार्यदिवसों को सहजता से प्रबंधित करने में .NET के लिए Aspose.Tasks की शक्ति की खोज करें। कार्य दिवसों को अनुकूलित करें, सप्ताहांत हटाएं और आसानी से विशेष कैलेंडर बनाएं।
-type: docs
 weight: 11
 url: /hi/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्यदिवसों में महारत हासिल करना
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो प्रोजेक्ट प्रबंधन डेटा के कुशल हेरफेर की सुविधा प्रदान करती है। इस ट्यूटोरियल में, हम Aspose.Tasks में कार्यदिवसों के संग्रह का पता लगाएंगे, जिससे आप कार्यदिवसों को अनुकूलित कर सकेंगे, सप्ताहांत हटा सकेंगे और अपनी परियोजना आवश्यकताओं को पूरा करने के लिए विशेष कैलेंडर बना सकेंगे। चाहे आप अनुभवी डेवलपर हों या नवागंतुक, यह चरण-दर-चरण मार्गदर्शिका आपको .NET के लिए Aspose.Tasks में कार्यदिवसों के साथ काम करने की प्रक्रिया के बारे में बताएगी।
 ## आवश्यक शर्तें
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
  ए: का संदर्भ लें[.NET दस्तावेज़ीकरण के लिए Aspose.Tasks](https://reference.aspose.com/tasks/net/) विस्तृत जानकारी के लिए.
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
  उ: आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

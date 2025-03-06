@@ -3,10 +3,16 @@ title: Master MS Project Outline Masks with Aspose.Tasks
 linktitle: Collection of Outline Masks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manipulate MS Project collection outline masks using Aspose.Tasks for .NET. Enhance productivity with this comprehensive tutorial.
-type: docs
 weight: 15
 url: /net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Outline Masks with Aspose.Tasks
+
 ## Introduction
 Are you looking to harness the power of Microsoft Project's outline masks using Aspose.Tasks for .NET? You've come to the right place! In this comprehensive tutorial, we'll guide you through the process step by step, ensuring you gain a solid understanding of how to effectively manipulate outline masks in your projects. Whether you're a seasoned developer or just getting started, this guide will equip you with the knowledge and skills needed to optimize your workflow.
 ## Prerequisites
@@ -109,3 +115,10 @@ A: Absolutely! You can customize outline masks by adjusting their length, level,
 A: Yes, Aspose.Tasks for .NET offers comprehensive documentation and dedicated support through their website and [forums](https://forum.aspose.com/c/tasks/15).
 ### Q5: Is there a free trial available for Aspose.Tasks for .NET?
 A: Yes, you can access a free trial of Aspose.Tasks for .NET from their [website](https://releases.aspose.com/tasks/net/). to explore its features and functionalities before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Napisz podsumowanie projektu MPP w Aspose.Tasks
 linktitle: Napisz podsumowanie projektu MPP w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak pisać podsumowania projektów MPP w Javie przy użyciu Aspose.Tasks. Bezproblemowo ustawiaj i pobieraj informacje o projekcie.
-type: docs
 weight: 27
 url: /pl/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Napisz podsumowanie projektu MPP w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku dowiemy się, jak używać Aspose.Tasks dla Java do pisania podsumowań projektów MPP. Aspose.Tasks to potężna biblioteka Java do pracy z plikami Microsoft Project. Wykonując kroki opisane poniżej, będziesz mógł ustawić i pobrać różne informacje podsumowujące o projekcie korzystającym z tej biblioteki.
 ## Warunki wstępne
@@ -87,3 +93,9 @@ Odp.: Aspose.Tasks for Java jest regularnie aktualizowany, aby zapewnić kompaty
 O: Oczywiście, Aspose.Tasks dla Java zapewnia szerokie możliwości dostosowywania informacji podsumowujących projekt zgodnie z Twoimi konkretnymi wymaganiami.
 ### P: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Tasks dla Java?
 Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

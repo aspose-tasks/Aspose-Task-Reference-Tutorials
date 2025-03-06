@@ -3,10 +3,16 @@ title: Hentikan dan Lanjutkan Tugas di Aspose.Tasks
 linktitle: Hentikan dan Lanjutkan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi kecanggihan Aspose.Tasks untuk Java dengan panduan langkah demi langkah kami dalam menghentikan dan melanjutkan tugas. Tingkatkan manajemen proyek dengan lancar!
-type: docs
 weight: 30
 url: /id/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hentikan dan Lanjutkan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang pengembangan Java, mengelola tugas secara efisien merupakan aspek penting dalam pelaksanaan proyek. Aspose.Tasks untuk Java memberikan solusi tangguh untuk menangani tugas dengan fitur-fitur canggihnya. Dalam tutorial ini, kita akan mempelajari satu fungsi spesifik - menghentikan dan melanjutkan tugas. Dengan mengikuti panduan langkah demi langkah ini, Anda akan dapat mengintegrasikan fitur ini dengan lancar ke dalam proyek Java Anda.
 ## Prasyarat
@@ -69,3 +75,9 @@ Ya, contoh yang diberikan memungkinkan fleksibilitas dalam menetapkan tanggal mi
  Ya, Anda dapat mengakses[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

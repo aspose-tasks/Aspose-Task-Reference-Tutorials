@@ -3,10 +3,16 @@ title: Mastering Task Properties in Aspose.Tasks
 linktitle: Read and Write General Properties of Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore the power of Aspose.Tasks for Java in managing task properties effortlessly. Read and write with ease using our step-by-step guide.
-type: docs
 weight: 26
 url: /java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Properties in Aspose.Tasks
+
 ## Introduction
 Unlock the full potential of task management in Java with Aspose.Tasks. In this comprehensive guide, we'll delve into reading and writing general properties of tasks using Aspose.Tasks for Java. Whether you're a seasoned developer or a beginner, this tutorial will equip you with the skills to manipulate task properties effortlessly.
 ## Prerequisites
@@ -85,3 +91,10 @@ Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/
 Join the community discussion at the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for assistance and collaboration.
 ### Are there any sample projects available for reference?
 Explore the documentation's examples section [here](https://reference.aspose.com/tasks/java/) for sample projects and code snippets.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

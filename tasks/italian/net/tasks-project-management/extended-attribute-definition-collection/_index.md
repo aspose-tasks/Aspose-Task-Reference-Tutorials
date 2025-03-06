@@ -3,10 +3,16 @@ title: Definizioni degli attributi estesi principali Progetto MS in Aspose.Tasks
 linktitle: Raccolta di definizioni di attributi estesi in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le definizioni di attributi estesi in Microsoft Project utilizzando Aspose.Tasks per .NET. Personalizza e migliora i dati del tuo progetto senza sforzo.
-type: docs
 weight: 14
 url: /it/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definizioni degli attributi estesi principali Progetto MS in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come lavorare con le definizioni di attributi estesi in Microsoft Project utilizzando Aspose.Tasks per .NET. Gli attributi estesi offrono un modo flessibile per personalizzare e migliorare i dati del progetto, consentendo agli utenti di aggiungere campi aggiuntivi oltre a quelli standard forniti per impostazione predefinita. Con Aspose.Tasks, puoi gestire facilmente questi attributi estesi per personalizzare le tue esigenze di gestione del progetto.
 ## Prerequisiti
@@ -92,3 +98,9 @@ R: Assolutamente, gli attributi estesi possono essere utilizzati per calcolare c
 R: Aspose.Tasks è compatibile con vari framework .NET, garantendo flessibilità e facilità di integrazione.
 ### D: Dove posso trovare ulteriori risorse e supporto per Aspose.Tasks?
  R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto ed esplorare la documentazione[Qui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

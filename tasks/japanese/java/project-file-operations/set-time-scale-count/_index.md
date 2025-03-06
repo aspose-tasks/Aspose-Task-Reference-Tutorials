@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS プロジェクトのタイム スケール カウ
 linktitle: Aspose.Tasks でタイム スケール カウントを設定する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project でタイム スケール カウントを効果的に管理する方法を学びます。プロジェクトの視覚化と管理を簡単に最適化します。
-type: docs
 weight: 22
 url: /ja/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS プロジェクトのタイム スケール カウントのマスタリング
+
 ## 導入
 MS Project でのタイム スケール数の管理は、プロジェクトの視覚化と管理に大きな影響を与える可能性があります。プロジェクト管理タスクをプログラムで処理するための強力な API である Aspose.Tasks for Java を使用すると、タイム スケール カウントを効率的に操作して、プロジェクト ビューを特定のニーズに合わせて調整できます。
 ## 前提条件
@@ -91,3 +97,9 @@ A: もちろん、Aspose.Tasks for Java は、要件に応じてガント チャ
  A: はい、以下から無料試用版を入手できます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for Java のサポートはどこで入手できますか?
  A: Aspose.Tasks フォーラムでサポートと支援を見つけることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

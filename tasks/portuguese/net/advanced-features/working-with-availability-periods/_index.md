@@ -3,10 +3,16 @@ title: Trabalhando com períodos de disponibilidade em Aspose.Tasks
 linktitle: Trabalhando com períodos de disponibilidade em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar com eficiência os períodos de disponibilidade de recursos usando Aspose.Tasks for .NET. Este tutorial fornece um guia passo a passo para trabalhar com períodos de disponibilidade em seus projetos .NET.
-type: docs
 weight: 17
 url: /pt/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com períodos de disponibilidade em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos como trabalhar com períodos de disponibilidade no Aspose.Tasks for .NET. Os períodos de disponibilidade são cruciais para gerenciar recursos de forma eficiente em cenários de gerenciamento de projetos. Iremos guiá-lo através do processo passo a passo.
@@ -107,3 +113,9 @@ A2: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET[aqui
 ### Q5: Vocês oferecem licenças temporárias para Aspose.Tasks for .NET?
 
  A5: Sim, licenças temporárias estão disponíveis[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

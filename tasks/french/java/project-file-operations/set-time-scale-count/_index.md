@@ -3,10 +3,16 @@ title: Maîtriser le nombre d'échelles de temps MS Project dans Aspose.Tasks
 linktitle: Définir le nombre d'échelles de temps dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer efficacement le nombre d'échelles de temps dans MS Project à l'aide d'Aspose.Tasks pour Java. Optimisez la visualisation et la gestion des projets sans effort.
-type: docs
 weight: 22
 url: /fr/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser le nombre d'échelles de temps MS Project dans Aspose.Tasks
+
 ## Introduction
 La gestion du nombre d'échelles de temps dans MS Project peut affecter considérablement la visualisation et la gestion du projet. Avec Aspose.Tasks for Java, une API puissante pour gérer les tâches de gestion de projet par programmation, vous pouvez manipuler efficacement le décompte de l'échelle de temps pour adapter les vues de projet à vos besoins spécifiques.
 ## Conditions préalables
@@ -91,3 +97,9 @@ R : Absolument, Aspose.Tasks pour Java offre des fonctionnalités étendues pour
  R : Oui, vous pouvez obtenir une version d'essai gratuite auprès de[ici](https://releases.aspose.com/).
 ### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks pour Java ?
  R : Vous pouvez trouver de l'aide et de l'assistance sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

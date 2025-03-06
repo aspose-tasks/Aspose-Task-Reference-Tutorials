@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 Microsoft Project 视图
 linktitle: 在 Aspose.Tasks 中配置视图
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 掌握 Microsoft Project 视图。轻松定制和简化您的项目管理体验。
-type: docs
 weight: 10
 url: /zh/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 Microsoft Project 视图
+
 ## 介绍
 在项目管理的动态世界中，在 Microsoft Project 中自定义视图可以显着增强您的工作流程。 Aspose.Tasks for .NET 提供了一个强大的工具包来无缝操作和配置项目视图。在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 配置视图的步骤，帮助您简化项目可视化。
 ## 先决条件
@@ -78,3 +84,9 @@ Aspose.Tasks 主要是为 Microsoft Project 设计的，确保无缝集成和操
 当然，深入研究 Aspose.Tasks 文档[这里](https://reference.aspose.com/tasks/net/)用于高级定制选项。
 ### 在哪里可以购买 Aspose.Tasks for .NET？
 你可以购买图书馆[这里](https://purchase.aspose.com/buy)获得无缝的项目管理体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

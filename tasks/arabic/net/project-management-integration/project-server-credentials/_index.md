@@ -3,10 +3,16 @@ title: إدارة بيانات اعتماد خادم MS Project في Aspose.Task
 linktitle: إدارة بيانات اعتماد خادم المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة بيانات اعتماد MS Project Server بسلاسة باستخدام Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشروع.
-type: docs
 weight: 22
 url: /ar/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة بيانات اعتماد خادم MS Project في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التنسيق الفعال والتواصل السلس أمرًا محوريًا لنجاح تنفيذ المشروع. يوفر Aspose.Tasks for .NET حلاً شاملاً لإدارة بيانات اعتماد Microsoft Project Server، مما يمكّن المستخدمين من الوصول إلى بيانات المشروع ومعالجتها بشكل آمن. يتعمق هذا البرنامج التعليمي في عملية إدارة بيانات اعتماد MS Project Server باستخدام Aspose.Tasks لـ .NET، وتوجيه المستخدمين خلال كل خطوة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ foreach (var info in list)
 ج: نعم، يوفر Aspose.Tasks for .NET خيارات ترخيص مرنة، بما في ذلك التراخيص المؤقتة للأغراض التجريبية والتراخيص الكاملة للاستخدام التجاري.
 ### س: أين يمكنني طلب المساعدة أو الدعم فيما يتعلق بـ Aspose.Tasks لـ .NET؟
  ج: لأية استفسارات أو مساعدة فيما يتعلق بـ Aspose.Tasks لـ .NET، يمكنك زيارة منتدى الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).## إكمال كود المصدر
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

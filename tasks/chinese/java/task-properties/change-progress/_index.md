@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中更改任务进度
 linktitle: 在 Aspose.Tasks 中更改任务进度
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 增强 Java 项目管理。在此分步教程中学习无缝修改任务进度。现在下载！
-type: docs
 weight: 12
 url: /zh/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中更改任务进度
+
 ## 介绍
 在项目管理的动态领域，有效的任务进度跟踪至关重要。 Aspose.Tasks for Java 作为一个强大的解决方案脱颖而出，以其强大的功能简化了流程。在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 更改任务进度的步骤。
 ## 先决条件
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 探索全面的文档[这里](https://reference.aspose.com/tasks/java/).
 ### 如何获得 Aspose.Tasks for Java 的临时许可证？
 参观[临时许可证页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

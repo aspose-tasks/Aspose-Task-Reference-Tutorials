@@ -3,10 +3,16 @@ title: Gantt-balkstijlen aanpassen met Aspose.Tasks
 linktitle: Gantt-balkstijlen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Gantt-balkstijlen in MS Project kunt aanpassen met Aspose.Tasks voor .NET. Verbeter moeiteloos de projectvisualisatie.
-type: docs
 weight: 20
 url: /nl/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gantt-balkstijlen aanpassen met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u met Gantt-balkstijlen kunt werken in Microsoft Project met behulp van Aspose.Tasks voor .NET. Met Gantt-staafstijlen kunt u de weergave van staven in een Gantt-diagram aanpassen, waardoor de visuele weergave van uw projectgegevens wordt verbeterd.
 ## Vereisten
@@ -68,3 +74,9 @@ A: Aspose.Tasks biedt compatibiliteit met verschillende versies van Microsoft Pr
 A: Ja, u kunt nieuwe aangepaste balkstijlen maken en de eigenschappen ervan aanpassen aan uw projectbehoeften met behulp van Aspose.Tasks API's.
 ### Vraag: Ondersteunt Aspose.Tasks naast Gantt-diagrammen ook andere functionaliteiten voor projectbeheer?
 A: Ja, Aspose.Tasks biedt een uitgebreide reeks functies voor het werken met projectmanagementgegevens, waaronder taakplanning, resourcebeheer en projectanalyse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

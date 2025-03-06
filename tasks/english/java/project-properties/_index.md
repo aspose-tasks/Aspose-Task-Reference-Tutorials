@@ -3,10 +3,16 @@ title: Project Properties
 linktitle: Project Properties
 second_title: Aspose.Tasks Java API
 description: Unlock the potential of Aspose.Tasks for Java with our Project Properties Tutorials. Extract, leverage, and manipulate Microsoft Project information effortlessly.
-type: docs
 weight: 24
 url: /java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Project Properties
+
 ## Introduction
 
 Are you ready to elevate your Aspose.Tasks for Java skills? Our Project Properties Tutorials empower you to harness the full potential of this powerful library, focusing on three key aspects: reading meta properties, extracting Microsoft Project information, and mastering MS Project manipulation. Dive into these tutorials to enhance your Java development and project management capabilities.
@@ -35,3 +41,9 @@ Unlock the power of metadata in Aspose.Tasks projects with this comprehensive tu
 Learn how to extract Microsoft Project information using Aspose.Tasks for Java. Enhance project management in Java applications effortlessly.
 ### [Mastering MS Project Manipulation with Aspose.Tasks for Java](./write-project-info/)
 Learn how to efficiently write MS Project information using Aspose.Tasks for Java. Step-by-step guide for Java developers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

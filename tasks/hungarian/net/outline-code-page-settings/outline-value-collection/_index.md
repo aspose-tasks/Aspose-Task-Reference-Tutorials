@@ -3,10 +3,16 @@ title: Az MS Project Outline értékek kezelése az Aspose.Tasks segítségével
 linktitle: Vázlati értékek gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a vázlatértékeket a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal.
-type: docs
 weight: 17
 url: /hu/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Outline értékek kezelése az Aspose.Tasks segítségével
+
 ## Bevezetés
 Az Aspose.Tasks for .NET szolgáltatások átfogó készletét kínálja a Microsoft Project fájlokkal való interakcióhoz. Az egyik ilyen funkció a vázlatértékek kezelésének képessége a projekten belül. Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthetünk össze és kezelhetünk vázlatértékeket az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -108,3 +114,9 @@ V: A kivételek kecses kezelése érdekében hibakezelési mechanizmusokat, pél
 V: Igen, az Aspose.Tasks kiterjedt API-kat biztosít a vázlatértékek megjelenésének és viselkedésének testreszabásához az Ön igényei szerint.
 ### K: Hol találhatok további forrásokat és támogatást az Aspose.Tasks számára?
  V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és fedezze fel a[dokumentáció](https://reference.aspose.com/tasks/net/) az API-kkal és funkciókkal kapcsolatos részletes információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

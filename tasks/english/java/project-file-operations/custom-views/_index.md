@@ -3,10 +3,16 @@ title: Create Custom MS Project Views in Aspose.Tasks
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to create custom MS Project views effortlessly using Aspose.Tasks for Java. Enhance project management efficiency with tailored views.
-type: docs
 weight: 24
 url: /java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Custom MS Project Views in Aspose.Tasks
+
 ## Introduction
 In project management, customizing views can significantly enhance the clarity and efficiency of managing tasks and resources. Aspose.Tasks for Java provides powerful tools to create custom views tailored to specific project requirements. In this tutorial, we'll explore how to create custom MS Project views using Aspose.Tasks for Java, step by step.
 ## Prerequisites
@@ -86,3 +92,10 @@ A: Yes, Aspose.Tasks for Java supports exporting views to various formats such a
 A: Certainly. Aspose.Tasks for Java provides comprehensive APIs for automation, enabling developers to programmatically create and manage custom views as needed.
 ### Q5: Is there a community forum for Aspose.Tasks for Java support?
 A: Yes, you can find assistance and engage with other users in the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for Java-related queries and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إعدادات قاعدة البيانات في Aspose.Tasks
 linktitle: إعدادات قاعدة البيانات في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استيراد المشاريع من قاعدة بيانات Primavera باستخدام Aspose.Tasks لـ .NET. احصل على إرشادات خطوة بخطوة في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 29
 url: /ar/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعدادات قاعدة البيانات في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Microsoft Project في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنركز على استيراد المشاريع من قاعدة بيانات Primavera باستخدام Aspose.Tasks.
@@ -100,3 +106,9 @@ A1: نعم، يمكنك استيراد المشاريع من موفري قواع
 ### س5: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks لـ .NET؟
 
  ج5: إذا كنت تريد تقييم الأداء الوظيفي الكامل للمكتبة، فيمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

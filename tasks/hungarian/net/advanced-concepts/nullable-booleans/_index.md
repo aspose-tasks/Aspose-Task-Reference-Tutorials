@@ -3,10 +3,16 @@ title: Nullable Booleanok kezelése az Aspose.Tasks-ban
 linktitle: Nullable Booleanok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti hatékonyan a nullálható logikai értékeket az Aspose.Tasks for .NET programban. Sajátítsa el a "NullableBool" osztály használatát, és fokozza a .NET fejlesztését.
-type: docs
 weight: 21
 url: /hu/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nullable Booleanok kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Tasks for .NET-ben való nullálható logikai értékekkel való munkával foglalkozunk. A nullázható logikai értékek rugalmasságot kínálnak a logikai értékek megjelenítésében, lehetővé téve a definiálatlanság lehetőségét. Megvizsgáljuk, hogyan kell használni a`NullableBool` osztályt, konstruktorait, tulajdonságait és metódusait.
@@ -153,3 +159,9 @@ V1: A nullálható logikai érték olyan típus, amely igaz, hamis vagy meghatá
 ### 5. kérdés: Hol találok további dokumentációt az Aspose.Tasks for .NET-hez?
 
  V5: Részletes dokumentációt találhat[itt](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

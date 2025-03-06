@@ -3,10 +3,16 @@ title: العمل مع كائنات OLE في Aspose.Tasks
 linktitle: العمل مع كائنات OLE في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية العمل بكفاءة مع كائنات OLE في تطبيقات .NET باستخدام Aspose.Tasks، مما يعزز قدرات إدارة المشروع.
-type: docs
 weight: 22
 url: /ar/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع كائنات OLE في Aspose.Tasks
+
 ## مقدمة
 
 يوفر Aspose.Tasks for .NET وظائف شاملة للعمل مع كائنات OLE (ربط الكائنات وتضمينها) داخل ملفات المشروع. سيرشدك هذا البرنامج التعليمي خلال عملية إدارة كائنات OLE بكفاءة باستخدام Aspose.Tasks في تطبيقات .NET الخاصة بك.
@@ -148,3 +154,9 @@ else
 ### س5: هل يقدم Aspose.Tasks دعم العملاء وموارد التوثيق؟
 
 ج5: نعم، يوفر Aspose.Tasks وثائق ومنتديات ودعمًا مكثفًا للعملاء لمساعدة المطورين في استخدام ميزاته بفعالية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استرجع معلومات تقويم مشروع MS في Aspose.Tasks
 linktitle: استرداد معلومات التقويم في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استرداد معلومات تقويم MS Project باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة للوصول إلى تفاصيل التقويم برمجياً.
-type: docs
 weight: 14
 url: /ar/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرجع معلومات تقويم مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية استرداد معلومات التقويم من ملفات Microsoft Project باستخدام مكتبة Aspose.Tasks لـ Java. يوفر Aspose.Tasks ميزات قوية لمعالجة بيانات المشروع، بما في ذلك الوصول إلى تفاصيل التقويم مثل أيام وساعات العمل.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Tasks؟
  ج: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

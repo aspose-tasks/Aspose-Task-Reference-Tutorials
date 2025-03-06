@@ -3,10 +3,16 @@ title: Tratamento de duração em Aspose.Tasks
 linktitle: Tratamento de duração em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com durações de maneira eficaz no Aspose.Tasks for .NET com tutoriais passo a passo.
-type: docs
 weight: 30
 url: /pt/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tratamento de duração em Aspose.Tasks
+
 ## Introdução
 
 Lidar com durações de forma eficaz é crucial em aplicações de gerenciamento de projetos. Aspose.Tasks for .NET fornece funcionalidade robusta para gerenciar durações com eficiência. Neste tutorial, exploraremos vários aspectos do tratamento de duração usando Aspose.Tasks for .NET.
@@ -156,3 +162,9 @@ A4: Sim, Aspose.Tasks oferece suporte à leitura e gravação de arquivos do Mic
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
 A5: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

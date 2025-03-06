@@ -3,10 +3,16 @@ title: Υποστήριξη Λειτουργιών αξιολόγησης στο
 linktitle: Υποστήριξη Λειτουργιών αξιολόγησης στους τύπους Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να υποστηρίζετε την αξιολόγηση των συναρτήσεων του MS Project σε τύπους Aspose.Tasks χρησιμοποιώντας Java. Ενισχύστε την παραγωγικότητά σας με το Aspose.Tasks.
-type: docs
 weight: 10
 url: /el/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υποστήριξη Λειτουργιών αξιολόγησης στους τύπους Aspose.Tasks
+
 
 ## Εισαγωγή
 Το Aspose.Tasks για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία του Microsoft Project μέσω προγραμματισμού. Ένα από τα βασικά χαρακτηριστικά του είναι η δυνατότητα υποστήριξης της αξιολόγησης των λειτουργιών του MS Project μέσα στους τύπους Aspose.Tasks. Αυτή η δυνατότητα επιτρέπει στους χρήστες να εκτελούν πολύπλοκους υπολογισμούς και αναλύσεις απευθείας μέσα στις εφαρμογές Java τους.
@@ -65,3 +71,9 @@ task.getExtendedAttributes().add(a);
 Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Υπάρχει διαθέσιμη προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
  Α: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια για σκοπούς δοκιμής από τον ιστότοπο Aspose[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

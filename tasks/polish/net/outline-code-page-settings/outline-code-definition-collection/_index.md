@@ -3,10 +3,16 @@ title: Zbiór definicji kodu konspektu w Aspose.Tasks .NET
 linktitle: Zbiór definicji kodu konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak manipulować definicjami kodu konspektu w dokumentach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Kategoryzacja danych projektu bez wysiłku.
-type: docs
 weight: 13
 url: /pl/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór definicji kodu konspektu w Aspose.Tasks .NET
+
 ## Wstęp
 Aspose.Tasks to potężna biblioteka .NET zaprojektowana do łatwego i wydajnego manipulowania dokumentami Microsoft Project. Jedną z jego kluczowych funkcji jest możliwość pracy z definicjami kodu konspektu, co pozwala użytkownikom efektywnie organizować i kategoryzować dane projektu. W tym samouczku omówimy, jak pracować z definicjami kodu konspektu przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -83,3 +89,9 @@ O: Jeśli definicja kodu konspektu jest przeznaczona tylko do odczytu, nie będz
 O: Aspose.Tasks dla .NET nie nakłada żadnych konkretnych ograniczeń na liczbę definicji kodu konspektu, które można dodać do projektu. Należy jednak wziąć pod uwagę konsekwencje wydajności podczas pracy z dużą liczbą definicji.
 ### P: Czy mogę używać definicji kodu konspektu do grupowania zadań na podstawie niestandardowych kryteriów?
 O: Tak, definicje kodu konspektu umożliwiają kategoryzację zadań w oparciu o niestandardowe kryteria, zapewniając elastyczność w organizowaniu danych projektu.## Kompletny kod źródłowy
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

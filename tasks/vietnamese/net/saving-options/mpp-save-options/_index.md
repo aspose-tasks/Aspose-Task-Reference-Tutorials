@@ -3,10 +3,16 @@ title: Dễ dàng lưu các tùy chọn dự án MS cho Aspose.Tasks
 linktitle: Tùy chọn lưu MPP cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu các tùy chọn MS Project một cách dễ dàng với Aspose.Tasks for .NET. Tăng hiệu quả quản lý dự án của bạn.
-type: docs
 weight: 12
 url: /vi/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dễ dàng lưu các tùy chọn dự án MS cho Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý và thao tác các tệp dự án một cách hiệu quả là rất quan trọng để thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý các tệp Microsoft Project (MPP) một cách dễ dàng. Trong số nhiều tính năng của nó, Aspose.Tasks cho phép người dùng lưu các tùy chọn MS Project một cách liền mạch, hợp lý hóa quy trình làm việc và đảm bảo tính toàn vẹn của dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu các tùy chọn MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Có, Aspose.Tasks for .NET hỗ trợ nhiều phiên bản khác nhau của tệ
  Giấy phép tạm thời cho phép bạn đánh giá Aspose.Tasks cho .NET mà không có bất kỳ giới hạn nào. Bạn có thể có được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua phiên bản Aspose.Tasks được cấp phép cho .NET ở đâu?
  Bạn có thể mua phiên bản Aspose.Tasks được cấp phép cho .NET từ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

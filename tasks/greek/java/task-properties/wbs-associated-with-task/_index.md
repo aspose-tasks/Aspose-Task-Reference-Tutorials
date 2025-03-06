@@ -3,10 +3,16 @@ title: Το WBS συσχετίζεται με το Task στο Aspose.Tasks
 linktitle: Το WBS συσχετίζεται με το Task στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Master WBS με Aspose.Tasks για Java - Μάθετε να διαβάζετε και να επαναριθμείτε τους κωδικούς WBS εργασιών. Ενισχύστε την αποτελεσματικότητα διαχείρισης έργου!
-type: docs
 weight: 36
 url: /el/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Το WBS συσχετίζεται με το Task στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον κόσμο της διαχείρισης έργων με το Aspose.Tasks για Java! Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της Δομής Ανάλυσης Εργασίας (WBS) που σχετίζεται με εργασίες που χρησιμοποιούν το Aspose.Tasks για Java. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας βοηθήσει να πλοηγηθείτε στα βασικά στοιχεία της αποτελεσματικής διαχείρισης των κωδικών WBS.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ for (Task task : tasks) {
  Α: Επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για υποστήριξη.
 ### Ε: Μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks για Java;
  Α: Ναι, πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

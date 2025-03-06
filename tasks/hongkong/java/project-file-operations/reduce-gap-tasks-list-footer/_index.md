@@ -3,10 +3,16 @@ title: 減少 Aspose.Tasks 中任務清單和頁腳之間的間隙
 linktitle: 減少 Aspose.Tasks 中任務清單和頁腳之間的間隙
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 縮小 MS Project 任務清單和頁尾之間的間隙。輕鬆優化專案文檔佈局。
-type: docs
 weight: 10
 url: /zh-hant/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 減少 Aspose.Tasks 中任務清單和頁腳之間的間隙
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 縮小 Microsoft Project 檔案中任務清單和頁腳之間的間隙。透過執行這些步驟，您將能夠輕鬆優化專案文件的佈局。
 ## 先決條件
@@ -105,3 +111,9 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ### Q：如果在使用 Aspose.Tasks 時遇到任何問題，我可以在哪裡獲得支援？
 
 答：您可以從 Aspose.Tasks 社群論壇獲得協助[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعامل بكفاءة مع تباين المشروع باستخدا
 linktitle: التعامل مع الفروق في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع تباينات المشروع بكفاءة باستخدام Aspose.Tasks لـ Java. إدارة الفروق في العمل والتكلفة والبدء والانتهاء بسهولة.
-type: docs
 weight: 15
 url: /ar/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل بكفاءة مع تباين المشروع باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع الفروق في Aspose.Tasks لـ Java. الفروق هي انحرافات عن القيم المخططة، مثل تواريخ العمل أو التكلفة أو البدء أو الانتهاء في إدارة المشروع. يوفر Aspose.Tasks طرقًا فعالة لاسترداد هذه الفروق وإدارتها، مما يساعد المطورين على تحليل الجداول الزمنية للمشروع وضبطها بشكل فعال.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ System.out.println(ra.get(Asn.FINISH_VARIANCE));
  ج: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية مساعدة أو استفسار.
 ### س: هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
  ج: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks[هنا](https://releases.aspose.com/) لتقييم ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

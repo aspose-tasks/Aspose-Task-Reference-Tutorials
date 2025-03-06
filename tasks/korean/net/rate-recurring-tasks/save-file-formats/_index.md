@@ -3,10 +3,16 @@ title: Aspose.Tasks에 다양한 형식으로 MS 프로젝트 파일 저장
 linktitle: Aspose.Tasks에 다양한 형식으로 파일 저장
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일을 다양한 형식으로 저장하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 쉬운 단계.
-type: docs
 weight: 17
 url: /ko/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 다양한 형식으로 MS 프로젝트 파일 저장
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일을 다양한 형식으로 저장하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 프로그래밍 방식으로 프로젝트 파일을 조작하고 관리할 수 있는 강력한 API입니다.
 ## 전제조건
@@ -55,3 +61,9 @@ A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여
  A: 예, 평가 목적으로 임시 라이선스를 사용할 수 있습니다. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks의 가격은 얼마입니까?
  A: 가격 정보는 Aspose.Tasks 구매 페이지에서 확인할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

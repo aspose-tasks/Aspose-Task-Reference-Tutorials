@@ -3,10 +3,16 @@ title: Простые повторяющиеся интервалы проект
 linktitle: Управление повторяющимися интервалами в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко управлять повторяющимися интервалами в MS Project с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 12
 url: /ru/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Простые повторяющиеся интервалы проекта MS в Aspose.Tasks
+
 ## Введение
 Вы хотите эффективно управлять повторяющимися интервалами в файлах Microsoft Project с помощью Aspose.Tasks для .NET? Это подробное руководство шаг за шагом проведет вас через весь процесс, гарантируя, что вы сможете легко справляться с повторяющимися интервалами в своих проектах. Прежде чем углубиться в руководство, давайте рассмотрим некоторые предварительные условия, чтобы убедиться, что вы готовы приступить к работе.
 ## Предварительные условия
@@ -103,3 +109,9 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
  Да, вы можете приобрести временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти полную документацию по Aspose.Tasks для .NET?
  Полную документацию можно найти[здесь](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

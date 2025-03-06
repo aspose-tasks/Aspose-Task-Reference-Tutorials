@@ -3,10 +3,16 @@ title: Szerezzen be munkaidőt a naptárból az Aspose.Tasks segítségével
 linktitle: Szerezzen be munkaidőt a naptárból az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks for Java segítségével egyszerűen kivonhatja a munkaidőt az MS Project naptáraiból. A projektmenedzsment feladatok egyszerűsítése.
-type: docs
 weight: 13
 url: /hu/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen be munkaidőt a naptárból az Aspose.Tasks segítségével
+
 ## Bevezetés
 projektnaptárak kezelése és a munkaidő-kivonás elengedhetetlen a hatékony projektmenedzsmenthez. Az Aspose.Tasks for Java robusztus funkcionalitást biztosít a munkaidő könnyű lekéréséhez az MS Project naptáraiból. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek
@@ -83,3 +89,9 @@ V: Igen, az Aspose.Tasks for Java API-k segítségével könnyedén testreszabha
 V: Igen, az Aspose.Tasks for Java kiterjedt dokumentációval és dedikált támogatási fórumokkal segíti a fejlesztőket a funkcióinak hatékony kihasználásában.
 ### K: Elérhető az Aspose.Tasks for Java próbaverziója?
  V: Igen, elérheti az Aspose.Tasks Java ingyenes próbaverzióját innen[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

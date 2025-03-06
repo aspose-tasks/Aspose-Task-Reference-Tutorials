@@ -3,10 +3,16 @@ title: Manipulasi Kriteria Grup Proyek MS di Aspose.Tasks
 linktitle: Kriteria Kelompok di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Jelajahi cara memanipulasi file MS Project secara terprogram di .NET menggunakan Aspose.Tasks. Ambil contoh langkah demi langkah informasi kelompok tugas dan kriteria.
-type: docs
 weight: 27
 url: /id/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Kriteria Grup Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah API canggih yang memfasilitasi bekerja dengan file Microsoft Project di aplikasi .NET Anda. Baik Anda sedang mengembangkan perangkat lunak manajemen proyek atau perlu memanipulasi data proyek secara terprogram, Aspose.Tasks menawarkan serangkaian fitur lengkap untuk memenuhi kebutuhan Anda.
 ## Prasyarat
@@ -78,3 +84,9 @@ Tentu saja, Aspose.Tasks menyediakan fungsionalitas luas untuk memanipulasi data
 Ya, Aspose.Tasks mendukung beberapa platform .NET termasuk .NET Framework, .NET Core, dan .NET Standard.
 ### Apakah ada forum komunitas untuk Aspose.Tasks di mana saya dapat mencari bantuan?
  Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bertanya, berbagi pengetahuan, dan berkolaborasi dengan pengguna lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

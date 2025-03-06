@@ -3,10 +3,16 @@ title: Jenis Batasan di Aspose.Tasks
 linktitle: Jenis Batasan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengatur tipe batasan di Aspose.Tasks untuk .NET untuk mengelola jadwal proyek secara efisien.
-type: docs
 weight: 17
 url: /id/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jenis Batasan di Aspose.Tasks
+
 ## Perkenalan
 
 Saat bekerja dengan manajemen proyek di .NET, penting untuk memahami cara menerapkan berbagai batasan pada tugas. Aspose.Tasks untuk .NET menyediakan seperangkat alat komprehensif untuk mengelola batasan proyek secara efisien. Dalam tutorial ini, kita akan mempelajari berbagai jenis batasan yang tersedia di Aspose.Tasks dan cara menerapkannya langkah demi langkah.
@@ -83,3 +89,9 @@ A4: Ya, Aspose.Tasks dirancang untuk menangani proyek dari semua ukuran, dari tu
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Tasks?
 
  A5: Anda bisa mendapatkan dukungan untuk Aspose.Tasks dengan mengunjungi mereka[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Onthulling van taakgebruik Bekijk velden in Aspose.Tasks
 linktitle: Verzameling van weergavevelden voor taakgebruik in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek Aspose.Tasks voor .NET om projectgegevens moeiteloos te beheren en te visualiseren. Duik in de weergavevelden voor taakgebruik voor verbeterde projectinzichten.
-type: docs
 weight: 25
 url: /nl/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Onthulling van taakgebruik Bekijk velden in Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement staat Aspose.Tasks voor .NET als een robuuste oplossing, die ontwikkelaars een krachtige toolkit biedt om projectgegevens te manipuleren en beheren. Een van de opmerkelijke functies is de Task Usage View, die inzicht biedt in verschillende velden die de zichtbaarheid van projecten vergroten. In deze zelfstudie verdiepen we ons in de fijne kneepjes van de weergavevelden voor taakgebruik met behulp van Aspose.Tasks voor .NET, waarbij we elke stap opsplitsen voor een uitgebreid begrip.
 ## Vereisten
@@ -64,3 +70,9 @@ Aspose.Tasks richt zich primair op .NET-applicaties. U kunt gegevens echter expo
  Ja, u kunt tijdelijke licenties aanschaffen[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
 ### Welke bestandsformaten worden ondersteund voor projectdocumenten?
 Aspose.Tasks voor .NET ondersteunt verschillende formaten, waaronder MPP, XML en CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

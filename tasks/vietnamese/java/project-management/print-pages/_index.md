@@ -3,10 +3,16 @@ title: In các trang để tách hình ảnh trong Aspose.Tasks
 linktitle: In các trang để tách hình ảnh trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách in các trang để tách hình ảnh trong Aspose.Tasks cho Java. Cải thiện trực quan hóa dự án với hướng dẫn từng bước này.
-type: docs
 weight: 22
 url: /vi/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# In các trang để tách hình ảnh trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình in các trang để tách các hình ảnh bằng Aspose.Tasks cho Java. Chức năng này có thể đặc biệt hữu ích khi bạn cần trực quan hóa bố cục dự án hoặc các nhiệm vụ quan trọng một cách riêng biệt.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Trả lời: Có, bạn có thể dễ dàng tích hợp Aspose.Tasks cho Java v
 Trả lời: Có, Aspose.Tasks for Java hỗ trợ xuất dữ liệu dự án sang nhiều định dạng khác nhau như PDF, HTML, XLSX, v.v., mang lại sự linh hoạt trong việc hiển thị và báo cáo dữ liệu.
 ### Câu hỏi: Có hỗ trợ cộng đồng nào dành cho Aspose.Tasks dành cho Java không?
  Đáp: Có, bạn có thể tìm sự hỗ trợ của cộng đồng, đặt câu hỏi và tương tác với những người dùng khác trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

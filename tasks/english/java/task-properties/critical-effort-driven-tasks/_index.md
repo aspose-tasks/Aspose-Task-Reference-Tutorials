@@ -3,10 +3,16 @@ title: Manage Critical and Effort-Driven Tasks in Aspose.Tasks
 linktitle: Manage Critical and Effort-Driven Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Effortlessly manage critical and effort-driven tasks in your Java projects with Aspose.Tasks. Download the library and enhance your project management capabilities.
-type: docs
 weight: 14
 url: /java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Critical and Effort-Driven Tasks in Aspose.Tasks
+
 In the fast-paced world of project management, efficiently handling critical and effort-driven tasks is essential for successful project completion. Aspose.Tasks for Java provides a robust solution to manage these tasks seamlessly. In this tutorial, we'll guide you through the process of using Aspose.Tasks for Java to handle critical and effort-driven tasks in your projects.
 ## Prerequisites
 Before we dive into the tutorial, ensure you have the following prerequisites in place:
@@ -60,3 +66,9 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I purchase Aspose.Tasks for Java?
 You can purchase Aspose.Tasks for Java from the [purchase page](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

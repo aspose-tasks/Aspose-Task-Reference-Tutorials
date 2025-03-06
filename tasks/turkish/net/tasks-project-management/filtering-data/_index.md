@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Verimli Veri Filtreleme
 linktitle: Aspose.Tasks'ta Verileri Filtreleme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarındaki verileri nasıl filtreleyeceğinizi öğrenin. Üretkenliği ve analiz yeteneklerini zahmetsizce geliştirin.
-type: docs
 weight: 16
 url: /tr/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Verimli Veri Filtreleme
+
 ## giriiş
 Aspose.Tasks for .NET, Microsoft Project dosyalarındaki verileri filtrelemek için güçlü işlevsellik sağlayarak kullanıcıların proje bilgilerini verimli bir şekilde yönetmesine ve analiz etmesine olanak tanır. Bu eğitimde, Aspose.Tasks'ı kullanarak verileri adım adım kılavuz formatında nasıl filtreleyeceğimizi keşfedeceğiz.
 ## Önkoşullar
@@ -78,3 +84,9 @@ C: Aspose.Tasks'ta veri çıkarma ve analizini geliştirmek için kesinlikle bir
  C: Evet, kapsamlı bilgilere başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) Ayrıntılı rehberlik için Aspose.Tasks tarafından sağlanmıştır.
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
  C: Evet, teknik desteğe şu adresten erişebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Karşılaştığınız herhangi bir soru veya sorun için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

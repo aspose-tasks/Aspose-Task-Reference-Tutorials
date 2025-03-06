@@ -3,10 +3,16 @@ title: Kolekce MS Project osnovových kódů v Aspose.Tasks
 linktitle: Kolekce kódů osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se shromažďovat kódy osnovy Microsoft Project pomocí Aspose.Tasks for .NET. Tento obsáhlý tutoriál poskytuje pokyny krok za krokem.
-type: docs
 weight: 11
 url: /cs/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce MS Project osnovových kódů v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak shromáždit obrysové kódy Microsoft Project pomocí Aspose.Tasks for .NET. Abychom zajistili srozumitelnost a porozumění, celý proces rozdělíme na pokyny krok za krokem.
 ## Předpoklady
@@ -95,3 +101,9 @@ Odpověď: Ano, Aspose.Tasks for .NET podporuje různé verze Microsoft Project,
 Odpověď: Aspose.Tasks for .NET samozřejmě poskytuje rozsáhlé možnosti přizpůsobení výstupního formátu podle vašich požadavků.
 ### Otázka: Kde najdu další podporu nebo zdroje pro Aspose.Tasks pro .NET?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakoukoli pomoc nebo dotazy týkající se Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

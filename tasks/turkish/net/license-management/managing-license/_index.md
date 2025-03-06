@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET'te MS Project Lisansını Yönetme
 linktitle: .NET'te Aspose.Tasks Lisansını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Dosya tabanlı veya akış tabanlı yaklaşımları kullanarak .NET uygulamalarında Aspose.Tasks lisanslarını sorunsuz bir şekilde nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET'te MS Project Lisansını Yönetme
+
 ## giriiş
 Lisansları yönetmek, Aspose.Tasks'ı .NET uygulamalarında etkili bir şekilde kullanmanın çok önemli bir yönüdür. Uygun lisans olmadan kullanımınızda sınırlamalar veya kısıtlamalarla karşılaşabilirsiniz. Neyse ki Aspose.Tasks, .NET projelerinizde dosyaları veya akışları kullanarak lisansları uygulamak için basit yöntemler sağlar. Bu eğitimde, .NET uygulamalarında Aspose.Tasks lisanslarının nasıl yönetileceğini adım adım inceleyeceğiz.
 ## Önkoşullar
@@ -98,3 +104,9 @@ C: Geçerli bir lisans olmadan Aspose.Tasks, çıktı dosyalarına belge boyutu 
 ### S: Aynı lisans dosyasını birden fazla uygulama için kullanabilir miyim?
 
 C: Evet, aynı lisans dosyasını aynı lisans sahibi tarafından geliştirilen birden fazla uygulamada kullanabilirsiniz. Ancak lisansınızın Aspose tarafından belirlenen kullanım koşullarına uygun olduğundan emin olun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

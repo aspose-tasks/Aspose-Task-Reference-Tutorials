@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中監控加班、剩餘成本和工作
 linktitle: 在 Aspose.Tasks 中監控加班、剩餘成本和工作
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 監控加班、剩餘成本以及 Java 專案中的工作。有效專案管理的簡單步驟。
-type: docs
 weight: 18
 url: /zh-hant/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中監控加班、剩餘成本和工作
+
 ## 介紹
 在本教程中，我們將學習如何使用 Aspose.Tasks for Java 來監控專案中的加班、剩餘成本和工作。這對於專案經理和團隊領導來說非常寶貴，可以確保專案按計劃進行並在預算之內。
 ## 先決條件
@@ -73,3 +79,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
 您可以造訪 Aspose.Tasks 論壇[這裡](https://forum.aspose.com/c/tasks/15)為了支持。
 ### 如何購買 Aspose.Tasks 的許可證？
 您可以從以下位置購買許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

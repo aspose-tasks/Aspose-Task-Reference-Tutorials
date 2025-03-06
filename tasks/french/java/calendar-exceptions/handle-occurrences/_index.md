@@ -3,10 +3,16 @@ title: Gérer les occurrences dans les exceptions de calendrier à l'aide d'Aspo
 linktitle: Gérer les occurrences dans les exceptions de calendrier à l'aide d'Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les exceptions de calendrier dans les projets Java avec Aspose.Tasks for Java. Rationalisez votre processus de gestion de projet dès maintenant.
-type: docs
 weight: 12
 url: /fr/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les occurrences dans les exceptions de calendrier à l'aide d'Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, la gestion des exceptions dans les calendriers est cruciale pour maintenir l'exactitude et l'efficacité. Aspose.Tasks for Java fournit une boîte à outils puissante pour gérer les tâches liées au projet, y compris la gestion efficace des occurrences dans les calendriers. Dans ce didacticiel, nous verrons comment gérer les exceptions dans les occurrences de calendrier à l'aide d'Aspose.Tasks pour Java.
 ## Conditions préalables
@@ -59,3 +65,9 @@ Des mises à jour et des améliorations sont régulièrement déployées par Asp
 Oui, Aspose.Tasks offre des options de personnalisation étendues, permettant aux utilisateurs d'adapter les exceptions de calendrier pour répondre aux besoins uniques de leur projet.
 ### Aspose.Tasks propose-t-il un essai gratuit avant d'acheter ?
  Oui, les utilisateurs intéressés peuvent accéder à un essai gratuit d'Aspose.Tasks for Java à partir du[site web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

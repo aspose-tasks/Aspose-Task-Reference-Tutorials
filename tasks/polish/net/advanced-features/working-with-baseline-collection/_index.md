@@ -3,10 +3,16 @@ title: Praca z kolekcją linii bazowych w Aspose.Tasks
 linktitle: Praca z kolekcją linii bazowych w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać poziomami bazowymi w Aspose.Tasks dla .NET. Skorzystaj z naszego obszernego samouczka, aby uzyskać wskazówki krok po kroku.
-type: docs
 weight: 20
 url: /pl/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z kolekcją linii bazowych w Aspose.Tasks
+
 ## Wstęp
 
 Aspose.Tasks dla .NET to potężna biblioteka, która umożliwia programistom płynną pracę z plikami Microsoft Project w aplikacjach .NET. Wśród wielu funkcji zapewnia solidne wsparcie w zarządzaniu poziomami bazowymi w projektach. Linie bazowe są niezbędne w zarządzaniu projektami, ponieważ pozwalają porównać pierwotny plan projektu z bieżącym statusem, umożliwiając lepsze śledzenie i analizę postępu projektu.
@@ -116,3 +122,9 @@ Odpowiedź 4: Tak, Aspose.Tasks zapewnia wsparcie integracji z popularnymi platf
 ### P5: Czy istnieje forum społecznościowe, na którym użytkownicy Aspose.Tasks mogą szukać pomocy i dzielić się wiedzą?
 
  A5: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nawiązać kontakt ze społecznością i uzyskać pomoc od ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

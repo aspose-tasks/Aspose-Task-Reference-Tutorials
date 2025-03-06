@@ -3,10 +3,16 @@ title: Update & Reschedule MS Project in Aspose.Tasks
 linktitle: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to update and reschedule MS Project files programmatically using Aspose.Tasks for Java.
-type: docs
 weight: 23
 url: /java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Update & Reschedule MS Project in Aspose.Tasks
+
 ## Introduction
 Microsoft Project is a widely-used project management software that allows users to manage tasks, resources, and timelines efficiently. Aspose.Tasks for Java provides a powerful set of APIs to manipulate Microsoft Project files programmatically. In this tutorial, we'll learn how to update MS Project files and reschedule uncompleted work using Aspose.Tasks for Java.
 ## Prerequisites
@@ -73,3 +79,10 @@ A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) f
 A: Yes, temporary licenses are available for purchase [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I find detailed documentation for Aspose.Tasks for Java?
 A: You can refer to the documentation [here](https://reference.aspose.com/tasks/java/) for comprehensive guides and API references.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

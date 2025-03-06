@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Gelişmiş AND Operasyonu
 linktitle: Aspose.Tasks'ta Gelişmiş AND Operasyonu
 second_title: Aspose.Tasks .NET API'si
 description: Proje görevlerini birden fazla kritere göre verimli bir şekilde filtrelemek için Aspose.Tasks for .NET'te gelişmiş AND işlemlerini nasıl gerçekleştireceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Gelişmiş AND Operasyonu
+
 ## giriiş
 
  Bu eğitimde, görevleri ve projeleri yönetmek için güçlü bir araç olan Aspose.Tasks for .NET'teki gelişmiş AND operasyonunu derinlemesine inceleyeceğiz. kullanarak proje görevlerini birden çok koşula göre nasıl filtreleyeceğimizi keşfedeceğiz.`Util.And` sınıf.
@@ -107,3 +113,9 @@ C: Evet, Util.And karmaşık filtreleme kriterleri oluşturmak amacıyla herhang
 ### S5: Aspose.Tasks for .NET için nasıl destek alabilirim?
 
 C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

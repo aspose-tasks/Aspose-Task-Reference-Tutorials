@@ -3,10 +3,16 @@ title: การจัดการใบอนุญาตโครงการ 
 linktitle: การจัดการใบอนุญาต Aspose.Tasks ใน .NET
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการสิทธิ์การใช้งาน Aspose.Tasks ในแอปพลิเคชัน .NET ได้อย่างราบรื่นโดยใช้แนวทางแบบไฟล์หรือแบบสตรีม
-type: docs
 weight: 10
 url: /th/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการใบอนุญาตโครงการ MS ใน Aspose.Tasks .NET
+
 ## การแนะนำ
 การจัดการใบอนุญาตเป็นส่วนสำคัญของการใช้ Aspose.Tasks ในแอปพลิเคชัน .NET อย่างมีประสิทธิภาพ หากไม่มีใบอนุญาตที่เหมาะสม คุณอาจพบข้อจำกัดหรือข้อจำกัดในการใช้งานของคุณ โชคดีที่ Aspose.Tasks มีวิธีการที่ตรงไปตรงมาในการปรับใช้ใบอนุญาตโดยใช้ไฟล์หรือสตรีมในโปรเจ็กต์ .NET ของคุณ ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการสิทธิ์การใช้งาน Aspose.Tasks ในแอปพลิเคชัน .NET ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### ถาม: ฉันสามารถใช้ไฟล์ลิขสิทธิ์เดียวกันสำหรับหลายแอปพลิเคชันได้หรือไม่
 
 ตอบ: ได้ คุณสามารถใช้ไฟล์ลิขสิทธิ์เดียวกันในแอพพลิเคชั่นหลายตัวที่พัฒนาโดยผู้รับอนุญาตรายเดียวกัน อย่างไรก็ตาม ตรวจสอบให้แน่ใจว่าใบอนุญาตของคุณเป็นไปตามข้อกำหนดการใช้งานที่ระบุโดย Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

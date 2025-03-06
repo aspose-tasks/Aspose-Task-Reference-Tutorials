@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업에 대한 예산, 작업 및 비용 관리
 linktitle: Aspose.Tasks의 작업에 대한 예산, 작업 및 비용 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트에서 효율적인 예산 및 비용 관리를 활용하세요. 원활한 통합을 위한 단계별 지침을 살펴보세요.
-type: docs
 weight: 31
 url: /ko/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업에 대한 예산, 작업 및 비용 관리
+
 ## 소개
 성공적인 프로젝트 실행을 위해서는 예산, 업무, 비용을 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for Java는 예산 책정 및 비용 관리를 포함한 프로젝트 관련 작업을 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 활용하여 프로젝트에서 효과적인 예산, 작업 및 비용 관리를 달성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -71,3 +77,9 @@ Aspose.Tasks for Java 프로젝트에 예산, 작업 및 비용 관리 기능을
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
 ### Aspose.Tasks for Java에 대한 추가 리소스가 있습니까?
  문서를 참조하세요[여기](https://reference.aspose.com/tasks/java/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

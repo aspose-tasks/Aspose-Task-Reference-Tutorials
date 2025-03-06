@@ -3,10 +3,16 @@ title: Aspose.Tasks Time Configuration and Recurrence Patterns
 linktitle: Aspose.Tasks Time Configuration and Recurrence Patterns
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET tutorials on time configuration and recurrence patterns. Effortlessly manage calendars, customize working times, and optimize project scheduling.
-type: docs
 weight: 33
 url: /net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Time Configuration and Recurrence Patterns
+
 ## Introduction
 
 Welcome to the world of Aspose.Tasks for .NET, where efficient project management meets the power of customizable time configurations and recurrence patterns. In this comprehensive guide, we'll delve into various tutorials that empower you to master the art of project scheduling and resource management.
@@ -58,3 +64,9 @@ Learn how to configure workweeks effortlessly in Aspose.Tasks for .NET. Enhance 
 Learn how to customize work weeks in Aspose.Tasks for .NET. Step-by-step guide for creating personalized project calendars. Download now!
 ### [Configuring Yearly Recurrence Patterns in Aspose.Tasks](./yearly-recurrence-patterns/)
 Learn to configure yearly recurrence patterns in Aspose.Tasks for .NET. Enhance your project management skills with this step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

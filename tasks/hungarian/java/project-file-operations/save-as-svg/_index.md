@@ -3,10 +3,16 @@ title: Konvertálja az MS Projectet SVG-re Java nyelven
 linktitle: Mentés SVG-ként az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan mentheti a Microsoft Project fájlokat SVG formátumban Java nyelven az Aspose.Tasks könyvtár használatával. Lépésről lépésre útmutató kódpéldákkal.
-type: docs
 weight: 18
 url: /hu/java/project-file-operations/save-as-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertálja az MS Projectet SVG-re Java nyelven
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár a projektmenedzsment fájlokkal való munkavégzéshez, lehetővé téve a fejlesztők számára a projektadatok kezelését, különféle műveletek végrehajtását és hatékony jelentéskészítést. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet projektet menteni SVG-ként az Aspose.Tasks for Java használatával. Az SVG (Scalable Vector Graphics) egy széles körben használt formátum a vektorgrafikák webes megjelenítésére, amely méretezhetőséget és kiváló minőségű megjelenítést biztosít.
 ## Előfeltételek
@@ -58,3 +64,9 @@ Igen, testreszabhatja az SVG-kimenet megjelenését olyan paraméterek beállít
  Igen, kérheti az Aspose.Tasks for Java ingyenes próbaverzióját a webhelyről[itt](https://purchase.aspose.com/buy) hogy értékelje jellemzőit és képességeit.
 ### Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?
  Az Aspose.Tasks for Java-hoz támogatást kaphat, ha ellátogat a fórumba[itt](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehet fel, és kapcsolatba léphet a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

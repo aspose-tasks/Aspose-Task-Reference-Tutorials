@@ -3,10 +3,16 @@ title: Mengonfigurasi MS Project Legends di Aspose.Tasks
 linktitle: Mengonfigurasi Legenda Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi legenda halaman Proyek MS di .NET menggunakan Aspose.Tasks untuk manajemen proyek yang efisien. Panduan langkah demi langkah disediakan.
-type: docs
 weight: 18
 url: /id/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi MS Project Legends di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang pengembangan .NET, mengelola tugas secara efisien sangatlah penting, terutama ketika berhadapan dengan manajemen proyek. Aspose.Tasks untuk .NET muncul sebagai alat yang ampuh, menawarkan sejumlah fungsi untuk menyederhanakan proses manajemen tugas. Salah satu fitur tersebut adalah kemampuan untuk mengkonfigurasi legenda halaman MS Project, memberikan pengguna wawasan berharga tentang presentasi data proyek.
 ## Prasyarat
@@ -85,3 +91,9 @@ J: Lisensi sementara menawarkan akses penuh ke Aspose.Tasks untuk fungsionalitas
 J: Tentu saja, Aspose.Tasks untuk .NET menawarkan opsi penyesuaian yang luas, memungkinkan Anda menyesuaikan legenda halaman sesuai dengan kebutuhan spesifik proyek Anda.
 ### T: Di mana saya dapat menemukan dukungan atau forum komunitas untuk Aspose.Tasks untuk .NET?
  J: Anda dapat mencari dukungan dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15), tempat Anda dapat menemukan jawaban atas pertanyaan dan berinteraksi dengan sesama pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

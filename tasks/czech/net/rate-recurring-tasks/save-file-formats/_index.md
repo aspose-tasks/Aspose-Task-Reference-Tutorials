@@ -3,10 +3,16 @@ title: Ukládání souborů MS Project v různých formátech v Aspose.Tasks
 linktitle: Ukládání souborů v různých formátech v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se ukládat soubory MS Project v různých formátech pomocí Aspose.Tasks for .NET. Snadné kroky pro efektivní řízení projektů.
-type: docs
 weight: 17
 url: /cs/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ukládání souborů MS Project v různých formátech v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak uložit soubory Microsoft Project v různých formátech pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům manipulovat a spravovat soubory projektů programově.
 ## Předpoklady
@@ -55,3 +61,9 @@ Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https:/
  Odpověď: Ano, dočasné licence jsou k dispozici pro účely hodnocení. Můžete získat jeden[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Jaká je cena za Aspose.Tasks?
  Odpověď: Informace o cenách lze nalézt na nákupní stránce Aspose.Tasks[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

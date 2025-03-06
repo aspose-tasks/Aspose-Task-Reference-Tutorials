@@ -3,10 +3,16 @@ title: Διαβάστε τις ιδιότητες Meta στα έργα Aspose.Ta
 linktitle: Διαβάστε τις ιδιότητες Meta στα έργα Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τη δύναμη των μεταδεδομένων στα έργα Aspose.Tasks με αυτό το ολοκληρωμένο σεμινάριο. Μάθετε να εξάγετε και να αξιοποιείτε μετα-ιδιότητες χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τις ιδιότητες Meta στα έργα Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων και της ανάλυσης δεδομένων, η εμβάθυνση στα μεταδεδομένα των αρχείων έργου μπορεί να προσφέρει ανεκτίμητες γνώσεις. Το Aspose.Tasks για Java παρουσιάζει ένα ισχυρό κιτ εργαλείων για αβίαστη πλοήγηση σε αυτές τις μετα-ιδιότητες. Αυτό το σεμινάριο χρησιμεύει ως ένας περιεκτικός οδηγός για την εξαγωγή και την κατανόηση μετα-ιδιοτήτων στα έργα σας Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
  Α: Ναι, μπορείτε να βρείτε εκτενή τεκμηρίωση για το Aspose.Tasks στο[σελίδα τεκμηρίωσης](https://reference.aspose.com/tasks/java/).
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
  Α: Για οποιαδήποτε βοήθεια ή απορία σχετικά με το Aspose.Tasks, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για την αφοσιωμένη υποστήριξη από την κοινότητα και τους ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

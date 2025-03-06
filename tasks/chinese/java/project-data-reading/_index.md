@@ -3,10 +3,16 @@ title: 项目数据读取
 linktitle: 项目数据读取
 second_title: Aspose.Tasks Java API
 description: 通过我们的教程释放 Aspose.Tasks for Java 的强大功能！从读取组定义到提取甘特图数据，掌握无缝集成。
-type: docs
 weight: 28
 url: /zh/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 项目数据读取
+
 ## 介绍
 如果您正在探索 Java 项目管理的广阔前景，我们的 Aspose.Tasks 教程就是您的指路明灯。借助我们的分步指南，深入了解项目数据将成为轻松的旅程。让我们一起踏上这场知识冒险吧！
 
@@ -48,3 +54,9 @@ url: /zh/java/project-data-reading/
 了解如何使用 Aspose.Tasks for Java 提取特定的甘特图数据。无缝集成到 Java 应用程序中的分步教程。
 ### [从 Aspose.Tasks 中的文件读取表数据](./read-table-data/)
 释放 Aspose.Tasks for Java 的强大功能。在这个综合教程中学习如何从文件中提取表数据。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

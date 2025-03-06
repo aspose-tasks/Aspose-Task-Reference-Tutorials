@@ -3,10 +3,16 @@ title: การเรียนรู้มุมมองโครงการ 
 linktitle: การกำหนดค่ามุมมองใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: มุมมองโครงการ Microsoft ต้นแบบด้วย Aspose.Tasks สำหรับ .NET ปรับแต่งและปรับปรุงประสบการณ์การจัดการโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้มุมมองโครงการ Microsoft ด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในโลกแบบไดนามิกของการจัดการโครงการ การปรับแต่งมุมมองใน Microsoft Project สามารถปรับปรุงเวิร์กโฟลว์ของคุณได้อย่างมาก Aspose.Tasks สำหรับ .NET มอบชุดเครื่องมืออันทรงพลังเพื่อจัดการและกำหนดค่ามุมมองโปรเจ็กต์ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกขั้นตอนการกำหนดค่ามุมมองโดยใช้ Aspose.Tasks สำหรับ .NET ซึ่งช่วยให้คุณปรับปรุงการแสดงภาพโปรเจ็กต์ของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -78,3 +84,9 @@ Aspose.Tasks ได้รับการออกแบบมาเพื่อ 
  เจาะลึกเอกสารประกอบของ Aspose.Tasks อย่างแน่นอน[ที่นี่](https://reference.aspose.com/tasks/net/) สำหรับตัวเลือกการปรับแต่งขั้นสูง
 ### ฉันจะซื้อ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  คุณสามารถซื้อห้องสมุดได้[ที่นี่](https://purchase.aspose.com/buy) เพื่อประสบการณ์การจัดการโครงการที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

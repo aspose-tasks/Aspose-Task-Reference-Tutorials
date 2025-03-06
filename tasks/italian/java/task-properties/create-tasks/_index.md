@@ -3,10 +3,16 @@ title: Creare attività in Aspose.Tasks
 linktitle: Creare attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Gestisci facilmente progetti Java con Aspose.Tasks. Crea attività, attività secondarie e altro ancora. Segui la nostra guida passo passo per una gestione dei progetti senza intoppi.
-type: docs
 weight: 13
 url: /it/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creare attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel mondo di Aspose.Tasks per Java! Se stai cercando di gestire in modo efficiente attività e progetti nella tua applicazione Java, sei nel posto giusto. In questa guida completa, ti guideremo attraverso il processo di creazione di attività utilizzando Aspose.Tasks per Java, analizzando ogni passaggio per garantire un'esperienza senza interruzioni.
 ## Prerequisiti
@@ -54,3 +60,9 @@ Assolutamente! Aspose.Tasks è versatile e può essere utilizzato per progetti d
 Sì, puoi personalizzare ampiamente gli attributi delle attività per adattarli alle esigenze del tuo progetto.
 ### Esiste una comunità di supporto per gli utenti di Aspose.Tasks?
  Assolutamente! Unisciti alla community Aspose.Tasks su[il forum di supporto](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

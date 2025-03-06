@@ -3,10 +3,16 @@ title: Rédiger le résumé du projet MPP dans Aspose.Tasks
 linktitle: Rédiger le résumé du projet MPP dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à rédiger des résumés de projets MPP en Java à l'aide d'Aspose.Tasks. Définissez et récupérez les informations du projet sans effort.
-type: docs
 weight: 27
 url: /fr/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rédiger le résumé du projet MPP dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment utiliser Aspose.Tasks pour Java pour rédiger des résumés de projets MPP. Aspose.Tasks est une puissante bibliothèque Java permettant de travailler avec des fichiers Microsoft Project. En suivant les étapes décrites ci-dessous, vous pourrez définir et récupérer diverses informations récapitulatives sur un projet utilisant cette bibliothèque.
 ## Conditions préalables
@@ -87,3 +93,9 @@ R : Aspose.Tasks for Java est régulièrement mis à jour pour garantir la compa
 R : Absolument, Aspose.Tasks for Java propose de nombreuses options pour personnaliser les informations récapitulatives du projet en fonction de vos besoins spécifiques.
 ### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks pour Java ?
 R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

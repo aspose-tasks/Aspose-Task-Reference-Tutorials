@@ -3,10 +3,16 @@ title: Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ tro
 linktitle: Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks dành cho Java và hợp lý hóa việc theo dõi tiến độ dự án. Dễ dàng tính toán tỷ lệ phần trăm nhiệm vụ để quản lý dự án hiệu quả.
-type: docs
 weight: 25
 url: /vi/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách tính toán phần trăm nhiệm vụ thành thạo bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ được thiết kế để làm việc với các tệp Microsoft Project, cung cấp một bộ tính năng mạnh mẽ để quản lý dự án. Trong hướng dẫn này, chúng tôi sẽ tập trung vào tính toán Tỷ lệ phần trăm hoàn thành, cung cấp cho bạn kiến thức để theo dõi và phân tích tiến độ dự án một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://rel
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
 ### Hỏi: Làm cách nào để có được giấy phép tạm thời?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

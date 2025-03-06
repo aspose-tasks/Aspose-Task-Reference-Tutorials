@@ -3,10 +3,16 @@ title: Rumus
 linktitle: Rumus
 second_title: Aspose.Tugas Java API
 description: Tingkatkan keterampilan manajemen proyek Anda dengan Aspose.Tasks untuk Java. Kuasai rumus MS Project, tingkatkan produktivitas, dan tulis/baca rumus secara efisien dengan mudah.
-type: docs
 weight: 23
 url: /id/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rumus
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Pelajari cara mendukung evaluasi fungsi MS Project dalam rumus Aspose.Tasks meng
 Pelajari cara memanipulasi file MS Project di Java menggunakan perpustakaan Aspose.Tasks. Membuat, memodifikasi, dan menghitung atribut dengan mudah.
 ### [Menulis dan Membaca Rumus Proyek MS di Aspose.Tasks](./write-read-formulas/)
 Belajar menulis dan membaca rumus MS Project secara efisien dengan Aspose.Tasks untuk Java. Tingkatkan keterampilan manajemen proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

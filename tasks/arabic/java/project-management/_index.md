@@ -3,10 +3,16 @@ title: ادارة مشروع
 linktitle: ادارة مشروع
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks Java من خلال برامجنا التعليمية الشاملة لإدارة المشاريع. بدءًا من حسابات المسار الحرج وحتى خصائص السنة المالية، يمكنك تبسيط سير العمل لديك.
-type: docs
 weight: 27
 url: /ar/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ادارة مشروع
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في إدارة المشاريع باستخدام Aspose.Tasks لـ Java؟ انغمس في برامجنا التعليمية الحصرية التي تغطي مجموعة واسعة من الميزات والوظائف التي من شأنها تمكين رحلة تطوير Java الخاصة بك. بدءًا من حسابات المسار الحرج وحتى التعامل مع استثناءات كتابة المهام أثناء الطباعة، نوفر لك كل ما تحتاجه. دعنا نستكشف ثروة المعرفة التي تنتظرك.
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 تعرف على كيفية طباعة الصفحات لفصل الصور في Aspose.Tasks لـ Java. قم بتحسين تصور المشروع باستخدام هذا الدليل التفصيلي.
 ### [التعامل مع استثناءات كتابة المهام أثناء الطباعة في Aspose.Tasks](./print-task-exceptions/)
 معالجة الاستثناءات الرئيسية في Aspose.Tasks لـ Java لضمان التنفيذ السلس للمشروع. تعرف على كيفية التعامل مع استثناءات كتابة المهام أثناء الطباعة دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 文件格式选项
 linktitle: Aspose.Tasks 文件格式选项
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks 文件格式选项并掌握在 Aspose.Tasks .NET 中配置 XAML 和 XLSX 选项。通过定制技巧提升项目管理。
-type: docs
 weight: 34
 url: /zh/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 文件格式选项
+
 
 ## 介绍
 
@@ -27,3 +33,9 @@ url: /zh/net/file-format-options/
 了解如何在 Aspose.Tasks for .NET 中配置 MS Project XAML 选项。通过分步指导增强项目管理灵活性和定制性。
 ### [在 Aspose.Tasks 中配置 XLSX 选项](./configuring-xlsx-options/)
 了解如何在 Aspose.Tasks for .NET 中配置 MS Project XLSX 选项。轻松自定义列、编码等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

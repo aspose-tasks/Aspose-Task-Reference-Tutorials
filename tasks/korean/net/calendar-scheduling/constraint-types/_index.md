@@ -3,10 +3,16 @@ title: Aspose.Tasks의 제약 유형
 linktitle: Aspose.Tasks의 제약 유형
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 일정을 효율적으로 관리하기 위해 Aspose.Tasks for .NET에서 제약 조건 유형을 설정하는 방법을 알아보세요.
-type: docs
 weight: 17
 url: /ko/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 제약 유형
+
 ## 소개
 
 .NET에서 프로젝트 관리 작업을 할 때는 작업에 다양한 제약 조건을 적용하는 방법을 이해하는 것이 중요합니다. Aspose.Tasks for .NET은 프로젝트 제약 조건을 효율적으로 관리할 수 있는 포괄적인 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks에서 사용할 수 있는 다양한 제약 조건 유형과 이를 단계별로 구현하는 방법을 살펴보겠습니다.
@@ -83,3 +89,9 @@ A4: 예, Aspose.Tasks는 소규모 작업부터 대규모 프로젝트까지 모
 ### Q5: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 받을 수 있나요?
 
  A5: Aspose.Tasks를 방문하여 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

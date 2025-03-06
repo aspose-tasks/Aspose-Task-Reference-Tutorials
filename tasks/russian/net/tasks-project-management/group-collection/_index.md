@@ -3,10 +3,16 @@ title: Управление коллекциями проектов в Aspose.Ta
 linktitle: Управление коллекцией групп в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями MS Project с помощью Aspose.Tasks для .NET. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 26
 url: /ru/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекциями проектов в Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как управлять групповыми коллекциями MS Project с помощью Aspose.Tasks для .NET. Управление групповыми коллекциями имеет решающее значение для эффективной организации и управления задачами и ресурсами в рамках вашего проекта.
 ## Предварительные условия
@@ -108,3 +114,9 @@ Aspose.Tasks для .NET в первую очередь ориентирован
  Вы можете получить поддержку Aspose.Tasks для .NET через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Доступна ли пробная версия Aspose.Tasks для .NET?
  Да, вы можете загрузить бесплатную пробную версию Aspose.Tasks для .NET с сайта[Веб-сайт](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

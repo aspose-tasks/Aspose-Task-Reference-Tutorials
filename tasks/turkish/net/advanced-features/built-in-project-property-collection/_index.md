@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Yerleşik Proje Mülk Koleksiyonu
 linktitle: Aspose.Tasks'ta Yerleşik Proje Mülk Koleksiyonu
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak .NET uygulamalarında proje meta özelliklerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Özellikleri zahmetsizce okuyun, değiştirin ve yineleyin.
-type: docs
 weight: 24
 url: /tr/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Yerleşik Proje Mülk Koleksiyonu
+
 ## giriiş
 
 Yazılım geliştirme alanında görevleri ve projeleri verimli bir şekilde yönetmek başarının anahtarıdır. Aspose.Tasks for .NET, .NET uygulamalarında proje yönetimi görevlerini kolaylaştırmak için tasarlanmış güçlü bir kütüphanedir. Sağlam özellikleri ve sezgisel arayüzü sayesinde geliştiriciler proje yönetimi süreçlerini düzene sokarak zamandan ve kaynaklardan tasarruf sağlayabilirler.
@@ -106,3 +112,9 @@ C3: Evet, Aspose.Tasks for .NET, diğerlerinin yanı sıra MPP, XML ve XLSX dahi
 ### S5: Aspose.Tasks for .NET için ek destek ve kaynakları nerede bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için ve kapsamlı rehberlik için belgelere göz atın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

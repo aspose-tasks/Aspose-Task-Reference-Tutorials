@@ -3,10 +3,16 @@ title: จัดการตัวกรองโครงการ MS อย่
 linktitle: การจัดการคอลเลกชันตัวกรองใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการตัวกรองคอลเลกชัน MS Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET
-type: docs
 weight: 17
 url: /th/net/tasks-project-management/filter-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการตัวกรองโครงการ MS อย่างมีประสิทธิภาพด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการตัวกรองคอลเลกชัน MS Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET การจัดการตัวกรองเป็นสิ่งสำคัญสำหรับการจัดระเบียบและวิเคราะห์ข้อมูลโครงการอย่างมีประสิทธิภาพ Aspose.Tasks มีฟังก์ชันการทำงานที่มีประสิทธิภาพเพื่อจัดการงานและตัวกรองทรัพยากรได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -102,3 +108,9 @@ foreach (var filter in filtersToDelete)
 ตอบ: ใช่ Aspose.Tasks มีเอกสารประกอบ บทช่วยสอน และฟอรัมการสนับสนุนเฉพาะเพื่อช่วยเหลือนักพัฒนาในทุกขั้นตอนของการดำเนินโครงการ
 ### ถาม: Aspose.Tasks มีเวอร์ชันทดลองใช้งานหรือไม่
 ตอบ: ได้ นักพัฒนาสามารถเข้าถึง Aspose.Tasks เวอร์ชันทดลองใช้ฟรีเพื่อสำรวจฟีเจอร์ต่างๆ ก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

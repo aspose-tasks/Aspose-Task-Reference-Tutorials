@@ -3,10 +3,16 @@ title: Extraheer MS-projectinformatie in Aspose.Tasks
 linktitle: Projectinformatie extraheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u moeiteloos MS Project-informatie kunt extraheren met Aspose.Tasks voor .NET. Duik in onze uitgebreide tutorial.
-type: docs
 weight: 20
 url: /nl/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraheer MS-projectinformatie in Aspose.Tasks
+
 ## Invoering
 Wilt u efficiënt informatie uit Microsoft Project-bestanden extraheren met Aspose.Tasks voor .NET? In deze tutorial begeleiden we u stap voor stap door het proces. Maar voordat we ingaan op de implementatiedetails, moeten we er eerst voor zorgen dat u over alles beschikt wat u nodig heeft.
 ## Vereisten
@@ -73,3 +79,9 @@ EEN: Absoluut! Aspose.Tasks voor .NET biedt robuuste functionaliteit om niet all
  A: Ja, u kunt technische ondersteuning krijgen voor Aspose.Tasks voor .NET via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15), waar u vragen kunt stellen en hulp kunt inroepen van deskundigen.
 ### V5: Kan ik Aspose.Tasks voor .NET uitproberen voordat ik het aanschaf?
  EEN: Zeker! U kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor .NET via de[releases pagina](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoopbeslissing neemt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

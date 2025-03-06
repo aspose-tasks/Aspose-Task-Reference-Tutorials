@@ -3,10 +3,16 @@ title: Menangani Bagian Split Proyek MS di Aspose.Tasks
 linktitle: Menangani Bagian Terpisah di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani bagian terpisah MS Project secara efisien dengan Aspose.Tasks untuk .NET. Tingkatkan alur kerja manajemen proyek Anda.
-type: docs
 weight: 18
 url: /id/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Bagian Split Proyek MS di Aspose.Tasks
+
 
 ## Perkenalan
 Mengelola bagian terpisah Proyek MS dapat menjadi aspek penting dalam manajemen proyek saat menggunakan Aspose.Tasks untuk .NET. Dalam tutorial ini, kita akan mengeksplorasi cara efektif menangani bagian yang terbelah menggunakan panduan langkah demi langkah.
@@ -94,3 +100,9 @@ J: Ya, Aspose.Tasks untuk .NET memungkinkan Anda mengelola sumber daya proyek se
 J: Tentu saja, Anda dapat menyesuaikan kalender proyek sesuai dengan kebutuhan proyek Anda.
 ### T: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks untuk .NET?
  J: Anda dapat menemukan dukungan dan bantuan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Outline Değerlerinde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Anahat Değerlerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project anahat değerlerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Proje ana hatlarını kolaylıkla özelleştirin.
-type: docs
 weight: 16
 url: /tr/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Outline Değerlerinde Uzmanlaşmak
+
 ## giriiş
 Bu eğitimde, .NET için Aspose.Tasks kitaplığını kullanarak Microsoft Project anahat değerlerinin nasıl yönetileceğini inceleyeceğiz. Aspose.Tasks ile anahat kodlarını kolayca değiştirebilir, yeni anahat değerleri oluşturabilir ve proje ana hatlarını gereksinimlerinize göre özelleştirebilirsiniz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Evet, Aspose.Tasks çeşitli .NET çerçeveleriyle uyumludur ve geliştirme o
 C: Evet, Aspose.Tasks için geçici lisansı şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?
  C: Mevcut kapsamlı belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

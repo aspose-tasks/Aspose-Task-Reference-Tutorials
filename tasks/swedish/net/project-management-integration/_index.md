@@ -3,10 +3,16 @@ title: Aspose.Tasks Projektledning och integration
 linktitle: Aspose.Tasks Projektledning och integration
 second_title: Aspose.Tasks .NET API
 description: Upptäck omfattande Aspose.Tasks för .NET-handledningar som täcker MS-projektledning, integration och anpassning. Förbättra dina färdigheter i projektledning nu!
-type: docs
 weight: 27
 url: /sv/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projektledning och integration
+
 
 ## Introduktion
 
@@ -62,3 +68,9 @@ Lär dig hur du hanterar MS Project Server-uppgifter sömlöst med Aspose.Tasks 
 Lås upp sömlös MS Project Server-hantering med Aspose.Tasks för .NET. Automatisera projektuppgifter utan ansträngning.
 ### [Anpassa MS Project Views i Aspose.Tasks](./project-views/)
 Lär dig hur du anpassar MS Project-vyer med Aspose.Tasks för .NET. Följ vår steg-för-steg-guide för effektiv visualisering av projektledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

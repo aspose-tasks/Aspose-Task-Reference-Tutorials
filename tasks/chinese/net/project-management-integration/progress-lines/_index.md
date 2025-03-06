@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 处理 MS 项目进度线
 linktitle: 处理 Aspose.Tasks 中的进度线
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 操作 MS Project 文件中的进度线，从而增强项目可视化和管理。
-type: docs
 weight: 15
 url: /zh/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 处理 MS 项目进度线
+
 ## 介绍
 Microsoft Project (MS Project) 是一个强大的项目管理工具，允许用户跟踪项目的各个方面。 MS Project 的一项重要功能是能够可视化进度线，这有助于利益相关者了解项目的状态和轨迹。在本教程中，我们将探索如何使用 .NET 的 Aspose.Tasks 库处理 MS Project 中的进度线。
 ## 先决条件
@@ -96,3 +102,9 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
 答：是的，您可以在 Aspose.Tasks 论坛上找到有用的资源并寻求帮助[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：Aspose.Tasks 是否提供用于评估目的的临时许可证？
 答：是的，您可以从以下位置获取临时评估许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

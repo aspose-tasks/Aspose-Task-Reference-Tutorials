@@ -3,10 +3,16 @@ title: Konfigurasikan Opsi MS Project XAML dengan Aspose.Tasks untuk .NET
 linktitle: Mengonfigurasi Opsi XAML di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi MS Project XAML di Aspose.Tasks untuk .NET. Tingkatkan fleksibilitas dan penyesuaian manajemen proyek dengan panduan langkah demi langkah.
-type: docs
 weight: 10
 url: /id/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Opsi MS Project XAML dengan Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, mengelola tugas proyek secara efisien sangat penting untuk keberhasilan penyelesaian proyek. Aspose.Tasks untuk .NET memberikan solusi canggih untuk menangani tugas manajemen proyek dengan lancar. Dalam tutorial ini, kita akan mempelajari konfigurasi opsi MS Project XAML menggunakan Aspose.Tasks untuk .NET. 
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Ya, Aspose.Tasks untuk .NET mendukung integrasi dengan berbagai alat manajeme
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?
 
  J: Anda dapat membeli Aspose.Tasks untuk .NET dari[Link ini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

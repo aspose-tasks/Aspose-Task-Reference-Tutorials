@@ -3,10 +3,16 @@ title: Διαβάστε τις Εβδομάδες Εργασίας από το M
 linktitle: Διαβάστε τις Εβδομάδες Εργασίας από το Ημερολόγιο με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαβάζετε εργάσιμες εβδομάδες από το ημερολόγιο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Λάβετε οδηγίες βήμα προς βήμα σε αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 15
 url: /el/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τις Εβδομάδες Εργασίας από το MS Project Calendar με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Tasks για Java για την ανάγνωση πληροφοριών εβδομάδων εργασίας από ένα ημερολόγιο Microsoft Project. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να χειρίζεστε και να διαχειρίζεστε έγγραφα του Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -65,3 +71,9 @@ for (WorkWeek workWeek : collection) {
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;
 Μπορείτε να βρείτε υποστήριξη και βοήθεια στο φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

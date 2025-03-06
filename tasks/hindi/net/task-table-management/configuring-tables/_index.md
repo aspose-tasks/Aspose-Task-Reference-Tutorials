@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks में मास्टर टेब
 linktitle: Aspose.Tasks में तालिकाओं को कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Tasks में तालिकाओं को कॉन्फ़िगर करना सीखें। अपने प्रोजेक्ट प्रबंधन अनुभव को सहजता से बढ़ाएं।
-type: docs
 weight: 10
 url: /hi/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks में मास्टर टेबल कॉन्फ़िगरेशन
+
 ## परिचय
 .NET के लिए Aspose.Tasks में तालिकाओं को कॉन्फ़िगर करने पर इस व्यापक मार्गदर्शिका में आपका स्वागत है। Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम आपको Aspose.Tasks का उपयोग करके तालिकाओं को कॉन्फ़िगर करने की प्रक्रिया के बारे में बताएंगे, स्पष्ट समझ के लिए प्रत्येक चरण को तोड़ेंगे।
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
  उत्तर: हां, आप नि:शुल्क परीक्षण संस्करण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं Aspose.Tasks कहां से खरीद सकता हूं?
  उ: आप पूरा लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

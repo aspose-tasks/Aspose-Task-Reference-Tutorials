@@ -3,10 +3,16 @@ title: Απόδοση δεδομένων έργου MS με μορφή 24bppRgb 
 linktitle: Απόδοση δεδομένων με μορφή 24bppRgb στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να αποδίδετε τα δεδομένα του MS Project ως εικόνες σε Java χρησιμοποιώντας το Aspose.Tasks. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απόδοση δεδομένων έργου MS με μορφή 24bppRgb στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία απόδοσης δεδομένων με μορφή MS Project 24bppRgb χρησιμοποιώντας Aspose.Tasks για Java. Η απόδοση δεδομένων έργου σε μορφή εικόνας μπορεί να είναι χρήσιμη για διάφορους σκοπούς, όπως η οπτική κοινή χρήση της προόδου του έργου ή η δημιουργία αναφορών.
 ## Προαπαιτούμενα
@@ -63,3 +69,9 @@ project.save(dataDir + "resFile.tif", options);
  Α: Ναι, πρέπει να αγοράσετε άδεια για εμπορική χρήση του Aspose.Tasks. Μπορείτε να αποκτήσετε μια προσωρινή άδεια για σκοπούς δοκιμής από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να λάβετε υποστήριξη για το Aspose.Tasks από το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

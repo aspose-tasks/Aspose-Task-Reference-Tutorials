@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的工作週配置
 linktitle: 在 Aspose.Tasks 中配置工作週
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中輕鬆設定工作週。透過我們的逐步指南增強專案排程和資源管理。
-type: docs
 weight: 16
 url: /zh-hant/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的工作週配置
+
 ## 介紹
 歡迎閱讀我們有關在 Aspose.Tasks for .NET 中配置工作週的綜合指南。有效管理工作週對於專案規劃和調度至關重要。 Aspose.Tasks 簡化了這個過程，讓您可以根據專案的需要自訂工作週。在本教程中，我們將引導您完成無縫配置工作週的步驟。
 ## 先決條件
@@ -90,3 +96,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 截至目前版本，您可以在專案中配置的工作週數沒有預先定義的限制。
 ### 是否有常見工作週的內建範本？
 是的，Aspose.Tasks 包含一個標準日曆模板，您可以將其用作專案的起點。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

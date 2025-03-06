@@ -3,10 +3,16 @@ title: Customize MS Project Page View Settings in Aspose.Tasks
 linktitle: Configuring Page View Settings in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure page view settings in Aspose.Tasks for .NET to tailor the printing format of your Microsoft Project documents.
-type: docs
 weight: 21
 url: /net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize MS Project Page View Settings in Aspose.Tasks
+
 ## Introduction
 Microsoft Project is a powerful tool for project management, but sometimes you need to customize the way your project is viewed and printed. With Aspose.Tasks for .NET, you can easily configure the page view settings to meet your specific requirements. In this tutorial, we'll guide you through the process step by step.
 ## Prerequisites
@@ -76,3 +82,10 @@ A: Yes, you can adjust the page view settings independently for each project fil
 A: Aspose.Tasks offers compatibility with Microsoft Project 2003 and later versions.
 ### Q: Where can I find further assistance or support for Aspose.Tasks?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any inquiries or issues you encounter during usage.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

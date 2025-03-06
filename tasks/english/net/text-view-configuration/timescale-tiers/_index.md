@@ -3,10 +3,16 @@ title: Configuring Gantt Chart Timescale Tiers in Aspose.Tasks
 linktitle: Configuring Timescale Tiers in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET to configure timescale tiers in your Gantt Chart view for precise project timeline visualization. #Aspose.Tasks #MS Project
-type: docs
 weight: 16
 url: /net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring Gantt Chart Timescale Tiers in Aspose.Tasks
+
 ## Introduction
 In the dynamic landscape of project management, effective visualization is crucial for understanding timelines and deadlines. Aspose.Tasks for .NET provides a powerful toolset, and in this tutorial, we'll explore how to configure timescale tiers for optimal representation in the Gantt Chart view. Follow these step-by-step instructions to enhance your project visualization.
 ## Prerequisites
@@ -86,3 +92,10 @@ Absolutely, Aspose.Tasks provides extensive customization options for the Gantt 
 Certainly, you can explore various formats and styles for timescale representation to best fit your project's context.
 ### Is there a community forum for Aspose.Tasks support?
 Yes, visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

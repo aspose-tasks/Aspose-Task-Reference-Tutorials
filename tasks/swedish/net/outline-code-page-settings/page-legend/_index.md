@@ -3,10 +3,16 @@ title: Konfigurera MS Project Legends i Aspose.Tasks
 linktitle: Konfigurera sidförklaring i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du konfigurerar MS Project-sidelegender i .NET med Aspose.Tasks för effektiv projektledning. Steg-för-steg guide tillhandahålls.
-type: docs
 weight: 18
 url: /sv/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurera MS Project Legends i Aspose.Tasks
+
 ## Introduktion
 När det gäller .NET-utveckling är det avgörande att hantera uppgifter effektivt, särskilt när det gäller projektledning. Aspose.Tasks för .NET framstår som ett kraftfullt verktyg som erbjuder en uppsjö av funktioner för att effektivisera processer för uppgiftshantering. En sådan funktion är möjligheten att konfigurera MS Project-sidelegender, vilket ger användarna värdefulla insikter i presentationen av projektdata.
 ## Förutsättningar
@@ -85,3 +91,9 @@ S: Tillfälliga licenser ger full tillgång till Aspose.Tasks för .NET-funktion
 S: Absolut, Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ, så att du kan skräddarsy sidförklaringar efter dina specifika projektkrav.
 ### F: Var kan jag hitta support- eller communityforum för Aspose.Tasks för .NET?
  S: Du kan söka stöd och engagera dig i samhället på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), där du kan hitta svar på frågor och interagera med andra utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

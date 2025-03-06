@@ -3,10 +3,16 @@ title: Dapatkan Jumlah Halaman dalam Proyek dengan Aspose.Tasks
 linktitle: Dapatkan Jumlah Halaman dalam Proyek dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Buka potensi pengembangan Java dengan Aspose.Tasks. Pelajari cara memanipulasi file Microsoft Project dengan lancar dan meningkatkan produktivitas Anda.
-type: docs
 weight: 16
 url: /id/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Jumlah Halaman dalam Proyek dengan Aspose.Tasks
+
 ## Perkenalan
 Di bidang pengembangan Java, Aspose.Tasks menonjol sebagai alat yang ampuh untuk menangani file Microsoft Project. Baik Anda seorang pengembang berpengalaman atau baru saja mempelajari pemrograman Java, menguasai Aspose.Tasks dapat secara signifikan meningkatkan kemampuan Anda untuk memanipulasi dan mengekstrak wawasan berharga dari file Proyek.
 ## Prasyarat
@@ -74,3 +80,9 @@ J: Aspose.Tasks menyediakan dokumentasi dan dukungan yang komprehensif, sehingga
  A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk berinteraksi dengan komunitas dan mencari bantuan mengenai masalah atau pertanyaan apa pun.
 ### T: Dapatkah saya mencoba Aspose.Tasks sebelum melakukan pembelian?
  J: Tentu saja, Anda dapat menjelajahi fitur dan fungsi Aspose.Tasks dengan mendapatkan uji coba gratis dari[situs web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

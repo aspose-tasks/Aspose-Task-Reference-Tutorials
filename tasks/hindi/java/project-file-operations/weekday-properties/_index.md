@@ -3,10 +3,16 @@ title: Aspose.Tasks में सप्ताहांत गुण
 linktitle: Aspose.Tasks में सप्ताहांत गुण
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks में कार्यदिवस संपत्तियों को कुशलतापूर्वक प्रबंधित करना सीखें। सप्ताह की आरंभ तिथियां, प्रति माह दिन और बहुत कुछ आसानी से अनुकूलित करें।
-type: docs
 weight: 25
 url: /hi/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में सप्ताहांत गुण
+
 ## परिचय
 Aspose.Tasks for Java एक शक्तिशाली एपीआई है जो जावा डेवलपर्स को मशीन पर Microsoft प्रोजेक्ट स्थापित किए बिना Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने में सक्षम बनाता है। इसकी प्रमुख कार्यक्षमताओं में से एक कार्यदिवस गुणों का प्रबंधन करना है, जो उपयोगकर्ताओं को सप्ताह की आरंभ तिथियां, प्रति माह दिन, प्रति दिन मिनट और प्रति सप्ताह मिनट अनुकूलित करने की अनुमति देता है। यह ट्यूटोरियल इन सुविधाओं का प्रभावी ढंग से उपयोग करने के बारे में एक विस्तृत मार्गदर्शिका प्रदान करेगा।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ System.out.println("Process completed Successfully");
  उत्तर: हां, आप जावा के लिए Aspose.Tasks के लिए व्यापक दस्तावेज़ीकरण और सामुदायिक समर्थन तक पहुंच सकते हैं[वेबसाइट](https://releases.aspose.com/).
 ### प्रश्न: क्या जावा के लिए Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 उत्तर: हाँ, आप जावा के लिए Aspose.Tasks का निःशुल्क परीक्षण संस्करण उनसे डाउनलोड कर सकते हैं[वेबसाइट](https://reference.aspose.com/tasks/java/) खरीदारी करने से पहले इसकी विशेषताओं का पता लगाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

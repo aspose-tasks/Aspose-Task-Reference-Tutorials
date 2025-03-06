@@ -3,10 +3,16 @@ title: Lịch
 linktitle: Lịch
 second_title: API Java Aspose.Tasks
 description: Nâng cao kỹ năng quản lý dự án Java của bạn với các hướng dẫn Aspose.Tasks. Quản lý lịch tổng thể, tạo, xác định các ngày trong tuần và cập nhật lịch một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lịch
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển Java đang tìm cách hợp lý hóa các kỹ năng quản lý dự án của mình không? Đi sâu vào các hướng dẫn Aspose.Tasks toàn diện của chúng tôi bao gồm các khía cạnh khác nhau của việc quản lý lịch MS Project. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này đều cung cấp hướng dẫn từng bước để nâng cao khả năng của bạn.
@@ -64,3 +70,9 @@ Tìm hiểu cách tạo lịch MS Project tiêu chuẩn trong Java bằng Aspose
 Tìm hiểu cách đọc tuần làm việc từ lịch MS Project bằng Aspose.Tasks cho Java. Nhận hướng dẫn từng bước trong hướng dẫn toàn diện này.
 ### [Cập nhật Lịch dự án MS sang định dạng MPP với Aspose.Tasks](./update-to-mpp/)
 Tìm hiểu cách cập nhật lịch MS Project sang định dạng MPP một cách dễ dàng bằng cách sử dụng Aspose.Tasks cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

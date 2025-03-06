@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 분할 부품의 MS 프로젝트 수집
 linktitle: Aspose.Tasks의 분할 부품 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트에서 분할된 부분을 수집하는 방법을 알아보세요. 이 포괄적인 튜토리얼은 프로세스를 단계별로 안내합니다.
-type: docs
 weight: 19
 url: /ko/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 분할 부품의 MS 프로젝트 수집
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 MS 프로젝트에서 분할된 부분을 수집하는 방법을 살펴보겠습니다. 작업을 여러 부분으로 나누는 것은 프로젝트 관리의 중요한 측면이 될 수 있으며 Aspose.Tasks는 이를 효율적으로 처리할 수 있는 편리한 방법을 제공합니다.
 ## 전제조건
@@ -66,3 +72,9 @@ A: Aspose.Tasks는 다양한 버전의 MS 프로젝트 파일을 지원하여 �
  A: 임시 라이센스는 다음에서 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 단기 사용을 위해.
 ### Q: Aspose.Tasks에 관해 도움이나 지원을 어디서 구할 수 있나요?
  A: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15)커뮤니티 또는 Aspose 지원팀의 도움을 구하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks for .NET 中的表字段集合
 linktitle: Aspose.Tasks 中表字段的集合
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 探索项目管理的动态世界。了解如何操作表字段集合以获得自定义项目体验。
-type: docs
 weight: 13
 url: /zh/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks for .NET 中的表字段集合
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，通过提供处理 Microsoft Project 文件的广泛功能来促进项目管理。在本教程中，我们将深入研究 Aspose.Tasks 中的表字段集合，探索如何使用 C# 有效地操作和管理它们。
 ## 先决条件
@@ -111,3 +117,9 @@ else
 参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)获得支持、提出问题以及与社区合作。
 ### Aspose.Tasks for .NET 是否有免费试用版？
 是的，您可以通过免费试用来探索 Aspose.Tasks for .NET 的功能。下载它[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

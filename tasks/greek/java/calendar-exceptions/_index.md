@@ -3,10 +3,16 @@ title: Εξαιρέσεις ημερολογίου
 linktitle: Εξαιρέσεις ημερολογίου
 second_title: Aspose.Tasks Java API
 description: Διαχειριστείτε, ορίστε, χειριστείτε και ανακτήστε εξαιρέσεις ημερολογίου σε έργα Java χωρίς κόπο με το Aspose.Tasks. Βελτιώστε τις ροές εργασίας του έργου για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 20
 url: /el/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαιρέσεις ημερολογίου
+
 
 ## Εισαγωγή
 
@@ -34,3 +40,9 @@ url: /el/java/calendar-exceptions/
 Μάθετε πώς να χειρίζεστε αποτελεσματικά τις εξαιρέσεις ημερολογίου σε έργα Java με το Aspose.Tasks για Java. Βελτιώστε τη διαδικασία διαχείρισης του έργου σας τώρα.
 ### [Ανάκτηση εξαιρέσεων ημερολογίου με το Aspose.Tasks](./retrieve/)
 Μάθετε πώς να ανακτάτε εξαιρέσεις ημερολογίου από το MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Βήμα προς βήμα μάθημα για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

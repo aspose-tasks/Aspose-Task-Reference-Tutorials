@@ -3,10 +3,16 @@ title: Manejo de campos de tabla en Aspose.Tasks
 linktitle: Manejo de campos de tabla en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine el manejo de los campos de la tabla en Aspose.Tasks para .NET con este completo tutorial. Aprenda a leer, mostrar y modificar tablas de proyectos sin esfuerzo.
-type: docs
 weight: 12
 url: /es/net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de campos de tabla en Aspose.Tasks
+
 ## Introducción
 Bienvenido al mundo de Aspose.Tasks para .NET, una poderosa biblioteca que permite la manipulación perfecta de archivos de Microsoft Project en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades del manejo de campos de tablas en Aspose.Tasks, lo que le permitirá leer y administrar tablas de proyectos de manera eficiente. Ya sea que sea un desarrollador experimentado o un recién llegado, esta guía paso a paso le permitirá aprovechar todo el potencial de Aspose.Tasks.
 ## Requisitos previos
@@ -72,3 +78,9 @@ partir de la última versión, no existen limitaciones estrictas en la cantidad 
 Las actualizaciones de Aspose.Tasks se publican periódicamente para garantizar la compatibilidad e introducir nuevas funciones.
 ### ¿Existe un foro comunitario para soporte de Aspose.Tasks?
  Sí, puede encontrar ayuda y debates sobre el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

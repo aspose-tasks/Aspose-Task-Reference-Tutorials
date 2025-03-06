@@ -3,10 +3,16 @@ title: Pengulangan berdasarkan Hari Bulan di Aspose.Tugas
 linktitle: Pengulangan berdasarkan Hari Bulan di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola tugas berulang di proyek .NET dengan Aspose.Tasks. Panduan langkah demi langkah untuk menangani pengulangan berdasarkan hari bulan.
-type: docs
 weight: 25
 url: /id/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengulangan berdasarkan Hari Bulan di Aspose.Tugas
+
 ## Perkenalan
 
 Di bidang pengembangan .NET, Aspose.Tasks berdiri sebagai alat yang ampuh untuk mengelola tugas dan jadwal proyek. Ini menawarkan banyak fungsi untuk menyederhanakan alur kerja manajemen proyek, termasuk menangani tugas-tugas berulang. Pengulangan berdasarkan hari bulan merupakan persyaratan umum dalam penjadwalan proyek, dan Aspose.Tasks memberikan dukungan kuat untuk skenario ini.
@@ -105,3 +111,9 @@ A3: Tentu saja, Aspose.Tasks menawarkan berbagai fitur untuk manajemen proyek, t
 ### Q5: Di mana saya bisa mencari bantuan jika saya menemui masalah atau memiliki pertanyaan?
 
  A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk mencari dukungan dari komunitas atau tim Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การเรียนรู้พื้นฐานงานใน Asp
 linktitle: การจัดการงานพื้นฐานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการงานพื้นฐานใน Aspose.Tasks for .NET ด้วยบทช่วยสอนที่ครอบคลุมนี้ พัฒนาทักษะการจัดการโครงการของคุณวันนี้!
-type: docs
 weight: 16
 url: /th/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้พื้นฐานงานใน Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 ในโลกที่มีการเปลี่ยนแปลงตลอดเวลาของการจัดการโครงการ การจัดระเบียบและรับทราบข้อมูลเป็นสิ่งสำคัญ Aspose.Tasks สำหรับ .NET มอบโซลูชันที่มีประสิทธิภาพสำหรับการจัดการบรรทัดฐานของงาน ช่วยให้คุณเข้าถึงข้อมูลพื้นฐานอันมีค่าได้อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ เพื่อให้มั่นใจว่าคุณจะเข้าใจแต่ละแนวคิดได้ชัดเจน
 ## ข้อกำหนดเบื้องต้น
@@ -72,3 +78,9 @@ foreach (var data in baseline.TimephasedData)
  ตอบ: สำรวจ[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับบทช่วยสอนที่หลากหลายเกี่ยวกับคุณสมบัติ Aspose.Tasks
 ### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถซื้อ Aspose.Tasks ได้อย่างสะดวก[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

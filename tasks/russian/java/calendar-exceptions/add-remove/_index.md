@@ -3,10 +3,16 @@ title: Управление исключениями календаря в Aspos
 linktitle: Добавление и удаление исключений календаря в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно добавлять и удалять исключения календаря в Aspose.Tasks для Java. Усовершенствуйте рабочие процессы управления проектами без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление исключениями календаря в Aspose.Tasks
+
 
 ## Введение
 В управлении проектами обработка исключений в календарях имеет решающее значение для точного планирования задач и управления ресурсами. Aspose.Tasks для Java предоставляет мощные функции для легкого добавления и удаления исключений календаря. В этом уроке мы шаг за шагом проведем вас через этот процесс.
@@ -79,3 +85,10 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 ### Вопрос: Где я могу обратиться за поддержкой по любым вопросам или вопросам, связанным с Aspose.Tasks для Java?
 
  О: Вы можете посетить форум Aspose.Tasks для Java на[Веб-сайт](https://reference.aspose.com/tasks/java/) обратиться за помощью к сообществу или напрямую обратиться в службу поддержки для получения индивидуальной помощи.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

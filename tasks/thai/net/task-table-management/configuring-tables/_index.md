@@ -3,10 +3,16 @@ title: การกำหนดค่าตารางหลักใน Aspose
 linktitle: การกำหนดค่าตารางใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าตารางใน Aspose.Tasks สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ยกระดับประสบการณ์การจัดการโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าตารางหลักใน Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการกำหนดค่าตารางใน Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการกำหนดค่าตารางโดยใช้ Aspose.Tasks โดยแจกแจงแต่ละขั้นตอนเพื่อความเข้าใจที่ชัดเจน
 ## ข้อกำหนดเบื้องต้น
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
  ตอบ: ได้ คุณสามารถสำรวจเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะซื้อ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถซื้อใบอนุญาตแบบเต็มได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

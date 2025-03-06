@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 중요하고 노력 중심적인 작업을 관리하�
 linktitle: Aspose.Tasks에서 중요하고 노력 중심적인 작업을 관리하세요
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트에서 중요하고 노력이 많이 드는 작업을 쉽게 관리하세요. 라이브러리를 다운로드하고 프로젝트 관리 기능을 강화하세요.
-type: docs
 weight: 14
 url: /ko/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 중요하고 노력 중심적인 작업을 관리하세요
+
 빠르게 변화하는 프로젝트 관리 세계에서 중요하고 노력이 많이 드는 작업을 효율적으로 처리하는 것은 성공적인 프로젝트 완료에 필수적입니다. Aspose.Tasks for Java는 이러한 작업을 원활하게 관리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 프로젝트에서 중요하고 노력이 많이 드는 작업을 처리하는 과정을 안내합니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Java용 Aspose.Tasks는 어디에서 구매할 수 있나요?
  Java용 Aspose.Tasks를 다음에서 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

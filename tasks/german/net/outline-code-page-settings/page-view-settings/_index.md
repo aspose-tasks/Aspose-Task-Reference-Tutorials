@@ -3,10 +3,16 @@ title: Passen Sie die Einstellungen für die Seitenansicht von MS Project in Asp
 linktitle: Konfigurieren der Seitenansichtseinstellungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie die Seitenansichtseinstellungen in Aspose.Tasks für .NET konfigurieren, um das Druckformat Ihrer Microsoft Project-Dokumente anzupassen.
-type: docs
 weight: 21
 url: /de/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie die Einstellungen für die Seitenansicht von MS Project in Aspose.Tasks an
+
 ## Einführung
 Microsoft Project ist ein leistungsstarkes Tool für das Projektmanagement. Manchmal müssen Sie jedoch die Art und Weise anpassen, wie Ihr Projekt angezeigt und gedruckt wird. Mit Aspose.Tasks für .NET können Sie die Einstellungen für die Seitenansicht ganz einfach so konfigurieren, dass sie Ihren spezifischen Anforderungen entsprechen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ A: Ja, Sie können die Seitenansichtseinstellungen für jede Projektdatei, mit d
 A: Aspose.Tasks bietet Kompatibilität mit Microsoft Project 2003 und späteren Versionen.
 ### F: Wo finde ich weitere Hilfe oder Unterstützung für Aspose.Tasks?
  A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für alle Fragen oder Probleme, die während der Nutzung auftreten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

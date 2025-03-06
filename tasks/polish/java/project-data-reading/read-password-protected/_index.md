@@ -3,10 +3,16 @@ title: Czytaj pliki chronione hasłem w Aspose.Tasks
 linktitle: Czytaj pliki chronione hasłem w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak bez wysiłku czytać pliki chronione hasłem w Aspose.Tasks dla Java, korzystając ze wskazówek krok po kroku zawartych w tym samouczku.
-type: docs
 weight: 14
 url: /pl/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Czytaj pliki chronione hasłem w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla Java to potężna biblioteka, która pozwala programistom programowo manipulować plikami Microsoft Project. Jednym z typowych zadań, przed którymi stają programiści, jest odczytywanie plików chronionych hasłem. W tym samouczku przeprowadzimy Cię krok po kroku przez proces odczytywania takich plików.
 ## Warunki wstępne
@@ -49,3 +55,9 @@ Odp.: Możesz znaleźć szczegółową dokumentację dotyczącą Aspose.Tasks dl
  Odp.: Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### P: Czy potrzebuję tymczasowej licencji, aby używać Aspose.Tasks dla Java?
  Odpowiedź: Możesz potrzebować tymczasowej licencji na niektóre funkcje lub na okres próbny. Zdobyć[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

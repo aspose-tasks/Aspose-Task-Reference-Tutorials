@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य प्रारंभ दिना
 linktitle: Aspose.Tasks में कार्य प्रारंभ दिनांक प्रकार कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: कार्य प्रारंभ दिनांक प्रकारों को आसानी से कॉन्फ़िगर करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें। परियोजना प्रबंधन को आसानी से अनुकूलित करें। अभी अपने मुफ़्त ट्रायल को डाउनलोड करें!
-type: docs
 weight: 23
 url: /hi/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य प्रारंभ दिनांक प्रकार कॉन्फ़िगर करना
+
 परियोजना प्रबंधन की गतिशील दुनिया में, कार्यों के लिए सही आरंभ तिथि निर्धारित करना महत्वपूर्ण है। .NET के लिए Aspose.Tasks कार्य प्रारंभ दिनांक प्रकारों को सहजता से कॉन्फ़िगर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम सहज एकीकरण सुनिश्चित करने के लिए प्रक्रिया को सरल चरणों में तोड़कर आपका मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
 कार्य प्रारंभ दिनांक प्रकारों के कॉन्फ़िगरेशन में गोता लगाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
@@ -52,3 +58,9 @@ project.Save(DataDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
  दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/tasks/net/) .NET के लिए Aspose.Tasks की गहन जानकारी के लिए।
 ### Q5: क्या मैं Aspose.Tasks के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
  हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन उद्देश्यों के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

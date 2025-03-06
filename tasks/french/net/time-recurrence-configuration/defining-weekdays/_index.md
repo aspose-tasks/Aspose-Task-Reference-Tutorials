@@ -3,10 +3,16 @@ title: Maîtriser les jours de la semaine dans Aspose.Tasks pour .NET
 linktitle: Définir les jours de la semaine dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez la puissance de la définition des jours de la semaine dans Aspose.Tasks .NET. Suivez notre didacticiel détaillé pour gérer efficacement les calendriers de projets, personnaliser les temps de travail et bien plus encore.
-type: docs
 weight: 10
 url: /fr/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les jours de la semaine dans Aspose.Tasks pour .NET
+
 ## Introduction
 Si vous plongez dans le monde de la gestion de projet en utilisant Aspose.Tasks pour .NET, comprendre et manipuler les jours de la semaine est un aspect crucial. La gestion et la personnalisation efficaces des jours de la semaine dans le calendrier de votre projet peuvent avoir un impact significatif sur les délais du projet. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition des jours de la semaine à l'aide d'Aspose.Tasks, en fournissant des instructions étape par étape et des exemples pour une meilleure clarté.
 ## Conditions préalables
@@ -116,3 +122,9 @@ Utilisez les méthodes appropriées fournies par la bibliothèque Aspose.Tasks p
 Oui, toute modification apportée aux jours de la semaine est reflétée dans le fichier de projet lors de son enregistrement.
 ### Puis-je utiliser Aspose.Tasks avec d’autres langages de programmation ?
 Aspose.Tasks prend en charge divers langages de programmation, mais les exemples ici sont spécifiquement destinés à .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

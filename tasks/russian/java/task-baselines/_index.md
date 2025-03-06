@@ -3,10 +3,16 @@ title: Базовые показатели задач
 linktitle: Базовые показатели задач
 second_title: API Aspose.Tasks Java
 description: Изучите Aspose.Tasks Java с помощью наших руководств по базовым показателям задач. Оптимизируйте планирование задач, создавайте базовые планы задач MS Project и управляйте базовыми сроками выполнения задач.
-type: docs
 weight: 32
 url: /ru/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Базовые показатели задач
+
 ## Введение
 Отправьтесь в путешествие, чтобы улучшить свои навыки управления проектами с помощью Aspose.Tasks для Java. В этой серии руководств мы глубоко погружаемся в тонкости базовых планов задач, предоставляя вам ценную информацию и практические знания. Давайте рассмотрим ключевые руководства, составляющие это подробное руководство.
 
@@ -51,3 +57,9 @@ url: /ru/java/task-baselines/
 Узнайте, как создать базовый план задач Microsoft Project на Java с помощью Aspose.Tasks, мощной библиотеки для простого управления данными проекта.
 ### [Управление базовой длительностью задач в Aspose.Tasks](./task-baseline-duration/)
 Узнайте, как эффективно управлять базовыми показателями задач в MS Project с помощью Aspose.Tasks для Java. Это руководство шаг за шагом проведет вас через этот процесс.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

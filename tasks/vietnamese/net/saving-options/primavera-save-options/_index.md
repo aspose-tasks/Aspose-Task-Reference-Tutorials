@@ -3,10 +3,16 @@ title: Lưu MS Project Options Primavera với Aspose.Tasks
 linktitle: Tùy chọn lưu Primavera cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá cách lưu các tùy chọn MS Project cho Primavera một cách liền mạch bằng Aspose.Tasks for .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 14
 url: /vi/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu MS Project Options Primavera với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project trong ứng dụng .NET của họ. Một trong những chức năng chính mà nó cung cấp là khả năng lưu các tùy chọn MS Project cho Primavera, một phần mềm quản lý dự án phổ biến. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách đạt được điều này bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks được thiết kế để đ�
  Trả lời: Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/) để khám phá các tính năng và khả năng của nó.
 ### Câu hỏi: Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố hoặc có thắc mắc khi sử dụng Aspose.Tasks?
  Trả lời: Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose.Tasks và nhóm hỗ trợ trên[diễn đàn](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

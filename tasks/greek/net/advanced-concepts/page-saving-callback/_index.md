@@ -3,10 +3,16 @@ title: Εφαρμογή επανάκλησης αποθήκευσης σελίδ
 linktitle: Εφαρμογή επανάκλησης αποθήκευσης σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εφαρμόζετε μια επανάκληση αποθήκευσης σελίδας στο Aspose.Tasks για .NET, επιτρέποντας προσαρμοσμένο χειρισμό ροών εξόδου εγγράφων πολλών σελίδων.
-type: docs
 weight: 12
 url: /el/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή επανάκλησης αποθήκευσης σελίδας στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εφαρμόσουμε μια επιστροφή κλήσης αποθήκευσης σελίδας στο Aspose.Tasks για .NET. Αυτή η δυνατότητα μάς επιτρέπει να αποθηκεύουμε ένα έγγραφο πολλών σελίδων σε ροές που παρέχονται από τον χρήστη, προσφέροντας ευελιξία και προσαρμογή στο χειρισμό των αποτελεσμάτων.
@@ -121,3 +127,9 @@ A4: Μπορείτε να εφαρμόσετε μηχανισμούς διαχε
 ### Ε5: Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Tasks;
 
  A5: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για βοήθεια, πρόσβαση σε τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/) , ή εξερευνήστε πρόσθετες δυνατότητες και επιλογές αδειοδότησης στο[Ιστότοπος Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

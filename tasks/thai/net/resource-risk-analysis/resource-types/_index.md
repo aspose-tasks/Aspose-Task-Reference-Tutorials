@@ -3,10 +3,16 @@ title: ประเภทของทรัพยากรใน Aspose.Tasks
 linktitle: ประเภทของทรัพยากรใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีทำงานกับทรัพยากรประเภทต่างๆ ใน Aspose.Tasks สำหรับ .NET รวมถึงงาน วัสดุ และทรัพยากรต้นทุน ผ่านบทช่วยสอนทีละขั้นตอน
-type: docs
 weight: 14
 url: /th/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ประเภทของทรัพยากรใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรม ไม่ว่าคุณจะจัดการงาน ทรัพยากร หรือกำหนดการ Aspose.Tasks จะทำให้กระบวนการง่ายขึ้นโดยการจัดเตรียมชุด API ที่ครอบคลุม ในบทช่วยสอนนี้ เราจะเจาะลึกทรัพยากรประเภทต่างๆ ที่คุณสามารถใช้ภายในโปรเจ็กต์ของคุณโดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -60,3 +66,9 @@ cost.Set(Rsc.Cost, 59.99m);
  ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: Aspose.Tasks for .NET มีเอกสารประกอบเพื่อใช้อ้างอิงหรือไม่
  ตอบ: ได้ คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

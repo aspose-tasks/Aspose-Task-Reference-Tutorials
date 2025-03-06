@@ -3,10 +3,16 @@ title: Proprietà dei giorni feriali in Aspose.Tasks
 linktitle: Proprietà dei giorni feriali in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Impara a gestire le proprietà dei giorni feriali in modo efficiente in Aspose.Tasks per Java. Personalizza facilmente le date di inizio settimana, i giorni del mese e altro ancora.
-type: docs
 weight: 25
 url: /it/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proprietà dei giorni feriali in Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per Java è una potente API che consente agli sviluppatori Java di lavorare con file Microsoft Project senza che Microsoft Project sia installato sul computer. Una delle sue funzionalità chiave è la gestione delle proprietà dei giorni feriali, consentendo agli utenti di personalizzare le date di inizio settimana, i giorni al mese, i minuti al giorno e i minuti alla settimana. Questo tutorial fornirà una guida dettagliata su come utilizzare queste funzionalità in modo efficace.
 ## Prerequisiti
@@ -74,3 +80,9 @@ R: Sì, Aspose.Tasks per Java offre funzionalità di integrazione perfetta, che 
  R: Sì, puoi accedere a un'ampia documentazione e al supporto della community per Aspose.Tasks per Java sul loro sito[sito web](https://releases.aspose.com/).
 ### D: È disponibile una prova gratuita per Aspose.Tasks per Java?
 R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks per Java dal loro[sito web](https://reference.aspose.com/tasks/java/) per esplorarne le funzionalità prima di effettuare un acquisto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

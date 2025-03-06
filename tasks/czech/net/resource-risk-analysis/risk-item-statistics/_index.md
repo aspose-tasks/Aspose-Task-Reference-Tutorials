@@ -3,10 +3,16 @@ title: Statistiky pro rizikové položky v Aspose.Tasks
 linktitle: Statistiky pro rizikové položky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Odemkněte sílu analýzy rizik v souborech MS Project pomocí Aspose.Tasks for .NET. Získejte přehled, zmírněte nejistoty a řiďte úspěch projektu bez námahy.
-type: docs
 weight: 21
 url: /cs/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Statistiky pro rizikové položky v Aspose.Tasks
+
 ## Úvod
 Hledáte vylepšit své schopnosti projektového řízení pomocí Aspose.Tasks pro .NET? Ponořte se do oblasti analýzy rizik s naším podrobným návodem na získávání statistik pro rizikové položky v souborech MS Project. Využitím výkonných schopností Aspose.Tasks můžete získat neocenitelný přehled o nejistotách projektu a činit informovaná rozhodnutí pro účinné zmírnění rizik.
 ## Předpoklady
@@ -90,3 +96,9 @@ Snažíme se neustále vylepšovat Aspose.Tasks pravidelným vydáváním aktual
 Rozhodně! Náš specializovaný tým podpory je snadno dostupný na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) abychom vám pomohli s jakýmikoli dotazy nebo problémy, se kterými se můžete během své implementace setkat.
 ### Nabízíte dočasné licence pro krátkodobé projekty?
  Ano, pokud požadujete Aspose.Tasks pro krátkodobý projekt, můžete využít našich výhod[dočasná licence](https://purchase.aspose.com/temporary-license/) možnost splnit vaše licenční potřeby bez jakýchkoliv dlouhodobých závazků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

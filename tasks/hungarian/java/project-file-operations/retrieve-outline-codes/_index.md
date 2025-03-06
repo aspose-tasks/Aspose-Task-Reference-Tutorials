@@ -3,10 +3,16 @@ title: Az MS Project Outline kódok lekérése az Aspose.Tasks-ban
 linktitle: Vázlatkódok lekérése az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kérheti le programozottan a Microsoft Project vázlatkódjait az Aspose.Tasks for Java használatával. Növelje projektmenedzsment képességeit.
-type: docs
 weight: 15
 url: /hu/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Outline kódok lekérése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megtudjuk, hogyan lehet lekérni a Microsoft Project vázlatkódjait az Aspose.Tasks for Java használatával. Az MS Project vázlatkódjai strukturált módot biztosítanak a projektfeladatok, erőforrások és hozzárendelések kategorizálására és rendszerezésére. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék és kezeljék a Microsoft Project fájlokat.
 ## Előfeltételek
@@ -82,3 +88,9 @@ V: Igen, az Aspose.Tasks for Java API-kat biztosít az MS Project fájlok vázla
  V: Igen, megvásárolhat egy ideiglenes licencet az Aspose.Tasks for Java számára a[vásárlási oldal](https://purchase.aspose.com/temporary-license/).
 ### 5. kérdés: Hol találom az Aspose.Tasks for Java teljes dokumentációját?
  V: Hivatkozhat a[dokumentáció](https://reference.aspose.com/tasks/java/) az Aspose.Tasks for Java használatával kapcsolatos részletes információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

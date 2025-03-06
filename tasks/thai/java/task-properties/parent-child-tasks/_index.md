@@ -3,10 +3,16 @@ title: จัดการงานหลักและงานรองใน 
 linktitle: จัดการงานหลักและงานรองใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เพิ่มประสิทธิภาพการจัดการโครงการด้วย Aspose.Tasks สำหรับ Java เรียนรู้การจัดการงานของผู้ปกครองและเด็กทีละขั้นตอน เริ่มตอนนี้เลย!
-type: docs
 weight: 24
 url: /th/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการงานหลักและงานรองใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการ การจัดระเบียบงานที่มีประสิทธิผลเป็นสิ่งสำคัญ Aspose.Tasks สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพในการจัดการงานหลักและงานรองอย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการใช้ Aspose.Tasks สำหรับ Java เพื่อปรับปรุงงานโปรเจ็กต์ของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  เอกสารก็มีให้[ที่นี่](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

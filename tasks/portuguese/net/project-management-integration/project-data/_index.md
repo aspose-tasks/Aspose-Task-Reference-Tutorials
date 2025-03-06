@@ -3,10 +3,16 @@ title: Dominando os dados do projeto com Aspose.Tasks
 linktitle: Trabalhando com dados do projeto em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como manipular dados do Microsoft Project usando Aspose.Tasks em .NET. Crie tarefas, adicione recursos e salve projetos com facilidade.
-type: docs
 weight: 16
 url: /pt/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando os dados do projeto com Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como trabalhar com dados do Microsoft Project usando a biblioteca Aspose.Tasks para .NET. Aspose.Tasks fornece recursos poderosos para manipular arquivos de projeto, incluindo criação de tarefas, adição de recursos, configuração de propriedades e salvamento de projetos em vários formatos.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ R: Com certeza, o Aspose.Tasks integra-se perfeitamente com outras bibliotecas .
 R: Sim, Aspose.Tasks inclui algoritmos de agendamento avançados para ajudá-lo a otimizar os cronogramas do projeto e a utilização de recursos.
 ### P: Existe um fórum da comunidade para usuários do Aspose.Tasks?
  R: Sim, você pode encontrar recursos úteis e interagir com outros usuários do Aspose.Tasks no site.[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

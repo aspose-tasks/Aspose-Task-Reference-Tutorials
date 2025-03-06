@@ -3,10 +3,16 @@ title: Estadísticas para elementos de riesgo en Aspose.Tasks
 linktitle: Estadísticas para elementos de riesgo en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Desbloquee el poder del análisis de riesgos en archivos de MS Project utilizando Aspose.Tasks para .NET. Obtenga información valiosa, mitigue las incertidumbres e impulse el éxito del proyecto sin esfuerzo.
-type: docs
 weight: 21
 url: /es/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estadísticas para elementos de riesgo en Aspose.Tasks
+
 ## Introducción
 ¿Está buscando mejorar su destreza en la gestión de proyectos utilizando Aspose.Tasks para .NET? Profundice en el ámbito del análisis de riesgos con nuestro tutorial paso a paso sobre cómo obtener estadísticas para elementos de riesgo en archivos de MS Project. Al aprovechar las poderosas capacidades de Aspose.Tasks, puede obtener información valiosa sobre las incertidumbres del proyecto y tomar decisiones informadas para mitigar los riesgos de manera efectiva.
 ## Requisitos previos
@@ -90,3 +96,9 @@ Nos esforzamos por mejorar continuamente Aspose.Tasks mediante la publicación d
 ¡Ciertamente! Nuestro equipo de soporte dedicado está disponible en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para ayudarle con cualquier consulta o desafío que pueda encontrar durante su proceso de implementación.
 ### ¿Ofrecen licencias temporales para proyectos a corto plazo?
  Sí, si necesita Aspose.Tasks para un proyecto a corto plazo, puede aprovechar nuestra conveniente[licencia temporal](https://purchase.aspose.com/temporary-license/) opción para satisfacer sus necesidades de licencia sin compromisos a largo plazo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

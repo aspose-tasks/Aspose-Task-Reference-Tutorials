@@ -3,10 +3,16 @@ title: Gerenciamento de projetos
 linktitle: Gerenciamento de projetos
 second_title: API Java Aspose.Tasks
 description: Explore Aspose.Tasks Java com nossos tutoriais abrangentes de gerenciamento de projetos. Desde cálculos de caminho crítico até propriedades de ano fiscal, simplifique seu fluxo de trabalho.
-type: docs
 weight: 27
 url: /pt/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciamento de projetos
+
 ## Introdução
 
 Você está pronto para aprimorar suas habilidades de gerenciamento de projetos usando Aspose.Tasks for Java? Mergulhe em nossos tutoriais exclusivos que cobrem uma variedade de recursos e funcionalidades que capacitarão sua jornada de desenvolvimento Java. Desde cálculos de caminho crítico até tratamento de exceções de gravação de tarefas durante a impressão, nós temos o que você precisa. Vamos explorar a riqueza de conhecimento que espera por você.
@@ -69,3 +75,9 @@ Aprenda como ler arquivos MS Project do Primavera XML perfeitamente usando Aspos
 Aprenda como imprimir páginas para separar imagens em Aspose.Tasks for Java. Melhore a visualização do projeto com este guia passo a passo.
 ### [Lidar com exceções de gravação de tarefas durante a impressão em Aspose.Tasks](./print-task-exceptions/)
 Domine o tratamento de exceções em Aspose.Tasks for Java para garantir a execução perfeita do projeto. Aprenda como lidar com exceções de gravação de tarefas durante a impressão sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

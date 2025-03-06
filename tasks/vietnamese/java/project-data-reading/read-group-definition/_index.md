@@ -3,10 +3,16 @@ title: Đọc dữ liệu định nghĩa nhóm trong Aspose.Tasks
 linktitle: Đọc dữ liệu định nghĩa nhóm trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc dữ liệu định nghĩa nhóm từ các tệp Microsoft Project bằng Aspose.Tasks cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu định nghĩa nhóm trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ từng bước thực hiện quy trình đọc dữ liệu định nghĩa nhóm từ tệp dự án bằng cách sử dụng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Trả lời: Bạn có thể triển khai cơ chế xử lý lỗi bằng cách 
 Trả lời: Có, Aspose.Tasks cho Java cho phép bạn xuất dữ liệu dự án sang các định dạng như PDF, XLSX và CSV.
 ### Câu hỏi: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks cho Java ở đâu?
  Đáp: Bạn có thể ghé thăm[Aspose.Tasks cho tài liệu Java](https://reference.aspose.com/tasks/java/) để có hướng dẫn toàn diện và tham khảo[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

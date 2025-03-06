@@ -3,10 +3,16 @@ title: Εξοικείωση με το χειρισμό αρχείων MS Project
 linktitle: Χειρισμός μορφών αρχείων έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ξεκλειδώστε τη δύναμη της διαχείρισης αρχείων Microsoft Project με το Aspose.Tasks για .NET. Βουτήξτε στην απρόσκοπτη ενοποίηση και διαχείριση.
-type: docs
 weight: 18
 url: /el/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξοικείωση με το χειρισμό αρχείων MS Project με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο χειρισμού των μορφών αρχείων του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται και να διαχειρίζονται αρχεία έργου μέσω προγραμματισμού. Είτε εργάζεστε με αρχεία .mpp, .xml ή .csv, το Aspose.Tasks παρέχει ένα ολοκληρωμένο σύνολο λειτουργιών για το χειρισμό διαφόρων πτυχών της διαχείρισης έργου.
 ## Προαπαιτούμενα
@@ -52,3 +58,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 Α: Ναι, μπορείτε να εργαστείτε με προσαρμοσμένα πεδία έργου χρησιμοποιώντας το Aspose.Tasks και να εκτελέσετε λειτουργίες όπως η προσθήκη, η ενημέρωση ή η αφαίρεση προσαρμοσμένων πεδίων.
 ### Ε: Μπορώ να δημιουργήσω αναφορές έργου χρησιμοποιώντας το Aspose.Tasks;
 Α: Ναι, το Aspose.Tasks σάς δίνει τη δυνατότητα να δημιουργήσετε διάφορους τύπους αναφορών έργων μέσω προγραμματισμού.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

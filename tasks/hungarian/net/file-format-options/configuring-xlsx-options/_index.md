@@ -3,10 +3,16 @@ title: Konfigurálja az MS Project XLSX beállításait az Aspose.Tasks for .NET
 linktitle: XLSX-beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project XLSX beállításait az Aspose.Tasks for .NET-ben. Könnyedén testreszabhatja az oszlopokat, a kódolást és még sok mást.
-type: docs
 weight: 11
 url: /hu/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurálja az MS Project XLSX beállításait az Aspose.Tasks for .NET-ben
+
 ## Bevezetés
 A Microsoft Project (MS Project) egy hatékony eszköz a projektmenedzsmenthez, az Aspose.Tasks for .NET pedig zökkenőmentes integrációt biztosít az MS Project fájlokkal való programozott munkavégzéshez. Ebben az oktatóanyagban végigvezetjük az MS Project XLSX beállításainak konfigurálását az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -90,3 +96,9 @@ V: Az Aspose.Tasks for .NET elsősorban Windows-platformokhoz készült, de megt
 ### K: Vannak-e ideiglenes licenclehetőségek tesztelési célból?
 
  V: Igen, ideiglenes engedélyt kaphat a[Az Aspose.Tasks ideiglenes licenc oldala](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

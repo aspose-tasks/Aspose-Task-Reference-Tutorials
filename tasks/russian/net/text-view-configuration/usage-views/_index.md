@@ -3,10 +3,16 @@ title: Настройка представлений использования 
 linktitle: Настройка представлений использования в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить представления использования задач в Aspose.Tasks для .NET. Улучшите визуализацию проекта с помощью подробных шагов. Загрузите библиотеку прямо сейчас!
-type: docs
 weight: 17
 url: /ru/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка представлений использования в Aspose.Tasks
+
 ## Введение
 Если вы .NET-разработчик и хотите расширить свои возможности управления проектами, Aspose.Tasks — это мощный инструмент, который позволяет вам легко манипулировать файлами Microsoft Project. В этом руководстве мы сосредоточимся на настройке представлений использования с помощью Aspose.Tasks для .NET. Следуйте инструкциям, чтобы получить представление о представлениях использования задач рендеринга с подробностями для лучшей визуализации проекта.
 ## Предварительные условия
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  Да, изучите бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### В: Нужна поддержка или есть вопросы?
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

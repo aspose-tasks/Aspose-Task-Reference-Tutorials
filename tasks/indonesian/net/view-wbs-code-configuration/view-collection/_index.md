@@ -3,10 +3,16 @@ title: Manajemen Tampilan Proyek MS yang Mudah dengan Aspose.Tasks .NET
 linktitle: Kumpulan Tampilan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET dan kuasai seni mengelola Tampilan Proyek MS dengan mudah. Unduh sekarang untuk pengalaman manajemen proyek yang lancar.
-type: docs
 weight: 11
 url: /id/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Tampilan Proyek MS yang Mudah dengan Aspose.Tasks .NET
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Tasks untuk .NET, perpustakaan canggih yang memberdayakan pengembang untuk mengelola Microsoft Project Views secara efisien dalam aplikasi .NET mereka. Dalam tutorial ini, kami akan mempelajari esensi penanganan Tampilan Proyek MS menggunakan Aspose.Tasks, memberi Anda panduan langkah demi langkah untuk meningkatkan kemampuan manajemen proyek Anda.
 ## Prasyarat
@@ -95,3 +101,9 @@ Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
  Terlibat dengan komunitas Aspose.Tasks di[forum](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.
 ### Apakah lisensi sementara tersedia untuk Aspose.Tasks?
  Ya, jelajahi lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

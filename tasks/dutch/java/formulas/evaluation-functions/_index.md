@@ -3,10 +3,16 @@ title: Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
 linktitle: Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u de evaluatie van MS Project-functies in Aspose.Tasks-formules kunt ondersteunen met behulp van Java. Verhoog uw productiviteit met Aspose.Tasks.
-type: docs
 weight: 10
 url: /nl/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
+
 
 ## Invoering
 Aspose.Tasks voor Java is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een van de belangrijkste kenmerken is de mogelijkheid om evaluatie van MS Project-functies binnen Aspose.Tasks-formules te ondersteunen. Dankzij deze mogelijkheid kunnen gebruikers complexe berekeningen en analyses rechtstreeks binnen hun Java-applicaties uitvoeren.
@@ -65,3 +71,9 @@ A: Ja, Aspose.Tasks voor Java ondersteunt verschillende versies van Microsoft Pr
 A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Is er een tijdelijke licentie beschikbaar voor Aspose.Tasks voor Java?
  A: Ja, u kunt een tijdelijke licentie voor testdoeleinden verkrijgen via de Aspose-website[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

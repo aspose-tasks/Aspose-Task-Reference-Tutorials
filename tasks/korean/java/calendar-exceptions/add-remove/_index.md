@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 달력 예외 관리
 linktitle: Aspose.Tasks에서 달력 예외 추가 및 제거
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 달력 예외를 효율적으로 추가하고 제거하는 방법을 알아보세요. 프로젝트 관리 워크플로우를 손쉽게 향상하세요.
-type: docs
 weight: 10
 url: /ko/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 달력 예외 관리
+
 
 ## 소개
 프로젝트 관리에서 달력 내에서 예외를 처리하는 것은 작업을 정확하게 예약하고 리소스를 관리하는 데 중요합니다. Aspose.Tasks for Java는 달력 예외를 쉽게 추가하고 제거할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
@@ -79,3 +85,10 @@ A: Aspose.Tasks for Java는 프로젝트 달력에서 반복되는 예외를 처
 ### Q: Aspose.Tasks for Java와 관련된 문제나 쿼리에 대한 지원은 어디서 찾을 수 있나요?
 
  A: Java용 Aspose.Tasks 포럼을 방문할 수 있습니다.[웹사이트](https://reference.aspose.com/tasks/java/) 커뮤니티에서 도움을 구하거나 지원팀에 직접 연락하여 맞춤형 도움을 받으세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

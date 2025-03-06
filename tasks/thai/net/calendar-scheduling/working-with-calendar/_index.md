@@ -3,10 +3,16 @@ title: การทำงานกับปฏิทินใน Aspose.Tasks
 linktitle: การทำงานกับปฏิทินใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: จัดการปฏิทินโครงการ คำนวณระยะเวลา จัดการข้อยกเว้นอย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ .NET
-type: docs
 weight: 10
 url: /th/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับปฏิทินใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET มอบคุณสมบัติอันทรงพลังสำหรับการทำงานกับปฏิทิน ช่วยให้นักพัฒนาสามารถจัดการกำหนดการโครงการและการจัดสรรทรัพยากรได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Tasks เพื่อโต้ตอบกับปฏิทิน ครอบคลุมการดำเนินการที่จำเป็น เช่น การดึงข้อมูลปฏิทิน การกำหนดสัปดาห์ทำงาน การคำนวณชั่วโมงทำงาน และอื่นๆ
@@ -497,3 +503,9 @@ public void GetWorkingTimes()
 ### คำถามที่ 5: ฉันสามารถดึงข้อมูลเกี่ยวกับข้อยกเว้นของปฏิทินจากไฟล์โครงการได้หรือไม่
 
 A5: ได้ คุณสามารถดึงข้อมูลเกี่ยวกับข้อยกเว้นของปฏิทินจากไฟล์โครงการโดยใช้ Aspose.Tasks สำหรับ .NET ได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

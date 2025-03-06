@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 輕鬆掌握 VBA 項目
 linktitle: 在 Aspose.Tasks 中使用 VBA 項目
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在輕鬆管理 VBA 專案方面的強大功能。透過本逐步指南增強您的專案管理能力。
-type: docs
 weight: 14
 url: /zh-hant/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 輕鬆掌握 VBA 項目
+
 ## 介紹
 如果您喜歡使用 .NET 進行專案管理，Aspose.Tasks 是您的首選解決方案。在本教程中，我們將深入研究在 Aspose.Tasks 中使用 VBA 專案的複雜性。無論您是經驗豐富的開發人員還是剛入門，本指南都將清晰、簡單地引導您完成整個過程。
 ## 先決條件
@@ -79,3 +85,9 @@ foreach (var reference in project.VbaProject.References)
 答：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：哪裡可以購買 Aspose.Tasks？
 A：購買Aspose.Tasks[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurera MS Project XLSX-alternativ i Aspose.Tasks för .NET
 linktitle: Konfigurera XLSX-alternativ i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du konfigurerar MS Project XLSX-alternativ i Aspose.Tasks för .NET. Anpassa kolumner, kodning och mer utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurera MS Project XLSX-alternativ i Aspose.Tasks för .NET
+
 ## Introduktion
 Microsoft Project (MS Project) är ett kraftfullt verktyg för projektledning, och Aspose.Tasks för .NET ger sömlös integration för att arbeta med MS Project-filer programmatiskt. I den här handledningen går vi igenom processen att konfigurera MS Project XLSX-alternativ med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -90,3 +96,9 @@ S: Aspose.Tasks för .NET är främst designat för Windows-plattformar, men du 
 ### F: Finns det några tillfälliga licensalternativ tillgängliga för testsyften?
 
  S: Ja, du kan få en tillfällig licens från[Aspose.Tasks temporära licenssida](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

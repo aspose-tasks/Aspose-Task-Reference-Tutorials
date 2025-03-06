@@ -3,10 +3,16 @@ title: Gérer la collection d'attributs MS Project dans Aspose.Tasks
 linktitle: Gestion de la collection d'attributs étendus dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les attributs étendus de MS Project à l'aide d'Aspose.Tasks pour .NET. Manipulez en toute transparence les attributs des tâches grâce à des conseils étape par étape.
-type: docs
 weight: 12
 url: /fr/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer la collection d'attributs MS Project dans Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à gérer efficacement les attributs étendus de MS Project à l’aide d’Aspose.Tasks pour .NET ? Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus. Allons-y !
 ## Conditions préalables
@@ -105,3 +111,9 @@ R : Absolument ! Aspose.Tasks for .NET vous permet de définir des champs d'attr
 R : Oui, Aspose.Tasks pour .NET prend en charge les formats de fichiers MS Project dans différentes versions.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
  R : Oui, vous pouvez télécharger un essai gratuit à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Passen Sie Gitterlinien in MS Project für Aspose.Tasks an
 linktitle: Gitterlinien in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Gitterlinien in MS Project mit Aspose.Tasks für .NET anpassen. Verbessern Sie die Visualisierung und Verwaltung Ihres Projekts mit einfach zu befolgenden Schritten.
-type: docs
 weight: 23
 url: /de/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie Gitterlinien in MS Project für Aspose.Tasks an
+
 ## Einführung
 
 Im Projektmanagement spielt die visuelle Darstellung eine entscheidende Rolle für das Verständnis von Projektzeitplänen, Abhängigkeiten und Fortschritten. Aspose.Tasks für .NET bietet robuste Tools zum programmgesteuerten Bearbeiten von Projektdateien. Eine dieser Funktionen ist die Möglichkeit, Gitterlinien in MS Project mithilfe von Aspose.Tasks anzupassen.
@@ -113,3 +119,9 @@ A: Ja, Aspose.Tasks für .NET bietet umfangreiche Dokumentation und Unterstützu
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
  A: Ja, Sie können eine kostenlose Testversion von herunterladen[Aspose.Tasks für .NET von](https://forum.aspose.com/c/tasks/15). um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

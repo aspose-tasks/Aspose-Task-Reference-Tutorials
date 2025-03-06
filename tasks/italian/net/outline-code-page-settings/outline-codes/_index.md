@@ -3,10 +3,16 @@ title: Gestire i codici di struttura del progetto in Aspose.Tasks per .NET
 linktitle: Gestione dei codici struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a gestire i codici di struttura di MS Project con Aspose.Tasks per .NET. Semplifica l'organizzazione del progetto senza sforzo.
-type: docs
 weight: 10
 url: /it/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire i codici di struttura del progetto in Aspose.Tasks per .NET
+
 ## introduzione
 In questo tutorial esploreremo come gestire i codici di struttura di Microsoft Project utilizzando Aspose.Tasks per .NET. I codici struttura sono campi personalizzati in Microsoft Project che consentono agli utenti di classificare e organizzare le attività in base a criteri specifici. Aspose.Tasks semplifica il processo di lettura e manipolazione di questi codici di struttura a livello di codice.
 ## Prerequisiti
@@ -71,3 +77,9 @@ R: Sì, è necessaria una licenza valida per l'uso commerciale di Aspose.Tasks. 
 R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks dal sito Web per valutarne caratteristiche e capacità.
 ### D: Dove posso ottenere supporto per Aspose.Tasks?
  R: Puoi ottenere supporto per Aspose.Tasks visitando il forum all'indirizzo[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Codice sorgente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

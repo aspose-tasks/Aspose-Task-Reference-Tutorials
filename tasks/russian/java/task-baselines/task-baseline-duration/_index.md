@@ -3,10 +3,16 @@ title: Управление базовой длительностью задач
 linktitle: Управление базовой длительностью задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно управлять базовыми показателями задач в MS Project с помощью Aspose.Tasks для Java. Это руководство шаг за шагом проведет вас через этот процесс.
-type: docs
 weight: 12
 url: /ru/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление базовой длительностью задач в Aspose.Tasks
+
 ## Введение
 Управление базовыми планами задач в MS Project имеет решающее значение для планирования и отслеживания проекта. В этом руководстве мы рассмотрим, как эффективно управлять продолжительностью базовых показателей задач с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -76,3 +82,9 @@ for (TimephasedData data : baseline.getTimephasedData()) {
 Да, Aspose.Tasks предлагает широкий спектр функций для управления проектами, включая планирование задач, распределение ресурсов и создание диаграммы Ганта.
 ### Где я могу найти поддержку Aspose.Tasks?
  Вы можете найти поддержку Aspose.Tasks на сайте[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15), где вы можете задавать вопросы и общаться с другими пользователями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

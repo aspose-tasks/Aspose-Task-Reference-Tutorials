@@ -3,10 +3,16 @@ title: Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
 linktitle: Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách hỗ trợ đánh giá các hàm MS Project trong công thức Aspose.Tasks bằng Java. Tăng năng suất của bạn với Aspose.Tasks.
-type: docs
 weight: 10
 url: /vi/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
+
 
 ## Giới thiệu
 Aspose.Tasks cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một trong những tính năng chính của nó là khả năng hỗ trợ đánh giá các chức năng MS Project trong các công thức Aspose.Tasks. Khả năng này cho phép người dùng thực hiện các phép tính và phân tích phức tạp trực tiếp trong các ứng dụng Java của họ.
@@ -65,3 +71,9 @@ Trả lời: Có, Aspose.Tasks for Java hỗ trợ nhiều phiên bản khác nh
 Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Có giấy phép tạm thời dành cho Aspose.Tasks dành cho Java không?
  Trả lời: Có, bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm từ trang web Aspose[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

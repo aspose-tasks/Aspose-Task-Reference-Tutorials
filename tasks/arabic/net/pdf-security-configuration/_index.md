@@ -3,10 +3,16 @@ title: Aspose.Tasks تكوين أمان PDF
 linktitle: Aspose.Tasks تكوين أمان PDF
 second_title: Aspose.Tasks .NET API
 description: اكتشف كيفية تحسين أمان ملفات Microsoft Project PDF الخاصة بك باستخدام Aspose.Tasks لـ .NET. تعلم تقنيات التوقيع الرقمي والتشفير.
-type: docs
 weight: 35
 url: /ar/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks تكوين أمان PDF
+
 ## مقدمة
 
 في المجال الرقمي، تعد حماية ملفات مشروعك أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً قويًا لتعزيز أمان ملفات Microsoft Project PDF الخاصة بك. تتعمق هذه السلسلة التعليمية في تعقيدات تكوين أمان PDF، مما يضمن سرية وصحة بيانات مشروعك القيمة.
@@ -36,3 +42,9 @@ url: /ar/net/pdf-security-configuration/
 تعرف على كيفية تكوين تفاصيل التوقيع الرقمي لـ Microsoft Project PDF باستخدام Aspose.Tasks لـ .NET. تأكد من أمان وصحة ملفات مشروعك.
 ### [قم بتكوين تفاصيل تشفير MS Project PDF في Aspose.Tasks](./pdf-encryption-details/)
 تعرف على كيفية تكوين تفاصيل تشفير MS Project PDF في Aspose.Tasks لـ .NET. تأمين ملفات المشروع الخاص بك مع كلمات مرور المستخدم والمالك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

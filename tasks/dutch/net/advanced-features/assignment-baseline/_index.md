@@ -3,10 +3,16 @@ title: Toewijzingsbasislijn beheren in Aspose.Tasks
 linktitle: Toewijzingsbasislijn beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de basislijnen van opdrachten efficiënt kunt beheren met Aspose.Tasks voor .NET, zodat u de voortgang en prestaties van projecten nauwkeurig kunt volgen.
-type: docs
 weight: 14
 url: /nl/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Toewijzingsbasislijn beheren in Aspose.Tasks
+
 ## Invoering
 
 Bij het werken aan projectmanagementtaken is het beheren van de basislijnen van opdrachten cruciaal voor het nauwkeurig volgen van de voortgang. Aspose.Tasks voor .NET biedt een uitgebreide set tools om toewijzingsbasislijnen efficiënt af te handelen. In deze zelfstudie gaan we stap voor stap dieper in op het proces van het beheren van toewijzingsbasislijnen.
@@ -123,3 +129,9 @@ A4: Ja, ontwikkelaars hebben toegang tot uitgebreide documentatie, tutorials en 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
  A5: Ja, ontwikkelaars kunnen een gratis proefversie van Aspose.Tasks voor .NET verkrijgen van[hier](https://releases.aspose.com/), waardoor ze de functies en mogelijkheden ervan kunnen evalueren voordat ze een aankoopbeslissing nemen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

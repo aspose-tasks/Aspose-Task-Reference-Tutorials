@@ -3,10 +3,16 @@ title: إتقان التعامل مع ملفات مشروع MS باستخدام 
 linktitle: التعامل مع تنسيقات ملفات المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أطلق العنان لقوة معالجة ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. انغمس في التكامل والإدارة السلسة.
-type: docs
 weight: 18
 url: /ar/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التعامل مع ملفات مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع تنسيقات ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تسمح للمطورين بمعالجة وإدارة ملفات المشروع برمجياً. سواء كنت تعمل باستخدام ملفات ‎.mpp، أو ‎.xml، أو ‎.csv، فإن Aspose.Tasks يوفر مجموعة شاملة من الميزات للتعامل مع الجوانب المختلفة لإدارة المشروع.
 ## المتطلبات الأساسية
@@ -52,3 +58,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 ج: نعم، يمكنك العمل مع حقول المشروع المخصصة باستخدام Aspose.Tasks وتنفيذ عمليات مثل إضافة الحقول المخصصة أو تحديثها أو إزالتها.
 ### س: هل يمكنني إنشاء تقارير المشروع باستخدام Aspose.Tasks؟
 ج: نعم، يمكّنك Aspose.Tasks من إنشاء أنواع مختلفة من تقارير المشروع برمجيًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

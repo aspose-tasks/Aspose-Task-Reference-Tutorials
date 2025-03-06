@@ -3,10 +3,16 @@ title: Aspose.Tasks में कस्टम प्रोजेक्ट सं
 linktitle: Aspose.Tasks में कस्टम प्रोजेक्ट संपत्ति संग्रह का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks में कस्टम प्रोजेक्ट गुणों को प्रभावी ढंग से कैसे प्रबंधित किया जाए, जिससे आपका प्रोजेक्ट प्रबंधन अनुभव बेहतर हो सके।
-type: docs
 weight: 24
 url: /hi/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कस्टम प्रोजेक्ट संपत्ति संग्रह का प्रबंधन
+
 ## परिचय
 
 क्या आप .NET के लिए Aspose.Tasks के साथ अपने प्रोजेक्ट प्रबंधन अनुभव को बढ़ाने के लिए तैयार हैं? कस्टम प्रोजेक्ट गुणों को प्रबंधित करना प्रोजेक्ट प्रबंधन का एक महत्वपूर्ण पहलू है, जो आपको अपने प्रोजेक्ट की आवश्यकताओं के अनुरूप विशिष्ट मेटाडेटा जोड़ने की अनुमति देता है। इस ट्यूटोरियल में, हम जानेंगे कि आप .NET के लिए Aspose.Tasks का उपयोग करके कस्टम प्रोजेक्ट प्रॉपर्टी संग्रह के साथ प्रभावी ढंग से कैसे काम कर सकते हैं।
@@ -131,3 +137,9 @@ A4: हां, आप मूल्यांकन उद्देश्यों
 ### Q5: मुझे .NET के लिए Aspose.Tasks के संबंध में समर्थन या अतिरिक्त सहायता कहां मिल सकती है?
 
  A5: आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15) किसी भी प्रश्न या सहायता के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

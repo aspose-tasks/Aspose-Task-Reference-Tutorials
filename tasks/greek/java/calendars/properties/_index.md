@@ -3,10 +3,16 @@ title: Διαχείριση ιδιοτήτων ημερολογίου έργου
 linktitle: Διαχείριση ιδιοτήτων ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε τις ιδιότητες ημερολογίου του MS Project σε Java χρησιμοποιώντας το Aspose.Tasks. Αυτό παρέχει καθοδήγηση βήμα προς βήμα για το ημερολόγιο στις εφαρμογές σας Java.
-type: docs
 weight: 10
 url: /el/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση ιδιοτήτων ημερολογίου έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε τις ιδιότητες ημερολογίου του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Κατανοώντας τον τρόπο χειρισμού των ιδιοτήτων ημερολογίου, μπορείτε να προσαρμόσετε τα χρονοδιαγράμματα έργων ώστε να ανταποκρίνονται αποτελεσματικά σε συγκεκριμένες απαιτήσεις.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ for (Calendar cal : project.getCalendars()) {
 Α: Ναι, το Aspose.Tasks προσφέρει ένα ευρύ φάσμα λειτουργιών για τη διαχείριση εργασιών, πόρων και δομών έργου, καθιστώντας το μια ολοκληρωμένη λύση για τη διαχείριση έργων σε Java.
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για προγραμματιστές που χρησιμοποιούν το Aspose.Tasks;
 Α: Ναι, οι προγραμματιστές μπορούν να έχουν πρόσβαση σε τεχνική υποστήριξη μέσω του φόρουμ Aspose.Tasks, διασφαλίζοντας βοήθεια για τυχόν απορίες ή ζητήματα που προκύπτουν κατά την υλοποίηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 작업 기준 마스터하기
 linktitle: Aspose.Tasks에서 작업 기준 처리
 second_title: Aspose.태스크 .NET API
 description: 이 포괄적인 튜토리얼을 통해 Aspose.Tasks for .NET에서 작업 기준을 처리하는 방법을 알아보세요. 오늘 귀하의 프로젝트 관리 기술을 향상시키십시오!
-type: docs
 weight: 16
 url: /ko/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 작업 기준 마스터하기
+
 ## 소개
 역동적인 프로젝트 관리 세계에서는 체계적으로 정보를 체계적으로 유지하는 것이 중요합니다. Aspose.Tasks for .NET은 작업 기준을 처리하기 위한 강력한 솔루션을 제공하여 귀중한 기준 정보에 효율적으로 액세스할 수 있도록 해줍니다. 이 단계별 가이드는 각 개념을 명확하게 이해할 수 있도록 프로세스를 안내합니다.
 ## 전제조건
@@ -72,3 +78,9 @@ A: Aspose.Tasks는 여러 .NET 프레임워크와 호환되므로 개발 환경�
  A: 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose.Tasks 기능에 대한 다양한 튜토리얼을 확인하세요.
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  A: Aspose.Tasks를 편리하게 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

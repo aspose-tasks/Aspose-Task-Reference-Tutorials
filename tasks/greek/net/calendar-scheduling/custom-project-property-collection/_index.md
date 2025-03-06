@@ -3,10 +3,16 @@ title: Διαχείριση προσαρμοσμένης συλλογής ιδι
 linktitle: Διαχείριση προσαρμοσμένης συλλογής ιδιοτήτων έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά προσαρμοσμένες ιδιότητες έργου στο Aspose.Tasks για .NET, βελτιώνοντας την εμπειρία διαχείρισης έργου.
-type: docs
 weight: 24
 url: /el/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση προσαρμοσμένης συλλογής ιδιοτήτων έργου στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε την εμπειρία διαχείρισης έργου με το Aspose.Tasks για .NET; Η διαχείριση προσαρμοσμένων ιδιοτήτων έργου είναι μια κρίσιμη πτυχή της διαχείρισης έργου, επιτρέποντάς σας να προσθέσετε συγκεκριμένα μεταδεδομένα προσαρμοσμένα στις απαιτήσεις του έργου σας. Σε αυτό το σεμινάριο, θα εξετάσουμε πώς μπορείτε να εργαστείτε αποτελεσματικά με προσαρμοσμένες συλλογές ιδιοτήτων έργου χρησιμοποιώντας το Aspose.Tasks για .NET.
@@ -131,3 +137,9 @@ A4: Ναι, μπορείτε να αποκτήσετε προσωρινή άδε
 ### Ε5: Πού μπορώ να βρω υποστήριξη ή περαιτέρω βοήθεια σχετικά με το Aspose.Tasks για .NET;
 
  A5: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε απορία ή βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

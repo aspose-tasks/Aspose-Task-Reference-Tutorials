@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Zaman Aşamalı Verileri
 linktitle: Aspose.Tasks'ta Görev Zaman Aşamalı Verileri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı keşfedin ve ana görev zaman aşamalı veri yönetimini keşfedin. Kitaplığı indirin, ücretsiz deneme sürümünün keyfini çıkarın ve proje takibinizi kolaylaştırın.
-type: docs
 weight: 34
 url: /tr/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Zaman Aşamalı Verileri
+
 ## giriiş
 Proje yönetimi alanında, görevin zaman aşamalı verilerinin hassas bir şekilde izlenmesi, verimli proje yürütülmesi için çok önemlidir. Aspose.Tasks for Java, bu süreci kolaylaştırmak için güçlü özellikler ve esneklik sunan güçlü bir araç olarak ortaya çıkıyor. Bu eğitim, görev zaman aşamalı verilerini etkili bir şekilde yönetmek için Aspose.Tasks for Java'yı kullanma konusunda size rehberlik edecektir.
 ## Önkoşullar
@@ -104,3 +110,9 @@ C: Evet, Aspose.Tasks for Java, tüm Java tabanlı projelerle uyumludur.
  C: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java'yı nereden satın alabilirim?
  C: Java için Aspose.Tasks'ı satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

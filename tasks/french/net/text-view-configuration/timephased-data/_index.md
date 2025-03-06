@@ -3,10 +3,16 @@ title: Maîtrisez la gestion des données chronologiques avec Aspose.Tasks pour 
 linktitle: Gestion des données chronologiques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez Aspose.Tasks pour .NET pour gérer sans effort les données chronologiques, améliorer la planification de projet et optimiser la gestion des ressources. #Aspose #Tâches #MS Project
-type: docs
 weight: 14
 url: /fr/net/text-view-configuration/timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtrisez la gestion des données chronologiques avec Aspose.Tasks pour .NET
+
 ## Introduction
 Dans le monde de la gestion de projet, la gestion efficace des données chronologiques est cruciale pour l'allocation des ressources, l'estimation des coûts et la planification globale du projet. Aspose.Tasks for .NET fournit une solution puissante pour travailler de manière transparente avec des données chronologiques personnalisées. Ce tutoriel vous guidera dans le processus de gestion des données chronologiques à l'aide d'Aspose.Tasks, vous permettant d'optimiser la gestion des ressources dans vos projets.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Aspose.Tasks est principalement conçu pour le développement .NET. Cependant, s
  En savoir plus sur les licences temporaires[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver la documentation d’Aspose.Tasks pour .NET ?
  Référez-vous au document complet[Documentation](https://reference.aspose.com/tasks/net/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

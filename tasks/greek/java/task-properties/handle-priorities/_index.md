@@ -3,10 +3,16 @@ title: Χειριστείτε τις προτεραιότητες εργασιώ
 linktitle: Χειριστείτε τις προτεραιότητες εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Κατακτήστε τις προτεραιότητες εργασιών χωρίς κόπο με το Aspose.Tasks για Java. Ακολουθήστε αυτόν τον οδηγό για απρόσκοπτο χειρισμό. Αναβαθμίστε τις δεξιότητες διαχείρισης έργου!
-type: docs
 weight: 17
 url: /el/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειριστείτε τις προτεραιότητες εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση των προτεραιοτήτων εργασιών είναι ζωτικής σημασίας για την επιτυχία του έργου και με το Aspose.Tasks για Java, γίνεται μια απρόσκοπτη διαδικασία. Αυτό το σεμινάριο θα σας καθοδηγήσει στον χειρισμό των προτεραιοτήτων εργασιών χρησιμοποιώντας το Aspose.Tasks. Είτε είστε έμπειρος προγραμματιστής είτε νέος, αυτός ο οδηγός θα αναλύσει τη διαδικασία σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
 ## Προαπαιτούμενα
@@ -56,3 +62,9 @@ for (Task tsk : collector.getTasks()) {
  Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση;
  Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

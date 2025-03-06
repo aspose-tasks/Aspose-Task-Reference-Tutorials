@@ -3,10 +3,16 @@ title: Vytvořte a uložte prázdný projekt ve formátu MPP pomocí Aspose.Task
 linktitle: Vytvořte a uložte prázdný projekt ve formátu MPP pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak vytvořit a uložit prázdný soubor MS Project (MPP) pomocí Aspose.Tasks for Java. Zjednodušte úkoly řízení projektů bez námahy.
-type: docs
 weight: 12
 url: /cs/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte a uložte prázdný projekt ve formátu MPP pomocí Aspose.Tasks
+
 ## Úvod
 Vytvoření a uložení prázdného souboru MS Project (MPP) pomocí Aspose.Tasks for Java je jednoduchý proces. V tomto tutoriálu si projdeme každý krok, který vám pomůže tento úkol efektivně splnit.
 ## Předpoklady
@@ -61,3 +67,9 @@ Odpověď: Rozhodně, Aspose.Tasks for Java nabízí rozsáhlé možnosti přizp
 Odpověď: Ano, Aspose.Tasks for Java podporuje různé formáty projektových souborů včetně XML, CSV a dalších.
 ### Otázka: Kde najdu další podporu pro Aspose.Tasks for Java?
  Odpověď: Můžete navštívit Aspose.Tasks[Fórum](https://forum.aspose.com/c/tasks/15) pro podporu a asistenci specifickou pro Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

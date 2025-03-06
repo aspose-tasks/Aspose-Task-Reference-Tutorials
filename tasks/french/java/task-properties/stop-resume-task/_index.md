@@ -3,10 +3,16 @@ title: Arrêter et reprendre la tâche dans Aspose.Tasks
 linktitle: Arrêter et reprendre la tâche dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez la puissance d'Aspose.Tasks pour Java avec notre guide étape par étape sur l'arrêt et la reprise des tâches. Améliorez la gestion de projet en toute transparence !
-type: docs
 weight: 30
 url: /fr/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arrêter et reprendre la tâche dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine du développement Java, la gestion efficace des tâches est un aspect crucial de l'exécution du projet. Aspose.Tasks for Java fournit une solution robuste pour gérer les tâches grâce à ses fonctionnalités puissantes. Dans ce didacticiel, nous aborderons une fonctionnalité spécifique : l'arrêt et la reprise des tâches. En suivant ce guide étape par étape, vous pourrez intégrer de manière transparente cette fonctionnalité dans vos projets Java.
 ## Conditions préalables
@@ -69,3 +75,9 @@ Oui, l'exemple fourni permet une flexibilité dans la définition de la date min
  Oui, vous pouvez accéder au[essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités avant de faire un achat.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks pour Java ?
  Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

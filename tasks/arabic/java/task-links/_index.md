@@ -3,10 +3,16 @@ title: روابط المهام
 linktitle: روابط المهام
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks لـ Java من خلال برامجنا التعليمية. تعزيز التعاون وتحديد أنواع الروابط وإدارة المهام بسلاسة. عزز كفاءة مشروعك الآن!
-type: docs
 weight: 33
 url: /ar/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# روابط المهام
+
 ## مقدمة
 
 إذا كنت تتعمق في عالم إدارة مشاريع Java، فإن Aspose.Tasks هو أداتك المفضلة. تمكّنك برامجنا التعليمية الشاملة من إتقان الجوانب المختلفة، مما يضمن الاستخدام الأمثل لمكتبة Aspose.Tasks لـ Java.
@@ -38,3 +44,9 @@ url: /ar/java/task-links/
 اكتشف تحديد المهام عبر المشروعات باستخدام Aspose.Tasks لـ Java. التكامل السلس والإدارة الفعالة. التحميل الان!
 ### [إدارة المهام السابقة واللاحقة في Aspose.Tasks](./predecessor-successor-tasks/)
 اكتشف إدارة المهام الفعالة باستخدام Aspose.Tasks لـ Java. التعامل بسهولة مع المهام السابقة واللاحقة في مشاريعك. تحميل النسخة التجريبية المجانية من الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

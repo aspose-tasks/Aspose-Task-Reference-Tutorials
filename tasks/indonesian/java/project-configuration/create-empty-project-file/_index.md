@@ -3,10 +3,16 @@ title: Buat File Proyek MS Kosong di Aspose.Tasks
 linktitle: Buat File Proyek Kosong di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat file Microsoft Project kosong di Java menggunakan Aspose.Tasks. Langkah mudah untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat File Proyek MS Kosong di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek dan penjadwalan tugas, penanganan file Microsoft Project seringkali menjadi suatu kebutuhan. Aspose.Tasks untuk Java menawarkan solusi tangguh untuk membuat, memanipulasi, dan mengelola file-file ini dengan lancar dalam aplikasi Java. Dalam tutorial ini, kita akan mempelajari proses pembuatan file Microsoft Project kosong menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -53,3 +59,9 @@ Dengan Aspose.Tasks untuk Java, membuat file Microsoft Project kosong menjadi up
  Anda dapat mencari dukungan dari forum komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
  Lisensi sementara dapat diperoleh dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

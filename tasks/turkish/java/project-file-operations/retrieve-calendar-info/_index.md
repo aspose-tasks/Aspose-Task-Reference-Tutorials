@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Takvim Bilgilerini Alma
 linktitle: Aspose.Tasks'ta Takvim Bilgilerini Alma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project takvim bilgilerini nasıl alacağınızı öğrenin. Takvim ayrıntılarına programlı olarak erişmek için adım adım kılavuz.
-type: docs
 weight: 14
 url: /tr/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Takvim Bilgilerini Alma
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java kütüphanesini kullanarak Microsoft Project dosyalarından takvim bilgilerinin nasıl alınacağını inceleyeceğiz. Aspose.Tasks, çalışma günleri ve saatleri gibi takvim ayrıntılarına erişim de dahil olmak üzere proje verilerini yönetmek için güçlü özellikler sunar.
 ## Önkoşullar
@@ -88,3 +94,9 @@ C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.a
  C: Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?
  C: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

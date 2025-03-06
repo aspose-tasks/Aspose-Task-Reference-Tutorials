@@ -3,10 +3,16 @@ title: تحقق من الدائرة في Aspose.Tasks
 linktitle: تحقق من الدائرة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استخدام Aspose.Tasks for .NET لإدارة ملفات المشروع وتحليلها بكفاءة في لغة C#.
-type: docs
 weight: 14
 url: /ar/net/calendar-scheduling/check-circuit/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحقق من الدائرة في Aspose.Tasks
+
 ## مقدمة
 
 في عالم تطوير .NET، تعد إدارة المهام والمشاريع بكفاءة أمرًا بالغ الأهمية. Aspose.Tasks for .NET هي مكتبة قوية توفر للمطورين الأدوات التي يحتاجونها لتبسيط عمليات إدارة المشاريع. سواء كنت تقوم بإنشاء ملفات Microsoft Project أو قراءتها أو معالجتها، فإن Aspose.Tasks يبسط المهمة من خلال واجهات برمجة التطبيقات البديهية والميزات الشاملة.
@@ -79,3 +85,9 @@ A1: نعم، Aspose.Tasks for .NET متوافق مع أطر عمل .NET المت
 ### س5: أين يمكنني شراء Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك شراء الإصدار الكامل من Aspose.Tasks لـ .NET من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Обработка разделенных частей MS Project в Aspo
 linktitle: Обработка разделенных частей в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно обрабатывать разделенные части MS Project с помощью Aspose.Tasks для .NET. Улучшите рабочий процесс управления проектами.
-type: docs
 weight: 18
 url: /ru/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка разделенных частей MS Project в Aspose.Tasks
+
 
 ## Введение
 Управление разделенными частями MS Project может быть важным аспектом управления проектами при использовании Aspose.Tasks для .NET. В этом уроке мы рассмотрим, как эффективно обрабатывать разделенные части, используя пошаговые инструкции.
@@ -94,3 +100,9 @@ foreach (var splitPart in task.SplitParts)
 О: Конечно, вы можете настроить календари проектов в соответствии с требованиями вашего проекта.
 ### Вопрос: Где я могу найти поддержку Aspose.Tasks для .NET?
  О: Вы можете найти поддержку и помощь на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

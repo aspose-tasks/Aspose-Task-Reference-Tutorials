@@ -3,10 +3,16 @@ title: Aspose.Tasks में PDF के रूप में सहेजें
 linktitle: Aspose.Tasks में PDF के रूप में सहेजें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके प्रोजेक्ट फ़ाइलों को पीडीएफ में परिवर्तित करना सीखें। कुशल रूपांतरण के लिए सरल कदम.
-type: docs
 weight: 17
 url: /hi/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में PDF के रूप में सहेजें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके किसी प्रोजेक्ट को पीडीएफ के रूप में सहेजने की प्रक्रिया में आपका मार्गदर्शन करेंगे। Aspose.Tasks के साथ, आप अनुकूलता और साझा करने में आसानी सुनिश्चित करते हुए अपनी प्रोजेक्ट फ़ाइलों को कुशलतापूर्वक पीडीएफ प्रारूप में परिवर्तित कर सकते हैं। आइए चरणों में गोता लगाएँ:
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
  उत्तर: हाँ, आप Aspose.Tasks का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मुझे Aspose.Tasks के लिए सहायता कहाँ से मिल सकती है?
  उत्तर: समर्थन और सहायता के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

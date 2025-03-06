@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスクとカレンダー
 linktitle: Aspose.Tasks のタスクとカレンダー
 second_title: Aspose.Tasks Java API
 description: タスクとカレンダーを効率的に管理するための Aspose.Tasks for Java の機能を試してください。今すぐダウンロードして、シームレスなプロジェクト管理エクスペリエンスを手に入れましょう!
-type: docs
 weight: 33
 url: /ja/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスクとカレンダー
+
 ## 導入
 Aspose.Tasks for Java を使用してプロジェクト管理ゲームを向上させる準備はできていますか?この包括的なガイドでは、Aspose.Tasks を使用してタスクとカレンダーの複雑な世界を説明し、その可能性を最大限に活用して効率的なプロジェクトの計画と実行を可能にします。
 ## 前提条件
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
 コミュニティに参加してください[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートのための。
 ### Aspose.Tasks のライセンスを購入できますか?
 はい、ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

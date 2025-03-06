@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 작업 기준선 생성
 linktitle: Aspose.Tasks에서 작업 기준선 생성
 second_title: Aspose.Tasks 자바 API
 description: 프로젝트 데이터를 손쉽게 관리하기 위한 강력한 라이브러리인 Aspose.Tasks를 사용하여 Java에서 Microsoft Project 작업 기준선을 생성하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 작업 기준선 생성
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 Microsoft Project 작업 기준선을 생성하는 프로세스를 자세히 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 Java 라이브러리입니다. Aspose.Tasks를 사용하면 작업, 리소스, 달력을 포함한 프로젝트 데이터를 손쉽게 조작하여 프로젝트 관리 작업을 간소화할 수 있습니다.
 ## 전제조건
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 예, Aspose.Tasks for Java를 사용하면 작업 종속성을 쉽게 설정할 수 있으므로 프로젝트 내에서 작업 순서를 설정할 수 있습니다.
 ### Aspose.Tasks for Java에 대한 기술 지원이 제공됩니까?
  예, 다음을 통해 Aspose.Tasks for Java에 대한 기술 지원에 액세스할 수 있습니다.[지원 포럼](https://forum.aspose.com/c/tasks/15), 커뮤니티 및 Aspose 지원 직원에게 질문하고 도움을 구할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

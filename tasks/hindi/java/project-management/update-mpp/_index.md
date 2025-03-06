@@ -3,10 +3,16 @@ title: Aspose.Tasks में MPP फ़ाइल अपडेट करें
 linktitle: Aspose.Tasks में MPP फ़ाइल अपडेट करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके एमपीपी फ़ाइलों को निर्बाध रूप से अपडेट करना सीखें। कुशल प्रोजेक्ट फ़ाइल हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 19
 url: /hi/java/project-management/update-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MPP फ़ाइल अपडेट करें
+
 ## परिचय
 परियोजना प्रबंधन के दायरे में, परियोजना फ़ाइलों को संभालना और अद्यतन करना एक महत्वपूर्ण कार्य है। जावा के लिए Aspose.Tasks जावा डेवलपर्स के लिए Microsoft प्रोजेक्ट फ़ाइलों में निर्बाध रूप से हेरफेर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम Java के लिए Aspose.Tasks का उपयोग करके MPP फ़ाइलों को अपडेट करने के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
  उत्तर: हां, अस्थायी लाइसेंस परीक्षण उद्देश्यों के लिए उपलब्ध हैं। आप इन्हें यहां से प्राप्त कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks के संबंध में सहायता या सहायता कहां से मांग सकता हूं?
  उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) किसी भी सहायता या प्रश्न के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

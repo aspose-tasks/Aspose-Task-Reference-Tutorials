@@ -3,10 +3,16 @@ title: Обработка свойств задержки выравнивани
 linktitle: Обработка свойств задержки выравнивания для назначений ресурсов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как обрабатывать свойства задержки выравнивания для назначения ресурсов в Aspose.Tasks для Java, с помощью этого подробного руководства.
-type: docs
 weight: 17
 url: /ru/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка свойств задержки выравнивания в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим процесс обработки свойств задержки выравнивания для назначений ресурсов в Aspose.Tasks для Java. Aspose.Tasks — это мощная библиотека Java, которая позволяет вам работать с файлами Microsoft Project, не требуя установки Microsoft Project в вашей системе.
 ## Предварительные условия
@@ -91,3 +97,9 @@ System.out.println("Process completed Successfully");
 ### Вопрос: Как я могу получить временную лицензию на Aspose.Tasks?
 
  О: Вы можете запросить временную лицензию у[страница временной лицензии](https://purchase.aspose.com/temporary-license/) в целях оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

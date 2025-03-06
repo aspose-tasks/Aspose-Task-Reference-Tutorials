@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中位图的无效大小异常
 linktitle: 处理 Aspose.Tasks 中位图的无效大小异常
 second_title: Aspose.Tasks .NET API
 description: 了解将项目另存为图像时如何处理 Aspose.Tasks for .NET 中的 BitmapInvalidSizeException。具有分步指导的综合教程。
-type: docs
 weight: 22
 url: /zh/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中位图的无效大小异常
+
 ## 介绍
 
 在本教程中，我们将深入研究如何处理`BitmapInvalidSizeException`使用 Aspose.Tasks for .NET 时。 Aspose.Tasks 是一个功能强大的库，允许开发人员以编程方式操作 Microsoft Project 文件，从而实现将项目保存为图像等任务。然而，有时，当尝试将项目另存为图像时，我们可能会遇到`Invalid Size Exception`与位图相关。本教程旨在指导您有效地捕获和处理此异常。
@@ -111,3 +117,9 @@ A4：是的，Aspose.Tasks 支持各种版本的 Microsoft Project 文件，从�
 ### Q5：如何获得Aspose.Tasks的临时许可证？
 
 A5：您可以通过文章中提供的链接获取用于评估目的的临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

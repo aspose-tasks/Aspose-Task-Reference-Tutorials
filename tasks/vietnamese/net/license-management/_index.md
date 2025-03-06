@@ -3,10 +3,16 @@ title: Quản lý giấy phép Aspose.Tasks
 linktitle: Quản lý giấy phép Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khai phá sức mạnh của Aspose.Tasks cho .NET bằng các hướng dẫn toàn diện của chúng tôi. Quản lý giấy phép và tối ưu hóa việc sử dụng MS Project để quản lý dự án hiệu quả.
-type: docs
 weight: 36
 url: /vi/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý giấy phép Aspose.Tasks
+
 
 ## Giới thiệu
 
@@ -35,3 +41,9 @@ Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks của mình chưa? Đi 
 Tìm hiểu cách quản lý giấy phép Aspose.Tasks trong các ứng dụng .NET một cách liền mạch bằng cách sử dụng các phương pháp dựa trên tệp hoặc dựa trên luồng.
 ### [Cách sử dụng đo sáng trong Aspose.Tasks](./metering-usage/)
 Tìm hiểu cách giám sát và tối ưu hóa hiệu quả việc sử dụng MS Project của bạn với Aspose.Tasks for .NET. Hướng dẫn từng bước để quản lý dự án hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

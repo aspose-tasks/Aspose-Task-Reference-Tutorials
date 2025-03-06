@@ -3,10 +3,16 @@ title: Erweiterte UND-Verknüpfung in Aspose.Tasks
 linktitle: Erweiterte UND-Verknüpfung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Tasks für .NET erweiterte UND-Operationen durchführen, um Projektaufgaben basierend auf mehreren Kriterien effizient zu filtern.
-type: docs
 weight: 10
 url: /de/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erweiterte UND-Verknüpfung in Aspose.Tasks
+
 ## Einführung
 
  In diesem Tutorial befassen wir uns mit der erweiterten UND-Verknüpfung in Aspose.Tasks für .NET, einem leistungsstarken Tool zum Verwalten von Aufgaben und Projekten. Wir werden untersuchen, wie Projektaufgaben anhand mehrerer Bedingungen mithilfe von gefiltert werden können`Util.And` Klasse.
@@ -107,3 +113,9 @@ A: Ja, Util.And kann verwendet werden, um eine beliebige Anzahl von Bedingungen 
 ### F5: Wie erhalte ich Unterstützung für Aspose.Tasks für .NET?
 
 A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

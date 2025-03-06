@@ -3,10 +3,16 @@ title: Agrupación eficiente de tareas de MS Project con Aspose.Tasks
 linktitle: Agrupación de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a agrupar eficazmente tareas de Microsoft Project utilizando Aspose.Tasks para .NET.
-type: docs
 weight: 25
 url: /es/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agrupación eficiente de tareas de MS Project con Aspose.Tasks
+
 ## Introducción
 Administrar tareas en Microsoft Project a veces puede resultar un desafío, especialmente cuando se trata de organizarlas de manera eficiente. Aspose.Tasks para .NET ofrece una solución integral para esto al proporcionar funcionalidades para agrupar tareas de manera efectiva. En este tutorial, exploraremos cómo agrupar tareas de MS Project usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -84,3 +90,9 @@ Sí, Aspose.Tasks admite varias versiones de archivos de MS Project, lo que gara
 Por supuesto, Aspose.Tasks ofrece opciones para personalizar la apariencia de tareas agrupadas, incluidos colores de celda, fuentes y estilos.
 ### ¿Dónde puedo encontrar soporte para Aspose.Tasks para .NET?
  Puede encontrar soporte y asistencia para Aspose.Tasks para .NET en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

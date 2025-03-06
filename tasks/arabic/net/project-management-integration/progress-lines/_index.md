@@ -3,10 +3,16 @@ title: التعامل مع خطوط تقدم مشروع MS باستخدام Aspo
 linktitle: التعامل مع خطوط التقدم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع خطوط التقدم في ملفات MS Project باستخدام Aspose.Tasks لـ .NET، مما يعزز تصور المشروع وإدارته.
-type: docs
 weight: 15
 url: /ar/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع خطوط تقدم مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 يعد Microsoft Project (MS Project) أداة قوية لإدارة المشاريع، مما يسمح للمستخدمين بتتبع الجوانب المختلفة لمشاريعهم. إحدى الميزات المهمة لبرنامج MS Project هي القدرة على تصور خطوط التقدم، مما يساعد أصحاب المصلحة على فهم حالة المشروع ومساره. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع خطوط التقدم في MS Project باستخدام مكتبة Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -96,3 +102,9 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
  ج: نعم، يمكنك العثور على موارد مفيدة وطلب المساعدة في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل يقدم Aspose.Tasks تراخيص مؤقتة لأغراض التقييم؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت للتقييم من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

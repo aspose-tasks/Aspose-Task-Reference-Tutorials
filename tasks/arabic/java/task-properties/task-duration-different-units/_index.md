@@ -3,10 +3,16 @@ title: مدة المهمة في وحدات مختلفة باستخدام Aspose.
 linktitle: مدة المهمة في وحدات مختلفة باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف إدارة مدة المهمة في مشاريع Java باستخدام Aspose.Tasks. حساب المدد بدقة وتحويلها بالدقائق والأيام والساعات والأسابيع والأشهر.
-type: docs
 weight: 32
 url: /ar/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مدة المهمة في وحدات مختلفة باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد فهم وإدارة مدة المهمة جانبًا بالغ الأهمية. يوفر Aspose.Tasks for Java مجموعة أدوات قوية للتعامل مع هذا الأمر بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال استرداد فترات المهام في وحدات مختلفة باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
  قم بزيارة[توثيق](https://reference.aspose.com/tasks/java/)للموارد الشاملة.
 ### س: هل يمكنني تجربة Aspose.Tasks لـ Java قبل الشراء؟
  نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتقييم قدراتها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

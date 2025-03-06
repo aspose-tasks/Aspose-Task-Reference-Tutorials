@@ -3,10 +3,16 @@ title: Aspose.Tasks Tekst- en weergaveconfiguratie
 linktitle: Aspose.Tasks Tekst- en weergaveconfiguratie
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET-tutorials over tekst- en weergaveconfiguratie. Mastertekststijlen, TIFF-compressie, tijdlijnweergaven en meer voor verbeterd projectbeheer.
-type: docs
 weight: 30
 url: /nl/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Tekst- en weergaveconfiguratie
+
 ## Invoering
 
 Welkom bij de uitgebreide handleiding over Aspose.Tasks voor .NET Tutorials, waarin de nadruk ligt op tekst- en weergaveconfiguratie. In dit artikel gaan we dieper in op verschillende aspecten van projectmanagement en geven we stapsgewijs inzicht in het beheersen van de functionaliteiten van Aspose.Tasks.
@@ -53,3 +59,9 @@ Ontdek tijdgebonden gegevensverzameling in Aspose.Tasks voor .NET. Stapsgewijze 
 Verken Aspose.Tasks voor .NET om tijdschaallagen in uw Gantt-diagramweergave te configureren voor nauwkeurige visualisatie van de projecttijdlijn.
 ### [Gebruiksweergaven configureren in Aspose.Tasks](./usage-views/)
 Leer hoe u taakgebruiksweergaven configureert in Aspose.Tasks voor .NET. Verbeter de projectvisualisatie met gedetailleerde stappen. Download de bibliotheek nu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

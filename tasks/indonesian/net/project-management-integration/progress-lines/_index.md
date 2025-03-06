@@ -3,10 +3,16 @@ title: Menangani Jalur Kemajuan Proyek MS dengan Aspose.Tasks
 linktitle: Menangani Garis Kemajuan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memanipulasi garis kemajuan dalam file MS Project menggunakan Aspose.Tasks untuk .NET, sehingga meningkatkan visualisasi dan manajemen proyek.
-type: docs
 weight: 15
 url: /id/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Jalur Kemajuan Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project (MS Project) adalah alat yang ampuh untuk manajemen proyek, memungkinkan pengguna melacak berbagai aspek proyek mereka. Salah satu fitur penting dari MS Project adalah kemampuan untuk memvisualisasikan garis kemajuan, yang membantu pemangku kepentingan memahami status dan lintasan proyek. Dalam tutorial ini, kita akan menjelajahi cara menangani garis kemajuan di MS Project menggunakan perpustakaan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -96,3 +102,9 @@ J: Tentu saja, Aspose.Tasks dirancang untuk berintegrasi secara mulus dengan pus
  J: Ya, Anda dapat menemukan sumber daya yang bermanfaat dan mencari bantuan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Apakah Aspose.Tasks menawarkan lisensi sementara untuk tujuan evaluasi?
  A: Ya, Anda bisa mendapatkan lisensi sementara untuk evaluasi dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Working with Calendar in Aspose.Tasks
 linktitle: Working with Calendar in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Manage project calendars, calculate durations, handle exceptions with ease using Aspose.Tasks for .NET.
-type: docs
 weight: 10
 url: /net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Calendar in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET provides powerful features for working with calendars, enabling developers to efficiently manage project schedules and resource allocations. In this tutorial, we will explore how to utilize Aspose.Tasks to interact with calendars, covering essential operations such as retrieving calendar information, defining workweeks, calculating work hours, and more.
@@ -497,3 +503,10 @@ A4: Yes, you can create custom calendars like night shift calendars using Aspose
 ### Q5: Can I retrieve information about calendar exceptions from project files?
 
 A5: Yes, you can easily retrieve information about calendar exceptions from project files using Aspose.Tasks for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

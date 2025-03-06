@@ -3,10 +3,16 @@ title: أقنعة المخطط التفصيلي لمشروع MS Master مع Aspo
 linktitle: مجموعة من أقنعة المخطط التفصيلي في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع أقنعة المخطط التفصيلي لمجموعة MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز الإنتاجية مع هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 15
 url: /ar/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أقنعة المخطط التفصيلي لمشروع MS Master مع Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى الاستفادة من قوة أقنعة المخطط التفصيلي لـ Microsoft Project باستخدام Aspose.Tasks لـ .NET؟ لقد جئت إلى المكان المناسب! في هذا البرنامج التعليمي الشامل، سنرشدك خلال العملية خطوة بخطوة، مما يضمن حصولك على فهم قوي لكيفية التعامل بشكل فعال مع أقنعة المخطط التفصيلي في مشاريعك. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيزودك هذا الدليل بالمعرفة والمهارات اللازمة لتحسين سير عملك.
 ## المتطلبات الأساسية
@@ -109,3 +115,9 @@ foreach (var maskToAdd in masks)
 ج: نعم، يقدم Aspose.Tasks for .NET وثائق شاملة ودعمًا مخصصًا من خلال موقعه على الويب و[المنتديات](https://forum.aspose.com/c/tasks/15).
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من موقعهم[موقع إلكتروني](https://releases.aspose.com/tasks/net/). لاستكشاف ميزاته ووظائفه قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

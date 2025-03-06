@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 定义日历中的工作日
 linktitle: 使用 Aspose.Tasks 定义日历中的工作日
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 在 MS Project Calendar 中定义工作日。轻松定制工作日和时间安排。
-type: docs
 weight: 12
 url: /zh/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 定义日历中的工作日
+
 ## 介绍
 在本教程中，我们将逐步介绍使用 Aspose.Tasks for Java 在 MS 项目日历中定义工作日的过程。 Aspose.Tasks 是一个功能强大的 Java 库，使开发人员能够以编程方式操作 Microsoft Project 文件。
 ## 先决条件
@@ -82,3 +88,9 @@ prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 答：是的，您可以加载带有日历的现有项目，进行修改，然后将更改保存回原始文件。
 ### Q5：Aspose.Tasks 是否支持重复任务？
 答：是的，Aspose.Tasks 允许您处理重复任务，包括定义其重复模式和持续时间。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

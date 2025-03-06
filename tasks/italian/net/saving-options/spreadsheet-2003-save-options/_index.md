@@ -3,10 +3,16 @@ title: MS Project con opzioni foglio di calcolo 2003 per Aspose.Tasks
 linktitle: Foglio di calcolo 2003 Salva opzioni per Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Foglio di calcolo principale 2003 Salva le opzioni di MS Project con Aspose.Tasks per .NET. Personalizza e salva senza problemi i file MS Project a livello di codice.
-type: docs
 weight: 19
 url: /it/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project con opzioni foglio di calcolo 2003 per Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo l'utilizzo di Aspose.Tasks per .NET per utilizzare le opzioni di salvataggio di MS Project di Spreadsheet 2003. Questo potente strumento consente la manipolazione e la personalizzazione senza soluzione di continuità dei file MS Project nell'ambiente .NET. Analizziamo il processo passo dopo passo.
 ## Prerequisiti
@@ -65,3 +71,9 @@ R: Aspose.Tasks per .NET offre ampie opzioni di personalizzazione per le colonne
  R: Assolutamente! È possibile trovare supporto e risorse completi sul forum Aspose.Tasks all'indirizzo[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), dove esperti e membri della comunità sono disponibili per aiutarti a risolvere qualsiasi domanda o problema che potresti incontrare.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks per .NET?
  R: È possibile acquisire una licenza temporanea per Aspose.Tasks per .NET da[pagina di acquisto](https://purchase.aspose.com/temporary-license/), consentendoti di valutare tutte le funzionalità della libreria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

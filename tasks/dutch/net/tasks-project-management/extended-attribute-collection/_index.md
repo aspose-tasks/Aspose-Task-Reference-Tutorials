@@ -3,10 +3,16 @@ title: Beheer de verzameling MS-projectkenmerken in Aspose.Tasks
 linktitle: Uitgebreide attribuutverzameling beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de uitgebreide kenmerken van MS Project efficiënt kunt beheren met Aspose.Tasks voor .NET. Bewerk taakkenmerken naadloos met stapsgewijze begeleiding.
-type: docs
 weight: 12
 url: /nl/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer de verzameling MS-projectkenmerken in Aspose.Tasks
+
 ## Invoering
 Wilt u de uitgebreide kenmerken van MS Project efficiënt beheren met Aspose.Tasks voor .NET? In deze tutorial begeleiden we u stap voor stap door het proces. Laten we erin duiken!
 ## Vereisten
@@ -105,3 +111,9 @@ EEN: Absoluut! Met Aspose.Tasks voor .NET kunt u aangepaste uitgebreide attribuu
 A: Ja, Aspose.Tasks voor .NET ondersteunt MS Project-bestandsformaten in verschillende versies.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
  A: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

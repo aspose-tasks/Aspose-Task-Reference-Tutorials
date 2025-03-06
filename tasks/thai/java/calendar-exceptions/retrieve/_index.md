@@ -3,10 +3,16 @@ title: รับข้อยกเว้นปฏิทินด้วย Aspose
 linktitle: รับข้อยกเว้นปฏิทินด้วย Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีดึงข้อมูลข้อยกเว้นปฏิทินจาก MS Project โดยใช้ Aspose.Tasks สำหรับ Java บทช่วยสอนทีละขั้นตอนเพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 13
 url: /th/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับข้อยกเว้นปฏิทินด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีดึงข้อมูลข้อยกเว้นปฏิทินจาก MS Project โดยใช้ไลบรารี Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project โดยทางโปรแกรม เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน โดยแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนเพื่อให้เข้าใจได้ง่าย
 ## ข้อกำหนดเบื้องต้น
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
  คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### มีตัวเลือกสำหรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks หรือไม่
  ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

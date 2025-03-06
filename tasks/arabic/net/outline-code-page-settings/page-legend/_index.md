@@ -3,10 +3,16 @@ title: تكوين MS Project Legends في Aspose.Tasks
 linktitle: تكوين وسيلة إيضاح الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين أساطير صفحة MS Project في .NET باستخدام Aspose.Tasks لإدارة المشروعات بكفاءة. دليل خطوة بخطوة المقدمة.
-type: docs
 weight: 18
 url: /ar/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين MS Project Legends في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير .NET، تعد إدارة المهام بكفاءة أمرًا بالغ الأهمية، خاصة عند التعامل مع إدارة المشاريع. يظهر Aspose.Tasks for .NET كأداة قوية تقدم عددًا كبيرًا من الوظائف لتبسيط عمليات إدارة المهام. إحدى هذه الميزات هي القدرة على تكوين وسائل إيضاح صفحة MS Project، مما يوفر للمستخدمين رؤى قيمة حول عرض بيانات المشروع.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 ج: بالتأكيد، يوفر Aspose.Tasks for .NET خيارات تخصيص واسعة النطاق، مما يسمح لك بتخصيص وسائل إيضاح الصفحة وفقًا لمتطلبات مشروعك المحددة.
 ### س: أين يمكنني العثور على منتديات الدعم أو منتديات المجتمع الخاصة بـ Aspose.Tasks لـ .NET؟
  ج: يمكنك طلب الدعم والتفاعل مع المجتمع على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)حيث يمكنك العثور على إجابات للاستفسارات والتفاعل مع زملائك من المطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

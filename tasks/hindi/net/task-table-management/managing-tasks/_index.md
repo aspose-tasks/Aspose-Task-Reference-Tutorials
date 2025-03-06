@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य प्रबंधित करन
 linktitle: Aspose.Tasks में कार्य प्रबंधित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ कार्यों के प्रबंधन पर व्यापक मार्गदर्शिका का अन्वेषण करें। जोड़ना, विभाजित हिस्सों को प्रदर्शित करना, स्थानांतरित करना, गुण प्राप्त करना/सेट करना और बहुत कुछ करना सीखें।
-type: docs
 weight: 15
 url: /hi/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य प्रबंधित करना
+
 ## परिचय
 यदि आप एक .NET डेवलपर हैं जो अपने प्रोजेक्ट में कार्यों को कुशलतापूर्वक प्रबंधित करना चाहते हैं, तो .NET के लिए Aspose.Tasks एक मजबूत समाधान प्रदान करता है। यह ट्यूटोरियल चरण-दर-चरण निर्देश और कोड उदाहरण पेश करते हुए, Aspose.Tasks का उपयोग करके कार्यों को प्रबंधित करने के विभिन्न पहलुओं के माध्यम से आपका मार्गदर्शन करेगा। चाहे आप कार्य जोड़ रहे हों, विभाजित भागों को प्रदर्शित कर रहे हों, कार्यों को एक ही पैरेंट के अंतर्गत ले जा रहे हों, कार्य गुण प्राप्त/सेट कर रहे हों, कार्य असाइनमेंट पर पुनरावृत्ति कर रहे हों, कार्य बेसलाइन पढ़ रहे हों, या कार्यों को हटा रहे हों, यह मार्गदर्शिका आपको कवर कर देगी।
 ## आवश्यक शर्तें
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 उत्तर: बिल्कुल! Aspose.Tasks कार्य गुणों के लिए व्यापक अनुकूलन विकल्प प्रदान करता है। अधिक विवरण के लिए दस्तावेज़ की जाँच करें.
 ### प्रश्न: मुझे Aspose.Tasks के लिए समर्थन कैसे मिलेगा?
  ए: पर जाएँ[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

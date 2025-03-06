@@ -3,10 +3,16 @@ title: कार्य आधार रेखाएँ
 linktitle: कार्य आधार रेखाएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: हमारे टास्क बेसलाइन ट्यूटोरियल के साथ Aspose.Tasks Java का अन्वेषण करें। कार्य शेड्यूलिंग को सुव्यवस्थित करें, एमएस प्रोजेक्ट कार्य बेसलाइन बनाएं और बेसलाइन अवधि प्रबंधन में महारत हासिल करें।
-type: docs
 weight: 32
 url: /hi/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कार्य आधार रेखाएँ
+
 ## परिचय
 जावा के लिए Aspose.Tasks के साथ अपने प्रोजेक्ट प्रबंधन कौशल को बढ़ाने के लिए एक यात्रा शुरू करें। ट्यूटोरियल की इस श्रृंखला में, हम कार्य आधार रेखाओं की जटिलताओं में गहराई से उतरते हैं, आपको मूल्यवान अंतर्दृष्टि और व्यावहारिक ज्ञान प्रदान करते हैं। आइए उन प्रमुख ट्यूटोरियल्स का पता लगाएं जो इस व्यापक मार्गदर्शिका को बनाते हैं।
 
@@ -51,3 +57,9 @@ url: /hi/java/task-baselines/
 प्रोजेक्ट डेटा को सहजता से प्रबंधित करने के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Tasks का उपयोग करके जावा में Microsoft प्रोजेक्ट कार्य बेसलाइन बनाने का तरीका जानें।
 ### [Aspose.Tasks में कार्य बेसलाइन अवधि प्रबंधन](./task-baseline-duration/)
 जावा के लिए Aspose.Tasks का उपयोग करके एमएस प्रोजेक्ट में कार्य बेसलाइन को कुशलतापूर्वक प्रबंधित करना सीखें। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

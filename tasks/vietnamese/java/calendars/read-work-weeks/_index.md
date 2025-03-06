@@ -3,10 +3,16 @@ title: Đọc Tuần làm việc từ Lịch dự án MS với Aspose.Tasks
 linktitle: Đọc Tuần làm việc từ Lịch với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc tuần làm việc từ lịch MS Project bằng Aspose.Tasks cho Java. Nhận hướng dẫn từng bước trong hướng dẫn toàn diện này.
-type: docs
 weight: 15
 url: /vi/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc Tuần làm việc từ Lịch dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks cho Java để đọc thông tin về tuần làm việc từ lịch Microsoft Project. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép bạn thao tác và quản lý các tài liệu Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Hoàn toàn có thể, Aspose.Tasks có thể được tích hợp liền mạch
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks từ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
 Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

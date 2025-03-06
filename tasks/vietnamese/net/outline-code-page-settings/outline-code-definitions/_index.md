@@ -3,10 +3,16 @@ title: Định nghĩa xử lý mã phác thảo dự án MS trong Aspose.Tasks
 linktitle: Xử lý các định nghĩa mã phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các định nghĩa mã phác thảo MS Project bằng Aspose.Tasks cho .NET, trao quyền cho các ứng dụng quản lý dự án của bạn.
-type: docs
 weight: 12
 url: /vi/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định nghĩa xử lý mã phác thảo dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project là một công cụ mạnh mẽ để quản lý dự án và Aspose.Tasks dành cho .NET cung cấp hỗ trợ toàn diện để thao tác các tệp dự án theo chương trình. Một khía cạnh thiết yếu của quản lý dự án là tổ chức các nhiệm vụ bằng cách sử dụng mã phác thảo. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các định nghĩa mã phác thảo MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Trả lời: Có, Aspose.Tasks cho .NET cung cấp các tính năng mở rộng 
 Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho .NET hỗ trợ đọc và ghi các trường tùy chỉnh, bao gồm mã phác thảo, từ các tệp MS Project.
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho Aspose.Tasks dành cho .NET không?
  Trả lời: Có, bạn có thể tham gia diễn đàn cộng đồng Aspose.Tasks for .NET[đây](https://forum.aspose.com/c/tasks/15) để đặt câu hỏi, chia sẻ kiến thức và cộng tác với các nhà phát triển khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

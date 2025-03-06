@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 시간대별 데이터 생성
 linktitle: Aspose.Tasks에서 자원 할당을 위한 시간대별 데이터 생성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 리소스 할당을 위한 시간대별 데이터를 생성하는 방법을 알아보세요. 이 포괄적인 가이드를 통해 프로젝트 관리 효율성을 향상시키세요.
-type: docs
 weight: 24
 url: /ko/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 시간대별 데이터 생성
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 리소스 할당을 위한 시간대별 데이터를 생성하는 프로세스를 안내합니다. 시간대별 데이터는 프로젝트 내에서 시간이 지남에 따라 리소스가 할당되는 방식에 대한 귀중한 통찰력을 제공하여 프로젝트 관리자가 정보에 입각한 결정을 내리는 데 도움을 줍니다.
 ## 전제조건
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 예, Aspose.Tasks를 사용하면 사용자는 특정 프로젝트 요구 사항에 맞게 사용자 정의 작업 윤곽을 정의할 수 있습니다.
 ### Aspose.Tasks에 대한 도움을 받을 수 있는 커뮤니티 포럼이 있나요?
  네, 방문하실 수 있습니다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

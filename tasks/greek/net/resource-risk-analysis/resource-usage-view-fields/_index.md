@@ -3,10 +3,16 @@ title: Συλλογή πεδίων προβολής χρήσης πόρων στ
 linktitle: Συλλογή πεδίων προβολής χρήσης πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να έχετε πρόσβαση και να χειρίζεστε αποτελεσματικά τα πεδία προβολής χρήσης πόρων σε αρχεία Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET.
-type: docs
 weight: 16
 url: /el/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλογή πεδίων προβολής χρήσης πόρων στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων, ο αποτελεσματικός χειρισμός των αρχείων Microsoft Project είναι ζωτικής σημασίας. Το Aspose.Tasks for .NET παρέχει μια ολοκληρωμένη λύση για απρόσκοπτη εργασία με αρχεία MS Project. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία πρόσβασης και χρήσης των Πεδίων προβολής χρήσης πόρων χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ foreach (var field in fields)
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση από το[δικτυακός τόπος](https://releases.aspose.com/).
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για .NET;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

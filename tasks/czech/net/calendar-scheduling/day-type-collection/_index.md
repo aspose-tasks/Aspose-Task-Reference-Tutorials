@@ -3,10 +3,16 @@ title: Správa kolekce typů dne v Aspose.Tasks
 linktitle: Správa kolekce typů dne v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat kolekce typu dne v Aspose.Tasks pro .NET. Snadno vytvářejte, upravujte a manipulujte s výjimkami kalendáře.
-type: docs
 weight: 28
 url: /cs/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kolekce typů dne v Aspose.Tasks
+
 ## Úvod
 
  Aspose.Tasks for .NET poskytuje robustní funkce pro správu kolekcí typu dne, což je zásadní pro definování výjimek týdenního kalendáře v aplikacích pro správu projektů. V tomto tutoriálu prozkoumáme, jak využít`DayTypeCollection` třídy efektivně. 
@@ -141,3 +147,9 @@ Odpověď 2: Ano, Aspose.Tasks for .NET podporuje .NET Core i .NET Framework.
 ### Q5: Mohu si zakoupit dočasnou licenci pro Aspose.Tasks pro .NET?
 
  A5: Ano, dočasné licence jsou k dispozici pro nákup z[Aspose webové stránky](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

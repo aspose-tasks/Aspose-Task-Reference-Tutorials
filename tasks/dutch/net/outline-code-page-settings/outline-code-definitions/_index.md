@@ -3,10 +3,16 @@ title: MS Project Outline Codeafhandelingsdefinities in Aspose.Tasks
 linktitle: Omgaan met overzichtscodedefinities in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u met MS Project-overzichtscodedefinities kunt omgaan met Aspose.Tasks voor .NET, waarmee u uw projectbeheertoepassingen kunt versterken.
-type: docs
 weight: 12
 url: /nl/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline Codeafhandelingsdefinities in Aspose.Tasks
+
 ## Invoering
 Microsoft Project is een krachtig hulpmiddel voor het beheren van projecten, en Aspose.Tasks voor .NET biedt uitgebreide ondersteuning voor het programmatisch manipuleren van projectbestanden. Een essentieel aspect van projectmanagement is het organiseren van taken met behulp van overzichtscodes. In deze zelfstudie onderzoeken we hoe u met MS Project-overzichtscodedefinities kunt omgaan met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -91,3 +97,9 @@ A: Ja, Aspose.Tasks voor .NET biedt uitgebreide functies voor het manipuleren va
 A: Absoluut, Aspose.Tasks voor .NET ondersteunt het lezen en schrijven van aangepaste velden, inclusief overzichtscodes, vanuit MS Project-bestanden.
 ### V5: Is er een communityforum voor Aspose.Tasks voor .NET?
  A: Ja, u kunt lid worden van het communityforum voor Aspose.Tasks voor .NET[hier](https://forum.aspose.com/c/tasks/15) om vragen te stellen, kennis te delen en samen te werken met andere ontwikkelaars.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

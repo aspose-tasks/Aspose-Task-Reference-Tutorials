@@ -3,10 +3,16 @@ title: Állítsa be a pénznem tulajdonságait az Aspose.Tasks projektekben
 linktitle: Állítsa be a pénznem tulajdonságait az Aspose.Tasks projektekben
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan állíthat be pénznemtulajdonságokat az Aspose.Tasks projektekben Java használatával. A Microsoft Project fájlokat könnyedén kezelheti.
-type: docs
 weight: 11
 url: /hu/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a pénznem tulajdonságait az Aspose.Tasks projektekben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be pénznemtulajdonságokat az Aspose.Tasks projektekben Java használatával. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat.
 ## Előfeltételek
@@ -64,3 +70,9 @@ Az Aspose.Tasks minden bizonnyal rugalmasságot kínál az egyéni pénznemform�
 Igen, az Aspose.Tasks zökkenőmentesen integrálható más Java-könyvtárakba és -keretrendszerekbe, fokozva annak funkcionalitását és sokoldalúságát.
 ### Hol találhatok további támogatást vagy segítséget az Aspose.Tasks számára?
  További támogatásért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15), ahol hasznos forrásokat találhat, és kapcsolatba léphet a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

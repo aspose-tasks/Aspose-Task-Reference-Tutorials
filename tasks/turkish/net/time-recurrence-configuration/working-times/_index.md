@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Çalışma Sürelerini Yapılandırma
 linktitle: Aspose.Tasks'ta Çalışma Sürelerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks ile .NET'te proje planlamasını geliştirin. Hassas kaynak yönetimi için çalışma sürelerini zahmetsizce yapılandırın. Kütüphaneyi şimdi indirin!
-type: docs
 weight: 13
 url: /tr/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Çalışma Sürelerini Yapılandırma
+
 ## giriiş
 Proje yönetiminde, doğru planlama ve kaynak tahsisi için çalışma süreleri üzerinde hassas kontrol çok önemlidir. Aspose.Tasks for .NET, projelerinizde çalışma süresi bilgilerinin işlenmesi için güçlü bir çözüm sunar. Bu eğitim, .NET ortamında Aspose.Tasks'ı kullanarak çalışma sürelerini yapılandırma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -84,3 +90,9 @@ Evet, Aspose.Tasks çeşitli proje yönetimi araçlarıyla entegrasyonu kolayla�
 Aspose.Tasks birden fazla dosya formatını destekleyerek proje verileri için sorunsuz içe/dışa aktarma işlemlerine olanak tanır.
 ### Aspose.Tasks güncellemeleri ne sıklıkta yayınlanıyor?
 En son teknolojilerle uyumluluğu sağlamak ve kullanıcı geri bildirimlerini dikkate almak için güncellemeler düzenli olarak yayınlanmaktadır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

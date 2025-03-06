@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Options Primavera'yı kaydedin
 linktitle: Aspose.Tasks için Primavera Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Primavera için MS Project seçeneklerini sorunsuz bir şekilde nasıl kaydedeceğinizi keşfedin. Adım adım eğitimimizi takip edin.
-type: docs
 weight: 14
 url: /tr/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Options Primavera'yı kaydedin
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Sunduğu önemli işlevlerden biri, popüler bir proje yönetimi yazılımı olan Primavera için MS Project seçeneklerini kaydetme yeteneğidir. Bu eğitimde bunu Aspose.Tasks kullanarak nasıl başaracağımızı inceleyeceğiz.
 ## Önkoşullar
@@ -59,3 +65,9 @@ C: Kesinlikle, Aspose.Tasks, her boyutta proje üzerinde çalışan geliştirici
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/) özelliklerini ve yeteneklerini keşfetmek için.
 ### S: Aspose.Tasks'ı kullanırken sorunlarla karşılaşırsam veya sorularım olursa nereden destek alabilirim?
  C: Aspose.Tasks topluluğundan ve destek ekibinden yardım isteyebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

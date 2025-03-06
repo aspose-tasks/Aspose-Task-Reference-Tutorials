@@ -3,10 +3,16 @@ title: Hantera utökade attribut i Aspose.Tasks-projekt
 linktitle: Hantera utökade attribut i Aspose.Tasks-projekt
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar utökade attribut i Aspose.Tasks-projekt med Java effektivt. Steg-för-steg-guide för effektiv projektledning.
-type: docs
 weight: 13
 url: /sv/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera utökade attribut i Aspose.Tasks-projekt
+
 ## Introduktion
 Att hantera utökade attribut i projektledning är avgörande för att anpassa och förbättra projektdata. Aspose.Tasks för Java tillhandahåller robusta verktyg för att effektivt hantera utökade attribut i MS Project-filer. Denna handledning guidar dig genom processen steg-för-steg, så att du förstår varje koncept grundligt.
 ## Förutsättningar
@@ -86,3 +92,9 @@ S: Absolut, Aspose.Tasks låter dig definiera anpassade utökade attributtyper s
  S: Du kan hitta omfattande dokumentation på Aspose.Tasks webbplats[dokumentation](https://reference.aspose.com/tasks/java/).
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks-användare?
  S: Ja, du kan få tillgång till teknisk support via Aspose.Tasks-forumet[hemsida](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

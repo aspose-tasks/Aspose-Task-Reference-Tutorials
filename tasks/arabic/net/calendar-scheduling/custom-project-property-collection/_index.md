@@ -3,10 +3,16 @@ title: إدارة مجموعة خصائص المشروع المخصصة في Asp
 linktitle: إدارة مجموعة خصائص المشروع المخصصة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة خصائص المشروع المخصصة بشكل فعال في Aspose.Tasks لـ .NET، مما يعزز تجربة إدارة المشروع لديك.
-type: docs
 weight: 24
 url: /ar/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعة خصائص المشروع المخصصة في Aspose.Tasks
+
 ## مقدمة
 
 هل أنت مستعد لتحسين تجربتك في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET؟ تعد إدارة خصائص المشروع المخصصة جانبًا مهمًا لإدارة المشروع، مما يسمح لك بإضافة بيانات تعريف محددة مصممة خصيصًا لمتطلبات مشروعك. في هذا البرنامج التعليمي، سوف نتعمق في كيفية العمل بفعالية مع مجموعات خصائص المشروع المخصصة باستخدام Aspose.Tasks لـ .NET.
@@ -131,3 +137,9 @@ A1: نعم، يمكنك إضافة خصائص مخصصة تدعم الأنواع
 ### س5: أين يمكنني العثور على الدعم أو المساعدة الإضافية فيما يتعلق بـ Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

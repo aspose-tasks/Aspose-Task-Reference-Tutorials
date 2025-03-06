@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य समयबद्ध डेटा
 linktitle: Aspose.Tasks में कार्य समयबद्ध डेटा
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का अन्वेषण करें और कार्य समयबद्ध डेटा प्रबंधन में महारत हासिल करें। लाइब्रेरी डाउनलोड करें, निःशुल्क परीक्षण का आनंद लें और अपने प्रोजेक्ट ट्रैकिंग को सुव्यवस्थित करें।
-type: docs
 weight: 34
 url: /hi/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य समयबद्ध डेटा
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, कुशल परियोजना निष्पादन के लिए कार्य समय-चरण डेटा की सटीक ट्रैकिंग महत्वपूर्ण है। जावा के लिए Aspose.Tasks इस प्रक्रिया को सुव्यवस्थित करने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है, जो मजबूत सुविधाएँ और लचीलेपन की पेशकश करता है। यह ट्यूटोरियल आपको कार्य समय-चरण डेटा को प्रभावी ढंग से प्रबंधित करने के लिए जावा के लिए Aspose.Tasks का उपयोग करने में मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -104,3 +110,9 @@ System.out.println(td.get(0).getValue());
  उ: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  उ: आप जावा के लिए Aspose.Tasks खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

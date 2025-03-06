@@ -3,10 +3,16 @@ title: Nullable Booleans verwerken in Aspose.Tasks
 linktitle: Nullable Booleans verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u nullable booleans effectief kunt verwerken in Aspose.Tasks voor .NET met deze uitgebreide tutorial. Beheers het gebruik van de klasse `NullableBool` en verbeter uw .NET-ontwikkeling.
-type: docs
 weight: 21
 url: /nl/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nullable Booleans verwerken in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het werken met nulbare booleans in Aspose.Tasks voor .NET. Nullable booleans bieden flexibiliteit bij het weergeven van booleaanse waarden, waardoor de mogelijkheid bestaat dat ze ongedefinieerd zijn. We zullen onderzoeken hoe we de`NullableBool` klasse, de constructors, eigenschappen en methoden ervan.
@@ -153,3 +159,9 @@ A4: Ja, u kunt een null-booleaanse waarde zo instellen dat deze tijdens de const
 ### V5: Waar kan ik verdere documentatie vinden over Aspose.Tasks voor .NET?
 
  A5: U kunt gedetailleerde documentatie vinden[hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

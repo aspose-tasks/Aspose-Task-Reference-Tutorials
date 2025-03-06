@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट प्रो
 linktitle: Aspose.Tasks में प्रगति रेखाओं को संभालना
 second_title: Aspose.Tasks .NET API
 description: प्रोजेक्ट विज़ुअलाइज़ेशन और प्रबंधन को बढ़ाते हुए, .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों में प्रगति रेखाओं में हेरफेर करना सीखें।
-type: docs
 weight: 15
 url: /hi/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट प्रोग्रेस लाइन्स को संभालना
+
 ## परिचय
 माइक्रोसॉफ्ट प्रोजेक्ट (एमएस प्रोजेक्ट) परियोजना प्रबंधन के लिए एक शक्तिशाली उपकरण है, जो उपयोगकर्ताओं को अपनी परियोजनाओं के विभिन्न पहलुओं को ट्रैक करने की अनुमति देता है। एमएस प्रोजेक्ट की एक महत्वपूर्ण विशेषता प्रगति रेखाओं को देखने की क्षमता है, जो हितधारकों को परियोजना की स्थिति और प्रक्षेपवक्र को समझने में मदद करती है। इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Tasks लाइब्रेरी का उपयोग करके MS प्रोजेक्ट में प्रगति रेखाओं को कैसे प्रबंधित किया जाए।
 ## आवश्यक शर्तें
@@ -96,3 +102,9 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
  उत्तर: हां, आप Aspose.Tasks फोरम पर सहायक संसाधन पा सकते हैं और सहायता मांग सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: क्या Aspose.Tasks मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस प्रदान करता है?
  उत्तर: हां, आप मूल्यांकन के लिए अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

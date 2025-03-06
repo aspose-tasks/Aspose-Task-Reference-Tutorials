@@ -3,10 +3,16 @@ title: Lägg till utökade attribut till uppgifter i Aspose.Tasks
 linktitle: Lägg till utökade attribut till uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska kraften i Aspose.Tasks Java för att anpassa Microsoft Project-filer med utökade attribut. Förbättra dina projektledningsmöjligheter utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till utökade attribut till uppgifter i Aspose.Tasks
+
 ## Introduktion
 Att förbättra dina projektledningsmöjligheter är avgörande för effektiv uppgiftsspårning och resurshantering. Aspose.Tasks för Java tillhandahåller en kraftfull lösning för Java-utvecklare att manipulera Microsoft Project-filer sömlöst. I den här handledningen kommer vi att utforska hur du lägger till utökade attribut till uppgifter med Aspose.Tasks för Java, så att du kan anpassa och organisera dina projektdata enligt dina specifika krav.
 ## Förutsättningar
@@ -75,3 +81,9 @@ S: Absolut, Aspose.Tasks för Java är designat för att hantera projekt av vari
  A: Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
 ### F: Kan jag prova Aspose.Tasks för Java innan jag köper?
  S: Ja, du kan få tillgång till en gratis testversion[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beherrschen Sie erweiterte Attributdefinitionen von MS Project in Aspose.
 linktitle: Sammlung erweiterter Attributdefinitionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie erweiterte Attributdefinitionen in Microsoft Project mit Aspose.Tasks für .NET verwalten. Passen Sie Ihre Projektdaten mühelos an und verbessern Sie sie.
-type: docs
 weight: 14
 url: /de/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen Sie erweiterte Attributdefinitionen von MS Project in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit erweiterten Attributdefinitionen in Microsoft Project arbeiten. Erweiterte Attribute bieten eine flexible Möglichkeit, Projektdaten anzupassen und zu verbessern, sodass Benutzer zusätzliche Felder hinzufügen können, die über die standardmäßig bereitgestellten Felder hinausgehen. Mit Aspose.Tasks können Sie diese erweiterten Attribute mühelos verwalten, um Ihre Projektmanagementanforderungen individuell anzupassen.
 ## Voraussetzungen
@@ -92,3 +98,9 @@ A: Auf jeden Fall können erweiterte Attribute verwendet werden, um benutzerdefi
 A: Aspose.Tasks ist mit verschiedenen .NET-Frameworks kompatibel und gewährleistet so Flexibilität und einfache Integration.
 ### F: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Tasks?
  A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Unterstützung und erkunden Sie die Dokumentation[Hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

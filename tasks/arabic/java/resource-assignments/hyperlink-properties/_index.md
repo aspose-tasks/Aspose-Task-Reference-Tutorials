@@ -3,10 +3,16 @@ title: إدارة خصائص الارتباط التشعبي للواجبات ف
 linktitle: إدارة خصائص الارتباط التشعبي لتعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة خصائص الارتباط التشعبي لتعيينات الموارد في Aspose.Tasks لـ Java. تعزيز التعاون وإمكانية الوصول في إدارة المشاريع.
-type: docs
 weight: 16
 url: /ar/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خصائص الارتباط التشعبي للواجبات في Aspose.Tasks
+
 ## مقدمة
 يوفر Aspose.Tasks for Java ميزات قوية لإدارة مهام المشروع وموارده. في هذا البرنامج التعليمي، سنركز على كيفية إدارة خصائص الارتباط التشعبي لتعيينات الموارد باستخدام Aspose.Tasks. باتباع هذه الإرشادات خطوة بخطوة، ستتمكن من التعامل بكفاءة مع الارتباطات التشعبية المرتبطة بتعيينات موارد مشروعك.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ System.out.println("Process completed Successfully");
 ج: نعم، يمكنك إزالة الارتباطات التشعبية من تعيينات الموارد عن طريق تعيين خصائص الارتباط التشعبي إلى سلاسل فارغة أو فارغة.
 ### س: هل يدعم Aspose.Tasks التحقق من صحة الارتباط التشعبي؟
 ج: يركز Aspose.Tasks على إدارة خصائص الارتباط التشعبي بدلاً من التحقق من صحة الارتباطات التشعبية. ومع ذلك، يمكنك تنفيذ منطق التحقق المخصص داخل تطبيق Java الخاص بك لضمان سلامة الارتباط التشعبي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

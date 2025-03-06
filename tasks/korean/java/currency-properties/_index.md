@@ -3,10 +3,16 @@ title: 통화 속성
 linktitle: 통화 속성
 second_title: Aspose.Tasks 자바 API
 description: Java 튜토리얼을 위한 Aspose.Tasks의 강력한 기능을 활용해 보세요. MS 프로젝트 파일의 통화 속성을 쉽게 읽고 설정하는 방법에 대한 단계별 가이드를 찾아보세요.
-type: docs
 weight: 25
 url: /ko/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 통화 속성
+
 ## 소개
 Aspose.Tasks for Java 기술을 향상시킬 준비가 되셨나요? 통화 속성에 대한 포괄적인 튜토리얼을 살펴보고 MS 프로젝트 파일 내에서 통화 정보를 처리하는 기술을 마스터하세요.
 
@@ -35,3 +41,9 @@ Aspose.Tasks for Java 기술을 향상시킬 준비가 되셨나요? 통화 속�
 Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일에서 통화 정보를 추출하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.
 ### [Aspose.Tasks 프로젝트에서 통화 속성 설정](./set-properties/)
 Java를 사용하여 Aspose.Tasks 프로젝트에서 통화 속성을 설정하는 방법을 알아보세요. Microsoft Project 파일을 쉽게 조작할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

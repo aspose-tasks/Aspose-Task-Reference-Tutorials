@@ -3,10 +3,16 @@ title: Xử lý các nhiệm vụ ước tính và quan trọng trong Aspose.Tas
 linktitle: Xử lý các nhiệm vụ ước tính và quan trọng trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá quản lý dự án hiệu quả với Aspose.Tasks cho Java. Xử lý các nhiệm vụ ước tính và quan trọng một cách dễ dàng. Tải thư viện ngay bây giờ!
-type: docs
 weight: 15
 url: /vi/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các nhiệm vụ ước tính và quan trọng trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java là một thư viện mạnh mẽ hỗ trợ xử lý các tác vụ, quản lý dự án và thao tác dữ liệu dự án một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ tập trung vào một khía cạnh quan trọng của quản lý dự án – xử lý các nhiệm vụ được ước tính và quan trọng bằng cách sử dụng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Có, bạn có thể tích hợp liền mạch Aspose.Tasks vào các dự án J
  Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

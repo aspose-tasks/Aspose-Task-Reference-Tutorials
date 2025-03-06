@@ -3,10 +3,16 @@ title: Aspose.Tasks for Java ile Microsoft Project Bilgilerini Çıkarın
 linktitle: Aspose.Tasks ile Proje Bilgilerini Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project bilgilerini nasıl çıkaracağınızı öğrenin. Java uygulamalarında proje yönetimini zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java ile Microsoft Project Bilgilerini Çıkarın
+
 ## giriiş
 Proje yönetimi ve görev takibi alanında Microsoft Project önemli bir konuma sahiptir. Aspose.Tasks for Java, Java ortamlarında Microsoft Project dosyalarıyla kusursuz etkileşim sağlayan güçlü bir araç olarak ortaya çıkıyor. Bu eğitimde Aspose.Tasks for Java kullanılarak Microsoft Project dosyalarından önemli proje bilgilerinin çıkarılması süreci anlatılmaktadır.
 ## Önkoşullar
@@ -65,3 +71,9 @@ C: Aspose.Tasks for Java kesinlikle proje verilerinin işlenmesi için düzenlem
 C: Evet, Aspose.Tasks for Java, kapsamlı API'si aracılığıyla otomasyona izin vererek veri çıkarma ve analiz için kolaylaştırılmış süreçlere olanak tanır.
 ### S: Aspose.Tasks for Java kullanıcılarına yönelik bir topluluk forumu veya destek kanalı var mı?
  C: Evet, yararlı kaynaklar bulabilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tipi di campi personalizzati in Aspose.Tasks
 linktitle: Tipi di campi personalizzati in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come lavorare con tipi di campi personalizzati in Aspose.Tasks per .NET. Guida passo passo con esempi di codice e domande frequenti.
-type: docs
 weight: 23
 url: /it/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tipi di campi personalizzati in Aspose.Tasks
+
 ## introduzione
 
 Benvenuti nel nostro tutorial sull'utilizzo dei tipi di campo personalizzati in Aspose.Tasks per .NET! Aspose.Tasks è una potente libreria che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di codice. In questo tutorial ci concentreremo sulla comprensione e sull'utilizzo dei tipi di campo personalizzati, un aspetto cruciale dell'utilizzo dei dati di progetto.
@@ -89,3 +95,9 @@ A4: Sì, Aspose.Tasks consente di manipolare sia i dati delle attività che quel
 ### Q5: esiste un forum della community per gli utenti di Aspose.Tasks?
 
  A5: Sì, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per interagire con altri utenti e ottenere supporto dal team Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

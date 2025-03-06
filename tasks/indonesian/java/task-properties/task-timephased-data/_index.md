@@ -3,10 +3,16 @@ title: Data Fase Waktu Tugas di Aspose.Tasks
 linktitle: Data Fase Waktu Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi Aspose.Tasks untuk Java dan kuasai pengelolaan data bertahap tugas. Unduh perpustakaan, nikmati uji coba gratis, dan sederhanakan pelacakan proyek Anda.
-type: docs
 weight: 34
 url: /id/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Data Fase Waktu Tugas di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, pelacakan data tahapan waktu tugas yang tepat sangat penting untuk pelaksanaan proyek yang efisien. Aspose.Tasks untuk Java muncul sebagai alat yang ampuh untuk menyederhanakan proses ini, menawarkan fitur dan fleksibilitas yang tangguh. Tutorial ini akan memandu Anda dalam memanfaatkan Aspose.Tasks untuk Java untuk mengelola data fase waktu tugas secara efektif.
 ## Prasyarat
@@ -104,3 +110,9 @@ J: Ya, Aspose.Tasks for Java kompatibel dengan proyek berbasis Java apa pun.
  J: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk Java?
  J: Anda dapat membeli Aspose.Tasks untuk Java[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

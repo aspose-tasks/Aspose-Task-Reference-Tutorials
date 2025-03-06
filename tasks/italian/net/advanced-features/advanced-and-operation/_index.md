@@ -3,10 +3,16 @@ title: Operazione AND avanzata in Aspose.Tasks
 linktitle: Operazione AND avanzata in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come eseguire operazioni AND avanzate in Aspose.Tasks per .NET per filtrare in modo efficiente le attività del progetto in base a più criteri.
-type: docs
 weight: 10
 url: /it/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operazione AND avanzata in Aspose.Tasks
+
 ## introduzione
 
  In questo tutorial, approfondiremo l'operazione AND avanzata in Aspose.Tasks per .NET, un potente strumento per la gestione di attività e progetti. Esploreremo come filtrare le attività del progetto in base a più condizioni utilizzando il file`Util.And` classe.
@@ -107,3 +113,9 @@ R: Sì, Util.And può essere utilizzato per combinare un numero qualsiasi di con
 ### Q5: Come posso ottenere supporto per Aspose.Tasks per .NET?
 
 R: Puoi ottenere supporto dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

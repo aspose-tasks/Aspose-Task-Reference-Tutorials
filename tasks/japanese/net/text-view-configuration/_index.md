@@ -3,10 +3,16 @@ title: Aspose.Tasks のテキストとビューの構成
 linktitle: Aspose.Tasks のテキストとビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET チュートリアルのテキストとビューの構成を調べてください。テキスト スタイル、Tiff 圧縮、タイムライン ビューなどをマスターして、プロジェクト管理を強化します。
-type: docs
 weight: 30
 url: /ja/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のテキストとビューの構成
+
 ## 導入
 
 テキストとビューの構成に焦点を当てた、Aspose.Tasks for .NET チュートリアルの包括的なガイドへようこそ。この記事では、プロジェクト管理のさまざまな側面を詳しく掘り下げ、Aspose.Tasks の機能を習得するための段階的な洞察を提供します。
@@ -53,3 +59,9 @@ Aspose.Tasks for .NET でタイムスケール データの収集を探索しま
 Aspose.Tasks for .NET を探索して、ガント チャート ビューでタイムスケール層を構成し、プロジェクトのタイムラインを正確に視覚化します。
 ### [Aspose.Tasks での使用状況ビューの構成](./usage-views/)
 Aspose.Tasks for .NET でタスク使用状況ビューを構成する方法を学習します。詳細な手順でプロジェクトの視覚化を強化します。今すぐライブラリをダウンロードしてください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

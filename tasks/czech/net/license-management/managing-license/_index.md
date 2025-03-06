@@ -3,10 +3,16 @@ title: Správa licence MS Project v Aspose.Tasks .NET
 linktitle: Správa licence Aspose.Tasks v .NET
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak bezproblémově spravovat licence Aspose.Tasks v aplikacích .NET pomocí přístupů založených na souborech nebo proudech.
-type: docs
 weight: 10
 url: /cs/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa licence MS Project v Aspose.Tasks .NET
+
 ## Úvod
 Správa licencí je zásadním aspektem efektivního využití Aspose.Tasks v aplikacích .NET. Bez řádného licencování se můžete setkat s omezeními nebo omezeními vašeho použití. Naštěstí Aspose.Tasks poskytuje jednoduché metody pro použití licencí pomocí souborů nebo proudů ve vašich projektech .NET. V tomto tutoriálu krok za krokem prozkoumáme, jak spravovat licence Aspose.Tasks v aplikacích .NET.
 ## Předpoklady
@@ -98,3 +104,9 @@ Odpověď: Bez platné licence funguje Aspose.Tasks ve zkušebním režimu, kter
 ### Otázka: Mohu použít stejný licenční soubor pro více aplikací?
 
 Odpověď: Ano, stejný licenční soubor můžete používat ve více aplikacích vyvinutých stejným držitelem licence. Ujistěte se však, že vaše licence je v souladu s podmínkami použití stanovenými Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

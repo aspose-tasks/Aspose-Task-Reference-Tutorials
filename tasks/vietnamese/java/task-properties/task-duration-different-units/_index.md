@@ -3,10 +3,16 @@ title: Thời lượng nhiệm vụ trong các đơn vị khác nhau với Aspos
 linktitle: Thời lượng nhiệm vụ trong các đơn vị khác nhau với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá việc quản lý thời gian thực hiện nhiệm vụ trong các dự án Java với Aspose.Tasks. Tính toán và chuyển đổi chính xác thời lượng theo phút, ngày, giờ, tuần và tháng.
-type: docs
 weight: 32
 url: /vi/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thời lượng nhiệm vụ trong các đơn vị khác nhau với Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc hiểu và quản lý thời gian thực hiện nhiệm vụ là một khía cạnh quan trọng. Aspose.Tasks for Java cung cấp một bộ công cụ mạnh mẽ để xử lý việc này một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn truy xuất thời lượng nhiệm vụ trong các đơn vị khác nhau bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Tuyệt đối. Aspose.Tasks được thiết kế để xử lý hiệu quả c
  Tham quan[tài liệu](https://reference.aspose.com/tasks/java/)để có nguồn tài nguyên toàn diện.
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks cho Java trước khi mua không?
  Có, bạn có thể khám phá một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

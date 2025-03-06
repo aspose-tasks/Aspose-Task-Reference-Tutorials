@@ -3,10 +3,16 @@ title: Aspose.Tasks'ı kullanarak Takvim'den Çalışma Saatlerini alın
 linktitle: Aspose.Tasks'ı kullanarak Takvim'den Çalışma Saatlerini alın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile MS Project takvimlerinden çalışma saatlerini kolayca çıkarın. Proje yönetimi görevlerini basitleştirin.
-type: docs
 weight: 13
 url: /tr/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ı kullanarak Takvim'den Çalışma Saatlerini alın
+
 ## giriiş
 Proje takvimlerini yönetmek ve çalışma saatlerini çıkarmak, etkili proje yönetimi için çok önemlidir. Aspose.Tasks for Java, MS Project takvimlerinden çalışma saatlerini zahmetsizce almak için güçlü işlevsellik sağlar. Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
 ## Önkoşullar
@@ -83,3 +89,9 @@ C: Evet, Aspose.Tasks for Java API'lerini kullanarak çalışma saatlerini ve ta
 C: Evet, Aspose.Tasks for Java, geliştiricilerin özelliklerini etkili bir şekilde kullanmalarına yardımcı olmak için kapsamlı belgeler ve özel destek forumları sağlar.
 ### S: Aspose.Tasks for Java'nın deneme sürümü mevcut mu?
  C: Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

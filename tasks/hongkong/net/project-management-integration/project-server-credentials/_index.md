@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理 MS Project Server 憑證
 linktitle: 在 Aspose.Tasks 中管理 Project Server 憑證
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 無縫管理 MS Project Server 憑證。提高專案管理效率。
-type: docs
 weight: 22
 url: /zh-hant/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理 MS Project Server 憑證
+
 ## 介紹
 在專案管理領域，有效的協調和無縫溝通對於專案成功執行至關重要。 Aspose.Tasks for .NET 提供了一個管理 Microsoft Project Server 憑證的全面解決方案，使用戶能夠安全地存取和操作專案資料。本教學深入探討使用 Aspose.Tasks for .NET 管理 MS Project Server 憑證的流程，引導使用者完成每個步驟以確保流暢的體驗。
 ## 先決條件
@@ -83,3 +89,9 @@ foreach (var info in list)
 答：是的，Aspose.Tasks for .NET 提供靈活的許可選項，包括用於試用目的的臨時許可證和用於商業用途的完整許可證。
 ### Q：我可以在哪裡尋求 Aspose.Tasks for .NET 的協助或支援？
 答：有關 Aspose.Tasks for .NET 的任何問題或協助，您可以造訪支援論壇：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).## 完整原始碼
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

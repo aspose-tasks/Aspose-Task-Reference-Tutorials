@@ -3,10 +3,16 @@ title: Aspose.Tasks 的伺服器保存 MS 項目選項
 linktitle: Aspose.Tasks 的 Project Server 儲存選項
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Project Server 整合儲存 Aspose.Tasks 的 Microsoft Project 選項。增強您的專案管理工作流程。
-type: docs
 weight: 16
 url: /zh-hant/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 的伺服器保存 MS 項目選項
+
 ## 介紹
 在本教學中，我們將深入研究使用 Project Server 儲存 Aspose.Tasks 的 Microsoft Project 選項。 Aspose.Tasks 是一個功能強大的 .NET API，允許開發人員以程式設計方式處理 Microsoft Project 檔案。利用 Project Server 功能，我們可以將 Aspose.Tasks 無縫整合到我們的專案管理工作流程中。本教學將逐步指導您完成流程。
 ## 先決條件
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 答：是的，您可以自訂專案名稱、逾時和輪詢間隔等儲存選項來滿足您的要求。
 ### Q：在哪裡可以找到對 Aspose.Tasks 的支援？
 答：您可以在以下網站上找到支援和協助：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

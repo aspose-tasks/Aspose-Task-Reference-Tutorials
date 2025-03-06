@@ -3,10 +3,16 @@ title: 任务属性
 linktitle: 任务属性
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 增强 Java 项目管理。探索有关任务属性的教程，从处理优先级到管理成本。今天优化您的项目！
-type: docs
 weight: 34
 url: /zh/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任务属性
+
 ## 介绍
 
 使用 Aspose.Tasks 轻松管理和自定义 Java 中的 Microsoft Project 文件。探索涵盖任务属性各个方面的教程，以增强您的项目管理能力。
@@ -138,3 +144,9 @@ url: /zh/java/task-properties/
 了解如何使用 Aspose.Tasks for Java 将任务数据更新为 MPP 格式。遵循我们的高效项目管理分步指南。
 ### [与 Aspose.Tasks 中的任务关联的 WBS](./wbs-associated-with-task/)
 使用 Aspose.Tasks for Java 掌握 WBS - 学习读取和重新编号任务 WBS 代码。提升项目管理效率！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

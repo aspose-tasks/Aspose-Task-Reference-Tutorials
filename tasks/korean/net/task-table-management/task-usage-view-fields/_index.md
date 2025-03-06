@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 사용량 보기 필드 공개
 linktitle: Aspose.Tasks의 작업 사용량 보기 필드 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 탐색하여 프로젝트 데이터를 손쉽게 관리하고 시각화하세요. 향상된 프로젝트 통찰력을 위해 작업 사용량 보기 필드를 살펴보세요.
-type: docs
 weight: 25
 url: /ko/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 사용량 보기 필드 공개
+
 ## 소개
 프로젝트 관리 영역에서 Aspose.Tasks for .NET은 개발자에게 프로젝트 데이터를 조작하고 관리할 수 있는 강력한 툴킷을 제공하는 강력한 솔루션입니다. 주목할만한 기능 중 하나는 프로젝트 가시성을 향상시키는 다양한 분야에 대한 통찰력을 제공하는 작업 사용량 보기입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 작업 사용량 보기 필드의 복잡성을 자세히 살펴보고 포괄적인 이해를 위해 각 단계를 세분화합니다.
 ## 전제조건
@@ -64,3 +70,9 @@ Aspose.Tasks는 주로 .NET 애플리케이션에 중점을 둡니다. 그러나
  예, 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 단기 사용을 위해.
 ### 프로젝트 문서에는 어떤 파일 형식이 지원되나요?
 Aspose.Tasks for .NET은 MPP, XML, CSV를 포함한 다양한 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Parola Korumalı Dosyaları Okuyun
 linktitle: Aspose.Tasks'taki Parola Korumalı Dosyaları Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Bu eğitimdeki adım adım rehberlikle Aspose.Tasks for Java'daki şifre korumalı dosyaları zahmetsizce nasıl okuyacağınızı öğrenin.
-type: docs
 weight: 14
 url: /tr/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Parola Korumalı Dosyaları Okuyun
+
 ## giriiş
 Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan güçlü bir kütüphanedir. Geliştiricilerin karşılaştığı ortak görevlerden biri parola korumalı dosyaları okumaktır. Bu eğitimde, bu tür dosyaları adım adım okuma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -49,3 +55,9 @@ C: Aspose.Tasks for Java'da ayrıntılı belgeler bulabilirsiniz.[Burada](https:
  C: Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java'yı kullanmak için geçici bir lisansa ihtiyacım var mı?
  C: Belirli işlevler için veya değerlendirme süresi boyunca geçici bir lisansa ihtiyacınız olabilir. Anla[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

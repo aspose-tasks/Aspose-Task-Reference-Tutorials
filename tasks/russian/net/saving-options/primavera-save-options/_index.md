@@ -3,10 +3,16 @@ title: Сохраните параметры проекта MS Primavera с по
 linktitle: Параметры сохранения Primavera для Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко сохранить параметры MS Project для Primavera с помощью Aspose.Tasks для .NET. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 14
 url: /ru/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраните параметры проекта MS Primavera с помощью Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for .NET — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами Microsoft Project в своих .NET-приложениях. Одной из ключевых функций, которые он предлагает, является возможность сохранять параметры MS Project для Primavera, популярного программного обеспечения для управления проектами. В этом уроке мы углубимся в то, как этого добиться с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -59,3 +65,9 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
  О: Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта[здесь](https://releases.aspose.com/) изучить его особенности и возможности.
 ### Вопрос: Где я могу получить поддержку, если у меня возникнут проблемы или возникнут вопросы при использовании Aspose.Tasks?
  О: Вы можете обратиться за помощью к сообществу Aspose.Tasks и команде поддержки на[Форум](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

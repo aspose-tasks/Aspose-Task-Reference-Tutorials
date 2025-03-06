@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用基线集合
 linktitle: 在 Aspose.Tasks 中使用基线集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何有效管理 Aspose.Tasks for .NET 中的基线。请按照我们的综合教程获取分步指导。
-type: docs
 weight: 20
 url: /zh/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用基线集合
+
 ## 介绍
 
 Aspose.Tasks for .NET 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝地使用 Microsoft Project 文件。在其众多功能中，它为管理项目内的基线提供了强大的支持。基线对于项目管理至关重要，因为它们允许您将原始项目计划与当前状态进行比较，从而更好地跟踪和分析项目进度。
@@ -116,3 +122,9 @@ A4：是的，Aspose.Tasks 支持与流行的云平台集成，提供部署灵�
 ### Q5：Aspose.Tasks 用户是否有社区论坛来寻求帮助和分享知识？
 
  A5: 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)与社区互动并获得专家的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

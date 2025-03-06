@@ -3,10 +3,16 @@ title: Configureer MS Project-pagina-instellingen met Aspose.Tasks
 linktitle: Pagina-instellingen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-pagina-instellingen configureert met Aspose.Tasks voor .NET. Pas de richting, grootte en meer aan met eenvoudige stappen.
-type: docs
 weight: 20
 url: /nl/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configureer MS Project-pagina-instellingen met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het configureren van Microsoft Project-pagina-instellingen met Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige API waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren.
 ## Vereisten
@@ -77,3 +83,9 @@ A: Aspose.Tasks ondersteunt een breed scala aan papierformaten, inclusief standa
 A: Zeker, u kunt deze functionaliteit integreren in de workflow van uw applicatie om de configuratie van pagina-instellingen te automatiseren.
 ### Vraag: Biedt Aspose.Tasks ondersteuning voor andere bestandsformaten dan .mpp?
 A: Ja, Aspose.Tasks ondersteunt verschillende bestandsformaten, zoals onder andere XML, MPT en HTML.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

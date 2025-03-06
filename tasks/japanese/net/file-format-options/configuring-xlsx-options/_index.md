@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET での MS Project XLSX オプションの構成
 linktitle: Aspose.Tasks での XLSX オプションの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で MS Project XLSX オプションを構成する方法を学びます。列やエンコーディングなどを簡単にカスタマイズできます。
-type: docs
 weight: 11
 url: /ja/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET での MS Project XLSX オプションの構成
+
 ## 導入
 Microsoft Project (MS Project) はプロジェクト管理のための強力なツールであり、Aspose.Tasks for .NET は MS Project ファイルをプログラムで操作するためのシームレスな統合を提供します。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project XLSX オプションを構成するプロセスを説明します。
 ## 前提条件
@@ -90,3 +96,9 @@ A: Aspose.Tasks for .NET は主に Windows プラットフォーム向けに設�
 ### Q: テスト目的で利用できる一時ライセンスのオプションはありますか?
 
  A: はい、次のサイトから一時ライセンスを取得できます。[Aspose.Tasks の一時ライセンス ページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurasikan Database MS Project Primavera di Aspose.Tasks
 linktitle: Mengonfigurasi Pengaturan Basis Data Primavera di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan Database MS Project Primavera di Aspose.Tasks untuk .NET dengan mudah. Sederhanakan tugas manajemen proyek Anda.
-type: docs
 weight: 11
 url: /id/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Database MS Project Primavera di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda siap memanfaatkan kekuatan Aspose.Tasks untuk .NET guna mengonfigurasi pengaturan Database MS Project Primavera dengan lancar? Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah. Namun sebelum kita mendalaminya, pastikan Anda memiliki semua yang Anda butuhkan.
 ## Prasyarat
@@ -73,3 +79,9 @@ J: Aspose.Tasks untuk .NET terutama berfokus pada solusi manajemen proyek lokal,
 J: Tentu saja! Aspose.Tasks untuk .NET menyediakan serangkaian API untuk membaca, menulis, dan memanipulasi data proyek dalam berbagai format.
 ### T: Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk Aspose.Tasks bagi pengguna .NET?
  A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk dukungan komunitas dan bantuan dengan masalah atau pertanyaan apa pun yang mungkin Anda miliki.## Kode Sumber Lengkap
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

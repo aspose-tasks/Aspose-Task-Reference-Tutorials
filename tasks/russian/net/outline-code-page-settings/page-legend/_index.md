@@ -3,10 +3,16 @@ title: Настройка легенд MS Project в Aspose.Tasks
 linktitle: Настройка легенды страницы в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить легенды страниц MS Project в .NET с помощью Aspose.Tasks для эффективного управления проектами. Предоставлено пошаговое руководство.
-type: docs
 weight: 18
 url: /ru/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка легенд MS Project в Aspose.Tasks
+
 ## Введение
 В сфере разработки .NET эффективное управление задачами имеет решающее значение, особенно при управлении проектами. Aspose.Tasks для .NET представляет собой мощный инструмент, предлагающий множество функций для оптимизации процессов управления задачами. Одной из таких функций является возможность настраивать легенды страниц MS Project, предоставляя пользователям ценную информацию о представлении данных проекта.
 ## Предварительные условия
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 О: Конечно, Aspose.Tasks для .NET предлагает широкие возможности настройки, позволяющие адаптировать легенды страниц в соответствии с конкретными требованиями вашего проекта.
 ### Вопрос: Где я могу найти поддержку или форумы сообщества для Aspose.Tasks для .NET?
  О: Вы можете обратиться за поддержкой и пообщаться с сообществом на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15), где вы можете найти ответы на вопросы и пообщаться с другими разработчиками.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

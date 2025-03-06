@@ -3,10 +3,16 @@ title: Pianificazione delle attività di base in Aspose.Tasks
 linktitle: Pianificazione delle attività di base in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come pianificare le basi delle attività in modo efficace con Aspose.Tasks per Java. Semplifica i processi di gestione dei progetti senza sforzo.
-type: docs
 weight: 10
 url: /it/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pianificazione delle attività di base in Aspose.Tasks
+
 ## introduzione
 La gestione delle baseline delle attività è un aspetto cruciale della gestione dei progetti, poiché consente di confrontare accuratamente i progressi pianificati con quelli effettivi. In questo tutorial esploreremo come eseguire la pianificazione delle attività di base utilizzando Aspose.Tasks per Java. Seguendo questi passaggi sarai in grado di ottimizzare i processi di gestione dei progetti in modo efficiente.
 ## Prerequisiti
@@ -63,3 +69,9 @@ Certamente, Aspose.Tasks per Java fornisce ampie funzionalità per personalizzar
  Sì, puoi accedere a una prova gratuita di Aspose.Tasks per Java da[pagina di rilascio](https://releases.aspose.com/).
 ### Dove posso trovare supporto per Aspose.Tasks per Java?
  Per qualsiasi domanda o assistenza, è possibile visitare il forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

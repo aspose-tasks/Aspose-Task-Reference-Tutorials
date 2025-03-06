@@ -3,10 +3,16 @@ title: Διακοπή και συνέχιση της εργασίας στο Asp
 linktitle: Διακοπή και συνέχιση της εργασίας στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για Java με τον αναλυτικό οδηγό μας για τη διακοπή και την επανέναρξη εργασιών. Βελτιώστε τη διαχείριση έργου απρόσκοπτα!
-type: docs
 weight: 30
 url: /el/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διακοπή και συνέχιση της εργασίας στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, η αποτελεσματική διαχείριση των εργασιών είναι μια κρίσιμη πτυχή της εκτέλεσης του έργου. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για το χειρισμό εργασιών με τα ισχυρά χαρακτηριστικά του. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε μια συγκεκριμένη λειτουργία - τη διακοπή και την επανέναρξη εργασιών. Ακολουθώντας αυτόν τον οδηγό βήμα προς βήμα, θα μπορείτε να ενσωματώσετε απρόσκοπτα αυτή τη δυνατότητα στα έργα σας Java.
 ## Προαπαιτούμενα
@@ -69,3 +75,9 @@ for (Task tsk : collector.getTasks()) {
  Ναι, μπορείτε να έχετε πρόσβαση στο[δωρεάν δοκιμή](https://releases.aspose.com/) για να εξερευνήσετε τις δυνατότητες πριν κάνετε μια αγορά.
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

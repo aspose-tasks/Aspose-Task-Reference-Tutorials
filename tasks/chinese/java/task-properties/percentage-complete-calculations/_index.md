@@ -3,10 +3,16 @@ title: Aspose.Tasks 中任务的完成百分比计算
 linktitle: Aspose.Tasks 中任务的完成百分比计算
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 并简化项目进度跟踪。轻松计算任务百分比以实现高效的项目管理。
-type: docs
 weight: 25
 url: /zh/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中任务的完成百分比计算
+
 ## 介绍
 欢迎阅读我们关于使用 Aspose.Tasks for Java 掌握任务百分比计算的深入指南。 Aspose.Tasks 是一个功能强大的 Java 库，专为处理 Microsoft Project 文件而设计，为项目管理提供了一组强大的功能。在本教程中，我们将重点关注完成百分比计算，为您提供有效监控和分析项目进度的知识。
 ## 先决条件
@@ -63,3 +69,9 @@ for (Task tsk : alTasks) {
 访问支持论坛[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：如何获得临时许可证？
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

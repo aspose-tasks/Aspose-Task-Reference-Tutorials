@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme
 linktitle: Aspose.Tasks'ta Kaynak Atamaları için Seviyelendirme Gecikmesi Özelliklerini Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Bu kapsamlı eğitimle Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikmesi özelliklerini nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 17
 url: /tr/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikme özelliklerinin ele alınması sürecini anlatacağız. Aspose.Tasks, sisteminizde Microsoft Project'in kurulu olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir.
 ## Önkoşullar
@@ -91,3 +97,9 @@ C: Evet, Aspose.Tasks, Microsoft Project dosyalarının çeşitli sürümlerini 
 ### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
 
  C: Geçici lisans talebinde bulunabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

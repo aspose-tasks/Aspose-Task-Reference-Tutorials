@@ -3,10 +3,16 @@ title: อัตราโครงการ MS ต้นแบบด้วย As
 linktitle: การรวบรวมอัตราใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการอัตราในไฟล์ MS Project โดยใช้ Aspose.Tasks สำหรับ .NET บทช่วยสอนทีละขั้นตอนสำหรับการจัดการทรัพยากรอย่างมีประสิทธิภาพ
-type: docs
 weight: 11
 url: /th/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อัตราโครงการ MS ต้นแบบด้วย Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการจัดการอัตราใน MS Project โดยใช้ Aspose.Tasks สำหรับ .NET! ในคู่มือนี้ เราจะแนะนำคุณตลอดกระบวนการทำงานกับอัตราในไฟล์ MS Project ของคุณโดยใช้ Aspose.Tasks ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นพัฒนา .NET บทช่วยสอนนี้จะให้คำแนะนำทีละขั้นตอนเพื่อจัดการอัตราภายในโครงการของคุณอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -110,3 +116,9 @@ foreach (var rt in list)
 ตอบ: ได้ คุณสามารถใช้ Aspose.Tasks สำหรับ .NET รุ่นทดลองใช้ฟรีเพื่อประเมินคุณสมบัติและความเข้ากันได้กับความต้องการของคุณ
 ### ถาม: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ .NET ได้จาก[เว็บไซต์](https://purchase.aspose.com/temporary-license/)ซึ่งมีตัวเลือกใบอนุญาตที่ยืดหยุ่นเพื่อให้เหมาะกับความต้องการของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

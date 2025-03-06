@@ -3,10 +3,16 @@ title: Set Resource Properties in Aspose.Tasks
 linktitle: Set Resource Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to set MS Project resource properties in Java using Aspose.Tasks for seamless integration and efficient task management.
-type: docs
 weight: 20
 url: /java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Resource Properties in Aspose.Tasks
+
 ## Introduction
 In the realm of Java development, managing tasks efficiently is a crucial aspect of project management. Aspose.Tasks for Java provides a robust solution for developers to interact with Microsoft Project files, allowing seamless integration of task management functionalities into Java applications. In this tutorial, we will delve into setting MS Project resource properties using Aspose.Tasks for Java. By the end of this guide, you'll have a comprehensive understanding of how to manipulate resource properties within your Java projects.
 ## Prerequisites
@@ -63,3 +69,10 @@ You can seek assistance and participate in discussions related to Aspose.Tasks f
 You can obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
 ### Where can I purchase a licensed version of Aspose.Tasks for Java?
 You can purchase a licensed version of Aspose.Tasks for Java from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Расширенные операции AND в Aspose.Tasks
 linktitle: Расширенные операции AND в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как выполнять расширенные операции И в Aspose.Tasks для .NET, чтобы эффективно фильтровать задачи проекта по множеству критериев.
-type: docs
 weight: 10
 url: /ru/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные операции AND в Aspose.Tasks
+
 ## Введение
 
  В этом уроке мы углубимся в расширенную операцию И в Aspose.Tasks для .NET, мощном инструменте для управления задачами и проектами. Мы рассмотрим, как фильтровать задачи проекта на основе нескольких условий, используя`Util.And` сорт.
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### Вопрос 5: Как я могу получить поддержку Aspose.Tasks для .NET?
 
 О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

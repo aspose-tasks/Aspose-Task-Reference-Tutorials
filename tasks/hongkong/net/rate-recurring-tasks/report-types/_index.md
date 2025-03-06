@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 專案報告
 linktitle: 在 Aspose.Tasks 中使用報告類型
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 處理 MS Project 檔案。輕鬆產生各種報告類型。
-type: docs
 weight: 16
 url: /zh-hant/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 專案報告
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員輕鬆操作 Microsoft Project 檔案。無論您是在處理專案管理、日程安排還是報告任務，Aspose.Tasks 都提供了一套全面的功能來簡化您的工作流程。在本教程中，我們將探索如何使用 MS Project 檔案並使用 Aspose.Tasks for .NET 產生各種報表類型。
 ## 先決條件
@@ -55,3 +61,9 @@ using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create)
 答：您可以獲得社區的支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q5：如何下載 Aspose.Tasks for .NET？
 答：您可以從以下位置下載 Aspose.Tasks for .NET[這裡](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

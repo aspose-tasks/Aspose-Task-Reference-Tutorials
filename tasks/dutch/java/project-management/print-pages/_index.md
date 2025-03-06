@@ -3,10 +3,16 @@ title: Pagina's afdrukken om afbeeldingen te scheiden in Aspose.Tasks
 linktitle: Pagina's afdrukken om afbeeldingen te scheiden in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u pagina's kunt afdrukken om afbeeldingen te scheiden in Aspose.Tasks voor Java. Verbeter de projectvisualisatie met deze stapsgewijze handleiding.
-type: docs
 weight: 22
 url: /nl/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pagina's afdrukken om afbeeldingen te scheiden in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het afdrukken van pagina's om afbeeldingen te scheiden met Aspose.Tasks voor Java. Deze functionaliteit kan met name handig zijn wanneer u projectlay-outs of kritieke taken afzonderlijk moet visualiseren.
 ## Vereisten
@@ -77,3 +83,9 @@ A: Ja, u kunt Aspose.Tasks voor Java eenvoudig integreren in uw Maven- of Gradle
 A: Ja, Aspose.Tasks voor Java ondersteunt het exporteren van projectgegevens naar verschillende formaten zoals PDF, HTML, XLSX, enz., waardoor flexibiliteit wordt geboden bij de visualisatie en rapportage van gegevens.
 ### Vraag: Is er community-ondersteuning beschikbaar voor Aspose.Tasks voor Java?
  A: Ja, u kunt community-ondersteuning vinden, vragen stellen en met andere gebruikers in contact komen op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hatékonyan kezelheti az MS projekt tulajdonságait az Aspose.Tasks alkal
 linktitle: Az alapértelmezett projekttulajdonságok kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti az alapértelmezett MS Project-tulajdonságokat az Aspose.Tasks for Java használatával. Egyszerűsítse a projektmenedzsment munkafolyamatát könnyedén.
-type: docs
 weight: 11
 url: /hu/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatékonyan kezelheti az MS projekt tulajdonságait az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Szeretné leegyszerűsíteni projektkezelési folyamatát az Aspose.Tasks for Java segítségével? A Microsoft Project fájlok alapértelmezett tulajdonságainak kezelése jelentősen növelheti a hatékonyságot. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az alapértelmezett MS Project tulajdonságok kezelését az Aspose.Tasks használatával.
 ## Előfeltételek
@@ -79,3 +85,9 @@ V3: Igen, segítséget és közösségi támogatást találhat a webhelyen[Aspos
  A4: Természetesen! Ingyenes próbaverziót vehet igénybe a[weboldal](https://releases.aspose.com/).
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  V5: Ideiglenes engedélyt kaphat a[vásárlási oldal](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

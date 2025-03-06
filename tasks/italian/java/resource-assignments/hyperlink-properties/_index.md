@@ -3,10 +3,16 @@ title: Gestire le proprietà dei collegamenti ipertestuali per le assegnazioni i
 linktitle: Gestire le proprietà dei collegamenti ipertestuali per le assegnazioni di risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire le proprietà del collegamento ipertestuale per le assegnazioni di risorse in Aspose.Tasks per Java. Migliorare la collaborazione e l'accessibilità nella gestione dei progetti.
-type: docs
 weight: 16
 url: /it/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire le proprietà dei collegamenti ipertestuali per le assegnazioni in Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per Java offre potenti funzionalità per la gestione delle attività e delle risorse del progetto. In questo tutorial ci concentreremo su come gestire le proprietà dei collegamenti ipertestuali per le assegnazioni di risorse utilizzando Aspose.Tasks. Seguendo queste istruzioni dettagliate, sarai in grado di gestire in modo efficiente i collegamenti ipertestuali associati alle assegnazioni delle risorse del tuo progetto.
 ## Prerequisiti
@@ -84,3 +90,9 @@ R: Aspose.Tasks non impone rigide limitazioni sulla lunghezza dei collegamenti i
 R: Sì, puoi rimuovere i collegamenti ipertestuali dalle assegnazioni di risorse impostando le proprietà del collegamento ipertestuale su stringhe null o vuote.
 ### D: Aspose.Tasks supporta la convalida del collegamento ipertestuale?
 R: Aspose.Tasks si concentra sulla gestione delle proprietà dei collegamenti ipertestuali piuttosto che sulla convalida dei collegamenti ipertestuali. Tuttavia, puoi implementare una logica di convalida personalizzata all'interno della tua applicazione Java per garantire l'integrità del collegamento ipertestuale.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

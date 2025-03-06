@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project'i Güncelleyin ve Yeniden Planlayın
 linktitle: Aspose.Tasks'ta Projeyi Güncelleyin ve Tamamlanmamış Çalışmaları Yeniden Planlayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project dosyalarını programlı olarak nasıl güncelleyeceğinizi ve yeniden planlayacağınızı öğrenin.
-type: docs
 weight: 23
 url: /tr/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project'i Güncelleyin ve Yeniden Planlayın
+
 ## giriiş
 Microsoft Project, kullanıcıların görevleri, kaynakları ve zaman çizelgelerini verimli bir şekilde yönetmelerine olanak tanıyan, yaygın olarak kullanılan bir proje yönetimi yazılımıdır. Aspose.Tasks for Java, Microsoft Project dosyalarını programlı olarak yönetmek için güçlü bir API seti sağlar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak MS Project dosyalarını nasıl güncelleyeceğimizi ve tamamlanmamış işleri nasıl yeniden planlayacağımızı öğreneceğiz.
 ## Önkoşullar
@@ -73,3 +79,9 @@ C: Evet, Aspose.Tasks for Java, görevleri, bağımlılıkları, kaynakları ve 
  C: Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java'nın ayrıntılı belgelerini nerede bulabilirim?
  C: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/tasks/java/) kapsamlı kılavuzlar ve API referansları için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

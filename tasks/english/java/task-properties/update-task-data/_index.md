@@ -3,10 +3,16 @@ title: Update Task Data to MPP Format in Aspose.Tasks
 linktitle: Update Task Data to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to update task data to MPP format using Aspose.Tasks for Java. Follow our step-by-step guide for efficient project management.
-type: docs
 weight: 35
 url: /java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Update Task Data to MPP Format in Aspose.Tasks
+
 ## Introduction
 Welcome to our step-by-step guide on updating task data to MPP format using Aspose.Tasks for Java. In this tutorial, we'll walk you through the process, ensuring that you grasp each step with clarity. Aspose.Tasks for Java provides a robust solution for working with Microsoft Project files, and by the end of this guide, you'll be able to efficiently update task data in MPP format.
 ## Prerequisites
@@ -93,3 +99,10 @@ A: Yes, you can access the free trial [here](https://releases.aspose.com/).
 A: Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q: Do you offer temporary licenses for testing purposes?
 A: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان خيارات حفظ مشروع MS لـ Aspose.Tasks
 linktitle: خيارات الحفظ العامة لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعلم كيفية حفظ ملفات MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. قم بتخصيص خيارات الإخراج بسهولة لمشاريعك.
-type: docs
 weight: 17
 url: /ar/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان خيارات حفظ مشروع MS لـ Aspose.Tasks
+
 ## مقدمة
 يوفر Aspose.Tasks for .NET ميزات قوية لمعالجة ملفات Microsoft Project برمجيًا. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات حفظ ملفات MS Project باستخدام الخيارات المتنوعة التي يوفرها Aspose.Tasks. على وجه التحديد، سنركز على خيارات الحفظ العامة المتاحة لـ Aspose.Tasks، مما يسمح لك بتخصيص المخرجات وفقًا لمتطلباتك المحددة.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
  ج: التراخيص المؤقتة متاحة لأغراض التقييم[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني طلب الدعم للاستفسارات المتعلقة بـ Aspose.Tasks؟
  ج: يمكنك الانضمام إلى منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15)للحصول على المساعدة من الخبراء وزملائهم المطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

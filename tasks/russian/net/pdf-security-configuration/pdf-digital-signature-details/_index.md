@@ -3,10 +3,16 @@ title: Настройте цифровую подпись MS Project PDF с по
 linktitle: Настройка данных цифровой подписи PDF в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить детали цифровой подписи Microsoft Project PDF с помощью Aspose.Tasks для .NET. Обеспечьте безопасность и подлинность файлов вашего проекта.
-type: docs
 weight: 10
 url: /ru/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте цифровую подпись MS Project PDF с помощью Aspose.Tasks
+
 ## Введение
 В этом руководстве мы проведем вас через процесс настройки данных цифровой подписи Microsoft Project PDF с помощью Aspose.Tasks для .NET. Выполнив эти шаги, вы сможете легко интегрировать цифровые подписи в файлы MS Project, гарантируя безопасность и подлинность.
 ## Предварительные условия
@@ -84,3 +90,9 @@ project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 О: Нет. Если к PDF-файлу применена цифровая подпись, ее нельзя будет удалить или обновить. Однако при необходимости вы можете добавить дополнительные подписи.
 ### Вопрос: Существуют ли какие-либо ограничения на размер или сложность файла Microsoft Project?
 О: Aspose.Tasks может без ограничений обрабатывать файлы Microsoft Project различного размера и сложности. Однако производительность может варьироваться в зависимости от доступного оборудования и ресурсов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

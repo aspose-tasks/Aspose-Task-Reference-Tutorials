@@ -3,10 +3,16 @@ title: Effortless MS Project Views Management with Aspose.Tasks .NET
 linktitle: Collection of Views in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET and master the art of managing MS Project Views effortlessly. Download now for a seamless project management experience.
-type: docs
 weight: 11
 url: /net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effortless MS Project Views Management with Aspose.Tasks .NET
+
 ## Introduction
 Welcome to the world of Aspose.Tasks for .NET, a powerful library that empowers developers to efficiently manage Microsoft Project Views in their .NET applications. In this tutorial, we will delve into the essentials of handling MS Project Views using Aspose.Tasks, providing you with a step-by-step guide to enhance your project management capabilities.
 ## Prerequisites
@@ -95,3 +101,10 @@ Yes, you can access a free trial [here](https://releases.aspose.com/).
 Engage with the Aspose.Tasks community on the [forum](https://forum.aspose.com/c/tasks/15) for any queries or assistance.
 ### Are temporary licenses available for Aspose.Tasks?
 Yes, explore temporary licenses [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

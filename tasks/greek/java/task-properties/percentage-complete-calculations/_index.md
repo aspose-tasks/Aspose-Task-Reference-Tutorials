@@ -3,10 +3,16 @@ title: Ποσοστό Ολοκληρωμένοι Υπολογισμοί για �
 linktitle: Ποσοστό Ολοκληρωμένοι Υπολογισμοί για Εργασίες στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε το Aspose.Tasks για Java και βελτιστοποιήστε την παρακολούθηση προόδου του έργου. Υπολογίστε αβίαστα τα ποσοστά εργασιών για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 25
 url: /el/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ποσοστό Ολοκληρωμένοι Υπολογισμοί για Εργασίες στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήλθατε στον αναλυτικό οδηγό μας για τον έλεγχο των υπολογισμών ποσοστού εργασιών χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που έχει σχεδιαστεί για εργασία με αρχεία Microsoft Project, προσφέροντας ένα ισχυρό σύνολο δυνατοτήτων για τη διαχείριση έργων. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στους υπολογισμούς Ποσοστό Ολοκληρωμένων, παρέχοντάς σας τη γνώση για την αποτελεσματική παρακολούθηση και ανάλυση της προόδου του έργου.
 ## Προαπαιτούμενα
@@ -63,3 +69,9 @@ for (Task tsk : alTasks) {
  Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

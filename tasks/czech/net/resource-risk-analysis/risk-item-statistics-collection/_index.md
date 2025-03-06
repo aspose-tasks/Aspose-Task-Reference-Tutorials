@@ -3,10 +3,16 @@ title: Sbírejte statistiky rizikových položek MS Project v Aspose.Tasks
 linktitle: Kolekce statistik rizikových položek v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se shromažďovat statistiky rizikových položek ze souborů MS Project pomocí Aspose.Tasks for .NET. Vylepšete své schopnosti projektového řízení.
-type: docs
 weight: 22
 url: /cs/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sbírejte statistiky rizikových položek MS Project v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak sbírat statistiky rizikových položek ze souborů MS Project pomocí Aspose.Tasks for .NET. Tato knihovna poskytuje výkonné funkce pro analýzu projektových dat, včetně hodnocení rizik a statistické analýzy.
 ## Předpoklady
@@ -88,3 +94,9 @@ Odpověď: Aspose.Tasks je rozhodně navržen tak, aby splňoval požadavky apli
 Odpověď: Ano, Aspose.Tasks nabízí flexibilitu při konfiguraci nastavení analýzy rizik tak, aby vyhovovala vašim specifickým projektovým požadavkům a scénářům.
 ### Otázka: Je pro uživatele Aspose.Tasks k dispozici technická podpora?
  Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím Aspose[fórech](https://forum.aspose.com/c/tasks/15), kde mohou klást otázky, hlásit problémy a komunikovat s komunitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

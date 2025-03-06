@@ -3,10 +3,16 @@ title: képmentés kezelése az Aspose.Tasks programban
 linktitle: képmentés kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a képmentést az Aspose.Tasks for .NET-ben a lépésenkénti útmutatók segítségével. Zökkenőmentesen integrálja a képmentési funkciókat .NET-alkalmazásaiba.
-type: docs
 weight: 10
 url: /hu/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# képmentés kezelése az Aspose.Tasks programban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Tasks for .NET rendszerben történő képmentés kezelési folyamatát mutatjuk be. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A projektfájlokkal végzett munka során az egyik gyakori feladat a képek mentése, amelyek diagramokat, grafikonokat vagy más vizuális elemeket tartalmazhatnak. A folyamatot lépésről lépésre lebontjuk, biztosítva az egyértelműséget és a megértést.
@@ -131,3 +137,9 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 ### 5. kérdés: Az Aspose.Tasks kínál próbaverziókat értékelési célokra?
 
  5. válasz: Igen, beszerezheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

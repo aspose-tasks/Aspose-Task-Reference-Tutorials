@@ -3,10 +3,16 @@ title: Simpan Proyek MS sebagai HTML dengan Aspose.Tasks
 linktitle: Opsi Penyimpanan HTML untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan file Microsoft Project sebagai HTML menggunakan Aspose.Tasks untuk .NET. Konversikan data proyek dengan mudah menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 10
 url: /id/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Proyek MS sebagai HTML dengan Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial kami tentang menyimpan file Microsoft Project sebagai HTML menggunakan Aspose.Tasks untuk .NET! Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk menyimpan data proyek sebagai HTML, memberikan panduan langkah demi langkah di sepanjang prosesnya.
 ## Prasyarat
@@ -57,3 +63,9 @@ J: Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, memastikan 
 J: Tentu saja, Anda dapat mengekstrak dan memasukkan halaman atau bagian tertentu dari proyek Anda berdasarkan kebutuhan Anda.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks?
 J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

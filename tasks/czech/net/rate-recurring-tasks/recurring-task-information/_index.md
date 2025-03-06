@@ -3,10 +3,16 @@ title: Extrahování informací o opakované úloze v Aspose.Tasks
 linktitle: Extrahování informací o opakované úloze v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se extrahovat informace o opakujících se úkolech ze souborů MS Project pomocí Aspose.Tasks for .NET. Snadná integrace pro vývojáře .NET.
-type: docs
 weight: 13
 url: /cs/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahování informací o opakované úloze v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project v jejich aplikacích .NET. V tomto tutoriálu prozkoumáme, jak extrahovat informace o opakujících se úkolech ze souborů MS Project pomocí Aspose.Tasks.
 ## Předpoklady
@@ -62,3 +68,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé formáty projektových souborů, 
  Odpověď: Můžete najít dokumentaci[tady](https://reference.aspose.com/tasks/net/).
 ### Otázka: Jak mohu získat technickou podporu pro Aspose.Tasks pro .NET?
  Odpověď: Technickou podporu můžete získat na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

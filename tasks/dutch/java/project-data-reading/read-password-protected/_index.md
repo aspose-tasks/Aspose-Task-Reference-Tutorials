@@ -3,10 +3,16 @@ title: Lees wachtwoordbeveiligde bestanden in Aspose.Tasks
 linktitle: Lees wachtwoordbeveiligde bestanden in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer in deze tutorial hoe u met een wachtwoord beveiligde bestanden in Aspose.Tasks voor Java moeiteloos kunt lezen met stapsgewijze begeleiding.
-type: docs
 weight: 14
 url: /nl/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees wachtwoordbeveiligde bestanden in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een veel voorkomende taak waarmee ontwikkelaars worden geconfronteerd, is het lezen van met een wachtwoord beveiligde bestanden. In deze zelfstudie begeleiden we u stap voor stap bij het lezen van dergelijke bestanden.
 ## Vereisten
@@ -49,3 +55,9 @@ A: U kunt gedetailleerde documentatie vinden over Aspose.Tasks voor Java[hier](h
  A: Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Vraag: Heb ik een tijdelijke licentie nodig om Aspose.Tasks voor Java te gebruiken?
  A: Het kan zijn dat u voor bepaalde functionaliteiten of tijdens de evaluatieperiode een tijdelijke licentie nodig heeft. Snap je[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

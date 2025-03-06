@@ -3,10 +3,16 @@ title: Hoofdtabelconfiguratie in Aspose.Tasks voor .NET
 linktitle: Tabellen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u tabellen configureert in Aspose.Tasks voor .NET met deze stapsgewijze handleiding. Verbeter moeiteloos uw projectmanagementervaring.
-type: docs
 weight: 10
 url: /nl/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoofdtabelconfiguratie in Aspose.Tasks voor .NET
+
 ## Invoering
 Welkom bij deze uitgebreide handleiding over het configureren van tabellen in Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige bibliotheek waarmee ontwikkelaars naadloos met Microsoft Project-bestanden kunnen werken. In deze zelfstudie leiden we u door het proces van het configureren van tabellen met Aspose.Tasks, waarbij we elke stap opsplitsen voor een duidelijk begrip.
 ## Vereisten
@@ -68,3 +74,9 @@ Gefeliciteerd! U hebt met succes tabellen geconfigureerd in Aspose.Tasks voor .N
  A: Ja, u kunt de gratis proefversie verkennen[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik Aspose.Tasks kopen?
  A: U kunt de volledige licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

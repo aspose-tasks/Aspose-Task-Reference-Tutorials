@@ -3,10 +3,16 @@ title: Aspose.Tasks for Java에서 통화 관리
 linktitle: 통화
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일의 통화 코드, 숫자 및 기호를 손쉽게 관리하세요. 따라하기 쉬운 튜토리얼을 통해 프로젝트 관리를 간소화하세요.
-type: docs
 weight: 22
 url: /ko/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java에서 통화 관리
+
 
 ## 소개
 
@@ -43,3 +49,9 @@ Aspose.Tasks for Java를 사용하여 통화 MS 프로젝트 코드를 효율적
 Java용 Aspose.Tasks를 사용하여 통화 MS 프로젝트 숫자를 효율적으로 처리하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
 ### [Aspose.Tasks의 통화 기호 조작](./currency-symbols/)
 Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일의 통화 기호를 조작하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 쉬운 단계.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

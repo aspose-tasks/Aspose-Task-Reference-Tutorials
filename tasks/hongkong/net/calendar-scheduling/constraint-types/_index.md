@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的約束類型
 linktitle: Aspose.Tasks 中的約束類型
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中設定約束類型以有效管理專案進度。
-type: docs
 weight: 17
 url: /zh-hant/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的約束類型
+
 ## 介紹
 
 在 .NET 中進行專案管理時，了解如何對任務應用不同的限制至關重要。 Aspose.Tasks for .NET 提供了一套全面的工具來有效管理專案限制。在本教程中，我們將深入研究 Aspose.Tasks 中可用的各種約束類型以及如何逐步實現它們。
@@ -83,3 +89,9 @@ A4：是的，Aspose.Tasks 旨在處理各種規模的項目，從小型任務�
 ### Q5：我可以在哪裡獲得 Aspose.Tasks 相關查詢的支援？
 
  A5：您可以透過造訪他們的 Aspose.Tasks 獲得支持[論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

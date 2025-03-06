@@ -3,10 +3,16 @@ title: Typy časového rozlišení nákladů v Aspose.Tasks
 linktitle: Typy časového rozlišení nákladů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se efektivně řídit náklady na projekt pomocí Aspose.Tasks for .NET. Definujte typy časového rozlišení nákladů pro přesné sledování rozpočtu.
-type: docs
 weight: 19
 url: /cs/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typy časového rozlišení nákladů v Aspose.Tasks
+
 ## Úvod
 
 V projektovém řízení je přesné sledování nákladů zásadní pro udržení rozpočtové kontroly a zajištění úspěchu projektu. Aspose.Tasks for .NET nabízí robustní sadu nástrojů pro správu projektových nákladů, včetně možnosti definovat různé typy akruálních nákladů. Tento tutoriál vás provede procesem pochopení a implementace typů časového rozlišení nákladů pomocí Aspose.Tasks for .NET.
@@ -86,3 +92,9 @@ A4: Ano, můžete nastavit typ časového rozlišení nákladů nezávisle pro k
 ### Q5: Podporuje Aspose.Tasks pro .NET vlastní typy časového rozlišení nákladů?
 
 A5: Od nejnovější verze Aspose.Tasks for .NET nepodporuje definování vlastních typů časového rozlišení nákladů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 페이지 설정 구성
 linktitle: Aspose.Tasks에서 페이지 설정 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 페이지 설정을 구성하는 방법을 알아보세요. 간단한 단계를 통해 방향, 크기 등을 맞춤설정하세요.
-type: docs
 weight: 20
 url: /ko/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 페이지 설정 구성
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 페이지 설정을 구성하는 과정을 안내합니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 API입니다.
 ## 전제조건
@@ -77,3 +83,9 @@ A: Aspose.Tasks는 표준 및 사용자 정의 크기를 포함하여 광범위�
 A: 물론 이 기능을 애플리케이션의 작업 흐름에 통합하여 페이지 설정 구성을 자동화할 수 있습니다.
 ### Q: Aspose.Tasks는 .mpp 외에 다른 파일 형식을 지원합니까?
 A: 예, Aspose.Tasks는 XML, MPT, HTML 등 다양한 파일 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Proyek MS dengan Spreadsheet 2003 Opsi untuk Aspose.Tasks
 linktitle: Spreadsheet 2003 Simpan Opsi untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Master Spreadsheet 2003 Simpan Opsi Proyek MS dengan Aspose.Tasks untuk .NET. Sesuaikan dan simpan file MS Project dengan lancar secara terprogram.
-type: docs
 weight: 19
 url: /id/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proyek MS dengan Spreadsheet 2003 Opsi untuk Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari pemanfaatan Aspose.Tasks untuk .NET untuk memanfaatkan Opsi Proyek Simpan MS Spreadsheet 2003. Alat canggih ini memungkinkan manipulasi dan penyesuaian file MS Project dengan lancar di lingkungan .NET. Mari kita uraikan prosesnya langkah demi langkah.
 ## Prasyarat
@@ -65,3 +71,9 @@ J: Aspose.Tasks untuk .NET menawarkan opsi penyesuaian ekstensif untuk kolom tam
  J: Tentu saja! Anda dapat menemukan dukungan dan sumber daya yang komprehensif di forum Aspose.Tasks di[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), tempat para ahli dan anggota komunitas siap membantu menyelesaikan pertanyaan atau tantangan apa pun yang mungkin Anda hadapi.
 ### T: Bagaimana cara mendapatkan lisensi sementara Aspose.Tasks untuk .NET?
  J: Anda dapat memperoleh lisensi sementara untuk Aspose.Tasks untuk .NET dari[halaman pembelian](https://purchase.aspose.com/temporary-license/), memungkinkan Anda mengevaluasi kemampuan penuh perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
 linktitle: Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các thuộc tính meta dự án một cách hiệu quả trong các ứng dụng .NET bằng Aspose.Tasks. Đọc, sửa đổi và lặp lại các thuộc tính một cách dễ dàng.
-type: docs
 weight: 24
 url: /vi/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển phần mềm, việc quản lý các nhiệm vụ và dự án một cách hiệu quả là điều tối quan trọng để thành công. Aspose.Tasks for .NET là một thư viện mạnh mẽ được thiết kế để hỗ trợ các tác vụ quản lý dự án trong các ứng dụng .NET. Với các tính năng mạnh mẽ và giao diện trực quan, các nhà phát triển có thể hợp lý hóa quy trình quản lý dự án, tiết kiệm thời gian và tài nguyên.
@@ -106,3 +112,9 @@ Câu trả lời 3: Có, Aspose.Tasks for .NET hỗ trợ nhiều định dạng
 ### Câu hỏi 5: Tôi có thể tìm tài nguyên và hỗ trợ bổ sung cho Aspose.Tasks cho .NET ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và duyệt qua tài liệu để được hướng dẫn toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

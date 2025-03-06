@@ -3,10 +3,16 @@ title: Διαχείριση κωδικών νομισμάτων στο Aspose.Ta
 linktitle: Διαχείριση κωδικών νομισμάτων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τους κωδικούς νομισμάτων MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε τις εργασίες διαχείρισης του έργου σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση κωδικών νομισμάτων στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με τη διαχείριση κωδικών νομισμάτων MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χειρισμού των κωδικών νομισμάτων στα αρχεία του MS Project σας με ευκολία. Το Aspose.Tasks είναι ένα ισχυρό API Java που σας επιτρέπει να χειρίζεστε έγγραφα του Microsoft Project μέσω προγραμματισμού, προσφέροντας ένα ευρύ φάσμα λειτουργιών για τον εξορθολογισμό των εργασιών διαχείρισης του έργου σας.
 ## Προαπαιτούμενα
@@ -53,3 +59,9 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 Α: Ναι, μπορείτε να εξερευνήσετε το Aspose.Tasks μέσω μιας δωρεάν δοκιμής για να αξιολογήσετε τα χαρακτηριστικά και την καταλληλότητά του για τις απαιτήσεις του έργου σας.
 ### Ε: Πού μπορώ να λάβω προσωρινές άδειες για το Aspose.Tasks;
  Α: Οι προσωρινές άδειες χρήσης για το Aspose.Tasks μπορούν να ληφθούν από το[δικτυακός τόπος](https://purchase.aspose.com/temporary-license/) για περιορισμένη διάρκεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

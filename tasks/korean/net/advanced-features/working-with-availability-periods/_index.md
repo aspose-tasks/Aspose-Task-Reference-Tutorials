@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 가용성 기간 작업
 linktitle: Aspose.Tasks에서 가용성 기간 작업
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 리소스 가용성 기간을 효율적으로 관리하는 방법을 알아보세요. 이 자습서에서는 .NET 프로젝트의 가용성 기간 작업에 대한 단계별 가이드를 제공합니다.
-type: docs
 weight: 17
 url: /ko/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 가용성 기간 작업
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 가용성 기간을 사용하는 방법을 살펴보겠습니다. 프로젝트 관리 시나리오에서 자원을 효율적으로 관리하려면 가용성 기간이 중요합니다. 프로세스를 단계별로 안내해 드리겠습니다.
@@ -107,3 +113,9 @@ A2: 예, .NET용 Aspose.Tasks 무료 평가판을 얻을 수 있습니다.[여�
 ### Q5: Aspose.Tasks for .NET에 대한 임시 라이선스를 제공합니까?
 
  A5: 예, 임시 라이센스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

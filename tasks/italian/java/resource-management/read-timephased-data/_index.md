@@ -3,10 +3,16 @@ title: Leggere i dati rapportati alla scala cronologica per le risorse in Aspose
 linktitle: Leggere i dati rapportati alla scala cronologica per le risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come estrarre i dati rapportati alla scala cronologica dalle risorse di MS Project utilizzando Aspose.Tasks per Java. Tutorial passo dopo passo.
-type: docs
 weight: 15
 url: /it/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leggere i dati rapportati alla scala cronologica per le risorse in Aspose.Tasks
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di lettura dei dati rapportati alla scala cronologica per le risorse di MS Project utilizzando Aspose.Tasks per Java. Questa libreria fornisce potenti funzionalità per la gestione dei file di Microsoft Project a livello di codice.
 ## Prerequisiti
@@ -74,3 +80,9 @@ Assolutamente, Aspose.Tasks fornisce API estese per la creazione, la modifica e 
 Sì, Aspose.Tasks è ampiamente utilizzato negli ambienti aziendali grazie alla sua affidabilità e scalabilità.
 ### Dove posso trovare supporto se riscontro problemi durante l'utilizzo di Aspose.Tasks?
  Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per l'assistenza da parte della comunità e del team di supporto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

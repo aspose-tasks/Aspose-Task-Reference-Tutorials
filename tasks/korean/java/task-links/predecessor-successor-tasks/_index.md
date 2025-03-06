@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 선행 작업과 후속 작업 관리
 linktitle: Aspose.Tasks에서 선행 작업과 후속 작업 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java로 효율적인 작업 관리를 살펴보세요. 프로젝트의 선행 작업과 후속 작업을 쉽게 처리하세요. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 15
 url: /ko/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 선행 작업과 후속 작업 관리
+
 ## 소개
 프로젝트 관리 영역에서는 작업 종속성을 효과적으로 처리하는 것이 가장 중요합니다. Aspose.Tasks for Java는 프로젝트의 선행 작업과 후속 작업을 관리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Tasks를 활용하여 작업 링크를 효율적으로 관리하고 작업 간의 종속성을 설정하는 프로세스를 안내합니다.
 ## 전제조건
@@ -52,3 +58,9 @@ for (TaskLink tsklnk : allinks) {
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
 ### Aspose.Tasks for Java 무료 평가판을 다운로드할 수 있나요?
  예, 다음에서 무료 평가판을 다운로드하세요.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση εξαιρέσεων ημερολογίου στο A
 linktitle: Προσθήκη και κατάργηση εξαιρέσεων ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να προσθέτετε και να αφαιρείτε εξαιρέσεις ημερολογίου στο Aspose.Tasks για Java αποτελεσματικά. Βελτιώστε τις ροές εργασιών διαχείρισης έργου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση εξαιρέσεων ημερολογίου στο Aspose.Tasks
+
 
 ## Εισαγωγή
 Στη διαχείριση έργων, ο χειρισμός των εξαιρέσεων μέσα στα ημερολόγια είναι ζωτικής σημασίας για τον ακριβή προγραμματισμό των εργασιών και τη διαχείριση των πόρων. Το Aspose.Tasks για Java παρέχει ισχυρές λειτουργίες για την εύκολη προσθήκη και αφαίρεση εξαιρέσεων ημερολογίου. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
@@ -79,3 +85,10 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη για τυχόν ζητήματα ή ερωτήματα που σχετίζονται με το Aspose.Tasks για Java;
 
  Α: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks για Java στο[δικτυακός τόπος](https://reference.aspose.com/tasks/java/) να ζητήσετε βοήθεια από την κοινότητα ή να επικοινωνήσετε απευθείας με την ομάδα υποστήριξης για εξατομικευμένη βοήθεια.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

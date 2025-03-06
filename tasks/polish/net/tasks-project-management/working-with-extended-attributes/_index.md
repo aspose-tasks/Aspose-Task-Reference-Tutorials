@@ -3,10 +3,16 @@ title: Manipuluj rozszerzonymi atrybutami MS Project za pomocą Aspose.Tasks
 linktitle: Praca z rozszerzonymi atrybutami w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak pracować z rozszerzonymi atrybutami MS Project przy użyciu Aspose.Tasks dla .NET. Z łatwością programowo manipuluj danymi zadań.
-type: docs
 weight: 11
 url: /pl/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipuluj rozszerzonymi atrybutami MS Project za pomocą Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka, która pozwala programistom programowo manipulować plikami Microsoft Project. Jedną z kluczowych cech tej biblioteki jest możliwość pracy z rozszerzonymi atrybutami MS Project. Rozszerzone atrybuty zapewniają dodatkową personalizację i metadane zadań w projekcie, umożliwiając użytkownikom przechowywanie i zarządzanie określonymi informacjami wykraczającymi poza standardowe właściwości zadania.
 W tym samouczku omówimy, jak pracować z rozszerzonymi atrybutami MS Project przy użyciu Aspose.Tasks dla .NET. Omówimy wymagania wstępne, zaimportujemy przestrzenie nazw i podzielimy każdy przykład na wiele kroków w formacie przewodnika krok po kroku. Pod koniec tego samouczka będziesz mieć solidną wiedzę na temat wykorzystania rozszerzonych atrybutów w aplikacjach .NET.
@@ -72,3 +78,9 @@ Tak, musisz kupić licencję na komercyjne wykorzystanie Aspose.Tasks dla .NET. 
 Tak, Aspose.Tasks dla .NET zapewnia szerokie możliwości dostosowywania rozszerzonych atrybutów do specyficznych potrzeb Twojego projektu.
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam jakiekolwiek problemy podczas korzystania z Aspose.Tasks dla .NET?
  Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

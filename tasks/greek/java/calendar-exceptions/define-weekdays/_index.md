@@ -3,10 +3,16 @@ title: Καθορισμός εργάσιμων ημερών για εξαιρέ�
 linktitle: Καθορισμός εργάσιμων ημερών για εξαιρέσεις ημερολογίου με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ορίζετε τις καθημερινές για εξαιρέσεις ημερολογίου σε έργα Java χρησιμοποιώντας το Aspose.Tasks για ακριβή προγραμματισμό έργων.
-type: docs
 weight: 11
 url: /el/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός εργάσιμων ημερών για εξαιρέσεις ημερολογίου με το Aspose.Tasks
+
 ### Εισαγωγή
 Στη διαχείριση έργων, ο καθορισμός εξαιρέσεων για τα ημερολόγια είναι ζωτικής σημασίας για την ακριβή αναπαράσταση μη τυπικών εργάσιμων ημερών ή αργιών μέσα σε ένα χρονοδιάγραμμα έργου. Το Aspose.Tasks για Java παρέχει ισχυρές λειτουργίες για την αποτελεσματική διαχείριση των ημερολογίων, συμπεριλαμβανομένου του καθορισμού εξαιρέσεων όπως αργίες ή ειδικές εργάσιμες ημέρες. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στο πώς να ορίσετε τις καθημερινές για εξαιρέσεις ημερολογίου χρησιμοποιώντας το Aspose.Tasks για Java.
 ### Προαπαιτούμενα
@@ -68,3 +74,10 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 Α: Μπορείτε να χειριστείτε εξαιρέσεις βάσει προγραμματισμού με βάση τις απαιτήσεις δυναμικού έργου χρησιμοποιώντας το εκτενές API που παρέχεται από το Aspose.Tasks για Java.
 ### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για Java;
  Α: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμαστική έκδοση του Aspose.Tasks για Java από το[δικτυακός τόπος](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

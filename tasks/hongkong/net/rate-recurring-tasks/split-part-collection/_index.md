@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中收集分割部分的MS項目
 linktitle: Aspose.Tasks 中分割部分的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 MS Project 中收集分割部分。這個綜合教程將逐步引導您完成整個過程。
-type: docs
 weight: 19
 url: /zh-hant/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中收集分割部分的MS項目
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Tasks for .NET 在 MS Project 中收集分割部分。將任務拆分為多個部分可能是專案管理的重要方面，Aspose.Tasks 提供了有效處理此問題的便利方法。
 ## 先決條件
@@ -66,3 +72,9 @@ Console.WriteLine("Split start: " + split.Start);
 答：臨時許可證可以從[這裡](https://purchase.aspose.com/temporary-license/)供短期使用。
 ### Q：我可以在哪裡尋求有關 Aspose.Tasks 的協助或支援？
 答：您可以造訪Aspose.Tasks論壇[這裡](https://forum.aspose.com/c/tasks/15)向社區或 Aspose 支援團隊尋求協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

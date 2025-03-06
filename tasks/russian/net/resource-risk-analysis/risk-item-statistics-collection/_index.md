@@ -3,10 +3,16 @@ title: Соберите статистику по элементам риска 
 linktitle: Сбор статистики по элементам риска в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как собирать статистику по элементам риска из файлов MS Project с помощью Aspose.Tasks для .NET. Расширьте свои возможности управления проектами.
-type: docs
 weight: 22
 url: /ru/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Соберите статистику по элементам риска MS Project в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как собирать статистику по элементам риска из файлов MS Project с помощью Aspose.Tasks для .NET. Эта библиотека предоставляет мощные функции для анализа данных проекта, включая оценку рисков и статистический анализ.
 ## Предварительные условия
@@ -88,3 +94,9 @@ foreach (var statistic in statistics)
 О: Да, Aspose.Tasks предлагает гибкость в настройке параметров анализа рисков в соответствии с конкретными требованиями и сценариями вашего проекта.
 ### Вопрос: Доступна ли техническая поддержка для пользователей Aspose.Tasks?
  О: Да, пользователи Aspose.Tasks могут получить доступ к технической поддержке через Aspose.[форумы](https://forum.aspose.com/c/tasks/15), где они могут задавать вопросы, сообщать о проблемах и взаимодействовать с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

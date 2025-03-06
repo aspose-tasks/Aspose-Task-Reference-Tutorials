@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업 노트 관리
 linktitle: Aspose.Tasks의 작업 노트 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 작업 노트 관리를 살펴보세요. 효율적인 Java 개발을 위한 단계별 가이드입니다. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 22
 url: /ko/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업 노트 관리
+
 ## 소개
 Aspose.Tasks for Java는 작업 노트를 포함하여 프로젝트 관련 데이터를 관리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업 노트를 효율적으로 관리하는 복잡한 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 작업 노트를 원활하게 처리하는 과정을 안내합니다.
 ## 전제조건
@@ -51,3 +57,9 @@ Aspose.Tasks for Java에서 작업 노트를 관리하는 것은 제공된 코�
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Tasks는 어디에서 구매할 수 있나요?
  제품을 구매하실 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

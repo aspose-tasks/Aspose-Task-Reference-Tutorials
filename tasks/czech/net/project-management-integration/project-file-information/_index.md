@@ -3,10 +3,16 @@ title: Získejte informace o souboru MS Project v Aspose.Tasks
 linktitle: Načítání informací o souboru projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak získat informace o souborech aplikace Microsoft Project pomocí Aspose.Tasks for .NET. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 19
 url: /cs/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte informace o souboru MS Project v Aspose.Tasks
+
 ## Úvod
 Vítejte v našem podrobném průvodci načítáním informací o souborech Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům .NET pracovat se soubory Microsoft Project programově, což umožňuje úkoly, jako je čtení, zápis a manipulace s daty projektu.
 ## Předpoklady
@@ -58,3 +64,9 @@ Aspose.Tasks rozhodně poskytuje rozsáhlé možnosti pro čtení, zápis a prog
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Tasks?
  Podporu pro Aspose.Tasks můžete získat prostřednictvím[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletní zdrojový kód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

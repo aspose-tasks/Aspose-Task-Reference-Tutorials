@@ -3,10 +3,16 @@ title: مجموعة مشروع MS للأكواد التفصيلية في Aspose.
 linktitle: مجموعة من الرموز التفصيلية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية جمع رموز المخطط التفصيلي لـ Microsoft Project باستخدام Aspose.Tasks لـ .NET. يوفر هذا البرنامج التعليمي الشامل تعليمات خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة مشروع MS للأكواد التفصيلية في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية جمع رموز المخطط التفصيلي لـ Microsoft Project باستخدام Aspose.Tasks لـ .NET. سنقوم بتقسيم العملية إلى تعليمات خطوة بخطوة لضمان الوضوح والفهم.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 ج: بالتأكيد، يوفر Aspose.Tasks for .NET خيارات شاملة لتخصيص تنسيق الإخراج وفقًا لمتطلباتك.
 ### س: أين يمكنني العثور على دعم أو موارد إضافية لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على أي مساعدة أو استفسارات بخصوص Aspose.Tasks لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

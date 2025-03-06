@@ -3,10 +3,16 @@ title: Készítsen szabványos naptárt az Aspose.Tasks-ban
 linktitle: Készítsen szabványos naptárt az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan hozhat létre szabványos MS Project naptárat Java nyelven az Aspose.Tasks segítségével. Bővítse projektmenedzsment képességeit ezzel a lépésről lépésre mutató oktatóanyaggal.
-type: docs
 weight: 14
 url: /hu/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Készítsen szabványos naptárt az Aspose.Tasks-ban
+
 
 ## Bevezetés
 Ebben az oktatóanyagban elmélyülünk az Aspose.Tasks for Java világában, amely egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok zökkenőmentes kezelését. Konkrétan egy szabványos MS Project naptár létrehozására fogunk összpontosítani az Aspose.Tasks használatával. Ennek az útmutatónak a végére alapos ismerete lesz arról, hogyan implementálhatja ezt a funkciót Java-alkalmazásaiban.
@@ -63,3 +69,9 @@ V: Természetesen! Az Aspose.Tasks úgy lett kialakítva, hogy megfeleljen mind 
 V: Igen, a fejlesztők átfogó technikai támogatáshoz férhetnek hozzá az Aspose.Tasks fórumon keresztül, így biztosítva a megfelelő időben történő segítséget bármilyen kérdés vagy probléma esetén.
 ### K: Kipróbálhatom az Aspose.Tasks programot vásárlás előtt?
  V: Igen, felfedezheti az Aspose.Tasks alkalmazást a webhelyen elérhető ingyenes próbaverzión keresztül[weboldal](https://purchase.aspose.com/buy), amely lehetővé teszi annak jellemzőinek és funkcióinak értékelését, mielőtt döntést hozna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Calculate Resource Assignment Percentages with Aspose.Tasks
 linktitle: Calculate Percentages for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to efficiently calculate percentages for resource assignments in Java projects using Aspose.Tasks, simplifying project management tasks.
-type: docs
 weight: 13
 url: /java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculate Resource Assignment Percentages with Aspose.Tasks
+
 ## Introduction
 In project management, accurately calculating resource assignments is crucial for ensuring the timely completion of tasks and efficient allocation of resources. Aspose.Tasks for Java provides powerful tools to facilitate this process, allowing developers to calculate percentages for resource assignments with ease.
 ## Prerequisites
@@ -64,3 +70,10 @@ A: Certainly, Aspose.Tasks can be seamlessly integrated with other Java librarie
 A: Yes, Aspose.Tasks offers dedicated customer support through their forum. You can find assistance [here](https://forum.aspose.com/c/tasks/15).
 ### Q: Is there a free trial available for Aspose.Tasks?
 A: Yes, you can explore Aspose.Tasks with a free trial available [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

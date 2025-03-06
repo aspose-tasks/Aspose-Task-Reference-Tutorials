@@ -3,10 +3,16 @@ title: Расширенные атрибуты задач в Aspose.Tasks
 linktitle: Расширенные атрибуты задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите расширенные атрибуты задач в Aspose.Tasks для Java. Пошаговое руководство, часто задаваемые вопросы и поддержка. Оптимизируйте управление проектами уже сегодня!
-type: docs
 weight: 16
 url: /ru/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные атрибуты задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше подробное руководство по использованию расширенных атрибутов задач в Aspose.Tasks для Java. Aspose.Tasks — это мощная библиотека Java, которая позволяет вам легко работать с документами Microsoft Project. В этом руководстве мы углубимся в расширенные атрибуты задач и продемонстрируем, как вы можете использовать их для расширения своих возможностей управления проектами.
 ## Предварительные условия
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести полную версию Aspose.Tasks для Java?
  Вы можете приобрести полную версию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

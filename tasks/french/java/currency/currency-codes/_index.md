@@ -3,10 +3,16 @@ title: Gérer les codes de devise dans Aspose.Tasks
 linktitle: Gérer les codes de devise dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les codes de devise MS Project à l'aide d'Aspose.Tasks pour Java. Rationalisez vos tâches de gestion de projet sans effort.
-type: docs
 weight: 10
 url: /fr/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les codes de devise dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre tutoriel sur la gestion des codes de devise MS Project à l'aide d'Aspose.Tasks pour Java. Dans ce didacticiel, nous vous guiderons tout au long du processus de gestion simple des codes de devise dans vos fichiers MS Project. Aspose.Tasks est une puissante API Java qui vous permet de manipuler les documents Microsoft Project par programme, offrant un large éventail de fonctionnalités pour rationaliser vos tâches de gestion de projet.
 ## Conditions préalables
@@ -53,3 +59,9 @@ R : Oui, Aspose.Tasks prend en charge un large éventail de formats de fichiers 
 R : Oui, vous pouvez explorer Aspose.Tasks via un essai gratuit pour évaluer ses fonctionnalités et son adéquation aux exigences de votre projet.
 ### Q : Où puis-je obtenir des licences temporaires pour Aspose.Tasks ?
  R : Des licences temporaires pour Aspose.Tasks peuvent être obtenues auprès du[site web](https://purchase.aspose.com/temporary-license/) pour une durée limitée.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

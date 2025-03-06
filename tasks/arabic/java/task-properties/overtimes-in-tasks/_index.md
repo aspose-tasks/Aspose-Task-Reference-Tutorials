@@ -3,10 +3,16 @@ title: العمل الإضافي في المهام باستخدام Aspose.Tasks
 linktitle: العمل الإضافي في المهام باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف الإدارة الفعالة للعمل الإضافي في مهام المشروع باستخدام Aspose.Tasks لـ Java. تبسيط التتبع وتخصيص الموارد دون عناء.
-type: docs
 weight: 23
 url: /ar/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل الإضافي في المهام باستخدام Aspose.Tasks
+
 ## مقدمة
 تعد إدارة العمل الإضافي في مهام المشروع أمرًا بالغ الأهمية لمديري المشاريع وقادة الفرق لضمان التتبع الدقيق وتخصيص الموارد. يوفر Aspose.Tasks for Java حلاً قويًا للتعامل مع الجوانب المتعلقة بالعمل الإضافي في إدارة المشاريع. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.Tasks لإدارة وتحليل العمل الإضافي بشكل فعال في مهام المشروع.
 ## المتطلبات الأساسية
@@ -54,3 +60,9 @@ for (Task tsk : project.getRootTask().getChildren()) {
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتفاعل مع المجتمع وطلب الدعم.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kelola Sumber Daya Proyek MS dengan mudah dengan Aspose.Tasks
 linktitle: Mengelola Sumber Daya di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola koleksi sumber daya Microsoft Project dengan mudah menggunakan Aspose.Tasks untuk .NET. Meningkatkan produktivitas dan menyederhanakan alur kerja proyek.
-type: docs
 weight: 10
 url: /id/net/resource-risk-analysis/managing-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Sumber Daya Proyek MS dengan mudah dengan Aspose.Tasks
+
 ## Perkenalan
 Mengelola sumber daya secara efisien sangat penting dalam manajemen proyek, terutama ketika berhadapan dengan jadwal dan penetapan tugas yang kompleks. Aspose.Tasks untuk .NET menyediakan seperangkat alat canggih untuk menangani pengumpulan sumber daya Microsoft Project dengan lancar. Dalam tutorial ini, kita akan mempelajari cara mengelola koleksi sumber daya MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -62,3 +68,9 @@ J: Tentu saja, Aspose.Tasks untuk .NET menawarkan fungsionalitas ekstensif untuk
 J: Ya, Aspose.Tasks untuk .NET mendukung ekspor data proyek ke berbagai format, antara lain MPP, PDF, XLSX, dan HTML.
 ### T: Di mana saya dapat menemukan bantuan atau dukungan lebih lanjut untuk Aspose.Tasks untuk .NET?
  A: Untuk bantuan atau dukungan lebih lanjut, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) atau rujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) disediakan oleh Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

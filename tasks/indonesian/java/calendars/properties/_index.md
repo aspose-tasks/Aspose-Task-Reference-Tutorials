@@ -3,10 +3,16 @@ title: Kelola Properti Kalender Proyek MS di Aspose.Tasks
 linktitle: Kelola Properti Kalender di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola properti kalender MS Project di Java menggunakan Aspose.Tasks. Ini memberikan panduan langkah demi langkah untuk kalender dalam aplikasi Java Anda.
-type: docs
 weight: 10
 url: /id/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Properti Kalender Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengelola properti kalender MS Project menggunakan Aspose.Tasks untuk Java. Dengan memahami cara memanipulasi properti kalender, Anda dapat menyesuaikan jadwal proyek untuk memenuhi persyaratan tertentu secara efisien.
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Tentu saja! Anda dapat dengan mudah mengintegrasikan fitur manajemen kalender
 J: Ya, Aspose.Tasks menawarkan berbagai fungsi untuk mengelola tugas, sumber daya, dan struktur proyek, menjadikannya solusi komprehensif untuk manajemen proyek di Java.
 ### T: Apakah dukungan teknis tersedia untuk pengembang yang menggunakan Aspose.Tasks?
 J: Ya, pengembang dapat mengakses dukungan teknis melalui forum Aspose.Tasks, memastikan bantuan untuk setiap pertanyaan atau masalah yang dihadapi selama implementasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

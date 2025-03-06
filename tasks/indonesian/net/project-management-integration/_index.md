@@ -3,10 +3,16 @@ title: Aspose.Tasks Manajemen Proyek dan Integrasi
 linktitle: Aspose.Tasks Manajemen Proyek dan Integrasi
 second_title: Aspose.Tugas .NET API
 description: Temukan tutorial Aspose.Tasks untuk .NET yang komprehensif yang mencakup manajemen Proyek MS, integrasi, dan penyesuaian. Tingkatkan keterampilan manajemen proyek Anda sekarang!
-type: docs
 weight: 27
 url: /id/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Manajemen Proyek dan Integrasi
+
 
 ## Perkenalan
 
@@ -62,3 +68,9 @@ Pelajari cara mengelola kredensial MS Project Server secara lancar dengan Aspose
 Buka kunci manajemen MS Project Server yang lancar dengan Aspose.Tasks untuk .NET. Otomatiskan tugas proyek dengan mudah.
 ### [Menyesuaikan Tampilan Proyek MS di Aspose.Tasks](./project-views/)
 Pelajari cara mengkustomisasi tampilan Proyek MS menggunakan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk visualisasi manajemen proyek yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

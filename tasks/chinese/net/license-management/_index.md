@@ -3,10 +3,16 @@ title: Aspose.Tasks 许可证管理
 linktitle: Aspose.Tasks 许可证管理
 second_title: Aspose.Tasks .NET API
 description: 通过我们全面的教程释放 Aspose.Tasks for .NET 的强大功能。管理许可证并优化 MS Project 使用，以实现高效的项目管理。
-type: docs
 weight: 36
 url: /zh/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 许可证管理
+
 
 ## 介绍
 
@@ -35,3 +41,9 @@ url: /zh/net/license-management/
 了解如何使用基于文件或基于流的方法无缝管理 .NET 应用程序中的 Aspose.Tasks 许可证。
 ### [计量 Aspose.Tasks 中的使用情况](./metering-usage/)
 了解如何使用 Aspose.Tasks for .NET 有效监控和优化 MS Project 使用情况。高效项目管理的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

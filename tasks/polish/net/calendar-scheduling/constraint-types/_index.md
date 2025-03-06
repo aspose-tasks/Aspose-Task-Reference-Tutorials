@@ -3,10 +3,16 @@ title: Typy ograniczeń w Aspose.Tasks
 linktitle: Typy ograniczeń w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak ustawić typy ograniczeń w Aspose.Tasks dla .NET, aby efektywnie zarządzać harmonogramami projektów.
-type: docs
 weight: 17
 url: /pl/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typy ograniczeń w Aspose.Tasks
+
 ## Wstęp
 
 Podczas pracy z zarządzaniem projektami w .NET niezwykle ważne jest zrozumienie, w jaki sposób stosować różne ograniczenia do zadań. Aspose.Tasks dla .NET zapewnia kompleksowy zestaw narzędzi do efektywnego zarządzania ograniczeniami projektu. W tym samouczku przyjrzymy się różnym typom ograniczeń dostępnych w Aspose.Tasks i pokażemy, jak krok po kroku je wdrożyć.
@@ -83,3 +89,9 @@ A4: Tak, Aspose.Tasks jest przeznaczony do obsługi projektów dowolnej wielkoś
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Tasks?
 
  A5: Możesz uzyskać wsparcie dla Aspose.Tasks, odwiedzając ich[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

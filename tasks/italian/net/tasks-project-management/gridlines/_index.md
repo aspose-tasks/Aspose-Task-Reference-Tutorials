@@ -3,10 +3,16 @@ title: Personalizza le griglie in MS Project per Aspose.Tasks
 linktitle: Griglie in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come personalizzare la griglia in MS Project utilizzando Aspose.Tasks per .NET. Migliora la visualizzazione e la gestione del tuo progetto con passaggi facili da seguire.
-type: docs
 weight: 23
 url: /it/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizza le griglie in MS Project per Aspose.Tasks
+
 ## introduzione
 
 Nella gestione dei progetti, la rappresentazione visiva gioca un ruolo cruciale nella comprensione delle tempistiche, delle dipendenze e dei progressi del progetto. Aspose.Tasks per .NET fornisce strumenti robusti per manipolare i file di progetto a livello di codice. Una di queste funzionalità è la possibilità di personalizzare la griglia in MS Project utilizzando Aspose.Tasks.
@@ -113,3 +119,9 @@ R: Sì, Aspose.Tasks per .NET offre ampia documentazione e supporto per l'integr
 ### Q5: È disponibile una versione di prova per Aspose.Tasks per .NET?
 
  R: Sì, puoi scaricare una versione di prova gratuita di[Aspose.Tasks per .NET da](https://forum.aspose.com/c/tasks/15). per esplorarne le funzionalità prima di effettuare un acquisto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

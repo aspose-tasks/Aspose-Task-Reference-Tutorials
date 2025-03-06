@@ -3,10 +3,16 @@ title: Horas extras em tarefas com Aspose.Tasks
 linktitle: Horas extras em tarefas com Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore o gerenciamento eficiente de horas extras em tarefas de projeto com Aspose.Tasks for Java. Simplifique o rastreamento e a alocação de recursos sem esforço.
-type: docs
 weight: 23
 url: /pt/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Horas extras em tarefas com Aspose.Tasks
+
 ## Introdução
 Gerenciar horas extras nas tarefas do projeto é crucial para gerentes de projeto e líderes de equipe garantirem rastreamento preciso e alocação de recursos. Aspose.Tasks for Java fornece uma solução poderosa para lidar com aspectos relacionados a horas extras no gerenciamento de projetos. Neste tutorial, exploraremos como utilizar Aspose.Tasks para gerenciar e analisar com eficácia horas extras em tarefas de projeto.
 ## Pré-requisitos
@@ -54,3 +60,9 @@ Absolutamente! Aspose.Tasks integra-se perfeitamente com outras estruturas Java,
  Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para se envolver com a comunidade e buscar apoio.
 ### Existe uma versão de teste gratuita disponível para Aspose.Tasks?
  Sim, você pode acessar a versão de avaliação gratuita[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

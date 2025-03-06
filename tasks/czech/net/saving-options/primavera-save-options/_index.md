@@ -3,10 +3,16 @@ title: Uložit možnosti MS Project Primavera pomocí Aspose.Tasks
 linktitle: Možnosti uložení Primavera pro Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak bezproblémově uložit možnosti MS Project pro Primavera pomocí Aspose.Tasks pro .NET. Postupujte podle našeho podrobného návodu.
-type: docs
 weight: 14
 url: /cs/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit možnosti MS Project Primavera pomocí Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory Microsoft Project v jejich aplikacích .NET. Jednou z klíčových funkcí, které nabízí, je možnost uložit možnosti MS Project pro Primavera, oblíbený software pro správu projektů. V tomto tutoriálu se ponoříme do toho, jak toho dosáhnout pomocí Aspose.Tasks.
 ## Předpoklady
@@ -59,3 +65,9 @@ Odpověď: Aspose.Tasks je rozhodně navržen tak, aby vyhovoval potřebám výv
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks z[tady](https://releases.aspose.com/) prozkoumat jeho vlastnosti a možnosti.
 ### Otázka: Kde mohu získat podporu, pokud při používání Aspose.Tasks narazím na problémy nebo mám dotazy?
  Odpověď: Můžete požádat o pomoc komunitu Aspose.Tasks a tým podpory na stránce[Fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks でタイムスケール データ収集をマスターす�
 linktitle: Aspose.Tasks でのタイムスケール データの収集
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でタイムスケール データの収集を探索します。ステップバイステップガイド、よくある質問など。今すぐプロジェクト管理能力を強化してください。
-type: docs
 weight: 15
 url: /ja/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でタイムスケール データ収集をマスターする
+
 ## 導入
 Aspose.Tasks を使用して、.NET アプリケーションでタイムスケール データの力を活用したいと考えていますか?これ以上探さない！この包括的なガイドでは、Aspose.Tasks for .NET を使用してタイムスケール データを収集するプロセスを説明し、この強力なライブラリを最大限に活用できるようにします。
 ## 前提条件
@@ -121,3 +127,9 @@ Aspose.Tasks はさまざまなサイズのプロジェクトを処理し、リ�
 はい、Aspose.Tasks for .NET の機能を調べるには、[無料トライアル](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET のライセンスはどこで購入できますか?
 Aspose.Tasks for .NET のライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

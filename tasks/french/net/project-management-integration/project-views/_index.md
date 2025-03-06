@@ -3,10 +3,16 @@ title: Personnalisation des vues MS Project dans Aspose.Tasks
 linktitle: Personnalisation des vues de projet dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment personnaliser les vues MS Project à l'aide d'Aspose.Tasks pour .NET. Suivez notre guide étape par étape pour une visualisation efficace de la gestion de projet.
-type: docs
 weight: 24
 url: /fr/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisation des vues MS Project dans Aspose.Tasks
+
 ## Introduction
 Microsoft Project est un outil puissant de gestion de projet, permettant aux utilisateurs d'organiser les tâches, de gérer les ressources et de suivre efficacement les progrès. Aspose.Tasks pour .NET offre un moyen pratique de travailler avec des fichiers Microsoft Project par programmation, permettant aux développeurs de personnaliser les vues du projet en fonction de leurs besoins spécifiques. Dans ce didacticiel, nous verrons comment personnaliser les vues MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -60,3 +66,9 @@ Vous pouvez intégrer des vues de projet personnalisées en incorporant Aspose.T
  Oui, Aspose.Tasks for .NET fournit une documentation et une assistance complètes via son[forum](https://forum.aspose.com/c/tasks/15) et[portail documentaire](https://reference.aspose.com/tasks/net/).
 ### 5. Puis-je essayer Aspose.Tasks pour .NET avant d'acheter ?
  Oui, vous pouvez bénéficier d'un[essai gratuit](https://releases.aspose.com/) d'Aspose.Tasks pour .NET pour évaluer ses fonctionnalités et capacités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

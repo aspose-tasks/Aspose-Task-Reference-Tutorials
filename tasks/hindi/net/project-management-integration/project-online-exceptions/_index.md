@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट ऑनलाइन 
 linktitle: Aspose.Tasks में प्रोजेक्ट ऑनलाइन अपवादों के साथ कार्य करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ माइक्रोसॉफ्ट प्रोजेक्ट ऑनलाइन अपवादों को सहजता से संभालने का तरीका जानें। प्रभावी परियोजना प्रबंधन के लिए चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 21
 url: /hi/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट ऑनलाइन अपवादों को प्रबंधित करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट ऑनलाइन अपवादों को संभालने की जटिलताओं को समझेंगे। Aspose.Tasks एक शक्तिशाली .NET API है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों में आसानी से हेरफेर और प्रबंधन करने की अनुमति देता है। हम आपके .NET अनुप्रयोगों में एमएस प्रोजेक्ट ऑनलाइन अपवादों के साथ काम करने की व्यापक समझ सुनिश्चित करते हुए, चरण दर चरण प्रक्रिया से गुजरेंगे।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 उत्तर: आप Aspose.Tasks समुदाय मंच से समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: मैं Aspose.Tasks के लिए लाइसेंस कैसे खरीदूं?
  उ: आप Aspose.Tasks के लिए लाइसेंस खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Чтение повременных данных для ресурсов 
 linktitle: Чтение повременных данных для ресурсов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как извлекать повременные данные из ресурсов MS Project с помощью Aspose.Tasks для Java. Пошаговое руководство.
-type: docs
 weight: 15
 url: /ru/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение повременных данных для ресурсов в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы покажем вам процесс чтения повременных данных для ресурсов MS Project с помощью Aspose.Tasks для Java. Эта библиотека предоставляет мощные функции для программного управления файлами Microsoft Project.
 ## Предварительные условия
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 Да, Aspose.Tasks широко используется в корпоративных средах благодаря своей надежности и масштабируемости.
 ### Где я могу найти поддержку, если у меня возникнут проблемы при использовании Aspose.Tasks?
  Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за помощь со стороны сообщества и команды поддержки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

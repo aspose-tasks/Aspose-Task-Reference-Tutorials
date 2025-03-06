@@ -3,10 +3,16 @@ title: Implementace Page Saving Callback v Aspose.Tasks
 linktitle: Implementace Page Saving Callback v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, umožňující přizpůsobené zpracování vícestránkových výstupních proudů dokumentů.
-type: docs
 weight: 12
 url: /cs/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementace Page Saving Callback v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak implementovat zpětné volání ukládání stránky v Aspose.Tasks pro .NET. Tato funkce nám umožňuje uložit vícestránkový dokument do streamů poskytovaných uživateli, což nabízí flexibilitu a přizpůsobení při zpracování výstupu.
@@ -121,3 +127,9 @@ A4: V rámci metod zpětného volání můžete implementovat mechanismy zpracov
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Tasks?
 
  A5: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro pomoc, přístup k dokumentaci[tady](https://reference.aspose.com/tasks/net/) nebo prozkoumejte další funkce a možnosti licencování na[Web Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

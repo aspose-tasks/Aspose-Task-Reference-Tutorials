@@ -3,10 +3,16 @@ title: Positions des symboles monétaires dans Aspose.Tasks
 linktitle: Positions des symboles monétaires dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à contrôler sans effort les positions des symboles monétaires dans les projets .NET avec Aspose.Tasks.
-type: docs
 weight: 22
 url: /fr/net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Positions des symboles monétaires dans Aspose.Tasks
+
 ## Introduction
 
 Dans le développement de logiciels, une gestion efficace de divers aspects tels que la gestion de projet est cruciale. Aspose.Tasks for .NET offre des solutions robustes pour gérer les tâches, les projets et les ressources de manière transparente au sein des applications .NET. Parmi ses nombreuses fonctionnalités, le contrôle de la position des symboles monétaires est essentiel pour le suivi et le reporting financiers. Dans ce didacticiel, nous explorerons comment manipuler les positions des symboles monétaires à l'aide d'Aspose.Tasks pour .NET.
@@ -84,3 +90,9 @@ A2 : Oui, Aspose.Tasks prend en charge plusieurs devises, permettant aux dévelo
 ### Q5 : Comment puis-je acheter une licence pour Aspose.Tasks pour .NET ?
 
  A5 : Vous pouvez acheter une licence pour Aspose.Tasks pour .NET auprès de[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

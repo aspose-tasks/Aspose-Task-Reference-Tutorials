@@ -3,10 +3,16 @@ title: MS Project Online-uitzonderingen beheren in Aspose.Tasks
 linktitle: Werken met Project Online-uitzonderingen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u naadloos met Microsoft Project Online-uitzonderingen kunt omgaan met Aspose.Tasks voor .NET. Stap-voor-stap handleiding voor effectief projectmanagement.
-type: docs
 weight: 21
 url: /nl/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Online-uitzonderingen beheren in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we in op de fijne kneepjes van het omgaan met Microsoft Project Online-uitzonderingen met behulp van Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige .NET API waarmee ontwikkelaars Microsoft Project-bestanden gemakkelijk kunnen manipuleren en beheren. We zullen het proces stap voor stap doorlopen, zodat u een uitgebreid inzicht krijgt in hoe u met MS Project Online-uitzonderingen in uw .NET-toepassingen kunt werken.
 ## Vereisten
@@ -74,3 +80,9 @@ A: Ja, Aspose.Tasks biedt uitgebreide ondersteuning voor het werken met verschil
 A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Hoe koop ik een licentie voor Aspose.Tasks?
  A: U kunt een licentie voor Aspose.Tasks kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

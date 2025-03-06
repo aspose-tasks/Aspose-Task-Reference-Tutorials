@@ -3,10 +3,16 @@ title: Umgang mit Aufgabenlinks in Aspose.Tasks
 linktitle: Umgang mit Aufgabenlinks in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizienten Verwaltung von Projektaufgabenverknüpfungen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Ihr Projektmanagement-Erlebnis zu verbessern.
-type: docs
 weight: 19
 url: /de/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umgang mit Aufgabenlinks in Aspose.Tasks
+
 ## Einführung
 Willkommen bei der Schritt-für-Schritt-Anleitung zum Umgang mit Aufgabenlinks in Aspose.Tasks für .NET! Aufgabenverknüpfungen spielen im Projektmanagement eine entscheidende Rolle, da sie es Ihnen ermöglichen, Beziehungen zwischen Aufgaben herzustellen und Abhängigkeiten zu schaffen. In diesem Tutorial führen wir Sie durch den Prozess der Arbeit mit Aufgaben-Link-Sammlungen mithilfe von Aspose.Tasks.
 ## Voraussetzungen
@@ -85,3 +91,9 @@ Derzeit unterstützt Aspose.Tasks Standard-Aufgabenlinktypen und benutzerdefinie
 Aspose.Tasks kann große Projektdateien effizient und mit minimalen Auswirkungen auf die Leistung verarbeiten.
 ### Gibt es ein Community-Forum für den Aspose.Tasks-Support?
  Ja, Sie können auf der Website Unterstützung finden und mit der Community in Kontakt treten[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hatékony MS Project Task Csoportosítás az Aspose.Tasks segítségével
 linktitle: Feladatok csoportosítása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan csoportosíthatja hatékonyan a Microsoft Project feladatait az Aspose.Tasks for .NET segítségével.
-type: docs
 weight: 25
 url: /hu/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatékony MS Project Task Csoportosítás az Aspose.Tasks segítségével
+
 ## Bevezetés
 A feladatok kezelése a Microsoft Projectben néha kihívást jelenthet, különösen, ha hatékonyan kell megszervezni őket. Az Aspose.Tasks for .NET átfogó megoldást kínál erre azáltal, hogy funkciókat biztosít a feladatok hatékony csoportosításához. Ebben az oktatóanyagban megvizsgáljuk, hogyan csoportosíthatunk MS Project feladatokat az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -84,3 +90,9 @@ Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit, �
 Az Aspose.Tasks természetesen lehetőséget biztosít a csoportosított feladatok megjelenésének testreszabására, beleértve a cellaszíneket, a betűtípusokat és a stílusokat.
 ### Hol találok támogatást az Aspose.Tasks for .NET-hez?
  Az Aspose.Tasks for .NET-hez támogatást és segítséget találhat a következő helyen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

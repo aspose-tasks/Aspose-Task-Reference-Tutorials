@@ -3,10 +3,16 @@ title: Voeg uitgebreide kenmerken toe aan taken in Aspose.Tasks
 linktitle: Voeg uitgebreide kenmerken toe aan taken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks Java bij het aanpassen van Microsoft Project-bestanden met uitgebreide attributen. Verbeter moeiteloos uw projectmanagementmogelijkheden.
-type: docs
 weight: 11
 url: /nl/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg uitgebreide kenmerken toe aan taken in Aspose.Tasks
+
 ## Invoering
 Het verbeteren van uw projectmanagementmogelijkheden is cruciaal voor efficiënt taakbeheer en resourcebeheer. Aspose.Tasks voor Java biedt een krachtige oplossing voor Java-ontwikkelaars om Microsoft Project-bestanden naadloos te manipuleren. In deze zelfstudie onderzoeken we hoe u uitgebreide kenmerken aan taken kunt toevoegen met behulp van Aspose.Tasks voor Java, zodat u uw projectgegevens kunt aanpassen en ordenen volgens uw specifieke vereisten.
 ## Vereisten
@@ -75,3 +81,9 @@ A: Absoluut, Aspose.Tasks voor Java is ontworpen voor projecten van verschillend
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
 ### Vraag: Kan ik Aspose.Tasks voor Java uitproberen voordat ik het aanschaf?
  A: Ja, u heeft toegang tot een gratis proefversie[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

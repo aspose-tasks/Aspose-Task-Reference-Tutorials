@@ -3,10 +3,16 @@ title: قم بإنشاء مشروع فارغ وحفظه للبث في Aspose.Tas
 linktitle: قم بإنشاء مشروع فارغ وحفظه للبث في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعلم كيفية إنشاء ملفات MS Project الفارغة وحفظها في تدفق في Java باستخدام Aspose.Tasks، مما يبسط مهام إدارة المشروع دون عناء.
-type: docs
 weight: 13
 url: /ar/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مشروع فارغ وحفظه للبث في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Tasks لـ Java لإنشاء مشروع MS فارغ وحفظه في التدفق. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تمكن المطورين من العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project على الجهاز. باتباع هذا الدليل، ستتعلم الخطوات اللازمة لإنشاء ملف MS Project فارغ وحفظه باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ System.out.println("Project file generated Successfully");
  يمكنك الحصول على الدعم من منتدى المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks؟
  نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

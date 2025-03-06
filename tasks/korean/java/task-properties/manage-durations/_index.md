@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 기간 관리
 linktitle: Aspose.Tasks에서 작업 기간 관리
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks를 살펴보고 작업 기간을 손쉽게 관리하는 방법을 알아보세요. 효과적인 프로젝트 계획 및 실행을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 20
 url: /ko/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 기간 관리
+
 ## 소개
 Aspose.Tasks for Java는 프로젝트 작업 및 기간을 효율적으로 관리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 작업 기간을 관리하는 방법을 살펴보고 각 단계를 안내합니다. 숙련된 개발자이든 초보자이든 이 가이드는 프로젝트에서 작업 기간 작업의 필수 사항을 파악하는 데 도움이 됩니다.
 ## 전제조건
@@ -67,3 +73,9 @@ Aspose.Tasks는 Java 6 이상 버전과 호환됩니다.
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 ### Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/) 구매하기 전에 Aspose.Tasks를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

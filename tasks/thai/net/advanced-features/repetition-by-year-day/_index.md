@@ -3,10 +3,16 @@ title: การทำซ้ำตามวันปีใน Aspose.Tasks
 linktitle: การทำซ้ำตามวันปีใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการกับการทำซ้ำวันปีใน Aspose.Tasks สำหรับ .NET เพื่อปรับปรุงการจัดการงานที่เกิดซ้ำอย่างมีประสิทธิภาพ
-type: docs
 weight: 27
 url: /th/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำซ้ำตามวันปีใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในขอบเขตของการจัดการโครงการ การกำหนดเวลางานที่มีประสิทธิภาพและการเกิดซ้ำมีบทบาทสำคัญในการรับประกันการดำเนินการตามเวลาที่กำหนดและขั้นตอนการทำงานที่ราบรื่น Aspose.Tasks for .NET นำเสนอโซลูชันที่มีประสิทธิภาพสำหรับนักพัฒนาเพื่อจัดการกับงานที่เกิดซ้ำภายในแอปพลิเคชันของตนได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนในการทำงานกับการทำซ้ำวันปีโดยใช้ Aspose.Tasks ซึ่งให้คำแนะนำที่ครอบคลุมสำหรับการสร้างงานที่เกิดซ้ำตามรูปแบบรายปี
@@ -109,3 +115,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_T
 ### คำถามที่ 5: Aspose.Tasks เหมาะสำหรับทั้งโครงการขนาดเล็กและระดับองค์กรหรือไม่
 
 A5: แท้จริงแล้ว Aspose.Tasks ได้รับการออกแบบมาเพื่อตอบสนองความต้องการของนักพัฒนาที่ทำงานในโครงการทุกขนาด ตั้งแต่งานเดี่ยวไปจนถึงโครงการระดับองค์กรขนาดใหญ่
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lidando com salvamento de imagens em Aspose.Tasks
 linktitle: Lidando com salvamento de imagens em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como salvar imagens em Aspose.Tasks for .NET usando orientações passo a passo. Integre perfeitamente a funcionalidade de salvamento de imagens em seus aplicativos .NET.
-type: docs
 weight: 10
 url: /pt/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidando com salvamento de imagens em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos no processo de manipulação de salvamento de imagens no Aspose.Tasks for .NET. Aspose.Tasks é uma API poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente. Uma tarefa comum ao trabalhar com arquivos de projeto é a necessidade de salvar imagens, que podem incluir tabelas, gráficos ou outros elementos visuais. Descreveremos o processo passo a passo, garantindo clareza e compreensão do começo ao fim.
@@ -131,3 +137,9 @@ A4: Sim, você pode personalizar a aparência das imagens salvas modificando a l
 ### Q5: O Aspose.Tasks oferece versões de teste para fins de avaliação?
 
  A5: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

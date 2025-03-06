@@ -3,10 +3,16 @@ title: Extended Task Attributes in Aspose.Tasks
 linktitle: Extended Task Attributes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore extended task attributes in Aspose.Tasks for Java. Step-by-step guide, FAQs, and support. Optimize your project management today!
-type: docs
 weight: 16
 url: /java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extended Task Attributes in Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive guide on leveraging extended task attributes in Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows you to work with Microsoft Project documents seamlessly. In this tutorial, we will delve into the extended task attributes and demonstrate how you can utilize them to enhance your project management capabilities.
 ## Prerequisites
@@ -73,3 +79,10 @@ For support, visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
 You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase the full version of Aspose.Tasks for Java?
 You can purchase the full version [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Baca Data Fase Waktu untuk Sumber Daya di Aspose.Tasks
 linktitle: Baca Data Fase Waktu untuk Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengekstrak data bertahap dari sumber daya MS Project menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah.
-type: docs
 weight: 15
 url: /id/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Data Fase Waktu untuk Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses membaca data bertahap untuk sumber daya MS Project menggunakan Aspose.Tasks untuk Java. Pustaka ini menyediakan fungsionalitas canggih untuk mengelola file Microsoft Project secara terprogram.
 ## Prasyarat
@@ -74,3 +80,9 @@ Tentu saja, Aspose.Tasks menyediakan API ekstensif untuk membuat, memodifikasi, 
 Ya, Aspose.Tasks banyak digunakan di lingkungan perusahaan karena keandalan dan skalabilitasnya.
 ### Di mana saya dapat menemukan dukungan jika saya mengalami masalah saat menggunakan Aspose.Tasks?
  Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) atas bantuan dari masyarakat dan tim pendukung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

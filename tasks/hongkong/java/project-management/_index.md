@@ -3,10 +3,16 @@ title: 專案管理
 linktitle: 專案管理
 second_title: Aspose.Tasks Java API
 description: 透過我們全面的專案管理教程探索 Aspose.Tasks Java。從關鍵路徑計算到會計年度屬性，簡化您的工作流程。
-type: docs
 weight: 27
 url: /zh-hant/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 專案管理
+
 ## 介紹
 
 您準備好使用 Aspose.Tasks for Java 提升您的專案管理技能了嗎？深入了解我們的獨家教程，涵蓋一系列特性和功能，為您的 Java 開發之旅提供助力。從關鍵路徑計算到列印過程中處理任務寫入異常，我們都能滿足您的需求。讓我們探索等待著您的豐富知識。
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 了解如何在 Aspose.Tasks for Java 中列印頁面以分隔圖片。透過此逐步指南改進專案視覺化。
 ### [在 Aspose.Tasks 中列印期間處理任務寫入異常](./print-task-exceptions/)
 掌握 Aspose.Tasks for Java 中的異常處理，以確保專案的無縫執行。了解如何輕鬆處理列印過程中的任務寫入異常。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

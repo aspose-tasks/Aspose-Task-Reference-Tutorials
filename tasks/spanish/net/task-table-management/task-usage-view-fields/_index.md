@@ -3,10 +3,16 @@ title: Revelando campos de vista de uso de tareas en Aspose.Tasks
 linktitle: Colección de campos de vista de uso de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks para .NET para administrar y visualizar datos del proyecto sin esfuerzo. Sumérjase en los campos de visualización de uso de tareas para obtener información mejorada sobre el proyecto.
-type: docs
 weight: 25
 url: /es/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Revelando campos de vista de uso de tareas en Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, Aspose.Tasks para .NET se presenta como una solución sólida que proporciona a los desarrolladores un potente conjunto de herramientas para manipular y gestionar los datos del proyecto. Una de las características notables es la Vista de uso de tareas, que ofrece información sobre varios campos que mejoran la visibilidad del proyecto. En este tutorial, profundizaremos en las complejidades de los campos de vista de uso de tareas usando Aspose.Tasks para .NET, desglosando cada paso para una comprensión integral.
 ## Requisitos previos
@@ -64,3 +70,9 @@ Aspose.Tasks se centra principalmente en aplicaciones .NET. Sin embargo, puede e
  Sí, puedes adquirir licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/) para uso a corto plazo.
 ### ¿Qué formatos de archivo son compatibles con los documentos del proyecto?
 Aspose.Tasks para .NET admite varios formatos, incluidos MPP, XML y CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Définissez sans effort les marges des pages MS Project avec Aspose.Tasks
 linktitle: Définition des marges de page dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment ajuster les marges des pages dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Améliorez facilement la mise en page et la présentation des documents.
-type: docs
 weight: 19
 url: /fr/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définissez sans effort les marges des pages MS Project avec Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, l’efficacité et la précision sont primordiales. Aspose.Tasks for .NET fournit une boîte à outils puissante pour gérer les fichiers Microsoft Project par programmation, offrant aux développeurs la possibilité de rationaliser les processus et d'améliorer la productivité. Dans ce didacticiel, nous aborderons un aspect spécifique de la manipulation des fichiers de projet : la définition des marges de page à l'aide d'Aspose.Tasks pour .NET. À la fin de ce guide, vous disposerez des connaissances nécessaires pour ajuster de manière transparente les marges des pages dans les fichiers Microsoft Project, facilitant ainsi une meilleure mise en page et une meilleure présentation des documents.
 ## Conditions préalables
@@ -73,3 +79,9 @@ R : Aspose.Tasks offre une flexibilité dans la définition des valeurs de marge
 R : Oui, Aspose.Tasks offre une suite complète de fonctionnalités pour la gestion de projet, notamment la planification des tâches, l'allocation des ressources et le reporting.
 ### Q : Puis-je intégrer Aspose.Tasks dans des applications Web ?
 R : Absolument ! Aspose.Tasks pour .NET peut être intégré de manière transparente dans les applications Web pour améliorer les capacités de gestion de projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

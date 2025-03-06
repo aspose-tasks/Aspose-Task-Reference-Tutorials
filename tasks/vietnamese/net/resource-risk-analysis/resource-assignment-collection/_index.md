@@ -3,10 +3,16 @@ title: Bộ sưu tập các bài tập tài nguyên trong Aspose.Tasks
 linktitle: Bộ sưu tập các bài tập tài nguyên trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý việc gán tài nguyên trong Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 12
 url: /vi/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các bài tập tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách quản lý phân công tài nguyên trong Microsoft Project bằng Aspose.Tasks for .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước một, đảm bảo bạn hiểu rõ về cách thao tác các nhiệm vụ tài nguyên một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết.
 ## Điều kiện tiên quyết
@@ -94,3 +100,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ nhiều phiên bản khác nh
  Đáp: Có, giấy phép tạm thời được cấp cho mục đích đánh giá. Bạn có thể lấy một cái từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua giấy phép đầy đủ cho Aspose.Tasks cho .NET ở đâu?
  Trả lời: Bạn có thể mua giấy phép đầy đủ từ cửa hàng trực tuyến Aspose[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

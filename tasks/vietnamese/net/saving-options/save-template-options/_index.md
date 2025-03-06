@@ -3,10 +3,16 @@ title: Lưu tệp dự án MS dưới dạng mẫu với Aspose.Tasks
 linktitle: Lưu tùy chọn mẫu cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu tệp Microsoft Project dưới dạng mẫu bằng Aspose.Tasks cho .NET. Tùy chỉnh cài đặt mẫu để quản lý dự án hợp lý.
-type: docs
 weight: 18
 url: /vi/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tệp dự án MS dưới dạng mẫu với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ hướng dẫn quy trình lưu mẫu bằng Aspose.Tasks cho .NET. Các mẫu rất hữu ích cho việc chuẩn hóa cấu trúc và cài đặt dự án để sử dụng trong tương lai. Chúng tôi sẽ trình bày cách lưu dự án dưới dạng mẫu, đồng thời điều chỉnh các thuộc tính của dự án trong quá trình thực hiện.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Trả lời: Có, bạn có thể áp dụng mẫu cho các dự án hiện có 
 Trả lời: Aspose.Tasks for .NET được thiết kế chủ yếu cho các ứng dụng .NET framework chạy trên nền tảng Windows.
 ### Câu hỏi: Aspose.Tasks dành cho .NET có hỗ trợ kỹ thuật không?
  Trả lời: Có, bạn có thể tìm kiếm sự hỗ trợ và hướng dẫn kỹ thuật từ cộng đồng Aspose.Tasks[diễn đàn](https://forum.aspose.com/c/tasks/15)hoặc liên hệ trực tiếp với nhóm hỗ trợ của họ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

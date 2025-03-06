@@ -3,10 +3,16 @@ title: 读取 Aspose.Tasks 中资源的时间分段数据
 linktitle: 读取 Aspose.Tasks 中资源的时间分段数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 MS Project 资源中提取时间分段数据。分步教程。
-type: docs
 weight: 15
 url: /zh/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 读取 Aspose.Tasks 中资源的时间分段数据
+
 ## 介绍
 在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 读取 MS Project 资源的时间分段数据的过程。该库提供了以编程方式管理 Microsoft Project 文件的强大功能。
 ## 先决条件
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 是的，Aspose.Tasks 由于其可靠性和可扩展性而广泛应用于企业环境中。
 ### 如果在使用 Aspose.Tasks 时遇到问题，我可以在哪里找到支持？
 您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区和支持团队的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

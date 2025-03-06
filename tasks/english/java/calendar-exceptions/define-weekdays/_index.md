@@ -3,10 +3,16 @@ title: Define Weekdays for Calendar Exceptions with Aspose.Tasks
 linktitle: Define Weekdays for Calendar Exceptions with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to define weekdays for calendar exceptions in Java projects using Aspose.Tasks for accurate project scheduling.
-type: docs
 weight: 11
 url: /java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Define Weekdays for Calendar Exceptions with Aspose.Tasks
+
 ### Introduction
 In project management, defining exceptions for calendars is crucial for accurately representing non-standard working days or holidays within a project timeline. Aspose.Tasks for Java provides robust functionalities to manage calendars efficiently, including defining exceptions such as holidays or special working days. In this tutorial, we'll delve into how to define weekdays for calendar exceptions using Aspose.Tasks for Java.
 ### Prerequisites
@@ -69,3 +75,10 @@ A: You can programmatically handle exceptions based on dynamic project requireme
 ### Q: Is there a trial version available for Aspose.Tasks for Java?
 A: Yes, you can avail of a free trial version of Aspose.Tasks for Java from the [website](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

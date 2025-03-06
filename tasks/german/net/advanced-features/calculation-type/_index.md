@@ -3,10 +3,16 @@ title: Berechnungstyp in Aspose.Tasks
 linktitle: Berechnungstyp in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Wertberechnungen in .NET-Projekten mit dem Berechnungstyp in der Aspose.Tasks-Bibliothek anpassen.
-type: docs
 weight: 30
 url: /de/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berechnungstyp in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erkunden wir die Funktion „Berechnungstyp“ in Aspose.Tasks für .NET. Aspose.Tasks ist eine leistungsstarke Bibliothek, die es .NET-Entwicklern ermöglicht, mit Microsoft Project-Dateien zu arbeiten, ohne dass Microsoft Project auf ihren Systemen installiert sein muss. Mit dem Berechnungstyp können wir definieren, wie Werte für Aufgaben und Sammelaufgaben innerhalb eines Projekts berechnet werden.
@@ -97,3 +103,9 @@ A4: Ja, Aspose.Tasks bietet verschiedene Rollup-Typen wie Durchschnitt, Summe un
 ### F5: Wo finde ich weitere Ressourcen zu Aspose.Tasks für .NET?
 
  A5: Sie können die Dokumentation und die Community-Supportforen erkunden, die auf der Website verfügbar sind[Aspose.Tasks für .NET](https://reference.aspose.com/tasks/net/) für umfassende Beratung und Unterstützung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

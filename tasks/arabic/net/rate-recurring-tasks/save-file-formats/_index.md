@@ -3,10 +3,16 @@ title: حفظ ملفات مشروع MS بتنسيقات مختلفة في Aspose
 linktitle: حفظ الملفات بتنسيقات مختلفة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ ملفات MS Project بتنسيقات مختلفة باستخدام Aspose.Tasks لـ .NET. خطوات سهلة لإدارة المشاريع بكفاءة.
-type: docs
 weight: 17
 url: /ar/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ ملفات مشروع MS بتنسيقات مختلفة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ ملفات Microsoft Project بتنسيقات مختلفة باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات المشروع وإدارتها برمجيًا.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
  ج: نعم، التراخيص المؤقتة متاحة لأغراض التقييم. يمكنك الحصول على واحدة[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: ما هو سعر Aspose.Tasks؟
  ج: يمكن العثور على معلومات التسعير على صفحة شراء Aspose.Tasks[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

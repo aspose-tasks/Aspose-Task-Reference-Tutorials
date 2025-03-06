@@ -3,10 +3,16 @@ title: Atualizar e reprogramar MS Project em Aspose.Tasks
 linktitle: Atualizar projeto e reprogramar trabalho incompleto em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como atualizar e reagendar arquivos do MS Project programaticamente usando Aspose.Tasks para Java.
-type: docs
 weight: 23
 url: /pt/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atualizar e reprogramar MS Project em Aspose.Tasks
+
 ## Introdução
 O Microsoft Project é um software de gerenciamento de projetos amplamente utilizado que permite aos usuários gerenciar tarefas, recursos e cronogramas com eficiência. Aspose.Tasks for Java fornece um conjunto poderoso de APIs para manipular arquivos do Microsoft Project programaticamente. Neste tutorial, aprenderemos como atualizar arquivos do MS Project e reagendar trabalhos incompletos usando Aspose.Tasks for Java.
 ## Pré-requisitos
@@ -73,3 +79,9 @@ R: Sim, Aspose.Tasks for Java fornece APIs robustas para gerenciar tarefas, depe
  R: Sim, licenças temporárias estão disponíveis para compra[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso encontrar documentação detalhada para Aspose.Tasks for Java?
  R: Você pode consultar a documentação[aqui](https://reference.aspose.com/tasks/java/) para guias abrangentes e referências de API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

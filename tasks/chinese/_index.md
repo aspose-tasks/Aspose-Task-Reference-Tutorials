@@ -3,11 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 项目操作
 linktitle: Aspose.Tasks 教程
 additionalTitle: Aspose API 参考
 description: 释放项目管理能力！探索适用于 .NET、Java、C++ 等的 Aspose.Tasks 教程。轻松提升您的多种语言技能。
-type: docs
 weight: 11
 url: /zh/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 项目操作
+
 
 通过我们的 Aspose.Tasks 教程列表，全面探索跨各种编程语言的项目管理功能。无论您使用的是 Aspose.Tasks for .NET、Java、C++或其他语言，这个精选的教程集合旨在为各个级别的开发人员提供支持。从基本概念到高级技术，每个教程都提供分步指导，使您能够以您喜欢的语言充分利用 Aspose.Tasks 的潜力。深入研究我们丰富的存储库，提高您跨多个平台和编码环境的项目管理技能。让我们一起浏览 Aspose.Tasks 教程的多样化景观！
 
@@ -58,3 +63,9 @@ is_root: true
 - [任务链接](./java/task-links/)
 - [任务属性](./java/task-properties/)
 - [VBA集成](./java/vba-integration/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

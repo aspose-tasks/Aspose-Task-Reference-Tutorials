@@ -3,10 +3,16 @@ title: Configuration des options d'impression MS Project dans Aspose.Tasks
 linktitle: Configuration des options d'impression dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les options d'impression de MS Project de manière transparente à l'aide d'Aspose.Tasks pour .NET. Améliorez vos capacités de gestion de projet.
-type: docs
 weight: 14
 url: /fr/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration des options d'impression MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine du développement logiciel, Aspose.Tasks for .NET se distingue comme un outil puissant pour gérer efficacement les tâches et les projets. L'une de ses fonctionnalités clés est la possibilité de configurer les options d'impression de Microsoft Project de manière transparente. Dans ce didacticiel, nous aborderons le processus de configuration des options d'impression de MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -61,3 +67,9 @@ R : Oui, Aspose.Tasks pour .NET est conçu pour prendre en charge le multithread
  R : Oui, les utilisateurs peuvent accéder à une assistance technique complète via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), où ils peuvent demander l’aide et les conseils d’experts.
 ### Q : Puis-je évaluer Aspose.Tasks pour .NET avant d’effectuer un achat ?
  R : Absolument ! Vous pouvez bénéficier d’un essai gratuit d’Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/) pour explorer ses caractéristiques et fonctionnalités avant de vous engager.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

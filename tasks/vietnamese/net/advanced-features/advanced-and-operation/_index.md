@@ -3,10 +3,16 @@ title: Hoạt động VÀ nâng cao trong Aspose.Tasks
 linktitle: Hoạt động VÀ nâng cao trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thực hiện các thao tác AND nâng cao trong Aspose.Tasks dành cho .NET để lọc hiệu quả các tác vụ dự án dựa trên nhiều tiêu chí.
-type: docs
 weight: 10
 url: /vi/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động VÀ nâng cao trong Aspose.Tasks
+
 ## Giới thiệu
 
  Trong hướng dẫn này, chúng ta sẽ đi sâu vào thao tác AND nâng cao trong Aspose.Tasks cho .NET, một công cụ mạnh mẽ để quản lý các nhiệm vụ và dự án. Chúng ta sẽ khám phá cách lọc các nhiệm vụ dự án dựa trên nhiều điều kiện bằng cách sử dụng`Util.And` lớp học.
@@ -107,3 +113,9 @@ Trả lời: Có, Util.And có thể được sử dụng để kết hợp bấ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
 
 Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurera visningsalternativ för MS Project i Aspose.Tasks
 linktitle: Konfigurera projektvisningsalternativ i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du konfigurerar MS Projects visningsalternativ programmatiskt med Aspose.Tasks för .NET. Anpassa ditt projekts utseende utan ansträngning.
-type: docs
 weight: 17
 url: /sv/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurera visningsalternativ för MS Project i Aspose.Tasks
+
 ## Introduktion
 Microsoft Project erbjuder en uppsjö av visningsalternativ för att anpassa utseendet på ditt projekt. Aspose.Tasks för .NET tillhandahåller ett robust ramverk för att manipulera dessa alternativ programmatiskt. I den här handledningen kommer vi att utforska hur du konfigurerar MS Project-visningsalternativ med Aspose.Tasks.
 ## Förutsättningar
@@ -85,3 +91,9 @@ S: Nej, vissa alternativ kan vara specifika för vissa versioner av MS Project. 
 S: Ja, du kan återställa visningsalternativen till deras standardvärden med Aspose.Tasks API.
 ### F: Finns det några begränsningar för att anpassa visningsalternativ programmatiskt?
 S: Även om Aspose.Tasks tillhandahåller omfattande anpassningsmöjligheter, kanske vissa visningsalternativ inte är tillgängliga programmatiskt på grund av begränsningar i MS Project-filformatet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

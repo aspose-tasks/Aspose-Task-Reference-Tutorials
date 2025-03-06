@@ -3,10 +3,16 @@ title: Προγραμματισμός εργασιών βάσης στο Aspose.
 linktitle: Προγραμματισμός εργασιών βάσης στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να προγραμματίζετε αποτελεσματικά τις γραμμές βάσης εργασιών με το Aspose.Tasks για Java. Βελτιώστε τις διαδικασίες διαχείρισης του έργου σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προγραμματισμός εργασιών βάσης στο Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση των βασικών γραμμών εργασιών είναι μια κρίσιμη πτυχή της διαχείρισης έργου, που σας επιτρέπει να συγκρίνετε με ακρίβεια την προγραμματισμένη με την πραγματική πρόοδο. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εκτελέσετε τον προγραμματισμό εργασιών βάσης χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθώντας αυτά τα βήματα, θα είστε εξοπλισμένοι για να βελτιστοποιήσετε αποτελεσματικά τις διαδικασίες διαχείρισης του έργου σας.
 ## Προαπαιτούμενα
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για Java από το[σελίδα έκδοσης](https://releases.aspose.com/).
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για Java;
  Για οποιαδήποτε απορία ή βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

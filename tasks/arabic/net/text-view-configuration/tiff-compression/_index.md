@@ -3,10 +3,16 @@ title: دليل ضغط Tiff في Aspose.Tasks
 linktitle: اختيار ضغط Tiff في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في اختيار ضغط Tiff. اتبع دليلنا خطوة بخطوة لتصور المشروع بكفاءة.
-type: docs
 weight: 12
 url: /ar/net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل ضغط Tiff في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع وتتبع المهام، يظهر Aspose.Tasks for .NET كأداة قوية. بفضل ميزاته القوية، فإنه يوفر طريقة فعالة لإدارة المشاريع بسلاسة. إحدى الميزات البارزة هي القدرة على عرض المشاريع بتنسيق TIFF، مما يوفر حلاً متعدد الاستخدامات لتصور بيانات المشروع. في هذا البرنامج التعليمي، سوف نتعمق في عملية اختيار ضغط Tiff في Aspose.Tasks باستخدام إطار عمل .NET. دعونا نبدأ هذه الرحلة خطوة بخطوة، مما يضمن الفهم السلس للعملية.
 ## المتطلبات الأساسية
@@ -56,3 +62,9 @@ project.Save(DataDir + "RenderMultipageTIFF_comp_rle_out.tif", options);
  لأية استفسارات أو مناقشات، قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  للحصول على ترخيص مؤقت، قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

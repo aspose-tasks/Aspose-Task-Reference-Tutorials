@@ -3,10 +3,16 @@ title: Aspose.Tasks'a Güncellenmiş Kaynak Verilerini Yazma
 linktitle: Aspose.Tasks'a Güncellenmiş Kaynak Verilerini Yazma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project dosyalarındaki kaynak verilerini zahmetsizce nasıl güncelleyeceğinizi öğrenin.
-type: docs
 weight: 21
 url: /tr/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'a Güncellenmiş Kaynak Verilerini Yazma
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak Microsoft Project kaynak verilerini güncelleme konusunda size rehberlik edeceğiz. Aspose.Tasks, sisteminizde Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project dosyalarını değiştirmenize olanak tanıyan güçlü bir Java API'sidir.
 
@@ -98,3 +104,10 @@ C4: Evet, okuma, yazma ve görevleri, kaynakları ve takvimleri değiştirme gib
 ### S5: Aspose.Tasks için nereden ek yardım veya destek bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) herhangi bir yardım veya sorularınız için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

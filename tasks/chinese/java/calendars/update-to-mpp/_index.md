@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 将 MS Project 日历更新为 MPP 格式
 linktitle: 在 Aspose.Tasks 中将日历更新为 MPP 格式
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 轻松将 MS Project 日历更新为 MPP 格式。
-type: docs
 weight: 16
 url: /zh/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 将 MS Project 日历更新为 MPP 格式
+
 ## 介绍
 
 在项目管理领域，处理各种文件格式对于无缝协作和高效工作流程至关重要。 Aspose.Tasks for Java 提供了一个强大的解决方案来操作 Microsoft Project 文件，简化诸如将 MS Project 日历更新为 MPP 格式等任务。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 完成此任务所需的步骤。
@@ -116,3 +122,9 @@ A2：当然，Aspose.Tasks for Java 允许您自定义日历，以有效地满�
 ### Q5：如何获得 Aspose.Tasks for Java 的临时许可证？
 
  A5：要获取 Aspose.Tasks for Java 的临时许可证，请访问网站[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

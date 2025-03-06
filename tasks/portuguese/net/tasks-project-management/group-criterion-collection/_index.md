@@ -3,10 +3,16 @@ title: Gerenciar critérios de grupo do MS Project com Aspose.Tasks
 linktitle: Gerenciando a coleta de critérios de grupo em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar a coleção Group Criterion MS Project usando Aspose.Tasks for .NET. Guia passo a passo para desenvolvedores.
-type: docs
 weight: 28
 url: /pt/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar critérios de grupo do MS Project com Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for .NET é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project programaticamente. Neste tutorial, exploraremos como gerenciar a coleção de critérios de grupo no MS Project usando Aspose.Tasks.
 
@@ -126,3 +132,9 @@ R: Com certeza, você pode adicionar vários critérios a um grupo iterando cada
 ### P5: Como posso obter suporte se encontrar algum problema?
 
  R: Se você tiver alguma dúvida ou enfrentar algum problema, pode buscar suporte no fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

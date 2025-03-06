@@ -3,10 +3,16 @@ title: Aspose.Tasks Proje Yönetimi ve Entegrasyonu
 linktitle: Aspose.Tasks Proje Yönetimi ve Entegrasyonu
 second_title: Aspose.Tasks .NET API'si
 description: MS Project yönetimi, entegrasyonu ve özelleştirmesini kapsayan kapsamlı Aspose.Tasks for .NET eğitimlerini keşfedin. Proje yönetimi becerilerinizi şimdi geliştirin!
-type: docs
 weight: 27
 url: /tr/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Proje Yönetimi ve Entegrasyonu
+
 
 ## giriiş
 
@@ -62,3 +68,9 @@ Aspose.Tasks for .NET ile MS Project Server kimlik bilgilerini sorunsuz bir şek
 Aspose.Tasks for .NET ile kusursuz MS Project Server yönetiminin kilidini açın. Proje görevlerini zahmetsizce otomatikleştirin.
 ### [Aspose.Tasks'ta MS Proje Görünümlerini Özelleştirme](./project-views/)
 Aspose.Tasks for .NET'i kullanarak MS Project görünümlerini nasıl özelleştireceğinizi öğrenin. Verimli proje yönetimi görselleştirmesi için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

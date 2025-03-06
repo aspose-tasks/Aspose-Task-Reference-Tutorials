@@ -3,10 +3,16 @@ title: إدارة ترخيص مشروع MS في Aspose.Tasks .NET
 linktitle: إدارة ترخيص Aspose.Tasks في .NET
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة تراخيص Aspose.Tasks في تطبيقات .NET بسلاسة باستخدام الأساليب المستندة إلى الملفات أو المستندة إلى التدفق.
-type: docs
 weight: 10
 url: /ar/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة ترخيص مشروع MS في Aspose.Tasks .NET
+
 ## مقدمة
 تعد إدارة التراخيص جانبًا مهمًا لاستخدام Aspose.Tasks في تطبيقات .NET بشكل فعال. بدون الترخيص المناسب، قد تواجه قيودًا أو قيودًا على استخدامك. لحسن الحظ، يوفر Aspose.Tasks طرقًا مباشرة لتطبيق التراخيص باستخدام الملفات أو التدفقات في مشاريع .NET الخاصة بك. في هذا البرنامج التعليمي، سنستكشف خطوة بخطوة كيفية إدارة تراخيص Aspose.Tasks في تطبيقات .NET.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### س: هل يمكنني استخدام نفس ملف الترخيص لتطبيقات متعددة؟
 
 ج: نعم، يمكنك استخدام نفس ملف الترخيص عبر تطبيقات متعددة تم تطويرها بواسطة نفس المرخص له. ومع ذلك، تأكد من أن ترخيصك يتوافق مع شروط الاستخدام المحددة بواسطة Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Разделить дату завершения задачи в Aspose.T
 linktitle: Разделить дату завершения задачи в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как легко разделить даты завершения задач с помощью Aspose.Tasks для Java. Улучшите управление проектами с помощью точных сроков.
-type: docs
 weight: 28
 url: /ru/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Разделить дату завершения задачи в Aspose.Tasks
+
 ## Введение
 В управлении проектами понимание сроков выполнения задач имеет решающее значение для успешного завершения проекта. Aspose.Tasks for Java предоставляет мощные функции для эффективного управления задачами проекта. В этом уроке мы углубимся в разделение дат завершения задач с помощью Aspose.Tasks, что поможет вам эффективно управлять сроками проекта.
 ## Предварительные условия
@@ -54,3 +60,9 @@ System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 h
  A4: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/tasks/15).
 ### В5: Могу ли я приобрести Aspose.Tasks?
  A5: Да, вы можете приобрести его[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

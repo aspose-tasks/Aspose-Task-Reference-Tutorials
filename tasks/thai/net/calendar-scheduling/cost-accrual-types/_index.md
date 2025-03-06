@@ -3,10 +3,16 @@ title: ประเภทการรับรู้ต้นทุนใน Asp
 linktitle: ประเภทการรับรู้ต้นทุนใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการต้นทุนโครงการอย่างมีประสิทธิภาพด้วย Aspose.Tasks สำหรับ .NET กำหนดประเภทการรับรู้ต้นทุนเพื่อการติดตามงบประมาณที่แม่นยำ
-type: docs
 weight: 19
 url: /th/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ประเภทการรับรู้ต้นทุนใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในการจัดการโครงการ การติดตามต้นทุนอย่างแม่นยำถือเป็นสิ่งสำคัญในการรักษาการควบคุมงบประมาณและรับรองความสำเร็จของโครงการ Aspose.Tasks for .NET นำเสนอชุดเครื่องมือที่มีประสิทธิภาพสำหรับการจัดการต้นทุนโครงการ รวมถึงความสามารถในการกำหนดประเภทการรับรู้ต้นทุนที่แตกต่างกัน บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทำความเข้าใจและการใช้งานประเภทการรับรู้ต้นทุนโดยใช้ Aspose.Tasks สำหรับ .NET
@@ -86,3 +92,9 @@ A4: ได้ คุณสามารถตั้งค่าประเภท
 ### คำถามที่ 5: Aspose.Tasks สำหรับ .NET รองรับประเภทการคงค้างต้นทุนแบบกำหนดเองหรือไม่
 
 A5: ในเวอร์ชันล่าสุด Aspose.Tasks สำหรับ .NET ไม่สนับสนุนการกำหนดประเภทการรับรู้ต้นทุนแบบกำหนดเอง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

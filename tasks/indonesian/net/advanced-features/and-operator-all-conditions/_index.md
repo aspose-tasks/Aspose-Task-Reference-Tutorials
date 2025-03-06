@@ -3,10 +3,16 @@ title: Menggunakan AND Operator di Semua Kondisi dengan Aspose.Tasks
 linktitle: Menggunakan AND Operator di Semua Kondisi dengan Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menggunakan operator AND di semua kondisi dengan Aspose.Tasks untuk .NET guna memfilter tugas proyek secara efisien.
-type: docs
 weight: 11
 url: /id/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggunakan AND Operator di Semua Kondisi dengan Aspose.Tasks
+
 ## Perkenalan
 
 Apakah Anda ingin menyederhanakan tugas manajemen proyek Anda secara efisien? Dengan Aspose.Tasks untuk .NET, Anda dapat memanfaatkan fungsionalitas canggih untuk memanipulasi data proyek secara efektif. Salah satu fitur tersebut adalah kemampuan untuk menggunakan operator AND di semua kondisi, memungkinkan Anda memfilter tugas berdasarkan beberapa kriteria secara bersamaan. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan fungsi ini langkah demi langkah.
@@ -118,3 +124,9 @@ A4: Ya, Anda dapat mengintegrasikan Aspose.Tasks dengan kerangka kerja dan pusta
 ### Q5: Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk pengguna Aspose.Tasks?
 
  A5: Ya, Anda dapat mengakses forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

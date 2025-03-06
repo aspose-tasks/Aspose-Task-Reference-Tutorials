@@ -3,10 +3,16 @@ title: Освойте повременную обработку данных с 
 linktitle: Обработка повременных данных в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите Aspose.Tasks для .NET, чтобы легко обрабатывать повременные данные, улучшать планирование проектов и оптимизировать управление ресурсами. #Aspose #Задачи #MS Project
-type: docs
 weight: 14
 url: /ru/net/text-view-configuration/timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освойте повременную обработку данных с помощью Aspose.Tasks для .NET
+
 ## Введение
 В мире управления проектами эффективная обработка повременных данных имеет решающее значение для распределения ресурсов, оценки затрат и общего планирования проекта. Aspose.Tasks для .NET предоставляет мощное решение для беспрепятственной работы с пользовательскими повременными данными. Это руководство проведет вас через процесс обработки повременных данных с помощью Aspose.Tasks, что позволит вам оптимизировать управление ресурсами в ваших проектах.
 ## Предварительные условия
@@ -90,3 +96,9 @@ Aspose.Tasks в первую очередь предназначен для ра
  Узнайте о временных лицензиях[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти документацию по Aspose.Tasks для .NET?
  Обратитесь к комплексному[документация](https://reference.aspose.com/tasks/net/) для получения подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

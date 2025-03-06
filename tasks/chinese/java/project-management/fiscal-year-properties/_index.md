@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理会计年度属性
 linktitle: 在 Aspose.Tasks 中管理会计年度属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效管理会计年度属性。提供示例的分步指南。
-type: docs
 weight: 15
 url: /zh/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理会计年度属性
+
 ## 介绍
 Aspose.Tasks 是一个功能强大的 Java 库，使开发人员能够有效地管理项目文件，包括处理会计年度属性。在本教程中，我们将逐步介绍使用 Java 中的 Aspose.Tasks 管理会计年度属性的过程。
 ## 先决条件
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以访问 Aspose.Tasks 的免费试用版：[这里](https://releases.aspose.com/).
 ### 问：在哪里可以购买 Aspose.Tasks for Java 的许可证？
 答：您可以从以下位置购买 Aspose.Tasks for Java 的许可证：[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

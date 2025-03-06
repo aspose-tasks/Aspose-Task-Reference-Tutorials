@@ -3,10 +3,16 @@ title: Aspose.Tasks Zarys kodu i ustawienia strony
 linktitle: Aspose.Tasks Zarys kodu i ustawienia strony
 second_title: Aspose.Tasks .NET API
 description: Opanuj Aspose.Tasks dla .NET dzięki tutorialom na temat kodów konspektu, kolekcji, definicji, masek i ustawień strony. Popraw organizację i personalizację projektu.
-type: docs
 weight: 25
 url: /pl/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zarys kodu i ustawienia strony
+
 ## Wstęp
 Witamy w świecie płynnego zarządzania projektami z Aspose.Tasks dla .NET! W erze cyfrowej, gdzie precyzja i wydajność nie podlegają negocjacjom, opanowanie zawiłości programu Microsoft Project staje się rewolucją. Nasza obszerna seria samouczków poprowadzi Cię przez niuanse Aspose.Tasks dla .NET, umożliwiając łatwe zarządzanie kodami konspektu, manipulowanie definicjami danych, pracę z maskami, wartościami i dostosowywanie ustawień strony. Niezależnie od tego, czy jesteś doświadczonym kierownikiem projektu, czy nowicjuszem w tej dziedzinie, nasze samouczki są dostosowane do wszystkich poziomów umiejętności i zawierają instrukcje krok po kroku oraz przykłady kodu. Dołącz do nas w tej podróży, aby odblokować pełny potencjał Aspose.Tasks, rewolucjonizując sposób podejścia do organizacji i dostosowywania projektów. Zagłębmy się w szczegóły i wznieśmy Twoje umiejętności zarządzania projektami na nowy poziom!
 ## Zarządzanie kodami konspektu za pomocą Aspose.Tasks dla .NET
@@ -71,3 +77,9 @@ Dowiedz się, jak dostosować marginesy strony w plikach Microsoft Project przy 
 Dowiedz się, jak skonfigurować ustawienia strony MS Project przy użyciu Aspose.Tasks dla .NET. Dostosuj orientację, rozmiar i inne parametry za pomocą prostych kroków.
 ### [Dostosuj ustawienia widoku strony MS Project w Aspose.Tasks](./page-view-settings/)
 Dowiedz się, jak skonfigurować ustawienia widoku strony w Aspose.Tasks dla .NET, aby dostosować format drukowania dokumentów Microsoft Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

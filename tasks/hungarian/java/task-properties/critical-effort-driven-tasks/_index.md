@@ -3,10 +3,16 @@ title: A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tas
 linktitle: A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks segítségével könnyedén kezelheti Java-projektjei kritikus és erőfeszítést igénylő feladatait. Töltse le a könyvtárat, és javítsa projektkezelési képességeit.
-type: docs
 weight: 14
 url: /hu/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tasks alkalmazásban
+
 A projektmenedzsment felgyorsult világában a kritikus és erőfeszítés-vezérelt feladatok hatékony kezelése elengedhetetlen a sikeres projektek befejezéséhez. Az Aspose.Tasks for Java robusztus megoldást kínál ezeknek a feladatoknak a zökkenőmentes kezelésére. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.Tasks for Java használatán a kritikus és erőfeszítést igénylő feladatok kezeléséhez a projektekben.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
@@ -60,3 +66,9 @@ Igen, az Aspose.Tasks for Java platformfüggetlen, és Windows és Linux környe
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatom meg az Aspose.Tasks for Java-t?
  Az Aspose.Tasks for Java megvásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

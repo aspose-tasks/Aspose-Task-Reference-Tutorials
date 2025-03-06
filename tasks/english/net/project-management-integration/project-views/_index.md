@@ -3,10 +3,16 @@ title: Customizing MS Project Views in Aspose.Tasks
 linktitle: Customizing Project Views in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to customize MS Project views using Aspose.Tasks for .NET. Follow our step-by-step guide for efficient project management visualization.
-type: docs
 weight: 24
 url: /net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customizing MS Project Views in Aspose.Tasks
+
 ## Introduction
 Microsoft Project is a powerful tool for project management, allowing users to organize tasks, manage resources, and track progress effectively. Aspose.Tasks for .NET provides a convenient way to work with Microsoft Project files programmatically, enabling developers to customize project views to suit their specific needs. In this tutorial, we'll explore how to customize MS Project views using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -60,3 +66,10 @@ You can integrate customized project views by incorporating Aspose.Tasks for .NE
 Yes, Aspose.Tasks for .NET provides comprehensive documentation and support through its [forum](https://forum.aspose.com/c/tasks/15) and [documentation portal](https://reference.aspose.com/tasks/net/).
 ### 5. Can I try Aspose.Tasks for .NET before purchasing?
 Yes, you can avail of a [free trial](https://releases.aspose.com/) of Aspose.Tasks for .NET to evaluate its features and capabilities before making a purchase decision.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

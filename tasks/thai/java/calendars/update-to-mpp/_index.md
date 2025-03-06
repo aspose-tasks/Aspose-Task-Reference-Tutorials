@@ -3,10 +3,16 @@ title: อัปเดตปฏิทินโครงการ MS เป็น
 linktitle: อัปเดตปฏิทินเป็นรูปแบบ MPP ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีอัปเดตปฏิทิน MS Project เป็นรูปแบบ MPP ได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java
-type: docs
 weight: 16
 url: /th/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อัปเดตปฏิทินโครงการ MS เป็นรูปแบบ MPP ด้วย Aspose.Tasks
+
 ## การแนะนำ
 
 ในขอบเขตของการจัดการโครงการ การจัดการไฟล์รูปแบบต่างๆ ถือเป็นสิ่งสำคัญสำหรับการทำงานร่วมกันอย่างราบรื่นและขั้นตอนการทำงานที่มีประสิทธิภาพ Aspose.Tasks for Java นำเสนอโซลูชันที่มีประสิทธิภาพสำหรับการจัดการไฟล์ Microsoft Project ซึ่งอำนวยความสะดวกในงานต่างๆ เช่น การอัปเดตปฏิทิน MS Project เป็นรูปแบบ MPP ในบทช่วยสอนนี้ เราจะเจาะลึกขั้นตอนที่จำเป็นเพื่อให้บรรลุผลสำเร็จโดยใช้ Aspose.Tasks สำหรับ Java
@@ -116,3 +122,9 @@ System.out.println("Process completed Successfully");
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
 
  A5: หากต้องการรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java โปรดไปที่เว็บไซต์[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

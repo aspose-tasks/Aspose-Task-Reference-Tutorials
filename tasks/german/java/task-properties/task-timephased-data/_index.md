@@ -3,10 +3,16 @@ title: Aufgabenzeitphasendaten in Aspose.Tasks
 linktitle: Aufgabenzeitphasendaten in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie Aspose.Tasks für Java und meistern Sie die zeitphasengesteuerte Datenverwaltung von Aufgaben. Laden Sie die Bibliothek herunter, genießen Sie eine kostenlose Testversion und optimieren Sie Ihre Projektverfolgung.
-type: docs
 weight: 34
 url: /de/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufgabenzeitphasendaten in Aspose.Tasks
+
 ## Einführung
 Im Bereich des Projektmanagements ist die genaue Verfolgung von Aufgabenzeitphasendaten für eine effiziente Projektabwicklung von entscheidender Bedeutung. Aspose.Tasks für Java erweist sich als leistungsstarkes Tool zur Rationalisierung dieses Prozesses und bietet robuste Funktionen und Flexibilität. Dieses Tutorial führt Sie durch die Verwendung von Aspose.Tasks für Java, um Aufgabenzeitphasendaten effektiv zu verwalten.
 ## Voraussetzungen
@@ -104,3 +110,9 @@ A: Ja, Aspose.Tasks für Java ist mit jedem Java-basierten Projekt kompatibel.
  A: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Aspose.Tasks für Java kaufen?
  A: Sie können Aspose.Tasks für Java erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

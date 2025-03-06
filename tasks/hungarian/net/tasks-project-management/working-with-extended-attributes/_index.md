@@ -3,10 +3,16 @@ title: Manipulálja az MS Project kiterjesztett attribútumait az Aspose.Tasks s
 linktitle: Az Aspose.Tasks kiterjesztett attribútumainak használata
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg az MS Project kiterjesztett attribútumainak kezelését az Aspose.Tasks for .NET használatával. Egyszerűen kezelheti a feladatadatokat programozottan.
-type: docs
 weight: 11
 url: /hu/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulálja az MS Project kiterjesztett attribútumait az Aspose.Tasks segítségével
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Ennek a könyvtárnak az egyik legfontosabb jellemzője, hogy képes együttműködni az MS Project kiterjesztett attribútumaival. A kiterjesztett attribútumok további testreszabást és metaadatokat biztosítanak a projektben lévő feladatokhoz, lehetővé téve a felhasználók számára, hogy a szabványos feladattulajdonságokon túlmenően is tároljanak és kezeljenek bizonyos információkat.
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk az MS Project kiterjesztett attribútumaival az Aspose.Tasks for .NET használatával. Lefedjük az előfeltételeket, importálunk névtereket, és az egyes példákat több lépésre bontjuk, lépésről lépésre útmutató formátumban. Ennek az oktatóanyagnak a végére alapos ismerete lesz arról, hogyan használhatja ki a kiterjesztett attribútumokat .NET-alkalmazásaiban.
@@ -72,3 +78,9 @@ Igen, licencet kell vásárolnia az Aspose.Tasks for .NET kereskedelmi használa
 Igen, az Aspose.Tasks for .NET kiterjedt lehetőségeket kínál a kiterjesztett attribútumok testreszabásához a projekt speciális igényei szerint.
 ### Hol kaphatok támogatást, ha problémákat tapasztalok az Aspose.Tasks for .NET használata során?
  Támogatást kaphat az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

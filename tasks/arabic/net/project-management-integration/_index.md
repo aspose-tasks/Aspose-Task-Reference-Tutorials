@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة المشاريع والتكامل
 linktitle: Aspose.Tasks إدارة المشاريع والتكامل
 second_title: Aspose.Tasks .NET API
 description: اكتشف Aspose.Tasks الشامل لبرامج .NET التعليمية التي تغطي إدارة MS Project والتكامل والتخصيص. عزز مهاراتك في إدارة المشاريع الآن!
-type: docs
 weight: 27
 url: /ar/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة المشاريع والتكامل
+
 
 ## مقدمة
 
@@ -62,3 +68,9 @@ url: /ar/net/project-management-integration/
 أطلق العنان لإدارة MS Project Server السلسة باستخدام Aspose.Tasks لـ .NET. أتمتة مهام المشروع دون عناء.
 ### [تخصيص طرق عرض مشروع MS في Aspose.Tasks](./project-views/)
 تعرف على كيفية تخصيص طرق عرض MS Project باستخدام Aspose.Tasks لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تصور فعال لإدارة المشاريع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Genişletilmiş Görev Nitelikleri
 linktitle: Aspose.Tasks'ta Genişletilmiş Görev Nitelikleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'daki genişletilmiş görev niteliklerini keşfedin. Adım adım kılavuz, SSS ve destek. Proje yönetiminizi bugün optimize edin!
-type: docs
 weight: 16
 url: /tr/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Genişletilmiş Görev Nitelikleri
+
 ## giriiş
 Aspose.Tasks for Java'da genişletilmiş görev niteliklerinden yararlanmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Aspose.Tasks, Microsoft Project belgeleriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, genişletilmiş görev niteliklerini derinlemesine inceleyeceğiz ve proje yönetimi yeteneklerinizi geliştirmek için bunları nasıl kullanabileceğinizi göstereceğiz.
 ## Önkoşullar
@@ -73,3 +79,9 @@ Evet, Aspose.Tasks for Java'yı kullanarak genişletilmiş görev niteliklerini 
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for Java'nın tam sürümünü nereden satın alabilirim?
  Tam sürümünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

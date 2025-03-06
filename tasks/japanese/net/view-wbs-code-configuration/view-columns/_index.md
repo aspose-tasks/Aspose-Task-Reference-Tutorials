@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET を使用した MS Project ビュー列のマスタ
 linktitle: Aspose.Tasks でのビュー列の処理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用してプロジェクトの視覚化を強化します。 MS Project ビューの列の処理方法を段階的に学習します。効率性とカスタマイズ性を高めます。
-type: docs
 weight: 12
 url: /ja/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET を使用した MS Project ビュー列のマスタリング
+
 ## 導入
 プロジェクト管理の分野では、Aspose.Tasks for .NET は Microsoft Project ファイルを処理するための強力なツールキットとして際立っています。プロジェクトの視覚化の重要な側面の 1 つは、ビュー列を効率的に管理することです。このチュートリアルでは、Aspose.Tasks を使用して MS Project ビューの列を処理する方法を検討し、プロジェクト ビューをカスタマイズおよび最適化できるようにします。
 ## 前提条件
@@ -80,3 +86,9 @@ A: Aspose.Tasks は主に Microsoft Project ファイルに焦点を当ててい
  A:`MyTextStyleCallback`このクラスは、特定のビューでの視覚表現を改善するためにテキスト スタイルをカスタマイズする方法を示します。
 ### Q: Aspose.Tasks の追加リソースとドキュメントはどこで入手できますか?
  A: を参照してください。[Aspose.Tasks ドキュメント](https://reference.aspose.com/tasks/net/)詳細なガイダンスとリソースが必要です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Buat Tautan Tugas Lintas Proyek di Aspose.Tasks
 linktitle: Buat Tautan Tugas Lintas Proyek di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Tingkatkan kolaborasi proyek dengan Aspose.Tasks untuk Java. Pelajari cara membuat tautan tugas lintas proyek langkah demi langkah. Tingkatkan efisiensi sekarang!
-type: docs
 weight: 10
 url: /id/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tautan Tugas Lintas Proyek di Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia manajemen proyek yang dinamis, efisiensi dan kolaborasi adalah yang terpenting. Aspose.Tasks untuk Java memberikan solusi tangguh untuk meningkatkan kemampuan manajemen proyek Anda. Dalam tutorial ini, kita akan mempelajari proses pembuatan tautan tugas lintas proyek menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah ini akan membekali Anda dengan keterampilan untuk menghubungkan tugas-tugas di berbagai proyek dengan lancar, mendorong peningkatan koordinasi dan alur kerja yang efisien.
 ## Prasyarat
@@ -78,3 +84,9 @@ Ya, Aspose.Tasks untuk Java mendukung penautan tugas antar proyek dalam berbagai
 Ya, Anda dapat membatalkan tautan tugas dengan menghapus tautan tugas menggunakan metode Aspose.Tasks yang sesuai.
 ### Apakah ada batasan jumlah tugas yang dapat dihubungkan antar proyek?
 Jumlah tugas yang dapat ditautkan bergantung pada kemampuan dan batasan lisensi Aspose.Tasks Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

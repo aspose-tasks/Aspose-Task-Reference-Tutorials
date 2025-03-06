@@ -3,10 +3,16 @@ title: Integrasi Proyek MS Pembantu Lapangan di Aspose.Tasks
 linktitle: Pembantu Lapangan di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memanfaatkan Aspose.Tasks agar .NET dapat bekerja dengan file MS Project secara lancar.
-type: docs
 weight: 15
 url: /id/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrasi Proyek MS Pembantu Lapangan di Aspose.Tasks
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET adalah API canggih yang memungkinkan pengembang bekerja secara lancar dengan file Microsoft Project di aplikasi .NET mereka. Baik Anda sedang membangun alat manajemen proyek, mengintegrasikan fungsionalitas proyek ke dalam aplikasi Anda, atau hanya perlu memanipulasi file proyek secara terprogram, Aspose.Tasks menyediakan alat yang Anda perlukan untuk menyelesaikan pekerjaan secara efisien.
@@ -74,3 +80,9 @@ J: Ya, Aspose.Tasks untuk .NET dirancang untuk bekerja dengan berbagai versi Mic
 ### Q5: Di mana saya dapat membeli lisensi Aspose.Tasks untuk .NET?
 
  J: Anda dapat membeli lisensi Aspose.Tasks untuk .NET dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργήστε δεδομένα χρονικής φάσης σ�
 linktitle: Δημιουργήστε δεδομένα χρονικής φάσης για αναθέσεις πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να δημιουργείτε δεδομένα χρονικής φάσης για αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε την αποτελεσματικότητα της διαχείρισης έργου με αυτόν τον περιεκτικό οδηγό.
-type: docs
 weight: 24
 url: /el/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε δεδομένα χρονικής φάσης στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία δημιουργίας δεδομένων χρονικής φάσης για αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Τα δεδομένα χρονικής φάσης παρέχουν πολύτιμες πληροφορίες για τον τρόπο κατανομής των πόρων με την πάροδο του χρόνου σε ένα έργο, βοηθώντας τους διαχειριστές του έργου να λαμβάνουν τεκμηριωμένες αποφάσεις.
 ## Προαπαιτούμενα
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 Ναι, το Aspose.Tasks επιτρέπει στους χρήστες να ορίζουν προσαρμοσμένα περιγράμματα εργασίας για να ταιριάζουν στις συγκεκριμένες ανάγκες του έργου τους.
 ### Υπάρχει κάποιο φόρουμ κοινότητας όπου μπορώ να λάβω βοήθεια με το Aspose.Tasks;
  Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

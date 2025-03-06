@@ -3,10 +3,16 @@ title: Állítsa be az erőforrás tulajdonságait az Aspose.Tasks-ban
 linktitle: Állítsa be az erőforrás tulajdonságait az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan állíthatja be az MS Project erőforrás tulajdonságait Java nyelven az Aspose.Tasks segítségével a zökkenőmentes integráció és a hatékony feladatkezelés érdekében.
-type: docs
 weight: 20
 url: /hu/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az erőforrás tulajdonságait az Aspose.Tasks-ban
+
 ## Bevezetés
 Java fejlesztés területén a feladatok hatékony kezelése a projektmenedzsment kulcsfontosságú szempontja. Az Aspose.Tasks for Java robusztus megoldást kínál a fejlesztők számára a Microsoft Project fájlokkal való interakcióhoz, lehetővé téve a feladatkezelési funkciók Java alkalmazásokba való zökkenőmentes integrációját. Ebben az oktatóanyagban az MS Project erőforrás-tulajdonságainak beállításával foglalkozunk az Aspose.Tasks for Java használatával. Ennek az útmutatónak a végére átfogó ismerete lesz arról, hogyan lehet manipulálni az erőforrás-tulajdonságokat a Java-projektekben.
 ## Előfeltételek
@@ -63,3 +69,9 @@ Igen, az Aspose.Tasks for Java képes az MS Project fájlformátumok széles sk�
  Ideiglenes engedélyt szerezhet a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) értékelési célokra.
 ### Hol vásárolhatom meg az Aspose.Tasks for Java licencelt verzióját?
  Megvásárolhatja az Aspose.Tasks for Java licencelt verzióját a webhelyről[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

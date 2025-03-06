@@ -3,10 +3,16 @@ title: Tích hợp dự án MS của Field Helper trong Aspose.Tasks
 linktitle: Trình trợ giúp hiện trường trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tận dụng Aspose.Tasks để .NET hoạt động liền mạch với các tệp MS Project.
-type: docs
 weight: 15
 url: /vi/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp dự án MS của Field Helper trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project trong ứng dụng .NET của họ. Cho dù bạn đang xây dựng một công cụ quản lý dự án, tích hợp chức năng dự án vào ứng dụng của mình hay chỉ cần thao tác với các tệp dự án theo chương trình, Aspose.Tasks đều cung cấp các công cụ bạn cần để hoàn thành công việc một cách hiệu quả.
@@ -74,3 +80,9 @@ Trả lời: Có, Aspose.Tasks for .NET được thiết kế để hoạt độ
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.Tasks cho .NET ở đâu?
 
  Trả lời: Bạn có thể mua giấy phép Aspose.Tasks cho .NET từ trang web Aspose[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

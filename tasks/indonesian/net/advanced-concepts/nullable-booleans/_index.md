@@ -3,10 +3,16 @@ title: Menangani Boolean Nullable di Aspose.Tasks
 linktitle: Menangani Boolean Nullable di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani boolean nullable secara efektif di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Kuasai penggunaan kelas `NullableBool` dan tingkatkan pengembangan .NET Anda.
-type: docs
 weight: 21
 url: /id/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Boolean Nullable di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menggunakan boolean nullable di Aspose.Tasks untuk .NET. Boolean yang dapat dibatalkan menawarkan fleksibilitas dalam merepresentasikan nilai boolean, memungkinkan adanya kemungkinan untuk tidak terdefinisi. Kami akan menjelajahi cara menggunakan`NullableBool` kelas, konstruktor, properti, dan metodenya.
@@ -153,3 +159,9 @@ A4: Ya, Anda dapat menyetel boolean yang dapat dibatalkan menjadi tidak terdefin
 ### Q5: Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Tasks untuk .NET?
 
  A5: Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

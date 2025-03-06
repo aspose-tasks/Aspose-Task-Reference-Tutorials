@@ -3,10 +3,16 @@ title: Panduan Kustomisasi Jenis Item Teks di Aspose.Tasks
 linktitle: Menangani Jenis Item Teks di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kustomisasi jenis item teks utama di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan permainan manajemen proyek Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Panduan Kustomisasi Jenis Item Teks di Aspose.Tasks
+
 ## Perkenalan
 Jika Anda seorang pengembang .NET yang mendalami manajemen proyek menggunakan Aspose.Tasks, Anda datang ke tempat yang tepat! Dalam panduan langkah demi langkah ini, kita akan menjelajahi seluk-beluk penanganan jenis item teks di Aspose.Tasks, dengan fokus pada penyesuaian menggunakan pustaka .NET yang canggih.
 ## Prasyarat
@@ -74,3 +80,9 @@ Selamat! Anda baru saja mempelajari permukaan penanganan tipe item teks di Aspos
 J: Jelajahi tutorial lainnya di dokumentasi Aspose.Tasks.
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?
  A: Beli perpustakaan[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

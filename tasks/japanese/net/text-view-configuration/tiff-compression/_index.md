@@ -3,10 +3,16 @@ title: Aspose.Tasks の Tiff 圧縮ガイド
 linktitle: Aspose.Tasks での Tiff 圧縮の選択
 second_title: Aspose.Tasks .NET API
 description: Tiff 圧縮を選択する際の Aspose.Tasks for .NET の機能を調べてください。プロジェクトを効率的に視覚化するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の Tiff 圧縮ガイド
+
 ## 導入
 プロジェクト管理とタスク追跡の領域では、Aspose.Tasks for .NET が強力なツールとして浮上します。堅牢な機能により、プロジェクトをシームレスに管理する効率的な方法を提供します。注目すべき機能の 1 つは、プロジェクトを TIFF 形式でレンダリングする機能で、プロジェクト データを視覚化するための多用途のソリューションを提供します。このチュートリアルでは、.NET Framework を使用して Aspose.Tasks で Tiff 圧縮を選択するプロセスを詳しく説明します。プロセスをスムーズに理解できるように、この旅を段階的に進めてみましょう。
 ## 前提条件
@@ -56,3 +62,9 @@ Aspose.Tasks は主に .NET 統合に重点を置いています。ただし、A
 質問や議論については、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスを取得するには、次のサイトにアクセスしてください。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

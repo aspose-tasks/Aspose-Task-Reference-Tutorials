@@ -3,10 +3,16 @@ title: Menguasai Koleksi Modul VBA di Aspose.Tasks
 linktitle: Mengelola Koleksi Modul VBA di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Temukan cara mengelola Koleksi Modul VBA secara efisien di Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk integrasi yang lancar ke dalam proyek Anda.
-type: docs
 weight: 13
 url: /id/net/vba-module-reference/vba-module-collections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Koleksi Modul VBA di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang mengelola Koleksi Modul VBA di Aspose.Tasks untuk .NET! Jika Anda terjun ke dunia manajemen proyek yang menarik dengan Aspose.Tasks, memahami cara bekerja dengan modul VBA sangatlah penting. Panduan ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memperoleh keterampilan yang diperlukan untuk mengelola modul VBA secara efektif dalam proyek Anda.
 ## Prasyarat
@@ -72,3 +78,9 @@ Aspose.Tasks terutama mendukung bahasa .NET seperti C#. Namun, ada versi Java ya
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Tasks?
  Jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

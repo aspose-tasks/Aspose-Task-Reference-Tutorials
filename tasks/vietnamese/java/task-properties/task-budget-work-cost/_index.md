@@ -3,10 +3,16 @@ title: Quản lý ngân sách, công việc và chi phí cho các nhiệm vụ t
 linktitle: Quản lý ngân sách, công việc và chi phí cho các nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khai phá khả năng quản lý ngân sách và chi phí hiệu quả trong các dự án Java với Aspose.Tasks. Khám phá hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 31
 url: /vi/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ngân sách, công việc và chi phí cho các nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Quản lý ngân sách, công việc và chi phí một cách hiệu quả là rất quan trọng để thực hiện dự án thành công. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tác vụ liên quan đến dự án, bao gồm lập ngân sách và quản lý chi phí. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks cho Java để quản lý ngân sách, công việc và chi phí hiệu quả trong các dự án của bạn.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Có, Aspose.Tasks for Java tương thích với nhiều khung Java khác nhau, �
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
 ### Có tài nguyên bổ sung nào cho Aspose.Tasks cho Java không?
  Tham khảo tài liệu[đây](https://reference.aspose.com/tasks/java/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

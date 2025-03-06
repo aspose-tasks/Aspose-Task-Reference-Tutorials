@@ -3,10 +3,16 @@ title: Nắm vững việc thu thập dữ liệu theo pha thời gian trong Asp
 linktitle: Thu thập dữ liệu theo pha thời gian trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá việc thu thập dữ liệu theo pha thời gian trong Aspose.Tasks cho .NET. Hướng dẫn từng bước, Câu hỏi thường gặp và hơn thế nữa. Hãy nâng cao khả năng quản lý dự án của bạn ngay hôm nay!
-type: docs
 weight: 15
 url: /vi/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững việc thu thập dữ liệu theo pha thời gian trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách khai thác sức mạnh của dữ liệu phân đoạn thời gian trong các ứng dụng .NET của mình bằng Aspose.Tasks? Đừng tìm đâu xa! Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình thu thập dữ liệu theo pha thời gian với Aspose.Tasks cho .NET, đảm bảo rằng bạn tận dụng tối đa thư viện mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -121,3 +127,9 @@ Aspose.Tasks xử lý các dự án có quy mô khác nhau và không có giới
  Có, bạn có thể khám phá các tính năng của Aspose.Tasks for .NET bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể mua giấy phép Aspose.Tasks cho .NET ở đâu?
 Bạn có thể mua giấy phép Aspose.Tasks cho .NET[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

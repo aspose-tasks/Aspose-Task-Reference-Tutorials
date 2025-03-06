@@ -3,10 +3,16 @@ title: กำหนดค่าตัวเลือก MS Project XLSX ใน A
 linktitle: การกำหนดค่าตัวเลือก XLSX ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าตัวเลือก MS Project XLSX ใน Aspose.Tasks สำหรับ .NET ปรับแต่งคอลัมน์ การเข้ารหัส และอื่นๆ ได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำหนดค่าตัวเลือก MS Project XLSX ใน Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 Microsoft Project (MS Project) เป็นเครื่องมืออันทรงพลังสำหรับการจัดการโครงการ และ Aspose.Tasks สำหรับ .NET มอบการบูรณาการที่ราบรื่นสำหรับการทำงานกับไฟล์ MS Project โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการกำหนดค่าตัวเลือก MS Project XLSX โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -90,3 +96,9 @@ project.Save("OutputFile.xlsx", options);
 ### ถาม: มีตัวเลือกใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
 
  ตอบ: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าใบอนุญาตชั่วคราวของ Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

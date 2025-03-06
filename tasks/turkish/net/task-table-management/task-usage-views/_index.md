@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Görev Kullanım Görünümlerinde Uzmanlaşma
 linktitle: Aspose.Tasks'ta Görev Kullanımı Görünümlerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i keşfedin ve görev kullanım görünümlerini nasıl yapılandıracağınızı öğrenin. Zaman ölçeği ayarlarını özelleştirin ve proje yönetimi görsellerinizi geliştirin.
-type: docs
 weight: 24
 url: /tr/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Görev Kullanım Görünümlerinde Uzmanlaşma
+
 ## giriiş
 Proje yönetimi alanında görev kullanımını görselleştirmek etkili planlama ve yürütme açısından çok önemlidir. Aspose.Tasks for .NET, görev kullanım görünümlerini oluşturmak için güçlü bir çözüm sunarak zaman ölçeği ayarlarını ve sunum formatlarını özelleştirmenize olanak tanır. Bu eğitimde Aspose.Tasks'ı kullanarak görev kullanım görünümlerini yapılandırma adımlarını anlatacağız.
 ## Önkoşullar
@@ -75,3 +81,9 @@ Evet, Aspose.Tasks MPP, XML ve CSV gibi popüler proje dosyası formatlarını d
 Kesinlikle, projenizdeki bireysel görevler için zaman ölçeği ayarlarını özelleştirebilirsiniz.
 ### Aspose.Tasks için nasıl destek alabilirim veya yardım isteyebilirim?
  Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve rehberlik için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: De kloof tussen de takenlijst en de voettekst verkleinen in Aspose.Tasks
 linktitle: De kloof tussen de takenlijst en de voettekst verkleinen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u de kloof tussen MS Project-takenlijsten en voetteksten kunt verkleinen met Aspose.Tasks voor Java. Optimaliseer moeiteloos de lay-out van projectdocumenten.
-type: docs
 weight: 10
 url: /nl/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# De kloof tussen de takenlijst en de voettekst verkleinen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het verkleinen van de kloof tussen de takenlijst en de voettekst in Microsoft Project-bestanden met behulp van Aspose.Tasks voor Java. Door deze stappen te volgen, kunt u de lay-out van uw projectdocumenten moeiteloos optimaliseren.
 ## Vereisten
@@ -105,3 +111,9 @@ A: Ja, Aspose.Tasks ondersteunt een breed scala aan formaten, waaronder onder an
 ### Vraag: Waar kan ik ondersteuning krijgen als ik problemen ondervind tijdens het gebruik van Aspose.Tasks?
 
  A: U kunt hulp krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

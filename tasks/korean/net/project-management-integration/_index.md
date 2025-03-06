@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트 관리 및 통합
 linktitle: Aspose.Tasks 프로젝트 관리 및 통합
 second_title: Aspose.태스크 .NET API
 description: MS 프로젝트 관리, 통합 및 사용자 정의를 다루는 포괄적인 .NET용 Aspose.Tasks 튜토리얼을 살펴보세요. 지금 프로젝트 관리 기술을 강화해보세요!
-type: docs
 weight: 27
 url: /ko/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트 관리 및 통합
+
 
 ## 소개
 
@@ -62,3 +68,9 @@ Aspose.Tasks for .NET에서 MS Project Primavera XML Reader를 활용하여 프�
 .NET용 Aspose.Tasks를 사용하여 원활한 MS Project Server 관리를 잠금 해제하세요. 프로젝트 작업을 손쉽게 자동화하세요.
 ### [Aspose.Tasks에서 MS 프로젝트 보기 사용자 정의](./project-views/)
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 보기를 사용자 정의하는 방법을 알아보세요. 효율적인 프로젝트 관리 시각화를 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

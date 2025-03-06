@@ -3,10 +3,16 @@ title: Umgang mit geteilten MS Project-Teilen in Aspose.Tasks
 linktitle: Umgang mit geteilten Teilen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET effizient mit geteilten MS Project-Teilen umgehen. Verbessern Sie Ihren Projektmanagement-Workflow.
-type: docs
 weight: 18
 url: /de/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umgang mit geteilten MS Project-Teilen in Aspose.Tasks
+
 
 ## Einführung
 Die Verwaltung geteilter MS Project-Teile kann ein entscheidender Aspekt des Projektmanagements sein, wenn Sie Aspose.Tasks für .NET verwenden. In diesem Tutorial erfahren Sie anhand einer Schritt-für-Schritt-Anleitung, wie Sie mit geteilten Teilen effektiv umgehen.
@@ -94,3 +100,9 @@ A: Ja, mit Aspose.Tasks für .NET können Sie Projektressourcen effizient verwal
 A: Auf jeden Fall können Sie Projektkalender an Ihre Projektanforderungen anpassen.
 ### F: Wo finde ich Unterstützung für Aspose.Tasks für .NET?
  A: Unterstützung und Hilfe finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

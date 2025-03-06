@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的貨幣符號位置
 linktitle: Aspose.Tasks 中的貨幣符號位置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 輕鬆控制 .NET 專案中的貨幣符號位置。
-type: docs
 weight: 22
 url: /zh-hant/net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的貨幣符號位置
+
 ## 介紹
 
 在軟體開發中，高效處理專案管理等各個方面至關重要。 Aspose.Tasks for .NET 提供了強大的解決方案，可在 .NET 應用程式中無縫管理任務、專案和資源。在其眾多功能中，控制貨幣符號的位置對於財務追蹤和報告至關重要。在本教學中，我們將探索如何使用 Aspose.Tasks for .NET 操作貨幣符號位置。
@@ -84,3 +90,9 @@ A2：是的，Aspose.Tasks 支援多種貨幣，允許開發人員使用各種�
 ### Q5：如何購買 Aspose.Tasks for .NET 的授權？
 
  A5：您可以從以下位置購買 Aspose.Tasks for .NET 的授權：[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中可用時段的集合
 linktitle: Aspose.Tasks 中可用時段的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何管理 Aspose.Tasks for .NET 中資源的可用期限。本逐步教學將引導您新增、更新和刪除可用期，確保有效的專案資源規劃。
-type: docs
 weight: 18
 url: /zh-hant/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中可用時段的集合
+
 ## 介紹
 
 在本教程中，我們將探討如何在 Aspose.Tasks for .NET 中使用資源的可用期集合。管理可用期對於專案管理至關重要，它使我們能夠定義資源何時可用於專案內的任務。
@@ -148,3 +154,9 @@ A4：Aspose.Tasks for .NET 不提供內建機制來處理重疊週期。您可�
 ### Q5：資源的可用期限有限制嗎？
 
 A5：資源可以擁有的可用週期數沒有預先定義限制，但週期數過多可能會導致效能下降。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

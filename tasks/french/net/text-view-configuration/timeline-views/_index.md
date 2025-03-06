@@ -3,10 +3,16 @@ title: Maîtriser les vues des chronologies du projet dans Aspose.Tasks
 linktitle: Personnalisation des vues chronologiques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Maîtrisez Aspose.Tasks pour .NET dans la personnalisation des vues chronologiques. Améliorez la gestion de votre projet avec des délais visuellement attrayants adaptés aux besoins de votre projet.
-type: docs
 weight: 13
 url: /fr/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les vues des chronologies du projet dans Aspose.Tasks
+
 ## Introduction
 La création de vues chronologiques visuellement attrayantes et informatives est cruciale pour une gestion de projet efficace. Aspose.Tasks for .NET fournit une solution robuste pour personnaliser les vues chronologiques, vous permettant d'adapter l'affichage des tâches en fonction des besoins spécifiques de votre projet. Dans ce guide étape par étape, nous explorerons comment utiliser Aspose.Tasks pour créer et personnaliser des vues chronologiques sans effort.
 ## Conditions préalables
@@ -76,3 +82,9 @@ Absolument! Aspose.Tasks offre la flexibilité de personnaliser l'apparence de c
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

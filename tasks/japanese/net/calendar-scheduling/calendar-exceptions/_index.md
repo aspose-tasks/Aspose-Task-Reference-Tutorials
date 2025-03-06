@@ -3,10 +3,16 @@ title: Aspose.Tasks でのカレンダー例外の処理
 linktitle: Aspose.Tasks でのカレンダー例外の処理
 second_title: Aspose.Tasks .NET API
 description: ステップバイステップのチュートリアルと例を使用して、Aspose.Tasks for .NET でカレンダーの例外を管理する方法を学びます。
-type: docs
 weight: 12
 url: /ja/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのカレンダー例外の処理
+
 ## 導入
 
 このチュートリアルでは、.NET Framework を使用して Aspose.Tasks でカレンダーの例外を管理する方法を検討します。カレンダーの例外を使用すると、休日や臨時休業など、通常の作業スケジュールが変更される特別な日付や期間をプロジェクト カレンダーに定義できます。 Aspose.Tasks for .NET を使用して、カレンダーの例外を処理するさまざまな方法を段階的に説明します。
@@ -156,3 +162,9 @@ A4: Aspose.Tasks は、日次、週次、月次、年次の例外を含むさま
 ### Q5: 特定の例外日の勤務時間をカスタマイズできますか?
 
 A5: はい、Aspose.Tasks が提供する適切なメソッドを使用して、個々の例外日のカスタム作業時間を定義できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して空のプロジェクトを MPP 形式で作�
 linktitle: Aspose.Tasks を使用して空のプロジェクトを MPP 形式で作成して保存する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して空の MS プロジェクト ファイル (MPP) を作成して保存する方法を学びます。プロジェクト管理タスクを簡単に簡素化します。
-type: docs
 weight: 12
 url: /ja/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して空のプロジェクトを MPP 形式で作成して保存する
+
 ## 導入
 Aspose.Tasks for Java を使用して空の MS プロジェクト ファイル (MPP) を作成して保存するのは簡単なプロセスです。このチュートリアルでは、このタスクを効率的に実行できるように各手順を説明します。
 ## 前提条件
@@ -61,3 +67,9 @@ A: もちろん、Aspose.Tasks for Java は、要件に応じてタスクとリ�
 A: はい、Aspose.Tasks for Java は、XML、CSV などを含むさまざまなプロジェクト ファイル形式をサポートしています。
 ### Q: Aspose.Tasks for Java の追加サポートはどこで見つけられますか?
  A: Aspose.Tasks にアクセスできます。[フォーラム](https://forum.aspose.com/c/tasks/15)Java 固有のサポートと支援については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

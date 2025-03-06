@@ -3,10 +3,16 @@ title: Tùy chỉnh đường lưới dự án với Aspose.Tasks cho .NET
 linktitle: Quản lý đường lưới trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách điều chỉnh cài đặt đường lưới trong tệp Microsoft Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET, trực quan hóa dự án và hiệu quả quản lý.
-type: docs
 weight: 24
 url: /vi/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh đường lưới dự án với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Quản lý dự án hiệu quả thường liên quan đến việc hình dung rõ ràng các mốc thời gian và nhiệm vụ. Một khía cạnh quan trọng của trực quan hóa dự án là các đường lưới, giúp tổ chức và hiểu cấu trúc của dự án. Aspose.Tasks for .NET cung cấp các khả năng mạnh mẽ để thao tác các đường lưới trong tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với đường lưới bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp khác nha
 Đ: Chắc chắn rồi. Với Aspose.Tasks, bạn có thể kết hợp logic để tự động điều chỉnh cài đặt đường lưới dựa trên dữ liệu dự án hoặc tiêu chí do người dùng xác định.
 ### Câu hỏi: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  A: Bạn có thể khám phá[tài liệu](https://reference.aspose.com/tasks/net/) để có hướng dẫn toàn diện, hãy truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15) để được hỗ trợ hoặc xem xét việc có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá mở rộng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

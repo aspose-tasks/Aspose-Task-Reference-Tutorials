@@ -3,10 +3,16 @@ title: تكوين طرق عرض استخدام موارد مشروع MS في Asp
 linktitle: تكوين طرق عرض استخدام الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين طرق عرض استخدام موارد MS Project باستخدام Aspose.Tasks لـ .NET. تم تضمين دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 15
 url: /ar/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين طرق عرض استخدام موارد مشروع MS في Aspose.Tasks
+
 ## مقدمة
 يعد Microsoft Project (MS Project) أداة قوية لإدارة المشاريع، مما يسمح للمستخدمين بتخطيط مشاريعهم وتنفيذها وتتبعها بكفاءة. يوفر Aspose.Tasks for .NET تكاملًا سلسًا مع ملفات MS Project، مما يمكّن المطورين من معالجة بيانات المشروع برمجيًا. في هذا البرنامج التعليمي، سنستكشف كيفية تكوين طرق عرض استخدام موارد MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -58,3 +64,9 @@ project.Save(DataDir + "ResourceUsage_days_out.pdf", options);
  ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مناقشات أو احتياجات الدعم.
 ### س: هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
  ج: بالطبع، يمكنك استكشاف Aspose.Tasks من خلال الإصدار التجريبي المجاني المتاح[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dominar la recopilación de datos en fases temporales en Aspose.Tasks
 linktitle: Recopilación de datos en fases temporales en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore la recopilación de datos en fases temporales en Aspose.Tasks para .NET. Guía paso a paso, preguntas frecuentes y más. ¡Mejore sus capacidades de gestión de proyectos hoy!
-type: docs
 weight: 15
 url: /es/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar la recopilación de datos en fases temporales en Aspose.Tasks
+
 ## Introducción
 ¿Está buscando aprovechar el poder de los datos en fases temporales en sus aplicaciones .NET utilizando Aspose.Tasks? ¡No busque más! Esta guía completa lo guiará a través del proceso de recopilación de datos en fases temporales con Aspose.Tasks para .NET, asegurándose de que aproveche al máximo esta poderosa biblioteca.
 ## Requisitos previos
@@ -121,3 +127,9 @@ Aspose.Tasks maneja proyectos de diferentes tamaños y no existe un límite estr
  Sí, puede explorar las características de Aspose.Tasks para .NET accediendo al[prueba gratis](https://releases.aspose.com/).
 ### ¿Dónde puedo comprar una licencia de Aspose.Tasks para .NET?
 Puede comprar una licencia de Aspose.Tasks para .NET[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

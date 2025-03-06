@@ -3,10 +3,16 @@ title: Salva le opzioni di MS Project Primavera con Aspose.Tasks
 linktitle: Primavera Opzioni di salvataggio per Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come salvare le opzioni di MS Project per Primavera senza problemi utilizzando Aspose.Tasks per .NET. Segui il nostro tutorial passo dopo passo.
-type: docs
 weight: 14
 url: /it/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva le opzioni di MS Project Primavera con Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per .NET è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file di Microsoft Project nelle loro applicazioni .NET. Una delle funzionalità chiave che offre è la possibilità di salvare le opzioni di MS Project per Primavera, un popolare software di gestione dei progetti. In questo tutorial, approfondiremo come ottenere questo risultato utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -59,3 +65,9 @@ R: Assolutamente, Aspose.Tasks è progettato per soddisfare le esigenze degli sv
  R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/) per esplorarne le caratteristiche e le potenzialità.
 ### D: Dove posso ottenere supporto se riscontro problemi o ho domande durante l'utilizzo di Aspose.Tasks?
  R: Puoi chiedere assistenza alla community Aspose.Tasks e al team di supporto su[Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

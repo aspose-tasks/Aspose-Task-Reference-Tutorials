@@ -3,10 +3,16 @@ title: Extrahieren Sie Kopf- und Fußzeileninformationen mit Aspose.Tasks
 linktitle: Kopf- und Fußzeileninformationen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Kopf- und Fußzeileninformationen aus MS Project-Dateien extrahieren. Einfache, effiziente und entwicklerfreundliche Lösung.
-type: docs
 weight: 29
 url: /de/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahieren Sie Kopf- und Fußzeileninformationen mit Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die einfache Bearbeitung von Microsoft Project-Dateien ermöglicht. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks Kopf- und Fußzeileninformationen aus MS Project-Dateien abrufen.
 ## Voraussetzungen
@@ -70,3 +76,9 @@ Ja, Aspose.Tasks unterstützt verschiedene Projektdateiformate, einschließlich 
  Sie finden die Dokumentation für Aspose.Tasks[Hier](https://reference.aspose.com/tasks/net/).
 ### Wie kann ich Unterstützung für Aspose.Tasks erhalten?
  Sie können Unterstützung für Aspose.Tasks erhalten, indem Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

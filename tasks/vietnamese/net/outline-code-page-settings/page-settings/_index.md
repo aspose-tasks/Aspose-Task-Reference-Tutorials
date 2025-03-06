@@ -3,10 +3,16 @@ title: Định cấu hình cài đặt trang dự án MS với Aspose.Tasks
 linktitle: Định cấu hình cài đặt trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình cài đặt trang MS Project bằng Aspose.Tasks cho .NET. Tùy chỉnh hướng, kích thước và hơn thế nữa bằng các bước đơn giản.
-type: docs
 weight: 20
 url: /vi/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình cài đặt trang dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ hướng dẫn quy trình định cấu hình cài đặt trang Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Trả lời: Hoàn toàn có thể, bạn chỉ cần bỏ qua các bước cấ
 Trả lời: Chắc chắn, bạn có thể tích hợp chức năng này vào quy trình làm việc của ứng dụng để tự động hóa cấu hình cài đặt trang.
 ### Câu hỏi: Aspose.Tasks có cung cấp hỗ trợ cho các định dạng tệp khác ngoài .mpp không?
 Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp khác nhau như XML, MPT và HTML, cùng với các định dạng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

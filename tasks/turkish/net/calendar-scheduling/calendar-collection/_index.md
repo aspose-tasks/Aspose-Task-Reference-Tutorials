@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Takvim Koleksiyonunu Yönetme
 linktitle: Aspose.Tasks'ta Takvim Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te takvim koleksiyonlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Takvimleri kolaylıkla oluşturun, değiştirin ve yönetin.
-type: docs
 weight: 11
 url: /tr/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Takvim Koleksiyonunu Yönetme
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te takvim koleksiyonlarının nasıl yönetileceğini inceleyeceğiz. Takvimler proje yönetiminde iş günlerini, tatilleri ve istisnaları tanımlayarak çok önemli bir rol oynar. Aspose.Tasks, projelerinizdeki takvimleri yönetmek için güçlü işlevsellik sağlar.
@@ -160,3 +166,9 @@ Cevap4: Evet, Aspose.Tasks, takvimlerin XML, MPP vb. gibi çeşitli formatlara a
 ### S5: Bir takvimdeki belirli günler için çalışma saatlerini özelleştirebilir miyim?
 
 Cevap5: Elbette, takvimdeki istisnaları kullanarak bireysel günler için çalışma saatlerini tanımlayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

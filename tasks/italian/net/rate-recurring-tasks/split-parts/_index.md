@@ -3,10 +3,16 @@ title: Gestione delle parti divise di MS Project in Aspose.Tasks
 linktitle: Gestione delle parti divise in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le parti divise di MS Project in modo efficiente con Aspose.Tasks per .NET. Migliora il flusso di lavoro della gestione dei progetti.
-type: docs
 weight: 18
 url: /it/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione delle parti divise di MS Project in Aspose.Tasks
+
 
 ## introduzione
 La gestione delle parti divise di MS Project può essere un aspetto cruciale della gestione del progetto quando si utilizza Aspose.Tasks per .NET. In questo tutorial esploreremo come gestire in modo efficace le parti divise utilizzando una guida passo passo.
@@ -94,3 +100,9 @@ R: Sì, Aspose.Tasks per .NET ti consente di gestire le risorse del progetto in 
 R: Assolutamente, puoi personalizzare i calendari di progetto in base ai requisiti del tuo progetto.
 ### D: Dove posso trovare supporto per Aspose.Tasks per .NET?
  R: Puoi trovare supporto e assistenza su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

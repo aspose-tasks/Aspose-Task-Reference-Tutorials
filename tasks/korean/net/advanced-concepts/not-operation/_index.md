@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 NOT 연산으로 작업하기
 linktitle: Aspose.Tasks에서 NOT 연산으로 작업하기
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 NOT 작업을 사용하여 작업을 효과적으로 필터링하는 방법을 알아보세요. 지금 프로젝트 관리 역량을 강화하세요.
-type: docs
 weight: 20
 url: /ko/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 NOT 연산으로 작업하기
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 NOT 연산을 활용하는 방법을 살펴보겠습니다. NOT 연산을 사용하면 필터 조건을 반전시켜 지정된 기준을 충족하지 않는 요소를 선택할 수 있습니다.
@@ -114,3 +120,9 @@ A: 예, Aspose.Tasks는 .NET Core, .NET Standard 및 .NET Framework를 포함한
 ### Q5: Aspose.Tasks에 대한 종합 문서는 어디에서 찾을 수 있나요?
 
  A: 다음 사이트에서 전체 설명서에 액세스할 수 있습니다.[Aspose.Tasks 문서 페이지](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

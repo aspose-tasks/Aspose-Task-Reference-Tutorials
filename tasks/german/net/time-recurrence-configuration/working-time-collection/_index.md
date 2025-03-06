@@ -3,10 +3,16 @@ title: Arbeitszeiten in Aspose.Tasks meistern
 linktitle: Erfassung der Arbeitszeiten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizienten Verwaltung von Projektzeitplänen. Passen Sie Kalender an, legen Sie Arbeitszeiten fest und optimieren Sie Ihre Projekte ganz einfach.
-type: docs
 weight: 14
 url: /de/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeitszeiten in Aspose.Tasks meistern
+
 ## Einführung
 Möchten Sie die Kunst der Arbeitszeitverwaltung in Aspose.Tasks für .NET erlernen? Suchen Sie nicht weiter! In dieser Schritt-für-Schritt-Anleitung befassen wir uns mit den Feinheiten der Arbeitszeiterfassung mit Aspose.Tasks und befähigen Sie so, benutzerdefinierte Kalender effizient zu verwalten und Ihre Projektzeitpläne zu optimieren.
 ## Voraussetzungen
@@ -114,3 +120,9 @@ Sicherlich! Aspose.Tasks lässt sich nahtlos in andere .NET-Bibliotheken integri
  Ja, Sie können Aspose.Tasks mit einer kostenlosen Testversion erkunden[dieser Link](https://releases.aspose.com/).
 ### Wo kann ich Unterstützung für Aspose.Tasks suchen?
  Bei Fragen oder Hilfe besuchen Sie bitte die[Aspose.Tasks-Supportforum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

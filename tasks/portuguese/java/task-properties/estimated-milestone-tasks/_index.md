@@ -3,10 +3,16 @@ title: Lidar com tarefas estimadas e de marco em Aspose.Tasks
 linktitle: Lidar com tarefas estimadas e de marco em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore o gerenciamento de projetos eficaz com Aspose.Tasks for Java. Lide com tarefas estimadas e de marcos sem esforço. Baixe a biblioteca agora!
-type: docs
 weight: 15
 url: /pt/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com tarefas estimadas e de marco em Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for Java é uma biblioteca poderosa que facilita o manuseio de tarefas, o gerenciamento de projetos e a manipulação de dados do projeto sem esforço. Neste tutorial, vamos nos concentrar em um aspecto crucial do gerenciamento de projetos – lidar com tarefas estimadas e de marcos usando Aspose.Tasks for Java.
 ## Pré-requisitos
@@ -60,3 +66,9 @@ Sim, você pode integrar perfeitamente Aspose.Tasks em seus projetos Java seguin
  Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks[aqui](https://releases.aspose.com/).
 ### Como posso obter uma licença temporária para Aspose.Tasks?
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

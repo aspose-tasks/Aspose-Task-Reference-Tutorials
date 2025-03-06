@@ -3,10 +3,16 @@ title: Columna de vista de asignación personalizada en Aspose.Tasks
 linktitle: Columna de vista de asignación personalizada en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a agregar columnas de vista de tareas personalizadas en Aspose.Tasks para .NET para mejorar las capacidades de gestión de proyectos.
-type: docs
 weight: 16
 url: /es/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Columna de vista de asignación personalizada en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, exploraremos cómo agregar columnas personalizadas para vistas de tareas usando Aspose.Tasks para .NET. Las columnas personalizadas brindan flexibilidad y le permiten mostrar información adicional relevante para sus necesidades de gestión de proyectos.
@@ -116,3 +122,9 @@ R3: Sí, puede personalizar la apariencia de las columnas personalizadas modific
 ### P5: ¿Aspose.Tasks admite la exportación de proyectos a otros formatos además de hojas de cálculo con columnas personalizadas?
 
 R5: Sí, Aspose.Tasks admite la exportación de proyectos a varios formatos, como PDF, HTML y XML, lo que permite opciones versátiles de informes de proyectos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

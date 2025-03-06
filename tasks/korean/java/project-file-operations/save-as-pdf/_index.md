@@ -3,10 +3,16 @@ title: Aspose.Tasks에 PDF로 저장
 linktitle: Aspose.Tasks에 PDF로 저장
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 프로젝트 파일을 PDF로 변환하는 방법을 알아보세요. 효율적인 변환을 위한 간단한 단계.
-type: docs
 weight: 17
 url: /ko/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 PDF로 저장
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 프로젝트를 PDF로 저장하는 과정을 안내합니다. Aspose.Tasks를 사용하면 프로젝트 파일을 PDF 형식으로 효율적으로 변환하여 호환성과 공유 용이성을 보장할 수 있습니다. 다음 단계를 살펴보겠습니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: 예, Aspose.Tasks는 MPP, XML, XLSX 등을 포함한 광범위한 파일 형�
  A: 예, Aspose.Tasks의 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
  답변: 지원 및 도움이 필요한 경우 다음 사이트를 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 從 Aspose.Tasks 中的檔案讀取表數據
 linktitle: 從 Aspose.Tasks 中的檔案讀取表數據
 second_title: Aspose.Tasks Java API
 description: 釋放 Aspose.Tasks for Java 的強大功能。在這個綜合教程中學習如何從文件中提取表資料。
-type: docs
 weight: 17
 url: /zh-hant/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 Aspose.Tasks 中的檔案讀取表數據
+
 ## 介紹
 在本教程中，我們將探討如何使用 Aspose.Tasks for Java 從檔案中讀取表格資料。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式處理 Microsoft Project 文件。
 ## 先決條件
@@ -62,3 +68,9 @@ for (TableField f : t1.getTableFields()) {
 答：是的，您可以從 Aspose.Tasks 下載免費試用版[發布頁面](https://releases.aspose.com/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的幫助和支援？
 答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)來自社區和 Aspose 團隊的幫助和支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

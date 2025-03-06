@@ -3,10 +3,16 @@ title: Легко сохраняйте параметры проекта MS дл
 linktitle: Параметры сохранения MPP для Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко сохранять параметры MS Project с помощью Aspose.Tasks для .NET. Повысьте эффективность управления проектами.
-type: docs
 weight: 12
 url: /ru/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Легко сохраняйте параметры проекта MS для Aspose.Tasks
+
 ## Введение
 В мире .NET-разработки эффективное управление файлами проекта и манипулирование ими имеет решающее значение для успеха. Aspose.Tasks для .NET предлагает мощное решение для простой обработки файлов Microsoft Project (MPP). Помимо множества функций, Aspose.Tasks позволяет пользователям легко сохранять параметры MS Project, оптимизируя рабочий процесс и обеспечивая целостность проекта. В этом уроке мы углубимся в процесс сохранения параметров MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -67,3 +73,9 @@ project.Save(stream, options);
  Временная лицензия позволяет вам оценить Aspose.Tasks для .NET без каких-либо ограничений. Вы можете приобрести временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести лицензионную версию Aspose.Tasks для .NET?
  Вы можете приобрести лицензионную версию Aspose.Tasks для .NET на сайте[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

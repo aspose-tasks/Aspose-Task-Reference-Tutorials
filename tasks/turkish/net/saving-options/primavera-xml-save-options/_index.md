@@ -3,10 +3,16 @@ title: Aspose.Tasks için MS Project'i Primavera XML'e kaydedin
 linktitle: Aspose.Tasks için Primavera XML Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: MS Project seçeneklerini Primavera XML formatında kaydetmek için Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin. Proje yönetimi yeteneklerini zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için MS Project'i Primavera XML'e kaydedin
+
 ## giriiş
 Aspose.Tasks for .NET, proje yönetimi ve görev yönetimi alanında güçlü bir müttefik olarak ortaya çıkıyor. Bu kitaplık, geliştiricilere proje verilerini .NET uygulamaları içinde zahmetsizce işlemek için gerekli araçlarla donatır. Dikkate değer özelliklerden biri, Primavera XML dosyalarıyla etkileşime girerek proje bilgilerinin işlenmesinde kusursuz bir deneyim sunmasıdır.
 ## Önkoşullar
@@ -56,3 +62,9 @@ C: Evet, Aspose.Tasks for .NET, Microsoft Project, Primavera P6 ve daha fazlası
  C: Aspose.Tasks for .NET için geçici lisanslar da dahil olmak üzere çeşitli lisanslama seçenekleri mevcuttur. Lisanslama ayrıntılarını keşfedin[Burada](https://purchase.aspose.com/buy).
 ### S: Primavera XML biçimi için kaydetme seçeneklerini özelleştirebilir miyim?
 C: Evet, Aspose.Tasks for .NET, kaydetme seçeneklerini yapılandırmada esneklik sağlayarak belirli proje gereksinimlerine göre özelleştirmeye olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

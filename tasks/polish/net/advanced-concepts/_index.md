@@ -3,10 +3,16 @@ title: Aspose.Tasks Zaawansowane koncepcje
 linktitle: Aspose.Tasks Zaawansowane koncepcje
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisywać obrazy, obsługiwać wyjątki, algorytmy drzew, wyświetlanie etykiet, opcje ładowania i nie tylko. Opanuj zaawansowane koncepcje w Aspose.Tasks dla .NET
-type: docs
 weight: 24
 url: /pl/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zaawansowane koncepcje
+
 
 ## Wstęp
 
@@ -84,3 +90,9 @@ Dowiedz się, jak używać operacji NOT w Aspose.Tasks dla .NET, aby skutecznie 
 Dowiedz się, jak wydajnie pracować z obiektami OLE w aplikacjach .NET przy użyciu Aspose.Tasks, zwiększając możliwości zarządzania projektami.
 ### [Kolekcja obiektów OLE w Aspose.Tasks](./ole-object-collection/)
 Dzięki temu wszechstronnemu samouczkowi dowiedz się, jak zarządzać obiektami OLE w Aspose.Tasks dla .NET. Bez wysiłku opanuj obsługę plików osadzonych w dokumentach projektu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

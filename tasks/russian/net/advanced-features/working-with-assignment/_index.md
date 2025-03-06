@@ -3,10 +3,16 @@ title: Работа с назначениями в Aspose.Tasks
 linktitle: Работа с назначениями в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять назначениями проектов в .NET с помощью Aspose.Tasks. Изучите различные схемы планирования ресурсов.
-type: docs
 weight: 13
 url: /ru/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с назначениями в Aspose.Tasks
+
 ## Введение
 
 В этом уроке мы рассмотрим, как работать с заданиями в Aspose.Tasks для .NET. Назначения имеют решающее значение в управлении проектами, поскольку они распределяют ресурсы по задачам, помогая планировать и отслеживать прогресс. Мы сосредоточимся на создании повременных данных о назначении ресурсов с различными контурами с помощью Aspose.Tasks.
@@ -109,3 +115,9 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 ### Вопрос 5: Где я могу найти поддержку по запросам, связанным с Aspose.Tasks?
 
 A5: Вы можете найти поддержку на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) где эксперты и члены сообщества активно участвуют в дискуссиях.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Erweiterte Funktionen von Aspose.Tasks
 linktitle: Erweiterte Funktionen von Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie mit unseren Tutorials erweiterte Funktionen in Aspose.Tasks für .NET. Verbessern Sie Ihre Projektmanagementfähigkeiten, von UND-Operationen bis hin zur Behandlung von Speicherausnahmen.
-type: docs
 weight: 21
 url: /de/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erweiterte Funktionen von Aspose.Tasks
+
 
 ## Einführung
 
@@ -93,3 +99,9 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizie
 Erfahren Sie, wie Sie Berechnungsmodi in Aspose.Tasks für .NET effektiv verwalten, um die Projektplanung und Aufgabenabhängigkeiten zu optimieren.
 ### [Berechnungstyp in Aspose.Tasks](./calculation-type/)
 Erfahren Sie, wie Sie Wertberechnungen in .NET-Projekten mit dem Berechnungstyp in der Aspose.Tasks-Bibliothek anpassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

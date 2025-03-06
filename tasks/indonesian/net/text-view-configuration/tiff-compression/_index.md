@@ -3,10 +3,16 @@ title: Panduan Kompresi Tiff di Aspose.Tasks
 linktitle: Memilih Kompresi Tiff di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam memilih kompresi Tiff. Ikuti panduan langkah demi langkah kami untuk visualisasi proyek yang efisien.
-type: docs
 weight: 12
 url: /id/net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Panduan Kompresi Tiff di Aspose.Tasks
+
 ## Perkenalan
 Di bidang manajemen proyek dan pelacakan tugas, Aspose.Tasks untuk .NET muncul sebagai alat yang ampuh. Dengan fitur-fiturnya yang canggih, ini memberikan cara yang efisien untuk mengelola proyek dengan lancar. Salah satu fitur penting adalah kemampuan untuk merender proyek dalam format TIFF, menawarkan solusi serbaguna untuk memvisualisasikan data proyek. Dalam tutorial ini, kita akan mempelajari proses memilih kompresi Tiff di Aspose.Tasks menggunakan kerangka .NET. Mari kita memulai perjalanan ini selangkah demi selangkah, memastikan pemahaman yang lancar tentang prosesnya.
 ## Prasyarat
@@ -56,3 +62,9 @@ Aspose.Tasks terutama berfokus pada integrasi .NET. Namun, Anda dapat menjelajah
  Untuk pertanyaan atau diskusi apa pun, kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  Untuk mendapatkan lisensi sementara, kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

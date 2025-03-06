@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクトのアウトライン コードを�
 linktitle: Aspose.Tasks でアウトライン コードを取得する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用してプログラムで Microsoft Project アウトライン コードを取得する方法を学びます。プロジェクト管理能力を強化します。
-type: docs
 weight: 15
 url: /ja/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクトのアウトライン コードを取得する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して Microsoft Project のアウトライン コードを取得する方法を学習します。 MS Project のアウトライン コードは、プロジェクトのタスク、リソース、割り当てを分類および整理するための構造化された方法を提供します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作および管理できるようにする強力な Java ライブラリです。
 ## 前提条件
@@ -82,3 +88,9 @@ A: はい、Aspose.Tasks for Java は、MS Project ファイル内のアウト�
  A: はい、Aspose.Tasks for Java の一時ライセンスを次のサイトから購入できます。[購入ページ](https://purchase.aspose.com/temporary-license/).
 ### Q5: Aspose.Tasks for Java の完全なドキュメントはどこで見つけられますか?
  A: を参照してください。[ドキュメンテーション](https://reference.aspose.com/tasks/java/)Aspose.Tasks for Java の使用方法の詳細については、「Aspose.Tasks for Java」を参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

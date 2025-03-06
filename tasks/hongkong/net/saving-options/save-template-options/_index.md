@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 將 MS 專案檔案另存為模板
 linktitle: 儲存 Aspose.Tasks 的範本選項
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 將 Microsoft Project 檔案儲存為範本。自訂範本設定以簡化專案管理。
-type: docs
 weight: 18
 url: /zh-hant/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 將 MS 專案檔案另存為模板
+
 ## 介紹
 在本教學中，我們將逐步介紹使用 Aspose.Tasks for .NET 儲存範本的過程。模板對於標準化項目結構和設定以供將來使用非常有用。我們將示範如何將項目另存為模板，並在此過程中調整其屬性。
 ## 先決條件
@@ -76,3 +82,9 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 答：Aspose.Tasks for .NET 主要是為 Windows 平台上執行的 .NET 框架應用程式設計的。
 ### Q：Aspose.Tasks for .NET 是否提供技術支援？
 答：是的，您可以向 Aspose.Tasks 社群尋求技術協助和指導[論壇](https://forum.aspose.com/c/tasks/15)或直接聯絡他們的支援團隊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

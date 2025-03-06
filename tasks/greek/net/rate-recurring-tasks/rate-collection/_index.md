@@ -3,10 +3,16 @@ title: Master MS Project Rates with Aspose.Tasks
 linktitle: Συλλογή τιμών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τιμές σε αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Βήμα προς βήμα μάθημα για αποτελεσματική διαχείριση πόρων.
-type: docs
 weight: 11
 url: /el/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Rates with Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με τη διαχείριση των χρεώσεων στο MS Project χρησιμοποιώντας το Aspose.Tasks για .NET! Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία εργασίας με τα ποσοστά στα αρχεία του MS Project χρησιμοποιώντας το Aspose.Tasks. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με την ανάπτυξη .NET, αυτό το σεμινάριο θα σας παρέχει οδηγίες βήμα προς βήμα για να χειριστείτε αποτελεσματικά τις τιμές στα έργα σας.
 ## Προαπαιτούμενα
@@ -110,3 +116,9 @@ foreach (var rt in list)
 Α: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Tasks για το .NET για να αξιολογήσετε τις δυνατότητες και τη συμβατότητά του με τις απαιτήσεις σας.
 ### Ε: Πώς μπορώ να αγοράσω μια άδεια χρήσης για το Aspose.Tasks για .NET;
  Α: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks για .NET από το[δικτυακός τόπος](https://purchase.aspose.com/temporary-license/)το οποίο παρέχει ευέλικτες επιλογές αδειοδότησης που ταιριάζουν στις ανάγκες σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

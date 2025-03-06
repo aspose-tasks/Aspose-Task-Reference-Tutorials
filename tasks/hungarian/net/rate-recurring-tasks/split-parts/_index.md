@@ -3,10 +3,16 @@ title: MS Project Split Parts kezelése az Aspose.Tasks-ban
 linktitle: Osztott alkatrészek kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti hatékonyan az MS Project felosztott részeket az Aspose.Tasks for .NET segítségével. Javítsa projektmenedzsment munkafolyamatát.
-type: docs
 weight: 18
 url: /hu/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Split Parts kezelése az Aspose.Tasks-ban
+
 
 ## Bevezetés
 Az MS Project felosztott részeinek kezelése az Aspose.Tasks for .NET használatakor kulcsfontosságú szempont lehet a projektmenedzsmentben. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan lehet hatékonyan kezelni a felosztott részeket.
@@ -94,3 +100,9 @@ V: Igen, az Aspose.Tasks for .NET lehetővé teszi a projekt erőforrásainak ha
 V: Természetesen testreszabhatja a projektnaptárakat a projekt követelményei szerint.
 ### K: Hol találok támogatást az Aspose.Tasks for .NET-hez?
  V: Támogatást és segítséget találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

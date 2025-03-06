@@ -3,10 +3,16 @@ title: Mastering Workweek Configuration στο Aspose.Tasks
 linktitle: Διαμόρφωση Workweeks στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις εργάσιμες εβδομάδες χωρίς κόπο στο Aspose.Tasks για .NET. Βελτιώστε τον προγραμματισμό του έργου και τη διαχείριση των πόρων με τον βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 16
 url: /el/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Workweek Configuration στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη διαμόρφωση των εβδομάδων εργασίας στο Aspose.Tasks για .NET. Η αποτελεσματική διαχείριση των εβδομάδων εργασίας είναι ζωτικής σημασίας για τον προγραμματισμό και τον προγραμματισμό του έργου. Το Aspose.Tasks απλοποιεί αυτή τη διαδικασία, επιτρέποντάς σας να προσαρμόσετε τις εβδομάδες εργασίας σύμφωνα με τις ανάγκες του έργου σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στα βήματα για την απρόσκοπτη διαμόρφωση των εβδομάδων εργασίας.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 Από την τρέχουσα έκδοση, δεν υπάρχει προκαθορισμένο όριο στον αριθμό των εβδομάδων εργασίας που μπορείτε να διαμορφώσετε σε ένα έργο.
 ### Υπάρχουν ενσωματωμένα πρότυπα για συνήθεις εβδομάδες εργασίας;
 Ναι, το Aspose.Tasks περιλαμβάνει ένα τυπικό πρότυπο ημερολογίου που μπορείτε να χρησιμοποιήσετε ως σημείο εκκίνησης για το έργο σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

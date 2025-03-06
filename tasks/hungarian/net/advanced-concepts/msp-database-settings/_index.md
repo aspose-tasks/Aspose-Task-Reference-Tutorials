@@ -3,10 +3,16 @@ title: Microsoft Project Database beállításai az Aspose.Tasks alkalmazásban
 linktitle: Microsoft Project Database beállításai az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja a Microsoft Project adatbázis-beállításait az Aspose.Tasks segítségével a .NET-alkalmazásokba való zökkenőmentes integráció érdekében.
-type: docs
 weight: 19
 url: /hu/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Microsoft Project Database beállításai az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 
 Ha Microsoft Project adatbázisokkal dolgozik .NET-alkalmazásaiban az Aspose.Tasks segítségével, akkor konfigurálnia kell a szükséges beállításokat a projektadatok zökkenőmentes importálásához. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
@@ -99,3 +105,9 @@ Ebben az oktatóanyagban megtanulta, hogyan konfigurálhatja a Microsoft Project
 ### 5. kérdés: Hol találhatok részletesebb dokumentációt az Aspose.Tasks használatáról?
 
  V5: Megtekintheti az átfogó dokumentációt[itt](https://reference.aspose.com/tasks/net/) az Aspose.Tasks funkcióinak részletes betekintéséért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

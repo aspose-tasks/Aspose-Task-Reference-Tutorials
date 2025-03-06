@@ -3,10 +3,16 @@ title: إتقان طرق عرض استخدام المهام في Aspose.Tasks ل
 linktitle: تكوين طرق عرض استخدام المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET وتعرف على كيفية تكوين طرق عرض استخدام المهام. قم بتخصيص إعدادات الجدول الزمني وتحسين صور إدارة مشروعك.
-type: docs
 weight: 24
 url: /ar/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان طرق عرض استخدام المهام في Aspose.Tasks لـ .NET
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد تصور استخدام المهام أمرًا محوريًا للتخطيط والتنفيذ الفعال. يوفر Aspose.Tasks for .NET حلاً قويًا لعرض طرق عرض استخدام المهام، مما يسمح لك بتخصيص إعدادات النطاق الزمني وتنسيقات العرض التقديمي. في هذا البرنامج التعليمي، سنتعرف على خطوات تكوين طرق عرض استخدام المهام باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ project.Save(DataDir + outputProject, options);
 بالتأكيد، يمكنك تخصيص إعدادات الجدول الزمني للمهام الفردية داخل مشروعك.
 ### كيف يمكنني الحصول على الدعم أو طلب المساعدة بخصوص Aspose.Tasks؟
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم وتوجيه المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

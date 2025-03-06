@@ -3,10 +3,16 @@ title: Werktijden beheersen in Aspose.Tasks
 linktitle: Verzameling van werktijden in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het efficiënt beheren van projecttijdlijnen. Pas kalenders aan, stel werktijden in en stroomlijn uw projecten met gemak.
-type: docs
 weight: 14
 url: /nl/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werktijden beheersen in Aspose.Tasks
+
 ## Invoering
 Wilt u de kunst van het beheren van werktijden onder de knie krijgen in Aspose.Tasks voor .NET? Zoek niet verder! In deze stapsgewijze handleiding verdiepen we ons in de fijne kneepjes van het verzamelen van werktijden met behulp van Aspose.Tasks, waardoor u efficiënt met aangepaste kalenders kunt omgaan en de tijdlijnen van uw projecten kunt stroomlijnen.
 ## Vereisten
@@ -114,3 +120,9 @@ Zeker! Aspose.Tasks kan naadloos worden geïntegreerd met andere .NET-bibliothek
  Ja, u kunt Aspose.Tasks verkennen met een gratis proefperiode door te bezoeken[deze link](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning zoeken voor Aspose.Tasks?
  Voor vragen of hulp kunt u terecht op de[Ondersteuningsforum van Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Απόδοση χρήσης πόρων και προβολής φύλλω
 linktitle: Απόδοση χρήσης πόρων και προβολής φύλλων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να αποδίδετε τις προβολές χρήσης πόρων και φύλλων MS Project στο Aspose.Tasks για Java. Ακολουθήστε τον οδηγό βήμα προς βήμα για να δημιουργήσετε λεπτομερείς αναφορές PDF χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απόδοση χρήσης πόρων και προβολής φύλλων στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Tasks για Java για την απόδοση των προβολών χρήσης πόρων και φύλλων MS Project. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project.
 ## Προαπαιτούμενα
@@ -78,3 +84,9 @@ project.save(dataDir + months, options);
 Όχι, το Aspose.Tasks είναι μια αυτόνομη βιβλιοθήκη και δεν απαιτεί την εγκατάσταση του Microsoft Project για τη λειτουργία του.
 ### Είναι διαθέσιμη τεχνική υποστήριξη για τους χρήστες του Aspose.Tasks;
  Ναι, οι χρήστες του Aspose.Tasks μπορούν να επωφεληθούν από την τεχνική υποστήριξη μέσω του[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

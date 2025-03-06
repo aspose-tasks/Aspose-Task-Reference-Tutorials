@@ -3,10 +3,16 @@ title: Collecting Child Tasks in Aspose.Tasks
 linktitle: Collecting Child Tasks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to collect child tasks efficiently using Aspose.Tasks for .NET. Improve project management in your .NET applications.
-type: docs
 weight: 15
 url: /net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collecting Child Tasks in Aspose.Tasks
+
 ## Introduction
 
 In the realm of project management, Aspose.Tasks for .NET stands out as a robust solution for handling tasks and projects efficiently. This powerful library provides developers with the tools they need to manage tasks, projects, and everything in between seamlessly. In this tutorial, we'll delve into a specific aspect of Aspose.Tasks: collecting child tasks.
@@ -96,3 +102,10 @@ A4: Yes, users can access technical support through the [Aspose.Tasks forum](htt
 ### Q5: Can I try Aspose.Tasks for .NET before purchasing?
 
 A5: Certainly! You can avail of a free trial from the [release page](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Базовое планирование задач в Aspose.Tasks
 linktitle: Базовое планирование задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно планировать базовые показатели задач с помощью Aspose.Tasks для Java. Оптимизируйте процессы управления проектами без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Базовое планирование задач в Aspose.Tasks
+
 ## Введение
 Управление базовыми показателями задач — важнейший аспект управления проектами, позволяющий точно сравнивать запланированный и фактический прогресс. В этом руководстве мы рассмотрим, как выполнить базовое планирование задач с помощью Aspose.Tasks для Java. Выполнив эти шаги, вы сможете эффективно оптимизировать процессы управления проектами.
 ## Предварительные условия
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks для Java на сайте[страница выпуска](https://releases.aspose.com/).
 ### Где я могу найти поддержку Aspose.Tasks для Java?
  По любым вопросам или помощи вы можете посетить форум Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

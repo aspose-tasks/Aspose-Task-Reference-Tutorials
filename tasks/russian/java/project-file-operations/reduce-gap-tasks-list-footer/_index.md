@@ -3,10 +3,16 @@ title: Уменьшение разрыва между списком задач 
 linktitle: Уменьшение разрыва между списком задач и нижним колонтитулом в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как уменьшить разрыв между списками задач MS Project и нижними колонтитулами с помощью Aspose.Tasks для Java. Легко оптимизируйте макет проектного документа.
-type: docs
 weight: 10
 url: /ru/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Уменьшение разрыва между списком задач и нижним колонтитулом в Aspose.Tasks
+
 ## Введение
 В этом уроке мы углубимся в уменьшение разрыва между списком задач и нижним колонтитулом в файлах Microsoft Project с помощью Aspose.Tasks для Java. Выполнив эти шаги, вы сможете без особых усилий оптимизировать макет документов вашего проекта.
 ## Предварительные условия
@@ -105,3 +111,9 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ### Вопрос: Где я могу получить поддержку, если у меня возникнут какие-либо проблемы при использовании Aspose.Tasks?
 
  О: Вы можете получить помощь на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

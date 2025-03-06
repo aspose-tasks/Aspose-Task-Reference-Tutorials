@@ -3,10 +3,16 @@ title: Bemästra uppgiftsegenskaper i Aspose.Tasks
 linktitle: Läs och skriv allmänna egenskaper för uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska kraften i Aspose.Tasks för Java för att hantera uppgiftsegenskaper utan ansträngning. Läs och skriv enkelt med hjälp av vår steg-för-steg-guide.
-type: docs
 weight: 26
 url: /sv/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra uppgiftsegenskaper i Aspose.Tasks
+
 ## Introduktion
 Lås upp den fulla potentialen för uppgiftshantering i Java med Aspose.Tasks. I den här omfattande guiden kommer vi att fördjupa oss i att läsa och skriva allmänna egenskaper för uppgifter med Aspose.Tasks för Java. Oavsett om du är en erfaren utvecklare eller nybörjare, kommer den här handledningen att utrusta dig med färdigheter att manipulera uppgiftsegenskaper utan ansträngning.
 ## Förutsättningar
@@ -85,3 +91,9 @@ Ja, Aspose.Tasks är kompatibel med Java 11 och senare versioner.
  Gå med i samhällsdiskussionen på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp och samarbete.
 ### Finns det några exempelprojekt tillgängliga för referens?
  Utforska dokumentationens exempelavsnitt[här](https://reference.aspose.com/tasks/java/) för exempelprojekt och kodavsnitt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

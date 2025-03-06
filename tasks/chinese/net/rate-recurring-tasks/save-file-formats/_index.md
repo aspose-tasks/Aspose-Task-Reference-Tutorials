@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中以各种格式保存 MS 项目文件
 linktitle: 在Aspose.Tasks中以各种格式保存文件
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以各种格式保存 MS Project 文件。简单的步骤即可实现高效的项目管理。
-type: docs
 weight: 17
 url: /zh/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中以各种格式保存 MS 项目文件
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 以各种格式保存 Microsoft Project 文件。 Aspose.Tasks 是一个功能强大的 API，允许开发人员以编程方式操作和管理项目文件。
 ## 先决条件
@@ -55,3 +61,9 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 答：是的，临时许可证可用于评估目的。您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：Aspose.Tasks 的定价是多少？
 答：定价信息可以在 Aspose.Tasks 购买页面找到[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

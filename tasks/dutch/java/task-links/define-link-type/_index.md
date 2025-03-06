@@ -3,10 +3,16 @@ title: Definieer het koppelingstype in Aspose.Tasks
 linktitle: Definieer het koppelingstype in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks voor Java in projectmanagement. Definieer en pas linktypen moeiteloos aan met onze stapsgewijze zelfstudie.
-type: docs
 weight: 13
 url: /nl/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definieer het koppelingstype in Aspose.Tasks
+
 ## Invoering
 Welkom in de wereld van efficiënt projectbeheer met Aspose.Tasks voor Java! Als u uw projectafhandeling wilt stroomlijnen en de productiviteit wilt verhogen, bent u hier aan het juiste adres. In deze uitgebreide zelfstudie begeleiden we u door het proces van het definiëren van koppelingstypen in Aspose.Tasks voor Java, waardoor uw projectbeheermogelijkheden worden verbeterd.
 ## Vereisten
@@ -60,3 +66,9 @@ EEN: Absoluut! Aspose.Tasks biedt flexibiliteit, waardoor u koppelingstypen kunt
  Een bezoek[deze link](https://purchase.aspose.com/temporary-license/) het verkrijgen van een tijdelijke licentie voor testdoeleinden.
 ### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks-gerelateerde vragen?
  A: Sluit u aan bij de Aspose.Tasks-community op de[Helpforum](https://forum.aspose.com/c/tasks/15) voor hulp en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

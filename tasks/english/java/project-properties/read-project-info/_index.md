@@ -3,10 +3,16 @@ title: Extract Microsoft Project Info with Aspose.Tasks for Java
 linktitle: Read Project Info with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to extract Microsoft Project information using Aspose.Tasks for Java. Enhance project management in Java applications effortlessly.
-type: docs
 weight: 11
 url: /java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Microsoft Project Info with Aspose.Tasks for Java
+
 ## Introduction
 In the realm of project management and task tracking, Microsoft Project holds a significant position. Aspose.Tasks for Java emerges as a powerful tool that enables seamless interaction with Microsoft Project files in Java environments. This tutorial delves into the process of extracting vital project information from Microsoft Project files using Aspose.Tasks for Java.
 ## Prerequisites
@@ -65,3 +71,10 @@ A: Absolutely, Aspose.Tasks for Java offers extensive functionalities for manipu
 A: Yes, Aspose.Tasks for Java allows for automation through its comprehensive API, enabling streamlined processes for data extraction and analysis.
 ### Q: Is there a community forum or support channel available for Aspose.Tasks for Java users?
 A: Yes, you can find helpful resources and engage with the community on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

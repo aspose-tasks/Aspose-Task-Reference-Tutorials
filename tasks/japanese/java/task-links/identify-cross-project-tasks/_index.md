@@ -3,10 +3,16 @@ title: Aspose.Tasks でプロジェクト間のタスクを特定する
 linktitle: Aspose.Tasks でプロジェクト間のタスクを特定する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用してプロジェクト間のタスクを識別します。シームレスな統合と効率的な管理。ダウンロード中！
-type: docs
 weight: 14
 url: /ja/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でプロジェクト間のタスクを特定する
+
 ## 導入
 Aspose.Tasks for Java を使用してプロジェクト間のタスクを効率的に識別するための包括的なチュートリアルへようこそ。経験豊富な開発者でも初心者でも、このガイドでは、この機能を Java プロジェクトにシームレスに統合するプロセスを説明します。
 ## 前提条件
@@ -60,3 +66,9 @@ A: はい、無料トライアルを利用できます[ここ](https://releases.
  A: 一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: サポートが必要ですか、それとも具体的な質問がありますか?
 A: Aspose.Tasks サポート フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

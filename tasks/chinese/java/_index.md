@@ -1,12 +1,17 @@
 ---
 title: Aspose.Tasks for Java 的综合教程和示例
 linktitle: Java 教程的 Aspose.Tasks
-type: docs
 weight: 10
 url: /zh/java/
 description: 通过我们的教程探索 Aspose.Tasks for Java。主日历、项目管理等等。简化您的工作流程，以实现高效的项目执行。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java 的综合教程和示例
+
 
 ## 介绍
 您准备好提升您的 Java 项目管理技能了吗？通过我们涵盖项目管理各个方面的丰富教程，深入了解 Aspose.Tasks for Java 的世界。从日历例外到 VBA 集成，我们都能满足您的需求。
@@ -93,3 +98,9 @@ is_root: true
 使用 Aspose.Tasks 增强 Java 项目管理。探索有关任务属性的教程，从处理优先级到管理成本。今天优化您的项目！
 ### [VBA集成](./vba-integration/)
 探索 Aspose.Tasks Java 与 VBA 集成。简化项目工作流程并改进任务跟踪。探索无缝 VBA 集成的综合教程！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

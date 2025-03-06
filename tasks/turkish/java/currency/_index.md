@@ -3,10 +3,16 @@ title: Aspose.Tasks for Java'da Para Birimini Yönetme
 linktitle: Para birimi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile MS Project dosyalarındaki para birimi kodlarını, rakamları ve sembolleri zahmetsizce yönetin. Takip edilmesi kolay eğitimlerle proje yönetimini kolaylaştırın.
-type: docs
 weight: 22
 url: /tr/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java'da Para Birimini Yönetme
+
 
 ## giriiş
 
@@ -43,3 +49,9 @@ Aspose.Tasks for Java'yı kullanarak para birimi MS Project kodlarını verimli 
 Aspose.Tasks for Java'yı kullanarak para birimi MS Project rakamlarını verimli bir şekilde nasıl kullanacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
 ### [Aspose.Tasks'ta Para Birimi Sembollerinin Değiştirilmesi](./currency-symbols/)
 Aspose.Tasks for Java'yı kullanarak MS Project dosyalarındaki para birimi simgelerini değiştirmeyi öğrenin. Etkin proje yönetimi için kolay adımlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

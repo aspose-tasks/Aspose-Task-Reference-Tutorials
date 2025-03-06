@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET ile Proje Kılavuz Çizgilerini Özelleştirin
 linktitle: Aspose.Tasks'ta Kılavuz Çizgileri Yönetimi
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i, proje görselleştirmesini ve yönetim verimliliğini kullanarak Microsoft Project dosyalarındaki kılavuz çizgisi ayarlarını programlı olarak nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 24
 url: /tr/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET ile Proje Kılavuz Çizgilerini Özelleştirin
+
 ## giriiş
 Projeleri verimli bir şekilde yönetmek çoğu zaman zaman çizelgelerini ve görevleri net bir şekilde görselleştirmeyi içerir. Proje görselleştirmesinin önemli bir yönü, projenin yapısının düzenlenmesine ve anlaşılmasına yardımcı olan kılavuz çizgileridir. Aspose.Tasks for .NET, Microsoft Project dosyalarındaki kılavuz çizgilerini programlı olarak yönetmek için güçlü yetenekler sağlar. Bu eğitimde Aspose.Tasks for .NET kullanarak kılavuz çizgileriyle nasıl çalışılacağını inceleyeceğiz.
 ## Önkoşullar
@@ -69,3 +75,9 @@ C: Kesinlikle. Aspose.Tasks, kılavuz çizgilerini çizgi kalınlığı, stili v
 C: Kesinlikle. Aspose.Tasks ile kılavuz çizgisi ayarlarını proje verilerine veya kullanıcı tanımlı kriterlere göre dinamik olarak ayarlamak için mantığı dahil edebilirsiniz.
 ### S: Aspose.Tasks for .NET için daha fazla kaynağı ve desteği nerede bulabilirim?
  C: Keşfedebilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) kapsamlı kılavuzlar için şu adresi ziyaret edin:[destek Forumu](https://forum.aspose.com/c/tasks/15) yardım için veya bir yardım almayı düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş değerlendirme için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

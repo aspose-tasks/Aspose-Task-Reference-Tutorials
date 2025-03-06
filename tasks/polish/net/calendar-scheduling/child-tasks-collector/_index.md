@@ -3,10 +3,16 @@ title: Zbieranie zadań podrzędnych w Aspose.Tasks
 linktitle: Zbieranie zadań podrzędnych w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zbierać zadania podrzędne za pomocą Aspose.Tasks dla .NET. Usprawnij zarządzanie projektami w aplikacjach .NET.
-type: docs
 weight: 15
 url: /pl/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbieranie zadań podrzędnych w Aspose.Tasks
+
 ## Wstęp
 
 W obszarze zarządzania projektami Aspose.Tasks dla .NET wyróżnia się jako solidne rozwiązanie do wydajnej obsługi zadań i projektów. Ta potężna biblioteka zapewnia programistom narzędzia potrzebne do płynnego zarządzania zadaniami, projektami i wszystkim pomiędzy. W tym samouczku zagłębimy się w konkretny aspekt Aspose.Tasks: zbieranie zadań podrzędnych.
@@ -96,3 +102,9 @@ Odpowiedź 4: Tak, użytkownicy mogą uzyskać dostęp do pomocy technicznej pop
 ### P5: Czy przed zakupem mogę wypróbować Aspose.Tasks dla .NET?
 
  A5: Oczywiście! Możesz skorzystać z bezpłatnego okresu próbnego w witrynie[strona wydania](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

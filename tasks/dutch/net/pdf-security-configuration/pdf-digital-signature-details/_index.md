@@ -3,10 +3,16 @@ title: Configureer MS Project PDF digitale handtekening met Aspose.Tasks
 linktitle: Details van digitale PDF-handtekeningen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de details van de digitale handtekening van Microsoft Project PDF kunt configureren met Aspose.Tasks voor .NET. Garandeer de veiligheid en authenticiteit van uw projectbestanden.
-type: docs
 weight: 10
 url: /nl/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configureer MS Project PDF digitale handtekening met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het configureren van de details van de digitale handtekening van Microsoft Project PDF met behulp van Aspose.Tasks voor .NET. Door deze stappen te volgen, kunt u digitale handtekeningen naadloos integreren in uw MS Project-bestanden, waardoor de veiligheid en authenticiteit wordt gegarandeerd.
 ## Vereisten
@@ -84,3 +90,9 @@ A: Ja, u kunt het uiterlijk van de digitale handtekening, inclusief tekst, lette
 A: Nee, zodra een digitale handtekening op een PDF is toegepast, kan deze niet meer worden verwijderd of bijgewerkt. Indien nodig kunt u echter extra handtekeningen toevoegen.
 ### Vraag: Zijn er beperkingen op de grootte of complexiteit van het Microsoft Project-bestand?
 A: Aspose.Tasks kan zonder beperkingen Microsoft Project-bestanden van verschillende groottes en complexiteiten verwerken. De prestaties kunnen echter variëren, afhankelijk van de beschikbare hardware en bronnen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

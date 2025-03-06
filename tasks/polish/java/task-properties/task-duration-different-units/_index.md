@@ -3,10 +3,16 @@ title: Czas trwania zadania w różnych jednostkach z Aspose.Tasks
 linktitle: Czas trwania zadania w różnych jednostkach z Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj zarządzanie czasem trwania zadań w projektach Java za pomocą Aspose.Tasks. Dokładnie obliczaj i konwertuj czasy trwania w minutach, dniach, godzinach, tygodniach i miesiącach.
-type: docs
 weight: 32
 url: /pl/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Czas trwania zadania w różnych jednostkach z Aspose.Tasks
+
 ## Wstęp
 W dziedzinie zarządzania projektami zrozumienie czasu trwania zadania i zarządzanie nim jest aspektem krytycznym. Aspose.Tasks dla Java zapewnia potężny zestaw narzędzi do efektywnej obsługi tego problemu. W tym samouczku poprowadzimy Cię przez pobieranie czasów trwania zadań w różnych jednostkach przy użyciu Aspose.Tasks.
 ## Warunki wstępne
@@ -83,3 +89,9 @@ Absolutnie. Aspose.Tasks został zaprojektowany do wydajnej obsługi projektów 
  Odwiedzić[dokumentacja](https://reference.aspose.com/tasks/java/)dla kompleksowych zasobów.
 ### P: Czy mogę wypróbować Aspose.Tasks dla Java przed zakupem?
  Tak, możesz poznać m.in[bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić jego możliwości.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

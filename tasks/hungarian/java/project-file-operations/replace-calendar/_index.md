@@ -3,10 +3,16 @@ title: Cserélje ki az MS Project Calendar-t az Aspose.Tasks-ban
 linktitle: Cserélje ki a Naptárt az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan cserélheti le a Microsoft Project naptárát az Aspose.Tasks for Java használatával. Lépésről lépésre útmutató kódpéldákkal.
-type: docs
 weight: 12
 url: /hu/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cserélje ki az MS Project Calendar-t az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan cserélheti le a Microsoft Project naptárát az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A projektmenedzsment egyik gyakori feladata a naptárak testreszabása, az Aspose.Tasks pedig jelentősen leegyszerűsíti ezt a folyamatot.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Természetesen az Aspose.Tasks felhatalmazza a fejlesztőket a projektmenedzs
  V: Igen, elérheti az Aspose.Tasks for Java ingyenes próbaverzióját innen[itt](https://releases.aspose.com/).
 ### K: Hol kérhetek támogatást vagy segítséget az Aspose.Tasks-szal kapcsolatban?
  V: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) támogatásért és útmutatásért a közösségtől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

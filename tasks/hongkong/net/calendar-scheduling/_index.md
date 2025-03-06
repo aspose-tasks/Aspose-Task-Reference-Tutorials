@@ -3,10 +3,16 @@ title: Aspose.Tasks 日曆和日程安排
 linktitle: Aspose.Tasks 日曆和日程安排
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 管理專案行事曆、計算工期並處理例外狀況。探索日曆和規劃任務的逐步教學。
-type: docs
 weight: 22
 url: /zh-hant/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 日曆和日程安排
+
 ## 介紹
 
 歡迎來到 Aspose.Tasks for .NET 教學課程的世界，這是您掌握 .NET 專案中複雜的行事曆管理和行程的首選資源。 Aspose.Tasks 為開發人員提供了強大的工具，可以輕鬆處理專案日曆、計算持續時間和管理異常情況。在這個全面的教程集中，我們深入研究了各個方面，從使用日曆和管理異常到探索複合文件標題異常和貨幣符號位置等專業主題。無論您是尋求高級見解的經驗豐富的開發人員，還是渴望提高專案管理技能的新手，這些教程都提供了逐步指導和實際範例。讓我們踏上旅程，釋放 Aspose.Tasks for .NET 的全部潛力並提升您的專案管理能力。準備好潛入了嗎？讓我們開始吧！
@@ -135,3 +141,9 @@ url: /zh-hant/net/calendar-scheduling/
 了解如何使用 Aspose.Tasks for .NET 從 Primavera 資料庫匯入專案。在此綜合教程中取得逐步指導。
 ### [Aspose.Tasks 中的持續時間處理](./duration-handling/)
 透過逐步教學了解如何在 Aspose.Tasks for .NET 中有效處理持續時間。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

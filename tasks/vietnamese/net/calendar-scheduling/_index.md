@@ -3,10 +3,16 @@ title: Aspose.Tasks Lịch và Lập kế hoạch
 linktitle: Aspose.Tasks Lịch và Lập kế hoạch
 second_title: Aspose.Tasks .NET API
 description: Quản lý lịch dự án, tính toán thời lượng và xử lý các trường hợp ngoại lệ với Aspose.Tasks cho .NET. Khám phá các hướng dẫn từng bước về lịch và lập kế hoạch cho các tác vụ.
-type: docs
 weight: 22
 url: /vi/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Lịch và Lập kế hoạch
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho các hướng dẫn .NET, tài nguyên tham khảo của bạn để nắm vững sự phức tạp của việc quản lý lịch và lập kế hoạch trong các dự án .NET của bạn. Aspose.Tasks trao quyền cho các nhà phát triển các công cụ mạnh mẽ để dễ dàng xử lý lịch dự án, tính toán thời lượng và quản lý các trường hợp ngoại lệ. Trong bộ sưu tập hướng dẫn toàn diện này, chúng tôi đi sâu vào nhiều khía cạnh khác nhau, từ làm việc với lịch và quản lý ngoại lệ cho đến khám phá các chủ đề chuyên biệt như ngoại lệ tiêu đề tài liệu phức hợp và vị trí ký hiệu tiền tệ. Cho dù bạn là nhà phát triển dày dạn đang tìm kiếm thông tin chuyên sâu nâng cao hay là người mới mong muốn nâng cao kỹ năng quản lý dự án của mình thì những hướng dẫn này đều cung cấp hướng dẫn từng bước và ví dụ thực tế. Hãy bắt đầu hành trình khai thác toàn bộ tiềm năng của Aspose.Tasks cho .NET và nâng cao khả năng quản lý dự án của bạn. Sẵn sàng để đi sâu vào? Bắt đầu nào!
@@ -135,3 +141,9 @@ Tìm hiểu cách quản lý bộ sưu tập loại ngày một cách hiệu qu�
 Tìm hiểu cách nhập dự án từ cơ sở dữ liệu Primavera bằng Aspose.Tasks cho .NET. Nhận hướng dẫn từng bước trong hướng dẫn toàn diện này.
 ### [Xử lý thời lượng trong Aspose.Tasks](./duration-handling/)
 Tìm hiểu cách xử lý thời lượng hiệu quả trong Aspose.Tasks for .NET với hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

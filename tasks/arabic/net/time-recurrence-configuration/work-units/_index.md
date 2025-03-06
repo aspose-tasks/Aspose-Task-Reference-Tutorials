@@ -3,10 +3,16 @@ title: إتقان التعامل مع وحدة العمل في Aspose.Tasks
 linktitle: التعامل مع وحدات العمل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks for .NET، وهي مكتبة قوية لإدارة المشاريع بكفاءة. التعامل مع وحدات العمل بدقة لتحقيق الاستخدام الأمثل للموارد.
-type: docs
 weight: 15
 url: /ar/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التعامل مع وحدة العمل في Aspose.Tasks
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، يعد التعامل مع وحدات العمل بكفاءة أمرًا بالغ الأهمية لإنجاز المشروع بنجاح. يوفر Aspose.Tasks for .NET مجموعة أدوات قوية للتنقل عبر معلومات وحدة العمل، مما يضمن التحكم الدقيق في الجداول الزمنية للمشروع وتخصيص الموارد.
 ## المتطلبات الأساسية
@@ -57,3 +63,9 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
  احصل على ترخيص مؤقت لـ Aspose.Tasks من خلال زيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
 ### ما هي الفوائد التي يقدمها Aspose.Tasks للتعامل مع وحدات العمل؟
 يوفر Aspose.Tasks مجموعة قوية من الوظائف للعمل مع وحدات العمل، مما يتيح التحكم الدقيق في الجداول الزمنية للمشروع، وتخصيص الموارد، وإدارة المشروع بشكل عام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Niteliklerini Verimli Bir Şekilde Yönetin
 linktitle: Aspose.Tasks'ta Genişletilmiş Kaynak Niteliklerini Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak genişletilmiş Microsoft Project kaynak niteliklerini verimli bir şekilde nasıl kullanacağınızı öğrenin. Kolay adımlar ve kapsamlı kılavuz.
-type: docs
 weight: 11
 url: /tr/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Niteliklerini Verimli Bir Şekilde Yönetin
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak genişletilmiş Microsoft Project kaynak niteliklerini etkili bir şekilde nasıl kullanacağımızı inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan, görev ve kaynak yönetimi için kapsamlı işlevler sunan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -83,3 +89,9 @@ Evet, geliştiriciler Aspose.Tasks for Java'yı farklı platformlarda kullanabil
 Kesinlikle Aspose.Tasks, işlevselliği geliştirmek ve geliştirme süreçlerini kolaylaştırmak için diğer Java kitaplıklarıyla sorunsuz bir şekilde entegre edilebilir.
 ### Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
 Evet, kullanıcılar Aspose.Tasks forumu aracılığıyla teknik desteğe erişebilir ve burada yardım arayabilirler ve toplulukla etkileşime geçebilirler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

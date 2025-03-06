@@ -3,10 +3,16 @@ title: Opanowanie kolumn widoku MS Project za pomocą Aspose.Tasks dla .NET
 linktitle: Obsługa kolumn widoku w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ulepsz wizualizację projektu za pomocą Aspose.Tasks dla .NET. Naucz się krok po kroku obsługiwać kolumny widoku MS Project. Zwiększ wydajność i personalizację.
-type: docs
 weight: 12
 url: /pl/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie kolumn widoku MS Project za pomocą Aspose.Tasks dla .NET
+
 ## Wstęp
 dziedzinie zarządzania projektami Aspose.Tasks dla .NET wyróżnia się jako potężny zestaw narzędzi do obsługi plików Microsoft Project. Jednym z istotnych aspektów wizualizacji projektu jest efektywne zarządzanie kolumnami widoków. W tym samouczku omówimy, jak obsługiwać kolumny widoków MS Project za pomocą Aspose.Tasks, umożliwiając dostosowywanie i optymalizację widoków projektu.
 ## Warunki wstępne
@@ -80,3 +86,9 @@ O: Aspose.Tasks koncentruje się głównie na plikach Microsoft Project; można 
  O:`MyTextStyleCallback` klasa demonstruje, jak dostosować style tekstu w celu lepszej reprezentacji wizualnej w określonych widokach.
 ### P: Gdzie mogę znaleźć dodatkowe zasoby i dokumentację dla Aspose.Tasks?
  Odp.: Patrz[Dokumentacja Aspose.Tasks](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowe wskazówki i zasoby.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

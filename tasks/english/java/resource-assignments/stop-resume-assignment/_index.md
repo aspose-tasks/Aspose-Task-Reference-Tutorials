@@ -3,10 +3,16 @@ title: Stop and Resume Resource Assignments in Aspose.Tasks
 linktitle: Stop and Resume Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage resource assignments effectively in Aspose.Tasks for Java with this step-by-step tutorial.
-type: docs
 weight: 23
 url: /java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stop and Resume Resource Assignments in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will learn how to stop and resume resource assignments using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java API that allows developers to work with Microsoft Project files without needing Microsoft Project installed on their systems. We'll break down the process into manageable steps to make it easy to follow along.
 ## Prerequisites
@@ -71,3 +77,10 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 You can get support from the community [here](https://forum.aspose.com/c/tasks/15).
 ### Can I purchase a temporary license?
 Yes, you can purchase a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

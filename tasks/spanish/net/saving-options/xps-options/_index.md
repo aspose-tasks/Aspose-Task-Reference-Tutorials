@@ -3,10 +3,16 @@ title: Convierta opciones de MSP a XPS con Aspose.Tasks
 linktitle: Opciones de XPS para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda cómo convertir archivos de Microsoft Project al formato XPS usando Aspose.Tasks para .NET. Fácil integración, funcionalidad robusta.
-type: docs
 weight: 21
 url: /es/net/saving-options/xps-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta opciones de MSP a XPS con Aspose.Tasks
+
 ## Introducción
 Microsoft Project (MSP) es una herramienta ampliamente utilizada para la gestión de proyectos, que facilita la planificación, el seguimiento y la generación de informes de las actividades del proyecto. Aspose.Tasks para .NET ofrece una funcionalidad sólida para manipular archivos MSP mediante programación, lo que permite a los desarrolladores automatizar diversas tareas relacionadas con la gestión de proyectos. En este tutorial, profundizaremos en cómo aprovechar Aspose.Tasks para .NET para generar archivos XPS a partir de documentos MSP, explorando los pasos y consideraciones necesarios.
 ## Requisitos previos
@@ -60,3 +66,9 @@ R: Sí, Aspose.Tasks para .NET admite varios formatos de salida como PDF, HTML, 
 R: Por supuesto, Aspose.Tasks para .NET proporciona amplias opciones para personalizar los parámetros de renderizado según sus requisitos.
 ### P: ¿Dónde puedo encontrar soporte o asistencia adicional para Aspose.Tasks para .NET?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para cualquier consulta o asistencia sobre Aspose.Tasks para .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

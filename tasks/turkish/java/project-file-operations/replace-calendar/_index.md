@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki MS Project Takvimini değiştirin
 linktitle: Aspose.Tasks'ta Takvimi Değiştir
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project takvimini nasıl değiştireceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki MS Project Takvimini değiştirin
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak Microsoft Project takvimini nasıl değiştireceğimizi inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir Java kitaplığıdır. Proje yönetimindeki yaygın görevlerden biri takvimleri özelleştirmektir ve Aspose.Tasks bu süreci önemli ölçüde basitleştirir.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Kesinlikle, Aspose.Tasks geliştiricilere çok çeşitli proje yönetimi gör
  C: Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks ile ilgili nereden destek veya yardım alabilirim?
  C: Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15) topluluktan destek ve rehberlik için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

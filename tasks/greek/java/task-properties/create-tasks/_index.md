@@ -3,10 +3,16 @@ title: Δημιουργία εργασιών στο Aspose.Tasks
 linktitle: Δημιουργία εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Διαχειριστείτε χωρίς κόπο έργα Java με το Aspose.Tasks. Δημιουργήστε εργασίες, δευτερεύουσες εργασίες και πολλά άλλα. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη διαχείριση έργου.
-type: docs
 weight: 13
 url: /el/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον κόσμο του Aspose.Tasks για Java! Αν θέλετε να διαχειριστείτε αποτελεσματικά εργασίες και έργα στην εφαρμογή Java, βρίσκεστε στο σωστό μέρος. Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας εργασιών χρησιμοποιώντας το Aspose.Tasks για Java, αναλύοντας κάθε βήμα για να εξασφαλίσουμε μια απρόσκοπτη εμπειρία.
 ## Προαπαιτούμενα
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 Ναι, μπορείτε να προσαρμόσετε εκτενώς τα χαρακτηριστικά εργασιών για να ταιριάζουν στις ανάγκες του έργου σας.
 ### Υπάρχει κοινότητα υποστήριξης για τους χρήστες του Aspose.Tasks;
  Απολύτως! Εγγραφείτε στην κοινότητα Aspose.Tasks[το φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

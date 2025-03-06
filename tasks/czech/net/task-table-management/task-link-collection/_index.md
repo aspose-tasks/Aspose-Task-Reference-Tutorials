@@ -3,10 +3,16 @@ title: Manipulace s odkazy na úkoly v Aspose.Tasks
 linktitle: Manipulace s odkazy na úkoly v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě odkazů projektových úkolů. Postupujte podle našeho podrobného průvodce, abyste zlepšili své zkušenosti s řízením projektů.
-type: docs
 weight: 19
 url: /cs/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s odkazy na úkoly v Aspose.Tasks
+
 ## Úvod
 Vítejte v podrobném průvodci zpracováním odkazů na úkoly v Aspose.Tasks pro .NET! Odkazy na úkoly hrají klíčovou roli v řízení projektů, umožňují vytvářet vztahy mezi úkoly a vytvářet závislosti. V tomto tutoriálu vás provedeme procesem práce s kolekcemi odkazů úkolů pomocí Aspose.Tasks.
 ## Předpoklady
@@ -85,3 +91,9 @@ V současné době Aspose.Tasks podporuje standardní typy propojení úloh a vl
 Aspose.Tasks dokáže efektivně zpracovávat velké projektové soubory s minimálním dopadem na výkon.
 ### Existuje komunitní fórum pro podporu Aspose.Tasks?
  Ano, můžete najít podporu a zapojit se do komunity na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

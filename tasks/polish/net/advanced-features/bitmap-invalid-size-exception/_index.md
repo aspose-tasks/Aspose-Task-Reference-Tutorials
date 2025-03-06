@@ -3,10 +3,16 @@ title: Obsługa wyjątku nieprawidłowego rozmiaru mapy bitowej w Aspose.Tasks
 linktitle: Obsługa wyjątku nieprawidłowego rozmiaru mapy bitowej w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak obsługiwać wyjątek BitmapInvalidSizeException w Aspose.Tasks dla .NET podczas zapisywania projektów jako obrazów. Obszerny samouczek ze wskazówkami krok po kroku.
-type: docs
 weight: 22
 url: /pl/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa wyjątku nieprawidłowego rozmiaru mapy bitowej w Aspose.Tasks
+
 ## Wstęp
 
  W tym samouczku zajmiemy się obsługą plików`BitmapInvalidSizeException` podczas pracy z Aspose.Tasks dla .NET. Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project, umożliwiając wykonywanie takich zadań, jak zapisywanie projektów jako obrazów. Jednak czasami podczas próby zapisania projektu jako obrazu możemy napotkać błąd`Invalid Size Exception`związane z bitmapą. Ten samouczek ma na celu poprowadzić Cię przez proces skutecznego wychwytywania i obsługi tego wyjątku.
@@ -111,3 +117,9 @@ O4: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, umoż
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?
 
 Odpowiedź 5: Możesz nabyć tymczasową licencję do celów próbnych, korzystając z łącza podanego w artykule.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

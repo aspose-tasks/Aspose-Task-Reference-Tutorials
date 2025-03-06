@@ -3,10 +3,16 @@ title: Aspose.Tasks のさまざまなタイプのベースライン
 linktitle: Aspose.Tasks のさまざまなタイプのベースライン
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して、プロジェクトのベースラインを効率的に設定および操作する方法を学びます。
-type: docs
 weight: 21
 url: /ja/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のさまざまなタイプのベースライン
+
 ## 導入
 
 プロジェクト管理の領域では、正確さと先見の明が最も重要です。 Aspose.Tasks for .NET は、プロジェクト データを効率的に管理するための堅牢なツールキットを提供し、ユーザーがプロジェクトの計画、追跡、実行のさまざまな側面を詳しく調査できるようにします。 Aspose.Tasks が提供する重要な機能の 1 つは、初期計画に対するプロジェクトの進捗状況を測定するための基準点として機能するベースラインを設定する機能です。
@@ -82,3 +88,9 @@ A4: Aspose.Tasks は、開発者がその機能を一般的なプロジェクト
 ### Q5: 購入する前に Aspose.Tasks を試すことはできますか?
 
 A5: はい、Web サイトで利用できる無料トライアルを通じて Aspose.Tasks を探索し、その機能を直接体験することができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

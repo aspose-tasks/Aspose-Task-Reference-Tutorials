@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Gün Türü Koleksiyonunu Yönetme
 linktitle: Aspose.Tasks'ta Gün Türü Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te gün türü koleksiyonlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Takvim istisnalarını kolaylıkla oluşturun, değiştirin ve yönetin.
-type: docs
 weight: 28
 url: /tr/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Gün Türü Koleksiyonunu Yönetme
+
 ## giriiş
 
  Aspose.Tasks for .NET, proje yönetimi uygulamalarında haftalık takvim istisnalarını tanımlamak için çok önemli olan gün türü koleksiyonlarını yönetmek için güçlü işlevsellik sağlar. Bu derste, bu özelliğin nasıl kullanılacağını keşfedeceğiz.`DayTypeCollection` verimli bir şekilde sınıf. 
@@ -141,3 +147,9 @@ C2: Evet, Aspose.Tasks for .NET hem .NET Core hem de .NET Framework'ü destekler
 ### S5: Aspose.Tasks for .NET için geçici bir lisans satın alabilir miyim?
 
  C5: Evet, geçici lisanslar şu adresten satın alınabilir:[Web sitesi](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تخصيص خطوط شبكة المشروع باستخدام Aspose.Tasks
 linktitle: إدارة خطوط الشبكة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية ضبط إعدادات خطوط الشبكة برمجيًا في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET وتصور المشروع وكفاءة الإدارة.
-type: docs
 weight: 24
 url: /ar/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص خطوط شبكة المشروع باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 غالبًا ما تتضمن إدارة المشاريع بكفاءة تصور الجداول الزمنية والمهام بوضوح. أحد الجوانب الحاسمة لتصور المشروع هو خطوط الشبكة، التي تساعد في تنظيم وفهم هيكل المشروع. يوفر Aspose.Tasks for .NET إمكانات قوية لمعالجة خطوط الشبكة في ملفات Microsoft Project برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية العمل مع خطوط الشبكة باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 ج: بالتأكيد. باستخدام Aspose.Tasks، يمكنك دمج المنطق لضبط إعدادات خطوط الشبكة ديناميكيًا بناءً على بيانات المشروع أو المعايير المحددة من قبل المستخدم.
 ### س: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك استكشاف[توثيق](https://reference.aspose.com/tasks/net/) للحصول على أدلة شاملة، قم بزيارة[منتدى الدعم](https://forum.aspose.com/c/tasks/15) للحصول على المساعدة، أو النظر في الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للتقييم الموسع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

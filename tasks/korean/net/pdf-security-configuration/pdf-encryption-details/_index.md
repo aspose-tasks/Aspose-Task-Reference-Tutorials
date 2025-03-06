@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 PDF 암호화 세부 정보 구성
 linktitle: Aspose.Tasks에서 PDF 암호화 세부 정보 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 MS Project PDF 암호화 세부 정보를 구성하는 방법을 알아보세요. 사용자 및 소유자 비밀번호로 프로젝트 파일을 보호하세요.
-type: docs
 weight: 11
 url: /ko/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 PDF 암호화 세부 정보 구성
+
 ## 소개
 .NET 개발 세계에서는 작업을 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 Microsoft Project 파일 작업을 위한 포괄적인 도구 세트를 제공하여 이 프로세스를 단순화합니다. 작업 관리의 필수 측면 중 하나는 민감한 프로젝트 정보의 보안을 보장하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project PDF 암호화 세부 정보를 구성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: 아니요. PDF가 암호화되어 저장되면 암호화 세부정보를 변�
 A: Aspose.Tasks에는 특별한 제한이 없지만 보안 강화를 위해 강력한 비밀번호를 사용하는 것이 좋습니다.
 ### Q: 암호화된 PDF를 프로그래밍 방식으로 해독할 수 있습니까?
 A: Aspose.Tasks는 암호화된 PDF로 작업할 수 있는 API를 제공하여 적절한 자격 증명을 사용하여 암호를 해독할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

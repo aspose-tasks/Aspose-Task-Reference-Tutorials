@@ -3,10 +3,16 @@ title: Ανάκτηση εξαιρέσεων ημερολογίου με το As
 linktitle: Ανάκτηση εξαιρέσεων ημερολογίου με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ανακτάτε εξαιρέσεις ημερολογίου από το MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Βήμα προς βήμα μάθημα για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση εξαιρέσεων ημερολογίου με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να ανακτήσετε εξαιρέσεις ημερολογίου από το MS Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Το Aspose.Tasks είναι ένα ισχυρό εργαλείο που επιτρέπει στους προγραμματιστές να χειρίζονται τα αρχεία του Microsoft Project μέσω προγραμματισμού. Θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, αναλύοντας κάθε παράδειγμα σε πολλά βήματα για εύκολη κατανόηση.
 ## Προαπαιτούμενα
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
  Μπορείτε να λάβετε υποστήριξη από το φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Υπάρχει επιλογή για προσωρινές άδειες για το Aspose.Tasks;
  Ναι, μπορείτε να λάβετε προσωρινές άδειες από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

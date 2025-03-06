@@ -3,10 +3,16 @@ title: Aspose.Tasks Calendario e pianificazione
 linktitle: Aspose.Tasks Calendario e pianificazione
 second_title: Aspose.Tasks API .NET
 description: Gestisci i calendari dei progetti, calcola le durate e gestisci le eccezioni con Aspose.Tasks per .NET. Esplora tutorial passo passo per il calendario e le attività di pianificazione.
-type: docs
 weight: 22
 url: /it/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Calendario e pianificazione
+
 ## introduzione
 
 Benvenuto nel mondo dei tutorial Aspose.Tasks per .NET, la tua risorsa di riferimento per padroneggiare le complessità della gestione del calendario e della pianificazione nei tuoi progetti .NET. Aspose.Tasks offre agli sviluppatori strumenti robusti per gestire facilmente i calendari dei progetti, calcolare le durate e gestire le eccezioni. In questa raccolta completa di tutorial, approfondiamo vari aspetti, dal lavoro con i calendari e la gestione delle eccezioni all'esplorazione di argomenti specializzati come le eccezioni di intestazioni di documenti composti e le posizioni dei simboli di valuta. Che tu sia uno sviluppatore esperto alla ricerca di approfondimenti avanzati o un nuovo arrivato desideroso di migliorare le proprie capacità di gestione dei progetti, questi tutorial forniscono una guida passo passo ed esempi reali. Partiamo per un viaggio per sbloccare tutto il potenziale di Aspose.Tasks per .NET ed elevare le capacità di gestione dei progetti. Pronti a tuffarvi? Iniziamo!
@@ -135,3 +141,9 @@ Scopri come gestire in modo efficiente le raccolte di tipi giornalieri in Aspose
 Scopri come importare progetti da un database Primavera utilizzando Aspose.Tasks per .NET. Ottieni una guida passo passo in questo tutorial completo.
 ### [Gestione della durata in Aspose.Tasks](./duration-handling/)
 Scopri come gestire le durate in modo efficace in Aspose.Tasks per .NET con esercitazioni dettagliate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

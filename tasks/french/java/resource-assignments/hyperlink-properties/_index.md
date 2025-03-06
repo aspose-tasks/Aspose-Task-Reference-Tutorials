@@ -3,10 +3,16 @@ title: Gérer les propriétés des liens hypertexte pour les affectations dans A
 linktitle: Gérer les propriétés des liens hypertexte pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer les propriétés des liens hypertexte pour les affectations de ressources dans Aspose.Tasks pour Java. Améliorez la collaboration et l’accessibilité dans la gestion de projet.
-type: docs
 weight: 16
 url: /fr/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les propriétés des liens hypertexte pour les affectations dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java offre des fonctionnalités puissantes pour gérer les tâches et les ressources du projet. Dans ce didacticiel, nous nous concentrerons sur la façon de gérer les propriétés des liens hypertexte pour les affectations de ressources à l'aide d'Aspose.Tasks. En suivant ces instructions étape par étape, vous serez en mesure de gérer efficacement les hyperliens associés aux affectations de ressources de votre projet.
 ## Conditions préalables
@@ -84,3 +90,9 @@ R : Aspose.Tasks n’impose pas de limitations strictes sur la longueur des hyp
 R : Oui, vous pouvez supprimer les hyperliens des affectations de ressources en définissant les propriétés des hyperliens sur des chaînes nulles ou vides.
 ### Q : Aspose.Tasks prend-il en charge la validation des liens hypertexte ?
 R : Aspose.Tasks se concentre sur la gestion des propriétés des hyperliens plutôt que sur la validation des hyperliens. Cependant, vous pouvez implémenter une logique de validation personnalisée dans votre application Java pour garantir l'intégrité des liens hypertexte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: المهام والتقويمات في Aspose.Tasks
 linktitle: المهام والتقويمات في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java في إدارة المهام والتقويمات بكفاءة. قم بالتنزيل الآن للحصول على تجربة إدارة مشروع سلسة!
-type: docs
 weight: 33
 url: /ar/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# المهام والتقويمات في Aspose.Tasks
+
 ## مقدمة
 هل أنت مستعد للارتقاء بلعبة إدارة المشاريع الخاصة بك باستخدام Aspose.Tasks لـ Java؟ سيرشدك هذا الدليل الشامل عبر عالم المهام والتقويمات المعقد باستخدام Aspose.Tasks، مما يتيح لك الاستفادة من إمكاناته الكاملة لتخطيط المشروع وتنفيذه بكفاءة.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  انضم إلى المجتمع في[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للدعم.
 ### هل يمكنني شراء ترخيص لـ Aspose.Tasks؟
  نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

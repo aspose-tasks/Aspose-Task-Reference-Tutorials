@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 计量 MS 项目使用情况
 linktitle: 计量 Aspose.Tasks 中的使用情况
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效监控和优化 MS Project 使用情况。高效项目管理的分步指南。
-type: docs
 weight: 17
 url: /zh/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 计量 MS 项目使用情况
+
 ## 介绍
 您是否希望通过 Aspose.Tasks 有效管理和监控您的 MS Project 使用情况？借助计量功能，您可以跟踪您的使用情况并优化您的项目管理工作。在本教程中，我们将指导您使用 Aspose.Tasks for .NET 逐步完成计量 MS Project 使用情况的过程。
 ## 先决条件
@@ -77,3 +83,9 @@ metered.ResetMeteredKey();
 答：是的，您可以通过定期检查消耗的积分和消耗的字节来实时跟踪使用情况。
 ### 问：试用版中是否可以计量 MS Project 使用情况？
 答：是的，Aspose.Tasks for .NET 的试用版和许可版均提供计量 MS Project 使用情况。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

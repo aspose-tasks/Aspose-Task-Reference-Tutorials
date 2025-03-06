@@ -3,10 +3,16 @@ title: MS Project-legenda's configureren in Aspose.Tasks
 linktitle: Paginalegenda configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-paginalegenda's in .NET configureert met behulp van Aspose.Tasks voor efficiënt projectbeheer. Stap-voor-stap handleiding meegeleverd.
-type: docs
 weight: 18
 url: /nl/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project-legenda's configureren in Aspose.Tasks
+
 ## Invoering
 Op het gebied van .NET-ontwikkeling is het efficiënt beheren van taken cruciaal, vooral als het om projectmanagement gaat. Aspose.Tasks voor .NET komt naar voren als een krachtig hulpmiddel dat een overvloed aan functionaliteiten biedt om taakbeheerprocessen te stroomlijnen. Eén zo'n functie is de mogelijkheid om MS Project-paginalegenda's te configureren, waardoor gebruikers waardevolle inzichten krijgen in de presentatie van projectgegevens.
 ## Vereisten
@@ -85,3 +91,9 @@ A: Tijdelijke licenties bieden volledige toegang tot Aspose.Tasks voor .NET-func
 A: Absoluut, Aspose.Tasks voor .NET biedt uitgebreide aanpassingsopties, waardoor u paginalegenda's kunt aanpassen aan uw specifieke projectvereisten.
 ### Vraag: Waar kan ik ondersteuning of communityforums vinden voor Aspose.Tasks voor .NET?
  A: U kunt ondersteuning zoeken en betrokken raken bij de gemeenschap van de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15), waar u antwoorden op vragen kunt vinden en kunt communiceren met collega-ontwikkelaars.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

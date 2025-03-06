@@ -3,10 +3,16 @@ title: การดำเนินการไฟล์โครงการ
 linktitle: การดำเนินการไฟล์โครงการ
 second_title: Aspose.Tasks Java API
 description: ปรับแต่งเค้าโครง MS Project ได้อย่างง่ายดายด้วย Aspose.Tasks สำหรับ Java เรียนรู้บทช่วยสอนทีละขั้นตอนเกี่ยวกับการลดช่องว่าง การแสดงข้อมูล การแทนที่ปฏิทิน และอื่นๆ อีกมากมาย
-type: docs
 weight: 29
 url: /th/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การดำเนินการไฟล์โครงการ
+
 ## การแนะนำ
 คุณต้องการปรับปรุงความสามารถในการจัดการโปรเจ็กต์ Java ของคุณหรือไม่? เจาะลึกบทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับ Aspose.Tasks สำหรับ Java โดยเน้นไปที่การดำเนินการกับไฟล์โปรเจ็กต์ต่างๆ ตั้งแต่การลดช่องว่างในรายการงานไปจนถึงการปรับแต่งมุมมอง MS Project เราช่วยคุณได้
 
@@ -94,3 +100,9 @@ url: /th/java/project-file-operations/
 เรียนรู้วิธีจัดการคุณสมบัติวันทำงานอย่างมีประสิทธิภาพใน Aspose.Tasks สำหรับ Java ปรับแต่งวันที่เริ่มต้นสัปดาห์ วันต่อเดือน และอื่นๆ ได้อย่างง่ายดาย
 ### [เขียนสรุปโครงการ MPP ใน Aspose.Tasks](./write-mpp-project-summary/)
 เรียนรู้วิธีเขียนสรุปโครงการ MPP ใน Java โดยใช้ Aspose.Tasks ตั้งค่าและดึงข้อมูลโครงการได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

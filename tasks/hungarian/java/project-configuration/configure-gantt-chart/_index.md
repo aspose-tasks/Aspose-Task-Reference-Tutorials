@@ -3,10 +3,16 @@ title: Konfigurálja a Gantt-diagram nézetet az Aspose.Tasks Projects programba
 linktitle: Konfigurálja a Gantt-diagram nézetet az Aspose.Tasks Projects programban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan konfigurálhatja a Gantt MS Project Chart View nézetet az Aspose.Tasks programban Java használatával. Testreszabhatja a projektet, és lépésről lépésre megjelenítheti őket a Gantt-diagramon.
-type: docs
 weight: 10
 url: /hu/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurálja a Gantt-diagram nézetet az Aspose.Tasks Projects programban
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan konfigurálhatja a Gantt MS Project Chart View nézetet Aspose.Tasks projektekben Java használatával. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a Microsoft Project fájlokkal való programozást. Ha követi ezeket a lépéseket, testreszabhatja a Gantt-diagram nézetet a projekt követelményei szerint.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Támogatást találhat és kérdéseket tehet fel a[Aspose.Tasks fórum](http
  V: Vásárolhat licencet a következőtől[itt](https://purchase.aspose.com/buy).
 ### K: Szükségem van ideiglenes licencre tesztelés céljából?
  V: Igen, ideiglenes engedélyt szerezhet a következőtől[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

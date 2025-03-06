@@ -3,10 +3,16 @@ title: Gestión de la recopilación de recursos del proyecto en Aspose.Tasks
 linktitle: Gestión de la recopilación de recursos en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar de manera eficiente las colecciones de recursos de Microsoft Project en .NET usando la API Aspose.Tasks. Incrementar la productividad y la flexibilidad.
-type: docs
 weight: 13
 url: /es/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de la recopilación de recursos del proyecto en Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo administrar eficazmente las colecciones de recursos de Microsoft Project utilizando Aspose.Tasks para .NET. Aspose.Tasks es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft Project mediante programación, lo que permite una integración y manipulación perfecta de los datos del proyecto.
 ## Requisitos previos
@@ -99,3 +105,9 @@ R: Sí, Aspose.Tasks admite subprocesos múltiples, lo que permite operaciones s
 ### P: ¿Hay soporte técnico disponible para los usuarios de Aspose.Tasks?
 
  R: Sí, los usuarios de Aspose.Tasks pueden acceder a soporte técnico a través del foro.[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

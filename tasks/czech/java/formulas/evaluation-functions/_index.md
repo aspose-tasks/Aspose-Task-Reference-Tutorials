@@ -3,10 +3,16 @@ title: Podpora funkcí hodnocení ve vzorcích Aspose.Tasks
 linktitle: Podpora funkcí hodnocení ve vzorcích Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak podporovat hodnocení funkcí MS Project ve vzorcích Aspose.Tasks pomocí Javy. Zvyšte svou produktivitu pomocí Aspose.Tasks.
-type: docs
 weight: 10
 url: /cs/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podpora funkcí hodnocení ve vzorcích Aspose.Tasks
+
 
 ## Úvod
 Aspose.Tasks for Java je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Jednou z jeho klíčových vlastností je schopnost podporovat hodnocení funkcí MS Project v rámci vzorců Aspose.Tasks. Tato schopnost umožňuje uživatelům provádět složité výpočty a analýzy přímo v aplikacích Java.
@@ -65,3 +71,9 @@ Odpověď: Ano, Aspose.Tasks for Java podporuje různé verze souborů Microsoft
 Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Je k dispozici dočasná licence pro Aspose.Tasks for Java?
  Odpověď: Ano, dočasnou licenci pro testovací účely můžete získat z webu Aspose[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

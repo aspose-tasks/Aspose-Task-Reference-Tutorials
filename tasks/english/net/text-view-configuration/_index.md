@@ -3,10 +3,16 @@ title: Aspose.Tasks Text and View Configuration
 linktitle: Aspose.Tasks Text and View Configuration
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET Tutorials on text and view configuration. Master text styles, Tiff compression, timeline views, and more for enhanced project management.
-type: docs
 weight: 30
 url: /net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Text and View Configuration
+
 ## Introduction
 
 Welcome to the comprehensive guide on Aspose.Tasks for .NET Tutorials, focusing on text and view configuration. In this article, we'll delve into various aspects of project management, providing step-by-step insights into mastering the functionalities of Aspose.Tasks.
@@ -53,3 +59,9 @@ Explore timephased data collection in Aspose.Tasks for .NET. Step-by-step guide,
 Explore Aspose.Tasks for .NET to configure timescale tiers in your Gantt Chart view for precise project timeline visualization.
 ### [Configuring Usage Views in Aspose.Tasks](./usage-views/)
 Learn to configure task usage views in Aspose.Tasks for .NET. Enhance project visualization with detailed steps. Download the library now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

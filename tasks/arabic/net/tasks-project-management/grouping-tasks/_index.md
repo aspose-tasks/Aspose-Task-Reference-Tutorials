@@ -3,10 +3,16 @@ title: تجميع مهام مشروع MS بكفاءة باستخدام Aspose.Ta
 linktitle: تجميع المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تجميع مهام Microsoft Project بشكل فعال باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 25
 url: /ar/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجميع مهام مشروع MS بكفاءة باستخدام Aspose.Tasks
+
 ## مقدمة
 قد تكون إدارة المهام في Microsoft Project صعبة في بعض الأحيان، خاصة عندما يتعلق الأمر بتنظيمها بكفاءة. يقدم Aspose.Tasks for .NET حلاً شاملاً لذلك من خلال توفير وظائف لتجميع المهام بشكل فعال. في هذا البرنامج التعليمي، سوف نستكشف كيفية تجميع مهام MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 بالتأكيد، يوفر Aspose.Tasks خيارات لتخصيص مظهر المهام المجمعة، بما في ذلك ألوان الخلايا والخطوط والأنماط.
 ### أين يمكنني العثور على دعم لـ Aspose.Tasks لـ .NET؟
  يمكنك العثور على الدعم والمساعدة لـ Aspose.Tasks لـ .NET في[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

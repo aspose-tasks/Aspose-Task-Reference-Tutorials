@@ -3,10 +3,16 @@ title: خيارات تنسيق ملف Aspose.Tasks
 linktitle: خيارات تنسيق ملف Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف خيارات تنسيق ملف Aspose.Tasks وأتقن تكوين خيارات XAML وXLSX في Aspose.Tasks .NET. رفع مستوى إدارة المشروعات من خلال نصائح التخصيص.
-type: docs
 weight: 34
 url: /ar/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات تنسيق ملف Aspose.Tasks
+
 
 ## مقدمة
 
@@ -27,3 +33,9 @@ url: /ar/net/file-format-options/
 تعرف على كيفية تكوين خيارات MS Project XAML في Aspose.Tasks لـ .NET. تعزيز مرونة إدارة المشروع والتخصيص من خلال إرشادات خطوة بخطوة.
 ### [تكوين خيارات XLSX في Aspose.Tasks](./configuring-xlsx-options/)
 تعرف على كيفية تكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NET. قم بتخصيص الأعمدة والتشفير وغير ذلك الكثير بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

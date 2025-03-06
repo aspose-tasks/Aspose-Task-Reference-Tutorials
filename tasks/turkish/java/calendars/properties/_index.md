@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Takvim Özelliklerini Yönetin
 linktitle: Aspose.Tasks'ta Takvim Özelliklerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java'da MS Project takvim özelliklerini nasıl yöneteceğinizi öğrenin. Bu, Java uygulamalarınızdaki takvim için adım adım rehberlik sağlar.
-type: docs
 weight: 10
 url: /tr/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Takvim Özelliklerini Yönetin
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak MS Project takvim özelliklerini nasıl yöneteceğimizi keşfedeceğiz. Takvim özelliklerinin nasıl değiştirileceğini anlayarak, proje programlarını belirli gereksinimleri verimli bir şekilde karşılayacak şekilde uyarlayabilirsiniz.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Kesinlikle! Aspose.Tasks'ın takvim yönetimi özelliklerini Java projelerini
 C: Evet, Aspose.Tasks, görevleri, kaynakları ve proje yapılarını yönetmek için geniş bir işlevsellik yelpazesi sunarak onu Java'da proje yönetimi için kapsamlı bir çözüm haline getiriyor.
 ### S: Aspose.Tasks kullanan geliştiriciler için teknik destek mevcut mu?
 C: Evet, geliştiriciler, Aspose.Tasks forumu aracılığıyla teknik desteğe erişebilir ve uygulama sırasında karşılaşılan tüm sorgular veya sorunlar için yardım sağlayabilirler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

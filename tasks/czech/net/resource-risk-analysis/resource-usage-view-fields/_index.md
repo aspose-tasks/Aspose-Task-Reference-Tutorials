@@ -3,10 +3,16 @@ title: Kolekce polí zobrazení využití zdrojů v Aspose.Tasks
 linktitle: Kolekce polí zobrazení využití zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně přistupovat k polím zobrazení využití zdrojů a manipulovat s nimi v souborech aplikace Microsoft Project pomocí Aspose.Tasks for .NET.
-type: docs
 weight: 16
 url: /cs/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce polí zobrazení využití zdrojů v Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení je efektivní nakládání se soubory Microsoft Project zásadní. Aspose.Tasks for .NET poskytuje komplexní řešení pro bezproblémovou práci se soubory MS Project. V tomto tutoriálu se ponoříme do procesu přístupu a využití Resource Usage View Fields pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -67,3 +73,9 @@ A: Rozhodně! Aspose.Tasks for .NET poskytuje rozsáhlé funkce pro provádění
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi z[webová stránka](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Tasks pro .NET?
  Odpověď: Můžete získat dočasnou licenci z[nákupní stránku](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

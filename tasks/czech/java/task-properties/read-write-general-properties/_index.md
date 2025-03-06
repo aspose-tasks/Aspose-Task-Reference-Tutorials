@@ -3,10 +3,16 @@ title: Mastering Task Properties v Aspose.Tasks
 linktitle: Číst a zapisovat obecné vlastnosti úloh v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte sílu Aspose.Tasks pro Java při správě vlastností úloh bez námahy. Čtěte a pište snadno pomocí našeho podrobného průvodce.
-type: docs
 weight: 26
 url: /cs/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Properties v Aspose.Tasks
+
 ## Úvod
 Odemkněte plný potenciál správy úloh v Javě pomocí Aspose.Tasks. V této komplexní příručce se ponoříme do čtení a psaní obecných vlastností úloh pomocí Aspose.Tasks for Java. Ať už jste zkušený vývojář nebo začátečník, tento tutoriál vás vybaví dovednostmi, jak bez námahy manipulovat s vlastnostmi úkolu.
 ## Předpoklady
@@ -85,3 +91,9 @@ Ano, Aspose.Tasks je kompatibilní s Java 11 a novějšími verzemi.
  Zapojte se do komunitní diskuse na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za pomoc a spolupráci.
 ### Jsou k dispozici nějaké vzorové projekty pro referenci?
  Prozkoumejte sekci s příklady dokumentace[tady](https://reference.aspose.com/tasks/java/) pro vzorové projekty a úryvky kódu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

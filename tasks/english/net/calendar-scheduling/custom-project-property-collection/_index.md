@@ -3,10 +3,16 @@ title: Managing Custom Project Property Collection in Aspose.Tasks
 linktitle: Managing Custom Project Property Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to effectively manage custom project properties in Aspose.Tasks for .NET, enhancing your project management experience. 
-type: docs
 weight: 24
 url: /net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Custom Project Property Collection in Aspose.Tasks
+
 ## Introduction
 
 Are you ready to enhance your project management experience with Aspose.Tasks for .NET? Managing custom project properties is a crucial aspect of project management, allowing you to add specific metadata tailored to your project's requirements. In this tutorial, we'll dive into how you can effectively work with custom project property collections using Aspose.Tasks for .NET.
@@ -131,3 +137,10 @@ A4: Yes, you can obtain a temporary license from the Aspose website for evaluati
 ### Q5: Where can I find support or further assistance regarding Aspose.Tasks for .NET?
 
 A5: You can visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15) for any queries or assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

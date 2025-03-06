@@ -3,10 +3,16 @@ title: تكوين أنواع تاريخ بدء المهمة في Aspose.Tasks
 linktitle: تكوين أنواع تاريخ بدء المهمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET لتكوين أنواع تاريخ بدء المهمة بسهولة. تحسين إدارة المشروع بكل سهولة. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 23
 url: /ar/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين أنواع تاريخ بدء المهمة في Aspose.Tasks
+
 في عالم إدارة المشاريع الديناميكي، يعد تحديد تاريخ البدء الصحيح للمهام أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً قويًا لتكوين أنواع تاريخ بدء المهمة دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال العملية، ونقسمها إلى خطوات بسيطة لضمان التكامل السلس.
 ## المتطلبات الأساسية
 قبل الغوص في تكوين أنواع تاريخ بدء المهمة، تأكد من توفر المتطلبات الأساسية التالية:
@@ -52,3 +58,9 @@ project.Save(DataDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/tasks/net/) للحصول على رؤى متعمقة حول Aspose.Tasks لـ .NET.
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

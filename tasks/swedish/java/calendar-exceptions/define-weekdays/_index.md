@@ -3,10 +3,16 @@ title: Definiera veckodagar för kalenderundantag med Aspose.Tasks
 linktitle: Definiera veckodagar för kalenderundantag med Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du definierar veckodagar för kalenderundantag i Java-projekt med Aspose.Tasks för korrekt projektschemaläggning.
-type: docs
 weight: 11
 url: /sv/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definiera veckodagar för kalenderundantag med Aspose.Tasks
+
 ### Introduktion
 Inom projektledning är det avgörande att definiera undantag för kalendrar för att korrekt representera icke-standardiserade arbetsdagar eller helgdagar inom en projekttidslinje. Aspose.Tasks för Java tillhandahåller robusta funktioner för att hantera kalendrar effektivt, inklusive att definiera undantag som helgdagar eller speciella arbetsdagar. I den här handledningen kommer vi att fördjupa oss i hur man definierar veckodagar för kalenderundantag med Aspose.Tasks för Java.
 ### Förutsättningar
@@ -68,3 +74,10 @@ S: Absolut, Aspose.Tasks för Java ger flexibilitet att definiera undantag baser
 S: Du kan programmatiskt hantera undantag baserat på dynamiska projektkrav med hjälp av det omfattande API som tillhandahålls av Aspose.Tasks för Java.
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks för Java?
  S: Ja, du kan använda en gratis testversion av Aspose.Tasks för Java från[hemsida](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

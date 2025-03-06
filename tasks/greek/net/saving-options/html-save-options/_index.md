@@ -3,10 +3,16 @@ title: Αποθηκεύστε το MS Project ως HTML με το Aspose.Tasks
 linktitle: Επιλογές αποθήκευσης HTML για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε αρχεία Microsoft Project ως HTML χρησιμοποιώντας το Aspose.Tasks για .NET. Μετατρέψτε τα δεδομένα του έργου χωρίς κόπο με τον αναλυτικό οδηγό μας.
-type: docs
 weight: 10
 url: /el/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθηκεύστε το MS Project ως HTML με το Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με την αποθήκευση αρχείων Microsoft Project ως HTML χρησιμοποιώντας το Aspose.Tasks για .NET! Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Tasks για την αποθήκευση δεδομένων έργου ως HTML, παρέχοντας καθοδήγηση βήμα προς βήμα στην πορεία.
 ## Προαπαιτούμενα
@@ -57,3 +63,9 @@ project.Save("OutputFilePath.html", options);
 Α: Οπωσδήποτε, μπορείτε να εξαγάγετε και να συμπεριλάβετε συγκεκριμένες σελίδες ή ενότητες του έργου σας με βάση τις απαιτήσεις σας.
 ### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks;
 Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για να εξερευνήσετε τις δυνατότητές του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

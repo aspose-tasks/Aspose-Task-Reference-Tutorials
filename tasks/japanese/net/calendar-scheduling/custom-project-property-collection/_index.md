@@ -3,10 +3,16 @@ title: Aspose.Tasks でのカスタム プロジェクト プロパティ コレ
 linktitle: Aspose.Tasks でのカスタム プロジェクト プロパティ コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でカスタム プロジェクト プロパティを効果的に管理し、プロジェクト管理エクスペリエンスを向上させる方法を学びます。
-type: docs
 weight: 24
 url: /ja/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのカスタム プロジェクト プロパティ コレクションの管理
+
 ## 導入
 
 Aspose.Tasks for .NET を使用してプロジェクト管理エクスペリエンスを強化する準備はできていますか?カスタム プロジェクト プロパティの管理はプロジェクト管理の重要な側面であり、プロジェクトの要件に合わせた特定のメタデータを追加できるようになります。このチュートリアルでは、Aspose.Tasks for .NET を使用してカスタム プロジェクト プロパティ コレクションを効果的に操作する方法について詳しく説明します。
@@ -131,3 +137,9 @@ A4: はい、評価目的で Aspose Web サイトから一時ライセンスを�
 ### Q5: Aspose.Tasks for .NET に関するサポートやさらなる支援はどこで入手できますか?
 
  A5: Aspose.Tasks フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/tasks/15)ご質問やサポートがございましたら。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

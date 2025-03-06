@@ -3,10 +3,16 @@ title: Повторение по дням года в Aspose.Tasks
 linktitle: Повторение по дням года в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как обрабатывать повторения дней года в Aspose.Tasks для .NET, чтобы эффективно оптимизировать управление повторяющимися задачами.
-type: docs
 weight: 27
 url: /ru/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Повторение по дням года в Aspose.Tasks
+
 ## Введение
 
 В сфере управления проектами эффективное планирование задач и их повторение играют ключевую роль в обеспечении своевременного выполнения и бесперебойного рабочего процесса. Aspose.Tasks для .NET предлагает разработчикам надежное решение, позволяющее легко решать повторяющиеся задачи в своих приложениях. В этом уроке мы углубимся в тонкости работы с повторениями дней года с помощью Aspose.Tasks, предоставляя подробное руководство по созданию повторяющихся задач на основе годовых шаблонов.
@@ -109,3 +115,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_T
 ### Вопрос 5: Подходит ли Aspose.Tasks как для небольших, так и для корпоративных проектов?
 
 О5: Действительно, Aspose.Tasks предназначен для удовлетворения потребностей разработчиков, работающих над проектами всех масштабов, от индивидуальных задач до крупномасштабных корпоративных проектов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

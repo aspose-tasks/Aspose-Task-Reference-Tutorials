@@ -3,10 +3,16 @@ title: إدارة خط الأساس للمهمة في Aspose.Tasks
 linktitle: إدارة خط الأساس للمهمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة الخطوط الأساسية للمهمة بكفاءة باستخدام Aspose.Tasks لـ .NET، مما يضمن التتبع الدقيق لتقدم المشروع وأدائه.
-type: docs
 weight: 14
 url: /ar/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خط الأساس للمهمة في Aspose.Tasks
+
 ## مقدمة
 
 عند العمل على مهام إدارة المشروع، تعد إدارة الخطوط الأساسية للمهمة أمرًا بالغ الأهمية لتتبع التقدم بدقة. يوفر Aspose.Tasks for .NET مجموعة شاملة من الأدوات للتعامل مع الخطوط الأساسية للمهمة بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في عملية إدارة الخطوط الأساسية للمهمة خطوة بخطوة.
@@ -123,3 +129,9 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
 
  ج5: نعم، يمكن للمطورين الحصول على نسخة تجريبية مجانية من Aspose.Tasks لـ .NET من[هنا](https://releases.aspose.com/)مما يسمح لهم بتقييم ميزاته وإمكانياته قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

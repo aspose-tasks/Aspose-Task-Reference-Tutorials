@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 트리 알고리즘 사용
 linktitle: Aspose.Tasks에서 트리 알고리즘 사용
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks의 트리 알고리즘을 사용하여 .NET 프로젝트에서 작업 계층 구조를 효과적으로 조작하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 트리 알고리즘 사용
+
 ## 소개
 
 Aspose.Tasks for .NET은 프로젝트 관리 작업, 리소스 및 일정 작업을 위한 강력한 기능을 제공합니다. 그러한 기능 중 하나는 사용자가 작업 계층을 효율적으로 조작할 수 있게 해주는 트리 알고리즘입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks의 트리 알고리즘을 활용하여 프로젝트 내에서 일반적인 작업을 수집하고 작업 값을 업데이트하는 방법을 살펴보겠습니다.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks for .NET은 개발자가 C#을 사용하여 Microsoft Project �
 ### Q5: 테스트 목적으로 사용할 수 있는 임시 라이센스가 있습니까?
 
  A5: 예, 다음에서 테스트 목적으로 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

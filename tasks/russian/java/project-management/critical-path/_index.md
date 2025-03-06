@@ -3,10 +3,16 @@ title: Рассчитать критический путь проекта MS в
 linktitle: Вычисление критического пути в проектах Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как рассчитать критический путь в MS Project с помощью Aspose.Tasks для Java. Это обеспечивает пошаговое руководство для эффективного управления проектами.
-type: docs
 weight: 10
 url: /ru/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рассчитать критический путь проекта MS в Aspose.Tasks
+
 ## Введение
 В этом уроке мы проведем вас через процесс расчета критического пути в MS Project с использованием Aspose.Tasks для Java. Критический путь важен для управления проектом, поскольку он помогает определить последовательность задач, которые необходимо выполнить вовремя, чтобы не допустить задержки общего графика проекта.
 ## Предварительные условия
@@ -72,3 +78,9 @@ System.out.println("Process completed Successfully");
  О: Да, вы можете приобрести временную лицензию на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Как я могу купить Aspose.Tasks для Java?
  О: Вы можете приобрести Aspose.Tasks для Java на сайте.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalice las columnas del diagrama de Gantt con Aspose.Tasks
 linktitle: Columnas del diagrama de Gantt en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a personalizar las columnas del diagrama de Gantt en Aspose.Tasks para .NET para mostrar información de tareas específicas de manera eficiente.
-type: docs
 weight: 21
 url: /es/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalice las columnas del diagrama de Gantt con Aspose.Tasks
+
 ## Introducción
 Los diagramas de Gantt son una herramienta fundamental en la gestión de proyectos, ya que proporcionan una representación visual de tareas, cronogramas y recursos. Aspose.Tasks para .NET ofrece potentes capacidades para manipular diagramas de Gantt, incluida la personalización de columnas para mostrar información de tareas específicas. En este tutorial, exploraremos cómo trabajar con columnas del diagrama de Gantt usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -99,3 +105,9 @@ R: Aspose.Tasks para .NET proporciona API y funciones integrales para administra
 R: Aspose.Tasks para .NET ofrece amplias opciones de personalización, lo que le permite agregar una cantidad significativa de columnas a los diagramas de Gantt sin limitaciones.
 ### P: ¿Dónde puedo encontrar soporte y recursos adicionales para Aspose.Tasks para .NET?
 R: Puede explorar la documentación, los foros comunitarios y los canales de soporte proporcionados por Aspose.Tasks para .NET para acceder a recursos y asistencia integrales.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

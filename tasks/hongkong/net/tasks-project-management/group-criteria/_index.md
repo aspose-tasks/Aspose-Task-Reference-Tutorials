@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中操作 MS 專案組標準
 linktitle: Aspose.Tasks 中的群組標準
 second_title: Aspose.Tasks .NET API
 description: 探索如何使用 Aspose.Tasks 在 .NET 中以程式設計方式操作 MS Project 檔案。檢索任務組和標準資訊逐步範例。
-type: docs
 weight: 27
 url: /zh-hant/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中操作 MS 專案組標準
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的 API，有助於在 .NET 應用程式中處理 Microsoft Project 檔案。無論您是在開發專案管理軟體還是需要以程式設計方式操作專案數據，Aspose.Tasks 都提供了一套全面的功能來滿足您的需求。
 ## 先決條件
@@ -78,3 +84,9 @@ Aspose.Tasks 經過最佳化，可有效處理大型專案文件，確保高效�
 是的，Aspose.Tasks 支援多種 .NET 平台，包括 .NET Framework、.NET Core 和 .NET Standard。
 ### 是否有 Aspose.Tasks 社群論壇可供我尋求協助？
 是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)提出問題、分享知識、與其他使用者協作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

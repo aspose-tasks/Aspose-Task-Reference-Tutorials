@@ -3,10 +3,16 @@ title: Bộ sưu tập các đường cơ sở của bài tập trong Aspose.Tas
 linktitle: Bộ sưu tập các đường cơ sở của bài tập trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý hiệu quả các đường cơ sở phân công trong quản lý dự án bằng cách sử dụng Aspose.Tasks cho .NET. Nâng cao năng suất và độ chính xác.
-type: docs
 weight: 15
 url: /vi/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các đường cơ sở của bài tập trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý dự án, việc theo dõi và quản lý các mốc thời gian phân công là rất quan trọng để đảm bảo sự thành công của dự án và tuân thủ các mốc thời gian. Aspose.Tasks for .NET cung cấp một bộ tính năng mạnh mẽ để hỗ trợ xử lý hiệu quả các đường cơ sở phân công trong các dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với Bộ sưu tập cơ sở bài tập bằng Aspose.Tasks cho .NET.
@@ -100,3 +106,9 @@ Câu trả lời 4: Có, Aspose.Tasks cung cấp hỗ trợ kỹ thuật mạnh 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks trước khi mua hàng không?
 
 Câu trả lời 5: Có, Aspose.Tasks cung cấp phiên bản dùng thử miễn phí, cho phép các nhà phát triển khám phá các tính năng và chức năng của nó trước khi đưa ra quyết định mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

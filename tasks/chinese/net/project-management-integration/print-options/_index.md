@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS Project 打印选项
 linktitle: 在 Aspose.Tasks 中配置打印选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 无缝配置 MS Project 打印选项。增强您的项目管理能力。
-type: docs
 weight: 14
 url: /zh/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS Project 打印选项
+
 ## 介绍
 在软件开发领域，Aspose.Tasks for .NET 作为高效管理任务和项目的强大工具脱颖而出。其主要功能之一是能够无缝配置 Microsoft Project 打印选项。在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 配置 MS Project 打印选项的过程。
 ## 先决条件
@@ -61,3 +67,9 @@ if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 答：是的，用户可以通过[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)，他们可以在那里寻求专家的帮助和指导。
 ### 问：我可以在购买之前评估 Aspose.Tasks for .NET 吗？
 答：当然！您可以从以下位置免费试用 Aspose.Tasks for .NET[这里](https://releases.aspose.com/)在做出承诺之前探索其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

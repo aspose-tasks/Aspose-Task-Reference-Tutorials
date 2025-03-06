@@ -3,10 +3,16 @@ title: Αβίαστη γενιά SVG για Aspose.Tasks
 linktitle: Επιλογές SVG για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Tasks για .NET για τη δημιουργία αναπαραστάσεων SVG των αρχείων Microsoft Project χωρίς κόπο για βελτιωμένη οπτικοποίηση έργου.
-type: docs
 weight: 20
 url: /el/net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αβίαστη γενιά SVG για Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργου και της οργάνωσης εργασιών, η ικανότητα να απεικονίζονται αποτελεσματικά τα δεδομένα είναι πρωταρχικής σημασίας. Το Aspose.Tasks for .NET προσφέρει μια ολοκληρωμένη λύση για τη δημιουργία αναπαραστάσεων SVG των αρχείων Microsoft Project, διευκολύνοντας σαφείς και συναρπαστικές πληροφορίες έργου. Αυτό το σεμινάριο εμβαθύνει στη χρήση των επιλογών SVG MS Project που παρέχονται από το Aspose.Tasks για .NET, επιτρέποντας στους χρήστες να αξιοποιήσουν τη δύναμή του για βελτιωμένη οπτικοποίηση έργου.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ project.Save(DataDir + "UseSvgOptions_out.svg", options);
 
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για τους χρήστες του Aspose.Tasks;
 Α: Ναι, οι χρήστες μπορούν να έχουν πρόσβαση σε τεχνική υποστήριξη μέσω του φόρουμ Aspose.Tasks ή επικοινωνώντας απευθείας με την ομάδα υποστήριξης για βοήθεια με τυχόν απορίες ή ζητήματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

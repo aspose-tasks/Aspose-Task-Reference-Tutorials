@@ -3,10 +3,16 @@ title: MS Project をマスターする Aspose.Tasks の保存オプション
 linktitle: Aspose.Tasks の一般的な保存オプション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルを効率的に保存する方法を学びます。プロジェクトに合わせて出力オプションを簡単にカスタマイズできます。
-type: docs
 weight: 17
 url: /ja/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project をマスターする Aspose.Tasks の保存オプション
+
 ## 導入
 Aspose.Tasks for .NET は、Microsoft Project ファイルをプログラムで操作するための強力な機能を提供します。このチュートリアルでは、Aspose.Tasks が提供するさまざまなオプションを使用して MS Project ファイルを保存する複雑な手順を詳しく説明します。具体的には、Aspose.Tasks で使用できる一般的な保存オプションに焦点を当て、特定の要件に合わせて出力を調整できるようにします。
 ## 前提条件
@@ -68,3 +74,9 @@ A: はい、無料トライアルを利用して Aspose.Tasks を探索できま
  A: 一時ライセンスは評価目的で使用できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks 関連のクエリのサポートはどこに問い合わせればよいですか?
  A: Aspose.Tasks コミュニティ フォーラムに参加できます。[ここ](https://forum.aspose.com/c/tasks/15)専門家や開発者仲間からの支援が得られます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

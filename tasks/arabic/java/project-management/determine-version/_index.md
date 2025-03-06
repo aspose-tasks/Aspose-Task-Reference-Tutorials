@@ -3,10 +3,16 @@ title: تحديد إصدار MS Project باستخدام Aspose.Tasks
 linktitle: تحديد إصدار المشروع باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديد إصدار ملفات MS Project برمجياً باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 12
 url: /ar/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد إصدار MS Project باستخدام Aspose.Tasks
+
 ## مقدمة
 سيرشدك هذا البرنامج التعليمي خلال استخدام Aspose.Tasks لـ Java لتحديد إصدار ملف MS Project خطوة بخطوة. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بمعالجة ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ System.out.println("Process completed Successfully");
 ج: لا، Aspose.Tasks يعمل بشكل مستقل ولا يتطلب تثبيت Microsoft Project.
 ### س: هل يتوفر الدعم الفني لـ Aspose.Tasks؟
  ج: نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks على[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

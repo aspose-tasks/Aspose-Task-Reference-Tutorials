@@ -3,10 +3,16 @@ title: Maîtrisez les méthodes MS Project à valeur acquise avec Aspose.Tasks
 linktitle: Types de méthodes de valeur acquise dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Types de méthodes MS Project à valeur acquise principale avec Aspose.Tasks pour .NET. Améliorez l’efficacité de la gestion de projet sans effort.
-type: docs
 weight: 10
 url: /fr/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtrisez les méthodes MS Project à valeur acquise avec Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, tirer parti des bons outils et méthodologies est primordial pour réussir. Aspose.Tasks for .NET fournit un cadre robuste pour gérer efficacement les tâches liées au projet. L'un de ces aspects cruciaux consiste à utiliser les méthodes de gestion de la valeur acquise (EVM), qui offrent un aperçu des performances du projet en comparant le travail prévu avec le travail réel réalisé. Dans ce didacticiel, nous approfondirons la compréhension et la mise en œuvre des types de méthodes MS Project à valeur acquise à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -53,3 +59,9 @@ R : Oui, Aspose.Tasks pour .NET est optimisé pour gérer facilement des fichier
  R : Oui, des licences temporaires sont disponibles pour Aspose.Tasks pour .NET. Vous pouvez les obtenir auprès de :[Permis temporaire](https://purchase.aspose.com/temporary-license/)
 ### Q : Où puis-je acheter Aspose.Tasks pour .NET ?
  R : Vous pouvez acheter Aspose.Tasks pour .NET sur le site Web :[Achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

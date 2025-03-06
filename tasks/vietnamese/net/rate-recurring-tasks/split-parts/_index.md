@@ -3,10 +3,16 @@ title: Xử lý các phần phân chia dự án MS trong Aspose.Tasks
 linktitle: Xử lý các phần phân chia trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các phần phân chia MS Project một cách hiệu quả với Aspose.Tasks for .NET. Tăng cường quy trình quản lý dự án của bạn.
-type: docs
 weight: 18
 url: /vi/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các phần phân chia dự án MS trong Aspose.Tasks
+
 
 ## Giới thiệu
 Quản lý các phần phân chia MS Project có thể là một khía cạnh quan trọng trong quản lý dự án khi sử dụng Aspose.Tasks cho .NET. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý hiệu quả các phần bị tách bằng cách sử dụng hướng dẫn từng bước.
@@ -94,3 +100,9 @@ Trả lời: Có, Aspose.Tasks for .NET cho phép bạn quản lý tài nguyên 
 Trả lời: Hoàn toàn có thể, bạn có thể tùy chỉnh lịch dự án theo yêu cầu dự án của mình.
 ### Câu hỏi: Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

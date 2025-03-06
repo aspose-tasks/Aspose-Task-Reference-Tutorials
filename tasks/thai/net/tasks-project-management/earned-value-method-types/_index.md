@@ -3,10 +3,16 @@ title: วิธีการทำโครงการ MS มูลค่าห
 linktitle: ประเภทวิธีมูลค่าที่ได้รับใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ประเภทวิธีการโครงการ MS มูลค่าหลักที่ได้รับพร้อม Aspose.Tasks สำหรับ .NET เพิ่มประสิทธิภาพการจัดการโครงการได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วิธีการทำโครงการ MS มูลค่าหลักที่ได้รับด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการ การใช้ประโยชน์จากเครื่องมือและวิธีการที่เหมาะสมเป็นสิ่งสำคัญยิ่งสำหรับความสำเร็จ Aspose.Tasks สำหรับ .NET มอบเฟรมเวิร์กที่มีประสิทธิภาพสำหรับการจัดการงานที่เกี่ยวข้องกับโครงการอย่างมีประสิทธิภาพ สิ่งสำคัญประการหนึ่งคือการใช้วิธีการจัดการมูลค่าที่ได้รับ (EVM) ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับประสิทธิภาพของโครงการโดยการเปรียบเทียบงานที่วางแผนไว้กับงานจริงที่เสร็จสมบูรณ์ ในบทช่วยสอนนี้ เราจะเจาะลึกการทำความเข้าใจและการนำประเภทวิธีการของโครงการ MS มูลค่าที่ได้รับไปใช้โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -53,3 +59,9 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
  ตอบ: ใช่ มีใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET คุณสามารถรับได้จาก:[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 ### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถซื้อ Aspose.Tasks สำหรับ .NET ได้จากเว็บไซต์:[ซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

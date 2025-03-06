@@ -3,10 +3,16 @@ title: Δημιουργία & αποθήκευση κενού έργου σε μ
 linktitle: Δημιουργήστε και αποθηκεύστε το Empty Project σε μορφή MPP με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να δημιουργείτε και να αποθηκεύετε ένα κενό αρχείο MS Project (MPP) χρησιμοποιώντας το Aspose.Tasks για Java. Απλοποιήστε τις εργασίες διαχείρισης έργου χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία & αποθήκευση κενού έργου σε μορφή MPP με το Aspose.Tasks
+
 ## Εισαγωγή
 Η δημιουργία και η αποθήκευση ενός κενού αρχείου MS Project (MPP) χρησιμοποιώντας το Aspose.Tasks για Java είναι μια απλή διαδικασία. Σε αυτό το σεμινάριο, θα ακολουθήσουμε κάθε βήμα για να σας βοηθήσουμε να ολοκληρώσετε αποτελεσματικά αυτήν την εργασία.
 ## Προαπαιτούμενα
@@ -61,3 +67,9 @@ System.out.println("Project file generated Successfully");
 Α: Ναι, το Aspose.Tasks για Java υποστηρίζει διάφορες μορφές αρχείων έργου, όπως XML, CSV και άλλα.
 ### Ε: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Tasks για Java;
  Α: Μπορείτε να επισκεφτείτε το Aspose.Tasks[δικαστήριο](https://forum.aspose.com/c/tasks/15) για υποστήριξη και βοήθεια ειδικά για Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

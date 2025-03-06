@@ -3,10 +3,16 @@ title: Kelola Tugas Kritis dan Berbasis Upaya di Aspose.Tasks
 linktitle: Kelola Tugas Kritis dan Berbasis Upaya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Kelola tugas-tugas penting dan berbasis upaya dengan mudah di proyek Java Anda dengan Aspose.Tasks. Unduh perpustakaan dan tingkatkan kemampuan manajemen proyek Anda.
-type: docs
 weight: 14
 url: /id/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Tugas Kritis dan Berbasis Upaya di Aspose.Tasks
+
 Dalam dunia manajemen proyek yang bergerak cepat, penanganan tugas-tugas penting dan berbasis upaya secara efisien sangat penting untuk keberhasilan penyelesaian proyek. Aspose.Tasks untuk Java memberikan solusi tangguh untuk mengelola tugas-tugas ini dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses penggunaan Aspose.Tasks untuk Java untuk menangani tugas-tugas penting dan berbasis upaya dalam proyek Anda.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
@@ -60,3 +66,9 @@ Ya, Aspose.Tasks untuk Java tidak bergantung pada platform dan dapat digunakan d
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk Java?
  Anda dapat membeli Aspose.Tasks untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Outline Code and Page Settings
 linktitle: Aspose.Tasks Outline Code and Page Settings
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET with tutorials on outline codes, collection, definitions, masks and page settings. Enhance project organization and customization.
-type: docs
 weight: 25
 url: /net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Outline Code and Page Settings
+
 ## Introduction
 Welcome to the world of seamless project management with Aspose.Tasks for .NET! In this digital era, where precision and efficiency are non-negotiable, mastering the intricacies of Microsoft Project becomes a game-changer. Our comprehensive series of tutorials will guide you through the nuances of Aspose.Tasks for .NET, empowering you to effortlessly manage outline codes, manipulate data definitions, work with masks, values, and customize page settings. Whether you're a seasoned project manager or a newcomer to the field, our tutorials cater to all skill levels, providing step-by-step instructions and code examples. Join us on this journey to unlock the full potential of Aspose.Tasks, revolutionizing the way you approach project organization and customization. Let's dive in and elevate your project management skills to new heights!
 ## Managing Outline Codes with Aspose.Tasks for .NET
@@ -71,3 +77,9 @@ Learn how to adjust page margins in Microsoft Project files using Aspose.Tasks f
 Learn how to configure MS Project page settings using Aspose.Tasks for .NET. Customize orientation, size, and more with simple steps.
 ### [Customize MS Project Page View Settings in Aspose.Tasks](./page-view-settings/)
 Learn how to configure page view settings in Aspose.Tasks for .NET to tailor the printing format of your Microsoft Project documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

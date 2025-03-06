@@ -3,10 +3,16 @@ title: قراءة بيانات مخطط جانت المحددة في Aspose.Task
 linktitle: قراءة بيانات مخطط جانت المحددة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استخراج بيانات مخطط جانت محددة باستخدام Aspose.Tasks لـ Java. برنامج تعليمي خطوة بخطوة للتكامل السلس في تطبيقات Java الخاصة بك.
-type: docs
 weight: 16
 url: /ar/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات مخطط جانت المحددة في Aspose.Tasks
+
 ## مقدمة
 تعد مخططات جانت أدوات لا تقدر بثمن لإدارة المشاريع، مما يسمح للمستخدمين بتصور المهام والجداول الزمنية والتبعيات. باستخدام Aspose.Tasks for Java، يمكن للمطورين استخراج بيانات محددة بكفاءة من مخططات جانت لدمجها في تطبيقاتهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية قراءة بيانات مخطط جانت المحددة خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -104,3 +110,9 @@ System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier()
 ج: بالتأكيد. يوفر Aspose.Tasks واجهات برمجة تطبيقات واسعة النطاق لتخصيص مظهر مخطط جانت وفقًا لمتطلباتك.
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
 ج: نعم، تقدم Aspose.Tasks دعمًا فنيًا شاملاً من خلال المنتدى الخاص بها وقنوات الدعم المخصصة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

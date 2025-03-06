@@ -3,10 +3,16 @@ title: إدارة مجموعة موارد المشروع في Aspose.Tasks
 linktitle: إدارة مجموعة الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات موارد Microsoft Project بكفاءة في .NET باستخدام Aspose.Tasks API. زيادة الإنتاجية والمرونة.
-type: docs
 weight: 13
 url: /ar/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعة موارد المشروع في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة مجموعات موارد Microsoft Project بشكل فعال باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع ملفات Microsoft Project برمجيًا، مما يسمح بالتكامل السلس ومعالجة بيانات المشروع.
 ## المتطلبات الأساسية
@@ -99,3 +105,9 @@ foreach (var rsc in list)
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
 
  ج: نعم، يمكن لمستخدمي Aspose.Tasks الوصول إلى الدعم الفني من خلال المنتدى[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

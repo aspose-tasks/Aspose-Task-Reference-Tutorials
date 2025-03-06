@@ -3,10 +3,16 @@ title: Konfigurace zobrazení využití zdrojů MS Project v Aspose.Tasks
 linktitle: Konfigurace zobrazení využití zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak nakonfigurovat zobrazení využití zdrojů MS Project pomocí Aspose.Tasks pro .NET. Podrobný průvodce včetně příkladů kódu.
-type: docs
 weight: 15
 url: /cs/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace zobrazení využití zdrojů MS Project v Aspose.Tasks
+
 ## Úvod
 Microsoft Project (MS Project) je výkonný nástroj pro řízení projektů, který uživatelům umožňuje efektivně plánovat, provádět a sledovat své projekty. Aspose.Tasks for .NET poskytuje bezproblémovou integraci se soubory MS Project, což vývojářům umožňuje programově manipulovat s daty projektu. V tomto tutoriálu prozkoumáme, jak nakonfigurovat zobrazení využití zdrojů MS Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -58,3 +64,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé výstupní formáty včetně XLSX
  Odpověď: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy, diskuse nebo potřeby podpory.
 ### Otázka: Mohu vyzkoušet Aspose.Tasks před nákupem?
  Odpověď: Aspose.Tasks samozřejmě můžete prozkoumat s bezplatnou zkušební verzí[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

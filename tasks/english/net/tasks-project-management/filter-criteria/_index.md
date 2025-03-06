@@ -3,10 +3,16 @@ title: Mastering MS Project Filter Criteria with Aspose.Tasks
 linktitle: Filter Criteria in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to implement filter criteria in MS Project using Aspose.Tasks for .NET. Boost project management efficiency with targeted data analysis.
-type: docs
 weight: 18
 url: /net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project Filter Criteria with Aspose.Tasks
+
 ## Introduction
 In the realm of project management, Microsoft Project stands as a stalwart tool, offering a plethora of features to aid project planners and managers. Among its many functionalities lies the ability to filter project data, allowing users to focus on specific aspects of their project's tasks. However, mastering these filtering capabilities can be a daunting task without the right guidance. This tutorial aims to demystify the process by providing a step-by-step guide on implementing filter criteria in MS Project using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -89,3 +95,10 @@ A: Aspose.Tasks supports .NET Framework, .NET Core, and .NET Standard, ensuring 
 A: Absolutely, you can programmatically adjust filter criteria based on dynamic parameters, enabling adaptive project data analysis.
 ### Q: Where can I seek assistance if I encounter issues with Aspose.Tasks?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to seek support from the community or directly reach out to Aspose.Tasks support for personalized assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

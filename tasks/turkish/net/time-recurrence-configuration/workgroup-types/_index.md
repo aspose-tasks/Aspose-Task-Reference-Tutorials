@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET ile Zahmetsiz Çalışma Grubu Kullanımı
 linktitle: Aspose.Tasks'ta Çalışma Grubu Türlerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Projenizdeki çalışma grubu türlerini zahmetsizce yönetmek için Aspose.Tasks for .NET'i keşfedin. Kaynak tahsisini optimize edin ve proje yönetimini geliştirin.
-type: docs
 weight: 12
 url: /tr/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET ile Zahmetsiz Çalışma Grubu Kullanımı
+
 ## giriiş
 Aspose.Tasks for .NET, proje yönetimi senaryolarında çalışma grubu türlerinin yönetimi için güçlü bir çözüm sunar. Çalışma gruplarını verimli bir şekilde yönetmek, kaynak tahsisini optimize etmek ve projenin sorunsuz yürütülmesini sağlamak için çok önemlidir. Bu eğitimde, Aspose.Tasks'ı kullanarak çalışma grubu türlerini ele alma sürecini adım adım rehberlik sunarak ele alacağız.
 ## Önkoşullar
@@ -46,3 +52,9 @@ Evet, projenizin farklı aşamalarında bir kaynak için farklı çalışma grub
  Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nasıl geçici lisans alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

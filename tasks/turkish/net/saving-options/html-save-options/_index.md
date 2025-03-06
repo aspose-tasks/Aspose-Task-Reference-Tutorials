@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project'i HTML olarak kaydedin
 linktitle: Aspose.Tasks için HTML Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarını HTML olarak nasıl kaydedeceğinizi öğrenin. Adım adım kılavuzumuzla proje verilerini zahmetsizce dönüştürün.
-type: docs
 weight: 10
 url: /tr/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project'i HTML olarak kaydedin
+
 ## giriiş
 Aspose.Tasks for .NET kullanarak Microsoft Project dosyalarını HTML olarak kaydetme eğitimimize hoş geldiniz! Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, proje verilerini HTML olarak kaydetmek için Aspose.Tasks'ın nasıl kullanılacağını keşfedeceğiz ve bu süreçte adım adım rehberlik sağlayacağız.
 ## Önkoşullar
@@ -57,3 +63,9 @@ C: Evet, Aspose.Tasks, çok çeşitli Microsoft Project dosya sürümlerini dest
 C: Kesinlikle, gereksinimlerinize göre projenizin belirli sayfalarını veya bölümlerini çıkarabilir ve ekleyebilirsiniz.
 ### S: Aspose.Tasks'ın deneme sürümü mevcut mu?
 C: Evet, satın almadan önce özelliklerini keşfetmek için Aspose.Tasks'ın ücretsiz deneme sürümüne erişebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Kaynak Türleri
 linktitle: Aspose.Tasks'taki Kaynak Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Adım adım eğitim aracılığıyla Aspose.Tasks for .NET'te iş, malzeme ve maliyet kaynakları da dahil olmak üzere farklı türdeki kaynaklarla nasıl çalışılacağını öğrenin.
-type: docs
 weight: 14
 url: /tr/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Kaynak Türleri
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. İster görevleri, kaynakları veya programları yönetiyor olun, Aspose.Tasks kapsamlı bir API seti sağlayarak süreci basitleştirir. Bu eğitimde Aspose.Tasks for .NET kullanarak projelerinizde kullanabileceğiniz farklı kaynak türlerini inceleyeceğiz.
 ## Önkoşullar
@@ -60,3 +66,9 @@ C: Evet, Aspose.Tasks, Microsoft Project (MPP), Primavera P6 ve daha fazlası da
  C: Evet, geçici lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for .NET referans amaçlı belgeler sağlıyor mu?
  C: Evet, belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

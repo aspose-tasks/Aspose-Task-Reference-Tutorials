@@ -3,10 +3,16 @@ title: Обработка назначения ресурсов проекта M
 linktitle: Обработка назначений ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно обрабатывать назначения ресурсов MS Project с помощью Aspose.Tasks для .NET. Это комплексное руководство содержит пошаговые инструкции для разработчиков.
-type: docs
 weight: 11
 url: /ru/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка назначения ресурсов проекта MS в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы углубимся в то, как эффективно обрабатывать назначения ресурсов Microsoft Project с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно манипулировать файлами Microsoft Project. Выполнив эти шаги, вы научитесь эффективно управлять назначениями ресурсов в своих приложениях .NET.
 ## Предварительные условия
@@ -73,3 +79,9 @@ project.Save(DataDir + "CreateSplitTasks_out.xml", SaveFileFormat.Xml);
 Да, Aspose.Tasks позволяет экспортировать данные проекта в различные форматы, такие как XML, PDF и HTML и другие.
 ### Доступна ли техническая поддержка для пользователей Aspose.Tasks?
 Да, Aspose предоставляет специальную техническую поддержку через свой форум и другие каналы, чтобы помочь пользователям с любыми вопросами или проблемами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

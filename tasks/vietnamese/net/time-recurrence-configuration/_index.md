@@ -3,10 +3,16 @@ title: Aspose.Tasks Cấu hình thời gian và các mẫu lặp lại
 linktitle: Aspose.Tasks Cấu hình thời gian và các mẫu lặp lại
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks để biết các hướng dẫn .NET về cấu hình thời gian và các mẫu lặp lại. Dễ dàng quản lý lịch, tùy chỉnh thời gian làm việc và tối ưu hóa việc lập kế hoạch dự án.
-type: docs
 weight: 33
 url: /vi/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Cấu hình thời gian và các mẫu lặp lại
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho .NET, nơi quản lý dự án hiệu quả đáp ứng sức mạnh của cấu hình thời gian có thể tùy chỉnh và mô hình lặp lại. Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào các hướng dẫn khác nhau giúp bạn nắm vững nghệ thuật lập kế hoạch dự án và quản lý nguồn lực.
@@ -58,3 +64,9 @@ Tìm hiểu cách định cấu hình tuần làm việc một cách dễ dàng 
 Tìm hiểu cách tùy chỉnh tuần làm việc trong Aspose.Tasks cho .NET. Hướng dẫn từng bước để tạo lịch dự án được cá nhân hóa. Tải ngay!
 ### [Định cấu hình các mẫu lặp lại hàng năm trong Aspose.Tasks](./yearly-recurrence-patterns/)
 Tìm hiểu cách đặt cấu hình mẫu lặp lại hàng năm trong Aspose.Tasks cho .NET. Nâng cao kỹ năng quản lý dự án của bạn với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adjon hozzá kiterjesztett attribútumokat a Tasks-hoz az Aspose.Tasks-ba
 linktitle: Adjon hozzá kiterjesztett attribútumokat a Tasks-hoz az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks Java erejét a Microsoft Project fájlok kiterjesztett attribútumokkal történő testreszabásában. Növelje projektmenedzsment képességeit könnyedén.
-type: docs
 weight: 11
 url: /hu/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá kiterjesztett attribútumokat a Tasks-hoz az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsment képességek fejlesztése kulcsfontosságú a hatékony feladatkövetéshez és erőforrás-kezeléshez. Az Aspose.Tasks for Java hatékony megoldást kínál a Java fejlesztők számára a Microsoft Project fájlok zökkenőmentes kezeléséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk kibővített attribútumokat a feladatokhoz az Aspose.Tasks for Java használatával, amely lehetővé teszi a projektadatok testreszabását és rendszerezését az Ön egyedi igényei szerint.
 ## Előfeltételek
@@ -75,3 +81,9 @@ V: Természetesen az Aspose.Tasks for Java különböző méretű projektek keze
  V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
 ### K: Kipróbálhatom az Aspose.Tasks for Java programot vásárlás előtt?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

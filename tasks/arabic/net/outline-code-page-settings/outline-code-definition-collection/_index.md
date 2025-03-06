@@ -3,10 +3,16 @@ title: مجموعة من تعريفات التعليمات البرمجية ال
 linktitle: مجموعة من تعريفات التعليمات البرمجية التفصيلية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع تعريفات التعليمات البرمجية التفصيلية في مستندات Microsoft Project باستخدام Aspose.Tasks لـ .NET. تصنيف بيانات المشروع الخاص بك دون عناء.
-type: docs
 weight: 13
 url: /ar/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة من تعريفات التعليمات البرمجية التفصيلية في Aspose.Tasks .NET
+
 ## مقدمة
 Aspose.Tasks هي مكتبة .NET قوية مصممة للتعامل مع مستندات Microsoft Project بسهولة وكفاءة. إحدى ميزاته الرئيسية هي القدرة على العمل مع تعريفات التعليمات البرمجية التفصيلية، مما يسمح للمستخدمين بتنظيم وتصنيف بيانات المشروع بشكل فعال. في هذا البرنامج التعليمي، سوف نستكشف كيفية العمل مع تعريفات التعليمات البرمجية التفصيلية باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ project.Save(DataDir + "ModifiedOutlineCodes.mpp", SaveFileFormat.MPP);
 ج: لا يفرض Aspose.Tasks for .NET أي قيود محددة على عدد تعريفات التعليمات البرمجية التفصيلية التي يمكنك إضافتها إلى المشروع. ومع ذلك، خذ بعين الاعتبار الآثار المترتبة على الأداء عند العمل مع عدد كبير من التعريفات.
 ### س: هل يمكنني استخدام تعريفات التعليمات البرمجية التفصيلية لتجميع المهام بناءً على معايير مخصصة؟
 ج: نعم، تسمح لك تعريفات التعليمات البرمجية التفصيلية بتصنيف المهام بناءً على معايير مخصصة، مما يوفر المرونة في تنظيم بيانات المشروع. ## كود المصدر الكامل
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

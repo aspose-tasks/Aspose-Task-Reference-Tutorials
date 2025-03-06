@@ -3,10 +3,16 @@ title: Управление учетными данными MS Project Server в
 linktitle: Управление учетными данными Project Server в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко управлять учетными данными MS Project Server с помощью Aspose.Tasks для .NET. Повышайте эффективность управления проектами.
-type: docs
 weight: 22
 url: /ru/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление учетными данными MS Project Server в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами эффективная координация и бесперебойная коммуникация имеют решающее значение для успешного выполнения проекта. Aspose.Tasks для .NET предоставляет комплексное решение для управления учетными данными Microsoft Project Server, позволяющее пользователям безопасно получать доступ к данным проекта и манипулировать ими. В этом руководстве рассматривается процесс управления учетными данными MS Project Server с помощью Aspose.Tasks для .NET, помогая пользователям пройти каждый шаг для обеспечения бесперебойной работы.
 ## Предварительные условия
@@ -83,3 +89,9 @@ foreach (var info in list)
 О: Да, Aspose.Tasks для .NET предлагает гибкие варианты лицензирования, включая временные лицензии для пробных целей и полные лицензии для коммерческого использования.
 ### Вопрос: Где я могу получить помощь или поддержку по Aspose.Tasks для .NET?
  О: По любым вопросам или помощи относительно Aspose.Tasks для .NET вы можете посетить форум поддержки по адресу:[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Полный исходный код
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

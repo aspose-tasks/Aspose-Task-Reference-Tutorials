@@ -3,10 +3,16 @@ title: Erweiterte Aufgabenattribute in Aspose.Tasks
 linktitle: Erweiterte Aufgabenattribute in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie erweiterte Aufgabenattribute in Aspose.Tasks für Java. Schritt-für-Schritt-Anleitung, FAQs und Support. Optimieren Sie noch heute Ihr Projektmanagement!
-type: docs
 weight: 16
 url: /de/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erweiterte Aufgabenattribute in Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem umfassenden Leitfaden zur Nutzung erweiterter Aufgabenattribute in Aspose.Tasks für Java. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die Ihnen die nahtlose Arbeit mit Microsoft Project-Dokumenten ermöglicht. In diesem Tutorial befassen wir uns mit den erweiterten Aufgabenattributen und zeigen, wie Sie diese nutzen können, um Ihre Projektmanagementfähigkeiten zu verbessern.
 ## Voraussetzungen
@@ -73,3 +79,9 @@ Ja, Sie können erweiterte Aufgabenattribute mit Aspose.Tasks für Java ändern.
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo kann ich die Vollversion von Aspose.Tasks für Java kaufen?
  Sie können die Vollversion erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

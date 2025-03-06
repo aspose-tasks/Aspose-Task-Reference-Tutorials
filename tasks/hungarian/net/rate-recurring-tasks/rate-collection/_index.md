@@ -3,10 +3,16 @@ title: Master MS Project Rates az Aspose.Tasks segítségével
 linktitle: Árak gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a díjakat MS Project fájlokban az Aspose.Tasks for .NET segítségével. Lépésről lépésre bemutató útmutató a hatékony erőforrás-kezeléshez.
-type: docs
 weight: 11
 url: /hu/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Rates az Aspose.Tasks segítségével
+
 ## Bevezetés
 Üdvözöljük oktatóanyagunkban az MS Project díjainak kezeléséről az Aspose.Tasks for .NET használatával! Ebben az útmutatóban végigvezetjük az Aspose.Tasks használatával az MS Project fájljaiban lévő díjszabásokkal való munkafolyamaton. Akár tapasztalt fejlesztő, akár csak most kezdi a .NET-fejlesztést, ez az oktatóanyag lépésről lépésre útmutatást ad a projektek díjainak hatékony kezeléséhez.
 ## Előfeltételek
@@ -110,3 +116,9 @@ V: Az Aspose.Tasks for .NET támogatja a különböző verziójú MS Project fá
 V: Igen, igénybe veheti az Aspose.Tasks for .NET ingyenes próbaverzióját, hogy értékelje szolgáltatásait és kompatibilitását az Ön követelményeivel.
 ### K: Hogyan vásárolhatok licencet az Aspose.Tasks for .NET számára?
  V: Az Aspose.Tasks for .NET-hez licencet vásárolhat a webhelyen[weboldal](https://purchase.aspose.com/temporary-license/)amely rugalmas licencelési lehetőségeket biztosít az Ön igényeinek megfelelően.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

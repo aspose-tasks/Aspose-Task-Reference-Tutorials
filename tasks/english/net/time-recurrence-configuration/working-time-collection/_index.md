@@ -3,10 +3,16 @@ title: Mastering Working Times in Aspose.Tasks
 linktitle: Collection of Working Times in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the power of Aspose.Tasks for .NET in managing project timelines efficiently. Customize calendars, set working times, and streamline your projects with ease.
-type: docs
 weight: 14
 url: /net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Working Times in Aspose.Tasks
+
 ## Introduction
 Are you looking to master the art of managing working times in Aspose.Tasks for .NET? Look no further! In this step-by-step guide, we'll delve into the intricacies of working time collection using Aspose.Tasks, empowering you to efficiently handle custom calendars and streamline your project timelines.
 ## Prerequisites
@@ -114,3 +120,10 @@ Aspose.Tasks is regularly updated to incorporate new features, enhancements, and
 Yes, you can explore Aspose.Tasks with a free trial by visiting [this link](https://releases.aspose.com/).
 ### Where can I seek support for Aspose.Tasks?
 For any queries or assistance, visit the [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

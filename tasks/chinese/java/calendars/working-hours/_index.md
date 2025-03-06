@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 从日历获取工作时间
 linktitle: 使用 Aspose.Tasks 从日历获取工作时间
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 轻松从 MS Project 日历中提取工作时间。简化项目管理任务。
-type: docs
 weight: 13
 url: /zh/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 从日历获取工作时间
+
 ## 介绍
 管理项目日历和提取工作时间对于有效的项目管理至关重要。 Aspose.Tasks for Java 提供了强大的功能，可以轻松地从 MS Project 日历中检索工作时间。在本教程中，我们将逐步指导您完成该过程。
 ## 先决条件
@@ -83,3 +89,9 @@ System.out.println();
 答：是的，Aspose.Tasks for Java 提供了广泛的文档和专门的支持论坛，以帮助开发人员有效地利用其功能。
 ### 问：Aspose.Tasks for Java 有试用版吗？
 答：是的，您可以访问 Aspose.Tasks for Java 的免费试用版：[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

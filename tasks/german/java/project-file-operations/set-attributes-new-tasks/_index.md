@@ -3,10 +3,16 @@ title: Festlegen von MS Project-Attributen für neue Aufgaben in Aspose.Tasks
 linktitle: Legen Sie Attribute für neue Aufgaben in Aspose.Tasks fest
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java MS Project-Attribute für neue Aufgaben festlegen. Passen Sie Aufgabeneigenschaften mühelos mit dieser umfassenden Anleitung an.
-type: docs
 weight: 21
 url: /de/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von MS Project-Attributen für neue Aufgaben in Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem umfassenden Tutorial zum Festlegen von MS Project-Attributen für neue Aufgaben in Aspose.Tasks für Java! In diesem Leitfaden führen wir Sie Schritt für Schritt durch den Prozess und stellen sicher, dass Sie Ihre Aufgaben mit dieser leistungsstarken Java-Bibliothek einfach verwalten und anpassen können.
 ## Voraussetzungen
@@ -68,3 +74,9 @@ A: Ja, Aspose.Tasks für Java bietet umfangreiche Funktionen zum Bearbeiten vorh
  A: Temporäre Lizenzen für Aspose.Tasks für Java können von bezogen werden[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Unterstützung bei Problemen oder Fragen im Zusammenhang mit Aspose.Tasks für Java erhalten?
  A: Sie können auf der Website Unterstützung erhalten und mit der Community interagieren[Aspose.Tasks für Java-Supportforum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

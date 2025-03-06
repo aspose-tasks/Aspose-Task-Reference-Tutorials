@@ -3,10 +3,16 @@ title: Aspose.Tugas Konsep Lanjutan
 linktitle: Aspose.Tugas Konsep Lanjutan
 second_title: Aspose.Tugas .NET API
 description: Pelajari penyimpanan gambar, penanganan pengecualian, algoritme pohon, tampilan label, opsi pemuatan, dan banyak lagi. Kuasai konsep tingkat lanjut di Aspose.Tasks untuk .NET
-type: docs
 weight: 24
 url: /id/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tugas Konsep Lanjutan
+
 
 ## Perkenalan
 
@@ -84,3 +90,9 @@ Pelajari cara menggunakan operasi NOT di Aspose.Tasks untuk .NET untuk memfilter
 Pelajari cara bekerja secara efisien dengan objek OLE dalam aplikasi .NET menggunakan Aspose.Tasks, sehingga meningkatkan kemampuan manajemen proyek.
 ### [Kumpulan Objek OLE di Aspose.Tasks](./ole-object-collection/)
 Pelajari cara mengelola objek OLE di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Kuasai penanganan file yang tertanam dalam dokumen proyek dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

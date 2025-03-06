@@ -3,10 +3,16 @@ title: Feladathivatkozások kezelése az Aspose.Tasks-ban
 linktitle: Feladathivatkozások kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET erejét a projektfeladat-hivatkozások hatékony kezelésében. Kövesse lépésről lépésre útmutatónkat, hogy javítsa projektmenedzsment-élményét.
-type: docs
 weight: 19
 url: /hu/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladathivatkozások kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for .NET feladathivatkozásainak kezeléséről szóló, lépésről lépésre szóló útmutatóban! A feladathivatkozások döntő szerepet játszanak a projektmenedzsmentben, lehetővé téve a feladatok közötti kapcsolatok létrehozását és függőségek létrehozását. Ebben az oktatóanyagban végigvezetjük a feladathivatkozás-gyűjtemények Aspose.Tasks használatával történő munkafolyamatán.
 ## Előfeltételek
@@ -85,3 +91,9 @@ Jelenleg az Aspose.Tasks támogatja a szabványos feladathivatkozás-típusokat,
 Az Aspose.Tasks hatékonyan tudja kezelni a nagy projektfájlokat, minimális teljesítményhatás mellett.
 ### Létezik közösségi fórum az Aspose.Tasks támogatására?
  Igen, támogatást találhat, és kapcsolatba léphet a közösséggel a webhelyen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

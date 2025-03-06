@@ -3,10 +3,16 @@ title: Dolgozzon a VBA-integrációval az Aspose.Tasks-ban
 linktitle: Dolgozzon a VBA-integrációval az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Javítsa ki a projektmenedzsmentet az Aspose.Tasks for Java segítségével – Engedje fel a VBA-integrációt az egyszerűsített munkafolyamatok érdekében. Fedezze fel most a hatékony feladatkövetést!
-type: docs
 weight: 10
 url: /hu/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dolgozzon a VBA-integrációval az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsment és a feladatkövetés dinamikus világában a Visual Basic for Applications (VBA) rendszerrel zökkenőmentesen integrálható robusztus eszköz megváltoztathatja a helyzetet. Az Aspose.Tasks for Java egy ilyen erőmű, amely lehetővé teszi a VBA-integrációval való erőfeszítés nélküli munkát. Ebben az oktatóanyagban az Aspose.Tasks for Java használatával végzett VBA-integráció bonyolultságába fogunk beleásni, és megvizsgáljuk a VBA-projektinformációk, hivatkozások, modulok és modulattribútumok olvasásának lépéseit.
 ## Előfeltételek
@@ -98,3 +104,9 @@ Igen, az Aspose.Tasks for Java kompatibilis a legújabb Java-kiadásokkal.
  Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Kaphatok ideiglenes licencet az Aspose.Tasks for Java számára?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

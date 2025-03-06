@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Takvim İstisnalarının Toplanması
 linktitle: Aspose.Tasks'ta Takvim İstisnalarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak .NET projelerinizde takvim istisnalarını nasıl verimli bir şekilde yöneteceğinizi, doğru planlama ve kaynak yönetimini nasıl sağlayacağınızı öğrenin.
-type: docs
 weight: 13
 url: /tr/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Takvim İstisnalarının Toplanması
+
 ## giriiş
 
 Proje yönetiminde kesin planlama başarı için hayati öneme sahiptir. Ancak gerçek dünya senaryoları genellikle tatiller, özel etkinlikler veya diğer faktörler nedeniyle standart programlardan sapmalar gerektirir. Aspose.Tasks for .NET, Takvim İstisna Toplama özelliği aracılığıyla bu tür istisnaları yönetmek için güçlü bir çözüm sunar. Bu eğitim, bu işlevselliği adım adım kullanma sürecinde size rehberlik edecektir.
@@ -143,3 +149,9 @@ Cevap4: Aspose.Tasks for .NET, proje gereksinimlerinize göre öncelikleri tanı
 ### S5: İstisnai durumlar dahilinde her gün için çalışma sürelerini özelleştirebilir miyim?
 
 C5: Evet, belirli planlama ihtiyaçlarını karşılamak amacıyla istisna dahilinde tek tek günler için özel çalışma süreleri belirleyebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

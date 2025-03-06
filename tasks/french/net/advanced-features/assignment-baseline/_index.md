@@ -3,10 +3,16 @@ title: Gestion de la ligne de base des affectations dans Aspose.Tasks
 linktitle: Gestion de la ligne de base des affectations dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les références d'affectation avec Aspose.Tasks pour .NET, garantissant un suivi précis de l'avancement et des performances du projet.
-type: docs
 weight: 14
 url: /fr/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de la ligne de base des affectations dans Aspose.Tasks
+
 ## Introduction
 
 Lorsque vous travaillez sur des tâches de gestion de projet, la gestion des références d’affectation est cruciale pour suivre avec précision les progrès. Aspose.Tasks for .NET fournit un ensemble complet d'outils pour gérer efficacement les références d'affectation. Dans ce didacticiel, nous aborderons étape par étape le processus de gestion des références d’affectation.
@@ -123,3 +129,9 @@ A4 : Oui, les développeurs peuvent accéder à une documentation complète, des
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
  A5 : Oui, les développeurs peuvent obtenir une version d'essai gratuite d'Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/), leur permettant d'évaluer ses caractéristiques et capacités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

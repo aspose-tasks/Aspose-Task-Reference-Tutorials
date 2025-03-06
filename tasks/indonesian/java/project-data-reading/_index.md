@@ -3,10 +3,16 @@ title: Pembacaan Data Proyek
 linktitle: Pembacaan Data Proyek
 second_title: Aspose.Tugas Java API
 description: Buka kekuatan Aspose.Tasks untuk Java dengan tutorial kami! Dari membaca definisi grup hingga mengekstrak data bagan Gantt, kuasai integrasi tanpa batas.
-type: docs
 weight: 28
 url: /id/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembacaan Data Proyek
+
 ## Perkenalan
 Jika Anda menavigasi lanskap luas manajemen proyek di Java, tutorial Aspose.Tasks kami adalah bintang panduan Anda. Selami dunia di mana membaca data proyek menjadi sebuah perjalanan yang mudah, berkat panduan langkah demi langkah kami. Mari kita memulai petualangan pengetahuan ini bersama-sama!
 
@@ -48,3 +54,9 @@ Pelajari cara membaca file yang dilindungi kata sandi di Aspose.Tasks untuk Java
 Pelajari cara mengekstrak data bagan Gantt tertentu menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar ke dalam aplikasi Java Anda.
 ### [Baca Data Tabel dari File di Aspose.Tasks](./read-table-data/)
 Buka kekuatan Aspose.Tasks untuk Java. Pelajari cara mengekstrak data tabel dari file dalam tutorial komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sammlung von Zuweisungsbasislinien in Aspose.Tasks
 linktitle: Sammlung von Zuweisungsbasislinien in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Aufgabenbasislinien im Projektmanagement effizient verwalten. Steigern Sie Produktivität und Genauigkeit.
-type: docs
 weight: 15
 url: /de/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Zuweisungsbasislinien in Aspose.Tasks
+
 ## Einführung
 
 Im Bereich des Projektmanagements ist die Verfolgung und Verwaltung der Auftragsbasispläne von entscheidender Bedeutung, um den Projekterfolg und die Einhaltung von Zeitplänen sicherzustellen. Aspose.Tasks für .NET bietet eine Reihe robuster Funktionen, um die effiziente Handhabung von Zuweisungsbasislinien innerhalb von Projekten zu erleichtern. In diesem Tutorial befassen wir uns mit den Feinheiten der Arbeit mit Assignment Baseline Collections mithilfe von Aspose.Tasks für .NET.
@@ -100,3 +106,9 @@ A4: Ja, Aspose.Tasks bietet über sein Community-Forum umfassenden technischen S
 ### F5: Kann ich Aspose.Tasks testen, bevor ich einen Kauf tätige?
 
 A5: Ja, Aspose.Tasks bietet eine kostenlose Testversion an, die es Entwicklern ermöglicht, die Features und Funktionalitäten zu erkunden, bevor sie eine Kaufentscheidung treffen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

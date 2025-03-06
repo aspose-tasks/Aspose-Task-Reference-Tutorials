@@ -3,10 +3,16 @@ title: Cost Accrual Types in Aspose.Tasks
 linktitle: Cost Accrual Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking.
-type: docs
 weight: 19
 url: /net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cost Accrual Types in Aspose.Tasks
+
 ## Introduction
 
 In project management, accurately tracking costs is crucial for maintaining budgetary control and ensuring the success of a project. Aspose.Tasks for .NET offers a robust set of tools for managing project costs, including the ability to define different cost accrual types. This tutorial will guide you through the process of understanding and implementing cost accrual types using Aspose.Tasks for .NET.
@@ -86,3 +92,10 @@ A4: Yes, you can set the cost accrual type independently for each task and resou
 ### Q5: Does Aspose.Tasks for .NET support custom cost accrual types?
 
 A5: As of the latest version, Aspose.Tasks for .NET does not support defining custom cost accrual types.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

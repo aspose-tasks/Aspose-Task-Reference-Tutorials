@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.Tasks لـ Java
 linktitle: Aspose.Tasks لدروس جافا
-type: docs
 weight: 10
 url: /ar/java/
 description: استكشف Aspose.Tasks لـ Java من خلال برامجنا التعليمية. التقويم الرئيسي وإدارة المشاريع والمزيد. تبسيط سير العمل الخاص بك لتنفيذ المشروع بكفاءة.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.Tasks لـ Java
+
 
 ## مقدمة
 هل أنت مستعد لرفع مستوى مهاراتك في إدارة مشاريع Java؟ انغمس في عالم Aspose.Tasks for Java من خلال برامجنا التعليمية الشاملة التي تغطي جوانب مختلفة من إدارة المشاريع. بدءًا من استثناءات التقويم وحتى تكامل VBA، فإننا نوفر لك كل ما تحتاجه.
@@ -93,3 +98,9 @@ is_root: true
 تحسين إدارة مشروعات Java باستخدام Aspose.Tasks. استكشف البرامج التعليمية حول خصائص المهام، بدءًا من التعامل مع الأولويات وحتى إدارة التكاليف. تحسين مشروعك اليوم!
 ### [التكامل مع VBA](./vba-integration/)
 استكشف Aspose.Tasks Java مع تكامل VBA. تبسيط سير عمل المشروع وتحسين تتبع المهام. استكشف البرامج التعليمية الشاملة للتكامل السلس مع VBA!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

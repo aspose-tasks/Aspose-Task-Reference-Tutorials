@@ -3,10 +3,16 @@ title: وضع الحساب في Aspose.Tasks
 linktitle: وضع الحساب في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة أوضاع الحساب بشكل فعال في Aspose.Tasks لـ .NET لتبسيط جدولة المشروع وتبعيات المهام.
-type: docs
 weight: 29
 url: /ar/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# وضع الحساب في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft Project برمجيًا في تطبيقات .NET الخاصة بهم. أحد الجوانب الحاسمة للعمل مع ملفات المشروع هو إدارة أوضاع الحساب، التي تحدد كيفية حساب المهام وجداول المشروع وتحديثها. في هذا البرنامج التعليمي، سوف نتعمق في أوضاع الحساب المختلفة التي يدعمها Aspose.Tasks لـ .NET ونوضح كيفية استخدامها بفعالية.
@@ -165,3 +171,9 @@ Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
 ### س5: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لمستخدمي Aspose.Tasks؟
 
  ج5: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

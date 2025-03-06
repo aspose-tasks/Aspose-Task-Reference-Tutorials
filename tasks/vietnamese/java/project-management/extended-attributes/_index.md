@@ -3,10 +3,16 @@ title: Xử lý các thuộc tính mở rộng trong dự án Aspose.Tasks
 linktitle: Xử lý các thuộc tính mở rộng trong dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các thuộc tính mở rộng trong các dự án Aspose.Tasks bằng Java một cách hiệu quả. Hướng dẫn từng bước để quản lý dự án hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các thuộc tính mở rộng trong dự án Aspose.Tasks
+
 ## Giới thiệu
 Quản lý các thuộc tính mở rộng trong quản lý dự án là rất quan trọng để tùy chỉnh và nâng cao dữ liệu dự án. Aspose.Tasks for Java cung cấp các công cụ mạnh mẽ để xử lý các thuộc tính mở rộng trong tệp MS Project một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cho phép bạn xác định c�
  Trả lời: Bạn có thể tìm thấy tài liệu toàn diện trên trang web Aspose.Tasks[tài liệu](https://reference.aspose.com/tasks/java/).
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
  Trả lời: Có, bạn có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn Aspose.Tasks[trang mạng](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

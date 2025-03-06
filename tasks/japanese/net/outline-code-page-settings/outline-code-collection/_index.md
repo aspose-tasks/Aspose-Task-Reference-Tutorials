@@ -3,10 +3,16 @@ title: Aspose.Tasks のアウトライン コードのコレクション MS プ�
 linktitle: Aspose.Tasks のアウトライン コードのコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project アウトライン コードを収集する方法を学びます。この包括的なチュートリアルでは、段階的な手順を説明します。
-type: docs
 weight: 11
 url: /ja/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のアウトライン コードのコレクション MS プロジェクト
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project のアウトライン コードを収集する方法を説明します。明確さと理解を確実にするために、プロセスを段階的な手順に分けて説明します。
 ## 前提条件
@@ -95,3 +101,9 @@ A: はい、Aspose.Tasks for .NET は、最新バージョンを含むさまざ�
 A: もちろん、Aspose.Tasks for .NET には、要件に応じて出力形式をカスタマイズするための広範なオプションが用意されています。
 ### Q: Aspose.Tasks for .NET の追加のサポートやリソースはどこで見つけられますか?
  A: にアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15) Aspose.Tasks for .NET に関するサポートや質問については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

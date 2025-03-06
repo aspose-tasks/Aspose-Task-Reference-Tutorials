@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中撰寫MPP專案摘要
 linktitle: 在Aspose.Tasks中撰寫MPP專案摘要
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中撰寫 MPP 專案摘要。輕鬆設定和檢索項目資訊。
-type: docs
 weight: 27
 url: /zh-hant/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中撰寫MPP專案摘要
+
 ## 介紹
 在本教程中，我們將學習如何利用 Aspose.Tasks for Java 撰寫 MPP 專案摘要。 Aspose.Tasks 是一個功能強大的 Java 函式庫，用於處理 Microsoft Project 檔案。透過執行下面概述的步驟，您將能夠使用此程式庫設定和檢索有關項目的各種摘要資訊。
 ## 先決條件
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 答：當然，Aspose.Tasks for Java 提供了廣泛的選項，可根據您的特定要求自訂專案摘要資訊。
 ### Q：在哪裡可以獲得 Aspose.Tasks for Java 的支援？
 答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

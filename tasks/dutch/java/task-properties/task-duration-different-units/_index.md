@@ -3,10 +3,16 @@ title: Taakduur in verschillende eenheden met Aspose.Tasks
 linktitle: Taakduur in verschillende eenheden met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek het beheer van de taakduur in Java-projecten met Aspose.Tasks. Bereken en converteer de duur nauwkeurig in minuten, dagen, uren, weken en maanden.
-type: docs
 weight: 32
 url: /nl/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakduur in verschillende eenheden met Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement is het begrijpen en beheren van de taakduur een cruciaal aspect. Aspose.Tasks voor Java biedt een krachtige toolset om dit efficiënt aan te pakken. In deze zelfstudie begeleiden we u bij het ophalen van taakduur in verschillende eenheden met behulp van Aspose.Tasks.
 ## Vereisten
@@ -83,3 +89,9 @@ Absoluut. Aspose.Tasks is ontworpen om projecten van verschillende omvang effici
  Bezoek de[documentatie](https://reference.aspose.com/tasks/java/)voor uitgebreide bronnen.
 ### Vraag: Kan ik Aspose.Tasks voor Java uitproberen voordat ik het aanschaf?
  Ja, u kunt een verkennen[gratis proefperiode](https://releases.aspose.com/) om zijn capaciteiten te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

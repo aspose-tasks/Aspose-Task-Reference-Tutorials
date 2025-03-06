@@ -3,10 +3,16 @@ title: Beherrschen Sie den Umgang mit MS Project-Dateien mit Aspose.Tasks
 linktitle: Umgang mit Projektdateiformaten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Nutzen Sie die Leistungsfähigkeit der Microsoft Project-Dateibearbeitung mit Aspose.Tasks für .NET. Tauchen Sie ein in die nahtlose Integration und Verwaltung.
-type: docs
 weight: 18
 url: /de/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen Sie den Umgang mit MS Project-Dateien mit Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit Microsoft Project-Dateiformaten umgehen. Aspose.Tasks ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Projektdateien programmgesteuert zu bearbeiten und zu verwalten. Unabhängig davon, ob Sie mit .mpp-, .xml- oder .csv-Dateien arbeiten, bietet Aspose.Tasks einen umfassenden Satz an Funktionen zur Handhabung verschiedener Aspekte des Projektmanagements.
 ## Voraussetzungen
@@ -52,3 +58,9 @@ A: Absolut, Aspose.Tasks bietet umfangreiche Funktionen zum Bearbeiten von Proje
 A: Ja, Sie können mit Aspose.Tasks mit benutzerdefinierten Projektfeldern arbeiten und Vorgänge wie das Hinzufügen, Aktualisieren oder Entfernen benutzerdefinierter Felder ausführen.
 ### F: Kann ich mit Aspose.Tasks Projektberichte erstellen?
 A: Ja, mit Aspose.Tasks können Sie verschiedene Arten von Projektberichten programmgesteuert erstellen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

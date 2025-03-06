@@ -3,10 +3,16 @@ title: Aspose.Tasks プロジェクトでガント チャート ビューを構�
 linktitle: Aspose.Tasks プロジェクトでガント チャート ビューを構成する
 second_title: Aspose.Tasks Java API
 description: Java を使用して Aspose.Tasks でガント MS プロジェクト チャート ビューを構成する方法を学びます。プロジェクトをカスタマイズし、ガント チャートで段階的に視覚化します。
-type: docs
 weight: 10
 url: /ja/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks プロジェクトでガント チャート ビューを構成する
+
 ## 導入
 このチュートリアルでは、Java を使用して Aspose.Tasks プロジェクトでガント MS プロジェクト チャート ビューを構成する方法を学習します。 Aspose.Tasks は、Microsoft Project ファイルをプログラムで操作できるようにする強力な Java API です。これらの手順に従うことで、プロジェクトの要件に応じてガント チャート ビューをカスタマイズできるようになります。
 ## 前提条件
@@ -76,3 +82,9 @@ A: サポートを見つけたり、質問したりできます。[Aspose.Task �
  A: ライセンスは以下から購入できます。[ここ](https://purchase.aspose.com/buy).
 ### Q: テスト目的には一時ライセンスが必要ですか?
  A: はい、次から一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

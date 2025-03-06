@@ -3,10 +3,16 @@ title: Úkoly a kalendáře v Aspose.Tasks
 linktitle: Úkoly a kalendáře v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte sílu Aspose.Tasks pro Java při efektivní správě úkolů a kalendářů. Stáhněte si nyní pro bezproblémové řízení projektů!
-type: docs
 weight: 33
 url: /cs/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Úkoly a kalendáře v Aspose.Tasks
+
 ## Úvod
 Jste připraveni pozvednout svou hru projektového řízení pomocí Aspose.Tasks for Java? Tento komplexní průvodce vás provede složitým světem úkolů a kalendářů pomocí Aspose.Tasks, což vám umožní využít jeho plný potenciál pro efektivní plánování a realizaci projektů.
 ## Předpoklady
@@ -55,3 +61,9 @@ Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose
  Připojte se ke komunitě na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu.
 ### Mohu si zakoupit licenci pro Aspose.Tasks?
  Ano, můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

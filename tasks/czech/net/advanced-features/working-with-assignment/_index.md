@@ -3,10 +3,16 @@ title: Práce s přiřazením v Aspose.Tasks
 linktitle: Práce s přiřazením v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak spravovat přiřazení projektů v .NET pomocí Aspose.Tasks. Prozkoumejte různé obrysy pro plánování zdrojů.
-type: docs
 weight: 13
 url: /cs/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s přiřazením v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak pracovat s úkoly v Aspose.Tasks pro .NET. Úkoly jsou klíčové v projektovém řízení, protože přidělují zdroje úkolům, pomáhají při plánování a sledování pokroku. Zaměříme se na generování časově uspořádaných dat přiřazení zdrojů s různými obrysy pomocí Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Ano, jak je ukázáno v tomto tutoriálu, můžete nastavit různé obrysy, 
 ### Q5: Kde najdu podporu pro dotazy související s Aspose.Tasks?
 
 A5: Podporu najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) kde se odborníci a členové komunity aktivně zapojují do diskusí.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

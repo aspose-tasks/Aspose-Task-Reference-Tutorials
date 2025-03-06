@@ -3,10 +3,16 @@ title: Atur Margin Halaman Proyek MS dengan mudah dengan Aspose.Tasks
 linktitle: Menetapkan Margin Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyesuaikan margin halaman di file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Sempurnakan tata letak dan presentasi dokumen dengan mudah.
-type: docs
 weight: 19
 url: /id/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Margin Halaman Proyek MS dengan mudah dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, efisiensi dan presisi adalah hal yang terpenting. Aspose.Tasks untuk .NET menyediakan perangkat canggih untuk mengelola file Microsoft Project secara terprogram, menawarkan kemampuan kepada pengembang untuk menyederhanakan proses dan meningkatkan produktivitas. Dalam tutorial ini, kita akan mempelajari satu aspek spesifik dari manipulasi file proyek: mengatur margin halaman menggunakan Aspose.Tasks untuk .NET. Di akhir panduan ini, Anda akan dibekali dengan pengetahuan untuk menyesuaikan margin halaman dalam file Microsoft Project dengan lancar, memfasilitasi tata letak dan presentasi dokumen yang lebih baik.
 ## Prasyarat
@@ -73,3 +79,9 @@ J: Aspose.Tasks memberikan fleksibilitas dalam menetapkan nilai margin, memungki
 J: Ya, Aspose.Tasks menawarkan serangkaian fitur komprehensif untuk manajemen proyek, termasuk penjadwalan tugas, alokasi sumber daya, dan pelaporan.
 ### T: Dapatkah saya mengintegrasikan Aspose.Tasks ke dalam aplikasi web?
 J: Tentu saja! Aspose.Tasks untuk .NET dapat diintegrasikan dengan mulus ke dalam aplikasi web untuk meningkatkan kemampuan manajemen proyek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zarządzaj zadaniami nadrzędnymi i podrzędnymi w Aspose.Tasks
 linktitle: Zarządzaj zadaniami nadrzędnymi i podrzędnymi w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Zwiększ efektywność zarządzania projektami dzięki Aspose.Tasks dla Java. Dowiedz się, jak krok po kroku zarządzać zadaniami rodziców i dzieci. Zacznij teraz!
-type: docs
 weight: 24
 url: /pl/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj zadaniami nadrzędnymi i podrzędnymi w Aspose.Tasks
+
 ## Wstęp
 W zarządzaniu projektami kluczowa jest efektywna organizacja zadań. Aspose.Tasks dla Java zapewnia solidne rozwiązanie do efektywnego zarządzania zadaniami nadrzędnymi i podrzędnymi. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Tasks dla Java w celu usprawnienia zadań projektowych.
 ## Warunki wstępne
@@ -103,3 +109,9 @@ Absolutnie! Aspose.Tasks dla Java zapewnia rozbudowane opcje dostosowywania wła
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć obszerną dokumentację Aspose.Tasks dla Java?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

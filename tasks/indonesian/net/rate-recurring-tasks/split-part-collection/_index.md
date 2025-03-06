@@ -3,10 +3,16 @@ title: Kumpulkan Proyek MS Bagian Terpisah di Aspose.Tasks
 linktitle: Kumpulan Bagian Terpisah di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengumpulkan bagian terpisah di MS Project menggunakan Aspose.Tasks untuk .NET. Tutorial komprehensif ini memandu Anda melalui proses langkah demi langkah.
-type: docs
 weight: 19
 url: /id/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulkan Proyek MS Bagian Terpisah di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengumpulkan bagian-bagian yang terpisah di MS Project menggunakan Aspose.Tasks untuk .NET. Membagi tugas menjadi beberapa bagian dapat menjadi aspek penting dalam manajemen proyek, dan Aspose.Tasks menyediakan metode mudah untuk menangani hal ini secara efisien.
 ## Prasyarat
@@ -66,3 +72,9 @@ J: Aspose.Tasks mendukung berbagai versi file MS Project, memastikan kompatibili
  J: Lisensi sementara dapat diperoleh dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
 ### T: Di mana saya dapat mencari bantuan atau dukungan mengenai Aspose.Tasks?
  J: Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15)untuk mencari bantuan dari komunitas atau tim dukungan Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

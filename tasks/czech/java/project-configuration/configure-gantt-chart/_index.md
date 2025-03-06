@@ -3,10 +3,16 @@ title: Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
 linktitle: Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se konfigurovat zobrazení Gantt MS Project Chart v Aspose.Tasks pomocí Javy. Přizpůsobte si projekt a vizualizujte je v Ganttově diagramu krok za krokem.
-type: docs
 weight: 10
 url: /cs/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se naučíte, jak nakonfigurovat zobrazení Gantt MS Project Chart v projektech Aspose.Tasks pomocí Javy. Aspose.Tasks je výkonné Java API, které vám umožňuje programově pracovat se soubory Microsoft Project. Podle těchto kroků budete moci upravit zobrazení Ganttova diagramu podle požadavků vašeho projektu.
 ## Předpoklady
@@ -76,3 +82,9 @@ Odpověď: Podporu a dotazy můžete najít na[Fórum Aspose.Tasks](https://foru
  Odpověď: Můžete si zakoupit licenci od[tady](https://purchase.aspose.com/buy).
 ### Otázka: Potřebuji dočasnou licenci pro testovací účely?
  Odpověď: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

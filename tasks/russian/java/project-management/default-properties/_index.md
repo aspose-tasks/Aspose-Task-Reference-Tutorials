@@ -3,10 +3,16 @@ title: Эффективное управление свойствами прое
 linktitle: Управление свойствами проекта по умолчанию в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как управлять свойствами MS Project по умолчанию с помощью Aspose.Tasks для Java. Оптимизируйте рабочий процесс управления проектами без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффективное управление свойствами проекта MS в Aspose.Tasks
+
 ## Введение
 Вы хотите оптимизировать процесс управления проектами с помощью Aspose.Tasks для Java? Управление свойствами по умолчанию в файлах Microsoft Project может значительно повысить эффективность. В этом руководстве мы рассмотрим пошаговые инструкции по управлению свойствами MS Project по умолчанию с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -79,3 +85,9 @@ System.out.println("Process completed Successfully");
  А4: Конечно! Вы можете воспользоваться бесплатной пробной версией на сайте[Веб-сайт](https://releases.aspose.com/).
 ### В5: Как я могу получить временную лицензию для Aspose.Tasks?
  О5: Вы можете получить временную лицензию на сайте[страница покупки](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

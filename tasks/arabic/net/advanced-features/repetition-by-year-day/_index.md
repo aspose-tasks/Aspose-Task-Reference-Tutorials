@@ -3,10 +3,16 @@ title: التكرار حسب يوم السنة في Aspose.Tasks
 linktitle: التكرار حسب يوم السنة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع تكرارات أيام العام في Aspose.Tasks لـ .NET لتبسيط إدارة المهام المتكررة بكفاءة.
-type: docs
 weight: 27
 url: /ar/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التكرار حسب يوم السنة في Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، تلعب جدولة المهام الفعالة وتكرارها أدوارًا محورية في ضمان التنفيذ في الوقت المناسب وسير العمل بسلاسة. يوفر Aspose.Tasks for .NET حلاً قويًا للمطورين للتعامل مع المهام المتكررة دون عناء داخل تطبيقاتهم. في هذا البرنامج التعليمي، نتعمق في تعقيدات العمل مع تكرارات أيام السنة باستخدام Aspose.Tasks، مما يوفر دليلاً شاملاً لإنشاء مهام متكررة بناءً على الأنماط السنوية.
@@ -109,3 +115,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_T
 ### س5: هل Aspose.Tasks مناسب لكل من المشاريع الصغيرة والمشاريع على مستوى المؤسسات؟
 
 ج5: في الواقع، تم تصميم Aspose.Tasks لتلبية احتياجات المطورين الذين يعملون في مشاريع بكافة المقاييس، بدءًا من المهام الفردية وحتى مشاريع المؤسسات واسعة النطاق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS Project Outline 程式碼處理 Aspose.Tasks 中的定義
 linktitle: 在 Aspose.Tasks 中處理大綱程式碼定義
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 處理 MS Project 大綱程式碼定義，從而增強您的專案管理應用程式的能力。
-type: docs
 weight: 12
 url: /zh-hant/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline 程式碼處理 Aspose.Tasks 中的定義
+
 ## 介紹
 Microsoft Project 是管理專案的強大工具，Aspose.Tasks for .NET 為以程式設計方式操作專案檔案提供全面支援。專案管理的一個重要面向是使用大綱程式碼組織任務。在本教程中，我們將探討如何使用 Aspose.Tasks for .NET 處理 MS Project 大綱程式碼定義。
 ## 先決條件
@@ -91,3 +97,9 @@ outline.Values.Add(value);
 答：當然，Aspose.Tasks for .NET 支援從 MS Project 檔案讀取和寫入自訂字段，包括大綱程式碼。
 ### Q5：Aspose.Tasks for .NET 有社群論壇嗎？
 答：是的，您可以加入 Aspose.Tasks for .NET 社群論壇[這裡](https://forum.aspose.com/c/tasks/15)提出問題、分享知識並與其他開發人員合作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 간트 차트 보기 마스터하기
 linktitle: Aspose.Tasks의 간트 차트 보기
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일에서 Gantt 차트 보기를 사용자 정의하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 단계별 가이드입니다.
-type: docs
 weight: 22
 url: /ko/net/tasks-project-management/gantt-chart-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 간트 차트 보기 마스터하기
+
 ## 소개
 간트 차트는 프로젝트 관리에서 작업, 일정 및 종속성을 시각화하는 데 사용되는 강력한 도구입니다. Aspose.Tasks for .NET은 Microsoft Project 파일에서 Gantt 차트 보기 작업을 위한 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 활용하여 간트 차트 보기를 조작하고, 모양을 사용자 정의하고, PDF 파일로 저장하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -109,3 +115,9 @@ A: 물론 Aspose.Tasks는 Gantt 차트 보기를 PNG, JPEG 및 XPS를 포함한 
 A: 예, Aspose.Tasks는 복잡한 프로젝트 일정을 효과적으로 처리할 수 있는 고급 일정 알고리즘을 제공합니다.
 ### Q: 도움을 구하거나 Aspose.Tasks에 대한 내 경험을 공유할 수 있는 커뮤니티 포럼이 있습니까?
  A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 다른 사용자와 소통하고, 질문하고, 쿼리에 대한 해결책을 찾으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm thuộc tính mở rộng vào nhiệm vụ trong Aspose.Tasks
 linktitle: Thêm thuộc tính mở rộng vào nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks Java trong việc tùy chỉnh các tệp Microsoft Project với các thuộc tính mở rộng. Nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính mở rộng vào nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Nâng cao khả năng quản lý dự án của bạn là rất quan trọng để theo dõi nhiệm vụ và quản lý tài nguyên hiệu quả. Aspose.Tasks for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để thao tác các tệp Microsoft Project một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm các thuộc tính mở rộng vào các tác vụ bằng Aspose.Tasks cho Java, cho phép bạn tùy chỉnh và sắp xếp dữ liệu dự án theo yêu cầu cụ thể của mình.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Trả lời: Có, Aspose.Tasks cho Java có thể được tích hợp liền m�
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks cho Java trước khi mua không?
  Trả lời: Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

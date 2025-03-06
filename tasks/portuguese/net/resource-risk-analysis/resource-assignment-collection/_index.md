@@ -3,10 +3,16 @@ title: Coleção de atribuições de recursos em Aspose.Tasks
 linktitle: Coleção de atribuições de recursos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar atribuições de recursos no Microsoft Project usando Aspose.Tasks for .NET. Tutorial passo a passo com exemplos de código.
-type: docs
 weight: 12
 url: /pt/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção de atribuições de recursos em Aspose.Tasks
+
 ## Introdução
 Bem-vindo a este tutorial abrangente sobre como gerenciar atribuições de recursos no Microsoft Project usando Aspose.Tasks for .NET. Neste tutorial, nos aprofundaremos no processo passo a passo, garantindo que você tenha um conhecimento sólido de como manipular atribuições de recursos com eficiência. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia orientará você em tudo o que você precisa saber.
 ## Pré-requisitos
@@ -94,3 +100,9 @@ R: Sim, Aspose.Tasks for .NET oferece suporte a várias versões de arquivos do 
  R: Sim, licenças temporárias estão disponíveis para fins de avaliação. Você pode obter um de[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso adquirir uma licença completa do Aspose.Tasks for .NET?
  R: Você pode comprar uma licença completa na loja online Aspose[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में दिवस प्रकार संग्रह
 linktitle: Aspose.Tasks में दिवस प्रकार संग्रह का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks में दिन-प्रकार के संग्रहों को कुशलतापूर्वक प्रबंधित करना सीखें। आसानी से कैलेंडर अपवाद बनाएं, संशोधित करें और हेरफेर करें।
-type: docs
 weight: 28
 url: /hi/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में दिवस प्रकार संग्रह का प्रबंधन
+
 ## परिचय
 
  .NET के लिए Aspose.Tasks दिन प्रकार के संग्रह के प्रबंधन के लिए मजबूत कार्यक्षमता प्रदान करता है, जो परियोजना प्रबंधन अनुप्रयोगों में साप्ताहिक कैलेंडर अपवादों को परिभाषित करने के लिए महत्वपूर्ण है। इस ट्यूटोरियल में, हम जानेंगे कि इसका उपयोग कैसे करें`DayTypeCollection` कक्षा कुशलतापूर्वक. 
@@ -141,3 +147,9 @@ A2: हाँ, .NET के लिए Aspose.Tasks .NET कोर और .NET फ
 ### Q5: क्या मैं .NET के लिए Aspose.Tasks के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
 
  A5: हाँ, अस्थायी लाइसेंस खरीद के लिए उपलब्ध हैं[Aspose वेबसाइट](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

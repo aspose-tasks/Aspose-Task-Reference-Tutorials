@@ -3,10 +3,16 @@ title: Stapsgewijze WBS-codeconfiguratie in Aspose.Tasks .NET
 linktitle: WBS-codemaskers configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de stapsgewijze configuratie van WBS-codemaskers in .NET-projecten met behulp van Aspose.Tasks. Verbeter moeiteloos de mogelijkheden voor projectmanagement.
-type: docs
 weight: 14
 url: /nl/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stapsgewijze WBS-codeconfiguratie in Aspose.Tasks .NET
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars projectmanagementgegevens in .NET-applicaties efficiënt kunnen manipuleren. In deze zelfstudie verkennen we het proces van het configureren van Work Breakdown Structure (WBS)-codemaskers met behulp van Aspose.Tasks.
 ## Vereisten
@@ -91,3 +97,9 @@ In deze zelfstudie hebben we het stapsgewijze proces van het configureren van WB
  Ja, de uitgebreide documentatie is beschikbaar[hier](https://reference.aspose.com/tasks/net/).
 ### Waar kan ik Aspose.Tasks kopen?
  Koop Aspose.Tasks[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

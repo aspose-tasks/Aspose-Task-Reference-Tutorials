@@ -3,10 +3,16 @@ title: Regroupement efficace de tâches MS Project avec Aspose.Tasks
 linktitle: Regroupement de tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment regrouper efficacement les tâches Microsoft Project à l'aide d'Aspose.Tasks pour .NET.
-type: docs
 weight: 25
 url: /fr/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Regroupement efficace de tâches MS Project avec Aspose.Tasks
+
 ## Introduction
 La gestion des tâches dans Microsoft Project peut parfois s'avérer difficile, surtout lorsqu'il s'agit de les organiser efficacement. Aspose.Tasks for .NET offre une solution complète à ce problème en fournissant des fonctionnalités permettant de regrouper efficacement les tâches. Dans ce didacticiel, nous verrons comment regrouper les tâches MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -84,3 +90,9 @@ Oui, Aspose.Tasks prend en charge différentes versions de fichiers MS Project, 
 Absolument, Aspose.Tasks fournit des options pour personnaliser l'apparence des tâches groupées, notamment les couleurs des cellules, les polices et les styles.
 ### Où puis-je trouver de l’assistance pour Aspose.Tasks pour .NET ?
  Vous pouvez trouver du support et de l'assistance pour Aspose.Tasks for .NET dans le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

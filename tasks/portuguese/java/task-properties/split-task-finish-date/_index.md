@@ -3,10 +3,16 @@ title: Dividir a data de término da tarefa em Aspose.Tasks
 linktitle: Dividir a data de término da tarefa em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como dividir datas de término de tarefas sem esforço usando Aspose.Tasks for Java. Aprimore o gerenciamento de projetos com cronogramas precisos.
-type: docs
 weight: 28
 url: /pt/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividir a data de término da tarefa em Aspose.Tasks
+
 ## Introdução
 No gerenciamento de projetos, compreender os cronogramas das tarefas é crucial para a conclusão bem-sucedida do projeto. Aspose.Tasks for Java fornece recursos poderosos para manipular tarefas do projeto com eficiência. Neste tutorial, nos aprofundaremos na divisão de datas de término de tarefas usando Aspose.Tasks, ajudando você a gerenciar cronogramas de projetos de maneira eficaz.
 ## Pré-requisitos
@@ -54,3 +60,9 @@ Dominar a arte de manipular as datas de término das tarefas é fundamental para
  A4: Visite o fórum de suporte[aqui](https://forum.aspose.com/c/tasks/15).
 ### Q5: Posso comprar Aspose.Tasks?
  A5: Sim, você pode comprá-lo[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

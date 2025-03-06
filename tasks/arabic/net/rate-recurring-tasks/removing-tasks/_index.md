@@ -3,10 +3,16 @@ title: إزالة مهام مشروع MS باستخدام Aspose.Tasks
 linktitle: إزالة المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إزالة مهام MS Project برمجياً باستخدام Aspose.Tasks لـ .NET. تم تضمين دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 15
 url: /ar/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إزالة مهام مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إزالة المهام من ملف Microsoft Project باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. يمكن أن تكون إزالة المهام من ملف مشروع متطلبًا شائعًا في سيناريوهات إدارة المشروع، ويوفر Aspose.Tasks طريقة مباشرة لتحقيق ذلك.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ج: بالتأكيد، يقدم Aspose.Tasks دعمًا شاملاً لهياكل المشروع المعقدة، مما يسمح لك بمعالجة المهام والموارد وعناصر المشروع الأخرى بسهولة.
 ### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks من[هنا](https://releases.aspose.com/tasks/net/) لاستكشاف ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

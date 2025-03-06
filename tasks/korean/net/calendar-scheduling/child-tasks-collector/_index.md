@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 하위 작업 수집
 linktitle: Aspose.Tasks에서 하위 작업 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 하위 작업을 효율적으로 수집하는 방법을 알아보세요. .NET 애플리케이션의 프로젝트 관리를 개선하세요.
-type: docs
 weight: 15
 url: /ko/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 하위 작업 수집
+
 ## 소개
 
 프로젝트 관리 영역에서 Aspose.Tasks for .NET은 작업과 프로젝트를 효율적으로 처리하기 위한 강력한 솔루션으로 돋보입니다. 이 강력한 라이브러리는 개발자에게 작업, 프로젝트 및 그 사이의 모든 것을 원활하게 관리하는 데 필요한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks의 특정 측면인 하위 작업 수집을 자세히 살펴보겠습니다.
@@ -96,3 +102,9 @@ A4: 예, 사용자는 다음을 통해 기술 지원에 액세스할 수 있습�
 ### Q5: 구매하기 전에 .NET용 Aspose.Tasks를 사용해 볼 수 있나요?
 
  A5: 물론이죠! 무료 평가판을 이용하실 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

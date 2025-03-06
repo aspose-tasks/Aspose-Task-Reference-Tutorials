@@ -3,10 +3,16 @@ title: Типы ресурсов в Aspose.Tasks
 linktitle: Типы ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как работать с различными типами ресурсов в Aspose.Tasks для .NET, включая трудовые, материальные и стоимостные ресурсы, с помощью пошагового руководства.
-type: docs
 weight: 14
 url: /ru/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Типы ресурсов в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft Project. Независимо от того, управляете ли вы задачами, ресурсами или расписаниями, Aspose.Tasks упрощает этот процесс, предоставляя полный набор API. В этом руководстве мы углубимся в различные типы ресурсов, которые вы можете использовать в своих проектах с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -60,3 +66,9 @@ cost.Set(Rsc.Cost, 59.99m);
  О: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Предоставляет ли Aspose.Tasks для .NET справочную документацию?
  О: Да, вы можете найти документацию.[здесь](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

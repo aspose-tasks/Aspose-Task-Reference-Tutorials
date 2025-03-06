@@ -3,10 +3,16 @@ title: สร้างปฏิทินมาตรฐานใน Aspose.Tasks
 linktitle: สร้างปฏิทินมาตรฐานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีสร้างปฏิทิน MS Project มาตรฐานใน Java โดยใช้ Aspose.Tasks ปรับปรุงความสามารถในการจัดการโครงการของคุณด้วยบทช่วยสอนทีละขั้นตอนนี้
-type: docs
 weight: 14
 url: /th/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างปฏิทินมาตรฐานใน Aspose.Tasks
+
 
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกเข้าไปในโลกของ Aspose.Tasks สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project ได้อย่างราบรื่น โดยเฉพาะเราจะมุ่งเน้นไปที่การสร้างปฏิทิน MS Project มาตรฐานโดยใช้ Aspose.Tasks ในตอนท้ายของคู่มือนี้ คุณจะมีความเข้าใจที่ชัดเจนเกี่ยวกับวิธีการใช้งานฟังก์ชันนี้ในแอปพลิเคชัน Java ของคุณ
@@ -63,3 +69,9 @@ System.out.println("Process completed Successfully");
 ตอบ: ได้ นักพัฒนาสามารถเข้าถึงการสนับสนุนทางเทคนิคที่ครอบคลุมผ่านฟอรัม Aspose.Tasks เพื่อให้มั่นใจว่าจะได้รับความช่วยเหลือทันเวลาสำหรับข้อสงสัยหรือปัญหาใดๆ
 ### ถาม: ฉันสามารถลองใช้ Aspose.Tasks ก่อนตัดสินใจซื้อได้หรือไม่
  ตอบ: ได้ คุณสามารถสำรวจ Aspose.Tasks ได้ผ่านเวอร์ชันทดลองใช้ฟรีที่มีอยู่ใน[เว็บไซต์](https://purchase.aspose.com/buy)ทำให้คุณสามารถประเมินคุณสมบัติและฟังก์ชันการทำงานก่อนตัดสินใจได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 내장 프로젝트 속성 컬렉션
 linktitle: Aspose.Tasks의 내장 프로젝트 속성 컬렉션
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET 애플리케이션에서 프로젝트 메타 속성을 효율적으로 관리하는 방법을 알아보세요. 손쉽게 속성을 읽고, 수정하고, 반복할 수 있습니다.
-type: docs
 weight: 24
 url: /ko/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 내장 프로젝트 속성 컬렉션
+
 ## 소개
 
 소프트웨어 개발 영역에서는 작업과 프로젝트를 효율적으로 관리하는 것이 성공의 가장 중요한 요소입니다. Aspose.Tasks for .NET은 .NET 애플리케이션 내에서 프로젝트 관리 작업을 용이하게 하도록 설계된 강력한 라이브러리입니다. 강력한 기능과 직관적인 인터페이스를 통해 개발자는 프로젝트 관리 프로세스를 간소화하고 시간과 리소스를 절약할 수 있습니다.
@@ -106,3 +112,9 @@ A3: 예, Aspose.Tasks for .NET은 MPP, XML, XLSX 등 다양한 프로젝트 파�
 ### Q5: Aspose.Tasks for .NET에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원을 받고 포괄적인 지침을 보려면 문서를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

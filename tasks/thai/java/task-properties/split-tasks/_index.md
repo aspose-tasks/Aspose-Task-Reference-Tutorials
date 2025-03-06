@@ -3,10 +3,16 @@ title: แยกงานใน Aspose.Tasks
 linktitle: แยกงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: การจัดการงานระดับปรมาจารย์ใน Java ด้วย Aspose.Tasks! เรียนรู้วิธีแบ่งงานอย่างมีประสิทธิภาพเพื่อปรับไทม์ไลน์ของโครงการให้เหมาะสม ดาวน์โหลดเดี๋ยวนี้!
-type: docs
 weight: 29
 url: /th/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกงานใน Aspose.Tasks
+
 ## การแนะนำ
 คุณกำลังดิ้นรนกับการจัดการงานในโปรเจ็กต์ Java ของคุณหรือไม่? Aspose.Tasks for Java มอบโซลูชันอันทรงพลังสำหรับการแบ่งงานอย่างมีประสิทธิภาพ และเพิ่มขีดความสามารถในการจัดการโครงการ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแบ่งงานโดยใช้ Aspose.Tasks สำหรับ Java ซึ่งช่วยให้คุณปรับไทม์ไลน์โปรเจ็กต์และการจัดสรรทรัพยากรให้เหมาะสม
 ## ข้อกำหนดเบื้องต้น
@@ -88,3 +94,9 @@ Aspose.Tasks for Java ให้ทดลองใช้ฟรี ช่วยใ
  เยี่ยมชม[Aspose.Tasks สำหรับฟอรัมสนับสนุน Java](https://forum.aspose.com/c/tasks/15) เพื่อรับความช่วยเหลือและเชื่อมต่อกับชุมชน
 ### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java หรือไม่
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบและประเมินผล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

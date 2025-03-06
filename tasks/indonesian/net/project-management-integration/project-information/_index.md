@@ -3,10 +3,16 @@ title: Ekstrak Informasi Proyek MS di Aspose.Tasks
 linktitle: Mengekstrak Informasi Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengekstrak informasi MS Project dengan mudah menggunakan Aspose.Tasks untuk .NET. Selami tutorial komprehensif kami.
-type: docs
 weight: 20
 url: /id/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Informasi Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda ingin mengekstrak informasi dari file Microsoft Project secara efisien menggunakan Aspose.Tasks untuk .NET? Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah. Namun sebelum kita mendalami detail penerapannya, pertama-tama pastikan Anda memiliki semua yang Anda perlukan.
 ## Prasyarat
@@ -73,3 +79,9 @@ J: Tentu saja! Aspose.Tasks untuk .NET menyediakan fungsionalitas yang kuat untu
  J: Ya, Anda bisa mendapatkan dukungan teknis untuk Aspose.Tasks untuk .NET melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15), tempat Anda dapat mengajukan pertanyaan dan mencari bantuan dari para ahli.
 ### Q5: Bisakah saya mencoba Aspose.Tasks untuk .NET sebelum membelinya?
  J: Tentu saja! Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET dari[halaman rilis](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

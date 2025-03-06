@@ -3,10 +3,16 @@ title: Обработка сохранения изображений в Aspose.
 linktitle: Обработка сохранения изображений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как сохранять изображения в Aspose.Tasks для .NET, используя пошаговые инструкции. Легко интегрируйте функцию сохранения изображений в свои приложения .NET.
-type: docs
 weight: 10
 url: /ru/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка сохранения изображений в Aspose.Tasks
+
 ## Введение
 
 В этом уроке мы углубимся в процесс сохранения изображений в Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно манипулировать файлами Microsoft Project. Одной из распространенных задач при работе с файлами проекта является необходимость сохранения изображений, которые могут включать диаграммы, графики или другие визуальные элементы. Мы разберем процесс шаг за шагом, обеспечивая ясность и понимание во всем.
@@ -131,3 +137,9 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 ### В5: Предлагает ли Aspose.Tasks пробные версии для ознакомительных целей?
 
  О5: Да, вы можете получить бесплатную пробную версию Aspose.Tasks на сайте[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

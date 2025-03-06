@@ -3,10 +3,16 @@ title: Implementación de devolución de llamada para guardar páginas en Aspose
 linktitle: Implementación de devolución de llamada para guardar páginas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda cómo implementar una devolución de llamada para guardar páginas en Aspose.Tasks para .NET, lo que permite el manejo personalizado de flujos de salida de documentos de varias páginas.
-type: docs
 weight: 12
 url: /es/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementación de devolución de llamada para guardar páginas en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, exploraremos cómo implementar una devolución de llamada para guardar páginas en Aspose.Tasks para .NET. Esta característica nos permite guardar un documento de varias páginas en secuencias proporcionadas por el usuario, lo que ofrece flexibilidad y personalización en el manejo de la salida.
@@ -121,3 +127,9 @@ R4: Puede implementar mecanismos de manejo de errores dentro de los métodos de 
 ### P5: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Tasks?
 
  A5: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para asistencia, acceda a la documentación[aquí](https://reference.aspose.com/tasks/net/) , o explore características adicionales y opciones de licencia en el[Sitio web de Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

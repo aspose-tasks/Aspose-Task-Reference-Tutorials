@@ -3,10 +3,16 @@ title: Aspose.Tasks için MS Proje Seçeneklerini Zahmetsizce Kaydedin
 linktitle: Aspose.Tasks için MPP Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project seçeneklerini zahmetsizce nasıl kaydedeceğinizi öğrenin. Proje yönetimi verimliliğinizi artırın.
-type: docs
 weight: 12
 url: /tr/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için MS Proje Seçeneklerini Zahmetsizce Kaydedin
+
 ## giriiş
 .NET geliştirme dünyasında, proje dosyalarını verimli bir şekilde yönetmek ve değiştirmek başarı için çok önemlidir. Aspose.Tasks for .NET, Microsoft Project dosyalarını (MPP) kolaylıkla yönetmek için güçlü bir çözüm sunar. Pek çok özelliği arasında Aspose.Tasks, kullanıcıların MS Project seçeneklerini sorunsuz bir şekilde kaydetmesine olanak tanıyarak iş akışını kolaylaştırır ve proje bütünlüğünü sağlar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project seçeneklerini kaydetme sürecini ele alacağız.
 ## Önkoşullar
@@ -67,3 +73,9 @@ Teknik yardım için Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https:
  Geçici bir lisans, Aspose.Tasks for .NET'i herhangi bir sınırlama olmadan değerlendirmenize olanak tanır. adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for .NET'in lisanslı sürümünü nereden satın alabilirim?
  Aspose.Tasks for .NET'in lisanslı sürümünü şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

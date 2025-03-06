@@ -3,10 +3,16 @@ title: Generate Timephased Data in Aspose.Tasks
 linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to generate timephased data for resource assignments using Aspose.Tasks for Java. Improve project management efficiency with this comprehensive guide.
-type: docs
 weight: 24
 url: /java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate Timephased Data in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll walk through the process of generating timephased data for resource assignments using Aspose.Tasks for Java. Timephased data provides valuable insights into how resources are allocated over time within a project, helping project managers make informed decisions.
 ## Prerequisites
@@ -124,3 +130,10 @@ Yes, Aspose.Tasks supports various project file formats, including MPP, XML, and
 Yes, Aspose.Tasks allows users to define custom work contours to suit their specific project needs.
 ### Is there a community forum where I can get assistance with Aspose.Tasks?
 Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

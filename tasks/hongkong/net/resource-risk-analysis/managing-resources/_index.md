@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 輕鬆管理 MS 專案資源
 linktitle: 在 Aspose.Tasks 中管理資源
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 輕鬆管理 Microsoft Project 資源集合。提高生產力並簡化專案工作流程。
-type: docs
 weight: 10
 url: /zh-hant/net/resource-risk-analysis/managing-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 輕鬆管理 MS 專案資源
+
 ## 介紹
 有效管理資源在專案管理中至關重要，尤其是在處理複雜的日程安排和任務分配時。 Aspose.Tasks for .NET 提供了一組強大的工具來無縫處理 Microsoft Project 資源集合。在本教程中，我們將深入研究如何使用 Aspose.Tasks for .NET 管理 MS Project 資源集合。
 ## 先決條件
@@ -62,3 +68,9 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 答：是的，Aspose.Tasks for .NET 支援將專案資料匯出為多種格式，包括 MPP、PDF、XLSX 和 HTML 等。
 ### Q：在哪裡可以找到有關 Aspose.Tasks for .NET 的進一步幫助或支援？
 答： 如需進一步協助或支持，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)或參考[文件](https://reference.aspose.com/tasks/net/)由 Aspose 提供。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

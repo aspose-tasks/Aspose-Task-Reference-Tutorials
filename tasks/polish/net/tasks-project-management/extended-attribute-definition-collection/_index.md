@@ -3,10 +3,16 @@ title: Główne rozszerzone definicje atrybutów MS Project w Aspose.Tasks
 linktitle: Zbiór rozszerzonych definicji atrybutów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać rozszerzonymi definicjami atrybutów w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. Bez wysiłku dostosowuj i ulepszaj dane projektu.
-type: docs
 weight: 14
 url: /pl/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Główne rozszerzone definicje atrybutów MS Project w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak pracować z rozszerzonymi definicjami atrybutów w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. Rozszerzone atrybuty oferują elastyczny sposób dostosowywania i ulepszania danych projektu, umożliwiając użytkownikom dodawanie dodatkowych pól poza standardowymi, udostępnianymi domyślnie. Dzięki Aspose.Tasks możesz bez wysiłku zarządzać tymi rozszerzonymi atrybutami, aby dostosować swoje potrzeby w zakresie zarządzania projektami.
 ## Warunki wstępne
@@ -92,3 +98,9 @@ O: Oczywiście, atrybuty rozszerzone mogą być używane do obliczania pól nies
 O: Aspose.Tasks jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność i łatwość integracji.
 ### P: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Tasks?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) uzyskać wsparcie i zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

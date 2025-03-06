@@ -3,10 +3,16 @@ title: 掌握Aspose.Tasks中的VBA模块属性
 linktitle: Aspose.Tasks 中 VBA 模块属性的集合
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在管理 VBA 模块属性方面的强大功能。轻松增强您的 .NET 项目。现在下载！ #Aspose #Tasks #MS 项目
-type: docs
 weight: 12
 url: /zh/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握Aspose.Tasks中的VBA模块属性
+
 ## 介绍
 欢迎来到 Aspose.Tasks for .NET 的世界！如果您是一名开发人员，希望在项目中利用 Aspose.Tasks for .NET 的强大功能，那么您来对地方了。在本教程中，我们将深入研究使用 VBA 模块属性的复杂性，为您提供有关如何在 .NET 应用程序中有效利用它们的分步指南。
 ## 先决条件
@@ -63,3 +69,9 @@ foreach (var attribute in module.Attributes)
 答：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### 问：在哪里可以寻求 Aspose.Tasks for .NET 支持？
 答：访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)为了支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

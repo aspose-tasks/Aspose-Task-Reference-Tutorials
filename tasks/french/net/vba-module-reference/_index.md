@@ -3,10 +3,16 @@ title: Module VBA Aspose.Tasks et gestion des références
 linktitle: Module VBA Aspose.Tasks et gestion des références
 second_title: API Aspose.Tasks .NET
 description: Êtes-vous prêt à élever vos capacités de gestion de projet à l’aide d’Aspose.Tasks .NET ? Plongez dans nos didacticiels complets sur le module VBA et la gestion des références.
-type: docs
 weight: 31
 url: /fr/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Module VBA Aspose.Tasks et gestion des références
+
 
 ## Gestion des modules VBA dans Aspose.Tasks
 
@@ -40,3 +46,9 @@ Découvrez comment gérer efficacement les collections de modules VBA dans Aspos
 Découvrez la puissance d'Aspose.Tasks pour .NET dans la gestion des projets VBA sans effort. Améliorez vos capacités de gestion de projet avec ce guide étape par étape.
 ### [Gestion des références VBA dans Aspose.Tasks](./vba-references/)
 Découvrez la puissance de la gestion des références VBA dans Aspose.Tasks .NET avec notre didacticiel complet. Apprenez à lire, comparer et utiliser les références VBA de manière transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

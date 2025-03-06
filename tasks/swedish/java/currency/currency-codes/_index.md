@@ -3,10 +3,16 @@ title: Hantera valutakoder i Aspose.Tasks
 linktitle: Hantera valutakoder i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar valuta MS Project-koder effektivt med Aspose.Tasks för Java. Effektivisera dina projektledningsuppgifter utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera valutakoder i Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår handledning om hur du hanterar valuta MS Project-koder med Aspose.Tasks för Java. I den här handledningen går vi igenom processen för att enkelt hantera valutakoder i dina MS Project-filer. Aspose.Tasks är ett kraftfullt Java API som låter dig manipulera Microsoft Project-dokument programmatiskt, och erbjuder ett brett utbud av funktioner för att effektivisera dina projektledningsuppgifter.
 ## Förutsättningar
@@ -53,3 +59,9 @@ S: Ja, Aspose.Tasks erbjuder omfattande dokumentation och dedikerad support för
 S: Ja, du kan utforska Aspose.Tasks genom en gratis provperiod för att utvärdera dess funktioner och lämplighet för dina projektkrav.
 ### F: Var kan jag få tillfälliga licenser för Aspose.Tasks?
  S: Tillfälliga licenser för Aspose.Tasks kan erhållas från[hemsida](https://purchase.aspose.com/temporary-license/) under en begränsad tid.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

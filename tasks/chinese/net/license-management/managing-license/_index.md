@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks .NET 中管理 MS 项目许可证
 linktitle: 管理 .NET 中的 Aspose.Tasks 许可证
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用基于文件或基于流的方法无缝管理 .NET 应用程序中的 Aspose.Tasks 许可证。
-type: docs
 weight: 10
 url: /zh/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks .NET 中管理 MS 项目许可证
+
 ## 介绍
 管理许可证是在 .NET 应用程序中有效利用 Aspose.Tasks 的一个重要方面。如果没有适当的许可，您可能会遇到使用限制或限制。幸运的是，Aspose.Tasks 提供了使用 .NET 项目中的文件或流应用许可证的简单方法。在本教程中，我们将逐步探索如何在 .NET 应用程序中管理 Aspose.Tasks 许可证。
 ## 先决条件
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### 问：我可以为多个应用程序使用同一个许可证文件吗？
 
 答：是的，您可以在同一被许可人开发的多个应用程序中使用相同的许可证文件。但是，请确保您的许可证符合 Aspose 指定的使用条款。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

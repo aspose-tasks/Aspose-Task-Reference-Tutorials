@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 掌握 WBS 序列
 linktitle: 在 Aspose.Tasks 中定义 WBS 序列
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 增强您的项目管理能力 – 无缝定义 WBS 序列并轻松提高效率。 #Aspose #Tasks #MS 项目
-type: docs
 weight: 16
 url: /zh/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 掌握 WBS 序列
+
 ## 介绍
 您是否正在开发项目管理应用程序并需要一个强大的工具来处理工作分解结构 (WBS) 序列？ Aspose.Tasks for .NET 就是您的最佳选择，它是一个功能强大的库，可以简化项目管理任务。在本教程中，我们将指导您逐步完成定义 WBS 序列的过程。
 ## 先决条件
@@ -74,3 +80,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)与社区联系并寻求帮助。
 ### 可以使用临时许可证吗？
 是的，您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)用于测试目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

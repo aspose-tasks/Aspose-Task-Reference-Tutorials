@@ -3,10 +3,16 @@ title: Írjon frissített erőforrásadatokat az Aspose.Tasks-ba
 linktitle: Írjon frissített erőforrásadatokat az Aspose.Tasks-ba
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan frissítheti könnyedén az MS Project fájljaiban lévő erőforrásadatokat az Aspose.Tasks for Java segítségével.
-type: docs
 weight: 21
 url: /hu/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Írjon frissített erőforrásadatokat az Aspose.Tasks-ba
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a Microsoft Project erőforrásadatainak frissítésén az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a Microsoft Project fájlok kezelését anélkül, hogy a Microsoft Projectet telepítenie kellene a rendszerére.
 
@@ -98,3 +104,10 @@ Ebben az oktatóanyagban bemutattuk, hogyan lehet frissíteni az MS Project erő
 ### 5. kérdés: Hol találhatok további segítséget vagy támogatást az Aspose.Tasks-hoz?
 
  A5: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen segítségért vagy kérdésért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

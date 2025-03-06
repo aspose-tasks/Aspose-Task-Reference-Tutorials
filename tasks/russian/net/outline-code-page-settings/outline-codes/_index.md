@@ -3,10 +3,16 @@ title: Управление кодами структуры проекта в As
 linktitle: Управление структурными кодами в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Научитесь управлять структурными кодами MS Project с помощью Aspose.Tasks для .NET. Упростите организацию проекта без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление кодами структуры проекта в Aspose.Tasks для .NET
+
 ## Введение
 В этом руководстве мы рассмотрим, как управлять структурными кодами Microsoft Project с помощью Aspose.Tasks для .NET. Коды структуры — это настраиваемые поля в Microsoft Project, которые позволяют пользователям классифицировать и упорядочивать задачи по определенным критериям. Aspose.Tasks упрощает процесс чтения и программного управления этими структурными кодами.
 ## Предварительные условия
@@ -71,3 +77,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 О: Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта, чтобы оценить ее возможности и возможности.
 ### Вопрос: Где я могу получить поддержку для Aspose.Tasks?
  О: Вы можете получить поддержку Aspose.Tasks, посетив форум по адресу[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Полный исходный код
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Working with Baseline Collection in Aspose.Tasks
 linktitle: Working with Baseline Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage baselines in Aspose.Tasks for .NET efficiently. Follow our comprehensive tutorial for step-by-step guidance.
-type: docs
 weight: 20
 url: /net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Baseline Collection in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET is a powerful library that enables developers to work with Microsoft Project files in their .NET applications seamlessly. Among its many features, it provides robust support for managing baselines within projects. Baselines are essential for project management as they allow you to compare the original project plan with the current status, enabling better tracking and analysis of project progress.
@@ -116,3 +122,10 @@ A4: Yes, Aspose.Tasks provides support for integration with popular cloud platfo
 ### Q5: Is there a community forum for Aspose.Tasks users to seek help and share knowledge?
 
 A5: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to engage with the community and get assistance from experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

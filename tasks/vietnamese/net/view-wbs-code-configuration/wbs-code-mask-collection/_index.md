@@ -3,10 +3,16 @@ title: Làm chủ mặt nạ mã WBS với Aspose.Tasks cho .NET
 linktitle: Bộ sưu tập mặt nạ mã WBS trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tăng cường quản lý dự án với Aspose.Tasks cho .NET. Tìm hiểu cách tạo, quản lý và chuyển Mặt nạ mã WBS một cách dễ dàng trong hướng dẫn toàn diện này.
-type: docs
 weight: 15
 url: /vi/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ mặt nạ mã WBS với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án, việc tổ chức các nhiệm vụ một cách hiệu quả là rất quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để quản lý mã cấu trúc phân tích công việc dự án (WBS) một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào Bộ sưu tập Mặt nạ mã WBS, khám phá cách triển khai và thao tác chúng bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -139,3 +145,9 @@ Trả lời: Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng b
 Đáp: Mã WBS giúp tổ chức và cấu trúc các nhiệm vụ dự án theo thứ bậc, cung cấp cách tiếp cận có hệ thống để lập kế hoạch dự án.
 ### Câu hỏi: Tôi có thể tùy chỉnh định dạng của mã WBS trong Aspose.Tasks cho .NET không?
 Trả lời: Hoàn toàn có thể, bạn có toàn quyền kiểm soát định dạng và cấu trúc của mã WBS bằng cách sử dụng Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

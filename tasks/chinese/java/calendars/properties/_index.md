@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理 MS Project 日历属性
 linktitle: 在 Aspose.Tasks 中管理日历属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中管理 MS Project 日历属性。这为 Java 应用程序中的日历提供了分步指导。
-type: docs
 weight: 10
 url: /zh/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理 MS Project 日历属性
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for Java 管理 MS Project 日历属性。通过了解如何操作日历属性，您可以定制项目计划以有效地满足特定要求。
 ## 先决条件
@@ -71,3 +77,9 @@ for (Calendar cal : project.getCalendars()) {
 答：是的，Aspose.Tasks 提供了广泛的功能来管理任务、资源和项目结构，使其成为 Java 项目管理的全面解决方案。
 ### 问：使用 Aspose.Tasks 的开发人员可以获得技术支持吗？
 答：是的，开发人员可以通过 Aspose.Tasks 论坛获得技术支持，确保对实施过程中遇到的任何疑问或问题提供帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

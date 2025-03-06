@@ -3,10 +3,16 @@ title: Διαμόρφωση βαθμίδων χρονικής κλίμακας �
 linktitle: Διαμόρφωση βαθμίδων χρονικής κλίμακας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε το Aspose.Tasks για .NET για να διαμορφώσετε τα επίπεδα χρονικής κλίμακας στην προβολή γραφήματος Gantt για ακριβή απεικόνιση του χρονοδιαγράμματος του έργου. #Aspose.Tasks #MS Project
-type: docs
 weight: 16
 url: /el/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση βαθμίδων χρονικής κλίμακας γραφήματος Gantt στο Aspose.Tasks
+
 ## Εισαγωγή
 Στο δυναμικό τοπίο της διαχείρισης έργου, η αποτελεσματική οπτικοποίηση είναι ζωτικής σημασίας για την κατανόηση των χρονοδιαγραμμάτων και των προθεσμιών. Το Aspose.Tasks για .NET παρέχει ένα ισχυρό σύνολο εργαλείων και σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαμορφώνουμε τα επίπεδα χρονικής κλίμακας για βέλτιστη αναπαράσταση στην προβολή γραφήματος Gantt. Ακολουθήστε αυτές τις οδηγίες βήμα προς βήμα για να βελτιώσετε την οπτικοποίηση του έργου σας.
 ## Προαπαιτούμενα
@@ -86,3 +92,9 @@ project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 Σίγουρα, μπορείτε να εξερευνήσετε διάφορες μορφές και στυλ για την αναπαράσταση χρονοδιαγράμματος ώστε να ταιριάζει καλύτερα στο πλαίσιο του έργου σας.
 ### Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.Tasks;
  Ναι, επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opanuj raportowanie projektów MS za pomocą Aspose.Tasks
 linktitle: Praca z typami raportów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak pracować z plikami MS Project przy użyciu Aspose.Tasks dla .NET. Bez problemu generuj różne typy raportów.
-type: docs
 weight: 16
 url: /pl/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanuj raportowanie projektów MS za pomocą Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka, która pozwala programistom z łatwością manipulować plikami Microsoft Project. Niezależnie od tego, czy pracujesz nad zarządzaniem projektami, planowaniem czy raportowaniem zadań, Aspose.Tasks zapewnia kompleksowy zestaw funkcji usprawniających przepływ pracy. W tym samouczku omówimy, jak pracować z plikami MS Project i generować różne typy raportów za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -55,3 +61,9 @@ O: Tak, możesz używać Aspose.Tasks dla .NET w projektach komercyjnych, ale b�
  Odpowiedź: Możesz uzyskać wsparcie od społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P5: Jak pobrać Aspose.Tasks dla .NET?
  O: Możesz pobrać Aspose.Tasks dla .NET z[Tutaj](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

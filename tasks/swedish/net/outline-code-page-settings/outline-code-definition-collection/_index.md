@@ -3,10 +3,16 @@ title: Samling av dispositionskoddefinitioner i Aspose.Tasks .NET
 linktitle: Samling av dispositionskoddefinitioner i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du manipulerar dispositionskoddefinitioner i Microsoft Project-dokument med Aspose.Tasks för .NET. Kategorisering av dina projektdata utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av dispositionskoddefinitioner i Aspose.Tasks .NET
+
 ## Introduktion
 Aspose.Tasks är ett kraftfullt .NET-bibliotek utformat för att manipulera Microsoft Project-dokument med lätthet och effektivitet. En av dess nyckelfunktioner är förmågan att arbeta med konturkoddefinitioner, vilket gör det möjligt för användare att organisera och kategorisera projektdata effektivt. I den här självstudien kommer vi att utforska hur man arbetar med konturkoddefinitioner med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -83,3 +89,9 @@ S: Om en dispositionskoddefinition är skrivskyddad kommer du inte att kunna än
 S: Aspose.Tasks för .NET lägger inga specifika begränsningar på antalet dispositionskoddefinitioner som du kan lägga till i ett projekt. Tänk dock på prestationskonsekvenserna när du arbetar med ett stort antal definitioner.
 ### F: Kan jag använda dispositionskoddefinitioner för att gruppera uppgifter baserat på anpassade kriterier?
 S: Ja, definitioner av dispositionskod låter dig kategorisera uppgifter baserat på anpassade kriterier, vilket ger flexibilitet vid organisering av projektdata.## Komplett källkod
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

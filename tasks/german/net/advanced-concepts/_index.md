@@ -3,10 +3,16 @@ title: Aspose.Tasks Erweiterte Konzepte
 linktitle: Aspose.Tasks Erweiterte Konzepte
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie mehr über das Speichern von Bildern, den Umgang mit Ausnahmen, Baumalgorithmen, Etikettenanzeigen, Ladeoptionen und mehr. Beherrschen Sie fortgeschrittene Konzepte in Aspose.Tasks für .NET
-type: docs
 weight: 24
 url: /de/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Erweiterte Konzepte
+
 
 ## Einführung
 
@@ -84,3 +90,9 @@ Erfahren Sie, wie Sie die NOT-Operation in Aspose.Tasks für .NET verwenden, um 
 Erfahren Sie, wie Sie mit Aspose.Tasks effizient mit OLE-Objekten in .NET-Anwendungen arbeiten und so die Projektmanagementfunktionen verbessern.
 ### [Sammlung von OLE-Objekten in Aspose.Tasks](./ole-object-collection/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie OLE-Objekte in Aspose.Tasks für .NET verwalten. Beherrschen Sie mühelos den Umgang mit eingebetteten Dateien in Projektdokumenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Herhaling per jaarweekdag in Aspose.Tasks
 linktitle: Herhaling per jaarweekdag in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het efficiënt beheren van terugkerende taken. Stapsgewijze handleiding voor het implementeren van de functie Herhaling per jaar, weekdag.
-type: docs
 weight: 28
 url: /nl/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herhaling per jaarweekdag in Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van projectmanagement staan efficiëntie en precisie voorop. Aspose.Tasks voor .NET komt naar voren als een krachtig hulpmiddel en biedt een overvloed aan functies om de projectafhandeling te stroomlijnen. Tot het arsenaal behoort de mogelijkheid om terugkerende taken met opmerkelijke flexibiliteit te beheren. Eén zo'n functie is de functionaliteit "Herhaling per jaarweekdag", waarmee gebruikers taken kunnen instellen die zich herhalen op specifieke dagen van de week, binnen bepaalde maanden en over meerdere jaren.
@@ -126,3 +132,9 @@ A: Ja, Aspose.Tasks voor .NET biedt ondersteuning voor cloudgebaseerde projectbe
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
 A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoopbeslissing neemt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

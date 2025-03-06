@@ -3,10 +3,16 @@ title: تحديد أيام الأسبوع في التقويم باستخدام A
 linktitle: تحديد أيام الأسبوع في التقويم باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديد أيام الأسبوع في MS Project Calendar باستخدام Aspose.Tasks لـ Java. تخصيص أيام العمل والتوقيت دون عناء.
-type: docs
 weight: 12
 url: /ar/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد أيام الأسبوع في التقويم باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية تحديد أيام الأسبوع في MS Project Calendar باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تمكن المطورين من التعامل مع ملفات Microsoft Project برمجياً.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ج: نعم، يمكنك تحميل مشروع موجود بالتقويمات وإجراء التعديلات ثم حفظ التغييرات مرة أخرى في الملف الأصلي.
 ### س5: هل يوفر Aspose.Tasks الدعم للمهام المتكررة؟
 ج: نعم، يتيح لك Aspose.Tasks العمل مع المهام المتكررة، بما في ذلك تحديد أنماط ومدة التكرار الخاصة بها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

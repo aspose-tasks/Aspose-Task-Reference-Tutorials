@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中处理图像保存
 linktitle: 在 Aspose.Tasks 中处理图像保存
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用分步指南在 Aspose.Tasks for .NET 中处理图像保存。将图像保存功能无缝集成到您的 .NET 应用程序中。
-type: docs
 weight: 10
 url: /zh/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中处理图像保存
+
 ## 介绍
 
 在本教程中，我们将深入研究在 Aspose.Tasks for .NET 中处理图像保存的过程。 Aspose.Tasks 是一个功能强大的 API，使开发人员能够以编程方式操作 Microsoft Project 文件。使用项目文件时的一项常见任务是需要保存图像，其中可能包括图表、图形或其他视觉元素。我们将逐步分解该过程，确保整个过程的清晰度和理解性。
@@ -131,3 +137,9 @@ A4：是的，您可以通过修改回调方法中的图像保存逻辑来自定
 ### Q5：Aspose.Tasks 是否提供用于评估目的的试用版？
 
  A5：是的，您可以从以下位置获取 Aspose.Tasks 的免费试用版：[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

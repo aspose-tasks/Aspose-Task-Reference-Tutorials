@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Özel Proje Mülk Koleksiyonunu Yönetme
 linktitle: Aspose.Tasks'ta Özel Proje Mülk Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te özel proje özelliklerini etkili bir şekilde nasıl yöneteceğinizi öğrenin ve proje yönetimi deneyiminizi geliştirin.
-type: docs
 weight: 24
 url: /tr/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Özel Proje Mülk Koleksiyonunu Yönetme
+
 ## giriiş
 
 Aspose.Tasks for .NET ile proje yönetimi deneyiminizi geliştirmeye hazır mısınız? Özel proje özelliklerini yönetmek, proje yönetiminin çok önemli bir yönüdür ve projenizin gereksinimlerine göre özel meta veriler eklemenize olanak tanır. Bu eğitimde Aspose.Tasks for .NET'i kullanarak özel proje özellik koleksiyonlarıyla nasıl etkili bir şekilde çalışabileceğinizi ele alacağız.
@@ -131,3 +137,9 @@ Cevap4: Evet, değerlendirme amacıyla Aspose web sitesinden geçici bir lisans 
 ### S5: Aspose.Tasks for .NET ile ilgili desteği veya daha fazla yardımı nereden bulabilirim?
 
  Cevap5: Aspose.Tasks forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

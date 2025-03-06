@@ -3,10 +3,16 @@ title: Währungseigenschaften
 linktitle: Währungseigenschaften
 second_title: Aspose.Tasks Java-API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.Tasks für Java-Tutorials. Entdecken Sie Schritt-für-Schritt-Anleitungen zum mühelosen Lesen und Festlegen von Währungseigenschaften in MS Project-Dateien.
-type: docs
 weight: 25
 url: /de/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Währungseigenschaften
+
 ## Einführung
 Sind Sie bereit, Ihre Aspose.Tasks für Java-Kenntnisse zu verbessern? Tauchen Sie ein in unsere umfassenden Tutorials zu Währungseigenschaften und beherrschen Sie die Kunst des Umgangs mit Währungsinformationen in MS Project-Dateien.
 
@@ -35,3 +41,9 @@ Bereit für diese Bildungsreise? Klicken Sie auf die folgenden Links, um loszule
 Erfahren Sie, wie Sie mit Aspose.Tasks für Java Währungsinformationen aus MS Project-Dateien extrahieren. Schritt-für-Schritt-Anleitung bereitgestellt.
 ### [Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest](./set-properties/)
 Erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks-Projekten mit Java festlegen. Bearbeiten Sie Microsoft Project-Dateien mühelos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

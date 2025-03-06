@@ -3,10 +3,16 @@ title: Korzystanie z algorytmu drzewa w Aspose.Tasks
 linktitle: Korzystanie z algorytmu drzewa w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skutecznie manipulować hierarchiami zadań w projektach .NET za pomocą algorytmu drzewa Aspose.Tasks.
-type: docs
 weight: 13
 url: /pl/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korzystanie z algorytmu drzewa w Aspose.Tasks
+
 ## Wstęp
 
 Aspose.Tasks dla .NET zapewnia zaawansowane funkcje do pracy z zadaniami, zasobami i harmonogramami zarządzania projektami. Jedną z takich funkcji jest algorytm drzewa, który pozwala użytkownikom efektywnie manipulować hierarchiami zadań. W tym samouczku odkryjemy, jak wykorzystać algorytm drzewa w Aspose.Tasks dla .NET do gromadzenia typowych prac i aktualizowania wartości pracy w projekcie.
@@ -115,3 +121,9 @@ O1: Aspose.Tasks dla .NET to potężny interfejs API, który umożliwia programi
 ### P5: Czy dostępna jest licencja tymczasowa do celów testowych?
 
  Odpowiedź 5: Tak, możesz uzyskać tymczasową licencję do celów testowych od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

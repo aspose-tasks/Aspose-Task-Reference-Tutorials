@@ -3,10 +3,16 @@ title: Simpan File Proyek MS sebagai Templat dengan Aspose.Tasks
 linktitle: Simpan Opsi Templat untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan file Microsoft Project sebagai templat menggunakan Aspose.Tasks untuk .NET. Sesuaikan pengaturan templat untuk manajemen proyek yang efisien.
-type: docs
 weight: 18
 url: /id/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan File Proyek MS sebagai Templat dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses menyimpan templat menggunakan Aspose.Tasks untuk .NET. Templat berguna untuk menstandardisasi struktur dan pengaturan proyek untuk penggunaan di masa mendatang. Kami akan mendemonstrasikan cara menyimpan proyek sebagai templat, sambil menyesuaikan propertinya.
 ## Prasyarat
@@ -76,3 +82,9 @@ A: Ya, Anda dapat menerapkan template ke proyek yang sudah ada dengan memuat fil
 J: Aspose.Tasks untuk .NET terutama dirancang untuk aplikasi kerangka .NET yang berjalan pada platform Windows.
 ### T: Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk .NET?
  J: Ya, Anda dapat mencari bantuan teknis dan bimbingan dari komunitas Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15)atau hubungi tim dukungan mereka secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

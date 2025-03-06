@@ -3,10 +3,16 @@ title: A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
 linktitle: A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti hatékonyan a hozzárendelési alapvonalakat az Aspose.Tasks for .NET segítségével, amely biztosítja a projekt előrehaladásának és teljesítményének pontos nyomon követését.
-type: docs
 weight: 14
 url: /hu/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
+
 ## Bevezetés
 
 A projektmenedzsment feladatokon végzett munka során a hozzárendelési alapállapotok kezelése kulcsfontosságú az előrehaladás pontos nyomon követéséhez. Az Aspose.Tasks for .NET átfogó eszközkészletet biztosít a hozzárendelési alaphelyzetek hatékony kezeléséhez. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a hozzárendelési alapvonalak kezelésének folyamatában.
@@ -123,3 +129,9 @@ megbízások alaphelyzeteinek kezelése a projektmenedzsment szerves része, leh
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
  5. válasz: Igen, a fejlesztők beszerezhetik az Aspose.Tasks ingyenes próbaverzióját .NET-hez innen[itt](https://releases.aspose.com/), lehetővé téve számukra, hogy a vásárlási döntés meghozatala előtt értékeljék a szolgáltatásait és képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的文本项类型自定义指南
 linktitle: 在 Aspose.Tasks 中处理文本项类型
 second_title: Aspose.Tasks .NET API
 description: 通过此分步指南掌握 Aspose.Tasks for .NET 中的文本项类型自定义。轻松提升您的项目管理水平。
-type: docs
 weight: 10
 url: /zh/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的文本项类型自定义指南
+
 ## 介绍
 如果您是一名 .NET 开发人员，正在使用 Aspose.Tasks 进行项目管理，那么您来对地方了！在本分步指南中，我们将探讨在 Aspose.Tasks 中处理文本项类型的复杂性，重点是使用强大的 .NET 库进行自定义。
 ## 先决条件
@@ -74,3 +80,9 @@ A：访问Aspose.Tasks[论坛](https://forum.aspose.com/c/tasks/15)寻求专家�
 答：在 Aspose.Tasks 文档中探索更多教程。
 ### 问：在哪里可以购买 Aspose.Tasks for .NET？
  A：购买图书馆[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

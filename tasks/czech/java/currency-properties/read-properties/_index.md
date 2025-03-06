@@ -3,10 +3,16 @@ title: Přečtěte si Vlastnosti měny v projektech Aspose.Tasks
 linktitle: Přečtěte si Vlastnosti měny v projektech Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak extrahovat informace o měně ze souborů MS Project pomocí Aspose.Tasks for Java. Poskytován průvodce krok za krokem.
-type: docs
 weight: 10
 url: /cs/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přečtěte si Vlastnosti měny v projektech Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu se naučíme, jak využít Aspose.Tasks pro Java ke čtení vlastností měny ze souborů Microsoft Project. Aspose.Tasks je výkonné Java API, které umožňuje vývojářům manipulovat s dokumenty aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project. Podle níže uvedených kroků budete moci bez námahy extrahovat informace související s měnou.
 ## Předpoklady
@@ -57,3 +63,9 @@ Odpověď: Ano, Aspose.Tasks vám umožňuje programově číst a upravovat vlas
  Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks od[tady](https://releases.aspose.com/).
 ### Otázka: Kde mohu hledat pomoc nebo podporu pro Aspose.Tasks?
  Odpověď: Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) pro jakoukoli pomoc nebo dotazy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

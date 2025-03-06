@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 自訂甘特欄樣式
 linktitle: Aspose.Tasks 中的甘特欄樣式
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 MS Project 中自訂甘特欄樣式。輕鬆增強專案視覺化。
-type: docs
 weight: 20
 url: /zh-hant/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 自訂甘特欄樣式
+
 ## 介紹
 在本教學中，我們將探索如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中使用甘特欄樣式。甘特條形樣式可讓您自訂甘特圖中條形的外觀，從而增強項目資料的視覺表示。
 ## 先決條件
@@ -68,3 +74,9 @@ Console.WriteLine("Style1.RightField: {0}", style1.RightField);
 答：是的，您可以使用 Aspose.Tasks API 建立新的自訂欄樣式並根據您的專案需求自訂其屬性。
 ### Q：除了甘特圖之外，Aspose.Tasks 是否支援其他專案管理功能？
 答：是的，Aspose.Tasks 提供了一套全面的功能來處理專案管理數據，包括任務排程、資源管理和專案分析。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

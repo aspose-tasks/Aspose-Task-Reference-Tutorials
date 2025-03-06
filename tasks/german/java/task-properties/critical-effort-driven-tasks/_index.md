@@ -3,10 +3,16 @@ title: Verwalten Sie kritische und aufwandsgesteuerte Aufgaben in Aspose.Tasks
 linktitle: Verwalten Sie kritische und aufwandsgesteuerte Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Verwalten Sie mit Aspose.Tasks mühelos kritische und aufwandsintensive Aufgaben in Ihren Java-Projekten. Laden Sie die Bibliothek herunter und erweitern Sie Ihre Projektmanagementfähigkeiten.
-type: docs
 weight: 14
 url: /de/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie kritische und aufwandsgesteuerte Aufgaben in Aspose.Tasks
+
 In der schnelllebigen Welt des Projektmanagements ist die effiziente Bearbeitung kritischer und aufwandsintensiver Aufgaben für den erfolgreichen Projektabschluss von entscheidender Bedeutung. Aspose.Tasks für Java bietet eine robuste Lösung zur nahtlosen Verwaltung dieser Aufgaben. In diesem Tutorial führen wir Sie durch den Prozess der Verwendung von Aspose.Tasks für Java zur Bewältigung kritischer und aufwandsintensiver Aufgaben in Ihren Projekten.
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
@@ -60,3 +66,9 @@ Ja, Aspose.Tasks für Java ist plattformunabhängig und kann sowohl in Windows- 
  Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Aspose.Tasks für Java kaufen?
  Sie können Aspose.Tasks für Java bei erwerben[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
 linktitle: Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u weekdagen kunt definiëren voor agenda-uitzonderingen in Java-projecten met behulp van Aspose.Tasks voor nauwkeurige projectplanning.
-type: docs
 weight: 11
 url: /nl/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
+
 ### Invoering
 Bij projectmanagement is het definiëren van uitzonderingen voor kalenders van cruciaal belang voor het accuraat weergeven van niet-standaard werkdagen of feestdagen binnen een projecttijdlijn. Aspose.Tasks voor Java biedt robuuste functionaliteiten om agenda's efficiënt te beheren, inclusief het definiëren van uitzonderingen zoals feestdagen of speciale werkdagen. In deze zelfstudie gaan we dieper in op het definiëren van weekdagen voor agenda-uitzonderingen met behulp van Aspose.Tasks voor Java.
 ### Vereisten
@@ -68,3 +74,10 @@ A: Absoluut, Aspose.Tasks voor Java biedt flexibiliteit om uitzonderingen te def
 A: U kunt uitzonderingen programmatisch afhandelen op basis van dynamische projectvereisten met behulp van de uitgebreide API van Aspose.Tasks voor Java.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
  A: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor Java van de[website](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

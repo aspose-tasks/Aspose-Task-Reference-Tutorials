@@ -3,10 +3,16 @@ title: Szerver Save MS Project Options for Aspose.Tasks
 linktitle: A Project Server mentési beállításai az Aspose.Tasks számára
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti a Microsoft Project beállításait az Aspose.Tasks számára a Project Server integrációjával. Javítsa projektmenedzsment munkafolyamatait.
-type: docs
 weight: 16
 url: /hu/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerver Save MS Project Options for Aspose.Tasks
+
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Tasks Microsoft Project beállításainak Project Server használatával történő mentésével foglalkozunk. Az Aspose.Tasks egy hatékony .NET API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. A Project Server képességeit kihasználva zökkenőmentesen integrálhatjuk az Aspose.Tasks-t projektmenedzsment munkafolyamatainkba. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
 ## Előfeltételek
@@ -71,3 +77,9 @@ V: Igen, az Aspose.Tasks szálbiztosra lett tervezve, lehetővé téve a projekt
 V: Igen, igényei szerint testreszabhatja a mentési beállításokat, például a projekt nevét, az időtúllépést és a lekérdezési intervallumot.
 ### K: Hol találok támogatást az Aspose.Tasks számára?
  V: Támogatást és segítséget találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

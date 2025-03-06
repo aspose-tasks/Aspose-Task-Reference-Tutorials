@@ -3,10 +3,16 @@ title: Чтение данных таблицы из файла в Aspose.Tasks
 linktitle: Чтение данных таблицы из файла в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Раскройте возможности Aspose.Tasks для Java. Научитесь извлекать табличные данные из файлов в этом подробном руководстве.
-type: docs
 weight: 17
 url: /ru/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение данных таблицы из файла в Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как читать данные таблицы из файла с помощью Aspose.Tasks для Java. Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам программно работать с документами Microsoft Project.
 ## Предварительные условия
@@ -62,3 +68,9 @@ for (TableField f : t1.getTableFields()) {
  О: Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта[страница релизов](https://releases.aspose.com/).
 ### Вопрос: Где я могу найти помощь и поддержку по Aspose.Tasks?
  О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)за помощь и поддержку со стороны сообщества и команды Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

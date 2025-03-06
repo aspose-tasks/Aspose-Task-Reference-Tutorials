@@ -3,10 +3,16 @@ title: Baca Properti Meta di Proyek Aspose.Tasks
 linktitle: Baca Properti Meta di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Buka kekuatan metadata di proyek Aspose.Tasks dengan tutorial komprehensif ini. Belajar mengekstrak dan memanfaatkan properti meta dengan mudah.
-type: docs
 weight: 10
 url: /id/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Properti Meta di Proyek Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek dan analisis data, mempelajari metadata file proyek dapat memberikan wawasan yang sangat berharga. Aspose.Tasks untuk Java menghadirkan perangkat canggih untuk menavigasi properti meta ini dengan mudah. Tutorial ini berfungsi sebagai panduan komprehensif untuk mengekstrak dan memahami properti meta dalam proyek Aspose.Tasks Anda.
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, da
  J: Ya, Anda dapat menemukan dokumentasi ekstensif untuk Aspose.Tasks di[halaman dokumentasi](https://reference.aspose.com/tasks/java/).
 ### T: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
  J: Untuk bantuan atau pertanyaan apa pun mengenai Aspose.Tasks, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) atas dukungan khusus dari komunitas dan para ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

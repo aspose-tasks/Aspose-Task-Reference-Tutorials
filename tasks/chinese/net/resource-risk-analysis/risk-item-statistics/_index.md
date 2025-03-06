@@ -3,10 +3,16 @@ title: Aspose.Tasks 中风险项的统计
 linktitle: Aspose.Tasks 中风险项的统计
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 释放 MS Project 文件中风险分析的强大功能。轻松获得洞察、减少不确定性并推动项目成功。
-type: docs
 weight: 21
 url: /zh/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中风险项的统计
+
 ## 介绍
 您是否希望使用 Aspose.Tasks for .NET 来增强您的项目管理能力？通过我们有关获取 MS Project 文件中风险项目统计信息的分步教程，深入了解风险分析领域。通过利用 Aspose.Tasks 的强大功能，您可以获得对项目不确定性的宝贵见解，并做出明智的决策以有效降低风险。
 ## 先决条件
@@ -90,3 +96,9 @@ Console.WriteLine("Maximum: {0}", statistics.Maximum);
 当然！我们的专业支持团队随时可以在[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)帮助您解决在实施过程中可能遇到的任何疑问或挑战。
 ### 你们为短期项目提供临时许可证吗？
 是的，如果您需要 Aspose.Tasks 进行短期项目，您可以利用我们的便利[临时执照](https://purchase.aspose.com/temporary-license/)无需任何长期承诺即可满足您的许可需求的选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

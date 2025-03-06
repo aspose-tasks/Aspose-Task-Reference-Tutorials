@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Render Kaynak Kullanımı ve Sayfa Görünümü
 linktitle: Aspose.Tasks'ta Render Kaynak Kullanımı ve Sayfa Görünümü
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da MS Project Kaynak Kullanımı ve Sayfa görünümlerini nasıl oluşturacağınızı öğrenin. Ayrıntılı PDF raporlarını zahmetsizce oluşturmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 16
 url: /tr/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Render Kaynak Kullanımı ve Sayfa Görünümü
+
 ## giriiş
 Bu eğitimde, MS Project Kaynak Kullanımı ve Sayfa görünümlerini oluşturmak için Aspose.Tasks for Java'nın nasıl kullanılacağını öğreneceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Kesinlikle! Aspose.Tasks, işlenmiş görünümlerin görünümünü ve düzenin
 Hayır, Aspose.Tasks bağımsız bir kütüphanedir ve çalışması için Microsoft Project'in kurulmasını gerektirmez.
 ### Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
  Evet, Aspose.Tasks kullanıcıları teknik destekten şu adresten yararlanabilirler:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

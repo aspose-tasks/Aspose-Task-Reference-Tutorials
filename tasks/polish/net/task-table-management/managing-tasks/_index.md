@@ -3,10 +3,16 @@ title: Zarządzanie zadaniami w Aspose.Tasks
 linktitle: Zarządzanie zadaniami w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zapoznaj się z kompleksowym przewodnikiem na temat zarządzania zadaniami za pomocą Aspose.Tasks dla .NET. Dowiedz się, jak dodawać, wyświetlać podzielone części, przenosić, pobierać/ustawiać właściwości i nie tylko.
-type: docs
 weight: 15
 url: /pl/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie zadaniami w Aspose.Tasks
+
 ## Wstęp
 Jeśli jesteś programistą .NET i chcesz efektywnie zarządzać zadaniami w swoich projektach, Aspose.Tasks dla .NET zapewnia solidne rozwiązanie. Ten samouczek poprowadzi Cię przez różne aspekty zarządzania zadaniami przy użyciu Aspose.Tasks, oferując instrukcje krok po kroku i przykłady kodu. Niezależnie od tego, czy dodajesz zadania, wyświetlasz podzielone części, przenosisz zadania pod tym samym elementem nadrzędnym, pobierasz/ustawiasz właściwości zadania, przeglądasz przypisania zadań, czytasz plany bazowe zadań czy usuwasz zadania, ten przewodnik pomoże Ci.
 ## Warunki wstępne
@@ -144,3 +150,9 @@ O: Tak, Aspose.Tasks obsługuje różne platformy .NET, zapewniając kompatybiln
 Odp.: Absolutnie! Aspose.Tasks zapewnia rozbudowane opcje dostosowywania właściwości zadań. Sprawdź dokumentację, aby uzyskać więcej szczegółów.
 ### P: Jak uzyskać wsparcie dla Aspose.Tasks?
  O: Odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menyesuaikan Gaya Gantt Bar dengan Aspose.Tasks
 linktitle: Gaya Gantt Bar di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi gaya bilah Gantt di MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan visualisasi proyek dengan mudah.
-type: docs
 weight: 20
 url: /id/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Gaya Gantt Bar dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara bekerja dengan gaya bilah Gantt di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Gaya batang Gantt memungkinkan Anda menyesuaikan tampilan batang di bagan Gantt, sehingga menyempurnakan representasi visual data proyek Anda.
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Aspose.Tasks menawarkan kompatibilitas dengan berbagai versi Microsoft Projec
 J: Ya, Anda dapat membuat gaya bilah kustom baru dan menyesuaikan propertinya sesuai dengan kebutuhan proyek Anda menggunakan API Aspose.Tasks.
 ### T: Apakah Aspose.Tasks mendukung fungsi manajemen proyek lain selain bagan Gantt?
 J: Ya, Aspose.Tasks menyediakan serangkaian fitur komprehensif untuk bekerja dengan data manajemen proyek, termasuk penjadwalan tugas, manajemen sumber daya, dan analisis proyek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

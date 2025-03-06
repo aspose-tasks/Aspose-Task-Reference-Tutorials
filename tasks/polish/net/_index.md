@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.Tasks dla .NET
 linktitle: Aspose.Tasks dla samouczków .NET
-type: docs
 weight: 10
 url: /pl/net/
 description: Zapoznaj się z samouczkami Aspose.Tasks for .NET obejmującymi opcje zapisywania, kalendarz i planowanie, zarządzanie projektami i nie tylko. Podnieś swoje umiejętności zarządzania projektami.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.Tasks dla .NET
+
 ## Wstęp
 
 Czy jesteś gotowy, aby odblokować pełny potencjał Aspose.Tasks dla .NET? Zapoznaj się z naszymi obszernymi samouczkami i przykładami obejmującymi szeroki zakres tematów, aby udoskonalić swoje umiejętności zarządzania projektami. Od opcji zapisywania po zaawansowane funkcje, zadania kalendarza i planowania, zarządzanie projektami i dostosowywanie – mamy wszystko, czego potrzebujesz.
@@ -72,3 +77,9 @@ Poznaj opcje formatu pliku Aspose.Tasks i opanuj konfigurowanie opcji XAML i XLS
 Odkryj, jak zwiększyć bezpieczeństwo plików PDF programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Poznaj techniki podpisu cyfrowego i szyfrowania.
 ### [Aspose.Tasks Zarządzanie licencjami](./license-management/)
 Odblokuj moc Aspose.Tasks dla .NET dzięki naszym obszernym samouczkom. Zarządzaj licencjami i optymalizuj wykorzystanie MS Project w celu wydajnego zarządzania projektami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

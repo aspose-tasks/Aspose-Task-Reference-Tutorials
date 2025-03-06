@@ -3,10 +3,16 @@ title: Zpracování odhadovaných a milníkových úkolů v Aspose.Tasks
 linktitle: Zpracování odhadovaných a milníkových úkolů v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte efektivní řízení projektů s Aspose.Tasks for Java. Zvládejte odhadované a milníky bez námahy. Stáhněte si knihovnu nyní!
-type: docs
 weight: 15
 url: /cs/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování odhadovaných a milníkových úkolů v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for Java je výkonná knihovna, která usnadňuje manipulaci s úkoly, správu projektů a manipulaci s projektovými daty bez námahy. V tomto tutoriálu se zaměříme na klíčový aspekt projektového řízení – zpracování odhadovaných a milníků pomocí Aspose.Tasks for Java.
 ## Předpoklady
@@ -60,3 +66,9 @@ Ano, Aspose.Tasks můžete bez problémů integrovat do svých projektů Java po
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

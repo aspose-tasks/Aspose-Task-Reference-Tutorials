@@ -3,10 +3,16 @@ title: Операции с файлами проекта
 linktitle: Операции с файлами проекта
 second_title: API Aspose.Tasks Java
 description: Легко оптимизируйте макеты MS Project с помощью Aspose.Tasks для Java. Изучите пошаговые руководства по устранению пробелов, рендерингу данных, замене календарей и многому другому.
-type: docs
 weight: 29
 url: /ru/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Операции с файлами проекта
+
 ## Введение
 Вы хотите расширить свои возможности управления проектами Java? Погрузитесь в наши подробные руководства по Aspose.Tasks для Java, посвященные различным операциям с файлами проекта. От сокращения пробелов в списках задач до настройки представлений MS Project — мы предоставим вам все необходимое.
 
@@ -94,3 +100,9 @@ url: /ru/java/project-file-operations/
 Научитесь эффективно управлять свойствами дней недели в Aspose.Tasks для Java. С легкостью настройте даты начала недели, дни в месяце и многое другое.
 ### [Напишите краткое описание проекта MPP в Aspose.Tasks](./write-mpp-project-summary/)
 Узнайте, как писать резюме проекта MPP на Java с помощью Aspose.Tasks. Устанавливайте и извлекайте информацию о проекте без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

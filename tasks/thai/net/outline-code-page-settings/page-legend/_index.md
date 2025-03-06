@@ -3,10 +3,16 @@ title: การกำหนดค่า MS Project Legends ใน Aspose.Tasks
 linktitle: การกำหนดค่า Page Legend ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าคำอธิบายหน้าเพจ MS Project ใน .NET โดยใช้ Aspose.Tasks เพื่อการจัดการโครงการที่มีประสิทธิภาพ มีคำแนะนำทีละขั้นตอน
-type: docs
 weight: 18
 url: /th/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่า MS Project Legends ใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา .NET การจัดการงานอย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับการจัดการโครงการ Aspose.Tasks สำหรับ .NET กลายเป็นเครื่องมือที่ทรงพลัง โดยมีฟังก์ชันการทำงานมากมายเพื่อปรับปรุงกระบวนการจัดการงาน คุณสมบัติอย่างหนึ่งคือความสามารถในการกำหนดค่าคำอธิบายหน้าเพจของ MS Project โดยให้ข้อมูลเชิงลึกอันมีค่าแก่ผู้ใช้ในการนำเสนอข้อมูลโครงการ
 ## ข้อกำหนดเบื้องต้น
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 ตอบ: แน่นอนว่า Aspose.Tasks สำหรับ .NET มีตัวเลือกการปรับแต่งที่หลากหลาย ซึ่งช่วยให้คุณปรับแต่งคำอธิบายเพจตามความต้องการของโปรเจ็กต์เฉพาะของคุณได้
 ### ถาม: ฉันจะหาการสนับสนุนหรือฟอรัมชุมชนสำหรับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถขอรับการสนับสนุนและมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)ซึ่งคุณสามารถค้นหาคำตอบสำหรับคำถามและโต้ตอบกับนักพัฒนาคนอื่นๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

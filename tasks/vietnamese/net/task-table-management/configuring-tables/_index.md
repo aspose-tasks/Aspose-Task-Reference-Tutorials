@@ -3,10 +3,16 @@ title: Cấu hình bảng chính trong Aspose.Tasks cho .NET
 linktitle: Định cấu hình bảng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình bảng trong Aspose.Tasks cho .NET với hướng dẫn từng bước này. Nâng cao trải nghiệm quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình bảng chính trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách định cấu hình bảng trong Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình định cấu hình bảng bằng Aspose.Tasks, chia nhỏ từng bước để bạn hiểu rõ ràng.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Chúc mừng! Bạn đã định cấu hình thành công các bảng trong Aspo
  A: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks ở đâu?
  A: Bạn có thể mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

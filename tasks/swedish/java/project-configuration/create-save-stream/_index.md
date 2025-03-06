@@ -3,10 +3,16 @@ title: Skapa och spara tomt projekt för att streama i Aspose.Tasks
 linktitle: Skapa och spara tomt projekt för att streama i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig att skapa och spara tomma MS Project-filer till en ström i Java med Aspose.Tasks, vilket förenklar projekthanteringsuppgifter utan ansträngning.
-type: docs
 weight: 13
 url: /sv/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa och spara tomt projekt för att streama i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man använder Aspose.Tasks för Java för att skapa och spara ett tomt MS-projekt i en ström. Aspose.Tasks är ett kraftfullt Java API som gör det möjligt för utvecklare att arbeta med Microsoft Project-filer utan att Microsoft Project behöver installeras på maskinen. Genom att följa den här guiden lär du dig de nödvändiga stegen för att skapa och spara en tom MS Project-fil med Aspose.Tasks.
 ## Förutsättningar
@@ -69,3 +75,9 @@ Ja, Aspose.Tasks stöder flera programmeringsspråk inklusive .NET, C++och Java.
  Du kan få stöd från gemenskapsforumet[här](https://forum.aspose.com/c/tasks/15).
 ### Kan jag köpa en tillfällig licens för Aspose.Tasks?
  Ja, tillfälliga licenser finns att köpa[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

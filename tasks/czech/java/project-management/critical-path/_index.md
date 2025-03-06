@@ -3,10 +3,16 @@ title: Vypočítat kritickou cestu projektu MS v Aspose.Tasks
 linktitle: Vypočítat kritickou cestu v projektech Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se vypočítat kritickou cestu v MS Project pomocí Aspose.Tasks for Java. To poskytuje návod krok za krokem pro efektivní řízení projektu.
-type: docs
 weight: 10
 url: /cs/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vypočítat kritickou cestu projektu MS v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem výpočtu kritické cesty v MS Project pomocí Aspose.Tasks for Java. Kritická cesta je nezbytná pro projektové řízení, protože pomáhá identifikovat posloupnost úkolů, které je třeba dokončit včas, aby se zajistilo, že se celkový harmonogram projektu nezdrží.
 ## Předpoklady
@@ -72,3 +78,9 @@ Odpověď: Ano, Aspose.Tasks for Java podporuje různé verze souborů MS Projec
  Odpověď: Ano, můžete si zakoupit dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Jak si mohu koupit Aspose.Tasks pro Java?
  Odpověď: Aspose.Tasks pro Javu si můžete zakoupit na webu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định cấu hình MS Project Legends trong Aspose.Tasks
 linktitle: Định cấu hình Chú giải Trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình chú giải trang MS Project trong .NET bằng Aspose.Tasks để quản lý dự án hiệu quả. Hướng dẫn từng bước được cung cấp.
-type: docs
 weight: 18
 url: /vi/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình MS Project Legends trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, việc quản lý các tác vụ một cách hiệu quả là rất quan trọng, đặc biệt là khi xử lý việc quản lý dự án. Aspose.Tasks for .NET nổi lên như một công cụ mạnh mẽ, cung cấp rất nhiều chức năng để hợp lý hóa các quy trình quản lý tác vụ. Một tính năng như vậy là khả năng định cấu hình chú giải trang MS Project, cung cấp cho người dùng những hiểu biết sâu sắc có giá trị về cách trình bày dữ liệu dự án.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Trả lời: Giấy phép tạm thời cung cấp quyền truy cập đầy đ�
 Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh chú giải trang theo yêu cầu dự án cụ thể của mình.
 ### Câu hỏi: Tôi có thể tìm diễn đàn cộng đồng hoặc hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Bạn có thể tìm kiếm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi bạn có thể tìm thấy câu trả lời cho các truy vấn và tương tác với các nhà phát triển đồng nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

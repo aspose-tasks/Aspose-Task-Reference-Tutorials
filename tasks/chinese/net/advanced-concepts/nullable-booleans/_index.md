@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中处理可为 Null 的布尔值
 linktitle: 在 Aspose.Tasks 中处理可为 Null 的布尔值
 second_title: Aspose.Tasks .NET API
 description: 通过这个综合教程，了解如何在 Aspose.Tasks for .NET 中有效处理可为 null 的布尔值。掌握 NullableBool 类的用法并增强您的 .NET 开发能力。
-type: docs
 weight: 21
 url: /zh/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中处理可为 Null 的布尔值
+
 ## 介绍
 
 在本教程中，我们将深入研究 Aspose.Tasks for .NET 中可空布尔值的使用。可空布尔值在表示布尔值方面提供了灵活性，允许未定义的可能性。我们将探讨如何使用`NullableBool`类及其构造函数、属性和方法。
@@ -153,3 +159,9 @@ A4：是的，您可以在构造时将可为空的布尔值设置为未定义。
 ### 问题 5：在哪里可以找到有关 Aspose.Tasks for .NET 的更多文档？
 
  A5：你可以找到详细的文档[这里](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

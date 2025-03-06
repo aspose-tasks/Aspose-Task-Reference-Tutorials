@@ -3,10 +3,16 @@ title: Vérifier le circuit dans Aspose.Tasks
 linktitle: Vérifier le circuit dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment utiliser Aspose.Tasks pour .NET pour gérer et analyser efficacement les fichiers de projet en C#.
-type: docs
 weight: 14
 url: /fr/net/calendar-scheduling/check-circuit/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vérifier le circuit dans Aspose.Tasks
+
 ## Introduction
 
 Dans le monde du développement .NET, la gestion efficace des tâches et des projets est primordiale. Aspose.Tasks for .NET est une bibliothèque puissante qui fournit aux développeurs les outils dont ils ont besoin pour rationaliser les processus de gestion de projet. Que vous créiez, lisiez ou manipuliez des fichiers Microsoft Project, Aspose.Tasks simplifie la tâche grâce à ses API intuitives et ses fonctionnalités complètes.
@@ -79,3 +85,9 @@ A1 : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, not
 ### Q5 : Où puis-je acheter Aspose.Tasks pour .NET ?
 
  A5 : Vous pouvez acheter la version complète d’Aspose.Tasks pour .NET auprès de[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

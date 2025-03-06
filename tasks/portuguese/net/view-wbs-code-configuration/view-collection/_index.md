@@ -3,10 +3,16 @@ title: Gerenciamento fácil de visualizações do MS Project com Aspose.Tasks .N
 linktitle: Coleção de visualizações em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks para .NET e domine a arte de gerenciar visualizações do MS Project sem esforço. Baixe agora para uma experiência perfeita de gerenciamento de projetos.
-type: docs
 weight: 11
 url: /pt/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciamento fácil de visualizações do MS Project com Aspose.Tasks .NET
+
 ## Introdução
 Bem-vindo ao mundo do Aspose.Tasks for .NET, uma biblioteca poderosa que capacita os desenvolvedores a gerenciar com eficiência as visualizações do Microsoft Project em seus aplicativos .NET. Neste tutorial, nos aprofundaremos nos fundamentos do manuseio de visualizações do MS Project usando Aspose.Tasks, fornecendo um guia passo a passo para aprimorar seus recursos de gerenciamento de projetos.
 ## Pré-requisitos
@@ -95,3 +101,9 @@ Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
  Envolva-se com a comunidade Aspose.Tasks no[fórum](https://forum.aspose.com/c/tasks/15) para qualquer dúvida ou assistência.
 ### As licenças temporárias estão disponíveis para Aspose.Tasks?
  Sim, explore licenças temporárias[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان تسلسلات WBS باستخدام Aspose.Tasks لـ .NET
 linktitle: تحديد تسلسلات WBS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: قم بتمكين إدارة مشروعك باستخدام Aspose.Tasks for .NET - حدد تسلسلات WBS بسلاسة وعزز الكفاءة دون عناء. #تخصيص #المهام #مشروع MS
-type: docs
 weight: 16
 url: /ar/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان تسلسلات WBS باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 هل تعمل على أحد تطبيقات إدارة المشاريع وتحتاج إلى أداة قوية للتعامل مع تسلسلات هيكل تقسيم العمل (WBS)؟ لا تنظر إلى أبعد من Aspose.Tasks for .NET، وهي مكتبة قوية تعمل على تبسيط مهام إدارة المشاريع. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحديد تسلسلات WBS خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتواصل مع المجتمع وطلب المساعدة.
 ### هل التراخيص المؤقتة متاحة؟
  نعم يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

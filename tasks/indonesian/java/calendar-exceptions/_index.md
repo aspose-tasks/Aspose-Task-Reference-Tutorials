@@ -3,10 +3,16 @@ title: Pengecualian Kalender
 linktitle: Pengecualian Kalender
 second_title: Aspose.Tugas Java API
 description: Kelola, tentukan, tangani & ambil pengecualian kalender dengan mudah di proyek Java dengan Aspose.Tasks. Sederhanakan alur kerja proyek untuk manajemen proyek yang efisien.
-type: docs
 weight: 20
 url: /id/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengecualian Kalender
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Pelajari cara menentukan hari kerja untuk pengecualian kalender di proyek Java m
 Pelajari cara menangani pengecualian kalender secara efektif di proyek Java dengan Aspose.Tasks untuk Java. Sederhanakan proses manajemen proyek Anda sekarang.
 ### [Ambil Pengecualian Kalender dengan Aspose.Tasks](./retrieve/)
 Pelajari cara mengambil pengecualian kalender dari MS Project menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

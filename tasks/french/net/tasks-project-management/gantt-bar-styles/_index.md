@@ -3,10 +3,16 @@ title: Personnalisation des styles de barre du Gantt avec Aspose.Tasks
 linktitle: Styles de barre du Gantt dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment personnaliser les styles de barre du Gantt dans MS Project à l'aide d'Aspose.Tasks pour .NET. Améliorez la visualisation du projet sans effort.
-type: docs
 weight: 20
 url: /fr/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisation des styles de barre du Gantt avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser les styles de barre du Gantt dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Les styles de barres du Gantt vous permettent de personnaliser l'apparence des barres dans un diagramme de Gantt, améliorant ainsi la représentation visuelle des données de votre projet.
 ## Conditions préalables
@@ -68,3 +74,9 @@ R : Aspose.Tasks offre une compatibilité avec différentes versions de Microsof
 R : Oui, vous pouvez créer de nouveaux styles de barres personnalisés et personnaliser leurs propriétés en fonction des besoins de votre projet à l'aide des API Aspose.Tasks.
 ### Q : Aspose.Tasks prend-il en charge d'autres fonctionnalités de gestion de projet en plus des diagrammes de Gantt ?
 R : Oui, Aspose.Tasks fournit un ensemble complet de fonctionnalités pour travailler avec des données de gestion de projet, notamment la planification des tâches, la gestion des ressources et l'analyse de projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

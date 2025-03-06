@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 업데이트 및 일정 변경
 linktitle: Aspose.Tasks에서 프로젝트 업데이트 및 완료되지 않은 작업 일정 변경
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 MS 프로젝트 파일을 업데이트하고 일정을 변경하는 방법을 알아보세요.
-type: docs
 weight: 23
 url: /ko/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 업데이트 및 일정 변경
+
 ## 소개
 Microsoft Project는 사용자가 작업, 리소스 및 일정을 효율적으로 관리할 수 있도록 널리 사용되는 프로젝트 관리 소프트웨어입니다. Aspose.Tasks for Java는 프로그래밍 방식으로 Microsoft Project 파일을 조작할 수 있는 강력한 API 세트를 제공합니다. 이 튜토리얼에서는 MS 프로젝트 파일을 업데이트하고 Aspose.Tasks for Java를 사용하여 완료되지 않은 작업 일정을 변경하는 방법을 알아봅니다.
 ## 전제조건
@@ -73,3 +79,9 @@ A: 예, Aspose.Tasks for Java는 작업, 종속성, 리소스 및 기타 프로�
  A: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for Java에 대한 자세한 문서는 어디서 찾을 수 있나요?
  A: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/tasks/java/) 포괄적인 가이드 및 API 참조를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

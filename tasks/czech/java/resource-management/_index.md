@@ -3,10 +3,16 @@ title: Správa zdrojů
 linktitle: Správa zdrojů
 second_title: Aspose.Tasks Java API
 description: Ovládněte správu zdrojů v MS Project s Aspose.Tasks pro Javu. Naučte se vytvářet, opakovat, spravovat náklady a další. Optimalizujte vývoj pomocí našich výukových programů.
-type: docs
 weight: 31
 url: /cs/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa zdrojů
+
 ## Úvod
 
 V oblasti vývoje MS Project pomocí Javy vyniká Aspose.Tasks jako robustní knihovna, která nabízí komplexní sadu funkcí pro efektivní správu zdrojů. Tato série výukových programů vás provede různými aspekty a zajistí, že budete zběhlí v bezproblémovém zacházení se zdroji Microsoft Project.
@@ -63,3 +69,9 @@ Naučte se, jak efektivně řídit náklady na zdroje MS Project pomocí Aspose.
 Naučte se, jak nastavit vlastnosti prostředků MS Project v Javě pomocí Aspose.Tasks pro bezproblémovou integraci a efektivní správu úkolů.
 ### [Zapište aktualizovaná data zdrojů do Aspose.Tasks](./write-updated-resource-data/)
 Naučte se, jak snadno aktualizovat zdrojová data v souborech MS Project pomocí Aspose.Tasks for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

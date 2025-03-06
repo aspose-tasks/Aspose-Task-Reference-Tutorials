@@ -3,10 +3,16 @@ title: Mengelola Lisensi Proyek MS di Aspose.Tasks .NET
 linktitle: Mengelola Lisensi Aspose.Tasks di .NET
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola lisensi Aspose.Tasks di aplikasi .NET dengan lancar menggunakan pendekatan berbasis file atau berbasis aliran.
-type: docs
 weight: 10
 url: /id/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Lisensi Proyek MS di Aspose.Tasks .NET
+
 ## Perkenalan
 Mengelola lisensi adalah aspek penting dalam memanfaatkan Aspose.Tasks dalam aplikasi .NET secara efektif. Tanpa lisensi yang tepat, Anda mungkin mengalami batasan atau batasan dalam penggunaan Anda. Untungnya, Aspose.Tasks menyediakan metode mudah untuk menerapkan lisensi menggunakan file atau aliran di proyek .NET Anda. Dalam tutorial ini, kita akan menjelajahi langkah demi langkah cara mengelola lisensi Aspose.Tasks di aplikasi .NET.
 ## Prasyarat
@@ -98,3 +104,9 @@ J: Tanpa lisensi yang valid, Aspose.Tasks beroperasi dalam mode evaluasi, yang m
 ### T: Dapatkah saya menggunakan file lisensi yang sama untuk beberapa aplikasi?
 
 J: Ya, Anda dapat menggunakan file lisensi yang sama di beberapa aplikasi yang dikembangkan oleh penerima lisensi yang sama. Namun, pastikan lisensi Anda mematuhi ketentuan penggunaan yang ditentukan oleh Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

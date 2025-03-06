@@ -3,10 +3,16 @@ title: Kuasai Tarif Proyek MS dengan Aspose.Tasks
 linktitle: Pengumpulan Tarif di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola tarif dalam file MS Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah untuk pengelolaan sumber daya yang efektif.
-type: docs
 weight: 11
 url: /id/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Tarif Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial kami tentang mengelola tarif di MS Project menggunakan Aspose.Tasks untuk .NET! Dalam panduan ini, kami akan memandu Anda melalui proses bekerja dengan tarif di file MS Project Anda menggunakan Aspose.Tasks. Baik Anda seorang pengembang berpengalaman atau baru memulai pengembangan .NET, tutorial ini akan memberi Anda petunjuk langkah demi langkah untuk menangani tarif dalam proyek Anda secara efektif.
 ## Prasyarat
@@ -110,3 +116,9 @@ J: Tentu saja, Aspose.Tasks untuk .NET mendukung bekerja dengan file MS Project 
 J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET untuk mengevaluasi fitur dan kompatibilitasnya dengan kebutuhan Anda.
 ### T: Bagaimana cara membeli lisensi Aspose.Tasks untuk .NET?
  J: Anda dapat membeli lisensi Aspose.Tasks untuk .NET dari[situs web](https://purchase.aspose.com/temporary-license/)yang memberikan opsi lisensi fleksibel sesuai kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

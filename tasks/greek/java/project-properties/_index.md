@@ -3,10 +3,16 @@ title: Ιδιότητες Έργου
 linktitle: Ιδιότητες Έργου
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.Tasks για Java με τα σεμινάρια Project Properties. Εξάγετε, αξιοποιήστε και χειριστείτε τις πληροφορίες του Microsoft Project χωρίς κόπο.
-type: docs
 weight: 24
 url: /el/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ιδιότητες Έργου
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στο Aspose.Tasks για Java; Τα σεμινάρια Project Properties σας δίνουν τη δυνατότητα να εκμεταλλευτείτε πλήρως τις δυνατότητες αυτής της πανίσχυρης βιβλιοθήκης, εστιάζοντας σε τρεις βασικές πτυχές: ανάγνωση μετα-ιδιοτήτων, εξαγωγή πληροφοριών Microsoft Project και έλεγχος χειρισμού MS Project. Βουτήξτε σε αυτά τα σεμινάρια για να βελτιώσετε τις δυνατότητες ανάπτυξης Java και διαχείρισης έργων.
@@ -35,3 +41,9 @@ url: /el/java/project-properties/
 Μάθετε πώς να εξάγετε πληροφορίες Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε τη διαχείριση έργου σε εφαρμογές Java χωρίς κόπο.
 ### [Mastering Project Manipulation με Aspose.Tasks για Java](./write-project-info/)
 Μάθετε πώς να γράφετε αποτελεσματικά πληροφορίες MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα για προγραμματιστές Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

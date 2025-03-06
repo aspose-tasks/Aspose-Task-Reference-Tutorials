@@ -3,10 +3,16 @@ title: Skonfiguruj bazę danych MS Project Primavera w Aspose.Tasks
 linktitle: Konfigurowanie ustawień bazy danych Primavera w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bez wysiłku skonfigurować ustawienia bazy danych MS Project Primavera w Aspose.Tasks dla .NET. Usprawnij swoje zadania związane z zarządzaniem projektami.
-type: docs
 weight: 11
 url: /pl/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skonfiguruj bazę danych MS Project Primavera w Aspose.Tasks
+
 ## Wstęp
 Czy jesteś gotowy, aby wykorzystać moc Aspose.Tasks dla .NET, aby bezproblemowo skonfigurować ustawienia bazy danych MS Project Primavera? W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces. Ale zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ O: Aspose.Tasks dla .NET koncentruje się przede wszystkim na rozwiązaniach do 
 Odp.: Absolutnie! Aspose.Tasks dla .NET zapewnia bogaty zestaw interfejsów API do odczytu, zapisu i manipulowania danymi projektu w różnych formatach.
 ### P: Czy dostępne jest forum społeczności lub kanał wsparcia dla użytkowników Aspose.Tasks dla .NET?
  Odpowiedź: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) celu uzyskania wsparcia społeczności i pomocy w przypadku jakichkolwiek problemów lub zapytań.## Kompletny kod źródłowy
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

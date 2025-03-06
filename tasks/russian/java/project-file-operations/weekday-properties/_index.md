@@ -3,10 +3,16 @@ title: Свойства будних дней в Aspose.Tasks
 linktitle: Свойства будних дней в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Научитесь эффективно управлять свойствами дней недели в Aspose.Tasks для Java. С легкостью настройте даты начала недели, дни в месяце и многое другое.
-type: docs
 weight: 25
 url: /ru/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Свойства будних дней в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для Java — это мощный API, который позволяет разработчикам Java работать с файлами Microsoft Project без установки Microsoft Project на компьютере. Одна из его ключевых функций — управление свойствами дней недели, что позволяет пользователям настраивать даты начала недели, дни в месяц, минуты в день и минуты в неделю. В этом руководстве представлено подробное руководство о том, как эффективно использовать эти функции.
 ## Предварительные условия
@@ -74,3 +80,9 @@ System.out.println("Process completed Successfully");
  О: Да, вы можете получить доступ к обширной документации и поддержке сообщества для Aspose.Tasks for Java на их сайте.[Веб-сайт](https://releases.aspose.com/).
 ### Вопрос: Доступна ли бесплатная пробная версия Aspose.Tasks для Java?
 О: Да, вы можете скачать бесплатную пробную версию Aspose.Tasks для Java с их сайта.[Веб-сайт](https://reference.aspose.com/tasks/java/) чтобы изучить его возможности перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

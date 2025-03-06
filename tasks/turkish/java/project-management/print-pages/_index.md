@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Sayfaları Ayrı Görüntüye Yazdır
 linktitle: Aspose.Tasks'ta Sayfaları Ayrı Görüntüye Yazdır
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da görüntüleri ayırmak için sayfaları nasıl yazdıracağınızı öğrenin. Bu adım adım kılavuzla proje görselleştirmesini iyileştirin.
-type: docs
 weight: 22
 url: /tr/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Sayfaları Ayrı Görüntüye Yazdır
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak görüntüleri ayırmak için sayfaları yazdırma sürecinde size rehberlik edeceğiz. Bu işlevsellik, proje düzenlerini veya kritik görevleri ayrı ayrı görselleştirmeniz gerektiğinde özellikle yararlı olabilir.
 ## Önkoşullar
@@ -77,3 +83,9 @@ C: Evet, Aspose.Tasks for Java'yı Maven veya Gradle projenize uygun bağımlıl
 C: Evet, Aspose.Tasks for Java, proje verilerinin PDF, HTML, XLSX vb. gibi çeşitli formatlara aktarılmasını destekleyerek veri görselleştirme ve raporlamada esneklik sağlar.
 ### S: Aspose.Tasks for Java için topluluk desteği mevcut mu?
  C: Evet, topluluk desteği bulabilir, sorular sorabilir ve diğer kullanıcılarla iletişim kurabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

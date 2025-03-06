@@ -3,10 +3,16 @@ title: Configuración de parámetros de tareas recurrentes en Aspose.Tasks
 linktitle: Configuración de parámetros de tareas recurrentes en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar parámetros de tareas recurrentes en Microsoft Project usando Aspose.Tasks para .NET. Tutorial completo con guía paso a paso.
-type: docs
 weight: 14
 url: /es/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de parámetros de tareas recurrentes en Aspose.Tasks
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de configuración de los parámetros de tareas recurrentes de Microsoft Project usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -79,3 +85,9 @@ Sí, Aspose.Tasks admite varios formatos de archivos de proyecto, incluidos MPP,
 Sí, puede visitar el foro Aspose.Tasks para obtener ayuda de la comunidad o comunicarse con el soporte para obtener ayuda directa.
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Tasks?
  Puede obtener una licencia temporal del[sitio web](https://purchase.aspose.com/temporary-license/) con fines de prueba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

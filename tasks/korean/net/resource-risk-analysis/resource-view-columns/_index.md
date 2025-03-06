@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 리소스 보기 열 사용자 정의
 linktitle: Aspose.Tasks에서 리소스 보기 열 사용자 정의
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS Project 리소스 보기 열을 효율적으로 사용자 정의하는 방법을 알아보세요. 더 나은 프로젝트 관리를 위해 맞춤형 보기를 만듭니다.
-type: docs
 weight: 17
 url: /ko/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 리소스 보기 열 사용자 정의
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 프로젝트 관리의 일반적인 작업 중 하나는 특정 정보를 표시하도록 보기를 사용자 정의하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project 리소스 보기 열을 사용자 정의하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -94,3 +100,9 @@ MS 프로젝트 리소스 보기 열을 사용자 정의하는 것은 프로젝�
 예, 기본 프로젝트 데이터가 변경될 때마다 사용자 정의 보기를 업데이트하고 다시 생성할 수 있습니다.
 ### Aspose.Tasks는 크로스 플랫폼 개발을 지원합니까?
 .NET용 Aspose.Tasks는 주로 .NET 플랫폼을 대상으로 하지만 Java 및 기타 플랫폼에서 사용할 수 있는 버전도 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

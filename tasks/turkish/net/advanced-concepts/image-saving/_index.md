@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görüntü Kaydetmeyi Yönetme
 linktitle: Aspose.Tasks'ta Görüntü Kaydetmeyi Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te görüntü kaydetme işlemini adım adım yönergelerle nasıl yapacağınızı öğrenin. Görüntü kaydetme işlevini .NET uygulamalarınıza sorunsuz bir şekilde entegre edin.
-type: docs
 weight: 10
 url: /tr/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görüntü Kaydetmeyi Yönetme
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te görüntü kaydetme işlemini ele alacağız. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir API'dir. Proje dosyalarıyla çalışırken sık karşılaşılan görevlerden biri, çizelgeler, grafikler veya diğer görsel öğeleri içerebilen görüntüleri kaydetme ihtiyacıdır. Süreci adım adım inceleyerek, baştan sona netlik ve anlayış sağlayacağız.
@@ -131,3 +137,9 @@ Cevap4: Evet, geri çağırma yöntemlerinde görüntü kaydetme mantığını d
 ### S5: Aspose.Tasks değerlendirme amaçlı deneme sürümleri sunuyor mu?
 
  Cevap5: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

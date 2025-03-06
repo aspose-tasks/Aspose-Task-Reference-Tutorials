@@ -3,10 +3,16 @@ title: تكوين خيارات طباعة MS Project في Aspose.Tasks
 linktitle: تكوين خيارات الطباعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات طباعة MS Project بسلاسة باستخدام Aspose.Tasks لـ .NET. تعزيز قدرات إدارة المشروع الخاص بك.
-type: docs
 weight: 14
 url: /ar/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين خيارات طباعة MS Project في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير البرمجيات، تبرز Aspose.Tasks for .NET كأداة قوية لإدارة المهام والمشاريع بكفاءة. إحدى ميزاته الرئيسية هي القدرة على تكوين خيارات طباعة Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في عملية تكوين خيارات طباعة MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -61,3 +67,9 @@ if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
  ج: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني الشامل من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)حيث يمكنهم طلب المساعدة والتوجيه من الخبراء.
 ### س: هل يمكنني تقييم Aspose.Tasks لـ .NET قبل إجراء عملية الشراء؟
  ج: بالتأكيد! يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من[هنا](https://releases.aspose.com/) لاستكشاف ميزاته ووظائفه قبل الالتزام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

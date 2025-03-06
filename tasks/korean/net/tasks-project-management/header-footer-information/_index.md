@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 머리글 및 바닥글 정보 추출
 linktitle: Aspose.Tasks의 머리글 및 바닥글 정보
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일에서 머리글 및 바닥글 정보를 추출하는 방법을 알아보세요. 쉽고 효율적이며 개발자 친화적인 솔루션입니다.
-type: docs
 weight: 29
 url: /ko/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 머리글 및 바닥글 정보 추출
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 쉽게 조작할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 파일에서 머리글 및 바닥글 정보를 검색하는 방법을 알아봅니다.
 ## 전제조건
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  Aspose.Tasks에 대한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
  Aspose.Tasks에 대한 지원은 다음 사이트를 방문하여 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

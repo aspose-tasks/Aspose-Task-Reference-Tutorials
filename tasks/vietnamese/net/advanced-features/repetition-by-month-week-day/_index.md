@@ -3,10 +3,16 @@ title: Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
 linktitle: Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thiết lập các lần lặp lại theo tháng, tuần và ngày trong Aspose.Tasks dành cho .NET để tự động hóa các tác vụ định kỳ một cách hiệu quả.
-type: docs
 weight: 26
 url: /vi/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển phần mềm, đặc biệt là trong các ứng dụng quản lý dự án, khả năng xử lý các tác vụ định kỳ một cách hiệu quả là điều tối quan trọng. Aspose.Tasks for .NET là một thư viện mạnh mẽ được thiết kế để hợp lý hóa việc tạo và quản lý các tác vụ dự án, bao gồm cả các tác vụ định kỳ. Một chức năng như vậy được Aspose.Tasks cung cấp là khả năng thiết lập các lần lặp lại theo tháng, tuần và ngày, đảm bảo rằng các nhiệm vụ được thực hiện đúng tiến độ mà không cần can thiệp thủ công.
@@ -112,3 +118,9 @@ Câu trả lời 1: Có, Aspose.Tasks dành cho .NET cung cấp các tùy chọn
 ###Q5: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks cho .NET ở đâu?
 
  A5: Bạn có thể tham khảo chi tiết[tài liệu](https://reference.aspose.com/tasks/net/) có sẵn trên trang web Aspose để được hướng dẫn chuyên sâu về cách sử dụng thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

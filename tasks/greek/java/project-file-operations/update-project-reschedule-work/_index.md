@@ -3,10 +3,16 @@ title: Ενημέρωση & Επαναπρογραμματισμός Έργου 
 linktitle: Ενημέρωση έργου και επαναπρογραμματισμός μη ολοκληρωμένης εργασίας στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ενημερώνετε και να επαναπρογραμματίζετε τα αρχεία MS Project μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Tasks για Java.
-type: docs
 weight: 23
 url: /el/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενημέρωση & Επαναπρογραμματισμός Έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Microsoft Project είναι ένα ευρέως χρησιμοποιούμενο λογισμικό διαχείρισης έργων που επιτρέπει στους χρήστες να διαχειρίζονται αποτελεσματικά εργασίες, πόρους και χρονοδιαγράμματα. Το Aspose.Tasks για Java παρέχει ένα ισχυρό σύνολο API για το χειρισμό αρχείων Microsoft Project μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα μάθουμε πώς να ενημερώνουμε τα αρχεία του MS Project και να επαναπρογραμματίζουμε ανολοκλήρωτες εργασίες χρησιμοποιώντας το Aspose.Tasks για Java.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
  Α: Ναι, οι προσωρινές άδειες είναι διαθέσιμες για αγορά[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Tasks για Java;
  Α: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/java/) για αναλυτικούς οδηγούς και αναφορές API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

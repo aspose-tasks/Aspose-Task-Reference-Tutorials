@@ -3,10 +3,16 @@ title: Konfigurasikan Pengaturan Halaman Proyek MS dengan Aspose.Tasks
 linktitle: Mengonfigurasi Pengaturan Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan halaman MS Project menggunakan Aspose.Tasks untuk .NET. Sesuaikan orientasi, ukuran, dan lainnya dengan langkah sederhana.
-type: docs
 weight: 20
 url: /id/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Pengaturan Halaman Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses mengonfigurasi pengaturan halaman Microsoft Project menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah API canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram.
 ## Prasyarat
@@ -77,3 +83,9 @@ J: Aspose.Tasks mendukung berbagai ukuran kertas, termasuk ukuran standar dan kh
 J: Tentu saja, Anda dapat mengintegrasikan fungsi ini ke dalam alur kerja aplikasi Anda untuk mengotomatisasi konfigurasi pengaturan halaman.
 ### T: Apakah Aspose.Tasks menawarkan dukungan untuk format file lain selain .mpp?
 J: Ya, Aspose.Tasks mendukung berbagai format file seperti XML, MPT, HTML, dan lain-lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

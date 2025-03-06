@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 완료 날짜 분할
 linktitle: Aspose.Tasks에서 작업 완료 날짜 분할
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 작업 완료 날짜를 쉽게 분할하는 방법을 알아보세요. 정확한 일정으로 프로젝트 관리를 강화합니다.
-type: docs
 weight: 28
 url: /ko/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 완료 날짜 분할
+
 ## 소개
 프로젝트 관리에서는 성공적인 프로젝트 완료를 위해 작업 일정을 이해하는 것이 중요합니다. Aspose.Tasks for Java는 프로젝트 작업을 효율적으로 조작할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 작업 완료 날짜를 분할하여 프로젝트 일정을 효과적으로 관리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -54,3 +60,9 @@ System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 h
  A4: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q5: Aspose.Tasks를 구매할 수 있나요?
  A5: 그렇습니다, 당신은 그것을 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

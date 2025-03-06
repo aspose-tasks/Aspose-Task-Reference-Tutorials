@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta OLE Nesneleriyle Çalışmak
 linktitle: Aspose.Tasks'ta OLE Nesneleriyle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak .NET uygulamalarında OLE nesneleriyle nasıl verimli bir şekilde çalışabileceğinizi öğrenin ve proje yönetimi yeteneklerini geliştirin.
-type: docs
 weight: 22
 url: /tr/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta OLE Nesneleriyle Çalışmak
+
 ## giriiş
 
 Aspose.Tasks for .NET, proje dosyalarındaki OLE (Nesne Bağlama ve Gömme) nesneleriyle çalışmak için kapsamlı işlevsellik sağlar. Bu eğitim, .NET uygulamalarınızda Aspose.Tasks'ı kullanarak OLE nesnelerini verimli bir şekilde yönetme sürecinde size rehberlik edecektir.
@@ -148,3 +154,9 @@ Cevap4: Evet, Aspose.Tasks, hem küçük ölçekli hem de kurumsal düzeydeki pr
 ### S5: Aspose.Tasks müşteri desteği ve dokümantasyon kaynakları sunuyor mu?
 
 C5: Evet, Aspose.Tasks, geliştiricilerin özelliklerini etkili bir şekilde kullanmalarına yardımcı olmak için kapsamlı belgeler, forumlar ve müşteri desteği sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

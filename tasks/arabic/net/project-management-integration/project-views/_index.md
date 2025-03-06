@@ -3,10 +3,16 @@ title: تخصيص طرق عرض مشروع MS في Aspose.Tasks
 linktitle: تخصيص طرق عرض المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص طرق عرض MS Project باستخدام Aspose.Tasks لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تصور فعال لإدارة المشاريع.
-type: docs
 weight: 24
 url: /ar/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص طرق عرض مشروع MS في Aspose.Tasks
+
 ## مقدمة
 يعد Microsoft Project أداة قوية لإدارة المشاريع، مما يسمح للمستخدمين بتنظيم المهام وإدارة الموارد وتتبع التقدم بفعالية. يوفر Aspose.Tasks for .NET طريقة مناسبة للعمل مع ملفات Microsoft Project برمجيًا، مما يمكّن المطورين من تخصيص طرق عرض المشروع لتناسب احتياجاتهم الخاصة. في هذا البرنامج التعليمي، سنستكشف كيفية تخصيص طرق عرض MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
  نعم، يوفر Aspose.Tasks for .NET توثيقًا شاملاً ودعمًا من خلاله[المنتدى](https://forum.aspose.com/c/tasks/15) و[بوابة التوثيق](https://reference.aspose.com/tasks/net/).
 ### 5. هل يمكنني تجربة Aspose.Tasks لـ .NET قبل الشراء؟
  نعم يمكنك الاستفادة من[تجربة مجانية](https://releases.aspose.com/) Aspose.Tasks لـ .NET لتقييم ميزاته وإمكانياته قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

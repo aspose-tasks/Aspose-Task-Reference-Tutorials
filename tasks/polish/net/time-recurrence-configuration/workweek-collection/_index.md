@@ -3,10 +3,16 @@ title: Dostosuj tygodnie pracy w Aspose.Tasks
 linktitle: Zbiór tygodni pracy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak dostosować tygodnie pracy w Aspose.Tasks dla .NET. Przewodnik krok po kroku dotyczący tworzenia spersonalizowanych kalendarzy projektów. Pobierz teraz!
-type: docs
 weight: 17
 url: /pl/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj tygodnie pracy w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym samouczku na temat tworzenia niestandardowego tygodnia pracy przy użyciu Aspose.Tasks dla .NET! W tym przewodniku krok po kroku przeprowadzimy Cię przez proces definiowania spersonalizowanego tygodnia pracy dla kalendarza w Twoim projekcie. Aspose.Tasks to potężna biblioteka, która umożliwia programistom efektywną pracę z dokumentami Microsoft Project w aplikacjach .NET.
 ## Warunki wstępne
@@ -82,3 +88,9 @@ Tak, Aspose.Tasks obsługuje .NET Core.
 Absolutnie Aspose.Tasks umożliwia zapisanie projektu w różnych formatach, w tym Microsoft Project.
 ### Gdzie mogę szukać pomocy w przypadku zapytań związanych z Aspose.Tasks?
  Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakiekolwiek wsparcie lub pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

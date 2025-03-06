@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置使用情況視圖
 linktitle: 在 Aspose.Tasks 中配置使用情況視圖
 second_title: Aspose.Tasks .NET API
 description: 了解在 Aspose.Tasks for .NET 中配置任務使用視圖。透過詳細步驟增強項目視覺化。立即下載庫！
-type: docs
 weight: 17
 url: /zh-hant/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置使用情況視圖
+
 ## 介紹
 如果您是希望增強專案管理能力的 .NET 開發人員，Aspose.Tasks 是一款功能強大的工具，可讓您輕鬆操作 Microsoft Project 檔案。在本教程中，我們將重點放在使用 Aspose.Tasks for .NET 配置使用視圖。請繼續深入了解渲染任務使用情況視圖以及更好的專案視覺化的詳細資訊。
 ## 先決條件
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
 是的，探索免費試用版[這裡](https://releases.aspose.com/).
 ### Q：需要支援或有疑問嗎？
 造訪支援論壇[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

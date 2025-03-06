@@ -3,10 +3,16 @@ title: إدارة المهام الحرجة والموجهة بالجهد في A
 linktitle: إدارة المهام الحرجة والموجهة بالجهد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: قم بإدارة المهام الحرجة والموجهة نحو الجهد بسهولة في مشاريع Java الخاصة بك باستخدام Aspose.Tasks. قم بتنزيل المكتبة وعزز قدرات إدارة مشروعك.
-type: docs
 weight: 14
 url: /ar/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة المهام الحرجة والموجهة بالجهد في Aspose.Tasks
+
 في عالم إدارة المشاريع سريع الخطى، يعد التعامل بكفاءة مع المهام الحرجة والموجهة بالجهد أمرًا ضروريًا لإنجاز المشروع بنجاح. يوفر Aspose.Tasks for Java حلاً قويًا لإدارة هذه المهام بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استخدام Aspose.Tasks لـ Java للتعامل مع المهام الحرجة والمبنية على الجهد في مشاريعك.
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Tasks لـ Java؟
  يمكنك شراء Aspose.Tasks لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

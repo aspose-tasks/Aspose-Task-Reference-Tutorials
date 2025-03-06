@@ -3,10 +3,16 @@ title: Samling av resurstilldelningar i Aspose.Tasks
 linktitle: Samling av resurstilldelningar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar resurstilldelningar i Microsoft Project med Aspose.Tasks för .NET. Steg-för-steg handledning med kodexempel.
-type: docs
 weight: 12
 url: /sv/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av resurstilldelningar i Aspose.Tasks
+
 ## Introduktion
 Välkommen till denna omfattande handledning om hantering av resurstilldelningar i Microsoft Project med Aspose.Tasks för .NET. I den här handledningen kommer vi att fördjupa oss i processen steg för steg, för att säkerställa att du har en gedigen förståelse för hur du manipulerar resurstilldelningar effektivt. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här guiden att gå igenom allt du behöver veta.
 ## Förutsättningar
@@ -94,3 +100,9 @@ S: Ja, Aspose.Tasks för .NET stöder olika versioner av Microsoft Project-filer
  S: Ja, tillfälliga licenser är tillgängliga för utvärderingssyften. Du kan få en från[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag köpa en fullständig licens för Aspose.Tasks för .NET?
  S: Du kan köpa en fullständig licens från Asposes onlinebutik[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

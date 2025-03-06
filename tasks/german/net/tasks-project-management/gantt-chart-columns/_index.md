@@ -3,10 +3,16 @@ title: Passen Sie Gantt-Diagrammspalten mit Aspose.Tasks an
 linktitle: Gantt-Diagrammspalten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Gantt-Diagrammspalten in Aspose.Tasks für .NET anpassen, um bestimmte Aufgabeninformationen effizient anzuzeigen.
-type: docs
 weight: 21
 url: /de/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie Gantt-Diagrammspalten mit Aspose.Tasks an
+
 ## Einführung
 Gantt-Diagramme sind ein grundlegendes Werkzeug im Projektmanagement und bieten eine visuelle Darstellung von Aufgaben, Zeitplänen und Ressourcen. Aspose.Tasks für .NET bietet leistungsstarke Funktionen zur Bearbeitung von Gantt-Diagrammen, einschließlich der Anpassung von Spalten zur Anzeige spezifischer Aufgabeninformationen. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit Gantt-Diagrammspalten arbeiten.
 ## Voraussetzungen
@@ -99,3 +105,9 @@ A: Aspose.Tasks für .NET bietet umfassende APIs und Funktionen zur Verwaltung k
 A: Aspose.Tasks für .NET bietet umfangreiche Anpassungsoptionen, sodass Sie ohne Einschränkungen eine beträchtliche Anzahl von Spalten zu Gantt-Diagrammen hinzufügen können.
 ### F: Wo finde ich zusätzlichen Support und Ressourcen für Aspose.Tasks für .NET?
 A: Sie können die von Aspose.Tasks für .NET bereitgestellte Dokumentation, Community-Foren und Support-Kanäle durchsuchen, um auf umfassende Ressourcen und Unterstützung zuzugreifen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

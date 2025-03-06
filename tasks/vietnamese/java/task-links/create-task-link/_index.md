@@ -3,10 +3,16 @@ title: Tạo liên kết tác vụ trong Aspose.Tasks
 linktitle: Tạo liên kết tác vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Mở khóa liên kết tác vụ liền mạch trong các dự án Java với Aspose.Tasks. Nắm vững nghệ thuật tạo liên kết nhiệm vụ với hướng dẫn từng bước của chúng tôi. Tải ngay!
-type: docs
 weight: 11
 url: /vi/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo liên kết tác vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Liên kết tác vụ hiệu quả là yếu tố then chốt để quản lý dự án hợp lý và Aspose.Tasks for Java cung cấp cho các nhà phát triển các công cụ mạnh mẽ để đạt được điều này một cách liền mạch. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thành thạo việc tạo liên kết tác vụ bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -57,3 +63,9 @@ Trả lời: Có, Aspose.Tasks tích hợp liền mạch với nhiều khung cô
 Đáp: Có, hãy kiểm tra tài liệu để biết các dự án mẫu và đoạn mã toàn diện.
 ### Câu hỏi: Cách mua Aspose.Tasks cho Java được khuyến nghị là gì?
  Đáp: Bảo mật bản sao của bạn bằng cách truy cập vào[trang mua hàng](https://purchase.aspose.com/buy) và khám phá các tùy chọn cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

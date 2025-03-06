@@ -3,10 +3,16 @@ title: تحويل MS Project إلى PDF بسهولة في Aspose.Tasks
 linktitle: خيارات حفظ PDF لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تحويل ملفات Microsoft Project إلى ملفات PDF بسهولة باستخدام Aspose.Tasks لـ .NET. تعزيز سير عمل إدارة المشروع الخاص بك.
-type: docs
 weight: 13
 url: /ar/net/saving-options/pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل MS Project إلى PDF بسهولة في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير البرمجيات وإدارة المشاريع، يعد التعامل الفعال مع ملفات المشروع أمرًا بالغ الأهمية لسير العمل السلس والتنفيذ الناجح للمشروع. يوفر Aspose.Tasks for .NET مجموعة أدوات قوية لإدارة ملفات Microsoft Project بسهولة. في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ ملفات Microsoft Project كملفات PDF باستخدام Aspose.Tasks لـ .NET. 
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ project.Save("Output_PDF_File_Path.pdf", options);
 ج: نعم، إلى جانب PDF، يمكنك تحويل ملفات Microsoft Project إلى تنسيقات مختلفة بما في ذلك XLSX وHTML والصور.
 ### س: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
  ج: نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

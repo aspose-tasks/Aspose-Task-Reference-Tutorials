@@ -3,10 +3,16 @@ title: Manipulace s ukládáním obrázků v Aspose.Tasks
 linktitle: Manipulace s ukládáním obrázků v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak zacházet s ukládáním obrázků v Aspose.Tasks pro .NET pomocí podrobných pokynů. Bezproblémově integrujte funkci ukládání obrázků do svých aplikací .NET.
-type: docs
 weight: 10
 url: /cs/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s ukládáním obrázků v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do procesu zpracování ukládání obrázků v Aspose.Tasks pro .NET. Aspose.Tasks je výkonné rozhraní API, které umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project. Jedním z běžných úkolů při práci s projektovými soubory je potřeba ukládat obrázky, které mohou obsahovat tabulky, grafy nebo jiné vizuální prvky. Proces rozebereme krok za krokem, zajistíme srozumitelnost a pochopení.
@@ -131,3 +137,9 @@ Odpověď 4: Ano, vzhled uložených obrázků můžete upravit úpravou logiky 
 ### Q5: Nabízí Aspose.Tasks zkušební verze pro účely hodnocení?
 
  A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks od[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

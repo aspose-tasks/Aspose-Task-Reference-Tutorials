@@ -3,10 +3,16 @@ title: Správa úkolů v Aspose.Tasks
 linktitle: Správa úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte komplexního průvodce pro správu úloh pomocí Aspose.Tasks for .NET. Naučte se přidávat, zobrazovat rozdělené části, přesouvat, získávat/nastavovat vlastnosti a další.
-type: docs
 weight: 15
 url: /cs/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa úkolů v Aspose.Tasks
+
 ## Úvod
 Pokud jste vývojář .NET a chcete efektivně spravovat úkoly ve svých projektech, Aspose.Tasks for .NET poskytuje robustní řešení. Tento tutoriál vás provede různými aspekty správy úloh pomocí Aspose.Tasks a nabídne vám podrobné pokyny a příklady kódu. Ať už přidáváte úkoly, zobrazujete rozdělené části, přesouváte úkoly pod stejného rodiče, získáváte/nastavujete vlastnosti úkolu, iterujete přes přiřazení úkolů, čtete osnovy úkolů nebo odstraňujete úkoly, tato příručka vám pomůže.
 ## Předpoklady
@@ -144,3 +150,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé .NET frameworky, což zajišťuje
 A: Rozhodně! Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení vlastností úloh. Další podrobnosti naleznete v dokumentaci.
 ### Otázka: Jak získám podporu pro Aspose.Tasks?
  A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

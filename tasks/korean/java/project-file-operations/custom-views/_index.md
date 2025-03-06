@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 사용자 정의 MS 프로젝트 뷰 생성
 linktitle: Aspose.Tasks의 사용자 정의 보기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 손쉽게 사용자 정의 MS 프로젝트 뷰를 만드는 방법을 알아보세요. 맞춤형 보기를 통해 프로젝트 관리 효율성을 향상합니다.
-type: docs
 weight: 24
 url: /ko/java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 사용자 정의 MS 프로젝트 뷰 생성
+
 ## 소개
 프로젝트 관리에서 보기를 사용자 정의하면 작업 및 리소스 관리의 명확성과 효율성이 크게 향상될 수 있습니다. Aspose.Tasks for Java는 특정 프로젝트 요구 사항에 맞는 사용자 정의 보기를 생성할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 사용자 정의 MS 프로젝트 뷰를 만드는 방법을 단계별로 살펴보겠습니다.
 ## 전제조건
@@ -86,3 +92,9 @@ A: 예, Aspose.Tasks for Java는 PDF, XLSX, HTML과 같은 다양한 형식으�
 답: 물론이죠. Aspose.Tasks for Java는 자동화를 위한 포괄적인 API를 제공하므로 개발자는 필요에 따라 프로그래밍 방식으로 사용자 정의 보기를 생성하고 관리할 수 있습니다.
 ### Q5: Java 지원을 위한 Aspose.Tasks에 대한 커뮤니티 포럼이 있습니까?
  A: 예, 다음에서 도움을 받고 다른 사용자와 교류할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) Java 관련 쿼리 및 토론용입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

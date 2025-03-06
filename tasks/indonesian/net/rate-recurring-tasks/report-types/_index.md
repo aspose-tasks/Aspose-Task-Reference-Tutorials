@@ -3,10 +3,16 @@ title: Kuasai Pelaporan Proyek MS dengan Aspose.Tasks
 linktitle: Bekerja dengan Jenis Laporan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja dengan file MS Project menggunakan Aspose.Tasks untuk .NET. Hasilkan berbagai jenis laporan dengan mudah.
-type: docs
 weight: 16
 url: /id/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Pelaporan Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project dengan mudah. Baik Anda sedang mengerjakan tugas manajemen proyek, penjadwalan, atau pelaporan, Aspose.Tasks menyediakan serangkaian fitur lengkap untuk menyederhanakan alur kerja Anda. Dalam tutorial ini, kita akan mempelajari cara bekerja dengan file MS Project dan menghasilkan berbagai jenis laporan menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -55,3 +61,9 @@ J: Ya, Anda dapat menggunakan Aspose.Tasks untuk .NET dalam proyek komersial, na
  A: Anda bisa mendapatkan dukungan dari komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Q5: Bagaimana cara mengunduh Aspose.Tasks untuk .NET?
  J: Anda dapat mengunduh Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

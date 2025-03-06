@@ -3,10 +3,16 @@ title: الكشف عن حقول عرض استخدام المهام في Aspose.T
 linktitle: مجموعة من حقول عرض استخدام المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET لإدارة بيانات المشروع وتصورها بسهولة. تعمق في حقول عرض استخدام المهام للحصول على رؤى محسنة للمشروع.
-type: docs
 weight: 25
 url: /ar/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الكشف عن حقول عرض استخدام المهام في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يمثل Aspose.Tasks for .NET حلاً قويًا، حيث يوفر للمطورين مجموعة أدوات قوية لمعالجة بيانات المشروع وإدارتها. إحدى الميزات الجديرة بالملاحظة هي طريقة عرض استخدام المهام، التي تقدم رؤى حول المجالات المختلفة التي تعزز رؤية المشروع. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات حقول عرض استخدام المهام باستخدام Aspose.Tasks لـ .NET، مع تفصيل كل خطوة للحصول على فهم شامل.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ foreach (var field in fields)
  نعم، يمكنك الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/) للاستخدام على المدى القصير.
 ### ما هي تنسيقات الملفات المدعومة لمستندات المشروع؟
 يدعم Aspose.Tasks for .NET العديد من التنسيقات، بما في ذلك MPP وXML وCSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

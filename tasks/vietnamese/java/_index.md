@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Tasks cho Java
 linktitle: Aspose.Tasks cho các hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Khám phá Aspose.Tasks cho Java với các hướng dẫn của chúng tôi. Lịch tổng thể, quản lý dự án, v.v. Hợp lý hóa quy trình công việc của bạn để thực hiện dự án hiệu quả.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Tasks cho Java
+
 
 ## Giới thiệu
 Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án Java của mình chưa? Hãy hòa mình vào thế giới Aspose.Tasks dành cho Java với các hướng dẫn mở rộng của chúng tôi đề cập đến nhiều khía cạnh khác nhau của quản lý dự án. Từ ngoại lệ lịch đến tích hợp VBA, chúng tôi đều hỗ trợ bạn.
@@ -93,3 +98,9 @@ Khám phá Aspose.Tasks Java với Hướng dẫn cơ bản về nhiệm vụ c�
 Tăng cường quản lý dự án Java với Aspose.Tasks. Khám phá các hướng dẫn về thuộc tính nhiệm vụ, từ xử lý mức độ ưu tiên đến quản lý chi phí. Tối ưu hóa dự án của bạn ngay hôm nay!
 ### [Tích hợp VBA](./vba-integration/)
 Khám phá Aspose.Tasks Java có tích hợp VBA. Hợp lý hóa quy trình làm việc của dự án và cải thiện việc theo dõi nhiệm vụ. Khám phá các hướng dẫn toàn diện để tích hợp VBA liền mạch!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

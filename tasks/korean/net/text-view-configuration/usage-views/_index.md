@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 사용량 보기 구성
 linktitle: Aspose.Tasks에서 사용량 보기 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 작업 사용량 보기를 구성하는 방법을 알아보세요. 세부 단계를 통해 프로젝트 시각화를 향상합니다. 지금 라이브러리를 다운로드하세요!
-type: docs
 weight: 17
 url: /ko/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 사용량 보기 구성
+
 ## 소개
 프로젝트 관리 기능을 향상시키려는 .NET 개발자라면 Aspose.Tasks는 Microsoft Project 파일을 손쉽게 조작할 수 있는 강력한 도구입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 사용 보기를 구성하는 데 중점을 둘 것입니다. 더 나은 프로젝트 시각화를 위한 세부 정보와 함께 렌더링 작업 사용량 보기에 대한 통찰력을 얻으려면 따라 가십시오.
 ## 전제조건
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  예, 무료 평가판을 살펴보세요[여기](https://releases.aspose.com/).
 ### Q: 지원이 필요하거나 질문이 있나요?
  지원 포럼 방문[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

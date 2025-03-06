@@ -3,10 +3,16 @@ title: مهمة البيانات الموزعة على الوقت في Aspose.Ta
 linktitle: مهمة البيانات الموزعة على الوقت في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks لـ Java وإدارة البيانات الموزعة على الوقت للمهمة الرئيسية. قم بتنزيل المكتبة، واستمتع بالإصدار التجريبي المجاني، وقم بتبسيط عملية تتبع مشروعك.
-type: docs
 weight: 34
 url: /ar/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مهمة البيانات الموزعة على الوقت في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التتبع الدقيق لبيانات المهمة الموزعة على الوقت أمرًا بالغ الأهمية لتنفيذ المشروع بكفاءة. يظهر Aspose.Tasks for Java كأداة قوية لتبسيط هذه العملية، مما يوفر ميزات ومرونة قوية. سيرشدك هذا البرنامج التعليمي خلال استخدام Aspose.Tasks لـ Java لإدارة بيانات المهمة الموزعة على الوقت بشكل فعال.
 ## المتطلبات الأساسية
@@ -104,3 +110,9 @@ System.out.println(td.get(0).getValue());
  ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Tasks لـ Java؟
  ج: يمكنك شراء Aspose.Tasks لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalize linhas de grade do projeto com Aspose.Tasks para .NET
 linktitle: Gerenciamento de linhas de grade em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como ajustar programaticamente as configurações da linha de grade em arquivos do Microsoft Project usando Aspose.Tasks para .NET, visualização de projetos e eficiência de gerenciamento.
-type: docs
 weight: 24
 url: /pt/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalize linhas de grade do projeto com Aspose.Tasks para .NET
+
 ## Introdução
 Gerenciar projetos com eficiência geralmente envolve visualizar cronogramas e tarefas com clareza. Um aspecto crucial da visualização do projeto são as linhas de grade, que auxiliam na organização e compreensão da estrutura do projeto. Aspose.Tasks for .NET fornece recursos robustos para manipular linhas de grade em arquivos do Microsoft Project programaticamente. Neste tutorial, exploraremos como trabalhar com linhas de grade usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -69,3 +75,9 @@ R: Absolutamente. Aspose.Tasks oferece amplas opções para personalizar linhas 
 R: Certamente. Com Aspose.Tasks, você pode incorporar lógica para ajustar dinamicamente as configurações da linha de grade com base nos dados do projeto ou critérios definidos pelo usuário.
 ### P: Onde posso encontrar mais recursos e suporte para Aspose.Tasks for .NET?
  R: Você pode explorar o[documentação](https://reference.aspose.com/tasks/net/) para guias completos, visite o[Fórum de suporte](https://forum.aspose.com/c/tasks/15) para obter assistência ou considere obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliação estendida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

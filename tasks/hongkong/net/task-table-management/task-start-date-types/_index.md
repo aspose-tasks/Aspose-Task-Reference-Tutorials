@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置任務開始日期類型
 linktitle: 在 Aspose.Tasks 中配置任務開始日期類型
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 以輕鬆配置任務開始日期類型。輕鬆優化專案管理。立即下載免費試用版！
-type: docs
 weight: 23
 url: /zh-hant/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置任務開始日期類型
+
 在專案管理的動態世界中，為任務設定正確的開始日期至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來輕鬆配置任務開始日期類型。在本教程中，我們將引導您完成整個過程，將其分解為簡單的步驟，以確保無縫整合。
 ## 先決條件
 在深入了解任務開始日期類型的配置之前，請確保滿足以下先決條件：
@@ -52,3 +58,9 @@ project.Save(DataDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
 參考文檔[這裡](https://reference.aspose.com/tasks/net/)深入了解 Aspose.Tasks for .NET。
 ### Q5：我可以取得 Aspose.Tasks 的臨時授權嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

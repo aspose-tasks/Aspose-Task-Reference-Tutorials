@@ -3,10 +3,16 @@ title: Radzenie sobie z wyjątkiem nieprawidłowego hasła w Aspose.Tasks
 linktitle: Radzenie sobie z wyjątkiem nieprawidłowego hasła w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać wyjątek InvalidPasswordException w Aspose.Tasks dla .NET. Dzięki temu przewodnikowi krok po kroku zapewnisz płynne wykonanie kodu.
-type: docs
 weight: 11
 url: /pl/net/advanced-concepts/invalid-password-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Radzenie sobie z wyjątkiem nieprawidłowego hasła w Aspose.Tasks
+
 ## Wstęp
 
  Podczas tworzenia oprogramowania często spotyka się wyjątki, a wiedza, jak skutecznie sobie z nimi poradzić, ma kluczowe znaczenie dla niezawodnego działania aplikacji. Podczas pracy z Aspose.Tasks dla .NET programiści mogą napotkać problemy`InvalidPasswordException` gdy mamy do czynienia z plikami projektu chronionymi hasłem. Ten samouczek poprowadzi Cię krok po kroku przez proces obsługi tego wyjątku, zapewniając płynne wykonanie kodu.
@@ -81,3 +87,9 @@ A3: Absolutnie! Aspose.Tasks oferuje solidne funkcje i doskonałą wydajność, 
 ### P5: Czy mogę wypróbować Aspose.Tasks przed zakupem?
 
  O5: Tak, możesz eksplorować Aspose.Tasks, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

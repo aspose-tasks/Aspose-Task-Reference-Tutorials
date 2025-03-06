@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Tahmini ve Kilometre Taşı Görevlerini Gerçekleştirin
 linktitle: Aspose.Tasks'ta Tahmini ve Kilometre Taşı Görevlerini Gerçekleştirin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile etkili proje yönetimini keşfedin. Tahmini ve kilometre taşı görevlerini zahmetsizce gerçekleştirin. Kütüphaneyi şimdi indirin!
-type: docs
 weight: 15
 url: /tr/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Tahmini ve Kilometre Taşı Görevlerini Gerçekleştirin
+
 ## giriiş
 Aspose.Tasks for Java, görevleri yönetmeyi, projeleri yönetmeyi ve proje verilerini zahmetsizce yönetmeyi kolaylaştıran güçlü bir kütüphanedir. Bu eğitimde proje yönetiminin çok önemli bir yönüne odaklanacağız; Aspose.Tasks for Java'yı kullanarak tahmini ve dönüm noktası görevlerini ele alacağız.
 ## Önkoşullar
@@ -60,3 +66,9 @@ Evet, sağlanan belgeleri takip ederek Aspose.Tasks'i Java projelerinize sorunsu
  Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nasıl geçici lisans alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

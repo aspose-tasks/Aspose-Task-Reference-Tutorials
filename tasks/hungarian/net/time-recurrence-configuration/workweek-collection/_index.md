@@ -3,10 +3,16 @@ title: Testreszabhatja a munkaheteket az Aspose.Tasks szolgáltatásban
 linktitle: Munkahetek gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan szabhatja testre a munkaheteket az Aspose.Tasks for .NET-ben. Lépésről lépésre szóló útmutató személyre szabott projektnaptárak létrehozásához. Letöltés most!
-type: docs
 weight: 17
 url: /hu/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja a munkaheteket az Aspose.Tasks szolgáltatásban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for .NET használatával egyéni munkahét létrehozásáról szóló oktatóanyagunkban! Ebben a lépésenkénti útmutatóban végigvezetjük a projektben szereplő naptár személyre szabott munkahét meghatározásának folyamatán. Az Aspose.Tasks egy hatékony könyvtár, amely képessé teszi a fejlesztőket arra, hogy hatékonyan dolgozzanak Microsoft Project dokumentumokkal .NET-alkalmazásaikban.
 ## Előfeltételek
@@ -82,3 +88,9 @@ Igen, az Aspose.Tasks támogatja a .NET Core-t.
 Természetesen az Aspose.Tasks lehetővé teszi a projektek különböző formátumokban történő elmentését, beleértve a Microsoft Projectet is.
 ### Hol kérhetek támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
  Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen támogatásért vagy segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中格式化 MS 專案簡報
 linktitle: 在 Aspose.Tasks 中設定專案簡報的格式
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 格式化 MS Project 簡報。輕鬆增強專案細節的可視化和溝通。
-type: docs
 weight: 10
 url: /zh-hant/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中格式化 MS 專案簡報
+
 ## 介紹
 
 您是否希望使用 Aspose.Tasks for .NET 來增強 MS Project 專案的示範？在本教學中，我們將引導您逐步完成格式化 MS Project 專案簡報的過程。最後，您將能夠創建精美的演示文稿，有效地傳達專案的詳細資訊。
@@ -90,3 +96,9 @@ project.Save(DataDir + "ResourceSheetView_out.pdf", options);
 
 ### Q5：我需要臨時許可證才能進行測試嗎？
 答：如果您需要臨時許可證用於測試或評估目的，您可以從[臨時許可證頁面](https://purchase.aspose.com/temporary-license/)在 Aspose 網站上。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

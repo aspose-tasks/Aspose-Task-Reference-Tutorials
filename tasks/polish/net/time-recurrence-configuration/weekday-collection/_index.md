@@ -3,10 +3,16 @@ title: Opanowanie dni powszednich w Aspose.Tasks
 linktitle: Zbiór dni powszednich w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Odkryj moc Aspose.Tasks dla .NET w łatwym zarządzaniu dniami powszednimi. Dostosuj dni robocze, usuń weekendy i z łatwością twórz specjalistyczne kalendarze.
-type: docs
 weight: 11
 url: /pl/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie dni powszednich w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka ułatwiająca efektywne manipulowanie danymi zarządzania projektami. W tym samouczku przyjrzymy się kolekcji dni tygodnia w Aspose.Tasks, umożliwiając dostosowywanie dni roboczych, usuwanie weekendów i tworzenie wyspecjalizowanych kalendarzy spełniających wymagania projektu. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik krok po kroku przeprowadzi Cię przez proces pracy z dniami powszednimi w Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -95,3 +101,9 @@ Odp.: Aspose.Tasks obsługuje przede wszystkim języki .NET, ale oferuje także 
  Odp.: Patrz[Aspose.Tasks dla dokumentacji .NET](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowe informacje.
 ### P: Jak uzyskać tymczasową licencję na Aspose.Tasks dla .NET?
  Odpowiedź: Możesz nabyć tymczasową licencję od[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

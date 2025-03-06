@@ -3,10 +3,16 @@ title: Obsługa przypisań zasobów projektu MS w Aspose.Tasks
 linktitle: Obsługa przypisań zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać przydziały zasobów MS Project za pomocą Aspose.Tasks dla .NET. Ten kompleksowy podręcznik zawiera szczegółowe wskazówki dla programistów.
-type: docs
 weight: 11
 url: /pl/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa przypisań zasobów projektu MS w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy, jak efektywnie obsługiwać przydziały zasobów programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programowe manipulowanie plikami Microsoft Project. Wykonując poniższe kroki, dowiesz się, jak efektywnie zarządzać przydziałami zasobów w aplikacjach .NET.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Absolutnie Aspose.Tasks oferuje szerokie opcje dostosowywania przydziału zasob�
 Tak, Aspose.Tasks umożliwia eksport danych projektu do różnych formatów, takich jak między innymi XML, PDF i HTML.
 ### Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
 Tak, Aspose zapewnia dedykowane wsparcie techniczne za pośrednictwem swojego forum i innych kanałów, aby pomóc użytkownikom w przypadku jakichkolwiek pytań lub problemów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

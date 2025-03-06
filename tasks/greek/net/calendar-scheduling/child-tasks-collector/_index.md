@@ -3,10 +3,16 @@ title: Συλλογή παιδικών εργασιών στο Aspose.Tasks
 linktitle: Συλλογή παιδικών εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να συλλέγετε αποτελεσματικά θυγατρικές εργασίες χρησιμοποιώντας το Aspose.Tasks για .NET. Βελτιώστε τη διαχείριση έργων στις εφαρμογές σας .NET.
-type: docs
 weight: 15
 url: /el/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλογή παιδικών εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Στον τομέα της διαχείρισης έργων, το Aspose.Tasks για .NET ξεχωρίζει ως μια ισχυρή λύση για τον αποτελεσματικό χειρισμό εργασιών και έργων. Αυτή η ισχυρή βιβλιοθήκη παρέχει στους προγραμματιστές τα εργαλεία που χρειάζονται για να διαχειρίζονται απρόσκοπτα εργασίες, έργα και οτιδήποτε ενδιάμεσο. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε μια συγκεκριμένη πτυχή του Aspose.Tasks: συλλογή παιδικών εργασιών.
@@ -96,3 +102,9 @@ A4: Ναι, οι χρήστες μπορούν να έχουν πρόσβαση 
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.Tasks για .NET πριν από την αγορά;
 
  Α5: Σίγουρα! Μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή από το[σελίδα έκδοσης](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ρυθμίσεις βάσης δεδομένων στο Aspose.Tasks
 linktitle: Ρυθμίσεις βάσης δεδομένων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εισάγετε έργα από μια βάση δεδομένων Primavera χρησιμοποιώντας το Aspose.Tasks για .NET. Λάβετε οδηγίες βήμα προς βήμα σε αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 29
 url: /el/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρυθμίσεις βάσης δεδομένων στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Το Aspose.Tasks για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην εισαγωγή έργων από μια βάση δεδομένων Primavera χρησιμοποιώντας το Aspose.Tasks.
@@ -100,3 +106,9 @@ A1: Ναι, μπορείτε να εισάγετε έργα από διάφορ�
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια χρήσης για να χρησιμοποιήσω το Aspose.Tasks για .NET;
 
  A5: Εάν θέλετε να αξιολογήσετε την πλήρη λειτουργικότητα της βιβλιοθήκης, μπορείτε να αποκτήσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

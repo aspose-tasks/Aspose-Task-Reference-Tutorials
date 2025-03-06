@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 진행 라인 처리
 linktitle: Aspose.Tasks에서 진행 라인 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일의 진행 라인을 조작하여 프로젝트 시각화 및 관리를 향상시키는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 진행 라인 처리
+
 ## 소개
 Microsoft Project(MS Project)는 프로젝트 관리를 위한 강력한 도구로, 사용자가 프로젝트의 다양한 측면을 추적할 수 있습니다. MS Project의 중요한 기능 중 하나는 진행 라인을 시각화하는 기능으로, 이해관계자가 프로젝트 상태와 궤적을 이해하는 데 도움이 됩니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks 라이브러리를 사용하여 MS 프로젝트에서 진행 라인을 처리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -96,3 +102,9 @@ A: 물론 Aspose.Tasks는 다른 .NET 라이브러리와 원활하게 통합되�
  A: 예, Aspose.Tasks 포럼에서 유용한 리소스를 찾고 도움을 구할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks는 평가 목적으로 임시 라이선스를 제공합니까?
  A: 예, 다음에서 평가용 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

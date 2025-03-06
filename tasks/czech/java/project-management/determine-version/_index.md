@@ -3,10 +3,16 @@ title: Zjistěte verzi MS Project pomocí Aspose.Tasks
 linktitle: Určete verzi projektu pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak určit verzi souborů MS Project programově pomocí Aspose.Tasks for Java. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 12
 url: /cs/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zjistěte verzi MS Project pomocí Aspose.Tasks
+
 ## Úvod
 Tento tutoriál vás provede pomocí Aspose.Tasks for Java k určení verze souboru MS Project krok za krokem. Aspose.Tasks je výkonné Java API, které umožňuje vývojářům manipulovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project.
 ## Předpoklady
@@ -60,3 +66,9 @@ Odpověď: Ano, pomocí Aspose.Tasks můžete manipulovat s daty projektu, uprav
 A: Ne, Aspose.Tasks funguje nezávisle a nevyžaduje instalaci Microsoft Project.
 ### Otázka: Je pro Aspose.Tasks k dispozici technická podpora?
  Odpověď: Ano, technickou podporu můžete získat na fóru Aspose.Tasks na adrese[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

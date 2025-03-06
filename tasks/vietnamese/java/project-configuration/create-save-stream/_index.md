@@ -3,10 +3,16 @@ title: Tạo và lưu dự án trống để phát trực tuyến trong Aspose.T
 linktitle: Tạo và lưu dự án trống để phát trực tuyến trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo và lưu các tệp MS Project trống vào một luồng trong Java bằng Aspose.Tasks, đơn giản hóa các tác vụ quản lý dự án một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và lưu dự án trống để phát trực tuyến trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks cho Java để tạo và lưu một MS Project trống vào một luồng. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project trên máy. Bằng cách làm theo hướng dẫn này, bạn sẽ tìm hiểu các bước cần thiết để tạo và lưu tệp MS Project trống bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Có, Aspose.Tasks hỗ trợ nhiều ngôn ngữ lập trình bao gồm .NET, C+
  Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?
  Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

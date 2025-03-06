@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクトのプロパティを効率的に�
 linktitle: Aspose.Tasks でのデフォルトのプロジェクト プロパティの管理
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用してデフォルトの MS Project プロパティを管理する方法を学びます。プロジェクト管理ワークフローを簡単に合理化します。
-type: docs
 weight: 11
 url: /ja/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクトのプロパティを効率的に管理する
+
 ## 導入
 Aspose.Tasks for Java を使用してプロジェクト管理プロセスを合理化したいと考えていますか? Microsoft Project ファイルのデフォルト プロパティを管理すると、効率が大幅に向上します。このチュートリアルでは、Aspose.Tasks を使用してデフォルトの MS Project プロパティを管理する方法を段階的に説明します。
 ## 前提条件
@@ -79,3 +85,9 @@ A3: はい、次のサイトでサポートとコミュニティ サポートを
  A4: もちろんです！から無料トライアルを利用できます。[Webサイト](https://releases.aspose.com/).
 ### Q5: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
  A5: 仮ライセンスは次のサイトから取得できます。[購入ページ](https://purchase.aspose.com/temporary-license/)テストと評価の目的で。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

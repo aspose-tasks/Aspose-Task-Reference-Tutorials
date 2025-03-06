@@ -3,10 +3,16 @@ title: MS Project Attributes Collection kezelése az Aspose.Tasks alkalmazásban
 linktitle: A kiterjesztett attribútumgyűjtemény kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az MS Project kiterjesztett attribútumait az Aspose.Tasks for .NET használatával. Zökkenőmentesen kezelheti a feladatattribútumokat lépésről lépésre.
-type: docs
 weight: 12
 url: /hu/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Attributes Collection kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Hatékonyan szeretné kezelni az MS Project kiterjesztett attribútumait az Aspose.Tasks for .NET használatával? Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton. Merüljünk el!
 ## Előfeltételek
@@ -105,3 +111,9 @@ V: Abszolút! Az Aspose.Tasks for .NET lehetővé teszi egyéni kiterjesztett at
 V: Igen, az Aspose.Tasks for .NET támogatja az MS Project fájlformátumokat a különböző verziókban.
 ### K: Elérhető az Aspose.Tasks próbaverziója .NET-hez?
  V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

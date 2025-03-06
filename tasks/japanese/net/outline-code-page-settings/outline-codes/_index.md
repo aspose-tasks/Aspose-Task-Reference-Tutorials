@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET でプロジェクト アウトライン コード�
 linktitle: Aspose.Tasks でのアウトライン コードの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project のアウトライン コードを管理する方法を学びます。プロジェクトの組織を簡単に簡素化します。
-type: docs
 weight: 10
 url: /ja/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET でプロジェクト アウトライン コードを管理する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project のアウトライン コードを管理する方法を説明します。アウトライン コードは、ユーザーが特定の基準に従ってタスクを分類および整理できるようにする Microsoft Project のカスタム フィールドです。 Aspose.Tasks は、これらのアウトライン コードをプログラム的に読み取り、操作するプロセスを簡素化します。
 ## 前提条件
@@ -71,3 +77,9 @@ A: はい、Aspose.Tasks の商用利用には有効なライセンスが必要�
 A: はい、Aspose.Tasks の無料試用版を Web サイトからダウンロードして、その機能を評価できます。
 ### Q: Aspose.Tasks のサポートはどこで入手できますか?
  A: 次のフォーラムにアクセスすると、Aspose.Tasks のサポートを受けることができます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).## 完全なソース コード
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

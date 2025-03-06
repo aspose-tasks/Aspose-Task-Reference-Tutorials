@@ -3,10 +3,16 @@ title: Αποθηκεύστε χωρίς κόπο τις Επιλογές Έργ
 linktitle: Επιλογές αποθήκευσης MPP για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε τις επιλογές του MS Project χωρίς κόπο με το Aspose.Tasks για .NET. Ενισχύστε την αποτελεσματικότητα της διαχείρισης του έργου σας.
-type: docs
 weight: 12
 url: /el/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθηκεύστε χωρίς κόπο τις Επιλογές Έργου MS για το Aspose.Tasks
+
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης .NET, η αποτελεσματική διαχείριση και χειρισμός αρχείων έργου είναι ζωτικής σημασίας για την επιτυχία. Το Aspose.Tasks for .NET προσφέρει μια ισχυρή λύση για τον εύκολο χειρισμό των αρχείων Microsoft Project (MPP). Μεταξύ των πολλών δυνατοτήτων του, το Aspose.Tasks επιτρέπει στους χρήστες να αποθηκεύουν απρόσκοπτα τις επιλογές του MS Project, βελτιστοποιώντας τη ροή εργασίας και διασφαλίζοντας την ακεραιότητα του έργου. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία αποθήκευσης των επιλογών του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ project.Save(stream, options);
  Μια προσωρινή άδεια σάς επιτρέπει να αξιολογήσετε το Aspose.Tasks για .NET χωρίς περιορισμούς. Μπορείτε να αποκτήσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω μια έκδοση με άδεια χρήσης του Aspose.Tasks για .NET;
  Μπορείτε να αγοράσετε μια έκδοση με άδεια χρήσης του Aspose.Tasks για .NET από[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

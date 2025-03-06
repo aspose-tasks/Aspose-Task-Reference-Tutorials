@@ -3,10 +3,16 @@ title: Správa předchůdců a následníků v Aspose.Tasks
 linktitle: Správa předchůdců a následníků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte efektivní správu úloh s Aspose.Tasks for Java. Snadno zpracujte předchůdce a následné úkoly ve svých projektech. Stáhněte si bezplatnou zkušební verzi nyní!
-type: docs
 weight: 15
 url: /cs/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa předchůdců a následníků v Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení je prvořadé efektivní řešení závislostí úkolů. Aspose.Tasks for Java nabízí robustní řešení pro správu předchůdců a následníků ve vašich projektech. Tento tutoriál vás provede procesem využití Aspose.Tasks k efektivní správě propojení úkolů, což vám umožní vytvořit závislosti mezi úkoly.
 ## Předpoklady
@@ -52,3 +58,9 @@ Ano, Aspose.Tasks podporuje různé formáty projektových souborů, včetně MP
  Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
 ### Mohu si stáhnout bezplatnou zkušební verzi Aspose.Tasks for Java?
  Ano, stáhněte si bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

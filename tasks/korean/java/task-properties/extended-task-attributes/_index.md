@@ -3,10 +3,16 @@ title: Aspose.Tasks의 확장된 작업 속성
 linktitle: Aspose.Tasks의 확장된 작업 속성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 확장된 작업 속성을 살펴보세요. 단계별 가이드, FAQ 및 지원. 지금 프로젝트 관리를 최적화하세요!
-type: docs
 weight: 16
 url: /ko/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 확장된 작업 속성
+
 ## 소개
 Aspose.Tasks for Java에서 확장된 작업 속성을 활용하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.Tasks는 Microsoft Project 문서를 원활하게 사용할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 확장된 작업 속성을 자세히 살펴보고 이를 활용하여 프로젝트 관리 기능을 향상시키는 방법을 보여줍니다.
 ## 전제조건
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Tasks 정식 버전은 어디에서 구입할 수 있나요?
  정식 버전을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

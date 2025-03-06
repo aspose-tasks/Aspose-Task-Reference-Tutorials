@@ -3,10 +3,16 @@ title: 读取 Aspose.Tasks 项目中的货币属性
 linktitle: 读取 Aspose.Tasks 项目中的货币属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 MS Project 文件中提取货币信息。提供分步指南。
-type: docs
 weight: 10
 url: /zh/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 读取 Aspose.Tasks 项目中的货币属性
+
 ## 介绍
 在本教程中，我们将学习如何利用 Aspose.Tasks for Java 从 Microsoft Project 文件读取货币属性。 Aspose.Tasks 是一个功能强大的 Java API，使开发人员能够操作 Microsoft Project 文档，而无需安装 Microsoft Project。通过执行下面概述的步骤，您将能够轻松提取与货币相关的信息。
 ## 先决条件
@@ -57,3 +63,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以免费试用 Aspose.Tasks[这里](https://releases.aspose.com/).
 ### 问：我可以在哪里寻求 Aspose.Tasks 的帮助或支持？
 答：您可以访问Aspose.Tasks论坛[这里](https://forum.aspose.com/c/tasks/15)如有任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

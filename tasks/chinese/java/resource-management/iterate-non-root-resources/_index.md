@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中迭代非根资源
 linktitle: 在 Aspose.Tasks 中迭代非根资源
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 高效地迭代 Microsoft Project 文件中的非根资源。增强您的开发流程。
-type: docs
 weight: 12
 url: /zh/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中迭代非根资源
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的库，为开发人员提供了高效操作 Microsoft Project 文件所需的工具。凭借其直观的界面和广泛的功能，Aspose.Tasks 简化了处理项目数据的过程，使开发人员能够专注于构建强大的应用程序。
 ## 先决条件
@@ -56,3 +62,9 @@ Aspose.Tasks 支持 Microsoft Project 2003-2019 文件格式，包括 MPP、MPT 
 当然，Aspose.Tasks 提供了广泛的 API，用于根据您的要求自定义项目数据字段。
 ### Aspose.Tasks 是否为开发人员提供支持和文档？
 是的，Aspose.Tasks 提供全面的文档和专门的支持论坛，以帮助开发人员解决遇到的任何疑问或问题。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

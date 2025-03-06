@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Microsoft Project Veritabanı Ayarları
 linktitle: Aspose.Tasks'ta Microsoft Project Veritabanı Ayarları
 second_title: Aspose.Tasks .NET API'si
 description: .NET uygulamalarına sorunsuz entegrasyon için Aspose.Tasks'ı kullanarak Microsoft Project veritabanı ayarlarını nasıl yapılandıracağınızı öğrenin.
-type: docs
 weight: 19
 url: /tr/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Microsoft Project Veritabanı Ayarları
+
 ## giriiş
 
 Aspose.Tasks'ı kullanarak .NET uygulamalarınızda Microsoft Project veritabanlarıyla çalışıyorsanız, proje verilerini sorunsuz bir şekilde içe aktarmak için gerekli ayarları yapılandırmanız gerekir. Bu eğitim size süreç boyunca adım adım rehberlik edecektir.
@@ -99,3 +105,9 @@ Cevap1: Evet, Aspose.Tasks, Microsoft Project veritabanlarının çeşitli sür�
 ### S5: Aspose.Tasks kullanımına ilişkin daha ayrıntılı belgeleri nerede bulabilirim?
 
  A5: Kapsamlı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/tasks/net/) Aspose.Tasks işlevlerine ilişkin ayrıntılı bilgiler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

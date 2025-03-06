@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET의 단계별 WBS 코드 구성
 linktitle: Aspose.Tasks에서 WBS 코드 마스크 구성
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET 프로젝트에서 단계별 WBS 코드 마스크 구성을 살펴보세요. 손쉽게 프로젝트 관리 기능을 향상하세요.
-type: docs
 weight: 14
 url: /ko/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET의 단계별 WBS 코드 구성
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 프로젝트 관리 데이터를 효율적으로 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 WBS(작업 분할 구조) 코드 마스크를 구성하는 프로세스를 살펴보겠습니다.
 ## 전제조건
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  예, 포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks는 어디서 구매할 수 있나요?
  Aspose.Tasks 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

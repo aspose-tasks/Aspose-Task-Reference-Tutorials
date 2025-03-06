@@ -3,10 +3,16 @@ title: Menguasai Urutan WBS dengan Aspose.Tasks untuk .NET
 linktitle: Mendefinisikan Urutan WBS di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Berdayakan manajemen proyek Anda dengan Aspose.Tasks untuk .NET – tentukan urutan WBS dengan lancar dan tingkatkan efisiensi dengan mudah. #Aspose #Tugas #MS Project
-type: docs
 weight: 16
 url: /id/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Urutan WBS dengan Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Apakah Anda sedang mengerjakan aplikasi manajemen proyek dan memerlukan alat yang tangguh untuk menangani rangkaian Struktur Perincian Kerja (WBS)? Kunjungi Aspose.Tasks untuk .NET, perpustakaan canggih yang menyederhanakan tugas manajemen proyek. Dalam tutorial ini, kami akan memandu Anda melalui proses mendefinisikan urutan WBS langkah demi langkah.
 ## Prasyarat
@@ -74,3 +80,9 @@ Sangat! Aspose.Tasks memberikan fleksibilitas dalam menentukan kode WBS sesuai d
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk berhubungan dengan masyarakat dan mencari bantuan.
 ### Apakah lisensi sementara tersedia?
  Ya, Anda bisa mendapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

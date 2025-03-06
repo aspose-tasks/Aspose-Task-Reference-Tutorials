@@ -3,10 +3,16 @@ title: Master MS Project Outline Masks with Aspose.Tasks
 linktitle: Vázlatos maszkok gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti az MS Project gyűjteményvázlat-maszkjait az Aspose.Tasks for .NET használatával. Növelje a termelékenységet ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 15
 url: /hu/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Outline Masks with Aspose.Tasks
+
 ## Bevezetés
 Ki szeretné használni a Microsoft Project körvonalmaszkjainak erejét az Aspose.Tasks for .NET segítségével? Jó helyre jöttél! Ebben az átfogó oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy alaposan megértse, hogyan lehet hatékonyan kezelni a körvonalmaszkokat a projektekben. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató felvértezi a munkafolyamat optimalizálásához szükséges ismeretekkel és készségekkel.
 ## Előfeltételek
@@ -109,3 +115,9 @@ V: Abszolút! A vázlatmaszkokat testreszabhatja a hosszuk, szintjük, elválasz
 V: Igen, az Aspose.Tasks for .NET átfogó dokumentációt és dedikált támogatást kínál webhelyükön és[fórumok](https://forum.aspose.com/c/tasks/15).
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
  V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez az ő webhelyükről[weboldal](https://releases.aspose.com/tasks/net/). hogy vásárlás előtt felfedezze a szolgáltatásait és funkcióit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

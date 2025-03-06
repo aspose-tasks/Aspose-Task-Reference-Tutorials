@@ -3,10 +3,16 @@ title: Padroneggia i modelli di ricorrenza annuale in Aspose.Tasks per .NET
 linktitle: Configurazione di modelli di ricorrenza annuale in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a configurare modelli di ricorrenza annuale in Aspose.Tasks per .NET. Migliora le tue capacità di gestione dei progetti con questa guida passo passo.
-type: docs
 weight: 18
 url: /it/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggia i modelli di ricorrenza annuale in Aspose.Tasks per .NET
+
 ## introduzione
 Nel dinamico mondo della gestione dei progetti, gestire in modo efficiente le attività ricorrenti è un aspetto fondamentale. Aspose.Tasks per .NET fornisce una potente soluzione per configurare modelli di ricorrenza annuale, consentendo di semplificare la pianificazione e la gestione dei progetti. In questa guida passo passo, esploreremo come impostare modelli di ricorrenza annuale utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -69,3 +75,9 @@ In questo tutorial, abbiamo esplorato il processo di configurazione dei modelli 
  Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il sostegno e l'assistenza della comunità.
 ### Posso provare Aspose.Tasks gratuitamente prima dell'acquisto?
  Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

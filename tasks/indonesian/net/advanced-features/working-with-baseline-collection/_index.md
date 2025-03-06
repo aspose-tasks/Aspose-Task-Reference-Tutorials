@@ -3,10 +3,16 @@ title: Bekerja dengan Koleksi Baseline di Aspose.Tasks
 linktitle: Bekerja dengan Koleksi Baseline di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola garis dasar di Aspose.Tasks untuk .NET secara efisien. Ikuti tutorial komprehensif kami untuk panduan langkah demi langkah.
-type: docs
 weight: 20
 url: /id/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Koleksi Baseline di Aspose.Tasks
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project di aplikasi .NET mereka dengan lancar. Di antara banyak fiturnya, ini memberikan dukungan kuat untuk mengelola baseline dalam proyek. Garis dasar sangat penting untuk manajemen proyek karena memungkinkan Anda membandingkan rencana proyek awal dengan status saat ini, sehingga memungkinkan pelacakan dan analisis kemajuan proyek yang lebih baik.
@@ -116,3 +122,9 @@ A4: Ya, Aspose.Tasks memberikan dukungan untuk integrasi dengan platform cloud p
 ### Q5: Apakah ada forum komunitas bagi pengguna Aspose.Tasks untuk mencari bantuan dan berbagi pengetahuan?
 
  A5: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk terlibat dengan masyarakat dan mendapatkan bantuan dari para ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

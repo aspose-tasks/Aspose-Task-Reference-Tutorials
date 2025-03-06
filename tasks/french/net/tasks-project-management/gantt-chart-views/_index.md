@@ -3,10 +3,16 @@ title: Maîtriser les vues de diagramme de Gantt dans Aspose.Tasks
 linktitle: Vues de diagramme de Gantt dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment personnaliser les vues de diagramme de Gantt dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Guide étape par étape pour une gestion de projet efficace.
-type: docs
 weight: 22
 url: /fr/net/tasks-project-management/gantt-chart-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les vues de diagramme de Gantt dans Aspose.Tasks
+
 ## Introduction
 Les diagrammes de Gantt sont des outils puissants utilisés dans la gestion de projet pour visualiser les tâches, les délais et les dépendances. Aspose.Tasks pour .NET offre des fonctionnalités robustes pour travailler avec des vues de diagramme de Gantt dans les fichiers Microsoft Project. Dans ce didacticiel, nous verrons comment utiliser Aspose.Tasks pour manipuler les vues de diagramme de Gantt, personnaliser leur apparence et les enregistrer sous forme de fichiers PDF.
 ## Conditions préalables
@@ -109,3 +115,9 @@ R : Absolument, Aspose.Tasks prend en charge l'exportation de vues de diagramme 
 R : Oui, Aspose.Tasks fournit des algorithmes de planification avancés pour gérer efficacement les calendriers de projets complexes.
 ### Q : Existe-t-il un forum communautaire où je peux demander de l'aide ou partager mes expériences avec Aspose.Tasks ?
  R : Oui, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour interagir avec d'autres utilisateurs, poser des questions et trouver des solutions à vos requêtes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zpracování rozšířených atributů v projektech Aspose.Tasks
 linktitle: Zpracování rozšířených atributů v projektech Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně zacházet s rozšířenými atributy v projektech Aspose.Tasks pomocí Javy. Návod krok za krokem pro efektivní řízení projektů.
-type: docs
 weight: 13
 url: /cs/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování rozšířených atributů v projektech Aspose.Tasks
+
 ## Úvod
 Správa rozšířených atributů v projektovém řízení je zásadní pro přizpůsobení a vylepšení projektových dat. Aspose.Tasks for Java poskytuje robustní nástroje pro efektivní zpracování rozšířených atributů v souborech MS Project. Tento tutoriál vás provede procesem krok za krokem a zajistí, že důkladně pochopíte každý koncept.
 ## Předpoklady
@@ -86,3 +92,9 @@ Odpověď: Aspose.Tasks vám samozřejmě umožňuje definovat vlastní typy roz
  Odpověď: Komplexní dokumentaci najdete na webu Aspose.Tasks[dokumentace](https://reference.aspose.com/tasks/java/).
 ### Otázka: Je pro uživatele Aspose.Tasks k dispozici technická podpora?
  Odpověď: Ano, k technické podpoře můžete přistupovat prostřednictvím fóra Aspose.Tasks[webová stránka](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

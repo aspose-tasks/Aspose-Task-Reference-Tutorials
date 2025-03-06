@@ -3,10 +3,16 @@ title: Erőforrás-hozzárendelések gyűjteménye az Aspose.Tasks-ban
 linktitle: Erőforrás-hozzárendelések gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti az erőforrás-hozzárendeléseket a Microsoft Projectben az Aspose.Tasks for .NET használatával. Lépésről lépésre bemutató oktatóprogram kódpéldákkal.
-type: docs
 weight: 12
 url: /hu/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erőforrás-hozzárendelések gyűjteménye az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban a Microsoft Project erőforrás-hozzárendeléseinek kezeléséről az Aspose.Tasks for .NET használatával. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a folyamatban, biztosítva, hogy alaposan megértse az erőforrás-hozzárendelések hatékony kezelését. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató végigvezeti Önt mindenen, amit tudnia kell.
 ## Előfeltételek
@@ -94,3 +100,9 @@ V: Igen, az Aspose.Tasks for .NET támogatja a Microsoft Project fájlok külön
  V: Igen, ideiglenes licencek állnak rendelkezésre értékelési célokra. Kaphatsz egyet innen[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatok teljes licencet az Aspose.Tasks for .NET-hez?
  V: Teljes licencet vásárolhat az Aspose online áruházból[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

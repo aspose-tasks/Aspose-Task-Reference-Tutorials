@@ -3,10 +3,16 @@ title: Параметры сохранения Aspose.Tasks
 linktitle: Параметры сохранения Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Сохраняйте, конвертируйте и управляйте файлами MS Project с помощью Aspose.Tasks для .NET. Изучите пошаговые руководства по HTML, изображениям, PDF-файлам, Primavera, шаблонам и многому другому.
-type: docs
 weight: 20
 url: /ru/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры сохранения Aspose.Tasks
+
 
 ## Введение
 
@@ -53,3 +59,9 @@ url: /ru/net/saving-options/
 Узнайте, как использовать Aspose.Tasks для .NET для легкого создания SVG-представлений файлов Microsoft Project для улучшенной визуализации проекта.
 ### [Преобразование параметров MSP в XPS с помощью Aspose.Tasks](./xps-options/)
 Узнайте, как конвертировать файлы Microsoft Project в формат XPS с помощью Aspose.Tasks для .NET. Простая интеграция, надежная функциональность.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

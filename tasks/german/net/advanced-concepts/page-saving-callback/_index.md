@@ -3,10 +3,16 @@ title: Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
 linktitle: Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie einen Rückruf zum Speichern von Seiten in Aspose.Tasks für .NET implementieren und so die benutzerdefinierte Verarbeitung mehrseitiger Dokumentausgabeströme ermöglichen.
-type: docs
 weight: 12
 url: /de/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie einen Rückruf zum Speichern von Seiten in Aspose.Tasks für .NET implementieren. Mit dieser Funktion können wir ein mehrseitiges Dokument in vom Benutzer bereitgestellten Streams speichern und bieten so Flexibilität und Anpassung bei der Ausgabeverarbeitung.
@@ -121,3 +127,9 @@ A4: Sie können Fehlerbehandlungsmechanismen innerhalb der Rückrufmethoden impl
 ### F5: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Tasks?
 
  A5: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) Für Unterstützung greifen Sie auf die Dokumentation zu[Hier](https://reference.aspose.com/tasks/net/) , oder erkunden Sie zusätzliche Funktionen und Lizenzoptionen auf der[Aspose.Tasks-Website](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

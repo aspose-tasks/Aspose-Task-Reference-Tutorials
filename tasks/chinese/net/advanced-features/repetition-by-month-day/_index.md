@@ -3,10 +3,16 @@ title: Aspose.Tasks 中按月日重复
 linktitle: Aspose.Tasks 中按月日重复
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 管理 .NET 项目中的重复任务。按月日处理重复的分步指南。
-type: docs
 weight: 25
 url: /zh/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中按月日重复
+
 ## 介绍
 
 在.NET 开发领域，Aspose.Tasks 是管理项目任务和进度的强大工具。它提供了大量的功能来简化项目管理工作流程，包括处理重复任务。按月日重复是项目调度中的常见要求，Aspose.Tasks 为这种情况提供了强大的支持。
@@ -105,3 +111,9 @@ A3：当然，Aspose.Tasks 为项目管理提供了广泛的功能，包括任�
 ### Q5：如果我遇到问题或有疑问，可以到哪里寻求帮助？
 
  A5：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区或 Aspose 团队的支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

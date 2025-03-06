@@ -3,10 +3,16 @@ title: Správa vlastní kolekce vlastností projektu v Aspose.Tasks
 linktitle: Správa vlastní kolekce vlastností projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat vlastní vlastnosti projektu v Aspose.Tasks pro .NET, a zlepšit tak své zkušenosti s řízením projektů.
-type: docs
 weight: 24
 url: /cs/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vlastní kolekce vlastností projektu v Aspose.Tasks
+
 ## Úvod
 
 Jste připraveni zlepšit své zkušenosti s řízením projektů pomocí Aspose.Tasks pro .NET? Správa vlastních vlastností projektu je zásadním aspektem řízení projektu, který vám umožňuje přidávat specifická metadata přizpůsobená požadavkům vašeho projektu. V tomto tutoriálu se ponoříme do toho, jak můžete efektivně pracovat s vlastními kolekcemi projektových vlastností pomocí Aspose.Tasks for .NET.
@@ -131,3 +137,9 @@ A4: Ano, můžete získat dočasnou licenci z webu Aspose pro účely hodnocení
 ### Q5: Kde najdu podporu nebo další pomoc týkající se Aspose.Tasks pro .NET?
 
  A5: Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

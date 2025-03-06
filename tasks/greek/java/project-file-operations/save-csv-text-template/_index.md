@@ -3,10 +3,16 @@ title: Αποθήκευση ως CSV, κείμενο και πρότυπο στ�
 linktitle: Αποθήκευση ως CSV, κείμενο και πρότυπο στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να αποθηκεύετε αρχεία Microsoft Project σε μορφές CSV, Text και Template χρησιμοποιώντας το Aspose.Tasks για Java.
-type: docs
 weight: 16
 url: /el/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση ως CSV, κείμενο και πρότυπο στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο αποθήκευσης αρχείων έργου σε διάφορες μορφές όπως CSV, Text και Template χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ project.saveAsTemplate(templateName, options);
  Α: Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/), επιτρέποντάς σας να αξιολογήσετε πλήρως τις δυνατότητες της βιβλιοθήκης.
 ### Ε: Είναι το Aspose.Tasks για Java συμβατό με διαφορετικά λειτουργικά συστήματα;
 Α: Ναι, το Aspose.Tasks για Java είναι συμβατό με διάφορα λειτουργικά συστήματα, συμπεριλαμβανομένων των Windows, macOS και Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

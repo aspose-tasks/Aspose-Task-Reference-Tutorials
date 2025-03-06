@@ -3,10 +3,16 @@ title: استرداد معلومات ملف مشروع MS في Aspose.Tasks
 linktitle: استرداد معلومات ملف المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استرداد معلومات ملف Microsoft Project باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 19
 url: /ar/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد معلومات ملف مشروع MS في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول استرداد معلومات ملف Microsoft Project باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تسمح لمطوري .NET بالعمل مع ملفات Microsoft Project برمجياً، مما يتيح مهام مثل القراءة والكتابة ومعالجة بيانات المشروع.
 ## المتطلبات الأساسية
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  يمكنك الحصول على الدعم لـ Aspose.Tasks من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).## إكمال كود المصدر
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

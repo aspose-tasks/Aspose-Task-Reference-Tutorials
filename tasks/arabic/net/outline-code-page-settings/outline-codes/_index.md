@@ -3,10 +3,16 @@ title: إدارة رموز المخطط التفصيلي للمشروع في Asp
 linktitle: إدارة رموز المخطط التفصيلي في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعلم كيفية إدارة رموز المخطط التفصيلي لـ MS Project باستخدام Aspose.Tasks لـ .NET. تبسيط تنظيم المشروع دون عناء.
-type: docs
 weight: 10
 url: /ar/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة رموز المخطط التفصيلي للمشروع في Aspose.Tasks لـ .NET
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إدارة أكواد المخطط التفصيلي لـ Microsoft Project باستخدام Aspose.Tasks لـ .NET. رموز المخطط التفصيلي هي حقول مخصصة في Microsoft Project تسمح للمستخدمين بتصنيف المهام وتنظيمها وفقًا لمعايير محددة. يعمل Aspose.Tasks على تبسيط عملية قراءة رموز المخطط التفصيلي هذه ومعالجتها برمجيًا.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks من الموقع الإلكتروني لتقييم مميزاته وإمكانياته.
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  ج: يمكنك الحصول على الدعم لـ Aspose.Tasks من خلال زيارة المنتدى على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).## إكمال كود المصدر
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ενημερώστε τα δεδομένα εργασιών σε μορφ
 linktitle: Ενημερώστε τα δεδομένα εργασιών σε μορφή MPP στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ενημερώνετε τα δεδομένα εργασιών σε μορφή MPP χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 35
 url: /el/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενημερώστε τα δεδομένα εργασιών σε μορφή MPP στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την ενημέρωση των δεδομένων εργασιών σε μορφή MPP χρησιμοποιώντας το Aspose.Tasks για Java. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, διασφαλίζοντας ότι καταλαβαίνετε κάθε βήμα με σαφήνεια. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για εργασία με αρχεία Microsoft Project και μέχρι το τέλος αυτού του οδηγού, θα μπορείτε να ενημερώνετε αποτελεσματικά τα δεδομένα εργασιών σε μορφή MPP.
 ## Προαπαιτούμενα
@@ -93,3 +99,9 @@ project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
  Α: Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Προσφέρετε προσωρινές άδειες για δοκιμαστικούς σκοπούς;
  Α: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التقاويم
 linktitle: التقاويم
 second_title: Aspose.Tasks جافا API
 description: عزز مهاراتك في إدارة مشروعات Java من خلال البرامج التعليمية لـ Aspose.Tasks. إدارة التقويم الرئيسية وإنشاء أيام الأسبوع وتحديدها وتحديث التقويمات بسهولة.
-type: docs
 weight: 21
 url: /ar/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التقاويم
+
 ## مقدمة
 
 هل أنت مطور Java وتتطلع إلى تبسيط مهارات إدارة المشروع لديك؟ انغمس في دروس Aspose.Tasks التعليمية الشاملة التي تغطي الجوانب المختلفة لإدارة تقويمات MS Project. سواء كنت مطورًا متمرسًا أو بدأت للتو، توفر لك هذه البرامج التعليمية إرشادات خطوة بخطوة لتعزيز قدراتك.
@@ -64,3 +70,9 @@ url: /ar/java/calendars/
 تعرف على كيفية قراءة أسابيع العمل من تقويم MS Project باستخدام Aspose.Tasks لـ Java. احصل على تعليمات خطوة بخطوة في هذا البرنامج التعليمي الشامل.
 ### [قم بتحديث تقويمات مشروع MS إلى تنسيق MPP باستخدام Aspose.Tasks](./update-to-mpp/)
 تعرف على كيفية تحديث تقويمات MS Project إلى تنسيق MPP بسهولة باستخدام Aspose.Tasks لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

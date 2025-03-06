@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 프리젠테이션 형식을 지정하
 linktitle: Aspose.Tasks에서 프로젝트 프레젠테이션 형식 지정
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 프레젠테이션의 형식을 지정하는 방법을 알아보세요. 프로젝트 세부 사항의 시각화 및 커뮤니케이션을 손쉽게 향상할 수 있습니다.
-type: docs
 weight: 10
 url: /ko/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 프리젠테이션 형식을 지정하세요.
+
 ## 소개
 
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 프로젝트의 프레젠테이션을 향상시키고 싶으십니까? 이 튜토리얼에서는 MS Project 프로젝트 프레젠테이션의 형식을 지정하는 과정을 단계별로 안내합니다. 결국에는 프로젝트 세부 사항을 효과적으로 전달하는 세련된 프레젠테이션을 만들 수 있게 됩니다.
@@ -90,3 +96,9 @@ A: 물론입니다. Aspose.Tasks는 최신 버전의 MS Project와의 호환성�
 
 ### Q5: 테스트 목적으로 임시 라이센스가 필요합니까?
  A: 테스트 또는 평가 목적으로 임시 라이선스가 필요한 경우 다음에서 얻을 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹 사이트에서.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Master MS Project Sazby s Aspose.Tasks
 linktitle: Sběr sazeb v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak spravovat sazby v souborech MS Project pomocí Aspose.Tasks pro .NET. Návod krok za krokem pro efektivní správu zdrojů.
-type: docs
 weight: 11
 url: /cs/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Sazby s Aspose.Tasks
+
 ## Úvod
 Vítejte v našem tutoriálu o správě sazeb v MS Project pomocí Aspose.Tasks pro .NET! V této příručce vás provedeme procesem práce se sazbami ve vašich souborech MS Project pomocí Aspose.Tasks. Ať už jste zkušený vývojář nebo s vývojem .NET teprve začínáte, tento tutoriál vám poskytne podrobné pokyny, jak efektivně zacházet s cenami ve vašich projektech.
 ## Předpoklady
@@ -110,3 +116,9 @@ Odpověď: Aspose.Tasks for .NET samozřejmě podporuje práci se soubory MS Pro
 Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks for .NET a vyhodnotit její funkce a kompatibilitu s vašimi požadavky.
 ### Otázka: Jak si mohu zakoupit licenci pro Aspose.Tasks pro .NET?
  A: Můžete si zakoupit licenci pro Aspose.Tasks pro .NET z[webová stránka](https://purchase.aspose.com/temporary-license/)která poskytuje flexibilní možnosti licencování podle vašich potřeb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

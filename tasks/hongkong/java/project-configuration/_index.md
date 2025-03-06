@@ -3,10 +3,16 @@ title: 專案配置
 linktitle: 專案配置
 second_title: Aspose.Tasks Java API
 description: 透過我們全面的教學探索 Aspose.Tasks for Java 的強大功能。配置甘特圖、建立 MS 專案文件並簡化專案管理。
-type: docs
 weight: 26
 url: /zh-hant/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 專案配置
+
 ## 介紹
 
 您準備好釋放 Aspose.Tasks for Java 的全部潛力了嗎？深入研究我們的詳細教程，使用這個強大的工具掌握專案配置。無論您是經驗豐富的開發人員還是初學者，我們的逐步指南都將幫助您無縫地利用 Aspose.Tasks 的功能。
@@ -45,3 +51,9 @@ url: /zh-hant/java/project-configuration/
 了解如何使用 Aspose.Tasks for Java 建立和儲存空的 MS Project 檔案 (MPP)。毫不費力地簡化專案管理任務。
 ### [建立並保存空項目以在 Aspose.Tasks 中進行串流傳輸](./create-save-stream/)
 了解如何使用 Aspose.Tasks 建立空的 MS Project 檔案並將其儲存到 Java 流程中，從而輕鬆簡化專案管理任務。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering MS Project Manipulation with Aspose.Tasks for Java
 linktitle: Write Project Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to efficiently write MS Project information using Aspose.Tasks for Java. Step-by-step guide for Java developers.
-type: docs
 weight: 12
 url: /java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project Manipulation with Aspose.Tasks for Java
+
 ## Introduction
 In this tutorial, we'll delve into utilizing Aspose.Tasks for Java, a powerful library for manipulating Microsoft Project files programmatically. We'll focus on a fundamental task: writing MS Project information using Aspose.Tasks. Whether you're a seasoned developer or just starting your journey in Java programming, this guide will walk you through the process step by step.
 ## Prerequisites
@@ -61,3 +67,10 @@ A: While the trial version allows you to explore the library's capabilities, it 
 A: You can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q: Can I purchase a temporary license for Aspose.Tasks for Java?
 A: Yes, temporary licenses are available for short-term usage. You can obtain one from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

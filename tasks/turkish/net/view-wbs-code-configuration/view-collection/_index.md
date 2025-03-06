@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET ile Zahmetsiz MS Proje Görünümleri Yönetimi
 linktitle: Aspose.Tasks'ta Görünümlerin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i keşfedin ve MS Proje Görünümlerini zahmetsizce yönetme sanatında ustalaşın. Sorunsuz bir proje yönetimi deneyimi için hemen indirin.
-type: docs
 weight: 11
 url: /tr/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET ile Zahmetsiz MS Proje Görünümleri Yönetimi
+
 ## giriiş
 Geliştiricilerin .NET uygulamalarında Microsoft Proje Görünümlerini verimli bir şekilde yönetmelerine olanak tanıyan güçlü bir kitaplık olan Aspose.Tasks for .NET dünyasına hoş geldiniz. Bu eğitimde, Aspose.Tasks'ı kullanarak MS Proje Görünümlerini yönetmenin temellerini inceleyeceğiz ve proje yönetimi yeteneklerinizi geliştirmek için size adım adım bir kılavuz sunacağız.
 ## Önkoşullar
@@ -95,3 +101,9 @@ Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.asp
  Aspose.Tasks topluluğuyla etkileşime geçin[forum](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
 ### Aspose.Tasks için geçici lisanslar mevcut mu?
  Evet, geçici lisansları keşfedin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

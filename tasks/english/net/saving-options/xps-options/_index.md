@@ -3,10 +3,16 @@ title: Convert MSP to XPS Options with Aspose.Tasks
 linktitle: XPS Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to convert Microsoft Project files to XPS format using Aspose.Tasks for .NET. Easy integration, robust functionality.
-type: docs
 weight: 21
 url: /net/saving-options/xps-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert MSP to XPS Options with Aspose.Tasks
+
 ## Introduction
 Microsoft Project (MSP) is a widely-used tool for project management, facilitating the planning, tracking, and reporting of project activities. Aspose.Tasks for .NET offers robust functionality to manipulate MSP files programmatically, empowering developers to automate various tasks related to project management. In this tutorial, we'll delve into leveraging Aspose.Tasks for .NET to generate XPS files from MSP documents, exploring the necessary steps and considerations.
 ## Prerequisites
@@ -60,3 +66,10 @@ A: Yes, Aspose.Tasks for .NET supports various output formats like PDF, HTML, PN
 A: Absolutely, Aspose.Tasks for .NET provides extensive options to customize rendering parameters according to your requirements.
 ### Q: Where can I find additional support or assistance for Aspose.Tasks for .NET?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any queries or assistance regarding Aspose.Tasks for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

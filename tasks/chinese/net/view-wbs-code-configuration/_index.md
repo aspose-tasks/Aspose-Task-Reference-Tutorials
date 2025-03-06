@@ -3,10 +3,16 @@ title: Aspose.Tasks视图和WBS代码配置
 linktitle: Aspose.Tasks视图和WBS代码配置
 second_title: Aspose.Tasks .NET API
 description: 掌握 .NET 视图和 WBS 代码的 Aspose.Tasks。通过我们的分步教程自定义项目管理。立即下载以实现无缝项目可视化。
-type: docs
 weight: 32
 url: /zh/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks视图和WBS代码配置
+
 
 ## 介绍
 
@@ -56,3 +62,9 @@ Aspose.Tasks for .NET 能够实现高效的项目管理。通过我们的综合�
 使用 Aspose.Tasks for .NET 增强项目管理。在这个综合教程中学习如何轻松创建、管理和传输 WBS 代码掩码。
 ### [在 Aspose.Tasks 中定义 WBS 序列](./wbs-sequences/)
 使用 Aspose.Tasks for .NET 增强您的项目管理能力 – 无缝定义 WBS 序列并轻松提高效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

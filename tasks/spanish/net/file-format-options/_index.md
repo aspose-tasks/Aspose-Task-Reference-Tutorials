@@ -3,10 +3,16 @@ title: Opciones de formato de archivo de Aspose.Tasks
 linktitle: Opciones de formato de archivo de Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore las opciones de formato de archivo de Aspose.Tasks y domine la configuración de las opciones XAML y XLSX en Aspose.Tasks .NET. Mejore la gestión de proyectos con consejos de personalización.
-type: docs
 weight: 34
 url: /es/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opciones de formato de archivo de Aspose.Tasks
+
 
 ## Introducción
 
@@ -27,3 +33,9 @@ En conclusión, nuestros tutoriales de opciones de formato de archivo Aspose.Tas
 Aprenda a configurar las opciones XAML de MS Project en Aspose.Tasks para .NET. Mejore la flexibilidad y personalización de la gestión de proyectos con orientación paso a paso.
 ### [Configuración de opciones XLSX en Aspose.Tasks](./configuring-xlsx-options/)
 Aprenda a configurar las opciones de MS Project XLSX en Aspose.Tasks para .NET. Personalice columnas, codificación y más sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

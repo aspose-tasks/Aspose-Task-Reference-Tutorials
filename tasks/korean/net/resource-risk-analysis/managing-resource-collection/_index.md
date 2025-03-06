@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 프로젝트 자원 수집 관리
 linktitle: Aspose.Tasks에서 리소스 수집 관리
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks API를 사용하여 .NET에서 Microsoft Project 리소스 컬렉션을 효율적으로 관리하는 방법을 알아보세요. 생산성과 유연성을 높입니다.
-type: docs
 weight: 13
 url: /ko/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 프로젝트 자원 수집 관리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스 컬렉션을 효과적으로 관리하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 프로그래밍 방식으로 Microsoft Project 파일을 사용하여 프로젝트 데이터를 원활하게 통합하고 조작할 수 있도록 하는 강력한 API입니다.
 ## 전제조건
@@ -99,3 +105,9 @@ A: 예, Aspose.Tasks는 멀티 스레딩을 지원하므로 프로젝트 데이�
 ### Q: Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
 
  A: 예, Aspose.Tasks 사용자는 포럼을 통해 기술 지원에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Générer des données chronologiques dans Aspose.Tasks
 linktitle: Générer des données chronologiques pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment générer des données chronologiques pour les affectations de ressources à l'aide d'Aspose.Tasks pour Java. Améliorez l’efficacité de la gestion de projet avec ce guide complet.
-type: docs
 weight: 24
 url: /fr/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des données chronologiques dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous allons parcourir le processus de génération de données chronologiques pour les affectations de ressources à l'aide d'Aspose.Tasks pour Java. Les données chronologiques fournissent des informations précieuses sur la façon dont les ressources sont allouées au fil du temps au sein d'un projet, aidant ainsi les chefs de projet à prendre des décisions éclairées.
 ## Conditions préalables
@@ -124,3 +130,9 @@ Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet, notammen
 Oui, Aspose.Tasks permet aux utilisateurs de définir des contours de travail personnalisés en fonction des besoins spécifiques de leur projet.
 ### Existe-t-il un forum communautaire où je peux obtenir de l'aide avec Aspose.Tasks ?
  Oui, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 項目屬性
 linktitle: 項目屬性
 second_title: Aspose.Tasks Java API
 description: 透過我們的專案屬性教學釋放 Aspose.Tasks for Java 的潛力。輕鬆擷取、利用和操作 Microsoft Project 資訊。
-type: docs
 weight: 24
 url: /zh-hant/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 項目屬性
+
 ## 介紹
 
 您準備好提升您的 Aspose.Tasks for Java 技能了嗎？我們的專案屬性教學使您能夠充分利用這個強大的程式庫的潛力，重點放在三個關鍵方面：讀取元屬性、提取 Microsoft Project 資訊和掌握 MS Project 操作。深入研究這些教程以增強您的 Java 開發和專案管理能力。
@@ -35,3 +41,9 @@ url: /zh-hant/java/project-properties/
 了解如何使用 Aspose.Tasks for Java 擷取 Microsoft Project 資訊。輕鬆增強 Java 應用程式中的專案管理。
 ### [使用 Aspose.Tasks for Java 掌握 MS 專案操作](./write-project-info/)
 了解如何使用 Aspose.Tasks for Java 有效地撰寫 MS Project 資訊。 Java 開發人員的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

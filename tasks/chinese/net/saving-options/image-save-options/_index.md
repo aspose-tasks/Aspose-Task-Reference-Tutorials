@@ -3,10 +3,16 @@ title: Aspose.Tasks 的图像保存 MS 项目选项
 linktitle: Aspose.Tasks 的图像保存选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 将 MS Project 选项保存为图像。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 11
 url: /zh/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 的图像保存 MS 项目选项
+
 
 ## 介绍
 在软件开发领域，有效地处理项目任务对于成功的项目管理至关重要。 Aspose.Tasks for .NET 为使用 Microsoft Project 文件的开发人员提供了强大的解决方案，使他们能够在 .NET 应用程序中无缝地操作、转换和管理项目任务。
@@ -76,3 +82,9 @@ Aspose.Tasks for .NET 简化了使用 MS Project 文件的过程，使开发人�
 答：是的，您可以根据您的具体要求自定义图像保存选项，例如调整页面大小、分辨率或输出格式。
 ### Q5：在哪里可以找到对 Aspose.Tasks for .NET 的支持？
 答：您可以在 Aspose.Tasks for .NET 上找到支持和帮助[论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

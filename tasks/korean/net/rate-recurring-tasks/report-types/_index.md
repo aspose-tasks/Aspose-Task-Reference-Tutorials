@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 마스터 MS 프로젝트 보고
 linktitle: Aspose.Tasks에서 보고서 유형 작업
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일로 작업하는 방법을 알아보세요. 다양한 보고서 유형을 손쉽게 생성하세요.
-type: docs
 weight: 16
 url: /ko/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 마스터 MS 프로젝트 보고
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 쉽게 조작할 수 있게 해주는 강력한 라이브러리입니다. 프로젝트 관리, 일정 예약 또는 보고 작업 중 무엇을 하든 Aspose.Tasks는 작업 흐름을 간소화하는 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 MS 프로젝트 파일로 작업하는 방법과 .NET용 Aspose.Tasks를 사용하여 다양한 보고서 유형을 생성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -55,3 +61,9 @@ A: 예, 상업용 프로젝트에서 Aspose.Tasks for .NET을 사용할 수 있�
  A: 커뮤니티로부터 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q5: .NET용 Aspose.Tasks를 어떻게 다운로드하나요?
  A: .NET용 Aspose.Tasks를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

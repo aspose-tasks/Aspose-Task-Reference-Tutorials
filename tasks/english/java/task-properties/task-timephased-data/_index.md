@@ -3,10 +3,16 @@ title: Task Timephased Data in Aspose.Tasks
 linktitle: Task Timephased Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore Aspose.Tasks for Java and master task timephased data management. Download the library, enjoy a free trial, and streamline your project tracking.
-type: docs
 weight: 34
 url: /java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Timephased Data in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, precise tracking of task timephased data is crucial for efficient project execution. Aspose.Tasks for Java emerges as a powerful tool to streamline this process, offering robust features and flexibility. This tutorial will guide you through utilizing Aspose.Tasks for Java to manage task timephased data effectively.
 ## Prerequisites
@@ -104,3 +110,9 @@ A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 A: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I purchase Aspose.Tasks for Java?
 A: You can purchase Aspose.Tasks for Java [here](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

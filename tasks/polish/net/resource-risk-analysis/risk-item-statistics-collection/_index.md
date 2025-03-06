@@ -3,10 +3,16 @@ title: Zbieraj statystyki pozycji ryzyka projektu MS w Aspose.Tasks
 linktitle: Zbieranie statystyk pozycji ryzykownych w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zbierać statystyki pozycji ryzyka z plików MS Project przy użyciu Aspose.Tasks dla .NET. Zwiększ swoje możliwości zarządzania projektami.
-type: docs
 weight: 22
 url: /pl/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbieraj statystyki pozycji ryzyka projektu MS w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy, jak zbierać statystyki elementów ryzyka z plików MS Project przy użyciu Aspose.Tasks dla .NET. Ta biblioteka zapewnia zaawansowane funkcje do analizy danych projektowych, w tym oceny ryzyka i analizy statystycznej.
 ## Warunki wstępne
@@ -88,3 +94,9 @@ O: Oczywiście, Aspose.Tasks został zaprojektowany, aby sprostać wymaganiom ap
 O: Tak, Aspose.Tasks oferuje elastyczność w konfigurowaniu ustawień analizy ryzyka tak, aby odpowiadały konkretnym wymaganiom i scenariuszom projektu.
 ### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
  Odp.: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej poprzez Aspose[fora](https://forum.aspose.com/c/tasks/15), gdzie mogą zadawać pytania, zgłaszać problemy i wchodzić w interakcje ze społecznością.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

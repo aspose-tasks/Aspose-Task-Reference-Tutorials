@@ -3,10 +3,16 @@ title: Inbyggd projektfastighetsinsamling i Aspose.Tasks
 linktitle: Inbyggd projektfastighetsinsamling i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar projektmeta-egenskaper effektivt i .NET-applikationer med Aspose.Tasks. Läs, ändra och upprepa egenskaper utan ansträngning.
-type: docs
 weight: 24
 url: /sv/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Inbyggd projektfastighetsinsamling i Aspose.Tasks
+
 ## Introduktion
 
 När det gäller mjukvaruutveckling är hantering av uppgifter och projekt effektivt avgörande för framgång. Aspose.Tasks för .NET är ett kraftfullt bibliotek designat för att underlätta projektledningsuppgifter inom .NET-applikationer. Med sina robusta funktioner och intuitiva gränssnitt kan utvecklare effektivisera projektledningsprocesser, vilket sparar tid och resurser.
@@ -106,3 +112,9 @@ S3: Ja, Aspose.Tasks för .NET stöder ett brett utbud av projektfilformat, inkl
 ### F5: Var kan jag hitta ytterligare support och resurser för Aspose.Tasks för .NET?
 
  A5: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och bläddra igenom dokumentationen för omfattande vägledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

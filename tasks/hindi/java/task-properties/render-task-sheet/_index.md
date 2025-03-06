@@ -3,10 +3,16 @@ title: Aspose.Tasks में टास्क शीट प्रस्तुत
 linktitle: Aspose.Tasks में टास्क शीट प्रस्तुत करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks के साथ कुशल परियोजना प्रबंधन को अनलॉक करें। कार्य पत्रक को निर्बाध रूप से प्रस्तुत करें। अब व्यापक गाइड का अन्वेषण करें!
-type: docs
 weight: 27
 url: /hi/java/task-properties/render-task-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में टास्क शीट प्रस्तुत करें
+
 ## परिचय
 जावा के लिए Aspose.Tasks की दुनिया में आपका स्वागत है, एक शक्तिशाली लाइब्रेरी जो जावा डेवलपर्स को निर्बाध परियोजना प्रबंधन क्षमताओं के साथ सशक्त बनाती है। चाहे आप एक अनुभवी डेवलपर हों या नौसिखिया जो अपने प्रोजेक्ट प्रबंधन कौशल को बढ़ाना चाहते हों, यह मार्गदर्शिका आपको Aspose.Tasks का उपयोग करके कार्य पत्रक प्रस्तुत करने में मदद करेगी।
 ## आवश्यक शर्तें
@@ -58,3 +64,9 @@ project.save(dataDir + "taskSheet.pdf", options);
  अपना अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं जावा के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  जावा के लिए Aspose.Tasks खरीदें[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

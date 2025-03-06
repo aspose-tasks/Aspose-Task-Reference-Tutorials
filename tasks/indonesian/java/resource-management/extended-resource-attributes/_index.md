@@ -3,10 +3,16 @@ title: Kelola Atribut Proyek MS secara Efisien dengan Aspose.Tasks
 linktitle: Tangani Atribut Sumber Daya yang Diperluas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menangani atribut sumber daya Microsoft Project yang diperluas secara efisien menggunakan Aspose.Tasks untuk Java. Langkah mudah & panduan komprehensif.
-type: docs
 weight: 11
 url: /id/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Atribut Proyek MS secara Efisien dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara efektif menangani atribut sumber daya Microsoft Project yang diperluas menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram, menawarkan fungsionalitas ekstensif untuk manajemen tugas dan sumber daya.
 ## Prasyarat
@@ -83,3 +89,9 @@ Ya, pengembang dapat menggunakan Aspose.Tasks untuk Java di berbagai platform, m
 Tentu saja, Aspose.Tasks dapat diintegrasikan secara mulus dengan perpustakaan Java lainnya untuk meningkatkan fungsionalitas dan menyederhanakan proses pengembangan.
 ### Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
 Ya, pengguna dapat mengakses dukungan teknis melalui forum Aspose.Tasks, tempat mereka dapat mencari bantuan dan terlibat dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

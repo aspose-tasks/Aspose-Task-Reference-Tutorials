@@ -3,10 +3,16 @@ title: Verzameling van resourcetoewijzingen in Aspose.Tasks
 linktitle: Verzameling van resourcetoewijzingen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u resourcetoewijzingen in Microsoft Project beheert met Aspose.Tasks voor .NET. Stapsgewijze zelfstudie met codevoorbeelden.
-type: docs
 weight: 12
 url: /nl/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van resourcetoewijzingen in Aspose.Tasks
+
 ## Invoering
 Welkom bij deze uitgebreide zelfstudie over het beheren van resourcetoewijzingen in Microsoft Project met Aspose.Tasks voor .NET. In deze zelfstudie gaan we stap voor stap dieper in op het proces, zodat u goed begrijpt hoe u resourcetoewijzingen efficiënt kunt manipuleren. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze gids leidt u door alles wat u moet weten.
 ## Vereisten
@@ -94,3 +100,9 @@ A: Ja, Aspose.Tasks voor .NET ondersteunt verschillende versies van Microsoft Pr
  A: Ja, er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden. Je kunt er een krijgen van[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik een volledige licentie kopen voor Aspose.Tasks voor .NET?
  A: U kunt een volledige licentie kopen in de Aspose online winkel[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

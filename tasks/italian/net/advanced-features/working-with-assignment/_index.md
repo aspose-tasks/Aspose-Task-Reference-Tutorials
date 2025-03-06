@@ -3,10 +3,16 @@ title: Utilizzo dell'assegnazione in Aspose.Tasks
 linktitle: Utilizzo dell'assegnazione in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le assegnazioni di progetti in .NET utilizzando Aspose.Tasks. Esplora diversi contorni per la pianificazione delle risorse.
-type: docs
 weight: 13
 url: /it/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilizzo dell'assegnazione in Aspose.Tasks
+
 ## introduzione
 
 In questo tutorial esploreremo come lavorare con le assegnazioni in Aspose.Tasks per .NET. Le assegnazioni sono cruciali nella gestione dei progetti poiché assegnano risorse alle attività, aiutando nella pianificazione e nel monitoraggio dei progressi. Ci concentreremo sulla generazione di dati di assegnazione delle risorse rapportati alla scala cronologica con vari contorni utilizzando Aspose.Tasks.
@@ -109,3 +115,9 @@ R4: Sì, come dimostrato in questo tutorial, puoi impostare vari contorni come t
 ### Q5: dove posso trovare supporto per le query relative ad Aspose.Tasks?
 
 R5: Puoi trovare supporto su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dove esperti e membri della comunità si impegnano attivamente nelle discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

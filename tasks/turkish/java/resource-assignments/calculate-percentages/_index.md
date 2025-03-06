@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplayın
 linktitle: Aspose.Tasks'ta Kaynak Atamaları için Yüzdeleri Hesaplayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java projelerinde kaynak atamaları için yüzdeleri verimli bir şekilde nasıl hesaplayacağınızı öğrenin ve proje yönetimi görevlerini basitleştirin.
-type: docs
 weight: 13
 url: /tr/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplayın
+
 ## giriiş
 Proje yönetiminde kaynak atamalarının doğru bir şekilde hesaplanması, görevlerin zamanında tamamlanması ve kaynakların verimli bir şekilde tahsis edilmesi açısından çok önemlidir. Aspose.Tasks for Java, bu süreci kolaylaştırmak için güçlü araçlar sağlayarak geliştiricilerin kaynak atamalarının yüzdelerini kolaylıkla hesaplamasına olanak tanır.
 ## Önkoşullar
@@ -64,3 +70,9 @@ C: Kesinlikle Aspose.Tasks, proje yönetimi yeteneklerinizi geliştirmek için d
  C: Evet, Aspose.Tasks, forumları aracılığıyla özel müşteri desteği sunuyor. Yardım bulabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
  C: Evet, Aspose.Tasks'ı ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

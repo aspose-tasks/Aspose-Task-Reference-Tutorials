@@ -3,10 +3,16 @@ title: Verwalten Sie die Eigenschaften des Geschäftsjahres in Aspose.Tasks
 linktitle: Verwalten Sie die Eigenschaften des Geschäftsjahres in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Geschäftsjahreseigenschaften mit Aspose.Tasks für Java effizient verwalten. Schritt-für-Schritt-Anleitung mit Beispielen.
-type: docs
 weight: 15
 url: /de/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie die Eigenschaften des Geschäftsjahres in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, Projektdateien effizient zu verwalten, einschließlich der Handhabung von Geschäftsjahreseigenschaften. In diesem Tutorial führen wir den Prozess der Verwaltung von Geschäftsjahreseigenschaften mithilfe von Aspose.Tasks in Java durch.
 ## Voraussetzungen
@@ -66,3 +72,9 @@ A: Ja, Aspose.Tasks unterstützt eine Vielzahl von Projektdateiformaten, darunte
  A: Ja, Sie können auf die kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### F: Wo kann ich eine Lizenz für Aspose.Tasks für Java erwerben?
  A: Sie können eine Lizenz für Aspose.Tasks für Java erwerben bei[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

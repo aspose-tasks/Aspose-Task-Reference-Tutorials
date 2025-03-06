@@ -3,10 +3,16 @@ title: Gestione dell'eccezione di dimensione non valida per bitmap in Aspose.Tas
 linktitle: Gestione dell'eccezione di dimensione non valida per bitmap in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire BitmapInvalidSizeException in Aspose.Tasks per .NET durante il salvataggio di progetti come immagini. Tutorial completo con guida passo passo.
-type: docs
 weight: 22
 url: /it/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione dell'eccezione di dimensione non valida per bitmap in Aspose.Tasks
+
 ## introduzione
 
  In questo tutorial, approfondiremo la gestione del file`BitmapInvalidSizeException` quando si lavora con Aspose.Tasks per .NET. Aspose.Tasks è una potente libreria che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di codice, abilitando attività come il salvataggio di progetti come immagini. Tuttavia, occasionalmente, quando tentiamo di salvare un progetto come immagine, potremmo incontrare un file`Invalid Size Exception`relativo alla bitmap. Questo tutorial ha lo scopo di guidarti attraverso il processo di acquisizione e gestione di questa eccezione in modo efficace.
@@ -111,3 +117,9 @@ A4: Sì, Aspose.Tasks supporta varie versioni di file Microsoft Project, consent
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.Tasks?
 
 R5: È possibile acquisire una licenza temporanea a scopo di valutazione tramite il collegamento fornito nell'articolo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

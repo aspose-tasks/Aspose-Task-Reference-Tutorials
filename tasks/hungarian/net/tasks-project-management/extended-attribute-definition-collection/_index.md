@@ -3,10 +3,16 @@ title: Mester kiterjesztett attribútum-definíciók MS Project az Aspose.Tasks-
 linktitle: Kiterjesztett attribútum-definíciók gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a kiterjesztett attribútumdefiníciókat a Microsoft Projectben az Aspose.Tasks for .NET használatával. Könnyedén testreszabhatja és javíthatja projektadatait.
-type: docs
 weight: 14
 url: /hu/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mester kiterjesztett attribútum-definíciók MS Project az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk kiterjesztett attribútum-definíciókkal a Microsoft Projectben az Aspose.Tasks for .NET használatával. A kiterjesztett attribútumok rugalmas módot kínálnak a projektadatok testreszabására és javítására, lehetővé téve a felhasználók számára, hogy az alapértelmezésben biztosított szabványos mezőkön túl további mezőket is hozzáadjanak. Az Aspose.Tasks segítségével könnyedén kezelheti ezeket a kiterjesztett attribútumokat, hogy testre szabhassa projektmenedzsment igényeit.
 ## Előfeltételek
@@ -92,3 +98,9 @@ V: Természetesen a kiterjesztett attribútumok használhatók egyéni mezők ki
 V: Az Aspose.Tasks kompatibilis a különböző .NET-keretrendszerekkel, rugalmasságot és egyszerű integrációt biztosítva.
 ### K: Hol találok további forrásokat és támogatást az Aspose.Tasks számára?
  V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért, és fedezze fel a dokumentációt[itt](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

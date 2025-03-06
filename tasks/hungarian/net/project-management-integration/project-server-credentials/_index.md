@@ -3,10 +3,16 @@ title: Az MS Project Server hitelesítő adatainak kezelése az Aspose.Tasks alk
 linktitle: Project Server hitelesítő adatok kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti zökkenőmentesen az MS Project Server hitelesítő adatait az Aspose.Tasks for .NET segítségével. Növelje a projektmenedzsment hatékonyságát.
-type: docs
 weight: 22
 url: /hu/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Server hitelesítő adatainak kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 projektmenedzsment területén a hatékony koordináció és a zökkenőmentes kommunikáció kulcsfontosságú a sikeres projektvégrehajtáshoz. Az Aspose.Tasks for .NET átfogó megoldást kínál a Microsoft Project Server hitelesítő adatainak kezelésére, lehetővé téve a felhasználók számára a projektadatok biztonságos elérését és kezelését. Ez az oktatóanyag az MS Project Server hitelesítő adatainak kezelését mutatja be az Aspose.Tasks for .NET használatával, és végigvezeti a felhasználókat az egyes lépéseken a zökkenőmentes élmény biztosítása érdekében.
 ## Előfeltételek
@@ -83,3 +89,9 @@ V: Természetesen az Aspose.Tasks for .NET átfogó támogatást nyújt a projek
 V: Igen, az Aspose.Tasks for .NET rugalmas licencelési lehetőségeket kínál, beleértve az ideiglenes licenceket próbacélokra és a teljes licenceket kereskedelmi használatra.
 ### K: Hol kérhetek segítséget vagy támogatást az Aspose.Tasks for .NET-hez?
  V: Az Aspose.Tasks for .NET-re vonatkozó kérdéseivel vagy segítségével kapcsolatban keresse fel a támogatási fórumot a következő címen:[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).## Teljes forráskód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

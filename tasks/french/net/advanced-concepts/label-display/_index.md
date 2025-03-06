@@ -3,10 +3,16 @@ title: Affichage des étiquettes dans Aspose.Tasks
 linktitle: Affichage des étiquettes dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment personnaliser l'affichage des étiquettes dans la gestion de projet avec Aspose.Tasks pour .NET. Améliorez la lisibilité et la clarté sans effort.
-type: docs
 weight: 14
 url: /fr/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Affichage des étiquettes dans Aspose.Tasks
+
 ## Introduction
 
 Dans le domaine du développement de logiciels, la gestion efficace des tâches est impérative pour la réussite du projet. Aspose.Tasks for .NET offre une solution robuste pour gérer les tâches de gestion de projet de manière transparente dans le framework .NET. Un aspect clé de la gestion de projet est la possibilité de personnaliser les options d'affichage pour répondre à des exigences spécifiques. Dans ce didacticiel, nous allons explorer comment utiliser Aspose.Tasks pour .NET pour manipuler les affichages d'étiquettes de minutes, d'heures, de jours, de semaines, de mois et d'années dans les fichiers de projet.
@@ -137,3 +143,10 @@ A4 : Aspose.Tasks pour .NET offre des options de personnalisation étendues pou
 ### Q5 : Aspose.Tasks prend-il en charge l'intégration avec d'autres outils de gestion de projet ?
 
 A5 : Oui, Aspose.Tasks offre des capacités d'intégration transparentes, facilitant l'interopérabilité avec d'autres outils et plateformes de gestion de projet.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

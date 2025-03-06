@@ -3,10 +3,16 @@ title: Aspose.Tasks Advanced Features
 linktitle: Aspose.Tasks Advanced Features
 second_title: Aspose.Tasks .NET API
 description: Discover advanced features in Aspose.Tasks for .NET with our tutorials. From AND operations to memory exception handling, enhance your project management skills.
-type: docs
 weight: 21
 url: /net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Advanced Features
+
 
 ## Introduction
 
@@ -93,3 +99,9 @@ Explore the power of Aspose.Tasks for .NET in managing recurring tasks efficient
 Learn how to manage calculation modes effectively in Aspose.Tasks for .NET to streamline project scheduling and task dependencies.
 ### [Calculation Type in Aspose.Tasks](./calculation-type/)
 Learn how to customize value calculations in .NET projects with Calculation Type in Aspose.Tasks library.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

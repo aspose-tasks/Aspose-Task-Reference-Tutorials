@@ -3,10 +3,16 @@ title: Custom Field Types in Aspose.Tasks
 linktitle: Custom Field Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to work with custom field types in Aspose.Tasks for .NET. Step-by-step guide with code examples and FAQs.
-type: docs
 weight: 23
 url: /net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom Field Types in Aspose.Tasks
+
 ## Introduction
 
 Welcome to our tutorial on working with custom field types in Aspose.Tasks for .NET! Aspose.Tasks is a powerful library that allows developers to manipulate Microsoft Project files programmatically. In this tutorial, we'll focus on understanding and utilizing custom field types, a crucial aspect of working with project data.
@@ -89,3 +95,10 @@ A4: Yes, Aspose.Tasks allows you to manipulate both task and resource data withi
 ### Q5: Is there a community forum for Aspose.Tasks users?
 
 A5: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to interact with other users and get support from the Aspose team.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

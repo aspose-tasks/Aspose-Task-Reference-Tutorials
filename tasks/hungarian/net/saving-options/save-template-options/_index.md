@@ -3,10 +3,16 @@ title: Mentse az MS Project fájlokat sablonként az Aspose.Tasks segítségéve
 linktitle: Mentse az Aspose.Tasks sablonopcióit
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti a Microsoft Project fájlokat sablonként az Aspose.Tasks for .NET segítségével. Szabja testre a sablonbeállításokat az egyszerűsített projektkezelés érdekében.
-type: docs
 weight: 18
 url: /hu/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentse az MS Project fájlokat sablonként az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a sablonok Aspose.Tasks for .NET használatával mentésének folyamatát. A sablonok hasznosak a projektstruktúrák és beállítások szabványosításához a jövőbeni felhasználáshoz. Bemutatjuk, hogyan menthetünk el egy projektet sablonként, miközben menet közben hangoljuk a tulajdonságait.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Igen, alkalmazhat sablonokat meglévő projektekre, ha betölti a sablonfájl
 V: Az Aspose.Tasks for .NET elsősorban Windows platformon futó .NET-keretrendszer-alkalmazásokhoz készült.
 ### K: Elérhető technikai támogatás az Aspose.Tasks for .NET számára?
  V: Igen, kérhet technikai segítséget és útmutatást az Aspose.Tasks közösségtől[fórumok](https://forum.aspose.com/c/tasks/15)vagy forduljon közvetlenül a támogatási csapatukhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

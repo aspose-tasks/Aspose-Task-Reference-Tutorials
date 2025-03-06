@@ -3,10 +3,16 @@ title: Sesuaikan Kolom Gantt Chart dengan Aspose.Tasks
 linktitle: Kolom Gantt Chart di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyesuaikan kolom bagan Gantt di Aspose.Tasks untuk .NET guna menampilkan informasi tugas tertentu secara efisien.
-type: docs
 weight: 21
 url: /id/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Kolom Gantt Chart dengan Aspose.Tasks
+
 ## Perkenalan
 Bagan Gantt adalah alat mendasar dalam manajemen proyek, yang memberikan representasi visual tugas, jadwal, dan sumber daya. Aspose.Tasks untuk .NET menawarkan kemampuan canggih untuk memanipulasi bagan Gantt, termasuk menyesuaikan kolom untuk menampilkan informasi tugas tertentu. Dalam tutorial ini, kita akan mempelajari cara bekerja dengan kolom bagan Gantt menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -99,3 +105,9 @@ J: Aspose.Tasks untuk .NET menyediakan API dan fitur komprehensif untuk mengelol
 J: Aspose.Tasks untuk .NET menawarkan opsi penyesuaian yang luas, memungkinkan Anda menambahkan sejumlah besar kolom ke bagan Gantt tanpa batasan.
 ### T: Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.Tasks untuk .NET?
 J: Anda dapat menjelajahi dokumentasi, forum komunitas, dan saluran dukungan yang disediakan oleh Aspose.Tasks untuk .NET untuk mengakses sumber daya dan bantuan yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

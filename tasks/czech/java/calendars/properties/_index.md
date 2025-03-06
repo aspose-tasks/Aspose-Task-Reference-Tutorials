@@ -3,10 +3,16 @@ title: Správa vlastností kalendáře MS Project v Aspose.Tasks
 linktitle: Správa vlastností kalendáře v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se spravovat vlastnosti kalendáře MS Project v Javě pomocí Aspose.Tasks. To poskytuje podrobné pokyny pro kalendář ve vašich aplikacích Java.
-type: docs
 weight: 10
 url: /cs/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vlastností kalendáře MS Project v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak spravovat vlastnosti kalendáře MS Project pomocí Aspose.Tasks for Java. Když pochopíte, jak manipulovat s vlastnostmi kalendáře, můžete přizpůsobit plány projektů tak, aby efektivně vyhovovaly konkrétním požadavkům.
 ## Předpoklady
@@ -71,3 +77,9 @@ A: Rozhodně! Funkce správy kalendáře Aspose.Tasks můžete bez problémů in
 Odpověď: Ano, Aspose.Tasks nabízí širokou škálu funkcí pro správu úkolů, zdrojů a projektových struktur, což z něj činí komplexní řešení pro řízení projektů v Javě.
 ### Otázka: Je k dispozici technická podpora pro vývojáře používající Aspose.Tasks?
 Odpověď: Ano, vývojáři mohou přistupovat k technické podpoře prostřednictvím fóra Aspose.Tasks, což zajišťuje pomoc při jakýchkoliv dotazech nebo problémech, které se vyskytnou během implementace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση της συλλογής χαρακτηριστικώ
 linktitle: Διαχείριση εκτεταμένης συλλογής χαρακτηριστικών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τα εκτεταμένα χαρακτηριστικά του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Χειριστείτε απρόσκοπτα τα χαρακτηριστικά εργασιών με βήμα προς βήμα καθοδήγηση.
-type: docs
 weight: 12
 url: /el/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση της συλλογής χαρακτηριστικών του έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Θέλετε να διαχειριστείτε αποτελεσματικά τα εκτεταμένα χαρακτηριστικά του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET; Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα. Ας βουτήξουμε!
 ## Προαπαιτούμενα
@@ -105,3 +111,9 @@ foreach (var attribute in attributes)
 Α: Ναι, το Aspose.Tasks για .NET υποστηρίζει μορφές αρχείων MS Project σε διαφορετικές εκδόσεις.
 ### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

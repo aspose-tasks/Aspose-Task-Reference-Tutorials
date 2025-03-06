@@ -3,10 +3,16 @@ title: Aspose.Tasks Gerenciamento de taxas e tarefas recorrentes
 linktitle: Aspose.Tasks Gerenciamento de taxas e tarefas recorrentes
 second_title: API Aspose.Tasks .NET
 description: Domine o gerenciamento de taxas do MS Project e tarefas recorrentes com Aspose.Tasks .NET. Aprenda a automatizar tarefas, lidar com taxas e gerenciar partes divididas para fluxos de trabalho de projetos.
-type: docs
 weight: 28
 url: /pt/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gerenciamento de taxas e tarefas recorrentes
+
 
 ## Introdução
 
@@ -67,3 +73,9 @@ Aprenda como salvar arquivos do MS Project em vários formatos usando Aspose.Tas
 Aprenda como lidar com partes divididas do MS Project de forma eficiente com Aspose.Tasks for .NET. Aprimore seu fluxo de trabalho de gerenciamento de projetos.
 ### [Colete MS Project de peças divididas em Aspose.Tasks](./split-part-collection/)
 Aprenda como coletar partes divididas no MS Project usando Aspose.Tasks for .NET. Este tutorial abrangente orienta você pelo processo passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

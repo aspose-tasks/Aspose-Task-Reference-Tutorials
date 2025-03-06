@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 요일 유형 수집 관리
 linktitle: Aspose.Tasks에서 요일 유형 수집 관리
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 요일 유형 컬렉션을 효율적으로 관리하는 방법을 알아보세요. 캘린더 예외를 쉽게 생성, 수정 및 조작할 수 있습니다.
-type: docs
 weight: 28
 url: /ko/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 요일 유형 수집 관리
+
 ## 소개
 
  Aspose.Tasks for .NET은 요일 유형 컬렉션 관리를 위한 강력한 기능을 제공하며, 이는 프로젝트 관리 애플리케이션에서 주간 달력 예외를 정의하는 데 중요합니다. 이 튜토리얼에서는`DayTypeCollection` 효율적으로 수업합니다. 
@@ -141,3 +147,9 @@ A2: 예, .NET용 Aspose.Tasks는 .NET Core와 .NET Framework를 모두 지원합
 ### Q5: Aspose.Tasks for .NET의 임시 라이선스를 구입할 수 있나요?
 
  A5: 예, 임시 라이센스는 다음 사이트에서 구입할 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

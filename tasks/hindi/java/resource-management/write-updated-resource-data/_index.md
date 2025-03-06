@@ -3,10 +3,16 @@ title: Aspose.Tasks में अद्यतन संसाधन डेटा
 linktitle: Aspose.Tasks में अद्यतन संसाधन डेटा लिखें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों में संसाधन डेटा को आसानी से अपडेट करना सीखें।
-type: docs
 weight: 21
 url: /hi/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में अद्यतन संसाधन डेटा लिखें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट संसाधन डेटा को अपडेट करने में आपका मार्गदर्शन करेंगे। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो आपको आपके सिस्टम पर Microsoft प्रोजेक्ट इंस्टॉल किए बिना Microsoft प्रोजेक्ट फ़ाइलों में हेरफेर करने की अनुमति देता है।
 
@@ -98,3 +104,10 @@ A4: हां, आप पढ़ने, लिखने और कार्यो
 ### Q5: Aspose.Tasks के लिए मुझे अतिरिक्त सहायता या समर्थन कहां मिल सकता है?
 
  A5: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) किसी भी सहायता या प्रश्न के लिए।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Werken met OLE-objecten in Aspose.Tasks
 linktitle: Werken met OLE-objecten in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u efficiënt kunt werken met OLE-objecten in .NET-toepassingen met behulp van Aspose.Tasks, waardoor de mogelijkheden voor projectbeheer worden verbeterd.
-type: docs
 weight: 22
 url: /nl/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met OLE-objecten in Aspose.Tasks
+
 ## Invoering
 
 Aspose.Tasks voor .NET biedt uitgebreide functionaliteit voor het werken met OLE-objecten (Object Linking and Embedding) in projectbestanden. Deze zelfstudie leidt u door het proces van het efficiënt beheren van OLE-objecten met behulp van Aspose.Tasks in uw .NET-toepassingen.
@@ -148,3 +154,9 @@ A4: Ja, Aspose.Tasks is zeer geschikt voor zowel kleinschalige als ondernemingsp
 ### V5: Biedt Aspose.Tasks klantenondersteuning en documentatiebronnen?
 
 A5: Ja, Aspose.Tasks biedt uitgebreide documentatie, forums en klantenondersteuning om ontwikkelaars te helpen de functies ervan effectief te gebruiken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

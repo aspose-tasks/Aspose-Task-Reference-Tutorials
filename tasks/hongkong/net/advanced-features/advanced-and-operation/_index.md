@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的高階 AND 運算
 linktitle: Aspose.Tasks 中的高階 AND 運算
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中執行進階 AND 運算，以根據多個條件有效篩選專案任務。
-type: docs
 weight: 10
 url: /zh-hant/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的高階 AND 運算
+
 ## 介紹
 
 在本教程中，我們將深入研究 Aspose.Tasks for .NET 中的高階 AND 操作，這是一個用於管理任務和專案的強大工具。我們將探索如何使用以下方法根據多個條件篩選專案任務`Util.And`班級。
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### Q5：如何獲得 Aspose.Tasks for .NET 支援？
 
 答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

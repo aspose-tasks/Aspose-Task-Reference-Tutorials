@@ -3,10 +3,16 @@ title: Zdefiniuj dni tygodnia dla wyjątków kalendarza za pomocą Aspose.Tasks
 linktitle: Zdefiniuj dni tygodnia dla wyjątków kalendarza za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak definiować dni tygodnia dla wyjątków kalendarza w projektach Java przy użyciu Aspose.Tasks w celu dokładnego planowania projektu.
-type: docs
 weight: 11
 url: /pl/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zdefiniuj dni tygodnia dla wyjątków kalendarza za pomocą Aspose.Tasks
+
 ### Wstęp
 zarządzaniu projektami definiowanie wyjątków dla kalendarzy ma kluczowe znaczenie dla dokładnego przedstawienia niestandardowych dni roboczych lub świąt na osi czasu projektu. Aspose.Tasks dla Java zapewnia solidną funkcjonalność do efektywnego zarządzania kalendarzami, w tym definiowania wyjątków, takich jak święta lub specjalne dni robocze. W tym samouczku zagłębimy się w sposób definiowania dni tygodnia dla wyjątków kalendarza za pomocą Aspose.Tasks dla Java.
 ### Warunki wstępne
@@ -68,3 +74,10 @@ O: Oczywiście, Aspose.Tasks dla Java zapewnia elastyczność w definiowaniu wyj
 O: Możesz programowo obsługiwać wyjątki w oparciu o dynamiczne wymagania projektu, korzystając z rozbudowanego API udostępnianego przez Aspose.Tasks dla Java.
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks dla Java?
  Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks dla Java ze strony[strona internetowa](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχειριστείτε αποτελεσματικά τις ιδιό
 linktitle: Διαχείριση προεπιλεγμένων ιδιοτήτων έργου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε τις προεπιλεγμένες ιδιότητες του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε τη ροή εργασιών διαχείρισης του έργου σας χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχειριστείτε αποτελεσματικά τις ιδιότητες του έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Ψάχνετε να απλοποιήσετε τη διαδικασία διαχείρισης του έργου σας με το Aspose.Tasks για Java; Η διαχείριση προεπιλεγμένων ιδιοτήτων στα αρχεία του Microsoft Project μπορεί να βελτιώσει σημαντικά την αποτελεσματικότητα. Σε αυτό το σεμινάριο, θα ακολουθήσουμε οδηγίες βήμα προς βήμα σχετικά με τον τρόπο διαχείρισης των προεπιλεγμένων ιδιοτήτων MS Project χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -79,3 +85,9 @@ A3: Ναι, μπορείτε να βρείτε βοήθεια και υποστ�
  Α4: Φυσικά! Μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή από το[δικτυακός τόπος](https://releases.aspose.com/).
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
  A5: Μπορείτε να λάβετε μια προσωρινή άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/temporary-license/) για σκοπούς δοκιμών και αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

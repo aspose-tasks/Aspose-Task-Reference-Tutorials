@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的工作單元處理
 linktitle: 在 Aspose.Tasks 中處理工作單元
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET，這是一個用於高效專案管理的強大函式庫。精確處理工作單元以達到最佳資源利用。
-type: docs
 weight: 15
 url: /zh-hant/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的工作單元處理
+
 ## 介紹
 在動態的專案管理世界中，有效處理工作單元對於成功完成專案至關重要。 Aspose.Tasks for .NET 提供了強大的工具集來瀏覽工作單位信息，確保精確控制項目時間表和資源分配。
 ## 先決條件
@@ -57,3 +63,9 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
 透過存取取得 Aspose.Tasks 的臨時許可證[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks 為處理工作單元提供了哪些好處？
 Aspose.Tasks 提供了一組強大的功能用於與工作單位合作，從而能夠精確控制專案時間表、資源分配和整體專案管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

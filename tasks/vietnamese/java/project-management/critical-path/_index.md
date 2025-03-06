@@ -3,10 +3,16 @@ title: Tính toán đường dẫn dự án MS quan trọng trong Aspose.Tasks
 linktitle: Tính toán đường dẫn quan trọng trong dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tính toán đường dẫn quan trọng trong MS Project bằng Aspose.Tasks cho Java. Điều này cung cấp hướng dẫn từng bước để quản lý dự án hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính toán đường dẫn dự án MS quan trọng trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tính toán đường dẫn quan trọng trong MS Project bằng Aspose.Tasks cho Java. Đường dẫn quan trọng rất cần thiết cho việc quản lý dự án vì nó giúp xác định trình tự các nhiệm vụ phải được hoàn thành đúng thời hạn để đảm bảo tiến độ tổng thể của dự án không bị trì hoãn.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Trả lời: Có, Aspose.Tasks cho Java hỗ trợ nhiều phiên bản khác nh
  Đáp: Có, bạn có thể mua giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Làm cách nào tôi có thể mua Aspose.Tasks cho Java?
  Trả lời: Bạn có thể mua Aspose.Tasks cho Java từ trang web[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

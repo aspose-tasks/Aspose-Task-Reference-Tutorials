@@ -3,10 +3,16 @@ title: Lập lịch tác vụ cơ bản trong Aspose.Tasks
 linktitle: Lập lịch tác vụ cơ bản trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách lên lịch các đường cơ sở của nhiệm vụ một cách hiệu quả với Aspose.Tasks cho Java. Hợp lý hóa quy trình quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lập lịch tác vụ cơ bản trong Aspose.Tasks
+
 ## Giới thiệu
 Quản lý đường cơ sở nhiệm vụ là một khía cạnh quan trọng của quản lý dự án, cho phép bạn so sánh tiến độ theo kế hoạch và thực tế một cách chính xác. Trong hướng dẫn này, chúng ta sẽ khám phá cách thực hiện lập lịch tác vụ cơ bản bằng cách sử dụng Aspose.Tasks cho Java. Bằng cách làm theo các bước này, bạn sẽ được trang bị để hợp lý hóa quy trình quản lý dự án của mình một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Chắc chắn, Aspose.Tasks cho Java cung cấp các chức năng mở rộng đ
  Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho Java từ[trang phát hành](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho Java ở đâu?
  Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

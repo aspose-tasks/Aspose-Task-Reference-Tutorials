@@ -3,10 +3,16 @@ title: Beheersing van VBA-projecten gemakkelijk gemaakt met Aspose.Tasks
 linktitle: Werken met VBA-projecten in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het moeiteloos beheren van VBA-projecten. Verbeter uw projectmanagementmogelijkheden met deze stapsgewijze handleiding.
-type: docs
 weight: 14
 url: /nl/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van VBA-projecten gemakkelijk gemaakt met Aspose.Tasks
+
 ## Invoering
 Als u van projectbeheer houdt met behulp van .NET, is Aspose.Tasks uw beste oplossing. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met VBA-projecten in Aspose.Tasks. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze gids leidt u helder en eenvoudig door het proces.
 ## Vereisten
@@ -79,3 +85,9 @@ A: Ja, Aspose.Tasks kan naadloos worden geïntegreerd met elk .NET-project, waar
  A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik Aspose.Tasks kopen?
  A: Koop Aspose.Tasks[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

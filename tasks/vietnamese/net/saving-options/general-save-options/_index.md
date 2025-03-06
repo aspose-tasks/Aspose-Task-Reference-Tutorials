@@ -3,10 +3,16 @@ title: Làm chủ các tùy chọn lưu dự án MS cho Aspose.Tasks
 linktitle: Tùy chọn lưu chung cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu tệp MS Project một cách hiệu quả bằng Aspose.Tasks cho .NET. Tùy chỉnh các tùy chọn đầu ra dễ dàng cho các dự án của bạn.
-type: docs
 weight: 17
 url: /vi/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các tùy chọn lưu dự án MS cho Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET cung cấp các tính năng mạnh mẽ để thao tác các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc lưu tệp MS Project bằng nhiều tùy chọn khác nhau do Aspose.Tasks cung cấp. Cụ thể, chúng tôi sẽ tập trung vào các tùy chọn lưu chung có sẵn cho Aspose.Tasks, cho phép bạn điều chỉnh đầu ra theo yêu cầu cụ thể của mình.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của 
  Đáp: Giấy phép tạm thời có sẵn cho mục đích đánh giá[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể tham gia diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15)để nhận được sự hỗ trợ từ các chuyên gia và các nhà phát triển đồng nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

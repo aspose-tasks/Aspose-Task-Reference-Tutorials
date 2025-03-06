@@ -3,10 +3,16 @@ title: Hentikan dan Lanjutkan Penugasan Sumber Daya di Aspose.Tasks
 linktitle: Hentikan dan Lanjutkan Penugasan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola penetapan sumber daya secara efektif di Aspose.Tasks untuk Java dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 23
 url: /id/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hentikan dan Lanjutkan Penugasan Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menghentikan dan melanjutkan penetapan sumber daya menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah Java API canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project tanpa perlu menginstal Microsoft Project di sistem mereka. Kami akan membagi prosesnya menjadi langkah-langkah yang dapat dikelola agar mudah diikuti.
 ## Prasyarat
@@ -71,3 +77,9 @@ Ya, Aspose.Tasks memungkinkan Anda bekerja dengan file Microsoft Project tanpa p
 Anda bisa mendapatkan dukungan dari komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Bisakah saya membeli lisensi sementara?
  Ya, Anda dapat membeli lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

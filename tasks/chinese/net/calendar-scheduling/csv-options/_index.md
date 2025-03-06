@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的 CSV 选项
 linktitle: Aspose.Tasks 中的 CSV 选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何利用 Aspose.Tasks for .NET 高效处理 CSV 文件，轻松增强您的项目管理能力。
-type: docs
 weight: 21
 url: /zh/net/calendar-scheduling/csv-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的 CSV 选项
+
 ## 介绍
 
 在当今的数字时代，任务和项目的高效管理对于企业的蓬勃发展至关重要。 Aspose.Tasks for .NET 为开发人员提供了一个强大的工具包，可以轻松地使用项目管理文件。它提供的主要功能之一是能够处理 CSV（逗号分隔值）文件。在本教程中，我们将深入研究 Aspose.Tasks for .NET 中的 CSV 选项，将每个示例分解为分步指南，以帮助您无缝理解和实施它们。
@@ -84,3 +90,9 @@ A4：是的，Aspose.Tasks for .NET 提供了广泛的选项，可根据您的�
 ### Q5：在哪里可以找到对 Aspose.Tasks for .NET 的支持？
 
  A5：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)或联系 Aspose 支持以获得有关 Aspose.Tasks for .NET 的任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

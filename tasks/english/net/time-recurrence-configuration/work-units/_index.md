@@ -3,10 +3,16 @@ title: Mastering Work Unit Handling in Aspose.Tasks
 linktitle: Handling Work Units in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET, a powerful library for efficient project management. Handle work units with precision for optimal resource utilization.
-type: docs
 weight: 15
 url: /net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Work Unit Handling in Aspose.Tasks
+
 ## Introduction
 In the dynamic world of project management, handling work units efficiently is crucial for successful project completion. Aspose.Tasks for .NET provides a powerful toolset to navigate through work unit information, ensuring precise control over project timelines and resource allocation.
 ## Prerequisites
@@ -57,3 +63,10 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 Acquire a temporary license for Aspose.Tasks by visiting the [temporary license page](https://purchase.aspose.com/temporary-license/).
 ### What benefits does Aspose.Tasks offer for handling work units?
 Aspose.Tasks provides a robust set of functionalities for working with work units, enabling precise control over project timelines, resource allocation, and overall project management.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

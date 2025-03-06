@@ -3,10 +3,16 @@ title: การเรียนรู้วันธรรมดาใน Aspose
 linktitle: การรวบรวมวันธรรมดาใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ค้นพบพลังของ Aspose.Tasks สำหรับ .NET ในการจัดการวันธรรมดาได้อย่างง่ายดาย ปรับแต่งวันทำงาน ลบวันหยุดสุดสัปดาห์ และสร้างปฏิทินพิเศษได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้วันธรรมดาใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งอำนวยความสะดวกในการจัดการข้อมูลการจัดการโครงการอย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะสำรวจคอลเลกชั่นวันธรรมดาใน Aspose.Tasks ซึ่งช่วยให้คุณปรับแต่งวันทำงาน ลบวันหยุดสุดสัปดาห์ และสร้างปฏิทินพิเศษเพื่อให้ตรงตามข้อกำหนดของโปรเจ็กต์ของคุณ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการทำงานกับวันธรรมดาใน Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
  ตอบ: โปรดดูที่[Aspose.Tasks สำหรับเอกสาร .NET](https://reference.aspose.com/tasks/net/) สำหรับข้อมูลโดยละเอียด
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

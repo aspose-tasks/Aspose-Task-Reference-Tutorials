@@ -3,10 +3,16 @@ title: Αποθήκευση διακομιστή Επιλογές έργου MS 
 linktitle: Επιλογές αποθήκευσης διακομιστή έργου για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε τις επιλογές του Microsoft Project για το Aspose.Tasks χρησιμοποιώντας την ενοποίηση του Project Server. Βελτιώστε τις ροές εργασιών διαχείρισης του έργου σας.
-type: docs
 weight: 16
 url: /el/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση διακομιστή Επιλογές έργου MS για Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην αποθήκευση των επιλογών του Microsoft Project για το Aspose.Tasks χρησιμοποιώντας το Project Server. Το Aspose.Tasks είναι ένα ισχυρό API .NET που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project μέσω προγραμματισμού. Αξιοποιώντας τις δυνατότητες του Project Server, μπορούμε να ενσωματώσουμε απρόσκοπτα το Aspose.Tasks στις ροές εργασιών διαχείρισης έργων μας. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 Α: Ναι, μπορείτε να προσαρμόσετε τις επιλογές αποθήκευσης όπως το όνομα του έργου, το χρονικό όριο λήξης και το διάστημα ψηφοφορίας ανάλογα με τις απαιτήσεις σας.
 ### Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να βρείτε υποστήριξη και βοήθεια στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

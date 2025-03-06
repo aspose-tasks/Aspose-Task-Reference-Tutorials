@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 캘린더 컬렉션 관리
 linktitle: Aspose.Tasks에서 캘린더 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 캘린더 컬렉션을 효율적으로 관리하는 방법을 알아보세요. 캘린더를 쉽게 생성, 수정, 조작할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 캘린더 컬렉션 관리
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 캘린더 컬렉션을 관리하는 방법을 살펴보겠습니다. 달력은 근무일, 공휴일 및 예외를 정의하여 프로젝트 관리에서 중요한 역할을 합니다. Aspose.Tasks는 프로젝트 내에서 달력을 조작할 수 있는 강력한 기능을 제공합니다.
@@ -160,3 +166,9 @@ A4: 예, Aspose.Tasks를 사용하면 달력을 XML, MPP 등과 같은 다양한
 ### Q5: 달력에서 특정 날짜의 근무 시간을 맞춤 설정할 수 있나요?
 
 A5: 물론 달력의 예외를 사용하여 개별 날짜의 근무 시간을 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

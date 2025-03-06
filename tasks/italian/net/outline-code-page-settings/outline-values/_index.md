@@ -3,10 +3,16 @@ title: Padroneggiare i valori di struttura del progetto MS con Aspose.Tasks
 linktitle: Gestione dei valori di struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire i valori della struttura di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Personalizza facilmente i contorni del progetto.
-type: docs
 weight: 16
 url: /it/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare i valori di struttura del progetto MS con Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come gestire i valori della struttura di Microsoft Project utilizzando la libreria Aspose.Tasks per .NET. Con Aspose.Tasks, puoi facilmente manipolare i codici di struttura, creare nuovi valori di struttura e personalizzare i contorni del progetto in base alle tue esigenze.
 ## Prerequisiti
@@ -76,3 +82,9 @@ R: Sì, Aspose.Tasks è compatibile con vari framework .NET, garantendo flessibi
 R: Sì, puoi acquistare una licenza temporanea per Aspose.Tasks da[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso trovare la documentazione dettagliata per Aspose.Tasks?
  R: Puoi fare riferimento alla documentazione completa disponibile[Qui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

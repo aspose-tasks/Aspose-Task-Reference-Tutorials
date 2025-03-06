@@ -3,10 +3,16 @@ title: Quản lý thuộc tính siêu liên kết cho bài tập trong Aspose.Ta
 linktitle: Quản lý thuộc tính siêu liên kết để gán tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý thuộc tính siêu liên kết để gán tài nguyên trong Aspose.Tasks cho Java. Tăng cường hợp tác và khả năng tiếp cận trong quản lý dự án.
-type: docs
 weight: 16
 url: /vi/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thuộc tính siêu liên kết cho bài tập trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java cung cấp các tính năng mạnh mẽ để quản lý các tác vụ và tài nguyên của dự án. Trong hướng dẫn này, chúng tôi sẽ tập trung vào cách quản lý các thuộc tính siêu liên kết cho các bài tập tài nguyên bằng Aspose.Tasks. Bằng cách làm theo các hướng dẫn từng bước này, bạn sẽ có thể xử lý hiệu quả các siêu liên kết được liên kết với việc phân công tài nguyên của dự án.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Trả lời: Aspose.Tasks không áp đặt các giới hạn nghiêm ngặt v�
 Trả lời: Có, bạn có thể loại bỏ siêu kết nối khỏi việc gán tài nguyên bằng cách đặt thuộc tính siêu kết nối thành chuỗi rỗng hoặc rỗng.
 ### Câu hỏi: Aspose.Tasks có hỗ trợ xác thực siêu liên kết không?
 Trả lời: Aspose.Tasks tập trung vào việc quản lý các thuộc tính siêu liên kết hơn là xác thực các siêu liên kết. Tuy nhiên, bạn có thể triển khai logic xác thực tùy chỉnh trong ứng dụng Java của mình để đảm bảo tính toàn vẹn của siêu liên kết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

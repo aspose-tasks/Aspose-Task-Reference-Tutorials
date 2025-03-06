@@ -3,10 +3,16 @@ title: Διαβάστε τα δεδομένα χρονικής φάσης για
 linktitle: Διαβάστε τα δεδομένα χρονικής φάσης για πόρους στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να εξάγετε δεδομένα χρονικής φάσης από πόρους του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Βήμα προς βήμα φροντιστήριο.
-type: docs
 weight: 15
 url: /el/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τα δεδομένα χρονικής φάσης για πόρους στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ανάγνωσης δεδομένων χρονικής φάσης για πόρους του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Αυτή η βιβλιοθήκη παρέχει ισχυρές λειτουργίες για τη διαχείριση αρχείων Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 Ναι, το Aspose.Tasks χρησιμοποιείται ευρέως σε εταιρικά περιβάλλοντα λόγω της αξιοπιστίας και της επεκτασιμότητας του.
 ### Πού μπορώ να βρω υποστήριξη εάν αντιμετωπίσω προβλήματα κατά τη χρήση του Aspose.Tasks;
  Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για βοήθεια από την κοινότητα και την ομάδα υποστήριξης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

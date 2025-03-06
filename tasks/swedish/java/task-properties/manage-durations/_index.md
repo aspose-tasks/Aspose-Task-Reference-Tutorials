@@ -3,10 +3,16 @@ title: Hantera varaktigheterna för uppgifter i Aspose.Tasks
 linktitle: Hantera varaktigheterna för uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska Aspose.Tasks för Java och lär dig hantera uppgiftens varaktighet utan ansträngning. Följ vår steg-för-steg-guide för effektiv projektplanering och genomförande.
-type: docs
 weight: 20
 url: /sv/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera varaktigheterna för uppgifter i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för Java tillhandahåller en robust lösning för att effektivt hantera projektuppgifter och varaktighet. I den här handledningen kommer vi att utforska hur du hanterar varaktigheterna för uppgifter med Aspose.Tasks, och guidar dig genom varje steg. Oavsett om du är en erfaren utvecklare eller nybörjare, hjälper den här guiden dig att förstå det väsentliga i att arbeta med uppgiftens varaktighet i dina projekt.
 ## Förutsättningar
@@ -67,3 +73,9 @@ Aspose.Tasks är kompatibel med Java 6 och senare versioner.
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för testning och utvärdering.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks?
  Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/) att utforska Aspose.Tasks innan du gör ett köp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

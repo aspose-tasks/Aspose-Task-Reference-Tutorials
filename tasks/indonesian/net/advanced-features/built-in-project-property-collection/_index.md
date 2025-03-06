@@ -3,10 +3,16 @@ title: Koleksi Properti Proyek Bawaan di Aspose.Tasks
 linktitle: Koleksi Properti Proyek Bawaan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola properti meta proyek secara efisien dalam aplikasi .NET menggunakan Aspose.Tasks. Membaca, memodifikasi, dan mengulangi properti dengan mudah.
-type: docs
 weight: 24
 url: /id/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Koleksi Properti Proyek Bawaan di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam bidang pengembangan perangkat lunak, mengelola tugas dan proyek secara efisien adalah hal terpenting untuk mencapai kesuksesan. Aspose.Tasks for .NET adalah perpustakaan canggih yang dirancang untuk memfasilitasi tugas manajemen proyek dalam aplikasi .NET. Dengan fitur-fitur canggih dan antarmuka intuitif, pengembang dapat menyederhanakan proses manajemen proyek, menghemat waktu dan sumber daya.
@@ -106,3 +112,9 @@ A3: Ya, Aspose.Tasks untuk .NET mendukung berbagai format file proyek, termasuk 
 ### Q5: Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.Tasks untuk .NET?
 
  A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan telusuri dokumentasi untuk panduan komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

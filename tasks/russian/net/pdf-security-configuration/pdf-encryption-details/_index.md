@@ -3,10 +3,16 @@ title: Настройте детали шифрования PDF-файлов MS 
 linktitle: Настройка деталей шифрования PDF в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить детали шифрования MS Project PDF в Aspose.Tasks для .NET. Защитите файлы проекта с помощью паролей пользователей и владельцев.
-type: docs
 weight: 11
 url: /ru/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте детали шифрования PDF-файлов MS Project в Aspose.Tasks
+
 ## Введение
 В мире .NET-разработки решающее значение имеет эффективное управление задачами. Aspose.Tasks для .NET упрощает этот процесс, предоставляя полный набор инструментов для работы с файлами Microsoft Project. Одним из важных аспектов управления задачами является обеспечение безопасности конфиденциальной информации проекта. В этом руководстве мы углубимся в настройку деталей шифрования MS Project PDF с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -68,3 +74,9 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 О: Хотя Aspose.Tasks не накладывает особых ограничений, для повышения безопасности рекомендуется использовать надежные пароли.
 ### Вопрос: Можно ли программно расшифровать зашифрованные PDF-файлы?
 О: Aspose.Tasks предоставляет API для работы с зашифрованными PDF-файлами, позволяя расшифровывать их с использованием соответствующих учетных данных.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

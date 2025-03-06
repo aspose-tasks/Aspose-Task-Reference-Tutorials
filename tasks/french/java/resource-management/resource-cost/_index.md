@@ -3,10 +3,16 @@ title: Gérez les coûts des ressources MS Project avec Aspose.Tasks pour Java
 linktitle: Gérer le coût des ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les coûts des ressources MS Project avec Aspose.Tasks pour Java. Suivez notre guide étape par étape.
-type: docs
 weight: 18
 url: /fr/java/resource-management/resource-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérez les coûts des ressources MS Project avec Aspose.Tasks pour Java
+
 ## Introduction
 
 Dans la gestion de projet, le suivi et la gestion des coûts des ressources sont essentiels pour maintenir les projets dans les limites du budget et garantir la rentabilité. Aspose.Tasks for Java propose des outils puissants pour gérer efficacement les coûts des ressources de Microsoft Project. Dans ce didacticiel, nous verrons comment gérer efficacement les coûts des ressources à l'aide d'Aspose.Tasks pour Java, en décomposant chaque étape en instructions faciles à suivre.
@@ -93,3 +99,9 @@ A4 : Oui, Aspose fournit un excellent support client via ses forums, où les uti
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour Java ?
 
 A5 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour Java pour explorer ses fonctionnalités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

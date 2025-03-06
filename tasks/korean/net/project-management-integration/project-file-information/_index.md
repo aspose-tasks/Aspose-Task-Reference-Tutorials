@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 파일 정보 검색
 linktitle: Aspose.Tasks에서 프로젝트 파일 정보 검색
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일 정보를 검색하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 19
 url: /ko/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 파일 정보 검색
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일 정보를 검색하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Tasks는 .NET 개발자가 프로그래밍 방식으로 Microsoft Project 파일을 사용하여 프로젝트 데이터 읽기, 쓰기 및 조작과 같은 작업을 수행할 수 있도록 하는 강력한 라이브러리입니다.
 ## 전제조건
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
  예, Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
  Aspose.Tasks에 대한 지원은 다음을 통해 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).## 완전한 소스 코드
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

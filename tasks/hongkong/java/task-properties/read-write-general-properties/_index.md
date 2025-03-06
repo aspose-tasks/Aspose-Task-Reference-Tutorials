@@ -3,10 +3,16 @@ title: 掌握Aspose.Tasks中的任務屬性
 linktitle: 在 Aspose.Tasks 中讀取和寫入任務的常規屬性
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 在輕鬆管理任務屬性方面的強大功能。使用我們的逐步指南輕鬆閱讀和寫作。
-type: docs
 weight: 26
 url: /zh-hant/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握Aspose.Tasks中的任務屬性
+
 ## 介紹
 使用 Aspose.Tasks 釋放 Java 任務管理的全部潛力。在本綜合指南中，我們將深入研究使用 Aspose.Tasks for Java 讀取和寫入任務的一般屬性。無論您是經驗豐富的開發人員還是初學者，本教學都將為您提供輕鬆操作任務屬性的技能。
 ## 先決條件
@@ -85,3 +91,9 @@ for (Task tsk : collector.getTasks()) {
 加入社群討論：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求幫助和合作。
 ### 有沒有範例項目可供參考？
 瀏覽文件的範例部分[這裡](https://reference.aspose.com/tasks/java/)用於範例專案和程式碼片段。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

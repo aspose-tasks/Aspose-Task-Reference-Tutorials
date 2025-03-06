@@ -3,10 +3,16 @@ title: Aspose.Tasks の拡張タスク属性
 linktitle: Aspose.Tasks の拡張タスク属性
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java の拡張タスク属性を調べてください。ステップバイステップのガイド、よくある質問、サポート。今すぐプロジェクト管理を最適化しましょう!
-type: docs
 weight: 16
 url: /ja/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の拡張タスク属性
+
 ## 導入
 Aspose.Tasks for Java の拡張タスク属性の活用に関する包括的なガイドへようこそ。 Aspose.Tasks は、Microsoft Project ドキュメントをシームレスに操作できるようにする強力な Java ライブラリです。このチュートリアルでは、拡張タスク属性を詳しく説明し、それらを活用してプロジェクト管理機能を強化する方法を示します。
 ## 前提条件
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
 仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for Java のフルバージョンはどこで購入できますか?
 フルバージョンを購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

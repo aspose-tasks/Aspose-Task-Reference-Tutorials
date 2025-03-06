@@ -3,10 +3,16 @@ title: Configureer de Gantt-diagramweergave in Aspose.Tasks-projecten
 linktitle: Configureer de Gantt-diagramweergave in Aspose.Tasks-projecten
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u de Gantt MS Project Chart View in Aspose.Tasks configureert met behulp van Java. Pas projecten aan en visualiseer ze stap voor stap in het Gantt-diagram.
-type: docs
 weight: 10
 url: /nl/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configureer de Gantt-diagramweergave in Aspose.Tasks-projecten
+
 ## Invoering
 In deze zelfstudie leert u hoe u de Gantt MS Project Chart View in Aspose.Tasks-projecten configureert met behulp van Java. Aspose.Tasks is een krachtige Java API waarmee u programmatisch met Microsoft Project-bestanden kunt werken. Door deze stappen te volgen, kunt u de Gantt-diagramweergave aanpassen aan de vereisten van uw project.
 ## Vereisten
@@ -76,3 +82,9 @@ A: U kunt ondersteuning vinden en vragen stellen op de[Aspose.Tasks-forum](https
  A: U kunt een licentie kopen bij[hier](https://purchase.aspose.com/buy).
 ### Vraag: Heb ik een tijdelijke licentie nodig voor testdoeleinden?
  A: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

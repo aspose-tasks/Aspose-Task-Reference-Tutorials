@@ -3,10 +3,16 @@ title: Collection of Resource Usage View Fields in Aspose.Tasks
 linktitle: Collection of Resource Usage View Fields in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to effectively access and manipulate Resource Usage View Fields in Microsoft Project files using Aspose.Tasks for .NET.
-type: docs
 weight: 16
 url: /net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of Resource Usage View Fields in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, handling Microsoft Project files efficiently is crucial. Aspose.Tasks for .NET provides a comprehensive solution to work with MS Project files seamlessly. In this tutorial, we'll delve into the process of accessing and utilizing the Resource Usage View Fields using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -67,3 +73,10 @@ A: You can seek assistance from the vibrant community and experts at the [Aspose
 A: Yes, you can access a free trial version from the [website](https://releases.aspose.com/).
 ### Q: How can I obtain a temporary license for Aspose.Tasks for .NET?
 A: You can acquire a temporary license from the [purchase page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

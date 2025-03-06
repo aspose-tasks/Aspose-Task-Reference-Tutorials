@@ -3,10 +3,16 @@ title: قم بتكوين إعدادات صفحة مشروع MS باستخدام 
 linktitle: تكوين إعدادات الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات صفحة MS Project باستخدام Aspose.Tasks لـ .NET. قم بتخصيص الاتجاه والحجم والمزيد بخطوات بسيطة.
-type: docs
 weight: 20
 url: /ar/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتكوين إعدادات صفحة مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية تكوين إعدادات صفحة Microsoft Project باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجيًا.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 ج: بالتأكيد، يمكنك دمج هذه الوظيفة في سير عمل التطبيق الخاص بك لأتمتة تكوين إعدادات الصفحة.
 ### س: هل يقدم Aspose.Tasks الدعم لتنسيقات الملفات المختلفة إلى جانب .mpp؟
 ج: نعم، يدعم Aspose.Tasks تنسيقات ملفات متنوعة مثل XML وMPT وHTML وغيرها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

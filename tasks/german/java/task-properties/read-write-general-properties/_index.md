@@ -3,10 +3,16 @@ title: Beherrschen von Aufgabeneigenschaften in Aspose.Tasks
 linktitle: Allgemeine Eigenschaften von Aufgaben in Aspose.Tasks lesen und schreiben
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für Java bei der mühelosen Verwaltung von Aufgabeneigenschaften. Mit unserer Schritt-für-Schritt-Anleitung können Sie ganz einfach lesen und schreiben.
-type: docs
 weight: 26
 url: /de/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von Aufgabeneigenschaften in Aspose.Tasks
+
 ## Einführung
 Schöpfen Sie mit Aspose.Tasks das volle Potenzial der Aufgabenverwaltung in Java aus. In diesem umfassenden Leitfaden befassen wir uns mit dem Lesen und Schreiben allgemeiner Eigenschaften von Aufgaben mithilfe von Aspose.Tasks für Java. Egal, ob Sie ein erfahrener Entwickler oder ein Anfänger sind, dieses Tutorial vermittelt Ihnen die Fähigkeiten, Aufgabeneigenschaften mühelos zu manipulieren.
 ## Voraussetzungen
@@ -85,3 +91,9 @@ Ja, Aspose.Tasks ist mit Java 11 und späteren Versionen kompatibel.
  Beteiligen Sie sich an der Community-Diskussion im[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Hilfe und Zusammenarbeit.
 ### Gibt es Beispielprojekte als Referenz?
  Entdecken Sie den Beispielabschnitt der Dokumentation[Hier](https://reference.aspose.com/tasks/java/) für Beispielprojekte und Codeausschnitte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

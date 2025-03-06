@@ -3,10 +3,16 @@ title: Aspose.Tasks Görev Yönetimi ve Tablo Formatlama
 linktitle: Aspose.Tasks Görev Yönetimi ve Tablo Formatlama
 second_title: Aspose.Tasks .NET API'si
 description: Adım adım eğitimlerle Aspose.Tasks for .NET'te tabloları zahmetsizce yapılandırın ve yönetin. Proje yönetimi verimliliğini ve sunum becerilerini geliştirin.
-type: docs
 weight: 29
 url: /tr/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Görev Yönetimi ve Tablo Formatlama
+
 ## giriiş
 
 Aspose.Tasks for .NET, güçlü özellikleriyle proje yönetiminde devrim yaratıyor. Bu makalede, görev yönetimi ve tablo biçimlendirmeyle ilgili çeşitli eğitimler incelenmekte ve verimliliğinizi en üst düzeye çıkarmanız için kapsamlı bir kılavuz sunulmaktadır. Şimdi ana konulara dalalım:
@@ -91,3 +97,9 @@ Görev başlangıç tarihi türlerini zahmetsizce yapılandırmak için Aspose.T
 Proje verilerini zahmetsizce yönetmek ve görselleştirmek için Aspose.Tasks for .NET'i keşfedin. Gelişmiş proje öngörüleri için Görev Kullanımı Görünümü Alanlarına dalın.
 ### [Aspose.Tasks'ta Görev Kullanımı Görünümü Alanlarının Toplanması](./task-usage-view-fields/)
 Aspose.Tasks for .NET'i keşfedin ve görev kullanım görünümlerini nasıl yapılandıracağınızı öğrenin. Zaman ölçeği ayarlarını özelleştirin ve proje yönetimi görsellerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

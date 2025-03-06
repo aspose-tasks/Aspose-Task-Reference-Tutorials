@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 인쇄 옵션 구성
 linktitle: Aspose.Tasks에서 인쇄 옵션 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS Project 인쇄 옵션을 원활하게 구성하는 방법을 알아보세요. 프로젝트 관리 역량을 강화하세요.
-type: docs
 weight: 14
 url: /ko/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 인쇄 옵션 구성
+
 ## 소개
 소프트웨어 개발 영역에서 Aspose.Tasks for .NET은 작업과 프로젝트를 효율적으로 관리하기 위한 강력한 도구로 돋보입니다. 주요 기능 중 하나는 Microsoft Project 인쇄 옵션을 원활하게 구성하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 MS Project 인쇄 옵션을 구성하는 과정을 자세히 살펴보겠습니다.
 ## 전제조건
@@ -61,3 +67,9 @@ A: 예, Aspose.Tasks for .NET은 멀티스레딩을 지원하도록 설계되어
  A: 예, 사용자는 다음을 통해 포괄적인 기술 지원에 액세스할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15), 전문가로부터 도움과 지도를 구할 수 있습니다.
 ### Q: 구매하기 전에 .NET용 Aspose.Tasks를 평가할 수 있나요?
  답: 물론이죠! Aspose.Tasks for .NET의 무료 평가판을 다음에서 이용할 수 있습니다.[여기](https://releases.aspose.com/) 약속을 하기 전에 특징과 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

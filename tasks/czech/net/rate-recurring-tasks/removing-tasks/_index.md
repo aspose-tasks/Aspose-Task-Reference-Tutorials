@@ -3,10 +3,16 @@ title: Odebrání úloh MS Project pomocí Aspose.Tasks
 linktitle: Odebírání úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak odstranit úlohy MS Project programově pomocí Aspose.Tasks for .NET. Podrobný průvodce včetně příkladů kódu.
-type: docs
 weight: 15
 url: /cs/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odebrání úloh MS Project pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak odstranit úlohy ze souboru Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Odebrání úkolů ze souboru projektu může být běžným požadavkem ve scénářích projektového řízení a Aspose.Tasks poskytuje přímý způsob, jak toho dosáhnout.
 ## Předpoklady
@@ -75,3 +81,9 @@ Odpověď: Aspose.Tasks poskytuje robustní funkce pro vracení operací. V př�
 Odpověď: Aspose.Tasks nabízí komplexní podporu pro složité projektové struktury, což vám umožňuje snadno manipulovat s úkoly, zdroji a dalšími prvky projektu.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks?
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks z[tady](https://releases.aspose.com/tasks/net/) k prozkoumání jeho funkcí před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

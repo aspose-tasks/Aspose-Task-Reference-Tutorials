@@ -3,10 +3,16 @@ title: Calendario y programación de tareas de Aspose.
 linktitle: Calendario y programación de tareas de Aspose.
 second_title: API Aspose.Tasks .NET
 description: Administre calendarios de proyectos, calcule duraciones y maneje excepciones con Aspose.Tasks para .NET. Explore tutoriales paso a paso para tareas de programación y calendario.
-type: docs
 weight: 22
 url: /es/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calendario y programación de tareas de Aspose.
+
 ## Introducción
 
 Bienvenido al mundo de los tutoriales de Aspose.Tasks para .NET, su recurso de referencia para dominar las complejidades de la gestión y programación del calendario en sus proyectos .NET. Aspose.Tasks brinda a los desarrolladores herramientas sólidas para manejar calendarios de proyectos, calcular duraciones y gestionar excepciones sin esfuerzo. En esta completa colección de tutoriales, profundizamos en varios aspectos, desde trabajar con calendarios y administrar excepciones hasta explorar temas especializados como excepciones de encabezados de documentos compuestos y posiciones de símbolos de moneda. Ya sea que sea un desarrollador experimentado que busca conocimientos avanzados o un recién llegado ansioso por mejorar sus habilidades de gestión de proyectos, estos tutoriales brindan orientación paso a paso y ejemplos del mundo real. Embárcate en un viaje para desbloquear todo el potencial de Aspose.Tasks para .NET y elevar tus capacidades de gestión de proyectos. ¿Listo para sumergirte? ¡Empecemos!
@@ -135,3 +141,9 @@ Aprenda a administrar colecciones de tipos de días de manera eficiente en Aspos
 Aprenda a importar proyectos desde una base de datos Primavera usando Aspose.Tasks para .NET. Obtenga orientación paso a paso en este tutorial completo.
 ### [Manejo de la duración en Aspose.Tasks](./duration-handling/)
 Aprenda a manejar duraciones de manera efectiva en Aspose.Tasks para .NET con tutoriales paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Projektledning och anpassning
 linktitle: Aspose.Tasks Projektledning och anpassning
 second_title: Aspose.Tasks .NET API
 description: Bemästra Aspose.Tasks för .NET med våra projektledningsstudier. Lär dig effektiv manipulation, anpassning och optimeringstekniker för MS Project-filer.
-type: docs
 weight: 23
 url: /sv/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projektledning och anpassning
+
 ## Introduktion
 
 Är du redo att höja dina färdigheter i projektledning med Aspose.Tasks för .NET? Våra omfattande handledningar täcker en rad ämnen, från att bemästra intjänade MS Project-metoder till att effektivt hantera projektattribut och anpassa Gantt-diagram. Låt oss dyka in i Aspose.Tasks värld och låsa upp den fulla potentialen för projektledning.
@@ -130,3 +136,9 @@ Utforska hur du manipulerar MS Project-filer programmatiskt i .NET med Aspose.Ta
 Lär dig hur du hanterar Group Criterion MS Project-insamling med Aspose.Tasks för .NET. Steg-för-steg-guide för utvecklare.
 ### [Extrahera sidhuvuds- och sidfotsinformation med Aspose.Tasks](./header-footer-information/)
 Lär dig att extrahera sidhuvuds- och sidfotsinformation från MS Project-filer med Aspose.Tasks för .NET. Enkel, effektiv och utvecklarvänlig lösning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

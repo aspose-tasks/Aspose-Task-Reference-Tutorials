@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Atamaları Oluşturun
 linktitle: Aspose.Tasks'ta Kaynak Atamaları Oluşturun
 second_title: Aspose.Tasks Java API'si
 description: Bu adım adım eğitimle Aspose.Tasks for Java'da kaynak atamalarını zahmetsizce nasıl oluşturacağınızı öğrenin. Etkin proje kaynak yönetimi artık çok kolay.
-type: docs
 weight: 14
 url: /tr/java/resource-assignments/create-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Atamaları Oluşturun
+
 ## giriiş
 Proje yönetiminde kaynak atamaları, kaynakların çeşitli görevlere etkili bir şekilde tahsis edilmesinde çok önemli bir rol oynar. Aspose.Tasks for Java, proje kaynaklarını ve bunların atamalarını programlı olarak yönetmek için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak adım adım kaynak atamalarının nasıl oluşturulacağını keşfedeceğiz.
 ## Önkoşullar
@@ -59,3 +65,9 @@ C: Evet, Aspose.Tasks for Java'yı ticari projelerde kullanmak için geçerli bi
 C: Evet, proje kaynaklarını dinamik olarak yönetmek için Aspose.Tasks for Java'yı web uygulamalarınıza entegre edebilirsiniz.
 ### S: Aspose.Tasks for Java için ek desteği nerede bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Kütüphaneyle ilgili her türlü teknik yardım veya sorularınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إدارة مهام الوالدين والطفل في Aspose.Tasks
 linktitle: إدارة مهام الوالدين والطفل في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعزيز كفاءة إدارة المشاريع باستخدام Aspose.Tasks لـ Java. تعلم كيفية إدارة مهام الوالدين والطفل خطوة بخطوة. نبدأ الآن!
-type: docs
 weight: 24
 url: /ar/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مهام الوالدين والطفل في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التنظيم الفعال للمهام أمرًا بالغ الأهمية. يوفر Aspose.Tasks for Java حلاً قويًا لإدارة مهام الوالدين والطفل بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استخدام Aspose.Tasks لـ Java لتبسيط مهام مشروعك.
 ## المتطلبات الأساسية
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على وثائق شاملة لـ Aspose.Tasks لـ Java؟
  الوثائق متاحة[هنا](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

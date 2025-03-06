@@ -3,10 +3,16 @@ title: Aspose.Tasks Projectmanagement en maatwerk
 linktitle: Aspose.Tasks Projectmanagement en maatwerk
 second_title: Aspose.Tasks .NET API
 description: Beheers Aspose.Tasks voor .NET met onze projectmanagementtutorials. Leer efficiënte manipulatie-, aanpassings- en optimalisatietechnieken voor MS Project-bestanden.
-type: docs
 weight: 23
 url: /nl/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projectmanagement en maatwerk
+
 ## Invoering
 
 Bent u klaar om uw projectmanagementvaardigheden te verbeteren met Aspose.Tasks voor .NET? Onze uitgebreide tutorials behandelen een scala aan onderwerpen, van het beheersen van verdiende waarde MS Project-methoden tot het efficiënt beheren van projectkenmerken en het aanpassen van Gantt-diagrammen. Laten we een duik nemen in de wereld van Aspose.Tasks en het volledige potentieel van projectmanagement ontsluiten.
@@ -130,3 +136,9 @@ Ontdek hoe u MS Project-bestanden programmatisch kunt manipuleren in .NET met be
 Leer hoe u de Group Criterion MS Project-verzameling beheert met Aspose.Tasks voor .NET. Stapsgewijze handleiding voor ontwikkelaars.
 ### [Extraheer kop- en voettekstinformatie met Aspose.Tasks](./header-footer-information/)
 Leer kop- en voettekstinformatie uit MS Project-bestanden extraheren met Aspose.Tasks voor .NET. Eenvoudige, efficiënte en ontwikkelaarsvriendelijke oplossing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

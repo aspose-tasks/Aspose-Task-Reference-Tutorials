@@ -3,10 +3,16 @@ title: Propiedades de días laborables en Aspose.Tasks
 linktitle: Propiedades de días laborables en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a administrar las propiedades de los días laborables de manera eficiente en Aspose.Tasks para Java. Personalice las fechas de inicio de la semana, los días del mes y más con facilidad.
-type: docs
 weight: 25
 url: /es/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propiedades de días laborables en Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para Java es una potente API que permite a los desarrolladores de Java trabajar con archivos de Microsoft Project sin que Microsoft Project esté instalado en la máquina. Una de sus funcionalidades clave es administrar las propiedades de los días laborables, lo que permite a los usuarios personalizar las fechas de inicio de la semana, los días por mes, los minutos por día y los minutos por semana. Este tutorial proporcionará una guía detallada sobre cómo utilizar estas funciones de forma eficaz.
 ## Requisitos previos
@@ -74,3 +80,9 @@ R: Sí, Aspose.Tasks para Java ofrece capacidades de integración perfecta, lo q
  R: Sí, puede acceder a documentación extensa y soporte comunitario para Aspose.Tasks para Java en su[sitio web](https://releases.aspose.com/).
 ### P: ¿Hay una prueba gratuita disponible para Aspose.Tasks para Java?
 R: Sí, puede descargar una versión de prueba gratuita de Aspose.Tasks para Java desde su[sitio web](https://reference.aspose.com/tasks/java/) para explorar sus características antes de realizar una compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

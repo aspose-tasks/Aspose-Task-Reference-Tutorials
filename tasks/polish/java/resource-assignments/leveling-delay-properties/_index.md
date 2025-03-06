@@ -3,10 +3,16 @@ title: Obsługuj właściwości opóźnienia poziomowania w Aspose.Tasks
 linktitle: Obsługuj właściwości opóźnienia poziomowania dla przypisań zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak obsługiwać właściwości opóźnienia poziomowania dla przydziałów zasobów w Aspose.Tasks dla Java, korzystając z tego wszechstronnego samouczka.
-type: docs
 weight: 17
 url: /pl/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj właściwości opóźnienia poziomowania w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy proces obsługi właściwości opóźnienia poziomowania dla przydziałów zasobów w Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project w systemie.
 ## Warunki wstępne
@@ -91,3 +97,9 @@ O: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, zapewn
 ### P: Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?
 
  Odpowiedź: Możesz poprosić o licencję tymczasową od[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

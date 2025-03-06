@@ -3,10 +3,16 @@ title: OLE-objektumok gyűjteménye az Aspose.Tasks-ban
 linktitle: OLE-objektumok gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti az OLE objektumokat az Aspose.Tasks for .NET-ben. Könnyedén sajátítsa el a projektdokumentumokon belüli beágyazott fájlok kezelését.
-type: docs
 weight: 23
 url: /hu/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OLE-objektumok gyűjteménye az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az OLE (Object Linking and Embedding) objektumok kezelésével foglalkozunk az Aspose.Tasks for .NET-ben. Az OLE objektumok lehetővé teszik a felhasználók számára, hogy más alkalmazásokból származó fájlokat ágyazzanak be vagy hivatkozzanak egy projektfájlba. Lépésről lépésre bemutatjuk, hogyan kell dolgozni ezen objektumok gyűjteményével.
@@ -97,3 +103,9 @@ foreach (var oleObject in project.OleObjects)
 ### 5. kérdés: Hol találok támogatást az Aspose.Tasks számára?
 
  5. válasz: Az Aspose.Tasks fórumon kérhet támogatást és kérdéseket tehet fel[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tùy chỉnh tuần làm việc trong Aspose.Tasks
 linktitle: Bộ sưu tập các tuần làm việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh tuần làm việc trong Aspose.Tasks cho .NET. Hướng dẫn từng bước để tạo lịch dự án được cá nhân hóa. Tải ngay!
-type: docs
 weight: 17
 url: /vi/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh tuần làm việc trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách tạo một tuần làm việc tùy chỉnh bằng Aspose.Tasks cho .NET! Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình xác định tuần làm việc được cá nhân hóa cho lịch trong dự án của bạn. Aspose.Tasks là một thư viện mạnh mẽ hỗ trợ các nhà phát triển làm việc hiệu quả với các tài liệu Microsoft Project trong các ứng dụng .NET của họ.
 ## Điều kiện tiên quyết
@@ -82,3 +88,9 @@ Có, Aspose.Tasks hỗ trợ .NET Core.
 Hoàn toàn có thể, Aspose.Tasks cho phép bạn lưu dự án của mình ở nhiều định dạng khác nhau, bao gồm cả Microsoft Project.
 ### Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ hỗ trợ hoặc trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

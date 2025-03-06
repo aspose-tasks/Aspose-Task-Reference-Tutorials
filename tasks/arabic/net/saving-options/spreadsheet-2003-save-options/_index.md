@@ -3,10 +3,16 @@ title: مشروع MS مع خيارات جدول البيانات 2003 لـ Aspos
 linktitle: خيارات حفظ جدول البيانات 2003 لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Spreadsheet 2003، احفظ خيارات مشروع MS باستخدام Aspose.Tasks لـ .NET. يمكنك تخصيص ملفات MS Project وحفظها بسهولة برمجيًا.
-type: docs
 weight: 19
 url: /ar/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مشروع MS مع خيارات جدول البيانات 2003 لـ Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في الاستفادة من Aspose.Tasks لـ .NET للاستفادة من خيارات Spreadsheet 2003 Save MS Project. تسمح هذه الأداة القوية بالمعالجة والتخصيص السلس لملفات MS Project في بيئة .NET. دعونا نحلل العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
  ج: بالتأكيد! يمكنك العثور على دعم وموارد شاملة في منتدى Aspose.Tasks على[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)، حيث يتوفر الخبراء وأعضاء المجتمع للمساعدة في حل أي استفسارات أو تحديات قد تواجهها.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET من[صفحة الشراء](https://purchase.aspose.com/temporary-license/)مما يتيح لك تقييم الإمكانات الكاملة للمكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

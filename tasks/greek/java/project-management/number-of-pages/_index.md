@@ -3,10 +3,16 @@ title: Λάβετε τον αριθμό των σελίδων στο έργο μ
 linktitle: Λάβετε τον αριθμό των σελίδων στο έργο με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τις δυνατότητες ανάπτυξης Java με το Aspose.Tasks. Μάθετε πώς να χειρίζεστε τα αρχεία του Microsoft Project απρόσκοπτα και να βελτιώνετε την παραγωγικότητά σας.
-type: docs
 weight: 16
 url: /el/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε τον αριθμό των σελίδων στο έργο με το Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, το Aspose.Tasks ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό αρχείων Microsoft Project. Είτε είστε έμπειρος προγραμματιστής είτε απλώς βυθίζετε τα δάχτυλα των ποδιών σας στον προγραμματισμό Java, η εξοικείωση με το Aspose.Tasks μπορεί να βελτιώσει σημαντικά την ικανότητά σας να χειρίζεστε και να εξάγετε πολύτιμες πληροφορίες από αρχεία Project.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ iPages = project.getPageCount(0, Timescale.ThirdsOfMonths);
  Α: Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) να αλληλεπιδράσετε με την κοινότητα και να αναζητήσετε βοήθεια σχετικά με τυχόν ζητήματα ή απορίες.
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks πριν κάνω μια αγορά;
  Α: Απολύτως, μπορείτε να εξερευνήσετε τις δυνατότητες και τις λειτουργίες του Aspose.Tasks αποκτώντας μια δωρεάν δοκιμή από το[δικτυακός τόπος](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαμόρφωση επιλογών MS Project XLSX στο Aspose.Tasks
 linktitle: Διαμόρφωση επιλογών XLSX στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XLSX στο Aspose.Tasks για .NET. Προσαρμόστε στήλες, κωδικοποίηση και πιο εύκολα.
-type: docs
 weight: 11
 url: /el/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση επιλογών MS Project XLSX στο Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Το Microsoft Project (MS Project) είναι ένα ισχυρό εργαλείο για τη διαχείριση έργων και το Aspose.Tasks για .NET παρέχει απρόσκοπτη ενοποίηση για εργασία με αρχεία MS Project μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία διαμόρφωσης των επιλογών του MS Project XLSX χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ project.Save("OutputFile.xlsx", options);
 ### Ε: Υπάρχουν διαθέσιμες προσωρινές επιλογές άδειας για δοκιμαστικούς σκοπούς;
 
  Α: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από το[Σελίδα προσωρινής άδειας Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

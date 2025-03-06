@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Grup Kriterlerini Yönetin
 linktitle: Aspose.Tasks'ta Grup Kriter Koleksiyonunu Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET kullanarak Group Criterion MS Project koleksiyonunu nasıl yöneteceğinizi öğrenin. Geliştiriciler için adım adım kılavuz.
-type: docs
 weight: 28
 url: /tr/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Grup Kriterlerini Yönetin
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Bu eğitimde Aspose.Tasks kullanarak MS Project'te Group Criterion koleksiyonunun nasıl yönetileceğini inceleyeceğiz.
 
@@ -126,3 +132,9 @@ C: Kesinlikle, her birini yineleyerek ve bunları uygun şekilde ekleyerek bir g
 ### S5: Herhangi bir sorunla karşılaşırsam nasıl destek alabilirim?
 
  C: Herhangi bir sorunuz varsa veya herhangi bir sorunla karşılaşırsanız Aspose.Tasks forumundan destek arayabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

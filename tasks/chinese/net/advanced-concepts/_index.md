@@ -3,10 +3,16 @@ title: Aspose.Tasks 高级概念
 linktitle: Aspose.Tasks 高级概念
 second_title: Aspose.Tasks .NET API
 description: 了解图像保存、处理异常、树算法、标签显示、加载选项等。掌握 Aspose.Tasks for .NET 的高级概念
-type: docs
 weight: 24
 url: /zh/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 高级概念
+
 
 ## 介绍
 
@@ -84,3 +90,9 @@ url: /zh/net/advanced-concepts/
 了解如何使用 Aspose.Tasks 高效地处理 .NET 应用程序中的 OLE 对象，从而增强项目管理功能。
 ### [Aspose.Tasks 中 OLE 对象的集合](./ole-object-collection/)
 通过这个综合教程，了解如何在 Aspose.Tasks for .NET 中管理 OLE 对象。轻松掌握项目文档中嵌入文件的处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

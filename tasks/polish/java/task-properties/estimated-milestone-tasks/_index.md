@@ -3,10 +3,16 @@ title: Obsługuj zadania szacunkowe i kluczowe w Aspose.Tasks
 linktitle: Obsługuj zadania szacunkowe i kluczowe w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj efektywne zarządzanie projektami za pomocą Aspose.Tasks dla Java. Bez wysiłku wykonuj szacunkowe i kluczowe zadania. Pobierz bibliotekę teraz!
-type: docs
 weight: 15
 url: /pl/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj zadania szacunkowe i kluczowe w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla Java to potężna biblioteka, która ułatwia obsługę zadań, zarządzanie projektami i manipulowanie danymi projektu bez wysiłku. W tym samouczku skupimy się na kluczowym aspekcie zarządzania projektami – obsłudze zadań szacunkowych i kluczowych przy użyciu Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ Tak, możesz bezproblemowo zintegrować Aspose.Tasks ze swoimi projektami Java, 
  Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

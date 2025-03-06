@@ -3,10 +3,16 @@ title: Aspose.Tasks での定期的なタスク情報の抽出
 linktitle: Aspose.Tasks での定期的なタスク情報の抽出
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルから定期的なタスク情報を抽出する方法を学びます。 .NET 開発者向けの簡単な統合。
-type: docs
 weight: 13
 url: /ja/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での定期的なタスク情報の抽出
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Microsoft Project ファイルを操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks を使用して MS Project ファイルから定期的なタスク情報を抽出する方法を説明します。
 ## 前提条件
@@ -62,3 +68,9 @@ A: はい、Aspose.Tasks は MPP、XML、CSV などのさまざまなプロジ�
  A: ドキュメントは見つかります。[ここ](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET のテクニカル サポートを受けるにはどうすればよいですか?
  A: Aspose.Tasks フォーラムから技術サポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

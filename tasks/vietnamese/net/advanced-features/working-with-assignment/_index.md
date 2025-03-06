@@ -3,10 +3,16 @@ title: Làm việc với Bài tập trong Aspose.Tasks
 linktitle: Làm việc với Bài tập trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các nhiệm vụ dự án trong .NET bằng Aspose.Tasks. Khám phá các đường nét khác nhau để lập kế hoạch nguồn lực.
-type: docs
 weight: 13
 url: /vi/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Bài tập trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các bài tập trong Aspose.Tasks cho .NET. Nhiệm vụ rất quan trọng trong quản lý dự án vì chúng phân bổ nguồn lực cho các nhiệm vụ, giúp lập kế hoạch và theo dõi tiến độ. Chúng tôi sẽ tập trung vào việc tạo dữ liệu theo pha thời gian phân công tài nguyên với nhiều đường nét khác nhau bằng cách sử dụng Aspose.Tasks.
@@ -109,3 +115,9 @@ Câu trả lời 4: Có, như được minh họa trong hướng dẫn này, b�
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
 
 Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nơi các chuyên gia và thành viên cộng đồng tích cực tham gia thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

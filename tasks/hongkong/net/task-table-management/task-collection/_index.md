@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理任務集合
 linktitle: 在 Aspose.Tasks 中管理任務集合
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 中高效率的任務集管理。從創作到編輯，輕鬆掌握專案管理。
-type: docs
 weight: 18
 url: /zh-hant/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理任務集合
+
 ## 介紹
 如果您正在使用 .NET 深入研究專案管理領域，Aspose.Tasks 是您無縫處理任務集的首選解決方案。本教學將引導您完成有效管理任務集合的過程，確保您充分利用這個強大的函式庫。
 ## 先決條件
@@ -95,3 +101,9 @@ foreach (var task in tasks)
 是的，您可以在以下位置找到支持並與社區互動：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
 ### 我可以獲得 Aspose.Tasks 的臨時許可證嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعامل مع أنماط التكرار الشهرية في Aspose.
 linktitle: التعامل مع أنماط التكرار الشهرية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع أنماط التكرار الشهرية في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أنماط التكرار الشهرية في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجيًا. إحدى الوظائف الأساسية التي تقدمها هي القدرة على التعامل مع المهام المتكررة بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في كيفية التعامل مع أنماط التكرار الشهرية باستخدام Aspose.Tasks، خطوة بخطوة.
@@ -94,3 +100,9 @@ A1: يدعم Aspose.Tasks إصدارات مختلفة من ملفات Microsoft 
 ### س5: أين يمكنني شراء ترخيص Aspose.Tasks؟
 
  ج5: يمكنك شراء ترخيص Aspose.Tasks من موقع الويب[هنا](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

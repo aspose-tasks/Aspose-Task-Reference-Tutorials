@@ -3,10 +3,16 @@ title: Tạo đường cơ sở nhiệm vụ dự án MS trong Aspose.Tasks
 linktitle: Tạo Đường cơ sở nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo đường cơ sở nhiệm vụ Microsoft Project trong Java bằng Aspose.Tasks, một thư viện mạnh mẽ để quản lý dữ liệu dự án một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo đường cơ sở nhiệm vụ dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tạo đường cơ sở nhiệm vụ của Microsoft Project bằng cách sử dụng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project. Với Aspose.Tasks, bạn có thể dễ dàng thao tác dữ liệu dự án, bao gồm các nhiệm vụ, tài nguyên và lịch để hợp lý hóa các nhiệm vụ quản lý dự án.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Hoàn toàn có thể, Aspose.Tasks for Java cung cấp các tính năng mạnh 
 Có, bạn có thể dễ dàng thiết lập các phần phụ thuộc của nhiệm vụ bằng cách sử dụng Aspose.Tasks cho Java, cho phép bạn thiết lập chuỗi nhiệm vụ trong dự án của mình.
 ### Có hỗ trợ kỹ thuật cho Aspose.Tasks cho Java không?
  Có, bạn có thể truy cập hỗ trợ kỹ thuật cho Aspose.Tasks for Java thông qua[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15), nơi bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp từ cộng đồng cũng như nhân viên hỗ trợ của Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

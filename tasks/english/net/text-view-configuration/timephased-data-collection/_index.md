@@ -3,10 +3,16 @@ title: Mastering Timephased Data Collection in Aspose.Tasks
 linktitle: Collection of Timephased Data in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore timephased data collection in Aspose.Tasks for .NET. Step-by-step guide, FAQs, and more. Enhance your project management capabilities today!
-type: docs
 weight: 15
 url: /net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Timephased Data Collection in Aspose.Tasks
+
 ## Introduction
 Are you looking to harness the power of timephased data in your .NET applications using Aspose.Tasks? Look no further! This comprehensive guide will walk you through the process of collecting timephased data with Aspose.Tasks for .NET, ensuring that you make the most out of this powerful library.
 ## Prerequisites
@@ -121,3 +127,9 @@ For support, visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
 Yes, you can explore the features of Aspose.Tasks for .NET by accessing the [free trial](https://releases.aspose.com/).
 ### Where can I purchase a license for Aspose.Tasks for .NET?
 You can purchase a license for Aspose.Tasks for .NET [here](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

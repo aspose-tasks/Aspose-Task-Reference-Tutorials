@@ -3,10 +3,16 @@ title: إتقان أقنعة كود WBS باستخدام Aspose.Tasks لـ .NET
 linktitle: مجموعة أقنعة كود WBS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تحسين إدارة المشروعات باستخدام Aspose.Tasks لـ .NET. تعلم كيفية إنشاء أقنعة WBS Code وإدارتها ونقلها بسهولة في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 15
 url: /ar/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أقنعة كود WBS باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، يعد تنظيم المهام بكفاءة أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً قويًا لإدارة رموز هيكلية عمل المشروع (WBS) دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في مجموعة أقنعة كود WBS، ونستكشف كيفية تنفيذها ومعالجتها باستخدام Aspose.Tasks for .NET.
 ## المتطلبات الأساسية
@@ -139,3 +145,9 @@ foreach (var childTask in otherChildTasks)
 ج: تساعد رموز WBS على تنظيم مهام المشروع وهيكلتها بشكل هرمي، مما يوفر أسلوبًا منظمًا لتخطيط المشروع.
 ### س: هل يمكنني تخصيص تنسيق رموز WBS في Aspose.Tasks لـ .NET؟
 ج: بالتأكيد، لديك التحكم الكامل في تنسيق وبنية رموز WBS باستخدام Aspose.Tasks لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση νομίσματος στο Aspose.Tasks για Java
 linktitle: Νόμισμα
 second_title: Aspose.Tasks Java API
 description: Διαχειριστείτε χωρίς κόπο κωδικούς νομισμάτων, ψηφία και σύμβολα σε αρχεία MS Project με το Aspose.Tasks για Java. Βελτιώστε τη διαχείριση έργων με εύχρηστα σεμινάρια.
-type: docs
 weight: 22
 url: /el/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση νομίσματος στο Aspose.Tasks για Java
+
 
 ## Εισαγωγή
 
@@ -43,3 +49,9 @@ url: /el/java/currency/
 Μάθετε πώς να χειρίζεστε αποτελεσματικά τα ψηφία του νομίσματος MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
 ### [Χειρισμός συμβόλων νομισμάτων στο Aspose.Tasks](./currency-symbols/)
 Μάθετε να χειρίζεστε τα σύμβολα νομισμάτων σε αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Εύκολα βήματα για αποτελεσματική διαχείριση έργου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

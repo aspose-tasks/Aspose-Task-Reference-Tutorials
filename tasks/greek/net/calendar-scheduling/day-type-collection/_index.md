@@ -3,10 +3,16 @@ title: Διαχείριση της συλλογής τύπων ημέρας στ
 linktitle: Διαχείριση της συλλογής τύπων ημέρας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις συλλογές τύπων ημέρας στο Aspose.Tasks για .NET. Δημιουργήστε, τροποποιήστε και χειριστείτε τις εξαιρέσεις ημερολογίου με ευκολία.
-type: docs
 weight: 28
 url: /el/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση της συλλογής τύπων ημέρας στο Aspose.Tasks
+
 ## Εισαγωγή
 
  Το Aspose.Tasks για .NET παρέχει ισχυρή λειτουργικότητα για τη διαχείριση συλλογών τύπων ημέρας, ζωτικής σημασίας για τον καθορισμό εβδομαδιαίων εξαιρέσεων ημερολογίου σε εφαρμογές διαχείρισης έργων. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το`DayTypeCollection` τάξη αποτελεσματικά. 
@@ -141,3 +147,9 @@ A2: Ναι, το Aspose.Tasks για .NET υποστηρίζει τόσο .NET C
 ### Ε5: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για .NET;
 
  A5: Ναι, οι προσωρινές άδειες είναι διαθέσιμες για αγορά από το[Aspose ιστότοπο](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

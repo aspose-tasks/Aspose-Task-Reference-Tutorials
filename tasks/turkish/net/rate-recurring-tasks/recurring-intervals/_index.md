@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Zahmetsiz MS Projesi Yinelenen Aralıklar
 linktitle: Aspose.Tasks'ta Tekrarlanan Aralıkları Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project'te yinelenen aralıkları zahmetsizce nasıl yönetebileceğinizi keşfedin.
-type: docs
 weight: 12
 url: /tr/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Zahmetsiz MS Projesi Yinelenen Aralıklar
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarında yinelenen aralıkları verimli bir şekilde yönetmek mi istiyorsunuz? Bu kapsamlı eğitim, projelerinizde yinelenen aralıkları zahmetsizce yönetebilmenizi sağlayacak şekilde süreç boyunca size adım adım rehberlik edecektir. Eğiticiye dalmadan önce, başlamaya hazır olduğunuzdan emin olmak için bazı önkoşulların üzerinden geçelim.
 ## Önkoşullar
@@ -103,3 +109,9 @@ Evet, Aspose.Tasks for .NET, C# ve VB.NET gibi .NET destekli herhangi bir dille 
  Evet, adresinden geçici bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for .NET'in tüm belgelerini nerede bulabilirim?
  Tüm dokümantasyonu bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

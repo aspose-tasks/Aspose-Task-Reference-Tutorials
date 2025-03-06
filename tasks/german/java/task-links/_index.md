@@ -3,10 +3,16 @@ title: Aufgabenlinks
 linktitle: Aufgabenlinks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie Aspose.Tasks für Java mit unseren Tutorials. Verbessern Sie die Zusammenarbeit, definieren Sie Linktypen und verwalten Sie Aufgaben nahtlos. Steigern Sie jetzt Ihre Projekteffizienz!
-type: docs
 weight: 33
 url: /de/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufgabenlinks
+
 ## Einführung
 
 Wenn Sie in die Welt des Java-Projektmanagements eintauchen, ist Aspose.Tasks Ihr Werkzeug der Wahl. Unsere umfassenden Tutorials ermöglichen es Ihnen, verschiedene Aspekte zu beherrschen und so eine optimale Nutzung der Aspose.Tasks für Java-Bibliothek sicherzustellen.
@@ -38,3 +44,9 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für Java im Projektmanag
 Entdecken Sie die projektübergreifende Aufgabenidentifizierung mit Aspose.Tasks für Java. Nahtlose Integration und effizientes Management. Jetzt downloaden!
 ### [Verwalten Sie Vorgänger- und Nachfolgeraufgaben in Aspose.Tasks](./predecessor-successor-tasks/)
 Entdecken Sie effizientes Aufgabenmanagement mit Aspose.Tasks für Java. Erledigen Sie problemlos Vorgänger- und Nachfolgeraufgaben in Ihren Projekten. Laden Sie jetzt Ihre kostenlose Testversion herunter!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

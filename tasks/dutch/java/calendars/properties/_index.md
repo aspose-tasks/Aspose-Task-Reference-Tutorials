@@ -3,10 +3,16 @@ title: Beheer MS Project-agenda-eigenschappen in Aspose.Tasks
 linktitle: Beheer agenda-eigenschappen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u MS Project-agenda-eigenschappen in Java beheert met Aspose.Tasks. Dit biedt stapsgewijze begeleiding voor de agenda binnen uw Java-applicaties.
-type: docs
 weight: 10
 url: /nl/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer MS Project-agenda-eigenschappen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u MS Project-agenda-eigenschappen kunt beheren met Aspose.Tasks voor Java. Door te begrijpen hoe u kalendereigenschappen kunt manipuleren, kunt u projectplanningen efficiënt afstemmen op specifieke vereisten.
 ## Vereisten
@@ -71,3 +77,9 @@ EEN: Absoluut! U kunt de agendabeheerfuncties van Aspose.Tasks naadloos integrer
 A: Ja, Aspose.Tasks biedt een breed scala aan functionaliteiten voor het beheren van taken, bronnen en projectstructuren, waardoor het een uitgebreide oplossing is voor projectbeheer in Java.
 ### Vraag: Is er technische ondersteuning beschikbaar voor ontwikkelaars die Aspose.Tasks gebruiken?
 A: Ja, ontwikkelaars hebben toegang tot technische ondersteuning via het Aspose.Tasks-forum, zodat ze hulp kunnen krijgen bij eventuele vragen of problemen die ze tijdens de implementatie tegenkomen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

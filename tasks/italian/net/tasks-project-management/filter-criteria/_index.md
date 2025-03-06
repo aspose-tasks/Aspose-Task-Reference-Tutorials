@@ -3,10 +3,16 @@ title: Padroneggiare i criteri di filtro di MS Project con Aspose.Tasks
 linktitle: Criteri di filtro in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come implementare i criteri di filtro in MS Project utilizzando Aspose.Tasks per .NET. Aumenta l'efficienza della gestione dei progetti con l'analisi mirata dei dati.
-type: docs
 weight: 18
 url: /it/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare i criteri di filtro di MS Project con Aspose.Tasks
+
 ## introduzione
 Nel campo della gestione dei progetti, Microsoft Project è uno strumento valido, offrendo una vasta gamma di funzionalità per aiutare i pianificatori e i gestori di progetti. Tra le sue numerose funzionalità c'è la capacità di filtrare i dati del progetto, consentendo agli utenti di concentrarsi su aspetti specifici delle attività del proprio progetto. Tuttavia, padroneggiare queste capacità di filtraggio può essere un compito arduo senza la giusta guida. Questo tutorial mira a demistificare il processo fornendo una guida passo passo sull'implementazione dei criteri di filtro in MS Project utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -89,3 +95,9 @@ R: Aspose.Tasks supporta .NET Framework, .NET Core e .NET Standard, garantendo f
 R: Assolutamente, puoi regolare a livello di codice i criteri di filtro in base a parametri dinamici, consentendo l'analisi adattiva dei dati di progetto.
 ### D: Dove posso chiedere assistenza se riscontro problemi con Aspose.Tasks?
  R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per cercare supporto dalla comunità o contattare direttamente il supporto di Aspose.Tasks per assistenza personalizzata.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

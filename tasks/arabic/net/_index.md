@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.Tasks لـ .NET
 linktitle: Aspose.Tasks لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: استكشف Aspose.Tasks لبرامج .NET التعليمية التي تغطي خيارات الحفظ والتقويم والجدولة وإدارة المشاريع والمزيد. ارفع مهاراتك في إدارة المشاريع.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.Tasks لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق الإمكانات الكاملة لـ Aspose.Tasks لـ .NET؟ انغمس في برامجنا التعليمية الشاملة والأمثلة التي تغطي مجموعة واسعة من المواضيع لتعزيز مهارات إدارة المشروع لديك. بدءًا من خيارات الحفظ وحتى الميزات المتقدمة ومهام التقويم والجدولة وإدارة المشاريع والتخصيص، فإننا نوفر لك كل ما تحتاجه.
@@ -72,3 +77,9 @@ is_root: true
 اكتشف كيفية تحسين أمان ملفات Microsoft Project PDF الخاصة بك باستخدام Aspose.Tasks لـ .NET. تعلم تقنيات التوقيع الرقمي والتشفير.
 ### [Aspose.Tasks إدارة الترخيص](./license-management/)
 أطلق العنان لقوة Aspose.Tasks لـ .NET من خلال برامجنا التعليمية الشاملة. إدارة التراخيص وتحسين استخدام MS Project لإدارة المشاريع بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

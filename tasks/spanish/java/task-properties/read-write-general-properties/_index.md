@@ -3,10 +3,16 @@ title: Dominar las propiedades de las tareas en Aspose.Tasks
 linktitle: Leer y escribir propiedades generales de tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore el poder de Aspose.Tasks para Java para administrar las propiedades de las tareas sin esfuerzo. Lea y escriba con facilidad utilizando nuestra guía paso a paso.
-type: docs
 weight: 26
 url: /es/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las propiedades de las tareas en Aspose.Tasks
+
 ## Introducción
 Libere todo el potencial de la gestión de tareas en Java con Aspose.Tasks. En esta guía completa, profundizaremos en la lectura y escritura de propiedades generales de tareas utilizando Aspose.Tasks para Java. Ya sea que sea un desarrollador experimentado o un principiante, este tutorial le brindará las habilidades para manipular las propiedades de las tareas sin esfuerzo.
 ## Requisitos previos
@@ -85,3 +91,9 @@ Sí, Aspose.Tasks es compatible con Java 11 y versiones posteriores.
  Únase a la discusión comunitaria en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para asistencia y colaboración.
 ### ¿Hay algún proyecto de muestra disponible como referencia?
  Explora la sección de ejemplos de la documentación.[aquí](https://reference.aspose.com/tasks/java/) para proyectos de muestra y fragmentos de código.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

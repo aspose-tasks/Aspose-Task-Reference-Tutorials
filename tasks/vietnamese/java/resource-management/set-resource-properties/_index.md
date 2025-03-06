@@ -3,10 +3,16 @@ title: Đặt thuộc tính tài nguyên trong Aspose.Tasks
 linktitle: Đặt thuộc tính tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đặt thuộc tính tài nguyên MS Project trong Java bằng Aspose.Tasks để tích hợp liền mạch và quản lý tác vụ hiệu quả.
-type: docs
 weight: 20
 url: /vi/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thuộc tính tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, quản lý tác vụ một cách hiệu quả là một khía cạnh quan trọng của quản lý dự án. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để các nhà phát triển tương tác với các tệp Microsoft Project, cho phép tích hợp liền mạch các chức năng quản lý tác vụ vào các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc thiết lập các thuộc tính tài nguyên MS Project bằng Aspose.Tasks cho Java. Đến cuối hướng dẫn này, bạn sẽ hiểu toàn diện về cách thao tác các thuộc tính tài nguyên trong các dự án Java của mình.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Có, Aspose.Tasks for Java có khả năng xử lý nhiều định dạng tệp
  Bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
 ### Tôi có thể mua phiên bản Aspose.Tasks được cấp phép cho Java ở đâu?
  Bạn có thể mua phiên bản Aspose.Tasks được cấp phép cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

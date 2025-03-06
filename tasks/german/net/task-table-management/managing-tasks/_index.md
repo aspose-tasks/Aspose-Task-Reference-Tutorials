@@ -3,10 +3,16 @@ title: Verwalten von Aufgaben in Aspose.Tasks
 linktitle: Verwalten von Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie den umfassenden Leitfaden zum Verwalten von Aufgaben mit Aspose.Tasks für .NET. Erfahren Sie, wie Sie geteilte Teile hinzufügen, anzeigen, verschieben, Eigenschaften abrufen/festlegen und vieles mehr.
-type: docs
 weight: 15
 url: /de/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von Aufgaben in Aspose.Tasks
+
 ## Einführung
 Wenn Sie ein .NET-Entwickler sind und Aufgaben in Ihren Projekten effizient verwalten möchten, bietet Aspose.Tasks für .NET eine robuste Lösung. Dieses Tutorial führt Sie durch verschiedene Aspekte der Aufgabenverwaltung mit Aspose.Tasks und bietet Schritt-für-Schritt-Anleitungen und Codebeispiele. Ganz gleich, ob Sie Aufgaben hinzufügen, geteilte Teile anzeigen, Aufgaben unter dasselbe übergeordnete Element verschieben, Aufgabeneigenschaften abrufen/festlegen, Aufgabenzuweisungen iterieren, Aufgabenbasislinien lesen oder Aufgaben löschen – in diesem Leitfaden sind Sie bestens aufgehoben.
 ## Voraussetzungen
@@ -144,3 +150,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene .NET Frameworks und gewährleistet
 A: Auf jeden Fall! Aspose.Tasks bietet umfangreiche Anpassungsoptionen für Aufgabeneigenschaften. Weitere Einzelheiten finden Sie in der Dokumentation.
 ### F: Wie erhalte ich Unterstützung für Aspose.Tasks?
  A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

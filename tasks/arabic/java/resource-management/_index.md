@@ -3,10 +3,16 @@ title: إدارة الموارد
 linktitle: إدارة الموارد
 second_title: Aspose.Tasks جافا API
 description: إدارة الموارد الرئيسية في MS Project باستخدام Aspose.Tasks لـ Java. تعلم كيفية إنشاء التكاليف وتكرارها وإدارتها والمزيد. تحسين التطوير من خلال برامجنا التعليمية.
-type: docs
 weight: 31
 url: /ar/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة الموارد
+
 ## مقدمة
 
 في مجال تطوير MS Project باستخدام Java، تبرز Aspose.Tasks كمكتبة قوية تقدم مجموعة شاملة من الوظائف لإدارة الموارد بشكل فعال. سترشدك هذه السلسلة من البرامج التعليمية عبر جوانب مختلفة، مما يضمن أنك ماهر في التعامل مع موارد Microsoft Project بسلاسة.
@@ -63,3 +69,9 @@ url: /ar/java/resource-management/
 تعرف على كيفية تعيين خصائص موارد MS Project في Java باستخدام Aspose.Tasks للتكامل السلس وإدارة المهام بكفاءة.
 ### [كتابة بيانات الموارد المحدثة في Aspose.Tasks](./write-updated-resource-data/)
 تعرف على كيفية تحديث بيانات الموارد في ملفات MS Project بسهولة باستخدام Aspose.Tasks لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

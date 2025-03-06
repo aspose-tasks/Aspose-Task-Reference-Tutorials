@@ -3,10 +3,16 @@ title: Aspose.Tasks Kullanarak Takvim İstisnalarında Oluşan Olayları İşley
 linktitle: Aspose.Tasks Kullanarak Takvim İstisnalarında Oluşan Olayları İşleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile Java projelerinde takvim istisnalarını etkili bir şekilde nasıl ele alacağınızı öğrenin. Proje yönetimi sürecinizi şimdi kolaylaştırın.
-type: docs
 weight: 12
 url: /tr/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kullanarak Takvim İstisnalarında Oluşan Olayları İşleyin
+
 ## giriiş
 Proje yönetimi alanında takvimlerdeki istisnalarla uğraşmak doğruluğu ve verimliliği korumak açısından çok önemlidir. Aspose.Tasks for Java, takvimlerdeki olayların etkili bir şekilde yönetilmesi de dahil olmak üzere, projeyle ilgili görevleri yönetmek için güçlü bir araç seti sağlar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak takvim olaylarındaki istisnaları nasıl yöneteceğimizi inceleyeceğiz.
 ## Önkoşullar
@@ -59,3 +65,9 @@ Aspose tarafından düzenli olarak güncellemeler ve geliştirmeler yapılarak, 
 Evet, Aspose.Tasks kapsamlı kişiselleştirme seçenekleri sunarak kullanıcıların takvim istisnalarını kendi projelerinin özel ihtiyaçlarına göre uyarlamalarına olanak tanıyor.
 ### Aspose.Tasks satın almadan önce ücretsiz deneme sunuyor mu?
  Evet, ilgilenen kullanıcılar Aspose.Tasks for Java'nın ücretsiz deneme sürümüne şu adresten erişebilir:[İnternet sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

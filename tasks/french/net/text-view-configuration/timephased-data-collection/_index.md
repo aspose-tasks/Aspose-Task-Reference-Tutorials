@@ -3,10 +3,16 @@ title: Maîtriser la collecte de données chronologiques dans Aspose.Tasks
 linktitle: Collecte de données chronologiques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez la collecte de données chronologique dans Aspose.Tasks pour .NET. Guide étape par étape, FAQ et bien plus encore. Améliorez vos capacités de gestion de projet dès aujourd'hui !
-type: docs
 weight: 15
 url: /fr/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la collecte de données chronologiques dans Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à exploiter la puissance des données chronologiques dans vos applications .NET à l’aide d’Aspose.Tasks ? Cherchez pas plus loin! Ce guide complet vous guidera tout au long du processus de collecte de données chronologiques avec Aspose.Tasks pour .NET, garantissant que vous tirez le meilleur parti de cette puissante bibliothèque.
 ## Conditions préalables
@@ -121,3 +127,9 @@ Aspose.Tasks gère des projets de différentes tailles et il n'y a pas de limite
  Oui, vous pouvez explorer les fonctionnalités d'Aspose.Tasks pour .NET en accédant au[essai gratuit](https://releases.aspose.com/).
 ### Où puis-je acheter une licence pour Aspose.Tasks pour .NET ?
 Vous pouvez acheter une licence pour Aspose.Tasks pour .NET[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

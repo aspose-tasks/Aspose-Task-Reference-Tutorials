@@ -3,10 +3,16 @@ title: A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
 linktitle: A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az erőforrások rendelkezésre állási időszakait az Aspose.Tasks for .NET használatával. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a .NET-projektek rendelkezésre állási időszakainak kezeléséhez.
-type: docs
 weight: 17
 url: /hu/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk a rendelkezésre állási időszakokkal az Aspose.Tasks for .NET-ben. A rendelkezésre állási időszakok kulcsfontosságúak az erőforrások hatékony kezeléséhez a projektmenedzsment forgatókönyveiben. Lépésről lépésre végigvezetjük a folyamaton.
@@ -107,3 +113,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a rendelkezésre áll�
 ### 5. kérdés: Kínál ideiglenes licenceket az Aspose.Tasks for .NET számára?
 
  5. válasz: Igen, rendelkezésre állnak ideiglenes licencek[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

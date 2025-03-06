@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Proje Kaynağı Koleksiyonunu Yönetme
 linktitle: Aspose.Tasks'ta Kaynak Toplama Yönetimi
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks API'yi kullanarak .NET'te Microsoft Project kaynak koleksiyonlarını nasıl verimli bir şekilde yöneteceğinizi öğrenin. Üretkenliği ve esnekliği artırın.
-type: docs
 weight: 13
 url: /tr/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Proje Kaynağı Koleksiyonunu Yönetme
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Microsoft Project kaynak koleksiyonlarını etkili bir şekilde nasıl yönetebileceğimizi keşfedeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerinin sorunsuz entegrasyonuna ve manipülasyonuna olanak tanıyan güçlü bir API'dir.
 ## Önkoşullar
@@ -99,3 +105,9 @@ C: Evet, Aspose.Tasks çoklu iş parçacığını destekleyerek performansı art
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
 
  C: Evet, Aspose.Tasks kullanıcıları teknik desteğe forum aracılığıyla erişebilirler[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

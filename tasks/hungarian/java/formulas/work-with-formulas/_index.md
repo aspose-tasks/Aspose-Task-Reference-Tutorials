@@ -3,10 +3,16 @@ title: MS Project Formulák Aspose.Tasks-szal Java-hoz
 linktitle: Dolgozzon képletekkel az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti az MS Project fájlokat Java nyelven az Aspose.Tasks könyvtár használatával. Az attribútumok egyszerű létrehozása, módosítása és kiszámítása.
-type: docs
 weight: 11
 url: /hu/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Formulák Aspose.Tasks-szal Java-hoz
+
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Tasks for Java használatával való MS Project Formulas-okkal való munkavégzésről fogunk beszélni. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Kiterjedt szolgáltatásaival könnyedén hozhat létre, olvashat, módosíthat és konvertálhat projektfájlokat Java alkalmazásokban.
 ## Előfeltételek
@@ -64,3 +70,9 @@ V: Igen, az Aspose.Tasks különféle programozási nyelveket támogat, beleért
  V: Támogatásért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 ### K: Szükségem van ideiglenes licencre az Aspose.Tasks használatához?
 V: Ha további funkciókra van szüksége, ideiglenes licencet szerezhet be a webhelyen[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

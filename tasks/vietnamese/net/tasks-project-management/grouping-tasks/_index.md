@@ -3,10 +3,16 @@ title: Nhóm nhiệm vụ dự án MS hiệu quả với Aspose.Tasks
 linktitle: Nhóm các nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách nhóm các tác vụ Microsoft Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET.
-type: docs
 weight: 25
 url: /vi/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhóm nhiệm vụ dự án MS hiệu quả với Aspose.Tasks
+
 ## Giới thiệu
 Việc quản lý các nhiệm vụ trong Microsoft Project đôi khi có thể gặp khó khăn, đặc biệt là khi sắp xếp chúng một cách hiệu quả. Aspose.Tasks for .NET cung cấp một giải pháp toàn diện cho vấn đề này bằng cách cung cấp các chức năng để nhóm các tác vụ một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách nhóm các tác vụ MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp MS Proj
 Hoàn toàn có thể, Aspose.Tasks cung cấp các tùy chọn để tùy chỉnh giao diện của các tác vụ được nhóm, bao gồm màu ô, phông chữ và kiểu.
 ### Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ và trợ giúp cho Aspose.Tasks for .NET trong[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đọc dữ liệu dự án từ cơ sở dữ liệu dự án MS trong A
 linktitle: Đọc dữ liệu dự án từ cơ sở dữ liệu dự án Microsoft trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc dữ liệu dự án từ Cơ sở dữ liệu Microsoft Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 12
 url: /vi/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu dự án từ cơ sở dữ liệu dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đọc dữ liệu dự án từ Cơ sở dữ liệu dự án Microsoft bằng Aspose.Tasks cho Java. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu Microsoft Project mà không cần cài đặt Microsoft Project. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn sẽ tìm hiểu cách trích xuất dữ liệu dự án từ cơ sở dữ liệu một cách hiệu quả và lưu nó ở định dạng mong muốn.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cung cấp nhiều tính năng 
 Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng đầu ra khác nhau, bao gồm XML, PDF, HTML và các định dạng hình ảnh như PNG và JPEG.
 ### Câu hỏi: Tôi có thể tìm thêm hỗ trợ hoặc trợ giúp với Aspose.Tasks ở đâu?
  Trả lời: Để được hỗ trợ hoặc trợ giúp thêm, bạn có thể truy cập diễn đàn Aspose.Tasks hoặc khám phá tài liệu có sẵn trên trang web[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

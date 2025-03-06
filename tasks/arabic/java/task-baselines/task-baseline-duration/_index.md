@@ -3,10 +3,16 @@ title: إدارة المدة الأساسية للمهمة في Aspose.Tasks
 linktitle: إدارة المدة الأساسية للمهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة الخطوط الأساسية للمهام بكفاءة في MS Project باستخدام Aspose.Tasks لـ Java. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية.
-type: docs
 weight: 12
 url: /ar/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة المدة الأساسية للمهمة في Aspose.Tasks
+
 ## مقدمة
 تعد إدارة الخطوط الأساسية للمهام في MS Project أمرًا بالغ الأهمية لتخطيط المشروع وتتبعه. في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة فترات خط الأساس للمهام بشكل فعال باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ for (TimephasedData data : baseline.getTimephasedData()) {
 نعم، يقدم Aspose.Tasks مجموعة واسعة من الميزات لإدارة المشاريع، بما في ذلك جدولة المهام وتخصيص الموارد وإنشاء مخطط جانت.
 ### أين يمكنني العثور على الدعم لـ Aspose.Tasks؟
  يمكنك العثور على دعم لـ Aspose.Tasks على الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)حيث يمكنك طرح الأسئلة والتفاعل مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

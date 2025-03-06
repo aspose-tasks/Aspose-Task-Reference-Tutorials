@@ -3,10 +3,16 @@ title: プロジェクト管理
 linktitle: プロジェクト管理
 second_title: Aspose.Tasks Java API
 description: 包括的なプロジェクト管理チュートリアルで Aspose.Tasks Java を探索してください。クリティカル パスの計算から会計年度のプロパティに至るまで、ワークフローを合理化します。
-type: docs
 weight: 27
 url: /ja/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プロジェクト管理
+
 ## 導入
 
 Aspose.Tasks for Java を使用してプロジェクト管理スキルを向上させる準備はできていますか? Java 開発の取り組みを強化するさまざまな特徴や機能を網羅した特別なチュートリアルを詳しく見てみましょう。クリティカル パスの計算から印刷中のタスク書き込み例外の処理まで、すべてをカバーします。あなたを待っている豊富な知識を探索しましょう。
@@ -69,3 +75,9 @@ Aspose.Tasks for Java を使用して、Primavera XML から MS Project ファ�
 Aspose.Tasks for Java でページを個別の画像に印刷する方法を学習します。このステップバイステップのガイドを使用して、プロジェクトの視覚化を改善します。
 ### [Aspose.Tasks での印刷中のタスク書き込み例外を処理する](./print-task-exceptions/)
 Aspose.Tasks for Java の例外処理をマスターして、プロジェクトをシームレスに実行できるようにします。印刷中にタスク書き込み例外を簡単に処理する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

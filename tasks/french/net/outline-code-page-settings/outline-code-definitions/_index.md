@@ -3,10 +3,16 @@ title: Définitions de gestion du code de plan MS Project dans Aspose.Tasks
 linktitle: Gestion des définitions de code hiérarchique dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer les définitions de code hiérarchique MS Project à l'aide d'Aspose.Tasks pour .NET, renforçant ainsi vos applications de gestion de projet.
-type: docs
 weight: 12
 url: /fr/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définitions de gestion du code de plan MS Project dans Aspose.Tasks
+
 ## Introduction
 Microsoft Project est un outil puissant pour gérer des projets et Aspose.Tasks pour .NET fournit une prise en charge complète pour la manipulation des fichiers de projet par programme. Un aspect essentiel de la gestion de projet consiste à organiser les tâches à l’aide de codes hiérarchiques. Dans ce didacticiel, nous explorerons comment gérer les définitions de code hiérarchique MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -91,3 +97,9 @@ R : Oui, Aspose.Tasks pour .NET fournit des fonctionnalités étendues pour mani
 R : Absolument, Aspose.Tasks pour .NET prend en charge la lecture et l'écriture de champs personnalisés, y compris les codes hiérarchiques, à partir de fichiers MS Project.
 ### Q5 : Existe-t-il un forum communautaire pour Aspose.Tasks pour .NET ?
  R : Oui, vous pouvez rejoindre le forum communautaire pour Aspose.Tasks pour .NET.[ici](https://forum.aspose.com/c/tasks/15) pour poser des questions, partager des connaissances et collaborer avec d'autres développeurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

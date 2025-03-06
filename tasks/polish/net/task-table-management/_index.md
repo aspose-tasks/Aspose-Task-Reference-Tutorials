@@ -3,10 +3,16 @@ title: Aspose.Tasks Zarządzanie zadaniami i formatowanie tabeli
 linktitle: Aspose.Tasks Zarządzanie zadaniami i formatowanie tabeli
 second_title: Aspose.Tasks .NET API
 description: Konfiguruj i zarządzaj tabelami bez wysiłku w Aspose.Tasks dla .NET dzięki samouczkom krok po kroku. Zwiększ efektywność zarządzania projektami i umiejętności prezentacji.
-type: docs
 weight: 29
 url: /pl/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zarządzanie zadaniami i formatowanie tabeli
+
 ## Wstęp
 
 Aspose.Tasks dla .NET rewolucjonizuje zarządzanie projektami dzięki swoim solidnym funkcjom. W tym artykule omówiono różne samouczki dotyczące zarządzania zadaniami i formatowania tabel, oferując kompleksowy przewodnik pozwalający zmaksymalizować wydajność. Przejdźmy do kluczowych tematów:
@@ -91,3 +97,9 @@ Przeglądaj Aspose.Tasks dla .NET, aby bez wysiłku skonfigurować typy dat rozp
 Przeglądaj Aspose.Tasks dla .NET, aby bez wysiłku zarządzać danymi projektu i wizualizować je. Zapoznaj się z polami widoku wykorzystania zadań, aby uzyskać lepszy wgląd w projekt.
 ### [Zbiór pól widoku wykorzystania zadań w Aspose.Tasks](./task-usage-view-fields/)
 Poznaj Aspose.Tasks dla .NET i dowiedz się, jak skonfigurować widoki wykorzystania zadań. Dostosuj ustawienia skali czasu i ulepsz wizualizacje zarządzania projektami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

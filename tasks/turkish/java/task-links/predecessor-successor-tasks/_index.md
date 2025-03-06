@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Önceki ve Ardıl Görevleri Yönetin
 linktitle: Aspose.Tasks'ta Önceki ve Ardıl Görevleri Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile verimli görev yönetimini keşfedin. Projelerinizde öncül ve ardıl görevleri kolayca gerçekleştirin. Şimdi ücretsiz deneme sürümünü indirin!
-type: docs
 weight: 15
 url: /tr/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Önceki ve Ardıl Görevleri Yönetin
+
 ## giriiş
 Proje yönetimi alanında görev bağımlılıklarının etkili bir şekilde ele alınması çok önemlidir. Aspose.Tasks for Java, projelerinizde öncül ve ardıl görevleri yönetmek için güçlü bir çözüm sunar. Bu eğitim, görev bağlantılarını verimli bir şekilde yönetmek için Aspose.Tasks'tan yararlanma sürecinde size rehberlik edecek ve görevler arasında bağımlılıklar oluşturmanıza olanak tanıyacak.
 ## Önkoşullar
@@ -52,3 +58,9 @@ Evet, Aspose.Tasks, MPP, XML ve daha fazlası dahil olmak üzere çeşitli proje
  Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
 ### Aspose.Tasks for Java'nın ücretsiz deneme sürümünü indirebilir miyim?
  Evet, ücretsiz deneme sürümünü şuradan indirin:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

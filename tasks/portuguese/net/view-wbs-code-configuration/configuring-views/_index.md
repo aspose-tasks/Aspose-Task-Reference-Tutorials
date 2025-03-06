@@ -3,10 +3,16 @@ title: Dominando as visualizações do Microsoft Project com Aspose.Tasks
 linktitle: Configurando visualizações em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine as visualizações do Microsoft Project com Aspose.Tasks para .NET. Personalize e simplifique sua experiência de gerenciamento de projetos sem esforço.
-type: docs
 weight: 10
 url: /pt/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando as visualizações do Microsoft Project com Aspose.Tasks
+
 ## Introdução
 No mundo dinâmico do gerenciamento de projetos, a personalização de visualizações no Microsoft Project pode melhorar significativamente o seu fluxo de trabalho. Aspose.Tasks for .NET fornece um kit de ferramentas poderoso para manipular e configurar visualizações de projetos perfeitamente. Neste tutorial, nos aprofundaremos nas etapas de configuração de visualizações usando Aspose.Tasks for .NET, ajudando você a agilizar a visualização do seu projeto.
 ## Pré-requisitos
@@ -78,3 +84,9 @@ Aspose.Tasks foi projetado principalmente para Microsoft Project, garantindo int
  Com certeza, mergulhe na documentação do Aspose.Tasks[aqui](https://reference.aspose.com/tasks/net/) para opções de personalização avançadas.
 ### Onde posso comprar o Aspose.Tasks para .NET?
  Você pode comprar a biblioteca[aqui](https://purchase.aspose.com/buy) para uma experiência perfeita de gerenciamento de projetos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

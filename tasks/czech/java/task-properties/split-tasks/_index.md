@@ -3,10 +3,16 @@ title: Rozdělit úkoly v Aspose.Tasks
 linktitle: Rozdělit úkoly v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Ovládněte správu úloh v Javě pomocí Aspose.Tasks! Naučte se, jak efektivně rozdělit úkoly pro optimalizované časové osy projektů. Stáhnout teď!
-type: docs
 weight: 29
 url: /cs/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozdělit úkoly v Aspose.Tasks
+
 ## Úvod
 Potýkáte se se správou úloh ve svém projektu Java? Aspose.Tasks for Java poskytuje výkonné řešení pro efektivní rozdělování úkolů a zlepšuje možnosti řízení projektů. V tomto tutoriálu vás provedeme procesem rozdělování úkolů pomocí Aspose.Tasks for Java, který vám pomůže optimalizovat časové osy vašich projektů a alokace zdrojů.
 ## Předpoklady
@@ -88,3 +94,9 @@ Aspose.Tasks for Java nabízí bezplatnou zkušební verzi, která vám umožní
  Navštivte[Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15) získat pomoc a spojit se s komunitou.
 ### Potřebuji dočasnou licenci pro Aspose.Tasks for Java?
  Dočasnou licenci můžete získat od[tento odkaz](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

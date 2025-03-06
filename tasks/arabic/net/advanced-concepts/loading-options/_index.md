@@ -3,10 +3,16 @@ title: خيارات التحميل في Aspose.Tasks
 linktitle: خيارات التحميل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية الاستفادة من قوة Aspose.Tasks لـ .NET لإدارة مستندات Microsoft Project بكفاءة من خلال إرشادات خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/net/advanced-concepts/loading-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات التحميل في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بمعالجة مستندات Microsoft Project برمجياً. سواء كنت بحاجة إلى إنشاء ملفات المشروع أو قراءتها أو كتابتها أو تحويلها، فإن Aspose.Tasks يوفر نطاقًا واسعًا من الوظائف لتبسيط مهامك. في هذا البرنامج التعليمي، سنتعمق في أساسيات استخدام Aspose.Tasks لـ .NET، وتقسيم العمليات الأساسية إلى خطوات بسيطة وقابلة للتنفيذ.
@@ -165,3 +171,9 @@ private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs
 ### س5: ما مدى تكرار التحديثات والميزات الجديدة التي يتم إصدارها لـ Aspose.Tasks لـ .NET؟
 
 ج5: يتلقى Aspose.Tasks لـ .NET تحديثات منتظمة وتحسينات في الميزات لضمان الأداء الأمثل والتوافق مع التقنيات المتطورة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

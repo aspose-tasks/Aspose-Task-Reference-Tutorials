@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 高效處理項目差異
 linktitle: 處理 Aspose.Tasks 中的差異
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效處理專案差異。輕鬆管理工作、成本、開始和完成差異。
-type: docs
 weight: 15
 url: /zh-hant/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 高效處理項目差異
+
 ## 介紹
 在本教程中，我們將探討如何處理 Aspose.Tasks for Java 中的差異。差異是專案管理中與計劃值的偏差，例如工作、成本、開始或完成日期。 Aspose.Tasks提供了有效的方法來檢索和管理這些差異，幫助開發人員有效地分析和調整專案進度。
 ## 先決條件
@@ -65,3 +71,9 @@ System.out.println(ra.get(Asn.FINISH_VARIANCE));
 答：是的，用戶可以透過以下方式獲得技術支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)如有任何幫助或疑問。
 ### Q：我可以在購買前試用 Aspose.Tasks 嗎？
 答：是的，您可以免費試用 Aspose.Tasks[這裡](https://releases.aspose.com/)在購買之前評估其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

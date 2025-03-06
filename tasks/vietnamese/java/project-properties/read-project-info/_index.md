@@ -3,10 +3,16 @@ title: Trích xuất thông tin dự án Microsoft bằng Aspose.Tasks cho Java
 linktitle: Đọc thông tin dự án với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách trích xuất thông tin Microsoft Project bằng Aspose.Tasks cho Java. Tăng cường quản lý dự án trong các ứng dụng Java một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin dự án Microsoft bằng Aspose.Tasks cho Java
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án và theo dõi nhiệm vụ, Microsoft Project giữ một vị trí quan trọng. Aspose.Tasks for Java nổi lên như một công cụ mạnh mẽ cho phép tương tác liền mạch với các tệp Microsoft Project trong môi trường Java. Hướng dẫn này đi sâu vào quá trình trích xuất thông tin quan trọng của dự án từ các tệp Microsoft Project bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho Java cung cấp các 
 Trả lời: Có, Aspose.Tasks dành cho Java cho phép tự động hóa thông qua API toàn diện, cho phép các quy trình trích xuất và phân tích dữ liệu được sắp xếp hợp lý.
 ### Câu hỏi: Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho Aspose.Tasks dành cho người dùng Java không?
  Đáp: Có, bạn có thể tìm thấy các tài nguyên hữu ích và tương tác với cộng đồng trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

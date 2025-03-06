@@ -3,10 +3,16 @@ title: Stoppen und Fortsetzen der Aufgabe in Aspose.Tasks
 linktitle: Stoppen und Fortsetzen der Aufgabe in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für Java mit unserer Schritt-für-Schritt-Anleitung zum Anhalten und Fortsetzen von Aufgaben. Verbessern Sie das Projektmanagement nahtlos!
-type: docs
 weight: 30
 url: /de/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stoppen und Fortsetzen der Aufgabe in Aspose.Tasks
+
 ## Einführung
 Im Bereich der Java-Entwicklung ist die effiziente Verwaltung von Aufgaben ein entscheidender Aspekt der Projektausführung. Aspose.Tasks für Java bietet mit seinen leistungsstarken Funktionen eine robuste Lösung für die Bearbeitung von Aufgaben. In diesem Tutorial befassen wir uns mit einer bestimmten Funktionalität – dem Stoppen und Fortsetzen von Aufgaben. Wenn Sie dieser Schritt-für-Schritt-Anleitung folgen, können Sie diese Funktion nahtlos in Ihre Java-Projekte integrieren.
 ## Voraussetzungen
@@ -69,3 +75,9 @@ Ja, das bereitgestellte Beispiel ermöglicht die flexible Festlegung des Mindest
  Ja, Sie können darauf zugreifen[Kostenlose Testphase](https://releases.aspose.com/) um die Funktionen vor dem Kauf zu erkunden.
 ### Wie kann ich eine temporäre Lizenz für Aspose.Tasks für Java erhalten?
  Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

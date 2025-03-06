@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中生成时间分段数据
 linktitle: 在 Aspose.Tasks 中生成资源分配的时间分段数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 生成资源分配的时间分段数据。通过这份综合指南提高项目管理效率。
-type: docs
 weight: 24
 url: /zh/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中生成时间分段数据
+
 ## 介绍
 在本教程中，我们将逐步介绍使用 Aspose.Tasks for Java 生成资源分配的时间分段数据的过程。时间分段数据提供了有关项目内资源如何随时间分配的宝贵见解，帮助项目经理做出明智的决策。
 ## 先决条件
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 是的，Aspose.Tasks 允许用户定义自定义工作轮廓以满足其特定的项目需求。
 ### 是否有社区论坛可以让我获得有关 Aspose.Tasks 的帮助？
 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

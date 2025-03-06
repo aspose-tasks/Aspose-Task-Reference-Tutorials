@@ -3,10 +3,16 @@ title: Hantera MS Project Server-referenser i Aspose.Tasks
 linktitle: Hantera inloggningsuppgifter för projektserver i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Project Server-uppgifter sömlöst med Aspose.Tasks för .NET. Förbättra projektledningseffektiviteten.
-type: docs
 weight: 22
 url: /sv/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Server-referenser i Aspose.Tasks
+
 ## Introduktion
 När det gäller projektledning är effektiv samordning och sömlös kommunikation avgörande för ett framgångsrikt projektgenomförande. Aspose.Tasks för .NET tillhandahåller en omfattande lösning för hantering av Microsoft Project Server-referenser, vilket gör det möjligt för användare att säkert komma åt och manipulera projektdata. Denna handledning fördjupar sig i processen att hantera MS Project Server-referenser med Aspose.Tasks för .NET, och guidar användare genom varje steg för att säkerställa en smidig upplevelse.
 ## Förutsättningar
@@ -83,3 +89,9 @@ S: Absolut, Aspose.Tasks för .NET erbjuder omfattande stöd för att komma åt 
 S: Ja, Aspose.Tasks för .NET erbjuder flexibla licensalternativ, inklusive tillfälliga licenser för teständamål och fullständiga licenser för kommersiellt bruk.
 ### F: Var kan jag söka hjälp eller support för Aspose.Tasks för .NET?
  S: För eventuella frågor eller hjälp angående Aspose.Tasks för .NET kan du besöka supportforumet på[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Komplett källkod
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

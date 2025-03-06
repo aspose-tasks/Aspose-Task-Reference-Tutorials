@@ -3,10 +3,16 @@ title: مجموعة تعيينات الموارد في Aspose.Tasks
 linktitle: مجموعة تعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة تعيينات الموارد في Microsoft Project باستخدام Aspose.Tasks لـ .NET. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 12
 url: /ar/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة تعيينات الموارد في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إدارة تعيينات الموارد في Microsoft Project باستخدام Aspose.Tasks لـ .NET. في هذا البرنامج التعليمي، سوف نتعمق في العملية خطوة بخطوة، مما يضمن أن لديك فهمًا قويًا لكيفية التعامل مع تعيينات الموارد بكفاءة. سواء كنت مطورًا متمرسًا أو بدأت للتو، فسيرشدك هذا الدليل إلى كل ما تحتاج إلى معرفته.
 ## المتطلبات الأساسية
@@ -94,3 +100,9 @@ foreach (var ra in resourceAssignments)
  ج: نعم، التراخيص المؤقتة متاحة لأغراض التقييم. يمكنك الحصول على واحدة من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء ترخيص كامل لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك شراء ترخيص كامل من متجر Aspose عبر الإنترنت[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

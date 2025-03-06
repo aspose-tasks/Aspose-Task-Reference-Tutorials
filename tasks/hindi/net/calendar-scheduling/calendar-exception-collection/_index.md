@@ -3,10 +3,16 @@ title: Aspose.Tasks में कैलेंडर अपवादों का
 linktitle: Aspose.Tasks में कैलेंडर अपवादों का संग्रह
 second_title: Aspose.Tasks .NET API
 description: सटीक शेड्यूलिंग और संसाधन प्रबंधन सुनिश्चित करते हुए, Aspose.Tasks का उपयोग करके अपने .NET प्रोजेक्ट्स में कैलेंडर अपवादों को कुशलतापूर्वक संभालने का तरीका जानें।
-type: docs
 weight: 13
 url: /hi/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कैलेंडर अपवादों का संग्रह
+
 ## परिचय
 
 परियोजना प्रबंधन में, सफलता के लिए सटीक शेड्यूलिंग महत्वपूर्ण है। हालाँकि, वास्तविक दुनिया के परिदृश्यों में अक्सर छुट्टियों, विशेष आयोजनों या अन्य कारकों के कारण मानक कार्यक्रम से विचलन की आवश्यकता होती है। .NET के लिए Aspose.Tasks अपने कैलेंडर अपवाद संग्रह सुविधा के माध्यम से ऐसे अपवादों को प्रबंधित करने के लिए एक मजबूत समाधान प्रदान करता है। यह ट्यूटोरियल चरण दर चरण इस कार्यक्षमता का उपयोग करने की प्रक्रिया में आपका मार्गदर्शन करेगा।
@@ -143,3 +149,9 @@ A4: .NET के लिए Aspose.Tasks आपको अपनी परियो
 ### Q5: क्या मैं अपवाद के रूप में प्रत्येक दिन के लिए कार्य समय को अनुकूलित कर सकता हूँ?
 
 A5: हां, आप विशिष्ट शेड्यूलिंग आवश्यकताओं को समायोजित करने के लिए अपवाद के भीतर अलग-अलग दिनों के लिए कस्टम कार्य समय निर्दिष्ट कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

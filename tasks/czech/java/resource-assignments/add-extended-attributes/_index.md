@@ -3,10 +3,16 @@ title: Zvládnutí manipulace s MS Project s Aspose.Tasks pro Javu
 linktitle: Přidejte rozšířené atributy do přiřazení prostředků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně psát informace z MS Project pomocí Aspose.Tasks for Java. Podrobný průvodce pro vývojáře Java.
-type: docs
 weight: 10
 url: /cs/java/resource-assignments/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí manipulace s MS Project s Aspose.Tasks pro Javu
+
 ## Úvod
 V tomto tutoriálu se ponoříme do využití Aspose.Tasks for Java, výkonné knihovny pro programovou manipulaci se soubory Microsoft Project. Zaměříme se na základní úkol: psaní informací z MS Project pomocí Aspose.Tasks. Ať už jste ostřílený vývojář nebo teprve začínáte svou cestu v programování Java, tento průvodce vás provede procesem krok za krokem.
 ## Předpoklady
@@ -72,3 +78,9 @@ Odpověď: Zatímco zkušební verze vám umožňuje prozkoumat možnosti knihov
  Odpověď: Můžete požádat o pomoc na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Mohu si zakoupit dočasnou licenci pro Aspose.Tasks for Java?
  Odpověď: Ano, dočasné licence jsou k dispozici pro krátkodobé použití. Můžete získat jeden z[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

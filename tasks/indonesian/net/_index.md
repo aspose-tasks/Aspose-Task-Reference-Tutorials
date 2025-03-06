@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.Tasks untuk .NET
 linktitle: Aspose.Tugas untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Jelajahi Aspose.Tasks untuk tutorial .NET yang mencakup opsi penyimpanan, kalender & penjadwalan, manajemen proyek, & banyak lagi. Tingkatkan keterampilan manajemen proyek Anda.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.Tasks untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk membuka potensi penuh Aspose.Tasks untuk .NET? Selami tutorial dan contoh komprehensif kami yang mencakup berbagai topik untuk meningkatkan keterampilan manajemen proyek Anda. Dari opsi penyimpanan hingga fitur lanjutan, tugas kalender dan penjadwalan, manajemen proyek, dan penyesuaian, kami siap membantu Anda.
@@ -72,3 +77,9 @@ Jelajahi opsi format file Aspose.Tasks dan kuasai konfigurasi opsi XAML & XLSX d
 Temukan cara meningkatkan keamanan Microsoft Project PDF Anda menggunakan Aspose.Tasks untuk .NET. Pelajari tanda tangan digital dan teknik enkripsi.
 ### [Manajemen Lisensi Aspose.Tasks](./license-management/)
 Buka kekuatan Aspose.Tasks untuk .NET dengan tutorial komprehensif kami. Kelola lisensi dan optimalkan penggunaan MS Project untuk manajemen proyek yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

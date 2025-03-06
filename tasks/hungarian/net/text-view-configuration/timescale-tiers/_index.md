@@ -3,10 +3,16 @@ title: A Gantt-diagram időskála-szintjeinek konfigurálása az Aspose.Tasks-ba
 linktitle: Időskálás szintek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET-et az időskála-szintek konfigurálásához a Gantt-diagram nézetben a projekt idővonalának pontos megjelenítéséhez. #Aspose.Tasks #MS Project
-type: docs
 weight: 16
 url: /hu/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Gantt-diagram időskála-szintjeinek konfigurálása az Aspose.Tasks-ban
+
 ## Bevezetés
 A projektmenedzsment dinamikus környezetében a hatékony vizualizáció kulcsfontosságú az idővonalak és határidők megértéséhez. Az Aspose.Tasks for .NET hatékony eszközkészletet biztosít, és ebben az oktatóanyagban azt vizsgáljuk meg, hogyan konfigurálhatunk időskála-szinteket a Gantt-diagram nézetben való optimális megjelenítés érdekében. Kövesse ezeket a lépésenkénti utasításokat a projekt megjelenítésének javításához.
 ## Előfeltételek
@@ -86,3 +92,9 @@ Természetesen az Aspose.Tasks kiterjedt testreszabási lehetőségeket kínál 
 Természetesen felfedezhet különféle formátumokat és stílusokat az időskálás ábrázoláshoz, hogy a legjobban illeszkedjen a projekt környezetéhez.
 ### Létezik közösségi fórum az Aspose.Tasks támogatására?
  Igen, látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理自訂項目屬性集合
 linktitle: 在 Aspose.Tasks 中管理自訂項目屬性集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中有效管理自訂專案屬性，從而增強您的專案管理體驗。
-type: docs
 weight: 24
 url: /zh-hant/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理自訂項目屬性集合
+
 ## 介紹
 
 您準備好使用 Aspose.Tasks for .NET 來增強您的專案管理體驗了嗎？管理自訂專案屬性是專案管理的重要方面，它允許您新增根據專案要求自訂的特定元資料。在本教程中，我們將深入探討如何使用 Aspose.Tasks for .NET 有效地處理自訂項目屬性集合。
@@ -131,3 +137,9 @@ A4：是的，您可以從 Aspose 網站取得臨時許可證用於評估目的�
 ### Q5：在哪裡可以找到 Aspose.Tasks for .NET 的支援或進一步協助？
 
  A5：您可以造訪Aspose.Tasks論壇[這裡](https://forum.aspose.com/c/tasks/15)如有任何疑問或幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

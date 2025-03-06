@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Ağaç Algoritmasını Kullanmak
 linktitle: Aspose.Tasks'ta Ağaç Algoritmasını Kullanmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ın Ağaç Algoritmasını kullanarak .NET projelerinizde görev hiyerarşilerini etkili bir şekilde nasıl yönetebileceğinizi öğrenin.
-type: docs
 weight: 13
 url: /tr/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Ağaç Algoritmasını Kullanmak
+
 ## giriiş
 
 Aspose.Tasks for .NET, proje yönetimi görevleri, kaynakları ve zamanlamalarıyla çalışmak için güçlü işlevler sağlar. Bu özelliklerden biri, kullanıcıların görev hiyerarşilerini verimli bir şekilde değiştirmelerine olanak tanıyan Ağaç Algoritmasıdır. Bu eğitimde, Aspose.Tasks for .NET'teki Ağaç Algoritmasının, ortak işleri toplamak ve bir proje içindeki iş değerlerini güncellemek için nasıl kullanılacağını keşfedeceğiz.
@@ -115,3 +121,9 @@ Cevap1: Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını
 ### S5: Test amaçlı geçici bir lisans mevcut mu?
 
  C5: Evet, test amaçlı olarak geçici lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

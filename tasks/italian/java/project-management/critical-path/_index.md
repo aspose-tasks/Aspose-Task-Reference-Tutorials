@@ -3,10 +3,16 @@ title: Calcola il percorso critico del progetto MS in Aspose.Tasks
 linktitle: Calcola il percorso critico nei progetti Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come calcolare il percorso critico in MS Project utilizzando Aspose.Tasks per Java. Ciò fornisce una guida passo passo per una gestione efficiente del progetto.
-type: docs
 weight: 10
 url: /it/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcola il percorso critico del progetto MS in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, ti guideremo attraverso il processo di calcolo del percorso critico in MS Project utilizzando Aspose.Tasks per Java. Il percorso critico è essenziale per la gestione del progetto poiché aiuta a identificare la sequenza di attività che devono essere completate in tempo per garantire che la pianificazione complessiva del progetto non subisca ritardi.
 ## Prerequisiti
@@ -72,3 +78,9 @@ R: Sì, Aspose.Tasks per Java supporta varie versioni di file MS Project, inclus
  R: Sì, puoi acquistare una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Come posso acquistare Aspose.Tasks per Java?
  R: È possibile acquistare Aspose.Tasks per Java dal sito Web[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

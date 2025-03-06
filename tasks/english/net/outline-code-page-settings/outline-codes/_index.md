@@ -3,10 +3,16 @@ title: Manage Project Outline Codes in Aspose.Tasks for .NET
 linktitle: Managing Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn to manage MS Project outline codes with Aspose.Tasks for .NET. Simplify project organization effortlessly.
-type: docs
 weight: 10
 url: /net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Project Outline Codes in Aspose.Tasks for .NET
+
 ## Introduction
 In this tutorial, we will explore how to manage Microsoft Project outline codes using Aspose.Tasks for .NET. Outline codes are custom fields in Microsoft Project that allow users to categorize and organize tasks according to specific criteria. Aspose.Tasks simplifies the process of reading and manipulating these outline codes programmatically.
 ## Prerequisites
@@ -71,3 +77,10 @@ A: Yes, a valid license is required for commercial use of Aspose.Tasks. You can 
 A: Yes, you can download a free trial version of Aspose.Tasks from the website to evaluate its features and capabilities.
 ### Q: Where can I get support for Aspose.Tasks?
 A: You can get support for Aspose.Tasks by visiting the forum at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Complete Source Code
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zarządzaj kodami konspektu projektu w Aspose.Tasks dla .NET
 linktitle: Zarządzanie kodami konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naucz się zarządzać kodami konspektu MS Project za pomocą Aspose.Tasks dla .NET. Uprość organizację projektu bez wysiłku.
-type: docs
 weight: 10
 url: /pl/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj kodami konspektu projektu w Aspose.Tasks dla .NET
+
 ## Wstęp
 W tym samouczku omówimy, jak zarządzać kodami konspektu programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Kody konspektu to niestandardowe pola w programie Microsoft Project, które umożliwiają użytkownikom kategoryzację i organizowanie zadań według określonych kryteriów. Aspose.Tasks upraszcza proces programowego czytania i manipulowania tymi kodami konspektu.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Odp.: Tak, do komercyjnego wykorzystania Aspose.Tasks wymagana jest ważna licen
 Odp.: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Tasks ze strony internetowej, aby ocenić jej funkcje i możliwości.
 ### P: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?
  Odp.: Możesz uzyskać pomoc dotyczącą Aspose.Tasks, odwiedzając forum pod adresem[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletny kod źródłowy
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

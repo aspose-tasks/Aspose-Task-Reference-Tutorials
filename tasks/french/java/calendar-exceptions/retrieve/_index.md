@@ -3,10 +3,16 @@ title: Récupérer les exceptions de calendrier avec Aspose.Tasks
 linktitle: Récupérer les exceptions de calendrier avec Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment récupérer les exceptions de calendrier de MS Project à l'aide d'Aspose.Tasks pour Java. Tutoriel étape par étape pour une intégration transparente.
-type: docs
 weight: 13
 url: /fr/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Récupérer les exceptions de calendrier avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment récupérer les exceptions de calendrier de MS Project à l'aide de la bibliothèque Aspose.Tasks pour Java. Aspose.Tasks est un outil puissant qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. Nous vous guiderons pas à pas tout au long du processus, en décomposant chaque exemple en plusieurs étapes pour une compréhension facile.
 ## Conditions préalables
@@ -55,3 +61,9 @@ Oui, Aspose.Tasks prend en charge différentes versions de fichiers MS Project, 
  Vous pouvez obtenir de l'aide sur le forum communautaire[ici](https://forum.aspose.com/c/tasks/15).
 ### Existe-t-il une option pour des licences temporaires pour Aspose.Tasks ?
  Oui, vous pouvez obtenir des licences temporaires auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

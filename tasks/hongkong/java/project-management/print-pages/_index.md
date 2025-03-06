@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中列印頁面以分隔影像
 linktitle: 在 Aspose.Tasks 中列印頁面以分隔影像
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中列印頁面以分隔圖片。透過此逐步指南改進專案視覺化。
-type: docs
 weight: 22
 url: /zh-hant/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中列印頁面以分隔影像
+
 ## 介紹
 在本教程中，我們將指導您完成使用 Aspose.Tasks for Java 列印頁面以分離圖像的過程。當您需要單獨視覺化專案佈局或關鍵任務時，此功能特別有用。
 ## 先決條件
@@ -77,3 +83,9 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 答：是的，Aspose.Tasks for Java 支援將專案資料匯出為 PDF、HTML、XLSX 等各種格式，為資料視覺化和報表提供彈性。
 ### Q：Aspose.Tasks for Java 是否有任何社群支援？
 答：是的，您可以在 上找到社群支援、提出問題並與其他使用者互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 할당에 대한 하이퍼링크 속성 관리
 linktitle: Aspose.Tasks에서 자원 할당에 대한 하이퍼링크 속성 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 리소스 할당을 위한 하이퍼링크 속성을 관리하는 방법을 알아보세요. 프로젝트 관리에서 협업과 접근성을 향상합니다.
-type: docs
 weight: 16
 url: /ko/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 할당에 대한 하이퍼링크 속성 관리
+
 ## 소개
 Aspose.Tasks for Java는 프로젝트 작업 및 리소스 관리를 위한 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 리소스 할당에 대한 하이퍼링크 속성을 관리하는 방법에 중점을 둘 것입니다. 이러한 단계별 지침을 따르면 프로젝트의 리소스 할당과 관련된 하이퍼링크를 효율적으로 처리할 수 있습니다.
 ## 전제조건
@@ -84,3 +90,9 @@ A: Aspose.Tasks는 하이퍼링크 길이에 엄격한 제한을 두지 않습�
 A: 예, 하이퍼링크 속성을 null 또는 빈 문자열로 설정하여 리소스 할당에서 하이퍼링크를 제거할 수 있습니다.
 ### Q: Aspose.Tasks는 하이퍼링크 유효성 검사를 지원합니까?
 A: Aspose.Tasks는 하이퍼링크 유효성 검사보다는 하이퍼링크 속성 관리에 중점을 둡니다. 그러나 하이퍼링크 무결성을 보장하기 위해 Java 애플리케이션 내에서 사용자 정의 유효성 검사 논리를 구현할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

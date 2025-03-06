@@ -3,10 +3,16 @@ title: Programación de tareas de referencia en Aspose.Tasks
 linktitle: Programación de tareas de referencia en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a programar líneas base de tareas de manera efectiva con Aspose.Tasks para Java. Agilice sus procesos de gestión de proyectos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Programación de tareas de referencia en Aspose.Tasks
+
 ## Introducción
 La gestión de líneas base de tareas es un aspecto crucial de la gestión de proyectos, ya que le permite comparar con precisión el progreso planificado y el real. En este tutorial, exploraremos cómo realizar la programación de tareas de referencia utilizando Aspose.Tasks para Java. Si sigue estos pasos, estará equipado para optimizar sus procesos de gestión de proyectos de manera eficiente.
 ## Requisitos previos
@@ -63,3 +69,9 @@ Ciertamente, Aspose.Tasks para Java proporciona amplias funcionalidades para per
  Sí, puede acceder a una prueba gratuita de Aspose.Tasks para Java desde[página de lanzamiento](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar soporte para Aspose.Tasks para Java?
  Para cualquier consulta o ayuda, puede visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

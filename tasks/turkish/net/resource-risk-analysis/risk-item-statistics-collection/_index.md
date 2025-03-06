@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Risk Öğesi İstatistiklerini Toplayın
 linktitle: Aspose.Tasks'ta Risk Öğesi İstatistiklerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET kullanarak MS Project dosyalarından risk öğesi istatistiklerini nasıl toplayacağınızı öğrenin. Proje yönetimi yeteneklerinizi geliştirin.
-type: docs
 weight: 22
 url: /tr/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Risk Öğesi İstatistiklerini Toplayın
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET kullanarak MS Project dosyalarından risk öğesi istatistiklerinin nasıl toplanacağını inceleyeceğiz. Bu kütüphane, risk değerlendirmesi ve istatistiksel analiz de dahil olmak üzere proje verilerini analiz etmek için güçlü işlevler sağlar.
 ## Önkoşullar
@@ -88,3 +94,9 @@ C: Kesinlikle, Aspose.Tasks, güçlü özellikler ve kapsamlı belgeler sunarak 
 C: Evet, Aspose.Tasks, risk analizi ayarlarını özel proje gereksinimlerinize ve senaryolarınıza uyacak şekilde yapılandırma konusunda esneklik sunar.
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
  C: Evet, Aspose.Tasks kullanıcıları Aspose aracılığıyla teknik desteğe erişebilirler.[forumlar](https://forum.aspose.com/c/tasks/15)Soru sorabilecekleri, sorunları bildirebilecekleri ve toplulukla etkileşime girebilecekleri yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

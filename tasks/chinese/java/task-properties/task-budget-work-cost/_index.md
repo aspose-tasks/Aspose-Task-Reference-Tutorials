@@ -3,10 +3,16 @@ title: Aspose.Tasks 中任务的预算、工作和成本管理
 linktitle: Aspose.Tasks 中任务的预算、工作和成本管理
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 解锁 Java 项目中的高效预算和成本管理。探索无缝集成的分步指南。
-type: docs
 weight: 31
 url: /zh/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中任务的预算、工作和成本管理
+
 ## 介绍
 有效管理预算、工作和成本对于项目的成功执行至关重要。 Aspose.Tasks for Java 提供了一个强大的解决方案来处理项目相关的任务，包括预算和成本管理。在本教程中，我们将探讨如何利用 Aspose.Tasks for Java 在项目中实现有效的预算、工作和成本管理。
 ## 先决条件
@@ -71,3 +77,9 @@ for (ResourceAssignment assn : projSummary.getAssignments()) {
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
 ### Aspose.Tasks for Java 是否还有其他资源？
 参考文档[这里](https://reference.aspose.com/tasks/java/)获取深入的信息和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

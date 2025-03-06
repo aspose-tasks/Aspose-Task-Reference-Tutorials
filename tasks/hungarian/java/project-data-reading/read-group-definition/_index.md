@@ -3,10 +3,16 @@ title: Olvassa el a csoportdefiníciós adatokat az Aspose.Tasks-ban
 linktitle: Olvassa el a csoportdefiníciós adatokat az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan olvashat csoportdefiníciós adatokat Microsoft Project fájlokból az Aspose.Tasks for Java segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat.
-type: docs
 weight: 10
 url: /hu/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el a csoportdefiníciós adatokat az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a Microsoft Project fájlokat. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a csoportdefiníciós adatok projektfájlból történő kiolvasásának folyamatán az Aspose.Tasks for Java segítségével.
 ## Előfeltételek
@@ -79,3 +85,9 @@ V: Hibakezelési mechanizmusokat implementálhat try-catch blokkokkal a fájlkez
 V: Igen, az Aspose.Tasks for Java lehetővé teszi a projektadatok exportálását PDF, XLSX és CSV formátumokba.
 ### K: Hol találok további forrásokat és támogatást az Aspose.Tasks for Java számára?
  V: Meglátogathatja a[Aspose.Tasks a Java dokumentációhoz](https://reference.aspose.com/tasks/java/) átfogó útmutatókért, és tekintse meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

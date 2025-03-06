@@ -3,10 +3,16 @@ title: Wiederholung nach Jahr, Wochentag in Aspose.Tasks
 linktitle: Wiederholung nach Jahr, Wochentag in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizienten Verwaltung wiederkehrender Aufgaben. Schritt-für-Schritt-Anleitung zur Implementierung der Funktion „Wiederholung nach Jahr, Wochentag“.
-type: docs
 weight: 28
 url: /de/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wiederholung nach Jahr, Wochentag in Aspose.Tasks
+
 ## Einführung
 
 Im Projektmanagement stehen Effizienz und Präzision an erster Stelle. Aspose.Tasks für .NET erweist sich als leistungsstarkes Tool, das eine Fülle von Funktionen zur Optimierung der Projektabwicklung bietet. Zu seinem Arsenal gehört die Fähigkeit, wiederkehrende Aufgaben mit bemerkenswerter Flexibilität zu bewältigen. Eine dieser Funktionen ist die Funktion „Wiederholung nach Jahr, Wochentag“, mit der Benutzer Aufgaben einrichten können, die sich an bestimmten Wochentagen, innerhalb bestimmter Monate und über mehrere Jahre hinweg wiederholen.
@@ -126,3 +132,9 @@ A: Ja, Aspose.Tasks für .NET bietet Unterstützung für cloudbasierte Projektma
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
 A: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/)So können Sie die Funktionen erkunden, bevor Sie eine Kaufentscheidung treffen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

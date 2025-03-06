@@ -3,10 +3,16 @@ title: Aspose.Tasks でタスクを作成する
 linktitle: Aspose.Tasks でタスクを作成する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java プロジェクトを簡単に管理します。タスクやサブタスクなどを作成します。シームレスなプロジェクト管理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でタスクを作成する
+
 ## 導入
 Aspose.Tasks for Java の世界へようこそ! Java アプリケーションでタスクとプロジェクトを効率的に管理したい場合は、ここが最適な場所です。この包括的なガイドでは、Aspose.Tasks for Java を使用してタスクを作成するプロセスを説明し、シームレスなエクスペリエンスを確保するために各ステップを詳しく説明します。
 ## 前提条件
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 はい、プロジェクトのニーズに合わせてタスク属性を広範囲にカスタマイズできます。
 ### Aspose.Tasks ユーザー向けのサポート コミュニティはありますか?
 絶対に！ Aspose.Tasks コミュニティに参加してください。[サポートフォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

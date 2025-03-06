@@ -3,10 +3,16 @@ title: Konfigurieren von Gantt-Diagramm-Zeitskalenebenen in Aspose.Tasks
 linktitle: Konfigurieren von Zeitskalenstufen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET, um Zeitskalenebenen in Ihrer Gantt-Diagrammansicht für eine präzise Visualisierung der Projektzeitachse zu konfigurieren. #Aspose.Tasks #MS-Projekt
-type: docs
 weight: 16
 url: /de/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurieren von Gantt-Diagramm-Zeitskalenebenen in Aspose.Tasks
+
 ## Einführung
 In der dynamischen Landschaft des Projektmanagements ist eine effektive Visualisierung entscheidend für das Verständnis von Zeitplänen und Fristen. Aspose.Tasks für .NET bietet ein leistungsstarkes Toolset. In diesem Tutorial erfahren Sie, wie Sie Zeitskalenebenen für eine optimale Darstellung in der Gantt-Diagrammansicht konfigurieren. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um Ihre Projektvisualisierung zu verbessern.
 ## Voraussetzungen
@@ -86,3 +92,9 @@ Aspose.Tasks bietet auf jeden Fall umfangreiche Anpassungsmöglichkeiten für di
 Natürlich können Sie verschiedene Formate und Stile für die Zeitskalendarstellung erkunden, die am besten zum Kontext Ihres Projekts passen.
 ### Gibt es ein Community-Forum für den Aspose.Tasks-Support?
  Ja, besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

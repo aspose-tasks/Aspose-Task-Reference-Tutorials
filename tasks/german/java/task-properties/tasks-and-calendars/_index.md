@@ -3,10 +3,16 @@ title: Aufgaben und Kalender in Aspose.Tasks
 linktitle: Aufgaben und Kalender in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für Java bei der effizienten Verwaltung von Aufgaben und Kalendern. Laden Sie es jetzt herunter für ein nahtloses Projektmanagement-Erlebnis!
-type: docs
 weight: 33
 url: /de/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufgaben und Kalender in Aspose.Tasks
+
 ## Einführung
 Sind Sie bereit, Ihr Projektmanagement mit Aspose.Tasks für Java zu verbessern? Dieser umfassende Leitfaden führt Sie durch die komplexe Welt der Aufgaben und Kalender mit Aspose.Tasks und ermöglicht Ihnen, das volle Potenzial für eine effiziente Projektplanung und -ausführung auszuschöpfen.
 ## Voraussetzungen
@@ -55,3 +61,9 @@ Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases
  Treten Sie der Community bei[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) zur Unterstützung.
 ### Kann ich eine Lizenz für Aspose.Tasks erwerben?
  Ja, Sie können eine Lizenz kaufen[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

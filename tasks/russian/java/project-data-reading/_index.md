@@ -3,10 +3,16 @@ title: Чтение данных проекта
 linktitle: Чтение данных проекта
 second_title: API Aspose.Tasks Java
 description: Раскройте возможности Aspose.Tasks для Java с помощью наших руководств! От чтения определений групп до извлечения данных диаграммы Ганта — освойте бесшовную интеграцию.
-type: docs
 weight: 28
 url: /ru/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение данных проекта
+
 ## Введение
 Если вы ориентируетесь в обширном пространстве управления проектами на Java, наши руководства по Aspose.Tasks станут вашими путеводными звездами. Погрузитесь в мир, где чтение данных проекта становится легким путешествием благодаря нашим пошаговым руководствам. Давайте вместе отправимся в это познавательное приключение!
 
@@ -48,3 +54,9 @@ url: /ru/java/project-data-reading/
 Узнайте, как извлечь определенные данные диаграммы Ганта с помощью Aspose.Tasks для Java. Пошаговое руководство по плавной интеграции в ваши Java-приложения.
 ### [Чтение данных таблицы из файла в Aspose.Tasks](./read-table-data/)
 Раскройте возможности Aspose.Tasks для Java. Научитесь извлекать табличные данные из файлов в этом подробном руководстве.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

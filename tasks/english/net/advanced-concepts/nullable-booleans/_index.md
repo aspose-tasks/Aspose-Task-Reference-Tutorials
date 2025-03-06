@@ -3,10 +3,16 @@ title: Handling Nullable Booleans in Aspose.Tasks
 linktitle: Handling Nullable Booleans in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle nullable booleans effectively in Aspose.Tasks for .NET with this comprehensive tutorial. Master the usage of `NullableBool` class and enhance your .NET development.
-type: docs
 weight: 21
 url: /net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Nullable Booleans in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll delve into working with nullable booleans in Aspose.Tasks for .NET. Nullable booleans offer flexibility in representing boolean values, allowing for the possibility of being undefined. We'll explore how to use the `NullableBool` class, its constructors, properties, and methods.
@@ -153,3 +159,10 @@ A4: Yes, you can set a nullable boolean to be undefined upon construction.
 ### Q5: Where can I find further documentation on Aspose.Tasks for .NET?
 
 A5: You can find detailed documentation [here](https://reference.aspose.com/tasks/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

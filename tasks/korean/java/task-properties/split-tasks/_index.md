@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 분할
 linktitle: Aspose.Tasks에서 작업 분할
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java에서 작업 관리를 마스터하세요! 최적화된 프로젝트 일정을 위해 작업을 효율적으로 분할하는 방법을 알아보세요. 지금 다운로드하세요!
-type: docs
 weight: 29
 url: /ko/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 분할
+
 ## 소개
 Java 프로젝트에서 작업 관리에 어려움을 겪고 계십니까? Aspose.Tasks for Java는 작업을 효율적으로 분할하고 프로젝트 관리 기능을 향상시키는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업을 분할하는 프로세스를 안내하여 프로젝트 타임라인과 리소스 할당을 최적화하는 데 도움을 줍니다.
 ## 전제조건
@@ -88,3 +94,9 @@ Aspose.Tasks for Java는 구매하기 전에 기능을 살펴볼 수 있는 무�
  방문하다[Aspose.Tasks for Java 지원 포럼](https://forum.aspose.com/c/tasks/15) 도움을 받고 지역 사회와 연결됩니다.
 ### Aspose.Tasks for Java에 대한 임시 라이선스가 필요합니까?
  임시면허를 취득하실 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

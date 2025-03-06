@@ -3,10 +3,16 @@ title: Báo cáo dự án MS chính với Aspose.Tasks
 linktitle: Làm việc với các loại báo cáo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc với các tệp MS Project bằng Aspose.Tasks for .NET. Tạo các loại báo cáo khác nhau một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Báo cáo dự án MS chính với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project một cách dễ dàng. Cho dù bạn đang làm việc về quản lý dự án, lập lịch trình hay báo cáo nhiệm vụ, Aspose.Tasks đều cung cấp một bộ tính năng toàn diện để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các tệp MS Project và tạo các loại báo cáo khác nhau bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Tóm lại, Aspose.Tasks for .NET là một thư viện linh hoạt để làm v
  A: Bạn có thể nhận được sự hỗ trợ từ cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi 5: Làm cách nào để tải xuống Aspose.Tasks cho .NET?
  Trả lời: Bạn có thể tải xuống Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Řízení zdrojů a analýza rizik
 linktitle: Aspose.Tasks Řízení zdrojů a analýza rizik
 second_title: Aspose.Tasks .NET API
 description: Spravujte zdroje MS Project pomocí Aspose.Tasks .NET. Zvyšte produktivitu a zefektivněte pracovní postupy. Naučte se přiřazení zdrojů, zobrazení použití, analýzu rizik a další.
-type: docs
 weight: 26
 url: /cs/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Řízení zdrojů a analýza rizik
+
 ## Úvod
 
 Hledáte efektivní způsoby správy zdrojů Microsoft Project a vylepšení analýzy rizik pomocí Aspose.Tasks for .NET? Už nehledejte! V tomto komplexním průvodci vás provedeme různými výukovými programy, které pokrývají základní témata, která pomohou vývojářům a projektovým manažerům.
@@ -90,3 +96,9 @@ Naučte se shromažďovat statistiky rizikových položek ze souborů MS Project
 Naučte se, jak efektivně spravovat rizikové vzory v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Zlepšete výsledky projektu pomocí výkonných nástrojů analýzy rizik.
 ### [Správa rizikových vzorů v MS Project pomocí Aspose.Tasks](./risk-pattern-collection/)
 Naučte se, jak efektivně analyzovat a manipulovat s rizikovými vzory v souborech Microsoft Project pomocí Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

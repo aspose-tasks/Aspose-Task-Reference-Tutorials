@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट कार्
 linktitle: Aspose.Tasks में कार्य हटाना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट कार्यों को प्रोग्रामेटिक रूप से हटाने का तरीका जानें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।
-type: docs
 weight: 15
 url: /hi/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट कार्यों को हटाना
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइल से कार्यों को कैसे हटाया जाए। Aspose.Tasks एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने की अनुमति देता है। प्रोजेक्ट फ़ाइल से कार्यों को हटाना प्रोजेक्ट प्रबंधन परिदृश्यों में एक सामान्य आवश्यकता हो सकती है, और Aspose.Tasks इसे प्राप्त करने का एक सीधा तरीका प्रदान करता है।
 ## आवश्यक शर्तें
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 उत्तर: बिल्कुल, Aspose.Tasks जटिल परियोजना संरचनाओं के लिए व्यापक समर्थन प्रदान करता है, जिससे आप कार्यों, संसाधनों और अन्य परियोजना तत्वों में आसानी से हेरफेर कर सकते हैं।
 ### प्रश्न: क्या Aspose.Tasks के लिए कोई परीक्षण संस्करण उपलब्ध है?
  उत्तर: हां, आप Aspose.Tasks का निःशुल्क परीक्षण संस्करण यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/) खरीदारी करने से पहले इसकी विशेषताओं का पता लगाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

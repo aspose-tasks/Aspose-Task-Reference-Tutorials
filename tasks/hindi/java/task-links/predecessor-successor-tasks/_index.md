@@ -3,10 +3,16 @@ title: Aspose.Tasks में पूर्ववर्ती और उत्त
 linktitle: Aspose.Tasks में पूर्ववर्ती और उत्तराधिकारी कार्य प्रबंधित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks के साथ कुशल कार्य प्रबंधन का अन्वेषण करें। अपनी परियोजनाओं में पूर्ववर्ती और उत्तराधिकारी कार्यों को आसानी से संभालें। अभी अपने मुफ़्त ट्रायल को डाउनलोड करें!
-type: docs
 weight: 15
 url: /hi/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में पूर्ववर्ती और उत्तराधिकारी कार्य प्रबंधित करें
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, कार्य निर्भरता का प्रभावी संचालन सर्वोपरि है। जावा के लिए Aspose.Tasks आपके प्रोजेक्ट में पूर्ववर्ती और उत्तराधिकारी कार्यों के प्रबंधन के लिए एक मजबूत समाधान प्रदान करता है। यह ट्यूटोरियल आपको कार्य लिंक को कुशलतापूर्वक प्रबंधित करने के लिए Aspose.Tasks का लाभ उठाने की प्रक्रिया में मार्गदर्शन करेगा, जिससे आप कार्यों के बीच निर्भरता स्थापित कर सकेंगे।
 ## आवश्यक शर्तें
@@ -52,3 +58,9 @@ for (TaskLink tsklnk : allinks) {
  दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और चर्चा के लिए।
 ### क्या मैं जावा के लिए Aspose.Tasks का निःशुल्क परीक्षण डाउनलोड कर सकता हूँ?
  हां, यहां से निःशुल्क परीक्षण डाउनलोड करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中计算关键 MS 项目路径
 linktitle: 计算 Aspose.Tasks 项目中的关键路径
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 计算 MS Project 中的关键路径。这为高效的项目管理提供了分步指导。
-type: docs
 weight: 10
 url: /zh/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中计算关键 MS 项目路径
+
 ## 介绍
 在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 在 MS Project 中计算关键路径的过程。关键路径对于项目管理至关重要，因为它有助于确定必须按时完成的任务顺序，以确保项目的总体进度不被延误。
 ## 先决条件
@@ -72,3 +78,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以从以下位置购买临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：如何购买 Aspose.Tasks for Java？
  A：您可以从网站购买Aspose.Tasks for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

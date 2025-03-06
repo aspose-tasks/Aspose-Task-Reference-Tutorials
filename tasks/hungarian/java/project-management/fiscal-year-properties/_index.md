@@ -3,10 +3,16 @@ title: Kezelje a pénzügyi év tulajdonságait az Aspose.Tasks-ban
 linktitle: Kezelje a pénzügyi év tulajdonságait az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti hatékonyan a pénzügyi év tulajdonságait az Aspose.Tasks for Java használatával. Lépésről lépésre bemutatott útmutató példákkal.
-type: docs
 weight: 15
 url: /hu/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje a pénzügyi év tulajdonságait az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára a projektfájlok hatékony kezelését, beleértve a pénzügyi év tulajdonságainak kezelését is. Ebben az oktatóanyagban végigvezetjük a pénzügyi év tulajdonságainak kezelését a Java Aspose.Tasks használatával.
 ## Előfeltételek
@@ -66,3 +72,9 @@ V: Igen, az Aspose.Tasks projektfájlformátumok széles skáláját támogatja,
  V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját innen[itt](https://releases.aspose.com/).
 ### K: Hol vásárolhatok licencet az Aspose.Tasks for Java számára?
  V: Az Aspose.Tasks for Java licencet a következő címen vásárolhatja meg:[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

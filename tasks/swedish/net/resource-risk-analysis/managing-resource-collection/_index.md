@@ -3,10 +3,16 @@ title: Hantera projektresursinsamling i Aspose.Tasks
 linktitle: Hantera resursinsamling i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt hanterar Microsoft Project-resurssamlingar i .NET med Aspose.Tasks API. Öka produktiviteten och flexibiliteten.
-type: docs
 weight: 13
 url: /sv/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera projektresursinsamling i Aspose.Tasks
+
 ## Introduktion
 I den här självstudien kommer vi att utforska hur du effektivt hanterar resurssamlingar i Microsoft Project med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som gör det möjligt för utvecklare att arbeta med Microsoft Project-filer programmatiskt, vilket möjliggör sömlös integration och manipulering av projektdata.
 ## Förutsättningar
@@ -99,3 +105,9 @@ S: Ja, Aspose.Tasks stöder multi-threading, vilket möjliggör samtidiga operat
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks-användare?
 
  S: Ja, Aspose.Tasks-användare kan få tillgång till teknisk support via forumet[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

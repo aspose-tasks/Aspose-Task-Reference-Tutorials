@@ -3,10 +3,16 @@ title: Работа с календарем в Aspose.Tasks
 linktitle: Работа с календарем в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Управляйте календарями проектов, рассчитывайте продолжительность, легко обрабатывайте исключения с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 10
 url: /ru/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с календарем в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET предоставляет мощные функции для работы с календарями, позволяющие разработчикам эффективно управлять расписаниями проектов и распределением ресурсов. В этом руководстве мы рассмотрим, как использовать Aspose.Tasks для взаимодействия с календарями, охватывая такие важные операции, как получение информации о календаре, определение рабочих недель, расчет рабочих часов и многое другое.
@@ -497,3 +503,9 @@ public void GetWorkingTimes()
 ### Вопрос 5. Могу ли я получить информацию об исключениях календаря из файлов проекта?
 
 О5: Да, вы можете легко получить информацию об исключениях календаря из файлов проекта, используя Aspose.Tasks для .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Collection of Calendar Exceptions in Aspose.Tasks
 linktitle: Collection of Calendar Exceptions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
-type: docs
 weight: 13
 url: /net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of Calendar Exceptions in Aspose.Tasks
+
 ## Introduction
 
 In project management, precise scheduling is vital for success. However, real-world scenarios often require deviations from standard schedules due to holidays, special events, or other factors. Aspose.Tasks for .NET provides a robust solution for managing such exceptions through its Calendar Exception Collection feature. This tutorial will guide you through the process of utilizing this functionality step by step.
@@ -143,3 +149,10 @@ A4: Aspose.Tasks for .NET allows you to handle overlapping exceptions by definin
 ### Q5: Can I customize the working times for each day within an exception?
 
 A5: Yes, you can specify custom working times for individual days within an exception to accommodate specific scheduling needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

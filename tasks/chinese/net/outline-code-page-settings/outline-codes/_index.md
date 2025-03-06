@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks for .NET 中管理项目大纲代码
 linktitle: 在 Aspose.Tasks 中管理大纲代码
 second_title: Aspose.Tasks .NET API
 description: 学习使用 Aspose.Tasks for .NET 管理 MS Project 大纲代码。毫不费力地简化项目组织。
-type: docs
 weight: 10
 url: /zh/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks for .NET 中管理项目大纲代码
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 大纲代码。大纲代码是 Microsoft Project 中的自定义字段，允许用户根据特定条件对任务进行分类和组织。 Aspose.Tasks 简化了以编程方式读取和操作这些大纲代码的过程。
 ## 先决条件
@@ -71,3 +77,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 答：是的，您可以从网站下载 Aspose.Tasks 的免费试用版来评估其特性和功能。
 ### 问：我在哪里可以获得 Aspose.Tasks 的支持？
 答：您可以通过访问论坛获得 Aspose.Tasks 的支持：[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).## 完整源代码
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

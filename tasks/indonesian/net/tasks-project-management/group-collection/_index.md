@@ -3,10 +3,16 @@ title: Mengelola Koleksi Proyek di Aspose.Tasks
 linktitle: Mengelola Koleksi Grup di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola koleksi MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami.
-type: docs
 weight: 26
 url: /id/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Koleksi Proyek di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara mengelola koleksi grup MS Project menggunakan Aspose.Tasks untuk .NET. Mengelola koleksi grup sangat penting untuk mengatur dan memanipulasi tugas dan sumber daya secara efisien dalam proyek Anda.
 ## Prasyarat
@@ -108,3 +114,9 @@ Aspose.Tasks untuk .NET terutama menargetkan kerangka .NET, tetapi dapat digunak
  Anda bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis untuk .NET dari[situs web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

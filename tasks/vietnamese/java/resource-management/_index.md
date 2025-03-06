@@ -3,10 +3,16 @@ title: Quản lý nguồn tài nguyên
 linktitle: Quản lý nguồn tài nguyên
 second_title: API Java Aspose.Tasks
 description: Quản lý tài nguyên thành thạo trong MS Project với Aspose.Tasks cho Java. Tìm hiểu cách tạo, lặp lại, quản lý chi phí và hơn thế nữa. Tối ưu hóa quá trình phát triển với các hướng dẫn của chúng tôi.
-type: docs
 weight: 31
 url: /vi/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý nguồn tài nguyên
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển MS Project bằng Java, Aspose.Tasks nổi bật như một thư viện mạnh mẽ, cung cấp một bộ chức năng toàn diện để quản lý tài nguyên hiệu quả. Chuỗi hướng dẫn này sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau, đảm bảo bạn trở nên thành thạo trong việc xử lý các tài nguyên Microsoft Project một cách liền mạch.
@@ -63,3 +69,9 @@ Tìm hiểu cách quản lý chi phí tài nguyên MS Project một cách hiệu
 Tìm hiểu cách đặt thuộc tính tài nguyên MS Project trong Java bằng Aspose.Tasks để tích hợp liền mạch và quản lý tác vụ hiệu quả.
 ### [Viết dữ liệu tài nguyên được cập nhật trong Aspose.Tasks](./write-updated-resource-data/)
 Tìm hiểu cách cập nhật dễ dàng dữ liệu tài nguyên trong tệp MS Project bằng Aspose.Tasks cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

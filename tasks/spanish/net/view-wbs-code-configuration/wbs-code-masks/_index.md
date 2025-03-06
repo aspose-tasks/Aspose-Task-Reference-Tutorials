@@ -3,10 +3,16 @@ title: Configuración del código WBS paso a paso en Aspose.Tasks .NET
 linktitle: Configuración de máscaras de código WBS en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore la configuración de máscaras de código WBS paso a paso en proyectos .NET utilizando Aspose.Tasks. Mejore las capacidades de gestión de proyectos sin esfuerzo.
-type: docs
 weight: 14
 url: /es/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración del código WBS paso a paso en Aspose.Tasks .NET
+
 ## Introducción
 Aspose.Tasks para .NET es una poderosa biblioteca que permite a los desarrolladores manipular de manera eficiente los datos de gestión de proyectos en aplicaciones .NET. En este tutorial, exploraremos el proceso de configuración de máscaras de código de estructura de desglose del trabajo (WBS) utilizando Aspose.Tasks.
 ## Requisitos previos
@@ -91,3 +97,9 @@ En este tutorial, exploramos el proceso paso a paso de configurar máscaras de c
  Sí, la documentación completa está disponible.[aquí](https://reference.aspose.com/tasks/net/).
 ### ¿Dónde puedo comprar Aspose.Tasks?
  Comprar Aspose.Tasks[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

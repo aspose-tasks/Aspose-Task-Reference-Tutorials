@@ -3,10 +3,16 @@ title: Definir días laborables en Calendar con Aspose.Tasks
 linktitle: Definir días laborables en Calendar con Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a definir los días de la semana en MS Project Calendar usando Aspose.Tasks para Java. Personaliza los días laborables y los horarios sin esfuerzo.
-type: docs
 weight: 12
 url: /es/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir días laborables en Calendar con Aspose.Tasks
+
 ## Introducción
 En este tutorial, recorreremos el proceso de definición de días laborables en un calendario de MS Project utilizando Aspose.Tasks para Java. Aspose.Tasks es una potente biblioteca Java que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación.
 ## Requisitos previos
@@ -82,3 +88,9 @@ R: Sí, Aspose.Tasks admite varias versiones de archivos de MS Project, incluido
 R: Sí, puede cargar un proyecto existente con calendarios, realizar modificaciones y luego guardar los cambios en el archivo original.
 ### P5: ¿Aspose.Tasks brinda soporte para tareas recurrentes?
 R: Sí, Aspose.Tasks le permite trabajar con tareas recurrentes, incluida la definición de sus patrones de recurrencia y duraciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройка типов даты начала задач в Aspose.
 linktitle: Настройка типов даты начала задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите Aspose.Tasks для .NET, чтобы легко настраивать типы дат начала задач. Легко оптимизируйте управление проектами. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 23
 url: /ru/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка типов даты начала задач в Aspose.Tasks
+
 В динамичном мире управления проектами установка правильной даты начала задач имеет решающее значение. Aspose.Tasks для .NET предоставляет мощное решение для простой настройки типов дат начала задач. В этом руководстве мы проведем вас через весь процесс, разбив его на простые шаги, чтобы обеспечить плавную интеграцию.
 ## Предварительные условия
 Прежде чем углубляться в настройку типов дат начала задач, убедитесь, что у вас есть следующие предварительные условия:
@@ -52,3 +58,9 @@ project.Save(DataDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
  Обратитесь к документации[здесь](https://reference.aspose.com/tasks/net/) за более глубокое понимание Aspose.Tasks для .NET.
 ### В5: Могу ли я получить временную лицензию на Aspose.Tasks?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

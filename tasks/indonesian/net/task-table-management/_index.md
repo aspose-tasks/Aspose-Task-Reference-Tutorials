@@ -3,10 +3,16 @@ title: Aspose.Tasks Manajemen Tugas dan Pemformatan Tabel
 linktitle: Aspose.Tasks Manajemen Tugas dan Pemformatan Tabel
 second_title: Aspose.Tugas .NET API
 description: Konfigurasikan dan kelola tabel dengan mudah di Aspose.Tasks untuk .NET dengan tutorial langkah demi langkah. Meningkatkan efisiensi manajemen proyek dan keterampilan presentasi.
-type: docs
 weight: 29
 url: /id/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Manajemen Tugas dan Pemformatan Tabel
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET merevolusi manajemen proyek dengan fitur-fiturnya yang tangguh. Artikel ini membahas berbagai tutorial tentang manajemen tugas dan pemformatan tabel, menawarkan panduan komprehensif untuk memaksimalkan efisiensi Anda. Mari selami topik utama:
@@ -91,3 +97,9 @@ Jelajahi Aspose.Tasks untuk .NET untuk mengonfigurasi jenis tanggal mulai tugas 
 Jelajahi Aspose.Tasks untuk .NET untuk mengelola dan memvisualisasikan data proyek dengan mudah. Selami Bidang Tampilan Penggunaan Tugas untuk meningkatkan wawasan proyek.
 ### [Kumpulan Bidang Tampilan Penggunaan Tugas di Aspose.Tasks](./task-usage-view-fields/)
 Jelajahi Aspose.Tasks untuk .NET dan pelajari cara mengonfigurasi tampilan penggunaan tugas. Sesuaikan pengaturan skala waktu dan tingkatkan visual manajemen proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

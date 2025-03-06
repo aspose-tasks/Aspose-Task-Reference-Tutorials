@@ -3,10 +3,16 @@ title: Přečtěte si data definice skupiny v Aspose.Tasks
 linktitle: Přečtěte si data definice skupiny v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se číst data definice skupiny ze souborů Microsoft Project pomocí Aspose.Tasks for Java. Postupujte podle našeho podrobného návodu.
-type: docs
 weight: 10
 url: /cs/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přečtěte si data definice skupiny v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for Java je výkonná knihovna, která umožňuje vývojářům snadno manipulovat se soubory aplikace Microsoft Project. V tomto tutoriálu si krok za krokem projdeme procesem čtení dat definice skupiny ze souboru projektu pomocí Aspose.Tasks for Java.
 ## Předpoklady
@@ -79,3 +85,9 @@ Odpověď: Můžete implementovat mechanismy zpracování chyb pomocí bloků tr
 Odpověď: Ano, Aspose.Tasks for Java vám umožňuje exportovat data projektu do formátů jako PDF, XLSX a CSV.
 ### Otázka: Kde najdu další zdroje a podporu pro Aspose.Tasks for Java?
  A: Můžete navštívit[Aspose.Tasks pro dokumentaci Java](https://reference.aspose.com/tasks/java/) pro komplexní průvodce a viz[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

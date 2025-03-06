@@ -3,10 +3,16 @@ title: Enregistrez sans effort les options de MS Project pour Aspose.Tasks
 linktitle: Options d'enregistrement MPP pour Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à enregistrer facilement les options de MS Project avec Aspose.Tasks pour .NET. Boostez l’efficacité de votre gestion de projet.
-type: docs
 weight: 12
 url: /fr/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrez sans effort les options de MS Project pour Aspose.Tasks
+
 ## Introduction
 Dans le monde du développement .NET, la gestion et la manipulation efficaces des fichiers de projet sont essentielles au succès. Aspose.Tasks for .NET offre une solution puissante pour gérer facilement les fichiers Microsoft Project (MPP). Parmi ses nombreuses fonctionnalités, Aspose.Tasks permet aux utilisateurs d'enregistrer les options de MS Project de manière transparente, rationalisant ainsi le flux de travail et garantissant l'intégrité du projet. Dans ce didacticiel, nous approfondirons le processus d'enregistrement des options de MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -67,3 +73,9 @@ Pour une assistance technique, vous pouvez visiter le forum Aspose.Tasks[ici](ht
  Une licence temporaire vous permet d'évaluer Aspose.Tasks pour .NET sans aucune limitation. Vous pouvez acquérir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter une version sous licence d'Aspose.Tasks pour .NET ?
  Vous pouvez acheter une version sous licence d'Aspose.Tasks pour .NET auprès de[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

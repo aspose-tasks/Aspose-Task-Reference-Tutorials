@@ -3,10 +3,16 @@ title: Egyéni mezőtípusok az Aspose.Tasks-ban
 linktitle: Egyéni mezőtípusok az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan dolgozhat egyéni mezőtípusokkal az Aspose.Tasks for .NET alkalmazásban. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-type: docs
 weight: 23
 url: /hu/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni mezőtípusok az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Tasks for .NET egyéni mezőtípusaival kapcsolatos oktatóanyagunkban! Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Ebben az oktatóanyagban az egyéni mezőtípusok megértésére és használatára fogunk összpontosítani, ami a projektadatokkal való munka kulcsfontosságú szempontja.
@@ -89,3 +95,9 @@ A2: Abszolút! Az Aspose.Tasks robusztus szolgáltatásokat és kiváló támoga
 ### 5. kérdés: Létezik közösségi fórum az Aspose.Tasks felhasználók számára?
 
  A5: Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba léphet más felhasználókkal, és támogatást kérhet az Aspose csapatától.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

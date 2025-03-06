@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理任務的持續時間
 linktitle: 在 Aspose.Tasks 中管理任務的持續時間
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 並學習輕鬆管理任務持續時間。按照我們的逐步指南進行有效的專案規劃和執行。
-type: docs
 weight: 20
 url: /zh-hant/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理任務的持續時間
+
 ## 介紹
 Aspose.Tasks for Java 提供了一個強大的解決方案來有效管理專案任務和工期。在本教程中，我們將探索如何使用 Aspose.Tasks 管理任務的持續時間，引導您完成每個步驟。無論您是經驗豐富的開發人員還是初學者，本指南都將幫助您掌握在專案中處理任務持續時間的要點。
 ## 先決條件
@@ -67,3 +73,9 @@ Aspose.Tasks 與 Java 6 及更高版本相容。
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估。
 ### Aspose.Tasks 是否有免費試用版？
 是的，您可以免費試用[這裡](https://releases.aspose.com/)在購買之前探索 Aspose.Tasks。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

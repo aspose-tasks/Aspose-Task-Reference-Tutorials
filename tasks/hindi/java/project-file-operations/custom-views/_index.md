@@ -3,10 +3,16 @@ title: Aspose.Tasks में कस्टम MS प्रोजेक्ट व
 linktitle: Aspose.Tasks में कस्टम दृश्य
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके आसानी से कस्टम MS प्रोजेक्ट दृश्य बनाना सीखें। अनुरूप विचारों के साथ परियोजना प्रबंधन दक्षता बढ़ाएँ।
-type: docs
 weight: 24
 url: /hi/java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कस्टम MS प्रोजेक्ट व्यू बनाएं
+
 ## परिचय
 परियोजना प्रबंधन में, विचारों को अनुकूलित करने से कार्यों और संसाधनों के प्रबंधन की स्पष्टता और दक्षता में काफी वृद्धि हो सकती है। जावा के लिए Aspose.Tasks विशिष्ट परियोजना आवश्यकताओं के अनुरूप कस्टम दृश्य बनाने के लिए शक्तिशाली उपकरण प्रदान करता है। इस ट्यूटोरियल में, हम चरण दर चरण जावा के लिए Aspose.Tasks का उपयोग करके कस्टम MS प्रोजेक्ट व्यू बनाने का तरीका जानेंगे।
 ## आवश्यक शर्तें
@@ -86,3 +92,9 @@ System.out.println("Parent Project of the view: " + view.getParentProject().get(
 ए: निश्चित रूप से. जावा के लिए Aspose.Tasks स्वचालन के लिए व्यापक एपीआई प्रदान करता है, जो डेवलपर्स को आवश्यकतानुसार प्रोग्रामेटिक रूप से कस्टम दृश्य बनाने और प्रबंधित करने में सक्षम बनाता है।
 ### Q5: क्या जावा समर्थन के लिए Aspose.Tasks के लिए कोई सामुदायिक मंच है?
  उत्तर: हाँ, आप सहायता प्राप्त कर सकते हैं और अन्य उपयोगकर्ताओं के साथ जुड़ सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) जावा से संबंधित प्रश्नों और चर्चाओं के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

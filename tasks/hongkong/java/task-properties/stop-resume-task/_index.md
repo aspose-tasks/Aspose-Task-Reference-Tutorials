@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中停止和恢復任務
 linktitle: 在 Aspose.Tasks 中停止和恢復任務
 second_title: Aspose.Tasks Java API
 description: 透過我們有關停止和復原任務的逐步指南來探索 Aspose.Tasks for Java 的強大功能。無縫增強專案管理！
-type: docs
 weight: 30
 url: /zh-hant/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中停止和恢復任務
+
 ## 介紹
 在 Java 開發領域，有效管理任務是專案執行的重要面向。 Aspose.Tasks for Java 以其強大的功能提供了處理任務的強大解決方案。在本教程中，我們將深入研究一項特定功能 - 停止和恢復任務。透過遵循此逐步指南，您將能夠將此功能無縫整合到您的 Java 專案中。
 ## 先決條件
@@ -69,3 +75,9 @@ for (Task tsk : collector.getTasks()) {
 是的，您可以訪問[免費試用](https://releases.aspose.com/)在購買前探索功能。
 ### 如何取得 Aspose.Tasks for Java 的臨時授權？
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

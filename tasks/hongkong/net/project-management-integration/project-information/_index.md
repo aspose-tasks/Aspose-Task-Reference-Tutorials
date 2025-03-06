@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中提取 MS 項目信息
 linktitle: 在 Aspose.Tasks 中提取項目信息
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 輕鬆擷取 MS Project 資訊。深入了解我們的綜合教學。
-type: docs
 weight: 20
 url: /zh-hant/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中提取 MS 項目信息
+
 ## 介紹
 您是否希望使用 Aspose.Tasks for .NET 從 Microsoft Project 檔案中高效提取資訊？在本教程中，我們將逐步指導您完成流程。但在我們深入了解實作細節之前，我們首先確保您擁有所需的一切。
 ## 先決條件
@@ -73,3 +79,9 @@ foreach (var info in list)
 答：是的，您可以透過 Aspose.Tasks for .NET 獲得技術支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)，您可以在這裡提出問題並尋求專家的協助。
 ### Q5：我可以在購買之前試用 Aspose.Tasks for .NET 嗎？
 答：當然可以！您可以從以下網站免費試用 Aspose.Tasks for .NET[發布頁面](https://releases.aspose.com/)，讓您在做出購買決定之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

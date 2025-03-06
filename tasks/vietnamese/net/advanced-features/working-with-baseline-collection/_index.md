@@ -3,10 +3,16 @@ title: Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
 linktitle: Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý đường cơ sở trong Aspose.Tasks cho .NET một cách hiệu quả. Hãy làm theo hướng dẫn toàn diện của chúng tôi để được hướng dẫn từng bước.
-type: docs
 weight: 20
 url: /vi/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project trong ứng dụng .NET của họ. Trong số nhiều tính năng của nó, nó cung cấp sự hỗ trợ mạnh mẽ để quản lý đường cơ sở trong các dự án. Đường cơ sở rất cần thiết cho việc quản lý dự án vì chúng cho phép bạn so sánh kế hoạch dự án ban đầu với trạng thái hiện tại, cho phép theo dõi và phân tích tiến độ dự án tốt hơn.
@@ -116,3 +122,9 @@ Câu trả lời 4: Có, Aspose.Tasks cung cấp hỗ trợ tích hợp với c�
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Tasks tìm kiếm trợ giúp và chia sẻ kiến thức không?
 
  A5: Có, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tương tác với cộng đồng và nhận được sự hỗ trợ từ các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

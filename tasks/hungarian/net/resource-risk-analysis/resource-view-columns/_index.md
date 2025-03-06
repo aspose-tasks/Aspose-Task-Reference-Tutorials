@@ -3,10 +3,16 @@ title: Testreszabhatja az Aspose.Tasks MS Project erőforrásnézet oszlopait
 linktitle: Az Aspose.Tasks erőforrásnézet oszlopainak testreszabása
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan szabhatja hatékonyan az MS Project erőforrásnézet oszlopait az Aspose.Tasks for .NET használatával. Hozzon létre személyre szabott nézeteket a jobb projektmenedzsment érdekében.
-type: docs
 weight: 17
 url: /hu/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja az Aspose.Tasks MS Project erőforrásnézet oszlopait
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. A projektmenedzsment egyik gyakori feladata a nézetek testreszabása bizonyos információk megjelenítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet testreszabni az MS Project erőforrásnézet oszlopait az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -94,3 +100,9 @@ Természetesen az Aspose.Tasks kiterjedt formázási lehetőségeket kínál a t
 Igen, frissítheti és újra létrehozhatja az egyéni nézetet, amikor az alapul szolgáló projektadatok megváltoznak.
 ### Az Aspose.Tasks támogatja a platformok közötti fejlesztést?
 Az Aspose.Tasks for .NET elsősorban a .NET-platformokat célozza meg, de vannak Java- és más platformok verziói is.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

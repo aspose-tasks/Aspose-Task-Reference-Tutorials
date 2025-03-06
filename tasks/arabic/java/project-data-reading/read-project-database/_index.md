@@ -3,10 +3,16 @@ title: قراءة بيانات المشروع من قاعدة بيانات MS Pr
 linktitle: قراءة بيانات المشروع من قاعدة بيانات Microsoft Project في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة بيانات المشروع من قاعدة بيانات Microsoft Project باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 12
 url: /ar/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات المشروع من قاعدة بيانات MS Project في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية قراءة بيانات المشروع من قاعدة بيانات Microsoft Project باستخدام Aspose.Tasks لـ Java. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بمعالجة مستندات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project. باتباع الخطوات الموضحة في هذا الدليل، ستتعلم كيفية استخراج بيانات المشروع بكفاءة من قاعدة البيانات وحفظها بالتنسيق المطلوب.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ج: نعم، يدعم Aspose.Tasks تنسيقات الإخراج المختلفة، بما في ذلك XML وPDF وHTML وتنسيقات الصور مثل PNG وJPEG.
 ### س: أين يمكنني العثور على مزيد من الدعم أو المساعدة فيما يتعلق بـ Aspose.Tasks؟
  ج: للحصول على دعم أو مساعدة إضافية، يمكنك زيارة منتدى Aspose.Tasks أو استكشاف الوثائق المتوفرة على موقع الويب[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

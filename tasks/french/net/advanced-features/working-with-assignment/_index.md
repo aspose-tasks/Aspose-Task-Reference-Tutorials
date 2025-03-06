@@ -3,10 +3,16 @@ title: Travailler avec l'affectation dans Aspose.Tasks
 linktitle: Travailler avec l'affectation dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les affectations de projets dans .NET à l'aide d'Aspose.Tasks. Explorez différents contours pour la planification des ressources.
-type: docs
 weight: 13
 url: /fr/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec l'affectation dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment utiliser les affectations dans Aspose.Tasks pour .NET. Les affectations sont cruciales dans la gestion de projet car elles allouent des ressources aux tâches, aidant ainsi à planifier et à suivre les progrès. Nous nous concentrerons sur la génération de données chronologiques d’affectation de ressources avec différents contours à l’aide d’Aspose.Tasks.
@@ -109,3 +115,9 @@ A4 : Oui, comme démontré dans ce didacticiel, vous pouvez définir différents
 ### Q5 : Où puis-je trouver de l'aide pour les requêtes liées à Aspose.Tasks ?
 
 A5 : Vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) où les experts et les membres de la communauté participent activement aux discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

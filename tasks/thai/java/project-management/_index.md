@@ -3,10 +3,16 @@ title: การจัดการโครงการ
 linktitle: การจัดการโครงการ
 second_title: Aspose.Tasks Java API
 description: สำรวจ Aspose.Tasks Java ด้วยบทช่วยสอนการจัดการโครงการที่ครอบคลุมของเรา ตั้งแต่การคำนวณเส้นทางที่สำคัญไปจนถึงคุณสมบัติปีบัญชี ปรับปรุงขั้นตอนการทำงานของคุณ
-type: docs
 weight: 27
 url: /th/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการโครงการ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการจัดการโครงการโดยใช้ Aspose.Tasks สำหรับ Java แล้วหรือยัง? เจาะลึกบทช่วยสอนสุดพิเศษของเราซึ่งครอบคลุมฟีเจอร์และฟังก์ชันต่างๆ ที่จะช่วยเสริมศักยภาพให้กับเส้นทางการพัฒนา Java ของคุณ ตั้งแต่การคำนวณเส้นทางที่สำคัญไปจนถึงการจัดการข้อยกเว้นในการเขียนงานระหว่างการพิมพ์ เราช่วยคุณได้ มาสำรวจความรู้มากมายที่รอคุณอยู่
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 เรียนรู้วิธีพิมพ์หน้าเพื่อแยกรูปภาพใน Aspose.Tasks for Java ปรับปรุงการแสดงภาพโครงการด้วยคำแนะนำทีละขั้นตอนนี้
 ### [จัดการข้อยกเว้นในการเขียนงานระหว่างการพิมพ์ใน Aspose.Tasks](./print-task-exceptions/)
 การจัดการข้อยกเว้นหลักใน Aspose.Tasks สำหรับ Java เพื่อให้มั่นใจว่าการดำเนินโครงการเป็นไปอย่างราบรื่น เรียนรู้วิธีจัดการกับข้อยกเว้นในการเขียนงานระหว่างการพิมพ์ได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

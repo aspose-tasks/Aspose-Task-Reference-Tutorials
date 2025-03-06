@@ -3,10 +3,16 @@ title: Διαβάστε τα αρχεία που προστατεύονται μ
 linktitle: Διαβάστε τα αρχεία που προστατεύονται με κωδικό πρόσβασης στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαβάζετε αρχεία που προστατεύονται με κωδικό πρόσβασης στο Aspose.Tasks για Java χωρίς κόπο με οδηγίες βήμα προς βήμα σε αυτό το σεμινάριο.
-type: docs
 weight: 14
 url: /el/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τα αρχεία που προστατεύονται με κωδικό πρόσβασης στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται τα αρχεία του Microsoft Project μέσω προγραμματισμού. Μια κοινή εργασία που αντιμετωπίζουν οι προγραμματιστές είναι η ανάγνωση αρχείων που προστατεύονται με κωδικό πρόσβασης. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ανάγνωσης τέτοιων αρχείων βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -49,3 +55,9 @@ System.out.println("Process completed Successfully");
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης[εδώ](https://releases.aspose.com/).
 ### Ε: Χρειάζομαι μια προσωρινή άδεια χρήσης για να χρησιμοποιήσω το Aspose.Tasks για Java;
  Α: Μπορεί να απαιτήσετε μια προσωρινή άδεια για ορισμένες λειτουργίες ή κατά τη διάρκεια της περιόδου αξιολόγησης. Αποκτήστε το[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

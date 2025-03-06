@@ -3,10 +3,16 @@ title: Anpassen von MS Project-Ansichten in Aspose.Tasks
 linktitle: Anpassen von Projektansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Ansichten mit Aspose.Tasks für .NET anpassen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Projektmanagement-Visualisierung.
-type: docs
 weight: 24
 url: /de/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassen von MS Project-Ansichten in Aspose.Tasks
+
 ## Einführung
 Microsoft Project ist ein leistungsstarkes Tool für das Projektmanagement, mit dem Benutzer Aufgaben organisieren, Ressourcen verwalten und den Fortschritt effektiv verfolgen können. Aspose.Tasks für .NET bietet eine bequeme Möglichkeit, programmgesteuert mit Microsoft Project-Dateien zu arbeiten und ermöglicht Entwicklern, Projektansichten an ihre spezifischen Anforderungen anzupassen. In diesem Tutorial erfahren Sie, wie Sie MS Project-Ansichten mithilfe von Aspose.Tasks für .NET anpassen.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ Sie können benutzerdefinierte Projektansichten integrieren, indem Sie Aspose.Ta
  Ja, Aspose.Tasks für .NET bietet umfassende Dokumentation und Support[Forum](https://forum.aspose.com/c/tasks/15) Und[Dokumentationsportal](https://reference.aspose.com/tasks/net/).
 ### 5. Kann ich Aspose.Tasks für .NET vor dem Kauf testen?
  Ja, Sie können eines in Anspruch nehmen[Kostenlose Testphase](https://releases.aspose.com/) von Aspose.Tasks für .NET, um dessen Funktionen und Fähigkeiten zu bewerten, bevor Sie eine Kaufentscheidung treffen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

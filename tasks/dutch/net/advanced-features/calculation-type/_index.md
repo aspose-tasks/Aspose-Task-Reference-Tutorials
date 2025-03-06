@@ -3,10 +3,16 @@ title: Berekeningstype Aspose.Tasks
 linktitle: Berekeningstype Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u waardeberekeningen in .NET-projecten kunt aanpassen met het berekeningstype in de Aspose.Tasks-bibliotheek.
-type: docs
 weight: 30
 url: /nl/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berekeningstype Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie verkennen we de functie Berekeningstype in Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige bibliotheek waarmee .NET-ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project op hun systemen hoeft te zijn geïnstalleerd. Met Berekeningstype kunnen we definiëren hoe waarden worden berekend voor taken en samenvattingstaken binnen een project.
@@ -97,3 +103,9 @@ A4: Ja, Aspose.Tasks biedt verschillende samenvoegingstypen, zoals Gemiddelde, S
 ### V5: Waar kan ik meer bronnen vinden over Aspose.Tasks voor .NET?
 
  A5: U kunt de documentatie en community-ondersteuningsforums verkennen die beschikbaar zijn op de[Aspose.Tasks voor .NET](https://reference.aspose.com/tasks/net/) voor uitgebreide begeleiding en hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

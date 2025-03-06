@@ -3,10 +3,16 @@ title: MS Project Online kivételek kezelése az Aspose.Tasks-ban
 linktitle: Munka a Project Online kivételekkel az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti zökkenőmentesen a Microsoft Project Online kivételeit az Aspose.Tasks for .NET segítségével. Lépésről lépésre bemutató útmutató a hatékony projektmenedzsmenthez.
-type: docs
 weight: 21
 url: /hu/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Online kivételek kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban a Microsoft Project Online kivételeinek Aspose.Tasks for .NET használatával kezelésének bonyolultságába fogunk elmélyülni. Az Aspose.Tasks egy hatékony .NET API, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok egyszerű manipulálását és kezelését. Lépésről lépésre végigjárjuk a folyamatot, biztosítva annak átfogó megértését, hogyan kell dolgozni az MS Project Online kivételeivel a .NET-alkalmazásaiban.
 ## Előfeltételek
@@ -74,3 +80,9 @@ V: Igen, az Aspose.Tasks széleskörű támogatást nyújt a különféle projek
 V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Hogyan vásárolhatok licencet az Aspose.Tasks számára?
  V: Az Aspose.Tasks licencet a webhelyről vásárolhatja meg[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

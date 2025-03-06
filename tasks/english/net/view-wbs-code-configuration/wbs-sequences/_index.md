@@ -3,10 +3,16 @@ title: Mastering WBS Sequences with Aspose.Tasks for .NET
 linktitle: Defining WBS Sequences in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Empower your project management with Aspose.Tasks for .NET – seamlessly define WBS sequences and enhance efficiency effortlessly. #Aspose #Tasks #MS Project
-type: docs
 weight: 16
 url: /net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering WBS Sequences with Aspose.Tasks for .NET
+
 ## Introduction
 Are you working on a project management application and need a robust tool to handle Work Breakdown Structure (WBS) sequences? Look no further than Aspose.Tasks for .NET, a powerful library that simplifies project management tasks. In this tutorial, we'll guide you through the process of defining WBS sequences step by step.
 ## Prerequisites
@@ -74,3 +80,10 @@ Yes, you can [download a free trial](https://releases.aspose.com/) to explore th
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to connect with the community and seek assistance.
 ### Are temporary licenses available?
 Yes, you can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

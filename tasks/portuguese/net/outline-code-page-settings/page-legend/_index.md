@@ -3,10 +3,16 @@ title: Configurando legendas do MS Project em Aspose.Tasks
 linktitle: Configurando a legenda da página em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como configurar legendas de páginas do MS Project em .NET usando Aspose.Tasks para gerenciamento eficiente de projetos. Guia passo a passo fornecido.
-type: docs
 weight: 18
 url: /pt/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando legendas do MS Project em Aspose.Tasks
+
 ## Introdução
 No domínio do desenvolvimento .NET, o gerenciamento eficiente de tarefas é crucial, especialmente quando se trata de gerenciamento de projetos. Aspose.Tasks for .NET surge como uma ferramenta poderosa, oferecendo uma infinidade de funcionalidades para agilizar os processos de gerenciamento de tarefas. Um desses recursos é a capacidade de configurar legendas de páginas do MS Project, fornecendo aos usuários informações valiosas sobre a apresentação dos dados do projeto.
 ## Pré-requisitos
@@ -85,3 +91,9 @@ R: Licenças temporárias oferecem acesso total às funcionalidades do Aspose.Ta
 R: Com certeza, o Aspose.Tasks for .NET oferece amplas opções de personalização, permitindo que você personalize as legendas das páginas de acordo com os requisitos específicos do seu projeto.
 ### P: Onde posso encontrar suporte ou fóruns da comunidade para Aspose.Tasks for .NET?
  R: Você pode buscar apoio e interagir com a comunidade no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), onde você pode encontrar respostas para dúvidas e interagir com outros desenvolvedores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

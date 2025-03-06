@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for Java 管理 MS 專案資源成本
 linktitle: 在 Aspose.Tasks 中處理資源成本
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效管理 MS Project 資源成本。請遵循我們的逐步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/resource-management/resource-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for Java 管理 MS 專案資源成本
+
 ## 介紹
 
 在專案管理中，監控和管理資源成本對於將專案控制在預算範圍內並確保獲利能力至關重要。 Aspose.Tasks for Java 提供了強大的工具來有效處理 Microsoft Project 資源成本。在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 有效管理資源成本，將每個步驟分解為易於遵循的說明。
@@ -93,3 +99,9 @@ A4：是的，Aspose 透過其論壇提供出色的客戶支持，用戶可以�
 ### Q5：Aspose.Tasks for Java 有免費試用版嗎？
 
 A5：是的，您可以在做出購買決定之前訪問 Aspose.Tasks for Java 的免費試用版來探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

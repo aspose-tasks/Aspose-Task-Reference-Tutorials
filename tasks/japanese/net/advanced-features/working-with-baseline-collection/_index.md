@@ -3,10 +3,16 @@ title: Aspose.Tasks でのベースライン コレクションの操作
 linktitle: Aspose.Tasks でのベースライン コレクションの操作
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でベースラインを効率的に管理する方法を学びます。段階的なガイダンスについては、包括的なチュートリアルに従ってください。
-type: docs
 weight: 20
 url: /ja/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのベースライン コレクションの操作
+
 ## 導入
 
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Microsoft Project ファイルをシームレスに操作できるようにする強力なライブラリです。多くの機能の中でも、プロジェクト内のベースラインの管理を強力にサポートします。ベースラインは、元のプロジェクト計画と現在のステータスを比較して、プロジェクトの進捗状況をより適切に追跡および分析できるため、プロジェクト管理には不可欠です。
@@ -116,3 +122,9 @@ A4: はい、Aspose.Tasks は一般的なクラウド プラットフォーム�
 ### Q5: Aspose.Tasks ユーザーが助けを求めたり、知識を共有したりできるコミュニティ フォーラムはありますか?
 
  A5: はい、ご覧いただけます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティに参加し、専門家の支援を受けることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

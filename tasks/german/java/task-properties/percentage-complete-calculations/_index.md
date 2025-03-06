@@ -3,10 +3,16 @@ title: Berechnungen des Prozentsatzes der abgeschlossenen Aufgaben für Aufgaben
 linktitle: Berechnungen des Prozentsatzes der abgeschlossenen Aufgaben für Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie Aspose.Tasks für Java und optimieren Sie die Verfolgung des Projektfortschritts. Berechnen Sie mühelos Aufgabenprozentsätze für ein effizientes Projektmanagement.
-type: docs
 weight: 25
 url: /de/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berechnungen des Prozentsatzes der abgeschlossenen Aufgaben für Aufgaben in Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem ausführlichen Leitfaden zum Beherrschen von Aufgabenprozentsatzberechnungen mit Aspose.Tasks für Java. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die für die Arbeit mit Microsoft Project-Dateien entwickelt wurde und eine Reihe robuster Funktionen für das Projektmanagement bietet. In diesem Tutorial konzentrieren wir uns auf die Berechnung des Prozentsatzes der abgeschlossenen Arbeiten und vermitteln Ihnen das Wissen, um den Projektfortschritt effektiv zu überwachen und zu analysieren.
 ## Voraussetzungen
@@ -63,3 +69,9 @@ Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases
  Besuchen Sie das Support-Forum[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Wie erhalte ich eine temporäre Lizenz?
  Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

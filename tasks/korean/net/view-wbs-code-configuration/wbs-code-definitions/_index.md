@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 WBS 코드 정의 정의
 linktitle: Aspose.Tasks에서 WBS 코드 정의 정의
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks는 효율적인 프로젝트 관리를 지원합니다. 포괄적인 튜토리얼을 통해 WBS 코드를 쉽게 마스터하세요. 오늘 워크플로를 간소화하세요!
-type: docs
 weight: 13
 url: /ko/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 WBS 코드 정의 정의
+
 ## 소개
 프로젝트 관리가 발전함에 따라 프로세스를 간소화하는 강력한 도구의 필요성도 커지고 있습니다. .NET 개발 영역에서 Aspose.Tasks는 프로젝트 관리 작업을 처리하기 위한 강력한 라이브러리로 돋보입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 WBS(작업 분할 구조) 코드를 정의하는 프로세스를 자세히 살펴보겠습니다. WBS 코드는 프로젝트 계층 구조에 질서를 부여하여 효율적인 추적 및 구성을 가능하게 합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ Aspose.Tasks는 확장성을 제공하며 프로젝트 복잡성에 따라 상�
  Aspose.Tasks 포럼(링크[지원하다](https://forum.aspose.com/c/tasks/15))은 도움을 구하고 문의 사항을 해결하는 데 유용한 리소스입니다.
 ### Aspose.Tasks를 구매하기 전에 사용할 수 있는 평가판이 있나요?
  예, Aspose.Tasks에 액세스하여 기능과 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 버전.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中设置新任务的 MS 项目属性
 linktitle: 在 Aspose.Tasks 中设置新任务的属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 设置新任务的 MS Project 属性。通过这份综合指南轻松自定义任务属性。
-type: docs
 weight: 21
 url: /zh/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中设置新任务的 MS 项目属性
+
 ## 介绍
 欢迎来到我们关于在 Aspose.Tasks for Java 中为新任务设置 MS Project 属性的综合教程！在本指南中，我们将逐步引导您完成整个过程，确保您可以使用这个强大的 Java 库轻松管理和自定义您的任务。
 ## 先决条件
@@ -68,3 +74,9 @@ System.out.println("Project file generated Successfully");
 答：Aspose.Tasks for Java 的临时许可证可以从[临时许可证页面](https://purchase.aspose.com/temporary-license/).
 ### 问：对于与 Aspose.Tasks for Java 相关的任何问题或查询，我可以在哪里获得支持？
 答：您可以通过以下方式获得支持并与社区互动：[Aspose.Tasks for Java 支持论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

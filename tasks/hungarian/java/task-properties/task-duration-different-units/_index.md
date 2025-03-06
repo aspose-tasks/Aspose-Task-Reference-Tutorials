@@ -3,10 +3,16 @@ title: Feladat időtartama különböző egységekben az Aspose.Tasks segítség
 linktitle: Feladat időtartama különböző egységekben az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Fedezze fel a feladatok időtartamának kezelését Java projektekben az Aspose.Tasks segítségével. Pontosan számítja ki és konvertálja át az időtartamokat percekben, napokban, órákban, hetekben és hónapokban.
-type: docs
 weight: 32
 url: /hu/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat időtartama különböző egységekben az Aspose.Tasks segítségével
+
 ## Bevezetés
 A projektmenedzsment területén a feladatok időtartamának megértése és kezelése kritikus szempont. Az Aspose.Tasks for Java hatékony eszközkészletet biztosít ennek hatékony kezelésére. Ebben az oktatóanyagban végigvezetjük a feladatok időtartamának lekérésében különböző egységekben az Aspose.Tasks használatával.
 ## Előfeltételek
@@ -83,3 +89,9 @@ Teljesen. Az Aspose.Tasks célja a különböző méretű projektek hatékony ke
  Meglátogatni a[dokumentáció](https://reference.aspose.com/tasks/java/)átfogó forrásokért.
 ### K: Kipróbálhatom az Aspose.Tasks for Java programot vásárlás előtt?
  Igen, felfedezheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy felmérje képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

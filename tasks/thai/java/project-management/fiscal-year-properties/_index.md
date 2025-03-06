@@ -3,10 +3,16 @@ title: จัดการคุณสมบัติปีบัญชีใน 
 linktitle: จัดการคุณสมบัติปีบัญชีใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีจัดการคุณสมบัติปีบัญชีอย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างที่ให้ไว้
-type: docs
 weight: 15
 url: /th/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการคุณสมบัติปีบัญชีใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks เป็นไลบรารี Java อันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการไฟล์โปรเจ็กต์ได้อย่างมีประสิทธิภาพ รวมถึงการจัดการคุณสมบัติในปีงบประมาณด้วย ในบทช่วยสอนนี้ เราจะอธิบายกระบวนการจัดการคุณสมบัติปีบัญชีโดยใช้ Aspose.Tasks ใน Java
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
  ตอบ: ได้ คุณสามารถเข้าถึง Aspose.Tasks เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  ตอบ: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ Java ได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

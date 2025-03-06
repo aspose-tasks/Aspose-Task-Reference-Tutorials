@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Projeler Arası Görevleri Tanımlayın
 linktitle: Aspose.Tasks'ta Projeler Arası Görevleri Tanımlayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile projeler arası görev tanımlamayı keşfedin. Kusursuz entegrasyon ve verimli yönetim. Şimdi İndirin!
-type: docs
 weight: 14
 url: /tr/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Projeler Arası Görevleri Tanımlayın
+
 ## giriiş
 Aspose.Tasks for Java ile projeler arası görevleri verimli bir şekilde belirlemeye yönelik kapsamlı eğitimimize hoş geldiniz. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuz bu işlevselliği Java projelerinize sorunsuz bir şekilde entegre etme sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -60,3 +66,9 @@ C: Evet, Aspose.Tasks, Java, .NET ve daha fazlasını içeren birden fazla progr
  C: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 C: Aspose.Tasks destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

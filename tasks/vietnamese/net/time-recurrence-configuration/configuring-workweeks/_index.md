@@ -3,10 +3,16 @@ title: Nắm vững cấu hình tuần làm việc trong Aspose.Tasks
 linktitle: Định cấu hình tuần làm việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình tuần làm việc một cách dễ dàng trong Aspose.Tasks for .NET. Tăng cường lập kế hoạch dự án và quản lý tài nguyên với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 16
 url: /vi/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững cấu hình tuần làm việc trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách định cấu hình tuần làm việc trong Aspose.Tasks cho .NET. Quản lý hiệu quả tuần làm việc là rất quan trọng để lập kế hoạch và tiến độ dự án. Aspose.Tasks đơn giản hóa quy trình này, cho phép bạn tùy chỉnh tuần làm việc theo nhu cầu của dự án. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để đặt cấu hình tuần làm việc một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Mặc dù Aspose.Tasks cung cấp khả năng nhập/xuất mạnh mẽ nhưng c
 Kể từ phiên bản hiện tại, không có giới hạn được xác định trước về số tuần làm việc mà bạn có thể định cấu hình trong một dự án.
 ### Có mẫu dựng sẵn nào cho các tuần làm việc thông thường không?
 Có, Aspose.Tasks bao gồm mẫu lịch tiêu chuẩn mà bạn có thể sử dụng làm điểm bắt đầu cho dự án của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Using Tree Algorithm in Aspose.Tasks
 linktitle: Using Tree Algorithm in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to effectively manipulate task hierarchies in your .NET projects using Aspose.Tasks' Tree Algorithm.
-type: docs
 weight: 13
 url: /net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Using Tree Algorithm in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET provides powerful functionalities for working with project management tasks, resources, and schedules. One such feature is the Tree Algorithm, which allows users to manipulate task hierarchies efficiently. In this tutorial, we'll explore how to utilize the Tree Algorithm in Aspose.Tasks for .NET to gather common work and update work values within a project.
@@ -115,3 +121,10 @@ A4: For support related to Aspose.Tasks for .NET, you can visit the [Aspose.Task
 ### Q5: Is there a temporary license available for testing purposes?
 
 A5: Yes, you can obtain a temporary license for testing purposes from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

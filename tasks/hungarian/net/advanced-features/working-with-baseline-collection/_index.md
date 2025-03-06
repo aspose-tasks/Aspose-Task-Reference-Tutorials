@@ -3,10 +3,16 @@ title: A Baseline Collection használata az Aspose.Tasks programban
 linktitle: A Baseline Collection használata az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az Aspose.Tasks for .NET alapvonalait. Kövesse átfogó oktatóanyagunkat a lépésről lépésre történő útmutatásért.
-type: docs
 weight: 20
 url: /hu/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Baseline Collection használata az Aspose.Tasks programban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Microsoft Project fájlokkal .NET-alkalmazásaikban. Számos funkciója mellett erőteljes támogatást nyújt a projekteken belüli alapvonalak kezeléséhez. Az alapértékek elengedhetetlenek a projektmenedzsmenthez, mivel lehetővé teszik az eredeti projektterv és a jelenlegi állapot összehasonlítását, lehetővé téve a projekt előrehaladásának jobb nyomon követését és elemzését.
@@ -116,3 +122,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk az Aspose.Tasks for
 ### 5. kérdés: Létezik közösségi fórum az Aspose.Tasks felhasználók számára, ahol segítséget kérhetnek és megoszthatják tudásukat?
 
  A5: Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba lépni a közösséggel, és segítséget kérni szakértőktől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

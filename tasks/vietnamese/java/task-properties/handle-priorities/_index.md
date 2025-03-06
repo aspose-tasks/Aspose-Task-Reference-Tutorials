@@ -3,10 +3,16 @@ title: Xử lý các ưu tiên nhiệm vụ trong Aspose.Tasks
 linktitle: Xử lý các ưu tiên nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Làm chủ các ưu tiên nhiệm vụ một cách dễ dàng với Aspose.Tasks cho Java. Hãy làm theo hướng dẫn này để xử lý liền mạch. Nâng cao kỹ năng quản lý dự án của bạn!
-type: docs
 weight: 17
 url: /vi/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các ưu tiên nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Quản lý mức độ ưu tiên của nhiệm vụ là rất quan trọng để dự án thành công và với Aspose.Tasks cho Java, nó trở thành một quy trình liền mạch. Hướng dẫn này sẽ hướng dẫn bạn xử lý mức độ ưu tiên của nhiệm vụ bằng Aspose.Tasks. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ chia quy trình thành các bước dễ thực hiện.
 ## Điều kiện tiên quyết
@@ -56,3 +62,9 @@ Có, Aspose.Tasks for Java phù hợp cho cả ứng dụng máy tính để bà
  Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Hỏi: Tôi có thể tìm tài liệu chi tiết ở đâu?
  Tham khảo tài liệu[đây](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

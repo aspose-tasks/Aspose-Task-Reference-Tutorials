@@ -3,10 +3,16 @@ title: Anpassa MS Project Resource View-kolumner i Aspose.Tasks
 linktitle: Anpassa resursvykolumner i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du anpassar MS Projects resursvykolumner effektivt med Aspose.Tasks för .NET. Skapa skräddarsydda vyer för bättre projektledning.
-type: docs
 weight: 17
 url: /sv/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa MS Project Resource View-kolumner i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt API som låter utvecklare arbeta med Microsoft Project-filer programmatiskt. En vanlig uppgift inom projektledning är att anpassa vyer för att visa specifik information. I den här handledningen kommer vi att utforska hur man anpassar MS Project-resursvykolumner med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -94,3 +100,9 @@ Absolut, Aspose.Tasks erbjuder omfattande formateringsalternativ för att förb�
 Ja, du kan uppdatera och återskapa den anpassade vyn när den underliggande projektdatan ändras.
 ### Stöder Aspose.Tasks utveckling över plattformar?
 Aspose.Tasks för .NET riktar sig främst till .NET-plattformar, men det finns även versioner tillgängliga för Java och andra plattformar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

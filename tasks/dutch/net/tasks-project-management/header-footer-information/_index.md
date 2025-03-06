@@ -3,10 +3,16 @@ title: Extraheer kop- en voettekstinformatie met Aspose.Tasks
 linktitle: Kop- en voettekstinformatie in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer kop- en voettekstinformatie uit MS Project-bestanden extraheren met Aspose.Tasks voor .NET. Eenvoudige, efficiënte en ontwikkelaarsvriendelijke oplossing.
-type: docs
 weight: 29
 url: /nl/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraheer kop- en voettekstinformatie met Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden gemakkelijk kunnen manipuleren. In deze zelfstudie leren we hoe u kop- en voettekstinformatie uit MS Project-bestanden kunt ophalen met Aspose.Tasks.
 ## Vereisten
@@ -70,3 +76,9 @@ Ja, Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder 
  U kunt de documentatie voor Aspose.Tasks vinden[hier](https://reference.aspose.com/tasks/net/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
  U kunt ondersteuning krijgen voor Aspose.Tasks door naar de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extracting Recurring Task Information in Aspose.Tasks
 linktitle: Extracting Recurring Task Information in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to extract recurring task information from MS Project files using Aspose.Tasks for .NET. Easy integration for .NET developers.
-type: docs
 weight: 13
 url: /net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extracting Recurring Task Information in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that allows developers to work with Microsoft Project files in their .NET applications. In this tutorial, we will explore how to extract recurring task information from MS Project files using Aspose.Tasks.
 ## Prerequisites
@@ -62,3 +68,10 @@ A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
 A: You can find the documentation [here](https://reference.aspose.com/tasks/net/).
 ### Q: How can I get technical support for Aspose.Tasks for .NET?
 A: You can get technical support from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

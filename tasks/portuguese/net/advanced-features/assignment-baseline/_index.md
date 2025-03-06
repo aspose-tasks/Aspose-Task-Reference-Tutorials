@@ -3,10 +3,16 @@ title: Gerenciando linha de base de atribuição em Aspose.Tasks
 linktitle: Gerenciando linha de base de atribuição em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar linhas de base de atribuições de forma eficiente com Aspose.Tasks for .NET, garantindo um rastreamento preciso do progresso e desempenho do projeto.
-type: docs
 weight: 14
 url: /pt/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciando linha de base de atribuição em Aspose.Tasks
+
 ## Introdução
 
 Ao trabalhar em tarefas de gerenciamento de projetos, o gerenciamento das linhas de base das atribuições é crucial para acompanhar o progresso com precisão. Aspose.Tasks for .NET fornece um conjunto abrangente de ferramentas para lidar com linhas de base de atribuição com eficiência. Neste tutorial, nos aprofundaremos no processo de gerenciamento de linhas de base de atribuição passo a passo.
@@ -123,3 +129,9 @@ A4: Sim, os desenvolvedores podem acessar documentação, tutoriais e fóruns ab
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
  A5: Sim, os desenvolvedores podem obter uma versão de avaliação gratuita do Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/), permitindo-lhes avaliar seus recursos e capacidades antes de tomar uma decisão de compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

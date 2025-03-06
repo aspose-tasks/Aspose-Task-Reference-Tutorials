@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 달력에서 작업 주 읽�
 linktitle: Aspose.Tasks를 사용하여 달력에서 작업 주 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 달력에서 작업 주를 읽는 방법을 알아보세요. 이 포괄적인 튜토리얼에서 단계별 지침을 얻으세요.
-type: docs
 weight: 15
 url: /ko/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 달력에서 작업 주 읽기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 Microsoft Project 달력에서 작업 주 정보를 읽는 방법을 살펴보겠습니다. Aspose.Tasks는 Microsoft Project 문서를 프로그래밍 방식으로 조작하고 관리할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -65,3 +71,9 @@ for (WorkWeek workWeek : collection) {
  예, 다음에서 Aspose.Tasks의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
 Aspose.Tasks 포럼에서 지원과 지원을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

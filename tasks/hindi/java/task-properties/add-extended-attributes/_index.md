@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्यों में विस्ता
 linktitle: Aspose.Tasks में कार्यों में विस्तारित विशेषताएँ जोड़ें
 second_title: Aspose.Tasks जावा एपीआई
 description: विस्तारित विशेषताओं के साथ Microsoft प्रोजेक्ट फ़ाइलों को अनुकूलित करने में Aspose.Tasks Java की शक्ति का अन्वेषण करें। अपनी परियोजना प्रबंधन क्षमताओं को सहजता से बढ़ाएं।
-type: docs
 weight: 11
 url: /hi/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्यों में विस्तारित विशेषताएँ जोड़ें
+
 ## परिचय
 कुशल कार्य ट्रैकिंग और संसाधन प्रबंधन के लिए अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाना महत्वपूर्ण है। जावा के लिए Aspose.Tasks जावा डेवलपर्स के लिए Microsoft प्रोजेक्ट फ़ाइलों में निर्बाध रूप से हेरफेर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि जावा के लिए Aspose.Tasks का उपयोग करके कार्यों में विस्तारित विशेषताओं को कैसे जोड़ा जाए, जिससे आप अपनी विशिष्ट आवश्यकताओं के अनुसार अपने प्रोजेक्ट डेटा को अनुकूलित और व्यवस्थित कर सकें।
 ## आवश्यक शर्तें
@@ -75,3 +81,9 @@ project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp)
  ए: पर जाएँ[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और चर्चा के लिए।
 ### प्रश्न: क्या मैं खरीदने से पहले जावा के लिए Aspose.Tasks आज़मा सकता हूँ?
  उत्तर: हां, आप निःशुल्क परीक्षण संस्करण तक पहुंच सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

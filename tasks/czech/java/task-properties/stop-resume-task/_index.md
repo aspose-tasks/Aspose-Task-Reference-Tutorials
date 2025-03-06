@@ -3,10 +3,16 @@ title: Zastavit a obnovit úlohu v Aspose.Tasks
 linktitle: Zastavit a obnovit úlohu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte sílu Aspose.Tasks pro Java pomocí našeho podrobného průvodce zastavením a obnovením úloh. Vylepšete bezproblémové řízení projektů!
-type: docs
 weight: 30
 url: /cs/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastavit a obnovit úlohu v Aspose.Tasks
+
 ## Úvod
 V oblasti vývoje Java je efektivní řízení úloh klíčovým aspektem realizace projektu. Aspose.Tasks for Java poskytuje robustní řešení pro zpracování úkolů s jeho výkonnými funkcemi. V tomto tutoriálu se ponoříme do jedné konkrétní funkce – zastavení a obnovení úloh. Podle tohoto podrobného průvodce budete moci tuto funkci bez problémů integrovat do svých projektů Java.
 ## Předpoklady
@@ -69,3 +75,9 @@ Ano, uvedený příklad umožňuje flexibilitu v nastavení minimálního data p
  Ano, máte přístup k[zkušební verze zdarma](https://releases.aspose.com/) k prozkoumání funkcí před nákupem.
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks for Java?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

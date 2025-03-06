@@ -3,10 +3,16 @@ title: Gestion des collections de tâches dans Aspose.Tasks
 linktitle: Gestion des collections de tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez la gestion efficace de la collecte de tâches dans Aspose.Tasks pour .NET. De la création à l'édition, maîtrisez la gestion de projet en toute simplicité.
-type: docs
 weight: 18
 url: /fr/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des collections de tâches dans Aspose.Tasks
+
 ## Introduction
 Si vous plongez dans le monde de la gestion de projet à l'aide de .NET, Aspose.Tasks est votre solution incontournable pour une gestion transparente des collections de tâches. Ce didacticiel vous guidera tout au long du processus de gestion efficace des collections de tâches, vous garantissant ainsi de tirer le meilleur parti de cette puissante bibliothèque.
 ## Conditions préalables
@@ -95,3 +101,9 @@ Absolument! Aspose.Tasks propose des options d'exportation polyvalentes, notamme
  Oui, vous pouvez trouver du soutien et interagir avec la communauté sur[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

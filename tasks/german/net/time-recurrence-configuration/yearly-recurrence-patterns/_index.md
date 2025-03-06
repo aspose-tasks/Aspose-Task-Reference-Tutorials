@@ -3,10 +3,16 @@ title: Beherrschen Sie jährliche Wiederholungsmuster in Aspose.Tasks für .NET
 linktitle: Konfigurieren jährlicher Wiederholungsmuster in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie jährliche Wiederholungsmuster in Aspose.Tasks für .NET konfigurieren. Verbessern Sie Ihre Projektmanagementfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 18
 url: /de/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen Sie jährliche Wiederholungsmuster in Aspose.Tasks für .NET
+
 ## Einführung
 In der dynamischen Welt des Projektmanagements ist die effiziente Bewältigung wiederkehrender Aufgaben ein zentraler Aspekt. Aspose.Tasks für .NET bietet eine leistungsstarke Lösung zum Konfigurieren jährlicher Wiederholungsmuster, mit der Sie Ihre Projektplanung und -verwaltung optimieren können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Tasks jährliche Wiederholungsmuster einrichten.
 ## Voraussetzungen
@@ -69,3 +75,9 @@ In diesem Tutorial haben wir den Prozess der Konfiguration jährlicher Wiederhol
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für die Unterstützung und Unterstützung der Gemeinschaft.
 ### Kann ich Aspose.Tasks vor dem Kauf kostenlos testen?
  Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

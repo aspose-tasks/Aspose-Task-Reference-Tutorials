@@ -3,10 +3,16 @@ title: Aspose.Tasks Projelerinde Genişletilmiş Nitelikleri Yönetme
 linktitle: Aspose.Tasks Projelerinde Genişletilmiş Nitelikleri Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks projelerinde Java'yı verimli bir şekilde kullanarak genişletilmiş özelliklerin nasıl ele alınacağını öğrenin. Etkili proje yönetimi için adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projelerinde Genişletilmiş Nitelikleri Yönetme
+
 ## giriiş
 Proje yönetiminde genişletilmiş özelliklerin yönetilmesi, proje verilerinin özelleştirilmesi ve geliştirilmesi açısından çok önemlidir. Aspose.Tasks for Java, MS Project dosyalarındaki genişletilmiş nitelikleri verimli bir şekilde yönetmek için güçlü araçlar sağlar. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve her kavramı iyice kavramanızı sağlayacaktır.
 ## Önkoşullar
@@ -86,3 +92,9 @@ C: Kesinlikle Aspose.Tasks, proje ihtiyaçlarınıza göre uyarlanmış özel ge
  C: Aspose.Tasks web sitesinde kapsamlı belgeler bulabilirsiniz.[dokümantasyon](https://reference.aspose.com/tasks/java/).
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
  C: Evet, Aspose.Tasks forumu aracılığıyla teknik desteğe ulaşabilirsiniz.[İnternet sitesi](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 반복 작업 매개변수 설정
 linktitle: Aspose.Tasks에서 반복 작업 매개변수 설정
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 반복 작업 매개변수를 설정하는 방법을 알아보세요. 단계별 가이드가 포함된 종합 튜토리얼입니다.
-type: docs
 weight: 14
 url: /ko/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 반복 작업 매개변수 설정
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 반복 작업 매개변수를 설정하는 과정을 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 예, Aspose.Tasks 포럼을 방문하여 커뮤니티의 도움을 받거나 지원팀에 문의하여 직접적인 도움을 받을 수 있습니다.
 ### Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

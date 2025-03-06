@@ -3,10 +3,16 @@ title: قراءة بيانات الجدول من ملف في Aspose.Tasks
 linktitle: قراءة بيانات الجدول من ملف في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لقوة Aspose.Tasks لـ Java. تعلم كيفية استخراج بيانات الجدول من الملفات في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 17
 url: /ar/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات الجدول من ملف في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية قراءة بيانات الجدول من ملف باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تتيح للمطورين العمل مع مستندات Microsoft Project برمجياً.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ for (TableField f : t1.getTableFields()) {
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks من الموقع[صفحة الإصدارات](https://releases.aspose.com/).
 ### س: أين يمكنني العثور على المساعدة والدعم فيما يتعلق بـ Aspose.Tasks؟
  ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)للحصول على المساعدة والدعم من المجتمع وفريق Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

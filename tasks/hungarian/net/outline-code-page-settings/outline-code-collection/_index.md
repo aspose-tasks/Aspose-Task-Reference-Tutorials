@@ -3,10 +3,16 @@ title: Gyűjtemény MS Project of Outline Codes Aspose.Tasks
 linktitle: Vázlatkódok gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan gyűjthet össze Microsoft Project vázlatkódokat az Aspose.Tasks for .NET használatával. Ez az átfogó oktatóanyag lépésről lépésre tartalmaz utasításokat.
-type: docs
 weight: 11
 url: /hu/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gyűjtemény MS Project of Outline Codes Aspose.Tasks
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthetünk Microsoft Project vázlatkódokat az Aspose.Tasks for .NET használatával. A folyamatot lépésenkénti utasításokra bontjuk az egyértelműség és érthetőség érdekében.
 ## Előfeltételek
@@ -95,3 +101,9 @@ V: Igen, az Aspose.Tasks for .NET támogatja a Microsoft Project különféle ve
 V: Természetesen az Aspose.Tasks for .NET kiterjedt lehetőségeket kínál a kimeneti formátum testreszabásához az Ön igényei szerint.
 ### K: Hol találok további támogatást vagy forrásokat az Aspose.Tasks for .NET-hez?
  V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) az Aspose.Tasks for .NET-hez kapcsolódó segítségért vagy kérdésért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

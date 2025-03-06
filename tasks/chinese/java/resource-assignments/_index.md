@@ -3,10 +3,16 @@ title: 资源分配
 linktitle: 资源分配
 second_title: Aspose.Tasks Java API
 description: 通过我们的资源分配教程轻松掌握 Aspose.Tasks for Java。管理 MS 项目操作、分配预算、成本等。
-type: docs
 weight: 30
 url: /zh/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 资源分配
+
 
 ## 介绍
 
@@ -101,3 +107,9 @@ url: /zh/java/resource-assignments/
 通过此分步教程，了解如何在 Aspose.Tasks for Java 中有效管理资源分配。
 ### [在 Aspose.Tasks 中生成时间分段数据](./timephased-data-generation/)
 了解如何使用 Aspose.Tasks for Java 生成资源分配的时间分段数据。通过这份综合指南提高项目管理效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

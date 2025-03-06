@@ -3,10 +3,16 @@ title: Получить коды структуры проекта MS в Aspose.
 linktitle: Получение структурных кодов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как программно получить структурные коды Microsoft Project с помощью Aspose.Tasks для Java. Расширьте свои возможности управления проектами.
-type: docs
 weight: 15
 url: /ru/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить коды структуры проекта MS в Aspose.Tasks
+
 ## Введение
 В этом уроке мы узнаем, как получить структурные коды Microsoft Project с помощью Aspose.Tasks для Java. Коды структуры в MS Project обеспечивают структурированный способ категоризации и организации задач, ресурсов и заданий проекта. Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам программно манипулировать файлами Microsoft Project и управлять ими.
 ## Предварительные условия
@@ -82,3 +88,9 @@ for (OutlineValue v1 : ocd.getValues()) {
  О: Да, вы можете приобрести временную лицензию на Aspose.Tasks для Java на сайте[страница покупки](https://purchase.aspose.com/temporary-license/).
 ### Вопрос 5: Где я могу найти полную документацию по Aspose.Tasks для Java?
  О: Вы можете обратиться к[документация](https://reference.aspose.com/tasks/java/) для получения подробной информации об использовании Aspose.Tasks для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

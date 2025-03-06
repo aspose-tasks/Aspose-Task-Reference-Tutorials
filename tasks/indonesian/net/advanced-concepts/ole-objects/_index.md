@@ -3,10 +3,16 @@ title: Bekerja dengan Objek OLE di Aspose.Tasks
 linktitle: Bekerja dengan Objek OLE di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja secara efisien dengan objek OLE dalam aplikasi .NET menggunakan Aspose.Tasks, sehingga meningkatkan kemampuan manajemen proyek.
-type: docs
 weight: 22
 url: /id/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Objek OLE di Aspose.Tasks
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET menyediakan fungsionalitas komprehensif untuk bekerja dengan objek OLE (Object Linking and Embedding) dalam file proyek. Tutorial ini akan memandu Anda melalui proses mengelola objek OLE secara efisien menggunakan Aspose.Tasks di aplikasi .NET Anda.
@@ -148,3 +154,9 @@ A4: Ya, Aspose.Tasks sangat cocok untuk proyek skala kecil dan tingkat perusahaa
 ### Q5: Apakah Aspose.Tasks menawarkan dukungan pelanggan dan sumber daya dokumentasi?
 
 A5: Ya, Aspose.Tasks menyediakan dokumentasi ekstensif, forum, dan dukungan pelanggan untuk membantu pengembang dalam memanfaatkan fitur-fiturnya secara efektif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kalender dan Penjadwalan Aspose.Tasks
 linktitle: Kalender dan Penjadwalan Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kelola kalender proyek, hitung durasi, dan tangani pengecualian dengan Aspose.Tasks untuk .NET. Jelajahi tutorial langkah demi langkah untuk tugas kalender dan penjadwalan.
-type: docs
 weight: 22
 url: /id/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalender dan Penjadwalan Aspose.Tasks
+
 ## Perkenalan
 
 Selamat datang di dunia tutorial Aspose.Tasks untuk .NET, sumber daya andalan Anda untuk menguasai seluk-beluk manajemen kalender dan penjadwalan dalam proyek .NET Anda. Aspose.Tasks memberdayakan pengembang dengan alat canggih untuk menangani kalender proyek, menghitung durasi, dan mengelola pengecualian dengan mudah. Dalam kumpulan tutorial komprehensif ini, kami mempelajari berbagai aspek, mulai dari bekerja dengan kalender dan mengelola pengecualian hingga menjelajahi topik khusus seperti pengecualian header dokumen gabungan dan posisi simbol mata uang. Baik Anda seorang pengembang berpengalaman yang mencari wawasan tingkat lanjut atau pendatang baru yang ingin meningkatkan keterampilan manajemen proyek Anda, tutorial ini memberikan panduan langkah demi langkah dan contoh dunia nyata. Mari memulai perjalanan untuk membuka potensi penuh Aspose.Tasks untuk .NET dan meningkatkan kemampuan manajemen proyek Anda. Siap untuk terjun? Mari kita mulai!
@@ -135,3 +141,9 @@ Pelajari cara mengelola koleksi jenis hari secara efisien di Aspose.Tasks untuk 
 Pelajari cara mengimpor proyek dari database Primavera menggunakan Aspose.Tasks untuk .NET. Dapatkan panduan langkah demi langkah dalam tutorial komprehensif ini.
 ### [Penanganan Durasi di Aspose.Tugas](./duration-handling/)
 Pelajari cara menangani durasi secara efektif di Aspose.Tasks untuk .NET dengan tutorial langkah demi langkah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

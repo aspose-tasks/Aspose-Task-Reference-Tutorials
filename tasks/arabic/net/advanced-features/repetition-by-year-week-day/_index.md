@@ -3,10 +3,16 @@ title: التكرار حسب سنة، أسبوع، يوم في Aspose.Tasks
 linktitle: التكرار حسب سنة، أسبوع، يوم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في إدارة المهام المتكررة بكفاءة. دليل خطوة بخطوة لتنفيذ ميزة التكرار حسب أيام الأسبوع والسنة.
-type: docs
 weight: 28
 url: /ar/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التكرار حسب سنة، أسبوع، يوم في Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، تعتبر الكفاءة والدقة أمرًا بالغ الأهمية. يظهر Aspose.Tasks for .NET كأداة قوية تقدم مجموعة كبيرة من الميزات لتبسيط التعامل مع المشروع. ومن بين ترسانتها القدرة على إدارة المهام المتكررة بمرونة ملحوظة. إحدى هذه الميزات هي وظيفة "التكرار حسب يوم الأسبوع والسنة"، مما يسمح للمستخدمين بإعداد المهام التي تتكرر في أيام محددة من الأسبوع، خلال أشهر محددة، وعلى مدار عدة سنوات.
@@ -126,3 +132,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
 
 ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/)مما يسمح لك باستكشاف ميزاته قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

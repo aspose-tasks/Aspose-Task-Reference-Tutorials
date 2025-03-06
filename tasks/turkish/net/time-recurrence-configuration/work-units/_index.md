@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta İş Birimi Kullanımında Uzmanlaşmak
 linktitle: Aspose.Tasks'ta İş Birimlerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Etkin proje yönetimi için güçlü bir kütüphane olan Aspose.Tasks for .NET'i keşfedin. Optimum kaynak kullanımı için çalışma birimlerini hassasiyetle kullanın.
-type: docs
 weight: 15
 url: /tr/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta İş Birimi Kullanımında Uzmanlaşmak
+
 ## giriiş
 Proje yönetiminin dinamik dünyasında, iş birimlerinin verimli bir şekilde yönetilmesi, projenin başarılı bir şekilde tamamlanması için çok önemlidir. Aspose.Tasks for .NET, iş birimi bilgilerinde gezinmek için güçlü bir araç seti sağlayarak proje zaman çizelgeleri ve kaynak tahsisi üzerinde hassas kontrol sağlar.
 ## Önkoşullar
@@ -57,3 +63,9 @@ Sonuç olarak Aspose.Tasks for .NET, geliştiricilere proje yönetimi kapsamınd
  adresini ziyaret ederek Aspose.Tasks için geçici bir lisans edinin.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks iş birimlerinin yönetimi için ne gibi avantajlar sunuyor?
 Aspose.Tasks, iş birimleriyle çalışmak için sağlam bir dizi işlevsellik sunarak proje zaman çizelgeleri, kaynak tahsisi ve genel proje yönetimi üzerinde hassas kontrol sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks での推定タスクとマイルストーン タスクの�
 linktitle: Aspose.Tasks での推定タスクとマイルストーン タスクの処理
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して効果的なプロジェクト管理を検討してください。推定タスクやマイルストーン タスクを簡単に処理します。今すぐライブラリをダウンロードしてください!
-type: docs
 weight: 15
 url: /ja/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での推定タスクとマイルストーン タスクの処理
+
 ## 導入
 Aspose.Tasks for Java は、タスクの処理、プロジェクトの管理、プロジェクト データの操作を容易にする強力なライブラリです。このチュートリアルでは、プロジェクト管理の重要な側面、つまり Aspose.Tasks for Java を使用した推定タスクとマイルストーン タスクの処理に焦点を当てます。
 ## 前提条件
@@ -60,3 +66,9 @@ Aspose.Tasks for Java での推定タスクとマイルストーン タスクの
 はい、Aspose.Tasks の無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
 仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

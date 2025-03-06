@@ -3,10 +3,16 @@ title: Customizing Table Text Styles Guide in Aspose.Tasks
 linktitle: Configuring Table Text Styles in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Enhance project visualization with Aspose.Tasks for .NET. Learn to configure table text styles step-by-step. Boost efficiency and presentation.
-type: docs
 weight: 14
 url: /net/task-table-management/table-text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customizing Table Text Styles Guide in Aspose.Tasks
+
 ## Introduction
 In the world of project management, effective visualization of tasks is crucial for success. Aspose.Tasks for .NET provides a powerful solution to customize table text styles, allowing you to tailor the appearance of text items in your project. In this step-by-step guide, we will walk you through the process of configuring table text styles using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -77,3 +83,10 @@ Yes, you can download the trial version [here](https://releases.aspose.com/).
 Yes, Aspose.Tasks offers various visualization features to meet different project management needs.
 ### Can I customize styles for specific task types?
 Absolutely, you can extend the customization to different task types by adjusting the field and font settings accordingly.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

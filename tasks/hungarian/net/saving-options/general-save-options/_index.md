@@ -3,10 +3,16 @@ title: Az Aspose.Tasks MS Project mentési opcióinak elsajátítása
 linktitle: Az Aspose.Tasks általános mentési beállításai
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg az MS Project fájlok hatékony mentését az Aspose.Tasks for .NET használatával. A kimeneti lehetőségeket könnyedén testreszabhatja projektjeihez.
-type: docs
 weight: 17
 url: /hu/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks MS Project mentési opcióinak elsajátítása
+
 ## Bevezetés
 Az Aspose.Tasks for .NET hatékony szolgáltatásokat kínál a Microsoft Project fájlok programozott kezeléséhez. Ebben az oktatóanyagban az MS Project fájlok Aspose.Tasks által biztosított különféle lehetőségekkel történő mentésének bonyolultságába fogunk bele. Konkrétan az Aspose.Tasks számára elérhető általános mentési lehetőségekre összpontosítunk, amelyek lehetővé teszik, hogy a kimenetet az Ön egyedi igényeihez igazítsa.
 ## Előfeltételek
@@ -68,3 +74,9 @@ V: Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit
  V: Ideiglenes licencek állnak rendelkezésre értékelési célokra[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
  V: Csatlakozhat az Aspose.Tasks közösségi fórumhoz[itt](https://forum.aspose.com/c/tasks/15)szakértőktől és fejlesztőtársaktól kérhet segítséget.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

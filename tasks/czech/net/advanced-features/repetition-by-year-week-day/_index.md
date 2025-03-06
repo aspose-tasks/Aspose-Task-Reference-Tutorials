@@ -3,10 +3,16 @@ title: Opakování podle Rok týden Den v Aspose.Tasks
 linktitle: Opakování podle Rok týden Den v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě opakujících se úkolů. Podrobný průvodce implementací funkce Opakování podle roku a týdne.
-type: docs
 weight: 28
 url: /cs/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opakování podle Rok týden Den v Aspose.Tasks
+
 ## Úvod
 
 V oblasti projektového řízení je prvořadá efektivita a přesnost. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění práce s projekty. Mezi jeho arzenál patří schopnost zvládat opakující se úkoly s pozoruhodnou flexibilitou. Jednou z takových funkcí je funkce „Opakování podle dne v týdnu roku“, která uživatelům umožňuje nastavit úkoly, které se opakují v určité dny v týdnu, v určených měsících a v průběhu několika let.
@@ -126,3 +132,9 @@ Odpověď: Ano, Aspose.Tasks for .NET nabízí podporu pro cloudová řešení p
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
 Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před rozhodnutím o nákupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

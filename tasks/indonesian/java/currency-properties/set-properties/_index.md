@@ -3,10 +3,16 @@ title: Tetapkan Properti Mata Uang di Proyek Aspose.Tasks
 linktitle: Tetapkan Properti Mata Uang di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengatur properti mata uang di proyek Aspose.Tasks menggunakan Java. Memanipulasi file Microsoft Project dengan mudah.
-type: docs
 weight: 11
 url: /id/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Properti Mata Uang di Proyek Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengatur properti mata uang di proyek Aspose.Tasks menggunakan Java. Aspose.Tasks adalah perpustakaan Java yang kuat yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram.
 ## Prasyarat
@@ -64,3 +70,9 @@ Tentu saja, Aspose.Tasks menawarkan fleksibilitas dalam menentukan format mata u
 Ya, Aspose.Tasks dapat diintegrasikan dengan lancar dengan pustaka dan kerangka kerja Java lainnya, sehingga meningkatkan fungsionalitas dan keserbagunaannya.
 ### Di mana saya dapat menemukan dukungan atau bantuan tambahan untuk Aspose.Tasks?
  Untuk dukungan tambahan, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15), tempat Anda dapat menemukan sumber daya bermanfaat dan terlibat dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

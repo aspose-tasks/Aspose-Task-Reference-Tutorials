@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트의 메타 속성 읽기
 linktitle: Aspose.Tasks 프로젝트의 메타 속성 읽기
 second_title: Aspose.Tasks 자바 API
 description: 이 포괄적인 튜토리얼을 통해 Aspose.Tasks 프로젝트에서 메타데이터의 강력한 기능을 활용하세요. 메타 속성을 손쉽게 추출하고 활용하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트의 메타 속성 읽기
+
 ## 소개
 프로젝트 관리 및 데이터 분석 영역에서 프로젝트 파일의 메타데이터를 조사하면 귀중한 통찰력을 얻을 수 있습니다. Aspose.Tasks for Java는 이러한 메타 속성을 쉽게 탐색할 수 있는 강력한 툴킷을 제공합니다. 이 튜토리얼은 Aspose.Tasks 프로젝트 내에서 메타 속성을 추출하고 이해하기 위한 포괄적인 가이드 역할을 합니다.
 ## 전제조건
@@ -71,3 +77,9 @@ A: 예, Aspose.Tasks는 MPP, XML 등을 포함한 광범위한 프로젝트 파�
  A: 예, Aspose.Tasks에 대한 광범위한 문서를 찾을 수 있습니다.[문서 페이지](https://reference.aspose.com/tasks/java/).
 ### Q: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
  A: Aspose.Tasks에 관한 도움이나 문의 사항이 있으면 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티와 전문가의 전담 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

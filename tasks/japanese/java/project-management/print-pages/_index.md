@@ -3,10 +3,16 @@ title: Aspose.Tasks でページを別の画像に印刷する
 linktitle: Aspose.Tasks でページを別の画像に印刷する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java でページを個別の画像に印刷する方法を学習します。このステップバイステップのガイドを使用して、プロジェクトの視覚化を改善します。
-type: docs
 weight: 22
 url: /ja/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でページを別の画像に印刷する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用してページを個別の画像に印刷するプロセスを説明します。この機能は、プロジェクトのレイアウトや重要なタスクを個別に視覚化する必要がある場合に特に役立ちます。
 ## 前提条件
@@ -77,3 +83,9 @@ A: はい、Aspose.Tasks for Java を Maven または Gradle プロジェクト�
 A: はい。Aspose.Tasks for Java は、PDF、HTML、XLSX などのさまざまな形式へのプロジェクト データのエクスポートをサポートしており、データの視覚化とレポート作成に柔軟性を提供します。
 ### Q: Aspose.Tasks for Java で利用できるコミュニティ サポートはありますか?
  A: はい、コミュニティ サポートを見つけたり、質問したり、他のユーザーと交流したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

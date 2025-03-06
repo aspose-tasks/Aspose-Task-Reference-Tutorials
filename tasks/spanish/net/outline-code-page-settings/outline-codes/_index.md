@@ -3,10 +3,16 @@ title: Administrar códigos de esquema de proyecto en Aspose.Tasks para .NET
 linktitle: Gestión de códigos de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar códigos de esquema de MS Project con Aspose.Tasks para .NET. Simplifique la organización del proyecto sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar códigos de esquema de proyecto en Aspose.Tasks para .NET
+
 ## Introducción
 En este tutorial, exploraremos cómo administrar códigos de esquema de Microsoft Project usando Aspose.Tasks para .NET. Los códigos de esquema son campos personalizados en Microsoft Project que permiten a los usuarios categorizar y organizar tareas según criterios específicos. Aspose.Tasks simplifica el proceso de lectura y manipulación de estos códigos de esquema mediante programación.
 ## Requisitos previos
@@ -71,3 +77,9 @@ R: Sí, se requiere una licencia válida para el uso comercial de Aspose.Tasks. 
 R: Sí, puede descargar una versión de prueba gratuita de Aspose.Tasks desde el sitio web para evaluar sus características y capacidades.
 ### P: ¿Dónde puedo obtener soporte para Aspose.Tasks?
  R: Puede obtener soporte para Aspose.Tasks visitando el foro en[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Código fuente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

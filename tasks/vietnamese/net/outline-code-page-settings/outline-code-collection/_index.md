@@ -3,10 +3,16 @@ title: Bộ sưu tập MS Project về mã phác thảo trong Aspose.Tasks
 linktitle: Bộ sưu tập mã phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thu thập mã phác thảo Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn toàn diện này cung cấp hướng dẫn từng bước.
-type: docs
 weight: 11
 url: /vi/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập MS Project về mã phác thảo trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thu thập mã phác thảo Microsoft Project bằng Aspose.Tasks cho .NET. Chúng tôi sẽ chia nhỏ quy trình thành các hướng dẫn từng bước để đảm bảo sự rõ ràng và dễ hiểu.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ nhiều phiên bản khác nh
 Trả lời: Hoàn toàn có thể, Aspose.Tasks for .NET cung cấp các tùy chọn mở rộng để tùy chỉnh định dạng đầu ra theo yêu cầu của bạn.
 ### Câu hỏi: Tôi có thể tìm nguồn hỗ trợ hoặc tài nguyên bổ sung cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nếu có bất kỳ trợ giúp hoặc thắc mắc nào liên quan đến Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mostrar etiquetas en Aspose.Tasks
 linktitle: Mostrar etiquetas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a personalizar la visualización de etiquetas en la gestión de proyectos con Aspose.Tasks para .NET. Mejore la legibilidad y la claridad sin esfuerzo.
-type: docs
 weight: 14
 url: /es/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mostrar etiquetas en Aspose.Tasks
+
 ## Introducción
 
 En el ámbito del desarrollo de software, gestionar las tareas de manera eficiente es imperativo para el éxito del proyecto. Aspose.Tasks para .NET ofrece una solución sólida para manejar tareas de gestión de proyectos sin problemas dentro del marco .NET. Un aspecto clave de la gestión de proyectos es la capacidad de personalizar las opciones de visualización para satisfacer requisitos específicos. En este tutorial, exploraremos cómo utilizar Aspose.Tasks para .NET para manipular la visualización de etiquetas de minutos, horas, días, semanas, meses y años dentro de los archivos del proyecto.
@@ -137,3 +143,10 @@ R4: Aspose.Tasks para .NET ofrece amplias opciones de personalización para la v
 ### P5: ¿Aspose.Tasks admite la integración con otras herramientas de gestión de proyectos?
 
 R5: Sí, Aspose.Tasks ofrece capacidades de integración perfecta, lo que facilita la interoperabilidad con otras herramientas y plataformas de gestión de proyectos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

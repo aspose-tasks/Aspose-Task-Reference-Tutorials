@@ -3,10 +3,16 @@ title: タスクのベースライン
 linktitle: タスクのベースライン
 second_title: Aspose.Tasks Java API
 description: タスク ベースライン チュートリアルで Aspose.Tasks Java を探索してください。タスクのスケジュールを合理化し、MS Project タスクのベースラインを作成し、ベースライン期間の管理をマスターします。
-type: docs
 weight: 32
 url: /ja/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# タスクのベースライン
+
 ## 導入
 Aspose.Tasks for Java を使用してプロジェクト管理スキルを向上させる旅に乗り出しましょう。この一連のチュートリアルでは、タスク ベースラインの複雑さを深く掘り下げ、貴重な洞察と実践的な知識を提供します。この包括的なガイドを構成する主要なチュートリアルを見てみましょう。
 
@@ -51,3 +57,9 @@ Aspose.Tasks for Java を使用してタスクのベースラインを効果的�
 プロジェクト データを簡単に管理するための強力なライブラリである Aspose.Tasks を使用して、Java で Microsoft Project タスク ベースラインを作成する方法を学びます。
 ### [Aspose.Tasks でのタスクのベースライン期間管理](./task-baseline-duration/)
 Aspose.Tasks for Java を使用して MS Project のタスク ベースラインを効率的に管理する方法を学びます。このチュートリアルでは、プロセスを段階的に説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

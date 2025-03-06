@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 Microsoft 프로젝트 개요 마스크 마스터하�
 linktitle: Aspose.Tasks에서 윤곽선 마스크 작업
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 Microsoft Project 파일을 작업하는 방법을 알아보세요. 아웃라인 마스크를 효율적으로 마스터하세요.
-type: docs
 weight: 14
 url: /ko/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 Microsoft 프로젝트 개요 마스크 마스터하기
+
 ## 소개
 프로젝트 관리 및 작업 추적 영역에서 Microsoft Project는 초석 도구입니다. 그러나 프로젝트 파일을 프로그래밍 방식으로 조작하고 관리하는 경우 Aspose.Tasks for .NET이 강력한 솔루션으로 등장합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일 작업의 특정 측면인 윤곽선 마스크 처리에 대해 자세히 살펴보겠습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A: 실제로, 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](http
  답: 물론이죠! Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 임시 라이선스는 어디서 얻을 수 있나요?
  A: 평가 또는 테스트 목적으로 임시 라이선스가 필요한 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

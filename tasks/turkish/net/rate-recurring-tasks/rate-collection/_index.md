@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Proje Hızlarında Ustalaşın
 linktitle: Aspose.Tasks'ta Oranların Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarındaki oranları nasıl yöneteceğinizi öğrenin. Etkili kaynak yönetimi için adım adım eğitim.
-type: docs
 weight: 11
 url: /tr/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Proje Hızlarında Ustalaşın
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak MS Project'te oranları yönetme eğitimimize hoş geldiniz! Bu kılavuzda, Aspose.Tasks'ı kullanarak MS Project dosyalarınızdaki oranlarla çalışma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister .NET geliştirmeye yeni başlıyor olun, bu eğitim size projelerinizdeki oranları etkili bir şekilde yönetmeniz için adım adım talimatlar sağlayacaktır.
 ## Önkoşullar
@@ -110,3 +116,9 @@ C: Aspose.Tasks for .NET kesinlikle farklı sürümlerdeki MS Project dosyaları
 C: Evet, Aspose.Tasks for .NET'in özelliklerini ve gereksinimlerinize uygunluğunu değerlendirmek için ücretsiz deneme sürümünden yararlanabilirsiniz.
 ### S: Aspose.Tasks for .NET lisansını nasıl satın alabilirim?
  C: Aspose.Tasks for .NET lisansını şu adresten satın alabilirsiniz:[İnternet sitesi](https://purchase.aspose.com/temporary-license/)İhtiyaçlarınıza uyacak esnek lisanslama seçenekleri sunan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

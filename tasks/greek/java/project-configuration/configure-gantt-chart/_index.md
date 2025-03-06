@@ -3,10 +3,16 @@ title: Διαμορφώστε την προβολή γραφήματος Gantt �
 linktitle: Διαμορφώστε την προβολή γραφήματος Gantt στα έργα Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαμορφώνετε την προβολή γραφήματος έργου Gantt MS στο Aspose.Tasks χρησιμοποιώντας Java. Προσαρμόστε το έργο και οπτικοποιήστε το στο γράφημα Gantt βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμορφώστε την προβολή γραφήματος Gantt στα έργα Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να διαμορφώνετε την προβολή γραφήματος έργου Gantt MS σε έργα Aspose.Tasks χρησιμοποιώντας Java. Το Aspose.Tasks είναι ένα ισχυρό Java API που σας επιτρέπει να εργάζεστε με αρχεία Microsoft Project μέσω προγραμματισμού. Ακολουθώντας αυτά τα βήματα, θα μπορείτε να προσαρμόσετε την προβολή γραφήματος Gantt σύμφωνα με τις απαιτήσεις του έργου σας.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
  Α: Μπορείτε να αγοράσετε μια άδεια από[εδώ](https://purchase.aspose.com/buy).
 ### Ε: Χρειάζομαι μια προσωρινή άδεια για σκοπούς δοκιμής;
  Α: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: عرض التسميات في Aspose.Tasks
 linktitle: عرض التسميات في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص عروض الملصقات في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET. تعزيز سهولة القراءة والوضوح دون عناء.
-type: docs
 weight: 14
 url: /ar/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض التسميات في Aspose.Tasks
+
 ## مقدمة
 
 في مجال تطوير البرمجيات، تعد إدارة المهام بكفاءة أمرًا ضروريًا لنجاح المشروع. يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع مهام إدارة المشروع بسلاسة ضمن إطار عمل .NET. أحد الجوانب الرئيسية لإدارة المشروع هو القدرة على تخصيص خيارات العرض لتناسب متطلبات محددة. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.Tasks لـ .NET لمعالجة عروض تسميات الدقائق والساعات واليوم والأسبوع والشهر والسنة داخل ملفات المشروع.
@@ -137,3 +143,10 @@ public void WorkWithYearLabelDisplay()
 ### س5: هل يدعم Aspose.Tasks التكامل مع أدوات إدارة المشاريع الأخرى؟
 
 ج5: نعم، يوفر Aspose.Tasks إمكانات تكامل سلسة، مما يسهل إمكانية التشغيل التفاعلي مع أدوات ومنصات إدارة المشاريع الأخرى.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

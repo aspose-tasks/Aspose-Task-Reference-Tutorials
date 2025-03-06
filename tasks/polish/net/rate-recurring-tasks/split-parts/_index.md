@@ -3,10 +3,16 @@ title: Obsługa podzielonych części projektu MS w Aspose.Tasks
 linktitle: Obsługa podzielonych części w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać podzielone części MS Project za pomocą Aspose.Tasks dla .NET. Usprawnij przepływ pracy w zarządzaniu projektami.
-type: docs
 weight: 18
 url: /pl/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa podzielonych części projektu MS w Aspose.Tasks
+
 
 ## Wstęp
 Zarządzanie podzielonymi częściami MS Project może być kluczowym aspektem zarządzania projektami podczas korzystania z Aspose.Tasks dla .NET. W tym samouczku odkryjemy, jak skutecznie obsługiwać podzielone części, korzystając ze wskazówek krok po kroku.
@@ -94,3 +100,9 @@ O: Tak, Aspose.Tasks for .NET pozwala efektywnie zarządzać zasobami projektu.
 Odp.: Oczywiście, możesz dostosować kalendarze projektów zgodnie z wymaganiami projektu.
 ### P: Gdzie mogę znaleźć wsparcie dla Aspose.Tasks dla .NET?
  Odp.: Wsparcie i pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

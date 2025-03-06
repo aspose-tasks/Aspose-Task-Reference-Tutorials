@@ -3,10 +3,16 @@ title: Collect MS Project of Split Parts in Aspose.Tasks
 linktitle: Collection of Split Parts in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to collect split parts in MS Project using Aspose.Tasks for .NET. This comprehensive tutorial guides you through the process step-by-step.
-type: docs
 weight: 19
 url: /net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collect MS Project of Split Parts in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll delve into how to collect split parts in MS Project using Aspose.Tasks for .NET. Splitting tasks into parts can be a crucial aspect of project management, and Aspose.Tasks provides convenient methods to handle this efficiently.
 ## Prerequisites
@@ -66,3 +72,10 @@ A: Yes, you can obtain a free trial version from [here](https://releases.aspose.
 A: Temporary licenses can be acquired from [here](https://purchase.aspose.com/temporary-license/) for short-term usage.
 ### Q: Where can I seek help or support regarding Aspose.Tasks?
 A: You can visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15) to seek assistance from the community or Aspose support team.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Read Shared Resource Assignments in Aspose.Tasks
 linktitle: Read Shared Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to read shared resource assignments in Aspose.Tasks for Java. Enhance project management efficiency with step-by-step tutorials.
-type: docs
 weight: 19
 url: /java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read Shared Resource Assignments in Aspose.Tasks
+
 ## Introduction
 In project management, efficient resource allocation is crucial for successful project completion. Aspose.Tasks for Java provides powerful tools to manage resources effectively. One essential task is reading shared resource assignments, which allows you to understand how resources are allocated across multiple projects.
 ## Prerequisites
@@ -58,3 +64,10 @@ Absolutely, Aspose.Tasks for Java allows you to generate custom reports based on
 Aspose.Tasks for Java can handle projects of varying sizes, from small to large-scale projects.
 ### Is technical support available for Aspose.Tasks for Java users?
 Yes, you can get technical support from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

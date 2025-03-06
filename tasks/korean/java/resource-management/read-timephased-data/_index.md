@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 리소스에 대한 시간대별 데이터 읽기
 linktitle: Aspose.Tasks에서 리소스에 대한 시간대별 데이터 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 리소스에서 시간대별 데이터를 추출하는 방법을 알아보세요. 단계별 튜토리얼.
-type: docs
 weight: 15
 url: /ko/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 리소스에 대한 시간대별 데이터 읽기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 리소스에 대한 시간대별 데이터를 읽는 프로세스를 안내합니다. 이 라이브러리는 Microsoft Project 파일을 프로그래밍 방식으로 관리하기 위한 강력한 기능을 제공합니다.
 ## 전제조건
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 예, Aspose.Tasks는 안정성과 확장성으로 인해 기업 환경에서 널리 사용됩니다.
 ### Aspose.Tasks를 사용하는 동안 문제가 발생하면 어디서 지원을 받을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티와 지원팀의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

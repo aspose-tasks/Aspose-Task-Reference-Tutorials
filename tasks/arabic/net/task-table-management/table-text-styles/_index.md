@@ -3,10 +3,16 @@ title: دليل تخصيص أنماط نص الجدول في Aspose.Tasks
 linktitle: تكوين أنماط نص الجدول في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تحسين تصور المشروع باستخدام Aspose.Tasks لـ .NET. تعلم كيفية تكوين أنماط نص الجدول خطوة بخطوة. تعزيز الكفاءة والعرض.
-type: docs
 weight: 14
 url: /ar/net/task-table-management/table-text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل تخصيص أنماط نص الجدول في Aspose.Tasks
+
 ## مقدمة
 في عالم إدارة المشاريع، يعد التصور الفعال للمهام أمرًا بالغ الأهمية لتحقيق النجاح. يوفر Aspose.Tasks for .NET حلاً قويًا لتخصيص أنماط نص الجدول، مما يسمح لك بتخصيص مظهر العناصر النصية في مشروعك. في هذا الدليل التفصيلي، سنرشدك خلال عملية تكوين أنماط نص الجدول باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ catch (NotSupportedException ex)
 نعم، يقدم Aspose.Tasks ميزات تصور متنوعة لتلبية احتياجات إدارة المشاريع المختلفة.
 ### هل يمكنني تخصيص الأنماط لأنواع مهام محددة؟
 بالتأكيد، يمكنك توسيع التخصيص ليشمل أنواع المهام المختلفة عن طريق ضبط إعدادات الحقل والخط وفقًا لذلك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

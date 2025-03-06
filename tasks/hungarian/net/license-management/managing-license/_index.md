@@ -3,10 +3,16 @@ title: MS Project Licenc kezelése az Aspose.Tasks .NET-ben
 linktitle: Az Aspose.Tasks licenc kezelése .NET-ben
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti zökkenőmentesen az Aspose.Tasks licenceket .NET-alkalmazásokban fájl- vagy adatfolyam-alapú megközelítésekkel.
-type: docs
 weight: 10
 url: /hu/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Licenc kezelése az Aspose.Tasks .NET-ben
+
 ## Bevezetés
 A licencek kezelése az Aspose.Tasks .NET-alkalmazásokban való hatékony felhasználásának kulcsfontosságú szempontja. Megfelelő licenc hiányában korlátozásokkal vagy korlátozásokkal találkozhat a használat során. Szerencsére az Aspose.Tasks egyszerű módszereket kínál a licencek alkalmazására .NET-projektjei fájljaival vagy adatfolyamaival. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan kezelheti az Aspose.Tasks licenceket .NET-alkalmazásokban.
 ## Előfeltételek
@@ -98,3 +104,9 @@ V: Érvényes licenc nélkül az Aspose.Tasks kiértékelési módban működik,
 ### K: Használhatom ugyanazt a licencfájlt több alkalmazáshoz?
 
 V: Igen, ugyanazt a licencfájlt több, ugyanazon licenctulajdonos által fejlesztett alkalmazásban is használhatja. Azonban győződjön meg arról, hogy licence megfelel az Aspose által meghatározott használati feltételeknek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

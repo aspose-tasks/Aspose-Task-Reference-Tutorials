@@ -3,10 +3,16 @@ title: إتقان طرق عرض مخطط جانت في Aspose.Tasks
 linktitle: طرق عرض مخطط جانت في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص طرق عرض مخطط جانت في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة لإدارة المشاريع بكفاءة.
-type: docs
 weight: 22
 url: /ar/net/tasks-project-management/gantt-chart-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان طرق عرض مخطط جانت في Aspose.Tasks
+
 ## مقدمة
 تعد مخططات جانت أدوات قوية تستخدم في إدارة المشاريع لتصور المهام والجداول الزمنية والتبعيات. يوفر Aspose.Tasks for .NET إمكانات قوية للعمل مع طرق عرض مخططات جانت في ملفات Microsoft Project. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.Tasks لمعالجة طرق عرض مخطط جانت، وتخصيص مظهرها، وحفظها كملفات PDF.
 ## المتطلبات الأساسية
@@ -109,3 +115,9 @@ project.Save(DataDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
 ج: نعم، يوفر Aspose.Tasks خوارزميات جدولة متقدمة للتعامل مع جداول المشاريع المعقدة بشكل فعال.
 ### س: هل يوجد منتدى مجتمعي حيث يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.Tasks؟
  ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتواصل مع المستخدمين الآخرين وطرح الأسئلة وإيجاد حلول لاستفساراتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

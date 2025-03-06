@@ -3,10 +3,16 @@ title: Trích xuất thông tin đầu trang và chân trang bằng Aspose.Tasks
 linktitle: Thông tin đầu trang và chân trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách trích xuất thông tin đầu trang & chân trang từ các tệp MS Project bằng Aspose.Tasks cho .NET. Giải pháp dễ dàng, hiệu quả và thân thiện với nhà phát triển.
-type: docs
 weight: 29
 url: /vi/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin đầu trang và chân trang bằng Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách truy xuất thông tin đầu trang và chân trang từ các tệp MS Project bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án khác nhau, b
  Bạn có thể tìm tài liệu về Aspose.Tasks[đây](https://reference.aspose.com/tasks/net/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
  Bạn có thể nhận hỗ trợ cho Aspose.Tasks bằng cách truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

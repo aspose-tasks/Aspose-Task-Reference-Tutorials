@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的内置项目属性集合
 linktitle: Aspose.Tasks 中的内置项目属性集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 在 .NET 应用程序中有效管理项目元属性。轻松读取、修改和迭代属性。
-type: docs
 weight: 24
 url: /zh/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的内置项目属性集合
+
 ## 介绍
 
 在软件开发领域，有效管理任务和项目对于成功至关重要。 Aspose.Tasks for .NET 是一个功能强大的库，旨在促进 .NET 应用程序中的项目管理任务。凭借其强大的功能和直观的界面，开发人员可以简化项目管理流程，节省时间和资源。
@@ -106,3 +112,9 @@ A3：是的，Aspose.Tasks for .NET 支持多种项目文件格式，包括 MPP�
 ### 问题 5：在哪里可以找到 Aspose.Tasks for .NET 的其他支持和资源？
 
  A5：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持并浏览文档以获得全面的指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

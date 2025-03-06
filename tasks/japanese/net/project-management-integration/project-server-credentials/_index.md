@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS Project Server 資格情報の管理
 linktitle: Aspose.Tasks での Project Server 資格情報の管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project Server の資格情報をシームレスに管理する方法を学びます。プロジェクト管理の効率を高めます。
-type: docs
 weight: 22
 url: /ja/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS Project Server 資格情報の管理
+
 ## 導入
 プロジェクト管理の分野では、効果的な調整とシームレスなコミュニケーションがプロジェクトを成功させるために極めて重要です。 Aspose.Tasks for .NET は、Microsoft Project Server の資格情報を管理するための包括的なソリューションを提供し、ユーザーがプロジェクト データに安全にアクセスして操作できるようにします。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project Server の資格情報を管理するプロセスを詳しく説明し、ユーザーがスムーズに操作できるように各ステップをガイドします。
 ## 前提条件
@@ -83,3 +89,9 @@ A: もちろん、Aspose.Tasks for .NET は、プロジェクト リソースへ
 A: はい、Aspose.Tasks for .NET は、試用目的の一時ライセンスや商用利用の完全ライセンスなど、柔軟なライセンス オプションを提供しています。
 ### Q: Aspose.Tasks for .NET に関するサポートやサポートはどこに問い合わせればよいですか?
  A: Aspose.Tasks for .NET に関する問い合わせやサポートが必要な場合は、次のサポート フォーラムにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).## 完全なソース コード
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Overuren in taken met Aspose.Tasks
 linktitle: Overuren in taken met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek efficiënt beheer van overuren in projecttaken met Aspose.Tasks voor Java. Vereenvoudig moeiteloos het volgen en toewijzen van middelen.
-type: docs
 weight: 23
 url: /nl/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Overuren in taken met Aspose.Tasks
+
 ## Invoering
 Het beheren van overuren in projecttaken is van cruciaal belang voor projectmanagers en teamleiders om nauwkeurige tracking en toewijzing van middelen te garanderen. Aspose.Tasks voor Java biedt een krachtige oplossing voor het afhandelen van overwerkgerelateerde aspecten in projectmanagement. In deze zelfstudie onderzoeken we hoe u Aspose.Tasks kunt gebruiken om overuren in projecttaken effectief te beheren en analyseren.
 ## Vereisten
@@ -54,3 +60,9 @@ Absoluut! Aspose.Tasks kan naadloos worden geïntegreerd met andere Java-framewo
  Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om met de gemeenschap in contact te komen en steun te zoeken.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
  Ja, u heeft toegang tot de gratis proefversie[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

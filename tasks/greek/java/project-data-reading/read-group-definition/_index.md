@@ -3,10 +3,16 @@ title: Διαβάστε τα δεδομένα ορισμού ομάδας στο
 linktitle: Διαβάστε τα δεδομένα ορισμού ομάδας στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαβάζετε δεδομένα ορισμού ομάδας από αρχεία Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθήστε το βήμα προς βήμα σεμινάριο μας.
-type: docs
 weight: 10
 url: /el/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τα δεδομένα ορισμού ομάδας στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται εύκολα τα αρχεία του Microsoft Project. Σε αυτό το σεμινάριο, θα περπατήσουμε στη διαδικασία ανάγνωσης δεδομένων ορισμού ομάδας από ένα αρχείο έργου βήμα προς βήμα χρησιμοποιώντας το Aspose.Tasks για Java.
 ## Προαπαιτούμενα
@@ -79,3 +85,9 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 Α: Ναι, το Aspose.Tasks για Java σάς επιτρέπει να εξάγετε δεδομένα έργου σε μορφές όπως PDF, XLSX και CSV.
 ### Ε: Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Tasks για Java;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks για τεκμηρίωση Java](https://reference.aspose.com/tasks/java/) για αναλυτικούς οδηγούς και ανατρέξτε στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

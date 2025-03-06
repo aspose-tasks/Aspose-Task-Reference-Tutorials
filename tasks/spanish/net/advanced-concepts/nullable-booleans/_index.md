@@ -3,10 +3,16 @@ title: Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
 linktitle: Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a manejar valores booleanos que aceptan valores NULL de manera efectiva en Aspose.Tasks para .NET con este completo tutorial. Domine el uso de la clase `NullableBool` y mejore su desarrollo .NET.
-type: docs
 weight: 21
 url: /es/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, profundizaremos en cómo trabajar con valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Los valores booleanos que admiten valores NULL ofrecen flexibilidad a la hora de representar valores booleanos, lo que permite la posibilidad de que no estén definidos. Exploraremos cómo utilizar el`NullableBool` clase, sus constructores, propiedades y métodos.
@@ -153,3 +159,9 @@ R4: Sí, puede configurar un valor booleano que acepta valores NULL para que no 
 ### P5: ¿Dónde puedo encontrar más documentación sobre Aspose.Tasks para .NET?
 
  A5: Puede encontrar documentación detallada[aquí](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

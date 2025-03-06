@@ -3,10 +3,16 @@ title: Aspose.Tasks의 위험 항목에 대한 통계
 linktitle: Aspose.Tasks의 위험 항목에 대한 통계
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일의 위험 분석 기능을 활용하세요. 손쉽게 통찰력을 얻고, 불확실성을 완화하고, 프로젝트 성공을 촉진하세요.
-type: docs
 weight: 21
 url: /ko/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 위험 항목에 대한 통계
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 프로젝트 관리 능력을 향상시키고 싶으십니까? MS 프로젝트 파일의 위험 항목에 대한 통계를 얻는 방법에 대한 단계별 튜토리얼을 통해 위험 분석 영역을 탐구해 보세요. Aspose.Tasks의 강력한 기능을 활용하면 프로젝트 불확실성에 대한 귀중한 통찰력을 얻고 정보에 입각한 결정을 내려 위험을 효과적으로 완화할 수 있습니다.
 ## 전제조건
@@ -90,3 +96,9 @@ Console.WriteLine("Maximum: {0}", statistics.Maximum);
 틀림없이! 우리의 전담 지원팀은 다음에서 쉽게 이용 가능합니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 구현 과정에서 발생할 수 있는 모든 질문이나 문제에 대해 도움을 드립니다.
 ### 단기 프로젝트에 임시 라이센스를 제공합니까?
  예, 단기 프로젝트를 위해 Aspose.Tasks가 필요한 경우 편리한 서비스를 이용하실 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 장기적인 약정 없이 라이선스 요구 사항을 충족할 수 있는 옵션입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

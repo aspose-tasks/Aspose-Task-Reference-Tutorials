@@ -3,10 +3,16 @@ title: Aspose.Tasks में उन्नत और संचालन
 linktitle: Aspose.Tasks में उन्नत और संचालन
 second_title: Aspose.Tasks .NET API
 description: कई मानदंडों के आधार पर प्रोजेक्ट कार्यों को कुशलतापूर्वक फ़िल्टर करने के लिए .NET के लिए Aspose.Tasks में उन्नत और संचालन करना सीखें।
-type: docs
 weight: 10
 url: /hi/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में उन्नत और संचालन
+
 ## परिचय
 
  इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks में उन्नत AND ऑपरेशन के बारे में विस्तार से जानेंगे, जो कार्यों और परियोजनाओं के प्रबंधन के लिए एक शक्तिशाली उपकरण है। हम यह पता लगाएंगे कि इसका उपयोग करके कई स्थितियों के आधार पर प्रोजेक्ट कार्यों को कैसे फ़िल्टर किया जाए`Util.And` कक्षा।
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### Q5: मैं .NET के लिए Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
 उत्तर: आप Aspose.Tasks समुदाय मंच से समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bộ sưu tập ngoại lệ lịch trong Aspose.Tasks
 linktitle: Bộ sưu tập ngoại lệ lịch trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý hiệu quả các ngoại lệ lịch trong dự án .NET của bạn bằng Aspose.Tasks, đảm bảo quản lý tài nguyên và lập kế hoạch chính xác.
-type: docs
 weight: 13
 url: /vi/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập ngoại lệ lịch trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong quản lý dự án, việc lập kế hoạch chính xác là rất quan trọng để thành công. Tuy nhiên, các tình huống trong thế giới thực thường yêu cầu có độ lệch so với lịch trình tiêu chuẩn do ngày lễ, sự kiện đặc biệt hoặc các yếu tố khác. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để quản lý các ngoại lệ đó thông qua tính năng Bộ sưu tập ngoại lệ lịch của nó. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình sử dụng chức năng này.
@@ -143,3 +149,9 @@ Câu trả lời 4: Aspose.Tasks dành cho .NET cho phép bạn xử lý các ng
 ### Câu hỏi 5: Tôi có thể tùy chỉnh thời gian làm việc mỗi ngày trong một trường hợp ngoại lệ không?
 
 Câu trả lời 5: Có, bạn có thể chỉ định thời gian làm việc tùy chỉnh cho từng ngày trong một ngoại lệ để đáp ứng nhu cầu lập lịch cụ thể.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

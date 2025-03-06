@@ -3,10 +3,16 @@ title: Buat & Simpan Proyek Kosong dalam Format MPP dengan Aspose.Tasks
 linktitle: Buat dan Simpan Proyek Kosong dalam Format MPP dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat dan menyimpan file MS Project (MPP) kosong menggunakan Aspose.Tasks untuk Java. Sederhanakan tugas manajemen proyek dengan mudah.
-type: docs
 weight: 12
 url: /id/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat & Simpan Proyek Kosong dalam Format MPP dengan Aspose.Tasks
+
 ## Perkenalan
 Membuat dan menyimpan file MS Project (MPP) kosong menggunakan Aspose.Tasks untuk Java adalah proses yang mudah. Dalam tutorial ini, kami akan memandu setiap langkah untuk membantu Anda menyelesaikan tugas ini secara efisien.
 ## Prasyarat
@@ -61,3 +67,9 @@ J: Tentu saja, Aspose.Tasks untuk Java menawarkan kemampuan ekstensif untuk meny
 J: Ya, Aspose.Tasks untuk Java mendukung berbagai format file proyek termasuk XML, CSV, dan lainnya.
 ### T: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks untuk Java?
  A: Anda dapat mengunjungi Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bantuan khusus Jawa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

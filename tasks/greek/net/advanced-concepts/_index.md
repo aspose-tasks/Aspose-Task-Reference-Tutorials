@@ -3,10 +3,16 @@ title: Aspose.Tasks Advanced Concepts
 linktitle: Aspose.Tasks Advanced Concepts
 second_title: Aspose.Tasks .NET API
 description: Μάθετε την αποθήκευση εικόνων, τον χειρισμό εξαιρέσεων, τους αλγόριθμους δέντρων, τις εμφανίσεις ετικετών, τις επιλογές φόρτωσης και πολλά άλλα. Κατακτήστε προηγμένες έννοιες στο Aspose.Tasks για .NET
-type: docs
 weight: 24
 url: /el/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Advanced Concepts
+
 
 ## Εισαγωγή
 
@@ -84,3 +90,9 @@ url: /el/net/advanced-concepts/
 Μάθετε πώς να εργάζεστε αποτελεσματικά με αντικείμενα OLE σε εφαρμογές .NET χρησιμοποιώντας Aspose.Tasks, βελτιώνοντας τις δυνατότητες διαχείρισης έργου.
 ### [Συλλογή αντικειμένων OLE στο Aspose.Tasks](./ole-object-collection/)
 Μάθετε πώς να διαχειρίζεστε αντικείμενα OLE στο Aspose.Tasks για .NET με αυτό το ολοκληρωμένο σεμινάριο. Κατακτήστε τον χειρισμό των ενσωματωμένων αρχείων στα έγγραφα του έργου χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

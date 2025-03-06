@@ -3,10 +3,16 @@ title: Pénznem tulajdonságai
 linktitle: Pénznem tulajdonságai
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java Tutorials erejét. Fedezze fel a lépésenkénti útmutatókat az MS Project fájlokban található pénznemtulajdonságok olvasásához és beállításához.
-type: docs
 weight: 25
 url: /hu/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pénznem tulajdonságai
+
 ## Bevezetés
 Készen áll arra, hogy javítsa Aspose.Tasks Java-készségeit? Merüljön el a pénznemek tulajdonságairól szóló átfogó oktatóanyagainkban, és sajátítsa el a valutainformációk kezelésének művészetét az MS Project fájlokban.
 
@@ -35,3 +41,9 @@ Készen állsz erre az oktatási útra? A kezdéshez kattintson az alábbi linke
 Ismerje meg, hogyan nyerhet ki valutainformációkat az MS Project fájlokból az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutatott útmutató.
 ### [Állítsa be a pénznem tulajdonságait az Aspose.Tasks projektekben](./set-properties/)
 Ismerje meg, hogyan állíthat be pénznemtulajdonságokat az Aspose.Tasks projektekben Java használatával. A Microsoft Project fájlokat könnyedén kezelheti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

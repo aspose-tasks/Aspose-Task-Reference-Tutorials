@@ -3,10 +3,16 @@ title: Quản lý mã phác thảo dự án trong Aspose.Tasks cho .NET
 linktitle: Quản lý mã phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý mã phác thảo MS Project bằng Aspose.Tasks cho .NET. Đơn giản hóa việc tổ chức dự án một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý mã phác thảo dự án trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý mã phác thảo Microsoft Project bằng Aspose.Tasks cho .NET. Mã phác thảo là các trường tùy chỉnh trong Microsoft Project cho phép người dùng phân loại và sắp xếp các nhiệm vụ theo tiêu chí cụ thể. Aspose.Tasks đơn giản hóa quá trình đọc và thao tác các mã phác thảo này theo chương trình.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Có, cần có giấy phép hợp lệ để sử dụng Aspose.Tas
 Trả lời: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks từ trang web để đánh giá các tính năng và khả năng của nó.
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể nhận hỗ trợ cho Aspose.Tasks bằng cách truy cập diễn đàn tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Mã nguồn hoàn chỉnh
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

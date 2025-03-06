@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクトのレートをマスターする
 linktitle: Aspose.Tasks のレートのコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルのレートを管理する方法を学びます。効果的なリソース管理のためのステップバイステップのチュートリアル。
-type: docs
 weight: 11
 url: /ja/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクトのレートをマスターする
+
 ## 導入
 Aspose.Tasks for .NET を使用して MS Project でレートを管理するチュートリアルへようこそ。このガイドでは、Aspose.Tasks を使用して MS Project ファイル内のレートを操作するプロセスについて説明します。経験豊富な開発者であっても、.NET 開発を始めたばかりであっても、このチュートリアルでは、プロジェクト内でレートを効果的に処理するための手順を段階的に説明します。
 ## 前提条件
@@ -110,3 +116,9 @@ A: もちろん、Aspose.Tasks for .NET はさまざまなバージョンの MS 
 A: はい、Aspose.Tasks for .NET の無料トライアルを利用して、その機能と要件との互換性を評価できます。
 ### Q: Aspose.Tasks for .NET のライセンスはどのように購入できますか?
  A: Aspose.Tasks for .NET のライセンスは、[Webサイト](https://purchase.aspose.com/temporary-license/)、ニーズに合わせた柔軟なライセンス オプションを提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

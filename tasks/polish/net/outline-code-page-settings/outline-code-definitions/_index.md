@@ -3,10 +3,16 @@ title: Definicje obsługi kodu MS Project Outline w Aspose.Tasks
 linktitle: Obsługa definicji kodów konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak obsługiwać definicje kodu konspektu MS Project przy użyciu Aspose.Tasks dla .NET, wzmacniając możliwości aplikacji do zarządzania projektami.
-type: docs
 weight: 12
 url: /pl/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definicje obsługi kodu MS Project Outline w Aspose.Tasks
+
 ## Wstęp
 Microsoft Project to potężne narzędzie do zarządzania projektami, a Aspose.Tasks dla .NET zapewnia kompleksową obsługę programowego manipulowania plikami projektów. Jednym z istotnych aspektów zarządzania projektami jest organizowanie zadań przy użyciu kodów konspektu. W tym samouczku przyjrzymy się, jak obsługiwać definicje kodu konspektu programu MS Project przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -91,3 +97,9 @@ O: Tak, Aspose.Tasks dla .NET zapewnia rozbudowane funkcje do manipulowania przy
 O: Oczywiście, Aspose.Tasks dla .NET obsługuje odczytywanie i zapisywanie niestandardowych pól, w tym kodów konspektu, z plików MS Project.
 ### P5: Czy istnieje forum społecznościowe dla Aspose.Tasks dla .NET?
  O: Tak, możesz dołączyć do forum społeczności Aspose.Tasks dla .NET[Tutaj](https://forum.aspose.com/c/tasks/15) zadawać pytania, dzielić się wiedzą i współpracować z innymi programistami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

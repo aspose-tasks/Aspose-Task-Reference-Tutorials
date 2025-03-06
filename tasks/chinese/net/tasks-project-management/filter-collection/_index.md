@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 高效管理 MS 项目过滤器
 linktitle: 在 Aspose.Tasks 中管理过滤器集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效管理过滤器 MS Project 集合。
-type: docs
 weight: 17
 url: /zh/net/tasks-project-management/filter-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 高效管理 MS 项目过滤器
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 有效管理过滤器 MS Project 集合。管理过滤器对于有效组织和分析项目数据至关重要。 Aspose.Tasks 提供了强大的功能来无缝处理任务和资源过滤器。
 ## 先决条件
@@ -102,3 +108,9 @@ foreach (var filter in filtersToDelete)
 答：是的，Aspose.Tasks 提供了广泛的文档、教程和专门的支持论坛，以帮助开发人员完成项目实施的每一步。
 ### 问：Aspose.Tasks 有试用版吗？
 答：是的，开发人员可以在做出购买决定之前访问 Aspose.Tasks 的免费试用版来探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

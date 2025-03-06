@@ -3,10 +3,16 @@ title: Освоение базовых показателей задач в Aspo
 linktitle: Обработка базовых показателей задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как обрабатывать базовые показатели задач в Aspose.Tasks для .NET, с помощью этого подробного руководства. Совершенствуйте свои навыки управления проектами сегодня!
-type: docs
 weight: 16
 url: /ru/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение базовых показателей задач в Aspose.Tasks для .NET
+
 ## Введение
 В динамичном мире управления проектами крайне важно оставаться организованным и информированным. Aspose.Tasks для .NET предоставляет мощное решение для обработки базовых показателей задач, позволяющее эффективно получать доступ к ценной базовой информации. Это пошаговое руководство проведет вас через весь процесс, гарантируя, что вы ясно поймете каждую концепцию.
 ## Предварительные условия
@@ -72,3 +78,9 @@ foreach (var data in baseline.TimephasedData)
  А: Исследуйте[документация](https://reference.aspose.com/tasks/net/) для широкого спектра учебных пособий по функциям Aspose.Tasks.
 ### Вопрос: Где я могу приобрести Aspose.Tasks для .NET?
  О: Вы можете удобно приобрести Aspose.Tasks.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

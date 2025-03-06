@@ -3,10 +3,16 @@ title: Ekstrak Info Proyek Microsoft dengan Aspose.Tasks untuk Java
 linktitle: Baca Info Proyek dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengekstrak informasi Microsoft Project menggunakan Aspose.Tasks untuk Java. Tingkatkan manajemen proyek dalam aplikasi Java dengan mudah.
-type: docs
 weight: 11
 url: /id/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Info Proyek Microsoft dengan Aspose.Tasks untuk Java
+
 ## Perkenalan
 Dalam bidang manajemen proyek dan pelacakan tugas, Microsoft Project memegang posisi penting. Aspose.Tasks untuk Java muncul sebagai alat canggih yang memungkinkan interaksi lancar dengan file Microsoft Project di lingkungan Java. Tutorial ini mempelajari proses mengekstraksi informasi proyek penting dari file Microsoft Project menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -65,3 +71,9 @@ J: Tentu saja, Aspose.Tasks untuk Java menawarkan fungsionalitas luas untuk mema
 J: Ya, Aspose.Tasks untuk Java memungkinkan otomatisasi melalui API komprehensifnya, memungkinkan proses yang disederhanakan untuk ekstraksi dan analisis data.
 ### T: Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk Aspose.Tasks bagi pengguna Java?
  J: Ya, Anda dapat menemukan sumber daya yang bermanfaat dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

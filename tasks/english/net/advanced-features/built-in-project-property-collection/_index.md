@@ -3,10 +3,16 @@ title: Built-In Project Property Collection in Aspose.Tasks
 linktitle: Built-In Project Property Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage project meta-properties efficiently in .NET applications using Aspose.Tasks. Read, modify, and iterate over properties effortlessly.
-type: docs
 weight: 24
 url: /net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Built-In Project Property Collection in Aspose.Tasks
+
 ## Introduction
 
 In the realm of software development, managing tasks and projects efficiently is paramount to success. Aspose.Tasks for .NET is a powerful library designed to facilitate project management tasks within .NET applications. With its robust features and intuitive interface, developers can streamline project management processes, saving time and resources.
@@ -106,3 +112,10 @@ A4: Yes, you can avail of a free trial of Aspose.Tasks for .NET from the [websit
 ### Q5: Where can I find additional support and resources for Aspose.Tasks for .NET?
 
 A5: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and browse through the documentation for comprehensive guidance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

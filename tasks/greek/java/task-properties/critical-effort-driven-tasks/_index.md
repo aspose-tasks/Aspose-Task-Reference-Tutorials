@@ -3,10 +3,16 @@ title: Διαχειριστείτε κρίσιμες εργασίες και ε�
 linktitle: Διαχειριστείτε κρίσιμες εργασίες και εργασίες που βασίζονται στην προσπάθεια στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Διαχειριστείτε αβίαστα κρίσιμες και απαιτούμενες εργασίες στα έργα σας Java με το Aspose.Tasks. Κατεβάστε τη βιβλιοθήκη και βελτιώστε τις δυνατότητες διαχείρισης του έργου σας.
-type: docs
 weight: 14
 url: /el/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχειριστείτε κρίσιμες εργασίες και εργασίες που βασίζονται στην προσπάθεια στο Aspose.Tasks
+
 Στον γρήγορο κόσμο της διαχείρισης έργων, ο αποτελεσματικός χειρισμός κρίσιμων και απαιτητικών εργασιών είναι απαραίτητος για την επιτυχή ολοκλήρωση του έργου. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για την απρόσκοπτη διαχείριση αυτών των εργασιών. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.Tasks για Java για να χειριστείτε κρίσιμες εργασίες και εργασίες που βασίζονται στην προσπάθεια στα έργα σας.
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για Java;
  Μπορείτε να αγοράσετε Aspose.Tasks για Java από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

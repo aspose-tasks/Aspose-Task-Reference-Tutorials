@@ -3,10 +3,16 @@ title: Modalità di calcolo in Aspose.Tasks
 linktitle: Modalità di calcolo in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le modalità di calcolo in modo efficace in Aspose.Tasks per .NET per semplificare la pianificazione dei progetti e le dipendenze delle attività.
-type: docs
 weight: 29
 url: /it/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modalità di calcolo in Aspose.Tasks
+
 ## introduzione
 
 Aspose.Tasks per .NET è una potente API che consente agli sviluppatori di lavorare con i file di Microsoft Project a livello di codice nelle loro applicazioni .NET. Un aspetto cruciale dell'utilizzo dei file di progetto è la gestione delle modalità di calcolo, che determinano il modo in cui le attività e le pianificazioni del progetto vengono calcolate e aggiornate. In questo tutorial, approfondiremo le varie modalità di calcolo supportate da Aspose.Tasks per .NET e dimostreremo come utilizzarle in modo efficace.
@@ -165,3 +171,9 @@ A4: Sì, puoi integrare perfettamente Aspose.Tasks con altre librerie e framewor
 ### Q5: È disponibile un forum della community o un canale di supporto per gli utenti di Aspose.Tasks?
 
  A5: Sì, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto e le discussioni della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

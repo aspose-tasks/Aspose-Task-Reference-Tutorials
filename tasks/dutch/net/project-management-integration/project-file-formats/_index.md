@@ -3,10 +3,16 @@ title: Beheersing van de verwerking van MS-projectbestanden met Aspose.Tasks
 linktitle: Projectbestandsformaten verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontgrendel de kracht van Microsoft Project-bestandsmanipulatie met Aspose.Tasks voor .NET. Duik in naadloze integratie en beheer.
-type: docs
 weight: 18
 url: /nl/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van de verwerking van MS-projectbestanden met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u met Microsoft Project-bestandsindelingen kunt omgaan met Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige bibliotheek waarmee ontwikkelaars projectbestanden programmatisch kunnen manipuleren en beheren. Of u nu met .mpp-, .xml- of .csv-bestanden werkt, Aspose.Tasks biedt een uitgebreide reeks functies voor verschillende aspecten van projectbeheer.
 ## Vereisten
@@ -52,3 +58,9 @@ A: Absoluut, Aspose.Tasks biedt uitgebreide functionaliteit om projectgegevens t
 A: Ja, u kunt met Aspose.Tasks met aangepaste projectvelden werken en bewerkingen uitvoeren zoals het toevoegen, bijwerken of verwijderen van aangepaste velden.
 ### Vraag: Kan ik projectrapporten genereren met Aspose.Tasks?
 A: Ja, met Aspose.Tasks kunt u programmatisch verschillende soorten projectrapporten genereren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

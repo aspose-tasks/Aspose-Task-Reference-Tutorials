@@ -3,10 +3,16 @@ title: Aspose.Tasks'a MPP Proje Özeti Yazma
 linktitle: Aspose.Tasks'a MPP Proje Özeti Yazma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java'da MPP proje özetlerini nasıl yazacağınızı öğrenin. Proje bilgilerini zahmetsizce ayarlayın ve alın.
-type: docs
 weight: 27
 url: /tr/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'a MPP Proje Özeti Yazma
+
 ## giriiş
 Bu eğitimde MPP proje özetleri yazmak için Aspose.Tasks for Java'yı nasıl kullanacağımızı öğreneceğiz. Aspose.Tasks, Microsoft Project dosyalarıyla çalışmak için güçlü bir Java kütüphanesidir. Aşağıda özetlenen adımları takip ederek, bu kütüphaneyi kullanarak bir proje hakkında çeşitli özet bilgileri ayarlayabilecek ve alabileceksiniz.
 ## Önkoşullar
@@ -87,3 +93,9 @@ C: Aspose.Tasks for Java, Java ve Microsoft Project dosyalarının en son sürü
 C: Kesinlikle, Aspose.Tasks for Java, proje özet bilgilerini özel gereksinimlerinize göre özelleştirmek için kapsamlı seçenekler sunar.
 ### S: Aspose.Tasks for Java için nereden destek alabilirim?
 C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

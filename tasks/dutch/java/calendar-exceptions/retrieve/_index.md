@@ -3,10 +3,16 @@ title: Agenda-uitzonderingen ophalen met Aspose.Tasks
 linktitle: Agenda-uitzonderingen ophalen met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u agenda-uitzonderingen kunt ophalen uit MS Project met behulp van Aspose.Tasks voor Java. Stap-voor-stap handleiding voor naadloze integratie.
-type: docs
 weight: 13
 url: /nl/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agenda-uitzonderingen ophalen met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u agenda-uitzonderingen uit MS Project kunt ophalen met behulp van de Aspose.Tasks-bibliotheek voor Java. Aspose.Tasks is een krachtige tool waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. We begeleiden u stap voor stap door het proces en splitsen elk voorbeeld op in meerdere stappen, zodat u het gemakkelijk kunt begrijpen.
 ## Vereisten
@@ -55,3 +61,9 @@ Ja, Aspose.Tasks ondersteunt verschillende versies van MS Project-bestanden, waa
  U kunt ondersteuning krijgen via het communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Is er een optie voor tijdelijke licenties voor Aspose.Tasks?
  Ja, u kunt tijdelijke licenties verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

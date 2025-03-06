@@ -3,10 +3,16 @@ title: Manage Fiscal Year Properties in Aspose.Tasks
 linktitle: Manage Fiscal Year Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage fiscal year properties efficiently using Aspose.Tasks for Java. Step-by-step guide with examples provided.
-type: docs
 weight: 15
 url: /java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Fiscal Year Properties in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks is a powerful Java library that enables developers to efficiently manage project files, including handling fiscal year properties. In this tutorial, we'll walk through the process of managing fiscal year properties using Aspose.Tasks in Java.
 ## Prerequisites
@@ -66,3 +72,10 @@ A: You can seek assistance from the Aspose.Tasks community on the [forum](https:
 A: Yes, you can access the free trial version of Aspose.Tasks from [here](https://releases.aspose.com/).
 ### Q: Where can I purchase a license for Aspose.Tasks for Java?
 A: You can purchase a license for Aspose.Tasks for Java from [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 XAML 옵션 구성
 linktitle: Aspose.Tasks에서 XAML 옵션 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 MS Project XAML 옵션을 구성하는 방법을 알아보세요. 단계별 지침을 통해 프로젝트 관리 유연성과 사용자 정의를 향상하세요.
-type: docs
 weight: 10
 url: /ko/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 XAML 옵션 구성
+
 ## 소개
 .NET 개발 세계에서는 프로젝트 작업을 효율적으로 관리하는 것이 성공적인 프로젝트 완료에 매우 중요합니다. Aspose.Tasks for .NET은 프로젝트 관리 작업을 원활하게 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project XAML 옵션을 구성하는 방법을 살펴보겠습니다. 
 ## 전제조건
@@ -68,3 +74,9 @@ A: 예, Aspose.Tasks for .NET은 원활한 데이터 교환을 위해 다양한 
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
 
  A: .NET용 Aspose.Tasks를 구입할 수 있습니다.[이 링크](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

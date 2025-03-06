@@ -3,10 +3,16 @@ title: Rufen Sie MS Project-Dateiinformationen in Aspose.Tasks ab
 linktitle: Abrufen von Projektdateiinformationen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Informationen zu Microsoft Project-Dateien abrufen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 19
 url: /de/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rufen Sie MS Project-Dateiinformationen in Aspose.Tasks ab
+
 ## Einführung
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Abrufen von Microsoft Project-Dateiinformationen mit Aspose.Tasks für .NET. Aspose.Tasks ist eine leistungsstarke Bibliothek, die es .NET-Entwicklern ermöglicht, programmgesteuert mit Microsoft Project-Dateien zu arbeiten und Aufgaben wie das Lesen, Schreiben und Bearbeiten von Projektdaten zu ermöglichen.
 ## Voraussetzungen
@@ -58,3 +64,9 @@ Aspose.Tasks bietet auf jeden Fall umfangreiche Funktionen zum programmgesteuert
  Ja, Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### Wo bekomme ich Support für Aspose.Tasks?
  Unterstützung für Aspose.Tasks erhalten Sie über die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).## Vollständiger Quellcode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

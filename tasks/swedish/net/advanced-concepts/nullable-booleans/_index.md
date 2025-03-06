@@ -3,10 +3,16 @@ title: Hantera nullbara Booleans i Aspose.Tasks
 linktitle: Hantera nullbara Booleans i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar nullbara booleans effektivt i Aspose.Tasks för .NET med denna omfattande handledning. Bemästra användningen av klassen "NullableBool" och förbättra din .NET-utveckling.
-type: docs
 weight: 21
 url: /sv/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera nullbara Booleans i Aspose.Tasks
+
 ## Introduktion
 
  den här handledningen kommer vi att fördjupa oss i att arbeta med nollbara booleaner i Aspose.Tasks för .NET. Nullbara booleaner erbjuder flexibilitet när det gäller att representera booleska värden, vilket möjliggör möjligheten att vara odefinierade. Vi ska utforska hur man använder`NullableBool` klass, dess konstruktörer, egenskaper och metoder.
@@ -153,3 +159,9 @@ S4: Ja, du kan ställa in en nollbar boolean som odefinierad vid konstruktion.
 ### F5: Var kan jag hitta ytterligare dokumentation om Aspose.Tasks för .NET?
 
  A5: Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

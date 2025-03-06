@@ -3,10 +3,16 @@ title: Обновите и перенесите проект MS в Aspose.Tasks
 linktitle: Обновите проект и перенесите незавершенную работу в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как программно обновлять и перепланировать файлы MS Project с помощью Aspose.Tasks для Java.
-type: docs
 weight: 23
 url: /ru/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обновите и перенесите проект MS в Aspose.Tasks
+
 ## Введение
 Microsoft Project — это широко используемое программное обеспечение для управления проектами, которое позволяет пользователям эффективно управлять задачами, ресурсами и сроками. Aspose.Tasks for Java предоставляет мощный набор API для программного управления файлами Microsoft Project. В этом уроке мы узнаем, как обновить файлы MS Project и перенести незавершенную работу с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -73,3 +79,9 @@ project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
  О: Да, временные лицензии доступны для приобретения.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу найти подробную документацию по Aspose.Tasks для Java?
  О: Вы можете обратиться к документации[здесь](https://reference.aspose.com/tasks/java/) подробные руководства и ссылки на API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

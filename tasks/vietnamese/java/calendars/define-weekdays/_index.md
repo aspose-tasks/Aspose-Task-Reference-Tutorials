@@ -3,10 +3,16 @@ title: Xác định các ngày trong tuần trong Lịch với Aspose.Tasks
 linktitle: Xác định các ngày trong tuần trong Lịch với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xác định các ngày trong tuần trong Lịch MS Project bằng Aspose.Tasks cho Java. Tùy chỉnh ngày làm việc và thời gian một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định các ngày trong tuần trong Lịch với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình xác định các ngày trong tuần trong Lịch MS Project bằng cách sử dụng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -82,3 +88,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của 
 Đáp: Có, bạn có thể tải lịch dự án hiện có, thực hiện sửa đổi và sau đó lưu các thay đổi trở lại tệp gốc.
 ### Câu hỏi 5: Aspose.Tasks có hỗ trợ các tác vụ định kỳ không?
 Trả lời: Có, Aspose.Tasks cho phép bạn làm việc với các tác vụ định kỳ, bao gồm cả việc xác định mô hình và thời lượng lặp lại của chúng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

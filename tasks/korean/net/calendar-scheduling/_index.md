@@ -3,10 +3,16 @@ title: Aspose.Tasks 일정 및 일정
 linktitle: Aspose.Tasks 일정 및 일정
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 달력을 관리하고, 기간을 계산하고, 예외를 처리하세요. 달력 및 예약 작업에 대한 단계별 튜토리얼을 살펴보세요.
-type: docs
 weight: 22
 url: /ko/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 일정 및 일정
+
 ## 소개
 
 .NET 프로젝트의 복잡한 달력 관리 및 일정 관리를 마스터하기 위한 유용한 리소스인 Aspose.Tasks for .NET 튜토리얼의 세계에 오신 것을 환영합니다. Aspose.Tasks는 개발자에게 프로젝트 달력을 손쉽게 처리하고, 기간을 계산하고, 예외를 관리할 수 있는 강력한 도구를 제공합니다. 이 포괄적인 튜토리얼 컬렉션에서는 달력 작업 및 예외 관리부터 복합 문서 헤더 예외 및 통화 기호 위치와 같은 전문 주제 탐색에 이르기까지 다양한 측면을 탐구합니다. 고급 통찰력을 원하는 노련한 개발자이든 프로젝트 관리 기술을 향상시키려는 신규 개발자이든 관계없이 이 튜토리얼은 단계별 지침과 실제 사례를 제공합니다. .NET용 Aspose.Tasks의 잠재력을 최대한 활용하고 프로젝트 관리 기능을 향상시키는 여정을 시작합시다. 다이빙할 준비가 되셨나요? 시작하자!
@@ -135,3 +141,9 @@ Aspose.Tasks for .NET에서 요일 유형 컬렉션을 효율적으로 관리하
 .NET용 Aspose.Tasks를 사용하여 Primavera 데이터베이스에서 프로젝트를 가져오는 방법을 알아보세요. 이 포괄적인 튜토리얼에서 단계별 지침을 얻으세요.
 ### [Aspose.Tasks의 기간 처리](./duration-handling/)
 단계별 튜토리얼을 통해 Aspose.Tasks for .NET에서 기간을 효과적으로 처리하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uložit MS Project jako HTML pomocí Aspose.Tasks
 linktitle: Možnosti uložení HTML pro Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se ukládat soubory Microsoft Project jako HTML pomocí Aspose.Tasks for .NET. Převeďte data projektu bez námahy pomocí našeho podrobného průvodce.
-type: docs
 weight: 10
 url: /cs/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit MS Project jako HTML pomocí Aspose.Tasks
+
 ## Úvod
 Vítejte v našem tutoriálu o ukládání souborů Microsoft Project jako HTML pomocí Aspose.Tasks for .NET! Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project programově. V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks k uložení projektových dat ve formátu HTML a poskytne vám podrobné pokyny.
 ## Předpoklady
@@ -57,3 +63,9 @@ Odpověď: Ano, Aspose.Tasks podporuje širokou škálu verzí souborů Microsof
 Odpověď: Rozhodně můžete extrahovat a zahrnout konkrétní stránky nebo části vašeho projektu na základě vašich požadavků.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks?
 Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks a prozkoumejte její funkce před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uložit data MS Project do Excelu v Aspose.Tasks
 linktitle: Uložit data do Excelu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se ukládat data aplikace Microsoft Project do souborů Excel pomocí Aspose.Tasks for Java. Snadná integrace pro vývojáře v Javě.
-type: docs
 weight: 19
 url: /cs/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit data MS Project do Excelu v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for Java je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project programově. V tomto tutoriálu vás krok za krokem provedeme procesem ukládání dat ze souboru projektu do souboru aplikace Excel.
 ## Předpoklady
@@ -52,3 +58,9 @@ Můžete najít dokumentaci k Aspose.Tasks for Java[tady](https://reference.aspo
  Podporu můžete získat návštěvou fóra Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Tasks for Java?
  Ano, můžete si zakoupit dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

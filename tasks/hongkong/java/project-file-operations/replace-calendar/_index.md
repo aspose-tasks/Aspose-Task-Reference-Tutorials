@@ -3,10 +3,16 @@ title: 取代 Aspose.Tasks 中的 MS Project 日曆
 linktitle: 取代 Aspose.Tasks 中的日曆
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 取代 Microsoft Project 行事曆。帶有程式碼範例的分步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 取代 Aspose.Tasks 中的 MS Project 日曆
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 取代 Microsoft Project 日曆。 Aspose.Tasks 是一個功能強大的 Java 程式庫，使開發人員能夠以程式設計方式操作 Microsoft Project 檔案。專案管理中的一項常見任務是自訂日曆，Aspose.Tasks 顯著簡化了這一過程。
 ## 先決條件
@@ -76,3 +82,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以存取 Aspose.Tasks for Java 的免費試用版：[這裡](https://releases.aspose.com/).
 ### Q：我可以在哪裡尋求有關 Aspose.Tasks 的支援或協助？
 答：您可以造訪Aspose.Tasks論壇[這裡](https://forum.aspose.com/c/tasks/15)尋求社會各界的支持與指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

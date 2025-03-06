@@ -3,10 +3,16 @@ title: Tạo liên kết nhiệm vụ liên dự án trong Aspose.Tasks
 linktitle: Tạo liên kết nhiệm vụ liên dự án trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tăng cường hợp tác dự án với Aspose.Tasks cho Java. Tìm hiểu cách tạo liên kết nhiệm vụ giữa các dự án từng bước. Tăng hiệu quả ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo liên kết nhiệm vụ liên dự án trong Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án, hiệu quả và sự hợp tác là điều tối quan trọng. Aspose.Tasks for Java cung cấp một giải pháp mạnh mẽ để nâng cao khả năng quản lý dự án của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tạo liên kết nhiệm vụ giữa các dự án bằng Aspose.Tasks cho Java. Hướng dẫn từng bước này sẽ trang bị cho bạn các kỹ năng để liên kết liền mạch các nhiệm vụ giữa các dự án khác nhau, thúc đẩy sự phối hợp được cải thiện và quy trình công việc hợp lý.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Có, Aspose.Tasks for Java hỗ trợ liên kết các tác vụ giữa các d�
 Có, bạn có thể hủy liên kết các tác vụ bằng cách xóa liên kết tác vụ bằng các phương pháp Aspose.Tasks thích hợp.
 ### Có bất kỳ hạn chế nào về số lượng nhiệm vụ có thể được liên kết giữa các dự án không?
 Số lượng tác vụ có thể được liên kết tùy thuộc vào khả năng và giới hạn của giấy phép Aspose.Tasks của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

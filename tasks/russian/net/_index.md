@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Tasks для .NET
 linktitle: Учебные пособия по Aspose.Tasks для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Изучите учебные пособия по Aspose.Tasks для .NET, охватывающие параметры сохранения, календарь и планирование, управление проектами и многое другое. Повысьте свои навыки управления проектами.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Tasks для .NET
+
 ## Введение
 
 Готовы ли вы раскрыть весь потенциал Aspose.Tasks для .NET? Погрузитесь в наши подробные руководства и примеры, охватывающие широкий спектр тем, чтобы улучшить свои навыки управления проектами. От параметров сохранения до расширенных функций, задач календаря и планирования, управления проектами и настройки — мы предоставим вам все необходимое.
@@ -72,3 +77,9 @@ is_root: true
 Узнайте, как повысить безопасность PDF-файлов Microsoft Project с помощью Aspose.Tasks для .NET. Изучите методы цифровой подписи и шифрования.
 ### [Управление лицензиями Aspose.Tasks](./license-management/)
 Раскройте возможности Aspose.Tasks для .NET с помощью наших подробных руководств. Управляйте лицензиями и оптимизируйте использование MS Project для эффективного управления проектами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

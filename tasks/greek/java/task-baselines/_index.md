@@ -3,10 +3,16 @@ title: Γραμμές βάσης εργασιών
 linktitle: Γραμμές βάσης εργασιών
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε το Aspose.Tasks Java με τα σεμινάρια μας για τις Βασικές Εργασίες. Βελτιώστε τον προγραμματισμό εργασιών, δημιουργήστε γραμμές βάσης εργασιών MS Project και κυριαρχήστε τη διαχείριση διάρκειας γραμμής βάσης.
-type: docs
 weight: 32
 url: /el/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γραμμές βάσης εργασιών
+
 ## Εισαγωγή
 Ξεκινήστε ένα ταξίδι για να βελτιώσετε τις δεξιότητες διαχείρισης έργων με το Aspose.Tasks για Java. Σε αυτήν τη σειρά εκμάθησης, βουτάμε βαθιά στις περιπλοκές των βασικών γραμμών εργασιών, παρέχοντάς σας πολύτιμες γνώσεις και πρακτικές γνώσεις. Ας εξερευνήσουμε τα βασικά σεμινάρια που συνθέτουν αυτόν τον περιεκτικό οδηγό.
 
@@ -51,3 +57,9 @@ url: /el/java/task-baselines/
 Μάθετε πώς να δημιουργείτε μια γραμμή βάσης εργασιών του Microsoft Project σε Java χρησιμοποιώντας το Aspose.Tasks, μια ισχυρή βιβλιοθήκη για τη διαχείριση δεδομένων έργου χωρίς κόπο.
 ### [Διαχείριση διάρκειας γραμμής βάσης εργασιών στο Aspose.Tasks](./task-baseline-duration/)
 Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις γραμμές βάσης εργασιών στο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Αυτό το σεμινάριο σας καθοδηγεί βήμα προς βήμα στη διαδικασία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

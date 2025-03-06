@@ -3,10 +3,16 @@ title: Nastavte vlastnosti měny v projektech Aspose.Tasks
 linktitle: Nastavte vlastnosti měny v projektech Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak nastavit vlastnosti měny v projektech Aspose.Tasks pomocí Javy. Manipulujte se soubory Microsoft Project bez námahy.
-type: docs
 weight: 11
 url: /cs/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte vlastnosti měny v projektech Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak nastavit vlastnosti měny v projektech Aspose.Tasks pomocí Javy. Aspose.Tasks je výkonná knihovna Java, která umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project.
 ## Předpoklady
@@ -64,3 +70,9 @@ Aspose.Tasks rozhodně nabízí flexibilitu při definování vlastních formát
 Ano, Aspose.Tasks lze bez problémů integrovat s jinými knihovnami a frameworky Java, čímž se zvyšuje jeho funkčnost a všestrannost.
 ### Kde najdu další podporu nebo pomoc pro Aspose.Tasks?
  Pro další podporu můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), kde můžete najít užitečné zdroje a zapojit se do komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

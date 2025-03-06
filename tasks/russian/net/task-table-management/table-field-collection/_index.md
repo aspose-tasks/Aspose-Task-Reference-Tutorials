@@ -3,10 +3,16 @@ title: Освоение коллекций полей таблиц в Aspose.Tas
 linktitle: Коллекция полей таблицы в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Исследуйте динамичный мир управления проектами с помощью Aspose.Tasks для .NET. Узнайте, как манипулировать коллекциями полей таблицы для индивидуальной настройки проекта.
-type: docs
 weight: 13
 url: /ru/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение коллекций полей таблиц в Aspose.Tasks для .NET
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая упрощает управление проектами, предоставляя обширные функциональные возможности для работы с файлами Microsoft Project. В этом уроке мы углубимся в коллекцию полей таблицы в Aspose.Tasks, изучим, как эффективно манипулировать ими и управлять ими с помощью C#.
 ## Предварительные условия
@@ -111,3 +117,9 @@ else
  Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)чтобы получить поддержку, задать вопросы и сотрудничать с сообществом.
 ### Доступна ли бесплатная пробная версия Aspose.Tasks для .NET?
  Да, вы можете изучить возможности Aspose.Tasks для .NET с помощью бесплатной пробной версии. Загрузить[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: สูตร MS Project พร้อม Aspose.Tasks สำหรับ J
 linktitle: ทำงานกับสูตรใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีจัดการไฟล์ MS Project ใน Java โดยใช้ไลบรารี Aspose.Tasks สร้าง แก้ไข และคำนวณแอตทริบิวต์ได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สูตร MS Project พร้อม Aspose.Tasks สำหรับ Java
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกการทำงานกับ MS Project Formulas โดยใช้ Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการไฟล์ Microsoft Project โดยทางโปรแกรม ด้วยคุณสมบัติที่หลากหลาย คุณสามารถสร้าง อ่าน แก้ไข และแปลงไฟล์โปรเจ็กต์ในแอปพลิเคชัน Java ได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -64,3 +70,9 @@ project.save("SaveFile.mpp", SaveFileFormat.Mpp);
  ตอบ: หากต้องการความช่วยเหลือ คุณสามารถไปที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันต้องมีใบอนุญาตชั่วคราวเพื่อใช้ Aspose.Tasks หรือไม่
 ตอบ: หากคุณต้องการคุณสมบัติเพิ่มเติม คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

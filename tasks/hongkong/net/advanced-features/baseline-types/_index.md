@@ -3,10 +3,16 @@ title: Aspose.Tasks 中不同類型的基線
 linktitle: Aspose.Tasks 中不同類型的基線
 second_title: Aspose.Tasks .NET API
 description: 學習使用 Aspose.Tasks for .NET 有效地設定和操作專案基準。
-type: docs
 weight: 21
 url: /zh-hant/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中不同類型的基線
+
 ## 介紹
 
 在專案管理領域，精確性和遠見至關重要。 Aspose.Tasks for .NET 提供了一個強大的工具包，可有效管理專案數據，讓使用者可以深入研究專案規劃、追蹤和執行的各個方面。 Aspose.Tasks 提供的一項重要功能是設定基準的能力，該基準可作為根據初始計劃衡量專案進度的參考點。
@@ -82,3 +88,9 @@ A4：Aspose.Tasks 提供了廣泛的文件和支援論壇，以幫助開發人�
 ### Q5：我可以在購買前試用Aspose.Tasks嗎？
 
 A5：是的，您可以透過網站上提供的免費試用版探索 Aspose.Tasks，讓您親身體驗其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

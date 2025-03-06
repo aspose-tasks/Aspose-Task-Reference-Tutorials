@@ -3,10 +3,16 @@ title: Чтение рабочих недель из календаря MS Proje
 linktitle: Чтение рабочих недель из календаря с помощью Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как читать рабочие недели из календаря MS Project с помощью Aspose.Tasks для Java. Получите пошаговые инструкции в этом подробном руководстве.
-type: docs
 weight: 15
 url: /ru/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение рабочих недель из календаря MS Project с помощью Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как использовать Aspose.Tasks для Java для чтения информации о рабочих неделях из календаря Microsoft Project. Aspose.Tasks — это мощная библиотека Java, которая позволяет вам программно манипулировать и управлять документами Microsoft Project.
 ## Предварительные условия
@@ -65,3 +71,9 @@ for (WorkWeek workWeek : collection) {
  Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта[здесь](https://releases.aspose.com/).
 ### Где я могу найти поддержку Aspose.Tasks?
 Вы можете найти поддержку и помощь на форуме Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

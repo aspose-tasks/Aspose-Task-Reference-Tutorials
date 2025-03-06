@@ -3,10 +3,16 @@ title: Освоение последовательностей WBS с помощ
 linktitle: Определение последовательностей WBS в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Расширьте возможности управления проектами с помощью Aspose.Tasks для .NET — легко определяйте последовательности WBS и повышайте эффективность без особых усилий. #Aspose #Задачи #MS Project
-type: docs
 weight: 16
 url: /ru/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение последовательностей WBS с помощью Aspose.Tasks для .NET
+
 ## Введение
 Вы работаете над приложением для управления проектами и вам нужен надежный инструмент для обработки последовательностей структуры иерархии работ (WBS)? Не ищите ничего, кроме Aspose.Tasks для .NET, мощной библиотеки, которая упрощает задачи управления проектами. В этом руководстве мы шаг за шагом проведем вас через процесс определения последовательностей WBS.
 ## Предварительные условия
@@ -74,3 +80,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) связаться с сообществом и обратиться за помощью.
 ### Имеются ли временные лицензии?
  Да, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) в целях тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

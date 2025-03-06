@@ -3,10 +3,16 @@ title: Filformatsalternativ för Aspose.Tasks
 linktitle: Filformatsalternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska Aspose.Tasks filformatalternativ och masterkonfiguration av XAML och XLSX alternativ i Aspose.Tasks .NET. Lyft projektledning med anpassningstips.
-type: docs
 weight: 34
 url: /sv/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filformatsalternativ för Aspose.Tasks
+
 
 ## Introduktion
 
@@ -27,3 +33,9 @@ Sammanfattningsvis ger våra Aspose.Tasks-handledningar för filformatalternativ
 Lär dig hur du konfigurerar MS Project XAML-alternativ i Aspose.Tasks för .NET. Förbättra projektledningsflexibilitet och anpassning med steg-för-steg-vägledning.
 ### [Konfigurera XLSX-alternativ i Aspose.Tasks](./configuring-xlsx-options/)
 Lär dig hur du konfigurerar MS Project XLSX-alternativ i Aspose.Tasks för .NET. Anpassa kolumner, kodning och mer utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

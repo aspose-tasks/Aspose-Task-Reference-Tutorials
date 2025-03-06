@@ -3,10 +3,16 @@ title: Nắm vững thời gian làm việc trong Aspose.Tasks
 linktitle: Bộ sưu tập Thời gian làm việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý các mốc thời gian của dự án một cách hiệu quả. Tùy chỉnh lịch, đặt thời gian làm việc và hợp lý hóa các dự án của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững thời gian làm việc trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang muốn nắm vững nghệ thuật quản lý thời gian làm việc trong Aspose.Tasks cho .NET? Đừng tìm đâu xa! Trong hướng dẫn từng bước này, chúng ta sẽ đi sâu vào những điểm phức tạp của việc thu thập thời gian làm việc bằng Aspose.Tasks, giúp bạn xử lý lịch tùy chỉnh một cách hiệu quả và hợp lý hóa các mốc thời gian dự án của mình.
 ## Điều kiện tiên quyết
@@ -114,3 +120,9 @@ Chắc chắn! Aspose.Tasks tích hợp liền mạch với các thư viện .NE
  Có, bạn có thể khám phá Aspose.Tasks với bản dùng thử miễn phí bằng cách truy cập[liên kết này](https://releases.aspose.com/).
 ### Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Tasks ở đâu?
  Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn hỗ trợ Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

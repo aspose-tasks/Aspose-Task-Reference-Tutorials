@@ -3,10 +3,16 @@ title: Beherrschen der MS Project-Speicheroptionen für Aspose.Tasks
 linktitle: Allgemeine Speicheroptionen für Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Dateien mit Aspose.Tasks für .NET effizient speichern. Passen Sie die Ausgabeoptionen mühelos an Ihre Projekte an.
-type: docs
 weight: 17
 url: /de/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der MS Project-Speicheroptionen für Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für .NET bietet leistungsstarke Funktionen zum programmgesteuerten Bearbeiten von Microsoft Project-Dateien. In diesem Tutorial befassen wir uns mit den Feinheiten des Speicherns von MS Project-Dateien mithilfe verschiedener Optionen von Aspose.Tasks. Konkret konzentrieren wir uns auf die allgemeinen Speicheroptionen, die für Aspose.Tasks verfügbar sind, sodass Sie die Ausgabe an Ihre spezifischen Anforderungen anpassen können.
 ## Voraussetzungen
@@ -68,3 +74,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien u
  A: Für Evaluierungszwecke stehen temporäre Lizenzen zur Verfügung[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Unterstützung für Fragen zu Aspose.Tasks erhalten?
  A: Sie können dem Aspose.Tasks-Community-Forum beitreten[Hier](https://forum.aspose.com/c/tasks/15)um Unterstützung von Experten und anderen Entwicklern zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Quản lý tỷ lệ và nhiệm vụ định kỳ
 linktitle: Aspose.Tasks Quản lý tỷ lệ và nhiệm vụ định kỳ
 second_title: Aspose.Tasks .NET API
 description: Master MS Quản lý tỷ lệ dự án và các nhiệm vụ định kỳ với Aspose.Tasks .NET. Tìm hiểu cách tự động hóa các nhiệm vụ, xử lý tỷ lệ và quản lý các phần được phân chia cho quy trình công việc của dự án.
-type: docs
 weight: 28
 url: /vi/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Quản lý tỷ lệ và nhiệm vụ định kỳ
+
 
 ## Giới thiệu
 
@@ -67,3 +73,9 @@ Tìm hiểu cách lưu tệp MS Project ở nhiều định dạng khác nhau b�
 Tìm hiểu cách xử lý các phần phân chia MS Project một cách hiệu quả với Aspose.Tasks for .NET. Tăng cường quy trình quản lý dự án của bạn.
 ### [Thu thập dự án MS của các bộ phận phân chia trong Aspose.Tasks](./split-part-collection/)
 Tìm hiểu cách thu thập các phần được phân tách trong MS Project bằng Aspose.Tasks for .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

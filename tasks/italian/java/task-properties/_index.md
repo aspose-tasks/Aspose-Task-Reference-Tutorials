@@ -3,10 +3,16 @@ title: Proprietà dell'attività
 linktitle: Proprietà dell'attività
 second_title: API Java Aspose.Tasks
 description: Migliora la gestione dei progetti Java con Aspose.Tasks. Esplora tutorial sulle proprietà delle attività, dalla gestione delle priorità alla gestione dei costi. Ottimizza il tuo progetto oggi!
-type: docs
 weight: 34
 url: /it/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proprietà dell'attività
+
 ## introduzione
 
 Gestisci e personalizza facilmente i file Microsoft Project in Java con Aspose.Tasks. Esplora i tutorial che coprono vari aspetti delle proprietà delle attività per migliorare le tue capacità di gestione dei progetti.
@@ -138,3 +144,9 @@ Esplora Aspose.Tasks per Java e la gestione dei dati rapportati alla scala crono
 Scopri come aggiornare i dati delle attività in formato MPP utilizzando Aspose.Tasks per Java. Segui la nostra guida passo passo per una gestione efficiente del progetto.
 ### [WBS associato all'attività in Aspose.Tasks](./wbs-associated-with-task/)
 Padroneggia la WBS con Aspose.Tasks per Java: impara a leggere e rinumerare i codici WBS delle attività. Aumenta l'efficienza della gestione dei progetti!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

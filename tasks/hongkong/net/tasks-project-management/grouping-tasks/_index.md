@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 進行高效率的 MS 專案任務分組
 linktitle: 在 Aspose.Tasks 中將任務分組
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 對 Microsoft Project 任務進行有效分組。
-type: docs
 weight: 25
 url: /zh-hant/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 進行高效率的 MS 專案任務分組
+
 ## 介紹
 在 Microsoft Project 中管理任務有時可能具有挑戰性，尤其是在有效率地組織任務時。 Aspose.Tasks for .NET 透過提供有效的分組任務功能，為此提供了全面的解決方案。在本教程中，我們將探討如何使用 Aspose.Tasks for .NET 將 MS Project 任務分組。
 ## 先決條件
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 當然，Aspose.Tasks 提供了自訂分組任務外觀的選項，包括儲存格顏色、字體和樣式。
 ### 在哪裡可以找到對 Aspose.Tasks for .NET 的支援？
 您可以在 Aspose.Tasks for .NET 中找到支援和協助[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

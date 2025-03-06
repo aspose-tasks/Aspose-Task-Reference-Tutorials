@@ -3,10 +3,16 @@ title: Renderujte data MS Project ve formátu 24bppRgb v Aspose.Tasks
 linktitle: Vykreslování dat ve formátu 24bppRgb v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se vykreslovat data MS Project jako obrázky v Javě pomocí Aspose.Tasks. Postupujte podle našeho podrobného návodu pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderujte data MS Project ve formátu 24bppRgb v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem vykreslování dat ve formátu MS Project 24bppRgb pomocí Aspose.Tasks for Java. Vykreslování dat projektu do obrazového formátu může být užitečné pro různé účely, jako je vizuální sdílení průběhu projektu nebo vytváření zpráv.
 ## Předpoklady
@@ -63,3 +69,9 @@ Odpověď: Ano, pomocí Aspose.Tasks si můžete přizpůsobit rozlišení a for
  Odpověď: Ano, pro komerční použití Aspose.Tasks si musíte zakoupit licenci. Dočasnou licenci pro testovací účely můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu získat podporu pro Aspose.Tasks?
  Odpověď: Podporu pro Aspose.Tasks můžete získat od[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

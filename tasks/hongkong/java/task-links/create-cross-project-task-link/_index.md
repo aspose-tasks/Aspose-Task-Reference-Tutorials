@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中建立跨專案任務鏈接
 linktitle: 在Aspose.Tasks中建立跨專案任務鏈接
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 增強專案協作。學習逐步建立跨專案任務連結。立即提高效率！
-type: docs
 weight: 10
 url: /zh-hant/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中建立跨專案任務鏈接
+
 ## 介紹
 在動態的專案管理世界中，效率和協作至關重要。 Aspose.Tasks for Java 提供了一個強大的解決方案來增強您的專案管理能力。在本教程中，我們將深入研究使用 Aspose.Tasks for Java 建立跨專案任務連結的過程。本逐步指南將為您提供無縫連結不同專案之間的任務的技能，從而促進改進的協調和簡化的工作流程。
 ## 先決條件
@@ -78,3 +84,9 @@ System.out.println("Process completed Successfully");
 是的，您可以透過使用適當的 Aspose.Tasks 方法刪除任務連結來取消任務連結。
 ### 跨項目連結的任務數量是否有限制？
 可連結的任務數量取決於您的 Aspose.Tasks 許可證的功能和限制。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

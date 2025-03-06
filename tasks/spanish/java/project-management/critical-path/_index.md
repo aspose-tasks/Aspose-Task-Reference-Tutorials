@@ -3,10 +3,16 @@ title: Calcule la ruta crítica del proyecto MS en Aspose.Tasks
 linktitle: Calcular la ruta crítica en proyectos Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a calcular la ruta crítica en MS Project usando Aspose.Tasks para Java. Esto proporciona una guía paso a paso para una gestión eficiente de proyectos.
-type: docs
 weight: 10
 url: /es/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcule la ruta crítica del proyecto MS en Aspose.Tasks
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de calcular la ruta crítica en MS Project usando Aspose.Tasks para Java. La ruta crítica es esencial para la gestión de proyectos, ya que ayuda a identificar la secuencia de tareas que deben completarse a tiempo para garantizar que el cronograma general del proyecto no se retrase.
 ## Requisitos previos
@@ -72,3 +78,9 @@ R: Sí, Aspose.Tasks para Java admite varias versiones de archivos de MS Project
  R: Sí, puede comprar una licencia temporal en[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Cómo puedo comprar Aspose.Tasks para Java?
  R: Puede comprar Aspose.Tasks para Java desde el sitio web[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

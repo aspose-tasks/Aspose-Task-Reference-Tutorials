@@ -3,10 +3,16 @@ title: Panduan Menyesuaikan Gaya Teks Tabel di Aspose.Tasks
 linktitle: Mengonfigurasi Gaya Teks Tabel di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan visualisasi proyek dengan Aspose.Tasks untuk .NET. Pelajari cara mengonfigurasi gaya teks tabel langkah demi langkah. Meningkatkan efisiensi dan presentasi.
-type: docs
 weight: 14
 url: /id/net/task-table-management/table-text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Panduan Menyesuaikan Gaya Teks Tabel di Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia manajemen proyek, visualisasi tugas yang efektif sangat penting untuk kesuksesan. Aspose.Tasks untuk .NET memberikan solusi ampuh untuk mengkustomisasi gaya teks tabel, memungkinkan Anda menyesuaikan tampilan item teks dalam proyek Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonfigurasi gaya teks tabel menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -77,3 +83,9 @@ Menyesuaikan gaya teks tabel di Aspose.Tasks untuk .NET memberikan cara yang fle
 Ya, Aspose.Tasks menawarkan berbagai fitur visualisasi untuk memenuhi kebutuhan manajemen proyek yang berbeda.
 ### Bisakah saya menyesuaikan gaya untuk jenis tugas tertentu?
 Tentu saja, Anda dapat memperluas penyesuaian ke jenis tugas yang berbeda dengan menyesuaikan pengaturan bidang dan font.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

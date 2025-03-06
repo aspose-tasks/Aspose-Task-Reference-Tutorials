@@ -3,10 +3,16 @@ title: Trabalhando com objetos OLE em Aspose.Tasks
 linktitle: Trabalhando com objetos OLE em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como trabalhar de forma eficiente com objetos OLE em aplicativos .NET usando Aspose.Tasks, aprimorando os recursos de gerenciamento de projetos.
-type: docs
 weight: 22
 url: /pt/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com objetos OLE em Aspose.Tasks
+
 ## Introdução
 
 Aspose.Tasks for .NET fornece funcionalidade abrangente para trabalhar com objetos OLE (Object Linking and Embedding) em arquivos de projeto. Este tutorial irá guiá-lo através do processo de gerenciamento eficiente de objetos OLE usando Aspose.Tasks em seus aplicativos .NET.
@@ -148,3 +154,9 @@ A4: Sim, o Aspose.Tasks é adequado para projetos de pequena escala e de nível 
 ### P5: O Aspose.Tasks oferece suporte ao cliente e recursos de documentação?
 
 R5: Sim, Aspose.Tasks fornece ampla documentação, fóruns e suporte ao cliente para ajudar os desenvolvedores a utilizar seus recursos de maneira eficaz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

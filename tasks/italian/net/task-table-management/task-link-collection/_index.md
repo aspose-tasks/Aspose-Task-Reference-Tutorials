@@ -3,10 +3,16 @@ title: Gestione dei collegamenti alle attività in Aspose.Tasks
 linktitle: Gestione dei collegamenti alle attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora la potenza di Aspose.Tasks per .NET nella gestione efficiente dei collegamenti alle attività del progetto. Segui la nostra guida passo passo per migliorare la tua esperienza di gestione dei progetti.
-type: docs
 weight: 19
 url: /it/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione dei collegamenti alle attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nella guida passo passo sulla gestione dei collegamenti alle attività in Aspose.Tasks per .NET! I collegamenti alle attività svolgono un ruolo cruciale nella gestione dei progetti, consentendo di stabilire relazioni tra attività e creare dipendenze. In questo tutorial ti guideremo attraverso il processo di utilizzo delle raccolte di collegamenti attività utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -85,3 +91,9 @@ Attualmente, Aspose.Tasks supporta i tipi di collegamento attività standard e i
 Aspose.Tasks può gestire file di progetto di grandi dimensioni in modo efficiente con un impatto minimo sulle prestazioni.
 ### Esiste un forum della community per il supporto di Aspose.Tasks?
  Sì, puoi trovare supporto e interagire con la community su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

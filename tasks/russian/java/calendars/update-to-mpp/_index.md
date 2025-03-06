@@ -3,10 +3,16 @@ title: Обновите календари MS Project в формат MPP с п�
 linktitle: Обновите календарь в формат MPP в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как легко обновить календари MS Project в формат MPP с помощью Aspose.Tasks для Java.
-type: docs
 weight: 16
 url: /ru/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обновите календари MS Project в формат MPP с помощью Aspose.Tasks
+
 ## Введение
 
 В сфере управления проектами обработка файлов различных форматов имеет решающее значение для бесперебойной совместной работы и эффективного рабочего процесса. Aspose.Tasks for Java предлагает надежное решение для управления файлами Microsoft Project, облегчающее такие задачи, как обновление календарей MS Project в формат MPP. В этом руководстве мы углубимся в шаги, необходимые для достижения этой цели с помощью Aspose.Tasks для Java.
@@ -116,3 +122,9 @@ System.out.println("Process completed Successfully");
 ### В5: Как я могу получить временную лицензию на Aspose.Tasks для Java?
 
  A5: Чтобы приобрести временную лицензию на Aspose.Tasks для Java, посетите сайт[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

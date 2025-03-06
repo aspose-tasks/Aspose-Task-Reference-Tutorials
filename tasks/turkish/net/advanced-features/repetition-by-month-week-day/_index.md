@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Ay Hafta Güne Göre Tekrarlama
 linktitle: Aspose.Tasks'ta Ay Hafta Güne Göre Tekrarlama
 second_title: Aspose.Tasks .NET API'si
 description: Yinelenen görevleri verimli bir şekilde otomatikleştirmek için Aspose.Tasks for .NET'te tekrarları aya, haftaya ve güne göre nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 26
 url: /tr/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Ay Hafta Güne Göre Tekrarlama
+
 ## giriiş
 
 Yazılım geliştirme alanında, özellikle proje yönetimi uygulamalarında, yinelenen görevleri verimli bir şekilde ele alma becerisi çok önemlidir. Aspose.Tasks for .NET, yinelenenler de dahil olmak üzere proje görevlerinin oluşturulmasını ve yönetimini kolaylaştırmak için tasarlanmış güçlü bir kütüphanedir. Aspose.Tasks'ın sağladığı işlevselliklerden biri de tekrarları aya, haftaya ve güne göre ayarlayarak görevlerin manuel müdahale olmadan planlandığı gibi yürütülmesini sağlamaktır.
@@ -112,3 +118,9 @@ C1: Evet, Aspose.Tasks for .NET yineleme kalıpları için kapsamlı özelleşti
 ###S5: Aspose.Tasks for .NET için kapsamlı belgeleri nerede bulabilirim?
 
  A5: detaylı bilgilere başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) Kütüphanenin kullanımıyla ilgili ayrıntılı rehberlik için Aspose web sitesinde mevcuttur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

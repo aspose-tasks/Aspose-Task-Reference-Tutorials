@@ -1,12 +1,17 @@
 ---
 title: Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.Tasks για Java
 linktitle: Aspose.Tasks for Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Εξερευνήστε το Aspose.Tasks για Java με τα σεμινάρια μας. Κύριο ημερολόγιο, διαχείριση έργου και πολλά άλλα. Βελτιώστε τις ροές εργασίας σας για αποτελεσματική εκτέλεση του έργου.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ολοκληρωμένα σεμινάρια & παραδείγματα Aspose.Tasks για Java
+
 
 ## Εισαγωγή
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στη διαχείριση έργων Java; Βουτήξτε στον κόσμο του Aspose.Tasks για Java με τα εκτενή μας σεμινάρια που καλύπτουν διάφορες πτυχές της διαχείρισης έργων. Από τις εξαιρέσεις ημερολογίου έως την ενσωμάτωση VBA, σας έχουμε καλύψει.
@@ -93,3 +98,9 @@ is_root: true
 Βελτιώστε τη διαχείριση έργων Java με το Aspose.Tasks. Εξερευνήστε μαθήματα για τις ιδιότητες εργασιών, από τον χειρισμό προτεραιοτήτων έως τη διαχείριση του κόστους. Βελτιστοποιήστε το έργο σας σήμερα!
 ### [Ενσωμάτωση VBA](./vba-integration/)
 Εξερευνήστε το Aspose.Tasks Java με ενσωμάτωση VBA. Βελτιώστε τις ροές εργασίας του έργου και βελτιώστε την παρακολούθηση εργασιών. Εξερευνήστε ολοκληρωμένα σεμινάρια για απρόσκοπτη ενσωμάτωση VBA!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

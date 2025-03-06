@@ -3,10 +3,16 @@ title: Données chronologiques de tâche dans Aspose.Tasks
 linktitle: Données chronologiques de tâche dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez Aspose.Tasks pour Java et la gestion chronologique des données des tâches principales. Téléchargez la bibliothèque, profitez d'un essai gratuit et rationalisez le suivi de votre projet.
-type: docs
 weight: 34
 url: /fr/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Données chronologiques de tâche dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, un suivi précis des données chronologiques des tâches est crucial pour une exécution efficace du projet. Aspose.Tasks for Java apparaît comme un outil puissant pour rationaliser ce processus, offrant des fonctionnalités robustes et une flexibilité. Ce didacticiel vous guidera dans l'utilisation d'Aspose.Tasks pour Java pour gérer efficacement les données chronologiques des tâches.
 ## Conditions préalables
@@ -104,3 +110,9 @@ R : Oui, Aspose.Tasks for Java est compatible avec tout projet basé sur Java.
  R : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je acheter Aspose.Tasks pour Java ?
  R : Vous pouvez acheter Aspose.Tasks pour Java[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

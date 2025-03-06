@@ -3,10 +3,16 @@ title: Menangani Pengecualian Header Dokumen Gabungan di Aspose.Tasks
 linktitle: Menangani Pengecualian Header Dokumen Gabungan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani CompoundDocumentHeaderException di Aspose.Tasks untuk .NET. Dapatkan panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 16
 url: /id/net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Pengecualian Header Dokumen Gabungan di Aspose.Tasks
+
 ## Perkenalan
 
  Dalam bidang pengembangan .NET, mengelola tugas proyek secara efisien adalah hal yang sangat penting. Aspose.Tasks memberikan solusi komprehensif bagi pengembang .NET untuk menangani tugas manajemen proyek dengan lancar. Namun, menghadapi pengecualian merupakan aspek yang tidak dapat dihindari dalam pengembangan perangkat lunak. Salah satu pengecualian yang mungkin ditemui pengembang adalah`CompoundDocumentHeaderException`. Tutorial ini bertujuan untuk memandu pengembang tentang cara menangani pengecualian ini secara efektif menggunakan Aspose.Tasks untuk .NET.
@@ -105,3 +111,9 @@ A4: Ya, Aspose.Tasks menawarkan API cloud untuk integrasi yang lancar dengan pla
 ### Q5: Seberapa sering pembaruan dan perbaikan bug dirilis untuk Aspose.Tasks?
 
 A5: Aspose.Tasks secara teratur merilis pembaruan dan perbaikan bug untuk memastikan stabilitas dan keandalan perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

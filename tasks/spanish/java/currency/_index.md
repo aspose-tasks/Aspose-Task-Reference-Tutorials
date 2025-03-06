@@ -3,10 +3,16 @@ title: Administrar moneda en Aspose.Tasks para Java
 linktitle: Divisa
 second_title: Aspose.Tasks API de Java
 description: Administre sin esfuerzo códigos de moneda, dígitos y símbolos en archivos de MS Project con Aspose.Tasks para Java. Optimice la gestión de proyectos con tutoriales fáciles de seguir.
-type: docs
 weight: 22
 url: /es/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar moneda en Aspose.Tasks para Java
+
 
 ## Introducción
 
@@ -43,3 +49,9 @@ Aprenda a administrar códigos monetarios de MS Project de manera eficiente util
 Aprenda a manejar los dígitos monetarios de MS Project de manera eficiente utilizando Aspose.Tasks para Java. Guía paso a paso con ejemplos de código.
 ### [Manipulación de símbolos de moneda en Aspose.Tasks](./currency-symbols/)
 Aprenda a manipular símbolos de moneda en archivos de MS Project usando Aspose.Tasks para Java. Pasos sencillos para una gestión eficiente de proyectos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

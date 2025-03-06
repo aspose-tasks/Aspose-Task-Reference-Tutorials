@@ -3,10 +3,16 @@ title: Přidejte rozšířené atributy do úkolů v Aspose.Tasks
 linktitle: Přidejte rozšířené atributy do úkolů v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte sílu Aspose.Tasks Java při přizpůsobování souborů aplikace Microsoft Project s rozšířenými atributy. Vylepšete své možnosti řízení projektů bez námahy.
-type: docs
 weight: 11
 url: /cs/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte rozšířené atributy do úkolů v Aspose.Tasks
+
 ## Úvod
 Pro efektivní sledování úkolů a správu zdrojů je zásadní vylepšit schopnosti řízení projektů. Aspose.Tasks for Java poskytuje vývojářům Java výkonné řešení pro bezproblémovou manipulaci se soubory aplikace Microsoft Project. V tomto tutoriálu prozkoumáme, jak přidat rozšířené atributy k úlohám pomocí Aspose.Tasks for Java, což vám umožní přizpůsobit a organizovat data projektu podle vašich specifických požadavků.
 ## Předpoklady
@@ -75,3 +81,9 @@ Odpověď: Rozhodně, Aspose.Tasks for Java je navržen tak, aby zvládal projek
  A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
 ### Otázka: Mohu před nákupem vyzkoušet Aspose.Tasks for Java?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

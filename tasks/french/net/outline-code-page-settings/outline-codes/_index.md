@@ -3,10 +3,16 @@ title: Gérer les codes hiérarchiques du projet dans Aspose.Tasks pour .NET
 linktitle: Gestion des codes hiérarchiques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer les codes hiérarchiques MS Project avec Aspose.Tasks pour .NET. Simplifiez l’organisation du projet sans effort.
-type: docs
 weight: 10
 url: /fr/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les codes hiérarchiques du projet dans Aspose.Tasks pour .NET
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment gérer les codes hiérarchiques Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Les codes hiérarchiques sont des champs personnalisés dans Microsoft Project qui permettent aux utilisateurs de catégoriser et d'organiser les tâches selon des critères spécifiques. Aspose.Tasks simplifie le processus de lecture et de manipulation de ces codes hiérarchiques par programme.
 ## Conditions préalables
@@ -71,3 +77,9 @@ R : Oui, une licence valide est requise pour une utilisation commerciale d’As
 : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks à partir du site Web pour évaluer ses fonctionnalités et capacités.
 ### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks ?
  R : Vous pouvez obtenir de l'aide pour Aspose.Tasks en visitant le forum à l'adresse[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Code source complet
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

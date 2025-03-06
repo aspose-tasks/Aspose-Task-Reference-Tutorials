@@ -3,10 +3,16 @@ title: Hiển thị nhãn trong Aspose.Tasks
 linktitle: Hiển thị nhãn trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh hiển thị nhãn trong quản lý dự án với Aspose.Tasks cho .NET. Nâng cao khả năng đọc và rõ ràng một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị nhãn trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển phần mềm, quản lý nhiệm vụ một cách hiệu quả là điều bắt buộc để dự án thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý các tác vụ quản lý dự án một cách liền mạch trong khung .NET. Một khía cạnh quan trọng của quản lý dự án là khả năng tùy chỉnh các tùy chọn hiển thị để phù hợp với yêu cầu cụ thể. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks cho .NET để thao tác hiển thị nhãn phút, giờ, ngày, tuần, tháng và năm trong các tệp dự án.
@@ -137,3 +143,10 @@ Câu trả lời 4: Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy
 ### Câu hỏi 5: Aspose.Tasks có hỗ trợ tích hợp với các công cụ quản lý dự án khác không?
 
 Câu trả lời 5: Có, Aspose.Tasks cung cấp khả năng tích hợp liền mạch, tạo điều kiện cho khả năng tương tác với các nền tảng và công cụ quản lý dự án khác.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestión de Recursos y Análisis de Riesgos
 linktitle: Aspose.Tasks Gestión de Recursos y Análisis de Riesgos
 second_title: API Aspose.Tasks .NET
 description: Administre los recursos de MS Project con Aspose.Tasks .NET. Aumente la productividad y agilice los flujos de trabajo. Aprenda asignaciones de recursos, vistas de uso, análisis de riesgos y más.
-type: docs
 weight: 26
 url: /es/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestión de Recursos y Análisis de Riesgos
+
 ## Introducción
 
 ¿Está buscando formas eficientes de administrar los recursos de Microsoft Project y mejorar el análisis de riesgos utilizando Aspose.Tasks para .NET? ¡No busque más! En esta guía completa, lo guiaremos a través de varios tutoriales que cubren temas esenciales para capacitar a los desarrolladores y gerentes de proyectos.
@@ -90,3 +96,9 @@ Aprenda a recopilar estadísticas de elementos de riesgo de archivos de MS Proje
 Aprenda a gestionar eficazmente los patrones de riesgo en archivos de Microsoft Project utilizando Aspose.Tasks para .NET. Mejore los resultados del proyecto con potentes herramientas de análisis de riesgos.
 ### [Administre patrones de riesgo en MS Project con Aspose.Tasks](./risk-pattern-collection/)
 Aprenda a analizar y manipular eficazmente patrones de riesgo en archivos de Microsoft Project utilizando Aspose.Tasks para .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

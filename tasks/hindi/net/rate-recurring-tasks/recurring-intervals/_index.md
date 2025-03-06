@@ -3,10 +3,16 @@ title: Aspose.Tasks में सहज एमएस प्रोजेक्ट
 linktitle: Aspose.Tasks में आवर्ती अंतरालों का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में आवर्ती अंतरालों को आसानी से प्रबंधित करने का तरीका जानें।
-type: docs
 weight: 12
 url: /hi/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में सहज एमएस प्रोजेक्ट आवर्ती अंतराल
+
 ## परिचय
 क्या आप .NET के लिए Aspose.Tasks का उपयोग करके Microsoft Project फ़ाइलों में आवर्ती अंतरालों को कुशलतापूर्वक प्रबंधित करना चाहते हैं? यह व्यापक ट्यूटोरियल आपको चरण दर चरण प्रक्रिया के माध्यम से मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आप अपनी परियोजनाओं में आवर्ती अंतरालों को आसानी से संभाल सकते हैं। ट्यूटोरियल में जाने से पहले, आइए कुछ आवश्यक शर्तों पर गौर करें ताकि यह सुनिश्चित हो सके कि आप आरंभ करने के लिए तैयार हैं।
 ## आवश्यक शर्तें
@@ -103,3 +109,9 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
  हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मुझे .NET के लिए Aspose.Tasks के लिए संपूर्ण दस्तावेज़ कहां मिल सकते हैं?
  संपूर्ण दस्तावेज़ पाया जा सकता है[यहाँ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

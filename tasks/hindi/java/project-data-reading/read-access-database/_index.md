@@ -3,10 +3,16 @@ title: Aspose.Tasks में एमएस एक्सेस डेटाबे
 linktitle: Aspose.Tasks के साथ Microsoft Access डेटाबेस से प्रोजेक्ट डेटा पढ़ना
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके Microsoft Access डेटाबेस से MS प्रोजेक्ट डेटा को पढ़ना सीखें। निर्बाध एकीकरण के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 11
 url: /hi/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में एमएस एक्सेस डेटाबेस से प्रोजेक्ट डेटा पढ़ना
+
 ## परिचय
 जावा के लिए Aspose.Tasks एक शक्तिशाली एपीआई है जो डेवलपर्स को जावा अनुप्रयोगों में माइक्रोसॉफ्ट प्रोजेक्ट फ़ाइलों के साथ निर्बाध रूप से काम करने की अनुमति देता है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके Microsoft Access डेटाबेस से MS प्रोजेक्ट डेटा पढ़ने पर ध्यान केंद्रित करेंगे।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
  उ: आपको कुछ उन्नत सुविधाओं के लिए अस्थायी लाइसेंस की आवश्यकता हो सकती है। से प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  उ: आप जावा के लिए Aspose.Tasks यहां से खरीद सकते हैं[इस लिंक](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

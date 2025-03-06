@@ -3,10 +3,16 @@ title: Nhận giờ làm việc từ Lịch bằng Aspose.Tasks
 linktitle: Nhận giờ làm việc từ Lịch bằng Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Dễ dàng trích xuất giờ làm việc từ lịch MS Project bằng Aspose.Tasks cho Java. Đơn giản hóa nhiệm vụ quản lý dự án.
-type: docs
 weight: 13
 url: /vi/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận giờ làm việc từ Lịch bằng Aspose.Tasks
+
 ## Giới thiệu
 Quản lý lịch dự án và trích xuất giờ làm việc là điều cần thiết để quản lý dự án hiệu quả. Aspose.Tasks for Java cung cấp chức năng mạnh mẽ để truy xuất giờ làm việc từ lịch MS Project một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Trả lời: Có, bạn có thể dễ dàng tùy chỉnh giờ làm việc và 
 Trả lời: Có, Aspose.Tasks for Java cung cấp tài liệu phong phú và các diễn đàn hỗ trợ chuyên dụng để hỗ trợ các nhà phát triển sử dụng các tính năng của nó một cách hiệu quả.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
  Trả lời: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Tasks cho Java từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks için MS Project'te Yazı Tipi Düzenleme
 linktitle: Aspose.Tasks'ta Yazı Tipi Kaydetme Argümanları
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarındaki yazı tiplerini nasıl değiştireceğinizi öğrenin. Geliştiriciler için adım adım kılavuz.
-type: docs
 weight: 19
 url: /tr/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için MS Project'te Yazı Tipi Düzenleme
+
 ## giriiş
 MS Project belgelerindeki yazı tiplerini değiştirmek için Aspose.Tasks for .NET kullanımına ilişkin kapsamlı eğitimimize hoş geldiniz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerini okuma, yazma ve değiştirme gibi görevler için çok çeşitli işlevler sağlayan güçlü bir kitaplıktır.
 Bu eğitimde, özellikle Aspose.Tasks for .NET kullanarak yazı tiplerini MS Project dosyalarına kaydetmeye odaklanacağız. Yazı tipi kaydetme özelliklerini .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilmenizi sağlamak için süreci takip edilmesi kolay adımlara ayıracağız.
@@ -72,3 +78,9 @@ Evet, Aspose.Tasks for .NET, MS Project dosyalarının görevler, kaynaklar ve t
 Evet, Aspose.Tasks for .NET, .NET çerçevesi kullanılarak geliştirilen hem masaüstü hem de web uygulamalarında kullanılabilir.
 ### Aspose.Tasks for .NET için ek destek ve kaynakları nerede bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) destek için aşağıdaki belgelere erişin:[dokümantasyon sayfası](https://reference.aspose.com/tasks/net/)Aspose.Tasks web sitesindeki eğitimleri ve örnekleri keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

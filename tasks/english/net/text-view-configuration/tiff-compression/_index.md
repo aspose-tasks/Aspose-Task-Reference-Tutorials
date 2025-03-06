@@ -3,10 +3,16 @@ title: Tiff Compression Guide in Aspose.Tasks
 linktitle: Choosing Tiff Compression in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the power of Aspose.Tasks for .NET in choosing Tiff compression. Follow our step-by-step guide for efficient project visualization.
-type: docs
 weight: 12
 url: /net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tiff Compression Guide in Aspose.Tasks
+
 ## Introduction
 In the realm of project management and task tracking, Aspose.Tasks for .NET emerges as a powerful tool. With its robust features, it provides an efficient way to manage projects seamlessly. One notable feature is the ability to render projects in TIFF format, offering a versatile solution for visualizing project data. In this tutorial, we will delve into the process of choosing Tiff compression in Aspose.Tasks using the .NET framework. Let's embark on this journey step by step, ensuring a smooth understanding of the process.
 ## Prerequisites
@@ -56,3 +62,10 @@ Certainly! You can access the free trial version [here](https://releases.aspose.
 For any queries or discussions, visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 ### How can I obtain a temporary license for Aspose.Tasks?
 To get a temporary license, visit the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

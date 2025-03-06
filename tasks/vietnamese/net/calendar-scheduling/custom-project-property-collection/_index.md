@@ -3,10 +3,16 @@ title: Quản lý Bộ sưu tập thuộc tính dự án tùy chỉnh trong Aspo
 linktitle: Quản lý Bộ sưu tập thuộc tính dự án tùy chỉnh trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý hiệu quả các thuộc tính dự án tùy chỉnh trong Aspose.Tasks for .NET, nâng cao trải nghiệm quản lý dự án của bạn.
-type: docs
 weight: 24
 url: /vi/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý Bộ sưu tập thuộc tính dự án tùy chỉnh trong Aspose.Tasks
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao trải nghiệm quản lý dự án của mình với Aspose.Tasks cho .NET chưa? Quản lý thuộc tính dự án tùy chỉnh là một khía cạnh quan trọng của quản lý dự án, cho phép bạn thêm siêu dữ liệu cụ thể phù hợp với yêu cầu của dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể làm việc hiệu quả với các bộ sưu tập thuộc tính dự án tùy chỉnh bằng cách sử dụng Aspose.Tasks cho .NET.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời từ tr
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ hoặc trợ giúp thêm về Aspose.Tasks cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

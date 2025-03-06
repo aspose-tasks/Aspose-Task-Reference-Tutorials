@@ -3,10 +3,16 @@ title: قم بإنشاء رابط مهام عبر المشروعات في Aspose
 linktitle: قم بإنشاء رابط مهام عبر المشروعات في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعزيز التعاون في المشروع باستخدام Aspose.Tasks لـ Java. تعلم كيفية إنشاء روابط المهام عبر المشروعات خطوة بخطوة. تعزيز الكفاءة الآن!
-type: docs
 weight: 10
 url: /ar/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء رابط مهام عبر المشروعات في Aspose.Tasks
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، تعد الكفاءة والتعاون أمرًا بالغ الأهمية. يوفر Aspose.Tasks for Java حلاً قويًا لتعزيز قدرات إدارة مشروعك. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء روابط المهام عبر المشروعات باستخدام Aspose.Tasks لـ Java. سيزودك هذا الدليل التفصيلي بالمهارات اللازمة لربط المهام بسلاسة عبر المشاريع المختلفة، مما يعزز التنسيق المحسن وسير العمل المبسط.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ System.out.println("Process completed Successfully");
 نعم، يمكنك إلغاء ربط المهام عن طريق إزالة رابط المهمة باستخدام طرق Aspose.Tasks المناسبة.
 ### هل هناك أي قيود على عدد المهام التي يمكن ربطها عبر المشاريع؟
 يخضع عدد المهام التي يمكن ربطها لإمكانيات وقيود ترخيص Aspose.Tasks الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

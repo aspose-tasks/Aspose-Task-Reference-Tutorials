@@ -3,10 +3,16 @@ title: Verschillende soorten basislijnen in Aspose.Tasks
 linktitle: Verschillende soorten basislijnen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer projectbasislijnen efficiënt in te stellen en te manipuleren met Aspose.Tasks voor .NET.
-type: docs
 weight: 21
 url: /nl/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verschillende soorten basislijnen in Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van projectmanagement zijn precisie en vooruitziendheid van het grootste belang. Aspose.Tasks voor .NET biedt een robuuste toolkit voor het efficiënt beheren van projectgegevens, waardoor gebruikers zich kunnen verdiepen in verschillende aspecten van projectplanning, tracking en uitvoering. Een cruciale functie van Aspose.Tasks is de mogelijkheid om basislijnen vast te stellen, die dienen als referentiepunten voor het meten van de projectvoortgang ten opzichte van de initiële plannen.
@@ -82,3 +88,9 @@ A4: Aspose.Tasks biedt uitgebreide documentatie en ondersteuningsforums om ontwi
 ### V5: Kan ik Aspose.Tasks uitproberen voordat ik een aankoop doe?
 
 A5: Ja, u kunt Aspose.Tasks verkennen via een gratis proefversie die beschikbaar is op de website, zodat u de mogelijkheden uit de eerste hand kunt ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

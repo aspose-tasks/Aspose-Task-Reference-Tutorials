@@ -3,10 +3,16 @@ title: Dừng và tiếp tục tác vụ trong Aspose.Tasks
 linktitle: Dừng và tiếp tục tác vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks dành cho Java với hướng dẫn từng bước của chúng tôi về cách dừng và tiếp tục các tác vụ. Tăng cường quản lý dự án một cách liền mạch!
-type: docs
 weight: 30
 url: /vi/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dừng và tiếp tục tác vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc quản lý các tác vụ một cách hiệu quả là một khía cạnh quan trọng trong việc thực hiện dự án. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để xử lý các tác vụ với các tính năng mạnh mẽ của nó. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một chức năng cụ thể - dừng và tiếp tục các tác vụ. Bằng cách làm theo hướng dẫn từng bước này, bạn sẽ có thể tích hợp liền mạch tính năng này vào các dự án Java của mình.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Có, ví dụ được cung cấp cho phép linh hoạt trong việc đặt ngà
  Có, bạn có thể truy cập[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng trước khi mua hàng.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho Java?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

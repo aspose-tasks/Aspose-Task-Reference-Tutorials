@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的成本應計類型
 linktitle: Aspose.Tasks 中的成本應計類型
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效管理專案成本。定義成本應計類型以準確追蹤預算。
-type: docs
 weight: 19
 url: /zh-hant/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的成本應計類型
+
 ## 介紹
 
 在專案管理中，準確追蹤成本對於維持預算控制和確保專案成功至關重要。 Aspose.Tasks for .NET 提供了一套強大的工具來管理專案成本，包括定義不同成本應計類型的能力。本教學將引導您完成使用 Aspose.Tasks for .NET 來理解和實作成本應計類型的過程。
@@ -86,3 +92,9 @@ A4：是的，您可以為專案中的每個任務和資源單獨設定成本應
 ### Q5：Aspose.Tasks for .NET 支援自訂成本應計類型嗎？
 
 A5：從最新版本開始，Aspose.Tasks for .NET 不支援定義自訂成本應計類型。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

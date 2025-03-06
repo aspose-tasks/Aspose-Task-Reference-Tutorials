@@ -3,10 +3,16 @@ title: Opanuj metody projektów MS o wartości wypracowanej za pomocą Aspose.Ta
 linktitle: Typy metod wartości wypracowanej w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Opanuj typy metod projektów MS o wartości wypracowanej za pomocą Aspose.Tasks dla .NET. Bez wysiłku zwiększ efektywność zarządzania projektami.
-type: docs
 weight: 10
 url: /pl/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanuj metody projektów MS o wartości wypracowanej za pomocą Aspose.Tasks
+
 ## Wstęp
 zarządzaniu projektami wykorzystanie odpowiednich narzędzi i metodologii ma kluczowe znaczenie dla osiągnięcia sukcesu. Aspose.Tasks dla .NET zapewnia solidną platformę do efektywnego zarządzania zadaniami związanymi z projektami. Jednym z takich kluczowych aspektów jest wykorzystanie metod zarządzania wartością wypracowaną (EVM), które zapewniają wgląd w wyniki projektu poprzez porównanie planowanej pracy z faktycznie wykonaną pracą. W tym samouczku zagłębimy się w zrozumienie i wdrożenie typów metod MS Project o wartości wypracowanej przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -53,3 +59,9 @@ Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks dla .N
  O: Tak, dostępne są licencje tymczasowe dla Aspose.Tasks dla .NET. Można je uzyskać od:[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 ### P: Gdzie mogę kupić Aspose.Tasks dla .NET?
  O: Możesz kupić Aspose.Tasks dla .NET na stronie internetowej:[Zakup](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

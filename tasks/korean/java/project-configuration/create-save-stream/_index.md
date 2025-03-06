@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 스트리밍할 빈 프로젝트 생성 및 저장
 linktitle: Aspose.Tasks에서 스트리밍할 빈 프로젝트 생성 및 저장
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 빈 MS 프로젝트 파일을 생성하고 Java 스트림에 저장하여 프로젝트 관리 작업을 쉽게 단순화하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 스트리밍할 빈 프로젝트 생성 및 저장
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.Tasks를 활용하여 빈 MS 프로젝트를 생성하고 스트림에 저장하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 컴퓨터에 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 Java API입니다. 이 가이드를 따르면 Aspose.Tasks를 사용하여 빈 MS 프로젝트 파일을 만들고 저장하는 데 필요한 단계를 배우게 됩니다.
 ## 전제조건
@@ -69,3 +75,9 @@ System.out.println("Project file generated Successfully");
  커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks에 대한 임시 라이선스를 구입할 수 있나요?
  예, 임시 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

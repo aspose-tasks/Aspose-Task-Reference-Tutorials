@@ -3,10 +3,16 @@ title: 프로젝트 파일 작업
 linktitle: 프로젝트 파일 작업
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 레이아웃을 손쉽게 최적화하세요. 간격 줄이기, 데이터 렌더링, 달력 교체 등에 대한 단계별 튜토리얼을 알아보세요.
-type: docs
 weight: 29
 url: /ko/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프로젝트 파일 작업
+
 ## 소개
 Java 프로젝트 관리 기능을 향상시키고 싶으십니까? 다양한 프로젝트 파일 작업에 초점을 맞춘 Aspose.Tasks for Java에 대한 포괄적인 튜토리얼을 살펴보세요. 작업 목록의 공백을 줄이는 것부터 MS 프로젝트 보기 사용자 정의에 이르기까지 모든 것을 다룹니다.
 
@@ -94,3 +100,9 @@ Aspose.Tasks for Java를 사용하여 손쉽게 사용자 정의 MS 프로젝트
 Aspose.Tasks for Java에서 평일 속성을 효율적으로 관리하는 방법을 알아보세요. 한 주의 시작 날짜, 월별 날짜 등을 쉽게 사용자 정의하세요.
 ### [Aspose.Tasks에 MPP 프로젝트 요약 작성](./write-mpp-project-summary/)
 Aspose.Tasks를 사용하여 Java로 MPP 프로젝트 요약을 작성하는 방법을 알아보세요. 프로젝트 정보를 쉽게 설정하고 검색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

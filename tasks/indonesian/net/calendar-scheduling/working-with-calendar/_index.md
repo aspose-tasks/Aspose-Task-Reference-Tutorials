@@ -3,10 +3,16 @@ title: Bekerja dengan Kalender di Aspose.Tasks
 linktitle: Bekerja dengan Kalender di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kelola kalender proyek, hitung durasi, tangani pengecualian dengan mudah menggunakan Aspose.Tasks untuk .NET.
-type: docs
 weight: 10
 url: /id/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Kalender di Aspose.Tasks
+
 ## Perkenalan
 
 Aspose.Tasks untuk .NET menyediakan fitur canggih untuk bekerja dengan kalender, memungkinkan pengembang mengelola jadwal proyek dan alokasi sumber daya secara efisien. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk berinteraksi dengan kalender, mencakup operasi penting seperti mengambil informasi kalender, menentukan minggu kerja, menghitung jam kerja, dan banyak lagi.
@@ -497,3 +503,9 @@ A4: Ya, Anda dapat membuat kalender khusus seperti kalender shift malam mengguna
 ### Q5: Dapatkah saya mengambil informasi tentang pengecualian kalender dari file proyek?
 
 A5: Ya, Anda dapat dengan mudah mengambil informasi tentang pengecualian kalender dari file proyek menggunakan Aspose.Tasks untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

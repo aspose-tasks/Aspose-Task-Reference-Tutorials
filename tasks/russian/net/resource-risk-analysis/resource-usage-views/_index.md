@@ -3,10 +3,16 @@ title: Настройка представлений использования 
 linktitle: Настройка представлений использования ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить представления использования ресурсов MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство с примерами кода включено.
-type: docs
 weight: 15
 url: /ru/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка представлений использования ресурсов MS Project в Aspose.Tasks
+
 ## Введение
 Microsoft Project (MS Project) — мощный инструмент управления проектами, позволяющий пользователям эффективно планировать, выполнять и отслеживать свои проекты. Aspose.Tasks для .NET обеспечивает бесшовную интеграцию с файлами MS Project, позволяя разработчикам программно манипулировать данными проекта. В этом руководстве мы рассмотрим, как настроить представления использования ресурсов MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -58,3 +64,9 @@ project.Save(DataDir + "ResourceUsage_days_out.pdf", options);
  О: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любых вопросов, обсуждений или потребностей в поддержке.
 ### Вопрос: Могу ли я попробовать Aspose.Tasks перед покупкой?
  О: Конечно, вы можете изучить Aspose.Tasks, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

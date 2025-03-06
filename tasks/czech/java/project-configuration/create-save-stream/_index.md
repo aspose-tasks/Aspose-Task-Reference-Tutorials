@@ -3,10 +3,16 @@ title: Vytvořte a uložte prázdný projekt pro streamování v Aspose.Tasks
 linktitle: Vytvořte a uložte prázdný projekt pro streamování v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se vytvářet a ukládat prázdné soubory MS Project do streamu v Javě pomocí Aspose.Tasks, což zjednodušuje úkoly projektového řízení bez námahy.
-type: docs
 weight: 13
 url: /cs/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte a uložte prázdný projekt pro streamování v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks pro Javu k vytvoření a uložení prázdného MS Project do streamu. Aspose.Tasks je výkonné Java API, které umožňuje vývojářům pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project do počítače. Podle tohoto průvodce se naučíte nezbytné kroky k vytvoření a uložení prázdného souboru MS Project pomocí Aspose.Tasks.
 ## Předpoklady
@@ -69,3 +75,9 @@ Ano, Aspose.Tasks podporuje více programovacích jazyků včetně .NET, C++a Ja
  Podporu můžete získat na komunitním fóru[tady](https://forum.aspose.com/c/tasks/15).
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Tasks?
  Ano, dočasné licence je možné zakoupit[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

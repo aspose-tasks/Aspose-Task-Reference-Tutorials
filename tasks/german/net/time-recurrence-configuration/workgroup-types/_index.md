@@ -3,10 +3,16 @@ title: Mühelose Arbeitsgruppenverwaltung mit Aspose.Tasks für .NET
 linktitle: Umgang mit Arbeitsgruppentypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET, um Arbeitsgruppentypen in Ihrem Projekt mühelos zu verwalten. Optimieren Sie die Ressourcenzuteilung und verbessern Sie das Projektmanagement.
-type: docs
 weight: 12
 url: /de/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mühelose Arbeitsgruppenverwaltung mit Aspose.Tasks für .NET
+
 ## Einführung
 Aspose.Tasks für .NET bietet eine robuste Lösung für den Umgang mit Arbeitsgruppentypen in Projektmanagementszenarien. Die effiziente Verwaltung von Arbeitsgruppen ist entscheidend für die Optimierung der Ressourcenzuweisung und die Gewährleistung einer reibungslosen Projektabwicklung. In diesem Tutorial befassen wir uns mit dem Umgang mit Arbeitsgruppentypen mithilfe von Aspose.Tasks und bieten eine Schritt-für-Schritt-Anleitung.
 ## Voraussetzungen
@@ -46,3 +52,9 @@ Ja, Sie können in verschiedenen Phasen Ihres Projekts unterschiedliche Arbeitsg
  Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

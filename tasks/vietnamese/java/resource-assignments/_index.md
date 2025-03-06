@@ -3,10 +3,16 @@ title: Phân công tài nguyên
 linktitle: Phân công tài nguyên
 second_title: API Java Aspose.Tasks
 description: Dễ dàng thành thạo Aspose.Tasks cho Java với các hướng dẫn gán tài nguyên của chúng tôi. Quản lý thao tác MS Project, ngân sách phân công, chi phí, v.v.
-type: docs
 weight: 30
 url: /vi/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân công tài nguyên
+
 
 ## Giới thiệu
 
@@ -101,3 +107,9 @@ Tìm hiểu cách quản lý ghi chú cho các bài tập tài nguyên trong Asp
 Tìm hiểu cách quản lý việc gán tài nguyên một cách hiệu quả trong Aspose.Tasks cho Java với hướng dẫn từng bước này.
 ### [Tạo dữ liệu theo pha thời gian trong Aspose.Tasks](./timephased-data-generation/)
 Tìm hiểu cách tạo dữ liệu theo pha thời gian cho các nhiệm vụ tài nguyên bằng Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

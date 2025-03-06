@@ -3,10 +3,16 @@ title: Schrijf bijgewerkte brongegevens in Aspose.Tasks
 linktitle: Schrijf bijgewerkte brongegevens in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u moeiteloos brongegevens in MS Project-bestanden kunt bijwerken met Aspose.Tasks voor Java.
-type: docs
 weight: 21
 url: /nl/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schrijf bijgewerkte brongegevens in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het bijwerken van Microsoft Project-brongegevens met Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java API waarmee u Microsoft Project-bestanden kunt manipuleren zonder dat Microsoft Project op uw systeem hoeft te worden geïnstalleerd.
 
@@ -98,3 +104,10 @@ A4: Ja, u kunt een breed scala aan bewerkingen uitvoeren, zoals lezen, schrijven
 ### V5: Waar kan ik aanvullende hulp of ondersteuning vinden voor Aspose.Tasks?
 
  A5: U kunt de bezoeken[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor eventuele hulp of vragen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

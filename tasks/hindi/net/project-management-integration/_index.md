@@ -3,10 +3,16 @@ title: Aspose.कार्य परियोजना प्रबंधन औ
 linktitle: Aspose.कार्य परियोजना प्रबंधन और एकीकरण
 second_title: Aspose.Tasks .NET API
 description: एमएस प्रोजेक्ट प्रबंधन, एकीकरण और अनुकूलन को कवर करने वाले .NET ट्यूटोरियल के लिए व्यापक Aspose.Tasks की खोज करें। अभी अपना प्रोजेक्ट प्रबंधन कौशल बढ़ाएँ!
-type: docs
 weight: 27
 url: /hi/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.कार्य परियोजना प्रबंधन और एकीकरण
+
 
 ## परिचय
 
@@ -62,3 +68,9 @@ url: /hi/net/project-management-integration/
 .NET के लिए Aspose.Tasks के साथ निर्बाध एमएस प्रोजेक्ट सर्वर प्रबंधन को अनलॉक करें। प्रोजेक्ट कार्यों को सहजता से स्वचालित करें।
 ### [Aspose.Tasks में MS प्रोजेक्ट दृश्य को अनुकूलित करना](./project-views/)
 .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट दृश्यों को अनुकूलित करना सीखें। कुशल परियोजना प्रबंधन विज़ुअलाइज़ेशन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kelola Mata Uang di Aspose. Tugas untuk Java
 linktitle: Mata uang
 second_title: Aspose.Tugas Java API
 description: Kelola kode mata uang, angka, dan simbol dengan mudah dalam file MS Project dengan Aspose.Tasks untuk Java. Sederhanakan manajemen proyek dengan tutorial yang mudah diikuti.
-type: docs
 weight: 22
 url: /id/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Mata Uang di Aspose. Tugas untuk Java
+
 
 ## Perkenalan
 
@@ -43,3 +49,9 @@ Pelajari cara mengelola mata uang kode Proyek MS secara efisien menggunakan Aspo
 Pelajari cara menangani digit mata uang MS Project secara efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah dengan contoh kode.
 ### [Manipulasi Simbol Mata Uang di Aspose.Tugas](./currency-symbols/)
 Pelajari cara memanipulasi simbol mata uang dalam file MS Project menggunakan Aspose.Tasks untuk Java. Langkah mudah untuk manajemen proyek yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

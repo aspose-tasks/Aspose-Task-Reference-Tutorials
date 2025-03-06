@@ -3,10 +3,16 @@ title: Salva come CSV, testo e modello in Aspose.Tasks
 linktitle: Salva come CSV, testo e modello in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come salvare i file di Microsoft Project nei formati CSV, testo e modello utilizzando Aspose.Tasks per Java.
-type: docs
 weight: 16
 url: /it/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva come CSV, testo e modello in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come salvare i file di progetto in vari formati come CSV, testo e modello utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di lavorare con file Microsoft Project senza la necessità di installare Microsoft Project.
 ## Prerequisiti
@@ -77,3 +83,9 @@ R: Assolutamente! Aspose.Tasks per Java può gestire facilmente progetti di vari
  R: Sì, puoi acquistare una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/), permettendoti di valutare tutte le potenzialità della libreria.
 ### D: Aspose.Tasks per Java è compatibile con diversi sistemi operativi?
 R: Sì, Aspose.Tasks per Java è compatibile con vari sistemi operativi, inclusi Windows, macOS e Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

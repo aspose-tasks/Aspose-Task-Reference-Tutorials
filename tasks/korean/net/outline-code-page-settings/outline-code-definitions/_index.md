@@ -3,10 +3,16 @@ title: Aspose.Tasks의 MS 프로젝트 개요 코드 처리 정의
 linktitle: Aspose.Tasks에서 개요 코드 정의 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 개요 코드 정의를 처리하고 프로젝트 관리 애플리케이션을 강화하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 MS 프로젝트 개요 코드 처리 정의
+
 ## 소개
 Microsoft Project는 프로젝트 관리를 위한 강력한 도구이며 Aspose.Tasks for .NET은 프로젝트 파일을 프로그래밍 방식으로 조작하기 위한 포괄적인 지원을 제공합니다. 프로젝트 관리의 필수 측면 중 하나는 개요 코드를 사용하여 작업을 구성하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 개요 코드 정의를 처리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -91,3 +97,9 @@ A: 예, Aspose.Tasks for .NET은 할당 추가, 업데이트 및 제거를 포�
 A: 물론 .NET용 Aspose.Tasks는 MS 프로젝트 파일에서 개요 코드를 포함한 사용자 정의 필드 읽기 및 쓰기를 지원합니다.
 ### Q5: Aspose.Tasks for .NET에 대한 커뮤니티 포럼이 있습니까?
  A: 예, Aspose.Tasks for .NET 커뮤니티 포럼에 가입할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 질문하고, 지식을 공유하고, 다른 개발자와 협력할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

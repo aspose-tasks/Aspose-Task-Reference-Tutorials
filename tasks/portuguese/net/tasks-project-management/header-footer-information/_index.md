@@ -3,10 +3,16 @@ title: Extraia informações de cabeçalho e rodapé com Aspose.Tasks
 linktitle: Informações de cabeçalho e rodapé em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a extrair informações de cabeçalho e rodapé de arquivos do MS Project usando Aspose.Tasks for .NET. Solução fácil, eficiente e amigável ao desenvolvedor.
-type: docs
 weight: 29
 url: /pt/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraia informações de cabeçalho e rodapé com Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for .NET é uma biblioteca poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project com facilidade. Neste tutorial, aprenderemos como recuperar informações de cabeçalho e rodapé de arquivos do MS Project usando Aspose.Tasks.
 ## Pré-requisitos
@@ -70,3 +76,9 @@ Sim, Aspose.Tasks oferece suporte a vários formatos de arquivo de projeto, incl
  Você pode encontrar a documentação para Aspose.Tasks[aqui](https://reference.aspose.com/tasks/net/).
 ### Como posso obter suporte para Aspose.Tasks?
  Você pode obter suporte para Aspose.Tasks visitando o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

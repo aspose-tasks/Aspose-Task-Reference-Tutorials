@@ -3,10 +3,16 @@ title: Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Asp
 linktitle: Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loại ngày bắt đầu nhiệm vụ. Tối ưu hóa quản lý dự án một cách dễ dàng. Tải về dùng thử ngay!
-type: docs
 weight: 23
 url: /vi/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks
+
 Trong thế giới năng động của quản lý dự án, việc thiết lập ngày bắt đầu phù hợp cho các nhiệm vụ là rất quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để định cấu hình các loại ngày bắt đầu tác vụ một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ quy trình thành các bước đơn giản để đảm bảo tích hợp liền mạch.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cấu hình các loại ngày bắt đầu nhiệm vụ, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
@@ -52,3 +58,9 @@ Có, bạn có thể tùy chỉnh ngày bắt đầu cho từng tác vụ riêng
  Tham khảo tài liệu[đây](https://reference.aspose.com/tasks/net/) để biết thông tin chuyên sâu về Aspose.Tasks cho .NET.
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.Tasks không?
  Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

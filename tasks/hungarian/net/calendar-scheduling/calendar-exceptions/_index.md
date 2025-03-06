@@ -3,10 +3,16 @@ title: A naptári kivételek kezelése az Aspose.Tasks-ban
 linktitle: A naptári kivételek kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a naptárkivételeket az Aspose.Tasks for .NET programban lépésenkénti oktatóanyagok és példák segítségével.
-type: docs
 weight: 12
 url: /hu/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A naptári kivételek kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelhetjük a naptárkivételeket az Aspose.Tasks programban a .NET keretrendszer használatával. A naptári kivételek lehetővé teszik számunkra, hogy különleges dátumokat vagy időszakokat határozzunk meg a projektnaptárban, amikor a szokásos munkarend megváltozik, például ünnepnapok vagy ideiglenes bezárások. A naptárkivételek kezelésének különféle módszereit ismertetjük lépésről lépésre az Aspose.Tasks for .NET használatával.
@@ -156,3 +162,9 @@ A4. válasz: Az Aspose.Tasks különféle típusú kivételeket támogat, beleé
 ### 5. kérdés: Testreszabhatom a munkaidőt bizonyos kivételes dátumokhoz?
 
 5. válasz: Igen, egyéni munkaidőket határozhat meg az egyes kivételdátumokhoz az Aspose.Tasks által biztosított megfelelő módszerekkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

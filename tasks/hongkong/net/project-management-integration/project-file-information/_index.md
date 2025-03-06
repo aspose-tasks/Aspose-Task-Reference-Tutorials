@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中檢索 MS 專案文件信息
 linktitle: 在 Aspose.Tasks 中檢索項目文件資訊
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 擷取 Microsoft Project 檔案資訊。帶有程式碼範例的分步指南。
-type: docs
 weight: 19
 url: /zh-hant/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中檢索 MS 專案文件信息
+
 ## 介紹
 歡迎閱讀我們使用 Aspose.Tasks for .NET 擷取 Microsoft Project 檔案資訊的逐步指南。 Aspose.Tasks 是一個功能強大的函式庫，可讓 .NET 開發人員以程式設計方式處理 Microsoft Project 文件，從而實現讀取、寫入和操作項目資料等任務。
 ## 先決條件
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 是的，您可以免費試用 Aspose.Tasks[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡獲得 Aspose.Tasks 的支援？
 您可以透過以下方式獲得對 Aspose.Tasks 的支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).## 完整原始碼
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

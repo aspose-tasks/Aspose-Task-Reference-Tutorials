@@ -3,10 +3,16 @@ title: Beheer van taakgebruiksweergaven in Aspose.Tasks voor .NET
 linktitle: Taakgebruiksweergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET en leer hoe u taakgebruiksweergaven configureert. Pas de tijdschaalinstellingen aan en verbeter de visuals van uw projectmanagement.
-type: docs
 weight: 24
 url: /nl/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer van taakgebruiksweergaven in Aspose.Tasks voor .NET
+
 ## Invoering
 Op het gebied van projectmanagement is het visualiseren van taakgebruik cruciaal voor effectieve planning en uitvoering. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het weergeven van weergaven van taakgebruik, waardoor u tijdschaalinstellingen en presentatie-indelingen kunt aanpassen. In deze zelfstudie doorlopen we de stappen voor het configureren van taakgebruiksweergaven met Aspose.Tasks.
 ## Vereisten
@@ -75,3 +81,9 @@ Ja, Aspose.Tasks ondersteunt populaire projectbestandsindelingen zoals MPP, XML 
 Absoluut, u kunt de tijdschaalinstellingen voor individuele taken binnen uw project aanpassen.
 ### Hoe kan ik ondersteuning krijgen of hulp zoeken voor Aspose.Tasks?
  Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

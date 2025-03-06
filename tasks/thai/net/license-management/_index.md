@@ -3,10 +3,16 @@ title: Aspose.Tasks การจัดการใบอนุญาต
 linktitle: Aspose.Tasks การจัดการใบอนุญาต
 second_title: Aspose.Tasks .NET API
 description: ปลดล็อกพลังของ Aspose.Tasks สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมของเรา จัดการใบอนุญาตและเพิ่มประสิทธิภาพการใช้งาน MS Project เพื่อการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 36
 url: /th/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks การจัดการใบอนุญาต
+
 
 ## การแนะนำ
 
@@ -35,3 +41,9 @@ url: /th/net/license-management/
 เรียนรู้วิธีจัดการสิทธิ์การใช้งาน Aspose.Tasks ในแอปพลิเคชัน .NET ได้อย่างราบรื่นโดยใช้แนวทางแบบไฟล์หรือแบบสตรีม
 ### [การใช้การวัดแสงใน Aspose.Tasks](./metering-usage/)
 เรียนรู้วิธีการตรวจสอบและเพิ่มประสิทธิภาพการใช้งาน MS Project ของคุณด้วย Aspose.Tasks for .NET ได้อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนเพื่อการจัดการโครงการที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

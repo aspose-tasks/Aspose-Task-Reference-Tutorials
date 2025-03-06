@@ -3,10 +3,16 @@ title: Průvodce přizpůsobením typu textové položky v Aspose.Tasks
 linktitle: Manipulace s typy textových položek v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ovládněte přizpůsobení typu textové položky v Aspose.Tasks pro .NET pomocí tohoto podrobného průvodce. Zvyšte svou hru projektového řízení bez námahy.
-type: docs
 weight: 10
 url: /cs/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Průvodce přizpůsobením typu textové položky v Aspose.Tasks
+
 ## Úvod
 Pokud jste vývojář .NET, který se ponoří do projektového řízení pomocí Aspose.Tasks, jste na správném místě! V tomto podrobném průvodci prozkoumáme složitosti manipulace s typy textových položek v Aspose.Tasks a zaměříme se na přizpůsobení pomocí výkonné knihovny .NET.
 ## Předpoklady
@@ -74,3 +80,9 @@ Gratulujeme! Právě jste poškrábali povrch manipulace s typy textových polo�
 Odpověď: Prozkoumejte další výukové programy v dokumentaci Aspose.Tasks.
 ### Otázka: Kde mohu zakoupit Aspose.Tasks pro .NET?
  A: Kupte si knihovnu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

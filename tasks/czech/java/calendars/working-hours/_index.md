@@ -3,10 +3,16 @@ title: Získejte pracovní dobu z kalendáře pomocí Aspose.Tasks
 linktitle: Získejte pracovní dobu z kalendáře pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Extrahujte pracovní dobu z kalendářů MS Project snadno pomocí Aspose.Tasks pro Javu. Zjednodušte úkoly projektového řízení.
-type: docs
 weight: 13
 url: /cs/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte pracovní dobu z kalendáře pomocí Aspose.Tasks
+
 ## Úvod
 Správa projektových kalendářů a extrahování pracovní doby je zásadní pro efektivní řízení projektu. Aspose.Tasks for Java poskytuje robustní funkce pro snadné načítání pracovní doby z kalendářů MS Project. V tomto tutoriálu vás provedeme procesem krok za krokem.
 ## Předpoklady
@@ -83,3 +89,9 @@ Odpověď: Ano, pomocí Aspose.Tasks for Java API můžete snadno přizpůsobit 
 Odpověď: Ano, Aspose.Tasks for Java poskytuje rozsáhlou dokumentaci a vyhrazená fóra podpory, která vývojářům pomáhají efektivně využívat jeho funkce.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro Javu?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks for Java z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

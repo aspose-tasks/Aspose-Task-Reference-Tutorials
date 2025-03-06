@@ -3,10 +3,16 @@ title: จัดการเกณฑ์กลุ่มโครงการ MS 
 linktitle: การจัดการการรวบรวมเกณฑ์กลุ่มใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการคอลเลกชัน Group Criterion MS Project โดยใช้ Aspose.Tasks สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
-type: docs
 weight: 28
 url: /th/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการเกณฑ์กลุ่มโครงการ MS ด้วย Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็น API ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการคอลเลกชัน Group Criterion ภายใน MS Project โดยใช้ Aspose.Tasks
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### คำถามที่ 5: ฉันจะได้รับความช่วยเหลือได้อย่างไรหากฉันประสบปัญหาใดๆ
 
  ตอบ: หากคุณมีคำถามหรือประสบปัญหาใดๆ คุณสามารถขอรับการสนับสนุนจากฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

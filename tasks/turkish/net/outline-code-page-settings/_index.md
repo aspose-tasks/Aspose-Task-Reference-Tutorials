@@ -3,10 +3,16 @@ title: Aspose.Tasks Anahat Kodu ve Sayfa Ayarları
 linktitle: Aspose.Tasks Anahat Kodu ve Sayfa Ayarları
 second_title: Aspose.Tasks .NET API'si
 description: Anahat kodları, koleksiyon, tanımlar, maskeler ve sayfa ayarlarıyla ilgili eğitimlerle Aspose.Tasks for .NET konusunda uzmanlaşın. Proje organizasyonunu ve özelleştirmeyi geliştirin.
-type: docs
 weight: 25
 url: /tr/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Anahat Kodu ve Sayfa Ayarları
+
 ## giriiş
 Aspose.Tasks for .NET ile kusursuz proje yönetimi dünyasına hoş geldiniz! Hassasiyet ve verimliliğin tartışmasız olduğu bu dijital çağda, Microsoft Project'in inceliklerinde ustalaşmak oyunun kurallarını değiştiriyor. Kapsamlı eğitim serimiz Aspose.Tasks for .NET'in nüansları konusunda size rehberlik edecek ve anahat kodlarını zahmetsizce yönetmenizi, veri tanımlarını değiştirmenizi, maskeler ve değerlerle çalışmanızı ve sayfa ayarlarını özelleştirmenizi sağlayacak. İster deneyimli bir proje yöneticisi olun ister alana yeni başlayan biri olun, eğitimlerimiz tüm beceri düzeylerine hitap eder ve adım adım talimatlar ve kod örnekleri sağlar. Proje organizasyonu ve özelleştirme yaklaşımınızda devrim yaratan Aspose.Tasks'ın tüm potansiyelini ortaya çıkarmak için bu yolculukta bize katılın. Gelin proje yönetimi becerilerinizi yeni boyutlara taşıyalım ve yükseltelim!
 ## Aspose.Tasks for .NET ile Anahat Kodlarını Yönetme
@@ -71,3 +77,9 @@ Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki sayfa kenar
 Aspose.Tasks for .NET'i kullanarak MS Project sayfa ayarlarını nasıl yapılandıracağınızı öğrenin. Yönü, boyutu ve daha fazlasını basit adımlarla özelleştirin.
 ### [Aspose.Tasks'ta MS Project Sayfa Görünümü Ayarlarını Özelleştirin](./page-view-settings/)
 Microsoft Project belgelerinizin yazdırma formatını uyarlamak için Aspose.Tasks for .NET'te sayfa görüntüleme ayarlarını nasıl yapılandıracağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hantera MS Project Attribut effektivt med Aspose.Tasks
 linktitle: Hantera utökade resursattribut i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar utökade Microsoft Project-resursattribut effektivt med Aspose.Tasks för Java. Enkla steg & omfattande guide.
-type: docs
 weight: 11
 url: /sv/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Attribut effektivt med Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att fördjupa oss i hur man effektivt hanterar utökade resursattribut för Microsoft Project med Aspose.Tasks för Java. Aspose.Tasks är ett kraftfullt bibliotek som gör det möjligt för utvecklare att manipulera Microsoft Project-filer programmatiskt, och erbjuder omfattande funktioner för uppgifts- och resurshantering.
 ## Förutsättningar
@@ -83,3 +89,9 @@ Ja, utvecklare kan använda Aspose.Tasks för Java på olika plattformar, vilket
 Absolut, Aspose.Tasks kan integreras sömlöst med andra Java-bibliotek för att förbättra funktionaliteten och effektivisera utvecklingsprocesser.
 ### Finns teknisk support tillgänglig för Aspose.Tasks-användare?
 Ja, användare kan få tillgång till teknisk support via Aspose.Tasks-forumet, där de kan söka hjälp och engagera sig i samhället.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

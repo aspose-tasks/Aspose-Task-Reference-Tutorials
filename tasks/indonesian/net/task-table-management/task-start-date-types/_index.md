@@ -3,10 +3,16 @@ title: Mengonfigurasi Jenis Tanggal Mulai Tugas di Aspose.Tasks
 linktitle: Mengonfigurasi Jenis Tanggal Mulai Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET untuk mengonfigurasi jenis tanggal mulai tugas dengan mudah. Optimalkan manajemen proyek dengan mudah. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 23
 url: /id/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Jenis Tanggal Mulai Tugas di Aspose.Tasks
+
 Dalam dunia manajemen proyek yang dinamis, menetapkan tanggal mulai yang tepat untuk suatu tugas sangatlah penting. Aspose.Tasks untuk .NET memberikan solusi ampuh untuk mengonfigurasi jenis tanggal mulai tugas dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, memecahnya menjadi langkah-langkah sederhana untuk memastikan integrasi yang lancar.
 ## Prasyarat
 Sebelum mendalami konfigurasi jenis tanggal mulai tugas, pastikan Anda memiliki prasyarat berikut:
@@ -52,3 +58,9 @@ Ya, Anda dapat menyesuaikan tanggal mulai untuk setiap tugas satu per satu mengg
  Lihat dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/) untuk wawasan mendalam tentang Aspose.Tasks untuk .NET.
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.Tasks?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

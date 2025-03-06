@@ -3,10 +3,16 @@ title: Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
 linktitle: Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Datenbankeinstellungen mit Aspose.Tasks für eine nahtlose Integration in .NET-Anwendungen konfigurieren.
-type: docs
 weight: 19
 url: /de/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
+
 ## Einführung
 
 Wenn Sie mit Aspose.Tasks in Ihren .NET-Anwendungen mit Microsoft Project-Datenbanken arbeiten, müssen Sie die erforderlichen Einstellungen konfigurieren, um Projektdaten nahtlos zu importieren. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
@@ -99,3 +105,9 @@ A1: Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-D
 ### F5: Wo finde ich eine ausführlichere Dokumentation zur Verwendung von Aspose.Tasks?
 
  A5: Sie können die umfassende Dokumentation erkunden[Hier](https://reference.aspose.com/tasks/net/) für detaillierte Einblicke in die Funktionalitäten von Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

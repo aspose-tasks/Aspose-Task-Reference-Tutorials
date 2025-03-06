@@ -3,10 +3,16 @@ title: Aspose.Tasks Hız Yönetimi ve Tekrarlanan Görevler
 linktitle: Aspose.Tasks Hız Yönetimi ve Tekrarlanan Görevler
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks .NET ile MS Project hız yönetimi ve yinelenen görevlerde ustalaşın. Proje iş akışları için görevleri otomatikleştirmeyi, oranları yönetmeyi ve bölünmüş parçaları yönetmeyi öğrenin.
-type: docs
 weight: 28
 url: /tr/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Hız Yönetimi ve Tekrarlanan Görevler
+
 
 ## giriiş
 
@@ -67,3 +73,9 @@ Aspose.Tasks for .NET'i kullanarak MS Project dosyalarını çeşitli formatlard
 Aspose.Tasks for .NET ile MS Project'in bölünmüş parçalarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Proje yönetimi iş akışınızı geliştirin.
 ### [Aspose.Tasks'ta Bölünmüş Parçaların MS Projesini Toplayın](./split-part-collection/)
 Aspose.Tasks for .NET'i kullanarak MS Project'te bölünmüş parçaları nasıl toplayacağınızı öğrenin. Bu kapsamlı eğitim, süreç boyunca size adım adım rehberlik eder.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

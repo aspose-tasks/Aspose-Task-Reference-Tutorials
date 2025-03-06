@@ -3,10 +3,16 @@ title: Managing Assignment Baseline in Aspose.Tasks
 linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage assignment baselines efficiently with Aspose.Tasks for .NET, ensuring accurate tracking of project progress and performance.
-type: docs
 weight: 14
 url: /net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Assignment Baseline in Aspose.Tasks
+
 ## Introduction
 
 When working on project management tasks, managing assignment baselines is crucial for tracking progress accurately. Aspose.Tasks for .NET provides a comprehensive set of tools to handle assignment baselines efficiently. In this tutorial, we'll delve into the process of managing assignment baselines step by step.
@@ -123,3 +129,10 @@ A4: Yes, developers can access comprehensive documentation, tutorials, and forum
 ### Q5: Is there a trial version available for Aspose.Tasks for .NET?
 
 A5: Yes, developers can obtain a free trial version of Aspose.Tasks for .NET from [here](https://releases.aspose.com/), allowing them to evaluate its features and capabilities before making a purchase decision.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

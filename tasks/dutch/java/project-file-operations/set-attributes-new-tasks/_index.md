@@ -3,10 +3,16 @@ title: MS-projectkenmerken instellen voor nieuwe taken in Aspose.Tasks
 linktitle: Stel kenmerken in voor nieuwe taken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u MS Project-kenmerken instelt voor nieuwe taken met behulp van Aspose.Tasks voor Java. Pas taakeigenschappen moeiteloos aan met deze uitgebreide handleiding.
-type: docs
 weight: 21
 url: /nl/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS-projectkenmerken instellen voor nieuwe taken in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het instellen van MS Project-kenmerken voor nieuwe taken in Aspose.Tasks voor Java! In deze handleiding leiden we u stap voor stap door het proces, zodat u uw taken eenvoudig kunt beheren en aanpassen met deze krachtige Java-bibliotheek.
 ## Vereisten
@@ -68,3 +74,9 @@ A: Ja, Aspose.Tasks voor Java biedt uitgebreide functionaliteit voor het manipul
  A: Tijdelijke licenties voor Aspose.Tasks voor Java kunnen worden verkregen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik ondersteuning krijgen voor problemen of vragen met betrekking tot Aspose.Tasks voor Java?
  A: U kunt ondersteuning krijgen en communiceren met de gemeenschap op de[Aspose.Tasks voor Java-ondersteuningsforum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إدارة طرق عرض مشروع MS بسهولة باستخدام Aspo
 linktitle: مجموعة من طرق العرض في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET وأتقن فن إدارة طرق عرض MS Project دون عناء. قم بالتنزيل الآن للحصول على تجربة سلسة لإدارة المشاريع.
-type: docs
 weight: 11
 url: /ar/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة طرق عرض مشروع MS بسهولة باستخدام Aspose.Tasks .NET
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks for .NET، وهي مكتبة قوية تمكّن المطورين من إدارة Microsoft Project Views بكفاءة في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنتعمق في أساسيات التعامل مع طرق عرض MS Project باستخدام Aspose.Tasks، مما يوفر لك دليلًا خطوة بخطوة لتعزيز قدرات إدارة المشروع لديك.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ foreach (var v in array)
  شارك مع مجتمع Aspose.Tasks على[المنتدى](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مساعدة.
 ### هل التراخيص المؤقتة متاحة لـ Aspose.Tasks؟
  نعم، اكتشف التراخيص المؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

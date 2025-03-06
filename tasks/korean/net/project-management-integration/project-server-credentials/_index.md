@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS Project Server 자격 증명 관리
 linktitle: Aspose.Tasks에서 Project Server 자격 증명 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 원활하게 관리하는 방법을 알아보세요. 프로젝트 관리 효율성을 향상시킵니다.
-type: docs
 weight: 22
 url: /ko/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS Project Server 자격 증명 관리
+
 ## 소개
 프로젝트 관리 영역에서는 효과적인 조정과 원활한 의사소통이 성공적인 프로젝트 실행의 핵심입니다. Aspose.Tasks for .NET은 Microsoft Project Server 자격 증명을 관리하기 위한 포괄적인 솔루션을 제공하여 사용자가 프로젝트 데이터에 안전하게 액세스하고 조작할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 관리하는 프로세스를 자세히 살펴보고 사용자에게 원활한 경험을 보장하기 위한 각 단계를 안내합니다.
 ## 전제조건
@@ -83,3 +89,9 @@ A: 물론입니다. Aspose.Tasks for .NET은 프로젝트 리소스 액세스 �
 A: 예, Aspose.Tasks for .NET은 평가판 목적을 위한 임시 라이선스와 상업적 사용을 위한 전체 라이선스를 포함하여 유연한 라이선스 옵션을 제공합니다.
 ### Q: Aspose.Tasks for .NET에 대한 도움은 어디서 구할 수 있나요?
  A: Aspose.Tasks for .NET에 관한 질문이나 도움이 필요한 경우 다음 지원 포럼을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).## 완전한 소스 코드
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

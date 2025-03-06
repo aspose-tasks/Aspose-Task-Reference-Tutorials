@@ -3,10 +3,16 @@ title: اقرأ MS Project من Primavera باستخدام Aspose.Tasks لـ Jav
 linktitle: قراءة المشروع من بريمافيرا في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة ملفات MS Project من Primavera XML بسلاسة باستخدام Aspose.Tasks لـ Java. تعزيز كفاءة إدارة المشروع الخاص بك.
-type: docs
 weight: 20
 url: /ar/java/project-management/read-primavera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ MS Project من Primavera باستخدام Aspose.Tasks لـ Java
+
 ## مقدمة
 في إدارة المشاريع، تعد قابلية التشغيل البيني بين منصات البرامج المختلفة أمرًا بالغ الأهمية لسير العمل السلس. يوفر Aspose.Tasks for Java وظائف قوية لقراءة ملفات Microsoft Project من Primavera XML. سيرشدك هذا البرنامج التعليمي خلال عملية قراءة ملفات MS Project من Primavera باستخدام Aspose.Tasks لـ Java، مما يسمح لك بفحص خصائص Primavera الخاصة بالمهام بكفاءة.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ for (Task task : project.enumerateAllChildTasks()) {
 ج: نعم، يتيح لك Aspose.Tasks for Java استخراج معلومات الموارد بالإضافة إلى تفاصيل المهام من مشاريع Primavera.
 ### س: أين يمكنني العثور على دعم أو وثائق إضافية لـ Aspose.Tasks لـ Java؟
  ج: يمكنك العثور على وثائق شاملة والوصول إلى المنتديات للحصول على الدعم على[Aspose.Tasks لوثائق جافا](https://reference.aspose.com/tasks/java/) صفحة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء رابط المهمة في Aspose.Tasks
 linktitle: إنشاء رابط المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: افتح ربط المهام السلس في مشاريع Java باستخدام Aspose.Tasks. أتقن فن إنشاء روابط المهام من خلال دليلنا المفصّل خطوة بخطوة. التحميل الان!
-type: docs
 weight: 11
 url: /ar/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء رابط المهمة في Aspose.Tasks
+
 ## مقدمة
 يعد الارتباط الفعال للمهام أمرًا محوريًا لإدارة المشاريع المبسطة، ويوفر Aspose.Tasks for Java للمطورين أدوات قوية لتحقيق ذلك بسلاسة. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إتقان إنشاء رابط المهمة باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -57,3 +63,9 @@ System.out.println("Task Link Creation Process Completed Successfully");
 ج: نعم، تحقق من الوثائق الخاصة بنماذج المشروعات الشاملة ومقتطفات التعليمات البرمجية.
 ### س: ما هي الطريقة الموصى بها لشراء Aspose.Tasks لـ Java؟
  ج: قم بتأمين نسختك من خلال زيارة[صفحة الشراء](https://purchase.aspose.com/buy) واستكشاف خيارات الترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

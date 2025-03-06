@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Yeni Görevler için MS Project Niteliklerini Ayarlama
 linktitle: Aspose.Tasks'ta Yeni Görevler için Nitelikleri Ayarlayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak yeni görevler için MS Project niteliklerini nasıl ayarlayacağınızı öğrenin. Bu kapsamlı kılavuzla görev özelliklerini zahmetsizce özelleştirin.
-type: docs
 weight: 21
 url: /tr/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Yeni Görevler için MS Project Niteliklerini Ayarlama
+
 ## giriiş
 Aspose.Tasks for Java'daki yeni görevler için MS Project niteliklerini ayarlamaya yönelik kapsamlı eğitimimize hoş geldiniz! Bu kılavuzda, bu güçlü Java kitaplığıyla görevlerinizi kolayca yönetebilmenizi ve özelleştirebilmenizi sağlayacak şekilde süreç boyunca size adım adım yol göstereceğiz.
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Evet, Aspose.Tasks for Java, mevcut proje dosyalarının okunması, değişti
  C: Aspose.Tasks for Java'nın geçici lisansları şu adresten edinilebilir:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java ile ilgili herhangi bir sorun veya sorgu için nereden destek alabilirim?
  C: Destek alabilir ve toplulukla etkileşimde bulunabilirsiniz.[Aspose.Tasks for Java destek forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

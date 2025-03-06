@@ -3,10 +3,16 @@ title: Ustawienia bazy danych Microsoft Project w Aspose.Tasks
 linktitle: Ustawienia bazy danych Microsoft Project w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować ustawienia bazy danych Microsoft Project za pomocą Aspose.Tasks w celu bezproblemowej integracji z aplikacjami .NET.
-type: docs
 weight: 19
 url: /pl/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawienia bazy danych Microsoft Project w Aspose.Tasks
+
 ## Wstęp
 
 Jeśli pracujesz z bazami danych Microsoft Project w aplikacjach .NET przy użyciu Aspose.Tasks, musisz skonfigurować niezbędne ustawienia, aby bezproblemowo importować dane projektu. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
@@ -99,3 +105,9 @@ Odpowiedź 1: Tak, Aspose.Tasks obsługuje różne wersje baz danych Microsoft P
 ### P5: Gdzie mogę znaleźć bardziej szczegółową dokumentację dotyczącą korzystania z Aspose.Tasks?
 
  Odpowiedź 5: Możesz zapoznać się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowy wgląd w funkcjonalności Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

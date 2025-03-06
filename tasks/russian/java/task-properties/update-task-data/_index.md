@@ -3,10 +3,16 @@ title: Обновите данные задачи в формат MPP в Aspose.
 linktitle: Обновите данные задачи в формат MPP в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как обновить данные задачи в формат MPP с помощью Aspose.Tasks для Java. Следуйте нашему пошаговому руководству для эффективного управления проектами.
-type: docs
 weight: 35
 url: /ru/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обновите данные задачи в формат MPP в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по обновлению данных задачи в формат MPP с помощью Aspose.Tasks для Java. В этом уроке мы проведем вас через весь процесс, гарантируя, что вы четко поймете каждый шаг. Aspose.Tasks for Java предоставляет надежное решение для работы с файлами Microsoft Project, и к концу этого руководства вы сможете эффективно обновлять данные задач в формате MPP.
 ## Предварительные условия
@@ -93,3 +99,9 @@ project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
  О: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Предлагаете ли вы временные лицензии для целей тестирования?
  О: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

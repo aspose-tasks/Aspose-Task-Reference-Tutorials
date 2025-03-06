@@ -3,10 +3,16 @@ title: การรวมโครงการ Field Helper MS ใน Aspose.Tas
 linktitle: ผู้ช่วยภาคสนามใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีใช้ประโยชน์จาก Aspose.Tasks สำหรับ .NET เพื่อทำงานกับไฟล์ MS Project ได้อย่างราบรื่น
-type: docs
 weight: 15
 url: /th/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวมโครงการ Field Helper MS ใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ในแอปพลิเคชัน .NET ของตนได้อย่างราบรื่น ไม่ว่าคุณกำลังสร้างเครื่องมือการจัดการโครงการ รวมฟังก์ชันการทำงานของโครงการเข้ากับแอปพลิเคชันของคุณ หรือเพียงแค่ต้องการจัดการไฟล์โครงการโดยทางโปรแกรม Aspose.Tasks ก็มีเครื่องมือที่คุณต้องการเพื่อให้งานสำเร็จลุล่วงได้อย่างมีประสิทธิภาพ
@@ -74,3 +80,9 @@ Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefault
 ### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
 
  ตอบ: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks สำหรับ .NET ได้จากเว็บไซต์ Aspose[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 텍스트 스타일 사용자 정의 마스터하기
 linktitle: Aspose.Tasks에서 텍스트 스타일 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 문서 미학을 향상하세요. 시각적으로 매력적인 표현을 위해 텍스트 스타일을 쉽게 사용자 정의할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/net/text-view-configuration/text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 텍스트 스타일 사용자 정의 마스터하기
+
 ## 소개
 .NET을 사용한 프로젝트 관리 영역에서 Aspose.Tasks는 수많은 기능을 제공하는 강력한 도구입니다. 프로젝트 데이터의 시각적 표현을 크게 향상시키는 기능 중 하나는 텍스트 스타일을 사용자 정의하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 텍스트 스타일을 구성하는 과정을 자세히 살펴보고 프로젝트 문서에 개인화된 터치를 적용할 수 있습니다.
 ## 전제조건
@@ -65,3 +71,9 @@ Aspose.Tasks for .NET에서 텍스트 스타일을 구성하면 프로젝트 문
 예, Aspose.Tasks는 XLSX, PNG 및 HTML과 같은 다양한 출력 형식을 지원합니다. 이에 따라 저장 옵션을 조정하십시오.
 ### Aspose.Tasks와 관련된 도움을 구하거나 경험을 공유할 수 있는 커뮤니티가 있나요?
  꼭, 방문해보세요[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

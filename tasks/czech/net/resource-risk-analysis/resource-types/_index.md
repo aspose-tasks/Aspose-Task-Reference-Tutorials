@@ -3,10 +3,16 @@ title: Typy zdrojů v Aspose.Tasks
 linktitle: Typy zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak pracovat s různými typy zdrojů v Aspose.Tasks pro .NET, včetně zdrojů práce, materiálu a nákladů, pomocí podrobného kurzu.
-type: docs
 weight: 14
 url: /cs/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typy zdrojů v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project programově. Ať už spravujete úkoly, zdroje nebo plány, Aspose.Tasks zjednodušuje proces tím, že poskytuje komplexní sadu rozhraní API. V tomto tutoriálu se ponoříme do různých typů zdrojů, které můžete využít ve svých projektech pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -60,3 +66,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé formáty, včetně Microsoft Proj
  Odpověď: Ano, můžete si zakoupit dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Poskytuje Aspose.Tasks pro .NET dokumentaci pro referenci?
  Odpověď: Ano, můžete najít dokumentaci[tady](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

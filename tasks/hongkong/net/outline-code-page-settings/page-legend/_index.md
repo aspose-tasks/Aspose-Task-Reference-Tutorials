@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS 專案圖例
 linktitle: 在Aspose.Tasks中設定頁面圖例
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 在 .NET 中設定 MS Project 頁面圖例，以實現高效率的專案管理。提供逐步指南。
-type: docs
 weight: 18
 url: /zh-hant/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS 專案圖例
+
 ## 介紹
 在 .NET 開發領域，有效管理任務至關重要，尤其是在處理專案管理時。 Aspose.Tasks for .NET 成為一個強大的工具，提供了大量的功能來簡化任務管理流程。其中一項功能是能夠配置 MS Project 頁面圖例，為使用者提供有關專案資料呈現的寶貴見解。
 ## 先決條件
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 答：當然，Aspose.Tasks for .NET 提供了廣泛的自訂選項，可讓您根據特定的項目要求自訂頁面圖例。
 ### Q：在哪裡可以找到 Aspose.Tasks for .NET 的支援或社群論壇？
 答：您可以透過以下方式尋求支持並與社群互動：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)，您可以在這裡找到問題的答案並與其他開發人員互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

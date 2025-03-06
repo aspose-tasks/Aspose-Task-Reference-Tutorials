@@ -3,10 +3,16 @@ title: Create MS Project Task Baseline in Aspose.Tasks
 linktitle: Creating a Task Baseline in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to create a Microsoft Project task baseline in Java using Aspose.Tasks, a powerful library for managing project data effortlessly.
-type: docs
 weight: 11
 url: /java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create MS Project Task Baseline in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll delve into the process of creating a Microsoft Project task baseline using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that enables developers to work with Microsoft Project files without requiring Microsoft Project to be installed. With Aspose.Tasks, you can effortlessly manipulate project data, including tasks, resources, and calendars, to streamline project management tasks.
 ## Prerequisites
@@ -59,3 +65,10 @@ Absolutely, Aspose.Tasks for Java provides robust features for manipulating proj
 Yes, you can set task dependencies effortlessly using Aspose.Tasks for Java, enabling you to establish the sequence of tasks within your project.
 ### Is technical support available for Aspose.Tasks for Java?
 Yes, you can access technical support for Aspose.Tasks for Java via the [support forum](https://forum.aspose.com/c/tasks/15), where you can ask questions and seek assistance from the community and Aspose support staff.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

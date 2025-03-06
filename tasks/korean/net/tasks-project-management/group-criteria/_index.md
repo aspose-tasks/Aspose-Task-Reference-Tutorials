@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 그룹 기준 조작
 linktitle: Aspose.Tasks의 그룹 기준
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET에서 프로그래밍 방식으로 MS 프로젝트 파일을 조작하는 방법을 살펴보세요. 작업 그룹 및 기준 정보를 단계별로 검색하는 예입니다.
-type: docs
 weight: 27
 url: /ko/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 그룹 기준 조작
+
 ## 소개
 Aspose.Tasks for .NET은 .NET 애플리케이션에서 Microsoft Project 파일 작업을 용이하게 해주는 강력한 API입니다. 프로젝트 관리 소프트웨어를 개발하든 프로젝트 데이터를 프로그래밍 방식으로 조작해야 하든 Aspose.Tasks는 귀하의 요구 사항을 충족하는 포괄적인 기능 세트를 제공합니다.
 ## 전제조건
@@ -78,3 +84,9 @@ Aspose.Tasks는 대용량 프로젝트 파일을 효율적으로 처리하도록
 예, Aspose.Tasks는 .NET Framework, .NET Core 및 .NET Standard를 포함한 여러 .NET 플랫폼을 지원합니다.
 ### 도움을 구할 수 있는 Aspose.Tasks 커뮤니티 포럼이 있나요?
  네, 방문하실 수 있습니다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 질문하고, 지식을 공유하고, 다른 사용자와 협력할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

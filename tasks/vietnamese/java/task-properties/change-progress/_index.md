@@ -3,10 +3,16 @@ title: Thay đổi tiến trình thực hiện nhiệm vụ trong Aspose.Tasks
 linktitle: Thay đổi tiến trình thực hiện nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tăng cường quản lý dự án Java với Aspose.Tasks. Tìm hiểu cách sửa đổi tiến trình nhiệm vụ một cách liền mạch trong hướng dẫn từng bước này. Tải ngay!
-type: docs
 weight: 12
 url: /vi/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi tiến trình thực hiện nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực năng động của quản lý dự án, việc theo dõi tiến độ nhiệm vụ hiệu quả là điều then chốt. Aspose.Tasks for Java nổi bật như một giải pháp mạnh mẽ, đơn giản hóa quy trình nhờ các tính năng mạnh mẽ của nó. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thay đổi tiến trình của một tác vụ bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Lặp lại các bước cho từng nhiệm vụ bạn muốn theo dõi.
  Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/tasks/java/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho Java?
  Tham quan[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

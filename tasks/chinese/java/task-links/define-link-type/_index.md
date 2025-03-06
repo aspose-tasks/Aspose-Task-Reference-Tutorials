@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中定义链接类型
 linktitle: 在 Aspose.Tasks 中定义链接类型
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 在项目管理中的强大功能。通过我们的分步教程轻松定义和自定义链接类型。
-type: docs
 weight: 13
 url: /zh/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中定义链接类型
+
 ## 介绍
 欢迎来到 Aspose.Tasks for Java 的高效项目管理世界！如果您希望简化项目处理并提高生产力，那么您来对地方了。在这个综合教程中，我们将指导您完成在 Aspose.Tasks for Java 中定义链接类型的过程，从而增强您的项目管理能力。
 ## 先决条件
@@ -60,3 +66,9 @@ for (TaskLink tskLink : allLinks) {
 答：访问[这个链接](https://purchase.aspose.com/temporary-license/)获得用于测试目的的临时许可证。
 ### 问：在哪里可以获得 Aspose.Tasks 相关查询的支持？
 答：加入 Aspose.Tasks 社区[支持论坛](https://forum.aspose.com/c/tasks/15)寻求帮助和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET ile MS Project XAML Seçeneklerini Yapılandırma
 linktitle: Aspose.Tasks'ta XAML Seçeneklerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te MS Project XAML seçeneklerini nasıl yapılandıracağınızı öğrenin. Adım adım rehberlikle proje yönetimi esnekliğini ve özelleştirmeyi geliştirin.
-type: docs
 weight: 10
 url: /tr/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET ile MS Project XAML Seçeneklerini Yapılandırma
+
 ## giriiş
 .NET geliştirme dünyasında, proje görevlerini verimli bir şekilde yönetmek, projenin başarılı bir şekilde tamamlanması için çok önemlidir. Aspose.Tasks for .NET, proje yönetimi görevlerinin sorunsuz bir şekilde yerine getirilmesi için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project XAML seçeneklerini yapılandırmayı ele alacağız. 
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Evet, Aspose.Tasks for .NET, kesintisiz veri alışverişi için çeşitli pr
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
 
  C: Aspose.Tasks for .NET'i şu adresten satın alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

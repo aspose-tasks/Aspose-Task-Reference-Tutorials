@@ -3,10 +3,16 @@ title: Haal werkuren op uit Agenda met Aspose.Tasks
 linktitle: Haal werkuren op uit Agenda met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Haal eenvoudig werkuren uit MS Project-kalenders met Aspose.Tasks voor Java. Vereenvoudig projectbeheertaken.
-type: docs
 weight: 13
 url: /nl/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal werkuren op uit Agenda met Aspose.Tasks
+
 ## Invoering
 Het beheren van projectkalenders en het extraheren van werkuren is essentieel voor effectief projectmanagement. Aspose.Tasks voor Java biedt robuuste functionaliteit om moeiteloos werkuren uit MS Project-agenda's op te halen. In deze tutorial begeleiden wij u stap voor stap door het proces.
 ## Vereisten
@@ -83,3 +89,9 @@ A: Ja, u kunt werktijden en vakantiedagen eenvoudig aanpassen aan uw projectvere
 A: Ja, Aspose.Tasks voor Java biedt uitgebreide documentatie en speciale ondersteuningsforums om ontwikkelaars te helpen de functies ervan effectief te gebruiken.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
  A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor Java vanaf[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحديد نوع الارتباط في Aspose.Tasks
 linktitle: تحديد نوع الارتباط في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java في إدارة المشاريع. يمكنك تحديد أنواع الروابط وتخصيصها بسهولة من خلال برنامجنا التعليمي خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد نوع الارتباط في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم إدارة المشاريع الفعالة باستخدام Aspose.Tasks لـ Java! إذا كنت تتطلع إلى تبسيط التعامل مع مشروعك وتعزيز الإنتاجية، فأنت في المكان الصحيح. في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية تحديد أنواع الروابط في Aspose.Tasks لـ Java، مما يعزز قدرات إدارة مشروعك.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ for (TaskLink tskLink : allLinks) {
  زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
 ### س: أين يمكنني الحصول على الدعم للاستعلامات المتعلقة بـ Aspose.Tasks؟
  ج: انضم إلى مجتمع Aspose.Tasks على[منتدى الدعم](https://forum.aspose.com/c/tasks/15) للمساعدة والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Aufgabenverwaltung und Tabellenformatierung
 linktitle: Aspose.Tasks Aufgabenverwaltung und Tabellenformatierung
 second_title: Aspose.Tasks .NET-API
 description: Konfigurieren und verwalten Sie Tabellen mühelos in Aspose.Tasks für .NET mit Schritt-für-Schritt-Anleitungen. Verbessern Sie die Effizienz des Projektmanagements und Ihre Präsentationsfähigkeiten.
-type: docs
 weight: 29
 url: /de/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Aufgabenverwaltung und Tabellenformatierung
+
 ## Einführung
 
 Aspose.Tasks für .NET revolutioniert das Projektmanagement mit seinen robusten Funktionen. Dieser Artikel befasst sich mit verschiedenen Tutorials zur Aufgabenverwaltung und Tabellenformatierung und bietet eine umfassende Anleitung zur Maximierung Ihrer Effizienz. Tauchen wir ein in die Kernthemen:
@@ -91,3 +97,9 @@ Entdecken Sie Aspose.Tasks für .NET, um mühelos Startdatumstypen für Aufgaben
 Entdecken Sie Aspose.Tasks für .NET, um Projektdaten mühelos zu verwalten und zu visualisieren. Tauchen Sie ein in die Felder der Aufgabennutzungsansicht, um erweiterte Projekteinblicke zu erhalten.
 ### [Sammlung von Feldern zur Aufgabenverwendungsansicht in Aspose.Tasks](./task-usage-view-fields/)
 Entdecken Sie Aspose.Tasks für .NET und erfahren Sie, wie Sie Aufgabennutzungsansichten konfigurieren. Passen Sie die Zeitskaleneinstellungen an und verbessern Sie die visuelle Darstellung Ihres Projektmanagements.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

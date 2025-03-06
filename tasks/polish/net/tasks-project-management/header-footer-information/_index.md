@@ -3,10 +3,16 @@ title: Wyodrębnij informacje z nagłówka i stopki za pomocą Aspose.Tasks
 linktitle: Informacje nagłówka i stopki w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak wyodrębnić informacje nagłówka i stopki z plików MS Project za pomocą Aspose.Tasks dla .NET. Rozwiązanie łatwe, wydajne i przyjazne dla programistów.
-type: docs
 weight: 29
 url: /pl/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij informacje z nagłówka i stopki za pomocą Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka, która pozwala programistom z łatwością manipulować plikami Microsoft Project. W tym samouczku nauczymy się pobierać informacje z nagłówka i stopki z plików MS Project za pomocą Aspose.Tasks.
 ## Warunki wstępne
@@ -70,3 +76,9 @@ Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym MPP, XML 
  Możesz znaleźć dokumentację Aspose.Tasks[Tutaj](https://reference.aspose.com/tasks/net/).
 ### Jak mogę uzyskać wsparcie dla Aspose.Tasks?
  Możesz uzyskać pomoc dotyczącą Aspose.Tasks odwiedzając stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

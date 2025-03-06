@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理日期类型集合
 linktitle: 在 Aspose.Tasks 中管理日期类型集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中有效管理日期类型集合。轻松创建、修改和操作日历例外。
-type: docs
 weight: 28
 url: /zh/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理日期类型集合
+
 ## 介绍
 
  Aspose.Tasks for .NET 提供了管理日期类型集合的强大功能，这对于在项目管理应用程序中定义每周日历例外至关重要。在本教程中，我们将探讨如何利用`DayTypeCollection`高效上课。 
@@ -141,3 +147,9 @@ A2：是的，Aspose.Tasks for .NET 同时支持 .NET Core 和 .NET Framework。
 ### Q5：我可以购买 Aspose.Tasks for .NET 的临时许可证吗？
 
  A5：是的，临时许可证可以从[阿斯普斯网站](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

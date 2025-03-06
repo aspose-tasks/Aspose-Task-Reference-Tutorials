@@ -3,10 +3,16 @@ title: Buat Tampilan Proyek MS Kustom di Aspose.Tasks
 linktitle: Tampilan Kustom di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat tampilan Proyek MS kustom dengan mudah menggunakan Aspose.Tasks untuk Java. Tingkatkan efisiensi manajemen proyek dengan tampilan yang disesuaikan.
-type: docs
 weight: 24
 url: /id/java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tampilan Proyek MS Kustom di Aspose.Tasks
+
 ## Perkenalan
 Dalam manajemen proyek, menyesuaikan tampilan dapat secara signifikan meningkatkan kejelasan dan efisiensi pengelolaan tugas dan sumber daya. Aspose.Tasks untuk Java menyediakan alat canggih untuk membuat tampilan khusus yang disesuaikan dengan kebutuhan proyek tertentu. Dalam tutorial ini, kita akan mempelajari cara membuat tampilan Proyek MS kustom menggunakan Aspose.Tasks untuk Java, langkah demi langkah.
 ## Prasyarat
@@ -86,3 +92,9 @@ J: Ya, Aspose.Tasks untuk Java mendukung ekspor tampilan ke berbagai format sepe
 J: Tentu saja. Aspose.Tasks untuk Java menyediakan API komprehensif untuk otomatisasi, memungkinkan pengembang membuat dan mengelola tampilan kustom secara terprogram sesuai kebutuhan.
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.Tasks untuk Java?
  J: Ya, Anda dapat menemukan bantuan dan berinteraksi dengan pengguna lain di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk pertanyaan dan diskusi terkait Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

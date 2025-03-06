@@ -3,10 +3,16 @@ title: Sla MS-projectbestanden op als sjablonen met Aspose.Tasks
 linktitle: Sjabloonopties opslaan voor Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-bestanden opslaat als sjablonen met Aspose.Tasks voor .NET. Pas sjablooninstellingen aan voor gestroomlijnd projectbeheer.
-type: docs
 weight: 18
 url: /nl/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sla MS-projectbestanden op als sjablonen met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het opslaan van een sjabloon met Aspose.Tasks voor .NET. Sjablonen zijn handig voor het standaardiseren van projectstructuren en instellingen voor toekomstig gebruik. We laten zien hoe u een project als sjabloon kunt opslaan en gaandeweg de eigenschappen ervan kunt afstemmen.
 ## Vereisten
@@ -76,3 +82,9 @@ A: Ja, u kunt sjablonen toepassen op bestaande projecten door het sjabloonbestan
 A: Aspose.Tasks voor .NET is voornamelijk ontworpen voor .NET-framework-applicaties die op Windows-platforms draaien.
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks voor .NET?
  A: Ja, u kunt technische hulp en begeleiding zoeken bij de Aspose.Tasks-gemeenschap[forums](https://forum.aspose.com/c/tasks/15)of neem rechtstreeks contact op met hun ondersteuningsteam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

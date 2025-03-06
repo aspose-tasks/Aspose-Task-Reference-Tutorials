@@ -3,10 +3,16 @@ title: Simpan Gambar Opsi Proyek MS untuk Aspose.Tasks
 linktitle: Opsi Penyimpanan Gambar untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan opsi MS Project sebagai gambar menggunakan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Gambar Opsi Proyek MS untuk Aspose.Tasks
+
 
 ## Perkenalan
 Dalam dunia pengembangan perangkat lunak, menangani tugas-tugas proyek secara efisien sangat penting untuk keberhasilan manajemen proyek. Aspose.Tasks untuk .NET menawarkan solusi canggih bagi pengembang yang bekerja dengan file Microsoft Project, memungkinkan mereka memanipulasi, mengonversi, dan mengelola tugas proyek dengan lancar dalam aplikasi .NET mereka.
@@ -76,3 +82,9 @@ J: Ya, Aspose.Tasks untuk .NET kompatibel dengan berbagai kerangka .NET, termasu
 J: Ya, Anda dapat menyesuaikan opsi penyimpanan gambar sesuai dengan kebutuhan spesifik Anda, seperti menyesuaikan ukuran halaman, resolusi, atau format keluaran.
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks untuk .NET?
  J: Anda dapat menemukan dukungan dan bantuan untuk Aspose.Tasks untuk .NET di[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

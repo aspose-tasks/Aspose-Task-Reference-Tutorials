@@ -3,10 +3,16 @@ title: Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
 linktitle: Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình cài đặt cơ sở dữ liệu Microsoft Project bằng Aspose.Tasks để tích hợp liền mạch vào các ứng dụng .NET.
-type: docs
 weight: 19
 url: /vi/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
+
 ## Giới thiệu
 
 Nếu bạn đang làm việc với cơ sở dữ liệu Microsoft Project trong các ứng dụng .NET bằng Aspose.Tasks, bạn sẽ cần định cấu hình các cài đặt cần thiết để nhập dữ liệu dự án một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -99,3 +105,9 @@ Trả lời 1: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau củ
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết hơn về cách sử dụng Aspose.Tasks ở đâu?
 
  Câu trả lời 5: Bạn có thể khám phá tài liệu toàn diện[đây](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết về các chức năng của Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

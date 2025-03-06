@@ -3,10 +3,16 @@ title: Aspose.Tasks में क्रॉस-प्रोजेक्ट का
 linktitle: Aspose.Tasks में क्रॉस-प्रोजेक्ट कार्यों को पहचानें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks के साथ क्रॉस-प्रोजेक्ट कार्य पहचान का अन्वेषण करें। निर्बाध एकीकरण और कुशल प्रबंधन। अब डाउनलोड करो!
-type: docs
 weight: 14
 url: /hi/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में क्रॉस-प्रोजेक्ट कार्यों को पहचानें
+
 ## परिचय
 जावा के लिए Aspose.Tasks के साथ क्रॉस-प्रोजेक्ट कार्यों को कुशलतापूर्वक पहचानने पर हमारे व्यापक ट्यूटोरियल में आपका स्वागत है। चाहे आप एक अनुभवी डेवलपर हों या नौसिखिया, यह मार्गदर्शिका आपको इस कार्यक्षमता को आपके जावा प्रोजेक्ट्स में निर्बाध रूप से एकीकृत करने की प्रक्रिया से गुजराएगी।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
  उत्तर: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: सहायता चाहिए या विशिष्ट प्रश्न हैं?
 उत्तर: Aspose.Tasks सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gérer les propriétés du délai de mise à niveau dans Aspose.Tasks
 linktitle: Gérer les propriétés de délai de mise à niveau pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer les propriétés de délai de mise à niveau pour les affectations de ressources dans Aspose.Tasks for Java avec ce didacticiel complet.
-type: docs
 weight: 17
 url: /fr/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les propriétés du délai de mise à niveau dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous passerons en revue le processus de gestion des propriétés de délai de mise à niveau pour les affectations de ressources dans Aspose.Tasks for Java. Aspose.Tasks est une puissante bibliothèque Java qui vous permet de travailler avec des fichiers Microsoft Project sans nécessiter l'installation de Microsoft Project sur votre système.
 ## Conditions préalables
@@ -91,3 +97,9 @@ R : Oui, Aspose.Tasks peut être intégré à d'autres bibliothèques Java pour 
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
 
  R : Vous pouvez demander une licence temporaire auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/) à des fins d’évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

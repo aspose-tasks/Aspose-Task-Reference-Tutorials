@@ -3,10 +3,16 @@ title: Ismétlődő feladatparaméterek beállítása az Aspose.Tasks-ban
 linktitle: Ismétlődő feladatparaméterek beállítása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan állíthat be ismétlődő feladatparamétereket a Microsoft Projectben az Aspose.Tasks for .NET használatával. Átfogó oktatóanyag lépésről lépésre.
-type: docs
 weight: 14
 url: /hu/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ismétlődő feladatparaméterek beállítása az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a Microsoft Project ismétlődő feladatok paramétereinek beállításán az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -79,3 +85,9 @@ Igen, az Aspose.Tasks különféle projektfájlformátumokat támogat, beleértv
 Igen, felkeresheti az Aspose.Tasks fórumot, ha segítségre van szüksége a közösségtől, vagy kapcsolatba léphet az ügyfélszolgálattal közvetlen segítségért.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  Ideiglenes engedélyt szerezhet a[weboldal](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thuộc tính tác vụ
 linktitle: Thuộc tính tác vụ
 second_title: API Java Aspose.Tasks
 description: Tăng cường quản lý dự án Java với Aspose.Tasks. Khám phá các hướng dẫn về thuộc tính nhiệm vụ, từ xử lý mức độ ưu tiên đến quản lý chi phí. Tối ưu hóa dự án của bạn ngay hôm nay!
-type: docs
 weight: 34
 url: /vi/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính tác vụ
+
 ## Giới thiệu
 
 Dễ dàng quản lý và tùy chỉnh các tệp Microsoft Project trong Java bằng Aspose.Tasks. Khám phá các hướng dẫn bao gồm các khía cạnh khác nhau của thuộc tính nhiệm vụ để nâng cao khả năng quản lý dự án của bạn.
@@ -138,3 +144,9 @@ Khám phá Aspose.Tasks dành cho Java và quản lý dữ liệu theo pha theo 
 Tìm hiểu cách cập nhật dữ liệu tác vụ sang định dạng MPP bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý dự án hiệu quả.
 ### [WBS được liên kết với nhiệm vụ trong Aspose.Tasks](./wbs-associated-with-task/)
 Làm chủ WBS với Aspose.Tasks cho Java - Tìm hiểu cách đọc và đánh số lại mã WBS của tác vụ. Tăng hiệu quả quản lý dự án!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

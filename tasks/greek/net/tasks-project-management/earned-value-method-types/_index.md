@@ -3,10 +3,16 @@ title: Κύρια κερδισμένη αξία MS Project Methods with Aspose.T
 linktitle: Τύποι μεθόδων κερδισμένης αξίας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Κύρια κερδισμένη αξία Τύποι μεθόδου έργου MS με Aspose.Tasks για .NET. Βελτιώστε την αποτελεσματικότητα διαχείρισης έργου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κύρια κερδισμένη αξία MS Project Methods with Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων, η αξιοποίηση των σωστών εργαλείων και μεθοδολογιών είναι πρωταρχικής σημασίας για την επιτυχία. Το Aspose.Tasks για .NET παρέχει ένα ισχυρό πλαίσιο για την αποτελεσματική διαχείριση εργασιών που σχετίζονται με έργα. Μια τέτοια κρίσιμη πτυχή είναι η χρήση μεθόδων Διαχείρισης Κερδισμένης Αξίας (EVM), οι οποίες προσφέρουν πληροφορίες για την απόδοση του έργου συγκρίνοντας την προγραμματισμένη εργασία με την πραγματική εργασία που έχει ολοκληρωθεί. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην κατανόηση και την εφαρμογή τύπων μεθόδου έργου MS με κερδισμένη αξία χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -53,3 +59,9 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
  Α: Ναι, είναι διαθέσιμες προσωρινές άδειες χρήσης για το Aspose.Tasks για .NET. Μπορείτε να τα προμηθευτείτε από:[Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
  Α: Μπορείτε να αγοράσετε το Aspose.Tasks για .NET από τον ιστότοπο:[Αγορά](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

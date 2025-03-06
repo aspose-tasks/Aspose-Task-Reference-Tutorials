@@ -3,10 +3,16 @@ title: Taken beheren in Aspose.Tasks
 linktitle: Taken beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de uitgebreide handleiding over het beheren van taken met Aspose.Tasks voor .NET. Leer hoe u onderdelen kunt toevoegen, weergeven, verplaatsen, eigenschappen kunt ophalen/instellen en meer.
-type: docs
 weight: 15
 url: /nl/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taken beheren in Aspose.Tasks
+
 ## Invoering
 Als u een .NET-ontwikkelaar bent en taken binnen uw projecten efficiënt wilt beheren, biedt Aspose.Tasks voor .NET een robuuste oplossing. Deze tutorial leidt u door verschillende aspecten van het beheren van taken met Aspose.Tasks, met stapsgewijze instructies en codevoorbeelden. Of u nu taken toevoegt, gesplitste delen weergeeft, taken onder hetzelfde bovenliggende item verplaatst, taakeigenschappen ophaalt/instelt, taaktoewijzingen herhaalt, taakbasislijnen leest of taken verwijdert, deze handleiding heeft de oplossing voor u.
 ## Vereisten
@@ -144,3 +150,9 @@ A: Ja, Aspose.Tasks ondersteunt verschillende .NET-frameworks, waardoor compatib
 EEN: Absoluut! Aspose.Tasks biedt uitgebreide aanpassingsmogelijkheden voor taakeigenschappen. Raadpleeg de documentatie voor meer details.
 ### Vraag: Hoe krijg ik ondersteuning voor Aspose.Tasks?
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

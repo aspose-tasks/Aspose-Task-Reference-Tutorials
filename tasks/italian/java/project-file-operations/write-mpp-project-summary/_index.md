@@ -3,10 +3,16 @@ title: Scrivi il riepilogo del progetto MPP in Aspose.Tasks
 linktitle: Scrivi il riepilogo del progetto MPP in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come scrivere riepiloghi di progetti MPP in Java utilizzando Aspose.Tasks. Imposta e recupera le informazioni sul progetto senza sforzo.
-type: docs
 weight: 27
 url: /it/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scrivi il riepilogo del progetto MPP in Aspose.Tasks
+
 ## introduzione
 In questo tutorial impareremo come utilizzare Aspose.Tasks per Java per scrivere riepiloghi del progetto MPP. Aspose.Tasks è una potente libreria Java per lavorare con i file Microsoft Project. Seguendo i passaggi descritti di seguito, sarai in grado di impostare e recuperare varie informazioni di riepilogo su un progetto utilizzando questa libreria.
 ## Prerequisiti
@@ -87,3 +93,9 @@ R: Aspose.Tasks per Java viene regolarmente aggiornato per garantire la compatib
 R: Assolutamente, Aspose.Tasks per Java fornisce ampie opzioni per personalizzare le informazioni di riepilogo del progetto in base ai requisiti specifici.
 ### D: Dove posso ottenere supporto per Aspose.Tasks per Java?
 R: Puoi ottenere supporto dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

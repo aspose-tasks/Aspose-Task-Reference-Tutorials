@@ -3,10 +3,16 @@ title: Interrompere e riprendere le assegnazioni di risorse in Aspose.Tasks
 linktitle: Interrompere e riprendere le assegnazioni di risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire le assegnazioni delle risorse in modo efficace in Aspose.Tasks per Java con questo tutorial passo passo.
-type: docs
 weight: 23
 url: /it/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Interrompere e riprendere le assegnazioni di risorse in Aspose.Tasks
+
 ## introduzione
 In questo tutorial impareremo come interrompere e riprendere le assegnazioni di risorse utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente API Java che consente agli sviluppatori di lavorare con file Microsoft Project senza che Microsoft Project sia installato sui propri sistemi. Suddivideremo il processo in passaggi gestibili per renderlo facile da seguire.
 ## Prerequisiti
@@ -71,3 +77,9 @@ Sì, Aspose.Tasks ti consente di lavorare con i file di Microsoft Project senza 
 Puoi ottenere supporto dalla comunità[Qui](https://forum.aspose.com/c/tasks/15).
 ### Posso acquistare una licenza temporanea?
  Sì, puoi acquistare una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

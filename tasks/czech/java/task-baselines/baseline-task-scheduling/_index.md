@@ -3,10 +3,16 @@ title: Plánování základních úloh v Aspose.Tasks
 linktitle: Plánování základních úloh v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně naplánovat základní linie úkolů pomocí Aspose.Tasks for Java. Zefektivněte procesy řízení projektů bez námahy.
-type: docs
 weight: 10
 url: /cs/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Plánování základních úloh v Aspose.Tasks
+
 ## Úvod
 Správa směrných plánů úkolů je zásadním aspektem projektového řízení, který vám umožňuje přesně porovnávat plánovaný a skutečný pokrok. V tomto tutoriálu prozkoumáme, jak provádět základní plánování úloh pomocí Aspose.Tasks for Java. Dodržením těchto kroků budete připraveni efektivně zefektivnit procesy řízení projektů.
 ## Předpoklady
@@ -63,3 +69,9 @@ Aspose.Tasks for Java samozřejmě poskytuje rozsáhlé funkce pro přizpůsoben
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks for Java z[stránka vydání](https://releases.aspose.com/).
 ### Kde najdu podporu pro Aspose.Tasks for Java?
  V případě jakýchkoli dotazů nebo pomoci můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

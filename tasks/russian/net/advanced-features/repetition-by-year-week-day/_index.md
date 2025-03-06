@@ -3,10 +3,16 @@ title: Повторение по году недели в Aspose.Tasks
 linktitle: Повторение по году недели в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите возможности Aspose.Tasks for .NET для эффективного управления повторяющимися задачами. Пошаговое руководство по реализации функции «Повторение по годам, дням недели».
-type: docs
 weight: 28
 url: /ru/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Повторение по году недели в Aspose.Tasks
+
 ## Введение
 
 В сфере управления проектами эффективность и точность имеют первостепенное значение. Aspose.Tasks для .NET представляет собой мощный инструмент, предлагающий множество функций для оптимизации управления проектами. В его арсенал входит способность управлять повторяющимися задачами с поразительной гибкостью. Одной из таких функций является функция «Повторение по дням недели года», позволяющая пользователям настраивать задачи, которые повторяются в определенные дни недели, в течение определенных месяцев и в течение нескольких лет.
@@ -126,3 +132,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 ### Вопрос 5: Доступна ли пробная версия Aspose.Tasks для .NET?
 
 О: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks для .NET на сайте[Веб-сайт](https://releases.aspose.com/), что позволит вам изучить его возможности перед принятием решения о покупке.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

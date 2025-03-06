@@ -3,10 +3,16 @@ title: Hozzon létre feladatokat az Aspose.Tasks alkalmazásban
 linktitle: Hozzon létre feladatokat az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks segítségével könnyedén kezelheti a Java projekteket. Hozzon létre feladatokat, részfeladatokat és egyebeket. Kövesse lépésenkénti útmutatónkat a zökkenőmentes projektmenedzsmenthez.
-type: docs
 weight: 13
 url: /hu/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre feladatokat az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for Java világában! Ha hatékonyan szeretné kezelni a feladatokat és projekteket Java-alkalmazásában, akkor jó helyen jár. Ebben az átfogó útmutatóban végigvezetjük a feladatok Aspose.Tasks for Java használatával létrehozásának folyamatán, az egyes lépéseket lebontva a zökkenőmentes élmény érdekében.
 ## Előfeltételek
@@ -54,3 +60,9 @@ Teljesen! Az Aspose.Tasks sokoldalú, és bármilyen léptékű projekthez haszn
 Igen, széles körben testreszabhatja a feladat attribútumait a projekt igényei szerint.
 ### Létezik támogató közösség az Aspose.Tasks felhasználók számára?
  Teljesen! Csatlakozzon az Aspose.Tasks közösséghez[a támogató fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Farklı Temel Çizgi Türleri
 linktitle: Aspose.Tasks'ta Farklı Temel Çizgi Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak proje temellerini verimli bir şekilde ayarlamayı ve yönetmeyi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Farklı Temel Çizgi Türleri
+
 ## giriiş
 
 Proje yönetimi alanında hassasiyet ve öngörü çok önemlidir. Aspose.Tasks for .NET, proje verilerini verimli bir şekilde yönetmek için güçlü bir araç seti sağlayarak kullanıcıların proje planlama, izleme ve yürütmenin çeşitli yönlerini derinlemesine incelemesine olanak tanır. Aspose.Tasks'ın sunduğu çok önemli özelliklerden biri, projenin ilerlemesini başlangıç planlarına göre ölçmek için referans noktaları görevi gören temel çizgileri belirleme yeteneğidir.
@@ -82,3 +88,9 @@ Cevap4: Aspose.Tasks, geliştiricilerin özelliklerini popüler proje yönetimi 
 ### S5: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
 
 Cevap5: Evet, Aspose.Tasks'ı web sitesinde bulunan ücretsiz deneme sürümüyle keşfedebilir, böylece yeteneklerini ilk elden deneyimleyebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

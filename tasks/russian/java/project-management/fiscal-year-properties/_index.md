@@ -3,10 +3,16 @@ title: Управление свойствами финансового года
 linktitle: Управление свойствами финансового года в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно управлять свойствами финансового года с помощью Aspose.Tasks для Java. Пошаговое руководство с примерами.
-type: docs
 weight: 15
 url: /ru/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление свойствами финансового года в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам эффективно управлять файлами проекта, включая обработку свойств финансового года. В этом руководстве мы рассмотрим процесс управления свойствами финансового года с помощью Aspose.Tasks в Java.
 ## Предварительные условия
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
  О: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks по адресу[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу приобрести лицензию на Aspose.Tasks для Java?
  О: Вы можете приобрести лицензию на Aspose.Tasks для Java на сайте[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

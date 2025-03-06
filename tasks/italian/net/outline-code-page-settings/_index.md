@@ -3,10 +3,16 @@ title: Aspose.Tasks Codice struttura e impostazioni della pagina
 linktitle: Aspose.Tasks Codice struttura e impostazioni della pagina
 second_title: Aspose.Tasks API .NET
 description: Padroneggia Aspose.Tasks per .NET con tutorial su codici di struttura, raccolta, definizioni, maschere e impostazioni di pagina. Migliorare l'organizzazione e la personalizzazione del progetto.
-type: docs
 weight: 25
 url: /it/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Codice struttura e impostazioni della pagina
+
 ## introduzione
 Benvenuti nel mondo della gestione dei progetti senza soluzione di continuità con Aspose.Tasks per .NET! In questa era digitale, dove precisione ed efficienza non sono negoziabili, padroneggiare le complessità di Microsoft Project diventa un punto di svolta. La nostra serie completa di tutorial ti guiderà attraverso le sfumature di Aspose.Tasks per .NET, consentendoti di gestire facilmente i codici di struttura, manipolare le definizioni dei dati, lavorare con maschere, valori e personalizzare le impostazioni della pagina. Che tu sia un project manager esperto o un nuovo arrivato sul campo, i nostri tutorial si rivolgono a tutti i livelli di competenza, fornendo istruzioni dettagliate ed esempi di codice. Unisciti a noi in questo viaggio per sbloccare tutto il potenziale di Aspose.Tasks, rivoluzionando il modo in cui ti avvicini all'organizzazione e alla personalizzazione del progetto. Immergiamoci ed eleviamo le tue capacità di gestione dei progetti a nuovi livelli!
 ## Gestione dei codici struttura con Aspose.Tasks per .NET
@@ -71,3 +77,9 @@ Scopri come regolare i margini della pagina nei file Microsoft Project utilizzan
 Scopri come configurare le impostazioni della pagina MS Project utilizzando Aspose.Tasks per .NET. Personalizza orientamento, dimensioni e altro con semplici passaggi.
 ### [Personalizza le impostazioni di visualizzazione della pagina di MS Project in Aspose.Tasks](./page-view-settings/)
 Scopri come configurare le impostazioni di visualizzazione della pagina in Aspose.Tasks per .NET per personalizzare il formato di stampa dei tuoi documenti Microsoft Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

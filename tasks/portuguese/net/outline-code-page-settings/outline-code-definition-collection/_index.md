@@ -3,10 +3,16 @@ title: Coleção de definições de código de contorno em Aspose.Tasks .NET
 linktitle: Coleção de definições de código de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como manipular definições de código de estrutura de tópicos em documentos do Microsoft Project usando Aspose.Tasks for .NET. Categorização dos dados do seu projeto sem esforço.
-type: docs
 weight: 13
 url: /pt/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção de definições de código de contorno em Aspose.Tasks .NET
+
 ## Introdução
 Aspose.Tasks é uma biblioteca .NET poderosa projetada para manipular documentos do Microsoft Project com facilidade e eficiência. Um de seus principais recursos é a capacidade de trabalhar com definições de código de estrutura de tópicos, permitindo aos usuários organizar e categorizar os dados do projeto de forma eficaz. Neste tutorial, exploraremos como trabalhar com definições de código de estrutura de tópicos usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -83,3 +89,9 @@ R: Se uma definição de código de estrutura for somente leitura, você não po
 R: Aspose.Tasks for .NET não impõe nenhuma limitação específica ao número de definições de código de estrutura que você pode adicionar a um projeto. No entanto, considere as implicações de desempenho ao trabalhar com um grande número de definições.
 ### P: Posso usar definições de código de estrutura de tópicos para agrupar tarefas com base em critérios personalizados?
 R: Sim, as definições de código de estrutura permitem categorizar tarefas com base em critérios personalizados, proporcionando flexibilidade na organização dos dados do projeto.## Código-fonte completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

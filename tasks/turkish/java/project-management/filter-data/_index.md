@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki MPP Dosyasındaki Verileri Filtrele
 linktitle: Aspose.Tasks'taki MPP Dosyasındaki Verileri Filtrele
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MPP dosyalarından verileri nasıl filtreleyeceğinizi öğrenin. Proje yönetimi iş akışınızı zahmetsizce geliştirin.
-type: docs
 weight: 14
 url: /tr/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki MPP Dosyasındaki Verileri Filtrele
+
 ## giriiş
 Java geliştirme alanında, proje görevlerini verimli bir şekilde yönetmek, başarılı proje yönetiminin çok önemli bir yönüdür. Aspose.Tasks for Java, proje yönetimi görevlerini programlı bir şekilde yürütmek için güçlü bir çözüm sunarak geliştiricilere MPP dosyalarındaki verileri sorunsuz bir şekilde filtrelemek için gereken araçları sağlar. Bu eğitimde, Aspose.Tasks for Java'yı kullanarak MPP dosyalarından veri filtreleme sürecini derinlemesine inceleyeceğiz ve kapsamlı bir anlayış sağlamak için her adımı ayrıntılı olarak ele alacağız.
 ## Önkoşullar
@@ -81,3 +87,9 @@ C: Evet, ister küçük ölçekli bir proje yönetiyor olun ister kapsamlı proj
  C: Kesinlikle! Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/tasks/java/) ayrıntılı kılavuzlar ve API referansları için. Ayrıca karşılaştığınız sorular veya sorunlar için Aspose.Tasks topluluk forumlarından yardım alabilirsiniz.
 ### S: Satın almadan önce Aspose.Tasks for Java'nın işlevlerini keşfedebilir miyim?
  C: Elbette! Ücretsiz denemeden yararlanabilirsiniz[İnternet sitesi](https://releases.aspose.com/) Aspose.Tasks for Java'nın özelliklerini ve yeteneklerini ilk elden deneyimlemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

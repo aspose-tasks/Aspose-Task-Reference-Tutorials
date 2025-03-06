@@ -3,10 +3,16 @@ title: Định cấu hình Chế độ xem biểu đồ Gantt trong Dự án Asp
 linktitle: Định cấu hình Chế độ xem biểu đồ Gantt trong Dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách định cấu hình Chế độ xem biểu đồ dự án Gantt MS trong Aspose.Tasks bằng Java. Tùy chỉnh dự án và trực quan hóa chúng trong biểu đồ Gantt theo từng bước.
-type: docs
 weight: 10
 url: /vi/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình Chế độ xem biểu đồ Gantt trong Dự án Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách định cấu hình Chế độ xem biểu đồ dự án Gantt MS trong các dự án Aspose.Tasks bằng Java. Aspose.Tasks là một API Java mạnh mẽ cho phép bạn làm việc với các tệp Microsoft Project theo chương trình. Bằng cách làm theo các bước này, bạn sẽ có thể tùy chỉnh chế độ xem biểu đồ Gantt theo yêu cầu của dự án.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Trả lời: Có, Aspose.Tasks có sẵn cho nhiều ngôn ngữ lập trình ba
  Đáp: Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy).
 ### Hỏi: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
  Đáp: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

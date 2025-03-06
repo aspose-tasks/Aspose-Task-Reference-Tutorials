@@ -3,10 +3,16 @@ title: Maîtriser la gestion des fichiers MS Project avec Aspose.Tasks
 linktitle: Gestion des formats de fichiers de projet dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Libérez la puissance de la manipulation de fichiers Microsoft Project avec Aspose.Tasks pour .NET. Plongez dans une intégration et une gestion transparentes.
-type: docs
 weight: 18
 url: /fr/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la gestion des fichiers MS Project avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment gérer les formats de fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Aspose.Tasks est une bibliothèque puissante qui permet aux développeurs de manipuler et de gérer les fichiers de projet par programme. Que vous travailliez avec des fichiers .mpp, .xml ou .csv, Aspose.Tasks fournit un ensemble complet de fonctionnalités pour gérer divers aspects de la gestion de projet.
 ## Conditions préalables
@@ -52,3 +58,9 @@ R : Absolument, Aspose.Tasks fournit des fonctionnalités étendues pour manipul
 : Oui, vous pouvez travailler avec des champs de projet personnalisés à l'aide d'Aspose.Tasks et effectuer des opérations telles que l'ajout, la mise à jour ou la suppression de champs personnalisés.
 ### Q : Puis-je générer des rapports de projet à l’aide d’Aspose.Tasks ?
 R : Oui, Aspose.Tasks vous permet de générer différents types de rapports de projet par programme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

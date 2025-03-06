@@ -3,10 +3,16 @@ title: Gestione della raccolta di calendari in Aspose.Tasks
 linktitle: Gestione della raccolta di calendari in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire in modo efficiente le raccolte di calendari in Aspose.Tasks per .NET. Crea, modifica e manipola i calendari con facilità.
-type: docs
 weight: 11
 url: /it/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione della raccolta di calendari in Aspose.Tasks
+
 ## introduzione
 
 In questo tutorial esploreremo come gestire le raccolte di calendari in Aspose.Tasks per .NET. I calendari svolgono un ruolo cruciale nella gestione dei progetti, definendo giorni lavorativi, festivi ed eccezioni. Aspose.Tasks fornisce funzionalità robuste per manipolare i calendari all'interno dei tuoi progetti.
@@ -160,3 +166,9 @@ A4: Sì, Aspose.Tasks consente di esportare calendari in vari formati come XML, 
 ### Q5: Posso personalizzare l'orario di lavoro per giorni specifici in un calendario?
 
 R5: Certamente è possibile definire l'orario di lavoro per i singoli giorni utilizzando le eccezioni nel calendario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

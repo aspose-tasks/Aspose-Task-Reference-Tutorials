@@ -3,10 +3,16 @@ title: Sammeln Sie MS Project-Risikoelementstatistiken in Aspose.Tasks
 linktitle: Sammlung von Risikoelementstatistiken in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Risikoelementstatistiken aus MS Project-Dateien sammeln. Erweitern Sie Ihre Projektmanagementfähigkeiten.
-type: docs
 weight: 22
 url: /de/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammeln Sie MS Project-Risikoelementstatistiken in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET Risikoelementstatistiken aus MS Project-Dateien sammeln. Diese Bibliothek bietet leistungsstarke Funktionen zur Analyse von Projektdaten, einschließlich Risikobewertung und statistischer Analyse.
 ## Voraussetzungen
@@ -88,3 +94,9 @@ A: Absolut, Aspose.Tasks ist darauf ausgelegt, die Anforderungen von Projektmana
 A: Ja, Aspose.Tasks bietet Flexibilität bei der Konfiguration von Risikoanalyseeinstellungen, um sie an Ihre spezifischen Projektanforderungen und -szenarien anzupassen.
 ### F: Ist technischer Support für Aspose.Tasks-Benutzer verfügbar?
  A: Ja, Aspose.Tasks-Benutzer können über Aspose auf technischen Support zugreifen[Foren](https://forum.aspose.com/c/tasks/15), wo sie Fragen stellen, Probleme melden und mit der Community interagieren können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

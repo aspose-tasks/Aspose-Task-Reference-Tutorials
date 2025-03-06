@@ -3,10 +3,16 @@ title: Aspose.Tasks में फ़ॉर्मेट 24bppRgb के साथ
 linktitle: Aspose.Tasks में प्रारूप 24bppRgb के साथ डेटा प्रस्तुत करें
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks का उपयोग करके MS प्रोजेक्ट डेटा को जावा में छवियों के रूप में प्रस्तुत करना सीखें। निर्बाध एकीकरण के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 11
 url: /hi/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में फ़ॉर्मेट 24bppRgb के साथ MS प्रोजेक्ट डेटा प्रस्तुत करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट प्रारूप 24bppRgb के साथ डेटा प्रस्तुत करने की प्रक्रिया में आपका मार्गदर्शन करेंगे। प्रोजेक्ट डेटा को एक छवि प्रारूप में प्रस्तुत करना विभिन्न उद्देश्यों के लिए उपयोगी हो सकता है जैसे प्रोजेक्ट प्रगति को दृश्य रूप से साझा करना या रिपोर्ट बनाना।
 ## आवश्यक शर्तें
@@ -63,3 +69,9 @@ project.save(dataDir + "resFile.tif", options);
  उत्तर: हां, आपको Aspose.Tasks के व्यावसायिक उपयोग के लिए लाइसेंस खरीदने की आवश्यकता है। आप परीक्षण उद्देश्यों के लिए यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मुझे Aspose.Tasks के लिए सहायता कहाँ से मिल सकती है?
  उत्तर: आप Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

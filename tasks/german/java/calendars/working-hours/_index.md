@@ -3,10 +3,16 @@ title: Rufen Sie mit Aspose.Tasks die Arbeitszeiten aus dem Kalender ab
 linktitle: Rufen Sie mit Aspose.Tasks die Arbeitszeiten aus dem Kalender ab
 second_title: Aspose.Tasks Java-API
 description: Extrahieren Sie ganz einfach Arbeitsstunden aus MS Project-Kalendern mit Aspose.Tasks für Java. Vereinfachen Sie Projektmanagementaufgaben.
-type: docs
 weight: 13
 url: /de/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rufen Sie mit Aspose.Tasks die Arbeitszeiten aus dem Kalender ab
+
 ## Einführung
 Das Verwalten von Projektkalendern und das Extrahieren von Arbeitszeiten ist für ein effektives Projektmanagement unerlässlich. Aspose.Tasks für Java bietet robuste Funktionen zum mühelosen Abrufen von Arbeitsstunden aus MS Project-Kalendern. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess.
 ## Voraussetzungen
@@ -83,3 +89,9 @@ A: Ja, Sie können Arbeits- und Feiertage ganz einfach an Ihre Projektanforderun
 A: Ja, Aspose.Tasks für Java bietet umfangreiche Dokumentation und spezielle Support-Foren, um Entwickler bei der effektiven Nutzung seiner Funktionen zu unterstützen.
 ### F: Gibt es eine Testversion für Aspose.Tasks für Java?
  A: Ja, Sie können auf eine kostenlose Testversion von Aspose.Tasks für Java zugreifen[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

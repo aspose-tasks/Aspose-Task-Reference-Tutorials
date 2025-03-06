@@ -3,10 +3,16 @@ title: Aspose.Tasks Διαμόρφωση κειμένου και προβολή�
 linktitle: Aspose.Tasks Διαμόρφωση κειμένου και προβολής
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε το Aspose.Tasks για .NET Tutorials σχετικά με τη διαμόρφωση κειμένου και προβολής. Κύρια στυλ κειμένου, συμπίεση Tiff, προβολές γραμμής χρόνου και πολλά άλλα για βελτιωμένη διαχείριση έργου.
-type: docs
 weight: 30
 url: /el/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Διαμόρφωση κειμένου και προβολής
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό οδηγό για το Aspose.Tasks for .NET Tutorials, εστιάζοντας στη διαμόρφωση κειμένου και προβολής. Σε αυτό το άρθρο, θα εμβαθύνουμε σε διάφορες πτυχές της διαχείρισης έργου, παρέχοντας βήμα προς βήμα πληροφορίες για τον έλεγχο των λειτουργιών του Aspose.Tasks.
@@ -53,3 +59,9 @@ Master Aspose.Tasks για .NET στην προσαρμογή των προβο�
 Εξερευνήστε το Aspose.Tasks για .NET για να διαμορφώσετε τα επίπεδα χρονικής κλίμακας στην προβολή γραφήματος Gantt για ακριβή απεικόνιση του χρονοδιαγράμματος του έργου.
 ### [Διαμόρφωση προβολών χρήσης στο Aspose.Tasks](./usage-views/)
 Μάθετε να διαμορφώνετε τις προβολές χρήσης εργασιών στο Aspose.Tasks για .NET. Βελτιώστε την οπτικοποίηση του έργου με λεπτομερή βήματα. Κατεβάστε τη βιβλιοθήκη τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

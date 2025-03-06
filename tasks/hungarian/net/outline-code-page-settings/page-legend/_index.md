@@ -3,10 +3,16 @@ title: MS Project Legends konfigurálása az Aspose.Tasks-ban
 linktitle: Az oldalmagyarázat konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhat MS Project oldaljelmagyarázatokat .NET-ben az Aspose.Tasks segítségével a hatékony projektkezelés érdekében. Lépésről lépésre bemutatott útmutató.
-type: docs
 weight: 18
 url: /hu/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Legends konfigurálása az Aspose.Tasks-ban
+
 ## Bevezetés
 A .NET fejlesztés területén a feladatok hatékony kezelése kulcsfontosságú, különösen a projektmenedzsment terén. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a feladatkezelési folyamatok egyszerűsítésére. Az egyik ilyen funkció az MS Project oldalak jelmagyarázatainak konfigurálása, így a felhasználók értékes betekintést nyerhetnek a projektadatok bemutatásába.
 ## Előfeltételek
@@ -85,3 +91,9 @@ V: Az ideiglenes licencek teljes hozzáférést biztosítanak az Aspose.Tasks-ho
 V: Természetesen az Aspose.Tasks for .NET kiterjedt testreszabási lehetőségeket kínál, amelyek lehetővé teszik az oldalak jelmagyarázatainak testreszabását az adott projekt követelményei szerint.
 ### K: Hol találok támogatást vagy közösségi fórumokat az Aspose.Tasks for .NET-hez?
  V: Támogatást kérhet, és kapcsolatba léphet a közösséggel a webhelyen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15), ahol válaszokat találhat kérdéseire, és kapcsolatba léphet más fejlesztőkkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

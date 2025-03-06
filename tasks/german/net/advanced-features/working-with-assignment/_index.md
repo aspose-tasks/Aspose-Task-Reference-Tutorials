@@ -3,10 +3,16 @@ title: Arbeiten mit Zuweisungen in Aspose.Tasks
 linktitle: Arbeiten mit Zuweisungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Projektzuweisungen in .NET mit Aspose.Tasks verwalten. Entdecken Sie verschiedene Konturen für die Ressourcenplanung.
-type: docs
 weight: 13
 url: /de/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit Zuweisungen in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aufgaben in Aspose.Tasks für .NET arbeiten. Aufgaben sind im Projektmanagement von entscheidender Bedeutung, da sie Ressourcen den Aufgaben zuweisen und so bei der Planung und Verfolgung des Fortschritts helfen. Wir konzentrieren uns auf die Generierung zeitphasenbezogener Ressourcenzuweisungsdaten mit verschiedenen Konturen mithilfe von Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Ja, wie in diesem Tutorial gezeigt, können Sie je nach Projektanforderungen
 ### F5: Wo finde ich Unterstützung für Aspose.Tasks-bezogene Abfragen?
 
 A5: Unterstützung finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) wo Experten und Community-Mitglieder aktiv an Diskussionen teilnehmen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

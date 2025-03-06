@@ -3,10 +3,16 @@ title: Configurer la signature numérique MS Project PDF avec Aspose.Tasks
 linktitle: Configuration des détails de la signature numérique PDF dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les détails de la signature numérique Microsoft Project PDF à l'aide d'Aspose.Tasks pour .NET. Assurez la sécurité et l’authenticité de vos fichiers de projet.
-type: docs
 weight: 10
 url: /fr/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer la signature numérique MS Project PDF avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de configuration des détails de la signature numérique Microsoft Project PDF à l'aide d'Aspose.Tasks pour .NET. En suivant ces étapes, vous serez en mesure d'intégrer de manière transparente des signatures numériques dans vos fichiers MS Project, garantissant ainsi la sécurité et l'authenticité.
 ## Conditions préalables
@@ -84,3 +90,9 @@ R : Oui, vous pouvez personnaliser l'apparence de la signature numérique, notam
 R : Non, une fois qu'une signature numérique est appliquée à un PDF, elle ne peut pas être supprimée ou mise à jour. Cependant, vous pouvez ajouter des signatures supplémentaires si nécessaire.
 ### Q : Existe-t-il des limitations quant à la taille ou à la complexité du fichier Microsoft Project ?
 : Aspose.Tasks peut gérer des fichiers Microsoft Project de différentes tailles et complexités sans limitations. Cependant, les performances peuvent varier en fonction du matériel et des ressources disponibles.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

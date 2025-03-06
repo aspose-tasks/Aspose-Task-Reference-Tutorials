@@ -3,10 +3,16 @@ title: Aspose.Tasks में विस्तारित कार्य वि
 linktitle: Aspose.Tasks में विस्तारित कार्य विशेषताएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: Java के लिए Aspose.Tasks में विस्तारित कार्य विशेषताओं का अन्वेषण करें। चरण-दर-चरण मार्गदर्शिका, अक्सर पूछे जाने वाले प्रश्न और सहायता। आज ही अपने प्रोजेक्ट प्रबंधन को अनुकूलित करें!
-type: docs
 weight: 16
 url: /hi/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में विस्तारित कार्य विशेषताएँ
+
 ## परिचय
 जावा के लिए Aspose.Tasks में विस्तारित कार्य विशेषताओं का लाभ उठाने पर हमारी व्यापक मार्गदर्शिका में आपका स्वागत है। Aspose.Tasks एक शक्तिशाली जावा लाइब्रेरी है जो आपको Microsoft प्रोजेक्ट दस्तावेज़ों के साथ निर्बाध रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम विस्तारित कार्य विशेषताओं पर ध्यान देंगे और प्रदर्शित करेंगे कि आप अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाने के लिए उनका उपयोग कैसे कर सकते हैं।
 ## आवश्यक शर्तें
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं जावा के लिए Aspose.Tasks का पूर्ण संस्करण कहां से खरीद सकता हूं?
  आप पूर्ण संस्करण खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

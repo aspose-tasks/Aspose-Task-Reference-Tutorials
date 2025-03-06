@@ -3,10 +3,16 @@ title: Beherrschen von WBS-Codemasken mit Aspose.Tasks für .NET
 linktitle: Sammlung von WBS-Codemasken in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Verbessern Sie das Projektmanagement mit Aspose.Tasks für .NET. Erfahren Sie in diesem umfassenden Tutorial, wie Sie WBS-Codemasken mühelos erstellen, verwalten und übertragen.
-type: docs
 weight: 15
 url: /de/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von WBS-Codemasken mit Aspose.Tasks für .NET
+
 ## Einführung
 In der dynamischen Welt des Projektmanagements ist die effiziente Organisation von Aufgaben von entscheidender Bedeutung. Aspose.Tasks für .NET bietet eine leistungsstarke Lösung zur mühelosen Verwaltung von Projektstrukturplan-Codes (WBS). In diesem Tutorial befassen wir uns mit der Sammlung von WBS-Codemasken und untersuchen, wie diese mithilfe von Aspose.Tasks für .NET implementiert und bearbeitet werden.
 ## Voraussetzungen
@@ -139,3 +145,9 @@ A: Aspose.Tasks unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch In
 A: WBS-Codes helfen bei der hierarchischen Organisation und Strukturierung von Projektaufgaben und bieten einen systematischen Ansatz für die Projektplanung.
 ### F: Kann ich das Format von WBS-Codes in Aspose.Tasks für .NET anpassen?
 A: Auf jeden Fall haben Sie mit Aspose.Tasks für .NET die volle Kontrolle über das Format und die Struktur von WBS-Codes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestione delle tariffe e attività ricorrenti
 linktitle: Aspose.Tasks Gestione delle tariffe e attività ricorrenti
 second_title: Aspose.Tasks API .NET
 description: Gestione delle tariffe Master MS Project e attività ricorrenti con Aspose.Tasks .NET. Impara ad automatizzare le attività, gestire le tariffe e gestire le parti divise per i flussi di lavoro del progetto.
-type: docs
 weight: 28
 url: /it/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestione delle tariffe e attività ricorrenti
+
 
 ## introduzione
 
@@ -67,3 +73,9 @@ Scopri come salvare i file MS Project in vari formati utilizzando Aspose.Tasks p
 Scopri come gestire le parti divise di MS Project in modo efficiente con Aspose.Tasks per .NET. Migliora il flusso di lavoro della gestione dei progetti.
 ### [Raccogli il progetto MS di parti divise in Aspose.Tasks](./split-part-collection/)
 Scopri come raccogliere parti divise in MS Project utilizzando Aspose.Tasks per .NET. Questo tutorial completo ti guida attraverso il processo passo dopo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

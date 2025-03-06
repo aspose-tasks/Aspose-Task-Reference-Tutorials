@@ -3,10 +3,16 @@ title: Aspose.Tasks로 VBA 프로젝트 마스터하기가 쉬워졌습니다
 linktitle: Aspose.Tasks에서 VBA 프로젝트 작업
 second_title: Aspose.태스크 .NET API
 description: VBA 프로젝트를 손쉽게 관리할 수 있는 Aspose.Tasks for .NET의 강력한 기능을 살펴보세요. 이 단계별 가이드를 통해 프로젝트 관리 역량을 강화하세요.
-type: docs
 weight: 14
 url: /ko/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks로 VBA 프로젝트 마스터하기가 쉬워졌습니다
+
 ## 소개
 .NET을 사용하여 프로젝트 관리를 하고 있다면 Aspose.Tasks가 적합한 솔루션입니다. 이 튜토리얼에서는 Aspose.Tasks에서 VBA 프로젝트 작업의 복잡성을 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 프로세스를 명확하고 단순하게 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ A: 예, Aspose.Tasks는 모든 .NET 프로젝트와 원활하게 통합되어 �
  A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks는 어디서 구매할 수 있나요?
  A: Aspose.Tasks를 구매하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

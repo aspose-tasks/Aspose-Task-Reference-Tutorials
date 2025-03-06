@@ -3,10 +3,16 @@ title: Frissítse a feladatadatokat MPP formátumra az Aspose.Tasks alkalmazásb
 linktitle: Frissítse a feladatadatokat MPP formátumra az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan frissítheti a feladatadatokat MPP formátumra az Aspose.Tasks for Java segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony projektmenedzsment érdekében.
-type: docs
 weight: 35
 url: /hu/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse a feladatadatokat MPP formátumra az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban a feladatadatok MPP formátumra történő frissítéséről az Aspose.Tasks for Java használatával. Ebben az oktatóanyagban végigvezetjük a folyamaton, biztosítva, hogy minden lépést világosan megértsen. Az Aspose.Tasks for Java robusztus megoldást kínál a Microsoft Project fájlokkal való munkavégzéshez, és ennek az útmutatónak a végére képes lesz hatékonyan frissíteni a feladatok adatait MPP formátumban.
 ## Előfeltételek
@@ -93,3 +99,9 @@ Gratulálunk! Elkészített egy átfogó útmutatót a feladatadatok MPP formát
  V: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Kínál ideiglenes licenceket tesztelési célokra?
  V: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

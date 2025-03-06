@@ -3,10 +3,16 @@ title: Kelola Kriteria Grup Proyek MS dengan Aspose.Tasks
 linktitle: Mengelola Pengumpulan Kriteria Grup di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola kumpulan Proyek MS Kriteria Grup menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 28
 url: /id/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Kriteria Grup Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram. Dalam tutorial ini, kita akan mempelajari cara mengelola kumpulan Kriteria Grup dalam MS Project menggunakan Aspose.Tasks.
 
@@ -126,3 +132,9 @@ J: Tentu saja, Anda dapat menambahkan beberapa kriteria ke grup dengan mengulang
 ### Q5: Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
  J: Jika Anda memiliki pertanyaan atau menghadapi masalah apa pun, Anda dapat mencari dukungan dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

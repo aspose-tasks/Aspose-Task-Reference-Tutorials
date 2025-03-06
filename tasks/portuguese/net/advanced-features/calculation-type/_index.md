@@ -3,10 +3,16 @@ title: Tipo de cálculo em Aspose.Tasks
 linktitle: Tipo de cálculo em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como personalizar cálculos de valor em projetos .NET com Tipo de Cálculo na biblioteca Aspose.Tasks.
-type: docs
 weight: 30
 url: /pt/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tipo de cálculo em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos o recurso Tipo de cálculo em Aspose.Tasks for .NET. Aspose.Tasks é uma biblioteca poderosa que permite aos desenvolvedores .NET trabalhar com arquivos do Microsoft Project sem a necessidade do Microsoft Project instalado em seus sistemas. O Tipo de Cálculo nos permite definir como os valores são calculados para tarefas e tarefas de resumo dentro de um projeto.
@@ -97,3 +103,9 @@ A4: Sim, Aspose.Tasks fornece vários tipos de rollup, como Média, Soma e Conta
 ### P5: Onde posso encontrar mais recursos no Aspose.Tasks for .NET?
 
  R5: Você pode explorar a documentação e os fóruns de suporte da comunidade disponíveis no[Aspose.Tasks para .NET](https://reference.aspose.com/tasks/net/) para orientação e assistência abrangentes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

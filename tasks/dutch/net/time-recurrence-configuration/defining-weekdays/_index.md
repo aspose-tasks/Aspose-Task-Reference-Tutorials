@@ -3,10 +3,16 @@ title: Weekdagen beheersen in Aspose.Tasks voor .NET
 linktitle: Weekdagen definiëren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van het definiëren van weekdagen in Aspose.Tasks .NET. Volg onze gedetailleerde tutorial om projectkalenders efficiënt te beheren, werktijden aan te passen en meer.
-type: docs
 weight: 10
 url: /nl/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weekdagen beheersen in Aspose.Tasks voor .NET
+
 ## Invoering
 Als je in de wereld van projectmanagement duikt met Aspose.Tasks voor .NET, is het begrijpen en manipuleren van weekdagen een cruciaal aspect. Het efficiënt beheren en aanpassen van weekdagen binnen uw projectkalender kan een aanzienlijke impact hebben op de projecttijdlijnen. In deze zelfstudie begeleiden we u bij het definiëren van weekdagen met Aspose.Tasks, waarbij we stapsgewijze instructies en voorbeelden geven voor meer duidelijkheid.
 ## Vereisten
@@ -116,3 +122,9 @@ Gebruik de juiste methoden van de Aspose.Tasks-bibliotheek om indien nodig weekd
 Ja, alle wijzigingen aan weekdagen worden bij het opslaan weergegeven in het projectbestand.
 ### Kan ik Aspose.Tasks met andere programmeertalen gebruiken?
 Aspose.Tasks ondersteunt verschillende programmeertalen, maar de voorbeelden hier zijn specifiek voor .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

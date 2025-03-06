@@ -3,10 +3,16 @@ title: Az AND operátor használata minden körülmények között az Aspose.Tas
 linktitle: Az AND operátor használata minden körülmények között az Aspose.Tasks segítségével
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan használhatja az AND operátort minden körülmények között az Aspose.Tasks for .NET segítségével a projektfeladatok hatékony szűrésére.
-type: docs
 weight: 11
 url: /hu/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az AND operátor használata minden körülmények között az Aspose.Tasks segítségével
+
 ## Bevezetés
 
 Hatékonyan szeretné egyszerűsíteni projektmenedzsment feladatait? Az Aspose.Tasks for .NET segítségével hatékony funkciókat használhat a projektadatok hatékony kezeléséhez. Az egyik ilyen funkció az AND operátor minden körülmények között történő használatának lehetősége, amely lehetővé teszi a feladatok egyidejűleg több kritérium alapján történő szűrését. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a funkció megvalósításának folyamatán.
@@ -118,3 +124,9 @@ V1: Igen, bármilyen egyéni feltételt meghatározhat és alkalmazhat a projekt
 ### 5. kérdés: Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Tasks felhasználók számára?
 
  5. válasz: Igen, elérheti az Aspose.Tasks közösségi fórumot[itt](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

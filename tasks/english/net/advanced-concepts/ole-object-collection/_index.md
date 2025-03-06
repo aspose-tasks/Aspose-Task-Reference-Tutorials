@@ -3,10 +3,16 @@ title: Collection of OLE Objects in Aspose.Tasks
 linktitle: Collection of OLE Objects in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage OLE objects in Aspose.Tasks for .NET with this comprehensive tutorial. Master the handling of embedded files within project documents effortlessly.
-type: docs
 weight: 23
 url: /net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of OLE Objects in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll delve into the management of OLE (Object Linking and Embedding) objects in Aspose.Tasks for .NET. OLE objects enable users to embed or link files from other applications within a project file. We'll cover how to work with a collection of these objects step by step.
@@ -97,3 +103,10 @@ A4: Yes, you can avail of a free trial of Aspose.Tasks from [here](https://relea
 ### Q5: Where can I find support for Aspose.Tasks?
 
 A5: You can seek support and ask questions on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

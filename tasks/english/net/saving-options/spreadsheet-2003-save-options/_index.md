@@ -3,10 +3,16 @@ title: MS Project with Spreadsheet 2003 Options for Aspose.Tasks
 linktitle: Spreadsheet 2003 Save Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Spreadsheet 2003 Save MS Project Options with Aspose.Tasks for .NET. Seamlessly customize and save MS Project files programmatically.
-type: docs
 weight: 19
 url: /net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project with Spreadsheet 2003 Options for Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will delve into leveraging Aspose.Tasks for .NET to utilize the Spreadsheet 2003 Save MS Project Options. This powerful tool allows seamless manipulation and customization of MS Project files in the .NET environment. Let's break down the process step by step.
 ## Prerequisites
@@ -65,3 +71,10 @@ A: Aspose.Tasks for .NET offers extensive customization options for view columns
 A: Absolutely! You can find comprehensive support and resources on the Aspose.Tasks forum at [https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), where experts and community members are available to help resolve any queries or challenges you may face.
 ### Q: How can I obtain a temporary license for Aspose.Tasks for .NET?
 A: You can acquire a temporary license for Aspose.Tasks for .NET from the [purchase page](https://purchase.aspose.com/temporary-license/), enabling you to evaluate the full capabilities of the library.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

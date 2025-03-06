@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट पेज व्य
 linktitle: Aspose.Tasks में पेज व्यू सेटिंग्स कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: अपने Microsoft प्रोजेक्ट दस्तावेज़ों के मुद्रण प्रारूप को अनुकूलित करने के लिए .NET के लिए Aspose.Tasks में पृष्ठ दृश्य सेटिंग्स को कॉन्फ़िगर करने का तरीका जानें।
-type: docs
 weight: 21
 url: /hi/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट पेज व्यू सेटिंग्स को कस्टमाइज़ करें
+
 ## परिचय
 Microsoft प्रोजेक्ट प्रोजेक्ट प्रबंधन के लिए एक शक्तिशाली उपकरण है, लेकिन कभी-कभी आपको अपने प्रोजेक्ट को देखने और मुद्रित करने के तरीके को अनुकूलित करने की आवश्यकता होती है। .NET के लिए Aspose.Tasks के साथ, आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए पेज व्यू सेटिंग्स को आसानी से कॉन्फ़िगर कर सकते हैं। इस ट्यूटोरियल में, हम आपको चरण दर चरण प्रक्रिया के बारे में मार्गदर्शन देंगे।
 ## आवश्यक शर्तें
@@ -76,3 +82,9 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 उत्तर: Aspose.Tasks Microsoft Project 2003 और बाद के संस्करणों के साथ अनुकूलता प्रदान करता है।
 ### प्रश्न: Aspose.Tasks के लिए मुझे और सहायता या समर्थन कहां मिल सकता है?
  उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) उपयोग के दौरान आपके सामने आने वाली किसी भी पूछताछ या समस्या के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

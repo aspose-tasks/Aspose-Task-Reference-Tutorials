@@ -3,10 +3,16 @@ title: การกำหนดเวลางานพื้นฐานใน 
 linktitle: การกำหนดเวลางานพื้นฐานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีกำหนดเวลางานพื้นฐานอย่างมีประสิทธิภาพด้วย Aspose.Tasks for Java ปรับปรุงกระบวนการจัดการโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดเวลางานพื้นฐานใน Aspose.Tasks
+
 ## การแนะนำ
 การจัดการเส้นฐานของงานเป็นส่วนสำคัญของการจัดการโครงการ ทำให้คุณสามารถเปรียบเทียบความคืบหน้าที่วางแผนไว้กับความคืบหน้าจริงได้อย่างแม่นยำ ในบทช่วยสอนนี้ เราจะสำรวจวิธีดำเนินการกำหนดเวลางานพื้นฐานโดยใช้ Aspose.Tasks สำหรับ Java เมื่อทำตามขั้นตอนเหล่านี้ คุณจะพร้อมที่จะปรับปรุงกระบวนการจัดการโครงการของคุณอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  ใช่ คุณสามารถเข้าถึง Aspose.Tasks for Java รุ่นทดลองใช้ฟรีได้จาก[หน้าปล่อย](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  หากมีข้อสงสัยหรือความช่วยเหลือ คุณสามารถไปที่ฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

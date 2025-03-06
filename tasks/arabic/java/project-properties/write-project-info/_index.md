@@ -3,10 +3,16 @@ title: إتقان معالجة مشروع MS باستخدام Aspose.Tasks لـ 
 linktitle: اكتب معلومات المشروع في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة لمطوري جافا.
-type: docs
 weight: 12
 url: /ar/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان معالجة مشروع MS باستخدام Aspose.Tasks لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في استخدام Aspose.Tasks for Java، وهي مكتبة قوية لمعالجة ملفات Microsoft Project برمجيًا. سنركز على مهمة أساسية: كتابة معلومات MS Project باستخدام Aspose.Tasks. سواء كنت مطورًا متمرسًا أو بدأت رحلتك في برمجة Java، فسيرشدك هذا الدليل خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -61,3 +67,9 @@ project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
  ج: يمكنك طلب المساعدة من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  ج: نعم، التراخيص المؤقتة متاحة للاستخدام قصير المدى. يمكنك الحصول على واحدة من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Gantt Grafiği Zaman Ölçeği Katmanlarını Yapılandı
 linktitle: Aspose.Tasks'ta Zaman Ölçeği Katmanlarını Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Hassas proje zaman çizelgesi görselleştirmesi için Gantt Grafiği görünümünüzdeki zaman ölçeği katmanlarını yapılandırmak üzere Aspose.Tasks for .NET'i keşfedin. #Aspose.Tasks #MS Projesi
-type: docs
 weight: 16
 url: /tr/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Gantt Grafiği Zaman Ölçeği Katmanlarını Yapılandırma
+
 ## giriiş
 Proje yönetiminin dinamik ortamında, zaman çizelgelerini ve son teslim tarihlerini anlamak için etkili görselleştirme çok önemlidir. Aspose.Tasks for .NET güçlü bir araç seti sağlar ve bu eğitimde Gantt Grafiği görünümünde en iyi temsil için zaman ölçeği katmanlarının nasıl yapılandırılacağını keşfedeceğiz. Proje görselleştirmenizi geliştirmek için bu adım adım talimatları izleyin.
 ## Önkoşullar
@@ -86,3 +92,9 @@ Kesinlikle Aspose.Tasks, Gantt Grafiği görünümünün çeşitli proje gereksi
 Elbette, projenizin bağlamına en iyi şekilde uyacak zaman ölçeği gösterimi için çeşitli formatları ve stilleri keşfedebilirsiniz.
 ### Aspose.Tasks desteği için bir topluluk forumu var mı?
  Evet, ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

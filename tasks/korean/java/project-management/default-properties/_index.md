@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 속성을 효율적으로 관리
 linktitle: Aspose.Tasks에서 기본 프로젝트 속성 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 기본 MS 프로젝트 속성을 관리하는 방법을 알아보세요. 프로젝트 관리 워크플로를 손쉽게 간소화하세요.
-type: docs
 weight: 11
 url: /ko/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 속성을 효율적으로 관리
+
 ## 소개
 Aspose.Tasks for Java를 사용하여 프로젝트 관리 프로세스를 간소화하고 싶으십니까? Microsoft Project 파일의 기본 속성을 관리하면 효율성이 크게 향상될 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 기본 MS 프로젝트 속성을 관리하는 방법에 대한 단계별 지침을 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ A2: 물론이죠! 소규모 개인 프로젝트를 관리하든 대규모 기업
  A4: 물론이죠! 무료 평가판을 이용하실 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Q5: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  A5: 임시 면허는 다음 기관에서 받을 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

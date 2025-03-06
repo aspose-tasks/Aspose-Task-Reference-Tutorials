@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Dosya Bilgilerini Alma
 linktitle: Aspose.Tasks'ta Proje Dosyası Bilgilerini Alma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosya bilgilerini nasıl alacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 19
 url: /tr/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Dosya Bilgilerini Alma
+
 ## giriiş
 Aspose.Tasks for .NET kullanarak Microsoft Project dosya bilgilerinin alınmasına ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.Tasks, .NET geliştiricilerinin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerini okuma, yazma ve değiştirme gibi görevleri mümkün kılan güçlü bir kütüphanedir.
 ## Önkoşullar
@@ -58,3 +64,9 @@ Aspose.Tasks kesinlikle proje verilerini programlı olarak okumak, yazmak ve de�
  Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nereden destek alabilirim?
  Aspose.Tasks için destek alabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

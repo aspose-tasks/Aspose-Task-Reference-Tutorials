@@ -3,10 +3,16 @@ title: สร้างมุมมองโครงการ MS แบบกำ
 linktitle: มุมมองที่กำหนดเองใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีสร้างมุมมอง MS Project แบบกำหนดเองได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java เพิ่มประสิทธิภาพการจัดการโครงการด้วยมุมมองที่ปรับแต่ง
-type: docs
 weight: 24
 url: /th/java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างมุมมองโครงการ MS แบบกำหนดเองใน Aspose.Tasks
+
 ## การแนะนำ
 ในการจัดการโครงการ การปรับแต่งมุมมองสามารถเพิ่มความชัดเจนและประสิทธิภาพของการจัดการงานและทรัพยากรได้อย่างมาก Aspose.Tasks for Java มอบเครื่องมืออันทรงพลังเพื่อสร้างมุมมองแบบกำหนดเองที่ปรับให้เหมาะกับความต้องการเฉพาะของโปรเจ็กต์ ในบทช่วยสอนนี้ เราจะสำรวจวิธีสร้างมุมมอง MS Project แบบกำหนดเองโดยใช้ Aspose.Tasks สำหรับ Java ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -86,3 +92,9 @@ System.out.println("Parent Project of the view: " + view.getParentProject().get(
 ตอบ: แน่นอน Aspose.Tasks for Java มอบ API ที่ครอบคลุมสำหรับระบบอัตโนมัติ ช่วยให้นักพัฒนาสามารถสร้างและจัดการมุมมองแบบกำหนดเองทางโปรแกรมได้ตามต้องการ
 ### คำถามที่ 5: มีฟอรัมชุมชนสำหรับ Aspose.Tasks สำหรับการสนับสนุน Java หรือไม่
  ตอบ: ได้ คุณสามารถค้นหาความช่วยเหลือและมีส่วนร่วมกับผู้ใช้รายอื่นได้ใน[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสอบถามและการสนทนาที่เกี่ยวข้องกับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

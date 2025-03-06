@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Görevlerin Tamamlanma Yüzdesi Hesaplamaları
 linktitle: Aspose.Tasks'taki Görevlerin Tamamlanma Yüzdesi Hesaplamaları
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı keşfedin ve proje ilerleme takibini kolaylaştırın. Verimli proje yönetimi için görev yüzdelerini zahmetsizce hesaplayın.
-type: docs
 weight: 25
 url: /tr/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Görevlerin Tamamlanma Yüzdesi Hesaplamaları
+
 ## giriiş
 Aspose.Tasks for Java'yı kullanarak görev yüzdesi hesaplamalarında uzmanlaşmaya yönelik ayrıntılı kılavuzumuza hoş geldiniz. Aspose.Tasks, Microsoft Project dosyalarıyla çalışmak üzere tasarlanmış, proje yönetimi için güçlü özellikler sunan güçlü bir Java kütüphanesidir. Bu eğitimde, proje ilerlemesini etkili bir şekilde izlemeniz ve analiz etmeniz için size bilgi sağlayacak Tamamlanma Yüzdesi hesaplamalarına odaklanacağız.
 ## Önkoşullar
@@ -63,3 +69,9 @@ Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.asp
  Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Geçici lisansı nasıl alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การปรับแต่งสไตล์ Gantt Bar ด้วย A
 linktitle: สไตล์แกนต์บาร์ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีปรับแต่งสไตล์แท่งแกนต์ใน MS Project โดยใช้ Aspose.Tasks สำหรับ .NET ปรับปรุงการแสดงภาพโครงการได้อย่างง่ายดาย
-type: docs
 weight: 20
 url: /th/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับแต่งสไตล์ Gantt Bar ด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการทำงานกับสไตล์แท่งแกนต์ใน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET สไตล์แท่งแกนต์ช่วยให้คุณปรับแต่งลักษณะของแท่งในแผนภูมิแกนต์ได้ ซึ่งช่วยปรับปรุงการแสดงภาพข้อมูลโปรเจ็กต์ของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -68,3 +74,9 @@ Console.WriteLine("Style1.RightField: {0}", style1.RightField);
 ตอบ: ได้ คุณสามารถสร้างสไตล์แท่งแบบกำหนดเองใหม่และปรับแต่งคุณสมบัติตามความต้องการของโปรเจ็กต์ของคุณได้โดยใช้ Aspose.Tasks API
 ### ถาม: Aspose.Tasks รองรับฟังก์ชันการจัดการโครงการอื่นๆ นอกเหนือจากแผนภูมิแกนต์หรือไม่
 ตอบ: ใช่ Aspose.Tasks มีชุดคุณสมบัติที่ครอบคลุมสำหรับการทำงานกับข้อมูลการจัดการโครงการ รวมถึงการกำหนดเวลางาน การจัดการทรัพยากร และการวิเคราะห์โครงการ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

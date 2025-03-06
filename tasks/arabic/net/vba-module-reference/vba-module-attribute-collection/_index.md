@@ -3,10 +3,16 @@ title: إتقان سمات وحدة VBA في Aspose.Tasks
 linktitle: مجموعة سمات وحدة VBA في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في إدارة سمات الوحدة النمطية لـ VBA. قم بتحسين مشاريع .NET الخاصة بك بسهولة. التحميل الان! #تخصيص #المهام #مشروع MS
-type: docs
 weight: 12
 url: /ar/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان سمات وحدة VBA في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks لـ .NET! إذا كنت مطورًا يتطلع إلى تسخير قوة Aspose.Tasks لـ .NET في مشاريعك، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات العمل مع سمات الوحدة النمطية لـ VBA، مما يوفر لك دليلًا خطوة بخطوة حول كيفية استخدامها بفعالية في تطبيقات .NET الخاصة بك.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ foreach (var attribute in module.Attributes)
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني طلب الدعم لـ Aspose.Tasks لـ .NET؟
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

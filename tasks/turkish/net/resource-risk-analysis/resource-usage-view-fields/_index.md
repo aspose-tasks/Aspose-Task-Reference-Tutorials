@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Kullanımı Görünümü Alanlarının Toplanması
 linktitle: Aspose.Tasks'ta Kaynak Kullanımı Görünümü Alanlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki Kaynak Kullanımı Görünümü Alanlarına nasıl etkili bir şekilde erişeceğinizi ve bunları nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Kullanımı Görünümü Alanlarının Toplanması
+
 ## giriiş
 Proje yönetimi alanında Microsoft Project dosyalarının verimli bir şekilde kullanılması çok önemlidir. Aspose.Tasks for .NET, MS Project dosyalarıyla sorunsuz bir şekilde çalışmak için kapsamlı bir çözüm sunar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak Kaynak Kullanımı Görünümü Alanlarına erişme ve bunları kullanma sürecini ayrıntılı olarak ele alacağız.
 ## Önkoşullar
@@ -67,3 +73,9 @@ C: Kesinlikle! Aspose.Tasks for .NET, Kaynak Kullanımı Görünümü Alanların
  C: Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
 ### S: Aspose.Tasks for .NET için nasıl geçici lisans alabilirim?
  C: Geçici lisansı şu adresten alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

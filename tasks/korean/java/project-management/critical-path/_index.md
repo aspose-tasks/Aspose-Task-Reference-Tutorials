@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 중요한 MS 프로젝트 경로 계산
 linktitle: Aspose.Tasks 프로젝트에서 중요 경로 계산
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 주요 경로를 계산하는 방법을 알아보세요. 이는 효율적인 프로젝트 관리를 위한 단계별 지침을 제공합니다.
-type: docs
 weight: 10
 url: /ko/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 중요한 MS 프로젝트 경로 계산
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 주요 경로를 계산하는 과정을 안내합니다. 주요 경로는 프로젝트의 전체 일정이 지연되지 않도록 제 시간에 완료해야 하는 작업 순서를 식별하는 데 도움이 되므로 프로젝트 관리에 필수적입니다.
 ## 전제조건
@@ -72,3 +78,9 @@ A: 예, Aspose.Tasks for Java는 MS Project 2003부터 MS Project 2019까지 .mp
  A: 예, 다음에서 임시 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Java용 Aspose.Tasks를 어떻게 구입할 수 있나요?
  A: 웹사이트에서 Java용 Aspose.Tasks를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

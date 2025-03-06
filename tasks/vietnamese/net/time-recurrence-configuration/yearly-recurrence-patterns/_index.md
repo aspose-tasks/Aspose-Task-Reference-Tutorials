@@ -3,10 +3,16 @@ title: Nắm vững các mẫu lặp lại hàng năm trong Aspose.Tasks cho .NE
 linktitle: Định cấu hình các mẫu lặp lại hàng năm trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách đặt cấu hình mẫu lặp lại hàng năm trong Aspose.Tasks cho .NET. Nâng cao kỹ năng quản lý dự án của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 18
 url: /vi/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các mẫu lặp lại hàng năm trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án, việc xử lý các nhiệm vụ định kỳ một cách hiệu quả là một khía cạnh quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để định cấu hình các mẫu lặp lại hàng năm, cho phép bạn hợp lý hóa việc lập kế hoạch và quản lý dự án của mình. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thiết lập các mẫu lặp lại hàng năm bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Trong hướng dẫn này, chúng ta đã khám phá quy trình định cấu h�
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và giúp đỡ.
 ### Tôi có thể dùng thử Aspose.Tasks miễn phí trước khi mua không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

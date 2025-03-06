@@ -3,10 +3,16 @@ title: قراءة خصائص التعريف في مشاريع Aspose.Tasks
 linktitle: قراءة خصائص التعريف في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لقوة البيانات الوصفية في مشاريع Aspose.Tasks باستخدام هذا البرنامج التعليمي الشامل. تعلم كيفية استخراج الخصائص الوصفية والاستفادة منها بسهولة.
-type: docs
 weight: 10
 url: /ar/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة خصائص التعريف في مشاريع Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع وتحليل البيانات، يمكن أن يوفر الخوض في البيانات الوصفية لملفات المشروع رؤى لا تقدر بثمن. يقدم Aspose.Tasks for Java مجموعة أدوات قوية للتنقل عبر هذه الخصائص الوصفية دون عناء. يعد هذا البرنامج التعليمي بمثابة دليل شامل لاستخراج وفهم الخصائص الوصفية ضمن مشاريع Aspose.Tasks الخاصة بك.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
  ج: نعم، يمكنك العثور على وثائق شاملة لـ Aspose.Tasks على الموقع[صفحة التوثيق](https://reference.aspose.com/tasks/java/).
 ### س: أين يمكنني طلب الدعم للاستفسارات المتعلقة بـ Aspose.Tasks؟
  ج: للحصول على أي مساعدة أو استفسارات بخصوص Aspose.Tasks، يمكنك زيارة الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على الدعم المخصص من المجتمع والخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

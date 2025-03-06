@@ -3,10 +3,16 @@ title: Állítsa le és folytassa az erőforrás-hozzárendeléseket az Aspose.T
 linktitle: Állítsa le és folytassa az erőforrás-hozzárendeléseket az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Ezzel a lépésenkénti oktatóanyaggal megtudhatja, hogyan kezelheti hatékonyan az erőforrás-hozzárendeléseket az Aspose.Tasks for Java programban.
-type: docs
 weight: 23
 url: /hu/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa le és folytassa az erőforrás-hozzárendeléseket az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan állíthatjuk le és folytathatjuk az erőforrás-hozzárendeléseket az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak anélkül, hogy Microsoft Projectet kellene telepíteniük a rendszerükre. A folyamatot kezelhető lépésekre bontjuk, hogy könnyen követhető legyen.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Igen, az Aspose.Tasks lehetővé teszi a Microsoft Project fájlokkal való munk
 Támogatást kaphat a közösségtől[itt](https://forum.aspose.com/c/tasks/15).
 ### Vásárolhatok ideiglenes licencet?
  Igen, vásárolhat ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

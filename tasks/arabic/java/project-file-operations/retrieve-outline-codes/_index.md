@@ -3,10 +3,16 @@ title: استرداد رموز المخطط التفصيلي لمشروع MS ف�
 linktitle: استرداد رموز المخطط التفصيلي في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استرداد رموز مخطط Microsoft Project برمجياً باستخدام Aspose.Tasks لـ Java. تعزيز قدرات إدارة المشروع الخاص بك.
-type: docs
 weight: 15
 url: /ar/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد رموز المخطط التفصيلي لمشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعلم كيفية استرداد رموز المخطط التفصيلي لـ Microsoft Project باستخدام Aspose.Tasks لـ Java. توفر رموز المخطط التفصيلي في MS Project طريقة منظمة لتصنيف وتنظيم مهام المشروع والموارد والواجبات. Aspose.Tasks هي مكتبة Java قوية تسمح للمطورين بمعالجة وإدارة ملفات Microsoft Project برمجياً.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ for (OutlineValue v1 : ocd.getValues()) {
  ج: نعم، يمكنك شراء ترخيص مؤقت لـ Aspose.Tasks لـ Java من[صفحة الشراء](https://purchase.aspose.com/temporary-license/).
 ### س5: أين يمكنني العثور على الوثائق الكاملة لـ Aspose.Tasks لـ Java؟
  ج: يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/tasks/java/) للحصول على معلومات تفصيلية حول استخدام Aspose.Tasks لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

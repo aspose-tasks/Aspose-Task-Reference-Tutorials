@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập thuộc tính dự án MS trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập thuộc tính mở rộng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý hiệu quả các thuộc tính mở rộng của MS Project bằng Aspose.Tasks cho .NET. Thao tác liền mạch các thuộc tính nhiệm vụ với hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập thuộc tính dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách quản lý hiệu quả các thuộc tính mở rộng của MS Project bằng Aspose.Tasks cho .NET? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -105,3 +111,9 @@ Trả lời: Aspose.Tasks dành cho .NET không áp đặt giới hạn cố h�
 Trả lời: Có, Aspose.Tasks for .NET hỗ trợ các định dạng tệp MS Project trên các phiên bản khác nhau.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
  Đ: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

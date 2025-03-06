@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks के साथ MS प्रोजे
 linktitle: Aspose.Tasks में व्यू कॉलम को संभालना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ प्रोजेक्ट विज़ुअलाइज़ेशन बढ़ाएँ। एमएस प्रोजेक्ट व्यू कॉलम को चरण-दर-चरण संभालना सीखें। दक्षता और अनुकूलन को बढ़ावा दें।
-type: docs
 weight: 12
 url: /hi/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट व्यू कॉलम में महारत हासिल करना
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों को संभालने के लिए एक शक्तिशाली टूलकिट के रूप में सामने आता है। प्रोजेक्ट विज़ुअलाइज़ेशन के आवश्यक पहलुओं में से एक दृश्य कॉलम को कुशलतापूर्वक प्रबंधित करना है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके MS प्रोजेक्ट व्यू कॉलम को संभालने का तरीका जानेंगे, जो आपको अपने प्रोजेक्ट व्यू को अनुकूलित और अनुकूलित करने के लिए सशक्त करेगा।
 ## आवश्यक शर्तें
@@ -80,3 +86,9 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
  ए: द`MyTextStyleCallback` कक्षा दर्शाती है कि विशिष्ट दृश्यों में बेहतर दृश्य प्रतिनिधित्व के लिए पाठ शैलियों को कैसे अनुकूलित किया जाए।
 ### प्रश्न: Aspose.Tasks के लिए मुझे अतिरिक्त संसाधन और दस्तावेज़ कहां मिल सकते हैं?
  ए: का संदर्भ लें[Aspose.कार्य दस्तावेज़ीकरण](https://reference.aspose.com/tasks/net/) गहन मार्गदर्शन और संसाधनों के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

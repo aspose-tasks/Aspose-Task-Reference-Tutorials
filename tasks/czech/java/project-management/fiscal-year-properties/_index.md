@@ -3,10 +3,16 @@ title: Správa vlastností fiskálního roku v Aspose.Tasks
 linktitle: Správa vlastností fiskálního roku v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně spravovat vlastnosti fiskálního roku pomocí Aspose.Tasks for Java. Průvodce krok za krokem s ukázkami.
-type: docs
 weight: 15
 url: /cs/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vlastností fiskálního roku v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks je výkonná Java knihovna, která umožňuje vývojářům efektivně spravovat soubory projektu, včetně zpracování vlastností fiskálního roku. V tomto tutoriálu si projdeme procesem správy vlastností fiskálního roku pomocí Aspose.Tasks v Javě.
 ## Předpoklady
@@ -66,3 +72,9 @@ Odpověď: Ano, Aspose.Tasks podporuje širokou škálu formátů projektových 
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks z[tady](https://releases.aspose.com/).
 ### Otázka: Kde si mohu zakoupit licenci pro Aspose.Tasks for Java?
  A: Můžete si zakoupit licenci pro Aspose.Tasks for Java od[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

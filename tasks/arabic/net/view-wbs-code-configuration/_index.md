@@ -3,10 +3,16 @@ title: عرض Aspose.Tasks وتكوين كود WBS
 linktitle: عرض Aspose.Tasks وتكوين كود WBS
 second_title: Aspose.Tasks .NET API
 description: إتقان Aspose.Tasks لعروض .NET وأكواد WBS. قم بتخصيص إدارة المشروع من خلال برامجنا التعليمية خطوة بخطوة. قم بالتنزيل الآن للحصول على تصور سلس للمشروع.
-type: docs
 weight: 32
 url: /ar/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض Aspose.Tasks وتكوين كود WBS
+
 
 ## مقدمة
 
@@ -56,3 +62,9 @@ url: /ar/net/view-wbs-code-configuration/
 تحسين إدارة المشروعات باستخدام Aspose.Tasks لـ .NET. تعلم كيفية إنشاء أقنعة WBS Code وإدارتها ونقلها بسهولة في هذا البرنامج التعليمي الشامل.
 ### [تحديد تسلسلات WBS في Aspose.Tasks](./wbs-sequences/)
 قم بتمكين إدارة مشروعك باستخدام Aspose.Tasks for .NET - حدد تسلسلات WBS بسلاسة وعزز الكفاءة دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

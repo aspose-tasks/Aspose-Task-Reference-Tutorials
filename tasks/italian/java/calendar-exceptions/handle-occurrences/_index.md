@@ -3,10 +3,16 @@ title: Gestire le occorrenze nelle eccezioni del calendario utilizzando Aspose.T
 linktitle: Gestire le occorrenze nelle eccezioni del calendario utilizzando Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire le eccezioni del calendario in modo efficace nei progetti Java con Aspose.Tasks per Java. Semplifica subito il processo di gestione del progetto.
-type: docs
 weight: 12
 url: /it/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire le occorrenze nelle eccezioni del calendario utilizzando Aspose.Tasks
+
 ## introduzione
 Nell'ambito della gestione dei progetti, gestire le eccezioni nei calendari è fondamentale per mantenere l'accuratezza e l'efficienza. Aspose.Tasks per Java fornisce un potente toolkit per la gestione delle attività relative al progetto, inclusa la gestione efficace degli eventi all'interno dei calendari. In questo tutorial esploreremo come gestire le eccezioni nelle occorrenze del calendario utilizzando Aspose.Tasks per Java.
 ## Prerequisiti
@@ -59,3 +65,9 @@ Aggiornamenti e miglioramenti vengono regolarmente implementati da Aspose, garan
 Sì, Aspose.Tasks offre ampie opzioni di personalizzazione, consentendo agli utenti di personalizzare le eccezioni del calendario per soddisfare le esigenze specifiche del proprio progetto.
 ### Aspose.Tasks offre una prova gratuita prima dell'acquisto?
  Sì, gli utenti interessati possono accedere a una prova gratuita di Aspose.Tasks per Java da[sito web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

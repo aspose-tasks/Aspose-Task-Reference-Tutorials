@@ -3,10 +3,16 @@ title: Čtení dat projektu
 linktitle: Čtení dat projektu
 second_title: Aspose.Tasks Java API
 description: Odemkněte sílu Aspose.Tasks pro Javu pomocí našich výukových programů! Zvládněte bezproblémovou integraci od čtení definic skupin po extrakci dat Ganttova diagramu.
-type: docs
 weight: 28
 url: /cs/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Čtení dat projektu
+
 ## Úvod
 Pokud se pohybujete v rozsáhlém prostředí projektového řízení v Javě, naše výukové programy Aspose.Tasks jsou vašimi hlavními hvězdami. Ponořte se do sféry, kde se čtení projektových dat stane snadnou cestou díky našim podrobným průvodcům. Vydejme se společně do tohoto vědomostního dobrodružství!
 
@@ -48,3 +54,9 @@ Naučte se, jak číst soubory chráněné heslem v Aspose.Tasks for Java bez n�
 Naučte se extrahovat konkrétní data Ganttova diagramu pomocí Aspose.Tasks for Java. Výukový program krok za krokem pro bezproblémovou integraci do vašich aplikací Java.
 ### [Přečtěte si data tabulky ze souboru v Aspose.Tasks](./read-table-data/)
 Odemkněte sílu Aspose.Tasks for Java. Naučte se extrahovat data tabulky ze souborů v tomto komplexním kurzu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

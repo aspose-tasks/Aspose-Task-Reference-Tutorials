@@ -3,10 +3,16 @@ title: Zpracování výjimky pro neplatnou velikost pro bitmapu v Aspose.Tasks
 linktitle: Zpracování výjimky pro neplatnou velikost pro bitmapu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak zacházet s BitmapInvalidSizeException v Aspose.Tasks for .NET při ukládání projektů jako obrázků. Komplexní výukový program s návodem krok za krokem.
-type: docs
 weight: 22
 url: /cs/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování výjimky pro neplatnou velikost pro bitmapu v Aspose.Tasks
+
 ## Úvod
 
  V tomto tutoriálu se ponoříme do manipulace s`BitmapInvalidSizeException` při práci s Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která vývojářům umožňuje programově manipulovat se soubory aplikace Microsoft Project, což umožňuje úkoly, jako je ukládání projektů jako obrázků. Občas se však při pokusu o uložení projektu jako obrázku můžeme setkat s`Invalid Size Exception`související s bitmapou. Tento tutoriál vás provede procesem efektivního zachycení a zpracování této výjimky.
@@ -111,3 +117,9 @@ Odpověď 4: Ano, Aspose.Tasks podporuje různé verze souborů aplikace Microso
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
 
 Odpověď 5: Můžete získat dočasnou licenci pro účely hodnocení prostřednictvím poskytnutého odkazu v článku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

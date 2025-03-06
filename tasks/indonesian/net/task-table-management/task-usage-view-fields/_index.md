@@ -3,10 +3,16 @@ title: Mengungkap Bidang Tampilan Penggunaan Tugas di Aspose.Tasks
 linktitle: Kumpulan Bidang Tampilan Penggunaan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET untuk mengelola dan memvisualisasikan data proyek dengan mudah. Selami Bidang Tampilan Penggunaan Tugas untuk meningkatkan wawasan proyek.
-type: docs
 weight: 25
 url: /id/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengungkap Bidang Tampilan Penggunaan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Di bidang manajemen proyek, Aspose.Tasks untuk .NET berdiri sebagai solusi tangguh, menyediakan perangkat canggih bagi pengembang untuk memanipulasi dan mengelola data proyek. Salah satu fitur penting adalah Tampilan Penggunaan Tugas, yang menawarkan wawasan tentang berbagai bidang yang meningkatkan visibilitas proyek. Dalam tutorial ini, kita akan mempelajari seluk-beluk Bidang Tampilan Penggunaan Tugas menggunakan Aspose.Tasks untuk .NET, menguraikan setiap langkah untuk pemahaman yang komprehensif.
 ## Prasyarat
@@ -64,3 +70,9 @@ Aspose.Tasks terutama berfokus pada aplikasi .NET. Namun, Anda dapat mengekspor 
  Ya, Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
 ### Format file apa yang didukung untuk dokumen proyek?
 Aspose.Tasks untuk .NET mendukung berbagai format, termasuk MPP, XML, dan CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

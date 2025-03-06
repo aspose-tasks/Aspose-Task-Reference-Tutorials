@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握挣值 MS 项目方法
 linktitle: Aspose.Tasks 中的挣值方法类型
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 掌握挣值 MS 项目方法类型。轻松提高项目管理效率。
-type: docs
 weight: 10
 url: /zh/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握挣值 MS 项目方法
+
 ## 介绍
 在项目管理领域，利用正确的工具和方法对于成功至关重要。 Aspose.Tasks for .NET 提供了一个强大的框架来有效管理项目相关任务。其中一个重要方面是利用挣值管理 (EVM) 方法，该方法通过比较计划工作与实际完成的工作来深入了解项目绩效。在本教程中，我们将使用 Aspose.Tasks for .NET 深入了解和实现挣值 MS 项目方法类型。
 ## 先决条件
@@ -53,3 +59,9 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 答：是的，Aspose.Tasks for .NET 可以使用临时许可证。您可以从以下位置获取它们：[临时牌照](https://purchase.aspose.com/temporary-license/)
 ### 问：在哪里可以购买 Aspose.Tasks for .NET？
 答：您可以从以下网站购买 Aspose.Tasks for .NET：[购买](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

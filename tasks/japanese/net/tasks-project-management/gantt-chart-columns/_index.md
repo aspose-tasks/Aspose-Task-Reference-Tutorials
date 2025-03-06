@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用してガント チャートの列をカスタマ�
 linktitle: Aspose.Tasks のガント チャートの列
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でガント チャートの列を調整して、特定のタスク情報を効率的に表示する方法を学びます。
-type: docs
 weight: 21
 url: /ja/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用してガント チャートの列をカスタマイズする
+
 ## 導入
 ガント チャートはプロジェクト管理の基本ツールであり、タスク、タイムライン、リソースを視覚的に表現します。 Aspose.Tasks for .NET は、特定のタスク情報を表示する列のカスタマイズなど、ガント チャートを操作するための強力な機能を提供します。このチュートリアルでは、Aspose.Tasks for .NET を使用してガント チャートの列を操作する方法を説明します。
 ## 前提条件
@@ -99,3 +105,9 @@ A: Aspose.Tasks for .NET は、複雑なプロジェクト構造を管理する�
 A: Aspose.Tasks for .NET は広範なカスタマイズ オプションを提供しており、制限なくガント チャートに多数の列を追加できます。
 ### Q: Aspose.Tasks for .NET の追加のサポートとリソースはどこで見つけられますか?
 A: Aspose.Tasks for .NET が提供するドキュメント、コミュニティ フォーラム、サポート チャネルを調べて、包括的なリソースや支援にアクセスできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

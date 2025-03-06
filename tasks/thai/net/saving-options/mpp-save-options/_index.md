@@ -3,10 +3,16 @@ title: บันทึกตัวเลือกโครงการ MS สำ
 linktitle: ตัวเลือกการบันทึก MPP สำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีบันทึกตัวเลือก MS Project ได้อย่างง่ายดายด้วย Aspose.Tasks for .NET เพิ่มประสิทธิภาพการจัดการโครงการของคุณ
-type: docs
 weight: 12
 url: /th/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกตัวเลือกโครงการ MS สำหรับ Aspose.Tasks ได้อย่างง่ายดาย
+
 ## การแนะนำ
 ในโลกของการพัฒนา .NET การจัดการและการจัดการไฟล์โครงการอย่างมีประสิทธิภาพเป็นสิ่งสำคัญสำหรับความสำเร็จ Aspose.Tasks for .NET นำเสนอโซลูชันอันทรงพลังในการจัดการไฟล์ Microsoft Project (MPP) ได้อย่างง่ายดาย ในบรรดาคุณสมบัติมากมาย Aspose.Tasks ช่วยให้ผู้ใช้สามารถบันทึกตัวเลือก MS Project ได้อย่างราบรื่น ปรับปรุงขั้นตอนการทำงานและรับประกันความสมบูรณ์ของโครงการ ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการบันทึกตัวเลือก MS Project โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -67,3 +73,9 @@ project.Save(stream, options);
  ใบอนุญาตชั่วคราวช่วยให้คุณสามารถประเมิน Aspose.Tasks สำหรับ .NET ได้โดยไม่มีข้อจำกัดใดๆ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะซื้อ Aspose.Tasks สำหรับ .NET เวอร์ชันลิขสิทธิ์ได้ที่ไหน
  คุณสามารถซื้อ Aspose.Tasks สำหรับ .NET เวอร์ชันลิขสิทธิ์ได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

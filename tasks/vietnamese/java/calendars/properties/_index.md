@@ -3,10 +3,16 @@ title: Quản lý thuộc tính lịch dự án MS trong Aspose.Tasks
 linktitle: Quản lý thuộc tính lịch trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý các thuộc tính lịch MS Project trong Java bằng Aspose.Tasks. Điều này cung cấp hướng dẫn từng bước về lịch trong các ứng dụng Java của bạn.
-type: docs
 weight: 10
 url: /vi/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thuộc tính lịch dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các thuộc tính lịch của MS Project bằng Aspose.Tasks cho Java. Bằng cách hiểu cách thao tác các thuộc tính lịch, bạn có thể điều chỉnh lịch trình dự án để đáp ứng các yêu cầu cụ thể một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Aspose.Tasks cung cấp tính linh hoạt cao trong quản lý lị
 Trả lời: Có, Aspose.Tasks cung cấp nhiều chức năng để quản lý nhiệm vụ, tài nguyên và cấu trúc dự án, khiến nó trở thành giải pháp toàn diện để quản lý dự án trong Java.
 ### Câu hỏi: Có hỗ trợ kỹ thuật cho các nhà phát triển sử dụng Aspose.Tasks không?
 Trả lời: Có, các nhà phát triển có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn Aspose.Tasks, đảm bảo hỗ trợ cho mọi thắc mắc hoặc vấn đề gặp phải trong quá trình triển khai.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

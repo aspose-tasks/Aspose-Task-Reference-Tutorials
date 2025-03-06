@@ -3,10 +3,16 @@ title: Bereken het kritieke MS-projectpad in Aspose.Tasks
 linktitle: Bereken het kritieke pad in Aspose.Tasks-projecten
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u het kritieke pad in MS Project kunt berekenen met Aspose.Tasks voor Java. Dit biedt stapsgewijze begeleiding voor efficiënt projectmanagement.
-type: docs
 weight: 10
 url: /nl/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bereken het kritieke MS-projectpad in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het berekenen van het kritieke pad in MS Project met behulp van Aspose.Tasks voor Java. Het kritieke pad is essentieel voor projectmanagement, omdat het helpt bij het identificeren van de volgorde van taken die op tijd moeten worden voltooid om ervoor te zorgen dat de algehele planning van het project geen vertraging oploopt.
 ## Vereisten
@@ -72,3 +78,9 @@ A: Ja, Aspose.Tasks voor Java ondersteunt verschillende versies van MS Project-b
  A: Ja, u kunt een tijdelijke licentie kopen bij[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Hoe kan ik Aspose.Tasks voor Java kopen?
  A: U kunt Aspose.Tasks voor Java kopen via de website[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

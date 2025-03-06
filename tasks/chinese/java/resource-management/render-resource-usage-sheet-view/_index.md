@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的渲染资源使用情况和工作表视图
 linktitle: Aspose.Tasks 中的渲染资源使用情况和工作表视图
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中渲染 MS Project 资源使用情况和工作表视图。按照我们的分步指南轻松生成详细的 PDF 报告。
-type: docs
 weight: 16
 url: /zh/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的渲染资源使用情况和工作表视图
+
 ## 介绍
 在本教程中，我们将学习如何使用 Aspose.Tasks for Java 渲染 MS Project 资源使用情况和工作表视图。 Aspose.Tasks 是一个功能强大的 Java 库，允许开发人员使用 Microsoft Project 文件，而无需安装 Microsoft Project。
 ## 先决条件
@@ -78,3 +84,9 @@ Aspose.Tasks 支持渲染各种视图，例如甘特图、任务使用情况和�
 不需要，Aspose.Tasks 是一个独立的库，不需要安装 Microsoft Project 即可运行。
 ### Aspose.Tasks 用户可以获得技术支持吗？
 是的，Aspose.Tasks 用户可以通过以下方式获得技术支持：[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

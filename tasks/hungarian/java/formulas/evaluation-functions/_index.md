@@ -3,10 +3,16 @@ title: Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
 linktitle: Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan támogassa az MS Project függvények kiértékelését Aspose.Tasks képletekben Java használatával. Növelje termelékenységét az Aspose.Tasks segítségével.
-type: docs
 weight: 10
 url: /hu/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
+
 
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Az egyik legfontosabb jellemzője, hogy támogatja az MS Project függvények kiértékelését az Aspose.Tasks formulákon belül. Ez a képesség lehetővé teszi a felhasználók számára, hogy összetett számításokat és elemzéseket végezzenek közvetlenül a Java-alkalmazásokon belül.
@@ -65,3 +71,9 @@ V: Igen, az Aspose.Tasks for Java támogatja a Microsoft Project fájlok külön
 V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Rendelkezésre áll ideiglenes licenc az Aspose.Tasks for Java számára?
  V: Igen, tesztelési célból ideiglenes licencet szerezhet be az Aspose webhelyéről[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menguasai Masker Garis Besar Proyek Microsoft di Aspose.Tasks
 linktitle: Bekerja dengan Outline Mask di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja dengan file Microsoft Project secara terprogram menggunakan Aspose.Tasks untuk .NET. Kuasai masker garis besar secara efisien.
-type: docs
 weight: 14
 url: /id/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Masker Garis Besar Proyek Microsoft di Aspose.Tasks
+
 ## Perkenalan
 Di bidang manajemen proyek dan pelacakan tugas, Microsoft Project berdiri sebagai alat landasan. Namun, ketika memanipulasi dan mengelola file proyek secara terprogram, Aspose.Tasks untuk .NET muncul sebagai solusi yang ampuh. Tutorial ini akan mempelajari satu aspek spesifik dalam bekerja dengan file MS Project menggunakan Aspose.Tasks untuk .NET: menangani masker garis besar.
 ## Prasyarat
@@ -76,3 +82,9 @@ A: Memang benar, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose
  J: Tentu saja! Anda dapat mengakses uji coba gratis Aspose.Tasks[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  J: Jika Anda memerlukan lisensi sementara untuk tujuan evaluasi atau pengujian, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

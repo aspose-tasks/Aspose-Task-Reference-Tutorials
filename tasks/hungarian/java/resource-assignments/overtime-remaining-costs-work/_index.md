@@ -3,10 +3,16 @@ title: Figyelje a túlórákat, a fennmaradó költségeket és a munkát az Asp
 linktitle: Figyelje a túlórákat, a fennmaradó költségeket és a munkát az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan figyelheti a túlórákat, a fennmaradó költségeket, és hogyan dolgozhat a Java-projektekben az Aspose.Tasks használatával. Egyszerű lépések a hatékony projektmenedzsmenthez.
-type: docs
 weight: 18
 url: /hu/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Figyelje a túlórákat, a fennmaradó költségeket és a munkát az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan használhatjuk az Aspose.Tasks for Java alkalmazást a túlórák, a fennmaradó költségek és a projektben végzett munka nyomon követésére. Ez felbecsülhetetlen értékű lehet a projektmenedzserek és a csapatvezetők számára annak érdekében, hogy a projektek a tervek szerint és a költségvetésen belül maradjanak.
 ## Előfeltételek
@@ -73,3 +79,9 @@ Igen, az Aspose.Tasks különféle projektfájlformátumokat támogat, beleértv
  Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) támogatásért.
 ### Hogyan vásárolhatok licencet az Aspose.Tasks számára?
  Engedélyt vásárolhat innen[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

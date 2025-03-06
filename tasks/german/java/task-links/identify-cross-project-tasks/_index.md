@@ -3,10 +3,16 @@ title: Identifizieren Sie projektübergreifende Aufgaben in Aspose.Tasks
 linktitle: Identifizieren Sie projektübergreifende Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie die projektübergreifende Aufgabenidentifizierung mit Aspose.Tasks für Java. Nahtlose Integration und effizientes Management. Jetzt downloaden!
-type: docs
 weight: 14
 url: /de/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifizieren Sie projektübergreifende Aufgaben in Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem umfassenden Tutorial zur effizienten Identifizierung projektübergreifender Aufgaben mit Aspose.Tasks für Java. Unabhängig davon, ob Sie ein erfahrener Entwickler oder ein Anfänger sind, führt Sie dieser Leitfaden durch den Prozess der nahtlosen Integration dieser Funktionalität in Ihre Java-Projekte.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ A: Ja, Aspose.Tasks unterstützt mehrere Programmiersprachen, darunter Java, .NE
  A: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Benötigen Sie Hilfe oder haben Sie spezielle Fragen?
 A: Besuchen Sie das Aspose.Tasks-Supportforum[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

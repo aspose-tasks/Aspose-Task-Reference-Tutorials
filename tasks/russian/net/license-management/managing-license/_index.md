@@ -3,10 +3,16 @@ title: Управление лицензией MS Project в Aspose.Tasks .NET
 linktitle: Управление лицензией Aspose.Tasks в .NET
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко управлять лицензиями Aspose.Tasks в приложениях .NET, используя подходы на основе файлов или потоков.
-type: docs
 weight: 10
 url: /ru/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление лицензией MS Project в Aspose.Tasks .NET
+
 ## Введение
 Управление лицензиями — важнейший аспект эффективного использования Aspose.Tasks в приложениях .NET. Без надлежащего лицензирования вы можете столкнуться с ограничениями или ограничениями на использование. К счастью, Aspose.Tasks предоставляет простые методы применения лицензий с использованием файлов или потоков в ваших проектах .NET. В этом руководстве мы шаг за шагом рассмотрим, как управлять лицензиями Aspose.Tasks в приложениях .NET.
 ## Предварительные условия
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### Вопрос: Могу ли я использовать один и тот же файл лицензии для нескольких приложений?
 
 О: Да, вы можете использовать один и тот же файл лицензии в нескольких приложениях, разработанных одним лицензиатом. Однако убедитесь, что ваша лицензия соответствует условиям использования, указанным Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

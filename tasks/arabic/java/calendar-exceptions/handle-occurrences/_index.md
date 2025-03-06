@@ -3,10 +3,16 @@ title: التعامل مع الأحداث في استثناءات التقويم
 linktitle: التعامل مع الأحداث في استثناءات التقويم باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع استثناءات التقويم بشكل فعال في مشاريع Java باستخدام Aspose.Tasks for Java. قم بتبسيط عملية إدارة مشروعك الآن.
-type: docs
 weight: 12
 url: /ar/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الأحداث في استثناءات التقويم باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التعامل مع الاستثناءات في التقويمات أمرًا بالغ الأهمية للحفاظ على الدقة والكفاءة. يوفر Aspose.Tasks for Java مجموعة أدوات قوية لإدارة المهام المتعلقة بالمشروع، بما في ذلك التعامل مع الأحداث داخل التقويمات بشكل فعال. في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة الاستثناءات في أحداث التقويم باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ except.setType(CalendarExceptionType.YearlyByDay);
 نعم، يوفر Aspose.Tasks خيارات تخصيص واسعة النطاق، مما يسمح للمستخدمين بتخصيص استثناءات التقويم لتلبية الاحتياجات الفريدة لمشروعهم.
 ### هل يقدم Aspose.Tasks نسخة تجريبية مجانية قبل الشراء؟
  نعم، يمكن للمستخدمين المهتمين الوصول إلى الإصدار التجريبي المجاني من Aspose.Tasks لـ Java من[موقع إلكتروني](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

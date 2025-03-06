@@ -3,10 +3,16 @@ title: Aspose.Tasks 수식에서 평가 기능 지원
 linktitle: Aspose.Tasks 수식에서 평가 기능 지원
 second_title: Aspose.Tasks 자바 API
 description: Java를 사용하여 Aspose.Tasks 수식에서 MS Project 함수 평가를 지원하는 방법을 알아보세요. Aspose.Tasks로 생산성을 높이세요.
-type: docs
 weight: 10
 url: /ko/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 수식에서 평가 기능 지원
+
 
 ## 소개
 Aspose.Tasks for Java는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 주요 기능 중 하나는 Aspose.Tasks 공식 내에서 MS 프로젝트 기능 평가를 지원하는 기능입니다. 이 기능을 통해 사용자는 Java 애플리케이션 내에서 직접 복잡한 계산 및 분석을 수행할 수 있습니다.
@@ -65,3 +71,9 @@ A: 예, Aspose.Tasks for Java는 MPP, MPT 및 XML 형식을 포함한 다양한 
 A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks for Java에 사용할 수 있는 임시 라이선스가 있나요?
  A: 예, Aspose 웹사이트에서 테스트 목적으로 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

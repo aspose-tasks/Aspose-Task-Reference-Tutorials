@@ -3,10 +3,16 @@ title: Manipulujte s rozšířenými atributy MS Project pomocí Aspose.Tasks
 linktitle: Práce s rozšířenými atributy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se pracovat s rozšířenými atributy MS Project pomocí Aspose.Tasks for .NET. Snadno manipulujte s daty úloh programově.
-type: docs
 weight: 11
 url: /cs/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulujte s rozšířenými atributy MS Project pomocí Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Jednou z klíčových vlastností této knihovny je její schopnost pracovat s rozšířenými atributy MS Project. Rozšířené atributy poskytují další přizpůsobení a metadata úkolům v projektu a umožňují uživatelům ukládat a spravovat specifické informace nad rámec standardních vlastností úkolu.
 V tomto tutoriálu prozkoumáme, jak pracovat s rozšířenými atributy MS Project pomocí Aspose.Tasks for .NET. Pokryjeme předpoklady, importujeme jmenné prostory a rozdělíme každý příklad do několika kroků ve formátu podrobného průvodce. Na konci tohoto kurzu budete dobře rozumět tomu, jak využít rozšířené atributy ve vašich aplikacích .NET.
@@ -72,3 +78,9 @@ Ano, pro komerční použití Aspose.Tasks for .NET je nutné zakoupit licenci. 
 Ano, Aspose.Tasks for .NET poskytuje rozsáhlé možnosti přizpůsobení rozšířených atributů tak, aby vyhovovaly specifickým potřebám vašeho projektu.
 ### Kde mohu získat podporu, pokud při používání Aspose.Tasks pro .NET narazím na nějaké problémy?
  Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

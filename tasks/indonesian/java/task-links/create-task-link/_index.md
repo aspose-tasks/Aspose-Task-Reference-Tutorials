@@ -3,10 +3,16 @@ title: Buat Tautan Tugas di Aspose.Tasks
 linktitle: Buat Tautan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Buka tautan tugas yang mulus dalam proyek Java dengan Aspose.Tasks. Kuasai seni pembuatan tautan tugas dengan panduan langkah demi langkah kami. Unduh sekarang!
-type: docs
 weight: 11
 url: /id/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tautan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Penautan tugas yang efisien sangat penting untuk manajemen proyek yang efisien, dan Aspose.Tasks untuk Java memberi pengembang alat canggih untuk mencapai hal ini dengan lancar. Panduan langkah demi langkah ini akan memandu Anda melalui proses penguasaan pembuatan tautan tugas menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -57,3 +63,9 @@ J: Ya, Aspose.Tasks terintegrasi secara mulus dengan berbagai kerangka kerja Jav
 J: Ya, periksa dokumentasi untuk contoh proyek dan cuplikan kode yang komprehensif.
 ### T: Apa cara yang disarankan untuk membeli Aspose.Tasks untuk Java?
  J: Amankan salinan Anda dengan mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) dan jelajahi opsi lisensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

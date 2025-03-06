@@ -3,10 +3,16 @@ title: Aspose.Tasks의 계산 유형
 linktitle: Aspose.Tasks의 계산 유형
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks 라이브러리의 계산 유형을 사용하여 .NET 프로젝트에서 값 계산을 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 30
 url: /ko/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 계산 유형
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks의 계산 유형 기능을 살펴보겠습니다. Aspose.Tasks는 .NET 개발자가 시스템에 Microsoft Project를 설치할 필요 없이 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 라이브러리입니다. 계산 유형을 사용하면 프로젝트 내의 작업 및 요약 작업에 대한 값이 계산되는 방식을 정의할 수 있습니다.
@@ -97,3 +103,9 @@ A4: 예, Aspose.Tasks는 요약 작업의 값을 계산하기 위해 평균, 합
 ### Q5: Aspose.Tasks for .NET에 대한 추가 리소스는 어디서 찾을 수 있나요?
 
  A5: 다음에서 제공되는 문서 및 커뮤니티 지원 포럼을 탐색할 수 있습니다.[.NET용 Aspose.Tasks](https://reference.aspose.com/tasks/net/) 포괄적인 지도와 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

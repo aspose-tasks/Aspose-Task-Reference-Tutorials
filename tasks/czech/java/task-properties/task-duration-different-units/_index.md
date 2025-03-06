@@ -3,10 +3,16 @@ title: Doba trvání úkolu v různých jednotkách s Aspose.Tasks
 linktitle: Doba trvání úkolu v různých jednotkách s Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte správu trvání úkolů v projektech Java pomocí Aspose.Tasks. Přesně vypočítat a převést trvání v minutách, dnech, hodinách, týdnech a měsících.
-type: docs
 weight: 32
 url: /cs/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doba trvání úkolu v různých jednotkách s Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení je kritickým aspektem porozumění a řízení doby trvání úkolu. Aspose.Tasks for Java poskytuje výkonnou sadu nástrojů pro efektivní zpracování. V tomto tutoriálu vás provedeme získáváním trvání úkolů v různých jednotkách pomocí Aspose.Tasks.
 ## Předpoklady
@@ -83,3 +89,9 @@ Absolutně. Aspose.Tasks je navržen tak, aby efektivně zvládal projekty různ
  Navštivte[dokumentace](https://reference.aspose.com/tasks/java/)pro komplexní zdroje.
 ### Otázka: Mohu před nákupem vyzkoušet Aspose.Tasks for Java?
  Ano, můžete prozkoumat a[zkušební verze zdarma](https://releases.aspose.com/) zhodnotit jeho schopnosti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

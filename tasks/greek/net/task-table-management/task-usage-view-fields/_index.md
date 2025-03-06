@@ -3,10 +3,16 @@ title: Αποκάλυψη πεδίων προβολής χρήσης εργασ�
 linktitle: Συλλογή πεδίων προβολής χρήσης εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε το Aspose.Tasks για .NET για να διαχειρίζεστε και να οπτικοποιείτε εύκολα τα δεδομένα του έργου. Βουτήξτε στα πεδία προβολής χρήσης εργασιών για βελτιωμένες πληροφορίες έργου.
-type: docs
 weight: 25
 url: /el/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποκάλυψη πεδίων προβολής χρήσης εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων, το Aspose.Tasks για .NET αποτελεί μια ισχυρή λύση, παρέχοντας στους προγραμματιστές μια ισχυρή εργαλειοθήκη για τον χειρισμό και τη διαχείριση δεδομένων έργου. Ένα από τα αξιοσημείωτα χαρακτηριστικά είναι η Προβολή χρήσης εργασιών, η οποία προσφέρει πληροφορίες για διάφορα πεδία που ενισχύουν την ορατότητα του έργου. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές των πεδίων προβολής χρήσης εργασιών χρησιμοποιώντας το Aspose.Tasks για .NET, αναλύοντας κάθε βήμα για μια ολοκληρωμένη κατανόηση.
 ## Προαπαιτούμενα
@@ -64,3 +70,9 @@ foreach (var field in fields)
  Ναι, μπορείτε να αποκτήσετε προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμη χρήση.
 ### Ποιες μορφές αρχείων υποστηρίζονται για έγγραφα έργου;
 Το Aspose.Tasks για .NET υποστηρίζει διάφορες μορφές, όπως MPP, XML και CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

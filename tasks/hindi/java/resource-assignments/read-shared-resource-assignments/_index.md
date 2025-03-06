@@ -3,10 +3,16 @@ title: Aspose.Tasks में साझा संसाधन असाइनम
 linktitle: Aspose.Tasks में साझा संसाधन असाइनमेंट पढ़ें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks में साझा संसाधन असाइनमेंट को पढ़ना सीखें। चरण-दर-चरण ट्यूटोरियल के साथ परियोजना प्रबंधन दक्षता बढ़ाएँ।
-type: docs
 weight: 19
 url: /hi/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में साझा संसाधन असाइनमेंट पढ़ें
+
 ## परिचय
 परियोजना प्रबंधन में, सफल परियोजना समापन के लिए कुशल संसाधन आवंटन महत्वपूर्ण है। जावा के लिए Aspose.Tasks संसाधनों को प्रभावी ढंग से प्रबंधित करने के लिए शक्तिशाली उपकरण प्रदान करता है। एक आवश्यक कार्य साझा संसाधन असाइनमेंट को पढ़ना है, जो आपको यह समझने की अनुमति देता है कि कई परियोजनाओं में संसाधन कैसे आवंटित किए जाते हैं।
 ## आवश्यक शर्तें
@@ -58,3 +64,9 @@ Double units = resource.get(Rsc.PEAK_UNITS);
 जावा के लिए Aspose.Tasks छोटे से लेकर बड़े पैमाने की परियोजनाओं तक, विभिन्न आकारों की परियोजनाओं को संभाल सकता है।
 ### क्या जावा उपयोगकर्ताओं के लिए Aspose.Tasks के लिए तकनीकी सहायता उपलब्ध है?
  हां, आप Aspose.Tasks फोरम से तकनीकी सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

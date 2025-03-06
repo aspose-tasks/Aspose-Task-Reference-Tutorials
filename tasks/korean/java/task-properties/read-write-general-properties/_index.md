@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 속성 마스터하기
 linktitle: Aspose.Tasks에서 작업의 일반 속성을 읽고 씁니다.
 second_title: Aspose.Tasks 자바 API
 description: 작업 속성을 쉽게 관리할 수 있는 Aspose.Tasks for Java의 기능을 살펴보세요. 단계별 가이드를 사용하여 쉽게 읽고 쓰세요.
-type: docs
 weight: 26
 url: /ko/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 속성 마스터하기
+
 ## 소개
 Aspose.Tasks를 사용하여 Java에서 작업 관리의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드에서는 Aspose.Tasks for Java를 사용하여 작업의 일반 속성을 읽고 쓰는 방법을 자세히 살펴보겠습니다. 숙련된 개발자이든 초보자이든 이 튜토리얼을 통해 작업 속성을 쉽게 조작할 수 있는 기술을 익힐 수 있습니다.
 ## 전제조건
@@ -85,3 +91,9 @@ for (Task tsk : collector.getTasks()) {
  커뮤니티 토론에 참여하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원과 협력을 위해.
 ### 참조할 수 있는 샘플 프로젝트가 있습니까?
  설명서의 예제 섹션 살펴보기[여기](https://reference.aspose.com/tasks/java/) 샘플 프로젝트 및 코드 조각의 경우.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zvládnutí pracovních dnů v Aspose.Tasks pro .NET
 linktitle: Definování pracovních dnů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte sílu definování pracovních dnů v Aspose.Tasks .NET. Postupujte podle našeho podrobného výukového programu pro efektivní správu projektových kalendářů, přizpůsobení pracovní doby a další.
-type: docs
 weight: 10
 url: /cs/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí pracovních dnů v Aspose.Tasks pro .NET
+
 ## Úvod
 Pokud se ponoříte do světa projektového řízení pomocí Aspose.Tasks pro .NET, pochopení a manipulace se všedními dny je zásadním aspektem. Efektivní správa a přizpůsobení pracovních dnů v kalendáři projektu může významně ovlivnit harmonogramy projektů. V tomto tutoriálu vás provedeme procesem definování pracovních dnů pomocí Aspose.Tasks, poskytneme vám podrobné pokyny a příklady pro lepší přehlednost.
 ## Předpoklady
@@ -116,3 +122,9 @@ Použijte vhodné metody poskytované knihovnou Aspose.Tasks k odstranění prac
 Ano, jakékoli změny pracovních dnů se při uložení projeví v souboru projektu.
 ### Mohu používat Aspose.Tasks s jinými programovacími jazyky?
 Aspose.Tasks podporuje různé programovací jazyky, ale příklady zde jsou specificky pro .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

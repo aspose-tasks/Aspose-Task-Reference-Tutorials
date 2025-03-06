@@ -3,10 +3,16 @@ title: Обработка длительности в Aspose.Tasks
 linktitle: Обработка длительности в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять длительностью в Aspose.Tasks для .NET с помощью пошаговых руководств.
-type: docs
 weight: 30
 url: /ru/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка длительности в Aspose.Tasks
+
 ## Введение
 
 Эффективная обработка продолжительности имеет решающее значение в приложениях управления проектами. Aspose.Tasks для .NET предоставляет надежную функциональность для эффективного управления длительностью. В этом руководстве мы рассмотрим различные аспекты обработки продолжительности с помощью Aspose.Tasks для .NET.
@@ -156,3 +162,9 @@ A1: Aspose.Tasks for .NET — это мощная библиотека для р
 ### Вопрос 5: Доступна ли пробная версия Aspose.Tasks для .NET?
 
 О5: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

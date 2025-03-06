@@ -3,10 +3,16 @@ title: Aspose.Tasks में कैलेंडर अपवाद प्रब
 linktitle: Aspose.Tasks में कैलेंडर अपवाद जोड़ें और हटाएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks में कैलेंडर अपवादों को कुशलतापूर्वक जोड़ने और हटाने का तरीका जानें। परियोजना प्रबंधन वर्कफ़्लो को सहजता से बढ़ाएँ।
-type: docs
 weight: 10
 url: /hi/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कैलेंडर अपवाद प्रबंधित करें
+
 
 ## परिचय
 परियोजना प्रबंधन में, कार्यों को सटीक रूप से शेड्यूल करने और संसाधनों के प्रबंधन के लिए कैलेंडर के भीतर अपवादों को संभालना महत्वपूर्ण है। जावा के लिए Aspose.Tasks कैलेंडर अपवादों को आसानी से जोड़ने और हटाने के लिए शक्तिशाली कार्यक्षमता प्रदान करता है। इस ट्यूटोरियल में, हम आपको चरण दर चरण प्रक्रिया के बारे में मार्गदर्शन देंगे।
@@ -79,3 +85,10 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks से संबंधित किसी भी मुद्दे या प्रश्न के लिए समर्थन कहां से प्राप्त कर सकता हूं?
 
  उ: आप जावा के लिए Aspose.Tasks फोरम पर जा सकते हैं[वेबसाइट](https://reference.aspose.com/tasks/java/) समुदाय से सहायता लेने के लिए या वैयक्तिकृत सहायता के लिए सहायता टीम से सीधे संपर्क करने के लिए।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

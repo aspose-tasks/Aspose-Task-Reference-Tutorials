@@ -3,10 +3,16 @@ title: Leia arquivos protegidos por senha em Aspose.Tasks
 linktitle: Leia arquivos protegidos por senha em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como ler arquivos protegidos por senha em Aspose.Tasks for Java sem esforço com orientação passo a passo neste tutorial.
-type: docs
 weight: 14
 url: /pt/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leia arquivos protegidos por senha em Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for Java é uma biblioteca poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente. Uma tarefa comum que os desenvolvedores enfrentam é a leitura de arquivos protegidos por senha. Neste tutorial, orientaremos você passo a passo no processo de leitura desses arquivos.
 ## Pré-requisitos
@@ -49,3 +55,9 @@ R: Você pode encontrar documentação detalhada em Aspose.Tasks for Java[aqui](
  R: Sim, você pode baixar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
 ### P: Preciso de uma licença temporária para usar Aspose.Tasks for Java?
  R: Você pode exigir uma licença temporária para determinadas funcionalidades ou durante o período de avaliação. Pegue[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

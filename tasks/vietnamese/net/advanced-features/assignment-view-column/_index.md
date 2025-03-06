@@ -3,10 +3,16 @@ title: Cột Xem bài tập tùy chỉnh trong Aspose.Tasks
 linktitle: Cột Xem bài tập tùy chỉnh trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thêm các cột chế độ xem bài tập tùy chỉnh trong Aspose.Tasks cho .NET để nâng cao khả năng quản lý dự án.
-type: docs
 weight: 16
 url: /vi/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cột Xem bài tập tùy chỉnh trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm các cột tùy chỉnh cho chế độ xem bài tập bằng Aspose.Tasks cho .NET. Các cột tùy chỉnh mang lại sự linh hoạt và cho phép bạn hiển thị thông tin bổ sung có liên quan đến nhu cầu quản lý dự án của bạn.
@@ -116,3 +122,9 @@ Câu trả lời 3: Có, bạn có thể tùy chỉnh giao diện của các c�
 ### Câu hỏi 5: Aspose.Tasks có hỗ trợ xuất dự án sang các định dạng khác ngoài bảng tính có cột tùy chỉnh không?
 
 Câu trả lời 5: Có, Aspose.Tasks hỗ trợ xuất dự án sang nhiều định dạng khác nhau như PDF, HTML và XML, cho phép có các tùy chọn báo cáo dự án linh hoạt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

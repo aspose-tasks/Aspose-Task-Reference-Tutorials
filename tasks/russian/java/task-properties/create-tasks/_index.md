@@ -3,10 +3,16 @@ title: Создание задач в Aspose.Tasks
 linktitle: Создание задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Легко управляйте проектами Java с помощью Aspose.Tasks. Создавайте задачи, подзадачи и многое другое. Следуйте нашему пошаговому руководству для эффективного управления проектами.
-type: docs
 weight: 13
 url: /ru/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в мир Aspose.Tasks для Java! Если вы хотите эффективно управлять задачами и проектами в своем Java-приложении, вы попали по адресу. В этом подробном руководстве мы познакомим вас с процессом создания задач с помощью Aspose.Tasks для Java, разбив каждый шаг, чтобы обеспечить удобство работы.
 ## Предварительные условия
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 Да, вы можете широко настраивать атрибуты задач в соответствии с потребностями вашего проекта.
 ### Существует ли сообщество поддержки для пользователей Aspose.Tasks?
  Абсолютно! Присоединяйтесь к сообществу Aspose.Tasks на[форум поддержки](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

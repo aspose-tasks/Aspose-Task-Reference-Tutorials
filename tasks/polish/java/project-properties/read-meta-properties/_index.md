@@ -3,10 +3,16 @@ title: Przeczytaj właściwości meta w projektach Aspose.Tasks
 linktitle: Przeczytaj właściwości meta w projektach Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Odblokuj moc metadanych w projektach Aspose.Tasks dzięki temu wszechstronnemu samouczkowi. Naucz się bez wysiłku wyodrębniać i wykorzystywać metawłaściwości.
-type: docs
 weight: 10
 url: /pl/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przeczytaj właściwości meta w projektach Aspose.Tasks
+
 ## Wstęp
 W dziedzinie zarządzania projektami i analizy danych zagłębianie się w metadane plików projektu może dostarczyć bezcennych spostrzeżeń. Aspose.Tasks dla Java przedstawia solidny zestaw narzędzi do łatwego poruszania się po tych meta-właściwościach. Ten samouczek służy jako kompleksowy przewodnik po wyodrębnianiu i zrozumieniu meta-właściwości w projektach Aspose.Tasks.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ O: Tak, Aspose.Tasks obsługuje szeroką gamę formatów plików projektów, w t
  O: Tak, obszerną dokumentację Aspose.Tasks można znaleźć na stronie[strona z dokumentacją](https://reference.aspose.com/tasks/java/).
 ### P: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Tasks?
  Odp.: Aby uzyskać pomoc lub pytania dotyczące Aspose.Tasks, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za oddane wsparcie społeczności i ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

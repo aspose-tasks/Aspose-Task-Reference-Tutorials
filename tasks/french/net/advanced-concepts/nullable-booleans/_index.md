@@ -3,10 +3,16 @@ title: Gestion des booléens nullables dans Aspose.Tasks
 linktitle: Gestion des booléens nullables dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les booléens nullables dans Aspose.Tasks pour .NET avec ce didacticiel complet. Maîtrisez l'utilisation de la classe `NullableBool` et améliorez votre développement .NET.
-type: docs
 weight: 21
 url: /fr/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des booléens nullables dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons l'utilisation de booléens nullables dans Aspose.Tasks pour .NET. Les booléens nullables offrent une flexibilité dans la représentation des valeurs booléennes, permettant la possibilité d'être indéfinis. Nous allons explorer comment utiliser le`NullableBool` classe, ses constructeurs, propriétés et méthodes.
@@ -153,3 +159,9 @@ A4 : Oui, vous pouvez définir un booléen nullable pour qu'il ne soit pas défi
 ### Q5 : Où puis-je trouver de la documentation supplémentaire sur Aspose.Tasks pour .NET ?
 
  A5 : Vous pouvez trouver une documentation détaillée[ici](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

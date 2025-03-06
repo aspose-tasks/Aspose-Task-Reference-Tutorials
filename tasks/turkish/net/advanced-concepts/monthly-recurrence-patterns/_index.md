@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Aylık Yinelenme Modellerini İşleme
 linktitle: Aspose.Tasks'ta Aylık Yinelenme Modellerini İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Bu adım adım eğitimle Aspose.Tasks for .NET'te aylık yinelenme modellerini nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 18
 url: /tr/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Aylık Yinelenme Modellerini İşleme
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir API'dir. Sunduğu temel işlevlerden biri, yinelenen görevleri verimli bir şekilde yerine getirebilme yeteneğidir. Bu eğitimde, Aspose.Tasks'ı kullanarak aylık yineleme modelleriyle nasıl çalışılacağını adım adım inceleyeceğiz.
@@ -94,3 +100,9 @@ C2: Evet, Aspose.Tasks günlük, haftalık, aylık ve yıllık dahil olmak üzer
 ### S5: Aspose.Tasks lisansını nereden satın alabilirim?
 
  Cevap5: Aspose.Tasks için web sitesinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agendaverzameling beheren in Aspose.Tasks
 linktitle: Agendaverzameling beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u agendaverzamelingen efficiënt beheert in Aspose.Tasks voor .NET. Creëer, wijzig en manipuleer kalenders met gemak.
-type: docs
 weight: 11
 url: /nl/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agendaverzameling beheren in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u agendaverzamelingen beheert in Aspose.Tasks voor .NET. Kalenders spelen een cruciale rol bij projectbeheer, waarbij werkdagen, feestdagen en uitzonderingen worden gedefinieerd. Aspose.Tasks biedt robuuste functionaliteit om kalenders binnen uw projecten te manipuleren.
@@ -160,3 +166,9 @@ A4: Ja, Aspose.Tasks maakt het exporteren van kalenders naar verschillende forma
 ### Vraag 5: Kan ik de werktijden voor specifieke dagen in een kalender aanpassen?
 
 A5: Natuurlijk kunt u werktijden voor afzonderlijke dagen definiëren met behulp van uitzonderingen in de kalender.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

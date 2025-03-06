@@ -3,10 +3,16 @@ title: Mastering Project Manipulation με Aspose.Tasks για Java
 linktitle: Γράψτε τις Πληροφορίες έργου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να γράφετε αποτελεσματικά πληροφορίες MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα για προγραμματιστές Java.
-type: docs
 weight: 12
 url: /el/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Project Manipulation με Aspose.Tasks για Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη χρήση του Aspose.Tasks για Java, μιας ισχυρής βιβλιοθήκης για τον προγραμματισμό των αρχείων του Microsoft Project. Θα εστιάσουμε σε μια βασική εργασία: τη σύνταξη πληροφοριών MS Project χρησιμοποιώντας το Aspose.Tasks. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε το ταξίδι σας στον προγραμματισμό Java, αυτός ο οδηγός θα σας καθοδηγήσει βήμα προς βήμα στη διαδικασία.
 ## Προαπαιτούμενα
@@ -61,3 +67,9 @@ project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
  Α: Μπορείτε να ζητήσετε βοήθεια από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
  Α: Ναι, οι προσωρινές άδειες είναι διαθέσιμες για βραχυπρόθεσμη χρήση. Μπορείτε να αποκτήσετε ένα από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

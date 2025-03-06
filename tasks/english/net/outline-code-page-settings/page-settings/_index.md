@@ -3,10 +3,16 @@ title: Configure MS Project Page Settings with Aspose.Tasks
 linktitle: Configuring Page Settings in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure MS Project page settings using Aspose.Tasks for .NET. Customize orientation, size, and more with simple steps.
-type: docs
 weight: 20
 url: /net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configure MS Project Page Settings with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll walk through the process of configuring Microsoft Project page settings using Aspose.Tasks for .NET. Aspose.Tasks is a powerful API that allows developers to manipulate Microsoft Project files programmatically.
 ## Prerequisites
@@ -77,3 +83,10 @@ A: Aspose.Tasks supports a wide range of paper sizes, including standard and cus
 A: Certainly, you can integrate this functionality into your application's workflow to automate page settings configuration.
 ### Q: Does Aspose.Tasks offer support for different file formats besides .mpp?
 A: Yes, Aspose.Tasks supports various file formats such as XML, MPT, and HTML, among others.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

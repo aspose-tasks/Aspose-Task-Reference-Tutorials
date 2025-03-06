@@ -3,10 +3,16 @@ title: Đặt tham số tác vụ định kỳ trong Aspose.Tasks
 linktitle: Đặt tham số tác vụ định kỳ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách đặt tham số tác vụ định kỳ trong Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn toàn diện với hướng dẫn từng bước.
-type: docs
 weight: 14
 url: /vi/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt tham số tác vụ định kỳ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập các tham số tác vụ định kỳ của Microsoft Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án khác nhau ba
 Có, bạn có thể truy cập diễn đàn Aspose.Tasks để được cộng đồng hỗ trợ hoặc liên hệ với bộ phận hỗ trợ để được trợ giúp trực tiếp.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
  Bạn có thể xin giấy phép tạm thời từ[trang mạng](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

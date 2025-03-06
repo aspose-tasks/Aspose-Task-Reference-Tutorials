@@ -3,10 +3,16 @@ title: Simpan Proyek MS di Primavera XML untuk Aspose.Tasks
 linktitle: Opsi Penyimpanan Primavera XML untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menggunakan Aspose.Tasks untuk .NET untuk menyimpan opsi MS Project dalam format Primavera XML. Tingkatkan kemampuan manajemen proyek dengan mudah.
-type: docs
 weight: 15
 url: /id/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Proyek MS di Primavera XML untuk Aspose.Tasks
+
 ## Perkenalan
 Di bidang manajemen proyek dan penanganan tugas, Aspose.Tasks untuk .NET muncul sebagai sekutu yang kuat. Pustaka ini melengkapi pengembang dengan alat yang diperlukan untuk memanipulasi data proyek dengan mudah dalam aplikasi .NET. Salah satu fitur penting adalah kemampuannya untuk berinteraksi dengan file XML Primavera, menawarkan pengalaman yang lancar dalam menangani informasi proyek.
 ## Prasyarat
@@ -56,3 +62,9 @@ J: Ya, Aspose.Tasks untuk .NET mendukung integrasi dengan berbagai alat manajeme
  J: Berbagai opsi lisensi, termasuk lisensi sementara, tersedia untuk Aspose.Tasks untuk .NET. Jelajahi detail lisensi[Di Sini](https://purchase.aspose.com/buy).
 ### T: Dapatkah saya menyesuaikan opsi penyimpanan untuk format Primavera XML?
 J: Ya, Aspose.Tasks untuk .NET memberikan fleksibilitas dalam mengonfigurasi opsi penyimpanan, memungkinkan penyesuaian sesuai dengan kebutuhan proyek tertentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS Project Server 관리
 linktitle: Aspose.Tasks를 사용하여 Project Server 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 원활한 MS Project Server 관리를 잠금 해제하세요. 프로젝트 작업을 손쉽게 자동화하세요.
-type: docs
 weight: 23
 url: /ko/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS Project Server 관리
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project Server를 관리하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있도록 지원하는 강력한 라이브러리로, 프로젝트 데이터를 원활하게 통합하고 조작할 수 있습니다.
 ## 전제조건
@@ -71,3 +77,9 @@ A: 물론 Aspose.Tasks는 프로젝트 일정 관리, 리소스 할당 및 작�
 A: 예, Aspose.Tasks를 사용하면 프로젝트 데이터를 기반으로 사용자 정의 보고서 생성을 자동화하여 효율적인 프로젝트 모니터링 및 분석을 촉진할 수 있습니다.
 ### Q: Aspose.Tasks를 구매하기 전에 사용해 볼 수 있나요?
  A: 예, 다음에서 무료 평가판에 액세스하여 Aspose.Tasks의 기능을 탐색할 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Proje Dosyası İşlemleri
 linktitle: Proje Dosyası İşlemleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile MS Project düzenlerini zahmetsizce optimize edin. Boşlukların azaltılması, verilerin işlenmesi, takvimlerin değiştirilmesi ve daha fazlası hakkında adım adım eğitimler öğrenin.
-type: docs
 weight: 29
 url: /tr/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proje Dosyası İşlemleri
+
 ## giriiş
 Java proje yönetimi yeteneklerinizi geliştirmek mi istiyorsunuz? Aspose.Tasks for Java ile ilgili çeşitli proje dosyası işlemlerine odaklanan kapsamlı eğitimlerimizi inceleyin. Görev listelerindeki boşlukları azaltmaktan MS Project görünümlerini özelleştirmeye kadar her konuda yanınızdayız.
 
@@ -94,3 +100,9 @@ Aspose.Tasks for Java'yı kullanarak özel MS Project görünümlerini zahmetsiz
 Aspose.Tasks for Java'da hafta içi özelliklerini verimli bir şekilde yönetmeyi öğrenin. Haftanın başlangıç tarihlerini, aylık günleri ve daha fazlasını kolaylıkla özelleştirin.
 ### [Aspose.Tasks'a MPP Proje Özeti Yazma](./write-mpp-project-summary/)
 Aspose.Tasks'ı kullanarak Java'da MPP proje özetlerini nasıl yazacağınızı öğrenin. Proje bilgilerini zahmetsizce ayarlayın ve alın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

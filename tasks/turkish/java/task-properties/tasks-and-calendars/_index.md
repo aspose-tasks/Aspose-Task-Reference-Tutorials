@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevler ve Takvimler
 linktitle: Aspose.Tasks'ta Görevler ve Takvimler
 second_title: Aspose.Tasks Java API'si
 description: Görevleri ve takvimleri verimli bir şekilde yönetme konusunda Aspose.Tasks for Java'nın gücünü keşfedin. Kusursuz bir proje yönetimi deneyimi için hemen indirin!
-type: docs
 weight: 33
 url: /tr/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevler ve Takvimler
+
 ## giriiş
 Aspose.Tasks for Java ile proje yönetimi oyununuzu geliştirmeye hazır mısınız? Bu kapsamlı kılavuz, Aspose.Tasks'ı kullanarak görevlerin ve takvimlerin karmaşık dünyasında size yol gösterecek ve verimli proje planlama ve yürütme için Aspose.Tasks'ın tüm potansiyelinden yararlanmanıza olanak tanıyacak.
 ## Önkoşullar
@@ -55,3 +61,9 @@ Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.asp
  Şu adresteki topluluğa katılın:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15) destek için.
 ### Aspose.Tasks için lisans satın alabilir miyim?
  Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vlastnosti úlohy
 linktitle: Vlastnosti úlohy
 second_title: Aspose.Tasks Java API
 description: Vylepšete řízení projektů Java pomocí Aspose.Tasks. Prozkoumejte výukové programy o vlastnostech úkolů, od zpracování priorit po řízení nákladů. Optimalizujte svůj projekt ještě dnes!
-type: docs
 weight: 34
 url: /cs/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastnosti úlohy
+
 ## Úvod
 
 Spravujte a přizpůsobujte soubory Microsoft Project v Javě bez námahy pomocí Aspose.Tasks. Prozkoumejte výukové programy pokrývající různé aspekty vlastností úloh, abyste zlepšili své schopnosti projektového řízení.
@@ -138,3 +144,9 @@ Prozkoumejte Aspose.Tasks pro Javu a ovládněte časově uspořádanou správu 
 Naučte se aktualizovat data úlohy do formátu MPP pomocí Aspose.Tasks for Java. Postupujte podle našeho podrobného průvodce pro efektivní řízení projektů.
 ### [WBS spojené s úlohou v Aspose.Tasks](./wbs-associated-with-task/)
 Zvládněte WBS pomocí Aspose.Tasks for Java - Naučte se číst a přečíslovat kódy úkolu WBS. Zvyšte efektivitu řízení projektů!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Diversi tipi di linee di base in Aspose.Tasks
 linktitle: Diversi tipi di linee di base in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a impostare e manipolare le linee di base del progetto in modo efficiente utilizzando Aspose.Tasks per .NET.
-type: docs
 weight: 21
 url: /it/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diversi tipi di linee di base in Aspose.Tasks
+
 ## introduzione
 
 Nell’ambito della gestione dei progetti, precisione e lungimiranza sono fondamentali. Aspose.Tasks per .NET fornisce un robusto toolkit per la gestione efficiente dei dati di progetto, consentendo agli utenti di approfondire vari aspetti della pianificazione, del monitoraggio e dell'esecuzione del progetto. Una caratteristica cruciale offerta da Aspose.Tasks è la capacità di impostare linee di base, che fungono da punti di riferimento per misurare i progressi del progetto rispetto ai piani iniziali.
@@ -82,3 +88,9 @@ A4: Aspose.Tasks fornisce un'ampia documentazione e forum di supporto per assist
 ### Q5: Posso provare Aspose.Tasks prima dell'acquisto?
 
 R5: Sì, puoi esplorare Aspose.Tasks tramite una prova gratuita disponibile sul sito Web, che ti consente di sperimentare in prima persona le sue funzionalità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

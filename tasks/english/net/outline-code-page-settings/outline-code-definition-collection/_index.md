@@ -3,10 +3,16 @@ title: Collection of Outline Code Definitions in Aspose.Tasks .NET
 linktitle: Collection of Outline Code Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manipulate outline code definitions in Microsoft Project documents using Aspose.Tasks for .NET. Categorization of your project data effortlessly.
-type: docs
 weight: 13
 url: /net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of Outline Code Definitions in Aspose.Tasks .NET
+
 ## Introduction
 Aspose.Tasks is a powerful .NET library designed to manipulate Microsoft Project documents with ease and efficiency. One of its key features is the ability to work with outline code definitions, allowing users to organize and categorize project data effectively. In this tutorial, we'll explore how to work with outline code definitions using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -83,3 +89,10 @@ A: If an outline code definition is read-only, you won't be able to modify it di
 A: Aspose.Tasks for .NET doesn't impose any specific limitations on the number of outline code definitions you can add to a project. However, consider the performance implications when working with a large number of definitions.
 ### Q: Can I use outline code definitions to group tasks based on custom criteria?
 A: Yes, outline code definitions allow you to categorize tasks based on custom criteria, providing flexibility in organizing project data.## Complete Source Code
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

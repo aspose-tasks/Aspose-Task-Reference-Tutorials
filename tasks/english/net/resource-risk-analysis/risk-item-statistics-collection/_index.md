@@ -3,10 +3,16 @@ title: Collect MS Project Risk Item Statistics in Aspose.Tasks
 linktitle: Collection of Risk Item Statistics in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to collect risk item statistics from MS Project files using Aspose.Tasks for .NET. Enhance your project management capabilities.
-type: docs
 weight: 22
 url: /net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collect MS Project Risk Item Statistics in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to collect risk item statistics from MS Project files using Aspose.Tasks for .NET. This library provides powerful functionalities to analyze project data, including risk assessment and statistical analysis.
 ## Prerequisites
@@ -88,3 +94,10 @@ A: Absolutely, Aspose.Tasks is designed to meet the demands of enterprise-level 
 A: Yes, Aspose.Tasks offers flexibility in configuring risk analysis settings to suit your specific project requirements and scenarios.
 ### Q: Is technical support available for Aspose.Tasks users?
 A: Yes, Aspose.Tasks users can access technical support through the Aspose [forums](https://forum.aspose.com/c/tasks/15), where they can ask questions, report issues, and interact with the community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

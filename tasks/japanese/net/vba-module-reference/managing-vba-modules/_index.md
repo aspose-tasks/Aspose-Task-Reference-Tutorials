@@ -3,10 +3,16 @@ title: Aspose.Tasks での VBA モジュールの管理
 linktitle: Aspose.Tasks での VBA モジュールの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して、Microsoft Project ファイル内の VBA モジュールを簡単に管理します。段階的なガイダンスを確認して、開発ワークフローを強化してください。
-type: docs
 weight: 10
 url: /ja/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での VBA モジュールの管理
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Microsoft Project ファイルを操作できるようにする強力なライブラリです。 Aspose.Tasks の重要な機能の 1 つは、プロジェクト ファイル内の VBA (Visual Basic for Applications) モジュールを管理できることです。このチュートリアルでは、Aspose.Tasks を使用して VBA モジュールを管理するプロセスをステップバイステップのガイドで詳しく説明します。
 ## 前提条件
@@ -74,3 +80,9 @@ foreach (var module in project.VbaProject.Modules)
 はい、無料トライアルにアクセスできます[ここ](https://releases.aspose.com/).
 ### Aspose.Tasks に関連する問題についてサポートを受けたり、支援を求めたりするにはどうすればよいですか?
 お気軽にお越しください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

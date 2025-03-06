@@ -3,10 +3,16 @@ title: Pembuatan SVG yang Mudah untuk Aspose.Tasks
 linktitle: Opsi SVG untuk Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memanfaatkan Aspose.Tasks untuk .NET guna menghasilkan representasi SVG file Microsoft Project dengan mudah untuk meningkatkan visualisasi proyek.
-type: docs
 weight: 20
 url: /id/net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan SVG yang Mudah untuk Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek dan pengorganisasian tugas, kemampuan memvisualisasikan data secara efektif adalah hal yang terpenting. Aspose.Tasks untuk .NET menawarkan solusi komprehensif untuk menghasilkan representasi SVG dari file Microsoft Project, memfasilitasi wawasan proyek yang jelas dan menarik. Tutorial ini mempelajari pemanfaatan opsi Proyek SVG MS yang disediakan oleh Aspose.Tasks untuk .NET, memungkinkan pengguna memanfaatkan kekuatannya untuk meningkatkan visualisasi proyek.
 ## Prasyarat
@@ -66,3 +72,9 @@ J: Ya, Aspose.Tasks menyediakan opsi penyesuaian yang luas untuk menyesuaikan ta
 
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
 J: Ya, pengguna dapat mengakses dukungan teknis melalui forum Aspose.Tasks atau dengan menghubungi tim dukungan secara langsung untuk mendapatkan bantuan terkait pertanyaan atau masalah apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

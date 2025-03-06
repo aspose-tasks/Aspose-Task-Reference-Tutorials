@@ -3,10 +3,16 @@ title: Veldhelper MS-projectintegratie in Aspose.Tasks
 linktitle: Veldhelper in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om naadloos met MS Project-bestanden te werken.
-type: docs
 weight: 15
 url: /nl/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Veldhelper MS-projectintegratie in Aspose.Tasks
+
 ## Invoering
 
 Aspose.Tasks voor .NET is een krachtige API waarmee ontwikkelaars naadloos kunnen werken met Microsoft Project-bestanden in hun .NET-toepassingen. Of u nu een projectbeheertool bouwt, projectfunctionaliteit in uw applicatie integreert, of eenvoudigweg projectbestanden programmatisch moet manipuleren, Aspose.Tasks biedt de tools die u nodig hebt om de klus efficiënt te klaren.
@@ -74,3 +80,9 @@ A: Ja, Aspose.Tasks voor .NET is ontworpen om met verschillende versies van Micr
 ### V5: Waar kan ik een licentie kopen voor Aspose.Tasks voor .NET?
 
  A: U kunt een licentie voor Aspose.Tasks voor .NET kopen op de Aspose-website[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

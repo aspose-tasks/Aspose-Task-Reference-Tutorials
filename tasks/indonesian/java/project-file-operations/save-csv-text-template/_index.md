@@ -3,10 +3,16 @@ title: Simpan Sebagai CSV, Teks, dan Templat di Aspose.Tasks
 linktitle: Simpan Sebagai CSV, Teks, dan Templat di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menyimpan file Microsoft Project dalam format CSV, Teks, dan Templat menggunakan Aspose.Tasks untuk Java.
-type: docs
 weight: 16
 url: /id/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Sebagai CSV, Teks, dan Templat di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyimpan file proyek dalam berbagai format seperti CSV, Teks, dan Templat menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project tanpa perlu menginstal Microsoft Project.
 ## Prasyarat
@@ -77,3 +83,9 @@ J: Tentu saja! Aspose.Tasks untuk Java dapat menangani proyek dengan kompleksita
  J: Ya, Anda dapat membeli lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/), memungkinkan Anda mengevaluasi potensi penuh perpustakaan.
 ### T: Apakah Aspose.Tasks untuk Java kompatibel dengan sistem operasi yang berbeda?
 J: Ya, Aspose.Tasks for Java kompatibel dengan berbagai sistem operasi, termasuk Windows, macOS, dan Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

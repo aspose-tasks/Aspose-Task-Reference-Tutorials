@@ -3,10 +3,16 @@ title: Χειριστείτε τις εκτιμώμενες εργασίες κ�
 linktitle: Χειριστείτε τις εκτιμώμενες εργασίες και τις εργασίες ορόσημο στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε την αποτελεσματική διαχείριση έργων με το Aspose.Tasks για Java. Χειριστείτε τις εκτιμώμενες και σημαντικές εργασίες χωρίς κόπο. Κατεβάστε τη βιβλιοθήκη τώρα!
-type: docs
 weight: 15
 url: /el/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειριστείτε τις εκτιμώμενες εργασίες και τις εργασίες ορόσημο στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για Java είναι μια ισχυρή βιβλιοθήκη που διευκολύνει τον χειρισμό εργασιών, τη διαχείριση έργων και τον αβίαστο χειρισμό δεδομένων έργου. Σε αυτό το σεμινάριο, θα εστιάσουμε σε μια κρίσιμη πτυχή της διαχείρισης έργου – τον χειρισμό εκτιμώμενων και ορόσημων εργασιών χρησιμοποιώντας το Aspose.Tasks για Java.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

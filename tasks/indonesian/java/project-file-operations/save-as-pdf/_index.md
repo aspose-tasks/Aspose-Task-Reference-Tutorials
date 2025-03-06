@@ -3,10 +3,16 @@ title: Simpan Sebagai PDF di Aspose.Tasks
 linktitle: Simpan Sebagai PDF di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengonversi file proyek ke PDF menggunakan Aspose.Tasks untuk Java. Langkah sederhana untuk konversi yang efisien.
-type: docs
 weight: 17
 url: /id/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Sebagai PDF di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses menyimpan proyek sebagai PDF menggunakan Aspose.Tasks untuk Java. Dengan Aspose.Tasks, Anda dapat secara efisien mengonversi file proyek Anda ke format PDF, memastikan kompatibilitas dan kemudahan berbagi. Mari selami langkah-langkahnya:
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format file, termasuk MPP, XML, XLSX, dan
  J: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
  A: Untuk dukungan dan bantuan, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

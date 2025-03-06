@@ -3,10 +3,16 @@ title: Μείωση του χάσματος μεταξύ της λίστας ε�
 linktitle: Μείωση του χάσματος μεταξύ της λίστας εργασιών και του υποσέλιδου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να μειώσετε το χάσμα μεταξύ των λιστών εργασιών του MS Project και των υποσέλιδων χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιστοποιήστε τη διάταξη του εγγράφου έργου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μείωση του χάσματος μεταξύ της λίστας εργασιών και του υποσέλιδου στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη μείωση του χάσματος μεταξύ της λίστας εργασιών και του υποσέλιδου στα αρχεία του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθώντας αυτά τα βήματα, θα μπορείτε να βελτιστοποιήσετε τη διάταξη των εγγράφων του έργου σας χωρίς κόπο.
 ## Προαπαιτούμενα
@@ -105,3 +111,9 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ### Ε: Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα κατά τη χρήση του Aspose.Tasks;
 
  Α: Μπορείτε να λάβετε βοήθεια από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

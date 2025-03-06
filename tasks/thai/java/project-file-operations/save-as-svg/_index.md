@@ -3,10 +3,16 @@ title: แปลง MS Project เป็น SVG ใน Java
 linktitle: บันทึกเป็น SVG ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีบันทึกไฟล์ Microsoft Project เป็น SVG ใน Java โดยใช้ไลบรารี Aspose.Tasks คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 18
 url: /th/java/project-file-operations/save-as-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลง MS Project เป็น SVG ใน Java
+
 ## การแนะนำ
 Aspose.Tasks for Java เป็นไลบรารีอันทรงพลังสำหรับการทำงานกับไฟล์การจัดการโปรเจ็กต์ ช่วยให้นักพัฒนาจัดการข้อมูลโปรเจ็กต์ ดำเนินการต่างๆ และสร้างรายงานได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกโปรเจ็กต์เป็น SVG โดยใช้ Aspose.Tasks สำหรับ Java SVG (Scalable Vector Graphics) เป็นรูปแบบที่ใช้กันอย่างแพร่หลายในการแสดงกราฟิกแบบเวกเตอร์บนเว็บ ซึ่งให้ความสามารถในการปรับขนาดและการเรนเดอร์คุณภาพสูง
 ## ข้อกำหนดเบื้องต้น
@@ -58,3 +64,9 @@ project.save(dataDir + "project5.svg", SaveFileFormat.Svg);
  ใช่ คุณสามารถขอทดลองใช้ Aspose.Tasks สำหรับ Java ฟรีได้จากเว็บไซต์[ที่นี่](https://purchase.aspose.com/buy) เพื่อประเมินคุณสมบัติและความสามารถของมัน
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  คุณสามารถรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้โดยไปที่ฟอรัม[ที่นี่](https://forum.aspose.com/c/tasks/15)ซึ่งคุณสามารถถามคำถามและโต้ตอบกับชุมชนได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

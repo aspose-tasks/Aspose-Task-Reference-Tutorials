@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 달력 예외 처리
 linktitle: Aspose.Tasks에서 달력 예외 처리
 second_title: Aspose.태스크 .NET API
 description: 단계별 튜토리얼과 예제를 통해 Aspose.Tasks for .NET에서 달력 예외를 관리하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 달력 예외 처리
+
 ## 소개
 
 이 튜토리얼에서는 .NET 프레임워크를 사용하여 Aspose.Tasks에서 달력 예외를 관리하는 방법을 살펴보겠습니다. 달력 예외를 사용하면 휴일이나 임시 휴무 등 정규 작업 일정이 변경되는 프로젝트 달력에서 특별한 날짜나 기간을 정의할 수 있습니다. .NET용 Aspose.Tasks를 사용하여 달력 예외를 단계별로 처리하는 다양한 방법을 다룰 것입니다.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks는 일일, 주간, 월간 및 연간 예외를 포함한 다양
 ### Q5: 특정 예외일의 근무 시간을 맞춤 설정할 수 있나요?
 
 A5: 예, Aspose.Tasks에서 제공하는 적절한 방법을 사용하여 개별 예외 날짜에 대한 사용자 정의 작업 시간을 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

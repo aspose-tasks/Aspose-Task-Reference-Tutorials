@@ -3,10 +3,16 @@ title: Project management
 linktitle: Project management
 second_title: Aspose.Tasks Java-API
 description: Ontdek Aspose.Tasks Java met onze uitgebreide projectmanagementtutorials. Van kritische padberekeningen tot fiscale jaareigenschappen stroomlijn uw workflow.
-type: docs
 weight: 27
 url: /nl/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Project management
+
 ## Invoering
 
 Bent u klaar om uw projectmanagementvaardigheden te verbeteren met Aspose.Tasks voor Java? Duik in onze exclusieve tutorials die een spectrum aan functies en functionaliteiten behandelen die uw Java-ontwikkelingstraject zullen versterken. Van berekeningen van het kritieke pad tot het afhandelen van uitzonderingen bij het schrijven van taken tijdens het afdrukken, wij staan voor u klaar. Laten we de rijkdom aan kennis verkennen die op u wacht.
@@ -69,3 +75,9 @@ Leer hoe u MS Project-bestanden van Primavera XML naadloos kunt lezen met Aspose
 Leer hoe u pagina's kunt afdrukken om afbeeldingen te scheiden in Aspose.Tasks voor Java. Verbeter de projectvisualisatie met deze stapsgewijze handleiding.
 ### [Behandel uitzonderingen bij het schrijven van taken tijdens het afdrukken in Aspose.Tasks](./print-task-exceptions/)
 Beheers de afhandeling van uitzonderingen in Aspose.Tasks voor Java om een naadloze projectuitvoering te garanderen. Leer hoe u moeiteloos omgaat met uitzonderingen bij het schrijven van taken tijdens het afdrukken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

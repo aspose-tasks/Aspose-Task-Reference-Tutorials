@@ -3,10 +3,16 @@ title: การเรียนรู้ Microsoft Project Outline Masks ใน 
 linktitle: การทำงานกับ Outline Masks ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรมโดยใช้ Aspose.Tasks สำหรับ .NET ต้นแบบมาสก์โครงร่างได้อย่างมีประสิทธิภาพ
-type: docs
 weight: 14
 url: /th/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้ Microsoft Project Outline Masks ใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการและการติดตามงาน Microsoft Project ถือเป็นเครื่องมือหลัก อย่างไรก็ตาม เมื่อพูดถึงการจัดการและจัดการไฟล์โปรเจ็กต์โดยทางโปรแกรม Aspose.Tasks สำหรับ .NET ถือเป็นโซลูชันที่ทรงพลัง บทช่วยสอนนี้จะเจาะลึกแง่มุมหนึ่งของการทำงานกับไฟล์ MS Project โดยใช้ Aspose.Tasks สำหรับ .NET: การจัดการโครงร่างมาสก์
 ## ข้อกำหนดเบื้องต้น
@@ -76,3 +82,9 @@ outline.Values.Add(value);
  ตอบ: แน่นอน! คุณสามารถเข้าถึง Aspose.Tasks รุ่นทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: หากคุณต้องการใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินหรือทดสอบ คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

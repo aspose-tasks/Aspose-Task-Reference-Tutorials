@@ -3,10 +3,16 @@ title: Beherrschen der MS Project-Zeitskalenzählung in Aspose.Tasks
 linktitle: Legen Sie die Anzahl der Zeitskalen in Aspose.Tasks fest
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie die Zeitskalenanzahl in MS Project mithilfe von Aspose.Tasks für Java effektiv verwalten. Optimieren Sie die Projektvisualisierung und -verwaltung mühelos.
-type: docs
 weight: 22
 url: /de/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der MS Project-Zeitskalenzählung in Aspose.Tasks
+
 ## Einführung
 Die Verwaltung der Zeitskalenanzahl in MS Project kann sich erheblich auf die Projektvisualisierung und -verwaltung auswirken. Mit Aspose.Tasks für Java, einer leistungsstarken API zur programmgesteuerten Bearbeitung von Projektmanagementaufgaben, können Sie die Zeitskalenanzahl effizient manipulieren, um Projektansichten an Ihre spezifischen Anforderungen anzupassen.
 ## Voraussetzungen
@@ -91,3 +97,9 @@ A: Absolut, Aspose.Tasks für Java bietet umfangreiche Möglichkeiten, das Ersch
  A: Ja, Sie können eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
 ### F: Wo erhalte ich Unterstützung für Aspose.Tasks für Java?
  A: Unterstützung und Hilfe finden Sie im Aspose.Tasks-Forum[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

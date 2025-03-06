@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Hafta İçi Günlerde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Hafta İçi Günleri Tanımlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks .NET'te hafta içi günleri tanımlamanın gücünü keşfedin. Proje takvimlerini verimli bir şekilde yönetmek, çalışma sürelerini özelleştirmek ve daha fazlasını yapmak için ayrıntılı eğitimimizi izleyin.
-type: docs
 weight: 10
 url: /tr/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Hafta İçi Günlerde Uzmanlaşmak
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak proje yönetimi dünyasına dalıyorsanız, hafta içi günleri anlamak ve yönetmek çok önemli bir husustur. Proje takviminizde hafta içi günleri verimli bir şekilde yönetmek ve özelleştirmek, proje zaman çizelgelerini önemli ölçüde etkileyebilir. Bu eğitimde, Aspose.Tasks'ı kullanarak hafta içi günleri tanımlama sürecinde size rehberlik edeceğiz ve daha iyi anlaşılırlık için adım adım talimatlar ve örnekler sunacağız.
 ## Önkoşullar
@@ -116,3 +122,9 @@ Gerektiğinde hafta içi günleri kaldırmak için Aspose.Tasks kütüphanesi ta
 Evet, hafta içi günlerde yapılan değişiklikler kaydedildiğinde proje dosyasına yansıtılır.
 ### Aspose.Tasks'ı diğer programlama dilleriyle kullanabilir miyim?
 Aspose.Tasks çeşitli programlama dillerini destekler ancak buradaki örnekler özellikle .NET içindir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

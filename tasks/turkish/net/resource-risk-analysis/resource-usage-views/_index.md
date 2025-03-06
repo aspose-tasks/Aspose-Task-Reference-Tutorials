@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Kaynak Kullanımı Görünümlerini Yapıland�
 linktitle: Aspose.Tasks'ta Kaynak Kullanımı Görünümlerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project kaynak kullanım görünümlerini nasıl yapılandıracağınızı öğrenin. Kod örneklerinin yer aldığı adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Kaynak Kullanımı Görünümlerini Yapılandırma
+
 ## giriiş
 Microsoft Project (MS Project), kullanıcıların projelerini verimli bir şekilde planlamasına, yürütmesine ve izlemesine olanak tanıyan güçlü bir proje yönetimi aracıdır. Aspose.Tasks for .NET, MS Project dosyalarıyla kusursuz entegrasyon sağlayarak geliştiricilerin proje verilerini programlı olarak değiştirmesine olanak tanır. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak MS Project kaynak kullanım görünümlerini nasıl yapılandıracağımızı keşfedeceğiz.
 ## Önkoşullar
@@ -58,3 +64,9 @@ C: Evet, Aspose.Tasks, XLSX, MPP, XML, HTML ve daha fazlasını içeren çeşitl
  C: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Sorularınız, tartışmalarınız veya destek ihtiyaçlarınız için.
 ### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
  C: Elbette Aspose.Tasks'ı ücretsiz deneme sürümüyle keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

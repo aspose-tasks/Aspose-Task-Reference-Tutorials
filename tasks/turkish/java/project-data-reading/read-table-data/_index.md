@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Dosyadan Tablo Verilerini Oku
 linktitle: Aspose.Tasks'taki Dosyadan Tablo Verilerini Oku
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'nın gücünün kilidini açın. Bu kapsamlı eğitimde dosyalardan tablo verilerini çıkarmayı öğrenin.
-type: docs
 weight: 17
 url: /tr/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Dosyadan Tablo Verilerini Oku
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java kullanarak tablo verilerinin bir dosyadan nasıl okunacağını keşfedeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project belgeleriyle programlı olarak çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır.
 ## Önkoşullar
@@ -62,3 +68,9 @@ C: Evet, tablo verilerini programlı olarak değiştirmek ve değişiklikleri or
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[sürümler sayfası](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nereden yardım ve destek bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)Topluluktan ve Aspose ekibinden yardım ve destek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

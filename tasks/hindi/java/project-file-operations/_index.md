@@ -3,10 +3,16 @@ title: प्रोजेक्ट फ़ाइल संचालन
 linktitle: प्रोजेक्ट फ़ाइल संचालन
 second_title: Aspose.Tasks जावा एपीआई
 description: Java के लिए Aspose.Tasks के साथ MS प्रोजेक्ट लेआउट को सहजता से अनुकूलित करें। अंतराल कम करने, डेटा रेंडर करने, कैलेंडर बदलने आदि पर चरण-दर-चरण ट्यूटोरियल सीखें।
-type: docs
 weight: 29
 url: /hi/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रोजेक्ट फ़ाइल संचालन
+
 ## परिचय
 क्या आप अपनी जावा परियोजना प्रबंधन क्षमताओं को बढ़ाना चाह रहे हैं? विभिन्न प्रोजेक्ट फ़ाइल संचालन पर ध्यान केंद्रित करते हुए, जावा के लिए Aspose.Tasks पर हमारे व्यापक ट्यूटोरियल में गोता लगाएँ। कार्य सूचियों में अंतराल को कम करने से लेकर एमएस प्रोजेक्ट दृश्यों को अनुकूलित करने तक, हमने आपको कवर किया है।
 
@@ -94,3 +100,9 @@ Aspose.Tasks लाइब्रेरी का उपयोग करके Mic
 जावा के लिए Aspose.Tasks में कार्यदिवस संपत्तियों को कुशलतापूर्वक प्रबंधित करना सीखें। सप्ताह की आरंभ तिथियां, प्रति माह दिन और बहुत कुछ आसानी से अनुकूलित करें।
 ### [Aspose.Tasks में MPP प्रोजेक्ट सारांश लिखें](./write-mpp-project-summary/)
 Aspose.Tasks का उपयोग करके जावा में MPP प्रोजेक्ट सारांश लिखना सीखें। प्रोजेक्ट जानकारी को सहजता से सेट करें और पुनः प्राप्त करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

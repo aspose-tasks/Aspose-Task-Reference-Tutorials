@@ -3,10 +3,16 @@ title: मुद्रा गुण
 linktitle: मुद्रा गुण
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा ट्यूटोरियल के लिए Aspose.Tasks की शक्ति को अनलॉक करें। एमएस प्रोजेक्ट फ़ाइलों में मुद्रा गुणों को आसानी से पढ़ने और सेट करने पर चरण-दर-चरण मार्गदर्शिकाएँ खोजें।
-type: docs
 weight: 25
 url: /hi/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# मुद्रा गुण
+
 ## परिचय
 क्या आप जावा कौशल के लिए अपने Aspose.Tasks को उन्नत करने के लिए तैयार हैं? मुद्रा संपत्तियों पर हमारे व्यापक ट्यूटोरियल में गोता लगाएँ, और एमएस प्रोजेक्ट फ़ाइलों के भीतर मुद्रा जानकारी को संभालने की कला में महारत हासिल करें।
 
@@ -35,3 +41,9 @@ url: /hi/java/currency-properties/
 जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से मुद्रा जानकारी निकालने का तरीका जानें। चरण-दर-चरण मार्गदर्शिका प्रदान की गई.
 ### [Aspose.Tasks परियोजनाओं में मुद्रा गुण सेट करें](./set-properties/)
 जानें कि जावा का उपयोग करके Aspose.Tasks प्रोजेक्ट में मुद्रा गुण कैसे सेट करें। Microsoft प्रोजेक्ट फ़ाइलों में आसानी से हेरफेर करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

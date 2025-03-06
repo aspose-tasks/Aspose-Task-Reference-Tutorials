@@ -3,10 +3,16 @@ title: Task Baseline Duration Management in Aspose.Tasks
 linktitle: Task Baseline Duration Management in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to efficiently manage task baselines in MS Project using Aspose.Tasks for Java. This tutorial guides you step-by-step through the process.
-type: docs
 weight: 12
 url: /java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Baseline Duration Management in Aspose.Tasks
+
 ## Introduction
 Managing task baselines in MS Project is crucial for project planning and tracking. In this tutorial, we'll explore how to effectively manage task baseline durations using Aspose.Tasks for Java.
 ## Prerequisites
@@ -76,3 +82,10 @@ Yes, you can modify task baselines in MS Project to reflect changes in the proje
 Yes, Aspose.Tasks offers a wide range of features for project management, including task scheduling, resource allocation, and Gantt chart generation.
 ### Where can I find support for Aspose.Tasks?
 You can find support for Aspose.Tasks on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), where you can ask questions and interact with other users.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

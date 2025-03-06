@@ -3,10 +3,16 @@ title: Colección de períodos de disponibilidad en Aspose.Tasks
 linktitle: Colección de períodos de disponibilidad en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar los períodos de disponibilidad de los recursos en Aspose.Tasks para .NET. Este tutorial paso a paso lo guía para agregar, actualizar y eliminar períodos de disponibilidad, lo que garantiza una planificación eficaz de los recursos del proyecto.
-type: docs
 weight: 18
 url: /es/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de períodos de disponibilidad en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, exploraremos cómo trabajar con la colección del período de disponibilidad de un recurso en Aspose.Tasks para .NET. Gestionar los períodos de disponibilidad es crucial para la gestión de proyectos, ya que nos permite definir cuándo están disponibles los recursos para las tareas dentro de un proyecto.
@@ -148,3 +154,9 @@ R4: Aspose.Tasks para .NET no proporciona mecanismos integrados para manejar per
 ### P5: ¿Existe un límite en la cantidad de períodos de disponibilidad que puede tener un recurso?
 
 R5: No existe un límite predefinido para la cantidad de períodos de disponibilidad que puede tener un recurso, pero el rendimiento puede degradarse con una gran cantidad de períodos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

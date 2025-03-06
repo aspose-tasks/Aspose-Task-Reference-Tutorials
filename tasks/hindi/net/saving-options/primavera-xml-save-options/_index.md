@@ -3,10 +3,16 @@ title: Aspose.Tasks के लिए प्राइमेरा XML में M
 linktitle: Aspose.Tasks के लिए प्राइमेरा XML सेव विकल्प
 second_title: Aspose.Tasks .NET API
 description: प्राइमेरा XML प्रारूप में MS प्रोजेक्ट विकल्पों को सहेजने के लिए .NET के लिए Aspose.Tasks का उपयोग करना सीखें। परियोजना प्रबंधन क्षमताओं को सहजता से बढ़ाएं।
-type: docs
 weight: 15
 url: /hi/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के लिए प्राइमेरा XML में MS प्रोजेक्ट सहेजें
+
 ## परिचय
 परियोजना प्रबंधन और कार्य प्रबंधन के क्षेत्र में, .NET के लिए Aspose.Tasks एक शक्तिशाली सहयोगी के रूप में उभरता है। यह लाइब्रेरी डेवलपर्स को .NET अनुप्रयोगों के भीतर प्रोजेक्ट डेटा को आसानी से हेरफेर करने के लिए आवश्यक उपकरणों से लैस करती है। एक उल्लेखनीय विशेषता प्रिमावेरा एक्सएमएल फाइलों के साथ बातचीत करने की इसकी क्षमता है, जो परियोजना की जानकारी को संभालने में एक सहज अनुभव प्रदान करती है।
 ## आवश्यक शर्तें
@@ -56,3 +62,9 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
  उ: .NET के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस सहित विभिन्न लाइसेंसिंग विकल्प उपलब्ध हैं। लाइसेंसिंग विवरण का अन्वेषण करें[यहाँ](https://purchase.aspose.com/buy).
 ### प्रश्न: क्या मैं प्रिमावेरा XML प्रारूप के लिए बचत विकल्पों को अनुकूलित कर सकता हूँ?
 उत्तर: हां, .NET के लिए Aspose.Tasks सेव विकल्पों को कॉन्फ़िगर करने में लचीलापन प्रदान करता है, जिससे विशिष्ट प्रोजेक्ट आवश्यकताओं के अनुसार अनुकूलन की अनुमति मिलती है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

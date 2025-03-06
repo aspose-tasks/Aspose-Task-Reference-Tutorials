@@ -3,10 +3,16 @@ title: Menguasai Tampilan Garis Waktu Proyek di Aspose.Tasks
 linktitle: Menyesuaikan Tampilan Garis Waktu di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kuasai Aspose.Tasks untuk .NET dalam menyesuaikan tampilan garis waktu. Tingkatkan manajemen proyek Anda dengan garis waktu yang menarik secara visual dan disesuaikan dengan kebutuhan proyek Anda.
-type: docs
 weight: 13
 url: /id/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Tampilan Garis Waktu Proyek di Aspose.Tasks
+
 ## Perkenalan
 Membuat tampilan garis waktu yang menarik secara visual dan informatif sangat penting untuk manajemen proyek yang efektif. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk menyesuaikan tampilan garis waktu, memungkinkan Anda menyesuaikan tampilan tugas sesuai dengan kebutuhan spesifik proyek Anda. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menggunakan Aspose.Tasks untuk membuat dan menyesuaikan tampilan garis waktu dengan mudah.
 ## Prasyarat
@@ -76,3 +82,9 @@ Sangat! Aspose.Tasks memberikan fleksibilitas untuk menyesuaikan tampilan setiap
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
  Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: งานและปฏิทินใน Aspose.Tasks
 linktitle: งานและปฏิทินใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: สำรวจพลังของ Aspose.Tasks สำหรับ Java ในการจัดการงานและปฏิทินอย่างมีประสิทธิภาพ ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์การจัดการโครงการที่ราบรื่น!
-type: docs
 weight: 33
 url: /th/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# งานและปฏิทินใน Aspose.Tasks
+
 ## การแนะนำ
 คุณพร้อมที่จะยกระดับเกมการจัดการโครงการของคุณด้วย Aspose.Tasks สำหรับ Java แล้วหรือยัง? คู่มือที่ครอบคลุมนี้จะนำคุณไปสู่โลกแห่งงานและปฏิทินที่ซับซ้อนโดยใช้ Aspose.Tasks ซึ่งช่วยให้คุณสามารถควบคุมศักยภาพสูงสุดในการวางแผนและการดำเนินโครงการอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  เข้าร่วมชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุน
 ### ฉันสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้หรือไม่
  ใช่ คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

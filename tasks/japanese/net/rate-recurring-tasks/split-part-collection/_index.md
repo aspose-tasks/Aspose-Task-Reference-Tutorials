@@ -3,10 +3,16 @@ title: Aspose.Tasks で分割パーツの MS プロジェクトを収集する
 linktitle: Aspose.Tasks の分割パーツのコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project の分割パーツを収集する方法を学びます。この包括的なチュートリアルでは、プロセスを段階的にガイドします。
-type: docs
 weight: 19
 url: /ja/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で分割パーツの MS プロジェクトを収集する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project の分割パーツを収集する方法を詳しく説明します。タスクを部分に分割することは、プロジェクト管理の重要な側面となる可能性があり、Aspose.Tasks はこれを効率的に処理する便利な方法を提供します。
 ## 前提条件
@@ -66,3 +72,9 @@ A: Aspose.Tasks は、さまざまなバージョンの MS Project ファイル�
  A: 一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/)短期間の使用に。
 ### Q: Aspose.Tasks に関するヘルプやサポートはどこに問い合わせればよいですか?
  A: Aspose.Tasks フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/tasks/15)コミュニティまたは Aspose サポート チームに支援を求めます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Weekdays στο Aspose.Tasks
 linktitle: Συλλογή εργάσιμων ημερών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ανακαλύψτε τη δύναμη του Aspose.Tasks για το .NET στην αβίαστη διαχείριση των καθημερινών. Προσαρμόστε τις εργάσιμες ημέρες, αφαιρέστε τα Σαββατοκύριακα και δημιουργήστε εξειδικευμένα ημερολόγια με ευκολία.
-type: docs
 weight: 11
 url: /el/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Weekdays στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks for .NET είναι μια ισχυρή βιβλιοθήκη που διευκολύνει τον αποτελεσματικό χειρισμό των δεδομένων διαχείρισης έργου. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη συλλογή των καθημερινών στο Aspose.Tasks, δίνοντάς σας τη δυνατότητα να προσαρμόσετε τις εργάσιμες ημέρες, να αφαιρέσετε τα Σαββατοκύριακα και να δημιουργήσετε εξειδικευμένα ημερολόγια για να ανταποκρίνονται στις απαιτήσεις του έργου σας. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος, αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία εργασίας με τις καθημερινές στο Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
  Α: Ανατρέξτε στο[Aspose.Tasks για τεκμηρίωση .NET](https://reference.aspose.com/tasks/net/) για αναλυτικές πληροφορίες.
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για .NET;
  Α: Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Verwalten der Tagestypsammlung in Aspose.Tasks
 linktitle: Verwalten der Tagestypsammlung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Tagestypsammlungen in Aspose.Tasks für .NET effizient verwalten. Erstellen, ändern und manipulieren Sie ganz einfach Kalenderausnahmen.
-type: docs
 weight: 28
 url: /de/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten der Tagestypsammlung in Aspose.Tasks
+
 ## Einführung
 
  Aspose.Tasks für .NET bietet robuste Funktionen für die Verwaltung von Tagestypsammlungen, die für die Definition wöchentlicher Kalenderausnahmen in Projektmanagementanwendungen von entscheidender Bedeutung sind. In diesem Tutorial erfahren Sie, wie Sie das verwenden`DayTypeCollection` Unterricht effizient durchführen. 
@@ -141,3 +147,9 @@ A2: Ja, Aspose.Tasks für .NET unterstützt sowohl .NET Core als auch .NET Frame
 ### F5: Kann ich eine temporäre Lizenz für Aspose.Tasks für .NET erwerben?
 
  A5: Ja, temporäre Lizenzen können bei erworben werden[Aspose-Website](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

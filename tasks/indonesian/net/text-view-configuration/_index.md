@@ -3,10 +3,16 @@ title: Teks Aspose.Tasks dan Konfigurasi Tampilan
 linktitle: Teks Aspose.Tasks dan Konfigurasi Tampilan
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET Tutorial tentang konfigurasi teks dan tampilan. Gaya teks master, kompresi Tiff, tampilan garis waktu, dan banyak lagi untuk manajemen proyek yang lebih baik.
-type: docs
 weight: 30
 url: /id/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teks Aspose.Tasks dan Konfigurasi Tampilan
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang Aspose.Tasks untuk Tutorial .NET, dengan fokus pada konfigurasi teks dan tampilan. Dalam artikel ini, kita akan mempelajari berbagai aspek manajemen proyek, memberikan wawasan langkah demi langkah dalam menguasai fungsionalitas Aspose.Tasks.
@@ -53,3 +59,9 @@ Jelajahi pengumpulan data bertahap di Aspose.Tasks untuk .NET. Panduan langkah d
 Jelajahi Aspose.Tasks untuk .NET untuk mengonfigurasi tingkat skala waktu dalam tampilan Gantt Chart Anda untuk visualisasi garis waktu proyek yang tepat.
 ### [Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks](./usage-views/)
 Pelajari cara mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET. Tingkatkan visualisasi proyek dengan langkah-langkah mendetail. Unduh perpustakaannya sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 자원 할당에 대한 메모를 관리합니다.
 linktitle: Aspose.Tasks에서 자원 할당에 대한 메모를 관리합니다.
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 리소스 할당에 대한 메모를 관리하는 방법을 알아보세요. 원활한 통합을 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 21
 url: /ko/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 자원 할당에 대한 메모를 관리합니다.
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 리소스 할당에 대한 메모를 관리하는 방법을 살펴보겠습니다. Aspose.Tasks는 프로젝트 관리 작업을 효율적으로 처리하도록 설계된 강력한 Java 라이브러리입니다. 이 튜토리얼은 프로세스를 단계별로 안내하여 노트 관리를 프로젝트 워크플로에 원활하게 통합할 수 있도록 해줍니다.
 ## 전제조건
@@ -76,3 +82,9 @@ Aspose.Tasks for Java는 IntelliJ IDEA, Eclipse, NetBeans를 포함한 모든 Ja
 아니요, 평가판 기간에는 임시 라이센스가 필요하지 않습니다. 라이센스 없이 평가판을 사용할 수 있습니다.
 ### Java용 Aspose.Tasks는 어디에서 구매할 수 있나요?
 구매 페이지에서 Aspose.Tasks for Java를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

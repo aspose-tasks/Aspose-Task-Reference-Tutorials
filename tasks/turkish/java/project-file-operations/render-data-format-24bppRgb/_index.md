@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Verilerini 24bppRgb Formatında İşleyin
 linktitle: Aspose.Tasks'ta Verileri 24bppRgb Formatında İşleme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak MS Project verilerini Java'da görüntü olarak nasıl oluşturacağınızı öğrenin. Sorunsuz entegrasyon için adım adım eğitimimizi izleyin.
-type: docs
 weight: 11
 url: /tr/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Verilerini 24bppRgb Formatında İşleyin
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak MS Project formatı 24bppRgb ile veri oluşturma sürecinde size rehberlik edeceğiz. Proje verilerinin görüntü formatına dönüştürülmesi, proje ilerlemesinin görsel olarak paylaşılması veya rapor oluşturulması gibi çeşitli amaçlar için faydalı olabilir.
 ## Önkoşullar
@@ -63,3 +69,9 @@ C: Evet, Aspose.Tasks'ı kullanarak çözünürlüğü ve piksel formatını iht
  C: Evet, Aspose.Tasks'ın ticari kullanımı için bir lisans satın almanız gerekiyor. Test amaçlı geçici bir lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için nereden destek alabilirim?
  C: Aspose.Tasks için şu adresten destek alabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

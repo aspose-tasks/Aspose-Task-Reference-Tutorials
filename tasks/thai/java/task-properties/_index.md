@@ -3,10 +3,16 @@ title: คุณสมบัติงาน
 linktitle: คุณสมบัติงาน
 second_title: Aspose.Tasks Java API
 description: ปรับปรุงการจัดการโครงการ Java ด้วย Aspose.Tasks สำรวจบทช่วยสอนเกี่ยวกับคุณสมบัติของงาน ตั้งแต่การจัดการลำดับความสำคัญไปจนถึงการจัดการต้นทุน เพิ่มประสิทธิภาพโครงการของคุณวันนี้!
-type: docs
 weight: 34
 url: /th/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติงาน
+
 ## การแนะนำ
 
 จัดการและปรับแต่งไฟล์ Microsoft Project ใน Java ได้อย่างง่ายดายด้วย Aspose.Tasks สำรวจบทช่วยสอนที่ครอบคลุมคุณสมบัติงานด้านต่างๆ เพื่อเพิ่มความสามารถในการจัดการโครงการของคุณ
@@ -138,3 +144,9 @@ url: /th/java/task-properties/
 เรียนรู้วิธีอัปเดตข้อมูลงานเป็นรูปแบบ MPP โดยใช้ Aspose.Tasks สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการโครงการที่มีประสิทธิภาพ
 ### [WBS ที่เกี่ยวข้องกับงานใน Aspose.Tasks](./wbs-associated-with-task/)
 เชี่ยวชาญ WBS ด้วย Aspose.Tasks สำหรับ Java - เรียนรู้การอ่านและกำหนดหมายเลขรหัส WBS ของงานใหม่ เพิ่มประสิทธิภาพการจัดการโครงการ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

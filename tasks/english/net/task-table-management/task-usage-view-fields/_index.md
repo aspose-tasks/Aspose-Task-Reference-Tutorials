@@ -3,10 +3,16 @@ title: Unveiling Task Usage View Fields in Aspose.Tasks
 linktitle: Collection of Task Usage View Fields in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET to effortlessly manage and visualize project data. Dive into Task Usage View Fields for enhanced project insights.
-type: docs
 weight: 25
 url: /net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unveiling Task Usage View Fields in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, Aspose.Tasks for .NET stands as a robust solution, providing developers with a powerful toolkit to manipulate and manage project data. One of the noteworthy features is the Task Usage View, offering insights into various fields that enhance project visibility. In this tutorial, we'll delve into the intricacies of Task Usage View Fields using Aspose.Tasks for .NET, breaking down each step for a comprehensive understanding.
 ## Prerequisites
@@ -64,3 +70,10 @@ Visit the [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) for communit
 Yes, you can acquire temporary licenses [here](https://purchase.aspose.com/temporary-license/) for short-term usage.
 ### What file formats are supported for project documents?
 Aspose.Tasks for .NET supports various formats, including MPP, XML, and CSV.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

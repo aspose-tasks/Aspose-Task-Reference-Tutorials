@@ -3,10 +3,16 @@ title: Mastering Workweek Configuration in Aspose.Tasks
 linktitle: Configuring Workweeks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure workweeks effortlessly in Aspose.Tasks for .NET. Enhance project scheduling and resource management with our step-by-step guide.
-type: docs
 weight: 16
 url: /net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Workweek Configuration in Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive guide on configuring workweeks in Aspose.Tasks for .NET. Efficiently managing workweeks is crucial for project planning and scheduling. Aspose.Tasks simplifies this process, allowing you to customize workweeks according to your project's needs. In this tutorial, we'll walk you through the steps to configure workweeks seamlessly.
 ## Prerequisites
@@ -90,3 +96,10 @@ While Aspose.Tasks provides robust import/export capabilities, workweeks are usu
 As of the current version, there is no predefined limit on the number of workweeks you can configure in a project.
 ### Are there any built-in templates for common workweeks?
 Yes, Aspose.Tasks includes a standard calendar template that you can use as a starting point for your project.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

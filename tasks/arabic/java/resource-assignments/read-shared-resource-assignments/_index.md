@@ -3,10 +3,16 @@ title: اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
 linktitle: اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks لـ Java. تعزيز كفاءة إدارة المشروع من خلال البرامج التعليمية خطوة بخطوة.
-type: docs
 weight: 19
 url: /ar/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، يعد التخصيص الفعال للموارد أمرًا بالغ الأهمية لإنجاز المشروع بنجاح. يوفر Aspose.Tasks for Java أدوات قوية لإدارة الموارد بفعالية. إحدى المهام الأساسية هي قراءة تعيينات الموارد المشتركة، مما يسمح لك بفهم كيفية تخصيص الموارد عبر مشاريع متعددة.
 ## المتطلبات الأساسية
@@ -58,3 +64,9 @@ Double units = resource.get(Rsc.PEAK_UNITS);
 يمكن لـ Aspose.Tasks for Java التعامل مع المشاريع ذات الأحجام المختلفة، من المشاريع الصغيرة إلى المشاريع الكبيرة.
 ### هل يتوفر الدعم الفني لـ Aspose.Tasks لمستخدمي Java؟
  نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

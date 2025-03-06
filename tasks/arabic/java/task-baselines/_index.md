@@ -3,10 +3,16 @@ title: خطوط الأساس للمهمة
 linktitle: خطوط الأساس للمهمة
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks Java من خلال البرامج التعليمية الخاصة بأساسيات المهام. تبسيط جدولة المهام، وإنشاء خطوط أساسية لمهمة MS Project، وإدارة مدة خط الأساس الرئيسي.
-type: docs
 weight: 32
 url: /ar/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خطوط الأساس للمهمة
+
 ## مقدمة
 انطلق في رحلة لتعزيز مهاراتك في إدارة المشاريع باستخدام Aspose.Tasks for Java. في هذه السلسلة من البرامج التعليمية، نتعمق في تعقيدات الخطوط الأساسية للمهام، مما يوفر لك رؤى قيمة ومعرفة عملية. دعنا نستكشف البرامج التعليمية الرئيسية التي تشكل هذا الدليل الشامل.
 
@@ -51,3 +57,9 @@ url: /ar/java/task-baselines/
 تعرف على كيفية إنشاء خط أساس لمهمة Microsoft Project في Java باستخدام Aspose.Tasks، وهي مكتبة قوية لإدارة بيانات المشروع دون عناء.
 ### [إدارة المدة الأساسية للمهمة في Aspose.Tasks](./task-baseline-duration/)
 تعرف على كيفية إدارة الخطوط الأساسية للمهام بكفاءة في MS Project باستخدام Aspose.Tasks لـ Java. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

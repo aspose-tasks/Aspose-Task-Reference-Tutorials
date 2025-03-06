@@ -3,10 +3,16 @@ title: Výjimky kalendáře
 linktitle: Výjimky kalendáře
 second_title: Aspose.Tasks Java API
 description: S Aspose.Tasks můžete bez námahy spravovat, definovat, zpracovávat a získávat výjimky kalendáře v projektech Java. Zjednodušte projektové pracovní postupy pro efektivní řízení projektů.
-type: docs
 weight: 20
 url: /cs/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Výjimky kalendáře
+
 
 ## Úvod
 
@@ -34,3 +40,9 @@ Naučte se definovat pracovní dny pro výjimky kalendáře v projektech Java po
 Naučte se, jak efektivně zacházet s výjimkami kalendáře v projektech Java pomocí Aspose.Tasks for Java. Zefektivněte svůj proces projektového řízení již nyní.
 ### [Načtení výjimek kalendáře pomocí Aspose.Tasks](./retrieve/)
 Naučte se, jak načíst výjimky kalendáře z MS Project pomocí Aspose.Tasks for Java. Výukový program krok za krokem pro bezproblémovou integraci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

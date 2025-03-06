@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスクに関連付けられた WBS
 linktitle: Aspose.Tasks のタスクに関連付けられた WBS
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java で WBS をマスターする - タスク WBS コードの読み取りと再番号付けを学びます。プロジェクト管理を効率化！
-type: docs
 weight: 36
 url: /ja/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスクに関連付けられた WBS
+
 ## 導入
 Aspose.Tasks for Java によるプロジェクト管理の世界へようこそ!このチュートリアルでは、Aspose.Tasks for Java を使用してタスクに関連付けられた Work Breakdown Structure (WBS) の複雑さを詳しく説明します。経験豊富な開発者でも、初心者でも、このガイドは、WBS コードを効率的に管理するための基本事項を理解するのに役立ちます。
 ## 前提条件
@@ -90,3 +96,9 @@ A: はい、無料トライアルを利用できます[ここ](https://releases.
  A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートのための。
 ### Q: Aspose.Tasks for Java の一時ライセンスを取得できますか?
  A: はい、一時ライセンスを取得します[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

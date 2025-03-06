@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 달력 예외 검색
 linktitle: Aspose.Tasks를 사용하여 달력 예외 검색
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 달력 예외를 검색하는 방법을 알아보세요. 원활한 통합을 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 13
 url: /ko/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 달력 예외 검색
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.Tasks 라이브러리를 사용하여 MS 프로젝트에서 달력 예외를 검색하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 도구입니다. 이해하기 쉽도록 각 예를 여러 단계로 나누어 프로세스를 단계별로 안내해 드립니다.
 ## 전제조건
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
  커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks에 대한 임시 라이선스 옵션이 있나요?
  예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

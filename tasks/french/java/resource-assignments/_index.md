@@ -3,10 +3,16 @@ title: Affectations de ressources
 linktitle: Affectations de ressources
 second_title: API Java Aspose.Tasks
 description: Maîtrisez sans effort Aspose.Tasks pour Java grâce à nos didacticiels d'affectation de ressources. Gérez la manipulation de MS Project, les budgets de mission, les coûts, etc.
-type: docs
 weight: 30
 url: /fr/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Affectations de ressources
+
 
 ## Introduction
 
@@ -101,3 +107,9 @@ Découvrez comment gérer les notes pour les affectations de ressources dans Asp
 Apprenez à gérer efficacement les affectations de ressources dans Aspose.Tasks pour Java avec ce didacticiel étape par étape.
 ### [Générer des données chronologiques dans Aspose.Tasks](./timephased-data-generation/)
 Découvrez comment générer des données chronologiques pour les affectations de ressources à l'aide d'Aspose.Tasks pour Java. Améliorez l’efficacité de la gestion de projet avec ce guide complet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

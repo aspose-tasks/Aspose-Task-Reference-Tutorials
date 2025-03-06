@@ -3,10 +3,16 @@ title: مراقبة العمل الإضافي والتكاليف المتبقي�
 linktitle: مراقبة العمل الإضافي والتكاليف المتبقية والعمل في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية مراقبة العمل الإضافي والتكاليف المتبقية والعمل في مشاريع Java باستخدام Aspose.Tasks. خطوات سهلة لإدارة المشاريع بفعالية.
-type: docs
 weight: 18
 url: /ar/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مراقبة العمل الإضافي والتكاليف المتبقية والعمل في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعلم كيفية استخدام Aspose.Tasks لـ Java لمراقبة العمل الإضافي والتكاليف المتبقية والعمل في المشروع. يمكن أن يكون هذا أمرًا لا يقدر بثمن بالنسبة لمديري المشاريع وقادة الفريق لضمان بقاء المشاريع على المسار الصحيح وفي حدود الميزانية.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) للدعم.
 ### كيف يمكنني شراء ترخيص Aspose.Tasks؟
  يمكنك شراء ترخيص من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Отображение меток в Aspose.Tasks
 linktitle: Отображение меток в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить отображение меток в управлении проектами с помощью Aspose.Tasks для .NET. Повысьте читаемость и ясность без особых усилий.
-type: docs
 weight: 14
 url: /ru/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отображение меток в Aspose.Tasks
+
 ## Введение
 
 В сфере разработки программного обеспечения эффективное управление задачами является обязательным условием успеха проекта. Aspose.Tasks для .NET предлагает надежное решение для беспрепятственного выполнения задач управления проектами в рамках .NET. Одним из ключевых аспектов управления проектами является возможность настройки параметров отображения в соответствии с конкретными требованиями. В этом руководстве мы рассмотрим, как использовать Aspose.Tasks для .NET для управления отображением меток минут, часов, дней, недель, месяцев и лет в файлах проекта.
@@ -137,3 +143,10 @@ A4: Aspose.Tasks for .NET предлагает широкие возможнос
 ### В5: Поддерживает ли Aspose.Tasks интеграцию с другими инструментами управления проектами?
 
 О5: Да, Aspose.Tasks предлагает возможности бесшовной интеграции, облегчая взаимодействие с другими инструментами и платформами управления проектами.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

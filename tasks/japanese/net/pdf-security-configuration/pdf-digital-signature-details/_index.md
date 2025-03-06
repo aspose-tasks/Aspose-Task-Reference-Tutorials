@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS Project PDF デジタル署名を構成�
 linktitle: Aspose.Tasks での PDF デジタル署名の詳細の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project PDF デジタル署名の詳細を構成する方法を学習します。プロジェクト ファイルのセキュリティと信頼性を確保します。
-type: docs
 weight: 10
 url: /ja/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS Project PDF デジタル署名を構成する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project PDF デジタル署名の詳細を構成するプロセスを説明します。これらの手順に従うことで、デジタル署名を MS Project ファイルにシームレスに統合し、セキュリティと信頼性を確保することができます。
 ## 前提条件
@@ -84,3 +90,9 @@ A: はい、要件に応じて、テキスト、フォント、色、位置な�
 A: いいえ、PDF にデジタル署名を適用すると、削除したり更新したりすることはできません。ただし、必要に応じて追加の署名を追加できます。
 ### Q: Microsoft Project ファイルのサイズや複雑さに制限はありますか?
 A: Aspose.Tasks は、さまざまなサイズと複雑さの Microsoft Project ファイルを制限なく処理できます。ただし、パフォーマンスは利用可能なハードウェアとリソースによって異なる場合があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

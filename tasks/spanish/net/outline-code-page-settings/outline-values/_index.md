@@ -3,10 +3,16 @@ title: Dominar los valores del esquema de MS Project con Aspose.Tasks
 linktitle: Gestión de valores de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar los valores de esquema de MS Project de manera eficiente usando Aspose.Tasks para .NET. Personalice los esquemas del proyecto con facilidad.
-type: docs
 weight: 16
 url: /es/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar los valores del esquema de MS Project con Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo administrar los valores de esquema de Microsoft Project usando la biblioteca Aspose.Tasks para .NET. Con Aspose.Tasks, puede manipular fácilmente códigos de esquema, crear nuevos valores de esquema y personalizar esquemas de proyecto según sus requisitos.
 ## Requisitos previos
@@ -76,3 +82,9 @@ R: Sí, Aspose.Tasks es compatible con varios marcos .NET, lo que garantiza flex
 R: Sí, puede comprar una licencia temporal para Aspose.Tasks en[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?
  R: Puede consultar la documentación completa disponible[aquí](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

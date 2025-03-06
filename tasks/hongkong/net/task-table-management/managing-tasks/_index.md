@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理任務
 linktitle: 在 Aspose.Tasks 中管理任務
 second_title: Aspose.Tasks .NET API
 description: 探索使用 Aspose.Tasks for .NET 管理任務的綜合指南。學習新增、顯示分割零件、移動、取得/設定屬性等。
-type: docs
 weight: 15
 url: /zh-hant/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理任務
+
 ## 介紹
 如果您是 .NET 開發人員，希望有效管理專案中的任務，Aspose.Tasks for .NET 提供了一個強大的解決方案。本教學將指導您完成使用 Aspose.Tasks 管理任務的各個方面，並提供逐步說明和程式碼範例。無論您是新增任務、顯示拆分部分、在同一父級下移動任務、獲取/設定任務屬性、迭代任務分配、讀取任務基線或刪除任務，本指南都能滿足您的要求。
 ## 先決條件
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 答：當然！ Aspose.Tasks 為任務屬性提供了廣泛的自訂選項。查看文件以取得更多詳細資訊。
 ### Q：如何獲得 Aspose.Tasks 的支援？
 答：訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Verwalten Sie MS Project-Gliederungswerte mit Aspose.Tasks
 linktitle: Sammlung von Gliederungswerten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Gliederungswerte in Microsoft Project-Dateien mit Aspose.Tasks für .NET verwalten. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 17
 url: /de/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie MS Project-Gliederungswerte mit Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für .NET bietet umfassende Funktionen für die Interaktion mit Microsoft Project-Dateien. Eine dieser Funktionen ist die Möglichkeit, Gliederungswerte innerhalb eines Projekts zu verwalten. In diesem Tutorial erfahren Sie, wie Sie Gliederungswerte mit Aspose.Tasks für .NET sammeln und bearbeiten.
 ## Voraussetzungen
@@ -108,3 +114,9 @@ A: Sie können Fehlerbehandlungsmechanismen wie Try-Catch-Blöcke implementieren
 A: Ja, Aspose.Tasks bietet umfangreiche APIs, um das Erscheinungsbild und Verhalten von Gliederungswerten entsprechend Ihren Anforderungen anzupassen.
 ### F: Wo finde ich zusätzliche Ressourcen und Unterstützung für Aspose.Tasks?
  A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und erkunden Sie die[Dokumentation](https://reference.aspose.com/tasks/net/) Ausführliche Informationen zu APIs und Funktionen finden Sie hier.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

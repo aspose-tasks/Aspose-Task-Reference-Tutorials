@@ -3,10 +3,16 @@ title: Τύπος υπολογισμού στο Aspose.Tasks
 linktitle: Τύπος υπολογισμού στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσαρμόζετε τους υπολογισμούς αξίας σε έργα .NET με τον τύπο υπολογισμού στη βιβλιοθήκη Aspose.Tasks.
-type: docs
 weight: 30
 url: /el/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τύπος υπολογισμού στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη δυνατότητα Τύπος υπολογισμού στο Aspose.Tasks για .NET. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές .NET να εργάζονται με αρχεία Microsoft Project χωρίς να χρειάζεται να είναι εγκατεστημένο το Microsoft Project στα συστήματά τους. Ο τύπος υπολογισμού μας επιτρέπει να ορίσουμε πώς υπολογίζονται οι τιμές για εργασίες και εργασίες σύνοψης σε ένα έργο.
@@ -97,3 +103,9 @@ A4: Ναι, το Aspose.Tasks παρέχει διάφορους τύπους σ�
 ### Ε5: Πού μπορώ να βρω περισσότερους πόρους στο Aspose.Tasks για .NET;
 
  A5: Μπορείτε να εξερευνήσετε την τεκμηρίωση και τα φόρουμ υποστήριξης κοινότητας που είναι διαθέσιμα στο[Aspose.Tasks για .NET](https://reference.aspose.com/tasks/net/) για ολοκληρωμένη καθοδήγηση και βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

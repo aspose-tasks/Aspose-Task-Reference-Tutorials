@@ -3,10 +3,16 @@ title: Uitgebreide taakkenmerken in Aspose.Tasks
 linktitle: Uitgebreide taakkenmerken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek uitgebreide taakkenmerken in Aspose.Tasks voor Java. Stapsgewijze handleiding, veelgestelde vragen en ondersteuning. Optimaliseer vandaag nog uw projectmanagement!
-type: docs
 weight: 16
 url: /nl/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide taakkenmerken in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het gebruik van uitgebreide taakkenmerken in Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee u naadloos met Microsoft Project-documenten kunt werken. In deze tutorial gaan we dieper in op de uitgebreide taakkenmerken en laten we zien hoe u deze kunt gebruiken om uw projectmanagementmogelijkheden te verbeteren.
 ## Vereisten
@@ -73,3 +79,9 @@ Ja, u kunt uitgebreide taakkenmerken wijzigen met Aspose.Tasks voor Java. Raadpl
  U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik de volledige versie van Aspose.Tasks voor Java kopen?
  U kunt de volledige versie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

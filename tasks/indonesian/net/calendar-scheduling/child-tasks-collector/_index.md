@@ -3,10 +3,16 @@ title: Mengumpulkan Tugas Anak di Aspose.Tasks
 linktitle: Mengumpulkan Tugas Anak di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengumpulkan tugas anak secara efisien menggunakan Aspose.Tasks untuk .NET. Tingkatkan manajemen proyek di aplikasi .NET Anda.
-type: docs
 weight: 15
 url: /id/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengumpulkan Tugas Anak di Aspose.Tasks
+
 ## Perkenalan
 
 Di bidang manajemen proyek, Aspose.Tasks untuk .NET menonjol sebagai solusi tangguh untuk menangani tugas dan proyek secara efisien. Pustaka canggih ini memberi pengembang alat yang mereka perlukan untuk mengelola tugas, proyek, dan segala sesuatu di antaranya dengan lancar. Dalam tutorial ini, kita akan mempelajari aspek spesifik Aspose.Tasks: mengumpulkan tugas anak.
@@ -96,3 +102,9 @@ A4: Ya, pengguna dapat mengakses dukungan teknis melalui[Forum Aspose.Tugas](htt
 ### Q5: Dapatkah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
 
  A5: Tentu saja! Anda dapat memanfaatkan uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta CSV, Metin ve Şablon Olarak Kaydet
 linktitle: Aspose.Tasks'ta CSV, Metin ve Şablon Olarak Kaydet
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project dosyalarını CSV, Metin ve Şablon formatlarında nasıl kaydedeceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta CSV, Metin ve Şablon Olarak Kaydet
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak proje dosyalarını CSV, Metin ve Şablon gibi çeşitli formatlarda nasıl kaydedeceğimizi keşfedeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir.
 ## Önkoşullar
@@ -77,3 +83,9 @@ C: Kesinlikle! Aspose.Tasks for Java, Microsoft Project dosya formatları için 
  C: Evet, adresinden geçici bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/)kütüphanenin tüm potansiyelini değerlendirmenize olanak tanır.
 ### S: Aspose.Tasks for Java farklı işletim sistemleriyle uyumlu mudur?
 C: Evet, Aspose.Tasks for Java; Windows, macOS ve Linux dahil çeşitli işletim sistemleriyle uyumludur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

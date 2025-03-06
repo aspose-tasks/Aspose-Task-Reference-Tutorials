@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクト リソースを作成する
 linktitle: Aspose.Tasks でリソースを作成する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks ライブラリを使用して Java で Microsoft Project リソースを作成する方法を学びます。効率的なリソース管理のためのステップバイステップのガイド。
-type: docs
 weight: 10
 url: /ja/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクト リソースを作成する
+
 ## 導入
 Aspose.Tasks for Java を利用して Microsoft Project リソースを作成するための包括的なガイドへようこそ。 Aspose.Tasks は、開発者が Java アプリケーション内で Microsoft Project ファイルを効率的に操作できるようにする強力な Java ライブラリです。このチュートリアルでは、Aspose.Tasks を使用して MS Project リソースを作成するプロセスを段階的に説明します。
 ## 前提条件
@@ -45,3 +51,9 @@ Resource resource = project.getResources().add("ResourceName");
 Aspose.Tasks フォーラムでサポートと支援を見つけることができます。[ここ](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks を使用するには一時ライセンスが必要ですか?
  Aspose.Tasks はライセンスなしで使用できますが、一時ライセンスを使用すると、追加の機能のロックを解除できます。一時ライセンスは次から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

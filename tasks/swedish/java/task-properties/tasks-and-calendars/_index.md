@@ -3,10 +3,16 @@ title: Uppgifter och kalendrar i Aspose.Tasks
 linktitle: Uppgifter och kalendrar i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska kraften i Aspose.Tasks för Java för att hantera uppgifter och kalendrar effektivt. Ladda ner nu för en sömlös projektledningsupplevelse!
-type: docs
 weight: 33
 url: /sv/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppgifter och kalendrar i Aspose.Tasks
+
 ## Introduktion
 Är du redo att lyfta ditt projektledningsspel med Aspose.Tasks för Java? Denna omfattande guide kommer att leda dig genom den intrikata världen av uppgifter och kalendrar med Aspose.Tasks, vilket gör att du kan utnyttja dess fulla potential för effektiv projektplanering och genomförande.
 ## Förutsättningar
@@ -55,3 +61,9 @@ Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose
  Gå med i samhället kl[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) för support.
 ### Kan jag köpa en licens för Aspose.Tasks?
  Ja, du kan köpa en licens[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

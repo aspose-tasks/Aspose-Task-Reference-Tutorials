@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 작업의 초과 근무
 linktitle: Aspose.Tasks를 사용한 작업의 초과 근무
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 프로젝트 작업에서 효율적인 초과 근무 관리를 살펴보세요. 추적과 리소스 할당을 손쉽게 단순화하세요.
-type: docs
 weight: 23
 url: /ko/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 작업의 초과 근무
+
 ## 소개
 프로젝트 관리자와 팀 리더가 정확한 추적과 리소스 할당을 보장하려면 프로젝트 작업에서 초과 근무를 관리하는 것이 중요합니다. Aspose.Tasks for Java는 프로젝트 관리에서 초과 근무 관련 측면을 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 활용하여 프로젝트 작업에서 초과 근무를 효과적으로 관리하고 분석하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -54,3 +60,9 @@ Aspose.Tasks for Java는 프로젝트 작업의 초과 근무 관리를 단순�
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역사회에 참여하고 지원을 구합니다.
 ### Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

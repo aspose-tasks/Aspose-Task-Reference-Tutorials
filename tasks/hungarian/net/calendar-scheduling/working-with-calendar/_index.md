@@ -3,10 +3,16 @@ title: Munka a naptárral az Aspose.Tasks programban
 linktitle: Munka a naptárral az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Az Aspose.Tasks for .NET segítségével könnyedén kezelheti a projektnaptárakat, kiszámíthatja az időtartamokat, kezelheti a kivételeket.
-type: docs
 weight: 10
 url: /hu/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munka a naptárral az Aspose.Tasks programban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET hatékony szolgáltatásokat nyújt a naptárak kezeléséhez, lehetővé téve a fejlesztők számára a projekt ütemezésének és az erőforrások kiosztásának hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja az Aspose.Tasks-t a naptárak használatához, és lefedi az olyan alapvető műveleteket, mint a naptárinformációk lekérése, a munkahetek meghatározása, a munkaórák kiszámítása stb.
@@ -497,3 +503,9 @@ naptárak használata az Aspose.Tasks for .NET-ben kulcsfontosságú a projekt �
 ### 5. kérdés: Lekérhetek-e információkat a naptári kivételekről a projektfájlokból?
 
 5. válasz: Igen, az Aspose.Tasks for .NET segítségével könnyedén lekérheti a naptárkivételekre vonatkozó információkat a projektfájlokból.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

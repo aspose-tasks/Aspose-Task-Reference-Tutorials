@@ -3,10 +3,16 @@ title: Lidar com ocorrências em exceções de calendário usando Aspose.Tasks
 linktitle: Lidar com ocorrências em exceções de calendário usando Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como lidar com exceções de calendário de maneira eficaz em projetos Java com Aspose.Tasks for Java. Simplifique seu processo de gerenciamento de projetos agora.
-type: docs
 weight: 12
 url: /pt/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com ocorrências em exceções de calendário usando Aspose.Tasks
+
 ## Introdução
 No âmbito do gerenciamento de projetos, lidar com exceções em calendários é crucial para manter a precisão e a eficiência. Aspose.Tasks for Java fornece um kit de ferramentas poderoso para gerenciar tarefas relacionadas a projetos, incluindo o tratamento eficaz de ocorrências em calendários. Neste tutorial, exploraremos como gerenciar exceções em ocorrências de calendário usando Aspose.Tasks for Java.
 ## Pré-requisitos
@@ -59,3 +65,9 @@ Atualizações e melhorias são lançadas regularmente pelo Aspose, garantindo c
 Sim, Aspose.Tasks oferece amplas opções de personalização, permitindo aos usuários personalizar exceções de calendário para atender às necessidades exclusivas de seus projetos.
 ### O Aspose.Tasks oferece um teste gratuito antes de comprar?
  Sim, os usuários interessados podem acessar uma avaliação gratuita do Aspose.Tasks for Java no site[local na rede Internet](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

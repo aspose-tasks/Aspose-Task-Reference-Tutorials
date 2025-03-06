@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的文字項目類型自訂指南
 linktitle: 在 Aspose.Tasks 中處理文字項目類型
 second_title: Aspose.Tasks .NET API
 description: 透過此逐步指南掌握 Aspose.Tasks for .NET 中的文字項目類型自訂。輕鬆提升您的專案管理水準。
-type: docs
 weight: 10
 url: /zh-hant/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的文字項目類型自訂指南
+
 ## 介紹
 如果您是 .NET 開發人員，正在使用 Aspose.Tasks 進行專案管理，那麼您來對地方了！在本逐步指南中，我們將探討在 Aspose.Tasks 中處理文字項目類型的複雜性，重點是使用強大的 .NET 程式庫進行自訂。
 ## 先決條件
@@ -74,3 +80,9 @@ A：造訪Aspose.Tasks[論壇](https://forum.aspose.com/c/tasks/15)尋求專家�
 答：在 Aspose.Tasks 文件中探索更多教學。
 ### Q：哪裡可以購買 Aspose.Tasks for .NET？
  A：購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tùy chỉnh kiểu thanh Gantt với Aspose.Tasks
 linktitle: Kiểu thanh Gantt trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh kiểu thanh Gantt trong MS Project bằng Aspose.Tasks for .NET. Tăng cường trực quan hóa dự án một cách dễ dàng.
-type: docs
 weight: 20
 url: /vi/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh kiểu thanh Gantt với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các kiểu thanh Gantt trong Microsoft Project bằng Aspose.Tasks for .NET. Kiểu thanh Gantt cho phép bạn tùy chỉnh giao diện của các thanh trong biểu đồ Gantt, nâng cao khả năng trình bày trực quan cho dữ liệu dự án của bạn.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Aspose.Tasks cung cấp khả năng tương thích với nhiều ph
 Trả lời: Có, bạn có thể tạo kiểu thanh tùy chỉnh mới và tùy chỉnh các thuộc tính của chúng theo nhu cầu dự án của mình bằng cách sử dụng API Aspose.Tasks.
 ### Câu hỏi: Aspose.Tasks có hỗ trợ các chức năng quản lý dự án khác ngoài biểu đồ Gantt không?
 Trả lời: Có, Aspose.Tasks cung cấp một bộ tính năng toàn diện để làm việc với dữ liệu quản lý dự án, bao gồm lập lịch tác vụ, quản lý tài nguyên và phân tích dự án.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

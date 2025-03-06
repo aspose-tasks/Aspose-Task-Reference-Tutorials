@@ -3,10 +3,16 @@ title: Kết xuất bảng nhiệm vụ trong Aspose.Tasks
 linktitle: Kết xuất bảng nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Mở khóa khả năng quản lý dự án hiệu quả với Aspose.Tasks cho Java. Kết xuất các bảng nhiệm vụ một cách liền mạch. Khám phá hướng dẫn toàn diện ngay bây giờ!
-type: docs
 weight: 27
 url: /vi/java/task-properties/render-task-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất bảng nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Tasks cho Java, một thư viện mạnh mẽ giúp trao quyền cho các nhà phát triển Java khả năng quản lý dự án liền mạch. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu muốn nâng cao kỹ năng quản lý dự án của mình, hướng dẫn này sẽ hướng dẫn bạn cách hiển thị bảng nhiệm vụ bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -58,3 +64,9 @@ Aspose.Tasks dành cho Java đơn giản hóa việc quản lý dự án bằng 
  Nhận giấy phép tạm thời của bạn[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Tasks cho Java ở đâu?
  Mua Aspose.Tasks cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट विशे
 linktitle: Aspose.Tasks में विस्तारित संसाधन विशेषताओं को संभालें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके विस्तारित Microsoft प्रोजेक्ट संसाधन विशेषताओं को कुशलतापूर्वक संभालने का तरीका जानें। आसान कदम और व्यापक मार्गदर्शिका।
-type: docs
 weight: 11
 url: /hi/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट विशेषताओं को कुशलतापूर्वक प्रबंधित करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके विस्तारित Microsoft प्रोजेक्ट संसाधन विशेषताओं को प्रभावी ढंग से संभालने के तरीके के बारे में विस्तार से जानेंगे। Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को कार्य और संसाधन प्रबंधन के लिए व्यापक कार्यक्षमताओं की पेशकश करते हुए प्रोग्रामेटिक रूप से Microsoft प्रोजेक्ट फ़ाइलों में हेरफेर करने में सक्षम बनाती है।
 ## आवश्यक शर्तें
@@ -83,3 +89,9 @@ Aspose.Tasks को Microsoft प्रोजेक्ट के नवीनत
 बिल्कुल, कार्यक्षमता बढ़ाने और विकास प्रक्रियाओं को सुव्यवस्थित करने के लिए Aspose.Tasks को अन्य जावा लाइब्रेरी के साथ सहजता से एकीकृत किया जा सकता है।
 ### क्या Aspose.Tasks उपयोगकर्ताओं के लिए तकनीकी सहायता उपलब्ध है?
 हाँ, उपयोगकर्ता Aspose.Tasks फ़ोरम के माध्यम से तकनीकी सहायता प्राप्त कर सकते हैं, जहाँ वे सहायता प्राप्त कर सकते हैं और समुदाय के साथ जुड़ सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

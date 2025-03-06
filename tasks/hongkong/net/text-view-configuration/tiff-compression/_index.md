@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的 Tiff 壓縮指南
 linktitle: 在 Aspose.Tasks 中選擇 Tiff 壓縮
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在選擇 Tiff 壓縮方面的強大功能。按照我們的逐步指南進行高效的專案視覺化。
-type: docs
 weight: 12
 url: /zh-hant/net/text-view-configuration/tiff-compression/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的 Tiff 壓縮指南
+
 ## 介紹
 在專案管理和任務追蹤領域，Aspose.Tasks for .NET 成為一個強大的工具。憑藉其強大的功能，它提供了一種無縫管理專案的有效方法。一個顯著的功能是能夠以 TIFF 格式渲染項目，為視覺化項目資料提供多功能解決方案。在本教程中，我們將深入研究使用.NET框架在Aspose.Tasks中選擇Tiff壓縮的過程。讓我們一步步踏上這個旅程，確保順利理解這個過程。
 ## 先決條件
@@ -56,3 +62,9 @@ Aspose.Tasks 主要專注於.NET 整合。但是，您可以探索 API 功能，
 如有任何疑問或討論，請訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
 ### 我如何獲得 Aspose.Tasks 的臨時許可證？
 要獲得臨時許可證，請訪問[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

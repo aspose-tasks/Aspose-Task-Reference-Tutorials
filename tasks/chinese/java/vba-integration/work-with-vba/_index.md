@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用 VBA 集成
 linktitle: 在 Aspose.Tasks 中使用 VBA 集成
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 增强项目管理 - 释放 VBA 集成以简化工作流程。立即探索高效的任务跟踪！
-type: docs
 weight: 10
 url: /zh/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用 VBA 集成
+
 ## 介绍
 在项目管理和任务跟踪的动态世界中，拥有一个与 Visual Basic for Applications (VBA) 无缝集成的强大工具可以改变游戏规则。 Aspose.Tasks for Java 就是这样一个强大的工具，它允许您轻松地使用 VBA 集成。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 进行 VBA 集成的复杂性，探索读取 VBA 项目信息、引用、模块和模块属性的步骤。
 ## 先决条件
@@ -98,3 +104,9 @@ System.out.println("Module1: " + vbaModule.getAttributes().toList().get(0).getVa
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 我可以获得 Aspose.Tasks for Java 的临时许可证吗？
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

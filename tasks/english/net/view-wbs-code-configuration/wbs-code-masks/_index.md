@@ -3,10 +3,16 @@ title: Step-by-Step WBS Code Configuration in Aspose.Tasks .NET
 linktitle: Configuring WBS Code Masks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore step-by-step WBS Code Masks configuration in .NET projects using Aspose.Tasks. Enhance project management capabilities effortlessly.
-type: docs
 weight: 14
 url: /net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Step-by-Step WBS Code Configuration in Aspose.Tasks .NET
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that empowers developers to efficiently manipulate project management data in .NET applications. In this tutorial, we will explore the process of configuring Work Breakdown Structure (WBS) Code Masks using Aspose.Tasks.
 ## Prerequisites
@@ -91,3 +97,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 Yes, the comprehensive documentation is available [here](https://reference.aspose.com/tasks/net/).
 ### Where can I purchase Aspose.Tasks?
 Purchase Aspose.Tasks [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks for .NET 中配置 MS Project XLSX 选项
 linktitle: 在 Aspose.Tasks 中配置 XLSX 选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中配置 MS Project XLSX 选项。轻松自定义列、编码等。
-type: docs
 weight: 11
 url: /zh/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks for .NET 中配置 MS Project XLSX 选项
+
 ## 介绍
 Microsoft Project (MS Project) 是一个强大的项目管理工具，Aspose.Tasks for .NET 提供无缝集成，以便以编程方式处理 MS Project 文件。在本教程中，我们将逐步介绍使用 Aspose.Tasks for .NET 配置 MS Project XLSX 选项的过程。
 ## 先决条件
@@ -90,3 +96,9 @@ project.Save("OutputFile.xlsx", options);
 ### 问：是否有任何临时许可证选项可用于测试目的？
 
 答：是的，您可以从以下机构获得临时许可证：[Aspose.Tasks 临时许可证页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

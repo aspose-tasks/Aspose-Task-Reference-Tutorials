@@ -3,10 +3,16 @@ title: การทำงานกับ Assignment ใน Aspose.Tasks
 linktitle: การทำงานกับ Assignment ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการการมอบหมายโครงการใน .NET โดยใช้ Aspose.Tasks สำรวจรูปทรงต่างๆ สำหรับการจัดกำหนดการทรัพยากร
-type: docs
 weight: 13
 url: /th/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับ Assignment ใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการทำงานกับการมอบหมายงานใน Aspose.Tasks for .NET การมอบหมายงานมีความสำคัญอย่างยิ่งในการจัดการโครงการ เนื่องจากเป็นการจัดสรรทรัพยากรให้กับงาน ช่วยในการจัดกำหนดการและติดตามความคืบหน้า เราจะมุ่งเน้นไปที่การสร้างข้อมูลตามระยะเวลาที่กำหนดทรัพยากรด้วยรูปทรงต่างๆ โดยใช้ Aspose.Tasks
@@ -109,3 +115,9 @@ A4: ได้ ดังที่แสดงในบทช่วยสอนน
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับแบบสอบถามที่เกี่ยวข้องกับ Aspose.Tasks ได้ที่ไหน
 
 A5: คุณสามารถค้นหาการสนับสนุนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) ที่ซึ่งผู้เชี่ยวชาญและสมาชิกในชุมชนมีส่วนร่วมอย่างแข็งขันในการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cập nhật Lịch dự án MS sang định dạng MPP với Aspose.Task
 linktitle: Cập nhật Lịch sang định dạng MPP trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách cập nhật lịch MS Project sang định dạng MPP một cách dễ dàng bằng cách sử dụng Aspose.Tasks cho Java.
-type: docs
 weight: 16
 url: /vi/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cập nhật Lịch dự án MS sang định dạng MPP với Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý dự án, việc xử lý các định dạng tệp khác nhau là rất quan trọng để cộng tác liền mạch và quy trình làm việc hiệu quả. Aspose.Tasks for Java cung cấp một giải pháp mạnh mẽ để thao tác với các tệp Microsoft Project, hỗ trợ các tác vụ như cập nhật lịch MS Project sang định dạng MPP. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các bước cần thiết để thực hiện việc này bằng Aspose.Tasks cho Java.
@@ -116,3 +122,9 @@ Câu trả lời 2: Hoàn toàn có thể, Aspose.Tasks cho Java cho phép bạn
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho Java?
 
  Câu trả lời 5: Để có được giấy phép tạm thời cho Aspose.Tasks dành cho Java, hãy truy cập trang web[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

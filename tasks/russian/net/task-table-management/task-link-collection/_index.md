@@ -3,10 +3,16 @@ title: Обработка ссылок на задачи в Aspose.Tasks
 linktitle: Обработка ссылок на задачи в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите возможности Aspose.Tasks for .NET для эффективного управления связями задач проекта. Следуйте нашему пошаговому руководству, чтобы улучшить свой опыт управления проектами.
-type: docs
 weight: 19
 url: /ru/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка ссылок на задачи в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в пошаговое руководство по работе со ссылками на задачи в Aspose.Tasks для .NET! Ссылки на задачи играют решающую роль в управлении проектами, позволяя устанавливать связи между задачами и создавать зависимости. В этом уроке мы познакомим вас с процессом работы с коллекциями ссылок задач с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 Aspose.Tasks может эффективно обрабатывать большие файлы проектов с минимальным влиянием на производительность.
 ### Есть ли форум сообщества для поддержки Aspose.Tasks?
  Да, вы можете найти поддержку и пообщаться с сообществом на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

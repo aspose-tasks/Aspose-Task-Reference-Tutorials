@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 공유 자원 할당 읽기
 linktitle: Aspose.Tasks에서 공유 자원 할당 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 공유 리소스 할당을 읽는 방법을 알아보세요. 단계별 튜토리얼을 통해 프로젝트 관리 효율성을 향상하세요.
-type: docs
 weight: 19
 url: /ko/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 공유 자원 할당 읽기
+
 ## 소개
 프로젝트 관리에서는 성공적인 프로젝트 완료를 위해 효율적인 자원 할당이 중요합니다. Aspose.Tasks for Java는 리소스를 효과적으로 관리할 수 있는 강력한 도구를 제공합니다. 필수 작업 중 하나는 공유 리소스 할당을 읽는 것입니다. 이를 통해 여러 프로젝트에 걸쳐 리소스가 할당되는 방식을 이해할 수 있습니다.
 ## 전제조건
@@ -58,3 +64,9 @@ Aspose.Tasks for Java에서 공유 리소스 할당을 읽는 것은 효율적�
 Aspose.Tasks for Java는 소규모 프로젝트부터 대규모 프로젝트까지 다양한 규모의 프로젝트를 처리할 수 있습니다.
 ### Java 사용자를 위한 Aspose.Tasks에 대한 기술 지원이 제공됩니까?
  예, Aspose.Tasks 포럼에서 기술 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

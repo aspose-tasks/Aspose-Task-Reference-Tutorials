@@ -3,10 +3,16 @@ title: Kezelje a kiterjesztett attribútumokat az Aspose.Tasks projektekben
 linktitle: Kezelje a kiterjesztett attribútumokat az Aspose.Tasks projektekben
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti hatékonyan a kiterjesztett attribútumokat az Aspose.Tasks projektekben a Java használatával. Lépésről lépésre útmutató a hatékony projektmenedzsmenthez.
-type: docs
 weight: 13
 url: /hu/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje a kiterjesztett attribútumokat az Aspose.Tasks projektekben
+
 ## Bevezetés
 kiterjesztett attribútumok kezelése a projektmenedzsmentben kulcsfontosságú a projektadatok testreszabásához és javításához. Az Aspose.Tasks for Java robusztus eszközöket biztosít az MS Project fájlok kiterjesztett attribútumainak hatékony kezelésére. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
 ## Előfeltételek
@@ -86,3 +92,9 @@ V: Természetesen az Aspose.Tasks lehetővé teszi egyedi kiterjesztett attribú
  V: Az Aspose.Tasks webhelyen átfogó dokumentációt találhat[dokumentáció](https://reference.aspose.com/tasks/java/).
 ### K: Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
  V: Igen, az Aspose.Tasks fórumon keresztül elérheti a technikai támogatást[weboldal](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

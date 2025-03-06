@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS Project 显示选项
 linktitle: 在 Aspose.Tasks 中配置项目显示选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以编程方式配置 MS Project 显示选项。轻松定制您的项目外观。
-type: docs
 weight: 17
 url: /zh/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS Project 显示选项
+
 ## 介绍
 Microsoft Project 提供了大量的显示选项来自定义项目的外观。 Aspose.Tasks for .NET 提供了一个强大的框架来以编程方式操作这些选项。在本教程中，我们将探讨如何使用 Aspose.Tasks 配置 MS Project 显示选项。
 ## 先决条件
@@ -85,3 +91,9 @@ project.Save(DataDir + "ModifiedProjectFile.mpp", SaveFileFormat.Mpp);
 答：是的，您可以使用 Aspose.Tasks API 将显示选项重置为其默认值。
 ### 问：以编程方式自定义显示选项有任何限制吗？
 答：虽然 Aspose.Tasks 提供了广泛的自定义功能，但由于 MS Project 文件格式的限制，某些显示选项可能无法通过编程方式访问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

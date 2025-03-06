@@ -3,10 +3,16 @@ title: Arbeiten mit der Baseline-Sammlung in Aspose.Tasks
 linktitle: Arbeiten mit der Baseline-Sammlung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Baselines in Aspose.Tasks für .NET effizient verwalten. Folgen Sie unserem umfassenden Tutorial für eine Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 20
 url: /de/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit der Baseline-Sammlung in Aspose.Tasks
+
 ## Einführung
 
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit Microsoft Project-Dateien in ihren .NET-Anwendungen zu arbeiten. Zu seinen zahlreichen Funktionen gehört die robuste Unterstützung für die Verwaltung von Baselines innerhalb von Projekten. Baselines sind für das Projektmanagement unerlässlich, da Sie damit den ursprünglichen Projektplan mit dem aktuellen Status vergleichen und so den Projektfortschritt besser verfolgen und analysieren können.
@@ -116,3 +122,9 @@ A4: Ja, Aspose.Tasks bietet Unterstützung für die Integration mit gängigen Cl
 ### F5: Gibt es ein Community-Forum für Aspose.Tasks-Benutzer, in dem sie Hilfe suchen und Wissen austauschen können?
 
  A5: Ja, Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) um mit der Community in Kontakt zu treten und Unterstützung von Experten zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dividir tarefas em Aspose.Tasks
 linktitle: Dividir tarefas em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Domine o gerenciamento de tarefas em Java com Aspose.Tasks! Aprenda como dividir tarefas de forma eficiente para otimizar cronogramas de projetos. Baixe Agora!
-type: docs
 weight: 29
 url: /pt/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividir tarefas em Aspose.Tasks
+
 ## Introdução
 Você está lutando com o gerenciamento de tarefas em seu projeto Java? Aspose.Tasks for Java fornece uma solução poderosa para dividir tarefas de forma eficiente, aprimorando os recursos de gerenciamento de projetos. Neste tutorial, iremos guiá-lo através do processo de divisão de tarefas usando Aspose.Tasks for Java, ajudando você a otimizar os cronogramas do seu projeto e alocações de recursos.
 ## Pré-requisitos
@@ -88,3 +94,9 @@ Aspose.Tasks for Java oferece uma avaliação gratuita, permitindo que você exp
  Visite a[Fórum de suporte Aspose.Tasks para Java](https://forum.aspose.com/c/tasks/15) para obter assistência e se conectar com a comunidade.
 ### Preciso de uma licença temporária para Aspose.Tasks for Java?
  Você pode obter uma licença temporária em[esse link](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

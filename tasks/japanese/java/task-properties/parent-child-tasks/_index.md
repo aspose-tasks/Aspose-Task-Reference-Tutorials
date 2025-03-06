@@ -3,10 +3,16 @@ title: Aspose.Tasks で親タスクと子タスクを管理する
 linktitle: Aspose.Tasks で親タスクと子タスクを管理する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用してプロジェクト管理の効率を高めます。親タスクと子のタスクを段階的に管理する方法を学びます。今すぐ始めましょう！
-type: docs
 weight: 24
 url: /ja/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で親タスクと子タスクを管理する
+
 ## 導入
 プロジェクト管理の分野では、効果的なタスクの組織化が非常に重要です。 Aspose.Tasks for Java は、親タスクと子タスクを効率的に管理するための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Tasks for Java を使用してプロジェクト タスクを効率化するプロセスを説明します。
 ## 前提条件
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for Java の包括的なドキュメントはどこで見つけられますか?
 ドキュメントは利用可能です[ここ](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

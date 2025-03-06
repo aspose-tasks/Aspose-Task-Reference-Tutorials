@@ -3,10 +3,16 @@ title: Különböző típusú alapvonalak az Aspose.Tasks-ban
 linktitle: Különböző típusú alapvonalak az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg hatékonyan beállítani és kezelni a projekt alapvonalait az Aspose.Tasks for .NET használatával.
-type: docs
 weight: 21
 url: /hu/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Különböző típusú alapvonalak az Aspose.Tasks-ban
+
 ## Bevezetés
 
 A projektmenedzsment területén a precizitás és az előrelátás a legfontosabb. Az Aspose.Tasks for .NET robusztus eszközkészletet biztosít a projektadatok hatékony kezeléséhez, lehetővé téve a felhasználók számára, hogy elmélyüljenek a projekttervezés, nyomon követés és végrehajtás különböző szempontjaiban. Az Aspose.Tasks egyik kulcsfontosságú funkciója az alapvonalak meghatározásának képessége, amelyek referenciapontként szolgálnak a projekt előrehaladásának mérésére a kezdeti tervekhez képest.
@@ -82,3 +88,9 @@ A2: Abszolút! Az Aspose.Tasks különféle projektfájlformátumokat támogat, 
 ### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
 
 5. válasz: Igen, felfedezheti az Aspose.Tasks-t a webhelyen elérhető ingyenes próbaverzión keresztül, amely lehetővé teszi, hogy első kézből tapasztalja meg a képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

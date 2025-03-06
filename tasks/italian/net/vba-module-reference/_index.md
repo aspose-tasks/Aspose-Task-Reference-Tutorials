@@ -3,10 +3,16 @@ title: Modulo VBA Aspose.Tasks e gestione dei riferimenti
 linktitle: Modulo VBA Aspose.Tasks e gestione dei riferimenti
 second_title: Aspose.Tasks API .NET
 description: Sei pronto per migliorare le tue capacità di gestione dei progetti utilizzando Aspose.Tasks .NET? Tuffati nei nostri tutorial completi per il modulo VBA e la gestione dei riferimenti.
-type: docs
 weight: 31
 url: /it/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modulo VBA Aspose.Tasks e gestione dei riferimenti
+
 
 ## Gestione dei moduli VBA in Aspose.Tasks
 
@@ -40,3 +46,9 @@ Scopri come gestire in modo efficiente le raccolte di moduli VBA in Aspose.Tasks
 Esplora la potenza di Aspose.Tasks per .NET nella gestione dei progetti VBA senza sforzo. Migliora le tue capacità di gestione dei progetti con questa guida passo passo.
 ### [Gestione dei riferimenti VBA in Aspose.Tasks](./vba-references/)
 Esplora la potenza della gestione dei riferimenti VBA in Aspose.Tasks .NET con il nostro tutorial completo. Impara a leggere, confrontare e lavorare con i riferimenti VBA senza problemi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

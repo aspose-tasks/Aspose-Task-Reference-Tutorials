@@ -3,10 +3,16 @@ title: Tạo nhiệm vụ trong Aspose.Tasks
 linktitle: Tạo nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Quản lý dễ dàng các dự án Java với Aspose.Tasks. Tạo nhiệm vụ, nhiệm vụ phụ, v.v. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý dự án liền mạch.
-type: docs
 weight: 13
 url: /vi/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng đến với thế giới của Aspose.Tasks dành cho Java! Nếu bạn đang tìm cách quản lý hiệu quả các tác vụ và dự án trong ứng dụng Java của mình thì bạn đã đến đúng nơi. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tác vụ bằng Aspose.Tasks cho Java, chia nhỏ từng bước để đảm bảo trải nghiệm liền mạch.
 ## Điều kiện tiên quyết
@@ -54,3 +60,9 @@ Tuyệt đối! Aspose.Tasks rất linh hoạt và có thể được sử dụn
 Có, bạn có thể tùy chỉnh rộng rãi các thuộc tính nhiệm vụ cho phù hợp với nhu cầu dự án của mình.
 ### Có cộng đồng hỗ trợ nào cho người dùng Aspose.Tasks không?
  Tuyệt đối! Tham gia cộng đồng Aspose.Tasks trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

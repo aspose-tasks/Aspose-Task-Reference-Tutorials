@@ -3,10 +3,16 @@ title: Διαμόρφωση επιλογών εμφάνισης MS Project στ�
 linktitle: Διαμόρφωση επιλογών εμφάνισης έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις επιλογές εμφάνισης του MS Project μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε την εμφάνιση του έργου σας χωρίς κόπο.
-type: docs
 weight: 17
 url: /el/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση επιλογών εμφάνισης MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Microsoft Project προσφέρει μια πληθώρα επιλογών εμφάνισης για να προσαρμόσετε την εμφάνιση του έργου σας. Το Aspose.Tasks για .NET παρέχει ένα ισχυρό πλαίσιο για τον χειρισμό αυτών των επιλογών μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαμορφώσετε τις επιλογές εμφάνισης του MS Project χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -85,3 +91,9 @@ project.Save(DataDir + "ModifiedProjectFile.mpp", SaveFileFormat.Mpp);
 Α: Ναι, μπορείτε να επαναφέρετε τις επιλογές εμφάνισης στις προεπιλεγμένες τιμές τους χρησιμοποιώντας το Aspose.Tasks API.
 ### Ε: Υπάρχουν περιορισμοί στην προσαρμογή των επιλογών εμφάνισης μέσω προγραμματισμού;
 Α: Ενώ το Aspose.Tasks παρέχει εκτεταμένες δυνατότητες προσαρμογής, ορισμένες επιλογές εμφάνισης ενδέχεται να μην είναι προσβάσιμες μέσω προγραμματισμού λόγω περιορισμών στη μορφή αρχείου MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

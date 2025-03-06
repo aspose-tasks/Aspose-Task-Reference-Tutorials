@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Bölünmüş Parçaları İşleme
 linktitle: Aspose.Tasks'ta Bölünmüş Parçaların Kullanımı
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project'in bölünmüş parçalarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Proje yönetimi iş akışınızı geliştirin.
-type: docs
 weight: 18
 url: /tr/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Bölünmüş Parçaları İşleme
+
 
 ## giriiş
 Aspose.Tasks for .NET kullanıldığında MS Project'in bölünmüş parçalarını yönetmek, proje yönetiminin çok önemli bir yönü olabilir. Bu eğitimde, adım adım rehberlik kullanarak bölünmüş parçaların nasıl etkili bir şekilde ele alınacağını keşfedeceğiz.
@@ -94,3 +100,9 @@ C: Evet, Aspose.Tasks for .NET proje kaynaklarını verimli bir şekilde yönetm
 C: Kesinlikle proje takvimlerini proje gereksinimlerinize göre özelleştirebilirsiniz.
 ### S: Aspose.Tasks for .NET desteğini nerede bulabilirim?
  C: Destek ve yardımı şu adreste bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

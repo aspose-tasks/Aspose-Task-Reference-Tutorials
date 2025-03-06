@@ -3,10 +3,16 @@ title: Bekerja dengan Integrasi VBA di Aspose.Tasks
 linktitle: Bekerja dengan Integrasi VBA di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Tingkatkan manajemen proyek dengan Aspose.Tasks untuk Java - Bebaskan integrasi VBA untuk alur kerja yang disederhanakan. Jelajahi sekarang untuk pelacakan tugas yang efisien!
-type: docs
 weight: 10
 url: /id/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Integrasi VBA di Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia manajemen proyek dan pelacakan tugas yang dinamis, memiliki alat canggih yang terintegrasi dengan Visual Basic for Applications (VBA) dapat menjadi terobosan baru. Aspose.Tasks untuk Java adalah salah satu pembangkit tenaga listrik yang memungkinkan Anda bekerja dengan integrasi VBA dengan mudah. Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan integrasi VBA menggunakan Aspose.Tasks untuk Java, menjelajahi langkah-langkah untuk membaca informasi proyek VBA, referensi, modul, dan atribut modul.
 ## Prasyarat
@@ -98,3 +104,9 @@ Ya, Aspose.Tasks untuk Java dirancang agar kompatibel dengan rilis Java terbaru.
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

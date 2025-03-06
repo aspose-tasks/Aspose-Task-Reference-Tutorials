@@ -3,10 +3,16 @@ title: Projektgyűjtemények kezelése az Aspose.Tasks-ban
 linktitle: Csoportgyűjtemény kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg az MS Project gyűjtemények hatékony kezelését az Aspose.Tasks for .NET használatával. Kövesse lépésenkénti útmutatónkat.
-type: docs
 weight: 26
 url: /hu/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektgyűjtemények kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelhetjük a csoportos MS Project gyűjteményeket az Aspose.Tasks for .NET használatával. A csoportos gyűjtemények kezelése kulcsfontosságú a feladatok és erőforrások hatékony szervezéséhez és kezeléséhez a projekten belül.
 ## Előfeltételek
@@ -108,3 +114,9 @@ Az Aspose.Tasks for .NET elsősorban a .NET-keretrendszert célozza meg, de hasz
  Az Aspose.Tasks for .NET-hez a következőn keresztül kaphat támogatást[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 ### Elérhető az Aspose.Tasks .NET-hez próbaverziója?
  Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez a webhelyről[weboldal](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

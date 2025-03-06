@@ -3,10 +3,16 @@ title: Linhas de base da tarefa
 linktitle: Linhas de base da tarefa
 second_title: API Java Aspose.Tasks
 description: Explore Aspose.Tasks Java com nossos tutoriais de linhas de base de tarefas. Simplifique o agendamento de tarefas, crie linhas de base de tarefas do MS Project e domine o gerenciamento da duração da linha de base.
-type: docs
 weight: 32
 url: /pt/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linhas de base da tarefa
+
 ## Introdução
 Embarque em uma jornada para aprimorar suas habilidades de gerenciamento de projetos com Aspose.Tasks for Java. Nesta série de tutoriais, nos aprofundamos nas complexidades das linhas de base das tarefas, fornecendo informações valiosas e conhecimento prático. Vamos explorar os principais tutoriais que compõem este guia completo.
 
@@ -51,3 +57,9 @@ Aprenda como agendar linhas de base de tarefas de forma eficaz com Aspose.Tasks 
 Aprenda como criar uma linha de base de tarefas do Microsoft Project em Java usando Aspose.Tasks, uma biblioteca poderosa para gerenciar dados de projetos sem esforço.
 ### [Gerenciamento de duração da linha de base da tarefa em Aspose.Tasks](./task-baseline-duration/)
 Aprenda como gerenciar com eficiência linhas de base de tarefas no MS Project usando Aspose.Tasks for Java. Este tutorial orienta você passo a passo pelo processo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

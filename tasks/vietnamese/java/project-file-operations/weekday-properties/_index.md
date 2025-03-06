@@ -3,10 +3,16 @@ title: Thuộc tính ngày trong tuần trong Aspose.Tasks
 linktitle: Thuộc tính ngày trong tuần trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý các thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, ngày trong tháng và hơn thế nữa một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính ngày trong tuần trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java là một API mạnh mẽ cho phép các nhà phát triển Java làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên máy. Một trong những chức năng chính của nó là quản lý các thuộc tính ngày trong tuần, cho phép người dùng tùy chỉnh ngày bắt đầu tuần, số ngày trong tháng, số phút mỗi ngày và số phút mỗi tuần. Hướng dẫn này sẽ cung cấp hướng dẫn chi tiết về cách sử dụng các tính năng này một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Trả lời: Có, Aspose.Tasks cho Java cung cấp khả năng tích hợp liề
  Trả lời: Có, bạn có thể truy cập tài liệu mở rộng và hỗ trợ cộng đồng cho Aspose.Tasks for Java trên[trang mạng](https://releases.aspose.com/).
 ### Câu hỏi: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho Java không?
 Đáp: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks cho Java từ trang web của họ.[trang mạng](https://reference.aspose.com/tasks/java/) để khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

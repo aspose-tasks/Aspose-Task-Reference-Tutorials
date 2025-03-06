@@ -3,10 +3,16 @@ title: Anpassa Gantt-diagramkolumner med Aspose.Tasks
 linktitle: Gantt-diagramkolumner i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du skräddarsyr Gantt-diagramkolumner i Aspose.Tasks för .NET för att visa specifik uppgiftsinformation effektivt.
-type: docs
 weight: 21
 url: /sv/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa Gantt-diagramkolumner med Aspose.Tasks
+
 ## Introduktion
 Gantt-diagram är ett grundläggande verktyg i projektledning och ger en visuell representation av uppgifter, tidslinjer och resurser. Aspose.Tasks för .NET erbjuder kraftfulla funktioner för att manipulera Gantt-diagram, inklusive anpassning av kolumner för att visa specifik uppgiftsinformation. I den här handledningen kommer vi att utforska hur man arbetar med Gantt-diagramkolumner med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -99,3 +105,9 @@ S: Aspose.Tasks för .NET tillhandahåller omfattande API:er och funktioner för
 S: Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ, så att du kan lägga till ett betydande antal kolumner till Gantt-diagram utan begränsningar.
 ### F: Var kan jag hitta ytterligare support och resurser för Aspose.Tasks för .NET?
 S: Du kan utforska dokumentationen, gemenskapsforum och supportkanaler som tillhandahålls av Aspose.Tasks för .NET för att få tillgång till omfattande resurser och hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

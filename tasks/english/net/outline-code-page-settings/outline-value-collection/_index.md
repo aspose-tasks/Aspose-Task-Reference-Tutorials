@@ -3,10 +3,16 @@ title: Manage MS Project Outline Values with Aspose.Tasks
 linktitle: Collection of Outline Values in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage outline values in Microsoft Project files using Aspose.Tasks for .NET. Step-by-step tutorial with code examples.
-type: docs
 weight: 17
 url: /net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage MS Project Outline Values with Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET provides a comprehensive set of features to interact with Microsoft Project files. One such feature is the ability to manage outline values within a project. In this tutorial, we will explore how to collect and manipulate outline values using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -108,3 +114,10 @@ A: You can implement error handling mechanisms such as try-catch blocks to manag
 A: Yes, Aspose.Tasks provides extensive APIs to customize the appearance and behavior of outline values according to your requirements.
 ### Q: Where can I find additional resources and support for Aspose.Tasks?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and explore the [documentation](https://reference.aspose.com/tasks/net/) for detailed information on APIs and features.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

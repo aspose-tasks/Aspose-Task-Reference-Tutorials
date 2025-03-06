@@ -3,10 +3,16 @@ title: Créer un lien de tâche dans Aspose.Tasks
 linktitle: Créer un lien de tâche dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Débloquez une liaison transparente entre les tâches dans les projets Java avec Aspose.Tasks. Maîtrisez l'art de la création de liens de tâches avec notre guide étape par étape. Télécharger maintenant!
-type: docs
 weight: 11
 url: /fr/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un lien de tâche dans Aspose.Tasks
+
 ## Introduction
 Une liaison efficace des tâches est essentielle pour une gestion de projet rationalisée, et Aspose.Tasks for Java fournit aux développeurs des outils puissants pour y parvenir de manière transparente. Ce guide étape par étape vous guidera tout au long du processus de maîtrise de la création de liens de tâches à l'aide d'Aspose.Tasks pour Java.
 ## Conditions préalables
@@ -57,3 +63,9 @@ R : Oui, Aspose.Tasks s'intègre de manière transparente à divers frameworks J
 R : Oui, consultez la documentation pour obtenir des exemples de projets complets et des extraits de code.
 ### Q : Quelle est la méthode recommandée pour acheter Aspose.Tasks pour Java ?
  R : Sécurisez votre copie en visitant le[page d'achat](https://purchase.aspose.com/buy) et explorez les options de licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

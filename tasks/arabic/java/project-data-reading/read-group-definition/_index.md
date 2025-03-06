@@ -3,10 +3,16 @@ title: قراءة بيانات تعريف المجموعة في Aspose.Tasks
 linktitle: قراءة بيانات تعريف المجموعة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة بيانات تعريف المجموعة من ملفات Microsoft Project باستخدام Aspose.Tasks لـ Java. اتبع البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات تعريف المجموعة في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java هي مكتبة قوية تتيح للمطورين التعامل مع ملفات Microsoft Project بسهولة. في هذا البرنامج التعليمي، سنتعرف على عملية قراءة بيانات تعريف المجموعة من ملف المشروع خطوة بخطوة باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 ج: نعم، يتيح لك Aspose.Tasks for Java تصدير بيانات المشروع إلى تنسيقات مثل PDF وXLSX وCSV.
 ### س: أين يمكنني العثور على موارد ودعم إضافيين لـ Aspose.Tasks لـ Java؟
  ج: يمكنك زيارة[Aspose.Tasks لوثائق جافا](https://reference.aspose.com/tasks/java/) للحصول على أدلة شاملة والرجوع إلى[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

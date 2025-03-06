@@ -3,10 +3,16 @@ title: Освоение свойств задачи в Aspose.Tasks
 linktitle: Чтение и запись общих свойств задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Исследуйте возможности Aspose.Tasks для Java, позволяющие легко управлять свойствами задач. Читайте и пишите с легкостью, используя наше пошаговое руководство.
-type: docs
 weight: 26
 url: /ru/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение свойств задачи в Aspose.Tasks
+
 ## Введение
 Раскройте весь потенциал управления задачами на Java с помощью Aspose.Tasks. В этом подробном руководстве мы углубимся в чтение и запись общих свойств задач с использованием Aspose.Tasks для Java. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это руководство даст вам навыки легкого управления свойствами задач.
 ## Предварительные условия
@@ -85,3 +91,9 @@ for (Task tsk : collector.getTasks()) {
  Присоединяйтесь к обсуждению сообщества на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за помощь и сотрудничество.
 ### Есть ли образцы проектов для справки?
  Изучите раздел примеров документации.[здесь](https://reference.aspose.com/tasks/java/) для примеров проектов и фрагментов кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

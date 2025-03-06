@@ -3,10 +3,16 @@ title: Tugas dan Kalender di Aspose.Tasks
 linktitle: Tugas dan Kalender di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi kekuatan Aspose.Tasks untuk Java dalam mengelola tugas dan kalender secara efisien. Unduh sekarang untuk pengalaman manajemen proyek yang lancar!
-type: docs
 weight: 33
 url: /id/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tugas dan Kalender di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan permainan manajemen proyek Anda dengan Aspose.Tasks untuk Java? Panduan komprehensif ini akan memandu Anda menjelajahi dunia tugas dan kalender yang rumit menggunakan Aspose.Tasks, memungkinkan Anda memanfaatkan potensi penuhnya untuk perencanaan dan pelaksanaan proyek yang efisien.
 ## Prasyarat
@@ -55,3 +61,9 @@ Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
  Bergabunglah dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan.
 ### Bisakah saya membeli lisensi untuk Aspose.Tasks?
  Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

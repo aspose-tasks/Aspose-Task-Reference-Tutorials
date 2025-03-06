@@ -3,10 +3,16 @@ title: Stoppa och återuppta uppgiften i Aspose.Tasks
 linktitle: Stoppa och återuppta uppgiften i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska kraften i Aspose.Tasks för Java med vår steg-för-steg-guide om hur du stoppar och återupptar uppgifter. Förbättra projektledning sömlöst!
-type: docs
 weight: 30
 url: /sv/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stoppa och återuppta uppgiften i Aspose.Tasks
+
 ## Introduktion
 När det gäller Java-utveckling är hantering av uppgifter effektivt en avgörande aspekt av projektexekveringen. Aspose.Tasks för Java tillhandahåller en robust lösning för att hantera uppgifter med sina kraftfulla funktioner. I den här handledningen kommer vi att fördjupa oss i en specifik funktionalitet - att stoppa och återuppta uppgifter. Genom att följa denna steg-för-steg-guide kommer du att sömlöst kunna integrera den här funktionen i dina Java-projekt.
 ## Förutsättningar
@@ -69,3 +75,9 @@ Ja, exemplet medger flexibilitet när det gäller att ställa in minimidatum enl
  Ja, du kan komma åt[gratis provperiod](https://releases.aspose.com/) att utforska funktionerna innan du gör ett köp.
 ### Hur kan jag få en tillfällig licens för Aspose.Tasks för Java?
  Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

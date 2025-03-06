@@ -3,10 +3,16 @@ title: Διακοπή και συνέχιση εργασιών πόρων στο
 linktitle: Διακοπή και συνέχιση εργασιών πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις αναθέσεις πόρων στο Aspose.Tasks για Java με αυτό το βήμα προς βήμα σεμινάριο.
-type: docs
 weight: 23
 url: /el/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διακοπή και συνέχιση εργασιών πόρων στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να σταματήσουμε και να συνεχίσουμε τις αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι ένα ισχυρό API Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project χωρίς να απαιτείται εγκατάσταση του Microsoft Project στα συστήματά τους. Θα αναλύσουμε τη διαδικασία σε διαχειρίσιμα βήματα για να είναι εύκολη η παρακολούθηση.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 Μπορείτε να λάβετε υποστήριξη από την κοινότητα[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Μπορώ να αγοράσω μια προσωρινή άδεια;
  Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

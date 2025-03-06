@@ -3,10 +3,16 @@ title: Feladat kezdési dátum típusok konfigurálása az Aspose.Tasks programb
 linktitle: Feladat kezdési dátum típusok konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET-et a feladatok kezdő dátumának egyszerű konfigurálásához. Könnyedén optimalizálhatja a projektmenedzsmentet. Töltse le ingyenes próbaverzióját most!
-type: docs
 weight: 23
 url: /hu/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat kezdési dátum típusok konfigurálása az Aspose.Tasks programban
+
 A projektmenedzsment dinamikus világában kulcsfontosságú a feladatok megfelelő kezdési dátumának meghatározása. Az Aspose.Tasks for .NET hatékony megoldást kínál a feladatok kezdő dátumának egyszerű konfigurálására. Ebben az oktatóanyagban végigvezetjük a folyamaton, egyszerű lépésekre bontva a zökkenőmentes integráció biztosítása érdekében.
 ## Előfeltételek
 Mielőtt belemerülne a feladatkezdési dátumtípusok konfigurációjába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
@@ -52,3 +58,9 @@ Igen, az Aspose.Tasks for .NET segítségével egyénileg testreszabhatja az egy
  Lásd a dokumentációt[itt](https://reference.aspose.com/tasks/net/) az Aspose.Tasks for .NET mélyreható betekintéséért.
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.Tasks számára?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

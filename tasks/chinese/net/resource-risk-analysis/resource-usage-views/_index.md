@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS Project 资源使用视图
 linktitle: 在 Aspose.Tasks 中配置资源使用视图
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 配置 MS Project 资源使用视图。包含代码示例的分步指南。
-type: docs
 weight: 15
 url: /zh/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS Project 资源使用视图
+
 ## 介绍
 Microsoft Project (MS Project) 是一个强大的项目管理工具，允许用户高效地计划、执行和跟踪他们的项目。 Aspose.Tasks for .NET 提供与 MS Project 文件的无缝集成，使开发人员能够以编程方式操作项目数据。在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 配置 MS Project 资源使用视图。
 ## 先决条件
@@ -58,3 +64,9 @@ project.Save(DataDir + "ResourceUsage_days_out.pdf", options);
 答： 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)如有任何疑问、讨论或支持需求。
 ### 问：我可以在购买前试用 Aspose.Tasks 吗？
 答：当然，您可以通过免费试用版探索 Aspose.Tasks[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

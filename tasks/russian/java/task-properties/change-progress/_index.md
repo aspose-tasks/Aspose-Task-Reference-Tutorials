@@ -3,10 +3,16 @@ title: Изменить ход выполнения задачи в Aspose.Tasks
 linktitle: Изменить ход выполнения задачи в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Улучшите управление проектами Java с помощью Aspose.Tasks. В этом пошаговом руководстве научитесь легко изменять ход выполнения задачи. Скачать сейчас!
-type: docs
 weight: 12
 url: /ru/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменить ход выполнения задачи в Aspose.Tasks
+
 ## Введение
 В динамичной сфере управления проектами эффективное отслеживание хода выполнения задач имеет решающее значение. Aspose.Tasks for Java выделяется как надежное решение, упрощающее процесс благодаря своим мощным функциям. В этом руководстве мы покажем вам, как изменить ход выполнения задачи с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
  Изучите полную документацию[здесь](https://reference.aspose.com/tasks/java/).
 ### Как я могу получить временную лицензию на Aspose.Tasks для Java?
  Посетить[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

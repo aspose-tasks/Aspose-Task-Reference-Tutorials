@@ -3,10 +3,16 @@ title: Handle Occurrences in Calendar Exceptions using Aspose.Tasks
 linktitle: Handle Occurrences in Calendar Exceptions using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to handle calendar exceptions effectively in Java projects with Aspose.Tasks for Java. Streamline your project management process now.
-type: docs
 weight: 12
 url: /java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Occurrences in Calendar Exceptions using Aspose.Tasks
+
 ## Introduction
 In the realm of project management, dealing with exceptions in calendars is crucial for maintaining accuracy and efficiency. Aspose.Tasks for Java provides a powerful toolkit for managing project-related tasks, including handling occurrences within calendars effectively. In this tutorial, we'll explore how to manage exceptions in calendar occurrences using Aspose.Tasks for Java.
 ## Prerequisites
@@ -59,3 +65,10 @@ Updates and enhancements are regularly rolled out by Aspose, ensuring compatibil
 Yes, Aspose.Tasks offers extensive customization options, allowing users to tailor calendar exceptions to meet their project's unique needs.
 ### Does Aspose.Tasks offer a free trial before purchasing?
 Yes, interested users can access a free trial of Aspose.Tasks for Java from the [website](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

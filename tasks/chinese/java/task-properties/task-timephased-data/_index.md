@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任务时间分段数据
 linktitle: Aspose.Tasks 中的任务时间分段数据
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 和主任务时间分段数据管理。下载该库，享受免费试用，并简化您的项目跟踪。
-type: docs
 weight: 34
 url: /zh/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任务时间分段数据
+
 ## 介绍
 在项目管理领域，精确跟踪任务时间分段数据对于高效的项目执行至关重要。 Aspose.Tasks for Java 成为简化此过程的强大工具，提供强大的功能和灵活性。本教程将指导您利用 Aspose.Tasks for Java 有效管理任务时间分段数据。
 ## 先决条件
@@ -104,3 +110,9 @@ System.out.println(td.get(0).getValue());
 答：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：哪里可以购买 Aspose.Tasks for Java？
 答：您可以购买 Aspose.Tasks for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

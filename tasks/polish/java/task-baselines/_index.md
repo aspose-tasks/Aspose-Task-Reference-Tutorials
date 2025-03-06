@@ -3,10 +3,16 @@ title: Bazy zadań
 linktitle: Bazy zadań
 second_title: Aspose.Tasks API Java
 description: Poznaj Javę Aspose.Tasks dzięki naszym samouczkom dotyczącym baz zadań. Usprawnij planowanie zadań, twórz plany bazowe zadań MS Project i opanuj zarządzanie czasem trwania według planu bazowego.
-type: docs
 weight: 32
 url: /pl/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bazy zadań
+
 ## Wstęp
 Wyrusz w podróż, aby udoskonalić swoje umiejętności zarządzania projektami dzięki Aspose.Tasks dla Java. W tej serii samouczków zagłębiamy się w zawiłości planów podstawowych zadań, dostarczając cennych spostrzeżeń i wiedzy praktycznej. Przyjrzyjmy się najważniejszym samouczkom składającym się na ten obszerny przewodnik.
 
@@ -51,3 +57,9 @@ Dowiedz się, jak efektywnie planować podstawy zadań za pomocą Aspose.Tasks d
 Dowiedz się, jak utworzyć linię bazową zadań Microsoft Project w Javie przy użyciu Aspose.Tasks, potężnej biblioteki do łatwego zarządzania danymi projektu.
 ### [Zarządzanie czasem trwania zadania w Aspose.Tasks](./task-baseline-duration/)
 Dowiedz się, jak efektywnie zarządzać bazami zadań w MS Project przy użyciu Aspose.Tasks dla Java. Ten samouczek przeprowadzi Cię krok po kroku przez cały proces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

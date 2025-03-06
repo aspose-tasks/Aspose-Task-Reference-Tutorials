@@ -3,10 +3,16 @@ title: Aspose.Tasks Projectmanagement en integratie
 linktitle: Aspose.Tasks Projectmanagement en integratie
 second_title: Aspose.Tasks .NET API
 description: Ontdek uitgebreide Aspose.Tasks voor .NET-tutorials over MS Project-beheer, integratie en maatwerk. Verbeter nu uw projectmanagementvaardigheden!
-type: docs
 weight: 27
 url: /nl/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projectmanagement en integratie
+
 
 ## Invoering
 
@@ -62,3 +68,9 @@ Leer hoe u MS Project Server-referenties naadloos kunt beheren met Aspose.Tasks 
 Ontgrendel naadloos MS Project Server-beheer met Aspose.Tasks voor .NET. Automatiseer projecttaken moeiteloos.
 ### [MS-projectweergaven aanpassen in Aspose.Tasks](./project-views/)
 Leer hoe u MS Project-weergaven kunt aanpassen met Aspose.Tasks voor .NET. Volg onze stapsgewijze handleiding voor efficiënte projectmanagementvisualisatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

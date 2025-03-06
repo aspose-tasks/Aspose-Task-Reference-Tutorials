@@ -3,10 +3,16 @@ title: Échelle de taux de lecture et d’écriture pour les affectations de res
 linktitle: Échelle de taux de lecture et d’écriture pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement l'échelle des taux d'affectation des ressources dans Aspose.Tasks pour Java avec ce didacticiel complet.
-type: docs
 weight: 20
 url: /fr/java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Échelle de taux de lecture et d’écriture pour les affectations de ressources dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous aborderons la gestion de l'échelle de taux d'affectation des ressources à l'aide d'Aspose.Tasks for Java, une bibliothèque robuste permettant de travailler par programmation avec les fichiers Microsoft Project. En suivant ces étapes, vous serez en mesure de manipuler efficacement les paramètres d'échelle de taux pour les affectations de ressources dans vos applications Java.
 ## Conditions préalables
@@ -84,3 +90,9 @@ R : Oui, Aspose.Tasks prend en charge différents formats de fichiers, notamment
 R : Oui, Aspose.Tasks offre des fonctionnalités étendues pour personnaliser les affectations de ressources, y compris les ajustements de coût, de travail et de durée.
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.Tasks ?
  R : Oui, vous pouvez trouver de l'aide et interagir avec d'autres utilisateurs sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

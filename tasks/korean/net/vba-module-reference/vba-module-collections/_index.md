@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 VBA 모듈 컬렉션 마스터하기
 linktitle: Aspose.Tasks에서 VBA 모듈 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 VBA 모듈 컬렉션을 효율적으로 관리하는 방법을 알아보세요. 프로젝트에 원활하게 통합하기 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/net/vba-module-reference/vba-module-collections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 VBA 모듈 컬렉션 마스터하기
+
 ## 소개
 .NET용 Aspose.Tasks에서 VBA 모듈 컬렉션 관리에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose.Tasks를 사용하여 흥미진진한 프로젝트 관리 세계에 뛰어들고 있다면 VBA 모듈 작업 방법을 이해하는 것이 중요합니다. 이 가이드는 프로젝트에서 VBA 모듈을 효과적으로 관리하는 데 필요한 기술을 습득할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -72,3 +78,9 @@ Aspose.Tasks는 주로 C#과 같은 .NET 언어를 지원합니다. 그러나 �
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks에 대한 자세한 문서는 어디에서 찾을 수 있나요?
  문서 살펴보기[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

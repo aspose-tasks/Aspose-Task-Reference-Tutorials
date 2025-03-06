@@ -3,10 +3,16 @@ title: Κατάργηση εργασιών MS Project με το Aspose.Tasks
 linktitle: Κατάργηση εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να καταργείτε τις εργασίες του MS Project μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
-type: docs
 weight: 15
 url: /el/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατάργηση εργασιών MS Project με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αφαιρέσετε εργασίες από ένα αρχείο Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού. Η κατάργηση εργασιών από ένα αρχείο έργου μπορεί να είναι μια κοινή απαίτηση σε σενάρια διαχείρισης έργου και το Aspose.Tasks παρέχει έναν απλό τρόπο για να το επιτύχετε αυτό.
 ## Προαπαιτούμενα
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 Α: Απολύτως, το Aspose.Tasks προσφέρει ολοκληρωμένη υποστήριξη για πολύπλοκες δομές έργου, επιτρέποντάς σας να χειρίζεστε εργασίες, πόρους και άλλα στοιχεία του έργου με ευκολία.
 ### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks;
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks από[εδώ](https://releases.aspose.com/tasks/net/) για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Server Simpan Opsi Proyek MS untuk Aspose.Tasks
 linktitle: Opsi Penyimpanan Server Proyek untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan opsi Microsoft Project untuk Aspose.Tasks menggunakan integrasi Project Server. Tingkatkan alur kerja manajemen proyek Anda.
-type: docs
 weight: 16
 url: /id/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Server Simpan Opsi Proyek MS untuk Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyimpan opsi Microsoft Project untuk Aspose.Tasks menggunakan Project Server. Aspose.Tasks adalah .NET API canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram. Dengan memanfaatkan kemampuan Project Server, kami dapat mengintegrasikan Aspose.Tasks dengan lancar ke dalam alur kerja manajemen proyek kami. Tutorial ini akan memandu Anda melalui proses langkah demi langkah.
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Ya, Aspose.Tasks dirancang agar aman untuk thread, memungkinkan akses bersama
 J: Ya, Anda dapat menyesuaikan opsi penyimpanan seperti nama proyek, batas waktu, dan interval polling agar sesuai dengan kebutuhan Anda.
 ### T: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
  J: Anda dapat menemukan dukungan dan bantuan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

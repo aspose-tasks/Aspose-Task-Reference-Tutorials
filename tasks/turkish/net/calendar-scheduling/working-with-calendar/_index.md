@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Takvimle Çalışmak
 linktitle: Aspose.Tasks'ta Takvimle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak proje takvimlerini yönetin, süreleri hesaplayın, istisnaları kolaylıkla ele alın.
-type: docs
 weight: 10
 url: /tr/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Takvimle Çalışmak
+
 ## giriiş
 
 Aspose.Tasks for .NET, takvimlerle çalışmak için güçlü özellikler sunarak geliştiricilerin proje programlarını ve kaynak tahsislerini verimli bir şekilde yönetmesine olanak tanır. Bu eğitimde, takvim bilgilerinin alınması, çalışma haftalarının tanımlanması, çalışma saatlerinin hesaplanması ve daha fazlası gibi temel işlemleri kapsayan, takvimlerle etkileşimde bulunmak için Aspose.Tasks'ın nasıl kullanılacağını keşfedeceğiz.
@@ -497,3 +503,9 @@ Cevap4: Evet, Aspose.Tasks for .NET API'lerini kullanarak gece vardiyası takvim
 ### S5: Proje dosyalarından takvim istisnaları hakkında bilgi alabilir miyim?
 
 C5: Evet, Aspose.Tasks for .NET'i kullanarak proje dosyalarından takvim istisnaları hakkındaki bilgileri kolayca alabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

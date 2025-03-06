@@ -3,10 +3,16 @@ title: Defining WBS Code Definitions in Aspose.Tasks
 linktitle: Defining WBS Code Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET empowers efficient project management. Master WBS codes effortlessly with our comprehensive tutorial. Streamline workflows today!
-type: docs
 weight: 13
 url: /net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Defining WBS Code Definitions in Aspose.Tasks
+
 ## Introduction
 As project management evolves, so does the need for powerful tools that streamline processes. In the realm of .NET development, Aspose.Tasks stands out as a robust library for handling project management tasks. In this tutorial, we'll delve into the process of defining Work Breakdown Structure (WBS) codes using Aspose.Tasks for .NET. WBS codes bring order to project hierarchies, allowing for efficient tracking and organization.
 ## Prerequisites
@@ -79,3 +85,10 @@ Aspose.Tasks offers scalability, and you can define a considerable number of WBS
 The Aspose.Tasks forum (link to [support](https://forum.aspose.com/c/tasks/15)) is a valuable resource for seeking assistance and troubleshooting queries.
 ### Is there a trial version available before purchasing Aspose.Tasks?
 Yes, you can explore the features and capabilities of Aspose.Tasks by accessing the [free trial](https://releases.aspose.com/) version.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

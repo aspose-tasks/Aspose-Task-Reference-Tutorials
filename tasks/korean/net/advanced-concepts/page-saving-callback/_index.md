@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 페이지 저장 콜백 구현
 linktitle: Aspose.Tasks에서 페이지 저장 콜백 구현
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 페이지 저장 콜백을 구현하여 여러 페이지로 구성된 문서 출력 스트림을 사용자 정의 처리하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 페이지 저장 콜백 구현
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 페이지 저장 콜백을 구현하는 방법을 살펴보겠습니다. 이 기능을 사용하면 여러 페이지로 구성된 문서를 사용자 제공 스트림에 저장할 수 있어 출력 처리 시 유연성과 사용자 정의 기능을 제공할 수 있습니다.
@@ -121,3 +127,9 @@ A3: 예, Aspose.Tasks는 .NET Core를 지원하므로 개발자는 크로스 플
 ### Q5: Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 도움이 필요한 경우 문서에 액세스하세요.[여기](https://reference.aspose.com/tasks/net/) , 또는 추가 기능 및 라이선스 옵션을 살펴보세요.[Aspose.Tasks 웹사이트](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

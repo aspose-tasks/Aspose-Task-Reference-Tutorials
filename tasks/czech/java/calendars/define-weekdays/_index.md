@@ -3,10 +3,16 @@ title: Definujte pracovní dny v kalendáři pomocí Aspose.Tasks
 linktitle: Definujte pracovní dny v kalendáři pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se definovat pracovní dny v MS Project Calendar pomocí Aspose.Tasks pro Javu. Přizpůsobte si pracovní dny a načasování bez námahy.
-type: docs
 weight: 12
 url: /cs/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definujte pracovní dny v kalendáři pomocí Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu projdeme procesem definování pracovních dnů v kalendáři MS Project pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonná knihovna Java, která umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project.
 ## Předpoklady
@@ -82,3 +88,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé verze souborů MS Project, včetn
 Odpověď: Ano, můžete načíst existující projekt s kalendáři, provést úpravy a poté uložit změny zpět do původního souboru.
 ### Q5: Poskytuje Aspose.Tasks podporu pro opakující se úkoly?
 Odpověď: Ano, Aspose.Tasks vám umožňuje pracovat s opakujícími se úkoly, včetně definování vzorců a trvání jejich opakování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

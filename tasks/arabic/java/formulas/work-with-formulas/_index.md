@@ -3,10 +3,16 @@ title: صيغ مشروع MS مع Aspose.Tasks لجافا
 linktitle: العمل مع الصيغ في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع ملفات MS Project في Java باستخدام مكتبة Aspose.Tasks. إنشاء السمات وتعديلها وحسابها بسهولة.
-type: docs
 weight: 11
 url: /ar/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# صيغ مشروع MS مع Aspose.Tasks لجافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في العمل مع صيغ MS Project باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة قوية تمكن المطورين من التعامل مع ملفات Microsoft Project برمجياً. بفضل ميزاته الشاملة، يمكنك بسهولة إنشاء ملفات المشروع وقراءتها وتعديلها وتحويلها في تطبيقات Java.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ project.save("SaveFile.mpp", SaveFileFormat.Mpp);
  ج: للحصول على الدعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 ### س: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks؟
 ج: إذا كنت بحاجة إلى ميزات إضافية، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

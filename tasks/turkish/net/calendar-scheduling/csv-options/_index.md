@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki CSV Seçenekleri
 linktitle: Aspose.Tasks'taki CSV Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak CSV dosyalarıyla verimli bir şekilde çalışmayı ve proje yönetimi becerilerinizi zahmetsizce geliştirmeyi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/calendar-scheduling/csv-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki CSV Seçenekleri
+
 ## giriiş
 
 Günümüzün dijital çağında, işletmelerin başarılı olması için görevlerin ve projelerin verimli yönetimi çok önemlidir. Aspose.Tasks for .NET, geliştiricilerin proje yönetimi dosyalarıyla zahmetsizce çalışabilmesi için güçlü bir araç seti sağlar. Sunduğu temel özelliklerden biri CSV (Virgülle Ayrılmış Değerler) dosyalarıyla çalışabilme yeteneğidir. Bu eğitimde, Aspose.Tasks for .NET'teki CSV seçeneklerini derinlemesine inceleyeceğiz ve bunları sorunsuz bir şekilde anlamanıza ve uygulamanıza yardımcı olmak için her örneği adım adım kılavuzlara ayıracağız.
@@ -84,3 +90,9 @@ Cevap4: Evet, Aspose.Tasks for .NET, CSV dışa aktarma ayarlarını ihtiyaçlar
 ### S5: Aspose.Tasks for .NET desteğini nerede bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) veya Aspose.Tasks for .NET ile ilgili yardım veya sorularınız için Aspose destek ekibiyle iletişime geçin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

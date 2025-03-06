@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Tasks cho .NET
 linktitle: Aspose.Tasks cho Hướng dẫn .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Khám phá Aspose.Tasks để biết các hướng dẫn .NET bao gồm các tùy chọn lưu, lịch & lập kế hoạch, quản lý dự án, v.v. Nâng cao kỹ năng quản lý dự án của bạn.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Tasks cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Aspose.Tasks cho .NET chưa? Đi sâu vào các hướng dẫn và ví dụ toàn diện của chúng tôi về nhiều chủ đề khác nhau để nâng cao kỹ năng quản lý dự án của bạn. Từ việc lưu các tùy chọn đến các tính năng nâng cao, lịch và lập kế hoạch nhiệm vụ, quản lý dự án và tùy chỉnh, chúng tôi đều hỗ trợ bạn.
@@ -72,3 +77,9 @@ Khám phá các tùy chọn định dạng tệp Aspose.Tasks và cấu hình th
 Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks for .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
 ### [Quản lý giấy phép Aspose.Tasks](./license-management/)
 Khai phá sức mạnh của Aspose.Tasks cho .NET bằng các hướng dẫn toàn diện của chúng tôi. Quản lý giấy phép và tối ưu hóa việc sử dụng MS Project để quản lý dự án hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

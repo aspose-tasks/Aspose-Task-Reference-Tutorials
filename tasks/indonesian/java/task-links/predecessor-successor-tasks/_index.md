@@ -3,10 +3,16 @@ title: Kelola Tugas Pendahulu dan Penerus di Aspose.Tasks
 linktitle: Kelola Tugas Pendahulu dan Penerus di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi manajemen tugas yang efisien dengan Aspose.Tasks untuk Java. Tangani tugas pendahulu dan penerus proyek Anda dengan mudah. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 15
 url: /id/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Tugas Pendahulu dan Penerus di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, penanganan ketergantungan tugas yang efektif adalah yang terpenting. Aspose.Tasks untuk Java menawarkan solusi tangguh untuk mengelola tugas pendahulu dan penerus dalam proyek Anda. Tutorial ini akan memandu Anda melalui proses memanfaatkan Aspose.Tasks untuk mengelola tautan tugas secara efisien, memungkinkan Anda membangun ketergantungan antar tugas.
 ## Prasyarat
@@ -52,3 +58,9 @@ Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, dan l
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
 ### Bisakah saya mengunduh uji coba gratis Aspose.Tasks untuk Java?
  Ya, unduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

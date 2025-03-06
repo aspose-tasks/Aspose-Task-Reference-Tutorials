@@ -3,10 +3,16 @@ title: Εξαγωγή πληροφοριών κεφαλίδας και υποσ�
 linktitle: Πληροφορίες κεφαλίδας και υποσέλιδου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε να εξάγετε πληροφορίες κεφαλίδας και υποσέλιδου από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Εύκολη, αποτελεσματική και φιλική προς τους προγραμματιστές λύση.
-type: docs
 weight: 29
 url: /el/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή πληροφοριών κεφαλίδας και υποσέλιδου με το Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται εύκολα τα αρχεία του Microsoft Project. Σε αυτό το σεμινάριο, θα μάθουμε πώς να ανακτούμε πληροφορίες κεφαλίδας και υποσέλιδου από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  Μπορείτε να βρείτε την τεκμηρίωση για το Aspose.Tasks[εδώ](https://reference.aspose.com/tasks/net/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Μπορείτε να λάβετε υποστήριξη για το Aspose.Tasks μεταβαίνοντας στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

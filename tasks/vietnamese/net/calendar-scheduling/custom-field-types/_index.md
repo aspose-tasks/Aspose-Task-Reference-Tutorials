@@ -3,10 +3,16 @@ title: Các loại trường tùy chỉnh trong Aspose.Tasks
 linktitle: Các loại trường tùy chỉnh trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc với các loại trường tùy chỉnh trong Aspose.Tasks cho .NET. Hướng dẫn từng bước với các ví dụ về mã và Câu hỏi thường gặp.
-type: docs
 weight: 23
 url: /vi/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại trường tùy chỉnh trong Aspose.Tasks
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách làm việc với các loại trường tùy chỉnh trong Aspose.Tasks cho .NET! Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc tìm hiểu và sử dụng các loại trường tùy chỉnh, một khía cạnh quan trọng khi làm việc với dữ liệu dự án.
@@ -89,3 +95,9 @@ Câu trả lời 4: Có, Aspose.Tasks cho phép bạn thao tác cả dữ liệu
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Tasks không?
 
  A5: Có, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tương tác với những người dùng khác và nhận hỗ trợ từ nhóm Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

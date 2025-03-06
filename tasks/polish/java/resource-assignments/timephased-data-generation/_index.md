@@ -3,10 +3,16 @@ title: Generuj dane okresowe w Aspose.Tasks
 linktitle: Generuj dane okresowe dla przydziałów zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak generować dane okresowe dla przydziałów zasobów za pomocą Aspose.Tasks dla Java. Popraw efektywność zarządzania projektami dzięki temu kompleksowemu przewodnikowi.
-type: docs
 weight: 24
 url: /pl/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generuj dane okresowe w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy proces generowania danych okresowych dla przydziałów zasobów przy użyciu Aspose.Tasks dla Java. Dane okresowe zapewniają cenny wgląd w alokację zasobów w czasie w ramach projektu, pomagając kierownikom projektów w podejmowaniu świadomych decyzji.
 ## Warunki wstępne
@@ -124,3 +130,9 @@ Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym MPP, XML 
 Tak, Aspose.Tasks pozwala użytkownikom definiować niestandardowe kontury pracy, aby odpowiadały ich konkretnym potrzebom projektowym.
 ### Czy istnieje forum społeczności, na którym mogę uzyskać pomoc dotyczącą Aspose.Tasks?
  Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

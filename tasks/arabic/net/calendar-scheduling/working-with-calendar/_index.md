@@ -3,10 +3,16 @@ title: العمل مع التقويم في Aspose.Tasks
 linktitle: العمل مع التقويم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: إدارة تقويمات المشروع، وحساب المدد، والتعامل مع الاستثناءات بسهولة باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 10
 url: /ar/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع التقويم في Aspose.Tasks
+
 ## مقدمة
 
 يوفر Aspose.Tasks for .NET ميزات قوية للعمل مع التقويمات، مما يتيح للمطورين إدارة جداول المشروع وتخصيص الموارد بكفاءة. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Tasks للتفاعل مع التقويمات، وتغطية العمليات الأساسية مثل استرداد معلومات التقويم، وتحديد أسابيع العمل، وحساب ساعات العمل، والمزيد.
@@ -497,3 +503,9 @@ public void GetWorkingTimes()
 ### س5: هل يمكنني استرداد معلومات حول استثناءات التقويم من ملفات المشروع؟
 
 ج5: نعم، يمكنك بسهولة استرداد معلومات حول استثناءات التقويم من ملفات المشروع باستخدام Aspose.Tasks لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

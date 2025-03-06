@@ -3,10 +3,16 @@ title: Budget, Work, and Cost Management for Tasks in Aspose.Tasks
 linktitle: Budget, Work, and Cost Management for Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Unlock efficient budget and cost management in Java projects with Aspose.Tasks. Explore step-by-step guidance for seamless integration.
-type: docs
 weight: 31
 url: /java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Budget, Work, and Cost Management for Tasks in Aspose.Tasks
+
 ## Introduction
 Managing budgets, work, and costs efficiently is crucial for successful project execution. Aspose.Tasks for Java provides a robust solution for handling project-related tasks, including budgeting and cost management. In this tutorial, we'll explore how to utilize Aspose.Tasks for Java to achieve effective budget, work, and cost management in your projects.
 ## Prerequisites
@@ -71,3 +77,10 @@ Explore the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks
 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
 ### Are there any additional resources for Aspose.Tasks for Java?
 Refer to the documentation [here](https://reference.aspose.com/tasks/java/) for in-depth information and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

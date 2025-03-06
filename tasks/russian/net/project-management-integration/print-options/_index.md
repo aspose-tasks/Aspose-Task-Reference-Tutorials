@@ -3,10 +3,16 @@ title: Настройка параметров печати MS Project в Aspose
 linktitle: Настройка параметров печати в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко настроить параметры печати MS Project с помощью Aspose.Tasks для .NET. Расширьте свои возможности управления проектами.
-type: docs
 weight: 14
 url: /ru/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка параметров печати MS Project в Aspose.Tasks
+
 ## Введение
 В сфере разработки программного обеспечения Aspose.Tasks for .NET выделяется как мощный инструмент для эффективного управления задачами и проектами. Одной из его ключевых особенностей является возможность плавной настройки параметров печати Microsoft Project. В этом руководстве мы углубимся в процесс настройки параметров печати MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -61,3 +67,9 @@ if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
  О: Да, пользователи могут получить доступ к комплексной технической поддержке через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15), где они могут обратиться за помощью и рекомендациями к экспертам.
 ### Вопрос: Могу ли я оценить Aspose.Tasks для .NET перед покупкой?
  А: Абсолютно! Вы можете воспользоваться бесплатной пробной версией Aspose.Tasks для .NET на сайте[здесь](https://releases.aspose.com/) чтобы изучить его особенности и возможности, прежде чем брать на себя обязательства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

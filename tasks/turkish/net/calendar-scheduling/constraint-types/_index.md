@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Kısıtlama Türleri
 linktitle: Aspose.Tasks'taki Kısıtlama Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Proje programlarını verimli bir şekilde yönetmek için Aspose.Tasks for .NET'te kısıtlama türlerini nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 17
 url: /tr/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Kısıtlama Türleri
+
 ## giriiş
 
 .NET'te proje yönetimiyle çalışırken, görevlere farklı kısıtlamaların nasıl uygulanacağını anlamak çok önemlidir. Aspose.Tasks for .NET, proje kısıtlamalarını verimli bir şekilde yönetmek için kapsamlı bir araç seti sağlar. Bu eğitimde Aspose.Tasks'ta bulunan çeşitli kısıtlama türlerini ve bunların adım adım nasıl uygulanacağını inceleyeceğiz.
@@ -83,3 +89,9 @@ Cevap4: Evet, Aspose.Tasks, küçük görevlerden büyük ölçekli projelere ka
 ### S5: Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
 
  Cevap5: Aspose.Tasks için destek almak için sitelerini ziyaret edebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

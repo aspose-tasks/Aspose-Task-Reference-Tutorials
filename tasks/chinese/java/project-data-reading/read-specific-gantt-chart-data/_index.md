@@ -3,10 +3,16 @@ title: 读取Aspose.Tasks中的特定甘特图数据
 linktitle: 读取Aspose.Tasks中的特定甘特图数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 提取特定的甘特图数据。无缝集成到 Java 应用程序中的分步教程。
-type: docs
 weight: 16
 url: /zh/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 读取Aspose.Tasks中的特定甘特图数据
+
 ## 介绍
 甘特图是项目管理的宝贵工具，允许用户可视化任务、时间表和依赖关系。借助 Aspose.Tasks for Java，开发人员可以高效地从甘特图中提取特定数据以集成到他们的应用程序中。在本教程中，我们将引导您逐步完成阅读特定甘特图数据的过程。
 ## 先决条件
@@ -104,3 +110,9 @@ System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier()
 答：当然可以。 Aspose.Tasks 提供了广泛的 API，用于根据您的要求自定义甘特图外观。
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 答：是的，Aspose.Tasks 通过其论坛和专用支持渠道提供全面的技术支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

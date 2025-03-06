@@ -3,10 +3,16 @@ title: Đường cơ sở của nhiệm vụ
 linktitle: Đường cơ sở của nhiệm vụ
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks Java với Hướng dẫn cơ bản về nhiệm vụ của chúng tôi. Hợp lý hóa việc lập kế hoạch nhiệm vụ, tạo các đường cơ sở của nhiệm vụ MS Project và quản lý thời lượng đường cơ sở chính.
-type: docs
 weight: 32
 url: /vi/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đường cơ sở của nhiệm vụ
+
 ## Giới thiệu
 Bắt tay vào hành trình nâng cao kỹ năng quản lý dự án của bạn với Aspose.Tasks cho Java. Trong loạt hướng dẫn này, chúng tôi đi sâu vào sự phức tạp của các nhiệm vụ cơ bản, cung cấp cho bạn những hiểu biết sâu sắc và kiến thức thực tế có giá trị. Hãy cùng khám phá những hướng dẫn chính tạo nên hướng dẫn toàn diện này.
 
@@ -51,3 +57,9 @@ Tìm hiểu cách lên lịch các đường cơ sở của nhiệm vụ một c
 Tìm hiểu cách tạo đường cơ sở nhiệm vụ Microsoft Project trong Java bằng Aspose.Tasks, một thư viện mạnh mẽ để quản lý dữ liệu dự án một cách dễ dàng.
 ### [Quản lý thời lượng cơ bản của nhiệm vụ trong Aspose.Tasks](./task-baseline-duration/)
 Tìm hiểu cách quản lý hiệu quả các đường cơ sở của nhiệm vụ trong MS Project bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn này hướng dẫn bạn từng bước trong suốt quá trình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kelola Tugas Orang Tua dan Anak di Aspose.Tasks
 linktitle: Kelola Tugas Orang Tua dan Anak di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Tingkatkan efisiensi manajemen proyek dengan Aspose.Tasks untuk Java. Belajar mengelola tugas orang tua dan anak selangkah demi selangkah. Mulai sekarang!
-type: docs
 weight: 24
 url: /id/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Tugas Orang Tua dan Anak di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, pengorganisasian tugas yang efektif sangatlah penting. Aspose.Tasks untuk Java memberikan solusi tangguh untuk mengelola tugas induk dan anak secara efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses penggunaan Aspose.Tasks untuk Java untuk menyederhanakan tugas proyek Anda.
 ## Prasyarat
@@ -103,3 +109,9 @@ Sangat! Aspose.Tasks untuk Java menyediakan opsi penyesuaian yang luas untuk pro
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Tasks untuk Java?
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

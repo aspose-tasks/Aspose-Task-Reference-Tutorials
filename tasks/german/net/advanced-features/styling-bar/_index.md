@@ -3,10 +3,16 @@ title: Styling-Leiste in Aspose.Tasks
 linktitle: Styling-Leiste in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Balken in Aspose.Tasks für .NET formatieren, um die Projektvisualisierung zu verbessern.
-type: docs
 weight: 19
 url: /de/net/advanced-features/styling-bar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Styling-Leiste in Aspose.Tasks
+
 ## Einführung
 
 Das Gestalten von Balken in Aspose.Tasks ist ein wesentlicher Aspekt bei der Erstellung optisch ansprechender Projektpläne. Mit der Flexibilität, die die Aspose.Tasks-API bietet, können Entwickler verschiedene Aspekte von Balken, wie z. B. Farbe, Form und Textstil, anpassen, um die Projektvisualisierung zu verbessern. In diesem Tutorial erfahren Sie, wie Sie Balken mit Aspose.Tasks für .NET formatieren, und unterteilen dabei jedes Beispiel in überschaubare Schritte.
@@ -127,3 +133,9 @@ A4: Während Aspose.Tasks Standardleistenstile bereitstellt, können Entwickler 
 ### F5: Kann ich mithilfe der API vorhandene Balkenstile innerhalb eines Projekts abrufen und ändern?
 
 A5: Ja, Sie können vorhandene Balkenstile programmgesteuert mithilfe der Aspose.Tasks für .NET-API abrufen und ändern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

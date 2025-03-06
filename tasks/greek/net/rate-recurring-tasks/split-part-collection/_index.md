@@ -3,10 +3,16 @@ title: Συλλέξτε το MS Project of Split Parts στο Aspose.Tasks
 linktitle: Συλλογή Split Parts στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να συλλέγετε διαχωρισμένα μέρη στο MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Αυτό το περιεκτικό σεμινάριο σας καθοδηγεί βήμα προς βήμα στη διαδικασία.
-type: docs
 weight: 19
 url: /el/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλέξτε το MS Project of Split Parts στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον τρόπο συλλογής διαχωρισμένων τμημάτων στο MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Ο διαχωρισμός των εργασιών σε μέρη μπορεί να είναι μια κρίσιμη πτυχή της διαχείρισης έργου και το Aspose.Tasks παρέχει βολικές μεθόδους για να το χειριστείτε αποτελεσματικά.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ Console.WriteLine("Split start: " + split.Start);
  Α: Οι προσωρινές άδειες μπορούν να αποκτηθούν από[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμη χρήση.
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια ή υποστήριξη σχετικά με το Aspose.Tasks;
  Α: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15)να ζητήσετε βοήθεια από την κοινότητα ή την ομάδα υποστήριξης της Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

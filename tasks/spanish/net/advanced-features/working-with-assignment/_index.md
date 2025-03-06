@@ -3,10 +3,16 @@ title: Trabajar con Asignación en Aspose.Tasks
 linktitle: Trabajar con Asignación en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar asignaciones de proyectos en .NET usando Aspose.Tasks. Explore diferentes contornos para la programación de recursos.
-type: docs
 weight: 13
 url: /es/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabajar con Asignación en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, exploraremos cómo trabajar con asignaciones en Aspose.Tasks para .NET. Las asignaciones son cruciales en la gestión de proyectos, ya que asignan recursos a las tareas, lo que ayuda a programar y seguir el progreso. Nos centraremos en generar datos de fase temporal de asignación de recursos con varios contornos utilizando Aspose.Tasks.
@@ -109,3 +115,9 @@ R4: Sí, como se demuestra en este tutorial, puede configurar varios contornos, 
 ### P5: ¿Dónde puedo encontrar soporte para consultas relacionadas con Aspose.Tasks?
 
 R5: Puede encontrar soporte en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) donde expertos y miembros de la comunidad participan activamente en debates.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hantera uppgifter i Aspose.Tasks
 linktitle: Hantera uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska den omfattande guiden om att hantera uppgifter med Aspose.Tasks för .NET. Lär dig att lägga till, visa delade delar, flytta, hämta/ställa in egenskaper och mer.
-type: docs
 weight: 15
 url: /sv/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera uppgifter i Aspose.Tasks
+
 ## Introduktion
 Om du är en .NET-utvecklare som vill hantera uppgifter inom dina projekt effektivt, erbjuder Aspose.Tasks för .NET en robust lösning. Denna handledning guidar dig genom olika aspekter av att hantera uppgifter med Aspose.Tasks, och erbjuder steg-för-steg-instruktioner och kodexempel. Oavsett om du lägger till uppgifter, visar delade delar, flyttar uppgifter under samma förälder, hämtar/ställer in uppgiftsegenskaper, itererar över uppgiftstilldelningar, läser uppgiftens baslinjer eller tar bort uppgifter, har den här guiden täckt dig.
 ## Förutsättningar
@@ -144,3 +150,9 @@ S: Ja, Aspose.Tasks stöder olika .NET-ramverk, vilket säkerställer kompatibil
 A: Absolut! Aspose.Tasks tillhandahåller omfattande anpassningsalternativ för uppgiftsegenskaper. Se dokumentationen för mer information.
 ### F: Hur får jag support för Aspose.Tasks?
  A: Besök[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

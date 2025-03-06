@@ -3,10 +3,16 @@ title: Přiřazení zdrojů
 linktitle: Přiřazení zdrojů
 second_title: Aspose.Tasks Java API
 description: Ovládněte Aspose.Tasks pro Javu bez námahy pomocí našich výukových programů pro přiřazení zdrojů. Spravujte manipulaci s MS Project, rozpočty přiřazení, náklady a další.
-type: docs
 weight: 30
 url: /cs/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přiřazení zdrojů
+
 
 ## Úvod
 
@@ -101,3 +107,9 @@ Naučte se spravovat poznámky pro přiřazení zdrojů v Aspose.Tasks for Java.
 Naučte se, jak efektivně spravovat přiřazení zdrojů v Aspose.Tasks for Java s tímto podrobným tutoriálem.
 ### [Generujte časově uspořádaná data v Aspose.Tasks](./timephased-data-generation/)
 Naučte se generovat časově uspořádaná data pro přiřazení zdrojů pomocí Aspose.Tasks for Java. Zlepšete efektivitu projektového řízení pomocí tohoto komplexního průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

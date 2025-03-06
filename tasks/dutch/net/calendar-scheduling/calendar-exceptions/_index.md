@@ -3,10 +3,16 @@ title: Agenda-uitzonderingen afhandelen in Aspose.Tasks
 linktitle: Agenda-uitzonderingen afhandelen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u agenda-uitzonderingen beheert in Aspose.Tasks voor .NET met stapsgewijze zelfstudies en voorbeelden.
-type: docs
 weight: 12
 url: /nl/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agenda-uitzonderingen afhandelen in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u agenda-uitzonderingen in Aspose.Tasks kunt beheren met behulp van het .NET-framework. Kalenderuitzonderingen stellen ons in staat speciale datums of perioden in een projectkalender te definiëren waarin het reguliere werkschema wordt gewijzigd, zoals vakanties of tijdelijke sluitingen. We bespreken stap voor stap verschillende methoden om agenda-uitzonderingen af te handelen, met behulp van Aspose.Tasks voor .NET.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks ondersteunt verschillende soorten uitzonderingen, waaronder dag
 ### V5: Kan ik de werktijden aanpassen voor specifieke uitzonderingsdata?
 
 A5: Ja, u kunt aangepaste werktijden definiëren voor individuele uitzonderingsdata met behulp van de juiste methoden van Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

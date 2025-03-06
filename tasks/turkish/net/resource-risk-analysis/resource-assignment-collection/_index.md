@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Atamalarının Toplanması
 linktitle: Aspose.Tasks'ta Kaynak Atamalarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project'te kaynak atamalarını nasıl yöneteceğinizi öğrenin. Kod örnekleriyle adım adım eğitim.
-type: docs
 weight: 12
 url: /tr/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Atamalarının Toplanması
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak Microsoft Project'te kaynak atamalarını yönetmeye ilişkin bu kapsamlı eğitime hoş geldiniz. Bu öğreticide, kaynak atamalarını verimli bir şekilde nasıl yöneteceğiniz konusunda sağlam bir anlayışa sahip olmanızı sağlamak için süreci adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz bilmeniz gereken her şeyde size yol gösterecektir.
 ## Önkoşullar
@@ -94,3 +100,9 @@ C: Evet, Aspose.Tasks for .NET, MPP, MPT ve XML formatları da dahil olmak üzer
  C: Evet, değerlendirme amaçlı olarak geçici lisanslar mevcuttur. Şuradan bir tane alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for .NET'in tam lisansını nereden satın alabilirim?
  C: Aspose çevrimiçi mağazasından tam lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

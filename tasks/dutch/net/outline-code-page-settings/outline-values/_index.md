@@ -3,10 +3,16 @@ title: MS Project Outline-waarden beheersen met Aspose.Tasks
 linktitle: Overzichtswaarden beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-overzichtswaarden efficiënt kunt beheren met Aspose.Tasks voor .NET. Pas eenvoudig projectoverzichten aan.
-type: docs
 weight: 16
 url: /nl/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline-waarden beheersen met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u de overzichtswaarden van Microsoft Project kunt beheren met behulp van de Aspose.Tasks-bibliotheek voor .NET. Met Aspose.Tasks kunt u eenvoudig overzichtscodes manipuleren, nieuwe overzichtswaarden maken en projectoverzichten aanpassen aan uw vereisten.
 ## Vereisten
@@ -76,3 +82,9 @@ A: Ja, Aspose.Tasks is compatibel met verschillende .NET-frameworks, waardoor fl
 A: Ja, u kunt een tijdelijke licentie voor Aspose.Tasks kopen bij[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik gedetailleerde documentatie voor Aspose.Tasks vinden?
  A: U kunt de uitgebreide beschikbare documentatie raadplegen[hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

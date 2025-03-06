@@ -3,10 +3,16 @@ title: Snadná správa zobrazení MS Project s Aspose.Tasks .NET
 linktitle: Kolekce pohledů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte Aspose.Tasks for .NET a ovládněte umění správy MS Project Views bez námahy. Stáhněte si nyní pro bezproblémové řízení projektů.
-type: docs
 weight: 11
 url: /cs/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Snadná správa zobrazení MS Project s Aspose.Tasks .NET
+
 ## Úvod
 Vítejte ve světě Aspose.Tasks for .NET, výkonné knihovny, která umožňuje vývojářům efektivně spravovat Microsoft Project Views v jejich aplikacích .NET. V tomto tutoriálu se ponoříme do základů manipulace s MS Project Views pomocí Aspose.Tasks a poskytneme vám podrobného průvodce pro vylepšení schopností řízení projektů.
 ## Předpoklady
@@ -95,3 +101,9 @@ Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose
  Zapojte se do komunity Aspose.Tasks na[Fórum](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
 ### Jsou pro Aspose.Tasks dostupné dočasné licence?
  Ano, prozkoumat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

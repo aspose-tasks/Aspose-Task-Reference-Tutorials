@@ -3,10 +3,16 @@ title: Προσδιορίστε την έκδοση MS Project με το Aspose.
 linktitle: Προσδιορίστε την έκδοση έργου με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να προσδιορίζετε την έκδοση των αρχείων MS Project μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 12
 url: /el/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσδιορίστε την έκδοση MS Project με το Aspose.Tasks
+
 ## Εισαγωγή
 Αυτό το σεμινάριο θα σας καθοδηγήσει στη χρήση του Aspose.Tasks για Java για να προσδιορίσετε την έκδοση ενός αρχείου MS Project βήμα προς βήμα. Το Aspose.Tasks είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ System.out.println("Process completed Successfully");
 Α: Όχι, το Aspose.Tasks λειτουργεί ανεξάρτητα και δεν απαιτεί την εγκατάσταση του Microsoft Project.
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για το Aspose.Tasks;
  Α: Ναι, μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks στη διεύθυνση[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks プロジェクトの拡張属性を処理する
 linktitle: Aspose.Tasks プロジェクトの拡張属性を処理する
 second_title: Aspose.Tasks Java API
 description: Java を使用して Aspose.Tasks プロジェクトの拡張属性を効率的に処理する方法を学びます。効果的なプロジェクト管理のためのステップバイステップのガイド。
-type: docs
 weight: 13
 url: /ja/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks プロジェクトの拡張属性を処理する
+
 ## 導入
 プロジェクト管理における拡張属性の管理は、プロジェクト データをカスタマイズおよび強化するために重要です。 Aspose.Tasks for Java は、MS Project ファイルの拡張属性を効率的に処理するための強力なツールを提供します。このチュートリアルでは、プロセスを段階的にガイドし、各概念を完全に理解できるようにします。
 ## 前提条件
@@ -86,3 +92,9 @@ A: もちろん、Aspose.Tasks を使用すると、プロジェクトのニー�
  A: Aspose.Tasks Web サイトで包括的なドキュメントを見つけることができます。[ドキュメンテーション](https://reference.aspose.com/tasks/java/).
 ### Q: Aspose.Tasks ユーザーはテクニカル サポートを利用できますか?
  A: はい、Aspose.Tasks フォーラムを通じてテクニカル サポートにアクセスできます。[Webサイト](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

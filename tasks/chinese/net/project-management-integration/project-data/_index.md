@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握项目数据
 linktitle: 在 Aspose.Tasks 中处理项目数据
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 .NET 中的 Aspose.Tasks 操作 Microsoft Project 数据。轻松创建任务、添加资源和保存项目。
-type: docs
 weight: 16
 url: /zh/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握项目数据
+
 ## 介绍
 在本教程中，我们将探讨如何使用 .NET 的 Aspose.Tasks 库处理 Microsoft Project 数据。 Aspose.Tasks 提供了强大的功能来操作项目文件，包括创建任务、添加资源、设置属性以及以各种格式保存项目。
 ## 先决条件
@@ -92,3 +98,9 @@ project.Save(DataDir + "ProjectCreation_out.xml", SaveFileFormat.Xml);
 答：是的，Aspose.Tasks 包含先进的调度算法，可以帮助您优化项目时间表和资源利用率。
 ### 问：是否有针对 Aspose.Tasks 用户的社区论坛？
 答：是的，您可以找到有用的资源并与其他 Aspose.Tasks 用户互动[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การรายงานโครงการ MS ต้นแบบด
 linktitle: การทำงานกับประเภทรายงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีทำงานกับไฟล์ MS Project โดยใช้ Aspose.Tasks สำหรับ .NET สร้างรายงานประเภทต่างๆ ได้อย่างง่ายดาย
-type: docs
 weight: 16
 url: /th/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรายงานโครงการ MS ต้นแบบด้วย Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการไฟล์ Microsoft Project ได้อย่างง่ายดาย ไม่ว่าคุณจะทำงานเกี่ยวกับการจัดการโครงการ การกำหนดเวลา หรือการรายงานงาน Aspose.Tasks มีชุดคุณสมบัติที่ครอบคลุมเพื่อปรับปรุงขั้นตอนการทำงานของคุณ ในบทช่วยสอนนี้ เราจะสำรวจวิธีการทำงานกับไฟล์ MS Project และสร้างรายงานประเภทต่างๆ โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -55,3 +61,9 @@ using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create)
  ตอบ: คุณสามารถรับการสนับสนุนจากชุมชนได้[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### คำถามที่ 5: ฉันจะดาวน์โหลด Aspose.Tasks สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถดาวน์โหลด Aspose.Tasks สำหรับ .NET ได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mode de calcul dans Aspose.Tasks
 linktitle: Mode de calcul dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les modes de calcul dans Aspose.Tasks pour .NET afin de rationaliser la planification des projets et les dépendances des tâches.
-type: docs
 weight: 29
 url: /fr/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mode de calcul dans Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft Project par programmation dans leurs applications .NET. Un aspect crucial du travail avec des fichiers de projet est la gestion des modes de calcul, qui dictent la manière dont les tâches et les calendriers de projet sont calculés et mis à jour. Dans ce didacticiel, nous examinerons les différents modes de calcul pris en charge par Aspose.Tasks pour .NET et montrerons comment les utiliser efficacement.
@@ -165,3 +171,9 @@ A4 : Oui, vous pouvez intégrer de manière transparente Aspose.Tasks à d’au
 ### Q5 : Existe-t-il un forum communautaire ou un canal d'assistance disponible pour les utilisateurs d'Aspose.Tasks ?
 
  A5 : Oui, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

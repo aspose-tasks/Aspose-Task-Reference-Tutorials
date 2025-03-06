@@ -3,10 +3,16 @@ title: Configurazione del progetto
 linktitle: Configurazione del progetto
 second_title: API Java Aspose.Tasks
 description: Scopri la potenza di Aspose.Tasks per Java con i nostri tutorial completi. Configura i diagrammi di Gantt, crea file MS Project e semplifica la gestione dei progetti.
-type: docs
 weight: 26
 url: /it/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurazione del progetto
+
 ## introduzione
 
 Sei pronto a sbloccare tutto il potenziale di Aspose.Tasks per Java? Tuffati nei nostri tutorial dettagliati per padroneggiare la configurazione del progetto utilizzando questo potente strumento. Che tu sia uno sviluppatore esperto o un principiante, le nostre guide dettagliate ti consentiranno di sfruttare le funzionalità di Aspose.Tasks senza problemi.
@@ -45,3 +51,9 @@ Scopri come creare file Microsoft Project vuoti in Java utilizzando Aspose.Tasks
 Scopri come creare e salvare un file MS Project vuoto (MPP) utilizzando Aspose.Tasks per Java. Semplifica le attività di gestione dei progetti senza sforzo.
 ### [Crea e salva un progetto vuoto per lo streaming in Aspose.Tasks](./create-save-stream/)
 Impara a creare e salvare file MS Project vuoti in un flusso in Java con Aspose.Tasks, semplificando senza sforzo le attività di gestione dei progetti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

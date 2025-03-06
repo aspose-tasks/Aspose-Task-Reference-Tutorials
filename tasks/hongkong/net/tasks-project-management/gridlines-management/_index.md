@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 自訂專案網格線
 linktitle: Aspose.Tasks 中的網格線管理
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以程式設計方式調整 Microsoft Project 檔案中的網格線設定、專案視覺化和管理效率。
-type: docs
 weight: 24
 url: /zh-hant/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 自訂專案網格線
+
 ## 介紹
 有效管理專案通常涉及清晰地視覺化時間表和任務。專案視覺化的一個重要面向是網格線，它有助於組織和理解專案的結構。 Aspose.Tasks for .NET 提供了以程式設計方式操作 Microsoft Project 檔案中的網格線的強大功能。在本教程中，我們將探索如何使用 Aspose.Tasks for .NET 來處理網格線。
 ## 先決條件
@@ -69,3 +75,9 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 答：當然可以。使用Aspose.Tasks，您可以合併邏輯，根據專案資料或使用者定義的條件動態調整網格線設定。
 ### Q：在哪裡可以找到更多有關 Aspose.Tasks for .NET 的資源和支援？
 答：您可以探索[文件](https://reference.aspose.com/tasks/net/)如需全面指南，請訪問[支援論壇](https://forum.aspose.com/c/tasks/15)尋求協助，或考慮獲得[臨時執照](https://purchase.aspose.com/temporary-license/)用於擴展評估。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

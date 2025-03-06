@@ -3,10 +3,16 @@ title: Verzameling van overzichtscodedefinities in Aspose.Tasks .NET
 linktitle: Verzameling van overzichtscodedefinities in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u overzichtscodedefinities in Microsoft Project-documenten kunt manipuleren met behulp van Aspose.Tasks voor .NET. Moeiteloos categoriseren van uw projectgegevens.
-type: docs
 weight: 13
 url: /nl/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van overzichtscodedefinities in Aspose.Tasks .NET
+
 ## Invoering
 Aspose.Tasks is een krachtige .NET-bibliotheek die is ontworpen om Microsoft Project-documenten gemakkelijk en efficiënt te manipuleren. Een van de belangrijkste kenmerken is de mogelijkheid om met overzichtscodedefinities te werken, waardoor gebruikers projectgegevens effectief kunnen organiseren en categoriseren. In deze zelfstudie onderzoeken we hoe u kunt werken met overzichtscodedefinities met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
@@ -83,3 +89,9 @@ A: Als een definitie van een overzichtscode alleen-lezen is, kunt u deze niet re
 A: Aspose.Tasks voor .NET legt geen specifieke beperkingen op aan het aantal overzichtscodedefinities dat u aan een project kunt toevoegen. Houd echter rekening met de gevolgen voor de prestaties als u met een groot aantal definities werkt.
 ### Vraag: Kan ik overzichtscodedefinities gebruiken om taken te groeperen op basis van aangepaste criteria?
 A: Ja, met de overzichtscodedefinities kunt u taken categoriseren op basis van aangepaste criteria, wat flexibiliteit biedt bij het organiseren van projectgegevens.## Volledige broncode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

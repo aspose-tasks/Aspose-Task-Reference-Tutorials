@@ -3,10 +3,16 @@ title: Trích xuất thông tin tác vụ định kỳ trong Aspose.Tasks
 linktitle: Trích xuất thông tin tác vụ định kỳ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách trích xuất thông tin tác vụ định kỳ từ tệp MS Project bằng Aspose.Tasks for .NET. Tích hợp dễ dàng cho các nhà phát triển .NET.
-type: docs
 weight: 13
 url: /vi/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin tác vụ định kỳ trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất thông tin tác vụ định kỳ từ các tệp MS Project bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -62,3 +68,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án 
  A: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Tasks cho .NET?
  Trả lời: Bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

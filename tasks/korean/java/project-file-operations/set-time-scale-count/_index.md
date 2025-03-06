@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 시간 규모 계산 마스터하기
 linktitle: Aspose.Tasks에서 시간 척도 수 설정
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 시간 규모 수를 효과적으로 관리하는 방법을 알아보세요. 프로젝트 시각화 및 관리를 손쉽게 최적화하세요.
-type: docs
 weight: 22
 url: /ko/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 시간 규모 계산 마스터하기
+
 ## 소개
 MS Project에서 시간 규모 수를 관리하면 프로젝트 시각화 및 관리에 큰 영향을 미칠 수 있습니다. 프로젝트 관리 작업을 프로그래밍 방식으로 처리하기 위한 강력한 API인 Aspose.Tasks for Java를 사용하면 시간 척도 수를 효율적으로 조작하여 프로젝트 보기를 특정 요구 사항에 맞게 조정할 수 있습니다.
 ## 전제조건
@@ -91,3 +97,9 @@ A: 물론, Aspose.Tasks for Java는 요구 사항에 따라 Gantt 차트의 모�
  A: 네, 다음 사이트에서 무료 평가판을 받으실 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Java용 Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
  A: Aspose.Tasks 포럼에서 지원과 지원을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

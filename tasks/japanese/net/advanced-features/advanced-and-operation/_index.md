@@ -3,10 +3,16 @@ title: Aspose.Tasks の高度な AND 演算
 linktitle: Aspose.Tasks の高度な AND 演算
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で高度な AND 演算を実行し、複数の条件に基づいてプロジェクト タスクを効率的にフィルタリングする方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の高度な AND 演算
+
 ## 導入
 
 このチュートリアルでは、タスクとプロジェクトを管理するための強力なツールである Aspose.Tasks for .NET の高度な AND 演算について詳しく説明します。を使用して、複数の条件に基づいてプロジェクト タスクをフィルタリングする方法を検討します。`Util.And`クラス。
@@ -107,3 +113,9 @@ A: はい、Util.And を使用すると、任意の数の条件を組み合わ�
 ### Q5: Aspose.Tasks for .NET のサポートを受けるにはどうすればよいですか?
 
 A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

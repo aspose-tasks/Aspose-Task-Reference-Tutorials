@@ -3,10 +3,16 @@ title: การจัดการ MS Project Split Parts ใน Aspose.Tasks
 linktitle: การจัดการชิ้นส่วนแยกใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการการแยกส่วน MS Project อย่างมีประสิทธิภาพด้วย Aspose.Tasks สำหรับ .NET ปรับปรุงขั้นตอนการจัดการโครงการของคุณ
-type: docs
 weight: 18
 url: /th/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการ MS Project Split Parts ใน Aspose.Tasks
+
 
 ## การแนะนำ
 การจัดการส่วนแยกโครงการ MS อาจเป็นส่วนสำคัญของการจัดการโครงการเมื่อใช้ Aspose.Tasks สำหรับ .NET ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการส่วนที่แยกอย่างมีประสิทธิภาพโดยใช้คำแนะนำทีละขั้นตอน
@@ -94,3 +100,9 @@ foreach (var splitPart in task.SplitParts)
 ตอบ: แน่นอน คุณสามารถปรับแต่งปฏิทินโครงการตามความต้องการของโครงการของคุณได้
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถค้นหาการสนับสนุนและความช่วยเหลือได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

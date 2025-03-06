@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Görevlere Genişletilmiş Nitelikler Ekleme
 linktitle: Aspose.Tasks'taki Görevlere Genişletilmiş Nitelikler Ekleme
 second_title: Aspose.Tasks Java API'si
 description: Microsoft Project dosyalarını genişletilmiş niteliklerle özelleştirme konusunda Aspose.Tasks Java'nın gücünü keşfedin. Proje yönetimi yeteneklerinizi zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Görevlere Genişletilmiş Nitelikler Ekleme
+
 ## giriiş
 Proje yönetimi yeteneklerinizi geliştirmek, verimli görev takibi ve kaynak yönetimi için çok önemlidir. Aspose.Tasks for Java, Java geliştiricilerinin Microsoft Project dosyalarını sorunsuz bir şekilde yönetmeleri için güçlü bir çözüm sunar. Bu eğitimde, Aspose.Tasks for Java kullanarak görevlere genişletilmiş niteliklerin nasıl ekleneceğini keşfedeceğiz, böylece proje verilerinizi özel gereksinimlerinize göre özelleştirip organize edebilirsiniz.
 ## Önkoşullar
@@ -75,3 +81,9 @@ C: Kesinlikle, Aspose.Tasks for Java, büyük ölçekli uygulamalar da dahil olm
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
 ### S: Satın almadan önce Aspose.Tasks for Java'yı deneyebilir miyim?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

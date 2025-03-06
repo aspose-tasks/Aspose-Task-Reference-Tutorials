@@ -3,10 +3,16 @@ title: Gestion des champs de table dans Aspose.Tasks
 linktitle: Gestion des champs de table dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Maîtrisez la gestion des champs de table dans Aspose.Tasks pour .NET avec ce didacticiel complet. Apprenez à lire, afficher et modifier les tableaux de projet sans effort.
-type: docs
 weight: 12
 url: /fr/net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des champs de table dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans le monde d'Aspose.Tasks pour .NET, une bibliothèque puissante qui permet une manipulation transparente des fichiers Microsoft Project dans vos applications .NET. Dans ce didacticiel, nous approfondirons les subtilités de la gestion des champs de table dans Aspose.Tasks, vous permettant de lire et de gérer efficacement les tables de projet. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide étape par étape vous permettra d'exploiter tout le potentiel d'Aspose.Tasks.
 ## Conditions préalables
@@ -72,3 +78,9 @@ Depuis la dernière version, il n’existe aucune limitation stricte sur le nomb
 Des mises à jour pour Aspose.Tasks sont publiées régulièrement pour garantir la compatibilité et introduire de nouvelles fonctionnalités.
 ### Existe-t-il un forum communautaire pour le support d'Aspose.Tasks ?
  Oui, vous pouvez trouver de l'aide et des discussions sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Weekday Properties in Aspose.Tasks
 linktitle: Weekday Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn to manage weekday properties efficiently in Aspose.Tasks for Java. Customize week start dates, days per month, and more with ease.
-type: docs
 weight: 25
 url: /java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weekday Properties in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java is a powerful API that enables Java developers to work with Microsoft Project files without Microsoft Project installed on the machine. One of its key functionalities is managing weekday properties, allowing users to customize week start dates, days per month, minutes per day, and minutes per week. This tutorial will provide a detailed guide on how to utilize these features effectively.
 ## Prerequisites
@@ -74,3 +80,10 @@ A: Yes, Aspose.Tasks for Java offers seamless integration capabilities, allowing
 A: Yes, you can access extensive documentation and community support for Aspose.Tasks for Java on their [website](https://releases.aspose.com/).
 ### Q: Is there a free trial available for Aspose.Tasks for Java?
 A: Yes, you can download a free trial version of Aspose.Tasks for Java from their [website](https://reference.aspose.com/tasks/java/) to explore its features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

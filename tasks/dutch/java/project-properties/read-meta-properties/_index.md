@@ -3,10 +3,16 @@ title: Lees meta-eigenschappen in Aspose.Tasks-projecten
 linktitle: Lees meta-eigenschappen in Aspose.Tasks-projecten
 second_title: Aspose.Tasks Java-API
 description: Ontgrendel de kracht van metadata in Aspose.Tasks-projecten met deze uitgebreide tutorial. Leer moeiteloos meta-eigenschappen te extraheren en te benutten.
-type: docs
 weight: 10
 url: /nl/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees meta-eigenschappen in Aspose.Tasks-projecten
+
 ## Invoering
 Op het gebied van projectmanagement en data-analyse kan het verdiepen in de metadata van projectbestanden waardevolle inzichten opleveren. Aspose.Tasks voor Java presenteert een robuuste toolkit waarmee u moeiteloos door deze meta-eigenschappen kunt navigeren. Deze tutorial dient als een uitgebreide handleiding voor het extraheren en begrijpen van meta-eigenschappen binnen uw Aspose.Tasks-projecten.
 ## Vereisten
@@ -71,3 +77,9 @@ A: Ja, Aspose.Tasks ondersteunt een breed scala aan projectbestandsindelingen, w
  A: Ja, u kunt uitgebreide documentatie voor Aspose.Tasks vinden op de[documentatiepagina](https://reference.aspose.com/tasks/java/).
 ### Vraag: Waar kan ik ondersteuning zoeken voor Aspose.Tasks-gerelateerde vragen?
  A: Voor hulp of vragen over Aspose.Tasks kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor toegewijde ondersteuning van de gemeenschap en experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

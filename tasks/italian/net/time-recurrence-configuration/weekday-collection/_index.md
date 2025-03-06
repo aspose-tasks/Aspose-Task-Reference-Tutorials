@@ -3,10 +3,16 @@ title: Padroneggiare i giorni feriali in Aspose.Tasks
 linktitle: Raccolta dei giorni feriali in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri la potenza di Aspose.Tasks per .NET nella gestione dei giorni feriali senza sforzo. Personalizza i giorni lavorativi, rimuovi i fine settimana e crea facilmente calendari specializzati.
-type: docs
 weight: 11
 url: /it/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare i giorni feriali in Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per .NET è una potente libreria che facilita la manipolazione efficiente dei dati di gestione del progetto. In questo tutorial esploreremo la raccolta di giorni feriali in Aspose.Tasks, consentendoti di personalizzare i giorni lavorativi, rimuovere i fine settimana e creare calendari specializzati per soddisfare i requisiti del tuo progetto. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida passo passo ti guiderà attraverso il processo di lavoro con i giorni feriali in Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -95,3 +101,9 @@ R: Aspose.Tasks supporta principalmente i linguaggi .NET, ma offre anche version
  R: Fare riferimento a[Aspose.Tasks per la documentazione .NET](https://reference.aspose.com/tasks/net/) per informazioni dettagliate.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks per .NET?
  R: Puoi acquisire una licenza temporanea da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

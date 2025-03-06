@@ -3,10 +3,16 @@ title: Beperkingstypen in Aspose.Tasks
 linktitle: Beperkingstypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u beperkingstypen instelt in Aspose.Tasks voor .NET om projectplanningen efficiënt te beheren.
-type: docs
 weight: 17
 url: /nl/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beperkingstypen in Aspose.Tasks
+
 ## Invoering
 
 Wanneer u met projectbeheer in .NET werkt, is het van cruciaal belang om te begrijpen hoe u verschillende beperkingen op taken kunt toepassen. Aspose.Tasks voor .NET biedt een uitgebreide set tools om projectbeperkingen efficiënt te beheren. In deze zelfstudie gaan we in op de verschillende soorten beperkingen die beschikbaar zijn in Aspose.Tasks en hoe we deze stap voor stap kunnen implementeren.
@@ -83,3 +89,9 @@ A4: Ja, Aspose.Tasks is ontworpen voor projecten van elke omvang, van kleine tak
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.Tasks-gerelateerde vragen?
 
  A5: U kunt ondersteuning krijgen voor Aspose.Tasks door hun te bezoeken[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

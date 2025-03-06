@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET 中的主表配置
 linktitle: 在 Aspose.Tasks 中配置表
 second_title: Aspose.Tasks .NET API
 description: 通过此分步指南，了解如何在 Aspose.Tasks for .NET 中配置表。轻松增强您的项目管理经验。
-type: docs
 weight: 10
 url: /zh/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET 中的主表配置
+
 ## 介绍
 欢迎阅读有关在 Aspose.Tasks for .NET 中配置表的综合指南。 Aspose.Tasks 是一个功能强大的库，使开发人员能够无缝地处理 Microsoft Project 文件。在本教程中，我们将引导您完成使用 Aspose.Tasks 配置表的过程，分解每个步骤以便清楚地理解。
 ## 先决条件
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
 答：是的，您可以探索免费试用版[这里](https://releases.aspose.com/).
 ### 问：哪里可以购买 Aspose.Tasks？
 答：您可以购买完整许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

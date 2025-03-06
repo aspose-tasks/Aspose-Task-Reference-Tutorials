@@ -3,10 +3,16 @@ title: Управление коллекцией ресурсов проекта
 linktitle: Управление коллекцией ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями ресурсов Microsoft Project в .NET с помощью API Aspose.Tasks. Повышайте производительность и гибкость.
-type: docs
 weight: 13
 url: /ru/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекцией ресурсов проекта в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как эффективно управлять коллекциями ресурсов Microsoft Project с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft Project, обеспечивая плавную интеграцию и манипулирование данными проекта.
 ## Предварительные условия
@@ -99,3 +105,9 @@ foreach (var rsc in list)
 ### Вопрос: Доступна ли техническая поддержка для пользователей Aspose.Tasks?
 
  О: Да, пользователи Aspose.Tasks могут получить доступ к технической поддержке через форум.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ปรับแต่งสัปดาห์ทำงานใน Aspose
 linktitle: การรวบรวม Workweeks ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีปรับแต่งสัปดาห์ทำงานใน Aspose.Tasks for .NET คำแนะนำทีละขั้นตอนสำหรับการสร้างปฏิทินโครงการส่วนบุคคล ดาวน์โหลดเดี๋ยวนี้!
-type: docs
 weight: 17
 url: /th/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ปรับแต่งสัปดาห์ทำงานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการสร้างสัปดาห์การทำงานแบบกำหนดเองโดยใช้ Aspose.Tasks สำหรับ .NET! ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการกำหนดสัปดาห์การทำงานส่วนบุคคลสำหรับปฏิทินในโครงการของคุณ Aspose.Tasks เป็นไลบรารีที่ทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Microsoft Project ในแอปพลิเคชัน .NET ได้อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -82,3 +88,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 แน่นอน Aspose.Tasks ช่วยให้คุณสามารถบันทึกโครงการของคุณในรูปแบบต่าง ๆ รวมถึง Microsoft Project
 ### ฉันจะขอรับการสนับสนุนสำหรับคำถามที่เกี่ยวข้องกับ Aspose.Tasks ได้ที่ไหน
  เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนหรือความช่วยเหลือใด ๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hướng dẫn tùy chỉnh loại mục văn bản trong Aspose.Tasks
 linktitle: Xử lý các loại mục văn bản trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nắm vững cách tùy chỉnh loại mục văn bản trong Aspose.Tasks cho .NET với hướng dẫn từng bước này. Nâng cao trò chơi quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn tùy chỉnh loại mục văn bản trong Aspose.Tasks
+
 ## Giới thiệu
 Nếu bạn là nhà phát triển .NET đang nghiên cứu quản lý dự án bằng Aspose.Tasks, thì bạn đã đến đúng nơi! Trong hướng dẫn từng bước này, chúng ta sẽ khám phá sự phức tạp của việc xử lý các loại mục văn bản trong Aspose.Tasks, tập trung vào việc tùy chỉnh bằng thư viện .NET mạnh mẽ.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Chúc mừng! Bạn vừa mới bắt đầu xử lý các loại mục văn b�
 Đáp: Khám phá thêm hướng dẫn trong tài liệu Aspose.Tasks.
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
  A: Mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

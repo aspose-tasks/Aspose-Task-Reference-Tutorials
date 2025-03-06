@@ -3,10 +3,16 @@ title: Xử lý thời lượng trong Aspose.Tasks
 linktitle: Xử lý thời lượng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý thời lượng hiệu quả trong Aspose.Tasks for .NET với hướng dẫn từng bước.
-type: docs
 weight: 30
 url: /vi/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý thời lượng trong Aspose.Tasks
+
 ## Giới thiệu
 
 Xử lý thời lượng một cách hiệu quả là rất quan trọng trong các ứng dụng quản lý dự án. Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để quản lý thời lượng một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá các khía cạnh khác nhau của việc xử lý thời lượng bằng Aspose.Tasks cho .NET.
@@ -156,3 +162,9 @@ A4: Có, Aspose.Tasks hỗ trợ đọc và ghi các tệp Microsoft Project ở
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
 Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

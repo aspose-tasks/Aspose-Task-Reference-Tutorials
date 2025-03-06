@@ -3,10 +3,16 @@ title: Správa nadřazených a podřízených úkolů v Aspose.Tasks
 linktitle: Správa nadřazených a podřízených úkolů v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Zvyšte efektivitu řízení projektů pomocí Aspose.Tasks for Java. Naučte se krok za krokem spravovat rodičovské a dětské úkoly. Začněte hned!
-type: docs
 weight: 24
 url: /cs/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa nadřazených a podřízených úkolů v Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení je efektivní organizace úkolů zásadní. Aspose.Tasks for Java poskytuje robustní řešení pro efektivní správu nadřazených a podřízených úloh. V tomto tutoriálu vás provedeme procesem používání Aspose.Tasks for Java ke zefektivnění vašich projektových úkolů.
 ## Předpoklady
@@ -103,3 +109,9 @@ Absolutně! Aspose.Tasks for Java poskytuje rozsáhlé možnosti přizpůsobení
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu komplexní dokumentaci k Aspose.Tasks for Java?
  Dokumentace je k dispozici[tady](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

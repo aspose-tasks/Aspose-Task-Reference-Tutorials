@@ -3,10 +3,16 @@ title: Hoạt động tập tin dự án
 linktitle: Hoạt động tập tin dự án
 second_title: API Java Aspose.Tasks
 description: Dễ dàng tối ưu hóa bố cục MS Project với Aspose.Tasks cho Java. Tìm hiểu hướng dẫn từng bước về cách giảm khoảng cách, hiển thị dữ liệu, thay thế lịch, v.v.
-type: docs
 weight: 29
 url: /vi/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động tập tin dự án
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao khả năng quản lý dự án Java của mình? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về Aspose.Tasks cho Java, tập trung vào các thao tác tệp dự án khác nhau. Từ việc giảm bớt khoảng trống trong danh sách nhiệm vụ đến tùy chỉnh chế độ xem MS Project, chúng tôi đã hỗ trợ bạn.
 
@@ -94,3 +100,9 @@ Tìm hiểu cách tạo chế độ xem MS Project tùy chỉnh một cách dễ
 Tìm hiểu cách quản lý các thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, ngày trong tháng và hơn thế nữa một cách dễ dàng.
 ### [Viết tóm tắt dự án MPP trong Aspose.Tasks](./write-mpp-project-summary/)
 Tìm hiểu cách viết tóm tắt dự án MPP bằng Java bằng Aspose.Tasks. Thiết lập và truy xuất thông tin dự án một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

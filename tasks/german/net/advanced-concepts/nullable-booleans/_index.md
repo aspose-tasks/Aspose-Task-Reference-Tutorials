@@ -3,10 +3,16 @@ title: Umgang mit nullbaren booleschen Werten in Aspose.Tasks
 linktitle: Umgang mit nullbaren booleschen Werten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie nullfähige Boolesche Werte in Aspose.Tasks für .NET effektiv verarbeiten. Beherrschen Sie die Verwendung der Klasse „NullableBool“ und verbessern Sie Ihre .NET-Entwicklung.
-type: docs
 weight: 21
 url: /de/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umgang mit nullbaren booleschen Werten in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns intensiv mit der Arbeit mit nullbaren booleschen Werten in Aspose.Tasks für .NET. Nullable-Boolesche Werte bieten Flexibilität bei der Darstellung boolescher Werte und ermöglichen die Möglichkeit, undefiniert zu sein. Wir werden untersuchen, wie man das verwendet`NullableBool` Klasse, ihre Konstruktoren, Eigenschaften und Methoden.
@@ -153,3 +159,9 @@ A4: Ja, Sie können einen nullbaren booleschen Wert bei der Erstellung auf undef
 ### F5: Wo finde ich weitere Dokumentation zu Aspose.Tasks für .NET?
 
  A5: Hier finden Sie eine ausführliche Dokumentation[Hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

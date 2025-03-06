@@ -3,10 +3,16 @@ title: Mendefinisikan Definisi Kode WBS di Aspose.Tasks
 linktitle: Mendefinisikan Definisi Kode WBS di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Aspose.Tasks untuk .NET memberdayakan manajemen proyek yang efisien. Kuasai kode WBS dengan mudah menggunakan tutorial komprehensif kami. Sederhanakan alur kerja hari ini!
-type: docs
 weight: 13
 url: /id/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendefinisikan Definisi Kode WBS di Aspose.Tasks
+
 ## Perkenalan
 Seiring berkembangnya manajemen proyek, kebutuhan akan alat canggih yang menyederhanakan proses juga meningkat. Di bidang pengembangan .NET, Aspose.Tasks menonjol sebagai perpustakaan yang kuat untuk menangani tugas-tugas manajemen proyek. Dalam tutorial ini, kita akan mempelajari proses mendefinisikan kode Work Breakdown Structure (WBS) menggunakan Aspose.Tasks untuk .NET. Kode WBS menertibkan hierarki proyek, memungkinkan pelacakan dan pengorganisasian yang efisien.
 ## Prasyarat
@@ -79,3 +85,9 @@ Aspose.Tasks menawarkan skalabilitas, dan Anda dapat menentukan sejumlah besar k
  Forum Aspose.Tasks (tautan ke[mendukung](https://forum.aspose.com/c/tasks/15)) adalah sumber daya yang berharga untuk mencari bantuan dan memecahkan pertanyaan.
 ### Apakah ada versi uji coba yang tersedia sebelum membeli Aspose.Tasks?
  Ya, Anda dapat menjelajahi fitur dan kemampuan Aspose.Tasks dengan mengakses[uji coba gratis](https://releases.aspose.com/) Versi: kapan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

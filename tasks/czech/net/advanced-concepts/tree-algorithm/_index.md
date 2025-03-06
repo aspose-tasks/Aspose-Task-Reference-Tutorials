@@ -3,10 +3,16 @@ title: Použití stromového algoritmu v Aspose.Tasks
 linktitle: Použití stromového algoritmu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně manipulovat s hierarchiemi úkolů ve vašich projektech .NET pomocí stromového algoritmu Aspose.Tasks.
-type: docs
 weight: 13
 url: /cs/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití stromového algoritmu v Aspose.Tasks
+
 ## Úvod
 
 Aspose.Tasks for .NET poskytuje výkonné funkce pro práci s úkoly, zdroji a plány projektového řízení. Jednou z takových funkcí je stromový algoritmus, který uživatelům umožňuje efektivně manipulovat s hierarchiemi úkolů. V tomto tutoriálu prozkoumáme, jak využít stromový algoritmus v Aspose.Tasks pro .NET ke shromažďování společné práce a aktualizaci pracovních hodnot v rámci projektu.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks for .NET je výkonné rozhraní API, které umožňuje vývojá
 ### Q5: Je k dispozici dočasná licence pro testovací účely?
 
  A5: Ano, můžete získat dočasnou licenci pro testovací účely od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

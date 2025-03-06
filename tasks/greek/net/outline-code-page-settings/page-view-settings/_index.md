@@ -3,10 +3,16 @@ title: Προσαρμόστε τις ρυθμίσεις προβολής σελ�
 linktitle: Διαμόρφωση ρυθμίσεων προβολής σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις ρυθμίσεις προβολής σελίδας στο Aspose.Tasks για .NET για να προσαρμόσετε τη μορφή εκτύπωσης των εγγράφων του Microsoft Project.
-type: docs
 weight: 21
 url: /el/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τις ρυθμίσεις προβολής σελίδας MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Microsoft Project είναι ένα ισχυρό εργαλείο για τη διαχείριση έργου, αλλά μερικές φορές χρειάζεται να προσαρμόσετε τον τρόπο προβολής και εκτύπωσης του έργου σας. Με το Aspose.Tasks για .NET, μπορείτε εύκολα να διαμορφώσετε τις ρυθμίσεις προβολής σελίδας ώστε να ανταποκρίνονται στις συγκεκριμένες απαιτήσεις σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 Α: Το Aspose.Tasks προσφέρει συμβατότητα με το Microsoft Project 2003 και νεότερες εκδόσεις.
 ### Ε: Πού μπορώ να βρω περαιτέρω βοήθεια ή υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για τυχόν απορίες ή προβλήματα που αντιμετωπίζετε κατά τη χρήση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Créer un calendrier standard dans Aspose.Tasks
 linktitle: Créer un calendrier standard dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment créer un calendrier MS Project standard en Java à l'aide d'Aspose.Tasks. Améliorez vos capacités de gestion de projet avec ce didacticiel étape par étape.
-type: docs
 weight: 14
 url: /fr/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un calendrier standard dans Aspose.Tasks
+
 
 ## Introduction
 Dans ce didacticiel, nous plongerons dans le monde d'Aspose.Tasks pour Java, une puissante bibliothèque qui permet aux développeurs de manipuler les fichiers Microsoft Project de manière transparente. Plus précisément, nous nous concentrerons sur la création d'un calendrier MS Project standard à l'aide d'Aspose.Tasks. À la fin de ce guide, vous aurez une solide compréhension de la façon d'implémenter cette fonctionnalité dans vos applications Java.
@@ -63,3 +69,9 @@ R : Certainement ! Aspose.Tasks est conçu pour répondre aux besoins des applic
 R : Oui, les développeurs peuvent accéder à une assistance technique complète via le forum Aspose.Tasks, garantissant une assistance rapide pour toute question ou problème.
 ### Q : Puis-je essayer Aspose.Tasks avant d’effectuer un achat ?
  R : Oui, vous pouvez explorer Aspose.Tasks via une version d'essai gratuite disponible sur[site web](https://purchase.aspose.com/buy), vous permettant d’évaluer ses caractéristiques et fonctionnalités avant de prendre une décision.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

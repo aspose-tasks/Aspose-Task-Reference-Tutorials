@@ -3,10 +3,16 @@ title: Gerenciar códigos de estrutura de tópicos do projeto em Aspose.Tasks pa
 linktitle: Gerenciando códigos de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a gerenciar códigos de estrutura de tópicos do MS Project com Aspose.Tasks for .NET. Simplifique a organização do projeto sem esforço.
-type: docs
 weight: 10
 url: /pt/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar códigos de estrutura de tópicos do projeto em Aspose.Tasks para .NET
+
 ## Introdução
 Neste tutorial, exploraremos como gerenciar códigos de estrutura de tópicos do Microsoft Project usando Aspose.Tasks for .NET. Os códigos de estrutura de tópicos são campos personalizados no Microsoft Project que permitem aos usuários categorizar e organizar tarefas de acordo com critérios específicos. Aspose.Tasks simplifica o processo de leitura e manipulação desses códigos de estrutura de forma programática.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ R: Sim, é necessária uma licença válida para uso comercial do Aspose.Tasks. 
 R: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Tasks do site para avaliar seus recursos e capacidades.
 ### P: Onde posso obter suporte para Aspose.Tasks?
  R: Você pode obter suporte para Aspose.Tasks visitando o fórum em[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Código fonte completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tratamento de links de tarefas em Aspose.Tasks
 linktitle: Tratamento de links de tarefas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore o poder do Aspose.Tasks for .NET no gerenciamento eficiente de links de tarefas de projetos. Siga nosso guia passo a passo para aprimorar sua experiência em gerenciamento de projetos.
-type: docs
 weight: 19
 url: /pt/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tratamento de links de tarefas em Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao guia passo a passo sobre como lidar com links de tarefas no Aspose.Tasks for .NET! Os links de tarefas desempenham um papel crucial no gerenciamento de projetos, permitindo estabelecer relacionamentos entre tarefas e criar dependências. Neste tutorial, orientaremos você no processo de trabalho com coleções de links de tarefas usando Aspose.Tasks.
 ## Pré-requisitos
@@ -85,3 +91,9 @@ Atualmente, Aspose.Tasks oferece suporte a tipos de link de tarefa padrão e tip
 Aspose.Tasks pode lidar com grandes arquivos de projeto de forma eficiente com impacto mínimo no desempenho.
 ### Existe um fórum da comunidade para suporte do Aspose.Tasks?
  Sim, você pode encontrar apoio e interagir com a comunidade no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

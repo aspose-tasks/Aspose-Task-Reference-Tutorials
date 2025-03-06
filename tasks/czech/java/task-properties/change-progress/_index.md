@@ -3,10 +3,16 @@ title: Změňte průběh úkolu v Aspose.Tasks
 linktitle: Změňte průběh úkolu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Vylepšete řízení projektů Java pomocí Aspose.Tasks. Naučte se plynule upravovat průběh úkolu v tomto podrobném tutoriálu. Stáhnout teď!
-type: docs
 weight: 12
 url: /cs/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte průběh úkolu v Aspose.Tasks
+
 ## Úvod
 dynamické sféře projektového řízení je efektivní sledování průběhu úkolů klíčové. Aspose.Tasks for Java vyniká jako robustní řešení, které zjednodušuje proces svými výkonnými funkcemi. V tomto tutoriálu vás provedeme kroky ke změně průběhu úlohy pomocí Aspose.Tasks for Java.
 ## Předpoklady
@@ -63,3 +69,9 @@ Zopakujte kroky pro každý úkol, který chcete monitorovat.
  Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/tasks/java/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks for Java?
  Navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

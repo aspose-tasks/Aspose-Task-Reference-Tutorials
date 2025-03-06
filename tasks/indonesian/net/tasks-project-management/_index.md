@@ -3,10 +3,16 @@ title: Aspose.Tasks Manajemen dan Kustomisasi Proyek
 linktitle: Aspose.Tasks Manajemen dan Kustomisasi Proyek
 second_title: Aspose.Tugas .NET API
 description: Kuasai Aspose.Tasks untuk .NET dengan tutorial manajemen proyek kami. Pelajari teknik manipulasi, penyesuaian, dan pengoptimalan yang efisien untuk file MS Project.
-type: docs
 weight: 23
 url: /id/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Manajemen dan Kustomisasi Proyek
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan manajemen proyek Anda dengan Aspose.Tasks untuk .NET? Tutorial komprehensif kami mencakup berbagai topik, mulai dari menguasai metode MS Project yang bernilai hingga mengelola atribut proyek secara efisien dan menyesuaikan diagram Gantt. Mari selami dunia Aspose.Tasks dan buka potensi penuh manajemen proyek.
@@ -130,3 +136,9 @@ Jelajahi cara memanipulasi file MS Project secara terprogram di .NET menggunakan
 Pelajari cara mengelola kumpulan Proyek MS Kriteria Grup menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk pengembang.
 ### [Ekstrak Informasi Header dan Footer dengan Aspose.Tasks](./header-footer-information/)
 Pelajari cara mengekstrak info header & footer dari file MS Project menggunakan Aspose.Tasks untuk .NET. Solusi yang mudah, efisien, dan ramah pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

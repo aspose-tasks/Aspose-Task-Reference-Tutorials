@@ -3,10 +3,16 @@ title: Identificare le attività tra progetti in Aspose.Tasks
 linktitle: Identificare le attività tra progetti in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora l'identificazione delle attività tra progetti con Aspose.Tasks per Java. Integrazione perfetta e gestione efficiente. Scarica ora!
-type: docs
 weight: 14
 url: /it/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identificare le attività tra progetti in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel nostro tutorial completo sull'identificazione efficiente delle attività tra progetti con Aspose.Tasks per Java. Che tu sia uno sviluppatore esperto o un principiante, questa guida ti guiderà attraverso il processo di integrazione perfetta di questa funzionalità nei tuoi progetti Java.
 ## Prerequisiti
@@ -60,3 +66,9 @@ R: Sì, Aspose.Tasks supporta più linguaggi di programmazione, tra cui Java, .N
  R: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Hai bisogno di aiuto o hai domande specifiche?
 R: Visita il forum di supporto Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

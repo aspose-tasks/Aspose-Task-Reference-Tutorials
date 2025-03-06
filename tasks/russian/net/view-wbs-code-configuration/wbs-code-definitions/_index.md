@@ -3,10 +3,16 @@ title: Определение определений кода WBS в Aspose.Task
 linktitle: Определение определений кода WBS в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks для .NET обеспечивает эффективное управление проектами. Освойте кодирование WBS без особых усилий с помощью нашего подробного руководства. Оптимизируйте рабочие процессы сегодня!
-type: docs
 weight: 13
 url: /ru/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определение определений кода WBS в Aspose.Tasks
+
 ## Введение
 По мере развития управления проектами растет и потребность в мощных инструментах, упрощающих процессы. В сфере .NET-разработки Aspose.Tasks выделяется как надежная библиотека для решения задач управления проектами. В этом руководстве мы углубимся в процесс определения кодов структуры иерархии работ (WBS) с использованием Aspose.Tasks для .NET. Коды WBS упорядочивают иерархию проектов, обеспечивая эффективное отслеживание и организацию.
 ## Предварительные условия
@@ -79,3 +85,9 @@ Aspose.Tasks предлагает масштабируемость, и вы мо
  Форум Aspose.Tasks (ссылка на[поддерживать](https://forum.aspose.com/c/tasks/15)) — ценный ресурс для поиска помощи и устранения неполадок.
 ### Доступна ли пробная версия перед покупкой Aspose.Tasks?
  Да, вы можете изучить функции и возможности Aspose.Tasks, открыв[бесплатная пробная версия](https://releases.aspose.com/) версия.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

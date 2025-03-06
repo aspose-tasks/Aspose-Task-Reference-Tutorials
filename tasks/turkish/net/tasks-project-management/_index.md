@@ -3,10 +3,16 @@ title: Aspose.Tasks Proje Yönetimi ve Özelleştirme
 linktitle: Aspose.Tasks Proje Yönetimi ve Özelleştirme
 second_title: Aspose.Tasks .NET API'si
 description: Proje yönetimi eğitimlerimizle Aspose.Tasks for .NET konusunda uzmanlaşın. MS Project dosyaları için etkili manipülasyon, özelleştirme ve optimizasyon tekniklerini öğrenin.
-type: docs
 weight: 23
 url: /tr/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Proje Yönetimi ve Özelleştirme
+
 ## giriiş
 
 Aspose.Tasks for .NET ile proje yönetimi becerilerinizi yükseltmeye hazır mısınız? Kapsamlı eğitimlerimiz, kazanılan değer MS Project yöntemlerinde uzmanlaşmaktan, proje niteliklerini verimli bir şekilde yönetmeye ve Gantt şemalarını özelleştirmeye kadar çeşitli konuları kapsar. Aspose.Tasks dünyasına dalalım ve proje yönetiminin tüm potansiyelini açığa çıkaralım.
@@ -130,3 +136,9 @@ Aspose.Tasks'ı kullanarak MS Project dosyalarını .NET'te programlı olarak na
 Aspose.Tasks for .NET kullanarak Group Criterion MS Project koleksiyonunu nasıl yöneteceğinizi öğrenin. Geliştiriciler için adım adım kılavuz.
 ### [Aspose.Tasks ile Üstbilgi ve Altbilgi Bilgilerini Çıkarın](./header-footer-information/)
 Aspose.Tasks for .NET'i kullanarak MS Project dosyalarından üstbilgi ve altbilgi bilgilerini çıkarmayı öğrenin. Kolay, verimli ve geliştirici dostu bir çözüm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

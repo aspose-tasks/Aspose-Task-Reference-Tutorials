@@ -3,10 +3,16 @@ title: Обработка шаблонов ежемесячного повтор
 linktitle: Обработка шаблонов ежемесячного повторения в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как обрабатывать ежемесячные шаблоны повторения в Aspose.Tasks для .NET, с помощью этого пошагового руководства.
-type: docs
 weight: 18
 url: /ru/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка шаблонов ежемесячного повторения в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET — это мощный API, который позволяет разработчикам программно манипулировать файлами Microsoft Project. Одной из важных функций, которые он предлагает, является способность эффективно решать повторяющиеся задачи. В этом уроке мы шаг за шагом углубимся в то, как работать с шаблонами ежемесячного повторения с помощью Aspose.Tasks.
@@ -94,3 +100,9 @@ A1: Aspose.Tasks поддерживает различные версии фай
 ### В5: Где я могу приобрести лицензию на Aspose.Tasks?
 
  A5: Вы можете приобрести лицензию на Aspose.Tasks на сайте.[здесь](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

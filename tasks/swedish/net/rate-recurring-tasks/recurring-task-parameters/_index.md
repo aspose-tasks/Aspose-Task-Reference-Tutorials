@@ -3,10 +3,16 @@ title: Ställa in parametrar för återkommande uppgifter i Aspose.Tasks
 linktitle: Ställa in parametrar för återkommande uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du ställer in parametrar för återkommande uppgift i Microsoft Project med Aspose.Tasks för .NET. Omfattande handledning med steg-för-steg-guide.
-type: docs
 weight: 14
 url: /sv/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in parametrar för återkommande uppgifter i Aspose.Tasks
+
 ## Introduktion
 den här handledningen guidar vi dig genom processen att ställa in parametrar för återkommande uppgifter i Microsoft Project med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -79,3 +85,9 @@ Ja, Aspose.Tasks stöder olika projektfilformat inklusive MPP, XML, XLSX och mer
 Ja, du kan besöka Aspose.Tasks-forumet för hjälp från gemenskapen eller kontakta supporten för direkt hjälp.
 ### Hur kan jag få en tillfällig licens för Aspose.Tasks?
  Du kan få en tillfällig licens från[hemsida](https://purchase.aspose.com/temporary-license/) för teständamål.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

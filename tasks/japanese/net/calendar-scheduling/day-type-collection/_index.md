@@ -3,10 +3,16 @@ title: Aspose.Tasks での日型コレクションの管理
 linktitle: Aspose.Tasks での日型コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で日型コレクションを効率的に管理する方法を学びます。カレンダーの例外を簡単に作成、変更、操作できます。
-type: docs
 weight: 28
 url: /ja/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での日型コレクションの管理
+
 ## 導入
 
  Aspose.Tasks for .NET は、プロジェクト管理アプリケーションで週次カレンダーの例外を定義するために重要な日型コレクションを管理するための堅牢な機能を提供します。このチュートリアルでは、`DayTypeCollection`効率的に授業を行います。 
@@ -141,3 +147,9 @@ A2: はい、Aspose.Tasks for .NET は .NET Core と .NET Framework の両方を
 ### Q5: Aspose.Tasks for .NET の一時ライセンスを購入できますか?
 
  A5: はい、一時ライセンスは以下から購入できます。[Aspose ウェブサイト](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

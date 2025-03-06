@@ -3,10 +3,16 @@ title: Hantera uppgiftslänkar i Aspose.Tasks
 linktitle: Hantera uppgiftslänkar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska kraften i Aspose.Tasks för .NET för att effektivt hantera projektuppgiftslänkar. Följ vår steg-för-steg-guide för att förbättra din projektledningsupplevelse.
-type: docs
 weight: 19
 url: /sv/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera uppgiftslänkar i Aspose.Tasks
+
 ## Introduktion
 Välkommen till steg-för-steg-guiden om hantering av uppgiftslänkar i Aspose.Tasks för .NET! Uppgiftslänkar spelar en avgörande roll i projektledning, vilket gör att du kan etablera relationer mellan uppgifter och skapa beroenden. I den här handledningen kommer vi att leda dig genom processen att arbeta med uppgiftslänksamlingar med Aspose.Tasks.
 ## Förutsättningar
@@ -85,3 +91,9 @@ För närvarande stöder Aspose.Tasks standarduppgiftslänktyper, och anpassade 
 Aspose.Tasks kan hantera stora projektfiler effektivt med minimal prestandapåverkan.
 ### Finns det ett communityforum för Aspose.Tasks-support?
  Ja, du kan hitta stöd och engagera dig i samhället på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

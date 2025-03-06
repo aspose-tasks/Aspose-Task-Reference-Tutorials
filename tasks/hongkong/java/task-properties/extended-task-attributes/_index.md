@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的擴充任務屬性
 linktitle: Aspose.Tasks 中的擴充任務屬性
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 中的擴充任務屬性。逐步指南、常見問題和支援。立即優化您的專案管理！
-type: docs
 weight: 16
 url: /zh-hant/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的擴充任務屬性
+
 ## 介紹
 歡迎閱讀我們關於在 Aspose.Tasks for Java 中利用擴充任務屬性的綜合指南。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓您無縫地處理 Microsoft Project 文件。在本教程中，我們將深入研究擴展任務屬性，並示範如何利用它們來增強專案管理能力。
 ## 先決條件
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以購買完整版的 Aspose.Tasks for Java？
 您可以購買完整版[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

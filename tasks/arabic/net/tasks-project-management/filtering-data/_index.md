@@ -3,10 +3,16 @@ title: تصفية البيانات بكفاءة باستخدام Aspose.Tasks
 linktitle: تصفية البيانات في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تصفية البيانات في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز قدرات الإنتاجية والتحليل دون عناء.
-type: docs
 weight: 16
 url: /ar/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصفية البيانات بكفاءة باستخدام Aspose.Tasks
+
 ## مقدمة
 يوفر Aspose.Tasks for .NET وظائف قوية لتصفية البيانات في ملفات Microsoft Project، مما يسمح للمستخدمين بإدارة معلومات المشروع وتحليلها بكفاءة. في هذا البرنامج التعليمي، سنستكشف كيفية تصفية البيانات باستخدام Aspose.Tasks بتنسيق دليل خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
  ج: نعم، يمكنك الرجوع إلى الشامل[توثيق](https://reference.aspose.com/tasks/net/) مقدمة من Aspose.Tasks للحصول على إرشادات مفصلة.
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
  ج: نعم، يمكنك الوصول إلى الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مشاكل تواجهك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

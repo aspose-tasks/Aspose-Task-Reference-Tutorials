@@ -3,10 +3,16 @@ title: Các loại tài nguyên trong Aspose.Tasks
 linktitle: Các loại tài nguyên trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc với các loại tài nguyên khác nhau trong Aspose.Tasks cho .NET, bao gồm tài nguyên công việc, vật liệu và chi phí, thông qua hướng dẫn từng bước.
-type: docs
 weight: 14
 url: /vi/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Cho dù bạn đang quản lý nhiệm vụ, tài nguyên hay lịch trình, Aspose.Tasks sẽ đơn giản hóa quy trình bằng cách cung cấp một bộ API toàn diện. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các loại tài nguyên khác nhau mà bạn có thể sử dụng trong các dự án của mình bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng khác nhau, bao
  Đáp: Có, bạn có thể mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Aspose.Tasks cho .NET có cung cấp tài liệu để tham khảo không?
  A: Có, bạn có thể tìm tài liệu[đây](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

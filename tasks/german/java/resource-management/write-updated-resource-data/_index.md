@@ -3,10 +3,16 @@ title: Schreiben Sie aktualisierte Ressourcendaten in Aspose.Tasks
 linktitle: Schreiben Sie aktualisierte Ressourcendaten in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java mühelos Ressourcendaten in MS Project-Dateien aktualisieren.
-type: docs
 weight: 21
 url: /de/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schreiben Sie aktualisierte Ressourcendaten in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch die Aktualisierung von Microsoft Project-Ressourcendaten mit Aspose.Tasks für Java. Aspose.Tasks ist eine leistungsstarke Java-API, mit der Sie Microsoft Project-Dateien bearbeiten können, ohne dass Microsoft Project auf Ihrem System installiert sein muss.
 
@@ -98,3 +104,10 @@ A4: Ja, Sie können eine Vielzahl von Vorgängen ausführen, z. B. Lesen, Schrei
 ### F5: Wo finde ich zusätzliche Hilfe oder Unterstützung für Aspose.Tasks?
 
  A5: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für jegliche Hilfe oder Fragen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تخصيص أنماط شريط جانت باستخدام Aspose.Tasks
 linktitle: أنماط شريط جانت في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص أنماط شريط جانت في MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز تصور المشروع دون عناء.
-type: docs
 weight: 20
 url: /ar/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص أنماط شريط جانت باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية العمل مع أنماط شريط جانت في Microsoft Project باستخدام Aspose.Tasks لـ .NET. تسمح لك أنماط أشرطة جانت بتخصيص مظهر الأشرطة في مخطط جانت، مما يعزز التمثيل المرئي لبيانات مشروعك.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ Console.WriteLine("Style1.RightField: {0}", style1.RightField);
 ج: نعم، يمكنك إنشاء أنماط شريط مخصصة جديدة وتخصيص خصائصها وفقًا لاحتياجات مشروعك باستخدام Aspose.Tasks APIs.
 ### س: هل يدعم Aspose.Tasks وظائف إدارة المشاريع الأخرى إلى جانب مخططات جانت؟
 ج: نعم، يوفر Aspose.Tasks مجموعة شاملة من الميزات للعمل مع بيانات إدارة المشروع، بما في ذلك جدولة المهام وإدارة الموارد وتحليل المشروع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Projekt tulajdonságai
 linktitle: Projekt tulajdonságai
 second_title: Aspose.Tasks Java API
 description: Használja ki az Aspose.Tasks for Java-ban rejlő lehetőségeket Project Properties oktatóanyagaink segítségével. Könnyedén kivonhatja, kihasználhatja és manipulálhatja a Microsoft Project adatait.
-type: docs
 weight: 24
 url: /hu/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projekt tulajdonságai
+
 ## Bevezetés
 
 Készen áll arra, hogy javítsa Aspose.Tasks Java-készségeit? A Project Properties oktatóanyagaink lehetővé teszik, hogy kihasználja ennek a nagy teljesítményű könyvtárnak a teljes potenciálját, három kulcsfontosságú szempontra összpontosítva: a metatulajdonságok beolvasására, a Microsoft Project információk kinyerésére és az MS Project manipulációjának elsajátítására. Merüljön el ezekben az oktatóanyagokban, hogy javítsa Java fejlesztési és projektkezelési képességeit.
@@ -35,3 +41,9 @@ Ezzel az átfogó oktatóanyaggal felszabadíthatja a metaadatok erejét az Aspo
 Ismerje meg, hogyan nyerheti ki a Microsoft Project adatait az Aspose.Tasks for Java segítségével. Fokozza a projektmenedzsmentet a Java alkalmazásokban könnyedén.
 ### [MS Project Manipulation elsajátítása Aspose.Tasks for Java segítségével](./write-project-info/)
 Ismerje meg, hogyan írhat hatékonyan MS Project információkat az Aspose.Tasks for Java használatával. Lépésről lépésre útmutató Java fejlesztőknek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

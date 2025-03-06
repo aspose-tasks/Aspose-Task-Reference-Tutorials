@@ -3,10 +3,16 @@ title: Maak en bewaar een leeg project om te streamen in Aspose.Tasks
 linktitle: Maak en bewaar een leeg project om te streamen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer lege MS Project-bestanden maken en opslaan in een stream in Java met Aspose.Tasks, waardoor projectbeheertaken moeiteloos worden vereenvoudigd.
-type: docs
 weight: 13
 url: /nl/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak en bewaar een leeg project om te streamen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Aspose.Tasks voor Java kunt gebruiken om een leeg MS-project te maken en op te slaan in een stream. Aspose.Tasks is een krachtige Java API waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project op de machine hoeft te worden geïnstalleerd. Door deze handleiding te volgen, leert u de noodzakelijke stappen voor het maken en opslaan van een leeg MS Project-bestand met Aspose.Tasks.
 ## Vereisten
@@ -69,3 +75,9 @@ Ja, Aspose.Tasks ondersteunt meerdere programmeertalen, waaronder .NET, C++en Ja
  U kunt ondersteuning krijgen via het communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Tasks?
  Ja, tijdelijke licenties zijn te koop[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

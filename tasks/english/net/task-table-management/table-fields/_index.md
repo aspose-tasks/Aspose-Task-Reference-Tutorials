@@ -3,10 +3,16 @@ title: Handling Table Fields in Aspose.Tasks
 linktitle: Handling Table Fields in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master handling table fields in Aspose.Tasks for .NET with this comprehensive tutorial. Learn to read, display, and modify project tables effortlessly.
-type: docs
 weight: 12
 url: /net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Table Fields in Aspose.Tasks
+
 ## Introduction
 Welcome to the world of Aspose.Tasks for .NET, a powerful library that enables seamless manipulation of Microsoft Project files in your .NET applications. In this tutorial, we will delve into the intricacies of handling table fields in Aspose.Tasks, allowing you to efficiently read and manage project tables. Whether you're a seasoned developer or a newcomer, this step-by-step guide will empower you to harness the full potential of Aspose.Tasks.
 ## Prerequisites
@@ -72,3 +78,10 @@ As of the latest version, there are no strict limitations on the number of table
 Updates for Aspose.Tasks are released regularly to ensure compatibility and introduce new features.
 ### Is there a community forum for Aspose.Tasks support?
 Yes, you can find help and discussions on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

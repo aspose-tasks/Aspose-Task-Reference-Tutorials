@@ -3,10 +3,16 @@ title: VBA-modulekenmerken beheersen in Aspose.Tasks
 linktitle: Verzameling van VBA-modulekenmerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het beheren van VBA-moduleattributen. Verbeter uw .NET-projecten moeiteloos. Download nu! #Aspose #Taken #MS-project
-type: docs
 weight: 12
 url: /nl/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA-modulekenmerken beheersen in Aspose.Tasks
+
 ## Invoering
 Welkom in de wereld van Aspose.Tasks voor .NET! Als u een ontwikkelaar bent die de kracht van Aspose.Tasks voor .NET in uw projecten wil benutten, bent u hier op de juiste plek. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met VBA-modulekenmerken en bieden we u een stapsgewijze handleiding over hoe u deze effectief kunt gebruiken in uw .NET-toepassingen.
 ## Vereisten
@@ -63,3 +69,9 @@ Concluderend stelt Aspose.Tasks voor .NET ontwikkelaars in staat om efficiënt m
  A: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik ondersteuning zoeken voor Aspose.Tasks voor .NET?
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) Voor ondersteuning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

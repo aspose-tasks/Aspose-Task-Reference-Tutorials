@@ -3,10 +3,16 @@ title: قم بتكوين التوقيع الرقمي لـ MS Project PDF باس�
 linktitle: تكوين تفاصيل التوقيع الرقمي لملف PDF في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين تفاصيل التوقيع الرقمي لـ Microsoft Project PDF باستخدام Aspose.Tasks لـ .NET. تأكد من أمان وصحة ملفات مشروعك.
-type: docs
 weight: 10
 url: /ar/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتكوين التوقيع الرقمي لـ MS Project PDF باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تكوين تفاصيل التوقيع الرقمي لـ Microsoft Project PDF باستخدام Aspose.Tasks لـ .NET. باتباع هذه الخطوات، ستتمكن من دمج التوقيعات الرقمية بسلاسة في ملفات MS Project الخاصة بك، مما يضمن الأمان والأصالة.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 ج: لا، بمجرد تطبيق التوقيع الرقمي على ملف PDF، لا يمكن إزالته أو تحديثه. ومع ذلك، يمكنك إضافة توقيعات إضافية إذا لزم الأمر.
 ### س: هل هناك أي قيود على حجم أو تعقيد ملف Microsoft Project؟
 ج: يمكن لـ Aspose.Tasks التعامل مع ملفات Microsoft Project ذات الأحجام والتعقيدات المختلفة دون قيود. ومع ذلك، قد يختلف الأداء وفقًا للأجهزة والموارد المتاحة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

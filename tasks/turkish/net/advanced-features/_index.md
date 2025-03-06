@@ -3,10 +3,16 @@ title: Aspose.Tasks Gelişmiş Özellikler
 linktitle: Aspose.Tasks Gelişmiş Özellikler
 second_title: Aspose.Tasks .NET API'si
 description: Eğitimlerimizle Aspose.Tasks for .NET'in gelişmiş özelliklerini keşfedin. AND işlemlerinden bellek istisnası yönetimine kadar proje yönetimi becerilerinizi geliştirin.
-type: docs
 weight: 21
 url: /tr/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gelişmiş Özellikler
+
 
 ## giriiş
 
@@ -93,3 +99,9 @@ Yinelenen görevleri verimli bir şekilde yönetme konusunda Aspose.Tasks for .N
 Proje planlamasını ve görev bağımlılıklarını kolaylaştırmak için Aspose.Tasks for .NET'te hesaplama modlarını etkili bir şekilde nasıl yöneteceğinizi öğrenin.
 ### [Aspose.Tasks'ta Hesaplama Türü](./calculation-type/)
 Aspose.Tasks kütüphanesindeki Hesaplama Türü ile .NET projelerinde değer hesaplamalarını nasıl özelleştireceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

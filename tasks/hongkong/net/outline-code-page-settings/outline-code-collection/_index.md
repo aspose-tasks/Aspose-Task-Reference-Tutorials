@@ -3,10 +3,16 @@ title: Aspose.Tasks 中大綱程式碼的集合 MS 項目
 linktitle: Aspose.Tasks中大綱程式碼的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 收集 Microsoft Project 大綱程式碼。這個綜合教程提供了逐步說明。
-type: docs
 weight: 11
 url: /zh-hant/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中大綱程式碼的集合 MS 項目
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Tasks for .NET 收集 Microsoft Project 大綱程式碼。我們將把該過程分解為逐步說明，以確保清晰度和理解性。
 ## 先決條件
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 答：當然，Aspose.Tasks for .NET 提供了廣泛的選項，可根據您的要求自訂輸出格式。
 ### Q：在哪裡可以找到 Aspose.Tasks for .NET 的其他支援或資源？
 答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)任何有關 Aspose.Tasks for .NET 的協助或疑問。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

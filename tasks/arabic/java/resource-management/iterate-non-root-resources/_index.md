@@ -3,10 +3,16 @@ title: التكرار على الموارد غير الجذرية في Aspose.Ta
 linktitle: التكرار على الموارد غير الجذرية في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التكرار بكفاءة عبر الموارد غير الجذرية في ملفات Microsoft Project باستخدام Aspose.Tasks لـ Java. تعزيز عملية التطوير الخاصة بك.
-type: docs
 weight: 12
 url: /ar/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التكرار على الموارد غير الجذرية في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java هي مكتبة قوية توفر للمطورين الأدوات التي يحتاجونها للتعامل مع ملفات Microsoft Project بكفاءة. بفضل واجهته البديهية ووظائفه الواسعة، يعمل Aspose.Tasks على تبسيط عملية العمل مع بيانات المشروع، مما يسمح للمطورين بالتركيز على بناء تطبيقات قوية.
 ## المتطلبات الأساسية
@@ -56,3 +62,9 @@ for (Resource res : prj.getResources()) {
 بالتأكيد، يقدم Aspose.Tasks واجهات برمجة تطبيقات واسعة النطاق لتخصيص حقول بيانات المشروع وفقًا لمتطلباتك.
 ### هل يوفر Aspose.Tasks الدعم والوثائق للمطورين؟
 نعم، يقدم Aspose.Tasks وثائق شاملة ومنتدى دعم مخصص لمساعدة المطورين في الرد على أي استفسارات أو مشكلات يواجهونها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

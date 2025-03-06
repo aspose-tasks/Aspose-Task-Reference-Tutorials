@@ -3,10 +3,16 @@ title: Sammlung von Gliederungscodedefinitionen in Aspose.Tasks .NET
 linktitle: Sammlung von Gliederungscodedefinitionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Gliederungscodedefinitionen in Microsoft Project-Dokumenten mit Aspose.Tasks für .NET bearbeiten. Kategorisieren Sie Ihre Projektdaten mühelos.
-type: docs
 weight: 13
 url: /de/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Gliederungscodedefinitionen in Aspose.Tasks .NET
+
 ## Einführung
 Aspose.Tasks ist eine leistungsstarke .NET-Bibliothek zur einfachen und effizienten Bearbeitung von Microsoft Project-Dokumenten. Eine seiner Hauptfunktionen ist die Möglichkeit, mit Gliederungscodedefinitionen zu arbeiten, sodass Benutzer Projektdaten effektiv organisieren und kategorisieren können. In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Tasks für .NET mit Gliederungscodedefinitionen arbeiten.
 ## Voraussetzungen
@@ -83,3 +89,9 @@ A: Wenn eine Gliederungscodedefinition schreibgeschützt ist, können Sie sie ni
 A: Aspose.Tasks für .NET legt keine besonderen Beschränkungen hinsichtlich der Anzahl der Gliederungscodedefinitionen fest, die Sie einem Projekt hinzufügen können. Berücksichtigen Sie jedoch die Auswirkungen auf die Leistung, wenn Sie mit einer großen Anzahl von Definitionen arbeiten.
 ### F: Kann ich Gliederungscodedefinitionen verwenden, um Aufgaben basierend auf benutzerdefinierten Kriterien zu gruppieren?
 A: Ja, Gliederungscodedefinitionen ermöglichen Ihnen die Kategorisierung von Aufgaben anhand benutzerdefinierter Kriterien und bieten so Flexibilität bei der Organisation von Projektdaten.## Vollständiger Quellcode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

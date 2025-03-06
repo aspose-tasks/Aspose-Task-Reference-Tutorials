@@ -3,10 +3,16 @@ title: Отформатируйте презентацию проекта MS в 
 linktitle: Форматирование презентации проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как форматировать презентации MS Project с помощью Aspose.Tasks для .NET. Улучшите визуализацию и передачу деталей проекта без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отформатируйте презентацию проекта MS в Aspose.Tasks
+
 ## Введение
 
 Вы хотите улучшить представление своих проектов MS Project с помощью Aspose.Tasks для .NET? В этом уроке мы шаг за шагом проведем вас через процесс форматирования презентаций проектов MS Project. К концу вы сможете создавать безупречные презентации, которые эффективно сообщают детали вашего проекта.
@@ -90,3 +96,9 @@ project.Save(DataDir + "ResourceSheetView_out.pdf", options);
 
 ### Вопрос 5: Нужна ли мне временная лицензия для целей тестирования?
  О: Если вам требуется временная лицензия для целей тестирования или оценки, вы можете получить ее у[страница временной лицензии](https://purchase.aspose.com/temporary-license/) на сайте Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

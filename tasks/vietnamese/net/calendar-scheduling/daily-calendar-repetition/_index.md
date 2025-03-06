@@ -3,10 +3,16 @@ title: Sự lặp lại lịch hàng ngày trong Aspose.Tasks
 linktitle: Sự lặp lại lịch hàng ngày trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tạo các tác vụ định kỳ với lịch lặp lại hàng ngày trong Aspose.Tasks for .NET. Nâng cao hiệu quả quản lý dự án một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sự lặp lại lịch hàng ngày trong Aspose.Tasks
+
 ## Giới thiệu
 
  Aspose.Tasks for .NET cung cấp một bộ công cụ mạnh mẽ để quản lý các tác vụ và dự án theo chương trình. Một trong những tính năng đáng chú ý của nó là khả năng xử lý việc lặp lại lịch hàng ngày một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng`DailyCalendarRepetition` class cùng với các lớp liên quan khác để tạo các nhiệm vụ định kỳ với số lần lặp lại hàng ngày dựa trên lịch được chỉ định.
@@ -117,3 +123,9 @@ Câu trả lời 4: Chắc chắn, Aspose.Tasks cung cấp các tùy chọn tr�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks không?
 
  Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/) để khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

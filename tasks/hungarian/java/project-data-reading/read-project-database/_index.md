@@ -3,10 +3,16 @@ title: Projektadatok olvasása az MS Project Database-ból az Aspose.Tasks progr
 linktitle: Projektadatok olvasása a Microsoft Project Database-ból az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan olvashat projektadatokat a Microsoft Project Database-ból az Aspose.Tasks for Java segítségével. Lépésről lépésre útmutató kódpéldákkal.
-type: docs
 weight: 12
 url: /hu/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektadatok olvasása az MS Project Database-ból az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan olvashatunk projektadatokat egy Microsoft Project Database-ból az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül kezeljék a Microsoft Project dokumentumokat. Az ebben az útmutatóban vázolt lépések követésével megtanulhatja, hogyan lehet hatékonyan kivonni a projektadatokat egy adatbázisból, és elmenteni azokat a kívánt formátumban.
 ## Előfeltételek
@@ -68,3 +74,9 @@ V: Természetesen az Aspose.Tasks szolgáltatások széles skáláját kínálja
 V: Igen, az Aspose.Tasks különféle kimeneti formátumokat támogat, beleértve az XML-t, PDF-et, HTML-t, valamint az olyan képformátumokat, mint a PNG és a JPEG.
 ### K: Hol találhatok további támogatást vagy segítséget az Aspose.Tasks szolgáltatással kapcsolatban?
  V: További támogatásért vagy segítségért keresse fel az Aspose.Tasks fórumot, vagy tekintse meg a webhelyen elérhető dokumentációt.[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

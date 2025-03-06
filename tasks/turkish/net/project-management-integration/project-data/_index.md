@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Proje Verilerinde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Proje Verileriyle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: .NET'te Aspose.Tasks kullanarak Microsoft Project verilerini nasıl değiştireceğinizi öğrenin. Kolayca görevler oluşturun, kaynaklar ekleyin ve projeleri kaydedin.
-type: docs
 weight: 16
 url: /tr/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Proje Verilerinde Uzmanlaşmak
+
 ## giriiş
 Bu eğitimde, .NET için Aspose.Tasks kütüphanesini kullanarak Microsoft Project verileriyle nasıl çalışılacağını keşfedeceğiz. Aspose.Tasks, görev oluşturma, kaynak ekleme, özellikleri ayarlama ve projeleri çeşitli formatlarda kaydetme dahil olmak üzere proje dosyalarını yönetmek için güçlü özellikler sağlar.
 ## Önkoşullar
@@ -92,3 +98,9 @@ C: Aspose.Tasks kesinlikle diğer .NET kütüphaneleriyle sorunsuz bir şekilde 
 C: Evet, Aspose.Tasks, proje zaman çizelgelerini ve kaynak kullanımını optimize etmenize yardımcı olacak gelişmiş planlama algoritmaları içerir.
 ### S: Aspose.Tasks kullanıcıları için bir topluluk forumu var mı?
  C: Evet, yararlı kaynaklar bulabilir ve diğer Aspose.Tasks kullanıcılarıyla iletişim kurabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

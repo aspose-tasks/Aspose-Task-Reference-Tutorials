@@ -3,10 +3,16 @@ title: Az Aspose.Tasks erőforrás-használati nézetmezőinek gyűjteménye
 linktitle: Az Aspose.Tasks erőforrás-használati nézetmezőinek gyűjteménye
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan lehet hatékonyan elérni és kezelni a Microsoft Project-fájlok erőforráshasználati nézetmezőit az Aspose.Tasks for .NET segítségével.
-type: docs
 weight: 16
 url: /hu/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks erőforrás-használati nézetmezőinek gyűjteménye
+
 ## Bevezetés
 A projektmenedzsment területén kulcsfontosságú a Microsoft Project fájlok hatékony kezelése. Az Aspose.Tasks for .NET átfogó megoldást kínál az MS Project fájlokkal való zökkenőmentes munkavégzéshez. Ebben az oktatóanyagban az Aspose.Tasks for .NET segítségével történő Erőforrás-használati nézetmezők elérésének és használatának folyamatát mutatjuk be.
 ## Előfeltételek
@@ -67,3 +73,9 @@ V: Abszolút! Az Aspose.Tasks for .NET kiterjedt funkcionalitást biztosít az e
  V: Igen, elérheti az ingyenes próbaverziót a[weboldal](https://releases.aspose.com/).
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for .NET számára?
  V: Ideiglenes licencet szerezhet be a[vásárlási oldal](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

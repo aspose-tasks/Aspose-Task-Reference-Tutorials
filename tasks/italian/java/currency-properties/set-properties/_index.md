@@ -3,10 +3,16 @@ title: Impostare le proprietà della valuta nei progetti Aspose.Tasks
 linktitle: Impostare le proprietà della valuta nei progetti Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come impostare le proprietà della valuta nei progetti Aspose.Tasks utilizzando Java. Manipola i file di Microsoft Project senza sforzo.
-type: docs
 weight: 11
 url: /it/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostare le proprietà della valuta nei progetti Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come impostare le proprietà della valuta nei progetti Aspose.Tasks utilizzando Java. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di codice.
 ## Prerequisiti
@@ -64,3 +70,9 @@ Assolutamente, Aspose.Tasks offre flessibilità nella definizione di formati di 
 Sì, Aspose.Tasks può essere perfettamente integrato con altre librerie e framework Java, migliorandone la funzionalità e la versatilità.
 ### Dove posso trovare ulteriore supporto o assistenza per Aspose.Tasks?
  Per ulteriore supporto, è possibile visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), dove puoi trovare risorse utili e interagire con la community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

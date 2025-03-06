@@ -3,10 +3,16 @@ title: บันทึกข้อมูลโครงการ MS ไปยั
 linktitle: บันทึกข้อมูลลงใน Excel ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีบันทึกข้อมูล Microsoft Project ลงในไฟล์ Excel โดยใช้ Aspose.Tasks สำหรับ Java บูรณาการอย่างง่ายดายสำหรับนักพัฒนา Java
-type: docs
 weight: 19
 url: /th/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกข้อมูลโครงการ MS ไปยัง Excel ใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks for Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการบันทึกข้อมูลจากไฟล์โปรเจ็กต์ไปยังไฟล์ Excel ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -52,3 +58,9 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
  คุณสามารถรับการสนับสนุนได้โดยไปที่ฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้หรือไม่
  ใช่ คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

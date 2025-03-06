@@ -3,10 +3,16 @@ title: Formatteer MS-projectpresentatie in Aspose.Tasks
 linktitle: Projectpresentatie opmaken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-presentaties kunt opmaken met Aspose.Tasks voor .NET. Verbeter moeiteloos de visualisatie en communicatie van projectdetails.
-type: docs
 weight: 10
 url: /nl/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formatteer MS-projectpresentatie in Aspose.Tasks
+
 ## Invoering
 
 Wilt u de presentatie van uw MS Project-projecten verbeteren met Aspose.Tasks voor .NET? In deze zelfstudie begeleiden we u stap voor stap door het proces van het opmaken van MS Project-projectpresentaties. Tegen het einde kunt u verzorgde presentaties maken die de details van uw project effectief overbrengen.
@@ -90,3 +96,9 @@ A: Absoluut, Aspose.Tasks blijft bijgewerkt om compatibiliteit met de nieuwste v
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig voor testdoeleinden?
  A: Als u een tijdelijke licentie nodig heeft voor test- of evaluatiedoeleinden, kunt u er een verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) op de Aspose-website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

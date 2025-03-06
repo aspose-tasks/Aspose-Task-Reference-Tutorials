@@ -3,10 +3,16 @@ title: Snížení mezery mezi seznamem úkolů a zápatím v Aspose.Tasks
 linktitle: Snížení mezery mezi seznamem úkolů a zápatím v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak zmenšit mezeru mezi seznamy úkolů a zápatí MS Project pomocí Aspose.Tasks for Java. Optimalizujte rozvržení projektového dokumentu bez námahy.
-type: docs
 weight: 10
 url: /cs/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Snížení mezery mezi seznamem úkolů a zápatím v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do zmenšení mezery mezi seznamem úkolů a zápatím v souborech Microsoft Project pomocí Aspose.Tasks for Java. Podle těchto kroků budete moci snadno optimalizovat rozvržení vašich projektových dokumentů.
 ## Předpoklady
@@ -105,3 +111,9 @@ Odpověď: Ano, Aspose.Tasks podporuje širokou škálu formátů, mimo jiné v�
 ### Otázka: Kde mohu získat podporu, pokud při používání Aspose.Tasks narazím na nějaké problémy?
 
  Odpověď: Pomoc můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Setting MS Project Attributes for New Tasks in Aspose.Tasks
 linktitle: Set Attributes for New Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to set MS Project attributes for new tasks using Aspose.Tasks for Java. Customize task properties effortlessly with this comprehensive guide.
-type: docs
 weight: 21
 url: /java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting MS Project Attributes for New Tasks in Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive tutorial on setting MS Project attributes for new tasks in Aspose.Tasks for Java! In this guide, we will walk you through the process step by step, ensuring that you can easily manage and customize your tasks with this powerful Java library.
 ## Prerequisites
@@ -68,3 +74,10 @@ A: Yes, you can download a free trial version of Aspose.Tasks for Java from [her
 A: Temporary licenses for Aspose.Tasks for Java can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I get support for any issues or queries related to Aspose.Tasks for Java?
 A: You can get support and interact with the community on the [Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

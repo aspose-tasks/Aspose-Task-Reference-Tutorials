@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट संसाधन 
 linktitle: Aspose.Tasks में संसाधन उपयोग दृश्य कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संसाधन उपयोग दृश्यों को कॉन्फ़िगर करने का तरीका जानें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका शामिल है।
-type: docs
 weight: 15
 url: /hi/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट संसाधन उपयोग दृश्य कॉन्फ़िगर करना
+
 ## परिचय
 माइक्रोसॉफ्ट प्रोजेक्ट (एमएस प्रोजेक्ट) परियोजना प्रबंधन के लिए एक शक्तिशाली उपकरण है, जो उपयोगकर्ताओं को अपनी परियोजनाओं की कुशलतापूर्वक योजना बनाने, निष्पादित करने और ट्रैक करने की अनुमति देता है। .NET के लिए Aspose.Tasks MS प्रोजेक्ट फ़ाइलों के साथ सहज एकीकरण प्रदान करता है, जिससे डेवलपर्स प्रोजेक्ट डेटा को प्रोग्रामेटिक रूप से हेरफेर करने में सक्षम होते हैं। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संसाधन उपयोग दृश्यों को कैसे कॉन्फ़िगर किया जाए।
 ## आवश्यक शर्तें
@@ -58,3 +64,9 @@ project.Save(DataDir + "ResourceUsage_days_out.pdf", options);
  उत्तर: हां, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) किसी भी प्रश्न, चर्चा या समर्थन आवश्यकता के लिए।
 ### प्रश्न: क्या मैं खरीदने से पहले Aspose.Tasks आज़मा सकता हूँ?
  उ: बेशक, आप नि:शुल्क परीक्षण के साथ Aspose.Tasks का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

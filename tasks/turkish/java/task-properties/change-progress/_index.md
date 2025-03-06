@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev İlerlemesini Değiştirme
 linktitle: Aspose.Tasks'ta Görev İlerlemesini Değiştirme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java proje yönetimini geliştirin. Bu adım adım öğreticide görev ilerlemesini sorunsuz bir şekilde değiştirmeyi öğrenin. Şimdi İndirin!
-type: docs
 weight: 12
 url: /tr/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev İlerlemesini Değiştirme
+
 ## giriiş
 Proje yönetiminin dinamik alanında, etkili görev ilerleme takibi çok önemlidir. Aspose.Tasks for Java, güçlü özellikleriyle süreci kolaylaştıran sağlam bir çözüm olarak öne çıkıyor. Bu eğitimde, Aspose.Tasks for Java'yı kullanarak bir görevin ilerlemesini değiştirme adımlarında size rehberlik edeceğiz.
 ## Önkoşullar
@@ -63,3 +69,9 @@ Belgelerdeki kurulum talimatlarını izleyerek uyumluluğu sağlayın.
  Kapsamlı belgeleri keşfedin[Burada](https://reference.aspose.com/tasks/java/).
 ### Aspose.Tasks for Java için nasıl geçici lisans alabilirim?
  Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

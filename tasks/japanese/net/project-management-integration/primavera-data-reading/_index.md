@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用した MS Project Primavera データの読み取�
 linktitle: Aspose.Tasks を使用した Primavera データの読み取り
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project Primavera データを読み取る方法を学びます。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/net/project-management-integration/primavera-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用した MS Project Primavera データの読み取り
+
 ## 導入
 Aspose.Tasks for .NET を使用して MS Project Primavera データを読み取るための包括的なガイドへようこそ。このチュートリアルでは、開発者がプログラムで Microsoft Project ファイルを操作できるようにする強力な .NET API である Aspose.Tasks を使用して、MS Project Primavera データにアクセスして操作するプロセスを説明します。
 ## 前提条件
@@ -67,3 +73,9 @@ A: もちろんです！ Aspose.Tasks を使用すると、MS Project Primavera 
  A: はい、Aspose.Tasks の無料トライアルを利用できます。[ここ](https://releases.aspose.com/)購入する前にその機能と機能を確認してください。
 ### Q: Aspose.Tasks のサポートはどこで入手できますか?
  A: Aspose.Tasks に関する質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)ここでは、コミュニティまたは Aspose サポート スタッフから支援を受けることができます。## 完全なソース コード
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

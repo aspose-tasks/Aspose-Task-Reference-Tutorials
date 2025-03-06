@@ -3,10 +3,16 @@ title: Wijzig de voortgang van de taak in Aspose.Tasks
 linktitle: Wijzig de voortgang van de taak in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Verbeter Java-projectbeheer met Aspose.Tasks. Leer hoe u de voortgang van taken naadloos kunt aanpassen in deze stapsgewijze zelfstudie. Download nu!
-type: docs
 weight: 12
 url: /nl/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig de voortgang van de taak in Aspose.Tasks
+
 ## Invoering
 In het dynamische domein van projectmanagement is het effectief volgen van de taakvoortgang van cruciaal belang. Aspose.Tasks voor Java onderscheidt zich als een robuuste oplossing, die het proces vereenvoudigt met zijn krachtige functies. In deze zelfstudie begeleiden we u bij de stappen waarmee u de voortgang van een taak kunt wijzigen met Aspose.Tasks voor Java.
 ## Vereisten
@@ -63,3 +69,9 @@ Herhaal de stappen voor elke taak die u wilt controleren.
  Ontdek de uitgebreide documentatie[hier](https://reference.aspose.com/tasks/java/).
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor Java?
  Bezoek de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

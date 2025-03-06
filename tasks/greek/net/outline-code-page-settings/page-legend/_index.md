@@ -3,10 +3,16 @@ title: Ρύθμιση παραμέτρων του MS Project Legends στο Aspo
 linktitle: Διαμόρφωση Υπόμνημα σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να ρυθμίζετε τις παραμέτρους των θρυλικών σελίδων MS Project στο .NET χρησιμοποιώντας το Aspose.Tasks για αποτελεσματική διαχείριση έργου. Παρέχεται οδηγός βήμα προς βήμα.
-type: docs
 weight: 18
 url: /el/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση παραμέτρων του MS Project Legends στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης .NET, η αποτελεσματική διαχείριση των εργασιών είναι ζωτικής σημασίας, ειδικά όταν πρόκειται για διαχείριση έργου. Το Aspose.Tasks για το .NET αναδεικνύεται ως ένα ισχυρό εργαλείο, προσφέροντας μια πληθώρα λειτουργιών για τον εξορθολογισμό των διαδικασιών διαχείρισης εργασιών. Ένα τέτοιο χαρακτηριστικό είναι η δυνατότητα διαμόρφωσης των θρύλων σελίδων του MS Project, παρέχοντας στους χρήστες πολύτιμες πληροφορίες σχετικά με την παρουσίαση δεδομένων έργου.
 ## Προαπαιτούμενα
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 Α: Οπωσδήποτε, το Aspose.Tasks για .NET προσφέρει εκτενείς επιλογές προσαρμογής, επιτρέποντάς σας να προσαρμόσετε τους μύθους σελίδων σύμφωνα με τις συγκεκριμένες απαιτήσεις του έργου σας.
 ### Ε: Πού μπορώ να βρω φόρουμ υποστήριξης ή κοινότητας για το Aspose.Tasks για .NET;
  Α: Μπορείτε να αναζητήσετε υποστήριξη και να συνεργαστείτε με την κοινότητα στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15), όπου μπορείτε να βρείτε απαντήσεις σε ερωτήματα και να αλληλεπιδράσετε με άλλους προγραμματιστές.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

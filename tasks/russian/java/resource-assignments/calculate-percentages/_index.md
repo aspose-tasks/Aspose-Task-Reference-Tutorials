@@ -3,10 +3,16 @@ title: Рассчитать проценты назначения ресурсо
 linktitle: Рассчитать проценты для назначения ресурсов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно рассчитывать проценты для назначения ресурсов в проектах Java с помощью Aspose.Tasks, упрощая задачи управления проектами.
-type: docs
 weight: 13
 url: /ru/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рассчитать проценты назначения ресурсов с помощью Aspose.Tasks
+
 ## Введение
 В управлении проектами точный расчет распределения ресурсов имеет решающее значение для обеспечения своевременного выполнения задач и эффективного распределения ресурсов. Aspose.Tasks for Java предоставляет мощные инструменты для облегчения этого процесса, позволяя разработчикам с легкостью рассчитывать проценты для назначения ресурсов.
 ## Предварительные условия
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  О: Да, Aspose.Tasks предлагает специальную поддержку клиентов через свой форум. Вы можете найти помощь[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Доступна ли бесплатная пробная версия Aspose.Tasks?
  О: Да, вы можете изучить Aspose.Tasks, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

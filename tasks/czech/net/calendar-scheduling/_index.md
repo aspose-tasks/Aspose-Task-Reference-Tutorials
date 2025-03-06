@@ -3,10 +3,16 @@ title: Aspose.Tasks Calendar and Scheduling
 linktitle: Aspose.Tasks Calendar and Scheduling
 second_title: Aspose.Tasks .NET API
 description: Spravujte projektové kalendáře, počítejte dobu trvání a zpracujte výjimky pomocí Aspose.Tasks for .NET. Prozkoumejte podrobné výukové programy pro úkoly kalendáře a plánování.
-type: docs
 weight: 22
 url: /cs/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Calendar and Scheduling
+
 ## Úvod
 
 Vítejte ve světě výukových programů Aspose.Tasks for .NET, vašeho oblíbeného zdroje pro zvládnutí složitosti správy kalendáře a plánování ve vašich projektech .NET. Aspose.Tasks umožňuje vývojářům pomocí robustních nástrojů bez námahy pracovat s kalendáři projektů, počítat trvání a spravovat výjimky. V této komplexní sbírce výukových programů se ponoříme do různých aspektů, od práce s kalendáři a správy výjimek až po zkoumání specializovaných témat, jako jsou výjimky složených záhlaví dokumentu a pozice symbolů měny. Ať už jste zkušený vývojář, který hledá pokročilé poznatky, nebo nováček, který touží zlepšit své dovednosti projektového řízení, tyto výukové programy poskytují podrobné pokyny a příklady ze skutečného světa. Vydejme se na cestu, abychom odemkli plný potenciál Aspose.Tasks pro .NET a zvýšili své schopnosti projektového řízení. Jste připraveni se ponořit? Začněme!
@@ -135,3 +141,9 @@ Naučte se, jak efektivně spravovat kolekce typu dne v Aspose.Tasks pro .NET. S
 Naučte se importovat projekty z databáze Primavera pomocí Aspose.Tasks for .NET. Získejte podrobné pokyny v tomto komplexním tutoriálu.
 ### [Zpracování doby trvání v Aspose.Tasks](./duration-handling/)
 Naučte se, jak efektivně zacházet s trváním v Aspose.Tasks pro .NET pomocí podrobných výukových programů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

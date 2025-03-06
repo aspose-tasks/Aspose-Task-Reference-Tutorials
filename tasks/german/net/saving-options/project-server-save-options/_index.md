@@ -3,10 +3,16 @@ title: Optionen zum Speichern von MS Project auf dem Server für Aspose.Tasks
 linktitle: Project Server-Speicheroptionen für Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Optionen für Aspose.Tasks mithilfe der Project Server-Integration speichern. Verbessern Sie Ihre Projektmanagement-Workflows.
-type: docs
 weight: 16
 url: /de/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optionen zum Speichern von MS Project auf dem Server für Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial befassen wir uns mit dem Speichern von Microsoft Project-Optionen für Aspose.Tasks mithilfe von Project Server. Aspose.Tasks ist eine leistungsstarke .NET-API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft Project-Dateien zu arbeiten. Durch die Nutzung der Project Server-Funktionen können wir Aspose.Tasks nahtlos in unsere Projektmanagement-Workflows integrieren. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
 ## Voraussetzungen
@@ -71,3 +77,9 @@ A: Ja, Aspose.Tasks ist threadsicher und ermöglicht den gleichzeitigen Zugriff 
 A: Ja, Sie können Speicheroptionen wie Projektname, Timeout und Abfrageintervall an Ihre Anforderungen anpassen.
 ### F: Wo finde ich Unterstützung für Aspose.Tasks?
  A: Unterstützung und Hilfe finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gerenciar valores de contorno do MS Project com Aspose.Tasks
 linktitle: Coleção de valores de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar valores de estrutura de tópicos em arquivos do Microsoft Project usando Aspose.Tasks for .NET. Tutorial passo a passo com exemplos de código.
-type: docs
 weight: 17
 url: /pt/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar valores de contorno do MS Project com Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for .NET fornece um conjunto abrangente de recursos para interagir com arquivos do Microsoft Project. Um desses recursos é a capacidade de gerenciar valores de estrutura de tópicos dentro de um projeto. Neste tutorial, exploraremos como coletar e manipular valores de contorno usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -108,3 +114,9 @@ R: Você pode implementar mecanismos de tratamento de erros, como blocos try-cat
 R: Sim, Aspose.Tasks fornece APIs abrangentes para personalizar a aparência e o comportamento dos valores de contorno de acordo com seus requisitos.
 ### P: Onde posso encontrar recursos adicionais e suporte para Aspose.Tasks?
  R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio da comunidade e explorar o[documentação](https://reference.aspose.com/tasks/net/) para obter informações detalhadas sobre APIs e recursos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

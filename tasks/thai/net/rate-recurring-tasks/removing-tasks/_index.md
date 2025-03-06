@@ -3,10 +3,16 @@ title: การลบงานโครงการ MS ด้วย Aspose.Task
 linktitle: การลบงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีลบงาน MS Project โดยทางโปรแกรมโดยใช้ Aspose.Tasks สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
-type: docs
 weight: 15
 url: /th/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การลบงานโครงการ MS ด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีลบงานออกจากไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project โดยทางโปรแกรม การลบงานออกจากไฟล์โครงการอาจเป็นข้อกำหนดทั่วไปในสถานการณ์การจัดการโครงการ และ Aspose.Tasks มอบวิธีที่ตรงไปตรงมาในการบรรลุเป้าหมายนี้
 ## ข้อกำหนดเบื้องต้น
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ตอบ: แน่นอน Aspose.Tasks ให้การสนับสนุนที่ครอบคลุมสำหรับโครงสร้างโปรเจ็กต์ที่ซับซ้อน ช่วยให้คุณสามารถจัดการงาน ทรัพยากร และองค์ประกอบโปรเจ็กต์อื่น ๆ ได้อย่างง่ายดาย
 ### ถาม: Aspose.Tasks มีเวอร์ชันทดลองใช้งานหรือไม่
  ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/) เพื่อสำรวจคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

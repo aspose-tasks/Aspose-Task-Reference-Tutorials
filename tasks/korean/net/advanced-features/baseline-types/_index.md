@@ -3,10 +3,16 @@ title: Aspose.Tasks의 다양한 기준선 유형
 linktitle: Aspose.Tasks의 다양한 기준선 유형
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 기준선을 효율적으로 설정하고 조작하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 다양한 기준선 유형
+
 ## 소개
 
 프로젝트 관리 영역에서는 정확성과 예측이 가장 중요합니다. Aspose.Tasks for .NET은 프로젝트 데이터를 효율적으로 관리하기 위한 강력한 툴킷을 제공하여 사용자가 프로젝트 계획, 추적 및 실행의 다양한 측면을 탐구할 수 있도록 합니다. Aspose.Tasks가 제공하는 중요한 기능 중 하나는 초기 계획과 비교하여 프로젝트 진행 상황을 측정하기 위한 기준점 역할을 하는 기준선을 설정하는 기능입니다.
@@ -82,3 +88,9 @@ A4: Aspose.Tasks는 개발자가 해당 기능을 널리 사용되는 프로젝�
 ### Q5: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
 
 A5: 예, 웹사이트에서 제공되는 무료 평가판을 통해 Aspose.Tasks를 탐색하여 해당 기능을 직접 경험할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

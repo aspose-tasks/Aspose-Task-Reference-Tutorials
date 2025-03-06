@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.Tasks voor .NET
 linktitle: Aspose.Tasks voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Ontdek Aspose.Tasks voor .NET-tutorials over opslagopties, agenda en planning, projectbeheer en meer. Verbeter uw projectmanagementvaardigheden.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.Tasks voor .NET
+
 ## Invoering
 
 Bent u klaar om het volledige potentieel van Aspose.Tasks voor .NET te ontsluiten? Duik in onze uitgebreide tutorials en voorbeelden over een breed scala aan onderwerpen om uw projectmanagementvaardigheden te verbeteren. Van opslagopties tot geavanceerde functies, agenda- en planningstaken, projectbeheer en maatwerk: wij staan voor u klaar.
@@ -72,3 +77,9 @@ Ontdek de opties voor bestandsindelingen van Aspose.Tasks en beheer de configura
 Ontdek hoe u de beveiliging van uw Microsoft Project PDF's kunt verbeteren met Aspose.Tasks voor .NET. Leer digitale handtekening- en encryptietechnieken.
 ### [Aspose.Tasks Licentiebeheer](./license-management/)
 Ontgrendel de kracht van Aspose.Tasks voor .NET met onze uitgebreide tutorials. Beheer licenties en optimaliseer het gebruik van MS Project voor efficiënt projectbeheer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

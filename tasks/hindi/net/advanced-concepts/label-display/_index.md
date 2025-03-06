@@ -3,10 +3,16 @@ title: Aspose.Tasks में लेबल प्रदर्शित करन
 linktitle: Aspose.Tasks में लेबल प्रदर्शित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ प्रोजेक्ट प्रबंधन में लेबल डिस्प्ले को अनुकूलित करना सीखें। सहजता से पठनीयता और स्पष्टता बढ़ाएँ।
-type: docs
 weight: 14
 url: /hi/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में लेबल प्रदर्शित करना
+
 ## परिचय
 
 सॉफ्टवेयर विकास के क्षेत्र में, परियोजना की सफलता के लिए कार्यों को कुशलतापूर्वक प्रबंधित करना अनिवार्य है। .NET के लिए Aspose.Tasks, .NET ढांचे के भीतर परियोजना प्रबंधन कार्यों को निर्बाध रूप से संभालने के लिए एक मजबूत समाधान प्रदान करता है। परियोजना प्रबंधन का एक प्रमुख पहलू विशिष्ट आवश्यकताओं के अनुरूप प्रदर्शन विकल्पों को अनुकूलित करने की क्षमता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि प्रोजेक्ट फ़ाइलों के भीतर मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष के लेबल डिस्प्ले में हेरफेर करने के लिए .NET के लिए Aspose.Tasks का उपयोग कैसे करें।
@@ -137,3 +143,10 @@ A4: .NET के लिए Aspose.Tasks न्यूनतम सीमाओं 
 ### Q5: क्या Aspose.Tasks अन्य परियोजना प्रबंधन उपकरणों के साथ एकीकरण का समर्थन करता है?
 
 A5: हां, Aspose.Tasks निर्बाध एकीकरण क्षमताएं प्रदान करता है, जो अन्य परियोजना प्रबंधन उपकरणों और प्लेटफार्मों के साथ अंतरसंचालनीयता की सुविधा प्रदान करता है।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

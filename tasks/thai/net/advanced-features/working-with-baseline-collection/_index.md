@@ -3,10 +3,16 @@ title: การทำงานกับ Baseline Collection ใน Aspose.Tasks
 linktitle: การทำงานกับ Baseline Collection ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการพื้นฐานใน Aspose.Tasks สำหรับ .NET อย่างมีประสิทธิภาพ ปฏิบัติตามบทช่วยสอนที่ครอบคลุมของเราเพื่อรับคำแนะนำทีละขั้นตอน
-type: docs
 weight: 20
 url: /th/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับ Baseline Collection ใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ในแอปพลิเคชัน .NET ของตนได้อย่างราบรื่น ในบรรดาคุณสมบัติต่างๆ มากมาย มันให้การสนับสนุนที่มีประสิทธิภาพสำหรับการจัดการพื้นฐานภายในโครงการ เส้นพื้นฐานถือเป็นสิ่งสำคัญสำหรับการจัดการโครงการ เนื่องจากช่วยให้คุณสามารถเปรียบเทียบแผนโครงการเดิมกับสถานะปัจจุบัน ทำให้สามารถติดตามและวิเคราะห์ความคืบหน้าของโครงการได้ดียิ่งขึ้น
@@ -116,3 +122,9 @@ foreach (var baseline in baselines)
 ### คำถามที่ 5: มีฟอรัมชุมชนสำหรับผู้ใช้ Aspose.Tasks เพื่อขอความช่วยเหลือและแบ่งปันความรู้หรือไม่
 
  A5: ใช่ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อมีส่วนร่วมกับชุมชนและรับความช่วยเหลือจากผู้เชี่ยวชาญ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

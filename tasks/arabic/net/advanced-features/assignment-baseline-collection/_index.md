@@ -3,10 +3,16 @@ title: مجموعة من الخطوط الأساسية للمهمة في Aspose.
 linktitle: مجموعة من الخطوط الأساسية للمهمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة الخطوط الأساسية للمهمة بكفاءة في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET. تعزيز الإنتاجية والدقة.
-type: docs
 weight: 15
 url: /ar/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة من الخطوط الأساسية للمهمة في Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، يعد تتبع وإدارة الخطوط الأساسية للمهمة أمرًا بالغ الأهمية لضمان نجاح المشروع والالتزام بالجداول الزمنية. يقدم Aspose.Tasks for .NET مجموعة قوية من الميزات لتسهيل المعالجة الفعالة للخطوط الأساسية للمهمة داخل المشاريع. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات العمل مع مجموعات Assignment Baseline Collections باستخدام Aspose.Tasks لـ .NET.
@@ -100,3 +106,9 @@ foreach (var assignment in project.ResourceAssignments)
 ### س5: هل يمكنني تجربة Aspose.Tasks قبل إجراء عملية الشراء؟
 
 ج5: نعم، يقدم Aspose.Tasks إصدارًا تجريبيًا مجانيًا، مما يسمح للمطورين باستكشاف ميزاته ووظائفه قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

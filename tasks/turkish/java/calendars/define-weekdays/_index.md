@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Takvimde Hafta Günlerini Tanımlayın
 linktitle: Aspose.Tasks ile Takvimde Hafta Günlerini Tanımlayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project Takvim'de hafta içi günleri nasıl tanımlayacağınızı öğrenin. Çalışma günlerini ve zamanlamaları zahmetsizce özelleştirin.
-type: docs
 weight: 12
 url: /tr/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Takvimde Hafta Günlerini Tanımlayın
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak bir MS Project Takviminde haftanın günlerini tanımlama sürecini anlatacağız. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir Java kitaplığıdır.
 ## Önkoşullar
@@ -82,3 +88,9 @@ C: Evet, Aspose.Tasks, MPP, MPT ve XML formatları da dahil olmak üzere MS Proj
 C: Evet, mevcut bir projeye takvimler yükleyebilir, değişiklikler yapabilir ve ardından değişiklikleri orijinal dosyaya geri kaydedebilirsiniz.
 ### S5: Aspose.Tasks tekrarlanan görevler için destek sağlıyor mu?
 C: Evet, Aspose.Tasks, yinelenme düzenlerini ve sürelerini tanımlamak dahil, yinelenen görevlerle çalışmanıza olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

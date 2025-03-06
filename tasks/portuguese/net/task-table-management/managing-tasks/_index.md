@@ -3,10 +3,16 @@ title: Gerenciando tarefas em Aspose.Tasks
 linktitle: Gerenciando tarefas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore o guia completo sobre gerenciamento de tarefas com Aspose.Tasks for .NET. Aprenda a adicionar, exibir partes divididas, mover, obter/definir propriedades e muito mais.
-type: docs
 weight: 15
 url: /pt/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciando tarefas em Aspose.Tasks
+
 ## Introdução
 Se você é um desenvolvedor .NET que deseja gerenciar tarefas em seus projetos com eficiência, o Aspose.Tasks for .NET oferece uma solução robusta. Este tutorial irá guiá-lo através de vários aspectos do gerenciamento de tarefas usando Aspose.Tasks, oferecendo instruções passo a passo e exemplos de código. Esteja você adicionando tarefas, exibindo partes divididas, movendo tarefas sob o mesmo pai, obtendo/definindo propriedades de tarefas, iterando atribuições de tarefas, lendo linhas de base de tarefas ou excluindo tarefas, este guia tem o que você precisa.
 ## Pré-requisitos
@@ -144,3 +150,9 @@ R: Sim, Aspose.Tasks oferece suporte a vários frameworks .NET, garantindo compa
 R: Absolutamente! Aspose.Tasks oferece amplas opções de personalização para propriedades de tarefas. Verifique a documentação para mais detalhes.
 ### P: Como obtenho suporte para Aspose.Tasks?
  R: Visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

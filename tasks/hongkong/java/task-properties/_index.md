@@ -3,10 +3,16 @@ title: 任務屬性
 linktitle: 任務屬性
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 增強 Java 專案管理。探索有關任務屬性的教程，從處理優先順序到管理成本。今天優化您的專案！
-type: docs
 weight: 34
 url: /zh-hant/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任務屬性
+
 ## 介紹
 
 使用 Aspose.Tasks 輕鬆管理和自訂 Java 中的 Microsoft Project 檔案。探索涵蓋任務屬性各個方面的教程，以增強您的專案管理能力。
@@ -138,3 +144,9 @@ url: /zh-hant/java/task-properties/
 了解如何使用 Aspose.Tasks for Java 將任務資料更新為 MPP 格式。遵循我們的高效專案管理逐步指南。
 ### [與 Aspose.Tasks 中的任務關聯的 WBS](./wbs-associated-with-task/)
 使用 Aspose.Tasks for Java 掌握 WBS - 學習讀取和重新編號任務 WBS 程式碼。提升專案管理效率！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

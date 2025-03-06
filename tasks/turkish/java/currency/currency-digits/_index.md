@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
 linktitle: Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak para birimi MS Project rakamlarını verimli bir şekilde nasıl kullanacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
+
 ## giriiş
 Aspose.Tasks for Java'yı kullanarak para birimi MS Project rakamlarını işlemeye ilişkin kapsamlı eğitimimize hoş geldiniz. Bu eğitimde, süreç boyunca size adım adım rehberlik ederek her kavramı iyice kavramanızı sağlayacağız.
 ## Önkoşullar
@@ -56,3 +62,9 @@ Evet, Aspose.Tasks for Java'yı Java geliştirmeyi destekleyen farklı platforml
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nereden destek alabilirim?
  Şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

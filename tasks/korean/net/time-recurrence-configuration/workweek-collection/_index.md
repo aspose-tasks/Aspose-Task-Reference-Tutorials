@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 근무 주간 사용자 정의
 linktitle: Aspose.Tasks의 근무 주 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 작업 주를 사용자 정의하는 방법을 알아보세요. 개인화된 프로젝트 달력을 만들기 위한 단계별 가이드입니다. 지금 다운로드하세요!
-type: docs
 weight: 17
 url: /ko/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 근무 주간 사용자 정의
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 사용자 정의 작업 주를 만드는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 이 단계별 가이드에서는 프로젝트의 달력에 대한 개인화된 작업 주를 정의하는 과정을 안내합니다. Aspose.Tasks는 개발자가 .NET 애플리케이션에서 Microsoft Project 문서를 효율적으로 사용할 수 있도록 지원하는 강력한 라이브러리입니다.
 ## 전제조건
@@ -82,3 +88,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 물론 Aspose.Tasks를 사용하면 Microsoft Project를 포함한 다양한 형식으로 프로젝트를 저장할 수 있습니다.
 ### Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 어떤 지원이나 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

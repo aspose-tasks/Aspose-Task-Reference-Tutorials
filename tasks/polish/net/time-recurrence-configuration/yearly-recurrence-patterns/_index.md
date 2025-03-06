@@ -3,10 +3,16 @@ title: Opanuj roczne wzorce powtarzania w Aspose.Tasks dla .NET
 linktitle: Konfigurowanie rocznych wzorców powtarzania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować roczne wzorce powtarzania w Aspose.Tasks dla .NET. Popraw swoje umiejętności zarządzania projektami dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 18
 url: /pl/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanuj roczne wzorce powtarzania w Aspose.Tasks dla .NET
+
 ## Wstęp
 dynamicznym świecie zarządzania projektami, sprawna obsługa powtarzających się zadań jest kluczowym aspektem. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do konfiguracji rocznych wzorców powtarzania, co pozwala usprawnić planowanie i zarządzanie projektami. W tym przewodniku krok po kroku omówimy, jak skonfigurować roczne wzorce powtarzania za pomocą Aspose.Tasks.
 ## Warunki wstępne
@@ -69,3 +75,9 @@ tym samouczku omówiliśmy proces konfigurowania rocznych wzorców powtarzania w
  Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie i pomoc społeczną.
 ### Czy mogę wypróbować Aspose.Tasks za darmo przed zakupem?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

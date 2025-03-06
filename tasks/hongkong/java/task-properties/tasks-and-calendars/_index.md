@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任務和日曆
 linktitle: Aspose.Tasks 中的任務和日曆
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 在高效管理任務和行事曆方面的強大功能。立即下載以獲得無縫的專案管理體驗！
-type: docs
 weight: 33
 url: /zh-hant/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任務和日曆
+
 ## 介紹
 您準備好使用 Aspose.Tasks for Java 提升您的專案管理等級了嗎？這篇綜合指南將引導您使用 Aspose.Tasks 瀏覽任務和日曆的複雜世界，使您能夠充分利用其高效專案規劃和執行的潛力。
 ## 先決條件
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
 加入社群：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)為了支持。
 ### 我可以購買 Aspose.Tasks 的許可證嗎？
 是的，您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 Nullable 부울 처리
 linktitle: Aspose.Tasks에서 Nullable 부울 처리
 second_title: Aspose.태스크 .NET API
 description: 이 포괄적인 튜토리얼을 통해 .NET용 Aspose.Tasks에서 null 허용 부울을 효과적으로 처리하는 방법을 알아보세요. 'NullableBool' 클래스의 사용법을 익히고 .NET 개발을 강화하세요.
-type: docs
 weight: 21
 url: /ko/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 Nullable 부울 처리
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울 작업을 자세히 살펴보겠습니다. Nullable 부울은 부울 값을 나타내는 유연성을 제공하여 정의되지 않을 가능성을 허용합니다. 사용법을 알아보겠습니다.`NullableBool` 클래스, 해당 생성자, 속성 및 메서드.
@@ -153,3 +159,9 @@ A4: 예, 생성 시 nullable 부울을 정의되지 않도록 설정할 수 있�
 ### Q5: .NET용 Aspose.Tasks에 대한 추가 문서는 어디서 찾을 수 있나요?
 
  A5: 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

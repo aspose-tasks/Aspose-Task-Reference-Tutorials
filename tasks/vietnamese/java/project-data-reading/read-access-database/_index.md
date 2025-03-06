@@ -3,10 +3,16 @@ title: Đọc dữ liệu dự án từ cơ sở dữ liệu MS Access trong Asp
 linktitle: Đọc dữ liệu dự án từ cơ sở dữ liệu Microsoft Access với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc dữ liệu MS Project từ cơ sở dữ liệu Microsoft Access bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu dự án từ cơ sở dữ liệu MS Access trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java là một API mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc đọc dữ liệu MS Project từ cơ sở dữ liệu Microsoft Access bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều hệ thống cơ sở dữ li�
  Đáp: Bạn có thể cần giấy phép tạm thời cho một số tính năng nâng cao. Nhận nó từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho Java ở đâu?
  Trả lời: Bạn có thể mua Aspose.Tasks cho Java từ[liên kết này](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

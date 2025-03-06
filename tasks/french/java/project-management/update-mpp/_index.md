@@ -3,10 +3,16 @@ title: Mettre à jour le fichier MPP dans Aspose.Tasks
 linktitle: Mettre à jour le fichier MPP dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment mettre à jour les fichiers MPP de manière transparente à l'aide d'Aspose.Tasks pour Java. Suivez notre guide étape par étape pour une manipulation efficace des fichiers de projet.
-type: docs
 weight: 19
 url: /fr/java/project-management/update-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mettre à jour le fichier MPP dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, le traitement et la mise à jour des dossiers de projet sont une tâche cruciale. Aspose.Tasks for Java fournit une solution puissante permettant aux développeurs Java de manipuler les fichiers Microsoft Project de manière transparente. Dans ce didacticiel, nous aborderons la mise à jour des fichiers MPP à l'aide d'Aspose.Tasks pour Java.
 ## Conditions préalables
@@ -71,3 +77,9 @@ R : Absolument, Aspose.Tasks for Java prend en charge différentes versions de f
  R : Oui, des licences temporaires sont disponibles à des fins de test. Vous pouvez les obtenir auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je demander de l'aide ou de l'assistance concernant Aspose.Tasks pour Java ?
  R : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour toute aide ou question.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Etiketleri Görüntüleme
 linktitle: Aspose.Tasks'ta Etiketleri Görüntüleme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje yönetiminde etiket görünümlerini nasıl özelleştireceğinizi öğrenin. Okunabilirliği ve netliği zahmetsizce geliştirin.
-type: docs
 weight: 14
 url: /tr/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Etiketleri Görüntüleme
+
 ## giriiş
 
 Yazılım geliştirme alanında, projelerin başarısı için görevlerin verimli bir şekilde yönetilmesi zorunludur. Aspose.Tasks for .NET, proje yönetimi görevlerini .NET çerçevesinde sorunsuz bir şekilde gerçekleştirmek için güçlü bir çözüm sunar. Proje yönetiminin önemli yönlerinden biri, ekran seçeneklerini belirli gereksinimlere uyacak şekilde özelleştirebilme yeteneğidir. Bu eğitimde, proje dosyalarındaki dakika, saat, gün, hafta, ay ve yıl etiket görünümlerini değiştirmek için Aspose.Tasks for .NET'in nasıl kullanılacağını keşfedeceğiz.
@@ -137,3 +143,10 @@ Cevap4: Aspose.Tasks for .NET, etiket ekranları için minimum sınırlamalarla 
 ### S5: Aspose.Tasks diğer proje yönetimi araçlarıyla entegrasyonu destekliyor mu?
 
 C5: Evet, Aspose.Tasks kusursuz entegrasyon özellikleri sunarak diğer proje yönetimi araçları ve platformlarıyla birlikte çalışabilirliği kolaylaştırır.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Tablo Alanı Koleksiyonlarında Uzmanlaşma
 linktitle: Aspose.Tasks'ta Tablo Alanlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje yönetiminin dinamik dünyasını keşfedin. Özelleştirilmiş bir proje deneyimi için tablo alanı koleksiyonlarını nasıl değiştireceğinizi öğrenin.
-type: docs
 weight: 13
 url: /tr/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Tablo Alanı Koleksiyonlarında Uzmanlaşma
+
 ## giriiş
 Aspose.Tasks for .NET, Microsoft Project dosyalarıyla çalışmak için kapsamlı işlevsellik sağlayarak proje yönetimini kolaylaştıran güçlü bir kütüphanedir. Bu derste Aspose.Tasks'taki tablo alanları koleksiyonunu derinlemesine inceleyeceğiz ve bunları C# kullanarak verimli bir şekilde nasıl değiştirip yönetebileceğimizi keşfedeceğiz.
 ## Önkoşullar
@@ -111,3 +117,9 @@ Kesinlikle! Öğreticide gösterildiği gibi tablo alanlarını dinamik olarak g
  Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)destek almak, sorular sormak ve toplulukla işbirliği yapmak için.
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
  Evet, Aspose.Tasks for .NET'in özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý tiêu chí nhóm dự án MS với Aspose.Tasks
 linktitle: Quản lý bộ sưu tập tiêu chí nhóm trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý bộ sưu tập Dự án MS Tiêu chí Nhóm bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 28
 url: /vi/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý tiêu chí nhóm dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý bộ sưu tập Tiêu chí nhóm trong MS Project bằng Aspose.Tasks.
 
@@ -126,3 +132,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ các tệp Microsoft Project thuộc n
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp bất kỳ vấn đề nào?
 
  Trả lời: Nếu bạn có bất kỳ câu hỏi nào hoặc gặp phải bất kỳ vấn đề nào, bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

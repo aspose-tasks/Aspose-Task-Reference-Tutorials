@@ -3,10 +3,16 @@ title: Reemplace el calendario de MS Project en Aspose.Tasks
 linktitle: Reemplazar calendario en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda cómo reemplazar el calendario de Microsoft Project usando Aspose.Tasks para Java. Guía paso a paso con ejemplos de código.
-type: docs
 weight: 12
 url: /es/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reemplace el calendario de MS Project en Aspose.Tasks
+
 ## Introducción
 En este tutorial, profundizaremos en cómo reemplazar el calendario de Microsoft Project usando Aspose.Tasks para Java. Aspose.Tasks es una potente biblioteca Java que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación. Una tarea común en la gestión de proyectos es personalizar calendarios y Aspose.Tasks simplifica significativamente este proceso.
 ## Requisitos previos
@@ -76,3 +82,9 @@ R: Por supuesto, Aspose.Tasks permite a los desarrolladores automatizar una ampl
  R: Sí, puede acceder a una prueba gratuita de Aspose.Tasks para Java desde[aquí](https://releases.aspose.com/).
 ### P: ¿Dónde puedo buscar soporte o asistencia con respecto a Aspose.Tasks?
  R: Puedes visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15) para el apoyo y orientación de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Özel Alan Türleri
 linktitle: Aspose.Tasks'ta Özel Alan Türleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te özel alan türleriyle nasıl çalışılacağını öğrenin. Kod örnekleri ve SSS içeren adım adım kılavuz.
-type: docs
 weight: 23
 url: /tr/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Özel Alan Türleri
+
 ## giriiş
 
 Aspose.Tasks for .NET'te özel alan türleriyle çalışma eğitimimize hoş geldiniz! Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir kitaplıktır. Bu öğreticide, proje verileriyle çalışmanın önemli bir yönü olan özel alan türlerini anlamaya ve kullanmaya odaklanacağız.
@@ -89,3 +95,9 @@ Cevap4: Evet, Aspose.Tasks, proje dosyalarındaki hem görev hem de kaynak veril
 ### S5: Aspose.Tasks kullanıcıları için bir topluluk forumu var mı?
 
  A5: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) diğer kullanıcılarla etkileşime geçmek ve Aspose ekibinden destek almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

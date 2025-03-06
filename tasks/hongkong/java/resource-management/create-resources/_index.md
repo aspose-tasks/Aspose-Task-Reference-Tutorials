@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中建立 MS 專案資源
 linktitle: 在Aspose.Tasks中建立資源
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 函式庫在 Java 中建立 Microsoft Project 資源。高效率資源管理的逐步指南。
-type: docs
 weight: 10
 url: /zh-hant/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中建立 MS 專案資源
+
 ## 介紹
 歡迎閱讀我們關於利用 Aspose.Tasks for Java 建立 Microsoft Project 資源的綜合指南！ Aspose.Tasks 是一個功能強大的 Java 程式庫，使開發人員能夠在其 Java 應用程式中有效地操作 Microsoft Project 檔案。在本教學中，我們將逐步引導您完成使用 Aspose.Tasks 建立 MS Project 資源的過程。
 ## 先決條件
@@ -45,3 +51,9 @@ Resource resource = project.getResources().add("ResourceName");
 您可以在 Aspose.Tasks 論壇上找到支援和協助[這裡](https://forum.aspose.com/c/tasks/15).
 ### 我需要臨時許可證才能使用 Aspose.Tasks 嗎？
 雖然您可以在沒有許可證的情況下使用 Aspose.Tasks，但臨時許可證可以解鎖其他功能和功能。您可以從以下地址取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

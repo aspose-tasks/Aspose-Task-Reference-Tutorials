@@ -3,10 +3,16 @@ title: Server Bewaar MS-projectopties voor Aspose.Tasks
 linktitle: Project Server-opslagopties voor Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-opties voor Aspose.Tasks kunt opslaan met behulp van Project Server-integratie. Verbeter uw projectmanagementworkflows.
-type: docs
 weight: 16
 url: /nl/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Server Bewaar MS-projectopties voor Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het opslaan van Microsoft Project-opties voor Aspose.Tasks met behulp van Project Server. Aspose.Tasks is een krachtige .NET API waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken. Door gebruik te maken van de mogelijkheden van Project Server kunnen we Aspose.Tasks naadloos integreren in onze projectmanagementworkflows. Deze tutorial begeleidt u stap voor stap door het proces.
 ## Vereisten
@@ -71,3 +77,9 @@ A: Ja, Aspose.Tasks is ontworpen om thread-safe te zijn, waardoor gelijktijdige 
 A: Ja, u kunt opslagopties zoals projectnaam, time-out en polling-interval aanpassen aan uw vereisten.
 ### Vraag: Waar kan ik ondersteuning vinden voor Aspose.Tasks?
  A: U kunt ondersteuning en hulp vinden op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Správa kolekce kalendářů v Aspose.Tasks
 linktitle: Správa kolekce kalendářů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se efektivně spravovat kolekce kalendářů v Aspose.Tasks for .NET. Vytvářejte, upravujte a manipulujte s kalendáři snadno.
-type: docs
 weight: 11
 url: /cs/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kolekce kalendářů v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak spravovat kolekce kalendářů v Aspose.Tasks pro .NET. Kalendáře hrají klíčovou roli v řízení projektů, definují pracovní dny, svátky a výjimky. Aspose.Tasks poskytuje robustní funkce pro manipulaci s kalendáři ve vašich projektech.
@@ -160,3 +166,9 @@ A4: Ano, Aspose.Tasks umožňuje export kalendářů do různých formátů, jak
 ### Q5: Mohu přizpůsobit pracovní dobu pro konkrétní dny v kalendáři?
 
 A5: Jistě, pracovní dobu pro jednotlivé dny můžete definovat pomocí výjimek v kalendáři.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

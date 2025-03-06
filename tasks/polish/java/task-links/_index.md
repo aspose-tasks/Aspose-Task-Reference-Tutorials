@@ -3,10 +3,16 @@ title: Linki do zadań
 linktitle: Linki do zadań
 second_title: Aspose.Tasks API Java
 description: Poznaj Aspose.Tasks dla Java dzięki naszym samouczkom. Usprawnij współpracę, zdefiniuj typy łączy i płynnie zarządzaj zadaniami. Zwiększ efektywność swojego projektu już teraz!
-type: docs
 weight: 33
 url: /pl/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linki do zadań
+
 ## Wstęp
 
 Jeśli zagłębiasz się w świat zarządzania projektami w języku Java, Aspose.Tasks jest Twoim ulubionym narzędziem. Nasze wszechstronne samouczki umożliwiają opanowanie różnych aspektów, zapewniając optymalne wykorzystanie biblioteki Aspose.Tasks for Java.
@@ -38,3 +44,9 @@ Poznaj moc Aspose.Tasks for Java w zarządzaniu projektami. Zdefiniuj i dostosuj
 Poznaj identyfikację zadań między projektami za pomocą Aspose.Tasks dla Java. Bezproblemowa integracja i efektywne zarządzanie. Pobierz teraz!
 ### [Zarządzaj zadaniami poprzedników i następców w Aspose.Tasks](./predecessor-successor-tasks/)
 Poznaj efektywne zarządzanie zadaniami dzięki Aspose.Tasks dla Java. Z łatwością obsługuj poprzednie i następcze zadania w swoich projektach. Pobierz teraz bezpłatną wersję próbną!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

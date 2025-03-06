@@ -3,10 +3,16 @@ title: Práce s Baseline Collection v Aspose.Tasks
 linktitle: Práce s Baseline Collection v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat směrné plány v Aspose.Tasks pro .NET. Postupujte podle našeho komplexního návodu, kde najdete podrobné pokyny.
-type: docs
 weight: 20
 url: /cs/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s Baseline Collection v Aspose.Tasks
+
 ## Úvod
 
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory Microsoft Project v jejich aplikacích .NET. Mezi svými mnoha funkcemi poskytuje robustní podporu pro správu základních linií v rámci projektů. Základní linie jsou nezbytné pro řízení projektu, protože umožňují porovnat původní plán projektu se současným stavem, což umožňuje lepší sledování a analýzu průběhu projektu.
@@ -116,3 +122,9 @@ Odpověď 4: Ano, Aspose.Tasks poskytuje podporu pro integraci s oblíbenými cl
 ### Q5: Existuje komunitní fórum pro uživatele Aspose.Tasks, aby hledali pomoc a sdíleli znalosti?
 
  A5: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) zapojit se do komunity a získat pomoc od odborníků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

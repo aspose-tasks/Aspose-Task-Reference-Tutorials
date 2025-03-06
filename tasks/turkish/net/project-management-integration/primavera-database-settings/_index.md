@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Primavera Veritabanını Yapılandırma
 linktitle: Aspose.Tasks'ta Primavera Veritabanı Ayarlarını Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te MS Project Primavera Veritabanı ayarlarını zahmetsizce nasıl yapılandıracağınızı öğrenin. Proje yönetimi görevlerinizi kolaylaştırın.
-type: docs
 weight: 11
 url: /tr/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Primavera Veritabanını Yapılandırma
+
 ## giriiş
 MS Project Primavera Veritabanı ayarlarını sorunsuz bir şekilde yapılandırmak için Aspose.Tasks for .NET'in gücünden yararlanmaya hazır mısınız? Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz. Ancak konuya dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 ## Önkoşullar
@@ -73,3 +79,9 @@ C: Aspose.Tasks for .NET öncelikle şirket içi proje yönetimi çözümlerine 
 C: Kesinlikle! Aspose.Tasks for .NET, proje verilerini çeşitli formatlarda okumak, yazmak ve değiştirmek için zengin bir API seti sağlar.
 ### S: Aspose.Tasks for .NET kullanıcılarına yönelik bir topluluk forumu veya destek kanalı var mı?
  C: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluk desteği ve karşılaşabileceğiniz sorunlar veya sorularınız için yardım için.## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks での子タスクの収集
 linktitle: Aspose.Tasks での子タスクの収集
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して子タスクを効率的に収集する方法を学びます。 .NET アプリケーションのプロジェクト管理を改善します。
-type: docs
 weight: 15
 url: /ja/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での子タスクの収集
+
 ## 導入
 
 プロジェクト管理の分野では、Aspose.Tasks for .NET は、タスクとプロジェクトを効率的に処理するための堅牢なソリューションとして際立っています。この強力なライブラリは、タスク、プロジェクト、およびそれらの間のすべてをシームレスに管理するために必要なツールを開発者に提供します。このチュートリアルでは、Aspose.Tasks の特定の側面、つまり子タスクの収集について詳しく説明します。
@@ -96,3 +102,9 @@ A4: はい、ユーザーは次の Web サイトを通じてテクニカル サ�
 ### Q5: 購入する前に Aspose.Tasks for .NET を試すことはできますか?
 
  A5：確かに！から無料トライアルを利用できます。[リリースページ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

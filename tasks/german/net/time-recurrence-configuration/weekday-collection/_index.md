@@ -3,10 +3,16 @@ title: Wochentage in Aspose.Tasks meistern
 linktitle: Sammlung von Wochentagen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der mühelosen Verwaltung von Wochentagen. Passen Sie Arbeitstage an, entfernen Sie Wochenenden und erstellen Sie ganz einfach spezielle Kalender.
-type: docs
 weight: 11
 url: /de/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wochentage in Aspose.Tasks meistern
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die eine effiziente Bearbeitung von Projektmanagementdaten ermöglicht. In diesem Tutorial erkunden wir die Sammlung von Wochentagen in Aspose.Tasks, die es Ihnen ermöglicht, Arbeitstage anzupassen, Wochenenden zu entfernen und spezielle Kalender zu erstellen, um Ihre Projektanforderungen zu erfüllen. Unabhängig davon, ob Sie ein erfahrener Entwickler oder ein Neuling sind, führt Sie diese Schritt-für-Schritt-Anleitung durch den Prozess der Arbeit mit Wochentagen in Aspose.Tasks für .NET.
 ## Voraussetzungen
@@ -95,3 +101,9 @@ A: Aspose.Tasks unterstützt hauptsächlich .NET-Sprachen, bietet aber auch Vers
  A: Siehe[Aspose.Tasks für .NET-Dokumentation](https://reference.aspose.com/tasks/net/) für detaillierte Informationen.
 ### F: Wie erhalte ich eine temporäre Lizenz für Aspose.Tasks für .NET?
  A: Sie können eine temporäre Lizenz bei erwerben[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

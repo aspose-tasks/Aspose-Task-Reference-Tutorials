@@ -3,10 +3,16 @@ title: Enregistrer MS Project dans Primavera XML pour Aspose.Tasks
 linktitle: Options d'enregistrement XML Primavera pour Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment utiliser Aspose.Tasks pour .NET pour enregistrer les options MS Project au format Primavera XML. Améliorez les capacités de gestion de projet sans effort.
-type: docs
 weight: 15
 url: /fr/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer MS Project dans Primavera XML pour Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet et de la gestion des tâches, Aspose.Tasks for .NET apparaît comme un puissant allié. Cette bibliothèque fournit aux développeurs les outils nécessaires pour manipuler les données du projet sans effort dans les applications .NET. Une caractéristique notable est sa capacité à interagir avec les fichiers XML Primavera, offrant une expérience transparente dans la gestion des informations sur le projet.
 ## Conditions préalables
@@ -56,3 +62,9 @@ R : Oui, Aspose.Tasks for .NET prend en charge l'intégration avec divers outils
  R : Diverses options de licence, y compris des licences temporaires, sont disponibles pour Aspose.Tasks pour .NET. Explorer les détails de la licence[ici](https://purchase.aspose.com/buy).
 ### Q : Puis-je personnaliser les options d'enregistrement pour le format XML Primavera ?
 : Oui, Aspose.Tasks pour .NET offre une flexibilité dans la configuration des options de sauvegarde, permettant une personnalisation en fonction des exigences spécifiques du projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

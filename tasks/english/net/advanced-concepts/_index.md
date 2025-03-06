@@ -3,10 +3,16 @@ title: Aspose.Tasks Advanced Concepts
 linktitle: Aspose.Tasks Advanced Concepts
 second_title: Aspose.Tasks .NET API
 description: Learn image saving, handling exceptions, tree algorithms, label displays, loading options, and more. Master advanced concepts in Aspose.Tasks for .NET
-type: docs
 weight: 24
 url: /net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Advanced Concepts
+
 
 ## Introduction
 
@@ -84,3 +90,9 @@ Learn how to handle nullable booleans effectively in Aspose.Tasks for .NET with 
 Learn how to efficiently work with OLE objects in .NET applications using Aspose.Tasks, enhancing project management capabilities.
 ### [Collection of OLE Objects in Aspose.Tasks](./ole-object-collection/)
 Learn how to manage OLE objects in Aspose.Tasks for .NET with this comprehensive tutorial. Master the handling of embedded files within project documents effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

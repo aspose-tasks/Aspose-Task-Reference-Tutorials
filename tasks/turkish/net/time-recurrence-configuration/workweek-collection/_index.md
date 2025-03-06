@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Çalışma Haftalarını Özelleştirin
 linktitle: Aspose.Tasks'ta Workweek'lerin toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te çalışma haftalarını nasıl özelleştireceğinizi öğrenin. Kişiselleştirilmiş proje takvimleri oluşturmak için adım adım kılavuz. Şimdi İndirin!
-type: docs
 weight: 17
 url: /tr/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Çalışma Haftalarını Özelleştirin
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak özel bir çalışma haftası oluşturma eğitimimize hoş geldiniz! Bu adım adım kılavuzda, projenizdeki bir takvim için kişiselleştirilmiş bir çalışma haftası tanımlama sürecinde size yol göstereceğiz. Aspose.Tasks, geliştiricilerin .NET uygulamalarında Microsoft Project belgeleriyle verimli bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -82,3 +88,9 @@ Evet, Aspose.Tasks .NET Core'u destekler.
 Kesinlikle Aspose.Tasks, projenizi Microsoft Project dahil olmak üzere çeşitli formatlarda kaydetmenize olanak tanır.
 ### Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
  Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) herhangi bir destek veya yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

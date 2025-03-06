@@ -3,10 +3,16 @@ title: Efficiently Manage MS Project Properties in Aspose.Tasks
 linktitle: Manage Default Project Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage default MS Project properties using Aspose.Tasks for Java. Streamline your project management workflow effortlessly.
-type: docs
 weight: 11
 url: /java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efficiently Manage MS Project Properties in Aspose.Tasks
+
 ## Introduction
 Are you looking to streamline your project management process with Aspose.Tasks for Java? Managing default properties in Microsoft Project files can significantly enhance efficiency. In this tutorial, we will walk through step-by-step instructions on how to manage default MS Project properties using Aspose.Tasks.
 ## Prerequisites
@@ -79,3 +85,10 @@ A3: Yes, you can find assistance and community support on the [Aspose.Tasks foru
 A4: Of course! You can avail of a free trial from the [website](https://releases.aspose.com/).
 ### Q5: How can I obtain a temporary license for Aspose.Tasks?
 A5: You can get a temporary license from the [purchase page](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

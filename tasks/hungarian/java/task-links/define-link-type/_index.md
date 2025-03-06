@@ -3,10 +3,16 @@ title: Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
 linktitle: Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java erejét a projektmenedzsmentben. Határozzon meg és szabjon testre hivatkozástípusokat könnyedén lépésről lépésre bemutató oktatóanyagunkkal.
-type: docs
 weight: 13
 url: /hu/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for Java hatékony projektmenedzsment világában! Ha egyszerűsíteni szeretné projektkezelését és növelni a termelékenységet, akkor jó helyen jár. Ebben az átfogó oktatóanyagban végigvezetjük a hivatkozástípusok Aspose.Tasks for Java programban történő meghatározásának folyamatán, javítva ezzel projektkezelési képességeit.
 ## Előfeltételek
@@ -60,3 +66,9 @@ V: Abszolút! Az Aspose.Tasks rugalmasságot biztosít, lehetővé téve a hivat
  Egy látogatás[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célú ideiglenes engedély megszerzésére.
 ### K: Hol kaphatok támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
  V: Csatlakozzon az Aspose.Tasks közösséghez a webhelyen[támogatói fórum](https://forum.aspose.com/c/tasks/15) segítségért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

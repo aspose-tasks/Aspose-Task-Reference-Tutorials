@@ -3,10 +3,16 @@ title: Настройки базы данных в Aspose.Tasks
 linktitle: Настройки базы данных в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как импортировать проекты из базы данных Primavera с помощью Aspose.Tasks для .NET. Получите пошаговые инструкции в этом подробном руководстве.
-type: docs
 weight: 29
 url: /ru/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройки базы данных в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам работать с файлами Microsoft Project в своих .NET-приложениях. В этом уроке мы сосредоточимся на импорте проектов из базы данных Primavera с помощью Aspose.Tasks.
@@ -100,3 +106,9 @@ project.Save(OutDir + "SupportForSQLiteDatabase_out.mpp", SaveFileFormat.Mpp);
 ### Вопрос 5: Нужна ли мне временная лицензия для использования Aspose.Tasks для .NET?
 
  О5: Если вы хотите оценить полную функциональность библиотеки, вы можете получить временную лицензию на сайте[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

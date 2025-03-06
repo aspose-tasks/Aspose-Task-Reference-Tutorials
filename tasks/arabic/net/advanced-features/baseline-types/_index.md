@@ -3,10 +3,16 @@ title: أنواع مختلفة من خطوط الأساس في Aspose.Tasks
 linktitle: أنواع مختلفة من خطوط الأساس في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعلم كيفية تعيين الخطوط الأساسية للمشروع ومعالجتها بكفاءة باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 21
 url: /ar/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنواع مختلفة من خطوط الأساس في Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، تعد الدقة والبصيرة أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET مجموعة أدوات قوية لإدارة بيانات المشروع بكفاءة، مما يسمح للمستخدمين بالتعمق في الجوانب المختلفة لتخطيط المشروع وتتبعه وتنفيذه. إحدى الميزات الحاسمة التي تقدمها Aspose.Tasks هي القدرة على تحديد خطوط الأساس، والتي تعمل كنقاط مرجعية لقياس تقدم المشروع مقابل الخطط الأولية.
@@ -82,3 +88,9 @@ project.SetBaseline(BaselineType.Baseline);
 ### س5: هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
 
 ج5: نعم، يمكنك استكشاف Aspose.Tasks من خلال النسخة التجريبية المجانية المتوفرة على موقع الويب، مما يسمح لك بتجربة إمكانياته بشكل مباشر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

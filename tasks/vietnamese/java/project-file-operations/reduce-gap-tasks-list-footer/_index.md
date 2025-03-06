@@ -3,10 +3,16 @@ title: Giảm khoảng cách giữa danh sách nhiệm vụ và chân trang tron
 linktitle: Giảm khoảng cách giữa danh sách nhiệm vụ và chân trang trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách giảm khoảng cách giữa danh sách nhiệm vụ và chân trang của MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa bố cục tài liệu dự án một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giảm khoảng cách giữa danh sách nhiệm vụ và chân trang trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc giảm khoảng cách giữa danh sách tác vụ và chân trang trong tệp Microsoft Project bằng Aspose.Tasks cho Java. Bằng cách làm theo các bước này, bạn sẽ có thể tối ưu hóa bố cục tài liệu dự án của mình một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -105,3 +111,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng, bao gồm XLSX
 ### Câu hỏi: Tôi có thể nhận hỗ trợ ở đâu nếu gặp bất kỳ sự cố nào khi sử dụng Aspose.Tasks?
 
  Trả lời: Bạn có thể nhận trợ giúp từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

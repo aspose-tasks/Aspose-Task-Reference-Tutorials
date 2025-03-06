@@ -3,10 +3,16 @@ title: Mengonfigurasi Opsi Pencetakan Proyek MS di Aspose.Tasks
 linktitle: Mengonfigurasi Opsi Pencetakan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi pencetakan MS Project dengan lancar menggunakan Aspose.Tasks untuk .NET. Tingkatkan kemampuan manajemen proyek Anda.
-type: docs
 weight: 14
 url: /id/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Opsi Pencetakan Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang pengembangan perangkat lunak, Aspose.Tasks untuk .NET menonjol sebagai alat yang ampuh untuk mengelola tugas dan proyek secara efisien. Salah satu fitur utamanya adalah kemampuan untuk mengkonfigurasi opsi pencetakan Microsoft Project dengan mulus. Dalam tutorial ini, kita akan mempelajari proses mengonfigurasi opsi pencetakan MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -61,3 +67,9 @@ J: Ya, Aspose.Tasks untuk .NET dirancang untuk mendukung multi-threading, memung
  J: Ya, pengguna dapat mengakses dukungan teknis yang komprehensif melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15), di mana mereka dapat mencari bantuan dan bimbingan dari para ahli.
 ### T: Dapatkah saya mengevaluasi Aspose.Tasks untuk .NET sebelum melakukan pembelian?
  J: Tentu saja! Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/) untuk mengeksplorasi fitur dan fungsinya sebelum membuat komitmen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

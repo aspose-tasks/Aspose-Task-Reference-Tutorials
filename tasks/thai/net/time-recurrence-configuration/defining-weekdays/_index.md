@@ -3,10 +3,16 @@ title: การเรียนรู้วันธรรมดาใน Aspose
 linktitle: การกำหนดวันธรรมดาใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจพลังของการกำหนดวันธรรมดาใน Aspose.Tasks .NET ปฏิบัติตามบทช่วยสอนโดยละเอียดของเราเพื่อจัดการปฏิทินโครงการอย่างมีประสิทธิภาพ กำหนดเวลาการทำงาน และอื่นๆ อีกมากมาย
-type: docs
 weight: 10
 url: /th/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้วันธรรมดาใน Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 หากคุณกำลังดำดิ่งสู่โลกแห่งการจัดการโครงการโดยใช้ Aspose.Tasks สำหรับ .NET การทำความเข้าใจและการจัดการวันธรรมดาถือเป็นสิ่งสำคัญ การจัดการและปรับแต่งวันทำงานอย่างมีประสิทธิภาพภายในปฏิทินโครงการของคุณอาจส่งผลกระทบอย่างมากต่อไทม์ไลน์ของโครงการ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการกำหนดวันธรรมดาโดยใช้ Aspose.Tasks โดยให้คำแนะนำและตัวอย่างทีละขั้นตอนเพื่อความชัดเจนยิ่งขึ้น
 ## ข้อกำหนดเบื้องต้น
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 ใช่ การแก้ไขใดๆ ในวันธรรมดาจะแสดงในไฟล์โครงการเมื่อบันทึก
 ### ฉันสามารถใช้ Aspose.Tasks กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
 Aspose.Tasks รองรับภาษาการเขียนโปรแกรมที่หลากหลาย แต่ตัวอย่างที่นี่มีไว้สำหรับ .NET โดยเฉพาะ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

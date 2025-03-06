@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS プロジェクト グループ基準の操作
 linktitle: Aspose.Tasks のグループ基準
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して .NET で MS Project ファイルをプログラム的に操作する方法を調べます。タスク グループと基準情報のステップバイステップの例を取得します。
-type: docs
 weight: 27
 url: /ja/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS プロジェクト グループ基準の操作
+
 ## 導入
 Aspose.Tasks for .NET は、.NET アプリケーションでの Microsoft Project ファイルの操作を容易にする強力な API です。プロジェクト管理ソフトウェアを開発している場合でも、プロジェクト データをプログラムで操作する必要がある場合でも、Aspose.Tasks はニーズを満たす包括的な機能セットを提供します。
 ## 前提条件
@@ -78,3 +84,9 @@ Aspose.Tasks は、大規模なプロジェクト ファイルを効率的に処
 はい、Aspose.Tasks は、.NET Framework、.NET Core、.NET Standard を含む複数の .NET プラットフォームをサポートしています。
 ### 支援を求めることができる Aspose.Tasks のコミュニティ フォーラムはありますか?
 はい、次の場所にアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)質問したり、知識を共有したり、他のユーザーと共同作業したりするため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

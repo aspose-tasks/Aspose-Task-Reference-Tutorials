@@ -3,10 +3,16 @@ title: Aspose.Tasks Project Management and Customization
 linktitle: Aspose.Tasks Project Management and Customization
 second_title: Aspose.Tasks .NET API
 description: Ovládněte Aspose.Tasks pro .NET pomocí našich výukových programů projektového řízení. Naučte se efektivní manipulaci, přizpůsobení a optimalizační techniky pro soubory MS Project.
-type: docs
 weight: 23
 url: /cs/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Project Management and Customization
+
 ## Úvod
 
 Jste připraveni zlepšit své dovednosti projektového řízení pomocí Aspose.Tasks pro .NET? Naše komplexní výukové programy pokrývají celou řadu témat, od zvládnutí získaných hodnot metod MS Project až po efektivní správu atributů projektu a přizpůsobení Ganttových diagramů. Pojďme se ponořit do světa Aspose.Tasks a odemknout plný potenciál projektového řízení.
@@ -130,3 +136,9 @@ Prozkoumejte, jak programově manipulovat se soubory MS Project v .NET pomocí A
 Zjistěte, jak spravovat kolekci Group Criterion MS Project pomocí Aspose.Tasks for .NET. Podrobný průvodce pro vývojáře.
 ### [Extrahujte informace o záhlaví a zápatí pomocí Aspose.Tasks](./header-footer-information/)
 Naučte se extrahovat informace o záhlaví a zápatí ze souborů MS Project pomocí Aspose.Tasks for .NET. Snadné, efektivní a pro vývojáře přátelské řešení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

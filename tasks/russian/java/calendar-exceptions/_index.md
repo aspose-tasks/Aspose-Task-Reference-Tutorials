@@ -3,10 +3,16 @@ title: Календарные исключения
 linktitle: Календарные исключения
 second_title: API Aspose.Tasks Java
 description: Легко управляйте, определяйте, обрабатывайте и извлекайте исключения календаря в проектах Java с помощью Aspose.Tasks. Оптимизируйте рабочие процессы проекта для эффективного управления проектами.
-type: docs
 weight: 20
 url: /ru/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Календарные исключения
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ url: /ru/java/calendar-exceptions/
 Узнайте, как эффективно обрабатывать исключения календаря в проектах Java с помощью Aspose.Tasks для Java. Оптимизируйте процесс управления проектами прямо сейчас.
 ### [Получение исключений календаря с помощью Aspose.Tasks](./retrieve/)
 Узнайте, как получить исключения календаря из MS Project с помощью Aspose.Tasks для Java. Пошаговое руководство для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

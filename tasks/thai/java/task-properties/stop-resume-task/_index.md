@@ -3,10 +3,16 @@ title: หยุดและทำงานต่อใน Aspose.Tasks
 linktitle: หยุดและทำงานต่อใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: สำรวจพลังของ Aspose.Tasks สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนเกี่ยวกับการหยุดและทำงานต่อ เพิ่มประสิทธิภาพการบริหารจัดการโครงการได้อย่างลงตัว!
-type: docs
 weight: 30
 url: /th/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หยุดและทำงานต่อใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java การจัดการงานอย่างมีประสิทธิภาพเป็นส่วนสำคัญของการดำเนินโครงการ Aspose.Tasks สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพสำหรับการจัดการงานด้วยคุณสมบัติอันทรงพลัง ในบทช่วยสอนนี้ เราจะเจาะลึกถึงฟังก์ชันเฉพาะอย่างหนึ่ง นั่นคือ การหยุดและทำงานต่อ ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณจะสามารถรวมคุณสมบัตินี้เข้ากับโปรเจ็กต์ Java ของคุณได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -69,3 +75,9 @@ for (Task tsk : collector.getTasks()) {
  ใช่ คุณสามารถเข้าถึง[ทดลองฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติก่อนตัดสินใจซื้อ
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

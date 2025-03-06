@@ -3,10 +3,16 @@ title: Az Aspose.Tasks erőforrás-hozzárendelésekkel kapcsolatos megjegyzése
 linktitle: Az Aspose.Tasks erőforrás-hozzárendelésekkel kapcsolatos megjegyzések kezelése
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti az Aspose.Tasks for Java erőforrás-hozzárendelésével kapcsolatos megjegyzéseket. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
-type: docs
 weight: 21
 url: /hu/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks erőforrás-hozzárendelésekkel kapcsolatos megjegyzések kezelése
+
 ## Bevezetés
 Ebben az oktatóanyagban az erőforrás-hozzárendelésekkel kapcsolatos megjegyzések kezelésével foglalkozunk az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy robusztus Java könyvtár, amelyet a projektmenedzsment feladatok hatékony kezelésére terveztek. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, lehetővé téve a jegyzetkezelés zökkenőmentes integrálását a projekt munkafolyamataiba.
 ## Előfeltételek
@@ -76,3 +82,9 @@ Az Aspose.Tasks for Java bármely Java IDE-vel kompatibilis, beleértve az Intel
 Nem, a próbaidőszakhoz nem szükséges ideiglenes engedély. A próbaverziót licenc nélkül is használhatja.
 ### Hol vásárolhatok Aspose.Tasks for Java-t?
 Az Aspose.Tasks for Java megvásárolható a vásárlási oldalon[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

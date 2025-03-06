@@ -3,10 +3,16 @@ title: Παρακολουθήστε τις υπερωρίες, το υπόλοι
 linktitle: Παρακολουθήστε τις υπερωρίες, το υπόλοιπο κόστος και την εργασία στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να παρακολουθείτε τις υπερωρίες, το υπόλοιπο κόστος και να εργάζεστε σε έργα Java χρησιμοποιώντας το Aspose.Tasks. Εύκολα βήματα για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 18
 url: /el/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παρακολουθήστε τις υπερωρίες, το υπόλοιπο κόστος και την εργασία στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Tasks για Java για την παρακολούθηση των υπερωριών, των υπολειπόμενων δαπανών και της εργασίας σε ένα έργο. Αυτό μπορεί να είναι ανεκτίμητο για τους διαχειριστές έργων και τους επικεφαλής της ομάδας για να διασφαλίσουν ότι τα έργα παραμένουν σε καλό δρόμο και εντός του προϋπολογισμού.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για υποστήριξη.
 ### Πώς μπορώ να αγοράσω άδεια χρήσης για το Aspose.Tasks;
  Μπορείτε να αγοράσετε άδεια από[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

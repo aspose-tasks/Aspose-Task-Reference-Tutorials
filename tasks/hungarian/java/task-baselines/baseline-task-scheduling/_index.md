@@ -3,10 +3,16 @@ title: Kiindulási feladatütemezés az Aspose.Tasks-ban
 linktitle: Kiindulási feladatütemezés az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan ütemezheti hatékonyan a feladatok alapvonalait az Aspose.Tasks for Java segítségével. Egyszerűsítse projektmenedzsment folyamatait erőfeszítés nélkül.
-type: docs
 weight: 10
 url: /hu/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiindulási feladatütemezés az Aspose.Tasks-ban
+
 ## Bevezetés
 Az alapfeladatok kezelése a projektmenedzsment kulcsfontosságú aspektusa, amely lehetővé teszi a tervezett és a tényleges előrehaladás pontos összehasonlítását. Ebben az oktatóanyagban megvizsgáljuk, hogyan hajthat végre alapszintű feladatütemezést az Aspose.Tasks for Java használatával. Ha követi ezeket a lépéseket, akkor képes lesz hatékonyan ésszerűsíteni projektmenedzsment folyamatait.
 ## Előfeltételek
@@ -63,3 +69,9 @@ Az Aspose.Tasks for Java minden bizonnyal kiterjedt funkciókat kínál a felada
  Igen, elérheti az Aspose.Tasks for Java ingyenes próbaverzióját a webhelyről[kiadási oldal](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Tasks for Java számára?
  Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 텍스트 항목 유형 사용자 정의 가이드
 linktitle: Aspose.Tasks에서 텍스트 항목 유형 처리
 second_title: Aspose.태스크 .NET API
 description: 이 단계별 가이드를 통해 .NET용 Aspose.Tasks의 마스터 텍스트 항목 유형 사용자 정의를 알아보세요. 프로젝트 관리 게임을 쉽게 향상시키세요.
-type: docs
 weight: 10
 url: /ko/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 텍스트 항목 유형 사용자 정의 가이드
+
 ## 소개
 Aspose.Tasks를 사용하여 프로젝트 관리에 뛰어드는 .NET 개발자라면 제대로 찾아오셨습니다! 이 단계별 가이드에서는 강력한 .NET 라이브러리를 사용한 사용자 정의에 중점을 두고 Aspose.Tasks에서 텍스트 항목 유형을 처리하는 복잡한 과정을 살펴보겠습니다.
 ## 전제조건
@@ -74,3 +80,9 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 A: Aspose.Tasks 문서에서 더 많은 튜토리얼을 살펴보세요.
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  A: 도서관을 구입하세요[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

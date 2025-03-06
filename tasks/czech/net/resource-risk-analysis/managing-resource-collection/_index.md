@@ -3,10 +3,16 @@ title: Správa kolekce zdrojů projektu v Aspose.Tasks
 linktitle: Správa kolekce zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se efektivně spravovat kolekce prostředků Microsoft Project v .NET pomocí Aspose.Tasks API. Zvyšte produktivitu a flexibilitu.
-type: docs
 weight: 13
 url: /cs/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kolekce zdrojů projektu v Aspose.Tasks
+
 ## Úvod
 V tomto kurzu prozkoumáme, jak efektivně spravovat kolekce prostředků Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft Project programově, což umožňuje bezproblémovou integraci a manipulaci s daty projektu.
 ## Předpoklady
@@ -99,3 +105,9 @@ Odpověď: Ano, Aspose.Tasks podporuje multi-threading, což umožňuje souběž
 ### Otázka: Je pro uživatele Aspose.Tasks k dispozici technická podpora?
 
  Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím fóra[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

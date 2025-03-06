@@ -3,10 +3,16 @@ title: 项目属性
 linktitle: 项目属性
 second_title: Aspose.Tasks Java API
 description: 通过我们的项目属性教程释放 Aspose.Tasks for Java 的潜力。轻松提取、利用和操作 Microsoft Project 信息。
-type: docs
 weight: 24
 url: /zh/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 项目属性
+
 ## 介绍
 
 您准备好提升您的 Aspose.Tasks for Java 技能了吗？我们的项目属性教程使您能够充分利用这个强大的库的潜力，重点关注三个关键方面：读取元属性、提取 Microsoft Project 信息和掌握 MS Project 操作。深入研究这些教程以增强您的 Java 开发和项目管理能力。
@@ -35,3 +41,9 @@ url: /zh/java/project-properties/
 了解如何使用 Aspose.Tasks for Java 提取 Microsoft Project 信息。轻松增强 Java 应用程序中的项目管理。
 ### [使用 Aspose.Tasks for Java 掌握 MS 项目操作](./write-project-info/)
 了解如何使用 Aspose.Tasks for Java 高效编写 MS Project 信息。 Java 开发人员的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

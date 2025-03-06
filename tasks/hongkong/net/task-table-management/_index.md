@@ -3,10 +3,16 @@ title: Aspose.Tasks 任務管理與表格式
 linktitle: Aspose.Tasks 任務管理與表格式
 second_title: Aspose.Tasks .NET API
 description: 透過逐步教程，在 Aspose.Tasks for .NET 中輕鬆配置和管理表。提高專案管理效率和表達能力。
-type: docs
 weight: 29
 url: /zh-hant/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 任務管理與表格式
+
 ## 介紹
 
 Aspose.Tasks for .NET 以其強大的功能徹底改變了專案管理。本文探討了有關任務管理和表格格式的各種教程，提供了全面的指南以最大限度地提高您的效率。讓我們深入探討關鍵主題：
@@ -91,3 +97,9 @@ Aspose.Tasks for .NET 以其強大的功能徹底改變了專案管理。本文�
 探索 Aspose.Tasks for .NET 輕鬆管理和視覺化專案資料。深入研究任務使用情況視圖欄位以增強專案洞察力。
 ### [Aspose.Tasks 中任務使用視圖欄位的集合](./task-usage-view-fields/)
 探索 Aspose.Tasks for .NET 並了解如何設定任務使用視圖。自訂時間刻度設定並增強您的專案管理視覺效果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

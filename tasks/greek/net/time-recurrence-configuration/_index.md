@@ -3,10 +3,16 @@ title: Aspose.Tasks Time Configuration and Recurence Patterns
 linktitle: Aspose.Tasks Time Configuration and Recurence Patterns
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε το Aspose.Tasks για εκπαιδευτικά προγράμματα .NET σχετικά με τη διαμόρφωση χρόνου και τα μοτίβα επανάληψης. Διαχειριστείτε εύκολα ημερολόγια, προσαρμόστε τους χρόνους εργασίας και βελτιστοποιήστε τον προγραμματισμό του έργου.
-type: docs
 weight: 33
 url: /el/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Time Configuration and Recurence Patterns
+
 ## Εισαγωγή
 
 Καλώς ήλθατε στον κόσμο του Aspose.Tasks για .NET, όπου η αποτελεσματική διαχείριση έργου συναντά τη δύναμη των προσαρμόσιμων διαμορφώσεων χρόνου και μοτίβων επανάληψης. Σε αυτόν τον περιεκτικό οδηγό, θα εμβαθύνουμε σε διάφορα σεμινάρια που σας δίνουν τη δυνατότητα να κυριαρχήσετε στην τέχνη του προγραμματισμού έργων και της διαχείρισης πόρων.
@@ -58,3 +64,9 @@ url: /el/net/time-recurrence-configuration/
 Μάθετε πώς να προσαρμόζετε τις εβδομάδες εργασίας στο Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα για τη δημιουργία εξατομικευμένων ημερολογίων έργων. Κατεβάστε τώρα!
 ### [Διαμόρφωση μοτίβων ετήσιας επανάληψης στο Aspose.Tasks](./yearly-recurrence-patterns/)
 Μάθετε να διαμορφώνετε ετήσια μοτίβα επανάληψης στο Aspose.Tasks για .NET. Βελτιώστε τις δεξιότητές σας στη διαχείριση έργων με αυτόν τον οδηγό βήμα προς βήμα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kezelje az MS Project naptár tulajdonságait az Aspose.Tasks alkalmazás
 linktitle: Kezelje a naptár tulajdonságait az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti az MS Project naptártulajdonságait Java nyelven az Aspose.Tasks segítségével. Ez lépésről lépésre útmutatást nyújt a naptárhoz a Java alkalmazásokban.
-type: docs
 weight: 10
 url: /hu/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje az MS Project naptár tulajdonságait az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti az MS Project naptártulajdonságait az Aspose.Tasks for Java segítségével. A naptártulajdonságok kezelésének megértésével testreszabhatja a projekt ütemezését, hogy hatékonyan megfeleljen az adott követelményeknek.
 ## Előfeltételek
@@ -71,3 +77,9 @@ V: Abszolút! Zökkenőmentesen integrálhatja az Aspose.Tasks naptárkezelési 
 V: Igen, az Aspose.Tasks funkciók széles skáláját kínálja a feladatok, az erőforrások és a projektstruktúrák kezeléséhez, így átfogó megoldást jelent a Java projektkezeléshez.
 ### K: Rendelkezésre áll technikai támogatás az Aspose.Tasks-t használó fejlesztők számára?
 V: Igen, a fejlesztők hozzáférhetnek a technikai támogatáshoz az Aspose.Tasks fórumon keresztül, amely segítséget nyújt a megvalósítás során felmerülő kérdések vagy problémák esetén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

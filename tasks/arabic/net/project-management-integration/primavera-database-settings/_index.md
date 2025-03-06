@@ -3,10 +3,16 @@ title: تكوين قاعدة بيانات MS Project Primavera في Aspose.Tasks
 linktitle: تكوين إعدادات قاعدة بيانات بريمافيرا في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات قاعدة بيانات MS Project Primavera في Aspose.Tasks لـ .NET دون عناء. تبسيط مهام إدارة المشروع الخاص بك.
-type: docs
 weight: 11
 url: /ar/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين قاعدة بيانات MS Project Primavera في Aspose.Tasks
+
 ## مقدمة
 هل أنت مستعد لتسخير قوة Aspose.Tasks لـ .NET لتكوين إعدادات قاعدة بيانات MS Project Primavera بسلاسة؟ في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة. ولكن قبل أن نتعمق، دعونا نتأكد من أن لديك كل ما تحتاجه.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 ج: بالتأكيد! يوفر Aspose.Tasks for .NET مجموعة غنية من واجهات برمجة التطبيقات لقراءة بيانات المشروع وكتابتها ومعالجتها بتنسيقات مختلفة.
 ### س: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لـ Aspose.Tasks لمستخدمي .NET؟
  ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لدعم المجتمع ومساعدته في أي مشكلات أو استفسارات قد تكون لديك.## أكمل كود المصدر
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Határozza meg a hétköznapokat a naptárban az Aspose.Tasks segítség�
 linktitle: Határozza meg a hétköznapokat a naptárban az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan határozhatja meg a hétköznapokat az MS Project Calendar programban az Aspose.Tasks for Java segítségével. Könnyedén testreszabhatja a munkanapokat és az időpontokat.
-type: docs
 weight: 12
 url: /hu/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Határozza meg a hétköznapokat a naptárban az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a hétköznapok meghatározásának folyamatát egy MS Project Calendarban az Aspose.Tasks for Java segítségével. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat.
 ## Előfeltételek
@@ -82,3 +88,9 @@ V: Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit
 V: Igen, betölthet egy meglévő projektet naptárral, módosításokat hajthat végre, majd a módosításokat visszamentheti az eredeti fájlba.
 ### 5. kérdés: Az Aspose.Tasks támogatást nyújt az ismétlődő feladatokhoz?
 V: Igen, az Aspose.Tasks lehetővé teszi az ismétlődő feladatokkal való munkát, beleértve azok ismétlődési mintáinak és időtartamának meghatározását.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

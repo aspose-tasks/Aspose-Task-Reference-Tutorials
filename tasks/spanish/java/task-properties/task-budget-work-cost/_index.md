@@ -3,10 +3,16 @@ title: Gestión de presupuesto, trabajo y costos para tareas en Aspose.Tasks
 linktitle: Gestión de presupuesto, trabajo y costos para tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Desbloquee una gestión eficiente de presupuestos y costos en proyectos Java con Aspose.Tasks. Explore la guía paso a paso para una integración perfecta.
-type: docs
 weight: 31
 url: /es/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de presupuesto, trabajo y costos para tareas en Aspose.Tasks
+
 ## Introducción
 Gestionar los presupuestos, el trabajo y los costos de manera eficiente es crucial para la ejecución exitosa del proyecto. Aspose.Tasks para Java proporciona una solución sólida para manejar tareas relacionadas con proyectos, incluida la elaboración de presupuestos y la gestión de costos. En este tutorial, exploraremos cómo utilizar Aspose.Tasks para Java para lograr una gestión eficaz del presupuesto, el trabajo y los costos en sus proyectos.
 ## Requisitos previos
@@ -71,3 +77,9 @@ Sí, Aspose.Tasks para Java es compatible con varios marcos de Java, lo que gara
  Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de prueba y evaluación.
 ### ¿Existen recursos adicionales para Aspose.Tasks para Java?
  Consulte la documentación.[aquí](https://reference.aspose.com/tasks/java/) para obtener información detallada y ejemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

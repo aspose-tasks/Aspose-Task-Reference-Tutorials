@@ -3,10 +3,16 @@ title: 项目管理
 linktitle: 项目管理
 second_title: Aspose.Tasks Java API
 description: 通过我们全面的项目管理教程探索 Aspose.Tasks Java。从关键路径计算到会计年度属性，简化您的工作流程。
-type: docs
 weight: 27
 url: /zh/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 项目管理
+
 ## 介绍
 
 您准备好使用 Aspose.Tasks for Java 提升您的项目管理技能了吗？深入了解我们的独家教程，涵盖一系列特性和功能，为您的 Java 开发之旅提供助力。从关键路径计算到打印过程中处理任务写入异常，我们都能满足您的需求。让我们探索等待着您的丰富知识。
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 了解如何在 Aspose.Tasks for Java 中打印页面以分隔图像。通过此分步指南改进项目可视化。
 ### [在 Aspose.Tasks 中打印期间处理任务写入异常](./print-task-exceptions/)
 掌握 Aspose.Tasks for Java 中的异常处理，以确保项目的无缝执行。了解如何轻松处理打印过程中的任务写入异常。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

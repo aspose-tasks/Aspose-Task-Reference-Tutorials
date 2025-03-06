@@ -3,10 +3,16 @@ title: MS Project mentése HTML formátumban az Aspose.Tasks segítségével
 linktitle: Az Aspose.Tasks HTML-mentési beállításai
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti a Microsoft Project fájlokat HTML formátumban az Aspose.Tasks for .NET segítségével. Könnyedén konvertálja a projektadatokat lépésről lépésre szóló útmutatónkkal.
-type: docs
 weight: 10
 url: /hu/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project mentése HTML formátumban az Aspose.Tasks segítségével
+
 ## Bevezetés
 Üdvözöljük a Microsoft Project fájlok HTML formátumban történő mentéséről szóló oktatóanyagunkban az Aspose.Tasks for .NET használatával! Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja fel az Aspose.Tasks-t a projektadatok HTML formátumban történő mentésére, és lépésről lépésre nyújt útmutatást az út során.
 ## Előfeltételek
@@ -57,3 +63,9 @@ V: Igen, az Aspose.Tasks a Microsoft Project fájlverziók széles skáláját t
 V: Természetesen igénye szerint kibonthatja és beillesztheti a projekt bizonyos oldalait vagy szakaszait.
 ### K: Elérhető az Aspose.Tasks próbaverziója?
 V: Igen, hozzáférhet az Aspose.Tasks ingyenes próbaverziójához, hogy vásárlás előtt felfedezze a funkcióit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

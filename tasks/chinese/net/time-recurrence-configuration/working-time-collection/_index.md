@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 的工作时间
 linktitle: Aspose.Tasks 中工作时间的集合
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在有效管理项目时间表方面的强大功能。自定义日历、设置工作时间并轻松简化您的项目。
-type: docs
 weight: 14
 url: /zh/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 的工作时间
+
 ## 介绍
 您是否希望掌握在 Aspose.Tasks for .NET 中管理工作时间的艺术？别再犹豫了！在本分步指南中，我们将深入研究使用 Aspose.Tasks 收集工作时间的复杂性，使您能够有效地处理自定义日历并简化项目时间表。
 ## 先决条件
@@ -114,3 +120,9 @@ foreach (var day in calendar.WeekDays)
 是的，您可以通过访问免费试用来探索 Aspose.Tasks[这个链接](https://releases.aspose.com/).
 ### 我在哪里可以寻求 Aspose.Tasks 的支持？
 如有任何疑问或帮助，请访问[Aspose.Tasks 支持论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

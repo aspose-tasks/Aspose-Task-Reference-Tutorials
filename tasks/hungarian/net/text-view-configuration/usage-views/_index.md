@@ -3,10 +3,16 @@ title: Használati nézetek konfigurálása az Aspose.Tasks programban
 linktitle: Használati nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg a feladathasználati nézetek konfigurálását az Aspose.Tasks for .NET alkalmazásban. Javítsa a projekt vizualizációját részletes lépésekkel. Töltse le a könyvtárat most!
-type: docs
 weight: 17
 url: /hu/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Használati nézetek konfigurálása az Aspose.Tasks programban
+
 ## Bevezetés
 Ha Ön .NET-fejlesztő, és szeretné továbbfejleszteni projektkezelési képességeit, az Aspose.Tasks egy hatékony eszköz, amellyel könnyedén kezelheti a Microsoft Project fájlokat. Ebben az oktatóanyagban a használati nézetek konfigurálására fogunk összpontosítani az Aspose.Tasks for .NET használatával. Kövesse a lépést, hogy betekintést nyerjen a feladathasználati nézetek megjelenítésébe a részletekkel a jobb projektvizualizáció érdekében.
 ## Előfeltételek
@@ -72,3 +78,9 @@ Gratulálunk! Sikeresen konfigurálta a használati nézeteket az Aspose.Tasks a
  Igen, fedezze fel az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### K: Támogatásra van szüksége, vagy kérdései vannak?
  Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

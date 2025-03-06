@@ -3,10 +3,16 @@ title: Ενημερώστε τα Ημερολόγια Έργων MS σε Μορ�
 linktitle: Ενημερώστε το Ημερολόγιο σε μορφή MPP στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ενημερώνετε τα ημερολόγια του MS Project σε μορφή MPP χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks για Java.
-type: docs
 weight: 16
 url: /el/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενημερώστε τα Ημερολόγια Έργων MS σε Μορφή MPP με το Aspose.Tasks
+
 ## Εισαγωγή
 
 Στον τομέα της διαχείρισης έργων, ο χειρισμός διαφόρων μορφών αρχείων είναι ζωτικής σημασίας για την απρόσκοπτη συνεργασία και την αποτελεσματική ροή εργασίας. Το Aspose.Tasks για Java προσφέρει μια ισχυρή λύση για τον χειρισμό αρχείων Microsoft Project, διευκολύνοντας εργασίες όπως η ενημέρωση ημερολογίων MS Project σε μορφή MPP. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στα βήματα που απαιτούνται για να το ολοκληρώσετε χρησιμοποιώντας το Aspose.Tasks για Java.
@@ -116,3 +122,9 @@ A2: Απολύτως, το Aspose.Tasks για Java σάς επιτρέπει ν
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
 
  A5: Για να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java, επισκεφτείτε τον ιστότοπο[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

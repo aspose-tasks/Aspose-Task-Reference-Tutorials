@@ -3,10 +3,16 @@ title: Aspose.Tasks 비율 관리 및 반복 작업
 linktitle: Aspose.Tasks 비율 관리 및 반복 작업
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks .NET을 사용하여 MS 프로젝트 속도 관리 및 반복 작업을 마스터하세요. 작업을 자동화하고, 요율을 처리하고, 프로젝트 워크플로의 분할 부분을 관리하는 방법을 알아보세요.
-type: docs
 weight: 28
 url: /ko/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 비율 관리 및 반복 작업
+
 
 ## 소개
 
@@ -67,3 +73,9 @@ MS 프로젝트 요율 관리 및 반복 작업의 복잡성을 마스터하는 
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 분할 부분을 효율적으로 처리하는 방법을 알아보세요. 프로젝트 관리 워크플로를 강화하세요.
 ### [Aspose.Tasks에서 분할 부품의 MS 프로젝트 수집](./split-part-collection/)
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트에서 분할된 부분을 수집하는 방법을 알아보세요. 이 포괄적인 튜토리얼은 프로세스를 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dasar Tugas
 linktitle: Dasar Tugas
 second_title: Aspose.Tugas Java API
 description: Jelajahi Aspose.Tasks Java dengan Tutorial Dasar Tugas kami. Sederhanakan penjadwalan tugas, buat garis dasar tugas MS Project, dan kuasai manajemen durasi garis dasar.
-type: docs
 weight: 32
 url: /id/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dasar Tugas
+
 ## Perkenalan
 Mulailah perjalanan untuk meningkatkan keterampilan manajemen proyek Anda dengan Aspose.Tasks untuk Java. Dalam rangkaian tutorial ini, kami mendalami seluk-beluk dasar tugas, memberi Anda wawasan berharga dan pengetahuan praktis. Mari jelajahi tutorial utama yang membentuk panduan komprehensif ini.
 
@@ -51,3 +57,9 @@ Pelajari cara menjadwalkan garis dasar tugas secara efektif dengan Aspose.Tasks 
 Pelajari cara membuat dasar tugas Microsoft Project di Java menggunakan Aspose.Tasks, pustaka canggih untuk mengelola data proyek dengan mudah.
 ### [Manajemen Durasi Dasar Tugas di Aspose.Tasks](./task-baseline-duration/)
 Pelajari cara mengelola garis dasar tugas secara efisien di MS Project menggunakan Aspose.Tasks untuk Java. Tutorial ini memandu Anda langkah demi langkah melalui proses tersebut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

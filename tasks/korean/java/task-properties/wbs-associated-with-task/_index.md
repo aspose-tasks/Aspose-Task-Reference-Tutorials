@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업과 연결된 WBS
 linktitle: Aspose.Tasks의 작업과 연결된 WBS
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 WBS 마스터 - 작업 WBS 코드를 읽고 번호를 다시 매기는 방법을 알아보세요. 프로젝트 관리 효율성을 높이세요!
-type: docs
 weight: 36
 url: /ko/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업과 연결된 WBS
+
 ## 소개
 Aspose.Tasks for Java를 사용하여 프로젝트 관리의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업과 관련된 WBS(작업 분할 구조)의 복잡성을 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 WBS 코드를 효율적으로 관리하는 데 필요한 기본 사항을 탐색하는 데 도움이 될 것입니다.
 ## 전제조건
@@ -90,3 +96,9 @@ for (Task task : tasks) {
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원을 위해.
 ### Q: Aspose.Tasks for Java에 대한 임시 라이선스를 얻을 수 있나요?
  A: 네, 임시 면허를 받으세요.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Managing Day Type Collection in Aspose.Tasks
 linktitle: Managing Day Type Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease.
-type: docs
 weight: 28
 url: /net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Day Type Collection in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET provides robust functionality for managing day type collections, crucial for defining weekly calendar exceptions in project management applications. In this tutorial, we'll explore how to utilize the `DayTypeCollection` class efficiently. 
@@ -141,3 +147,10 @@ A4: Yes, you can get a free trial of Aspose.Tasks for .NET from [here](https://r
 ### Q5: Can I purchase a temporary license for Aspose.Tasks for .NET?
 
 A5: Yes, temporary licenses are available for purchase from the [Aspose website](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

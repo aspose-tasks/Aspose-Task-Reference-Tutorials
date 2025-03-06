@@ -3,10 +3,16 @@ title: Kaynak Atamaları
 linktitle: Kaynak Atamaları
 second_title: Aspose.Tasks Java API'si
 description: Kaynak atama eğitimlerimiz ile Aspose.Tasks for Java'da zahmetsizce ustalaşın. MS Project manipülasyonunu, atama bütçelerini, maliyetleri ve daha fazlasını yönetin.
-type: docs
 weight: 30
 url: /tr/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kaynak Atamaları
+
 
 ## giriiş
 
@@ -101,3 +107,9 @@ Aspose.Tasks for Java'da kaynak atamalarına ilişkin notları nasıl yönetece�
 Bu adım adım eğitimle Aspose.Tasks for Java'da kaynak atamalarını etkili bir şekilde nasıl yöneteceğinizi öğrenin.
 ### [Aspose.Tasks'ta Zaman Aşamalı Veri Oluşturma](./timephased-data-generation/)
 Aspose.Tasks for Java'yı kullanarak kaynak atamaları için zaman aşamalı verileri nasıl oluşturacağınızı öğrenin. Bu kapsamlı kılavuzla proje yönetimi verimliliğini artırın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ismétlődő feladatok információinak kinyerése az Aspose.Tasks progra
 linktitle: Ismétlődő feladatok információinak kinyerése az Aspose.Tasks programból
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan bonthatja ki az ismétlődő feladatok adatait az MS Project fájlokból az Aspose.Tasks for .NET segítségével. Könnyű integráció .NET fejlesztők számára.
-type: docs
 weight: 13
 url: /hu/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ismétlődő feladatok információinak kinyerése az Aspose.Tasks programból
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak .NET-alkalmazásaikban. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet az Aspose.Tasks segítségével kinyerni az ismétlődő feladatinformációkat az MS Project fájlokból.
 ## Előfeltételek
@@ -62,3 +68,9 @@ V: Igen, az Aspose.Tasks különféle projektfájlformátumokat támogat, mint p
  V: Megtalálhatja a dokumentációt[itt](https://reference.aspose.com/tasks/net/).
 ### K: Hogyan kaphatok technikai támogatást az Aspose.Tasks for .NET-hez?
  V: Technikai támogatást az Aspose.Tasks fórumon kaphat[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

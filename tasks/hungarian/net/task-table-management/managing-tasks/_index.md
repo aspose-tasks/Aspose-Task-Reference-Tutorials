@@ -3,10 +3,16 @@ title: Feladatok kezelése az Aspose.Tasks-ban
 linktitle: Feladatok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az átfogó útmutatót az Aspose.Tasks for .NET segítségével történő feladatok kezeléséről. Tanuljon meg hozzáadni, megjeleníteni felosztott részeket, mozgatni, tulajdonságokat szerezni/beállítani stb.
-type: docs
 weight: 15
 url: /hu/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladatok kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ha Ön .NET-fejlesztő, aki hatékonyan szeretné kezelni a projektjein belüli feladatokat, az Aspose.Tasks for .NET robusztus megoldást kínál. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks használatával végzett feladatok kezelésének különböző aspektusain, lépésről lépésre és kódpéldákat kínál. Függetlenül attól, hogy feladatokat ad hozzá, felosztott részeket jelenít meg, feladatokat ugyanazon szülő alá helyez át, feladattulajdonságokat kér/beállít, feladat-hozzárendeléseket iterál, a feladatok alapvonalait olvassa be vagy töröljön, ez az útmutató mindenre kiterjed.
 ## Előfeltételek
@@ -144,3 +150,9 @@ V: Igen, az Aspose.Tasks támogatja a különböző .NET-keretrendszereket, bizt
 V: Abszolút! Az Aspose.Tasks kiterjedt testreszabási lehetőségeket biztosít a feladat tulajdonságaihoz. További részletekért tekintse meg a dokumentációt.
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks programhoz?
  V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

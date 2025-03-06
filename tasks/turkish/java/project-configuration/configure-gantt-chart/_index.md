@@ -3,10 +3,16 @@ title: Aspose.Tasks Projelerinde Gantt Grafiği Görünümünü Yapılandırma
 linktitle: Aspose.Tasks Projelerinde Gantt Grafiği Görünümünü Yapılandırma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ta Gantt MS Proje Tablosu Görünümünü Java kullanarak nasıl yapılandıracağınızı öğrenin. Projeyi özelleştirin ve adım adım Gantt grafiğinde görselleştirin.
-type: docs
 weight: 10
 url: /tr/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projelerinde Gantt Grafiği Görünümünü Yapılandırma
+
 ## giriiş
 Bu eğitimde, Java kullanarak Aspose.Tasks projelerinde Gantt MS Proje Tablosu Görünümünü nasıl yapılandıracağınızı öğreneceksiniz. Aspose.Tasks, Microsoft Project dosyalarıyla programlı olarak çalışmanıza olanak tanıyan güçlü bir Java API'sidir. Bu adımları izleyerek Gantt şeması görünümünü projenizin gereksinimlerine göre özelleştirebileceksiniz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Bu konuda destek bulabilir ve sorular sorabilirsiniz.[Aspose.Tasks forumu](ht
  C: Lisansı şuradan satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
 ### S: Test amaçlı olarak geçici bir lisansa ihtiyacım var mı?
  C: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

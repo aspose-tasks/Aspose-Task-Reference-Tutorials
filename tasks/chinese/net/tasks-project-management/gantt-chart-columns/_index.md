@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 自定义甘特图列
 linktitle: Aspose.Tasks 中的甘特图列
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中定制甘特图列以有效地显示特定任务信息。
-type: docs
 weight: 21
 url: /zh/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 自定义甘特图列
+
 ## 介绍
 甘特图是项目管理中的基本工具，提供任务、时间表和资源的可视化表示。 Aspose.Tasks for .NET 提供了操作甘特图的强大功能，包括自定义列以显示特定任务信息。在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 处理甘特图列。
 ## 先决条件
@@ -99,3 +105,9 @@ project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 答：Aspose.Tasks for .NET 提供了广泛的自定义选项，允许您无限制地向甘特图添加大量列。
 ### 问：在哪里可以找到 Aspose.Tasks for .NET 的其他支持和资源？
 答：您可以浏览 Aspose.Tasks for .NET 提供的文档、社区论坛和支持渠道，以获得全面的资源和帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

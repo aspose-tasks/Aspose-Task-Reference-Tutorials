@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 평준화 지연 속성 처리
 linktitle: Aspose.Tasks에서 자원 할당에 대한 평준화 지연 속성을 처리합니다.
 second_title: Aspose.Tasks 자바 API
 description: 이 포괄적인 튜토리얼을 통해 Java용 Aspose.Tasks에서 리소스 할당에 대한 평준화 지연 속성을 처리하는 방법을 알아보세요.
-type: docs
 weight: 17
 url: /ko/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 평준화 지연 속성 처리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java에서 리소스 할당에 대한 평준화 지연 속성을 처리하는 과정을 안내합니다. Aspose.Tasks는 시스템에 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -91,3 +97,9 @@ A: 예, Aspose.Tasks는 다양한 버전의 Microsoft Project 파일을 지원�
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A: 임시 라이센스를 요청할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

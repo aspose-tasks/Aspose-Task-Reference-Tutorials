@@ -3,10 +3,16 @@ title: Aspose.Tasks でグループ定義データを読み取る
 linktitle: Aspose.Tasks でグループ定義データを読み取る
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して Microsoft Project ファイルからグループ定義データを読み取る方法を学習します。ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 10
 url: /ja/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でグループ定義データを読み取る
+
 ## 導入
 Aspose.Tasks for Java は、開発者が Microsoft Project ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks for Java を使用して、プロジェクト ファイルからグループ定義データを読み取るプロセスを段階的に説明します。
 ## 前提条件
@@ -79,3 +85,9 @@ A: try-catch ブロックを使用してエラー処理メカニズムを実装�
 A: はい、Aspose.Tasks for Java を使用すると、プロジェクト データを PDF、XLSX、CSV などの形式にエクスポートできます。
 ### Q: Aspose.Tasks for Java の追加リソースとサポートはどこで見つけられますか?
  A: にアクセスできます。[Aspose.Tasks for Java ドキュメント](https://reference.aspose.com/tasks/java/)包括的なガイドについては、を参照してください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

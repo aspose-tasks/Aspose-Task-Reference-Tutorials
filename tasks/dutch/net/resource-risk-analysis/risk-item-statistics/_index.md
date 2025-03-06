@@ -3,10 +3,16 @@ title: Statistieken voor risico-items in Aspose.Tasks
 linktitle: Statistieken voor risico-items in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontgrendel de kracht van risicoanalyse in MS Project-bestanden met Aspose.Tasks voor .NET. Krijg inzichten, verminder onzekerheden en zorg moeiteloos voor projectsucces.
-type: docs
 weight: 21
 url: /nl/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Statistieken voor risico-items in Aspose.Tasks
+
 ## Invoering
 Wilt u uw projectmanagementvaardigheden verbeteren met Aspose.Tasks voor .NET? Duik in de wereld van risicoanalyse met onze stapsgewijze zelfstudie over het verkrijgen van statistieken voor risico-items in MS Project-bestanden. Door gebruik te maken van de krachtige mogelijkheden van Aspose.Tasks kunt u waardevolle inzichten verkrijgen in projectonzekerheden en weloverwogen beslissingen nemen om risico's effectief te beperken.
 ## Vereisten
@@ -90,3 +96,9 @@ We streven ernaar Aspose.Tasks voortdurend te verbeteren door regelmatig updates
 Zeker! Ons toegewijde ondersteuningsteam is direct beschikbaar op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om u te helpen met eventuele vragen of uitdagingen die u tijdens uw implementatietraject tegenkomt.
 ### Bieden jullie tijdelijke licenties aan voor kortlopende projecten?
  Ja, als u Aspose.Tasks nodig heeft voor een kortlopend project, kunt u gebruik maken van onze handige[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) optie om aan uw licentiebehoeften te voldoen zonder enige langetermijnverplichtingen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

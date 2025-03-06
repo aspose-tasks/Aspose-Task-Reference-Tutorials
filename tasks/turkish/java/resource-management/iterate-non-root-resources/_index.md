@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Root Dışı Kaynakları Yineleyin
 linktitle: Aspose.Tasks'ta Root Dışı Kaynakları Yineleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project dosyalarındaki root dışı kaynaklar üzerinde verimli bir şekilde yineleme yapmayı öğrenin. Geliştirme sürecinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Root Dışı Kaynakları Yineleyin
+
 ## giriiş
 Aspose.Tasks for Java, geliştiricilere Microsoft Project dosyalarını verimli bir şekilde işlemek için ihtiyaç duydukları araçları sağlayan güçlü bir kitaplıktır. Sezgisel arayüzü ve kapsamlı işlevselliğiyle Aspose.Tasks, proje verileriyle çalışma sürecini basitleştirerek geliştiricilerin sağlam uygulamalar oluşturmaya odaklanmasına olanak tanır.
 ## Önkoşullar
@@ -56,3 +62,9 @@ Evet, Aspose.Tasks, kurumsal düzeyde uygulamalar için Spring gibi Java çerçe
 Kesinlikle Aspose.Tasks, proje veri alanlarını ihtiyaçlarınıza göre özelleştirmek için kapsamlı API'ler sunuyor.
 ### Aspose.Tasks geliştiricilere destek ve dokümantasyon sağlıyor mu?
 Evet, Aspose.Tasks, geliştiricilere karşılaştıkları sorular veya sorunlar konusunda yardımcı olmak için kapsamlı belgeler ve özel bir destek forumu sunuyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

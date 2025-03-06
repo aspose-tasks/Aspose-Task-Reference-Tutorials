@@ -3,10 +3,16 @@ title: Definir el tipo de enlace en Aspose.Tasks
 linktitle: Definir el tipo de enlace en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore el poder de Aspose.Tasks para Java en la gestión de proyectos. Defina y personalice tipos de enlaces sin esfuerzo con nuestro tutorial paso a paso.
-type: docs
 weight: 13
 url: /es/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir el tipo de enlace en Aspose.Tasks
+
 ## Introducción
 ¡Bienvenido al mundo de la gestión eficiente de proyectos con Aspose.Tasks para Java! Si está buscando optimizar el manejo de su proyecto y aumentar la productividad, está en el lugar correcto. En este completo tutorial, lo guiaremos a través del proceso de definición de tipos de enlaces en Aspose.Tasks para Java, mejorando sus capacidades de gestión de proyectos.
 ## Requisitos previos
@@ -60,3 +66,9 @@ R: ¡Absolutamente! Aspose.Tasks proporciona flexibilidad, permitiéndole defini
  Una visita[este enlace](https://purchase.aspose.com/temporary-license/) adquirir una licencia temporal para fines de prueba.
 ### P: ¿Dónde puedo obtener asistencia para consultas relacionadas con Aspose.Tasks?
  R: Únase a la comunidad Aspose.Tasks en el[Foro de soporte](https://forum.aspose.com/c/tasks/15) para ayuda y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

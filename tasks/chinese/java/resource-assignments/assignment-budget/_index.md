@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的分配预算管理
 linktitle: Aspose.Tasks 中的分配预算管理
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks（一个用于 Microsoft Project 文件操作的强大库）在 Java 中有效管理作业预算。
-type: docs
 weight: 11
 url: /zh/java/resource-assignments/assignment-budget/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的分配预算管理
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的库，为开发人员提供了在 Java 应用程序中有效管理和操作 Microsoft Project 文件所需的工具。无论您是构建项目管理工具、自动化任务，还是仅仅需要以编程方式与项目文件交互，Aspose.Tasks 都可以通过其全面的功能和直观的 API 简化流程。
 在本教程中，我们将使用 Aspose.Tasks for Java 深入研究分配预算管理的世界。我们将涵盖从导入必要的包到将每个示例分解为分步指南的所有内容。最后，您将对如何处理 Java 项目中的分配预算有深入的了解。
@@ -76,3 +82,9 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 答：是的，您可以通过免费试用版探索 Aspose.Tasks for Java 的功能[这里](https://releases.aspose.com/).
 ### 问：在哪里可以购买 Aspose.Tasks for Java 的许可证？
 答：您可以从购买页面购买 Aspose.Tasks for Java 的许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

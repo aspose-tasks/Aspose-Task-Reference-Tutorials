@@ -3,10 +3,16 @@ title: CSS Argumentumok mentése az Aspose.Tasks-ban
 linktitle: CSS Argumentumok mentése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti a CSS-argumentumokat az Aspose.Tasks for .NET-ben a HTML-kimenet testreszabásához. Fokozza a prezentációt személyre szabott CSS-beállításokkal.
-type: docs
 weight: 20
 url: /hu/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CSS Argumentumok mentése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban a CSS-argumentumok Aspose.Tasks for .NET használatával mentésének folyamatát mutatjuk be. A Cascading Style Sheets (CSS) kulcsfontosságú a HTML-elemek megjelenítésének meghatározásához. Az Aspose.Tasks lehetővé teszi ezen CSS-attribútumok hatékony kezelését és mentését.
@@ -118,3 +124,9 @@ A4: Hivatkozhat a[dokumentáció](https://reference.aspose.com/tasks/net/) rész
 ### 5. kérdés: Az Aspose.Tasks for .NET támogatja a fejlesztőket?
 
  5. válasz: Igen, támogatást kaphat az Aspose.Tasks közösségtől a következőn keresztül[fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

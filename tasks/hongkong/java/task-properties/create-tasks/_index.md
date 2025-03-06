@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中建立任務
 linktitle: 在 Aspose.Tasks 中建立任務
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 輕鬆管理 Java 專案。建立任務、子任務等。請遵循我們的無縫專案管理逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中建立任務
+
 ## 介紹
 歡迎來到 Aspose.Tasks for Java 的世界！如果您希望有效地管理 Java 應用程式中的任務和項目，那麼您來對地方了。在這份綜合指南中，我們將引導您完成使用 Aspose.Tasks for Java 建立任務的過程，分解每個步驟以確保無縫體驗。
 ## 先決條件
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 是的，您可以廣泛自訂任務屬性以滿足您的專案需求。
 ### 是否有針對 Aspose.Tasks 使用者的支援社群？
 絕對地！加入 Aspose.Tasks 社區[支援論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

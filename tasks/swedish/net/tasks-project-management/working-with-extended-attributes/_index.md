@@ -3,10 +3,16 @@ title: Manipulera MS Project Extended Attribut med Aspose.Tasks
 linktitle: Arbeta med utökade attribut i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du arbetar med utökade MS Project-attribut med Aspose.Tasks för .NET. Manipulera uppgiftsdata programmatiskt med lätthet.
-type: docs
 weight: 11
 url: /sv/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulera MS Project Extended Attribut med Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som tillåter utvecklare att manipulera Microsoft Project-filer programmatiskt. En av nyckelfunktionerna i detta bibliotek är dess förmåga att arbeta med MS Project utökade attribut. Utökade attribut ger ytterligare anpassning och metadata till uppgifter i ett projekt, vilket gör det möjligt för användare att lagra och hantera specifik information utöver standarduppgiftsegenskaperna.
 I den här handledningen kommer vi att utforska hur man arbetar med utökade MS Project-attribut med Aspose.Tasks för .NET. Vi kommer att täcka förutsättningarna, importera namnrymder och dela upp varje exempel i flera steg i ett steg-för-steg-guideformat. I slutet av denna handledning har du en gedigen förståelse för hur du kan utnyttja utökade attribut i dina .NET-applikationer.
@@ -72,3 +78,9 @@ Ja, du måste köpa en licens för kommersiell användning av Aspose.Tasks för 
 Ja, Aspose.Tasks för .NET erbjuder omfattande möjligheter att anpassa utökade attribut för att passa ditt projekts specifika behov.
 ### Var kan jag få support om jag stöter på några problem när jag använder Aspose.Tasks för .NET?
  Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

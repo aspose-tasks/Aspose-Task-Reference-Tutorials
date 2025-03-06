@@ -3,10 +3,16 @@ title: Quản lý ngoại lệ trực tuyến của MS Project trong Aspose.Task
 linktitle: Làm việc với các ngoại lệ của Project Online trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các trường hợp ngoại lệ của Microsoft Project Online một cách liền mạch với Aspose.Tasks dành cho .NET. Hướng dẫn từng bước để quản lý dự án hiệu quả.
-type: docs
 weight: 21
 url: /vi/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ngoại lệ trực tuyến của MS Project trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc xử lý các ngoại lệ của Microsoft Project Online bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API .NET mạnh mẽ cho phép các nhà phát triển thao tác và quản lý các tệp Microsoft Project một cách dễ dàng. Chúng tôi sẽ hướng dẫn từng bước quy trình này, đảm bảo hiểu biết toàn diện về cách làm việc với các ngoại lệ của MS Project Online trong các ứng dụng .NET của bạn.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Trả lời: Có, Aspose.Tasks cung cấp hỗ trợ rộng rãi để làm vi�
 Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Làm cách nào để mua giấy phép cho Aspose.Tasks?
  Trả lời: Bạn có thể mua giấy phép cho Aspose.Tasks từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

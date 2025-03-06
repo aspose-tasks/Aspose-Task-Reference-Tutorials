@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Maliyetlerini Yönetin
 linktitle: Aspose.Tasks'ta Görev Maliyetlerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java uygulamalarında görev maliyetlerini nasıl yöneteceğinizi öğrenin. Etkin proje maliyet yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 21
 url: /tr/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Maliyetlerini Yönetin
+
 ## giriiş
 Java uygulamalarınızda görev maliyetlerini sorunsuz bir şekilde yönetmenize olanak tanıyan güçlü bir kütüphane olan Aspose.Tasks for Java dünyasına hoş geldiniz. Bu adım adım kılavuzda, görev maliyetlerini yönetmek ve verimli proje yönetimi sağlamak için Aspose.Tasks'ı nasıl etkili bir şekilde kullanabileceğimizi keşfedeceğiz.
 ## Önkoşullar
@@ -66,3 +72,9 @@ Sonuç olarak, görev maliyet yönetimine hakim olmak, projenin başarılı bir 
  C: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java için nereden destek alabilirim?
  C: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

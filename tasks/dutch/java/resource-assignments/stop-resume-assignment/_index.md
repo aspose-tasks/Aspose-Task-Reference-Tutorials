@@ -3,10 +3,16 @@ title: Stop en hervat resourcetoewijzingen in Aspose.Tasks
 linktitle: Stop en hervat resourcetoewijzingen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u resourcetoewijzingen effectief kunt beheren in Aspose.Tasks voor Java met deze stapsgewijze zelfstudie.
-type: docs
 weight: 23
 url: /nl/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stop en hervat resourcetoewijzingen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie leren we hoe u resourcetoewijzingen kunt stoppen en hervatten met Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java API waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project op hun systemen hoeft te zijn geïnstalleerd. We zullen het proces opsplitsen in beheersbare stappen, zodat het gemakkelijk te volgen is.
 ## Vereisten
@@ -71,3 +77,9 @@ Ja, met Aspose.Tasks kunt u met Microsoft Project-bestanden werken zonder dat Mi
  kunt steun krijgen van de gemeenschap[hier](https://forum.aspose.com/c/tasks/15).
 ### Kan ik een tijdelijke licentie kopen?
  Ja, u kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

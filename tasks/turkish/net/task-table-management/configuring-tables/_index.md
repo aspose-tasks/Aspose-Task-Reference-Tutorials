@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Ana Tablo Yapılandırması
 linktitle: Aspose.Tasks'ta Tabloları Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Bu adım adım kılavuzla Aspose.Tasks for .NET'te tabloları yapılandırmayı öğrenin. Proje yönetimi deneyiminizi zahmetsizce geliştirin.
-type: docs
 weight: 10
 url: /tr/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Ana Tablo Yapılandırması
+
 ## giriiş
 Aspose.Tasks for .NET'te tabloların yapılandırılmasına ilişkin bu kapsamlı kılavuza hoş geldiniz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Tasks'ı kullanarak tabloları yapılandırma sürecinde size yol göstereceğiz ve net bir anlayış için her adımı parçalara ayıracağız.
 ## Önkoşullar
@@ -68,3 +74,9 @@ Tebrikler! Aspose.Tasks for .NET'te tabloları başarıyla yapılandırdınız. 
  C: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks'ı nereden satın alabilirim?
  C: Lisansın tamamını satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

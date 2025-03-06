@@ -3,10 +3,16 @@ title: Konfigurieren der MS Project-Anzeigeoptionen in Aspose.Tasks
 linktitle: Konfigurieren der Projektanzeigeoptionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Anzeigeoptionen programmgesteuert mit Aspose.Tasks für .NET konfigurieren. Passen Sie das Erscheinungsbild Ihres Projekts mühelos an.
-type: docs
 weight: 17
 url: /de/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurieren der MS Project-Anzeigeoptionen in Aspose.Tasks
+
 ## Einführung
 Microsoft Project bietet zahlreiche Anzeigeoptionen, mit denen Sie das Erscheinungsbild Ihres Projekts anpassen können. Aspose.Tasks für .NET bietet ein robustes Framework zur programmgesteuerten Bearbeitung dieser Optionen. In diesem Tutorial erfahren Sie, wie Sie die Anzeigeoptionen von MS Project mithilfe von Aspose.Tasks konfigurieren.
 ## Voraussetzungen
@@ -85,3 +91,9 @@ A: Nein, einige Optionen sind möglicherweise spezifisch für bestimmte Versione
 A: Ja, Sie können die Anzeigeoptionen mithilfe der Aspose.Tasks-API auf ihre Standardwerte zurücksetzen.
 ### F: Gibt es Einschränkungen beim programmgesteuerten Anpassen der Anzeigeoptionen?
 A: Obwohl Aspose.Tasks umfangreiche Anpassungsmöglichkeiten bietet, sind bestimmte Anzeigeoptionen aufgrund von Einschränkungen im MS Project-Dateiformat möglicherweise nicht programmgesteuert verfügbar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Olvasson munkaheteket az MS Project Calendarból az Aspose.Tasks segíts�
 linktitle: Olvasson munkaheteket a naptárból az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Tanulja meg, hogyan olvassa el a munkaheteket az MS Project naptárából az Aspose.Tasks for Java segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre olvashat.
-type: docs
 weight: 15
 url: /hu/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvasson munkaheteket az MS Project Calendarból az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for Java a munkahetekre vonatkozó információk olvasásához a Microsoft Project naptárából. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a Microsoft Project dokumentumok programozott kezelését és kezelését.
 ## Előfeltételek
@@ -65,3 +71,9 @@ Természetesen az Aspose.Tasks zökkenőmentesen integrálható más Java keretr
  Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Tasks számára?
 Támogatást és segítséget az Aspose.Tasks fórumon találhat[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

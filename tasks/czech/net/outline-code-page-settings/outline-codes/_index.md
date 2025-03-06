@@ -3,10 +3,16 @@ title: Správa kódů osnovy projektu v Aspose.Tasks pro .NET
 linktitle: Správa kódů osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se spravovat osnovy MS Project kódy pomocí Aspose.Tasks pro .NET. Zjednodušte organizaci projektu bez námahy.
-type: docs
 weight: 10
 url: /cs/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kódů osnovy projektu v Aspose.Tasks pro .NET
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak spravovat obrysové kódy Microsoft Project pomocí Aspose.Tasks for .NET. Kódy osnovy jsou vlastní pole v aplikaci Microsoft Project, která uživatelům umožňují kategorizovat a organizovat úkoly podle konkrétních kritérií. Aspose.Tasks zjednodušuje proces čtení a manipulaci s těmito kódy osnovy programově.
 ## Předpoklady
@@ -71,3 +77,9 @@ Odpověď: Ano, pro komerční použití Aspose.Tasks je vyžadována platná li
 Odpověď: Ano, z webu si můžete stáhnout bezplatnou zkušební verzi Aspose.Tasks, abyste mohli vyhodnotit její funkce a schopnosti.
 ### Otázka: Kde mohu získat podporu pro Aspose.Tasks?
  Odpověď: Podporu pro Aspose.Tasks můžete získat návštěvou fóra na adrese[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletní zdrojový kód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

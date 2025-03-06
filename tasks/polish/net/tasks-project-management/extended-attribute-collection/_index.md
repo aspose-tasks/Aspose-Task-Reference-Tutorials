@@ -3,10 +3,16 @@ title: Zarządzaj kolekcją atrybutów MS Project w Aspose.Tasks
 linktitle: Zarządzanie rozszerzoną kolekcją atrybutów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać rozszerzonymi atrybutami MS Project przy użyciu Aspose.Tasks dla .NET. Bezproblemowo manipuluj atrybutami zadań, korzystając ze wskazówek krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj kolekcją atrybutów MS Project w Aspose.Tasks
+
 ## Wstęp
 Czy chcesz efektywnie zarządzać rozszerzonymi atrybutami MS Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces. Zanurzmy się!
 ## Warunki wstępne
@@ -105,3 +111,9 @@ Odp.: Absolutnie! Aspose.Tasks dla .NET umożliwia definiowanie niestandardowych
 O: Tak, Aspose.Tasks dla .NET obsługuje formaty plików MS Project w różnych wersjach.
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
  Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

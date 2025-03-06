@@ -3,10 +3,16 @@ title: Quản lý đường cơ sở của bài tập trong Aspose.Tasks
 linktitle: Quản lý đường cơ sở của bài tập trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý đường cơ sở của nhiệm vụ một cách hiệu quả với Aspose.Tasks cho .NET, đảm bảo theo dõi chính xác tiến độ và hiệu suất của dự án.
-type: docs
 weight: 14
 url: /vi/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý đường cơ sở của bài tập trong Aspose.Tasks
+
 ## Giới thiệu
 
 Khi thực hiện các nhiệm vụ quản lý dự án, việc quản lý các đường cơ sở của nhiệm vụ là rất quan trọng để theo dõi tiến độ một cách chính xác. Aspose.Tasks for .NET cung cấp một bộ công cụ toàn diện để xử lý các đường cơ sở của bài tập một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình quản lý đường cơ sở của nhiệm vụ theo từng bước.
@@ -123,3 +129,9 @@ Câu trả lời 4: Có, nhà phát triển có thể truy cập tài liệu, h�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
  Câu trả lời 5: Có, nhà phát triển có thể tải phiên bản dùng thử miễn phí của Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/), cho phép họ đánh giá các tính năng và khả năng của nó trước khi đưa ra quyết định mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

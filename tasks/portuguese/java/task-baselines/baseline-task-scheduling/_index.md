@@ -3,10 +3,16 @@ title: Agendamento de tarefas de linha de base em Aspose.Tasks
 linktitle: Agendamento de tarefas de linha de base em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como agendar linhas de base de tarefas de forma eficaz com Aspose.Tasks for Java. Simplifique seus processos de gerenciamento de projetos sem esforço.
-type: docs
 weight: 10
 url: /pt/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agendamento de tarefas de linha de base em Aspose.Tasks
+
 ## Introdução
 O gerenciamento de linhas de base de tarefas é um aspecto crucial do gerenciamento de projetos, permitindo comparar com precisão o progresso planejado e o real. Neste tutorial, exploraremos como realizar o agendamento de tarefas básicas usando Aspose.Tasks para Java. Seguindo essas etapas, você estará preparado para agilizar seus processos de gerenciamento de projetos com eficiência.
 ## Pré-requisitos
@@ -63,3 +69,9 @@ Certamente, Aspose.Tasks for Java oferece amplas funcionalidades para personaliz
  Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for Java no[página de lançamento](https://releases.aspose.com/).
 ### Onde posso encontrar suporte para Aspose.Tasks for Java?
  Para qualquer dúvida ou assistência, você pode visitar o fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

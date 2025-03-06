@@ -3,10 +3,16 @@ title: كتابة وقراءة صيغ مشروع MS في Aspose.Tasks
 linktitle: كتابة وقراءة الصيغ في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعلم كيفية كتابة وقراءة صيغ MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. تعزيز مهارات إدارة المشروع الخاص بك.
-type: docs
 weight: 12
 url: /ar/java/formulas/write-read-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كتابة وقراءة صيغ مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التعامل الفعال مع البيانات أمرًا بالغ الأهمية. يعد Aspose.Tasks for Java حلاً قويًا يسهل معالجة البيانات واستخراجها من ملفات Microsoft Project. إحدى الميزات القوية التي يقدمها هي القدرة على كتابة وقراءة صيغ MS Project. سيرشدك هذا البرنامج التعليمي خلال عملية الاستفادة من هذه الوظيفة لتحسين مهام إدارة مشروعك.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ project.save(dataDir + "saved.mpp", SaveFileFormat.Mpp);
 نعم، يدعم Aspose.Tasks النشر عبر منصات متعددة، مما يعزز تعدد استخداماته.
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks؟
  للحصول على المساعدة الفنية ودعم المجتمع، قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

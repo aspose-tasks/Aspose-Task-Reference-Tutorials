@@ -3,10 +3,16 @@ title: MS Project Server'ı Aspose.Tasks ile Yönetmek
 linktitle: Aspose.Tasks ile Project Server'ı Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile kusursuz MS Project Server yönetiminin kilidini açın. Proje görevlerini zahmetsizce otomatikleştirin.
-type: docs
 weight: 23
 url: /tr/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Server'ı Aspose.Tasks ile Yönetmek
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project Server'ı yönetmeyi derinlemesine inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerinin kusursuz entegrasyonuna ve manipülasyonuna olanak tanıyan güçlü bir kütüphanedir.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Aspose.Tasks kesinlikle proje planlama, kaynak tahsisi ve görev yönetimi i�
 C: Evet, Aspose.Tasks, proje verilerine dayalı özel raporların oluşturulmasını otomatikleştirmenize olanak tanıyarak verimli proje izleme ve analizini kolaylaştırır.
 ### S: Aspose.Tasks'ı satın almadan önce deneyebilir miyim?
  C: Evet, Aspose.Tasks'ın yeteneklerini ücretsiz deneme sürümüne erişerek keşfedebilirsiniz.[İnternet sitesi](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

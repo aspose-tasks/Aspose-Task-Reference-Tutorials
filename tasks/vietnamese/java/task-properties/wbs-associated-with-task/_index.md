@@ -3,10 +3,16 @@ title: WBS được liên kết với nhiệm vụ trong Aspose.Tasks
 linktitle: WBS được liên kết với nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Làm chủ WBS với Aspose.Tasks cho Java - Tìm hiểu cách đọc và đánh số lại mã WBS của tác vụ. Tăng hiệu quả quản lý dự án!
-type: docs
 weight: 36
 url: /vi/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS được liên kết với nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới quản lý dự án với Aspose.Tasks cho Java! Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của Cấu trúc phân chia công việc (WBS) liên quan đến các tác vụ sử dụng Aspose.Tasks cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn tìm hiểu các yếu tố cần thiết để quản lý mã WBS một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Chúc mừng! Bạn đã học thành công cách làm việc với mã WBS bằ
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ.
 ### Câu hỏi: Tôi có thể xin giấy phép tạm thời cho Aspose.Tasks cho Java không?
  A: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

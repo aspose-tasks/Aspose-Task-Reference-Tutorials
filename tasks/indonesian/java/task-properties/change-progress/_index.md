@@ -3,10 +3,16 @@ title: Ubah Kemajuan Tugas di Aspose.Tasks
 linktitle: Ubah Kemajuan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Tingkatkan manajemen proyek Java dengan Aspose.Tasks. Pelajari cara mengubah kemajuan tugas dengan lancar dalam tutorial langkah demi langkah ini. Unduh sekarang!
-type: docs
 weight: 12
 url: /id/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Kemajuan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek yang dinamis, pelacakan kemajuan tugas yang efektif sangatlah penting. Aspose.Tasks untuk Java menonjol sebagai solusi tangguh, menyederhanakan proses dengan fitur-fitur canggihnya. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk mengubah kemajuan tugas menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -63,3 +69,9 @@ Replikasi langkah-langkah untuk setiap tugas yang ingin Anda pantau.
  Jelajahi dokumentasi komprehensif[Di Sini](https://reference.aspose.com/tasks/java/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
  Mengunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

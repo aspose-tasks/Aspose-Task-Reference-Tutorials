@@ -3,10 +3,16 @@ title: Xử lý nhóm làm việc dễ dàng với Aspose.Tasks cho .NET
 linktitle: Xử lý các loại nhóm làm việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks dành cho .NET để dễ dàng xử lý các loại nhóm làm việc trong dự án của bạn. Tối ưu hóa phân bổ nguồn lực và tăng cường quản lý dự án.
-type: docs
 weight: 12
 url: /vi/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý nhóm làm việc dễ dàng với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý các loại nhóm làm việc trong các tình huống quản lý dự án. Quản lý nhóm làm việc hiệu quả là rất quan trọng để tối ưu hóa việc phân bổ nguồn lực và đảm bảo thực hiện dự án suôn sẻ. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình xử lý các loại nhóm làm việc bằng Aspose.Tasks, đưa ra hướng dẫn từng bước.
 ## Điều kiện tiên quyết
@@ -46,3 +52,9 @@ Có, bạn có thể đặt các loại nhóm làm việc khác nhau cho một t
  Có, bạn có thể truy cập bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 기준 컬렉션 작업
 linktitle: Aspose.Tasks에서 기준 컬렉션 작업
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 기준선을 효율적으로 관리하는 방법을 알아보세요. 단계별 안내를 보려면 포괄적인 튜토리얼을 따르세요.
-type: docs
 weight: 20
 url: /ko/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 기준 컬렉션 작업
+
 ## 소개
 
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 많은 기능 중에서 프로젝트 내의 기준선 관리를 위한 강력한 지원을 제공합니다. 기준선을 사용하면 원래 프로젝트 계획을 현재 상태와 비교할 수 있어 프로젝트 진행 상황을 더 잘 추적하고 분석할 수 있으므로 프로젝트 관리에 필수적입니다.
@@ -116,3 +122,9 @@ A4: 예, Aspose.Tasks는 널리 사용되는 클라우드 플랫폼과의 통합
 ### Q5: Aspose.Tasks 사용자가 도움을 구하고 지식을 공유할 수 있는 커뮤니티 포럼이 있습니까?
 
  A5: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티에 참여하고 전문가의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

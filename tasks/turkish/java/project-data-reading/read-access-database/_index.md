@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Access Veritabanından Proje Verilerini Okumak
 linktitle: Aspose.Tasks ile Microsoft Access Veritabanından Proje Verilerini Okumak
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Access veritabanından MS Project verilerini nasıl okuyacağınızı öğrenin. Sorunsuz entegrasyon için adım adım eğitimimizi izleyin.
-type: docs
 weight: 11
 url: /tr/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Access Veritabanından Proje Verilerini Okumak
+
 ## giriiş
 Aspose.Tasks for Java, geliştiricilerin Java uygulamalarında Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir API'dir. Bu eğitimde Aspose.Tasks'ı kullanarak Microsoft Access veritabanından MS Project verilerini okumaya odaklanacağız.
 ## Önkoşullar
@@ -60,3 +66,9 @@ C: Evet, Aspose.Tasks, SQL Server, MySQL ve Oracle gibi çeşitli veritabanı si
  C: Bazı gelişmiş özellikler için geçici bir lisansa ihtiyacınız olabilir. Şuradan al:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java'yı nereden satın alabilirim?
  C: Aspose.Tasks for Java'yı şu adresten satın alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

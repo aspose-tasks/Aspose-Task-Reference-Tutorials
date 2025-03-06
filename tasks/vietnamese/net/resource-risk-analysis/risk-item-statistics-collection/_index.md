@@ -3,10 +3,16 @@ title: Thu thập số liệu thống kê về mục rủi ro của dự án MS 
 linktitle: Thu thập số liệu thống kê về mục rủi ro trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thu thập số liệu thống kê về mục rủi ro từ các tệp MS Project bằng Aspose.Tasks cho .NET. Nâng cao khả năng quản lý dự án của bạn.
-type: docs
 weight: 22
 url: /vi/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thu thập số liệu thống kê về mục rủi ro của dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thu thập số liệu thống kê về mục rủi ro từ các tệp MS Project bằng Aspose.Tasks cho .NET. Thư viện này cung cấp các chức năng mạnh mẽ để phân tích dữ liệu dự án, bao gồm đánh giá rủi ro và phân tích thống kê.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks được thiết kế để đ�
 Trả lời: Có, Aspose.Tasks mang đến sự linh hoạt trong việc định cấu hình cài đặt phân tích rủi ro để phù hợp với các yêu cầu và kịch bản dự án cụ thể của bạn.
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
  Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua Aspose[diễn đàn](https://forum.aspose.com/c/tasks/15), nơi họ có thể đặt câu hỏi, báo cáo vấn đề và tương tác với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

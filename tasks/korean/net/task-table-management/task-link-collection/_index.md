@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 링크 처리
 linktitle: Aspose.Tasks에서 작업 링크 처리
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 작업 링크를 효율적으로 관리하는 데 있어 Aspose.Tasks for .NET의 강력한 기능을 살펴보세요. 프로젝트 관리 경험을 향상하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 19
 url: /ko/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 링크 처리
+
 ## 소개
 .NET용 Aspose.Tasks에서 작업 링크 처리에 대한 단계별 가이드에 오신 것을 환영합니다! 작업 링크는 프로젝트 관리에서 중요한 역할을 하며, 이를 통해 작업 간의 관계를 설정하고 종속성을 생성할 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 작업 링크 컬렉션으로 작업하는 과정을 안내합니다.
 ## 전제조건
@@ -85,3 +91,9 @@ Aspose.Tasks가 제공하는 더 많은 특징과 기능을 자유롭게 탐색�
 Aspose.Tasks는 성능에 미치는 영향을 최소화하면서 대규모 프로젝트 파일을 효율적으로 처리할 수 있습니다.
 ### Aspose.Tasks 지원을 위한 커뮤니티 포럼이 있나요?
  예, 다음에서 지원을 찾고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

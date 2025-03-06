@@ -3,10 +3,16 @@ title: Мастер определений расширенных атрибут
 linktitle: Коллекция определений расширенных атрибутов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять определениями расширенных атрибутов в Microsoft Project с помощью Aspose.Tasks для .NET. Настраивайте и улучшайте данные вашего проекта без особых усилий.
-type: docs
 weight: 14
 url: /ru/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Мастер определений расширенных атрибутов MS Project в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как работать с расширенными определениями атрибутов в Microsoft Project с использованием Aspose.Tasks для .NET. Расширенные атрибуты предлагают гибкий способ настройки и улучшения данных проекта, позволяя пользователям добавлять дополнительные поля помимо стандартных, предусмотренных по умолчанию. С помощью Aspose.Tasks вы можете легко управлять этими расширенными атрибутами, чтобы адаптировать свои потребности в управлении проектами.
 ## Предварительные условия
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 О: Aspose.Tasks совместим с различными платформами .NET, обеспечивая гибкость и простоту интеграции.
 ### Вопрос: Где я могу найти дополнительные ресурсы и поддержку для Aspose.Tasks?
  О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки и изучения документации[здесь](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

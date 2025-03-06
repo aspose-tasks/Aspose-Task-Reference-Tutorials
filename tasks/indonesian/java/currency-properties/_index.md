@@ -3,10 +3,16 @@ title: Properti Mata Uang
 linktitle: Properti Mata Uang
 second_title: Aspose.Tugas Java API
 description: Buka kekuatan Aspose.Tasks untuk Tutorial Java. Temukan panduan langkah demi langkah dalam membaca dan mengatur properti mata uang di file MS Project dengan mudah.
-type: docs
 weight: 25
 url: /id/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Mata Uang
+
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan keterampilan Aspose.Tasks Anda untuk Java? Selami tutorial komprehensif kami tentang properti mata uang, dan kuasai seni menangani informasi mata uang dalam file MS Project.
 
@@ -35,3 +41,9 @@ Siap untuk memulai perjalanan pendidikan ini? Klik tautan di bawah untuk memulai
 Pelajari cara mengekstrak informasi mata uang dari file MS Project menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah disediakan.
 ### [Tetapkan Properti Mata Uang di Proyek Aspose.Tasks](./set-properties/)
 Pelajari cara mengatur properti mata uang di proyek Aspose.Tasks menggunakan Java. Memanipulasi file Microsoft Project dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 개요 값 관리
 linktitle: Aspose.Tasks의 개요 값 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 개요 값을 관리하는 방법을 알아보세요. 코드 예제가 포함된 단계별 튜토리얼입니다.
-type: docs
 weight: 17
 url: /ko/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 개요 값 관리
+
 ## 소개
 Aspose.Tasks for .NET은 Microsoft Project 파일과 상호 작용할 수 있는 포괄적인 기능 세트를 제공합니다. 그러한 기능 중 하나는 프로젝트 내에서 개요 값을 관리하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 개요 값을 수집하고 조작하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -108,3 +114,9 @@ A: try-catch 블록과 같은 오류 처리 메커니즘을 구현하여 예외�
 A: 예, Aspose.Tasks는 요구 사항에 따라 개요 값의 모양과 동작을 사용자 정의할 수 있는 광범위한 API를 제공합니다.
 ### Q: Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역사회 지원을 위해[선적 서류 비치](https://reference.aspose.com/tasks/net/) API 및 기능에 대한 자세한 내용은
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

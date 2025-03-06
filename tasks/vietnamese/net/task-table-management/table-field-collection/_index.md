@@ -3,10 +3,16 @@ title: Làm chủ các bộ sưu tập trường bảng trong Aspose.Tasks cho .
 linktitle: Bộ sưu tập các trường bảng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá thế giới năng động của quản lý dự án với Aspose.Tasks for .NET. Tìm hiểu cách thao tác các bộ sưu tập trường bảng để có trải nghiệm dự án tùy chỉnh.
-type: docs
 weight: 13
 url: /vi/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các bộ sưu tập trường bảng trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ hỗ trợ quản lý dự án bằng cách cung cấp chức năng mở rộng để làm việc với các tệp Microsoft Project. Trong hướng dẫn này, chúng ta sẽ đi sâu vào bộ sưu tập các trường bảng trong Aspose.Tasks, khám phá cách thao tác và quản lý chúng một cách hiệu quả bằng C#.
 ## Điều kiện tiên quyết
@@ -111,3 +117,9 @@ Tuyệt đối! Như được hiển thị trong hướng dẫn, bạn có thể
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để được hỗ trợ, đặt câu hỏi và cộng tác với cộng đồng.
 ### Có bản dùng thử miễn phí dành cho Aspose.Tasks cho .NET không?
  Có, bạn có thể khám phá các tính năng của Aspose.Tasks for .NET bằng bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

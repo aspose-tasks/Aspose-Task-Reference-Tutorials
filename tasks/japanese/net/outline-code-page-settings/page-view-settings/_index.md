@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS Project ページ ビュー設定のカスタマ�
 linktitle: Aspose.Tasks でのページ ビュー設定の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でページ ビュー設定を構成し、Microsoft Project ドキュメントの印刷形式を調整する方法を学びます。
-type: docs
 weight: 21
 url: /ja/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS Project ページ ビュー設定のカスタマイズ
+
 ## 導入
 Microsoft Project はプロジェクト管理のための強力なツールですが、プロジェクトの表示方法と印刷方法をカスタマイズする必要がある場合があります。 Aspose.Tasks for .NET を使用すると、特定の要件を満たすようにページ ビュー設定を簡単に構成できます。このチュートリアルでは、プロセスを段階的に説明します。
 ## 前提条件
@@ -76,3 +82,9 @@ A: はい、作業するプロジェクト ファイルごとにページ ビュ
 A: Aspose.Tasks は、Microsoft Project 2003 以降のバージョンとの互換性を提供します。
 ### Q: Aspose.Tasks に関するさらなるサポートやサポートはどこで入手できますか?
  A: にアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)ご利用中に発生したご質問や問題については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تنسيق العرض التقديمي لمشروع MS في Aspose.Tasks
 linktitle: تنسيق عرض المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تنسيق العروض التقديمية لـ MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز التصور والتواصل لتفاصيل المشروع دون عناء.
-type: docs
 weight: 10
 url: /ar/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيق العرض التقديمي لمشروع MS في Aspose.Tasks
+
 ## مقدمة
 
 هل تتطلع إلى تحسين العرض التقديمي لمشاريع MS Project الخاصة بك باستخدام Aspose.Tasks لـ .NET؟ في هذا البرنامج التعليمي، سنرشدك خلال عملية تنسيق العروض التقديمية لمشروع MS Project خطوة بخطوة. وفي النهاية، ستتمكن من إنشاء عروض تقديمية مصقولة تنقل تفاصيل مشروعك بشكل فعال.
@@ -90,3 +96,9 @@ project.Save(DataDir + "ResourceSheetView_out.pdf", options);
 
 ### س5: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
  ج: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض الاختبار أو التقييم، فيمكنك الحصول عليه من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) على موقع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

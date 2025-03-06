@@ -3,10 +3,16 @@ title: قراءة الملفات المحمية بكلمة مرور في Aspose.
 linktitle: قراءة الملفات المحمية بكلمة مرور في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية قراءة الملفات المحمية بكلمة مرور في Aspose.Tasks لـ Java بسهولة من خلال إرشادات خطوة بخطوة في هذا البرنامج التعليمي.
-type: docs
 weight: 14
 url: /ar/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة الملفات المحمية بكلمة مرور في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java هي مكتبة قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. إحدى المهام الشائعة التي يواجهها مطورو البرامج هي قراءة الملفات المحمية بكلمة مرور. في هذا البرنامج التعليمي، سنرشدك خلال عملية قراءة هذه الملفات خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -49,3 +55,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### س: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks لـ Java؟
  ج: قد تحتاج إلى ترخيص مؤقت لبعض الوظائف أو أثناء فترة التقييم. احصل عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

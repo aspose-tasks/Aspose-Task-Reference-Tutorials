@@ -3,10 +3,16 @@ title: สร้างไฟล์โครงการ MS เปล่าใน
 linktitle: สร้างไฟล์โครงการเปล่าใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีสร้างไฟล์ Microsoft Project เปล่าใน Java โดยใช้ Aspose.Tasks ขั้นตอนง่ายๆ สำหรับการบูรณาการอย่างราบรื่น
-type: docs
 weight: 11
 url: /th/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างไฟล์โครงการ MS เปล่าใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการและการกำหนดเวลางาน การจัดการไฟล์ Microsoft Project มักเป็นสิ่งจำเป็น Aspose.Tasks for Java นำเสนอโซลูชันที่มีประสิทธิภาพในการสร้าง จัดการ และจัดการไฟล์เหล่านี้ภายในแอปพลิเคชัน Java ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการสร้างไฟล์ Microsoft Project เปล่าโดยใช้ Aspose.Tasks สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -53,3 +59,9 @@ System.out.println("Project file generated Successfully");
  คุณสามารถขอการสนับสนุนจากฟอรั่มชุมชน[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
  สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός κριτηρίων ομάδας έργου MS στο A
 linktitle: Κριτήρια ομάδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε πώς να χειρίζεστε αρχεία MS Project μέσω προγραμματισμού στο .NET χρησιμοποιώντας το Aspose.Tasks. Ανάκτηση πληροφοριών ομάδας εργασιών και κριτηρίων βήμα προς βήμα.
-type: docs
 weight: 27
 url: /el/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κριτηρίων ομάδας έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για .NET είναι ένα ισχυρό API που διευκολύνει την εργασία με αρχεία Microsoft Project στις εφαρμογές σας .NET. Είτε αναπτύσσετε λογισμικό διαχείρισης έργου είτε χρειάζεται να χειριστείτε τα δεδομένα του έργου μέσω προγραμματισμού, το Aspose.Tasks προσφέρει ένα ολοκληρωμένο σύνολο λειτουργιών για να καλύψει τις ανάγκες σας.
 ## Προαπαιτούμενα
@@ -78,3 +84,9 @@ Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
 Ναι, το Aspose.Tasks υποστηρίζει πολλές πλατφόρμες .NET, συμπεριλαμβανομένων των .NET Framework, .NET Core και .NET Standard.
 ### Υπάρχει κάποιο φόρουμ κοινότητας για το Aspose.Tasks όπου μπορώ να ζητήσω βοήθεια;
  Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για να κάνετε ερωτήσεις, να μοιραστείτε γνώσεις και να συνεργαστείτε με άλλους χρήστες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

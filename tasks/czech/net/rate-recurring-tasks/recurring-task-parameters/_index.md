@@ -3,10 +3,16 @@ title: Nastavení parametrů opakujících se úloh v Aspose.Tasks
 linktitle: Nastavení parametrů opakujících se úloh v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak nastavit parametry opakujících se úloh v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. Komplexní tutoriál s průvodcem krok za krokem.
-type: docs
 weight: 14
 url: /cs/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení parametrů opakujících se úloh v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu vás provedeme procesem nastavení parametrů opakujících se úloh Microsoft Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -79,3 +85,9 @@ Ano, Aspose.Tasks podporuje různé formáty projektových souborů včetně MPP
 Ano, můžete navštívit fórum Aspose.Tasks pro pomoc od komunity nebo kontaktovat podporu pro přímou pomoc.
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks?
  Dočasnou licenci můžete získat od[webová stránka](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

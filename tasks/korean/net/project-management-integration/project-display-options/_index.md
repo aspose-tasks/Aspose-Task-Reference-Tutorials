@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 표시 옵션 구성
 linktitle: Aspose.Tasks에서 프로젝트 표시 옵션 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 MS 프로젝트 표시 옵션을 구성하는 방법을 알아보세요. 프로젝트의 모양을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 17
 url: /ko/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 표시 옵션 구성
+
 ## 소개
 Microsoft Project는 프로젝트의 모양을 사용자 정의할 수 있는 다양한 디스플레이 옵션을 제공합니다. Aspose.Tasks for .NET은 이러한 옵션을 프로그래밍 방식으로 조작할 수 있는 강력한 프레임워크를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 표시 옵션을 구성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -85,3 +91,9 @@ A: 아니요. 일부 옵션은 특정 버전의 MS Project에만 국한될 수 �
 A: 예, Aspose.Tasks API를 사용하여 표시 옵션을 기본값으로 재설정할 수 있습니다.
 ### Q: 프로그래밍 방식으로 디스플레이 옵션을 사용자 정의하는 데 제한이 있습니까?
 A: Aspose.Tasks는 광범위한 사용자 정의 기능을 제공하지만 MS 프로젝트 파일 형식의 제한으로 인해 특정 표시 옵션에 프로그래밍 방식으로 액세스하지 못할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

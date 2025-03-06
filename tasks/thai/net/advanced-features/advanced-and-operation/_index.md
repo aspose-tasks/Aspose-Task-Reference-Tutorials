@@ -3,10 +3,16 @@ title: ขั้นสูงและการดำเนินการใน 
 linktitle: ขั้นสูงและการดำเนินการใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีดำเนินการ AND ขั้นสูงใน Aspose.Tasks สำหรับ .NET เพื่อกรองงานโครงการตามเกณฑ์ต่างๆ ได้อย่างมีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ขั้นสูงและการดำเนินการใน Aspose.Tasks
+
 ## การแนะนำ
 
  ในบทช่วยสอนนี้ เราจะเจาะลึกการดำเนินการ AND ขั้นสูงใน Aspose.Tasks สำหรับ .NET ซึ่งเป็นเครื่องมืออันทรงพลังสำหรับการจัดการงานและโปรเจ็กต์ เราจะสำรวจวิธีการกรองงานโครงการตามเงื่อนไขต่างๆ โดยใช้`Util.And` ระดับ.
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### คำถามที่ 5: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
 
 ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

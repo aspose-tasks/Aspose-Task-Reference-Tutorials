@@ -3,10 +3,16 @@ title: نوع الحساب في Aspose.Tasks
 linktitle: نوع الحساب في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص حسابات القيمة في مشاريع .NET باستخدام نوع الحساب في مكتبة Aspose.Tasks.
-type: docs
 weight: 30
 url: /ar/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# نوع الحساب في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف ميزة "نوع الحساب" في Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تمكن مطوري .NET من العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project على أنظمتهم. يتيح لنا نوع الحساب تحديد كيفية حساب القيم للمهام والمهام الموجزة داخل المشروع.
@@ -97,3 +103,9 @@ A1: نوع الحساب في Aspose.Tasks يحدد كيفية حساب القي�
 ### س5: أين يمكنني العثور على المزيد من الموارد على Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك استكشاف الوثائق ومنتديات دعم المجتمع المتاحة على[Aspose.Tasks لـ .NET](https://reference.aspose.com/tasks/net/) للحصول على التوجيه والمساعدة الشاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Làm việc với Lịch trong Aspose.Tasks
 linktitle: Làm việc với Lịch trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Quản lý lịch dự án, tính toán thời lượng, xử lý các trường hợp ngoại lệ một cách dễ dàng bằng Aspose.Tasks for .NET.
-type: docs
 weight: 10
 url: /vi/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Lịch trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET cung cấp các tính năng mạnh mẽ để làm việc với lịch, cho phép các nhà phát triển quản lý hiệu quả lịch trình dự án và phân bổ tài nguyên. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks để tương tác với lịch, bao gồm các hoạt động thiết yếu như truy xuất thông tin lịch, xác định tuần làm việc, tính giờ làm việc, v.v.
@@ -497,3 +503,9 @@ Câu trả lời 4: Có, bạn có thể tạo lịch tùy chỉnh như lịch c
 ### Câu hỏi 5: Tôi có thể truy xuất thông tin về các ngoại lệ của lịch từ các tệp dự án không?
 
 Câu trả lời 5: Có, bạn có thể dễ dàng truy xuất thông tin về các ngoại lệ của lịch từ các tệp dự án bằng Aspose.Tasks cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用した効率的な MS プロジェクト タスク�
 linktitle: Aspose.Tasks でのタスクのグループ化
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project タスクを効果的にグループ化する方法を学びます。
-type: docs
 weight: 25
 url: /ja/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用した効率的な MS プロジェクト タスクのグループ化
+
 ## 導入
 Microsoft Project でのタスクの管理は、特にタスクを効率的に整理する場合に、難しい場合があります。 Aspose.Tasks for .NET は、タスクを効果的にグループ化する機能を提供することで、これに対する包括的なソリューションを提供します。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project タスクをグループ化する方法を説明します。
 ## 前提条件
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 もちろん、Aspose.Tasks には、セルの色、フォント、スタイルなど、グループ化されたタスクの外観をカスタマイズするオプションが用意されています。
 ### Aspose.Tasks for .NET のサポートはどこで見つけられますか?
  Aspose.Tasks for .NET のサポートと支援については、[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thuộc tính tiền tệ
 linktitle: Thuộc tính tiền tệ
 second_title: API Java Aspose.Tasks
 description: Khai phá sức mạnh của Aspose.Tasks cho Hướng dẫn Java. Khám phá hướng dẫn từng bước về cách đọc và thiết lập thuộc tính tiền tệ trong tệp MS Project một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính tiền tệ
+
 ## Giới thiệu
 Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks for Java của mình chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về các thuộc tính tiền tệ và nắm vững nghệ thuật xử lý thông tin tiền tệ trong các tệp MS Project.
 
@@ -35,3 +41,9 @@ Bạn đã sẵn sàng bắt tay vào cuộc hành trình giáo dục này chưa
 Tìm hiểu cách trích xuất thông tin tiền tệ từ các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước được cung cấp.
 ### [Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks](./set-properties/)
 Tìm hiểu cách đặt thuộc tính tiền tệ trong dự án Aspose.Tasks bằng Java. Thao tác dễ dàng với các tệp Microsoft Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

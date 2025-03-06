@@ -3,10 +3,16 @@ title: Работа с операцией NOT в Aspose.Tasks
 linktitle: Работа с операцией NOT в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как использовать операцию NOT в Aspose.Tasks для .NET для эффективной фильтрации задач. Расширьте свои возможности управления проектами прямо сейчас.
-type: docs
 weight: 20
 url: /ru/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с операцией NOT в Aspose.Tasks
+
 ## Введение
 
 В этом уроке мы рассмотрим, как использовать операцию NOT в Aspose.Tasks для .NET. Операция НЕ позволяет нам отменить условие фильтра, что позволяет нам выбирать элементы, которые не соответствуют указанным критериям.
@@ -114,3 +120,9 @@ foreach (var task in collection)
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.Tasks?
 
  О: Вы можете получить доступ к полной документации на[Страница документации Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tentukan Hari Kerja untuk Pengecualian Kalender dengan Aspose.Tasks
 linktitle: Tentukan Hari Kerja untuk Pengecualian Kalender dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menentukan hari kerja untuk pengecualian kalender di proyek Java menggunakan Aspose.Tasks untuk penjadwalan proyek yang akurat.
-type: docs
 weight: 11
 url: /id/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Hari Kerja untuk Pengecualian Kalender dengan Aspose.Tasks
+
 ### Perkenalan
 Dalam manajemen proyek, menentukan pengecualian untuk kalender sangat penting agar dapat secara akurat mewakili hari kerja atau hari libur non-standar dalam lini waktu proyek. Aspose.Tasks untuk Java menyediakan fungsionalitas canggih untuk mengelola kalender secara efisien, termasuk menentukan pengecualian seperti hari libur atau hari kerja khusus. Dalam tutorial ini, kita akan mempelajari cara menentukan hari kerja untuk pengecualian kalender menggunakan Aspose.Tasks untuk Java.
 ### Prasyarat
@@ -68,3 +74,10 @@ J: Tentu saja, Aspose.Tasks untuk Java memberikan fleksibilitas untuk menentukan
 J: Anda dapat menangani pengecualian secara terprogram berdasarkan persyaratan proyek dinamis menggunakan API ekstensif yang disediakan oleh Aspose.Tasks untuk Java.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk Java?
  J: Ya, Anda dapat memanfaatkan versi uji coba gratis Aspose.Tasks untuk Java dari[situs web](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

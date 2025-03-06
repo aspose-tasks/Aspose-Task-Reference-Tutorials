@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif & Contoh Aspose.Tasks untuk Java
 linktitle: Aspose.Tugas untuk Tutorial Java
-type: docs
 weight: 10
 url: /id/java/
 description: Jelajahi Aspose.Tasks untuk Java dengan tutorial kami. Kalender utama, manajemen proyek, dan banyak lagi. Sederhanakan alur kerja Anda untuk pelaksanaan proyek yang efisien.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif & Contoh Aspose.Tasks untuk Java
+
 
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan keterampilan manajemen proyek Java Anda? Selami dunia Aspose.Tasks untuk Java dengan tutorial ekstensif kami yang mencakup berbagai aspek manajemen proyek. Dari pengecualian kalender hingga integrasi VBA, kami siap membantu Anda.
@@ -93,3 +98,9 @@ Jelajahi Aspose.Tasks Java dengan Tutorial Dasar Tugas kami. Sederhanakan penjad
 Tingkatkan manajemen proyek Java dengan Aspose.Tasks. Jelajahi tutorial tentang properti tugas, mulai dari penanganan prioritas hingga pengelolaan biaya. Optimalkan proyek Anda hari ini!
 ### [Integrasi VBA](./vba-integration/)
 Jelajahi Aspose.Tasks Java dengan integrasi VBA. Sederhanakan alur kerja proyek & tingkatkan pelacakan tugas. Jelajahi tutorial komprehensif untuk integrasi VBA yang lancar!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

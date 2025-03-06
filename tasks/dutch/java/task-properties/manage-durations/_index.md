@@ -3,10 +3,16 @@ title: Beheer de duur van taken in Aspose.Tasks
 linktitle: Beheer de duur van taken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek Aspose.Tasks voor Java en leer moeiteloos de duur van taken beheren. Volg onze stapsgewijze handleiding voor een effectieve projectplanning en -uitvoering.
-type: docs
 weight: 20
 url: /nl/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer de duur van taken in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java biedt een robuuste oplossing voor het efficiënt beheren van projecttaken en -duur. In deze zelfstudie onderzoeken we hoe u de duur van taken kunt beheren met Aspose.Tasks, waarbij we u bij elke stap begeleiden. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, deze gids helpt u de essentie te begrijpen van het werken met taakduur in uw projecten.
 ## Vereisten
@@ -67,3 +73,9 @@ Aspose.Tasks is compatibel met Java 6 en latere versies.
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
  Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/) om Aspose.Tasks te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

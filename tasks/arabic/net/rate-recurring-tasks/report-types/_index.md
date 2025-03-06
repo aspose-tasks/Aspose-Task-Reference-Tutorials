@@ -3,10 +3,16 @@ title: إتقان إعداد تقارير مشروع MS باستخدام Aspose.
 linktitle: العمل مع أنواع التقارير في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية العمل مع ملفات MS Project باستخدام Aspose.Tasks لـ .NET. إنشاء أنواع مختلفة من التقارير دون عناء.
-type: docs
 weight: 16
 url: /ar/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان إعداد تقارير مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بمعالجة ملفات Microsoft Project بسهولة. سواء كنت تعمل على إدارة المشروع، أو الجدولة، أو إعداد التقارير، فإن Aspose.Tasks يوفر مجموعة شاملة من الميزات لتبسيط سير عملك. في هذا البرنامج التعليمي، سنستكشف كيفية العمل مع ملفات MS Project وإنشاء أنواع مختلفة من التقارير باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create)
  ج: يمكنك الحصول على الدعم من المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 ### س5: كيف يمكنني تنزيل Aspose.Tasks لـ .NET؟
  ج: يمكنك تنزيل Aspose.Tasks لـ .NET من[هنا](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

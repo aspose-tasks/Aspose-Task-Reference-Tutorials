@@ -3,10 +3,16 @@ title: Aspose.Tasks Speciális funkciók
 linktitle: Aspose.Tasks Speciális funkciók
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET fejlett funkcióit oktatóanyagaink segítségével. Az ÉS-műveletektől a memóriakivétel-kezelésig fejlesztheti projektmenedzsment-készségeit.
-type: docs
 weight: 21
 url: /hu/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Speciális funkciók
+
 
 ## Bevezetés
 
@@ -93,3 +99,9 @@ Fedezze fel az Aspose.Tasks for .NET erejét az ismétlődő feladatok hatékony
 Ismerje meg, hogyan kezelheti hatékonyan a számítási módokat az Aspose.Tasks for .NET alkalmazásban a projektütemezés és a feladatfüggőségek egyszerűsítéséhez.
 ### [Számítás típusa az Aspose.Tasks](./calculation-type/)
 Ismerje meg, hogyan testreszabhatja az értékszámításokat .NET-projektekben az Aspose.Tasks könyvtár Calculation Type segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulate MS Project Extended Attributes with Aspose.Tasks
 linktitle: Working with Extended Attributes in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to work with MS Project extended attributes using Aspose.Tasks for .NET. Manipulate task data programmatically with ease.
-type: docs
 weight: 11
 url: /net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulate MS Project Extended Attributes with Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that allows developers to manipulate Microsoft Project files programmatically. One of the key features of this library is its ability to work with MS Project extended attributes. Extended attributes provide additional customization and metadata to tasks in a project, enabling users to store and manage specific information beyond the standard task properties.
 In this tutorial, we will explore how to work with MS Project extended attributes using Aspose.Tasks for .NET. We'll cover the prerequisites, import namespaces, and break down each example into multiple steps in a step-by-step guide format. By the end of this tutorial, you'll have a solid understanding of how to leverage extended attributes in your .NET applications.
@@ -72,3 +78,10 @@ Yes, you need to purchase a license for commercial use of Aspose.Tasks for .NET.
 Yes, Aspose.Tasks for .NET provides extensive capabilities to customize extended attributes to suit your project's specific needs.
 ### Where can I get support if I encounter any issues while using Aspose.Tasks for .NET?
 You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

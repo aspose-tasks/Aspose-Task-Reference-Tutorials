@@ -3,10 +3,16 @@ title: Διαχείριση διαπιστευτηρίων διακομιστή 
 linktitle: Διαχείριση διαπιστευτηρίων διακομιστή έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε απρόσκοπτα τα διαπιστευτήρια του MS Project Server με το Aspose.Tasks για .NET. Βελτίωση της αποτελεσματικότητας διαχείρισης έργου.
-type: docs
 weight: 22
 url: /el/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση διαπιστευτηρίων διακομιστή MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργου, ο αποτελεσματικός συντονισμός και η απρόσκοπτη επικοινωνία είναι ζωτικής σημασίας για την επιτυχή εκτέλεση του έργου. Το Aspose.Tasks for .NET παρέχει μια ολοκληρωμένη λύση για τη διαχείριση των διαπιστευτηρίων του Microsoft Project Server, επιτρέποντας στους χρήστες να έχουν ασφαλή πρόσβαση και να χειρίζονται δεδομένα έργου. Αυτό το σεμινάριο εμβαθύνει στη διαδικασία διαχείρισης των διαπιστευτηρίων του MS Project Server χρησιμοποιώντας το Aspose.Tasks για .NET, καθοδηγώντας τους χρήστες σε κάθε βήμα για να διασφαλιστεί μια ομαλή εμπειρία.
 ## Προαπαιτούμενα
@@ -83,3 +89,9 @@ foreach (var info in list)
 Α: Ναι, το Aspose.Tasks για .NET προσφέρει ευέλικτες επιλογές αδειοδότησης, συμπεριλαμβανομένων προσωρινών αδειών χρήσης για δοκιμαστικούς σκοπούς και πλήρεις άδειες χρήσης για εμπορική χρήση.
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια ή υποστήριξη για το Aspose.Tasks για .NET;
  Α: Για οποιαδήποτε απορία ή βοήθεια σχετικά με το Aspose.Tasks για .NET, μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης στη διεύθυνση[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Ολοκληρώστε τον πηγαίο κώδικα
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

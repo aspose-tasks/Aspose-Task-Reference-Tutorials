@@ -3,10 +3,16 @@ title: Aspose.Tasks Các khái niệm nâng cao
 linktitle: Aspose.Tasks Các khái niệm nâng cao
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu hình ảnh, xử lý ngoại lệ, thuật toán cây, hiển thị nhãn, tùy chọn tải, v.v. Nắm vững các khái niệm nâng cao trong Aspose.Tasks for .NET
-type: docs
 weight: 24
 url: /vi/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Các khái niệm nâng cao
+
 
 ## Giới thiệu
 
@@ -84,3 +90,9 @@ Tìm hiểu cách sử dụng thao tác NOT trong Aspose.Tasks for .NET để l�
 Tìm hiểu cách làm việc hiệu quả với các đối tượng OLE trong ứng dụng .NET bằng Aspose.Tasks, nâng cao khả năng quản lý dự án.
 ### [Bộ sưu tập các đối tượng OLE trong Aspose.Tasks](./ole-object-collection/)
 Tìm hiểu cách quản lý các đối tượng OLE trong Aspose.Tasks cho .NET với hướng dẫn toàn diện này. Nắm vững cách xử lý các tệp nhúng trong tài liệu dự án một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mentés CSV-ként, szövegként és sablonként az Aspose.Tasks-ban
 linktitle: Mentés CSV-ként, szövegként és sablonként az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan menthet Microsoft Project fájlokat CSV, szöveg és sablon formátumban az Aspose.Tasks for Java segítségével.
-type: docs
 weight: 16
 url: /hu/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés CSV-ként, szövegként és sablonként az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet projektfájlokat menteni különböző formátumokban, például CSV, szöveg és sablon formájában az Aspose.Tasks for Java segítségével. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül dolgozzanak Microsoft Project fájlokkal.
 ## Előfeltételek
@@ -77,3 +83,9 @@ V: Abszolút! Az Aspose.Tasks for Java könnyedén kezeli a különböző bonyol
  V: Igen, vásárolhat ideiglenes licencet a következőtől[itt](https://purchase.aspose.com/temporary-license/), amely lehetővé teszi a könyvtárban rejlő teljes potenciál értékelését.
 ### K: Az Aspose.Tasks for Java kompatibilis a különböző operációs rendszerekkel?
 V: Igen, az Aspose.Tasks for Java különféle operációs rendszerekkel kompatibilis, beleértve a Windowst, a macOS-t és a Linuxot.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Identifikujte úkoly napříč projekty v Aspose.Tasks
 linktitle: Identifikujte úkoly napříč projekty v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte identifikaci úloh napříč projekty pomocí Aspose.Tasks for Java. Bezproblémová integrace a efektivní správa. Stáhnout teď!
-type: docs
 weight: 14
 url: /cs/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifikujte úkoly napříč projekty v Aspose.Tasks
+
 ## Úvod
 Vítejte v našem komplexním tutoriálu o efektivní identifikaci úloh napříč projekty pomocí Aspose.Tasks for Java. Ať už jste zkušený vývojář nebo začátečník, tato příručka vás provede procesem bezproblémové integrace této funkce do vašich projektů Java.
 ## Předpoklady
@@ -60,3 +66,9 @@ Odpověď: Ano, Aspose.Tasks podporuje více programovacích jazyků, včetně J
  A: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Potřebujete pomoc nebo máte konkrétní otázky?
 Odpověď: Navštivte fórum podpory Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استرداد استثناءات التقويم باستخدام Aspose.
 linktitle: استرداد استثناءات التقويم باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استرداد استثناءات التقويم من MS Project باستخدام Aspose.Tasks لـ Java. البرنامج التعليمي خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 13
 url: /ar/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد استثناءات التقويم باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية استرداد استثناءات التقويم من MS Project باستخدام مكتبة Aspose.Tasks لـ Java. Aspose.Tasks هي أداة قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. سنرشدك خلال العملية خطوة بخطوة، مع تقسيم كل مثال إلى خطوات متعددة لتسهيل الفهم.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
  يمكنك الحصول على الدعم من منتدى المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل هناك خيار للتراخيص المؤقتة لـ Aspose.Tasks؟
  نعم يمكنك الحصول على تراخيص مؤقتة من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

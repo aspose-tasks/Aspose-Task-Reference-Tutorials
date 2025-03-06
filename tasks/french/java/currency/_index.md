@@ -3,10 +3,16 @@ title: Gérer la devise dans Aspose.Tasks pour Java
 linktitle: Devise
 second_title: API Java Aspose.Tasks
 description: Gérez sans effort les codes de devises, les chiffres et les symboles dans les fichiers MS Project avec Aspose.Tasks pour Java. Rationalisez la gestion de projet avec des didacticiels faciles à suivre.
-type: docs
 weight: 22
 url: /fr/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer la devise dans Aspose.Tasks pour Java
+
 
 ## Introduction
 
@@ -43,3 +49,9 @@ Apprenez à gérer efficacement les codes de devise MS Project à l'aide d'Aspos
 Apprenez à gérer efficacement les chiffres monétaires de MS Project à l'aide d'Aspose.Tasks pour Java. Guide étape par étape avec des exemples de code.
 ### [Manipulation des symboles monétaires dans Aspose.Tasks](./currency-symbols/)
 Apprenez à manipuler les symboles monétaires dans les fichiers MS Project à l'aide d'Aspose.Tasks pour Java. Des étapes simples pour une gestion de projet efficace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

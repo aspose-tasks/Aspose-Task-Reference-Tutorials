@@ -3,10 +3,16 @@ title: Thu thập các nhiệm vụ con trong Aspose.Tasks
 linktitle: Thu thập các nhiệm vụ con trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thu thập các tác vụ con một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET. Cải thiện quản lý dự án trong các ứng dụng .NET của bạn.
-type: docs
 weight: 15
 url: /vi/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thu thập các nhiệm vụ con trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý dự án, Aspose.Tasks for .NET nổi bật như một giải pháp mạnh mẽ để xử lý các nhiệm vụ và dự án một cách hiệu quả. Thư viện mạnh mẽ này cung cấp cho các nhà phát triển những công cụ họ cần để quản lý nhiệm vụ, dự án và mọi thứ liên quan một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể của Aspose.Tasks: thu thập các nhiệm vụ con.
@@ -96,3 +102,9 @@ Câu trả lời 3: Mặc dù được thiết kế chủ yếu cho môi trườ
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua không?
 
  A5: Chắc chắn rồi! Bạn có thể tận dụng bản dùng thử miễn phí từ[trang phát hành](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 任務基線
 linktitle: 任務基線
 second_title: Aspose.Tasks Java API
 description: 透過我們的任務基線教程探索 Aspose.Tasks Java。簡化任務排程、建立 MS Project 任務基線以及主基線持續時間管理。
-type: docs
 weight: 32
 url: /zh-hant/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任務基線
+
 ## 介紹
 使用 Aspose.Tasks for Java 踏上增強專案管理技能的旅程。在本系列教程中，我們深入研究任務基線的複雜性，為您提供寶貴的見解和實踐知識。讓我們來探索一下構成本綜合指南的關鍵教學。
 
@@ -51,3 +57,9 @@ url: /zh-hant/java/task-baselines/
 了解如何使用 Aspose.Tasks 在 Java 中建立 Microsoft Project 任務基線，Aspose.Tasks 是一個用於輕鬆管理專案資料的強大函式庫。
 ### [Aspose.Tasks 中的任務基線持續時間管理](./task-baseline-duration/)
 了解如何使用 Aspose.Tasks for Java 在 MS Project 中高效管理任務基準。本教學將引導您逐步完成流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

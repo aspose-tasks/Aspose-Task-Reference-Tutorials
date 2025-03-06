@@ -3,10 +3,16 @@ title: Zmniejszanie odstępu między listą zadań a stopką w Aspose.Tasks
 linktitle: Zmniejszanie odstępu między listą zadań a stopką w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak zmniejszyć lukę między listami zadań MS Project a stopkami za pomocą Aspose.Tasks dla Java. Z łatwością optymalizuj układ dokumentu projektu.
-type: docs
 weight: 10
 url: /pl/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmniejszanie odstępu między listą zadań a stopką w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku zajmiemy się zmniejszeniem luki między listą zadań a stopką w plikach Microsoft Project za pomocą Aspose.Tasks dla Java. Wykonując poniższe kroki, będziesz w stanie bez wysiłku zoptymalizować układ dokumentów projektu.
 ## Warunki wstępne
@@ -105,3 +111,9 @@ Odp.: Tak, Aspose.Tasks obsługuje szeroką gamę formatów, w tym między innym
 ### P: Gdzie mogę uzyskać pomoc, jeśli napotkam jakiekolwiek problemy podczas korzystania z Aspose.Tasks?
 
  Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

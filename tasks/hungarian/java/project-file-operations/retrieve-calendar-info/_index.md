@@ -3,10 +3,16 @@ title: Az MS Project naptárinformációinak lekérése az Aspose.Tasks-ban
 linktitle: A naptáradatok lekérése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kérheti le az MS Project naptáradatait az Aspose.Tasks for Java segítségével. Útmutató lépésről lépésre a naptár részleteinek programozott eléréséhez.
-type: docs
 weight: 14
 url: /hu/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project naptárinformációinak lekérése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet naptáradatokat lekérni a Microsoft Project fájlokból az Aspose.Tasks for Java könyvtár használatával. Az Aspose.Tasks hatékony funkciókat kínál a projektadatok kezeléséhez, beleértve a naptáradatok, például a munkanapok és órák elérését.
 ## Előfeltételek
@@ -88,3 +94,9 @@ V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.
  V: Igen, ideiglenes licencek megvásárolhatók[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találom az Aspose.Tasks részletes dokumentációját?
  V: Tekintse meg a dokumentációt[itt](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

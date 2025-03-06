@@ -3,10 +3,16 @@ title: वीबीए एकीकरण
 linktitle: वीबीए एकीकरण
 second_title: Aspose.Tasks जावा एपीआई
 description: VBA एकीकरण के साथ Aspose.Tasks Java का अन्वेषण करें। प्रोजेक्ट वर्कफ़्लो को सुव्यवस्थित करें और कार्य ट्रैकिंग में सुधार करें। निर्बाध वीबीए एकीकरण के लिए व्यापक ट्यूटोरियल खोजें!
-type: docs
 weight: 35
 url: /hi/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# वीबीए एकीकरण
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ url: /hi/java/vba-integration/
 ## वीबीए एकीकरण ट्यूटोरियल
 ### [Aspose.Tasks में VBA इंटीग्रेशन के साथ काम करें](./work-with-vba/)
 जावा के लिए Aspose.Tasks के साथ परियोजना प्रबंधन को बढ़ाएं - सुव्यवस्थित वर्कफ़्लो के लिए VBA एकीकरण को उजागर करें। कुशल कार्य ट्रैकिंग के लिए अभी अन्वेषण करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

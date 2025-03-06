@@ -3,10 +3,16 @@ title: Tùy chỉnh đường lưới trong MS Project cho Aspose.Tasks
 linktitle: Đường lưới trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh đường lưới trong MS Project bằng Aspose.Tasks for .NET. Nâng cao khả năng trực quan hóa và quản lý dự án của bạn bằng các bước dễ thực hiện.
-type: docs
 weight: 23
 url: /vi/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh đường lưới trong MS Project cho Aspose.Tasks
+
 ## Giới thiệu
 
 Trong quản lý dự án, trình bày trực quan đóng một vai trò quan trọng trong việc hiểu được các mốc thời gian, sự phụ thuộc và tiến độ của dự án. Aspose.Tasks for .NET cung cấp các công cụ mạnh mẽ để thao tác với các tệp dự án theo chương trình. Một tính năng như vậy là khả năng tùy chỉnh đường lưới trong MS Project bằng Aspose.Tasks.
@@ -113,3 +119,9 @@ Trả lời: Có, Aspose.Tasks for .NET cung cấp tài liệu phong phú và h�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
  Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của[Aspose.Tasks cho .NET từ](https://forum.aspose.com/c/tasks/15). để khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

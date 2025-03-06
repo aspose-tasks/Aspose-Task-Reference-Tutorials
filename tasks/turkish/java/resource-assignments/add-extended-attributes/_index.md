@@ -3,10 +3,16 @@ title: Aspose.Tasks for Java ile MS Proje Manipülasyonunda Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Kaynak Atamaları'na Genişletilmiş Nitelikler Ekleme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project bilgilerini verimli bir şekilde yazmayı öğrenin. Java geliştiricileri için adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/java/resource-assignments/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java ile MS Proje Manipülasyonunda Uzmanlaşmak
+
 ## giriiş
 Bu eğitimde, Microsoft Project dosyalarını programlı olarak yönetmek için güçlü bir kütüphane olan Aspose.Tasks for Java'nın kullanımını inceleyeceğiz. Temel bir göreve odaklanacağız: Aspose.Tasks'ı kullanarak MS Project bilgilerini yazmak. İster deneyimli bir geliştirici olun ister Java programlama yolculuğunuza yeni başlıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecektir.
 ## Önkoşullar
@@ -72,3 +78,9 @@ C: Deneme sürümü kitaplığın yeteneklerini keşfetmenize olanak tanırken, 
  C: Aspose.Tasks topluluk forumundan yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks for Java için geçici bir lisans satın alabilir miyim?
  C: Evet, kısa süreli kullanım için geçici lisanslar mevcuttur. Şuradan bir tane alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

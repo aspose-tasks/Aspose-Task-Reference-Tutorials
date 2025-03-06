@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Kaynak Yüzdesi Hesaplaması
 linktitle: Aspose.Tasks'ta Kaynaklar için Yüzde Hesaplamaları Yapın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project kaynak yüzdelerini nasıl hesaplayacağınızı öğrenin. Kod örneklerinin yer aldığı adım adım kılavuz.
-type: docs
 weight: 14
 url: /tr/java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Kaynak Yüzdesi Hesaplaması
+
 ## giriiş
 Aspose.Tasks for Java kullanarak MS Project kaynakları için yüzde hesaplamaları gerçekleştirmeye yönelik adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, Microsoft Project dosyalarından kaynak verilerini verimli bir şekilde işlemek ve çıkarmak için Aspose.Tasks'tan yararlanma sürecini derinlemesine inceleyeceğiz. Aspose.Tasks, Microsoft Project belgeleriyle çalışmak için kapsamlı özellikler sağlayan, geliştiricilerin proje yönetimi işlevlerini Java uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanıyan güçlü bir Java API'sidir.
 ## Önkoşullar
@@ -59,3 +65,9 @@ Aspose.Tasks kesinlikle proje programlarını değiştirmek için görevler, kay
  Evet, Aspose.Tasks topluluk forumunda yardım bulabilir ve diğer kullanıcılarla iletişim kurabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks değerlendirme amacıyla geçici lisanslar sunuyor mu?
  Evet, değerlendirme için geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

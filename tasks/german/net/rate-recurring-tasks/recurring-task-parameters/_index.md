@@ -3,10 +3,16 @@ title: Festlegen wiederkehrender Aufgabenparameter in Aspose.Tasks
 linktitle: Festlegen wiederkehrender Aufgabenparameter in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Parameter für wiederkehrende Aufgaben in Microsoft Project festlegen. Umfangreiches Tutorial mit Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 14
 url: /de/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen wiederkehrender Aufgabenparameter in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess der Festlegung der Parameter für wiederkehrende Microsoft Project-Aufgaben mithilfe von Aspose.Tasks für .NET.
 ## Voraussetzungen
@@ -79,3 +85,9 @@ Ja, Aspose.Tasks unterstützt verschiedene Projektdateiformate, darunter MPP, XM
 Ja, Sie können das Aspose.Tasks-Forum besuchen, um Hilfe von der Community zu erhalten, oder den Support kontaktieren, um direkte Hilfe zu erhalten.
 ### Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  Eine temporäre Lizenz erhalten Sie bei der[Webseite](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

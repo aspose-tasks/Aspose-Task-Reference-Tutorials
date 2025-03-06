@@ -3,10 +3,16 @@ title: Aspose.Tasks의 마스터 확장 속성 정의 MS 프로젝트
 linktitle: Aspose.Tasks의 확장된 속성 정의 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 확장된 속성 정의를 관리하는 방법을 알아보세요. 프로젝트 데이터를 손쉽게 사용자 정의하고 향상하세요.
-type: docs
 weight: 14
 url: /ko/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 마스터 확장 속성 정의 MS 프로젝트
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 확장된 속성 정의로 작업하는 방법을 살펴보겠습니다. 확장된 속성은 프로젝트 데이터를 사용자 정의하고 향상시키는 유연한 방법을 제공하므로 사용자는 기본적으로 제공되는 표준 필드 외에 추가 필드를 추가할 수 있습니다. Aspose.Tasks를 사용하면 이러한 확장된 속성을 쉽게 관리하여 프로젝트 관리 요구 사항에 맞게 조정할 수 있습니다.
 ## 전제조건
@@ -92,3 +98,9 @@ A: 물론, 확장된 속성을 사용하여 정의한 특정 기준에 따라 �
 A: Aspose.Tasks는 다양한 .NET 프레임워크와 호환되므로 유연성과 통합 용이성을 보장합니다.
 ### Q: Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원을 받고 문서를 살펴보세요[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

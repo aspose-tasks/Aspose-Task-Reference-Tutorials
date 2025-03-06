@@ -3,10 +3,16 @@ title: การจัดกลุ่มงานโครงการ MS ที
 linktitle: การจัดกลุ่มงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดกลุ่มงาน Microsoft Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET
-type: docs
 weight: 25
 url: /th/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดกลุ่มงานโครงการ MS ที่มีประสิทธิภาพด้วย Aspose.Tasks
+
 ## การแนะนำ
 การจัดการงานใน Microsoft Project บางครั้งอาจเป็นเรื่องท้าทาย โดยเฉพาะอย่างยิ่งเมื่อต้องจัดระเบียบงานเหล่านั้นอย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ .NET นำเสนอโซลูชันที่ครอบคลุมโดยมอบฟังก์ชันการทำงานเพื่อจัดกลุ่มงานอย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดกลุ่มงาน MS Project โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 แน่นอนว่า Aspose.Tasks มีตัวเลือกในการปรับแต่งรูปลักษณ์ของงานที่จัดกลุ่ม รวมถึงสีของเซลล์ แบบอักษร และสไตล์
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  คุณสามารถค้นหาการสนับสนุนและความช่วยเหลือสำหรับ Aspose.Tasks สำหรับ .NET ได้ใน[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

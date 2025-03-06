@@ -3,10 +3,16 @@ title: Tratamento de exceções de calendário em Aspose.Tasks
 linktitle: Tratamento de exceções de calendário em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar exceções de calendário em Aspose.Tasks for .NET com tutoriais e exemplos passo a passo.
-type: docs
 weight: 12
 url: /pt/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tratamento de exceções de calendário em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos como gerenciar exceções de calendário em Aspose.Tasks usando o .NET framework. As exceções de calendário permitem-nos definir datas ou períodos especiais no calendário de um projeto onde o horário normal de trabalho é alterado, como feriados ou encerramentos temporários. Abordaremos vários métodos para lidar com exceções de calendário passo a passo, usando Aspose.Tasks for .NET.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks oferece suporte a vários tipos de exceções, incluindo exceç
 ### P5: Posso personalizar o horário de trabalho para datas de exceção específicas?
 
 A5: Sim, você pode definir horários de trabalho personalizados para datas de exceção individuais usando os métodos apropriados fornecidos por Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: แยกวันที่เสร็จสิ้นงานใน Asp
 linktitle: แยกวันที่เสร็จสิ้นงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีแบ่งวันที่เสร็จสิ้นงานได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงการจัดการโครงการด้วยไทม์ไลน์ที่แม่นยำ
-type: docs
 weight: 28
 url: /th/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกวันที่เสร็จสิ้นงานใน Aspose.Tasks
+
 ## การแนะนำ
 ในการจัดการโครงการ การทำความเข้าใจลำดับเวลาของงานเป็นสิ่งสำคัญสำหรับการดำเนินโครงการให้สำเร็จ Aspose.Tasks สำหรับ Java มีคุณสมบัติอันทรงพลังเพื่อจัดการงานโปรเจ็กต์ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะเจาะลึกการแยกวันที่เสร็จสิ้นของงานโดยใช้ Aspose.Tasks ซึ่งช่วยให้คุณจัดการไทม์ไลน์ของโปรเจ็กต์ได้อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -54,3 +60,9 @@ System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 h
  A4: เยี่ยมชมฟอรั่มการสนับสนุน[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.Tasks ได้หรือไม่
  A5: ใช่ คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

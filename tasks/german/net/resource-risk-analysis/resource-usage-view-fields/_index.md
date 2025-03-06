@@ -3,10 +3,16 @@ title: Sammlung von Feldern zur Ressourcennutzungsansicht in Aspose.Tasks
 linktitle: Sammlung von Feldern zur Ressourcennutzungsansicht in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET effektiv auf Felder der Ressourcennutzungsansicht in Microsoft Project-Dateien zugreifen und diese bearbeiten.
-type: docs
 weight: 16
 url: /de/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Feldern zur Ressourcennutzungsansicht in Aspose.Tasks
+
 ## Einführung
 Im Bereich des Projektmanagements ist der effiziente Umgang mit Microsoft Project-Dateien von entscheidender Bedeutung. Aspose.Tasks für .NET bietet eine umfassende Lösung für die nahtlose Arbeit mit MS Project-Dateien. In diesem Tutorial befassen wir uns mit dem Zugriff und der Nutzung der Felder der Ressourcennutzungsansicht mithilfe von Aspose.Tasks für .NET.
 ## Voraussetzungen
@@ -67,3 +73,9 @@ A: Auf jeden Fall! Aspose.Tasks für .NET bietet umfangreiche Funktionen zur Dur
  A: Ja, Sie können über die auf eine kostenlose Testversion zugreifen[Webseite](https://releases.aspose.com/).
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.Tasks für .NET erhalten?
  A: Sie können eine temporäre Lizenz bei erwerben[Kaufseite](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zarządzaj czasem trwania zadań w Aspose.Tasks
 linktitle: Zarządzaj czasem trwania zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj Aspose.Tasks dla Java i naucz się bez wysiłku zarządzać czasem trwania zadań. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie planować i realizować projekty.
-type: docs
 weight: 20
 url: /pl/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj czasem trwania zadań w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla Java zapewnia solidne rozwiązanie do efektywnego zarządzania zadaniami projektowymi i czasem ich trwania. W tym samouczku omówimy, jak zarządzać czasem trwania zadań za pomocą Aspose.Tasks, prowadząc Cię przez każdy krok. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten przewodnik pomoże Ci zrozumieć podstawy pracy z czasem trwania zadań w Twoich projektach.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ Aspose.Tasks jest kompatybilny z Java 6 i nowszymi wersjami.
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
  Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby poznać Aspose.Tasks przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

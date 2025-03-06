@@ -3,10 +3,16 @@ title: إدارة المهام في Aspose.Tasks
 linktitle: إدارة المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف الدليل الشامل حول إدارة المهام باستخدام Aspose.Tasks لـ .NET. تعلم كيفية إضافة الأجزاء المقسمة وعرضها ونقلها والحصول على/تعيين الخصائص والمزيد.
-type: docs
 weight: 15
 url: /ar/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة المهام في Aspose.Tasks
+
 ## مقدمة
 إذا كنت مطور .NET وتتطلع إلى إدارة المهام داخل مشاريعك بكفاءة، فإن Aspose.Tasks for .NET يوفر حلاً قويًا. سيرشدك هذا البرنامج التعليمي عبر الجوانب المختلفة لإدارة المهام باستخدام Aspose.Tasks، ويقدم إرشادات خطوة بخطوة وأمثلة على التعليمات البرمجية. سواء كنت تضيف مهام، أو تعرض أجزاء مقسمة، أو تنقل المهام ضمن نفس الأصل، أو تحصل على/تعيين خصائص المهمة، أو تتكرر تعيينات المهام، أو تقرأ الخطوط الأساسية للمهام، أو تحذف المهام، فإن هذا الدليل يوفر لك كل ما تحتاجه.
 ## المتطلبات الأساسية
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 ج: بالتأكيد! يوفر Aspose.Tasks خيارات تخصيص واسعة النطاق لخصائص المهمة. تحقق من الوثائق لمزيد من التفاصيل.
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

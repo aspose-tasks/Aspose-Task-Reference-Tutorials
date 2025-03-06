@@ -3,10 +3,16 @@ title: Java için Aspose.Tasks ile MS Project Formülleri
 linktitle: Aspose.Tasks'ta Formüllerle Çalışma
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks kitaplığını kullanarak MS Project dosyalarını Java'da nasıl değiştireceğinizi öğrenin. Nitelikleri kolaylıkla oluşturun, değiştirin ve hesaplayın.
-type: docs
 weight: 11
 url: /tr/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.Tasks ile MS Project Formülleri
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak MS Project Formülleri ile çalışmayı derinlemesine inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir kitaplıktır. Kapsamlı özellikleri sayesinde Java uygulamalarında proje dosyalarını kolaylıkla oluşturabilir, okuyabilir, değiştirebilir ve dönüştürebilirsiniz.
 ## Önkoşullar
@@ -64,3 +70,9 @@ C: Evet, Aspose.Tasks, Java, .NET ve daha fazlasını içeren çeşitli programl
  C: Destek için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks'ı kullanmak için geçici bir lisansa ihtiyacım var mı?
 C: Ek özelliklere ihtiyacınız varsa, adresinden geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइ
 linktitle: Aspose.Tasks के लिए टेम्पलेट विकल्प सहेजें
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों को टेम्पलेट के रूप में कैसे सहेजा जाए। सुव्यवस्थित परियोजना प्रबंधन के लिए टेम्पलेट सेटिंग्स अनुकूलित करें।
-type: docs
 weight: 18
 url: /hi/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइलों को टेम्प्लेट के रूप में सहेजें
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके एक टेम्पलेट को सहेजने की प्रक्रिया के बारे में जानेंगे। टेम्प्लेट भविष्य में उपयोग के लिए प्रोजेक्ट संरचनाओं और सेटिंग्स को मानकीकृत करने के लिए उपयोगी होते हैं। हम प्रदर्शित करेंगे कि किसी प्रोजेक्ट को टेम्प्लेट के रूप में कैसे सहेजा जाए, इसके साथ ही इसके गुणों को भी ट्यून किया जाए।
 ## आवश्यक शर्तें
@@ -76,3 +82,9 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 उत्तर: .NET के लिए Aspose.Tasks मुख्य रूप से विंडोज़ प्लेटफ़ॉर्म पर चलने वाले .NET फ़्रेमवर्क अनुप्रयोगों के लिए डिज़ाइन किया गया है।
 ### प्रश्न: क्या .NET के लिए Aspose.Tasks के लिए तकनीकी सहायता उपलब्ध है?
  उत्तर: हाँ, आप Aspose.Tasks समुदाय से तकनीकी सहायता और मार्गदर्शन प्राप्त कर सकते हैं[मंचों](https://forum.aspose.com/c/tasks/15)या सीधे उनकी सहायता टीम से संपर्क करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Остановить и возобновить задачу в Aspose.Tas
 linktitle: Остановить и возобновить задачу в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите возможности Aspose.Tasks для Java с помощью нашего пошагового руководства по остановке и возобновлению задач. Улучшите управление проектами без проблем!
-type: docs
 weight: 30
 url: /ru/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Остановить и возобновить задачу в Aspose.Tasks
+
 ## Введение
 В сфере разработки Java эффективное управление задачами является важнейшим аспектом выполнения проекта. Aspose.Tasks for Java предоставляет надежное решение для решения задач благодаря своим мощным функциям. В этом уроке мы углубимся в одну конкретную функцию — остановку и возобновление задач. Следуя этому пошаговому руководству, вы сможете легко интегрировать эту функцию в свои проекты Java.
 ## Предварительные условия
@@ -69,3 +75,9 @@ for (Task tsk : collector.getTasks()) {
  Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности перед совершением покупки.
 ### Как я могу получить временную лицензию на Aspose.Tasks для Java?
  Вы можете приобрести временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) в целях тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

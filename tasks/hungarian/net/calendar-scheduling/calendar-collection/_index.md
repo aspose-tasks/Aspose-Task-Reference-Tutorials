@@ -3,10 +3,16 @@ title: Naptárgyűjtemény kezelése az Aspose.Tasks alkalmazásban
 linktitle: Naptárgyűjtemény kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a naptárgyűjteményeket az Aspose.Tasks for .NET-ben. Könnyedén hozhat létre, módosíthat és kezelhet naptárakat.
-type: docs
 weight: 11
 url: /hu/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptárgyűjtemény kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a naptárgyűjteményeket az Aspose.Tasks for .NET-ben. A naptárak döntő szerepet játszanak a projektmenedzsmentben, meghatározzák a munkanapokat, ünnepnapokat és kivételeket. Az Aspose.Tasks robusztus funkcionalitást biztosít a projekteken belüli naptárak kezeléséhez.
@@ -160,3 +166,9 @@ A naptárgyűjtemények kezelése az Aspose.Tasks for .NET-ben elengedhetetlen a
 ### 5. kérdés: Testreszabhatom a munkaidőt adott napokra a naptárban?
 
 5. válasz: Természetesen a naptárban kivételekkel meghatározhatja az egyes napok munkaidejét.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

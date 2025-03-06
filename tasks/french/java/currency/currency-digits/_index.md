@@ -3,10 +3,16 @@ title: Gérer les chiffres monétaires avec Aspose.Tasks
 linktitle: Gérer les chiffres monétaires avec Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les chiffres monétaires de MS Project à l'aide d'Aspose.Tasks pour Java. Guide étape par étape avec des exemples de code.
-type: docs
 weight: 11
 url: /fr/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les chiffres monétaires avec Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre didacticiel complet sur la gestion des chiffres monétaires MS Project à l'aide d'Aspose.Tasks pour Java. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus, en veillant à ce que vous maîtrisiez parfaitement chaque concept.
 ## Conditions préalables
@@ -56,3 +62,9 @@ Oui, vous pouvez utiliser Aspose.Tasks pour Java sur différentes plates-formes 
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l’aide pour Aspose.Tasks ?
  Vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurace digitálního podpisu MS Project PDF pomocí Aspose.Tasks
 linktitle: Konfigurace podrobností digitálního podpisu PDF v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat podrobnosti digitálního podpisu Microsoft Project PDF pomocí Aspose.Tasks for .NET. Zajistěte bezpečnost a autenticitu souborů projektu.
-type: docs
 weight: 10
 url: /cs/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace digitálního podpisu MS Project PDF pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem konfigurace podrobností digitálního podpisu Microsoft Project PDF pomocí Aspose.Tasks for .NET. Podle těchto kroků budete moci bez problémů integrovat digitální podpisy do souborů MS Project a zajistit tak bezpečnost a autentičnost.
 ## Předpoklady
@@ -84,3 +90,9 @@ Odpověď: Ano, vzhled digitálního podpisu, včetně textu, písma, barvy a po
 Odpověď: Ne, jakmile je na PDF použit digitální podpis, nelze jej odstranit ani aktualizovat. V případě potřeby však můžete přidat další podpisy.
 ### Otázka: Existují nějaká omezení velikosti nebo složitosti souboru Microsoft Project?
 A: Aspose.Tasks dokáže bez omezení zpracovávat soubory Microsoft Project různých velikostí a složitostí. Výkon se však může lišit v závislosti na hardwaru a dostupných zdrojích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

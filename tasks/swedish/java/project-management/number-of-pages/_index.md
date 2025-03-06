@@ -3,10 +3,16 @@ title: Få antal sidor i projektet med Aspose.Tasks
 linktitle: Få antal sidor i projektet med Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lås upp potentialen för Java-utveckling med Aspose.Tasks. Lär dig hur du manipulerar Microsoft Project-filer sömlöst och förbättrar din produktivitet.
-type: docs
 weight: 16
 url: /sv/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få antal sidor i projektet med Aspose.Tasks
+
 ## Introduktion
 Inom Java-utvecklingen framstår Aspose.Tasks som ett kraftfullt verktyg för att hantera Microsoft Project-filer. Oavsett om du är en erfaren utvecklare eller bara lägger tårna i Java-programmering, kan behärskning av Aspose.Tasks avsevärt förbättra din förmåga att manipulera och extrahera värdefulla insikter från projektfiler.
 ## Förutsättningar
@@ -74,3 +80,9 @@ S: Aspose.Tasks tillhandahåller omfattande dokumentation och support, vilket g�
  A: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att interagera med samhället och söka hjälp angående problem eller frågor.
 ### F: Kan jag prova Aspose.Tasks innan jag köper?
  S: Absolut, du kan utforska funktionerna och funktionerna i Aspose.Tasks genom att få en gratis provperiod från[hemsida](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

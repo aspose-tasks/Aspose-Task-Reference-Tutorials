@@ -3,10 +3,16 @@ title: Mengurangi Kesenjangan Antara Daftar Tugas dan Footer di Aspose.Tasks
 linktitle: Mengurangi Kesenjangan Antara Daftar Tugas dan Footer di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengurangi kesenjangan antara daftar tugas dan footer MS Project menggunakan Aspose.Tasks untuk Java. Optimalkan tata letak dokumen proyek dengan mudah.
-type: docs
 weight: 10
 url: /id/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengurangi Kesenjangan Antara Daftar Tugas dan Footer di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengurangi kesenjangan antara daftar tugas dan footer di file Microsoft Project menggunakan Aspose.Tasks untuk Java. Dengan mengikuti langkah-langkah ini, Anda akan dapat mengoptimalkan tata letak dokumen proyek Anda dengan mudah.
 ## Prasyarat
@@ -105,3 +111,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format, antara lain XLSX, XML, dan MPP.
 ### T: Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah apa pun saat menggunakan Aspose.Tasks?
 
  A: Anda bisa mendapatkan bantuan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

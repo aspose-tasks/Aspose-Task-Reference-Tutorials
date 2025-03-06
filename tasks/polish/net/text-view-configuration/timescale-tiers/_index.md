@@ -3,10 +3,16 @@ title: Konfigurowanie warstw skali czasowej wykresu Gantta w Aspose.Tasks
 linktitle: Konfigurowanie warstw skali czasu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Przeglądaj Aspose.Tasks dla .NET, aby skonfigurować poziomy skali czasu w widoku Wykresu Gantta w celu precyzyjnej wizualizacji osi czasu projektu. #Aspose.Tasks #MS Project
-type: docs
 weight: 16
 url: /pl/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie warstw skali czasowej wykresu Gantta w Aspose.Tasks
+
 ## Wstęp
 W dynamicznym krajobrazie zarządzania projektami skuteczna wizualizacja ma kluczowe znaczenie dla zrozumienia harmonogramów i terminów. Aspose.Tasks dla .NET zapewnia potężny zestaw narzędzi, a w tym samouczku przyjrzymy się, jak skonfigurować warstwy skali czasu w celu uzyskania optymalnej reprezentacji w widoku Wykres Gantta. Postępuj zgodnie z poniższymi instrukcjami krok po kroku, aby ulepszyć wizualizację projektu.
 ## Warunki wstępne
@@ -86,3 +92,9 @@ Absolutnie Aspose.Tasks zapewnia szerokie opcje dostosowywania widoku Wykres Gan
 Z pewnością możesz eksplorować różne formaty i style reprezentacji skali czasu, aby najlepiej dopasować je do kontekstu projektu.
 ### Czy istnieje forum społecznościowe dla wsparcia Aspose.Tasks?
  Tak, odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
 linktitle: Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách trích xuất thông tin tiền tệ từ các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước được cung cấp.
-type: docs
 weight: 10
 url: /vi/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để đọc các thuộc tính tiền tệ từ các tệp Microsoft Project. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu Microsoft Project mà không yêu cầu cài đặt Microsoft Project. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể trích xuất thông tin liên quan đến tiền tệ một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -57,3 +63,9 @@ Trả lời: Có, Aspose.Tasks cho phép bạn đọc và sửa đổi các thu�
  Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

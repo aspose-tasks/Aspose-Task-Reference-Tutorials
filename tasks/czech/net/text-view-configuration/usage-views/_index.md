@@ -3,10 +3,16 @@ title: Konfigurace zobrazení použití v Aspose.Tasks
 linktitle: Konfigurace zobrazení použití v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat zobrazení využití úloh v Aspose.Tasks pro .NET. Vylepšete vizualizaci projektu pomocí podrobných kroků. Stáhněte si knihovnu nyní!
-type: docs
 weight: 17
 url: /cs/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace zobrazení použití v Aspose.Tasks
+
 ## Úvod
 Pokud jste vývojář .NET a chcete vylepšit své schopnosti projektového řízení, Aspose.Tasks je výkonný nástroj, který vám umožní snadno manipulovat se soubory Microsoft Project. V tomto tutoriálu se zaměříme na konfiguraci zobrazení použití pomocí Aspose.Tasks for .NET. Postupujte podle pokynů a získejte přehled o vykreslování zobrazení využití úloh s podrobnostmi pro lepší vizualizaci projektu.
 ## Předpoklady
@@ -72,3 +78,9 @@ Gratulujeme! Úspěšně jste nakonfigurovali zobrazení použití v Aspose.Task
  Ano, prozkoumejte bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Potřebujete podporu nebo máte otázky?
  Navštivte fórum podpory[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Operacje na plikach projektu
 linktitle: Operacje na plikach projektu
 second_title: Aspose.Tasks API Java
 description: Bez wysiłku optymalizuj układy MS Project za pomocą Aspose.Tasks dla Java. Poznaj szczegółowe samouczki dotyczące zmniejszania przerw, renderowania danych, zastępowania kalendarzy i nie tylko.
-type: docs
 weight: 29
 url: /pl/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operacje na plikach projektu
+
 ## Wstęp
 Czy chcesz zwiększyć swoje możliwości zarządzania projektami Java? Zapoznaj się z naszymi obszernymi samouczkami na temat Aspose.Tasks dla Java, koncentrując się na różnych operacjach na plikach projektu. Od zmniejszania luk na listach zadań po dostosowywanie widoków MS Project — mamy wszystko, czego potrzebujesz.
 
@@ -94,3 +100,9 @@ Dowiedz się, jak bez wysiłku tworzyć niestandardowe widoki MS Project za pomo
 Naucz się efektywnie zarządzać właściwościami dni powszednich w Aspose.Tasks dla Java. Z łatwością dostosuj daty rozpoczęcia tygodnia, dni w miesiącu i nie tylko.
 ### [Napisz podsumowanie projektu MPP w Aspose.Tasks](./write-mpp-project-summary/)
 Dowiedz się, jak pisać podsumowania projektów MPP w Javie przy użyciu Aspose.Tasks. Bezproblemowo ustawiaj i pobieraj informacje o projekcie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Update MS Project-kalenders naar MPP-formaat met Aspose.Tasks
 linktitle: Update de agenda naar MPP-indeling in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u MS Project-agenda's moeiteloos kunt bijwerken naar MPP-indeling met behulp van Aspose.Tasks voor Java.
-type: docs
 weight: 16
 url: /nl/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Update MS Project-kalenders naar MPP-formaat met Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van projectmanagement is het omgaan met verschillende bestandsformaten cruciaal voor een naadloze samenwerking en een efficiënte workflow. Aspose.Tasks voor Java biedt een robuuste oplossing voor het manipuleren van Microsoft Project-bestanden, waardoor taken zoals het bijwerken van MS Project-kalenders naar MPP-indeling worden vergemakkelijkt. In deze zelfstudie gaan we dieper in op de stappen die nodig zijn om dit te bereiken met behulp van Aspose.Tasks voor Java.
@@ -116,3 +122,9 @@ A2: Absoluut, met Aspose.Tasks voor Java kunt u kalenders efficiënt aanpassen a
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor Java?
 
  A5: Bezoek de website om een tijdelijke licentie voor Aspose.Tasks voor Java te verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

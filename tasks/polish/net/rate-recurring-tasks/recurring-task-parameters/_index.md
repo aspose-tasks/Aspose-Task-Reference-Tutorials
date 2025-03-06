@@ -3,10 +3,16 @@ title: Ustawianie powtarzających się parametrów zadań w Aspose.Tasks
 linktitle: Ustawianie powtarzających się parametrów zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak ustawić parametry zadań cyklicznych w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. Kompleksowy samouczek z przewodnikiem krok po kroku.
-type: docs
 weight: 14
 url: /pl/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie powtarzających się parametrów zadań w Aspose.Tasks
+
 ## Wstęp
 tym samouczku przeprowadzimy Cię przez proces ustawiania parametrów zadań cyklicznych programu Microsoft Project za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -79,3 +85,9 @@ Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym MPP, XML,
 Tak, możesz odwiedzić forum Aspose.Tasks, aby uzyskać pomoc społeczności lub skontaktować się z obsługą techniczną w celu uzyskania bezpośredniej pomocy.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?
  Licencję tymczasową można uzyskać od firmy[strona internetowa](https://purchase.aspose.com/temporary-license/) do celów testowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

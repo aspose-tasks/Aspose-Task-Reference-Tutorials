@@ -3,10 +3,16 @@ title: Mastering Table Field Collections in Aspose.Tasks for .NET
 linktitle: Collection of Table Fields in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the dynamic world of project management with Aspose.Tasks for .NET. Learn how to manipulate table field collections for a customized project experience.
-type: docs
 weight: 13
 url: /net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Table Field Collections in Aspose.Tasks for .NET
+
 ## Introduction
 Aspose.Tasks for .NET is a powerful library that facilitates project management by providing extensive functionality for working with Microsoft Project files. In this tutorial, we will delve into the collection of table fields in Aspose.Tasks, exploring how to manipulate and manage them efficiently using C#.
 ## Prerequisites
@@ -111,3 +117,10 @@ Yes, you need a valid license to use Aspose.Tasks for .NET in a commercial proje
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to get support, ask questions, and collaborate with the community.
 ### Is there a free trial available for Aspose.Tasks for .NET?
 Yes, you can explore the features of Aspose.Tasks for .NET with a free trial. Download it [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

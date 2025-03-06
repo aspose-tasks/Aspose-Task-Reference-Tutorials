@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理自定义项目属性集合
 linktitle: 在 Aspose.Tasks 中管理自定义项目属性集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中有效管理自定义项目属性，从而增强您的项目管理体验。
-type: docs
 weight: 24
 url: /zh/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理自定义项目属性集合
+
 ## 介绍
 
 您准备好使用 Aspose.Tasks for .NET 来增强您的项目管理体验了吗？管理自定义项目属性是项目管理的一个重要方面，它允许您添加根据项目要求定制的特定元数据。在本教程中，我们将深入探讨如何使用 Aspose.Tasks for .NET 有效地处理自定义项目属性集合。
@@ -131,3 +137,9 @@ A4：是的，您可以从 Aspose 网站获取临时许可证用于评估目的�
 ### Q5：在哪里可以找到有关 Aspose.Tasks for .NET 的支持或进一步帮助？
 
  A5：您可以访问Aspose.Tasks论坛[这里](https://forum.aspose.com/c/tasks/15)如有任何疑问或帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

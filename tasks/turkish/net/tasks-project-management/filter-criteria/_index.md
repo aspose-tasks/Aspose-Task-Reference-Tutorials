@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Filtre Kriterlerinde Uzmanlaşma
 linktitle: Aspose.Tasks'ta Filtre Kriterleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project'te filtre kriterlerini nasıl uygulayacağınızı öğrenin. Hedeflenen veri analiziyle proje yönetimi verimliliğini artırın.
-type: docs
 weight: 18
 url: /tr/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Filtre Kriterlerinde Uzmanlaşma
+
 ## giriiş
 Proje yönetimi alanında Microsoft Project, proje planlayıcılarına ve yöneticilerine yardımcı olacak çok sayıda özellik sunan güçlü bir araç olarak duruyor. Pek çok işlevselliği arasında proje verilerini filtreleme yeteneği de yer alıyor ve bu sayede kullanıcılar proje görevlerinin belirli yönlerine odaklanabiliyor. Ancak bu filtreleme yeteneklerine hakim olmak, doğru rehberlik olmadan göz korkutucu bir görev olabilir. Bu eğitim, Aspose.Tasks for .NET kullanılarak MS Project'te filtre kriterlerinin uygulanmasına ilişkin adım adım bir kılavuz sağlayarak sürecin gizemini aydınlatmayı amaçlamaktadır.
 ## Önkoşullar
@@ -89,3 +95,9 @@ C: Aspose.Tasks, .NET Framework, .NET Core ve .NET Standard'ı destekleyerek far
 C: Kesinlikle, filtre kriterlerini dinamik parametrelere dayalı olarak programlı bir şekilde ayarlayarak uyarlanabilir proje veri analizine olanak sağlayabilirsiniz.
 ### S: Aspose.Tasks'ta sorunlarla karşılaşırsam nereden yardım alabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan destek istemek veya kişiselleştirilmiş yardım için doğrudan Aspose.Tasks desteğine ulaşmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

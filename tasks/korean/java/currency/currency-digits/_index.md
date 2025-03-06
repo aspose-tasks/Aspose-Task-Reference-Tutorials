@@ -3,10 +3,16 @@ title: Aspose.Tasks로 통화 숫자 처리
 linktitle: Aspose.Tasks로 통화 숫자 처리
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks를 사용하여 통화 MS 프로젝트 숫자를 효율적으로 처리하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks로 통화 숫자 처리
+
 ## 소개
 Java용 Aspose.Tasks를 사용하여 통화 MS 프로젝트 숫자를 처리하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼에서는 각 개념을 철저하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -56,3 +62,9 @@ System.out.println(project.get(Prj.CURRENCY_DIGITS));
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
  다음에서 지원을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

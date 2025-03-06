@@ -3,10 +3,16 @@ title: Manipuler les attributs étendus de MS Project avec Aspose.Tasks
 linktitle: Travailler avec des attributs étendus dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à utiliser les attributs étendus de MS Project à l'aide d'Aspose.Tasks pour .NET. Manipulez facilement les données des tâches par programmation.
-type: docs
 weight: 11
 url: /fr/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipuler les attributs étendus de MS Project avec Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. L'une des principales caractéristiques de cette bibliothèque est sa capacité à fonctionner avec les attributs étendus de MS Project. Les attributs étendus fournissent une personnalisation et des métadonnées supplémentaires aux tâches d'un projet, permettant aux utilisateurs de stocker et de gérer des informations spécifiques au-delà des propriétés de tâche standard.
 Dans ce didacticiel, nous explorerons comment utiliser les attributs étendus de MS Project à l'aide d'Aspose.Tasks pour .NET. Nous couvrirons les conditions préalables, importerons les espaces de noms et décomposerons chaque exemple en plusieurs étapes dans un format de guide étape par étape. À la fin de ce didacticiel, vous comprendrez parfaitement comment exploiter les attributs étendus dans vos applications .NET.
@@ -72,3 +78,9 @@ Oui, vous devez acheter une licence pour une utilisation commerciale d’Aspose.
 Oui, Aspose.Tasks for .NET offre des fonctionnalités étendues pour personnaliser les attributs étendus en fonction des besoins spécifiques de votre projet.
 ### Où puis-je obtenir de l'aide si je rencontre des problèmes lors de l'utilisation d'Aspose.Tasks pour .NET ?
  Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

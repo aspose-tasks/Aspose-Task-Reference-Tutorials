@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 分析 MS 專案風險
 linktitle: 使用 Aspose.Tasks 分析風險
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效率地分析 MS Project 風險。請遵循我們的全面風險管理逐步指南。
-type: docs
 weight: 20
 url: /zh-hant/net/resource-risk-analysis/risk-analyzer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 分析 MS 專案風險
+
 ## 介紹
 管理專案管理中的風險對於確保專案成功交付至關重要。 Aspose.Tasks for .NET 提供了強大的工具來分析和降低 Microsoft Project 檔案中的風險。在本教程中，我們將逐步探索如何使用 Aspose.Tasks 分析 MS Project 風險。
 ## 先決條件
@@ -98,3 +104,9 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 答：Aspose.Tasks 主要針對 .NET 語言，但它也提供對 Java 的支援。
 ### Q：在哪裡可以找到對 Aspose.Tasks 的額外支援？
 答：您可以瀏覽 Aspose.Tasks 文件或存取支持[論壇]( https://forum.aspose.com/c/tasks/15)尋求幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: कार्य गुण
 linktitle: कार्य गुण
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ जावा प्रोजेक्ट प्रबंधन को बेहतर बनाएं। प्राथमिकताओं को संभालने से लेकर लागत प्रबंधन तक, कार्य गुणों पर ट्यूटोरियल देखें। आज ही अपने प्रोजेक्ट को अनुकूलित करें!
-type: docs
 weight: 34
 url: /hi/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कार्य गुण
+
 ## परिचय
 
 Aspose.Tasks के साथ जावा में Microsoft प्रोजेक्ट फ़ाइलों को आसानी से प्रबंधित और अनुकूलित करें। अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाने के लिए कार्य गुणों के विभिन्न पहलुओं को कवर करने वाले ट्यूटोरियल देखें।
@@ -138,3 +144,9 @@ Aspose.Tasks के साथ जावा परियोजनाओं मे
 जावा के लिए Aspose.Tasks का उपयोग करके कार्य डेटा को MPP प्रारूप में अपडेट करने का तरीका जानें। कुशल परियोजना प्रबंधन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [WBS Aspose.Tasks में कार्य से संबद्ध है](./wbs-associated-with-task/)
 जावा के लिए Aspose.Tasks के साथ मास्टर WBS - कार्य WBS कोड को पढ़ना और पुनः क्रमांकित करना सीखें। परियोजना प्रबंधन दक्षता बढ़ाएँ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

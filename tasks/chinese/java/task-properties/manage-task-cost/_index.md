@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理任务成本
 linktitle: 在 Aspose.Tasks 中管理任务成本
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 管理 Java 应用程序中的任务成本。请遵循我们的分步指南进行有效的项目成本管理。
-type: docs
 weight: 21
 url: /zh/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理任务成本
+
 ## 介绍
 欢迎来到 Aspose.Tasks for Java 的世界，这是一个功能强大的库，可让您在 Java 应用程序中无缝管理任务成本。在本分步指南中，我们将探索如何有效利用 Aspose.Tasks 来处理任务成本，确保高效的项目管理。
 ## 先决条件
@@ -66,3 +72,9 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
 答：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### 问：在哪里可以寻求 Aspose.Tasks for Java 的支持？
 答：访问支持论坛[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

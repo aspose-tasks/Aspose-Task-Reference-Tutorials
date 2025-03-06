@@ -3,10 +3,16 @@ title: Xác định loại liên kết trong Aspose.Tasks
 linktitle: Xác định loại liên kết trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks cho Java trong quản lý dự án. Dễ dàng xác định và tùy chỉnh các loại liên kết bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 13
 url: /vi/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định loại liên kết trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới quản lý dự án hiệu quả với Aspose.Tasks cho Java! Nếu bạn đang tìm cách hợp lý hóa việc xử lý dự án của mình và tăng năng suất thì bạn đã đến đúng nơi. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình xác định các loại liên kết trong Aspose.Tasks cho Java, nâng cao khả năng quản lý dự án của bạn.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, Aspose.Tasks được thiết kế để tích hợp liền m�
  Đáp: Ghé thăm[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
 ### Câu hỏi: Tôi có thể nhận hỗ trợ ở đâu cho các truy vấn liên quan đến Aspose.Tasks?
  Đáp: Tham gia cộng đồng Aspose.Tasks trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

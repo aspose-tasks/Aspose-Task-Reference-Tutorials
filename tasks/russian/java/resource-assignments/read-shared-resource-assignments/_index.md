@@ -3,10 +3,16 @@ title: Чтение назначений общих ресурсов в Aspose.T
 linktitle: Чтение назначений общих ресурсов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как читать назначения общих ресурсов в Aspose.Tasks для Java. Повысьте эффективность управления проектами с помощью пошаговых руководств.
-type: docs
 weight: 19
 url: /ru/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение назначений общих ресурсов в Aspose.Tasks
+
 ## Введение
 В управлении проектами эффективное распределение ресурсов имеет решающее значение для успешного завершения проекта. Aspose.Tasks для Java предоставляет мощные инструменты для эффективного управления ресурсами. Одной из важных задач является чтение назначений общих ресурсов, что позволяет понять, как ресурсы распределяются по нескольким проектам.
 ## Предварительные условия
@@ -58,3 +64,9 @@ Double units = resource.get(Rsc.PEAK_UNITS);
 Aspose.Tasks for Java может обрабатывать проекты разного размера, от небольших до крупномасштабных.
 ### Доступна ли техническая поддержка для Aspose.Tasks для пользователей Java?
  Да, вы можете получить техническую поддержку на форуме Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

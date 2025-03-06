@@ -3,10 +3,16 @@ title: Aspose.Tasks의 할당 기준선 수집
 linktitle: Aspose.Tasks의 할당 기준선 수집
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 프로젝트 관리에서 할당 기준선을 효율적으로 관리하는 방법을 알아보세요. 생산성과 정확성을 향상시킵니다.
-type: docs
 weight: 15
 url: /ko/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 할당 기준선 수집
+
 ## 소개
 
 프로젝트 관리 영역에서 할당 기준선을 추적하고 관리하는 것은 프로젝트 성공과 일정 준수를 보장하는 데 매우 중요합니다. Aspose.Tasks for .NET은 프로젝트 내에서 할당 기준선을 효율적으로 처리할 수 있는 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 할당 기준 컬렉션 작업의 복잡성을 자세히 살펴보겠습니다.
@@ -100,3 +106,9 @@ A4: 예, Aspose.Tasks는 개발자가 도움을 구하고, 지식을 공유하�
 ### Q5: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
 
 A5: 예, Aspose.Tasks는 개발자가 구매 결정을 내리기 전에 기능을 탐색할 수 있도록 무료 평가판을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

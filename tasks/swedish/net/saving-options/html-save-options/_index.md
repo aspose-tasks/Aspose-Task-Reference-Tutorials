@@ -3,10 +3,16 @@ title: Spara MS Project som HTML med Aspose.Tasks
 linktitle: HTML-sparalternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du sparar Microsoft Project-filer som HTML med Aspose.Tasks för .NET. Konvertera projektdata utan ansträngning med vår steg-för-steg-guide.
-type: docs
 weight: 10
 url: /sv/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara MS Project som HTML med Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår handledning om hur du sparar Microsoft Project-filer som HTML med Aspose.Tasks för .NET! Aspose.Tasks är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft Project-filer programmatiskt. I den här handledningen kommer vi att undersöka hur man använder Aspose.Tasks för att spara projektdata som HTML, vilket ger steg-för-steg vägledning på vägen.
 ## Förutsättningar
@@ -57,3 +63,9 @@ S: Ja, Aspose.Tasks stöder ett brett utbud av Microsoft Project-filversioner, v
 S: Absolut, du kan extrahera och inkludera specifika sidor eller avsnitt av ditt projekt baserat på dina krav.
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks?
 S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för att utforska dess funktioner innan du gör ett köp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

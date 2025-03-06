@@ -3,10 +3,16 @@ title: 轻松为 Aspose.Tasks 生成 SVG
 linktitle: Aspose.Tasks 的 SVG 选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何利用 Aspose.Tasks for .NET 轻松生成 Microsoft Project 文件的 SVG 表示形式，以增强项目可视化。
-type: docs
 weight: 20
 url: /zh/net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轻松为 Aspose.Tasks 生成 SVG
+
 ## 介绍
 在项目管理和任务组织领域，有效可视化数据的能力至关重要。 Aspose.Tasks for .NET 提供了一个全面的解决方案来生成 Microsoft Project 文件的 SVG 表示形式，从而促进清晰且引人入胜的项目见解。本教程深入探讨了 Aspose.Tasks for .NET 提供的 SVG MS Project 选项的使用，使用户能够利用其功能来增强项目可视化。
 ## 先决条件
@@ -66,3 +72,9 @@ project.Save(DataDir + "UseSvgOptions_out.svg", options);
 
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 答：是的，用户可以通过 Aspose.Tasks 论坛获得技术支持，或者直接联系支持团队以获得任何疑问或问题的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

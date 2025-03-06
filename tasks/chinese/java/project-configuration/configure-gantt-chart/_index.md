@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 项目中配置甘特图视图
 linktitle: 在 Aspose.Tasks 项目中配置甘特图视图
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Java 在 Aspose.Tasks 中配置甘特 MS 项目图表视图。自定义项目并在甘特图中逐步将其可视化。
-type: docs
 weight: 10
 url: /zh/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 项目中配置甘特图视图
+
 ## 介绍
 在本教程中，您将学习如何使用 Java 在 Aspose.Tasks 项目中配置甘特 MS 项目图表视图。 Aspose.Tasks 是一个功能强大的 Java API，允许您以编程方式处理 Microsoft Project 文件。通过执行这些步骤，您将能够根据项目的要求自定义甘特图视图。
 ## 先决条件
@@ -76,3 +82,9 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
 答：您可以从以下位置购买许可证[这里](https://purchase.aspose.com/buy).
 ### 问：出于测试目的，我需要临时许可证吗？
 答：是的，您可以从以下机构获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tipos de acumulação de custos em Aspose.Tasks
 linktitle: Tipos de acumulação de custos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar os custos do projeto de forma eficaz com Aspose.Tasks for .NET. Defina tipos de acumulação de custos para um acompanhamento preciso do orçamento.
-type: docs
 weight: 19
 url: /pt/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tipos de acumulação de custos em Aspose.Tasks
+
 ## Introdução
 
 Na gestão de projetos, o acompanhamento preciso dos custos é crucial para manter o controle orçamentário e garantir o sucesso de um projeto. Aspose.Tasks for .NET oferece um conjunto robusto de ferramentas para gerenciar custos de projetos, incluindo a capacidade de definir diferentes tipos de acumulação de custos. Este tutorial irá guiá-lo através do processo de compreensão e implementação de tipos de acumulação de custos usando Aspose.Tasks for .NET.
@@ -86,3 +92,9 @@ A4: Sim, você pode definir o tipo de acumulação de custos de forma independen
 ### P5: O Aspose.Tasks for .NET oferece suporte a tipos de acumulação de custos personalizados?
 
 A5: A partir da versão mais recente, Aspose.Tasks for .NET não oferece suporte à definição de tipos de acumulação de custos personalizados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

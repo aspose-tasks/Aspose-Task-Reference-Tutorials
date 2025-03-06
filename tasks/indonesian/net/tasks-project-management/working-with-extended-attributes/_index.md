@@ -3,10 +3,16 @@ title: Memanipulasi Atribut Diperluas Proyek MS dengan Aspose.Tasks
 linktitle: Bekerja dengan Atribut yang Diperluas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara bekerja dengan atribut yang diperluas MS Project menggunakan Aspose.Tasks untuk .NET. Memanipulasi data tugas secara terprogram dengan mudah.
-type: docs
 weight: 11
 url: /id/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memanipulasi Atribut Diperluas Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Salah satu fitur utama perpustakaan ini adalah kemampuannya untuk bekerja dengan atribut tambahan MS Project. Atribut yang diperluas memberikan penyesuaian dan metadata tambahan pada tugas dalam proyek, memungkinkan pengguna menyimpan dan mengelola informasi spesifik di luar properti tugas standar.
 Dalam tutorial ini, kita akan menjelajahi cara bekerja dengan atribut yang diperluas MS Project menggunakan Aspose.Tasks untuk .NET. Kami akan membahas prasyarat, mengimpor namespace, dan membagi setiap contoh menjadi beberapa langkah dalam format panduan langkah demi langkah. Di akhir tutorial ini, Anda akan memiliki pemahaman yang kuat tentang cara memanfaatkan atribut yang diperluas dalam aplikasi .NET Anda.
@@ -72,3 +78,9 @@ Ya, Anda perlu membeli lisensi untuk penggunaan komersial Aspose.Tasks untuk .NE
 Ya, Aspose.Tasks untuk .NET menyediakan kemampuan ekstensif untuk menyesuaikan atribut yang diperluas agar sesuai dengan kebutuhan spesifik proyek Anda.
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah apa pun saat menggunakan Aspose.Tasks untuk .NET?
  Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

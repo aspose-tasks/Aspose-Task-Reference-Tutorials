@@ -3,10 +3,16 @@ title: تنسيق التاريخ في Aspose.Tasks
 linktitle: تنسيق التاريخ في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص تنسيقات التاريخ في Aspose.Tasks لـ .NET بسهولة من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة.
-type: docs
 weight: 27
 url: /ar/net/calendar-scheduling/date-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيق التاريخ في Aspose.Tasks
+
 ## مقدمة
 
 يعد تنسيق التاريخ أمرًا بالغ الأهمية لأي مشروع، خاصة عندما يتعلق الأمر بتقديم المعلومات بطريقة واضحة ومفهومة. يوفر Aspose.Tasks for .NET للمطورين أدوات قوية لإدارة تنسيقات التاريخ بكفاءة، مما يمكنهم من تخصيص تمثيلات التاريخ وفقًا لتفضيلاتهم. من خلال إتقان تنسيقات التاريخ، يمكنك تحسين سهولة القراءة وسهولة الاستخدام لمخرجات مشروعك، مما يضمن التواصل والتفاهم السلس بين أصحاب المصلحة.
@@ -100,3 +106,9 @@ project.Save("output_path.pdf", SaveFileFormat.Pdf);
 ### س5: هل يمكنني تجربة Aspose.Tasks لـ .NET قبل شرائه؟
 
 ج5: بالتأكيد، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks لـ .NET لاستكشاف ميزاته وتقييم مدى ملاءمته لمتطلبات مشروعك قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

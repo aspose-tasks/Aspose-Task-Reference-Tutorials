@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET의 개요 코드 정의 컬렉션
 linktitle: Aspose.Tasks의 개요 코드 정의 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 문서에서 개요 코드 정의를 조작하는 방법을 알아보세요. 프로젝트 데이터를 손쉽게 분류하세요.
-type: docs
 weight: 13
 url: /ko/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET의 개요 코드 정의 컬렉션
+
 ## 소개
 Aspose.Tasks는 Microsoft Project 문서를 쉽고 효율적으로 조작하도록 설계된 강력한 .NET 라이브러리입니다. 주요 기능 중 하나는 개요 코드 정의로 작업하여 사용자가 프로젝트 데이터를 효과적으로 구성하고 분류할 수 있는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 개요 코드 정의로 작업하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -83,3 +89,9 @@ A: 개요 코드 정의가 읽기 전용인 경우 직접 수정할 수 없습�
 A: .NET용 Aspose.Tasks는 프로젝트에 추가할 수 있는 개요 코드 정의 수에 특정 제한을 두지 않습니다. 그러나 많은 수의 정의로 작업할 때는 성능에 미치는 영향을 고려하십시오.
 ### Q: 개요 코드 정의를 사용하여 사용자 지정 기준에 따라 작업을 그룹화할 수 있습니까?
 A: 예, 개요 코드 정의를 사용하면 사용자 정의 기준에 따라 작업을 분류할 수 있으므로 프로젝트 데이터 구성에 유연성이 제공됩니다.## 완전한 소스 코드
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

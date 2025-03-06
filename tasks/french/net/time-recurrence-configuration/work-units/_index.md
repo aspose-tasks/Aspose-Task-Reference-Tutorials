@@ -3,10 +3,16 @@ title: Maîtriser la gestion des unités de travail dans Aspose.Tasks
 linktitle: Gestion des unités de travail dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez Aspose.Tasks pour .NET, une bibliothèque puissante pour une gestion de projet efficace. Gérez les unités de travail avec précision pour une utilisation optimale des ressources.
-type: docs
 weight: 15
 url: /fr/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la gestion des unités de travail dans Aspose.Tasks
+
 ## Introduction
 Dans le monde dynamique de la gestion de projet, la gestion efficace des unités de travail est cruciale pour la réussite du projet. Aspose.Tasks for .NET fournit un ensemble d'outils puissants pour naviguer dans les informations sur les unités de travail, garantissant un contrôle précis sur les délais du projet et l'allocation des ressources.
 ## Conditions préalables
@@ -57,3 +63,9 @@ En conclusion, Aspose.Tasks for .NET permet aux développeurs de gérer de mani�
  Obtenez une licence temporaire pour Aspose.Tasks en visitant le[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 ### Quels avantages Aspose.Tasks offre-t-il pour la gestion des unités de travail ?
 Aspose.Tasks fournit un ensemble robuste de fonctionnalités pour travailler avec des unités de travail, permettant un contrôle précis sur les délais du projet, l'allocation des ressources et la gestion globale du projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

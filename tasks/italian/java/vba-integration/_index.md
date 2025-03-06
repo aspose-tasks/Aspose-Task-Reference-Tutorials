@@ -3,10 +3,16 @@ title: Integrazione VBA
 linktitle: Integrazione VBA
 second_title: API Java Aspose.Tasks
 description: Esplora Aspose.Tasks Java con l'integrazione VBA. Semplifica i flussi di lavoro dei progetti e migliora il monitoraggio delle attività. Esplora tutorial completi per una perfetta integrazione VBA!
-type: docs
 weight: 35
 url: /it/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrazione VBA
+
 
 ## introduzione
 
@@ -38,3 +44,9 @@ In conclusione, l'integrazione VBA in Aspose.Tasks per Java rappresenta un punto
 ## Tutorial sull'integrazione VBA
 ### [Lavora con l'integrazione VBA in Aspose.Tasks](./work-with-vba/)
 Migliora la gestione dei progetti con Aspose.Tasks per Java: sfrutta l'integrazione VBA per flussi di lavoro semplificati. Esplora ora per un monitoraggio efficiente delle attività!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

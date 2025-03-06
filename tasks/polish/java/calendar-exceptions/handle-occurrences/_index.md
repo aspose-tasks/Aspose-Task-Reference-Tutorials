@@ -3,10 +3,16 @@ title: Obsługuj wystąpienia w wyjątkach kalendarza za pomocą Aspose.Tasks
 linktitle: Obsługuj wystąpienia w wyjątkach kalendarza za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak skutecznie obsługiwać wyjątki kalendarza w projektach Java za pomocą Aspose.Tasks for Java. Usprawnij już teraz proces zarządzania projektami.
-type: docs
 weight: 12
 url: /pl/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj wystąpienia w wyjątkach kalendarza za pomocą Aspose.Tasks
+
 ## Wstęp
 zarządzaniu projektami radzenie sobie z wyjątkami w kalendarzach ma kluczowe znaczenie dla utrzymania dokładności i wydajności. Aspose.Tasks dla Java zapewnia potężny zestaw narzędzi do zarządzania zadaniami związanymi z projektami, w tym efektywną obsługą zdarzeń w kalendarzach. W tym samouczku omówimy, jak zarządzać wyjątkami w wydarzeniach kalendarza za pomocą Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -59,3 +65,9 @@ Aktualizacje i ulepszenia są regularnie wprowadzane przez Aspose, zapewniając 
 Tak, Aspose.Tasks oferuje szerokie opcje dostosowywania, umożliwiając użytkownikom dostosowanie wyjątków kalendarza do unikalnych potrzeb ich projektu.
 ### Czy Aspose.Tasks oferuje bezpłatną wersję próbną przed zakupem?
  Tak, zainteresowani użytkownicy mogą uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla Java z poziomu[strona internetowa](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

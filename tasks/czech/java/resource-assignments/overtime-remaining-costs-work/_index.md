@@ -3,10 +3,16 @@ title: Sledujte přesčasy, zbývající náklady a práci v Aspose.Tasks
 linktitle: Sledujte přesčasy, zbývající náklady a práci v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se sledovat přesčasy, zbývající náklady a práci v projektech Java pomocí Aspose.Tasks. Snadné kroky pro efektivní řízení projektů.
-type: docs
 weight: 18
 url: /cs/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sledujte přesčasy, zbývající náklady a práci v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se naučíme, jak používat Aspose.Tasks pro Javu ke sledování přesčasů, zbývajících nákladů a práce na projektu. To může být neocenitelné pro projektové manažery a vedoucí týmů, aby zajistili, že projekty zůstanou na správné cestě a v rámci rozpočtu.
 ## Předpoklady
@@ -73,3 +79,9 @@ Ano, Aspose.Tasks podporuje různé formáty projektových souborů včetně MPP
  Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) pro podporu.
 ### Jak si mohu zakoupit licenci pro Aspose.Tasks?
  Licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

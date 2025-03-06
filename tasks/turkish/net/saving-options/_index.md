@@ -3,10 +3,16 @@ title: Aspose.Tasks Kaydetme Seçenekleri
 linktitle: Aspose.Tasks Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project dosyalarını kaydedin, dönüştürün ve yönetin. HTML, görseller, PDF'ler, Primavera, şablonlar ve daha fazlası için adım adım eğitimleri keşfedin.
-type: docs
 weight: 20
 url: /tr/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kaydetme Seçenekleri
+
 
 ## giriiş
 
@@ -53,3 +59,9 @@ Ana Elektronik Tablo 2003 Aspose.Tasks for .NET ile MS Proje Seçeneklerini kayd
 Gelişmiş proje görselleştirmesi için Microsoft Project dosyalarının SVG temsillerini zahmetsizce oluşturmak amacıyla Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin.
 ### [Aspose.Tasks ile MSP'yi XPS Seçenekleri'ne dönüştürün](./xps-options/)
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarını XPS formatına nasıl dönüştüreceğinizi öğrenin. Kolay entegrasyon, sağlam işlevsellik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

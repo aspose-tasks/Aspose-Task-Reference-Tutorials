@@ -3,10 +3,16 @@ title: Stop and Resume Task in Aspose.Tasks
 linktitle: Stop and Resume Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore the power of Aspose.Tasks for Java with our step-by-step guide on stopping and resuming tasks. Enhance project management seamlessly!
-type: docs
 weight: 30
 url: /java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stop and Resume Task in Aspose.Tasks
+
 ## Introduction
 In the realm of Java development, managing tasks efficiently is a crucial aspect of project execution. Aspose.Tasks for Java provides a robust solution for handling tasks with its powerful features. In this tutorial, we will delve into one specific functionality - stopping and resuming tasks. By following this step-by-step guide, you'll be able to seamlessly integrate this feature into your Java projects.
 ## Prerequisites
@@ -69,3 +75,10 @@ Visit the [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) for communit
 Yes, you can access the [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
 ### How can I obtain a temporary license for Aspose.Tasks for Java?
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

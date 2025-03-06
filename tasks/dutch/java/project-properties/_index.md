@@ -3,10 +3,16 @@ title: Projecteigenschappen
 linktitle: Projecteigenschappen
 second_title: Aspose.Tasks Java-API
 description: Ontgrendel het potentieel van Aspose.Tasks voor Java met onze Tutorials voor projecteigenschappen. Extraheer, benut en manipuleer moeiteloos Microsoft Project-informatie.
-type: docs
 weight: 24
 url: /nl/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projecteigenschappen
+
 ## Invoering
 
 Ben je klaar om je Aspose.Tasks voor Java-vaardigheden naar een hoger niveau te tillen? Met onze Project Properties Tutorials kunt u het volledige potentieel van deze krachtige bibliotheek benutten, waarbij de nadruk ligt op drie belangrijke aspecten: het lezen van meta-eigenschappen, het extraheren van Microsoft Project-informatie en het beheersen van MS Project-manipulatie. Duik in deze tutorials om uw mogelijkheden voor Java-ontwikkeling en projectbeheer te verbeteren.
@@ -35,3 +41,9 @@ Ontgrendel de kracht van metadata in Aspose.Tasks-projecten met deze uitgebreide
 Leer hoe u Microsoft Project-informatie kunt extraheren met Aspose.Tasks voor Java. Verbeter moeiteloos projectbeheer in Java-applicaties.
 ### [Beheersing van MS-projectmanipulatie met Aspose.Tasks voor Java](./write-project-info/)
 Leer hoe u efficiënt MS Project-informatie kunt schrijven met Aspose.Tasks voor Java. Stapsgewijze handleiding voor Java-ontwikkelaars.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

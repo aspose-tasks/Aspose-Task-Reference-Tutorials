@@ -3,10 +3,16 @@ title: Aspose.Tasks에 CSS 저장 인수
 linktitle: Aspose.Tasks에 CSS 저장 인수
 second_title: Aspose.태스크 .NET API
 description: HTML 출력을 사용자 정의하기 위해 .NET용 Aspose.Tasks에 CSS 인수를 저장하는 방법을 알아보세요. 맞춤형 CSS 설정으로 프레젠테이션을 향상하세요.
-type: docs
 weight: 20
 url: /ko/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 CSS 저장 인수
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 CSS 인수를 저장하는 과정을 자세히 살펴보겠습니다. CSS(Cascading Style Sheets)는 HTML 요소의 표현을 정의하는 데 중요합니다. Aspose.Tasks를 사용하면 이러한 CSS 속성을 효율적으로 조작하고 저장할 수 있습니다.
@@ -118,3 +124,9 @@ A4: 다음을 참조할 수 있습니다.[선적 서류 비치](https://referenc
 ### Q5: Aspose.Tasks for .NET은 개발자를 지원합니까?
 
  A5: 예, Aspose.Tasks 커뮤니티에서 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

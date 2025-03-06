@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập dự án trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập nhóm trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý bộ sưu tập MS Project một cách hiệu quả bằng Aspose.Tasks cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 26
 url: /vi/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập dự án trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các bộ sưu tập MS Project nhóm bằng Aspose.Tasks cho .NET. Quản lý bộ sưu tập nhóm là rất quan trọng để tổ chức và thao tác các nhiệm vụ và tài nguyên một cách hiệu quả trong dự án của bạn.
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Aspose.Tasks for .NET chủ yếu nhắm vào .NET framework, nhưng nó có th�
  Bạn có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Эффективное управление стоимостью зада
 linktitle: Обработка стоимости назначения в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно управлять затратами на назначения в Aspose.Tasks для Java. Пошаговое руководство по эффективному управлению ресурсами проекта.
-type: docs
 weight: 12
 url: /ru/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффективное управление стоимостью заданий с помощью Aspose.Tasks
+
 ## Введение
 Эффективное управление затратами на выполнение заданий имеет решающее значение для задач управления проектами. Aspose.Tasks for Java предоставляет мощные функции для эффективного управления затратами на выполнение заданий. В этом руководстве мы шаг за шагом проведем вас через процесс управления стоимостью заданий с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  О: Да, вы можете загрузить бесплатную пробную версию с сайта[Веб-сайт](https://releases.aspose.com/).
 ### Вопрос: Нужна ли мне временная лицензия для использования Aspose.Tasks for Java в пробной версии?
 О: Нет, для пробного использования временная лицензия не требуется. Однако его рекомендуется использовать в производственных средах.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

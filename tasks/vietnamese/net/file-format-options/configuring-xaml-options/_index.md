@@ -3,10 +3,16 @@ title: Định cấu hình tùy chọn MS Project XAML với Aspose.Tasks cho .N
 linktitle: Định cấu hình tùy chọn XAML trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình các tùy chọn MS Project XAML trong Aspose.Tasks cho .NET. Nâng cao tính linh hoạt và tùy chỉnh trong quản lý dự án với hướng dẫn từng bước.
-type: docs
 weight: 10
 url: /vi/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình tùy chọn MS Project XAML với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc quản lý các nhiệm vụ dự án một cách hiệu quả là rất quan trọng để hoàn thành dự án thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý các tác vụ quản lý dự án một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc định cấu hình các tùy chọn MS Project XAML bằng Aspose.Tasks cho .NET. 
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ tích hợp với nhiều cô
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
 
  Trả lời: Bạn có thể mua Aspose.Tasks cho .NET từ[liên kết này](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

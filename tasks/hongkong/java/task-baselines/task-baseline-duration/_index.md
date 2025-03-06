@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任務基線持續時間管理
 linktitle: Aspose.Tasks 中的任務基線持續時間管理
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 在 MS Project 中高效管理任務基準。本教學將引導您逐步完成流程。
-type: docs
 weight: 12
 url: /zh-hant/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任務基線持續時間管理
+
 ## 介紹
 在 MS Project 中管理任務基線對於專案規劃和追蹤至關重要。在本教程中，我們將探討如何使用 Aspose.Tasks for Java 有效管理任務基線持續時間。
 ## 先決條件
@@ -76,3 +82,9 @@ MS Project 中的任務基準是任務的初始計畫時間表的快照，包括
 是的，Aspose.Tasks 為專案管理提供了廣泛的功能，包括任務排程、資源分配和甘特圖產生。
 ### 在哪裡可以找到對 Aspose.Tasks 的支援？
 您可以在以下位置找到對 Aspose.Tasks 的支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)，您可以在其中提出問題並與其他用戶互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

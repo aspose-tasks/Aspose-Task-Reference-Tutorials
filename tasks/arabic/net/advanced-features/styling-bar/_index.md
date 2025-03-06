@@ -3,10 +3,16 @@ title: شريط التصميم في Aspose.Tasks
 linktitle: شريط التصميم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تصميم الأشرطة في Aspose.Tasks لـ .NET لتحسين تصور المشروع.
-type: docs
 weight: 19
 url: /ar/net/advanced-features/styling-bar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شريط التصميم في Aspose.Tasks
+
 ## مقدمة
 
 تعد أشرطة التصميم في Aspose.Tasks جانبًا أساسيًا لإنشاء خطط مشروع جذابة بصريًا. بفضل المرونة التي توفرها واجهة Aspose.Tasks API، يمكن للمطورين تخصيص جوانب مختلفة من الأشرطة، مثل اللون والشكل ونمط النص، لتحسين تصور المشروع. في هذا البرنامج التعليمي، سوف نستكشف كيفية تصميم الأشرطة باستخدام Aspose.Tasks لـ .NET، مع تقسيم كل مثال إلى خطوات يمكن التحكم فيها.
@@ -127,3 +133,9 @@ project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 ### س5: هل يمكنني استرداد أنماط الشريط الموجودة وتعديلها داخل مشروع باستخدام واجهة برمجة التطبيقات (API)؟
 
 ج5: نعم، يمكنك استرداد أنماط الشريط الموجودة وتعديلها برمجيًا باستخدام Aspose.Tasks لـ .NET API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

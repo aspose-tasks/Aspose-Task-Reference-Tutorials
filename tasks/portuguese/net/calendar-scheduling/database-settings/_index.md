@@ -3,10 +3,16 @@ title: Configurações de banco de dados em Aspose.Tasks
 linktitle: Configurações de banco de dados em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como importar projetos de um banco de dados Primavera usando Aspose.Tasks for .NET. Obtenha orientação passo a passo neste tutorial abrangente.
-type: docs
 weight: 29
 url: /pt/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurações de banco de dados em Aspose.Tasks
+
 ## Introdução
 
 Aspose.Tasks for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project em seus aplicativos .NET. Neste tutorial, focaremos na importação de projetos de um banco de dados Primavera usando Aspose.Tasks.
@@ -100,3 +106,9 @@ A1: Sim, você pode importar projetos de vários provedores de banco de dados aj
 ### Q5: Preciso de uma licença temporária para usar o Aspose.Tasks for .NET?
 
  R5: Se quiser avaliar a funcionalidade completa da biblioteca, você pode obter uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

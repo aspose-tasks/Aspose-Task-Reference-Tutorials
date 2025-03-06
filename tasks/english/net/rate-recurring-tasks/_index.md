@@ -3,10 +3,16 @@ title: Aspose.Tasks Rate Management and Recurring Tasks
 linktitle: Aspose.Tasks Rate Management and Recurring Tasks
 second_title: Aspose.Tasks .NET API
 description: Master MS Project rate management and recurring tasks with Aspose.Tasks .NET. Learn to automate tasks, handle rates, and manage split parts for project workflows.
-type: docs
 weight: 28
 url: /net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Rate Management and Recurring Tasks
+
 
 ## Introduction
 
@@ -67,3 +73,9 @@ Learn how to save MS Project files in various formats using Aspose.Tasks for .NE
 Learn how to handle MS Project split parts efficiently with Aspose.Tasks for .NET. Enhance your project management workflow.
 ### [Collect MS Project of Split Parts in Aspose.Tasks](./split-part-collection/)
 Learn how to collect split parts in MS Project using Aspose.Tasks for .NET. This comprehensive tutorial guides you through the process step-by-step.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

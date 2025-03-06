@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트의 위험 패턴 관리
 linktitle: Aspose.Tasks의 위험 패턴 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 위험 패턴을 효과적으로 분석하고 조작하는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/net/resource-risk-analysis/risk-pattern-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트의 위험 패턴 관리
+
 ## 소개
 Aspose.Tasks for .NET은 Microsoft Project 파일 내의 위험 패턴을 관리하고 분석하기 위한 포괄적인 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 활용하여 프로젝트의 위험 패턴을 효과적으로 작업하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -106,3 +112,9 @@ A: 물론 Aspose.Tasks는 다른 .NET 프레임워크와 원활하게 통합되�
  A: 예, Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/)구매하기 전에 기능을 탐색할 수 있습니다.
 ### Q: Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  A: Aspose.Tasks 포럼에서 포괄적인 지원과 지원을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15)에서 전문가 및 동료 사용자와 상호 작용하여 쿼리와 문제를 해결할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Feladatbázisok
 linktitle: Feladatbázisok
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks Java-t Task Baseline oktatóanyagainkkal. Egyszerűsítse a feladatütemezést, hozzon létre MS Project feladatok alapvonalait, és kezelje az alapidőtartam kezelését.
-type: docs
 weight: 32
 url: /hu/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladatbázisok
+
 ## Bevezetés
 Induljon el egy utazásra, hogy fejlessze projektmenedzsment-készségeit az Aspose.Tasks for Java segítségével. Ebben az oktatóanyag-sorozatban mélyen belemerülünk a feladatok alapvonalainak bonyolultságába, értékes betekintést és gyakorlati ismereteket nyújtva Önnek. Fedezzük fel az átfogó útmutatót alkotó legfontosabb oktatóanyagokat.
 
@@ -51,3 +57,9 @@ Ismerje meg, hogyan ütemezheti hatékonyan a feladatok alapvonalait az Aspose.T
 Ismerje meg, hogyan hozhat létre Microsoft Project-feladatbázist Java nyelven az Aspose.Tasks segítségével, amely egy hatékony könyvtár a projektadatok könnyű kezeléséhez.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Ismerje meg, hogyan kezelheti hatékonyan az alapfeladatokat az MS Projectben az Aspose.Tasks for Java használatával. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

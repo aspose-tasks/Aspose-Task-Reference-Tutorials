@@ -3,10 +3,16 @@ title: Calcoli percentuali di completamento per le attività in Aspose.Tasks
 linktitle: Calcoli percentuali di completamento per le attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora Aspose.Tasks per Java e semplifica il monitoraggio dell'avanzamento del progetto. Calcola facilmente le percentuali delle attività per una gestione efficiente dei progetti.
-type: docs
 weight: 25
 url: /it/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcoli percentuali di completamento per le attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nella nostra guida approfondita sulla padronanza dei calcoli della percentuale delle attività utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java progettata per lavorare con file Microsoft Project, offrendo un robusto set di funzionalità per la gestione dei progetti. In questo tutorial ci concentreremo sui calcoli della percentuale di completamento, fornendoti le conoscenze per monitorare e analizzare in modo efficace l'avanzamento del progetto.
 ## Prerequisiti
@@ -63,3 +69,9 @@ Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
  Visita il forum di supporto[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Come posso ottenere una licenza temporanea?
  È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

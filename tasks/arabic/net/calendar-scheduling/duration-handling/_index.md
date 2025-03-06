@@ -3,10 +3,16 @@ title: التعامل مع المدة في Aspose.Tasks
 linktitle: التعامل مع المدة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع الفترات بشكل فعال في Aspose.Tasks لـ .NET من خلال البرامج التعليمية خطوة بخطوة.
-type: docs
 weight: 30
 url: /ar/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع المدة في Aspose.Tasks
+
 ## مقدمة
 
 يعد التعامل مع الفترات بشكل فعال أمرًا بالغ الأهمية في تطبيقات إدارة المشاريع. يوفر Aspose.Tasks for .NET وظائف قوية لإدارة الفترات بكفاءة. في هذا البرنامج التعليمي، سوف نستكشف الجوانب المختلفة للتعامل مع المدة باستخدام Aspose.Tasks لـ .NET.
@@ -156,3 +162,9 @@ A1: Aspose.Tasks for .NET هي مكتبة قوية للعمل مع ملفات Mi
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
 
 ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks لـ .NET من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

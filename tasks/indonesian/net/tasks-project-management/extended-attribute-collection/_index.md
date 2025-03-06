@@ -3,10 +3,16 @@ title: Kelola Koleksi Atribut Proyek MS di Aspose.Tasks
 linktitle: Mengelola Koleksi Atribut yang Diperluas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola atribut tambahan MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Memanipulasi atribut tugas secara lancar dengan panduan langkah demi langkah.
-type: docs
 weight: 12
 url: /id/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Koleksi Atribut Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda ingin mengelola atribut tambahan MS Project secara efisien menggunakan Aspose.Tasks untuk .NET? Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah. Ayo selami!
 ## Prasyarat
@@ -105,3 +111,9 @@ J: Tentu saja! Aspose.Tasks untuk .NET memungkinkan Anda menentukan bidang atrib
 J: Ya, Aspose.Tasks untuk .NET mendukung format file MS Project di berbagai versi.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
  J: Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

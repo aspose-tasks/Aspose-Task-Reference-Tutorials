@@ -3,10 +3,16 @@ title: Dados faseados no tempo da tarefa em Aspose.Tasks
 linktitle: Dados faseados no tempo da tarefa em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore Aspose.Tasks para Java e domine o gerenciamento de dados em fases de tarefas. Baixe a biblioteca, aproveite uma avaliação gratuita e agilize o acompanhamento do seu projeto.
-type: docs
 weight: 34
 url: /pt/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dados faseados no tempo da tarefa em Aspose.Tasks
+
 ## Introdução
 No domínio do gerenciamento de projetos, o rastreamento preciso dos dados faseados das tarefas é crucial para a execução eficiente do projeto. Aspose.Tasks for Java surge como uma ferramenta poderosa para agilizar esse processo, oferecendo recursos robustos e flexibilidade. Este tutorial irá guiá-lo na utilização do Aspose.Tasks for Java para gerenciar dados de tarefas em fases de maneira eficaz.
 ## Pré-requisitos
@@ -104,3 +110,9 @@ R: Sim, Aspose.Tasks for Java é compatível com qualquer projeto baseado em Jav
  R: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso comprar o Aspose.Tasks para Java?
  R: Você pode comprar Aspose.Tasks para Java[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

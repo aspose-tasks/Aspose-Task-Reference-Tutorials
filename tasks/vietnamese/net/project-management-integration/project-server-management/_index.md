@@ -3,10 +3,16 @@ title: Quản lý MS Project Server với Aspose.Tasks
 linktitle: Quản lý máy chủ dự án với Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Mở khóa khả năng quản lý MS Project Server liền mạch với Aspose.Tasks cho .NET. Tự động hóa các nhiệm vụ dự án một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý MS Project Server với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc quản lý MS Project Server bằng Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình, cho phép tích hợp và thao tác liền mạch dữ liệu dự án.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cung cấp hỗ trợ toàn di�
 Trả lời: Có, Aspose.Tasks cho phép bạn tự động hóa việc tạo báo cáo tùy chỉnh dựa trên dữ liệu dự án, tạo điều kiện thuận lợi cho việc giám sát và phân tích dự án hiệu quả.
 ### Hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
  Trả lời: Có, bạn có thể khám phá các khả năng của Aspose.Tasks bằng cách truy cập bản dùng thử miễn phí từ[trang mạng](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

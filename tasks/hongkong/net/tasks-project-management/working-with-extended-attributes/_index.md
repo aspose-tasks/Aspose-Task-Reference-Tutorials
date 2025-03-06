@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 操作 MS Project 擴充屬性
 linktitle: 在 Aspose.Tasks 中使用擴充屬性
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 來處理 MS Project 擴充屬性。以程式設計方式輕鬆操作任務資料。
-type: docs
 weight: 11
 url: /zh-hant/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 操作 MS Project 擴充屬性
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員以程式設計方式操作 Microsoft Project 檔案。該庫的主要功能之一是它能夠使用 MS Project 擴充屬性。擴充屬性為專案中的任務提供額外的自訂和元數據，使用戶能夠儲存和管理標準任務屬性以外的特定資訊。
 在本教程中，我們將探索如何使用 Aspose.Tasks for .NET 來處理 MS Project 擴充屬性。我們將介紹先決條件、匯入命名空間，並以逐步指南的形式將每個範例分解為多個步驟。學完本教學後，您將深入了解如何在 .NET 應用程式中利用擴充屬性。
@@ -72,3 +78,9 @@ foreach (var task in project.RootTask.Children)
 是的，Aspose.Tasks for .NET 提供了廣泛的功能來自訂擴充屬性以滿足您專案的特定需求。
 ### 如果在使用 Aspose.Tasks for .NET 時遇到任何問題，我可以在哪裡獲得支援？
 您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

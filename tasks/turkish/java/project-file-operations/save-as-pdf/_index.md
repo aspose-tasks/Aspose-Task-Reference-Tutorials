@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta PDF Olarak Kaydet
 linktitle: Aspose.Tasks'ta PDF Olarak Kaydet
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak proje dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Verimli dönüşüm için basit adımlar.
-type: docs
 weight: 17
 url: /tr/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta PDF Olarak Kaydet
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak bir projeyi PDF olarak kaydetme sürecinde size rehberlik edeceğiz. Aspose.Tasks ile proje dosyalarınızı verimli bir şekilde PDF formatına dönüştürebilir, uyumluluk ve paylaşım kolaylığı sağlayabilirsiniz. Adımlara geçelim:
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Evet, Aspose.Tasks, MPP, XML, XLSX ve daha fazlasını içeren çok çeşitli
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nereden destek alabilirim?
  C: Destek ve yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: プロジェクトファイルの操作
 linktitle: プロジェクトファイルの操作
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project のレイアウトを簡単に最適化します。ギャップの削減、データのレンダリング、カレンダーの置き換えなどに関するステップバイステップのチュートリアルを学習します。
-type: docs
 weight: 29
 url: /ja/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プロジェクトファイルの操作
+
 ## 導入
 Java プロジェクト管理機能を強化したいと考えていますか?さまざまなプロジェクト ファイル操作に焦点を当てた、Aspose.Tasks for Java に関する包括的なチュートリアルを詳しく見てみましょう。タスク リストのギャップの削減から MS Project ビューのカスタマイズまで、あらゆるニーズに対応します。
 
@@ -94,3 +100,9 @@ Aspose.Tasks for Java を使用してカスタム MS Project ビューを簡単�
 Aspose.Tasks for Java で平日のプロパティを効率的に管理する方法を学びます。週の開始日、月の日数などを簡単にカスタマイズできます。
 ### [MPP プロジェクトの概要を Aspose.Tasks に書き込む](./write-mpp-project-summary/)
 Aspose.Tasks を使用して Java で MPP プロジェクトの概要を作成する方法を学びます。プロジェクト情報を簡単に設定および取得できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

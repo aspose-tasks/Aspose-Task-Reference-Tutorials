@@ -3,10 +3,16 @@ title: Read Work Weeks from MS Project Calendar with Aspose.Tasks
 linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to read work weeks from MS Project calendar using Aspose.Tasks for Java. Get step-by-step instructions in this comprehensive tutorial.
-type: docs
 weight: 15
 url: /java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read Work Weeks from MS Project Calendar with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to use Aspose.Tasks for Java to read work weeks information from a Microsoft Project calendar. Aspose.Tasks is a powerful Java library that allows you to manipulate and manage Microsoft Project documents programmatically.
 ## Prerequisites
@@ -65,3 +71,10 @@ Absolutely, Aspose.Tasks can be seamlessly integrated with other Java frameworks
 Yes, you can download a free trial version of Aspose.Tasks from [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Tasks?
 You can find support and assistance on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

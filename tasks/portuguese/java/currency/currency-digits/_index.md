@@ -3,10 +3,16 @@ title: Lidar com dígitos monetários com Aspose.Tasks
 linktitle: Lidar com dígitos monetários com Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como lidar com dígitos monetários do MS Project de forma eficiente usando Aspose.Tasks para Java. Guia passo a passo com exemplos de código.
-type: docs
 weight: 11
 url: /pt/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com dígitos monetários com Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao nosso tutorial abrangente sobre como lidar com dígitos monetários do MS Project usando Aspose.Tasks para Java. Neste tutorial, iremos guiá-lo passo a passo pelo processo, garantindo que você compreenda cada conceito completamente.
 ## Pré-requisitos
@@ -56,3 +62,9 @@ Sim, você pode usar Aspose.Tasks for Java em diferentes plataformas que suporta
  Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 ### Onde posso obter suporte para Aspose.Tasks?
  Você pode encontrar suporte no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

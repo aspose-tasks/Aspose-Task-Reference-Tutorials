@@ -3,10 +3,16 @@ title: Utökade uppgiftsattribut i Aspose.Tasks
 linktitle: Utökade uppgiftsattribut i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska utökade uppgiftsattribut i Aspose.Tasks för Java. Steg-för-steg-guide, vanliga frågor och support. Optimera din projektledning idag!
-type: docs
 weight: 16
 url: /sv/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utökade uppgiftsattribut i Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår omfattande guide om hur du använder utökade uppgiftsattribut i Aspose.Tasks för Java. Aspose.Tasks är ett kraftfullt Java-bibliotek som låter dig arbeta med Microsoft Project-dokument sömlöst. I den här handledningen kommer vi att fördjupa oss i de utökade uppgiftsattributen och visa hur du kan använda dem för att förbättra dina projektledningsmöjligheter.
 ## Förutsättningar
@@ -73,3 +79,9 @@ Ja, du kan ändra utökade uppgiftsattribut med Aspose.Tasks för Java. Se dokum
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag köpa den fullständiga versionen av Aspose.Tasks för Java?
  Du kan köpa den fullständiga versionen[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

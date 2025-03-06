@@ -3,10 +3,16 @@ title: Manejo del guardado de imágenes en Aspose.Tasks
 linktitle: Manejo del guardado de imágenes en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a guardar imágenes en Aspose.Tasks para .NET siguiendo instrucciones paso a paso. Integre perfectamente la funcionalidad de guardar imágenes en sus aplicaciones .NET.
-type: docs
 weight: 10
 url: /es/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo del guardado de imágenes en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, profundizaremos en el proceso de manejo del guardado de imágenes en Aspose.Tasks para .NET. Aspose.Tasks es una potente API que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación. Una tarea común cuando se trabaja con archivos de proyecto es la necesidad de guardar imágenes, que pueden incluir cuadros, gráficos u otros elementos visuales. Desglosaremos el proceso paso a paso, garantizando claridad y comprensión en todo momento.
@@ -131,3 +137,9 @@ R4: Sí, puede personalizar la apariencia de las imágenes guardadas modificando
 ### P5: ¿Aspose.Tasks ofrece versiones de prueba con fines de evaluación?
 
  R5: Sí, puede obtener una prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

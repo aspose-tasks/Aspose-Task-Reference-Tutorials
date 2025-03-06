@@ -3,10 +3,16 @@ title: إعدادات قاعدة بيانات Microsoft Project في Aspose.Task
 linktitle: إعدادات قاعدة بيانات Microsoft Project في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات قاعدة بيانات Microsoft Project باستخدام Aspose.Tasks لتحقيق التكامل السلس في تطبيقات .NET.
-type: docs
 weight: 19
 url: /ar/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعدادات قاعدة بيانات Microsoft Project في Aspose.Tasks
+
 ## مقدمة
 
 إذا كنت تعمل مع قواعد بيانات Microsoft Project في تطبيقات .NET الخاصة بك باستخدام Aspose.Tasks، فستحتاج إلى تكوين الإعدادات اللازمة لاستيراد بيانات المشروع بسلاسة. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة.
@@ -99,3 +105,9 @@ project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mp
 ### س5: أين يمكنني العثور على وثائق أكثر تفصيلاً حول استخدام Aspose.Tasks؟
 
  ج5: يمكنك استكشاف الوثائق الشاملة[هنا](https://reference.aspose.com/tasks/net/) للحصول على رؤى تفصيلية حول وظائف Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Расчеты процента выполнения задач в Aspose
 linktitle: Расчеты процента выполнения задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите Aspose.Tasks для Java и упростите отслеживание хода выполнения проекта. Легко рассчитывайте процент задач для эффективного управления проектами.
-type: docs
 weight: 25
 url: /ru/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расчеты процента выполнения задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше подробное руководство по расчету процента задач с использованием Aspose.Tasks для Java. Aspose.Tasks — это мощная библиотека Java, предназначенная для работы с файлами Microsoft Project и предлагающая надежный набор функций для управления проектами. В этом руководстве мы сосредоточимся на расчетах процента завершения, что предоставит вам знания для эффективного мониторинга и анализа хода проекта.
 ## Предварительные условия
@@ -63,3 +69,9 @@ for (Task tsk : alTasks) {
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Как мне получить временную лицензию?
  Вы можете приобрести временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

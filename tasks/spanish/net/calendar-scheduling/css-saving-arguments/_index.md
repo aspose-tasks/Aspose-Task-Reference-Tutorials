@@ -3,10 +3,16 @@ title: Argumentos de guardado de CSS en Aspose.Tasks
 linktitle: Argumentos de guardado de CSS en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a guardar argumentos CSS en Aspose.Tasks para .NET para personalizar la salida HTML. Mejore la presentación con configuraciones CSS personalizadas.
-type: docs
 weight: 20
 url: /es/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Argumentos de guardado de CSS en Aspose.Tasks
+
 ## Introducción
 
 En este tutorial, profundizaremos en el proceso de guardar argumentos CSS usando Aspose.Tasks para .NET. Las hojas de estilo en cascada (CSS) son cruciales para definir la presentación de elementos HTML. Aspose.Tasks nos permite manipular y guardar estos atributos CSS de manera eficiente.
@@ -118,3 +124,9 @@ A4: Puede consultar el[documentación](https://reference.aspose.com/tasks/net/) 
 ### P5: ¿Aspose.Tasks para .NET ofrece soporte para desarrolladores?
 
  R5: Sí, puede obtener soporte de la comunidad Aspose.Tasks a través de[foro](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Weekdays στο Aspose.Tasks για .NET
 linktitle: Καθορισμός εργάσιμων ημερών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τη δύναμη του ορισμού των καθημερινών στο Aspose.Tasks .NET. Ακολουθήστε το αναλυτικό μας σεμινάριο για να διαχειριστείτε αποτελεσματικά τα ημερολόγια έργων, να προσαρμόσετε τους χρόνους εργασίας και πολλά άλλα.
-type: docs
 weight: 10
 url: /el/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Weekdays στο Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Εάν βυθίζεστε στον κόσμο της διαχείρισης έργων χρησιμοποιώντας το Aspose.Tasks για .NET, η κατανόηση και ο χειρισμός των καθημερινών είναι μια κρίσιμη πτυχή. Η αποτελεσματική διαχείριση και προσαρμογή των καθημερινών στο ημερολόγιο του έργου σας μπορεί να επηρεάσει σημαντικά τα χρονοδιαγράμματα του έργου. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία καθορισμού των εργάσιμων ημερών χρησιμοποιώντας το Aspose.Tasks, παρέχοντας οδηγίες βήμα προς βήμα και παραδείγματα για καλύτερη σαφήνεια.
 ## Προαπαιτούμενα
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 Ναι, τυχόν τροποποιήσεις στις καθημερινές αντικατοπτρίζονται στο αρχείο του έργου όταν αποθηκεύονται.
 ### Μπορώ να χρησιμοποιήσω το Aspose.Tasks με άλλες γλώσσες προγραμματισμού;
 Το Aspose.Tasks υποστηρίζει διάφορες γλώσσες προγραμματισμού, αλλά τα παραδείγματα εδώ είναι ειδικά για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

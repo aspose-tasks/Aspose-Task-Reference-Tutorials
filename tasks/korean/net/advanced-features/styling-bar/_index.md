@@ -3,10 +3,16 @@ title: Aspose.Tasks의 스타일링 바
 linktitle: Aspose.Tasks의 스타일링 바
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 시각화를 향상시키기 위해 .NET용 Aspose.Tasks에서 막대 스타일을 지정하는 방법을 알아보세요.
-type: docs
 weight: 19
 url: /ko/net/advanced-features/styling-bar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 스타일링 바
+
 ## 소개
 
 Aspose.Tasks의 스타일 바는 시각적으로 매력적인 프로젝트 계획을 만드는 데 필수적인 측면입니다. Aspose.Tasks API가 제공하는 유연성을 통해 개발자는 색상, 모양, 텍스트 스타일 등 막대의 다양한 측면을 사용자 정의하여 프로젝트 시각화를 향상시킬 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 막대 스타일을 지정하는 방법을 살펴보고 각 예제를 관리 가능한 단계로 분류합니다.
@@ -127,3 +133,9 @@ A4: Aspose.Tasks는 기본 막대 스타일을 제공하지만 개발자는 프�
 ### Q5: API를 사용하여 프로젝트 내의 기존 막대 스타일을 검색하고 수정할 수 있습니까?
 
 A5: 예, Aspose.Tasks for .NET API를 사용하여 프로그래밍 방식으로 기존 막대 스타일을 검색하고 수정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

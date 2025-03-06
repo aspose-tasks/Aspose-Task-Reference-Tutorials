@@ -3,10 +3,16 @@ title: Ссылки на задачи
 linktitle: Ссылки на задачи
 second_title: API Aspose.Tasks Java
 description: Изучите Aspose.Tasks для Java с помощью наших руководств. Улучшите сотрудничество, определите типы ссылок и легко управляйте задачами. Повысьте эффективность своего проекта прямо сейчас!
-type: docs
 weight: 33
 url: /ru/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ссылки на задачи
+
 ## Введение
 
 Если вы погружаетесь в мир управления проектами Java, Aspose.Tasks — ваш идеальный инструмент. Наши подробные учебные пособия помогут вам освоить различные аспекты, обеспечивая оптимальное использование библиотеки Aspose.Tasks for Java.
@@ -38,3 +44,9 @@ url: /ru/java/task-links/
 Изучите идентификацию межпроектных задач с помощью Aspose.Tasks для Java. Бесшовная интеграция и эффективное управление. Скачать сейчас!
 ### [Управляйте задачами-предшественниками и преемниками в Aspose.Tasks](./predecessor-successor-tasks/)
 Изучите эффективное управление задачами с помощью Aspose.Tasks для Java. Легко справляйтесь с задачами-предшественниками и преемниками в своих проектах. Загрузите бесплатную пробную версию прямо сейчас!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 뷰 열 마스터링
 linktitle: Aspose.Tasks에서 뷰 열 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 시각화를 향상하세요. MS 프로젝트 보기 열을 단계별로 처리하는 방법을 알아보세요. 효율성과 맞춤화를 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 뷰 열 마스터링
+
 ## 소개
 프로젝트 관리 영역에서 Aspose.Tasks for .NET은 Microsoft Project 파일을 처리하기 위한 강력한 툴킷으로 돋보입니다. 프로젝트 시각화의 필수 측면 중 하나는 뷰 열을 효율적으로 관리하는 것입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 보기 열을 처리하여 프로젝트 보기를 사용자 정의하고 최적화하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -80,3 +86,9 @@ A: Aspose.Tasks는 주로 Microsoft Project 파일에 중점을 둡니다. 그�
  답:`MyTextStyleCallback` 클래스는 특정 뷰에서 향상된 시각적 표현을 위해 텍스트 스타일을 사용자 정의하는 방법을 보여줍니다.
 ### Q: Aspose.Tasks에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
  답: 다음을 참조하세요.[Aspose.Tasks 문서](https://reference.aspose.com/tasks/net/) 자세한 지침과 리소스를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

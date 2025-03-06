@@ -3,10 +3,16 @@ title: แทนที่ปฏิทินโครงการ MS ใน Aspos
 linktitle: แทนที่ปฏิทินใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีแทนที่ปฏิทิน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 12
 url: /th/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แทนที่ปฏิทินโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีการแทนที่ปฏิทิน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถจัดการไฟล์ Microsoft Project โดยทางโปรแกรม งานทั่วไปอย่างหนึ่งในการจัดการโครงการคือการปรับแต่งปฏิทิน และ Aspose.Tasks จะทำให้กระบวนการนี้ง่ายขึ้นอย่างมาก
 ## ข้อกำหนดเบื้องต้น
@@ -76,3 +82,9 @@ System.out.println("Process completed Successfully");
  ตอบ: ได้ คุณสามารถเข้าถึง Aspose.Tasks for Java รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันสามารถขอรับการสนับสนุนหรือความช่วยเหลือเกี่ยวกับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมฟอรัม Aspose.Tasks ได้[ที่นี่](https://forum.aspose.com/c/tasks/15) เพื่อรับการสนับสนุนและคำแนะนำจากชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

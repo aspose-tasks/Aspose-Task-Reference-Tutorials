@@ -3,10 +3,16 @@ title: การรวบรวมโครงการ MS ของรหัส
 linktitle: การรวบรวมรหัสโครงร่างใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีรวบรวมโค้ดโครงร่างของ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้ให้คำแนะนำทีละขั้นตอน
-type: docs
 weight: 11
 url: /th/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวบรวมโครงการ MS ของรหัสเค้าร่างใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการรวบรวมโค้ดโครงร่างของ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET เราจะแบ่งกระบวนการออกเป็นคำแนะนำทีละขั้นตอนเพื่อให้มั่นใจถึงความชัดเจนและความเข้าใจ
 ## ข้อกำหนดเบื้องต้น
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 ตอบ: แน่นอนว่า Aspose.Tasks สำหรับ .NET มีตัวเลือกมากมายสำหรับการปรับแต่งรูปแบบเอาต์พุตตามความต้องการของคุณ
 ### ถาม: ฉันจะค้นหาการสนับสนุนหรือแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับความช่วยเหลือหรือข้อสงสัยเกี่ยวกับ Aspose.Tasks สำหรับ .NET
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

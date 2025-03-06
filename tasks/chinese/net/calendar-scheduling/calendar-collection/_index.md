@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理日历集合
 linktitle: 在 Aspose.Tasks 中管理日历集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中高效管理日历集合。轻松创建、修改和操作日历。
-type: docs
 weight: 11
 url: /zh/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理日历集合
+
 ## 介绍
 
 在本教程中，我们将探讨如何在 Aspose.Tasks for .NET 中管理日历集合。日历在项目管理、定义工作日、假期和例外情况中发挥着至关重要的作用。 Aspose.Tasks 提供了强大的功能来操作项目中的日历。
@@ -160,3 +166,9 @@ A4：是的，Aspose.Tasks 允许将日历导出为各种格式，如 XML、MPP 
 ### Q5：我可以在日历中自定义特定日期的工作时间吗？
 
 A5：当然，您可以使用日历中的例外情况来定义单日的工作时间。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Kalender und Terminplanung
 linktitle: Aspose.Tasks Kalender und Terminplanung
 second_title: Aspose.Tasks .NET-API
 description: Verwalten Sie Projektkalender, berechnen Sie die Dauer und behandeln Sie Ausnahmen mit Aspose.Tasks für .NET. Entdecken Sie Schritt-für-Schritt-Anleitungen für Kalender- und Planungsaufgaben.
-type: docs
 weight: 22
 url: /de/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kalender und Terminplanung
+
 ## Einführung
 
 Willkommen in der Welt der Aspose.Tasks für .NET-Tutorials, Ihrer Anlaufstelle für die Beherrschung der Feinheiten der Kalenderverwaltung und -planung in Ihren .NET-Projekten. Aspose.Tasks stellt Entwicklern robuste Tools zur Verfügung, mit denen sie mühelos Projektkalender verwalten, Dauer berechnen und Ausnahmen verwalten können. In dieser umfassenden Sammlung von Tutorials befassen wir uns mit verschiedenen Aspekten, von der Arbeit mit Kalendern und der Verwaltung von Ausnahmen bis hin zur Untersuchung spezieller Themen wie Ausnahmen für zusammengesetzte Dokumentkopfzeilen und Positionen von Währungssymbolen. Ganz gleich, ob Sie ein erfahrener Entwickler sind, der erweiterte Einblicke sucht, oder ein Neuling, der seine Projektmanagementfähigkeiten verbessern möchte, diese Tutorials bieten Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis. Begeben wir uns auf eine Reise, um das volle Potenzial von Aspose.Tasks für .NET auszuschöpfen und Ihre Projektmanagementfähigkeiten zu verbessern. Bereit zum Eintauchen? Lass uns anfangen!
@@ -135,3 +141,9 @@ Erfahren Sie, wie Sie Tagestypsammlungen in Aspose.Tasks für .NET effizient ver
 Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Projekte aus einer Primavera-Datenbank importieren. Erhalten Sie eine Schritt-für-Schritt-Anleitung in diesem umfassenden Tutorial.
 ### [Dauerbehandlung in Aspose.Tasks](./duration-handling/)
 Erfahren Sie anhand von Schritt-für-Schritt-Anleitungen, wie Sie Dauern in Aspose.Tasks für .NET effektiv handhaben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

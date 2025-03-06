@@ -3,10 +3,16 @@ title: Recuperar información del archivo de MS Project en Aspose.Tasks
 linktitle: Recuperar información del archivo del proyecto en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda cómo recuperar información de archivos de Microsoft Project usando Aspose.Tasks para .NET. Guía paso a paso con ejemplos de código.
-type: docs
 weight: 19
 url: /es/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar información del archivo de MS Project en Aspose.Tasks
+
 ## Introducción
 Bienvenido a nuestra guía paso a paso sobre cómo recuperar información de archivos de Microsoft Project usando Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores .NET trabajar con archivos de Microsoft Project mediante programación, permitiendo tareas como leer, escribir y manipular datos del proyecto.
 ## Requisitos previos
@@ -58,3 +64,9 @@ Por supuesto, Aspose.Tasks proporciona amplias capacidades para leer, escribir y
  Sí, puedes acceder a una prueba gratuita de Aspose.Tasks[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Tasks?
  Puede obtener soporte para Aspose.Tasks a través de[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Código fuente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

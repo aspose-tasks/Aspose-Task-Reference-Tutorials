@@ -3,10 +3,16 @@ title: Enregistrer les options MS Project Primavera avec Aspose.Tasks
 linktitle: Options d'enregistrement Primavera pour Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment enregistrer les options MS Project pour Primavera de manière transparente à l'aide d'Aspose.Tasks pour .NET. Suivez notre tutoriel étape par étape.
-type: docs
 weight: 14
 url: /fr/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer les options MS Project Primavera avec Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les fichiers Microsoft Project dans leurs applications .NET. L'une des fonctionnalités clés qu'il offre est la possibilité d'enregistrer les options de MS Project pour Primavera, un logiciel de gestion de projet populaire. Dans ce didacticiel, nous verrons comment y parvenir à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -59,3 +65,9 @@ R : Absolument, Aspose.Tasks est conçu pour répondre aux besoins des développ
  R : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Tasks à partir de[ici](https://releases.aspose.com/) pour explorer ses fonctionnalités et ses capacités.
 ### Q : Où puis-je obtenir de l'aide si je rencontre des problèmes ou si j'ai des questions lors de l'utilisation d'Aspose.Tasks ?
  R : Vous pouvez demander de l'aide à la communauté Aspose.Tasks et à l'équipe d'assistance sur le[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

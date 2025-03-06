@@ -3,10 +3,16 @@ title: Bemästra MS Project Time Scale Count i Aspose.Tasks
 linktitle: Ställ in tidsskalaräkning i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du effektivt hanterar tidsskalaräkning i MS Project med Aspose.Tasks för Java. Optimera projektvisualisering och hantering utan ansträngning.
-type: docs
 weight: 22
 url: /sv/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra MS Project Time Scale Count i Aspose.Tasks
+
 ## Introduktion
 Hantering av tidsskalaräkning i MS Project kan avsevärt påverka projektvisualisering och -hantering. Med Aspose.Tasks för Java, ett kraftfullt API för att hantera projektledningsuppgifter programmatiskt, kan du effektivt manipulera tidsskaleräkning för att skräddarsy projektvyer efter dina specifika behov.
 ## Förutsättningar
@@ -91,3 +97,9 @@ S: Absolut, Aspose.Tasks för Java tillhandahåller omfattande möjligheter för
  S: Ja, du kan få en gratis testversion från[här](https://releases.aspose.com/).
 ### F: Var kan jag få support för Aspose.Tasks för Java?
  S: Du kan hitta support och hjälp på Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

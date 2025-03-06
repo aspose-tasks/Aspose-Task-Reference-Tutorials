@@ -3,10 +3,16 @@ title: Configurar a visualização do gráfico de Gantt em projetos Aspose.Tasks
 linktitle: Configurar a visualização do gráfico de Gantt em projetos Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como configurar o Gantt MS Project Chart View em Aspose.Tasks usando Java. Personalize o projeto e visualize-os no gráfico de Gantt com passo a passo.
-type: docs
 weight: 10
 url: /pt/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurar a visualização do gráfico de Gantt em projetos Aspose.Tasks
+
 ## Introdução
 Neste tutorial, você aprenderá como configurar o Gantt MS Project Chart View em projetos Aspose.Tasks usando Java. Aspose.Tasks é uma API Java poderosa que permite trabalhar com arquivos do Microsoft Project programaticamente. Seguindo essas etapas, você poderá personalizar a visualização do gráfico de Gantt de acordo com os requisitos do seu projeto.
 ## Pré-requisitos
@@ -76,3 +82,9 @@ R: Você pode encontrar suporte e fazer perguntas no site[Fórum Aspose.Tasks](h
  R: Você pode comprar uma licença de[aqui](https://purchase.aspose.com/buy).
 ### P: Preciso de uma licença temporária para fins de teste?
  R: Sim, você pode obter uma licença temporária em[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

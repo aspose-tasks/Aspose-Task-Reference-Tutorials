@@ -3,10 +3,16 @@ title: Pengaturan untuk Microsoft Project Database di Aspose.Tasks
 linktitle: Pengaturan untuk Microsoft Project Database di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan database Microsoft Project menggunakan Aspose.Tasks untuk integrasi yang lancar ke dalam aplikasi .NET.
-type: docs
 weight: 19
 url: /id/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengaturan untuk Microsoft Project Database di Aspose.Tasks
+
 ## Perkenalan
 
 Jika Anda bekerja dengan database Microsoft Project di aplikasi .NET menggunakan Aspose.Tasks, Anda harus mengonfigurasi pengaturan yang diperlukan untuk mengimpor data proyek dengan lancar. Tutorial ini akan memandu Anda melalui proses langkah demi langkah.
@@ -99,3 +105,9 @@ A1: Ya, Aspose.Tasks mendukung berbagai versi database Microsoft Project, memung
 ### Q5: Di mana saya dapat menemukan dokumentasi lebih rinci tentang penggunaan Aspose.Tasks?
 
  A5: Anda dapat menjelajahi dokumentasi yang komprehensif[Di Sini](https://reference.aspose.com/tasks/net/) untuk wawasan mendetail tentang fungsi Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

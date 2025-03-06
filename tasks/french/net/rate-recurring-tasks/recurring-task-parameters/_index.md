@@ -3,10 +3,16 @@ title: Définition des paramètres de tâches récurrentes dans Aspose.Tasks
 linktitle: Définition des paramètres de tâches récurrentes dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment définir les paramètres de tâches récurrentes dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Tutoriel complet avec guide étape par étape.
-type: docs
 weight: 14
 url: /fr/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des paramètres de tâches récurrentes dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de définition des paramètres des tâches récurrentes de Microsoft Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -79,3 +85,9 @@ Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet, notammen
 Oui, vous pouvez visiter le forum Aspose.Tasks pour obtenir l'aide de la communauté ou contacter le support pour une aide directe.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  Vous pouvez obtenir une licence temporaire auprès du[site web](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

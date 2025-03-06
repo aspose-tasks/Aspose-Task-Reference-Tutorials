@@ -3,10 +3,16 @@ title: Управление коллекцией свойств пользова
 linktitle: Управление коллекцией свойств пользовательского проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять настраиваемыми свойствами проекта в Aspose.Tasks для .NET, улучшая ваш опыт управления проектами.
-type: docs
 weight: 24
 url: /ru/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекцией свойств пользовательского проекта в Aspose.Tasks
+
 ## Введение
 
 Готовы ли вы улучшить свой опыт управления проектами с помощью Aspose.Tasks для .NET? Управление настраиваемыми свойствами проекта — это важнейший аспект управления проектом, позволяющий добавлять определенные метаданные, соответствующие требованиям вашего проекта. В этом руководстве мы углубимся в то, как можно эффективно работать с пользовательскими коллекциями свойств проекта с помощью Aspose.Tasks для .NET.
@@ -131,3 +137,9 @@ A1: Да, вы можете добавлять пользовательские 
 ### Вопрос 5: Где я могу найти поддержку или дополнительную помощь по Aspose.Tasks для .NET?
 
  A5: Вы можете посетить форум Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15) для любых вопросов или помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

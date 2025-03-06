@@ -3,10 +3,16 @@ title: Kényszertípusok az Aspose.Tasks-ban
 linktitle: Kényszertípusok az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan állíthat be kényszertípusokat az Aspose.Tasks for .NET-ben a projekt ütemezésének hatékony kezeléséhez.
-type: docs
 weight: 17
 url: /hu/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kényszertípusok az Aspose.Tasks-ban
+
 ## Bevezetés
 
 A .NET-ben végzett projektkezelés során alapvető fontosságú, hogy megértsük, hogyan alkalmazhatunk különböző megszorításokat a feladatokra. Az Aspose.Tasks for .NET átfogó eszközkészletet kínál a projektkorlátok hatékony kezelésére. Ebben az oktatóanyagban az Aspose.Tasks-ban elérhető különféle kényszertípusokba és azok megvalósításába fogunk lépésről lépésre.
@@ -83,3 +89,9 @@ A4: Igen, az Aspose.Tasks minden méretű projekt kezelésére készült, a kis 
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Tasks-szal kapcsolatos lekérdezésekhez?
 
  5. válasz: Az Aspose.Tasks-hoz támogatást kaphat, ha felkeresi őket[fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

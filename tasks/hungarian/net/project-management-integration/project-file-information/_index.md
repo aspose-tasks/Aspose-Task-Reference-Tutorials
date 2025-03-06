@@ -3,10 +3,16 @@ title: Az MS Project fájl adatainak lekérése az Aspose.Tasks alkalmazásban
 linktitle: Projektfájl információinak lekérése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kérheti le a Microsoft Project fájlinformációit az Aspose.Tasks for .NET használatával. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 19
 url: /hu/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project fájl adatainak lekérése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban a Microsoft Project fájl adatainak lekéréséhez az Aspose.Tasks for .NET használatával. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy programozottan dolgozzanak a Microsoft Project fájlokkal, lehetővé téve olyan feladatok elvégzését, mint például a projektadatok olvasása, írása és kezelése.
 ## Előfeltételek
@@ -58,3 +64,9 @@ Természetesen az Aspose.Tasks kiterjedt lehetőségeket biztosít a projektadat
  Igen, hozzáférhet az Aspose.Tasks ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Tasks programhoz?
  Az Aspose.Tasks-hoz a következőn keresztül kaphat támogatást[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).## Teljes forráskód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

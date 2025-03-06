@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Bölünmüş Parçaların MS Projesini Toplayın
 linktitle: Aspose.Tasks'ta Parçalı Parçaların Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project'te bölünmüş parçaları nasıl toplayacağınızı öğrenin. Bu kapsamlı eğitim, süreç boyunca size adım adım rehberlik eder.
-type: docs
 weight: 19
 url: /tr/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Bölünmüş Parçaların MS Projesini Toplayın
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET kullanarak MS Project'te bölünmüş parçaların nasıl toplanacağını açıklayacağız. Görevleri parçalara bölmek proje yönetiminin çok önemli bir yönü olabilir ve Aspose.Tasks bunu verimli bir şekilde ele almak için uygun yöntemler sağlar.
 ## Önkoşullar
@@ -66,3 +72,9 @@ C: Aspose.Tasks, MS Project dosyalarının çeşitli sürümlerini destekleyerek
  C: Geçici lisanslar şuradan alınabilir:[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
 ### S: Aspose.Tasks ile ilgili nereden yardım veya destek alabilirim?
  C: Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15)topluluktan veya Aspose destek ekibinden yardım istemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

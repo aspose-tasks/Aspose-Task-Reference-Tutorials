@@ -3,10 +3,16 @@ title: إدارة استثناءات MS Project عبر الإنترنت في Asp
 linktitle: العمل مع استثناءات Project Online في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع استثناءات Microsoft Project Online بسلاسة باستخدام Aspose.Tasks لـ .NET. برنامج تعليمي خطوة بخطوة لإدارة المشاريع بشكل فعال.
-type: docs
 weight: 21
 url: /ar/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة استثناءات MS Project عبر الإنترنت في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في تعقيدات التعامل مع استثناءات Microsoft Project Online باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات .NET قوية تسمح للمطورين بمعالجة ملفات Microsoft Project وإدارتها بسهولة. سنتناول العملية خطوة بخطوة، مما يضمن فهمًا شاملاً لكيفية العمل مع استثناءات MS Project Online في تطبيقات .NET الخاصة بك.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: كيف يمكنني شراء ترخيص Aspose.Tasks؟
  ج: يمكنك شراء ترخيص Aspose.Tasks من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

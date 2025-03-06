@@ -3,10 +3,16 @@ title: A VBA modul attribútumainak elsajátítása az Aspose.Tasks programban
 linktitle: VBA-modul attribútumok gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET erejét a VBA-modul attribútumainak kezelésében. Fokozza .NET-projektjeit könnyedén. Letöltés most! #Aspose #Tasks #MS Project
-type: docs
 weight: 12
 url: /hu/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A VBA modul attribútumainak elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for .NET világában! Ha Ön fejlesztő, aki az Aspose.Tasks for .NET erejét szeretné kiaknázni projektjeiben, akkor jó helyen jár. Ebben az oktatóanyagban a VBA-modul attribútumaival való munka bonyolultságába fogunk beleásni, és lépésről lépésre nyújtunk útmutatót arról, hogyan használhatja őket hatékonyan .NET-alkalmazásaiban.
 ## Előfeltételek
@@ -63,3 +69,9 @@ Gratulálunk! Sikeresen végighaladt a VBA-modul attribútumainak kezeléséhez 
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### K: Hol kérhetek támogatást az Aspose.Tasks for .NET-hez?
  V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

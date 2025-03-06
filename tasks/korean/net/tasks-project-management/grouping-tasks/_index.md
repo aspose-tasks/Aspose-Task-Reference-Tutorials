@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 효율적인 MS 프로젝트 작업 그룹화
 linktitle: Aspose.Tasks에서 작업 그룹화
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 작업을 효과적으로 그룹화하는 방법을 알아보세요.
-type: docs
 weight: 25
 url: /ko/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 효율적인 MS 프로젝트 작업 그룹화
+
 ## 소개
 Microsoft Project에서 작업을 관리하는 것은 때로는 어려울 수 있으며, 특히 작업을 효율적으로 구성하는 경우 더욱 그렇습니다. Aspose.Tasks for .NET은 작업을 효과적으로 그룹화하는 기능을 제공하여 이에 대한 포괄적인 솔루션을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 작업을 그룹화하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -84,3 +90,9 @@ foreach (var criterion in group.GroupCriteria)
 물론 Aspose.Tasks는 셀 색상, 글꼴 및 스타일을 포함하여 그룹화된 작업의 모양을 사용자 정의하는 옵션을 제공합니다.
 ### .NET용 Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  .NET용 Aspose.Tasks에 대한 지원 및 지원은 다음에서 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

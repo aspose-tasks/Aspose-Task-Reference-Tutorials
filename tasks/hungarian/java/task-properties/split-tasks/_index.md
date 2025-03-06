@@ -3,10 +3,16 @@ title: Feladatok felosztása az Aspose.Tasks-ban
 linktitle: Feladatok felosztása az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Mester feladatkezelés Java nyelven az Aspose.Tasks segítségével! Ismerje meg, hogyan oszthatja fel hatékonyan a feladatokat az optimalizált projektidővonalak érdekében. Letöltés most!
-type: docs
 weight: 29
 url: /hu/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladatok felosztása az Aspose.Tasks-ban
+
 ## Bevezetés
 Nehezen küzd a feladatkezeléssel a Java projektben? Az Aspose.Tasks for Java hatékony megoldást kínál a feladatok hatékony felosztására, javítva a projektkezelési képességeket. Ebben az oktatóanyagban végigvezetjük a feladatok Aspose.Tasks for Java használatával történő felosztásának folyamatán, segítve a projektek ütemezésének és erőforrás-elosztásának optimalizálását.
 ## Előfeltételek
@@ -88,3 +94,9 @@ Az Aspose.Tasks for Java ingyenes próbaverziót kínál, amellyel vásárlás e
  Meglátogatni a[Aspose.Tasks for Java támogatási fórum](https://forum.aspose.com/c/tasks/15) segítséget kapni és kapcsolatba lépni a közösséggel.
 ### Szükségem van ideiglenes licencre az Aspose.Tasks for Java számára?
  Ideiglenes jogosítványt szerezhet be[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési és értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

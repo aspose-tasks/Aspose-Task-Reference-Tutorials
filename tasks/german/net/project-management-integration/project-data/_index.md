@@ -3,10 +3,16 @@ title: Projektdaten mit Aspose.Tasks beherrschen
 linktitle: Arbeiten mit Projektdaten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Daten mithilfe von Aspose.Tasks in .NET bearbeiten. Erstellen Sie ganz einfach Aufgaben, fügen Sie Ressourcen hinzu und speichern Sie Projekte.
-type: docs
 weight: 16
 url: /de/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektdaten mit Aspose.Tasks beherrschen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Tasks-Bibliothek für .NET mit Microsoft Project-Daten arbeiten. Aspose.Tasks bietet leistungsstarke Funktionen zum Bearbeiten von Projektdateien, einschließlich der Erstellung von Aufgaben, dem Hinzufügen von Ressourcen, dem Festlegen von Eigenschaften und dem Speichern von Projekten in verschiedenen Formaten.
 ## Voraussetzungen
@@ -92,3 +98,9 @@ A: Absolut, Aspose.Tasks lässt sich nahtlos in andere .NET-Bibliotheken integri
 A: Ja, Aspose.Tasks enthält erweiterte Planungsalgorithmen, die Ihnen helfen, Projektzeitpläne und Ressourcennutzung zu optimieren.
 ### F: Gibt es ein Community-Forum für Aspose.Tasks-Benutzer?
  A: Ja, Sie können hilfreiche Ressourcen finden und sich mit anderen Aspose.Tasks-Benutzern austauschen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

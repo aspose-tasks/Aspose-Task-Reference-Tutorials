@@ -3,10 +3,16 @@ title: Arguments d’enregistrement CSS dans Aspose.Tasks
 linktitle: Arguments d’enregistrement CSS dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment enregistrer les arguments CSS dans Aspose.Tasks for .NET pour personnaliser la sortie HTML. Améliorez la présentation avec des paramètres CSS personnalisés.
-type: docs
 weight: 20
 url: /fr/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arguments d’enregistrement CSS dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons le processus d'enregistrement des arguments CSS à l'aide d'Aspose.Tasks pour .NET. Les feuilles de style en cascade (CSS) sont cruciales pour définir la présentation des éléments HTML. Aspose.Tasks nous permet de manipuler et de sauvegarder efficacement ces attributs CSS.
@@ -118,3 +124,9 @@ A4 : Vous pouvez vous référer au[Documentation](https://reference.aspose.com/
 ### Q5 : Aspose.Tasks pour .NET offre-t-il une assistance aux développeurs ?
 
  A5 : Oui, vous pouvez obtenir l'assistance de la communauté Aspose.Tasks via le[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

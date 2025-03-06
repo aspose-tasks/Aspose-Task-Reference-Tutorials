@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Hesaplama Modu
 linktitle: Aspose.Tasks'ta Hesaplama Modu
 second_title: Aspose.Tasks .NET API'si
 description: Proje planlamasını ve görev bağımlılıklarını kolaylaştırmak için Aspose.Tasks for .NET'te hesaplama modlarını etkili bir şekilde nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 29
 url: /tr/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Hesaplama Modu
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Proje dosyalarıyla çalışmanın önemli yönlerinden biri, görevlerin ve proje zamanlamalarının nasıl hesaplanacağını ve güncelleneceğini belirleyen hesaplama modlarının yönetilmesidir. Bu eğitimde Aspose.Tasks for .NET tarafından desteklenen çeşitli hesaplama modlarını inceleyeceğiz ve bunların nasıl etkili bir şekilde kullanılacağını göstereceğiz.
@@ -165,3 +171,9 @@ Cevap4: Evet, uygulamalarınızın işlevselliğini geliştirmek için Aspose.Ta
 ### S5: Aspose.Tasks kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
 
  A5: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

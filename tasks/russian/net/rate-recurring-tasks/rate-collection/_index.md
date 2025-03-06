@@ -3,10 +3,16 @@ title: Освойте ставки проектов MS с помощью Aspose.
 linktitle: Сбор ставок в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять ставками в файлах MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство по эффективному управлению ресурсами.
-type: docs
 weight: 11
 url: /ru/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освойте ставки проектов MS с помощью Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше руководство по управлению ставками в MS Project с использованием Aspose.Tasks для .NET! В этом руководстве мы познакомим вас с процессом работы со ставками в файлах MS Project с помощью Aspose.Tasks. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете разработку .NET, это руководство предоставит вам пошаговые инструкции по эффективному управлению ставками в ваших проектах.
 ## Предварительные условия
@@ -110,3 +116,9 @@ foreach (var rt in list)
 О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks для .NET, чтобы оценить ее возможности и совместимость с вашими требованиями.
 ### Вопрос: Как я могу приобрести лицензию на Aspose.Tasks для .NET?
  О: Вы можете приобрести лицензию на Aspose.Tasks для .NET на сайте[Веб-сайт](https://purchase.aspose.com/temporary-license/)который предоставляет гибкие варианты лицензирования в соответствии с вашими потребностями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

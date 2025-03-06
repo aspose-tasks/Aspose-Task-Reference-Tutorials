@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Microsoft Project Outline Maskelerinde Uzmanlaşma
 linktitle: Aspose.Tasks'ta Anahat Maskeleriyle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET kullanarak Microsoft Project dosyalarıyla programlı olarak nasıl çalışılacağını öğrenin. Ana hat maskelerinde verimli bir şekilde ustalaşın.
-type: docs
 weight: 14
 url: /tr/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Microsoft Project Outline Maskelerinde Uzmanlaşma
+
 ## giriiş
 Proje yönetimi ve görev takibi alanında Microsoft Project bir temel taşı aracı olarak duruyor. Ancak proje dosyalarının programlı olarak manipüle edilmesi ve yönetilmesi söz konusu olduğunda Aspose.Tasks for .NET güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde Aspose.Tasks for .NET kullanarak MS Project dosyalarıyla çalışmanın belirli bir yönünü ele alacağız: anahat maskelerini işlemek.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Aslında, şurayı ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.
  C: Elbette! Aspose.Tasks'ın ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nereden geçici lisans alabilirim?
  C: Değerlendirme veya test amacıyla geçici bir lisansa ihtiyacınız varsa bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

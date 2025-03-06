@@ -3,10 +3,16 @@ title: Aspose.Tasks Zarządzanie projektami i dostosowywanie
 linktitle: Aspose.Tasks Zarządzanie projektami i dostosowywanie
 second_title: Aspose.Tasks .NET API
 description: Opanuj Aspose.Tasks dla .NET dzięki naszym samouczkom dotyczącym zarządzania projektami. Poznaj skuteczne techniki manipulacji, dostosowywania i optymalizacji plików MS Project.
-type: docs
 weight: 23
 url: /pl/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zarządzanie projektami i dostosowywanie
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności zarządzania projektami dzięki Aspose.Tasks dla .NET? Nasze wszechstronne samouczki obejmują szeroki zakres tematów, od opanowania metod MS Project generujących wartość wypracowaną po efektywne zarządzanie atrybutami projektu i dostosowywanie wykresów Gantta. Zanurzmy się w świat Aspose.Tasks i odblokujmy pełen potencjał zarządzania projektami.
@@ -130,3 +136,9 @@ Dowiedz się, jak programowo manipulować plikami MS Project w .NET przy użyciu
 Dowiedz się, jak zarządzać kolekcją projektów MS Project Group Criterion przy użyciu Aspose.Tasks dla .NET. Przewodnik krok po kroku dla programistów.
 ### [Wyodrębnij informacje z nagłówka i stopki za pomocą Aspose.Tasks](./header-footer-information/)
 Dowiedz się, jak wyodrębnić informacje nagłówka i stopki z plików MS Project za pomocą Aspose.Tasks dla .NET. Rozwiązanie łatwe, wydajne i przyjazne dla programistów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

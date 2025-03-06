@@ -3,10 +3,16 @@ title: Viết dữ liệu tài nguyên được cập nhật trong Aspose.Tasks
 linktitle: Viết dữ liệu tài nguyên được cập nhật trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách cập nhật dễ dàng dữ liệu tài nguyên trong tệp MS Project bằng Aspose.Tasks cho Java.
-type: docs
 weight: 21
 url: /vi/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viết dữ liệu tài nguyên được cập nhật trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cập nhật dữ liệu tài nguyên Microsoft Project bằng Aspose.Tasks cho Java. Aspose.Tasks là một API Java mạnh mẽ cho phép bạn thao tác với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project trên hệ thống của bạn.
 
@@ -98,3 +104,10 @@ Câu trả lời 4: Có, bạn có thể thực hiện nhiều thao tác như đ
 ### Câu hỏi 5: Tôi có thể tìm thêm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

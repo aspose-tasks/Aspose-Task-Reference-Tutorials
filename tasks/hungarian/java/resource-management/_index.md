@@ -3,10 +3,16 @@ title: Erőforrás menedzsment
 linktitle: Erőforrás menedzsment
 second_title: Aspose.Tasks Java API
 description: Mester erőforrás-kezelés az MS Projectben az Aspose.Tasks for Java segítségével. Tanuljon meg létrehozni, iterálni, kezelni a költségeket stb. Optimalizálja a fejlesztést oktatóanyagainkkal.
-type: docs
 weight: 31
 url: /hu/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erőforrás menedzsment
+
 ## Bevezetés
 
 A Java használatával végzett MS Project fejlesztés területén az Aspose.Tasks robusztus könyvtárként tűnik ki, és a funkciók átfogó készletét kínálja a hatékony erőforrás-kezeléshez. Ez az oktatóanyag-sorozat különféle szempontokon végigvezeti Önt, biztosítva ezzel, hogy ügyessé váljon a Microsoft Project erőforrásainak zökkenőmentes kezelésében.
@@ -63,3 +69,9 @@ Ismerje meg, hogyan kezelheti hatékonyan az MS Project erőforrásköltségeit 
 Ismerje meg, hogyan állíthatja be az MS Project erőforrás tulajdonságait Java nyelven az Aspose.Tasks segítségével a zökkenőmentes integráció és a hatékony feladatkezelés érdekében.
 ### [Írjon frissített erőforrásadatokat az Aspose.Tasks-ba](./write-updated-resource-data/)
 Ismerje meg, hogyan frissítheti könnyedén az MS Project fájljaiban lévő erőforrásadatokat az Aspose.Tasks for Java segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

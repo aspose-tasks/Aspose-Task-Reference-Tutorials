@@ -3,10 +3,16 @@ title: التعامل مع تباينات المهام في Aspose.Tasks
 linktitle: التعامل مع تباينات المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java في إدارة تباينات مهام المشروع. اتبع دليلنا الشامل للتكامل السلس والتعامل الفعال.
-type: docs
 weight: 19
 url: /ar/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع تباينات المهام في Aspose.Tasks
+
 ## مقدمة
 في عالم إدارة المشاريع، يبرز Aspose.Tasks for Java كأداة قوية ومتعددة الاستخدامات للتعامل مع تباينات المهام بكفاءة. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.Tasks لإدارة تباينات المهام والتكيف معها بسلاسة.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ Aspose.Tasks هي أداة متعددة الاستخدامات ومناسبة ل
  للحصول على الدعم والمناقشات، قم بزيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل يمكنني تنزيل Aspose.Tasks لـ Java؟
  نعم، قم بتنزيل أحدث إصدار من Aspose.Tasks لـ Java[هنا](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

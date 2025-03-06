@@ -3,10 +3,16 @@ title: Освоение будних дней в Aspose.Tasks для .NET
 linktitle: Определение дней недели в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Откройте для себя возможности определения дней недели в Aspose.Tasks .NET. Следуйте нашему подробному руководству, чтобы эффективно управлять календарями проектов, настраивать рабочее время и многое другое.
-type: docs
 weight: 10
 url: /ru/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение будних дней в Aspose.Tasks для .NET
+
 ## Введение
 Если вы погружаетесь в мир управления проектами с помощью Aspose.Tasks для .NET, понимание и управление будними днями является решающим аспектом. Эффективное управление и настройка дней недели в календаре проекта может существенно повлиять на сроки проекта. В этом руководстве мы проведем вас через процесс определения дней недели с помощью Aspose.Tasks, предоставив пошаговые инструкции и примеры для большей ясности.
 ## Предварительные условия
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 Да, любые изменения дней недели отражаются в файле проекта при сохранении.
 ### Могу ли я использовать Aspose.Tasks с другими языками программирования?
 Aspose.Tasks поддерживает различные языки программирования, но примеры здесь предназначены специально для .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

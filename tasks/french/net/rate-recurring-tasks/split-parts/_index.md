@@ -3,10 +3,16 @@ title: Gestion des parties fractionnées MS Project dans Aspose.Tasks
 linktitle: Gestion des pièces divisées dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les parties fractionnées de MS Project avec Aspose.Tasks pour .NET. Améliorez votre flux de travail de gestion de projet.
-type: docs
 weight: 18
 url: /fr/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des parties fractionnées MS Project dans Aspose.Tasks
+
 
 ## Introduction
 La gestion des parties fractionnées de MS Project peut être un aspect crucial de la gestion de projet lors de l'utilisation d'Aspose.Tasks pour .NET. Dans ce didacticiel, nous explorerons comment gérer efficacement les pièces divisées à l'aide de conseils étape par étape.
@@ -94,3 +100,9 @@ R : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, nota
 R : Absolument, vous pouvez personnaliser les calendriers de projet en fonction des exigences de votre projet.
 ### Q : Où puis-je trouver de l'assistance pour Aspose.Tasks pour .NET ?
  R : Vous pouvez trouver du soutien et de l'assistance sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 项目文件操作
 linktitle: 项目文件操作
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 轻松优化 MS Project 布局。了解有关减少间隙、渲染数据、替换日历等的分步教程。
-type: docs
 weight: 29
 url: /zh/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 项目文件操作
+
 ## 介绍
 您是否希望增强 Java 项目管理能力？深入了解我们关于 Aspose.Tasks for Java 的综合教程，重点关注各种项目文件操作。从减少任务列表中的差距到自定义 MS Project 视图，我们都能满足您的需求。
 
@@ -94,3 +100,9 @@ url: /zh/java/project-file-operations/
 了解在 Aspose.Tasks for Java 中有效管理工作日属性。轻松自定义周开始日期、每月天数等。
 ### [在Aspose.Tasks中编写MPP项目摘要](./write-mpp-project-summary/)
 了解如何使用 Aspose.Tasks 在 Java 中编写 MPP 项目摘要。轻松设置和检索项目信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Trabalhando com Atribuição em Aspose.Tasks
 linktitle: Trabalhando com Atribuição em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar atribuições de projeto em .NET usando Aspose.Tasks. Explore diferentes contornos para agendamento de recursos.
-type: docs
 weight: 13
 url: /pt/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com Atribuição em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos como trabalhar com atribuições no Aspose.Tasks for .NET. As atribuições são cruciais no gerenciamento de projetos, pois alocam recursos às tarefas, ajudando no agendamento e no acompanhamento do progresso. Vamos nos concentrar na geração de dados em fases de atribuição de recursos com vários contornos usando Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Sim, conforme demonstrado neste tutorial, você pode definir vários contorn
 ### P5: Onde posso encontrar suporte para consultas relacionadas ao Aspose.Tasks?
 
 A5: Você pode encontrar suporte no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) onde especialistas e membros da comunidade se envolvem ativamente em discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: รับรหัสโครงร่างโครงการ MS ใ
 linktitle: รับรหัสเค้าร่างใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีรับโค้ดเค้าร่างของ Microsoft Project โดยทางโปรแกรมโดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงความสามารถในการจัดการโครงการของคุณ
-type: docs
 weight: 15
 url: /th/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับรหัสโครงร่างโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีรับโค้ดเค้าร่างของ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java รหัสเค้าร่างใน MS Project มีวิธีที่มีโครงสร้างในการจัดหมวดหมู่และจัดระเบียบงานของโครงการ ทรัพยากร และการมอบหมายงาน Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถจัดการและจัดการไฟล์ Microsoft Project โดยทางโปรแกรม
 ## ข้อกำหนดเบื้องต้น
@@ -82,3 +88,9 @@ for (OutlineValue v1 : ocd.getValues()) {
  ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้จาก[หน้าซื้อ](https://purchase.aspose.com/temporary-license/).
 ### คำถามที่ 5: ฉันจะหาเอกสารฉบับสมบูรณ์สำหรับ Aspose.Tasks for Java ได้ที่ไหน
  ตอบ: คุณสามารถดูได้ที่[เอกสารประกอบ](https://reference.aspose.com/tasks/java/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับการใช้ Aspose.Tasks สำหรับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

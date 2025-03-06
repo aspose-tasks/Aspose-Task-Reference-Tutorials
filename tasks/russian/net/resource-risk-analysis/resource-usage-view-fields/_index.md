@@ -3,10 +3,16 @@ title: Коллекция полей просмотра использовани
 linktitle: Коллекция полей просмотра использования ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно получать доступ к полям просмотра использования ресурсов в файлах Microsoft Project и манипулировать ими с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 16
 url: /ru/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Коллекция полей просмотра использования ресурсов в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами решающее значение имеет эффективная обработка файлов Microsoft Project. Aspose.Tasks для .NET предоставляет комплексное решение для беспрепятственной работы с файлами MS Project. В этом руководстве мы углубимся в процесс доступа и использования полей представления использования ресурсов с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -67,3 +73,9 @@ foreach (var field in fields)
  О: Да, вы можете получить доступ к бесплатной пробной версии на сайте[Веб-сайт](https://releases.aspose.com/).
 ### Вопрос: Как я могу получить временную лицензию на Aspose.Tasks для .NET?
  О: Вы можете приобрести временную лицензию на сайте[страница покупки](https://purchase.aspose.com/temporary-license/) в целях оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

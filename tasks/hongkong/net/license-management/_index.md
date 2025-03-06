@@ -3,10 +3,16 @@ title: Aspose.Tasks 許可證管理
 linktitle: Aspose.Tasks 許可證管理
 second_title: Aspose.Tasks .NET API
 description: 透過我們全面的教學釋放 Aspose.Tasks for .NET 的強大功能。管理許可證並優化 MS Project 使用，以實現高效的專案管理。
-type: docs
 weight: 36
 url: /zh-hant/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 許可證管理
+
 
 ## 介紹
 
@@ -35,3 +41,9 @@ url: /zh-hant/net/license-management/
 了解如何使用基於檔案或基於流的方法無縫管理 .NET 應用程式中的 Aspose.Tasks 許可證。
 ### [計量 Aspose.Tasks 中的使用情況](./metering-usage/)
 了解如何使用 Aspose.Tasks for .NET 有效監控和最佳化 MS Project 使用情況。高效專案管理的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

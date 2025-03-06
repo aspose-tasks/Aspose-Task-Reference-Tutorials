@@ -3,10 +3,16 @@ title: Pokročilé funkce Aspose.Tasks
 linktitle: Pokročilé funkce Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Objevte pokročilé funkce v Aspose.Tasks pro .NET pomocí našich výukových programů. Zlepšete své dovednosti projektového řízení, od operací AND po zpracování výjimek paměti.
-type: docs
 weight: 21
 url: /cs/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé funkce Aspose.Tasks
+
 
 ## Úvod
 
@@ -93,3 +99,9 @@ Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě opakujících 
 Naučte se, jak efektivně spravovat režimy výpočtu v Aspose.Tasks for .NET, abyste zefektivnili plánování projektů a závislosti na úkolech.
 ### [Typ výpočtu v Aspose.Tasks](./calculation-type/)
 Naučte se, jak přizpůsobit výpočty hodnot v projektech .NET pomocí Typu výpočtu v knihovně Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

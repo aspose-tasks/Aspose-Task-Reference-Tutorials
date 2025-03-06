@@ -3,10 +3,16 @@ title: MS Project Outline Kodhantering Definitioner i Aspose.Tasks
 linktitle: Hantera dispositionskoddefinitioner i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Project-konturkoddefinitioner med Aspose.Tasks för .NET, vilket ger dina projektledningsapplikationer kraft.
-type: docs
 weight: 12
 url: /sv/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline Kodhantering Definitioner i Aspose.Tasks
+
 ## Introduktion
 Microsoft Project är ett kraftfullt verktyg för att hantera projekt, och Aspose.Tasks för .NET ger omfattande stöd för att manipulera projektfiler programmatiskt. En viktig aspekt av projektledning är att organisera uppgifter med hjälp av dispositionskoder. I den här handledningen kommer vi att undersöka hur man hanterar MS Project-konturkoddefinitioner med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -91,3 +97,9 @@ S: Ja, Aspose.Tasks för .NET tillhandahåller omfattande funktioner för att ma
 S: Absolut, Aspose.Tasks för .NET stöder läsning och skrivning av anpassade fält, inklusive dispositionskoder, från MS Project-filer.
 ### F5: Finns det ett communityforum för Aspose.Tasks för .NET?
  S: Ja, du kan gå med i communityforumet för Aspose.Tasks för .NET[här](https://forum.aspose.com/c/tasks/15) att ställa frågor, dela kunskap och samarbeta med andra utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

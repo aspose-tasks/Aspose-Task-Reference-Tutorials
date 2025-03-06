@@ -3,10 +3,16 @@ title: Aspose.Tasks의 사용자 정의 필드 유형
 linktitle: Aspose.Tasks의 사용자 정의 필드 유형
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 사용자 정의 필드 유형으로 작업하는 방법을 알아보세요. 코드 예제와 FAQ가 포함된 단계별 가이드입니다.
-type: docs
 weight: 23
 url: /ko/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 사용자 정의 필드 유형
+
 ## 소개
 
 .NET용 Aspose.Tasks에서 사용자 정의 필드 유형 작업에 대한 튜토리얼에 오신 것을 환영합니다! Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 프로젝트 데이터 작업의 중요한 측면인 사용자 정의 필드 유형을 이해하고 활용하는 데 중점을 둘 것입니다.
@@ -89,3 +95,9 @@ A4: 예, Aspose.Tasks를 사용하면 프로젝트 파일 내에서 작업 및 �
 ### Q5: Aspose.Tasks 사용자를 위한 커뮤니티 포럼이 있나요?
 
  A5: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 다른 사용자와 상호 작용하고 Aspose 팀의 지원을 받으십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

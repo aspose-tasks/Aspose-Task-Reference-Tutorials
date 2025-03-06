@@ -3,10 +3,16 @@ title: Aspose.Tasks में बेसलाइन कार्य शेड्
 linktitle: Aspose.Tasks में बेसलाइन कार्य शेड्यूलिंग
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks के साथ कार्य बेसलाइन को प्रभावी ढंग से शेड्यूल करना सीखें। अपनी परियोजना प्रबंधन प्रक्रियाओं को सहजता से सुव्यवस्थित करें।
-type: docs
 weight: 10
 url: /hi/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में बेसलाइन कार्य शेड्यूलिंग
+
 ## परिचय
 कार्य आधार रेखाओं को प्रबंधित करना परियोजना प्रबंधन का एक महत्वपूर्ण पहलू है, जो आपको योजनाबद्ध बनाम वास्तविक प्रगति की सटीक तुलना करने में सक्षम बनाता है। इस ट्यूटोरियल में, हम देखेंगे कि जावा के लिए Aspose.Tasks का उपयोग करके बेसलाइन कार्य शेड्यूलिंग कैसे करें। इन चरणों का पालन करके, आप अपनी परियोजना प्रबंधन प्रक्रियाओं को कुशलतापूर्वक सुव्यवस्थित करने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  हां, आप जावा के लिए Aspose.Tasks के निःशुल्क परीक्षण तक पहुंच सकते हैं[रिलीज पेज](https://releases.aspose.com/).
 ### मुझे जावा के लिए Aspose.Tasks के लिए समर्थन कहां मिल सकता है?
  किसी भी प्रश्न या सहायता के लिए, आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

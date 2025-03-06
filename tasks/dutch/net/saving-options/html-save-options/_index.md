@@ -3,10 +3,16 @@ title: Sla MS Project op als HTML met Aspose.Tasks
 linktitle: HTML-opslagopties voor Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-bestanden opslaat als HTML met Aspose.Tasks voor .NET. Converteer projectgegevens moeiteloos met onze stapsgewijze handleiding.
-type: docs
 weight: 10
 url: /nl/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sla MS Project op als HTML met Aspose.Tasks
+
 ## Invoering
 Welkom bij onze tutorial over het opslaan van Microsoft Project-bestanden als HTML met Aspose.Tasks voor .NET! Aspose.Tasks is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken. In deze zelfstudie onderzoeken we hoe u Aspose.Tasks kunt gebruiken om projectgegevens op te slaan als HTML, waarbij we stapsgewijze begeleiding bieden.
 ## Vereisten
@@ -57,3 +63,9 @@ A: Ja, Aspose.Tasks ondersteunt een breed scala aan Microsoft Project-bestandsve
 A: Absoluut, u kunt specifieke pagina's of secties van uw project extraheren en opnemen op basis van uw vereisten.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks?
 A: Ja, u krijgt toegang tot een gratis proefversie van Aspose.Tasks om de functies ervan te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

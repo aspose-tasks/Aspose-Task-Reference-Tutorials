@@ -3,10 +3,16 @@ title: Сбор назначений ресурсов в Aspose.Tasks
 linktitle: Сбор назначений ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять назначениями ресурсов в Microsoft Project с помощью Aspose.Tasks для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 12
 url: /ru/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сбор назначений ресурсов в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в это подробное руководство по управлению назначением ресурсов в Microsoft Project с использованием Aspose.Tasks для .NET. В этом руководстве мы шаг за шагом углубимся в этот процесс, чтобы у вас было четкое понимание того, как эффективно управлять назначениями ресурсов. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство проведет вас через все, что вам нужно знать.
 ## Предварительные условия
@@ -94,3 +100,9 @@ foreach (var ra in resourceAssignments)
  О: Да, временные лицензии доступны для ознакомительных целей. Вы можете получить один из[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу приобрести полную лицензию на Aspose.Tasks для .NET?
  О: Вы можете приобрести полную лицензию в интернет-магазине Aspose.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

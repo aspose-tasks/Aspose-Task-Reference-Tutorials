@@ -3,10 +3,16 @@ title: Arrêter et reprendre les affectations de ressources dans Aspose.Tasks
 linktitle: Arrêter et reprendre les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les affectations de ressources dans Aspose.Tasks pour Java avec ce didacticiel étape par étape.
-type: docs
 weight: 23
 url: /fr/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arrêter et reprendre les affectations de ressources dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment arrêter et reprendre les affectations de ressources à l'aide d'Aspose.Tasks pour Java. Aspose.Tasks est une puissante API Java qui permet aux développeurs de travailler avec des fichiers Microsoft Project sans avoir besoin d'installer Microsoft Project sur leurs systèmes. Nous diviserons le processus en étapes gérables pour le rendre facile à suivre.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Oui, Aspose.Tasks vous permet de travailler avec des fichiers Microsoft Project 
 Vous pouvez obtenir le soutien de la communauté[ici](https://forum.aspose.com/c/tasks/15).
 ### Puis-je acheter une licence temporaire ?
  Oui, vous pouvez acheter une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

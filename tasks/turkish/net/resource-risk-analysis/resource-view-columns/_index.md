@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Kaynak Görünümü Sütunlarını Özelleşti
 linktitle: Aspose.Tasks'ta Kaynak Görünümü Sütunlarını Özelleştirme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project kaynak görünümü sütunlarını verimli bir şekilde nasıl özelleştireceğinizi öğrenin. Daha iyi proje yönetimi için özel görünümler oluşturun.
-type: docs
 weight: 17
 url: /tr/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Kaynak Görünümü Sütunlarını Özelleştirin
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Proje yönetimindeki yaygın görevlerden biri, görünümleri belirli bilgileri gösterecek şekilde özelleştirmektir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project kaynak görünümü sütunlarının nasıl özelleştirileceğini inceleyeceğiz.
 ## Önkoşullar
@@ -94,3 +100,9 @@ Aspose.Tasks, kişiselleştirilmiş görünümlerinizin görünümünü gelişti
 Evet, temeldeki proje verileri değiştiğinde özel görünümü güncelleyebilir ve yeniden oluşturabilirsiniz.
 ### Aspose.Tasks platformlar arası geliştirmeyi destekliyor mu?
 Aspose.Tasks for .NET öncelikli olarak .NET platformlarını hedefler ancak Java ve diğer platformlar için de versiyonlar mevcuttur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

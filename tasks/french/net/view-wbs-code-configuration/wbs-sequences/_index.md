@@ -3,10 +3,16 @@ title: Maîtriser les séquences WBS avec Aspose.Tasks pour .NET
 linktitle: Définition de séquences WBS dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Renforcez votre gestion de projet avec Aspose.Tasks pour .NET – définissez de manière transparente des séquences WBS et améliorez l'efficacité sans effort. #Aspose #Tâches #MS Project
-type: docs
 weight: 16
 url: /fr/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les séquences WBS avec Aspose.Tasks pour .NET
+
 ## Introduction
 Travaillez-vous sur une application de gestion de projet et avez-vous besoin d'un outil robuste pour gérer les séquences de structure de répartition du travail (WBS) ? Ne cherchez pas plus loin que Aspose.Tasks pour .NET, une bibliothèque puissante qui simplifie les tâches de gestion de projet. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de définition des séquences WBS.
 ## Conditions préalables
@@ -74,3 +80,9 @@ Absolument! Aspose.Tasks offre une flexibilité dans la définition des codes WB
  Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour entrer en contact avec la communauté et demander de l'aide.
 ### Des licences temporaires sont-elles disponibles ?
  Oui, vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý ghi chú nhiệm vụ trong Aspose.Tasks
 linktitle: Quản lý ghi chú nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá quản lý ghi chú nhiệm vụ trong Aspose.Tasks cho Java. Hướng dẫn từng bước để phát triển Java hiệu quả. Tải về dùng thử ngay!
-type: docs
 weight: 22
 url: /vi/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ghi chú nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý dữ liệu liên quan đến dự án, bao gồm cả ghi chú nhiệm vụ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc quản lý ghi chú tác vụ một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình xử lý các ghi chú nhiệm vụ một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -51,3 +57,9 @@ Quản lý ghi chú tác vụ trong Aspose.Tasks dành cho Java là một quy tr
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Tasks cho Java ở đâu?
  Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

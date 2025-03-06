@@ -3,10 +3,16 @@ title: Aspose.Tasks Rate Management και Recurring Tasks
 linktitle: Aspose.Tasks Rate Management και Recurring Tasks
 second_title: Aspose.Tasks .NET API
 description: Master MS Project διαχείριση ποσοστού και επαναλαμβανόμενες εργασίες με το Aspose.Tasks .NET. Μάθετε να αυτοματοποιείτε εργασίες, να χειρίζεστε ρυθμούς και να διαχειρίζεστε διαχωρισμένα μέρη για ροές εργασίας έργου.
-type: docs
 weight: 28
 url: /el/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Rate Management και Recurring Tasks
+
 
 ## Εισαγωγή
 
@@ -67,3 +73,9 @@ url: /el/net/rate-recurring-tasks/
 Μάθετε πώς να χειρίζεστε αποτελεσματικά τα διαχωρισμένα εξαρτήματα του MS Project με το Aspose.Tasks για .NET. Βελτιώστε τη ροή εργασιών διαχείρισης του έργου σας.
 ### [Συλλέξτε το MS Project of Split Parts στο Aspose.Tasks](./split-part-collection/)
 Μάθετε πώς να συλλέγετε διαχωρισμένα μέρη στο MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Αυτό το περιεκτικό σεμινάριο σας καθοδηγεί βήμα προς βήμα στη διαδικασία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

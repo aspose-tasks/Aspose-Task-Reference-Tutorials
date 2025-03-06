@@ -3,10 +3,16 @@ title: Identyfikuj zadania międzyprojektowe w Aspose.Tasks
 linktitle: Identyfikuj zadania międzyprojektowe w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj identyfikację zadań między projektami za pomocą Aspose.Tasks dla Java. Bezproblemowa integracja i efektywne zarządzanie. Pobierz teraz!
-type: docs
 weight: 14
 url: /pl/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identyfikuj zadania międzyprojektowe w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym kompleksowym samouczku na temat skutecznego identyfikowania zadań między projektami za pomocą Aspose.Tasks dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten przewodnik przeprowadzi Cię przez proces płynnej integracji tej funkcji z projektami Java.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ Odp.: Tak, Aspose.Tasks obsługuje wiele języków programowania, w tym Java, .N
  Odp.: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Potrzebujesz pomocy lub masz konkretne pytania?
 O: Odwiedź forum wsparcia Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

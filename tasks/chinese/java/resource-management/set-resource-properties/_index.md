@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中设置资源属性
 linktitle: 在 Aspose.Tasks 中设置资源属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中设置 MS Project 资源属性，以实现无缝集成和高效的任务管理。
-type: docs
 weight: 20
 url: /zh/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中设置资源属性
+
 ## 介绍
 在 Java 开发领域，有效地管理任务是项目管理的一个重要方面。 Aspose.Tasks for Java 为开发人员与 Microsoft Project 文件交互提供了强大的解决方案，允许将任务管理功能无缝集成到 Java 应用程序中。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 设置 MS Project 资源属性。读完本指南后，您将全面了解如何在 Java 项目中操作资源属性。
 ## 先决条件
@@ -63,3 +69,9 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 您可以从以下机构获得临时许可证[临时许可证页面](https://purchase.aspose.com/temporary-license/)出于评估目的。
 ### 在哪里可以购买 Aspose.Tasks for Java 的许可版本？
 您可以从 Aspose.Tasks for Java 购买许可版本[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opanuj stawki za projekty MS za pomocą Aspose.Tasks
 linktitle: Zbiór stawek w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać stawkami w plikach MS Project przy użyciu Aspose.Tasks dla .NET. Samouczek krok po kroku dotyczący efektywnego zarządzania zasobami.
-type: docs
 weight: 11
 url: /pl/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanuj stawki za projekty MS za pomocą Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym samouczku dotyczącym zarządzania stawkami w MS Project przy użyciu Aspose.Tasks dla .NET! W tym przewodniku przeprowadzimy Cię przez proces pracy ze stawkami w plikach MS Project przy użyciu Aspose.Tasks. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z programowaniem .NET, w tym samouczku znajdziesz instrukcje krok po kroku, jak skutecznie zarządzać stawkami w swoich projektach.
 ## Warunki wstępne
@@ -110,3 +116,9 @@ O: Oczywiście, Aspose.Tasks dla .NET obsługuje pracę z plikami MS Project w r
 Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks dla .NET, aby ocenić jego funkcje i zgodność z własnymi wymaganiami.
 ### P: Jak mogę kupić licencję na Aspose.Tasks dla .NET?
  Odp.: Możesz kupić licencję na Aspose.Tasks dla .NET w witrynie[strona internetowa](https://purchase.aspose.com/temporary-license/)która zapewnia elastyczne opcje licencjonowania dostosowane do Twoich potrzeb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

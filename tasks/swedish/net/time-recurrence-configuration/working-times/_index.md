@@ -3,10 +3,16 @@ title: Konfigurera arbetstider i Aspose.Tasks
 linktitle: Konfigurera arbetstider i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Förbättra projektschemaläggning i .NET med Aspose.Tasks. Konfigurera arbetstider utan ansträngning för exakt resurshantering. Ladda ner biblioteket nu!
-type: docs
 weight: 13
 url: /sv/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurera arbetstider i Aspose.Tasks
+
 ## Introduktion
 Inom projektledning är exakt kontroll över arbetstider avgörande för korrekt schemaläggning och resursallokering. Aspose.Tasks för .NET tillhandahåller en kraftfull lösning för att hantera arbetstidsinformation inom dina projekt. Denna handledning guidar dig genom processen att konfigurera arbetstider med Aspose.Tasks i en .NET-miljö.
 ## Förutsättningar
@@ -84,3 +90,9 @@ Ja, Aspose.Tasks underlättar integration med olika projektledningsverktyg, vilk
 Aspose.Tasks stöder flera filformat, vilket möjliggör sömlös import/export för projektdata.
 ### Hur ofta släpps Aspose.Tasks-uppdateringar?
 Uppdateringar släpps regelbundet för att säkerställa kompatibilitet med den senaste tekniken och adressera användarfeedback.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Varaktighet Hantering i Aspose.Tasks
 linktitle: Varaktighet Hantering i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar varaktigheter effektivt i Aspose.Tasks för .NET med steg-för-steg handledning.
-type: docs
 weight: 30
 url: /sv/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Varaktighet Hantering i Aspose.Tasks
+
 ## Introduktion
 
 Att hantera varaktigheter effektivt är avgörande i projektledningsapplikationer. Aspose.Tasks för .NET ger robust funktionalitet för att hantera varaktigheter effektivt. I den här handledningen kommer vi att utforska olika aspekter av varaktighetshantering med Aspose.Tasks för .NET.
@@ -156,3 +162,9 @@ S4: Ja, Aspose.Tasks stöder läsning och skrivning av Microsoft Project-filer i
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
 S5: Ja, du kan få en gratis provversion av Aspose.Tasks för .NET från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

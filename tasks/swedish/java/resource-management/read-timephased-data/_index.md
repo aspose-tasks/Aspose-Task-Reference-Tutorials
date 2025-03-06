@@ -3,10 +3,16 @@ title: Läs Timephased Data for Resources i Aspose.Tasks
 linktitle: Läs Timephased Data for Resources i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du extraherar tidsfasdata från MS Project-resurser med Aspose.Tasks för Java. Steg-för-steg handledning.
-type: docs
 weight: 15
 url: /sv/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Läs Timephased Data for Resources i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen guidar vi dig genom processen att läsa tidsfasad data för MS Project-resurser med Aspose.Tasks för Java. Det här biblioteket tillhandahåller kraftfulla funktioner för att hantera Microsoft Project-filer programmatiskt.
 ## Förutsättningar
@@ -74,3 +80,9 @@ Absolut, Aspose.Tasks tillhandahåller omfattande API:er för att skapa, modifie
 Ja, Aspose.Tasks används ofta i företagsmiljöer på grund av dess tillförlitlighet och skalbarhet.
 ### Var kan jag hitta support om jag stöter på problem när jag använder Aspose.Tasks?
  Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp från samhället och supportteamet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 가용성 기간 수집
 linktitle: Aspose.Tasks의 가용성 기간 수집
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 리소스의 가용성 기간을 관리하는 방법을 알아보세요. 이 단계별 튜토리얼은 가용성 기간을 추가, 업데이트, 제거하는 과정을 안내하여 효과적인 프로젝트 자원 계획을 보장합니다.
-type: docs
 weight: 18
 url: /ko/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 가용성 기간 수집
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Tasks for .NET에서 리소스의 가용성 기간 컬렉션을 사용하여 작업하는 방법을 살펴보겠습니다. 가용성 기간 관리는 프로젝트 관리에 매우 중요하므로 프로젝트 내 작업에 리소스를 사용할 수 있는 시기를 정의할 수 있습니다.
@@ -148,3 +154,9 @@ A4: .NET용 Aspose.Tasks는 겹치는 기간을 처리하는 기본 제공 메�
 ### Q5: 리소스가 가질 수 있는 가용성 기간에 제한이 있습니까?
 
 대답 5: 리소스가 가질 수 있는 가용성 기간 수에는 미리 정의된 제한이 없지만 기간이 많으면 성능이 저하될 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

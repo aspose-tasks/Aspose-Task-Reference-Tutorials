@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 的 MS Project 保存選項
 linktitle: Aspose.Tasks 的常規保存選項
 second_title: Aspose.Tasks .NET API
 description: 了解使用 Aspose.Tasks for .NET 有效地儲存 MS Project 檔案。輕鬆為您的專案自訂輸出選項。
-type: docs
 weight: 17
 url: /zh-hant/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 的 MS Project 保存選項
+
 ## 介紹
 Aspose.Tasks for .NET 提供了以程式設計方式操作 Microsoft Project 檔案的強大功能。在本教程中，我們將深入研究使用 Aspose.Tasks 提供的各種選項來保存 MS Project 檔案的複雜性。具體來說，我們將重點放在 Aspose.Tasks 可用的一般保存選項，讓您可以根據您的特定要求自訂輸出。
 ## 先決條件
@@ -68,3 +74,9 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 答：臨時許可證可用於評估目的[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：我可以在哪裡尋求 Aspose.Tasks 相關查詢的支援？
 答：您可以加入Aspose.Tasks社群論壇[這裡](https://forum.aspose.com/c/tasks/15)獲得專家和其他開發人員的協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

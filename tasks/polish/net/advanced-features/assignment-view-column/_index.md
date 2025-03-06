@@ -3,10 +3,16 @@ title: Niestandardowa kolumna widoku przypisania w Aspose.Tasks
 linktitle: Niestandardowa kolumna widoku przypisania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak dodać niestandardowe kolumny widoku przypisań w Aspose.Tasks dla .NET, aby zwiększyć możliwości zarządzania projektami.
-type: docs
 weight: 16
 url: /pl/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowa kolumna widoku przypisania w Aspose.Tasks
+
 ## Wstęp
 
 tym samouczku omówimy, jak dodać niestandardowe kolumny do widoków przypisań za pomocą Aspose.Tasks dla .NET. Kolumny niestandardowe zapewniają elastyczność i pozwalają wyświetlać dodatkowe informacje istotne dla potrzeb zarządzania projektami.
@@ -116,3 +122,9 @@ O3: Tak, możesz dostosować wygląd niestandardowych kolumn, modyfikując wła�
 ### P5: Czy Aspose.Tasks obsługuje eksportowanie projektów do innych formatów oprócz arkuszy kalkulacyjnych z niestandardowymi kolumnami?
 
 Odpowiedź 5: Tak, Aspose.Tasks obsługuje eksportowanie projektów do różnych formatów, takich jak PDF, HTML i XML, umożliwiając wszechstronne opcje raportowania projektów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

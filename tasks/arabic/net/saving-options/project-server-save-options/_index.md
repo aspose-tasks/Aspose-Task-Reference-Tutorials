@@ -3,10 +3,16 @@ title: خادم حفظ خيارات مشروع MS لـ Aspose.Tasks
 linktitle: خيارات حفظ خادم المشروع لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ خيارات Microsoft Project لـ Aspose.Tasks باستخدام تكامل Project Server. تعزيز سير عمل إدارة المشروع الخاص بك.
-type: docs
 weight: 16
 url: /ar/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خادم حفظ خيارات مشروع MS لـ Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في حفظ خيارات Microsoft Project لـ Aspose.Tasks باستخدام Project Server. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات .NET قوية تتيح للمطورين العمل مع ملفات Microsoft Project برمجيًا. من خلال الاستفادة من إمكانات خادم Project، يمكننا دمج Aspose.Tasks بسلاسة في سير عمل إدارة المشروع لدينا. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 ج: نعم، يمكنك تخصيص خيارات الحفظ مثل اسم المشروع، والمهلة، والفاصل الزمني للاستقصاء لتناسب متطلباتك.
 ### س: أين يمكنني العثور على الدعم لـ Aspose.Tasks؟
  ج: يمكنك العثور على الدعم والمساعدة على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

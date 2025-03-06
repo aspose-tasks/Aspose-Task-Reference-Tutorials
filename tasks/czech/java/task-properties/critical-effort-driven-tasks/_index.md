@@ -3,10 +3,16 @@ title: Správa kritických úkolů a úkolů řízených úsilím v Aspose.Tasks
 linktitle: Správa kritických úkolů a úkolů řízených úsilím v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: S Aspose.Tasks můžete bez námahy spravovat kritické a úsilím řízené úkoly ve svých projektech Java. Stáhněte si knihovnu a vylepšete své schopnosti projektového řízení.
-type: docs
 weight: 14
 url: /cs/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kritických úkolů a úkolů řízených úsilím v Aspose.Tasks
+
 V rychle se rozvíjejícím světě projektového řízení je efektivní zvládání kritických a úsilím řízených úkolů zásadní pro úspěšné dokončení projektu. Aspose.Tasks for Java poskytuje robustní řešení pro bezproblémovou správu těchto úloh. V tomto tutoriálu vás provedeme procesem používání Aspose.Tasks pro Javu ke zpracování kritických a úsilím řízených úkolů ve vašich projektech.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
@@ -60,3 +66,9 @@ Ano, Aspose.Tasks for Java je nezávislý na platformě a lze jej použít v pro
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu zakoupit Aspose.Tasks pro Java?
  Aspose.Tasks pro Java si můžete zakoupit od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

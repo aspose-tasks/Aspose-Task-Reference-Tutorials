@@ -3,10 +3,16 @@ title: Konfigurace databáze MS Project Primavera v Aspose.Tasks
 linktitle: Konfigurace nastavení databáze Primavera v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak snadno konfigurovat nastavení databáze MS Project Primavera v Aspose.Tasks pro .NET. Zjednodušte své úkoly projektového řízení.
-type: docs
 weight: 11
 url: /cs/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace databáze MS Project Primavera v Aspose.Tasks
+
 ## Úvod
 Jste připraveni využít sílu Aspose.Tasks pro .NET k bezproblémové konfiguraci nastavení databáze MS Project Primavera? V tomto tutoriálu vás provedeme procesem krok za krokem. Než se však ponoříme, ujistěte se, že máte vše, co potřebujete.
 ## Předpoklady
@@ -73,3 +79,9 @@ Odpověď: Aspose.Tasks for .NET se primárně zaměřuje na místní řešení 
 A: Rozhodně! Aspose.Tasks for .NET poskytuje bohatou sadu rozhraní API pro čtení, zápis a manipulaci s daty projektu v různých formátech.
 ### Otázka: Je k dispozici komunitní fórum nebo kanál podpory pro Aspose.Tasks pro uživatele .NET?
  Odpověď: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za podporu komunity a pomoc s jakýmikoli problémy nebo dotazy, které můžete mít. ## Kompletní zdrojový kód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

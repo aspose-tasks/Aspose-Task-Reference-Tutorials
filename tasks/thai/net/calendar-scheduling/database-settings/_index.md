@@ -3,10 +3,16 @@ title: การตั้งค่าฐานข้อมูลใน Aspose.Ta
 linktitle: การตั้งค่าฐานข้อมูลใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีนำเข้าโปรเจ็กต์จากฐานข้อมูล Primavera โดยใช้ Aspose.Tasks สำหรับ .NET รับคำแนะนำทีละขั้นตอนในบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 29
 url: /th/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การตั้งค่าฐานข้อมูลใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ในแอปพลิเคชัน .NET ของตนได้ ในบทช่วยสอนนี้ เราจะเน้นไปที่การนำเข้าโปรเจ็กต์จากฐานข้อมูล Primavera โดยใช้ Aspose.Tasks
@@ -100,3 +106,9 @@ A1: ได้ คุณสามารถนำเข้าโครงการ
 ### คำถามที่ 5: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อใช้ Aspose.Tasks สำหรับ .NET หรือไม่
 
  A5: หากคุณต้องการประเมินฟังก์ชันการทำงานทั้งหมดของไลบรารี คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

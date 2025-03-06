@@ -3,10 +3,16 @@ title: Opakování podle dne roku v Aspose.Tasks
 linktitle: Opakování podle dne roku v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak zacházet s opakováním po celý rok v Aspose.Tasks pro .NET, abyste efektivně zjednodušili správu opakujících se úloh.
-type: docs
 weight: 27
 url: /cs/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opakování podle dne roku v Aspose.Tasks
+
 ## Úvod
 
 oblasti projektového řízení hraje efektivní plánování úkolů a opakování klíčovou roli při zajišťování včasného provedení a hladkého průběhu práce. Aspose.Tasks for .NET nabízí robustní řešení pro vývojáře, aby bez námahy zvládli opakující se úkoly v rámci svých aplikací. V tomto tutoriálu se ponoříme do složitosti práce s ročními denními opakováními pomocí Aspose.Tasks a poskytujeme komplexního průvodce pro vytváření opakujících se úkolů založených na ročních vzorcích.
@@ -109,3 +115,9 @@ Odpověď 4: Aspose.Tasks samozřejmě poskytuje robustní rozhraní API pro dyn
 ### Q5: Je Aspose.Tasks vhodný jak pro malé, tak pro podnikové projekty?
 
 Odpověď 5: Aspose.Tasks je skutečně navržen tak, aby vyhovoval potřebám vývojářů pracujících na projektech všech měřítek, od jednotlivých úkolů až po rozsáhlé podnikové projekty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

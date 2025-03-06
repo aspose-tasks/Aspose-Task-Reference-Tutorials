@@ -3,10 +3,16 @@ title: Aspose.Tasks में एमएस प्रोजेक्ट डेट
 linktitle: Aspose.Tasks में Microsoft Project डेटाबेस से प्रोजेक्ट डेटा पढ़ना
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट डेटाबेस से प्रोजेक्ट डेटा पढ़ना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में एमएस प्रोजेक्ट डेटाबेस से प्रोजेक्ट डेटा पढ़ना
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट डेटाबेस से प्रोजेक्ट डेटा को पढ़ने का तरीका जानेंगे। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट को स्थापित करने की आवश्यकता के बिना Microsoft प्रोजेक्ट दस्तावेज़ों में हेरफेर करने की अनुमति देता है। इस गाइड में उल्लिखित चरणों का पालन करके, आप सीखेंगे कि डेटाबेस से प्रोजेक्ट डेटा को कुशलतापूर्वक कैसे निकाला जाए और इसे वांछित प्रारूप में कैसे सहेजा जाए।
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 उत्तर: हाँ, Aspose.Tasks विभिन्न आउटपुट स्वरूपों का समर्थन करता है, जिनमें XML, PDF, HTML और PNG और JPEG जैसे छवि प्रारूप शामिल हैं।
 ### प्रश्न: मुझे Aspose.Tasks के साथ और अधिक समर्थन या सहायता कहां मिल सकती है?
  उ: अतिरिक्त सहायता या सहायता के लिए, आप Aspose.Tasks फोरम पर जा सकते हैं या वेबसाइट पर उपलब्ध दस्तावेज़ देख सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

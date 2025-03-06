@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中設定新任務的 MS 項目屬性
 linktitle: 在 Aspose.Tasks 中設定新任務的屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 設定新任務的 MS Project 屬性。透過這份綜合指南輕鬆自訂任務屬性。
-type: docs
 weight: 21
 url: /zh-hant/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中設定新任務的 MS 項目屬性
+
 ## 介紹
 歡迎來到我們關於在 Aspose.Tasks for Java 中為新任務設定 MS Project 屬性的綜合教學！在本指南中，我們將逐步引導您完成整個過程，確保您可以使用這個強大的 Java 程式庫輕鬆管理和自訂您的任務。
 ## 先決條件
@@ -68,3 +74,9 @@ System.out.println("Project file generated Successfully");
 答：Aspose.Tasks for Java 的臨時許可證可以從[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
 ### Q：對於與 Aspose.Tasks for Java 相關的任何問題或查詢，我可以在哪裡獲得支援？
 答：您可以透過以下方式獲得支持並與社區互動：[Aspose.Tasks for Java 支援論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

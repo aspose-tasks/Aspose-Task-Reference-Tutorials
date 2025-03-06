@@ -3,10 +3,16 @@ title: التكامل مع VBA
 linktitle: التكامل مع VBA
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks Java مع تكامل VBA. تبسيط سير عمل المشروع وتحسين تتبع المهام. استكشف البرامج التعليمية الشاملة للتكامل السلس مع VBA!
-type: docs
 weight: 35
 url: /ar/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التكامل مع VBA
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/java/vba-integration/
 ## دروس التكامل VBA
 ### [العمل مع تكامل VBA في Aspose.Tasks](./work-with-vba/)
 تحسين إدارة المشروعات باستخدام Aspose.Tasks for Java - أطلق العنان لتكامل VBA لسير العمل المبسط. استكشف الآن لتتبع المهام بكفاءة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

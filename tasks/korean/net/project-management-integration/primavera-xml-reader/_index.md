@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS Project Primavera XML 리더 사용
 linktitle: Aspose.Tasks에서 Primavera XML 리더 사용
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 MS Project Primavera XML Reader를 활용하여 프로젝트 데이터를 효과적으로 관리하는 방법을 알아보세요. 단계별 안내를 받고 FAQ를 살펴보세요.
-type: docs
 weight: 13
 url: /ko/net/project-management-integration/primavera-xml-reader/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS Project Primavera XML 리더 사용
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET에서 MS Project Primavera XML Reader를 활용하여 프로젝트 데이터를 효과적으로 관리하는 방법을 살펴보겠습니다. Aspose.Tasks는 Microsoft Project를 설치할 필요 없이 .NET 응용 프로그램이 Microsoft Project 파일과 함께 작동할 수 있도록 하는 강력한 라이브러리입니다.
 ## 전제조건
@@ -58,3 +64,9 @@ A: 예, Aspose.Tasks는 다양한 프로젝트 구조와 복잡성을 효과적�
  A: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks에 대한 종합 문서는 어디에서 찾을 수 있나요?
  A: 자세한 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

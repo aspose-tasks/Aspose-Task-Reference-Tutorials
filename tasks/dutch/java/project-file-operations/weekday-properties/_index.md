@@ -3,10 +3,16 @@ title: Weekdageigenschappen in Aspose.Tasks
 linktitle: Weekdageigenschappen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u doordeweekse eigenschappen efficiënt kunt beheren in Aspose.Tasks voor Java. Pas eenvoudig de startdatums van de week, dagen per maand en meer aan.
-type: docs
 weight: 25
 url: /nl/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weekdageigenschappen in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java is een krachtige API waarmee Java-ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project op de machine is geïnstalleerd. Een van de belangrijkste functionaliteiten is het beheren van weekdageigenschappen, waardoor gebruikers de startdatums van de week, dagen per maand, minuten per dag en minuten per week kunnen aanpassen. Deze tutorial biedt een gedetailleerde handleiding over hoe u deze functies effectief kunt gebruiken.
 ## Vereisten
@@ -74,3 +80,9 @@ A: Ja, Aspose.Tasks voor Java biedt naadloze integratiemogelijkheden, waardoor u
  A: Ja, u kunt op hun website toegang krijgen tot uitgebreide documentatie en community-ondersteuning voor Aspose.Tasks voor Java[website](https://releases.aspose.com/).
 ### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor Java?
 A: Ja, u kunt een gratis proefversie van Aspose.Tasks voor Java downloaden van hun[website](https://reference.aspose.com/tasks/java/) om de functies ervan te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

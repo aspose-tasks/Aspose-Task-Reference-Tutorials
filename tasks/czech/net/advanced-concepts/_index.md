@@ -3,10 +3,16 @@ title: Aspose.Tasks Advanced Concepts
 linktitle: Aspose.Tasks Advanced Concepts
 second_title: Aspose.Tasks .NET API
 description: Naučte se ukládání obrázků, zpracování výjimek, stromové algoritmy, zobrazení štítků, možnosti načítání a další. Zvládněte pokročilé koncepty v Aspose.Tasks pro .NET
-type: docs
 weight: 24
 url: /cs/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Advanced Concepts
+
 
 ## Úvod
 
@@ -84,3 +90,9 @@ Naučte se používat operaci NOT v Aspose.Tasks pro .NET k efektivnímu filtrov
 Naučte se, jak efektivně pracovat s objekty OLE v aplikacích .NET pomocí Aspose.Tasks, čímž se rozšíří možnosti řízení projektů.
 ### [Kolekce objektů OLE v Aspose.Tasks](./ole-object-collection/)
 Naučte se spravovat objekty OLE v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Osvojte si bez námahy manipulaci s vloženými soubory v projektových dokumentech.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Tasks для Java
 linktitle: Учебные пособия по Aspose.Tasks для Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Изучите Aspose.Tasks для Java с помощью наших руководств. Главный календарь, управление проектами и многое другое. Оптимизируйте рабочие процессы для эффективного выполнения проектов.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Tasks для Java
+
 
 ## Введение
 Готовы ли вы повысить свои навыки управления проектами Java? Погрузитесь в мир Aspose.Tasks для Java с помощью наших обширных руководств, охватывающих различные аспекты управления проектами. От исключений из календаря до интеграции VBA — мы предоставим вам все необходимое.
@@ -93,3 +98,9 @@ is_root: true
 Улучшите управление проектами Java с помощью Aspose.Tasks. Изучите руководства по свойствам задач: от управления приоритетами до управления затратами. Оптимизируйте свой проект сегодня!
 ### [Интеграция VBA](./vba-integration/)
 Изучите Aspose.Tasks Java с интеграцией VBA. Оптимизируйте рабочие процессы проекта и улучшите отслеживание задач. Изучите подробные руководства по плавной интеграции VBA!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

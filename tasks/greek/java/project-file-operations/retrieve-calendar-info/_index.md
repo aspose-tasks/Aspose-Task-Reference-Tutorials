@@ -3,10 +3,16 @@ title: Ανάκτηση πληροφοριών ημερολογίου έργου
 linktitle: Ανάκτηση πληροφοριών ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ανακτάτε πληροφορίες ημερολογίου MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα για πρόσβαση σε λεπτομέρειες ημερολογίου μέσω προγραμματισμού.
-type: docs
 weight: 14
 url: /el/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση πληροφοριών ημερολογίου έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να ανακτήσετε πληροφορίες ημερολογίου από αρχεία Microsoft Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Το Aspose.Tasks παρέχει ισχυρές δυνατότητες για τον χειρισμό δεδομένων έργου, συμπεριλαμβανομένης της πρόσβασης σε λεπτομέρειες ημερολογίου, όπως εργάσιμες ημέρες και ώρες.
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ System.out.println("Process completed Successfully");
  Α: Ναι, οι προσωρινές άδειες είναι διαθέσιμες για αγορά[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Tasks;
  Α: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

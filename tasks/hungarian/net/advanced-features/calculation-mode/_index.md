@@ -3,10 +3,16 @@ title: Számítási mód az Aspose.Tasks-ban
 linktitle: Számítási mód az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a számítási módokat az Aspose.Tasks for .NET alkalmazásban a projektütemezés és a feladatfüggőségek egyszerűsítéséhez.
-type: docs
 weight: 29
 url: /hu/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számítási mód az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal .NET-alkalmazásaikban. A projektfájlokkal végzett munka egyik kulcsfontosságú szempontja a számítási módok kezelése, amelyek meghatározzák a feladatok és a projekt ütemezésének kiszámítását és frissítését. Ebben az oktatóanyagban elmélyülünk az Aspose.Tasks for .NET által támogatott különféle számítási módokban, és bemutatjuk azok hatékony használatát.
@@ -165,3 +171,9 @@ A3: Abszolút! Az Aspose.Tasks úgy lett kialakítva, hogy kielégítse mind a k
 ### 5. kérdés: Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Tasks felhasználók számára?
 
  A5: Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

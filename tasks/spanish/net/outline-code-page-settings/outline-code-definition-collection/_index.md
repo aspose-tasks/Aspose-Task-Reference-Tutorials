@@ -3,10 +3,16 @@ title: Colección de definiciones de código de esquema en Aspose.Tasks .NET
 linktitle: Colección de definiciones de código de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a manipular definiciones de código de esquema en documentos de Microsoft Project utilizando Aspose.Tasks para .NET. Categorización de los datos de su proyecto sin esfuerzo.
-type: docs
 weight: 13
 url: /es/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de definiciones de código de esquema en Aspose.Tasks .NET
+
 ## Introducción
 Aspose.Tasks es una poderosa biblioteca .NET diseñada para manipular documentos de Microsoft Project con facilidad y eficiencia. Una de sus características clave es la capacidad de trabajar con definiciones de código de esquema, lo que permite a los usuarios organizar y categorizar los datos del proyecto de manera efectiva. En este tutorial, exploraremos cómo trabajar con definiciones de código de esquema usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -83,3 +89,9 @@ R: Si la definición de un código de esquema es de solo lectura, no podrá modi
 R: Aspose.Tasks para .NET no impone ninguna limitación específica en la cantidad de definiciones de código de esquema que puede agregar a un proyecto. Sin embargo, tenga en cuenta las implicaciones para el rendimiento cuando trabaje con una gran cantidad de definiciones.
 ### P: ¿Puedo utilizar definiciones de código de esquema para agrupar tareas según criterios personalizados?
 R: Sí, las definiciones del código de esquema le permiten categorizar tareas según criterios personalizados, lo que brinda flexibilidad en la organización de los datos del proyecto.## Código fuente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

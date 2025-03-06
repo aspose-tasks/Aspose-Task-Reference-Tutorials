@@ -3,10 +3,16 @@ title: تكوين المشروع
 linktitle: تكوين المشروع
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java من خلال برامجنا التعليمية الشاملة. قم بتكوين مخططات جانت، وإنشاء ملفات MS Project، وتبسيط إدارة المشروع.
-type: docs
 weight: 26
 url: /ar/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين المشروع
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق الإمكانات الكاملة لـ Aspose.Tasks لـ Java؟ تعمق في برامجنا التعليمية التفصيلية لإتقان تكوين المشروع باستخدام هذه الأداة القوية. سواء كنت مطورًا متمرسًا أو مبتدئًا، ستمكنك أدلتنا خطوة بخطوة من الاستفادة من إمكانات Aspose.Tasks بسلاسة.
@@ -45,3 +51,9 @@ url: /ar/java/project-configuration/
 تعرف على كيفية إنشاء وحفظ ملف MS Project (MPP) فارغ باستخدام Aspose.Tasks لـ Java. تبسيط مهام إدارة المشروع دون عناء.
 ### [قم بإنشاء مشروع فارغ وحفظه للبث في Aspose.Tasks](./create-save-stream/)
 تعلم كيفية إنشاء ملفات MS Project الفارغة وحفظها في تدفق في Java باستخدام Aspose.Tasks، مما يبسط مهام إدارة المشروع دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

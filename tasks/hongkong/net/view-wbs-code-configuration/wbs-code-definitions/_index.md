@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中定義 WBS 代碼定義
 linktitle: 在 Aspose.Tasks 中定義 WBS 代碼定義
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET 能夠實現高效率的專案管理。透過我們的綜合教學輕鬆掌握 WBS 程式碼。立即簡化工作流程！
-type: docs
 weight: 13
 url: /zh-hant/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中定義 WBS 代碼定義
+
 ## 介紹
 隨著專案管理的發展，對簡化流程的強大工具的需求也不斷增長。在 .NET 開發領域，Aspose.Tasks 作為處理專案管理任務的強大函式庫脫穎而出。在本教程中，我們將深入研究使用 Aspose.Tasks for .NET 定義工作分解結構 (WBS) 程式碼的過程。 WBS 程式碼使專案層次結構井然有序，從而實現高效的追蹤和組織。
 ## 先決條件
@@ -79,3 +85,9 @@ Aspose.Tasks提供了可擴充性，您可以根據專案的複雜性定義相�
  Aspose.Tasks 論壇（連結到[支援](https://forum.aspose.com/c/tasks/15)）是尋求幫助和解決問題的寶貴資源。
 ### 購買 Aspose.Tasks 之前是否有試用版？
 是的，您可以透過造訪來探索 Aspose.Tasks 的特性和功能[免費試用](https://releases.aspose.com/)版本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

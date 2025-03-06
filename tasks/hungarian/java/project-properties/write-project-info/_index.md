@@ -3,10 +3,16 @@ title: MS Project Manipulation elsajátítása Aspose.Tasks for Java segítség�
 linktitle: Írja be a projektinformációkat az Aspose.Tasksba
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan írhat hatékonyan MS Project információkat az Aspose.Tasks for Java használatával. Lépésről lépésre útmutató Java fejlesztőknek.
-type: docs
 weight: 12
 url: /hu/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Manipulation elsajátítása Aspose.Tasks for Java segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban bemutatjuk az Aspose.Tasks for Java használatát, amely egy hatékony könyvtár a Microsoft Project fájlok programozott kezeléséhez. Egy alapvető feladatra összpontosítunk: MS Project információk írására az Aspose.Tasks segítségével. Akár tapasztalt fejlesztő, akár csak most kezdi a Java programozási utat, ez az útmutató lépésről lépésre végigvezeti a folyamaton.
 ## Előfeltételek
@@ -61,3 +67,9 @@ V: Bár a próbaverzió lehetővé teszi a könyvtár képességeinek felfedezé
  V: Kérhet segítséget az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Tasks for Java számára?
  V: Igen, rövid távú használatra ideiglenes licencek állnak rendelkezésre. Az egyiket beszerezheti[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

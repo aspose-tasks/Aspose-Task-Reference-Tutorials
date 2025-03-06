@@ -3,10 +3,16 @@ title: Cấu hình dự án
 linktitle: Cấu hình dự án
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks dành cho Java với các hướng dẫn toàn diện của chúng tôi. Định cấu hình biểu đồ Gantt, tạo tệp MS Project và hợp lý hóa việc quản lý dự án.
-type: docs
 weight: 26
 url: /vi/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình dự án
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Aspose.Tasks cho Java chưa? Đi sâu vào hướng dẫn chi tiết của chúng tôi để làm chủ cấu hình dự án bằng công cụ mạnh mẽ này. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn từng bước của chúng tôi sẽ giúp bạn khai thác các khả năng của Aspose.Tasks một cách liền mạch.
@@ -45,3 +51,9 @@ Tìm hiểu cách tạo tệp Microsoft Project trống trong Java bằng Aspose
 Tìm hiểu cách tạo và lưu tệp MS Project (MPP) trống bằng Aspose.Tasks cho Java. Đơn giản hóa các nhiệm vụ quản lý dự án một cách dễ dàng.
 ### [Tạo và lưu dự án trống để phát trực tuyến trong Aspose.Tasks](./create-save-stream/)
 Tìm hiểu cách tạo và lưu các tệp MS Project trống vào một luồng trong Java bằng Aspose.Tasks, đơn giản hóa các tác vụ quản lý dự án một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

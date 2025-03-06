@@ -3,10 +3,16 @@ title: Χειριστείτε εκτεταμένα χαρακτηριστικά 
 linktitle: Χειριστείτε εκτεταμένα χαρακτηριστικά σε έργα Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά εκτεταμένα χαρακτηριστικά σε έργα Aspose.Tasks χρησιμοποιώντας Java. Οδηγός βήμα προς βήμα για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 13
 url: /el/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειριστείτε εκτεταμένα χαρακτηριστικά σε έργα Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση εκτεταμένων χαρακτηριστικών στη διαχείριση έργου είναι ζωτικής σημασίας για την προσαρμογή και τη βελτίωση των δεδομένων του έργου. Το Aspose.Tasks για Java παρέχει ισχυρά εργαλεία για τον αποτελεσματικό χειρισμό εκτεταμένων χαρακτηριστικών σε αρχεία MS Project. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα-βήμα, διασφαλίζοντας ότι κατανοείτε κάθε έννοια πλήρως.
 ## Προαπαιτούμενα
@@ -86,3 +92,9 @@ prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
  Α: Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση στον ιστότοπο Aspose.Tasks[τεκμηρίωση](https://reference.aspose.com/tasks/java/).
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για τους χρήστες του Aspose.Tasks;
  Α: Ναι, μπορείτε να έχετε πρόσβαση στην τεχνική υποστήριξη μέσω του φόρουμ Aspose.Tasks[δικτυακός τόπος](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

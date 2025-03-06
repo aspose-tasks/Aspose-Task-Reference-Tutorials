@@ -3,10 +3,16 @@ title: مواضع رمز العملة في Aspose.Tasks
 linktitle: مواضع رمز العملة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التحكم في مواضع رموز العملة في مشاريع .NET دون عناء باستخدام Aspose.Tasks.
-type: docs
 weight: 22
 url: /ar/net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مواضع رمز العملة في Aspose.Tasks
+
 ## مقدمة
 
 في تطوير البرمجيات، يعد التعامل الفعال مع الجوانب المختلفة مثل إدارة المشاريع أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلولاً قوية لإدارة المهام والمشاريع والموارد بسلاسة داخل تطبيقات .NET. من بين ميزاته العديدة، يعد التحكم في موضع رموز العملة أمرًا ضروريًا للتتبع المالي وإعداد التقارير. في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع مواضع رموز العملة باستخدام Aspose.Tasks لـ .NET.
@@ -84,3 +90,9 @@ A1: نعم، يمكنك ضبط موضع رمز العملة عدة مرات دا
 ### س5: كيف يمكنني شراء ترخيص Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك شراء ترخيص Aspose.Tasks لـ .NET من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

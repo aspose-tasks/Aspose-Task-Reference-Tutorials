@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的計算模式
 linktitle: Aspose.Tasks 中的計算模式
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中有效管理運算模式，以簡化專案排程和任務依賴性。
-type: docs
 weight: 29
 url: /zh-hant/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的計算模式
+
 ## 介紹
 
 Aspose.Tasks for .NET 是一個功能強大的 API，允許開發人員在其 .NET 應用程式中以程式設計方式使用 Microsoft Project 檔案。使用專案文件的一個重要方面是管理計算模式，這決定了任務和專案進度表的計算和更新方式。在本教程中，我們將深入研究 Aspose.Tasks for .NET 支援的各種計算模式，並示範如何有效地使用它們。
@@ -165,3 +171,9 @@ A4：是的，您可以將 Aspose.Tasks 與其他 .NET 程式庫和框架無縫�
 ### Q5：Aspose.Tasks 使用者有可用的社群論壇或支援管道嗎？
 
  A5: 是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

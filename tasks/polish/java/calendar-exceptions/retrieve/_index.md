@@ -3,10 +3,16 @@ title: Pobierz wyjątki kalendarza za pomocą Aspose.Tasks
 linktitle: Pobierz wyjątki kalendarza za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak pobrać wyjątki kalendarza z MS Project przy użyciu Aspose.Tasks dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 13
 url: /pl/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz wyjątki kalendarza za pomocą Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak pobrać wyjątki kalendarza z MS Project przy użyciu biblioteki Aspose.Tasks dla Java. Aspose.Tasks to potężne narzędzie, które pozwala programistom programowo manipulować plikami Microsoft Project. Poprowadzimy Cię przez proces krok po kroku, dzieląc każdy przykład na wiele kroków, aby ułatwić zrozumienie.
 ## Warunki wstępne
@@ -55,3 +61,9 @@ Tak, Aspose.Tasks obsługuje różne wersje plików MS Project, w tym formaty MP
  Możesz uzyskać wsparcie na forum społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Czy istnieje opcja tymczasowych licencji dla Aspose.Tasks?
  Tak, możesz uzyskać tymczasowe licencje od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

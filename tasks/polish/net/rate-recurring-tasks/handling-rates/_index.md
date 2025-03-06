@@ -3,10 +3,16 @@ title: Obsługa stawek za projekty MS za pomocą Aspose.Tasks dla .NET
 linktitle: Obsługa stawek w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Opanuj z łatwością zarządzanie stawkami projektów MS za pomocą Aspose.Tasks dla .NET. Efektywnie automatyzuj zadania, aby zapewnić płynniejszy przebieg prac nad projektami.
-type: docs
 weight: 10
 url: /pl/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa stawek za projekty MS za pomocą Aspose.Tasks dla .NET
+
 ## Wstęp
 Witamy w naszym samouczku dotyczącym obsługi stawek MS Project przy użyciu Aspose.Tasks dla .NET! W tym przewodniku przeprowadzimy Cię krok po kroku przez proces, zapewniając efektywne zarządzanie stawkami w dokumentach MS Project. Aspose.Tasks dla .NET zapewnia zaawansowane funkcje do programowego manipulowania plikami MS Project, umożliwiając bezproblemowe usprawnienie zadań związanych z zarządzaniem projektami.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ Odp.: Absolutnie! Aspose.Tasks pozwala modyfikować istniejące stawki, dodawać
 Odp.: Tak, możesz wdrożyć niestandardowe obliczenia stawek za pomocą Aspose.Tasks, aby spełnić określone wymagania projektu.
 ### P: Czy dostępne jest forum społecznościowe lub wsparcie dla użytkowników Aspose.Tasks?
  Odpowiedź: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)do szukania pomocy i interakcji z innymi użytkownikami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

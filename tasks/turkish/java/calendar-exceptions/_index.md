@@ -3,10 +3,16 @@ title: Takvim İstisnaları
 linktitle: Takvim İstisnaları
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java projelerindeki takvim istisnalarını zahmetsizce yönetin, tanımlayın, yönetin ve alın. Verimli proje yönetimi için proje iş akışlarını kolaylaştırın.
-type: docs
 weight: 20
 url: /tr/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Takvim İstisnaları
+
 
 ## giriiş
 
@@ -34,3 +40,9 @@ Doğru proje planlaması için Aspose.Tasks'ı kullanarak Java projelerinde takv
 Aspose.Tasks for Java ile Java projelerinde takvim istisnalarını etkili bir şekilde nasıl ele alacağınızı öğrenin. Proje yönetimi sürecinizi şimdi kolaylaştırın.
 ### [Aspose.Tasks ile Takvim İstisnalarını Alın](./retrieve/)
 Aspose.Tasks for Java'yı kullanarak MS Project'ten takvim istisnalarını nasıl alacağınızı öğrenin. Kusursuz entegrasyon için adım adım eğitim.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

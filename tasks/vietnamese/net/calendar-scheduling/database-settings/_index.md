@@ -3,10 +3,16 @@ title: Cài đặt cơ sở dữ liệu trong Aspose.Tasks
 linktitle: Cài đặt cơ sở dữ liệu trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách nhập dự án từ cơ sở dữ liệu Primavera bằng Aspose.Tasks cho .NET. Nhận hướng dẫn từng bước trong hướng dẫn toàn diện này.
-type: docs
 weight: 29
 url: /vi/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cài đặt cơ sở dữ liệu trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc nhập các dự án từ cơ sở dữ liệu Primavera bằng Aspose.Tasks.
@@ -100,3 +106,9 @@ Câu trả lời 1: Có, bạn có thể nhập dự án từ nhiều nhà cung 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks cho .NET không?
 
  Câu trả lời 5: Nếu bạn muốn đánh giá toàn bộ chức năng của thư viện, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

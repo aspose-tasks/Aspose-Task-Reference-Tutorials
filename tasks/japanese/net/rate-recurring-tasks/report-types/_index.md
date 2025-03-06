@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS プロジェクトのレポート作成�
 linktitle: Aspose.Tasks でのレポート タイプの操作
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルを操作する方法を学びます。さまざまな種類のレポートを簡単に生成します。
-type: docs
 weight: 16
 url: /ja/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS プロジェクトのレポート作成をマスターする
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が Microsoft Project ファイルを簡単に操作できるようにする強力なライブラリです。プロジェクト管理、スケジュール設定、またはレポート タスクのいずれに取り組んでいる場合でも、Aspose.Tasks はワークフローを合理化するための包括的な機能セットを提供します。このチュートリアルでは、MS Project ファイルを操作し、Aspose.Tasks for .NET を使用してさまざまな種類のレポートを生成する方法を説明します。
 ## 前提条件
@@ -55,3 +61,9 @@ A: はい、商用プロジェクトで Aspose.Tasks for .NET を使用できま
  A: コミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/tasks/15).
 ### Q5: Aspose.Tasks for .NET をダウンロードするにはどうすればよいですか?
  A: Aspose.Tasks for .NET は、以下からダウンロードできます。[ここ](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

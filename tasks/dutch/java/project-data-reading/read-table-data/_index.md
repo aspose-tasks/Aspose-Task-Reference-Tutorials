@@ -3,10 +3,16 @@ title: Lees tabelgegevens uit bestand in Aspose.Tasks
 linktitle: Lees tabelgegevens uit bestand in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontgrendel de kracht van Aspose.Tasks voor Java. Leer hoe u tabelgegevens uit bestanden extraheert in deze uitgebreide zelfstudie.
-type: docs
 weight: 17
 url: /nl/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees tabelgegevens uit bestand in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u tabelgegevens uit een bestand kunt lezen met Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars programmatisch met Microsoft Project-documenten kunnen werken.
 ## Vereisten
@@ -62,3 +68,9 @@ A: Ja, u kunt Aspose.Tasks gebruiken om tabelgegevens programmatisch te wijzigen
  A: Ja, u kunt een gratis proefversie van Aspose.Tasks downloaden van de[releases pagina](https://releases.aspose.com/).
 ### Vraag: Waar kan ik hulp en ondersteuning vinden voor Aspose.Tasks?
  A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor hulp en ondersteuning van de gemeenschap en het Aspose-team.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

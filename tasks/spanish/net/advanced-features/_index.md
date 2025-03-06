@@ -3,10 +3,16 @@ title: Funciones avanzadas de Aspose.Tasks
 linktitle: Funciones avanzadas de Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Descubra funciones avanzadas en Aspose.Tasks para .NET con nuestros tutoriales. Desde operaciones AND hasta manejo de excepciones de memoria, mejore sus habilidades de gestión de proyectos.
-type: docs
 weight: 21
 url: /es/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Funciones avanzadas de Aspose.Tasks
+
 
 ## Introducción
 
@@ -93,3 +99,9 @@ Explore el poder de Aspose.Tasks para .NET para administrar tareas recurrentes d
 Aprenda a administrar los modos de cálculo de manera efectiva en Aspose.Tasks para .NET para optimizar la programación de proyectos y las dependencias de tareas.
 ### [Tipo de cálculo en Aspose.Tasks](./calculation-type/)
 Aprenda a personalizar los cálculos de valores en proyectos .NET con el tipo de cálculo en la biblioteca Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

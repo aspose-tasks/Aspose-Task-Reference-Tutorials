@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用 MS Project Primavera XML Reader
 linktitle: 在 Aspose.Tasks 中使用 Primavera XML Reader
 second_title: Aspose.Tasks .NET API
 description: 了解如何利用 Aspose.Tasks for .NET 中的 MS Project Primavera XML Reader 來有效管理專案資料。取得逐步指導並探索常見問題。
-type: docs
 weight: 13
 url: /zh-hant/net/project-management-integration/primavera-xml-reader/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用 MS Project Primavera XML Reader
+
 ## 介紹
 在本教學中，我們將探討如何利用 Aspose.Tasks for .NET 中的 MS Project Primavera XML Reader 來有效管理專案資料。 Aspose.Tasks 是一個功能強大的函式庫，可讓 .NET 應用程式處理 Microsoft Project 文件，而無需安裝 Microsoft Project。
 ## 先決條件
@@ -58,3 +64,9 @@ foreach (var projectUid in projectUids)
 答：是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的綜合文件？
 答：可以參考詳細文檔[這裡](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

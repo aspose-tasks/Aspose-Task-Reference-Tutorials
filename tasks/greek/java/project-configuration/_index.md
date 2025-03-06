@@ -3,10 +3,16 @@ title: Διαμόρφωση έργου
 linktitle: Διαμόρφωση έργου
 second_title: Aspose.Tasks Java API
 description: Ανακαλύψτε τη δύναμη του Aspose.Tasks για Java με τα περιεκτικά μας σεμινάρια. Διαμορφώστε γραφήματα Gantt, δημιουργήστε αρχεία MS Project και βελτιστοποιήστε τη διαχείριση έργων.
-type: docs
 weight: 26
 url: /el/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμόρφωση έργου
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ξεκλειδώσετε όλες τις δυνατότητες του Aspose.Tasks για Java; Βουτήξτε στα λεπτομερή μας σεμινάρια για να κατακτήσετε τη διαμόρφωση του έργου χρησιμοποιώντας αυτό το ισχυρό εργαλείο. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος, οι βήμα προς βήμα οδηγοί μας θα σας δώσουν τη δυνατότητα να αξιοποιήσετε τις δυνατότητες του Aspose.Tasks απρόσκοπτα.
@@ -45,3 +51,9 @@ url: /el/java/project-configuration/
 Μάθετε πώς να δημιουργείτε και να αποθηκεύετε ένα κενό αρχείο MS Project (MPP) χρησιμοποιώντας το Aspose.Tasks για Java. Απλοποιήστε τις εργασίες διαχείρισης έργου χωρίς κόπο.
 ### [Δημιουργία και αποθήκευση κενού έργου για ροή στο Aspose.Tasks](./create-save-stream/)
 Μάθετε να δημιουργείτε και να αποθηκεύετε κενά αρχεία MS Project σε ροή σε Java με το Aspose.Tasks, απλοποιώντας τις εργασίες διαχείρισης έργου χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

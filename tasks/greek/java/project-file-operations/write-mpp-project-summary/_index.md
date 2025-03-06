@@ -3,10 +3,16 @@ title: Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
 linktitle: Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να γράφετε περιλήψεις έργων MPP σε Java χρησιμοποιώντας το Aspose.Tasks. Ρυθμίστε και ανακτήστε πληροφορίες έργου χωρίς κόπο.
-type: docs
 weight: 27
 url: /el/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Tasks για την Java για τη σύνταξη περιλήψεων έργων MPP. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java για εργασία με αρχεία Microsoft Project. Ακολουθώντας τα βήματα που περιγράφονται παρακάτω, θα μπορείτε να ορίσετε και να ανακτήσετε διάφορες συνοπτικές πληροφορίες σχετικά με ένα έργο χρησιμοποιώντας αυτήν τη βιβλιοθήκη.
 ## Προαπαιτούμενα
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 Α: Απολύτως, το Aspose.Tasks για Java παρέχει εκτενείς επιλογές για την προσαρμογή των πληροφοριών περίληψης έργου σύμφωνα με τις συγκεκριμένες απαιτήσεις σας.
 ### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks για Java;
 Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

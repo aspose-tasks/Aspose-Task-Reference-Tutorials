@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 專案大綱值
 linktitle: 管理 Aspose.Tasks 中的大綱值
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效管理 MS Project 大綱值。輕鬆客製化專案大綱。
-type: docs
 weight: 16
 url: /zh-hant/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 專案大綱值
+
 ## 介紹
 在本教學中，我們將探討如何使用 .NET 的 Aspose.Tasks 函式庫管理 Microsoft Project 大綱值。使用Aspose.Tasks，您可以輕鬆操作大綱程式碼，建立新的大綱值，並根據您的要求自訂專案大綱。
 ## 先決條件
@@ -76,3 +82,9 @@ outline2.Values.Add(value2);
 答：是的，您可以從以下位置購買 Aspose.Tasks 的臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的詳細文件？
 答：您可以參考可用的綜合文檔[這裡](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

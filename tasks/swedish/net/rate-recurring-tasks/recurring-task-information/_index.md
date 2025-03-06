@@ -3,10 +3,16 @@ title: Extrahera information om återkommande uppgifter i Aspose.Tasks
 linktitle: Extrahera information om återkommande uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du extraherar information om återkommande uppgifter från MS Project-filer med Aspose.Tasks för .NET. Enkel integration för .NET-utvecklare.
-type: docs
 weight: 13
 url: /sv/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahera information om återkommande uppgifter i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft Project-filer i sina .NET-applikationer. I den här handledningen kommer vi att utforska hur man extraherar information om återkommande uppgifter från MS Project-filer med Aspose.Tasks.
 ## Förutsättningar
@@ -62,3 +68,9 @@ S: Ja, Aspose.Tasks stöder olika projektfilformat som MPP, XML och CSV.
  S: Du kan hitta dokumentationen[här](https://reference.aspose.com/tasks/net/).
 ### F: Hur kan jag få teknisk support för Aspose.Tasks för .NET?
  S: Du kan få teknisk support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

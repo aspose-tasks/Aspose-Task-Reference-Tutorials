@@ -3,10 +3,16 @@ title: Xác định các ngày trong tuần cho ngoại lệ lịch với Aspose
 linktitle: Xác định các ngày trong tuần cho ngoại lệ lịch với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xác định các ngày trong tuần cho các ngoại lệ lịch trong các dự án Java bằng cách sử dụng Aspose.Tasks để lập kế hoạch dự án chính xác.
-type: docs
 weight: 11
 url: /vi/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định các ngày trong tuần cho ngoại lệ lịch với Aspose.Tasks
+
 ### Giới thiệu
 Trong quản lý dự án, việc xác định các ngoại lệ cho lịch là rất quan trọng để thể hiện chính xác ngày làm việc hoặc ngày nghỉ lễ không theo tiêu chuẩn trong dòng thời gian của dự án. Aspose.Tasks cho Java cung cấp các chức năng mạnh mẽ để quản lý lịch một cách hiệu quả, bao gồm cả việc xác định các trường hợp ngoại lệ như ngày lễ hoặc ngày làm việc đặc biệt. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách xác định các ngày trong tuần cho các ngoại lệ của lịch bằng Aspose.Tasks cho Java.
 ### Điều kiện tiên quyết
@@ -68,3 +74,10 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho Java cung cấp tính
 Trả lời: Bạn có thể xử lý các trường hợp ngoại lệ theo chương trình dựa trên các yêu cầu động của dự án bằng cách sử dụng API mở rộng do Aspose.Tasks cho Java cung cấp.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
  Đáp: Có, bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.Tasks dành cho Java từ[trang mạng](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

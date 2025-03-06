@@ -3,10 +3,16 @@ title: Coluna de visualização de atribuição personalizada em Aspose.Tasks
 linktitle: Coluna de visualização de atribuição personalizada em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como adicionar colunas de visualização de atribuição personalizadas em Aspose.Tasks for .NET para aprimorar os recursos de gerenciamento de projetos.
-type: docs
 weight: 16
 url: /pt/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coluna de visualização de atribuição personalizada em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos como adicionar colunas personalizadas para visualizações de tarefas usando Aspose.Tasks for .NET. Colunas personalizadas fornecem flexibilidade e permitem exibir informações adicionais relevantes para suas necessidades de gerenciamento de projetos.
@@ -116,3 +122,9 @@ R3: Sim, você pode personalizar a aparência de colunas personalizadas modifica
 ### P5: O Aspose.Tasks oferece suporte à exportação de projetos para outros formatos além de planilhas com colunas personalizadas?
 
 A5: Sim, Aspose.Tasks oferece suporte à exportação de projetos para vários formatos, como PDF, HTML e XML, permitindo opções versáteis de relatórios de projetos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Управление базовым планом назначений в 
 linktitle: Управление базовым планом назначений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять базовыми планами заданий с помощью Aspose.Tasks для .NET, обеспечивая точное отслеживание хода выполнения и производительности проекта.
-type: docs
 weight: 14
 url: /ru/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление базовым планом назначений в Aspose.Tasks
+
 ## Введение
 
 При работе над задачами управления проектами управление базовыми планами заданий имеет решающее значение для точного отслеживания прогресса. Aspose.Tasks для .NET предоставляет полный набор инструментов для эффективной обработки базовых показателей назначения. В этом руководстве мы шаг за шагом углубимся в процесс управления базовыми планами назначений.
@@ -123,3 +129,9 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 ### Вопрос 5: Доступна ли пробная версия Aspose.Tasks для .NET?
 
  О5: Да, разработчики могут получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[здесь](https://releases.aspose.com/), что позволяет им оценить его характеристики и возможности перед принятием решения о покупке.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sbírka definic kódu osnovy v Aspose.Tasks .NET
 linktitle: Sbírka definic kódu osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se manipulovat s definicemi osnovy kódu v dokumentech Microsoft Project pomocí Aspose.Tasks for .NET. Snadná kategorizace dat vašeho projektu.
-type: docs
 weight: 13
 url: /cs/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sbírka definic kódu osnovy v Aspose.Tasks .NET
+
 ## Úvod
 Aspose.Tasks je výkonná knihovna .NET navržená pro snadnou a efektivní manipulaci s dokumenty Microsoft Project. Jednou z jeho klíčových funkcí je schopnost pracovat s obrysovými definicemi kódu, což uživatelům umožňuje efektivně organizovat a kategorizovat data projektu. V tomto tutoriálu prozkoumáme, jak pracovat s definicemi osnovy kódu pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -83,3 +89,9 @@ Odpověď: Pokud je definice kódu osnovy pouze pro čtení, nebudete ji moci p�
 Odpověď: Aspose.Tasks for .NET neklade žádná konkrétní omezení na počet definic kódu osnovy, které můžete přidat do projektu. Při práci s velkým počtem definic však zvažte dopady na výkon.
 ### Otázka: Mohu použít definice kódu osnovy k seskupení úkolů na základě vlastních kritérií?
 Odpověď: Ano, definice obrysového kódu vám umožňují kategorizovat úkoly na základě vlastních kritérií a poskytují flexibilitu při organizování projektových dat.## Kompletní zdrojový kód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

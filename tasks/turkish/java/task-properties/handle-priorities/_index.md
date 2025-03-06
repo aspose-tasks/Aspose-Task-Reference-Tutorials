@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Önceliklerini Yönetin
 linktitle: Aspose.Tasks'ta Görev Önceliklerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile görev önceliklerini zahmetsizce öğrenin. Sorunsuz kullanım için bu kılavuzu izleyin. Proje yönetimi becerilerinizi geliştirin!
-type: docs
 weight: 17
 url: /tr/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Önceliklerini Yönetin
+
 ## giriiş
 Görev önceliklerini yönetmek, projenin başarısı için çok önemlidir ve Aspose.Tasks for Java ile bu, kusursuz bir süreç haline gelir. Bu eğitim, Aspose.Tasks'ı kullanarak görev önceliklerini yönetme konusunda size rehberlik edecektir. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuz süreci takip edilmesi kolay adımlara ayıracaktır.
 ## Önkoşullar
@@ -56,3 +62,9 @@ Evet, Aspose.Tasks for Java hem masaüstü hem de web uygulamaları için uygund
  Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Ayrıntılı belgeleri nerede bulabilirim?
  Belgelere bakın[Burada](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

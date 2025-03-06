@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks के साथ प्रोजेक
 linktitle: Aspose.Tasks में ग्रिडलाइन्स प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks, प्रोजेक्ट विज़ुअलाइज़ेशन और प्रबंधन दक्षता का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों में ग्रिडलाइन सेटिंग्स को प्रोग्रामेटिक रूप से कैसे समायोजित किया जाए।
-type: docs
 weight: 24
 url: /hi/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks के साथ प्रोजेक्ट ग्रिडलाइन्स को अनुकूलित करें
+
 ## परिचय
 परियोजनाओं को कुशलतापूर्वक प्रबंधित करने में अक्सर समयसीमा और कार्यों को स्पष्टता के साथ देखना शामिल होता है। प्रोजेक्ट विज़ुअलाइज़ेशन का एक महत्वपूर्ण पहलू ग्रिडलाइन्स है, जो प्रोजेक्ट की संरचना को व्यवस्थित करने और समझने में मदद करता है। .NET के लिए Aspose.Tasks प्रोग्रामेटिक रूप से Microsoft प्रोजेक्ट फ़ाइलों में ग्रिडलाइन्स में हेरफेर करने के लिए मजबूत क्षमताएं प्रदान करता है। इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Tasks का उपयोग करके ग्रिडलाइन्स के साथ कैसे काम किया जाए।
 ## आवश्यक शर्तें
@@ -69,3 +75,9 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 ए: निश्चित रूप से. Aspose.Tasks के साथ, आप प्रोजेक्ट डेटा या उपयोगकर्ता-परिभाषित मानदंडों के आधार पर ग्रिडलाइन सेटिंग्स को गतिशील रूप से समायोजित करने के लिए तर्क को शामिल कर सकते हैं।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए अधिक संसाधन और समर्थन कहां मिल सकता है?
  ए: आप इसका पता लगा सकते हैं[प्रलेखन](https://reference.aspose.com/tasks/net/) व्यापक गाइड के लिए, पर जाएँ[सहयता मंच](https://forum.aspose.com/c/tasks/15) सहायता के लिए, या प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) विस्तारित मूल्यांकन के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

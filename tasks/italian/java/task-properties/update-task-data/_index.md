@@ -3,10 +3,16 @@ title: Aggiorna i dati delle attività in formato MPP in Aspose.Tasks
 linktitle: Aggiorna i dati delle attività in formato MPP in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come aggiornare i dati delle attività in formato MPP utilizzando Aspose.Tasks per Java. Segui la nostra guida passo passo per una gestione efficiente del progetto.
-type: docs
 weight: 35
 url: /it/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiorna i dati delle attività in formato MPP in Aspose.Tasks
+
 ## introduzione
 Benvenuti nella nostra guida passo passo sull'aggiornamento dei dati delle attività in formato MPP utilizzando Aspose.Tasks per Java. In questo tutorial ti guideremo attraverso il processo, assicurandoti di comprendere ogni passaggio con chiarezza. Aspose.Tasks per Java fornisce una soluzione solida per lavorare con i file Microsoft Project e, alla fine di questa guida, sarai in grado di aggiornare in modo efficiente i dati delle attività in formato MPP.
 ## Prerequisiti
@@ -93,3 +99,9 @@ Congratulazioni! Hai completato una guida completa sull'aggiornamento dei dati d
  R: Visita il forum di supporto[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Offrite licenze temporanee a scopo di test?
  R: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

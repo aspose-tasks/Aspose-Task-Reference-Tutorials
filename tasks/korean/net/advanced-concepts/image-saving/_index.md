@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 이미지 저장 처리
 linktitle: Aspose.Tasks에서 이미지 저장 처리
 second_title: Aspose.태스크 .NET API
 description: 단계별 지침을 사용하여 .NET용 Aspose.Tasks에서 이미지 저장을 처리하는 방법을 알아보세요. 이미지 저장 기능을 .NET 애플리케이션에 원활하게 통합합니다.
-type: docs
 weight: 10
 url: /ko/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 이미지 저장 처리
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Tasks for .NET에서 이미지 저장을 처리하는 과정을 자세히 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 API입니다. 프로젝트 파일 작업 시 일반적인 작업 중 하나는 차트, 그래프 또는 기타 시각적 요소가 포함될 수 있는 이미지를 저장해야 한다는 것입니다. 우리는 프로세스를 단계별로 분석하여 전체적으로 명확성과 이해를 보장합니다.
@@ -131,3 +137,9 @@ A4: 예, 콜백 메서드 내에서 이미지 저장 논리를 수정하여 저�
 ### Q5: Aspose.Tasks는 평가 목적으로 평가판을 제공합니까?
 
  A5: 예, Aspose.Tasks의 무료 평가판을 얻을 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

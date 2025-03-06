@@ -3,10 +3,16 @@ title: Split Task Finish Date in Aspose.Tasks
 linktitle: Split Task Finish Date in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to split task finish dates effortlessly using Aspose.Tasks for Java. Enhance project management with accurate timelines.
-type: docs
 weight: 28
 url: /java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Split Task Finish Date in Aspose.Tasks
+
 ## Introduction
 In project management, understanding task timelines is crucial for successful project completion. Aspose.Tasks for Java provides powerful features to manipulate project tasks efficiently. In this tutorial, we'll delve into splitting task finish dates using Aspose.Tasks, helping you manage project timelines effectively.
 ## Prerequisites
@@ -54,3 +60,10 @@ A3: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 A4: Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q5: Can I purchase Aspose.Tasks?
 A5: Yes, you can purchase it [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

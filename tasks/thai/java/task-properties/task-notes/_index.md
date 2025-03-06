@@ -3,10 +3,16 @@ title: การจัดการบันทึกงานใน Aspose.Tasks
 linktitle: การจัดการบันทึกงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: สำรวจการจัดการบันทึกงานใน Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนเพื่อการพัฒนา Java ที่มีประสิทธิภาพ ดาวน์โหลดทดลองใช้ฟรีตอนนี้!
-type: docs
 weight: 22
 url: /th/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการบันทึกงานใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks for Java มอบโซลูชันที่มีประสิทธิภาพสำหรับการจัดการข้อมูลที่เกี่ยวข้องกับโปรเจ็กต์ รวมถึงบันทึกงาน ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการจัดการบันทึกงานอย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการจัดการบันทึกงานได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -51,3 +57,9 @@ System.out.println("Notes RTF: " + task.get(Tsk.NOTES_RTF));
  ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะซื้อ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  ท่านสามารถซื้อสินค้าได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

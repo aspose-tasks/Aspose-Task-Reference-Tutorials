@@ -3,10 +3,16 @@ title: Speichern Sie MS Project-Dateien als Vorlagen mit Aspose.Tasks
 linktitle: Vorlagenoptionen für Aspose.Tasks speichern
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Dateien mit Aspose.Tasks für .NET als Vorlagen speichern. Passen Sie die Vorlageneinstellungen für ein optimiertes Projektmanagement an.
-type: docs
 weight: 18
 url: /de/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern Sie MS Project-Dateien als Vorlagen mit Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial werden wir den Prozess des Speicherns einer Vorlage mit Aspose.Tasks für .NET Schritt für Schritt durchgehen. Vorlagen sind nützlich, um Projektstrukturen und -einstellungen für die zukünftige Verwendung zu standardisieren. Wir zeigen Ihnen, wie Sie ein Projekt als Vorlage speichern und dabei seine Eigenschaften anpassen.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ A: Ja, Sie können Vorlagen auf bestehende Projekte anwenden, indem Sie die Vorl
 A: Aspose.Tasks für .NET ist in erster Linie für .NET Framework-Anwendungen konzipiert, die auf Windows-Plattformen ausgeführt werden.
 ### F: Ist technischer Support für Aspose.Tasks für .NET verfügbar?
  A: Ja, Sie können technische Unterstützung und Anleitung von der Aspose.Tasks-Community anfordern[Foren](https://forum.aspose.com/c/tasks/15)oder wenden Sie sich direkt an das Support-Team.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

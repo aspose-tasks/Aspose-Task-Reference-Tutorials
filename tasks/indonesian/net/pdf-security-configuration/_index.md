@@ -3,10 +3,16 @@ title: Konfigurasi Keamanan PDF Aspose.Tasks
 linktitle: Konfigurasi Keamanan PDF Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Temukan cara meningkatkan keamanan Microsoft Project PDF Anda menggunakan Aspose.Tasks untuk .NET. Pelajari tanda tangan digital dan teknik enkripsi.
-type: docs
 weight: 35
 url: /id/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Keamanan PDF Aspose.Tasks
+
 ## Perkenalan
 
 Di dunia digital, menjaga file proyek Anda adalah hal yang terpenting. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk memperkuat keamanan Microsoft Project PDF Anda. Seri tutorial ini menggali seluk-beluk konfigurasi keamanan PDF, memastikan kerahasiaan dan keaslian data proyek berharga Anda.
@@ -36,3 +42,9 @@ Di dunia di mana keamanan data tidak dapat dinegosiasikan, menguasai Aspose.Task
 Pelajari cara mengonfigurasi detail tanda tangan digital Microsoft Project PDF menggunakan Aspose.Tasks untuk .NET. Pastikan keamanan dan keaslian file proyek Anda.
 ### [Konfigurasikan Detail Enkripsi PDF Proyek MS di Aspose.Tasks](./pdf-encryption-details/)
 Pelajari cara mengonfigurasi detail enkripsi MS Project PDF di Aspose.Tasks untuk .NET. Amankan file proyek Anda dengan kata sandi pengguna dan pemilik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

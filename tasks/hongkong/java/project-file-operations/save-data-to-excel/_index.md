@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中將 MS Project 資料儲存到 Excel
 linktitle: 在 Aspose.Tasks 中將資料儲存到 Excel
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 將 Microsoft Project 資料儲存到 Excel 檔案。 Java 開發人員可以輕鬆整合。
-type: docs
 weight: 19
 url: /zh-hant/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中將 MS Project 資料儲存到 Excel
+
 ## 介紹
 Aspose.Tasks for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 Microsoft Project 檔案。在本教學中，我們將逐步引導您完成將資料從專案文件儲存到 Excel 檔案的過程。
 ## 先決條件
@@ -52,3 +58,9 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 您可以透過造訪 Aspose.Tasks 論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### 我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
 是的，您可以從以下位置購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

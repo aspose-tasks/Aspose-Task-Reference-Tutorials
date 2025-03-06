@@ -3,10 +3,16 @@ title: Aspose.Tasks에 대한 MS 프로젝트 저장 옵션 마스터하기
 linktitle: Aspose.Tasks의 일반 저장 옵션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일을 효율적으로 저장하는 방법을 알아보세요. 프로젝트에 맞게 출력 옵션을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 17
 url: /ko/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 대한 MS 프로젝트 저장 옵션 마스터하기
+
 ## 소개
 Aspose.Tasks for .NET은 Microsoft Project 파일을 프로그래밍 방식으로 조작하기 위한 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks에서 제공하는 다양한 옵션을 사용하여 MS 프로젝트 파일을 저장하는 복잡한 과정을 살펴보겠습니다. 특히 Aspose.Tasks에 사용할 수 있는 일반 저장 옵션에 중점을 두어 특정 요구 사항에 맞게 출력을 조정할 수 있습니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: 예, Aspose.Tasks는 다양한 버전의 MS 프로젝트 파일을 지원하�
  A: 평가 목적으로 임시 라이선스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
  A: Aspose.Tasks 커뮤니티 포럼에 가입할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15)전문가와 동료 개발자의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

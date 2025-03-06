@@ -3,10 +3,16 @@ title: Lendo dados do projeto do banco de dados MS Project em Aspose.Tasks
 linktitle: Lendo dados do projeto do banco de dados do Microsoft Project em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como ler dados do projeto do banco de dados do Microsoft Project usando Aspose.Tasks for Java. Guia passo a passo com exemplos de código.
-type: docs
 weight: 12
 url: /pt/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lendo dados do projeto do banco de dados MS Project em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como ler dados do projeto de um banco de dados do Microsoft Project usando Aspose.Tasks for Java. Aspose.Tasks é uma API Java poderosa que permite aos desenvolvedores manipular documentos do Microsoft Project sem a necessidade de instalação do Microsoft Project. Seguindo as etapas descritas neste guia, você aprenderá como extrair com eficiência os dados do projeto de um banco de dados e salvá-los no formato desejado.
 ## Pré-requisitos
@@ -68,3 +74,9 @@ R: Com certeza, Aspose.Tasks oferece uma ampla gama de recursos para manipular d
 R: Sim, Aspose.Tasks oferece suporte a vários formatos de saída, incluindo XML, PDF, HTML e formatos de imagem como PNG e JPEG.
 ### P: Onde posso encontrar mais suporte ou assistência com Aspose.Tasks?
  R: Para suporte ou assistência adicional, você pode visitar o fórum Aspose.Tasks ou explorar a documentação disponível no site[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

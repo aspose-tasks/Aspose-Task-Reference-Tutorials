@@ -3,10 +3,16 @@ title: Guarde archivos de MS Project como plantillas con Aspose.Tasks
 linktitle: Guardar opciones de plantilla para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a guardar archivos de Microsoft Project como plantillas usando Aspose.Tasks para .NET. Personalice la configuración de la plantilla para una gestión de proyectos optimizada.
-type: docs
 weight: 18
 url: /es/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guarde archivos de MS Project como plantillas con Aspose.Tasks
+
 ## Introducción
 En este tutorial, recorreremos el proceso de guardar una plantilla usando Aspose.Tasks para .NET. Las plantillas son útiles para estandarizar las estructuras y configuraciones del proyecto para uso futuro. Demostraremos cómo guardar un proyecto como plantilla y ajustaremos sus propiedades a lo largo del camino.
 ## Requisitos previos
@@ -76,3 +82,9 @@ R: Sí, puede aplicar plantillas a proyectos existentes cargando el archivo de p
 R: Aspose.Tasks para .NET está diseñado principalmente para aplicaciones de .NET framework que se ejecutan en plataformas Windows.
 ### P: ¿Hay soporte técnico disponible para Aspose.Tasks para .NET?
  R: Sí, puede buscar asistencia técnica y orientación de la comunidad Aspose.Tasks[foros](https://forum.aspose.com/c/tasks/15) comuníquese con su equipo de soporte directamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

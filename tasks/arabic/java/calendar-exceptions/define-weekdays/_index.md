@@ -3,10 +3,16 @@ title: تحديد أيام الأسبوع لاستثناءات التقويم ب
 linktitle: تحديد أيام الأسبوع لاستثناءات التقويم باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديد أيام الأسبوع لاستثناءات التقويم في مشاريع Java باستخدام Aspose.Tasks لجدولة دقيقة للمشروع.
-type: docs
 weight: 11
 url: /ar/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد أيام الأسبوع لاستثناءات التقويم باستخدام Aspose.Tasks
+
 ### مقدمة
 في إدارة المشاريع، يعد تحديد الاستثناءات للتقويمات أمرًا بالغ الأهمية لتمثيل أيام العمل أو العطلات غير القياسية بدقة ضمن الجدول الزمني للمشروع. يوفر Aspose.Tasks for Java وظائف قوية لإدارة التقويمات بكفاءة، بما في ذلك تحديد الاستثناءات مثل العطلات أو أيام العمل الخاصة. في هذا البرنامج التعليمي، سنتعمق في كيفية تحديد أيام الأسبوع لاستثناءات التقويم باستخدام Aspose.Tasks لـ Java.
 ### المتطلبات الأساسية
@@ -68,3 +74,10 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ج: يمكنك التعامل مع الاستثناءات برمجيًا استنادًا إلى متطلبات المشروع الديناميكية باستخدام واجهة برمجة التطبيقات الشاملة التي توفرها Aspose.Tasks لـ Java.
 ### س: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ Java؟
  ج: نعم، يمكنك الاستفادة من الإصدار التجريبي المجاني من Aspose.Tasks لـ Java من[موقع إلكتروني](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

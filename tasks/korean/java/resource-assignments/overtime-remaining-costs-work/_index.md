@@ -3,10 +3,16 @@ title: 초과 근무, 남은 비용을 모니터링하고 Aspose.Tasks에서 작
 linktitle: 초과 근무, 남은 비용을 모니터링하고 Aspose.Tasks에서 작업하세요.
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 초과 근무, 남은 비용을 모니터링하고 Java 프로젝트에서 작업하는 방법을 알아보세요. 효과적인 프로젝트 관리를 위한 쉬운 단계.
-type: docs
 weight: 18
 url: /ko/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 초과 근무, 남은 비용을 모니터링하고 Aspose.Tasks에서 작업하세요.
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 초과 근무, 남은 비용 및 프로젝트 작업을 모니터링하는 방법을 알아봅니다. 이는 프로젝트 관리자와 팀 리더가 프로젝트를 예산 범위 내에서 순조롭게 진행하는지 확인하는 데 매우 중요할 수 있습니다.
 ## 전제조건
@@ -73,3 +79,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 지원을 위해.
 ### Aspose.Tasks 라이선스를 어떻게 구매할 수 있나요?
  다음에서 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

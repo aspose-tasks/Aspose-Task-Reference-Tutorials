@@ -3,10 +3,16 @@ title: Đọc dữ liệu theo pha thời gian cho tài nguyên trong Aspose.Tas
 linktitle: Đọc dữ liệu theo pha thời gian cho tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách trích xuất dữ liệu theo pha thời gian từ tài nguyên MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước.
-type: docs
 weight: 15
 url: /vi/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu theo pha thời gian cho tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đọc dữ liệu theo pha thời gian cho tài nguyên MS Project bằng Aspose.Tasks cho Java. Thư viện này cung cấp các chức năng mạnh mẽ để quản lý các tệp Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các API mở rộng để tạo,
 Có, Aspose.Tasks được sử dụng rộng rãi trong môi trường doanh nghiệp do độ tin cậy và khả năng mở rộng của nó.
 ### Tôi có thể tìm hỗ trợ ở đâu nếu gặp sự cố khi sử dụng Aspose.Tasks?
  Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để nhận được sự hỗ trợ từ cộng đồng và nhóm hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

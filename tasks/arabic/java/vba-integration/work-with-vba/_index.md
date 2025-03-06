@@ -3,10 +3,16 @@ title: العمل مع تكامل VBA في Aspose.Tasks
 linktitle: العمل مع تكامل VBA في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تحسين إدارة المشروعات باستخدام Aspose.Tasks for Java - أطلق العنان لتكامل VBA لسير العمل المبسط. استكشف الآن لتتبع المهام بكفاءة!
-type: docs
 weight: 10
 url: /ar/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع تكامل VBA في Aspose.Tasks
+
 ## مقدمة
 في العالم الديناميكي لإدارة المشاريع وتتبع المهام، يمكن أن يؤدي وجود أداة قوية تتكامل بسلاسة مع Visual Basic for Applications (VBA) إلى تغيير قواعد اللعبة. يعد Aspose.Tasks for Java أحد هذه القوى التي تتيح لك العمل مع تكامل VBA دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات العمل مع تكامل VBA باستخدام Aspose.Tasks لـ Java، واستكشاف خطوات قراءة معلومات مشروع VBA، والمراجع، والوحدات النمطية، وسمات الوحدة النمطية.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ System.out.println("Module1: " + vbaModule.getAttributes().toList().get(0).getVa
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

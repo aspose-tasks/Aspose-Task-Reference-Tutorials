@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスク ベースラインのコレクション
 linktitle: Aspose.Tasks のタスク ベースラインのコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用してタスク ベースラインを簡単に調査します。効率的なプロジェクト管理が簡単になりました。ダウンロード中！ #Aspose.Task #MS プロジェクト
-type: docs
 weight: 17
 url: /ja/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスク ベースラインのコレクション
+
 ## 導入
 Aspose.Tasks for .NET の世界へようこそ。これは、プロジェクト タスクのシームレスな操作と管理を容易にする強力なライブラリです。このチュートリアルでは、プロジェクトの計画と追跡の重要な側面であるタスク ベースラインの興味深い領域を掘り下げていきます。このガイドを終えるまでに、タスク ベースライン コレクションの操作方法を習得し、プロジェクト管理機能を強化できるようになります。
 ## 前提条件
@@ -68,3 +74,9 @@ A: Aspose.Tasks for .NET はタスクの数に厳密な制限を設けていな�
 A: もちろんです！ベースラインの詳細を印刷する際の書式設定を完全に制御できるため、特定の要件に合わせて調整できます。
 ### Q: 問題が発生した場合、または追加の質問がある場合、どこに助けを求めればよいですか?
  A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)献身的なサポートとコミュニティ支援のために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

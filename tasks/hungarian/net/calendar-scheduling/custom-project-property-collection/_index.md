@@ -3,10 +3,16 @@ title: Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
 linktitle: Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az egyéni projekttulajdonságokat az Aspose.Tasks for .NET-ben, javítva ezzel a projektkezelési élményt.
-type: docs
 weight: 24
 url: /hu/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Készen áll arra, hogy bővítse projektmenedzsment-élményét az Aspose.Tasks for .NET segítségével? Az egyéni projekttulajdonságok kezelése a projektmenedzsment kulcsfontosságú eleme, amely lehetővé teszi a projekt követelményeihez szabott metaadatok hozzáadását. Ebben az oktatóanyagban bemutatjuk, hogyan dolgozhat hatékonyan egyéni projekttulajdon-gyűjteményekkel az Aspose.Tasks for .NET használatával.
@@ -131,3 +137,9 @@ Az egyéni projekttulajdon-gyűjtemények elsajátítása az Aspose.Tasks for .N
 ### 5. kérdés: Hol találok támogatást vagy további segítséget az Aspose.Tasks for .NET-hez?
 
  5. válasz: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

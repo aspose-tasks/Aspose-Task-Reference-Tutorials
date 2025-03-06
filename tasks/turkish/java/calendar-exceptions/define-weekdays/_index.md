@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Takvim İstisnaları için Hafta İçi Günleri Tanımla
 linktitle: Aspose.Tasks ile Takvim İstisnaları için Hafta İçi Günleri Tanımlayın
 second_title: Aspose.Tasks Java API'si
 description: Doğru proje planlaması için Aspose.Tasks'ı kullanarak Java projelerinde takvim istisnaları için haftanın günlerini nasıl tanımlayacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Takvim İstisnaları için Hafta İçi Günleri Tanımlayın
+
 ### giriiş
 Proje yönetiminde, takvimler için istisnaların tanımlanması, proje zaman çizelgesinde standart olmayan çalışma günlerinin veya tatillerin doğru şekilde temsil edilmesi açısından çok önemlidir. Aspose.Tasks for Java, tatiller veya özel iş günleri gibi istisnaların tanımlanması da dahil olmak üzere, takvimleri verimli bir şekilde yönetmek için güçlü işlevler sağlar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak takvim istisnaları için hafta içi günlerin nasıl tanımlanacağını inceleyeceğiz.
 ### Önkoşullar
@@ -68,3 +74,10 @@ C: Kesinlikle, Aspose.Tasks for Java, günlük istisnalarla sınırlı olmayıp,
 C: Aspose.Tasks for Java tarafından sağlanan kapsamlı API'yi kullanarak, dinamik proje gereksinimlerine dayalı istisnaları programlı bir şekilde ele alabilirsiniz.
 ### S: Aspose.Tasks for Java'nın deneme sürümü mevcut mu?
  C: Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümünden şu adresten yararlanabilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

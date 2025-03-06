@@ -3,10 +3,16 @@ title: Create MS Project Calendars using Aspose.Tasks
 linktitle: Create Calendar using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to create MS Project Calendars using Aspose.Tasks for Java. Streamline project management with ease.
-type: docs
 weight: 11
 url: /java/calendars/create/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create MS Project Calendars using Aspose.Tasks
+
 ## Introduction
 In today's digital era, efficient project management is vital for businesses to thrive. Aspose.Tasks for Java emerges as a powerful tool in this domain, facilitating seamless manipulation of Microsoft Project files programmatically. This tutorial will guide you through the process of creating an MS Project Calendar using Aspose.Tasks for Java. By following these steps, you'll be able to enhance your project management capabilities and streamline your workflow effectively.
 ## Prerequisites
@@ -63,3 +69,10 @@ A: Yes, Aspose.Tasks for Java can be seamlessly integrated with other Java libra
 A: Yes, Aspose.Tasks for Java facilitates the management of recurring tasks, enabling efficient scheduling and tracking.
 ### Q: Is there a community forum for Aspose.Tasks for Java users?
 A: Yes, you can find valuable resources and engage with the community at the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

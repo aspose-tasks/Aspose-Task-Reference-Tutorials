@@ -3,10 +3,16 @@ title: Aspose.Tasks में संसाधन असाइनमेंट र
 linktitle: Aspose.Tasks में संसाधन असाइनमेंट रोकें और फिर से शुरू करें
 second_title: Aspose.Tasks जावा एपीआई
 description: इस चरण-दर-चरण ट्यूटोरियल के साथ जानें कि जावा के लिए Aspose.Tasks में संसाधन असाइनमेंट को प्रभावी ढंग से कैसे प्रबंधित किया जाए।
-type: docs
 weight: 23
 url: /hi/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में संसाधन असाइनमेंट रोकें और फिर से शुरू करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम सीखेंगे कि जावा के लिए Aspose.Tasks का उपयोग करके संसाधन असाइनमेंट को कैसे रोकें और फिर से शुरू करें। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो डेवलपर्स को अपने सिस्टम पर Microsoft प्रोजेक्ट स्थापित किए बिना Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने की अनुमति देता है। हम इस प्रक्रिया को प्रबंधनीय चरणों में विभाजित करेंगे ताकि इसका पालन करना आसान हो सके।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 आपको समुदाय से समर्थन मिल सकता है[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### क्या मैं अस्थायी लाइसेंस खरीद सकता हूँ?
  हां, आप अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

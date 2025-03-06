@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的 CSS 保存参数
 linktitle: Aspose.Tasks 中的 CSS 保存参数
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中保存 CSS 参数以自定义 HTML 输出。通过定制 CSS 设置增强演示效果。
-type: docs
 weight: 20
 url: /zh/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的 CSS 保存参数
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 保存 CSS 参数的过程。层叠样式表 (CSS) 对于定义 HTML 元素的表示至关重要。 Aspose.Tasks允许我们有效地操作和保存这些CSS属性。
@@ -118,3 +124,9 @@ A4：您可以参考[文档](https://reference.aspose.com/tasks/net/)获取详�
 ### Q5：Aspose.Tasks for .NET 是否为开发人员提供支持？
 
  A5：是的，您可以通过 Aspose.Tasks 社区获得支持[论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

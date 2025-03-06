@@ -3,10 +3,16 @@ title: تكرار التقويم اليومي في Aspose.Tasks
 linktitle: تكرار التقويم اليومي في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إنشاء مهام متكررة مع تكرار التقويم اليومي في Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشروع دون عناء.
-type: docs
 weight: 25
 url: /ar/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكرار التقويم اليومي في Aspose.Tasks
+
 ## مقدمة
 
  يوفر Aspose.Tasks for .NET مجموعة قوية من الأدوات لإدارة المهام والمشاريع برمجيًا. إحدى ميزاته البارزة هي القدرة على التعامل مع تكرارات التقويم اليومي بكفاءة. في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من`DailyCalendarRepetition` الفصل الدراسي جنبًا إلى جنب مع الفصول الأخرى ذات الصلة لإنشاء مهام متكررة مع التكرار اليومي بناءً على تقويم محدد.
@@ -117,3 +123,9 @@ project.Save(OutDir + "CanAddRecurringTask_Days_CalendarDays_24h_Test_out.mpp", 
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
 
  ج5: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks من[هنا](https://releases.aspose.com/) لاستكشاف ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

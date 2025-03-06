@@ -3,10 +3,16 @@ title: Taakkoppelingen verwerken in Aspose.Tasks
 linktitle: Taakkoppelingen verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het efficiënt beheren van projecttaakkoppelingen. Volg onze stapsgewijze handleiding om uw projectmanagementervaring te verbeteren.
-type: docs
 weight: 19
 url: /nl/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakkoppelingen verwerken in Aspose.Tasks
+
 ## Invoering
 Welkom bij de stapsgewijze handleiding voor het omgaan met taakkoppelingen in Aspose.Tasks voor .NET! Taakkoppelingen spelen een cruciale rol bij projectmanagement, waardoor u relaties tussen taken kunt leggen en afhankelijkheden kunt creëren. In deze zelfstudie leiden we u door het proces van het werken met taaklinkverzamelingen met behulp van Aspose.Tasks.
 ## Vereisten
@@ -85,3 +91,9 @@ Momenteel ondersteunt Aspose.Tasks standaard taakkoppelingstypen, en aangepaste 
 Aspose.Tasks kan grote projectbestanden efficiënt verwerken met minimale impact op de prestaties.
 ### Is er een communityforum voor Aspose.Tasks-ondersteuning?
  Ja, je kunt ondersteuning vinden en in contact komen met de gemeenschap op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

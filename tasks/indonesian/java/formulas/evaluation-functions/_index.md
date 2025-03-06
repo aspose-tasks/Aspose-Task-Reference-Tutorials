@@ -3,10 +3,16 @@ title: Mendukung Fungsi Evaluasi dalam Rumus Aspose.Tugas
 linktitle: Mendukung Fungsi Evaluasi dalam Rumus Aspose.Tugas
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mendukung evaluasi fungsi MS Project dalam rumus Aspose.Tasks menggunakan Java. Tingkatkan produktivitas Anda dengan Aspose.Tasks.
-type: docs
 weight: 10
 url: /id/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendukung Fungsi Evaluasi dalam Rumus Aspose.Tugas
+
 
 ## Perkenalan
 Aspose.Tasks untuk Java adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Salah satu fitur utamanya adalah kemampuan untuk mendukung evaluasi fungsi MS Project dalam rumus Aspose.Tasks. Kemampuan ini memungkinkan pengguna untuk melakukan penghitungan dan analisis kompleks secara langsung dalam aplikasi Java mereka.
@@ -65,3 +71,9 @@ J: Ya, Aspose.Tasks untuk Java mendukung berbagai versi file Microsoft Project, 
 J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Apakah ada lisensi sementara yang tersedia untuk Aspose.Tasks untuk Java?
  J: Ya, Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian dari situs web Aspose[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kumpulan Garis Dasar Penugasan di Aspose.Tasks
 linktitle: Kumpulan Garis Dasar Penugasan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola garis dasar penugasan secara efisien dalam manajemen proyek menggunakan Aspose.Tasks untuk .NET. Meningkatkan produktivitas dan akurasi.
-type: docs
 weight: 15
 url: /id/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Garis Dasar Penugasan di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam bidang manajemen proyek, melacak dan mengelola garis dasar penugasan sangat penting untuk memastikan keberhasilan proyek dan kepatuhan terhadap jadwal. Aspose.Tasks untuk .NET menawarkan serangkaian fitur canggih untuk memfasilitasi penanganan dasar penugasan yang efisien dalam proyek. Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan Koleksi Dasar Penugasan menggunakan Aspose.Tasks untuk .NET.
@@ -100,3 +106,9 @@ A4: Ya, Aspose.Tasks memberikan dukungan teknis yang kuat melalui forum komunita
 ### Q5: Bisakah saya mencoba Aspose.Tasks sebelum melakukan pembelian?
 
 A5: Ya, Aspose.Tasks menawarkan versi uji coba gratis, memungkinkan pengembang menjelajahi fitur dan fungsinya sebelum membuat keputusan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

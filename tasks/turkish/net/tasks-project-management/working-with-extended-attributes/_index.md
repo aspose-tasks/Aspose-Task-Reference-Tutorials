@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Genişletilmiş Niteliklerini Yönetin
 linktitle: Aspose.Tasks'ta Genişletilmiş Özelliklerle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET kullanarak MS Project'in genişletilmiş nitelikleriyle nasıl çalışılacağını öğrenin. Görev verilerini programlı bir şekilde kolaylıkla yönetin.
-type: docs
 weight: 11
 url: /tr/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Genişletilmiş Niteliklerini Yönetin
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Bu kütüphanenin en önemli özelliklerinden biri MS Project'in genişletilmiş özellikleriyle çalışabilmesidir. Genişletilmiş öznitelikler, bir projedeki görevlere ek özelleştirme ve meta veriler sağlayarak kullanıcıların standart görev özelliklerinin ötesinde belirli bilgileri depolamasına ve yönetmesine olanak tanır.
 Bu eğitimde Aspose.Tasks for .NET kullanarak MS Project'in genişletilmiş nitelikleriyle nasıl çalışılacağını inceleyeceğiz. Önkoşulları ele alacağız, ad alanlarını içe aktaracağız ve her örneği adım adım kılavuz formatında birden fazla adıma ayıracağız. Bu eğitimin sonunda, .NET uygulamalarınızda genişletilmiş özniteliklerden nasıl yararlanacağınıza dair sağlam bir anlayışa sahip olacaksınız.
@@ -72,3 +78,9 @@ Evet, Aspose.Tasks for .NET'in ticari kullanımı için bir lisans satın alman�
 Evet, Aspose.Tasks for .NET, projenizin özel ihtiyaçlarına uyacak şekilde genişletilmiş özellikleri özelleştirmek için kapsamlı yetenekler sağlar.
 ### Aspose.Tasks for .NET'i kullanırken herhangi bir sorunla karşılaşırsam nereden destek alabilirim?
  Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

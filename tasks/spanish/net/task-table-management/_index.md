@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestión de tareas y formato de tablas
 linktitle: Aspose.Tasks Gestión de tareas y formato de tablas
 second_title: API Aspose.Tasks .NET
 description: Configure y administre tablas sin esfuerzo en Aspose.Tasks para .NET con tutoriales paso a paso. Mejorar la eficiencia de la gestión de proyectos y las habilidades de presentación.
-type: docs
 weight: 29
 url: /es/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestión de tareas y formato de tablas
+
 ## Introducción
 
 Aspose.Tasks para .NET revoluciona la gestión de proyectos con sus sólidas funciones. Este artículo explora varios tutoriales sobre gestión de tareas y formato de tablas, ofreciendo una guía completa para maximizar su eficiencia. Profundicemos en los temas clave:
@@ -91,3 +97,9 @@ Explore Aspose.Tasks para .NET para configurar fácilmente los tipos de fechas d
 Explore Aspose.Tasks para .NET para administrar y visualizar datos del proyecto sin esfuerzo. Sumérjase en los campos de visualización de uso de tareas para obtener información mejorada sobre el proyecto.
 ### [Colección de campos de vista de uso de tareas en Aspose.Tasks](./task-usage-view-fields/)
 Explore Aspose.Tasks para .NET y aprenda cómo configurar vistas de uso de tareas. Personalice la configuración de escala de tiempo y mejore los elementos visuales de gestión de proyectos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

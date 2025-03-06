@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 단위 처리 마스터하기
 linktitle: Aspose.Tasks에서 작업 단위 처리
 second_title: Aspose.태스크 .NET API
 description: 효율적인 프로젝트 관리를 위한 강력한 라이브러리인 Aspose.Tasks for .NET을 살펴보세요. 최적의 리소스 활용을 위해 작업 단위를 정밀하게 처리합니다.
-type: docs
 weight: 15
 url: /ko/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 단위 처리 마스터하기
+
 ## 소개
 프로젝트 관리의 역동적인 세계에서 작업 단위를 효율적으로 처리하는 것은 성공적인 프로젝트 완료에 매우 중요합니다. Aspose.Tasks for .NET은 작업 단위 정보를 탐색할 수 있는 강력한 도구 세트를 제공하여 프로젝트 일정 및 리소스 할당에 대한 정확한 제어를 보장합니다.
 ## 전제조건
@@ -57,3 +63,9 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
  Aspose.Tasks를 방문하여 임시 라이선스를 취득하세요.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks는 작업 단위 처리에 어떤 이점을 제공합니까?
 Aspose.Tasks는 작업 단위 작업을 위한 강력한 기능 세트를 제공하여 프로젝트 일정, 리소스 할당 및 전체 프로젝트 관리를 정밀하게 제어할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

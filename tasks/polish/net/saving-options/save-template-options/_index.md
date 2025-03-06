@@ -3,10 +3,16 @@ title: Zapisz pliki MS Project jako szablony za pomocą Aspose.Tasks
 linktitle: Zapisz opcje szablonu dla Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisywać pliki Microsoft Project jako szablony przy użyciu Aspose.Tasks dla .NET. Dostosuj ustawienia szablonu, aby usprawnić zarządzanie projektami.
-type: docs
 weight: 18
 url: /pl/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz pliki MS Project jako szablony za pomocą Aspose.Tasks
+
 ## Wstęp
 tym samouczku omówimy proces zapisywania szablonu przy użyciu Aspose.Tasks dla .NET. Szablony są przydatne do standaryzacji struktur projektu i ustawień do wykorzystania w przyszłości. Pokażemy, jak zapisać projekt jako szablon, dostosowując po drodze jego właściwości.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ O: Tak, możesz zastosować szablony do istniejących projektów, ładując plik
 Odp.: Aspose.Tasks dla .NET jest przeznaczony przede wszystkim dla aplikacji .NET Framework działających na platformach Windows.
 ### P: Czy dostępna jest pomoc techniczna dla Aspose.Tasks dla .NET?
  Odp.: Tak, możesz zwrócić się o pomoc techniczną i wskazówki do społeczności Aspose.Tasks[fora](https://forum.aspose.com/c/tasks/15)lub skontaktuj się bezpośrednio z ich zespołem wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

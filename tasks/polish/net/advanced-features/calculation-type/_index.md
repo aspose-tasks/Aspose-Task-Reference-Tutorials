@@ -3,10 +3,16 @@ title: Typ obliczenia w Aspose.Tasks
 linktitle: Typ obliczenia w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak dostosować obliczenia wartości w projektach .NET za pomocą typu obliczenia w bibliotece Aspose.Tasks.
-type: docs
 weight: 30
 url: /pl/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typ obliczenia w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku omówimy funkcję Typu obliczeń w Aspose.Tasks dla .NET. Aspose.Tasks to potężna biblioteka, która umożliwia programistom .NET pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project w ich systemach. Typ obliczeń pozwala nam zdefiniować sposób obliczania wartości dla zadań i zadań sumarycznych w ramach projektu.
@@ -97,3 +103,9 @@ O4: Tak, Aspose.Tasks udostępnia różne typy zestawień, takie jak średnia, s
 ### P5: Gdzie mogę znaleźć więcej zasobów w Aspose.Tasks dla .NET?
 
  Odpowiedź 5: Możesz zapoznać się z dokumentacją i forami pomocy społeczności dostępnymi na stronie[Aspose.Tasks dla .NET](https://reference.aspose.com/tasks/net/) w celu uzyskania kompleksowych wskazówek i pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

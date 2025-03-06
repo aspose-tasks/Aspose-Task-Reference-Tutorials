@@ -3,10 +3,16 @@ title: Aspose.Tasks خيارات الحفظ
 linktitle: Aspose.Tasks خيارات الحفظ
 second_title: Aspose.Tasks .NET API
 description: يمكنك حفظ ملفات MS Project وتحويلها وإدارتها باستخدام Aspose.Tasks لـ .NET. استكشف البرامج التعليمية خطوة بخطوة لـ HTML والصور وملفات PDF وPrimavera والقوالب والمزيد.
-type: docs
 weight: 20
 url: /ar/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks خيارات الحفظ
+
 
 ## مقدمة
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003، احفظ خيارات مشروع MS باستخدام A
 تعرف على كيفية استخدام Aspose.Tasks لـ .NET لإنشاء تمثيلات SVG لملفات Microsoft Project دون عناء لتحسين تصور المشروع.
 ### [قم بتحويل خيارات MSP إلى XPS باستخدام Aspose.Tasks](./xps-options/)
 تعرف على كيفية تحويل ملفات Microsoft Project إلى تنسيق XPS باستخدام Aspose.Tasks لـ .NET. سهولة التكامل، وظائف قوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

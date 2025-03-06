@@ -3,10 +3,16 @@ title: إدارة العملة في Aspose.Tasks لـ Java
 linktitle: عملة
 second_title: Aspose.Tasks جافا API
 description: قم بإدارة رموز العملات والأرقام والرموز بسهولة في ملفات MS Project باستخدام Aspose.Tasks لـ Java. قم بتبسيط إدارة المشروعات من خلال برامج تعليمية سهلة المتابعة.
-type: docs
 weight: 22
 url: /ar/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة العملة في Aspose.Tasks لـ Java
+
 
 ## مقدمة
 
@@ -43,3 +49,9 @@ url: /ar/java/currency/
 تعرف على كيفية التعامل مع أرقام العملة في MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
 ### [التلاعب برموز العملة في Aspose.Tasks](./currency-symbols/)
 تعلم كيفية التعامل مع رموز العملات في ملفات MS Project باستخدام Aspose.Tasks لـ Java. خطوات سهلة لإدارة المشاريع بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Phân chia ngày kết thúc nhiệm vụ trong Aspose.Tasks
 linktitle: Phân chia ngày kết thúc nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách phân chia ngày hoàn thành nhiệm vụ một cách dễ dàng bằng cách sử dụng Aspose.Tasks cho Java. Tăng cường quản lý dự án với các mốc thời gian chính xác.
-type: docs
 weight: 28
 url: /vi/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân chia ngày kết thúc nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong quản lý dự án, việc hiểu rõ các mốc thời gian của nhiệm vụ là rất quan trọng để hoàn thành dự án thành công. Aspose.Tasks cho Java cung cấp các tính năng mạnh mẽ để thao tác các tác vụ dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc phân chia ngày hoàn thành nhiệm vụ bằng Aspose.Tasks, giúp bạn quản lý tiến trình dự án một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -54,3 +60,9 @@ Nắm vững nghệ thuật điều chỉnh ngày hoàn thành nhiệm vụ là 
  A4: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu 5: Tôi có thể mua Aspose.Tasks không?
  A5: Có, bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

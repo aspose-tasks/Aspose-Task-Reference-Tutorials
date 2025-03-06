@@ -3,10 +3,16 @@ title: Tùy chọn CSV trong Aspose.Tasks
 linktitle: Tùy chọn CSV trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để làm việc hiệu quả với các tệp CSV, nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/net/calendar-scheduling/csv-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn CSV trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong thời đại kỹ thuật số ngày nay, việc quản lý hiệu quả các nhiệm vụ và dự án là rất quan trọng để doanh nghiệp phát triển. Aspose.Tasks for .NET cung cấp bộ công cụ mạnh mẽ để các nhà phát triển làm việc với các tệp quản lý dự án một cách dễ dàng. Một trong những tính năng chính mà nó cung cấp là khả năng hoạt động với các tệp CSV (Giá trị được phân tách bằng dấu phẩy). Trong hướng dẫn này, chúng ta sẽ đi sâu vào các tùy chọn CSV trong Aspose.Tasks dành cho .NET, chia nhỏ từng ví dụ thành hướng dẫn từng bước để giúp bạn hiểu và triển khai chúng một cách liền mạch.
@@ -84,3 +90,9 @@ Câu trả lời 4: Có, Aspose.Tasks for .NET cung cấp các tùy chọn mở 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) hoặc liên hệ với bộ phận hỗ trợ của Aspose nếu có bất kỳ trợ giúp hoặc thắc mắc nào liên quan đến Aspose.Tasks cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

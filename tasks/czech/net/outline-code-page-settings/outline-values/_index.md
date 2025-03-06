@@ -3,10 +3,16 @@ title: Zvládnutí hodnot osnovy MS Project pomocí Aspose.Tasks
 linktitle: Správa hodnot osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat hodnoty osnovy MS Project pomocí Aspose.Tasks pro .NET. Snadno přizpůsobte obrysy projektu.
-type: docs
 weight: 16
 url: /cs/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí hodnot osnovy MS Project pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak spravovat hodnoty osnovy Microsoft Project pomocí knihovny Aspose.Tasks pro .NET. S Aspose.Tasks můžete snadno manipulovat s kódy osnovy, vytvářet nové hodnoty osnovy a upravovat osnovy projektu podle svých požadavků.
 ## Předpoklady
@@ -76,3 +82,9 @@ Odpověď: Ano, Aspose.Tasks je kompatibilní s různými .NET frameworky, což 
 Odpověď: Ano, můžete si zakoupit dočasnou licenci pro Aspose.Tasks od[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde najdu podrobnou dokumentaci k Aspose.Tasks?
  Odpověď: Můžete se podívat na kompletní dostupnou dokumentaci[tady](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

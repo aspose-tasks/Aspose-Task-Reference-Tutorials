@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 회계 연도 속성 관리
 linktitle: Aspose.Tasks에서 회계 연도 속성 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 회계연도 속성을 효율적으로 관리하는 방법을 알아보세요. 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 회계 연도 속성 관리
+
 ## 소개
 Aspose.Tasks는 개발자가 회계 연도 속성 처리를 포함하여 프로젝트 파일을 효율적으로 관리할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 Java에서 Aspose.Tasks를 사용하여 회계 연도 속성을 관리하는 프로세스를 안내합니다.
 ## 전제조건
@@ -66,3 +72,9 @@ A: 예, Aspose.Tasks는 MPP, XML 등을 포함한 광범위한 프로젝트 파�
  A: 예, Aspose.Tasks의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for Java 라이선스는 어디서 구매할 수 있나요?
  A: Aspose.Tasks for Java 라이선스는 다음에서 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

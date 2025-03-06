@@ -3,10 +3,16 @@ title: Aspose.Tasks의 사용자 지정 할당 보기 열
 linktitle: Aspose.Tasks의 사용자 지정 할당 보기 열
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 관리 기능을 향상시키기 위해 Aspose.Tasks for .NET에 사용자 지정 할당 보기 열을 추가하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 사용자 지정 할당 보기 열
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 할당 뷰에 대한 사용자 정의 열을 추가하는 방법을 살펴보겠습니다. 사용자 정의 열은 유연성을 제공하며 프로젝트 관리 요구 사항과 관련된 추가 정보를 표시할 수 있습니다.
@@ -116,3 +122,9 @@ A2: 예, Aspose.Tasks는 공통 할당 필드에 대해 미리 정의된 변환�
 ### Q5: Aspose.Tasks는 사용자 정의 열이 있는 스프레드시트 외에 다른 형식으로 프로젝트 내보내기를 지원합니까?
 
 A5: 예, Aspose.Tasks는 PDF, HTML, XML 등 다양한 형식으로 프로젝트 내보내기를 지원하므로 다양한 프로젝트 보고 옵션이 가능합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

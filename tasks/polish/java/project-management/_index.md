@@ -3,10 +3,16 @@ title: Zarządzanie projektami
 linktitle: Zarządzanie projektami
 second_title: Aspose.Tasks API Java
 description: Poznaj Aspose.Tasks Java dzięki naszym kompleksowym samouczkom dotyczącym zarządzania projektami. Usprawnij swój przepływ pracy, od obliczeń ścieżki krytycznej po właściwości roku podatkowego.
-type: docs
 weight: 27
 url: /pl/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie projektami
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności zarządzania projektami za pomocą Aspose.Tasks dla Java? Zapoznaj się z naszymi ekskluzywnymi samouczkami obejmującymi spektrum funkcji i funkcjonalności, które ułatwią Ci przygodę z programowaniem w języku Java. Od obliczeń ścieżki krytycznej po obsługę wyjątków podczas zapisywania zadań podczas drukowania – mamy wszystko, czego potrzebujesz. Poznajmy bogactwo wiedzy, które na Ciebie czeka.
@@ -69,3 +75,9 @@ Dowiedz się, jak bezproblemowo czytać pliki MS Project z Primavera XML za pomo
 Dowiedz się, jak drukować strony w celu oddzielenia obrazów w Aspose.Tasks dla Java. Popraw wizualizację projektu dzięki temu przewodnikowi krok po kroku.
 ### [Obsługuj wyjątki podczas pisania zadań podczas drukowania w Aspose.Tasks](./print-task-exceptions/)
 Opanuj obsługę wyjątków w Aspose.Tasks dla Java, aby zapewnić bezproblemową realizację projektu. Dowiedz się, jak bezproblemowo obsługiwać wyjątki podczas zapisywania zadań podczas drukowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

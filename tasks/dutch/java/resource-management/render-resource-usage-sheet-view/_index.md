@@ -3,10 +3,16 @@ title: Render resourcegebruik en bladweergave in Aspose.Tasks
 linktitle: Render resourcegebruik en bladweergave in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u MS Project Resource Usage- en Sheet-weergaven kunt weergeven in Aspose.Tasks voor Java. Volg onze stapsgewijze handleiding om moeiteloos gedetailleerde PDF-rapporten te genereren.
-type: docs
 weight: 16
 url: /nl/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render resourcegebruik en bladweergave in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie leren we hoe u Aspose.Tasks voor Java kunt gebruiken om MS Project Resource Usage- en Sheet-weergaven weer te geven. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project hoeft te worden geïnstalleerd.
 ## Vereisten
@@ -78,3 +84,9 @@ Absoluut! Aspose.Tasks biedt uitgebreide opties voor het aanpassen van het uiter
 Nee, Aspose.Tasks is een zelfstandige bibliotheek en vereist geen installatie van Microsoft Project om te kunnen functioneren.
 ### Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
  Ja, Aspose.Tasks-gebruikers kunnen gebruik maken van technische ondersteuning via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 将 MSP 转换为 XPS 选项
 linktitle: Aspose.Tasks 的 XPS 选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 将 Microsoft Project 文件转换为 XPS 格式。易于集成，功能强大。
-type: docs
 weight: 21
 url: /zh/net/saving-options/xps-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 将 MSP 转换为 XPS 选项
+
 ## 介绍
 Microsoft Project (MSP) 是一种广泛使用的项目管理工具，可促进项目活动的规划、跟踪和报告。 Aspose.Tasks for .NET 提供了以编程方式操作 MSP 文件的强大功能，使开发人员能够自动执行与项目管理相关的各种任务。在本教程中，我们将深入研究如何利用 Aspose.Tasks for .NET 从 MSP 文档生成 XPS 文件，探索必要的步骤和注意事项。
 ## 先决条件
@@ -60,3 +66,9 @@ project.Save(DataDir + "UseSvgOptions_out.xps", options);
 答：当然，Aspose.Tasks for .NET 提供了广泛的选项来根据您的要求自定义渲染参数。
 ### 问：在哪里可以找到有关 Aspose.Tasks for .NET 的其他支持或帮助？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)有关 Aspose.Tasks for .NET 的任何疑问或帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

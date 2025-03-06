@@ -3,10 +3,16 @@ title: Task Baseline Duration Management in Aspose.Tasks
 linktitle: Task Baseline Duration Management in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti hatékonyan az alapfeladatokat az MS Projectben az Aspose.Tasks for Java használatával. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 12
 url: /hu/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Baseline Duration Management in Aspose.Tasks
+
 ## Bevezetés
 A feladatok alaphelyzeteinek kezelése az MS Projectben kulcsfontosságú a projekttervezés és -követés szempontjából. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet hatékonyan kezelni a feladatok alapidőtartamát az Aspose.Tasks for Java használatával.
 ## Előfeltételek
@@ -76,3 +82,9 @@ Igen, módosíthatja a feladatok alapvonalait az MS Projectben, hogy tükrözze 
 Igen, az Aspose.Tasks funkciók széles skáláját kínálja a projektmenedzsmenthez, beleértve a feladatütemezést, az erőforrások elosztását és a Gantt-diagram generálását.
 ### Hol találok támogatást az Aspose.Tasks számára?
  Az Aspose.Tasks támogatást itt találja[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehet fel, és kapcsolatba léphet más felhasználókkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

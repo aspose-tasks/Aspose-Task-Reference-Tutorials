@@ -3,10 +3,16 @@ title: Penanganan Durasi di Aspose.Tugas
 linktitle: Penanganan Durasi di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani durasi secara efektif di Aspose.Tasks untuk .NET dengan tutorial langkah demi langkah.
-type: docs
 weight: 30
 url: /id/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penanganan Durasi di Aspose.Tugas
+
 ## Perkenalan
 
 Menangani durasi secara efektif sangat penting dalam aplikasi manajemen proyek. Aspose.Tasks untuk .NET menyediakan fungsionalitas yang kuat untuk mengelola durasi secara efisien. Dalam tutorial ini, kita akan menjelajahi berbagai aspek penanganan durasi menggunakan Aspose.Tasks untuk .NET.
@@ -156,3 +162,9 @@ A4: Ya, Aspose.Tasks mendukung membaca dan menulis file Microsoft Project dalam 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
 A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

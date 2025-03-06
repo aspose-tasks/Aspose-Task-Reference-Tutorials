@@ -3,10 +3,16 @@ title: การจัดการงานใน Aspose.Tasks
 linktitle: การจัดการงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจคำแนะนำที่ครอบคลุมเกี่ยวกับการจัดการงานด้วย Aspose.Tasks สำหรับ .NET เรียนรู้การเพิ่ม แสดงส่วนที่แยก ย้าย รับ/ตั้งค่าคุณสมบัติ และอื่นๆ
-type: docs
 weight: 15
 url: /th/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการงานใน Aspose.Tasks
+
 ## การแนะนำ
 หากคุณเป็นนักพัฒนา .NET ที่ต้องการจัดการงานภายในโครงการของคุณอย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ .NET มอบโซลูชันที่มีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับแง่มุมต่างๆ ของการจัดการงานโดยใช้ Aspose.Tasks โดยเสนอคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด ไม่ว่าคุณจะเพิ่มงาน แสดงส่วนที่แยก ย้ายงานภายใต้พาเรนต์เดียวกัน รับ/ตั้งค่าคุณสมบัติของงาน วนซ้ำการมอบหมายงาน การอ่านเส้นฐานของงาน หรือลบงาน คู่มือนี้ก็มีครอบคลุมทุกอย่างแล้ว
 ## ข้อกำหนดเบื้องต้น
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 ตอบ: แน่นอน! Aspose.Tasks มีตัวเลือกการปรับแต่งที่ครอบคลุมสำหรับคุณสมบัติของงาน ตรวจสอบเอกสารประกอบสำหรับรายละเอียดเพิ่มเติม
 ### ถาม: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Tasks ได้อย่างไร
  ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

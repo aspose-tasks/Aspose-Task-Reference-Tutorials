@@ -3,10 +3,16 @@ title: Crea e salva un progetto vuoto per lo streaming in Aspose.Tasks
 linktitle: Crea e salva un progetto vuoto per lo streaming in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Impara a creare e salvare file MS Project vuoti in un flusso in Java con Aspose.Tasks, semplificando senza sforzo le attività di gestione dei progetti.
-type: docs
 weight: 13
 url: /it/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea e salva un progetto vuoto per lo streaming in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, esploreremo come utilizzare Aspose.Tasks per Java per creare e salvare un MS Project vuoto in un flusso. Aspose.Tasks è una potente API Java che consente agli sviluppatori di lavorare con file Microsoft Project senza richiedere l'installazione di Microsoft Project sul computer. Seguendo questa guida, imparerai i passaggi necessari per creare e salvare un file MS Project vuoto utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -69,3 +75,9 @@ Sì, Aspose.Tasks supporta più linguaggi di programmazione tra cui .NET, C++e J
  Puoi ottenere supporto dal forum della community[Qui](https://forum.aspose.com/c/tasks/15).
 ### Posso acquistare una licenza temporanea per Aspose.Tasks?
  Sì, è possibile acquistare licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

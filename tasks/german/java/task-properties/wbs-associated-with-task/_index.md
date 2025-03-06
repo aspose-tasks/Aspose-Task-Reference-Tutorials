@@ -3,10 +3,16 @@ title: Mit der Aufgabe in Aspose.Tasks verknüpfter PSP
 linktitle: Mit der Aufgabe in Aspose.Tasks verknüpfter PSP
 second_title: Aspose.Tasks Java-API
 description: Master-PSP mit Aspose.Tasks für Java – Lernen Sie, Aufgaben-PSP-Codes zu lesen und neu zu nummerieren. Steigern Sie die Effizienz Ihres Projektmanagements!
-type: docs
 weight: 36
 url: /de/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mit der Aufgabe in Aspose.Tasks verknüpfter PSP
+
 ## Einführung
 Willkommen in der Welt des Projektmanagements mit Aspose.Tasks für Java! In diesem Tutorial befassen wir uns mit den Feinheiten des Projektstrukturplans (WBS), der mit Aufgaben verbunden ist, die Aspose.Tasks für Java verwenden. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, hilft Ihnen dieser Leitfaden dabei, sich durch die Grundlagen der effizienten Verwaltung von WBS-Codes zu navigieren.
 ## Voraussetzungen
@@ -90,3 +96,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Tasks für Java 
  A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) zur Unterstützung.
 ### F: Kann ich eine temporäre Lizenz für Aspose.Tasks für Java erhalten?
  A: Ja, besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 创建并保存空项目以在 Aspose.Tasks 中进行流式传输
 linktitle: 创建并保存空项目以在 Aspose.Tasks 中进行流式传输
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 创建空的 MS Project 文件并将其保存到 Java 流中，从而轻松简化项目管理任务。
-type: docs
 weight: 13
 url: /zh/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建并保存空项目以在 Aspose.Tasks 中进行流式传输
+
 ## 介绍
 在本教程中，我们将探索如何利用 Aspose.Tasks for Java 创建空 MS 项目并将其保存到流中。 Aspose.Tasks 是一个功能强大的 Java API，使开发人员能够使用 Microsoft Project 文件，而无需在计算机上安装 Microsoft Project。通过遵循本指南，您将了解使用 Aspose.Tasks 创建和保存空 MS Project 文件的必要步骤。
 ## 先决条件
@@ -69,3 +75,9 @@ System.out.println("Project file generated Successfully");
 您可以从社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 我可以购买 Aspose.Tasks 的临时许可证吗？
 是的，可以购买临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 处理 MS 项目费率
 linktitle: 在 Aspose.Tasks 中处理费率
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 轻松掌握管理 MS 项目费率。高效地自动化任务，使项目工作流程更加顺畅。
-type: docs
 weight: 10
 url: /zh/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 处理 MS 项目费率
+
 ## 介绍
 欢迎来到我们关于使用 Aspose.Tasks for .NET 处理 MS 项目费率的教程！在本指南中，我们将逐步引导您完成整个过程，确保您可以有效地管理 MS Project 文档中的费率。 Aspose.Tasks for .NET 提供了以编程方式操作 MS Project 文件的强大功能，使您可以轻松简化项目管理任务。
 ## 先决条件
@@ -77,3 +83,9 @@ rate2.CostPerUse = 2m;
 答：是的，您可以使用 Aspose.Tasks 实现自定义费率计算，以满足特定的项目要求。
 ### 问：Aspose.Tasks 用户是否有社区论坛或支持？
 答： 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求帮助并与其他用户互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks .NET 轻松管理 MS 项目视图
 linktitle: Aspose.Tasks 中的视图集合
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 并轻松掌握管理 MS 项目视图的艺术。立即下载以获得无缝的项目管理体验。
-type: docs
 weight: 11
 url: /zh/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks .NET 轻松管理 MS 项目视图
+
 ## 介绍
 欢迎来到 Aspose.Tasks for .NET 的世界，这是一个功能强大的库，使开发人员能够在其 .NET 应用程序中高效管理 Microsoft Project 视图。在本教程中，我们将深入研究使用 Aspose.Tasks 处理 MS 项目视图的要点，为您提供增强项目管理能力的分步指南。
 ## 先决条件
@@ -95,3 +101,9 @@ Aspose.Tasks 旨在与各种 .NET Framework 版本兼容。查看文档了解具
 与 Aspose.Tasks 社区互动[论坛](https://forum.aspose.com/c/tasks/15)如有任何疑问或帮助。
 ### Aspose.Tasks 是否可以获得临时许可证？
 是的，探索临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

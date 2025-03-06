@@ -3,10 +3,16 @@ title: Hantera MS Project Group Criteria med Aspose.Tasks
 linktitle: Hantera insamling av gruppkriterier i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar Group Criterion MS Project-insamling med Aspose.Tasks för .NET. Steg-för-steg-guide för utvecklare.
-type: docs
 weight: 28
 url: /sv/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Group Criteria med Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt API som låter utvecklare arbeta med Microsoft Project-filer programmatiskt. I den här handledningen kommer vi att utforska hur man hanterar gruppkriteriesamlingen inom MS Project med Aspose.Tasks.
 
@@ -126,3 +132,9 @@ S: Absolut, du kan lägga till flera kriterier till en grupp genom att iterera i
 ### F5: Hur kan jag få support om jag stöter på några problem?
 
  S: Om du har några frågor eller stöter på några problem kan du söka support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

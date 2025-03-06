@@ -3,10 +3,16 @@ title: Olvassa el a Meta tulajdonságait az Aspose.Tasks projektekben
 linktitle: Olvassa el a Meta tulajdonságait az Aspose.Tasks projektekben
 second_title: Aspose.Tasks Java API
 description: Ezzel az átfogó oktatóanyaggal felszabadíthatja a metaadatok erejét az Aspose.Tasks projektekben. Tanulja meg könnyedén kinyerni és kihasználni a metatulajdonságokat.
-type: docs
 weight: 10
 url: /hu/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el a Meta tulajdonságait az Aspose.Tasks projektekben
+
 ## Bevezetés
 A projektmenedzsment és az adatelemzés területén a projektfájlok metaadataiba való mélyedés felbecsülhetetlen értékű betekintést nyújthat. Az Aspose.Tasks for Java robusztus eszközkészletet kínál a metatulajdonságok könnyű navigálásához. Ez az oktatóanyag átfogó útmutatóként szolgál az Aspose.Tasks projekteken belüli meta-tulajdonságok kinyeréséhez és megértéséhez.
 ## Előfeltételek
@@ -71,3 +77,9 @@ V: Igen, az Aspose.Tasks projektfájlformátumok széles skáláját támogatja,
  V: Igen, az Aspose.Tasks részletes dokumentációja megtalálható a webhelyen[dokumentációs oldal](https://reference.aspose.com/tasks/java/).
 ### K: Hol kérhetek támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
  V: Az Aspose.Tasks-szal kapcsolatos segítségért vagy kérdésért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) a közösség és a szakértők elkötelezett támogatásáért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

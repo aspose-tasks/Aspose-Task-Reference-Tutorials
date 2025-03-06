@@ -3,10 +3,16 @@ title: Collection de définitions de code hiérarchique dans Aspose.Tasks .NET
 linktitle: Collection de définitions de code hiérarchique dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment manipuler les définitions de code hiérarchique dans les documents Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Catégorisation des données de votre projet sans effort.
-type: docs
 weight: 13
 url: /fr/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection de définitions de code hiérarchique dans Aspose.Tasks .NET
+
 ## Introduction
 Aspose.Tasks est une puissante bibliothèque .NET conçue pour manipuler les documents Microsoft Project avec facilité et efficacité. L'une de ses fonctionnalités clés est la possibilité de travailler avec des définitions de code hiérarchique, permettant aux utilisateurs d'organiser et de catégoriser efficacement les données du projet. Dans ce didacticiel, nous verrons comment utiliser les définitions de code hiérarchique à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -83,3 +89,9 @@ R : Si une définition de code hiérarchique est en lecture seule, vous ne pour
 R : Aspose.Tasks pour .NET n'impose aucune limitation spécifique sur le nombre de définitions de code hiérarchique que vous pouvez ajouter à un projet. Cependant, tenez compte des implications en termes de performances lorsque vous travaillez avec un grand nombre de définitions.
 ### Q : Puis-je utiliser des définitions de code hiérarchique pour regrouper des tâches en fonction de critères personnalisés ?
 R : Oui, les définitions de code hiérarchique vous permettent de catégoriser les tâches en fonction de critères personnalisés, offrant ainsi une flexibilité dans l'organisation des données du projet.## Code source complet
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

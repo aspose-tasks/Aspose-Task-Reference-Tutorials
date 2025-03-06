@@ -3,10 +3,16 @@ title: Opanowanie konfiguracji tygodnia pracy w Aspose.Tasks
 linktitle: Konfigurowanie tygodni pracy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bez wysiłku konfigurować tygodnie pracy w Aspose.Tasks dla .NET. Ulepsz planowanie projektów i zarządzanie zasobami dzięki naszemu przewodnikowi krok po kroku.
-type: docs
 weight: 16
 url: /pl/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie konfiguracji tygodnia pracy w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat konfigurowania tygodni pracy w Aspose.Tasks dla .NET. Efektywne zarządzanie tygodniami pracy ma kluczowe znaczenie dla planowania i harmonogramowania projektów. Aspose.Tasks upraszcza ten proces, umożliwiając dostosowanie tygodni pracy do potrzeb projektu. W tym samouczku przeprowadzimy Cię przez etapy płynnej konfiguracji tygodni roboczych.
 ## Warunki wstępne
@@ -90,3 +96,9 @@ Chociaż Aspose.Tasks zapewnia solidne możliwości importu/eksportu, tygodnie p
 Od aktualnej wersji nie ma z góry określonego limitu liczby tygodni roboczych, które można skonfigurować w projekcie.
 ### Czy są jakieś wbudowane szablony typowych tygodni pracy?
 Tak, Aspose.Tasks zawiera standardowy szablon kalendarza, którego możesz użyć jako punktu wyjścia dla swojego projektu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

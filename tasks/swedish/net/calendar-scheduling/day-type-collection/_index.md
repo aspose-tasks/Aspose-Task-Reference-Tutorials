@@ -3,10 +3,16 @@ title: Hantera Day Type Collection i Aspose.Tasks
 linktitle: Hantera Day Type Collection i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar dagtypsamlingar effektivt i Aspose.Tasks för .NET. Skapa, ändra och manipulera kalenderundantag med lätthet.
-type: docs
 weight: 28
 url: /sv/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera Day Type Collection i Aspose.Tasks
+
 ## Introduktion
 
  Aspose.Tasks för .NET ger robust funktionalitet för att hantera dagtypsamlingar, avgörande för att definiera veckokalenderundantag i projektledningsapplikationer. I den här handledningen kommer vi att utforska hur man använder`DayTypeCollection` klass effektivt. 
@@ -141,3 +147,9 @@ S2: Ja, Aspose.Tasks för .NET stöder både .NET Core och .NET Framework.
 ### F5: Kan jag köpa en tillfällig licens för Aspose.Tasks för .NET?
 
  S5: Ja, tillfälliga licenser finns att köpa från[Aspose hemsida](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

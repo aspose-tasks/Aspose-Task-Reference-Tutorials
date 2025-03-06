@@ -3,10 +3,16 @@ title: Xác định định nghĩa mã WBS trong Aspose.Tasks
 linktitle: Xác định định nghĩa mã WBS trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET hỗ trợ quản lý dự án hiệu quả. Nắm vững mã WBS một cách dễ dàng với hướng dẫn toàn diện của chúng tôi. Hợp lý hóa quy trình làm việc ngay hôm nay!
-type: docs
 weight: 13
 url: /vi/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định định nghĩa mã WBS trong Aspose.Tasks
+
 ## Giới thiệu
 Khi quản lý dự án phát triển, nhu cầu về các công cụ mạnh mẽ giúp hợp lý hóa các quy trình cũng tăng theo. Trong lĩnh vực phát triển .NET, Aspose.Tasks nổi bật như một thư viện mạnh mẽ để xử lý các tác vụ quản lý dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xác định mã Cấu trúc phân chia công việc (WBS) bằng Aspose.Tasks cho .NET. Mã WBS mang lại trật tự cho hệ thống phân cấp dự án, cho phép theo dõi và tổ chức hiệu quả.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Aspose.Tasks cung cấp khả năng mở rộng và bạn có thể xác định
  Diễn đàn Aspose.Tasks (liên kết đến[ủng hộ](https://forum.aspose.com/c/tasks/15)) là một nguồn tài nguyên có giá trị để tìm kiếm sự hỗ trợ và khắc phục sự cố.
 ### Có phiên bản dùng thử nào trước khi mua Aspose.Tasks không?
  Có, bạn có thể khám phá các tính năng và khả năng của Aspose.Tasks bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/) phiên bản.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

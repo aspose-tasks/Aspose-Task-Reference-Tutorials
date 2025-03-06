@@ -3,10 +3,16 @@ title: Aspose.Tasks Kalender och schemaläggning
 linktitle: Aspose.Tasks Kalender och schemaläggning
 second_title: Aspose.Tasks .NET API
 description: Hantera projektkalendrar, beräkna varaktigheter och hantera undantag med Aspose.Tasks för .NET. Utforska steg-för-steg handledningar för kalender och schemaläggningsuppgifter.
-type: docs
 weight: 22
 url: /sv/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kalender och schemaläggning
+
 ## Introduktion
 
 Välkommen till en värld av Aspose.Tasks för .NET-handledningar, din bästa resurs för att bemästra krångligheterna med kalenderhantering och schemaläggning i dina .NET-projekt. Aspose.Tasks ger utvecklare kraftfulla verktyg för att enkelt hantera projektkalendrar, beräkna varaktigheter och hantera undantag. I den här omfattande samlingen av självstudiekurser fördjupar vi oss i olika aspekter, från att arbeta med kalendrar och hantera undantag till att utforska specialiserade ämnen som undantag för sammansatta dokumentrubriker och valutasymbolpositioner. Oavsett om du är en erfaren utvecklare som söker avancerade insikter eller en nykomling som vill förbättra dina färdigheter i projektledning, ger dessa handledningar steg-för-steg-vägledning och exempel från verkliga världen. Låt oss ge oss ut på en resa för att frigöra den fulla potentialen hos Aspose.Tasks för .NET och höja dina projektledningsmöjligheter. Redo att dyka i? Låt oss börja!
@@ -135,3 +141,9 @@ Lär dig hur du hanterar dagtypsamlingar effektivt i Aspose.Tasks för .NET. Ska
 Lär dig hur du importerar projekt från en Primavera-databas med Aspose.Tasks för .NET. Få steg-för-steg-vägledning i denna omfattande handledning.
 ### [Varaktighet Hantering i Aspose.Tasks](./duration-handling/)
 Lär dig hur du hanterar varaktigheter effektivt i Aspose.Tasks för .NET med steg-för-steg handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

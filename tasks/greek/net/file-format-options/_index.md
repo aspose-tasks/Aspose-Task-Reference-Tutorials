@@ -3,10 +3,16 @@ title: Επιλογές μορφής αρχείου Aspose.Tasks
 linktitle: Επιλογές μορφής αρχείου Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τις επιλογές μορφής αρχείου Aspose.Tasks και βασίστε τη διαμόρφωση των επιλογών XAML & XLSX στο Aspose.Tasks .NET. Βελτιώστε τη διαχείριση έργου με συμβουλές προσαρμογής.
-type: docs
 weight: 34
 url: /el/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επιλογές μορφής αρχείου Aspose.Tasks
+
 
 ## Εισαγωγή
 
@@ -27,3 +33,9 @@ url: /el/net/file-format-options/
 Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XAML στο Aspose.Tasks για .NET. Βελτιώστε την ευελιξία διαχείρισης έργου και την προσαρμογή με καθοδήγηση βήμα προς βήμα.
 ### [Διαμόρφωση επιλογών XLSX στο Aspose.Tasks](./configuring-xlsx-options/)
 Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XLSX στο Aspose.Tasks για .NET. Προσαρμόστε στήλες, κωδικοποίηση και πιο εύκολα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

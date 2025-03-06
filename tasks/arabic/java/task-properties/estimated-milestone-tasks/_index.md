@@ -3,10 +3,16 @@ title: التعامل مع المهام المقدرة والمهام الهام
 linktitle: التعامل مع المهام المقدرة والمهام الهامة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف الإدارة الفعالة للمشروعات باستخدام Aspose.Tasks لـ Java. التعامل مع المهام المقدرة والمعالم دون عناء. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 15
 url: /ar/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع المهام المقدرة والمهام الهامة في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java هي مكتبة قوية تسهل التعامل مع المهام وإدارة المشاريع ومعالجة بيانات المشروع دون عناء. في هذا البرنامج التعليمي، سنركز على جانب مهم من جوانب إدارة المشروع - وهو التعامل مع المهام المقدرة والمهام الرئيسية باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

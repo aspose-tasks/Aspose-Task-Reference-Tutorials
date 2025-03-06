@@ -3,10 +3,16 @@ title: Mastering Project Outline Values με το Aspose.Tasks
 linktitle: Διαχείριση τιμών περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις τιμές περιγράμματος του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε τα περιγράμματα του έργου με ευκολία.
-type: docs
 weight: 16
 url: /el/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Project Outline Values με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε τις τιμές περίγραμμα του Microsoft Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για .NET. Με το Aspose.Tasks, μπορείτε εύκολα να χειριστείτε τους κώδικες περιγράμματος, να δημιουργήσετε νέες τιμές περιγράμματος και να προσαρμόσετε τα περιγράμματα έργων σύμφωνα με τις απαιτήσεις σας.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ outline2.Values.Add(value2);
 Α: Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια χρήσης για το Aspose.Tasks από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Tasks;
  Α: Μπορείτε να ανατρέξετε στην ολοκληρωμένη διαθέσιμη τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

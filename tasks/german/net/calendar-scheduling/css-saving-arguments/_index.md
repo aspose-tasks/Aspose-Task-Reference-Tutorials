@@ -3,10 +3,16 @@ title: CSS-Speicherargumente in Aspose.Tasks
 linktitle: CSS-Speicherargumente in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie CSS-Argumente in Aspose.Tasks für .NET speichern, um die HTML-Ausgabe anzupassen. Verbessern Sie die Präsentation mit maßgeschneiderten CSS-Einstellungen.
-type: docs
 weight: 20
 url: /de/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CSS-Speicherargumente in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns mit dem Prozess des Speicherns von CSS-Argumenten mithilfe von Aspose.Tasks für .NET. Cascading Style Sheets (CSS) sind entscheidend für die Definition der Darstellung von HTML-Elementen. Mit Aspose.Tasks können wir diese CSS-Attribute effizient bearbeiten und speichern.
@@ -118,3 +124,9 @@ A4: Sie können sich auf die beziehen[Dokumentation](https://reference.aspose.co
 ### F5: Bietet Aspose.Tasks für .NET Unterstützung für Entwickler?
 
  A5: Ja, Sie können Unterstützung von der Aspose.Tasks-Community über erhalten[Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

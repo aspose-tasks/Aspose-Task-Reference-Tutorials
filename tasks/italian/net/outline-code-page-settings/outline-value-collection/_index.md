@@ -3,10 +3,16 @@ title: Gestisci i valori della struttura di MS Project con Aspose.Tasks
 linktitle: Raccolta di valori di struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire i valori di struttura nei file di Microsoft Project utilizzando Aspose.Tasks per .NET. Tutorial passo passo con esempi di codice.
-type: docs
 weight: 17
 url: /it/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci i valori della struttura di MS Project con Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per .NET fornisce un set completo di funzionalità per interagire con i file di Microsoft Project. Una di queste funzionalità è la capacità di gestire i valori di struttura all'interno di un progetto. In questo tutorial esploreremo come raccogliere e manipolare i valori di struttura utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -108,3 +114,9 @@ R: È possibile implementare meccanismi di gestione degli errori come i blocchi 
 R: Sì, Aspose.Tasks fornisce API estese per personalizzare l'aspetto e il comportamento dei valori di struttura in base alle proprie esigenze.
 ### D: Dove posso trovare risorse aggiuntive e supporto per Aspose.Tasks?
  R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto della comunità ed esplorare il[documentazione](https://reference.aspose.com/tasks/net/) per informazioni dettagliate su API e funzionalità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

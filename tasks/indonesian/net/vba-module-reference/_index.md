@@ -3,10 +3,16 @@ title: Modul VBA Aspose.Tasks dan Penanganan Referensi
 linktitle: Modul VBA Aspose.Tasks dan Penanganan Referensi
 second_title: Aspose.Tugas .NET API
 description: Apakah Anda siap untuk meningkatkan kemampuan manajemen proyek Anda menggunakan Aspose.Tasks .NET? Selami tutorial komprehensif kami untuk modul VBA dan penanganan referensi.
-type: docs
 weight: 31
 url: /id/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modul VBA Aspose.Tasks dan Penanganan Referensi
+
 
 ## Mengelola Modul VBA di Aspose.Tasks
 
@@ -40,3 +46,9 @@ Temukan cara mengelola Koleksi Modul VBA secara efisien di Aspose.Tasks untuk .N
 Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola Proyek VBA dengan mudah. Tingkatkan kemampuan manajemen proyek Anda dengan panduan langkah demi langkah ini.
 ### [Menangani Referensi VBA di Aspose.Tasks](./vba-references/)
 Jelajahi kekuatan penanganan referensi VBA di Aspose.Tasks .NET dengan tutorial komprehensif kami. Belajar membaca, membandingkan, dan bekerja dengan referensi VBA dengan lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

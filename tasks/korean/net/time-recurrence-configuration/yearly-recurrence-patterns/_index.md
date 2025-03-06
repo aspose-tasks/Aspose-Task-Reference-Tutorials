@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks의 연간 반복 패턴 마스터
 linktitle: Aspose.Tasks에서 연간 반복 패턴 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 연간 반복 패턴을 구성하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트 관리 기술을 향상하세요.
-type: docs
 weight: 18
 url: /ko/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks의 연간 반복 패턴 마스터
+
 ## 소개
 역동적인 프로젝트 관리 세계에서는 반복되는 작업을 효율적으로 처리하는 것이 핵심입니다. Aspose.Tasks for .NET은 연간 반복 패턴을 구성하는 강력한 솔루션을 제공하여 프로젝트 일정 관리 및 관리를 간소화할 수 있습니다. 이 단계별 가이드에서는 Aspose.Tasks를 사용하여 연간 반복 패턴을 설정하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -69,3 +75,9 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원 및 지원을 위해.
 ### 구매하기 전에 Aspose.Tasks를 무료로 사용해 볼 수 있나요?
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Boş Projeyi MPP Formatında Oluşturun ve Kaydedin
 linktitle: Aspose.Tasks ile Boş Projeyi MPP Formatında Oluşturun ve Kaydedin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak boş bir MS Project dosyasını (MPP) nasıl oluşturup kaydedeceğinizi öğrenin. Proje yönetimi görevlerini zahmetsizce basitleştirin.
-type: docs
 weight: 12
 url: /tr/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Boş Projeyi MPP Formatında Oluşturun ve Kaydedin
+
 ## giriiş
 Aspose.Tasks for Java'yı kullanarak boş bir MS Project dosyası (MPP) oluşturmak ve kaydetmek basit bir işlemdir. Bu eğitimde, bu görevi verimli bir şekilde gerçekleştirmenize yardımcı olmak için her adımı adım adım anlatacağız.
 ## Önkoşullar
@@ -61,3 +67,9 @@ C: Kesinlikle, Aspose.Tasks for Java, görev ve kaynak özelliklerini ihtiyaçla
 C: Evet, Aspose.Tasks for Java, XML, CSV ve daha fazlasını içeren çeşitli proje dosyası formatlarını destekler.
 ### S: Aspose.Tasks for Java için ek desteği nerede bulabilirim?
  C: Aspose.Tasks'ı ziyaret edebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15) Java'ya özgü destek ve yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

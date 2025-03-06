@@ -3,10 +3,16 @@ title: Kolekce kalendářních výjimek v Aspose.Tasks
 linktitle: Kolekce kalendářních výjimek v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně zpracovávat výjimky kalendáře ve vašich projektech .NET pomocí Aspose.Tasks, což zajišťuje přesné plánování a správu zdrojů.
-type: docs
 weight: 13
 url: /cs/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce kalendářních výjimek v Aspose.Tasks
+
 ## Úvod
 
 projektovém řízení je přesné plánování zásadní pro úspěch. Scénáře reálného světa však často vyžadují odchylky od standardních plánů kvůli svátkům, zvláštním událostem nebo jiným faktorům. Aspose.Tasks for .NET poskytuje robustní řešení pro správu takových výjimek prostřednictvím funkce Calendar Exception Collection. Tento tutoriál vás krok za krokem provede procesem využití této funkce.
@@ -143,3 +149,9 @@ A4: Aspose.Tasks for .NET umožňuje zpracovat překrývající se výjimky defi
 ### Q5: Mohu upravit pracovní dobu pro každý den v rámci výjimky?
 
 A5: Ano, můžete zadat vlastní pracovní dobu pro jednotlivé dny v rámci výjimky, aby vyhovovala konkrétním potřebám plánování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

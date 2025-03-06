@@ -3,10 +3,16 @@ title: Mengelola Kumpulan Tugas di Aspose.Tasks
 linktitle: Mengelola Kumpulan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi manajemen pengumpulan tugas yang efisien di Aspose.Tasks untuk .NET. Dari pembuatan hingga pengeditan, kuasai manajemen proyek dengan mudah.
-type: docs
 weight: 18
 url: /id/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Kumpulan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Jika Anda mempelajari dunia manajemen proyek menggunakan .NET, Aspose.Tasks adalah solusi tepat Anda untuk penanganan kumpulan tugas yang lancar. Tutorial ini akan memandu Anda melalui proses pengelolaan kumpulan tugas secara efisien, memastikan Anda memanfaatkan perpustakaan canggih ini secara maksimal.
 ## Prasyarat
@@ -95,3 +101,9 @@ Sangat! Aspose.Tasks menyediakan opsi ekspor serbaguna, termasuk PDF, XLSX, dan 
  Ya, Anda dapat menemukan dukungan dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Tasks?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

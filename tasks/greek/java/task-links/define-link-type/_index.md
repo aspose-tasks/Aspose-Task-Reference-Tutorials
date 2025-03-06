@@ -3,10 +3,16 @@ title: Ορίστε τον τύπο συνδέσμου στο Aspose.Tasks
 linktitle: Ορίστε τον τύπο συνδέσμου στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για Java στη διαχείριση έργων. Καθορίστε και προσαρμόστε τους τύπους συνδέσμων χωρίς κόπο με το βήμα προς βήμα εκμάθησή μας.
-type: docs
 weight: 13
 url: /el/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε τον τύπο συνδέσμου στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον κόσμο της αποτελεσματικής διαχείρισης έργων με το Aspose.Tasks για Java! Αν θέλετε να βελτιστοποιήσετε τη διαχείριση του έργου σας και να ενισχύσετε την παραγωγικότητα, βρίσκεστε στο σωστό μέρος. Σε αυτό το ολοκληρωμένο σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία καθορισμού τύπων συνδέσμων στο Aspose.Tasks για Java, ενισχύοντας τις δυνατότητες διαχείρισης του έργου σας.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ for (TaskLink tskLink : allLinks) {
  Μία επίσκεψη[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) να αποκτήσει προσωρινή άδεια για σκοπούς δοκιμών.
 ### Ε: Πού μπορώ να λάβω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
  Α: Εγγραφείτε στην κοινότητα Aspose.Tasks στο[φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15) για βοήθεια και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

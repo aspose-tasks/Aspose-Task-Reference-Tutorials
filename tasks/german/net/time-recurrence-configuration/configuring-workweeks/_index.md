@@ -3,10 +3,16 @@ title: Beherrschen der Arbeitswochenkonfiguration in Aspose.Tasks
 linktitle: Konfigurieren von Arbeitswochen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Arbeitswochen mühelos in Aspose.Tasks für .NET konfigurieren. Verbessern Sie die Projektplanung und das Ressourcenmanagement mit unserer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 16
 url: /de/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der Arbeitswochenkonfiguration in Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem umfassenden Leitfaden zum Konfigurieren von Arbeitswochen in Aspose.Tasks für .NET. Die effiziente Verwaltung von Arbeitswochen ist für die Projektplanung und -terminierung von entscheidender Bedeutung. Aspose.Tasks vereinfacht diesen Prozess und ermöglicht es Ihnen, die Arbeitswochen an die Anforderungen Ihres Projekts anzupassen. In diesem Tutorial führen wir Sie durch die Schritte zur nahtlosen Konfiguration von Arbeitswochen.
 ## Voraussetzungen
@@ -90,3 +96,9 @@ Während Aspose.Tasks robuste Import-/Exportfunktionen bietet, sind Arbeitswoche
 Ab der aktuellen Version gibt es keine vordefinierte Begrenzung für die Anzahl der Arbeitswochen, die Sie in einem Projekt konfigurieren können.
 ### Gibt es integrierte Vorlagen für gemeinsame Arbeitswochen?
 Ja, Aspose.Tasks enthält eine Standardkalendervorlage, die Sie als Ausgangspunkt für Ihr Projekt verwenden können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

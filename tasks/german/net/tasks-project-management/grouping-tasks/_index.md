@@ -3,10 +3,16 @@ title: Effiziente MS Project-Aufgabengruppierung mit Aspose.Tasks
 linktitle: Gruppieren von Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Aufgaben mithilfe von Aspose.Tasks für .NET effektiv gruppieren.
-type: docs
 weight: 25
 url: /de/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effiziente MS Project-Aufgabengruppierung mit Aspose.Tasks
+
 ## Einführung
 Die Verwaltung von Aufgaben in Microsoft Project kann manchmal eine Herausforderung sein, insbesondere wenn es darum geht, sie effizient zu organisieren. Aspose.Tasks für .NET bietet hierfür eine umfassende Lösung, indem es Funktionen zur effektiven Gruppierung von Aufgaben bereitstellt. In diesem Tutorial erfahren Sie, wie Sie MS Project-Aufgaben mithilfe von Aspose.Tasks für .NET gruppieren.
 ## Voraussetzungen
@@ -84,3 +90,9 @@ Ja, Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien und 
 Aspose.Tasks bietet auf jeden Fall Optionen zum Anpassen des Erscheinungsbilds gruppierter Aufgaben, einschließlich Zellenfarben, Schriftarten und Stilen.
 ### Wo finde ich Unterstützung für Aspose.Tasks für .NET?
  Unterstützung und Unterstützung für Aspose.Tasks für .NET finden Sie im[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

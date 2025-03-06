@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中的任务链接
 linktitle: 处理 Aspose.Tasks 中的任务链接
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在高效管理项目任务链接方面的强大功能。请遵循我们的分步指南来增强您的项目管理体验。
-type: docs
 weight: 19
 url: /zh/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中的任务链接
+
 ## 介绍
 欢迎阅读有关在 Aspose.Tasks for .NET 中处理任务链接的分步指南！任务链接在项目管理中发挥着至关重要的作用，它允许您在任务之间建立关系并创建依赖关系。在本教程中，我们将引导您完成使用 Aspose.Tasks 处理任务链接集合的过程。
 ## 先决条件
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 Aspose.Tasks 可以有效地处理大型项目文件，同时对性能的影响最小。
 ### 是否有 Aspose.Tasks 支持的社区论坛？
 是的，您可以在以下位置找到支持并与社区互动[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

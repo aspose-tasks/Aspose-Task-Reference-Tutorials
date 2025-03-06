@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Etkin Atama Maliyet Yönetimi
 linktitle: Aspose.Tasks'ta Atama Maliyetini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da atama maliyetlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Proje kaynaklarını verimli bir şekilde yönetmek için adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Etkin Atama Maliyet Yönetimi
+
 ## giriiş
 Atama maliyetlerini verimli bir şekilde yönetmek, proje yönetimi görevleri için çok önemlidir. Aspose.Tasks for Java, atama maliyetlerini etkili bir şekilde yönetmek için güçlü özellikler sunar. Bu eğitimde, Aspose.Tasks for Java'yı kullanarak atama maliyetlerini adım adım yönetme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -64,3 +70,9 @@ C: Aspose.Tasks for Java, MPP, XML ve MPX dahil olmak üzere çeşitli proje dos
  C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java'yı deneme sürümünde kullanmak için geçici bir lisansa ihtiyacım var mı?
 C: Hayır, deneme amaçlı kullanım için geçici lisansa gerek yoktur. Ancak üretim ortamları için önerilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

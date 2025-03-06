@@ -3,10 +3,16 @@ title: Mengelola Baseline Penugasan di Aspose.Tasks
 linktitle: Mengelola Baseline Penugasan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola garis dasar penugasan secara efisien dengan Aspose.Tasks untuk .NET, memastikan pelacakan kemajuan dan kinerja proyek secara akurat.
-type: docs
 weight: 14
 url: /id/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Baseline Penugasan di Aspose.Tasks
+
 ## Perkenalan
 
 Saat mengerjakan tugas manajemen proyek, mengelola garis dasar penugasan sangat penting untuk melacak kemajuan secara akurat. Aspose.Tasks untuk .NET menyediakan seperangkat alat komprehensif untuk menangani garis dasar penugasan secara efisien. Dalam tutorial ini, kita akan mempelajari proses pengelolaan garis dasar penugasan langkah demi langkah.
@@ -123,3 +129,9 @@ A4: Ya, pengembang dapat mengakses dokumentasi, tutorial, dan forum komprehensif
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
  A5: Ya, pengembang dapat memperoleh versi uji coba gratis Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/), memungkinkan mereka mengevaluasi fitur dan kemampuannya sebelum membuat keputusan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

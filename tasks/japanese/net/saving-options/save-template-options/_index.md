@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS プロジェクト ファイルをテン�
 linktitle: Aspose.Tasks のテンプレートの保存オプション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project ファイルをテンプレートとして保存する方法を学びます。テンプレート設定をカスタマイズして、プロジェクト管理を効率化します。
-type: docs
 weight: 18
 url: /ja/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS プロジェクト ファイルをテンプレートとして保存する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用してテンプレートを保存するプロセスについて説明します。テンプレートは、将来の使用に備えてプロジェクトの構造と設定を標準化するのに役立ちます。プロジェクトをテンプレートとして保存し、途中でプロパティを調整する方法を示します。
 ## 前提条件
@@ -76,3 +82,9 @@ A: はい、テンプレート ファイルをロードし、必要に応じて�
 A: Aspose.Tasks for .NET は主に、Windows プラットフォーム上で実行される .NET Framework アプリケーション用に設計されています。
 ### Q: Aspose.Tasks for .NET のテクニカル サポートは利用できますか?
  A: はい、Aspose.Tasks コミュニティから技術的なサポートとガイダンスを求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15)または、サポート チームに直接お問い合わせください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

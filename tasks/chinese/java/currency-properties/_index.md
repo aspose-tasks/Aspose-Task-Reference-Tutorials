@@ -3,10 +3,16 @@ title: 货币属性
 linktitle: 货币属性
 second_title: Aspose.Tasks Java API
 description: 释放 Aspose.Tasks for Java 教程的强大功能。轻松了解有关在 MS Project 文件中读取和设置货币属性的分步指南。
-type: docs
 weight: 25
 url: /zh/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 货币属性
+
 ## 介绍
 您准备好提升您的 Aspose.Tasks for Java 技能了吗？深入研究我们关于货币属性的综合教程，并掌握在 MS Project 文件中处理货币信息的艺术。
 
@@ -35,3 +41,9 @@ url: /zh/java/currency-properties/
 了解如何使用 Aspose.Tasks for Java 从 MS Project 文件中提取货币信息。提供分步指南。
 ### [在 Aspose.Tasks 项目中设置货币属性](./set-properties/)
 了解如何使用 Java 在 Aspose.Tasks 项目中设置货币属性。轻松操作 Microsoft Project 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

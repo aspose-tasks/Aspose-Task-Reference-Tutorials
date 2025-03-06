@@ -3,10 +3,16 @@ title: Aspose.Tasks Kalender en planning
 linktitle: Aspose.Tasks Kalender en planning
 second_title: Aspose.Tasks .NET API
 description: Beheer projectkalenders, bereken de duur en handel uitzonderingen af met Aspose.Tasks voor .NET. Ontdek stapsgewijze zelfstudies voor agenda- en planningstaken.
-type: docs
 weight: 22
 url: /nl/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kalender en planning
+
 ## Invoering
 
 Welkom in de wereld van Aspose.Tasks voor .NET-tutorials, uw referentiebron voor het beheersen van de fijne kneepjes van agendabeheer en planning in uw .NET-projecten. Aspose.Tasks biedt ontwikkelaars robuuste tools waarmee ze moeiteloos projectkalenders kunnen verwerken, de duur kunnen berekenen en uitzonderingen kunnen beheren. In deze uitgebreide verzameling tutorials gaan we dieper in op verschillende aspecten, van het werken met kalenders en het beheren van uitzonderingen tot het verkennen van gespecialiseerde onderwerpen zoals uitzonderingen op samengestelde documentkopteksten en de posities van valutasymbolen. Of u nu een doorgewinterde ontwikkelaar bent die op zoek is naar geavanceerde inzichten of een nieuwkomer die graag uw projectmanagementvaardigheden wil verbeteren, deze tutorials bieden stapsgewijze begeleiding en praktijkvoorbeelden. Laten we op reis gaan om het volledige potentieel van Aspose.Tasks voor .NET te ontsluiten en uw projectmanagementmogelijkheden te verbeteren. Klaar om erin te duiken? Laten we beginnen!
@@ -135,3 +141,9 @@ Leer hoe u dagtypecollecties efficiënt beheert in Aspose.Tasks voor .NET. Creë
 Leer hoe u projecten uit een Primavera-database importeert met Aspose.Tasks voor .NET. Krijg stapsgewijze begeleiding in deze uitgebreide zelfstudie.
 ### [Duurafhandeling in Aspose.Tasks](./duration-handling/)
 Leer hoe u effectief met tijdsduur omgaat in Aspose.Tasks voor .NET met stapsgewijze zelfstudies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

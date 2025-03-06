@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET での MS プロジェクト ライセンスの管理
 linktitle: .NET での Aspose.Tasks ライセンスの管理
 second_title: Aspose.Tasks .NET API
 description: ファイルベースまたはストリームベースのアプローチを使用して、.NET アプリケーションで Aspose.Tasks ライセンスをシームレスに管理する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET での MS プロジェクト ライセンスの管理
+
 ## 導入
 ライセンスの管理は、.NET アプリケーションで Aspose.Tasks を効果的に利用する上で重要な要素です。適切なライセンスがないと、使用に制限がかかる可能性があります。幸いなことに、Aspose.Tasks には、.NET プロジェクトのファイルまたはストリームを使用してライセンスを適用する簡単な方法が用意されています。このチュートリアルでは、.NET アプリケーションで Aspose.Tasks ライセンスを管理する方法を段階的に説明します。
 ## 前提条件
@@ -98,3 +104,9 @@ A: 有効なライセンスがない場合、Aspose.Tasks は評価モードで�
 ### Q: 複数のアプリケーションに同じライセンス ファイルを使用できますか?
 
 A: はい、同じライセンス所有者が開発した複数のアプリケーション間で同じライセンス ファイルを使用できます。ただし、ライセンスが Aspose によって指定された使用条件に準拠していることを確認してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

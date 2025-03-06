@@ -3,10 +3,16 @@ title: Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
 linktitle: Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menerapkan panggilan balik penyimpanan halaman di Aspose.Tasks untuk .NET, yang memungkinkan penanganan aliran keluaran dokumen multi-halaman yang disesuaikan.
-type: docs
 weight: 12
 url: /id/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengimplementasikan callback penyimpanan halaman di Aspose.Tasks untuk .NET. Fitur ini memungkinkan kami menyimpan dokumen multi-halaman ke aliran yang disediakan pengguna, menawarkan fleksibilitas dan penyesuaian dalam menangani keluaran.
@@ -121,3 +127,9 @@ A4: Anda dapat menerapkan mekanisme penanganan kesalahan dalam metode panggilan 
 ### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Tasks?
 
  A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bantuan, akses dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/) , atau jelajahi fitur tambahan dan opsi lisensi di[Situs web Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

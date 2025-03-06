@@ -3,10 +3,16 @@ title: Aangepaste toewijzingsweergavekolom in Aspose.Tasks
 linktitle: Aangepaste toewijzingsweergavekolom in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u aangepaste kolommen voor toewijzingsweergaven kunt toevoegen in Aspose.Tasks voor .NET om de mogelijkheden voor projectbeheer te verbeteren.
-type: docs
 weight: 16
 url: /nl/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste toewijzingsweergavekolom in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u aangepaste kolommen voor toewijzingsweergaven kunt toevoegen met Aspose.Tasks voor .NET. Aangepaste kolommen bieden flexibiliteit en stellen u in staat aanvullende informatie weer te geven die relevant is voor uw projectbeheerbehoeften.
@@ -116,3 +122,9 @@ A3: Ja, u kunt het uiterlijk van aangepaste kolommen aanpassen door eigenschappe
 ### V5: Ondersteunt Aspose.Tasks het exporteren van projecten naar andere formaten dan spreadsheets met aangepaste kolommen?
 
 A5: Ja, Aspose.Tasks ondersteunt het exporteren van projecten naar verschillende formaten zoals PDF, HTML en XML, waardoor veelzijdige projectrapportageopties mogelijk zijn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

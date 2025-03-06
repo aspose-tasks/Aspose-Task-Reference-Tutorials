@@ -3,10 +3,16 @@ title: Gérer les modèles de risque dans MS Project avec Aspose.Tasks
 linktitle: Collection de modèles de risque dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment analyser et manipuler efficacement les modèles de risque dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET.
-type: docs
 weight: 24
 url: /fr/net/resource-risk-analysis/risk-pattern-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les modèles de risque dans MS Project avec Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET fournit une solution complète pour gérer et analyser les modèles de risque dans les fichiers Microsoft Project. Dans ce didacticiel, nous verrons comment utiliser Aspose.Tasks pour travailler efficacement avec les modèles de risque dans vos projets.
 ## Conditions préalables
@@ -106,3 +112,9 @@ R : Certes, Aspose.Tasks s'intègre de manière transparente à d'autres framewo
  R : Oui, vous pouvez accéder à un essai gratuit d’Aspose.Tasks à partir de[ici](https://releases.aspose.com/)vous permettant d'explorer ses fonctionnalités avant de faire un achat.
 ### Q : Où puis-je trouver de l'aide pour Aspose.Tasks ?
  R : Vous pouvez trouver une assistance et une assistance complètes sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15), où vous pouvez interagir avec des experts et d'autres utilisateurs pour résoudre des requêtes et des problèmes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

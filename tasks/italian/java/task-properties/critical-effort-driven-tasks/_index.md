@@ -3,10 +3,16 @@ title: Gestisci attività critiche e guidate dall'impegno in Aspose.Tasks
 linktitle: Gestisci attività critiche e guidate dall'impegno in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Gestisci senza sforzo attività critiche e impegnative nei tuoi progetti Java con Aspose.Tasks. Scarica la libreria e migliora le tue capacità di gestione dei progetti.
-type: docs
 weight: 14
 url: /it/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci attività critiche e guidate dall'impegno in Aspose.Tasks
+
 Nel frenetico mondo della gestione dei progetti, gestire in modo efficiente le attività critiche e impegnative è essenziale per il successo del completamento del progetto. Aspose.Tasks per Java fornisce una soluzione solida per gestire queste attività senza problemi. In questo tutorial, ti guideremo attraverso il processo di utilizzo di Aspose.Tasks per Java per gestire attività critiche e impegnative nei tuoi progetti.
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
@@ -60,3 +66,9 @@ Sì, Aspose.Tasks per Java è indipendente dalla piattaforma e può essere utili
  È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso acquistare Aspose.Tasks per Java?
  È possibile acquistare Aspose.Tasks per Java da[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

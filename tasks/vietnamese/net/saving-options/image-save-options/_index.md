@@ -3,10 +3,16 @@ title: Lưu hình ảnh Tùy chọn dự án MS cho Aspose.Tasks
 linktitle: Tùy chọn lưu hình ảnh cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu các tùy chọn MS Project dưới dạng hình ảnh bằng Aspose.Tasks cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh Tùy chọn dự án MS cho Aspose.Tasks
+
 
 ## Giới thiệu
 Trong thế giới phát triển phần mềm, việc xử lý các nhiệm vụ dự án một cách hiệu quả là rất quan trọng để quản lý dự án thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ cho các nhà phát triển làm việc với các tệp Microsoft Project, cho phép họ thao tác, chuyển đổi và quản lý các tác vụ dự án một cách liền mạch trong các ứng dụng .NET của họ.
@@ -76,3 +82,9 @@ Trả lời: Có, Aspose.Tasks cho .NET tương thích với nhiều khung .NET 
 Trả lời: Có, bạn có thể tùy chỉnh các tùy chọn lưu hình ảnh theo yêu cầu cụ thể của mình, chẳng hạn như điều chỉnh kích thước trang, độ phân giải hoặc định dạng đầu ra.
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Trả lời: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp dành cho Aspose.Tasks for .NET trên[diễn đàn](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

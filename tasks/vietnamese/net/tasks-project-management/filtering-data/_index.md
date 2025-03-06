@@ -3,10 +3,16 @@ title: Lọc dữ liệu hiệu quả với Aspose.Tasks
 linktitle: Lọc dữ liệu trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lọc dữ liệu trong tệp MS Project bằng Aspose.Tasks cho .NET. Nâng cao năng suất và khả năng phân tích một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lọc dữ liệu hiệu quả với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để lọc dữ liệu trong tệp Microsoft Project, cho phép người dùng quản lý và phân tích thông tin dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách lọc dữ liệu bằng Aspose.Tasks theo định dạng hướng dẫn từng bước.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Trả lời: Hoàn toàn có thể, bạn có thể kết hợp nhiều bộ l�
  A: Có, bạn có thể tham khảo toàn diện[tài liệu](https://reference.aspose.com/tasks/net/) được cung cấp bởi Aspose.Tasks để được hướng dẫn chi tiết.
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
  Đáp: Có, bạn có thể tiếp cận hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ truy vấn hoặc vấn đề nào bạn gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

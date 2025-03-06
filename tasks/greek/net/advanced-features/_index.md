@@ -3,10 +3,16 @@ title: Aspose.Tasks Προηγμένες δυνατότητες
 linktitle: Aspose.Tasks Προηγμένες δυνατότητες
 second_title: Aspose.Tasks .NET API
 description: Ανακαλύψτε προηγμένες δυνατότητες στο Aspose.Tasks για .NET με τα σεμινάρια μας. Από τις λειτουργίες ΚΑΙ μέχρι τον χειρισμό εξαιρέσεων μνήμης, βελτιώστε τις δεξιότητές σας στη διαχείριση έργου.
-type: docs
 weight: 21
 url: /el/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Προηγμένες δυνατότητες
+
 
 ## Εισαγωγή
 
@@ -93,3 +99,9 @@ url: /el/net/advanced-features/
 Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις λειτουργίες υπολογισμού στο Aspose.Tasks για .NET για να βελτιστοποιήσετε τον προγραμματισμό έργων και τις εξαρτήσεις εργασιών.
 ### [Τύπος υπολογισμού στο Aspose.Tasks](./calculation-type/)
 Μάθετε πώς να προσαρμόζετε τους υπολογισμούς αξίας σε έργα .NET με τον τύπο υπολογισμού στη βιβλιοθήκη Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

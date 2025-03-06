@@ -3,10 +3,16 @@ title: Kumpulan Garis Dasar Tugas di Aspose.Tasks
 linktitle: Kumpulan Garis Dasar Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi garis dasar tugas dengan mudah menggunakan Aspose.Tasks untuk .NET. Manajemen proyek yang efisien menjadi sederhana. Unduh sekarang! #Aspose.Tugas #Proyek MS
-type: docs
 weight: 17
 url: /id/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Garis Dasar Tugas di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Tasks untuk .NET, perpustakaan canggih yang memfasilitasi manipulasi dan pengelolaan tugas proyek dengan lancar. Dalam tutorial ini, kita akan mempelajari bidang dasar tugas yang menarik—aspek penting dalam perencanaan dan pelacakan proyek. Di akhir panduan ini, Anda akan menguasai seni bekerja dengan kumpulan dasar tugas, memungkinkan Anda meningkatkan kemampuan manajemen proyek Anda.
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Aspose.Tasks untuk .NET tidak menerapkan batasan ketat pada jumlah tugas, seh
 J: Tentu saja! Anda memiliki kendali penuh atas pemformatan saat mencetak detail dasar, memungkinkan Anda menyesuaikannya dengan kebutuhan spesifik Anda.
 ### T: Di mana saya dapat mencari bantuan jika saya mengalami masalah atau memiliki pertanyaan tambahan?
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan khusus dan bantuan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

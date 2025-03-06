@@ -3,10 +3,16 @@ title: MS Project Data mentése Excelbe az Aspose.Tasks programban
 linktitle: Adatok mentése Excelbe az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan mentheti a Microsoft Project adatait Excel-fájlokba az Aspose.Tasks for Java segítségével. Egyszerű integráció a Java fejlesztők számára.
-type: docs
 weight: 19
 url: /hu/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Data mentése Excelbe az Aspose.Tasks programban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az adatok projektfájlból Excel-fájlba mentésének folyamatán.
 ## Előfeltételek
@@ -52,3 +58,9 @@ Megtalálhatja az Aspose.Tasks for Java dokumentációját[itt](https://referenc
  Támogatást kaphat az Aspose.Tasks fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### Vásárolhatok ideiglenes licencet az Aspose.Tasks for Java számára?
  Igen, vásárolhat ideiglenes licencet innen[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

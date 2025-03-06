@@ -3,10 +3,16 @@ title: Aspose.Tasks 고급 개념
 linktitle: Aspose.Tasks 고급 개념
 second_title: Aspose.태스크 .NET API
 description: 이미지 저장, 예외 처리, 트리 알고리즘, 라벨 표시, 로딩 옵션 등에 대해 알아보세요. .NET용 Aspose.Tasks의 고급 개념을 마스터하세요
-type: docs
 weight: 24
 url: /ko/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 고급 개념
+
 
 ## 소개
 
@@ -84,3 +90,9 @@ Aspose.Tasks for .NET을 사용하여 프로젝트 관리에서 라벨 표시를
 Aspose.Tasks를 사용하여 .NET 애플리케이션에서 OLE 개체를 효율적으로 사용하여 프로젝트 관리 기능을 향상시키는 방법을 알아보세요.
 ### [Aspose.Tasks의 OLE 개체 컬렉션](./ole-object-collection/)
 이 포괄적인 튜토리얼을 통해 Aspose.Tasks for .NET에서 OLE 개체를 관리하는 방법을 알아보세요. 프로젝트 문서에 포함된 파일 처리를 손쉽게 마스터하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

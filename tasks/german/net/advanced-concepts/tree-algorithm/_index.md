@@ -3,10 +3,16 @@ title: Verwendung des Baumalgorithmus in Aspose.Tasks
 linktitle: Verwendung des Baumalgorithmus in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Aufgabenhierarchien in Ihren .NET-Projekten mithilfe des Baumalgorithmus von Aspose.Tasks effektiv manipulieren.
-type: docs
 weight: 13
 url: /de/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwendung des Baumalgorithmus in Aspose.Tasks
+
 ## Einführung
 
 Aspose.Tasks für .NET bietet leistungsstarke Funktionen für die Arbeit mit Projektmanagementaufgaben, Ressourcen und Zeitplänen. Eine dieser Funktionen ist der Baumalgorithmus, der es Benutzern ermöglicht, Aufgabenhierarchien effizient zu manipulieren. In diesem Tutorial erfahren Sie, wie Sie den Baumalgorithmus in Aspose.Tasks für .NET verwenden, um allgemeine Arbeit zu sammeln und Arbeitswerte innerhalb eines Projekts zu aktualisieren.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks für .NET ist eine leistungsstarke API, die es Entwicklern erm�
 ### F5: Gibt es eine temporäre Lizenz für Testzwecke?
 
  A5: Ja, Sie können eine temporäre Lizenz zu Testzwecken bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

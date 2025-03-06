@@ -3,10 +3,16 @@ title: Nắm vững tùy chỉnh kiểu văn bản trong Aspose.Tasks
 linktitle: Định cấu hình kiểu văn bản trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nâng cao tính thẩm mỹ của tài liệu dự án với Aspose.Tasks cho .NET. Tùy chỉnh kiểu văn bản một cách dễ dàng để thể hiện một cách trực quan hấp dẫn.
-type: docs
 weight: 11
 url: /vi/net/text-view-configuration/text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững tùy chỉnh kiểu văn bản trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án bằng .NET, Aspose.Tasks là một công cụ mạnh mẽ cung cấp vô số tính năng. Một tính năng giúp nâng cao đáng kể khả năng trình bày trực quan của dữ liệu dự án là khả năng tùy chỉnh kiểu văn bản. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình định cấu hình kiểu văn bản bằng Aspose.Tasks cho .NET, cho phép bạn mang lại dấu ấn cá nhân hóa cho tài liệu dự án của mình.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Chắc chắn, bạn có thể bỏ qua mã tùy chỉnh hoặc đặt kiểu r�
 Có, Aspose.Tasks hỗ trợ nhiều định dạng đầu ra khác nhau, chẳng hạn như XLSX, PNG và HTML. Điều chỉnh các tùy chọn lưu cho phù hợp.
 ### Có cộng đồng nào để tôi có thể tìm kiếm trợ giúp hoặc chia sẻ kinh nghiệm liên quan đến Aspose.Tasks không?
  Chắc chắn rồi, hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

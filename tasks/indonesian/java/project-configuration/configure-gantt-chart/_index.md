@@ -3,10 +3,16 @@ title: Konfigurasikan Tampilan Gantt Chart di Proyek Aspose.Tasks
 linktitle: Konfigurasikan Tampilan Gantt Chart di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengonfigurasi Tampilan Bagan Proyek Gantt MS di Aspose.Tasks menggunakan Java. Sesuaikan proyek dan visualisasikan dalam bagan Gantt dengan langkah demi langkah.
-type: docs
 weight: 10
 url: /id/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Tampilan Gantt Chart di Proyek Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara mengonfigurasi Tampilan Bagan Proyek Gantt MS di proyek Aspose.Tasks menggunakan Java. Aspose.Tasks adalah Java API canggih yang memungkinkan Anda bekerja dengan file Microsoft Project secara terprogram. Dengan mengikuti langkah-langkah ini, Anda akan dapat menyesuaikan tampilan bagan Gantt sesuai dengan kebutuhan proyek Anda.
 ## Prasyarat
@@ -76,3 +82,9 @@ J: Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Aspose.Tugas
  J: Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy).
 ### T: Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
  J: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

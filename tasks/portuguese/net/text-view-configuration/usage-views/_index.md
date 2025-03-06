@@ -3,10 +3,16 @@ title: Configurando visualizações de uso em Aspose.Tasks
 linktitle: Configurando visualizações de uso em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar visualizações de uso de tarefas em Aspose.Tasks for .NET. Aprimore a visualização do projeto com etapas detalhadas. Baixe a biblioteca agora!
-type: docs
 weight: 17
 url: /pt/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando visualizações de uso em Aspose.Tasks
+
 ## Introdução
 Se você é um desenvolvedor .NET que deseja aprimorar seus recursos de gerenciamento de projetos, Aspose.Tasks é uma ferramenta poderosa que permite manipular arquivos do Microsoft Project sem esforço. Neste tutorial, vamos nos concentrar na configuração de visualizações de uso usando Aspose.Tasks for .NET. Acompanhe para obter insights sobre a renderização de visualizações de uso de tarefas com detalhes para melhor visualização do projeto.
 ## Pré-requisitos
@@ -72,3 +78,9 @@ Parabéns! Você configurou com êxito as visualizações de uso em Aspose.Tasks
  Sim, explore a avaliação gratuita[aqui](https://releases.aspose.com/).
 ### P: Precisa de suporte ou tem dúvidas?
  Visite o fórum de suporte[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

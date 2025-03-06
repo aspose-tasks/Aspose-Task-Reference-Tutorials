@@ -3,10 +3,16 @@ title: Aspose.Tasks의 자원 할당 수집
 linktitle: Aspose.Tasks의 자원 할당 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 자원 할당을 관리하는 방법을 알아보세요. 코드 예제가 포함된 단계별 튜토리얼입니다.
-type: docs
 weight: 12
 url: /ko/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 자원 할당 수집
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 리소스 할당을 관리하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼에서는 프로세스를 단계별로 자세히 살펴보고 리소스 할당을 효율적으로 조작하는 방법을 확실하게 이해할 수 있도록 하겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 여러분이 알아야 할 모든 것을 안내합니다.
 ## 전제조건
@@ -94,3 +100,9 @@ A: 예, Aspose.Tasks for .NET은 MPP, MPT 및 XML 형식을 포함한 다양한 
  A: 예, 평가 목적으로 임시 라이선스를 사용할 수 있습니다. 당신은 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: .NET용 Aspose.Tasks의 정식 라이선스는 어디에서 구매할 수 있나요?
  A: Aspose 온라인 스토어에서 정식 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

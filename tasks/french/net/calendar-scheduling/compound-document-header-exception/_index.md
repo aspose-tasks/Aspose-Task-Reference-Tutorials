@@ -3,10 +3,16 @@ title: Gestion de l'exception d'en-tête de document composé dans Aspose.Tasks
 linktitle: Gestion de l'exception d'en-tête de document composé dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer l’exception CompoundDocumentHeaderException dans Aspose.Tasks pour .NET. Obtenez des conseils étape par étape avec des exemples de code.
-type: docs
 weight: 16
 url: /fr/net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de l'exception d'en-tête de document composé dans Aspose.Tasks
+
 ## Introduction
 
  Dans le domaine du développement .NET, la gestion efficace des tâches de projet est une préoccupation primordiale. Aspose.Tasks fournit une solution complète permettant aux développeurs .NET de gérer les tâches de gestion de projet de manière transparente. Cependant, rencontrer des exceptions est un aspect inévitable du développement logiciel. Une de ces exceptions que les développeurs peuvent rencontrer est la`CompoundDocumentHeaderException`. Ce didacticiel vise à guider les développeurs sur la façon de gérer efficacement cette exception à l'aide d'Aspose.Tasks pour .NET.
@@ -105,3 +111,9 @@ A4 : Oui, Aspose.Tasks propose des API cloud pour une intégration transparente 
 ### Q5 : À quelle fréquence les mises à jour et les corrections de bogues sont-elles publiées pour Aspose.Tasks ?
 
 A5 : Aspose.Tasks publie régulièrement des mises à jour et des corrections de bugs pour garantir la stabilité et la fiabilité de la bibliothèque.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

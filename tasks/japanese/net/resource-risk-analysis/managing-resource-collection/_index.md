@@ -3,10 +3,16 @@ title: Aspose.Tasks でのプロジェクト リソース コレクションの�
 linktitle: Aspose.Tasks でのリソース コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks API を使用して .NET で Microsoft Project リソース コレクションを効率的に管理する方法を学びます。生産性と柔軟性を向上させます。
-type: docs
 weight: 13
 url: /ja/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのプロジェクト リソース コレクションの管理
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project リソース コレクションを効果的に管理する方法を検討します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力な API で、プロジェクト データのシームレスな統合と操作を可能にします。
 ## 前提条件
@@ -99,3 +105,9 @@ A: はい、Aspose.Tasks はマルチスレッドをサポートしており、�
 ### Q: Aspose.Tasks ユーザーはテクニカル サポートを利用できますか?
 
  A: はい、Aspose.Tasks ユーザーはフォーラムを通じてテクニカル サポートにアクセスできます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

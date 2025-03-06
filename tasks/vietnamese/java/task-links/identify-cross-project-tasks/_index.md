@@ -3,10 +3,16 @@ title: Xác định các nhiệm vụ liên dự án trong Aspose.Tasks
 linktitle: Xác định các nhiệm vụ liên dự án trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá nhận dạng nhiệm vụ giữa các dự án với Aspose.Tasks cho Java. Tích hợp liền mạch và quản lý hiệu quả. Tải ngay!
-type: docs
 weight: 14
 url: /vi/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định các nhiệm vụ liên dự án trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách xác định các tác vụ liên dự án một cách hiệu quả với Aspose.Tasks cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua quá trình tích hợp liền mạch chức năng này vào các dự án Java của bạn.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều ngôn ngữ lập trình, bao 
  A: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Hỏi: Cần trợ giúp hoặc có câu hỏi cụ thể?
 Đáp: Truy cập diễn đàn hỗ trợ Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

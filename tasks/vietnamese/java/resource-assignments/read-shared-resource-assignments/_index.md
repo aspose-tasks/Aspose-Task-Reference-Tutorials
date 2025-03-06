@@ -3,10 +3,16 @@ title: Đọc các bài tập tài nguyên được chia sẻ trong Aspose.Tasks
 linktitle: Đọc các bài tập tài nguyên được chia sẻ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc các bài tập tài nguyên được chia sẻ trong Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với các hướng dẫn từng bước.
-type: docs
 weight: 19
 url: /vi/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc các bài tập tài nguyên được chia sẻ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong quản lý dự án, việc phân bổ nguồn lực hiệu quả là rất quan trọng để hoàn thành dự án thành công. Aspose.Tasks for Java cung cấp các công cụ mạnh mẽ để quản lý tài nguyên một cách hiệu quả. Một nhiệm vụ thiết yếu là đọc các bài tập tài nguyên được chia sẻ, cho phép bạn hiểu cách phân bổ tài nguyên trên nhiều dự án.
 ## Điều kiện tiên quyết
@@ -58,3 +64,9 @@ Hoàn toàn có thể, Aspose.Tasks cho Java cho phép bạn tạo báo cáo tù
 Aspose.Tasks cho Java có thể xử lý các dự án có quy mô khác nhau, từ các dự án quy mô nhỏ đến quy mô lớn.
 ### Có hỗ trợ kỹ thuật cho Aspose.Tasks dành cho người dùng Java không?
  Có, bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

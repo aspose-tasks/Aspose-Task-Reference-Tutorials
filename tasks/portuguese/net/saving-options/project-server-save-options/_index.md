@@ -3,10 +3,16 @@ title: Opções de salvamento do MS Project no servidor para Aspose.Tasks
 linktitle: Opções de salvamento do Project Server para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como salvar opções do Microsoft Project para Aspose.Tasks usando a integração do Project Server. Aprimore seus fluxos de trabalho de gerenciamento de projetos.
-type: docs
 weight: 16
 url: /pt/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opções de salvamento do MS Project no servidor para Aspose.Tasks
+
 ## Introdução
 Neste tutorial, nos aprofundaremos em salvar opções do Microsoft Project para Aspose.Tasks usando o Project Server. Aspose.Tasks é uma API .NET poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project programaticamente. Aproveitando os recursos do Project Server, podemos integrar perfeitamente o Aspose.Tasks em nossos fluxos de trabalho de gerenciamento de projetos. Este tutorial irá guiá-lo através do processo passo a passo.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ R: Sim, o Aspose.Tasks foi projetado para ser thread-safe, permitindo acesso sim
 R: Sim, você pode personalizar opções de salvamento, como nome do projeto, tempo limite e intervalo de pesquisa, para atender às suas necessidades.
 ### P: Onde posso encontrar suporte para Aspose.Tasks?
  R: Você pode encontrar suporte e assistência no site[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

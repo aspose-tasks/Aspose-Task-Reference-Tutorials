@@ -3,10 +3,16 @@ title: Làm chủ các chế độ xem dự án của Microsoft với Aspose.Tas
 linktitle: Định cấu hình Chế độ xem trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Làm chủ các chế độ xem Microsoft Project bằng Aspose.Tasks for .NET. Tùy chỉnh và hợp lý hóa trải nghiệm quản lý dự án của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các chế độ xem dự án của Microsoft với Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới quản lý dự án năng động, việc tùy chỉnh các dạng xem trong Microsoft Project có thể nâng cao đáng kể quy trình làm việc của bạn. Aspose.Tasks for .NET cung cấp bộ công cụ mạnh mẽ để thao tác và định cấu hình các chế độ xem dự án một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các bước định cấu hình chế độ xem bằng Aspose.Tasks cho .NET, giúp bạn hợp lý hóa việc trực quan hóa dự án của mình.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Aspose.Tasks được thiết kế chủ yếu cho Microsoft Project, đảm b�
  Chắc chắn rồi, hãy đi sâu vào tài liệu Aspose.Tasks[đây](https://reference.aspose.com/tasks/net/) để có các tùy chọn tùy chỉnh nâng cao.
 ### Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
  Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy) để có trải nghiệm quản lý dự án liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS Project Progress Lines kezelése Aspose.Tasks segítségével
 linktitle: Haladási vonalak kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti az MS Project fájlokban lévő folyamatvonalakat az Aspose.Tasks for .NET segítségével, javítva a projektek megjelenítését és kezelését.
-type: docs
 weight: 15
 url: /hu/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Progress Lines kezelése Aspose.Tasks segítségével
+
 ## Bevezetés
 Microsoft Project (MS Project) egy hatékony eszköz a projektmenedzsmenthez, amely lehetővé teszi a felhasználók számára, hogy nyomon kövessék projektjeik különböző aspektusait. Az MS Project egyik kulcsfontosságú jellemzője az előrehaladási vonalak megjelenítésének képessége, amely segít az érdekelt feleknek megérteni a projekt állapotát és pályáját. Ebben az oktatóanyagban megvizsgáljuk, hogyan kezeljük a folyamatsorokat az MS Projectben a .NET Aspose.Tasks könyvtárával.
 ## Előfeltételek
@@ -96,3 +102,9 @@ V: Természetesen az Aspose.Tasks úgy lett kialakítva, hogy zökkenőmentesen 
  V: Igen, az Aspose.Tasks fórumon hasznos forrásokat találhat, és segítséget kérhet[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Az Aspose.Tasks kínál ideiglenes licenceket értékelési célokra?
  V: Igen, ideiglenes engedélyt szerezhet az értékeléshez[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

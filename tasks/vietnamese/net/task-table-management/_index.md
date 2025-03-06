@@ -3,10 +3,16 @@ title: Aspose.Tasks Quản lý tác vụ và định dạng bảng
 linktitle: Aspose.Tasks Quản lý tác vụ và định dạng bảng
 second_title: Aspose.Tasks .NET API
 description: Định cấu hình và quản lý bảng dễ dàng trong Aspose.Tasks for .NET với hướng dẫn từng bước. Nâng cao hiệu quả quản lý dự án và kỹ năng thuyết trình.
-type: docs
 weight: 29
 url: /vi/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Quản lý tác vụ và định dạng bảng
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET cách mạng hóa việc quản lý dự án với các tính năng mạnh mẽ. Bài viết này khám phá nhiều hướng dẫn khác nhau về quản lý tác vụ và định dạng bảng, cung cấp hướng dẫn toàn diện để tối đa hóa hiệu quả của bạn. Hãy đi sâu vào các chủ đề chính:
@@ -91,3 +97,9 @@ Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loạ
 Khám phá Aspose.Tasks dành cho .NET để dễ dàng quản lý và trực quan hóa dữ liệu dự án. Đi sâu vào các trường xem sử dụng nhiệm vụ để hiểu rõ hơn về dự án.
 ### [Bộ sưu tập các trường xem sử dụng tác vụ trong Aspose.Tasks](./task-usage-view-fields/)
 Khám phá Aspose.Tasks cho .NET và tìm hiểu cách định cấu hình chế độ xem sử dụng tác vụ. Tùy chỉnh cài đặt thang thời gian và nâng cao hình ảnh quản lý dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

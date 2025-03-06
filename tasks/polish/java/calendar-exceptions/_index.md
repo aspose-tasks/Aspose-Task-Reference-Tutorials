@@ -3,10 +3,16 @@ title: Wyjątki kalendarza
 linktitle: Wyjątki kalendarza
 second_title: Aspose.Tasks API Java
 description: Bez wysiłku zarządzaj, definiuj, obsługuj i pobieraj wyjątki kalendarza w projektach Java za pomocą Aspose.Tasks. Usprawnij przepływ pracy w projektach, aby efektywnie zarządzać projektami.
-type: docs
 weight: 20
 url: /pl/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyjątki kalendarza
+
 
 ## Wstęp
 
@@ -34,3 +40,9 @@ Dowiedz się, jak definiować dni tygodnia dla wyjątków kalendarza w projektac
 Dowiedz się, jak skutecznie obsługiwać wyjątki kalendarza w projektach Java za pomocą Aspose.Tasks for Java. Usprawnij już teraz proces zarządzania projektami.
 ### [Pobierz wyjątki kalendarza za pomocą Aspose.Tasks](./retrieve/)
 Dowiedz się, jak pobrać wyjątki kalendarza z MS Project przy użyciu Aspose.Tasks dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

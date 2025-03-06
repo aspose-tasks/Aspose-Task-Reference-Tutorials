@@ -3,10 +3,16 @@ title: Definitionen für die Behandlung von MS Project Outline-Code in Aspose.Ta
 linktitle: Umgang mit Gliederungscodedefinitionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit MS Project-Gliederungscodedefinitionen umgehen und so Ihre Projektmanagementanwendungen stärken.
-type: docs
 weight: 12
 url: /de/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definitionen für die Behandlung von MS Project Outline-Code in Aspose.Tasks
+
 ## Einführung
 Microsoft Project ist ein leistungsstarkes Tool zum Verwalten von Projekten, und Aspose.Tasks für .NET bietet umfassende Unterstützung für die programmgesteuerte Bearbeitung von Projektdateien. Ein wesentlicher Aspekt des Projektmanagements ist die Organisation von Aufgaben mithilfe von Gliederungscodes. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit MS Project-Gliederungscodedefinitionen umgehen.
 ## Voraussetzungen
@@ -91,3 +97,9 @@ A: Ja, Aspose.Tasks für .NET bietet umfangreiche Funktionen zum Bearbeiten von 
 A: Absolut, Aspose.Tasks für .NET unterstützt das Lesen und Schreiben benutzerdefinierter Felder, einschließlich Gliederungscodes, aus MS Project-Dateien.
 ### F5: Gibt es ein Community-Forum für Aspose.Tasks für .NET?
  A: Ja, Sie können dem Community-Forum für Aspose.Tasks für .NET beitreten[Hier](https://forum.aspose.com/c/tasks/15) um Fragen zu stellen, Wissen auszutauschen und mit anderen Entwicklern zusammenzuarbeiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

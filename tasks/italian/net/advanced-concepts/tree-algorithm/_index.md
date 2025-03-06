@@ -3,10 +3,16 @@ title: Utilizzo dell'algoritmo dell'albero in Aspose.Tasks
 linktitle: Utilizzo dell'algoritmo dell'albero in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come manipolare in modo efficace le gerarchie delle attività nei tuoi progetti .NET utilizzando l'algoritmo dell'albero di Aspose.Tasks.
-type: docs
 weight: 13
 url: /it/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilizzo dell'algoritmo dell'albero in Aspose.Tasks
+
 ## introduzione
 
 Aspose.Tasks per .NET fornisce potenti funzionalità per lavorare con attività, risorse e pianificazioni di gestione dei progetti. Una di queste funzionalità è l'algoritmo ad albero, che consente agli utenti di manipolare le gerarchie delle attività in modo efficiente. In questo tutorial esploreremo come utilizzare l'algoritmo dell'albero in Aspose.Tasks per .NET per raccogliere lavoro comune e aggiornare i valori di lavoro all'interno di un progetto.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks per .NET è una potente API che consente agli sviluppatori di m
 ### Q5: È disponibile una licenza temporanea a scopo di test?
 
  R5: Sì, puoi ottenere una licenza temporanea a scopo di test da[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Frissítse és ütemezze át az MS Projectet az Aspose.Tasks-ban
 linktitle: Frissítse a projektet és ütemezze át a befejezetlen munkákat az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan frissítheti és ütemezheti át programozottan az MS Project fájlokat az Aspose.Tasks for Java használatával.
-type: docs
 weight: 23
 url: /hu/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse és ütemezze át az MS Projectet az Aspose.Tasks-ban
+
 ## Bevezetés
 A Microsoft Project egy széles körben használt projektmenedzsment szoftver, amely lehetővé teszi a felhasználók számára a feladatok, erőforrások és idővonalak hatékony kezelését. Az Aspose.Tasks for Java hatékony API-készletet biztosít a Microsoft Project fájlok programozott kezeléséhez. Ebben az oktatóanyagban megtudjuk, hogyan frissítheti az MS Project fájlokat, és hogyan ütemezheti át a befejezetlen munkákat az Aspose.Tasks for Java segítségével.
 ## Előfeltételek
@@ -73,3 +79,9 @@ V: Igen, az Aspose.Tasks for Java robusztus API-kat biztosít a feladatok, függ
  V: Igen, ideiglenes licencek megvásárolhatók[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találom az Aspose.Tasks for Java részletes dokumentációját?
  V: Tekintse meg a dokumentációt[itt](https://reference.aspose.com/tasks/java/) átfogó útmutatókért és API-referenciákért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

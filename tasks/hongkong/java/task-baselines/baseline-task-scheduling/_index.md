@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的基準任務調度
 linktitle: Aspose.Tasks 中的基準任務調度
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效地排程任務基線。輕鬆簡化您的專案管理流程。
-type: docs
 weight: 10
 url: /zh-hant/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的基準任務調度
+
 ## 介紹
 管理任務基準是專案管理的重要方面，可讓您準確比較規劃進度與實際進度。在本教程中，我們將探討如何使用 Aspose.Tasks for Java 執行基線任務調度。透過執行這些步驟，您將能夠有效地簡化專案管理流程。
 ## 先決條件
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 是的，您可以從以下位置存取 Aspose.Tasks for Java 的免費試用版：[發布頁面](https://releases.aspose.com/).
 ### 在哪裡可以找到 Aspose.Tasks for Java 的支援？
 如有任何疑問或協助，您可以造訪 Aspose.Tasks 論壇[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

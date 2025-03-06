@@ -3,10 +3,16 @@ title: Beheer MS Project Outline-waarden met Aspose.Tasks
 linktitle: Verzameling van overzichtswaarden in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u overzichtswaarden in Microsoft Project-bestanden beheert met Aspose.Tasks voor .NET. Stapsgewijze zelfstudie met codevoorbeelden.
-type: docs
 weight: 17
 url: /nl/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer MS Project Outline-waarden met Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET biedt een uitgebreide reeks functies voor interactie met Microsoft Project-bestanden. Eén zo'n functie is de mogelijkheid om overzichtswaarden binnen een project te beheren. In deze zelfstudie onderzoeken we hoe u overzichtswaarden kunt verzamelen en manipuleren met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -108,3 +114,9 @@ A: U kunt mechanismen voor foutafhandeling implementeren, zoals try-catch-blokke
 A: Ja, Aspose.Tasks biedt uitgebreide API's om het uiterlijk en het gedrag van overzichtswaarden aan te passen aan uw vereisten.
 ### Vraag: Waar kan ik aanvullende bronnen en ondersteuning vinden voor Aspose.Tasks?
  A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en verken de[documentatie](https://reference.aspose.com/tasks/net/) voor gedetailleerde informatie over API's en functies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

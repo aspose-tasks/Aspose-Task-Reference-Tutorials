@@ -3,10 +3,16 @@ title: Master Extended Attribute Definitions MS Project i Aspose.Tasks
 linktitle: Samling av utökade attributdefinitioner i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar utökade attributdefinitioner i Microsoft Project med Aspose.Tasks för .NET. Anpassa och förbättra dina projektdata utan ansträngning.
-type: docs
 weight: 14
 url: /sv/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Extended Attribute Definitions MS Project i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man arbetar med utökade attributdefinitioner i Microsoft Project med Aspose.Tasks för .NET. Utökade attribut erbjuder ett flexibelt sätt att anpassa och förbättra projektdata, vilket gör att användare kan lägga till ytterligare fält utöver de standard som tillhandahålls som standard. Med Aspose.Tasks kan du enkelt hantera dessa utökade attribut för att skräddarsy dina projektledningsbehov.
 ## Förutsättningar
@@ -92,3 +98,9 @@ S: Absolut, utökade attribut kan användas för att beräkna anpassade fält ba
 S: Aspose.Tasks är kompatibelt med olika .NET-ramverk, vilket säkerställer flexibilitet och enkel integration.
 ### F: Var kan jag hitta fler resurser och support för Aspose.Tasks?
  A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för stöd och utforska dokumentationen[här](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

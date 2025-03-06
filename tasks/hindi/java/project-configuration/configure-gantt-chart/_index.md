@@ -3,10 +3,16 @@ title: Aspose.Tasks प्रोजेक्ट्स में गैंट च
 linktitle: Aspose.Tasks प्रोजेक्ट्स में गैंट चार्ट व्यू कॉन्फ़िगर करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा का उपयोग करके Aspose.Tasks में गैंट एमएस प्रोजेक्ट चार्ट व्यू को कॉन्फ़िगर करने का तरीका जानें। प्रोजेक्ट को अनुकूलित करें और चरण-दर-चरण गैंट चार्ट में उनकी कल्पना करें।
-type: docs
 weight: 10
 url: /hi/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks प्रोजेक्ट्स में गैंट चार्ट व्यू कॉन्फ़िगर करें
+
 ## परिचय
 इस ट्यूटोरियल में, आप सीखेंगे कि जावा का उपयोग करके Aspose.Tasks प्रोजेक्ट में गैंट एमएस प्रोजेक्ट चार्ट व्यू को कैसे कॉन्फ़िगर किया जाए। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो आपको Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है। इन चरणों का पालन करके, आप अपने प्रोजेक्ट की आवश्यकताओं के अनुसार गैंट चार्ट दृश्य को अनुकूलित करने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -76,3 +82,9 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
  उ: आप यहां से लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 ### प्रश्न: क्या मुझे परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस की आवश्यकता है?
  उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

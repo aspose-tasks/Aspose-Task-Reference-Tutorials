@@ -3,10 +3,16 @@ title: Eliminación de tareas de MS Project con Aspose.Tasks
 linktitle: Eliminación de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda cómo eliminar tareas de MS Project mediante programación usando Aspose.Tasks para .NET. Guía paso a paso con ejemplos de código incluidos.
-type: docs
 weight: 15
 url: /es/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eliminación de tareas de MS Project con Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo eliminar tareas de un archivo de Microsoft Project usando Aspose.Tasks para .NET. Aspose.Tasks es una potente API que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación. Eliminar tareas de un archivo de proyecto puede ser un requisito común en escenarios de gestión de proyectos, y Aspose.Tasks proporciona una forma sencilla de lograrlo.
 ## Requisitos previos
@@ -75,3 +81,9 @@ R: Aspose.Tasks proporciona una funcionalidad sólida para deshacer operaciones.
 R: Por supuesto, Aspose.Tasks ofrece soporte integral para estructuras de proyectos complejas, lo que le permite manipular tareas, recursos y otros elementos del proyecto con facilidad.
 ### P: ¿Existe una versión de prueba disponible para Aspose.Tasks?
  R: Sí, puede descargar una versión de prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/tasks/net/) para explorar sus características antes de realizar una compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

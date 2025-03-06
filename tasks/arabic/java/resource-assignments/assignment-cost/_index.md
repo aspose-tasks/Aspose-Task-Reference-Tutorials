@@ -3,10 +3,16 @@ title: إدارة تكلفة التعيين بكفاءة باستخدام Aspose
 linktitle: التعامل مع تكلفة المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع تكاليف المهمة بشكل فعال في Aspose.Tasks لـ Java. دليل خطوة بخطوة لإدارة موارد المشروع بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة تكلفة التعيين بكفاءة باستخدام Aspose.Tasks
+
 ## مقدمة
 تعد إدارة تكاليف المهمة بكفاءة أمرًا بالغ الأهمية لمهام إدارة المشروع. يوفر Aspose.Tasks for Java ميزات قوية للتعامل مع تكاليف المهمة بفعالية. في هذا البرنامج التعليمي، سنرشدك خلال عملية إدارة تكاليف المهمة خطوة بخطوة باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[موقع إلكتروني](https://releases.aspose.com/).
 ### س: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks لـ Java في النسخة التجريبية؟
 ج: لا، ليس هناك حاجة إلى ترخيص مؤقت للاستخدام التجريبي. ومع ذلك، يوصى به لبيئات الإنتاج.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

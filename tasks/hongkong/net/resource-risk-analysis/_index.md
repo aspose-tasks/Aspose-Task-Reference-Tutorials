@@ -3,10 +3,16 @@ title: Aspose.Tasks 資源管理與風險分析
 linktitle: Aspose.Tasks 資源管理與風險分析
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks .NET 管理 MS Project 資源。提高生產力並簡化工作流程。了解資源分配、使用視圖、風險分析等。
-type: docs
 weight: 26
 url: /zh-hant/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 資源管理與風險分析
+
 ## 介紹
 
 您是否正在尋找有效的方法來管理 Microsoft Project 資源並使用 Aspose.Tasks for .NET 增強風險分析？別再猶豫了！在這份綜合指南中，我們將引導您完成各種教程，涵蓋為開發人員和專案經理提供支援的基本主題。
@@ -90,3 +96,9 @@ url: /zh-hant/net/resource-risk-analysis/
 了解如何使用 Aspose.Tasks for .NET 有效管理 Microsoft Project 檔案中的風險模式。利用強大的風險分析工具改善專案成果。
 ### [使用 Aspose.Tasks 管理 MS Project 中的風險模式](./risk-pattern-collection/)
 了解如何使用 Aspose.Tasks for .NET 有效分析和操作 Microsoft Project 檔案中的風險模式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

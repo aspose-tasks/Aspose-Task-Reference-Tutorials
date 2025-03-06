@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET での段階的な WBS コード構成
 linktitle: Aspose.Tasks での WBS コード マスクの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して、.NET プロジェクトで WBS コード マスクの構成を段階的に確認します。プロジェクト管理機能を簡単に強化します。
-type: docs
 weight: 14
 url: /ja/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET での段階的な WBS コード構成
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションでプロジェクト管理データを効率的に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks を使用してワーク ブレークダウン ストラクチャ (WBS) コード マスクを構成するプロセスについて説明します。
 ## 前提条件
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 はい、包括的なドキュメントが利用可能です[ここ](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks はどこで購入できますか?
  Aspose.Task を購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

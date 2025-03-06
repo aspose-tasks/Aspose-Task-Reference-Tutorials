@@ -3,10 +3,16 @@ title: Collegamenti alle attività
 linktitle: Collegamenti alle attività
 second_title: API Java Aspose.Tasks
 description: Esplora Aspose.Tasks per Java con i nostri tutorial. Migliora la collaborazione, definisci i tipi di collegamento e gestisci le attività senza problemi. Aumenta subito l'efficienza del tuo progetto!
-type: docs
 weight: 33
 url: /it/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collegamenti alle attività
+
 ## introduzione
 
 Se stai addentrandoti nel mondo della gestione dei progetti Java, Aspose.Tasks è il tuo strumento di riferimento. I nostri tutorial completi ti consentono di padroneggiare vari aspetti, garantendo un utilizzo ottimale della libreria Aspose.Tasks per Java.
@@ -38,3 +44,9 @@ Esplora la potenza di Aspose.Tasks per Java nella gestione dei progetti. Definis
 Esplora l'identificazione delle attività tra progetti con Aspose.Tasks per Java. Integrazione perfetta e gestione efficiente. Scarica ora!
 ### [Gestire le attività predecessore e successore in Aspose.Tasks](./predecessor-successor-tasks/)
 Esplora una gestione efficiente delle attività con Aspose.Tasks per Java. Gestisci facilmente le attività predecessore e successore nei tuoi progetti. Scarica la prova gratis adesso!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

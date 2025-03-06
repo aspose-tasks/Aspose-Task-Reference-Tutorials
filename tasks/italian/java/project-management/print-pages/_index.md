@@ -3,10 +3,16 @@ title: Stampa le pagine per separare l'immagine in Aspose.Tasks
 linktitle: Stampa le pagine per separare l'immagine in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come stampare pagine per separare immagini in Aspose.Tasks per Java. Migliora la visualizzazione del progetto con questa guida passo passo.
-type: docs
 weight: 22
 url: /it/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stampa le pagine per separare l'immagine in Aspose.Tasks
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di stampa delle pagine per separare le immagini utilizzando Aspose.Tasks per Java. Questa funzionalità può essere particolarmente utile quando è necessario visualizzare separatamente layout di progetto o attività critiche.
 ## Prerequisiti
@@ -77,3 +83,9 @@ R: Sì, puoi facilmente integrare Aspose.Tasks per Java nel tuo progetto Maven o
 R: Sì, Aspose.Tasks per Java supporta l'esportazione dei dati del progetto in vari formati come PDF, HTML, XLSX, ecc., fornendo flessibilità nella visualizzazione e nel reporting dei dati.
 ### D: È disponibile supporto comunitario per Aspose.Tasks per Java?
  R: Sì, puoi trovare il supporto della community, porre domande e interagire con altri utenti su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

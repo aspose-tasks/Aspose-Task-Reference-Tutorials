@@ -3,10 +3,16 @@ title: Beherrschen der zeitphasengesteuerten Datenerfassung in Aspose.Tasks
 linktitle: Sammlung zeitphasenbezogener Daten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die zeitphasengesteuerte Datenerfassung in Aspose.Tasks für .NET. Schritt-für-Schritt-Anleitung, FAQs und mehr. Erweitern Sie noch heute Ihre Projektmanagementfähigkeiten!
-type: docs
 weight: 15
 url: /de/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der zeitphasengesteuerten Datenerfassung in Aspose.Tasks
+
 ## Einführung
 Möchten Sie die Leistungsfähigkeit von Zeitphasendaten in Ihren .NET-Anwendungen mithilfe von Aspose.Tasks nutzen? Suchen Sie nicht weiter! Dieser umfassende Leitfaden führt Sie durch den Prozess der Erfassung von Zeitphasendaten mit Aspose.Tasks für .NET und stellt sicher, dass Sie diese leistungsstarke Bibliothek optimal nutzen.
 ## Voraussetzungen
@@ -121,3 +127,9 @@ Aspose.Tasks verwaltet Projekte unterschiedlicher Größe und es gibt keine stre
  Ja, Sie können die Funktionen von Aspose.Tasks für .NET erkunden, indem Sie auf zugreifen[Kostenlose Testphase](https://releases.aspose.com/).
 ### Wo kann ich eine Lizenz für Aspose.Tasks für .NET erwerben?
 Sie können eine Lizenz für Aspose.Tasks für .NET erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

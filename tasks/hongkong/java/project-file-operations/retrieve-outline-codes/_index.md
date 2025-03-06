@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中檢索 MS 專案大綱程式碼
 linktitle: 檢索 Aspose.Tasks 中的大綱程式碼
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 以程式設計方式擷取 Microsoft Project 大綱程式碼。增強您的專案管理能力。
-type: docs
 weight: 15
 url: /zh-hant/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中檢索 MS 專案大綱程式碼
+
 ## 介紹
 在本教程中，我們將學習如何使用 Aspose.Tasks for Java 檢索 Microsoft Project 大綱程式碼。 MS Project 中的大綱程式碼提供了一種結構化的方法來分類和組織專案任務、資源和分配。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式操作和管理 Microsoft Project 檔案。
 ## 先決條件
@@ -82,3 +88,9 @@ for (OutlineValue v1 : ocd.getValues()) {
 答：是的，您可以從 Aspose.Tasks for Java 購買臨時許可證[購買頁面](https://purchase.aspose.com/temporary-license/).
 ### Q5：在哪裡可以找到 Aspose.Tasks for Java 的完整文件？
 答：您可以參考[文件](https://reference.aspose.com/tasks/java/)有關使用 Aspose.Tasks for Java 的詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

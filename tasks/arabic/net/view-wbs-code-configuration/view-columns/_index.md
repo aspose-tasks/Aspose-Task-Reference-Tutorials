@@ -3,10 +3,16 @@ title: إتقان أعمدة عرض مشروع MS باستخدام Aspose.Tasks 
 linktitle: التعامل مع عرض الأعمدة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تحسين تصور المشروع باستخدام Aspose.Tasks لـ .NET. تعلم كيفية التعامل مع أعمدة عرض MS Project خطوة بخطوة. تعزيز الكفاءة والتخصيص.
-type: docs
 weight: 12
 url: /ar/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أعمدة عرض مشروع MS باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 في مجال إدارة المشاريع، يبرز Aspose.Tasks for .NET كمجموعة أدوات قوية للتعامل مع ملفات Microsoft Project. أحد الجوانب الأساسية لتصور المشروع هو إدارة أعمدة العرض بكفاءة. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع أعمدة عرض MS Project باستخدام Aspose.Tasks، مما يمكّنك من تخصيص طرق عرض مشروعك وتحسينها.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
  ج: ال`MyTextStyleCallback` يوضح الفصل كيفية تخصيص أنماط النص لتحسين التمثيل المرئي في طرق عرض محددة.
 ### س: أين يمكنني العثور على موارد ووثائق إضافية لـ Aspose.Tasks؟
  ج: راجع[Aspose.Tasks الوثائق](https://reference.aspose.com/tasks/net/) للحصول على إرشادات وموارد متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中将任务数据更新为 MPP 格式
 linktitle: 在 Aspose.Tasks 中将任务数据更新为 MPP 格式
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 将任务数据更新为 MPP 格式。遵循我们的高效项目管理分步指南。
-type: docs
 weight: 35
 url: /zh/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中将任务数据更新为 MPP 格式
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Tasks for Java 将任务数据更新为 MPP 格式的分步指南。在本教程中，我们将引导您完成整个过程，确保您清楚地掌握每个步骤。 Aspose.Tasks for Java 提供了一个用于处理 Microsoft Project 文件的强大解决方案，在本指南结束时，您将能够高效地更新 MPP 格式的任务数据。
 ## 先决条件
@@ -93,3 +99,9 @@ project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
 答：访问支持论坛[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：你们是否提供用于测试目的的临时许可证？
 答：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

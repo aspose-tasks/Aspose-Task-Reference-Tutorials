@@ -3,10 +3,16 @@ title: 与 Aspose.Tasks 中的任务关联的 WBS
 linktitle: 与 Aspose.Tasks 中的任务关联的 WBS
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 掌握 WBS - 学习读取和重新编号任务 WBS 代码。提升项目管理效率！
-type: docs
 weight: 36
 url: /zh/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 与 Aspose.Tasks 中的任务关联的 WBS
+
 ## 介绍
 欢迎来到 Aspose.Tasks for Java 的项目管理世界！在本教程中，我们将深入研究与使用 Aspose.Tasks for Java 的任务相关的工作分解结构 (WBS) 的复杂性。无论您是经验丰富的开发人员还是新手，本指南都将帮助您了解有效管理 WBS 代码的要点。
 ## 先决条件
@@ -90,3 +96,9 @@ for (Task task : tasks) {
 答：访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)为了支持。
 ### 问：我可以获得 Aspose.Tasks for Java 的临时许可证吗？
 答：是的，获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

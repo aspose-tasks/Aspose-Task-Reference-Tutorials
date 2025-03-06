@@ -3,10 +3,16 @@ title: Μέτρηση χρήσης έργου MS με Aspose.Tasks για .NET
 linktitle: Χρήση μέτρησης στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να παρακολουθείτε αποτελεσματικά και να βελτιστοποιείτε τη χρήση του MS Project με το Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 17
 url: /el/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μέτρηση χρήσης έργου MS με Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Θέλετε να διαχειριστείτε και να παρακολουθήσετε αποτελεσματικά τη χρήση του MS Project με το Aspose.Tasks; Με τη δύναμη της μέτρησης, μπορείτε να παρακολουθείτε τη χρήση σας και να βελτιστοποιήσετε τις προσπάθειες διαχείρισης του έργου σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μέτρησης της χρήσης του MS Project βήμα προς βήμα χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ metered.ResetMeteredKey();
 Α: Ναι, μπορείτε να παρακολουθείτε τη χρήση σε πραγματικό χρόνο ελέγχοντας περιοδικά τις πιστώσεις που ξοδεύτηκαν και τα byte που καταναλώθηκαν.
 ### Ε: Είναι διαθέσιμη η χρήση μέτρησης MS Project στη δοκιμαστική έκδοση;
 Α: Ναι, η μέτρηση της χρήσης του MS Project είναι διαθέσιμη τόσο σε δοκιμαστική όσο και με άδεια έκδοσης του Aspose.Tasks για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

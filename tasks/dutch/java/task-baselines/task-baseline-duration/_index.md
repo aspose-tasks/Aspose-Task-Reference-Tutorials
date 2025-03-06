@@ -3,10 +3,16 @@ title: Beheer van de taakbasislijnduur in Aspose.Tasks
 linktitle: Beheer van de taakbasislijnduur in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u taakbasislijnen efficiënt beheert in MS Project met behulp van Aspose.Tasks voor Java. Deze tutorial begeleidt u stap voor stap door het proces.
-type: docs
 weight: 12
 url: /nl/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer van de taakbasislijnduur in Aspose.Tasks
+
 ## Invoering
 Het beheren van taakbasislijnen in MS Project is cruciaal voor projectplanning en -tracking. In deze zelfstudie onderzoeken we hoe u de basislijnduur van taken effectief kunt beheren met Aspose.Tasks voor Java.
 ## Vereisten
@@ -76,3 +82,9 @@ Ja, u kunt taakbasislijnen in MS Project wijzigen om wijzigingen in het projectp
 Ja, Aspose.Tasks biedt een breed scala aan functies voor projectbeheer, waaronder taakplanning, toewijzing van middelen en het genereren van Gantt-diagrammen.
 ### Waar kan ik ondersteuning vinden voor Aspose.Tasks?
  Ondersteuning voor Aspose.Tasks vindt u op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15), waar u vragen kunt stellen en kunt communiceren met andere gebruikers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

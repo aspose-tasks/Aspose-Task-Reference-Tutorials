@@ -3,10 +3,16 @@ title: Configure MS Project PDF Encryption Details in Aspose.Tasks
 linktitle: Configuring PDF Encryption Details in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure MS Project PDF encryption details in Aspose.Tasks for .NET. Secure your project files with user and owner passwords.
-type: docs
 weight: 11
 url: /net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configure MS Project PDF Encryption Details in Aspose.Tasks
+
 ## Introduction
 In the world of .NET development, managing tasks efficiently is crucial. Aspose.Tasks for .NET simplifies this process by providing a comprehensive set of tools to work with Microsoft Project files. One essential aspect of task management is ensuring the security of sensitive project information. In this tutorial, we will delve into configuring MS Project PDF encryption details using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -68,3 +74,10 @@ A: No, once the PDF is encrypted and saved, the encryption details cannot be alt
 A: While there are no specific limitations imposed by Aspose.Tasks, it's recommended to use strong passwords for enhanced security.
 ### Q: Can encrypted PDFs be decrypted programmatically?
 A: Aspose.Tasks provides APIs to work with encrypted PDFs, allowing decryption using appropriate credentials.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में मासिक पुनरावृत्ति 
 linktitle: Aspose.Tasks में मासिक पुनरावृत्ति पैटर्न को संभालना
 second_title: Aspose.Tasks .NET API
 description: इस चरण-दर-चरण ट्यूटोरियल के साथ सीखें कि .NET के लिए Aspose.Tasks में मासिक पुनरावृत्ति पैटर्न को कैसे संभालें।
-type: docs
 weight: 18
 url: /hi/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में मासिक पुनरावृत्ति पैटर्न को संभालना
+
 ## परिचय
 
 .NET के लिए Aspose.Tasks एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने की अनुमति देता है। इसके द्वारा प्रदान की जाने वाली आवश्यक कार्यक्षमताओं में से एक आवर्ती कार्यों को कुशलतापूर्वक संभालने की क्षमता है। इस ट्यूटोरियल में, हम चरण दर चरण Aspose.Tasks का उपयोग करके मासिक पुनरावृत्ति पैटर्न के साथ कैसे काम करें, इस पर विस्तार से चर्चा करेंगे।
@@ -94,3 +100,9 @@ A2: हां, Aspose.Tasks दैनिक, साप्ताहिक, मा
 ### Q5: मैं Aspose.Tasks के लिए लाइसेंस कहां से खरीद सकता हूं?
 
  A5: आप वेबसाइट से Aspose.Tasks के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

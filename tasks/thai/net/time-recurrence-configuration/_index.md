@@ -3,10 +3,16 @@ title: Aspose.Tasks การกำหนดค่าเวลาและรู
 linktitle: Aspose.Tasks การกำหนดค่าเวลาและรูปแบบการเกิดซ้ำ
 second_title: Aspose.Tasks .NET API
 description: สำรวจ Aspose.Tasks สำหรับบทช่วยสอน .NET เกี่ยวกับการกำหนดค่าเวลาและรูปแบบการเกิดซ้ำ จัดการปฏิทิน ปรับแต่งเวลาทำงาน และเพิ่มประสิทธิภาพการจัดกำหนดการโครงการได้อย่างง่ายดาย
-type: docs
 weight: 33
 url: /th/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks การกำหนดค่าเวลาและรูปแบบการเกิดซ้ำ
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.Tasks สำหรับ .NET ที่ซึ่งการจัดการโครงการที่มีประสิทธิภาพตรงตามพลังของการกำหนดค่าเวลาที่ปรับแต่งได้และรูปแบบการเกิดซ้ำ ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกบทช่วยสอนต่างๆ ที่จะช่วยให้คุณเชี่ยวชาญศิลปะในการจัดกำหนดการโครงการและการจัดการทรัพยากร
@@ -58,3 +64,9 @@ url: /th/net/time-recurrence-configuration/
 เรียนรู้วิธีปรับแต่งสัปดาห์ทำงานใน Aspose.Tasks for .NET คำแนะนำทีละขั้นตอนสำหรับการสร้างปฏิทินโครงการส่วนบุคคล ดาวน์โหลดเดี๋ยวนี้!
 ### [การกำหนดค่ารูปแบบการเกิดซ้ำรายปีใน Aspose.Tasks](./yearly-recurrence-patterns/)
 เรียนรู้วิธีกำหนดค่ารูปแบบการเกิดซ้ำรายปีใน Aspose.Tasks สำหรับ .NET พัฒนาทักษะการจัดการโครงการของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

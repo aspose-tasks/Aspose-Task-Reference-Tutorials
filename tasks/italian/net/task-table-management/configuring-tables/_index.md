@@ -3,10 +3,16 @@ title: Configurazione della tabella principale in Aspose.Tasks per .NET
 linktitle: Configurazione delle tabelle in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a configurare le tabelle in Aspose.Tasks per .NET con questa guida passo passo. Migliora la tua esperienza di gestione dei progetti senza sforzo.
-type: docs
 weight: 10
 url: /it/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurazione della tabella principale in Aspose.Tasks per .NET
+
 ## introduzione
 Benvenuti in questa guida completa sulla configurazione delle tabelle in Aspose.Tasks per .NET. Aspose.Tasks è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file di Microsoft Project. In questo tutorial ti guideremo attraverso il processo di configurazione delle tabelle utilizzando Aspose.Tasks, suddividendo ogni passaggio per una chiara comprensione.
 ## Prerequisiti
@@ -68,3 +74,9 @@ Congratulazioni! Hai configurato correttamente le tabelle in Aspose.Tasks per .N
  R: Sì, puoi esplorare la versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### D: Dove posso acquistare Aspose.Tasks?
  R: Puoi acquistare la licenza completa[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Niestandardowe typy pól w Aspose.Tasks
 linktitle: Niestandardowe typy pól w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak pracować z niestandardowymi typami pól w Aspose.Tasks dla .NET. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami.
-type: docs
 weight: 23
 url: /pl/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowe typy pól w Aspose.Tasks
+
 ## Wstęp
 
 Witamy w naszym samouczku na temat pracy z niestandardowymi typami pól w Aspose.Tasks dla .NET! Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project. W tym samouczku skupimy się na zrozumieniu i wykorzystaniu niestandardowych typów pól, co jest kluczowym aspektem pracy z danymi projektu.
@@ -89,3 +95,9 @@ O4: Tak, Aspose.Tasks umożliwia manipulowanie danymi dotyczącymi zadań i zaso
 ### P5: Czy istnieje forum społecznościowe dla użytkowników Aspose.Tasks?
 
  A5: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) do interakcji z innymi użytkownikami i uzyskania wsparcia od zespołu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

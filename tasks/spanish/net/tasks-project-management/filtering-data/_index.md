@@ -3,10 +3,16 @@ title: Filtrado de datos eficiente con Aspose.Tasks
 linktitle: Filtrado de datos en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a filtrar datos en archivos de MS Project usando Aspose.Tasks para .NET. Mejore la productividad y las capacidades de análisis sin esfuerzo.
-type: docs
 weight: 16
 url: /es/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filtrado de datos eficiente con Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para .NET proporciona una funcionalidad sólida para filtrar datos en archivos de Microsoft Project, lo que permite a los usuarios administrar y analizar de manera eficiente la información del proyecto. En este tutorial, exploraremos cómo filtrar datos usando Aspose.Tasks en un formato de guía paso a paso.
 ## Requisitos previos
@@ -78,3 +84,9 @@ R: Por supuesto, puedes combinar varios filtros para refinar la extracción y el
  R: Sí, puede consultar el completo[documentación](https://reference.aspose.com/tasks/net/) proporcionado por Aspose.Tasks para obtener orientación detallada.
 ### P: ¿Hay soporte técnico disponible para los usuarios de Aspose.Tasks?
  R: Sí, puede acceder a soporte técnico a través del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para cualquier consulta o problema que encuentre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

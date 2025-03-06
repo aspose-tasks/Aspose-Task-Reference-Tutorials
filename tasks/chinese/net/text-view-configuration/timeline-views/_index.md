@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的项目时间表视图
 linktitle: 在 Aspose.Tasks 中自定义时间线视图
 second_title: Aspose.Tasks .NET API
 description: 掌握 Aspose.Tasks for .NET 自定义时间线视图。通过根据您的项目需求量身定制的具有视觉吸引力的时间表来增强您的项目管理。
-type: docs
 weight: 13
 url: /zh/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的项目时间表视图
+
 ## 介绍
 创建具有视觉吸引力和信息丰富的时间线视图对于有效的项目管理至关重要。 Aspose.Tasks for .NET 为自定义时间线视图提供了强大的解决方案，允许您根据项目的特定需求定制任务的显示。在本分步指南中，我们将探索如何使用 Aspose.Tasks 轻松创建和自定义时间线视图。
 ## 先决条件
@@ -76,3 +82,9 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Tasks 的临时许可证？
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulacja kryteriami grupy projektowej MS w Aspose.Tasks
 linktitle: Kryteria grupowe w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak programowo manipulować plikami MS Project w .NET przy użyciu Aspose.Tasks. Pobierz przykłady krok po kroku informacji o grupach zadań i kryteriach.
-type: docs
 weight: 27
 url: /pl/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja kryteriami grupy projektowej MS w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężne API, które ułatwia pracę z plikami Microsoft Project w aplikacjach .NET. Niezależnie od tego, czy tworzysz oprogramowanie do zarządzania projektami, czy chcesz programowo manipulować danymi projektu, Aspose.Tasks oferuje kompleksowy zestaw funkcji spełniających Twoje potrzeby.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Absolutnie Aspose.Tasks zapewnia rozbudowane funkcje do manipulowania danymi pro
 Tak, Aspose.Tasks obsługuje wiele platform .NET, w tym .NET Framework, .NET Core i .NET Standard.
 ### Czy istnieje forum społecznościowe dla Aspose.Tasks, na którym mogę szukać pomocy?
  Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) zadawać pytania, dzielić się wiedzą i współpracować z innymi użytkownikami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 取得項目中的頁數
 linktitle: 使用 Aspose.Tasks 取得項目中的頁數
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 釋放 Java 開發的潛力。了解如何無縫操作 Microsoft Project 檔案並提高您的工作效率。
-type: docs
 weight: 16
 url: /zh-hant/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 取得項目中的頁數
+
 ## 介紹
 在 Java 開發領域，Aspose.Tasks 是處理 Microsoft Project 檔案的強大工具。無論您是經驗豐富的開發人員還是剛剛涉足 Java 編程，掌握 Aspose.Tasks 都可以顯著增強您操作專案文件並從專案文件中提取有價值見解的能力。
 ## 先決條件
@@ -74,3 +80,9 @@ iPages = project.getPageCount(0, Timescale.ThirdsOfMonths);
 答： 是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)與社區互動並就任何問題或疑問尋求協助。
 ### Q：我可以在購買前試用 Aspose.Tasks 嗎？
 答：當然，您可以透過從以下網站取得免費試用版來探索 Aspose.Tasks 的功能和功能：[網站](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arbeta med uppdrag i Aspose.Tasks
 linktitle: Arbeta med uppdrag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar projektuppdrag i .NET med Aspose.Tasks. Utforska olika konturer för resursschemaläggning.
-type: docs
 weight: 13
 url: /sv/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med uppdrag i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man arbetar med uppgifter i Aspose.Tasks för .NET. Uppdrag är avgörande i projektledning eftersom de allokerar resurser till uppgifter, hjälper till att schemalägga och spåra framsteg. Vi kommer att fokusera på att generera resurstilldelning tidsfasad data med olika konturer med hjälp av Aspose.Tasks.
@@ -109,3 +115,9 @@ S4: Ja, som visas i denna handledning kan du ställa in olika konturer som sköl
 ### F5: Var kan jag hitta stöd för Aspose.Tasks-relaterade frågor?
 
 S5: Du kan hitta support på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) där experter och samhällsmedlemmar aktivt engagerar sig i diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

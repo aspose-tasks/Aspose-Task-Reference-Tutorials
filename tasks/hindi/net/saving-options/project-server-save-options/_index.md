@@ -3,10 +3,16 @@ title: Aspose.Tasks के लिए सर्वर MS प्रोजेक्
 linktitle: प्रोजेक्ट सर्वर Aspose.Tasks के लिए विकल्प सहेजें
 second_title: Aspose.Tasks .NET API
 description: प्रोजेक्ट सर्वर एकीकरण का उपयोग करके Aspose.Tasks के लिए Microsoft प्रोजेक्ट विकल्पों को सहेजना सीखें। अपने प्रोजेक्ट प्रबंधन वर्कफ़्लो को बढ़ाएँ।
-type: docs
 weight: 16
 url: /hi/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के लिए सर्वर MS प्रोजेक्ट विकल्प सहेजें
+
 ## परिचय
 इस ट्यूटोरियल में, हम प्रोजेक्ट सर्वर का उपयोग करके Aspose.Tasks के लिए Microsoft प्रोजेक्ट विकल्पों को सहेजने के बारे में विस्तार से जानेंगे। Aspose.Tasks एक शक्तिशाली .NET API है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है। प्रोजेक्ट सर्वर क्षमताओं का लाभ उठाते हुए, हम Aspose.Tasks को अपने प्रोजेक्ट प्रबंधन वर्कफ़्लो में निर्बाध रूप से एकीकृत कर सकते हैं। यह ट्यूटोरियल चरण दर चरण प्रक्रिया में आपका मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 उत्तर: हां, आप अपनी आवश्यकताओं के अनुरूप प्रोजेक्ट नाम, टाइमआउट और मतदान अंतराल जैसे विकल्पों को सहेज सकते हैं।
 ### प्रश्न: मुझे Aspose.Tasks के लिए समर्थन कहां मिल सकता है?
  उत्तर: आप इस पर समर्थन और सहायता पा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

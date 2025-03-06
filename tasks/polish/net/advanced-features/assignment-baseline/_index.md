@@ -3,10 +3,16 @@ title: Zarządzanie bazą przydziału w Aspose.Tasks
 linktitle: Zarządzanie bazą przydziału w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać planami bazowymi przydziałów za pomocą Aspose.Tasks dla .NET, zapewniając dokładne śledzenie postępu i wydajności projektu.
-type: docs
 weight: 14
 url: /pl/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie bazą przydziału w Aspose.Tasks
+
 ## Wstęp
 
 Podczas pracy nad zadaniami związanymi z zarządzaniem projektami zarządzanie punktami odniesienia przydziałów ma kluczowe znaczenie dla dokładnego śledzenia postępów. Aspose.Tasks dla .NET zapewnia kompleksowy zestaw narzędzi do efektywnej obsługi linii bazowych przypisań. W tym samouczku krok po kroku omówimy proces zarządzania planami bazowymi przypisań.
@@ -123,3 +129,9 @@ Odpowiedź 4: Tak, programiści mogą uzyskać dostęp do obszernej dokumentacji
 ### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
 
  Odpowiedź 5: Tak, programiści mogą uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET od[Tutaj](https://releases.aspose.com/), umożliwiając im ocenę jego funkcji i możliwości przed podjęciem decyzji o zakupie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

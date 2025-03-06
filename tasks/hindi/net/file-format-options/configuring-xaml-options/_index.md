@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks के साथ MS प्रोजे
 linktitle: Aspose.Tasks में XAML विकल्प कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks में MS प्रोजेक्ट XAML विकल्पों को कैसे कॉन्फ़िगर करें। चरण-दर-चरण मार्गदर्शन के साथ परियोजना प्रबंधन लचीलापन और अनुकूलन बढ़ाएँ।
-type: docs
 weight: 10
 url: /hi/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट XAML विकल्प कॉन्फ़िगर करें
+
 ## परिचय
 .NET विकास की दुनिया में, परियोजना के सफल समापन के लिए परियोजना कार्यों को कुशलतापूर्वक प्रबंधित करना महत्वपूर्ण है। .NET के लिए Aspose.Tasks परियोजना प्रबंधन कार्यों को निर्बाध रूप से संभालने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट XAML विकल्पों को कॉन्फ़िगर करने के बारे में विस्तार से जानेंगे। 
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks कहां से खरीद सकता हूं?
 
  उ: आप .NET के लिए Aspose.Tasks खरीद सकते हैं[इस लिंक](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

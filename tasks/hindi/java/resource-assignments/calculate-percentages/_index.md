@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ संसाधन असाइनमें
 linktitle: Aspose.Tasks में संसाधन असाइनमेंट के लिए प्रतिशत की गणना करें
 second_title: Aspose.Tasks जावा एपीआई
 description: प्रोजेक्ट प्रबंधन कार्यों को सरल बनाते हुए, Aspose.Tasks का उपयोग करके जावा प्रोजेक्ट्स में संसाधन असाइनमेंट के लिए प्रतिशत की कुशलतापूर्वक गणना करना सीखें।
-type: docs
 weight: 13
 url: /hi/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ संसाधन असाइनमेंट प्रतिशत की गणना करें
+
 ## परिचय
 परियोजना प्रबंधन में, कार्यों को समय पर पूरा करने और संसाधनों के कुशल आवंटन को सुनिश्चित करने के लिए संसाधन असाइनमेंट की सटीक गणना करना महत्वपूर्ण है। जावा के लिए Aspose.Tasks इस प्रक्रिया को सुविधाजनक बनाने के लिए शक्तिशाली उपकरण प्रदान करता है, जिससे डेवलपर्स आसानी से संसाधन असाइनमेंट के लिए प्रतिशत की गणना कर सकते हैं।
 ## आवश्यक शर्तें
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  उत्तर: हां, Aspose.Tasks अपने फोरम के माध्यम से समर्पित ग्राहक सहायता प्रदान करता है। आपको सहायता मिल सकती है[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: क्या Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  उत्तर: हां, आप नि:शुल्क परीक्षण के साथ Aspose.Tasks का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

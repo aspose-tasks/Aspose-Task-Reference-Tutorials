@@ -3,10 +3,16 @@ title: Gestion des exceptions de taille non valide pour Bitmap dans Aspose.Tasks
 linktitle: Gestion des exceptions de taille non valide pour Bitmap dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer BitmapInvalidSizeException dans Aspose.Tasks pour .NET lors de l’enregistrement de projets sous forme d’images. Tutoriel complet avec des conseils étape par étape.
-type: docs
 weight: 22
 url: /fr/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des exceptions de taille non valide pour Bitmap dans Aspose.Tasks
+
 ## Introduction
 
  Dans ce didacticiel, nous aborderons la gestion des`BitmapInvalidSizeException` lorsque vous travaillez avec Aspose.Tasks pour .NET. Aspose.Tasks est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme, permettant ainsi des tâches telles que l'enregistrement de projets sous forme d'images. Cependant, parfois, lorsque nous essayons de sauvegarder un projet sous forme d'image, nous pouvons rencontrer un message`Invalid Size Exception`liés au bitmap. Ce didacticiel vise à vous guider tout au long du processus de détection et de gestion efficace de cette exception.
@@ -111,3 +117,9 @@ A4 : Oui, Aspose.Tasks prend en charge différentes versions de fichiers Microso
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
 
 A5 : Vous pouvez acquérir une licence temporaire à des fins d'évaluation via le lien fourni dans l'article.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

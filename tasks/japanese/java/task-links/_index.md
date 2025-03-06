@@ -3,10 +3,16 @@ title: タスクのリンク
 linktitle: タスクのリンク
 second_title: Aspose.Tasks Java API
 description: チュートリアルで Aspose.Tasks for Java を探索してください。コラボレーションを強化し、リンク タイプを定義し、タスクをシームレスに管理します。今すぐプロジェクトの効率を高めましょう。
-type: docs
 weight: 33
 url: /ja/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# タスクのリンク
+
 ## 導入
 
 Java プロジェクト管理の世界を深く掘り下げている場合は、Aspose.Tasks が頼りになるツールです。当社の包括的なチュートリアルにより、さまざまな側面を習得し、Aspose.Tasks for Java ライブラリを最適に活用できるようになります。
@@ -38,3 +44,9 @@ Aspose.Tasks を使用して、Java プロジェクトでのシームレスな�
 Aspose.Tasks for Java を使用してプロジェクト間のタスクを識別します。シームレスな統合と効率的な管理。ダウンロード中！
 ### [Aspose.Tasks での先行タスクと後続タスクの管理](./predecessor-successor-tasks/)
 Aspose.Tasks for Java を使用して効率的なタスク管理を試してください。プロジェクト内の先行タスクと後続タスクを簡単に処理できます。今すぐ無料トライアルをダウンロードしてください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

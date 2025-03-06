@@ -3,10 +3,16 @@ title: Spravujte kritéria skupiny MS Project pomocí Aspose.Tasks
 linktitle: Správa kolekce kritérií skupiny v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak spravovat kolekci Group Criterion MS Project pomocí Aspose.Tasks for .NET. Podrobný průvodce pro vývojáře.
-type: docs
 weight: 28
 url: /cs/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spravujte kritéria skupiny MS Project pomocí Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft Project programově. V tomto tutoriálu prozkoumáme, jak spravovat kolekci Group Criterion v rámci MS Project pomocí Aspose.Tasks.
 
@@ -126,3 +132,9 @@ Odpověď: Rozhodně můžete do skupiny přidat více kritérií tím, že je b
 ### Q5: Jak mohu získat podporu, pokud narazím na nějaké problémy?
 
  Odpověď: Pokud máte nějaké otázky nebo se potýkáte s nějakými problémy, můžete vyhledat podporu na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

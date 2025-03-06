@@ -3,10 +3,16 @@ title: Zarządzaj zadaniami krytycznymi i wymagającymi wysiłku w Aspose.Tasks
 linktitle: Zarządzaj zadaniami krytycznymi i wymagającymi wysiłku w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Bez wysiłku zarządzaj krytycznymi i wymagającymi wysiłku zadaniami w projektach Java za pomocą Aspose.Tasks. Pobierz bibliotekę i zwiększ swoje możliwości zarządzania projektami.
-type: docs
 weight: 14
 url: /pl/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj zadaniami krytycznymi i wymagającymi wysiłku w Aspose.Tasks
+
 W dynamicznym świecie zarządzania projektami efektywne wykonywanie zadań krytycznych i wymagających dużego wysiłku jest niezbędne do pomyślnej realizacji projektu. Aspose.Tasks dla Java zapewnia solidne rozwiązanie do płynnego zarządzania tymi zadaniami. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Tasks dla Java do obsługi krytycznych i wymagających dużego wysiłku zadań w Twoich projektach.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
@@ -60,3 +66,9 @@ Tak, Aspose.Tasks dla Java jest niezależny od platformy i może być używany z
  Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę kupić Aspose.Tasks dla Java?
  Możesz kupić Aspose.Tasks dla Java w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

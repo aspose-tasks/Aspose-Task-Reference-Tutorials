@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 計算資源分配百分比
 linktitle: 計算 Aspose.Tasks 中資源分配的百分比
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 有效率地計算 Java 專案中資源分配的百分比，從而簡化專案管理任務。
-type: docs
 weight: 13
 url: /zh-hant/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 計算資源分配百分比
+
 ## 介紹
 在專案管理中，準確計算資源分配對於確保任務的及時完成和資源的高效配置至關重要。 Aspose.Tasks for Java 提供了強大的工具來促進這一過程，使開發人員能夠輕鬆計算資源分配的百分比。
 ## 先決條件
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
 答：是的，Aspose.Tasks 透過其論壇提供專門的客戶支援。您可以尋求協助[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：Aspose.Tasks 是否有免費試用版？
 答：是的，您可以透過免費試用版探索 Aspose.Tasks[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

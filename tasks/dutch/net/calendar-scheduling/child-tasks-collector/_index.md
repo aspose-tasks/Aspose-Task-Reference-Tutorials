@@ -3,10 +3,16 @@ title: Onderliggende taken verzamelen in Aspose.Tasks
 linktitle: Onderliggende taken verzamelen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u onderliggende taken efficiënt kunt verzamelen met Aspose.Tasks voor .NET. Verbeter het projectmanagement in uw .NET-applicaties.
-type: docs
 weight: 15
 url: /nl/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Onderliggende taken verzamelen in Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van projectmanagement onderscheidt Aspose.Tasks voor .NET zich als een robuuste oplossing voor het efficiënt afhandelen van taken en projecten. Deze krachtige bibliotheek biedt ontwikkelaars de tools die ze nodig hebben om taken, projecten en alles daartussen naadloos te beheren. In deze tutorial gaan we dieper in op een specifiek aspect van Aspose.Tasks: het verzamelen van onderliggende taken.
@@ -96,3 +102,9 @@ A4: Ja, gebruikers hebben toegang tot technische ondersteuning via de[Aspose.Tas
 ### V5: Kan ik Aspose.Tasks voor .NET uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! U kunt gebruikmaken van een gratis proefperiode van de[pagina vrijgeven](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

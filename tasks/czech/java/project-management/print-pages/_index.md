@@ -3,10 +3,16 @@ title: Tisk stránek k oddělení obrázku v Aspose.Tasks
 linktitle: Tisk stránek k oddělení obrázku v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se tisknout stránky k oddělení obrázků v Aspose.Tasks for Java. Vylepšete vizualizaci projektu pomocí tohoto podrobného průvodce.
-type: docs
 weight: 22
 url: /cs/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tisk stránek k oddělení obrázku v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem tisku stránek na samostatné obrázky pomocí Aspose.Tasks for Java. Tato funkce může být zvláště užitečná, když potřebujete samostatně vizualizovat rozvržení projektu nebo kritické úkoly.
 ## Předpoklady
@@ -77,3 +83,9 @@ Odpověď: Ano, Aspose.Tasks for Java můžete snadno integrovat do svého proje
 Odpověď: Ano, Aspose.Tasks for Java podporuje export projektových dat do různých formátů, jako je PDF, HTML, XLSX atd., což poskytuje flexibilitu při vizualizaci dat a vytváření sestav.
 ### Otázka: Je pro Aspose.Tasks pro Java k dispozici nějaká podpora komunity?
  Odpověď: Ano, na webu můžete najít podporu komunity, klást otázky a komunikovat s ostatními uživateli[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

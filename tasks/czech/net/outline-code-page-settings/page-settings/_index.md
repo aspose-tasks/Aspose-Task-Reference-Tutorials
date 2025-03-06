@@ -3,10 +3,16 @@ title: Konfigurace nastavení stránky MS Project pomocí Aspose.Tasks
 linktitle: Konfigurace nastavení stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat nastavení stránky MS Project pomocí Aspose.Tasks for .NET. Přizpůsobte si orientaci, velikost a další pomocí jednoduchých kroků.
-type: docs
 weight: 20
 url: /cs/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace nastavení stránky MS Project pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu si projdeme procesem konfigurace nastavení stránky Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům programově manipulovat se soubory Microsoft Project.
 ## Předpoklady
@@ -77,3 +83,9 @@ Odpověď: Aspose.Tasks podporuje širokou škálu velikostí papíru, včetně 
 Odpověď: Tuto funkci jistě můžete integrovat do pracovního postupu vaší aplikace a automatizovat konfiguraci nastavení stránky.
 ### Otázka: Nabízí Aspose.Tasks podporu pro jiné formáty souborů kromě .mpp?
 Odpověď: Ano, Aspose.Tasks podporuje různé formáty souborů, jako je mimo jiné XML, MPT a HTML.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

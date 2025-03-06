@@ -3,10 +3,16 @@ title: Thao tác các thuộc tính mở rộng của MS Project với Aspose.Ta
 linktitle: Làm việc với các thuộc tính mở rộng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách làm việc với các thuộc tính mở rộng của MS Project bằng Aspose.Tasks cho .NET. Thao tác dữ liệu nhiệm vụ theo chương trình một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác các thuộc tính mở rộng của MS Project với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một trong những tính năng chính của thư viện này là khả năng hoạt động với các thuộc tính mở rộng của MS Project. Các thuộc tính mở rộng cung cấp thêm tùy chỉnh và siêu dữ liệu cho các tác vụ trong dự án, cho phép người dùng lưu trữ và quản lý thông tin cụ thể ngoài các thuộc tính tác vụ tiêu chuẩn.
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các thuộc tính mở rộng của MS Project bằng Aspose.Tasks cho .NET. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập vùng tên và chia từng ví dụ thành nhiều bước theo định dạng hướng dẫn từng bước. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách tận dụng các thuộc tính mở rộng trong ứng dụng .NET của mình.
@@ -72,3 +78,9 @@ Có, bạn cần mua giấy phép sử dụng thương mại Aspose.Tasks cho .N
 Có, Aspose.Tasks for .NET cung cấp các khả năng mở rộng để tùy chỉnh các thuộc tính mở rộng cho phù hợp với nhu cầu cụ thể của dự án của bạn.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp bất kỳ sự cố nào khi sử dụng Aspose.Tasks cho .NET?
  Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

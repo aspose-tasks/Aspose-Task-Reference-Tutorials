@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理资源的超时
 linktitle: 在 Aspose.Tasks 中管理资源的超时
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 有效管理 MS Project 资源的加班。轻松优化资源利用率和成本管理。
-type: docs
 weight: 13
 url: /zh/java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理资源的超时
+
 ## 介绍
 在项目管理中，有效管理资源对于成功完成项目至关重要。加班管理是一个重要方面，可确保资源得到最佳利用而不会超支。 Aspose.Tasks for Java 提供了强大的功能来无缝管理 MS Project 资源的加班。在本教程中，我们将指导您逐步完成加班管理过程。
 ## 先决条件
@@ -59,3 +65,9 @@ Aspose.Tasks for Java支持各种版本的MS Project文件，确保兼容性和�
 是的，Aspose.Tasks 通过其论坛提供全面的技术支持。您可以访问支持论坛[这里](https://forum.aspose.com/c/tasks/15).
 ### 我可以在购买前试用 Aspose.Tasks for Java 吗？
 是的，您可以通过免费试用版探索 Aspose.Tasks for Java。下载试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

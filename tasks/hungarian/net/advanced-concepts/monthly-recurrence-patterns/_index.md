@@ -3,10 +3,16 @@ title: A havi ismétlődési minták kezelése az Aspose.Tasks-ban
 linktitle: A havi ismétlődési minták kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ezzel a lépésenkénti oktatóanyaggal megtudhatja, hogyan kezelheti a havi ismétlődési mintákat az Aspose.Tasks for .NET-ben.
-type: docs
 weight: 18
 url: /hu/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A havi ismétlődési minták kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Az egyik alapvető funkció, amelyet kínál, az ismétlődő feladatok hatékony kezelésének képessége. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan dolgozhatunk a havi ismétlődési mintákkal az Aspose.Tasks használatával.
@@ -94,3 +100,9 @@ havi ismétlődési minták kezelése az Aspose.Tasks for .NET-ben egyszerű és
 ### 5. kérdés: Hol vásárolhatok licencet az Aspose.Tasks számára?
 
  5. válasz: Az Aspose.Tasks licencet megvásárolhatja a webhelyen[itt](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

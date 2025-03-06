@@ -3,10 +3,16 @@ title: Establecer propiedades de moneda en proyectos de Aspose.Tasks
 linktitle: Establecer propiedades de moneda en proyectos de Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a configurar propiedades de moneda en proyectos Aspose.Tasks usando Java. Manipule archivos de Microsoft Project sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer propiedades de moneda en proyectos de Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo configurar propiedades de moneda en proyectos Aspose.Tasks usando Java. Aspose.Tasks es una poderosa biblioteca de Java que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación.
 ## Requisitos previos
@@ -64,3 +70,9 @@ Por supuesto, Aspose.Tasks ofrece flexibilidad para definir formatos de moneda p
 Sí, Aspose.Tasks se puede integrar perfectamente con otras bibliotecas y marcos de Java, mejorando su funcionalidad y versatilidad.
 ### ¿Dónde puedo encontrar soporte o asistencia adicional para Aspose.Tasks?
  Para obtener soporte adicional, puede visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15), donde puede encontrar recursos útiles e interactuar con la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

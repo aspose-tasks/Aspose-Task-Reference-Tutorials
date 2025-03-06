@@ -3,10 +3,16 @@ title: Aspose.Tasks التقويم والجدولة
 linktitle: Aspose.Tasks التقويم والجدولة
 second_title: Aspose.Tasks .NET API
 description: إدارة تقويمات المشروع، وحساب المدد، والتعامل مع الاستثناءات باستخدام Aspose.Tasks لـ .NET. استكشف البرامج التعليمية خطوة بخطوة لمهام التقويم والجدولة.
-type: docs
 weight: 22
 url: /ar/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks التقويم والجدولة
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Tasks لبرامج .NET التعليمية، وهو مصدرك المفضل لإتقان تعقيدات إدارة التقويم والجدولة في مشاريع .NET الخاصة بك. يعمل Aspose.Tasks على تمكين المطورين بأدوات قوية للتعامل بسهولة مع تقاويم المشروع وحساب المدد وإدارة الاستثناءات. في هذه المجموعة الشاملة من البرامج التعليمية، نتعمق في جوانب مختلفة، بدءًا من العمل مع التقويمات وإدارة الاستثناءات وحتى استكشاف موضوعات متخصصة مثل استثناءات رؤوس المستندات المركبة ومواضع رموز العملات. سواء كنت مطورًا متمرسًا وتبحث عن رؤى متقدمة أو وافدًا جديدًا حريصًا على تحسين مهاراتك في إدارة المشروعات، فإن هذه البرامج التعليمية توفر إرشادات خطوة بخطوة وأمثلة من العالم الحقيقي. دعنا نبدأ رحلة لإطلاق الإمكانات الكاملة لـ Aspose.Tasks لـ .NET ورفع قدرات إدارة المشروع لديك. على استعداد للغوص في؟ هيا بنا نبدأ!
@@ -135,3 +141,9 @@ url: /ar/net/calendar-scheduling/
 تعرف على كيفية استيراد المشاريع من قاعدة بيانات Primavera باستخدام Aspose.Tasks لـ .NET. احصل على إرشادات خطوة بخطوة في هذا البرنامج التعليمي الشامل.
 ### [التعامل مع المدة في Aspose.Tasks](./duration-handling/)
 تعرف على كيفية التعامل مع الفترات بشكل فعال في Aspose.Tasks لـ .NET من خلال البرامج التعليمية خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

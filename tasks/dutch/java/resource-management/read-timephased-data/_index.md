@@ -3,10 +3,16 @@ title: Lees tijdgebonden gegevens voor bronnen in Aspose.Tasks
 linktitle: Lees tijdgebonden gegevens voor bronnen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u tijdgebonden gegevens uit MS Project-bronnen kunt extraheren met behulp van Aspose.Tasks voor Java. Stapsgewijze zelfstudie.
-type: docs
 weight: 15
 url: /nl/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees tijdgebonden gegevens voor bronnen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het lezen van tijdgebonden gegevens voor MS Project-bronnen met behulp van Aspose.Tasks voor Java. Deze bibliotheek biedt krachtige functionaliteiten voor het programmatisch beheren van Microsoft Project-bestanden.
 ## Vereisten
@@ -74,3 +80,9 @@ Absoluut, Aspose.Tasks biedt uitgebreide API's voor het maken, wijzigen en analy
 Ja, Aspose.Tasks wordt veel gebruikt in bedrijfsomgevingen vanwege de betrouwbaarheid en schaalbaarheid.
 ### Waar kan ik ondersteuning vinden als ik problemen ondervind tijdens het gebruik van Aspose.Tasks?
  U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor hulp van de gemeenschap en het ondersteuningsteam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Crea e salva un progetto vuoto in formato MPP con Aspose.Tasks
 linktitle: Crea e salva un progetto vuoto in formato MPP con Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come creare e salvare un file MS Project vuoto (MPP) utilizzando Aspose.Tasks per Java. Semplifica le attività di gestione dei progetti senza sforzo.
-type: docs
 weight: 12
 url: /it/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea e salva un progetto vuoto in formato MPP con Aspose.Tasks
+
 ## introduzione
 Creare e salvare un file MS Project vuoto (MPP) utilizzando Aspose.Tasks per Java è un processo semplice. In questo tutorial, esamineremo ogni passaggio per aiutarti a svolgere questa attività in modo efficiente.
 ## Prerequisiti
@@ -61,3 +67,9 @@ R: Assolutamente, Aspose.Tasks per Java offre ampie funzionalità per personaliz
 R: Sì, Aspose.Tasks per Java supporta vari formati di file di progetto tra cui XML, CSV e altri.
 ### D: Dove posso trovare ulteriore supporto per Aspose.Tasks per Java?
  R: Puoi visitare Aspose.Tasks[Forum](https://forum.aspose.com/c/tasks/15) per supporto e assistenza specifici per Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

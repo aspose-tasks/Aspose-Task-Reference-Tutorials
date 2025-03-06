@@ -3,10 +3,16 @@ title: Beheer MS-projectkenmerken efficiënt met Aspose.Tasks
 linktitle: Verwerk uitgebreide resourcekenmerken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u efficiënt omgaat met uitgebreide Microsoft Project-resourcekenmerken met behulp van Aspose.Tasks voor Java. Eenvoudige stappen en uitgebreide gids.
-type: docs
 weight: 11
 url: /nl/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer MS-projectkenmerken efficiënt met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op de manier waarop u effectief kunt omgaan met uitgebreide Microsoft Project-resourcekenmerken met behulp van Aspose.Tasks voor Java. Aspose.Tasks is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren en uitgebreide functionaliteiten bieden voor taak- en resourcebeheer.
 ## Vereisten
@@ -83,3 +89,9 @@ Ja, ontwikkelaars kunnen Aspose.Tasks voor Java op verschillende platforms gebru
 Absoluut, Aspose.Tasks kan naadloos worden geïntegreerd met andere Java-bibliotheken om de functionaliteit te verbeteren en ontwikkelingsprocessen te stroomlijnen.
 ### Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
 Ja, gebruikers hebben toegang tot technische ondersteuning via het Aspose.Tasks-forum, waar ze hulp kunnen zoeken en in contact kunnen komen met de community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

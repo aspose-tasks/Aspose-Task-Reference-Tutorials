@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 刪除 MS Project 任務
 linktitle: 刪除 Aspose.Tasks 中的任務
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以程式設計方式刪除 MS Project 任務。包含程式碼範例的分步指南。
-type: docs
 weight: 15
 url: /zh-hant/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 刪除 MS Project 任務
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Tasks for .NET 從 Microsoft Project 檔案中刪除任務。 Aspose.Tasks 是一個功能強大的 API，允許開發人員以程式設計方式操作 Microsoft Project 檔案。從專案檔案中刪除任務可能是專案管理場景中的常見要求，Aspose.Tasks 提供了實現此目的的簡單方法。
 ## 先決條件
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 答：當然，Aspose.Tasks 為複雜的專案結構提供全面的支持，讓您輕鬆操縱任務、資源和其他專案元素。
 ### Q：Aspose.Tasks 有試用版嗎？
 答：是的，您可以從以下位置下載 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/tasks/net/)在購買之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Чтение файлов, защищенных паролем, в Aspose
 linktitle: Чтение файлов, защищенных паролем, в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как легко читать файлы, защищенные паролем, в Aspose.Tasks для Java, используя пошаговые инструкции в этом руководстве.
-type: docs
 weight: 14
 url: /ru/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение файлов, защищенных паролем, в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for Java — это мощная библиотека, которая позволяет разработчикам программно манипулировать файлами Microsoft Project. Одной из распространенных задач, с которыми сталкиваются разработчики, является чтение файлов, защищенных паролем. В этом уроке мы шаг за шагом проведем вас через процесс чтения таких файлов.
 ## Предварительные условия
@@ -49,3 +55,9 @@ System.out.println("Process completed Successfully");
  О: Да, вы можете скачать бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 ### Вопрос: Нужна ли мне временная лицензия для использования Aspose.Tasks для Java?
  О: Вам может потребоваться временная лицензия для определенных функций или на период ознакомительного периода. Возьми[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中轻松的 MS 项目重复间隔
 linktitle: 管理 Aspose.Tasks 中的重复间隔
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 轻松管理 MS Project 中的重复间隔。
-type: docs
 weight: 12
 url: /zh/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中轻松的 MS 项目重复间隔
+
 ## 介绍
 您是否希望使用 Aspose.Tasks for .NET 在 Microsoft Project 文件中有效管理重复间隔？这个全面的教程将逐步指导您完成整个过程，确保您可以轻松处理项目中的重复间隔。在深入学习本教程之前，我们先了解一些先决条件，以确保您已准备好开始使用。
 ## 先决条件
@@ -103,3 +109,9 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
 是的，您可以从以下位置购买临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Tasks for .NET 的完整文档？
 完整的文档可以找到[这里](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

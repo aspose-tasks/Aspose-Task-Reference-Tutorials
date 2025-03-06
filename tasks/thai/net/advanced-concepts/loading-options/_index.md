@@ -3,10 +3,16 @@ title: ตัวเลือกสำหรับการโหลดใน Asp
 linktitle: ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีควบคุมพลังของ Aspose.Tasks สำหรับ .NET เพื่อจัดการเอกสาร Microsoft Project อย่างมีประสิทธิภาพพร้อมคำแนะนำทีละขั้นตอน
-type: docs
 weight: 16
 url: /th/net/advanced-concepts/loading-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการเอกสาร Microsoft Project โดยทางโปรแกรมได้ ไม่ว่าคุณจะต้องการสร้าง อ่าน เขียน หรือแปลงไฟล์โปรเจ็กต์ Aspose.Tasks มีฟังก์ชันการทำงานที่หลากหลายเพื่อปรับปรุงงานของคุณ ในบทช่วยสอนนี้ เราจะเจาะลึกสิ่งสำคัญของการใช้ Aspose.Tasks สำหรับ .NET โดยแบ่งกระบวนการสำคัญออกเป็นขั้นตอนง่ายๆ ที่นำไปปฏิบัติได้
@@ -165,3 +171,9 @@ private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs
 ### คำถามที่ 5: มีการอัปเดตและฟีเจอร์ใหม่สำหรับ Aspose.Tasks สำหรับ .NET บ่อยเพียงใด
 
 A5: Aspose.Tasks สำหรับ .NET ได้รับการอัพเดตและการปรับปรุงคุณสมบัติเป็นประจำเพื่อให้มั่นใจถึงประสิทธิภาพสูงสุดและความเข้ากันได้กับเทคโนโลยีที่พัฒนา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ดึงข้อมูลไฟล์โครงการ MS ใน As
 linktitle: การดึงข้อมูลไฟล์โครงการใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีดึงข้อมูลไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 19
 url: /th/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดึงข้อมูลไฟล์โครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการดึงข้อมูลไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนา .NET สามารถทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรม ช่วยให้สามารถทำงานต่างๆ เช่น การอ่าน การเขียน และการจัดการข้อมูลโครงการ
 ## ข้อกำหนดเบื้องต้น
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
  ใช่ คุณสามารถเข้าถึง Aspose.Tasks รุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  คุณสามารถรับการสนับสนุนสำหรับ Aspose.Tasks ผ่านทาง[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## ซอร์สโค้ดที่สมบูรณ์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

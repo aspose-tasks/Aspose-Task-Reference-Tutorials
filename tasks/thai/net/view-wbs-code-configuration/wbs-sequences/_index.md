@@ -3,10 +3,16 @@ title: การเรียนรู้ลำดับ WBS ด้วย Aspose.
 linktitle: การกำหนดลำดับ WBS ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เสริมศักยภาพการจัดการโครงการของคุณด้วย Aspose.Tasks สำหรับ .NET – กำหนดลำดับ WBS ได้อย่างราบรื่นและเพิ่มประสิทธิภาพได้อย่างง่ายดาย #Aspose #งาน #โครงการ MS
-type: docs
 weight: 16
 url: /th/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้ลำดับ WBS ด้วย Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 คุณกำลังทำงานกับแอปพลิเคชันการจัดการโครงการและต้องการเครื่องมือที่มีประสิทธิภาพในการจัดการลำดับโครงสร้างการแบ่งงาน (WBS) หรือไม่? ไม่ต้องมองหาที่ไหนนอกจาก Aspose.Tasks สำหรับ .NET ซึ่งเป็นไลบรารีอันทรงพลังที่ทำให้งานการจัดการโครงการง่ายขึ้น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการกำหนดลำดับ WBS ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อเชื่อมต่อกับชุมชนและขอความช่วยเหลือ
 ### มีใบอนุญาตชั่วคราวหรือไม่
  ใช่ คุณสามารถได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

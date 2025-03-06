@@ -3,10 +3,16 @@ title: Aspose.Tasks Tijdconfiguratie en herhalingspatronen
 linktitle: Aspose.Tasks Tijdconfiguratie en herhalingspatronen
 second_title: Aspose.Tasks .NET API
 description: Ontdek Aspose.Tasks voor .NET-tutorials over tijdconfiguratie en herhalingspatronen. Beheer moeiteloos agenda's, pas werktijden aan en optimaliseer de projectplanning.
-type: docs
 weight: 33
 url: /nl/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Tijdconfiguratie en herhalingspatronen
+
 ## Invoering
 
 Welkom in de wereld van Aspose.Tasks voor .NET, waar efficiënt projectbeheer voldoet aan de kracht van aanpasbare tijdconfiguraties en herhalingspatronen. In deze uitgebreide handleiding gaan we dieper in op verschillende tutorials waarmee u de kunst van projectplanning en resourcebeheer onder de knie kunt krijgen.
@@ -58,3 +64,9 @@ Leer hoe u moeiteloos werkweken kunt configureren in Aspose.Tasks voor .NET. Ver
 Leer hoe u werkweken kunt aanpassen in Aspose.Tasks voor .NET. Stapsgewijze handleiding voor het maken van gepersonaliseerde projectkalenders. Download nu!
 ### [Jaarlijkse herhalingspatronen configureren in Aspose.Tasks](./yearly-recurrence-patterns/)
 Leer hoe u jaarlijkse herhalingspatronen configureert in Aspose.Tasks voor .NET. Verbeter uw projectmanagementvaardigheden met deze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

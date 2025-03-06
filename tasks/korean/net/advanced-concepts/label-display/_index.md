@@ -3,10 +3,16 @@ title: Aspose.Tasks에 레이블 표시
 linktitle: Aspose.Tasks에 레이블 표시
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 프로젝트 관리에서 라벨 표시를 사용자 정의하는 방법을 알아보세요. 쉽게 가독성과 명확성을 향상시킬 수 있습니다.
-type: docs
 weight: 14
 url: /ko/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 레이블 표시
+
 ## 소개
 
 소프트웨어 개발 영역에서 작업을 효율적으로 관리하는 것은 프로젝트 성공을 위해 필수적입니다. Aspose.Tasks for .NET은 .NET 프레임워크 내에서 프로젝트 관리 작업을 원활하게 처리하기 위한 강력한 솔루션을 제공합니다. 프로젝트 관리의 주요 측면 중 하나는 특정 요구 사항에 맞게 표시 옵션을 사용자 정의하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 활용하여 프로젝트 파일 내의 분, 시, 일, 주, 월 및 연도 레이블 표시를 조작하는 방법을 살펴보겠습니다.
@@ -137,3 +143,10 @@ A4: Aspose.Tasks for .NET은 최소한의 제한으로 라벨 표시를 위한 �
 ### Q5: Aspose.Tasks는 다른 프로젝트 관리 도구와의 통합을 지원합니까?
 
 A5: 예, Aspose.Tasks는 원활한 통합 기능을 제공하여 다른 프로젝트 관리 도구 및 플랫폼과의 상호 운용성을 촉진합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

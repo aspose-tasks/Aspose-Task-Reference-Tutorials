@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
 linktitle: Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak mali yıl özelliklerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Sağlanan örneklerle adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
+
 ## giriiş
 Aspose.Tasks, geliştiricilerin mali yıl özelliklerinin yönetimi de dahil olmak üzere proje dosyalarını verimli bir şekilde yönetmelerine olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, Java'da Aspose.Tasks'ı kullanarak mali yıl özelliklerini yönetme sürecini anlatacağız.
 ## Önkoşullar
@@ -66,3 +72,9 @@ C: Evet, Aspose.Tasks MPP, XML ve diğerleri de dahil olmak üzere çok çeşitl
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java lisansını nereden satın alabilirim?
  C: Aspose.Tasks for Java lisansını şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

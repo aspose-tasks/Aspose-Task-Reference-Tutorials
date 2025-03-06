@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 마스터 MS 프로젝트 요금
 linktitle: Aspose.Tasks의 요금 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일의 요율을 관리하는 방법을 알아보세요. 효과적인 자원 관리를 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 11
 url: /ko/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 마스터 MS 프로젝트 요금
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트에서 요금을 관리하는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 Aspose.Tasks를 사용하여 MS 프로젝트 파일의 요율 작업 과정을 안내합니다. 숙련된 개발자이든 이제 막 .NET 개발을 시작하는 개발자이든 이 튜토리얼에서는 프로젝트 내에서 속도를 효과적으로 처리하기 위한 단계별 지침을 제공합니다.
 ## 전제조건
@@ -110,3 +116,9 @@ A: 물론 Aspose.Tasks for .NET은 다양한 버전의 MS 프로젝트 파일 �
 A: 예, .NET용 Aspose.Tasks 무료 평가판을 사용하여 해당 기능과 요구 사항과의 호환성을 평가할 수 있습니다.
 ### Q: .NET용 Aspose.Tasks 라이선스를 어떻게 구매할 수 있나요?
  A: Aspose.Tasks for .NET 라이선스는 다음 사이트에서 구매할 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/)귀하의 필요에 맞는 유연한 라이센스 옵션을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

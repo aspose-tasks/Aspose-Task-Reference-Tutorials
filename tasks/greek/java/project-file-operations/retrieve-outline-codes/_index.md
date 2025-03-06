@@ -3,10 +3,16 @@ title: Ανάκτηση Κωδικών Περίληψης Έργου MS στο A
 linktitle: Ανάκτηση κωδικών περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ανακτάτε κωδικούς περίληψης του Microsoft Project μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε τις δυνατότητες διαχείρισης του έργου σας.
-type: docs
 weight: 15
 url: /el/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση Κωδικών Περίληψης Έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να ανακτούμε κωδικούς περίληψης του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Οι κωδικοί περιλήψεων στο MS Project παρέχουν έναν δομημένο τρόπο κατηγοριοποίησης και οργάνωσης εργασιών, πόρων και αναθέσεων έργου. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται και να διαχειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -82,3 +88,9 @@ for (OutlineValue v1 : ocd.getValues()) {
  Α: Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java από το[σελίδα αγοράς](https://purchase.aspose.com/temporary-license/).
 ### Ε5: Πού μπορώ να βρω την πλήρη τεκμηρίωση για το Aspose.Tasks για Java;
  Α: Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/tasks/java/) για λεπτομερείς πληροφορίες σχετικά με τη χρήση του Aspose.Tasks για Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य लागत प्रबंधि
 linktitle: Aspose.Tasks में कार्य लागत प्रबंधित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks का उपयोग करके जावा अनुप्रयोगों में कार्य लागतों को प्रबंधित करना सीखें। प्रभावी परियोजना लागत प्रबंधन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 21
 url: /hi/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य लागत प्रबंधित करें
+
 ## परिचय
 जावा के लिए Aspose.Tasks की दुनिया में आपका स्वागत है, एक शक्तिशाली लाइब्रेरी जो आपको अपने जावा अनुप्रयोगों के भीतर कार्य लागतों को निर्बाध रूप से प्रबंधित करने की अनुमति देती है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि कुशल परियोजना प्रबंधन सुनिश्चित करते हुए, कार्य लागत को संभालने के लिए Aspose.Tasks का प्रभावी ढंग से उपयोग कैसे किया जाए।
 ## आवश्यक शर्तें
@@ -66,3 +72,9 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
  उत्तर: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks के लिए समर्थन कहाँ से प्राप्त कर सकता हूँ?
  उत्तर: सहायता मंच पर जाएँ[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

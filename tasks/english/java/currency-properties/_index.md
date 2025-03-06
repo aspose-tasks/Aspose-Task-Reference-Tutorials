@@ -3,10 +3,16 @@ title: Currency Properties
 linktitle: Currency Properties
 second_title: Aspose.Tasks Java API
 description: Unlock the power of Aspose.Tasks for Java Tutorials. Discover step-by-step guides on reading and setting currency properties in MS Project files effortlessly.
-type: docs
 weight: 25
 url: /java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Currency Properties
+
 ## Introduction
 Are you ready to elevate your Aspose.Tasks for Java skills? Dive into our comprehensive tutorials on currency properties, and master the art of handling currency information within MS Project files.
 
@@ -35,3 +41,9 @@ Ready to embark on this educational journey? Click on the links below to get sta
 Learn how to extract currency information from MS Project files using Aspose.Tasks for Java. Step-by-step guide provided.
 ### [Set Currency Properties in Aspose.Tasks Projects](./set-properties/)
 Learn how to set currency properties in Aspose.Tasks projects using Java. Manipulate Microsoft Project files effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

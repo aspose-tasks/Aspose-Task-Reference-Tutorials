@@ -3,10 +3,16 @@ title: Освоение обработки рабочих единиц в Aspose
 linktitle: Обработка рабочих единиц в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите Aspose.Tasks для .NET, мощную библиотеку для эффективного управления проектами. Точно управляйте рабочими единицами для оптимального использования ресурсов.
-type: docs
 weight: 15
 url: /ru/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение обработки рабочих единиц в Aspose.Tasks
+
 ## Введение
 В динамичном мире управления проектами эффективное управление рабочими единицами имеет решающее значение для успешного завершения проекта. Aspose.Tasks для .NET предоставляет мощный набор инструментов для навигации по информации о рабочих единицах, обеспечивая точный контроль над сроками проекта и распределением ресурсов.
 ## Предварительные условия
@@ -57,3 +63,9 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
  Приобретите временную лицензию для Aspose.Tasks, посетив сайт[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
 ### Какие преимущества предлагает Aspose.Tasks для обработки рабочих единиц?
 Aspose.Tasks предоставляет надежный набор функций для работы с рабочими подразделениями, позволяющий точно контролировать сроки проекта, распределение ресурсов и общее управление проектом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

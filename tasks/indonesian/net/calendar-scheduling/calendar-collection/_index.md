@@ -3,10 +3,16 @@ title: Mengelola Koleksi Kalender di Aspose.Tasks
 linktitle: Mengelola Koleksi Kalender di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola koleksi kalender di Aspose.Tasks untuk .NET secara efisien. Membuat, memodifikasi, dan memanipulasi kalender dengan mudah.
-type: docs
 weight: 11
 url: /id/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Koleksi Kalender di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan menjelajahi cara mengelola koleksi kalender di Aspose.Tasks untuk .NET. Kalender memainkan peran penting dalam manajemen proyek, menentukan hari kerja, hari libur, dan pengecualian. Aspose.Tasks menyediakan fungsionalitas yang kuat untuk memanipulasi kalender dalam proyek Anda.
@@ -160,3 +166,9 @@ A4: Ya, Aspose.Tasks memungkinkan mengekspor kalender ke berbagai format seperti
 ### Q5: Bisakah saya menyesuaikan jam kerja untuk hari tertentu di kalender?
 
 A5: Tentu saja, Anda dapat menentukan jam kerja untuk setiap hari menggunakan pengecualian di kalender.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

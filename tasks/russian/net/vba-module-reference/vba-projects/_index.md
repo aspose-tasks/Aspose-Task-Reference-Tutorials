@@ -3,10 +3,16 @@ title: Освоение проектов VBA стало проще с Aspose.Tas
 linktitle: Работа с проектами VBA в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Исследуйте возможности Aspose.Tasks for .NET для простого управления проектами VBA. Расширьте свои возможности управления проектами с помощью этого пошагового руководства.
-type: docs
 weight: 14
 url: /ru/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение проектов VBA стало проще с Aspose.Tasks
+
 ## Введение
 Если вы занимаетесь управлением проектами с использованием .NET, Aspose.Tasks — ваше идеальное решение. В этом уроке мы углубимся в тонкости работы с проектами VBA в Aspose.Tasks. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство проведет вас через весь процесс ясно и просто.
 ## Предварительные условия
@@ -79,3 +85,9 @@ foreach (var reference in project.VbaProject.References)
  О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу приобрести Aspose.Tasks?
  A: Приобретите Aspose.Tasks[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

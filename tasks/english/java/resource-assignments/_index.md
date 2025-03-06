@@ -3,10 +3,16 @@ title: Resource Assignments
 linktitle: Resource Assignments
 second_title: Aspose.Tasks Java API
 description: Effortlessly master Aspose.Tasks for Java with our resource assignments tutorials. Manage MS Project manipulation, assignment budgets, costs, and more.
-type: docs
 weight: 30
 url: /java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resource Assignments
+
 
 ## Introduction
 
@@ -101,3 +107,9 @@ Learn how to manage notes for resource assignments in Aspose.Tasks for Java. Ste
 Learn how to manage resource assignments effectively in Aspose.Tasks for Java with this step-by-step tutorial.
 ### [Generate Timephased Data in Aspose.Tasks](./timephased-data-generation/)
 Learn how to generate timephased data for resource assignments using Aspose.Tasks for Java. Improve project management efficiency with this comprehensive guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

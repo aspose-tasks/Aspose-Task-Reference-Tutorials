@@ -3,10 +3,16 @@ title: Atributos de tarefa estendidos em Aspose.Tasks
 linktitle: Atributos de tarefa estendidos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore atributos de tarefa estendidos em Aspose.Tasks for Java. Guia passo a passo, perguntas frequentes e suporte. Otimize seu gerenciamento de projetos hoje!
-type: docs
 weight: 16
 url: /pt/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atributos de tarefa estendidos em Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao nosso guia completo sobre como aproveitar atributos de tarefa estendidos em Aspose.Tasks for Java. Aspose.Tasks é uma biblioteca Java poderosa que permite trabalhar perfeitamente com documentos do Microsoft Project. Neste tutorial, nos aprofundaremos nos atributos de tarefa estendidos e demonstraremos como você pode utilizá-los para aprimorar seus recursos de gerenciamento de projetos.
 ## Pré-requisitos
@@ -73,3 +79,9 @@ Sim, você pode modificar atributos de tarefa estendidos usando Aspose.Tasks for
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso comprar a versão completa do Aspose.Tasks for Java?
  Você pode comprar a versão completa[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

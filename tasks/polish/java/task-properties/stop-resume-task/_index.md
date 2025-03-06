@@ -3,10 +3,16 @@ title: Zatrzymaj i wznów zadanie w Aspose.Tasks
 linktitle: Zatrzymaj i wznów zadanie w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Odkryj moc Aspose.Tasks dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego zatrzymywania i wznawiania zadań. Ulepsz zarządzanie projektami bezproblemowo!
-type: docs
 weight: 30
 url: /pl/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zatrzymaj i wznów zadanie w Aspose.Tasks
+
 ## Wstęp
 W dziedzinie programowania w języku Java efektywne zarządzanie zadaniami jest kluczowym aspektem realizacji projektu. Aspose.Tasks dla Java zapewnia solidne rozwiązanie do obsługi zadań dzięki zaawansowanym funkcjom. W tym samouczku zajmiemy się jedną konkretną funkcjonalnością - zatrzymywaniem i wznawianiem zadań. Postępując zgodnie z tym przewodnikiem krok po kroku, będziesz w stanie bezproblemowo zintegrować tę funkcję ze swoimi projektami Java.
 ## Warunki wstępne
@@ -69,3 +75,9 @@ Tak, podany przykład pozwala na elastyczność w ustalaniu minimalnego terminu 
  Tak, możesz uzyskać dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks dla Java?
  Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pisahkan Tugas di Aspose.Tasks
 linktitle: Pisahkan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Kuasai manajemen tugas di Java dengan Aspose.Tasks! Pelajari cara membagi tugas secara efisien untuk jadwal proyek yang optimal. Unduh sekarang!
-type: docs
 weight: 29
 url: /id/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pisahkan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda kesulitan dengan manajemen tugas di proyek Java Anda? Aspose.Tasks untuk Java memberikan solusi canggih untuk membagi tugas secara efisien, meningkatkan kemampuan manajemen proyek. Dalam tutorial ini, kami akan memandu Anda melalui proses pemisahan tugas menggunakan Aspose.Tasks untuk Java, membantu Anda mengoptimalkan jadwal proyek dan alokasi sumber daya.
 ## Prasyarat
@@ -88,3 +94,9 @@ Aspose.Tasks untuk Java menawarkan uji coba gratis, memungkinkan Anda menjelajah
  Mengunjungi[Aspose.Tasks untuk forum dukungan Java](https://forum.aspose.com/c/tasks/15) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
 ### Apakah saya memerlukan lisensi sementara untuk Aspose.Tasks untuk Java?
  Anda dapat memperoleh lisensi sementara dari[Link ini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

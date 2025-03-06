@@ -3,10 +3,16 @@ title: Managing MS Project Online Exceptions in Aspose.Tasks
 linktitle: Working with Project Online Exceptions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle Microsoft Project Online exceptions seamlessly with Aspose.Tasks for .NET. Step-by-step tutorial for effective project management.
-type: docs
 weight: 21
 url: /net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing MS Project Online Exceptions in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will delve into the intricacies of handling Microsoft Project Online exceptions using Aspose.Tasks for .NET. Aspose.Tasks is a powerful .NET API that allows developers to manipulate and manage Microsoft Project files with ease. We will walk through the process step by step, ensuring a comprehensive understanding of how to work with MS Project Online exceptions in your .NET applications.
 ## Prerequisites
@@ -74,3 +80,10 @@ A: Detailed documentation for Aspose.Tasks is available [here](https://reference
 A: You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q: How do I purchase a license for Aspose.Tasks?
 A: You can purchase a license for Aspose.Tasks from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

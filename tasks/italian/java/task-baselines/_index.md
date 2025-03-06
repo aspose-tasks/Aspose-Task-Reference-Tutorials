@@ -3,10 +3,16 @@ title: Linee di base delle attività
 linktitle: Linee di base delle attività
 second_title: API Java Aspose.Tasks
 description: Esplora Aspose.Tasks Java con i nostri tutorial sulle baseline delle attività. Semplifica la pianificazione delle attività, crea linee di base delle attività di MS Project e padroneggia la gestione della durata delle linee di base.
-type: docs
 weight: 32
 url: /it/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linee di base delle attività
+
 ## introduzione
 Intraprendi un viaggio per migliorare le tue capacità di gestione dei progetti con Aspose.Tasks per Java. In questa serie di tutorial, approfondiamo la complessità delle attività di base, fornendoti preziosi spunti e conoscenze pratiche. Esploriamo i tutorial principali che compongono questa guida completa.
 
@@ -51,3 +57,9 @@ Scopri come pianificare le basi delle attività in modo efficace con Aspose.Task
 Scopri come creare una baseline di attività di Microsoft Project in Java utilizzando Aspose.Tasks, una potente libreria per gestire facilmente i dati di progetto.
 ### [Gestione della durata prevista delle attività in Aspose.Tasks](./task-baseline-duration/)
 Scopri come gestire in modo efficiente le basi delle attività in MS Project utilizzando Aspose.Tasks per Java. Questo tutorial ti guida passo passo attraverso il processo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

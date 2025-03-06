@@ -3,10 +3,16 @@ title: إتقان بيانات المشروع باستخدام Aspose.Tasks
 linktitle: العمل مع بيانات المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع بيانات Microsoft Project باستخدام Aspose.Tasks في .NET. قم بإنشاء المهام وإضافة الموارد وحفظ المشاريع بسهولة.
-type: docs
 weight: 16
 url: /ar/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان بيانات المشروع باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية العمل مع بيانات Microsoft Project باستخدام مكتبة Aspose.Tasks لـ .NET. يوفر Aspose.Tasks ميزات قوية لمعالجة ملفات المشروع، بما في ذلك إنشاء المهام وإضافة الموارد وتعيين الخصائص وحفظ المشاريع بتنسيقات مختلفة.
 ## المتطلبات الأساسية
@@ -92,3 +98,9 @@ project.Save(DataDir + "ProjectCreation_out.xml", SaveFileFormat.Xml);
 ج: نعم، يتضمن Aspose.Tasks خوارزميات جدولة متقدمة لمساعدتك على تحسين الجداول الزمنية للمشروع واستخدام الموارد.
 ### س: هل يوجد منتدى مجتمعي لمستخدمي Aspose.Tasks؟
  ج: نعم، يمكنك العثور على موارد مفيدة والتفاعل مع مستخدمي Aspose.Tasks الآخرين على الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

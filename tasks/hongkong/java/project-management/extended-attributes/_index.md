@@ -3,10 +3,16 @@ title: 處理 Aspose.Tasks 專案中的擴充屬性
 linktitle: 處理 Aspose.Tasks 專案中的擴充屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Java 高效處理 Aspose.Tasks 專案中的擴充屬性。有效專案管理的逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 處理 Aspose.Tasks 專案中的擴充屬性
+
 ## 介紹
 管理專案管理中的擴充屬性對於自訂和增強專案資料至關重要。 Aspose.Tasks for Java 提供了強大的工具來有效處理 MS Project 檔案中的擴充屬性。本教學將逐步引導您完成整個過程，確保您徹底掌握每個概念。
 ## 先決條件
@@ -86,3 +92,9 @@ prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 答：您可以在 Aspose.Tasks 網站上找到全面的文檔[文件](https://reference.aspose.com/tasks/java/).
 ### Q：Aspose.Tasks 用戶可以獲得技術支援嗎？
 答：是的，您可以透過 Aspose.Tasks 論壇獲得技術支持[網站](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

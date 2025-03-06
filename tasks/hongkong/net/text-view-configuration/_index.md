@@ -3,10 +3,16 @@ title: Aspose.Tasks 文字和視圖配置
 linktitle: Aspose.Tasks 文字和視圖配置
 second_title: Aspose.Tasks .NET API
 description: 探索有關文字和視圖配置的 Aspose.Tasks for .NET 教學。掌握文字樣式、Tiff 壓縮、時間軸視圖等，以增強專案管理。
-type: docs
 weight: 30
 url: /zh-hant/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 文字和視圖配置
+
 ## 介紹
 
 歡迎閱讀 Aspose.Tasks for .NET 教學的綜合指南，重點介紹文字和檢視配置。在本文中，我們將深入研究專案管理的各個方面，提供掌握 Aspose.Tasks 功能的逐步見解。
@@ -53,3 +59,9 @@ url: /zh-hant/net/text-view-configuration/
 探索 Aspose.Tasks for .NET 在甘特圖視圖中配置時間刻度層，以實現精確的專案時間軸視覺化。
 ### [在 Aspose.Tasks 中配置使用情況視圖](./usage-views/)
 了解在 Aspose.Tasks for .NET 中配置任務使用視圖。透過詳細步驟增強項目視覺化。立即下載庫！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

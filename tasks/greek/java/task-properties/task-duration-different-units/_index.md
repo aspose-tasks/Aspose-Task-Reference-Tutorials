@@ -3,10 +3,16 @@ title: Διάρκεια εργασίας σε διαφορετικές μονά�
 linktitle: Διάρκεια εργασίας σε διαφορετικές μονάδες με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε τη διαχείριση διάρκειας εργασιών σε έργα Java με το Aspose.Tasks. Υπολογίστε και μετατρέψτε με ακρίβεια τις διάρκειες σε λεπτά, ημέρες, ώρες, εβδομάδες και μήνες.
-type: docs
 weight: 32
 url: /el/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διάρκεια εργασίας σε διαφορετικές μονάδες με το Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργου, η κατανόηση και η διαχείριση της διάρκειας των εργασιών είναι μια κρίσιμη πτυχή. Το Aspose.Tasks για Java παρέχει ένα ισχυρό σύνολο εργαλείων για να το χειριστείτε αποτελεσματικά. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στην ανάκτηση της διάρκειας εργασιών σε διάφορες μονάδες χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -83,3 +89,9 @@ double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
  Επισκέψου το[τεκμηρίωση](https://reference.aspose.com/tasks/java/)για ολοκληρωμένους πόρους.
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks για Java πριν το αγοράσω;
  Ναι, μπορείτε να εξερευνήσετε α[δωρεάν δοκιμή](https://releases.aspose.com/) να αξιολογήσει τις δυνατότητές του.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

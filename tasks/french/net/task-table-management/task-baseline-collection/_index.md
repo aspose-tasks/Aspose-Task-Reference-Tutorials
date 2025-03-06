@@ -3,10 +3,16 @@ title: Collection de lignes de base de tâches dans Aspose.Tasks
 linktitle: Collection de lignes de base de tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez les bases de tâches sans effort avec Aspose.Tasks pour .NET. Une gestion de projet efficace simplifiée. Télécharger maintenant! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /fr/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection de lignes de base de tâches dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans le monde d'Aspose.Tasks pour .NET, une bibliothèque puissante qui facilite la manipulation et la gestion transparentes des tâches de projet. Dans ce didacticiel, nous approfondirons le domaine fascinant des tâches de base, un aspect crucial de la planification et du suivi des projets. À la fin de ce guide, vous maîtriserez l'art de travailler avec des collections de tâches de base, vous permettant d'améliorer vos capacités de gestion de projet.
 ## Conditions préalables
@@ -68,3 +74,9 @@ R : Aspose.Tasks pour .NET n'impose pas de limites strictes sur le nombre de tâ
 R : Absolument ! Vous avez un contrôle total sur le formatage lors de l’impression des détails de base, ce qui vous permet de l’adapter à vos besoins spécifiques.
 ### Q : Où puis-je demander de l'aide si je rencontre des problèmes ou si j'ai des questions supplémentaires ?
  R : Visitez le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour un soutien dédié et une assistance communautaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

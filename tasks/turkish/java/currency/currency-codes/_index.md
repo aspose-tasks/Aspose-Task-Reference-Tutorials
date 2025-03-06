@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Para Birimi Kodlarını Yönetin
 linktitle: Aspose.Tasks'ta Para Birimi Kodlarını Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak para birimi MS Project kodlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Proje yönetimi görevlerinizi zahmetsizce kolaylaştırın.
-type: docs
 weight: 10
 url: /tr/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Para Birimi Kodlarını Yönetin
+
 ## giriiş
 Aspose.Tasks for Java'yı kullanarak para birimi MS Project kodlarını yönetme eğitimimize hoş geldiniz. Bu eğitimde, MS Project dosyalarınızdaki para birimi kodlarını kolaylıkla kullanma sürecinde size yol göstereceğiz. Aspose.Tasks, Microsoft Project belgelerini programlı olarak yönetmenize olanak tanıyan, proje yönetimi görevlerinizi kolaylaştırmak için çok çeşitli işlevler sunan güçlü bir Java API'sidir.
 ## Önkoşullar
@@ -53,3 +59,9 @@ C: Evet, Aspose.Tasks, kullanıcıların proje yönetimi ihtiyaçları için API
 C: Evet, özelliklerini ve proje gereksinimlerinize uygunluğunu değerlendirmek için Aspose.Tasks'ı ücretsiz deneme yoluyla keşfedebilirsiniz.
 ### S: Aspose.Tasks için nereden geçici lisans alabilirim?
  C: Aspose.Tasks için geçici lisanslar şu adresten edinilebilir:[İnternet sitesi](https://purchase.aspose.com/temporary-license/) sınırlı bir süre için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

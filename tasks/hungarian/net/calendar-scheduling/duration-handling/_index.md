@@ -3,10 +3,16 @@ title: Időtartam kezelése az Aspose.Tasks-ban
 linktitle: Időtartam kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az időtartamokat az Aspose.Tasks for .NET-ben a lépésről lépésre bemutatott oktatóanyagok segítségével.
-type: docs
 weight: 30
 url: /hu/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Időtartam kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az időtartamok hatékony kezelése kulcsfontosságú a projektmenedzsment alkalmazásokban. Az Aspose.Tasks for .NET robusztus funkcionalitást biztosít az időtartamok hatékony kezeléséhez. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával történő időtartamkezelés különböző szempontjait vizsgáljuk meg.
@@ -156,3 +162,9 @@ Ebben az oktatóanyagban az Aspose.Tasks for .NET időtartamának kezelésének 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
 5. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Project Management and Integration
 linktitle: Aspose.Tasks Project Management and Integration
 second_title: Aspose.Tasks .NET API
 description: Objevte komplexní výukové programy Aspose.Tasks for .NET zahrnující správu, integraci a přizpůsobení MS Project. Vylepšete své dovednosti projektového řízení hned teď!
-type: docs
 weight: 27
 url: /cs/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Project Management and Integration
+
 
 ## Úvod
 
@@ -62,3 +68,9 @@ Naučte se, jak bezproblémově spravovat přihlašovací údaje MS Project Serv
 Odemkněte bezproblémovou správu MS Project Server pomocí Aspose.Tasks pro .NET. Automatizujte projektové úkoly bez námahy.
 ### [Přizpůsobení zobrazení MS Project v Aspose.Tasks](./project-views/)
 Naučte se, jak přizpůsobit zobrazení MS Project pomocí Aspose.Tasks pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní vizualizaci řízení projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

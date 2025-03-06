@@ -3,10 +3,16 @@ title: Các loại ràng buộc trong Aspose.Tasks
 linktitle: Các loại ràng buộc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách đặt các loại ràng buộc trong Aspose.Tasks cho .NET để quản lý lịch trình dự án một cách hiệu quả.
-type: docs
 weight: 17
 url: /vi/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại ràng buộc trong Aspose.Tasks
+
 ## Giới thiệu
 
 Khi làm việc với quản lý dự án trong .NET, điều quan trọng là phải hiểu cách áp dụng các ràng buộc khác nhau cho các tác vụ. Aspose.Tasks for .NET cung cấp một bộ công cụ toàn diện để quản lý các ràng buộc của dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các loại ràng buộc khác nhau có sẵn trong Aspose.Tasks và cách triển khai chúng từng bước.
@@ -83,3 +89,9 @@ Câu trả lời 4: Có, Aspose.Tasks được thiết kế để xử lý các 
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ ở đâu cho các truy vấn liên quan đến Aspose.Tasks?
 
  Câu trả lời 5: Bạn có thể nhận được hỗ trợ cho Aspose.Tasks bằng cách truy cập[diễn đàn](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

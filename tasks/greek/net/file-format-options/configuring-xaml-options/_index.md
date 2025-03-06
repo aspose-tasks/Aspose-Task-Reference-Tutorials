@@ -3,10 +3,16 @@ title: Διαμορφώστε τις επιλογές XAML του MS Project μ�
 linktitle: Διαμόρφωση επιλογών XAML στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XAML στο Aspose.Tasks για .NET. Βελτιώστε την ευελιξία διαχείρισης έργου και την προσαρμογή με καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμορφώστε τις επιλογές XAML του MS Project με το Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης .NET, η αποτελεσματική διαχείριση των εργασιών του έργου είναι ζωτικής σημασίας για την επιτυχή ολοκλήρωση του έργου. Το Aspose.Tasks for .NET παρέχει μια ισχυρή λύση για τον απρόσκοπτο χειρισμό εργασιών διαχείρισης έργων. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαμόρφωση των επιλογών του MS Project XAML χρησιμοποιώντας το Aspose.Tasks για .NET. 
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
 
  Α: Μπορείτε να αγοράσετε το Aspose.Tasks για .NET από[αυτός ο σύνδεσμος](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

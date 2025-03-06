@@ -3,10 +3,16 @@ title: Quản lý giấy phép dự án MS trong Aspose.Tasks .NET
 linktitle: Quản lý giấy phép Aspose.Tasks trong .NET
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý giấy phép Aspose.Tasks trong các ứng dụng .NET một cách liền mạch bằng cách sử dụng các phương pháp dựa trên tệp hoặc dựa trên luồng.
-type: docs
 weight: 10
 url: /vi/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý giấy phép dự án MS trong Aspose.Tasks .NET
+
 ## Giới thiệu
 Quản lý giấy phép là một khía cạnh quan trọng của việc sử dụng Aspose.Tasks trong các ứng dụng .NET một cách hiệu quả. Nếu không có giấy phép thích hợp, bạn có thể gặp phải những hạn chế hoặc hạn chế trong việc sử dụng của mình. May mắn thay, Aspose.Tasks cung cấp các phương pháp đơn giản để áp dụng giấy phép bằng cách sử dụng tệp hoặc luồng trong dự án .NET của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá từng bước cách quản lý giấy phép Aspose.Tasks trong các ứng dụng .NET.
 ## Điều kiện tiên quyết
@@ -98,3 +104,9 @@ Trả lời: Nếu không có giấy phép hợp lệ, Aspose.Tasks hoạt độ
 ### Hỏi: Tôi có thể sử dụng cùng một tệp giấy phép cho nhiều ứng dụng không?
 
 Đáp: Có, bạn có thể sử dụng cùng một tệp giấy phép trên nhiều ứng dụng do cùng một người được cấp phép phát triển. Tuy nhiên, hãy đảm bảo rằng giấy phép của bạn tuân thủ các điều khoản sử dụng do Aspose chỉ định.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

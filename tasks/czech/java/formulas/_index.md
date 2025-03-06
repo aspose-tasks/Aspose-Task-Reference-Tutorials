@@ -3,10 +3,16 @@ title: Vzorce
 linktitle: Vzorce
 second_title: Aspose.Tasks Java API
 description: Zvyšte své dovednosti projektového řízení pomocí Aspose.Tasks for Java. Ovládněte vzorce MS Project, zvyšte produktivitu a snadno snadno zapisujte/čtete vzorce.
-type: docs
 weight: 23
 url: /cs/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vzorce
+
 
 ## Úvod
 
@@ -38,3 +44,9 @@ Naučte se, jak podporovat hodnocení funkcí MS Project ve vzorcích Aspose.Tas
 Naučte se manipulovat se soubory MS Project v Javě pomocí knihovny Aspose.Tasks. Snadno vytvářejte, upravujte a vypočítávejte atributy.
 ### [Psaní a čtení vzorců MS Project v Aspose.Tasks](./write-read-formulas/)
 Naučte se efektivně psát a číst vzorce MS Project s Aspose.Tasks pro Javu. Vylepšete své dovednosti projektového řízení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
 linktitle: Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Ekstrak jam kerja dari kalender MS Project dengan mudah menggunakan Aspose.Tasks untuk Java. Sederhanakan tugas manajemen proyek.
-type: docs
 weight: 13
 url: /id/java/calendars/working-hours/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
+
 ## Perkenalan
 Mengelola kalender proyek dan menentukan jam kerja sangat penting untuk manajemen proyek yang efektif. Aspose.Tasks untuk Java menyediakan fungsionalitas yang kuat untuk mengambil jam kerja dari kalender MS Project dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
 ## Prasyarat
@@ -83,3 +89,9 @@ J: Ya, Anda dapat dengan mudah menyesuaikan jam kerja dan hari libur sesuai deng
 J: Ya, Aspose.Tasks untuk Java menyediakan dokumentasi ekstensif dan forum dukungan khusus untuk membantu pengembang dalam memanfaatkan fitur-fiturnya secara efektif.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk Java?
  J: Ya, Anda dapat mengakses Aspose.Tasks versi uji coba gratis untuk Java dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Coleção de objetos OLE em Aspose.Tasks
 linktitle: Coleção de objetos OLE em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar objetos OLE em Aspose.Tasks for .NET com este tutorial abrangente. Domine o manuseio de arquivos incorporados em documentos de projeto sem esforço.
-type: docs
 weight: 23
 url: /pt/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção de objetos OLE em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos no gerenciamento de objetos OLE (Object Linking and Embedding) em Aspose.Tasks for .NET. Os objetos OLE permitem aos usuários incorporar ou vincular arquivos de outros aplicativos em um arquivo de projeto. Abordaremos como trabalhar com uma coleção desses objetos passo a passo.
@@ -97,3 +103,9 @@ A3: Embora seja recomendado conhecimento básico de C#, Aspose.Tasks fornece doc
 ### P5: Onde posso encontrar suporte para Aspose.Tasks?
 
  A5: Você pode buscar suporte e fazer perguntas no fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ambil Kode Garis Besar Proyek MS di Aspose.Tasks
 linktitle: Ambil Kode Garis Besar di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengambil kode kerangka Microsoft Project secara terprogram menggunakan Aspose.Tasks untuk Java. Tingkatkan kemampuan manajemen proyek Anda.
-type: docs
 weight: 15
 url: /id/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Kode Garis Besar Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengambil kode kerangka Microsoft Project menggunakan Aspose.Tasks untuk Java. Kode garis besar di MS Project menyediakan cara terstruktur untuk mengkategorikan dan mengatur tugas, sumber daya, dan penugasan proyek. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang memanipulasi dan mengelola file Microsoft Project secara terprogram.
 ## Prasyarat
@@ -82,3 +88,9 @@ J: Ya, Aspose.Tasks untuk Java menyediakan API untuk mengubah kode kerangka dala
  J: Ya, Anda dapat membeli lisensi sementara untuk Aspose.Tasks untuk Java dari[halaman pembelian](https://purchase.aspose.com/temporary-license/).
 ### Q5: Di mana saya dapat menemukan dokumentasi lengkap Aspose.Tasks untuk Java?
  J: Anda bisa merujuk ke[dokumentasi](https://reference.aspose.com/tasks/java/) untuk informasi mendetail tentang penggunaan Aspose.Tasks untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

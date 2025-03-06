@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 링크 생성
 linktitle: Aspose.Tasks에서 작업 링크 생성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트에서 원활한 작업 연결을 잠금 해제하세요. 단계별 가이드를 통해 작업 링크 생성 기술을 마스터하세요. 지금 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 링크 생성
+
 ## 소개
 효율적인 작업 연결은 효율적인 프로젝트 관리의 핵심이며 Aspose.Tasks for Java는 개발자에게 이를 원활하게 달성할 수 있는 강력한 도구를 제공합니다. 이 단계별 가이드는 Aspose.Tasks for Java를 사용하여 작업 링크 생성을 마스터하는 과정을 안내합니다.
 ## 전제조건
@@ -57,3 +63,9 @@ A: 예, Aspose.Tasks는 다양한 Java 프레임워크와 원활하게 통합되
 A: 예, 포괄적인 샘플 프로젝트와 코드 조각에 대한 설명서를 확인하세요.
 ### Q: Java용 Aspose.Tasks를 구매하는 데 권장되는 방법은 무엇입니까?
  A: 다음 사이트를 방문하여 사본을 확보하세요.[구매 페이지](https://purchase.aspose.com/buy) 라이선스 옵션을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

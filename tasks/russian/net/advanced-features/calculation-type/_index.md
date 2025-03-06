@@ -3,10 +3,16 @@ title: Тип расчета в Aspose.Tasks
 linktitle: Тип расчета в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить вычисления значений в проектах .NET с помощью типа расчета в библиотеке Aspose.Tasks.
-type: docs
 weight: 30
 url: /ru/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Тип расчета в Aspose.Tasks
+
 ## Введение
 
 В этом руководстве мы рассмотрим функцию типа расчета в Aspose.Tasks для .NET. Aspose.Tasks — это мощная библиотека, которая позволяет .NET-разработчикам работать с файлами Microsoft Project без необходимости установки Microsoft Project в их системах. Тип расчета позволяет нам определить, как рассчитываются значения для задач и суммарных задач в рамках проекта.
@@ -97,3 +103,9 @@ A4: Да, Aspose.Tasks предоставляет различные типы с
 ### Вопрос 5: Где я могу найти дополнительные ресурсы по Aspose.Tasks для .NET?
 
  О5: Вы можете изучить документацию и форумы поддержки сообщества, доступные на[Aspose.Tasks для .NET](https://reference.aspose.com/tasks/net/) за всестороннее руководство и помощь.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

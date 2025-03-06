@@ -3,10 +3,16 @@ title: Mastering VBA Module Collections in Aspose.Tasks
 linktitle: Managing VBA Module Collections in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Discover how to efficiently manage VBA Module Collections in Aspose.Tasks for .NET. Step-by-step guide for seamless integration into your projects.
-type: docs
 weight: 13
 url: /net/vba-module-reference/vba-module-collections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering VBA Module Collections in Aspose.Tasks
+
 ## Introduction
 Welcome to our comprehensive tutorial on managing VBA Module Collections in Aspose.Tasks for .NET! If you're diving into the exciting world of project management with Aspose.Tasks, understanding how to work with VBA modules is crucial. This guide will walk you through the process step by step, ensuring you gain the necessary skills to effectively manage VBA modules in your projects.
 ## Prerequisites
@@ -72,3 +78,10 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find detailed documentation for Aspose.Tasks?
 Explore the documentation [here](https://reference.aspose.com/tasks/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

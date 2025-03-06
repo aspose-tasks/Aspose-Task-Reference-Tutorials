@@ -3,10 +3,16 @@ title: Настройте столбцы представления ресурс
 linktitle: Настройка столбцов представления ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно настраивать столбцы представления ресурсов MS Project с помощью Aspose.Tasks для .NET. Создавайте индивидуальные представления для лучшего управления проектами.
-type: docs
 weight: 17
 url: /ru/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте столбцы представления ресурсов MS Project в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft Project. Одной из распространенных задач управления проектами является настройка представлений для отображения конкретной информации. В этом уроке мы рассмотрим, как настроить столбцы представления ресурсов MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -94,3 +100,9 @@ project.Save("Output_PDF_File_Path.pdf", options);
 Да, вы можете обновлять и повторно создавать пользовательское представление при каждом изменении базовых данных проекта.
 ### Поддерживает ли Aspose.Tasks кроссплатформенную разработку?
 Aspose.Tasks для .NET в первую очередь ориентирован на платформы .NET, но существуют также версии для Java и других платформ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

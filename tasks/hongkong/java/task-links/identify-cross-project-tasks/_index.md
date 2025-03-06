@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中辨識跨專案任務
 linktitle: 在 Aspose.Tasks 中辨識跨專案任務
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 探索跨專案任務辨識。無縫集成，高效管理。現在下載！
-type: docs
 weight: 14
 url: /zh-hant/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中辨識跨專案任務
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Tasks for Java 有效識別跨專案任務的綜合教學。無論您是經驗豐富的開發人員還是初學者，本指南都將引導您完成將此功能無縫整合到 Java 專案中的過程。
 ## 先決條件
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
 答：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 問：需要幫助或有具體問題嗎？
 答：請造訪 Aspose.Tasks 支援論壇[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

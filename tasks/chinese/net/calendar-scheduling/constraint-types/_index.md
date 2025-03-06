@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的约束类型
 linktitle: Aspose.Tasks 中的约束类型
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中设置约束类型以有效管理项目进度。
-type: docs
 weight: 17
 url: /zh/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的约束类型
+
 ## 介绍
 
 在 .NET 中进行项目管理时，了解如何对任务应用不同的约束至关重要。 Aspose.Tasks for .NET 提供了一套全面的工具来有效管理项目约束。在本教程中，我们将深入研究 Aspose.Tasks 中可用的各种约束类型以及如何逐步实现它们。
@@ -83,3 +89,9 @@ A4：是的，Aspose.Tasks 旨在处理各种规模的项目，从小型任务�
 ### Q5：我在哪里可以获得 Aspose.Tasks 相关查询的支持？
 
  A5：您可以通过访问他们的 Aspose.Tasks 获得支持[论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

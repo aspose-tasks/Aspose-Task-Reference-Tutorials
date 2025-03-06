@@ -3,10 +3,16 @@ title: Свойства задачи
 linktitle: Свойства задачи
 second_title: API Aspose.Tasks Java
 description: Улучшите управление проектами Java с помощью Aspose.Tasks. Изучите руководства по свойствам задач от управления приоритетами до управления затратами. Оптимизируйте свой проект сегодня!
-type: docs
 weight: 34
 url: /ru/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Свойства задачи
+
 ## Введение
 
 Легко управляйте и настраивайте файлы Microsoft Project на Java с помощью Aspose.Tasks. Изучите учебные пособия, охватывающие различные аспекты свойств задач, чтобы расширить свои возможности управления проектами.
@@ -138,3 +144,9 @@ url: /ru/java/task-properties/
 Узнайте, как обновить данные задачи в формат MPP с помощью Aspose.Tasks для Java. Следуйте нашему пошаговому руководству для эффективного управления проектами.
 ### [WBS, связанная с задачей в Aspose.Tasks](./wbs-associated-with-task/)
 Освойте WBS с помощью Aspose.Tasks для Java. Научитесь читать и перенумеровывать коды WBS задач. Повысьте эффективность управления проектами!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

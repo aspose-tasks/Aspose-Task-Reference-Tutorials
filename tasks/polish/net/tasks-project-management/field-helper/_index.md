@@ -3,10 +3,16 @@ title: Pomocnik terenowy Integracja projektu MS w Aspose.Tasks
 linktitle: Pomocnik terenowy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak wykorzystać Aspose.Tasks dla .NET do płynnej pracy z plikami MS Project.
-type: docs
 weight: 15
 url: /pl/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pomocnik terenowy Integracja projektu MS w Aspose.Tasks
+
 ## Wstęp
 
 Aspose.Tasks dla .NET to potężny interfejs API, który umożliwia programistom bezproblemową pracę z plikami Microsoft Project w ich aplikacjach .NET. Niezależnie od tego, czy budujesz narzędzie do zarządzania projektami, integrujesz funkcjonalność projektu ze swoją aplikacją, czy po prostu chcesz programowo manipulować plikami projektu, Aspose.Tasks zapewnia narzędzia potrzebne do wydajnego wykonania zadania.
@@ -74,3 +80,9 @@ O: Tak, Aspose.Tasks dla .NET jest zaprojektowany do współpracy z różnymi we
 ### P5: Gdzie mogę kupić licencję na Aspose.Tasks dla .NET?
 
  Odp.: Możesz kupić licencję na Aspose.Tasks dla .NET ze strony internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

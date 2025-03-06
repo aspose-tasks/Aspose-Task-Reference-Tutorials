@@ -3,10 +3,16 @@ title: Constraint Types in Aspose.Tasks
 linktitle: Constraint Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to set constraint types in Aspose.Tasks for .NET to efficiently manage project schedules.
-type: docs
 weight: 17
 url: /net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Constraint Types in Aspose.Tasks
+
 ## Introduction
 
 When working with project management in .NET, it's crucial to understand how to apply different constraints to tasks. Aspose.Tasks for .NET provides a comprehensive set of tools to manage project constraints efficiently. In this tutorial, we'll delve into the various constraint types available in Aspose.Tasks and how to implement them step by step.
@@ -83,3 +89,10 @@ A4: Yes, Aspose.Tasks is designed to handle projects of all sizes, from small ta
 ### Q5: Where can I get support for Aspose.Tasks-related queries?
 
 A5: You can get support for Aspose.Tasks by visiting their [forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

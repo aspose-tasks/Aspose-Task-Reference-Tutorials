@@ -3,10 +3,16 @@ title: प्रोजेक्ट डेटा पढ़ना
 linktitle: प्रोजेक्ट डेटा पढ़ना
 second_title: Aspose.Tasks जावा एपीआई
 description: हमारे ट्यूटोरियल के साथ जावा के लिए Aspose.Tasks की शक्ति को अनलॉक करें! समूह परिभाषाओं को पढ़ने से लेकर गैंट चार्ट डेटा निकालने तक, सहज एकीकरण में महारत हासिल करें।
-type: docs
 weight: 28
 url: /hi/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रोजेक्ट डेटा पढ़ना
+
 ## परिचय
 यदि आप जावा में परियोजना प्रबंधन के विशाल परिदृश्य पर नेविगेट कर रहे हैं, तो हमारे Aspose.Tasks ट्यूटोरियल आपके मार्गदर्शक सितारे हैं। हमारे चरण-दर-चरण मार्गदर्शिकाओं के लिए धन्यवाद, एक ऐसे क्षेत्र में उतरें जहां प्रोजेक्ट डेटा पढ़ना एक सहज यात्रा बन जाता है। आइए एक साथ इस ज्ञान साहसिक कार्य को शुरू करें!
 
@@ -48,3 +54,9 @@ url: /hi/java/project-data-reading/
 जावा के लिए Aspose.Tasks का उपयोग करके विशिष्ट गैंट चार्ट डेटा निकालना सीखें। आपके जावा अनुप्रयोगों में निर्बाध एकीकरण के लिए चरण-दर-चरण ट्यूटोरियल।
 ### [Aspose.Tasks में फ़ाइल से तालिका डेटा पढ़ें](./read-table-data/)
 जावा के लिए Aspose.Tasks की शक्ति को अनलॉक करें। इस व्यापक ट्यूटोरियल में फ़ाइलों से तालिका डेटा निकालना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

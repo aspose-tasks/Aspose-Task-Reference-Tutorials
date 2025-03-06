@@ -3,10 +3,16 @@ title: Gestione delle raccolte di attività in Aspose.Tasks
 linktitle: Gestione delle raccolte di attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora la gestione efficiente della raccolta di attività in Aspose.Tasks per .NET. Dalla creazione alla modifica, padroneggia facilmente la gestione dei progetti.
-type: docs
 weight: 18
 url: /it/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione delle raccolte di attività in Aspose.Tasks
+
 ## introduzione
 Se stai addentrandoti nel mondo della gestione dei progetti utilizzando .NET, Aspose.Tasks è la soluzione ideale per la gestione senza interruzioni delle raccolte di attività. Questo tutorial ti guiderà attraverso il processo di gestione efficiente delle raccolte di attività, assicurandoti di ottenere il massimo da questa potente libreria.
 ## Prerequisiti
@@ -95,3 +101,9 @@ Assolutamente! Aspose.Tasks fornisce opzioni di esportazione versatili, tra cui 
  Sì, puoi trovare supporto e interagire con la comunità su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Posso ottenere una licenza temporanea per Aspose.Tasks?
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

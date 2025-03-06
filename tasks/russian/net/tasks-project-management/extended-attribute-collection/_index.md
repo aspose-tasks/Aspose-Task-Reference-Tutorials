@@ -3,10 +3,16 @@ title: Управление коллекцией атрибутов MS Project �
 linktitle: Управление расширенной коллекцией атрибутов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять расширенными атрибутами MS Project с помощью Aspose.Tasks для .NET. Легко манипулируйте атрибутами задач с помощью пошаговых инструкций.
-type: docs
 weight: 12
 url: /ru/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекцией атрибутов MS Project в Aspose.Tasks
+
 ## Введение
 Вы хотите эффективно управлять расширенными атрибутами MS Project с помощью Aspose.Tasks для .NET? В этом уроке мы шаг за шагом проведем вас через этот процесс. Давайте погрузимся!
 ## Предварительные условия
@@ -105,3 +111,9 @@ foreach (var attribute in attributes)
 О: Да, Aspose.Tasks для .NET поддерживает форматы файлов MS Project в разных версиях.
 ### Вопрос: Доступна ли пробная версия Aspose.Tasks для .NET?
  О: Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Format Presentasi Proyek MS di Aspose.Tasks
 linktitle: Memformat Presentasi Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memformat presentasi MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan visualisasi dan komunikasi detail proyek dengan mudah.
-type: docs
 weight: 10
 url: /id/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format Presentasi Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 
 Apakah Anda ingin meningkatkan presentasi proyek MS Project Anda menggunakan Aspose.Tasks untuk .NET? Dalam tutorial ini, kami akan memandu Anda melalui proses pemformatan presentasi proyek MS Project langkah demi langkah. Pada akhirnya, Anda akan dapat membuat presentasi sempurna yang mengomunikasikan detail proyek Anda secara efektif.
@@ -90,3 +96,9 @@ J: Tentu saja, Aspose.Tasks terus diperbarui untuk memastikan kompatibilitas den
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
  J: Jika Anda memerlukan lisensi sementara untuk tujuan pengujian atau evaluasi, Anda dapat memperolehnya dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) di situs web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

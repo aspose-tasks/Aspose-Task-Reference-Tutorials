@@ -3,10 +3,16 @@ title: ระบุงานข้ามโครงการใน Aspose.Tasks
 linktitle: ระบุงานข้ามโครงการใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: สำรวจการระบุงานข้ามโครงการด้วย Aspose.Tasks สำหรับ Java การบูรณาการที่ราบรื่นและการจัดการที่มีประสิทธิภาพ ดาวน์โหลดเดี๋ยวนี้!
-type: docs
 weight: 14
 url: /th/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ระบุงานข้ามโครงการใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับการระบุงานข้ามโครงการอย่างมีประสิทธิภาพด้วย Aspose.Tasks สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คู่มือนี้จะแนะนำคุณตลอดกระบวนการรวมฟังก์ชันการทำงานนี้เข้ากับโปรเจ็กต์ Java ของคุณอย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
  ตอบ: ขอรับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ต้องการความช่วยเหลือหรือมีคำถามเฉพาะเจาะจง?
 ตอบ: ไปที่ฟอรัมสนับสนุน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

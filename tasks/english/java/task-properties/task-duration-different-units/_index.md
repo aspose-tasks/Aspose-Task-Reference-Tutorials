@@ -3,10 +3,16 @@ title: Task Duration in Different Units with Aspose.Tasks
 linktitle: Task Duration in Different Units with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore task duration management in Java projects with Aspose.Tasks. Accurately calculate and convert durations in minutes, days, hours, weeks, and months.
-type: docs
 weight: 32
 url: /java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Duration in Different Units with Aspose.Tasks
+
 ## Introduction
 In the realm of project management, understanding and managing task duration is a critical aspect. Aspose.Tasks for Java provides a powerful toolset to handle this efficiently. In this tutorial, we'll guide you through retrieving task durations in various units using Aspose.Tasks.
 ## Prerequisites
@@ -83,3 +89,10 @@ Absolutely. Aspose.Tasks is designed to efficiently handle projects of varying s
 Visit the [documentation](https://reference.aspose.com/tasks/java/) for comprehensive resources.
 ### Q: Can I try Aspose.Tasks for Java before purchasing?
 Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluate its capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

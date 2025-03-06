@@ -3,10 +3,16 @@ title: Εργασίες και ημερολόγια στο Aspose.Tasks
 linktitle: Εργασίες και ημερολόγια στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για Java στην αποτελεσματική διαχείριση εργασιών και ημερολογίων. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία διαχείρισης έργου!
-type: docs
 weight: 33
 url: /el/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασίες και ημερολόγια στο Aspose.Tasks
+
 ## Εισαγωγή
 Είστε έτοιμοι να αναβαθμίσετε το παιχνίδι διαχείρισης έργου με το Aspose.Tasks για Java; Αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στον περίπλοκο κόσμο των εργασιών και των ημερολογίων χρησιμοποιώντας το Aspose.Tasks, επιτρέποντάς σας να αξιοποιήσετε πλήρως τις δυνατότητές του για αποτελεσματικό σχεδιασμό και εκτέλεση έργου.
 ## Προαπαιτούμενα
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  Εγγραφείτε στην κοινότητα στο[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) για υποστήριξη.
 ### Μπορώ να αγοράσω άδεια χρήσης για το Aspose.Tasks;
  Ναι, μπορείτε να αγοράσετε άδεια[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

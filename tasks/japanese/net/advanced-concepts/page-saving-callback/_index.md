@@ -3,10 +3,16 @@ title: Aspose.Tasks でのページ保存コールバックの実装
 linktitle: Aspose.Tasks でのページ保存コールバックの実装
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でページ保存コールバックを実装し、複数ページのドキュメント出力ストリームのカスタマイズされた処理を可能にする方法を学びます。
-type: docs
 weight: 12
 url: /ja/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのページ保存コールバックの実装
+
 ## 導入
 
 このチュートリアルでは、Aspose.Tasks for .NET でページ保存コールバックを実装する方法を検討します。この機能により、複数ページのドキュメントをユーザーが提供するストリームに保存できるため、出力処理の柔軟性とカスタマイズが可能になります。
@@ -121,3 +127,9 @@ A4: コールバック メソッド内にエラー処理メカニズムを実装
 ### Q5: Aspose.Tasks のその他のリソースとサポートはどこで入手できますか?
 
  A5: をご覧いただけます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートが必要な場合は、ドキュメントにアクセスしてください[ここ](https://reference.aspose.com/tasks/net/)、または、追加の機能とライセンス オプションを確認してください。[Aspose.Task の Web サイト](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

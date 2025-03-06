@@ -3,10 +3,16 @@ title: Wyodrębnij informacje o projekcie MS w Aspose.Tasks
 linktitle: Wyodrębnianie informacji o projekcie w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bez wysiłku wyodrębnić informacje MS Project za pomocą Aspose.Tasks dla .NET. Zapoznaj się z naszym obszernym samouczkiem.
-type: docs
 weight: 20
 url: /pl/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij informacje o projekcie MS w Aspose.Tasks
+
 ## Wstęp
 Czy chcesz efektywnie wyodrębniać informacje z plików Microsoft Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces. Zanim jednak zagłębimy się w szczegóły implementacji, upewnijmy się najpierw, że masz wszystko, czego potrzebujesz.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Odp.: Absolutnie! Aspose.Tasks dla .NET zapewnia solidną funkcjonalność umoż
  Odp.: Tak, możesz uzyskać pomoc techniczną dla Aspose.Tasks dla .NET poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz zadawać pytania i szukać pomocy ekspertów.
 ### P5: Czy mogę wypróbować Aspose.Tasks dla .NET przed zakupem?
  Odp.: Oczywiście! Możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks dla .NET w witrynie[strona z wydaniami](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed podjęciem decyzji o zakupie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

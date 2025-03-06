@@ -3,10 +3,16 @@ title: Spara MS Project-filer som mallar med Aspose.Tasks
 linktitle: Spara mallalternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du sparar Microsoft Project-filer som mallar med Aspose.Tasks för .NET. Anpassa mallinställningar för strömlinjeformad projekthantering.
-type: docs
 weight: 18
 url: /sv/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara MS Project-filer som mallar med Aspose.Tasks
+
 ## Introduktion
 den här handledningen kommer vi att gå igenom processen att spara en mall med Aspose.Tasks för .NET. Mallar är användbara för att standardisera projektstrukturer och inställningar för framtida användning. Vi kommer att visa hur man sparar ett projekt som en mall, och justerar dess egenskaper längs vägen.
 ## Förutsättningar
@@ -76,3 +82,9 @@ S: Ja, du kan tillämpa mallar på befintliga projekt genom att ladda mallfilen 
 S: Aspose.Tasks för .NET är i första hand utformad för .NET framework-applikationer som körs på Windows-plattformar.
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks för .NET?
  S: Ja, du kan söka teknisk hjälp och vägledning från Aspose.Tasks-communityt[forum](https://forum.aspose.com/c/tasks/15)eller kontakta deras supportteam direkt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

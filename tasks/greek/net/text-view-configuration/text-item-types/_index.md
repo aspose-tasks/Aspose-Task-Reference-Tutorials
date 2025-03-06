@@ -3,10 +3,16 @@ title: Οδηγός προσαρμογής τύπου στοιχείου κει�
 linktitle: Χειρισμός τύπων στοιχείων κειμένου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Προσαρμογή τύπου κύριου στοιχείου κειμένου στο Aspose.Tasks για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ανεβάστε το παιχνίδι διαχείρισης έργου σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οδηγός προσαρμογής τύπου στοιχείου κειμένου στο Aspose.Tasks
+
 ## Εισαγωγή
 Εάν είστε προγραμματιστής .NET που καταδύεται στη διαχείριση έργων χρησιμοποιώντας το Aspose.Tasks, έχετε έρθει στο σωστό μέρος! Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε τις περιπλοκές του χειρισμού τύπων στοιχείων κειμένου στο Aspose.Tasks, εστιάζοντας στην προσαρμογή χρησιμοποιώντας την ισχυρή βιβλιοθήκη .NET.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Α: Εξερευνήστε περισσότερα μαθήματα στην τεκμηρίωση του Aspose.Tasks.
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
  Α: Αγοράστε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 파일에서 테이블 데이터 읽기
 linktitle: Aspose.Tasks의 파일에서 테이블 데이터 읽기
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks의 강력한 기능을 활용해 보세요. 이 포괄적인 튜토리얼을 통해 파일에서 테이블 데이터를 추출하는 방법을 알아보세요.
-type: docs
 weight: 17
 url: /ko/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 파일에서 테이블 데이터 읽기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 파일에서 테이블 데이터를 읽는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 문서를 프로그래밍 방식으로 작업할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -62,3 +68,9 @@ A: 예, Aspose.Tasks를 사용하여 프로그래밍 방식으로 테이블 데�
  A: 예, Aspose.Tasks의 무료 평가판 버전을 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 도움말과 지원은 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)커뮤니티와 Aspose 팀의 도움과 지원을 받으십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

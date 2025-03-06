@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập tài nguyên dự án trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập tài nguyên trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý hiệu quả các bộ sưu tập tài nguyên Microsoft Project trong .NET bằng API Aspose.Tasks. Tăng năng suất và tính linh hoạt.
-type: docs
 weight: 13
 url: /vi/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập tài nguyên dự án trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý hiệu quả các bộ sưu tập tài nguyên Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình, cho phép tích hợp và thao tác liền mạch dữ liệu dự án.
 ## Điều kiện tiên quyết
@@ -99,3 +105,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ đa luồng, cho phép thực hiện c
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
 
  Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

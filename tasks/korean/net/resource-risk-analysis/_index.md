@@ -3,10 +3,16 @@ title: Aspose.Tasks 자원 관리 및 위험 분석
 linktitle: Aspose.Tasks 자원 관리 및 위험 분석
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks .NET을 사용하여 MS 프로젝트 리소스를 관리하세요. 생산성을 높이고 작업 흐름을 간소화하세요. 리소스 할당, 사용량 보기, 위험 분석 등에 대해 알아보세요.
-type: docs
 weight: 26
 url: /ko/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 자원 관리 및 위험 분석
+
 ## 소개
 
 Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스를 관리하고 위험 분석을 강화하는 효율적인 방법을 찾고 계십니까? 더 이상 보지 마세요! 이 종합 가이드에서는 개발자와 프로젝트 관리자의 역량을 강화하는 데 필요한 필수 주제를 다루는 다양한 튜토리얼을 안내합니다.
@@ -90,3 +96,9 @@ Aspose.Tasks for .NET을 사용하여 MS 프로젝트 위험을 효율적으로 
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 위험 패턴을 효과적으로 관리하는 방법을 알아보세요. 강력한 위험 분석 도구를 사용하여 프로젝트 결과를 개선하세요.
 ### [Aspose.Tasks를 사용하여 MS 프로젝트의 위험 패턴 관리](./risk-pattern-collection/)
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 위험 패턴을 효과적으로 분석하고 조작하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu dưới dạng PDF trong Aspose.Tasks
 linktitle: Lưu dưới dạng PDF trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách chuyển đổi tệp dự án sang PDF bằng Aspose.Tasks cho Java. Các bước đơn giản để chuyển đổi hiệu quả.
-type: docs
 weight: 17
 url: /vi/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu dưới dạng PDF trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình lưu dự án dưới dạng PDF bằng Aspose.Tasks cho Java. Với Aspose.Tasks, bạn có thể chuyển đổi các tệp dự án của mình sang định dạng PDF một cách hiệu quả, đảm bảo tính tương thích và dễ chia sẻ. Hãy đi sâu vào các bước:
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp, bao gồ
  Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Để được hỗ trợ và giúp đỡ, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

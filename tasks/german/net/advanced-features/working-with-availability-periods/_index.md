@@ -3,10 +3,16 @@ title: Arbeiten mit Verfügbarkeitszeiträumen in Aspose.Tasks
 linktitle: Arbeiten mit Verfügbarkeitszeiträumen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Ressourcenverfügbarkeitszeiten mit Aspose.Tasks für .NET effizient verwalten. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung für die Arbeit mit Verfügbarkeitszeiträumen in Ihren .NET-Projekten.
-type: docs
 weight: 17
 url: /de/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit Verfügbarkeitszeiträumen in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Verfügbarkeitszeiträumen in Aspose.Tasks für .NET arbeiten. Verfügbarkeitszeiträume sind entscheidend für die effiziente Verwaltung von Ressourcen in Projektmanagementszenarien. Wir führen Sie Schritt für Schritt durch den Prozess.
@@ -107,3 +113,9 @@ A2: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET erhal
 ### F5: Bieten Sie temporäre Lizenzen für Aspose.Tasks für .NET an?
 
  A5: Ja, temporäre Lizenzen sind verfügbar[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

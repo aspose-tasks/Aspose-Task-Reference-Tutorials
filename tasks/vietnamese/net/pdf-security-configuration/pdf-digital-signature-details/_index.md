@@ -3,10 +3,16 @@ title: Định cấu hình Chữ ký số MS Project PDF với Aspose.Tasks
 linktitle: Định cấu hình chi tiết chữ ký số PDF trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình chi tiết chữ ký số Microsoft Project PDF bằng Aspose.Tasks cho .NET. Đảm bảo tính bảo mật và tính xác thực của các tệp dự án của bạn.
-type: docs
 weight: 10
 url: /vi/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình Chữ ký số MS Project PDF với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình định cấu hình chi tiết chữ ký số Microsoft Project PDF bằng Aspose.Tasks cho .NET. Bằng cách làm theo các bước này, bạn sẽ có thể tích hợp liền mạch chữ ký điện tử vào các tệp MS Project của mình, đảm bảo tính bảo mật và tính xác thực.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Trả lời: Có, bạn có thể tùy chỉnh giao diện của chữ ký số,
 Trả lời: Không, sau khi chữ ký điện tử được áp dụng cho tệp PDF, bạn không thể xóa hoặc cập nhật chữ ký đó. Tuy nhiên, bạn có thể thêm chữ ký bổ sung nếu cần.
 ### Câu hỏi: Có bất kỳ hạn chế nào về kích thước hoặc độ phức tạp của tệp Microsoft Project không?
 Trả lời: Aspose.Tasks có thể xử lý các tệp Microsoft Project có kích thước và độ phức tạp khác nhau mà không bị giới hạn. Tuy nhiên, hiệu suất có thể khác nhau tùy thuộc vào phần cứng và tài nguyên có sẵn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

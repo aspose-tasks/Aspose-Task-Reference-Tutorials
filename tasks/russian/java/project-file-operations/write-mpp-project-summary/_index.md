@@ -3,10 +3,16 @@ title: Напишите краткое описание проекта MPP в As
 linktitle: Напишите краткое описание проекта MPP в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как писать резюме проекта MPP на Java с помощью Aspose.Tasks. Устанавливайте и извлекайте информацию о проекте без особых усилий.
-type: docs
 weight: 27
 url: /ru/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Напишите краткое описание проекта MPP в Aspose.Tasks
+
 ## Введение
 В этом уроке мы узнаем, как использовать Aspose.Tasks для Java для написания резюме проекта MPP. Aspose.Tasks — мощная Java-библиотека для работы с файлами Microsoft Project. Выполнив шаги, описанные ниже, вы сможете устанавливать и получать различную сводную информацию о проекте, используя эту библиотеку.
 ## Предварительные условия
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 О: Конечно, Aspose.Tasks for Java предоставляет широкие возможности для настройки сводной информации проекта в соответствии с вашими конкретными требованиями.
 ### Вопрос: Где я могу получить поддержку Aspose.Tasks для Java?
 О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

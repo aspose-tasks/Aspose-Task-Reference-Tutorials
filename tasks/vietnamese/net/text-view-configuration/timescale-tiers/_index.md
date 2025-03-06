@@ -3,10 +3,16 @@ title: Định cấu hình các bậc thang thời gian của biểu đồ Gantt
 linktitle: Định cấu hình các bậc thang thời gian trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks for .NET để định cấu hình các bậc thời gian trong chế độ xem Biểu đồ Gantt của bạn để trực quan hóa dòng thời gian dự án chính xác. #Aspose.Tasks #MS Project
-type: docs
 weight: 16
 url: /vi/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình các bậc thang thời gian của biểu đồ Gantt trong Aspose.Tasks
+
 ## Giới thiệu
 Trong bối cảnh năng động của quản lý dự án, việc hình dung hiệu quả là rất quan trọng để hiểu được các mốc thời gian và thời hạn. Aspose.Tasks cho .NET cung cấp một bộ công cụ mạnh mẽ và trong hướng dẫn này, chúng ta sẽ khám phá cách định cấu hình các bậc thang thời gian để thể hiện tối ưu trong chế độ xem Biểu đồ Gantt. Hãy làm theo các hướng dẫn từng bước này để nâng cao khả năng trực quan hóa dự án của bạn.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các tùy chọn tùy chỉnh m�
 Chắc chắn, bạn có thể khám phá nhiều định dạng và phong cách khác nhau để biểu diễn thang thời gian sao cho phù hợp nhất với bối cảnh dự án của bạn.
 ### Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
  Vâng, hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

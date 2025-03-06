@@ -3,10 +3,16 @@ title: Mastering Task Usage Views στο Aspose.Tasks για .NET
 linktitle: Διαμόρφωση προβολών χρήσης εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε το Aspose.Tasks για .NET και μάθετε πώς να διαμορφώνετε τις προβολές χρήσης εργασιών. Προσαρμόστε τις ρυθμίσεις χρονικής κλίμακας και βελτιώστε τα γραφικά διαχείρισης του έργου σας.
-type: docs
 weight: 24
 url: /el/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Usage Views στο Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργου, η οπτικοποίηση της χρήσης εργασιών είναι ζωτικής σημασίας για τον αποτελεσματικό σχεδιασμό και την εκτέλεση. Το Aspose.Tasks για .NET παρέχει μια ισχυρή λύση για την απόδοση προβολών χρήσης εργασιών, επιτρέποντάς σας να προσαρμόσετε τις ρυθμίσεις χρονικής κλίμακας και τις μορφές παρουσίασης. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τα βήματα για τη διαμόρφωση των προβολών χρήσης εργασιών χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -75,3 +81,9 @@ project.Save(DataDir + outputProject, options);
 Οπωσδήποτε, μπορείτε να προσαρμόσετε τις ρυθμίσεις χρονικής κλίμακας για μεμονωμένες εργασίες εντός του έργου σας.
 ### Πώς μπορώ να λάβω υποστήριξη ή να ζητήσω βοήθεια για το Aspose.Tasks;
  Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη και καθοδήγηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

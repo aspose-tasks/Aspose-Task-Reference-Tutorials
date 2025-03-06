@@ -3,10 +3,16 @@ title: Personalizza le griglie del progetto con Aspose.Tasks per .NET
 linktitle: Gestione delle griglie in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come regolare a livello di codice le impostazioni della griglia nei file di Microsoft Project utilizzando Aspose.Tasks per .NET, visualizzazione del progetto ed efficienza di gestione.
-type: docs
 weight: 24
 url: /it/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizza le griglie del progetto con Aspose.Tasks per .NET
+
 ## introduzione
 Gestire i progetti in modo efficiente spesso implica visualizzare chiaramente le tempistiche e le attività. Un aspetto cruciale della visualizzazione del progetto sono le griglie, che aiutano a organizzare e comprendere la struttura del progetto. Aspose.Tasks per .NET fornisce solide funzionalità per manipolare le griglie nei file di Microsoft Project a livello di codice. In questo tutorial esploreremo come lavorare con le griglie utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -69,3 +75,9 @@ R: Assolutamente. Aspose.Tasks fornisce ampie opzioni per personalizzare le line
 R: Certamente. Con Aspose.Tasks, puoi incorporare la logica per regolare dinamicamente le impostazioni della griglia in base ai dati del progetto o ai criteri definiti dall'utente.
 ### D: Dove posso trovare ulteriori risorse e supporto per Aspose.Tasks per .NET?
  A: Puoi esplorare il[documentazione](https://reference.aspose.com/tasks/net/) per guide complete, visitare il[Forum di assistenza](https://forum.aspose.com/c/tasks/15) per assistenza o prendere in considerazione l'idea di ottenere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) per una valutazione estesa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

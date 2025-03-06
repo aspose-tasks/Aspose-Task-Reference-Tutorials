@@ -3,10 +3,16 @@ title: Quản lý giá trị phác thảo dự án MS với Aspose.Tasks
 linktitle: Bộ sưu tập các giá trị phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 17
 url: /vi/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý giá trị phác thảo dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET cung cấp một bộ tính năng toàn diện để tương tác với các tệp Microsoft Project. Một tính năng như vậy là khả năng quản lý các giá trị phác thảo trong một dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách thu thập và thao tác các giá trị phác thảo bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -108,3 +114,9 @@ Trả lời: Bạn có thể triển khai các cơ chế xử lý lỗi như kh�
 Trả lời: Có, Aspose.Tasks cung cấp các API mở rộng để tùy chỉnh giao diện và hành vi của các giá trị phác thảo theo yêu cầu của bạn.
 ### Câu hỏi: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ cộng đồng và khám phá[tài liệu](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết về API và tính năng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

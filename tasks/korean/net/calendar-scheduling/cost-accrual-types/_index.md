@@ -3,10 +3,16 @@ title: Aspose.Tasks의 비용 발생 유형
 linktitle: Aspose.Tasks의 비용 발생 유형
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 프로젝트 비용을 효과적으로 관리하는 방법을 알아보세요. 정확한 예산 추적을 위해 비용 발생 유형을 정의합니다.
-type: docs
 weight: 19
 url: /ko/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 비용 발생 유형
+
 ## 소개
 
 프로젝트 관리에서 비용을 정확하게 추적하는 것은 예산 통제를 유지하고 프로젝트 성공을 보장하는 데 중요합니다. Aspose.Tasks for .NET은 다양한 비용 발생 유형을 정의하는 기능을 포함하여 프로젝트 비용을 관리하기 위한 강력한 도구 세트를 제공합니다. 이 튜토리얼은 Aspose.Tasks for .NET을 사용하여 비용 발생 유형을 이해하고 구현하는 과정을 안내합니다.
@@ -86,3 +92,9 @@ A4: 예, 프로젝트의 각 작업 및 자원에 대해 독립적으로 비용 
 ### Q5: .NET용 Aspose.Tasks는 사용자 지정 비용 발생 유형을 지원합니까?
 
 A5: 최신 버전부터 Aspose.Tasks for .NET은 사용자 정의 비용 발생 유형 정의를 지원하지 않습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

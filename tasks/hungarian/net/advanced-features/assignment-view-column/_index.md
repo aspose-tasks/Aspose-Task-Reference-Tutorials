@@ -3,10 +3,16 @@ title: Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
 linktitle: Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan adhat hozzá egyéni hozzárendelési nézet oszlopokat az Aspose.Tasks for .NET-hez a projektkezelési képességek javítása érdekében.
-type: docs
 weight: 16
 url: /hu/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá egyéni oszlopokat hozzárendelési nézetekhez az Aspose.Tasks for .NET használatával. Az egyéni oszlopok rugalmasságot biztosítanak, és lehetővé teszik a projektmenedzsment igényeinek megfelelő további információk megjelenítését.
@@ -116,3 +122,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá egyéni hozzárende
 ### 5. kérdés: Az Aspose.Tasks támogatja a projektek exportálását más formátumokba, az egyéni oszlopokat tartalmazó táblázatokon kívül?
 
 5. válasz: Igen, az Aspose.Tasks támogatja a projektek exportálását különféle formátumokba, például PDF, HTML és XML formátumokba, így sokoldalú projektjelentési lehetőségeket tesz lehetővé.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Definições de tratamento de código de contorno do MS Project em Aspose
 linktitle: Tratamento de definições de código de estrutura de tópicos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com definições de código de estrutura de tópicos do MS Project usando Aspose.Tasks for .NET, capacitando seus aplicativos de gerenciamento de projetos.
-type: docs
 weight: 12
 url: /pt/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definições de tratamento de código de contorno do MS Project em Aspose.Tasks
+
 ## Introdução
 Microsoft Project é uma ferramenta poderosa para gerenciar projetos, e o Aspose.Tasks for .NET fornece suporte abrangente para a manipulação de arquivos de projeto programaticamente. Um aspecto essencial do gerenciamento de projetos é organizar tarefas usando códigos de estrutura de tópicos. Neste tutorial, exploraremos como lidar com definições de código de estrutura de tópicos do MS Project usando Aspose.Tasks para .NET.
 ## Pré-requisitos
@@ -91,3 +97,9 @@ R: Sim, o Aspose.Tasks for .NET fornece recursos abrangentes para manipular atri
 R: Com certeza, Aspose.Tasks for .NET oferece suporte à leitura e gravação de campos personalizados, incluindo códigos de estrutura de tópicos, de arquivos do MS Project.
 ### Q5: Existe um fórum da comunidade para Aspose.Tasks for .NET?
  R: Sim, você pode participar do fórum da comunidade Aspose.Tasks for .NET[aqui](https://forum.aspose.com/c/tasks/15) para fazer perguntas, compartilhar conhecimento e colaborar com outros desenvolvedores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

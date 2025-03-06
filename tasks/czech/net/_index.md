@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.Tasks pro .NET
 linktitle: Aspose.Tasks for .NET Tutoriály
-type: docs
 weight: 10
 url: /cs/net/
 description: Prozkoumejte výukové programy Aspose.Tasks pro .NET zahrnující možnosti ukládání, kalendář a plánování, správu projektů a další. Zvyšte své dovednosti projektového řízení.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.Tasks pro .NET
+
 ## Úvod
 
 Jste připraveni odemknout plný potenciál Aspose.Tasks pro .NET? Ponořte se do našich komplexních výukových programů a příkladů pokrývajících širokou škálu témat, abyste zlepšili své dovednosti projektového řízení. Od možností ukládání po pokročilé funkce, kalendář a plánování úkolů, správu projektů a přizpůsobení, máme pro vás vše.
@@ -72,3 +77,9 @@ Prozkoumejte možnosti formátu souboru Aspose.Tasks a osvojte si konfiguraci mo
 Zjistěte, jak zvýšit zabezpečení vašich souborů Microsoft Project PDF pomocí Aspose.Tasks for .NET. Naučte se techniky digitálního podpisu a šifrování.
 ### [Správa licencí Aspose.Tasks](./license-management/)
 Odemkněte sílu Aspose.Tasks pro .NET pomocí našich komplexních výukových programů. Spravujte licence a optimalizujte využití MS Project pro efektivní správu projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

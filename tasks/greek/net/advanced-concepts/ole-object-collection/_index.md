@@ -3,10 +3,16 @@ title: Συλλογή αντικειμένων OLE στο Aspose.Tasks
 linktitle: Συλλογή αντικειμένων OLE στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αντικείμενα OLE στο Aspose.Tasks για .NET με αυτό το ολοκληρωμένο σεμινάριο. Κατακτήστε τον χειρισμό των ενσωματωμένων αρχείων στα έγγραφα του έργου χωρίς κόπο.
-type: docs
 weight: 23
 url: /el/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλογή αντικειμένων OLE στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαχείριση αντικειμένων OLE (Σύνδεση και ενσωμάτωση αντικειμένων) στο Aspose.Tasks για .NET. Τα αντικείμενα OLE επιτρέπουν στους χρήστες να ενσωματώνουν ή να συνδέουν αρχεία από άλλες εφαρμογές μέσα σε ένα αρχείο έργου. Θα καλύψουμε τον τρόπο εργασίας με μια συλλογή από αυτά τα αντικείμενα βήμα προς βήμα.
@@ -97,3 +103,9 @@ A3: Ενώ συνιστάται η βασική γνώση της C#, το Aspos
 ### Ε5: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;
 
  A5: Μπορείτε να αναζητήσετε υποστήριξη και να κάνετε ερωτήσεις στο φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

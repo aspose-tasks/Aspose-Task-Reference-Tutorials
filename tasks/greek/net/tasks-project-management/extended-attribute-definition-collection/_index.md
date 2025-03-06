@@ -3,10 +3,16 @@ title: Master Extended Attribute Definitions MS Project στο Aspose.Tasks
 linktitle: Συλλογή από εκτεταμένους ορισμούς χαρακτηριστικών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε εκτεταμένους ορισμούς χαρακτηριστικών στο Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε και βελτιώστε τα δεδομένα του έργου σας χωρίς κόπο.
-type: docs
 weight: 14
 url: /el/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Extended Attribute Definitions MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε τον τρόπο εργασίας με εκτεταμένους ορισμούς χαρακτηριστικών στο Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Τα εκτεταμένα χαρακτηριστικά προσφέρουν έναν ευέλικτο τρόπο προσαρμογής και βελτίωσης των δεδομένων έργου, επιτρέποντας στους χρήστες να προσθέτουν επιπλέον πεδία πέρα από τα τυπικά που παρέχονται από προεπιλογή. Με το Aspose.Tasks, μπορείτε να διαχειριστείτε αβίαστα αυτά τα εκτεταμένα χαρακτηριστικά για να προσαρμόσετε τις ανάγκες διαχείρισης του έργου σας.
 ## Προαπαιτούμενα
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 Α: Το Aspose.Tasks είναι συμβατό με διάφορα πλαίσια .NET, εξασφαλίζοντας ευελιξία και ευκολία ενσωμάτωσης.
 ### Ε: Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για υποστήριξη και εξερευνήστε την τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

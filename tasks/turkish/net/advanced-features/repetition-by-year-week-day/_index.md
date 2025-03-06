@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
 linktitle: Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
 second_title: Aspose.Tasks .NET API'si
 description: Yinelenen görevleri verimli bir şekilde yönetme konusunda Aspose.Tasks for .NET'in gücünü keşfedin. Yıl Hafta Gününe Göre Tekrarlama özelliğini uygulamaya yönelik adım adım kılavuz.
-type: docs
 weight: 28
 url: /tr/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
+
 ## giriiş
 
 Proje yönetimi alanında verimlilik ve hassasiyet çok önemlidir. Aspose.Tasks for .NET, proje yönetimini kolaylaştırmak için çok sayıda özellik sunan güçlü bir araç olarak ortaya çıkıyor. Cephaneliği arasında yinelenen görevleri olağanüstü bir esneklikle yönetme yeteneği de vardır. Bu tür özelliklerden biri, kullanıcıların haftanın belirli günlerinde, belirlenen aylarda ve birden fazla yılda tekrarlanan görevleri ayarlamasına olanak tanıyan "Yılın Hafta Gününe Göre Tekrarlama" işlevidir.
@@ -126,3 +132,9 @@ C: Evet, Aspose.Tasks for .NET, bulut tabanlı proje yönetimi çözümleri içi
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
 C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini keşfetmenize olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

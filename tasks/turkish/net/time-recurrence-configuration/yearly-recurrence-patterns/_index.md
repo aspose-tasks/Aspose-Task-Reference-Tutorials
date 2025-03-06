@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Yıllık Yinelenme Modellerinde Ustalaşın
 linktitle: Aspose.Tasks'ta Yıllık Yinelenme Modellerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te yıllık yineleme modellerini yapılandırmayı öğrenin. Bu adım adım kılavuzla proje yönetimi becerilerinizi geliştirin.
-type: docs
 weight: 18
 url: /tr/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Yıllık Yinelenme Modellerinde Ustalaşın
+
 ## giriiş
 Proje yönetiminin dinamik dünyasında yinelenen görevlerin verimli bir şekilde ele alınması önemli bir husustur. Aspose.Tasks for .NET, yıllık yineleme modellerini yapılandırmak için güçlü bir çözüm sunarak proje planlamanızı ve yönetiminizi kolaylaştırmanıza olanak tanır. Bu adım adım kılavuzda Aspose.Tasks'ı kullanarak yıllık yineleme modellerinin nasıl ayarlanacağını keşfedeceğiz.
 ## Önkoşullar
@@ -69,3 +75,9 @@ Bu eğitimde Aspose.Tasks for .NET'te yıllık yinelenme modellerini yapılandı
  Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Toplumsal destek ve yardım için.
 ### Satın almadan önce Aspose.Tasks'ı ücretsiz deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحديد المهام المشتركة بين المشاريع في Asp
 linktitle: تحديد المهام المشتركة بين المشاريع في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف تحديد المهام عبر المشروعات باستخدام Aspose.Tasks لـ Java. التكامل السلس والإدارة الفعالة. التحميل الان!
-type: docs
 weight: 14
 url: /ar/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد المهام المشتركة بين المشاريع في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول تحديد المهام المشتركة بين المشاريع بكفاءة باستخدام Aspose.Tasks لـ Java. سواء كنت مطورًا متمرسًا أو مبتدئًا، سيرشدك هذا الدليل خلال عملية دمج هذه الوظيفة بسلاسة في مشاريع Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
  ج: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 ج: تفضل بزيارة منتدى دعم Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

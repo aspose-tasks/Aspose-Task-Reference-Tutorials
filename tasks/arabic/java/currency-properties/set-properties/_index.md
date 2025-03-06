@@ -3,10 +3,16 @@ title: قم بتعيين خصائص العملة في مشاريع Aspose.Tasks
 linktitle: قم بتعيين خصائص العملة في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تعيين خصائص العملة في مشاريع Aspose.Tasks باستخدام Java. التعامل مع ملفات Microsoft Project دون عناء.
-type: docs
 weight: 11
 url: /ar/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين خصائص العملة في مشاريع Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تعيين خصائص العملة في مشاريع Aspose.Tasks باستخدام Java. Aspose.Tasks هي مكتبة Java قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 نعم، يمكن دمج Aspose.Tasks بسلاسة مع مكتبات وأطر عمل Java الأخرى، مما يعزز وظائفها وتعدد استخداماتها.
 ### أين يمكنني العثور على دعم أو مساعدة إضافية لـ Aspose.Tasks؟
  للحصول على دعم إضافي، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)، حيث يمكنك العثور على موارد مفيدة والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

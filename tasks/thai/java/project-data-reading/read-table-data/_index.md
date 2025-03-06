@@ -3,10 +3,16 @@ title: อ่านข้อมูลตารางจากไฟล์ใน 
 linktitle: อ่านข้อมูลตารางจากไฟล์ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: ปลดล็อกพลังของ Aspose.Tasks สำหรับ Java เรียนรู้วิธีแยกข้อมูลตารางออกจากไฟล์ในบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 17
 url: /th/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อ่านข้อมูลตารางจากไฟล์ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการอ่านข้อมูลตารางจากไฟล์โดยใช้ Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Microsoft Project โดยทางโปรแกรม
 ## ข้อกำหนดเบื้องต้น
@@ -62,3 +68,9 @@ for (TableField f : t1.getTableFields()) {
  ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks เวอร์ชันทดลองใช้ฟรีได้จาก[หน้าเผยแพร่](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอความช่วยเหลือและสนับสนุน Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)เพื่อขอความช่วยเหลือและการสนับสนุนจากชุมชนและทีมงาน Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Správa základního plánu přiřazení v Aspose.Tasks
 linktitle: Správa základního plánu přiřazení v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat základní linie zadání pomocí Aspose.Tasks pro .NET, což zajišťuje přesné sledování průběhu a výkonu projektu.
-type: docs
 weight: 14
 url: /cs/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa základního plánu přiřazení v Aspose.Tasks
+
 ## Úvod
 
 Při práci na úkolech projektového řízení je pro přesné sledování pokroku zásadní řízení výchozích linií přiřazení. Aspose.Tasks for .NET poskytuje komplexní sadu nástrojů pro efektivní zpracování základních linií přiřazení. V tomto tutoriálu se krok za krokem ponoříme do procesu správy základních linií přiřazení.
@@ -123,3 +129,9 @@ Odpověď 4: Ano, vývojáři mají přístup ke komplexní dokumentaci, výukov
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
  A5: Ano, vývojáři mohou získat bezplatnou zkušební verzi Aspose.Tasks for .NET od[tady](https://releases.aspose.com/), což jim umožňuje vyhodnotit jeho vlastnosti a možnosti před rozhodnutím o koupi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Képletek
 linktitle: Képletek
 second_title: Aspose.Tasks Java API
 description: Növelje projektmenedzsment-készségeit az Aspose.Tasks for Java segítségével. Sajátítsa el az MS Project képleteit, növelje a termelékenységet, és hatékonyan írjon/olvasson képleteket könnyedén.
-type: docs
 weight: 23
 url: /hu/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képletek
+
 
 ## Bevezetés
 
@@ -38,3 +44,9 @@ Ismerje meg, hogyan támogassa az MS Project függvények kiértékelését Aspo
 Ismerje meg, hogyan kezelheti az MS Project fájlokat Java nyelven az Aspose.Tasks könyvtár használatával. Az attribútumok egyszerű létrehozása, módosítása és kiszámítása.
 ### [MS projektképletek írása és olvasása az Aspose.Tasks programban](./write-read-formulas/)
 Tanuljon meg hatékonyan írni és olvasni MS Project képleteket az Aspose.Tasks for Java segítségével. Fejlessze projektmenedzsment készségeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Projektfájl-műveletek
 linktitle: Projektfájl-műveletek
 second_title: Aspose.Tasks Java API
 description: Könnyedén optimalizálhatja az MS Project elrendezéseit az Aspose.Tasks for Java segítségével. Tanuljon meg lépésenkénti oktatóanyagokat a hézagok csökkentéséről, az adatok megjelenítéséről, a naptárak cseréjéről és sok másról.
-type: docs
 weight: 29
 url: /hu/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektfájl-műveletek
+
 ## Bevezetés
 Bővíteni szeretné Java projektkezelési képességeit? Merüljön el az Aspose.Tasks for Java átfogó oktatóanyagaiban, amelyek a különböző projektfájl-műveletekre összpontosítanak. A feladatlisták hiányosságainak csökkentésétől az MS Project nézetek testreszabásáig mi mindent megtalálunk.
 
@@ -94,3 +100,9 @@ Ismerje meg, hogyan hozhat létre könnyedén egyéni MS Project nézeteket az A
 Ismerje meg a hétköznapi tulajdonságok hatékony kezelését az Aspose.Tasks for Java programban. Könnyedén testreszabhatja a hét kezdési dátumait, a hónap napjait és még sok mást.
 ### [Írja meg az MPP projekt összefoglalóját az Aspose.Tasks mappában](./write-mpp-project-summary/)
 Ismerje meg, hogyan írhat MPP projekt összefoglalókat Java nyelven az Aspose.Tasks használatával. Könnyedén állíthatja be és kérheti le a projektinformációkat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

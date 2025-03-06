@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 자원 사용량 보기 구성
 linktitle: Aspose.Tasks에서 리소스 사용량 보기 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS Project 리소스 사용량 보기를 구성하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 자원 사용량 보기 구성
+
 ## 소개
 Microsoft Project(MS Project)는 프로젝트 관리를 위한 강력한 도구로, 사용자가 프로젝트를 효율적으로 계획, 실행 및 추적할 수 있도록 해줍니다. .NET용 Aspose.Tasks는 MS 프로젝트 파일과의 원활한 통합을 제공하여 개발자가 프로그래밍 방식으로 프로젝트 데이터를 조작할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 리소스 사용량 보기를 구성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -58,3 +64,9 @@ A: 예, Aspose.Tasks는 XLSX, MPP, XML, HTML 등을 포함한 다양한 출력 �
  A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 질문, 토론 또는 지원이 필요한 경우.
 ### Q: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 물론 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

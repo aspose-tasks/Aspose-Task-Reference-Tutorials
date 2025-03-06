@@ -3,10 +3,16 @@ title: إتقان تكوين أسبوع العمل في Aspose.Tasks
 linktitle: تكوين أسابيع العمل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين أسابيع العمل بسهولة في Aspose.Tasks لـ .NET. قم بتحسين جدولة المشروع وإدارة الموارد من خلال دليلنا خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان تكوين أسبوع العمل في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول تكوين أسابيع العمل في Aspose.Tasks لـ .NET. تعد إدارة أسابيع العمل بكفاءة أمرًا بالغ الأهمية لتخطيط المشروع وجدولة مواعيده. يعمل Aspose.Tasks على تبسيط هذه العملية، مما يسمح لك بتخصيص أسابيع العمل وفقًا لاحتياجات مشروعك. في هذا البرنامج التعليمي، سنرشدك خلال خطوات تكوين أسابيع العمل بسلاسة.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 اعتبارًا من الإصدار الحالي، لا يوجد حد محدد مسبقًا لعدد أسابيع العمل التي يمكنك تكوينها في المشروع.
 ### هل هناك أي قوالب مضمنة لأسابيع العمل المشتركة؟
 نعم، يتضمن Aspose.Tasks قالب تقويم قياسي يمكنك استخدامه كنقطة بداية لمشروعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

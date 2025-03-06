@@ -3,10 +3,16 @@ title: Managing MS Project Server Credentials in Aspose.Tasks
 linktitle: Managing Project Server Credentials in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage MS Project Server credentials seamlessly with Aspose.Tasks for .NET. Enhance project management efficiency.
-type: docs
 weight: 22
 url: /net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing MS Project Server Credentials in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, effective coordination and seamless communication are pivotal for successful project execution. Aspose.Tasks for .NET provides a comprehensive solution for managing Microsoft Project Server credentials, enabling users to securely access and manipulate project data. This tutorial delves into the process of managing MS Project Server credentials using Aspose.Tasks for .NET, guiding users through each step to ensure a smooth experience.
 ## Prerequisites
@@ -83,3 +89,10 @@ A: Absolutely, Aspose.Tasks for .NET offers comprehensive support for accessing 
 A: Yes, Aspose.Tasks for .NET offers flexible licensing options, including temporary licenses for trial purposes and full licenses for commercial use.
 ### Q: Where can I seek assistance or support for Aspose.Tasks for .NET?
 A: For any inquiries or assistance regarding Aspose.Tasks for .NET, you can visit the support forum at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Complete Source Code
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

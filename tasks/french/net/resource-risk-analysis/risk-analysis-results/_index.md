@@ -3,10 +3,16 @@ title: Analyse efficace des risques avec Aspose.Tasks
 linktitle: Résultats de l’analyse des risques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment effectuer une analyse des risques sur les fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Rationalisez la gestion de projet et atténuez efficacement les incertitudes.
-type: docs
 weight: 18
 url: /fr/net/resource-risk-analysis/risk-analysis-results/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Analyse efficace des risques avec Aspose.Tasks
+
 ## Introduction
 L'analyse des risques est un aspect essentiel de la gestion de projet, car elle fournit un aperçu des incertitudes potentielles et de leurs impacts sur les délais du projet. Avec Aspose.Tasks pour .NET, la réalisation d'une analyse des risques devient rationalisée et efficace. Dans ce didacticiel, nous verrons comment effectuer une analyse MS Project et interpréter les résultats à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -89,3 +95,9 @@ R : Oui, Aspose.Tasks prend en charge diverses distributions de probabilité tel
 R : Certes, Aspose.Tasks permet une personnalisation approfondie des paramètres d'analyse des risques pour s'adapter à divers scénarios de projet.
 ### Q : Le support technique est-il disponible pour les utilisateurs d'Aspose.Tasks ?
  R : Oui, les utilisateurs peuvent accéder à une assistance technique complète via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

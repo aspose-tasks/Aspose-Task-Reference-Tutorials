@@ -3,10 +3,16 @@ title: Sla MS-projectgegevens op in Excel in Aspose.Tasks
 linktitle: Sla gegevens op in Excel in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u Microsoft Project-gegevens opslaat in Excel-bestanden met Aspose.Tasks voor Java. Eenvoudige integratie voor Java-ontwikkelaars.
-type: docs
 weight: 19
 url: /nl/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sla MS-projectgegevens op in Excel in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken. In deze tutorial begeleiden we u stap voor stap door het proces van het opslaan van gegevens uit een projectbestand naar een Excel-bestand.
 ## Vereisten
@@ -52,3 +58,9 @@ Ja, Aspose.Tasks voor Java biedt uitgebreide functies voor het manipuleren van p
  U kunt ondersteuning krijgen door het Aspose.Tasks-forum te bezoeken[hier](https://forum.aspose.com/c/tasks/15).
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Tasks voor Java?
  Ja, u kunt een tijdelijke licentie aanschaffen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurace možností zobrazení MS Project v Aspose.Tasks
 linktitle: Konfigurace možností zobrazení projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat možnosti zobrazení MS Project programově pomocí Aspose.Tasks pro .NET. Přizpůsobte si vzhled svého projektu bez námahy.
-type: docs
 weight: 17
 url: /cs/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace možností zobrazení MS Project v Aspose.Tasks
+
 ## Úvod
 Microsoft Project nabízí nepřeberné množství možností zobrazení pro přizpůsobení vzhledu vašeho projektu. Aspose.Tasks for .NET poskytuje robustní rámec pro programovou manipulaci s těmito možnostmi. V tomto tutoriálu prozkoumáme, jak nakonfigurovat možnosti zobrazení MS Project pomocí Aspose.Tasks.
 ## Předpoklady
@@ -85,3 +91,9 @@ Odpověď: Ne, některé možnosti mohou být specifické pro určité verze MS 
 Odpověď: Ano, můžete resetovat možnosti zobrazení na jejich výchozí hodnoty pomocí Aspose.Tasks API.
 ### Otázka: Existují nějaká omezení programového přizpůsobení možností zobrazení?
 Odpověď: Přestože Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení, určité možnosti zobrazení nemusí být programově dostupné kvůli omezením ve formátu souboru MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

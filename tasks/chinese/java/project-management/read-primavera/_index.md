@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for Java 读取 Primavera 的 MS 项目
 linktitle: 在 Aspose.Tasks 中读取 Primavera 的项目
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 Primavera XML 无缝读取 MS Project 文件。提高您的项目管理效率。
-type: docs
 weight: 20
 url: /zh/java/project-management/read-primavera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for Java 读取 Primavera 的 MS 项目
+
 ## 介绍
 在项目管理中，不同软件平台之间的互操作性对于无缝工作流程至关重要。 Aspose.Tasks for Java 提供了从 Primavera XML 读取 Microsoft Project 文件的强大功能。本教程将指导您完成使用 Aspose.Tasks for Java 从 Primavera 读取 MS Project 文件的过程，从而使您能够有效地检查任务的 Primavera 特定属性。
 ## 先决条件
@@ -88,3 +94,9 @@ for (Task task : project.enumerateAllChildTasks()) {
 答：是的，Aspose.Tasks for Java 允许您从 Primavera 项目中提取资源信息以及任务详细信息。
 ### 问：在哪里可以找到 Aspose.Tasks for Java 的其他支持或文档？
 答：您可以找到全面的文档并访问论坛以获得有关[Aspose.Tasks for Java 文档](https://reference.aspose.com/tasks/java/)页。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Duration Handling in Aspose.Tasks
 linktitle: Duration Handling in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle durations effectively in Aspose.Tasks for .NET with step-by-step tutorials.
-type: docs
 weight: 30
 url: /net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Duration Handling in Aspose.Tasks
+
 ## Introduction
 
 Handling durations effectively is crucial in project management applications. Aspose.Tasks for .NET provides robust functionality for managing durations efficiently. In this tutorial, we'll explore various aspects of duration handling using Aspose.Tasks for .NET.
@@ -156,3 +162,10 @@ A4: Yes, Aspose.Tasks supports reading and writing Microsoft Project files in va
 ### Q5: Is there a trial version available for Aspose.Tasks for .NET?
 
 A5: Yes, you can get a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

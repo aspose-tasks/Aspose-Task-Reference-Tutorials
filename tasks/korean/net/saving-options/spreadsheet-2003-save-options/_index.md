@@ -3,10 +3,16 @@ title: Aspose.Tasks용 스프레드시트 2003 옵션이 포함된 MS 프로젝�
 linktitle: Aspose.Tasks에 대한 스프레드시트 2003 저장 옵션
 second_title: Aspose.태스크 .NET API
 description: 마스터 스프레드시트 2003 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 옵션을 저장합니다. 프로그래밍 방식으로 MS 프로젝트 파일을 원활하게 사용자 정의하고 저장합니다.
-type: docs
 weight: 19
 url: /ko/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks용 스프레드시트 2003 옵션이 포함된 MS 프로젝트
+
 ## 소개
 이 튜토리얼에서는 스프레드시트 2003 저장 MS 프로젝트 옵션을 활용하기 위해 .NET용 Aspose.Tasks를 활용하는 방법을 살펴보겠습니다. 이 강력한 도구를 사용하면 .NET 환경에서 MS 프로젝트 파일을 원활하게 조작하고 사용자 정의할 수 있습니다. 프로세스를 단계별로 분석해 보겠습니다.
 ## 전제조건
@@ -65,3 +71,9 @@ A: Aspose.Tasks for .NET은 최소한의 제한으로 뷰 열에 대한 광범�
  답: 물론이죠! Aspose.Tasks 포럼에서 포괄적인 지원과 리소스를 찾을 수 있습니다.[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)에서는 전문가와 커뮤니티 구성원이 귀하가 직면할 수 있는 질문이나 문제를 해결하는 데 도움을 드릴 수 있습니다.
 ### Q: .NET용 Aspose.Tasks의 임시 라이선스를 어떻게 얻을 수 있나요?
  A: Aspose.Tasks for .NET에 대한 임시 라이선스를 다음에서 얻을 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/), 라이브러리의 전체 기능을 평가할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

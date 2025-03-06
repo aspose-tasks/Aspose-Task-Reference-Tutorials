@@ -3,10 +3,16 @@ title: Hantera bildsparande i Aspose.Tasks
 linktitle: Hantera bildsparande i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar bildsparande i Aspose.Tasks för .NET med hjälp av steg-för-steg-riktlinjer. Integrera sömlöst bildsparfunktion i dina .NET-applikationer.
-type: docs
 weight: 10
 url: /sv/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera bildsparande i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att fördjupa oss i processen att hantera bildsparande i Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som gör det möjligt för utvecklare att manipulera Microsoft Project-filer programmatiskt. En vanlig uppgift när man arbetar med projektfiler är behovet av att spara bilder, som kan innehålla diagram, grafer eller andra visuella element. Vi kommer att bryta ner processen steg för steg, för att säkerställa klarhet och förståelse hela tiden.
@@ -131,3 +137,9 @@ S4: Ja, du kan anpassa utseendet på sparade bilder genom att ändra logiken fö
 ### F5: Erbjuder Aspose.Tasks testversioner för utvärderingssyften?
 
  S5: Ja, du kan få en gratis provversion av Aspose.Tasks från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

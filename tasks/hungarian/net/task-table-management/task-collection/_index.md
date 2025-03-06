@@ -3,10 +3,16 @@ title: Feladatgyűjtemények kezelése az Aspose.Tasks alkalmazásban
 linktitle: Feladatgyűjtemények kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel a hatékony feladatgyűjtemény-kezelést az Aspose.Tasks for .NET-ben. A létrehozástól a szerkesztésig könnyedén sajátíthatja el a projektmenedzsmentet.
-type: docs
 weight: 18
 url: /hu/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladatgyűjtemények kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Ha a .NET használatával elmélyül a projektmenedzsment világában, az Aspose.Tasks a legjobb megoldás a feladatgyűjtemények zökkenőmentes kezelésére. Ez az oktatóanyag végigvezeti Önt a feladatgyűjtemények hatékony kezelésének folyamatán, biztosítva, hogy a legtöbbet hozza ki ebből a hatékony könyvtárból.
 ## Előfeltételek
@@ -95,3 +101,9 @@ Teljesen! Az Aspose.Tasks sokoldalú exportálási lehetőségeket kínál, bele
  Igen, itt találhat támogatást és kapcsolatba léphet a közösséggel[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 ### Kaphatok ideiglenes licencet az Aspose.Tasks számára?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

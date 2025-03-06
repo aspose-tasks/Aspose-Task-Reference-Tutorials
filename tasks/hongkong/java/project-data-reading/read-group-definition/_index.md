@@ -3,10 +3,16 @@ title: 讀取 Aspose.Tasks 中的群組定義數據
 linktitle: 讀取 Aspose.Tasks 中的群組定義數據
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 從 Microsoft Project 檔案讀取群組定義資料。請按照我們的逐步教學進行操作。
-type: docs
 weight: 10
 url: /zh-hant/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 讀取 Aspose.Tasks 中的群組定義數據
+
 ## 介紹
 Aspose.Tasks for Java 是一個功能強大的函式庫，可讓開發人員輕鬆操作 Microsoft Project 檔案。在本教程中，我們將使用 Aspose.Tasks for Java 逐步完成從專案檔案讀取群組定義資料的過程。
 ## 先決條件
@@ -79,3 +85,9 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 答：是的，Aspose.Tasks for Java 可讓您將專案資料匯出為 PDF、XLSX 和 CSV 等格式。
 ### Q：在哪裡可以找到 Aspose.Tasks for Java 的其他資源和支援？
 答：您可以訪問[Aspose.Tasks for Java 文檔](https://reference.aspose.com/tasks/java/)欲了解綜合指南，請參閱[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

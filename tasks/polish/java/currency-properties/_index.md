@@ -3,10 +3,16 @@ title: Właściwości waluty
 linktitle: Właściwości waluty
 second_title: Aspose.Tasks API Java
 description: Odblokuj moc Aspose.Tasks w tutorialach Java. Odkryj przewodniki krok po kroku dotyczące łatwego odczytywania i ustawiania właściwości walut w plikach MS Project.
-type: docs
 weight: 25
 url: /pl/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Właściwości waluty
+
 ## Wstęp
 Czy jesteś gotowy, aby podnieść swoje umiejętności Aspose.Tasks for Java? Zapoznaj się z naszymi obszernymi samouczkami na temat właściwości walut i opanuj sztukę obsługi informacji o walutach w plikach MS Project.
 
@@ -35,3 +41,9 @@ Gotowy, aby wyruszyć w tę edukacyjną podróż? Kliknij poniższe linki, aby r
 Dowiedz się, jak wyodrębnić informacje o walutach z plików MS Project przy użyciu Aspose.Tasks dla Java. Dostarczono przewodnik krok po kroku.
 ### [Ustaw właściwości waluty w projektach Aspose.Tasks](./set-properties/)
 Dowiedz się, jak ustawić właściwości waluty w projektach Aspose.Tasks przy użyciu języka Java. Bez wysiłku manipuluj plikami Microsoft Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

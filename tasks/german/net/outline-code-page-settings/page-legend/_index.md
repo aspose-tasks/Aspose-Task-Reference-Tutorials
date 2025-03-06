@@ -3,10 +3,16 @@ title: Konfigurieren von MS Project-Legenden in Aspose.Tasks
 linktitle: Konfigurieren der Seitenlegende in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Seitenlegenden in .NET mithilfe von Aspose.Tasks für eine effiziente Projektverwaltung konfigurieren. Schritt-für-Schritt-Anleitung bereitgestellt.
-type: docs
 weight: 18
 url: /de/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurieren von MS Project-Legenden in Aspose.Tasks
+
 ## Einführung
 Im Bereich der .NET-Entwicklung ist die effiziente Verwaltung von Aufgaben von entscheidender Bedeutung, insbesondere im Projektmanagement. Aspose.Tasks für .NET erweist sich als leistungsstarkes Tool, das eine Fülle von Funktionen zur Optimierung von Aufgabenverwaltungsprozessen bietet. Eine dieser Funktionen ist die Möglichkeit, MS Project-Seitenlegenden zu konfigurieren, wodurch Benutzer wertvolle Einblicke in die Präsentation von Projektdaten erhalten.
 ## Voraussetzungen
@@ -85,3 +91,9 @@ A: Temporäre Lizenzen bieten vollen Zugriff auf Aspose.Tasks für .NET-Funktion
 A: Absolut, Aspose.Tasks für .NET bietet umfangreiche Anpassungsoptionen, mit denen Sie Seitenlegenden an Ihre spezifischen Projektanforderungen anpassen können.
 ### F: Wo finde ich Support oder Community-Foren für Aspose.Tasks für .NET?
  A: Sie können Unterstützung suchen und sich in der Community engagieren[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15), wo Sie Antworten auf Fragen finden und mit anderen Entwicklern interagieren können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

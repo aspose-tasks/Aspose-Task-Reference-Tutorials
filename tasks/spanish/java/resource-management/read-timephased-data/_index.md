@@ -3,10 +3,16 @@ title: Leer datos de fases temporales para recursos en Aspose.Tasks
 linktitle: Leer datos de fases temporales para recursos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a extraer datos en fases temporales de recursos de MS Project utilizando Aspose.Tasks para Java. Tutorial paso a paso.
-type: docs
 weight: 15
 url: /es/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leer datos de fases temporales para recursos en Aspose.Tasks
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de lectura de datos en fases temporales para recursos de MS Project usando Aspose.Tasks para Java. Esta biblioteca proporciona potentes funcionalidades para administrar archivos de Microsoft Project mediante programación.
 ## Requisitos previos
@@ -74,3 +80,9 @@ Por supuesto, Aspose.Tasks proporciona amplias API para crear, modificar y anali
 Sí, Aspose.Tasks se utiliza ampliamente en entornos empresariales debido a su confiabilidad y escalabilidad.
 ### ¿Dónde puedo encontrar soporte si tengo problemas al usar Aspose.Tasks?
  Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener ayuda de la comunidad y del equipo de soporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

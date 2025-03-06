@@ -3,10 +3,16 @@ title: Προσαρμόστε τις γραμμές πλέγματος στο MS
 linktitle: Γραμμές πλέγματος στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσαρμόζετε τις γραμμές πλέγματος στο MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Βελτιώστε την οπτικοποίηση και τη διαχείριση του έργου σας με βήματα που μπορείτε να ακολουθήσετε εύκολα.
-type: docs
 weight: 23
 url: /el/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τις γραμμές πλέγματος στο MS Project για Aspose.Tasks
+
 ## Εισαγωγή
 
 Στη διαχείριση έργου, η οπτική αναπαράσταση διαδραματίζει κρίσιμο ρόλο στην κατανόηση των χρονοδιαγραμμάτων, των εξαρτήσεων και της προόδου του έργου. Το Aspose.Tasks για .NET παρέχει ισχυρά εργαλεία για το χειρισμό αρχείων έργου μέσω προγραμματισμού. Ένα τέτοιο χαρακτηριστικό είναι η δυνατότητα προσαρμογής γραμμών πλέγματος στο MS Project χρησιμοποιώντας το Aspose.Tasks.
@@ -113,3 +119,9 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
 
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του[Aspose.Tasks για .NET από](https://forum.aspose.com/c/tasks/15). για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

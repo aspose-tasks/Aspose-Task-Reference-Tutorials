@@ -3,10 +3,16 @@ title: Přečtěte si data tabulky ze souboru v Aspose.Tasks
 linktitle: Přečtěte si data tabulky ze souboru v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Odemkněte sílu Aspose.Tasks for Java. Naučte se extrahovat data tabulky ze souborů v tomto komplexním kurzu.
-type: docs
 weight: 17
 url: /cs/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přečtěte si data tabulky ze souboru v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak číst data tabulky ze souboru pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonná Java knihovna, která umožňuje vývojářům pracovat s dokumenty Microsoft Project programově.
 ## Předpoklady
@@ -62,3 +68,9 @@ Odpověď: Ano, můžete použít Aspose.Tasks k programové úpravě dat tabulk
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks z[stránka vydání](https://releases.aspose.com/).
 ### Otázka: Kde najdu pomoc a podporu pro Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za pomoc a podporu od komunity a týmu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

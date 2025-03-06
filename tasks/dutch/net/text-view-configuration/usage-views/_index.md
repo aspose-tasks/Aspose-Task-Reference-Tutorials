@@ -3,10 +3,16 @@ title: Gebruiksweergaven configureren in Aspose.Tasks
 linktitle: Gebruiksweergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u taakgebruiksweergaven configureert in Aspose.Tasks voor .NET. Verbeter de projectvisualisatie met gedetailleerde stappen. Download de bibliotheek nu!
-type: docs
 weight: 17
 url: /nl/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gebruiksweergaven configureren in Aspose.Tasks
+
 ## Invoering
 Als u een .NET-ontwikkelaar bent en uw projectbeheermogelijkheden wilt verbeteren, is Aspose.Tasks een krachtig hulpmiddel waarmee u Microsoft Project-bestanden moeiteloos kunt manipuleren. In deze zelfstudie concentreren we ons op het configureren van gebruiksweergaven met Aspose.Tasks voor .NET. Volg mee om inzicht te krijgen in het weergeven van taakgebruiksweergaven met details voor een betere projectvisualisatie.
 ## Vereisten
@@ -72,3 +78,9 @@ Gefeliciteerd! U hebt met succes gebruiksweergaven geconfigureerd in Aspose.Task
  Ja, ontdek de gratis proefperiode[hier](https://releases.aspose.com/).
 ### Vraag: Heeft u ondersteuning nodig of heeft u vragen?
  Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

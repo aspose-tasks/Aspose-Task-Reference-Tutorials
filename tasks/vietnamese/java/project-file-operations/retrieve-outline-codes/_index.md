@@ -3,10 +3,16 @@ title: Truy xuất mã phác thảo dự án MS trong Aspose.Tasks
 linktitle: Truy xuất mã phác thảo trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách truy xuất mã phác thảo Microsoft Project theo chương trình bằng cách sử dụng Aspose.Tasks cho Java. Nâng cao khả năng quản lý dự án của bạn.
-type: docs
 weight: 15
 url: /vi/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất mã phác thảo dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách truy xuất mã phác thảo Microsoft Project bằng Aspose.Tasks cho Java. Mã phác thảo trong MS Project cung cấp một cách có cấu trúc để phân loại và sắp xếp các nhiệm vụ, tài nguyên và nhiệm vụ của dự án. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác và quản lý các tệp Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -82,3 +88,9 @@ Trả lời: Có, Aspose.Tasks for Java cung cấp các API để sửa đổi m
  Đáp: Có, bạn có thể mua giấy phép tạm thời cho Aspose.Tasks for Java từ[trang mua hàng](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi 5: Tôi có thể tìm tài liệu đầy đủ về Aspose.Tasks cho Java ở đâu?
  Đáp: Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/tasks/java/) để biết thông tin chi tiết về cách sử dụng Aspose.Tasks cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

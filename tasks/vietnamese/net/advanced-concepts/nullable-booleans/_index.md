@@ -3,10 +3,16 @@ title: Xử lý Boolean Nullable trong Aspose.Tasks
 linktitle: Xử lý Boolean Nullable trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các boolean có thể rỗng một cách hiệu quả trong Aspose.Tasks for .NET với hướng dẫn toàn diện này. Nắm vững cách sử dụng lớp `NullableBool` và nâng cao khả năng phát triển .NET của bạn.
-type: docs
 weight: 21
 url: /vi/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý Boolean Nullable trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào làm việc với các boolean có thể rỗng trong Aspose.Tasks cho .NET. Các boolean nullable mang lại sự linh hoạt trong việc biểu diễn các giá trị boolean, cho phép khả năng không được xác định. Chúng ta sẽ khám phá cách sử dụng`NullableBool` lớp, các hàm tạo, thuộc tính và phương thức của nó.
@@ -153,3 +159,9 @@ Câu trả lời 4: Có, bạn có thể đặt một boolean có thể rỗng t
 ### Câu hỏi 5: Tôi có thể tìm thêm tài liệu về Aspose.Tasks cho .NET ở đâu?
 
  A5: Bạn có thể tìm tài liệu chi tiết[đây](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

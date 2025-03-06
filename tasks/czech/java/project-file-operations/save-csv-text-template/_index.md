@@ -3,10 +3,16 @@ title: Uložit jako CSV, text a šablonu v Aspose.Tasks
 linktitle: Uložit jako CSV, text a šablonu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se ukládat soubory Microsoft Project ve formátech CSV, Text a Template pomocí Aspose.Tasks for Java.
-type: docs
 weight: 16
 url: /cs/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit jako CSV, text a šablonu v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak pomocí Aspose.Tasks for Java uložit soubory projektu v různých formátech, jako je CSV, Text a Template. Aspose.Tasks je výkonná Java knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project bez nutnosti instalace Microsoft Project.
 ## Předpoklady
@@ -77,3 +83,9 @@ A: Rozhodně! Aspose.Tasks for Java si snadno poradí s projekty různé složit
  Odpověď: Ano, můžete si zakoupit dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/), což vám umožní zhodnotit plný potenciál knihovny.
 ### Otázka: Je Aspose.Tasks for Java kompatibilní s různými operačními systémy?
 Odpověď: Ano, Aspose.Tasks for Java je kompatibilní s různými operačními systémy, včetně Windows, macOS a Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Конфигурация главной таблицы в Aspose.Tasks д
 linktitle: Настройка таблиц в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Научитесь настраивать таблицы в Aspose.Tasks для .NET с помощью этого пошагового руководства. Улучшите свой опыт управления проектами без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация главной таблицы в Aspose.Tasks для .NET
+
 ## Введение
 Добро пожаловать в это подробное руководство по настройке таблиц в Aspose.Tasks для .NET. Aspose.Tasks — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами Microsoft Project. В этом уроке мы познакомим вас с процессом настройки таблиц с помощью Aspose.Tasks, разбив каждый шаг для ясного понимания.
 ## Предварительные условия
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
  О: Да, вы можете изучить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу приобрести Aspose.Tasks?
  О: Вы можете купить полную лицензию.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định dạng ngày trong Aspose.Tasks
 linktitle: Định dạng ngày trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh định dạng ngày trong Aspose.Tasks cho .NET một cách dễ dàng với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 27
 url: /vi/net/calendar-scheduling/date-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng ngày trong Aspose.Tasks
+
 ## Giới thiệu
 
 Định dạng ngày tháng rất quan trọng đối với bất kỳ dự án nào, đặc biệt là khi trình bày thông tin một cách rõ ràng và dễ hiểu. Aspose.Tasks for .NET cung cấp cho các nhà phát triển các công cụ mạnh mẽ để quản lý các định dạng ngày một cách hiệu quả, cho phép họ tùy chỉnh cách trình bày ngày theo sở thích của họ. Bằng cách nắm vững các định dạng ngày tháng, bạn có thể nâng cao khả năng đọc và sử dụng các kết quả đầu ra của dự án, đảm bảo sự liên lạc và hiểu biết liền mạch giữa các bên liên quan.
@@ -100,3 +106,9 @@ Câu trả lời 4: Có, Aspose.Tasks dành cho .NET cung cấp tài liệu, hư
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua không?
 
 Câu trả lời 5: Chắc chắn, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Tasks dành cho .NET để khám phá các tính năng của nó và đánh giá tính phù hợp của nó với yêu cầu dự án của bạn trước khi đưa ra quyết định mua.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

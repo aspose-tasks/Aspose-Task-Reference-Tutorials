@@ -3,10 +3,16 @@ title: Menguasai Koleksi Bidang Tabel di Aspose.Tasks untuk .NET
 linktitle: Kumpulan Bidang Tabel di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi dunia manajemen proyek yang dinamis dengan Aspose.Tasks untuk .NET. Pelajari cara memanipulasi kumpulan bidang tabel untuk pengalaman proyek yang disesuaikan.
-type: docs
 weight: 13
 url: /id/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Koleksi Bidang Tabel di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Aspose.Tasks for .NET adalah perpustakaan canggih yang memfasilitasi manajemen proyek dengan menyediakan fungsionalitas ekstensif untuk bekerja dengan file Microsoft Project. Dalam tutorial ini, kita akan mempelajari kumpulan bidang tabel di Aspose.Tasks, menjelajahi cara memanipulasi dan mengelolanya secara efisien menggunakan C#.
 ## Prasyarat
@@ -111,3 +117,9 @@ Sangat! Seperti yang diperlihatkan dalam tutorial, Anda dapat menambah, menyisip
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk mendapatkan dukungan, mengajukan pertanyaan, dan berkolaborasi dengan komunitas.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat menjelajahi fitur Aspose.Tasks untuk .NET dengan uji coba gratis. Unduh itu[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

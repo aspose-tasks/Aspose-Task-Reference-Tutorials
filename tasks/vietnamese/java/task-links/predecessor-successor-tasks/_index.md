@@ -3,10 +3,16 @@ title: Quản lý các nhiệm vụ tiền nhiệm và nhiệm vụ kế nhiệm
 linktitle: Quản lý các nhiệm vụ tiền nhiệm và nhiệm vụ kế nhiệm trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá quản lý tác vụ hiệu quả với Aspose.Tasks cho Java. Dễ dàng xử lý các nhiệm vụ trước và sau trong dự án của bạn. Tải về dùng thử ngay!
-type: docs
 weight: 15
 url: /vi/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý các nhiệm vụ tiền nhiệm và nhiệm vụ kế nhiệm trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc xử lý hiệu quả các nhiệm vụ phụ thuộc là điều tối quan trọng. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý các tác vụ tiền nhiệm và kế nhiệm trong các dự án của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng Aspose.Tasks để quản lý hiệu quả các liên kết nhiệm vụ, cho phép bạn thiết lập sự phụ thuộc giữa các nhiệm vụ.
 ## Điều kiện tiên quyết
@@ -52,3 +58,9 @@ Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án khác nhau, b
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
 ### Tôi có thể tải xuống bản dùng thử miễn phí Aspose.Tasks cho Java không?
  Có, tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

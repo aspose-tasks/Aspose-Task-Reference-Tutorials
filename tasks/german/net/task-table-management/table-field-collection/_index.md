@@ -3,10 +3,16 @@ title: Beherrschen von Tabellenfeldsammlungen in Aspose.Tasks für .NET
 linktitle: Sammlung von Tabellenfeldern in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die dynamische Welt des Projektmanagements mit Aspose.Tasks für .NET. Erfahren Sie, wie Sie Tabellenfeldsammlungen für ein individuelles Projekterlebnis bearbeiten.
-type: docs
 weight: 13
 url: /de/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von Tabellenfeldsammlungen in Aspose.Tasks für .NET
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die das Projektmanagement erleichtert, indem sie umfangreiche Funktionen für die Arbeit mit Microsoft Project-Dateien bereitstellt. In diesem Tutorial befassen wir uns mit der Sammlung von Tabellenfeldern in Aspose.Tasks und untersuchen, wie wir sie mithilfe von C# effizient manipulieren und verwalten können.
 ## Voraussetzungen
@@ -111,3 +117,9 @@ Absolut! Wie im Tutorial gezeigt, können Sie Tabellenfelder nach Bedarf dynamis
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15)um Unterstützung zu erhalten, Fragen zu stellen und mit der Community zusammenzuarbeiten.
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
  Ja, Sie können die Funktionen von Aspose.Tasks für .NET mit einer kostenlosen Testversion erkunden. Lade es herunter[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

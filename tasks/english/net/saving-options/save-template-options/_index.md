@@ -3,10 +3,16 @@ title: Save MS Project Files as Templates with Aspose.Tasks
 linktitle: Save Template Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to save Microsoft Project files as templates using Aspose.Tasks for .NET. Customize template settings for streamlined project management.
-type: docs
 weight: 18
 url: /net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save MS Project Files as Templates with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will walk through the process of saving a template using Aspose.Tasks for .NET. Templates are useful for standardizing project structures and settings for future use. We'll demonstrate how to save a project as a template, tuning its properties along the way.
 ## Prerequisites
@@ -76,3 +82,9 @@ A: Yes, you can apply templates to existing projects by loading the template fil
 A: Aspose.Tasks for .NET is primarily designed for .NET framework applications running on Windows platforms.
 ### Q: Is technical support available for Aspose.Tasks for .NET?
 A: Yes, you can seek technical assistance and guidance from the Aspose.Tasks community [forums](https://forum.aspose.com/c/tasks/15) or contact their support team directly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

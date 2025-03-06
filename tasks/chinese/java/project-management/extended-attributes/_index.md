@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 项目中的扩展属性
 linktitle: 处理 Aspose.Tasks 项目中的扩展属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Java 高效处理 Aspose.Tasks 项目中的扩展属性。有效项目管理的分步指南。
-type: docs
 weight: 13
 url: /zh/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 项目中的扩展属性
+
 ## 介绍
 管理项目管理中的扩展属性对于定制和增强项目数据至关重要。 Aspose.Tasks for Java 提供了强大的工具来有效处理 MS Project 文件中的扩展属性。本教程将逐步指导您完成整个过程，确保您彻底掌握每个概念。
 ## 先决条件
@@ -86,3 +92,9 @@ prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 答：您可以在 Aspose.Tasks 网站上找到全面的文档[文档](https://reference.aspose.com/tasks/java/).
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 答：是的，您可以通过 Aspose.Tasks 论坛获得技术支持[网站](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

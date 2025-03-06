@@ -3,10 +3,16 @@ title: Προσαρμόστε τις στήλες γραφήματος Gantt μ�
 linktitle: Στήλες γραφήματος Gantt στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσαρμόζετε τις στήλες του γραφήματος Gantt στο Aspose.Tasks για .NET ώστε να εμφανίζονται αποτελεσματικά συγκεκριμένες πληροφορίες εργασιών.
-type: docs
 weight: 21
 url: /el/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τις στήλες γραφήματος Gantt με το Aspose.Tasks
+
 ## Εισαγωγή
 Τα διαγράμματα Gantt είναι ένα θεμελιώδες εργαλείο στη διαχείριση έργου, παρέχοντας μια οπτική αναπαράσταση εργασιών, χρονοδιαγραμμάτων και πόρων. Το Aspose.Tasks για .NET προσφέρει ισχυρές δυνατότητες χειρισμού γραφημάτων Gantt, συμπεριλαμβανομένης της προσαρμογής στηλών για την εμφάνιση συγκεκριμένων πληροφοριών εργασιών. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να εργαστείτε με στήλες γραφήματος Gantt χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -99,3 +105,9 @@ project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 Α: Το Aspose.Tasks για .NET προσφέρει εκτενείς επιλογές προσαρμογής, επιτρέποντάς σας να προσθέσετε σημαντικό αριθμό στηλών στα γραφήματα Gantt χωρίς περιορισμούς.
 ### Ε: Πού μπορώ να βρω πρόσθετη υποστήριξη και πόρους για το Aspose.Tasks για .NET;
 Α: Μπορείτε να εξερευνήσετε την τεκμηρίωση, τα φόρουμ κοινότητας και τα κανάλια υποστήριξης που παρέχονται από το Aspose.Tasks για το .NET για πρόσβαση σε ολοκληρωμένους πόρους και βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

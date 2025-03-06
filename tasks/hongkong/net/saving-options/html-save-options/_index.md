@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 將 MS 專案儲存為 HTML
 linktitle: Aspose.Tasks 的 HTML 儲存選項
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 將 Microsoft Project 檔案儲存為 HTML。使用我們的逐步指南輕鬆轉換專案資料。
-type: docs
 weight: 10
 url: /zh-hant/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 將 MS 專案儲存為 HTML
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Tasks for .NET 將 Microsoft Project 檔案儲存為 HTML 的教學課程！ Aspose.Tasks 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 Microsoft Project 檔案。在本教程中，我們將探索如何利用 Aspose.Tasks 將專案資料儲存為 HTML，並在此過程中提供逐步指導。
 ## 先決條件
@@ -57,3 +63,9 @@ project.Save("OutputFilePath.html", options);
 答：當然，您可以根據您的要求提取並包含項目的特定頁面或部分。
 ### Q：Aspose.Tasks 有試用版嗎？
 答：是的，您可以在購買之前免費試用 Aspose.Tasks 以探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

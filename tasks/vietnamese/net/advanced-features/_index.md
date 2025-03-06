@@ -3,10 +3,16 @@ title: Các tính năng nâng cao của Aspose.Tasks
 linktitle: Các tính năng nâng cao của Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá các tính năng nâng cao trong Aspose.Tasks dành cho .NET với hướng dẫn của chúng tôi. Từ thao tác AND đến xử lý ngoại lệ bộ nhớ, hãy nâng cao kỹ năng quản lý dự án của bạn.
-type: docs
 weight: 21
 url: /vi/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các tính năng nâng cao của Aspose.Tasks
+
 
 ## Giới thiệu
 
@@ -93,3 +99,9 @@ Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản l�
 Tìm hiểu cách quản lý các chế độ tính toán hiệu quả trong Aspose.Tasks dành cho .NET để hợp lý hóa việc lập kế hoạch dự án và các phần phụ thuộc của nhiệm vụ.
 ### [Loại tính toán trong Aspose.Tasks](./calculation-type/)
 Tìm hiểu cách tùy chỉnh các phép tính giá trị trong các dự án .NET với Loại tính toán trong thư viện Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

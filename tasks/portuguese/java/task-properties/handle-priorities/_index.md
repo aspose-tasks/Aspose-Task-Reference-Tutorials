@@ -3,10 +3,16 @@ title: Lidar com prioridades de tarefas em Aspose.Tasks
 linktitle: Lidar com prioridades de tarefas em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Domine as prioridades das tarefas sem esforço com Aspose.Tasks for Java. Siga este guia para um manuseio perfeito. Eleve suas habilidades de gerenciamento de projetos!
-type: docs
 weight: 17
 url: /pt/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com prioridades de tarefas em Aspose.Tasks
+
 ## Introdução
 Gerenciar prioridades de tarefas é crucial para o sucesso do projeto e, com Aspose.Tasks for Java, torna-se um processo contínuo. Este tutorial irá guiá-lo no tratamento de prioridades de tarefas usando Aspose.Tasks. Quer você seja um desenvolvedor experiente ou iniciante, este guia dividirá o processo em etapas fáceis de seguir.
 ## Pré-requisitos
@@ -56,3 +62,9 @@ Sim, Aspose.Tasks for Java é adequado para aplicativos de desktop e web.
  Sim, você pode obter licenças temporárias[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso encontrar documentação detalhada?
  Consulte a documentação[aqui](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

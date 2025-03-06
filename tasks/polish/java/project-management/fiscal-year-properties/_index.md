@@ -3,10 +3,16 @@ title: Zarządzaj właściwościami roku obrotowego w Aspose.Tasks
 linktitle: Zarządzaj właściwościami roku obrotowego w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie zarządzać właściwościami roku obrotowego za pomocą Aspose.Tasks dla Java. Przewodnik krok po kroku z podanymi przykładami.
-type: docs
 weight: 15
 url: /pl/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj właściwościami roku obrotowego w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom wydajne zarządzanie plikami projektów, w tym obsługę właściwości roku obrotowego. W tym samouczku omówimy proces zarządzania właściwościami roku obrachunkowego za pomocą Aspose.Tasks w Javie.
 ## Warunki wstępne
@@ -66,3 +72,9 @@ O: Tak, Aspose.Tasks obsługuje szeroką gamę formatów plików projektów, w t
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/).
 ### P: Gdzie mogę kupić licencję na Aspose.Tasks dla Java?
  Odp.: Możesz kupić licencję na Aspose.Tasks dla Java od[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

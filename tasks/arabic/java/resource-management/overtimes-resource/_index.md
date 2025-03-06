@@ -3,10 +3,16 @@ title: إدارة العمل الإضافي للموارد في Aspose.Tasks
 linktitle: إدارة العمل الإضافي للموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: إدارة العمل الإضافي بكفاءة لموارد MS Project باستخدام Aspose.Tasks لـ Java. تحسين استخدام الموارد وإدارة التكاليف دون عناء.
-type: docs
 weight: 13
 url: /ar/java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة العمل الإضافي للموارد في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، تعد إدارة الموارد بكفاءة أمرًا بالغ الأهمية لإنجاز المشروع بنجاح. تعد إدارة العمل الإضافي جانبًا مهمًا، مما يضمن استخدام الموارد على النحو الأمثل دون الإفراط في الإنفاق. يوفر Aspose.Tasks for Java وظائف قوية لإدارة العمل الإضافي لموارد MS Project بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إدارة العمل الإضافي خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ if (res.get(Rsc.NAME) != null) {
  نعم، يوفر Aspose.Tasks الدعم الفني الشامل من خلال المنتدى الخاص به. يمكنك الوصول إلى منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل يمكنني تجربة Aspose.Tasks لـ Java قبل الشراء؟
 نعم، يمكنك استكشاف Aspose.Tasks لـ Java من خلال النسخة التجريبية المجانية. قم بتنزيل النسخة التجريبية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: โครงการ MS คำจำกัดความแอตทร
 linktitle: การรวบรวมคำจำกัดความแอตทริบิวต์เพิ่มเติมใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการคำจำกัดความแอตทริบิวต์เพิ่มเติมใน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งและปรับปรุงข้อมูลโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โครงการ MS คำจำกัดความแอตทริบิวต์เพิ่มเติมหลักใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการทำงานกับคำจำกัดความแอตทริบิวต์เพิ่มเติมใน Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET แอ็ตทริบิวต์เพิ่มเติมนำเสนอวิธีที่ยืดหยุ่นในการปรับแต่งและปรับปรุงข้อมูลโปรเจ็กต์ โดยช่วยให้ผู้ใช้สามารถเพิ่มฟิลด์เพิ่มเติมนอกเหนือจากฟิลด์มาตรฐานที่ให้ไว้ตามค่าเริ่มต้น ด้วย Aspose.Tasks คุณสามารถจัดการคุณลักษณะเพิ่มเติมเหล่านี้ได้อย่างง่ายดายเพื่อปรับแต่งความต้องการในการจัดการโครงการของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 ตอบ: Aspose.Tasks เข้ากันได้กับเฟรมเวิร์ก .NET ต่างๆ ทำให้มั่นใจได้ถึงความยืดหยุ่นและความสะดวกในการบูรณาการ
 ### ถาม: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อการสนับสนุนและสำรวจเอกสาร[ที่นี่](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

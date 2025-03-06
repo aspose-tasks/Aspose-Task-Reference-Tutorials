@@ -3,10 +3,16 @@ title: Colección de líneas base de tareas en Aspose.Tasks
 linktitle: Colección de líneas base de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore las líneas base de tareas sin esfuerzo con Aspose.Tasks para .NET. Gestión eficiente de proyectos simplificada. ¡Descargar ahora! #Aspose.Tareas #Proyecto MS
-type: docs
 weight: 17
 url: /es/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de líneas base de tareas en Aspose.Tasks
+
 ## Introducción
 Bienvenido al mundo de Aspose.Tasks para .NET, una potente biblioteca que facilita la manipulación y gestión perfecta de las tareas del proyecto. En este tutorial, profundizaremos en el fascinante ámbito de las líneas base de tareas, un aspecto crucial de la planificación y el seguimiento de proyectos. Al final de esta guía, dominará el arte de trabajar con colecciones de líneas base de tareas, lo que le permitirá mejorar sus capacidades de gestión de proyectos.
 ## Requisitos previos
@@ -68,3 +74,9 @@ R: Aspose.Tasks para .NET no impone límites estrictos en la cantidad de tareas,
 R: ¡Absolutamente! Tiene control total sobre el formato al imprimir detalles de referencia, lo que le permite adaptarlo a sus requisitos específicos.
 ### P: ¿Dónde puedo buscar ayuda si tengo problemas o tengo preguntas adicionales?
  R: Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) por apoyo dedicado y asistencia comunitaria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

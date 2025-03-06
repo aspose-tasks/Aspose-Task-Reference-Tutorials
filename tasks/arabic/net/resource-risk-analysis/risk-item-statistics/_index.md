@@ -3,10 +3,16 @@ title: إحصائيات لعناصر المخاطرة في Aspose.Tasks
 linktitle: إحصائيات لعناصر المخاطرة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أطلق العنان لقوة تحليل المخاطر في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. احصل على رؤى وخفف من حالات عدم اليقين وحقق نجاح المشروع دون عناء.
-type: docs
 weight: 21
 url: /ar/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إحصائيات لعناصر المخاطرة في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى تعزيز براعتك في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET؟ انغمس في عالم تحليل المخاطر من خلال برنامجنا التعليمي خطوة بخطوة حول الحصول على إحصائيات لعناصر المخاطر في ملفات MS Project. من خلال الاستفادة من القدرات القوية لـ Aspose.Tasks، يمكنك الحصول على رؤى لا تقدر بثمن حول أوجه عدم اليقين في المشروع واتخاذ قرارات مستنيرة للتخفيف من المخاطر بشكل فعال.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ Console.WriteLine("Maximum: {0}", statistics.Maximum);
 بالتأكيد! فريق الدعم المخصص لدينا متاح بسهولة على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لمساعدتك في أي استفسارات أو تحديات قد تواجهها أثناء رحلة التنفيذ.
 ### هل تقدمون تراخيص مؤقتة للمشاريع قصيرة المدى؟
  نعم، إذا كنت بحاجة إلى Aspose.Tasks لمشروع قصير المدى، فيمكنك الاستفادة من خدماتنا المريحة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) خيار لتلبية احتياجات الترخيص الخاصة بك دون أي التزامات طويلة الأجل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

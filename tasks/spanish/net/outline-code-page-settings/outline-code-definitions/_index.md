@@ -3,10 +3,16 @@ title: Definiciones de manejo del código de esquema de MS Project en Aspose.Tas
 linktitle: Manejo de definiciones de código de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a manejar las definiciones de código de esquema de MS Project utilizando Aspose.Tasks para .NET, potenciando sus aplicaciones de gestión de proyectos.
-type: docs
 weight: 12
 url: /es/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definiciones de manejo del código de esquema de MS Project en Aspose.Tasks
+
 ## Introducción
 Microsoft Project es una poderosa herramienta para administrar proyectos y Aspose.Tasks para .NET brinda soporte integral para manipular archivos de proyectos mediante programación. Un aspecto esencial de la gestión de proyectos es la organización de tareas mediante códigos de esquema. En este tutorial, exploraremos cómo manejar las definiciones de código de esquema de MS Project usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -91,3 +97,9 @@ R: Sí, Aspose.Tasks para .NET proporciona amplias funciones para manipular asig
 R: Por supuesto, Aspose.Tasks para .NET admite la lectura y escritura de campos personalizados, incluidos códigos de esquema, desde archivos de MS Project.
 ### P5: ¿Existe un foro comunitario para Aspose.Tasks para .NET?
  R: Sí, puedes unirte al foro comunitario de Aspose.Tasks para .NET[aquí](https://forum.aspose.com/c/tasks/15) para hacer preguntas, compartir conocimientos y colaborar con otros desarrolladores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

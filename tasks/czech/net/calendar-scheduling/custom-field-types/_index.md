@@ -3,10 +3,16 @@ title: Vlastní typy polí v Aspose.Tasks
 linktitle: Vlastní typy polí v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se pracovat s vlastními typy polí v Aspose.Tasks pro .NET. Podrobný průvodce s příklady kódu a často kladenými dotazy.
-type: docs
 weight: 23
 url: /cs/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastní typy polí v Aspose.Tasks
+
 ## Úvod
 
 Vítejte v našem tutoriálu o práci s vlastními typy polí v Aspose.Tasks pro .NET! Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory Microsoft Project. V tomto tutoriálu se zaměříme na pochopení a využití vlastních typů polí, což je zásadní aspekt práce s projektovými daty.
@@ -89,3 +95,9 @@ Odpověď 4: Ano, Aspose.Tasks umožňuje manipulovat s daty úkolů i zdrojů v
 ### Q5: Existuje komunitní fórum pro uživatele Aspose.Tasks?
 
  A5: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) komunikovat s ostatními uživateli a získat podporu od týmu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

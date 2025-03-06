@@ -3,10 +3,16 @@ title: Az Aspose.Tasks fájlformátum beállításai
 linktitle: Az Aspose.Tasks fájlformátum beállításai
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks fájlformátum-beállításokat és az XAML- és XLSX-beállítások fő konfigurálását az Aspose.Tasks .NET-ben. Emelje fel a projektmenedzsmentet testreszabási tippekkel.
-type: docs
 weight: 34
 url: /hu/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks fájlformátum beállításai
+
 
 ## Bevezetés
 
@@ -27,3 +33,9 @@ Vegye át az irányítást az MS Project XLSX beállításai felett az Aspose.Ta
 Ismerje meg, hogyan konfigurálhatja az MS Project XAML beállításait az Aspose.Tasks for .NET-ben. Növelje a projektmenedzsment rugalmasságát és testreszabását lépésenkénti útmutatásokkal.
 ### [XLSX-beállítások konfigurálása az Aspose.Tasks-ban](./configuring-xlsx-options/)
 Ismerje meg, hogyan konfigurálhatja az MS Project XLSX beállításait az Aspose.Tasks for .NET-ben. Könnyedén testreszabhatja az oszlopokat, a kódolást és még sok mást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

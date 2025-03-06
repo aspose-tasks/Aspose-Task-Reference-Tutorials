@@ -3,10 +3,16 @@ title: Tiết lộ các trường xem mức sử dụng nhiệm vụ trong Aspos
 linktitle: Bộ sưu tập các trường xem sử dụng tác vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks dành cho .NET để dễ dàng quản lý và trực quan hóa dữ liệu dự án. Đi sâu vào các trường xem sử dụng nhiệm vụ để hiểu rõ hơn về dự án.
-type: docs
 weight: 25
 url: /vi/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tiết lộ các trường xem mức sử dụng nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, Aspose.Tasks for .NET là một giải pháp mạnh mẽ, cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ để thao tác và quản lý dữ liệu dự án. Một trong những tính năng đáng chú ý là Chế độ xem sử dụng nhiệm vụ, cung cấp thông tin chi tiết về các lĩnh vực khác nhau nhằm nâng cao khả năng hiển thị của dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của Trường xem sử dụng tác vụ bằng Aspose.Tasks cho .NET, chia nhỏ từng bước để hiểu toàn diện.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Aspose.Tasks chủ yếu tập trung vào các ứng dụng .NET. Tuy nhiên, b�
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
 ### Những định dạng tập tin nào được hỗ trợ cho các tài liệu dự án?
 Aspose.Tasks for .NET hỗ trợ nhiều định dạng khác nhau, bao gồm MPP, XML và CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

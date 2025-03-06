@@ -3,10 +3,16 @@ title: Beheer van hulpbronnen
 linktitle: Beheer van hulpbronnen
 second_title: Aspose.Tasks Java-API
 description: Beheers resourcebeheer in MS Project met Aspose.Tasks voor Java. Leer hoe u kosten kunt maken, itereren, beheren en meer. Optimaliseer de ontwikkeling met onze tutorials.
-type: docs
 weight: 31
 url: /nl/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer van hulpbronnen
+
 ## Invoering
 
 Op het gebied van MS Project-ontwikkeling met behulp van Java onderscheidt Aspose.Tasks zich als een robuuste bibliotheek, die een uitgebreide reeks functionaliteiten biedt voor effectief resourcebeheer. Deze reeks zelfstudies leidt u door verschillende aspecten, zodat u bedreven raakt in het naadloos omgaan met Microsoft Project-bronnen.
@@ -63,3 +69,9 @@ Leer hoe u de resourcekosten van MS Project efficiënt kunt beheren met Aspose.T
 Leer hoe u MS Project-resource-eigenschappen in Java instelt met behulp van Aspose.Tasks voor naadloze integratie en efficiënt taakbeheer.
 ### [Schrijf bijgewerkte brongegevens in Aspose.Tasks](./write-updated-resource-data/)
 Leer hoe u moeiteloos brongegevens in MS Project-bestanden kunt bijwerken met Aspose.Tasks voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eseguire il rendering dell'utilizzo delle risorse e della visualizzazione
 linktitle: Eseguire il rendering dell'utilizzo delle risorse e della visualizzazione foglio in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come eseguire il rendering dell'utilizzo delle risorse di MS Project e delle visualizzazioni dei fogli in Aspose.Tasks per Java. Segui la nostra guida passo passo per generare report PDF dettagliati senza sforzo.
-type: docs
 weight: 16
 url: /it/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eseguire il rendering dell'utilizzo delle risorse e della visualizzazione foglio in Aspose.Tasks
+
 ## introduzione
 In questo tutorial impareremo come utilizzare Aspose.Tasks per Java per eseguire il rendering dell'utilizzo delle risorse e delle visualizzazioni dei fogli di MS Project. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di lavorare con file Microsoft Project senza la necessità di installare Microsoft Project.
 ## Prerequisiti
@@ -78,3 +84,9 @@ Assolutamente! Aspose.Tasks fornisce ampie opzioni per personalizzare l'aspetto 
 No, Aspose.Tasks è una libreria autonoma e non richiede l'installazione di Microsoft Project per il suo funzionamento.
 ### Il supporto tecnico è disponibile per gli utenti Aspose.Tasks?
  Sì, gli utenti di Aspose.Tasks possono avvalersi del supporto tecnico tramite il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

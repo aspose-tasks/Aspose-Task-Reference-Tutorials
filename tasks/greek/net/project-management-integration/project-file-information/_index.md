@@ -3,10 +3,16 @@ title: Ανάκτηση πληροφοριών αρχείου MS Project στο 
 linktitle: Ανάκτηση πληροφοριών αρχείου έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να ανακτάτε πληροφορίες αρχείου Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 19
 url: /el/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση πληροφοριών αρχείου MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την ανάκτηση πληροφοριών αρχείου Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές .NET να εργάζονται με αρχεία Microsoft Project μέσω προγραμματισμού, επιτρέποντας εργασίες όπως η ανάγνωση, η εγγραφή και ο χειρισμός δεδομένων έργου.
 ## Προαπαιτούμενα
@@ -58,3 +64,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
  Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Μπορείτε να λάβετε υποστήριξη για το Aspose.Tasks μέσω του[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).## Ολοκληρώστε τον πηγαίο κώδικα
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

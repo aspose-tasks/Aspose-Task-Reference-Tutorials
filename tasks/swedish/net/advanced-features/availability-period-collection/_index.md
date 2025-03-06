@@ -3,10 +3,16 @@ title: Samling av tillgänglighetsperioder i Aspose.Tasks
 linktitle: Samling av tillgänglighetsperioder i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar tillgänglighetsperioder för resurser i Aspose.Tasks för .NET. Denna steg-för-steg handledning guidar dig genom att lägga till, uppdatera och ta bort tillgänglighetsperioder, vilket säkerställer effektiv projektresursplanering.
-type: docs
 weight: 18
 url: /sv/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av tillgänglighetsperioder i Aspose.Tasks
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperiodens insamling av en resurs i Aspose.Tasks för .NET. Att hantera tillgänglighetsperioder är avgörande för projektledning, vilket gör att vi kan definiera när resurser finns tillgängliga för uppgifter inom ett projekt.
@@ -148,3 +154,9 @@ S4: Aspose.Tasks för .NET tillhandahåller inte inbyggda mekanismer för att ha
 ### F5: Finns det en gräns för antalet tillgänglighetsperioder en resurs kan ha?
 
 S5: Det finns ingen fördefinierad gräns för antalet tillgänglighetsperioder en resurs kan ha, men prestandan kan försämras med ett stort antal perioder.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

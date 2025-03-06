@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 평일 마스터하기
 linktitle: Aspose.Tasks에서 평일 정의
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks .NET에서 평일을 정의하는 기능을 살펴보세요. 자세한 튜토리얼을 따라 프로젝트 일정을 효율적으로 관리하고 작업 시간을 맞춤화하는 등의 작업을 수행하세요.
-type: docs
 weight: 10
 url: /ko/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 평일 마스터하기
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 프로젝트 관리의 세계에 뛰어들고 있다면 평일을 이해하고 조작하는 것이 중요한 측면입니다. 프로젝트 일정 내에서 평일을 효율적으로 관리하고 사용자 정의하면 프로젝트 일정에 큰 영향을 미칠 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 평일을 정의하는 과정을 안내하고 더 명확하게 설명하기 위한 단계별 지침과 예제를 제공합니다.
 ## 전제조건
@@ -116,3 +122,9 @@ Aspose.Tasks 라이브러리에서 제공하는 적절한 방법을 활용하여
 예, 평일에 대한 모든 수정 사항은 저장 시 프로젝트 파일에 반영됩니다.
 ### Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
 Aspose.Tasks는 다양한 프로그래밍 언어를 지원하지만 여기에 있는 예제는 특히 .NET용입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

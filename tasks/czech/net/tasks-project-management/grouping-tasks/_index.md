@@ -3,10 +3,16 @@ title: Efektivní seskupování úkolů MS Project s Aspose.Tasks
 linktitle: Seskupování úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se efektivně seskupovat úkoly Microsoft Project pomocí Aspose.Tasks for .NET.
-type: docs
 weight: 25
 url: /cs/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efektivní seskupování úkolů MS Project s Aspose.Tasks
+
 ## Úvod
 Správa úloh v aplikaci Microsoft Project může být někdy náročná, zejména pokud jde o jejich efektivní organizaci. Aspose.Tasks for .NET nabízí komplexní řešení tím, že poskytuje funkce pro efektivní seskupování úkolů. V tomto tutoriálu prozkoumáme, jak seskupit úkoly MS Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -84,3 +90,9 @@ Ano, Aspose.Tasks podporuje různé verze souborů MS Project, což zajišťuje 
 Aspose.Tasks rozhodně poskytuje možnosti přizpůsobení vzhledu seskupených úkolů, včetně barev buněk, písem a stylů.
 ### Kde najdu podporu pro Aspose.Tasks pro .NET?
  Podporu a pomoc pro Aspose.Tasks pro .NET najdete v[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройте параметры MS Project XLSX в Aspose.Tasks д�
 linktitle: Настройка параметров XLSX в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить параметры MS Project XLSX в Aspose.Tasks для .NET. Настраивайте столбцы, кодировку и многое другое без особых усилий.
-type: docs
 weight: 11
 url: /ru/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте параметры MS Project XLSX в Aspose.Tasks для .NET
+
 ## Введение
 Microsoft Project (MS Project) — мощный инструмент для управления проектами, а Aspose.Tasks для .NET обеспечивает бесшовную интеграцию для программной работы с файлами MS Project. В этом руководстве мы рассмотрим процесс настройки параметров MS Project XLSX с использованием Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -90,3 +96,9 @@ project.Save("OutputFile.xlsx", options);
 ### Вопрос: Существуют ли какие-либо варианты временной лицензии для целей тестирования?
 
  О: Да, вы можете получить временную лицензию в[Страница временной лицензии Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

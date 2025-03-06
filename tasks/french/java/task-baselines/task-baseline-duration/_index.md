@@ -3,10 +3,16 @@ title: Gestion de la durée de référence des tâches dans Aspose.Tasks
 linktitle: Gestion de la durée de référence des tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer efficacement les références de tâches dans MS Project à l'aide d'Aspose.Tasks pour Java. Ce didacticiel vous guide étape par étape tout au long du processus.
-type: docs
 weight: 12
 url: /fr/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de la durée de référence des tâches dans Aspose.Tasks
+
 ## Introduction
 La gestion des tâches de base dans MS Project est cruciale pour la planification et le suivi du projet. Dans ce didacticiel, nous verrons comment gérer efficacement les durées de référence des tâches à l'aide d'Aspose.Tasks pour Java.
 ## Conditions préalables
@@ -76,3 +82,9 @@ Oui, vous pouvez modifier les références de tâches dans MS Project pour refl�
 Oui, Aspose.Tasks offre un large éventail de fonctionnalités pour la gestion de projet, notamment la planification des tâches, l'allocation des ressources et la génération de diagrammes de Gantt.
 ### Où puis-je trouver de l’assistance pour Aspose.Tasks ?
  Vous pouvez trouver une assistance pour Aspose.Tasks sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), où vous pouvez poser des questions et interagir avec d'autres utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

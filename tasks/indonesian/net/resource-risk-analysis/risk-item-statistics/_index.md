@@ -3,10 +3,16 @@ title: Statistik untuk Item Risiko di Aspose.Tasks
 linktitle: Statistik untuk Item Risiko di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Buka kekuatan analisis risiko dalam file MS Project menggunakan Aspose.Tasks untuk .NET. Dapatkan wawasan, mitigasi ketidakpastian, dan dorong kesuksesan proyek dengan mudah.
-type: docs
 weight: 21
 url: /id/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Statistik untuk Item Risiko di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan kecakapan manajemen proyek Anda menggunakan Aspose.Tasks untuk .NET? Selidiki bidang analisis risiko dengan tutorial langkah demi langkah kami tentang cara mendapatkan statistik item risiko dalam file MS Project. Dengan memanfaatkan kemampuan Aspose.Tasks yang kuat, Anda dapat memperoleh wawasan berharga tentang ketidakpastian proyek dan membuat keputusan yang tepat untuk memitigasi risiko secara efektif.
 ## Prasyarat
@@ -90,3 +96,9 @@ Kami berusaha untuk terus meningkatkan Aspose.Tasks dengan merilis pembaruan dan
 Tentu! Tim dukungan kami yang berdedikasi tersedia di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk membantu Anda dengan pertanyaan atau tantangan apa pun yang mungkin Anda temui selama perjalanan penerapan Anda.
 ### Apakah Anda menawarkan lisensi sementara untuk proyek jangka pendek?
  Ya, jika Anda memerlukan Aspose.Tasks untuk proyek jangka pendek, Anda dapat memanfaatkan kemudahan kami[izin sementara](https://purchase.aspose.com/temporary-license/) pilihan untuk memenuhi kebutuhan lisensi Anda tanpa komitmen jangka panjang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

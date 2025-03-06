@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 반복 작업 정보 추출
 linktitle: Aspose.Tasks에서 반복 작업 정보 추출
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일에서 반복 작업 정보를 추출하는 방법을 알아보세요. .NET 개발자를 위한 손쉬운 통합.
-type: docs
 weight: 13
 url: /ko/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 반복 작업 정보 추출
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일로 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 파일에서 반복 작업 정보를 추출하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -62,3 +68,9 @@ A: 예, Aspose.Tasks는 MPP, XML, CSV와 같은 다양한 프로젝트 파일 �
  A: 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET에 대한 기술 지원은 어떻게 받을 수 있나요?
  A: Aspose.Tasks 포럼에서 기술 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

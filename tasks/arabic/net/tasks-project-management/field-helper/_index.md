@@ -3,10 +3,16 @@ title: تكامل مشروع MS المساعد الميداني في Aspose.Task
 linktitle: مساعد ميداني في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية الاستفادة من Aspose.Tasks لـ .NET للعمل مع ملفات MS Project بسلاسة.
-type: docs
 weight: 15
 url: /ar/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكامل مشروع MS المساعد الميداني في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بالعمل بسلاسة مع ملفات Microsoft Project في تطبيقات .NET الخاصة بهم. سواء كنت تقوم بإنشاء أداة لإدارة المشروع، أو دمج وظائف المشروع في تطبيقك، أو تحتاج ببساطة إلى معالجة ملفات المشروع برمجيًا، فإن Aspose.Tasks يوفر الأدوات التي تحتاجها لإنجاز المهمة بكفاءة.
@@ -74,3 +80,9 @@ Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefault
 ### س5: أين يمكنني شراء ترخيص Aspose.Tasks لـ .NET؟
 
  ج: يمكنك شراء ترخيص Aspose.Tasks لـ .NET من موقع Aspose الإلكتروني[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

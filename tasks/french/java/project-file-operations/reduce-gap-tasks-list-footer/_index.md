@@ -3,10 +3,16 @@ title: Réduire l'écart entre la liste des tâches et le pied de page dans Aspo
 linktitle: Réduire l'écart entre la liste des tâches et le pied de page dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment réduire l'écart entre les listes de tâches et les pieds de page de MS Project à l'aide d'Aspose.Tasks pour Java. Optimisez la mise en page des documents de projet sans effort.
-type: docs
 weight: 10
 url: /fr/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Réduire l'écart entre la liste des tâches et le pied de page dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous allons nous pencher sur la réduction de l'écart entre la liste des tâches et le pied de page dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour Java. En suivant ces étapes, vous pourrez optimiser la mise en page de vos documents de projet sans effort.
 ## Conditions préalables
@@ -105,3 +111,9 @@ R : Oui, Aspose.Tasks prend en charge un large éventail de formats, notamment X
 ### Q : Où puis-je obtenir de l'aide si je rencontre des problèmes lors de l'utilisation d'Aspose.Tasks ?
 
  R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

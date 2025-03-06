@@ -3,10 +3,16 @@ title: Valutaegenskaper
 linktitle: Valutaegenskaper
 second_title: Aspose.Tasks Java API
 description: Lås upp kraften i Aspose.Tasks för Java Tutorials. Upptäck steg-för-steg-guider för att läsa och ställa in valutaegenskaper i MS Project-filer utan ansträngning.
-type: docs
 weight: 25
 url: /sv/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Valutaegenskaper
+
 ## Introduktion
 Är du redo att höja dina Aspose.Tasks för Java-kunskaper? Dyk in i våra omfattande handledningar om valutaegenskaper och bemästra konsten att hantera valutainformation i MS Project-filer.
 
@@ -35,3 +41,9 @@ Sammanfattningsvis ger våra Aspose.Tasks för Java-handledningar om valutaegens
 Lär dig hur du extraherar valutainformation från MS Project-filer med Aspose.Tasks för Java. Steg-för-steg guide tillhandahålls.
 ### [Ställ in valutaegenskaper i Aspose.Tasks-projekt](./set-properties/)
 Lär dig hur du ställer in valutaegenskaper i Aspose.Tasks-projekt med Java. Manipulera Microsoft Project-filer utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

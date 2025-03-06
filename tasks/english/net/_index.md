@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.Tasks for .NET 
 linktitle: Aspose.Tasks for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Explore Aspose.Tasks for .NET tutorials covering saving options, calendar & scheduling, project management, & more. Elevate your project management skills.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.Tasks for .NET
+
 ## Introduction
 
 Are you ready to unlock the full potential of Aspose.Tasks for .NET? Dive into our comprehensive tutorials and examples covering a wide range of topics to enhance your project management skills. From saving options to advanced features, calendar and scheduling tasks, project management, and customization, we've got you covered.
@@ -72,3 +77,10 @@ Explore Aspose.Tasks file format options and master configuring XAML & XLSX opti
 Discover how to enhance the security of your Microsoft Project PDFs using Aspose.Tasks for .NET. Learn digital signature and encryption techniques.
 ### [Aspose.Tasks License Management](./license-management/)
 Unlock the power of Aspose.Tasks for .NET with our comprehensive tutorials. Manage licenses and optimize MS Project usage for efficient project management.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

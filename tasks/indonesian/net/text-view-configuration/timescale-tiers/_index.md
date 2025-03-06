@@ -3,10 +3,16 @@ title: Mengonfigurasi Tingkat Skala Waktu Gantt Chart di Aspose.Tasks
 linktitle: Mengonfigurasi Tingkat Skala Waktu di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET untuk mengonfigurasi tingkat skala waktu dalam tampilan Gantt Chart Anda untuk visualisasi garis waktu proyek yang tepat. #Aspose.Tugas #Proyek MS
-type: docs
 weight: 16
 url: /id/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Tingkat Skala Waktu Gantt Chart di Aspose.Tasks
+
 ## Perkenalan
 Dalam lanskap dinamis manajemen proyek, visualisasi yang efektif sangat penting untuk memahami jadwal dan tenggat waktu. Aspose.Tasks untuk .NET menyediakan seperangkat alat yang canggih, dan dalam tutorial ini, kita akan mempelajari cara mengonfigurasi tingkat skala waktu untuk representasi optimal dalam tampilan Gantt Chart. Ikuti petunjuk langkah demi langkah ini untuk meningkatkan visualisasi proyek Anda.
 ## Prasyarat
@@ -86,3 +92,9 @@ Tentu saja, Aspose.Tasks menyediakan opsi penyesuaian yang luas untuk tampilan G
 Tentu saja, Anda dapat menjelajahi berbagai format dan gaya untuk representasi skala waktu agar paling sesuai dengan konteks proyek Anda.
 ### Apakah ada forum komunitas untuk dukungan Aspose.Tasks?
  Ya, kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

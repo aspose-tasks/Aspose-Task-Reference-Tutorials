@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Metin Öğesi Türü Özelleştirme Kılavuzu
 linktitle: Aspose.Tasks'ta Metin Öğesi Türlerini Kullanmak
 second_title: Aspose.Tasks .NET API'si
 description: Bu adım adım kılavuzla Aspose.Tasks for .NET'te metin öğesi türü özelleştirmesinde ustalaşın. Proje yönetimi oyununuzu zahmetsizce yükseltin.
-type: docs
 weight: 10
 url: /tr/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Metin Öğesi Türü Özelleştirme Kılavuzu
+
 ## giriiş
 Aspose.Tasks kullanarak proje yönetimine başlayan bir .NET geliştiricisiyseniz, doğru yere geldiniz! Bu adım adım kılavuzda, güçlü .NET kitaplığını kullanarak özelleştirmeye odaklanarak Aspose.Tasks'ta metin öğesi türlerini işlemenin inceliklerini keşfedeceğiz.
 ## Önkoşullar
@@ -74,3 +80,9 @@ Tebrikler! Aspose.Tasks for .NET'te metin öğesi türlerinin işlenmesine yeni 
 C: Aspose.Tasks belgelerinde daha fazla eğitime göz atın.
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
  C: Kütüphaneyi satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

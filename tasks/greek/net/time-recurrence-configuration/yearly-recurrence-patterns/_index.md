@@ -3,10 +3,16 @@ title: Κύρια πρότυπα ετήσιας επανάληψης στο Aspo
 linktitle: Διαμόρφωση μοτίβων ετήσιας επανάληψης στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε να διαμορφώνετε ετήσια μοτίβα επανάληψης στο Aspose.Tasks για .NET. Βελτιώστε τις δεξιότητές σας στη διαχείριση έργων με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 18
 url: /el/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κύρια πρότυπα ετήσιας επανάληψης στο Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο της διαχείρισης έργων, ο αποτελεσματικός χειρισμός επαναλαμβανόμενων εργασιών είναι μια βασική πτυχή. Το Aspose.Tasks για .NET παρέχει μια ισχυρή λύση για τη διαμόρφωση ετήσιων μοτίβων επανάληψης, επιτρέποντάς σας να βελτιστοποιήσετε τον προγραμματισμό και τη διαχείριση του έργου σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα διερευνήσουμε πώς να ρυθμίσετε ετήσια μοτίβα επανάληψης χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -69,3 +75,9 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
  Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη και βοήθεια.
 ### Μπορώ να δοκιμάσω το Aspose.Tasks δωρεάν πριν το αγοράσω;
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用してカレンダーの例外を取得する
 linktitle: Aspose.Tasks を使用してカレンダーの例外を取得する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project からカレンダーの例外を取得する方法を学びます。シームレスな統合のためのステップバイステップのチュートリアル。
-type: docs
 weight: 13
 url: /ja/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用してカレンダーの例外を取得する
+
 ## 導入
 このチュートリアルでは、Java 用の Aspose.Tasks ライブラリを使用して、MS Project からカレンダーの例外を取得する方法を説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力なツールです。理解しやすいように各例を複数のステップに分けて、プロセスをステップごとに説明します。
 ## 前提条件
@@ -55,3 +61,9 @@ for (Calendar cal : project.getCalendars()) {
 コミュニティフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks の一時ライセンスのオプションはありますか?
 はい、次から一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

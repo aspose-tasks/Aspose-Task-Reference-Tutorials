@@ -3,10 +3,16 @@ title: Quản lý chi phí phân công hiệu quả với Aspose.Tasks
 linktitle: Xử lý chi phí chuyển nhượng trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý chi phí chuyển nhượng một cách hiệu quả trong Aspose.Tasks cho Java. Hướng dẫn từng bước để quản lý tài nguyên dự án một cách hiệu quả.
-type: docs
 weight: 12
 url: /vi/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý chi phí phân công hiệu quả với Aspose.Tasks
+
 ## Giới thiệu
 Quản lý chi phí phân công một cách hiệu quả là rất quan trọng đối với các nhiệm vụ quản lý dự án. Aspose.Tasks cho Java cung cấp các tính năng mạnh mẽ để xử lý chi phí chuyển nhượng một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình quản lý chi phí chuyển nhượng bằng cách sử dụng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Trả lời: Có, bạn có thể tính toán chi phí chuyển nhượng một 
  Đ: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks cho Java trong bản dùng thử không?
 Đáp: Không, không cần giấy phép tạm thời để sử dụng thử. Tuy nhiên, nó được khuyến khích cho môi trường sản xuất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

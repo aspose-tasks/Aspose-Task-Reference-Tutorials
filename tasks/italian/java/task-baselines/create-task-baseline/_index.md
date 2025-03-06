@@ -3,10 +3,16 @@ title: Crea una baseline delle attività di MS Project in Aspose.Tasks
 linktitle: Creazione di una baseline di attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come creare una baseline di attività di Microsoft Project in Java utilizzando Aspose.Tasks, una potente libreria per gestire facilmente i dati di progetto.
-type: docs
 weight: 11
 url: /it/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea una baseline delle attività di MS Project in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo il processo di creazione di una baseline di attività di Microsoft Project utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di lavorare con i file di Microsoft Project senza richiedere l'installazione di Microsoft Project. Con Aspose.Tasks puoi manipolare facilmente i dati del progetto, incluse attività, risorse e calendari, per semplificare le attività di gestione del progetto.
 ## Prerequisiti
@@ -59,3 +65,9 @@ Assolutamente, Aspose.Tasks per Java fornisce funzionalità robuste per manipola
 Sì, puoi impostare le dipendenze delle attività senza sforzo utilizzando Aspose.Tasks per Java, consentendoti di stabilire la sequenza delle attività all'interno del tuo progetto.
 ### È disponibile il supporto tecnico per Aspose.Tasks per Java?
  Sì, puoi accedere al supporto tecnico per Aspose.Tasks per Java tramite il file[Forum di assistenza](https://forum.aspose.com/c/tasks/15), dove puoi porre domande e chiedere assistenza alla comunità e al personale di supporto di Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

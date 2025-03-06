@@ -3,10 +3,16 @@ title: Sammlung von Gliederungscodes für MS Project in Aspose.Tasks
 linktitle: Sammlung von Gliederungscodes in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Gliederungscodes mit Aspose.Tasks für .NET sammeln. Dieses umfassende Tutorial bietet Schritt-für-Schritt-Anleitungen.
-type: docs
 weight: 11
 url: /de/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Gliederungscodes für MS Project in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Microsoft Project-Gliederungscodes mit Aspose.Tasks für .NET sammeln. Wir unterteilen den Prozess in Schritt-für-Schritt-Anleitungen, um Klarheit und Verständnis zu gewährleisten.
 ## Voraussetzungen
@@ -95,3 +101,9 @@ A: Ja, Aspose.Tasks für .NET unterstützt verschiedene Versionen von Microsoft 
 A: Absolut, Aspose.Tasks für .NET bietet umfangreiche Optionen zum Anpassen des Ausgabeformats an Ihre Anforderungen.
 ### F: Wo finde ich zusätzliche Unterstützung oder Ressourcen für Aspose.Tasks für .NET?
  A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für jegliche Unterstützung oder Fragen zu Aspose.Tasks für .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

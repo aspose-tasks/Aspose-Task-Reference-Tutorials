@@ -3,10 +3,16 @@ title: Maak een MS Project-taakbasislijn in Aspose.Tasks
 linktitle: Een taakbasislijn maken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u een Microsoft Project-taakbasislijn in Java maakt met behulp van Aspose.Tasks, een krachtige bibliotheek voor het moeiteloos beheren van projectgegevens.
-type: docs
 weight: 11
 url: /nl/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een MS Project-taakbasislijn in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie verdiepen we ons in het proces van het maken van een Microsoft Project-taakbasislijn met behulp van Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken zonder dat Microsoft Project hoeft te worden geïnstalleerd. Met Aspose.Tasks kunt u moeiteloos projectgegevens manipuleren, inclusief taken, bronnen en kalenders, om projectbeheertaken te stroomlijnen.
 ## Vereisten
@@ -59,3 +65,9 @@ Absoluut, Aspose.Tasks voor Java biedt robuuste functies voor het manipuleren va
 Ja, u kunt moeiteloos taakafhankelijkheden instellen met Aspose.Tasks voor Java, waardoor u de volgorde van taken binnen uw project kunt bepalen.
 ### Is er technische ondersteuning beschikbaar voor Aspose.Tasks voor Java?
  Ja, u kunt toegang krijgen tot technische ondersteuning voor Aspose.Tasks voor Java via de[Helpforum](https://forum.aspose.com/c/tasks/15), waar u vragen kunt stellen en hulp kunt zoeken bij de gemeenschap en het ondersteunend personeel van Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 提取页眉和页脚信息
 linktitle: Aspose.Tasks 中的页眉和页脚信息
 second_title: Aspose.Tasks .NET API
 description: 学习使用 Aspose.Tasks for .NET 从 MS Project 文件中提取页眉和页脚信息。简单、高效且对开发人员友好的解决方案。
-type: docs
 weight: 29
 url: /zh/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 提取页眉和页脚信息
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，允许开发人员轻松操作 Microsoft Project 文件。在本教程中，我们将学习如何使用 Aspose.Tasks 从 MS Project 文件中检索页眉和页脚信息。
 ## 先决条件
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
 您可以找到 Aspose.Tasks 的文档[这里](https://reference.aspose.com/tasks/net/).
 ### 我如何获得 Aspose.Tasks 的支持？
 您可以通过访问获取 Aspose.Tasks 支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

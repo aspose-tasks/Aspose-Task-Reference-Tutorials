@@ -1,12 +1,17 @@
 ---
 title: Java용 Aspose.Tasks의 종합 튜토리얼 및 예
 linktitle: Java 튜토리얼용 Aspose.Tasks
-type: docs
 weight: 10
 url: /ko/java/
 description: 튜토리얼을 통해 Java용 Aspose.Tasks를 살펴보세요. 마스터 캘린더, 프로젝트 관리 등 효율적인 프로젝트 실행을 위해 워크플로우를 간소화하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.Tasks의 종합 튜토리얼 및 예
+
 
 ## 소개
 Java 프로젝트 관리 기술을 향상시킬 준비가 되셨습니까? 프로젝트 관리의 다양한 측면을 다루는 광범위한 튜토리얼을 통해 Aspose.Tasks for Java의 세계에 빠져보세요. 달력 예외부터 VBA 통합까지 모든 것을 다룹니다.
@@ -93,3 +98,9 @@ Java용 Aspose.Tasks를 사용하여 MS 프로젝트의 마스터 리소스 관�
 Aspose.Tasks로 Java 프로젝트 관리를 강화하세요. 우선순위 처리부터 비용 관리까지 작업 속성에 대한 튜토리얼을 살펴보세요. 지금 바로 프로젝트를 최적화하세요!
 ### [VBA 통합](./vba-integration/)
 VBA 통합을 통해 Aspose.Tasks Java를 살펴보세요. 프로젝트 워크플로를 간소화하고 작업 추적을 개선합니다. 원활한 VBA 통합을 위한 포괄적인 튜토리얼을 살펴보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

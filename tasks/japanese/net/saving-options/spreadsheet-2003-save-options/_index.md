@@ -3,10 +3,16 @@ title: MS Project とスプレッドシート 2003 の Aspose.Tasks オプショ
 linktitle: スプレッドシート 2003 Aspose.Tasks の保存オプション
 second_title: Aspose.Tasks .NET API
 description: マスター スプレッドシート 2003 Aspose.Tasks for .NET を使用して MS プロジェクト オプションを保存します。 MS Project ファイルをプログラムでシームレスにカスタマイズして保存します。
-type: docs
 weight: 19
 url: /ja/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project とスプレッドシート 2003 の Aspose.Tasks オプション
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を活用して Spreadsheet 2003 Save MS Project オプションを利用する方法について詳しく説明します。この強力なツールにより、.NET 環境での MS Project ファイルのシームレスな操作とカスタマイズが可能になります。プロセスを段階的に見てみましょう。
 ## 前提条件
@@ -65,3 +71,9 @@ A: Aspose.Tasks for .NET は、最小限の制限付きで、ビュー列の広�
  A: もちろんです！ Aspose.Tasks フォーラムで包括的なサポートとリソースを見つけることができます。[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)では、専門家やコミュニティのメンバーが、直面する可能性のある質問や課題の解決を支援します。
 ### Q: Aspose.Tasks for .NET の一時ライセンスを取得するにはどうすればよいですか?
  A: Aspose.Tasks for .NET の一時ライセンスは、[購入ページ](https://purchase.aspose.com/temporary-license/)を使用すると、ライブラリの全機能を評価できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

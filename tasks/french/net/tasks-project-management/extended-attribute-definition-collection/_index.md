@@ -3,10 +3,16 @@ title: Maître des définitions d'attributs étendus MS Project dans Aspose.Task
 linktitle: Collection de définitions d'attributs étendues dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les définitions d'attributs étendus dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez et améliorez les données de votre projet sans effort.
-type: docs
 weight: 14
 url: /fr/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maître des définitions d'attributs étendus MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment utiliser les définitions d'attributs étendus dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Les attributs étendus offrent un moyen flexible de personnaliser et d'améliorer les données du projet, permettant aux utilisateurs d'ajouter des champs supplémentaires au-delà de ceux standard fournis par défaut. Avec Aspose.Tasks, vous pouvez gérer sans effort ces attributs étendus pour adapter vos besoins en matière de gestion de projet.
 ## Conditions préalables
@@ -92,3 +98,9 @@ R : Absolument, les attributs étendus peuvent être utilisés pour calculer de
 R : Aspose.Tasks est compatible avec divers frameworks .NET, garantissant flexibilité et facilité d'intégration.
 ### Q : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Tasks ?
  R : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir de l'aide et explorer la documentation[ici](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

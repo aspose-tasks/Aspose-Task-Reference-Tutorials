@@ -3,10 +3,16 @@ title: Working with NOT Operation in Aspose.Tasks
 linktitle: Working with NOT Operation in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to use the NOT operation in Aspose.Tasks for .NET to filter tasks effectively. Enhance your project management capabilities now.
-type: docs
 weight: 20
 url: /net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with NOT Operation in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll explore how to utilize the NOT operation in Aspose.Tasks for .NET. The NOT operation allows us to reverse a filter condition, enabling us to select elements that do not meet a specified criteria.
@@ -114,3 +120,10 @@ A: Yes, you can purchase a temporary license from the [purchase page](https://pu
 ### Q5: Where can I find comprehensive documentation for Aspose.Tasks?
 
 A: You can access the complete documentation on the [Aspose.Tasks documentation page](https://reference.aspose.com/tasks/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

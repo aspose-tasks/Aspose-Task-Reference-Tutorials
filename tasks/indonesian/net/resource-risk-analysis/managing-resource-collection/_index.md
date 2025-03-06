@@ -3,10 +3,16 @@ title: Mengelola Pengumpulan Sumber Daya Proyek di Aspose.Tasks
 linktitle: Mengelola Pengumpulan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola koleksi sumber daya Microsoft Project secara efisien di .NET menggunakan Aspose.Tasks API. Meningkatkan produktivitas dan fleksibilitas.
-type: docs
 weight: 13
 url: /id/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Pengumpulan Sumber Daya Proyek di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengelola koleksi sumber daya Microsoft Project secara efektif menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram, memungkinkan integrasi dan manipulasi data proyek tanpa hambatan.
 ## Prasyarat
@@ -99,3 +105,9 @@ J: Ya, Aspose.Tasks mendukung multi-threading, memungkinkan operasi bersamaan pa
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
 
  J: Ya, pengguna Aspose.Tasks dapat mengakses dukungan teknis melalui forum[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

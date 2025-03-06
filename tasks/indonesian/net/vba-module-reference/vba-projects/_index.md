@@ -3,10 +3,16 @@ title: Menguasai Proyek VBA Menjadi Mudah dengan Aspose.Tasks
 linktitle: Bekerja dengan Proyek VBA di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola Proyek VBA dengan mudah. Tingkatkan kemampuan manajemen proyek Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 14
 url: /id/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Proyek VBA Menjadi Mudah dengan Aspose.Tasks
+
 ## Perkenalan
 Jika Anda menyukai manajemen proyek menggunakan .NET, Aspose.Tasks adalah solusi tepat Anda. Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan Proyek VBA di Aspose.Tasks. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui proses dengan jelas dan sederhana.
 ## Prasyarat
@@ -79,3 +85,9 @@ J: Ya, Aspose.Tasks terintegrasi secara mulus dengan proyek .NET apa pun, member
  A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Tasks?
  A: Beli Aspose.Tugas[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

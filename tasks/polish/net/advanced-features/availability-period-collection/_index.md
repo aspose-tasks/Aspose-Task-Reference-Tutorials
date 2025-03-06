@@ -3,10 +3,16 @@ title: Zbiór okresów dostępności w Aspose.Tasks
 linktitle: Zbiór okresów dostępności w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać okresami dostępności zasobów w Aspose.Tasks dla .NET. Ten samouczek krok po kroku przeprowadzi Cię przez proces dodawania, aktualizowania i usuwania okresów dostępności, zapewniając efektywne planowanie zasobów projektu.
-type: docs
 weight: 18
 url: /pl/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór okresów dostępności w Aspose.Tasks
+
 ## Wstęp
 
 tym samouczku omówimy, jak pracować z kolekcją okresów dostępności zasobu w Aspose.Tasks dla .NET. Zarządzanie okresami dostępności ma kluczowe znaczenie w zarządzaniu projektami, ponieważ pozwala nam określić, kiedy zasoby są dostępne dla zadań w ramach projektu.
@@ -148,3 +154,9 @@ O4: Aspose.Tasks dla .NET nie zapewnia wbudowanych mechanizmów do obsługi nak�
 ### P5: Czy istnieje ograniczenie liczby okresów dostępności zasobu?
 
 Odpowiedź 5: Nie ma z góry określonego limitu liczby okresów dostępności zasobu, ale w przypadku dużej liczby okresów wydajność może się pogorszyć.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hétköznapi tulajdonságok az Aspose.Tasks-ban
 linktitle: Hétköznapi tulajdonságok az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg a hétköznapi tulajdonságok hatékony kezelését az Aspose.Tasks for Java programban. Könnyedén testreszabhatja a hét kezdési dátumait, a hónap napjait és még sok mást.
-type: docs
 weight: 25
 url: /hu/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hétköznapi tulajdonságok az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony API, amely lehetővé teszi a Java fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak anélkül, hogy Microsoft Project lenne telepítve a gépre. Egyik legfontosabb funkciója a hétköznapok tulajdonságainak kezelése, amely lehetővé teszi a felhasználók számára a hét kezdési dátumának, a hónap napjainak, a napi perceknek és a heti perceknek a testreszabását. Ez az oktatóanyag részletes útmutatót ad ezeknek a funkcióknak a hatékony használatához.
 ## Előfeltételek
@@ -74,3 +80,9 @@ V: Igen, az Aspose.Tasks for Java zökkenőmentes integrációs lehetőségeket 
  V: Igen, hozzáférhet az Aspose.Tasks for Java kiterjedt dokumentációjához és közösségi támogatásához[weboldal](https://releases.aspose.com/).
 ### K: Elérhető az Aspose.Tasks for Java ingyenes próbaverziója?
 V: Igen, letöltheti az Aspose.Tasks Java ingyenes próbaverzióját az ő oldalukról[weboldal](https://reference.aspose.com/tasks/java/) hogy vásárlás előtt ismerkedjen meg funkcióival.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

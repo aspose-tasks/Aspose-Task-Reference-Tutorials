@@ -3,10 +3,16 @@ title: Administrar notas para asignaciones de recursos en Aspose.Tasks
 linktitle: Administrar notas para asignaciones de recursos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a administrar notas para asignaciones de recursos en Aspose.Tasks para Java. Tutorial paso a paso para una integración perfecta.
-type: docs
 weight: 21
 url: /es/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar notas para asignaciones de recursos en Aspose.Tasks
+
 ## Introducción
 En este tutorial, profundizaremos en la gestión de notas para asignaciones de recursos utilizando Aspose.Tasks para Java. Aspose.Tasks es una biblioteca Java sólida diseñada para manejar tareas de gestión de proyectos de manera eficiente. Este tutorial lo guiará a través del proceso paso a paso, permitiéndole integrar perfectamente la gestión de notas en los flujos de trabajo de su proyecto.
 ## Requisitos previos
@@ -76,3 +82,9 @@ Aspose.Tasks para Java es compatible con cualquier IDE de Java, incluidos Intell
 No, no se requiere una licencia temporal para el período de prueba. Puede utilizar la versión de prueba sin ninguna licencia.
 ### ¿Dónde puedo comprar Aspose.Tasks para Java?
 Puede comprar Aspose.Tasks para Java desde la página de compra[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

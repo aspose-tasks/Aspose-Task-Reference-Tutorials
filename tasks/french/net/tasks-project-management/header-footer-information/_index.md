@@ -3,10 +3,16 @@ title: Extraire les informations d'en-tête et de pied de page avec Aspose.Tasks
 linktitle: Informations d’en-tête et de pied de page dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à extraire les informations d'en-tête et de pied de page des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Solution simple, efficace et conviviale pour les développeurs.
-type: docs
 weight: 29
 url: /fr/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraire les informations d'en-tête et de pied de page avec Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET est une bibliothèque puissante qui permet aux développeurs de manipuler facilement les fichiers Microsoft Project. Dans ce didacticiel, nous apprendrons comment récupérer les informations d'en-tête et de pied de page des fichiers MS Project à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -70,3 +76,9 @@ Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet, notammen
  Vous pouvez trouver la documentation pour Aspose.Tasks[ici](https://reference.aspose.com/tasks/net/).
 ### Comment puis-je obtenir de l'aide pour Aspose.Tasks ?
  Vous pouvez obtenir de l'aide pour Aspose.Tasks en visitant le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

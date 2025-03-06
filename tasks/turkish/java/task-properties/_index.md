@@ -3,10 +3,16 @@ title: Görev Özellikleri
 linktitle: Görev Özellikleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerin ele alınmasından maliyetlerin yönetilmesine kadar görev özelliklerine ilişkin eğitimleri keşfedin. Projenizi bugün optimize edin!
-type: docs
 weight: 34
 url: /tr/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görev Özellikleri
+
 ## giriiş
 
 Aspose.Tasks ile Microsoft Project dosyalarını Java'da zahmetsizce yönetin ve özelleştirin. Proje yönetimi yeteneklerinizi geliştirmek için görev özelliklerinin çeşitli yönlerini kapsayan eğitimleri keşfedin.
@@ -138,3 +144,9 @@ Aspose.Tasks for Java'yı keşfedin ve ana görev zaman aşamalı veri yönetimi
 Aspose.Tasks for Java'yı kullanarak görev verilerini MPP formatına nasıl güncelleyeceğinizi öğrenin. Etkin proje yönetimi için adım adım kılavuzumuzu izleyin.
 ### [Aspose.Tasks'ta Görevle İlişkili WBS](./wbs-associated-with-task/)
 Aspose.Tasks for Java ile WBS'de ustalaşın - Görev WBS kodlarını okumayı ve yeniden numaralandırmayı öğrenin. Proje yönetimi verimliliğini artırın!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xử lý ngoại lệ kích thước không hợp lệ cho Bitmap trong A
 linktitle: Xử lý ngoại lệ kích thước không hợp lệ cho Bitmap trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý BitmapInvalidSizeException trong Aspose.Tasks cho .NET khi lưu dự án dưới dạng hình ảnh. Hướng dẫn toàn diện với hướng dẫn từng bước.
-type: docs
 weight: 22
 url: /vi/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý ngoại lệ kích thước không hợp lệ cho Bitmap trong Aspose.Tasks
+
 ## Giới thiệu
 
  Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc xử lý các`BitmapInvalidSizeException` khi làm việc với Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình, cho phép thực hiện các tác vụ như lưu dự án dưới dạng hình ảnh. Tuy nhiên, đôi khi, khi cố gắng lưu dự án dưới dạng hình ảnh, chúng ta có thể gặp phải lỗi`Invalid Size Exception`liên quan đến bitmap. Hướng dẫn này nhằm mục đích hướng dẫn bạn qua quá trình phát hiện và xử lý ngoại lệ này một cách hiệu quả.
@@ -111,3 +117,9 @@ Trả lời 4: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau củ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
 
 Câu trả lời 5: Bạn có thể lấy giấy phép tạm thời cho mục đích đánh giá thông qua liên kết được cung cấp trong bài viết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

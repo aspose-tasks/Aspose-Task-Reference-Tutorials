@@ -3,10 +3,16 @@ title: Propiedades de moneda
 linktitle: Propiedades de moneda
 second_title: Aspose.Tasks API de Java
 description: Desbloquee el poder de Aspose.Tasks para los tutoriales de Java. Descubra guías paso a paso sobre cómo leer y configurar propiedades de moneda en archivos de MS Project sin esfuerzo.
-type: docs
 weight: 25
 url: /es/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propiedades de moneda
+
 ## Introducción
 ¿Estás listo para mejorar tus habilidades en Aspose.Tasks para Java? Sumérjase en nuestros completos tutoriales sobre propiedades monetarias y domine el arte de manejar información monetaria dentro de archivos de MS Project.
 
@@ -35,3 +41,9 @@ En conclusión, nuestros tutoriales de Aspose.Tasks para Java sobre propiedades 
 Aprenda a extraer información monetaria de archivos de MS Project utilizando Aspose.Tasks para Java. Se proporciona una guía paso a paso.
 ### [Establecer propiedades de moneda en proyectos de Aspose.Tasks](./set-properties/)
 Aprenda a configurar propiedades de moneda en proyectos Aspose.Tasks usando Java. Manipule archivos de Microsoft Project sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

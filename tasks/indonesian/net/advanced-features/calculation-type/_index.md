@@ -3,10 +3,16 @@ title: Ketik Perhitungan di Aspose.Tasks
 linktitle: Ketik Perhitungan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi perhitungan nilai dalam proyek .NET dengan Jenis Perhitungan di perpustakaan Aspose.Tasks.
-type: docs
 weight: 30
 url: /id/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ketik Perhitungan di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan menjelajahi fitur Jenis Perhitungan di Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file Microsoft Project tanpa perlu menginstal Microsoft Project di sistem mereka. Jenis Perhitungan memungkinkan kita menentukan bagaimana nilai dihitung untuk tugas dan ringkasan tugas dalam suatu proyek.
@@ -97,3 +103,9 @@ A4: Ya, Aspose.Tasks menyediakan berbagai Jenis Rollup seperti Rata-rata, Jumlah
 ### Q5: Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Tasks untuk .NET?
 
  A5: Anda dapat menjelajahi dokumentasi dan forum dukungan komunitas yang tersedia di[Aspose.Tugas untuk .NET](https://reference.aspose.com/tasks/net/) untuk bimbingan dan bantuan komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

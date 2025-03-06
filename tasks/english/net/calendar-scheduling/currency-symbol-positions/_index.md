@@ -3,10 +3,16 @@ title: Currency Symbol Positions in Aspose.Tasks
 linktitle: Currency Symbol Positions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to control currency symbol positions in .NET projects effortlessly with Aspose.Tasks.
-type: docs
 weight: 22
 url: /net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Currency Symbol Positions in Aspose.Tasks
+
 ## Introduction
 
 In software development, efficient handling of various aspects like project management is crucial. Aspose.Tasks for .NET offers robust solutions for managing tasks, projects, and resources seamlessly within .NET applications. Among its many features, controlling the position of currency symbols is essential for financial tracking and reporting. In this tutorial, we will explore how to manipulate the currency symbol positions using Aspose.Tasks for .NET.
@@ -84,3 +90,10 @@ A4: Certainly! You can seek support and assistance from the Aspose.Tasks communi
 ### Q5: How can I purchase a license for Aspose.Tasks for .NET?
 
 A5: You can purchase a license for Aspose.Tasks for .NET from [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

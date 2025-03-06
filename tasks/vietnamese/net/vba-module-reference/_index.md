@@ -3,10 +3,16 @@ title: Mô-đun Aspose.Tasks VBA và xử lý tham chiếu
 linktitle: Mô-đun Aspose.Tasks VBA và xử lý tham chiếu
 second_title: Aspose.Tasks .NET API
 description: Bạn đã sẵn sàng nâng cao khả năng quản lý dự án của mình bằng Aspose.Tasks .NET chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về mô-đun VBA và xử lý tham chiếu.
-type: docs
 weight: 31
 url: /vi/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mô-đun Aspose.Tasks VBA và xử lý tham chiếu
+
 
 ## Quản lý mô-đun VBA trong Aspose.Tasks
 
@@ -40,3 +46,9 @@ Khám phá cách quản lý hiệu quả Bộ sưu tập mô-đun VBA trong Aspo
 Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý Dự án VBA một cách dễ dàng. Nâng cao khả năng quản lý dự án của bạn với hướng dẫn từng bước này.
 ### [Xử lý các tham chiếu VBA trong Aspose.Tasks](./vba-references/)
 Khám phá sức mạnh của việc xử lý các tham chiếu VBA trong Aspose.Tasks .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách đọc, so sánh và làm việc với các tài liệu tham khảo VBA một cách liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

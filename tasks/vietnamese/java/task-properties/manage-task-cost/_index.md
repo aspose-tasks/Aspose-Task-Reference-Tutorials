@@ -3,10 +3,16 @@ title: Quản lý chi phí nhiệm vụ trong Aspose.Tasks
 linktitle: Quản lý chi phí nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý chi phí tác vụ trong các ứng dụng Java bằng Aspose.Tasks. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý chi phí dự án hiệu quả.
-type: docs
 weight: 21
 url: /vi/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý chi phí nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Tasks cho Java, một thư viện mạnh mẽ cho phép bạn quản lý chi phí nhiệm vụ một cách liền mạch trong các ứng dụng Java của mình. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks một cách hiệu quả để xử lý chi phí nhiệm vụ, đảm bảo quản lý dự án hiệu quả.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Tóm lại, việc nắm vững quản lý chi phí nhiệm vụ là rất quan 
  Đ: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Tasks dành cho Java ở đâu?
  A: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

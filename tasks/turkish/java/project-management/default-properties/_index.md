@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Özelliklerini Verimli Bir Şekilde Yönetin
 linktitle: Aspose.Tasks'ta Varsayılan Proje Özelliklerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak varsayılan MS Project özelliklerini nasıl yöneteceğinizi öğrenin. Proje yönetimi iş akışınızı zahmetsizce kolaylaştırın.
-type: docs
 weight: 11
 url: /tr/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Özelliklerini Verimli Bir Şekilde Yönetin
+
 ## giriiş
 Aspose.Tasks for Java ile proje yönetimi sürecinizi kolaylaştırmak mı istiyorsunuz? Microsoft Project dosyalarındaki varsayılan özellikleri yönetmek, verimliliği önemli ölçüde artırabilir. Bu eğitimde, Aspose.Tasks kullanarak varsayılan MS Project özelliklerinin nasıl yönetileceğine ilişkin talimatları adım adım anlatacağız.
 ## Önkoşullar
@@ -79,3 +85,9 @@ C3: Evet, yardım ve topluluk desteğini şu adreste bulabilirsiniz:[Aspose.Task
  A4: Tabii ki! Ücretsiz denemeden yararlanabilirsiniz[İnternet sitesi](https://releases.aspose.com/).
 ### S5: Aspose.Tasks için nasıl geçici lisans alabilirim?
  Cevap5: Geçici lisansı şu adresten alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

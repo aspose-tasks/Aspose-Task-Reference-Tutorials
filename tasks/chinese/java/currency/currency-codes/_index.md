@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理货币代码
 linktitle: 在 Aspose.Tasks 中管理货币代码
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效管理货币 MS Project 代码。轻松简化您的项目管理任务。
-type: docs
 weight: 10
 url: /zh/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理货币代码
+
 ## 介绍
 欢迎来到我们关于使用 Aspose.Tasks for Java 管理货币 MS Project 代码的教程。在本教程中，我们将引导您轻松完成在 MS Project 文件中处理货币代码的过程。 Aspose.Tasks 是一个功能强大的 Java API，允许您以编程方式操作 Microsoft Project 文档，提供广泛的功能来简化您的项目管理任务。
 ## 先决条件
@@ -53,3 +59,9 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 答：是的，您可以通过免费试用来探索 Aspose.Tasks，以评估其功能以及是否适合您的项目要求。
 ### 问：我在哪里可以获得 Aspose.Tasks 的临时许可证？
 答：Aspose.Tasks 的临时许可证可以从[网站](https://purchase.aspose.com/temporary-license/)在有限的时间内。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

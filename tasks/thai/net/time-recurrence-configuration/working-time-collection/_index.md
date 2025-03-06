@@ -3,10 +3,16 @@ title: การควบคุมเวลาทำงานใน Aspose.Tasks
 linktitle: การรวบรวมเวลาทำงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจพลังของ Aspose.Tasks สำหรับ .NET ในการจัดการไทม์ไลน์ของโครงการอย่างมีประสิทธิภาพ ปรับแต่งปฏิทิน ตั้งเวลาทำงาน และปรับปรุงโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การควบคุมเวลาทำงานใน Aspose.Tasks
+
 ## การแนะนำ
 คุณกำลังมองหาการเรียนรู้ศิลปะในการจัดการเวลาทำงานใน Aspose.Tasks for .NET หรือไม่? ไม่ต้องมองอีกต่อไป! ในคำแนะนำทีละขั้นตอนนี้ เราจะเจาะลึกความซับซ้อนของการรวบรวมเวลาทำงานโดยใช้ Aspose.Tasks ซึ่งช่วยให้คุณจัดการปฏิทินแบบกำหนดเองได้อย่างมีประสิทธิภาพ และปรับปรุงไทม์ไลน์ของโปรเจ็กต์ของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -114,3 +120,9 @@ foreach (var day in calendar.WeekDays)
  ใช่ คุณสามารถสำรวจ Aspose.Tasks พร้อมรุ่นทดลองใช้ฟรีได้โดยไปที่[ลิงค์นี้](https://releases.aspose.com/).
 ### ฉันจะขอรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  หากมีข้อสงสัยหรือความช่วยเหลือ โปรดไปที่[ฟอรัมสนับสนุน Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Чтение метасвойств в проектах Aspose.Tasks
 linktitle: Чтение метасвойств в проектах Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Раскройте возможности метаданных в проектах Aspose.Tasks с помощью этого подробного руководства. Научитесь легко извлекать и использовать метасвойства.
-type: docs
 weight: 10
 url: /ru/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение метасвойств в проектах Aspose.Tasks
+
 ## Введение
 В сфере управления проектами и анализа данных изучение метаданных файлов проекта может дать неоценимую информацию. Aspose.Tasks для Java представляет собой надежный набор инструментов для легкой навигации по этим метасвойствам. Это руководство служит исчерпывающим руководством по извлечению и пониманию метасвойств в ваших проектах Aspose.Tasks.
 ## Предварительные условия
@@ -71,3 +77,9 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
  О: Да, вы можете найти обширную документацию по Aspose.Tasks на сайте[страница документации](https://reference.aspose.com/tasks/java/).
 ### Вопрос: Где я могу получить поддержку по запросам, связанным с Aspose.Tasks?
  О: Для получения любой помощи или вопросов относительно Aspose.Tasks вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за целенаправленную поддержку сообщества и экспертов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

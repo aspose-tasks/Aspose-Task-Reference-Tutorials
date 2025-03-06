@@ -3,10 +3,16 @@ title: MS Project Outline Code Handling Definitions in Aspose.Tasks
 linktitle: Handling Outline Code Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle MS Project outline code definitions using Aspose.Tasks for .NET, empowering your project management applications.
-type: docs
 weight: 12
 url: /net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline Code Handling Definitions in Aspose.Tasks
+
 ## Introduction
 Microsoft Project is a powerful tool for managing projects, and Aspose.Tasks for .NET provides comprehensive support for manipulating project files programmatically. One essential aspect of project management is organizing tasks using outline codes. In this tutorial, we'll explore how to handle MS Project outline code definitions using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -91,3 +97,10 @@ A: Yes, Aspose.Tasks for .NET provides extensive features for manipulating resou
 A: Absolutely, Aspose.Tasks for .NET supports reading and writing custom fields, including outline codes, from MS Project files.
 ### Q5: Is there a community forum for Aspose.Tasks for .NET?
 A: Yes, you can join the community forum for Aspose.Tasks for .NET [here](https://forum.aspose.com/c/tasks/15) to ask questions, share knowledge, and collaborate with other developers.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

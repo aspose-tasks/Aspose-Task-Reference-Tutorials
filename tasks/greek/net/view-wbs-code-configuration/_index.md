@@ -3,10 +3,16 @@ title: Aspose.Tasks View και WBS Code Configuration
 linktitle: Aspose.Tasks View και WBS Code Configuration
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks για προβολές .NET και κωδικούς WBS. Προσαρμόστε τη διαχείριση έργου με τα βήμα προς βήμα σεμινάρια μας. Κάντε λήψη τώρα για απρόσκοπτη οπτικοποίηση έργου.
-type: docs
 weight: 32
 url: /el/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks View και WBS Code Configuration
+
 
 ## Εισαγωγή
 
@@ -56,3 +62,9 @@ url: /el/net/view-wbs-code-configuration/
 Βελτιώστε τη διαχείριση έργων με το Aspose.Tasks για .NET. Μάθετε να δημιουργείτε, να διαχειρίζεστε και να μεταφέρετε μάσκες κώδικα WBS χωρίς κόπο σε αυτό το ολοκληρωμένο σεμινάριο.
 ### [Καθορισμός ακολουθιών WBS στο Aspose.Tasks](./wbs-sequences/)
 Ενισχύστε τη διαχείριση του έργου σας με το Aspose.Tasks για .NET – ορίστε απρόσκοπτα τις ακολουθίες WBS και βελτιώστε την αποτελεσματικότητα χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

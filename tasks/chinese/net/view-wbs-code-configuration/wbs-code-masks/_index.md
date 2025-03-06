@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET 中的分步 WBS 代码配置
 linktitle: 在 Aspose.Tasks 中配置 WBS 代码掩码
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks 探索 .NET 项目中的分步 WBS 代码掩码配置。轻松提升项目管理能力。
-type: docs
 weight: 14
 url: /zh/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET 中的分步 WBS 代码配置
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，使开发人员能够有效地操作 .NET 应用程序中的项目管理数据。在本教程中，我们将探索使用 Aspose.Tasks 配置工作分解结构 (WBS) 代码掩码的过程。
 ## 先决条件
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 是的，有完整的文档可供使用[这里](https://reference.aspose.com/tasks/net/).
 ### 在哪里可以购买 Aspose.Tasks？
 购买 Aspose.Tasks[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

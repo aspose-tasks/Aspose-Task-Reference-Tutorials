@@ -3,10 +3,16 @@ title: Oblicz krytyczną ścieżkę projektu MS w Aspose.Tasks
 linktitle: Oblicz ścieżkę krytyczną w projektach Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak obliczyć ścieżkę krytyczną w MS Project przy użyciu Aspose.Tasks dla Java. Zawiera wskazówki krok po kroku dotyczące skutecznego zarządzania projektem.
-type: docs
 weight: 10
 url: /pl/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oblicz krytyczną ścieżkę projektu MS w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces obliczania ścieżki krytycznej w MS Project przy użyciu Aspose.Tasks dla Java. Ścieżka krytyczna jest niezbędna w zarządzaniu projektami, ponieważ pomaga określić kolejność zadań, które należy wykonać na czas, aby ogólny harmonogram projektu nie uległ opóźnieniom.
 ## Warunki wstępne
@@ -72,3 +78,9 @@ O: Tak, Aspose.Tasks for Java obsługuje różne wersje plików MS Project, w ty
  Odpowiedź: Tak, możesz kupić tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Jak mogę kupić Aspose.Tasks dla Java?
  O: Możesz kupić Aspose.Tasks dla Java na stronie internetowej[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

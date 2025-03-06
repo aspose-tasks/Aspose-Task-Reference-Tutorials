@@ -3,10 +3,16 @@ title: Antal slutförda beräkningar för uppgifter i Aspose.Tasks
 linktitle: Antal slutförda beräkningar för uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska Aspose.Tasks för Java och effektivisera spårning av projektförlopp. Beräkna enkelt uppgiftsprocent för effektiv projektledning.
-type: docs
 weight: 25
 url: /sv/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Antal slutförda beräkningar för uppgifter i Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår djupgående guide om hur du behärskar beräkningar av uppgiftsprocent med Aspose.Tasks för Java. Aspose.Tasks är ett kraftfullt Java-bibliotek designat för att arbeta med Microsoft Project-filer, och erbjuder en robust uppsättning funktioner för projekthantering. I den här handledningen kommer vi att fokusera på beräkningar av procentuellt slutfört, vilket ger dig kunskapen för att effektivt övervaka och analysera projektframsteg.
 ## Förutsättningar
@@ -63,3 +69,9 @@ Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose
  Besök supportforumet[här](https://forum.aspose.com/c/tasks/15).
 ### F: Hur får jag en tillfällig licens?
  Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

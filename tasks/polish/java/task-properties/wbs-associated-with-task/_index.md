@@ -3,10 +3,16 @@ title: WBS powiązany z zadaniem w Aspose.Tasks
 linktitle: WBS powiązany z zadaniem w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Opanuj WBS z Aspose.Tasks dla Java - Naucz się czytać i przenumerowywać kody WBS zadań. Zwiększ efektywność zarządzania projektami!
-type: docs
 weight: 36
 url: /pl/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS powiązany z zadaniem w Aspose.Tasks
+
 ## Wstęp
 Witamy w świecie zarządzania projektami z Aspose.Tasks dla Java! W tym samouczku zagłębimy się w zawiłości struktury podziału pracy (WBS) związanej z zadaniami przy użyciu Aspose.Tasks dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik pomoże Ci poruszać się po podstawach efektywnego zarządzania kodami WBS.
 ## Warunki wstępne
@@ -90,3 +96,9 @@ Gratulacje! Pomyślnie nauczyłeś się pracować z kodami WBS przy użyciu Aspo
  O: Odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dla wsparcia.
 ### P: Czy mogę uzyskać tymczasową licencję na Aspose.Tasks dla Java?
  Odp.: Tak, zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إدارة الميزانية والعمل والتكلفة للمهام 
 linktitle: إدارة الميزانية والعمل والتكلفة للمهام الموجودة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: احصل على إدارة فعالة للميزانية والتكلفة في مشاريع Java باستخدام Aspose.Tasks. استكشف الإرشادات خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 31
 url: /ar/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة الميزانية والعمل والتكلفة للمهام الموجودة في Aspose.Tasks
+
 ## مقدمة
 تعد إدارة الميزانيات والعمل والتكاليف بكفاءة أمرًا بالغ الأهمية لنجاح تنفيذ المشروع. يوفر Aspose.Tasks for Java حلاً قويًا للتعامل مع المهام المتعلقة بالمشروع، بما في ذلك إعداد الميزانية وإدارة التكاليف. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Tasks لـ Java لتحقيق إدارة فعالة للميزانية والعمل والتكلفة في مشاريعك.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ for (ResourceAssignment assn : projSummary.getAssignments()) {
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
 ### هل هناك أي موارد إضافية لـ Aspose.Tasks لـ Java؟
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/tasks/java/) للحصول على معلومات وأمثلة متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

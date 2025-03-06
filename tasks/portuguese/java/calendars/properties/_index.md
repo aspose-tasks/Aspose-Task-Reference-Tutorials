@@ -3,10 +3,16 @@ title: Gerenciar propriedades do calendário do MS Project em Aspose.Tasks
 linktitle: Gerenciar propriedades do calendário em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como gerenciar propriedades de calendário do MS Project em Java usando Aspose.Tasks. Isso fornece orientação passo a passo para o calendário em seus aplicativos Java.
-type: docs
 weight: 10
 url: /pt/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar propriedades do calendário do MS Project em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como gerenciar propriedades de calendário do MS Project usando Aspose.Tasks para Java. Ao compreender como manipular as propriedades do calendário, você poderá adaptar os cronogramas do projeto para atender requisitos específicos com eficiência.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ R: Absolutamente! Você pode integrar perfeitamente os recursos de gerenciamento
 R: Sim, Aspose.Tasks oferece uma ampla gama de funcionalidades para gerenciamento de tarefas, recursos e estruturas de projetos, tornando-o uma solução abrangente para gerenciamento de projetos em Java.
 ### P: O suporte técnico está disponível para desenvolvedores que usam Aspose.Tasks?
 R: Sim, os desenvolvedores podem acessar o suporte técnico através do fórum Aspose.Tasks, garantindo assistência para quaisquer dúvidas ou problemas encontrados durante a implementação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

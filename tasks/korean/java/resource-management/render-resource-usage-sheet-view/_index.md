@@ -3,10 +3,16 @@ title: Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
 linktitle: Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 MS 프로젝트 리소스 사용량 및 시트 보기를 렌더링하는 방법을 알아보세요. 자세한 PDF 보고서를 쉽게 생성하려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 16
 url: /ko/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 리소스 사용량 및 시트 보기를 렌더링하는 방법을 알아봅니다. Aspose.Tasks는 개발자가 Microsoft Project를 설치할 필요 없이 Microsoft Project 파일로 작업할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -78,3 +84,9 @@ Aspose.Tasks는 간트 차트, 작업 사용량, 달력 보기 등 다양한 보
 아니요, Aspose.Tasks는 독립 실행형 라이브러리이며 작동을 위해 Microsoft Project를 설치할 필요가 없습니다.
 ### Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
  예, Aspose.Tasks 사용자는 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

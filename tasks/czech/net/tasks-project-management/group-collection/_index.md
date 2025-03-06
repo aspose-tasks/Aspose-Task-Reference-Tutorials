@@ -3,10 +3,16 @@ title: Správa kolekcí projektů v Aspose.Tasks
 linktitle: Správa kolekce skupiny v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně spravovat kolekce MS Project pomocí Aspose.Tasks for .NET. Postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 26
 url: /cs/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kolekcí projektů v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak spravovat skupinové kolekce MS Project pomocí Aspose.Tasks for .NET. Správa skupinových kolekcí je zásadní pro efektivní organizaci a manipulaci s úkoly a zdroji v rámci vašeho projektu.
 ## Předpoklady
@@ -108,3 +114,9 @@ Aspose.Tasks for .NET primárně cílí na .NET framework, ale lze jej použít 
  Podporu pro Aspose.Tasks for .NET můžete získat prostřednictvím[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks for .NET z webu[webová stránka](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

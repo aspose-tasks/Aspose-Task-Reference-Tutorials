@@ -3,10 +3,16 @@ title: Kolekce období dostupnosti v Aspose.Tasks
 linktitle: Kolekce období dostupnosti v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Zjistěte, jak spravovat období dostupnosti prostředků v Aspose.Tasks for .NET. Tento podrobný návod vás provede přidáváním, aktualizací a odebíráním období dostupnosti a zajišťuje efektivní plánování zdrojů projektu.
-type: docs
 weight: 18
 url: /cs/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce období dostupnosti v Aspose.Tasks
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak pracovat s kolekcí období dostupnosti zdroje v Aspose.Tasks for .NET. Správa období dostupnosti je pro projektové řízení zásadní a umožňuje nám definovat, kdy jsou k dispozici zdroje pro úkoly v rámci projektu.
@@ -148,3 +154,9 @@ A4: Aspose.Tasks for .NET neposkytuje vestavěné mechanismy pro zpracování p�
 ### Otázka 5: Existuje omezení počtu období dostupnosti zdroje?
 
 Odpověď 5: Neexistuje žádné předem definované omezení počtu období dostupnosti, které může mít prostředek, ale s velkým počtem období může dojít ke snížení výkonu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

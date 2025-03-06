@@ -3,10 +3,16 @@ title: Raccolta di attività figlio in Aspose.Tasks
 linktitle: Raccolta di attività figlio in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come raccogliere attività figlio in modo efficiente utilizzando Aspose.Tasks per .NET. Migliora la gestione dei progetti nelle tue applicazioni .NET.
-type: docs
 weight: 15
 url: /it/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccolta di attività figlio in Aspose.Tasks
+
 ## introduzione
 
 Nel campo della gestione dei progetti, Aspose.Tasks per .NET si distingue come una soluzione solida per gestire attività e progetti in modo efficiente. Questa potente libreria fornisce agli sviluppatori gli strumenti di cui hanno bisogno per gestire attività, progetti e tutto il resto senza problemi. In questo tutorial approfondiremo un aspetto specifico di Aspose.Tasks: la raccolta di attività figlio.
@@ -96,3 +102,9 @@ R4: Sì, gli utenti possono accedere al supporto tecnico tramite[Forum Aspose.Ta
 ### Q5: Posso provare Aspose.Tasks per .NET prima dell'acquisto?
 
  A5: Certamente! Puoi usufruire di una prova gratuita da[pagina di rilascio](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

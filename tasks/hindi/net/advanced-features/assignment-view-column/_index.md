@@ -3,10 +3,16 @@ title: Aspose.Tasks में कस्टम असाइनमेंट व्
 linktitle: Aspose.Tasks में कस्टम असाइनमेंट व्यू कॉलम
 second_title: Aspose.Tasks .NET API
 description: प्रोजेक्ट प्रबंधन क्षमताओं को बढ़ाने के लिए .NET के लिए Aspose.Tasks में कस्टम असाइनमेंट व्यू कॉलम जोड़ने का तरीका जानें।
-type: docs
 weight: 16
 url: /hi/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कस्टम असाइनमेंट व्यू कॉलम
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके असाइनमेंट व्यू के लिए कस्टम कॉलम कैसे जोड़ें। कस्टम कॉलम लचीलापन प्रदान करते हैं और आपको अपनी परियोजना प्रबंधन आवश्यकताओं से संबंधित अतिरिक्त जानकारी प्रदर्शित करने की अनुमति देते हैं।
@@ -116,3 +122,9 @@ A3: हाँ, आप चौड़ाई, फ़ॉन्ट और संरे
 ### Q5: क्या Aspose.Tasks कस्टम कॉलम के साथ स्प्रेडशीट के अलावा अन्य प्रारूपों में परियोजनाओं को निर्यात करने का समर्थन करता है?
 
 A5: हाँ, Aspose.Tasks पीडीएफ, HTML और XML जैसे विभिन्न प्रारूपों में परियोजनाओं को निर्यात करने का समर्थन करता है, जिससे बहुमुखी परियोजना रिपोर्टिंग विकल्पों की अनुमति मिलती है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

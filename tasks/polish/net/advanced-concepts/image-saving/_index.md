@@ -3,10 +3,16 @@ title: Obsługa zapisywania obrazów w Aspose.Tasks
 linktitle: Obsługa zapisywania obrazów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak obsługiwać zapisywanie obrazów w Aspose.Tasks dla .NET, korzystając ze wskazówek krok po kroku. Bezproblemowo integruj funkcję zapisywania obrazów z aplikacjami .NET.
-type: docs
 weight: 10
 url: /pl/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa zapisywania obrazów w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w proces obsługi zapisywania obrazów w Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programowe manipulowanie plikami Microsoft Project. Jednym z typowych zadań podczas pracy z plikami projektu jest konieczność zapisywania obrazów, które mogą zawierać wykresy, wykresy lub inne elementy wizualne. Podzielimy proces krok po kroku, zapewniając przejrzystość i zrozumienie całego procesu.
@@ -131,3 +137,9 @@ O4: Tak, możesz dostosować wygląd zapisanych obrazów, modyfikując logikę z
 ### P5: Czy Aspose.Tasks oferuje wersje próbne do celów ewaluacyjnych?
 
  O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks od[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

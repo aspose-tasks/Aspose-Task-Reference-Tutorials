@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS 專案風險分析
 linktitle: 在 Aspose.Tasks 中配置風險分析設置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 設定 MS Project 風險分析設定。透過先進的風險評估技術提高專案管理效率。
-type: docs
 weight: 19
 url: /zh-hant/net/resource-risk-analysis/risk-analysis-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS 專案風險分析
+
 ## 介紹
 在專案管理中，風險分析在識別潛在的不確定性及其對專案時間表的影響方面發揮著至關重要的作用。 Aspose.Tasks for .NET 提供了配置 Microsoft Project 風險分析設定的全面解決方案，使用戶能夠有效地評估和減輕專案風險。
 ## 先決條件
@@ -112,3 +118,9 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 答：是的，Aspose.Tasks 提供全面的文件、教學課程和專門的支援論壇，以幫助使用者有效地利用其功能並解決遇到的任何問題。
 ### Q：Aspose.Tasks 有試用版嗎？
 答：是的，用戶可以在購買之前使用 Aspose.Tasks 的免費試用版來探索其功能並確定其是否適合其項目要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

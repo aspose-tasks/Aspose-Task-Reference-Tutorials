@@ -3,10 +3,16 @@ title: WBS associato all'attività in Aspose.Tasks
 linktitle: WBS associato all'attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Padroneggia la WBS con Aspose.Tasks per Java impara a leggere e rinumerare i codici WBS delle attività. Aumenta l'efficienza della gestione dei progetti!
-type: docs
 weight: 36
 url: /it/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS associato all'attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel mondo della gestione dei progetti con Aspose.Tasks per Java! In questo tutorial, approfondiremo le complessità della Work Breakdown Structure (WBS) associata alle attività utilizzando Aspose.Tasks per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questa guida ti aiuterà a esplorare gli elementi essenziali per gestire i codici WBS in modo efficiente.
 ## Prerequisiti
@@ -90,3 +96,9 @@ Congratulazioni! Hai imparato con successo come lavorare con i codici WBS utiliz
  R: Visita il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto.
 ### D: Posso ottenere una licenza temporanea per Aspose.Tasks per Java?
  R: Sì, ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

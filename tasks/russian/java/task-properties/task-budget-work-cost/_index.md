@@ -3,10 +3,16 @@ title: Управление бюджетом, работой и затратам
 linktitle: Управление бюджетом, работой и затратами для задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Откройте для себя эффективное управление бюджетом и затратами в проектах Java с помощью Aspose.Tasks. Ознакомьтесь с пошаговыми инструкциями по плавной интеграции.
-type: docs
 weight: 31
 url: /ru/java/task-properties/task-budget-work-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление бюджетом, работой и затратами для задач в Aspose.Tasks
+
 ## Введение
 Эффективное управление бюджетами, работой и затратами имеет решающее значение для успешного выполнения проекта. Aspose.Tasks for Java предоставляет надежное решение для решения задач, связанных с проектом, включая составление бюджета и управление затратами. В этом руководстве мы рассмотрим, как использовать Aspose.Tasks для Java для эффективного управления бюджетом, работой и затратами в ваших проектах.
 ## Предварительные условия
@@ -71,3 +77,9 @@ for (ResourceAssignment assn : projSummary.getAssignments()) {
  Получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для целей тестирования и оценки.
 ### Есть ли дополнительные ресурсы для Aspose.Tasks для Java?
  Обратитесь к документации[здесь](https://reference.aspose.com/tasks/java/) для более подробной информации и примеров.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hantera egenskaper för nivåfördröjning i Aspose.Tasks
 linktitle: Hantera egenskaper för utjämningsfördröjning för resurstilldelningar i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar utjämningsfördröjningsegenskaper för resurstilldelningar i Aspose.Tasks för Java med denna omfattande handledning.
-type: docs
 weight: 17
 url: /sv/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera egenskaper för nivåfördröjning i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen går vi igenom processen att hantera egenskaper för utjämningsfördröjning för resurstilldelningar i Aspose.Tasks för Java. Aspose.Tasks är ett kraftfullt Java-bibliotek som låter dig arbeta med Microsoft Project-filer utan att Microsoft Project behöver installeras på ditt system.
 ## Förutsättningar
@@ -91,3 +97,9 @@ S: Ja, Aspose.Tasks stöder olika versioner av Microsoft Project-filer, vilket s
 ### F: Hur kan jag få en tillfällig licens för Aspose.Tasks?
 
  S: Du kan begära en tillfällig licens från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

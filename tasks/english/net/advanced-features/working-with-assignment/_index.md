@@ -3,10 +3,16 @@ title: Working with Assignment in Aspose.Tasks
 linktitle: Working with Assignment in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage project assignments in .NET using Aspose.Tasks. Explore different contours for resource scheduling.
-type: docs
 weight: 13
 url: /net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Assignment in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll explore how to work with assignments in Aspose.Tasks for .NET. Assignments are crucial in project management as they allocate resources to tasks, helping in scheduling and tracking progress. We'll focus on generating resource assignment timephased data with various contours using Aspose.Tasks.
@@ -109,3 +115,10 @@ A4: Yes, as demonstrated in this tutorial, you can set various contours such as 
 ### Q5: Where can I find support for Aspose.Tasks-related queries?
 
 A5: You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) where experts and community members actively engage in discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

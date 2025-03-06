@@ -3,10 +3,16 @@ title: Công thức dự án MS với Aspose.Tasks cho Java
 linktitle: Làm việc với Công thức trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách thao tác các tệp MS Project trong Java bằng thư viện Aspose.Tasks. Tạo, sửa đổi và tính toán các thuộc tính một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Công thức dự án MS với Aspose.Tasks cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào làm việc với MS Project Formulas bằng cách sử dụng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Với các tính năng mở rộng của nó, bạn có thể dễ dàng tạo, đọc, sửa đổi và chuyển đổi các tệp dự án trong các ứng dụng Java.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều ngôn ngữ lập trình khác
  A: Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks không?
 Đáp: Nếu bạn yêu cầu các tính năng bổ sung, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

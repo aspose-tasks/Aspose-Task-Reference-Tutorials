@@ -3,10 +3,16 @@ title: التعامل مع السمات الموسعة في مشاريع Aspose.
 linktitle: التعامل مع السمات الموسعة في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع السمات الموسعة في مشاريع Aspose.Tasks باستخدام Java بكفاءة. دليل خطوة بخطوة لإدارة المشاريع بشكل فعال.
-type: docs
 weight: 13
 url: /ar/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع السمات الموسعة في مشاريع Aspose.Tasks
+
 ## مقدمة
 تعد إدارة السمات الموسعة في إدارة المشروع أمرًا ضروريًا لتخصيص بيانات المشروع وتحسينها. يوفر Aspose.Tasks for Java أدوات قوية للتعامل مع السمات الموسعة في ملفات MS Project بكفاءة. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن استيعاب كل مفهوم بدقة.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
  ج: يمكنك العثور على وثائق شاملة على موقع Aspose.Tasks[توثيق](https://reference.aspose.com/tasks/java/).
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
  ج: نعم، يمكنك الوصول إلى الدعم الفني من خلال منتدى Aspose.Tasks[موقع إلكتروني](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

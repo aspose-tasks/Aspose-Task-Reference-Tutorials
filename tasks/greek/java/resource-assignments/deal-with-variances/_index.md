@@ -3,10 +3,16 @@ title: Αποτελεσματικός χειρισμός διακύμανσης 
 linktitle: Αντιμετώπιση διακυμάνσεων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά τις αποκλίσεις του έργου με το Aspose.Tasks για Java. Διαχειριστείτε τις αποκλίσεις εργασίας, κόστους, έναρξης και λήξης χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποτελεσματικός χειρισμός διακύμανσης έργου με Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χειριζόμαστε διακυμάνσεις στο Aspose.Tasks για Java. Οι αποκλίσεις είναι αποκλίσεις από τις προγραμματισμένες τιμές, όπως η εργασία, το κόστος, οι ημερομηνίες έναρξης ή λήξης, στη διαχείριση έργου. Το Aspose.Tasks παρέχει αποτελεσματικές μεθόδους για την ανάκτηση και τη διαχείριση αυτών των αποκλίσεων, βοηθώντας τους προγραμματιστές να αναλύουν και να προσαρμόζουν αποτελεσματικά τα χρονοδιαγράμματα έργων.
 ## Προαπαιτούμενα
@@ -65,3 +71,9 @@ System.out.println(ra.get(Asn.FINISH_VARIANCE));
  Α: Ναι, οι χρήστες μπορούν να έχουν πρόσβαση σε τεχνική υποστήριξη μέσω του[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε βοήθεια ή απορία.
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks πριν από την αγορά;
  Α: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Tasks από[εδώ](https://releases.aspose.com/) για να αξιολογήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

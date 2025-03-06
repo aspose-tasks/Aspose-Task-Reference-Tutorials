@@ -3,10 +3,16 @@ title: การมอบหมายทรัพยากร
 linktitle: การมอบหมายทรัพยากร
 second_title: Aspose.Tasks Java API
 description: เชี่ยวชาญ Aspose.Tasks สำหรับ Java ได้อย่างง่ายดายด้วยบทช่วยสอนการมอบหมายทรัพยากรของเรา จัดการการจัดการ MS Project งบประมาณการมอบหมาย ต้นทุน และอื่นๆ
-type: docs
 weight: 30
 url: /th/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การมอบหมายทรัพยากร
+
 
 ## การแนะนำ
 
@@ -101,3 +107,9 @@ url: /th/java/resource-assignments/
 เรียนรู้วิธีจัดการการมอบหมายทรัพยากรอย่างมีประสิทธิภาพใน Aspose.Tasks for Java ด้วยบทช่วยสอนทีละขั้นตอนนี้
 ### [สร้างข้อมูลตามช่วงเวลาใน Aspose.Tasks](./timephased-data-generation/)
 เรียนรู้วิธีสร้างข้อมูลตามช่วงเวลาสำหรับการมอบหมายทรัพยากรโดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงประสิทธิภาพการจัดการโครงการด้วยคำแนะนำที่ครอบคลุมนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

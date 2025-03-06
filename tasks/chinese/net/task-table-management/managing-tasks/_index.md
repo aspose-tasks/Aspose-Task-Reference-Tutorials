@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理任务
 linktitle: 在 Aspose.Tasks 中管理任务
 second_title: Aspose.Tasks .NET API
 description: 探索有关使用 Aspose.Tasks for .NET 管理任务的综合指南。学习添加、显示拆分零件、移动、获取/设置属性等。
-type: docs
 weight: 15
 url: /zh/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理任务
+
 ## 介绍
 如果您是一名 .NET 开发人员，希望有效管理项目中的任务，Aspose.Tasks for .NET 提供了一个强大的解决方案。本教程将指导您完成使用 Aspose.Tasks 管理任务的各个方面，并提供分步说明和代码示例。无论您是添加任务、显示拆分部分、在同一父级下移动任务、获取/设置任务属性、迭代任务分配、读取任务基线还是删除任务，本指南都能满足您的要求。
 ## 先决条件
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 答：当然！ Aspose.Tasks 为任务属性提供了广泛的自定义选项。查看文档以获取更多详细信息。
 ### 问：如何获得 Aspose.Tasks 的支持？
 答：访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

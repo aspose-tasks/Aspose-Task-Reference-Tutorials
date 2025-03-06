@@ -3,10 +3,16 @@ title: Szerezzen oldalszámot a projektben az Aspose.Tasks segítségével
 linktitle: Szerezzen oldalszámot a projektben az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Használja ki a Java fejlesztésben rejlő lehetőségeket az Aspose.Tasks segítségével. Tanulja meg, hogyan kezelheti zökkenőmentesen a Microsoft Project fájlokat, és növelheti termelékenységét.
-type: docs
 weight: 16
 url: /hu/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen oldalszámot a projektben az Aspose.Tasks segítségével
+
 ## Bevezetés
 A Java fejlesztés területén az Aspose.Tasks a Microsoft Project fájlok kezelésének hatékony eszköze. Akár tapasztalt fejlesztő, akár csak belemerül a Java programozásba, az Aspose.Tasks elsajátítása jelentősen javíthatja a képességét, hogy manipuláljon és értékes információkat nyerjen ki a Project fájlokból.
 ## Előfeltételek
@@ -74,3 +80,9 @@ V: Az Aspose.Tasks átfogó dokumentációt és támogatást nyújt, így kompat
  V: Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba lépni a közösséggel, és segítséget kérni bármilyen problémával vagy kérdéssel kapcsolatban.
 ### K: Kipróbálhatom az Aspose.Tasks programot vásárlás előtt?
  V: Feltétlenül felfedezheti az Aspose.Tasks szolgáltatásait és funkcióit, ha ingyenes próbaverziót szerez a[weboldal](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

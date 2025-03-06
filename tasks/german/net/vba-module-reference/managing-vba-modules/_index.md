@@ -3,10 +3,16 @@ title: Verwalten von VBA-Modulen in Aspose.Tasks
 linktitle: Verwalten von VBA-Modulen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Verwalten Sie mühelos VBA-Module in Microsoft Project-Dateien mit Aspose.Tasks für .NET. Entdecken Sie die Schritt-für-Schritt-Anleitung und verbessern Sie Ihren Entwicklungsworkflow.
-type: docs
 weight: 10
 url: /de/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von VBA-Modulen in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, in ihren .NET-Anwendungen mit Microsoft Project-Dateien zu arbeiten. Eine der Hauptfunktionen von Aspose.Tasks ist die Fähigkeit, VBA-Module (Visual Basic for Applications) innerhalb von Projektdateien zu verwalten. In diesem Tutorial werden wir uns in einer Schritt-für-Schritt-Anleitung mit dem Prozess der Verwaltung von VBA-Modulen mithilfe von Aspose.Tasks befassen.
 ## Voraussetzungen
@@ -74,3 +80,9 @@ Absolut! Aspose.Tasks bietet Methoden, um den Quellcode von VBA-Modulen nicht nu
 Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung erhalten oder Hilfe bei Problemen im Zusammenhang mit Aspose.Tasks suchen?
 Besuchen Sie uns gerne[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für die Unterstützung der Gemeinschaft.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

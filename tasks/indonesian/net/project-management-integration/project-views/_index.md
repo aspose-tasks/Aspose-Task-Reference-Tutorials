@@ -3,10 +3,16 @@ title: Menyesuaikan Tampilan Proyek MS di Aspose.Tasks
 linktitle: Menyesuaikan Tampilan Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi tampilan Proyek MS menggunakan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk visualisasi manajemen proyek yang efisien.
-type: docs
 weight: 24
 url: /id/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Tampilan Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project adalah alat yang ampuh untuk manajemen proyek, memungkinkan pengguna mengatur tugas, mengelola sumber daya, dan melacak kemajuan secara efektif. Aspose.Tasks untuk .NET menyediakan cara mudah untuk bekerja dengan file Microsoft Project secara terprogram, memungkinkan pengembang menyesuaikan tampilan proyek agar sesuai dengan kebutuhan spesifik mereka. Dalam tutorial ini, kita akan mempelajari cara mengkustomisasi tampilan MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -60,3 +66,9 @@ Anda dapat mengintegrasikan tampilan proyek yang disesuaikan dengan memasukkan A
  Ya, Aspose.Tasks untuk .NET menyediakan dokumentasi dan dukungan komprehensif melaluinya[forum](https://forum.aspose.com/c/tasks/15) Dan[portal dokumentasi](https://reference.aspose.com/tasks/net/).
 ### 5. Bisakah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
  Ya, Anda dapat memanfaatkan a[uji coba gratis](https://releases.aspose.com/) dari Aspose.Tasks untuk .NET untuk mengevaluasi fitur dan kemampuannya sebelum membuat keputusan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

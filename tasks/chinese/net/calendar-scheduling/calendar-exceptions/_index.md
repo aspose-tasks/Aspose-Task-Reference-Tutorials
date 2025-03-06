@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中的日历异常
 linktitle: 处理 Aspose.Tasks 中的日历异常
 second_title: Aspose.Tasks .NET API
 description: 通过分步教程和示例，了解如何在 Aspose.Tasks for .NET 中管理日历异常。
-type: docs
 weight: 12
 url: /zh/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中的日历异常
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 .NET 框架在 Aspose.Tasks 中管理日历异常。日历例外允许我们在项目日历中定义特殊日期或时期，其中常规工作时间表会发生变化，例如假期或临时关闭。我们将使用 Aspose.Tasks for .NET 逐步介绍处理日历异常的各种方法。
@@ -156,3 +162,9 @@ A4：Aspose.Tasks支持各种类型的异常，包括每日、每周、每月和
 ### Q5：我可以自定义特定例外日期的工作时间吗？
 
 A5：是的，您可以使用 Aspose.Tasks 提供的适当方法为各个例外日期定义自定义工作时间。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

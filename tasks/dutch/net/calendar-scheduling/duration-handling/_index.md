@@ -3,10 +3,16 @@ title: Duurafhandeling in Aspose.Tasks
 linktitle: Duurafhandeling in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u effectief met tijdsduur omgaat in Aspose.Tasks voor .NET met stapsgewijze zelfstudies.
-type: docs
 weight: 30
 url: /nl/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Duurafhandeling in Aspose.Tasks
+
 ## Invoering
 
 Effectief omgaan met tijdsduur is cruciaal bij projectmanagementtoepassingen. Aspose.Tasks voor .NET biedt robuuste functionaliteit voor het efficiënt beheren van de duur. In deze zelfstudie verkennen we verschillende aspecten van de duurafhandeling met Aspose.Tasks voor .NET.
@@ -156,3 +162,9 @@ A4: Ja, Aspose.Tasks ondersteunt het lezen en schrijven van Microsoft Project-be
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
 A5: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET krijgen van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

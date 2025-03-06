@@ -3,10 +3,16 @@ title: Kalenderundantag
 linktitle: Kalenderundantag
 second_title: Aspose.Tasks Java API
 description: Hantera, definiera, hantera och hämta kalenderundantag utan problem i Java-projekt med Aspose.Tasks. Effektivisera projektarbetsflöden för effektiv projektledning.
-type: docs
 weight: 20
 url: /sv/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalenderundantag
+
 
 ## Introduktion
 
@@ -34,3 +40,9 @@ Lär dig hur du definierar veckodagar för kalenderundantag i Java-projekt med A
 Lär dig hur du hanterar kalenderundantag effektivt i Java-projekt med Aspose.Tasks för Java. Effektivisera din projektledningsprocess nu.
 ### [Hämta kalenderundantag med Aspose.Tasks](./retrieve/)
 Lär dig hur du hämtar kalenderundantag från MS Project med Aspose.Tasks för Java. Steg-för-steg handledning för sömlös integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

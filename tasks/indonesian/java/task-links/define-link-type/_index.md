@@ -3,10 +3,16 @@ title: Tentukan Jenis Tautan di Aspose.Tasks
 linktitle: Tentukan Jenis Tautan di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi kekuatan Aspose.Tasks untuk Java dalam manajemen proyek. Tentukan dan sesuaikan jenis tautan dengan mudah menggunakan tutorial langkah demi langkah kami.
-type: docs
 weight: 13
 url: /id/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Jenis Tautan di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di dunia manajemen proyek yang efisien dengan Aspose.Tasks untuk Java! Jika Anda ingin menyederhanakan penanganan proyek dan meningkatkan produktivitas, Anda berada di tempat yang tepat. Dalam tutorial komprehensif ini, kami akan memandu Anda melalui proses menentukan tipe tautan di Aspose.Tasks untuk Java, sehingga meningkatkan kemampuan manajemen proyek Anda.
 ## Prasyarat
@@ -60,3 +66,9 @@ J: Tentu saja! Aspose.Tasks memberikan fleksibilitas, memungkinkan Anda menentuk
  Sebuah kunjungan[Link ini](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi sementara untuk tujuan pengujian.
 ### T: Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Tasks?
  J: Bergabunglah dengan komunitas Aspose.Tasks di[forum dukungan](https://forum.aspose.com/c/tasks/15) untuk bantuan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

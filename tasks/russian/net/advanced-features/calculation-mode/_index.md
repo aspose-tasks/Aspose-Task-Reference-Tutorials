@@ -3,10 +3,16 @@ title: Режим расчета в Aspose.Tasks
 linktitle: Режим расчета в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять режимами вычислений в Aspose.Tasks для .NET, чтобы оптимизировать планирование проекта и зависимости задач.
-type: docs
 weight: 29
 url: /ru/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Режим расчета в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft Project в своих .NET-приложениях. Одним из важнейших аспектов работы с файлами проекта является управление режимами расчета, которые определяют, как рассчитываются и обновляются задачи и расписания проектов. В этом руководстве мы углубимся в различные режимы вычислений, поддерживаемые Aspose.Tasks для .NET, и продемонстрируем, как их эффективно использовать.
@@ -165,3 +171,9 @@ A2: Aspose.Tasks в первую очередь ориентирован на ф
 ### Вопрос 5: Есть ли форум сообщества или канал поддержки, доступный для пользователей Aspose.Tasks?
 
  A5: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

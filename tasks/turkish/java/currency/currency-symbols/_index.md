@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Para Birimi Sembollerinin Değiştirilmesi
 linktitle: Aspose.Tasks'ta Para Birimi Sembollerinin Değiştirilmesi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project dosyalarındaki para birimi simgelerini değiştirmeyi öğrenin. Etkin proje yönetimi için kolay adımlar.
-type: docs
 weight: 12
 url: /tr/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Para Birimi Sembollerinin Değiştirilmesi
+
 ## giriiş
 Bu eğitimde, Java için Aspose.Tasks kütüphanesini kullanarak MS Project dosyalarındaki para birimi sembollerinin manipülasyonunu inceleyeceğiz. Aspose.Tasks, Microsoft Project belgeleriyle çalışmak için güçlü işlevler sunarak geliştiricilerin proje yönetiminin çeşitli yönlerini verimli bir şekilde yönetmesine olanak tanır.
 ## Önkoşullar
@@ -53,3 +59,9 @@ Evet, geliştiriciler, geliştirme görevlerinde onlara yardımcı olmak için A
  Geliştiriciler kesinlikle Aspose.Tasks'ın ücretsiz deneme sürümünden yararlanabilirler.[İnternet sitesi](https://purchase.aspose.com/buy) Satın alma kararı vermeden önce özelliklerini ve işlevlerini değerlendirmek.
 ### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
  Geliştiriciler Aspose.Tasks için geçici bir lisans alabilirler.[İnternet sitesi](https://purchase.aspose.com/temporary-license/) değerlendirme süresi boyunca kütüphanenin tüm yeteneklerini keşfetmelerine olanak tanıyan satın alma sayfası.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การกำหนดค่าโครงการ
 linktitle: การกำหนดค่าโครงการ
 second_title: Aspose.Tasks Java API
 description: ค้นพบพลังของ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมของเรา กำหนดค่าแผนภูมิแกนต์ สร้างไฟล์ MS Project และปรับปรุงการจัดการโครงการ
-type: docs
 weight: 26
 url: /th/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าโครงการ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะปลดล็อกศักยภาพทั้งหมดของ Aspose.Tasks สำหรับ Java แล้วหรือยัง? เจาะลึกบทช่วยสอนโดยละเอียดของเราเพื่อกำหนดค่าโปรเจ็กต์หลักโดยใช้เครื่องมืออันทรงพลังนี้ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คำแนะนำทีละขั้นตอนของเราจะช่วยให้คุณควบคุมความสามารถของ Aspose.Tasks ได้อย่างราบรื่น
@@ -45,3 +51,9 @@ url: /th/java/project-configuration/
 เรียนรู้วิธีสร้างและบันทึกไฟล์ MS Project (MPP) เปล่าโดยใช้ Aspose.Tasks สำหรับ Java ลดความซับซ้อนของงานการจัดการโครงการได้อย่างง่ายดาย
 ### [สร้างและบันทึกโปรเจ็กต์ว่างเพื่อสตรีมใน Aspose.Tasks](./create-save-stream/)
 เรียนรู้วิธีสร้างและบันทึกไฟล์ MS Project เปล่าลงในสตรีมใน Java ด้วย Aspose.Tasks ซึ่งทำให้งานการจัดการโครงการง่ายขึ้นได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

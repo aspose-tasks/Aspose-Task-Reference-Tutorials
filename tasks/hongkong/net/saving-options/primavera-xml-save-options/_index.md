@@ -3,10 +3,16 @@ title: 在 Primavera XML 中為 Aspose.Tasks 儲存 MS 項目
 linktitle: Aspose.Tasks 的 Primavera XML 儲存選項
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以 Primavera XML 格式儲存 MS Project 選項。輕鬆提升專案管理能力。
-type: docs
 weight: 15
 url: /zh-hant/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Primavera XML 中為 Aspose.Tasks 儲存 MS 項目
+
 ## 介紹
 在專案管理和任務處理領域，Aspose.Tasks for .NET 成為一個強大的盟友。該程式庫為開發人員提供了在 .NET 應用程式中輕鬆操作專案資料所需的工具。一個顯著的功能是它能夠與 Primavera XML 檔案交互，從而提供處理專案資訊的無縫體驗。
 ## 先決條件
@@ -56,3 +62,9 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
 答：Aspose.Tasks for .NET 提供各種許可證選項，包括臨時許可證。探索許可詳細信息[這裡](https://purchase.aspose.com/buy).
 ### Q：我可以自訂 Primavera XML 格式的儲存選項嗎？
 答：是的，Aspose.Tasks for .NET 提供了配置保存選項的靈活性，允許根據特定項目要求進行自訂。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

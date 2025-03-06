@@ -3,10 +3,16 @@ title: Handle Extended Attributes in Aspose.Tasks Projects
 linktitle: Handle Extended Attributes in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 description: Learn how to handle extended attributes in Aspose.Tasks projects using Java efficiently. Step-by-step guide for effective project management.
-type: docs
 weight: 13
 url: /java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Extended Attributes in Aspose.Tasks Projects
+
 ## Introduction
 Managing extended attributes in project management is crucial for customizing and enhancing project data. Aspose.Tasks for Java provides robust tools to handle extended attributes in MS Project files efficiently. This tutorial will guide you through the process step-by-step, ensuring you grasp each concept thoroughly.
 ## Prerequisites
@@ -86,3 +92,10 @@ A: Absolutely, Aspose.Tasks allows you to define custom extended attribute types
 A: You can find comprehensive documentation on the Aspose.Tasks website [documentation](https://reference.aspose.com/tasks/java/).
 ### Q: Is technical support available for Aspose.Tasks users?
 A: Yes, you can access technical support through the Aspose.Tasks forum [website](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

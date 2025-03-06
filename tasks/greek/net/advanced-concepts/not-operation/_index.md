@@ -3,10 +3,16 @@ title: Εργασία με NOT Operation στο Aspose.Tasks
 linktitle: Εργασία με NOT Operation στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χρησιμοποιείτε τη λειτουργία NOT στο Aspose.Tasks για .NET για να φιλτράρετε αποτελεσματικά τις εργασίες. Βελτιώστε τις δυνατότητες διαχείρισης του έργου σας τώρα.
-type: docs
 weight: 20
 url: /el/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με NOT Operation στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε τη λειτουργία NOT στο Aspose.Tasks για .NET. Η λειτουργία NOT μας επιτρέπει να αντιστρέψουμε μια κατάσταση φίλτρου, επιτρέποντάς μας να επιλέξουμε στοιχεία που δεν πληρούν ένα καθορισμένο κριτήριο.
@@ -114,3 +120,9 @@ foreach (var task in collection)
 ### Ε5: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.Tasks;
 
  Α: Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση στο[Σελίδα τεκμηρίωσης Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

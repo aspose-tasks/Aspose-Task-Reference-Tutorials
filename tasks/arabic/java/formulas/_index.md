@@ -3,10 +3,16 @@ title: الصيغ
 linktitle: الصيغ
 second_title: Aspose.Tasks جافا API
 description: ارفع مهاراتك في إدارة المشروعات باستخدام Aspose.Tasks لـ Java. إتقان صيغ MS Project وتعزيز الإنتاجية وكتابة/قراءة الصيغ بكفاءة وبسهولة.
-type: docs
 weight: 23
 url: /ar/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الصيغ
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/java/formulas/
 تعرف على كيفية التعامل مع ملفات MS Project في Java باستخدام مكتبة Aspose.Tasks. إنشاء السمات وتعديلها وحسابها بسهولة.
 ### [كتابة وقراءة صيغ مشروع MS في Aspose.Tasks](./write-read-formulas/)
 تعلم كيفية كتابة وقراءة صيغ MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. تعزيز مهارات إدارة المشروع الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

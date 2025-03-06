@@ -3,10 +3,16 @@ title: Projektový management
 linktitle: Projektový management
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte Aspose.Tasks Java s našimi komplexními výukovými programy pro řízení projektů. Zefektivněte svůj pracovní postup od výpočtů kritické cesty po vlastnosti fiskálního roku.
-type: docs
 weight: 27
 url: /cs/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektový management
+
 ## Úvod
 
 Jste připraveni zlepšit své dovednosti projektového řízení pomocí Aspose.Tasks for Java? Ponořte se do našich exkluzivních výukových programů pokrývajících spektrum funkcí a funkcí, které posílí vaši cestu vývoje v Javě. Od výpočtů kritických cest až po zpracování výjimek při psaní úloh během tisku, máme pro vás vše. Pojďme prozkoumat bohatství znalostí, které na vás čekají.
@@ -69,3 +75,9 @@ Naučte se bezproblémově číst soubory MS Project z Primavera XML pomocí Asp
 Naučte se tisknout stránky k oddělení obrázků v Aspose.Tasks for Java. Vylepšete vizualizaci projektu pomocí tohoto podrobného průvodce.
 ### [Ošetřete výjimky při psaní úkolů během tisku v Aspose.Tasks](./print-task-exceptions/)
 Ovládněte zpracování výjimek v Aspose.Tasks pro Java, abyste zajistili bezproblémové provádění projektu. Naučte se, jak bez námahy zacházet s výjimkami při psaní úloh během tisku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

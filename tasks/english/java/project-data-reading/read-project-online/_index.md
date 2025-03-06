@@ -3,10 +3,16 @@ title: Effortless MS Project Online Data Reading with Aspose.Tasks
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to effortlessly read Microsoft Project Online data using Aspose.Tasks for Java. Enhance your project management capabilities.
-type: docs
 weight: 13
 url: /java/project-data-reading/read-project-online/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effortless MS Project Online Data Reading with Aspose.Tasks
+
 ## Introduction
 In the realm of project management, handling Microsoft Project Online data efficiently is crucial for streamlined operations. Aspose.Tasks for Java provides a robust solution for reading such data effortlessly. This tutorial delves into leveraging Aspose.Tasks to access and manipulate MS Project Online data seamlessly.
 ## Prerequisites
@@ -70,3 +76,10 @@ A: Yes, you can avail of a free trial from [here](https://releases.aspose.com/) 
 A: You can refer to the detailed documentation [here](https://reference.aspose.com/tasks/java/) for comprehensive guidance on utilizing Aspose.Tasks in your Java projects.
 ### Q: What support options are available for Aspose.Tasks for Java?
 A: If you encounter any issues or have queries, you can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

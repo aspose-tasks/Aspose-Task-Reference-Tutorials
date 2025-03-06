@@ -3,10 +3,16 @@ title: Ulangi Sumber Daya Non-Root di Aspose.Tasks
 linktitle: Ulangi Sumber Daya Non-Root di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara melakukan iterasi secara efisien pada sumber daya non-root di file Microsoft Project menggunakan Aspose.Tasks untuk Java. Tingkatkan proses pengembangan Anda.
-type: docs
 weight: 12
 url: /id/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ulangi Sumber Daya Non-Root di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java adalah perpustakaan canggih yang menyediakan alat yang dibutuhkan pengembang untuk memanipulasi file Microsoft Project secara efisien. Dengan antarmuka intuitif dan fungsionalitas yang luas, Aspose.Tasks menyederhanakan proses bekerja dengan data proyek, memungkinkan pengembang untuk fokus dalam membangun aplikasi yang tangguh.
 ## Prasyarat
@@ -56,3 +62,9 @@ Ya, Aspose.Tasks dapat diintegrasikan dengan mulus ke dalam kerangka Java sepert
 Tentu saja, Aspose.Tasks menawarkan API ekstensif untuk menyesuaikan bidang data proyek sesuai kebutuhan Anda.
 ### Apakah Aspose.Tasks menyediakan dukungan dan dokumentasi untuk pengembang?
 Ya, Aspose.Tasks menawarkan dokumentasi komprehensif dan forum dukungan khusus untuk membantu pengembang dengan pertanyaan atau masalah apa pun yang mereka temui.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

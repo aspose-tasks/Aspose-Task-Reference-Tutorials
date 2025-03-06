@@ -3,10 +3,16 @@ title: Serwer Zapisz opcje MS Project dla Aspose.Tasks
 linktitle: Opcje zapisu serwera Project dla Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisać opcje Microsoft Project dla Aspose.Tasks przy użyciu integracji z Project Server. Usprawnij przepływ pracy w zarządzaniu projektami.
-type: docs
 weight: 16
 url: /pl/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Serwer Zapisz opcje MS Project dla Aspose.Tasks
+
 ## Wstęp
 W tym samouczku zajmiemy się zapisywaniem opcji programu Microsoft Project dla Aspose.Tasks przy użyciu programu Project Server. Aspose.Tasks to potężny interfejs API .NET, który umożliwia programistom programową pracę z plikami Microsoft Project. Wykorzystując możliwości Project Server, możemy bezproblemowo zintegrować Aspose.Tasks z naszymi przepływami pracy związanymi z zarządzaniem projektami. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ O: Tak, Aspose.Tasks zaprojektowano tak, aby był bezpieczny dla wątków i umo�
 O: Tak, możesz dostosować opcje zapisywania, takie jak nazwa projektu, limit czasu i interwał odpytywania, do własnych wymagań.
 ### P: Gdzie mogę znaleźć wsparcie dla Aspose.Tasks?
  Odp.: Wsparcie i pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

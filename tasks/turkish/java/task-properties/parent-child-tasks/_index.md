@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Ebeveyn ve Çocuk Görevlerini Yönetin
 linktitle: Aspose.Tasks'ta Ebeveyn ve Çocuk Görevlerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile proje yönetimi verimliliğini artırın. Ebeveyn ve alt görevleri adım adım yönetmeyi öğrenin. Şimdi başla!
-type: docs
 weight: 24
 url: /tr/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Ebeveyn ve Çocuk Görevlerini Yönetin
+
 ## giriiş
 Proje yönetimi alanında etkili görev organizasyonu çok önemlidir. Aspose.Tasks for Java, üst ve alt görevleri verimli bir şekilde yönetmek için güçlü bir çözüm sunar. Bu eğitimde, proje görevlerinizi kolaylaştırmak için Aspose.Tasks for Java'yı kullanma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -103,3 +109,9 @@ Kesinlikle! Aspose.Tasks for Java, görev özellikleri için kapsamlı özelleş
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for Java'nın kapsamlı belgelerini nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

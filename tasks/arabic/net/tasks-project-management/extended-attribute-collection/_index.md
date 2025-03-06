@@ -3,10 +3,16 @@ title: إدارة مجموعة سمات مشروع MS في Aspose.Tasks
 linktitle: إدارة مجموعة السمات الموسعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة السمات الموسعة لـ MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. يمكنك التعامل مع سمات المهمة بسلاسة من خلال إرشادات خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعة سمات مشروع MS في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى إدارة السمات الموسعة لـ MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET؟ في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة. دعونا الغوص في!
 ## المتطلبات الأساسية
@@ -105,3 +111,9 @@ foreach (var attribute in attributes)
 ج: نعم، يدعم Aspose.Tasks for .NET تنسيقات ملفات MS Project عبر إصدارات مختلفة.
 ### س: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

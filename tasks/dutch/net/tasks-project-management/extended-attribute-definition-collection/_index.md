@@ -3,10 +3,16 @@ title: Beheer uitgebreide attribuutdefinities MS Project in Aspose.Tasks
 linktitle: Verzameling van uitgebreide attribuutdefinities in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u uitgebreide attribuutdefinities in Microsoft Project kunt beheren met Aspose.Tasks voor .NET. Pas uw projectgegevens moeiteloos aan en verbeter ze.
-type: docs
 weight: 14
 url: /nl/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer uitgebreide attribuutdefinities MS Project in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u met uitgebreide attribuutdefinities in Microsoft Project kunt werken met behulp van Aspose.Tasks voor .NET. Uitgebreide attributen bieden een flexibele manier om projectgegevens aan te passen en te verbeteren, waardoor gebruikers extra velden kunnen toevoegen naast de standaardvelden die standaard worden geleverd. Met Aspose.Tasks kunt u deze uitgebreide kenmerken moeiteloos beheren om aan uw projectbeheerbehoeften te voldoen.
 ## Vereisten
@@ -92,3 +98,9 @@ A: Absoluut, uitgebreide attributen kunnen worden gebruikt om aangepaste velden 
 A: Aspose.Tasks is compatibel met verschillende .NET-frameworks, wat flexibiliteit en integratiegemak garandeert.
 ### Vraag: Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Tasks?
  A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor ondersteuning en verken de documentatie[hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

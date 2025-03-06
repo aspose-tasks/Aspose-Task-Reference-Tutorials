@@ -3,10 +3,16 @@ title: مجموعة فترات التوفر في Aspose.Tasks
 linktitle: مجموعة فترات التوفر في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة فترات توفر الموارد في Aspose.Tasks لـ .NET. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال إضافة فترات التوفر وتحديثها وإزالتها، مما يضمن التخطيط الفعال لموارد المشروع.
-type: docs
 weight: 18
 url: /ar/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة فترات التوفر في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية العمل مع مجموعة فترة التوفر لأحد الموارد في Aspose.Tasks لـ .NET. تعد إدارة فترات التوفر أمرًا بالغ الأهمية لإدارة المشروع، مما يسمح لنا بتحديد متى تكون الموارد متاحة للمهام داخل المشروع.
@@ -148,3 +154,9 @@ A4: لا يوفر Aspose.Tasks لـ .NET آليات مضمنة للتعامل م
 ### س5: هل هناك حد لعدد فترات التوفر التي يمكن أن يتمتع بها المورد؟
 
 ج5: لا يوجد حد محدد مسبقًا لعدد فترات التوفر التي يمكن أن يمتلكها المورد، ولكن قد ينخفض الأداء بعدد كبير من الفترات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

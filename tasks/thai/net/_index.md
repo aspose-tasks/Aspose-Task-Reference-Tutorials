@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Tasks สำหรับ .NET
 linktitle: Aspose.Tasks สำหรับบทช่วยสอน .NET
-type: docs
 weight: 10
 url: /th/net/
 description: สำรวจบทช่วยสอน Aspose.Tasks สำหรับ .NET ที่ครอบคลุมตัวเลือกการบันทึก ปฏิทินและกำหนดการ การจัดการโครงการ และอื่นๆ ยกระดับทักษะการจัดการโครงการของคุณ
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 
 คุณพร้อมที่จะปลดล็อกศักยภาพทั้งหมดของ Aspose.Tasks สำหรับ .NET แล้วหรือยัง? เจาะลึกบทช่วยสอนที่ครอบคลุมของเราและตัวอย่างที่ครอบคลุมหัวข้อที่หลากหลายเพื่อพัฒนาทักษะการจัดการโครงการของคุณ ตั้งแต่ตัวเลือกการบันทึกไปจนถึงฟีเจอร์ขั้นสูง งานปฏิทินและการจัดกำหนดการ การจัดการโครงการ และการปรับแต่ง เราช่วยคุณได้
@@ -72,3 +77,9 @@ Master Aspose.Tasks สำหรับมุมมอง .NET และรหั
 ค้นพบวิธีเพิ่มความปลอดภัยให้กับ Microsoft Project PDF ของคุณโดยใช้ Aspose.Tasks สำหรับ .NET เรียนรู้เทคนิคลายเซ็นดิจิทัลและการเข้ารหัส
 ### [Aspose.Tasks การจัดการใบอนุญาต](./license-management/)
 ปลดล็อกพลังของ Aspose.Tasks สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมของเรา จัดการใบอนุญาตและเพิ่มประสิทธิภาพการใช้งาน MS Project เพื่อการจัดการโครงการที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

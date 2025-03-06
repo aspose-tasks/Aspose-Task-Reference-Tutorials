@@ -3,10 +3,16 @@ title: Salva i file MS Project come modelli con Aspose.Tasks
 linktitle: Salva opzioni modello per Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come salvare i file di Microsoft Project come modelli utilizzando Aspose.Tasks per .NET. Personalizza le impostazioni del modello per una gestione semplificata dei progetti.
-type: docs
 weight: 18
 url: /it/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva i file MS Project come modelli con Aspose.Tasks
+
 ## introduzione
 In questo tutorial, esamineremo il processo di salvataggio di un modello utilizzando Aspose.Tasks per .NET. I modelli sono utili per standardizzare le strutture e le impostazioni del progetto per un utilizzo futuro. Dimostreremo come salvare un progetto come modello, ottimizzandone le proprietà lungo il percorso.
 ## Prerequisiti
@@ -76,3 +82,9 @@ R: Sì, puoi applicare modelli a progetti esistenti caricando il file modello e 
 R: Aspose.Tasks per .NET è progettato principalmente per applicazioni .NET framework in esecuzione su piattaforme Windows.
 ### D: È disponibile il supporto tecnico per Aspose.Tasks per .NET?
  R: Sì, puoi chiedere assistenza tecnica e guida alla community Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15) contatta direttamente il loro team di supporto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hướng dẫn tùy chỉnh kiểu văn bản bảng trong Aspose.Tasks
 linktitle: Định cấu hình kiểu văn bản bảng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nâng cao khả năng trực quan hóa dự án với Aspose.Tasks cho .NET. Tìm hiểu cách định cấu hình kiểu văn bản bảng theo từng bước. Tăng cường hiệu quả và trình bày.
-type: docs
 weight: 14
 url: /vi/net/task-table-management/table-text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn tùy chỉnh kiểu văn bản bảng trong Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới quản lý dự án, việc hình dung hiệu quả các nhiệm vụ là rất quan trọng để thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để tùy chỉnh kiểu văn bản bảng, cho phép bạn điều chỉnh giao diện của các mục văn bản trong dự án của mình. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình định cấu hình kiểu văn bản bảng bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Tùy chỉnh kiểu văn bản bảng trong Aspose.Tasks cho .NET cung cấp m�
 Có, Aspose.Tasks cung cấp nhiều tính năng trực quan hóa khác nhau để đáp ứng các nhu cầu quản lý dự án khác nhau.
 ### Tôi có thể tùy chỉnh kiểu cho các loại nhiệm vụ cụ thể không?
 Hoàn toàn có thể, bạn có thể mở rộng tùy chỉnh cho các loại tác vụ khác nhau bằng cách điều chỉnh cài đặt trường và phông chữ cho phù hợp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

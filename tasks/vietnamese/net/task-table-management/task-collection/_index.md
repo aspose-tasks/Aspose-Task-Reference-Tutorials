@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá quản lý tuyển tập tác vụ hiệu quả trong Aspose.Tasks for .NET. Từ việc tạo đến chỉnh sửa, quản lý dự án một cách dễ dàng.
-type: docs
 weight: 18
 url: /vi/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Nếu bạn đang tìm hiểu sâu hơn về thế giới quản lý dự án bằng .NET, Aspose.Tasks là giải pháp phù hợp để bạn xử lý liền mạch các bộ sưu tập tác vụ. Hướng dẫn này sẽ hướng dẫn bạn quy trình quản lý bộ sưu tập tác vụ một cách hiệu quả, đảm bảo bạn tận dụng tối đa thư viện mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Tuyệt đối! Aspose.Tasks cung cấp các tùy chọn xuất linh hoạt, bao
  Có, bạn có thể tìm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.Tasks không?
  Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

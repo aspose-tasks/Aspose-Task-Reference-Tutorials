@@ -3,10 +3,16 @@ title: Tautan Tugas
 linktitle: Tautan Tugas
 second_title: Aspose.Tugas Java API
 description: Jelajahi Aspose.Tasks untuk Java dengan tutorial kami. Tingkatkan kolaborasi, tentukan jenis tautan, dan kelola tugas dengan lancar. Tingkatkan efisiensi proyek Anda sekarang!
-type: docs
 weight: 33
 url: /id/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tautan Tugas
+
 ## Perkenalan
 
 Jika Anda mendalami dunia manajemen proyek Java, Aspose.Tasks adalah alat bantu Anda. Tutorial komprehensif kami memberdayakan Anda untuk menguasai berbagai aspek, memastikan pemanfaatan perpustakaan Aspose.Tasks untuk Java secara optimal.
@@ -38,3 +44,9 @@ Jelajahi kekuatan Aspose.Tasks untuk Java dalam manajemen proyek. Tentukan dan s
 Jelajahi identifikasi tugas lintas proyek dengan Aspose.Tasks untuk Java. Integrasi yang mulus dan manajemen yang efisien. Unduh sekarang!
 ### [Kelola Tugas Pendahulu dan Penerus di Aspose.Tasks](./predecessor-successor-tasks/)
 Jelajahi manajemen tugas yang efisien dengan Aspose.Tasks untuk Java. Tangani tugas pendahulu dan penerus proyek Anda dengan mudah. Unduh uji coba gratis Anda sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

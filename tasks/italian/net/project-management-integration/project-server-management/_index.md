@@ -3,10 +3,16 @@ title: Gestione di MS Project Server con Aspose.Tasks
 linktitle: Gestione di Project Server con Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Sblocca la gestione fluida di MS Project Server con Aspose.Tasks per .NET. Automatizza le attività del progetto senza sforzo.
-type: docs
 weight: 23
 url: /it/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione di MS Project Server con Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo la gestione di MS Project Server utilizzando Aspose.Tasks per .NET. Aspose.Tasks è una potente libreria che consente agli sviluppatori di lavorare con i file di Microsoft Project a livello di codice, consentendo una perfetta integrazione e manipolazione dei dati di progetto.
 ## Prerequisiti
@@ -71,3 +77,9 @@ R: Assolutamente, Aspose.Tasks offre supporto completo per la pianificazione dei
 R: Sì, Aspose.Tasks ti consente di automatizzare la generazione di report personalizzati basati sui dati del progetto, facilitando il monitoraggio e l'analisi efficienti del progetto.
 ### D: Posso provare Aspose.Tasks prima di acquistarlo?
  R: Sì, puoi esplorare le funzionalità di Aspose.Tasks accedendo a una prova gratuita da[sito web](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

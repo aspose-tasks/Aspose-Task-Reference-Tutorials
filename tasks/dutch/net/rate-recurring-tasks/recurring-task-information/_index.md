@@ -3,10 +3,16 @@ title: Informatie over terugkerende taken extraheren in Aspose.Tasks
 linktitle: Informatie over terugkerende taken extraheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u terugkerende taakinformatie uit MS Project-bestanden kunt extraheren met behulp van Aspose.Tasks voor .NET. Eenvoudige integratie voor .NET-ontwikkelaars.
-type: docs
 weight: 13
 url: /nl/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informatie over terugkerende taken extraheren in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars met Microsoft Project-bestanden kunnen werken in hun .NET-toepassingen. In deze zelfstudie onderzoeken we hoe u terugkerende taakinformatie uit MS Project-bestanden kunt extraheren met behulp van Aspose.Tasks.
 ## Vereisten
@@ -62,3 +68,9 @@ A: Ja, Aspose.Tasks ondersteunt verschillende projectbestandsformaten zoals MPP,
  A: U kunt de documentatie vinden[hier](https://reference.aspose.com/tasks/net/).
 ### Vraag: Hoe kan ik technische ondersteuning krijgen voor Aspose.Tasks voor .NET?
  A: U kunt technische ondersteuning krijgen via het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

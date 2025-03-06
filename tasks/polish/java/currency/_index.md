@@ -3,10 +3,16 @@ title: Zarządzaj walutą w Aspose.Tasks dla Java
 linktitle: Waluta
 second_title: Aspose.Tasks API Java
 description: łatwością zarządzaj kodami walut, cyframi i symbolami w plikach MS Project za pomocą Aspose.Tasks dla Java. Usprawnij zarządzanie projektami dzięki łatwym do zrozumienia samouczkom.
-type: docs
 weight: 22
 url: /pl/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj walutą w Aspose.Tasks dla Java
+
 
 ## Wstęp
 
@@ -43,3 +49,9 @@ Dowiedz się, jak efektywnie zarządzać kodami walutowymi MS Project za pomocą
 Dowiedz się, jak efektywnie obsługiwać cyfry walutowe MS Project przy użyciu Aspose.Tasks dla Java. Przewodnik krok po kroku z przykładami kodu.
 ### [Manipulacja symbolami walut w Aspose.Tasks](./currency-symbols/)
 Naucz się manipulować symbolami walut w plikach MS Project przy użyciu Aspose.Tasks dla Java. Proste kroki do skutecznego zarządzania projektami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

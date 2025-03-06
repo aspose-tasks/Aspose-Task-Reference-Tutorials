@@ -3,10 +3,16 @@ title: MS Project met Spreadsheet 2003-opties voor Aspose.Tasks
 linktitle: Spreadsheet 2003 Opties opslaan voor Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Spreadsheet 2003 Bewaar MS-projectopties met Aspose.Tasks voor .NET. Pas MS Project-bestanden naadloos programmatisch aan en sla ze op.
-type: docs
 weight: 19
 url: /nl/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project met Spreadsheet 2003-opties voor Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het gebruik van Aspose.Tasks voor .NET om de Spreadsheet 2003 Save MS Project Options te gebruiken. Deze krachtige tool maakt naadloze manipulatie en aanpassing van MS Project-bestanden in de .NET-omgeving mogelijk. Laten we het proces stap voor stap opsplitsen.
 ## Vereisten
@@ -65,3 +71,9 @@ A: Aspose.Tasks voor .NET biedt uitgebreide aanpassingsopties voor weergavekolom
  EEN: Absoluut! Uitgebreide ondersteuning en bronnen vindt u op het Aspose.Tasks-forum op[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), waar experts en communityleden beschikbaar zijn om u te helpen bij het oplossen van eventuele vragen of uitdagingen waarmee u te maken kunt krijgen.
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor .NET?
  A: U kunt een tijdelijke licentie voor Aspose.Tasks voor .NET aanschaffen bij de[aankooppagina](https://purchase.aspose.com/temporary-license/), zodat u de volledige mogelijkheden van de bibliotheek kunt evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में मानक कैलेंडर बनाएं
 linktitle: Aspose.Tasks में मानक कैलेंडर बनाएं
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks का उपयोग करके जावा में एक मानक MS प्रोजेक्ट कैलेंडर बनाना सीखें। इस चरण-दर-चरण ट्यूटोरियल के साथ अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाएं।
-type: docs
 weight: 14
 url: /hi/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में मानक कैलेंडर बनाएं
+
 
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks की दुनिया में गहराई से उतरेंगे, एक शक्तिशाली लाइब्रेरी जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों में निर्बाध रूप से हेरफेर करने की अनुमति देती है। विशेष रूप से, हम Aspose.Tasks का उपयोग करके एक मानक MS प्रोजेक्ट कैलेंडर बनाने पर ध्यान केंद्रित करेंगे। इस गाइड के अंत तक, आपको इस बात की ठोस समझ हो जाएगी कि इस कार्यक्षमता को अपने जावा अनुप्रयोगों में कैसे लागू किया जाए।
@@ -63,3 +69,9 @@ System.out.println("Process completed Successfully");
 उत्तर: हां, डेवलपर्स किसी भी प्रश्न या समस्या के लिए समय पर सहायता सुनिश्चित करते हुए, Aspose.Tasks फोरम के माध्यम से व्यापक तकनीकी सहायता प्राप्त कर सकते हैं।
 ### प्रश्न: क्या मैं खरीदारी करने से पहले Aspose.Tasks आज़मा सकता हूँ?
  उत्तर: हाँ, आप Aspose.Tasks पर उपलब्ध निःशुल्क परीक्षण संस्करण के माध्यम से एक्सप्लोर कर सकते हैं[वेबसाइट](https://purchase.aspose.com/buy), जो आपको निर्णय लेने से पहले इसकी विशेषताओं और कार्यक्षमताओं का मूल्यांकन करने की अनुमति देता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

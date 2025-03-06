@@ -3,10 +3,16 @@ title: Освоение будней в Aspose.Tasks
 linktitle: Коллекция будних дней в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Откройте для себя возможности Aspose.Tasks для .NET, позволяющие легко управлять буднями. Настраивайте рабочие дни, удаляйте выходные и с легкостью создавайте специализированные календари.
-type: docs
 weight: 11
 url: /ru/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение будней в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая облегчает эффективное манипулирование данными управления проектами. В этом уроке мы рассмотрим коллекцию дней недели в Aspose.Tasks, которая позволит вам настраивать рабочие дни, удалять выходные и создавать специализированные календари в соответствии с требованиями вашего проекта. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это пошаговое руководство проведет вас через процесс работы с будними днями в Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
  О: Обратитесь к[Документация Aspose.Tasks для .NET](https://reference.aspose.com/tasks/net/) для получения подробной информации.
 ### Вопрос: Как получить временную лицензию на Aspose.Tasks для .NET?
  О: Вы можете приобрести временную лицензию на сайте[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

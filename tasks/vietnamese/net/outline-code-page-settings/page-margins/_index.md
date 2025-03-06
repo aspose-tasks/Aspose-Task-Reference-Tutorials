@@ -3,10 +3,16 @@ title: Dễ dàng đặt lề trang dự án MS với Aspose.Tasks
 linktitle: Đặt lề trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách điều chỉnh lề trang trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Tăng cường bố cục và trình bày tài liệu một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dễ dàng đặt lề trang dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, hiệu quả và độ chính xác là điều tối quan trọng. Aspose.Tasks for .NET cung cấp bộ công cụ mạnh mẽ để quản lý các tệp Microsoft Project theo chương trình, cung cấp cho các nhà phát triển khả năng hợp lý hóa các quy trình và nâng cao năng suất. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể của thao tác với tệp dự án: đặt lề trang bằng Aspose.Tasks cho .NET. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để điều chỉnh lề trang một cách liền mạch trong các tệp Microsoft Project, tạo điều kiện thuận lợi cho việc trình bày và bố cục tài liệu tốt hơn.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Trả lời: Aspose.Tasks cung cấp tính linh hoạt trong việc thiết lậ
 Trả lời: Có, Aspose.Tasks cung cấp một bộ tính năng toàn diện để quản lý dự án, bao gồm lập kế hoạch nhiệm vụ, phân bổ nguồn lực và báo cáo.
 ### Câu hỏi: Tôi có thể tích hợp Aspose.Tasks vào ứng dụng web không?
 Đ: Chắc chắn rồi! Aspose.Tasks cho .NET có thể được tích hợp liền mạch vào các ứng dụng web để nâng cao khả năng quản lý dự án.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

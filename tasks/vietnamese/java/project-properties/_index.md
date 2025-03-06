@@ -3,10 +3,16 @@ title: Thuộc tính dự án
 linktitle: Thuộc tính dự án
 second_title: API Java Aspose.Tasks
 description: Khai phá tiềm năng của Aspose.Tasks cho Java bằng Hướng dẫn về thuộc tính dự án của chúng tôi. Trích xuất, tận dụng và thao tác thông tin Microsoft Project một cách dễ dàng.
-type: docs
 weight: 24
 url: /vi/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính dự án
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks for Java của mình chưa? Hướng dẫn Thuộc tính Dự án của chúng tôi cho phép bạn khai thác toàn bộ tiềm năng của thư viện mạnh mẽ này, tập trung vào ba khía cạnh chính: đọc thuộc tính meta, trích xuất thông tin Microsoft Project và thành thạo thao tác MS Project. Đi sâu vào các hướng dẫn này để nâng cao khả năng quản lý dự án và phát triển Java của bạn.
@@ -35,3 +41,9 @@ Khai phá sức mạnh của siêu dữ liệu trong các dự án Aspose.Tasks 
 Tìm hiểu cách trích xuất thông tin Microsoft Project bằng Aspose.Tasks cho Java. Tăng cường quản lý dự án trong các ứng dụng Java một cách dễ dàng.
 ### [Nắm vững thao tác dự án MS với Aspose.Tasks cho Java](./write-project-info/)
 Tìm hiểu cách ghi thông tin MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dominar las vistas de Microsoft Project con Aspose.Tasks
 linktitle: Configurar vistas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine las vistas de Microsoft Project con Aspose.Tasks para .NET. Personalice y optimice su experiencia de gestión de proyectos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las vistas de Microsoft Project con Aspose.Tasks
+
 ## Introducción
 En el dinámico mundo de la gestión de proyectos, personalizar las vistas en Microsoft Project puede mejorar significativamente su flujo de trabajo. Aspose.Tasks para .NET proporciona un potente conjunto de herramientas para manipular y configurar vistas de proyectos sin problemas. En este tutorial, profundizaremos en los pasos para configurar vistas usando Aspose.Tasks para .NET, ayudándolo a optimizar la visualización de su proyecto.
 ## Requisitos previos
@@ -78,3 +84,9 @@ Aspose.Tasks está diseñado principalmente para Microsoft Project, lo que garan
  Por supuesto, profundiza en la documentación de Aspose.Tasks[aquí](https://reference.aspose.com/tasks/net/) para opciones de personalización avanzadas.
 ### ¿Dónde puedo comprar Aspose.Tasks para .NET?
  Puedes comprar la biblioteca.[aquí](https://purchase.aspose.com/buy) para una experiencia de gestión de proyectos perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

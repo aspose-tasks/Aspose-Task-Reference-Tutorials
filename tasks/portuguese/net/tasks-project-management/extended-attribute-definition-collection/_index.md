@@ -3,10 +3,16 @@ title: Domine as definições de atributos estendidos do MS Project em Aspose.Ta
 linktitle: Coleção de definições de atributos estendidos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar definições de atributos estendidos no Microsoft Project usando Aspose.Tasks for .NET. Personalize e aprimore os dados do seu projeto sem esforço.
-type: docs
 weight: 14
 url: /pt/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domine as definições de atributos estendidos do MS Project em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como trabalhar com definições de atributos estendidos no Microsoft Project usando Aspose.Tasks for .NET. Os atributos estendidos oferecem uma maneira flexível de personalizar e aprimorar os dados do projeto, permitindo que os usuários adicionem campos adicionais além dos campos padrão fornecidos por padrão. Com Aspose.Tasks, você pode gerenciar facilmente esses atributos estendidos para adaptar suas necessidades de gerenciamento de projetos.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ R: Com certeza, atributos estendidos podem ser usados para calcular campos perso
 R: Aspose.Tasks é compatível com vários frameworks .NET, garantindo flexibilidade e facilidade de integração.
 ### P: Onde posso encontrar mais recursos e suporte para Aspose.Tasks?
  R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obter suporte e explorar a documentação[aqui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

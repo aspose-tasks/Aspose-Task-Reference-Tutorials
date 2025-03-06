@@ -3,10 +3,16 @@ title: Mengonfigurasi Opsi Tampilan Proyek MS di Aspose.Tasks
 linktitle: Mengonfigurasi Opsi Tampilan Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi tampilan MS Project secara terprogram menggunakan Aspose.Tasks untuk .NET. Sesuaikan tampilan proyek Anda dengan mudah.
-type: docs
 weight: 17
 url: /id/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Opsi Tampilan Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project menawarkan sejumlah besar opsi tampilan untuk menyesuaikan tampilan proyek Anda. Aspose.Tasks untuk .NET menyediakan kerangka kerja yang kuat untuk memanipulasi opsi ini secara terprogram. Dalam tutorial ini, kita akan mempelajari cara mengonfigurasi opsi tampilan MS Project menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -85,3 +91,9 @@ J: Tidak, beberapa opsi mungkin spesifik untuk versi MS Project tertentu. Lihat 
 J: Ya, Anda dapat mengatur ulang opsi tampilan ke nilai defaultnya menggunakan Aspose.Tasks API.
 ### T: Apakah ada batasan dalam menyesuaikan opsi tampilan secara terprogram?
 J: Meskipun Aspose.Tasks menyediakan kemampuan penyesuaian yang luas, opsi tampilan tertentu mungkin tidak dapat diakses secara terprogram karena keterbatasan dalam format file MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

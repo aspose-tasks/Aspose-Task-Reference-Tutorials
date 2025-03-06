@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Projedeki Sayfa Sayısını Alın
 linktitle: Aspose.Tasks ile Projedeki Sayfa Sayısını Alın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java geliştirmenin potansiyelini ortaya çıkarın. Microsoft Project dosyalarını sorunsuz bir şekilde nasıl yöneteceğinizi ve üretkenliğinizi nasıl artıracağınızı öğrenin.
-type: docs
 weight: 16
 url: /tr/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Projedeki Sayfa Sayısını Alın
+
 ## giriiş
 Java geliştirme alanında Aspose.Tasks, Microsoft Project dosyalarını yönetmek için güçlü bir araç olarak öne çıkıyor. İster deneyimli bir geliştirici olun, ister Java programlamaya yeni başlıyor olun, Aspose.Tasks'ta uzmanlaşmak, Proje dosyalarını işleme ve onlardan değerli bilgiler çıkarma yeteneğinizi önemli ölçüde geliştirebilir.
 ## Önkoşullar
@@ -74,3 +80,9 @@ C: Aspose.Tasks, kapsamlı dokümantasyon ve destek sağlayarak onu çeşitli Ja
  C: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) toplulukla etkileşimde bulunmak ve herhangi bir sorun veya soruyla ilgili yardım istemek.
 ### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
  C: Kesinlikle Aspose.Tasks'ın özelliklerini ve işlevlerini ücretsiz deneme sürümünü edinerek keşfedebilirsiniz.[İnternet sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

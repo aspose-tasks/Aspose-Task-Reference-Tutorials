@@ -3,10 +3,16 @@ title: Настройка параметров отображения MS Project
 linktitle: Настройка параметров отображения проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как программно настроить параметры отображения MS Project с помощью Aspose.Tasks для .NET. Настройте внешний вид вашего проекта без особых усилий.
-type: docs
 weight: 17
 url: /ru/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка параметров отображения MS Project в Aspose.Tasks
+
 ## Введение
 Microsoft Project предлагает множество вариантов отображения для настройки внешнего вида вашего проекта. Aspose.Tasks для .NET предоставляет надежную среду для программного управления этими параметрами. В этом уроке мы рассмотрим, как настроить параметры отображения MS Project с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -85,3 +91,9 @@ project.Save(DataDir + "ModifiedProjectFile.mpp", SaveFileFormat.Mpp);
 О: Да, вы можете сбросить параметры отображения до значений по умолчанию, используя API Aspose.Tasks.
 ### Вопрос. Существуют ли какие-либо ограничения на программную настройку параметров отображения?
 О: Хотя Aspose.Tasks предоставляет широкие возможности настройки, некоторые параметры отображения могут быть недоступны программно из-за ограничений формата файла MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

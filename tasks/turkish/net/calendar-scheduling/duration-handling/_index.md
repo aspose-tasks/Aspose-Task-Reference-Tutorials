@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Süre İşleme
 linktitle: Aspose.Tasks'ta Süre İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Adım adım eğitimlerle Aspose.Tasks for .NET'te süreleri etkili bir şekilde nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 30
 url: /tr/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Süre İşleme
+
 ## giriiş
 
 Proje yönetimi uygulamalarında sürelerin etkin bir şekilde ele alınması çok önemlidir. Aspose.Tasks for .NET, sürelerin verimli bir şekilde yönetilmesi için güçlü işlevsellik sağlar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak süre işlemenin çeşitli yönlerini inceleyeceğiz.
@@ -156,3 +162,9 @@ Cevap4: Evet, Aspose.Tasks, MPP, XML ve MPX dahil olmak üzere çeşitli formatl
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
 Cevap5: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

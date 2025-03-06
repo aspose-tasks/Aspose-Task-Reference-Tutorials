@@ -3,10 +3,16 @@ title: Taken en agenda's in Aspose.Tasks
 linktitle: Taken en agenda's in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks voor Java bij het efficiënt beheren van taken en agenda's. Download nu voor een naadloze projectmanagementervaring!
-type: docs
 weight: 33
 url: /nl/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taken en agenda's in Aspose.Tasks
+
 ## Invoering
 Ben je klaar om je projectmanagementspel naar een hoger niveau te tillen met Aspose.Tasks voor Java? Deze uitgebreide gids leidt u door de ingewikkelde wereld van taken en kalenders met behulp van Aspose.Tasks, zodat u het volledige potentieel ervan kunt benutten voor efficiënte projectplanning en -uitvoering.
 ## Vereisten
@@ -55,3 +61,9 @@ Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.c
  Sluit je aan bij de community op[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) Voor ondersteuning.
 ### Kan ik een licentie kopen voor Aspose.Tasks?
  Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การจัดการคอลเลกชันงานใน Asp
 linktitle: การจัดการคอลเลกชันงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจการจัดการการรวบรวมงานที่มีประสิทธิภาพใน Aspose.Tasks สำหรับ .NET ตั้งแต่การสร้างไปจนถึงการแก้ไข การจัดการโครงการหลักได้อย่างง่ายดาย
-type: docs
 weight: 18
 url: /th/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการคอลเลกชันงานใน Aspose.Tasks
+
 ## การแนะนำ
 หากคุณกำลังเจาะลึกโลกแห่งการจัดการโครงการโดยใช้ .NET Aspose.Tasks คือโซลูชันที่เหมาะกับคุณสำหรับการจัดการคอลเลกชันงานอย่างราบรื่น บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการจัดการคอลเลกชันงานอย่างมีประสิทธิภาพ เพื่อให้มั่นใจว่าคุณจะได้รับประโยชน์สูงสุดจากไลบรารีอันทรงพลังนี้
 ## ข้อกำหนดเบื้องต้น
@@ -95,3 +101,9 @@ foreach (var task in tasks)
  ใช่ คุณสามารถหาการสนับสนุนและมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### ฉันสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้หรือไม่
  ใช่ คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

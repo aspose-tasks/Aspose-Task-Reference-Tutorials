@@ -3,10 +3,16 @@ title: A fejléc- és láblécinformációk kibontása az Aspose.Tasks segítsé
 linktitle: Fejléc- és láblécinformációk az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg a fejléc- és láblécadatok kinyerését az MS Project fájlokból az Aspose.Tasks for .NET segítségével. Egyszerű, hatékony és fejlesztőbarát megoldás.
-type: docs
 weight: 29
 url: /hu/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A fejléc- és láblécinformációk kibontása az Aspose.Tasks segítségével
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok egyszerű kezelését. Ebben az oktatóanyagban megtanuljuk, hogyan lehet lekérni a fejléc- és lábléc-információkat az MS Project fájlokból az Aspose.Tasks segítségével.
 ## Előfeltételek
@@ -70,3 +76,9 @@ Igen, az Aspose.Tasks különféle projektfájlformátumokat támogat, beleértv
  Az Aspose.Tasks dokumentációját megtalálja[itt](https://reference.aspose.com/tasks/net/).
 ### Hogyan kaphatok támogatást az Aspose.Tasks programhoz?
  Támogatást kaphat az Aspose.Tasks-hoz, ha felkeresi a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

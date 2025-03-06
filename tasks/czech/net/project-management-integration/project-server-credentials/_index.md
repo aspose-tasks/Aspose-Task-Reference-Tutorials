@@ -3,10 +3,16 @@ title: Správa přihlašovacích údajů serveru MS Project v Aspose.Tasks
 linktitle: Správa pověření Project Server v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak bezproblémově spravovat přihlašovací údaje MS Project Server pomocí Aspose.Tasks for .NET. Zvyšte efektivitu řízení projektů.
-type: docs
 weight: 22
 url: /cs/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa přihlašovacích údajů serveru MS Project v Aspose.Tasks
+
 ## Úvod
 oblasti projektového řízení je pro úspěšnou realizaci projektu klíčová efektivní koordinace a bezproblémová komunikace. Aspose.Tasks for .NET poskytuje komplexní řešení pro správu pověření serveru Microsoft Project Server a umožňuje uživatelům bezpečný přístup a manipulaci s daty projektu. Tento výukový program se ponoří do procesu správy pověření MS Project Server pomocí Aspose.Tasks for .NET a provede uživatele každým krokem, aby bylo zajištěno bezproblémové používání.
 ## Předpoklady
@@ -83,3 +89,9 @@ Odpověď: Aspose.Tasks for .NET nabízí komplexní podporu pro přístup a man
 Odpověď: Ano, Aspose.Tasks for .NET nabízí flexibilní možnosti licencování, včetně dočasných licencí pro zkušební účely a úplných licencí pro komerční použití.
 ### Otázka: Kde mohu hledat pomoc nebo podporu pro Aspose.Tasks pro .NET?
  Odpověď: Máte-li jakékoli dotazy nebo pomoc týkající se Aspose.Tasks pro .NET, můžete navštívit fórum podpory na adrese[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletní zdrojový kód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

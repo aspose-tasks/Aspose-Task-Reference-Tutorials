@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks의 마스터 테이블 구성
 linktitle: Aspose.Tasks에서 테이블 구성
 second_title: Aspose.태스크 .NET API
 description: 이 단계별 가이드를 통해 Aspose.Tasks for .NET에서 테이블을 구성하는 방법을 알아보세요. 프로젝트 관리 경험을 손쉽게 향상하세요.
-type: docs
 weight: 10
 url: /ko/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks의 마스터 테이블 구성
+
 ## 소개
 .NET용 Aspose.Tasks의 테이블 구성에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 테이블을 구성하는 과정을 안내하고, 명확한 이해를 위해 각 단계를 세분화합니다.
 ## 전제조건
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
  A: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks는 어디서 구매할 수 있나요?
  A: 정식 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Personalize linhas de grade no MS Project para Aspose.Tasks
 linktitle: Linhas de grade em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como personalizar linhas de grade no MS Project usando Aspose.Tasks for .NET. Aprimore a visualização e o gerenciamento do seu projeto com etapas fáceis de seguir.
-type: docs
 weight: 23
 url: /pt/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalize linhas de grade no MS Project para Aspose.Tasks
+
 ## Introdução
 
 No gerenciamento de projetos, a representação visual desempenha um papel crucial na compreensão dos cronogramas, dependências e progresso do projeto. Aspose.Tasks for .NET fornece ferramentas robustas para manipular arquivos de projeto programaticamente. Um desses recursos é a capacidade de personalizar linhas de grade no MS Project usando Aspose.Tasks.
@@ -113,3 +119,9 @@ R: Sim, Aspose.Tasks for .NET oferece ampla documentação e suporte para integr
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
  R: Sim, você pode baixar uma versão de avaliação gratuita do[Aspose.Tasks para .NET de](https://forum.aspose.com/c/tasks/15). para explorar seus recursos antes de fazer uma compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

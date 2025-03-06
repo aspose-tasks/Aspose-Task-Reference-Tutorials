@@ -3,10 +3,16 @@ title: Aspose.Tasks で標準カレンダーを作成する
 linktitle: Aspose.Tasks で標準カレンダーを作成する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java で標準の MS Project カレンダーを作成する方法を学びます。このステップバイステップのチュートリアルでプロジェクト管理機能を強化します。
-type: docs
 weight: 14
 url: /ja/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で標準カレンダーを作成する
+
 
 ## 導入
 このチュートリアルでは、開発者が Microsoft Project ファイルをシームレスに操作できるようにする強力なライブラリである Aspose.Tasks for Java の世界を詳しく説明します。具体的には、Aspose.Tasks を使用して標準の MS Project カレンダーを作成することに焦点を当てます。このガイドを最後まで読むと、この機能を Java アプリケーションに実装する方法をしっかりと理解できるようになります。
@@ -63,3 +69,9 @@ A：確かに！ Aspose.Tasks は、小規模アプリケーションとエン�
 A: はい、開発者は Aspose.Tasks フォーラムを通じて包括的な技術サポートにアクセスでき、あらゆる質問や問題に対してタイムリーなサポートが保証されます。
 ### Q: 購入する前に Aspose.Tasks を試すことはできますか?
  A: はい、Aspose.Tasks は、[Webサイト](https://purchase.aspose.com/buy)を使用すると、決定を下す前にその特徴と機能を評価できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

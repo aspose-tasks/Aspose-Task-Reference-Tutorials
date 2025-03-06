@@ -3,10 +3,16 @@ title: Διαχείριση έργου
 linktitle: Διαχείριση έργου
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε το Aspose.Tasks Java με τα ολοκληρωμένα σεμινάρια διαχείρισης έργων. Από υπολογισμούς κρίσιμης διαδρομής έως ακίνητα οικονομικού έτους, απλοποιήστε τη ροή εργασιών σας.
-type: docs
 weight: 27
 url: /el/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση έργου
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητες διαχείρισης έργων χρησιμοποιώντας το Aspose.Tasks για Java; Βουτήξτε στα αποκλειστικά μας σεμινάρια που καλύπτουν ένα φάσμα χαρακτηριστικών και λειτουργιών που θα ενισχύσουν το ταξίδι ανάπτυξης Java σας. Από υπολογισμούς κρίσιμων μονοπατιών μέχρι χειρισμό εξαιρέσεων εγγραφής εργασιών κατά την εκτύπωση, σας έχουμε καλύψει. Ας εξερευνήσουμε τον πλούτο της γνώσης που σας περιμένει.
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 Μάθετε πώς να εκτυπώνετε σελίδες για να διαχωρίζετε εικόνες στο Aspose.Tasks για Java. Βελτιώστε την οπτικοποίηση του έργου με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Χειριστείτε τις εξαιρέσεις εγγραφής εργασιών κατά την εκτύπωση στο Aspose.Tasks](./print-task-exceptions/)
 Κύριος χειρισμός εξαιρέσεων στο Aspose.Tasks για Java για διασφάλιση απρόσκοπτης εκτέλεσης έργου. Μάθετε πώς να χειρίζεστε τις εξαιρέσεις εγγραφής εργασιών κατά την εκτύπωση χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

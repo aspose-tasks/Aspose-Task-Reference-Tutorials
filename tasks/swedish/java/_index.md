@@ -1,12 +1,17 @@
 ---
 title: Omfattande handledning och exempel på Aspose.Tasks för Java
 linktitle: Aspose.Tasks för Java Tutorials
-type: docs
 weight: 10
 url: /sv/java/
 description: Utforska Aspose.Tasks för Java med våra handledningar. Masterkalender, projektledning och mer. Effektivisera dina arbetsflöden för effektivt projektgenomförande.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omfattande handledning och exempel på Aspose.Tasks för Java
+
 
 ## Introduktion
 Är du redo att höja dina färdigheter i Java-projektledning? Dyk in i världen av Aspose.Tasks för Java med våra omfattande handledningar som täcker olika aspekter av projektledning. Från kalenderundantag till VBA-integration, vi har dig täckt.
@@ -93,3 +98,9 @@ Utforska Aspose.Tasks Java med våra Task Baselines Tutorials. Effektivisera upp
 Förbättra Java-projekthantering med Aspose.Tasks. Utforska självstudier om uppgiftsegenskaper, från att hantera prioriteringar till att hantera kostnader. Optimera ditt projekt idag!
 ### [VBA-integration](./vba-integration/)
 Utforska Aspose.Tasks Java med VBA-integration. Effektivisera projektarbetsflöden och förbättra uppgiftsspårningen. Utforska omfattande handledningar för sömlös VBA-integration!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

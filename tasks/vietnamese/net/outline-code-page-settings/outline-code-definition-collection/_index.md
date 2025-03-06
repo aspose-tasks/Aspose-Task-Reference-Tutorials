@@ -3,10 +3,16 @@ title: Bộ sưu tập các định nghĩa mã phác thảo trong Aspose.Tasks .
 linktitle: Bộ sưu tập các định nghĩa mã phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thao tác các định nghĩa mã phác thảo trong tài liệu Microsoft Project bằng Aspose.Tasks cho .NET. Phân loại dữ liệu dự án của bạn một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các định nghĩa mã phác thảo trong Aspose.Tasks .NET
+
 ## Giới thiệu
 Aspose.Tasks là một thư viện .NET mạnh mẽ được thiết kế để thao tác các tài liệu Microsoft Project một cách dễ dàng và hiệu quả. Một trong những tính năng chính của nó là khả năng làm việc với các định nghĩa mã phác thảo, cho phép người dùng sắp xếp và phân loại dữ liệu dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các định nghĩa mã phác thảo bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Trả lời: Nếu định nghĩa mã phác thảo ở chế độ chỉ đọc,
 Trả lời: Aspose.Tasks cho .NET không áp đặt bất kỳ giới hạn cụ thể nào về số lượng định nghĩa mã phác thảo mà bạn có thể thêm vào dự án. Tuy nhiên, hãy xem xét những tác động về hiệu suất khi làm việc với một số lượng lớn các định nghĩa.
 ### Câu hỏi: Tôi có thể sử dụng định nghĩa mã phác thảo để nhóm các nhiệm vụ dựa trên tiêu chí tùy chỉnh không?
 Đáp: Có, định nghĩa mã phác thảo cho phép bạn phân loại các nhiệm vụ dựa trên tiêu chí tùy chỉnh, mang lại sự linh hoạt trong việc tổ chức dữ liệu dự án.## Mã nguồn hoàn chỉnh
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

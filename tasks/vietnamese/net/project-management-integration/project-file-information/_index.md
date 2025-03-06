@@ -3,10 +3,16 @@ title: Truy xuất thông tin tệp dự án MS trong Aspose.Tasks
 linktitle: Truy xuất thông tin tệp dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách truy xuất thông tin tệp Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 19
 url: /vi/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất thông tin tệp dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách truy xuất thông tin tệp Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tệp Microsoft Project theo chương trình, cho phép thực hiện các tác vụ như đọc, ghi và thao tác dữ liệu dự án.
 ## Điều kiện tiên quyết
@@ -58,3 +64,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các khả năng mở rộng đ�
  Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
  Bạn có thể nhận được hỗ trợ cho Aspose.Tasks thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Mã nguồn hoàn chỉnh
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks のカレンダー例外のコレクション
 linktitle: Aspose.Tasks のカレンダー例外のコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して .NET プロジェクトでカレンダー例外を効率的に処理し、正確なスケジュールとリソース管理を確保する方法を学びます。
-type: docs
 weight: 13
 url: /ja/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のカレンダー例外のコレクション
+
 ## 導入
 
 プロジェクト管理では、正確なスケジュール設定が成功に不可欠です。ただし、実際のシナリオでは、休日、特別なイベント、またはその他の要因により、標準スケジュールからの逸脱が必要になることがよくあります。 Aspose.Tasks for .NET は、カレンダー例外コレクション機能を通じてこのような例外を管理するための堅牢なソリューションを提供します。このチュートリアルでは、この機能を利用するプロセスを段階的に説明します。
@@ -143,3 +149,9 @@ A4: Aspose.Tasks for .NET を使用すると、プロジェクトの要件に基
 ### Q5: 例外的に毎日の勤務時間をカスタマイズできますか?
 
 A5: はい、特定のスケジュールのニーズに対応するために、例外内の個々の日にカスタムの稼働時間を指定できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

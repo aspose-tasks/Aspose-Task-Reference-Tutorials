@@ -3,10 +3,16 @@ title: قم بتحديث تقويمات مشروع MS إلى تنسيق MPP با
 linktitle: قم بتحديث التقويم إلى تنسيق MPP في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديث تقويمات MS Project إلى تنسيق MPP بسهولة باستخدام Aspose.Tasks لـ Java.
-type: docs
 weight: 16
 url: /ar/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحديث تقويمات مشروع MS إلى تنسيق MPP باستخدام Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، يعد التعامل مع تنسيقات الملفات المختلفة أمرًا بالغ الأهمية للتعاون السلس وسير العمل الفعال. يوفر Aspose.Tasks for Java حلاً قويًا لمعالجة ملفات Microsoft Project، وتسهيل المهام مثل تحديث تقويمات MS Project إلى تنسيق MPP. في هذا البرنامج التعليمي، سوف نتعمق في الخطوات المطلوبة لإنجاز ذلك باستخدام Aspose.Tasks لـ Java.
@@ -116,3 +122,9 @@ System.out.println("Process completed Successfully");
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
 
  ج5: للحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java، قم بزيارة موقع الويب[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

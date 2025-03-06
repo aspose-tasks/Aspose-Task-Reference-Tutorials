@@ -3,10 +3,16 @@ title: العمل مع مجموعة Baseline في Aspose.Tasks
 linktitle: العمل مع مجموعة Baseline في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة الخطوط الأساسية في Aspose.Tasks لـ .NET بكفاءة. اتبع برنامجنا التعليمي الشامل للحصول على إرشادات خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع مجموعة Baseline في Aspose.Tasks
+
 ## مقدمة
 
 Aspose.Tasks for .NET هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft Project في تطبيقات .NET الخاصة بهم بسلاسة. ومن بين ميزاته العديدة، أنه يوفر دعمًا قويًا لإدارة خطوط الأساس داخل المشاريع. تعتبر خطوط الأساس ضرورية لإدارة المشروع لأنها تسمح لك بمقارنة خطة المشروع الأصلية بالحالة الحالية، مما يتيح تتبع وتحليل تقدم المشروع بشكل أفضل.
@@ -116,3 +122,9 @@ foreach (var baseline in baselines)
 ### س5: هل يوجد منتدى مجتمعي لمستخدمي Aspose.Tasks لطلب المساعدة ومشاركة المعرفة؟
 
  ج5: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتواصل مع المجتمع والحصول على المساعدة من الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

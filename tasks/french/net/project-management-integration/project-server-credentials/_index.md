@@ -3,10 +3,16 @@ title: Gestion des informations d'identification MS Project Server dans Aspose.T
 linktitle: Gestion des informations d'identification de Project Server dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les informations d'identification MS Project Server de manière transparente avec Aspose.Tasks pour .NET. Améliorer l’efficacité de la gestion de projet.
-type: docs
 weight: 22
 url: /fr/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des informations d'identification MS Project Server dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, une coordination efficace et une communication transparente sont essentielles à la réussite de l’exécution du projet. Aspose.Tasks for .NET fournit une solution complète pour gérer les informations d'identification de Microsoft Project Server, permettant aux utilisateurs d'accéder et de manipuler en toute sécurité les données du projet. Ce didacticiel explore le processus de gestion des informations d'identification MS Project Server à l'aide d'Aspose.Tasks pour .NET, guidant les utilisateurs à chaque étape pour garantir une expérience fluide.
 ## Conditions préalables
@@ -83,3 +89,9 @@ R : Oui, Aspose.Tasks pour .NET peut être intégré de manière transparente au
 R : Oui, Aspose.Tasks pour .NET propose des options de licence flexibles, notamment des licences temporaires à des fins d'essai et des licences complètes pour un usage commercial.
 ### Q : Où puis-je demander de l'aide ou du support pour Aspose.Tasks pour .NET ?
  R : Pour toute demande de renseignements ou d'assistance concernant Aspose.Tasks pour .NET, vous pouvez visiter le forum d'assistance à l'adresse[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Code source complet
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

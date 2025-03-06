@@ -3,10 +3,16 @@ title: Aangepaste projecteigenschappenverzameling beheren in Aspose.Tasks
 linktitle: Aangepaste projecteigenschappenverzameling beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u aangepaste projecteigenschappen effectief kunt beheren in Aspose.Tasks voor .NET, waardoor uw projectbeheerervaring wordt verbeterd.
-type: docs
 weight: 24
 url: /nl/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste projecteigenschappenverzameling beheren in Aspose.Tasks
+
 ## Invoering
 
 Bent u klaar om uw projectmanagementervaring te verbeteren met Aspose.Tasks voor .NET? Het beheren van aangepaste projecteigenschappen is een cruciaal aspect van projectbeheer, waardoor u specifieke metagegevens kunt toevoegen die zijn afgestemd op de vereisten van uw project. In deze zelfstudie gaan we in op hoe u effectief kunt werken met aangepaste verzamelingen projecteigenschappen met behulp van Aspose.Tasks voor .NET.
@@ -131,3 +137,9 @@ A4: Ja, u kunt voor evaluatiedoeleinden een tijdelijke licentie verkrijgen via d
 ### V5: Waar kan ik ondersteuning of verdere hulp vinden met betrekking tot Aspose.Tasks voor .NET?
 
  A5: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15) voor eventuele vragen of hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

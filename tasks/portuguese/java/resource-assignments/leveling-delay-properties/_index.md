@@ -3,10 +3,16 @@ title: Lidar com propriedades de atraso de nivelamento em Aspose.Tasks
 linktitle: Lidar com propriedades de atraso de nivelamento para atribuições de recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como lidar com propriedades de atraso de nivelamento para atribuições de recursos em Aspose.Tasks for Java com este tutorial abrangente.
-type: docs
 weight: 17
 url: /pt/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com propriedades de atraso de nivelamento em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, percorreremos o processo de manipulação de propriedades de atraso de nivelamento para atribuições de recursos em Aspose.Tasks for Java. Aspose.Tasks é uma poderosa biblioteca Java que permite trabalhar com arquivos do Microsoft Project sem exigir que o Microsoft Project esteja instalado em seu sistema.
 ## Pré-requisitos
@@ -91,3 +97,9 @@ R: Sim, Aspose.Tasks oferece suporte a várias versões de arquivos do Microsoft
 ### P: Como posso obter uma licença temporária para Aspose.Tasks?
 
  R: Você pode solicitar uma licença temporária do[página de licença temporária](https://purchase.aspose.com/temporary-license/) para fins de avaliação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

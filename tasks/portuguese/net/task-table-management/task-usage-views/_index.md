@@ -3,10 +3,16 @@ title: Dominando as visualizações de uso de tarefas em Aspose.Tasks para .NET
 linktitle: Configurando visualizações de uso de tarefas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks for .NET e aprenda como configurar visualizações de uso de tarefas. Personalize as configurações de escala de tempo e aprimore os recursos visuais de gerenciamento de projetos.
-type: docs
 weight: 24
 url: /pt/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando as visualizações de uso de tarefas em Aspose.Tasks para .NET
+
 ## Introdução
 No domínio do gerenciamento de projetos, visualizar o uso das tarefas é fundamental para um planejamento e execução eficazes. Aspose.Tasks for .NET fornece uma solução robusta para renderizar visualizações de uso de tarefas, permitindo personalizar configurações de escala de tempo e formatos de apresentação. Neste tutorial, percorreremos as etapas para configurar visualizações de uso de tarefas usando Aspose.Tasks.
 ## Pré-requisitos
@@ -75,3 +81,9 @@ Sim, Aspose.Tasks oferece suporte a formatos de arquivo de projeto populares, co
 Com certeza, você pode personalizar as configurações de escala de tempo para tarefas individuais em seu projeto.
 ### Como posso obter suporte ou assistência para Aspose.Tasks?
  Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e orientação da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

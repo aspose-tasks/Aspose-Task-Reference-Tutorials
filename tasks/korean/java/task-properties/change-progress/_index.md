@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 진행 상황 변경
 linktitle: Aspose.Tasks에서 작업 진행 상황 변경
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks로 Java 프로젝트 관리를 강화하세요. 이 단계별 튜토리얼에서 작업 진행 상황을 원활하게 수정하는 방법을 알아보세요. 지금 다운로드하세요!
-type: docs
 weight: 12
 url: /ko/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 진행 상황 변경
+
 ## 소개
 프로젝트 관리의 동적 영역에서는 효과적인 작업 진행 상황 추적이 매우 중요합니다. Aspose.Tasks for Java는 강력한 기능으로 프로세스를 단순화하는 강력한 솔루션으로 돋보입니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업 진행 상황을 변경하는 단계를 안내합니다.
 ## 전제조건
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
  포괄적인 문서 살펴보기[여기](https://reference.aspose.com/tasks/java/).
 ### Aspose.Tasks for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  방문하다[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에 대한 서버 저장 MS 프로젝트 옵션
 linktitle: Aspose.Tasks에 대한 Project Server 저장 옵션
 second_title: Aspose.태스크 .NET API
 description: Project Server 통합을 사용하여 Aspose.Tasks에 대한 Microsoft Project 옵션을 저장하는 방법을 알아보세요. 프로젝트 관리 워크플로를 강화하세요.
-type: docs
 weight: 16
 url: /ko/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 대한 서버 저장 MS 프로젝트 옵션
+
 ## 소개
 이 튜토리얼에서는 Project Server를 사용하여 Aspose.Tasks에 대한 Microsoft Project 옵션을 저장하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. Project Server 기능을 활용하여 Aspose.Tasks를 프로젝트 관리 워크플로에 원활하게 통합할 수 있습니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -71,3 +77,9 @@ A: 예, Aspose.Tasks는 스레드로부터 안전하도록 설계되어 프로�
 A: 예, 프로젝트 이름, 시간 초과, 폴링 간격 등의 저장 옵션을 요구 사항에 맞게 맞춤 설정할 수 있습니다.
 ### Q: Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  답변: 다음 웹사이트에서 지원과 도움을 받으실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

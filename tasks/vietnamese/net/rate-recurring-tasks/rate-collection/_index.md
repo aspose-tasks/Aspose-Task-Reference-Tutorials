@@ -3,10 +3,16 @@ title: Tỷ lệ dự án MS chính với Aspose.Tasks
 linktitle: Bộ sưu tập mức giá trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý tỷ lệ trong tệp MS Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước để quản lý tài nguyên hiệu quả.
-type: docs
 weight: 11
 url: /vi/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tỷ lệ dự án MS chính với Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách quản lý tỷ lệ trong MS Project bằng Aspose.Tasks for .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình làm việc với các mức giá trong tệp MS Project của bạn bằng Aspose.Tasks. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu phát triển .NET, hướng dẫn này sẽ cung cấp cho bạn hướng dẫn từng bước để xử lý hiệu quả các tỷ lệ trong dự án của bạn.
 ## Điều kiện tiên quyết
@@ -110,3 +116,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks for .NET hỗ trợ làm việc
 Trả lời: Có, bạn có thể sử dụng bản dùng thử miễn phí Aspose.Tasks dành cho .NET để đánh giá các tính năng và khả năng tương thích của nó với yêu cầu của bạn.
 ### Câu hỏi: Làm cách nào tôi có thể mua giấy phép Aspose.Tasks cho .NET?
  Trả lời: Bạn có thể mua giấy phép Aspose.Tasks cho .NET từ[trang mạng](https://purchase.aspose.com/temporary-license/)cung cấp các tùy chọn cấp phép linh hoạt phù hợp với nhu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

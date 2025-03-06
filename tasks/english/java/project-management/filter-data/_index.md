@@ -3,10 +3,16 @@ title: Filter Data from MPP File in Aspose.Tasks
 linktitle: Filter Data from MPP File in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to filter data from MPP files using Aspose.Tasks for Java. Enhance your project management workflow effortlessly.
-type: docs
 weight: 14
 url: /java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filter Data from MPP File in Aspose.Tasks
+
 ## Introduction
 In the realm of Java development, managing project tasks efficiently is a pivotal aspect of successful project management. Aspose.Tasks for Java offers a robust solution for handling project management tasks programmatically, providing developers with the tools needed to filter data from MPP files seamlessly. In this tutorial, we'll delve into the process of filtering data from MPP files using Aspose.Tasks for Java, breaking down each step to ensure a comprehensive understanding.
 ## Prerequisites
@@ -81,3 +87,10 @@ A: Yes, whether you're managing a small-scale project or handling extensive proj
 A: Certainly! You can refer to the [documentation](https://reference.aspose.com/tasks/java/) for detailed guides and API references. Additionally, you can seek assistance from the Aspose.Tasks community forums for any queries or issues you encounter.
 ### Q: Can I explore the functionality of Aspose.Tasks for Java before making a purchase?
 A: Of course! You can avail of a free trial from the [website](https://releases.aspose.com/) to experience the features and capabilities of Aspose.Tasks for Java firsthand.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

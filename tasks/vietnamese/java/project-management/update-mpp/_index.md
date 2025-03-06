@@ -3,10 +3,16 @@ title: Cập nhật tệp MPP trong Aspose.Tasks
 linktitle: Cập nhật tệp MPP trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách cập nhật các tệp MPP một cách liền mạch bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác hiệu quả với tệp dự án.
-type: docs
 weight: 19
 url: /vi/java/project-management/update-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cập nhật tệp MPP trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc xử lý và cập nhật hồ sơ dự án là một nhiệm vụ quan trọng. Aspose.Tasks for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để thao tác các tệp Microsoft Project một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc cập nhật các tệp MPP bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho Java hỗ trợ nhi�
  Đáp: Có, giấy phép tạm thời được cung cấp cho mục đích thử nghiệm. Bạn có thể lấy chúng từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm trợ giúp hoặc hỗ trợ về Aspose.Tasks cho Java ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

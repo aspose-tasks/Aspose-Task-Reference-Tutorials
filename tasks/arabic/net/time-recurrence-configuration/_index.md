@@ -3,10 +3,16 @@ title: Aspose.Tasks تكوين الوقت وأنماط التكرار
 linktitle: Aspose.Tasks تكوين الوقت وأنماط التكرار
 second_title: Aspose.Tasks .NET API
 description: استكشف دروس Aspose.Tasks لـ .NET حول تكوين الوقت وأنماط التكرار. يمكنك إدارة التقويمات بسهولة وتخصيص أوقات العمل وتحسين جدولة المشروع.
-type: docs
 weight: 33
 url: /ar/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks تكوين الوقت وأنماط التكرار
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Tasks for .NET، حيث تلتقي الإدارة الفعالة للمشروعات مع قوة تكوينات الوقت القابلة للتخصيص وأنماط التكرار. في هذا الدليل الشامل، سنتعمق في العديد من البرامج التعليمية التي تمكنك من إتقان فن جدولة المشاريع وإدارة الموارد.
@@ -58,3 +64,9 @@ url: /ar/net/time-recurrence-configuration/
 تعرف على كيفية تخصيص أسابيع العمل في Aspose.Tasks لـ .NET. دليل خطوة بخطوة لإنشاء تقاويم المشروع المخصصة. التحميل الان!
 ### [تكوين أنماط التكرار السنوية في Aspose.Tasks](./yearly-recurrence-patterns/)
 تعلم كيفية تكوين أنماط التكرار السنوية في Aspose.Tasks لـ .NET. عزز مهاراتك في إدارة المشروعات من خلال هذا الدليل المفصّل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sesuaikan Kolom Tampilan Sumber Daya Proyek MS di Aspose.Tasks
 linktitle: Menyesuaikan Kolom Tampilan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi kolom tampilan sumber daya MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Buat tampilan yang disesuaikan untuk manajemen proyek yang lebih baik.
-type: docs
 weight: 17
 url: /id/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Kolom Tampilan Sumber Daya Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project secara terprogram. Salah satu tugas umum dalam manajemen proyek adalah menyesuaikan tampilan untuk menampilkan informasi spesifik. Dalam tutorial ini, kita akan mempelajari cara mengkustomisasi kolom tampilan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -94,3 +100,9 @@ Tentu saja, Aspose.Tasks menyediakan opsi pemformatan ekstensif untuk menyempurn
 Ya, Anda dapat memperbarui dan membuat ulang tampilan kustom setiap kali data proyek yang mendasarinya berubah.
 ### Apakah Aspose.Tasks mendukung pengembangan lintas platform?
 Aspose.Tasks untuk .NET terutama menargetkan platform .NET, namun ada juga versi yang tersedia untuk Java dan platform lainnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

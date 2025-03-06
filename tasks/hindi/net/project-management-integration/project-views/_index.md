@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट दृश्य क
 linktitle: Aspose.Tasks में प्रोजेक्ट दृश्यों को अनुकूलित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट दृश्यों को अनुकूलित करना सीखें। कुशल परियोजना प्रबंधन विज़ुअलाइज़ेशन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 24
 url: /hi/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट दृश्य को अनुकूलित करना
+
 ## परिचय
 Microsoft प्रोजेक्ट प्रोजेक्ट प्रबंधन के लिए एक शक्तिशाली उपकरण है, जो उपयोगकर्ताओं को कार्यों को व्यवस्थित करने, संसाधनों का प्रबंधन करने और प्रगति को प्रभावी ढंग से ट्रैक करने की अनुमति देता है। .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने का एक सुविधाजनक तरीका प्रदान करता है, जिससे डेवलपर्स अपनी विशिष्ट आवश्यकताओं के अनुरूप प्रोजेक्ट दृश्यों को अनुकूलित कर सकते हैं। इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट दृश्यों को कैसे अनुकूलित किया जाए।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
  हाँ, .NET के लिए Aspose.Tasks इसके माध्यम से व्यापक दस्तावेज़ीकरण और समर्थन प्रदान करता है[मंच](https://forum.aspose.com/c/tasks/15) और[दस्तावेज़ीकरण पोर्टल](https://reference.aspose.com/tasks/net/).
 ### 5. क्या मैं खरीदने से पहले .NET के लिए Aspose.Tasks आज़मा सकता हूँ?
  हाँ, आप इसका लाभ उठा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) खरीदारी का निर्णय लेने से पहले .NET के लिए Aspose.Tasks का उपयोग इसकी सुविधाओं और क्षमताओं का मूल्यांकन करने के लिए किया जाता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

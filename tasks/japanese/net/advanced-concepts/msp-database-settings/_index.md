@@ -3,10 +3,16 @@ title: Aspose.Tasks での Microsoft Project データベースの設定
 linktitle: Aspose.Tasks での Microsoft Project データベースの設定
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して Microsoft Project データベース設定を構成し、.NET アプリケーションにシームレスに統合する方法を学びます。
-type: docs
 weight: 19
 url: /ja/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での Microsoft Project データベースの設定
+
 ## 導入
 
 Aspose.Tasks を使用して .NET アプリケーションで Microsoft Project データベースを操作している場合は、プロジェクト データをシームレスにインポートするために必要な設定を構成する必要があります。このチュートリアルでは、プロセスを段階的に説明します。
@@ -99,3 +105,9 @@ A1: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project
 ### Q5: Aspose.Tasks の使用に関する詳細なドキュメントはどこで入手できますか?
 
  A5: 包括的なドキュメントを参照できます。[ここ](https://reference.aspose.com/tasks/net/) Aspose.Tasks 機能の詳細については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

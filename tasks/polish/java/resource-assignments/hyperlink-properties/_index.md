@@ -3,10 +3,16 @@ title: Zarządzaj właściwościami hiperłączy dla przypisań w Aspose.Tasks
 linktitle: Zarządzaj właściwościami hiperłączy dla przypisań zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak zarządzać właściwościami hiperłączy dla przypisań zasobów w Aspose.Tasks dla Java. Popraw współpracę i dostępność w zarządzaniu projektami.
-type: docs
 weight: 16
 url: /pl/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj właściwościami hiperłączy dla przypisań w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla Java oferuje zaawansowane funkcje do zarządzania zadaniami i zasobami projektu. W tym samouczku skupimy się na zarządzaniu właściwościami hiperłączy dla przypisań zasobów za pomocą Aspose.Tasks. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie efektywnie obsługiwać hiperłącza powiązane z przypisaniami zasobów w Twoim projekcie.
 ## Warunki wstępne
@@ -84,3 +90,9 @@ O: Aspose.Tasks nie nakłada ścisłych ograniczeń na długość hiperłączy. 
 Odp.: Tak, możesz usunąć hiperłącza z przypisań zasobów, ustawiając właściwości hiperłącza na ciągi null lub puste.
 ### P: Czy Aspose.Tasks obsługuje sprawdzanie poprawności hiperłączy?
 Odp.: Aspose.Tasks skupia się na zarządzaniu właściwościami hiperłączy, a nie na sprawdzaniu poprawności hiperłączy. Można jednak zaimplementować niestandardową logikę sprawdzania poprawności w aplikacji Java, aby zapewnić integralność hiperłączy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

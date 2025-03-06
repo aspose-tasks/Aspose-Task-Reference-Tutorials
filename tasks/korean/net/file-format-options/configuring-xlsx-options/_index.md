@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 MS 프로젝트 XLSX 옵션 구성
 linktitle: Aspose.Tasks에서 XLSX 옵션 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 MS Project XLSX 옵션을 구성하는 방법을 알아보세요. 열, 인코딩 등을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 11
 url: /ko/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 MS 프로젝트 XLSX 옵션 구성
+
 ## 소개
 Microsoft Project(MS Project)는 프로젝트 관리를 위한 강력한 도구이며 .NET용 Aspose.Tasks는 프로그래밍 방식으로 MS Project 파일 작업을 위한 원활한 통합을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project XLSX 옵션을 구성하는 과정을 안내합니다.
 ## 전제조건
@@ -90,3 +96,9 @@ A: Aspose.Tasks for .NET은 기본적으로 Windows 플랫폼용으로 설계되
 ### Q: 테스트 목적으로 사용할 수 있는 임시 라이선스 옵션이 있습니까?
 
  A: 네, 임시 면허를 취득할 수 있습니다.[Aspose.Tasks 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

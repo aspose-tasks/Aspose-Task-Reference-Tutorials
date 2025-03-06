@@ -3,10 +3,16 @@ title: التعامل مع أولويات المهام في Aspose.Tasks
 linktitle: التعامل مع أولويات المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: إتقان أولويات المهام بسهولة باستخدام Aspose.Tasks لـ Java. اتبع هذا الدليل للتعامل السلس. ارفع مهاراتك في إدارة المشاريع!
-type: docs
 weight: 17
 url: /ar/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أولويات المهام في Aspose.Tasks
+
 ## مقدمة
 تعد إدارة أولويات المهام أمرًا بالغ الأهمية لنجاح المشروع، ومع Aspose.Tasks for Java، تصبح العملية سلسة. سيرشدك هذا البرنامج التعليمي خلال التعامل مع أولويات المهام باستخدام Aspose.Tasks. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، فسيقوم هذا الدليل بتقسيم العملية إلى خطوات سهلة المتابعة.
 ## المتطلبات الأساسية
@@ -56,3 +62,9 @@ for (Task tsk : collector.getTasks()) {
  نعم يمكنك الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على وثائق مفصلة؟
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

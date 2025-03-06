@@ -3,10 +3,16 @@ title: Manajemen Durasi Dasar Tugas di Aspose.Tasks
 linktitle: Manajemen Durasi Dasar Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola garis dasar tugas secara efisien di MS Project menggunakan Aspose.Tasks untuk Java. Tutorial ini memandu Anda langkah demi langkah melalui proses tersebut.
-type: docs
 weight: 12
 url: /id/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Durasi Dasar Tugas di Aspose.Tasks
+
 ## Perkenalan
 Mengelola garis dasar tugas di MS Project sangat penting untuk perencanaan dan pelacakan proyek. Dalam tutorial ini, kita akan mempelajari cara mengelola durasi dasar tugas secara efektif menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -76,3 +82,9 @@ Ya, Anda dapat mengubah garis dasar tugas di MS Project untuk mencerminkan perub
 Ya, Aspose.Tasks menawarkan berbagai fitur untuk manajemen proyek, termasuk penjadwalan tugas, alokasi sumber daya, dan pembuatan bagan Gantt.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
  Anda dapat menemukan dukungan untuk Aspose.Tasks di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15), tempat Anda dapat mengajukan pertanyaan dan berinteraksi dengan pengguna lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

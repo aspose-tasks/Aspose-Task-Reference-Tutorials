@@ -3,10 +3,16 @@ title: Zarządzanie kolekcją zasobów projektu w Aspose.Tasks
 linktitle: Zarządzanie kolekcją zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać zbiorami zasobów Microsoft Project w .NET przy użyciu interfejsu API Aspose.Tasks. Zwiększ produktywność i elastyczność.
-type: docs
 weight: 13
 url: /pl/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie kolekcją zasobów projektu w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak efektywnie zarządzać kolekcjami zasobów programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft Project, umożliwiając bezproblemową integrację i manipulowanie danymi projektu.
 ## Warunki wstępne
@@ -99,3 +105,9 @@ O: Tak, Aspose.Tasks obsługuje wielowątkowość, umożliwiając jednoczesne op
 ### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
 
  O: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej za pośrednictwem forum[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

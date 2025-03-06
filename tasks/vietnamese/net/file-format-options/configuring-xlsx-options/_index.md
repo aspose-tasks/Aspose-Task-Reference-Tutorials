@@ -3,10 +3,16 @@ title: Định cấu hình tùy chọn MS Project XLSX trong Aspose.Tasks cho .N
 linktitle: Định cấu hình tùy chọn XLSX trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh các cột, mã hóa và dễ dàng hơn.
-type: docs
 weight: 11
 url: /vi/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Microsoft Project (MS Project) là một công cụ mạnh mẽ để quản lý dự án và Aspose.Tasks for .NET cung cấp khả năng tích hợp liền mạch để làm việc với các tệp MS Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ hướng dẫn quy trình định cấu hình các tùy chọn MS Project XLSX bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Trả lời: Aspose.Tasks cho .NET được thiết kế chủ yếu cho nền t
 ### Câu hỏi: Có bất kỳ tùy chọn giấy phép tạm thời nào dành cho mục đích thử nghiệm không?
 
  Đáp: Có, bạn có thể xin giấy phép tạm thời từ[Trang giấy phép tạm thời Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

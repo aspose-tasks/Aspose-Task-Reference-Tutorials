@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta OLE Nesnelerinin Toplanması
 linktitle: Aspose.Tasks'ta OLE Nesnelerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Bu kapsamlı eğitimle Aspose.Tasks for .NET'te OLE nesnelerini nasıl yöneteceğinizi öğrenin. Proje belgeleri içindeki gömülü dosyaların işlenmesinde zahmetsizce ustalaşın.
-type: docs
 weight: 23
 url: /tr/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta OLE Nesnelerinin Toplanması
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te OLE (Nesne Bağlama ve Gömme) nesnelerinin yönetimini ele alacağız. OLE nesneleri, kullanıcıların bir proje dosyasına diğer uygulamalardan dosyalar eklemesine veya bunlara bağlantı vermesine olanak tanır. Bu nesnelerin bir koleksiyonuyla nasıl çalışılacağını adım adım ele alacağız.
@@ -97,3 +103,9 @@ Cevap3: Temel C# bilgisi tavsiye edilse de Aspose.Tasks, programlama geçmişler
 ### S5: Aspose.Tasks için desteği nerede bulabilirim?
 
  Cevap5: Aspose.Tasks forumunda destek arayabilir ve sorular sorabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

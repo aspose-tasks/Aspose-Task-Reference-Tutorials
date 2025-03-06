@@ -3,10 +3,16 @@ title: Možnosti ukládání Aspose.Tasks
 linktitle: Možnosti ukládání Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ukládejte, převádějte a spravujte soubory MS Project pomocí Aspose.Tasks pro .NET. Prozkoumejte podrobné návody pro HTML, obrázky, PDF, Primavera, šablony a další.
-type: docs
 weight: 20
 url: /cs/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Možnosti ukládání Aspose.Tasks
+
 
 ## Úvod
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 Uložit možnosti MS Project s Aspose.Tasks pro .NET. Be
 Naučte se, jak využít Aspose.Tasks pro .NET ke snadnému generování SVG reprezentací souborů Microsoft Project pro vylepšenou vizualizaci projektu.
 ### [Převeďte možnosti MSP na XPS pomocí Aspose.Tasks](./xps-options/)
 Naučte se převádět soubory Microsoft Project do formátu XPS pomocí Aspose.Tasks for .NET. Snadná integrace, robustní funkčnost.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks परियोजनाओं में मुद्रा 
 linktitle: Aspose.Tasks परियोजनाओं में मुद्रा गुण सेट करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जानें कि जावा का उपयोग करके Aspose.Tasks प्रोजेक्ट में मुद्रा गुण कैसे सेट करें। Microsoft प्रोजेक्ट फ़ाइलों में आसानी से हेरफेर करें।
-type: docs
 weight: 11
 url: /hi/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks परियोजनाओं में मुद्रा गुण सेट करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम देखेंगे कि जावा का उपयोग करके Aspose.Tasks प्रोजेक्ट में मुद्रा गुण कैसे सेट करें। Aspose.Tasks एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने की अनुमति देती है।
 ## आवश्यक शर्तें
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 हां, Aspose.Tasks को अन्य जावा लाइब्रेरीज़ और फ्रेमवर्क के साथ सहजता से एकीकृत किया जा सकता है, जिससे इसकी कार्यक्षमता और बहुमुखी प्रतिभा बढ़ जाती है।
 ### मुझे Aspose.Tasks के लिए अतिरिक्त समर्थन या सहायता कहां मिल सकती है?
  अतिरिक्त सहायता के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15), जहां आप सहायक संसाधन पा सकते हैं और समुदाय के साथ जुड़ सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

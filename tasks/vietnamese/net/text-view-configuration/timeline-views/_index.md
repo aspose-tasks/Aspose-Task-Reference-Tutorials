@@ -3,10 +3,16 @@ title: Nắm vững các chế độ xem mốc thời gian của dự án trong 
 linktitle: Tùy chỉnh chế độ xem dòng thời gian trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nắm vững Aspose.Tasks cho .NET trong việc tùy chỉnh chế độ xem dòng thời gian. Nâng cao khả năng quản lý dự án của bạn với các mốc thời gian hấp dẫn trực quan phù hợp với nhu cầu của dự án.
-type: docs
 weight: 13
 url: /vi/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các chế độ xem mốc thời gian của dự án trong Aspose.Tasks
+
 ## Giới thiệu
 Tạo chế độ xem dòng thời gian đầy thông tin và hấp dẫn trực quan là rất quan trọng để quản lý dự án hiệu quả. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để tùy chỉnh chế độ xem dòng thời gian, cho phép bạn điều chỉnh cách hiển thị các tác vụ theo nhu cầu cụ thể của dự án. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks để tạo và tùy chỉnh chế độ xem dòng thời gian một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Tuyệt đối! Aspose.Tasks cung cấp tính linh hoạt để tùy chỉnh gia
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Tasks?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

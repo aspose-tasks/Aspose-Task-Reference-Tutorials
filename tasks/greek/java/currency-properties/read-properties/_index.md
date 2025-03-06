@@ -3,10 +3,16 @@ title: Διαβάστε τις ιδιότητες νομίσματος στα έ
 linktitle: Διαβάστε τις ιδιότητες νομίσματος στα έργα Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να εξάγετε πληροφορίες νομισμάτων από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Παρέχεται οδηγός βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τις ιδιότητες νομίσματος στα έργα Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Tasks για Java για την ανάγνωση ιδιοτήτων νομίσματος από αρχεία Microsoft Project. Το Aspose.Tasks είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να χειρίζονται έγγραφα του Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project. Ακολουθώντας τα βήματα που περιγράφονται παρακάτω, θα μπορείτε να εξάγετε πληροφορίες που σχετίζονται με το νόμισμα χωρίς κόπο.
 ## Προαπαιτούμενα
@@ -57,3 +63,9 @@ System.out.println("Process completed Successfully");
  Α: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Tasks από[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια ή υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε βοήθεια ή απορία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

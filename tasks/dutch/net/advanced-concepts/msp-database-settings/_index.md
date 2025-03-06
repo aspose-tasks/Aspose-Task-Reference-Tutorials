@@ -3,10 +3,16 @@ title: Instellingen voor Microsoft Project Database in Aspose.Tasks
 linktitle: Instellingen voor Microsoft Project Database in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-database-instellingen configureert met Aspose.Tasks voor naadloze integratie in .NET-toepassingen.
-type: docs
 weight: 19
 url: /nl/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Instellingen voor Microsoft Project Database in Aspose.Tasks
+
 ## Invoering
 
 Als u met Microsoft Project-databases in uw .NET-toepassingen werkt met behulp van Aspose.Tasks, moet u de benodigde instellingen configureren om projectgegevens naadloos te importeren. Deze tutorial begeleidt u stap voor stap door het proces.
@@ -99,3 +105,9 @@ A1: Ja, Aspose.Tasks ondersteunt verschillende versies van Microsoft Project-dat
 ### V5: Waar kan ik meer gedetailleerde documentatie vinden over het gebruik van Aspose.Tasks?
 
  A5: U kunt de uitgebreide documentatie verkennen[hier](https://reference.aspose.com/tasks/net/) voor gedetailleerd inzicht in de functionaliteiten van Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

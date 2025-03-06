@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理前置任務和後繼任務
 linktitle: 在 Aspose.Tasks 中管理前置任務和後繼任務
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 探索高效率的任務管理。輕鬆處理專案中的前置任務和後續任務。立即下載免費試用版！
-type: docs
 weight: 15
 url: /zh-hant/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理前置任務和後繼任務
+
 ## 介紹
 在專案管理領域，有效處理任務依賴至關重要。 Aspose.Tasks for Java 提供了一個強大的解決方案來管理專案中的前置任務和後續任務。本教學將引導您完成利用 Aspose.Tasks 有效管理任務連結的過程，使您能夠建立任務之間的依賴關係。
 ## 先決條件
@@ -52,3 +58,9 @@ for (TaskLink tsklnk : allinks) {
 參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
 ### 我可以下載 Aspose.Tasks for Java 的免費試用版嗎？
 是的，從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

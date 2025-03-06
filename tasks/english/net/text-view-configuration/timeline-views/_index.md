@@ -3,10 +3,16 @@ title: Mastering Project Timelines Views in Aspose.Tasks
 linktitle: Customizing Timeline Views in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET in customizing timeline views. Enhance your project management with visually appealing timelines tailored to your project's needs.
-type: docs
 weight: 13
 url: /net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Project Timelines Views in Aspose.Tasks
+
 ## Introduction
 Creating visually appealing and informative timeline views is crucial for effective project management. Aspose.Tasks for .NET provides a robust solution for customizing timeline views, allowing you to tailor the display of tasks according to your project's specific needs. In this step-by-step guide, we'll explore how to use Aspose.Tasks to create and customize timeline views effortlessly.
 ## Prerequisites
@@ -76,3 +82,10 @@ Visit the [Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/) 
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### How do I obtain a temporary license for Aspose.Tasks?
 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

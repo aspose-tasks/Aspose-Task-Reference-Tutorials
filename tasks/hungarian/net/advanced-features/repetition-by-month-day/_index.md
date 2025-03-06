@@ -3,10 +3,16 @@ title: Ismétlés hónaponként Naponként az Aspose.Tasks-ban
 linktitle: Ismétlés hónaponként Naponként az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti az ismétlődő feladatokat .NET-projektekben az Aspose.Tasks segítségével. Útmutató lépésről lépésre az ismétlések kezeléséhez hónaponkénti naponként.
-type: docs
 weight: 25
 url: /hu/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ismétlés hónaponként Naponként az Aspose.Tasks-ban
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.Tasks hatékony eszköz a projektfeladatok és ütemezések kezelésére. Rengeteg funkciót kínál a projektmenedzsment munkafolyamatok egyszerűsítésére, beleértve az ismétlődő feladatok kezelését is. A hónap-naponkénti ismétlés általános követelmény a projektütemezésben, és az Aspose.Tasks erőteljes támogatást nyújt ehhez a forgatókönyvhöz.
@@ -105,3 +111,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan kezeljük a hónapok szerinti is
 ### 5. kérdés: Hol kérhetek segítséget, ha problémákba ütközöm vagy kérdéseim vannak?
 
  A5: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) hogy támogatást kérjen a közösségtől vagy az Aspose csapatától.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

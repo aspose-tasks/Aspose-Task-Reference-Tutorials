@@ -3,10 +3,16 @@ title: Mengelola Pengumpulan Jenis Hari di Aspose.Tasks
 linktitle: Mengelola Pengumpulan Jenis Hari di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola koleksi jenis hari secara efisien di Aspose.Tasks untuk .NET. Buat, ubah, dan manipulasi pengecualian kalender dengan mudah.
-type: docs
 weight: 28
 url: /id/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Pengumpulan Jenis Hari di Aspose.Tasks
+
 ## Perkenalan
 
  Aspose.Tasks untuk .NET menyediakan fungsionalitas yang kuat untuk mengelola koleksi jenis hari, penting untuk menentukan pengecualian kalender mingguan dalam aplikasi manajemen proyek. Dalam tutorial ini, kita akan mengeksplorasi cara memanfaatkan`DayTypeCollection` kelas secara efisien. 
@@ -141,3 +147,9 @@ A2: Ya, Aspose.Tasks untuk .NET mendukung .NET Core dan .NET Framework.
 ### Q5: Dapatkah saya membeli lisensi sementara untuk Aspose.Tasks untuk .NET?
 
  A5: Ya, lisensi sementara tersedia untuk dibeli dari[Asumsikan situs web](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

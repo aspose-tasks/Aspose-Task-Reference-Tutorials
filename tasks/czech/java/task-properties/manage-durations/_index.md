@@ -3,10 +3,16 @@ title: Správa trvání úkolů v Aspose.Tasks
 linktitle: Správa trvání úkolů v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte Aspose.Tasks pro Javu a naučte se spravovat dobu trvání úkolů bez námahy. Postupujte podle našeho podrobného průvodce pro efektivní plánování a realizaci projektu.
-type: docs
 weight: 20
 url: /cs/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa trvání úkolů v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for Java poskytuje robustní řešení pro efektivní správu projektových úkolů a trvání. V tomto tutoriálu prozkoumáme, jak spravovat trvání úkolů pomocí Aspose.Tasks a provedeme vás každým krokem. Ať už jste zkušený vývojář nebo začátečník, tato příručka vám pomůže pochopit základy práce s trváním úkolů ve vašich projektech.
 ## Předpoklady
@@ -67,3 +73,9 @@ Aspose.Tasks je kompatibilní s Java 6 a novějšími verzemi.
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) před nákupem prozkoumat Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

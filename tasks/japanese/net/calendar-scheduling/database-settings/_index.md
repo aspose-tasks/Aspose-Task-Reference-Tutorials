@@ -3,10 +3,16 @@ title: Aspose.Tasks のデータベース設定
 linktitle: Aspose.Tasks のデータベース設定
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Primavera データベースからプロジェクトをインポートする方法を学びます。この包括的なチュートリアルで段階的なガイダンスを取得してください。
-type: docs
 weight: 29
 url: /ja/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のデータベース設定
+
 ## 導入
 
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Microsoft Project ファイルを操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks を使用して Primavera データベースからプロジェクトをインポートすることに焦点を当てます。
@@ -100,3 +106,9 @@ A1: はい、接続文字列とプロバイダーの不変名を適宜調整す�
 ### Q5: Aspose.Tasks for .NET を使用するには一時ライセンスが必要ですか?
 
  A5: ライブラリの全機能を評価したい場合は、次のサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

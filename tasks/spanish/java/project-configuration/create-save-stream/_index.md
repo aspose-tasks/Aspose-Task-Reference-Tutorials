@@ -3,10 +3,16 @@ title: Cree y guarde un proyecto vacío para transmitir en Aspose.Tasks
 linktitle: Cree y guarde un proyecto vacío para transmitir en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a crear y guardar archivos vacíos de MS Project en una secuencia en Java con Aspose.Tasks, simplificando las tareas de gestión de proyectos sin esfuerzo.
-type: docs
 weight: 13
 url: /es/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cree y guarde un proyecto vacío para transmitir en Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo utilizar Aspose.Tasks para Java para crear y guardar un MS Project vacío en una secuencia. Aspose.Tasks es una potente API de Java que permite a los desarrolladores trabajar con archivos de Microsoft Project sin necesidad de instalar Microsoft Project en la máquina. Siguiendo esta guía, aprenderá los pasos necesarios para crear y guardar un archivo de MS Project vacío usando Aspose.Tasks.
 ## Requisitos previos
@@ -69,3 +75,9 @@ Sí, Aspose.Tasks admite múltiples lenguajes de programación, incluidos .NET, 
  Puede obtener soporte en el foro de la comunidad.[aquí](https://forum.aspose.com/c/tasks/15).
 ### ¿Puedo comprar una licencia temporal para Aspose.Tasks?
  Sí, hay licencias temporales disponibles para su compra.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

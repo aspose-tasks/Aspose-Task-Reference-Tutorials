@@ -3,10 +3,16 @@ title: Travailler avec l'opération NOT dans Aspose.Tasks
 linktitle: Travailler avec l'opération NOT dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment utiliser l'opération NOT dans Aspose.Tasks pour .NET pour filtrer efficacement les tâches. Améliorez dès maintenant vos capacités de gestion de projet.
-type: docs
 weight: 20
 url: /fr/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec l'opération NOT dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment utiliser l'opération NOT dans Aspose.Tasks pour .NET. L'opération NOT nous permet d'inverser une condition de filtre, nous permettant de sélectionner des éléments qui ne répondent pas à un critère spécifié.
@@ -114,3 +120,9 @@ Dans ce didacticiel, nous avons appris à utiliser l'opération NOT dans Aspose.
 ### Q5 : Où puis-je trouver une documentation complète pour Aspose.Tasks ?
 
  R : Vous pouvez accéder à la documentation complète sur le[Page de documentation Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

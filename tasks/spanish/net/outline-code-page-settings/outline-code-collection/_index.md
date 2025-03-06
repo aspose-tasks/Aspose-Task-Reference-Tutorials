@@ -3,10 +3,16 @@ title: Colección MS Project de códigos de esquema en Aspose.Tasks
 linktitle: Colección de códigos de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a recopilar códigos de esquema de Microsoft Project utilizando Aspose.Tasks para .NET. Este completo tutorial proporciona instrucciones paso a paso.
-type: docs
 weight: 11
 url: /es/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección MS Project de códigos de esquema en Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo recopilar códigos de esquema de Microsoft Project usando Aspose.Tasks para .NET. Dividiremos el proceso en instrucciones paso a paso para garantizar la claridad y la comprensión.
 ## Requisitos previos
@@ -95,3 +101,9 @@ R: Sí, Aspose.Tasks para .NET admite varias versiones de Microsoft Project, inc
 R: Por supuesto, Aspose.Tasks para .NET ofrece amplias opciones para personalizar el formato de salida según sus requisitos.
 ### P: ¿Dónde puedo encontrar soporte o recursos adicionales para Aspose.Tasks para .NET?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para cualquier ayuda o consulta sobre Aspose.Tasks para .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

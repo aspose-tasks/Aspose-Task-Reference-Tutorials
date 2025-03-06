@@ -3,10 +3,16 @@ title: Aspose.Tasks Opties voor opslaan
 linktitle: Aspose.Tasks Opties voor opslaan
 second_title: Aspose.Tasks .NET API
 description: Bewaar, converteer en beheer MS Project-bestanden met Aspose.Tasks voor .NET. Ontdek stapsgewijze tutorials voor HTML, afbeeldingen, PDF's, Primavera, sjablonen en meer.
-type: docs
 weight: 20
 url: /nl/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Opties voor opslaan
+
 
 ## Invoering
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 Bewaar MS-projectopties met Aspose.Tasks voor .NET. Pas 
 Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om moeiteloos SVG-representaties van Microsoft Project-bestanden te genereren voor verbeterde projectvisualisatie.
 ### [Converteer MSP naar XPS-opties met Aspose.Tasks](./xps-options/)
 Leer hoe u Microsoft Project-bestanden naar XPS-indeling converteert met Aspose.Tasks voor .NET. Eenvoudige integratie, robuuste functionaliteit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

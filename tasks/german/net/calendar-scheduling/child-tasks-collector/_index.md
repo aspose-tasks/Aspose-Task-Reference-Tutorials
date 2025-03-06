@@ -3,10 +3,16 @@ title: Sammeln von untergeordneten Aufgaben in Aspose.Tasks
 linktitle: Sammeln von untergeordneten Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie untergeordnete Aufgaben mit Aspose.Tasks für .NET effizient sammeln. Verbessern Sie das Projektmanagement in Ihren .NET-Anwendungen.
-type: docs
 weight: 15
 url: /de/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammeln von untergeordneten Aufgaben in Aspose.Tasks
+
 ## Einführung
 
 Im Bereich Projektmanagement zeichnet sich Aspose.Tasks für .NET als robuste Lösung für die effiziente Abwicklung von Aufgaben und Projekten aus. Diese leistungsstarke Bibliothek stellt Entwicklern die Tools zur Verfügung, die sie benötigen, um Aufgaben, Projekte und alles dazwischen nahtlos zu verwalten. In diesem Tutorial befassen wir uns mit einem bestimmten Aspekt von Aspose.Tasks: dem Sammeln untergeordneter Aufgaben.
@@ -96,3 +102,9 @@ A4: Ja, Benutzer können über das auf technischen Support zugreifen[Aspose.Task
 ### F5: Kann ich Aspose.Tasks für .NET vor dem Kauf testen?
 
  A5: Auf jeden Fall! Sie können eine kostenlose Testversion von der nutzen[Release-Seite](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

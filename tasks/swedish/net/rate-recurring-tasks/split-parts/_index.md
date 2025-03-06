@@ -3,10 +3,16 @@ title: Hantering av MS Project Split Parts i Aspose.Tasks
 linktitle: Hantera delade delar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Project-delade delar effektivt med Aspose.Tasks för .NET. Förbättra ditt arbetsflöde för projektledning.
-type: docs
 weight: 18
 url: /sv/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantering av MS Project Split Parts i Aspose.Tasks
+
 
 ## Introduktion
 Hantera MS-projektdelade delar kan vara en avgörande aspekt av projektledning när du använder Aspose.Tasks för .NET. I den här handledningen kommer vi att utforska hur du effektivt hanterar delade delar med hjälp av steg-för-steg-vägledning.
@@ -94,3 +100,9 @@ S: Ja, Aspose.Tasks för .NET låter dig hantera projektresurser effektivt.
 S: Absolut, du kan anpassa projektkalendrar enligt dina projektkrav.
 ### F: Var kan jag hitta support för Aspose.Tasks för .NET?
  S: Du kan hitta stöd och hjälp på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

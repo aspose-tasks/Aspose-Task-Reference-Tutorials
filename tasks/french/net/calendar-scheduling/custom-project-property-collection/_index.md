@@ -3,10 +3,16 @@ title: Gestion de la collection de propriétés de projet personnalisées dans A
 linktitle: Gestion de la collection de propriétés de projet personnalisées dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les propriétés de projet personnalisées dans Aspose.Tasks pour .NET, améliorant ainsi votre expérience de gestion de projet.
-type: docs
 weight: 24
 url: /fr/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de la collection de propriétés de projet personnalisées dans Aspose.Tasks
+
 ## Introduction
 
 Êtes-vous prêt à améliorer votre expérience de gestion de projet avec Aspose.Tasks pour .NET ? La gestion des propriétés de projet personnalisées est un aspect crucial de la gestion de projet, vous permettant d'ajouter des métadonnées spécifiques adaptées aux exigences de votre projet. Dans ce didacticiel, nous verrons comment travailler efficacement avec des collections de propriétés de projet personnalisées à l'aide d'Aspose.Tasks pour .NET.
@@ -131,3 +137,9 @@ A4 : Oui, vous pouvez obtenir une licence temporaire sur le site Web Aspose à d
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire concernant Aspose.Tasks pour .NET ?
 
  A5 : Vous pouvez visiter le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15) pour toute question ou assistance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

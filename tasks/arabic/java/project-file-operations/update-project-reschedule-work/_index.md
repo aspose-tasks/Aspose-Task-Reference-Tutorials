@@ -3,10 +3,16 @@ title: تحديث وإعادة جدولة مشروع MS في Aspose.Tasks
 linktitle: قم بتحديث المشروع وإعادة جدولة العمل غير المكتمل في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديث ملفات MS Project وإعادة جدولتها برمجيًا باستخدام Aspose.Tasks لـ Java.
-type: docs
 weight: 23
 url: /ar/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديث وإعادة جدولة مشروع MS في Aspose.Tasks
+
 ## مقدمة
 Microsoft Project هو برنامج لإدارة المشاريع يستخدم على نطاق واسع ويسمح للمستخدمين بإدارة المهام والموارد والجداول الزمنية بكفاءة. يوفر Aspose.Tasks for Java مجموعة قوية من واجهات برمجة التطبيقات لمعالجة ملفات Microsoft Project برمجياً. في هذا البرنامج التعليمي، سنتعلم كيفية تحديث ملفات MS Project وإعادة جدولة العمل غير المكتمل باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
  ج: نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.Tasks لـ Java؟
  ج: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/tasks/java/) للحصول على أدلة شاملة ومراجع API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

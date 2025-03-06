@@ -3,10 +3,16 @@ title: Zastavte a obnovte přiřazení zdrojů v Aspose.Tasks
 linktitle: Zastavte a obnovte přiřazení zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně spravovat přiřazení zdrojů v Aspose.Tasks for Java s tímto podrobným tutoriálem.
-type: docs
 weight: 23
 url: /cs/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastavte a obnovte přiřazení zdrojů v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se naučíme, jak zastavit a obnovit přiřazení zdrojů pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonné Java API, které umožňuje vývojářům pracovat se soubory aplikace Microsoft Project, aniž by na jejich systémech potřebovali nainstalovaný Microsoft Project. Tento proces rozdělíme do zvládnutelných kroků, aby bylo snadné jej sledovat.
 ## Předpoklady
@@ -71,3 +77,9 @@ Ano, Aspose.Tasks vám umožňuje pracovat se soubory aplikace Microsoft Project
 Můžete získat podporu od komunity[tady](https://forum.aspose.com/c/tasks/15).
 ### Mohu si zakoupit dočasnou licenci?
  Ano, můžete si zakoupit dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

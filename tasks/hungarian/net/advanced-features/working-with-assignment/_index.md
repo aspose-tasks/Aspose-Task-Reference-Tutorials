@@ -3,10 +3,16 @@ title: Munka a hozzárendeléssel az Aspose.Tasks programban
 linktitle: Munka a hozzárendeléssel az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a projekt-hozzárendeléseket .NET-ben az Aspose.Tasks segítségével. Fedezze fel a különböző kontúrokat az erőforrás-ütemezéshez.
-type: docs
 weight: 13
 url: /hu/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munka a hozzárendeléssel az Aspose.Tasks programban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk feladatokkal az Aspose.Tasks for .NET-ben. A hozzárendelések kulcsfontosságúak a projektmenedzsmentben, mivel erőforrásokat rendelnek hozzá a feladatokhoz, segítik az ütemezést és a haladás nyomon követését. Az Aspose.Tasks segítségével különböző kontúrokkal rendelkező erőforrás-hozzárendelési időfázisú adatok előállítására fogunk összpontosítani.
@@ -109,3 +115,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk feladatokkal az Aspose
 ### 5. kérdés: Hol találok támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
 
 V5: Támogatást találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) ahol a szakértők és a közösség tagjai aktívan részt vesznek a vitákban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

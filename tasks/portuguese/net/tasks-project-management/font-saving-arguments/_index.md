@@ -3,10 +3,16 @@ title: Manipulação de fontes no MS Project para Aspose.Tasks
 linktitle: Argumentos para salvar fontes em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como manipular fontes em arquivos do MS Project usando Aspose.Tasks for .NET. Guia passo a passo para desenvolvedores.
-type: docs
 weight: 19
 url: /pt/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de fontes no MS Project para Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao nosso tutorial abrangente sobre como usar Aspose.Tasks for .NET para manipular fontes em documentos do MS Project. Aspose.Tasks é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project de forma programática, permitindo uma ampla gama de funcionalidades para tarefas como leitura, gravação e modificação de dados do projeto.
 Neste tutorial, vamos nos concentrar especificamente em salvar fontes em arquivos do MS Project usando Aspose.Tasks for .NET. Dividiremos o processo em etapas fáceis de seguir, garantindo que você possa integrar perfeitamente recursos de salvamento de fontes em seus aplicativos .NET.
@@ -72,3 +78,9 @@ Sim, Aspose.Tasks for .NET oferece uma ampla gama de funcionalidades para leitur
 Sim, o Aspose.Tasks for .NET pode ser usado em aplicativos desktop e web desenvolvidos usando o .NET framework.
 ### Onde posso encontrar suporte e recursos adicionais para Aspose.Tasks for .NET?
  Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para suporte, acesse a documentação no[página de documentação](https://reference.aspose.com/tasks/net/)e explore tutoriais e exemplos no site Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

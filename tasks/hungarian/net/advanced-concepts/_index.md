@@ -3,10 +3,16 @@ title: Aspose.Tasks Speciális fogalmak
 linktitle: Aspose.Tasks Speciális fogalmak
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg a képmentést, a kivételek kezelését, a fa-algoritmusokat, a címkemegjelenítéseket, a betöltési beállításokat és még sok mást. Sajátítsa el a haladó fogalmakat az Aspose.Tasks for .NET-ben
-type: docs
 weight: 24
 url: /hu/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Speciális fogalmak
+
 
 ## Bevezetés
 
@@ -84,3 +90,9 @@ Ismerje meg, hogyan használhatja a NOT műveletet az Aspose.Tasks for .NET-ben 
 Tanulja meg, hogyan dolgozhat hatékonyan OLE-objektumokkal .NET-alkalmazásokban az Aspose.Tasks segítségével, amely továbbfejleszti a projektkezelési képességeket.
 ### [OLE-objektumok gyűjteménye az Aspose.Tasks-ban](./ole-object-collection/)
 Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti az OLE objektumokat az Aspose.Tasks for .NET-ben. Könnyedén sajátítsa el a projektdokumentumokon belüli beágyazott fájlok kezelését.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

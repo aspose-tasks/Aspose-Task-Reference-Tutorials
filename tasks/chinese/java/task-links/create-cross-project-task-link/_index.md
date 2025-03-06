@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中创建跨项目任务链接
 linktitle: 在Aspose.Tasks中创建跨项目任务链接
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 增强项目协作。学习逐步创建跨项目任务链接。立即提高效率！
-type: docs
 weight: 10
 url: /zh/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中创建跨项目任务链接
+
 ## 介绍
 在动态的项目管理世界中，效率和协作至关重要。 Aspose.Tasks for Java 提供了一个强大的解决方案来增强您的项目管理能力。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 创建跨项目任务链接的过程。本分步指南将为您提供无缝链接不同项目之间的任务的技能，从而促进改进的协调和简化的工作流程。
 ## 先决条件
@@ -78,3 +84,9 @@ System.out.println("Process completed Successfully");
 是的，您可以通过使用适当的 Aspose.Tasks 方法删除任务链接来取消任务链接。
 ### 跨项目链接的任务数量是否有限制？
 可链接的任务数量取决于您的 Aspose.Tasks 许可证的功能和限制。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

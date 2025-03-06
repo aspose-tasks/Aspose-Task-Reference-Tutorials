@@ -3,10 +3,16 @@ title: Utwórz łącze do zadań międzyprojektowych w Aspose.Tasks
 linktitle: Utwórz łącze do zadań międzyprojektowych w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Usprawnij współpracę projektową dzięki Aspose.Tasks dla Java. Naucz się krok po kroku tworzyć łącza między zadaniami między projektami. Zwiększ efektywność już teraz!
-type: docs
 weight: 10
 url: /pl/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz łącze do zadań międzyprojektowych w Aspose.Tasks
+
 ## Wstęp
 dynamicznym świecie zarządzania projektami wydajność i współpraca są najważniejsze. Aspose.Tasks dla Java zapewnia solidne rozwiązanie zwiększające możliwości zarządzania projektami. W tym samouczku zagłębimy się w proces tworzenia łączy między zadaniami między projektami za pomocą Aspose.Tasks dla Java. Ten przewodnik krok po kroku wyposaży Cię w umiejętności płynnego łączenia zadań w różnych projektach, sprzyjając lepszej koordynacji i usprawnieniu przepływów pracy.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Tak, Aspose.Tasks for Java obsługuje łączenie zadań pomiędzy projektami w r
 Tak, możesz rozłączyć zadania, usuwając łącze do zadania przy użyciu odpowiednich metod Aspose.Tasks.
 ### Czy istnieją ograniczenia dotyczące liczby zadań, które można połączyć w ramach projektów?
 Liczba zadań, które można połączyć, zależy od możliwości i ograniczeń licencji Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

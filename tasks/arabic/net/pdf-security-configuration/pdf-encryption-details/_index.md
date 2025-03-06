@@ -3,10 +3,16 @@ title: قم بتكوين تفاصيل تشفير MS Project PDF في Aspose.Task
 linktitle: تكوين تفاصيل تشفير PDF في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين تفاصيل تشفير MS Project PDF في Aspose.Tasks لـ .NET. تأمين ملفات المشروع الخاص بك مع كلمات مرور المستخدم والمالك.
-type: docs
 weight: 11
 url: /ar/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتكوين تفاصيل تشفير MS Project PDF في Aspose.Tasks
+
 ## مقدمة
 في عالم تطوير .NET، تعد إدارة المهام بكفاءة أمرًا بالغ الأهمية. يعمل Aspose.Tasks for .NET على تبسيط هذه العملية من خلال توفير مجموعة شاملة من الأدوات للعمل مع ملفات Microsoft Project. أحد الجوانب الأساسية لإدارة المهام هو ضمان أمن معلومات المشروع الحساسة. في هذا البرنامج التعليمي، سنتعمق في تكوين تفاصيل تشفير MS Project PDF باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 ج: على الرغم من عدم وجود قيود محددة يفرضها Aspose.Tasks، فمن المستحسن استخدام كلمات مرور قوية لتعزيز الأمان.
 ### س: هل يمكن فك تشفير ملفات PDF المشفرة برمجياً؟
 ج: يوفر Aspose.Tasks واجهات برمجة التطبيقات للعمل مع ملفات PDF المشفرة، مما يسمح بفك التشفير باستخدام بيانات الاعتماد المناسبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

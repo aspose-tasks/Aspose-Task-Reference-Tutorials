@@ -3,10 +3,16 @@ title: Zobrazení Aspose.Tasks a konfigurace kódu WBS
 linktitle: Zobrazení Aspose.Tasks a konfigurace kódu WBS
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks pro .NET pohledy a WBS kódy. Přizpůsobte si řízení projektů pomocí našich výukových programů krok za krokem. Stáhněte si nyní pro bezproblémovou vizualizaci projektu.
-type: docs
 weight: 32
 url: /cs/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zobrazení Aspose.Tasks a konfigurace kódu WBS
+
 
 ## Úvod
 
@@ -56,3 +62,9 @@ Prozkoumejte krok za krokem konfiguraci WBS Code Masks v projektech .NET pomocí
 Vylepšete řízení projektů pomocí Aspose.Tasks pro .NET. Naučte se snadno vytvářet, spravovat a přenášet masky kódu WBS v tomto komplexním kurzu.
 ### [Definování sekvencí WBS v Aspose.Tasks](./wbs-sequences/)
 Vylepšete své projektové řízení pomocí Aspose.Tasks for .NET – plynule definujte sekvence WBS a bez námahy zvyšte efektivitu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تغيير تقدم المهمة في Aspose.Tasks
 linktitle: تغيير تقدم المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تحسين إدارة مشروعات Java باستخدام Aspose.Tasks. تعلم كيفية تعديل تقدم المهمة بسلاسة في هذا البرنامج التعليمي خطوة بخطوة. التحميل الان!
-type: docs
 weight: 12
 url: /ar/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير تقدم المهمة في Aspose.Tasks
+
 ## مقدمة
 في المجال الديناميكي لإدارة المشاريع، يعد التتبع الفعال لتقدم المهمة أمرًا محوريًا. يبرز Aspose.Tasks for Java كحل قوي، حيث يعمل على تبسيط العملية بميزاته القوية. في هذا البرنامج التعليمي، سنرشدك خلال خطوات تغيير تقدم المهمة باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
  استكشاف الوثائق الشاملة[هنا](https://reference.aspose.com/tasks/java/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

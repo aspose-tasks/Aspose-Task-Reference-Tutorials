@@ -3,10 +3,16 @@ title: Làm việc với Tích hợp VBA trong Aspose.Tasks
 linktitle: Làm việc với Tích hợp VBA trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tăng cường quản lý dự án với Aspose.Tasks cho Java - Giải phóng tích hợp VBA để có quy trình làm việc hợp lý. Khám phá ngay để theo dõi nhiệm vụ hiệu quả!
-type: docs
 weight: 10
 url: /vi/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Tích hợp VBA trong Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án và theo dõi tác vụ, việc có một công cụ mạnh mẽ tích hợp liền mạch với Visual Basic for Application (VBA) có thể là yếu tố thay đổi cuộc chơi. Aspose.Tasks for Java là một trong những công cụ mạnh mẽ cho phép bạn làm việc với tích hợp VBA một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với tích hợp VBA bằng Aspose.Tasks cho Java, khám phá các bước để đọc thông tin, tài liệu tham khảo, mô-đun và thuộc tính mô-đun của dự án VBA.
 ## Điều kiện tiên quyết
@@ -98,3 +104,9 @@ Có, Aspose.Tasks dành cho Java được thiết kế để tương thích vớ
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.Tasks cho Java không?
  Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

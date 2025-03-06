@@ -3,10 +3,16 @@ title: Ορισμός ιδιοτήτων πόρων στο Aspose.Tasks
 linktitle: Ορισμός ιδιοτήτων πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ορίζετε ιδιότητες πόρων MS Project στην Java χρησιμοποιώντας το Aspose.Tasks για απρόσκοπτη ενοποίηση και αποτελεσματική διαχείριση εργασιών.
-type: docs
 weight: 20
 url: /el/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός ιδιοτήτων πόρων στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, η αποτελεσματική διαχείριση των εργασιών είναι μια κρίσιμη πτυχή της διαχείρισης έργου. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για τους προγραμματιστές να αλληλεπιδρούν με αρχεία Microsoft Project, επιτρέποντας την απρόσκοπτη ενσωμάτωση λειτουργιών διαχείρισης εργασιών σε εφαρμογές Java. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη ρύθμιση των ιδιοτήτων πόρων του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Στο τέλος αυτού του οδηγού, θα έχετε πλήρη κατανόηση του τρόπου χειρισμού των ιδιοτήτων πόρων στα έργα σας Java.
 ## Προαπαιτούμενα
@@ -63,3 +69,9 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
 ### Πού μπορώ να αγοράσω μια έκδοση με άδεια χρήσης του Aspose.Tasks για Java;
  Μπορείτε να αγοράσετε μια έκδοση με άδεια χρήσης του Aspose.Tasks για Java από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

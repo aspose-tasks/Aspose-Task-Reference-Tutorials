@@ -3,10 +3,16 @@ title: إدارة معايير مجموعة مشروع MS باستخدام Aspos
 linktitle: إدارة مجموعة معايير المجموعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعة Group Criterion MS Project باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 28
 url: /ar/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة معايير مجموعة مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft Project برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة مجموعة معايير المجموعة داخل MS Project باستخدام Aspose.Tasks.
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### س5: كيف يمكنني الحصول على الدعم إذا واجهت أية مشكلات؟
 
  ج: إذا كانت لديك أية أسئلة أو واجهت أي مشكلات، يمكنك طلب الدعم من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

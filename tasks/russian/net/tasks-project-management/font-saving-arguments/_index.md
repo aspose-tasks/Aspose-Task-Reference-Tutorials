@@ -3,10 +3,16 @@ title: Управление шрифтами в MS Project для Aspose.Tasks
 linktitle: Аргументы сохранения шрифта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как манипулировать шрифтами в файлах MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство для разработчиков.
-type: docs
 weight: 19
 url: /ru/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление шрифтами в MS Project для Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше подробное руководство по использованию Aspose.Tasks для .NET для управления шрифтами в документах MS Project. Aspose.Tasks — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft Project, предоставляя широкий спектр функций для таких задач, как чтение, запись и изменение данных проекта.
 В этом уроке мы сосредоточимся конкретно на сохранении шрифтов в файлах MS Project с помощью Aspose.Tasks для .NET. Мы разобьем этот процесс на простые для выполнения шаги, чтобы вы могли легко интегрировать возможности сохранения шрифтов в свои .NET-приложения.
@@ -72,3 +78,9 @@ Aspose.Tasks для .NET поддерживает форматы файлов Mi
 Да, Aspose.Tasks для .NET можно использовать как в настольных, так и в веб-приложениях, разработанных с использованием .NET Framework.
 ### Где я могу найти дополнительную поддержку и ресурсы для Aspose.Tasks для .NET?
  Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для получения поддержки обратитесь к документации на[страница документации](https://reference.aspose.com/tasks/net/)и изучите руководства и примеры на веб-сайте Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

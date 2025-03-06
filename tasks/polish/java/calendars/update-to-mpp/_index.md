@@ -3,10 +3,16 @@ title: Zaktualizuj kalendarze MS Project do formatu MPP za pomocą Aspose.Tasks
 linktitle: Zaktualizuj kalendarz do formatu MPP w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak bez wysiłku zaktualizować kalendarze MS Project do formatu MPP, korzystając z Aspose.Tasks dla Java.
-type: docs
 weight: 16
 url: /pl/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaktualizuj kalendarze MS Project do formatu MPP za pomocą Aspose.Tasks
+
 ## Wstęp
 
 W zarządzaniu projektami obsługa różnych formatów plików ma kluczowe znaczenie dla płynnej współpracy i wydajnego przepływu pracy. Aspose.Tasks dla Java oferuje solidne rozwiązanie do manipulowania plikami Microsoft Project, ułatwiając zadania takie jak aktualizacja kalendarzy MS Project do formatu MPP. W tym samouczku zagłębimy się w kroki wymagane do osiągnięcia tego przy użyciu Aspose.Tasks dla Java.
@@ -116,3 +122,9 @@ Odpowiedź 2: Oczywiście, Aspose.Tasks dla Java pozwala efektywnie dostosowywa�
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Tasks dla Java?
 
  O5: Aby nabyć tymczasową licencję na Aspose.Tasks dla Java, odwiedź stronę internetową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

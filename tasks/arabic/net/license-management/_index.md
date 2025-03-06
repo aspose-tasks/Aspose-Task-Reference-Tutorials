@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة الترخيص
 linktitle: Aspose.Tasks إدارة الترخيص
 second_title: Aspose.Tasks .NET API
 description: أطلق العنان لقوة Aspose.Tasks لـ .NET من خلال برامجنا التعليمية الشاملة. إدارة التراخيص وتحسين استخدام MS Project لإدارة المشاريع بكفاءة.
-type: docs
 weight: 36
 url: /ar/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة الترخيص
+
 
 ## مقدمة
 
@@ -35,3 +41,9 @@ url: /ar/net/license-management/
 تعرف على كيفية إدارة تراخيص Aspose.Tasks في تطبيقات .NET بسلاسة باستخدام الأساليب المستندة إلى الملفات أو المستندة إلى التدفق.
 ### [قياس الاستخدام في Aspose.Tasks](./metering-usage/)
 تعرف على كيفية مراقبة استخدام MS Project وتحسينه بشكل فعال باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة لإدارة المشاريع بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 프로젝트 데이터 읽기
 linktitle: 프로젝트 데이터 읽기
 second_title: Aspose.Tasks 자바 API
 description: 튜토리얼을 통해 Java용 Aspose.Tasks의 강력한 기능을 활용해보세요! 그룹 정의 읽기부터 간트 차트 데이터 추출까지 원활한 통합을 마스터하세요.
-type: docs
 weight: 28
 url: /ko/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프로젝트 데이터 읽기
+
 ## 소개
 Java로 프로젝트 관리의 광대한 환경을 탐색하고 있다면 Aspose.Tasks 튜토리얼이 여러분의 길잡이가 될 것입니다. 단계별 가이드를 통해 프로젝트 데이터를 읽는 것이 손쉬운 여정이 되는 영역에 대해 알아보세요. 이 지식 모험을 함께 시작합시다!
 
@@ -48,3 +54,9 @@ Aspose.Tasks for Java를 사용하여 Microsoft Project Online 데이터를 쉽�
 Aspose.Tasks for Java를 사용하여 특정 간트 차트 데이터를 추출하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하기 위한 단계별 튜토리얼입니다.
 ### [Aspose.Tasks의 파일에서 테이블 데이터 읽기](./read-table-data/)
 Java용 Aspose.Tasks의 강력한 기능을 활용해 보세요. 이 포괄적인 튜토리얼을 통해 파일에서 테이블 데이터를 추출하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

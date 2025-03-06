@@ -3,11 +3,16 @@ title: Mastering MS Project Manipulation with Aspose.Tasks
 linktitle: Aspose.Tasks Tutorials
 additionalTitle: Aspose API References
 description: Unlock project management prowess! Explore Aspose.Tasks tutorials for .NET, Java, C++, and more. Elevate your skills across multiple languages effortlessly.
-type: docs
 weight: 11
 url: /
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project Manipulation with Aspose.Tasks
+
 
 Embark on a comprehensive exploration of project management capabilities across various programming languages with our Aspose.Tasks Tutorials Listing. Whether you're working with Aspose.Tasks for .NET, Java, C++, or other languages, this curated collection of tutorials is designed to empower developers at every level. From fundamental concepts to advanced techniques, each tutorial provides step-by-step guidance, enabling you to harness the full potential of Aspose.Tasks in your preferred language. Dive into our rich repository and elevate your project management skills across multiple platforms and coding environments. Let's navigate the diverse landscape of Aspose.Tasks tutorials together!
 
@@ -58,3 +63,10 @@ These are links to some useful resources:
 - [Task Links](./java/task-links/)
 - [Task Properties](./java/task-properties/)
 - [VBA Integration](./java/vba-integration/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

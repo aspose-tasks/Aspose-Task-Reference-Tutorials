@@ -1,12 +1,17 @@
 ---
 title: Tutoriels complets et exemples d'Aspose.Tasks pour Java
 linktitle: Aspose.Tasks pour les didacticiels Java
-type: docs
 weight: 10
 url: /fr/java/
 description: Explorez Aspose.Tasks pour Java avec nos didacticiels. Calendrier principal, gestion de projet et bien plus encore. Rationalisez vos flux de travail pour une exécution efficace des projets.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriels complets et exemples d'Aspose.Tasks pour Java
+
 
 ## Introduction
 Êtes-vous prêt à élever vos compétences en gestion de projet Java ? Plongez dans le monde d'Aspose.Tasks pour Java avec nos didacticiels complets couvrant divers aspects de la gestion de projet. Des exceptions de calendrier à l'intégration VBA, nous avons ce qu'il vous faut.
@@ -93,3 +98,9 @@ Explorez Aspose.Tasks Java avec nos didacticiels sur les lignes de base des tâc
 Améliorez la gestion de projets Java avec Aspose.Tasks. Explorez des didacticiels sur les propriétés des tâches, de la gestion des priorités à la gestion des coûts. Optimisez votre projet dès aujourd'hui !
 ### [Intégration VBA](./vba-integration/)
 Explorez Aspose.Tasks Java avec l'intégration VBA. Rationalisez les flux de travail des projets et améliorez le suivi des tâches. Explorez des didacticiels complets pour une intégration transparente de VBA !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

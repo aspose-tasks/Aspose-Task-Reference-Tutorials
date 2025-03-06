@@ -3,10 +3,16 @@ title: Parar e retomar atribuições de recursos em Aspose.Tasks
 linktitle: Parar e retomar atribuições de recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como gerenciar atribuições de recursos de forma eficaz em Aspose.Tasks for Java com este tutorial passo a passo.
-type: docs
 weight: 23
 url: /pt/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Parar e retomar atribuições de recursos em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, aprenderemos como interromper e retomar atribuições de recursos usando Aspose.Tasks for Java. Aspose.Tasks é uma API Java poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project sem precisar do Microsoft Project instalado em seus sistemas. Dividiremos o processo em etapas gerenciáveis para facilitar o acompanhamento.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ Sim, Aspose.Tasks permite que você trabalhe com arquivos do Microsoft Project s
 Você pode obter apoio da comunidade[aqui](https://forum.aspose.com/c/tasks/15).
 ### Posso comprar uma licença temporária?
  Sim, você pode comprar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

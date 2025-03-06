@@ -3,10 +3,16 @@ title: Gestion du budget des affectations dans Aspose.Tasks
 linktitle: Gestion du budget des affectations dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les budgets d'affectation en Java à l'aide d'Aspose.Tasks, une puissante bibliothèque pour la manipulation de fichiers Microsoft Project.
-type: docs
 weight: 11
 url: /fr/java/resource-assignments/assignment-budget/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion du budget des affectations dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java est une bibliothèque puissante qui fournit aux développeurs les outils dont ils ont besoin pour gérer et manipuler efficacement les fichiers Microsoft Project dans leurs applications Java. Que vous créiez un outil de gestion de projet, que vous automatisiez des tâches ou que vous ayez simplement besoin d'interagir avec les fichiers de projet par programmation, Aspose.Tasks simplifie le processus grâce à ses fonctionnalités complètes et son API intuitive.
 Dans ce didacticiel, nous plongerons dans le monde de la gestion du budget des missions à l'aide d'Aspose.Tasks pour Java. Nous couvrirons tout, depuis l'importation des packages nécessaires jusqu'à la décomposition de chaque exemple en guides étape par étape. À la fin, vous aurez une solide compréhension de la façon de gérer les budgets d’affectation dans vos projets Java.
@@ -76,3 +82,9 @@ R : Absolument ! Aspose.Tasks fournit une API robuste qui vous permet de manipul
  R : Oui, vous pouvez explorer les fonctionnalités d'Aspose.Tasks pour Java avec un essai gratuit disponible[ici](https://releases.aspose.com/).
 ### Q : Où puis-je acheter une licence pour Aspose.Tasks pour Java ?
  R : Vous pouvez acheter une licence pour Aspose.Tasks pour Java à partir de la page d'achat.[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

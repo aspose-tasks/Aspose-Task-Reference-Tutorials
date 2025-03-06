@@ -3,10 +3,16 @@ title: 방식
 linktitle: 방식
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java로 프로젝트 관리 기술을 향상하세요. MS 프로젝트 수식을 마스터하고, 생산성을 높이고, 수식을 효율적으로 쉽게 쓰고/읽으세요.
-type: docs
 weight: 23
 url: /ko/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 방식
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ Java를 사용하여 Aspose.Tasks 수식에서 MS Project 함수 평가를 지�
 Aspose.Tasks 라이브러리를 사용하여 Java에서 MS 프로젝트 파일을 조작하는 방법을 알아보세요. 속성을 쉽게 생성, 수정, 계산할 수 있습니다.
 ### [Aspose.Tasks에서 MS 프로젝트 수식 작성 및 읽기](./write-read-formulas/)
 Aspose.Tasks for Java를 사용하여 MS Project 수식을 효율적으로 작성하고 읽는 방법을 알아보세요. 프로젝트 관리 기술을 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

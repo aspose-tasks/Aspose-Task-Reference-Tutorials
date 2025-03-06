@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理父任务和子任务
 linktitle: 在 Aspose.Tasks 中管理父任务和子任务
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 提高项目管理效率。学习逐步管理父级和子级任务。现在就开始！
-type: docs
 weight: 24
 url: /zh/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理父任务和子任务
+
 ## 介绍
 在项目管理领域，有效的任务组织至关重要。 Aspose.Tasks for Java 提供了一个强大的解决方案来有效管理父任务和子任务。在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 来简化项目任务的过程。
 ## 先决条件
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Tasks for Java 的综合文档？
 文档可用[这里](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

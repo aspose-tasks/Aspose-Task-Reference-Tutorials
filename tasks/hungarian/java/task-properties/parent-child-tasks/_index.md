@@ -3,10 +3,16 @@ title: Szülői és gyermeki feladatok kezelése az Aspose.Tasks alkalmazásban
 linktitle: Szülői és gyermeki feladatok kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Növelje a projektmenedzsment hatékonyságát az Aspose.Tasks for Java segítségével. Ismerje meg a szülői és gyermeki feladatokat lépésről lépésre. Kezd el most!
-type: docs
 weight: 24
 url: /hu/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szülői és gyermeki feladatok kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 A projektmenedzsment területén a hatékony feladatszervezés kulcsfontosságú. Az Aspose.Tasks for Java robusztus megoldást kínál a szülői és gyermeki feladatok hatékony kezelésére. Ebben az oktatóanyagban végigvezetjük az Aspose.Tasks for Java használatán a projektfeladatok egyszerűsítéséhez.
 ## Előfeltételek
@@ -103,3 +109,9 @@ Teljesen! Az Aspose.Tasks for Java kiterjedt testreszabási lehetőségeket kín
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találom az Aspose.Tasks for Java átfogó dokumentációját?
  A dokumentáció elérhető[itt](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

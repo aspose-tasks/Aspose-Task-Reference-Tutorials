@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 進行高效率的分配成本管理
 linktitle: 在 Aspose.Tasks 中處理分配成本
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中有效處理分配成本。有效管理專案資源的逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 進行高效率的分配成本管理
+
 ## 介紹
 有效管理分配成本對於專案管理任務至關重要。 Aspose.Tasks for Java 提供了強大的功能來有效地處理分配成本。在本教程中，我們將指導您使用 Aspose.Tasks for Java 逐步完成管理分配成本的過程。
 ## 先決條件
@@ -64,3 +70,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
 答：是的，您可以從以下網站下載免費試用版：[網站](https://releases.aspose.com/).
 ### Q：試用 Aspose.Tasks for Java 是否需要臨時授權？
 答：不需要，試用時不需要臨時許可證。但是，建議用於生產環境。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

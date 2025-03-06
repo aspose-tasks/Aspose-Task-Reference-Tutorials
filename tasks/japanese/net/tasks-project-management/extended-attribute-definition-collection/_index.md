@@ -3,10 +3,16 @@ title: Aspose.Tasks のマスター拡張属性定義 MS プロジェクト
 linktitle: Aspose.Tasks の拡張属性定義のコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project で拡張属性定義を管理する方法を学習します。プロジェクト データを簡単にカスタマイズおよび強化します。
-type: docs
 weight: 14
 url: /ja/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のマスター拡張属性定義 MS プロジェクト
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project で拡張属性定義を操作する方法を説明します。拡張属性を使用すると、プロジェクト データをカスタマイズおよび拡張する柔軟な方法が提供され、ユーザーはデフォルトで提供される標準フィールド以外のフィールドを追加できます。 Aspose.Tasks を使用すると、これらの拡張属性を簡単に管理して、プロジェクト管理のニーズに合わせて調整できます。
 ## 前提条件
@@ -92,3 +98,9 @@ A: もちろん、拡張属性を使用して、定義した特定の基準に�
 A: Aspose.Tasks はさまざまな .NET フレームワークと互換性があり、柔軟性と統合の容易さを保証します。
 ### Q: Aspose.Tasks のその他のリソースとサポートはどこで入手できますか?
  A: にアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートが必要な場合やドキュメントを参照する場合[ここ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

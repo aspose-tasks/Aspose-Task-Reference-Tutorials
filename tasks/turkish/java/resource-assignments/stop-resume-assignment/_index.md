@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kaynak Atamalarını Durdurun ve Sürdürün
 linktitle: Aspose.Tasks'ta Kaynak Atamalarını Durdurun ve Sürdürün
 second_title: Aspose.Tasks Java API'si
 description: Bu adım adım eğitimle Aspose.Tasks for Java'da kaynak atamalarını etkili bir şekilde nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 23
 url: /tr/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kaynak Atamalarını Durdurun ve Sürdürün
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak kaynak atamalarını nasıl durduracağımızı ve devam ettireceğimizi öğreneceğiz. Aspose.Tasks, geliştiricilerin sistemlerinde Microsoft Project'in kurulu olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java API'sidir. Takip edilmesini kolaylaştırmak için süreci yönetilebilir adımlara ayıracağız.
 ## Önkoşullar
@@ -71,3 +77,9 @@ Evet, Aspose.Tasks, sisteminizde Microsoft Project'in kurulu olmasına gerek kal
 Toplumdan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### Geçici lisans satın alabilir miyim?
  Evet, geçici lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

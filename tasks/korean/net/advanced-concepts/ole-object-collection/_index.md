@@ -3,10 +3,16 @@ title: Aspose.Tasks의 OLE 개체 컬렉션
 linktitle: Aspose.Tasks의 OLE 개체 컬렉션
 second_title: Aspose.태스크 .NET API
 description: 이 포괄적인 튜토리얼을 통해 Aspose.Tasks for .NET에서 OLE 개체를 관리하는 방법을 알아보세요. 프로젝트 문서에 포함된 파일 처리를 손쉽게 마스터하세요.
-type: docs
 weight: 23
 url: /ko/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 OLE 개체 컬렉션
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Tasks for .NET의 OLE(Object Linking and Embedding) 개체 관리에 대해 자세히 알아봅니다. OLE 개체를 사용하면 사용자는 다른 응용 프로그램의 파일을 프로젝트 파일에 포함하거나 연결할 수 있습니다. 이러한 개체 컬렉션을 사용하여 작업하는 방법을 단계별로 살펴보겠습니다.
@@ -97,3 +103,9 @@ A3: C#에 대한 기본 지식이 권장되지만 Aspose.Tasks는 프로그래�
 ### Q5: Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Tasks 포럼에서 지원을 찾고 질문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

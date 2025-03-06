@@ -3,10 +3,16 @@ title: إدارة ملاحظات المهمة في Aspose.Tasks
 linktitle: إدارة ملاحظات المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف إدارة ملاحظات المهام في Aspose.Tasks لـ Java. دليل خطوة بخطوة لتطوير جافا بكفاءة. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 22
 url: /ar/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة ملاحظات المهمة في Aspose.Tasks
+
 ## مقدمة
 يوفر Aspose.Tasks for Java حلاً قويًا لإدارة البيانات المتعلقة بالمشروع، بما في ذلك ملاحظات المهام. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات إدارة ملاحظات المهام بكفاءة باستخدام Aspose.Tasks for Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خطوة بخطوة خلال عملية التعامل مع ملاحظات المهام بسلاسة.
 ## المتطلبات الأساسية
@@ -51,3 +57,9 @@ System.out.println("Notes RTF: " + task.get(Tsk.NOTES_RTF));
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Tasks لـ Java؟
  يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

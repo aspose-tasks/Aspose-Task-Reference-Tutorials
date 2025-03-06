@@ -3,10 +3,16 @@ title: Pengelolaan sumber daya
 linktitle: Pengelolaan sumber daya
 second_title: Aspose.Tugas Java API
 description: Kuasai manajemen sumber daya di MS Project dengan Aspose.Tasks untuk Java. Pelajari cara membuat, mengulangi, mengelola biaya, dan banyak lagi. Optimalkan pengembangan dengan tutorial kami.
-type: docs
 weight: 31
 url: /id/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengelolaan sumber daya
+
 ## Perkenalan
 
 Dalam bidang pengembangan Proyek MS menggunakan Java, Aspose.Tasks menonjol sebagai perpustakaan yang tangguh, menawarkan serangkaian fungsi komprehensif untuk pengelolaan sumber daya yang efektif. Rangkaian tutorial ini akan memandu Anda melalui berbagai aspek, memastikan Anda menjadi mahir dalam menangani sumber daya Microsoft Project dengan lancar.
@@ -63,3 +69,9 @@ Pelajari cara mengelola biaya sumber daya MS Project secara efisien dengan Aspos
 Pelajari cara mengatur properti sumber daya MS Project di Java menggunakan Aspose.Tasks untuk integrasi yang lancar dan manajemen tugas yang efisien.
 ### [Tulis Data Sumber Daya yang Diperbarui di Aspose.Tasks](./write-updated-resource-data/)
 Pelajari cara memperbarui data sumber daya dengan mudah di file MS Project menggunakan Aspose.Tasks untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

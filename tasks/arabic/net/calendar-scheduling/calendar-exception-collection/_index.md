@@ -3,10 +3,16 @@ title: مجموعة من استثناءات التقويم في Aspose.Tasks
 linktitle: مجموعة من استثناءات التقويم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل بكفاءة مع استثناءات التقويم في مشاريع .NET الخاصة بك باستخدام Aspose.Tasks، مما يضمن جدولة دقيقة وإدارة الموارد.
-type: docs
 weight: 13
 url: /ar/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة من استثناءات التقويم في Aspose.Tasks
+
 ## مقدمة
 
 في إدارة المشاريع، تعد الجدولة الدقيقة أمرًا حيويًا لتحقيق النجاح. ومع ذلك، غالبًا ما تتطلب سيناريوهات العالم الحقيقي انحرافات عن الجداول القياسية بسبب العطلات أو المناسبات الخاصة أو عوامل أخرى. يوفر Aspose.Tasks for .NET حلاً قويًا لإدارة مثل هذه الاستثناءات من خلال ميزة مجموعة استثناءات التقويم الخاصة به. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام هذه الوظيفة خطوة بخطوة.
@@ -143,3 +149,9 @@ foreach (var calendarException in exceptions)
 ### س5: هل يمكنني تخصيص أوقات العمل لكل يوم ضمن استثناء؟
 
 ج5: نعم، يمكنك تحديد أوقات عمل مخصصة للأيام الفردية ضمن استثناء لتلبية احتياجات الجدولة المحددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

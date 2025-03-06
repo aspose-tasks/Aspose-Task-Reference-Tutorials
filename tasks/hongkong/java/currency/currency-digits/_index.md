@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 處理貨幣數字
 linktitle: 使用 Aspose.Tasks 處理貨幣數字
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效處理貨幣 MS Project 數字。帶有程式碼範例的分步指南。
-type: docs
 weight: 11
 url: /zh-hant/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 處理貨幣數字
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Tasks for Java 處理貨幣 MS Project 數字的綜合教學。在本教程中，我們將逐步引導您完成整個過程，確保您徹底掌握每個概念。
 ## 先決條件
@@ -56,3 +62,9 @@ System.out.println(project.get(Prj.CURRENCY_DIGITS));
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡獲得 Aspose.Tasks 的支援？
 您可以在以下位置找到支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

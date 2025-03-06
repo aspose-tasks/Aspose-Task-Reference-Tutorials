@@ -3,10 +3,16 @@ title: Az Aspose.Tasks feladatlista és lábléc közötti különbség csökken
 linktitle: Az Aspose.Tasks feladatlista és lábléc közötti különbség csökkentése
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan csökkentheti az MS Project feladatlisták és láblécek közötti különbséget az Aspose.Tasks for Java segítségével. Könnyedén optimalizálhatja a projektdokumentum elrendezését.
-type: docs
 weight: 10
 url: /hu/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks feladatlista és lábléc közötti különbség csökkentése
+
 ## Bevezetés
 Ebben az oktatóanyagban a feladatlista és a lábléc közötti különbség csökkentésével foglalkozunk a Microsoft Project-fájlokban az Aspose.Tasks for Java használatával. Ezen lépések követésével könnyedén optimalizálhatja projektdokumentumai elrendezését.
 ## Előfeltételek
@@ -105,3 +111,9 @@ V: Igen, az Aspose.Tasks a formátumok széles skáláját támogatja, többek k
 ### K: Hol kaphatok támogatást, ha problémákat tapasztalok az Aspose.Tasks használata során?
 
  V: Segítséget kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

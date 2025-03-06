@@ -3,10 +3,16 @@ title: Aspose.Tasks の MS プロジェクト アウトライン コード処理
 linktitle: Aspose.Tasks でのアウトライン コード定義の処理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project のアウトライン コード定義を処理し、プロジェクト管理アプリケーションを強化する方法を学びます。
-type: docs
 weight: 12
 url: /ja/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の MS プロジェクト アウトライン コード処理定義
+
 ## 導入
 Microsoft Project はプロジェクトを管理するための強力なツールであり、Aspose.Tasks for .NET はプロジェクト ファイルをプログラムで操作するための包括的なサポートを提供します。プロジェクト管理の重要な側面の 1 つは、アウトライン コードを使用してタスクを整理することです。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project のアウトライン コード定義を処理する方法を検討します。
 ## 前提条件
@@ -91,3 +97,9 @@ A: はい、Aspose.Tasks for .NET は、割り当ての追加、更新、削除�
 A: もちろん、Aspose.Tasks for .NET は、MS Project ファイルからのカスタム フィールド (アウトライン コードを含む) の読み取りと書き込みをサポートしています。
 ### Q5: Aspose.Tasks for .NET のコミュニティ フォーラムはありますか?
  A: はい、Aspose.Tasks for .NET のコミュニティ フォーラムに参加できます。[ここ](https://forum.aspose.com/c/tasks/15)質問したり、知識を共有したり、他の開発者と協力したりできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 복사 옵션
 linktitle: Aspose.Tasks의 복사 옵션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 데이터를 효율적으로 복사하는 방법을 알아보세요. 강력한 프로젝트 관리 기능으로 .NET 애플리케이션을 강화하세요.
-type: docs
 weight: 18
 url: /ko/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 복사 옵션
+
 ## 소개
 
 .NET 개발 세계에서는 작업을 효율적으로 관리하는 것이 프로젝트 성공에 매우 중요합니다. Aspose.Tasks for .NET은 개발자가 프로젝트 관리 작업을 원활하게 처리할 수 있는 포괄적인 솔루션을 제공합니다. 한 가지 필수 기능은 특정 요구에 맞는 다양한 옵션으로 프로젝트 데이터를 복사하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks의 복사 옵션을 살펴보고 각 예제를 여러 단계로 나누어 프로세스를 안내합니다.
@@ -98,3 +104,9 @@ A4: .NET용 Aspose.Tasks는 API를 통해 광범위한 사용자 정의 옵션�
 ### Q5: .NET용 Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원, 문서, 튜토리얼 및 커뮤니티 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

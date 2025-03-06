@@ -3,10 +3,16 @@ title: Odhalení polí zobrazení využití úkolů v Aspose.Tasks
 linktitle: Kolekce polí zobrazení využití úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte Aspose.Tasks for .NET, abyste mohli bez námahy spravovat a vizualizovat data projektu. Ponořte se do polí zobrazení využití úkolů pro lepší přehled o projektu.
-type: docs
 weight: 25
 url: /cs/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odhalení polí zobrazení využití úkolů v Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení představuje Aspose.Tasks for .NET robustní řešení, které poskytuje vývojářům výkonnou sadu nástrojů pro manipulaci a správu projektových dat. Jednou z pozoruhodných funkcí je zobrazení využití úkolů, které nabízí pohledy do různých oblastí, které zvyšují viditelnost projektu. V tomto tutoriálu se ponoříme do spletitosti polí zobrazení využití úkolů pomocí Aspose.Tasks pro .NET a rozebereme každý krok pro komplexní pochopení.
 ## Předpoklady
@@ -64,3 +70,9 @@ Aspose.Tasks se primárně zaměřuje na aplikace .NET. Data však můžete expo
  Ano, můžete získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
 ### Jaké formáty souborů jsou podporovány pro projektové dokumenty?
 Aspose.Tasks for .NET podporuje různé formáty, včetně MPP, XML a CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

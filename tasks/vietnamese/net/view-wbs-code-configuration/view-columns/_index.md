@@ -3,10 +3,16 @@ title: Làm chủ các cột xem dự án MS với Aspose.Tasks cho .NET
 linktitle: Xử lý các cột xem trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nâng cao khả năng trực quan hóa dự án với Aspose.Tasks cho .NET. Tìm hiểu cách xử lý các cột dạng xem MS Project theo từng bước. Tăng cường hiệu quả và tùy biến.
-type: docs
 weight: 12
 url: /vi/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các cột xem dự án MS với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, Aspose.Tasks for .NET nổi bật như một bộ công cụ mạnh mẽ để xử lý các tệp Microsoft Project. Một trong những khía cạnh thiết yếu của trực quan hóa dự án là quản lý các cột dạng xem một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các cột của chế độ xem MS Project bằng Aspose.Tasks, cho phép bạn tùy chỉnh và tối ưu hóa các chế độ xem dự án của mình.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Trả lời: Aspose.Tasks chủ yếu tập trung vào các tệp Microsoft Proj
  Đáp: Cái`MyTextStyleCallback` lớp trình bày cách tùy chỉnh kiểu văn bản để cải thiện cách trình bày trực quan trong các chế độ xem cụ thể.
 ### Câu hỏi: Tôi có thể tìm tài nguyên và tài liệu bổ sung cho Aspose.Tasks ở đâu?
  Đáp: Hãy tham khảo[Tài liệu Aspose.Tasks](https://reference.aspose.com/tasks/net/) để được hướng dẫn chuyên sâu và có nguồn tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

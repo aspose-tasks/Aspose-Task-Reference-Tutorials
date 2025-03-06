@@ -3,10 +3,16 @@ title: Định nghĩa thuộc tính mở rộng chính của MS Project trong As
 linktitle: Bộ sưu tập các định nghĩa thuộc tính mở rộng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các định nghĩa thuộc tính mở rộng trong Microsoft Project bằng Aspose.Tasks for .NET. Tùy chỉnh và nâng cao dữ liệu dự án của bạn một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định nghĩa thuộc tính mở rộng chính của MS Project trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các định nghĩa thuộc tính mở rộng trong Microsoft Project bằng Aspose.Tasks for .NET. Các thuộc tính mở rộng cung cấp một cách linh hoạt để tùy chỉnh và nâng cao dữ liệu dự án, cho phép người dùng thêm các trường bổ sung ngoài các trường tiêu chuẩn được cung cấp theo mặc định. Với Aspose.Tasks, bạn có thể dễ dàng quản lý các thuộc tính mở rộng này để điều chỉnh nhu cầu quản lý dự án của mình.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Trả lời: Có, các thuộc tính mở rộng được hỗ trợ trong hầu
 Trả lời: Aspose.Tasks tương thích với nhiều khung .NET khác nhau, đảm bảo tính linh hoạt và dễ tích hợp.
 ### Câu hỏi: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và khám phá tài liệu[đây](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

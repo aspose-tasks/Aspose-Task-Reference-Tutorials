@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Proje Görünümlerini Özelleştirme
 linktitle: Aspose.Tasks'ta Proje Görünümlerini Özelleştirme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project görünümlerini nasıl özelleştireceğinizi öğrenin. Verimli proje yönetimi görselleştirmesi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 24
 url: /tr/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Proje Görünümlerini Özelleştirme
+
 ## giriiş
 Microsoft Project, kullanıcıların görevleri organize etmesine, kaynakları yönetmesine ve ilerlemeyi etkili bir şekilde izlemesine olanak tanıyan güçlü bir proje yönetimi aracıdır. Aspose.Tasks for .NET, Microsoft Project dosyalarıyla programlı olarak çalışmanın kolay bir yolunu sunarak geliştiricilerin proje görünümlerini kendi özel ihtiyaçlarına göre özelleştirmelerine olanak tanır. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project görünümlerini nasıl özelleştirebileceğimizi keşfedeceğiz.
 ## Önkoşullar
@@ -60,3 +66,9 @@ Aspose.Tasks for .NET'i .NET uygulamanıza dahil ederek ve proje verilerini ve g
  Evet, Aspose.Tasks for .NET, kapsamlı dokümantasyon ve destek sağlar.[forum](https://forum.aspose.com/c/tasks/15) Ve[dokümantasyon portalı](https://reference.aspose.com/tasks/net/).
 ### 5. Satın almadan önce Aspose.Tasks for .NET'i deneyebilir miyim?
  Evet, yararlanabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Tasks for .NET'in satın alma kararı vermeden önce özelliklerini ve yeteneklerini değerlendirmesi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

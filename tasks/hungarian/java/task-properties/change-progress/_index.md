@@ -3,10 +3,16 @@ title: Módosítsa a feladat előrehaladását az Aspose.Tasks-ban
 linktitle: Módosítsa a feladat előrehaladását az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Javítsa a Java projektkezelést az Aspose.Tasks segítségével. Ebben a lépésenkénti oktatóanyagban tanulja meg a feladatok előrehaladásának zökkenőmentes módosítását. Letöltés most!
-type: docs
 weight: 12
 url: /hu/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa a feladat előrehaladását az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsment dinamikus birodalmában a hatékony feladathaladás nyomon követése kulcsfontosságú. Az Aspose.Tasks for Java robusztus megoldásként tűnik ki, hatékony funkcióival leegyszerűsíti a folyamatot. Ebben az oktatóanyagban végigvezetjük az Aspose.Tasks for Java használatával egy feladat előrehaladásának megváltoztatásának lépésein.
 ## Előfeltételek
@@ -63,3 +69,9 @@ Ismételje meg a lépéseket minden megfigyelni kívánt feladathoz.
  Tekintse meg az átfogó dokumentációt[itt](https://reference.aspose.com/tasks/java/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for Java számára?
  Meglátogatni a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

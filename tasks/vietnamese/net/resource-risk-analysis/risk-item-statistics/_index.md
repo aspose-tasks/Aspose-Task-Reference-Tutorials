@@ -3,10 +3,16 @@ title: Thống kê các mục rủi ro trong Aspose.Tasks
 linktitle: Thống kê các mục rủi ro trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khai phá sức mạnh của phân tích rủi ro trong tệp MS Project bằng Aspose.Tasks for .NET. Thu thập thông tin chi tiết, giảm thiểu sự không chắc chắn và thúc đẩy thành công của dự án một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thống kê các mục rủi ro trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao năng lực quản lý dự án của mình bằng Aspose.Tasks cho .NET? Đi sâu vào lĩnh vực phân tích rủi ro với hướng dẫn từng bước của chúng tôi về cách thu thập số liệu thống kê về các mục rủi ro trong tệp MS Project. Bằng cách tận dụng các khả năng mạnh mẽ của Aspose.Tasks, bạn có thể có được những hiểu biết sâu sắc vô giá về những điều không chắc chắn của dự án và đưa ra quyết định sáng suốt để giảm thiểu rủi ro một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Chúng tôi cố gắng liên tục cải tiến Aspose.Tasks bằng cách phát
 Chắc chắn! Nhóm hỗ trợ tận tâm của chúng tôi luôn sẵn sàng trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ bạn với bất kỳ thắc mắc hoặc thách thức nào bạn có thể gặp phải trong quá trình triển khai.
 ### Bạn có cung cấp giấy phép tạm thời cho các dự án ngắn hạn không?
  Có, nếu bạn yêu cầu Aspose.Tasks cho một dự án ngắn hạn, bạn có thể tận dụng dịch vụ tiện lợi của chúng tôi[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) tùy chọn để đáp ứng nhu cầu cấp phép của bạn mà không cần bất kỳ cam kết dài hạn nào.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

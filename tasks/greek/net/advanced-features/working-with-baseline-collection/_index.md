@@ -3,10 +3,16 @@ title: Εργασία με Baseline Collection στο Aspose.Tasks
 linktitle: Εργασία με Baseline Collection στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις γραμμές βάσης στο Aspose.Tasks για .NET. Ακολουθήστε το περιεκτικό μας σεμινάριο για καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 20
 url: /el/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με Baseline Collection στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Το Aspose.Tasks για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project στις εφαρμογές τους .NET απρόσκοπτα. Μεταξύ των πολλών χαρακτηριστικών του, παρέχει ισχυρή υποστήριξη για τη διαχείριση των βασικών γραμμών εντός έργων. Οι γραμμές βάσης είναι απαραίτητες για τη διαχείριση του έργου, καθώς σας επιτρέπουν να συγκρίνετε το αρχικό σχέδιο έργου με την τρέχουσα κατάσταση, επιτρέποντας καλύτερη παρακολούθηση και ανάλυση της προόδου του έργου.
@@ -116,3 +122,9 @@ A4: Ναι, το Aspose.Tasks παρέχει υποστήριξη για ενο�
 ### Ε5: Υπάρχει ένα φόρουμ κοινότητας για τους χρήστες του Aspose.Tasks να αναζητούν βοήθεια και να μοιράζονται γνώσεις;
 
  A5: Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) να συνεργαστείτε με την κοινότητα και να λάβετε βοήθεια από ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cấu hình văn bản và chế độ xem Aspose.Tasks
 linktitle: Cấu hình văn bản và chế độ xem Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks for .NET Hướng dẫn về cấu hình văn bản và chế độ xem. Làm chủ các kiểu văn bản, nén Tiff, chế độ xem dòng thời gian và hơn thế nữa để nâng cao khả năng quản lý dự án.
-type: docs
 weight: 30
 url: /vi/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình văn bản và chế độ xem Aspose.Tasks
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về Hướng dẫn Aspose.Tasks dành cho .NET, tập trung vào cấu hình văn bản và chế độ xem. Trong bài viết này, chúng ta sẽ đi sâu vào các khía cạnh khác nhau của quản lý dự án, cung cấp thông tin chi tiết từng bước để nắm vững các chức năng của Aspose.Tasks.
@@ -53,3 +59,9 @@ Khám phá việc thu thập dữ liệu theo pha thời gian trong Aspose.Tasks
 Khám phá Aspose.Tasks for .NET để định cấu hình các bậc thời gian trong chế độ xem Biểu đồ Gantt của bạn để trực quan hóa dòng thời gian dự án chính xác.
 ### [Định cấu hình Chế độ xem sử dụng trong Aspose.Tasks](./usage-views/)
 Tìm hiểu cách định cấu hình chế độ xem sử dụng tác vụ trong Aspose.Tasks cho .NET. Tăng cường trực quan hóa dự án với các bước chi tiết. Tải thư viện ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Κατακτήστε τις στήλες MS Project View με το Aspose
 linktitle: Χειρισμός στηλών προβολής στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Βελτιώστε την οπτικοποίηση έργου με το Aspose.Tasks για .NET. Μάθετε να χειρίζεστε τις στήλες προβολής MS Project βήμα προς βήμα. Ενισχύστε την αποτελεσματικότητα και την προσαρμογή.
-type: docs
 weight: 12
 url: /el/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατακτήστε τις στήλες MS Project View με το Aspose.Tasks για .NET
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων, το Aspose.Tasks για .NET ξεχωρίζει ως ένα ισχυρό κιτ εργαλείων για το χειρισμό αρχείων Microsoft Project. Μία από τις βασικές πτυχές της οπτικοποίησης του έργου είναι η αποτελεσματική διαχείριση των στηλών προβολής. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χειρίζεστε στήλες προβολής MS Project χρησιμοποιώντας το Aspose.Tasks, δίνοντάς σας τη δυνατότητα να προσαρμόσετε και να βελτιστοποιήσετε τις προβολές του έργου σας.
 ## Προαπαιτούμενα
@@ -80,3 +86,9 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
  Α: Το`MyTextStyleCallback` Η τάξη δείχνει πώς να προσαρμόσετε τα στυλ κειμένου για βελτιωμένη οπτική αναπαράσταση σε συγκεκριμένες προβολές.
 ### Ε: Πού μπορώ να βρω πρόσθετους πόρους και τεκμηρίωση για το Aspose.Tasks;
  Α: Ανατρέξτε στο[Τεκμηρίωση Aspose.Tasks](https://reference.aspose.com/tasks/net/) για εις βάθος καθοδήγηση και πόρους.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

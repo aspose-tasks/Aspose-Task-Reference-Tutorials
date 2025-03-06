@@ -3,10 +3,16 @@ title: การกำหนดค่าเวลาทำงานใน Aspose
 linktitle: การกำหนดค่าเวลาทำงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ปรับปรุงการกำหนดเวลาโครงการใน .NET ด้วย Aspose.Tasks กำหนดเวลาทำงานได้อย่างง่ายดายเพื่อการจัดการทรัพยากรที่แม่นยำ ดาวน์โหลดห้องสมุดทันที!
-type: docs
 weight: 13
 url: /th/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่าเวลาทำงานใน Aspose.Tasks
+
 ## การแนะนำ
 ในการจัดการโครงการ การควบคุมเวลาทำงานที่แม่นยำเป็นสิ่งสำคัญอย่างยิ่งต่อการจัดกำหนดการและการจัดสรรทรัพยากรที่แม่นยำ Aspose.Tasks for .NET มอบโซลูชันอันทรงพลังสำหรับการจัดการข้อมูลเวลาทำงานภายในโครงการของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการกำหนดเวลาการทำงานโดยใช้ Aspose.Tasks ในสภาพแวดล้อม .NET
 ## ข้อกำหนดเบื้องต้น
@@ -84,3 +90,9 @@ foreach (var day in weekDays)
 Aspose.Tasks รองรับไฟล์ได้หลายรูปแบบ ช่วยให้ดำเนินการนำเข้า/ส่งออกข้อมูลโครงการได้อย่างราบรื่น
 ### มีการเผยแพร่การอัปเดต Aspose.Tasks บ่อยเพียงใด
 มีการเผยแพร่การอัปเดตเป็นประจำเพื่อให้มั่นใจว่าสามารถใช้งานร่วมกับเทคโนโลยีล่าสุดและตอบสนองต่อความคิดเห็นของผู้ใช้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

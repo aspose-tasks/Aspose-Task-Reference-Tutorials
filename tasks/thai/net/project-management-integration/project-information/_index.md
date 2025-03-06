@@ -3,10 +3,16 @@ title: แยกข้อมูลโครงการ MS ใน Aspose.Tasks
 linktitle: การแยกข้อมูลโครงการใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีดึงข้อมูล MS Project ได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ .NET เจาะลึกบทช่วยสอนที่ครอบคลุมของเรา
-type: docs
 weight: 20
 url: /th/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อมูลโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 คุณกำลังมองหาวิธีดึงข้อมูลจากไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET อยู่ใช่ไหม? ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน แต่ก่อนที่เราจะเจาะลึกรายละเอียดการใช้งาน ก่อนอื่นมาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ foreach (var info in list)
  ตอบ: ได้ คุณสามารถรับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Tasks สำหรับ .NET ผ่านทาง[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)โดยคุณสามารถถามคำถามและขอความช่วยเหลือจากผู้เชี่ยวชาญได้
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Tasks สำหรับ .NET ก่อนที่จะซื้อได้หรือไม่
  ตอบ: แน่นอน! คุณสามารถทดลองใช้ Aspose.Tasks สำหรับ .NET ได้ฟรีจาก[หน้าเผยแพร่](https://releases.aspose.com/)ให้คุณสำรวจฟีเจอร์ต่างๆ ก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

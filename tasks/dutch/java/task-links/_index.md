@@ -3,10 +3,16 @@ title: Taakkoppelingen
 linktitle: Taakkoppelingen
 second_title: Aspose.Tasks Java-API
 description: Ontdek Aspose.Tasks voor Java met onze tutorials. Verbeter de samenwerking, definieer koppelingstypen en beheer taken naadloos. Verhoog nu uw projectefficiëntie!
-type: docs
 weight: 33
 url: /nl/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakkoppelingen
+
 ## Invoering
 
 Als u zich verdiept in de wereld van Java-projectbeheer, is Aspose.Tasks uw favoriete tool. Onze uitgebreide tutorials stellen u in staat verschillende aspecten onder de knie te krijgen, waardoor een optimaal gebruik van de Aspose.Tasks voor Java-bibliotheek wordt gegarandeerd.
@@ -38,3 +44,9 @@ Ontdek de kracht van Aspose.Tasks voor Java in projectmanagement. Definieer en p
 Ontdek taakidentificatie voor meerdere projecten met Aspose.Tasks voor Java. Naadloze integratie en efficiënt beheer. Download nu!
 ### [Beheer voorganger- en opvolgertaken in Aspose.Tasks](./predecessor-successor-tasks/)
 Ontdek efficiënt taakbeheer met Aspose.Tasks voor Java. Voer eenvoudig voorganger- en opvolgertaken in uw projecten uit. Download nu uw gratis proefversie!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

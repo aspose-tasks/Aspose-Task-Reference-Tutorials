@@ -3,10 +3,16 @@ title: Aspose.कार्य बचत विकल्प
 linktitle: Aspose.कार्य बचत विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइलों को सहेजें, कनवर्ट करें और प्रबंधित करें। HTML, इमेज, PDF, प्राइमेरा, टेम्प्लेट और बहुत कुछ के लिए चरण-दर-चरण ट्यूटोरियल देखें।
-type: docs
 weight: 20
 url: /hi/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.कार्य बचत विकल्प
+
 
 ## परिचय
 
@@ -53,3 +59,9 @@ url: /hi/net/saving-options/
 उन्नत प्रोजेक्ट विज़ुअलाइज़ेशन के लिए आसानी से Microsoft प्रोजेक्ट फ़ाइलों के SVG प्रतिनिधित्व उत्पन्न करने के लिए .NET के लिए Aspose.Tasks का उपयोग करना सीखें।
 ### [Aspose.Tasks के साथ एमएसपी को एक्सपीएस विकल्पों में बदलें](./xps-options/)
 .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों को XPS प्रारूप में परिवर्तित करना सीखें। आसान एकीकरण, मजबूत कार्यक्षमता।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

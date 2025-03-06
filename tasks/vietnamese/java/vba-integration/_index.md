@@ -3,10 +3,16 @@ title: Tích hợp VBA
 linktitle: Tích hợp VBA
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks Java có tích hợp VBA. Hợp lý hóa quy trình làm việc của dự án và cải thiện việc theo dõi nhiệm vụ. Khám phá các hướng dẫn toàn diện để tích hợp VBA liền mạch!
-type: docs
 weight: 35
 url: /vi/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp VBA
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Tóm lại, tích hợp VBA trong Aspose.Tasks cho Java là một công cụ tha
 ## Hướng dẫn tích hợp VBA
 ### [Làm việc với Tích hợp VBA trong Aspose.Tasks](./work-with-vba/)
 Tăng cường quản lý dự án với Aspose.Tasks cho Java - Giải phóng tích hợp VBA để có quy trình làm việc hợp lý. Khám phá ngay để theo dõi nhiệm vụ hiệu quả!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

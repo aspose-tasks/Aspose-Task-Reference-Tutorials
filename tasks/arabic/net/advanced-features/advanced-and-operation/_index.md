@@ -3,10 +3,16 @@ title: المتقدمة والتشغيل في Aspose.Tasks
 linktitle: المتقدمة والتشغيل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تنفيذ عمليات AND المتقدمة في Aspose.Tasks لـ .NET لتصفية مهام المشروع بكفاءة بناءً على معايير متعددة.
-type: docs
 weight: 10
 url: /ar/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# المتقدمة والتشغيل في Aspose.Tasks
+
 ## مقدمة
 
  في هذا البرنامج التعليمي، سوف نتعمق في عملية AND المتقدمة في Aspose.Tasks for .NET، وهي أداة قوية لإدارة المهام والمشاريع. سوف نستكشف كيفية تصفية مهام المشروع بناءً على شروط متعددة باستخدام`Util.And` فصل.
@@ -107,3 +113,9 @@ foreach (var task in collection)
 ### س5: كيف يمكنني الحصول على دعم Aspose.Tasks لـ .NET؟
 
 ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

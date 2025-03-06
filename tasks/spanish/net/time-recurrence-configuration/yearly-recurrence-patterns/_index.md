@@ -3,10 +3,16 @@ title: Domine los patrones de recurrencia anual en Aspose.Tasks para .NET
 linktitle: Configuración de patrones de recurrencia anual en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar patrones de recurrencia anual en Aspose.Tasks para .NET. Mejore sus habilidades de gestión de proyectos con esta guía paso a paso.
-type: docs
 weight: 18
 url: /es/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domine los patrones de recurrencia anual en Aspose.Tasks para .NET
+
 ## Introducción
 En el dinámico mundo de la gestión de proyectos, manejar tareas recurrentes de manera eficiente es un aspecto clave. Aspose.Tasks para .NET proporciona una potente solución para configurar patrones de recurrencia anual, lo que le permite optimizar la programación y gestión de sus proyectos. En esta guía paso a paso, exploraremos cómo configurar patrones de recurrencia anual usando Aspose.Tasks.
 ## Requisitos previos
@@ -69,3 +75,9 @@ En este tutorial, exploramos el proceso de configuración de patrones de recurre
  Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para el apoyo y asistencia de la comunidad.
 ### ¿Puedo probar Aspose.Tasks gratis antes de comprarlo?
  Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

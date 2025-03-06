@@ -3,10 +3,16 @@ title: Hitung Jalur Proyek MS Kritis di Aspose.Tasks
 linktitle: Hitung Jalur Kritis di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menghitung jalur kritis di MS Project menggunakan Aspose.Tasks untuk Java. Ini memberikan panduan langkah demi langkah untuk manajemen proyek yang efisien.
-type: docs
 weight: 10
 url: /id/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hitung Jalur Proyek MS Kritis di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses penghitungan jalur kritis di MS Project menggunakan Aspose.Tasks untuk Java. Jalur kritis sangat penting bagi manajemen proyek karena membantu mengidentifikasi urutan tugas yang harus diselesaikan tepat waktu untuk memastikan jadwal keseluruhan proyek tidak tertunda.
 ## Prasyarat
@@ -72,3 +78,9 @@ J: Ya, Aspose.Tasks for Java mendukung berbagai versi file MS Project, termasuk 
  J: Ya, Anda dapat membeli lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Bagaimana cara membeli Aspose.Tasks untuk Java?
  J: Anda dapat membeli Aspose.Tasks untuk Java dari situs web[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

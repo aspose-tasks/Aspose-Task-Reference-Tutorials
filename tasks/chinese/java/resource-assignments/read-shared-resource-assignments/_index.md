@@ -3,10 +3,16 @@ title: 读取 Aspose.Tasks 中的共享资源分配
 linktitle: 读取 Aspose.Tasks 中的共享资源分配
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中读取共享资源分配。通过分步教程提高项目管理效率。
-type: docs
 weight: 19
 url: /zh/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 读取 Aspose.Tasks 中的共享资源分配
+
 ## 介绍
 在项目管理中，有效的资源分配对于项目的成功完成至关重要。 Aspose.Tasks for Java 提供了强大的工具来有效地管理资源。一项基本任务是阅读共享资源分配，它使您能够了解如何在多个项目之间分配资源。
 ## 先决条件
@@ -58,3 +64,9 @@ Double units = resource.get(Rsc.PEAK_UNITS);
 Aspose.Tasks for Java 可以处理不同规模的项目，从小型项目到大型项目。
 ### 为 Java 用户提供 Aspose.Tasks 技术支持吗？
 是的，您可以从 Aspose.Tasks 论坛获得技术支持[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

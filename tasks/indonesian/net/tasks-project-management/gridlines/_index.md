@@ -3,10 +3,16 @@ title: Sesuaikan Garis Kisi di Proyek MS untuk Aspose.Tasks
 linktitle: Garis Kisi di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi garis kisi di MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan visualisasi dan manajemen proyek Anda dengan langkah-langkah yang mudah diikuti.
-type: docs
 weight: 23
 url: /id/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Garis Kisi di Proyek MS untuk Aspose.Tasks
+
 ## Perkenalan
 
 Dalam manajemen proyek, representasi visual memainkan peran penting dalam memahami jadwal proyek, ketergantungan, dan kemajuan. Aspose.Tasks untuk .NET menyediakan alat canggih untuk memanipulasi file proyek secara terprogram. Salah satu fitur tersebut adalah kemampuan untuk menyesuaikan garis kisi di MS Project menggunakan Aspose.Tasks.
@@ -113,3 +119,9 @@ J: Ya, Aspose.Tasks untuk .NET menawarkan dokumentasi dan dukungan ekstensif unt
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
  A: Ya, Anda dapat mengunduh versi uji coba gratis[Aspose.Tugas untuk .NET dari](https://forum.aspose.com/c/tasks/15). untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

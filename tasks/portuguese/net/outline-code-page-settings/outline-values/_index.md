@@ -3,10 +3,16 @@ title: Dominando os valores do MS Project Outline com Aspose.Tasks
 linktitle: Gerenciando valores de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar valores de contorno do MS Project com eficiência usando Aspose.Tasks for .NET. Personalize os contornos do projeto com facilidade.
-type: docs
 weight: 16
 url: /pt/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando os valores do MS Project Outline com Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como gerenciar valores de estrutura de tópicos do Microsoft Project usando a biblioteca Aspose.Tasks para .NET. Com Aspose.Tasks, você pode manipular facilmente códigos de estrutura de tópicos, criar novos valores de estrutura de tópicos e personalizar contornos de projetos de acordo com seus requisitos.
 ## Pré-requisitos
@@ -76,3 +82,9 @@ R: Sim, Aspose.Tasks é compatível com vários frameworks .NET, garantindo flex
 R: Sim, você pode adquirir uma licença temporária para Aspose.Tasks em[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso encontrar documentação detalhada para Aspose.Tasks?
  R: Você pode consultar a documentação abrangente disponível[aqui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

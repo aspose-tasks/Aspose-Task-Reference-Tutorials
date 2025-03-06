@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Ay Günlerine Göre Tekrarlama
 linktitle: Aspose.Tasks'ta Ay Günlerine Göre Tekrarlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks ile .NET projelerinde yinelenen görevleri nasıl yöneteceğinizi öğrenin. Ayın gününe göre tekrarlamayı ele almak için adım adım kılavuz.
-type: docs
 weight: 25
 url: /tr/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Ay Günlerine Göre Tekrarlama
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.Tasks, proje görevlerini ve programlarını yönetmek için güçlü bir araç olarak duruyor. Tekrarlanan görevlerin yerine getirilmesi de dahil olmak üzere proje yönetimi iş akışlarını kolaylaştırmak için çok sayıda işlevsellik sunar. Ayın gününe göre tekrarlama, proje planlamasında yaygın bir gerekliliktir ve Aspose.Tasks bu senaryo için güçlü bir destek sağlar.
@@ -105,3 +111,9 @@ Cevap3: Aspose.Tasks kesinlikle proje yönetimi için görev takibi, kaynak tahs
 ### S5: Sorunlarla karşılaşırsam veya sorularım olursa nereden yardım isteyebilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan veya Aspose ekibinden destek istemek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 라이선스 관리
 linktitle: Aspose.Tasks 라이선스 관리
 second_title: Aspose.태스크 .NET API
 description: 포괄적인 튜토리얼을 통해 .NET용 Aspose.Tasks의 강력한 기능을 활용해 보세요. 효율적인 프로젝트 관리를 위해 라이선스를 관리하고 MS 프로젝트 사용을 최적화합니다.
-type: docs
 weight: 36
 url: /ko/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 라이선스 관리
+
 
 ## 소개
 
@@ -35,3 +41,9 @@ Aspose.Tasks 기술을 향상시킬 준비가 되셨나요? 튜토리얼을 통�
 파일 기반 또는 스트림 기반 접근 방식을 사용하여 .NET 애플리케이션에서 Aspose.Tasks 라이선스를 원활하게 관리하는 방법을 알아보세요.
 ### [Aspose.Tasks의 측정 사용량](./metering-usage/)
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용을 효과적으로 모니터링하고 최적화하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Administrar los costos de las tareas en Aspose.Tasks
 linktitle: Administrar los costos de las tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a gestionar los costos de las tareas en aplicaciones Java utilizando Aspose.Tasks. Siga nuestra guía paso a paso para una gestión eficaz de los costes del proyecto.
-type: docs
 weight: 21
 url: /es/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar los costos de las tareas en Aspose.Tasks
+
 ## Introducción
 Bienvenido al mundo de Aspose.Tasks para Java, una poderosa biblioteca que le permite administrar los costos de las tareas sin problemas dentro de sus aplicaciones Java. En esta guía paso a paso, exploraremos cómo utilizar Aspose.Tasks de manera efectiva para manejar los costos de las tareas, garantizando una gestión eficiente de los proyectos.
 ## Requisitos previos
@@ -66,3 +72,9 @@ En conclusión, dominar la gestión de costos de las tareas es crucial para la e
  R: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
 ### P: ¿Dónde puedo buscar soporte para Aspose.Tasks para Java?
  R: Visita el foro de soporte[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

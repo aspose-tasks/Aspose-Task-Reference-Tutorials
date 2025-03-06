@@ -3,10 +3,16 @@ title: Menangani Tautan Tugas di Aspose.Tasks
 linktitle: Menangani Tautan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola tautan tugas proyek secara efisien. Ikuti panduan langkah demi langkah kami untuk meningkatkan pengalaman manajemen proyek Anda.
-type: docs
 weight: 19
 url: /id/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Tautan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah dalam menangani tautan tugas di Aspose.Tasks untuk .NET! Tautan tugas memainkan peran penting dalam manajemen proyek, memungkinkan Anda membangun hubungan antar tugas dan menciptakan ketergantungan. Dalam tutorial ini, kami akan memandu Anda melalui proses bekerja dengan kumpulan tautan tugas menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -85,3 +91,9 @@ Saat ini, Aspose.Tasks mendukung tipe tautan tugas standar, dan tipe tautan kust
 Aspose.Tasks dapat menangani file proyek besar secara efisien dengan dampak kinerja minimal.
 ### Apakah ada forum komunitas untuk dukungan Aspose.Tasks?
  Ya, Anda dapat menemukan dukungan dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

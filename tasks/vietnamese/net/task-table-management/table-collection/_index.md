@@ -3,10 +3,16 @@ title: Hướng dẫn thu thập bảng thành thạo trong Aspose.Tasks
 linktitle: Bộ sưu tập các bảng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Nắm vững Aspose.Tasks cho .NET với hướng dẫn từng bước của chúng tôi về cách xử lý các bộ sưu tập bảng. Tăng cường các ứng dụng quản lý dự án một cách dễ dàng. Tải ngay!
-type: docs
 weight: 11
 url: /vi/net/task-table-management/table-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn thu thập bảng thành thạo trong Aspose.Tasks
+
 ## Giới thiệu
 Khai phá sức mạnh của Aspose.Tasks cho .NET bằng cách đi sâu vào lĩnh vực hấp dẫn của các bộ sưu tập bảng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình với Aspose.Tasks, hướng dẫn toàn diện này sẽ hướng dẫn bạn các sắc thái của cách xử lý bảng, cung cấp cho bạn các kỹ năng để nâng cao ứng dụng quản lý dự án của bạn.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Chúc mừng! Bạn đã điều hướng thành công bối cảnh phức tạp
 Trả lời: Có, bạn có thể sử dụng project.Undo() để hoàn nguyên các thay đổi được thực hiện trong phiên.
 ### Câu hỏi: Có bất kỳ cân nhắc nào về hiệu suất khi làm việc với các dự án lớn không?
 Đáp: Để có hiệu suất tối ưu, hãy cân nhắc các hoạt động theo khối và tránh những lần lặp lại không cần thiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

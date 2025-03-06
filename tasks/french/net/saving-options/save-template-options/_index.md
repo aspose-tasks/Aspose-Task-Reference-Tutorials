@@ -3,10 +3,16 @@ title: Enregistrez les fichiers MS Project en tant que modèles avec Aspose.Task
 linktitle: Enregistrer les options de modèle pour Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment enregistrer des fichiers Microsoft Project en tant que modèles à l'aide d'Aspose.Tasks pour .NET. Personnalisez les paramètres du modèle pour une gestion de projet rationalisée.
-type: docs
 weight: 18
 url: /fr/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrez les fichiers MS Project en tant que modèles avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous allons parcourir le processus d'enregistrement d'un modèle à l'aide d'Aspose.Tasks pour .NET. Les modèles sont utiles pour normaliser les structures et les paramètres du projet en vue d'une utilisation future. Nous montrerons comment enregistrer un projet en tant que modèle, en ajustant ses propriétés en cours de route.
 ## Conditions préalables
@@ -76,3 +82,9 @@ R : Oui, vous pouvez appliquer des modèles à des projets existants en chargean
 R : Aspose.Tasks for .NET est principalement conçu pour les applications de framework .NET exécutées sur les plates-formes Windows.
 ### Q : Le support technique est-il disponible pour Aspose.Tasks pour .NET ?
  R : Oui, vous pouvez demander une assistance technique et des conseils à la communauté Aspose.Tasks.[forums](https://forum.aspose.com/c/tasks/15)ou contactez directement leur équipe d’assistance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

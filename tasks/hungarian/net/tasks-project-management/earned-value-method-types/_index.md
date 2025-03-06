@@ -3,10 +3,16 @@ title: Az Aspose.Tasks segítségével szerzett MS projektmódszerek elsajátít
 linktitle: Megszerzett érték módszertípusok az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Master Earned Value MS Project Method Types with Aspose.Tasks for .NET. Fokozatmentesen fokozza a projektmenedzsment hatékonyságát.
-type: docs
 weight: 10
 url: /hu/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks segítségével szerzett MS projektmódszerek elsajátítása
+
 ## Bevezetés
 projektmenedzsment területén a megfelelő eszközök és módszerek alkalmazása a legfontosabb a sikerhez. Az Aspose.Tasks for .NET robusztus keretrendszert biztosít a projektekkel kapcsolatos feladatok hatékony kezeléséhez. Az egyik ilyen döntő szempont az Earned Value Management (EVM) módszerek alkalmazása, amelyek betekintést nyújtanak a projekt teljesítményébe a tervezett és a ténylegesen elvégzett munkák összehasonlításával. Ebben az oktatóanyagban az Earned Value MS Project Method Types megértését és megvalósítását mutatjuk be az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -53,3 +59,9 @@ V: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez a k
  V: Igen, ideiglenes licencek állnak rendelkezésre az Aspose.Tasks for .NET számára. Megszerezheti őket:[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/)
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?
  V: Az Aspose.Tasks for .NET megvásárolható a következő webhelyről:[Vásárlás](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

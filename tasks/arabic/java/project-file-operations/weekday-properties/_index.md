@@ -3,10 +3,16 @@ title: خصائص أيام الأسبوع في Aspose.Tasks
 linktitle: خصائص أيام الأسبوع في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعلم كيفية إدارة خصائص أيام الأسبوع بكفاءة في Aspose.Tasks لـ Java. قم بتخصيص تواريخ بدء الأسبوع والأيام في الشهر والمزيد بسهولة.
-type: docs
 weight: 25
 url: /ar/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خصائص أيام الأسبوع في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for Java عبارة عن واجهة برمجة تطبيقات قوية تمكن مطوري Java من العمل مع ملفات Microsoft Project دون تثبيت Microsoft Project على الجهاز. إحدى وظائفه الرئيسية هي إدارة خصائص أيام الأسبوع، مما يسمح للمستخدمين بتخصيص تواريخ بدء الأسبوع، والأيام في الشهر، والدقائق في اليوم، والدقائق في الأسبوع. سيوفر هذا البرنامج التعليمي دليلاً تفصيليًا حول كيفية استخدام هذه الميزات بشكل فعال.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، يمكنك الوصول إلى الوثائق الشاملة والدعم المجتمعي لـ Aspose.Tasks for Java على موقعهم[موقع إلكتروني](https://releases.aspose.com/).
 ### س: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ Java؟
 ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks لـ Java من موقعهم[موقع إلكتروني](https://reference.aspose.com/tasks/java/) لاستكشاف ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

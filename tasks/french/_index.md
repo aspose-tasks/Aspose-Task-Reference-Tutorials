@@ -3,11 +3,16 @@ title: Maîtriser la manipulation de MS Project avec Aspose.Tasks
 linktitle: Tutoriels Aspose.Tasks
 additionalTitle: Références de l'API Aspose
 description: Débloquez les prouesses de la gestion de projet ! Explorez les didacticiels Aspose.Tasks pour .NET, Java, C++ et plus encore. Élevez vos compétences dans plusieurs langues sans effort.
-type: docs
 weight: 11
 url: /fr/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la manipulation de MS Project avec Aspose.Tasks
+
 
 Embarquez pour une exploration complète des capacités de gestion de projet dans différents langages de programmation avec notre liste de didacticiels Aspose.Tasks. Que vous travailliez avec Aspose.Tasks pour .NET, Java, C++, ou dans d'autres langages, cette collection de didacticiels est conçue pour responsabiliser les développeurs à tous les niveaux. Des concepts fondamentaux aux techniques avancées, chaque didacticiel fournit des conseils étape par étape, vous permettant d'exploiter tout le potentiel d'Aspose.Tasks dans votre langue préférée. Plongez dans notre riche référentiel et améliorez vos compétences en gestion de projet sur plusieurs plates-formes et environnements de codage. Parcourons ensemble le paysage diversifié des didacticiels Aspose.Tasks !
 
@@ -58,3 +63,9 @@ Voici des liens vers quelques ressources utiles :
 - [Liens vers les tâches](./java/task-links/)
 - [Propriétés de la tâche](./java/task-properties/)
 - [Intégration VBA](./java/vba-integration/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

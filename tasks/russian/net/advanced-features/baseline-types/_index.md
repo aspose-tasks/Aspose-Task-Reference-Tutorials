@@ -3,10 +3,16 @@ title: Различные типы базовых показателей в Aspo
 linktitle: Различные типы базовых показателей в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Научитесь эффективно устанавливать базовые показатели проекта и управлять ими с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 21
 url: /ru/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Различные типы базовых показателей в Aspose.Tasks
+
 ## Введение
 
 В сфере управления проектами точность и предусмотрительность имеют первостепенное значение. Aspose.Tasks для .NET предоставляет надежный набор инструментов для эффективного управления данными проекта, позволяя пользователям углубляться в различные аспекты планирования, отслеживания и выполнения проекта. Одной из важнейших функций, предлагаемых Aspose.Tasks, является возможность устанавливать базовые показатели, которые служат ориентирами для измерения прогресса проекта по сравнению с первоначальными планами.
@@ -82,3 +88,9 @@ project.SetBaseline(BaselineType.Baseline);
 ### В5: Могу ли я попробовать Aspose.Tasks перед покупкой?
 
 О5: Да, вы можете изучить Aspose.Tasks с помощью бесплатной пробной версии, доступной на веб-сайте, что позволит вам лично оценить его возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

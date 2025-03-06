@@ -3,10 +3,16 @@ title: Aspose.कार्य लाइसेंस प्रबंधन
 linktitle: Aspose.कार्य लाइसेंस प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: हमारे व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.Tasks की शक्ति को अनलॉक करें। कुशल परियोजना प्रबंधन के लिए लाइसेंस प्रबंधित करें और एमएस प्रोजेक्ट उपयोग को अनुकूलित करें।
-type: docs
 weight: 36
 url: /hi/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.कार्य लाइसेंस प्रबंधन
+
 
 ## परिचय
 
@@ -35,3 +41,9 @@ url: /hi/net/license-management/
 फ़ाइल-आधारित या स्ट्रीम-आधारित दृष्टिकोणों का उपयोग करके .NET अनुप्रयोगों में Aspose.Tasks लाइसेंस को निर्बाध रूप से प्रबंधित करना सीखें।
 ### [Aspose.Tasks में मीटरिंग का उपयोग](./metering-usage/)
 .NET के लिए Aspose.Tasks के साथ अपने MS प्रोजेक्ट उपयोग की प्रभावी ढंग से निगरानी और अनुकूलन करना सीखें। कुशल परियोजना प्रबंधन के लिए चरण-दर-चरण मार्गदर्शिका।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Установите свойства валюты в проектах As
 linktitle: Установите свойства валюты в проектах Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как установить свойства валюты в проектах Aspose.Tasks с помощью Java. Легко манипулируйте файлами Microsoft Project.
-type: docs
 weight: 11
 url: /ru/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите свойства валюты в проектах Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как установить свойства валюты в проектах Aspose.Tasks с использованием Java. Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам программно манипулировать файлами Microsoft Project.
 ## Предварительные условия
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 Да, Aspose.Tasks можно легко интегрировать с другими библиотеками и платформами Java, повышая его функциональность и универсальность.
 ### Где я могу найти дополнительную поддержку или помощь для Aspose.Tasks?
  Для получения дополнительной поддержки вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15), где вы можете найти полезные ресурсы и пообщаться с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

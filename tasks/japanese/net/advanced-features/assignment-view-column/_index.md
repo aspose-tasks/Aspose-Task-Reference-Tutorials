@@ -3,10 +3,16 @@ title: Aspose.Tasks のカスタム割り当てビュー列
 linktitle: Aspose.Tasks のカスタム割り当てビュー列
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET にカスタム割り当てビュー列を追加して、プロジェクト管理機能を強化する方法を学びます。
-type: docs
 weight: 16
 url: /ja/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のカスタム割り当てビュー列
+
 ## 導入
 
 このチュートリアルでは、Aspose.Tasks for .NET を使用して割り当てビューのカスタム列を追加する方法を検討します。カスタム列を使用すると柔軟性が高まり、プロジェクト管理のニーズに関連する追加情報を表示できます。
@@ -116,3 +122,9 @@ A3: はい、幅、フォント、配置などのプロパティを変更する�
 ### Q5: Aspose.Tasks は、カスタム列を含むスプレッドシート以外の他の形式へのプロジェクトのエクスポートをサポートしていますか?
 
 A5: はい。Aspose.Tasks は、PDF、HTML、XML などのさまざまな形式へのプロジェクトのエクスポートをサポートしており、汎用性の高いプロジェクト レポート オプションが可能です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

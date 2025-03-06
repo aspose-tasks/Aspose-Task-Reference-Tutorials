@@ -3,10 +3,16 @@ title: Hozzon létre projektközi feladathivatkozást az Aspose.Tasks alkalmazá
 linktitle: Hozzon létre projektközi feladathivatkozást az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Javítsa a projekt együttműködést az Aspose.Tasks for Java segítségével. Ismerje meg lépésről lépésre projektközi feladathivatkozások létrehozását. Növelje a hatékonyságot most!
-type: docs
 weight: 10
 url: /hu/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre projektközi feladathivatkozást az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 projektmenedzsment dinamikus világában a hatékonyság és az együttműködés a legfontosabb. Az Aspose.Tasks for Java robusztus megoldást kínál a projektkezelési képességek bővítésére. Ebben az oktatóanyagban a projektek közötti feladathivatkozások létrehozásának folyamatát mutatjuk be az Aspose.Tasks for Java használatával. Ez a részletes útmutató felvértezi azokat a készségeket, amelyekkel zökkenőmentesen összekapcsolhatja a feladatokat a különböző projektek között, elősegítve a jobb koordinációt és az egyszerűsített munkafolyamatokat.
 ## Előfeltételek
@@ -78,3 +84,9 @@ Igen, az Aspose.Tasks for Java támogatja a feladatok összekapcsolását a proj
 Igen, leválaszthatja a feladatokat, ha eltávolítja a feladathivatkozást a megfelelő Aspose.Tasks metódusokkal.
 ### Vannak-e korlátozások a projektek között összekapcsolható feladatok számában?
 Az összekapcsolható feladatok száma az Aspose.Tasks licenc képességeitől és korlátaitól függ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

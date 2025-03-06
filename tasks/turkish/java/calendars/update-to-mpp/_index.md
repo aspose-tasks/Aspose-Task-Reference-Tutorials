@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Takvimlerini MPP Formatına Güncelleyin
 linktitle: Aspose.Tasks'ta Takvimi MPP Formatına Güncelleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project takvimlerini zahmetsizce MPP formatına nasıl güncelleyeceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/java/calendars/update-to-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Takvimlerini MPP Formatına Güncelleyin
+
 ## giriiş
 
 Proje yönetimi alanında, çeşitli dosya formatlarının kullanılması, kusursuz işbirliği ve verimli iş akışı için çok önemlidir. Aspose.Tasks for Java, Microsoft Project dosyalarını yönetmek için güçlü bir çözüm sunarak MS Project takvimlerini MPP formatına güncelleme gibi görevleri kolaylaştırır. Bu eğitimde Aspose.Tasks for Java'yı kullanarak bunu başarmak için gereken adımları inceleyeceğiz.
@@ -116,3 +122,9 @@ Cevap2: Kesinlikle, Aspose.Tasks for Java, takvimleri projelerinizin benzersiz i
 ### S5: Aspose.Tasks for Java için nasıl geçici lisans alabilirim?
 
  Cevap5: Aspose.Tasks for Java için geçici bir lisans almak için web sitesini ziyaret edin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

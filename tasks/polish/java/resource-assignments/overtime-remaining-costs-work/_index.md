@@ -3,10 +3,16 @@ title: Monitoruj nadgodziny, pozostałe koszty i pracę w Aspose.Tasks
 linktitle: Monitoruj nadgodziny, pozostałe koszty i pracę w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak monitorować nadgodziny, pozostałe koszty i pracować w projektach Java za pomocą Aspose.Tasks. Proste kroki do skutecznego zarządzania projektami.
-type: docs
 weight: 18
 url: /pl/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Monitoruj nadgodziny, pozostałe koszty i pracę w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku nauczymy się używać Aspose.Tasks dla Java do monitorowania nadgodzin, pozostałych kosztów i pracy w projekcie. Może to być nieocenione dla kierowników projektów i kierowników zespołów, ponieważ pozwalają mieć pewność, że projekty przebiegają zgodnie z planem i mieszczą się w budżecie.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym MPP, XML 
  Możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15) dla wsparcia.
 ### Jak mogę kupić licencję na Aspose.Tasks?
  Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

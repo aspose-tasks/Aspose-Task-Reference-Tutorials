@@ -3,10 +3,16 @@ title: Định cấu hình tùy chọn in dự án MS trong Aspose.Tasks
 linktitle: Định cấu hình tùy chọn in trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình các tùy chọn in MS Project một cách liền mạch bằng Aspose.Tasks cho .NET. Nâng cao khả năng quản lý dự án của bạn.
-type: docs
 weight: 14
 url: /vi/net/project-management-integration/print-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình tùy chọn in dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực phát triển phần mềm, Aspose.Tasks for .NET nổi bật như một công cụ mạnh mẽ để quản lý các nhiệm vụ và dự án một cách hiệu quả. Một trong những tính năng chính của nó là khả năng cấu hình các tùy chọn in Microsoft Project một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình định cấu hình các tùy chọn in MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Trả lời: Có, Aspose.Tasks cho .NET được thiết kế để hỗ trợ �
  Đáp: Có, người dùng có thể tiếp cận hỗ trợ kỹ thuật toàn diện thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi họ có thể tìm kiếm sự trợ giúp và hướng dẫn từ các chuyên gia.
 ### Câu hỏi: Tôi có thể đánh giá Aspose.Tasks cho .NET trước khi mua hàng không?
  Đ: Chắc chắn rồi! Bạn có thể tận dụng bản dùng thử miễn phí Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/) để khám phá các tính năng và chức năng của nó trước khi đưa ra cam kết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penanganan Kelompok Kerja yang Mudah dengan Aspose.Tasks untuk .NET
 linktitle: Menangani Jenis Kelompok Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET agar mudah menangani tipe grup kerja di proyek Anda. Mengoptimalkan alokasi sumber daya dan meningkatkan manajemen proyek.
-type: docs
 weight: 12
 url: /id/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penanganan Kelompok Kerja yang Mudah dengan Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Aspose.Tasks untuk .NET memberikan solusi tangguh untuk menangani tipe kelompok kerja dalam skenario manajemen proyek. Mengelola kelompok kerja secara efisien sangat penting untuk mengoptimalkan alokasi sumber daya dan memastikan kelancaran pelaksanaan proyek. Dalam tutorial ini, kita akan mempelajari proses penanganan tipe workgroup menggunakan Aspose.Tasks, yang menawarkan panduan langkah demi langkah.
 ## Prasyarat
@@ -46,3 +52,9 @@ Ya, Anda dapat mengatur tipe kelompok kerja yang berbeda untuk sumber daya di be
  Ya, Anda dapat mengakses uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

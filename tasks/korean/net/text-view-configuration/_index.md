@@ -3,10 +3,16 @@ title: Aspose.Tasks 텍스트 및 보기 구성
 linktitle: Aspose.Tasks 텍스트 및 보기 구성
 second_title: Aspose.태스크 .NET API
 description: 텍스트 및 보기 구성에 대한 .NET 자습서용 Aspose.Tasks를 살펴보세요. 향상된 프로젝트 관리를 위한 마스터 텍스트 스타일, Tiff 압축, 타임라인 보기 등.
-type: docs
 weight: 30
 url: /ko/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 텍스트 및 보기 구성
+
 ## 소개
 
 텍스트 및 보기 구성에 초점을 맞춘 .NET 자습서용 Aspose.Tasks에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 기사에서는 Aspose.Tasks의 기능을 익히는 데 대한 단계별 통찰력을 제공하면서 프로젝트 관리의 다양한 측면을 살펴보겠습니다.
@@ -53,3 +59,9 @@ Tiff 압축을 선택할 때 Aspose.Tasks for .NET의 강력한 기능을 살펴
 정확한 프로젝트 타임라인 시각화를 위해 Gantt 차트 보기에서 기간 계층을 구성하려면 .NET용 Aspose.Tasks를 탐색하세요.
 ### [Aspose.Tasks에서 사용량 보기 구성](./usage-views/)
 .NET용 Aspose.Tasks에서 작업 사용량 보기를 구성하는 방법을 알아보세요. 세부 단계를 통해 프로젝트 시각화를 향상합니다. 지금 라이브러리를 다운로드하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Efsanelerini Yapılandırma
 linktitle: Aspose.Tasks'ta Sayfa Göstergesini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Etkin proje yönetimi için Aspose.Tasks'ı kullanarak .NET'te MS Project sayfa göstergelerini nasıl yapılandıracağınızı öğrenin. Adım adım kılavuz sağlanmıştır.
-type: docs
 weight: 18
 url: /tr/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Efsanelerini Yapılandırma
+
 ## giriiş
 .NET geliştirme alanında, özellikle proje yönetimiyle uğraşırken görevleri verimli bir şekilde yönetmek çok önemlidir. Aspose.Tasks for .NET, görev yönetimi süreçlerini kolaylaştırmak için çok sayıda işlevsellik sunan güçlü bir araç olarak ortaya çıkıyor. Bu özelliklerden biri, kullanıcılara proje verileri sunumuna ilişkin değerli bilgiler sağlayan MS Project sayfa göstergelerini yapılandırma yeteneğidir.
 ## Önkoşullar
@@ -85,3 +91,9 @@ C: Geçici lisanslar Aspose.Tasks for .NET işlevlerine tam erişim sağlar anca
 C: Kesinlikle, Aspose.Tasks for .NET, sayfa göstergelerini özel proje gereksinimlerinize göre uyarlamanıza olanak tanıyan kapsamlı kişiselleştirme seçenekleri sunar.
 ### S: Aspose.Tasks for .NET için desteği veya topluluk forumlarını nerede bulabilirim?
  C: Destek arayabilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)Sorularınıza yanıt bulabileceğiniz ve diğer geliştiricilerle etkileşimde bulunabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

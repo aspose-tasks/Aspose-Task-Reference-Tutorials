@@ -3,10 +3,16 @@ title: Ngoại lệ lịch
 linktitle: Ngoại lệ lịch
 second_title: API Java Aspose.Tasks
 description: Dễ dàng quản lý, xác định, xử lý và truy xuất các ngoại lệ lịch trong các dự án Java với Aspose.Tasks. Hợp lý hóa quy trình làm việc của dự án để quản lý dự án hiệu quả.
-type: docs
 weight: 20
 url: /vi/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ngoại lệ lịch
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tìm hiểu cách xác định các ngày trong tuần cho các ngoại lệ l�
 Tìm hiểu cách xử lý các ngoại lệ lịch một cách hiệu quả trong các dự án Java với Aspose.Tasks cho Java. Hợp lý hóa quy trình quản lý dự án của bạn ngay bây giờ.
 ### [Truy xuất ngoại lệ lịch với Aspose.Tasks](./retrieve/)
 Tìm hiểu cách truy xuất các ngoại lệ lịch từ MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

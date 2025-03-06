@@ -3,10 +3,16 @@ title: Dealing with Invalid Password Exception in Aspose.Tasks
 linktitle: Dealing with Invalid Password Exception in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle InvalidPasswordException in Aspose.Tasks for .NET efficiently. Ensure smooth execution of your code with this step-by-step guide.
-type: docs
 weight: 11
 url: /net/advanced-concepts/invalid-password-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dealing with Invalid Password Exception in Aspose.Tasks
+
 ## Introduction
 
 In software development, encountering exceptions is common, and knowing how to handle them effectively is crucial for robust application performance. When working with Aspose.Tasks for .NET, developers may encounter the `InvalidPasswordException` when dealing with password-protected project files. This tutorial will guide you through the process of handling this exception step by step, ensuring smooth execution of your code.
@@ -81,3 +87,10 @@ A4: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 
 ### Q5: Can I try Aspose.Tasks before purchasing?
 
 A5: Yes, you can explore Aspose.Tasks by downloading a free trial from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

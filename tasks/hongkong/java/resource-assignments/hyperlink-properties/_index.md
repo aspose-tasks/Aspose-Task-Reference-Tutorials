@@ -3,10 +3,16 @@ title: 管理 Aspose.Tasks 中指派的超連結屬性
 linktitle: 管理 Aspose.Tasks 中資源分配的超連結屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中管理資源分配的超連結屬性。增強專案管理中的協作和可存取性。
-type: docs
 weight: 16
 url: /zh-hant/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Aspose.Tasks 中指派的超連結屬性
+
 ## 介紹
 Aspose.Tasks for Java 提供了管理專案任務和資源的強大功能。在本教程中，我們將重點放在如何使用 Aspose.Tasks 管理資源分配的超連結屬性。透過遵循這些逐步說明，您將能夠有效地處理與專案資源分配關聯的超連結。
 ## 先決條件
@@ -84,3 +90,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以透過將超連結屬性設為 null 或空字串來從資源分配中刪除超連結。
 ### Q：Aspose.Tasks 支援超連結驗證嗎？
 答：Aspose.Tasks 專注於管理超連結屬性而不是驗證超連結。但是，您可以在 Java 應用程式中實作自訂驗證邏輯，以確保超連結的完整性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

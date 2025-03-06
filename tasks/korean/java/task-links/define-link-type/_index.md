@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 링크 유형 정의
 linktitle: Aspose.Tasks에서 링크 유형 정의
 second_title: Aspose.Tasks 자바 API
 description: 프로젝트 관리에서 Java용 Aspose.Tasks의 강력한 기능을 살펴보세요. 단계별 튜토리얼을 통해 링크 유형을 손쉽게 정의하고 사용자 정의하세요.
-type: docs
 weight: 13
 url: /ko/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 링크 유형 정의
+
 ## 소개
 Aspose.Tasks for Java를 통해 효율적인 프로젝트 관리의 세계에 오신 것을 환영합니다! 프로젝트 처리를 간소화하고 생산성을 높이려는 경우 올바른 위치에 오셨습니다. 이 포괄적인 튜토리얼에서는 Aspose.Tasks for Java에서 링크 유형을 정의하는 프로세스를 안내하여 프로젝트 관리 기능을 향상시킵니다.
 ## 전제조건
@@ -60,3 +66,9 @@ A: 예, Aspose.Tasks는 다양한 Java 개발 환경과 원활하게 통합되�
  답: 방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 테스트 목적으로 임시 라이센스를 취득합니다.
 ### Q: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 받을 수 있나요?
  A: Aspose.Tasks 커뮤니티에 가입하세요.[지원 포럼](https://forum.aspose.com/c/tasks/15) 도움과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

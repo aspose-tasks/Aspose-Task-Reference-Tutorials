@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS プロジェクトの凡例の構成
 linktitle: Aspose.Tasks でのページ凡例の構成
 second_title: Aspose.Tasks .NET API
 description: 効率的なプロジェクト管理のために Aspose.Tasks を使用して .NET で MS Project ページの凡例を構成する方法を学びます。ステップバイステップのガイドが提供されます。
-type: docs
 weight: 18
 url: /ja/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS プロジェクトの凡例の構成
+
 ## 導入
 .NET 開発の領域では、特にプロジェクト管理を扱う場合、タスクを効率的に管理することが重要です。 Aspose.Tasks for .NET は、タスク管理プロセスを合理化するための豊富な機能を提供する強力なツールとして登場しました。そのような機能の 1 つは、MS Project ページの凡例を構成する機能で、ユーザーにプロジェクト データのプレゼンテーションに関する貴重な洞察を提供します。
 ## 前提条件
@@ -85,3 +91,9 @@ A: 一時ライセンスでは、Aspose.Tasks for .NET の機能への完全な�
 A: もちろん、Aspose.Tasks for .NET には広範なカスタマイズ オプションが用意されており、特定のプロジェクト要件に応じてページの凡例を調整できます。
 ### Q: Aspose.Tasks for .NET のサポートまたはコミュニティ フォーラムはどこで見つけられますか?
  A: サポートを求めたり、コミュニティに参加したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)、クエリに対する回答を見つけたり、他の開発者と交流したりできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Server Uložit možnosti MS Project pro Aspose.Tasks
 linktitle: Možnosti uložení Project Server pro Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Přečtěte si, jak uložit možnosti aplikace Microsoft Project pro Aspose.Tasks pomocí integrace Project Server. Vylepšete své pracovní postupy projektového řízení.
-type: docs
 weight: 16
 url: /cs/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Server Uložit možnosti MS Project pro Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do ukládání možností aplikace Microsoft Project pro Aspose.Tasks pomocí serveru Project Server. Aspose.Tasks je výkonné rozhraní .NET API, které umožňuje vývojářům pracovat se soubory Microsoft Project programově. Využitím možností Project Serveru můžeme bezproblémově integrovat Aspose.Tasks do našich pracovních postupů projektového řízení. Tento tutoriál vás provede procesem krok za krokem.
 ## Předpoklady
@@ -71,3 +77,9 @@ Odpověď: Ano, Aspose.Tasks je navržen tak, aby byl bezpečný pro vlákna a u
 Odpověď: Ano, můžete přizpůsobit možnosti ukládání, jako je název projektu, časový limit a interval dotazování, aby vyhovovaly vašim požadavkům.
 ### Otázka: Kde najdu podporu pro Aspose.Tasks?
  Odpověď: Podporu a pomoc najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

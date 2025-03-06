@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Ödevlerle Çalışmak
 linktitle: Aspose.Tasks'ta Ödevlerle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak .NET'te proje atamalarını nasıl yöneteceğinizi öğrenin. Kaynak planlaması için farklı konturları keşfedin.
-type: docs
 weight: 13
 url: /tr/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Ödevlerle Çalışmak
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te ödevlerle nasıl çalışılacağını inceleyeceğiz. Atamalar, kaynakları görevlere tahsis ettiğinden, planlamaya ve ilerlemeyi izlemeye yardımcı olduğundan proje yönetiminde çok önemlidir. Aspose.Tasks'ı kullanarak çeşitli hatlara sahip kaynak atama zaman aşamalı verileri oluşturmaya odaklanacağız.
@@ -109,3 +115,9 @@ C4: Evet, bu eğitimde gösterildiği gibi proje gereksinimlerinize göre kaplum
 ### S5: Aspose.Tasks ile ilgili sorgular için desteği nerede bulabilirim?
 
 Cevap 5: Şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) uzmanların ve topluluk üyelerinin aktif olarak tartışmalara katıldığı yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

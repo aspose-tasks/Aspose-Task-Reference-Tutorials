@@ -3,10 +3,16 @@ title: Verzameling van agenda-uitzonderingen in Aspose.Tasks
 linktitle: Verzameling van agenda-uitzonderingen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u agenda-uitzonderingen in uw .NET-projecten efficiënt kunt afhandelen met behulp van Aspose.Tasks, zodat u verzekerd bent van nauwkeurige planning en resourcebeheer.
-type: docs
 weight: 13
 url: /nl/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van agenda-uitzonderingen in Aspose.Tasks
+
 ## Invoering
 
 Bij projectmanagement is nauwkeurige planning essentieel voor succes. Real-world scenario's vereisen echter vaak afwijkingen van de standaardschema's vanwege vakanties, speciale evenementen of andere factoren. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het beheren van dergelijke uitzonderingen via de functie Agenda-uitzonderingen verzamelen. Deze tutorial begeleidt u stap voor stap bij het gebruik van deze functionaliteit.
@@ -143,3 +149,9 @@ A4: Met Aspose.Tasks voor .NET kunt u overlappende uitzonderingen afhandelen doo
 ### Vraag 5: Kan ik de werktijden voor elke dag aanpassen, behoudens uitzonderingen?
 
 A5: Ja, u kunt aangepaste werktijden opgeven voor individuele dagen binnen een uitzondering om tegemoet te komen aan specifieke planningsbehoeften.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

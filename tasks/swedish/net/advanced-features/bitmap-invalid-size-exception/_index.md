@@ -3,10 +3,16 @@ title: Hanterar undantag för ogiltig storlek för bitmapp i Aspose.Tasks
 linktitle: Hanterar undantag för ogiltig storlek för bitmapp i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar BitmapInvalidSizeException i Aspose.Tasks för .NET när du sparar projekt som bilder. Omfattande handledning med steg-för-steg-vägledning.
-type: docs
 weight: 22
 url: /sv/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hanterar undantag för ogiltig storlek för bitmapp i Aspose.Tasks
+
 ## Introduktion
 
  I den här handledningen kommer vi att fördjupa oss i att hantera`BitmapInvalidSizeException` när du arbetar med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt bibliotek som tillåter utvecklare att manipulera Microsoft Project-filer programmatiskt, vilket möjliggör uppgifter som att spara projekt som bilder. Men ibland, när vi försöker spara ett projekt som en bild, kan vi stöta på en`Invalid Size Exception`relaterad till bitmappen. Denna handledning syftar till att guida dig genom processen att fånga och hantera detta undantag effektivt.
@@ -111,3 +117,9 @@ S4: Ja, Aspose.Tasks stöder olika versioner av Microsoft Project-filer, vilket 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.Tasks?
 
 S5: Du kan skaffa en tillfällig licens för utvärderingssyften via den angivna länken i artikeln.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

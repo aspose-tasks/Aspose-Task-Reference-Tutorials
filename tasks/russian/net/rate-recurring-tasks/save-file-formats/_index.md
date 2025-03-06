@@ -3,10 +3,16 @@ title: Сохранение файлов проекта MS в различных
 linktitle: Сохранение файлов в различных форматах в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как сохранять файлы MS Project в различных форматах с помощью Aspose.Tasks для .NET. Простые шаги для эффективного управления проектами.
-type: docs
 weight: 17
 url: /ru/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение файлов проекта MS в различных форматах в Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как сохранять файлы Microsoft Project в различных форматах с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно манипулировать файлами проекта и управлять ими.
 ## Предварительные условия
@@ -55,3 +61,9 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
  О: Да, временные лицензии доступны для ознакомительных целей. Вы можете получить один[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Какова цена Aspose.Tasks?
  О: Информацию о ценах можно найти на странице покупки Aspose.Tasks.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

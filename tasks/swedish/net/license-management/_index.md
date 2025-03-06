@@ -3,10 +3,16 @@ title: Aspose.Tasks Licenshantering
 linktitle: Aspose.Tasks Licenshantering
 second_title: Aspose.Tasks .NET API
 description: Lås upp kraften i Aspose.Tasks för .NET med våra omfattande handledningar. Hantera licenser och optimera MS Project-användningen för effektiv projektledning.
-type: docs
 weight: 36
 url: /sv/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Licenshantering
+
 
 ## Introduktion
 
@@ -35,3 +41,9 @@ Lås upp potentialen hos Aspose.Tasks för .NET när vi guidar dig genom steg-f�
 Lär dig hur du hanterar Aspose.Tasks-licenser i .NET-applikationer sömlöst med filbaserade eller strömbaserade metoder.
 ### [Mätaranvändning i Aspose.Tasks](./metering-usage/)
 Lär dig hur du effektivt övervakar och optimerar din MS Project-användning med Aspose.Tasks för .NET. Steg-för-steg-guide för effektiv projektledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

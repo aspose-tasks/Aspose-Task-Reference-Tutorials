@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
 linktitle: Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 모든 조건에서 AND 연산자를 사용하여 프로젝트 작업을 효율적으로 필터링하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
+
 ## 소개
 
 프로젝트 관리 작업을 효율적으로 간소화하고 싶으십니까? .NET용 Aspose.Tasks를 사용하면 강력한 기능을 활용하여 프로젝트 데이터를 효과적으로 조작할 수 있습니다. 이러한 기능 중 하나는 모든 조건에서 AND 연산자를 사용하여 동시에 여러 기준에 따라 작업을 필터링할 수 있는 기능입니다. 이 튜토리얼에서는 이 기능을 구현하는 과정을 단계별로 안내합니다.
@@ -118,3 +124,9 @@ A4: 예, Aspose.Tasks를 다른 .NET 프레임워크 및 라이브러리와 원�
 ### Q5: Aspose.Tasks 사용자가 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
 
  A5: 예, Aspose.Tasks 커뮤니티 포럼에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 문의사항이나 도움이 필요하시면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

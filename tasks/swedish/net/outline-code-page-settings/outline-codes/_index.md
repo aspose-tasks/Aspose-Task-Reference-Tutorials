@@ -3,10 +3,16 @@ title: Hantera projektöversiktskoder i Aspose.Tasks för .NET
 linktitle: Hantera dispositionskoder i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig att hantera MS Project-konturkoder med Aspose.Tasks för .NET. Förenkla projektorganisationen utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera projektöversiktskoder i Aspose.Tasks för .NET
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man hanterar Microsoft Project-konturkoder med Aspose.Tasks för .NET. Dispositionskoder är anpassade fält i Microsoft Project som tillåter användare att kategorisera och organisera uppgifter enligt specifika kriterier. Aspose.Tasks förenklar processen att läsa och manipulera dessa konturkoder programmatiskt.
 ## Förutsättningar
@@ -71,3 +77,9 @@ S: Ja, en giltig licens krävs för kommersiell användning av Aspose.Tasks. Du 
 S: Ja, du kan ladda ner en gratis testversion av Aspose.Tasks från webbplatsen för att utvärdera dess funktioner och möjligheter.
 ### F: Var kan jag få support för Aspose.Tasks?
  S: Du kan få support för Aspose.Tasks genom att besöka forumet på[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Komplett källkod
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

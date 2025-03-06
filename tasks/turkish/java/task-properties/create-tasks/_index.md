@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevler Oluşturun
 linktitle: Aspose.Tasks'ta Görevler Oluşturun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java projelerini zahmetsizce yönetin. Görevler, alt görevler ve daha fazlasını oluşturun. Sorunsuz proje yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevler Oluşturun
+
 ## giriiş
 Aspose.Tasks for Java dünyasına hoş geldiniz! Java uygulamanızdaki görevleri ve projeleri verimli bir şekilde yönetmek istiyorsanız doğru yerdesiniz. Bu kapsamlı kılavuzda, Aspose.Tasks for Java kullanarak görev oluşturma sürecinde size kusursuz bir deneyim sağlamak için her adımı ayrıntılı olarak anlatacağız.
 ## Önkoşullar
@@ -54,3 +60,9 @@ Kesinlikle! Aspose.Tasks çok yönlüdür ve her ölçekteki proje için kullan�
 Evet, görev niteliklerini proje ihtiyaçlarınıza uyacak şekilde kapsamlı bir şekilde özelleştirebilirsiniz.
 ### Aspose.Tasks kullanıcıları için bir destek topluluğu var mı?
  Kesinlikle! Aspose.Tasks topluluğuna katılın[destek forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

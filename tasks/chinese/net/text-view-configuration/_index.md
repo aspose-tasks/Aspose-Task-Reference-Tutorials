@@ -3,10 +3,16 @@ title: Aspose.Tasks 文本和视图配置
 linktitle: Aspose.Tasks 文本和视图配置
 second_title: Aspose.Tasks .NET API
 description: 探索有关文本和视图配置的 Aspose.Tasks for .NET 教程。掌握文本样式、Tiff 压缩、时间线视图等，以增强项目管理。
-type: docs
 weight: 30
 url: /zh/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 文本和视图配置
+
 ## 介绍
 
 欢迎阅读 Aspose.Tasks for .NET 教程的综合指南，重点介绍文本和视图配置。在本文中，我们将深入研究项目管理的各个方面，提供掌握 Aspose.Tasks 功能的逐步见解。
@@ -53,3 +59,9 @@ url: /zh/net/text-view-configuration/
 探索 Aspose.Tasks for .NET 在甘特图视图中配置时间刻度层，以实现精确的项目时间线可视化。
 ### [在 Aspose.Tasks 中配置使用情况视图](./usage-views/)
 了解在 Aspose.Tasks for .NET 中配置任务使用情况视图。通过详细步骤增强项目可视化。立即下载库！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

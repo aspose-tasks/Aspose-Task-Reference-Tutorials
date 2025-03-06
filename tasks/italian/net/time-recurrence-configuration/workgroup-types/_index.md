@@ -3,10 +3,16 @@ title: Gestione semplice dei gruppi di lavoro con Aspose.Tasks per .NET
 linktitle: Gestione dei tipi di gruppi di lavoro in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET per gestire facilmente i tipi di gruppi di lavoro nel tuo progetto. Ottimizza l'allocazione delle risorse e migliora la gestione dei progetti.
-type: docs
 weight: 12
 url: /it/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione semplice dei gruppi di lavoro con Aspose.Tasks per .NET
+
 ## introduzione
 Aspose.Tasks per .NET fornisce una soluzione solida per la gestione dei tipi di gruppi di lavoro in scenari di gestione dei progetti. Gestire i gruppi di lavoro in modo efficiente è fondamentale per ottimizzare l’allocazione delle risorse e garantire un’esecuzione regolare dei progetti. In questo tutorial, approfondiremo il processo di gestione dei tipi di gruppi di lavoro utilizzando Aspose.Tasks, offrendo una guida passo passo.
 ## Prerequisiti
@@ -46,3 +52,9 @@ Sì, puoi impostare diversi tipi di gruppi di lavoro per una risorsa in diverse 
  Sì, puoi accedere a una prova gratuita da[Qui](https://releases.aspose.com/).
 ### Come posso ottenere una licenza temporanea per Aspose.Tasks?
  Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

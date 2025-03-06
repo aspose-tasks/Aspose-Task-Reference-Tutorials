@@ -3,10 +3,16 @@ title: Aspose.Tasks 中按年周日重复
 linktitle: Aspose.Tasks 中按年周日重复
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在有效管理重复任务方面的强大功能。实施按年周日重复功能的分步指南。
-type: docs
 weight: 28
 url: /zh/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中按年周日重复
+
 ## 介绍
 
 在项目管理领域，效率和精确度至关重要。 Aspose.Tasks for .NET 成为一个强大的工具，提供了大量的功能来简化项目处理。其武器库之一是能够以非凡的灵活性管理重复性任务。其中一个功能是“按年周日重复”功能，允许用户设置在一周中的特定日期、指定月份内以及跨多年重复的任务。
@@ -126,3 +132,9 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 ### Q5：Aspose.Tasks for .NET 有试用版吗？
 
 答：是的，您可以从以下位置访问 Aspose.Tasks for .NET 的免费试用版：[网站](https://releases.aspose.com/)，让您在做出购买决定之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

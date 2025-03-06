@@ -3,10 +3,16 @@ title: Formler
 linktitle: Formler
 second_title: Aspose.Tasks Java API
 description: Lyft dina färdigheter i projektledning med Aspose.Tasks för Java. Bemästra MS Project-formler, öka produktiviteten och effektivt skriva/läs formler med lätthet.
-type: docs
 weight: 23
 url: /sv/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formler
+
 
 ## Introduktion
 
@@ -38,3 +44,9 @@ Lär dig hur du stödjer utvärdering av MS Project-funktioner i Aspose.Tasks-fo
 Lär dig hur du manipulerar MS Project-filer i Java med Aspose.Tasks-biblioteket. Skapa, ändra och beräkna attribut med lätthet.
 ### [Att skriva och läsa MS-projektformler i Aspose.Tasks](./write-read-formulas/)
 Lär dig att skriva och läsa MS Project-formler effektivt med Aspose.Tasks för Java. Förbättra dina färdigheter i projektledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

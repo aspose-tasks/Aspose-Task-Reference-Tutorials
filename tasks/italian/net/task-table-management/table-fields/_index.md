@@ -3,10 +3,16 @@ title: Gestione dei campi della tabella in Aspose.Tasks
 linktitle: Gestione dei campi della tabella in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Padroneggia i campi della tabella di gestione in Aspose.Tasks per .NET con questo tutorial completo. Impara a leggere, visualizzare e modificare le tabelle di progetto senza sforzo.
-type: docs
 weight: 12
 url: /it/net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione dei campi della tabella in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel mondo di Aspose.Tasks per .NET, una potente libreria che consente la manipolazione perfetta dei file Microsoft Project nelle vostre applicazioni .NET. In questo tutorial, approfondiremo le complessità della gestione dei campi della tabella in Aspose.Tasks, consentendoti di leggere e gestire in modo efficiente le tabelle di progetto. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida passo passo ti consentirà di sfruttare tutto il potenziale di Aspose.Tasks.
 ## Prerequisiti
@@ -72,3 +78,9 @@ partire dall'ultima versione non ci sono limitazioni rigide sul numero di campi 
 Gli aggiornamenti per Aspose.Tasks vengono rilasciati regolarmente per garantire la compatibilità e introdurre nuove funzionalità.
 ### Esiste un forum della community per il supporto di Aspose.Tasks?
  Sì, puoi trovare aiuto e discussioni su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hantera kritiska och ansträngningsdrivna uppgifter i Aspose.Tasks
 linktitle: Hantera kritiska och ansträngningsdrivna uppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Hantera enkelt kritiska och ansträngningsdrivna uppgifter i dina Java-projekt med Aspose.Tasks. Ladda ner biblioteket och förbättra dina projektledningsmöjligheter.
-type: docs
 weight: 14
 url: /sv/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera kritiska och ansträngningsdrivna uppgifter i Aspose.Tasks
+
 I den snabba värld av projektledning är en effektiv hantering av kritiska och ansträngningsdrivna uppgifter avgörande för framgångsrikt projektslut. Aspose.Tasks för Java tillhandahåller en robust lösning för att hantera dessa uppgifter sömlöst. I den här handledningen guidar vi dig genom processen att använda Aspose.Tasks för Java för att hantera kritiska och ansträngningsdrivna uppgifter i dina projekt.
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
@@ -60,3 +66,9 @@ Ja, Aspose.Tasks för Java är plattformsoberoende och kan användas i både Win
  Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag köpa Aspose.Tasks för Java?
  Du kan köpa Aspose.Tasks för Java från[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

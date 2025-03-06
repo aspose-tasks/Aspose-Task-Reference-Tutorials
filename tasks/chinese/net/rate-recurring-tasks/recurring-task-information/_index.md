@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中提取重复任务信息
 linktitle: 在 Aspose.Tasks 中提取重复任务信息
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 从 MS Project 文件中提取重复任务信息。 .NET 开发人员可以轻松集成。
-type: docs
 weight: 13
 url: /zh/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中提取重复任务信息
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，允许开发人员在其 .NET 应用程序中使用 Microsoft Project 文件。在本教程中，我们将探索如何使用 Aspose.Tasks 从 MS Project 文件中提取重复任务信息。
 ## 先决条件
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 答：你可以找到文档[这里](https://reference.aspose.com/tasks/net/).
 ### 问：如何获得 Aspose.Tasks for .NET 的技术支持？
  A：您可以从Aspose.Tasks论坛获得技术支持[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

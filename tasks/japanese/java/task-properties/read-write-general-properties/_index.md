@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスク プロパティをマスターする
 linktitle: Aspose.Tasks のタスクの一般プロパティの読み取りと書き込み
 second_title: Aspose.Tasks Java API
 description: タスクのプロパティを簡単に管理できる Aspose.Tasks for Java の機能を試してください。ステップバイステップのガイドを使用して、簡単に読み書きできます。
-type: docs
 weight: 26
 url: /ja/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスク プロパティをマスターする
+
 ## 導入
 Aspose.Tasks を使用して、Java でのタスク管理の可能性を最大限に引き出します。この包括的なガイドでは、Aspose.Tasks for Java を使用したタスクの一般的なプロパティの読み取りと書き込みについて詳しく説明します。経験豊富な開発者でも初心者でも、このチュートリアルではタスクのプロパティを簡単に操作するスキルを身につけることができます。
 ## 前提条件
@@ -85,3 +91,9 @@ for (Task tsk : collector.getTasks()) {
 のコミュニティ ディスカッションに参加してください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)支援と協力のために。
 ### 参考にできるサンプルプロジェクトはありますか?
 ドキュメントの例セクションを参照してください[ここ](https://reference.aspose.com/tasks/java/)サンプル プロジェクトとコード スニペットについては、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

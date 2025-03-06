@@ -3,10 +3,16 @@ title: Phân chia nhiệm vụ trong Aspose.Tasks
 linktitle: Phân chia nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Quản lý tác vụ thành thạo trong Java với Aspose.Tasks! Tìm hiểu cách phân chia nhiệm vụ hiệu quả để tối ưu hóa các mốc thời gian của dự án. Tải ngay!
-type: docs
 weight: 29
 url: /vi/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân chia nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang gặp khó khăn với việc quản lý tác vụ trong dự án Java của mình? Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để phân chia nhiệm vụ một cách hiệu quả, nâng cao khả năng quản lý dự án. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình phân chia nhiệm vụ bằng Aspose.Tasks cho Java, giúp bạn tối ưu hóa tiến trình dự án và phân bổ tài nguyên của mình.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Aspose.Tasks for Java cung cấp bản dùng thử miễn phí, cho phép bạn 
  Tham quan[Aspose.Tasks cho diễn đàn hỗ trợ Java](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và kết nối với cộng đồng.
 ### Tôi có cần giấy phép tạm thời cho Aspose.Tasks for Java không?
  Bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

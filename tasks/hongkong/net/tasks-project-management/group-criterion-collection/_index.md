@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 管理 MS 專案組標準
 linktitle: 在 Aspose.Tasks 中管理群組標準集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 管理 Group Criterion MS Project 集合。開發人員的分步指南。
-type: docs
 weight: 28
 url: /zh-hant/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 管理 MS 專案組標準
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的 API，可讓開發人員以程式設計方式處理 Microsoft Project 檔案。在本教程中，我們將探索如何使用 Aspose.Tasks 管理 MS Project 中的 Group Criterion 集合。
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### Q5：如果我遇到任何問題，我該如何獲得支援？
 
 答：如果您有任何疑問或遇到任何問題，您可以從 Aspose.Tasks 論壇尋求支持[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

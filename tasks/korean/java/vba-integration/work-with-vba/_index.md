@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 VBA 통합 작업
 linktitle: Aspose.Tasks에서 VBA 통합 작업
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks로 프로젝트 관리를 강화하세요 - 간소화된 워크플로를 위해 VBA 통합을 활용하세요. 효율적인 작업 추적을 위해 지금 탐색해보세요!
-type: docs
 weight: 10
 url: /ko/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 VBA 통합 작업
+
 ## 소개
 프로젝트 관리 및 작업 추적의 역동적인 세계에서 VBA(Visual Basic for Application)와 원활하게 통합되는 강력한 도구를 갖는 것은 판도를 바꿀 수 있습니다. Aspose.Tasks for Java는 VBA 통합 작업을 손쉽게 수행할 수 있는 강력한 도구 중 하나입니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 VBA 통합 작업의 복잡성을 살펴보고 VBA 프로젝트 정보, 참조, 모듈 및 모듈 속성을 읽는 단계를 탐색합니다.
 ## 전제조건
@@ -98,3 +104,9 @@ System.out.println("Module1: " + vbaModule.getAttributes().toList().get(0).getVa
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Tasks for Java에 대한 임시 라이선스를 얻을 수 있나요?
  네, 임시면허증을 받으실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

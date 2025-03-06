@@ -3,10 +3,16 @@ title: Správa výjimek MS Project Online v Aspose.Tasks
 linktitle: Práce s Project Online výjimkami v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak bezproblémově zpracovávat výjimky Microsoft Project Online pomocí Aspose.Tasks for .NET. Návod krok za krokem pro efektivní řízení projektu.
-type: docs
 weight: 21
 url: /cs/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa výjimek MS Project Online v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do složitosti zpracování výjimek Microsoft Project Online pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné rozhraní .NET API, které umožňuje vývojářům snadno manipulovat a spravovat soubory aplikace Microsoft Project. Projdeme si procesem krok za krokem a zajistíme komplexní pochopení toho, jak pracovat s výjimkami MS Project Online ve vašich aplikacích .NET.
 ## Předpoklady
@@ -74,3 +80,9 @@ Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlou podporu pro práci s různými
 Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Jak si koupím licenci pro Aspose.Tasks?
  A: Můžete si zakoupit licenci pro Aspose.Tasks z[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

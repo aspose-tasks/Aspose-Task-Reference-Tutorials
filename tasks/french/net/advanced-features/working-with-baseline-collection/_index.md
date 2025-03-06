@@ -3,10 +3,16 @@ title: Travailler avec la collection de référence dans Aspose.Tasks
 linktitle: Travailler avec la collection de référence dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les lignes de base dans Aspose.Tasks pour .NET. Suivez notre didacticiel complet pour des conseils étape par étape.
-type: docs
 weight: 20
 url: /fr/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec la collection de référence dans Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les fichiers Microsoft Project dans leurs applications .NET. Parmi ses nombreuses fonctionnalités, il offre un support robuste pour la gestion des références au sein des projets. Les références sont essentielles pour la gestion de projet car elles vous permettent de comparer le plan de projet original avec l'état actuel, permettant ainsi un meilleur suivi et une meilleure analyse de l'avancement du projet.
@@ -116,3 +122,9 @@ A4 : Oui, Aspose.Tasks prend en charge l'intégration avec les plates-formes clo
 ### Q5 : Existe-t-il un forum communautaire permettant aux utilisateurs d'Aspose.Tasks de demander de l'aide et de partager leurs connaissances ?
 
  A5 : Oui, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour interagir avec la communauté et obtenir l’aide d’experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

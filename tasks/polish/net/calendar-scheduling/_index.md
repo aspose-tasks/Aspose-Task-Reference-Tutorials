@@ -3,10 +3,16 @@ title: Aspose.Tasks Kalendarz i planowanie
 linktitle: Aspose.Tasks Kalendarz i planowanie
 second_title: Aspose.Tasks .NET API
 description: Zarządzaj kalendarzami projektów, obliczaj czas trwania i obsługuj wyjątki za pomocą Aspose.Tasks dla .NET. Zapoznaj się z samouczkami krok po kroku dotyczącymi zadań związanych z kalendarzem i planowaniem.
-type: docs
 weight: 22
 url: /pl/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kalendarz i planowanie
+
 ## Wstęp
 
 Witamy w świecie samouczków Aspose.Tasks for .NET, Twojego podstawowego źródła wiedzy umożliwiającego opanowanie zawiłości zarządzania kalendarzem i planowania w projektach .NET. Aspose.Tasks zapewnia programistom solidne narzędzia do łatwej obsługi kalendarzy projektów, obliczania czasu trwania i zarządzania wyjątkami. W tym obszernym zbiorze samouczków zagłębiamy się w różne aspekty, od pracy z kalendarzami i zarządzania wyjątkami po eksplorowanie specjalistycznych tematów, takich jak wyjątki nagłówków dokumentów złożonych i pozycje symboli walut. Niezależnie od tego, czy jesteś doświadczonym programistą poszukującym zaawansowanych spostrzeżeń, czy nowicjuszem chcącym udoskonalić swoje umiejętności zarządzania projektami, te samouczki zawierają wskazówki krok po kroku i przykłady z życia wzięte. Wyruszmy w podróż, aby odblokować pełny potencjał Aspose.Tasks dla .NET i podnieść Twoje możliwości zarządzania projektami. Gotowy do nurkowania? Zacznijmy!
@@ -135,3 +141,9 @@ Dowiedz się, jak efektywnie zarządzać kolekcjami typu dni w Aspose.Tasks dla 
 Dowiedz się, jak importować projekty z bazy danych Primavera przy użyciu Aspose.Tasks dla .NET. Uzyskaj wskazówki krok po kroku w tym obszernym samouczku.
 ### [Obsługa czasu trwania w Aspose.Tasks](./duration-handling/)
 Dowiedz się, jak efektywnie obsługiwać czasy trwania w Aspose.Tasks dla .NET, korzystając z samouczków krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

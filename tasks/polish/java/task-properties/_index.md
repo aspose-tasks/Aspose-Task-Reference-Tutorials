@@ -3,10 +3,16 @@ title: Właściwości zadania
 linktitle: Właściwości zadania
 second_title: Aspose.Tasks API Java
 description: Ulepsz zarządzanie projektami Java dzięki Aspose.Tasks. Zapoznaj się z samouczkami na temat właściwości zadań, od obsługi priorytetów po zarządzanie kosztami. Zoptymalizuj swój projekt już dziś!
-type: docs
 weight: 34
 url: /pl/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Właściwości zadania
+
 ## Wstęp
 
 Bez wysiłku zarządzaj plikami Microsoft Project i dostosowuj je w Javie za pomocą Aspose.Tasks. Zapoznaj się z samouczkami obejmującymi różne aspekty właściwości zadań, aby zwiększyć możliwości zarządzania projektami.
@@ -138,3 +144,9 @@ Poznaj Aspose.Tasks dla Java i okresowe zarządzanie danymi w ramach zadań gł�
 Dowiedz się, jak zaktualizować dane zadania do formatu MPP przy użyciu Aspose.Tasks dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie zarządzać projektami.
 ### [WBS powiązany z zadaniem w Aspose.Tasks](./wbs-associated-with-task/)
 Opanuj WBS z Aspose.Tasks dla Java - Naucz się czytać i przenumerowywać kody WBS zadań. Zwiększ efektywność zarządzania projektami!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

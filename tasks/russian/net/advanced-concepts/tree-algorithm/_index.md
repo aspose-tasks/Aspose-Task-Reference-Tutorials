@@ -3,10 +3,16 @@ title: Использование древовидного алгоритма в
 linktitle: Использование древовидного алгоритма в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно манипулировать иерархиями задач в ваших проектах .NET с помощью алгоритма дерева Aspose.Tasks.
-type: docs
 weight: 13
 url: /ru/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование древовидного алгоритма в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET предоставляет мощные функциональные возможности для работы с задачами, ресурсами и расписаниями управления проектами. Одной из таких функций является древовидный алгоритм, который позволяет пользователям эффективно управлять иерархией задач. В этом руководстве мы рассмотрим, как использовать древовидный алгоритм в Aspose.Tasks для .NET для сбора общих рабочих значений и обновления рабочих значений в проекте.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks for .NET — это мощный API, который позво
 ### Вопрос 5. Существует ли временная лицензия для целей тестирования?
 
  О5: Да, вы можете получить временную лицензию для целей тестирования на сайте[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

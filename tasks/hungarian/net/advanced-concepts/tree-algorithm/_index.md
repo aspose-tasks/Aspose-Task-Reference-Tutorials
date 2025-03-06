@@ -3,10 +3,16 @@ title: Fa-algoritmus használata az Aspose.Tasks-ban
 linktitle: Fa-algoritmus használata az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a feladathierarchiákat .NET-projektjeiben az Aspose.Tasks' Tree Algorithm segítségével.
-type: docs
 weight: 13
 url: /hu/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fa-algoritmus használata az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET hatékony funkciókat kínál a projektmenedzsment feladatokkal, erőforrásokkal és ütemezésekkel való munkához. Az egyik ilyen funkció a Tree Algorithm, amely lehetővé teszi a felhasználók számára a feladathierarchiák hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET fa algoritmusa a közös munka összegyűjtésére és a munkaértékek frissítésére egy projekten belül.
@@ -115,3 +121,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan használhatjuk az Aspose.Tasks for 
 ### 5. kérdés: Rendelkezésre áll-e ideiglenes licenc tesztelési célokra?
 
  5. válasz: Igen, ideiglenes licencet szerezhet tesztelési célból a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

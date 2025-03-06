@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Proje Zaman Çizelgesi Görünümlerinde Uzmanlaşma
 linktitle: Aspose.Tasks'ta Zaman Çizelgesi Görünümlerini Özelleştirme
 second_title: Aspose.Tasks .NET API'si
 description: Zaman çizelgesi görünümlerini özelleştirme konusunda Aspose.Tasks for .NET konusunda uzmanlaşın. Projenizin ihtiyaçlarına göre uyarlanmış görsel olarak çekici zaman çizelgeleriyle proje yönetiminizi geliştirin.
-type: docs
 weight: 13
 url: /tr/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Proje Zaman Çizelgesi Görünümlerinde Uzmanlaşma
+
 ## giriiş
 Görsel olarak çekici ve bilgilendirici zaman çizelgesi görünümleri oluşturmak, etkili proje yönetimi için çok önemlidir. Aspose.Tasks for .NET, zaman çizelgesi görünümlerini özelleştirmek için güçlü bir çözüm sunarak görevlerin görünümünü projenizin özel ihtiyaçlarına göre uyarlamanıza olanak tanır. Bu adım adım kılavuzda, zaman çizelgesi görünümlerini zahmetsizce oluşturmak ve özelleştirmek için Aspose.Tasks'ın nasıl kullanılacağını keşfedeceğiz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ Kesinlikle! Aspose.Tasks, zaman çizelgesi görünümünde her görevin görün�
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için geçici lisansı nasıl edinebilirim?
  Geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

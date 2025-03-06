@@ -3,10 +3,16 @@ title: Skonfiguruj podpis cyfrowy PDF MS Project za pomocą Aspose.Tasks
 linktitle: Konfigurowanie szczegółów podpisu cyfrowego PDF w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować szczegóły podpisu cyfrowego Microsoft Project PDF przy użyciu Aspose.Tasks dla .NET. Zapewnij bezpieczeństwo i autentyczność plików swojego projektu.
-type: docs
 weight: 10
 url: /pl/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skonfiguruj podpis cyfrowy PDF MS Project za pomocą Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces konfigurowania szczegółów podpisu cyfrowego w formacie Microsoft Project PDF przy użyciu Aspose.Tasks dla .NET. Wykonując poniższe kroki, będziesz mógł bezproblemowo zintegrować podpisy cyfrowe z plikami MS Project, zapewniając bezpieczeństwo i autentyczność.
 ## Warunki wstępne
@@ -84,3 +90,9 @@ Odp.: Tak, możesz dostosować wygląd podpisu cyfrowego, w tym tekst, czcionkę
 Odpowiedź: Nie, po zastosowaniu podpisu cyfrowego do pliku PDF nie można go usunąć ani zaktualizować. W razie potrzeby możesz jednak dodać dodatkowe podpisy.
 ### P: Czy istnieją jakieś ograniczenia dotyczące rozmiaru lub złożoności pliku programu Microsoft Project?
 Odp.: Aspose.Tasks może bez ograniczeń obsługiwać pliki Microsoft Project o różnych rozmiarach i złożoności. Jednak wydajność może się różnić w zależności od dostępnego sprzętu i zasobów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

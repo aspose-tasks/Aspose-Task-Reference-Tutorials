@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的自訂欄位類型
 linktitle: Aspose.Tasks 中的自訂欄位類型
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中使用自訂欄位類型。包含程式碼範例和常見問題的逐步指南。
-type: docs
 weight: 23
 url: /zh-hant/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的自訂欄位類型
+
 ## 介紹
 
 歡迎來到我們關於在 Aspose.Tasks for .NET 中使用自訂欄位類型的教學！ Aspose.Tasks 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 Microsoft Project 檔案。在本教程中，我們將重點放在理解和利用自訂欄位類型，這是處理專案資料的重要方面。
@@ -89,3 +95,9 @@ A4：是的，Aspose.Tasks 允許您在專案檔案中操作任務和資源資�
 ### Q5：有 Aspose.Tasks 用戶的社群論壇嗎？
 
  A5: 是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)與其他用戶互動並獲得 Aspose 團隊的支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تعيين معلمات المهام المتكررة في Aspose.Tasks
 linktitle: تعيين معلمات المهام المتكررة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تعيين معلمات المهام المتكررة في Microsoft Project باستخدام Aspose.Tasks لـ .NET. برنامج تعليمي شامل مع دليل خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين معلمات المهام المتكررة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إعداد معلمات المهام المتكررة لـ Microsoft Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 نعم، يمكنك زيارة منتدى Aspose.Tasks للحصول على المساعدة من المجتمع أو الاتصال بالدعم للحصول على مساعدة مباشرة.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  يمكنك الحصول على ترخيص مؤقت من[موقع إلكتروني](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

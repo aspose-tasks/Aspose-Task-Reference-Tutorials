@@ -3,10 +3,16 @@ title: Az MS Project Group kritériumainak manipulálása az Aspose.Tasks-ban
 linktitle: Csoportkritériumok az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel, hogyan kezelheti programozottan az MS Project fájlokat .NET-ben az Aspose.Tasks használatával. Példák lépésről lépésre lekérni a feladatcsoport- és kritériuminformációkat.
-type: docs
 weight: 27
 url: /hu/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Group kritériumainak manipulálása az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony API, amely megkönnyíti a Microsoft Project fájlokkal való munkát a .NET-alkalmazásokban. Akár projektmenedzsment szoftvert fejleszt, akár programozottan kell manipulálnia a projektadatokat, az Aspose.Tasks szolgáltatások átfogó készletét kínálja az Ön igényeinek kielégítésére.
 ## Előfeltételek
@@ -78,3 +84,9 @@ Természetesen az Aspose.Tasks kiterjedt funkciókat kínál a projektadatok, p�
 Igen, az Aspose.Tasks több .NET-platformot támogat, beleértve a .NET-keretrendszert, a .NET Core-t és a .NET Standard-t.
 ### Létezik olyan közösségi fórum az Aspose.Tasks számára, ahol segítséget kérhetek?
  Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kérdéseket feltenni, tudást megosztani és együttműködni más felhasználókkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

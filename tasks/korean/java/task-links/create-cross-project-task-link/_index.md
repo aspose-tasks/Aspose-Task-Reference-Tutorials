@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 프로젝트 간 작업 링크 생성
 linktitle: Aspose.Tasks에서 프로젝트 간 작업 링크 생성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java로 프로젝트 협업을 강화하세요. 프로젝트 간 작업 링크를 단계별로 생성하는 방법을 알아보세요. 지금 효율성을 높이세요!
-type: docs
 weight: 10
 url: /ko/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 프로젝트 간 작업 링크 생성
+
 ## 소개
 역동적인 프로젝트 관리 세계에서는 효율성과 협업이 무엇보다 중요합니다. Aspose.Tasks for Java는 프로젝트 관리 기능을 향상시키는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 프로젝트 간 작업 링크를 생성하는 프로세스를 살펴보겠습니다. 이 단계별 가이드는 다양한 프로젝트 전반에 걸쳐 작업을 원활하게 연결하고 향상된 조정과 간소화된 작업 흐름을 촉진하는 기술을 갖추게 해줍니다.
 ## 전제조건
@@ -78,3 +84,9 @@ System.out.println("Process completed Successfully");
 예, 적절한 Aspose.Tasks 메서드를 사용하여 작업 링크를 제거하면 작업 링크를 해제할 수 있습니다.
 ### 프로젝트 간에 연결할 수 있는 작업 수에 제한이 있나요?
 연결할 수 있는 작업 수는 Aspose.Tasks 라이선스의 기능과 제한 사항에 따라 달라집니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

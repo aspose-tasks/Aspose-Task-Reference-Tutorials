@@ -3,10 +3,16 @@ title: Aspose.Tasks でリンク タイプを定義する
 linktitle: Aspose.Tasks でリンク タイプを定義する
 second_title: Aspose.Tasks Java API
 description: プロジェクト管理における Aspose.Tasks for Java の威力を探ってください。ステップバイステップのチュートリアルを使用して、リンク タイプを簡単に定義およびカスタマイズできます。
-type: docs
 weight: 13
 url: /ja/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でリンク タイプを定義する
+
 ## 導入
 Aspose.Tasks for Java を使用した効率的なプロジェクト管理の世界へようこそ!プロジェクトの処理を合理化し、生産性を向上させたいと考えているなら、ここが最適な場所です。この包括的なチュートリアルでは、Aspose.Tasks for Java でリンク タイプを定義するプロセスをガイドし、プロジェクト管理機能を強化します。
 ## 前提条件
@@ -60,3 +66,9 @@ A: もちろんです！ Aspose.Tasks には柔軟性があり、プロジェク
 訪問[このリンク](https://purchase.aspose.com/temporary-license/)テスト目的で一時ライセンスを取得します。
 ### Q: Aspose.Tasks 関連のクエリのサポートはどこで受けられますか?
  A: Aspose.Tasks コミュニティに参加してください。[サポートフォーラム](https://forum.aspose.com/c/tasks/15)支援とディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

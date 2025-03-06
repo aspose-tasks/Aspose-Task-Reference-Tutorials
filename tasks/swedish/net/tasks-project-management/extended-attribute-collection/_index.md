@@ -3,10 +3,16 @@ title: Hantera MS Project Attributes Collection i Aspose.Tasks
 linktitle: Hantera utökad attributsamling i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt hanterar MS Project utökade attribut med Aspose.Tasks för .NET. Manipulera sömlöst uppgiftsattribut med steg-för-steg-vägledning.
-type: docs
 weight: 12
 url: /sv/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Attributes Collection i Aspose.Tasks
+
 ## Introduktion
 Är du ute efter att effektivt hantera MS Project utökade attribut med Aspose.Tasks för .NET? I den här handledningen guidar vi dig genom processen steg för steg. Låt oss dyka in!
 ## Förutsättningar
@@ -105,3 +111,9 @@ A: Absolut! Aspose.Tasks för .NET låter dig definiera anpassade utökade attri
 S: Ja, Aspose.Tasks för .NET stöder MS Project-filformat i olika versioner.
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
  S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

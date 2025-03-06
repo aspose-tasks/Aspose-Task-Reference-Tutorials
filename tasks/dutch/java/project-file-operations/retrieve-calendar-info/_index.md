@@ -3,10 +3,16 @@ title: Haal MS Project-agenda-informatie op in Aspose.Tasks
 linktitle: Haal agenda-informatie op in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u MS Project-agendagegevens kunt ophalen met Aspose.Tasks voor Java. Stapsgewijze handleiding voor programmatische toegang tot agendagegevens.
-type: docs
 weight: 14
 url: /nl/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal MS Project-agenda-informatie op in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u agendagegevens uit Microsoft Project-bestanden kunt ophalen met behulp van de Aspose.Tasks voor Java-bibliotheek. Aspose.Tasks biedt krachtige functies om projectgegevens te manipuleren, inclusief toegang tot agendagegevens zoals werkdagen en uren.
 ## Vereisten
@@ -88,3 +94,9 @@ A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https:
  A: Ja, tijdelijke licenties zijn te koop[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik gedetailleerde documentatie voor Aspose.Tasks vinden?
  A: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Atama Temelini Yönetme
 linktitle: Aspose.Tasks'ta Atama Temelini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje ilerlemesinin ve performansının doğru şekilde izlenmesini sağlayarak atama temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin.
-type: docs
 weight: 14
 url: /tr/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Atama Temelini Yönetme
+
 ## giriiş
 
 Proje yönetimi görevleri üzerinde çalışırken, ilerlemeyi doğru bir şekilde izlemek için atama temellerini yönetmek çok önemlidir. Aspose.Tasks for .NET, atama temellerini verimli bir şekilde yönetmek için kapsamlı bir araç seti sağlar. Bu öğreticide, atama temellerini adım adım yönetme sürecini ele alacağız.
@@ -123,3 +129,9 @@ Cevap4: Evet, geliştiriciler Aspose.Tasks web sitesindeki kapsamlı belgelere, 
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
  Cevap5: Evet, geliştiriciler Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirler:[Burada](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini ve yeteneklerini değerlendirmelerine olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

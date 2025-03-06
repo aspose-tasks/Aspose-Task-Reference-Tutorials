@@ -3,10 +3,16 @@ title: บันทึกเป็น PDF ใน Aspose.Tasks
 linktitle: บันทึกเป็น PDF ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีแปลงไฟล์โปรเจ็กต์เป็น PDF โดยใช้ Aspose.Tasks สำหรับ Java ขั้นตอนง่ายๆ เพื่อการแปลงที่มีประสิทธิภาพ
-type: docs
 weight: 17
 url: /th/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกเป็น PDF ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการบันทึกโปรเจ็กต์เป็น PDF โดยใช้ Aspose.Tasks สำหรับ Java ด้วย Aspose.Tasks คุณสามารถแปลงไฟล์โครงการของคุณเป็นรูปแบบ PDF ได้อย่างมีประสิทธิภาพ รับประกันความเข้ากันได้และการแบ่งปันที่ง่ายดาย มาดำดิ่งสู่ขั้นตอนต่างๆ:
 ## ข้อกำหนดเบื้องต้น
@@ -68,3 +74,9 @@ project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
  ตอบ: ได้ คุณสามารถทดลองใช้ Aspose.Tasks ได้ฟรีจาก[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: สำหรับการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

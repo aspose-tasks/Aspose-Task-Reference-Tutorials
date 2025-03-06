@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 掌握 WBS 代码掩码
 linktitle: Aspose.Tasks 中 WBS 代码掩码的集合
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 增强项目管理。在这个综合教程中学习如何轻松创建、管理和传输 WBS 代码掩码。
-type: docs
 weight: 15
 url: /zh/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 掌握 WBS 代码掩码
+
 ## 介绍
 在项目管理的动态世界中，有效地组织任务至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来轻松管理项目工作分解结构 (WBS) 代码。在本教程中，我们将深入研究 WBS 代码掩码集合，探索如何使用 Aspose.Tasks for .NET 实现和操作它们。
 ## 先决条件
@@ -139,3 +145,9 @@ foreach (var childTask in otherChildTasks)
 答：WBS 代码有助于分层组织和构建项目任务，为项目规划提供系统方法。
 ### 问：我可以在 Aspose.Tasks for .NET 中自定义 WBS 代码的格式吗？
 答：当然，您可以使用 Aspose.Tasks for .NET 完全控制 WBS 代码的格式和结构。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

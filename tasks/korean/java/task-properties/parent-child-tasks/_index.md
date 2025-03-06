@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 상위 및 하위 작업 관리
 linktitle: Aspose.Tasks에서 상위 및 하위 작업 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java로 프로젝트 관리 효율성을 향상하세요. 상위 및 하위 작업을 단계별로 관리하는 방법을 알아보세요. 지금 시작하세요!
-type: docs
 weight: 24
 url: /ko/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 상위 및 하위 작업 관리
+
 ## 소개
 프로젝트 관리 영역에서는 효과적인 작업 구성이 중요합니다. Aspose.Tasks for Java는 상위 및 하위 작업을 효율적으로 관리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 프로젝트 작업을 간소화하는 과정을 안내합니다.
 ## 전제조건
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Tasks에 대한 포괄적인 문서는 어디에서 찾을 수 있나요?
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

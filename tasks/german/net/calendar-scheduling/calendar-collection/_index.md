@@ -3,10 +3,16 @@ title: Verwalten der Kalendersammlung in Aspose.Tasks
 linktitle: Verwalten der Kalendersammlung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Kalendersammlungen in Aspose.Tasks für .NET effizient verwalten. Erstellen, ändern und manipulieren Sie ganz einfach Kalender.
-type: docs
 weight: 11
 url: /de/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten der Kalendersammlung in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie Kalendersammlungen in Aspose.Tasks für .NET verwalten. Kalender spielen eine entscheidende Rolle im Projektmanagement und definieren Arbeitstage, Feiertage und Ausnahmen. Aspose.Tasks bietet robuste Funktionen zum Bearbeiten von Kalendern in Ihren Projekten.
@@ -160,3 +166,9 @@ A4: Ja, Aspose.Tasks ermöglicht den Export von Kalendern in verschiedene Format
 ### F5: Kann ich die Arbeitszeiten für bestimmte Tage in einem Kalender anpassen?
 
 A5: Natürlich können Sie über Ausnahmen im Kalender Arbeitszeiten für einzelne Tage festlegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

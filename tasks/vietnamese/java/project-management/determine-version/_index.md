@@ -3,10 +3,16 @@ title: Xác định phiên bản dự án MS với Aspose.Tasks
 linktitle: Xác định phiên bản dự án với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xác định phiên bản của tệp MS Project theo lập trình bằng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 12
 url: /vi/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác định phiên bản dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Hướng dẫn này sẽ hướng dẫn bạn sử dụng Aspose.Tasks cho Java để xác định phiên bản của tệp MS Project theo từng bước. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, bạn có thể thao tác dữ liệu dự án, sửa đổi n
 Trả lời: Không, Aspose.Tasks hoạt động độc lập và không yêu cầu cài đặt Microsoft Project.
 ### Câu hỏi: Aspose.Tasks có hỗ trợ kỹ thuật không?
  Đáp: Có, bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks tại[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的资源类型
 linktitle: Aspose.Tasks 中的资源类型
 second_title: Aspose.Tasks .NET API
 description: 通过分步教程，了解如何在 Aspose.Tasks for .NET 中使用不同类型的资源，包括工时、材料和成本资源。
-type: docs
 weight: 14
 url: /zh/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的资源类型
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，允许开发人员以编程方式处理 Microsoft Project 文件。无论您是管理任务、资源还是计划，Aspose.Tasks 都可以通过提供一套全面的 API 来简化流程。在本教程中，我们将深入研究您可以使用 Aspose.Tasks for .NET 在项目中使用的不同类型的资源。
 ## 先决条件
@@ -60,3 +66,9 @@ cost.Set(Rsc.Cost, 59.99m);
 答：是的，您可以购买临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：Aspose.Tasks for .NET 是否提供参考文档？
 答： 是的，你可以找到文档[这里](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

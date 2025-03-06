@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中建立自訂 MS 專案視圖
 linktitle: Aspose.Tasks 中的自訂視圖
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 輕鬆建立自訂 MS Project 視圖。透過客製化視圖提高專案管理效率。
-type: docs
 weight: 24
 url: /zh-hant/java/project-file-operations/custom-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中建立自訂 MS 專案視圖
+
 ## 介紹
 在專案管理中，自訂視圖可以顯著提高管理任務和資源的清晰度和效率。 Aspose.Tasks for Java 提供了強大的工具來建立根據特定專案要求自訂的自訂視圖。在本教程中，我們將逐步探索如何使用 Aspose.Tasks for Java 建立自訂 MS Project 視圖。
 ## 先決條件
@@ -86,3 +92,9 @@ System.out.println("Parent Project of the view: " + view.getParentProject().get(
 答：當然可以。 Aspose.Tasks for Java 提供了全面的自動化 API，使開發人員能夠根據需要以程式設計方式建立和管理自訂視圖。
 ### Q5：是否有 Aspose.Tasks for Java 支援的社群論壇？
 答：是的，您可以在以下位置尋求協助並與其他使用者互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)用於 Java 相關的查詢和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS プロジェクト オプション Primavera を Aspose.Tasks で保�
 linktitle: Primavera の Aspose.Tasks の保存オプション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して、Primavera の MS Project オプションをシームレスに保存する方法を説明します。ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 14
 url: /ja/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS プロジェクト オプション Primavera を Aspose.Tasks で保存する
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Microsoft Project ファイルをシームレスに操作できるようにする強力なライブラリです。これが提供する重要な機能の 1 つは、人気のあるプロジェクト管理ソフトウェアである Primavera の MS Project オプションを保存する機能です。このチュートリアルでは、Aspose.Tasks を使用してこれを実現する方法を詳しく説明します。
 ## 前提条件
@@ -59,3 +65,9 @@ A: もちろん、Aspose.Tasks はあらゆる規模のプロジェクトに取�
  A: はい、Aspose.Tasks の無料トライアルを次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/)その機能と機能を探索します。
 ### Q: Aspose.Tasks の使用中に問題が発生したり質問がある場合、どこでサポートを受けられますか?
  A: Aspose.Tasks コミュニティおよびサポート チームに支援を求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

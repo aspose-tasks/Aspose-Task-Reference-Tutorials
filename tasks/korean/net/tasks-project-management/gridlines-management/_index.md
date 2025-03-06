@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks를 사용하여 프로젝트 눈금선 사용자 정
 linktitle: Aspose.Tasks의 격자선 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks, 프로젝트 시각화 및 관리 효율성을 사용하여 Microsoft Project 파일의 눈금선 설정을 프로그래밍 방식으로 조정하는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks를 사용하여 프로젝트 눈금선 사용자 정의
+
 ## 소개
 프로젝트를 효율적으로 관리하려면 일정과 작업을 명확하게 시각화해야 하는 경우가 많습니다. 프로젝트 시각화의 중요한 측면 중 하나는 프로젝트 구조를 구성하고 이해하는 데 도움이 되는 격자선입니다. Aspose.Tasks for .NET은 프로그래밍 방식으로 Microsoft Project 파일의 눈금선을 조작하는 강력한 기능을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 눈금선으로 작업하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -69,3 +75,9 @@ A: 예, Aspose.Tasks는 MPP, XML, XLSX, CSV 등 다양한 파일 형식을 지�
 답: 물론이죠. Aspose.Tasks를 사용하면 프로젝트 데이터 또는 사용자 정의 기준에 따라 눈금선 설정을 동적으로 조정하는 논리를 통합할 수 있습니다.
 ### Q: .NET용 Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  A: 다음을 탐색할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/tasks/net/) 종합 가이드를 보려면 다음을 방문하세요.[지원 포럼](https://forum.aspose.com/c/tasks/15) 도움이 필요하거나[임시면허](https://purchase.aspose.com/temporary-license/) 확장된 평가를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός εξαίρεσης μη έγκυρου μεγέθου�
 linktitle: Χειρισμός εξαίρεσης μη έγκυρου μεγέθους για Bitmap στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε το BitmapInvalidSizeException στο Aspose.Tasks για .NET όταν αποθηκεύετε έργα ως εικόνες. Ολοκληρωμένο σεμινάριο με οδηγίες βήμα προς βήμα.
-type: docs
 weight: 22
 url: /el/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εξαίρεσης μη έγκυρου μεγέθους για Bitmap στο Aspose.Tasks
+
 ## Εισαγωγή
 
  Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον χειρισμό του`BitmapInvalidSizeException` όταν εργάζεστε με το Aspose.Tasks για .NET. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού, επιτρέποντας εργασίες όπως η αποθήκευση έργων ως εικόνες. Ωστόσο, περιστασιακά, όταν επιχειρούμε να αποθηκεύσουμε ένα έργο ως εικόνα, μπορεί να συναντήσουμε ένα`Invalid Size Exception`που σχετίζονται με το bitmap. Αυτό το σεμινάριο έχει ως στόχο να σας καθοδηγήσει στη διαδικασία της σύλληψης και του αποτελεσματικού χειρισμού αυτής της εξαίρεσης.
@@ -111,3 +117,9 @@ A4: Ναι, το Aspose.Tasks υποστηρίζει διάφορες εκδόσ
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
 
 A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια για σκοπούς αξιολόγησης μέσω του συνδέσμου που παρέχεται στο άρθρο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

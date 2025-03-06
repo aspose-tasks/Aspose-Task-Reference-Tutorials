@@ -3,10 +3,16 @@ title: Dominar las opciones de guardado de MS Project para Aspose.Tasks
 linktitle: Opciones generales de guardado para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a guardar archivos de MS Project de manera eficiente usando Aspose.Tasks para .NET. Personalice las opciones de salida sin esfuerzo para sus proyectos.
-type: docs
 weight: 17
 url: /es/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las opciones de guardado de MS Project para Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para .NET ofrece potentes funciones para manipular archivos de Microsoft Project mediante programación. En este tutorial, profundizaremos en las complejidades de guardar archivos de MS Project usando varias opciones proporcionadas por Aspose.Tasks. Específicamente, nos centraremos en las opciones generales de guardado disponibles para Aspose.Tasks, lo que le permitirá adaptar la salida a sus requisitos específicos.
 ## Requisitos previos
@@ -68,3 +74,9 @@ R: Sí, Aspose.Tasks admite varias versiones de archivos de MS Project, lo que g
  R: Las licencias temporales están disponibles para fines de evaluación.[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo buscar ayuda para consultas relacionadas con Aspose.Tasks?
  R: Puedes unirte al foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15)para obtener ayuda de expertos y compañeros desarrolladores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置工作時間
 linktitle: 在 Aspose.Tasks 中配置工作時間
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks 增強 .NET 中的專案排程。輕鬆配置工作時間以實現精確的資源管理。立即下載庫！
-type: docs
 weight: 13
 url: /zh-hant/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置工作時間
+
 ## 介紹
 在專案管理中，精確控制工作時間對於準確調度和資源分配至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來處理專案中的工作時間資訊。本教學將引導您完成在 .NET 環境中使用 Aspose.Tasks 配置工作時間的過程。
 ## 先決條件
@@ -84,3 +90,9 @@ foreach (var day in weekDays)
 Aspose.Tasks支援多種檔案格式，實現專案資料的無縫匯入/匯出操作。
 ### Aspose.Tasks 更新發佈的頻率是多少？
 定期發布更新以確保與最新技術的兼容性並解決用戶回饋。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

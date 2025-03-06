@@ -3,10 +3,16 @@ title: Nắm vững cách xử lý đơn vị công việc trong Aspose.Tasks
 linktitle: Xử lý các đơn vị công việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks for .NET, một thư viện mạnh mẽ để quản lý dự án hiệu quả. Xử lý các đơn vị công việc với độ chính xác để sử dụng tài nguyên tối ưu.
-type: docs
 weight: 15
 url: /vi/net/time-recurrence-configuration/work-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững cách xử lý đơn vị công việc trong Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới năng động của quản lý dự án, việc xử lý các đơn vị công việc một cách hiệu quả là rất quan trọng để hoàn thành dự án thành công. Aspose.Tasks for .NET cung cấp một bộ công cụ mạnh mẽ để điều hướng thông tin về đơn vị công việc, đảm bảo kiểm soát chính xác các mốc thời gian của dự án và phân bổ nguồn lực.
 ## Điều kiện tiên quyết
@@ -57,3 +63,9 @@ Tóm lại, Aspose.Tasks for .NET trao quyền cho các nhà phát triển xử 
  Nhận giấy phép tạm thời cho Aspose.Tasks bằng cách truy cập[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks mang lại lợi ích gì cho việc xử lý các đơn vị công việc?
 Aspose.Tasks cung cấp một bộ chức năng mạnh mẽ để làm việc với các đơn vị công việc, cho phép kiểm soát chính xác các mốc thời gian của dự án, phân bổ nguồn lực và quản lý dự án tổng thể.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف السمات الموسعة إلى المهام في Aspose.Tasks
 linktitle: أضف السمات الموسعة إلى المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks Java في تخصيص ملفات Microsoft Project ذات السمات الموسعة. تعزيز قدرات إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف السمات الموسعة إلى المهام في Aspose.Tasks
+
 ## مقدمة
 يعد تعزيز قدرات إدارة مشروعك أمرًا بالغ الأهمية لتتبع المهام وإدارة الموارد بكفاءة. يوفر Aspose.Tasks for Java حلاً قويًا لمطوري Java للتعامل مع ملفات Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سنستكشف كيفية إضافة سمات موسعة إلى المهام باستخدام Aspose.Tasks لـ Java، مما يسمح لك بتخصيص بيانات مشروعك وتنظيمها وفقًا لمتطلباتك المحددة.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp)
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
 ### س: هل يمكنني تجربة Aspose.Tasks لـ Java قبل الشراء؟
  ج: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

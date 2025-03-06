@@ -3,10 +3,16 @@ title: Aspose.Tasks'taki Kaynaklar için Zaman Aşamalı Verileri Okuyun
 linktitle: Aspose.Tasks'taki Kaynaklar için Zaman Aşamalı Verileri Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project kaynaklarından zaman aşamalı verileri nasıl çıkaracağınızı öğrenin. Adım adım öğretici.
-type: docs
 weight: 15
 url: /tr/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'taki Kaynaklar için Zaman Aşamalı Verileri Okuyun
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for Java'yı kullanarak MS Project kaynakları için zaman aşamalı verileri okuma sürecinde size rehberlik edeceğiz. Bu kitaplık, Microsoft Project dosyalarını programlı olarak yönetmek için güçlü işlevler sağlar.
 ## Önkoşullar
@@ -74,3 +80,9 @@ Kesinlikle Aspose.Tasks, proje verilerini oluşturmak, değiştirmek ve analiz e
 Evet, Aspose.Tasks, güvenilirliği ve ölçeklenebilirliği nedeniyle kurumsal ortamlarda yaygın olarak kullanılmaktadır.
 ### Aspose.Tasks'ı kullanırken sorunlarla karşılaşırsam nereden destek bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan ve destek ekibinden yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

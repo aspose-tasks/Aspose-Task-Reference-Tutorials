@@ -3,10 +3,16 @@ title: Managing Task Collections in Aspose.Tasks
 linktitle: Managing Task Collections in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore efficient task collection management in Aspose.Tasks for .NET. From creation to editing, master project management with ease.
-type: docs
 weight: 18
 url: /net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Task Collections in Aspose.Tasks
+
 ## Introduction
 If you're delving into the world of project management using .NET, Aspose.Tasks is your go-to solution for seamless handling of task collections. This tutorial will guide you through the process of managing task collections efficiently, ensuring you make the most out of this powerful library.
 ## Prerequisites
@@ -95,3 +101,10 @@ You can set task dependencies using the `TaskLink` class provided by Aspose.Task
 Yes, you can find support and engage with the community at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
 ### Can I obtain a temporary license for Aspose.Tasks?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

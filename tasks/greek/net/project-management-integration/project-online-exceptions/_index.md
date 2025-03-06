@@ -3,10 +3,16 @@ title: Διαχείριση MS Project Online Exceptions στο Aspose.Tasks
 linktitle: Εργασία με Project Online Exceptions στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε απρόσκοπτα τις εξαιρέσεις του Microsoft Project Online με το Aspose.Tasks για .NET. Βήμα προς βήμα σεμινάριο για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 21
 url: /el/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση MS Project Online Exceptions στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές του χειρισμού των εξαιρέσεων του Microsoft Project Online χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι ένα ισχυρό API .NET που επιτρέπει στους προγραμματιστές να χειρίζονται και να διαχειρίζονται εύκολα τα αρχεία του Microsoft Project. Θα ακολουθήσουμε τη διαδικασία βήμα προς βήμα, διασφαλίζοντας μια ολοκληρωμένη κατανόηση του τρόπου εργασίας με εξαιρέσεις MS Project Online στις εφαρμογές σας .NET.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Πώς μπορώ να αγοράσω μια άδεια χρήσης για το Aspose.Tasks;
  Α: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

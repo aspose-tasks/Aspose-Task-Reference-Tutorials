@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS プロジェクト グループ基準を�
 linktitle: Aspose.Tasks でのグループ基準コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用してグループ基準 MS プロジェクトのコレクションを管理する方法を学びます。開発者向けのステップバイステップのガイド。
-type: docs
 weight: 28
 url: /ja/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS プロジェクト グループ基準を管理する
+
 ## 導入
 Aspose.Tasks for .NET は、開発者がプログラムで Microsoft Project ファイルを操作できるようにする強力な API です。このチュートリアルでは、Aspose.Tasks を使用して MS Project 内でグループ基準コレクションを管理する方法を説明します。
 
@@ -126,3 +132,9 @@ A: もちろん、複数の条件をグループに追加するには、それ�
 ### Q5: 問題が発生した場合、どうすればサポートを受けられますか?
 
  A: 質問がある場合、または問題に直面している場合は、Aspose.Tasks フォーラムからサポートを求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

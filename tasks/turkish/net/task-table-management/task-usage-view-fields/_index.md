@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Kullanımı Görünümü Alanları Açıklanıyor
 linktitle: Aspose.Tasks'ta Görev Kullanımı Görünümü Alanlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Proje verilerini zahmetsizce yönetmek ve görselleştirmek için Aspose.Tasks for .NET'i keşfedin. Gelişmiş proje öngörüleri için Görev Kullanımı Görünümü Alanlarına dalın.
-type: docs
 weight: 25
 url: /tr/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Kullanımı Görünümü Alanları Açıklanıyor
+
 ## giriiş
 Proje yönetimi alanında Aspose.Tasks for .NET, geliştiricilere proje verilerini işlemek ve yönetmek için güçlü bir araç seti sağlayan sağlam bir çözüm olarak duruyor. Dikkate değer özelliklerden biri, proje görünürlüğünü artıran çeşitli alanlara ilişkin bilgiler sunan Görev Kullanım Görünümü'dür. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Görev Kullanım Görünümü Alanlarının inceliklerini derinlemesine inceleyeceğiz ve kapsamlı bir anlayış için her adımı parçalara ayıracağız.
 ## Önkoşullar
@@ -64,3 +70,9 @@ Aspose.Tasks öncelikli olarak .NET uygulamalarına odaklanır. Ancak verileri d
  Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
 ### Proje belgeleri için hangi dosya formatları desteklenir?
 Aspose.Tasks for .NET, MPP, XML ve CSV dahil olmak üzere çeşitli formatları destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

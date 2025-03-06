@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 연도별 반복
 linktitle: Aspose.Tasks에서 연도별 반복
 second_title: Aspose.태스크 .NET API
 description: 반복 작업을 효율적으로 관리하는 데 있어 Aspose.Tasks for .NET의 강력한 기능을 살펴보세요. 연도 요일별 반복 기능 구현을 위한 단계별 가이드입니다.
-type: docs
 weight: 28
 url: /ko/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 연도별 반복
+
 ## 소개
 
 프로젝트 관리 영역에서는 효율성과 정확성이 가장 중요합니다. Aspose.Tasks for .NET은 프로젝트 처리를 간소화하는 다양한 기능을 제공하는 강력한 도구로 등장합니다. 그 무기 중 하나는 놀라운 유연성으로 반복되는 작업을 관리하는 능력입니다. 그러한 기능 중 하나는 "연도별 반복, 요일별 반복" 기능으로, 사용자가 특정 요일, 지정된 달 내 및 여러 해에 걸쳐 반복되는 작업을 설정할 수 있습니다.
@@ -126,3 +132,9 @@ A: 예, Aspose.Tasks for .NET은 클라우드 기반 프로젝트 관리 솔루�
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
 A: 예, 다음에서 .NET용 Aspose.Tasks 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/), 구매 결정을 내리기 전에 기능을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

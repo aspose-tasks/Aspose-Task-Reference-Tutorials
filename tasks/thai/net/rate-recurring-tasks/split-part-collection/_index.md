@@ -3,10 +3,16 @@ title: รวบรวม MS Project ของ Split Parts ใน Aspose.Tasks
 linktitle: การรวบรวมชิ้นส่วนแยกใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีรวบรวมส่วนที่แยกใน MS Project โดยใช้ Aspose.Tasks สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
-type: docs
 weight: 19
 url: /th/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รวบรวม MS Project ของ Split Parts ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีการรวบรวมส่วนที่แยกใน MS Project โดยใช้ Aspose.Tasks สำหรับ .NET การแบ่งงานออกเป็นส่วนๆ อาจเป็นส่วนสำคัญของการจัดการโครงการ และ Aspose.Tasks ก็มอบวิธีการที่สะดวกในการจัดการสิ่งนี้อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +72,9 @@ Console.WriteLine("Split start: " + split.Start);
  ตอบ: สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับการใช้งานระยะสั้น
 ### ถาม: ฉันจะขอความช่วยเหลือหรือการสนับสนุนเกี่ยวกับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมฟอรัม Aspose.Tasks ได้[ที่นี่](https://forum.aspose.com/c/tasks/15)เพื่อขอความช่วยเหลือจากชุมชนหรือทีมสนับสนุน Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

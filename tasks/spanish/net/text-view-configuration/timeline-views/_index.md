@@ -3,10 +3,16 @@ title: Dominar las vistas de las líneas de tiempo del proyecto en Aspose.Tasks
 linktitle: Personalización de las vistas de la línea de tiempo en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine Aspose.Tasks para .NET en la personalización de vistas de línea de tiempo. Mejore la gestión de su proyecto con cronogramas visualmente atractivos y adaptados a las necesidades de su proyecto.
-type: docs
 weight: 13
 url: /es/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las vistas de las líneas de tiempo del proyecto en Aspose.Tasks
+
 ## Introducción
 Crear vistas de cronograma visualmente atractivas e informativas es crucial para una gestión eficaz de proyectos. Aspose.Tasks para .NET proporciona una solución sólida para personalizar las vistas de la línea de tiempo, lo que le permite adaptar la visualización de tareas según las necesidades específicas de su proyecto. En esta guía paso a paso, exploraremos cómo usar Aspose.Tasks para crear y personalizar vistas de línea de tiempo sin esfuerzo.
 ## Requisitos previos
@@ -76,3 +82,9 @@ Sí, Aspose.Tasks admite varios marcos .NET, lo que garantiza la compatibilidad 
  Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Cómo obtengo una licencia temporal para Aspose.Tasks?
  Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

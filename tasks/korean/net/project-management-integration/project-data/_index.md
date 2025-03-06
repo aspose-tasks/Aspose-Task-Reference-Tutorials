@@ -3,10 +3,16 @@ title: Aspose.Tasks로 프로젝트 데이터 마스터링
 linktitle: Aspose.Tasks에서 프로젝트 데이터 작업
 second_title: Aspose.태스크 .NET API
 description: .NET에서 Aspose.Tasks를 사용하여 Microsoft Project 데이터를 조작하는 방법을 알아보세요. 쉽게 작업을 생성하고, 리소스를 추가하고, 프로젝트를 저장하세요.
-type: docs
 weight: 16
 url: /ko/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks로 프로젝트 데이터 마스터링
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks 라이브러리를 사용하여 Microsoft Project 데이터로 작업하는 방법을 살펴보겠습니다. Aspose.Tasks는 작업 생성, 리소스 추가, 속성 설정, 다양한 형식으로 프로젝트 저장 등 프로젝트 파일을 조작하는 강력한 기능을 제공합니다.
 ## 전제조건
@@ -92,3 +98,9 @@ A: 물론 Aspose.Tasks는 다른 .NET 라이브러리와 원활하게 통합되�
 A: 예, Aspose.Tasks에는 프로젝트 타임라인과 리소스 활용도를 최적화하는 데 도움이 되는 고급 일정 알고리즘이 포함되어 있습니다.
 ### Q: Aspose.Tasks 사용자를 위한 커뮤니티 포럼이 있나요?
  A: 예, 유용한 리소스를 찾고 다른 Aspose.Tasks 사용자와 교류할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

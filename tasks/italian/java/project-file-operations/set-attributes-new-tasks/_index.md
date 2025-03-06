@@ -3,10 +3,16 @@ title: Impostazione degli attributi di MS Project per nuove attività in Aspose.
 linktitle: Imposta gli attributi per le nuove attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come impostare gli attributi di MS Project per nuove attività utilizzando Aspose.Tasks per Java. Personalizza facilmente le proprietà delle attività con questa guida completa.
-type: docs
 weight: 21
 url: /it/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione degli attributi di MS Project per nuove attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel nostro tutorial completo sull'impostazione degli attributi di MS Project per le nuove attività in Aspose.Tasks per Java! In questa guida ti guideremo attraverso il processo passo dopo passo, assicurandoti che tu possa gestire e personalizzare facilmente le tue attività con questa potente libreria Java.
 ## Prerequisiti
@@ -68,3 +74,9 @@ R: Sì, Aspose.Tasks per Java fornisce funzionalità estese per manipolare i fil
  R: Le licenze temporanee per Aspose.Tasks per Java possono essere ottenute da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso ottenere supporto per eventuali problemi o domande relative ad Aspose.Tasks per Java?
  R: Puoi ottenere supporto e interagire con la community su[Aspose.Tasks per il forum di supporto Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

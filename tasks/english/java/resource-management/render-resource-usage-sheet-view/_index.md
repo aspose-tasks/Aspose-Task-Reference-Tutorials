@@ -3,10 +3,16 @@ title: Render Resource Usage and Sheet View in Aspose.Tasks
 linktitle: Render Resource Usage and Sheet View in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to render MS Project Resource Usage and Sheet views in Aspose.Tasks for Java. Follow our step-by-step guide to generate detailed PDF reports effortlessly.
-type: docs
 weight: 16
 url: /java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Resource Usage and Sheet View in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will learn how to use Aspose.Tasks for Java to render MS Project Resource Usage and Sheet views. Aspose.Tasks is a powerful Java library that allows developers to work with Microsoft Project files without the need for Microsoft Project to be installed.
 ## Prerequisites
@@ -78,3 +84,10 @@ Absolutely! Aspose.Tasks provides extensive options for customizing the appearan
 No, Aspose.Tasks is a standalone library and does not require Microsoft Project to be installed for its functioning.
 ### Is technical support available for Aspose.Tasks users?
 Yes, Aspose.Tasks users can avail themselves of technical support through the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

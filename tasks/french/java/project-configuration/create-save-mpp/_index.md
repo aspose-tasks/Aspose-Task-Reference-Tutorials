@@ -3,10 +3,16 @@ title: Créer et enregistrer un projet vide au format MPP avec Aspose.Tasks
 linktitle: Créez et enregistrez un projet vide au format MPP avec Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment créer et enregistrer un fichier MS Project (MPP) vide à l'aide d'Aspose.Tasks pour Java. Simplifiez les tâches de gestion de projet sans effort.
-type: docs
 weight: 12
 url: /fr/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer et enregistrer un projet vide au format MPP avec Aspose.Tasks
+
 ## Introduction
 Créer et enregistrer un fichier MS Project (MPP) vide à l'aide d'Aspose.Tasks pour Java est un processus simple. Dans ce didacticiel, nous passerons en revue chaque étape pour vous aider à accomplir cette tâche efficacement.
 ## Conditions préalables
@@ -61,3 +67,9 @@ R : Absolument, Aspose.Tasks pour Java offre des fonctionnalités étendues pour
 R : Oui, Aspose.Tasks for Java prend en charge divers formats de fichiers de projet, notamment XML, CSV, etc.
 ### Q : Où puis-je trouver une assistance supplémentaire pour Aspose.Tasks pour Java ?
  R : Vous pouvez visiter Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15) pour un support et une assistance spécifiques à Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

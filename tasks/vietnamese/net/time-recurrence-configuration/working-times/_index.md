@@ -3,10 +3,16 @@ title: Định cấu hình thời gian làm việc trong Aspose.Tasks
 linktitle: Định cấu hình thời gian làm việc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tăng cường lập kế hoạch dự án trong .NET với Aspose.Tasks. Cấu hình thời gian làm việc dễ dàng để quản lý tài nguyên chính xác. Tải thư viện ngay bây giờ!
-type: docs
 weight: 13
 url: /vi/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình thời gian làm việc trong Aspose.Tasks
+
 ## Giới thiệu
 Trong quản lý dự án, việc kiểm soát chính xác thời gian làm việc là rất quan trọng để lập kế hoạch và phân bổ nguồn lực chính xác. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để xử lý thông tin về thời gian làm việc trong các dự án của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình định cấu hình thời gian làm việc bằng Aspose.Tasks trong môi trường .NET.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Có, Aspose.Tasks tạo điều kiện tích hợp với nhiều công cụ qu�
 Aspose.Tasks hỗ trợ nhiều định dạng tệp, cho phép các hoạt động nhập/xuất dữ liệu dự án liền mạch.
 ### Tần suất phát hành các bản cập nhật Aspose.Tasks như thế nào?
 Các bản cập nhật được phát hành thường xuyên để đảm bảo khả năng tương thích với các công nghệ mới nhất và giải quyết phản hồi của người dùng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

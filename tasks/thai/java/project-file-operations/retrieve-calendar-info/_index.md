@@ -3,10 +3,16 @@ title: ดึงข้อมูลปฏิทินโครงการ MS ใ
 linktitle: ดึงข้อมูลปฏิทินใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีดึงข้อมูลปฏิทิน MS Project โดยใช้ Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการเข้าถึงรายละเอียดปฏิทินโดยทางโปรแกรม
-type: docs
 weight: 14
 url: /th/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดึงข้อมูลปฏิทินโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีดึงข้อมูลปฏิทินจากไฟล์ Microsoft Project โดยใช้ไลบรารี Aspose.Tasks สำหรับ Java Aspose.Tasks มอบฟีเจอร์อันทรงพลังในการจัดการข้อมูลโปรเจ็กต์ รวมถึงการเข้าถึงรายละเอียดปฏิทิน เช่น วันและเวลาทำงาน
 ## ข้อกำหนดเบื้องต้น
@@ -88,3 +94,9 @@ System.out.println("Process completed Successfully");
  ตอบ: ได้ มีใบอนุญาตชั่วคราวให้ซื้อได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถดูเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

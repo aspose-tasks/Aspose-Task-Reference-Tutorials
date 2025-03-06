@@ -3,10 +3,16 @@ title: Dominar los criterios de filtro de MS Project con Aspose.Tasks
 linktitle: Criterios de filtrado en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a implementar criterios de filtro en MS Project usando Aspose.Tasks para .NET. Aumente la eficiencia de la gestión de proyectos con análisis de datos específicos.
-type: docs
 weight: 18
 url: /es/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar los criterios de filtro de MS Project con Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, Microsoft Project se erige como una herramienta incondicional que ofrece una gran cantidad de funciones para ayudar a los planificadores y administradores de proyectos. Entre sus muchas funcionalidades se encuentra la capacidad de filtrar datos del proyecto, lo que permite a los usuarios centrarse en aspectos específicos de las tareas de su proyecto. Sin embargo, dominar estas capacidades de filtrado puede ser una tarea desalentadora sin la orientación adecuada. Este tutorial tiene como objetivo desmitificar el proceso proporcionando una guía paso a paso sobre cómo implementar criterios de filtro en MS Project utilizando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -89,3 +95,9 @@ R: Aspose.Tasks es compatible con .NET Framework, .NET Core y .NET Standard, lo 
 R: Por supuesto, puede ajustar mediante programación los criterios de filtro basados en parámetros dinámicos, lo que permite un análisis adaptable de los datos del proyecto.
 ### P: ¿Dónde puedo buscar ayuda si tengo problemas con Aspose.Tasks?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para buscar apoyo de la comunidad o comunicarse directamente con el soporte de Aspose.Tasks para obtener asistencia personalizada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

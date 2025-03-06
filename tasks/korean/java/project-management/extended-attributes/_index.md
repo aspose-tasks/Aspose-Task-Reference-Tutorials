@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트에서 확장 속성 처리
 linktitle: Aspose.Tasks 프로젝트에서 확장 속성 처리
 second_title: Aspose.Tasks 자바 API
 description: Java를 효율적으로 사용하여 Aspose.Tasks 프로젝트의 확장 속성을 처리하는 방법을 알아보세요. 효과적인 프로젝트 관리를 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트에서 확장 속성 처리
+
 ## 소개
 프로젝트 관리에서 확장된 속성을 관리하는 것은 프로젝트 데이터를 사용자 정의하고 향상하는 데 중요합니다. Aspose.Tasks for Java는 MS 프로젝트 파일의 확장된 속성을 효율적으로 처리할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 각 개념을 철저하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -86,3 +92,9 @@ A: 물론 Aspose.Tasks를 사용하면 프로젝트 요구 사항에 맞는 사�
  A: Aspose.Tasks 웹사이트에서 포괄적인 문서를 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com/tasks/java/).
 ### Q: Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
  A: 예, Aspose.Tasks 포럼을 통해 기술 지원에 액세스할 수 있습니다.[웹사이트](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

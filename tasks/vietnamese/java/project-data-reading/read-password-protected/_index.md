@@ -3,10 +3,16 @@ title: Đọc các tệp được bảo vệ bằng mật khẩu trong Aspose.Ta
 linktitle: Đọc các tệp được bảo vệ bằng mật khẩu trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đọc các tệp được bảo vệ bằng mật khẩu trong Aspose.Tasks cho Java một cách dễ dàng với hướng dẫn từng bước trong hướng dẫn này.
-type: docs
 weight: 14
 url: /vi/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc các tệp được bảo vệ bằng mật khẩu trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một nhiệm vụ phổ biến mà các nhà phát triển phải đối mặt là đọc các tệp được bảo vệ bằng mật khẩu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình đọc các tệp như vậy.
 ## Điều kiện tiên quyết
@@ -49,3 +55,9 @@ Trả lời: Bạn có thể tìm tài liệu chi tiết về Aspose.Tasks for J
  Trả lời: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks cho Java không?
  Đáp: Bạn có thể yêu cầu giấy phép tạm thời cho một số chức năng nhất định hoặc trong thời gian đánh giá. Hiểu rồi[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

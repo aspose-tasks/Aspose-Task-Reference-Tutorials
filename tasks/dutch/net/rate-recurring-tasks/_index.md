@@ -3,10 +3,16 @@ title: Aspose.Tasks Tariefbeheer en terugkerende taken
 linktitle: Aspose.Tasks Tariefbeheer en terugkerende taken
 second_title: Aspose.Tasks .NET API
 description: Beheers MS Project-tariefbeheer en terugkerende taken met Aspose.Tasks .NET. Leer hoe u taken kunt automatiseren, tarieven kunt afhandelen en gesplitste onderdelen voor projectworkflows kunt beheren.
-type: docs
 weight: 28
 url: /nl/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Tariefbeheer en terugkerende taken
+
 
 ## Invoering
 
@@ -67,3 +73,9 @@ Leer hoe u MS Project-bestanden in verschillende formaten kunt opslaan met Aspos
 Leer hoe u efficiënt met MS Project-gesplitste onderdelen kunt omgaan met Aspose.Tasks voor .NET. Verbeter uw projectmanagementworkflow.
 ### [Verzamel MS-project van gesplitste onderdelen in Aspose.Tasks](./split-part-collection/)
 Leer hoe u gesplitste onderdelen verzamelt in MS Project met behulp van Aspose.Tasks voor .NET. Deze uitgebreide tutorial begeleidt u stap voor stap door het proces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

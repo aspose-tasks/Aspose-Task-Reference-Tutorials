@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中以 24bppRgb 格式渲染 MS Project 数据
 linktitle: 在 Aspose.Tasks 中以 24bppRgb 格式渲染数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 在 Java 中将 MS Project 数据渲染为图像。请按照我们的分步教程进行无缝集成。
-type: docs
 weight: 11
 url: /zh/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中以 24bppRgb 格式渲染 MS Project 数据
+
 ## 介绍
 在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 以 MS Project 格式 24bppRgb 渲染数据的过程。将项目数据呈现为图像格式可用于多种目的，例如直观地共享项目进度或创建报告。
 ## 先决条件
@@ -63,3 +69,9 @@ project.save(dataDir + "resFile.tif", options);
 答：是的，您需要购买 Aspose.Tasks 的商业使用许可证。您可以从以下位置获取用于测试目的的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我在哪里可以获得 Aspose.Tasks 的支持？
 答：您可以从以下位置获得对 Aspose.Tasks 的支持：[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

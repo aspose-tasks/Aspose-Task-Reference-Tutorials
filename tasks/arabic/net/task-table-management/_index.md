@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة المهام وتنسيق الجدول
 linktitle: Aspose.Tasks إدارة المهام وتنسيق الجدول
 second_title: Aspose.Tasks .NET API
 description: قم بتكوين الجداول وإدارتها بسهولة في Aspose.Tasks لـ .NET من خلال البرامج التعليمية خطوة بخطوة. تعزيز كفاءة إدارة المشاريع ومهارات العرض.
-type: docs
 weight: 29
 url: /ar/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة المهام وتنسيق الجدول
+
 ## مقدمة
 
 يُحدث Aspose.Tasks for .NET ثورة في إدارة المشاريع بميزاته القوية. تستكشف هذه المقالة العديد من البرامج التعليمية حول إدارة المهام وتنسيق الجدول، وتقدم دليلاً شاملاً لزيادة كفاءتك إلى أقصى حد. دعونا نتعمق في المواضيع الرئيسية:
@@ -91,3 +97,9 @@ url: /ar/net/task-table-management/
 استكشف Aspose.Tasks لـ .NET لإدارة بيانات المشروع وتصورها بسهولة. تعمق في حقول عرض استخدام المهام للحصول على رؤى محسنة للمشروع.
 ### [مجموعة من حقول عرض استخدام المهام في Aspose.Tasks](./task-usage-view-fields/)
 استكشف Aspose.Tasks لـ .NET وتعرف على كيفية تكوين طرق عرض استخدام المهام. قم بتخصيص إعدادات الجدول الزمني وتحسين صور إدارة مشروعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

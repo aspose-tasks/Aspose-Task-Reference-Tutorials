@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.Tasks for Java
 linktitle: Aspose.Tasks for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Explore Aspose.Tasks for Java with our tutorials. Master calendar, project management, and more. Streamline your workflows for efficient project execution.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.Tasks for Java
+
 
 ## Introduction
 Are you ready to elevate your Java project management skills? Dive into the world of Aspose.Tasks for Java with our extensive tutorials covering various aspects of project management. From calendar exceptions to VBA integration, we've got you covered.
@@ -93,3 +98,10 @@ Explore Aspose.Tasks Java with our Task Baselines Tutorials. Streamline task sch
 Enhance Java project management with Aspose.Tasks. Explore tutorials on task properties, from handling priorities to managing costs. Optimize your project today!
 ### [VBA Integration](./vba-integration/)
 Explore Aspose.Tasks Java with VBA integration. Streamline project workflows & improve task tracking. Explore comprehensive tutorials for seamless VBA integration!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

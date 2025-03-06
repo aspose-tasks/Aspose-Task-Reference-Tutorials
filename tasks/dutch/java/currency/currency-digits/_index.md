@@ -3,10 +3,16 @@ title: Behandel valutacijfers met Aspose.Tasks
 linktitle: Behandel valutacijfers met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u efficiënt met MS Project-valutacijfers kunt omgaan met Aspose.Tasks voor Java. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 11
 url: /nl/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandel valutacijfers met Aspose.Tasks
+
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het omgaan met MS Project-valutacijfers met behulp van Aspose.Tasks voor Java. In deze tutorial begeleiden we u stap voor stap door het proces, zodat u elk concept grondig begrijpt.
 ## Vereisten
@@ -56,3 +62,9 @@ Ja, u kunt Aspose.Tasks voor Java gebruiken op verschillende platforms die Java-
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
  Ondersteuning vindt u op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

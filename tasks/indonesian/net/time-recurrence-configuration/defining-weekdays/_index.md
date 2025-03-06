@@ -3,10 +3,16 @@ title: Menguasai Hari Kerja di Aspose.Tasks untuk .NET
 linktitle: Mendefinisikan Hari Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan menentukan hari kerja di Aspose.Tasks .NET. Ikuti tutorial mendetail kami untuk mengelola kalender proyek secara efisien, menyesuaikan waktu kerja, dan banyak lagi.
-type: docs
 weight: 10
 url: /id/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Hari Kerja di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Jika Anda mendalami dunia manajemen proyek menggunakan Aspose.Tasks untuk .NET, memahami dan memanipulasi hari kerja adalah aspek yang penting. Mengelola dan menyesuaikan hari kerja secara efisien dalam kalender proyek Anda dapat berdampak signifikan pada jadwal proyek. Dalam tutorial ini, kami akan memandu Anda melalui proses menentukan hari kerja menggunakan Aspose.Tasks, memberikan petunjuk langkah demi langkah dan contoh untuk kejelasan yang lebih baik.
 ## Prasyarat
@@ -116,3 +122,9 @@ Manfaatkan metode yang sesuai yang disediakan oleh perpustakaan Aspose.Tasks unt
 Ya, setiap modifikasi pada hari kerja akan tercermin dalam file proyek saat disimpan.
 ### Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?
 Aspose.Tasks mendukung berbagai bahasa pemrograman, namun contoh di sini khusus untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

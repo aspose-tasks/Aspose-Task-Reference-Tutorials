@@ -3,10 +3,16 @@ title: Feladathasználati nézetmezők bemutatása az Aspose.Tasks-ban
 linktitle: Feladathasználati nézetmezők gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET alkalmazást, amellyel könnyedén kezelheti és megjelenítheti a projektadatokat. Merüljön el a Task Usage View Fieldsben a jobb projektbetekintés érdekében.
-type: docs
 weight: 25
 url: /hu/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladathasználati nézetmezők bemutatása az Aspose.Tasks-ban
+
 ## Bevezetés
 A projektmenedzsment területén az Aspose.Tasks for .NET robusztus megoldás, amely hatékony eszközkészletet biztosít a fejlesztőknek a projektadatok manipulálásához és kezeléséhez. Az egyik figyelemre méltó funkció a Task Usage View, amely betekintést nyújt a projekt láthatóságát javító különféle területekbe. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával elmélyülünk a Feladathasználati nézetmezők bonyolultságában, az egyes lépéseket lebontva az átfogó megértés érdekében.
 ## Előfeltételek
@@ -64,3 +70,9 @@ Az Aspose.Tasks elsősorban a .NET-alkalmazásokra összpontosít. Azonban expor
  Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
 ### Milyen fájlformátumok támogatottak a projektdokumentumokhoz?
 Az Aspose.Tasks for .NET különféle formátumokat támogat, beleértve az MPP-t, az XML-t és a CSV-t.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 從 MS 專案行事曆中讀取工作週
 linktitle: 使用 Aspose.Tasks 從行事曆中讀取工作週
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 從 MS Project 行事曆中讀取工作週。在此綜合教程中取得逐步說明。
-type: docs
 weight: 15
 url: /zh-hant/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 從 MS 專案行事曆中讀取工作週
+
 ## 介紹
 在本教程中，我們將探討如何使用 Aspose.Tasks for Java 從 Microsoft Project 日曆中讀取工作週資訊。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓您以程式設計方式操作和管理 Microsoft Project 文件。
 ## 先決條件
@@ -65,3 +71,9 @@ for (WorkWeek workWeek : collection) {
 是的，您可以從以下位置下載 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到對 Aspose.Tasks 的支援？
 您可以在 Aspose.Tasks 論壇上找到支援和協助[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

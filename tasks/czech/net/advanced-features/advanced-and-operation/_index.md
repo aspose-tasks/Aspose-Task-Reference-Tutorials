@@ -3,10 +3,16 @@ title: Pokročilé operace AND v Aspose.Tasks
 linktitle: Pokročilé operace AND v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se provádět pokročilé operace AND v Aspose.Tasks pro .NET a efektivně filtrovat projektové úkoly na základě více kritérií.
-type: docs
 weight: 10
 url: /cs/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé operace AND v Aspose.Tasks
+
 ## Úvod
 
  V tomto tutoriálu se ponoříme do pokročilé operace AND v Aspose.Tasks for .NET, mocném nástroji pro správu úloh a projektů. Prozkoumáme, jak filtrovat projektové úkoly na základě více podmínek pomocí`Util.And` třída.
@@ -107,3 +113,9 @@ Odpověď: Ano, Util.And lze použít ke kombinaci libovolného počtu podmínek
 ### Q5: Jak mohu získat podporu pro Aspose.Tasks pro .NET?
 
 Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

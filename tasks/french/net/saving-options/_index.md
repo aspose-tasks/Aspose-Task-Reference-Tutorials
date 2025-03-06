@@ -3,10 +3,16 @@ title: Options d'enregistrement d'Aspose.Tasks
 linktitle: Options d'enregistrement d'Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Enregistrez, convertissez et gérez les fichiers MS Project avec Aspose.Tasks pour .NET. Explorez des didacticiels pas à pas pour le HTML, les images, les PDF, Primavera, les modèles et bien plus encore.
-type: docs
 weight: 20
 url: /fr/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Options d'enregistrement d'Aspose.Tasks
+
 
 ## Introduction
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 Enregistrez les options de MS Project avec Aspose.Tasks 
 Découvrez comment utiliser Aspose.Tasks pour .NET pour générer sans effort des représentations SVG de fichiers Microsoft Project pour une visualisation améliorée du projet.
 ### [Convertir les options MSP en XPS avec Aspose.Tasks](./xps-options/)
 Découvrez comment convertir des fichiers Microsoft Project au format XPS à l'aide d'Aspose.Tasks pour .NET. Intégration facile, fonctionnalité robuste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

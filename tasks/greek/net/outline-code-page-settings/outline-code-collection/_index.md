@@ -3,10 +3,16 @@ title: Συλλογή MS Project of Outline Codes στο Aspose.Tasks
 linktitle: Συλλογή κωδικών περίγραμμα στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να συλλέγετε κωδικούς περίληψης του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Αυτό το περιεκτικό σεμινάριο παρέχει οδηγίες βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλογή MS Project of Outline Codes στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να συλλέγουμε κωδικούς περίληψης του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Θα αναλύσουμε τη διαδικασία σε οδηγίες βήμα προς βήμα για να διασφαλίσουμε τη σαφήνεια και την κατανόηση.
 ## Προαπαιτούμενα
@@ -95,3 +101,9 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 Α: Απολύτως, το Aspose.Tasks για .NET παρέχει εκτενείς επιλογές για την προσαρμογή της μορφής εξόδου σύμφωνα με τις απαιτήσεις σας.
 ### Ε: Πού μπορώ να βρω πρόσθετη υποστήριξη ή πόρους για το Aspose.Tasks για .NET;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε βοήθεια ή απορία σχετικά με το Aspose.Tasks για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

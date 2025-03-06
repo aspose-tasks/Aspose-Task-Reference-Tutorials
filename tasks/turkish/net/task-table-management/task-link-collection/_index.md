@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Bağlantılarını Yönetme
 linktitle: Aspose.Tasks'ta Görev Bağlantılarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Proje görev bağlantılarını verimli bir şekilde yönetme konusunda Aspose.Tasks for .NET'in gücünü keşfedin. Proje yönetimi deneyiminizi geliştirmek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 19
 url: /tr/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Bağlantılarını Yönetme
+
 ## giriiş
 Aspose.Tasks for .NET'te görev bağlantılarının yönetimine ilişkin adım adım kılavuza hoş geldiniz! Görev bağlantıları, proje yönetiminde çok önemli bir rol oynar ve görevler arasında ilişkiler kurmanıza ve bağımlılıklar oluşturmanıza olanak tanır. Bu eğitimde Aspose.Tasks'ı kullanarak görev bağlantısı koleksiyonlarıyla çalışma sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -85,3 +91,9 @@ Aspose.Tasks şu anda standart görev bağlantı türlerini desteklemektedir ve 
 Aspose.Tasks, büyük proje dosyalarını minimum performans etkisi ile verimli bir şekilde işleyebilir.
 ### Aspose.Tasks desteği için bir topluluk forumu var mı?
  Evet, destek bulabilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 다양한 단위의 작업 기간
 linktitle: Aspose.Tasks를 사용한 다양한 단위의 작업 기간
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트의 작업 기간 관리를 살펴보세요. 기간을 분, 일, 시간, 주, 월 단위로 정확하게 계산하고 변환합니다.
-type: docs
 weight: 32
 url: /ko/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 다양한 단위의 작업 기간
+
 ## 소개
 프로젝트 관리 영역에서는 작업 기간을 이해하고 관리하는 것이 중요한 측면입니다. Aspose.Tasks for Java는 이를 효율적으로 처리할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 다양한 단위로 작업 기간을 검색하는 방법을 안내합니다.
 ## 전제조건
@@ -83,3 +89,9 @@ Aspose.Tasks for Java를 사용하면 작업 기간 관리가 간단해집니다
  방문하다[선적 서류 비치](https://reference.aspose.com/tasks/java/)포괄적인 자원을 위해.
 ### Q: 구매하기 전에 Java용 Aspose.Tasks를 사용해 볼 수 있나요?
  예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 그 능력을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

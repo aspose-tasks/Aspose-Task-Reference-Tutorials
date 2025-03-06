@@ -3,10 +3,16 @@ title: Handling Compound Document Header Exception in Aspose.Tasks
 linktitle: Handling Compound Document Header Exception in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step-by-step guidance with code examples.
-type: docs
 weight: 16
 url: /net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Compound Document Header Exception in Aspose.Tasks
+
 ## Introduction
 
 In the realm of .NET development, managing project tasks efficiently is a paramount concern. Aspose.Tasks provides a comprehensive solution for .NET developers to handle project management tasks seamlessly. However, encountering exceptions is an inevitable aspect of software development. One such exception that developers may come across is the `CompoundDocumentHeaderException`. This tutorial aims to guide developers on how to effectively handle this exception using Aspose.Tasks for .NET.
@@ -105,3 +111,10 @@ A4: Yes, Aspose.Tasks offers cloud APIs for seamless integration with cloud-base
 ### Q5: How frequently are updates and bug fixes released for Aspose.Tasks?
 
 A5: Aspose.Tasks regularly releases updates and bug fixes to ensure the stability and reliability of the library.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

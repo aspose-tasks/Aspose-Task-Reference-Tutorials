@@ -3,10 +3,16 @@ title: Hantera uppgiftssamlingar i Aspose.Tasks
 linktitle: Hantera uppgiftssamlingar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska effektiv uppgiftsinsamlingshantering i Aspose.Tasks för .NET. Från skapande till redigering, behärska projektledning med lätthet.
-type: docs
 weight: 18
 url: /sv/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera uppgiftssamlingar i Aspose.Tasks
+
 ## Introduktion
 Om du fördjupar dig i en värld av projektledning med hjälp av .NET, är Aspose.Tasks din bästa lösning för sömlös hantering av uppgiftssamlingar. Denna handledning guidar dig genom processen att hantera uppgiftssamlingar effektivt, vilket säkerställer att du får ut det mesta av detta kraftfulla bibliotek.
 ## Förutsättningar
@@ -95,3 +101,9 @@ Absolut! Aspose.Tasks tillhandahåller mångsidiga exportalternativ, inklusive P
  Ja, du kan hitta stöd och engagera dig i samhället på[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
 ### Kan jag få en tillfällig licens för Aspose.Tasks?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

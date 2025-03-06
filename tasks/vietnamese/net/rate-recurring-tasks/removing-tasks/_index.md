@@ -3,10 +3,16 @@ title: Xóa nhiệm vụ dự án MS bằng Aspose.Tasks
 linktitle: Xóa tác vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách loại bỏ các tác vụ MS Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Hướng dẫn từng bước kèm theo các ví dụ về mã.
-type: docs
 weight: 15
 url: /vi/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa nhiệm vụ dự án MS bằng Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xóa tác vụ khỏi tệp Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Xóa tác vụ khỏi tệp dự án có thể là một yêu cầu phổ biến trong các tình huống quản lý dự án và Aspose.Tasks cung cấp một cách đơn giản để đạt được điều này.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Trả lời: Aspose.Tasks cung cấp chức năng mạnh mẽ cho các hoạt đ
 Trả lời: Hoàn toàn có thể, Aspose.Tasks cung cấp hỗ trợ toàn diện cho các cấu trúc dự án phức tạp, cho phép bạn thao tác các nhiệm vụ, tài nguyên và các thành phần khác của dự án một cách dễ dàng.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks không?
  Đáp: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks từ[đây](https://releases.aspose.com/tasks/net/) để khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

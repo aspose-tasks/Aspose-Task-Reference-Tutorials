@@ -3,10 +3,16 @@ title: Master Yearly Recurrence Patterns in Aspose.Tasks for .NET
 linktitle: Configuring Yearly Recurrence Patterns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description:  Learn to configure yearly recurrence patterns in Aspose.Tasks for .NET. Enhance your project management skills with this step-by-step guide.
-type: docs
 weight: 18
 url: /net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Yearly Recurrence Patterns in Aspose.Tasks for .NET
+
 ## Introduction
 In the dynamic world of project management, handling recurring tasks efficiently is a key aspect. Aspose.Tasks for .NET provides a powerful solution to configure yearly recurrence patterns, allowing you to streamline your project scheduling and management. In this step-by-step guide, we'll explore how to set up yearly recurrence patterns using Aspose.Tasks.
 ## Prerequisites
@@ -69,3 +75,10 @@ Ensure you have a working knowledge of C# and .NET, as well as the Aspose.Tasks 
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and assistance.
 ### Can I try Aspose.Tasks for free before purchasing?
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

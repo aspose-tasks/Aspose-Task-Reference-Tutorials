@@ -3,10 +3,16 @@ title: Verzamel MS-project van gesplitste onderdelen in Aspose.Tasks
 linktitle: Verzameling van gesplitste onderdelen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u gesplitste onderdelen verzamelt in MS Project met behulp van Aspose.Tasks voor .NET. Deze uitgebreide tutorial begeleidt u stap voor stap door het proces.
-type: docs
 weight: 19
 url: /nl/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzamel MS-project van gesplitste onderdelen in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het verzamelen van gesplitste onderdelen in MS Project met behulp van Aspose.Tasks voor .NET. Het opsplitsen van taken in delen kan een cruciaal aspect van projectmanagement zijn, en Aspose.Tasks biedt handige methoden om dit efficiënt af te handelen.
 ## Vereisten
@@ -66,3 +72,9 @@ A: Aspose.Tasks ondersteunt verschillende versies van MS Project-bestanden, waar
  A: Tijdelijke licenties kunnen worden verkregen via[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
 ### Vraag: Waar kan ik hulp of ondersteuning zoeken met betrekking tot Aspose.Tasks?
  A: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15)om hulp te zoeken bij de gemeenschap of het Aspose-ondersteuningsteam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

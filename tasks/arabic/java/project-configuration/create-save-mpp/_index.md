@@ -3,10 +3,16 @@ title: قم بإنشاء وحفظ مشروع فارغ بتنسيق MPP باست�
 linktitle: قم بإنشاء وحفظ مشروع فارغ بتنسيق MPP باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء وحفظ ملف MS Project (MPP) فارغ باستخدام Aspose.Tasks لـ Java. تبسيط مهام إدارة المشروع دون عناء.
-type: docs
 weight: 12
 url: /ar/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء وحفظ مشروع فارغ بتنسيق MPP باستخدام Aspose.Tasks
+
 ## مقدمة
 يعد إنشاء وحفظ ملف MS Project (MPP) فارغًا باستخدام Aspose.Tasks لـ Java عملية مباشرة. في هذا البرنامج التعليمي، سنتعرف على كل خطوة لمساعدتك في إنجاز هذه المهمة بكفاءة.
 ## المتطلبات الأساسية
@@ -61,3 +67,9 @@ System.out.println("Project file generated Successfully");
 ج: نعم، يدعم Aspose.Tasks for Java تنسيقات ملفات المشروع المختلفة بما في ذلك XML وCSV والمزيد.
 ### س: أين يمكنني العثور على دعم إضافي لـ Aspose.Tasks لـ Java؟
  ج: يمكنك زيارة Aspose.Tasks[المنتدى](https://forum.aspose.com/c/tasks/15) للحصول على الدعم والمساعدة الخاصة بـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

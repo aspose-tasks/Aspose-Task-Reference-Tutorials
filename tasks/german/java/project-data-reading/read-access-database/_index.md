@@ -3,10 +3,16 @@ title: Lesen von Projektdaten aus der MS Access-Datenbank in Aspose.Tasks
 linktitle: Lesen von Projektdaten aus der Microsoft Access-Datenbank mit Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java MS Project-Daten aus einer Microsoft Access-Datenbank lesen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 11
 url: /de/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lesen von Projektdaten aus der MS Access-Datenbank in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für Java ist eine leistungsstarke API, die es Entwicklern ermöglicht, nahtlos mit Microsoft Project-Dateien in Java-Anwendungen zu arbeiten. In diesem Tutorial konzentrieren wir uns auf das Lesen von MS Project-Daten aus einer Microsoft Access-Datenbank mithilfe von Aspose.Tasks.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Datenbanksysteme wie SQL Server, M
  A: Für einige erweiterte Funktionen benötigen Sie möglicherweise eine temporäre Lizenz. Holen Sie es sich von[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Aspose.Tasks für Java kaufen?
  A: Sie können Aspose.Tasks für Java bei kaufen[dieser Link](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

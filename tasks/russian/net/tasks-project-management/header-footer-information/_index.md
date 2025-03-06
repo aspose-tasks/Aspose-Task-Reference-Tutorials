@@ -3,10 +3,16 @@ title: Извлеките информацию верхнего и нижнег�
 linktitle: Информация верхнего и нижнего колонтитула в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Научитесь извлекать информацию верхнего и нижнего колонтитула из файлов MS Project с помощью Aspose.Tasks для .NET. Простое, эффективное и удобное для разработчиков решение.
-type: docs
 weight: 29
 url: /ru/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлеките информацию верхнего и нижнего колонтитула с помощью Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам с легкостью манипулировать файлами Microsoft Project. В этом уроке мы научимся получать информацию верхнего и нижнего колонтитула из файлов MS Project с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  Вы можете найти документацию для Aspose.Tasks.[здесь](https://reference.aspose.com/tasks/net/).
 ### Как я могу получить поддержку для Aspose.Tasks?
  Вы можете получить поддержку Aspose.Tasks, посетив[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

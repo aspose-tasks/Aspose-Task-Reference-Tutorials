@@ -3,10 +3,16 @@ title: Управление модулями VBA в Aspose.Tasks
 linktitle: Управление модулями VBA в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Легко управляйте модулями VBA в файлах Microsoft Project с помощью Aspose.Tasks для .NET. Изучите пошаговые инструкции и улучшите рабочий процесс разработки.
-type: docs
 weight: 10
 url: /ru/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление модулями VBA в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам работать с файлами Microsoft Project в своих .NET-приложениях. Одной из ключевых особенностей Aspose.Tasks является возможность управлять модулями VBA (Visual Basic для приложений) в файлах проекта. В этом уроке мы углубимся в процесс управления модулями VBA с помощью Aspose.Tasks в пошаговом руководстве.
 ## Предварительные условия
@@ -74,3 +80,9 @@ foreach (var module in project.VbaProject.Modules)
 Да, вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
 ### Как я могу получить поддержку или обратиться за помощью по любым вопросам, связанным с Aspose.Tasks?
 Смело посетите[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

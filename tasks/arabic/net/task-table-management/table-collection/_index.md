@@ -3,10 +3,16 @@ title: دليل إتقان مجموعات الجدول في Aspose.Tasks
 linktitle: مجموعة من الجداول في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أتقن Aspose.Tasks لـ .NET من خلال دليلنا خطوة بخطوة حول التعامل مع مجموعات الجداول. تعزيز تطبيقات إدارة المشاريع دون عناء. التحميل الان!
-type: docs
 weight: 11
 url: /ar/net/task-table-management/table-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل إتقان مجموعات الجدول في Aspose.Tasks
+
 ## مقدمة
 أطلق العنان لقوة Aspose.Tasks لـ .NET من خلال الخوض في عالم مجموعات الجداول المثير للاهتمام. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو مع Aspose.Tasks، فإن هذا الدليل الشامل سوف يرشدك عبر الفروق الدقيقة في التعامل مع الجداول، مما يوفر لك المهارات اللازمة لتحسين تطبيقات إدارة المشروعات الخاصة بك.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ foreach (var table in list)
 ج: نعم، يمكنك استخدام project.Undo() للتراجع عن التغييرات التي تم إجراؤها أثناء الجلسة.
 ### س: هل هناك أي اعتبارات للأداء عند العمل مع المشاريع الكبيرة؟
 ج: للحصول على الأداء الأمثل، فكر في عمليات التجميع وتجنب التكرارات غير الضرورية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

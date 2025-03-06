@@ -3,10 +3,16 @@ title: Aspose.Tasks Управление скоростью и повторяю�
 linktitle: Aspose.Tasks Управление скоростью и повторяющиеся задачи
 second_title: Aspose.Tasks .NET API
 description: Освойте управление ставками MS Project и повторяющиеся задачи с помощью Aspose.Tasks .NET. Научитесь автоматизировать задачи, обрабатывать ставки и управлять разделением частей рабочих процессов проекта.
-type: docs
 weight: 28
 url: /ru/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Управление скоростью и повторяющиеся задачи
+
 
 ## Введение
 
@@ -67,3 +73,9 @@ url: /ru/net/rate-recurring-tasks/
 Узнайте, как эффективно обрабатывать разделенные части MS Project с помощью Aspose.Tasks для .NET. Улучшите рабочий процесс управления проектами.
 ### [Соберите MS Project of Split Parts в Aspose.Tasks](./split-part-collection/)
 Узнайте, как собирать разделенные части в MS Project с помощью Aspose.Tasks для .NET. Это подробное руководство шаг за шагом проведет вас через весь процесс.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

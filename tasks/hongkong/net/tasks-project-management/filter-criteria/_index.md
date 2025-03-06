@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 項目過濾標準
 linktitle: Aspose.Tasks 中的篩選條件
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 MS Project 中實作篩選條件。透過有針對性的數據分析提高專案管理效率。
-type: docs
 weight: 18
 url: /zh-hant/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 項目過濾標準
+
 ## 介紹
 在專案管理領域，Microsoft Project 是一款強大的工具，提供大量功能來幫助專案規劃者和經理。其眾多功能包括過濾專案資料的能力，使用戶能夠專注於專案任務的特定方面。然而，如果沒有正確的指導，掌握這些過濾功能可能是一項艱鉅的任務。本教程旨在透過提供有關使用 Aspose.Tasks for .NET 在 MS Project 中實現過濾條件的逐步指南來揭開該過程的神秘面紗。
 ## 先決條件
@@ -89,3 +95,9 @@ Console.WriteLine(criteria22.ToString());
 答：當然，您可以根據動態參數以程式方式調整篩選條件，從而實現自適應項目資料分析。
 ### Q：如果遇到 Aspose.Tasks 問題，我可以在哪裡尋求協助？
 答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求社群支援或直接聯繫 Aspose.Tasks 支援以獲得個人化協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

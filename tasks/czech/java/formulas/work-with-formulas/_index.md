@@ -3,10 +3,16 @@ title: Vzorce MS Project s Aspose.Tasks pro Javu
 linktitle: Práce se vzorci v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se manipulovat se soubory MS Project v Javě pomocí knihovny Aspose.Tasks. Snadno vytvářejte, upravujte a vypočítávejte atributy.
-type: docs
 weight: 11
 url: /cs/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vzorce MS Project s Aspose.Tasks pro Javu
+
 ## Úvod
 V tomto tutoriálu se ponoříme do práce se vzorci MS Project pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Díky rozsáhlým funkcím můžete snadno vytvářet, číst, upravovat a převádět soubory projektů v aplikacích Java.
 ## Předpoklady
@@ -64,3 +70,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé programovací jazyky včetně Jav
  Odpověď: Pro podporu můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Potřebuji dočasnou licenci pro používání Aspose.Tasks?
 Odpověď: Pokud požadujete další funkce, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

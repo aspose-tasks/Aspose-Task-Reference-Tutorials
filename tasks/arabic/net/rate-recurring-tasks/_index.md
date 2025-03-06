@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة معدل والمهام المتكررة
 linktitle: Aspose.Tasks إدارة معدل والمهام المتكررة
 second_title: Aspose.Tasks .NET API
 description: إتقان إدارة معدل مشروع MS والمهام المتكررة باستخدام Aspose.Tasks .NET. تعلم كيفية أتمتة المهام والتعامل مع المعدلات وإدارة الأجزاء المقسمة لسير عمل المشروع.
-type: docs
 weight: 28
 url: /ar/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة معدل والمهام المتكررة
+
 
 ## مقدمة
 
@@ -67,3 +73,9 @@ url: /ar/net/rate-recurring-tasks/
 تعرف على كيفية التعامل مع أجزاء MS Project المقسمة بكفاءة باستخدام Aspose.Tasks لـ .NET. تعزيز سير عمل إدارة المشروع الخاص بك.
 ### [جمع مشروع MS للأجزاء المقسمة في Aspose.Tasks](./split-part-collection/)
 تعرف على كيفية جمع الأجزاء المقسمة في MS Project باستخدام Aspose.Tasks لـ .NET. يرشدك هذا البرنامج التعليمي الشامل خلال العملية خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

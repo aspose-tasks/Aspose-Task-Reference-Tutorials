@@ -3,10 +3,16 @@ title: Guide de maîtrise des collections de tables dans Aspose.Tasks
 linktitle: Collection de tables dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Maîtrisez Aspose.Tasks pour .NET avec notre guide étape par étape sur la gestion des collections de tables. Améliorez les applications de gestion de projet sans effort. Télécharger maintenant!
-type: docs
 weight: 11
 url: /fr/net/task-table-management/table-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guide de maîtrise des collections de tables dans Aspose.Tasks
+
 ## Introduction
 Libérez la puissance d'Aspose.Tasks pour .NET en vous plongeant dans le domaine fascinant des collections de tables. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours avec Aspose.Tasks, ce guide complet vous guidera à travers les nuances de la gestion des tables, vous fournissant les compétences nécessaires pour améliorer vos applications de gestion de projet.
 ## Conditions préalables
@@ -95,3 +101,9 @@ R : Depuis la dernière version, il n’existe aucune limitation prédéfinie s
 R : Oui, vous pouvez utiliser project.Undo() pour annuler les modifications apportées au cours de la session.
 ### Q : Y a-t-il des considérations en matière de performances lorsque l'on travaille sur de grands projets ?
 R : Pour des performances optimales, envisagez les opérations par lots et évitez les itérations inutiles.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

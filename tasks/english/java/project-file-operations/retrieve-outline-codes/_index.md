@@ -3,10 +3,16 @@ title: Retrieve MS Project Outline Codes in Aspose.Tasks
 linktitle: Retrieve Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to retrieve Microsoft Project outline codes programmatically using Aspose.Tasks for Java. Enhance your project management capabilities.
-type: docs
 weight: 15
 url: /java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve MS Project Outline Codes in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll learn how to retrieve Microsoft Project outline codes using Aspose.Tasks for Java. Outline codes in MS Project provide a structured way to categorize and organize project tasks, resources, and assignments. Aspose.Tasks is a powerful Java library that allows developers to manipulate and manage Microsoft Project files programmatically.
 ## Prerequisites
@@ -82,3 +88,10 @@ A: You can get technical support by visiting the [Aspose.Tasks forum](https://fo
 A: Yes, you can purchase a temporary license for Aspose.Tasks for Java from the [purchase page](https://purchase.aspose.com/temporary-license/).
 ### Q5: Where can I find the complete documentation for Aspose.Tasks for Java?
 A: You can refer to the [documentation](https://reference.aspose.com/tasks/java/) for detailed information on using Aspose.Tasks for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

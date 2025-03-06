@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Verilerini MPP Formatına Güncelleyin
 linktitle: Aspose.Tasks'ta Görev Verilerini MPP Formatına Güncelleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak görev verilerini MPP formatına nasıl güncelleyeceğinizi öğrenin. Etkin proje yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 35
 url: /tr/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Verilerini MPP Formatına Güncelleyin
+
 ## giriiş
 Aspose.Tasks for Java'yı kullanarak görev verilerini MPP formatına güncellemeye ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitimde size süreç boyunca yol göstererek her adımı net bir şekilde kavramanızı sağlayacağız. Aspose.Tasks for Java, Microsoft Project dosyalarıyla çalışmak için sağlam bir çözüm sunar ve bu kılavuzun sonunda MPP formatındaki görev verilerini verimli bir şekilde güncelleyebileceksiniz.
 ## Önkoşullar
@@ -93,3 +99,9 @@ Tebrikler! Aspose.Tasks for Java'yı kullanarak MPP formatındaki görev veriler
  C: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Test amaçlı geçici lisanslar sunuyor musunuz?
  C: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

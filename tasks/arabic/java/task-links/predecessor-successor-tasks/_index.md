@@ -3,10 +3,16 @@ title: إدارة المهام السابقة واللاحقة في Aspose.Tasks
 linktitle: إدارة المهام السابقة واللاحقة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف إدارة المهام الفعالة باستخدام Aspose.Tasks لـ Java. التعامل بسهولة مع المهام السابقة واللاحقة في مشاريعك. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 15
 url: /ar/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة المهام السابقة واللاحقة في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التعامل الفعال مع تبعيات المهام أمرًا بالغ الأهمية. يقدم Aspose.Tasks for Java حلاً قويًا لإدارة المهام السابقة واللاحقة في مشاريعك. سيرشدك هذا البرنامج التعليمي خلال عملية الاستفادة من Aspose.Tasks لإدارة روابط المهام بكفاءة، مما يتيح لك إنشاء التبعيات بين المهام.
 ## المتطلبات الأساسية
@@ -52,3 +58,9 @@ for (TaskLink tsklnk : allinks) {
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
 ### هل يمكنني تنزيل نسخة تجريبية مجانية من Aspose.Tasks لـ Java؟
  نعم، قم بتنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

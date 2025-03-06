@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中檢索 MS 專案日曆信息
 linktitle: 在 Aspose.Tasks 中檢索日曆信息
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 擷取 MS Project 行事曆資訊。以程式設計方式存取日曆詳細資訊的逐步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中檢索 MS 專案日曆信息
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Tasks for Java 函式庫從 Microsoft Project 檔案中擷取行事曆資訊。 Aspose.Tasks 提供了強大的功能來操作專案數據，包括存取日曆詳細信息，例如工作日和時間。
 ## 先決條件
@@ -88,3 +94,9 @@ System.out.println("Process completed Successfully");
 答：是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的詳細文件？
 答：可以參考文檔[這裡](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

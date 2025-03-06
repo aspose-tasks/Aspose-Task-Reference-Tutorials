@@ -3,10 +3,16 @@ title: Menguasai Konfigurasi Minggu Kerja di Aspose.Tasks
 linktitle: Mengonfigurasi Minggu Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi minggu kerja dengan mudah di Aspose.Tasks untuk .NET. Tingkatkan penjadwalan proyek dan manajemen sumber daya dengan panduan langkah demi langkah kami.
-type: docs
 weight: 16
 url: /id/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Konfigurasi Minggu Kerja di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang mengonfigurasi minggu kerja di Aspose.Tasks untuk .NET. Mengelola minggu kerja secara efisien sangat penting untuk perencanaan dan penjadwalan proyek. Aspose.Tasks menyederhanakan proses ini, memungkinkan Anda menyesuaikan minggu kerja sesuai dengan kebutuhan proyek Anda. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk mengonfigurasi minggu kerja dengan lancar.
 ## Prasyarat
@@ -90,3 +96,9 @@ Meskipun Aspose.Tasks memberikan kemampuan impor/ekspor yang kuat, minggu kerja 
 Pada versi saat ini, tidak ada batasan yang ditentukan sebelumnya mengenai jumlah minggu kerja yang dapat Anda konfigurasi dalam sebuah proyek.
 ### Apakah ada templat bawaan untuk minggu kerja umum?
 Ya, Aspose.Tasks menyertakan templat kalender standar yang dapat Anda gunakan sebagai titik awal untuk proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

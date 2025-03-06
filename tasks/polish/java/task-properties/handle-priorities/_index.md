@@ -3,10 +3,16 @@ title: Obsługuj priorytety zadań w Aspose.Tasks
 linktitle: Obsługuj priorytety zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Z łatwością opanuj priorytety zadań dzięki Aspose.Tasks dla Java. Postępuj zgodnie z tym przewodnikiem, aby zapewnić bezproblemową obsługę. Podnieś swoje umiejętności zarządzania projektami!
-type: docs
 weight: 17
 url: /pl/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj priorytety zadań w Aspose.Tasks
+
 ## Wstęp
 Zarządzanie priorytetami zadań ma kluczowe znaczenie dla powodzenia projektu, a dzięki Aspose.Tasks dla Java staje się to płynnym procesem. Ten samouczek poprowadzi Cię przez obsługę priorytetów zadań przy użyciu Aspose.Tasks. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik podzieli proces na łatwe do wykonania kroki.
 ## Warunki wstępne
@@ -56,3 +62,9 @@ Tak, Aspose.Tasks dla Java jest odpowiedni zarówno dla aplikacji komputerowych,
  Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć szczegółową dokumentację?
  Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

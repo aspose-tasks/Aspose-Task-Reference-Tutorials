@@ -3,10 +3,16 @@ title: Obsługa funkcji oceny w formułach Aspose.Tasks
 linktitle: Obsługa funkcji oceny w formułach Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak wspierać ocenę funkcji MS Project w formułach Aspose.Tasks przy użyciu języka Java. Zwiększ swoją produktywność dzięki Aspose.Tasks.
-type: docs
 weight: 10
 url: /pl/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa funkcji oceny w formułach Aspose.Tasks
+
 
 ## Wstęp
 Aspose.Tasks dla Java to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project. Jedną z jego kluczowych funkcji jest możliwość obsługi ewaluacji funkcji MS Project w ramach formuł Aspose.Tasks. Ta funkcja umożliwia użytkownikom wykonywanie złożonych obliczeń i analiz bezpośrednio w aplikacjach Java.
@@ -65,3 +71,9 @@ O: Tak, Aspose.Tasks for Java obsługuje różne wersje plików Microsoft Projec
 Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P: Czy dostępna jest tymczasowa licencja na Aspose.Tasks dla Java?
  Odp.: Tak, możesz uzyskać tymczasową licencję do celów testowych ze strony internetowej Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

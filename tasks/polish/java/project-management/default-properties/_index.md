@@ -3,10 +3,16 @@ title: Efektywnie zarządzaj właściwościami projektu MS w Aspose.Tasks
 linktitle: Zarządzaj domyślnymi właściwościami projektu w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak zarządzać domyślnymi właściwościami MS Project za pomocą Aspose.Tasks dla Java. Usprawnij przepływ pracy w zarządzaniu projektami bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efektywnie zarządzaj właściwościami projektu MS w Aspose.Tasks
+
 ## Wstęp
 Czy chcesz usprawnić proces zarządzania projektami dzięki Aspose.Tasks dla Java? Zarządzanie domyślnymi właściwościami w plikach Microsoft Project może znacznie zwiększyć wydajność. W tym samouczku przejdziemy przez instrukcje krok po kroku dotyczące zarządzania domyślnymi właściwościami MS Project za pomocą Aspose.Tasks.
 ## Warunki wstępne
@@ -79,3 +85,9 @@ Odpowiedź 3: Tak, pomoc i wsparcie społeczności można znaleźć na stronie[F
  A4: Oczywiście! Możesz skorzystać z bezpłatnego okresu próbnego w witrynie[strona internetowa](https://releases.aspose.com/).
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?
  Odpowiedź 5: Możesz uzyskać tymczasową licencję od[strona zakupu](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

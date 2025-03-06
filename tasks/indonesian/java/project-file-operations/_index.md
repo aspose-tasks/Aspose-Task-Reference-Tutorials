@@ -3,10 +3,16 @@ title: Operasi File Proyek
 linktitle: Operasi File Proyek
 second_title: Aspose.Tugas Java API
 description: Optimalkan tata letak Proyek MS dengan mudah dengan Aspose.Tasks untuk Java. Pelajari tutorial langkah demi langkah tentang mengurangi kesenjangan, merender data, mengganti kalender, dan banyak lagi.
-type: docs
 weight: 29
 url: /id/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi File Proyek
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan kemampuan manajemen proyek Java Anda? Selami tutorial komprehensif kami tentang Aspose.Tasks untuk Java, dengan fokus pada berbagai operasi file proyek. Dari mengurangi kesenjangan dalam daftar tugas hingga menyesuaikan tampilan Proyek MS, kami siap membantu Anda.
 
@@ -94,3 +100,9 @@ Pelajari cara membuat tampilan Proyek MS kustom dengan mudah menggunakan Aspose.
 Pelajari cara mengelola properti hari kerja secara efisien di Aspose.Tasks untuk Java. Sesuaikan tanggal mulai minggu, hari per bulan, dan lainnya dengan mudah.
 ### [Tulis Ringkasan Proyek MPP di Aspose.Tasks](./write-mpp-project-summary/)
 Pelajari cara menulis ringkasan proyek MPP di Java menggunakan Aspose.Tasks. Atur dan ambil informasi proyek dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

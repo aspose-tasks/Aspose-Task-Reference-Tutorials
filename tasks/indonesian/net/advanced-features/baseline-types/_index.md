@@ -3,10 +3,16 @@ title: Berbagai Jenis Garis Dasar di Aspose.Tasks
 linktitle: Berbagai Jenis Garis Dasar di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengatur dan memanipulasi garis dasar proyek secara efisien menggunakan Aspose.Tasks untuk .NET.
-type: docs
 weight: 21
 url: /id/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berbagai Jenis Garis Dasar di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam bidang manajemen proyek, ketelitian dan pandangan ke depan adalah hal yang terpenting. Aspose.Tasks untuk .NET menyediakan perangkat canggih untuk mengelola data proyek secara efisien, memungkinkan pengguna mempelajari berbagai aspek perencanaan, pelacakan, dan pelaksanaan proyek. Salah satu fitur penting yang ditawarkan Aspose.Tasks adalah kemampuan untuk menetapkan garis dasar, yang berfungsi sebagai titik referensi untuk mengukur kemajuan proyek dibandingkan rencana awal.
@@ -82,3 +88,9 @@ A4: Aspose.Tasks menyediakan dokumentasi ekstensif dan forum dukungan untuk memb
 ### Q5: Dapatkah saya mencoba Aspose.Tasks sebelum membeli?
 
 A5: Ya, Anda dapat menjelajahi Aspose.Tasks melalui uji coba gratis yang tersedia di situs web, memungkinkan Anda merasakan kemampuannya secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

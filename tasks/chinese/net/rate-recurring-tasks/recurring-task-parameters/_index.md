@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中设置重复任务参数
 linktitle: 在 Aspose.Tasks 中设置重复任务参数
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中设置重复任务参数。带有分步指南的综合教程。
-type: docs
 weight: 14
 url: /zh/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中设置重复任务参数
+
 ## 介绍
 在本教程中，我们将指导您完成使用 Aspose.Tasks for .NET 设置 Microsoft Project 重复任务参数的过程。
 ## 先决条件
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 是的，您可以访问 Aspose.Tasks 论坛寻求社区的帮助，或联系支持人员以获得直接帮助。
 ### 我如何获得 Aspose.Tasks 的临时许可证？
 您可以从以下机构获得临时许可证[网站](https://purchase.aspose.com/temporary-license/)用于测试目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

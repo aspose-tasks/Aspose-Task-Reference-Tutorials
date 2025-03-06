@@ -3,10 +3,16 @@ title: Implementando retorno de chamada para salvar página em Aspose.Tasks
 linktitle: Implementando retorno de chamada para salvar página em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET, permitindo o tratamento personalizado de fluxos de saída de documentos de várias páginas.
-type: docs
 weight: 12
 url: /pt/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementando retorno de chamada para salvar página em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, exploraremos como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET. Esse recurso nos permite salvar um documento de várias páginas em fluxos fornecidos pelo usuário, oferecendo flexibilidade e personalização no tratamento da saída.
@@ -121,3 +127,9 @@ A4: Você pode implementar mecanismos de tratamento de erros nos métodos de ret
 ### P5: Onde posso encontrar mais recursos e suporte para Aspose.Tasks?
 
  A5: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para assistência, acesse a documentação[aqui](https://reference.aspose.com/tasks/net/) ou explore recursos adicionais e opções de licenciamento no[Site Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

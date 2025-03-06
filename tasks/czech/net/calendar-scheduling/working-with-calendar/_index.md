@@ -3,10 +3,16 @@ title: Práce s kalendářem v Aspose.Tasks
 linktitle: Práce s kalendářem v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Spravujte projektové kalendáře, počítejte dobu trvání, snadno zpracujte výjimky pomocí Aspose.Tasks for .NET.
-type: docs
 weight: 10
 url: /cs/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s kalendářem v Aspose.Tasks
+
 ## Úvod
 
 Aspose.Tasks for .NET poskytuje výkonné funkce pro práci s kalendáři a umožňuje vývojářům efektivně řídit plány projektů a přidělování zdrojů. V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks k interakci s kalendáři, pokrývající základní operace, jako je získávání informací z kalendáře, definování pracovních týdnů, výpočet pracovní doby a další.
@@ -497,3 +503,9 @@ A4: Ano, můžete vytvořit vlastní kalendáře, jako jsou kalendáře noční 
 ### Q5: Mohu načíst informace o výjimkách kalendáře ze souborů projektu?
 
 A5: Ano, můžete snadno získat informace o výjimkách kalendáře ze souborů projektu pomocí Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

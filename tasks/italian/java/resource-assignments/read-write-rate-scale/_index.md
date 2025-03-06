@@ -3,10 +3,16 @@ title: Lettura e scrittura della scala di velocità per le assegnazioni di risor
 linktitle: Lettura e scrittura della scala di velocità per le assegnazioni di risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire la scala tariffaria delle assegnazioni delle risorse in modo efficace in Aspose.Tasks per Java con questo tutorial completo.
-type: docs
 weight: 20
 url: /it/java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lettura e scrittura della scala di velocità per le assegnazioni di risorse in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo la gestione della scala delle tariffe di assegnazione delle risorse utilizzando Aspose.Tasks per Java, una solida libreria per lavorare con i file di Microsoft Project a livello di codice. Seguendo questi passaggi sarai in grado di manipolare in modo efficace le impostazioni della scala tariffaria per le assegnazioni delle risorse nelle tue applicazioni Java.
 ## Prerequisiti
@@ -84,3 +90,9 @@ R: Assolutamente, Aspose.Tasks offre funzionalità complete per la gestione di p
 R: Sì, Aspose.Tasks offre funzionalità estese per personalizzare le assegnazioni delle risorse, inclusi aggiustamenti di costi, lavoro e durata.
 ### Q5: esiste un forum della community per il supporto di Aspose.Tasks?
  R: Sì, puoi trovare supporto e interagire con altri utenti sul forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

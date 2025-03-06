@@ -3,10 +3,16 @@ title: Lidar com atributos estendidos em projetos Aspose.Tasks
 linktitle: Lidar com atributos estendidos em projetos Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como lidar com atributos estendidos em projetos Aspose.Tasks usando Java de forma eficiente. Guia passo a passo para um gerenciamento de projetos eficaz.
-type: docs
 weight: 13
 url: /pt/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidar com atributos estendidos em projetos Aspose.Tasks
+
 ## Introdução
 gerenciamento de atributos estendidos no gerenciamento de projetos é crucial para personalizar e aprimorar os dados do projeto. Aspose.Tasks for Java fornece ferramentas robustas para lidar com atributos estendidos em arquivos do MS Project com eficiência. Este tutorial irá guiá-lo através do processo passo a passo, garantindo que você compreenda cada conceito completamente.
 ## Pré-requisitos
@@ -86,3 +92,9 @@ R: Com certeza, Aspose.Tasks permite que você defina tipos de atributos estendi
  R: Você pode encontrar documentação abrangente no site Aspose.Tasks[documentação](https://reference.aspose.com/tasks/java/).
 ### P: O suporte técnico está disponível para usuários do Aspose.Tasks?
  R: Sim, você pode acessar o suporte técnico através do fórum Aspose.Tasks[local na rede Internet](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

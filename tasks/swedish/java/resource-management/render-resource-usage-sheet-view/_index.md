@@ -3,10 +3,16 @@ title: Rendera resursanvändning och arkvy i Aspose.Tasks
 linktitle: Rendera resursanvändning och arkvy i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du återger MS Project Resource Usage och Sheet-vyer i Aspose.Tasks för Java. Följ vår steg-för-steg-guide för att generera detaljerade PDF-rapporter utan ansträngning.
-type: docs
 weight: 16
 url: /sv/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendera resursanvändning och arkvy i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att lära oss hur man använder Aspose.Tasks för Java för att återge MS Project Resource Usage och Sheet-vyer. Aspose.Tasks är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med Microsoft Project-filer utan att Microsoft Project behöver installeras.
 ## Förutsättningar
@@ -78,3 +84,9 @@ Absolut! Aspose.Tasks erbjuder omfattande alternativ för att anpassa utseendet 
 Nej, Aspose.Tasks är ett fristående bibliotek och kräver inte att Microsoft Project är installerat för att det ska fungera.
 ### Finns teknisk support tillgänglig för Aspose.Tasks-användare?
  Ja, Aspose.Tasks-användare kan ta del av teknisk support via[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

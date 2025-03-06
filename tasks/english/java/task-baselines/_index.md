@@ -3,10 +3,16 @@ title: Task Baselines
 linktitle: Task Baselines
 second_title: Aspose.Tasks Java API
 description: Explore Aspose.Tasks Java with our Task Baselines Tutorials. Streamline task scheduling, create MS Project task baselines, and master baseline duration management.
-type: docs
 weight: 32
 url: /java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Baselines
+
 ## Introduction
 Embark on a journey to enhance your project management skills with Aspose.Tasks for Java. In this series of tutorials, we dive deep into the intricacies of task baselines, providing you with valuable insights and practical knowledge. Let's explore the key tutorials that make up this comprehensive guide.
 
@@ -51,3 +57,9 @@ Learn how to schedule task baselines effectively with Aspose.Tasks for Java. Str
 Learn how to create a Microsoft Project task baseline in Java using Aspose.Tasks, a powerful library for managing project data effortlessly.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Learn how to efficiently manage task baselines in MS Project using Aspose.Tasks for Java. This tutorial guides you step-by-step through the process.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

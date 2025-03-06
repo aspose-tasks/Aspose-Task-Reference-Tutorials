@@ -3,10 +3,16 @@ title: 为 Aspose.Tasks 中的任务添加扩展属性
 linktitle: 为 Aspose.Tasks 中的任务添加扩展属性
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks Java 在使用扩展属性自定义 Microsoft Project 文件方面的强大功能。轻松增强您的项目管理能力。
-type: docs
 weight: 11
 url: /zh/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 为 Aspose.Tasks 中的任务添加扩展属性
+
 ## 介绍
 增强项目管理能力对于高效的任务跟踪和资源管理至关重要。 Aspose.Tasks for Java 为 Java 开发人员提供了一个强大的解决方案来无缝操作 Microsoft Project 文件。在本教程中，我们将探索如何使用 Aspose.Tasks for Java 向任务添加扩展属性，从而允许您根据您的具体要求自定义和组织项目数据。
 ## 先决条件
@@ -75,3 +81,9 @@ project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp)
 答：访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持和讨论。
 ### 问：我可以在购买前试用 Aspose.Tasks for Java 吗？
 答：是的，您可以访问免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

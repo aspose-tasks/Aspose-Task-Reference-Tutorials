@@ -3,10 +3,16 @@ title: Mastering MS Project Save Options for Aspose.Tasks
 linktitle: Γενικές επιλογές αποθήκευσης για το Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε να αποθηκεύετε αποτελεσματικά αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε τις επιλογές εξόδου χωρίς κόπο για τα έργα σας.
-type: docs
 weight: 17
 url: /el/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project Save Options for Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για .NET προσφέρει ισχυρές δυνατότητες για τον προγραμματισμό των αρχείων του Microsoft Project. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της αποθήκευσης αρχείων MS Project χρησιμοποιώντας διάφορες επιλογές που παρέχονται από το Aspose.Tasks. Συγκεκριμένα, θα εστιάσουμε στις γενικές επιλογές αποθήκευσης που είναι διαθέσιμες για το Aspose.Tasks, επιτρέποντάς σας να προσαρμόσετε το αποτέλεσμα στις συγκεκριμένες απαιτήσεις σας.
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
  Α: Διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
  Α: Μπορείτε να εγγραφείτε στο φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15)για να λάβετε βοήθεια από ειδικούς και συναδέλφους προγραμματιστές.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

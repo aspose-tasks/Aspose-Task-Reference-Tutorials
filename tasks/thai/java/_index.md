@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Tasks สำหรับ Java
 linktitle: Aspose.Tasks สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: สำรวจ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนของเรา ปฏิทินหลัก การจัดการโครงการ และอื่นๆ ปรับปรุงขั้นตอนการทำงานของคุณเพื่อการดำเนินโครงการที่มีประสิทธิภาพ
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Tasks สำหรับ Java
+
 
 ## การแนะนำ
 คุณพร้อมที่จะยกระดับทักษะการจัดการโครงการ Java ของคุณแล้วหรือยัง? ดำดิ่งสู่โลกของ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมของเราซึ่งครอบคลุมแง่มุมต่างๆ ของการจัดการโครงการ ตั้งแต่ข้อยกเว้นในปฏิทินไปจนถึงการรวม VBA เราช่วยคุณได้
@@ -93,3 +98,9 @@ is_root: true
 ปรับปรุงการจัดการโครงการ Java ด้วย Aspose.Tasks สำรวจบทช่วยสอนเกี่ยวกับคุณสมบัติของงาน ตั้งแต่การจัดการลำดับความสำคัญไปจนถึงการจัดการต้นทุน เพิ่มประสิทธิภาพโครงการของคุณวันนี้!
 ### [บูรณาการ VBA](./vba-integration/)
 สำรวจ Aspose.Tasks Java ด้วยการผสานรวม VBA ปรับปรุงขั้นตอนการทำงานของโครงการและปรับปรุงการติดตามงาน สำรวจบทช่วยสอนที่ครอบคลุมสำหรับการผสานรวม VBA ได้อย่างราบรื่น!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks
 linktitle: Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak wyodrębnić informacje o powtarzających się zadaniach z plików MS Project za pomocą Aspose.Tasks dla .NET. Łatwa integracja dla programistów .NET.
-type: docs
 weight: 13
 url: /pl/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka, która umożliwia programistom pracę z plikami Microsoft Project w ich aplikacjach .NET. W tym samouczku przyjrzymy się, jak wyodrębnić informacje o powtarzających się zadaniach z plików MS Project za pomocą Aspose.Tasks.
 ## Warunki wstępne
@@ -62,3 +68,9 @@ O: Tak, Aspose.Tasks obsługuje różne formaty plików projektów, takie jak MP
  Odp.: Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
 ### P: Jak mogę uzyskać pomoc techniczną dla Aspose.Tasks dla .NET?
  Odp.: Możesz uzyskać pomoc techniczną na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

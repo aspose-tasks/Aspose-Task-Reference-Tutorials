@@ -3,10 +3,16 @@ title: Aspose.Tasks Mã phác thảo và cài đặt trang
 linktitle: Aspose.Tasks Mã phác thảo và cài đặt trang
 second_title: Aspose.Tasks .NET API
 description: Làm chủ Aspose.Tasks cho .NET với các hướng dẫn về mã phác thảo, bộ sưu tập, định nghĩa, mặt nạ và cài đặt trang. Tăng cường tổ chức và tùy chỉnh dự án.
-type: docs
 weight: 25
 url: /vi/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Mã phác thảo và cài đặt trang
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới quản lý dự án liền mạch với Aspose.Tasks cho .NET! Trong kỷ nguyên kỹ thuật số này, nơi độ chính xác và hiệu quả là không thể thương lượng, việc nắm vững những điểm phức tạp của Microsoft Project sẽ trở thành nhân tố thay đổi cuộc chơi. Chuỗi hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn các sắc thái của Aspose.Tasks cho .NET, giúp bạn dễ dàng quản lý mã phác thảo, thao tác định nghĩa dữ liệu, làm việc với mặt nạ, giá trị và tùy chỉnh cài đặt trang. Cho dù bạn là người quản lý dự án dày dạn kinh nghiệm hay người mới tham gia lĩnh vực này, các hướng dẫn của chúng tôi đều đáp ứng mọi cấp độ kỹ năng, cung cấp hướng dẫn từng bước và ví dụ về mã. Hãy tham gia cùng chúng tôi trong hành trình này để khám phá toàn bộ tiềm năng của Aspose.Tasks, cách mạng hóa cách bạn tiếp cận tổ chức và tùy chỉnh dự án. Hãy cùng tìm hiểu và nâng cao kỹ năng quản lý dự án của bạn lên một tầm cao mới!
 ## Quản lý mã phác thảo bằng Aspose.Tasks cho .NET
@@ -71,3 +77,9 @@ Tìm hiểu cách điều chỉnh lề trang trong tệp Microsoft Project bằn
 Tìm hiểu cách định cấu hình cài đặt trang MS Project bằng Aspose.Tasks cho .NET. Tùy chỉnh hướng, kích thước và hơn thế nữa bằng các bước đơn giản.
 ### [Tùy chỉnh cài đặt chế độ xem trang dự án MS trong Aspose.Tasks](./page-view-settings/)
 Tìm hiểu cách định cấu hình cài đặt chế độ xem trang trong Aspose.Tasks cho .NET để điều chỉnh định dạng in của tài liệu Microsoft Project của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

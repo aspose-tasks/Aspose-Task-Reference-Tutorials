@@ -3,10 +3,16 @@ title: Typy omezení v Aspose.Tasks
 linktitle: Typy omezení v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak nastavit typy omezení v Aspose.Tasks pro .NET, abyste mohli efektivně spravovat plány projektů.
-type: docs
 weight: 17
 url: /cs/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typy omezení v Aspose.Tasks
+
 ## Úvod
 
 Při práci s projektovým řízením v .NET je důležité pochopit, jak na úkoly aplikovat různá omezení. Aspose.Tasks for .NET poskytuje komplexní sadu nástrojů pro efektivní správu omezení projektu. V tomto tutoriálu se ponoříme do různých typů omezení dostupných v Aspose.Tasks a jak je krok za krokem implementovat.
@@ -83,3 +89,9 @@ A4: Ano, Aspose.Tasks je navržen tak, aby zpracovával projekty všech velikost
 ### Q5: Kde mohu získat podporu pro dotazy související s Aspose.Tasks?
 
  A5: Můžete získat podporu pro Aspose.Tasks návštěvou jejich[Fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التكرار حسب الشهر، الأسبوع، اليوم في Aspos
 linktitle: التكرار حسب الشهر، الأسبوع، اليوم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إعداد عمليات التكرار حسب الشهر والأسبوع واليوم في Aspose.Tasks لـ .NET لأتمتة المهام المتكررة بكفاءة.
-type: docs
 weight: 26
 url: /ar/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التكرار حسب الشهر، الأسبوع، اليوم في Aspose.Tasks
+
 ## مقدمة
 
 في مجال تطوير البرمجيات، وخاصة في تطبيقات إدارة المشاريع، تعد القدرة على التعامل مع المهام المتكررة بكفاءة أمرًا بالغ الأهمية. Aspose.Tasks for .NET هي مكتبة قوية مصممة لتبسيط إنشاء وإدارة مهام المشروع، بما في ذلك المهام المتكررة. إحدى هذه الوظائف التي توفرها Aspose.Tasks هي القدرة على إعداد عمليات التكرار حسب الشهر والأسبوع واليوم، مما يضمن تنفيذ المهام في الموعد المحدد دون تدخل يدوي.
@@ -112,3 +118,9 @@ project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_
 ###Q5: أين يمكنني العثور على وثائق شاملة لـ Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك الرجوع إلى التفاصيل[توثيق](https://reference.aspose.com/tasks/net/) متاح على موقع Aspose للحصول على إرشادات متعمقة حول استخدام المكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

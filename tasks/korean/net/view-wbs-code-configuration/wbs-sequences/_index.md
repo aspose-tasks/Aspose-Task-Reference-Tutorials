@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks로 WBS 시퀀스 마스터하기
 linktitle: Aspose.Tasks에서 WBS 시퀀스 정의
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 관리를 강화하세요. WBS 시퀀스를 원활하게 정의하고 효율성을 쉽게 향상시킬 수 있습니다. #Aspose #작업 #MS 프로젝트
-type: docs
 weight: 16
 url: /ko/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks로 WBS 시퀀스 마스터하기
+
 ## 소개
 프로젝트 관리 애플리케이션을 작업 중이며 WBS(작업 분할 구조) 시퀀스를 처리하기 위한 강력한 도구가 필요합니까? 프로젝트 관리 작업을 단순화하는 강력한 라이브러리인 Aspose.Tasks for .NET만 있으면 됩니다. 이 튜토리얼에서는 WBS 시퀀스를 정의하는 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -74,3 +80,9 @@ WBS 시퀀스 관리는 효과적인 프로젝트 관리에 매우 중요하며 
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역사회와 연결하고 도움을 구합니다.
 ### 임시 라이센스를 사용할 수 있나요?
  예, 다음을 얻을 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

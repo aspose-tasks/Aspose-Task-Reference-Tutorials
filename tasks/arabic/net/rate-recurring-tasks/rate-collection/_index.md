@@ -3,10 +3,16 @@ title: إتقان أسعار مشروع MS باستخدام Aspose.Tasks
 linktitle: جمع الأسعار في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة الأسعار في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. برنامج تعليمي خطوة بخطوة لإدارة الموارد بشكل فعال.
-type: docs
 weight: 11
 url: /ar/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أسعار مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي حول إدارة الأسعار في MS Project باستخدام Aspose.Tasks لـ .NET! في هذا الدليل، سنرشدك خلال عملية التعامل مع المعدلات في ملفات MS Project الخاصة بك باستخدام Aspose.Tasks. سواء كنت مطورًا متمرسًا أو بدأت للتو في تطوير .NET، فإن هذا البرنامج التعليمي سيزودك بتعليمات خطوة بخطوة للتعامل بفعالية مع المعدلات داخل مشروعاتك.
 ## المتطلبات الأساسية
@@ -110,3 +116,9 @@ foreach (var rt in list)
 ج: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks لـ .NET لتقييم ميزاته ومدى توافقه مع متطلباتك.
 ### س: كيف يمكنني شراء ترخيص Aspose.Tasks لـ .NET؟
  ج: يمكنك شراء ترخيص Aspose.Tasks لـ .NET من[موقع إلكتروني](https://purchase.aspose.com/temporary-license/)، والذي يوفر خيارات ترخيص مرنة لتناسب احتياجاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

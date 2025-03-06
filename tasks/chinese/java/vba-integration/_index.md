@@ -3,10 +3,16 @@ title: VBA集成
 linktitle: VBA集成
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks Java 与 VBA 集成。简化项目工作流程并改进任务跟踪。探索无缝 VBA 集成的综合教程！
-type: docs
 weight: 35
 url: /zh/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA集成
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ url: /zh/java/vba-integration/
 ## VBA 集成教程
 ### [在 Aspose.Tasks 中使用 VBA 集成](./work-with-vba/)
 使用 Aspose.Tasks for Java 增强项目管理 - 释放 VBA 集成以简化工作流程。立即探索高效的任务跟踪！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

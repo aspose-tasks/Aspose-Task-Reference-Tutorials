@@ -3,10 +3,16 @@ title: إتقان أقنعة Microsoft Project Outline في Aspose.Tasks
 linktitle: العمل مع أقنعة المخطط التفصيلي في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية العمل مع ملفات Microsoft Project برمجياً باستخدام Aspose.Tasks لـ .NET. أقنعة الخطوط العريضة الرئيسية بكفاءة.
-type: docs
 weight: 14
 url: /ar/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أقنعة Microsoft Project Outline في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع وتتبع المهام، يعد Microsoft Project بمثابة أداة أساسية. ومع ذلك، عندما يتعلق الأمر بمعالجة ملفات المشروع وإدارتها برمجيًا، يظهر Aspose.Tasks for .NET كحل قوي. سوف يتعمق هذا البرنامج التعليمي في جانب واحد محدد من جوانب العمل مع ملفات MS Project باستخدام Aspose.Tasks لـ .NET: التعامل مع أقنعة المخطط التفصيلي.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ outline.Values.Add(value);
  ج: بالطبع! يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  ج: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض التقييم أو الاختبار، فيمكنك الحصول على واحد[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

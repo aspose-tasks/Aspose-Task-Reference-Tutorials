@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kullanılabilirlik Dönemleriyle Çalışmak
 linktitle: Aspose.Tasks'ta Kullanılabilirlik Dönemleriyle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak kaynak kullanılabilirlik sürelerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Bu öğretici, .NET projelerinizde kullanılabilirlik dönemleriyle çalışmaya yönelik adım adım bir kılavuz sağlar.
-type: docs
 weight: 17
 url: /tr/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kullanılabilirlik Dönemleriyle Çalışmak
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te kullanılabilirlik dönemleriyle nasıl çalışılacağını keşfedeceğiz. Kullanılabilirlik dönemleri, proje yönetimi senaryolarında kaynakları verimli bir şekilde yönetmek için çok önemlidir. Süreç boyunca size adım adım rehberlik edeceğiz.
@@ -107,3 +113,9 @@ C2: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü edinebilirsiniz
 ### S5: Aspose.Tasks for .NET için geçici lisanslar sunuyor musunuz?
 
  Cevap5: Evet, geçici lisanslar mevcut[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

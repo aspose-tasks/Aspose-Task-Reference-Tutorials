@@ -3,10 +3,16 @@ title: Task Notes Management in Aspose.Tasks
 linktitle: Task Notes Management in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore task notes management in Aspose.Tasks for Java. Step-by-step guide for efficient Java development. Download your free trial now!
-type: docs
 weight: 22
 url: /java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Notes Management in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java provides a robust solution for managing project-related data, including task notes. In this tutorial, we'll delve into the intricacies of managing task notes efficiently using Aspose.Tasks for Java. Whether you're a seasoned developer or just starting, this step-by-step guide will walk you through the process of handling task notes seamlessly.
 ## Prerequisites
@@ -51,3 +57,10 @@ Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase Aspose.Tasks for Java?
 You can buy the product [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manejar las prioridades de las tareas en Aspose.Tasks
 linktitle: Manejar las prioridades de las tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Domine las prioridades de las tareas sin esfuerzo con Aspose.Tasks para Java. Siga esta guía para un manejo perfecto. ¡Mejore sus habilidades de gestión de proyectos!
-type: docs
 weight: 17
 url: /es/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejar las prioridades de las tareas en Aspose.Tasks
+
 ## Introducción
 Gestionar las prioridades de las tareas es crucial para el éxito del proyecto y, con Aspose.Tasks para Java, se convierte en un proceso fluido. Este tutorial lo guiará en el manejo de las prioridades de las tareas utilizando Aspose.Tasks. Ya sea que sea un desarrollador experimentado o un recién llegado, esta guía dividirá el proceso en pasos fáciles de seguir.
 ## Requisitos previos
@@ -56,3 +62,9 @@ Sí, Aspose.Tasks para Java es adecuado tanto para aplicaciones web como de escr
  Sí, puedes obtener licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo encontrar documentación detallada?
  Consulte la documentación.[aquí](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

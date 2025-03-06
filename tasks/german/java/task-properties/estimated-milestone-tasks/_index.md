@@ -3,10 +3,16 @@ title: Behandeln Sie geschätzte und Meilensteinaufgaben in Aspose.Tasks
 linktitle: Behandeln Sie geschätzte und Meilensteinaufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie effektives Projektmanagement mit Aspose.Tasks für Java. Erledigen Sie geschätzte und Meilensteinaufgaben mühelos. Laden Sie die Bibliothek jetzt herunter!
-type: docs
 weight: 15
 url: /de/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandeln Sie geschätzte und Meilensteinaufgaben in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für Java ist eine leistungsstarke Bibliothek, die die mühelose Bearbeitung von Aufgaben, die Verwaltung von Projekten und die Bearbeitung von Projektdaten erleichtert. In diesem Tutorial konzentrieren wir uns auf einen entscheidenden Aspekt des Projektmanagements – die Bearbeitung geschätzter und Meilensteinaufgaben mit Aspose.Tasks für Java.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ Ja, Sie können Aspose.Tasks nahtlos in Ihre Java-Projekte integrieren, indem Si
  Ja, Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

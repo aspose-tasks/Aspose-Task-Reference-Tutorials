@@ -1,12 +1,17 @@
 ---
 title: Tutoriales completos y ejemplos de Aspose.Tasks para .NET
 linktitle: Aspose.Tasks para tutoriales de .NET
-type: docs
 weight: 10
 url: /es/net/
 description: Explore los tutoriales de Aspose.Tasks para .NET que cubren opciones de guardado, calendario y programación, gestión de proyectos y más. Eleve sus habilidades de gestión de proyectos.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriales completos y ejemplos de Aspose.Tasks para .NET
+
 ## Introducción
 
 ¿Estás listo para desbloquear todo el potencial de Aspose.Tasks para .NET? Sumérgete en nuestros completos tutoriales y ejemplos que cubren una amplia gama de temas para mejorar tus habilidades de gestión de proyectos. Desde opciones de guardado hasta funciones avanzadas, calendario y programación de tareas, gestión de proyectos y personalización, lo tenemos cubierto.
@@ -72,3 +77,9 @@ Explore las opciones de formato de archivo de Aspose.Tasks y domine la configura
 Descubra cómo mejorar la seguridad de sus archivos PDF de Microsoft Project utilizando Aspose.Tasks para .NET. Aprenda técnicas de firma digital y cifrado.
 ### [Gestión de licencias de Aspose.Tasks](./license-management/)
 Desbloquee el poder de Aspose.Tasks para .NET con nuestros tutoriales completos. Administre licencias y optimice el uso de MS Project para una gestión eficiente de proyectos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

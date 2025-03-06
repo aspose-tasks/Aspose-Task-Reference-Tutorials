@@ -3,10 +3,16 @@ title: Olvassa el az Aspose.Tasks erőforrásainak időfázisos adatait
 linktitle: Olvassa el az Aspose.Tasks erőforrásainak időfázisos adatait
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kinyerhet időfázisú adatokat az MS Project erőforrásaiból az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutató.
-type: docs
 weight: 15
 url: /hu/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el az Aspose.Tasks erőforrásainak időfázisos adatait
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük az MS Project erőforrások időfázisos adatainak olvasásának folyamatán az Aspose.Tasks for Java használatával. Ez a könyvtár hatékony funkciókat kínál a Microsoft Project fájlok programozott kezeléséhez.
 ## Előfeltételek
@@ -74,3 +80,9 @@ Természetesen az Aspose.Tasks kiterjedt API-kat biztosít a projektadatok létr
 Igen, az Aspose.Tasks-t megbízhatósága és méretezhetősége miatt széles körben használják vállalati környezetben.
 ### Hol találok támogatást, ha problémákat tapasztalok az Aspose.Tasks használata során?
  Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) a közösség és a támogató csapat segítségéért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

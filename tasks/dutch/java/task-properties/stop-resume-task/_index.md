@@ -3,10 +3,16 @@ title: Stop en hervat de taak in Aspose.Tasks
 linktitle: Stop en hervat de taak in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks voor Java met onze stapsgewijze handleiding voor het stoppen en hervatten van taken. Verbeter projectbeheer naadloos!
-type: docs
 weight: 30
 url: /nl/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stop en hervat de taak in Aspose.Tasks
+
 ## Invoering
 Op het gebied van Java-ontwikkeling is het efficiënt beheren van taken een cruciaal aspect van de projectuitvoering. Aspose.Tasks voor Java biedt met zijn krachtige functies een robuuste oplossing voor het afhandelen van taken. In deze tutorial zullen we ons verdiepen in één specifieke functionaliteit: taken stoppen en hervatten. Door deze stapsgewijze handleiding te volgen, kunt u deze functie naadloos in uw Java-projecten integreren.
 ## Vereisten
@@ -69,3 +75,9 @@ Ja, het gegeven voorbeeld biedt flexibiliteit bij het instellen van de minimumda
  Ja, u heeft toegang tot de[gratis proefperiode](https://releases.aspose.com/) om de functies te verkennen voordat u een aankoop doet.
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor Java?
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

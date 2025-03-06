@@ -3,10 +3,16 @@ title: Zvládejte číslice měny pomocí Aspose.Tasks
 linktitle: Zvládejte číslice měny pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně zacházet s číslicemi měny MS Project pomocí Aspose.Tasks for Java. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 11
 url: /cs/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládejte číslice měny pomocí Aspose.Tasks
+
 ## Úvod
 Vítejte v našem komplexním návodu na manipulaci s číslicemi měny MS Project pomocí Aspose.Tasks for Java. V tomto tutoriálu vás provedeme procesem krok za krokem a zajistíme, že důkladně pochopíte každý koncept.
 ## Předpoklady
@@ -56,3 +62,9 @@ Ano, Aspose.Tasks for Java můžete používat na různých platformách, které
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Tasks?
  Podporu najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

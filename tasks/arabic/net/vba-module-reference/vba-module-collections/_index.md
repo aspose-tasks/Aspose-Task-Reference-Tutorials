@@ -3,10 +3,16 @@ title: إتقان مجموعات وحدات VBA في Aspose.Tasks
 linktitle: إدارة مجموعات وحدة VBA في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف كيفية إدارة مجموعات وحدات VBA بكفاءة في Aspose.Tasks لـ .NET. دليل خطوة بخطوة للتكامل السلس في مشاريعك.
-type: docs
 weight: 13
 url: /ar/net/vba-module-reference/vba-module-collections/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان مجموعات وحدات VBA في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول إدارة مجموعات وحدات VBA في Aspose.Tasks لـ .NET! إذا كنت تغوص في عالم إدارة المشاريع المثير باستخدام Aspose.Tasks، فإن فهم كيفية العمل مع وحدات VBA يعد أمرًا بالغ الأهمية. سيرشدك هذا الدليل خلال العملية خطوة بخطوة، مما يضمن حصولك على المهارات اللازمة لإدارة وحدات VBA بشكل فعال في مشاريعك.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ foreach (var unused in modules)
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على وثائق مفصلة عن Aspose.Tasks؟
  استكشف الوثائق[هنا](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

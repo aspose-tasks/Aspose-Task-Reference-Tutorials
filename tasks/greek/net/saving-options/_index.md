@@ -3,10 +3,16 @@ title: Aspose.Tasks Saving Options
 linktitle: Aspose.Tasks Saving Options
 second_title: Aspose.Tasks .NET API
 description: Αποθηκεύστε, μετατρέψτε και διαχειριστείτε αρχεία MS Project με το Aspose.Tasks για .NET. Εξερευνήστε βήμα προς βήμα οδηγούς για HTML, εικόνες, PDF, Primavera, πρότυπα και άλλα.
-type: docs
 weight: 20
 url: /el/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Saving Options
+
 
 ## Εισαγωγή
 
@@ -53,3 +59,9 @@ url: /el/net/saving-options/
 Μάθετε πώς να χρησιμοποιείτε το Aspose.Tasks για .NET για τη δημιουργία αναπαραστάσεων SVG των αρχείων Microsoft Project χωρίς κόπο για βελτιωμένη οπτικοποίηση έργου.
 ### [Μετατρέψτε τις επιλογές MSP σε XPS με το Aspose.Tasks](./xps-options/)
 Μάθετε πώς να μετατρέπετε αρχεία Microsoft Project σε μορφή XPS χρησιμοποιώντας το Aspose.Tasks για .NET. Εύκολη ενσωμάτωση, ισχυρή λειτουργικότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

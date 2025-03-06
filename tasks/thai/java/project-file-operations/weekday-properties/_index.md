@@ -3,10 +3,16 @@ title: คุณสมบัติวันธรรมดาใน Aspose.Tasks
 linktitle: คุณสมบัติวันธรรมดาใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีจัดการคุณสมบัติวันทำงานอย่างมีประสิทธิภาพใน Aspose.Tasks สำหรับ Java ปรับแต่งวันที่เริ่มต้นสัปดาห์ วันต่อเดือน และอื่นๆ ได้อย่างง่ายดาย
-type: docs
 weight: 25
 url: /th/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติวันธรรมดาใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ Java เป็น API อันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับไฟล์ Microsoft Project โดยไม่ต้องติดตั้ง Microsoft Project บนเครื่อง หนึ่งในฟังก์ชันหลักคือการจัดการคุณสมบัติวันทำงาน ช่วยให้ผู้ใช้ปรับแต่งวันที่เริ่มต้นสัปดาห์ วันต่อเดือน นาทีต่อวัน และนาทีต่อสัปดาห์ได้ บทช่วยสอนนี้จะให้คำแนะนำโดยละเอียดเกี่ยวกับวิธีการใช้คุณสมบัติเหล่านี้อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ System.out.println("Process completed Successfully");
  ตอบ: ได้ คุณสามารถเข้าถึงเอกสารที่ครอบคลุมและการสนับสนุนชุมชนสำหรับ Aspose.Tasks สำหรับ Java บนเอกสารเหล่านั้น[เว็บไซต์](https://releases.aspose.com/).
 ### ถาม: Aspose.Tasks สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
 ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks for Java เวอร์ชันทดลองใช้ฟรีได้จากที่นี่[เว็บไซต์](https://reference.aspose.com/tasks/java/) เพื่อสำรวจคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

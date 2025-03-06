@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 월별 반복
 linktitle: Aspose.Tasks에서 월별 반복
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET 프로젝트에서 반복되는 작업을 관리하는 방법을 알아보세요. 월별 반복 처리를 위한 단계별 안내입니다.
-type: docs
 weight: 25
 url: /ko/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 월별 반복
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Tasks는 프로젝트 작업 및 일정을 관리하기 위한 강력한 도구입니다. 반복되는 작업 처리를 포함하여 프로젝트 관리 워크플로를 간소화하는 다양한 기능을 제공합니다. 월별 반복은 프로젝트 일정의 일반적인 요구 사항이며 Aspose.Tasks는 이 시나리오에 대한 강력한 지원을 제공합니다.
@@ -105,3 +111,9 @@ A3: 물론 Aspose.Tasks는 작업 추적, 리소스 할당 및 간트 차트 생
 ### Q5: 문제가 발생하거나 문의사항이 있는 경우 어디서 도움을 받을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티나 Aspose 팀의 지원을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kết xuất mức sử dụng tài nguyên và chế độ xem trang tí
 linktitle: Kết xuất mức sử dụng tài nguyên và chế độ xem trang tính trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách hiển thị các dạng xem Trang tính và Sử dụng Tài nguyên Dự án MS trong Aspose.Tasks cho Java. Làm theo hướng dẫn từng bước của chúng tôi để tạo báo cáo PDF chi tiết một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất mức sử dụng tài nguyên và chế độ xem trang tính trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để hiển thị các dạng xem Trang tính và Sử dụng Tài nguyên Dự án MS. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Tuyệt đối! Aspose.Tasks cung cấp các tùy chọn mở rộng để tùy 
 Không, Aspose.Tasks là một thư viện độc lập và không yêu cầu cài đặt Microsoft Project để hoạt động.
 ### Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
  Có, người dùng Aspose.Tasks có thể tận dụng hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

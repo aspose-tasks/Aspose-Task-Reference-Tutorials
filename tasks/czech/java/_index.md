@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.Tasks pro Javu
 linktitle: Aspose.Tasks pro Java tutoriály
-type: docs
 weight: 10
 url: /cs/java/
 description: Prozkoumejte Aspose.Tasks pro Javu pomocí našich výukových programů. Hlavní kalendář, projektové řízení a další. Zefektivněte své pracovní postupy pro efektivní realizaci projektu.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.Tasks pro Javu
+
 
 ## Úvod
 Jste připraveni zlepšit své dovednosti v oblasti řízení projektů Java? Ponořte se do světa Aspose.Tasks for Java s našimi rozsáhlými výukovými programy pokrývajícími různé aspekty projektového řízení. Pomůžeme vám od výjimek kalendáře po integraci VBA.
@@ -93,3 +98,9 @@ Prozkoumejte Aspose.Tasks Java pomocí našich výukových programů pro základ
 Vylepšete řízení projektů Java pomocí Aspose.Tasks. Prozkoumejte výukové programy o vlastnostech úkolů, od zpracování priorit po řízení nákladů. Optimalizujte svůj projekt ještě dnes!
 ### [Integrace VBA](./vba-integration/)
 Prozkoumejte Aspose.Tasks Java s integrací VBA. Zjednodušte pracovní postupy projektu a vylepšete sledování úkolů. Prozkoumejte komplexní výukové programy pro bezproblémovou integraci VBA!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

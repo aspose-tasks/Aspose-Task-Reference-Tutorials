@@ -3,10 +3,16 @@ title: Gestione delle linee di avanzamento del progetto MS con Aspose.Tasks
 linktitle: Gestione delle linee di avanzamento in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come manipolare le linee di avanzamento nei file MS Project utilizzando Aspose.Tasks per .NET, migliorando la visualizzazione e la gestione del progetto.
-type: docs
 weight: 15
 url: /it/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione delle linee di avanzamento del progetto MS con Aspose.Tasks
+
 ## introduzione
 Microsoft Project (MS Project) è un potente strumento per la gestione dei progetti, che consente agli utenti di tenere traccia di vari aspetti dei loro progetti. Una caratteristica cruciale di MS Project è la capacità di visualizzare le linee di avanzamento, che aiutano le parti interessate a comprendere lo stato e la traiettoria del progetto. In questo tutorial esploreremo come gestire le linee di avanzamento in MS Project utilizzando la libreria Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -96,3 +102,9 @@ R: Assolutamente, Aspose.Tasks è progettato per integrarsi perfettamente con al
  R: Sì, puoi trovare risorse utili e chiedere assistenza nel forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Aspose.Tasks offre licenze temporanee a scopo di valutazione?
  R: Sì, puoi ottenere una licenza temporanea per la valutazione[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks のリソース割り当てのコレクション
 linktitle: Aspose.Tasks のリソース割り当てのコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project でリソースの割り当てを管理する方法を学びます。コード例を含むステップバイステップのチュートリアル。
-type: docs
 weight: 12
 url: /ja/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のリソース割り当てのコレクション
+
 ## 導入
 Aspose.Tasks for .NET を使用して Microsoft Project でリソース割り当てを管理するためのこの包括的なチュートリアルへようこそ。このチュートリアルでは、リソースの割り当てを効率的に操作する方法を確実に理解できるように、プロセスを段階的に詳しく説明します。経験豊富な開発者であっても、初心者であっても、このガイドでは、知っておくべきことをすべて説明します。
 ## 前提条件
@@ -94,3 +100,9 @@ A: はい、Aspose.Tasks for .NET は、MPP、MPT、XML 形式など、さまざ
  A: はい、一時ライセンスは評価目的で利用できます。から1つを入手できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for .NET のフル ライセンスはどこで購入できますか?
  A: Aspose オンライン ストアから完全なライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

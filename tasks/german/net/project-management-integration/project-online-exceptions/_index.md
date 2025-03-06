@@ -3,10 +3,16 @@ title: Verwalten von MS Project Online-Ausnahmen in Aspose.Tasks
 linktitle: Arbeiten mit Project Online-Ausnahmen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project Online-Ausnahmen nahtlos mit Aspose.Tasks für .NET behandeln. Schritt-für-Schritt-Anleitung für effektives Projektmanagement.
-type: docs
 weight: 21
 url: /de/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von MS Project Online-Ausnahmen in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial befassen wir uns mit den Feinheiten der Behandlung von Microsoft Project Online-Ausnahmen mithilfe von Aspose.Tasks für .NET. Aspose.Tasks ist eine leistungsstarke .NET-API, mit der Entwickler Microsoft Project-Dateien problemlos bearbeiten und verwalten können. Wir werden den Prozess Schritt für Schritt durchgehen und so ein umfassendes Verständnis für die Arbeit mit MS Project Online-Ausnahmen in Ihren .NET-Anwendungen gewährleisten.
 ## Voraussetzungen
@@ -74,3 +80,9 @@ A: Ja, Aspose.Tasks bietet umfassende Unterstützung für die Arbeit mit verschi
 A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Wie kaufe ich eine Lizenz für Aspose.Tasks?
  A: Sie können eine Lizenz für Aspose.Tasks erwerben[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

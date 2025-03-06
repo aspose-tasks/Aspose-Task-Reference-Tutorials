@@ -3,10 +3,16 @@ title: Baca Penugasan Sumber Daya Bersama di Aspose.Tasks
 linktitle: Baca Penugasan Sumber Daya Bersama di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membaca penetapan sumber daya bersama di Aspose.Tasks untuk Java. Tingkatkan efisiensi manajemen proyek dengan tutorial langkah demi langkah.
-type: docs
 weight: 19
 url: /id/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Penugasan Sumber Daya Bersama di Aspose.Tasks
+
 ## Perkenalan
 Dalam manajemen proyek, alokasi sumber daya yang efisien sangat penting untuk keberhasilan penyelesaian proyek. Aspose.Tasks untuk Java menyediakan alat canggih untuk mengelola sumber daya secara efektif. Salah satu tugas penting adalah membaca penetapan sumber daya bersama, yang memungkinkan Anda memahami bagaimana sumber daya dialokasikan di beberapa proyek.
 ## Prasyarat
@@ -58,3 +64,9 @@ Tentu saja, Aspose.Tasks untuk Java memungkinkan Anda membuat laporan khusus ber
 Aspose.Tasks untuk Java dapat menangani proyek dengan berbagai ukuran, dari proyek skala kecil hingga besar.
 ### Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk pengguna Java?
  Ya, Anda bisa mendapatkan dukungan teknis dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

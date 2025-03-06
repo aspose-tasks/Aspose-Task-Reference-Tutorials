@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.Tasks के साथ एमएस 
 linktitle: Aspose.Tasks में प्रोजेक्ट जानकारी लिखें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट जानकारी को कुशलतापूर्वक लिखना सीखें। जावा डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.Tasks के साथ एमएस प्रोजेक्ट मैनिपुलेशन में महारत हासिल करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks के उपयोग के बारे में विस्तार से जानेंगे, जो Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए एक शक्तिशाली लाइब्रेरी है। हम एक मूलभूत कार्य पर ध्यान केंद्रित करेंगे: Aspose.Tasks का उपयोग करके MS प्रोजेक्ट जानकारी लिखना। चाहे आप एक अनुभवी डेवलपर हों या अभी जावा प्रोग्रामिंग में अपनी यात्रा शुरू कर रहे हों, यह मार्गदर्शिका आपको चरण दर चरण प्रक्रिया के बारे में बताएगी।
 ## आवश्यक शर्तें
@@ -61,3 +67,9 @@ project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
  उत्तर: आप Aspose.Tasks सामुदायिक मंच से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: क्या मैं जावा के लिए Aspose.Tasks के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
  उत्तर: हां, अस्थायी लाइसेंस अल्पकालिक उपयोग के लिए उपलब्ध हैं। आप यहां से एक प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

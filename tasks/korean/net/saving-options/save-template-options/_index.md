@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 파일을 템플릿으로 �
 linktitle: Aspose.Tasks에 대한 템플릿 옵션 저장
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일을 템플릿으로 저장하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위해 템플릿 설정을 사용자 정의하세요.
-type: docs
 weight: 18
 url: /ko/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 파일을 템플릿으로 저장
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 템플릿을 저장하는 과정을 안내합니다. 템플릿은 나중에 사용할 수 있도록 프로젝트 구조와 설정을 표준화하는 데 유용합니다. 프로젝트를 템플릿으로 저장하고 그 과정에서 해당 속성을 조정하는 방법을 보여 드리겠습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A: 예, 필요에 따라 템플릿 파일을 로드하고 현재 프로젝트와
 A: Aspose.Tasks for .NET은 주로 Windows 플랫폼에서 실행되는 .NET 프레임워크 애플리케이션용으로 설계되었습니다.
 ### Q: Aspose.Tasks for .NET에 대한 기술 지원이 제공됩니까?
  A: 예, Aspose.Tasks 커뮤니티에서 기술 지원과 지침을 구할 수 있습니다.[포럼](https://forum.aspose.com/c/tasks/15)또는 지원팀에 직접 문의하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

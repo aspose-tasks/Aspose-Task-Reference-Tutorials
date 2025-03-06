@@ -3,10 +3,16 @@ title: 揭示 Aspose.Tasks 中的任務使用視圖字段
 linktitle: Aspose.Tasks 中任務使用視圖欄位的集合
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 輕鬆管理和視覺化專案資料。深入研究任務使用情況視圖欄位以增強專案洞察力。
-type: docs
 weight: 25
 url: /zh-hant/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 揭示 Aspose.Tasks 中的任務使用視圖字段
+
 ## 介紹
 在專案管理領域，Aspose.Tasks for .NET 是一個強大的解決方案，為開發人員提供了一個強大的工具包來操作和管理專案資料。值得注意的功能之一是任務使用視圖，它提供了各個領域的見解，從而增強了專案的可見性。在本教程中，我們將使用 Aspose.Tasks for .NET 深入研究任務使用情況視圖欄位的複雜性，分解每個步驟以便全面理解。
 ## 先決條件
@@ -64,3 +70,9 @@ Aspose.Tasks 主要關注.NET 應用程式。但是，您可以將資料匯出�
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)供短期使用。
 ### 專案文檔支援哪些文件格式？
 Aspose.Tasks for .NET 支援各種格式，包括 MPP、XML 和 CSV。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

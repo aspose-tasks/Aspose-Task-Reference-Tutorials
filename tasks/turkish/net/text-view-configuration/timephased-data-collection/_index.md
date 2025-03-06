@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Zaman Aşamalı Veri Toplama konusunda Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Zaman Aşamalı Verilerin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te zaman aşamalı veri toplamayı keşfedin. Adım adım kılavuz, SSS ve daha fazlası. Proje yönetimi yeteneklerinizi bugün geliştirin!
-type: docs
 weight: 15
 url: /tr/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Zaman Aşamalı Veri Toplama konusunda Uzmanlaşmak
+
 ## giriiş
 Aspose.Tasks'ı kullanarak .NET uygulamalarınızda zaman aşamalı verilerin gücünden yararlanmak mı istiyorsunuz? Başka yerde arama! Bu kapsamlı kılavuz, Aspose.Tasks for .NET ile zaman aşamalı veri toplama sürecinde size yol gösterecek ve bu güçlü kütüphaneden en iyi şekilde yararlanmanızı sağlayacaktır.
 ## Önkoşullar
@@ -121,3 +127,9 @@ Aspose.Tasks farklı boyutlardaki projeleri yönetir ve kaynak ve görev sayıs�
  Evet, Aspose.Tasks for .NET'in özelliklerini şu adrese erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET lisansını nereden satın alabilirim?
 Aspose.Tasks for .NET için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

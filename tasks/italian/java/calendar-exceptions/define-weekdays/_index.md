@@ -3,10 +3,16 @@ title: Definisci i giorni feriali per le eccezioni del calendario con Aspose.Tas
 linktitle: Definisci i giorni feriali per le eccezioni del calendario con Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come definire i giorni feriali per le eccezioni del calendario nei progetti Java utilizzando Aspose.Tasks per una pianificazione accurata del progetto.
-type: docs
 weight: 11
 url: /it/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definisci i giorni feriali per le eccezioni del calendario con Aspose.Tasks
+
 ### introduzione
 Nella gestione dei progetti, la definizione delle eccezioni per i calendari è fondamentale per rappresentare con precisione i giorni lavorativi o festivi non standard all'interno di una sequenza temporale del progetto. Aspose.Tasks per Java fornisce funzionalità robuste per gestire i calendari in modo efficiente, inclusa la definizione di eccezioni come festività o giorni lavorativi speciali. In questo tutorial, approfondiremo come definire i giorni feriali per le eccezioni del calendario utilizzando Aspose.Tasks per Java.
 ### Prerequisiti
@@ -68,3 +74,10 @@ R: Assolutamente, Aspose.Tasks per Java offre flessibilità per definire eccezio
 R: È possibile gestire a livello di codice le eccezioni in base ai requisiti del progetto dinamico utilizzando l'API estesa fornita da Aspose.Tasks per Java.
 ### D: È disponibile una versione di prova per Aspose.Tasks per Java?
  R: Sì, puoi usufruire di una versione di prova gratuita di Aspose.Tasks per Java da[sito web](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

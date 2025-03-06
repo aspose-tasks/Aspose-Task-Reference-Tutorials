@@ -3,10 +3,16 @@ title: Aspose.Tasks için Görüntü Kaydetme MS Proje Seçenekleri
 linktitle: Aspose.Tasks için Görüntü Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project seçeneklerini görüntü olarak nasıl kaydedeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için Görüntü Kaydetme MS Proje Seçenekleri
+
 
 ## giriiş
 Yazılım geliştirme dünyasında, proje görevlerini verimli bir şekilde ele almak, başarılı proje yönetimi için çok önemlidir. Aspose.Tasks for .NET, Microsoft Project dosyalarıyla çalışan geliştiricilere, .NET uygulamalarında proje görevlerini sorunsuz bir şekilde değiştirmelerine, dönüştürmelerine ve yönetmelerine olanak tanıyan güçlü bir çözüm sunar.
@@ -76,3 +82,9 @@ C: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Standard dahil olmak üzere ç
 C: Evet, görüntü kaydetme seçeneklerini sayfa boyutunu, çözünürlüğü veya çıktı formatını ayarlamak gibi özel gereksinimlerinize göre özelleştirebilirsiniz.
 ### S5: Aspose.Tasks for .NET desteğini nerede bulabilirim?
  C: Aspose.Tasks for .NET için destek ve yardımı şu adreste bulabilirsiniz:[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

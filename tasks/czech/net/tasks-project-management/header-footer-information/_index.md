@@ -3,10 +3,16 @@ title: Extrahujte informace o záhlaví a zápatí pomocí Aspose.Tasks
 linktitle: Informace o záhlaví a zápatí v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se extrahovat informace o záhlaví a zápatí ze souborů MS Project pomocí Aspose.Tasks for .NET. Snadné, efektivní a pro vývojáře přátelské řešení.
-type: docs
 weight: 29
 url: /cs/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahujte informace o záhlaví a zápatí pomocí Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům snadno manipulovat se soubory aplikace Microsoft Project. V tomto tutoriálu se naučíme, jak získat informace o záhlaví a zápatí ze souborů MS Project pomocí Aspose.Tasks.
 ## Předpoklady
@@ -70,3 +76,9 @@ Ano, Aspose.Tasks podporuje různé formáty souborů projektu, včetně MPP, XM
  Můžete najít dokumentaci k Aspose.Tasks[tady](https://reference.aspose.com/tasks/net/).
 ### Jak mohu získat podporu pro Aspose.Tasks?
  Podporu pro Aspose.Tasks můžete získat na adrese[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

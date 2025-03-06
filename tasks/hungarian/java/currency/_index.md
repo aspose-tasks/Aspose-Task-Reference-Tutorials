@@ -3,10 +3,16 @@ title: Pénznem kezelése az Aspose.Tasks for Java-ban
 linktitle: Valuta
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks for Java segítségével könnyedén kezelheti a valutakódokat, számjegyeket és szimbólumokat MS Project fájlokban. Egyszerűsítse a projektmenedzsmentet könnyen követhető oktatóanyagokkal.
-type: docs
 weight: 22
 url: /hu/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pénznem kezelése az Aspose.Tasks for Java-ban
+
 
 ## Bevezetés
 
@@ -43,3 +49,9 @@ Ismerje meg, hogyan kezelheti hatékonyan a valuta MS Project kódokat az Aspose
 Tanulja meg, hogyan kezelheti hatékonyan a valuta MS Project számjegyeit az Aspose.Tasks for Java segítségével. Útmutató lépésről lépésre kódpéldákkal.
 ### [Valuta szimbólumok kezelése Aspose.Tasks-ban](./currency-symbols/)
 Tanulja meg kezelni a valutaszimbólumokat az MS Project fájlokban az Aspose.Tasks for Java segítségével. Egyszerű lépések a hatékony projektmenedzsmenthez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

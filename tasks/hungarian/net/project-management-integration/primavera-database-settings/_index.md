@@ -3,10 +3,16 @@ title: Konfigurálja az MS Project Primavera adatbázist az Aspose.Tasks alkalma
 linktitle: A Primavera adatbázis-beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja könnyedén az MS Project Primavera Database beállításait az Aspose.Tasks for .NET-ben. Egyszerűsítse projektmenedzsment feladatait.
-type: docs
 weight: 11
 url: /hu/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurálja az MS Project Primavera adatbázist az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Készen áll az Aspose.Tasks for .NET erejének kihasználására az MS Project Primavera Database beállításainak zökkenőmentes konfigurálására? Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton. Mielőtt azonban belemerülnénk, győződjön meg arról, hogy mindent megvan, amire szüksége van.
 ## Előfeltételek
@@ -73,3 +79,9 @@ V: Az Aspose.Tasks for .NET elsősorban a helyszíni projektmenedzsment megoldá
 V: Abszolút! Az Aspose.Tasks for .NET API-k gazdag készletét kínálja a projektadatok különböző formátumú olvasásához, írásához és kezeléséhez.
 ### K: Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Tasks számára a .NET felhasználók számára?
  V: Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)közösségi támogatásért és segítségért bármilyen problémával vagy kérdéssel kapcsolatban.## Teljes forráskód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menguasai Hari Kerja di Aspose.Tugas
 linktitle: Kumpulan Hari Kerja di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Temukan kekuatan Aspose.Tasks untuk .NET dalam mengelola hari kerja dengan mudah. Sesuaikan hari kerja, hapus akhir pekan, dan buat kalender khusus dengan mudah.
-type: docs
 weight: 11
 url: /id/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Hari Kerja di Aspose.Tugas
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memfasilitasi manipulasi data manajemen proyek secara efisien. Dalam tutorial ini, kita akan menjelajahi kumpulan hari kerja di Aspose.Tasks, memungkinkan Anda menyesuaikan hari kerja, menghapus akhir pekan, dan membuat kalender khusus untuk memenuhi kebutuhan proyek Anda. Baik Anda pengembang berpengalaman atau pendatang baru, panduan langkah demi langkah ini akan memandu Anda melalui proses bekerja dengan hari kerja di Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -95,3 +101,9 @@ J: Aspose.Tasks terutama mendukung bahasa .NET, namun juga menawarkan versi untu
  J: Lihat[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/) untuk informasi rinci.
 ### T: Bagaimana cara mendapatkan lisensi sementara Aspose.Tasks untuk .NET?
  J: Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

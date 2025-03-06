@@ -3,10 +3,16 @@ title: Olika typer av baslinjer i Aspose.Tasks
 linktitle: Olika typer av baslinjer i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig att ställa in och manipulera projektbaslinjer effektivt med Aspose.Tasks för .NET.
-type: docs
 weight: 21
 url: /sv/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olika typer av baslinjer i Aspose.Tasks
+
 ## Introduktion
 
 När det gäller projektledning är precision och framförhållning av största vikt. Aspose.Tasks för .NET tillhandahåller en robust verktygslåda för att hantera projektdata effektivt, vilket gör det möjligt för användare att fördjupa sig i olika aspekter av projektplanering, spårning och utförande. En avgörande funktion som erbjuds av Aspose.Tasks är förmågan att sätta baslinjer, som fungerar som referenspunkter för att mäta projektframsteg mot initiala planer.
@@ -82,3 +88,9 @@ S4: Aspose.Tasks tillhandahåller omfattande dokumentation och supportforum för
 ### F5: Kan jag prova Aspose.Tasks innan jag köper?
 
 S5: Ja, du kan utforska Aspose.Tasks genom en gratis testversion som finns tillgänglig på webbplatsen, så att du kan uppleva dess möjligheter direkt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

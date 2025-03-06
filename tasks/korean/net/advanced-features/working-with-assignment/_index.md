@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 할당 작업
 linktitle: Aspose.Tasks에서 할당 작업
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET에서 프로젝트 할당을 관리하는 방법을 알아보세요. 리소스 예약을 위한 다양한 윤곽을 살펴보세요.
-type: docs
 weight: 13
 url: /ko/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 할당 작업
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 할당 작업을 수행하는 방법을 살펴보겠습니다. 할당은 작업에 리소스를 할당하고 진행 상황을 예약하고 추적하는 데 도움이 되므로 프로젝트 관리에서 매우 중요합니다. Aspose.Tasks를 사용하여 다양한 윤곽을 갖춘 자원 할당 시간대별 데이터를 생성하는 데 중점을 둘 것입니다.
@@ -109,3 +115,9 @@ A4: 예, 이 튜토리얼에서 설명한 것처럼 프로젝트 요구 사항�
 ### Q5: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
 
 A5: 다음에서 지원을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 전문가와 커뮤니티 구성원이 적극적으로 토론에 참여하는 곳입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

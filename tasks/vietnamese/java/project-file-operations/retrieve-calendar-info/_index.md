@@ -3,10 +3,16 @@ title: Truy xuất thông tin lịch dự án MS trong Aspose.Tasks
 linktitle: Truy xuất thông tin lịch trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách truy xuất thông tin lịch MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để truy cập chi tiết lịch theo chương trình.
-type: docs
 weight: 14
 url: /vi/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất thông tin lịch dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách truy xuất thông tin lịch từ các tệp Microsoft Project bằng thư viện Aspose.Tasks cho Java. Aspose.Tasks cung cấp các tính năng mạnh mẽ để thao tác dữ liệu dự án, bao gồm truy cập các chi tiết lịch như ngày và giờ làm việc.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng 
  Đáp: Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về Aspose.Tasks ở đâu?
  Đáp: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

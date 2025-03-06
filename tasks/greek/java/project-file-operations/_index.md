@@ -3,10 +3,16 @@ title: Λειτουργίες αρχείου έργου
 linktitle: Λειτουργίες αρχείου έργου
 second_title: Aspose.Tasks Java API
 description: Βελτιστοποιήστε χωρίς κόπο τις διατάξεις του MS Project με το Aspose.Tasks για Java. Μάθετε βήμα προς βήμα οδηγούς για τη μείωση των κενών, την απόδοση δεδομένων, την αντικατάσταση ημερολογίων και πολλά άλλα.
-type: docs
 weight: 29
 url: /el/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λειτουργίες αρχείου έργου
+
 ## Εισαγωγή
 Ψάχνετε να βελτιώσετε τις δυνατότητες διαχείρισης έργων Java; Ανακαλύψτε τα περιεκτικά μας σεμινάρια για το Aspose.Tasks για Java, εστιάζοντας σε διάφορες λειτουργίες αρχείων έργου. Από τη μείωση των κενών στις λίστες εργασιών έως την προσαρμογή των προβολών του MS Project, σας έχουμε καλύψει.
 
@@ -94,3 +100,9 @@ url: /el/java/project-file-operations/
 Μάθετε να διαχειρίζεστε αποτελεσματικά τις ιδιότητες της εβδομάδας στο Aspose.Tasks για Java. Προσαρμόστε εύκολα τις ημερομηνίες έναρξης της εβδομάδας, τις ημέρες ανά μήνα και πολλά άλλα.
 ### [Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks](./write-mpp-project-summary/)
 Μάθετε πώς να γράφετε περιλήψεις έργων MPP σε Java χρησιμοποιώντας το Aspose.Tasks. Ρυθμίστε και ανακτήστε πληροφορίες έργου χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

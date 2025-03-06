@@ -3,10 +3,16 @@ title: Werken met beschikbaarheidsperioden in Aspose.Tasks
 linktitle: Werken met beschikbaarheidsperioden in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de beschikbaarheidsperioden van bronnen efficiënt kunt beheren met Aspose.Tasks voor .NET. Deze tutorial biedt een stapsgewijze handleiding voor het werken met beschikbaarheidsperioden in uw .NET-projecten.
-type: docs
 weight: 17
 url: /nl/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met beschikbaarheidsperioden in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u kunt werken met beschikbaarheidsperioden in Aspose.Tasks voor .NET. Beschikbaarheidsperioden zijn cruciaal voor het efficiënt beheren van resources in projectmanagementscenario's. Wij begeleiden u stap voor stap door het proces.
@@ -107,3 +113,9 @@ A2: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen[hier
 ### V5: Bieden jullie tijdelijke licenties aan voor Aspose.Tasks voor .NET?
 
  A5: Ja, er zijn tijdelijke licenties beschikbaar[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

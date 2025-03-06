@@ -3,10 +3,16 @@ title: Aspose.Tasks의 리소스 유형
 linktitle: Aspose.Tasks의 리소스 유형
 second_title: Aspose.태스크 .NET API
 description: 단계별 튜토리얼을 통해 Aspose.Tasks for .NET에서 작업, 자재, 비용 리소스 등 다양한 유형의 리소스로 작업하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 리소스 유형
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 작업, 리소스 또는 일정을 관리하든 Aspose.Tasks는 포괄적인 API 세트를 제공하여 프로세스를 단순화합니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 프로젝트 내에서 활용할 수 있는 다양한 유형의 리소스를 살펴보겠습니다.
 ## 전제조건
@@ -60,3 +66,9 @@ A: 예, Aspose.Tasks는 Microsoft Project(MPP), Primavera P6 등을 포함한 �
  A: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for .NET은 참조용 문서를 제공합니까?
  A: 예, 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट विकल
 linktitle: Aspose.Tasks के लिए प्राइमेरा सेव विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके प्राइमेरा के लिए MS प्रोजेक्ट विकल्पों को सहजता से सहेजने का तरीका जानें। हमारे चरण-दर-चरण ट्यूटोरियल का अनुसरण करें।
-type: docs
 weight: 14
 url: /hi/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट विकल्प प्राइमेरा सहेजें
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में Microsoft प्रोजेक्ट फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इसके द्वारा प्रदान की जाने वाली प्रमुख कार्यक्षमताओं में से एक लोकप्रिय परियोजना प्रबंधन सॉफ्टवेयर, प्रिमावेरा के लिए एमएस प्रोजेक्ट विकल्पों को सहेजने की क्षमता है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके इसे कैसे प्राप्त करें, इस पर विस्तार से चर्चा करेंगे।
 ## आवश्यक शर्तें
@@ -59,3 +65,9 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
  उत्तर: हां, आप Aspose.Tasks का निःशुल्क परीक्षण यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) इसकी विशेषताओं और क्षमताओं का पता लगाने के लिए।
 ### प्रश्न: यदि Aspose.Tasks का उपयोग करते समय मुझे कोई समस्या आती है या मेरे कोई प्रश्न हैं तो मुझे सहायता कहाँ से मिल सकती है?
  उत्तर: आप Aspose.Tasks समुदाय और सहायता टीम से सहायता ले सकते हैं[मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

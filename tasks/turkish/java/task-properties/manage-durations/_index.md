@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevlerin Sürelerini Yönetin
 linktitle: Aspose.Tasks'ta Görevlerin Sürelerini Yönetin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı keşfedin ve görev sürelerini zahmetsizce yönetmeyi öğrenin. Etkili proje planlama ve yürütme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 20
 url: /tr/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevlerin Sürelerini Yönetin
+
 ## giriiş
 Aspose.Tasks for Java, proje görevlerini ve sürelerini verimli bir şekilde yönetmek için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks'ı kullanarak görevlerin sürelerini nasıl yöneteceğinizi keşfedeceğiz ve her adımda size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuz projelerinizde görev süreleriyle çalışmanın temellerini kavramanıza yardımcı olacaktır.
 ## Önkoşullar
@@ -67,3 +73,9 @@ Aspose.Tasks, Java 6 ve sonraki sürümlerle uyumludur.
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce Aspose.Tasks'ı keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

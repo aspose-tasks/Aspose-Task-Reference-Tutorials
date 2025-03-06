@@ -3,10 +3,16 @@ title: Nắm vững các tiêu chí lọc của dự án MS với Aspose.Tasks
 linktitle: Tiêu chí lọc trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách triển khai tiêu chí lọc trong MS Project bằng Aspose.Tasks for .NET. Tăng hiệu quả quản lý dự án bằng phân tích dữ liệu mục tiêu.
-type: docs
 weight: 18
 url: /vi/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các tiêu chí lọc của dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, Microsoft Project là một công cụ vững chắc, cung cấp rất nhiều tính năng để hỗ trợ người lập kế hoạch và quản lý dự án. Trong số nhiều chức năng của nó có khả năng lọc dữ liệu dự án, cho phép người dùng tập trung vào các khía cạnh cụ thể trong nhiệm vụ dự án của họ. Tuy nhiên, việc thành thạo các khả năng lọc này có thể là một nhiệm vụ khó khăn nếu không có hướng dẫn phù hợp. Hướng dẫn này nhằm mục đích làm sáng tỏ quy trình bằng cách cung cấp hướng dẫn từng bước về cách triển khai tiêu chí lọc trong MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Trả lời: Aspose.Tasks hỗ trợ .NET Framework, .NET Core và .NET Standard
 Đáp: Hoàn toàn có thể, bạn có thể điều chỉnh tiêu chí lọc theo chương trình dựa trên các tham số động, cho phép phân tích dữ liệu dự án thích ứng.
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ ở đâu nếu gặp sự cố với Aspose.Tasks?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tìm kiếm sự hỗ trợ từ cộng đồng hoặc liên hệ trực tiếp với bộ phận hỗ trợ của Aspose.Tasks để được hỗ trợ cá nhân hóa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cập nhật & Lên lịch lại dự án MS trong Aspose.Tasks
 linktitle: Cập nhật dự án và sắp xếp lại công việc chưa hoàn thành trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách cập nhật và sắp xếp lại các tệp MS Project theo chương trình bằng Aspose.Tasks cho Java.
-type: docs
 weight: 23
 url: /vi/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cập nhật & Lên lịch lại dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project là phần mềm quản lý dự án được sử dụng rộng rãi, cho phép người dùng quản lý các nhiệm vụ, tài nguyên và tiến trình một cách hiệu quả. Aspose.Tasks cho Java cung cấp một bộ API mạnh mẽ để thao tác với các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách cập nhật các tệp MS Project và sắp xếp lại công việc chưa hoàn thành bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Trả lời: Có, Aspose.Tasks cho Java cung cấp các API mạnh mẽ để qu
  Đáp: Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về Aspose.Tasks cho Java ở đâu?
  Đáp: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/tasks/java/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

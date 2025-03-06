@@ -3,10 +3,16 @@ title: Feladatok és naptárak az Aspose.Tasks-ban
 linktitle: Feladatok és naptárak az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java erejét a feladatok és naptárak hatékony kezelésében. Töltse le most a zökkenőmentes projektmenedzsment élményért!
-type: docs
 weight: 33
 url: /hu/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladatok és naptárak az Aspose.Tasks-ban
+
 ## Bevezetés
 Készen áll a projektmenedzsment játék fejlesztésére az Aspose.Tasks for Java segítségével? Ez az átfogó útmutató végigvezeti Önt az Aspose.Tasks segítségével végzett feladatok és naptárak bonyolult világán, lehetővé téve, hogy teljes potenciálját kihasználja a hatékony projekttervezés és -végrehajtás érdekében.
 ## Előfeltételek
@@ -55,3 +61,9 @@ Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.co
  Csatlakozz a közösséghez a címen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért.
 ### Vásárolhatok licencet az Aspose.Tasks számára?
  Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

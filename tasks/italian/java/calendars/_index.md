@@ -3,10 +3,16 @@ title: Calendari
 linktitle: Calendari
 second_title: API Java Aspose.Tasks
 description: Migliora le tue capacità di gestione dei progetti Java con i tutorial Aspose.Tasks. Padroneggia la gestione del calendario, crea, definisci i giorni feriali e aggiorna i calendari con facilità.
-type: docs
 weight: 21
 url: /it/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calendari
+
 ## introduzione
 
 Sei uno sviluppatore Java e desideri ottimizzare le tue capacità di gestione dei progetti? Immergiti nei nostri tutorial completi Aspose.Tasks che coprono vari aspetti della gestione dei calendari di MS Project. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questi tutorial forniscono una guida passo passo per migliorare le tue capacità.
@@ -64,3 +70,9 @@ Scopri come creare un calendario standard di MS Project in Java utilizzando Aspo
 Scopri come leggere le settimane lavorative dal calendario di MS Project utilizzando Aspose.Tasks per Java. Ottieni istruzioni dettagliate in questo tutorial completo.
 ### [Aggiorna i calendari di MS Project in formato MPP con Aspose.Tasks](./update-to-mpp/)
 Scopri come aggiornare i calendari di MS Project al formato MPP senza sforzo utilizzando Aspose.Tasks per Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

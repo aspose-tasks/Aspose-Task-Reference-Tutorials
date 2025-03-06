@@ -3,10 +3,16 @@ title: Beheer projectoverzichtcodes in Aspose.Tasks voor .NET
 linktitle: Overzichtscodes beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer MS Project-overzichtscodes beheren met Aspose.Tasks voor .NET. Vereenvoudig de projectorganisatie moeiteloos.
-type: docs
 weight: 10
 url: /nl/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer projectoverzichtcodes in Aspose.Tasks voor .NET
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u de overzichtscodes van Microsoft Project kunt beheren met Aspose.Tasks voor .NET. Overzichtscodes zijn aangepaste velden in Microsoft Project waarmee gebruikers taken kunnen categoriseren en organiseren op basis van specifieke criteria. Aspose.Tasks vereenvoudigt het proces van het programmatisch lezen en manipuleren van deze overzichtscodes.
 ## Vereisten
@@ -71,3 +77,9 @@ A: Ja, voor commercieel gebruik van Aspose.Tasks is een geldige licentie vereist
 A: Ja, u kunt een gratis proefversie van Aspose.Tasks downloaden van de website om de functies en mogelijkheden ervan te evalueren.
 ### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
  A: U kunt ondersteuning krijgen voor Aspose.Tasks door het forum te bezoeken op[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).## Volledige broncode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

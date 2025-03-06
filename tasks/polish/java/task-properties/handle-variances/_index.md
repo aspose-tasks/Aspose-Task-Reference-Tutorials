@@ -3,10 +3,16 @@ title: Obsługuj różnice w zadaniach w Aspose.Tasks
 linktitle: Obsługuj różnice w zadaniach w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj moc Aspose.Tasks dla Java w zarządzaniu odchyleniami zadań projektowych. Postępuj zgodnie z naszym obszernym przewodnikiem, aby uzyskać bezproblemową integrację i efektywną obsługę.
-type: docs
 weight: 19
 url: /pl/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj różnice w zadaniach w Aspose.Tasks
+
 ## Wstęp
 świecie zarządzania projektami Aspose.Tasks for Java wyróżnia się jako solidne i wszechstronne narzędzie do skutecznego radzenia sobie z odchyleniami w zadaniach. Ten samouczek poprowadzi Cię przez proces wykorzystania Aspose.Tasks do płynnego zarządzania i dostosowywania się do różnic w zadaniach.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Tak, możesz uzyskać tymczasową licencję na Aspose.Tasks[Tutaj](https://purch
  Aby uzyskać wsparcie i dyskusje, odwiedź forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Czy mogę pobrać Aspose.Tasks dla Java?
  Tak, pobierz najnowszą wersję Aspose.Tasks dla Java[Tutaj](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.Tasks voor Java
 linktitle: Aspose.Tasks voor Java-tutorials
-type: docs
 weight: 10
 url: /nl/java/
 description: Ontdek Aspose.Tasks voor Java met onze tutorials. Hoofdkalender, projectbeheer en meer. Stroomlijn uw workflows voor een efficiënte projectuitvoering.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.Tasks voor Java
+
 
 ## Invoering
 Bent u klaar om uw Java-projectmanagementvaardigheden te verbeteren? Duik in de wereld van Aspose.Tasks voor Java met onze uitgebreide tutorials over verschillende aspecten van projectmanagement. Van agenda-uitzonderingen tot VBA-integratie, wij staan voor u klaar.
@@ -93,3 +98,9 @@ Verken Aspose.Tasks Java met onze Task Baselines-tutorials. Stroomlijn de taakpl
 Verbeter Java-projectbeheer met Aspose.Tasks. Bekijk tutorials over taakeigenschappen, van het omgaan met prioriteiten tot het beheren van kosten. Optimaliseer uw project vandaag nog!
 ### [VBA-integratie](./vba-integration/)
 Ontdek Aspose.Tasks Java met VBA-integratie. Stroomlijn projectworkflows en verbeter het volgen van taken. Ontdek uitgebreide tutorials voor naadloze VBA-integratie!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

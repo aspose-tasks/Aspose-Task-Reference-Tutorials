@@ -3,10 +3,16 @@ title: Proje Yönetimi
 linktitle: Proje Yönetimi
 second_title: Aspose.Tasks Java API'si
 description: Kapsamlı proje yönetimi eğitimlerimizle Aspose.Tasks Java'yı keşfedin. Kritik yol hesaplamalarından mali yıl özelliklerine kadar iş akışınızı kolaylaştırın.
-type: docs
 weight: 27
 url: /tr/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proje Yönetimi
+
 ## giriiş
 
 Aspose.Tasks for Java'yı kullanarak proje yönetimi becerilerinizi geliştirmeye hazır mısınız? Java geliştirme yolculuğunuzu güçlendirecek bir dizi özellik ve işlevi kapsayan özel eğitimlerimize dalın. Kritik yol hesaplamalarından yazdırma sırasında görev yazma istisnalarının ele alınmasına kadar her konuda yanınızdayız. Sizi bekleyen bilgi zenginliğini keşfedelim.
@@ -69,3 +75,9 @@ Aspose.Tasks for Java'yı kullanarak MS Project dosyalarını Primavera XML'den 
 Aspose.Tasks for Java'da görüntüleri ayırmak için sayfaları nasıl yazdıracağınızı öğrenin. Bu adım adım kılavuzla proje görselleştirmesini iyileştirin.
 ### [Aspose.Tasks'ta Yazdırma Sırasında Görev Yazma İstisnalarını Yönetme](./print-task-exceptions/)
 Sorunsuz proje yürütmeyi sağlamak için Aspose.Tasks for Java'da istisna yönetimi konusunda uzmanlaşın. Yazdırma sırasında görev yazma istisnalarını zahmetsizce nasıl ele alacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

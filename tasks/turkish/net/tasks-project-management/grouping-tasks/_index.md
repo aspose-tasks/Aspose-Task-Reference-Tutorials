@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Verimli MS Project Görev Gruplaması
 linktitle: Aspose.Tasks'ta Görevleri Gruplama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project görevlerini etkili bir şekilde nasıl gruplandıracağınızı öğrenin.
-type: docs
 weight: 25
 url: /tr/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Verimli MS Project Görev Gruplaması
+
 ## giriiş
 Microsoft Project'te görevleri yönetmek bazen zorlayıcı olabilir, özellikle de konu onları verimli bir şekilde organize etmek olduğunda. Aspose.Tasks for .NET, görevleri etkili bir şekilde gruplamak için işlevsellikler sağlayarak buna kapsamlı bir çözüm sunuyor. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project görevlerini nasıl gruplandıracağımızı inceleyeceğiz.
 ## Önkoşullar
@@ -84,3 +90,9 @@ Evet, Aspose.Tasks, MS Project dosyalarının çeşitli sürümlerini destekleye
 Kesinlikle Aspose.Tasks, hücre renkleri, yazı tipleri ve stiller dahil olmak üzere gruplandırılmış görevlerin görünümünü özelleştirmek için seçenekler sunar.
 ### Aspose.Tasks for .NET desteğini nerede bulabilirim?
  Aspose.Tasks for .NET için destek ve yardımı şurada bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

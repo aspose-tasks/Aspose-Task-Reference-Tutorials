@@ -3,10 +3,16 @@ title: Defina dias da semana para exceções de calendário com Aspose.Tasks
 linktitle: Defina dias da semana para exceções de calendário com Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como definir dias da semana para exceções de calendário em projetos Java usando Aspose.Tasks para um agendamento preciso do projeto.
-type: docs
 weight: 11
 url: /pt/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Defina dias da semana para exceções de calendário com Aspose.Tasks
+
 ### Introdução
 No gerenciamento de projetos, definir exceções para calendários é crucial para representar com precisão dias úteis ou feriados fora do padrão dentro do cronograma de um projeto. Aspose.Tasks for Java fornece funcionalidades robustas para gerenciar calendários de forma eficiente, incluindo a definição de exceções como feriados ou dias úteis especiais. Neste tutorial, nos aprofundaremos em como definir dias da semana para exceções de calendário usando Aspose.Tasks para Java.
 ### Pré-requisitos
@@ -68,3 +74,10 @@ R: Com certeza, Aspose.Tasks for Java oferece flexibilidade para definir exceç�
 R: Você pode lidar programaticamente com exceções com base nos requisitos dinâmicos do projeto usando a extensa API fornecida pelo Aspose.Tasks for Java.
 ### P: Existe uma versão de teste disponível para Aspose.Tasks for Java?
  R: Sim, você pode aproveitar uma versão de avaliação gratuita do Aspose.Tasks for Java no[local na rede Internet](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

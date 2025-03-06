@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Hafta İçi Günlerde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Hafta İçi Günlerin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Hafta içi günleri zahmetsizce yönetme konusunda Aspose.Tasks for .NET'in gücünü keşfedin. Çalışma günlerini özelleştirin, hafta sonlarını kaldırın ve kolaylıkla özel takvimler oluşturun.
-type: docs
 weight: 11
 url: /tr/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Hafta İçi Günlerde Uzmanlaşmak
+
 ## giriiş
 Aspose.Tasks for .NET, proje yönetimi verilerinin verimli şekilde değiştirilmesini kolaylaştıran güçlü bir kütüphanedir. Bu derste, Aspose.Tasks'teki hafta içi gün koleksiyonunu keşfederek çalışma günlerini özelleştirmenize, hafta sonlarını kaldırmanıza ve proje gereksinimlerinizi karşılamak için özel takvimler oluşturmanıza olanak sağlayacağız. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu adım adım kılavuz Aspose.Tasks for .NET'te hafta içi çalışma sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -95,3 +101,9 @@ C: Aspose.Tasks öncelikli olarak .NET dillerini destekler ancak Java için de s
  C: Bkz.[Aspose.Tasks for .NET belgeleri](https://reference.aspose.com/tasks/net/) detaylı bilgi için.
 ### S: Aspose.Tasks for .NET için nasıl geçici lisans edinebilirim?
  C: Geçici lisansı şu adresten alabilirsiniz:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

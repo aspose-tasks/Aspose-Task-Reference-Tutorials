@@ -3,10 +3,16 @@ title: Formázza az MS Project Presentation-t az Aspose.Tasks-ban
 linktitle: Projektbemutató formázása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan formázhat MS Project prezentációkat az Aspose.Tasks for .NET használatával. Fokozza a projekt részleteinek megjelenítését és kommunikációját könnyedén.
-type: docs
 weight: 10
 url: /hu/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formázza az MS Project Presentation-t az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET használatával javítani szeretné MS Project projektjei megjelenítését? Ebben az oktatóanyagban lépésről lépésre végigvezetjük az MS Project projekt prezentációinak formázásán. A végére kifinomult prezentációkat készíthet, amelyek hatékonyan kommunikálják projektje részleteit.
@@ -90,3 +96,9 @@ V: Természetesen az Aspose.Tasks folyamatosan frissül, hogy biztosítsa a komp
 
 ### 5. kérdés: Szükségem van ideiglenes licencre tesztelés céljából?
  V: Ha tesztelési vagy értékelési célból ideiglenes licencre van szüksége, szerezhet be egyet a webhelyen[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) az Aspose honlapján.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

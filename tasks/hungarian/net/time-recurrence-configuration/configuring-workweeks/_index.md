@@ -3,10 +3,16 @@ title: A munkahét konfigurálásának elsajátítása az Aspose.Tasks programba
 linktitle: Workweeks konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja könnyedén a munkaheteket az Aspose.Tasks for .NET-ben. Fokozza a projekt ütemezését és az erőforrás-kezelést lépésről lépésre szóló útmutatónkkal.
-type: docs
 weight: 16
 url: /hu/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A munkahét konfigurálásának elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az Aspose.Tasks for .NET munkaheteinek konfigurálásáról. A munkahetek hatékony kezelése kulcsfontosságú a projekttervezés és az ütemezés szempontjából. Az Aspose.Tasks leegyszerűsíti ezt a folyamatot, és lehetővé teszi a munkahetek testreszabását a projekt igényei szerint. Ebben az oktatóanyagban végigvezetjük a munkahetek zökkenőmentes konfigurálásának lépésein.
 ## Előfeltételek
@@ -90,3 +96,9 @@ Míg az Aspose.Tasks robusztus import/exportálási lehetőségeket biztosít, a
 A jelenlegi verziótól kezdve nincs előre meghatározott korlát a projektben konfigurálható munkahetek számára.
 ### Vannak beépített sablonok a hétköznapi munkahetekhez?
 Igen, az Aspose.Tasks tartalmaz egy szabványos naptársablont, amelyet projektje kiindulási pontjaként használhat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

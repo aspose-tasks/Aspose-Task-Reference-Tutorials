@@ -3,10 +3,16 @@ title: Kumpulan Bidang Tampilan Penggunaan Sumber Daya di Aspose.Tasks
 linktitle: Kumpulan Bidang Tampilan Penggunaan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengakses dan memanipulasi Bidang Tampilan Penggunaan Sumber Daya secara efektif di file Microsoft Project menggunakan Aspose.Tasks untuk .NET.
-type: docs
 weight: 16
 url: /id/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Bidang Tampilan Penggunaan Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, menangani file Microsoft Project secara efisien sangatlah penting. Aspose.Tasks untuk .NET memberikan solusi komprehensif untuk bekerja dengan file MS Project dengan lancar. Dalam tutorial ini, kita akan mempelajari proses mengakses dan memanfaatkan Bidang Tampilan Penggunaan Sumber Daya menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -67,3 +73,9 @@ J: Tentu saja! Aspose.Tasks untuk .NET menyediakan fungsionalitas luas untuk mel
  J: Ya, Anda dapat mengakses versi uji coba gratis dari[situs web](https://releases.aspose.com/).
 ### T: Bagaimana cara mendapatkan lisensi sementara Aspose.Tasks untuk .NET?
  J: Anda dapat memperoleh lisensi sementara dari[halaman pembelian](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

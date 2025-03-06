@@ -3,10 +3,16 @@ title: Master Table Configuration in Aspose.Tasks for .NET
 linktitle: Táblázatok konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konfigurálhatja a táblákat az Aspose.Tasks for .NET-ben. Fokozza a projektmenedzsment tapasztalatait könnyedén.
-type: docs
 weight: 10
 url: /hu/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Table Configuration in Aspose.Tasks for .NET
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó útmutatóban az Aspose.Tasks .NET tábláinak konfigurálásáról. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft Project fájlokkal. Ebben az oktatóanyagban végigvezetjük a táblák Aspose.Tasks használatával történő konfigurálásának folyamatán, az egyes lépéseket lebontva a pontos megértés érdekében.
 ## Előfeltételek
@@ -68,3 +74,9 @@ Gratulálunk! Sikeresen konfigurálta a táblákat az Aspose.Tasks for .NET-ben.
  V: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t?
  V: Megvásárolhatja a teljes licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

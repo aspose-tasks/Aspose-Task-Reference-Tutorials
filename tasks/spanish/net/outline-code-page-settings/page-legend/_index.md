@@ -3,10 +3,16 @@ title: Configuración de leyendas de MS Project en Aspose.Tasks
 linktitle: Configurar la leyenda de la página en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar las leyendas de las páginas de MS Project en .NET usando Aspose.Tasks para una gestión eficiente de proyectos. Se proporciona una guía paso a paso.
-type: docs
 weight: 18
 url: /es/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de leyendas de MS Project en Aspose.Tasks
+
 ## Introducción
 En el ámbito del desarrollo .NET, gestionar tareas de manera eficiente es crucial, especialmente cuando se trata de gestión de proyectos. Aspose.Tasks para .NET surge como una poderosa herramienta que ofrece una gran cantidad de funcionalidades para agilizar los procesos de gestión de tareas. Una de esas características es la capacidad de configurar leyendas de páginas de MS Project, lo que proporciona a los usuarios información valiosa sobre la presentación de datos del proyecto.
 ## Requisitos previos
@@ -85,3 +91,9 @@ R: Las licencias temporales ofrecen acceso completo a Aspose.Tasks para las func
 R: Por supuesto, Aspose.Tasks para .NET ofrece amplias opciones de personalización, lo que le permite personalizar las leyendas de las páginas según los requisitos específicos de su proyecto.
 ### P: ¿Dónde puedo encontrar soporte o foros comunitarios para Aspose.Tasks para .NET?
  R: Puede buscar apoyo e interactuar con la comunidad en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15), donde puede encontrar respuestas a consultas e interactuar con otros desarrolladores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

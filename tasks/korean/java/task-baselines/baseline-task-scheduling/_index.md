@@ -3,10 +3,16 @@ title: Aspose.Tasks의 기본 작업 예약
 linktitle: Aspose.Tasks의 기본 작업 예약
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 작업 기준을 효과적으로 예약하는 방법을 알아보세요. 프로젝트 관리 프로세스를 손쉽게 간소화하세요.
-type: docs
 weight: 10
 url: /ko/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 기본 작업 예약
+
 ## 소개
 작업 기준선 관리는 프로젝트 관리의 중요한 측면으로, 계획된 진행 상황과 실제 진행 상황을 정확하게 비교할 수 있도록 해줍니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 기본 작업 예약을 수행하는 방법을 살펴보겠습니다. 다음 단계를 따르면 프로젝트 관리 프로세스를 효율적으로 간소화할 수 있습니다.
 ## 전제조건
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  예, 다음에서 Aspose.Tasks for Java의 무료 평가판에 액세스할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
 ### Java용 Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  질문이나 도움이 필요하면 Aspose.Tasks 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

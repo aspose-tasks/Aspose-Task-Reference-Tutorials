@@ -3,10 +3,16 @@ title: Настройка рабочего времени в Aspose.Tasks
 linktitle: Настройка рабочего времени в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Улучшите планирование проектов в .NET с помощью Aspose.Tasks. Легко настраивайте рабочее время для точного управления ресурсами. Загрузите библиотеку прямо сейчас!
-type: docs
 weight: 13
 url: /ru/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка рабочего времени в Aspose.Tasks
+
 ## Введение
 В управлении проектами точный контроль рабочего времени имеет решающее значение для точного планирования и распределения ресурсов. Aspose.Tasks для .NET предоставляет мощное решение для обработки информации о рабочем времени в ваших проектах. Это руководство проведет вас через процесс настройки рабочего времени с помощью Aspose.Tasks в среде .NET.
 ## Предварительные условия
@@ -84,3 +90,9 @@ foreach (var day in weekDays)
 Aspose.Tasks поддерживает несколько форматов файлов, обеспечивая плавные операции импорта/экспорта данных проекта.
 ### Как часто выходят обновления Aspose.Tasks?
 Обновления выпускаются регулярно для обеспечения совместимости с новейшими технологиями и учета отзывов пользователей.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

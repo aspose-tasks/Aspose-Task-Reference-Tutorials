@@ -3,10 +3,16 @@ title: Beheersing van VBA-referentiebeheer - een stapsgewijze handleiding
 linktitle: VBA-referenties verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van het omgaan met VBA-referenties in Aspose.Tasks .NET met onze uitgebreide tutorial. Leer naadloos VBA-referenties lezen, vergelijken en ermee werken.
-type: docs
 weight: 15
 url: /nl/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van VBA-referentiebeheer - een stapsgewijze handleiding
+
 ## Invoering
 Als u zich in Aspose.Tasks voor .NET verdiept en de fijne kneepjes van het omgaan met VBA-referenties wilt verkennen, bent u hier op de juiste plek. Deze stapsgewijze handleiding begeleidt u bij het lezen, het controleren van de gelijkheid, het verkrijgen van hashcodes en het werken met de VBA-referentiecollectie met behulp van Aspose.Tasks.
 ## Vereisten
@@ -79,3 +85,9 @@ A: Aspose.Tasks ondersteunt voornamelijk .NET-talen, maar er zijn andere Aspose-
  A: De documentatie is beschikbaar[hier](https://reference.aspose.com/tasks/net/).
 ### Vraag: Kan ik Aspose.Tasks kopen?
  A: Ja, u kunt het kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: กำหนดค่าลายเซ็นดิจิทัล MS Pro
 linktitle: การกำหนดค่ารายละเอียดลายเซ็นดิจิทัล PDF ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่ารายละเอียดลายเซ็นดิจิทัล Microsoft Project PDF โดยใช้ Aspose.Tasks สำหรับ .NET รับประกันความปลอดภัยและความถูกต้องของไฟล์โครงการของคุณ
-type: docs
 weight: 10
 url: /th/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำหนดค่าลายเซ็นดิจิทัล MS Project PDF ด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการกำหนดค่ารายละเอียดลายเซ็นดิจิทัล Microsoft Project PDF โดยใช้ Aspose.Tasks สำหรับ .NET เมื่อทำตามขั้นตอนเหล่านี้ คุณจะสามารถรวมลายเซ็นดิจิทัลเข้ากับไฟล์ MS Project ของคุณได้อย่างราบรื่น มั่นใจในความปลอดภัยและความถูกต้อง
 ## ข้อกำหนดเบื้องต้น
@@ -84,3 +90,9 @@ project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 ตอบ: ไม่ได้ เมื่อใช้ลายเซ็นดิจิทัลกับ PDF แล้ว จะไม่สามารถลบหรืออัปเดตได้ อย่างไรก็ตาม คุณสามารถเพิ่มลายเซ็นเพิ่มเติมได้หากจำเป็น
 ### ถาม: มีข้อจำกัดเกี่ยวกับขนาดหรือความซับซ้อนของไฟล์ Microsoft Project หรือไม่
 ตอบ: Aspose.Tasks สามารถจัดการไฟล์ Microsoft Project ในขนาดและความซับซ้อนต่างๆ ได้โดยไม่มีข้อจำกัด อย่างไรก็ตาม ประสิทธิภาพอาจแตกต่างกันไปขึ้นอยู่กับฮาร์ดแวร์และทรัพยากรที่มีอยู่
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

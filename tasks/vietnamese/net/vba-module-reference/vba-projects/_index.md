@@ -3,10 +3,16 @@ title: Làm chủ các dự án VBA dễ dàng với Aspose.Tasks
 linktitle: Làm việc với các dự án VBA trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý Dự án VBA một cách dễ dàng. Nâng cao khả năng quản lý dự án của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/net/vba-module-reference/vba-projects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các dự án VBA dễ dàng với Aspose.Tasks
+
 ## Giới thiệu
 Nếu bạn đang quản lý dự án bằng .NET, Aspose.Tasks là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với Dự án VBA trong Aspose.Tasks. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình một cách rõ ràng và đơn giản.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Trả lời: Có, Aspose.Tasks tích hợp liền mạch với bất kỳ dự �
  A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks ở đâu?
  A: Mua Aspose.Tasks[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

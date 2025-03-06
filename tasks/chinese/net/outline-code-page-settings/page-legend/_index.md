@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS 项目图例
 linktitle: 在Aspose.Tasks中配置页面图例
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 在 .NET 中配置 MS Project 页面图例，以实现高效的项目管理。提供分步指南。
-type: docs
 weight: 18
 url: /zh/net/outline-code-page-settings/page-legend/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS 项目图例
+
 ## 介绍
 在 .NET 开发领域，有效管理任务至关重要，尤其是在处理项目管理时。 Aspose.Tasks for .NET 成为一个强大的工具，提供了大量的功能来简化任务管理流程。其中一项功能是能够配置 MS Project 页面图例，为用户提供有关项目数据呈现的宝贵见解。
 ## 先决条件
@@ -85,3 +91,9 @@ project.Save(DataDir + "WorkWithPageLegend_out.mpp", SaveFileFormat.Mpp);
 答：当然，Aspose.Tasks for .NET 提供了广泛的自定义选项，允许您根据特定的项目要求定制页面图例。
 ### 问：在哪里可以找到 Aspose.Tasks for .NET 的支持或社区论坛？
 答：您可以通过以下方式寻求支持并与社区互动：[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)，您可以在这里找到问题的答案并与其他开发人员互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

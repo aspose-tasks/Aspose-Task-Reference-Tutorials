@@ -3,10 +3,16 @@ title: Làm việc với thao tác KHÔNG trong Aspose.Tasks
 linktitle: Làm việc với thao tác KHÔNG trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách sử dụng thao tác NOT trong Aspose.Tasks for .NET để lọc các tác vụ một cách hiệu quả. Hãy nâng cao khả năng quản lý dự án của bạn ngay bây giờ.
-type: docs
 weight: 20
 url: /vi/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với thao tác KHÔNG trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng thao tác NOT trong Aspose.Tasks cho .NET. Thao tác NOT cho phép chúng ta đảo ngược điều kiện lọc, cho phép chúng ta chọn các phần tử không đáp ứng tiêu chí đã chỉ định.
@@ -114,3 +120,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều khung .NET khác nhau bao gồ
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks ở đâu?
 
  Đáp: Bạn có thể truy cập tài liệu đầy đủ trên[Trang tài liệu Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

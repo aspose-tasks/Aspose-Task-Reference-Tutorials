@@ -3,10 +3,16 @@ title: Dostosuj linie siatki w MS Project dla Aspose.Tasks
 linktitle: Linie siatki w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak dostosować linie siatki w MS Project przy użyciu Aspose.Tasks dla .NET. Ulepsz wizualizację projektu i zarządzanie nim, wykonując proste kroki.
-type: docs
 weight: 23
 url: /pl/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj linie siatki w MS Project dla Aspose.Tasks
+
 ## Wstęp
 
 W zarządzaniu projektami reprezentacja wizualna odgrywa kluczową rolę w zrozumieniu harmonogramu, zależności i postępu projektu. Aspose.Tasks dla .NET zapewnia solidne narzędzia do programowego manipulowania plikami projektu. Jedną z takich funkcji jest możliwość dostosowywania linii siatki w MS Project za pomocą Aspose.Tasks.
@@ -113,3 +119,9 @@ O: Tak, Aspose.Tasks dla .NET oferuje obszerną dokumentację i wsparcie w zakre
 ### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
 
  Odp.: Tak, możesz pobrać bezpłatną wersję próbną programu[Aspose.Tasks dla .NET z](https://forum.aspose.com/c/tasks/15). aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

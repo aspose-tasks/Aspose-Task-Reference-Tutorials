@@ -3,10 +3,16 @@ title: جمع مهام الطفل في Aspose.Tasks
 linktitle: جمع مهام الطفل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية جمع المهام الفرعية بكفاءة باستخدام Aspose.Tasks لـ .NET. تحسين إدارة المشروعات في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 15
 url: /ar/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جمع مهام الطفل في Aspose.Tasks
+
 ## مقدمة
 
 في مجال إدارة المشاريع، يبرز Aspose.Tasks for .NET كحل قوي للتعامل مع المهام والمشاريع بكفاءة. توفر هذه المكتبة القوية للمطورين الأدوات التي يحتاجونها لإدارة المهام والمشاريع وكل شيء بينهما بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في جانب محدد من Aspose.Tasks: جمع المهام الفرعية.
@@ -96,3 +102,9 @@ foreach (var task in collector.Tasks)
 ### س5: هل يمكنني تجربة Aspose.Tasks لـ .NET قبل الشراء؟
 
  ج5: بالتأكيد! يمكنك الاستفادة من النسخة التجريبية المجانية من[صفحة الإصدار](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

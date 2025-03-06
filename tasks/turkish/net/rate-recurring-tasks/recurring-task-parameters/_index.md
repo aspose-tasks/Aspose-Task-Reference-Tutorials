@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Tekrarlanan Görev Parametrelerini Ayarlama
 linktitle: Aspose.Tasks'ta Tekrarlanan Görev Parametrelerini Ayarlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project'te yinelenen görev parametrelerini nasıl ayarlayacağınızı öğrenin. Adım adım kılavuzla kapsamlı eğitim.
-type: docs
 weight: 14
 url: /tr/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Tekrarlanan Görev Parametrelerini Ayarlama
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Microsoft Project yinelenen görev parametrelerini ayarlama sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -79,3 +85,9 @@ Evet, Aspose.Tasks MPP, XML, XLSX ve daha fazlasını içeren çeşitli proje do
 Evet, topluluktan yardım almak için Aspose.Tasks forumunu ziyaret edebilir veya doğrudan yardım için destek ekibiyle iletişime geçebilirsiniz.
 ### Aspose.Tasks için nasıl geçici lisans alabilirim?
  Geçici lisansı adresinden alabilirsiniz.[İnternet sitesi](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

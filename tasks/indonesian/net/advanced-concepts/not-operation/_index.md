@@ -3,10 +3,16 @@ title: Bekerja dengan Operasi NOT di Aspose.Tasks
 linktitle: Bekerja dengan Operasi NOT di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menggunakan operasi NOT di Aspose.Tasks untuk .NET untuk memfilter tugas secara efektif. Tingkatkan kemampuan manajemen proyek Anda sekarang.
-type: docs
 weight: 20
 url: /id/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Operasi NOT di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan operasi NOT di Aspose.Tasks untuk .NET. Operasi NOT memungkinkan kita membalikkan kondisi filter, memungkinkan kita memilih elemen yang tidak memenuhi kriteria tertentu.
@@ -114,3 +120,9 @@ J: Ya, Aspose.Tasks mendukung berbagai kerangka .NET termasuk .NET Core, .NET St
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Tasks?
 
  A: Anda dapat mengakses dokumentasi lengkapnya di[Halaman dokumentasi Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

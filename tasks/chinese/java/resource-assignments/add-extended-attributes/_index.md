@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for Java 掌握 MS 项目操作
 linktitle: 将扩展属性添加到 Aspose.Tasks 中的资源分配
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 高效编写 MS Project 信息。 Java 开发人员的分步指南。
-type: docs
 weight: 10
 url: /zh/java/resource-assignments/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for Java 掌握 MS 项目操作
+
 ## 介绍
 在本教程中，我们将深入研究 Aspose.Tasks for Java 的使用，这是一个用于以编程方式操作 Microsoft Project 文件的强大库。我们将重点关注一项基本任务：使用 Aspose.Tasks 编写 MS Project 信息。无论您是经验丰富的开发人员还是刚刚开始 Java 编程之旅，本指南都将引导您逐步完成整个过程。
 ## 先决条件
@@ -72,3 +78,9 @@ project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
 答：您可以从 Aspose.Tasks 社区论坛寻求帮助[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：我可以购买 Aspose.Tasks for Java 的临时许可证吗？
 答：是的，临时许可证可供短期使用。您可以从以下位置获取一份[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

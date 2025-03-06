@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 프로젝트 개요 코드 관리
 linktitle: Aspose.Tasks에서 개요 코드 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 개요 코드를 관리하는 방법을 알아보세요. 프로젝트 구성을 쉽게 단순화하세요.
-type: docs
 weight: 10
 url: /ko/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 프로젝트 개요 코드 관리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 관리하는 방법을 살펴보겠습니다. 개요 코드는 사용자가 특정 기준에 따라 작업을 분류하고 구성할 수 있는 Microsoft Project의 사용자 정의 필드입니다. Aspose.Tasks는 이러한 개요 코드를 프로그래밍 방식으로 읽고 조작하는 프로세스를 단순화합니다.
 ## 전제조건
@@ -71,3 +77,9 @@ A: 예, Aspose.Tasks를 상업적으로 사용하려면 유효한 라이선스�
 A: 예, 웹사이트에서 Aspose.Tasks의 무료 평가판을 다운로드하여 기능을 평가할 수 있습니다.
 ### Q: Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
  A: 다음 포럼을 방문하여 Aspose.Tasks에 대한 지원을 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).## 완전한 소스 코드
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

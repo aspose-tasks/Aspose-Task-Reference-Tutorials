@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Tekrarlanan Görev Bilgilerini Çıkarma
 linktitle: Aspose.Tasks'ta Tekrarlanan Görev Bilgilerini Çıkarma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarından yinelenen görev bilgilerini nasıl çıkaracağınızı öğrenin. .NET geliştiricileri için kolay entegrasyon.
-type: docs
 weight: 13
 url: /tr/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Tekrarlanan Görev Bilgilerini Çıkarma
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde Aspose.Tasks'ı kullanarak MS Project dosyalarından yinelenen görev bilgilerinin nasıl çıkarılacağını inceleyeceğiz.
 ## Önkoşullar
@@ -62,3 +68,9 @@ C: Evet, Aspose.Tasks MPP, XML ve CSV gibi çeşitli proje dosyası formatların
  C: Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
 ### S: Aspose.Tasks for .NET için nasıl teknik destek alabilirim?
  C: Aspose.Tasks forumundan teknik destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recupera i codici di struttura di MS Project in Aspose.Tasks
 linktitle: Recupera i codici di struttura in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come recuperare i codici di struttura di Microsoft Project a livello di codice utilizzando Aspose.Tasks per Java. Migliora le tue capacità di gestione dei progetti.
-type: docs
 weight: 15
 url: /it/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recupera i codici di struttura di MS Project in Aspose.Tasks
+
 ## introduzione
 In questo tutorial impareremo come recuperare i codici di struttura di Microsoft Project utilizzando Aspose.Tasks per Java. I codici di struttura in MS Project forniscono un modo strutturato per classificare e organizzare attività, risorse e incarichi di progetto. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di manipolare e gestire i file di Microsoft Project a livello di codice.
 ## Prerequisiti
@@ -82,3 +88,9 @@ R: Sì, Aspose.Tasks per Java fornisce API per modificare i codici di struttura 
  R: Sì, puoi acquistare una licenza temporanea per Aspose.Tasks per Java da[pagina di acquisto](https://purchase.aspose.com/temporary-license/).
 ### Q5: Dove posso trovare la documentazione completa per Aspose.Tasks per Java?
  R: Puoi fare riferimento a[documentazione](https://reference.aspose.com/tasks/java/) per informazioni dettagliate sull'utilizzo di Aspose.Tasks per Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

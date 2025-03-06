@@ -3,10 +3,16 @@ title: Collection d'affectations de ressources dans Aspose.Tasks
 linktitle: Collection d'affectations de ressources dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les affectations de ressources dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Tutoriel étape par étape avec des exemples de code.
-type: docs
 weight: 12
 url: /fr/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection d'affectations de ressources dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans ce didacticiel complet sur la gestion des affectations de ressources dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Dans ce didacticiel, nous aborderons le processus étape par étape, en veillant à ce que vous ayez une solide compréhension de la façon de manipuler efficacement les affectations de ressources. Que vous soyez un développeur chevronné ou un débutant, ce guide vous guidera à travers tout ce que vous devez savoir.
 ## Conditions préalables
@@ -94,3 +100,9 @@ R : Oui, Aspose.Tasks pour .NET prend en charge différentes versions de fichier
  R : Oui, des licences temporaires sont disponibles à des fins d'évaluation. Vous pouvez en obtenir un auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je acheter une licence complète pour Aspose.Tasks pour .NET ?
  R : Vous pouvez acheter une licence complète sur la boutique en ligne Aspose.[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

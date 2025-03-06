@@ -3,10 +3,16 @@ title: Aspose.Tasks Časová konfigurace a vzory opakování
 linktitle: Aspose.Tasks Časová konfigurace a vzory opakování
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte výukové programy Aspose.Tasks pro .NET o konfiguraci času a vzorcích opakování. Spravujte bez námahy kalendáře, přizpůsobujte pracovní dobu a optimalizujte plánování projektů.
-type: docs
 weight: 33
 url: /cs/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Časová konfigurace a vzory opakování
+
 ## Úvod
 
 Vítejte ve světě Aspose.Tasks for .NET, kde se efektivní projektové řízení snoubí se silou přizpůsobitelných časových konfigurací a vzorců opakování. V tomto komplexním průvodci se ponoříme do různých výukových programů, které vám umožní zvládnout umění plánování projektů a správy zdrojů.
@@ -58,3 +64,9 @@ Naučte se, jak snadno konfigurovat pracovní týdny v Aspose.Tasks pro .NET. Vy
 Naučte se, jak přizpůsobit pracovní týdny v Aspose.Tasks pro .NET. Podrobný průvodce vytvářením personalizovaných projektových kalendářů. Stáhnout teď!
 ### [Konfigurace vzorů ročního opakování v Aspose.Tasks](./yearly-recurrence-patterns/)
 Naučte se konfigurovat vzory ročního opakování v Aspose.Tasks pro .NET. Vylepšete své dovednosti projektového řízení pomocí tohoto podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

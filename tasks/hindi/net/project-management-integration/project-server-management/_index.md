@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट सर्व
 linktitle: Aspose.Tasks के साथ प्रोजेक्ट सर्वर का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ निर्बाध एमएस प्रोजेक्ट सर्वर प्रबंधन को अनलॉक करें। प्रोजेक्ट कार्यों को सहजता से स्वचालित करें।
-type: docs
 weight: 23
 url: /hi/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट सर्वर का प्रबंधन
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट सर्वर को प्रबंधित करने के बारे में विस्तार से जानेंगे। Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाती है, जिससे प्रोजेक्ट डेटा के निर्बाध एकीकरण और हेरफेर की अनुमति मिलती है।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 उत्तर: हां, Aspose.Tasks आपको प्रोजेक्ट डेटा के आधार पर कस्टम रिपोर्ट की पीढ़ी को स्वचालित करने में सक्षम बनाता है, जिससे कुशल प्रोजेक्ट निगरानी और विश्लेषण की सुविधा मिलती है।
 ### प्रश्न: क्या मैं इसे खरीदने से पहले Aspose.Tasks आज़मा सकता हूँ?
  उत्तर: हां, आप नि:शुल्क परीक्षण तक पहुंच कर Aspose.Tasks की क्षमताओं का पता लगा सकते हैं[वेबसाइट](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

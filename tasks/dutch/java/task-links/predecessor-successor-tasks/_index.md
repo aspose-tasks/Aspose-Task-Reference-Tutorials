@@ -3,10 +3,16 @@ title: Beheer voorganger- en opvolgertaken in Aspose.Tasks
 linktitle: Beheer voorganger- en opvolgertaken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek efficiënt taakbeheer met Aspose.Tasks voor Java. Voer eenvoudig voorganger- en opvolgertaken in uw projecten uit. Download nu uw gratis proefversie!
-type: docs
 weight: 15
 url: /nl/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer voorganger- en opvolgertaken in Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement is het effectief omgaan met taakafhankelijkheden van het grootste belang. Aspose.Tasks voor Java biedt een robuuste oplossing voor het beheren van voorganger- en opvolgertaken in uw projecten. Deze tutorial begeleidt u bij het gebruik van Aspose.Tasks om taakkoppelingen efficiënt te beheren, zodat u afhankelijkheden tussen taken kunt vaststellen.
 ## Vereisten
@@ -52,3 +58,9 @@ Ja, Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder 
  Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
 ### Kan ik een gratis proefversie van Aspose.Tasks voor Java downloaden?
  Ja, download een gratis proefversie van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

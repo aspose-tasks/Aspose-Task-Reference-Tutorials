@@ -3,10 +3,16 @@ title: Konfigurace projektu
 linktitle: Konfigurace projektu
 second_title: Aspose.Tasks Java API
 description: Objevte sílu Aspose.Tasks pro Javu s našimi komplexními výukovými programy. Konfigurujte Ganttovy diagramy, vytvářejte soubory MS Project a zjednodušte správu projektů.
-type: docs
 weight: 26
 url: /cs/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace projektu
+
 ## Úvod
 
 Jste připraveni odemknout plný potenciál Aspose.Tasks pro Javu? Ponořte se do našich podrobných výukových programů, abyste zvládli konfiguraci projektu pomocí tohoto výkonného nástroje. Ať už jste zkušený vývojář nebo začátečník, naši podrobní průvodci vám umožní bezproblémově využít možnosti Aspose.Tasks.
@@ -45,3 +51,9 @@ Naučte se vytvářet prázdné soubory Microsoft Project v Javě pomocí Aspose
 Naučte se, jak vytvořit a uložit prázdný soubor MS Project (MPP) pomocí Aspose.Tasks for Java. Zjednodušte úkoly řízení projektů bez námahy.
 ### [Vytvořte a uložte prázdný projekt pro streamování v Aspose.Tasks](./create-save-stream/)
 Naučte se vytvářet a ukládat prázdné soubory MS Project do streamu v Javě pomocí Aspose.Tasks, což zjednodušuje úkoly projektového řízení bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opanowanie opcji zapisu MS Project dla Aspose.Tasks
 linktitle: Ogólne opcje zapisywania dla Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zapisywać pliki MS Project przy użyciu Aspose.Tasks dla .NET. Dostosuj opcje wyjściowe bez wysiłku do swoich projektów.
-type: docs
 weight: 17
 url: /pl/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie opcji zapisu MS Project dla Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET oferuje zaawansowane funkcje do programowego manipulowania plikami Microsoft Project. W tym samouczku zagłębimy się w zawiłości zapisywania plików MS Project przy użyciu różnych opcji udostępnianych przez Aspose.Tasks. W szczególności skupimy się na ogólnych opcjach zapisywania dostępnych dla Aspose.Tasks, umożliwiając dostosowanie wyników do konkretnych wymagań.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ O: Tak, Aspose.Tasks obsługuje różne wersje plików MS Project, zapewniając 
  Odpowiedź: Licencje tymczasowe są dostępne do celów próbnych[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Tasks?
  O: Możesz dołączyć do forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15)aby uzyskać pomoc od ekspertów i innych programistów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

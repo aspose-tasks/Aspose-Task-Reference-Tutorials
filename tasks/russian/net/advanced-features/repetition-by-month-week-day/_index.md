@@ -3,10 +3,16 @@ title: Повторение по месяцам и дням недели в Aspo
 linktitle: Повторение по месяцам и дням недели в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить повторение по месяцам, неделям и дням в Aspose.Tasks для .NET, чтобы эффективно автоматизировать повторяющиеся задачи.
-type: docs
 weight: 26
 url: /ru/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Повторение по месяцам и дням недели в Aspose.Tasks
+
 ## Введение
 
 В сфере разработки программного обеспечения, особенно в приложениях для управления проектами, способность эффективно решать повторяющиеся задачи имеет первостепенное значение. Aspose.Tasks для .NET — это мощная библиотека, предназначенная для оптимизации создания задач проекта и управления ими, в том числе повторяющихся. Одной из таких функций, предоставляемых Aspose.Tasks, является возможность настраивать повторения по месяцам, неделям и дням, гарантируя выполнение задач по расписанию без ручного вмешательства.
@@ -112,3 +118,9 @@ project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_
 ###Q5: Где я могу найти подробную документацию по Aspose.Tasks для .NET?
 
  A5: Вы можете обратиться к подробному[документация](https://reference.aspose.com/tasks/net/) доступно на веб-сайте Aspose для получения подробных инструкций по использованию библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

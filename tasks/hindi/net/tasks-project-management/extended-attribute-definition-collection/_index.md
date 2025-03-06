@@ -3,10 +3,16 @@ title: Aspose.Tasks में मास्टर विस्तारित व
 linktitle: Aspose.Tasks में विस्तारित विशेषता परिभाषाओं का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट में विस्तारित विशेषता परिभाषाओं को प्रबंधित करना सीखें। अपने प्रोजेक्ट डेटा को सहजता से अनुकूलित और बढ़ाएं।
-type: docs
 weight: 14
 url: /hi/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में मास्टर विस्तारित विशेषता परिभाषाएँ MS प्रोजेक्ट
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट में विस्तारित विशेषता परिभाषाओं के साथ कैसे काम किया जाए। विस्तारित विशेषताएँ प्रोजेक्ट डेटा को अनुकूलित और बढ़ाने का एक लचीला तरीका प्रदान करती हैं, जिससे उपयोगकर्ताओं को डिफ़ॉल्ट रूप से प्रदान किए गए मानक फ़ील्ड से परे अतिरिक्त फ़ील्ड जोड़ने की अनुमति मिलती है। Aspose.Tasks के साथ, आप अपनी परियोजना प्रबंधन आवश्यकताओं को पूरा करने के लिए इन विस्तारित विशेषताओं को आसानी से प्रबंधित कर सकते हैं।
 ## आवश्यक शर्तें
@@ -92,3 +98,9 @@ project.ExtendedAttributes.RemoveAt(0);
 उत्तर: Aspose.Tasks विभिन्न .NET फ्रेमवर्क के साथ संगत है, जो लचीलापन और एकीकरण में आसानी सुनिश्चित करता है।
 ### प्रश्न: Aspose.Tasks के लिए मुझे अधिक संसाधन और समर्थन कहां मिल सकता है?
  उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) समर्थन के लिए और दस्तावेज़ीकरण का अन्वेषण करें[यहाँ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

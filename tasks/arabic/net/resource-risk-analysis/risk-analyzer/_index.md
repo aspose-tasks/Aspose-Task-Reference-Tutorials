@@ -3,10 +3,16 @@ title: تحليل مخاطر مشروع MS باستخدام Aspose.Tasks
 linktitle: تحليل المخاطر باستخدام Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تحليل مخاطر MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة المخاطر الشاملة.
-type: docs
 weight: 20
 url: /ar/net/resource-risk-analysis/risk-analyzer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحليل مخاطر مشروع MS باستخدام Aspose.Tasks
+
 ## مقدمة
 تعد إدارة المخاطر في إدارة المشاريع أمرًا ضروريًا لضمان التسليم الناجح للمشروع. يوفر Aspose.Tasks for .NET أدوات قوية لتحليل المخاطر في ملفات Microsoft Project والتخفيف من حدتها. في هذا البرنامج التعليمي، سنستكشف كيفية تحليل مخاطر MS Project باستخدام Aspose.Tasks، خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 ج: يستهدف Aspose.Tasks في المقام الأول لغات .NET، ولكنه يوفر أيضًا دعمًا لـ Java.
 ### س: أين يمكنني العثور على دعم إضافي لـ Aspose.Tasks؟
  ج: يمكنك استكشاف وثائق Aspose.Tasks أو زيارة قسم الدعم[المنتدى]( https://forum.aspose.com/c/tasks/15) للمساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

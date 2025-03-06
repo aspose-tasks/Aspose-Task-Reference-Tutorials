@@ -3,10 +3,16 @@ title: Beheer hyperlinkeigenschappen voor toewijzingen in Aspose.Tasks
 linktitle: Beheer hyperlinkeigenschappen voor resourcetoewijzingen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u hyperlinkeigenschappen voor resourcetoewijzingen beheert in Aspose.Tasks voor Java. Verbeter de samenwerking en toegankelijkheid bij projectmanagement.
-type: docs
 weight: 16
 url: /nl/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer hyperlinkeigenschappen voor toewijzingen in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor Java biedt krachtige functies voor het beheren van projecttaken en bronnen. In deze zelfstudie concentreren we ons op het beheren van hyperlinkeigenschappen voor resourcetoewijzingen met Aspose.Tasks. Door deze stapsgewijze instructies te volgen, kunt u op efficiënte wijze omgaan met hyperlinks die verband houden met de resourcetoewijzingen van uw project.
 ## Vereisten
@@ -84,3 +90,9 @@ A: Aspose.Tasks legt geen strikte beperkingen op aan de lengte van hyperlinks. H
 A: Ja, u kunt hyperlinks uit resourcetoewijzingen verwijderen door de hyperlinkeigenschappen in te stellen op null of lege tekenreeksen.
 ### Vraag: Ondersteunt Aspose.Tasks hyperlinkvalidatie?
 A: Aspose.Tasks richt zich op het beheren van hyperlinkeigenschappen in plaats van op het valideren van hyperlinks. U kunt echter aangepaste validatielogica in uw Java-toepassing implementeren om de integriteit van hyperlinks te garanderen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

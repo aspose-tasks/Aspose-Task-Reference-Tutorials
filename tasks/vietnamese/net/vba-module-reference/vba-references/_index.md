@@ -3,10 +3,16 @@ title: Nắm vững cách xử lý tham chiếu VBA - Hướng dẫn từng bư�
 linktitle: Xử lý các tham chiếu VBA trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của việc xử lý các tham chiếu VBA trong Aspose.Tasks .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách đọc, so sánh và làm việc với các tài liệu tham khảo VBA một cách liền mạch.
-type: docs
 weight: 15
 url: /vi/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững cách xử lý tham chiếu VBA - Hướng dẫn từng bước
+
 ## Giới thiệu
 Nếu bạn đang tìm hiểu sâu về Aspose.Tasks dành cho .NET và muốn khám phá sự phức tạp của việc xử lý các tham chiếu VBA thì bạn đã đến đúng nơi. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình đọc, kiểm tra tính bằng nhau, lấy mã băm và làm việc với bộ sưu tập tham chiếu VBA bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -79,3 +85,9 @@ Trả lời: Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng c
  A: Tài liệu có sẵn[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks không?
  A: Có, bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

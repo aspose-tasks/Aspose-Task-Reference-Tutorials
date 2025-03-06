@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的分配預算管理
 linktitle: Aspose.Tasks 中的分配預算管理
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks（一個用於 Microsoft Project 檔案操作的強大函式庫）在 Java 中有效管理作業預算。
-type: docs
 weight: 11
 url: /zh-hant/java/resource-assignments/assignment-budget/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的分配預算管理
+
 ## 介紹
 Aspose.Tasks for Java 是一個功能強大的函式庫，為開發人員提供了在 Java 應用程式中有效管理和操作 Microsoft Project 檔案所需的工具。無論您是建立專案管理工具、自動化任務，還是僅僅需要以程式設計方式與專案文件交互，Aspose.Tasks 都可以透過其全面的功能和直覺的 API 簡化流程。
 在本教程中，我們將使用 Aspose.Tasks for Java 深入研究分配預算管理的世界。我們將涵蓋從導入必要的套件到將每個範例分解為逐步指南的所有內容。最後，您將對如何處理 Java 專案中的分配預算有深入的了解。
@@ -76,3 +82,9 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 答：是的，您可以透過免費試用版探索 Aspose.Tasks for Java 的功能[這裡](https://releases.aspose.com/).
 ### Q：在哪裡可以購買 Aspose.Tasks for Java 的授權？
 答：您可以從購買頁面購買 Aspose.Tasks for Java 的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

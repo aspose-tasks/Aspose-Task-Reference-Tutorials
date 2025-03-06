@@ -3,10 +3,16 @@ title: Effortless SVG Generation for Aspose.Tasks
 linktitle: SVG Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to utilize Aspose.Tasks for .NET to generate SVG representations of Microsoft Project files effortlessly for enhanced project visualization.
-type: docs
 weight: 20
 url: /net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effortless SVG Generation for Aspose.Tasks
+
 ## Introduction
 In the realm of project management and task organization, the ability to visualize data effectively is paramount. Aspose.Tasks for .NET offers a comprehensive solution to generate SVG representations of Microsoft Project files, facilitating clear and engaging project insights. This tutorial delves into the utilization of SVG MS Project options provided by Aspose.Tasks for .NET, enabling users to harness its power for enhanced project visualization.
 ## Prerequisites
@@ -66,3 +72,10 @@ A: Yes, Aspose.Tasks provides extensive customization options to tailor the appe
 
 ### Q: Is technical support available for Aspose.Tasks users?
 A: Yes, users can access technical support through the Aspose.Tasks forum or by contacting the support team directly for assistance with any queries or issues.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 통화 기호 조작
 linktitle: Aspose.Tasks의 통화 기호 조작
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일의 통화 기호를 조작하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 쉬운 단계.
-type: docs
 weight: 12
 url: /ko/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 통화 기호 조작
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.Tasks 라이브러리를 사용하여 MS 프로젝트 파일의 통화 기호 조작을 자세히 살펴보겠습니다. Aspose.Tasks는 Microsoft Project 문서 작업을 위한 강력한 기능을 제공하여 개발자가 프로젝트 관리의 다양한 측면을 효율적으로 처리할 수 있도록 합니다.
 ## 전제조건
@@ -53,3 +59,9 @@ Aspose.Tasks는 MPP, MPT 및 XML 형식을 포함한 광범위한 MS 프로젝�
  물론 개발자는 Aspose.Tasks의 무료 평가판을 이용할 수 있습니다.[웹사이트](https://purchase.aspose.com/buy) 구매 결정을 내리기 전에 특징과 기능을 평가합니다.
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  개발자는 Aspose.Tasks에 대한 임시 라이센스를 얻을 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/) 구매 페이지를 통해 평가 기간 동안 라이브러리의 전체 기능을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

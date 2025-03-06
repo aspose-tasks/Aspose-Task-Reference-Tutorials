@@ -3,10 +3,16 @@ title: Pengulangan berdasarkan Hari Tahun di Aspose.Tugas
 linktitle: Pengulangan berdasarkan Hari Tahun di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani pengulangan hari tahun di Aspose.Tasks untuk .NET guna menyederhanakan manajemen tugas berulang secara efisien.
-type: docs
 weight: 27
 url: /id/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengulangan berdasarkan Hari Tahun di Aspose.Tugas
+
 ## Perkenalan
 
 Dalam bidang manajemen proyek, penjadwalan dan pengulangan tugas yang efisien memainkan peran penting dalam memastikan pelaksanaan tepat waktu dan kelancaran alur kerja. Aspose.Tasks untuk .NET menawarkan solusi tangguh bagi pengembang untuk menangani tugas berulang dengan mudah dalam aplikasi mereka. Dalam tutorial ini, kami mempelajari seluk-beluk bekerja dengan pengulangan hari tahun menggunakan Aspose.Tasks, memberikan panduan komprehensif untuk membuat tugas berulang berdasarkan pola tahunan.
@@ -109,3 +115,9 @@ A4: Tentu saja, Aspose.Tasks menyediakan API yang kuat untuk memanipulasi proper
 ### Q5: Apakah Aspose.Tasks cocok untuk proyek skala kecil dan tingkat perusahaan?
 
 A5: Memang benar, Aspose.Tasks dirancang untuk memenuhi kebutuhan pengembang yang mengerjakan proyek dari semua skala, mulai dari tugas individu hingga proyek perusahaan skala besar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

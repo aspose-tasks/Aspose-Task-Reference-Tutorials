@@ -3,10 +3,16 @@ title: Hantera projektsamlingar i Aspose.Tasks
 linktitle: Hantera gruppinsamling i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Project-samlingar effektivt med Aspose.Tasks för .NET. Följ vår steg-för-steg-guide.
-type: docs
 weight: 26
 url: /sv/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera projektsamlingar i Aspose.Tasks
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur man hanterar grupp MS Project-samlingar med Aspose.Tasks för .NET. Att hantera gruppsamlingar är avgörande för att organisera och manipulera uppgifter och resurser effektivt inom ditt projekt.
 ## Förutsättningar
@@ -108,3 +114,9 @@ Aspose.Tasks för .NET riktar sig främst till .NET-ramverket, men det kan anvä
  Du kan få support för Aspose.Tasks för .NET genom[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 ### Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
  Ja, du kan ladda ner en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

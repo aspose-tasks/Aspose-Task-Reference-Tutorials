@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理會計年度屬性
 linktitle: 在 Aspose.Tasks 中管理會計年度屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效管理會計年度屬性。提供範例的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理會計年度屬性
+
 ## 介紹
 Aspose.Tasks 是一個功能強大的 Java 函式庫，可讓開發人員有效地管理專案文件，包括處理會計年度屬性。在本教程中，我們將逐步介紹使用 Java 中的 Aspose.Tasks 管理會計年度屬性的過程。
 ## 先決條件
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以造訪 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/).
 ### Q：在哪裡可以購買 Aspose.Tasks for Java 的授權？
 答：您可以從以下位置購買 Aspose.Tasks for Java 的授權：[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

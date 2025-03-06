@@ -3,10 +3,16 @@ title: Configurer les détails du cryptage MS Project PDF dans Aspose.Tasks
 linktitle: Configuration des détails de cryptage PDF dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les détails de chiffrement MS Project PDF dans Aspose.Tasks pour .NET. Sécurisez vos fichiers de projet avec des mots de passe utilisateur et propriétaire.
-type: docs
 weight: 11
 url: /fr/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer les détails du cryptage MS Project PDF dans Aspose.Tasks
+
 ## Introduction
 Dans le monde du développement .NET, la gestion efficace des tâches est cruciale. Aspose.Tasks for .NET simplifie ce processus en fournissant un ensemble complet d'outils pour travailler avec les fichiers Microsoft Project. Un aspect essentiel de la gestion des tâches consiste à assurer la sécurité des informations sensibles du projet. Dans ce didacticiel, nous aborderons la configuration des détails de cryptage MS Project PDF à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -68,3 +74,9 @@ R : Non, une fois le PDF crypté et enregistré, les détails du cryptage ne pe
 R : Bien qu'Aspose.Tasks n'impose aucune limitation spécifique, il est recommandé d'utiliser des mots de passe forts pour une sécurité renforcée.
 ### Q : Les PDF cryptés peuvent-ils être déchiffrés par programme ?
 R : Aspose.Tasks fournit des API pour travailler avec des PDF cryptés, permettant le décryptage à l'aide des informations d'identification appropriées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

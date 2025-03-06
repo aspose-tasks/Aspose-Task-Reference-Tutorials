@@ -3,10 +3,16 @@ title: Defina dias da semana no calendário com Aspose.Tasks
 linktitle: Defina dias da semana no calendário com Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como definir dias da semana no MS Project Calendar usando Aspose.Tasks for Java. Personalize dias e horários úteis sem esforço.
-type: docs
 weight: 12
 url: /pt/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Defina dias da semana no calendário com Aspose.Tasks
+
 ## Introdução
 Neste tutorial, percorreremos o processo de definição de dias da semana em um calendário do MS Project usando Aspose.Tasks para Java. Aspose.Tasks é uma biblioteca Java poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente.
 ## Pré-requisitos
@@ -82,3 +88,9 @@ R: Sim, Aspose.Tasks suporta várias versões de arquivos MS Project, incluindo 
 R: Sim, você pode carregar um projeto existente com calendários, fazer modificações e salvar as alterações novamente no arquivo original.
 ### P5: O Aspose.Tasks fornece suporte para tarefas recorrentes?
 R: Sim, Aspose.Tasks permite que você trabalhe com tarefas recorrentes, incluindo a definição de seus padrões e durações de recorrência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

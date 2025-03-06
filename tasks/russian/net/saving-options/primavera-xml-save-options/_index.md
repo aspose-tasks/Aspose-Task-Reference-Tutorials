@@ -3,10 +3,16 @@ title: Сохраните проект MS в Primavera XML для Aspose.Tasks
 linktitle: Параметры сохранения XML Primavera для Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как использовать Aspose.Tasks для .NET для сохранения параметров MS Project в формате Primavera XML. Расширьте возможности управления проектами без особых усилий.
-type: docs
 weight: 15
 url: /ru/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраните проект MS в Primavera XML для Aspose.Tasks
+
 ## Введение
 В сфере управления проектами и обработки задач Aspose.Tasks for .NET становится мощным союзником. Эта библиотека предоставляет разработчикам инструменты, необходимые для легкого манипулирования данными проекта в приложениях .NET. Одной из примечательных особенностей является его способность взаимодействовать с XML-файлами Primavera, что обеспечивает удобство обработки информации о проекте.
 ## Предварительные условия
@@ -56,3 +62,9 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
  О: Для Aspose.Tasks for .NET доступны различные варианты лицензирования, включая временные лицензии. Изучите детали лицензирования[здесь](https://purchase.aspose.com/buy).
 ### Вопрос: Могу ли я настроить параметры сохранения для формата Primavera XML?
 О: Да, Aspose.Tasks для .NET обеспечивает гибкость в настройке параметров сохранения, позволяя настраивать их в соответствии с конкретными требованиями проекта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

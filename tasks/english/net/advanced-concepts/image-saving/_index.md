@@ -3,10 +3,16 @@ title: Handling Image Saving in Aspose.Tasks
 linktitle: Handling Image Saving in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle image saving in Aspose.Tasks for .NET using step-by-step guidelines. Seamlessly integrate image saving functionality into your .NET applications.
-type: docs
 weight: 10
 url: /net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Image Saving in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we will delve into the process of handling image saving in Aspose.Tasks for .NET. Aspose.Tasks is a powerful API that enables developers to manipulate Microsoft Project files programmatically. One common task when working with project files is the need to save images, which can include charts, graphs, or other visual elements. We'll break down the process step by step, ensuring clarity and understanding throughout.
@@ -131,3 +137,10 @@ A4: Yes, you can customize the appearance of saved images by modifying the image
 ### Q5: Does Aspose.Tasks offer trial versions for evaluation purposes?
 
 A5: Yes, you can obtain a free trial of Aspose.Tasks from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

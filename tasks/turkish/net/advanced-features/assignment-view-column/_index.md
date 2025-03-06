@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Özel Atama Görünümü Sütunu
 linktitle: Aspose.Tasks'ta Özel Atama Görünümü Sütunu
 second_title: Aspose.Tasks .NET API'si
 description: Proje yönetimi yeteneklerini geliştirmek için Aspose.Tasks for .NET'te özel atama görünümü sütunlarının nasıl ekleneceğini öğrenin.
-type: docs
 weight: 16
 url: /tr/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Özel Atama Görünümü Sütunu
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET kullanarak atama görünümleri için özel sütunların nasıl ekleneceğini inceleyeceğiz. Özel sütunlar esneklik sağlar ve proje yönetimi ihtiyaçlarınızla ilgili ek bilgileri görüntülemenize olanak tanır.
@@ -116,3 +122,9 @@ C3: Evet, genişlik, yazı tipi ve hizalama gibi özellikleri değiştirerek öz
 ### S5: Aspose.Tasks, projelerin özel sütunlu e-tabloların yanı sıra diğer formatlara aktarılmasını da destekliyor mu?
 
 Cevap5: Evet, Aspose.Tasks, projelerin PDF, HTML ve XML gibi çeşitli formatlara aktarılmasını destekleyerek çok yönlü proje raporlama seçeneklerine olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

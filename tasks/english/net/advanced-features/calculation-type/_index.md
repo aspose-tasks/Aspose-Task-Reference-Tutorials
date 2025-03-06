@@ -3,10 +3,16 @@ title: Calculation Type in Aspose.Tasks
 linktitle: Calculation Type in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to customize value calculations in .NET projects with Calculation Type in Aspose.Tasks library.
-type: docs
 weight: 30
 url: /net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculation Type in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll explore the Calculation Type feature in Aspose.Tasks for .NET. Aspose.Tasks is a powerful library that enables .NET developers to work with Microsoft Project files without the need for Microsoft Project installed on their systems. Calculation Type allows us to define how values are calculated for tasks and summary tasks within a project.
@@ -97,3 +103,10 @@ A4: Yes, Aspose.Tasks provides various Rollup Types such as Average, Sum, and Co
 ### Q5: Where can I find more resources on Aspose.Tasks for .NET?
 
 A5: You can explore the documentation and community support forums available on the [Aspose.Tasks for .NET](https://reference.aspose.com/tasks/net/) for comprehensive guidance and assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

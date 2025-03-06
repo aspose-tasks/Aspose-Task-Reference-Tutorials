@@ -3,10 +3,16 @@ title: Definieren Sie Wochentage im Kalender mit Aspose.Tasks
 linktitle: Definieren Sie Wochentage im Kalender mit Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java Wochentage im MS Project-Kalender definieren. Passen Sie Arbeitstage und -zeiten mühelos an.
-type: docs
 weight: 12
 url: /de/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definieren Sie Wochentage im Kalender mit Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial werden wir den Prozess der Definition von Wochentagen in einem MS Project-Kalender mit Aspose.Tasks für Java durchgehen. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten.
 ## Voraussetzungen
@@ -82,3 +88,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien, 
 A: Ja, Sie können ein vorhandenes Projekt mit Kalendern laden, Änderungen vornehmen und die Änderungen dann wieder in der Originaldatei speichern.
 ### F5: Bietet Aspose.Tasks Unterstützung für wiederkehrende Aufgaben?
 A: Ja, Aspose.Tasks ermöglicht Ihnen die Arbeit mit wiederkehrenden Aufgaben, einschließlich der Definition ihrer Wiederholungsmuster und -dauer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

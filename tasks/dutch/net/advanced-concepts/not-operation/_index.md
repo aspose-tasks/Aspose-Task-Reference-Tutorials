@@ -3,10 +3,16 @@ title: Werken met NOT-bewerking in Aspose.Tasks
 linktitle: Werken met NOT-bewerking in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de NOT-bewerking in Aspose.Tasks voor .NET gebruikt om taken effectief te filteren. Verbeter nu uw projectmanagementmogelijkheden.
-type: docs
 weight: 20
 url: /nl/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met NOT-bewerking in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u de NOT-bewerking in Aspose.Tasks voor .NET kunt gebruiken. Met de NOT-bewerking kunnen we een filtervoorwaarde omkeren, waardoor we elementen kunnen selecteren die niet aan een bepaald criterium voldoen.
@@ -114,3 +120,9 @@ A: Ja, Aspose.Tasks ondersteunt verschillende .NET-frameworks, waaronder .NET Co
 ### V5: Waar kan ik uitgebreide documentatie voor Aspose.Tasks vinden?
 
  A: U kunt toegang krijgen tot de volledige documentatie op de[Aspose.Tasks-documentatiepagina](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

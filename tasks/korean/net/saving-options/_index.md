@@ -3,10 +3,16 @@ title: Aspose.Tasks 저장 옵션
 linktitle: Aspose.Tasks 저장 옵션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일을 저장, 변환 및 관리하세요. HTML, 이미지, PDF, Primavera, 템플릿 등에 대한 단계별 튜토리얼을 살펴보세요.
-type: docs
 weight: 20
 url: /ko/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 저장 옵션
+
 
 ## 소개
 
@@ -53,3 +59,9 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일을 템플릿으�
 향상된 프로젝트 시각화를 위해 Aspose.Tasks for .NET을 활용하여 Microsoft Project 파일의 SVG 표현을 쉽게 생성하는 방법을 알아보세요.
 ### [Aspose.Tasks를 사용하여 MSP를 XPS 옵션으로 변환](./xps-options/)
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일을 XPS 형식으로 변환하는 방법을 알아보세요. 간편한 통합, 강력한 기능.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

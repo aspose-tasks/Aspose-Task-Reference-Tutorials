@@ -3,10 +3,16 @@ title: Menguasai Tampilan Gantt Chart di Aspose.Tasks
 linktitle: Tampilan Gantt Chart di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengkustomisasi tampilan bagan Gantt di file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk manajemen proyek yang efisien.
-type: docs
 weight: 22
 url: /id/net/tasks-project-management/gantt-chart-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Tampilan Gantt Chart di Aspose.Tasks
+
 ## Perkenalan
 Bagan Gantt adalah alat canggih yang digunakan dalam manajemen proyek untuk memvisualisasikan tugas, garis waktu, dan ketergantungan. Aspose.Tasks untuk .NET memberikan kemampuan yang kuat untuk bekerja dengan tampilan bagan Gantt di file Microsoft Project. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk memanipulasi tampilan bagan Gantt, menyesuaikan tampilannya, dan menyimpannya sebagai file PDF.
 ## Prasyarat
@@ -109,3 +115,9 @@ J: Tentu saja, Aspose.Tasks mendukung ekspor tampilan bagan Gantt ke berbagai fo
 J: Ya, Aspose.Tasks menyediakan algoritma penjadwalan tingkat lanjut untuk menangani jadwal proyek yang kompleks secara efektif.
 ### T: Apakah ada forum komunitas tempat saya dapat mencari bantuan atau berbagi pengalaman saya dengan Aspose.Tasks?
  A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk terlibat dengan pengguna lain, mengajukan pertanyaan, dan menemukan solusi atas pertanyaan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

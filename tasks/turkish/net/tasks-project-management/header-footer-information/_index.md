@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Üstbilgi ve Altbilgi Bilgilerini Çıkarın
 linktitle: Aspose.Tasks'ta Üstbilgi ve Altbilgi Bilgileri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarından üstbilgi ve altbilgi bilgilerini çıkarmayı öğrenin. Kolay, verimli ve geliştirici dostu bir çözüm.
-type: docs
 weight: 29
 url: /tr/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Üstbilgi ve Altbilgi Bilgilerini Çıkarın
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını kolaylıkla yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde Aspose.Tasks kullanarak MS Project dosyalarından üstbilgi ve altbilgi bilgilerinin nasıl alınacağını öğreneceğiz.
 ## Önkoşullar
@@ -70,3 +76,9 @@ Evet, Aspose.Tasks MPP, XML ve MPX dahil olmak üzere çeşitli proje dosyası f
  Aspose.Tasks belgelerini burada bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks için nasıl destek alabilirim?
  Aspose.Tasks için destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

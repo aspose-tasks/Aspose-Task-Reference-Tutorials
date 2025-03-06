@@ -3,10 +3,16 @@ title: Personnalisez le quadrillage du projet avec Aspose.Tasks pour .NET
 linktitle: Gestion du quadrillage dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment ajuster par programme les paramètres de quadrillage dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET, la visualisation de projet et l'efficacité de la gestion.
-type: docs
 weight: 24
 url: /fr/net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnalisez le quadrillage du projet avec Aspose.Tasks pour .NET
+
 ## Introduction
 Gérer efficacement des projets implique souvent de visualiser les délais et les tâches avec clarté. Un aspect crucial de la visualisation du projet est le quadrillage, qui aide à organiser et à comprendre la structure du projet. Aspose.Tasks for .NET offre des fonctionnalités robustes pour manipuler par programme le quadrillage dans les fichiers Microsoft Project. Dans ce didacticiel, nous allons explorer comment utiliser le quadrillage à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -69,3 +75,9 @@ R : Absolument. Aspose.Tasks fournit de nombreuses options pour personnaliser le
 R : Certainement. Avec Aspose.Tasks, vous pouvez intégrer une logique pour ajuster dynamiquement les paramètres du quadrillage en fonction des données du projet ou de critères définis par l'utilisateur.
 ### Q : Où puis-je trouver davantage de ressources et d'assistance pour Aspose.Tasks pour .NET ?
  R : Vous pouvez explorer le[Documentation](https://reference.aspose.com/tasks/net/) pour des guides complets, visitez le[forum d'entraide](https://forum.aspose.com/c/tasks/15) pour obtenir de l'aide, ou envisagez d'obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour une évaluation approfondie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

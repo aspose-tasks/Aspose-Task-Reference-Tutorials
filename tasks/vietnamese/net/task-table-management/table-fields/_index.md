@@ -3,10 +3,16 @@ title: Xử lý các trường bảng trong Aspose.Tasks
 linktitle: Xử lý các trường bảng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Làm chủ các trường bảng xử lý trong Aspose.Tasks cho .NET với hướng dẫn toàn diện này. Học cách đọc, hiển thị và sửa đổi các bảng dự án một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các trường bảng trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho .NET, một thư viện mạnh mẽ cho phép thao tác liền mạch các tệp Microsoft Project trong các ứng dụng .NET của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc xử lý các trường bảng trong Aspose.Tasks, cho phép bạn đọc và quản lý các bảng dự án một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn từng bước này sẽ giúp bạn khai thác toàn bộ tiềm năng của Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Kể từ phiên bản mới nhất, không có giới hạn nghiêm ngặt nào
 Các bản cập nhật cho Aspose.Tasks được phát hành thường xuyên để đảm bảo khả năng tương thích và giới thiệu các tính năng mới.
 ### Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
  Có, bạn có thể tìm trợ giúp và thảo luận trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

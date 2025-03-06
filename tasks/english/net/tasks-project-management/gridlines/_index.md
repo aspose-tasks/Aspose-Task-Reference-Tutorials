@@ -3,10 +3,16 @@ title: Customize Gridlines in MS Project for Aspose.Tasks
 linktitle: Gridlines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to customize gridlines in MS Project using Aspose.Tasks for .NET. Enhance your project visualization and management with easy-to-follow steps.
-type: docs
 weight: 23
 url: /net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize Gridlines in MS Project for Aspose.Tasks
+
 ## Introduction
 
 In project management, visual representation plays a crucial role in understanding project timelines, dependencies, and progress. Aspose.Tasks for .NET provides robust tools to manipulate project files programmatically. One such feature is the ability to customize gridlines in MS Project using Aspose.Tasks.
@@ -113,3 +119,10 @@ A: Yes, Aspose.Tasks for .NET offers extensive documentation and support for int
 ### Q5: Is there a trial version available for Aspose.Tasks for .NET?
 
 A: Yes, you can download a free trial version of [Aspose.Tasks for .NET from](https://forum.aspose.com/c/tasks/15). to explore its features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

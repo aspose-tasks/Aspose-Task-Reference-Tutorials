@@ -3,10 +3,16 @@ title: Domine as taxas do MS Project com Aspose.Tasks
 linktitle: Coleta de taxas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar taxas em arquivos do MS Project usando Aspose.Tasks for .NET. Tutorial passo a passo para gerenciamento eficaz de recursos.
-type: docs
 weight: 11
 url: /pt/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domine as taxas do MS Project com Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao nosso tutorial sobre gerenciamento de taxas no MS Project usando Aspose.Tasks for .NET! Neste guia, orientaremos você no processo de trabalho com taxas em seus arquivos do MS Project usando Aspose.Tasks. Quer você seja um desenvolvedor experiente ou esteja apenas começando com o desenvolvimento .NET, este tutorial fornecerá instruções passo a passo para lidar com taxas de maneira eficaz em seus projetos.
 ## Pré-requisitos
@@ -110,3 +116,9 @@ R: Com certeza, Aspose.Tasks for .NET suporta trabalhar com arquivos MS Project 
 R: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Tasks for .NET para avaliar seus recursos e compatibilidade com seus requisitos.
 ### P: Como posso adquirir uma licença do Aspose.Tasks for .NET?
  R: Você pode adquirir uma licença para Aspose.Tasks for .NET no site[local na rede Internet](https://purchase.aspose.com/temporary-license/)que oferece opções de licenciamento flexíveis para atender às suas necessidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Padroneggiare le raccolte di campi di tabella in Aspose.Tasks per .NET
 linktitle: Raccolta di campi della tabella in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora il mondo dinamico della gestione dei progetti con Aspose.Tasks per .NET. Scopri come manipolare le raccolte di campi tabella per un'esperienza di progetto personalizzata.
-type: docs
 weight: 13
 url: /it/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le raccolte di campi di tabella in Aspose.Tasks per .NET
+
 ## introduzione
 Aspose.Tasks per .NET è una potente libreria che facilita la gestione dei progetti fornendo ampie funzionalità per lavorare con i file di Microsoft Project. In questo tutorial, approfondiremo la raccolta di campi della tabella in Aspose.Tasks, esplorando come manipolarli e gestirli in modo efficiente utilizzando C#.
 ## Prerequisiti
@@ -111,3 +117,9 @@ Assolutamente! Come mostrato nel tutorial, puoi aggiungere, inserire, modificare
  Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)per ottenere supporto, porre domande e collaborare con la comunità.
 ### È disponibile una prova gratuita per Aspose.Tasks per .NET?
  Sì, puoi esplorare le funzionalità di Aspose.Tasks per .NET con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

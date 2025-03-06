@@ -3,10 +3,16 @@ title: Gestione di valori booleani nullable in Aspose.Tasks
 linktitle: Gestione di valori booleani nullable in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire i valori booleani nullable in modo efficace in Aspose.Tasks per .NET con questo tutorial completo. Padroneggia l'utilizzo della classe "NullableBool" e migliora il tuo sviluppo .NET.
-type: docs
 weight: 21
 url: /it/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione di valori booleani nullable in Aspose.Tasks
+
 ## introduzione
 
 In questo tutorial, approfondiremo il lavoro con i valori booleani nullable in Aspose.Tasks per .NET. I booleani nullable offrono flessibilità nella rappresentazione dei valori booleani, consentendo la possibilità di essere indefiniti. Esploreremo come utilizzare il file`NullableBool` classe, i suoi costruttori, proprietà e metodi.
@@ -153,3 +159,9 @@ A4: Sì, è possibile impostare un booleano nullable in modo che non sia definit
 ### Q5: Dove posso trovare ulteriore documentazione su Aspose.Tasks per .NET?
 
  R5: È possibile trovare documentazione dettagliata[Qui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Text Item Type Customization Guide in Aspose.Tasks
 linktitle: Handling Text Item Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master text item type customization in Aspose.Tasks for .NET with this step-by-step guide. Elevate your project management game effortlessly.
-type: docs
 weight: 10
 url: /net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Text Item Type Customization Guide in Aspose.Tasks
+
 ## Introduction
 If you're a .NET developer diving into project management using Aspose.Tasks, you've come to the right place! In this step-by-step guide, we'll explore the intricacies of handling text item types in Aspose.Tasks, focusing on customization using the powerful .NET library.
 ## Prerequisites
@@ -74,3 +80,10 @@ A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-licen
 A: Explore more tutorials in the Aspose.Tasks documentation.
 ### Q: Where can I purchase Aspose.Tasks for .NET?
 A: Purchase the library [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

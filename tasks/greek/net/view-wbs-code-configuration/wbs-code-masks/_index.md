@@ -3,10 +3,16 @@ title: Βήμα προς βήμα Ρύθμιση κώδικα WBS στο Aspose.
 linktitle: Διαμόρφωση μάσκας κώδικα WBS στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε βήμα προς βήμα τη διαμόρφωση WBS Code Masks σε έργα .NET χρησιμοποιώντας Aspose.Tasks. Βελτιώστε τις δυνατότητες διαχείρισης έργου χωρίς κόπο.
-type: docs
 weight: 14
 url: /el/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βήμα προς βήμα Ρύθμιση κώδικα WBS στο Aspose.Tasks .NET
+
 ## Εισαγωγή
 Το Aspose.Tasks for .NET είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται αποτελεσματικά τα δεδομένα διαχείρισης έργων σε εφαρμογές .NET. Σε αυτό το σεμινάριο, θα διερευνήσουμε τη διαδικασία ρύθμισης των μάσκες κώδικα δομής ανάλυσης εργασίας (WBS) χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  Ναι, η πλήρης τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/tasks/net/).
 ### Πού μπορώ να αγοράσω το Aspose.Tasks;
  Αγορά Aspose.Tasks[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

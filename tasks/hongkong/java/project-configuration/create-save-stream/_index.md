@@ -3,10 +3,16 @@ title: 建立並保存空項目以在 Aspose.Tasks 中進行串流傳輸
 linktitle: 建立並保存空項目以在 Aspose.Tasks 中進行串流傳輸
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 建立空的 MS Project 檔案並將其儲存到 Java 流程中，從而輕鬆簡化專案管理任務。
-type: docs
 weight: 13
 url: /zh-hant/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 建立並保存空項目以在 Aspose.Tasks 中進行串流傳輸
+
 ## 介紹
 在本教程中，我們將探索如何利用 Aspose.Tasks for Java 建立空 MS 專案並將其儲存到流中。 Aspose.Tasks 是一個功能強大的 Java API，可讓開發人員使用 Microsoft Project 文件，而無需在電腦上安裝 Microsoft Project。透過遵循本指南，您將了解使用 Aspose.Tasks 建立和儲存空 MS Project 檔案的必要步驟。
 ## 先決條件
@@ -69,3 +75,9 @@ System.out.println("Project file generated Successfully");
 您可以從社區論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### 我可以購買 Aspose.Tasks 的臨時許可證嗎？
 是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

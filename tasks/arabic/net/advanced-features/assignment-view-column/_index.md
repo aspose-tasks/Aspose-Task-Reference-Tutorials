@@ -3,10 +3,16 @@ title: عمود عرض المهام المخصصة في Aspose.Tasks
 linktitle: عمود عرض المهام المخصصة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إضافة أعمدة عرض المهام المخصصة في Aspose.Tasks لـ .NET لتعزيز قدرات إدارة المشروع.
-type: docs
 weight: 16
 url: /ar/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمود عرض المهام المخصصة في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية إضافة أعمدة مخصصة لطرق عرض المهام باستخدام Aspose.Tasks لـ .NET. توفر الأعمدة المخصصة المرونة وتسمح لك بعرض معلومات إضافية ذات صلة باحتياجات إدارة مشروعك.
@@ -116,3 +122,9 @@ project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ### س 5: هل يدعم Aspose.Tasks تصدير المشاريع إلى تنسيقات أخرى إلى جانب جداول البيانات ذات الأعمدة المخصصة؟
 
 ج5: نعم، يدعم Aspose.Tasks تصدير المشاريع إلى تنسيقات مختلفة مثل PDF وHTML وXML، مما يسمح بخيارات متعددة لإعداد التقارير عن المشروع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 할당 기준선 관리
 linktitle: Aspose.Tasks에서 할당 기준선 관리
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 할당 기준선을 효율적으로 관리하여 프로젝트 진행 상황과 성과를 정확하게 추적하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 할당 기준선 관리
+
 ## 소개
 
 프로젝트 관리 작업을 수행할 때 진행 상황을 정확하게 추적하려면 할당 기준선을 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 할당 기준선을 효율적으로 처리하기 위한 포괄적인 도구 세트를 제공합니다. 이 자습서에서는 할당 기준선을 관리하는 프로세스를 단계별로 살펴보겠습니다.
@@ -123,3 +129,9 @@ A4: 예, 개발자는 Aspose.Tasks 웹사이트에서 포괄적인 문서, 튜�
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, 개발자는 다음에서 .NET용 Aspose.Tasks의 무료 평가판을 얻을 수 있습니다.[여기](https://releases.aspose.com/), 구매 결정을 내리기 전에 기능을 평가할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Proje Sayfası Kenar Boşluklarını Zahmetsizce Ayar
 linktitle: Aspose.Tasks'ta Sayfa Kenar Boşluklarını Ayarlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki sayfa kenar boşluklarını nasıl ayarlayacağınızı öğrenin. Belge düzenini ve sunumunu kolaylıkla geliştirin.
-type: docs
 weight: 19
 url: /tr/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Proje Sayfası Kenar Boşluklarını Zahmetsizce Ayarlayın
+
 ## giriiş
 Proje yönetimi alanında verimlilik ve hassasiyet çok önemlidir. Aspose.Tasks for .NET, Microsoft Project dosyalarını programlı olarak yönetmek için güçlü bir araç seti sağlayarak geliştiricilere süreçleri kolaylaştırma ve üretkenliği artırma yeteneği sunar. Bu eğitimde, proje dosyası manipülasyonunun belirli bir yönünü ele alacağız: Aspose.Tasks for .NET'i kullanarak sayfa kenar boşluklarını ayarlama. Bu kılavuzun sonunda, Microsoft Project dosyalarındaki sayfa kenar boşluklarını sorunsuz bir şekilde ayarlayarak daha iyi belge düzeni ve sunumunu kolaylaştıracak bilgiyle donatılacaksınız.
 ## Önkoşullar
@@ -73,3 +79,9 @@ C: Aspose.Tasks, marj değerlerinin ayarlanmasında esneklik sağlayarak gereksi
 C: Evet, Aspose.Tasks proje yönetimi için görev planlama, kaynak tahsisi ve raporlama dahil olmak üzere kapsamlı bir özellikler paketi sunuyor.
 ### S: Aspose.Tasks'i web uygulamalarına entegre edebilir miyim?
 C: Kesinlikle! Aspose.Tasks for .NET, proje yönetimi yeteneklerini geliştirmek için web uygulamalarına sorunsuz bir şekilde entegre edilebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

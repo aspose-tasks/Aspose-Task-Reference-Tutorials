@@ -3,10 +3,16 @@ title: Aspose.Tasks 中分配基線的集合
 linktitle: Aspose.Tasks 中分配基線的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在專案管理中有效管理分配基準。提高生產力和準確性。
-type: docs
 weight: 15
 url: /zh-hant/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中分配基線的集合
+
 ## 介紹
 
 在專案管理領域，追蹤和管理任務基準對於確保專案成功和遵守時間表至關重要。 Aspose.Tasks for .NET 提供了一組強大的功能，以促進專案內分配基線的高效處理。在本教程中，我們將深入研究使用 Aspose.Tasks for .NET 處理分配基線集合的複雜性。
@@ -100,3 +106,9 @@ A4：是的，Aspose.Tasks 透過其社群論壇提供強大的技術支持，�
 ### Q5：我可以在購買前試用 Aspose.Tasks 嗎？
 
 A5：是的，Aspose.Tasks 提供免費試用版，讓開發人員在做出購買決定之前探索其功能和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

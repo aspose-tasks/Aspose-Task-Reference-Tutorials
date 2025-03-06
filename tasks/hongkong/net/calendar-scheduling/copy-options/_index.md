@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的複製選項
 linktitle: Aspose.Tasks 中的複製選項
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效率地複製專案資料。透過強大的專案管理功能增強您的 .NET 應用程式。
-type: docs
 weight: 18
 url: /zh-hant/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的複製選項
+
 ## 介紹
 
 在 .NET 開發領域，有效管理任務對於專案成功至關重要。 Aspose.Tasks for .NET 為開發人員提供了一個全面的解決方案來無縫處理專案管理任務。一項基本功能是能夠使用根據特定需求自訂的各種選項來複製專案資料。在本教程中，我們將探索 Aspose.Tasks 中的複製選項，將每個範例分解為多個步驟來引導您完成整個過程。
@@ -98,3 +104,9 @@ A4：Aspose.Tasks for .NET 透過其 API 提供了廣泛的自訂選項，允許
 ### 問題 5：在哪裡可以找到 Aspose.Tasks for .NET 的其他資源和支援？
 
  A5：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)用於支援、文件、教程和社區討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

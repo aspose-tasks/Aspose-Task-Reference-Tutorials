@@ -3,10 +3,16 @@ title: أنواع الموارد في Aspose.Tasks
 linktitle: أنواع الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية العمل مع أنواع مختلفة من الموارد في Aspose.Tasks لـ .NET، بما في ذلك موارد العمل والمواد والتكلفة، من خلال برنامج تعليمي خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنواع الموارد في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft Project برمجياً. سواء كنت تدير المهام أو الموارد أو الجداول الزمنية، فإن Aspose.Tasks يبسط العملية من خلال توفير مجموعة شاملة من واجهات برمجة التطبيقات. في هذا البرنامج التعليمي، سوف نتعمق في الأنواع المختلفة من الموارد التي يمكنك استخدامها في مشاريعك باستخدام Aspose.Tasks for .NET.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ cost.Set(Rsc.Cost, 59.99m);
  ج: نعم، يمكنك شراء ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: هل يوفر Aspose.Tasks لـ .NET وثائق كمرجع؟
  ج: نعم، يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

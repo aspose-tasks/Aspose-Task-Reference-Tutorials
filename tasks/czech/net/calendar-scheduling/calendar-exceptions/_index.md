@@ -3,10 +3,16 @@ title: Zpracování výjimek kalendáře v Aspose.Tasks
 linktitle: Zpracování výjimek kalendáře v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak spravovat výjimky kalendáře v Aspose.Tasks pro .NET pomocí podrobných výukových programů a příkladů.
-type: docs
 weight: 12
 url: /cs/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování výjimek kalendáře v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak spravovat výjimky kalendáře v Aspose.Tasks pomocí rozhraní .NET. Výjimky kalendáře nám umožňují definovat speciální data nebo období v kalendáři projektu, kde se mění běžný pracovní plán, jako jsou svátky nebo dočasné uzavření. Probereme různé metody zpracování výjimek kalendáře krok za krokem pomocí Aspose.Tasks pro .NET.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks podporuje různé typy výjimek, včetně denních, týdenních
 ### Q5: Mohu přizpůsobit pracovní dobu pro konkrétní výjimečná data?
 
 A5: Ano, můžete definovat vlastní pracovní časy pro jednotlivá data výjimek pomocí příslušných metod poskytovaných Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

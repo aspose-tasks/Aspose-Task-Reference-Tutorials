@@ -3,10 +3,16 @@ title: Benutzerdefinierte Feldtypen in Aspose.Tasks
 linktitle: Benutzerdefinierte Feldtypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit benutzerdefinierten Feldtypen in Aspose.Tasks für .NET arbeiten. Schritt-für-Schritt-Anleitung mit Codebeispielen und FAQs.
-type: docs
 weight: 23
 url: /de/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Benutzerdefinierte Feldtypen in Aspose.Tasks
+
 ## Einführung
 
 Willkommen zu unserem Tutorial zum Arbeiten mit benutzerdefinierten Feldtypen in Aspose.Tasks für .NET! Aspose.Tasks ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten. In diesem Tutorial konzentrieren wir uns auf das Verständnis und die Verwendung benutzerdefinierter Feldtypen, ein entscheidender Aspekt bei der Arbeit mit Projektdaten.
@@ -89,3 +95,9 @@ A4: Ja, mit Aspose.Tasks können Sie sowohl Aufgaben- als auch Ressourcendaten i
 ### F5: Gibt es ein Community-Forum für Aspose.Tasks-Benutzer?
 
  A5: Ja, Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) um mit anderen Benutzern zu interagieren und Unterstützung vom Aspose-Team zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

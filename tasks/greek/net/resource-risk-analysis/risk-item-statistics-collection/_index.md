@@ -3,10 +3,16 @@ title: Συλλέξτε στατιστικά στοιχεία κινδύνου M
 linktitle: Συλλογή στατιστικών στοιχείων κινδύνου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να συλλέγετε στατιστικά στοιχεία κινδύνου από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Βελτιώστε τις δυνατότητες διαχείρισης του έργου σας.
-type: docs
 weight: 22
 url: /el/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συλλέξτε στατιστικά στοιχεία κινδύνου MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο συλλογής στατιστικών στοιχείων κινδύνου από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Αυτή η βιβλιοθήκη παρέχει ισχυρές λειτουργίες για την ανάλυση δεδομένων έργου, συμπεριλαμβανομένης της αξιολόγησης κινδύνου και της στατιστικής ανάλυσης.
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ foreach (var statistic in statistics)
 Α: Ναι, το Aspose.Tasks προσφέρει ευελιξία στη διαμόρφωση των ρυθμίσεων ανάλυσης κινδύνου ώστε να ταιριάζουν στις συγκεκριμένες απαιτήσεις και σενάρια του έργου σας.
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για τους χρήστες του Aspose.Tasks;
  Α: Ναι, οι χρήστες του Aspose.Tasks μπορούν να έχουν πρόσβαση σε τεχνική υποστήριξη μέσω του Aspose[φόρουμ](https://forum.aspose.com/c/tasks/15), όπου μπορούν να κάνουν ερωτήσεις, να αναφέρουν προβλήματα και να αλληλεπιδρούν με την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

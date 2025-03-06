@@ -3,10 +3,16 @@ title: Kép mentése MS Project Options for Aspose.Tasks
 linktitle: Az Aspose.Tasks képmentési beállításai
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti az MS Project beállításait képként az Aspose.Tasks for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép mentése MS Project Options for Aspose.Tasks
+
 
 ## Bevezetés
 A szoftverfejlesztés világában a projektfeladatok hatékony kezelése kulcsfontosságú a sikeres projektmenedzsmenthez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlokkal dolgozó fejlesztők számára, lehetővé téve számukra a projektfeladatok zökkenőmentes kezelését, konvertálását és kezelését .NET-alkalmazásaikon belül.
@@ -76,3 +82,9 @@ V: Igen, az Aspose.Tasks for .NET kompatibilis a különböző .NET-keretrendsze
 V: Igen, testreszabhatja a képmentési beállításokat saját igényei szerint, például az oldalméret, a felbontás vagy a kimeneti formátum módosítása szerint.
 ### 5. kérdés: Hol találok támogatást az Aspose.Tasks for .NET-hez?
  V: Az Aspose.Tasks for .NET webhelyen támogatást és segítséget találhat[fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

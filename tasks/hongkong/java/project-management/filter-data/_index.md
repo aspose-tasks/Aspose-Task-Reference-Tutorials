@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中過濾 MPP 檔案中的數據
 linktitle: 在 Aspose.Tasks 中過濾 MPP 檔案中的數據
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 從 MPP 檔案中篩選資料。輕鬆增強您的專案管理工作流程。
-type: docs
 weight: 14
 url: /zh-hant/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中過濾 MPP 檔案中的數據
+
 ## 介紹
 在 Java 開發領域，有效管理專案任務是成功專案管理的關鍵面向。 Aspose.Tasks for Java 提供了一個強大的解決方案，用於以程式設計方式處理專案管理任務，為開發人員提供了無縫過濾 MPP 檔案中的資料所需的工具。在本教程中，我們將深入研究使用 Aspose.Tasks for Java 從 MPP 檔案過濾資料的過程，分解每個步驟以確保全面理解。
 ## 先決條件
@@ -81,3 +87,9 @@ System.out.println(criteria22.getField());
 答：當然可以！您可以參考[文件](https://reference.aspose.com/tasks/java/)取得詳細指南和 API 參考。此外，您可以從 Aspose.Tasks 社群論壇尋求協助，以解決遇到的任何疑問或問題。
 ### Q：我可以在購買之前探索 Aspose.Tasks for Java 的功能嗎？
 答：當然！您可以從以下網站獲得免費試用[網站](https://releases.aspose.com/)親身體驗 Aspose.Tasks for Java 的特性與功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

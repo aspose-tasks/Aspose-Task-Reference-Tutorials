@@ -3,10 +3,16 @@ title: Cấu hình bảo mật Aspose.Tasks PDF
 linktitle: Cấu hình bảo mật Aspose.Tasks PDF
 second_title: Aspose.Tasks .NET API
 description: Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks for .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
-type: docs
 weight: 35
 url: /vi/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình bảo mật Aspose.Tasks PDF
+
 ## Giới thiệu
 
 Trong lĩnh vực kỹ thuật số, việc bảo vệ các tệp dự án của bạn là điều tối quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để tăng cường tính bảo mật cho các tệp PDF Microsoft Project của bạn. Loạt bài hướng dẫn này đi sâu vào sự phức tạp của cấu hình bảo mật PDF, đảm bảo tính bảo mật và tính xác thực của dữ liệu dự án có giá trị của bạn.
@@ -36,3 +42,9 @@ Trong một thế giới mà bảo mật dữ liệu là không thể thương l
 Tìm hiểu cách định cấu hình chi tiết chữ ký số Microsoft Project PDF bằng Aspose.Tasks cho .NET. Đảm bảo tính bảo mật và tính xác thực của các tệp dự án của bạn.
 ### [Định cấu hình chi tiết mã hóa MS Project PDF trong Aspose.Tasks](./pdf-encryption-details/)
 Tìm hiểu cách định cấu hình chi tiết mã hóa MS Project PDF trong Aspose.Tasks cho .NET. Bảo mật các tệp dự án của bạn bằng mật khẩu người dùng và chủ sở hữu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

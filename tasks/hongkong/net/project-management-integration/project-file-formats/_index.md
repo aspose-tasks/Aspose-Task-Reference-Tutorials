@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 專案文件處理
 linktitle: 在 Aspose.Tasks 中處理項目文件格式
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 釋放 Microsoft Project 檔案操作的強大功能。深入研究無縫整合和管理。
-type: docs
 weight: 18
 url: /zh-hant/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 專案文件處理
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Tasks for .NET 處理 Microsoft Project 檔案格式。 Aspose.Tasks 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作和管理專案文件。無論您使用的是 .mpp、.xml 還是 .csv 文件，Aspose.Tasks 都提供了一套全面的功能來處理專案管理的各個方面。
 ## 先決條件
@@ -52,3 +58,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 答：是的，您可以使用 Aspose.Tasks 處理自訂項目欄位並執行新增、更新或刪除自訂欄位等操作。
 ### Q：我可以使用 Aspose.Tasks 產生專案報告嗎？
 答：是的，Aspose.Tasks 使您能夠以程式設計方式產生各種類型的專案報告。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

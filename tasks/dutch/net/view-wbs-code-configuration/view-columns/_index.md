@@ -3,10 +3,16 @@ title: Beheersing van MS Project View-kolommen met Aspose.Tasks voor .NET
 linktitle: Omgaan met weergavekolommen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verbeter de projectvisualisatie met Aspose.Tasks voor .NET. Leer stap voor stap omgaan met MS Project-weergavekolommen. Verhoog de efficiëntie en het maatwerk.
-type: docs
 weight: 12
 url: /nl/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van MS Project View-kolommen met Aspose.Tasks voor .NET
+
 ## Invoering
 Op het gebied van projectmanagement onderscheidt Aspose.Tasks voor .NET zich als een krachtige toolkit voor het verwerken van Microsoft Project-bestanden. Een van de essentiële aspecten van projectvisualisatie is het efficiënt beheren van weergavekolommen. In deze zelfstudie onderzoeken we hoe u met Aspose.Tasks MS Project-weergavekolommen kunt omgaan, zodat u uw projectweergaven kunt aanpassen en optimaliseren.
 ## Vereisten
@@ -80,3 +86,9 @@ A: Aspose.Tasks richt zich voornamelijk op Microsoft Project-bestanden; U kunt e
  EEN: De`MyTextStyleCallback` class laat zien hoe u tekststijlen kunt aanpassen voor een betere visuele weergave in specifieke weergaven.
 ### Vraag: Waar kan ik aanvullende bronnen en documentatie voor Aspose.Tasks vinden?
  A: Raadpleeg de[Aspose.Tasks-documentatie](https://reference.aspose.com/tasks/net/) voor diepgaande begeleiding en hulpmiddelen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

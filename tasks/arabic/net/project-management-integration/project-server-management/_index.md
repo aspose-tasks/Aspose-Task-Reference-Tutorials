@@ -3,10 +3,16 @@ title: إدارة خادم MS Project باستخدام Aspose.Tasks
 linktitle: إدارة خادم المشروع باستخدام Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أطلق العنان لإدارة MS Project Server السلسة باستخدام Aspose.Tasks لـ .NET. أتمتة مهام المشروع دون عناء.
-type: docs
 weight: 23
 url: /ar/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خادم MS Project باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في إدارة MS Project Server باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft Project برمجياً، مما يسمح بالتكامل السلس ومعالجة بيانات المشروع.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 ج: نعم، يمكّنك Aspose.Tasks من أتمتة إنشاء التقارير المخصصة بناءً على بيانات المشروع، مما يسهل مراقبة المشروع وتحليله بكفاءة.
 ### س: هل يمكنني تجربة Aspose.Tasks قبل شرائه؟
  ج: نعم، يمكنك استكشاف إمكانيات Aspose.Tasks عن طريق الوصول إلى النسخة التجريبية المجانية من[موقع إلكتروني](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

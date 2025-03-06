@@ -3,10 +3,16 @@ title: MS Project 与 Aspose.Tasks 的 Spreadsheet 2003 选项
 linktitle: Spreadsheet 2003 Aspose.Tasks 的保存选项
 second_title: Aspose.Tasks .NET API
 description: Master Spreadsheet 2003 使用 Aspose.Tasks for .NET 保存 MS 项目选项。以编程方式无缝自定义和保存 MS Project 文件。
-type: docs
 weight: 19
 url: /zh/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project 与 Aspose.Tasks 的 Spreadsheet 2003 选项
+
 ## 介绍
 在本教程中，我们将深入研究如何利用 Aspose.Tasks for .NET 来利用 Spreadsheet 2003 Save MS Project Options。这个强大的工具允许在 .NET 环境中无缝操作和自定义 MS Project 文件。让我们逐步分解该过程。
 ## 先决条件
@@ -65,3 +71,9 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 答：当然！您可以在 Aspose.Tasks 论坛上找到全面的支持和资源：[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)，专家和社区成员可以帮助解决您可能面临的任何疑问或挑战。
 ### 问：如何获得 Aspose.Tasks for .NET 的临时许可证？
 答：您可以从 Aspose.Tasks for .NET 获取临时许可证。[购买页面](https://purchase.aspose.com/temporary-license/)，使您能够评估库的全部功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Colección de líneas base de asignaciones en Aspose.Tasks
 linktitle: Colección de líneas base de asignaciones en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a gestionar de manera eficiente las líneas base de asignaciones en la gestión de proyectos utilizando Aspose.Tasks para .NET. Mejore la productividad y la precisión.
-type: docs
 weight: 15
 url: /es/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de líneas base de asignaciones en Aspose.Tasks
+
 ## Introducción
 
 En el ámbito de la gestión de proyectos, el seguimiento y la gestión de las líneas base de las asignaciones son cruciales para garantizar el éxito del proyecto y el cumplimiento de los plazos. Aspose.Tasks para .NET ofrece un sólido conjunto de características para facilitar el manejo eficiente de las líneas base de asignaciones dentro de los proyectos. En este tutorial, profundizaremos en las complejidades de trabajar con colecciones de referencia de tareas utilizando Aspose.Tasks para .NET.
@@ -100,3 +106,9 @@ R4: Sí, Aspose.Tasks brinda soporte técnico sólido a través de su foro comun
 ### P5: ¿Puedo probar Aspose.Tasks antes de realizar una compra?
 
 R5: Sí, Aspose.Tasks ofrece una versión de prueba gratuita, que permite a los desarrolladores explorar sus características y funcionalidades antes de tomar una decisión de compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

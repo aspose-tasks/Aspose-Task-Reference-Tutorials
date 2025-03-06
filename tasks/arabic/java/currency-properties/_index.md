@@ -3,10 +3,16 @@ title: خصائص العملة
 linktitle: خصائص العملة
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لقوة Aspose.Tasks لبرامج Java التعليمية. اكتشف أدلة خطوة بخطوة حول قراءة خصائص العملة وتعيينها في ملفات MS Project دون عناء.
-type: docs
 weight: 25
 url: /ar/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خصائص العملة
+
 ## مقدمة
 هل أنت مستعد لرفع مستوى Aspose.Tasks الخاص بك لمهارات Java؟ انغمس في برامجنا التعليمية الشاملة حول خصائص العملة، وأتقن فن التعامل مع معلومات العملة داخل ملفات MS Project.
 
@@ -35,3 +41,9 @@ url: /ar/java/currency-properties/
 تعرف على كيفية استخراج معلومات العملة من ملفات MS Project باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة المقدمة.
 ### [قم بتعيين خصائص العملة في مشاريع Aspose.Tasks](./set-properties/)
 تعرف على كيفية تعيين خصائص العملة في مشاريع Aspose.Tasks باستخدام Java. التعامل مع ملفات Microsoft Project دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

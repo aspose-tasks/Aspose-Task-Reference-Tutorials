@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Veritabanı Ayarları
 linktitle: Aspose.Tasks'ta Veritabanı Ayarları
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Primavera veritabanından projeleri nasıl içe aktaracağınızı öğrenin. Bu kapsamlı eğitimde adım adım rehberlik alın.
-type: docs
 weight: 29
 url: /tr/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Veritabanı Ayarları
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde Aspose.Tasks'ı kullanarak Primavera veritabanından projeleri içe aktarmaya odaklanacağız.
@@ -100,3 +106,9 @@ C1: Evet, bağlantı dizesini ve sağlayıcının değişmez adını buna göre 
 ### S5: Aspose.Tasks for .NET'i kullanmak için geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Kütüphanenin tam işlevselliğini değerlendirmek istiyorsanız, adresinden geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

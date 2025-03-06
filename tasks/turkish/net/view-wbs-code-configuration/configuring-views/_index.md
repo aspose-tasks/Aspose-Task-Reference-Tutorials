@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Microsoft Project Görünümlerinde Uzmanlaşma
 linktitle: Aspose.Tasks'ta Görünümleri Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile Microsoft Project görünümlerinde ustalaşın. Proje yönetimi deneyiminizi zahmetsizce özelleştirin ve kolaylaştırın.
-type: docs
 weight: 10
 url: /tr/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Microsoft Project Görünümlerinde Uzmanlaşma
+
 ## giriiş
 Proje yönetiminin dinamik dünyasında, Microsoft Project'teki görünümleri özelleştirmek iş akışınızı önemli ölçüde geliştirebilir. Aspose.Tasks for .NET, proje görünümlerini sorunsuz bir şekilde yönetmek ve yapılandırmak için güçlü bir araç seti sağlar. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak görünümleri yapılandırma adımlarını inceleyerek proje görselleştirmenizi kolaylaştırmanıza yardımcı olacağız.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Aspose.Tasks öncelikli olarak Microsoft Project için tasarlanmış olup kusurs
  Kesinlikle Aspose.Tasks belgelerini inceleyin[Burada](https://reference.aspose.com/tasks/net/) Gelişmiş özelleştirme seçenekleri için.
 ### Aspose.Tasks for .NET'i nereden satın alabilirim?
  Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) Kusursuz bir proje yönetimi deneyimi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

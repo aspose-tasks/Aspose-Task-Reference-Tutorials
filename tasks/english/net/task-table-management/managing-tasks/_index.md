@@ -3,10 +3,16 @@ title: Managing Tasks in Aspose.Tasks
 linktitle: Managing Tasks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the comprehensive guide on managing tasks with Aspose.Tasks for .NET. Learn to add, display split parts, move, get/set properties, and more.
-type: docs
 weight: 15
 url: /net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Tasks in Aspose.Tasks
+
 ## Introduction
 If you're a .NET developer looking to efficiently manage tasks within your projects, Aspose.Tasks for .NET provides a robust solution. This tutorial will guide you through various aspects of managing tasks using Aspose.Tasks, offering step-by-step instructions and code examples. Whether you're adding tasks, displaying split parts, moving tasks under the same parent, getting/setting task properties, iterating over task assignments, reading task baselines, or deleting tasks, this guide has got you covered.
 ## Prerequisites
@@ -144,3 +150,9 @@ A: Split tasks are a powerful feature, and detailed documentation can be found [
 A: Absolutely! Aspose.Tasks provides extensive customization options for task properties. Check the documentation for more details.
 ### Q: How do I get support for Aspose.Tasks?
 A: Visit the [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

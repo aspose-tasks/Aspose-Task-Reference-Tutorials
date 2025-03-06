@@ -3,10 +3,16 @@ title: Manage Predecessor and Successor Tasks in Aspose.Tasks
 linktitle: Manage Predecessor and Successor Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore efficient task management with Aspose.Tasks for Java. Easily handle predecessor and successor tasks in your projects. Download your free trial now!
-type: docs
 weight: 15
 url: /java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Predecessor and Successor Tasks in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, the effective handling of task dependencies is paramount. Aspose.Tasks for Java offers a robust solution for managing predecessor and successor tasks in your projects. This tutorial will guide you through the process of leveraging Aspose.Tasks to efficiently manage task links, enabling you to establish dependencies between tasks.
 ## Prerequisites
@@ -52,3 +58,10 @@ Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
 ### Can I download a free trial of Aspose.Tasks for Java?
 Yes, download a free trial from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

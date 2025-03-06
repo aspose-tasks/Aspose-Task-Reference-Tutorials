@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट रूपर
 linktitle: Aspose.Tasks में रूपरेखा मूल्यों का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft Project फ़ाइलों में रूपरेखा मानों को प्रबंधित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 17
 url: /hi/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट रूपरेखा मान प्रबंधित करें
+
 ## परिचय
 .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के साथ इंटरैक्ट करने के लिए सुविधाओं का एक व्यापक सेट प्रदान करता है। ऐसी एक विशेषता किसी प्रोजेक्ट के भीतर रूपरेखा मूल्यों को प्रबंधित करने की क्षमता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके आउटलाइन मानों को कैसे एकत्र और हेरफेर किया जाए।
 ## आवश्यक शर्तें
@@ -108,3 +114,9 @@ foreach (var outlineValue in outlineValues)
 उत्तर: हां, Aspose.Tasks आपकी आवश्यकताओं के अनुसार रूपरेखा मूल्यों की उपस्थिति और व्यवहार को अनुकूलित करने के लिए व्यापक एपीआई प्रदान करता है।
 ### प्रश्न: Aspose.Tasks के लिए मुझे अतिरिक्त संसाधन और समर्थन कहां मिल सकता है?
  उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन के लिए और अन्वेषण करें[प्रलेखन](https://reference.aspose.com/tasks/net/) एपीआई और सुविधाओं पर विस्तृत जानकारी के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

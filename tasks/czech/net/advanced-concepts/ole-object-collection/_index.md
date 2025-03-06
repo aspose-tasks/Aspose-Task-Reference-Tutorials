@@ -3,10 +3,16 @@ title: Kolekce objektů OLE v Aspose.Tasks
 linktitle: Kolekce objektů OLE v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se spravovat objekty OLE v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Osvojte si bez námahy manipulaci s vloženými soubory v projektových dokumentech.
-type: docs
 weight: 23
 url: /cs/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce objektů OLE v Aspose.Tasks
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do správy objektů OLE (Object Linking and Embedding) v Aspose.Tasks for .NET. Objekty OLE umožňují uživatelům vkládat nebo propojovat soubory z jiných aplikací do souboru projektu. Postupně si probereme, jak se sbírkou těchto objektů pracovat.
@@ -97,3 +103,9 @@ Odpověď 3: I když se doporučuje základní znalost C#, Aspose.Tasks poskytuj
 ### Q5: Kde najdu podporu pro Aspose.Tasks?
 
  A5: Můžete vyhledat podporu a klást otázky na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

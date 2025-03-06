@@ -3,10 +3,16 @@ title: จัดการค่าโครงร่างโครงการ 
 linktitle: การรวบรวมค่าเค้าร่างใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการค่าเค้าร่างในไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET บทช่วยสอนทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 17
 url: /th/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการค่าโครงร่างโครงการ MS ด้วย Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET มีชุดคุณลักษณะที่ครอบคลุมเพื่อโต้ตอบกับไฟล์ Microsoft Project คุณสมบัติอย่างหนึ่งคือความสามารถในการจัดการค่าเค้าร่างภายในโครงการ ในบทช่วยสอนนี้ เราจะสำรวจวิธีการรวบรวมและจัดการค่าเค้าร่างโดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -108,3 +114,9 @@ foreach (var outlineValue in outlineValues)
 ตอบ: ได้ Aspose.Tasks มี API มากมายเพื่อปรับแต่งรูปลักษณ์และลักษณะการทำงานของค่าเค้าร่างตามความต้องการของคุณ
 ### ถาม: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนชุมชนและการสำรวจ[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับ API และคุณสมบัติต่างๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

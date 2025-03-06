@@ -3,10 +3,16 @@ title: سمات المهام الموسعة في Aspose.Tasks
 linktitle: سمات المهام الموسعة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف سمات المهام الموسعة في Aspose.Tasks لـ Java. دليل خطوة بخطوة والأسئلة الشائعة والدعم. تحسين إدارة المشروع الخاص بك اليوم!
-type: docs
 weight: 16
 url: /ar/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# سمات المهام الموسعة في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول الاستفادة من سمات المهام الموسعة في Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تتيح لك العمل مع مستندات Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في سمات المهمة الموسعة ونوضح كيف يمكنك الاستفادة منها لتعزيز قدرات إدارة مشروعك.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء الإصدار الكامل من Aspose.Tasks لـ Java؟
  يمكنك شراء النسخة الكاملة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

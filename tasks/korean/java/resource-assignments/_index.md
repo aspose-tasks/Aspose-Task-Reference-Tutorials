@@ -3,10 +3,16 @@ title: 자원 할당
 linktitle: 자원 할당
 second_title: Aspose.Tasks 자바 API
 description: 리소스 할당 튜토리얼을 통해 Java용 Aspose.Tasks를 쉽게 마스터하세요. MS 프로젝트 조작, 할당 예산, 비용 등을 관리합니다.
-type: docs
 weight: 30
 url: /ko/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 자원 할당
+
 
 ## 소개
 
@@ -101,3 +107,9 @@ Aspose.Tasks for Java에서 리소스 할당에 대한 메모를 관리하는 �
 이 단계별 튜토리얼을 통해 Java용 Aspose.Tasks에서 리소스 할당을 효과적으로 관리하는 방법을 알아보세요.
 ### [Aspose.Tasks에서 시간대별 데이터 생성](./timephased-data-generation/)
 Aspose.Tasks for Java를 사용하여 리소스 할당을 위한 시간대별 데이터를 생성하는 방법을 알아보세요. 이 포괄적인 가이드를 통해 프로젝트 관리 효율성을 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

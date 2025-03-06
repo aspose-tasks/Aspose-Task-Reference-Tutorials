@@ -3,10 +3,16 @@ title: Διαχείριση εργασιών γονέα και παιδιού σ
 linktitle: Διαχείριση εργασιών γονέα και παιδιού στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Βελτιώστε την αποτελεσματικότητα διαχείρισης έργου με το Aspose.Tasks για Java. Μάθετε να διαχειρίζεστε τις εργασίες γονέα και παιδιού βήμα προς βήμα. Ξεκινήστε τώρα!
-type: docs
 weight: 24
 url: /el/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση εργασιών γονέα και παιδιού στο Aspose.Tasks
+
 ## Εισαγωγή
 Στον τομέα της διαχείρισης έργων, η αποτελεσματική οργάνωση εργασιών είναι ζωτικής σημασίας. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για την αποτελεσματική διαχείριση των εργασιών γονέα και παιδιού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.Tasks για Java για τον εξορθολογισμό των εργασιών του έργου σας.
 ## Προαπαιτούμενα
@@ -103,3 +109,9 @@ proj.save(dataDir + "ProjectJava.mpp", SaveFileFormat.Mpp);
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.Tasks για Java;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS Project Tasks eltávolítása az Aspose.Tasks segítségével
 linktitle: Feladatok eltávolítása az Aspose.Tasks programból
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan távolíthat el programozottan MS Project feladatokat az Aspose.Tasks for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
-type: docs
 weight: 15
 url: /hu/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Tasks eltávolítása az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan távolíthat el feladatokat egy Microsoft Project fájlból az Aspose.Tasks for .NET segítségével. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A feladatok projektfájlból való eltávolítása gyakori követelmény lehet a projektmenedzsment forgatókönyveiben, és az Aspose.Tasks egyszerű módszert kínál ennek elérésére.
 ## Előfeltételek
@@ -75,3 +81,9 @@ V: Az Aspose.Tasks robusztus funkcionalitást biztosít a műveletek visszavoná
 V: Természetesen az Aspose.Tasks átfogó támogatást nyújt összetett projektstruktúrákhoz, lehetővé téve a feladatok, erőforrások és egyéb projektelemek egyszerű kezelését.
 ### K: Elérhető az Aspose.Tasks próbaverziója?
  V: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/tasks/net/) hogy vásárlás előtt ismerkedjen meg funkcióival.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

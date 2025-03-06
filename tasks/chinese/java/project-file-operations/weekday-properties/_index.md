@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的工作日属性
 linktitle: Aspose.Tasks 中的工作日属性
 second_title: Aspose.Tasks Java API
 description: 了解在 Aspose.Tasks for Java 中有效管理工作日属性。轻松自定义周开始日期、每月天数等。
-type: docs
 weight: 25
 url: /zh/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的工作日属性
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的 API，使 Java 开发人员无需在计算机上安装 Microsoft Project 即可使用 Microsoft Project 文件。其关键功能之一是管理工作日属性，允许用户自定义周开始日期、每月天数、每天分钟数和每周分钟数。本教程将提供有关如何有效利用这些功能的详细指南。
 ## 先决条件
@@ -74,3 +80,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以在其网站上访问 Aspose.Tasks for Java 的广泛文档和社区支持。[网站](https://releases.aspose.com/).
 ### 问：Aspose.Tasks for Java 是否有免费试用版？
 答：是的，您可以从他们的网站下载 Aspose.Tasks for Java 的免费试用版[网站](https://reference.aspose.com/tasks/java/)在购买之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

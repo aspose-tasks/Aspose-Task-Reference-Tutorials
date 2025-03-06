@@ -3,10 +3,16 @@ title: Opanowanie okresowego gromadzenia danych w Aspose.Tasks
 linktitle: Zbieranie danych okresowych w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Przeglądaj okresowe gromadzenie danych w Aspose.Tasks dla .NET. Przewodnik krok po kroku, często zadawane pytania i nie tylko. Zwiększ swoje możliwości zarządzania projektami już dziś!
-type: docs
 weight: 15
 url: /pl/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie okresowego gromadzenia danych w Aspose.Tasks
+
 ## Wstęp
 Czy chcesz wykorzystać moc danych okresowych w aplikacjach .NET przy użyciu Aspose.Tasks? Nie szukaj dalej! Ten kompleksowy przewodnik przeprowadzi Cię przez proces gromadzenia danych okresowych za pomocą Aspose.Tasks dla .NET, zapewniając maksymalne wykorzystanie tej potężnej biblioteki.
 ## Warunki wstępne
@@ -121,3 +127,9 @@ Aspose.Tasks obsługuje projekty o różnej wielkości i nie ma ścisłego ogran
  Tak, możesz poznać funkcje Aspose.Tasks dla .NET, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Gdzie mogę kupić licencję na Aspose.Tasks dla .NET?
 Możesz kupić licencję na Aspose.Tasks dla .NET[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penugasan Sumber Daya
 linktitle: Penugasan Sumber Daya
 second_title: Aspose.Tugas Java API
 description: Kuasai Aspose.Tasks untuk Java dengan mudah menggunakan tutorial penetapan sumber daya kami. Kelola manipulasi Proyek MS, anggaran penugasan, biaya, dan banyak lagi.
-type: docs
 weight: 30
 url: /id/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penugasan Sumber Daya
+
 
 ## Perkenalan
 
@@ -101,3 +107,9 @@ Pelajari cara mengelola catatan untuk penetapan sumber daya di Aspose.Tasks untu
 Pelajari cara mengelola penetapan sumber daya secara efektif di Aspose.Tasks untuk Java dengan tutorial langkah demi langkah ini.
 ### [Hasilkan Data Fase Waktu di Aspose.Tasks](./timephased-data-generation/)
 Pelajari cara menghasilkan data bertahap waktu untuk penetapan sumber daya menggunakan Aspose.Tasks untuk Java. Tingkatkan efisiensi manajemen proyek dengan panduan komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

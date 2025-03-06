@@ -3,10 +3,16 @@ title: เขียนสรุปโครงการ MPP ใน Aspose.Tasks
 linktitle: เขียนสรุปโครงการ MPP ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีเขียนสรุปโครงการ MPP ใน Java โดยใช้ Aspose.Tasks ตั้งค่าและดึงข้อมูลโครงการได้อย่างง่ายดาย
-type: docs
 weight: 27
 url: /th/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เขียนสรุปโครงการ MPP ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีใช้ Aspose.Tasks สำหรับ Java เพื่อเขียนสรุปโปรเจ็กต์ MPP Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังสำหรับการทำงานกับไฟล์ Microsoft Project ด้วยการทำตามขั้นตอนที่อธิบายไว้ด้านล่าง คุณจะสามารถตั้งค่าและดึงข้อมูลสรุปต่างๆ เกี่ยวกับโครงการโดยใช้ไลบรารีนี้ได้
 ## ข้อกำหนดเบื้องต้น
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ตอบ: แน่นอนว่า Aspose.Tasks for Java มีตัวเลือกมากมายในการปรับแต่งข้อมูลสรุปโปรเจ็กต์ตามความต้องการเฉพาะของคุณ
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
 ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

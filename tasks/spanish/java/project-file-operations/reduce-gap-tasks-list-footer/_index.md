@@ -3,10 +3,16 @@ title: Reducir la brecha entre la lista de tareas y el pie de página en Aspose.
 linktitle: Reducir la brecha entre la lista de tareas y el pie de página en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda cómo reducir la brecha entre las listas de tareas y los pies de página de MS Project usando Aspose.Tasks para Java. Optimice el diseño del documento del proyecto sin esfuerzo.
-type: docs
 weight: 10
 url: /es/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reducir la brecha entre la lista de tareas y el pie de página en Aspose.Tasks
+
 ## Introducción
 En este tutorial, profundizaremos en cómo reducir la brecha entre la lista de tareas y el pie de página en archivos de Microsoft Project usando Aspose.Tasks para Java. Si sigue estos pasos, podrá optimizar el diseño de los documentos de su proyecto sin esfuerzo.
 ## Requisitos previos
@@ -105,3 +111,9 @@ R: Sí, Aspose.Tasks admite una amplia gama de formatos, incluidos XLSX, XML y M
 ### P: ¿Dónde puedo obtener asistencia si tengo algún problema al utilizar Aspose.Tasks?
 
  R: Puede obtener ayuda en el foro de la comunidad Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

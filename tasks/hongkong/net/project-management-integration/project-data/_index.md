@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握項目數據
 linktitle: 在 Aspose.Tasks 中處理項目數據
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 .NET 中的 Aspose.Tasks 操作 Microsoft Project 資料。輕鬆建立任務、新增資源和保存項目。
-type: docs
 weight: 16
 url: /zh-hant/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握項目數據
+
 ## 介紹
 在本教學中，我們將探討如何使用 .NET 的 Aspose.Tasks 函式庫處理 Microsoft Project 資料。 Aspose.Tasks 提供了強大的功能來操作專案文件，包括建立任務、新增資源、設定屬性以及以各種格式儲存專案。
 ## 先決條件
@@ -92,3 +98,9 @@ project.Save(DataDir + "ProjectCreation_out.xml", SaveFileFormat.Xml);
 答：是的，Aspose.Tasks 包含先進的調度演算法，可協助您優化專案時程和資源利用率。
 ### Q：是否有針對 Aspose.Tasks 使用者的社群論壇？
 答：是的，您可以找到有用的資源並與其他 Aspose.Tasks 使用者互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

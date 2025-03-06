@@ -3,10 +3,16 @@ title: Loại tính toán trong Aspose.Tasks
 linktitle: Loại tính toán trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh các phép tính giá trị trong các dự án .NET với Loại tính toán trong thư viện Aspose.Tasks.
-type: docs
 weight: 30
 url: /vi/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Loại tính toán trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá tính năng Loại tính toán trong Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên hệ thống của họ. Loại tính toán cho phép chúng tôi xác định cách tính các giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong một dự án.
@@ -97,3 +103,9 @@ Câu trả lời 4: Có, Aspose.Tasks cung cấp nhiều Loại tổng hợp kh�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên về Aspose.Tasks cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể khám phá các tài liệu và diễn đàn hỗ trợ cộng đồng có sẵn trên[Aspose.Tasks cho .NET](https://reference.aspose.com/tasks/net/) để được hướng dẫn và hỗ trợ toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

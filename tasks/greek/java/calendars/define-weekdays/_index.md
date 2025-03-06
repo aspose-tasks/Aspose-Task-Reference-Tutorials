@@ -3,10 +3,16 @@ title: Καθορίστε τις καθημερινές στο Ημερολόγ�
 linktitle: Καθορίστε τις καθημερινές στο Ημερολόγιο με το Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ορίζετε τις καθημερινές στο MS Project Calendar χρησιμοποιώντας το Aspose.Tasks για Java. Προσαρμόστε τις εργάσιμες ημέρες και τις ώρες χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τις καθημερινές στο Ημερολόγιο με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία καθορισμού των εργάσιμων ημερών σε ένα Ημερολόγιο Έργου MS χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -82,3 +88,9 @@ prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 Α: Ναι, μπορείτε να φορτώσετε ένα υπάρχον έργο με ημερολόγια, να κάνετε τροποποιήσεις και, στη συνέχεια, να αποθηκεύσετε τις αλλαγές πίσω στο αρχικό αρχείο.
 ### Ε5: Το Aspose.Tasks παρέχει υποστήριξη για επαναλαμβανόμενες εργασίες;
 Α: Ναι, το Aspose.Tasks σάς επιτρέπει να εργάζεστε με επαναλαμβανόμενες εργασίες, συμπεριλαμβανομένου του καθορισμού των μοτίβων και της διάρκειάς τους επανάληψης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Управление проектом
 linktitle: Управление проектом
 second_title: API Aspose.Tasks Java
 description: Изучите Aspose.Tasks Java с помощью наших подробных руководств по управлению проектами. От расчетов критического пути до свойств финансового года — оптимизируйте рабочий процесс.
-type: docs
 weight: 27
 url: /ru/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление проектом
+
 ## Введение
 
 Готовы ли вы повысить свои навыки управления проектами с помощью Aspose.Tasks для Java? Погрузитесь в наши эксклюзивные учебные пособия, охватывающие целый ряд функций и возможностей, которые расширят возможности вашей разработки на Java. Мы предоставим вам всю необходимую информацию — от расчета критического пути до обработки исключений при записи задач во время печати. Давайте изучим богатство знаний, ожидающих вас.
@@ -69,3 +75,9 @@ Embark on your Aspose.Tasks for Java journey today! These tutorials are your gat
 Узнайте, как печатать страницы на отдельные изображения в Aspose.Tasks для Java. Улучшите визуализацию проекта с помощью этого пошагового руководства.
 ### [Обработка исключений записи задач во время печати в Aspose.Tasks](./print-task-exceptions/)
 Освойте обработку исключений в Aspose.Tasks для Java, чтобы обеспечить бесперебойное выполнение проекта. Узнайте, как легко обрабатывать исключения записи задач во время печати.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

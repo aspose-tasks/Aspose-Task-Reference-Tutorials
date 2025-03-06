@@ -3,10 +3,16 @@ title: Umgang mit MS Project-Fortschrittslinien mit Aspose.Tasks
 linktitle: Umgang mit Fortschrittszeilen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Fortschrittslinien in MS Project-Dateien mit Aspose.Tasks für .NET bearbeiten und so die Projektvisualisierung und -verwaltung verbessern.
-type: docs
 weight: 15
 url: /de/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Umgang mit MS Project-Fortschrittslinien mit Aspose.Tasks
+
 ## Einführung
 Microsoft Project (MS Project) ist ein leistungsstarkes Tool für das Projektmanagement, mit dem Benutzer verschiedene Aspekte ihrer Projekte verfolgen können. Ein entscheidendes Merkmal von MS Project ist die Möglichkeit, Fortschrittslinien zu visualisieren, die den Beteiligten helfen, den Status und die Entwicklung des Projekts zu verstehen. In diesem Tutorial erfahren Sie, wie Sie mit Fortschrittszeilen in MS Project mithilfe der Aspose.Tasks-Bibliothek für .NET umgehen.
 ## Voraussetzungen
@@ -96,3 +102,9 @@ A: Absolut, Aspose.Tasks ist so konzipiert, dass es sich nahtlos in andere .NET-
  A: Ja, im Aspose.Tasks-Forum finden Sie hilfreiche Ressourcen und können Hilfe suchen[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Bietet Aspose.Tasks temporäre Lizenzen zu Evaluierungszwecken an?
  A: Ja, Sie können eine temporäre Lizenz zur Evaluierung bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

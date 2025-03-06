@@ -3,10 +3,16 @@ title: Definizioni di gestione del codice di struttura di MS Project in Aspose.T
 linktitle: Gestione delle definizioni del codice struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come gestire le definizioni del codice di struttura di MS Project utilizzando Aspose.Tasks per .NET, potenziando le tue applicazioni di gestione dei progetti.
-type: docs
 weight: 12
 url: /it/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definizioni di gestione del codice di struttura di MS Project in Aspose.Tasks
+
 ## introduzione
 Microsoft Project è un potente strumento per la gestione di progetti e Aspose.Tasks per .NET fornisce un supporto completo per la manipolazione dei file di progetto a livello di codice. Un aspetto essenziale della gestione del progetto è l'organizzazione delle attività utilizzando codici di struttura. In questo tutorial esploreremo come gestire le definizioni di codice di struttura di MS Project utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -91,3 +97,9 @@ R: Sì, Aspose.Tasks per .NET fornisce funzionalità estese per la manipolazione
 R: Assolutamente, Aspose.Tasks per .NET supporta la lettura e la scrittura di campi personalizzati, inclusi i codici di struttura, dai file MS Project.
 ### Q5: esiste un forum della community per Aspose.Tasks per .NET?
  R: Sì, puoi iscriverti al forum della community per Aspose.Tasks per .NET[Qui](https://forum.aspose.com/c/tasks/15) per porre domande, condividere conoscenze e collaborare con altri sviluppatori.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Odczyt danych projektu
 linktitle: Odczyt danych projektu
 second_title: Aspose.Tasks API Java
 description: Odblokuj moc Aspose.Tasks dla Java dzięki naszym tutorialom! Od czytania definicji grup po wyodrębnianie danych z wykresu Gantta — opanuj płynną integrację.
-type: docs
 weight: 28
 url: /pl/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odczyt danych projektu
+
 ## Wstęp
 Jeśli poruszasz się po rozległym obszarze zarządzania projektami w Javie, nasze tutoriale Aspose.Tasks są Twoimi gwiazdami przewodnimi. Zanurz się w krainę, w której czytanie danych projektu staje się podróżą bez wysiłku, dzięki naszym przewodnikom krok po kroku. Wyruszmy razem w tę poznawczą przygodę!
 
@@ -48,3 +54,9 @@ Dowiedz się, jak bez wysiłku czytać pliki chronione hasłem w Aspose.Tasks dl
 Dowiedz się, jak wyodrębnić określone dane z wykresu Gantta za pomocą Aspose.Tasks dla Java. Samouczek krok po kroku umożliwiający bezproblemową integrację z aplikacjami Java.
 ### [Odczytaj dane tabeli z pliku w Aspose.Tasks](./read-table-data/)
 Odblokuj moc Aspose.Tasks dla Java. Z tego obszernego samouczka dowiesz się, jak wyodrębniać dane z tabeli z plików.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

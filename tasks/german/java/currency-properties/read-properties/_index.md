@@ -3,10 +3,16 @@ title: Lesen Sie Währungseigenschaften in Aspose.Tasks-Projekten
 linktitle: Lesen Sie Währungseigenschaften in Aspose.Tasks-Projekten
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java Währungsinformationen aus MS Project-Dateien extrahieren. Schritt-für-Schritt-Anleitung bereitgestellt.
-type: docs
 weight: 10
 url: /de/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lesen Sie Währungseigenschaften in Aspose.Tasks-Projekten
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Aspose.Tasks für Java verwenden, um Währungseigenschaften aus Microsoft Project-Dateien zu lesen. Aspose.Tasks ist eine leistungsstarke Java-API, die es Entwicklern ermöglicht, Microsoft Project-Dokumente zu bearbeiten, ohne dass Microsoft Project installiert sein muss. Wenn Sie die unten beschriebenen Schritte befolgen, können Sie mühelos währungsbezogene Informationen extrahieren.
 ## Voraussetzungen
@@ -57,3 +63,9 @@ A: Ja, mit Aspose.Tasks können Sie Währungseigenschaften in MS Project-Dateien
  A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks nutzen[Hier](https://releases.aspose.com/).
 ### F: Wo kann ich Hilfe oder Unterstützung für Aspose.Tasks suchen?
  A: Sie können das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15) für jegliche Hilfe oder Fragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的 Field Helper MS 專案集成
 linktitle: Aspose.Tasks 中的字段助手
 second_title: Aspose.Tasks .NET API
 description: 了解如何利用 Aspose.Tasks for .NET 無縫處理 MS Project 檔案。
-type: docs
 weight: 15
 url: /zh-hant/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的 Field Helper MS 專案集成
+
 ## 介紹
 
 Aspose.Tasks for .NET 是一個功能強大的 API，可讓開發人員在其 .NET 應用程式中無縫使用 Microsoft Project 檔案。無論您是建立專案管理工具、將專案功能整合到應用程式中，還是僅需要以程式設計方式操作專案文件，Aspose.Tasks 都能提供您高效完成工作所需的工具。
@@ -74,3 +80,9 @@ Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefault
 ### Q5：哪裡可以購買 Aspose.Tasks for .NET 的授權？
 
 答：您可以從 Aspose 網站購買 Aspose.Tasks for .NET 的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

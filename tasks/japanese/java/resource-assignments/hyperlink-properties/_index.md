@@ -3,10 +3,16 @@ title: Aspose.Tasks での割り当てのハイパーリンク プロパティ�
 linktitle: Aspose.Tasks でのリソース割り当てのハイパーリンク プロパティの管理
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java でリソース割り当てのハイパーリンク プロパティを管理する方法を学習します。プロジェクト管理におけるコラボレーションとアクセシビリティを強化します。
-type: docs
 weight: 16
 url: /ja/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での割り当てのハイパーリンク プロパティを管理する
+
 ## 導入
 Aspose.Tasks for Java は、プロジェクトのタスクとリソースを管理するための強力な機能を提供します。このチュートリアルでは、Aspose.Tasks を使用してリソース割り当てのハイパーリンク プロパティを管理する方法に焦点を当てます。これらの段階的な手順に従うことで、プロジェクトのリソース割り当てに関連付けられたハイパーリンクを効率的に処理できるようになります。
 ## 前提条件
@@ -84,3 +90,9 @@ A: Aspose.Tasks は、ハイパーリンクの長さに厳密な制限を課し�
 A: はい、ハイパーリンクのプロパティを null または空の文字列に設定することで、リソース割り当てからハイパーリンクを削除できます。
 ### Q: Aspose.Tasks はハイパーリンクの検証をサポートしていますか?
 A: Aspose.Tasks は、ハイパーリンクの検証ではなく、ハイパーリンク プロパティの管理に重点を置いています。ただし、Java アプリケーション内にカスタム検証ロジックを実装して、ハイパーリンクの整合性を確保できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

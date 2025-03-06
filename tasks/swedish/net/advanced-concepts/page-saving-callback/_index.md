@@ -3,10 +3,16 @@ title: Implementera Page Saving Callback i Aspose.Tasks
 linktitle: Implementera Page Saving Callback i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du implementerar en sidsparande återuppringning i Aspose.Tasks för .NET, vilket möjliggör anpassad hantering av flersidiga dokumentutdataströmmar.
-type: docs
 weight: 12
 url: /sv/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementera Page Saving Callback i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man implementerar en sidsparande återuppringning i Aspose.Tasks för .NET. Den här funktionen låter oss spara ett flersidigt dokument till användartillhandahållna strömmar, vilket erbjuder flexibilitet och anpassning vid hantering av utdata.
@@ -121,3 +127,9 @@ S4: Du kan implementera felhanteringsmekanismer inom callback-metoderna för att
 ### F5: Var kan jag hitta fler resurser och support för Aspose.Tasks?
 
  A5: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp, tillgång till dokumentation[här](https://reference.aspose.com/tasks/net/) , eller utforska ytterligare funktioner och licensalternativ på[Aspose.Tasks webbplats](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

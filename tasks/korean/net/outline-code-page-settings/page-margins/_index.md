@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 페이지 여백을 손쉽�
 linktitle: Aspose.Tasks에서 페이지 여백 설정
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 페이지 여백을 조정하는 방법을 알아보세요. 문서 레이아웃과 프리젠테이션을 쉽게 향상하세요.
-type: docs
 weight: 19
 url: /ko/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 페이지 여백을 손쉽게 설정하세요.
+
 ## 소개
 프로젝트 관리 영역에서는 효율성과 정확성이 가장 중요합니다. .NET용 Aspose.Tasks는 Microsoft Project 파일을 프로그래밍 방식으로 관리하기 위한 강력한 도구 키트를 제공하여 개발자에게 프로세스를 간소화하고 생산성을 향상시킬 수 있는 기능을 제공합니다. 이 튜토리얼에서는 프로젝트 파일 조작의 특정 측면, 즉 .NET용 Aspose.Tasks를 사용하여 페이지 여백 설정을 자세히 살펴보겠습니다. 이 가이드를 마치면 Microsoft Project 파일 내에서 페이지 여백을 원활하게 조정하여 더 나은 문서 레이아웃과 프리젠테이션을 용이하게 하는 지식을 갖추게 됩니다.
 ## 전제조건
@@ -73,3 +79,9 @@ A: Aspose.Tasks는 마진 값 설정에 유연성을 제공하므로 요구 사�
 A: 예, Aspose.Tasks는 작업 일정 관리, 리소스 할당 및 보고를 포함하여 프로젝트 관리를 위한 포괄적인 기능 제품군을 제공합니다.
 ### Q: Aspose.Tasks를 웹 애플리케이션에 통합할 수 있나요?
 답: 물론이죠! Aspose.Tasks for .NET은 웹 애플리케이션에 완벽하게 통합되어 프로젝트 관리 기능을 향상시킬 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

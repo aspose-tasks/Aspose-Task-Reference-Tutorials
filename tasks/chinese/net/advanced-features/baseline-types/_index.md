@@ -3,10 +3,16 @@ title: Aspose.Tasks 中不同类型的基线
 linktitle: Aspose.Tasks 中不同类型的基线
 second_title: Aspose.Tasks .NET API
 description: 学习使用 Aspose.Tasks for .NET 有效地设置和操作项目基线。
-type: docs
 weight: 21
 url: /zh/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中不同类型的基线
+
 ## 介绍
 
 在项目管理领域，精确性和远见至关重要。 Aspose.Tasks for .NET 提供了一个强大的工具包，用于有效管理项目数据，允许用户深入研究项目规划、跟踪和执行的各个方面。 Aspose.Tasks 提供的一项重要功能是设置基线的能力，该基线可作为根据初始计划衡量项目进度的参考点。
@@ -82,3 +88,9 @@ A4：Aspose.Tasks 提供了广泛的文档和支持论坛，以帮助开发人�
 ### Q5：我可以在购买前试用Aspose.Tasks吗？
 
 A5：是的，您可以通过网站上提供的免费试用版探索 Aspose.Tasks，让您亲身体验其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

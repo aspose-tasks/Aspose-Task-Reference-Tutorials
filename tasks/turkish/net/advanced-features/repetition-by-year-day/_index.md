@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Yıl Gününe Göre Tekrarlama
 linktitle: Aspose.Tasks'ta Yıl Gününe Göre Tekrarlama
 second_title: Aspose.Tasks .NET API'si
 description: Yinelenen görev yönetimini verimli bir şekilde kolaylaştırmak için Aspose.Tasks for .NET'te yıl içi tekrarları nasıl yöneteceğinizi öğrenin.
-type: docs
 weight: 27
 url: /tr/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Yıl Gününe Göre Tekrarlama
+
 ## giriiş
 
 Proje yönetimi alanında, verimli görev planlama ve yineleme, zamanında yürütme ve sorunsuz iş akışını sağlamada önemli rol oynar. Aspose.Tasks for .NET, geliştiricilerin uygulamalarında yinelenen görevleri zahmetsizce gerçekleştirebilmeleri için güçlü bir çözüm sunar. Bu eğitimde, Aspose.Tasks'ı kullanarak yıllık gün tekrarlarıyla çalışmanın inceliklerini inceleyerek, yıllık kalıplara dayalı yinelenen görevler oluşturmak için kapsamlı bir kılavuz sağlıyoruz.
@@ -109,3 +115,9 @@ Cevap4: Kesinlikle Aspose.Tasks, görev özelliklerini dinamik olarak değiştir
 ### S5: Aspose.Tasks hem küçük ölçekli hem de kurumsal düzeydeki projeler için uygun mu?
 
 Cevap5: Aslında Aspose.Tasks, bireysel görevlerden büyük ölçekli kurumsal projelere kadar her ölçekteki proje üzerinde çalışan geliştiricilerin ihtiyaçlarını karşılamak üzere tasarlanmıştır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Конфигурация текста и представления Aspos
 linktitle: Конфигурация текста и представления Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите руководства Aspose.Tasks for .NET по настройке текста и представления. Освойте стили текста, сжатие Tiff, представление временной шкалы и многое другое для расширенного управления проектами.
-type: docs
 weight: 30
 url: /ru/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конфигурация текста и представления Aspose.Tasks
+
 ## Введение
 
 Добро пожаловать в подробное руководство по учебникам Aspose.Tasks for .NET, в котором основное внимание уделяется настройке текста и представления. В этой статье мы углубимся в различные аспекты управления проектами, предоставив пошаговые инструкции по освоению функций Aspose.Tasks.
@@ -53,3 +59,9 @@ url: /ru/net/text-view-configuration/
 Изучите Aspose.Tasks для .NET, чтобы настроить уровни временной шкалы в представлении диаграммы Ганта для точной визуализации временной шкалы проекта.
 ### [Настройка представлений использования в Aspose.Tasks](./usage-views/)
 Узнайте, как настроить представления использования задач в Aspose.Tasks для .NET. Улучшите визуализацию проекта с помощью подробных шагов. Загрузите библиотеку прямо сейчас!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

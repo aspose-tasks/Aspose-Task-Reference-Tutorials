@@ -3,10 +3,16 @@ title: إنشاء المهام في Aspose.Tasks
 linktitle: إنشاء المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: يمكنك إدارة مشاريع Java بسهولة باستخدام Aspose.Tasks. إنشاء المهام والمهام الفرعية والمزيد. اتبع دليلنا خطوة بخطوة لإدارة المشاريع بسلاسة.
-type: docs
 weight: 13
 url: /ar/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء المهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks لـ Java! إذا كنت تتطلع إلى إدارة المهام والمشاريع بكفاءة في تطبيق Java الخاص بك، فأنت في المكان الصحيح. في هذا الدليل الشامل، سنرشدك خلال عملية إنشاء المهام باستخدام Aspose.Tasks لـ Java، مع تفصيل كل خطوة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 نعم، يمكنك تخصيص سمات المهمة على نطاق واسع لتناسب احتياجات مشروعك.
 ### هل يوجد مجتمع دعم لمستخدمي Aspose.Tasks؟
  قطعاً! انضم إلى مجتمع Aspose.Tasks على[منتدى الدعم](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

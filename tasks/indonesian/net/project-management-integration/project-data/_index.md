@@ -3,10 +3,16 @@ title: Menguasai Data Proyek dengan Aspose.Tasks
 linktitle: Bekerja dengan Data Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memanipulasi data Microsoft Project menggunakan Aspose.Tasks di .NET. Buat tugas, tambahkan sumber daya, dan simpan proyek dengan mudah.
-type: docs
 weight: 16
 url: /id/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Data Proyek dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara bekerja dengan data Microsoft Project menggunakan perpustakaan Aspose.Tasks untuk .NET. Aspose.Tasks menyediakan fitur canggih untuk memanipulasi file proyek, termasuk membuat tugas, menambahkan sumber daya, mengatur properti, dan menyimpan proyek dalam berbagai format.
 ## Prasyarat
@@ -92,3 +98,9 @@ J: Tentu saja, Aspose.Tasks terintegrasi secara mulus dengan pustaka .NET lainny
 J: Ya, Aspose.Tasks menyertakan algoritme penjadwalan tingkat lanjut untuk membantu Anda mengoptimalkan jadwal proyek dan pemanfaatan sumber daya.
 ### T: Apakah ada forum komunitas untuk pengguna Aspose.Tasks?
  J: Ya, Anda dapat menemukan sumber daya yang bermanfaat dan berinteraksi dengan pengguna Aspose.Tasks lainnya di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

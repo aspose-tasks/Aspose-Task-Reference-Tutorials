@@ -3,10 +3,16 @@ title: Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks seg�
 linktitle: Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan határozhatja meg a naptárkivételek hétköznapjait a Java projektekben az Aspose.Tasks segítségével a pontos projektütemezés érdekében.
-type: docs
 weight: 11
 url: /hu/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks segítségével
+
 ### Bevezetés
 projektmenedzsmentben a naptárak kivételeinek meghatározása kulcsfontosságú a nem szabványos munkanapok vagy ünnepnapok pontos ábrázolásához a projekt idővonalán belül. Az Aspose.Tasks for Java robusztus funkciókat kínál a naptárak hatékony kezeléséhez, beleértve a kivételek, például a szabadságok vagy a különleges munkanapok meghatározását. Ebben az oktatóanyagban megvizsgáljuk, hogyan határozhatjuk meg a naptári kivételek hétköznapjait az Aspose.Tasks for Java segítségével.
 ### Előfeltételek
@@ -68,3 +74,10 @@ V: Természetesen az Aspose.Tasks for Java rugalmasságot biztosít a kivételek
 V: Programozottan kezelheti a dinamikus projektkövetelményeken alapuló kivételeket az Aspose.Tasks for Java által biztosított kiterjedt API használatával.
 ### K: Elérhető az Aspose.Tasks for Java próbaverziója?
  V: Igen, igénybe veheti az Aspose.Tasks Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

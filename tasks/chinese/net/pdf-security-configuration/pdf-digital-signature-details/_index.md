@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 配置 MS Project PDF 数字签名
 linktitle: 在 Aspose.Tasks 中配置 PDF 数字签名详细信息
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 配置 Microsoft Project PDF 数字签名详细信息。确保项目文件的安全性和真实性。
-type: docs
 weight: 10
 url: /zh/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 配置 MS Project PDF 数字签名
+
 ## 介绍
 在本教程中，我们将指导您完成使用 Aspose.Tasks for .NET 配置 Microsoft Project PDF 数字签名详细信息的过程。通过执行这些步骤，您将能够将数字签名无缝集成到您的 MS Project 文件中，从而确保安全性和真实性。
 ## 先决条件
@@ -84,3 +90,9 @@ project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 答：不可以，数字签名一旦应用于 PDF，就无法删除或更新。但是，如果需要，您可以添加其他签名。
 ### 问：Microsoft Project 文件的大小或复杂性是否有任何限制？
 答：Aspose.Tasks 可以无限制地处理各种大小和复杂程度的 Microsoft Project 文件。但是，性能可能会因可用的硬件和资源而异。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

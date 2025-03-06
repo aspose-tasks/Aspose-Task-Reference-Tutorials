@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Standart Takvim Oluşturun
 linktitle: Aspose.Tasks'ta Standart Takvim Oluşturun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java'da standart bir MS Project takvimi oluşturmayı öğrenin. Bu adım adım eğitimle proje yönetimi yeteneklerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Standart Takvim Oluşturun
+
 
 ## giriiş
 Bu eğitimde, geliştiricilerin Microsoft Project dosyalarını sorunsuz bir şekilde yönetmesine olanak tanıyan güçlü bir kütüphane olan Aspose.Tasks for Java dünyasını derinlemesine inceleyeceğiz. Özellikle Aspose.Tasks'ı kullanarak standart bir MS Project takvimi oluşturmaya odaklanacağız. Bu kılavuzun sonunda, bu işlevselliği Java uygulamalarınızda nasıl uygulayacağınıza dair sağlam bir anlayışa sahip olacaksınız.
@@ -63,3 +69,9 @@ C: Kesinlikle! Aspose.Tasks, ölçeklenebilirlik ve güvenilirlik sunarak hem k�
 C: Evet, geliştiriciler Aspose.Tasks forumu aracılığıyla kapsamlı teknik desteğe erişebilir ve her türlü soru veya sorun için zamanında yardım sağlayabilirler.
 ### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
  C: Evet, Aspose.Tasks'ı web sitesinde bulunan ücretsiz deneme sürümü aracılığıyla keşfedebilirsiniz.[İnternet sitesi](https://purchase.aspose.com/buy)karar vermeden önce özelliklerini ve işlevlerini değerlendirmenize olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

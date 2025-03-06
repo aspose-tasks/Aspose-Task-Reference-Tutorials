@@ -3,10 +3,16 @@ title: Aspose.Tasks में संसाधन उपयोग दृश्य
 linktitle: Aspose.Tasks में संसाधन उपयोग दृश्य फ़ील्ड का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों में संसाधन उपयोग दृश्य फ़ील्ड तक प्रभावी ढंग से पहुंचने और हेरफेर करने का तरीका जानें।
-type: docs
 weight: 16
 url: /hi/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में संसाधन उपयोग दृश्य फ़ील्ड का संग्रह
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, Microsoft प्रोजेक्ट फ़ाइलों को कुशलतापूर्वक संभालना महत्वपूर्ण है। .NET के लिए Aspose.Tasks MS प्रोजेक्ट फ़ाइलों के साथ निर्बाध रूप से काम करने के लिए एक व्यापक समाधान प्रदान करता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके संसाधन उपयोग दृश्य फ़ील्ड तक पहुंचने और उपयोग करने की प्रक्रिया के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -67,3 +73,9 @@ foreach (var field in fields)
  उत्तर: हाँ, आप नि:शुल्क परीक्षण संस्करण तक पहुँच सकते हैं[वेबसाइट](https://releases.aspose.com/).
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  उ: आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/) मूल्यांकन प्रयोजनों के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

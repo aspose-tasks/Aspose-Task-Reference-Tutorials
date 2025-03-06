@@ -3,10 +3,16 @@ title: Gestione della durata prevista delle attività in Aspose.Tasks
 linktitle: Gestione della durata prevista delle attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire in modo efficiente le basi delle attività in MS Project utilizzando Aspose.Tasks per Java. Questo tutorial ti guida passo passo attraverso il processo.
-type: docs
 weight: 12
 url: /it/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestione della durata prevista delle attività in Aspose.Tasks
+
 ## introduzione
 La gestione delle basi delle attività in MS Project è fondamentale per la pianificazione e il monitoraggio del progetto. In questo tutorial esploreremo come gestire in modo efficace le durate della baseline delle attività utilizzando Aspose.Tasks per Java.
 ## Prerequisiti
@@ -76,3 +82,9 @@ Sì, puoi modificare le basi delle attività in MS Project per riflettere le mod
 Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per la gestione dei progetti, tra cui la pianificazione delle attività, l'allocazione delle risorse e la generazione di diagrammi di Gantt.
 ### Dove posso trovare supporto per Aspose.Tasks?
  Puoi trovare supporto per Aspose.Tasks su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), dove puoi porre domande e interagire con altri utenti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

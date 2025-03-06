@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中高效能管理 MS 專案屬性
 linktitle: 管理 Aspose.Tasks 中的預設項目屬性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 管理預設的 MS Project 屬性。輕鬆簡化您的專案管理工作流程。
-type: docs
 weight: 11
 url: /zh-hant/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中高效能管理 MS 專案屬性
+
 ## 介紹
 您是否希望使用 Aspose.Tasks for Java 簡化您的專案管理流程？管理 Microsoft Project 檔案中的預設屬性可以顯著提高效率。在本教學中，我們將逐步說明如何使用 Aspose.Tasks 管理預設的 MS Project 屬性。
 ## 先決條件
@@ -79,3 +85,9 @@ A3：是的，您可以在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks
  A4：當然！您可以從以下網站獲得免費試用[網站](https://releases.aspose.com/).
 ### Q5：如何取得Aspose.Tasks的臨時授權？
  A5：您可以從以下機構獲得臨時許可證：[購買頁面](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beherrschen der Aufgabennutzungsansichten in Aspose.Tasks für .NET
 linktitle: Konfigurieren von Aufgabenverwendungsansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET und erfahren Sie, wie Sie Aufgabennutzungsansichten konfigurieren. Passen Sie die Zeitskaleneinstellungen an und verbessern Sie die visuelle Darstellung Ihres Projektmanagements.
-type: docs
 weight: 24
 url: /de/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der Aufgabennutzungsansichten in Aspose.Tasks für .NET
+
 ## Einführung
 Im Bereich des Projektmanagements ist die Visualisierung der Aufgabennutzung von entscheidender Bedeutung für eine effektive Planung und Ausführung. Aspose.Tasks für .NET bietet eine robuste Lösung zum Rendern von Aufgabennutzungsansichten, mit der Sie Zeitskaleneinstellungen und Präsentationsformate anpassen können. In diesem Tutorial führen wir die Schritte zum Konfigurieren von Aufgabennutzungsansichten mithilfe von Aspose.Tasks durch.
 ## Voraussetzungen
@@ -75,3 +81,9 @@ Ja, Aspose.Tasks unterstützt gängige Projektdateiformate wie MPP, XML und CSV.
 Selbstverständlich können Sie die Zeitskaleneinstellungen für einzelne Aufgaben innerhalb Ihres Projekts anpassen.
 ### Wie kann ich Unterstützung oder Hilfe für Aspose.Tasks erhalten?
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für gemeinschaftliche Unterstützung und Anleitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

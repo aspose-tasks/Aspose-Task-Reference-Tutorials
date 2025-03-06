@@ -3,10 +3,16 @@ title: Durasi Tugas di Unit Berbeda dengan Aspose.Tasks
 linktitle: Durasi Tugas di Unit Berbeda dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi manajemen durasi tugas di proyek Java dengan Aspose.Tasks. Hitung dan ubah durasi secara akurat dalam menit, hari, jam, minggu, dan bulan.
-type: docs
 weight: 32
 url: /id/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Durasi Tugas di Unit Berbeda dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, pemahaman dan pengelolaan durasi tugas merupakan aspek penting. Aspose.Tasks untuk Java menyediakan perangkat canggih untuk menangani hal ini secara efisien. Dalam tutorial ini, kami akan memandu Anda dalam mengambil durasi tugas di berbagai unit menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -83,3 +89,9 @@ Sangat. Aspose.Tasks dirancang untuk menangani proyek dengan berbagai ukuran sec
  Mengunjungi[dokumentasi](https://reference.aspose.com/tasks/java/)untuk sumber daya yang komprehensif.
 ### T: Dapatkah saya mencoba Aspose.Tasks untuk Java sebelum membeli?
  Ya, Anda dapat menjelajahi a[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi kemampuannya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

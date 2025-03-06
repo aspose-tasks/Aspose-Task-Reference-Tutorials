@@ -3,10 +3,16 @@ title: 支援 Aspose.Tasks 公式中的評估函數
 linktitle: 支援 Aspose.Tasks 公式中的評估函數
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Java 支援對 Aspose.Tasks 公式中的 MS Project 函數求值。使用 Aspose.Tasks 提高您的工作效率。
-type: docs
 weight: 10
 url: /zh-hant/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 支援 Aspose.Tasks 公式中的評估函數
+
 
 ## 介紹
 Aspose.Tasks for Java 是一個功能強大的函式庫，使開發人員能夠以程式設計方式操作 Microsoft Project 檔案。其主要功能之一是能夠支援在 Aspose.Tasks 公式中評估 MS Project 函數。此功能允許使用者直接在其 Java 應用程式中執行複雜的計算和分析。
@@ -65,3 +71,9 @@ task.getExtendedAttributes().add(a);
 答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：Aspose.Tasks for Java 是否有可用的臨時授權？
 答：是的，您可以從 Aspose 網站取得用於測試目的的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Odkazy na úkoly
 linktitle: Odkazy na úkoly
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte Aspose.Tasks pro Javu pomocí našich výukových programů. Vylepšete spolupráci, definujte typy odkazů a bezproblémově spravujte úkoly. Zvyšte efektivitu svého projektu hned teď!
-type: docs
 weight: 33
 url: /cs/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odkazy na úkoly
+
 ## Úvod
 
 Pokud se ponoříte do světa projektového managementu Java, Aspose.Tasks je váš oblíbený nástroj. Naše komplexní výukové programy vám umožní zvládnout různé aspekty a zajistit optimální využití knihovny Aspose.Tasks for Java.
@@ -38,3 +44,9 @@ Prozkoumejte sílu Aspose.Tasks pro Java při řízení projektů. Definujte a p
 Prozkoumejte identifikaci úloh napříč projekty pomocí Aspose.Tasks for Java. Bezproblémová integrace a efektivní správa. Stáhnout teď!
 ### [Správa předchůdců a následníků v Aspose.Tasks](./predecessor-successor-tasks/)
 Prozkoumejte efektivní správu úloh s Aspose.Tasks for Java. Snadno zpracujte předchůdce a následné úkoly ve svých projektech. Stáhněte si bezplatnou zkušební verzi nyní!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

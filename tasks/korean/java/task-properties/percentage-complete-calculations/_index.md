@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업에 대한 완료율 계산
 linktitle: Aspose.Tasks의 작업에 대한 완료율 계산
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks를 살펴보고 프로젝트 진행 상황 추적을 간소화하세요. 효율적인 프로젝트 관리를 위해 작업 비율을 쉽게 계산합니다.
-type: docs
 weight: 25
 url: /ko/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업에 대한 완료율 계산
+
 ## 소개
 Aspose.Tasks for Java를 사용한 마스터링 작업 비율 계산에 대한 심층 가이드에 오신 것을 환영합니다. Aspose.Tasks는 Microsoft Project 파일 작업을 위해 설계된 강력한 Java 라이브러리로, 프로젝트 관리를 위한 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 완료율 계산에 중점을 두고 프로젝트 진행 상황을 효과적으로 모니터링하고 분석하는 데 필요한 지식을 제공합니다.
 ## 전제조건
@@ -63,3 +69,9 @@ for (Task tsk : alTasks) {
  지원 포럼 방문[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: 임시 라이센스를 얻으려면 어떻게 해야 합니까?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

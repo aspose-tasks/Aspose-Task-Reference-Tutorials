@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट संस्
 linktitle: Aspose.Tasks के साथ प्रोजेक्ट संस्करण निर्धारित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके प्रोग्रामेटिक रूप से MS प्रोजेक्ट फ़ाइलों का संस्करण निर्धारित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट संस्करण निर्धारित करें
+
 ## परिचय
 यह ट्यूटोरियल आपको MS प्रोजेक्ट फ़ाइल के संस्करण को चरण दर चरण निर्धारित करने के लिए Java के लिए Aspose.Tasks का उपयोग करने में मार्गदर्शन करेगा। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट स्थापित करने की आवश्यकता के बिना Microsoft प्रोजेक्ट फ़ाइलों में हेरफेर करने की अनुमति देता है।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ System.out.println("Process completed Successfully");
 उत्तर: नहीं, Aspose.Tasks स्वतंत्र रूप से काम करता है और इसके लिए Microsoft Project को स्थापित करने की आवश्यकता नहीं है।
 ### प्रश्न: क्या Aspose.Tasks के लिए तकनीकी सहायता उपलब्ध है?
  उत्तर: हां, आप Aspose.Tasks फोरम से तकनीकी सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

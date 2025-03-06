@@ -3,10 +3,16 @@ title: A hétköznapok elsajátítása az Aspose.Tasks-ban
 linktitle: Hétköznapok gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET erejét a hétköznapok egyszerű kezelésében. Szabja testre a munkanapokat, távolítsa el a hétvégéket, és készítsen egyszerűen speciális naptárakat.
-type: docs
 weight: 11
 url: /hu/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A hétköznapok elsajátítása az Aspose.Tasks-ban
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely megkönnyíti a projektmenedzsment adatok hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk az Aspose.Tasks hétköznapjainak gyűjteményét, amely lehetővé teszi a munkanapok testreszabását, a hétvégék eltávolítását, és speciális naptárak létrehozását a projekt követelményeinek megfelelően. Akár tapasztalt fejlesztő, akár újonc, ez a lépésről lépésre végigvezeti Önt az Aspose.Tasks for .NET hétköznapjainak munkafolyamatán.
 ## Előfeltételek
@@ -95,3 +101,9 @@ V: Az Aspose.Tasks elsősorban a .NET nyelveket támogatja, de Java-verziókat i
  V: Lásd a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/) részletes információkért.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for .NET számára?
  V: Ideiglenes licencet szerezhet be a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

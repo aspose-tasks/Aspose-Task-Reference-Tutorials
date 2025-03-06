@@ -3,10 +3,16 @@ title: Aspose.Tasks وحدة VBA والتعامل مع المراجع
 linktitle: Aspose.Tasks وحدة VBA والتعامل مع المراجع
 second_title: Aspose.Tasks .NET API
 description: هل أنت مستعد لرفع قدراتك في إدارة المشاريع باستخدام Aspose.Tasks .NET؟ تعمق في برامجنا التعليمية الشاملة لوحدة VBA والتعامل مع المراجع.
-type: docs
 weight: 31
 url: /ar/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks وحدة VBA والتعامل مع المراجع
+
 
 ## إدارة وحدات VBA في Aspose.Tasks
 
@@ -40,3 +46,9 @@ url: /ar/net/vba-module-reference/
 اكتشف قوة Aspose.Tasks لـ .NET في إدارة مشاريع VBA دون عناء. عزز قدرات إدارة مشروعك من خلال هذا الدليل المفصّل خطوة بخطوة.
 ### [التعامل مع مراجع VBA في Aspose.Tasks](./vba-references/)
 اكتشف قوة التعامل مع مراجع VBA في Aspose.Tasks .NET من خلال برنامجنا التعليمي الشامل. تعلم القراءة والمقارنة والعمل مع مراجع VBA بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

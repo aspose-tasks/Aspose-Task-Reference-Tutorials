@@ -3,10 +3,16 @@ title: Options for Loading in Aspose.Tasks
 linktitle: Options for Loading in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to harness the power of Aspose.Tasks for .NET to efficiently manage Microsoft Project documents with step-by-step guidance.
-type: docs
 weight: 16
 url: /net/advanced-concepts/loading-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Options for Loading in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET is a powerful library that allows developers to manipulate Microsoft Project documents programmatically. Whether you need to create, read, write, or convert Project files, Aspose.Tasks provides a wide range of functionalities to streamline your tasks. In this tutorial, we'll delve into the essentials of using Aspose.Tasks for .NET, breaking down key processes into simple, actionable steps.
@@ -165,3 +171,10 @@ A4: Yes, you can explore different licensing options, including free trials and 
 ### Q5: How frequently are updates and new features released for Aspose.Tasks for .NET?
 
 A5: Aspose.Tasks for .NET receives regular updates and feature enhancements to ensure optimal performance and compatibility with evolving technologies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arten von Ressourcen in Aspose.Tasks
 linktitle: Arten von Ressourcen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie in einem Schritt-für-Schritt-Tutorial, wie Sie mit verschiedenen Arten von Ressourcen in Aspose.Tasks für .NET arbeiten, einschließlich Arbeits-, Material- und Kostenressourcen.
-type: docs
 weight: 14
 url: /de/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arten von Ressourcen in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft Project-Dateien zu arbeiten. Unabhängig davon, ob Sie Aufgaben, Ressourcen oder Zeitpläne verwalten, vereinfacht Aspose.Tasks den Prozess durch die Bereitstellung eines umfassenden Satzes von APIs. In diesem Tutorial befassen wir uns mit den verschiedenen Arten von Ressourcen, die Sie in Ihren Projekten mit Aspose.Tasks für .NET nutzen können.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Formate, darunter Microsoft Projec
  A: Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Bietet Aspose.Tasks für .NET Dokumentation als Referenz?
  A: Ja, Sie können die Dokumentation finden[Hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

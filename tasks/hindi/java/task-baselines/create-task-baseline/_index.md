@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट टास्क ब
 linktitle: Aspose.Tasks में एक कार्य आधार रेखा बनाना
 second_title: Aspose.Tasks जावा एपीआई
 description: प्रोजेक्ट डेटा को सहजता से प्रबंधित करने के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Tasks का उपयोग करके जावा में Microsoft प्रोजेक्ट कार्य बेसलाइन बनाने का तरीका जानें।
-type: docs
 weight: 11
 url: /hi/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट टास्क बेसलाइन बनाएं
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके एक Microsoft प्रोजेक्ट कार्य बेसलाइन बनाने की प्रक्रिया के बारे में विस्तार से जानेंगे। Aspose.Tasks एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट स्थापित करने की आवश्यकता के बिना Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने में सक्षम बनाती है। Aspose.Tasks के साथ, आप प्रोजेक्ट प्रबंधन कार्यों को सुव्यवस्थित करने के लिए कार्यों, संसाधनों और कैलेंडर सहित प्रोजेक्ट डेटा में आसानी से हेरफेर कर सकते हैं।
 ## आवश्यक शर्तें
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 हां, आप जावा के लिए Aspose.Tasks का उपयोग करके आसानी से कार्य निर्भरताएं सेट कर सकते हैं, जिससे आप अपने प्रोजेक्ट के भीतर कार्यों का क्रम स्थापित कर सकेंगे।
 ### क्या जावा के लिए Aspose.Tasks के लिए तकनीकी सहायता उपलब्ध है?
  हां, आप जावा के लिए Aspose.Tasks के लिए तकनीकी सहायता प्राप्त कर सकते हैं[सहयता मंच](https://forum.aspose.com/c/tasks/15), जहां आप प्रश्न पूछ सकते हैं और समुदाय और Aspose सहयोगी स्टाफ से सहायता मांग सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

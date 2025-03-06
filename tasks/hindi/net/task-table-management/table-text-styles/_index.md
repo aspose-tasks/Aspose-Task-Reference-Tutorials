@@ -3,10 +3,16 @@ title: Aspose.Tasks में टेबल टेक्स्ट स्टाइ
 linktitle: Aspose.Tasks में तालिका पाठ शैलियों को कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ प्रोजेक्ट विज़ुअलाइज़ेशन बढ़ाएँ। तालिका टेक्स्ट शैलियों को चरण-दर-चरण कॉन्फ़िगर करना सीखें। दक्षता और प्रस्तुति को बढ़ावा दें.
-type: docs
 weight: 14
 url: /hi/net/task-table-management/table-text-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में टेबल टेक्स्ट स्टाइल गाइड को कस्टमाइज़ करना
+
 ## परिचय
 परियोजना प्रबंधन की दुनिया में, सफलता के लिए कार्यों का प्रभावी दृश्यावलोकन महत्वपूर्ण है। .NET के लिए Aspose.Tasks तालिका टेक्स्ट शैलियों को अनुकूलित करने के लिए एक शक्तिशाली समाधान प्रदान करता है, जिससे आप अपने प्रोजेक्ट में टेक्स्ट आइटम की उपस्थिति को अनुकूलित कर सकते हैं। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको .NET के लिए Aspose.Tasks का उपयोग करके तालिका टेक्स्ट शैलियों को कॉन्फ़िगर करने की प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -77,3 +83,9 @@ catch (NotSupportedException ex)
 हाँ, Aspose.Tasks विभिन्न परियोजना प्रबंधन आवश्यकताओं को पूरा करने के लिए विभिन्न विज़ुअलाइज़ेशन सुविधाएँ प्रदान करता है।
 ### क्या मैं विशिष्ट कार्य प्रकारों के लिए शैलियों को अनुकूलित कर सकता हूँ?
 बिल्कुल, आप फ़ील्ड और फ़ॉन्ट सेटिंग्स को तदनुसार समायोजित करके अनुकूलन को विभिन्न कार्य प्रकारों तक बढ़ा सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

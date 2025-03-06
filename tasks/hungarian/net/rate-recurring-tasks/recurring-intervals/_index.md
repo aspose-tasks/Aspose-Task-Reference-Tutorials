@@ -3,10 +3,16 @@ title: Könnyű MS Project ismétlődő időközök az Aspose.Tasks-ban
 linktitle: Ismétlődő intervallumok kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel, hogyan kezelheti könnyedén az ismétlődő intervallumokat az MS Projectben az Aspose.Tasks for .NET segítségével.
-type: docs
 weight: 12
 url: /hu/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Könnyű MS Project ismétlődő időközök az Aspose.Tasks-ban
+
 ## Bevezetés
 Hatékonyan szeretné kezelni az ismétlődő intervallumokat a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével? Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy könnyedén kezelhesse a projektjei ismétlődő időközeit. Mielőtt belevágna az oktatóanyagba, tekintsünk át néhány előfeltételt, hogy biztosan készen álljon a kezdésre.
 ## Előfeltételek
@@ -103,3 +109,9 @@ Igen, az Aspose.Tasks for .NET használható bármely .NET által támogatott ny
  Igen, vásárolhat ideiglenes licencet innen[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találom az Aspose.Tasks for .NET teljes dokumentációját?
  A teljes dokumentáció megtalálható[itt](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

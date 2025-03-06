@@ -3,10 +3,16 @@ title: Aspose.Tasks Projektmanagement und Anpassung
 linktitle: Aspose.Tasks Projektmanagement und Anpassung
 second_title: Aspose.Tasks .NET-API
 description: Meistern Sie Aspose.Tasks für .NET mit unseren Projektmanagement-Tutorials. Lernen Sie effiziente Manipulations-, Anpassungs- und Optimierungstechniken für MS Project-Dateien.
-type: docs
 weight: 23
 url: /de/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projektmanagement und Anpassung
+
 ## Einführung
 
 Sind Sie bereit, Ihre Projektmanagementfähigkeiten mit Aspose.Tasks für .NET zu verbessern? Unsere umfassenden Tutorials decken eine Reihe von Themen ab, von der Beherrschung der Earned-Value-MS-Project-Methoden bis hin zur effizienten Verwaltung von Projektattributen und der Anpassung von Gantt-Diagrammen. Tauchen wir ein in die Welt von Aspose.Tasks und erschließen wir das volle Potenzial des Projektmanagements.
@@ -130,3 +136,9 @@ Erfahren Sie, wie Sie MS Project-Dateien mithilfe von Aspose.Tasks programmgeste
 Erfahren Sie, wie Sie die Group Criterion MS Project-Sammlung mit Aspose.Tasks für .NET verwalten. Schritt-für-Schritt-Anleitung für Entwickler.
 ### [Extrahieren Sie Kopf- und Fußzeileninformationen mit Aspose.Tasks](./header-footer-information/)
 Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Kopf- und Fußzeileninformationen aus MS Project-Dateien extrahieren. Einfache, effiziente und entwicklerfreundliche Lösung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

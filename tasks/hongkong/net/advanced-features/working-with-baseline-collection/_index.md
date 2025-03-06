@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用基線集合
 linktitle: 在 Aspose.Tasks 中使用基線集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何有效管理 Aspose.Tasks for .NET 中的基準。請按照我們的綜合教程獲取逐步指導。
-type: docs
 weight: 20
 url: /zh-hant/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用基線集合
+
 ## 介紹
 
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中無縫地使用 Microsoft Project 檔案。在其眾多功能中，它為管理專案內的基準提供了強大的支援。基準對於專案管理至關重要，因為它們允許您將原始專案計劃與當前狀態進行比較，從而更好地追蹤和分析專案進度。
@@ -116,3 +122,9 @@ A4：是的，Aspose.Tasks 支援與流行的雲端平台集成，提供部署�
 ### Q5：Aspose.Tasks 使用者是否有社群論壇來尋求協助和分享知識？
 
  A5: 是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)與社區互動並獲得專家的協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

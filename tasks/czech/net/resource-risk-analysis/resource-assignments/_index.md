@@ -3,10 +3,16 @@ title: Zpracování přiřazení zdrojů MS Project v Aspose.Tasks
 linktitle: Zpracování přiřazení zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně zacházet s přiřazením zdrojů MS Project pomocí Aspose.Tasks for .NET. Tento souhrn poskytuje vývojářům podrobné pokyny.
-type: docs
 weight: 11
 url: /cs/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zpracování přiřazení zdrojů MS Project v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do toho, jak efektivně zpracovávat přiřazení zdrojů aplikace Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Podle těchto kroků se naučíte, jak efektivně spravovat přiřazení prostředků ve vašich aplikacích .NET.
 ## Předpoklady
@@ -73,3 +79,9 @@ Aspose.Tasks rozhodně nabízí rozsáhlé možnosti přizpůsobení pro přiřa
 Ano, Aspose.Tasks umožňuje export projektových dat do různých formátů, jako jsou mimo jiné XML, PDF a HTML.
 ### Je pro uživatele Aspose.Tasks k dispozici technická podpora?
 Ano, Aspose poskytuje specializovanou technickou podporu prostřednictvím svého fóra a dalších kanálů, aby pomohla uživatelům s jakýmikoli dotazy nebo problémy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

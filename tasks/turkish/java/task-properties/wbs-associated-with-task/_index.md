@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevle İlişkili WBS
 linktitle: Aspose.Tasks'ta Görevle İlişkili WBS
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile WBS'de ustalaşın - Görev WBS kodlarını okumayı ve yeniden numaralandırmayı öğrenin. Proje yönetimi verimliliğini artırın!
-type: docs
 weight: 36
 url: /tr/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevle İlişkili WBS
+
 ## giriiş
 Aspose.Tasks for Java ile proje yönetimi dünyasına hoş geldiniz! Bu eğitimde Aspose.Tasks for Java'yı kullanan görevlerle ilişkili İş Kırılım Yapısının (WBS) inceliklerini inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz İKY kodlarını verimli bir şekilde yönetmenin temelleri arasında gezinmenize yardımcı olacaktır.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Tebrikler! Aspose.Tasks for Java'yı kullanarak WBS kodlarıyla nasıl çalışa
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) destek için.
 ### S: Aspose.Tasks for Java için geçici bir lisans alabilir miyim?
  C: Evet, geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

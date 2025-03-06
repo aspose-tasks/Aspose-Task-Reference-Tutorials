@@ -3,10 +3,16 @@ title: Naptípus-gyűjtemény kezelése az Aspose.Tasks-ban
 linktitle: Naptípus-gyűjtemény kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan kezelheti hatékonyan a nap típusú gyűjteményeket az Aspose.Tasks for .NET alkalmazásban. Egyszerűen hozhat létre, módosíthat és kezelhet naptárkivételeket.
-type: docs
 weight: 28
 url: /hu/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptípus-gyűjtemény kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 
  Az Aspose.Tasks for .NET robusztus funkcionalitást biztosít a nap típusú gyűjtemények kezeléséhez, ami kulcsfontosságú a heti naptári kivételek meghatározásához projektmenedzsment alkalmazásokban. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a`DayTypeCollection` osztályt hatékonyan. 
@@ -141,3 +147,9 @@ Ebben az utolsó lépésben új naptárkivételeket hozunk létre, és naptípus
 ### 5. kérdés: Vásárolhatok ideiglenes licencet az Aspose.Tasks for .NET számára?
 
  5. válasz: Igen, az ideiglenes licencek megvásárolhatók a[Aspose honlapja](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

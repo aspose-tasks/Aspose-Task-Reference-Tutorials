@@ -3,10 +3,16 @@ title: العمل مع فترات التوفر في Aspose.Tasks
 linktitle: العمل مع فترات التوفر في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة فترات توفر الموارد بكفاءة باستخدام Aspose.Tasks لـ .NET. يوفر هذا البرنامج التعليمي دليلاً خطوة بخطوة للتعامل مع فترات التوفر في مشاريع .NET الخاصة بك.
-type: docs
 weight: 17
 url: /ar/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع فترات التوفر في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع فترات التوفر في Aspose.Tasks لـ .NET. تعتبر فترات التوفر ضرورية لإدارة الموارد بكفاءة في سيناريوهات إدارة المشروع. سنرشدك خلال العملية خطوة بخطوة.
@@ -107,3 +113,9 @@ foreach (var period in resource.AvailabilityPeriods)
 ### س5: هل تقدمون تراخيص مؤقتة لـ Aspose.Tasks لـ .NET؟
 
  ج5: نعم، تتوفر تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

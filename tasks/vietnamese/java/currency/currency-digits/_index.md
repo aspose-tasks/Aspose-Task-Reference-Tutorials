@@ -3,10 +3,16 @@ title: Xử lý các chữ số tiền tệ với Aspose.Tasks
 linktitle: Xử lý các chữ số tiền tệ với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các chữ số MS Project tiền tệ một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 11
 url: /vi/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các chữ số tiền tệ với Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách xử lý các chữ số MS Project tiền tệ bằng cách sử dụng Aspose.Tasks cho Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn nắm bắt kỹ từng khái niệm.
 ## Điều kiện tiên quyết
@@ -56,3 +62,9 @@ Có, bạn có thể sử dụng Aspose.Tasks cho Java trên các nền tảng k
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

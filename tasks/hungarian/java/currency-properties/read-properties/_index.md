@@ -3,10 +3,16 @@ title: Olvassa el a valutatulajdonságokat az Aspose.Tasks projektekben
 linktitle: Olvassa el a valutatulajdonságokat az Aspose.Tasks projektekben
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan nyerhet ki valutainformációkat az MS Project fájlokból az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutatott útmutató.
-type: docs
 weight: 10
 url: /hu/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvassa el a valutatulajdonságokat az Aspose.Tasks projektekben
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan használhatja az Aspose.Tasks for Java-t a valutatulajdonságok kiolvasására a Microsoft Project fájlokból. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül kezeljék a Microsoft Project dokumentumokat. Az alábbiakban ismertetett lépések követésével könnyedén kinyerheti a pénznemekkel kapcsolatos információkat.
 ## Előfeltételek
@@ -57,3 +63,9 @@ V: Igen, az Aspose.Tasks lehetővé teszi az MS Project fájlokban lévő pénzn
  V: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 ### K: Hol kérhetek segítséget vagy támogatást az Aspose.Tasks-hoz?
  V: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) bármilyen segítségért vagy kérdésért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

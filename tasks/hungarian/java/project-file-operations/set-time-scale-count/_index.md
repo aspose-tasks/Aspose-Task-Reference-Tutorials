@@ -3,10 +3,16 @@ title: Az MS Project Time Scale Count elsajátítása az Aspose.Tasks programban
 linktitle: Állítsa be az időskálát az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti hatékonyan az időskálák számát az MS Projectben az Aspose.Tasks for Java segítségével. Könnyedén optimalizálhatja a projekt vizualizációját és kezelését.
-type: docs
 weight: 22
 url: /hu/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Time Scale Count elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 Az időskálák számának kezelése az MS Projectben jelentősen befolyásolhatja a projekt megjelenítését és kezelését. Az Aspose.Tasks for Java segítségével, amely egy hatékony API a projektmenedzsment feladatok programozott kezelésére, hatékonyan manipulálhatja az időskálák számát, hogy a projektnézeteket az Ön egyedi igényeihez igazítsa.
 ## Előfeltételek
@@ -91,3 +97,9 @@ V: Természetesen az Aspose.Tasks for Java kiterjedt lehetőségeket biztosít a
  V: Igen, ingyenes próbaverziót szerezhet be a webhelyről[itt](https://releases.aspose.com/).
 ### K: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?
  V: Támogatást és segítséget az Aspose.Tasks fórumon találhat[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

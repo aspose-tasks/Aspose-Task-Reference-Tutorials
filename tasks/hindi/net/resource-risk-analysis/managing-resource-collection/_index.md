@@ -3,10 +3,16 @@ title: Aspose.Tasks में प्रोजेक्ट संसाधन स
 linktitle: Aspose.Tasks में संसाधन संग्रह का प्रबंधन करना
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks API का उपयोग करके .NET में Microsoft प्रोजेक्ट संसाधन संग्रह को कुशलतापूर्वक प्रबंधित करना सीखें। उत्पादकता और लचीलापन बढ़ाएँ.
-type: docs
 weight: 13
 url: /hi/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में प्रोजेक्ट संसाधन संग्रह का प्रबंधन करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट संसाधन संग्रह को प्रभावी ढंग से कैसे प्रबंधित किया जाए। Aspose.Tasks एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाता है, जिससे प्रोजेक्ट डेटा के निर्बाध एकीकरण और हेरफेर की अनुमति मिलती है।
 ## आवश्यक शर्तें
@@ -99,3 +105,9 @@ foreach (var rsc in list)
 ### प्रश्न: क्या Aspose.Tasks उपयोगकर्ताओं के लिए तकनीकी सहायता उपलब्ध है?
 
  उत्तर: हां, Aspose.Tasks उपयोगकर्ता फोरम के माध्यम से तकनीकी सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

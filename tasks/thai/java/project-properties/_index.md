@@ -3,10 +3,16 @@ title: คุณสมบัติโครงการ
 linktitle: คุณสมบัติโครงการ
 second_title: Aspose.Tasks Java API
 description: ปลดล็อกศักยภาพของ Aspose.Tasks สำหรับ Java ด้วยบทช่วยสอนคุณสมบัติของโปรเจ็กต์ของเรา แยก ใช้ประโยชน์ และจัดการข้อมูล Microsoft Project ได้อย่างง่ายดาย
-type: docs
 weight: 24
 url: /th/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติโครงการ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับ Aspose.Tasks สำหรับทักษะ Java แล้วหรือยัง? บทช่วยสอนคุณสมบัติโครงการของเราช่วยให้คุณควบคุมศักยภาพสูงสุดของไลบรารีอันทรงพลังนี้ โดยมุ่งเน้นไปที่ประเด็นหลักสามประการ: การอ่านคุณสมบัติเมตา การดึงข้อมูล Microsoft Project และการควบคุมการจัดการ MS Project อย่างเชี่ยวชาญ เจาะลึกบทช่วยสอนเหล่านี้เพื่อปรับปรุงการพัฒนา Java และความสามารถในการจัดการโปรเจ็กต์ของคุณ
@@ -35,3 +41,9 @@ url: /th/java/project-properties/
 เรียนรู้วิธีแยกข้อมูล Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงการจัดการโครงการในแอปพลิเคชัน Java ได้อย่างง่ายดาย
 ### [การเรียนรู้การจัดการโครงการ MS ด้วย Aspose.Tasks สำหรับ Java](./write-project-info/)
 เรียนรู้วิธีการเขียนข้อมูล MS Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: สร้างงานใน Aspose.Tasks
 linktitle: สร้างงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: จัดการโปรเจ็กต์ Java ได้อย่างง่ายดายด้วย Aspose.Tasks สร้างงาน งานย่อย และอื่นๆ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการโครงการที่ราบรื่น
-type: docs
 weight: 13
 url: /th/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างงานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกของ Aspose.Tasks สำหรับ Java! หากคุณกำลังมองหาการจัดการงานและโครงการในแอปพลิเคชัน Java ของคุณอย่างมีประสิทธิภาพ คุณมาถูกที่แล้ว ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างงานโดยใช้ Aspose.Tasks สำหรับ Java โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าได้รับประสบการณ์ที่ราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 ใช่ คุณสามารถปรับแต่งคุณลักษณะของงานได้อย่างกว้างขวางเพื่อให้เหมาะกับความต้องการของโครงการของคุณ
 ### มีชุมชนสนับสนุนสำหรับผู้ใช้ Aspose.Tasks หรือไม่?
  อย่างแน่นอน! เข้าร่วมชุมชน Aspose.Tasks บน[ฟอรัมสนับสนุน](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

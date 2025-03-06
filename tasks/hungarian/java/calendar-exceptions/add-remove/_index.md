@@ -3,10 +3,16 @@ title: Naptárkivételek kezelése az Aspose.Tasks alkalmazásban
 linktitle: Naptárkivételek hozzáadása és eltávolítása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan lehet hatékonyan hozzáadni és eltávolítani naptárkivételeket az Aspose.Tasks for Java alkalmazásban. Fokozatmentesen javíthatja a projektmenedzsment munkafolyamatait.
-type: docs
 weight: 10
 url: /hu/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptárkivételek kezelése az Aspose.Tasks alkalmazásban
+
 
 ## Bevezetés
 A projektmenedzsmentben a naptáron belüli kivételek kezelése kulcsfontosságú a feladatok pontos ütemezéséhez és az erőforrások kezeléséhez. Az Aspose.Tasks for Java hatékony funkciókat kínál a naptárkivételek könnyű hozzáadásához és eltávolításához. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
@@ -79,3 +85,10 @@ V: Az Aspose.Tasks for Java robusztus szolgáltatásokat kínál a projektnaptá
 ### K: Hol kérhetek támogatást az Aspose.Tasks for Java-val kapcsolatos problémákhoz vagy kérdésekhez?
 
  V: Látogassa meg a Java Aspose.Tasks fórumát a[weboldal](https://reference.aspose.com/tasks/java/) segítséget kérni a közösségtől, vagy közvetlenül kapcsolatba lépni a támogatási csapattal személyre szabott segítségért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 管理 Aspose.Tasks 中的 MS Project Online 異常
 linktitle: 在 Aspose.Tasks 中處理 Project Online 異常
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 無縫處理 Microsoft Project Online 例外狀況。有效專案管理的逐步教學。
-type: docs
 weight: 21
 url: /zh-hant/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Aspose.Tasks 中的 MS Project Online 異常
+
 ## 介紹
 在本教學中，我們將深入研究使用 Aspose.Tasks for .NET 處理 Microsoft Project Online 例外的複雜性。 Aspose.Tasks 是一個功能強大的.NET API，可讓開發人員輕鬆操作和管理 Microsoft Project 檔案。我們將逐步完成此過程，確保全面了解如何在 .NET 應用程式中使用 MS Project Online 例外狀況。
 ## 先決條件
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：如何購買 Aspose.Tasks 的授權？
 答：您可以從以下位置購買 Aspose.Tasks 的授權：[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ιδιότητες νομίσματος
 linktitle: Ιδιότητες νομίσματος
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Tasks για Java Tutorials. Ανακαλύψτε οδηγούς βήμα προς βήμα για την ανάγνωση και τον ορισμό ιδιοτήτων νομίσματος στα αρχεία MS Project χωρίς κόπο.
-type: docs
 weight: 25
 url: /el/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ιδιότητες νομίσματος
+
 ## Εισαγωγή
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στο Aspose.Tasks για Java; Ανακαλύψτε τα περιεκτικά μας σεμινάρια σχετικά με τις ιδιότητες νομισμάτων και εξοικειωθείτε με την τέχνη του χειρισμού πληροφοριών νομισμάτων στα αρχεία του MS Project.
 
@@ -35,3 +41,9 @@ url: /el/java/currency-properties/
 Μάθετε πώς να εξάγετε πληροφορίες νομισμάτων από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Παρέχεται οδηγός βήμα προς βήμα.
 ### [Ορισμός ιδιοτήτων νομίσματος στα έργα Aspose.Tasks](./set-properties/)
 Μάθετε πώς να ορίζετε ιδιότητες νομίσματος σε έργα Aspose.Tasks χρησιμοποιώντας Java. Χειριστείτε τα αρχεία του Microsoft Project χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

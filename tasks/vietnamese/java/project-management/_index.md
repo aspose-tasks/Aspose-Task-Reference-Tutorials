@@ -3,10 +3,16 @@ title: Quản lý dự án
 linktitle: Quản lý dự án
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks Java với các hướng dẫn quản lý dự án toàn diện của chúng tôi. Từ tính toán đường dẫn quan trọng đến thuộc tính năm tài chính, hãy hợp lý hóa quy trình làm việc của bạn.
-type: docs
 weight: 27
 url: /vi/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý dự án
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án của mình bằng Aspose.Tasks cho Java chưa? Đi sâu vào các hướng dẫn độc quyền của chúng tôi bao gồm nhiều tính năng và chức năng sẽ hỗ trợ hành trình phát triển Java của bạn. Từ tính toán đường dẫn quan trọng đến xử lý các trường hợp ngoại lệ khi viết tác vụ trong khi in, chúng tôi đều hỗ trợ bạn. Hãy cùng khám phá kho tàng kiến thức đang chờ đón bạn.
@@ -69,3 +75,9 @@ Tìm hiểu cách đọc liền mạch các tệp MS Project từ Primavera XML 
 Tìm hiểu cách in các trang để tách hình ảnh trong Aspose.Tasks cho Java. Cải thiện trực quan hóa dự án với hướng dẫn từng bước này.
 ### [Xử lý các ngoại lệ khi viết tác vụ trong khi in trong Aspose.Tasks](./print-task-exceptions/)
 Nắm vững khả năng xử lý ngoại lệ trong Aspose.Tasks dành cho Java để đảm bảo thực hiện dự án liền mạch. Tìm hiểu cách xử lý các trường hợp ngoại lệ khi viết tác vụ trong khi in một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

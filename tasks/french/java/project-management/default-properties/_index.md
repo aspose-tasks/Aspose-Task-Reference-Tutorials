@@ -3,10 +3,16 @@ title: Gérer efficacement les propriétés MS Project dans Aspose.Tasks
 linktitle: Gérer les propriétés du projet par défaut dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer les propriétés MS Project par défaut à l'aide d'Aspose.Tasks pour Java. Rationalisez votre flux de travail de gestion de projet sans effort.
-type: docs
 weight: 11
 url: /fr/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer efficacement les propriétés MS Project dans Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à rationaliser votre processus de gestion de projet avec Aspose.Tasks pour Java ? La gestion des propriétés par défaut dans les fichiers Microsoft Project peut améliorer considérablement l'efficacité. Dans ce didacticiel, nous passerons en revue les instructions étape par étape sur la façon de gérer les propriétés par défaut de MS Project à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -79,3 +85,9 @@ A3 : Oui, vous pouvez trouver de l'aide et du soutien communautaire sur le[For
  A4 : Bien sûr ! Vous pouvez bénéficier d'un essai gratuit auprès du[site web](https://releases.aspose.com/).
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  A5 : Vous pouvez obtenir une licence temporaire auprès du[page d'achat](https://purchase.aspose.com/temporary-license/) à des fins de tests et d’évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

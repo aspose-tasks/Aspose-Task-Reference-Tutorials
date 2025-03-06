@@ -3,10 +3,16 @@ title: Manage Hyperlink Properties for Assignments in Aspose.Tasks
 linktitle: Manage Hyperlink Properties for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage hyperlink properties for resource assignments in Aspose.Tasks for Java. Enhance collaboration and accessibility in project management.
-type: docs
 weight: 16
 url: /java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Hyperlink Properties for Assignments in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java offers powerful features for managing project tasks and resources. In this tutorial, we will focus on how to manage hyperlink properties for resource assignments using Aspose.Tasks. By following these step-by-step instructions, you'll be able to efficiently handle hyperlinks associated with your project's resource assignments.
 ## Prerequisites
@@ -84,3 +90,10 @@ A: Aspose.Tasks does not impose strict limitations on the length of hyperlinks. 
 A: Yes, you can remove hyperlinks from resource assignments by setting the hyperlink properties to null or empty strings.
 ### Q: Does Aspose.Tasks support hyperlink validation?
 A: Aspose.Tasks focuses on managing hyperlink properties rather than validating hyperlinks. However, you can implement custom validation logic within your Java application to ensure hyperlink integrity.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

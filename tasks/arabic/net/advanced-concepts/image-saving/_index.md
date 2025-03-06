@@ -3,10 +3,16 @@ title: التعامل مع حفظ الصور في Aspose.Tasks
 linktitle: التعامل مع حفظ الصور في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع حفظ الصور في Aspose.Tasks لـ .NET باستخدام إرشادات خطوة بخطوة. يمكنك دمج وظيفة حفظ الصور بسهولة في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع حفظ الصور في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية التعامل مع حفظ الصور في Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من معالجة ملفات Microsoft Project برمجيًا. إحدى المهام الشائعة عند العمل مع ملفات المشروع هي الحاجة إلى حفظ الصور، والتي يمكن أن تتضمن مخططات أو رسوم بيانية أو عناصر مرئية أخرى. سنقوم بتقسيم العملية خطوة بخطوة، مما يضمن الوضوح والفهم طوال الوقت.
@@ -131,3 +137,9 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 ### س5: هل يقدم Aspose.Tasks إصدارات تجريبية لأغراض التقييم؟
 
  ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

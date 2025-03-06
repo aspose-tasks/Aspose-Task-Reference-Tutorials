@@ -3,10 +3,16 @@ title: Thay thế Lịch dự án MS trong Aspose.Tasks
 linktitle: Thay thế Lịch trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách thay thế lịch Microsoft Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 12
 url: /vi/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế Lịch dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thay thế lịch Microsoft Project bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một nhiệm vụ phổ biến trong quản lý dự án là tùy chỉnh lịch và Aspose.Tasks đơn giản hóa đáng kể quy trình này.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Trả lời: Aspose.Tasks hỗ trợ nhiều phiên bản Microsoft Project, đ�
  Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho Java từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm kiếm sự hỗ trợ hoặc trợ giúp về Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) để nhận được sự hỗ trợ và hướng dẫn từ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

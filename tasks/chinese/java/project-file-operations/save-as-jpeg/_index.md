@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中将 MS Project 转换为 JPEG
 linktitle: 在 Aspose.Tasks 中将项目保存为 JPEG
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 轻松将 Microsoft Project 文件转换为 JPEG 图像。提高您的生产力。
-type: docs
 weight: 20
 url: /zh/java/project-file-operations/save-as-jpeg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中将 MS Project 转换为 JPEG
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for Java 将 Microsoft Project 文件另存为 JPEG 图像。这对于共享项目可视化或将项目数据集成到报告或演示文稿中特别有用。
 ## 先决条件
@@ -57,3 +63,9 @@ A: 如果您不指定质量，将使用默认质量。
 答：您可以从 Aspose.Tasks 社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：我可以购买 Aspose.Tasks 的临时许可证吗？
 答：是的，您可以从以下位置购买临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中按月周日重复
 linktitle: Aspose.Tasks 中按月周日重复
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中按月、周和日设置重复，以高效地自动执行重复任务。
-type: docs
 weight: 26
 url: /zh/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中按月周日重复
+
 ## 介绍
 
 在软件开发领域，特别是在项目管理应用程序中，有效处理重复任务的能力至关重要。 Aspose.Tasks for .NET 是一个功能强大的库，旨在简化项目任务（包括重复任务）的创建和管理。 Aspose.Tasks 提供的其中一项功能是能够按月、周和日设置重复，确保任务按计划执行，无需人工干预。
@@ -112,3 +118,9 @@ A1：是的，Aspose.Tasks for .NET 为重复模式提供了广泛的自定义�
 ###Q5：在哪里可以找到 Aspose.Tasks for .NET 的综合文档？
 
  A5：您可以参考详细的[文档](https://reference.aspose.com/tasks/net/)可在 Aspose 网站上获取有关使用该库的深入指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中编写和读取 MS 项目公式
 linktitle: 在 Aspose.Tasks 中写入和读取公式
 second_title: Aspose.Tasks Java API
 description: 学习使用 Aspose.Tasks for Java 高效地编写和读取 MS Project 公式。提高您的项目管理技能。
-type: docs
 weight: 12
 url: /zh/java/formulas/write-read-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中编写和读取 MS 项目公式
+
 ## 介绍
 在项目管理领域，有效处理数据至关重要。 Aspose.Tasks for Java 是一个强大的解决方案，有助于从 Microsoft Project 文件中操作和提取数据。它提供的一项强大功能是能够编写和读取 MS Project 公式。本教程将指导您完成利用此功能来增强项目管理任务的过程。
 ## 先决条件
@@ -69,3 +75,9 @@ Aspose.Tasks 提供与各种版本的 MS Project 的兼容性，确保用户的�
 是的，Aspose.Tasks 支持跨多个平台部署，增强了其多功能性。
 ### 我如何获得 Aspose.Tasks 的技术支持？
 如需技术援助和社区支持，请访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

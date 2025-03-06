@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 配置 MS Project XAML 选项
 linktitle: 在 Aspose.Tasks 中配置 XAML 选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中配置 MS Project XAML 选项。通过分步指导增强项目管理灵活性和定制性。
-type: docs
 weight: 10
 url: /zh/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 配置 MS Project XAML 选项
+
 ## 介绍
 在 .NET 开发领域，有效管理项目任务对于成功完成项目至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来无缝处理项目管理任务。在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 配置 MS Project XAML 选项。 
 ## 先决条件
@@ -68,3 +74,9 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 ### 问：在哪里可以购买 Aspose.Tasks for .NET？
 
 答：您可以从以下位置购买 Aspose.Tasks for .NET[这个链接](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

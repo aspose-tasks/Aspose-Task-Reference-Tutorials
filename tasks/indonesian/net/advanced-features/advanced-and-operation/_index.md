@@ -3,10 +3,16 @@ title: Lanjutan DAN Operasi di Aspose.Tugas
 linktitle: Lanjutan DAN Operasi di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara melakukan operasi AND tingkat lanjut di Aspose.Tasks untuk .NET untuk memfilter tugas proyek secara efisien berdasarkan beberapa kriteria.
-type: docs
 weight: 10
 url: /id/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lanjutan DAN Operasi di Aspose.Tugas
+
 ## Perkenalan
 
  Dalam tutorial ini, kita akan mempelajari operasi AND tingkat lanjut di Aspose.Tasks untuk .NET, alat yang ampuh untuk mengelola tugas dan proyek. Kami akan mempelajari cara memfilter tugas proyek berdasarkan beberapa kondisi menggunakan`Util.And` kelas.
@@ -107,3 +113,9 @@ J: Ya, Util.And dapat digunakan untuk menggabungkan sejumlah kondisi untuk membu
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
 
 J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

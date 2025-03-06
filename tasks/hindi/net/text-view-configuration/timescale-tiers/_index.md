@@ -3,10 +3,16 @@ title: Aspose.Tasks में गैंट चार्ट टाइमस्क
 linktitle: Aspose.Tasks में टाइमस्केल टियर को कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: सटीक प्रोजेक्ट टाइमलाइन विज़ुअलाइज़ेशन के लिए अपने गैंट चार्ट दृश्य में टाइमस्केल स्तरों को कॉन्फ़िगर करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें। #Aspose.Tasks #MS प्रोजेक्ट
-type: docs
 weight: 16
 url: /hi/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में गैंट चार्ट टाइमस्केल टियर को कॉन्फ़िगर करना
+
 ## परिचय
 परियोजना प्रबंधन के गतिशील परिदृश्य में, समयसीमा और समय सीमा को समझने के लिए प्रभावी विज़ुअलाइज़ेशन महत्वपूर्ण है। .NET के लिए Aspose.Tasks एक शक्तिशाली टूलसेट प्रदान करता है, और इस ट्यूटोरियल में, हम यह पता लगाएंगे कि गैंट चार्ट दृश्य में इष्टतम प्रतिनिधित्व के लिए टाइमस्केल स्तरों को कैसे कॉन्फ़िगर किया जाए। अपने प्रोजेक्ट विज़ुअलाइज़ेशन को बढ़ाने के लिए इन चरण-दर-चरण निर्देशों का पालन करें।
 ## आवश्यक शर्तें
@@ -86,3 +92,9 @@ project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 निश्चित रूप से, आप अपने प्रोजेक्ट के संदर्भ में सर्वोत्तम रूप से फिट होने के लिए टाइमस्केल प्रतिनिधित्व के लिए विभिन्न प्रारूपों और शैलियों का पता लगा सकते हैं।
 ### क्या Aspose.Tasks समर्थन के लिए कोई सामुदायिक मंच है?
  हाँ, पर जाएँ[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

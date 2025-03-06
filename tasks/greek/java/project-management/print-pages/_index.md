@@ -3,10 +3,16 @@ title: Εκτύπωση σελίδων για ξεχωριστή εικόνα σ
 linktitle: Εκτύπωση σελίδων για ξεχωριστή εικόνα στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να εκτυπώνετε σελίδες για να διαχωρίζετε εικόνες στο Aspose.Tasks για Java. Βελτιώστε την οπτικοποίηση του έργου με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 22
 url: /el/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτύπωση σελίδων για ξεχωριστή εικόνα στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εκτύπωσης σελίδων για διαχωρισμό εικόνων χρησιμοποιώντας το Aspose.Tasks για Java. Αυτή η λειτουργία μπορεί να είναι ιδιαίτερα χρήσιμη όταν χρειάζεται να οπτικοποιήσετε τις διατάξεις του έργου ή τις κρίσιμες εργασίες ξεχωριστά.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 Α: Ναι, το Aspose.Tasks για Java υποστηρίζει την εξαγωγή δεδομένων έργου σε διάφορες μορφές όπως PDF, HTML, XLSX κ.λπ., παρέχοντας ευελιξία στην οπτικοποίηση και την αναφορά δεδομένων.
 ### Ε: Υπάρχει διαθέσιμη υποστήριξη κοινότητας για το Aspose.Tasks για Java;
  Α: Ναι, μπορείτε να βρείτε υποστήριξη κοινότητας, να κάνετε ερωτήσεις και να αλληλεπιδράσετε με άλλους χρήστες στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

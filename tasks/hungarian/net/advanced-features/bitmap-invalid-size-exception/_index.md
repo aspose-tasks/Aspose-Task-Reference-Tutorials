@@ -3,10 +3,16 @@ title: Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
 linktitle: Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a BitmapInvalidSizeException kivételt az Aspose.Tasks for .NET-ben projektek képként történő mentésekor. Átfogó oktatóanyag lépésről lépésre.
-type: docs
 weight: 22
 url: /hu/net/advanced-features/bitmap-invalid-size-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
+
 ## Bevezetés
 
  Ebben az oktatóanyagban a kezelésével foglalkozunk`BitmapInvalidSizeException` amikor az Aspose.Tasks for .NET programmal dolgozik. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat, lehetővé téve például a projektek képként történő mentését. Időnként azonban, amikor egy projektet képként próbálunk menteni, előfordulhat, hogy egy`Invalid Size Exception` bittérképhez kapcsolódik. Ennek az oktatóanyagnak az a célja, hogy végigvezeti Önt a kivétel hatékony észlelésének és kezelésének folyamatán.
@@ -111,3 +117,9 @@ catch (BitmapInvalidSizeException ex)
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
 
 5. válasz: A cikkben található hivatkozáson keresztül ideiglenes licencet szerezhet értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

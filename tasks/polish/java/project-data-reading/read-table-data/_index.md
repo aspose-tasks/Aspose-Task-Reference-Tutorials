@@ -3,10 +3,16 @@ title: Odczytaj dane tabeli z pliku w Aspose.Tasks
 linktitle: Odczytaj dane tabeli z pliku w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Odblokuj moc Aspose.Tasks dla Java. Z tego obszernego samouczka dowiesz się, jak wyodrębniać dane z tabeli z plików.
-type: docs
 weight: 17
 url: /pl/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odczytaj dane tabeli z pliku w Aspose.Tasks
+
 ## Wstęp
 tym samouczku przyjrzymy się, jak odczytać dane tabeli z pliku za pomocą Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom programową pracę z dokumentami Microsoft Project.
 ## Warunki wstępne
@@ -62,3 +68,9 @@ O: Tak, możesz użyć Aspose.Tasks do programowej modyfikacji danych tabeli i z
  Odp.: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Tasks z[strona z wydaniami](https://releases.aspose.com/).
 ### P: Gdzie mogę znaleźć pomoc i wsparcie dla Aspose.Tasks?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za pomoc i wsparcie ze strony społeczności i zespołu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

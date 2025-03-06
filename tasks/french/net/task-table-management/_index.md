@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestion des tâches et formatage des tableaux
 linktitle: Aspose.Tasks Gestion des tâches et formatage des tableaux
 second_title: API Aspose.Tasks .NET
 description: Configurez et gérez les tables sans effort dans Aspose.Tasks pour .NET avec des didacticiels étape par étape. Améliorer l’efficacité de la gestion de projet et les compétences de présentation.
-type: docs
 weight: 29
 url: /fr/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestion des tâches et formatage des tableaux
+
 ## Introduction
 
 Aspose.Tasks for .NET révolutionne la gestion de projet grâce à ses fonctionnalités robustes. Cet article explore divers didacticiels sur la gestion des tâches et le formatage des tableaux, offrant un guide complet pour maximiser votre efficacité. Passons aux sujets clés :
@@ -91,3 +97,9 @@ Explorez Aspose.Tasks pour .NET pour configurer sans effort les types de date de
 Explorez Aspose.Tasks pour .NET pour gérer et visualiser sans effort les données du projet. Plongez dans les champs d’affichage de l’utilisation des tâches pour obtenir des informations améliorées sur le projet.
 ### [Collection de champs d'affichage d'utilisation des tâches dans Aspose.Tasks](./task-usage-view-fields/)
 Explorez Aspose.Tasks pour .NET et découvrez comment configurer les vues d'utilisation des tâches. Personnalisez les paramètres d’échelle de temps et améliorez les visuels de votre gestion de projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

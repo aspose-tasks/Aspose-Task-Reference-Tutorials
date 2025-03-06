@@ -3,10 +3,16 @@ title: Maîtriser les colonnes d'affichage MS Project avec Aspose.Tasks pour .NE
 linktitle: Gestion des colonnes d'affichage dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Améliorez la visualisation du projet avec Aspose.Tasks pour .NET. Apprenez à gérer les colonnes de la vue MS Project étape par étape. Boostez l’efficacité et la personnalisation.
-type: docs
 weight: 12
 url: /fr/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les colonnes d'affichage MS Project avec Aspose.Tasks pour .NET
+
 ## Introduction
 Dans le domaine de la gestion de projet, Aspose.Tasks for .NET se distingue comme une puissante boîte à outils pour gérer les fichiers Microsoft Project. L'un des aspects essentiels de la visualisation de projet est la gestion efficace des colonnes de vue. Dans ce didacticiel, nous explorerons comment gérer les colonnes de vue MS Project à l'aide d'Aspose.Tasks, vous permettant de personnaliser et d'optimiser les vues de votre projet.
 ## Conditions préalables
@@ -80,3 +86,9 @@ R : Aspose.Tasks se concentre principalement sur les fichiers Microsoft Project 
  R : Le`MyTextStyleCallback` Le cours montre comment personnaliser les styles de texte pour une représentation visuelle améliorée dans des vues spécifiques.
 ### Q : Où puis-je trouver des ressources et de la documentation supplémentaires pour Aspose.Tasks ?
  R : Reportez-vous au[Documentation Aspose.Tasks](https://reference.aspose.com/tasks/net/) pour des conseils et des ressources approfondis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

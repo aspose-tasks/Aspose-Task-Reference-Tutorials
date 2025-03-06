@@ -3,10 +3,16 @@ title: Configuring Working Times in Aspose.Tasks
 linktitle: Configuring Working Times in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Enhance project scheduling in .NET with Aspose.Tasks. Configure working times effortlessly for precise resource management. Download the library now!
-type: docs
 weight: 13
 url: /net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring Working Times in Aspose.Tasks
+
 ## Introduction
 In project management, precise control over working times is crucial for accurate scheduling and resource allocation. Aspose.Tasks for .NET provides a powerful solution for handling working time information within your projects. This tutorial will guide you through the process of configuring working times using Aspose.Tasks in a .NET environment.
 ## Prerequisites
@@ -84,3 +90,10 @@ Yes, Aspose.Tasks facilitates integration with various project management tools,
 Aspose.Tasks supports multiple file formats, enabling seamless import/export operations for project data.
 ### How frequently are Aspose.Tasks updates released?
 Updates are regularly released to ensure compatibility with the latest technologies and address user feedback.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

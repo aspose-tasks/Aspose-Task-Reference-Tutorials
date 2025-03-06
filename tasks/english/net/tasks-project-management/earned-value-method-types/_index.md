@@ -3,10 +3,16 @@ title: Master Earned Value MS Project Methods with Aspose.Tasks
 linktitle: Earned Value Method Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Earned Value MS Project Method Types with Aspose.Tasks for .NET. Enhance project management efficiency effortlessly.
-type: docs
 weight: 10
 url: /net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Earned Value MS Project Methods with Aspose.Tasks
+
 ## Introduction
 In the realm of project management, leveraging the right tools and methodologies is paramount for success. Aspose.Tasks for .NET provides a robust framework for managing project-related tasks efficiently. One such crucial aspect is utilizing Earned Value Management (EVM) methods, which offer insights into project performance by comparing planned work with actual work completed. In this tutorial, we'll delve into understanding and implementing Earned Value MS Project Method Types using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -53,3 +59,10 @@ A: You can get support from the Aspose.Tasks community forums: [Aspose.Tasks For
 A: Yes, temporary licenses are available for Aspose.Tasks for .NET. You can obtain them from: [Temporary License](https://purchase.aspose.com/temporary-license/)
 ### Q: Where can I purchase Aspose.Tasks for .NET?
 A: You can purchase Aspose.Tasks for .NET from the website: [Purchase](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

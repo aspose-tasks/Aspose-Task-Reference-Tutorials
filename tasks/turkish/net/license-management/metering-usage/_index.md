@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET ile MS Project Kullanımını Ölçme
 linktitle: Aspose.Tasks'ta Ölçüm Kullanımı
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project kullanımınızı etkili bir şekilde nasıl izleyeceğinizi ve optimize edeceğinizi öğrenin. Etkin proje yönetimi için adım adım kılavuz.
-type: docs
 weight: 17
 url: /tr/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET ile MS Project Kullanımını Ölçme
+
 ## giriiş
 Aspose.Tasks ile MS Project kullanımınızı etkili bir şekilde yönetmek ve izlemek mi istiyorsunuz? Ölçümün gücüyle kullanımınızı takip edebilir ve proje yönetimi çalışmalarınızı optimize edebilirsiniz. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak MS Project kullanımını adım adım ölçme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -77,3 +83,9 @@ C: Evet, ölçüm kullanımı amacıyla Aspose sunucularıyla iletişim kurmak i
 C: Evet, harcanan kredileri ve tüketilen baytları düzenli aralıklarla kontrol ederek kullanımı gerçek zamanlı olarak takip edebilirsiniz.
 ### S: MS Project kullanımını ölçmek deneme sürümünde mevcut mu?
 C: Evet, MS Project kullanımını ölçmek Aspose.Tasks for .NET'in hem deneme hem de lisanslı sürümlerinde mevcuttur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

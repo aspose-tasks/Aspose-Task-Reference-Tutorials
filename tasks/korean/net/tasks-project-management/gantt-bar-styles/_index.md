@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 Gantt 막대 스타일 사용자 정의
 linktitle: Aspose.Tasks의 간트 막대 스타일
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트에서 Gantt 막대 스타일을 사용자 정의하는 방법을 알아보세요. 손쉽게 프로젝트 시각화를 향상하세요.
-type: docs
 weight: 20
 url: /ko/net/tasks-project-management/gantt-bar-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 Gantt 막대 스타일 사용자 정의
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 Gantt 막대 스타일로 작업하는 방법을 살펴보겠습니다. 간트 막대 스타일을 사용하면 간트 차트의 막대 모양을 사용자 정의하여 프로젝트 데이터의 시각적 표현을 향상시킬 수 있습니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: Aspose.Tasks는 다양한 버전의 Microsoft Project와의 호환성을 제�
 A: 예, Aspose.Tasks API를 사용하여 프로젝트 요구 사항에 따라 새로운 사용자 정의 막대 스타일을 만들고 해당 속성을 사용자 정의할 수 있습니다.
 ### Q: Aspose.Tasks는 간트 차트 외에 다른 프로젝트 관리 기능을 지원합니까?
 A: 예, Aspose.Tasks는 작업 일정 관리, 자원 관리 및 프로젝트 분석을 포함하여 프로젝트 관리 데이터 작업을 위한 포괄적인 기능 세트를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

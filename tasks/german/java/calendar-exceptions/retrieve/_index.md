@@ -3,10 +3,16 @@ title: Kalenderausnahmen mit Aspose.Tasks abrufen
 linktitle: Kalenderausnahmen mit Aspose.Tasks abrufen
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java Kalenderausnahmen aus MS Project abrufen. Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 13
 url: /de/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalenderausnahmen mit Aspose.Tasks abrufen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Tasks-Bibliothek für Java Kalenderausnahmen aus MS Project abrufen. Aspose.Tasks ist ein leistungsstarkes Tool, mit dem Entwickler Microsoft Project-Dateien programmgesteuert bearbeiten können. Wir führen Sie Schritt für Schritt durch den Prozess und unterteilen jedes Beispiel zum leichteren Verständnis in mehrere Schritte.
 ## Voraussetzungen
@@ -55,3 +61,9 @@ Ja, Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien, ein
  Unterstützung erhalten Sie im Community-Forum[Hier](https://forum.aspose.com/c/tasks/15).
 ### Gibt es eine Option für temporäre Lizenzen für Aspose.Tasks?
  Ja, Sie können temporäre Lizenzen erhalten von[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

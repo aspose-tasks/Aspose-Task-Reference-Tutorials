@@ -3,10 +3,16 @@ title: Iterate Over Non-Root Resources in Aspose.Tasks
 linktitle: Iterate Over Non-Root Resources in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to efficiently iterate over non-root resources in Microsoft Project files using Aspose.Tasks for Java. Enhance your development process.
-type: docs
 weight: 12
 url: /java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Iterate Over Non-Root Resources in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java is a powerful library that provides developers with the tools they need to manipulate Microsoft Project files efficiently. With its intuitive interface and extensive functionality, Aspose.Tasks simplifies the process of working with project data, allowing developers to focus on building robust applications.
 ## Prerequisites
@@ -56,3 +62,10 @@ Yes, Aspose.Tasks can be seamlessly integrated into Java frameworks like Spring 
 Absolutely, Aspose.Tasks offers extensive APIs for customizing project data fields according to your requirements.
 ### Does Aspose.Tasks provide support and documentation for developers?
 Yes, Aspose.Tasks offers comprehensive documentation and a dedicated support forum to assist developers with any queries or issues they encounter.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

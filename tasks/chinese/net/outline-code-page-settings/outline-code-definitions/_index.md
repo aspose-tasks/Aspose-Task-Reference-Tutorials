@@ -3,10 +3,16 @@ title: MS Project Outline 代码处理 Aspose.Tasks 中的定义
 linktitle: 在 Aspose.Tasks 中处理大纲代码定义
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 处理 MS Project 大纲代码定义，从而增强您的项目管理应用程序的能力。
-type: docs
 weight: 12
 url: /zh/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline 代码处理 Aspose.Tasks 中的定义
+
 ## 介绍
 Microsoft Project 是管理项目的强大工具，Aspose.Tasks for .NET 为以编程方式操作项目文件提供全面支持。项目管理的一个重要方面是使用大纲代码组织任务。在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 处理 MS Project 大纲代码定义。
 ## 先决条件
@@ -91,3 +97,9 @@ outline.Values.Add(value);
 答：当然，Aspose.Tasks for .NET 支持从 MS Project 文件读取和写入自定义字段，包括大纲代码。
 ### Q5：Aspose.Tasks for .NET 有社区论坛吗？
 答：是的，您可以加入 Aspose.Tasks for .NET 社区论坛[这里](https://forum.aspose.com/c/tasks/15)提出问题、分享知识并与其他开发人员协作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hantera kalenderinsamling i Aspose.Tasks
 linktitle: Hantera kalenderinsamling i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar kalendersamlingar i Aspose.Tasks för .NET effektivt. Skapa, ändra och manipulera kalendrar med lätthet.
-type: docs
 weight: 11
 url: /sv/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera kalenderinsamling i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man hanterar kalendersamlingar i Aspose.Tasks för .NET. Kalendrar spelar en avgörande roll i projektledning och definierar arbetsdagar, helgdagar och undantag. Aspose.Tasks ger robust funktionalitet för att manipulera kalendrar i dina projekt.
@@ -160,3 +166,9 @@ S4: Ja, Aspose.Tasks tillåter export av kalendrar till olika format som XML, MP
 ### F5: Kan jag anpassa arbetstiderna för specifika dagar i en kalender?
 
 S5: Visst, du kan definiera arbetstider för enskilda dagar med hjälp av undantag i kalendern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

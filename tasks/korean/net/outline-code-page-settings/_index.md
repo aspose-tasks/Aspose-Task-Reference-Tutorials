@@ -3,10 +3,16 @@ title: Aspose.Tasks 개요 코드 및 페이지 설정
 linktitle: Aspose.Tasks 개요 코드 및 페이지 설정
 second_title: Aspose.태스크 .NET API
 description: 개요 코드, 컬렉션, 정의, 마스크 및 페이지 설정에 대한 튜토리얼이 포함된 .NET용 Aspose.Tasks를 마스터하세요. 프로젝트 구성 및 사용자 정의를 강화합니다.
-type: docs
 weight: 25
 url: /ko/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 개요 코드 및 페이지 설정
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 원활한 프로젝트 관리의 세계에 오신 것을 환영합니다! 정확성과 효율성이 타협할 수 없는 디지털 시대에 Microsoft Project의 복잡성을 마스터하는 것은 게임 체인저가 됩니다. 당사의 포괄적인 튜토리얼 시리즈는 Aspose.Tasks for .NET의 미묘한 차이를 안내하여 개요 코드를 쉽게 관리하고, 데이터 정의를 조작하고, 마스크, 값으로 작업하고, 페이지 설정을 사용자 정의할 수 있도록 지원합니다. 노련한 프로젝트 관리자이든 현장에 새로 온 사람이든 관계없이 당사의 튜토리얼은 모든 기술 수준에 맞춰 단계별 지침과 코드 예제를 제공합니다. Aspose.Tasks의 잠재력을 최대한 활용하고 프로젝트 구성 및 사용자 정의에 접근하는 방식을 혁신하려면 이 여정에 참여하세요. 프로젝트 관리 기술을 새로운 차원으로 끌어올리세요!
 ## .NET용 Aspose.Tasks를 사용하여 개요 코드 관리
@@ -71,3 +77,9 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 수집�
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 페이지 설정을 구성하는 방법을 알아보세요. 간단한 단계를 통해 방향, 크기 등을 맞춤설정하세요.
 ### [Aspose.Tasks에서 MS 프로젝트 페이지 보기 설정 사용자 정의](./page-view-settings/)
 Microsoft Project 문서의 인쇄 형식을 조정하기 위해 .NET용 Aspose.Tasks에서 페이지 보기 설정을 구성하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

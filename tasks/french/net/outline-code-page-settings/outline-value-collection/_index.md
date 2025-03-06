@@ -3,10 +3,16 @@ title: Gérer les valeurs de plan MS Project avec Aspose.Tasks
 linktitle: Collection de valeurs de plan dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les valeurs hiérarchiques dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Tutoriel étape par étape avec des exemples de code.
-type: docs
 weight: 17
 url: /fr/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les valeurs de plan MS Project avec Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET fournit un ensemble complet de fonctionnalités pour interagir avec les fichiers Microsoft Project. L'une de ces fonctionnalités est la possibilité de gérer les valeurs de plan au sein d'un projet. Dans ce didacticiel, nous explorerons comment collecter et manipuler des valeurs de plan à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -108,3 +114,9 @@ R : Vous pouvez implémenter des mécanismes de gestion des erreurs tels que de
 R : Oui, Aspose.Tasks fournit des API complètes pour personnaliser l'apparence et le comportement des valeurs de plan en fonction de vos besoins.
 ### Q : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Tasks ?
  R : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir le soutien de la communauté et explorer les[Documentation](https://reference.aspose.com/tasks/net/) pour des informations détaillées sur les API et les fonctionnalités.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

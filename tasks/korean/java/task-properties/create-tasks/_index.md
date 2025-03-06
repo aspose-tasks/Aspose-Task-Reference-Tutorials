@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 생성
 linktitle: Aspose.Tasks에서 작업 생성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트를 손쉽게 관리하세요. 작업, 하위 작업 등을 만듭니다. 원활한 프로젝트 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 생성
+
 ## 소개
 Aspose.Tasks for Java의 세계에 오신 것을 환영합니다! Java 애플리케이션에서 작업과 프로젝트를 효율적으로 관리하려는 경우 올바른 위치에 있습니다. 이 종합 가이드에서는 Aspose.Tasks for Java를 사용하여 작업을 생성하는 과정을 안내하고 원활한 경험을 보장하기 위해 각 단계를 세분화합니다.
 ## 전제조건
@@ -54,3 +60,9 @@ Task subtask = task.getChildren().add("Subtask1");
 예, 프로젝트 요구 사항에 맞게 작업 속성을 광범위하게 사용자 정의할 수 있습니다.
 ### Aspose.Tasks 사용자를 위한 지원 커뮤니티가 있나요?
  전적으로! Aspose.Tasks 커뮤니티에 가입하세요[지원 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configurar vistas de uso en Aspose.Tasks
 linktitle: Configurar vistas de uso en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar vistas de uso de tareas en Aspose.Tasks para .NET. Mejore la visualización del proyecto con pasos detallados. ¡Descarga la biblioteca ahora!
-type: docs
 weight: 17
 url: /es/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurar vistas de uso en Aspose.Tasks
+
 ## Introducción
 Si es un desarrollador .NET y busca mejorar sus capacidades de gestión de proyectos, Aspose.Tasks es una poderosa herramienta que le permite manipular archivos de Microsoft Project sin esfuerzo. En este tutorial, nos centraremos en configurar vistas de uso usando Aspose.Tasks para .NET. Siga las instrucciones para obtener información sobre cómo representar vistas de uso de tareas con detalles para una mejor visualización del proyecto.
 ## Requisitos previos
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  Sí, explora la prueba gratuita[aquí](https://releases.aspose.com/).
 ### P: ¿Necesita ayuda o tiene preguntas?
  Visita el foro de soporte[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

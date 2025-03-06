@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Bitiş Tarihini Böl
 linktitle: Aspose.Tasks'ta Görev Bitiş Tarihini Böl
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak görev bitiş tarihlerini zahmetsizce nasıl bölebileceğinizi öğrenin. Doğru zaman çizelgeleriyle proje yönetimini geliştirin.
-type: docs
 weight: 28
 url: /tr/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Bitiş Tarihini Böl
+
 ## giriiş
 Proje yönetiminde görev zaman çizelgelerini anlamak, projenin başarılı bir şekilde tamamlanması için çok önemlidir. Aspose.Tasks for Java, proje görevlerini verimli bir şekilde yönetmek için güçlü özellikler sağlar. Bu eğitimde Aspose.Tasks'ı kullanarak görev bitiş tarihlerini bölmeyi inceleyerek proje zaman çizelgelerini etkili bir şekilde yönetmenize yardımcı olacağız.
 ## Önkoşullar
@@ -54,3 +60,9 @@ Görev bitiş tarihlerini değiştirme sanatında ustalaşmak, etkili proje yön
  Cevap4: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
 ### S5: Aspose.Tasks'ı satın alabilir miyim?
  A5: Evet, satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

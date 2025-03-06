@@ -3,10 +3,16 @@ title: Pengelompokan Tugas Proyek MS yang Efisien dengan Aspose.Tasks
 linktitle: Mengelompokkan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelompokkan tugas Microsoft Project secara efektif menggunakan Aspose.Tasks untuk .NET.
-type: docs
 weight: 25
 url: /id/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengelompokan Tugas Proyek MS yang Efisien dengan Aspose.Tasks
+
 ## Perkenalan
 Mengelola tugas di Microsoft Project terkadang menjadi tantangan, terutama ketika harus mengaturnya secara efisien. Aspose.Tasks untuk .NET menawarkan solusi komprehensif untuk ini dengan menyediakan fungsionalitas untuk mengelompokkan tugas secara efektif. Dalam tutorial ini, kita akan mempelajari cara mengelompokkan tugas MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -84,3 +90,9 @@ Ya, Aspose.Tasks mendukung berbagai versi file MS Project, memastikan kompatibil
 Tentu saja, Aspose.Tasks menyediakan opsi untuk menyesuaikan tampilan tugas yang dikelompokkan, termasuk warna sel, font, dan gaya.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Tasks untuk .NET?
  Anda dapat menemukan dukungan dan bantuan untuk Aspose.Tasks untuk .NET di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

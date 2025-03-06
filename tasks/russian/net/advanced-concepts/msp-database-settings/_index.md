@@ -3,10 +3,16 @@ title: Настройки базы данных Microsoft Project в Aspose.Task
 linktitle: Настройки базы данных Microsoft Project в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить параметры базы данных Microsoft Project с помощью Aspose.Tasks для плавной интеграции с приложениями .NET.
-type: docs
 weight: 19
 url: /ru/net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройки базы данных Microsoft Project в Aspose.Tasks
+
 ## Введение
 
 Если вы работаете с базами данных Microsoft Project в своих приложениях .NET с помощью Aspose.Tasks, вам необходимо настроить необходимые параметры для беспрепятственного импорта данных проекта. Это руководство шаг за шагом проведет вас через этот процесс.
@@ -99,3 +105,9 @@ project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mp
 ### Вопрос 5: Где я могу найти более подробную документацию по использованию Aspose.Tasks?
 
  A5: Вы можете изучить подробную документацию.[здесь](https://reference.aspose.com/tasks/net/) для получения подробной информации о функциях Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Обработка приоритетов задач в Aspose.Tasks
 linktitle: Обработка приоритетов задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Легко расставляйте приоритеты задач с помощью Aspose.Tasks для Java. Следуйте этому руководству для беспрепятственного управления. Повысьте свои навыки управления проектами!
-type: docs
 weight: 17
 url: /ru/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка приоритетов задач в Aspose.Tasks
+
 ## Введение
 Управление приоритетами задач имеет решающее значение для успеха проекта, а с Aspose.Tasks для Java это становится непрерывным процессом. Это руководство поможет вам управлять приоритетами задач с помощью Aspose.Tasks. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это руководство разобьет процесс на простые для выполнения шаги.
 ## Предварительные условия
@@ -56,3 +62,9 @@ for (Task tsk : collector.getTasks()) {
  Да, вы можете получить временные лицензии[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу найти подробную документацию?
  Обратитесь к документации[здесь](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

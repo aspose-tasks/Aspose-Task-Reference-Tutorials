@@ -3,10 +3,16 @@ title: Mastering Microsoft Project Outline Masks in Aspose.Tasks
 linktitle: Working with Outline Masks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to work with Microsoft Project files programmatically using Aspose.Tasks for .NET. Master outline masks efficiently.
-type: docs
 weight: 14
 url: /net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Microsoft Project Outline Masks in Aspose.Tasks
+
 ## Introduction
 In the realm of project management and task tracking, Microsoft Project stands as a cornerstone tool. However, when it comes to manipulating and managing project files programmatically, Aspose.Tasks for .NET emerges as a powerful solution. This tutorial will delve into one specific aspect of working with MS Project files using Aspose.Tasks for .NET: handling outline masks.
 ## Prerequisites
@@ -76,3 +82,10 @@ A: Indeed, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tas
 A: Of course! You can access a free trial of Aspose.Tasks [here](https://releases.aspose.com/).
 ### Q: Where can I obtain a temporary license for Aspose.Tasks?
 A: If you need a temporary license for evaluation or testing purposes, you can get one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

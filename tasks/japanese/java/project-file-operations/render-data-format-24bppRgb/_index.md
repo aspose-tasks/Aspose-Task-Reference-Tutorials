@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクト データを形式 24bppRgb でレ
 linktitle: Aspose.Tasks の形式 24bppRgb でデータをレンダリングする
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java で MS Project データを画像としてレンダリングする方法を学びます。シームレスな統合については、段階的なチュートリアルに従ってください。
-type: docs
 weight: 11
 url: /ja/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクト データを形式 24bppRgb でレンダリングする
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して MS Project 形式 24bppRgb でデータをレンダリングするプロセスを説明します。プロジェクト データを画像形式にレンダリングすると、プロジェクトの進捗状況を視覚的に共有したり、レポートを作成したりするなど、さまざまな目的に役立ちます。
 ## 前提条件
@@ -63,3 +69,9 @@ A: はい、Aspose.Tasks を使用して、要件に応じて解像度とピク�
  A: はい、Aspose.Tasks を商用利用するにはライセンスを購入する必要があります。テスト目的の一時ライセンスは、次から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks のサポートはどこで入手できますか?
  A: Aspose.Tasks のサポートは、[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Temel Görev Planlama
 linktitle: Aspose.Tasks'ta Temel Görev Planlama
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile görev temellerini etkili bir şekilde nasıl planlayacağınızı öğrenin. Proje yönetimi süreçlerinizi zahmetsizce kolaylaştırın.
-type: docs
 weight: 10
 url: /tr/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Temel Görev Planlama
+
 ## giriiş
 Görev temel çizgilerini yönetmek, proje yönetiminin çok önemli bir yönüdür ve planlanan ile gerçek ilerlemeyi doğru bir şekilde karşılaştırmanıza olanak tanır. Bu eğitimde Aspose.Tasks for Java'yı kullanarak temel görev planlamanın nasıl gerçekleştirileceğini inceleyeceğiz. Bu adımları izleyerek proje yönetimi süreçlerinizi verimli bir şekilde kolaylaştıracak donanıma sahip olacaksınız.
 ## Önkoşullar
@@ -63,3 +69,9 @@ Kesinlikle Aspose.Tasks for Java, görev temellerini proje gereksinimlerinize g�
  Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[yayın sayfası](https://releases.aspose.com/).
 ### Aspose.Tasks for Java desteğini nerede bulabilirim?
  Sorularınız veya yardımlarınız için Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xử lý các phương sai nhiệm vụ trong Aspose.Tasks
 linktitle: Xử lý các phương sai nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks dành cho Java trong việc quản lý các biến thể của nhiệm vụ dự án. Hãy làm theo hướng dẫn toàn diện của chúng tôi để tích hợp liền mạch và xử lý hiệu quả.
-type: docs
 weight: 19
 url: /vi/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các phương sai nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Trong thế giới quản lý dự án, Aspose.Tasks for Java nổi bật như một công cụ mạnh mẽ và linh hoạt để xử lý các biến thể của nhiệm vụ một cách hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng Aspose.Tasks để quản lý và thích ứng với các biến thể của nhiệm vụ một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Có, bạn có thể xin giấy phép tạm thời cho Aspose.Tasks[đây](https
  Để được hỗ trợ và thảo luận, hãy truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể tải xuống Aspose.Tasks cho Java không?
  Có, hãy tải xuống phiên bản Aspose.Tasks mới nhất cho Java[đây](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

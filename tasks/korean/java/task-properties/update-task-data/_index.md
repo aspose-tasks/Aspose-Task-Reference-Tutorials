@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 데이터를 MPP 형식으로 업데이트합�
 linktitle: Aspose.Tasks에서 작업 데이터를 MPP 형식으로 업데이트합니다.
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 작업 데이터를 MPP 형식으로 업데이트하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 35
 url: /ko/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 데이터를 MPP 형식으로 업데이트합니다.
+
 ## 소개
 Aspose.Tasks for Java를 사용하여 작업 데이터를 MPP 형식으로 업데이트하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 각 단계를 명확하게 이해할 수 있도록 프로세스를 안내합니다. Aspose.Tasks for Java는 Microsoft Project 파일 작업을 위한 강력한 솔루션을 제공하며, 이 가이드가 끝나면 MPP 형식의 작업 데이터를 효율적으로 업데이트할 수 있습니다.
 ## 전제조건
@@ -93,3 +99,9 @@ project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
  A: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: 테스트 목적으로 임시 라이선스를 제공합니까?
  A: 네, 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

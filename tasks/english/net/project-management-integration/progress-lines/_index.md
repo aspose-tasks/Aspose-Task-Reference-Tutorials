@@ -3,10 +3,16 @@ title: Handling MS Project Progress Lines with Aspose.Tasks
 linktitle: Handling Progress Lines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manipulate progress lines in MS Project files using Aspose.Tasks for .NET, enhancing project visualization and management.
-type: docs
 weight: 15
 url: /net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling MS Project Progress Lines with Aspose.Tasks
+
 ## Introduction
 Microsoft Project (MS Project) is a powerful tool for project management, allowing users to track various aspects of their projects. One crucial feature of MS Project is the ability to visualize progress lines, which help stakeholders understand the project's status and trajectory. In this tutorial, we'll explore how to handle progress lines in MS Project using the Aspose.Tasks library for .NET.
 ## Prerequisites
@@ -96,3 +102,10 @@ A: Absolutely, Aspose.Tasks is designed to seamlessly integrate with other .NET 
 A: Yes, you can find helpful resources and seek assistance on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q: Does Aspose.Tasks offer temporary licenses for evaluation purposes?
 A: Yes, you can obtain a temporary license for evaluation from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

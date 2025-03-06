@@ -3,10 +3,16 @@ title: Chuyển đổi tùy chọn MSP sang XPS với Aspose.Tasks
 linktitle: Tùy chọn XPS cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách chuyển đổi tệp Microsoft Project sang định dạng XPS bằng Aspose.Tasks cho .NET. Tích hợp dễ dàng, chức năng mạnh mẽ.
-type: docs
 weight: 21
 url: /vi/net/saving-options/xps-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi tùy chọn MSP sang XPS với Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project (MSP) là một công cụ được sử dụng rộng rãi để quản lý dự án, tạo điều kiện thuận lợi cho việc lập kế hoạch, theo dõi và báo cáo các hoạt động của dự án. Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để thao tác các tệp MSP theo chương trình, trao quyền cho các nhà phát triển tự động hóa các tác vụ khác nhau liên quan đến quản lý dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tận dụng Aspose.Tasks cho .NET để tạo tệp XPS từ tài liệu MSP, khám phá các bước cần thiết và cân nhắc.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ nhiều định dạng đầu
 Trả lời: Hoàn toàn có thể, Aspose.Tasks for .NET cung cấp các tùy chọn mở rộng để tùy chỉnh các tham số hiển thị theo yêu cầu của bạn.
 ### Câu hỏi: Tôi có thể tìm hỗ trợ hoặc hỗ trợ bổ sung cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nếu có bất kỳ thắc mắc hoặc hỗ trợ nào liên quan đến Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

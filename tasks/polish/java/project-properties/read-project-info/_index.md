@@ -3,10 +3,16 @@ title: Wyodrębnij informacje o projekcie Microsoft za pomocą Aspose.Tasks dla 
 linktitle: Przeczytaj informacje o projekcie za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak wyodrębnić informacje z programu Microsoft Project za pomocą Aspose.Tasks dla Java. Ulepsz zarządzanie projektami w aplikacjach Java bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij informacje o projekcie Microsoft za pomocą Aspose.Tasks dla Java
+
 ## Wstęp
 W dziedzinie zarządzania projektami i śledzenia zadań Microsoft Project zajmuje znaczącą pozycję. Aspose.Tasks for Java jawi się jako potężne narzędzie umożliwiające bezproblemową interakcję z plikami Microsoft Project w środowiskach Java. Ten samouczek omawia proces wyodrębniania ważnych informacji o projekcie z plików Microsoft Project przy użyciu Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -65,3 +71,9 @@ O: Oczywiście, Aspose.Tasks dla Java oferuje rozbudowane funkcje do manipulowan
 O: Tak, Aspose.Tasks dla Java umożliwia automatyzację poprzez wszechstronne API, umożliwiając usprawnienie procesów ekstrakcji i analizy danych.
 ### P: Czy dostępne jest forum społecznościowe lub kanał wsparcia dla użytkowników Aspose.Tasks dla użytkowników Java?
  O: Tak, możesz znaleźć przydatne zasoby i nawiązać kontakt ze społecznością na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

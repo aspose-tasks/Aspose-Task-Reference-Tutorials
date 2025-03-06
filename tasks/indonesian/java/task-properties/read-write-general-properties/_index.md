@@ -3,10 +3,16 @@ title: Menguasai Properti Tugas di Aspose.Tasks
 linktitle: Membaca dan Menulis Properti Umum Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi kekuatan Aspose.Tasks untuk Java dalam mengelola properti tugas dengan mudah. Membaca dan menulis dengan mudah menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 26
 url: /id/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Properti Tugas di Aspose.Tasks
+
 ## Perkenalan
 Buka potensi penuh manajemen tugas di Java dengan Aspose.Tasks. Dalam panduan komprehensif ini, kita akan mempelajari membaca dan menulis properti umum tugas menggunakan Aspose.Tasks untuk Java. Baik Anda seorang pengembang berpengalaman atau pemula, tutorial ini akan membekali Anda dengan keterampilan untuk memanipulasi properti tugas dengan mudah.
 ## Prasyarat
@@ -85,3 +91,9 @@ Ya, Aspose.Tasks kompatibel dengan Java 11 dan versi yang lebih baru.
  Bergabunglah dengan diskusi komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bantuan dan kerjasama.
 ### Apakah ada contoh proyek yang tersedia untuk referensi?
  Jelajahi bagian contoh dokumentasi[Di Sini](https://reference.aspose.com/tasks/java/) untuk contoh proyek dan cuplikan kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

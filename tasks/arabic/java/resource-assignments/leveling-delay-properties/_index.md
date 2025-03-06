@@ -3,10 +3,16 @@ title: التعامل مع خصائص تأخير التسوية في Aspose.Task
 linktitle: التعامل مع خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 17
 url: /ar/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع خصائص تأخير التسوية في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية التعامل مع خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية تسمح لك بالعمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project على نظامك.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ System.out.println("Process completed Successfully");
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
 
  ج: يمكنك طلب ترخيص مؤقت من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

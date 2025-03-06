@@ -3,10 +3,16 @@ title: Aspose.Tasks PDF 安全配置
 linktitle: Aspose.Tasks PDF 安全配置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 增强 Microsoft Project PDF 的安全性。学习数字签名和加密技术。
-type: docs
 weight: 35
 url: /zh/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks PDF 安全配置
+
 ## 介绍
 
 在数字领域，保护您的项目文件至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来增强 Microsoft Project PDF 的安全性。本教程系列深入探讨了 PDF 安全配置的复杂性，确保您宝贵的项目数据的机密性和真实性。
@@ -36,3 +42,9 @@ Aspose.Tasks 使您能够通过强大的加密来控制对项目数据的访问�
 了解如何使用 Aspose.Tasks for .NET 配置 Microsoft Project PDF 数字签名详细信息。确保项目文件的安全性和真实性。
 ### [在 Aspose.Tasks 中配置 MS Project PDF 加密详细信息](./pdf-encryption-details/)
 了解如何在 Aspose.Tasks for .NET 中配置 MS Project PDF 加密详细信息。使用用户和所有者密码保护您的项目文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

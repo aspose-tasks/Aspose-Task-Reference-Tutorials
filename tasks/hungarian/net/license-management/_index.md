@@ -3,10 +3,16 @@ title: Aspose.Tasks Licenckezelés
 linktitle: Aspose.Tasks Licenckezelés
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET erejét átfogó oktatóanyagainkkal. Kezelje a licenceket és optimalizálja az MS Project használatát a hatékony projektmenedzsment érdekében.
-type: docs
 weight: 36
 url: /hu/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Licenckezelés
+
 
 ## Bevezetés
 
@@ -35,3 +41,9 @@ Készen áll az Aspose.Tasks készségeinek fejlesztésére? Merüljön el oktat
 Ismerje meg, hogyan kezelheti zökkenőmentesen az Aspose.Tasks licenceket .NET-alkalmazásokban fájl- vagy adatfolyam-alapú megközelítésekkel.
 ### [Méréshasználat az Aspose.Tasks-ban](./metering-usage/)
 Tanulja meg, hogyan lehet hatékonyan nyomon követni és optimalizálni az MS Project használatát az Aspose.Tasks for .NET segítségével. Lépésről lépésre útmutató a hatékony projektmenedzsmenthez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

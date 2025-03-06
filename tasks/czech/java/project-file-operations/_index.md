@@ -3,10 +3,16 @@ title: Operace souborů projektu
 linktitle: Operace souborů projektu
 second_title: Aspose.Tasks Java API
 description: Snadná optimalizace rozložení MS Project pomocí Aspose.Tasks pro Javu. Naučte se podrobné návody na snižování mezer, vykreslování dat, nahrazování kalendářů a další.
-type: docs
 weight: 29
 url: /cs/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operace souborů projektu
+
 ## Úvod
 Přejete si vylepšit své schopnosti projektového řízení Java? Ponořte se do našich obsáhlých výukových programů na Aspose.Tasks for Java se zaměřením na různé operace se soubory projektu. Od snížení mezer v seznamech úkolů po přizpůsobení zobrazení MS Project, máme pro vás vše.
 
@@ -94,3 +100,9 @@ Naučte se, jak snadno vytvářet vlastní zobrazení MS Project pomocí Aspose.
 Naučte se efektivně spravovat vlastnosti dne v týdnu v Aspose.Tasks for Java. Přizpůsobte si data zahájení týdne, dny v měsíci a další snadno.
 ### [Napište shrnutí projektu MPP do Aspose.Tasks](./write-mpp-project-summary/)
 Naučte se psát souhrny projektů MPP v Javě pomocí Aspose.Tasks. Nastavte a načtěte informace o projektu bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

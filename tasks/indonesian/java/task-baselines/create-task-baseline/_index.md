@@ -3,10 +3,16 @@ title: Buat Dasar Tugas Proyek MS di Aspose.Tasks
 linktitle: Membuat Dasar Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membuat dasar tugas Microsoft Project di Java menggunakan Aspose.Tasks, pustaka canggih untuk mengelola data proyek dengan mudah.
-type: docs
 weight: 11
 url: /id/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dasar Tugas Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari proses pembuatan dasar tugas Microsoft Project menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project tanpa memerlukan instalasi Microsoft Project. Dengan Aspose.Tasks, Anda dapat dengan mudah memanipulasi data proyek, termasuk tugas, sumber daya, dan kalender, untuk menyederhanakan tugas manajemen proyek.
 ## Prasyarat
@@ -59,3 +65,9 @@ Tentu saja, Aspose.Tasks untuk Java menyediakan fitur canggih untuk memanipulasi
 Ya, Anda dapat mengatur dependensi tugas dengan mudah menggunakan Aspose.Tasks untuk Java, sehingga memungkinkan Anda menetapkan urutan tugas dalam proyek Anda.
 ### Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk Java?
  Ya, Anda dapat mengakses dukungan teknis untuk Aspose.Tasks untuk Java melalui[forum dukungan](https://forum.aspose.com/c/tasks/15), tempat Anda dapat mengajukan pertanyaan dan mencari bantuan dari komunitas dan staf pendukung Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

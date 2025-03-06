@@ -3,10 +3,16 @@ title: Naptárak
 linktitle: Naptárak
 second_title: Aspose.Tasks Java API
 description: Javítsa Java projektkezelési készségeit az Aspose.Tasks oktatóanyagokkal. A naptárkezelés elsajátítása, a hétköznapok létrehozása, meghatározása és a naptárak egyszerű frissítése.
-type: docs
 weight: 21
 url: /hu/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptárak
+
 ## Bevezetés
 
 Ön Java-fejlesztő, aki szeretné korszerűsíteni projektmenedzsment-készségeit? Merüljön el átfogó Aspose.Tasks oktatóanyagainkban, amelyek az MS Project naptárak kezelésének különböző aspektusait fedik le. Akár tapasztalt fejlesztő, akár csak most kezdi, ezek az oktatóanyagok lépésről lépésre nyújtanak útmutatást képességei fejlesztéséhez.
@@ -64,3 +70,9 @@ Ismerje meg, hogyan hozhat létre szabványos MS Project naptárat Java nyelven 
 Tanulja meg, hogyan olvassa el a munkaheteket az MS Project naptárából az Aspose.Tasks for Java segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre olvashat.
 ### [Frissítse az MS Project Calendars-t MPP formátumra az Aspose.Tasks segítségével](./update-to-mpp/)
 Ismerje meg, hogyan frissítheti az MS Project naptárait könnyedén MPP formátumra az Aspose.Tasks for Java segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

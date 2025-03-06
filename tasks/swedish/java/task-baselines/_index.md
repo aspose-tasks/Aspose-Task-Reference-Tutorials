@@ -3,10 +3,16 @@ title: Uppgiftens grundlinjer
 linktitle: Uppgiftens grundlinjer
 second_title: Aspose.Tasks Java API
 description: Utforska Aspose.Tasks Java med våra Task Baselines Tutorials. Effektivisera uppgiftsschemaläggning, skapa MS Project-uppgiftsbaslinjer och behärska baslinjens varaktighetshantering.
-type: docs
 weight: 32
 url: /sv/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppgiftens grundlinjer
+
 ## Introduktion
 Ge dig ut på en resa för att förbättra dina färdigheter i projektledning med Aspose.Tasks för Java. I den här serien av handledningar dyker vi djupt ner i krångligheterna i uppgiftens baslinjer, vilket ger dig värdefulla insikter och praktisk kunskap. Låt oss utforska de viktigaste handledningarna som utgör den här omfattande guiden.
 
@@ -51,3 +57,9 @@ Lär dig hur du schemalägger uppgiftens baslinjer effektivt med Aspose.Tasks f�
 Lär dig hur du skapar en Microsoft Project-uppgiftsbaslinje i Java med Aspose.Tasks, ett kraftfullt bibliotek för att hantera projektdata utan ansträngning.
 ### [Task Baseline Duration Management i Aspose.Tasks](./task-baseline-duration/)
 Lär dig hur du effektivt hanterar uppgiftsbaslinjer i MS Project med Aspose.Tasks för Java. Denna handledning guidar dig steg-för-steg genom processen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

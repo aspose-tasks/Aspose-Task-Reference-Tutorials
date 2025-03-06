@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Hesaplama Türü
 linktitle: Aspose.Tasks'ta Hesaplama Türü
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks kütüphanesindeki Hesaplama Türü ile .NET projelerinde değer hesaplamalarını nasıl özelleştireceğinizi öğrenin.
-type: docs
 weight: 30
 url: /tr/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Hesaplama Türü
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'teki Hesaplama Türü özelliğini inceleyeceğiz. Aspose.Tasks, .NET geliştiricilerinin sistemlerinde Microsoft Project'in yüklü olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasını sağlayan güçlü bir kütüphanedir. Hesaplama Türü, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını tanımlamamıza olanak tanır.
@@ -97,3 +103,9 @@ Cevap4: Evet, Aspose.Tasks, özet görevlerin değerlerini hesaplamak için Orta
 ### S5: Aspose.Tasks for .NET'te daha fazla kaynağı nerede bulabilirim?
 
  Cevap5: Web sitesinde bulunan belgeleri ve topluluk destek forumlarını inceleyebilirsiniz.[.NET için Aspose.Tasks](https://reference.aspose.com/tasks/net/) Kapsamlı rehberlik ve yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

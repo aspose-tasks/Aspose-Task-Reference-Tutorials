@@ -3,10 +3,16 @@ title: Manage Parent and Child Tasks in Aspose.Tasks
 linktitle: Manage Parent and Child Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Enhance project management efficiency with Aspose.Tasks for Java. Learn to manage parent and child tasks step-by-step. Get started now!
-type: docs
 weight: 24
 url: /java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Parent and Child Tasks in Aspose.Tasks
+
 ## Introduction
 In the realm of project management, effective task organization is crucial. Aspose.Tasks for Java provides a robust solution to manage parent and child tasks efficiently. In this tutorial, we'll guide you through the process of using Aspose.Tasks for Java to streamline your project tasks.
 ## Prerequisites
@@ -103,3 +109,10 @@ Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find comprehensive documentation for Aspose.Tasks for Java?
 The documentation is available [here](https://reference.aspose.com/tasks/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

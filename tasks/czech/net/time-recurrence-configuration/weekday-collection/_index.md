@@ -3,10 +3,16 @@ title: Zvládnutí všedních dnů v Aspose.Tasks
 linktitle: Kolekce pracovních dnů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Objevte sílu Aspose.Tasks pro .NET při řízení pracovních dnů bez námahy. Snadno si přizpůsobte pracovní dny, odstraňte víkendy a vytvořte specializované kalendáře.
-type: docs
 weight: 11
 url: /cs/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí všedních dnů v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která usnadňuje efektivní manipulaci s daty projektového řízení. V tomto tutoriálu prozkoumáme sbírku pracovních dnů v Aspose.Tasks, což vám umožní přizpůsobit pracovní dny, odstranit víkendy a vytvořit specializované kalendáře, aby splňovaly požadavky vašeho projektu. Ať už jste ostřílený vývojář nebo nováček, tento podrobný průvodce vás provede procesem práce se všedními dny v Aspose.Tasks pro .NET.
 ## Předpoklady
@@ -95,3 +101,9 @@ A: Aspose.Tasks primárně podporuje jazyky .NET, ale nabízí i verze pro Javu.
  A: Viz[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/) pro podrobné informace.
 ### Otázka: Jak získám dočasnou licenci pro Aspose.Tasks pro .NET?
  Odpověď: Můžete získat dočasnou licenci z[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

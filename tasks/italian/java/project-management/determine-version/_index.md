@@ -3,10 +3,16 @@ title: Determinare la versione di MS Project con Aspose.Tasks
 linktitle: Determinare la versione del progetto con Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come determinare la versione dei file MS Project a livello di codice utilizzando Aspose.Tasks per Java. Guida passo passo con esempi di codice.
-type: docs
 weight: 12
 url: /it/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Determinare la versione di MS Project con Aspose.Tasks
+
 ## introduzione
 Questo tutorial ti guiderà attraverso l'utilizzo di Aspose.Tasks per Java per determinare passo dopo passo la versione di un file MS Project. Aspose.Tasks è una potente API Java che consente agli sviluppatori di manipolare i file di Microsoft Project senza richiedere l'installazione di Microsoft Project.
 ## Prerequisiti
@@ -60,3 +66,9 @@ R: Sì, puoi manipolare i dati del progetto, modificare attività, risorse e mol
 R: No, Aspose.Tasks funziona in modo indipendente e non richiede l'installazione di Microsoft Project.
 ### D: È disponibile il supporto tecnico per Aspose.Tasks?
  R: Sì, puoi ottenere supporto tecnico dal forum Aspose.Tasks all'indirizzo[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

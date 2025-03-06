@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Proje Raporlamasında Ustalaşın
 linktitle: Aspose.Tasks'ta Rapor Türleriyle Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET kullanarak MS Project dosyalarıyla nasıl çalışılacağını öğrenin. Çeşitli rapor türlerini zahmetsizce oluşturun.
-type: docs
 weight: 16
 url: /tr/net/rate-recurring-tasks/report-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Proje Raporlamasında Ustalaşın
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını kolaylıkla yönetmelerine olanak tanıyan güçlü bir kitaplıktır. İster proje yönetimi, planlama veya raporlama görevleri üzerinde çalışıyor olun, Aspose.Tasks iş akışınızı kolaylaştıracak kapsamlı özellikler sunar. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak MS Project dosyalarıyla nasıl çalışılacağını ve çeşitli rapor türlerinin nasıl oluşturulacağını keşfedeceğiz.
 ## Önkoşullar
@@ -55,3 +61,9 @@ C: Evet, Aspose.Tasks for .NET'i ticari projelerde kullanabilirsiniz ancak bir l
  C: Topluluktan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S5: Aspose.Tasks for .NET'i nasıl indirebilirim?
  C: Aspose.Tasks for .NET'i şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

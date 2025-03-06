@@ -3,10 +3,16 @@ title: Vervang MS Project-agenda in Aspose.Tasks
 linktitle: Vervang Agenda in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u de Microsoft Project-agenda vervangt met Aspose.Tasks voor Java. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 12
 url: /nl/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vervang MS Project-agenda in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het vervangen van de Microsoft Project-agenda met Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een veel voorkomende taak bij projectbeheer is het aanpassen van kalenders, en Aspose.Tasks vereenvoudigt dit proces aanzienlijk.
 ## Vereisten
@@ -76,3 +82,9 @@ A: Absoluut, Aspose.Tasks stelt ontwikkelaars in staat een breed scala aan proje
  A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor Java vanaf[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik ondersteuning of hulp zoeken met betrekking tot Aspose.Tasks?
  A: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15) voor steun en begeleiding vanuit de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

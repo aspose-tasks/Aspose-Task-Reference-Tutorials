@@ -3,10 +3,16 @@ title: Personnaliser le quadrillage dans MS Project pour Aspose.Tasks
 linktitle: Quadrillage dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment personnaliser le quadrillage dans MS Project à l'aide d'Aspose.Tasks pour .NET. Améliorez la visualisation et la gestion de votre projet avec des étapes faciles à suivre.
-type: docs
 weight: 23
 url: /fr/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnaliser le quadrillage dans MS Project pour Aspose.Tasks
+
 ## Introduction
 
 Dans la gestion de projet, la représentation visuelle joue un rôle crucial dans la compréhension des délais, des dépendances et de l'avancement du projet. Aspose.Tasks for .NET fournit des outils robustes pour manipuler les fichiers de projet par programme. L'une de ces fonctionnalités est la possibilité de personnaliser le quadrillage dans MS Project à l'aide d'Aspose.Tasks.
@@ -113,3 +119,9 @@ R : Absolument, vous pouvez personnaliser non seulement le motif mais également
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
  R : Oui, vous pouvez télécharger une version d'essai gratuite de[Aspose.Tasks pour .NET à partir de](https://forum.aspose.com/c/tasks/15). pour explorer ses fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

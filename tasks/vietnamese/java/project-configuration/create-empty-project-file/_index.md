@@ -3,10 +3,16 @@ title: Tạo tệp dự án MS trống trong Aspose.Tasks
 linktitle: Tạo tệp dự án trống trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo tệp Microsoft Project trống trong Java bằng Aspose.Tasks. Các bước dễ dàng để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tệp dự án MS trống trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án và lập kế hoạch nhiệm vụ, việc xử lý các tệp Microsoft Project thường là điều cần thiết. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để tạo, thao tác và quản lý các tệp này một cách liền mạch trong các ứng dụng Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo tệp Microsoft Project trống bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -53,3 +59,9 @@ Với Aspose.Tasks dành cho Java, việc tạo một tệp Microsoft Project tr
  Bạn có thể tìm kiếm sự hỗ trợ từ các diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho Java?
  Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

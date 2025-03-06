@@ -3,10 +3,16 @@ title: Projektegenskaper
 linktitle: Projektegenskaper
 second_title: Aspose.Tasks Java API
 description: Lås upp potentialen hos Aspose.Tasks för Java med våra handledningar för projektegenskaper. Extrahera, utnyttja och manipulera Microsoft Project-information utan ansträngning.
-type: docs
 weight: 24
 url: /sv/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektegenskaper
+
 ## Introduktion
 
 Är du redo att höja dina Aspose.Tasks för Java-kunskaper? Våra handledningar för projektegenskaper ger dig möjlighet att utnyttja den fulla potentialen i detta kraftfulla bibliotek, med fokus på tre nyckelaspekter: läsa metaegenskaper, extrahera Microsoft Project-information och bemästra MS Project-manipulation. Dyk in i dessa handledningar för att förbättra din Java-utveckling och projektledningskapacitet.
@@ -35,3 +41,9 @@ Lås upp kraften med metadata i Aspose.Tasks-projekt med denna omfattande handle
 Lär dig hur du extraherar Microsoft Project-information med Aspose.Tasks för Java. Förbättra projekthanteringen i Java-applikationer utan ansträngning.
 ### [Bemästra MS Project Manipulation med Aspose.Tasks för Java](./write-project-info/)
 Lär dig hur du effektivt skriver MS Project-information med Aspose.Tasks för Java. Steg-för-steg-guide för Java-utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

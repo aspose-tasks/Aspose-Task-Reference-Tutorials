@@ -3,10 +3,16 @@ title: Definieren Sie Wochentage für Kalenderausnahmen mit Aspose.Tasks
 linktitle: Definieren Sie Wochentage für Kalenderausnahmen mit Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mithilfe von Aspose.Tasks Wochentage für Kalenderausnahmen in Java-Projekten definieren, um eine genaue Projektplanung zu ermöglichen.
-type: docs
 weight: 11
 url: /de/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definieren Sie Wochentage für Kalenderausnahmen mit Aspose.Tasks
+
 ### Einführung
 Im Projektmanagement ist die Definition von Ausnahmen für Kalender von entscheidender Bedeutung, um nicht standardmäßige Arbeitstage oder Feiertage innerhalb einer Projektzeitleiste genau darzustellen. Aspose.Tasks für Java bietet robuste Funktionen zur effizienten Verwaltung von Kalendern, einschließlich der Definition von Ausnahmen wie Feiertagen oder besonderen Arbeitstagen. In diesem Tutorial befassen wir uns mit der Definition von Wochentagen für Kalenderausnahmen mithilfe von Aspose.Tasks für Java.
 ### Voraussetzungen
@@ -68,3 +74,10 @@ A: Absolut, Aspose.Tasks für Java bietet die Flexibilität, Ausnahmen basierend
 A: Sie können Ausnahmen basierend auf dynamischen Projektanforderungen programmgesteuert behandeln, indem Sie die umfangreiche API verwenden, die von Aspose.Tasks für Java bereitgestellt wird.
 ### F: Gibt es eine Testversion für Aspose.Tasks für Java?
  A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java unter herunterladen[Webseite](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

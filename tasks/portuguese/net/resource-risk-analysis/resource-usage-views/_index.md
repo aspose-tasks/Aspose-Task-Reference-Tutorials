@@ -3,10 +3,16 @@ title: Configurando visualizações de uso de recursos do MS Project em Aspose.T
 linktitle: Configurando visualizações de uso de recursos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como configurar visualizações de uso de recursos do MS Project usando Aspose.Tasks for .NET. Guia passo a passo com exemplos de código incluídos.
-type: docs
 weight: 15
 url: /pt/net/resource-risk-analysis/resource-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando visualizações de uso de recursos do MS Project em Aspose.Tasks
+
 ## Introdução
 O Microsoft Project (MS Project) é uma ferramenta poderosa para gerenciamento de projetos, permitindo aos usuários planejar, executar e acompanhar seus projetos com eficiência. Aspose.Tasks for .NET fornece integração perfeita com arquivos do MS Project, permitindo que os desenvolvedores manipulem os dados do projeto de forma programática. Neste tutorial, exploraremos como configurar visualizações de uso de recursos do MS Project usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -58,3 +64,9 @@ R: Sim, Aspose.Tasks oferece suporte a uma variedade de formatos de saída, incl
  R: Sim, você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para quaisquer dúvidas, discussões ou necessidades de suporte.
 ### P: Posso experimentar o Aspose.Tasks antes de comprar?
  R: Claro, você pode explorar o Aspose.Tasks com uma avaliação gratuita disponível[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

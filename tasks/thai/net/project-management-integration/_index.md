@@ -3,10 +3,16 @@ title: Aspose.Tasks การจัดการโครงการและก
 linktitle: Aspose.Tasks การจัดการโครงการและการบูรณาการ
 second_title: Aspose.Tasks .NET API
 description: ค้นพบบทช่วยสอน Aspose.Tasks สำหรับ .NET ที่ครอบคลุมซึ่งครอบคลุมการจัดการ MS Project การบูรณาการ และการปรับแต่ง พัฒนาทักษะการจัดการโครงการของคุณทันที!
-type: docs
 weight: 27
 url: /th/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks การจัดการโครงการและการบูรณาการ
+
 
 ## การแนะนำ
 
@@ -62,3 +68,9 @@ url: /th/net/project-management-integration/
 ปลดล็อกการจัดการ MS Project Server ได้อย่างราบรื่นด้วย Aspose.Tasks สำหรับ .NET ทำให้งานโครงการเป็นอัตโนมัติได้อย่างง่ายดาย
 ### [การปรับแต่งมุมมองโครงการ MS ใน Aspose.Tasks](./project-views/)
 เรียนรู้วิธีปรับแต่งมุมมอง MS Project โดยใช้ Aspose.Tasks สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราสำหรับการแสดงภาพการจัดการโครงการอย่างมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

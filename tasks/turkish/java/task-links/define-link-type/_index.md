@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Bağlantı Türünü Tanımlayın
 linktitle: Aspose.Tasks'ta Bağlantı Türünü Tanımlayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'nın proje yönetimindeki gücünü keşfedin. Adım adım eğitimimizle bağlantı türlerini zahmetsizce tanımlayın ve özelleştirin.
-type: docs
 weight: 13
 url: /tr/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Bağlantı Türünü Tanımlayın
+
 ## giriiş
 Aspose.Tasks for Java ile verimli proje yönetimi dünyasına hoş geldiniz! Proje yönetiminizi kolaylaştırmak ve verimliliği artırmak istiyorsanız doğru yerdesiniz. Bu kapsamlı eğitimde, Aspose.Tasks for Java'da bağlantı türlerini tanımlama sürecinde size rehberlik ederek proje yönetimi becerilerinizi geliştireceğiz.
 ## Önkoşullar
@@ -60,3 +66,9 @@ C: Kesinlikle! Aspose.Tasks esneklik sağlayarak bağlantı türlerini proje iht
  Ziyaret[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
 ### S: Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
  C: Aspose.Tasks topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/tasks/15) Yardım ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

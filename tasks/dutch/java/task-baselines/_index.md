@@ -3,10 +3,16 @@ title: Taakbasislijnen
 linktitle: Taakbasislijnen
 second_title: Aspose.Tasks Java-API
 description: Verken Aspose.Tasks Java met onze Task Baselines-tutorials. Stroomlijn de taakplanning, creëer MS Project-taakbasislijnen en beheer het beheer van de basislijnduur.
-type: docs
 weight: 32
 url: /nl/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakbasislijnen
+
 ## Invoering
 Ga op reis om uw projectmanagementvaardigheden te verbeteren met Aspose.Tasks voor Java. In deze reeks tutorials duiken we diep in de fijne kneepjes van taakbasislijnen, waardoor u waardevolle inzichten en praktische kennis krijgt. Laten we eens kijken naar de belangrijkste tutorials waaruit deze uitgebreide handleiding bestaat.
 
@@ -51,3 +57,9 @@ Leer hoe u taakbasislijnen effectief kunt plannen met Aspose.Tasks voor Java. St
 Leer hoe u een Microsoft Project-taakbasislijn in Java maakt met behulp van Aspose.Tasks, een krachtige bibliotheek voor het moeiteloos beheren van projectgegevens.
 ### [Beheer van de taakbasislijnduur in Aspose.Tasks](./task-baseline-duration/)
 Leer hoe u taakbasislijnen efficiënt beheert in MS Project met behulp van Aspose.Tasks voor Java. Deze tutorial begeleidt u stap voor stap door het proces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

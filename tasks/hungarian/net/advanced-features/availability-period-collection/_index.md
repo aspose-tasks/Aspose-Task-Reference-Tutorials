@@ -3,10 +3,16 @@ title: Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
 linktitle: Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti az erőforrások rendelkezésre állási időszakait az Aspose.Tasks for .NET-ben. Ez a lépésenkénti oktatóanyag végigvezeti Önt a rendelkezésre állási időszakok hozzáadásával, frissítésével és eltávolításával, így biztosítva a hatékony projekterőforrás-tervezést.
-type: docs
 weight: 18
 url: /hu/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk az Aspose.Tasks for .NET erőforrás rendelkezésre állási időszakának gyűjteményével. A rendelkezésre állási időszakok kezelése kulcsfontosságú a projektmenedzsment számára, lehetővé téve számunkra, hogy meghatározzuk, mikor állnak rendelkezésre erőforrások a projekten belüli feladatokhoz.
@@ -148,3 +154,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan kell dolgozni a rendelkezésre áll
 ### 5. kérdés: Van-e korlátozás az erőforrás rendelkezésre állási időszakainak számára?
 
 5. válasz: Nincs előre meghatározott korlát az erőforrás rendelkezésre állási időszakainak számára, de a teljesítmény csökkenhet nagy számú periódussal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

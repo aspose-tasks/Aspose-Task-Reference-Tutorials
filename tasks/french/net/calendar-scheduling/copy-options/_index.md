@@ -3,10 +3,16 @@ title: Options de copie dans Aspose.Tasks
 linktitle: Options de copie dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment copier efficacement les données d'un projet à l'aide d'Aspose.Tasks pour .NET. Améliorez vos applications .NET avec de puissantes fonctionnalités de gestion de projet.
-type: docs
 weight: 18
 url: /fr/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Options de copie dans Aspose.Tasks
+
 ## Introduction
 
 Dans le monde du développement .NET, la gestion efficace des tâches est cruciale pour la réussite du projet. Aspose.Tasks for .NET fournit une solution complète permettant aux développeurs de gérer les tâches de gestion de projet de manière transparente. Une fonctionnalité essentielle est la possibilité de copier les données du projet avec diverses options adaptées aux besoins spécifiques. Dans ce didacticiel, nous explorerons les options de copie dans Aspose.Tasks, en décomposant chaque exemple en plusieurs étapes pour vous guider tout au long du processus.
@@ -98,3 +104,9 @@ A4 : Aspose.Tasks for .NET offre des options de personnalisation étendues via s
 ### Q5 : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Tasks pour .NET ?
 
  A5 : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour l'assistance, la documentation, les didacticiels et les discussions communautaires.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

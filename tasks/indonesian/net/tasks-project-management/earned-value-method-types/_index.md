@@ -3,10 +3,16 @@ title: Kuasai Metode Proyek MS Nilai yang Diperoleh dengan Aspose.Tasks
 linktitle: Jenis Metode Nilai yang Diperoleh di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jenis Metode Proyek MS Nilai Perolehan Master dengan Aspose.Tasks untuk .NET. Tingkatkan efisiensi manajemen proyek dengan mudah.
-type: docs
 weight: 10
 url: /id/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Metode Proyek MS Nilai yang Diperoleh dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, memanfaatkan alat dan metodologi yang tepat adalah hal yang sangat penting untuk mencapai kesuksesan. Aspose.Tasks untuk .NET menyediakan kerangka kerja yang kuat untuk mengelola tugas terkait proyek secara efisien. Salah satu aspek penting tersebut adalah penggunaan metode Earned Value Management (EVM), yang memberikan wawasan tentang kinerja proyek dengan membandingkan pekerjaan yang direncanakan dengan pekerjaan sebenarnya yang telah diselesaikan. Dalam tutorial ini, kita akan mempelajari pemahaman dan penerapan Jenis Metode Proyek MS Nilai yang Diperoleh menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -53,3 +59,9 @@ J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET dari situ
  J: Ya, lisensi sementara tersedia untuk Aspose.Tasks untuk .NET. Anda dapat memperolehnya dari:[Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?
  J: Anda dapat membeli Aspose.Tasks untuk .NET dari situs web:[Pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

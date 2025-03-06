@@ -3,10 +3,16 @@ title: การแสดงป้ายกำกับใน Aspose.Tasks
 linktitle: การแสดงป้ายกำกับใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีปรับแต่งการแสดงฉลากในการจัดการโครงการด้วย Aspose.Tasks for .NET เพิ่มความสามารถในการอ่านและความชัดเจนได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแสดงป้ายกำกับใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในขอบเขตของการพัฒนาซอฟต์แวร์ การจัดการงานอย่างมีประสิทธิภาพเป็นสิ่งจำเป็นสำหรับความสำเร็จของโครงการ Aspose.Tasks for .NET นำเสนอโซลูชันที่มีประสิทธิภาพสำหรับการจัดการงานการจัดการโครงการได้อย่างราบรื่นภายในกรอบงาน .NET สิ่งสำคัญประการหนึ่งของการจัดการโครงการคือความสามารถในการปรับแต่งตัวเลือกการแสดงผลให้เหมาะกับความต้องการเฉพาะ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อจัดการการแสดงป้ายกำกับนาที ชั่วโมง วัน สัปดาห์ เดือน และปีภายในไฟล์โปรเจ็กต์
@@ -137,3 +143,10 @@ public void WorkWithYearLabelDisplay()
 ### คำถามที่ 5: Aspose.Tasks รองรับการผสานรวมกับเครื่องมือการจัดการโครงการอื่นๆ หรือไม่
 
 A5: ใช่ Aspose.Tasks นำเสนอความสามารถในการบูรณาการที่ราบรื่น อำนวยความสะดวกในการทำงานร่วมกันกับเครื่องมือและแพลตฟอร์มการจัดการโครงการอื่นๆ
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

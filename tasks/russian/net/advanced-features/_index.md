@@ -3,10 +3,16 @@ title: Расширенные возможности Aspose.Tasks
 linktitle: Расширенные возможности Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Откройте для себя расширенные функции Aspose.Tasks для .NET с помощью наших руководств. От операций AND до обработки исключений в памяти — улучшите свои навыки управления проектами.
-type: docs
 weight: 21
 url: /ru/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные возможности Aspose.Tasks
+
 
 ## Введение
 
@@ -93,3 +99,9 @@ url: /ru/net/advanced-features/
 Узнайте, как эффективно управлять режимами вычислений в Aspose.Tasks для .NET, чтобы оптимизировать планирование проекта и зависимости задач.
 ### [Тип расчета в Aspose.Tasks](./calculation-type/)
 Узнайте, как настроить вычисления значений в проектах .NET с помощью типа расчета в библиотеке Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

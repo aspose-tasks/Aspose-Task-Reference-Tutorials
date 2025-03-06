@@ -3,10 +3,16 @@ title: เรนเดอร์ข้อมูลโครงการ MS ด้
 linktitle: เรนเดอร์ข้อมูลด้วยรูปแบบ 24bppRgb ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีเรนเดอร์ข้อมูล MS Project เป็นรูปภาพใน Java โดยใช้ Aspose.Tasks ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 11
 url: /th/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เรนเดอร์ข้อมูลโครงการ MS ด้วยรูปแบบ 24bppRgb ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการเรนเดอร์ข้อมูลด้วยรูปแบบ MS Project 24bppRgb โดยใช้ Aspose.Tasks สำหรับ Java การแสดงข้อมูลโครงการในรูปแบบภาพอาจมีประโยชน์สำหรับวัตถุประสงค์ต่างๆ เช่น การแชร์ความคืบหน้าของโครงการด้วยภาพหรือการสร้างรายงาน
 ## ข้อกำหนดเบื้องต้น
@@ -63,3 +69,9 @@ project.save(dataDir + "resFile.tif", options);
  ตอบ: ใช่ คุณต้องซื้อสิทธิ์การใช้งาน Aspose.Tasks ในเชิงพาณิชย์ คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถรับการสนับสนุนสำหรับ Aspose.Tasks ได้จาก[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

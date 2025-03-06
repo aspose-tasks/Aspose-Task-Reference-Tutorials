@@ -3,10 +3,16 @@ title: Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
 linktitle: Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage resource assignments rate scale effectively in Aspose.Tasks for Java with this comprehensive tutorial.
-type: docs
 weight: 20
 url: /java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll delve into managing resource assignments rate scale using Aspose.Tasks for Java, a robust library for working with Microsoft Project files programmatically. By following these steps, you'll be able to effectively manipulate rate scale settings for resource assignments in your Java applications.
 ## Prerequisites
@@ -84,3 +90,10 @@ A: Absolutely, Aspose.Tasks offers comprehensive features for managing projects 
 A: Yes, Aspose.Tasks provides extensive capabilities for customizing resource assignments, including cost, work, and duration adjustments.
 ### Q5: Is there a community forum for Aspose.Tasks support?
 A: Yes, you can find support and interact with other users on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

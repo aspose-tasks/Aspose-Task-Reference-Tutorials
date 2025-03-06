@@ -3,10 +3,16 @@ title: التعامل بسهولة مع مجموعة العمل باستخدام
 linktitle: التعامل مع أنواع مجموعات العمل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET للتعامل مع أنواع مجموعات العمل في مشروعك بسهولة. تحسين تخصيص الموارد وتعزيز إدارة المشروع.
-type: docs
 weight: 12
 url: /ar/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل بسهولة مع مجموعة العمل باستخدام Aspose.Tasks لـ .NET
+
 ## مقدمة
 يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع أنواع مجموعات العمل في سيناريوهات إدارة المشروع. تعد إدارة مجموعات العمل بكفاءة أمرًا ضروريًا لتحسين تخصيص الموارد وضمان التنفيذ السلس للمشروع. في هذا البرنامج التعليمي، سوف نتعمق في عملية التعامل مع أنواع مجموعات العمل باستخدام Aspose.Tasks، ونقدم إرشادات خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -46,3 +52,9 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

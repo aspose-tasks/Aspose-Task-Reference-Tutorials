@@ -3,10 +3,16 @@ title: Podziel datę zakończenia zadania w Aspose.Tasks
 linktitle: Podziel datę zakończenia zadania w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak łatwo dzielić daty zakończenia zadań za pomocą Aspose.Tasks dla Java. Usprawnij zarządzanie projektami dzięki dokładnym harmonogramom.
-type: docs
 weight: 28
 url: /pl/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podziel datę zakończenia zadania w Aspose.Tasks
+
 ## Wstęp
 zarządzaniu projektami zrozumienie harmonogramu zadań ma kluczowe znaczenie dla pomyślnej realizacji projektu. Aspose.Tasks dla Java zapewnia zaawansowane funkcje umożliwiające efektywne manipulowanie zadaniami projektowymi. W tym samouczku zajmiemy się dzieleniem dat zakończenia zadań za pomocą Aspose.Tasks, pomagając Ci efektywnie zarządzać harmonogramem projektu.
 ## Warunki wstępne
@@ -54,3 +60,9 @@ Opanowanie sztuki manipulowania terminami zakończenia zadań jest kluczowe dla 
  Odpowiedź 4: Odwiedź forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P5: Czy mogę kupić Aspose.Tasks?
  A5: Tak, możesz go kupić[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

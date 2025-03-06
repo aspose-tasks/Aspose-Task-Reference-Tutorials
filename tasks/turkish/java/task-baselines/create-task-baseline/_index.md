@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Görev Temeli Oluşturun
 linktitle: Aspose.Tasks'ta Görev Temeli Oluşturma
 second_title: Aspose.Tasks Java API'si
 description: Proje verilerini zahmetsizce yönetmek için güçlü bir kütüphane olan Aspose.Tasks'ı kullanarak Java'da bir Microsoft Project görev temelini nasıl oluşturacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Görev Temeli Oluşturun
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java'yı kullanarak bir Microsoft Project görev temeli oluşturma sürecini ayrıntılı olarak ele alacağız. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Aspose.Tasks ile proje yönetimi görevlerini kolaylaştırmak için görevler, kaynaklar ve takvimler dahil olmak üzere proje verilerini zahmetsizce değiştirebilirsiniz.
 ## Önkoşullar
@@ -59,3 +65,9 @@ Aspose.Tasks for Java kesinlikle proje kaynaklarını yönetmek için, gerektiğ
 Evet, Aspose.Tasks for Java'yı kullanarak görev bağımlılıklarını zahmetsizce ayarlayabilir, böylece projenizdeki görevlerin sırasını oluşturabilirsiniz.
 ### Aspose.Tasks for Java için teknik destek mevcut mu?
  Evet, Aspose.Tasks for Java teknik desteğine şu adresten ulaşabilirsiniz:[destek Forumu](https://forum.aspose.com/c/tasks/15), soru sorabileceğiniz ve topluluktan ve Aspose destek personelinden yardım isteyebileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

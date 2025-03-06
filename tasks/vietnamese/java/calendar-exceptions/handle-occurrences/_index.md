@@ -3,10 +3,16 @@ title: Xử lý các lần xuất hiện trong ngoại lệ lịch bằng Aspose
 linktitle: Xử lý các lần xuất hiện trong ngoại lệ lịch bằng Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các ngoại lệ lịch một cách hiệu quả trong các dự án Java với Aspose.Tasks cho Java. Hợp lý hóa quy trình quản lý dự án của bạn ngay bây giờ.
-type: docs
 weight: 12
 url: /vi/java/calendar-exceptions/handle-occurrences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các lần xuất hiện trong ngoại lệ lịch bằng Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc xử lý các trường hợp ngoại lệ trong lịch là rất quan trọng để duy trì tính chính xác và hiệu quả. Aspose.Tasks cho Java cung cấp bộ công cụ mạnh mẽ để quản lý các tác vụ liên quan đến dự án, bao gồm xử lý các lần xuất hiện trong lịch một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các ngoại lệ trong các lần xuất hiện trên lịch bằng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Các bản cập nhật và cải tiến thường xuyên được Aspose triể
 Có, Aspose.Tasks cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép người dùng điều chỉnh các ngoại lệ trong lịch để đáp ứng nhu cầu riêng của dự án của họ.
 ### Aspose.Tasks có cung cấp bản dùng thử miễn phí trước khi mua không?
  Có, những người dùng quan tâm có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho Java từ[trang mạng](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

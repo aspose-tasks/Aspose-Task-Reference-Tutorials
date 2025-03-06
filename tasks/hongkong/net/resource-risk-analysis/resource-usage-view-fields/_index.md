@@ -3,10 +3,16 @@ title: Aspose.Tasks 中資源使用視圖欄位的集合
 linktitle: Aspose.Tasks 中資源使用視圖欄位的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效存取和操作 Microsoft Project 檔案中的資源使用視圖欄位。
-type: docs
 weight: 16
 url: /zh-hant/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中資源使用視圖欄位的集合
+
 ## 介紹
 在專案管理領域，有效處理 Microsoft Project 文件至關重要。 Aspose.Tasks for .NET 提供了一個全面的解決方案來無縫處理 MS Project 檔案。在本教程中，我們將深入研究使用 Aspose.Tasks for .NET 存取和利用資源使用情況視圖欄位的過程。
 ## 先決條件
@@ -67,3 +73,9 @@ foreach (var field in fields)
 答：是的，您可以從以下位置存取免費試用版：[網站](https://releases.aspose.com/).
 ### Q：如何取得 Aspose.Tasks for .NET 的臨時授權？
 答：您可以從以下機構獲得臨時許可證：[購買頁面](https://purchase.aspose.com/temporary-license/)出於評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

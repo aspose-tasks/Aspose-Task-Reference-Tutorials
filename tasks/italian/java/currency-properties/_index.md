@@ -3,10 +3,16 @@ title: Proprietà valutarie
 linktitle: Proprietà valutarie
 second_title: API Java Aspose.Tasks
 description: Sblocca la potenza di Aspose.Tasks per Java Tutorials. Scopri guide dettagliate su come leggere e impostare facilmente le proprietà della valuta nei file MS Project.
-type: docs
 weight: 25
 url: /it/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proprietà valutarie
+
 ## introduzione
 Sei pronto a migliorare le tue competenze in Aspose.Tasks per Java? Tuffati nei nostri tutorial completi sulle proprietà della valuta e padroneggia l'arte di gestire le informazioni sulla valuta all'interno dei file MS Project.
 
@@ -35,3 +41,9 @@ Pronti per intraprendere questo viaggio formativo? Fare clic sui collegamenti se
 Scopri come estrarre informazioni sulla valuta dai file MS Project utilizzando Aspose.Tasks per Java. Guida passo passo fornita.
 ### [Impostare le proprietà della valuta nei progetti Aspose.Tasks](./set-properties/)
 Scopri come impostare le proprietà della valuta nei progetti Aspose.Tasks utilizzando Java. Manipola i file di Microsoft Project senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Presentazione dei campi di visualizzazione dell'utilizzo delle attività 
 linktitle: Raccolta di campi di visualizzazione utilizzo attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET per gestire e visualizzare facilmente i dati del progetto. Immergiti nei campi di visualizzazione dell'utilizzo delle attività per ottenere informazioni dettagliate sul progetto.
-type: docs
 weight: 25
 url: /it/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Presentazione dei campi di visualizzazione dell'utilizzo delle attività in Aspose.Tasks
+
 ## introduzione
 Nel campo della gestione dei progetti, Aspose.Tasks per .NET rappresenta una soluzione solida, fornendo agli sviluppatori un potente toolkit per manipolare e gestire i dati del progetto. Una delle caratteristiche degne di nota è la Visualizzazione utilizzo attività, che offre approfondimenti in vari campi che migliorano la visibilità del progetto. In questo tutorial, approfondiremo le complessità dei campi di visualizzazione dell'utilizzo delle attività utilizzando Aspose.Tasks per .NET, analizzando ogni passaggio per una comprensione completa.
 ## Prerequisiti
@@ -64,3 +70,9 @@ Aspose.Tasks si concentra principalmente sulle applicazioni .NET. Tuttavia, puoi
  Sì, puoi acquisire licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/) per un utilizzo a breve termine.
 ### Quali formati di file sono supportati per i documenti di progetto?
 Aspose.Tasks per .NET supporta vari formati, tra cui MPP, XML e CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

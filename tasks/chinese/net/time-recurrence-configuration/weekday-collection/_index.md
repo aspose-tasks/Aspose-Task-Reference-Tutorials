@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的工作日
 linktitle: Aspose.Tasks 中工作日的集合
 second_title: Aspose.Tasks .NET API
 description: 发现 Aspose.Tasks for .NET 在轻松管理工作日方面的强大功能。自定义工作日、删除周末并轻松创建专门的日历。
-type: docs
 weight: 11
 url: /zh/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的工作日
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，可促进项目管理数据的高效操作。在本教程中，我们将探索 Aspose.Tasks 中的工作日集合，使您能够自定义工作日、删除周末以及创建专门的日历来满足您的项目要求。无论您是经验丰富的开发人员还是新手，本分步指南都将引导您完成在 Aspose.Tasks for .NET 中处理工作日的过程。
 ## 先决条件
@@ -95,3 +101,9 @@ foreach (var weekDay in weekDaysArray)
 答：请参阅[.NET 文档的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)获取详细信息。
 ### 问：如何获得 Aspose.Tasks for .NET 的临时许可证？
 答：您可以从以下机构获得临时许可证：[临时许可证页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

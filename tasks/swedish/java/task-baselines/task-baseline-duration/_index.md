@@ -3,10 +3,16 @@ title: Task Baseline Duration Management i Aspose.Tasks
 linktitle: Task Baseline Duration Management i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du effektivt hanterar uppgiftsbaslinjer i MS Project med Aspose.Tasks för Java. Denna handledning guidar dig steg-för-steg genom processen.
-type: docs
 weight: 12
 url: /sv/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Task Baseline Duration Management i Aspose.Tasks
+
 ## Introduktion
 Att hantera uppgiftsbaslinjer i MS Project är avgörande för projektplanering och spårning. I den här handledningen kommer vi att undersöka hur man effektivt hanterar uppgiftens baslinjevaraktighet med Aspose.Tasks för Java.
 ## Förutsättningar
@@ -76,3 +82,9 @@ Ja, du kan ändra uppgiftens baslinjer i MS Project för att återspegla ändrin
 Ja, Aspose.Tasks erbjuder ett brett utbud av funktioner för projektledning, inklusive uppgiftsschemaläggning, resursallokering och generering av Gantt-diagram.
 ### Var kan jag hitta support för Aspose.Tasks?
  Du kan hitta support för Aspose.Tasks på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), där du kan ställa frågor och interagera med andra användare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

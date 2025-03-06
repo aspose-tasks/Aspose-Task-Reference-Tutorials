@@ -3,10 +3,16 @@ title: Configurando níveis de escala de tempo do gráfico de Gantt em Aspose.Ta
 linktitle: Configurando camadas de escala de tempo em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks for .NET para configurar camadas de escala de tempo em sua visualização Gantt Chart para visualização precisa da linha do tempo do projeto. #Aspose.Tasks #Projeto MS
-type: docs
 weight: 16
 url: /pt/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando níveis de escala de tempo do gráfico de Gantt em Aspose.Tasks
+
 ## Introdução
 No cenário dinâmico do gerenciamento de projetos, a visualização eficaz é crucial para a compreensão de cronogramas e prazos. Aspose.Tasks for .NET fornece um conjunto de ferramentas poderoso e, neste tutorial, exploraremos como configurar camadas de escala de tempo para representação ideal na visualização do gráfico de Gantt. Siga estas instruções passo a passo para aprimorar a visualização do seu projeto.
 ## Pré-requisitos
@@ -86,3 +92,9 @@ Com certeza, Aspose.Tasks oferece amplas opções de personalização para a vis
 Certamente, você pode explorar vários formatos e estilos de representação da escala de tempo para melhor se adequar ao contexto do seu projeto.
 ### Existe um fórum da comunidade para suporte do Aspose.Tasks?
  Sim, visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

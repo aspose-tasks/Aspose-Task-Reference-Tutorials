@@ -3,10 +3,16 @@ title: Master Extended Attribute Definitions MS Project in Aspose.Tasks
 linktitle: Collection of Extended Attribute Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage extended attribute definitions in Microsoft Project using Aspose.Tasks for .NET. Customize and enhance your project data effortlessly.
-type: docs
 weight: 14
 url: /net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Extended Attribute Definitions MS Project in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will explore how to work with extended attribute definitions in Microsoft Project using Aspose.Tasks for .NET. Extended attributes offer a flexible way to customize and enhance project data, allowing users to add additional fields beyond the standard ones provided by default. With Aspose.Tasks, you can effortlessly manage these extended attributes to tailor your project management needs.
 ## Prerequisites
@@ -92,3 +98,10 @@ A: Absolutely, extended attributes can be used to calculate custom fields based 
 A: Aspose.Tasks is compatible with various .NET frameworks, ensuring flexibility and ease of integration.
 ### Q: Where can I find more resources and support for Aspose.Tasks?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for support and explore the documentation [here](https://reference.aspose.com/tasks/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

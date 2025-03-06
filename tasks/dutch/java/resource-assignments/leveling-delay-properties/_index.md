@@ -3,10 +3,16 @@ title: Behandel de eigenschappen van de nivelleringsvertraging in Aspose.Tasks
 linktitle: Behandel de eigenschappen van de nivelleringsvertraging voor resourcetoewijzingen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer met deze uitgebreide tutorial hoe u omgaat met de eigenschappen van nivelleringsvertraging voor resourcetoewijzingen in Aspose.Tasks voor Java.
-type: docs
 weight: 17
 url: /nl/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandel de eigenschappen van de nivelleringsvertraging in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het afhandelen van eigenschappen van nivelleringsvertraging voor resourcetoewijzingen in Aspose.Tasks voor Java. Aspose.Tasks is een krachtige Java-bibliotheek waarmee u met Microsoft Project-bestanden kunt werken zonder dat Microsoft Project op uw systeem hoeft te worden geïnstalleerd.
 ## Vereisten
@@ -91,3 +97,9 @@ A: Ja, Aspose.Tasks ondersteunt verschillende versies van Microsoft Project-best
 ### Vraag: Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
 
  A: U kunt een tijdelijke licentie aanvragen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

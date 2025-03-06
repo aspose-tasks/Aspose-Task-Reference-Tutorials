@@ -3,10 +3,16 @@ title: Αποθήκευση ως PDF στο Aspose.Tasks
 linktitle: Αποθήκευση ως PDF στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να μετατρέπετε αρχεία έργου σε PDF χρησιμοποιώντας το Aspose.Tasks για Java. Απλά βήματα για αποτελεσματική μετατροπή.
-type: docs
 weight: 17
 url: /el/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση ως PDF στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία αποθήκευσης ενός έργου ως PDF χρησιμοποιώντας το Aspose.Tasks για Java. Με το Aspose.Tasks, μπορείτε να μετατρέψετε αποτελεσματικά τα αρχεία του έργου σας σε μορφή PDF, διασφαλίζοντας συμβατότητα και ευκολία κοινής χρήσης. Ας βουτήξουμε στα βήματα:
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
  Α: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Tasks από[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Α: Για υποστήριξη και βοήθεια, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

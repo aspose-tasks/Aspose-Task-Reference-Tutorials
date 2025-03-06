@@ -3,10 +3,16 @@ title: Nhận số lượng trang trong dự án với Aspose.Tasks
 linktitle: Nhận số lượng trang trong dự án với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khai phá tiềm năng phát triển Java với Aspose.Tasks. Tìm hiểu cách thao tác liền mạch với các tệp Microsoft Project và nâng cao năng suất của bạn.
-type: docs
 weight: 16
 url: /vi/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận số lượng trang trong dự án với Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, Aspose.Tasks nổi bật như một công cụ mạnh mẽ để xử lý các tệp Microsoft Project. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu bước chân vào lập trình Java, thì việc thành thạo Aspose.Tasks có thể nâng cao đáng kể khả năng thao tác và trích xuất những hiểu biết có giá trị từ các tệp Dự án của bạn.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Trả lời: Aspose.Tasks cung cấp tài liệu và hỗ trợ toàn diện, gi
  Đ: Có, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tương tác với cộng đồng và tìm kiếm trợ giúp về bất kỳ vấn đề hoặc thắc mắc nào.
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua hàng không?
  Trả lời: Hoàn toàn có thể, bạn có thể khám phá các tính năng và chức năng của Aspose.Tasks bằng cách nhận bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

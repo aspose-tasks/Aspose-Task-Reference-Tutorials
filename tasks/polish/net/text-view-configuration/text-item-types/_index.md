@@ -3,10 +3,16 @@ title: Przewodnik dostosowywania typu elementu tekstowego w Aspose.Tasks
 linktitle: Obsługa typów elementów tekstowych w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Opanuj dostosowywanie typu elementu tekstowego w Aspose.Tasks dla .NET dzięki temu przewodnikowi krok po kroku. Bez wysiłku podnieś poziom swojej gry w zarządzanie projektami.
-type: docs
 weight: 10
 url: /pl/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przewodnik dostosowywania typu elementu tekstowego w Aspose.Tasks
+
 ## Wstęp
 Jeśli jesteś programistą .NET i zajmujesz się zarządzaniem projektami przy użyciu Aspose.Tasks, trafiłeś we właściwe miejsce! W tym przewodniku krok po kroku zbadamy zawiłości obsługi typów elementów tekstowych w Aspose.Tasks, skupiając się na dostosowywaniu przy użyciu potężnej biblioteki .NET.
 ## Warunki wstępne
@@ -74,3 +80,9 @@ Gratulacje! Właśnie zarysowałeś podstawy obsługi typów elementów tekstowy
 O: Więcej samouczków znajdziesz w dokumentacji Aspose.Tasks.
 ### P: Gdzie mogę kupić Aspose.Tasks dla .NET?
  O: Kup bibliotekę[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

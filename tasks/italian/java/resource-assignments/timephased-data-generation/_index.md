@@ -3,10 +3,16 @@ title: Genera dati rapportati alla scala cronologica in Aspose.Tasks
 linktitle: Genera dati rapportati alla scala cronologica per le assegnazioni di risorse in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come generare dati rapportati alla scala cronologica per le assegnazioni di risorse utilizzando Aspose.Tasks per Java. Migliora l'efficienza della gestione dei progetti con questa guida completa.
-type: docs
 weight: 24
 url: /it/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genera dati rapportati alla scala cronologica in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, esamineremo il processo di generazione di dati rapportati alla scala cronologica per le assegnazioni di risorse utilizzando Aspose.Tasks per Java. I dati temporali forniscono informazioni preziose su come le risorse vengono allocate nel tempo all'interno di un progetto, aiutando i project manager a prendere decisioni informate.
 ## Prerequisiti
@@ -124,3 +130,9 @@ Sì, Aspose.Tasks supporta vari formati di file di progetto, inclusi MPP, XML e 
 Sì, Aspose.Tasks consente agli utenti di definire contorni di lavoro personalizzati per soddisfare le loro specifiche esigenze di progetto.
 ### Esiste un forum della community in cui posso ottenere assistenza con Aspose.Tasks?
  Sì, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

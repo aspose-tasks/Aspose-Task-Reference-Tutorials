@@ -3,10 +3,16 @@ title: คุณสมบัติของสกุลเงิน
 linktitle: คุณสมบัติของสกุลเงิน
 second_title: Aspose.Tasks Java API
 description: ปลดล็อกพลังของ Aspose.Tasks สำหรับการสอน Java ค้นพบคำแนะนำทีละขั้นตอนในการอ่านและการตั้งค่าคุณสมบัติสกุลเงินในไฟล์ MS Project ได้อย่างง่ายดาย
-type: docs
 weight: 25
 url: /th/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติของสกุลเงิน
+
 ## การแนะนำ
 คุณพร้อมที่จะยกระดับ Aspose.Tasks สำหรับทักษะ Java แล้วหรือยัง? เจาะลึกบทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับคุณสมบัติของสกุลเงิน และฝึกฝนศิลปะในการจัดการข้อมูลสกุลเงินภายในไฟล์ MS Project
 
@@ -35,3 +41,9 @@ url: /th/java/currency-properties/
 เรียนรู้วิธีแยกข้อมูลสกุลเงินจากไฟล์ MS Project โดยใช้ Aspose.Tasks สำหรับ Java มีคำแนะนำทีละขั้นตอน
 ### [ตั้งค่าคุณสมบัติสกุลเงินในโครงการ Aspose.Tasks](./set-properties/)
 เรียนรู้วิธีตั้งค่าคุณสมบัติสกุลเงินในโปรเจ็กต์ Aspose.Tasks โดยใช้ Java จัดการไฟล์ Microsoft Project ได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

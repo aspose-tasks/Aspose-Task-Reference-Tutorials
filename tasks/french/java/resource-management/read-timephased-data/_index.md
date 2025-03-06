@@ -3,10 +3,16 @@ title: Lire les données chronologiques pour les ressources dans Aspose.Tasks
 linktitle: Lire les données chronologiques pour les ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment extraire des données chronologiques à partir de ressources MS Project à l'aide d'Aspose.Tasks pour Java. Tutoriel étape par étape.
-type: docs
 weight: 15
 url: /fr/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lire les données chronologiques pour les ressources dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de lecture des données chronologiques pour les ressources MS Project à l'aide d'Aspose.Tasks pour Java. Cette bibliothèque fournit des fonctionnalités puissantes pour gérer les fichiers Microsoft Project par programme.
 ## Conditions préalables
@@ -74,3 +80,9 @@ Absolument, Aspose.Tasks fournit des API complètes pour créer, modifier et ana
 Oui, Aspose.Tasks est largement utilisé dans les environnements d'entreprise en raison de sa fiabilité et de son évolutivité.
 ### Où puis-je trouver de l'aide si je rencontre des problèmes lors de l'utilisation d'Aspose.Tasks ?
  Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir l’aide de la communauté et de l’équipe de soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

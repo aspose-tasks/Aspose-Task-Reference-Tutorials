@@ -3,10 +3,16 @@ title: Máy chủ Lưu tùy chọn dự án MS cho Aspose.Tasks
 linktitle: Tùy chọn lưu máy chủ dự án cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu các tùy chọn Microsoft Project cho Aspose.Tasks bằng cách tích hợp Project Server. Tăng cường quy trình quản lý dự án của bạn.
-type: docs
 weight: 16
 url: /vi/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Máy chủ Lưu tùy chọn dự án MS cho Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc lưu các tùy chọn Microsoft Project cho Aspose.Tasks bằng Project Server. Aspose.Tasks là một API .NET mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Tận dụng các khả năng của Project Server, chúng tôi có thể tích hợp liền mạch Aspose.Tasks vào quy trình quản lý dự án của mình. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Có, Aspose.Tasks được thiết kế an toàn theo luồng, cho 
 Trả lời: Có, bạn có thể điều chỉnh các tùy chọn lưu như tên dự án, thời gian chờ và khoảng thời gian bỏ phiếu cho phù hợp với yêu cầu của bạn.
 ### Câu hỏi: Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

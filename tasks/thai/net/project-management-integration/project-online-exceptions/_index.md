@@ -3,10 +3,16 @@ title: การจัดการข้อยกเว้น MS Project Online 
 linktitle: การทำงานกับข้อยกเว้นของ Project Online ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการข้อยกเว้นของ Microsoft Project Online ได้อย่างราบรื่นด้วย Aspose.Tasks สำหรับ .NET บทช่วยสอนทีละขั้นตอนเพื่อการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 21
 url: /th/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อยกเว้น MS Project Online ใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการจัดการข้อยกเว้น Microsoft Project Online โดยใช้ Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็น .NET API อันทรงพลังที่ช่วยให้นักพัฒนาจัดการและจัดการไฟล์ Microsoft Project ได้อย่างง่ายดาย เราจะอธิบายกระบวนการทีละขั้นตอน เพื่อให้มั่นใจว่ามีความเข้าใจที่ครอบคลุมเกี่ยวกับวิธีการทำงานกับข้อยกเว้น MS Project Online ในแอปพลิเคชัน .NET ของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ manager.CreateNewProject(project);
 ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้อย่างไร
  ตอบ: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

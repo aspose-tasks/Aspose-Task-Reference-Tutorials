@@ -3,10 +3,16 @@ title: A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
 linktitle: A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java alkalmazást, és tanulja meg könnyedén kezelni a feladatok időtartamát. Kövesse lépésről lépésre útmutatónkat a hatékony projekttervezés és -végrehajtás érdekében.
-type: docs
 weight: 20
 url: /hu/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Az Aspose.Tasks for Java robusztus megoldást kínál a projektfeladatok és -időtartamok hatékony kezelésére. Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a feladatok időtartamát az Aspose.Tasks segítségével, és végigvezeti Önt az egyes lépéseken. Legyen szó tapasztalt fejlesztőről vagy kezdőről, ez az útmutató segít megérteni a projektekben a feladatok időtartamával történő munkavégzés lényegét.
 ## Előfeltételek
@@ -67,3 +73,9 @@ Az Aspose.Tasks kompatibilis a Java 6 és újabb verzióival.
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) hogy fedezze fel az Aspose.Tasks-t vásárlás előtt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: مجموعة كائنات OLE في Aspose.Tasks
 linktitle: مجموعة كائنات OLE في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة كائنات OLE في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي الشامل. أتقن التعامل مع الملفات المضمنة في مستندات المشروع دون عناء.
-type: docs
 weight: 23
 url: /ar/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة كائنات OLE في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في إدارة كائنات OLE (ربط الكائنات وتضمينها) في Aspose.Tasks لـ .NET. تمكن كائنات OLE المستخدمين من تضمين أو ربط الملفات من تطبيقات أخرى داخل ملف المشروع. سنغطي كيفية العمل مع مجموعة من هذه الكائنات خطوة بخطوة.
@@ -97,3 +103,9 @@ A1: كائن OLE (ربط الكائنات وتضمينها) هو تقنية تت
 ### س5: أين يمكنني العثور على الدعم لـ Aspose.Tasks؟
 
  ج5: يمكنك طلب الدعم وطرح الأسئلة في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

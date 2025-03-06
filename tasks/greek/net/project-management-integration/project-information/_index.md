@@ -3,10 +3,16 @@ title: Εξαγωγή πληροφοριών έργου MS στο Aspose.Tasks
 linktitle: Εξαγωγή πληροφοριών έργου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εξάγετε πληροφορίες MS Project χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks για .NET. Βουτήξτε στο περιεκτικό μας σεμινάριο.
-type: docs
 weight: 20
 url: /el/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή πληροφοριών έργου MS στο Aspose.Tasks
+
 ## Εισαγωγή
 Ψάχνετε να εξαγάγετε αποτελεσματικά πληροφορίες από αρχεία Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET; Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα. Αλλά προτού βουτήξουμε στις λεπτομέρειες υλοποίησης, ας βεβαιωθούμε πρώτα ότι έχετε όλα όσα χρειάζεστε.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ foreach (var info in list)
  Α: Ναι, μπορείτε να λάβετε τεχνική υποστήριξη για το Aspose.Tasks για .NET μέσω του[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15), όπου μπορείτε να κάνετε ερωτήσεις και να ζητήσετε βοήθεια από ειδικούς.
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.Tasks για .NET πριν το αγοράσω;
  Α: Σίγουρα! Μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Tasks για .NET από το[σελίδα εκδόσεων](https://releases.aspose.com/), επιτρέποντάς σας να εξερευνήσετε τις δυνατότητές του πριν πάρετε μια απόφαση αγοράς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트 관리 및 사용자 정의
 linktitle: Aspose.Tasks 프로젝트 관리 및 사용자 정의
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 관리 튜토리얼을 통해 .NET용 Aspose.Tasks를 마스터하세요. MS 프로젝트 파일에 대한 효율적인 조작, 사용자 정의 및 최적화 기술을 알아보세요.
-type: docs
 weight: 23
 url: /ko/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트 관리 및 사용자 정의
+
 ## 소개
 
 Aspose.Tasks for .NET으로 프로젝트 관리 기술을 향상시킬 준비가 되셨습니까? 우리의 포괄적인 튜토리얼은 획득 가치 MS 프로젝트 방법을 마스터하는 것부터 프로젝트 속성을 효율적으로 관리하고 Gantt 차트를 사용자 정의하는 것까지 다양한 주제를 다룹니다. Aspose.Tasks의 세계로 뛰어들어 프로젝트 관리의 잠재력을 최대한 활용해 보세요.
@@ -130,3 +136,9 @@ Aspose.Tasks를 사용하여 .NET에서 프로그래밍 방식으로 MS 프로�
 .NET용 Aspose.Tasks를 사용하여 Group Criterion MS 프로젝트 컬렉션을 관리하는 방법을 알아보세요. 개발자를 위한 단계별 가이드.
 ### [Aspose.Tasks를 사용하여 머리글 및 바닥글 정보 추출](./header-footer-information/)
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일에서 머리글 및 바닥글 정보를 추출하는 방법을 알아보세요. 쉽고 효율적이며 개발자 친화적인 솔루션입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

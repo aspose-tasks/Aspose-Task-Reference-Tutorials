@@ -3,10 +3,16 @@ title: Feladat tulajdonságai
 linktitle: Feladat tulajdonságai
 second_title: Aspose.Tasks Java API
 description: Javítsa a Java projektkezelést az Aspose.Tasks segítségével. Fedezze fel a feladat tulajdonságairól szóló oktatóanyagokat, a prioritások kezelésétől a költségek kezeléséig. Optimalizálja projektjét még ma!
-type: docs
 weight: 34
 url: /hu/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat tulajdonságai
+
 ## Bevezetés
 
 Az Aspose.Tasks segítségével könnyedén kezelheti és testreszabhatja a Microsoft Project fájlokat Java nyelven. Fedezze fel a feladattulajdonságok különféle aspektusait lefedő oktatóanyagokat a projektkezelési képességek fejlesztése érdekében.
@@ -138,3 +144,9 @@ Fedezze fel az Aspose.Tasks for Java-t és a főfeladat időfázisú adatkezelé
 Ismerje meg, hogyan frissítheti a feladatadatokat MPP formátumra az Aspose.Tasks for Java segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony projektmenedzsment érdekében.
 ### [WBS Aspose.Tasks feladathoz társítva](./wbs-associated-with-task/)
 A WBS elsajátítása Aspose.Tasks for Java segítségével – Tanulja meg a feladatok WBS kódjainak olvasását és újraszámozását. Növelje a projektmenedzsment hatékonyságát!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

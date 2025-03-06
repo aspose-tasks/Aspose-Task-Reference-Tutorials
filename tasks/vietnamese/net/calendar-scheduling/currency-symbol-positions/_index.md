@@ -3,10 +3,16 @@ title: Vị trí ký hiệu tiền tệ trong Aspose.Tasks
 linktitle: Vị trí ký hiệu tiền tệ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách kiểm soát vị trí ký hiệu tiền tệ trong các dự án .NET một cách dễ dàng với Aspose.Tasks.
-type: docs
 weight: 22
 url: /vi/net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vị trí ký hiệu tiền tệ trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong phát triển phần mềm, việc xử lý hiệu quả các khía cạnh khác nhau như quản lý dự án là rất quan trọng. Aspose.Tasks for .NET cung cấp các giải pháp mạnh mẽ để quản lý các tác vụ, dự án và tài nguyên một cách liền mạch trong các ứng dụng .NET. Trong số nhiều tính năng của nó, việc kiểm soát vị trí của các ký hiệu tiền tệ là điều cần thiết để theo dõi và báo cáo tài chính. Trong hướng dẫn này, chúng ta sẽ khám phá cách thao tác các vị trí ký hiệu tiền tệ bằng Aspose.Tasks cho .NET.
@@ -84,3 +90,9 @@ Câu trả lời 2: Có, Aspose.Tasks hỗ trợ nhiều loại tiền tệ, cho
 ### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép Aspose.Tasks cho .NET?
 
  Câu trả lời 5: Bạn có thể mua giấy phép Aspose.Tasks cho .NET từ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中顯示標籤
 linktitle: 在 Aspose.Tasks 中顯示標籤
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 在專案管理中自訂標籤顯示。輕鬆增強可讀性和清晰度。
-type: docs
 weight: 14
 url: /zh-hant/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中顯示標籤
+
 ## 介紹
 
 在軟體開發領域，有效管理任務對於專案成功至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案，可在 .NET 框架內無縫處理專案管理任務。專案管理的一個關鍵方面是能夠自訂顯示選項以滿足特定要求。在本教程中，我們將探索如何利用 Aspose.Tasks for .NET 來操作專案檔案中的分鐘、小時、日、週、月和年標籤顯示。
@@ -137,3 +143,10 @@ A4：Aspose.Tasks for .NET 為標籤顯示提供了廣泛的自訂選項，限�
 ### Q5：Aspose.Tasks 支援與其他專案管理工具整合嗎？
 
 A5：是的，Aspose.Tasks 提供無縫整合功能，促進與其他專案管理工具和平台的互通性。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

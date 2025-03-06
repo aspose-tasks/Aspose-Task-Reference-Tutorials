@@ -3,10 +3,16 @@ title: قم باستخراج معلومات الرأس والتذييل باست
 linktitle: معلومات الرأس والتذييل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعلم كيفية استخراج معلومات الرأس والتذييل من ملفات MS Project باستخدام Aspose.Tasks لـ .NET. حل سهل وفعال وصديق للمطورين.
-type: docs
 weight: 29
 url: /ar/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم باستخراج معلومات الرأس والتذييل باستخدام Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بمعالجة ملفات Microsoft Project بسهولة. في هذا البرنامج التعليمي، سوف نتعلم كيفية استرداد معلومات الرأس والتذييل من ملفات MS Project باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  يمكنك العثور على وثائق Aspose.Tasks[هنا](https://reference.aspose.com/tasks/net/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  يمكنك الحصول على الدعم لـ Aspose.Tasks بزيارة الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

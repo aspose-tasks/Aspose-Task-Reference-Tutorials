@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 속성 컬렉션 관리
 linktitle: Aspose.Tasks에서 확장된 속성 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS Project 확장 속성을 효율적으로 관리하는 방법을 알아보세요. 단계별 지침에 따라 작업 속성을 원활하게 조작합니다.
-type: docs
 weight: 12
 url: /ko/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 속성 컬렉션 관리
+
 ## 소개
 .NET용 Aspose.Tasks를 사용하여 MS Project 확장 속성을 효율적으로 관리하고 싶으십니까? 이 튜토리얼에서는 프로세스를 단계별로 안내합니다. 뛰어들어보자!
 ## 전제조건
@@ -105,3 +111,9 @@ A: .NET용 Aspose.Tasks는 작업당 확장 속성 수에 본질적인 제한을
 A: 예, .NET용 Aspose.Tasks는 다양한 버전에서 MS Project 파일 형식을 지원합니다.
 ### Q: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
  A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

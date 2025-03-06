@@ -3,10 +3,16 @@ title: 公式
 linktitle: 公式
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 來提升您的專案管理技能。掌握 MS Project 公式，提高工作效率，輕鬆有效率地編寫/讀取公式。
-type: docs
 weight: 23
 url: /zh-hant/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 公式
+
 
 ## 介紹
 
@@ -38,3 +44,9 @@ url: /zh-hant/java/formulas/
 了解如何使用 Aspose.Tasks 函式庫在 Java 中操作 MS Project 檔案。輕鬆建立、修改和計算屬性。
 ### [在 Aspose.Tasks 中編寫和讀取 MS 專案公式](./write-read-formulas/)
 學習使用 Aspose.Tasks for Java 有效率地編寫和讀取 MS Project 公式。提升您的專案管理技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

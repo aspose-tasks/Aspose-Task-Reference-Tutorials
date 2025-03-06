@@ -3,10 +3,16 @@ title: Baca File yang Dilindungi Kata Sandi di Aspose.Tasks
 linktitle: Baca File yang Dilindungi Kata Sandi di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membaca file yang dilindungi kata sandi di Aspose.Tasks untuk Java dengan mudah dengan panduan langkah demi langkah dalam tutorial ini.
-type: docs
 weight: 14
 url: /id/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca File yang Dilindungi Kata Sandi di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Salah satu tugas umum yang dihadapi pengembang adalah membaca file yang dilindungi kata sandi. Dalam tutorial ini, kami akan memandu Anda melalui proses membaca file tersebut langkah demi langkah.
 ## Prasyarat
@@ -49,3 +55,9 @@ J: Anda dapat menemukan dokumentasi terperinci tentang Aspose.Tasks untuk Java[D
  A: Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks untuk Java?
  J: Anda mungkin memerlukan lisensi sementara untuk fungsi tertentu atau selama periode evaluasi. Mendapatkan[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

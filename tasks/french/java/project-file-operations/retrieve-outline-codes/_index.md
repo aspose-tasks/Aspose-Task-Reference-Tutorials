@@ -3,10 +3,16 @@ title: Récupérer les codes de plan MS Project dans Aspose.Tasks
 linktitle: Récupérer les codes hiérarchiques dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment récupérer les codes hiérarchiques de Microsoft Project par programmation à l'aide d'Aspose.Tasks pour Java. Améliorez vos capacités de gestion de projet.
-type: docs
 weight: 15
 url: /fr/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Récupérer les codes de plan MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment récupérer les codes hiérarchiques de Microsoft Project à l'aide d'Aspose.Tasks pour Java. Les codes hiérarchiques dans MS Project fournissent un moyen structuré de catégoriser et d'organiser les tâches, les ressources et les affectations du projet. Aspose.Tasks est une puissante bibliothèque Java qui permet aux développeurs de manipuler et de gérer les fichiers Microsoft Project par programme.
 ## Conditions préalables
@@ -82,3 +88,9 @@ R : Oui, Aspose.Tasks for Java fournit des API pour modifier les codes hiérarch
  R : Oui, vous pouvez acheter une licence temporaire pour Aspose.Tasks for Java auprès du[page d'achat](https://purchase.aspose.com/temporary-license/).
 ### Q5 : Où puis-je trouver la documentation complète d'Aspose.Tasks pour Java ?
  R : Vous pouvez vous référer au[Documentation](https://reference.aspose.com/tasks/java/) pour des informations détaillées sur l’utilisation d’Aspose.Tasks pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

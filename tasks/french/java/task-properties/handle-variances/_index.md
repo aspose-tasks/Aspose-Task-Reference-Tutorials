@@ -3,10 +3,16 @@ title: Gérer les écarts de tâches dans Aspose.Tasks
 linktitle: Gérer les écarts de tâches dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez la puissance d'Aspose.Tasks pour Java dans la gestion des écarts entre les tâches d'un projet. Suivez notre guide complet pour une intégration transparente et une gestion efficace.
-type: docs
 weight: 19
 url: /fr/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les écarts de tâches dans Aspose.Tasks
+
 ## Introduction
 Dans le monde de la gestion de projet, Aspose.Tasks for Java se distingue comme un outil robuste et polyvalent pour gérer efficacement les écarts de tâches. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.Tasks pour gérer et s'adapter de manière transparente aux variations des tâches.
 ## Conditions préalables
@@ -68,3 +74,9 @@ Oui, vous pouvez obtenir une licence temporaire pour Aspose.Tasks[ici](https://p
  Pour obtenir de l'aide et des discussions, visitez le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
 ### Puis-je télécharger Aspose.Tasks pour Java ?
  Oui, téléchargez la dernière version d'Aspose.Tasks pour Java[ici](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

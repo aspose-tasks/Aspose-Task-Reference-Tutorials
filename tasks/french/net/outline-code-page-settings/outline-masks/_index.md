@@ -3,10 +3,16 @@ title: Maîtriser les masques de plan Microsoft Project dans Aspose.Tasks
 linktitle: Travailler avec des masques de contour dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à travailler avec des fichiers Microsoft Project par programmation à l'aide d'Aspose.Tasks pour .NET. Maîtrisez efficacement les masques de contour.
-type: docs
 weight: 14
 url: /fr/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les masques de plan Microsoft Project dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet et du suivi des tâches, Microsoft Project constitue un outil incontournable. Cependant, lorsqu'il s'agit de manipuler et de gérer des fichiers de projet par programmation, Aspose.Tasks for .NET apparaît comme une solution puissante. Ce didacticiel abordera un aspect spécifique de l'utilisation des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET : la gestion des masques de plan.
 ## Conditions préalables
@@ -76,3 +82,9 @@ R : Oui, Aspose.Tasks permet aux développeurs de lire et d'écrire dans des fic
  R : Bien sûr ! Vous pouvez accéder à un essai gratuit d'Aspose.Tasks[ici](https://releases.aspose.com/).
 ### Q : Où puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  R : Si vous avez besoin d'une licence temporaire à des fins d'évaluation ou de test, vous pouvez en obtenir une.[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

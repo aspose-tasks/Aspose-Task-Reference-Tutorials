@@ -3,10 +3,16 @@ title: Správa vlastností hypertextového odkazu pro přiřazení v Aspose.Task
 linktitle: Správa vlastností hypertextového odkazu pro přiřazení prostředků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se spravovat vlastnosti hypertextových odkazů pro přiřazení zdrojů v Aspose.Tasks for Java. Vylepšete spolupráci a dostupnost při řízení projektů.
-type: docs
 weight: 16
 url: /cs/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa vlastností hypertextového odkazu pro přiřazení v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for Java nabízí výkonné funkce pro správu projektových úkolů a zdrojů. V tomto tutoriálu se zaměříme na to, jak spravovat vlastnosti hypertextových odkazů pro přiřazení zdrojů pomocí Aspose.Tasks. Podle těchto podrobných pokynů budete schopni efektivně zpracovávat hypertextové odkazy spojené s přiřazením zdrojů vašeho projektu.
 ## Předpoklady
@@ -84,3 +90,9 @@ Odpověď: Aspose.Tasks neukládá striktní omezení délky hypertextových odk
 Odpověď: Ano, můžete odebrat hypertextové odkazy z přiřazení zdrojů nastavením vlastností hypertextového odkazu na null nebo prázdné řetězce.
 ### Otázka: Podporuje Aspose.Tasks ověřování hypertextových odkazů?
 Odpověď: Aspose.Tasks se zaměřuje spíše na správu vlastností hypertextových odkazů než na ověřování hypertextových odkazů. Můžete však implementovat vlastní logiku ověřování v rámci své aplikace Java, abyste zajistili integritu hypertextového odkazu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

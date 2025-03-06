@@ -3,10 +3,16 @@ title: Αντικαταστήστε το MS Project Calendar στο Aspose.Tasks
 linktitle: Αντικαταστήστε το Ημερολόγιο στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς μπορείτε να αντικαταστήσετε το ημερολόγιο του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 12
 url: /el/java/project-file-operations/replace-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αντικαταστήστε το MS Project Calendar στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον τρόπο αντικατάστασης του ημερολογίου του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού. Μια κοινή εργασία στη διαχείριση έργων είναι η προσαρμογή των ημερολογίων και το Aspose.Tasks απλοποιεί σημαντικά αυτήν τη διαδικασία.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ System.out.println("Process completed Successfully");
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για Java από[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη ή βοήθεια σχετικά με το Aspose.Tasks;
  Α: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για υποστήριξη και καθοδήγηση από την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

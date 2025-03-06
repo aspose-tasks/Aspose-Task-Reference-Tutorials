@@ -3,10 +3,16 @@ title: Kelola Lembur untuk Sumber Daya di Aspose.Tasks
 linktitle: Kelola Lembur untuk Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Kelola waktu lembur secara efisien untuk sumber daya MS Project menggunakan Aspose.Tasks untuk Java. Optimalkan pemanfaatan sumber daya dan manajemen biaya dengan mudah.
-type: docs
 weight: 13
 url: /id/java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Lembur untuk Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam manajemen proyek, pengelolaan sumber daya secara efisien sangat penting untuk keberhasilan penyelesaian proyek. Manajemen lembur merupakan aspek penting, memastikan sumber daya dimanfaatkan secara optimal tanpa mengeluarkan biaya berlebihan. Aspose.Tasks untuk Java menyediakan fungsionalitas yang kuat untuk mengelola lembur untuk sumber daya MS Project dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses pengelolaan lembur langkah demi langkah.
 ## Prasyarat
@@ -59,3 +65,9 @@ Sangat! Aspose.Tasks menyediakan API yang kuat untuk mengotomatiskan tugas manaj
  Ya, Aspose.Tasks memberikan dukungan teknis yang komprehensif melalui forumnya. Anda dapat mengakses forum dukungan[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Bisakah saya mencoba Aspose.Tasks untuk Java sebelum membeli?
 Ya, Anda dapat menjelajahi Aspose.Tasks untuk Java dengan uji coba gratis. Unduh versi uji coba[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

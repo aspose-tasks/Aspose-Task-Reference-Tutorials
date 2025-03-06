@@ -3,10 +3,16 @@ title: Erstellen Sie Aufgaben in Aspose.Tasks
 linktitle: Erstellen Sie Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Verwalten Sie Java-Projekte mühelos mit Aspose.Tasks. Erstellen Sie Aufgaben, Unteraufgaben und mehr. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für ein reibungsloses Projektmanagement.
-type: docs
 weight: 13
 url: /de/java/task-properties/create-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie Aufgaben in Aspose.Tasks
+
 ## Einführung
 Willkommen in der Welt von Aspose.Tasks für Java! Wenn Sie Aufgaben und Projekte in Ihrer Java-Anwendung effizient verwalten möchten, sind Sie hier richtig. In diesem umfassenden Leitfaden führen wir Sie durch den Prozess der Aufgabenerstellung mit Aspose.Tasks für Java und schlüsseln jeden Schritt auf, um ein nahtloses Erlebnis zu gewährleisten.
 ## Voraussetzungen
@@ -54,3 +60,9 @@ Absolut! Aspose.Tasks ist vielseitig und kann für Projekte jeder Größenordnun
 Ja, Sie können Aufgabenattribute umfassend an Ihre Projektanforderungen anpassen.
 ### Gibt es eine Support-Community für Aspose.Tasks-Benutzer?
  Absolut! Treten Sie der Aspose.Tasks-Community bei[das Support-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

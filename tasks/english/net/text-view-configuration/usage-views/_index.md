@@ -3,10 +3,16 @@ title: Configuring Usage Views in Aspose.Tasks
 linktitle: Configuring Usage Views in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn to configure task usage views in Aspose.Tasks for .NET. Enhance project visualization with detailed steps. Download the library now!
-type: docs
 weight: 17
 url: /net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring Usage Views in Aspose.Tasks
+
 ## Introduction
 If you're a .NET developer looking to enhance your project management capabilities, Aspose.Tasks is a powerful tool that allows you to manipulate Microsoft Project files effortlessly. In this tutorial, we'll focus on configuring usage views using Aspose.Tasks for .NET. Follow along to gain insights into rendering task usage views with details for better project visualization.
 ## Prerequisites
@@ -72,3 +78,10 @@ You can buy Aspose.Tasks [here](https://purchase.aspose.com/buy).
 Yes, explore the free trial [here](https://releases.aspose.com/).
 ### Q: Need support or have questions?
 Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

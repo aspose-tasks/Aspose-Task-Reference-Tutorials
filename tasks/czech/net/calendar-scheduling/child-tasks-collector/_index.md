@@ -3,10 +3,16 @@ title: Shromažďování dětských úkolů v Aspose.Tasks
 linktitle: Shromažďování dětských úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak efektivně shromažďovat podřízené úkoly pomocí Aspose.Tasks for .NET. Zlepšete řízení projektů ve svých aplikacích .NET.
-type: docs
 weight: 15
 url: /cs/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Shromažďování dětských úkolů v Aspose.Tasks
+
 ## Úvod
 
 V oblasti projektového řízení vyniká Aspose.Tasks for .NET jako robustní řešení pro efektivní zpracování úkolů a projektů. Tato výkonná knihovna poskytuje vývojářům nástroje, které potřebují k bezproblémové správě úkolů, projektů a všeho mezi tím. V tomto tutoriálu se ponoříme do specifického aspektu Aspose.Tasks: shromažďování dětských úkolů.
@@ -96,3 +102,9 @@ A4: Ano, uživatelé mají přístup k technické podpoře prostřednictvím[Fó
 ### Q5: Mohu vyzkoušet Aspose.Tasks pro .NET před nákupem?
 
  A5: Určitě! Můžete využít bezplatnou zkušební verzi z[stránka vydání](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

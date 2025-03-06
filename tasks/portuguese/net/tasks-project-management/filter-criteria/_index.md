@@ -3,10 +3,16 @@ title: Dominando os critérios de filtro do MS Project com Aspose.Tasks
 linktitle: Critérios de filtro em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como implementar critérios de filtro no MS Project usando Aspose.Tasks for .NET. Aumente a eficiência do gerenciamento de projetos com análise de dados direcionada.
-type: docs
 weight: 18
 url: /pt/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando os critérios de filtro do MS Project com Aspose.Tasks
+
 ## Introdução
 No domínio do gerenciamento de projetos, o Microsoft Project se destaca como uma ferramenta robusta, oferecendo uma infinidade de recursos para auxiliar planejadores e gerentes de projetos. Entre suas diversas funcionalidades está a capacidade de filtrar dados do projeto, permitindo que os usuários se concentrem em aspectos específicos das tarefas do seu projeto. No entanto, dominar esses recursos de filtragem pode ser uma tarefa difícil sem a orientação correta. Este tutorial tem como objetivo desmistificar o processo, fornecendo um guia passo a passo sobre a implementação de critérios de filtro no MS Project usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -89,3 +95,9 @@ R: Aspose.Tasks oferece suporte a .NET Framework, .NET Core e .NET Standard, gar
 R: Com certeza, você pode ajustar programaticamente os critérios de filtro com base em parâmetros dinâmicos, permitindo a análise adaptativa dos dados do projeto.
 ### P: Onde posso procurar assistência se encontrar problemas com o Aspose.Tasks?
  R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para buscar suporte da comunidade ou entrar em contato diretamente com o suporte Aspose.Tasks para assistência personalizada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

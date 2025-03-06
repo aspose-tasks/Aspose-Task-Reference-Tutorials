@@ -3,10 +3,16 @@ title: Εργασία με Ανάθεση στο Aspose.Tasks
 linktitle: Εργασία με Ανάθεση στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τις αναθέσεις έργων στο .NET χρησιμοποιώντας το Aspose.Tasks. Εξερευνήστε διαφορετικά περιγράμματα για τον προγραμματισμό πόρων.
-type: docs
 weight: 13
 url: /el/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με Ανάθεση στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο εργασίας με εργασίες στο Aspose.Tasks για .NET. Οι εργασίες είναι ζωτικής σημασίας στη διαχείριση έργου, καθώς κατανέμουν πόρους σε εργασίες, βοηθώντας στον προγραμματισμό και την παρακολούθηση της προόδου. Θα επικεντρωθούμε στη δημιουργία δεδομένων χρονικής φάσης εκχώρησης πόρων με διάφορα περιγράμματα χρησιμοποιώντας το Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Ναι, όπως αποδεικνύεται σε αυτό το σεμινά�
 ### Ε5: Πού μπορώ να βρω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
 
 A5: Μπορείτε να βρείτε υποστήριξη στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) όπου ειδικοί και μέλη της κοινότητας συμμετέχουν ενεργά σε συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks의 데이터베이스 설정
 linktitle: Aspose.Tasks의 데이터베이스 설정
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Primavera 데이터베이스에서 프로젝트를 가져오는 방법을 알아보세요. 이 포괄적인 튜토리얼에서 단계별 지침을 얻으세요.
-type: docs
 weight: 29
 url: /ko/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 데이터베이스 설정
+
 ## 소개
 
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일로 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 Primavera 데이터베이스에서 프로젝트를 가져오는 데 중점을 둘 것입니다.
@@ -100,3 +106,9 @@ A1: 예, 연결 문자열과 공급자 고정 이름을 적절하게 조정하�
 ### Q5: Aspose.Tasks for .NET을 사용하려면 임시 라이선스가 필요합니까?
 
  A5: 라이브러리의 전체 기능을 평가하려면 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 통한 효율적인 할당 비용 관리
 linktitle: Aspose.Tasks에서 할당 비용 처리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 할당 비용을 효과적으로 처리하는 방법을 알아보세요. 프로젝트 자원을 효율적으로 관리하기 위한 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 통한 효율적인 할당 비용 관리
+
 ## 소개
 프로젝트 관리 업무에는 할당 비용을 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for Java는 할당 비용을 효과적으로 처리할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 할당 비용을 관리하는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -64,3 +70,9 @@ A: Aspose.Tasks for Java는 MPP, XML, MPX를 포함한 다양한 프로젝트 �
  A: 예, 다음 사이트에서 무료 평가판을 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Q: 평가판에서 Aspose.Tasks for Java를 사용하려면 임시 라이선스가 필요합니까?
 A: 아니요. 평가판 사용에는 임시 라이선스가 필요하지 않습니다. 그러나 프로덕션 환경에는 권장됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

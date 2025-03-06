@@ -3,10 +3,16 @@ title: Tùy chọn định dạng tệp Aspose.Tasks
 linktitle: Tùy chọn định dạng tệp Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá các tùy chọn định dạng tệp Aspose.Tasks và cấu hình thành thạo các tùy chọn XAML & XLSX trong Aspose.Tasks .NET. Nâng cao khả năng quản lý dự án với các mẹo tùy chỉnh.
-type: docs
 weight: 34
 url: /vi/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn định dạng tệp Aspose.Tasks
+
 
 ## Giới thiệu
 
@@ -27,3 +33,9 @@ Tóm lại, hướng dẫn tùy chọn định dạng tệp Aspose.Tasks của c
 Tìm hiểu cách định cấu hình các tùy chọn MS Project XAML trong Aspose.Tasks cho .NET. Nâng cao tính linh hoạt và tùy chỉnh trong quản lý dự án với hướng dẫn từng bước.
 ### [Định cấu hình tùy chọn XLSX trong Aspose.Tasks](./configuring-xlsx-options/)
 Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh các cột, mã hóa và dễ dàng hơn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

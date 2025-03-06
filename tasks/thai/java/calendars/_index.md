@@ -3,10 +3,16 @@ title: ปฏิทิน
 linktitle: ปฏิทิน
 second_title: Aspose.Tasks Java API
 description: เสริมทักษะการจัดการโครงการ Java ของคุณด้วยบทช่วยสอน Aspose.Tasks จัดการปฏิทินหลัก สร้าง กำหนดวันทำงาน และอัปเดตปฏิทินได้อย่างง่ายดาย
-type: docs
 weight: 21
 url: /th/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ปฏิทิน
+
 ## การแนะนำ
 
 คุณเป็นนักพัฒนา Java ที่ต้องการปรับปรุงทักษะการจัดการโครงการของคุณหรือไม่? เจาะลึกบทช่วยสอน Aspose.Tasks ที่ครอบคลุมของเราซึ่งครอบคลุมแง่มุมต่างๆ ของการจัดการปฏิทิน MS Project ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนเหล่านี้จะให้คำแนะนำทีละขั้นตอนเพื่อปรับปรุงความสามารถของคุณ
@@ -64,3 +70,9 @@ url: /th/java/calendars/
 เรียนรู้วิธีอ่านสัปดาห์ทำงานจากปฏิทิน MS Project โดยใช้ Aspose.Tasks สำหรับ Java รับคำแนะนำทีละขั้นตอนในบทช่วยสอนที่ครอบคลุมนี้
 ### [อัปเดตปฏิทินโครงการ MS เป็นรูปแบบ MPP ด้วย Aspose.Tasks](./update-to-mpp/)
 เรียนรู้วิธีอัปเดตปฏิทิน MS Project เป็นรูปแบบ MPP ได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

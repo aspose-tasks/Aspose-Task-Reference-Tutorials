@@ -3,10 +3,16 @@ title: Créer et enregistrer un projet vide à diffuser dans Aspose.Tasks
 linktitle: Créer et enregistrer un projet vide à diffuser dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à créer et à enregistrer des fichiers MS Project vides dans un flux en Java avec Aspose.Tasks, simplifiant ainsi les tâches de gestion de projet sans effort.
-type: docs
 weight: 13
 url: /fr/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer et enregistrer un projet vide à diffuser dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment utiliser Aspose.Tasks pour Java pour créer et enregistrer un MS Project vide dans un flux. Aspose.Tasks est une API Java puissante qui permet aux développeurs de travailler avec des fichiers Microsoft Project sans nécessiter l'installation de Microsoft Project sur la machine. En suivant ce guide, vous apprendrez les étapes nécessaires pour créer et enregistrer un fichier MS Project vide à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -69,3 +75,9 @@ Oui, Aspose.Tasks prend en charge plusieurs langages de programmation, notamment
  Vous pouvez obtenir de l'aide sur le forum communautaire[ici](https://forum.aspose.com/c/tasks/15).
 ### Puis-je acheter une licence temporaire pour Aspose.Tasks ?
  Oui, des licences temporaires sont disponibles à l'achat[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

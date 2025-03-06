@@ -3,10 +3,16 @@ title: إتقان أيام الأسبوع في Aspose.Tasks لـ .NET
 linktitle: تحديد أيام الأسبوع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة تحديد أيام الأسبوع في Aspose.Tasks .NET. اتبع برنامجنا التعليمي المفصل لإدارة تقاويم المشروع بكفاءة، وتخصيص أوقات العمل، والمزيد.
-type: docs
 weight: 10
 url: /ar/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أيام الأسبوع في Aspose.Tasks لـ .NET
+
 ## مقدمة
 إذا كنت تغوص في عالم إدارة المشاريع باستخدام Aspose.Tasks لـ .NET، فإن فهم أيام الأسبوع ومعالجتها يعد جانبًا بالغ الأهمية. يمكن أن تؤثر إدارة أيام الأسبوع وتخصيصها بكفاءة ضمن تقويم مشروعك بشكل كبير على الجداول الزمنية للمشروع. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحديد أيام الأسبوع باستخدام Aspose.Tasks، وسنقدم لك إرشادات وأمثلة خطوة بخطوة للحصول على وضوح أفضل.
 ## المتطلبات الأساسية
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 نعم، أي تعديلات على أيام الأسبوع تنعكس في ملف المشروع عند حفظه.
 ### هل يمكنني استخدام Aspose.Tasks مع لغات البرمجة الأخرى؟
 يدعم Aspose.Tasks العديد من لغات البرمجة، ولكن الأمثلة الواردة هنا مخصصة خصيصًا لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

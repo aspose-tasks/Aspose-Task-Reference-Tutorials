@@ -3,10 +3,16 @@ title: Číst časově uspořádaná data pro zdroje v Aspose.Tasks
 linktitle: Číst časově uspořádaná data pro zdroje v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se extrahovat časově uspořádaná data ze zdrojů MS Project pomocí Aspose.Tasks for Java. Výukový program krok za krokem.
-type: docs
 weight: 15
 url: /cs/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Číst časově uspořádaná data pro zdroje v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem čtení časově uspořádaných dat pro prostředky MS Project pomocí Aspose.Tasks for Java. Tato knihovna poskytuje výkonné funkce pro programovou správu souborů Microsoft Project.
 ## Předpoklady
@@ -74,3 +80,9 @@ Aspose.Tasks rozhodně poskytuje rozsáhlá API pro vytváření, úpravu a anal
 Ano, Aspose.Tasks je široce používán v podnikových prostředích díky své spolehlivosti a škálovatelnosti.
 ### Kde najdu podporu, pokud při používání Aspose.Tasks narazím na problémy?
  Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za pomoc od komunity a podpůrného týmu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

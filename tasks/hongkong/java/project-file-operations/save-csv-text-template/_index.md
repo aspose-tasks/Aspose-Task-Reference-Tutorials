@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中另存為 CSV、文字和模板
 linktitle: 在 Aspose.Tasks 中另存為 CSV、文字和模板
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 將 Microsoft Project 檔案儲存為 CSV、文字和範本格式。
-type: docs
 weight: 16
 url: /zh-hant/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中另存為 CSV、文字和模板
+
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Tasks for Java 以各種格式（例如 CSV、文字和範本）儲存專案檔。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓開發人員使用 Microsoft Project 文件，而無需安裝 Microsoft Project。
 ## 先決條件
@@ -77,3 +83,9 @@ project.saveAsTemplate(templateName, options);
 答：是的，您可以從以下位置購買臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/)，讓您能夠評估圖書館的全部潛力。
 ### Q：Aspose.Tasks for Java 是否相容於不同的作業系統？
 答：是的，Aspose.Tasks for Java 與各種作業系統相容，包括 Windows、macOS 和 Linux。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

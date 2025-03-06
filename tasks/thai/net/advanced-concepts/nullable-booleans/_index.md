@@ -3,10 +3,16 @@ title: การจัดการ Booleans แบบ Nullable ใน Aspose.Tas
 linktitle: การจัดการ Booleans แบบ Nullable ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการบูลีนที่เป็นโมฆะอย่างมีประสิทธิภาพใน Aspose.Tasks สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมนี้ ฝึกฝนการใช้งานคลาส `NullableBool` และปรับปรุงการพัฒนา .NET ของคุณ
-type: docs
 weight: 21
 url: /th/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการ Booleans แบบ Nullable ใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกการทำงานกับบูลีนที่เป็นโมฆะใน Aspose.Tasks สำหรับ .NET บูลีนแบบ Nullable มีความยืดหยุ่นในการแสดงค่าบูลีน ซึ่งทำให้ไม่สามารถกำหนดความเป็นไปได้ได้ เราจะสำรวจวิธีการใช้`NullableBool` คลาส ตัวสร้าง คุณสมบัติ และวิธีการ
@@ -153,3 +159,9 @@ A4: ได้ คุณสามารถตั้งค่าบูลีนท
 ### คำถามที่ 5: ฉันจะหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Tasks for .NET ได้ที่ไหน
 
  A5: คุณสามารถค้นหาเอกสารโดยละเอียดได้[ที่นี่](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

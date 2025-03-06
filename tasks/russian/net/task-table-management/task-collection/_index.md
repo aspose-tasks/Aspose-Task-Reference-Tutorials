@@ -3,10 +3,16 @@ title: Управление коллекциями задач в Aspose.Tasks
 linktitle: Управление коллекциями задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите эффективное управление коллекциями задач в Aspose.Tasks для .NET. От создания до редактирования — с легкостью освойте управление проектами.
-type: docs
 weight: 18
 url: /ru/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекциями задач в Aspose.Tasks
+
 ## Введение
 Если вы погружаетесь в мир управления проектами с использованием .NET, Aspose.Tasks — это идеальное решение для беспрепятственной обработки коллекций задач. Это руководство проведет вас через процесс эффективного управления коллекциями задач, гарантируя, что вы максимально эффективно используете эту мощную библиотеку.
 ## Предварительные условия
@@ -95,3 +101,9 @@ foreach (var task in tasks)
  Да, вы можете найти поддержку и пообщаться с сообществом на сайте[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Могу ли я получить временную лицензию на Aspose.Tasks?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

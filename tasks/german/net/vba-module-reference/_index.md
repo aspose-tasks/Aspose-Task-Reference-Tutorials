@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA-Modul und Referenzverarbeitung
 linktitle: Aspose.Tasks VBA-Modul und Referenzverarbeitung
 second_title: Aspose.Tasks .NET-API
 description: Sind Sie bereit, Ihre Projektmanagementfähigkeiten mit Aspose.Tasks .NET zu erweitern? Tauchen Sie ein in unsere umfassenden Tutorials zum Umgang mit VBA-Modulen und Referenzen.
-type: docs
 weight: 31
 url: /de/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA-Modul und Referenzverarbeitung
+
 
 ## Verwalten von VBA-Modulen in Aspose.Tasks
 
@@ -40,3 +46,9 @@ Entdecken Sie, wie Sie VBA-Modulsammlungen in Aspose.Tasks für .NET effizient v
 Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der mühelosen Verwaltung von VBA-Projekten. Verbessern Sie Ihre Projektmanagementfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
 ### [Umgang mit VBA-Referenzen in Aspose.Tasks](./vba-references/)
 Entdecken Sie mit unserem umfassenden Tutorial die Möglichkeiten des Umgangs mit VBA-Referenzen in Aspose.Tasks .NET. Lernen Sie, VBA-Referenzen nahtlos zu lesen, zu vergleichen und damit zu arbeiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tùy chỉnh các cột xem tài nguyên dự án MS trong Aspose.Tasks
 linktitle: Tùy chỉnh các cột xem tài nguyên trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách tùy chỉnh các cột xem tài nguyên MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET. Tạo chế độ xem phù hợp để quản lý dự án tốt hơn.
-type: docs
 weight: 17
 url: /vi/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh các cột xem tài nguyên dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Một nhiệm vụ phổ biến trong quản lý dự án là tùy chỉnh các dạng xem để hiển thị thông tin cụ thể. Trong hướng dẫn này, chúng ta sẽ khám phá cách tùy chỉnh các cột xem tài nguyên MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -94,3 +100,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các tùy chọn định dạng m
 Có, bạn có thể cập nhật và tạo lại chế độ xem tùy chỉnh bất cứ khi nào dữ liệu dự án cơ bản thay đổi.
 ### Aspose.Tasks có hỗ trợ phát triển đa nền tảng không?
 Aspose.Tasks for .NET chủ yếu nhắm đến các nền tảng .NET, nhưng cũng có các phiên bản dành cho Java và các nền tảng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تعريف تعريفات كود WBS في Aspose.Tasks
 linktitle: تعريف تعريفات كود WBS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: يعمل Aspose.Tasks for .NET على تمكين الإدارة الفعالة للمشروعات. أتقن رموز WBS بسهولة من خلال برنامجنا التعليمي الشامل. تبسيط سير العمل اليوم!
-type: docs
 weight: 13
 url: /ar/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعريف تعريفات كود WBS في Aspose.Tasks
+
 ## مقدمة
 مع تطور إدارة المشاريع، تتزايد أيضًا الحاجة إلى أدوات قوية تعمل على تبسيط العمليات. في مجال تطوير .NET، تبرز Aspose.Tasks كمكتبة قوية للتعامل مع مهام إدارة المشاريع. في هذا البرنامج التعليمي، سوف نتعمق في عملية تحديد رموز هيكل تنظيم العمل (WBS) باستخدام Aspose.Tasks لـ .NET. تعمل رموز WBS على تنظيم التسلسلات الهرمية للمشروع، مما يسمح بالتتبع والتنظيم بكفاءة.
 ## المتطلبات الأساسية
@@ -79,3 +85,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  منتدى Aspose.Tasks (رابط إلى[يدعم](https://forum.aspose.com/c/tasks/15)) يعد موردًا قيمًا لطلب المساعدة واستكشاف الأخطاء وإصلاحها في الاستعلامات.
 ### هل هناك نسخة تجريبية متاحة قبل شراء Aspose.Tasks؟
  نعم، يمكنك استكشاف ميزات وإمكانيات Aspose.Tasks عن طريق الوصول إلى[تجربة مجانية](https://releases.aspose.com/) إصدار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

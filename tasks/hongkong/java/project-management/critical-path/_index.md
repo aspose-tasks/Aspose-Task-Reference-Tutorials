@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中計算關鍵 MS 專案路徑
 linktitle: 計算 Aspose.Tasks 專案中的關鍵路徑
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 計算 MS Project 中的關鍵路徑。這為高效的專案管理提供了逐步指導。
-type: docs
 weight: 10
 url: /zh-hant/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中計算關鍵 MS 專案路徑
+
 ## 介紹
 在本教程中，我們將引導您完成使用 Aspose.Tasks for Java 在 MS Project 中計算關鍵路徑的過程。關鍵路徑對於專案管理至關重要，因為它有助於確定必須按時完成的任務順序，以確保專案的整體進度不會延遲。
 ## 先決條件
@@ -72,3 +78,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以從以下位置購買臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：如何購買 Aspose.Tasks for Java？
  A：您可以從網站購買Aspose.Tasks for Java[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

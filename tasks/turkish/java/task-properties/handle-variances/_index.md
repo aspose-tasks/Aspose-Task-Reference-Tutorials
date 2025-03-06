@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Farklılıklarını Yönetme
 linktitle: Aspose.Tasks'ta Görev Farklılıklarını Yönetme
 second_title: Aspose.Tasks Java API'si
 description: Proje görev farklılıklarını yönetmede Aspose.Tasks for Java'nın gücünü keşfedin. Kusursuz entegrasyon ve verimli kullanım için kapsamlı kılavuzumuzu takip edin.
-type: docs
 weight: 19
 url: /tr/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Farklılıklarını Yönetme
+
 ## giriiş
 Proje yönetimi dünyasında Aspose.Tasks for Java, görev farklılıklarını verimli bir şekilde ele almak için güçlü ve çok yönlü bir araç olarak öne çıkıyor. Bu eğitim, görev farklılıklarını sorunsuz bir şekilde yönetmek ve bunlara uyum sağlamak için Aspose.Tasks'ı kullanma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -68,3 +74,9 @@ Evet, Aspose.Tasks için geçici lisans alabilirsiniz[Burada](https://purchase.a
  Destek ve tartışmalar için Aspose.Tasks forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for Java'yı indirebilir miyim?
  Evet, Aspose.Tasks for Java'nın en son sürümünü indirin[Burada](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قراءة البيانات الموزعة على الوقت للموار
 linktitle: قراءة البيانات الموزعة على الوقت للموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استخراج البيانات الموزعة على الوقت من موارد MS Project باستخدام Aspose.Tasks لـ Java. البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة البيانات الموزعة على الوقت للموارد في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية قراءة البيانات الموزعة على الوقت لموارد MS Project باستخدام Aspose.Tasks لـ Java. توفر هذه المكتبة وظائف قوية لإدارة ملفات Microsoft Project برمجياً.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ for (TimephasedData td : resource.getTimephasedData(project.get(Prj.START_DATE),
 نعم، يتم استخدام Aspose.Tasks على نطاق واسع في بيئات المؤسسات نظرًا لموثوقيته وقابلية التوسع.
 ### أين يمكنني العثور على الدعم إذا واجهت مشكلات أثناء استخدام Aspose.Tasks؟
  يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على المساعدة من المجتمع وفريق الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Formüller
 linktitle: Formüller
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile proje yönetimi becerilerinizi geliştirin. MS Project formüllerinde ustalaşın, üretkenliği artırın ve formülleri kolaylıkla verimli bir şekilde yazın/okuyun.
-type: docs
 weight: 23
 url: /tr/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formüller
+
 
 ## giriiş
 
@@ -38,3 +44,9 @@ Aspose.Tasks formüllerinde MS Project fonksiyonlarının değerlendirilmesini J
 Aspose.Tasks kitaplığını kullanarak MS Project dosyalarını Java'da nasıl değiştireceğinizi öğrenin. Nitelikleri kolaylıkla oluşturun, değiştirin ve hesaplayın.
 ### [Aspose.Tasks'ta MS Project Formüllerini Yazma ve Okuma](./write-read-formulas/)
 Aspose.Tasks for Java ile MS Project formüllerini verimli bir şekilde yazmayı ve okumayı öğrenin. Proje yönetimi becerilerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

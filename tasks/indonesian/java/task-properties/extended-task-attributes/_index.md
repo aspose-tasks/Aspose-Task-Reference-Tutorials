@@ -3,10 +3,16 @@ title: Atribut Tugas yang Diperluas di Aspose.Tasks
 linktitle: Atribut Tugas yang Diperluas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi atribut tugas yang diperluas di Aspose.Tasks untuk Java. Panduan langkah demi langkah, FAQ, dan dukungan. Optimalkan manajemen proyek Anda hari ini!
-type: docs
 weight: 16
 url: /id/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atribut Tugas yang Diperluas di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang memanfaatkan atribut tugas yang diperluas di Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan Java yang kuat yang memungkinkan Anda bekerja dengan dokumen Microsoft Project dengan lancar. Dalam tutorial ini, kami akan mempelajari atribut tugas yang diperluas dan menunjukkan bagaimana Anda dapat memanfaatkannya untuk meningkatkan kemampuan manajemen proyek Anda.
 ## Prasyarat
@@ -73,3 +79,9 @@ Ya, Anda dapat mengubah atribut tugas yang diperluas menggunakan Aspose.Tasks un
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli Aspose.Tasks versi lengkap untuk Java?
  Anda dapat membeli versi lengkap[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

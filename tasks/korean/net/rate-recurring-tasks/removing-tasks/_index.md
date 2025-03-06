@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 작업 제거
 linktitle: Aspose.Tasks에서 작업 제거
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 MS 프로젝트 작업을 제거하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 작업 제거
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일에서 작업을 제거하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 API입니다. 프로젝트 파일에서 작업을 제거하는 것은 프로젝트 관리 시나리오에서 일반적인 요구 사항일 수 있으며 Aspose.Tasks는 이를 달성하는 간단한 방법을 제공합니다.
 ## 전제조건
@@ -75,3 +81,9 @@ A: Aspose.Tasks는 작업 실행 취소를 위한 강력한 기능을 제공합�
 A: 물론 Aspose.Tasks는 복잡한 프로젝트 구조에 대한 포괄적인 지원을 제공하므로 작업, 리소스 및 기타 프로젝트 요소를 쉽게 조작할 수 있습니다.
 ### Q: Aspose.Tasks에 사용할 수 있는 평가판이 있나요?
  A: 예, Aspose.Tasks의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/) 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

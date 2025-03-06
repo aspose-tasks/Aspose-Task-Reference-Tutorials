@@ -3,10 +3,16 @@ title: 管理 Aspose.Tasks 中分配的超链接属性
 linktitle: 管理 Aspose.Tasks 中资源分配的超链接属性
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中管理资源分配的超链接属性。增强项目管理中的协作和可访问性。
-type: docs
 weight: 16
 url: /zh/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Aspose.Tasks 中分配的超链接属性
+
 ## 介绍
 Aspose.Tasks for Java 提供了管理项目任务和资源的强大功能。在本教程中，我们将重点介绍如何使用 Aspose.Tasks 管理资源分配的超链接属性。通过遵循这些分步说明，您将能够有效地处理与项目资源分配关联的超链接。
 ## 先决条件
@@ -84,3 +90,9 @@ System.out.println("Process completed Successfully");
 答：是的，您可以通过将超链接属性设置为 null 或空字符串来从资源分配中删除超链接。
 ### 问：Aspose.Tasks 支持超链接验证吗？
 答：Aspose.Tasks 专注于管理超链接属性而不是验证超链接。但是，您可以在 Java 应用程序中实现自定义验证逻辑，以确保超链接的完整性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

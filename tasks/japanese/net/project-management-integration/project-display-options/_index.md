@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS プロジェクト表示オプションの構成
 linktitle: Aspose.Tasks でのプロジェクト表示オプションの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project の表示オプションをプログラムで構成する方法を学びます。プロジェクトの外観を簡単にカスタマイズできます。
-type: docs
 weight: 17
 url: /ja/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS プロジェクト表示オプションの構成
+
 ## 導入
 Microsoft Project には、プロジェクトの外観をカスタマイズするための豊富な表示オプションが用意されています。 Aspose.Tasks for .NET は、これらのオプションをプログラムで操作するための堅牢なフレームワークを提供します。このチュートリアルでは、Aspose.Tasks を使用して MS Project の表示オプションを構成する方法を説明します。
 ## 前提条件
@@ -85,3 +91,9 @@ A: いいえ、一部のオプションは MS Project の特定のバージョ�
 A: はい、Aspose.Tasks API を使用して表示オプションをデフォルト値にリセットできます。
 ### Q: 表示オプションをプログラムでカスタマイズする場合に制限はありますか?
 A: Aspose.Tasks は広範なカスタマイズ機能を提供しますが、MS Project ファイル形式の制限により、特定の表示オプションにプログラムからアクセスできない場合があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

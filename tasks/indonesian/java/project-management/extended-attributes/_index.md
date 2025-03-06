@@ -3,10 +3,16 @@ title: Menangani Atribut yang Diperluas di Proyek Aspose.Tasks
 linktitle: Menangani Atribut yang Diperluas di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menangani atribut yang diperluas di proyek Aspose.Tasks menggunakan Java secara efisien. Panduan langkah demi langkah untuk manajemen proyek yang efektif.
-type: docs
 weight: 13
 url: /id/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Atribut yang Diperluas di Proyek Aspose.Tasks
+
 ## Perkenalan
 Mengelola atribut yang diperluas dalam manajemen proyek sangat penting untuk menyesuaikan dan meningkatkan data proyek. Aspose.Tasks untuk Java menyediakan alat canggih untuk menangani atribut yang diperluas dalam file MS Project secara efisien. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap konsep secara menyeluruh.
 ## Prasyarat
@@ -86,3 +92,9 @@ J: Tentu saja, Aspose.Tasks memungkinkan Anda menentukan jenis atribut tambahan 
  J: Anda dapat menemukan dokumentasi lengkap di situs web Aspose.Tasks[dokumentasi](https://reference.aspose.com/tasks/java/).
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
  A: Ya, Anda dapat mengakses dukungan teknis melalui forum Aspose.Tasks[situs web](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

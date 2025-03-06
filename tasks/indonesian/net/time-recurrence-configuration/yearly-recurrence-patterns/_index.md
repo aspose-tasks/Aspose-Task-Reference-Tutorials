@@ -3,10 +3,16 @@ title: Kuasai Pola Pengulangan Tahunan di Aspose.Tasks untuk .NET
 linktitle: Mengonfigurasi Pola Pengulangan Tahunan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pola pengulangan tahunan di Aspose.Tasks untuk .NET. Tingkatkan keterampilan manajemen proyek Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 18
 url: /id/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Pola Pengulangan Tahunan di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Dalam dunia manajemen proyek yang dinamis, menangani tugas berulang secara efisien adalah aspek kuncinya. Aspose.Tasks untuk .NET memberikan solusi canggih untuk mengonfigurasi pola pengulangan tahunan, memungkinkan Anda menyederhanakan penjadwalan dan manajemen proyek. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menyiapkan pola pengulangan tahunan menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -69,3 +75,9 @@ Dalam tutorial ini, kami telah menjelajahi proses mengonfigurasi pola pengulanga
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bantuan masyarakat.
 ### Bisakah saya mencoba Aspose.Tasks secara gratis sebelum membeli?
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

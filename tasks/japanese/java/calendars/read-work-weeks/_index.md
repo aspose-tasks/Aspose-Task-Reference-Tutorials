@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS Project カレンダーから勤務週間
 linktitle: Aspose.Tasks を使用してカレンダーから勤務週を読み取る
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project カレンダーから稼働週を読み取る方法を学びます。この包括的なチュートリアルで段階的な手順を確認してください。
-type: docs
 weight: 15
 url: /ja/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS Project カレンダーから勤務週間を読み取る
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して、Microsoft Project カレンダーから勤務週間情報を読み取る方法を説明します。 Aspose.Tasks は、Microsoft Project ドキュメントをプログラムで操作および管理できる強力な Java ライブラリです。
 ## 前提条件
@@ -65,3 +71,9 @@ for (WorkWeek workWeek : collection) {
 はい、Aspose.Tasks の無料試用版を次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Tasks のサポートはどこで見つけられますか?
 Aspose.Tasks フォーラムでサポートと支援を見つけることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

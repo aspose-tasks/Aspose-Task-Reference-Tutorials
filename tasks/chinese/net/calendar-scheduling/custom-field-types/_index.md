@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的自定义字段类型
 linktitle: Aspose.Tasks 中的自定义字段类型
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中使用自定义字段类型。包含代码示例和常见问题解答的分步指南。
-type: docs
 weight: 23
 url: /zh/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的自定义字段类型
+
 ## 介绍
 
 欢迎来到我们关于在 Aspose.Tasks for .NET 中使用自定义字段类型的教程！ Aspose.Tasks 是一个功能强大的库，允许开发人员以编程方式操作 Microsoft Project 文件。在本教程中，我们将重点关注理解和利用自定义字段类型，这是处理项目数据的一个重要方面。
@@ -89,3 +95,9 @@ A4：是的，Aspose.Tasks 允许您在项目文件中操作任务和资源数�
 ### Q5：有 Aspose.Tasks 用户的社区论坛吗？
 
  A5: 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)与其他用户互动并获得 Aspose 团队的支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

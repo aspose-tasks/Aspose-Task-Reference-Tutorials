@@ -3,10 +3,16 @@ title: إتقان أوقات العمل في Aspose.Tasks
 linktitle: مجموعة من أوقات العمل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في إدارة الجداول الزمنية للمشروع بكفاءة. قم بتخصيص التقويمات وضبط أوقات العمل وتبسيط مشاريعك بسهولة.
-type: docs
 weight: 14
 url: /ar/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أوقات العمل في Aspose.Tasks
+
 ## مقدمة
 هل تتطلع إلى إتقان فن إدارة أوقات العمل في Aspose.Tasks لـ .NET؟ لا مزيد من البحث! في هذا الدليل التفصيلي، سنتعمق في تعقيدات جمع وقت العمل باستخدام Aspose.Tasks، مما يمكّنك من التعامل بكفاءة مع التقويمات المخصصة وتبسيط الجداول الزمنية لمشروعك.
 ## المتطلبات الأساسية
@@ -114,3 +120,9 @@ foreach (var day in calendar.WeekDays)
  نعم، يمكنك استكشاف Aspose.Tasks من خلال النسخة التجريبية المجانية من خلال زيارة الموقع[هذا الرابط](https://releases.aspose.com/).
 ### أين يمكنني طلب الدعم لـ Aspose.Tasks؟
  لأية استفسارات أو مساعدة، قم بزيارة[منتدى دعم Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

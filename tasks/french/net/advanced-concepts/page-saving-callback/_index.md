@@ -3,10 +3,16 @@ title: Implémentation du rappel d'enregistrement de page dans Aspose.Tasks
 linktitle: Implémentation du rappel d'enregistrement de page dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment implémenter un rappel d'enregistrement de page dans Aspose.Tasks pour .NET, permettant une gestion personnalisée des flux de sortie de documents multipages.
-type: docs
 weight: 12
 url: /fr/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implémentation du rappel d'enregistrement de page dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons comment implémenter un rappel de sauvegarde de page dans Aspose.Tasks pour .NET. Cette fonctionnalité nous permet d'enregistrer un document de plusieurs pages dans des flux fournis par l'utilisateur, offrant ainsi flexibilité et personnalisation dans la gestion de la sortie.
@@ -121,3 +127,9 @@ A4 : Vous pouvez implémenter des mécanismes de gestion des erreurs dans les m
 ### Q5 : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Tasks ?
 
  A5 : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir de l'aide, accéder à la documentation[ici](https://reference.aspose.com/tasks/net/) , ou explorez des fonctionnalités supplémentaires et des options de licence sur le[Site Web Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kelola Kode Garis Besar Proyek di Aspose.Tasks untuk .NET
 linktitle: Mengelola Kode Garis Besar di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola kode kerangka Proyek MS dengan Aspose.Tasks untuk .NET. Sederhanakan organisasi proyek dengan mudah.
-type: docs
 weight: 10
 url: /id/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Kode Garis Besar Proyek di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengelola kode kerangka Microsoft Project menggunakan Aspose.Tasks untuk .NET. Kode kerangka adalah bidang khusus di Microsoft Project yang memungkinkan pengguna mengkategorikan dan mengatur tugas berdasarkan kriteria tertentu. Aspose.Tasks menyederhanakan proses membaca dan memanipulasi kode kerangka ini secara terprogram.
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Ya, lisensi yang valid diperlukan untuk penggunaan komersial Aspose.Tasks. An
 J: Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis dari situs web untuk mengevaluasi fitur dan kemampuannya.
 ### T: Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
  A: Anda bisa mendapatkan dukungan untuk Aspose.Tasks dengan mengunjungi forum di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).## Kode Sumber Lengkap
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

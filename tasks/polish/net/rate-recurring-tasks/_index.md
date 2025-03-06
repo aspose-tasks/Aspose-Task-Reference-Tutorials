@@ -3,10 +3,16 @@ title: Aspose.Tasks Zarządzanie stawkami i zadania cykliczne
 linktitle: Aspose.Tasks Zarządzanie stawkami i zadania cykliczne
 second_title: Aspose.Tasks .NET API
 description: Opanuj zarządzanie stawkami MS Project i powtarzającymi się zadaniami za pomocą Aspose.Tasks .NET. Naucz się automatyzować zadania, obsługiwać stawki i zarządzać podzielonymi częściami w przepływach pracy w projektach.
-type: docs
 weight: 28
 url: /pl/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zarządzanie stawkami i zadania cykliczne
+
 
 ## Wstęp
 
@@ -67,3 +73,9 @@ Dowiedz się, jak zapisywać pliki MS Project w różnych formatach przy użyciu
 Dowiedz się, jak efektywnie obsługiwać podzielone części MS Project za pomocą Aspose.Tasks dla .NET. Usprawnij przepływ pracy w zarządzaniu projektami.
 ### [Zbierz projekt MS dotyczący podzielonych części w Aspose.Tasks](./split-part-collection/)
 Dowiedz się, jak zbierać podzielone części w MS Project przy użyciu Aspose.Tasks dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez proces krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

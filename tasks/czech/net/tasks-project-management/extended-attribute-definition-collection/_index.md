@@ -3,10 +3,16 @@ title: Master Extended Attribute Definice MS Project v Aspose.Tasks
 linktitle: Sbírka rozšířených definic atributů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se spravovat definice rozšířených atributů v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. Přizpůsobte a vylepšete svá projektová data bez námahy.
-type: docs
 weight: 14
 url: /cs/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Extended Attribute Definice MS Project v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak pracovat s definicemi rozšířených atributů v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. Rozšířené atributy nabízejí flexibilní způsob přizpůsobení a vylepšení projektových dat a umožňují uživatelům přidávat další pole nad rámec standardních polí poskytovaných ve výchozím nastavení. S Aspose.Tasks můžete bez námahy spravovat tyto rozšířené atributy a přizpůsobit tak své potřeby projektového řízení.
 ## Předpoklady
@@ -92,3 +98,9 @@ Odpověď: Rozšířené atributy lze samozřejmě použít k výpočtu vlastní
 A: Aspose.Tasks je kompatibilní s různými .NET frameworky, což zajišťuje flexibilitu a snadnou integraci.
 ### Otázka: Kde najdu další zdroje a podporu pro Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu a prozkoumání dokumentace[tady](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

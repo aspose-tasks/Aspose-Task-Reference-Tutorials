@@ -3,10 +3,16 @@ title: Manipuleer MS Project Extended Attributen met Aspose.Tasks
 linktitle: Werken met uitgebreide attributen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u kunt werken met de uitgebreide kenmerken van MS Project met behulp van Aspose.Tasks voor .NET. Manipuleer taakgegevens eenvoudig programmatisch.
-type: docs
 weight: 11
 url: /nl/net/tasks-project-management/working-with-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipuleer MS Project Extended Attributen met Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een van de belangrijkste kenmerken van deze bibliotheek is de mogelijkheid om met uitgebreide MS Project-attributen te werken. Uitgebreide attributen bieden aanvullende aanpassingen en metagegevens voor taken in een project, waardoor gebruikers specifieke informatie kunnen opslaan en beheren die verder gaat dan de standaard taakeigenschappen.
 In deze zelfstudie onderzoeken we hoe u kunt werken met uitgebreide kenmerken van MS Project met behulp van Aspose.Tasks voor .NET. We behandelen de vereisten, importeren naamruimten en splitsen elk voorbeeld op in meerdere stappen in een stapsgewijze handleiding. Aan het einde van deze zelfstudie heeft u een goed inzicht in hoe u uitgebreide kenmerken in uw .NET-toepassingen kunt gebruiken.
@@ -72,3 +78,9 @@ Ja, u moet een licentie aanschaffen voor commercieel gebruik van Aspose.Tasks vo
 Ja, Aspose.Tasks voor .NET biedt uitgebreide mogelijkheden om uitgebreide kenmerken aan te passen aan de specifieke behoeften van uw project.
 ### Waar kan ik ondersteuning krijgen als ik problemen ondervind tijdens het gebruik van Aspose.Tasks voor .NET?
  U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

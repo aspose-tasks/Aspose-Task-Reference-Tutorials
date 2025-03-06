@@ -3,10 +3,16 @@ title: Kezelje a szintezési késleltetési tulajdonságokat az Aspose.Tasks-ban
 linktitle: Kezelje az Aspose.Tasks erőforrás-hozzárendelések szintezési késleltetési tulajdonságait
 second_title: Aspose.Tasks Java API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti a szintezési késleltetési tulajdonságokat az erőforrás-hozzárendelésekhez az Aspose.Tasks for Java programban.
-type: docs
 weight: 17
 url: /hu/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje a szintezési késleltetési tulajdonságokat az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Tasks for Java erőforrás-hozzárendeléseihez tartozó szintezési késleltetési tulajdonságok kezelésének folyamatát mutatjuk be. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a Microsoft Project fájlokkal való munkát anélkül, hogy a Microsoft Project-et telepítenie kellene a rendszerére.
 ## Előfeltételek
@@ -91,3 +97,9 @@ V: Igen, az Aspose.Tasks támogatja a Microsoft Project fájlok különféle ver
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
 
  V: Ideiglenes licencet kérhet a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

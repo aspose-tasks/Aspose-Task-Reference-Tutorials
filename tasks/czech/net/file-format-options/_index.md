@@ -3,10 +3,16 @@ title: Možnosti formátu souboru Aspose.Tasks
 linktitle: Možnosti formátu souboru Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte možnosti formátu souboru Aspose.Tasks a osvojte si konfiguraci možností XAML a XLSX v Aspose.Tasks .NET. Vylepšete řízení projektů pomocí tipů pro přizpůsobení.
-type: docs
 weight: 34
 url: /cs/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Možnosti formátu souboru Aspose.Tasks
+
 
 ## Úvod
 
@@ -27,3 +33,9 @@ Na závěr naše výukové programy možností formátu souboru Aspose.Tasks pos
 Naučte se konfigurovat možnosti MS Project XAML v Aspose.Tasks pro .NET. Vylepšete flexibilitu řízení projektů a přizpůsobení pomocí podrobných pokynů.
 ### [Konfigurace možností XLSX v Aspose.Tasks](./configuring-xlsx-options/)
 Naučte se konfigurovat možnosti MS Project XLSX v Aspose.Tasks pro .NET. Přizpůsobte si sloupce, kódování a ještě více bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

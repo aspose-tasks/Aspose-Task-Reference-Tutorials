@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 보기 사용자 정의
 linktitle: Aspose.Tasks에서 프로젝트 보기 사용자 정의
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 보기를 사용자 정의하는 방법을 알아보세요. 효율적인 프로젝트 관리 시각화를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 24
 url: /ko/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 보기 사용자 정의
+
 ## 소개
 Microsoft Project는 프로젝트 관리를 위한 강력한 도구로, 사용자가 작업을 구성하고 리소스를 관리하며 진행 상황을 효과적으로 추적할 수 있도록 해줍니다. .NET용 Aspose.Tasks는 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있는 편리한 방법을 제공하므로 개발자는 특정 요구 사항에 맞게 프로젝트 보기를 사용자 지정할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 보기를 사용자 정의하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -60,3 +66,9 @@ Aspose.Tasks for .NET을 .NET 애플리케이션에 통합하고 API를 활용�
  예, .NET용 Aspose.Tasks는 다음을 통해 포괄적인 문서와 지원을 제공합니다.[법정](https://forum.aspose.com/c/tasks/15) 그리고[문서 포털](https://reference.aspose.com/tasks/net/).
 ### 5. 구매하기 전에 Aspose.Tasks for .NET을 사용해 볼 수 있나요?
  예, 다음을 이용하실 수 있습니다.[무료 시험판](https://releases.aspose.com/) 구매 결정을 내리기 전에 .NET용 Aspose.Tasks의 기능을 평가해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

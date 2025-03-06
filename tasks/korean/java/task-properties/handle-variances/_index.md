@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 변화 처리
 linktitle: Aspose.Tasks에서 작업 변화 처리
 second_title: Aspose.Tasks 자바 API
 description: 프로젝트 작업 차이를 관리하는 데 있어 Aspose.Tasks for Java의 강력한 기능을 살펴보세요. 원활한 통합과 효율적인 처리를 위한 포괄적인 가이드를 따르세요.
-type: docs
 weight: 19
 url: /ko/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 변화 처리
+
 ## 소개
 프로젝트 관리 세계에서 Aspose.Tasks for Java는 작업 변화를 효율적으로 처리하기 위한 강력하고 다재다능한 도구로 돋보입니다. 이 튜토리얼은 Aspose.Tasks를 활용하여 작업 변화를 원활하게 관리하고 적응하는 과정을 안내합니다.
 ## 전제조건
@@ -68,3 +74,9 @@ Aspose.Tasks는 광범위한 프로젝트 관리 요구 사항에 적합한 다�
  지원 및 토론을 원하시면 Aspose.Tasks 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
 ### Java용 Aspose.Tasks를 다운로드할 수 있나요?
  예, 최신 버전의 Aspose.Tasks for Java를 다운로드하세요[여기](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

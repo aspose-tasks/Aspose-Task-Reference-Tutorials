@@ -3,10 +3,16 @@ title: Aspose.Tasks로 MS 프로젝트 개요 값 마스터하기
 linktitle: Aspose.Tasks에서 개요 값 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 개요 값을 효율적으로 관리하는 방법을 알아보세요. 프로젝트 개요를 쉽게 사용자 정의하세요.
-type: docs
 weight: 16
 url: /ko/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks로 MS 프로젝트 개요 값 마스터하기
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks 라이브러리를 사용하여 Microsoft Project 개요 값을 관리하는 방법을 살펴보겠습니다. Aspose.Tasks를 사용하면 개요 코드를 쉽게 조작하고, 새로운 개요 값을 생성하고, 요구 사항에 따라 프로젝트 개요를 사용자 지정할 수 있습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A: 예, Aspose.Tasks는 다양한 .NET 프레임워크와 호환되므로 개발
 A: 예, Aspose.Tasks에 대한 임시 라이선스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks에 대한 자세한 문서는 어디서 찾을 수 있나요?
  A: 사용 가능한 종합 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

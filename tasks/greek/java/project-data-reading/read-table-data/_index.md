@@ -3,10 +3,16 @@ title: Διαβάστε τα δεδομένα πίνακα από το αρχε�
 linktitle: Διαβάστε τα δεδομένα πίνακα από το αρχείο στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Tasks για Java. Μάθετε να εξάγετε δεδομένα πίνακα από αρχεία σε αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 17
 url: /el/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαβάστε τα δεδομένα πίνακα από το αρχείο στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να διαβάζουμε δεδομένα πίνακα από ένα αρχείο χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα του Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -62,3 +68,9 @@ for (TableField f : t1.getTableFields()) {
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks από το[σελίδα εκδόσεων](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να βρω βοήθεια και υποστήριξη για το Aspose.Tasks;
  Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15)για βοήθεια και υποστήριξη από την κοινότητα και την ομάδα Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

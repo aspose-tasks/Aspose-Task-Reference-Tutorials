@@ -3,10 +3,16 @@ title: Verschiedene Arten von Baselines in Aspose.Tasks
 linktitle: Verschiedene Arten von Baselines in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Projekt-Baselines effizient festlegen und bearbeiten.
-type: docs
 weight: 21
 url: /de/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verschiedene Arten von Baselines in Aspose.Tasks
+
 ## Einführung
 
 Im Projektmanagement kommt es auf Präzision und Weitblick an. Aspose.Tasks für .NET bietet ein robustes Toolkit für die effiziente Verwaltung von Projektdaten, das es Benutzern ermöglicht, sich mit verschiedenen Aspekten der Projektplanung, -verfolgung und -ausführung zu befassen. Eine entscheidende Funktion von Aspose.Tasks ist die Möglichkeit, Baselines festzulegen, die als Referenzpunkte für die Messung des Projektfortschritts anhand der ursprünglichen Pläne dienen.
@@ -82,3 +88,9 @@ A4: Aspose.Tasks bietet umfangreiche Dokumentation und Supportforen, um Entwickl
 ### F5: Kann ich Aspose.Tasks vor dem Kauf ausprobieren?
 
 A5: Ja, Sie können Aspose.Tasks über eine kostenlose Testversion auf der Website erkunden und so die Funktionen aus erster Hand erleben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

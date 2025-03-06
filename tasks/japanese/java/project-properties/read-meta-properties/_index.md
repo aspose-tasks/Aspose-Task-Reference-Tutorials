@@ -3,10 +3,16 @@ title: Aspose.Tasks プロジェクトのメタ プロパティの読み取り
 linktitle: Aspose.Tasks プロジェクトのメタ プロパティの読み取り
 second_title: Aspose.Tasks Java API
 description: この包括的なチュートリアルで、Aspose.Tasks プロジェクトのメタデータの力を解き放ちます。メタプロパティを簡単に抽出して活用する方法を学びましょう。
-type: docs
 weight: 10
 url: /ja/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks プロジェクトのメタ プロパティの読み取り
+
 ## 導入
 プロジェクト管理とデータ分析の領域では、プロジェクト ファイルのメタデータを詳しく調べることで、貴重な洞察が得られる可能性があります。 Aspose.Tasks for Java は、これらのメタプロパティを簡単にナビゲートするための堅牢なツールキットを提供します。このチュートリアルは、Aspose.Tasks プロジェクト内のメタプロパティを抽出して理解するための包括的なガイドとして機能します。
 ## 前提条件
@@ -71,3 +77,9 @@ A: はい、Aspose.Tasks は、MPP、XML などを含む幅広いプロジェク
  A: はい、Aspose.Tasks に関する広範なドキュメントが次の場所にあります。[ドキュメントページ](https://reference.aspose.com/tasks/java/).
 ### Q: Aspose.Tasks 関連のクエリのサポートはどこに問い合わせればよいですか?
  A: Aspose.Tasks に関するサポートや質問がある場合は、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティや専門家からの献身的なサポートが必要です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

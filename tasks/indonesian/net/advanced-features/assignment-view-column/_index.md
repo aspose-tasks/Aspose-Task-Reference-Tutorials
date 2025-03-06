@@ -3,10 +3,16 @@ title: Kolom Tampilan Tugas Kustom di Aspose.Tasks
 linktitle: Kolom Tampilan Tugas Kustom di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menambahkan kolom tampilan penugasan kustom di Aspose.Tasks untuk .NET guna meningkatkan kemampuan manajemen proyek.
-type: docs
 weight: 16
 url: /id/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolom Tampilan Tugas Kustom di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menambahkan kolom kustom untuk tampilan tugas menggunakan Aspose.Tasks untuk .NET. Kolom khusus memberikan fleksibilitas dan memungkinkan Anda menampilkan informasi tambahan yang relevan dengan kebutuhan manajemen proyek Anda.
@@ -116,3 +122,9 @@ A3: Ya, Anda dapat menyesuaikan tampilan kolom kustom dengan memodifikasi proper
 ### Q5: Apakah Aspose.Tasks mendukung ekspor proyek ke format lain selain spreadsheet dengan kolom khusus?
 
 A5: Ya, Aspose.Tasks mendukung ekspor proyek ke berbagai format seperti PDF, HTML, dan XML, memungkinkan opsi pelaporan proyek serbaguna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

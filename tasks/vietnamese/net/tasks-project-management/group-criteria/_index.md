@@ -3,10 +3,16 @@ title: Thao tác tiêu chí nhóm dự án MS trong Aspose.Tasks
 linktitle: Tiêu chí nhóm trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá cách thao tác các tệp MS Project theo chương trình trong .NET bằng Aspose.Tasks. Lấy ví dụ từng bước về nhóm nhiệm vụ và tiêu chí.
-type: docs
 weight: 27
 url: /vi/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác tiêu chí nhóm dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một API mạnh mẽ hỗ trợ làm việc với các tệp Microsoft Project trong các ứng dụng .NET của bạn. Cho dù bạn đang phát triển phần mềm quản lý dự án hay cần thao tác dữ liệu dự án theo chương trình, Aspose.Tasks đều cung cấp một bộ tính năng toàn diện để đáp ứng nhu cầu của bạn.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các chức năng mở rộng đ�
 Có, Aspose.Tasks hỗ trợ nhiều nền tảng .NET bao gồm .NET Framework, .NET Core và .NET Standard.
 ### Có diễn đàn cộng đồng nào dành cho Aspose.Tasks để tôi có thể tìm kiếm sự trợ giúp không?
  Có, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để đặt câu hỏi, chia sẻ kiến thức và cộng tác với những người dùng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

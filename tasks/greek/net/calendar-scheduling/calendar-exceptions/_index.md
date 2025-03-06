@@ -3,10 +3,16 @@ title: Χειρισμός εξαιρέσεων ημερολογίου στο Asp
 linktitle: Χειρισμός εξαιρέσεων ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τις εξαιρέσεις ημερολογίου στο Aspose.Tasks για .NET με οδηγίες βήμα προς βήμα και παραδείγματα.
-type: docs
 weight: 12
 url: /el/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εξαιρέσεων ημερολογίου στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο διαχείρισης εξαιρέσεων ημερολογίου στο Aspose.Tasks χρησιμοποιώντας το πλαίσιο .NET. Οι εξαιρέσεις ημερολογίου μας επιτρέπουν να ορίζουμε ειδικές ημερομηνίες ή περιόδους σε ένα ημερολόγιο έργου όπου το κανονικό πρόγραμμα εργασίας αλλάζει, όπως αργίες ή προσωρινά κλεισίματα. Θα καλύψουμε διάφορες μεθόδους για τον χειρισμό εξαιρέσεων ημερολογίου βήμα προς βήμα, χρησιμοποιώντας το Aspose.Tasks για .NET.
@@ -156,3 +162,9 @@ A4: Το Aspose.Tasks υποστηρίζει διάφορους τύπους ε�
 ### Ε5: Μπορώ να προσαρμόσω τις ώρες εργασίας για συγκεκριμένες ημερομηνίες εξαίρεσης;
 
 A5: Ναι, μπορείτε να ορίσετε προσαρμοσμένους χρόνους εργασίας για μεμονωμένες ημερομηνίες εξαίρεσης χρησιμοποιώντας τις κατάλληλες μεθόδους που παρέχονται από το Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Temel Süre Yönetimi
 linktitle: Aspose.Tasks'ta Görev Temel Süre Yönetimi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project'te görev temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Bu eğitim, süreç boyunca size adım adım yol gösterir.
-type: docs
 weight: 12
 url: /tr/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Temel Süre Yönetimi
+
 ## giriiş
 MS Project'te görev temellerini yönetmek, proje planlama ve izleme için çok önemlidir. Bu eğitimde Aspose.Tasks for Java'yı kullanarak görev temel sürelerini etkili bir şekilde nasıl yönetebileceğimizi keşfedeceğiz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ Evet, proje planındaki değişiklikleri yansıtacak şekilde MS Project'teki g�
 Evet, Aspose.Tasks proje yönetimi için görev planlama, kaynak tahsisi ve Gantt şeması oluşturma gibi çok çeşitli özellikler sunar.
 ### Aspose.Tasks için desteği nerede bulabilirim?
  Aspose.Tasks için desteği şurada bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15), soru sorabileceğiniz ve diğer kullanıcılarla etkileşim kurabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

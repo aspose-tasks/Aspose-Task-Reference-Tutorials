@@ -3,10 +3,16 @@ title: Lees werkweken uit de MS Project-kalender met Aspose.Tasks
 linktitle: Lees werkweken uit de kalender met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u werkweken uit de MS Project-agenda kunt lezen met Aspose.Tasks voor Java. Ontvang stapsgewijze instructies in deze uitgebreide zelfstudie.
-type: docs
 weight: 15
 url: /nl/java/calendars/read-work-weeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees werkweken uit de MS Project-kalender met Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Aspose.Tasks voor Java kunt gebruiken om informatie over werkweken uit een Microsoft Project-agenda te lezen. Aspose.Tasks is een krachtige Java-bibliotheek waarmee u Microsoft Project-documenten programmatisch kunt manipuleren en beheren.
 ## Vereisten
@@ -65,3 +71,9 @@ Absoluut, Aspose.Tasks kan naadloos worden geïntegreerd met andere Java-framewo
  Ja, u kunt een gratis proefversie van Aspose.Tasks downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning vinden voor Aspose.Tasks?
 Ondersteuning en hulp vindt u op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

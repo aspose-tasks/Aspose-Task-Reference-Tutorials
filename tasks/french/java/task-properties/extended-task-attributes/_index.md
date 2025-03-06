@@ -3,10 +3,16 @@ title: Attributs de tâches étendus dans Aspose.Tasks
 linktitle: Attributs de tâches étendus dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez les attributs de tâches étendus dans Aspose.Tasks pour Java. Guide étape par étape, FAQ et assistance. Optimisez votre gestion de projet dès aujourd'hui !
-type: docs
 weight: 16
 url: /fr/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attributs de tâches étendus dans Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre guide complet sur l'exploitation des attributs de tâches étendus dans Aspose.Tasks pour Java. Aspose.Tasks est une puissante bibliothèque Java qui vous permet de travailler de manière transparente avec les documents Microsoft Project. Dans ce didacticiel, nous approfondirons les attributs de tâches étendus et démontrerons comment vous pouvez les utiliser pour améliorer vos capacités de gestion de projet.
 ## Conditions préalables
@@ -73,3 +79,9 @@ Oui, vous pouvez modifier les attributs de tâches étendus à l'aide d'Aspose.T
  Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter la version complète d’Aspose.Tasks pour Java ?
  Vous pouvez acheter la version complète[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

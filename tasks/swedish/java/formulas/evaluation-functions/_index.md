@@ -3,10 +3,16 @@ title: Stöd utvärderingsfunktioner i Aspose.Tasks-formler
 linktitle: Stöd utvärderingsfunktioner i Aspose.Tasks-formler
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du stödjer utvärdering av MS Project-funktioner i Aspose.Tasks-formler med Java. Öka din produktivitet med Aspose.Tasks.
-type: docs
 weight: 10
 url: /sv/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stöd utvärderingsfunktioner i Aspose.Tasks-formler
+
 
 ## Introduktion
 Aspose.Tasks för Java är ett kraftfullt bibliotek som gör det möjligt för utvecklare att manipulera Microsoft Project-filer programmatiskt. En av dess nyckelfunktioner är förmågan att stödja utvärdering av MS Project-funktioner inom Aspose.Tasks-formler. Denna förmåga tillåter användare att utföra komplexa beräkningar och analyser direkt i sina Java-applikationer.
@@ -65,3 +71,9 @@ S: Ja, Aspose.Tasks för Java stöder olika versioner av Microsoft Project-filer
 S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
 ### F: Finns det en tillfällig licens tillgänglig för Aspose.Tasks för Java?
  S: Ja, du kan få en tillfällig licens för teständamål från Asposes webbplats[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

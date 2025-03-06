@@ -3,10 +3,16 @@ title: 自定义 Aspose.Tasks 中的 MS Project 资源视图列
 linktitle: 在 Aspose.Tasks 中自定义资源视图列
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效地自定义 MS Project 资源视图列。创建定制视图以实现更好的项目管理。
-type: docs
 weight: 17
 url: /zh/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 自定义 Aspose.Tasks 中的 MS Project 资源视图列
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft Project 文件。项目管理中的一项常见任务是自定义视图以显示特定信息。在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 自定义 MS Project 资源视图列。
 ## 先决条件
@@ -94,3 +100,9 @@ project.Save("Output_PDF_File_Path.pdf", options);
 是的，只要基础项目数据发生变化，您就可以更新并重新生成自定义视图。
 ### Aspose.Tasks支持跨平台开发吗？
 Aspose.Tasks for .NET 主要针对 .NET 平台，但也有适用于 Java 和其他平台的版本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

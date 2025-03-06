@@ -3,10 +3,16 @@ title: Aspose.Tasks 高级功能
 linktitle: Aspose.Tasks 高级功能
 second_title: Aspose.Tasks .NET API
 description: 通过我们的教程探索 Aspose.Tasks for .NET 中的高级功能。从 AND 运算到内存异常处理，增强您的项目管理技能。
-type: docs
 weight: 21
 url: /zh/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 高级功能
+
 
 ## 介绍
 
@@ -93,3 +99,9 @@ url: /zh/net/advanced-features/
 了解如何在 Aspose.Tasks for .NET 中有效管理计算模式，以简化项目调度和任务依赖性。
 ### [Aspose.Tasks 中的计算类型](./calculation-type/)
 了解如何使用 Aspose.Tasks 库中的计算类型在 .NET 项目中自定义值计算。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

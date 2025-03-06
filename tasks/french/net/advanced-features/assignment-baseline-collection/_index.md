@@ -3,10 +3,16 @@ title: Collection de lignes de base d’affectation dans Aspose.Tasks
 linktitle: Collection de lignes de base d’affectation dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer efficacement les références d'affectation dans la gestion de projet à l'aide d'Aspose.Tasks pour .NET. Améliorez la productivité et la précision.
-type: docs
 weight: 15
 url: /fr/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection de lignes de base d’affectation dans Aspose.Tasks
+
 ## Introduction
 
 Dans le domaine de la gestion de projet, le suivi et la gestion des références des missions sont essentiels pour garantir le succès du projet et le respect des délais. Aspose.Tasks for .NET offre un ensemble robuste de fonctionnalités pour faciliter une gestion efficace des lignes de base d'affectation au sein des projets. Dans ce didacticiel, nous aborderons les subtilités de l'utilisation des collections de référence d'affectation à l'aide d'Aspose.Tasks pour .NET.
@@ -100,3 +106,9 @@ A4 : Oui, Aspose.Tasks fournit un support technique solide via son forum communa
 ### Q5 : Puis-je essayer Aspose.Tasks avant de faire un achat ?
 
 A5 : Oui, Aspose.Tasks propose une version d'essai gratuite, permettant aux développeurs d'explorer ses caractéristiques et fonctionnalités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

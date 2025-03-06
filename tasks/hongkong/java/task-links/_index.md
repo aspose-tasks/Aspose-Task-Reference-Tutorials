@@ -3,10 +3,16 @@ title: 任務連結
 linktitle: 任務連結
 second_title: Aspose.Tasks Java API
 description: 透過我們的教學探索 Aspose.Tasks for Java。增強協作、定義連結類型並無縫管理任務。立即提高您的專案效率！
-type: docs
 weight: 33
 url: /zh-hant/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任務連結
+
 ## 介紹
 
 如果您正在深入研究 Java 專案管理的世界，Aspose.Tasks 是您的首選工具。我們全面的教程使您能夠掌握各個方面，確保 Aspose.Tasks for Java 庫的最佳利用。
@@ -38,3 +44,9 @@ url: /zh-hant/java/task-links/
 使用 Aspose.Tasks for Java 探索跨專案任務辨識。無縫集成，高效管理。現在下載！
 ### [在 Aspose.Tasks 中管理前置任務和後繼任務](./predecessor-successor-tasks/)
 使用 Aspose.Tasks for Java 探索高效率的任務管理。輕鬆處理專案中的前置任務和後續任務。立即下載免費試用版！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

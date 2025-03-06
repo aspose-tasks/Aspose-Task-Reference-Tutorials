@@ -3,10 +3,16 @@ title: Công thức
 linktitle: Công thức
 second_title: API Java Aspose.Tasks
 description: Nâng cao kỹ năng quản lý dự án của bạn với Aspose.Tasks cho Java. Nắm vững các công thức MS Project, tăng năng suất và viết/đọc công thức một cách hiệu quả một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/java/formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Công thức
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Tìm hiểu cách hỗ trợ đánh giá các hàm MS Project trong công thức
 Tìm hiểu cách thao tác các tệp MS Project trong Java bằng thư viện Aspose.Tasks. Tạo, sửa đổi và tính toán các thuộc tính một cách dễ dàng.
 ### [Viết và đọc các công thức dự án MS trong Aspose.Tasks](./write-read-formulas/)
 Tìm hiểu cách viết và đọc các công thức MS Project một cách hiệu quả với Aspose.Tasks cho Java. Nâng cao kỹ năng quản lý dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

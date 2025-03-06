@@ -3,10 +3,16 @@ title: Trabalhe com integração VBA em Aspose.Tasks
 linktitle: Trabalhe com integração VBA em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprimore o gerenciamento de projetos com Aspose.Tasks for Java - Libere a integração VBA para fluxos de trabalho simplificados. Explore agora para um rastreamento eficiente de tarefas!
-type: docs
 weight: 10
 url: /pt/java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhe com integração VBA em Aspose.Tasks
+
 ## Introdução
 No mundo dinâmico do gerenciamento de projetos e rastreamento de tarefas, ter uma ferramenta robusta que se integra perfeitamente ao Visual Basic for Applications (VBA) pode ser uma virada de jogo. Aspose.Tasks for Java é uma potência que permite trabalhar com integração VBA sem esforço. Neste tutorial, nos aprofundaremos nas complexidades de trabalhar com integração VBA usando Aspose.Tasks para Java, explorando as etapas para ler informações, referências, módulos e atributos de módulos do projeto VBA.
 ## Pré-requisitos
@@ -98,3 +104,9 @@ Sim, Aspose.Tasks for Java foi projetado para ser compatível com as versões ma
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### Posso obter uma licença temporária para Aspose.Tasks for Java?
  Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

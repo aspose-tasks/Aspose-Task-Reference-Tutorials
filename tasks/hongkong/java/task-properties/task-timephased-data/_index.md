@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任務時間分段數據
 linktitle: Aspose.Tasks 中的任務時間分段數據
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 和主任務時間分段資料管理。下載庫，享受免費試用，並簡化您的專案追蹤。
-type: docs
 weight: 34
 url: /zh-hant/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任務時間分段數據
+
 ## 介紹
 在專案管理領域，精確追蹤任務時間分段資料對於高效的專案執行至關重要。 Aspose.Tasks for Java 成為簡化此過程的強大工具，提供強大的功能和靈活性。本教學將引導您利用 Aspose.Tasks for Java 有效管理任務時間分段資料。
 ## 先決條件
@@ -104,3 +110,9 @@ System.out.println(td.get(0).getValue());
 答：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：哪裡可以購買 Aspose.Tasks for Java？
 答：您可以購買 Aspose.Tasks for Java[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

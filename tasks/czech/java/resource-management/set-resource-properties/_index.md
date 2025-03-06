@@ -3,10 +3,16 @@ title: Nastavte vlastnosti prostředků v Aspose.Tasks
 linktitle: Nastavte vlastnosti prostředků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak nastavit vlastnosti prostředků MS Project v Javě pomocí Aspose.Tasks pro bezproblémovou integraci a efektivní správu úkolů.
-type: docs
 weight: 20
 url: /cs/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte vlastnosti prostředků v Aspose.Tasks
+
 ## Úvod
 oblasti vývoje Java je efektivní řízení úkolů klíčovým aspektem projektového řízení. Aspose.Tasks for Java poskytuje robustní řešení pro vývojáře pro interakci se soubory Microsoft Project, což umožňuje bezproblémovou integraci funkcí správy úloh do aplikací Java. V tomto tutoriálu se ponoříme do nastavení vlastností prostředků MS Project pomocí Aspose.Tasks for Java. Na konci této příručky budete mít komplexní znalosti o tom, jak manipulovat s vlastnostmi prostředků ve vašich projektech Java.
 ## Předpoklady
@@ -63,3 +69,9 @@ Ano, Aspose.Tasks for Java je schopen zpracovat širokou škálu formátů soubo
  Dočasnou licenci můžete získat od[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
 ### Kde si mohu zakoupit licencovanou verzi Aspose.Tasks for Java?
  Můžete si zakoupit licencovanou verzi Aspose.Tasks for Java od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

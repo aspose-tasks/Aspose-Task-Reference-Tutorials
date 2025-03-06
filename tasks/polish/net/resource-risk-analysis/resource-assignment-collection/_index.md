@@ -3,10 +3,16 @@ title: Zbiór przypisań zasobów w Aspose.Tasks
 linktitle: Zbiór przypisań zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać przypisaniami zasobów w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
-type: docs
 weight: 12
 url: /pl/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór przypisań zasobów w Aspose.Tasks
+
 ## Wstęp
 Witamy w tym kompleksowym samouczku na temat zarządzania przypisaniami zasobów w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. W tym samouczku omówimy ten proces krok po kroku, upewniając się, że dobrze rozumiesz, jak efektywnie manipulować przydziałami zasobów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez wszystko, co musisz wiedzieć.
 ## Warunki wstępne
@@ -94,3 +100,9 @@ O: Tak, Aspose.Tasks dla .NET obsługuje różne wersje plików Microsoft Projec
  Odpowiedź: Tak, licencje tymczasowe są dostępne do celów próbnych. Możesz dostać jeden z[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę kupić pełną licencję na Aspose.Tasks dla .NET?
  Odp.: Możesz kupić pełną licencję w sklepie internetowym Aspose[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

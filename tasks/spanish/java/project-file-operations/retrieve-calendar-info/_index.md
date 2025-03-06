@@ -3,10 +3,16 @@ title: Recuperar información del calendario de MS Project en Aspose.Tasks
 linktitle: Recuperar información del calendario en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda cómo recuperar información del calendario de MS Project usando Aspose.Tasks para Java. Guía paso a paso para acceder a los detalles del calendario mediante programación.
-type: docs
 weight: 14
 url: /es/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar información del calendario de MS Project en Aspose.Tasks
+
 ## Introducción
 En este tutorial, exploraremos cómo recuperar información del calendario de archivos de Microsoft Project usando la biblioteca Aspose.Tasks para Java. Aspose.Tasks proporciona potentes funciones para manipular los datos del proyecto, incluido el acceso a detalles del calendario, como días y horas laborables.
 ## Requisitos previos
@@ -88,3 +94,9 @@ R: Puede obtener soporte en el foro de la comunidad Aspose.Tasks[aquí](https://
  R: Sí, se pueden comprar licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?
  R: Puede consultar la documentación.[aquí](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

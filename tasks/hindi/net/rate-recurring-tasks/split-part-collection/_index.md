@@ -3,10 +3,16 @@ title: Aspose.Tasks में स्प्लिट पार्ट्स का
 linktitle: Aspose.Tasks में विभाजित भागों का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में विभाजित भागों को एकत्रित करना सीखें। यह व्यापक ट्यूटोरियल चरण-दर-चरण प्रक्रिया में आपका मार्गदर्शन करता है।
-type: docs
 weight: 19
 url: /hi/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में स्प्लिट पार्ट्स का MS प्रोजेक्ट एकत्रित करें
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में विभाजित भागों को कैसे एकत्रित करें, इस पर विस्तार से चर्चा करेंगे। कार्यों को भागों में विभाजित करना परियोजना प्रबंधन का एक महत्वपूर्ण पहलू हो सकता है, और Aspose.Tasks इसे कुशलतापूर्वक संभालने के लिए सुविधाजनक तरीके प्रदान करता है।
 ## आवश्यक शर्तें
@@ -66,3 +72,9 @@ Console.WriteLine("Split start: " + split.Start);
  उत्तर: अस्थायी लाइसेंस यहां से प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/) अल्पकालिक उपयोग के लिए.
 ### प्रश्न: मैं Aspose.Tasks के संबंध में सहायता या सहायता कहां से मांग सकता हूं?
  उत्तर: आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15)समुदाय या Aspose सहायता टीम से सहायता लेने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

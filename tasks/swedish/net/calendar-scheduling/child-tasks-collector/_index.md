@@ -3,10 +3,16 @@ title: Samla barnuppgifter i Aspose.Tasks
 linktitle: Samla barnuppgifter i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du samlar in underordnade uppgifter effektivt med Aspose.Tasks för .NET. Förbättra projekthanteringen i dina .NET-applikationer.
-type: docs
 weight: 15
 url: /sv/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samla barnuppgifter i Aspose.Tasks
+
 ## Introduktion
 
 Inom projektledningsområdet framstår Aspose.Tasks för .NET som en robust lösning för att hantera uppgifter och projekt effektivt. Detta kraftfulla bibliotek ger utvecklare de verktyg de behöver för att hantera uppgifter, projekt och allt däremellan sömlöst. I den här handledningen kommer vi att fördjupa oss i en specifik aspekt av Aspose.Tasks: samla in underordnade uppgifter.
@@ -96,3 +102,9 @@ S4: Ja, användare kan få tillgång till teknisk support via[Aspose.Tasks forum
 ### F5: Kan jag prova Aspose.Tasks för .NET innan jag köper?
 
  A5: Visst! Du kan utnyttja en gratis provperiod från[släpp sida](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

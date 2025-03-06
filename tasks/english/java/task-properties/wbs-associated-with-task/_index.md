@@ -3,10 +3,16 @@ title: WBS Associated with Task in Aspose.Tasks
 linktitle: WBS Associated with Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Master WBS with Aspose.Tasks for Java - Learn to read and renumber task WBS codes. Boost project management efficiency!
-type: docs
 weight: 36
 url: /java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS Associated with Task in Aspose.Tasks
+
 ## Introduction
 Welcome to the world of project management with Aspose.Tasks for Java! In this tutorial, we'll delve into the intricacies of Work Breakdown Structure (WBS) associated with tasks using Aspose.Tasks for Java. Whether you're a seasoned developer or just starting, this guide will help you navigate through the essentials of managing WBS codes efficiently.
 ## Prerequisites
@@ -90,3 +96,10 @@ A: Yes, you can get a free trial [here](https://releases.aspose.com/).
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for support.
 ### Q: Can I obtain a temporary license for Aspose.Tasks for Java?
 A: Yes, get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

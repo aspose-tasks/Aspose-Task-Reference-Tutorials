@@ -3,10 +3,16 @@ title: Xử lý ngoại lệ tiêu đề tài liệu phức hợp trong Aspose.T
 linktitle: Xử lý ngoại lệ tiêu đề tài liệu phức hợp trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý ngoại lệ CompositeDocumentHeaderException trong Aspose.Tasks cho .NET. Nhận hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 16
 url: /vi/net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý ngoại lệ tiêu đề tài liệu phức hợp trong Aspose.Tasks
+
 ## Giới thiệu
 
  Trong lĩnh vực phát triển .NET, việc quản lý các nhiệm vụ dự án một cách hiệu quả là mối quan tâm hàng đầu. Aspose.Tasks cung cấp giải pháp toàn diện cho các nhà phát triển .NET để xử lý các tác vụ quản lý dự án một cách liền mạch. Tuy nhiên, gặp phải ngoại lệ là một khía cạnh tất yếu của quá trình phát triển phần mềm. Một ngoại lệ mà các nhà phát triển có thể gặp phải là`CompoundDocumentHeaderException`. Hướng dẫn này nhằm mục đích hướng dẫn các nhà phát triển cách xử lý ngoại lệ này một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET.
@@ -105,3 +111,9 @@ Câu trả lời 4: Có, Aspose.Tasks cung cấp API đám mây để tích hợ
 ### Câu hỏi 5: Tần suất phát hành các bản cập nhật và sửa lỗi cho Aspose.Tasks là bao nhiêu?
 
 Câu trả lời 5: Aspose.Tasks thường xuyên phát hành các bản cập nhật và sửa lỗi để đảm bảo tính ổn định và độ tin cậy của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

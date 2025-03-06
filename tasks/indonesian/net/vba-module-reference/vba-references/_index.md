@@ -3,10 +3,16 @@ title: Menguasai Penanganan Referensi VBA - Panduan Langkah demi Langkah
 linktitle: Menangani Referensi VBA di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan penanganan referensi VBA di Aspose.Tasks .NET dengan tutorial komprehensif kami. Belajar membaca, membandingkan, dan bekerja dengan referensi VBA dengan lancar.
-type: docs
 weight: 15
 url: /id/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Penanganan Referensi VBA - Panduan Langkah demi Langkah
+
 ## Perkenalan
 Jika Anda mendalami Aspose.Tasks untuk .NET dan ingin menjelajahi seluk-beluk penanganan referensi VBA, Anda berada di tempat yang tepat. Panduan langkah demi langkah ini akan memandu Anda melalui proses membaca, memeriksa kesetaraan, mendapatkan kode hash, dan bekerja dengan koleksi referensi VBA menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -79,3 +85,9 @@ J: Aspose.Tasks terutama mendukung bahasa .NET, namun ada produk Aspose lain yan
  J: Dokumentasinya tersedia[Di Sini](https://reference.aspose.com/tasks/net/).
 ### T: Bisakah saya membeli Aspose.Tasks?
  A: Ya, Anda bisa membelinya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

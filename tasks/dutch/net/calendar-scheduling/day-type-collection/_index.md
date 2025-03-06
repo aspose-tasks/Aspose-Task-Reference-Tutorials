@@ -3,10 +3,16 @@ title: Verzameling van dagtypes beheren in Aspose.Tasks
 linktitle: Verzameling van dagtypes beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u dagtypecollecties efficiënt beheert in Aspose.Tasks voor .NET. Creëer, wijzig en manipuleer eenvoudig agenda-uitzonderingen.
-type: docs
 weight: 28
 url: /nl/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van dagtypes beheren in Aspose.Tasks
+
 ## Invoering
 
  Aspose.Tasks voor .NET biedt robuuste functionaliteit voor het beheren van dagtypeverzamelingen, cruciaal voor het definiëren van wekelijkse kalenderuitzonderingen in projectbeheertoepassingen. In deze zelfstudie onderzoeken we hoe u de`DayTypeCollection` klas efficiënt. 
@@ -141,3 +147,9 @@ A2: Ja, Aspose.Tasks voor .NET ondersteunt zowel .NET Core als .NET Framework.
 ### V5: Kan ik een tijdelijke licentie kopen voor Aspose.Tasks voor .NET?
 
  A5: Ja, tijdelijke licenties zijn te koop bij de[Aspose-website](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

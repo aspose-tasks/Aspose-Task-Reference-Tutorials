@@ -3,10 +3,16 @@ title: Opsi Penghematan Aspose.Tasks
 linktitle: Opsi Penghematan Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Simpan, konversi, dan kelola file MS Project dengan Aspose.Tasks untuk .NET. Jelajahi tutorial langkah demi langkah untuk HTML, gambar, PDF, Primavera, templat, dan banyak lagi.
-type: docs
 weight: 20
 url: /id/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Penghematan Aspose.Tasks
+
 
 ## Perkenalan
 
@@ -53,3 +59,9 @@ Master Spreadsheet 2003 Simpan Opsi Proyek MS dengan Aspose.Tasks untuk .NET. Se
 Pelajari cara memanfaatkan Aspose.Tasks untuk .NET guna menghasilkan representasi SVG file Microsoft Project dengan mudah untuk meningkatkan visualisasi proyek.
 ### [Ubah Opsi MSP ke XPS dengan Aspose.Tasks](./xps-options/)
 Pelajari cara mengonversi file Microsoft Project ke format XPS menggunakan Aspose.Tasks untuk .NET. Integrasi yang mudah, fungsionalitas yang kuat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

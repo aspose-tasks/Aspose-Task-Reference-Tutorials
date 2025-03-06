@@ -3,10 +3,16 @@ title: Управление ставками проектов MS с помощь
 linktitle: Обработка скоростей в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Освойте управление ставками проектов MS с легкостью, используя Aspose.Tasks для .NET. Эффективно автоматизируйте задачи, чтобы упростить рабочие процессы проекта.
-type: docs
 weight: 10
 url: /ru/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление ставками проектов MS с помощью Aspose.Tasks для .NET
+
 ## Введение
 Добро пожаловать в наше руководство по управлению ставками MS Project с использованием Aspose.Tasks для .NET! В этом руководстве мы шаг за шагом проведем вас через весь процесс, гарантируя, что вы сможете эффективно управлять ставками в документах MS Project. Aspose.Tasks для .NET предоставляет мощные функции для программного управления файлами MS Project, что позволяет вам легко оптимизировать задачи управления проектами.
 ## Предварительные условия
@@ -77,3 +83,9 @@ rate2.CostPerUse = 2m;
 О: Да, вы можете реализовать собственные расчеты ставок с помощью Aspose.Tasks для удовлетворения конкретных требований проекта.
 ### Вопрос: Есть ли форум сообщества или поддержка для пользователей Aspose.Tasks?
  О: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)для обращения за помощью и взаимодействия с другими пользователями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

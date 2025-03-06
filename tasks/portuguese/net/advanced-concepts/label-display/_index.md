@@ -3,10 +3,16 @@ title: Exibindo rótulos em Aspose.Tasks
 linktitle: Exibindo rótulos em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como personalizar exibições de rótulos no gerenciamento de projetos com Aspose.Tasks for .NET. Melhore a legibilidade e a clareza sem esforço.
-type: docs
 weight: 14
 url: /pt/net/advanced-concepts/label-display/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exibindo rótulos em Aspose.Tasks
+
 ## Introdução
 
 No domínio do desenvolvimento de software, o gerenciamento eficiente de tarefas é fundamental para o sucesso do projeto. Aspose.Tasks for .NET oferece uma solução robusta para lidar perfeitamente com tarefas de gerenciamento de projetos dentro da estrutura .NET. Um aspecto fundamental do gerenciamento de projetos é a capacidade de personalizar as opções de exibição para atender a requisitos específicos. Neste tutorial, exploraremos como utilizar Aspose.Tasks for .NET para manipular exibições de rótulos de minutos, horas, dias, semanas, meses e anos nos arquivos do projeto.
@@ -137,3 +143,10 @@ A4: Aspose.Tasks for .NET oferece amplas opções de personalização para exibi
 ### P5: O Aspose.Tasks oferece suporte à integração com outras ferramentas de gerenciamento de projetos?
 
 A5: Sim, Aspose.Tasks oferece recursos de integração perfeita, facilitando a interoperabilidade com outras ferramentas e plataformas de gerenciamento de projetos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Удаление задач MS Project с помощью Aspose.Tasks
 linktitle: Удаление задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как программно удалять задачи MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство с примерами кода включено.
-type: docs
 weight: 15
 url: /ru/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Удаление задач MS Project с помощью Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как удалить задачи из файла Microsoft Project с помощью Aspose.Tasks для .NET. Aspose.Tasks — это мощный API, который позволяет разработчикам программно манипулировать файлами Microsoft Project. Удаление задач из файла проекта может быть распространенным требованием в сценариях управления проектами, и Aspose.Tasks предоставляет простой способ добиться этого.
 ## Предварительные условия
@@ -75,3 +81,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 О: Конечно, Aspose.Tasks предлагает комплексную поддержку сложных структур проектов, позволяя вам с легкостью манипулировать задачами, ресурсами и другими элементами проекта.
 ### Вопрос: Доступна ли пробная версия для Aspose.Tasks?
  О: Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта[здесь](https://releases.aspose.com/tasks/net/) чтобы изучить его возможности перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

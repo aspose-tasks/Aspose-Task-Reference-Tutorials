@@ -3,10 +3,16 @@ title: Beépített projekttulajdon-gyűjtemény az Aspose.Tasks-ban
 linktitle: Beépített projekttulajdon-gyűjtemény az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a projekt metatulajdonságait .NET-alkalmazásokban az Aspose.Tasks segítségével. Könnyedén olvassa el, módosítsa és iterálja a tulajdonságokat.
-type: docs
 weight: 24
 url: /hu/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beépített projekttulajdon-gyűjtemény az Aspose.Tasks-ban
+
 ## Bevezetés
 
 A szoftverfejlesztés területén a sikeres feladatok és projektek hatékony menedzselése a legfontosabb. Az Aspose.Tasks for .NET egy hatékony könyvtár, amelyet a .NET-alkalmazásokon belüli projektkezelési feladatok megkönnyítésére terveztek. Robusztus funkcióinak és intuitív kezelőfelületének köszönhetően a fejlesztők egyszerűsíthetik a projektmenedzsment folyamatait, így időt és erőforrásokat takaríthatnak meg.
@@ -106,3 +112,9 @@ A2: Abszolút! Az Aspose.Tasks for .NET lehetővé teszi, hogy ne csak olvassa, 
 ### 5. kérdés: Hol találok további támogatást és forrásokat az Aspose.Tasks for .NET-hez?
 
  A5: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért, és böngéssze át a dokumentációt átfogó útmutatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spara MS Project-filer i olika format i Aspose.Tasks
 linktitle: Spara filer i olika format i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du sparar MS Project-filer i olika format med Aspose.Tasks för .NET. Enkla steg för effektiv projektledning.
-type: docs
 weight: 17
 url: /sv/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara MS Project-filer i olika format i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man sparar Microsoft Project-filer i olika format med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som tillåter utvecklare att manipulera och hantera projektfiler programmatiskt.
 ## Förutsättningar
@@ -55,3 +61,9 @@ S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose
  S: Ja, tillfälliga licenser är tillgängliga för utvärderingssyften. Du kan få en[här](https://purchase.aspose.com/temporary-license/).
 ### F: Vad är priset för Aspose.Tasks?
  S: Prisinformation finns på köpsidan för Aspose.Tasks[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

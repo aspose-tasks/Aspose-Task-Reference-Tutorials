@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Çalışma Sürelerinde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Çalışma Sürelerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Proje zaman çizelgelerini verimli bir şekilde yönetme konusunda Aspose.Tasks for .NET'in gücünü keşfedin. Takvimleri özelleştirin, çalışma sürelerini ayarlayın ve projelerinizi kolaylıkla kolaylaştırın.
-type: docs
 weight: 14
 url: /tr/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Çalışma Sürelerinde Uzmanlaşmak
+
 ## giriiş
 Aspose.Tasks for .NET'te çalışma sürelerini yönetme sanatında ustalaşmak mı istiyorsunuz? Başka yerde arama! Bu adım adım kılavuzda, Aspose.Tasks'ı kullanarak çalışma zamanı toplamanın inceliklerini inceleyerek, özel takvimleri verimli bir şekilde yönetmenizi ve proje zaman çizelgelerinizi düzene koymanızı sağlayacağız.
 ## Önkoşullar
@@ -114,3 +120,9 @@ Kesinlikle! Aspose.Tasks, diğer .NET kitaplıklarıyla sorunsuz bir şekilde b�
  Evet, Aspose.Tasks'ı ziyaret ederek ücretsiz deneme sürümüyle keşfedebilirsiniz.[bu bağlantı](https://releases.aspose.com/).
 ### Aspose.Tasks için nereden destek alabilirim?
  Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.Tasks destek forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

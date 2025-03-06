@@ -3,10 +3,16 @@ title: Διαχείριση άδειας χρήσης έργου MS στο Aspos
 linktitle: Διαχείριση άδειας χρήσης Aspose.Tasks στο .NET
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε τις άδειες χρήσης Aspose.Tasks σε εφαρμογές .NET απρόσκοπτα χρησιμοποιώντας προσεγγίσεις που βασίζονται σε αρχεία ή σε ροή.
-type: docs
 weight: 10
 url: /el/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση άδειας χρήσης έργου MS στο Aspose.Tasks .NET
+
 ## Εισαγωγή
 Η διαχείριση αδειών είναι μια κρίσιμη πτυχή της αποτελεσματικής χρήσης του Aspose.Tasks σε εφαρμογές .NET. Χωρίς την κατάλληλη άδεια χρήσης, ενδέχεται να αντιμετωπίσετε περιορισμούς ή περιορισμούς στη χρήση σας. Ευτυχώς, το Aspose.Tasks παρέχει απλές μεθόδους για την εφαρμογή αδειών χρησιμοποιώντας αρχεία ή ροές στα έργα σας .NET. Σε αυτό το σεμινάριο, θα εξερευνήσουμε βήμα προς βήμα πώς να διαχειριστούμε τις άδειες χρήσης Aspose.Tasks σε εφαρμογές .NET.
 ## Προαπαιτούμενα
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### Ε: Μπορώ να χρησιμοποιήσω το ίδιο αρχείο άδειας χρήσης για πολλές εφαρμογές;
 
 Α: Ναι, μπορείτε να χρησιμοποιήσετε το ίδιο αρχείο άδειας χρήσης σε πολλές εφαρμογές που έχουν αναπτυχθεί από τον ίδιο δικαιοδόχο. Ωστόσο, βεβαιωθείτε ότι η άδειά σας συμμορφώνεται με τους όρους χρήσης που καθορίζονται από την Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

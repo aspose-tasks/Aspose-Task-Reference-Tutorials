@@ -3,10 +3,16 @@ title: Χειρισμός Γραμμών Προόδου Έργου MS με το 
 linktitle: Χειρισμός Γραμμών Προόδου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε τις γραμμές προόδου σε αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET, βελτιώνοντας την οπτικοποίηση και τη διαχείριση του έργου.
-type: docs
 weight: 15
 url: /el/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός Γραμμών Προόδου Έργου MS με το Aspose.Tasks
+
 ## Εισαγωγή
 Το Microsoft Project (MS Project) είναι ένα ισχυρό εργαλείο για τη διαχείριση έργων, που επιτρέπει στους χρήστες να παρακολουθούν διάφορες πτυχές των έργων τους. Ένα κρίσιμο χαρακτηριστικό του MS Project είναι η ικανότητα οπτικοποίησης των γραμμών προόδου, οι οποίες βοηθούν τους ενδιαφερόμενους να κατανοήσουν την κατάσταση και την πορεία του έργου. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο χειρισμού των γραμμών προόδου στο MS Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -96,3 +102,9 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
  Α: Ναι, μπορείτε να βρείτε χρήσιμους πόρους και να αναζητήσετε βοήθεια στο φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Το Aspose.Tasks προσφέρει προσωρινές άδειες για σκοπούς αξιολόγησης;
  Α: Ναι, μπορείτε να λάβετε προσωρινή άδεια για αξιολόγηση από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

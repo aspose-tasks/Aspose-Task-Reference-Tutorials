@@ -3,10 +3,16 @@ title: Menguasai Tampilan Proyek Microsoft dengan Aspose.Tasks
 linktitle: Mengonfigurasi Tampilan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kuasai tampilan Proyek Microsoft dengan Aspose.Tasks untuk .NET. Sesuaikan dan sederhanakan pengalaman manajemen proyek Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Tampilan Proyek Microsoft dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia manajemen proyek yang dinamis, menyesuaikan tampilan di Microsoft Project dapat meningkatkan alur kerja Anda secara signifikan. Aspose.Tasks untuk .NET menyediakan perangkat canggih untuk memanipulasi dan mengonfigurasi tampilan proyek dengan lancar. Dalam tutorial ini, kami akan mempelajari langkah-langkah mengonfigurasi tampilan menggunakan Aspose.Tasks untuk .NET, membantu Anda menyederhanakan visualisasi proyek Anda.
 ## Prasyarat
@@ -78,3 +84,9 @@ Aspose.Tasks terutama dirancang untuk Microsoft Project, memastikan integrasi da
  Tentu saja, pelajari dokumentasi Aspose.Tasks[Di Sini](https://reference.aspose.com/tasks/net/) untuk opsi penyesuaian lanjutan.
 ### Di mana saya dapat membeli Aspose.Tasks untuk .NET?
  Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy) untuk pengalaman manajemen proyek yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manejo de enlaces de tareas en Aspose.Tasks
 linktitle: Manejo de enlaces de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore el poder de Aspose.Tasks para .NET en la gestión eficiente de enlaces de tareas de proyectos. Siga nuestra guía paso a paso para mejorar su experiencia de gestión de proyectos.
-type: docs
 weight: 19
 url: /es/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de enlaces de tareas en Aspose.Tasks
+
 ## Introducción
 ¡Bienvenido a la guía paso a paso sobre cómo manejar enlaces de tareas en Aspose.Tasks para .NET! Los enlaces de tareas desempeñan un papel crucial en la gestión de proyectos, ya que le permiten establecer relaciones entre tareas y crear dependencias. En este tutorial, lo guiaremos a través del proceso de trabajar con colecciones de enlaces de tareas usando Aspose.Tasks.
 ## Requisitos previos
@@ -85,3 +91,9 @@ Actualmente, Aspose.Tasks admite tipos de enlaces de tareas estándar y los tipo
 Aspose.Tasks puede manejar archivos de proyectos grandes de manera eficiente con un impacto mínimo en el rendimiento.
 ### ¿Existe un foro comunitario para soporte de Aspose.Tasks?
  Sí, puede encontrar apoyo e interactuar con la comunidad en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

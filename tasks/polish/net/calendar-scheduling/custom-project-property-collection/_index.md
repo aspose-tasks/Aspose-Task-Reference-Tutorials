@@ -3,10 +3,16 @@ title: Zarządzanie niestandardową kolekcją właściwości projektu w Aspose.T
 linktitle: Zarządzanie niestandardową kolekcją właściwości projektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skutecznie zarządzać niestandardowymi właściwościami projektu w Aspose.Tasks dla .NET, poprawiając swoje doświadczenie w zarządzaniu projektami.
-type: docs
 weight: 24
 url: /pl/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie niestandardową kolekcją właściwości projektu w Aspose.Tasks
+
 ## Wstęp
 
 Czy jesteś gotowy, aby ulepszyć swoje doświadczenie w zarządzaniu projektami dzięki Aspose.Tasks dla .NET? Zarządzanie niestandardowymi właściwościami projektu jest kluczowym aspektem zarządzania projektami, umożliwiającym dodawanie określonych metadanych dostosowanych do wymagań projektu. W tym samouczku omówimy, jak efektywnie pracować z niestandardowymi kolekcjami właściwości projektu za pomocą Aspose.Tasks dla .NET.
@@ -131,3 +137,9 @@ A4: Tak, możesz uzyskać tymczasową licencję ze strony Aspose do celów ewalu
 ### P5: Gdzie mogę znaleźć wsparcie lub dalszą pomoc dotyczącą Aspose.Tasks dla .NET?
 
  O5: Możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zvládnutí kritérií filtru MS Project pomocí Aspose.Tasks
 linktitle: Filtrovat kritéria v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se implementovat kritéria filtru v MS Project pomocí Aspose.Tasks pro .NET. Zvyšte efektivitu projektového řízení pomocí cílené analýzy dat.
-type: docs
 weight: 18
 url: /cs/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí kritérií filtru MS Project pomocí Aspose.Tasks
+
 ## Úvod
 V oblasti projektového řízení je Microsoft Project spolehlivým nástrojem, který nabízí nepřeberné množství funkcí, které pomáhají projektantům a manažerům. Mezi jeho mnoha funkcemi patří schopnost filtrovat data projektu, což uživatelům umožňuje soustředit se na konkrétní aspekty úkolů jejich projektu. Zvládnutí těchto možností filtrování však může být bez správného vedení skličujícím úkolem. Tento tutoriál si klade za cíl demystifikovat proces poskytnutím podrobného průvodce implementací kritérií filtru v MS Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -89,3 +95,9 @@ Odpověď: Aspose.Tasks podporuje .NET Framework, .NET Core a .NET Standard, co�
 Odpověď: Kritéria filtru můžete programově upravit na základě dynamických parametrů, což umožňuje adaptivní analýzu dat projektu.
 ### Otázka: Kde mohu vyhledat pomoc, pokud narazím na problémy s Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) hledat podporu od komunity nebo přímo kontaktovat Aspose.Tasks podporu pro personalizovanou pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

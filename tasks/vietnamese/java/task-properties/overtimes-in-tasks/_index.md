@@ -3,10 +3,16 @@ title: Làm thêm giờ trong nhiệm vụ với Aspose.Tasks
 linktitle: Làm thêm giờ trong nhiệm vụ với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá cách quản lý ngoài giờ hiệu quả trong các nhiệm vụ dự án với Aspose.Tasks cho Java. Đơn giản hóa việc theo dõi và phân bổ nguồn lực một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm thêm giờ trong nhiệm vụ với Aspose.Tasks
+
 ## Giới thiệu
 Quản lý việc làm thêm giờ trong các nhiệm vụ dự án là rất quan trọng đối với người quản lý dự án và trưởng nhóm để đảm bảo theo dõi và phân bổ nguồn lực chính xác. Aspose.Tasks for Java cung cấp một giải pháp mạnh mẽ để xử lý các khía cạnh liên quan đến làm thêm giờ trong quản lý dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Tasks để quản lý và phân tích hiệu quả thời gian làm thêm giờ trong các nhiệm vụ dự án.
 ## Điều kiện tiên quyết
@@ -54,3 +60,9 @@ Tuyệt đối! Aspose.Tasks tích hợp liền mạch với các khung Java kh�
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tham gia với cộng đồng và tìm kiếm sự hỗ trợ.
 ### Có phiên bản dùng thử miễn phí cho Aspose.Tasks không?
  Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

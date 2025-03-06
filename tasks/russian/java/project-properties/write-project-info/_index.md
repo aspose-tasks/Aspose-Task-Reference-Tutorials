@@ -3,10 +3,16 @@ title: Освоение управления проектами MS с помощ
 linktitle: Запишите информацию о проекте в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно записывать информацию MS Project с помощью Aspose.Tasks для Java. Пошаговое руководство для разработчиков Java.
-type: docs
 weight: 12
 url: /ru/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение управления проектами MS с помощью Aspose.Tasks для Java
+
 ## Введение
 В этом руководстве мы углубимся в использование Aspose.Tasks для Java, мощной библиотеки для программного управления файлами Microsoft Project. Мы сосредоточимся на фундаментальной задаче: написании информации MS Project с использованием Aspose.Tasks. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь в программировании на Java, это руководство шаг за шагом проведет вас через этот процесс.
 ## Предварительные условия
@@ -61,3 +67,9 @@ project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
  О: Вы можете обратиться за помощью на форум сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Могу ли я приобрести временную лицензию на Aspose.Tasks для Java?
  О: Да, временные лицензии доступны для краткосрочного использования. Вы можете получить его от[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

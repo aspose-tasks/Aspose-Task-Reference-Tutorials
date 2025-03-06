@@ -3,10 +3,16 @@ title: Обработка исключений календаря в Aspose.Task
 linktitle: Обработка исключений календаря в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять исключениями календаря в Aspose.Tasks для .NET, с помощью пошаговых руководств и примеров.
-type: docs
 weight: 12
 url: /ru/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка исключений календаря в Aspose.Tasks
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как управлять исключениями календаря в Aspose.Tasks с использованием платформы .NET. Календарные исключения позволяют нам определять особые даты или периоды в календаре проекта, когда обычный рабочий график изменяется, например праздники или временное закрытие. Мы шаг за шагом рассмотрим различные методы обработки исключений календаря, используя Aspose.Tasks для .NET.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks поддерживает различные типы исклю
 ### Вопрос 5. Могу ли я настроить рабочее время для определенных дат исключений?
 
 О5: Да, вы можете определить собственное рабочее время для отдельных дат исключений, используя соответствующие методы, предоставляемые Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

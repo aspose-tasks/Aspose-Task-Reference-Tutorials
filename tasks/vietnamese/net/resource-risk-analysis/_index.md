@@ -3,10 +3,16 @@ title: Aspose.Tasks Quản lý tài nguyên và phân tích rủi ro
 linktitle: Aspose.Tasks Quản lý tài nguyên và phân tích rủi ro
 second_title: Aspose.Tasks .NET API
 description: Quản lý tài nguyên MS Project với Aspose.Tasks .NET. Tăng năng suất và hợp lý hóa quy trình làm việc. Tìm hiểu các bài tập tài nguyên, chế độ xem sử dụng, phân tích rủi ro, v.v.
-type: docs
 weight: 26
 url: /vi/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Quản lý tài nguyên và phân tích rủi ro
+
 ## Giới thiệu
 
 Bạn đang tìm kiếm những cách hiệu quả để quản lý tài nguyên Microsoft Project và nâng cao khả năng phân tích rủi ro bằng Aspose.Tasks cho .NET? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn qua nhiều hướng dẫn khác nhau, bao gồm các chủ đề thiết yếu để trao quyền cho các nhà phát triển và người quản lý dự án.
@@ -90,3 +96,9 @@ Tìm hiểu cách thu thập số liệu thống kê về mục rủi ro từ c�
 Tìm hiểu cách quản lý hiệu quả các mẫu rủi ro trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Cải thiện kết quả dự án bằng các công cụ phân tích rủi ro mạnh mẽ.
 ### [Quản lý các mẫu rủi ro trong MS Project với Aspose.Tasks](./risk-pattern-collection/)
 Tìm hiểu cách phân tích và xử lý hiệu quả các mẫu rủi ro trong tệp Microsoft Project bằng Aspose.Tasks cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

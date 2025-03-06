@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用分配
 linktitle: 在 Aspose.Tasks 中使用分配
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 管理 .NET 中的專案分配。探索資源調度的不同輪廓。
-type: docs
 weight: 13
 url: /zh-hant/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用分配
+
 ## 介紹
 
 在本教程中，我們將探討如何在 Aspose.Tasks for .NET 中處理作業。分配在專案管理中至關重要，因為它們為任務分配資源，有助於安排和追蹤進度。我們將重點放在使用 Aspose.Tasks 產生具有各種輪廓的資源分配時間分段資料。
@@ -109,3 +115,9 @@ A4: 是的，如本教學所示範的，您可以根據您的專案要求設定�
 ### Q5：在哪裡可以找到 Aspose.Tasks 相關查詢的支援？
 
 A5：您可以在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)專家和社區成員積極參與討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

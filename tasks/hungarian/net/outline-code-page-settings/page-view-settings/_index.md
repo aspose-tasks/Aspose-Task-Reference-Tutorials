@@ -3,10 +3,16 @@ title: Testreszabhatja az MS Project oldalnézeti beállításait az Aspose.Task
 linktitle: Az Aspose.Tasks oldalnézeti beállításainak konfigurálása
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az Aspose.Tasks for .NET oldalnézeti beállításait a Microsoft Project-dokumentumok nyomtatási formátumának testreszabásához.
-type: docs
 weight: 21
 url: /hu/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja az MS Project oldalnézeti beállításait az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 A Microsoft Project egy hatékony eszköz a projektmenedzsmenthez, de néha testre kell szabnia a projekt megtekintésének és nyomtatásának módját. Az Aspose.Tasks for .NET segítségével egyszerűen konfigurálhatja az oldalnézet beállításait, hogy megfeleljenek az egyedi követelményeknek. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Igen, az oldalnézet beállításait függetlenül módosíthatja minden egye
 V: Az Aspose.Tasks kompatibilis a Microsoft Project 2003 és újabb verzióival.
 ### K: Hol találhatok további segítséget vagy támogatást az Aspose.Tasks-hoz?
  V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen kérdés vagy probléma esetén, amellyel a használat során találkozik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

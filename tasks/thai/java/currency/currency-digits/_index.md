@@ -3,10 +3,16 @@ title: จัดการหลักสกุลเงินด้วย Aspose
 linktitle: จัดการหลักสกุลเงินด้วย Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีจัดการสกุลเงินหลัก MS Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 11
 url: /th/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการหลักสกุลเงินด้วย Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับการจัดการสกุลเงินหลัก MS Project โดยใช้ Aspose.Tasks สำหรับ Java ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้แน่ใจว่าคุณจะเข้าใจแต่ละแนวคิดอย่างละเอียด
 ## ข้อกำหนดเบื้องต้น
@@ -56,3 +62,9 @@ System.out.println(project.get(Prj.CURRENCY_DIGITS));
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  คุณสามารถค้นหาการสนับสนุนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

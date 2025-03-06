@@ -3,10 +3,16 @@ title: Повременные данные задачи в Aspose.Tasks
 linktitle: Повременные данные задачи в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите Aspose.Tasks для Java и освойте повременное управление данными задач. Загрузите библиотеку, получите бесплатную пробную версию и оптимизируйте отслеживание своих проектов.
-type: docs
 weight: 34
 url: /ru/java/task-properties/task-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Повременные данные задачи в Aspose.Tasks
+
 ## Введение
 В сфере управления проектами точное отслеживание повременных данных задачи имеет решающее значение для эффективного выполнения проекта. Aspose.Tasks for Java представляет собой мощный инструмент для оптимизации этого процесса, предлагающий надежные функции и гибкость. Это руководство поможет вам использовать Aspose.Tasks для Java для эффективного управления повременными данными задач.
 ## Предварительные условия
@@ -104,3 +110,9 @@ System.out.println(td.get(0).getValue());
  О: Вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу приобрести Aspose.Tasks для Java?
  О: Вы можете приобрести Aspose.Tasks для Java.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

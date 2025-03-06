@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中从 MS Access 数据库读取项目数据
 linktitle: 使用 Aspose.Tasks 从 Microsoft Access 数据库读取项目数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 Microsoft Access 数据库读取 MS Project 数据。请按照我们的分步教程进行无缝集成。
-type: docs
 weight: 11
 url: /zh/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中从 MS Access 数据库读取项目数据
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的 API，允许开发人员在 Java 应用程序中无缝地使用 Microsoft Project 文件。在本教程中，我们将重点关注使用 Aspose.Tasks 从 Microsoft Access 数据库读取 MS Project 数据。
 ## 先决条件
@@ -60,3 +66,9 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 答：您可能需要临时许可证才能使用某些高级功能。从以下位置获取[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：哪里可以购买 Aspose.Tasks for Java？
 答：您可以从以下位置购买 Aspose.Tasks for Java：[这个链接](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

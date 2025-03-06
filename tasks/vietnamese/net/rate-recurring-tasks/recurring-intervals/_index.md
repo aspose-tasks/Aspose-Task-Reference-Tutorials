@@ -3,10 +3,16 @@ title: Khoảng thời gian định kỳ dự án MS dễ dàng trong Aspose.Tas
 linktitle: Quản lý khoảng thời gian định kỳ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá cách quản lý dễ dàng các khoảng thời gian định kỳ trong MS Project bằng cách sử dụng Aspose.Tasks for .NET.
-type: docs
 weight: 12
 url: /vi/net/rate-recurring-tasks/recurring-intervals/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khoảng thời gian định kỳ dự án MS dễ dàng trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang tìm cách quản lý các khoảng thời gian định kỳ một cách hiệu quả trong các tệp Microsoft Project bằng Aspose.Tasks cho .NET? Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn có thể dễ dàng xử lý các khoảng thời gian định kỳ trong dự án của mình. Trước khi đi sâu vào phần hướng dẫn, chúng ta hãy điểm qua một số điều kiện tiên quyết để đảm bảo bạn đã sẵn sàng bắt đầu.
 ## Điều kiện tiên quyết
@@ -103,3 +109,9 @@ Có, Aspose.Tasks for .NET có thể được sử dụng với bất kỳ ngôn
  Có, bạn có thể mua giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu đầy đủ về Aspose.Tasks cho .NET ở đâu?
  Các tài liệu đầy đủ có thể được tìm thấy[đây](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

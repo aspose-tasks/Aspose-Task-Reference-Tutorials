@@ -3,10 +3,16 @@ title: Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks
 linktitle: Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET. Tingkatkan visualisasi proyek dengan langkah-langkah mendetail. Unduh perpustakaannya sekarang!
-type: docs
 weight: 17
 url: /id/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks
+
 ## Perkenalan
 Jika Anda seorang pengembang .NET yang ingin meningkatkan kemampuan manajemen proyek Anda, Aspose.Tasks adalah alat canggih yang memungkinkan Anda memanipulasi file Microsoft Project dengan mudah. Dalam tutorial ini, kami akan fokus pada mengonfigurasi tampilan penggunaan menggunakan Aspose.Tasks untuk .NET. Ikuti terus untuk mendapatkan wawasan tentang rendering tampilan penggunaan tugas dengan detail untuk visualisasi proyek yang lebih baik.
 ## Prasyarat
@@ -72,3 +78,9 @@ Selamat! Anda telah berhasil mengonfigurasi tampilan penggunaan di Aspose.Tasks.
  Ya, jelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Butuh dukungan atau ada pertanyaan?
  Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

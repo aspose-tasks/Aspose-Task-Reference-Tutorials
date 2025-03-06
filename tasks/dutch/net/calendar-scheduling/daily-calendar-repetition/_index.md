@@ -3,10 +3,16 @@ title: Dagelijkse kalenderherhaling in Aspose.Tasks
 linktitle: Dagelijkse kalenderherhaling in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u terugkerende taken kunt maken met dagelijkse agendaherhalingen in Aspose.Tasks voor .NET. Verbeter moeiteloos de efficiëntie van projectbeheer.
-type: docs
 weight: 25
 url: /nl/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dagelijkse kalenderherhaling in Aspose.Tasks
+
 ## Invoering
 
  Aspose.Tasks voor .NET biedt een krachtige set tools voor het programmatisch beheren van taken en projecten. Een van de opvallende kenmerken is de mogelijkheid om dagelijkse agendaherhalingen efficiënt af te handelen. In deze zelfstudie onderzoeken we hoe u de`DailyCalendarRepetition` klas samen met andere relevante klassen om terugkerende taken te creëren met dagelijkse herhalingen op basis van een gespecificeerde kalender.
@@ -117,3 +123,9 @@ A4: Zeker, Aspose.Tasks biedt visualisatie-opties waarmee u terugkerende taken e
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks?
 
  A5: Ja, u kunt profiteren van een gratis proefperiode van Aspose.Tasks vanaf[hier](https://releases.aspose.com/) om de functies ervan te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

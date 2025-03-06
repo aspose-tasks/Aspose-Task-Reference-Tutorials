@@ -3,10 +3,16 @@ title: VBAの統合
 linktitle: VBAの統合
 second_title: Aspose.Tasks Java API
 description: VBA と統合された Aspose.Tasks Java を探索します。プロジェクトのワークフローを合理化し、タスクの追跡を改善します。シームレスな VBA 統合のための包括的なチュートリアルをご覧ください。
-type: docs
 weight: 35
 url: /ja/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBAの統合
+
 
 ## 導入
 
@@ -38,3 +44,9 @@ VBA を Aspose.Tasks for Java に統合すると、タスクの追跡が簡単�
 ## VBA 統合チュートリアル
 ### [Aspose.Tasks での VBA 統合の操作](./work-with-vba/)
 Aspose.Tasks for Java でプロジェクト管理を強化 - VBA 統合を解き放ち、ワークフローを合理化します。効率的なタスク追跡を今すぐ試してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

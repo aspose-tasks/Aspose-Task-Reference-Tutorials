@@ -3,10 +3,16 @@ title: Napi naptári ismétlés az Aspose.Tasks-ban
 linktitle: Napi naptári ismétlés az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan hozhat létre ismétlődő feladatokat napi naptárismétléssel az Aspose.Tasks for .NET alkalmazásban. Fokozatmentesen fokozza a projektmenedzsment hatékonyságát.
-type: docs
 weight: 25
 url: /hu/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Napi naptári ismétlés az Aspose.Tasks-ban
+
 ## Bevezetés
 
  Az Aspose.Tasks for .NET hatékony eszközkészletet biztosít a feladatok és projektek programozott kezeléséhez. Egyik figyelemre méltó tulajdonsága a napi naptárismétlések hatékony kezelése. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a`DailyCalendarRepetition` osztályt más releváns osztályokkal együtt, hogy napi ismétlődéssel ismétlődő feladatokat hozzon létre egy megadott naptár alapján.
@@ -117,3 +123,9 @@ V1: Igen, az egyes ismétlések időtartamát igénye szerint módosíthatja a k
 ### 5. kérdés: Elérhető az Aspose.Tasks próbaverziója?
 
  5. válasz: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/) hogy vásárlás előtt ismerkedjen meg funkcióival.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

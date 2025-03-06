@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks를 사용한 간편한 작업 그룹 처리
 linktitle: Aspose.Tasks에서 작업 그룹 유형 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 탐색하여 프로젝트의 작업 그룹 유형을 손쉽게 처리하세요. 자원 할당을 최적화하고 프로젝트 관리를 강화합니다.
-type: docs
 weight: 12
 url: /ko/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks를 사용한 간편한 작업 그룹 처리
+
 ## 소개
 Aspose.Tasks for .NET은 프로젝트 관리 시나리오에서 작업 그룹 유형을 처리하기 위한 강력한 솔루션을 제공합니다. 작업 그룹을 효율적으로 관리하는 것은 리소스 할당을 최적화하고 원활한 프로젝트 실행을 보장하는 데 중요합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 작업 그룹 유형을 처리하는 프로세스를 자세히 살펴보고 단계별 지침을 제공합니다.
 ## 전제조건
@@ -46,3 +52,9 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
  예, 다음에서 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

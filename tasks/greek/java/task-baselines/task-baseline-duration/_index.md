@@ -3,10 +3,16 @@ title: Διαχείριση διάρκειας γραμμής βάσης εργ�
 linktitle: Διαχείριση διάρκειας γραμμής βάσης εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις γραμμές βάσης εργασιών στο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Αυτό το σεμινάριο σας καθοδηγεί βήμα προς βήμα στη διαδικασία.
-type: docs
 weight: 12
 url: /el/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση διάρκειας γραμμής βάσης εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Η διαχείριση των βασικών γραμμών εργασιών στο MS Project είναι ζωτικής σημασίας για τον σχεδιασμό και την παρακολούθηση του έργου. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να διαχειριστείτε αποτελεσματικά τις διάρκειες της γραμμής βάσης εργασιών χρησιμοποιώντας το Aspose.Tasks για Java.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ for (TimephasedData data : baseline.getTimephasedData()) {
 Ναι, το Aspose.Tasks προσφέρει ένα ευρύ φάσμα δυνατοτήτων για τη διαχείριση έργου, συμπεριλαμβανομένου του προγραμματισμού εργασιών, της κατανομής πόρων και της δημιουργίας γραφημάτων Gantt.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;
  Μπορείτε να βρείτε υποστήριξη για το Aspose.Tasks στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15), όπου μπορείτε να κάνετε ερωτήσεις και να αλληλεπιδράτε με άλλους χρήστες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

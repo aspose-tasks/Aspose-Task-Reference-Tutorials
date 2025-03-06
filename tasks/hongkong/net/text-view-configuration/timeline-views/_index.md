@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的專案時程視圖
 linktitle: 在 Aspose.Tasks 中自訂時間軸視圖
 second_title: Aspose.Tasks .NET API
 description: 掌握 Aspose.Tasks for .NET 自訂時間軸視圖。透過根據您的專案需求量身定制的具有視覺吸引力的時間表來增強您的專案管理。
-type: docs
 weight: 13
 url: /zh-hant/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的專案時程視圖
+
 ## 介紹
 創建具有視覺吸引力和資訊豐富的時間軸視圖對於有效的專案管理至關重要。 Aspose.Tasks for .NET 為自訂時間軸視圖提供了強大的解決方案，可讓您根據專案的特定需求自訂任務的顯示。在本逐步指南中，我們將探索如何使用 Aspose.Tasks 輕鬆建立和自訂時間軸視圖。
 ## 先決條件
@@ -76,3 +82,9 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
 ### 如何取得 Aspose.Tasks 的臨時許可證？
 獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

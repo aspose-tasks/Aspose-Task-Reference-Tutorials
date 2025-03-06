@@ -3,10 +3,16 @@ title: Upprepning efter år Veckodag i Aspose.Tasks
 linktitle: Upprepning efter år Veckodag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska kraften i Aspose.Tasks för .NET för att effektivt hantera återkommande uppgifter. Steg-för-steg-guide för att implementera funktionen Upprepning efter år Veckadag.
-type: docs
 weight: 28
 url: /sv/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upprepning efter år Veckodag i Aspose.Tasks
+
 ## Introduktion
 
 Inom projektledning är effektivitet och precision av största vikt. Aspose.Tasks för .NET framstår som ett kraftfullt verktyg som erbjuder en uppsjö av funktioner för att effektivisera projekthanteringen. Bland dess arsenal är förmågan att hantera återkommande uppgifter med anmärkningsvärd flexibilitet. En sådan funktion är funktionen "Repetition per år Week Day", som låter användare ställa in uppgifter som upprepas på specifika veckodagar, inom angivna månader och över flera år.
@@ -126,3 +132,9 @@ S: Ja, Aspose.Tasks för .NET erbjuder stöd för molnbaserade projekthanterings
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
 S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/), så att du kan utforska dess funktioner innan du fattar ett köpbeslut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

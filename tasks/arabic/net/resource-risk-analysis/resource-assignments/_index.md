@@ -3,10 +3,16 @@ title: التعامل مع تعيينات موارد مشروع MS في Aspose.T
 linktitle: التعامل مع تعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع تعيينات موارد MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. يوفر هذا الشامل إرشادات خطوة بخطوة للمطورين.
-type: docs
 weight: 11
 url: /ar/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع تعيينات موارد مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية التعامل مع تعيينات موارد Microsoft Project بكفاءة باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. باتباع هذه الخطوات، ستتعلم كيفية إدارة تعيينات الموارد بشكل فعال داخل تطبيقات .NET الخاصة بك.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ project.Save(DataDir + "CreateSplitTasks_out.xml", SaveFileFormat.Xml);
 نعم، يسمح Aspose.Tasks بتصدير بيانات المشروع إلى تنسيقات مختلفة مثل XML وPDF وHTML وغيرها.
 ### هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
 نعم، يوفر Aspose دعمًا فنيًا مخصصًا من خلال المنتدى الخاص به والقنوات الأخرى لمساعدة المستخدمين في الرد على أي استفسارات أو مشكلات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beheers de verdiende waarde MS-projectmethoden met Aspose.Tasks
 linktitle: Typen verdiende waardemethoden in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Beheers Earned Value MS-projectmethodetypen met Aspose.Tasks voor .NET. Verbeter moeiteloos de efficiëntie van projectbeheer.
-type: docs
 weight: 10
 url: /nl/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheers de verdiende waarde MS-projectmethoden met Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement is het inzetten van de juiste tools en methodologieën van cruciaal belang voor succes. Aspose.Tasks voor .NET biedt een robuust raamwerk voor het efficiënt beheren van projectgerelateerde taken. Eén van die cruciale aspecten is het gebruik van Earned Value Management (EVM)-methoden, die inzicht bieden in de projectprestaties door gepland werk te vergelijken met daadwerkelijk voltooid werk. In deze zelfstudie gaan we dieper in op het begrijpen en implementeren van Earned Value MS Project Method Types met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
@@ -53,3 +59,9 @@ A: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor .NET
  A: Ja, er zijn tijdelijke licenties beschikbaar voor Aspose.Tasks voor .NET. U kunt ze verkrijgen bij:[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?
  A: U kunt Aspose.Tasks voor .NET kopen via de website:[Aankoop](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

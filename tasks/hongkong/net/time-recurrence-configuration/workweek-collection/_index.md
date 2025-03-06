@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中自訂工作週
 linktitle: Aspose.Tasks 中工作週的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中自訂工作週。建立個人化專案日曆的逐步指南。現在下載！
-type: docs
 weight: 17
 url: /zh-hant/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中自訂工作週
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Tasks for .NET 建立自訂工作週的教學！在本逐步指南中，我們將引導您完成為專案中的日曆定義個人化工作週的過程。 Aspose.Tasks 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中有效地處理 Microsoft Project 文件。
 ## 先決條件
@@ -82,3 +88,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 當然，Aspose.Tasks 允許您以各種格式儲存項目，包括 Microsoft Project。
 ### 我可以在哪裡尋求 Aspose.Tasks 相關查詢的支援？
 參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求任何支持或幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

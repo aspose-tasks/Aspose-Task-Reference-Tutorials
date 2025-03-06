@@ -3,10 +3,16 @@ title: Baseline Task Scheduling in Aspose.Tasks
 linktitle: Baseline Task Scheduling in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to schedule task baselines effectively with Aspose.Tasks for Java. Streamline your project management processes effortlessly.
-type: docs
 weight: 10
 url: /java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baseline Task Scheduling in Aspose.Tasks
+
 ## Introduction
 Managing task baselines is a crucial aspect of project management, enabling you to compare planned versus actual progress accurately. In this tutorial, we'll explore how to perform baseline task scheduling using Aspose.Tasks for Java. By following these steps, you'll be equipped to streamline your project management processes efficiently.
 ## Prerequisites
@@ -63,3 +69,10 @@ Certainly, Aspose.Tasks for Java provides extensive functionalities to customize
 Yes, you can access a free trial of Aspose.Tasks for Java from the [release page](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Tasks for Java?
 For any queries or assistance, you can visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

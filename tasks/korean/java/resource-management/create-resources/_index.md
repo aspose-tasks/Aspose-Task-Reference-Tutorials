@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 리소스 생성
 linktitle: Aspose.Tasks에서 리소스 생성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks 라이브러리를 사용하여 Java로 Microsoft Project 리소스를 생성하는 방법을 알아보세요. 효율적인 자원 관리를 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 리소스 생성
+
 ## 소개
 Aspose.Tasks for Java를 활용하여 Microsoft 프로젝트 리소스를 생성하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! Aspose.Tasks는 개발자가 Java 애플리케이션 내에서 Microsoft Project 파일을 효율적으로 조작할 수 있도록 지원하는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 리소스를 생성하는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -45,3 +51,9 @@ Resource resource = project.getResources().add("ResourceName");
 Aspose.Tasks 포럼에서 지원과 지원을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks를 사용하려면 임시 라이선스가 필요합니까?
  라이선스 없이 Aspose.Tasks를 사용할 수 있지만 임시 라이선스를 사용하면 추가 기능을 잠금 해제할 수 있습니다. 임시면허를 취득하실 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

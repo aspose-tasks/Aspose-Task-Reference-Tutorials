@@ -3,10 +3,16 @@ title: Utilisation de l'algorithme d'arborescence dans Aspose.Tasks
 linktitle: Utilisation de l'algorithme d'arborescence dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à manipuler efficacement les hiérarchies de tâches dans vos projets .NET à l'aide de l'algorithme d'arborescence d'Aspose.Tasks.
-type: docs
 weight: 13
 url: /fr/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilisation de l'algorithme d'arborescence dans Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET fournit des fonctionnalités puissantes pour travailler avec des tâches, des ressources et des calendriers de gestion de projet. L'une de ces fonctionnalités est l'algorithme d'arborescence, qui permet aux utilisateurs de manipuler efficacement les hiérarchies de tâches. Dans ce didacticiel, nous explorerons comment utiliser l'algorithme d'arborescence dans Aspose.Tasks pour .NET pour rassembler le travail commun et mettre à jour les valeurs de travail au sein d'un projet.
@@ -115,3 +121,9 @@ A1 : Aspose.Tasks for .NET est une API puissante qui permet aux développeurs de
 ### Q5 : Existe-t-il une licence temporaire disponible à des fins de test ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire à des fins de test auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recuperar códigos de esquema de MS Project en Aspose.Tasks
 linktitle: Recuperar códigos de esquema en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a recuperar códigos de esquema de Microsoft Project mediante programación utilizando Aspose.Tasks para Java. Mejore sus capacidades de gestión de proyectos.
-type: docs
 weight: 15
 url: /es/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar códigos de esquema de MS Project en Aspose.Tasks
+
 ## Introducción
 En este tutorial, aprenderemos cómo recuperar códigos de esquema de Microsoft Project usando Aspose.Tasks para Java. Los códigos de esquema en MS Project proporcionan una forma estructurada de categorizar y organizar las tareas, los recursos y las asignaciones del proyecto. Aspose.Tasks es una poderosa biblioteca de Java que permite a los desarrolladores manipular y administrar archivos de Microsoft Project mediante programación.
 ## Requisitos previos
@@ -82,3 +88,9 @@ R: Sí, Aspose.Tasks para Java proporciona API para modificar códigos de esquem
  R: Sí, puede comprar una licencia temporal de Aspose.Tasks para Java desde el[pagina de compra](https://purchase.aspose.com/temporary-license/).
 ### P5: ¿Dónde puedo encontrar la documentación completa de Aspose.Tasks para Java?
  R: Puedes consultar el[documentación](https://reference.aspose.com/tasks/java/) para obtener información detallada sobre el uso de Aspose.Tasks para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

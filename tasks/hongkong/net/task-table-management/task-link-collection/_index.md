@@ -3,10 +3,16 @@ title: 處理 Aspose.Tasks 中的任務鏈接
 linktitle: 處理 Aspose.Tasks 中的任務鏈接
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 在高效能管理專案任務連結的強大功能。請遵循我們的逐步指南來增強您的專案管理體驗。
-type: docs
 weight: 19
 url: /zh-hant/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 處理 Aspose.Tasks 中的任務鏈接
+
 ## 介紹
 歡迎閱讀有關在 Aspose.Tasks for .NET 中處理任務連結的逐步指南！任務連結在專案管理中發揮著至關重要的作用，它允許您在任務之間建立關係並創建依賴關係。在本教程中，我們將引導您完成使用 Aspose.Tasks 處理任務連結集合的過程。
 ## 先決條件
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 Aspose.Tasks 可以有效地處理大型專案文件，同時對效能的影響最小。
 ### 是否有 Aspose.Tasks 支援的社群論壇？
 是的，您可以在以下位置找到支持並與社區互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

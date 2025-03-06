@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ शीर्ष लेख और पाद 
 linktitle: Aspose.Tasks में शीर्ष लेख और पाद लेख की जानकारी
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से हेडर और फ़ुटर जानकारी निकालना सीखें। आसान, कुशल और डेवलपर-अनुकूल समाधान।
-type: docs
 weight: 29
 url: /hi/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ शीर्ष लेख और पाद लेख जानकारी निकालें
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों में आसानी से हेरफेर करने की अनुमति देती है। इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों से हेडर और फ़ुटर जानकारी कैसे प्राप्त करें।
 ## आवश्यक शर्तें
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  आप Aspose.Tasks के लिए दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/tasks/net/).
 ### मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
  आप पर जाकर Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Liên kết tác vụ
 linktitle: Liên kết tác vụ
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks cho Java với các hướng dẫn của chúng tôi. Tăng cường cộng tác, xác định loại liên kết và quản lý nhiệm vụ một cách liền mạch. Tăng hiệu quả dự án của bạn bây giờ!
-type: docs
 weight: 33
 url: /vi/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Liên kết tác vụ
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu sâu hơn về thế giới quản lý dự án Java, Aspose.Tasks là công cụ bạn nên sử dụng. Các hướng dẫn toàn diện của chúng tôi giúp bạn nắm vững các khía cạnh khác nhau, đảm bảo sử dụng tối ưu thư viện Aspose.Tasks cho Java.
@@ -38,3 +44,9 @@ Khám phá sức mạnh của Aspose.Tasks cho Java trong quản lý dự án. D
 Khám phá nhận dạng nhiệm vụ giữa các dự án với Aspose.Tasks cho Java. Tích hợp liền mạch và quản lý hiệu quả. Tải ngay!
 ### [Quản lý các nhiệm vụ tiền nhiệm và nhiệm vụ kế nhiệm trong Aspose.Tasks](./predecessor-successor-tasks/)
 Khám phá quản lý tác vụ hiệu quả với Aspose.Tasks cho Java. Dễ dàng xử lý các nhiệm vụ trước và sau trong dự án của bạn. Tải về dùng thử ngay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

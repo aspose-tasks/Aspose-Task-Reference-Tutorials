@@ -3,10 +3,16 @@ title: Zvládnutí časově uspořádaného sběru dat v Aspose.Tasks
 linktitle: Sběr časově uspořádaných dat v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte časově uspořádaný sběr dat v Aspose.Tasks pro .NET. Podrobný průvodce, často kladené dotazy a další. Vylepšete své schopnosti projektového řízení ještě dnes!
-type: docs
 weight: 15
 url: /cs/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí časově uspořádaného sběru dat v Aspose.Tasks
+
 ## Úvod
 Chcete využít sílu časově uspořádaných dat ve svých aplikacích .NET pomocí Aspose.Tasks? Už nehledejte! Tento komplexní průvodce vás provede procesem shromažďování časově uspořádaných dat pomocí Aspose.Tasks pro .NET a zajistí, že z této výkonné knihovny vytěžíte maximum.
 ## Předpoklady
@@ -121,3 +127,9 @@ Aspose.Tasks zpracovává projekty různých velikostí a neexistuje žádný p�
  Ano, funkce Aspose.Tasks pro .NET můžete prozkoumat přístupem na[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde si mohu zakoupit licenci pro Aspose.Tasks pro .NET?
 Můžete si zakoupit licenci pro Aspose.Tasks pro .NET[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

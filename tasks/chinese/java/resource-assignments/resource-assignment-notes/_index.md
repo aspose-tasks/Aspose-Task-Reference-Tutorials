@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理资源分配的注释
 linktitle: 在 Aspose.Tasks 中管理资源分配的注释
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中管理资源分配的注释。无缝集成的分步教程。
-type: docs
 weight: 21
 url: /zh/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理资源分配的注释
+
 ## 介绍
 在本教程中，我们将深入研究使用 Aspose.Tasks for Java 管理资源分配的注释。 Aspose.Tasks 是一个强大的 Java 库，专为高效处理项目管理任务而设计。本教程将逐步指导您完成整个过程，使您能够将笔记管理无缝集成到项目工作流程中。
 ## 先决条件
@@ -76,3 +82,9 @@ Aspose.Tasks for Java 与任何 Java IDE 兼容，包括 IntelliJ IDEA、Eclipse
 不需要，试用期内不需要临时许可证。您无需任何许可即可使用试用版。
 ### 在哪里可以购买 Aspose.Tasks for Java？
 您可以从购买页面购买 Aspose.Tasks for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

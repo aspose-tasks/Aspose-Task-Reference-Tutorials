@@ -3,10 +3,16 @@ title: 프로젝트 관리
 linktitle: 프로젝트 관리
 second_title: Aspose.Tasks 자바 API
 description: 포괄적인 프로젝트 관리 튜토리얼을 통해 Aspose.Tasks Java를 살펴보세요. 주요 경로 계산부터 회계연도 속성까지 워크플로우를 간소화하세요.
-type: docs
 weight: 27
 url: /ko/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프로젝트 관리
+
 ## 소개
 
 Aspose.Tasks for Java를 사용하여 프로젝트 관리 기술을 향상시킬 준비가 되셨습니까? Java 개발 여정에 힘을 실어줄 다양한 특징과 기능을 다루는 독점 튜토리얼을 살펴보세요. 주요 경로 계산부터 인쇄 중 작업 작성 예외 처리까지 모든 것을 다룹니다. 당신을 기다리고 있는 풍부한 지식을 탐험해 보세요.
@@ -69,3 +75,9 @@ Java용 Aspose.Tasks를 사용하여 Primavera XML에서 MS 프로젝트 파일�
 Aspose.Tasks for Java에서 페이지를 인쇄하여 이미지를 분리하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트 시각화를 개선하세요.
 ### [Aspose.Tasks에서 인쇄하는 동안 작업 쓰기 예외 처리](./print-task-exceptions/)
 원활한 프로젝트 실행을 보장하기 위해 Java용 Aspose.Tasks의 마스터 예외 처리입니다. 인쇄 중에 작업 쓰기 예외를 쉽게 처리하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

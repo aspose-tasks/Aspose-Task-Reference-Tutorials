@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevleri Böl
 linktitle: Aspose.Tasks'ta Görevleri Böl
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java'da görev yönetiminde ustalaşın! Optimize edilmiş proje zaman çizelgeleri için görevleri verimli bir şekilde nasıl böleceğinizi öğrenin. Şimdi İndirin!
-type: docs
 weight: 29
 url: /tr/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevleri Böl
+
 ## giriiş
 Java projenizde görev yönetimi konusunda sorun mu yaşıyorsunuz? Aspose.Tasks for Java, görevleri verimli bir şekilde bölmek ve proje yönetimi yeteneklerini geliştirmek için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak görevleri bölme sürecinde size rehberlik ederek proje zaman çizelgelerinizi ve kaynak tahsislerinizi optimize etmenize yardımcı olacağız.
 ## Önkoşullar
@@ -88,3 +94,9 @@ Aspose.Tasks for Java, satın almadan önce özelliklerini keşfetmenize olanak 
  Ziyaret edin[Aspose.Tasks for Java destek forumu](https://forum.aspose.com/c/tasks/15) yardım almak ve toplulukla bağlantı kurmak için.
 ### Aspose.Tasks for Java için geçici bir lisansa ihtiyacım var mı?
  adresinden geçici lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

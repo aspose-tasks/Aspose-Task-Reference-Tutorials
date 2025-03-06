@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET 中大綱程式碼定義的集合
 linktitle: Aspose.Tasks 中大綱程式碼定義的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 操作 Microsoft Project 文件中的大綱程式碼定義。輕鬆將項目資料分類。
-type: docs
 weight: 13
 url: /zh-hant/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET 中大綱程式碼定義的集合
+
 ## 介紹
 Aspose.Tasks 是一個功能強大的.NET 程式庫，旨在輕鬆有效率地操作 Microsoft Project 文件。其主要功能之一是能夠使用大綱程式碼定義，允許使用者有效地組織和分類項目資料。在本教程中，我們將探索如何使用 Aspose.Tasks for .NET 處理大綱程式碼定義。
 ## 先決條件
@@ -83,3 +89,9 @@ project.Save(DataDir + "ModifiedOutlineCodes.mpp", SaveFileFormat.MPP);
 答：Aspose.Tasks for .NET 不會對您可以新增至專案中的大綱程式碼定義的數量施加任何特定限制。但是，在使用大量定義時，請考慮效能影響。
 ### Q：我可以使用大綱程式碼定義根據自訂標準對任務進行分組嗎？
 答：是的，大綱程式碼定義可讓您根據自訂標準對任務進行分類，從而提供組織專案資料的靈活性。## 完整原始程式碼
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

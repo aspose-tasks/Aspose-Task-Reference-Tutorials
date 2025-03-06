@@ -3,10 +3,16 @@ title: Hantera uppskattade och milstolpsuppgifter i Aspose.Tasks
 linktitle: Hantera uppskattade och milstolpsuppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska effektiv projektledning med Aspose.Tasks för Java. Hantera uppskattade och milstolpsuppgifter utan ansträngning. Ladda ner biblioteket nu!
-type: docs
 weight: 15
 url: /sv/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera uppskattade och milstolpsuppgifter i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för Java är ett kraftfullt bibliotek som underlättar hantering av uppgifter, hantering av projekt och manipulering av projektdata utan ansträngning. I den här handledningen kommer vi att fokusera på en avgörande aspekt av projektledning – hantering av uppskattade och milstolpsuppgifter med Aspose.Tasks för Java.
 ## Förutsättningar
@@ -60,3 +66,9 @@ Ja, du kan sömlöst integrera Aspose.Tasks i dina Java-projekt genom att följa
  Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks[här](https://releases.aspose.com/).
 ### Hur kan jag få en tillfällig licens för Aspose.Tasks?
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

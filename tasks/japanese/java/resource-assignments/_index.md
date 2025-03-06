@@ -3,10 +3,16 @@ title: リソースの割り当て
 linktitle: リソースの割り当て
 second_title: Aspose.Tasks Java API
 description: リソース割り当てチュートリアルを使用して、Aspose.Tasks for Java を簡単にマスターしましょう。 MS プロジェクトの操作、割り当ての予算、コストなどを管理します。
-type: docs
 weight: 30
 url: /ja/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# リソースの割り当て
+
 
 ## 導入
 
@@ -101,3 +107,9 @@ Aspose.Tasks for Java でリソース割り当てのメモを管理する方法�
 このステップバイステップのチュートリアルで、Aspose.Tasks for Java でリソースの割り当てを効果的に管理する方法を学びましょう。
 ### [Aspose.Tasks でタイムスケール データを生成する](./timephased-data-generation/)
 Aspose.Tasks for Java を使用して、リソース割り当てのタイムスケール データを生成する方法を学習します。この包括的なガイドを使用して、プロジェクト管理の効率を向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

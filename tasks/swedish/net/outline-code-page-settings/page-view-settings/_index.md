@@ -3,10 +3,16 @@ title: Anpassa MS Project Page View Settings i Aspose.Tasks
 linktitle: Konfigurera sidvisningsinställningar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du konfigurerar sidvisningsinställningar i Aspose.Tasks för .NET för att skräddarsy utskriftsformatet för dina Microsoft Project-dokument.
-type: docs
 weight: 21
 url: /sv/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa MS Project Page View Settings i Aspose.Tasks
+
 ## Introduktion
 Microsoft Project är ett kraftfullt verktyg för projektledning, men ibland måste du anpassa hur ditt projekt visas och skrivs ut. Med Aspose.Tasks för .NET kan du enkelt konfigurera sidvisningsinställningarna för att uppfylla dina specifika krav. I den här handledningen guidar vi dig genom processen steg för steg.
 ## Förutsättningar
@@ -76,3 +82,9 @@ S: Ja, du kan justera sidvisningsinställningarna oberoende för varje projektfi
 S: Aspose.Tasks erbjuder kompatibilitet med Microsoft Project 2003 och senare versioner.
 ### F: Var kan jag hitta ytterligare hjälp eller support för Aspose.Tasks?
  A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller problem som du stöter på under användning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

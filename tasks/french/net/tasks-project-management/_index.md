@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestion de projet et personnalisation
 linktitle: Aspose.Tasks Gestion de projet et personnalisation
 second_title: API Aspose.Tasks .NET
 description: Maîtrisez Aspose.Tasks pour .NET avec nos tutoriels de gestion de projet. Apprenez des techniques efficaces de manipulation, de personnalisation et d’optimisation des fichiers MS Project.
-type: docs
 weight: 23
 url: /fr/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestion de projet et personnalisation
+
 ## Introduction
 
 Êtes-vous prêt à améliorer vos compétences en gestion de projet avec Aspose.Tasks pour .NET ? Nos didacticiels complets couvrent une gamme de sujets, allant de la maîtrise des méthodes MS Project à valeur acquise à la gestion efficace des attributs du projet et à la personnalisation des diagrammes de Gantt. Plongeons dans le monde d'Aspose.Tasks et libérons tout le potentiel de la gestion de projet.
@@ -130,3 +136,9 @@ Découvrez comment manipuler les fichiers MS Project par programme dans .NET à 
 Découvrez comment gérer la collection Group Criterion MS Project à l’aide d’Aspose.Tasks pour .NET. Guide étape par étape pour les développeurs.
 ### [Extraire les informations d'en-tête et de pied de page avec Aspose.Tasks](./header-footer-information/)
 Apprenez à extraire les informations d'en-tête et de pied de page des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Solution simple, efficace et conviviale pour les développeurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

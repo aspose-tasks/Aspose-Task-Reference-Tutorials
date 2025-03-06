@@ -3,10 +3,16 @@ title: تكوين كود WBS خطوة بخطوة في Aspose.Tasks .NET
 linktitle: تكوين أقنعة كود WBS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف تكوين أقنعة رمز WBS خطوة بخطوة في مشاريع .NET باستخدام Aspose.Tasks. تعزيز قدرات إدارة المشاريع دون عناء.
-type: docs
 weight: 14
 url: /ar/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين كود WBS خطوة بخطوة في Aspose.Tasks .NET
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تمكّن المطورين من معالجة بيانات إدارة المشروع بكفاءة في تطبيقات .NET. في هذا البرنامج التعليمي، سنستكشف عملية تكوين أقنعة التعليمات البرمجية لهيكل تنظيم العمل (WBS) باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
  نعم، الوثائق الشاملة متوفرة[هنا](https://reference.aspose.com/tasks/net/).
 ### أين يمكنني شراء Aspose.Tasks؟
  شراء Aspose.Tasks[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

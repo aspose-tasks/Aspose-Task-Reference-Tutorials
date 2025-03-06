@@ -3,10 +3,16 @@ title: Verwalten Sie Hyperlink-Eigenschaften für Aufgaben in Aspose.Tasks
 linktitle: Verwalten Sie Hyperlink-Eigenschaften für Ressourcenzuweisungen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Hyperlink-Eigenschaften für Ressourcenzuweisungen in Aspose.Tasks für Java verwalten. Verbessern Sie die Zusammenarbeit und Zugänglichkeit im Projektmanagement.
-type: docs
 weight: 16
 url: /de/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie Hyperlink-Eigenschaften für Aufgaben in Aspose.Tasks
+
 ## Einführung
 Aspose.Tasks für Java bietet leistungsstarke Funktionen zur Verwaltung von Projektaufgaben und -ressourcen. In diesem Tutorial konzentrieren wir uns auf die Verwaltung von Hyperlink-Eigenschaften für Ressourcenzuweisungen mithilfe von Aspose.Tasks. Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, können Sie Hyperlinks, die mit den Ressourcenzuweisungen Ihres Projekts verknüpft sind, effizient verwalten.
 ## Voraussetzungen
@@ -84,3 +90,9 @@ A: Aspose.Tasks legt keine strengen Beschränkungen für die Länge von Hyperlin
 A: Ja, Sie können Hyperlinks aus Ressourcenzuweisungen entfernen, indem Sie die Hyperlink-Eigenschaften auf Null oder leere Zeichenfolgen setzen.
 ### F: Unterstützt Aspose.Tasks die Hyperlink-Validierung?
 A: Aspose.Tasks konzentriert sich auf die Verwaltung von Hyperlink-Eigenschaften und nicht auf die Validierung von Hyperlinks. Sie können jedoch eine benutzerdefinierte Validierungslogik in Ihrer Java-Anwendung implementieren, um die Hyperlink-Integrität sicherzustellen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

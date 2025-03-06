@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks for Java 中管理货币
 linktitle: 货币
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 轻松管理 MS Project 文件中的货币代码、数字和符号。通过易于理解的教程简化项目管理。
-type: docs
 weight: 22
 url: /zh/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks for Java 中管理货币
+
 
 ## 介绍
 
@@ -43,3 +49,9 @@ url: /zh/java/currency/
 了解如何使用 Aspose.Tasks for Java 有效处理货币 MS Project 数字。带有代码示例的分步指南。
 ### [Aspose.Tasks 中的货币符号操作](./currency-symbols/)
 学习使用 Aspose.Tasks for Java 操作 MS Project 文件中的货币符号。简单的步骤即可实现高效的项目管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

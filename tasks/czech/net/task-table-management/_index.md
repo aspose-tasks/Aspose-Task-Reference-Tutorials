@@ -3,10 +3,16 @@ title: Aspose.Tasks Správa úloh a formátování tabulek
 linktitle: Aspose.Tasks Správa úloh a formátování tabulek
 second_title: Aspose.Tasks .NET API
 description: Konfigurujte a spravujte tabulky bez námahy v Aspose.Tasks pro .NET pomocí podrobných výukových programů. Zvyšte efektivitu projektového řízení a prezentační dovednosti.
-type: docs
 weight: 29
 url: /cs/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Správa úloh a formátování tabulek
+
 ## Úvod
 
 Aspose.Tasks for .NET přináší revoluci do řízení projektů se svými robustními funkcemi. Tento článek zkoumá různé návody na správu úloh a formátování tabulek a nabízí komplexního průvodce, jak maximalizovat vaši efektivitu. Pojďme se vrhnout na klíčová témata:
@@ -91,3 +97,9 @@ Prozkoumejte Aspose.Tasks for .NET a snadno nakonfigurujte typy dat zahájení �
 Prozkoumejte Aspose.Tasks for .NET, abyste mohli bez námahy spravovat a vizualizovat data projektu. Ponořte se do polí zobrazení využití úkolů pro lepší přehled o projektu.
 ### [Kolekce polí zobrazení využití úkolů v Aspose.Tasks](./task-usage-view-fields/)
 Prozkoumejte Aspose.Tasks for .NET a zjistěte, jak nakonfigurovat zobrazení využití úloh. Přizpůsobte nastavení časové osy a vylepšete vizuály řízení projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

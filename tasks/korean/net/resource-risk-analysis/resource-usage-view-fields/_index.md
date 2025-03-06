@@ -3,10 +3,16 @@ title: Aspose.Tasks의 자원 사용량 보기 필드 모음
 linktitle: Aspose.Tasks의 자원 사용량 보기 필드 모음
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 자원 사용량 보기 필드에 효과적으로 액세스하고 조작하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 자원 사용량 보기 필드 모음
+
 ## 소개
 프로젝트 관리 영역에서는 Microsoft Project 파일을 효율적으로 처리하는 것이 중요합니다. Aspose.Tasks for .NET은 MS 프로젝트 파일을 원활하게 작업할 수 있는 포괄적인 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 리소스 사용량 보기 필드에 액세스하고 활용하는 프로세스를 자세히 살펴보겠습니다.
 ## 전제조건
@@ -67,3 +73,9 @@ A: 예, Aspose.Tasks for .NET은 광범위한 Microsoft Project 파일 형식을
  A: 예, 다음에서 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Tasks의 임시 라이선스를 어떻게 얻을 수 있나요?
  A: 임시 라이센스는 다음 사이트에서 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

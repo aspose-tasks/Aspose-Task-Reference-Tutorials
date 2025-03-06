@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中拆分任务
 linktitle: 在 Aspose.Tasks 中拆分任务
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 掌握 Java 中的任务管理！了解如何有效地拆分任务以优化项目时间表。现在下载！
-type: docs
 weight: 29
 url: /zh/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中拆分任务
+
 ## 介绍
 您是否正在为 Java 项目中的任务管理而苦苦挣扎？ Aspose.Tasks for Java 提供了一个强大的解决方案，可以有效地分割任务，增强项目管理能力。在本教程中，我们将指导您完成使用 Aspose.Tasks for Java 拆分任务的过程，帮助您优化项目时间表和资源分配。
 ## 先决条件
@@ -88,3 +94,9 @@ Aspose.Tasks for Java 提供免费试用版，允许您在购买之前探索其�
 参观[Aspose.Tasks for Java 支持论坛](https://forum.aspose.com/c/tasks/15)获得帮助并与社区建立联系。
 ### 我需要 Aspose.Tasks for Java 的临时许可证吗？
 您可以从以下地址获取临时许可证[这个链接](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में एमएस प्रोजेक्ट पीड
 linktitle: Aspose.Tasks में पीडीएफ एन्क्रिप्शन विवरण कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks में MS प्रोजेक्ट PDF एन्क्रिप्शन विवरण कैसे कॉन्फ़िगर करें। अपनी प्रोजेक्ट फ़ाइलों को उपयोगकर्ता और स्वामी पासवर्ड से सुरक्षित करें।
-type: docs
 weight: 11
 url: /hi/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में एमएस प्रोजेक्ट पीडीएफ एन्क्रिप्शन विवरण कॉन्फ़िगर करें
+
 ## परिचय
 .NET विकास की दुनिया में, कार्यों को कुशलतापूर्वक प्रबंधित करना महत्वपूर्ण है। .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने के लिए उपकरणों का एक व्यापक सेट प्रदान करके इस प्रक्रिया को सरल बनाता है। कार्य प्रबंधन का एक आवश्यक पहलू संवेदनशील परियोजना जानकारी की सुरक्षा सुनिश्चित करना है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट PDF एन्क्रिप्शन विवरणों को कॉन्फ़िगर करने के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 उत्तर: हालाँकि Aspose.Tasks द्वारा कोई विशिष्ट सीमाएँ नहीं लगाई गई हैं, लेकिन बेहतर सुरक्षा के लिए मजबूत पासवर्ड का उपयोग करने की अनुशंसा की जाती है।
 ### प्रश्न: क्या एन्क्रिप्टेड पीडीएफ को प्रोग्रामेटिक रूप से डिक्रिप्ट किया जा सकता है?
 उत्तर: Aspose.Tasks एन्क्रिप्टेड पीडीएफ के साथ काम करने के लिए एपीआई प्रदान करता है, जो उचित क्रेडेंशियल का उपयोग करके डिक्रिप्शन की अनुमति देता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

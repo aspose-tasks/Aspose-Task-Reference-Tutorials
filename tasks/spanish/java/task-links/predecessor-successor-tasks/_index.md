@@ -3,10 +3,16 @@ title: Administrar tareas predecesoras y sucesoras en Aspose.Tasks
 linktitle: Administrar tareas predecesoras y sucesoras en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore la gestión de tareas eficiente con Aspose.Tasks para Java. Maneje fácilmente las tareas predecesoras y sucesoras en sus proyectos. ¡Descarga tu prueba gratuita ahora!
-type: docs
 weight: 15
 url: /es/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar tareas predecesoras y sucesoras en Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, el manejo eficaz de las dependencias de tareas es primordial. Aspose.Tasks para Java ofrece una solución sólida para gestionar tareas predecesoras y sucesoras en sus proyectos. Este tutorial lo guiará a través del proceso de aprovechar Aspose.Tasks para administrar eficientemente los enlaces de tareas, lo que le permitirá establecer dependencias entre tareas.
 ## Requisitos previos
@@ -52,3 +58,9 @@ Sí, Aspose.Tasks admite varios formatos de archivos de proyecto, incluidos MPP,
  Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo y debates de la comunidad.
 ### ¿Puedo descargar una prueba gratuita de Aspose.Tasks para Java?
  Sí, descargue una prueba gratuita desde[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

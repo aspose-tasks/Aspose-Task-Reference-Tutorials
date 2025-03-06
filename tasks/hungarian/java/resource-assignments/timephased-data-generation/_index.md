@@ -3,10 +3,16 @@ title: Időfázisú adatok létrehozása az Aspose.Tasks programban
 linktitle: Időfázisú adatokat generál az Aspose.Tasks erőforrás-hozzárendeléseihez
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan hozhat létre időfázisú adatokat erőforrás-hozzárendelésekhez az Aspose.Tasks for Java használatával. Növelje a projektmenedzsment hatékonyságát ezzel az átfogó útmutatóval.
-type: docs
 weight: 24
 url: /hu/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Időfázisú adatok létrehozása az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Tasks for Java segítségével történő erőforrás-hozzárendelésekhez való időfázisos adatok generálásának folyamatát mutatjuk be. Az időzített adatok értékes betekintést nyújtanak az erőforrások időbeli elosztásába a projekten belül, segítve a projektmenedzsereket megalapozott döntések meghozatalában.
 ## Előfeltételek
@@ -124,3 +130,9 @@ Igen, az Aspose.Tasks különféle projektfájlformátumokat támogat, beleértv
 Igen, az Aspose.Tasks lehetővé teszi a felhasználók számára, hogy egyedi munkakontúrokat határozzanak meg, hogy megfeleljenek konkrét projektszükségleteiknek.
 ### Van olyan közösségi fórum, ahol segítséget kaphatok az Aspose.Tasks-szal kapcsolatban?
  Igen, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: naptári kivételek lekérése az Aspose.Tasks segítségével
 linktitle: naptári kivételek lekérése az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kérhet le naptári kivételeket az MS Projectből az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
-type: docs
 weight: 13
 url: /hu/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# naptári kivételek lekérése az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet naptárkivételeket lekérni az MS Projectből a Java Aspose.Tasks könyvtárával. Az Aspose.Tasks egy hatékony eszköz, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok programozott kezelését. Lépésről lépésre végigvezetjük a folyamaton, az egyes példákat több lépésre bontva a könnyebb érthetőség érdekében.
 ## Előfeltételek
@@ -55,3 +61,9 @@ Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit, b
  Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### Van lehetőség ideiglenes licencekre az Aspose.Tasks számára?
  Igen, ideiglenes engedélyeket szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

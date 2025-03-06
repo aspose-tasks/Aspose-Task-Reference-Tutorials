@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Saha Yardımcısı MS Proje Entegrasyonu
 linktitle: Aspose.Tasks'ta Saha Yardımcısı
 second_title: Aspose.Tasks .NET API'si
 description: MS Project dosyalarıyla sorunsuz bir şekilde çalışmak için Aspose.Tasks for .NET'ten nasıl yararlanacağınızı öğrenin.
-type: docs
 weight: 15
 url: /tr/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Saha Yardımcısı MS Proje Entegrasyonu
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir API'dir. İster bir proje yönetim aracı oluşturuyor olun, ister proje işlevselliğini uygulamanıza entegre edin, ister proje dosyalarını programlı olarak düzenlemeye ihtiyacınız olsun, Aspose.Tasks, işi verimli bir şekilde halletmeniz için ihtiyacınız olan araçları sağlar.
@@ -74,3 +80,9 @@ C: Evet, Aspose.Tasks for .NET, Microsoft Project'in çeşitli sürümleriyle ç
 ### S5: Aspose.Tasks for .NET lisansını nereden satın alabilirim?
 
  C: Aspose web sitesinden Aspose.Tasks for .NET lisansını satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

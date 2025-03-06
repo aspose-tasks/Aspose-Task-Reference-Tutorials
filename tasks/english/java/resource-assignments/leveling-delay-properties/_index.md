@@ -3,10 +3,16 @@ title: Handle Leveling Delay Properties in Aspose.Tasks
 linktitle: Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to handle leveling delay properties for resource assignments in Aspose.Tasks for Java with this comprehensive tutorial.
-type: docs
 weight: 17
 url: /java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handle Leveling Delay Properties in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll walk through the process of handling leveling delay properties for resource assignments in Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows you to work with Microsoft Project files without requiring Microsoft Project to be installed on your system.
 ## Prerequisites
@@ -91,3 +97,10 @@ A: Yes, you can obtain a free trial of Aspose.Tasks from the [releases page](htt
 ### Q: How can I obtain a temporary license for Aspose.Tasks?
 
 A: You can request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

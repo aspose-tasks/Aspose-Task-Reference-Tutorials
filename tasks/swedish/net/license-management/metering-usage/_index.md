@@ -3,10 +3,16 @@ title: Mätning av MS Project Usage med Aspose.Tasks för .NET
 linktitle: Mätaranvändning i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt övervakar och optimerar din MS Project-användning med Aspose.Tasks för .NET. Steg-för-steg-guide för effektiv projektledning.
-type: docs
 weight: 17
 url: /sv/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mätning av MS Project Usage med Aspose.Tasks för .NET
+
 ## Introduktion
 Är du ute efter att effektivt hantera och övervaka din MS Project-användning med Aspose.Tasks? Med kraften i mätning kan du hålla reda på din användning och optimera dina projektledningsinsatser. I den här handledningen guidar vi dig genom processen att mäta MS Project-användning steg för steg med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -77,3 +83,9 @@ S: Ja, en internetanslutning krävs för att kommunicera med Asposes servrar fö
 S: Ja, du kan spåra användningen i realtid genom att regelbundet kontrollera förbrukade krediter och förbrukade bytes.
 ### F: Är mätning av MS Project-användning tillgänglig i testversionen?
 S: Ja, mätning av MS Project-användning är tillgänglig i både testversioner och licensierade versioner av Aspose.Tasks för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

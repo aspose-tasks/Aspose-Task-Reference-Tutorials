@@ -3,10 +3,16 @@ title: Menguasai Kriteria Filter Proyek MS dengan Aspose.Tasks
 linktitle: Filter Kriteria di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menerapkan kriteria filter di MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan efisiensi manajemen proyek dengan analisis data yang ditargetkan.
-type: docs
 weight: 18
 url: /id/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Kriteria Filter Proyek MS dengan Aspose.Tasks
+
 ## Perkenalan
 Di bidang manajemen proyek, Microsoft Project berdiri sebagai alat pendukung, menawarkan banyak fitur untuk membantu perencana dan manajer proyek. Di antara banyak fungsinya terdapat kemampuan untuk memfilter data proyek, memungkinkan pengguna untuk fokus pada aspek tertentu dari tugas proyek mereka. Namun, menguasai kemampuan pemfilteran ini bisa menjadi tugas yang sulit tanpa panduan yang tepat. Tutorial ini bertujuan untuk memperjelas proses dengan memberikan panduan langkah demi langkah tentang penerapan kriteria filter di MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -89,3 +95,9 @@ J: Aspose.Tasks mendukung .NET Framework, .NET Core, dan .NET Standard, memastik
 J: Tentu saja, Anda dapat menyesuaikan kriteria filter secara terprogram berdasarkan parameter dinamis, sehingga memungkinkan analisis data proyek adaptif.
 ### T: Di mana saya dapat mencari bantuan jika saya mengalami masalah dengan Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk mencari dukungan dari komunitas atau langsung menghubungi dukungan Aspose.Tasks untuk bantuan yang dipersonalisasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

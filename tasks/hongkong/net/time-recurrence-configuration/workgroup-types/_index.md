@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 輕鬆處理工作群組
 linktitle: 在 Aspose.Tasks 中處理工作群組類型
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 以輕鬆處理專案中的工作群組類型。優化資源配置，加強專案管理。
-type: docs
 weight: 12
 url: /zh-hant/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 輕鬆處理工作群組
+
 ## 介紹
 Aspose.Tasks for .NET 提供了一個強大的解決方案，用於在專案管理場景中處理工作群組類型。有效管理工作小組對於優化資源分配和確保專案順利執行至關重要。在本教程中，我們將深入研究使用 Aspose.Tasks 處理工作組類型的過程，並提供逐步指導。
 ## 先決條件
@@ -46,3 +52,9 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 是的，您可以從以下位置取得免費試用版[這裡](https://releases.aspose.com/).
 ### 我如何獲得 Aspose.Tasks 的臨時許可證？
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

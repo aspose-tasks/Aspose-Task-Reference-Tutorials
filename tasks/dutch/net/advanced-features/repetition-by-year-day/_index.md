@@ -3,10 +3,16 @@ title: Herhaling per jaardag in Aspose.Tasks
 linktitle: Herhaling per jaardag in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u met herhalingen van jaardagen omgaat in Aspose.Tasks voor .NET om het beheer van terugkerende taken efficiënt te stroomlijnen.
-type: docs
 weight: 27
 url: /nl/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herhaling per jaardag in Aspose.Tasks
+
 ## Invoering
 
 Op het gebied van projectmanagement spelen efficiënte taakplanning en herhaling een cruciale rol bij het garanderen van een tijdige uitvoering en een soepele workflow. Aspose.Tasks voor .NET biedt ontwikkelaars een robuuste oplossing om terugkerende taken moeiteloos binnen hun applicaties af te handelen. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met jaarlijkse dagherhalingen met behulp van Aspose.Tasks, en bieden we een uitgebreide handleiding voor het maken van terugkerende taken op basis van jaarlijkse patronen.
@@ -109,3 +115,9 @@ A4: Zeker, Aspose.Tasks biedt robuuste API's om taakeigenschappen dynamisch te m
 ### Vraag 5: Is Aspose.Tasks geschikt voor zowel kleinschalige als ondernemingsprojecten?
 
 A5: Aspose.Tasks is inderdaad ontworpen om tegemoet te komen aan de behoeften van ontwikkelaars die aan projecten van elke schaal werken, van individuele taken tot grootschalige bedrijfsprojecten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.Tasks for Java 的綜合教學與範例
 linktitle: Java 教程的 Aspose.Tasks
-type: docs
 weight: 10
 url: /zh-hant/java/
 description: 透過我們的教學探索 Aspose.Tasks for Java。主日曆、專案管理等等。簡化您的工作流程，以實現高效率的專案執行。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for Java 的綜合教學與範例
+
 
 ## 介紹
 您準備好提升您的 Java 專案管理技能了嗎？透過我們涵蓋專案管理各個方面的豐富教程，深入了解 Aspose.Tasks for Java 的世界。從日曆例外到 VBA 集成，我們都能滿足您的需求。
@@ -93,3 +98,9 @@ is_root: true
 使用 Aspose.Tasks 增強 Java 專案管理。探索有關任務屬性的教程，從處理優先順序到管理成本。今天優化您的專案！
 ### [VBA集成](./vba-integration/)
 探索 Aspose.Tasks Java 與 VBA 整合。簡化專案工作流程並改善任務追蹤。探索無縫 VBA 整合的綜合教學！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

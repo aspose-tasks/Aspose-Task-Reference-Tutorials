@@ -3,10 +3,16 @@ title: Configurazione dei tipi di data di inizio attività in Aspose.Tasks
 linktitle: Configurazione dei tipi di data di inizio attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET per configurare facilmente i tipi di data di inizio delle attività. Ottimizza la gestione dei progetti con facilità. Scarica la prova gratis adesso!
-type: docs
 weight: 23
 url: /it/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurazione dei tipi di data di inizio attività in Aspose.Tasks
+
 Nel dinamico mondo della gestione dei progetti, impostare la giusta data di inizio per le attività è fondamentale. Aspose.Tasks per .NET fornisce una potente soluzione per configurare facilmente i tipi di data di inizio delle attività. In questo tutorial ti guideremo attraverso il processo, suddividendolo in semplici passaggi per garantire un'integrazione perfetta.
 ## Prerequisiti
 Prima di approfondire la configurazione dei tipi di date di inizio delle attività, assicurati di disporre dei seguenti prerequisiti:
@@ -52,3 +58,9 @@ Sì, puoi personalizzare la data di inizio per ciascuna attività individualment
  Fare riferimento alla documentazione[Qui](https://reference.aspose.com/tasks/net/) per approfondimenti su Aspose.Tasks per .NET.
 ### Q5: posso ottenere una licenza temporanea per Aspose.Tasks?
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test e valutazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

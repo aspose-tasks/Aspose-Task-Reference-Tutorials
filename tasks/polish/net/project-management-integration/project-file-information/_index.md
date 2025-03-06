@@ -3,10 +3,16 @@ title: Pobierz informacje o pliku projektu MS w Aspose.Tasks
 linktitle: Pobieranie informacji o pliku projektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak odzyskać informacje o pliku Microsoft Project za pomocą Aspose.Tasks dla .NET. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 19
 url: /pl/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz informacje o pliku projektu MS w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym odzyskiwania informacji o plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Aspose.Tasks to potężna biblioteka, która umożliwia programistom .NET programową pracę z plikami Microsoft Project, umożliwiając wykonywanie takich zadań, jak czytanie, pisanie i manipulowanie danymi projektu.
 ## Warunki wstępne
@@ -58,3 +64,9 @@ Absolutnie Aspose.Tasks zapewnia szerokie możliwości programowego odczytu, zap
  Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Tasks?
  Możesz uzyskać wsparcie dla Aspose.Tasks poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Kompletny kod źródłowy
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

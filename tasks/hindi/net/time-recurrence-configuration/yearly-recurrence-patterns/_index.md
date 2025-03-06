@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks में वार्षिक पु
 linktitle: Aspose.Tasks में वार्षिक पुनरावृत्ति पैटर्न कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks में वार्षिक पुनरावृत्ति पैटर्न को कॉन्फ़िगर करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने प्रोजेक्ट प्रबंधन कौशल को बढ़ाएं।
-type: docs
 weight: 18
 url: /hi/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks में वार्षिक पुनरावृत्ति पैटर्न में महारत हासिल करें
+
 ## परिचय
 परियोजना प्रबंधन की गतिशील दुनिया में, आवर्ती कार्यों को कुशलतापूर्वक संभालना एक महत्वपूर्ण पहलू है। .NET के लिए Aspose.Tasks वार्षिक पुनरावृत्ति पैटर्न को कॉन्फ़िगर करने के लिए एक शक्तिशाली समाधान प्रदान करता है, जिससे आप अपने प्रोजेक्ट शेड्यूलिंग और प्रबंधन को सुव्यवस्थित कर सकते हैं। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि Aspose.Tasks का उपयोग करके वार्षिक पुनरावृत्ति पैटर्न कैसे सेट करें।
 ## आवश्यक शर्तें
@@ -69,3 +75,9 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
  दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और सहायता के लिए।
 ### क्या मैं खरीदने से पहले Aspose.Tasks को निःशुल्क आज़मा सकता हूँ?
  हां, आप नि:शुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

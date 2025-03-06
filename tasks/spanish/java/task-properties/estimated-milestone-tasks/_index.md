@@ -3,10 +3,16 @@ title: Manejar tareas estimadas y de hitos en Aspose.Tasks
 linktitle: Manejar tareas estimadas y de hitos en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore la gestión eficaz de proyectos con Aspose.Tasks para Java. Maneje tareas estimadas y de hitos sin esfuerzo. ¡Descarga la biblioteca ahora!
-type: docs
 weight: 15
 url: /es/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejar tareas estimadas y de hitos en Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para Java es una poderosa biblioteca que facilita el manejo de tareas, la gestión de proyectos y la manipulación de datos del proyecto sin esfuerzo. En este tutorial, nos centraremos en un aspecto crucial de la gestión de proyectos: el manejo de tareas estimadas y de hitos utilizando Aspose.Tasks para Java.
 ## Requisitos previos
@@ -60,3 +66,9 @@ Sí, puede integrar Aspose.Tasks sin problemas en sus proyectos Java siguiendo l
  Sí, puedes acceder a una prueba gratuita de Aspose.Tasks[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Tasks?
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

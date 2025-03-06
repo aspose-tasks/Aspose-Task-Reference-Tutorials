@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用してカレンダー例外の平日を定義する
 linktitle: Aspose.Tasks を使用してカレンダー例外の平日を定義する
 second_title: Aspose.Tasks Java API
 description: 正確なプロジェクトのスケジュール設定のために、Aspose.Tasks を使用して Java プロジェクトのカレンダー例外の平日を定義する方法を学びます。
-type: docs
 weight: 11
 url: /ja/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用してカレンダー例外の平日を定義する
+
 ### 導入
 プロジェクト管理では、プロジェクトのタイムライン内で非標準の稼働日や休日を正確に表すために、カレンダーの例外を定義することが重要です。 Aspose.Tasks for Java は、休日や特別営業日などの例外を定義するなど、カレンダーを効率的に管理するための堅牢な機能を提供します。このチュートリアルでは、Aspose.Tasks for Java を使用してカレンダーの例外の平日を定義する方法を詳しく説明します。
 ### 前提条件
@@ -68,3 +74,10 @@ A: もちろん、Aspose.Tasks for Java は、毎日の例外に限定されず�
 A: Aspose.Tasks for Java が提供する広範な API を使用して、動的なプロジェクト要件に基づいて例外をプログラムで処理できます。
 ### Q: Aspose.Tasks for Java の試用版はありますか?
  A: はい、Aspose.Tasks for Java の無料試用版を次のサイトから利用できます。[Webサイト](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

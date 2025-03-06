@@ -3,10 +3,16 @@ title: Pobierz kody konspektu projektu MS w Aspose.Tasks
 linktitle: Pobierz kody konspektu w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak programowo pobierać kody konspektu programu Microsoft Project przy użyciu Aspose.Tasks dla języka Java. Zwiększ swoje możliwości zarządzania projektami.
-type: docs
 weight: 15
 url: /pl/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz kody konspektu projektu MS w Aspose.Tasks
+
 ## Wstęp
 tym samouczku nauczymy się pobierać kody konspektu programu Microsoft Project za pomocą Aspose.Tasks dla Java. Kody konspektu w programie MS Project zapewniają ustrukturyzowany sposób kategoryzowania i organizowania zadań, zasobów i przydziałów projektu. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom programowe manipulowanie plikami Microsoft Project i zarządzanie nimi.
 ## Warunki wstępne
@@ -82,3 +88,9 @@ O: Tak, Aspose.Tasks dla Java udostępnia interfejsy API umożliwiające program
  O: Tak, możesz kupić tymczasową licencję na Aspose.Tasks dla Java w witrynie[strona zakupu](https://purchase.aspose.com/temporary-license/).
 ### P5: Gdzie mogę znaleźć pełną dokumentację Aspose.Tasks dla Java?
  Odp.: Możesz odwołać się do[dokumentacja](https://reference.aspose.com/tasks/java/) aby uzyskać szczegółowe informacje na temat korzystania z Aspose.Tasks dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

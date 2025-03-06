@@ -3,10 +3,16 @@ title: 任务链接
 linktitle: 任务链接
 second_title: Aspose.Tasks Java API
 description: 通过我们的教程探索 Aspose.Tasks for Java。增强协作、定义链接类型并无缝管理任务。立即提高您的项目效率！
-type: docs
 weight: 33
 url: /zh/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任务链接
+
 ## 介绍
 
 如果您正在深入研究 Java 项目管理的世界，Aspose.Tasks 是您的首选工具。我们全面的教程使您能够掌握各个方面，确保 Aspose.Tasks for Java 库的最佳利用。
@@ -38,3 +44,9 @@ url: /zh/java/task-links/
 使用 Aspose.Tasks for Java 探索跨项目任务识别。无缝集成，高效管理。现在下载！
 ### [在 Aspose.Tasks 中管理前置任务和后继任务](./predecessor-successor-tasks/)
 使用 Aspose.Tasks for Java 探索高效的任务管理。轻松处理项目中的前置任务和后续任务。立即下载免费试用版！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

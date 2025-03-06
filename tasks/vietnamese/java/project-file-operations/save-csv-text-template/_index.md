@@ -3,10 +3,16 @@ title: Lưu dưới dạng CSV, văn bản và mẫu trong Aspose.Tasks
 linktitle: Lưu dưới dạng CSV, văn bản và mẫu trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách lưu tệp Microsoft Project ở định dạng CSV, Văn bản và Mẫu bằng Aspose.Tasks cho Java.
-type: docs
 weight: 16
 url: /vi/java/project-file-operations/save-csv-text-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu dưới dạng CSV, văn bản và mẫu trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tệp dự án ở nhiều định dạng khác nhau như CSV, Văn bản và Mẫu bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách lưu tệp Microsoft
  Đáp: Có, bạn có thể mua giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/), cho phép bạn đánh giá toàn bộ tiềm năng của thư viện.
 ### Câu hỏi: Aspose.Tasks dành cho Java có tương thích với các hệ điều hành khác nhau không?
 Trả lời: Có, Aspose.Tasks cho Java tương thích với nhiều hệ điều hành khác nhau, bao gồm Windows, macOS và Linux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

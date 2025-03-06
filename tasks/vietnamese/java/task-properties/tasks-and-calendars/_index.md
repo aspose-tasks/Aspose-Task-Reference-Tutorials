@@ -3,10 +3,16 @@ title: Nhiệm vụ và Lịch trong Aspose.Tasks
 linktitle: Nhiệm vụ và Lịch trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá sức mạnh của Aspose.Tasks dành cho Java trong việc quản lý tác vụ và lịch một cách hiệu quả. Tải xuống ngay để có trải nghiệm quản lý dự án liền mạch!
-type: docs
 weight: 33
 url: /vi/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhiệm vụ và Lịch trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đã sẵn sàng nâng tầm trò chơi quản lý dự án của mình với Aspose.Tasks cho Java chưa? Hướng dẫn toàn diện này sẽ hướng dẫn bạn qua thế giới nhiệm vụ và lịch phức tạp bằng cách sử dụng Aspose.Tasks, cho phép bạn khai thác toàn bộ tiềm năng của nó để lập kế hoạch và thực hiện dự án hiệu quả.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://rel
  Tham gia cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ.
 ### Tôi có thể mua giấy phép cho Aspose.Tasks không?
  Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

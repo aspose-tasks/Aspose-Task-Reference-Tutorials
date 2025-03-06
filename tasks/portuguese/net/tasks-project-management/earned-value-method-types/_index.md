@@ -3,10 +3,16 @@ title: Domine métodos de projeto MS de valor agregado com Aspose.Tasks
 linktitle: Tipos de método de valor agregado em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine os tipos de métodos do MS Project com valor agregado com Aspose.Tasks para .NET. Aumente a eficiência do gerenciamento de projetos sem esforço.
-type: docs
 weight: 10
 url: /pt/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domine métodos de projeto MS de valor agregado com Aspose.Tasks
+
 ## Introdução
 No domínio do gerenciamento de projetos, aproveitar as ferramentas e metodologias certas é fundamental para o sucesso. Aspose.Tasks for .NET fornece uma estrutura robusta para gerenciar tarefas relacionadas a projetos de forma eficiente. Um aspecto crucial é a utilização de métodos de gerenciamento de valor agregado (EVM), que oferecem insights sobre o desempenho do projeto, comparando o trabalho planejado com o trabalho real concluído. Neste tutorial, nos aprofundaremos na compreensão e implementação de tipos de método MS Project de valor agregado usando Aspose.Tasks para .NET.
 ## Pré-requisitos
@@ -53,3 +59,9 @@ R: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Tasks for .NET 
  R: Sim, licenças temporárias estão disponíveis para Aspose.Tasks for .NET. Você pode obtê-los em:[Licença Temporária](https://purchase.aspose.com/temporary-license/)
 ### P: Onde posso comprar o Aspose.Tasks para .NET?
  R: Você pode adquirir o Aspose.Tasks for .NET no site:[Comprar](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

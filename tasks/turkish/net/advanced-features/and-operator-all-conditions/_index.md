@@ -3,10 +3,16 @@ title: Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
 linktitle: Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
 second_title: Aspose.Tasks .NET API'si
 description: Proje görevlerini verimli bir şekilde filtrelemek için Aspose.Tasks for .NET ile AND operatörünü her koşulda nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
+
 ## giriiş
 
 Proje yönetimi görevlerinizi verimli bir şekilde kolaylaştırmak mı istiyorsunuz? Aspose.Tasks for .NET ile proje verilerini etkili bir şekilde yönetmek için güçlü işlevlerden yararlanabilirsiniz. Bu özelliklerden biri, görevleri aynı anda birden fazla kritere göre filtrelemenize olanak tanıyan AND operatörünü tüm koşullarda kullanma yeteneğidir. Bu eğitimde, bu işlevselliği adım adım uygulama sürecinde size yol göstereceğiz.
@@ -118,3 +124,9 @@ Cevap4: Evet, işlevselliği geliştirmek için Aspose.Tasks'ı diğer .NET çer
 ### S5: Aspose.Tasks kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
 
  Cevap5: Evet, Aspose.Tasks topluluk forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

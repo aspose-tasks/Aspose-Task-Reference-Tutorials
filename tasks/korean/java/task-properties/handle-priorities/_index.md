@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 우선순위 처리
 linktitle: Aspose.Tasks에서 작업 우선순위 처리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 작업 우선순위를 손쉽게 마스터하세요. 원활한 처리를 위해 이 가이드를 따르세요. 프로젝트 관리 능력을 향상해보세요!
-type: docs
 weight: 17
 url: /ko/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 우선순위 처리
+
 ## 소개
 작업 우선 순위 관리는 프로젝트 성공에 매우 중요하며 Aspose.Tasks for Java를 사용하면 원활한 프로세스가 됩니다. 이 튜토리얼은 Aspose.Tasks를 사용하여 작업 우선순위를 처리하는 방법을 안내합니다. 숙련된 개발자이든 신규 개발자이든 이 가이드는 프로세스를 따라하기 쉬운 단계로 나누어 설명합니다.
 ## 전제조건
@@ -56,3 +62,9 @@ for (Task tsk : collector.getTasks()) {
  예, 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: 자세한 문서는 어디서 찾을 수 있나요?
  문서를 참조하세요[여기](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

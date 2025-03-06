@@ -3,10 +3,16 @@ title: Domine as máscaras de contorno do MS Project com Aspose.Tasks
 linktitle: Coleção de máscaras de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como manipular máscaras de contorno de coleção do MS Project usando Aspose.Tasks for .NET. Aumente a produtividade com este tutorial abrangente.
-type: docs
 weight: 15
 url: /pt/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domine as máscaras de contorno do MS Project com Aspose.Tasks
+
 ## Introdução
 Você está procurando aproveitar o poder das máscaras de contorno do Microsoft Project usando Aspose.Tasks for .NET? Você veio ao lugar certo! Neste tutorial abrangente, orientaremos você passo a passo pelo processo, garantindo que você obtenha uma compreensão sólida de como manipular máscaras de contorno de maneira eficaz em seus projetos. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia fornecerá o conhecimento e as habilidades necessárias para otimizar seu fluxo de trabalho.
 ## Pré-requisitos
@@ -109,3 +115,9 @@ R: Absolutamente! Você pode personalizar máscaras de contorno ajustando seu co
 R: Sim, Aspose.Tasks for .NET oferece documentação abrangente e suporte dedicado por meio de seu site e[fóruns](https://forum.aspose.com/c/tasks/15).
 ### Q5: Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
  R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET em seu site.[local na rede Internet](https://releases.aspose.com/tasks/net/). para explorar seus recursos e funcionalidades antes de fazer uma compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

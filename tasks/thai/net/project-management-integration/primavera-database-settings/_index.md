@@ -3,10 +3,16 @@ title: กำหนดค่าฐานข้อมูล MS Project Primavera 
 linktitle: การกำหนดการตั้งค่าฐานข้อมูล Primavera ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดการตั้งค่าฐานข้อมูล MS Project Primavera ใน Aspose.Tasks สำหรับ .NET ได้อย่างง่ายดาย ปรับปรุงงานการจัดการโครงการของคุณ
-type: docs
 weight: 11
 url: /th/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำหนดค่าฐานข้อมูล MS Project Primavera ใน Aspose.Tasks
+
 ## การแนะนำ
 คุณพร้อมที่จะควบคุมพลังของ Aspose.Tasks สำหรับ .NET เพื่อกำหนดการตั้งค่าฐานข้อมูล MS Project Primavera ได้อย่างราบรื่นแล้วหรือยัง? ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน แต่ก่อนที่เราจะดำน้ำ มาตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการก่อน
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 ตอบ: แน่นอน! Aspose.Tasks สำหรับ .NET มีชุด API มากมายสำหรับการอ่าน เขียน และจัดการข้อมูลโครงการในรูปแบบต่างๆ
 ### ถาม: มีฟอรัมชุมชนหรือช่องทางการสนับสนุนสำหรับผู้ใช้ Aspose.Tasks สำหรับผู้ใช้ .NET หรือไม่
  ตอบ: ได้ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)สำหรับการสนับสนุนและความช่วยเหลือจากชุมชนในประเด็นหรือข้อสงสัยใด ๆ ที่คุณอาจมี ## ซอร์สโค้ดที่สมบูรณ์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

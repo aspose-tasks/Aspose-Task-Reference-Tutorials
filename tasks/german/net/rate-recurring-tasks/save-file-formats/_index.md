@@ -3,10 +3,16 @@ title: Speichern von MS Project-Dateien in verschiedenen Formaten in Aspose.Task
 linktitle: Speichern von Dateien in verschiedenen Formaten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Dateien mit Aspose.Tasks für .NET in verschiedenen Formaten speichern. Einfache Schritte für effizientes Projektmanagement.
-type: docs
 weight: 17
 url: /de/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern von MS Project-Dateien in verschiedenen Formaten in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Microsoft Project-Dateien mit Aspose.Tasks für .NET in verschiedenen Formaten speichern. Aspose.Tasks ist eine leistungsstarke API, die es Entwicklern ermöglicht, Projektdateien programmgesteuert zu bearbeiten und zu verwalten.
 ## Voraussetzungen
@@ -55,3 +61,9 @@ A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](ht
  A: Ja, zu Evaluierungszwecken stehen temporäre Lizenzen zur Verfügung. Sie können eines erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wie hoch sind die Preise für Aspose.Tasks?
  A: Preisinformationen finden Sie auf der Kaufseite von Aspose.Tasks[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

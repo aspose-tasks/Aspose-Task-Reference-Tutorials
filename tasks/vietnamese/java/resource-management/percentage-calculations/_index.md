@@ -3,10 +3,16 @@ title: Tính toán phần trăm tài nguyên dự án MS với Aspose.Tasks
 linktitle: Thực hiện tính toán tỷ lệ phần trăm cho tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tính tỷ lệ phần trăm tài nguyên MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước kèm theo các ví dụ về mã.
-type: docs
 weight: 14
 url: /vi/java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính toán phần trăm tài nguyên dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thực hiện tính toán phần trăm cho tài nguyên MS Project bằng Aspose.Tasks cho Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tận dụng Aspose.Tasks để thao tác và trích xuất dữ liệu tài nguyên từ các tệp Microsoft Project một cách hiệu quả. Aspose.Tasks là một API Java mạnh mẽ cung cấp các tính năng toàn diện để làm việc với các tài liệu Microsoft Project, cho phép các nhà phát triển tích hợp liền mạch các chức năng quản lý dự án vào các ứng dụng Java của họ.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Hoàn toàn có thể, Aspose.Tasks cung cấp các tính năng toàn diện đ�
  Có, bạn có thể tìm sự trợ giúp và tương tác với những người dùng khác trên diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks có cung cấp giấy phép tạm thời cho mục đích đánh giá không?
  Có, bạn có thể xin giấy phép tạm thời để đánh giá từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

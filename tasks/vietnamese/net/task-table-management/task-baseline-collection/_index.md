@@ -3,10 +3,16 @@ title: Bộ sưu tập các đường cơ sở của nhiệm vụ trong Aspose.T
 linktitle: Bộ sưu tập các đường cơ sở của nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá các đường cơ sở của nhiệm vụ một cách dễ dàng với Aspose.Tasks for .NET. Quản lý dự án hiệu quả được thực hiện đơn giản. Tải ngay! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /vi/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các đường cơ sở của nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho .NET, một thư viện mạnh mẽ tạo điều kiện thuận lợi cho việc thao tác và quản lý liền mạch các nhiệm vụ dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào lĩnh vực hấp dẫn của đường cơ sở nhiệm vụ—một khía cạnh quan trọng của việc lập kế hoạch và theo dõi dự án. Khi kết thúc hướng dẫn này, bạn sẽ nắm vững nghệ thuật làm việc với các bộ sưu tập cơ sở nhiệm vụ, cho phép bạn nâng cao khả năng quản lý dự án của mình.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Trả lời: Aspose.Tasks cho .NET không áp đặt giới hạn nghiêm ngặt
 Đ: Chắc chắn rồi! Bạn có toàn quyền kiểm soát định dạng khi in chi tiết cơ bản, cho phép bạn điều chỉnh nó theo yêu cầu cụ thể của mình.
 ### Hỏi: Tôi có thể tìm kiếm trợ giúp ở đâu nếu gặp phải vấn đề hoặc có thêm câu hỏi?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ tận tình và hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

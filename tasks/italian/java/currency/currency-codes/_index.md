@@ -3,10 +3,16 @@ title: Gestisci i codici valuta in Aspose.Tasks
 linktitle: Gestisci i codici valuta in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire i codici valutari di MS Project in modo efficiente utilizzando Aspose.Tasks per Java. Semplifica le attività di gestione dei progetti senza sforzo.
-type: docs
 weight: 10
 url: /it/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci i codici valuta in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel nostro tutorial sulla gestione dei codici valutari di MS Project utilizzando Aspose.Tasks per Java. In questo tutorial ti guideremo attraverso il processo di gestione semplice dei codici valuta nei tuoi file MS Project. Aspose.Tasks è una potente API Java che ti consente di manipolare i documenti di Microsoft Project a livello di codice, offrendo un'ampia gamma di funzionalità per semplificare le attività di gestione dei progetti.
 ## Prerequisiti
@@ -53,3 +59,9 @@ R: Sì, Aspose.Tasks offre documentazione completa e supporto dedicato per assis
 R: Sì, puoi esplorare Aspose.Tasks attraverso una prova gratuita per valutarne le funzionalità e l'idoneità ai requisiti del tuo progetto.
 ### D: Dove posso ottenere licenze temporanee per Aspose.Tasks?
  R: Le licenze temporanee per Aspose.Tasks possono essere ottenute da[sito web](https://purchase.aspose.com/temporary-license/) per una durata limitata.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

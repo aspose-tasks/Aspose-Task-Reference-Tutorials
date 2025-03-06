@@ -3,10 +3,16 @@ title: Mengatur Parameter Tugas Berulang di Aspose.Tasks
 linktitle: Mengatur Parameter Tugas Berulang di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengatur parameter tugas berulang di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial komprehensif dengan panduan langkah demi langkah.
-type: docs
 weight: 14
 url: /id/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Parameter Tugas Berulang di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan parameter tugas berulang Microsoft Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -79,3 +85,9 @@ Ya, Aspose.Tasks mendukung berbagai format file proyek termasuk MPP, XML, XLSX, 
 Ya, Anda dapat mengunjungi forum Aspose.Tasks untuk mendapatkan bantuan dari komunitas atau menghubungi dukungan untuk bantuan langsung.
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  Anda dapat memperoleh lisensi sementara dari[situs web](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

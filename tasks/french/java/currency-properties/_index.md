@@ -3,10 +3,16 @@ title: Propriétés des devises
 linktitle: Propriétés des devises
 second_title: API Java Aspose.Tasks
 description: Libérez la puissance d’Aspose.Tasks pour les didacticiels Java. Découvrez des guides étape par étape sur la lecture et la définition sans effort des propriétés monétaires dans les fichiers MS Project.
-type: docs
 weight: 25
 url: /fr/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriétés des devises
+
 ## Introduction
 Êtes-vous prêt à élever vos compétences Aspose.Tasks pour Java ? Plongez dans nos didacticiels complets sur les propriétés des devises et maîtrisez l'art de gérer les informations monétaires dans les fichiers MS Project.
 
@@ -35,3 +41,9 @@ Prêt à vous lancer dans ce voyage éducatif ? Cliquez sur les liens ci-dessous
 Découvrez comment extraire des informations monétaires à partir de fichiers MS Project à l'aide d'Aspose.Tasks pour Java. Guide étape par étape fourni.
 ### [Définir les propriétés de devise dans les projets Aspose.Tasks](./set-properties/)
 Découvrez comment définir les propriétés monétaires dans les projets Aspose.Tasks à l'aide de Java. Manipulez les fichiers Microsoft Project sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

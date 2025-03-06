@@ -3,10 +3,16 @@ title: カレンダーの例外
 linktitle: カレンダーの例外
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用すると、Java プロジェクトのカレンダー例外を簡単に管理、定義、処理、取得できます。プロジェクトのワークフローを合理化し、効率的なプロジェクト管理を実現します。
-type: docs
 weight: 20
 url: /ja/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# カレンダーの例外
+
 
 ## 導入
 
@@ -34,3 +40,9 @@ Aspose.Tasks for Java でカレンダーの例外を効率的に追加および�
 Aspose.Tasks for Java を使用して Java プロジェクトでカレンダーの例外を効果的に処理する方法を学びます。プロジェクト管理プロセスを今すぐ合理化しましょう。
 ### [Aspose.Tasks を使用してカレンダーの例外を取得する](./retrieve/)
 Aspose.Tasks for Java を使用して MS Project からカレンダーの例外を取得する方法を学びます。シームレスな統合のためのステップバイステップのチュートリアル。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

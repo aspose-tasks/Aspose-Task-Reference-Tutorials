@@ -3,10 +3,16 @@ title: ตรวจสอบค่าล่วงเวลา ต้นทุน
 linktitle: ตรวจสอบค่าล่วงเวลา ต้นทุนคงเหลือ และทำงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีตรวจสอบค่าล่วงเวลา ต้นทุนที่เหลืออยู่ และทำงานในโครงการ Java โดยใช้ Aspose.Tasks ขั้นตอนง่ายๆ เพื่อการจัดการโครงการอย่างมีประสิทธิภาพ
-type: docs
 weight: 18
 url: /th/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตรวจสอบค่าล่วงเวลา ต้นทุนคงเหลือ และทำงานใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีใช้ Aspose.Tasks สำหรับ Java เพื่อตรวจสอบการทำงานล่วงเวลา ต้นทุนที่เหลือ และงานในโปรเจ็กต์ สิ่งนี้สามารถประเมินค่ามิได้สำหรับผู้จัดการโครงการและหัวหน้าทีมเพื่อให้แน่ใจว่าโครงการดำเนินไปตามแผนและอยู่ในงบประมาณ
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
  คุณสามารถเยี่ยมชมฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุน
 ### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้อย่างไร
  คุณสามารถซื้อใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

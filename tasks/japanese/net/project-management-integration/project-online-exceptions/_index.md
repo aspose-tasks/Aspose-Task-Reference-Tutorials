@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS Project オンライン例外の管理
 linktitle: Aspose.Tasks での Project Online 例外の操作
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project Online の例外をシームレスに処理する方法を学びます。効果的なプロジェクト管理のためのステップバイステップのチュートリアル。
-type: docs
 weight: 21
 url: /ja/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS Project オンライン例外の管理
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用した Microsoft Project Online 例外の複雑な処理について詳しく説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルを簡単に操作および管理できるようにする強力な .NET API です。プロセスを段階的に説明し、.NET アプリケーションで MS Project Online の例外を処理する方法を包括的に理解できるようにします。
 ## 前提条件
@@ -74,3 +80,9 @@ A: はい、Aspose.Tasks は、Microsoft Project、Primavera などを含むさ�
 A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks のライセンスを購入するにはどうすればよいですか?
  A: Aspose.Tasks のライセンスは、[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

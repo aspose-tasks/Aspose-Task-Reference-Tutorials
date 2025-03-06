@@ -3,10 +3,16 @@ title: MS Project 公式与 Aspose.Tasks for Java
 linktitle: 在 Aspose.Tasks 中使用公式
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 库在 Java 中操作 MS Project 文件。轻松创建、修改和计算属性。
-type: docs
 weight: 11
 url: /zh/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project 公式与 Aspose.Tasks for Java
+
 ## 介绍
 在本教程中，我们将深入研究如何使用 Aspose.Tasks for Java 来处理 MS Project Formulas。 Aspose.Tasks 是一个功能强大的库，使开发人员能够以编程方式操作 Microsoft Project 文件。凭借其广泛的功能，您可以轻松地在 Java 应用程序中创建、读取、修改和转换项目文件。
 ## 先决条件
@@ -64,3 +70,9 @@ project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 答： 如需支持，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
 ### 问：使用 Aspose.Tasks 需要临时许可证吗？
 答：如果您需要额外的功能，您可以从以下位置获取临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

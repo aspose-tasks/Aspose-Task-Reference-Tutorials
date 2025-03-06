@@ -3,10 +3,16 @@ title: Konfigurasi Waktu dan Pola Pengulangan Aspose.Tasks
 linktitle: Konfigurasi Waktu dan Pola Pengulangan Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk tutorial .NET tentang konfigurasi waktu dan pola pengulangan. Kelola kalender dengan mudah, sesuaikan waktu kerja, dan optimalkan penjadwalan proyek.
-type: docs
 weight: 33
 url: /id/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Waktu dan Pola Pengulangan Aspose.Tasks
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.Tasks untuk .NET, tempat manajemen proyek yang efisien bertemu dengan kekuatan konfigurasi waktu dan pola pengulangan yang dapat disesuaikan. Dalam panduan komprehensif ini, kami akan mempelajari berbagai tutorial yang memberdayakan Anda untuk menguasai seni penjadwalan proyek dan manajemen sumber daya.
@@ -58,3 +64,9 @@ Pelajari cara mengonfigurasi minggu kerja dengan mudah di Aspose.Tasks untuk .NE
 Pelajari cara menyesuaikan minggu kerja di Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk membuat kalender proyek yang dipersonalisasi. Unduh sekarang!
 ### [Mengonfigurasi Pola Pengulangan Tahunan di Aspose.Tasks](./yearly-recurrence-patterns/)
 Pelajari cara mengonfigurasi pola pengulangan tahunan di Aspose.Tasks untuk .NET. Tingkatkan keterampilan manajemen proyek Anda dengan panduan langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

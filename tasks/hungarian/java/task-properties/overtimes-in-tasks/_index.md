@@ -3,10 +3,16 @@ title: Túlórák a Feladatokban Aspose.Tasks-szal
 linktitle: Túlórák a Feladatokban Aspose.Tasks-szal
 second_title: Aspose.Tasks Java API
 description: Fedezze fel a hatékony túlórakezelést a projektfeladatokban az Aspose.Tasks for Java segítségével. Egyszerűsítse a nyomon követést és az erőforrás-elosztást könnyedén.
-type: docs
 weight: 23
 url: /hu/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Túlórák a Feladatokban Aspose.Tasks-szal
+
 ## Bevezetés
 túlórák kezelése a projektfeladatokban kulcsfontosságú a projektmenedzserek és a csapatvezetők számára a pontos nyomon követés és az erőforrások elosztása érdekében. Az Aspose.Tasks for Java hatékony megoldást kínál a túlórákkal kapcsolatos szempontok kezelésére a projektmenedzsmentben. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks a túlórák hatékony kezelésére és elemzésére a projektfeladatok során.
 ## Előfeltételek
@@ -54,3 +60,9 @@ Teljesen! Az Aspose.Tasks zökkenőmentesen integrálható más Java-keretrendsz
  Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba lépni a közösséggel és támogatást kérni.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

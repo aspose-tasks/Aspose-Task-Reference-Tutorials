@@ -3,10 +3,16 @@ title: أنواع الحقول المخصصة في Aspose.Tasks
 linktitle: أنواع الحقول المخصصة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية العمل مع أنواع الحقول المخصصة في Aspose.Tasks لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
-type: docs
 weight: 23
 url: /ar/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنواع الحقول المخصصة في Aspose.Tasks
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي حول العمل مع أنواع الحقول المخصصة في Aspose.Tasks لـ .NET! Aspose.Tasks هي مكتبة قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. في هذا البرنامج التعليمي، سنركز على فهم أنواع الحقول المخصصة واستخدامها، وهو جانب حاسم في العمل مع بيانات المشروع.
@@ -89,3 +95,9 @@ A4: نعم، Aspose.Tasks يسمح لك بمعالجة بيانات المهام
 ### س5: هل يوجد منتدى مجتمعي لمستخدمي Aspose.Tasks؟
 
  ج5: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتفاعل مع المستخدمين الآخرين والحصول على الدعم من فريق Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

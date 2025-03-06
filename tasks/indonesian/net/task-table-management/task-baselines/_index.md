@@ -3,10 +3,16 @@ title: Menguasai Dasar Tugas di Aspose.Tasks untuk .NET
 linktitle: Menangani Garis Dasar Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani garis dasar tugas di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Tingkatkan keterampilan manajemen proyek Anda hari ini!
-type: docs
 weight: 16
 url: /id/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Dasar Tugas di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Dalam dunia manajemen proyek yang dinamis, tetap terorganisir dan mendapat informasi sangatlah penting. Aspose.Tasks untuk .NET memberikan solusi canggih untuk menangani garis dasar tugas, memungkinkan Anda mengakses informasi dasar yang berharga secara efisien. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda memahami setiap konsep dengan jelas.
 ## Prasyarat
@@ -72,3 +78,9 @@ J: Aspose.Tasks kompatibel dengan beberapa kerangka .NET, memberikan fleksibilit
  J: Jelajahi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk berbagai tutorial tentang fitur Aspose.Tasks.
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?
  J: Anda dapat dengan mudah membeli Aspose.Tasks[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

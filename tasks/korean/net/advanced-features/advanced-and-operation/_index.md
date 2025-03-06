@@ -3,10 +3,16 @@ title: Aspose.Tasks의 고급 AND 연산
 linktitle: Aspose.Tasks의 고급 AND 연산
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 고급 AND 작업을 수행하여 여러 기준에 따라 프로젝트 작업을 효율적으로 필터링하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 고급 AND 연산
+
 ## 소개
 
  이 튜토리얼에서는 작업 및 프로젝트 관리를 위한 강력한 도구인 Aspose.Tasks for .NET의 고급 AND 연산을 자세히 살펴보겠습니다. 다음을 사용하여 여러 조건을 기반으로 프로젝트 작업을 필터링하는 방법을 살펴보겠습니다.`Util.And` 수업.
@@ -107,3 +113,9 @@ A: 예, Util.And를 사용하면 원하는 수의 조건을 결합하여 복잡�
 ### Q5: .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
 
 A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

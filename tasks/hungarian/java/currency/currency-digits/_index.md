@@ -3,10 +3,16 @@ title: A valuta számjegyeinek kezelése az Aspose.Tasks segítségével
 linktitle: A valuta számjegyeinek kezelése az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Tanulja meg, hogyan kezelheti hatékonyan a valuta MS Project számjegyeit az Aspose.Tasks for Java segítségével. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 11
 url: /hu/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A valuta számjegyeinek kezelése az Aspose.Tasks segítségével
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban a valuta MS Project számjegyeinek kezeléséről az Aspose.Tasks for Java használatával. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy alaposan megértse az egyes fogalmakat.
 ## Előfeltételek
@@ -56,3 +62,9 @@ Igen, használhatja az Aspose.Tasks for Java-t különböző Java-fejlesztést t
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Tasks programhoz?
  Támogatást találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

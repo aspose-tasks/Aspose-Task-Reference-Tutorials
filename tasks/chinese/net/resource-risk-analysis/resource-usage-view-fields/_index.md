@@ -3,10 +3,16 @@ title: Aspose.Tasks 中资源使用视图字段的集合
 linktitle: Aspose.Tasks 中资源使用视图字段的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效访问和操作 Microsoft Project 文件中的资源使用视图字段。
-type: docs
 weight: 16
 url: /zh/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中资源使用视图字段的集合
+
 ## 介绍
 在项目管理领域，有效处理 Microsoft Project 文件至关重要。 Aspose.Tasks for .NET 提供了一个全面的解决方案来无缝处理 MS Project 文件。在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 访问和利用资源使用情况视图字段的过程。
 ## 先决条件
@@ -67,3 +73,9 @@ foreach (var field in fields)
 答：是的，您可以从以下位置访问免费试用版：[网站](https://releases.aspose.com/).
 ### 问：如何获得 Aspose.Tasks for .NET 的临时许可证？
 答：您可以从以下机构获得临时许可证：[购买页面](https://purchase.aspose.com/temporary-license/)出于评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

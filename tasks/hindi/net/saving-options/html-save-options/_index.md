@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट को HTML 
 linktitle: Aspose.Tasks के लिए HTML सहेजें विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों को HTML के रूप में सहेजना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ प्रोजेक्ट डेटा को आसानी से परिवर्तित करें।
-type: docs
 weight: 10
 url: /hi/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट को HTML के रूप में सहेजें
+
 ## परिचय
 .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों को HTML के रूप में सहेजने पर हमारे ट्यूटोरियल में आपका स्वागत है! Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि प्रोजेक्ट डेटा को HTML के रूप में सहेजने के लिए Aspose.Tasks का उपयोग कैसे करें, साथ ही चरण-दर-चरण मार्गदर्शन प्रदान करें।
 ## आवश्यक शर्तें
@@ -57,3 +63,9 @@ project.Save("OutputFilePath.html", options);
 उत्तर: बिल्कुल, आप अपनी आवश्यकताओं के आधार पर अपने प्रोजेक्ट के विशिष्ट पृष्ठ या अनुभाग निकाल और शामिल कर सकते हैं।
 ### प्रश्न: क्या Aspose.Tasks के लिए कोई परीक्षण संस्करण उपलब्ध है?
 उ: हाँ, आप खरीदारी करने से पहले इसकी विशेषताओं का पता लगाने के लिए Aspose.Tasks का निःशुल्क परीक्षण प्राप्त कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

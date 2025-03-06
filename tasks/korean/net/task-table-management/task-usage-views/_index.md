@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 작업 사용량 보기 마스터하기
 linktitle: Aspose.Tasks에서 작업 사용량 보기 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 살펴보고 작업 사용량 보기를 구성하는 방법을 알아보세요. 기간 설정을 사용자 정의하고 프로젝트 관리 시각적 효과를 향상하세요.
-type: docs
 weight: 24
 url: /ko/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 작업 사용량 보기 마스터하기
+
 ## 소개
 프로젝트 관리 영역에서 작업 사용량을 시각화하는 것은 효과적인 계획과 실행을 위해 매우 중요합니다. Aspose.Tasks for .NET은 작업 사용 보기 렌더링을 위한 강력한 솔루션을 제공하므로 시간 척도 설정 및 프레젠테이션 형식을 사용자 정의할 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 작업 사용량 보기를 구성하는 단계를 안내합니다.
 ## 전제조건
@@ -75,3 +81,9 @@ Aspose.Tasks는 GanttChart, ResourceUsage 등을 포함한 다양한 프레젠�
 물론, 프로젝트 내의 개별 작업에 대한 기간 설정을 사용자 정의할 수 있습니다.
 ### Aspose.Tasks에 대한 지원을 받거나 도움을 구하려면 어떻게 해야 합니까?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회의 지원과 지도를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

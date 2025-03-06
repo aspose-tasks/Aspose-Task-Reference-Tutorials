@@ -3,10 +3,16 @@ title: Argumen Menyimpan CSS di Aspose.Tasks
 linktitle: Argumen Menyimpan CSS di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan argumen CSS di Aspose.Tasks untuk .NET guna menyesuaikan keluaran HTML. Sempurnakan presentasi dengan pengaturan CSS yang disesuaikan.
-type: docs
 weight: 20
 url: /id/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Argumen Menyimpan CSS di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari proses menyimpan argumen CSS menggunakan Aspose.Tasks untuk .NET. Cascading Style Sheets (CSS) sangat penting untuk mendefinisikan presentasi elemen HTML. Aspose.Tasks memungkinkan kita memanipulasi dan menyimpan atribut CSS ini secara efisien.
@@ -118,3 +124,9 @@ A4: Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) 
 ### Q5: Apakah Aspose.Tasks untuk .NET menawarkan dukungan untuk pengembang?
 
  A5: Ya, Anda bisa mendapatkan dukungan dari komunitas Aspose.Tasks melalui[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

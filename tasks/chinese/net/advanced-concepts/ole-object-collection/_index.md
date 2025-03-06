@@ -3,10 +3,16 @@ title: Aspose.Tasks 中 OLE 对象的集合
 linktitle: Aspose.Tasks 中 OLE 对象的集合
 second_title: Aspose.Tasks .NET API
 description: 通过这个综合教程，了解如何在 Aspose.Tasks for .NET 中管理 OLE 对象。轻松掌握项目文档中嵌入文件的处理。
-type: docs
 weight: 23
 url: /zh/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中 OLE 对象的集合
+
 ## 介绍
 
 在本教程中，我们将深入研究 Aspose.Tasks for .NET 中 OLE（对象链接和嵌入）对象的管理。 OLE 对象使用户能够在项目文件中嵌入或链接来自其他应用程序的文件。我们将逐步介绍如何使用这些对象的集合。
@@ -97,3 +103,9 @@ A3：虽然建议具备 C# 基础知识，但 Aspose.Tasks 提供了全面的文
 ### Q5：哪里可以找到对 Aspose.Tasks 的支持？
 
  A5：您可以在 Aspose.Tasks 论坛上寻求支持并提出问题[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

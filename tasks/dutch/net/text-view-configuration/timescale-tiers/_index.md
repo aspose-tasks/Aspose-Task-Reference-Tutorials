@@ -3,10 +3,16 @@ title: Tijdschaallagen van Gantt-diagrammen configureren in Aspose.Tasks
 linktitle: Tijdschaallagen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET om tijdschaallagen in uw Gantt-diagramweergave te configureren voor nauwkeurige visualisatie van de projecttijdlijn. #Aspose.Tasks #MS-project
-type: docs
 weight: 16
 url: /nl/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tijdschaallagen van Gantt-diagrammen configureren in Aspose.Tasks
+
 ## Invoering
 In het dynamische landschap van projectmanagement is effectieve visualisatie cruciaal voor het begrijpen van tijdlijnen en deadlines. Aspose.Tasks voor .NET biedt een krachtige toolset en in deze zelfstudie onderzoeken we hoe u tijdschaallagen kunt configureren voor optimale weergave in de Gantt-diagramweergave. Volg deze stapsgewijze instructies om uw projectvisualisatie te verbeteren.
 ## Vereisten
@@ -86,3 +92,9 @@ Absoluut, Aspose.Tasks biedt uitgebreide aanpassingsmogelijkheden voor de Gantt-
 Natuurlijk kunt u verschillende formaten en stijlen voor weergave op tijdschaal verkennen, zodat deze het beste passen bij de context van uw project.
 ### Is er een communityforum voor Aspose.Tasks-ondersteuning?
  Ja, bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

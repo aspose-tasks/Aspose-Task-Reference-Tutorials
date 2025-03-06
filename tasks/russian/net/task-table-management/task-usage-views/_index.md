@@ -3,10 +3,16 @@ title: Освоение представлений использования з
 linktitle: Настройка представлений использования задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите Aspose.Tasks для .NET и узнайте, как настраивать представления использования задач. Настройте параметры шкалы времени и улучшите визуальные эффекты управления проектами.
-type: docs
 weight: 24
 url: /ru/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение представлений использования задач в Aspose.Tasks для .NET
+
 ## Введение
 В сфере управления проектами визуализация использования задач имеет решающее значение для эффективного планирования и выполнения. Aspose.Tasks для .NET предоставляет надежное решение для визуализации представлений использования задач, позволяющее настраивать параметры шкалы времени и форматы представления. В этом руководстве мы рассмотрим шаги по настройке представлений использования задач с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -75,3 +81,9 @@ Aspose.Tasks поддерживает различные форматы през
 Конечно, вы можете настроить параметры шкалы времени для отдельных задач в рамках вашего проекта.
 ### Как я могу получить поддержку или обратиться за помощью по Aspose.Tasks?
  Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку и руководство сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Quản lý và tích hợp dự án
 linktitle: Aspose.Tasks Quản lý và tích hợp dự án
 second_title: Aspose.Tasks .NET API
 description: Khám phá các hướng dẫn Aspose.Tasks toàn diện cho .NET bao gồm quản lý, tích hợp và tùy chỉnh MS Project. Hãy nâng cao kỹ năng quản lý dự án của bạn ngay bây giờ!
-type: docs
 weight: 27
 url: /vi/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Quản lý và tích hợp dự án
+
 
 ## Giới thiệu
 
@@ -62,3 +68,9 @@ Tìm hiểu cách quản lý thông tin đăng nhập MS Project Server một c�
 Mở khóa khả năng quản lý MS Project Server liền mạch với Aspose.Tasks cho .NET. Tự động hóa các nhiệm vụ dự án một cách dễ dàng.
 ### [Tùy chỉnh chế độ xem dự án MS trong Aspose.Tasks](./project-views/)
 Tìm hiểu cách tùy chỉnh chế độ xem MS Project bằng Aspose.Tasks cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để trực quan hóa việc quản lý dự án hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

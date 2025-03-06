@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用日曆
 linktitle: 在 Aspose.Tasks 中使用日曆
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 輕鬆管理專案行事曆、計算工期、處理例外狀況。
-type: docs
 weight: 10
 url: /zh-hant/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用日曆
+
 ## 介紹
 
 Aspose.Tasks for .NET 提供了強大的行事曆處理功能，使開發人員能夠有效地管理專案進度和資源分配。在本教程中，我們將探索如何利用 Aspose.Tasks 與日曆交互，涵蓋基本操作，例如檢索日曆資訊、定義工作週、計算工作時間等。
@@ -497,3 +503,9 @@ A4：是的，您可以使用 Aspose.Tasks for .NET API 建立自訂行事曆，
 ### Q5：我可以從專案文件中檢索有關日曆例外的資訊嗎？
 
 A5：是的，您可以使用 Aspose.Tasks for .NET 輕鬆地從專案文件中檢索日曆異常的資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

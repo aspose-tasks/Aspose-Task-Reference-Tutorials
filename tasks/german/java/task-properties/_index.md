@@ -3,10 +3,16 @@ title: Aufgabeneigenschaften
 linktitle: Aufgabeneigenschaften
 second_title: Aspose.Tasks Java-API
 description: Verbessern Sie das Java-Projektmanagement mit Aspose.Tasks. Entdecken Sie Tutorials zu Aufgabeneigenschaften, von der Handhabung von Prioritäten bis zur Kostenverwaltung. Optimieren Sie Ihr Projekt noch heute!
-type: docs
 weight: 34
 url: /de/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufgabeneigenschaften
+
 ## Einführung
 
 Mit Aspose.Tasks können Sie Microsoft Project-Dateien in Java mühelos verwalten und anpassen. Entdecken Sie Tutorials zu verschiedenen Aspekten von Aufgabeneigenschaften, um Ihre Projektmanagementfähigkeiten zu verbessern.
@@ -138,3 +144,9 @@ Entdecken Sie Aspose.Tasks für Java und meistern Sie die zeitphasengesteuerte D
 Erfahren Sie, wie Sie Aufgabendaten mit Aspose.Tasks für Java in das MPP-Format aktualisieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für ein effizientes Projektmanagement.
 ### [Mit der Aufgabe in Aspose.Tasks verknüpfter PSP](./wbs-associated-with-task/)
 Master-PSP mit Aspose.Tasks für Java – Lernen Sie, Aufgaben-PSP-Codes zu lesen und neu zu nummerieren. Steigern Sie die Effizienz Ihres Projektmanagements!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

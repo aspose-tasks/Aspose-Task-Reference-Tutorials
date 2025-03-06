@@ -3,10 +3,16 @@ title: Настройка линий сетки в MS Project для Aspose.Task
 linktitle: Линии сетки в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить линии сетки в MS Project с помощью Aspose.Tasks для .NET. Улучшите визуализацию и управление своим проектом с помощью простых шагов.
-type: docs
 weight: 23
 url: /ru/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка линий сетки в MS Project для Aspose.Tasks
+
 ## Введение
 
 В управлении проектами визуальное представление играет решающую роль в понимании сроков, зависимостей и хода проекта. Aspose.Tasks для .NET предоставляет надежные инструменты для программного управления файлами проекта. Одной из таких функций является возможность настройки линий сетки в MS Project с помощью Aspose.Tasks.
@@ -113,3 +119,9 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 ### Вопрос 5: Доступна ли пробная версия Aspose.Tasks для .NET?
 
  О: Да, вы можете скачать бесплатную пробную версию[Aspose.Tasks для .NET от](https://forum.aspose.com/c/tasks/15). чтобы изучить его возможности перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurálja az MS Project PDF digitális aláírását az Aspose.Tasks 
 linktitle: A PDF digitális aláírás részleteinek konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja a Microsoft Project PDF digitális aláírás részleteit az Aspose.Tasks for .NET használatával. Biztosítsa projektfájljai biztonságát és hitelességét.
-type: docs
 weight: 10
 url: /hu/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurálja az MS Project PDF digitális aláírását az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a Microsoft Project PDF digitális aláírás részleteinek konfigurálásán az Aspose.Tasks for .NET használatával. Ha követi ezeket a lépéseket, zökkenőmentesen integrálhatja a digitális aláírásokat az MS Project fájljaiba, ezzel biztosítva a biztonságot és a hitelességet.
 ## Előfeltételek
@@ -84,3 +90,9 @@ V: Igen, igényei szerint testreszabhatja a digitális aláírás megjelenését
 V: Nem, ha egyszer digitális aláírást alkalmaznak egy PDF-fájlhoz, azt nem lehet eltávolítani vagy frissíteni. Szükség esetén azonban további aláírásokat is hozzáadhat.
 ### K: Vannak korlátozások a Microsoft Project fájl méretére vagy összetettségére vonatkozóan?
 V: Az Aspose.Tasks korlátozások nélkül képes kezelni a különböző méretű és összetettségű Microsoft Project fájlokat. A teljesítmény azonban a rendelkezésre álló hardvertől és erőforrásoktól függően változhat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

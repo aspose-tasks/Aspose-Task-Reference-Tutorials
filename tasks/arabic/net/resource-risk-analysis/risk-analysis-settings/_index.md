@@ -3,10 +3,16 @@ title: تكوين تحليل مخاطر مشروع MS في Aspose.Tasks
 linktitle: تكوين إعدادات تحليل المخاطر في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات تحليل مخاطر MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشاريع باستخدام تقنيات تقييم المخاطر المتقدمة.
-type: docs
 weight: 19
 url: /ar/net/resource-risk-analysis/risk-analysis-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين تحليل مخاطر مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، يلعب تحليل المخاطر دورًا حاسمًا في تحديد أوجه عدم اليقين المحتملة وتأثيرها على الجداول الزمنية للمشروع. يوفر Aspose.Tasks for .NET حلاً شاملاً لتكوين إعدادات تحليل مخاطر Microsoft Project، مما يسمح للمستخدمين بتقييم مخاطر المشروع والتخفيف منها بشكل فعال.
 ## المتطلبات الأساسية
@@ -112,3 +118,9 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 ج: نعم، يقدم Aspose.Tasks وثائق شاملة وبرامج تعليمية ومنتدى دعم مخصص لمساعدة المستخدمين في الاستخدام الفعال لميزاته وحل أي مشكلات يواجهونها.
 ### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
 ج: نعم، يمكن للمستخدمين الاستفادة من الإصدار التجريبي المجاني من Aspose.Tasks لاستكشاف إمكانياته وتحديد مدى ملاءمته لمتطلبات مشروعهم قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

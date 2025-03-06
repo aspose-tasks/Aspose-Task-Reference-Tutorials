@@ -3,10 +3,16 @@ title: تعيين سمات مشروع MS للمهام الجديدة في Aspose
 linktitle: قم بتعيين سمات للمهام الجديدة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تعيين سمات MS Project للمهام الجديدة باستخدام Aspose.Tasks لـ Java. قم بتخصيص خصائص المهمة دون عناء باستخدام هذا الدليل الشامل.
-type: docs
 weight: 21
 url: /ar/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين سمات مشروع MS للمهام الجديدة في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول إعداد سمات MS Project للمهام الجديدة في Aspose.Tasks لـ Java! في هذا الدليل، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك بسهولة إدارة مهامك وتخصيصها باستخدام مكتبة Java القوية هذه.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ System.out.println("Project file generated Successfully");
  ج: يمكن الحصول على تراخيص مؤقتة لـ Aspose.Tasks لـ Java من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني الحصول على الدعم لأية مشكلات أو استفسارات تتعلق بـ Aspose.Tasks لـ Java؟
  ج: يمكنك الحصول على الدعم والتفاعل مع المجتمع على[Aspose.Tasks لمنتدى دعم جافا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

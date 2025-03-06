@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
 linktitle: Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te kaynakların kullanılabilirlik sürelerini nasıl yöneteceğinizi öğrenin. Bu adım adım öğretici, kullanılabilirlik dönemlerini ekleme, güncelleme ve kaldırma konusunda size yol göstererek etkili proje kaynak planlaması sağlar.
-type: docs
 weight: 18
 url: /tr/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te bir kaynağın kullanılabilirlik dönemi koleksiyonuyla nasıl çalışılacağını keşfedeceğiz. Kullanılabilirlik dönemlerini yönetmek, proje yönetimi için çok önemlidir ve bir proje içindeki görevler için kaynakların ne zaman kullanılabilir olduğunu tanımlamamıza olanak tanır.
@@ -148,3 +154,9 @@ Cevap4: Aspose.Tasks for .NET, çakışan dönemleri yönetecek yerleşik mekani
 ### S5: Bir kaynağın sahip olabileceği kullanılabilirlik dönemi sayısında bir sınır var mı?
 
 Y5: Bir kaynağın sahip olabileceği kullanılabilirlik dönemlerinin sayısına ilişkin önceden tanımlanmış bir sınır yoktur, ancak performans çok sayıda dönemle birlikte düşebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

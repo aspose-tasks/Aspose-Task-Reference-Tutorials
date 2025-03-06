@@ -3,10 +3,16 @@ title: Rendre l'utilisation des ressources et la vue de la feuille dans Aspose.T
 linktitle: Rendre l'utilisation des ressources et la vue de la feuille dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment afficher les vues Utilisation des ressources et Feuille de MS Project dans Aspose.Tasks pour Java. Suivez notre guide étape par étape pour générer des rapports PDF détaillés sans effort.
-type: docs
 weight: 16
 url: /fr/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre l'utilisation des ressources et la vue de la feuille dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous allons apprendre à utiliser Aspose.Tasks pour Java pour afficher les vues d'utilisation des ressources et de feuille de MS Project. Aspose.Tasks est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers Microsoft Project sans avoir besoin d'installer Microsoft Project.
 ## Conditions préalables
@@ -78,3 +84,9 @@ Absolument! Aspose.Tasks fournit de nombreuses options pour personnaliser l'appa
 Non, Aspose.Tasks est une bibliothèque autonome et ne nécessite pas l'installation de Microsoft Project pour son fonctionnement.
 ### Le support technique est-il disponible pour les utilisateurs d'Aspose.Tasks ?
  Oui, les utilisateurs d'Aspose.Tasks peuvent bénéficier d'une assistance technique via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

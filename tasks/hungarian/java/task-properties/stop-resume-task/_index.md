@@ -3,10 +3,16 @@ title: Állítsa le és folytassa a feladatot az Aspose.Tasks alkalmazásban
 linktitle: Állítsa le és folytassa a feladatot az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel az Aspose.Tasks for Java erejét a feladatok leállításáról és folytatásáról szóló, lépésenkénti útmutatónkkal. Javítsa a projektmenedzsmentet zökkenőmentesen!
-type: docs
 weight: 30
 url: /hu/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa le és folytassa a feladatot az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 A Java fejlesztés területén a feladatok hatékony kezelése a projektvégrehajtás kulcsfontosságú szempontja. Az Aspose.Tasks for Java robusztus megoldást kínál a feladatok kezeléséhez hatékony funkcióival. Ebben az oktatóanyagban egy konkrét funkcióval foglalkozunk – a feladatok leállításával és folytatásával. Ennek a lépésről-lépésre szóló útmutatónak a követésével zökkenőmentesen integrálhatja ezt a funkciót Java-projektjeibe.
 ## Előfeltételek
@@ -69,3 +75,9 @@ Igen, a bemutatott példa rugalmasságot tesz lehetővé a minimális dátum be�
  Igen, hozzáférhet a[ingyenes próbaverzió](https://releases.aspose.com/) hogy vásárlás előtt fedezze fel a funkciókat.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for Java számára?
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

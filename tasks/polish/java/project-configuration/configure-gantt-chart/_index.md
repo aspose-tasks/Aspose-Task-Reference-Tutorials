@@ -3,10 +3,16 @@ title: Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
 linktitle: Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak skonfigurować widok wykresu projektu Gantt MS Project w Aspose.Tasks przy użyciu języka Java. Dostosuj projekt i wizualizuj go na wykresie Gantta krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
+
 ## Wstęp
 W tym samouczku dowiesz się, jak skonfigurować widok wykresu Gantta MS Project w projektach Aspose.Tasks przy użyciu języka Java. Aspose.Tasks to potężny interfejs API Java, który umożliwia programową pracę z plikami Microsoft Project. Wykonując poniższe kroki, będziesz mógł dostosować widok wykresu Gantta do wymagań swojego projektu.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ O: Możesz znaleźć wsparcie i zadawać pytania na stronie[Forum Aspose.Tasks](
  Odpowiedź: Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
 ### P: Czy potrzebuję tymczasowej licencji do celów testowych?
  Odpowiedź: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Обработка предполагаемых и контрольных
 linktitle: Обработка предполагаемых и контрольных задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите эффективное управление проектами с помощью Aspose.Tasks для Java. Легко справляйтесь с предполагаемыми и этапными задачами. Загрузите библиотеку прямо сейчас!
-type: docs
 weight: 15
 url: /ru/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка предполагаемых и контрольных задач в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для Java — это мощная библиотека, которая упрощает обработку задач, управление проектами и манипулирование данными проекта. В этом уроке мы сосредоточимся на важнейшем аспекте управления проектами – обработке предполагаемых и контрольных задач с использованием Aspose.Tasks для Java.
 ## Предварительные условия
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks.[здесь](https://releases.aspose.com/).
 ### Как я могу получить временную лицензию для Aspose.Tasks?
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

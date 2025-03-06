@@ -3,10 +3,16 @@ title: Sammlung von Verfügbarkeitszeiträumen in Aspose.Tasks
 linktitle: Sammlung von Verfügbarkeitszeiträumen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Verfügbarkeitszeiträume für Ressourcen in Aspose.Tasks für .NET verwalten. Dieses Schritt-für-Schritt-Tutorial führt Sie durch das Hinzufügen, Aktualisieren und Entfernen von Verfügbarkeitszeiträumen und gewährleistet so eine effektive Projektressourcenplanung.
-type: docs
 weight: 18
 url: /de/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Verfügbarkeitszeiträumen in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit der Sammlung des Verfügbarkeitszeitraums einer Ressource in Aspose.Tasks für .NET arbeiten. Die Verwaltung von Verfügbarkeitsperioden ist für das Projektmanagement von entscheidender Bedeutung, da sie es uns ermöglicht, zu definieren, wann Ressourcen für Aufgaben innerhalb eines Projekts verfügbar sind.
@@ -148,3 +154,9 @@ A4: Aspose.Tasks für .NET bietet keine integrierten Mechanismen zum Umgang mit 
 ### F5: Gibt es eine Grenze für die Anzahl der Verfügbarkeitszeiträume, die eine Ressource haben kann?
 
 A5: Es gibt keine vordefinierte Grenze für die Anzahl der Verfügbarkeitszeiträume, die eine Ressource haben kann, aber bei einer großen Anzahl von Zeiträumen kann sich die Leistung verschlechtern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

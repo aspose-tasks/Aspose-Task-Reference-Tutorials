@@ -3,10 +3,16 @@ title: Taakeigenschappen beheersen in Aspose.Tasks
 linktitle: Lees en schrijf algemene eigenschappen van taken in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks voor Java bij het moeiteloos beheren van taakeigenschappen. Lees en schrijf eenvoudig met behulp van onze stapsgewijze handleiding.
-type: docs
 weight: 26
 url: /nl/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakeigenschappen beheersen in Aspose.Tasks
+
 ## Invoering
 Ontgrendel het volledige potentieel van taakbeheer in Java met Aspose.Tasks. In deze uitgebreide handleiding gaan we dieper in op het lezen en schrijven van algemene eigenschappen van taken met behulp van Aspose.Tasks voor Java. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, deze tutorial zal u voorzien van de vaardigheden om taakeigenschappen moeiteloos te manipuleren.
 ## Vereisten
@@ -85,3 +91,9 @@ Ja, Aspose.Tasks is compatibel met Java 11 en latere versies.
  Neem deel aan de gemeenschapsdiscussie op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor hulp en samenwerking.
 ### Zijn er voorbeeldprojecten beschikbaar ter referentie?
  Verken het gedeelte met voorbeelden van de documentatie[hier](https://reference.aspose.com/tasks/java/) voor voorbeeldprojecten en codefragmenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytvořte prázdný soubor MS Project v Aspose.Tasks
 linktitle: Vytvořte prázdný soubor projektu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se vytvářet prázdné soubory Microsoft Project v Javě pomocí Aspose.Tasks. Snadné kroky pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte prázdný soubor MS Project v Aspose.Tasks
+
 ## Úvod
 V oblasti projektového managementu a plánování úkolů je manipulace se soubory Microsoft Project často nutností. Aspose.Tasks for Java nabízí robustní řešení pro bezproblémové vytváření, manipulaci a správu těchto souborů v rámci aplikací Java. V tomto tutoriálu se ponoříme do procesu vytváření prázdného souboru Microsoft Project pomocí Aspose.Tasks for Java.
 ## Předpoklady
@@ -53,3 +59,9 @@ Aspose.Tasks for Java se vytvoření prázdného souboru Microsoft Project stáv
  Podporu můžete hledat na komunitních fórech[tady](https://forum.aspose.com/c/tasks/15).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks for Java?
  Dočasné licence lze získat od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

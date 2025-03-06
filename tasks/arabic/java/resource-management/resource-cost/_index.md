@@ -3,10 +3,16 @@ title: إدارة تكاليف موارد مشروع MS باستخدام Aspose.
 linktitle: التعامل مع تكلفة الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة تكاليف موارد MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/resource-management/resource-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة تكاليف موارد مشروع MS باستخدام Aspose.Tasks لـ Java
+
 ## مقدمة
 
 في إدارة المشاريع، تعد مراقبة وإدارة تكاليف الموارد أمرًا بالغ الأهمية للحفاظ على المشاريع في حدود الميزانية وضمان الربحية. يوفر Aspose.Tasks for Java أدوات قوية للتعامل مع تكاليف موارد Microsoft Project بكفاءة. في هذا البرنامج التعليمي، سنتعمق في كيفية إدارة تكاليف الموارد بشكل فعال باستخدام Aspose.Tasks لـ Java، مع تقسيم كل خطوة إلى تعليمات سهلة الاتباع.
@@ -93,3 +99,9 @@ if (res.get(Rsc.NAME) != null) {
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ Java؟
 
 ج5: نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من Aspose.Tasks لـ Java لاستكشاف ميزاته قبل اتخاذ قرار الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

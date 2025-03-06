@@ -3,10 +3,16 @@ title: Zbiór pól widoku użycia zasobów w Aspose.Tasks
 linktitle: Zbiór pól widoku użycia zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skutecznie uzyskiwać dostęp do pól widoku użycia zasobów i manipulować nimi w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET.
-type: docs
 weight: 16
 url: /pl/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór pól widoku użycia zasobów w Aspose.Tasks
+
 ## Wstęp
 W zarządzaniu projektami wydajna obsługa plików Microsoft Project jest kluczowa. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do płynnej pracy z plikami MS Project. W tym samouczku zagłębimy się w proces uzyskiwania dostępu i wykorzystywania pól widoku użycia zasobów za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ Odp.: Absolutnie! Aspose.Tasks dla .NET zapewnia rozbudowaną funkcjonalność d
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej w witrynie[strona internetowa](https://releases.aspose.com/).
 ### P: Jak mogę uzyskać tymczasową licencję na Aspose.Tasks dla .NET?
  Odpowiedź: Możesz nabyć tymczasową licencję od[strona zakupu](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

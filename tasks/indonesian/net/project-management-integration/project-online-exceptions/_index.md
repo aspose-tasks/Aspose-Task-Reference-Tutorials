@@ -3,10 +3,16 @@ title: Mengelola Pengecualian Online Proyek MS di Aspose.Tasks
 linktitle: Bekerja dengan Pengecualian Project Online di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani pengecualian Microsoft Project Online secara lancar dengan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah untuk manajemen proyek yang efektif.
-type: docs
 weight: 21
 url: /id/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Pengecualian Online Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari seluk-beluk penanganan pengecualian Microsoft Project Online menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah .NET API yang kuat yang memungkinkan pengembang memanipulasi dan mengelola file Microsoft Project dengan mudah. Kami akan menjalani proses langkah demi langkah, memastikan pemahaman komprehensif tentang cara bekerja dengan pengecualian MS Project Online di aplikasi .NET Anda.
 ## Prasyarat
@@ -74,3 +80,9 @@ J: Ya, Aspose.Tasks memberikan dukungan ekstensif untuk bekerja dengan berbagai 
 J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Bagaimana cara membeli lisensi Aspose.Tasks?
  J: Anda dapat membeli lisensi untuk Aspose.Tasks dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks のハンドル平準化遅延プロパティ
 linktitle: Aspose.Tasks のリソース割り当てのハンドル平準化遅延プロパティ
 second_title: Aspose.Tasks Java API
 description: この包括的なチュートリアルでは、Aspose.Tasks for Java でリソース割り当ての平準化遅延プロパティを処理する方法を学習します。
-type: docs
 weight: 17
 url: /ja/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のハンドル平準化遅延プロパティ
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java でリソース割り当ての平準化遅延プロパティを処理するプロセスについて説明します。 Aspose.Tasks は、システムに Microsoft Project をインストールしなくても Microsoft Project ファイルを操作できる強力な Java ライブラリです。
 ## 前提条件
@@ -91,3 +97,9 @@ A: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project 
 ### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
 
  A: 一時ライセンスは次のサイトからリクエストできます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/)評価目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

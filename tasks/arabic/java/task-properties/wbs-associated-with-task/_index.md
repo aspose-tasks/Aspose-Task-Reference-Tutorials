@@ -3,10 +3,16 @@ title: WBS المرتبطة بالمهمة في Aspose.Tasks
 linktitle: WBS المرتبطة بالمهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: إتقان WBS باستخدام Aspose.Tasks لـ Java - تعلم كيفية قراءة رموز WBS للمهام وإعادة ترقيمها. تعزيز كفاءة إدارة المشروع!
-type: docs
 weight: 36
 url: /ar/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS المرتبطة بالمهمة في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم إدارة المشاريع باستخدام Aspose.Tasks لـ Java! في هذا البرنامج التعليمي، سنتعمق في تعقيدات هيكل تنظيم العمل (WBS) المرتبط بالمهام باستخدام Aspose.Tasks لـ Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل على التنقل عبر أساسيات إدارة رموز WBS بكفاءة.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ for (Task task : tasks) {
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للدعم.
 ### س: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  ج: نعم، احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

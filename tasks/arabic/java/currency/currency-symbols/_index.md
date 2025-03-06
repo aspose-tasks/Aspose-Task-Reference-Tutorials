@@ -3,10 +3,16 @@ title: التلاعب برموز العملة في Aspose.Tasks
 linktitle: التلاعب برموز العملة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعلم كيفية التعامل مع رموز العملات في ملفات MS Project باستخدام Aspose.Tasks لـ Java. خطوات سهلة لإدارة المشاريع بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب برموز العملة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في معالجة رموز العملات في ملفات MS Project باستخدام مكتبة Aspose.Tasks لـ Java. يوفر Aspose.Tasks وظائف قوية للعمل مع مستندات Microsoft Project، مما يمكّن المطورين من التعامل بكفاءة مع الجوانب المختلفة لإدارة المشروع.
 ## المتطلبات الأساسية
@@ -53,3 +59,9 @@ System.out.println(project.get(Prj.CURRENCY_SYMBOL));
  بالتأكيد، يمكن للمطورين الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks من[موقع إلكتروني](https://purchase.aspose.com/buy) لتقييم ميزاته ووظائفه قبل اتخاذ قرار الشراء.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  يمكن للمطورين الحصول على ترخيص مؤقت لـ Aspose.Tasks من[موقع إلكتروني](https://purchase.aspose.com/temporary-license/) صفحة الشراء، مما يسمح لهم باستكشاف الإمكانات الكاملة للمكتبة خلال فترة التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

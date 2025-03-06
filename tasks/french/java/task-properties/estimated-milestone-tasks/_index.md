@@ -3,10 +3,16 @@ title: Gérer les tâches estimées et jalons dans Aspose.Tasks
 linktitle: Gérer les tâches estimées et jalons dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez une gestion de projet efficace avec Aspose.Tasks pour Java. Gérez les tâches estimées et jalonnées sans effort. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 15
 url: /fr/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les tâches estimées et jalons dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java est une bibliothèque puissante qui facilite la gestion des tâches, la gestion des projets et la manipulation des données du projet sans effort. Dans ce didacticiel, nous nous concentrerons sur un aspect crucial de la gestion de projet : la gestion des tâches estimées et des jalons à l'aide d'Aspose.Tasks pour Java.
 ## Conditions préalables
@@ -60,3 +66,9 @@ Oui, vous pouvez intégrer de manière transparente Aspose.Tasks dans vos projet
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

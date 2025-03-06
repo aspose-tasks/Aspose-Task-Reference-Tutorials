@@ -3,10 +3,16 @@ title: Írja meg az MPP projekt összefoglalóját az Aspose.Tasks mappában
 linktitle: Írja meg az MPP projekt összefoglalóját az Aspose.Tasks mappában
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan írhat MPP projekt összefoglalókat Java nyelven az Aspose.Tasks használatával. Könnyedén állíthatja be és kérheti le a projektinformációkat.
-type: docs
 weight: 27
 url: /hu/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Írja meg az MPP projekt összefoglalóját az Aspose.Tasks mappában
+
 ## Bevezetés
 Ebben az oktatóanyagban megtanuljuk, hogyan használhatjuk az Aspose.Tasks for Java-t MPP projekt összefoglalók írásához. Az Aspose.Tasks egy hatékony Java könyvtár a Microsoft Project fájlokkal való munkavégzéshez. Az alábbiakban vázolt lépések követésével különböző összefoglaló információkat állíthat be és kérhet le egy projektről a könyvtár használatával.
 ## Előfeltételek
@@ -87,3 +93,9 @@ V: Az Aspose.Tasks for Java programot rendszeresen frissítik, hogy biztosítsá
 V: Természetesen az Aspose.Tasks for Java kiterjedt lehetőségeket kínál a projekt összefoglaló információinak testreszabására az Ön egyedi igényei szerint.
 ### K: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?
 V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

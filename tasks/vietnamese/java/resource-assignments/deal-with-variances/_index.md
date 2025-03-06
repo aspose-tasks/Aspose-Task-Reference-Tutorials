@@ -3,10 +3,16 @@ title: Xử lý phương sai dự án hiệu quả với Aspose.Tasks
 linktitle: Xử lý các phương sai trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các biến thể của dự án một cách hiệu quả với Aspose.Tasks cho Java. Quản lý sự khác biệt về công việc, chi phí, thời điểm bắt đầu và kết thúc một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý phương sai dự án hiệu quả với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các phương sai trong Aspose.Tasks cho Java. Phương sai là những sai lệch so với các giá trị dự kiến, chẳng hạn như công việc, chi phí, ngày bắt đầu hoặc ngày kết thúc trong quản lý dự án. Aspose.Tasks cung cấp các phương pháp hiệu quả để truy xuất và quản lý những khác biệt này, giúp các nhà phát triển phân tích và điều chỉnh lịch trình dự án một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -65,3 +71,9 @@ Trả lời: Chắc chắn, Aspose.Tasks cung cấp các tính năng mở rộng
  Đáp: Có, người dùng có thể tiếp cận hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ sự trợ giúp hoặc thắc mắc.
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
  Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/) để đánh giá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

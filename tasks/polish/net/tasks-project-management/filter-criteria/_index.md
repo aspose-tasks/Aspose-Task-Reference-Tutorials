@@ -3,10 +3,16 @@ title: Opanowanie kryteriów filtrowania projektów MS za pomocą Aspose.Tasks
 linktitle: Kryteria filtrowania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zaimplementować kryteria filtrów w MS Project przy użyciu Aspose.Tasks dla .NET. Zwiększ efektywność zarządzania projektami dzięki ukierunkowanej analizie danych.
-type: docs
 weight: 18
 url: /pl/net/tasks-project-management/filter-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie kryteriów filtrowania projektów MS za pomocą Aspose.Tasks
+
 ## Wstęp
 W dziedzinie zarządzania projektami Microsoft Project jest niezawodnym narzędziem oferującym mnóstwo funkcji ułatwiających planistom i menedżerom projektów. Wśród wielu funkcjonalności znajduje się możliwość filtrowania danych projektowych, dzięki czemu użytkownicy mogą skupić się na konkretnych aspektach zadań projektowych. Jednakże opanowanie tych możliwości filtrowania może być trudnym zadaniem bez odpowiednich wskazówek. Ten samouczek ma na celu objaśnienie tego procesu poprzez przedstawienie przewodnika krok po kroku dotyczącego wdrażania kryteriów filtrowania w MS Project przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ Odp.: Aspose.Tasks obsługuje .NET Framework, .NET Core i .NET Standard, zapewni
 Odp.: Oczywiście można programowo dostosować kryteria filtrowania w oparciu o parametry dynamiczne, umożliwiając adaptacyjną analizę danych projektu.
 ### P: Gdzie mogę szukać pomocy, jeśli napotkam problemy z Aspose.Tasks?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) aby uzyskać wsparcie od społeczności lub bezpośrednio skontaktować się z obsługą Aspose.Tasks w celu uzyskania spersonalizowanej pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

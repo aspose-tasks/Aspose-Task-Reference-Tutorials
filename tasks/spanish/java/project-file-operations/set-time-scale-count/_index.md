@@ -3,10 +3,16 @@ title: Dominar el recuento de escala de tiempo de MS Project en Aspose.Tasks
 linktitle: Establecer el recuento de escala de tiempo en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a gestionar eficazmente el recuento de escalas de tiempo en MS Project utilizando Aspose.Tasks para Java. Optimice la visualización y gestión de proyectos sin esfuerzo.
-type: docs
 weight: 22
 url: /es/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar el recuento de escala de tiempo de MS Project en Aspose.Tasks
+
 ## Introducción
 La gestión del recuento de la escala de tiempo en MS Project puede afectar significativamente la visualización y gestión del proyecto. Con Aspose.Tasks para Java, una potente API para manejar tareas de gestión de proyectos mediante programación, puede manipular eficientemente el recuento de la escala de tiempo para adaptar las vistas del proyecto a sus necesidades específicas.
 ## Requisitos previos
@@ -91,3 +97,9 @@ R: Por supuesto, Aspose.Tasks para Java proporciona amplias capacidades para per
  R: Sí, puedes obtener una versión de prueba gratuita en[aquí](https://releases.aspose.com/).
 ### P: ¿Dónde puedo obtener soporte para Aspose.Tasks para Java?
  R: Puede encontrar soporte y asistencia en el foro Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

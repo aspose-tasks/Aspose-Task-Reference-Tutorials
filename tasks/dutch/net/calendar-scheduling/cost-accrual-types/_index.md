@@ -3,10 +3,16 @@ title: Kostentoerekeningstypen in Aspose.Tasks
 linktitle: Kostentoerekeningstypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u projectkosten effectief kunt beheren met Aspose.Tasks voor .NET. Definieer typen kostentoerekening voor nauwkeurig bijhouden van het budget.
-type: docs
 weight: 19
 url: /nl/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kostentoerekeningstypen in Aspose.Tasks
+
 ## Invoering
 
 Bij projectmanagement is het nauwkeurig bijhouden van de kosten van cruciaal belang om de budgetcontrole te behouden en het succes van een project te garanderen. Aspose.Tasks voor .NET biedt een robuuste set tools voor het beheren van projectkosten, inclusief de mogelijkheid om verschillende soorten kostenopbouw te definiëren. Deze zelfstudie begeleidt u bij het begrijpen en implementeren van kostentoerekeningstypen met behulp van Aspose.Tasks voor .NET.
@@ -86,3 +92,9 @@ A4: Ja, u kunt het kostentoerekeningstype afzonderlijk instellen voor elke taak 
 ### V5: Ondersteunt Aspose.Tasks voor .NET aangepaste kostenopbouwtypen?
 
 A5: Vanaf de nieuwste versie biedt Aspose.Tasks voor .NET geen ondersteuning voor het definiëren van aangepaste kostentoerekeningstypen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

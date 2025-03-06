@@ -3,10 +3,16 @@ title: Working with Availability Periods in Aspose.Tasks
 linktitle: Working with Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to efficiently manage resource availability periods using Aspose.Tasks for .NET. This tutorial provides a step-by-step guide for working with availability periods in your .NET projects.
-type: docs
 weight: 17
 url: /net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Availability Periods in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll explore how to work with availability periods in Aspose.Tasks for .NET. Availability periods are crucial for managing resources efficiently in project management scenarios. We'll guide you through the process step by step.
@@ -107,3 +113,10 @@ A4: You can get support from the community forum [here](https://forum.aspose.com
 ### Q5: Do you offer temporary licenses for Aspose.Tasks for .NET?
 
 A5: Yes, temporary licenses are available [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

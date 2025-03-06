@@ -3,10 +3,16 @@ title: Управление заметками о задачах в Aspose.Tasks
 linktitle: Управление заметками о задачах в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите управление заметками о задачах в Aspose.Tasks для Java. Пошаговое руководство по эффективной разработке Java. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 22
 url: /ru/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление заметками о задачах в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for Java предоставляет надежное решение для управления данными, связанными с проектом, включая примечания к задачам. В этом руководстве мы углубимся в тонкости эффективного управления заметками о задачах с помощью Aspose.Tasks для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство поможет вам легко пройти процесс обработки заметок о задачах.
 ## Предварительные условия
@@ -51,3 +57,9 @@ System.out.println("Notes RTF: " + task.get(Tsk.NOTES_RTF));
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести Aspose.Tasks для Java?
  Вы можете купить товар[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

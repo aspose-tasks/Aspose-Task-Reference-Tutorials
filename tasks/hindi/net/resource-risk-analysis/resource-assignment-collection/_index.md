@@ -3,10 +3,16 @@ title: Aspose.Tasks में संसाधन असाइनमेंट क
 linktitle: Aspose.Tasks में संसाधन असाइनमेंट का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट में संसाधन असाइनमेंट प्रबंधित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 12
 url: /hi/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में संसाधन असाइनमेंट का संग्रह
+
 ## परिचय
 .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट में संसाधन असाइनमेंट प्रबंधित करने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। इस ट्यूटोरियल में, हम चरण दर चरण प्रक्रिया का गहराई से अध्ययन करेंगे, जिससे यह सुनिश्चित होगा कि आपको संसाधन असाइनमेंट में कुशलतापूर्वक हेरफेर करने की ठोस समझ हो। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह मार्गदर्शिका आपको वह सब कुछ बताएगी जो आपको जानना आवश्यक है।
 ## आवश्यक शर्तें
@@ -94,3 +100,9 @@ foreach (var ra in resourceAssignments)
  उत्तर: हां, मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस उपलब्ध हैं। आप यहां से एक प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks का पूर्ण लाइसेंस कहां से खरीद सकता हूं?
  उ: आप Aspose ऑनलाइन स्टोर से पूर्ण लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

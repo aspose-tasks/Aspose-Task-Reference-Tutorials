@@ -3,10 +3,16 @@ title: التعامل مع ارتباطات المهام في Aspose.Tasks
 linktitle: التعامل مع ارتباطات المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف قوة Aspose.Tasks لـ .NET في إدارة روابط مهام المشروع بكفاءة. اتبع دليلنا خطوة بخطوة لتعزيز تجربة إدارة المشروع الخاص بك.
-type: docs
 weight: 19
 url: /ar/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع ارتباطات المهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في الدليل التفصيلي حول التعامل مع ارتباطات المهام في Aspose.Tasks لـ .NET! تلعب روابط المهام دورًا حاسمًا في إدارة المشاريع، مما يسمح لك بإقامة علاقات بين المهام وإنشاء التبعيات. في هذا البرنامج التعليمي، سنرشدك خلال عملية العمل مع مجموعات روابط المهام باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 يمكن لـ Aspose.Tasks التعامل مع ملفات المشاريع الكبيرة بكفاءة مع الحد الأدنى من التأثير على الأداء.
 ### هل يوجد منتدى مجتمعي لدعم Aspose.Tasks؟
  نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

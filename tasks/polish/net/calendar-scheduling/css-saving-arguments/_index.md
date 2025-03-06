@@ -3,10 +3,16 @@ title: CSS zapisywanie argumentów w Aspose.Tasks
 linktitle: CSS zapisywanie argumentów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zapisywać argumenty CSS w Aspose.Tasks dla .NET, aby dostosować dane wyjściowe HTML. Ulepsz prezentację dzięki dostosowanym ustawieniom CSS.
-type: docs
 weight: 20
 url: /pl/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CSS zapisywanie argumentów w Aspose.Tasks
+
 ## Wstęp
 
 tym samouczku zagłębimy się w proces zapisywania argumentów CSS przy użyciu Aspose.Tasks dla .NET. Kaskadowe arkusze stylów (CSS) mają kluczowe znaczenie przy definiowaniu prezentacji elementów HTML. Aspose.Tasks pozwala nam efektywnie manipulować i zapisywać te atrybuty CSS.
@@ -118,3 +124,9 @@ A4: Możesz odwołać się do[dokumentacja](https://reference.aspose.com/tasks/n
 ### P5: Czy Aspose.Tasks dla .NET oferuje wsparcie dla programistów?
 
  Odpowiedź 5: Tak, możesz uzyskać wsparcie od społeczności Aspose.Tasks za pośrednictwem[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

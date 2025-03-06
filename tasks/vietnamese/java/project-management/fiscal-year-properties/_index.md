@@ -3,10 +3,16 @@ title: Quản lý thuộc tính năm tài chính trong Aspose.Tasks
 linktitle: Quản lý thuộc tính năm tài chính trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý các thuộc tính năm tài chính một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ được cung cấp.
-type: docs
 weight: 15
 url: /vi/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thuộc tính năm tài chính trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển quản lý hiệu quả các tệp dự án, bao gồm cả việc xử lý các thuộc tính năm tài chính. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình quản lý các thuộc tính năm tài chính bằng cách sử dụng Aspose.Tasks trong Java.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án 
  Trả lời: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Tasks từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể mua giấy phép Aspose.Tasks cho Java ở đâu?
  Trả lời: Bạn có thể mua giấy phép Aspose.Tasks cho Java từ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

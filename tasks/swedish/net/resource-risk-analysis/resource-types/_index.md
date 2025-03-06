@@ -3,10 +3,16 @@ title: Typer av resurser i Aspose.Tasks
 linktitle: Typer av resurser i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du arbetar med olika typer av resurser i Aspose.Tasks för .NET, inklusive arbets-, material- och kostnadsresurser, genom en steg-för-steg-handledning.
-type: docs
 weight: 14
 url: /sv/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typer av resurser i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft Project-filer programmatiskt. Oavsett om du hanterar uppgifter, resurser eller scheman, förenklar Aspose.Tasks processen genom att tillhandahålla en omfattande uppsättning API:er. I den här handledningen kommer vi att fördjupa oss i de olika typerna av resurser som du kan använda i dina projekt med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -60,3 +66,9 @@ S: Ja, Aspose.Tasks stöder olika format, inklusive Microsoft Project (MPP), Pri
  S: Ja, du kan köpa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Tillhandahåller Aspose.Tasks för .NET dokumentation som referens?
  S: Ja, du kan hitta dokumentationen[här](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

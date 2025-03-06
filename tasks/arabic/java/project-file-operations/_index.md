@@ -3,10 +3,16 @@ title: عمليات ملف المشروع
 linktitle: عمليات ملف المشروع
 second_title: Aspose.Tasks جافا API
 description: قم بتحسين تخطيطات MS Project بسهولة باستخدام Aspose.Tasks لـ Java. تعرف على البرامج التعليمية خطوة بخطوة حول تقليل الفجوات وعرض البيانات واستبدال التقويمات والمزيد.
-type: docs
 weight: 29
 url: /ar/java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات ملف المشروع
+
 ## مقدمة
 هل تتطلع إلى تعزيز قدراتك في إدارة مشاريع Java؟ انغمس في برامجنا التعليمية الشاملة حول Aspose.Tasks لـ Java، مع التركيز على عمليات ملفات المشروع المختلفة. بدءًا من تقليل الفجوات في قوائم المهام ووصولاً إلى تخصيص طرق عرض MS Project، فإننا نوفر لك كل ما تحتاجه.
 
@@ -94,3 +100,9 @@ url: /ar/java/project-file-operations/
 تعلم كيفية إدارة خصائص أيام الأسبوع بكفاءة في Aspose.Tasks لـ Java. قم بتخصيص تواريخ بدء الأسبوع والأيام في الشهر والمزيد بسهولة.
 ### [اكتب ملخص مشروع MPP في Aspose.Tasks](./write-mpp-project-summary/)
 تعرف على كيفية كتابة ملخصات مشروع MPP في Java باستخدام Aspose.Tasks. قم بتعيين واسترجاع معلومات المشروع دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

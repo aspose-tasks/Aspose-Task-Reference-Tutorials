@@ -3,10 +3,16 @@ title: Kalender
 linktitle: Kalender
 second_title: Aspose.Tugas Java API
 description: Tingkatkan keterampilan manajemen proyek Java Anda dengan tutorial Aspose.Tasks. Kuasai manajemen kalender, buat, tentukan hari kerja, dan perbarui kalender dengan mudah.
-type: docs
 weight: 21
 url: /id/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalender
+
 ## Perkenalan
 
 Apakah Anda seorang pengembang Java yang ingin menyederhanakan keterampilan manajemen proyek Anda? Selami tutorial Aspose.Tasks kami yang komprehensif yang mencakup berbagai aspek pengelolaan kalender MS Project. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini memberikan panduan langkah demi langkah untuk meningkatkan kemampuan Anda.
@@ -64,3 +70,9 @@ Pelajari cara membuat kalender MS Project standar di Java menggunakan Aspose.Tas
 Pelajari cara membaca minggu kerja dari kalender MS Project menggunakan Aspose.Tasks untuk Java. Dapatkan petunjuk langkah demi langkah dalam tutorial komprehensif ini.
 ### [Perbarui Kalender Proyek MS ke Format MPP dengan Aspose.Tasks](./update-to-mpp/)
 Pelajari cara memperbarui kalender MS Project ke format MPP dengan mudah menggunakan Aspose.Tasks untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

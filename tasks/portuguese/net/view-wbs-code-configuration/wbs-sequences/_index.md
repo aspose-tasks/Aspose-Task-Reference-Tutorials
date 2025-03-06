@@ -3,10 +3,16 @@ title: Dominando sequências WBS com Aspose.Tasks para .NET
 linktitle: Definindo sequências WBS em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Capacite o gerenciamento de seu projeto com Aspose.Tasks for .NET – defina perfeitamente sequências de EAP e aumente a eficiência sem esforço. #Aspose #Tarefas #Projeto MS
-type: docs
 weight: 16
 url: /pt/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando sequências WBS com Aspose.Tasks para .NET
+
 ## Introdução
 Você está trabalhando em um aplicativo de gerenciamento de projetos e precisa de uma ferramenta robusta para lidar com sequências de Estrutura Analítica de Projeto (EAP)? Basta procurar Aspose.Tasks for .NET, uma biblioteca poderosa que simplifica as tarefas de gerenciamento de projetos. Neste tutorial, guiaremos você passo a passo pelo processo de definição de sequências de EAP.
 ## Pré-requisitos
@@ -74,3 +80,9 @@ Absolutamente! Aspose.Tasks oferece flexibilidade na definição de códigos WBS
  Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para se conectar com a comunidade e buscar assistência.
 ### Existem licenças temporárias disponíveis?
  Sim, você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

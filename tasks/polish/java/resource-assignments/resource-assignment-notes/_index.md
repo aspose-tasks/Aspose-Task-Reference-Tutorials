@@ -3,10 +3,16 @@ title: Zarządzaj notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks
 linktitle: Zarządzaj notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak zarządzać notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 21
 url: /pl/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks
+
 ## Wstęp
 tym samouczku zajmiemy się zarządzaniem notatkami dotyczącymi przydziałów zasobów za pomocą Aspose.Tasks dla Java. Aspose.Tasks to solidna biblioteka Java zaprojektowana do wydajnej obsługi zadań związanych z zarządzaniem projektami. Ten samouczek przeprowadzi Cię krok po kroku przez proces, umożliwiając bezproblemową integrację zarządzania notatkami z przepływem pracy w projekcie.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ Aspose.Tasks for Java jest kompatybilny z dowolnym Java IDE, w tym IntelliJ IDEA
 Nie, na okres próbny nie jest wymagana licencja tymczasowa. Z wersji próbnej można korzystać bez żadnych licencji.
 ### Gdzie mogę kupić Aspose.Tasks dla Java?
 Możesz kupić Aspose.Tasks dla Java na stronie zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

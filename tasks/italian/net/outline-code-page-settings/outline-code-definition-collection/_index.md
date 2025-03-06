@@ -3,10 +3,16 @@ title: Raccolta di definizioni di codice struttura in Aspose.Tasks .NET
 linktitle: Raccolta di definizioni di codice struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come manipolare le definizioni del codice di struttura nei documenti di Microsoft Project utilizzando Aspose.Tasks per .NET. Categorizzazione dei dati del tuo progetto senza sforzo.
-type: docs
 weight: 13
 url: /it/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccolta di definizioni di codice struttura in Aspose.Tasks .NET
+
 ## introduzione
 Aspose.Tasks è una potente libreria .NET progettata per manipolare i documenti di Microsoft Project con facilità ed efficienza. Una delle sue caratteristiche principali è la capacità di lavorare con le definizioni del codice di contorno, consentendo agli utenti di organizzare e classificare i dati del progetto in modo efficace. In questo tutorial esploreremo come lavorare con le definizioni di codice di struttura utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -83,3 +89,9 @@ R: Se la definizione di un codice di struttura è di sola lettura, non sarà pos
 R: Aspose.Tasks per .NET non impone limitazioni specifiche sul numero di definizioni di codice di struttura che è possibile aggiungere a un progetto. Tuttavia, considerare le implicazioni sulle prestazioni quando si lavora con un numero elevato di definizioni.
 ### D: Posso utilizzare le definizioni del codice di struttura per raggruppare le attività in base a criteri personalizzati?
 R: Sì, le definizioni del codice di contorno ti consentono di classificare le attività in base a criteri personalizzati, fornendo flessibilità nell'organizzazione dei dati del progetto.## Codice sorgente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

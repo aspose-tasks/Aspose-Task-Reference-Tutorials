@@ -3,10 +3,16 @@ title: Aspose.Tasks 大纲代码和页面设置
 linktitle: Aspose.Tasks 大纲代码和页面设置
 second_title: Aspose.Tasks .NET API
 description: 通过有关大纲代码、集合、定义、掩码和页面设置的教程掌握 Aspose.Tasks for .NET。增强项目组织和定制。
-type: docs
 weight: 25
 url: /zh/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 大纲代码和页面设置
+
 ## 介绍
 欢迎来到 Aspose.Tasks for .NET 的无缝项目管理世界！在这个数字时代，精度和效率都是不容妥协的，掌握 Microsoft Project 的复杂性将成为游戏规则的改变者。我们全面的系列教程将指导您了解 Aspose.Tasks for .NET 的细微差别，使您能够轻松管理大纲代码、操作数据定义、使用掩码、值以及自定义页面设置。无论您是经验丰富的项目经理还是该领域的新手，我们的教程都能满足所有技能水平，提供分步说明和代码示例。加入我们的旅程，释放 Aspose.Tasks 的全部潜力，彻底改变您的项目组织和定制方式。让我们深入研究并将您的项目管理技能提升到新的高度！
 ## 使用 Aspose.Tasks for .NET 管理大纲代码
@@ -71,3 +77,9 @@ url: /zh/net/outline-code-page-settings/
 了解如何使用 Aspose.Tasks for .NET 配置 MS Project 页面设置。通过简单的步骤自定义方向、尺寸等。
 ### [在 Aspose.Tasks 中自定义 MS Project 页面视图设置](./page-view-settings/)
 了解如何在 Aspose.Tasks for .NET 中配置页面视图设置以定制 Microsoft Project 文档的打印格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

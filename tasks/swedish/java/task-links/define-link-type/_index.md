@@ -3,10 +3,16 @@ title: Definiera länktyp i Aspose.Tasks
 linktitle: Definiera länktyp i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Utforska kraften i Aspose.Tasks för Java i projektledning. Definiera och anpassa länktyper utan ansträngning med vår steg-för-steg handledning.
-type: docs
 weight: 13
 url: /sv/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definiera länktyp i Aspose.Tasks
+
 ## Introduktion
 Välkommen till en värld av effektiv projektledning med Aspose.Tasks för Java! Om du vill effektivisera din projekthantering och öka produktiviteten är du på rätt plats. I denna omfattande handledning kommer vi att guida dig genom processen att definiera länktyper i Aspose.Tasks för Java, vilket förbättrar dina projektledningsmöjligheter.
 ## Förutsättningar
@@ -60,3 +66,9 @@ A: Absolut! Aspose.Tasks ger flexibilitet, så att du kan definiera och anpassa 
  Ett besök[den här länken](https://purchase.aspose.com/temporary-license/) att förvärva en tillfällig licens för teständamål.
 ### F: Var kan jag få support för Aspose.Tasks-relaterade frågor?
  S: Gå med i Aspose.Tasks-communityt på[supportforum](https://forum.aspose.com/c/tasks/15) för hjälp och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Paylaşılan Kaynak Atamalarını Okuyun
 linktitle: Aspose.Tasks'ta Paylaşılan Kaynak Atamalarını Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da paylaşılan kaynak atamalarını nasıl okuyacağınızı öğrenin. Adım adım eğitimlerle proje yönetimi verimliliğini artırın.
-type: docs
 weight: 19
 url: /tr/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Paylaşılan Kaynak Atamalarını Okuyun
+
 ## giriiş
 Proje yönetiminde, projenin başarılı bir şekilde tamamlanması için verimli kaynak tahsisi çok önemlidir. Aspose.Tasks for Java, kaynakları etkili bir şekilde yönetmek için güçlü araçlar sağlar. Önemli görevlerden biri, kaynakların birden fazla projeye nasıl tahsis edildiğini anlamanıza olanak tanıyan paylaşılan kaynak atamalarını okumaktır.
 ## Önkoşullar
@@ -58,3 +64,9 @@ Aspose.Tasks for Java kesinlikle kaynak verilerine dayalı özel raporlar oluşt
 Aspose.Tasks for Java, küçükten büyük ölçeğe kadar çeşitli boyutlardaki projeleri yönetebilir.
 ### Aspose.Tasks for Java kullanıcıları için teknik destek mevcut mu?
  Evet, Aspose.Tasks forumundan teknik destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

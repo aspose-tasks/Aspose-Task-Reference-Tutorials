@@ -3,10 +3,16 @@ title: Aspose.Tasks النص وعرض التكوين
 linktitle: Aspose.Tasks النص وعرض التكوين
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لبرامج .NET التعليمية حول تكوين النص والعرض. أنماط النص الرئيسية وضغط Tiff وطرق عرض المخطط الزمني والمزيد لتحسين إدارة المشروع.
-type: docs
 weight: 30
 url: /ar/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks النص وعرض التكوين
+
 ## مقدمة
 
 مرحبًا بك في الدليل الشامل حول Aspose.Tasks لبرامج .NET التعليمية، مع التركيز على تكوين النص والعرض. في هذه المقالة، سوف نتعمق في الجوانب المختلفة لإدارة المشروع، ونقدم رؤى خطوة بخطوة لإتقان وظائف Aspose.Tasks.
@@ -53,3 +59,9 @@ url: /ar/net/text-view-configuration/
 استكشف Aspose.Tasks لـ .NET لتكوين طبقات الجدول الزمني في طريقة عرض Gantt Chart للحصول على تصور دقيق للمخطط الزمني للمشروع.
 ### [تكوين طرق عرض الاستخدام في Aspose.Tasks](./usage-views/)
 تعرف على كيفية تكوين طرق عرض استخدام المهام في Aspose.Tasks لـ .NET. تعزيز تصور المشروع بخطوات تفصيلية. قم بتنزيل المكتبة الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

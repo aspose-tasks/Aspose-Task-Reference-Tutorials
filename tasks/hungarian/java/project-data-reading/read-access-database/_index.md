@@ -3,10 +3,16 @@ title: Projektadatok olvasása az MS Access adatbázisból az Aspose.Tasks progr
 linktitle: Projektadatok olvasása a Microsoft Access adatbázisból az Aspose.Tasks segítségével
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan olvashat ki MS Project adatokat egy Microsoft Access adatbázisból az Aspose.Tasks for Java segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/java/project-data-reading/read-access-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektadatok olvasása az MS Access adatbázisból az Aspose.Tasks programban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft Project fájlokkal Java alkalmazásokban. Ebben az oktatóanyagban az Aspose.Tasks segítségével az MS Project adatainak kiolvasására összpontosítunk egy Microsoft Access adatbázisból.
 ## Előfeltételek
@@ -60,3 +66,9 @@ V: Igen, az Aspose.Tasks különféle adatbázis-rendszereket támogat, mint pé
  V: Egyes speciális funkciókhoz ideiglenes licencre lehet szüksége. Szerezd meg onnan[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatom meg az Aspose.Tasks for Java-t?
  V: Megvásárolhatja az Aspose.Tasks for Java webhelyet[ez a link](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

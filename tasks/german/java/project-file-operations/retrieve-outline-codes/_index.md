@@ -3,10 +3,16 @@ title: Rufen Sie MS Project-Gliederungscodes in Aspose.Tasks ab
 linktitle: Gliederungscodes in Aspose.Tasks abrufen
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Microsoft Project-Gliederungscodes programmgesteuert mit Aspose.Tasks für Java abrufen. Erweitern Sie Ihre Projektmanagementfähigkeiten.
-type: docs
 weight: 15
 url: /de/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rufen Sie MS Project-Gliederungscodes in Aspose.Tasks ab
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für Java Microsoft Project-Gliederungscodes abrufen. Gliederungscodes in MS Project bieten eine strukturierte Möglichkeit, Projektaufgaben, Ressourcen und Zuweisungen zu kategorisieren und zu organisieren. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten und zu verwalten.
 ## Voraussetzungen
@@ -82,3 +88,9 @@ A: Ja, Aspose.Tasks für Java bietet APIs zum programmgesteuerten Ändern von Gl
  A: Ja, Sie können eine temporäre Lizenz für Aspose.Tasks für Java erwerben[Kaufseite](https://purchase.aspose.com/temporary-license/).
 ### F5: Wo finde ich die vollständige Dokumentation für Aspose.Tasks für Java?
  A: Sie können sich auf die beziehen[Dokumentation](https://reference.aspose.com/tasks/java/) Ausführliche Informationen zur Verwendung von Aspose.Tasks für Java finden Sie hier.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

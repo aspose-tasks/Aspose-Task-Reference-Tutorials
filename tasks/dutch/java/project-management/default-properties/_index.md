@@ -3,10 +3,16 @@ title: Beheer MS-projecteigenschappen efficiënt in Aspose.Tasks
 linktitle: Beheer standaardprojecteigenschappen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u standaard MS Project-eigenschappen beheert met Aspose.Tasks voor Java. Stroomlijn moeiteloos uw projectbeheerworkflow.
-type: docs
 weight: 11
 url: /nl/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer MS-projecteigenschappen efficiënt in Aspose.Tasks
+
 ## Invoering
 Wilt u uw projectbeheerproces stroomlijnen met Aspose.Tasks voor Java? Het beheren van standaardeigenschappen in Microsoft Project-bestanden kan de efficiëntie aanzienlijk verbeteren. In deze zelfstudie doorlopen we stapsgewijze instructies voor het beheren van standaard MS Project-eigenschappen met Aspose.Tasks.
 ## Vereisten
@@ -79,3 +85,9 @@ A3: Ja, u kunt hulp en gemeenschapsondersteuning vinden op de[Aspose.Tasks-forum
  A4: Natuurlijk! U kunt gebruikmaken van een gratis proefperiode van de[website](https://releases.aspose.com/).
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
  A5: U kunt een tijdelijke licentie verkrijgen bij de[aankooppagina](https://purchase.aspose.com/temporary-license/) voor test- en evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

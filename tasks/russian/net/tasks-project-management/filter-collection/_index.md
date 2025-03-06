@@ -3,10 +3,16 @@ title: Эффективно управляйте фильтрами проект
 linktitle: Управление коллекцией фильтров в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями фильтров MS Project с помощью Aspose.Tasks для .NET.
-type: docs
 weight: 17
 url: /ru/net/tasks-project-management/filter-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффективно управляйте фильтрами проектов MS с помощью Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим, как эффективно управлять коллекциями фильтров MS Project с помощью Aspose.Tasks для .NET. Управление фильтрами имеет решающее значение для эффективной организации и анализа данных проекта. Aspose.Tasks обеспечивает надежную функциональность для беспрепятственной обработки фильтров задач и ресурсов.
 ## Предварительные условия
@@ -102,3 +108,9 @@ foreach (var filter in filtersToDelete)
 О: Да, Aspose.Tasks предлагает обширную документацию, учебные пособия и специальный форум поддержки, помогающий разработчикам на каждом этапе реализации проекта.
 ### Вопрос: Доступна ли пробная версия для Aspose.Tasks?
 О: Да, разработчики могут получить доступ к бесплатной пробной версии Aspose.Tasks, чтобы изучить ее возможности, прежде чем принимать решение о покупке.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

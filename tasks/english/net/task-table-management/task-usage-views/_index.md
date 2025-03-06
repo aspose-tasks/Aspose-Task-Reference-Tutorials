@@ -3,10 +3,16 @@ title: Mastering Task Usage Views in Aspose.Tasks for .NET
 linktitle: Configuring Task Usage Views in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET and learn how to configure task usage views. Customize timescale settings and enhance your project management visuals.
-type: docs
 weight: 24
 url: /net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Usage Views in Aspose.Tasks for .NET
+
 ## Introduction
 In the realm of project management, visualizing task usage is pivotal for effective planning and execution. Aspose.Tasks for .NET provides a robust solution for rendering task usage views, allowing you to customize timescale settings and presentation formats. In this tutorial, we'll walk through the steps to configure task usage views using Aspose.Tasks.
 ## Prerequisites
@@ -75,3 +81,9 @@ Yes, Aspose.Tasks supports popular project file formats such as MPP, XML, and CS
 Absolutely, you can customize timescale settings for individual tasks within your project.
 ### How can I get support or seek assistance for Aspose.Tasks?
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and guidance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

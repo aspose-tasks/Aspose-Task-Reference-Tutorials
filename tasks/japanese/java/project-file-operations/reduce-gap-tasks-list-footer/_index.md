@@ -3,10 +3,16 @@ title: Aspose.Tasks のタスク リストとフッターの間のギャップ�
 linktitle: Aspose.Tasks のタスク リストとフッターの間のギャップを減らす
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して MS Project のタスク リストとフッターの間のギャップを減らす方法を学びます。プロジェクトドキュメントのレイアウトを簡単に最適化します。
-type: docs
 weight: 10
 url: /ja/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks のタスク リストとフッターの間のギャップを減らす
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して、Microsoft Project ファイルのタスク リストとフッターの間のギャップを減らす方法について詳しく説明します。これらの手順に従うことで、プロジェクト ドキュメントのレイアウトを簡単に最適化できるようになります。
 ## 前提条件
@@ -105,3 +111,9 @@ A: はい、Aspose.Tasks は、XLSX、XML、MPP などの幅広い形式をサ�
 ### Q: Aspose.Tasks の使用中に問題が発生した場合、どこでサポートを受けられますか?
 
  A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

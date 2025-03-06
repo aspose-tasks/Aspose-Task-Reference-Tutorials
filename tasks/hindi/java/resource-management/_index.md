@@ -3,10 +3,16 @@ title: संसाधन प्रबंधन
 linktitle: संसाधन प्रबंधन
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks के साथ एमएस प्रोजेक्ट में मास्टर संसाधन प्रबंधन। बनाना, पुनरावृत्त करना, लागतों का प्रबंधन करना और बहुत कुछ करना सीखें। हमारे ट्यूटोरियल के साथ विकास को अनुकूलित करें।
-type: docs
 weight: 31
 url: /hi/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# संसाधन प्रबंधन
+
 ## परिचय
 
 जावा का उपयोग करके एमएस प्रोजेक्ट विकास के क्षेत्र में, Aspose.Tasks एक मजबूत लाइब्रेरी के रूप में सामने आता है, जो प्रभावी संसाधन प्रबंधन के लिए कार्यात्मकताओं का एक व्यापक सेट पेश करता है। ट्यूटोरियल की यह श्रृंखला आपको विभिन्न पहलुओं के माध्यम से मार्गदर्शन करेगी, जिससे यह सुनिश्चित होगा कि आप Microsoft प्रोजेक्ट संसाधनों को निर्बाध रूप से संभालने में कुशल हो जाएं।
@@ -63,3 +69,9 @@ Java के लिए Aspose.Tasks का उपयोग करके MS प्
 निर्बाध एकीकरण और कुशल कार्य प्रबंधन के लिए Aspose.Tasks का उपयोग करके जावा में MS प्रोजेक्ट संसाधन गुण सेट करना सीखें।
 ### [Aspose.Tasks में अद्यतन संसाधन डेटा लिखें](./write-updated-resource-data/)
 जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों में संसाधन डेटा को आसानी से अपडेट करना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

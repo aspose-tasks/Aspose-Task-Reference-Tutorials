@@ -3,10 +3,16 @@ title: MS Project Options Primavera mentése az Aspose.Tasks segítségével
 linktitle: Aspose.Tasks Primavera mentési beállításai
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel, hogyan mentheti zökkenőmentesen az MS Project beállításait a Primaverához az Aspose.Tasks for .NET segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat.
-type: docs
 weight: 14
 url: /hu/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Options Primavera mentése az Aspose.Tasks segítségével
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Microsoft Project fájlokkal .NET-alkalmazásaikban. Az egyik legfontosabb funkció, amelyet kínál, az MS Project opciók mentése a Primaverához, egy népszerű projektmenedzsment szoftverhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan érhetjük el ezt az Aspose.Tasks használatával.
 ## Előfeltételek
@@ -59,3 +65,9 @@ V: Az Aspose.Tasks minden méretű projekten dolgozó fejlesztők igényeinek me
  V: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) jellemzőinek és képességeinek feltárására.
 ### K: Hol kaphatok támogatást, ha problémákba ütközöm vagy kérdéseim vannak az Aspose.Tasks használata során?
  V: Kérhet segítséget az Aspose.Tasks közösségtől és a támogató csapattól a webhelyen[fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

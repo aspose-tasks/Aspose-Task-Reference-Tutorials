@@ -3,10 +3,16 @@ title: Barre de style dans Aspose.Tasks
 linktitle: Barre de style dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment styliser les barres dans Aspose.Tasks pour .NET pour améliorer la visualisation du projet.
-type: docs
 weight: 19
 url: /fr/net/advanced-features/styling-bar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Barre de style dans Aspose.Tasks
+
 ## Introduction
 
 Les barres de style dans Aspose.Tasks sont un aspect essentiel de la création de plans de projet visuellement attrayants. Grâce à la flexibilité offerte par l'API Aspose.Tasks, les développeurs peuvent personnaliser divers aspects des barres, tels que la couleur, la forme et le style du texte, pour améliorer la visualisation du projet. Dans ce didacticiel, nous allons explorer comment styliser les barres à l'aide d'Aspose.Tasks pour .NET, en décomposant chaque exemple en étapes gérables.
@@ -127,3 +133,9 @@ A4 : Bien qu'Aspose.Tasks fournisse des styles de barre par défaut, les dével
 ### Q5 : Puis-je récupérer et modifier les styles de barres existants dans un projet à l'aide de l'API ?
 
 A5 : Oui, vous pouvez récupérer et modifier les styles de barres existants par programme à l'aide d'Aspose.Tasks pour l'API .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

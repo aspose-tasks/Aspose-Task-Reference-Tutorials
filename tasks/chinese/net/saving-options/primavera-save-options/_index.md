@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 保存 MS 项目选项 Primavera
 linktitle: Aspose.Tasks 的 Primavera 保存选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 无缝保存 Primavera 的 MS Project 选项。请按照我们的分步教程进行操作。
-type: docs
 weight: 14
 url: /zh/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 保存 MS 项目选项 Primavera
+
 ## 介绍
 Aspose.Tasks for .NET 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝地使用 Microsoft Project 文件。它提供的关键功能之一是能够为流行的项目管理软件 Primavera 保存 MS Project 选项。在本教程中，我们将深入研究如何使用 Aspose.Tasks 来实现这一目标。
 ## 先决条件
@@ -59,3 +65,9 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
 答：是的，您可以从以下位置下载 Aspose.Tasks 的免费试用版：[这里](https://releases.aspose.com/)探索其特性和功能。
 ### 问：如果在使用 Aspose.Tasks 时遇到问题或有疑问，我可以在哪里获得支持？
 答：您可以向 Aspose.Tasks 社区和支持团队寻求帮助[论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

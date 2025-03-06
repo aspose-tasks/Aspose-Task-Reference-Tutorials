@@ -3,10 +3,16 @@ title: Αποθηκεύστε τα αρχεία έργου MS ως πρότυπ�
 linktitle: Αποθήκευση επιλογών προτύπου για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε αρχεία Microsoft Project ως πρότυπα χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε τις ρυθμίσεις προτύπου για βελτιωμένη διαχείριση έργου.
-type: docs
 weight: 18
 url: /el/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθηκεύστε τα αρχεία έργου MS ως πρότυπα με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία αποθήκευσης ενός προτύπου χρησιμοποιώντας το Aspose.Tasks για .NET. Τα πρότυπα είναι χρήσιμα για την τυποποίηση των δομών και των ρυθμίσεων του έργου για μελλοντική χρήση. Θα δείξουμε πώς να αποθηκεύσετε ένα έργο ως πρότυπο, συντονίζοντας τις ιδιότητές του στην πορεία.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 Α: Το Aspose.Tasks για .NET έχει σχεδιαστεί κυρίως για εφαρμογές πλαισίου .NET που εκτελούνται σε πλατφόρμες Windows.
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για το Aspose.Tasks για .NET;
  Α: Ναι, μπορείτε να ζητήσετε τεχνική βοήθεια και καθοδήγηση από την κοινότητα Aspose.Tasks[φόρουμ](https://forum.aspose.com/c/tasks/15)ή επικοινωνήστε απευθείας με την ομάδα υποστήριξής τους.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

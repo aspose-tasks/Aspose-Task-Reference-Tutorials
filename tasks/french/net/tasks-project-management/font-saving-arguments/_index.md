@@ -3,10 +3,16 @@ title: Manipulation des polices dans MS Project pour Aspose.Tasks
 linktitle: Arguments d’enregistrement de polices dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à manipuler les polices dans les fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Guide étape par étape pour les développeurs.
-type: docs
 weight: 19
 url: /fr/net/tasks-project-management/font-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation des polices dans MS Project pour Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre didacticiel complet sur l'utilisation d'Aspose.Tasks pour .NET pour manipuler les polices dans les documents MS Project. Aspose.Tasks est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft Project par programme, offrant ainsi un large éventail de fonctionnalités pour des tâches telles que la lecture, l'écriture et la modification des données du projet.
 Dans ce didacticiel, nous nous concentrerons spécifiquement sur l'enregistrement des polices dans des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Nous décomposerons le processus en étapes faciles à suivre, garantissant que vous pouvez intégrer de manière transparente les fonctionnalités d'enregistrement des polices dans vos applications .NET.
@@ -72,3 +78,9 @@ Oui, Aspose.Tasks pour .NET fournit un large éventail de fonctionnalités pour 
 Oui, Aspose.Tasks pour .NET peut être utilisé dans les applications de bureau et Web développées à l'aide du framework .NET.
 ### Où puis-je trouver une assistance et des ressources supplémentaires pour Aspose.Tasks pour .NET ?
  Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir de l'aide, accédez à la documentation sur le[page de documentation](https://reference.aspose.com/tasks/net/), et explorez les didacticiels et les exemples sur le site Web Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में महत्वपूर्ण और प्रय
 linktitle: Aspose.Tasks में महत्वपूर्ण और प्रयास-संचालित कार्यों को प्रबंधित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ अपने जावा प्रोजेक्ट्स में महत्वपूर्ण और प्रयास-संचालित कार्यों को सहजता से प्रबंधित करें। लाइब्रेरी डाउनलोड करें और अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाएं।
-type: docs
 weight: 14
 url: /hi/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में महत्वपूर्ण और प्रयास-संचालित कार्यों को प्रबंधित करें
+
 परियोजना प्रबंधन की तेज़ गति वाली दुनिया में, सफल परियोजना को पूरा करने के लिए महत्वपूर्ण और प्रयास-संचालित कार्यों को कुशलतापूर्वक संभालना आवश्यक है। जावा के लिए Aspose.Tasks इन कार्यों को निर्बाध रूप से प्रबंधित करने के लिए एक मजबूत समाधान प्रदान करता है। इस ट्यूटोरियल में, हम आपकी परियोजनाओं में महत्वपूर्ण और प्रयास-संचालित कार्यों को संभालने के लिए जावा के लिए Aspose.Tasks का उपयोग करने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
 इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  आप जावा के लिए Aspose.Tasks यहां से खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

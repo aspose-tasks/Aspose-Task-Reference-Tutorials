@@ -3,10 +3,16 @@ title: Đọc thuộc tính Meta trong dự án Aspose.Tasks
 linktitle: Đọc thuộc tính Meta trong dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khai phá sức mạnh của siêu dữ liệu trong các dự án Aspose.Tasks bằng hướng dẫn toàn diện này. Tìm hiểu cách trích xuất và tận dụng các thuộc tính meta một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc thuộc tính Meta trong dự án Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án và phân tích dữ liệu, việc đi sâu vào siêu dữ liệu của các tệp dự án có thể mang lại những hiểu biết sâu sắc vô giá. Aspose.Tasks dành cho Java trình bày một bộ công cụ mạnh mẽ để điều hướng qua các thuộc tính meta này một cách dễ dàng. Hướng dẫn này đóng vai trò là hướng dẫn toàn diện để trích xuất và hiểu các thuộc tính meta trong các dự án Aspose.Tasks của bạn.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án,
  Đáp: Có, bạn có thể tìm thấy tài liệu mở rộng về Aspose.Tasks trên[trang tài liệu](https://reference.aspose.com/tasks/java/).
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
  Trả lời: Nếu có bất kỳ trợ giúp hoặc thắc mắc nào liên quan đến Aspose.Tasks, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để nhận được sự hỗ trợ tận tình từ cộng đồng và các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

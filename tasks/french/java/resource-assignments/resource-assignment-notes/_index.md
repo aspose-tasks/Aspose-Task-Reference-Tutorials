@@ -3,10 +3,16 @@ title: Gérer les notes pour les affectations de ressources dans Aspose.Tasks
 linktitle: Gérer les notes pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer les notes pour les affectations de ressources dans Aspose.Tasks pour Java. Tutoriel étape par étape pour une intégration transparente.
-type: docs
 weight: 21
 url: /fr/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les notes pour les affectations de ressources dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous aborderons la gestion des notes pour les affectations de ressources à l'aide d'Aspose.Tasks pour Java. Aspose.Tasks est une bibliothèque Java robuste conçue pour gérer efficacement les tâches de gestion de projet. Ce didacticiel vous guidera étape par étape tout au long du processus, vous permettant d'intégrer de manière transparente la gestion des notes dans les flux de travail de votre projet.
 ## Conditions préalables
@@ -76,3 +82,9 @@ Aspose.Tasks for Java est compatible avec n'importe quel IDE Java, y compris Int
 Non, une licence temporaire n'est pas requise pour la période d'essai. Vous pouvez utiliser la version d'essai sans aucune licence.
 ### Où puis-je acheter Aspose.Tasks pour Java ?
 Vous pouvez acheter Aspose.Tasks pour Java à partir de la page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

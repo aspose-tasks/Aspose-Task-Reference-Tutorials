@@ -3,10 +3,16 @@ title: Tulis Data Sumber Daya yang Diperbarui di Aspose.Tasks
 linktitle: Tulis Data Sumber Daya yang Diperbarui di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara memperbarui data sumber daya dengan mudah di file MS Project menggunakan Aspose.Tasks untuk Java.
-type: docs
 weight: 21
 url: /id/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tulis Data Sumber Daya yang Diperbarui di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda dalam memperbarui data sumber daya Microsoft Project menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah Java API canggih yang memungkinkan Anda memanipulasi file Microsoft Project tanpa memerlukan Microsoft Project untuk diinstal di sistem Anda.
 
@@ -98,3 +104,10 @@ A4: Ya, Anda dapat melakukan berbagai operasi seperti membaca, menulis, dan mema
 ### Q5: Di mana saya dapat menemukan bantuan atau dukungan tambahan untuk Aspose.Tasks?
 
  A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bantuan atau pertanyaan apa pun.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

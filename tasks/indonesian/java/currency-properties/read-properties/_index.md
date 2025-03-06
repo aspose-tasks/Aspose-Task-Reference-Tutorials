@@ -3,10 +3,16 @@ title: Baca Properti Mata Uang di Proyek Aspose.Tasks
 linktitle: Baca Properti Mata Uang di Proyek Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengekstrak informasi mata uang dari file MS Project menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah disediakan.
-type: docs
 weight: 10
 url: /id/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Properti Mata Uang di Proyek Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk Java untuk membaca properti mata uang dari file Microsoft Project. Aspose.Tasks adalah API Java yang kuat yang memungkinkan pengembang memanipulasi dokumen Microsoft Project tanpa memerlukan instalasi Microsoft Project. Dengan mengikuti langkah-langkah yang diuraikan di bawah ini, Anda akan dapat mengekstrak informasi terkait mata uang dengan mudah.
 ## Prasyarat
@@ -57,3 +63,9 @@ J: Ya, Aspose.Tasks memungkinkan Anda membaca dan mengubah properti mata uang di
  J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya dapat mencari bantuan atau dukungan untuk Aspose.Tasks?
  J: Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk bantuan atau pertanyaan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

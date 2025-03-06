@@ -3,10 +3,16 @@ title: Work with VBA Integration in Aspose.Tasks
 linktitle: Work with VBA Integration in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Enhance project management with Aspose.Tasks for Java - Unleash VBA integration for streamlined workflows. Explore now for efficient task tracking!
-type: docs
 weight: 10
 url: /java/vba-integration/work-with-vba/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Work with VBA Integration in Aspose.Tasks
+
 ## Introduction
 In the dynamic world of project management and task tracking, having a robust tool that seamlessly integrates with Visual Basic for Applications (VBA) can be a game-changer. Aspose.Tasks for Java is one such powerhouse that allows you to work with VBA integration effortlessly. In this tutorial, we'll delve into the intricacies of working with VBA integration using Aspose.Tasks for Java, exploring steps to read VBA project information, references, modules, and module attributes.
 ## Prerequisites
@@ -98,3 +104,10 @@ You can seek support on the [Aspose.Tasks forum](https://forum.aspose.com/c/task
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### Can I obtain a temporary license for Aspose.Tasks for Java?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

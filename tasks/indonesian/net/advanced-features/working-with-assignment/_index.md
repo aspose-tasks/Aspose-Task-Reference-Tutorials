@@ -3,10 +3,16 @@ title: Bekerja dengan Tugas di Aspose.Tasks
 linktitle: Bekerja dengan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola tugas proyek di .NET menggunakan Aspose.Tasks. Jelajahi kontur berbeda untuk penjadwalan sumber daya.
-type: docs
 weight: 13
 url: /id/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Tugas di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan menjelajahi cara bekerja dengan tugas di Aspose.Tasks untuk .NET. Penugasan sangat penting dalam manajemen proyek karena mereka mengalokasikan sumber daya untuk tugas, membantu dalam penjadwalan dan melacak kemajuan. Kami akan fokus pada menghasilkan data bertahap waktu penetapan sumber daya dengan berbagai kontur menggunakan Aspose.Tasks.
@@ -109,3 +115,9 @@ A4: Ya, seperti yang ditunjukkan dalam tutorial ini, Anda dapat mengatur berbaga
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.Tasks?
 
 A5: Anda dapat menemukan dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) di mana para ahli dan anggota masyarakat secara aktif terlibat dalam diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

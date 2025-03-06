@@ -3,10 +3,16 @@ title: Thu thập dự án MS của các bộ phận phân chia trong Aspose.Tas
 linktitle: Bộ sưu tập các phần phân chia trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thu thập các phần được phân tách trong MS Project bằng Aspose.Tasks for .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước.
-type: docs
 weight: 19
 url: /vi/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thu thập dự án MS của các bộ phận phân chia trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thu thập các phần được phân chia trong MS Project bằng cách sử dụng Aspose.Tasks cho .NET. Chia nhiệm vụ thành nhiều phần có thể là một khía cạnh quan trọng trong quản lý dự án và Aspose.Tasks cung cấp các phương pháp thuận tiện để xử lý việc này một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Trả lời: Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp
  Đáp: Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ về Aspose.Tasks ở đâu?
  Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15)để tìm kiếm sự hỗ trợ từ cộng đồng hoặc nhóm hỗ trợ Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

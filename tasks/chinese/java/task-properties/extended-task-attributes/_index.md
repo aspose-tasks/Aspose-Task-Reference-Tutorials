@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的扩展任务属性
 linktitle: Aspose.Tasks 中的扩展任务属性
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 中的扩展任务属性。分步指南、常见问题解答和支持。立即优化您的项目管理！
-type: docs
 weight: 16
 url: /zh/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的扩展任务属性
+
 ## 介绍
 欢迎阅读我们关于在 Aspose.Tasks for Java 中利用扩展任务属性的综合指南。 Aspose.Tasks 是一个功能强大的 Java 库，可让您无缝地处理 Microsoft Project 文档。在本教程中，我们将深入研究扩展任务属性，并演示如何利用它们来增强项目管理能力。
 ## 先决条件
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买完整版的 Aspose.Tasks for Java？
 您可以购买完整版[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

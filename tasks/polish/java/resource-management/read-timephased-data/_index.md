@@ -3,10 +3,16 @@ title: Przeczytaj dane okresowe dotyczące zasobów w Aspose.Tasks
 linktitle: Przeczytaj dane okresowe dotyczące zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak wyodrębnić dane okresowe z zasobów MS Project za pomocą Aspose.Tasks dla Java. Samouczek krok po kroku.
-type: docs
 weight: 15
 url: /pl/java/resource-management/read-timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przeczytaj dane okresowe dotyczące zasobów w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces odczytywania danych okresowych dla zasobów MS Project przy użyciu Aspose.Tasks dla Java. Ta biblioteka zapewnia zaawansowane funkcje do programowego zarządzania plikami Microsoft Project.
 ## Warunki wstępne
@@ -74,3 +80,9 @@ Absolutnie Aspose.Tasks zapewnia rozbudowane interfejsy API do tworzenia, modyfi
 Tak, Aspose.Tasks jest szeroko stosowany w środowiskach korporacyjnych ze względu na jego niezawodność i skalowalność.
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy podczas korzystania z Aspose.Tasks?
  Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o pomoc ze strony społeczności i zespołu wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

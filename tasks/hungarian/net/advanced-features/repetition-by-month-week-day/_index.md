@@ -3,10 +3,16 @@ title: Ismétlés hónaponként Hét naponként Aspose.Tasks-ban
 linktitle: Ismétlés hónaponként Hét naponként Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan állíthat be ismétléseket havi, heti és napi bontásban az Aspose.Tasks for .NET alkalmazásban az ismétlődő feladatok hatékony automatizálása érdekében.
-type: docs
 weight: 26
 url: /hu/net/advanced-features/repetition-by-month-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ismétlés hónaponként Hét naponként Aspose.Tasks-ban
+
 ## Bevezetés
 
 A szoftverfejlesztés területén, különösen a projektmenedzsment alkalmazásokban, az ismétlődő feladatok hatékony kezelésének képessége a legfontosabb. Az Aspose.Tasks for .NET egy hatékony könyvtár, amelyet arra terveztek, hogy egyszerűsítse a projektfeladatok létrehozását és kezelését, beleértve az ismétlődő feladatokat is. Az Aspose.Tasks által biztosított egyik ilyen funkció az ismétlések havi, heti és napi bontásának lehetősége, biztosítva, hogy a feladatokat manuális beavatkozás nélkül, ütemezetten hajtsák végre.
@@ -112,3 +118,9 @@ Végül elmentjük a módosított projektfájlt a hozzáadott ismétlődő felad
 ###Q5: Hol találom az Aspose.Tasks for .NET átfogó dokumentációját?
 
  V5: Olvassa el a részleteset[dokumentáció](https://reference.aspose.com/tasks/net/) elérhető az Aspose honlapján, ahol részletes útmutatást talál a könyvtár használatáról.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

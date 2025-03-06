@@ -3,10 +3,16 @@ title: Sesuaikan Pengaturan Tampilan Halaman Proyek MS di Aspose.Tasks
 linktitle: Mengonfigurasi Pengaturan Tampilan Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan tampilan halaman di Aspose.Tasks untuk .NET untuk menyesuaikan format pencetakan dokumen Microsoft Project Anda.
-type: docs
 weight: 21
 url: /id/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Pengaturan Tampilan Halaman Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project adalah alat yang ampuh untuk manajemen proyek, namun terkadang Anda perlu menyesuaikan cara proyek Anda dilihat dan dicetak. Dengan Aspose.Tasks untuk .NET, Anda dapat dengan mudah mengonfigurasi pengaturan tampilan halaman untuk memenuhi kebutuhan spesifik Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
 ## Prasyarat
@@ -76,3 +82,9 @@ J: Ya, Anda dapat menyesuaikan pengaturan tampilan halaman secara independen unt
 J: Aspose.Tasks menawarkan kompatibilitas dengan Microsoft Project 2003 dan versi yang lebih baru.
 ### T: Di mana saya dapat menemukan bantuan atau dukungan lebih lanjut untuk Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau masalah apa pun yang Anda temui selama penggunaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

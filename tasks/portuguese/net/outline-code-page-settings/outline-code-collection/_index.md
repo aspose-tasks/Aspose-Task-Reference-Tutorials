@@ -3,10 +3,16 @@ title: Coleção MS Project de códigos de contorno em Aspose.Tasks
 linktitle: Coleção de códigos de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como coletar códigos de estrutura de tópicos do Microsoft Project usando Aspose.Tasks for .NET. Este tutorial abrangente fornece instruções passo a passo.
-type: docs
 weight: 11
 url: /pt/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção MS Project de códigos de contorno em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, exploraremos como coletar códigos de estrutura de tópicos do Microsoft Project usando Aspose.Tasks for .NET. Dividiremos o processo em instruções passo a passo para garantir clareza e compreensão.
 ## Pré-requisitos
@@ -95,3 +101,9 @@ R: Sim, Aspose.Tasks for .NET oferece suporte a várias versões do Microsoft Pr
 R: Com certeza, Aspose.Tasks for .NET oferece amplas opções para personalizar o formato de saída de acordo com suas necessidades.
 ### P: Onde posso encontrar suporte ou recursos adicionais para Aspose.Tasks for .NET?
  R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvida sobre Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

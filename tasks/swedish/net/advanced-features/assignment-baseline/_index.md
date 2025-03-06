@@ -3,10 +3,16 @@ title: Hantera Assignment Baseline i Aspose.Tasks
 linktitle: Hantera Assignment Baseline i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar uppdragsbaslinjer effektivt med Aspose.Tasks för .NET, vilket säkerställer korrekt spårning av projektets framsteg och prestanda.
-type: docs
 weight: 14
 url: /sv/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera Assignment Baseline i Aspose.Tasks
+
 ## Introduktion
 
 När du arbetar med projektledningsuppgifter är hantering av uppdragets baslinjer avgörande för att spåra framstegen korrekt. Aspose.Tasks för .NET tillhandahåller en omfattande uppsättning verktyg för att hantera uppdragsbaslinjer effektivt. I den här handledningen kommer vi att fördjupa oss i processen att hantera uppdragsbaslinjer steg för steg.
@@ -123,3 +129,9 @@ S4: Ja, utvecklare kan få tillgång till omfattande dokumentation, handledninga
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
  S5: Ja, utvecklare kan få en gratis testversion av Aspose.Tasks för .NET från[här](https://releases.aspose.com/), så att de kan utvärdera dess funktioner och möjligheter innan de fattar ett köpbeslut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

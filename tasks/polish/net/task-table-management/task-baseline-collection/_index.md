@@ -3,10 +3,16 @@ title: Zbiór linii bazowych zadań w Aspose.Tasks
 linktitle: Zbiór linii bazowych zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Przeglądaj linie bazowe zadań bez wysiłku dzięki Aspose.Tasks dla .NET. Efektywne zarządzanie projektami stało się proste. Pobierz teraz! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /pl/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór linii bazowych zadań w Aspose.Tasks
+
 ## Wstęp
 Witamy w świecie Aspose.Tasks dla .NET, potężnej biblioteki, która ułatwia płynną manipulację i zarządzanie zadaniami projektowymi. W tym samouczku zagłębimy się w fascynującą dziedzinę planów bazowych zadań – kluczowego aspektu planowania i śledzenia projektu. Pod koniec tego przewodnika opanujesz sztukę pracy ze zbiorami planu bazowego zadań, co umożliwi Ci zwiększenie możliwości zarządzania projektami.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Odp.: Aspose.Tasks dla .NET nie narzuca ścisłych ograniczeń liczby zadań, za
 Odp.: Absolutnie! Masz pełną kontrolę nad formatowaniem podczas drukowania szczegółów linii bazowych, dzięki czemu możesz dostosować je do swoich konkretnych wymagań.
 ### P: Gdzie mogę szukać pomocy, jeśli napotkam problemy lub mam dodatkowe pytania?
  O: Odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za oddane wsparcie i pomoc społeczną.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

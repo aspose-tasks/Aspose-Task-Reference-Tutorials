@@ -3,10 +3,16 @@ title: Avslöjar Task Usage View Fields i Aspose.Tasks
 linktitle: Samling av fält för uppgiftsanvändning i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska Aspose.Tasks för .NET för att enkelt hantera och visualisera projektdata. Dyk in i Task Usage View Fields för förbättrade projektinsikter.
-type: docs
 weight: 25
 url: /sv/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Avslöjar Task Usage View Fields i Aspose.Tasks
+
 ## Introduktion
 Inom projektledningsområdet står Aspose.Tasks för .NET som en robust lösning som ger utvecklare en kraftfull verktygslåda för att manipulera och hantera projektdata. En av de anmärkningsvärda funktionerna är Task Usage View, som erbjuder insikter i olika områden som förbättrar projektets synlighet. I den här handledningen kommer vi att fördjupa oss i krångligheterna i Task Usage View Fields med hjälp av Aspose.Tasks för .NET, och dela upp varje steg för en heltäckande förståelse.
 ## Förutsättningar
@@ -64,3 +70,9 @@ Aspose.Tasks fokuserar främst på .NET-applikationer. Du kan dock exportera dat
  Ja, du kan skaffa tillfälliga licenser[här](https://purchase.aspose.com/temporary-license/) för kortvarig användning.
 ### Vilka filformat stöds för projektdokument?
 Aspose.Tasks för .NET stöder olika format, inklusive MPP, XML och CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

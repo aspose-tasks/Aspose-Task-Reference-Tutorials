@@ -3,10 +3,16 @@ title: Manajemen Lisensi Aspose.Tasks
 linktitle: Manajemen Lisensi Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Buka kekuatan Aspose.Tasks untuk .NET dengan tutorial komprehensif kami. Kelola lisensi dan optimalkan penggunaan MS Project untuk manajemen proyek yang efisien.
-type: docs
 weight: 36
 url: /id/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Lisensi Aspose.Tasks
+
 
 ## Perkenalan
 
@@ -35,3 +41,9 @@ Siap untuk meningkatkan keterampilan Aspose.Tasks Anda? Selami tutorial kami dan
 Pelajari cara mengelola lisensi Aspose.Tasks di aplikasi .NET dengan lancar menggunakan pendekatan berbasis file atau berbasis aliran.
 ### [Mengukur Penggunaan di Aspose.Tasks](./metering-usage/)
 Pelajari cara memantau dan mengoptimalkan penggunaan Proyek MS Anda secara efektif dengan Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk manajemen proyek yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

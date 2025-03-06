@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET'te Adım Adım WBS Kodu Yapılandırması
 linktitle: Aspose.Tasks'ta WBS Kod Maskelerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks'ı kullanarak .NET projelerinde adım adım WBS Kod Maskeleri yapılandırmasını keşfedin. Proje yönetimi yeteneklerini zahmetsizce geliştirin.
-type: docs
 weight: 14
 url: /tr/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET'te Adım Adım WBS Kodu Yapılandırması
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarındaki proje yönetimi verilerini verimli bir şekilde yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Tasks'ı kullanarak İş Kırılım Yapısı (WBS) Kod Maskelerini yapılandırma sürecini inceleyeceğiz.
 ## Önkoşullar
@@ -91,3 +97,9 @@ Bu eğitimde, Aspose.Tasks for .NET'i kullanarak WBS Kod Maskelerini yapılandı
  Evet, kapsamlı belgeler mevcut[Burada](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks'ı nereden satın alabilirim?
  Aspose.Tasks'ı satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

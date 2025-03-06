@@ -3,10 +3,16 @@ title: Чтение данных определения группы в Aspose.T
 linktitle: Чтение данных определения группы в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как читать данные определения группы из файлов Microsoft Project с помощью Aspose.Tasks для Java. Следуйте нашему пошаговому руководству.
-type: docs
 weight: 10
 url: /ru/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение данных определения группы в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for Java — это мощная библиотека, которая позволяет разработчикам с легкостью манипулировать файлами Microsoft Project. В этом руководстве мы шаг за шагом рассмотрим процесс чтения данных определения группы из файла проекта с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -79,3 +85,9 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 О: Да, Aspose.Tasks for Java позволяет экспортировать данные проекта в такие форматы, как PDF, XLSX и CSV.
 ### Вопрос: Где я могу найти дополнительные ресурсы и поддержку Aspose.Tasks для Java?
  О: Вы можете посетить[Документация Aspose.Tasks для Java](https://reference.aspose.com/tasks/java/) подробные руководства и обратитесь к[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

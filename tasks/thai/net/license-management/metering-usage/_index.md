@@ -3,10 +3,16 @@ title: การวัดการใช้งานโครงการ MS ด
 linktitle: การใช้การวัดแสงใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีการตรวจสอบและเพิ่มประสิทธิภาพการใช้งาน MS Project ของคุณด้วย Aspose.Tasks for .NET ได้อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนเพื่อการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 17
 url: /th/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การวัดการใช้งานโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 คุณต้องการจัดการและตรวจสอบการใช้งาน MS Project ของคุณด้วย Aspose.Tasks อย่างมีประสิทธิภาพหรือไม่? ด้วยพลังของการวัด คุณสามารถติดตามการใช้งานและเพิ่มประสิทธิภาพการจัดการโครงการของคุณได้ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการวัดการใช้งาน MS Project ทีละขั้นตอนโดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -77,3 +83,9 @@ metered.ResetMeteredKey();
 ตอบ: ได้ คุณสามารถติดตามการใช้งานแบบเรียลไทม์ได้โดยตรวจสอบเครดิตที่ใช้ไปและจำนวนไบต์ที่ใช้ไปเป็นระยะๆ
 ### ถาม: การใช้งาน Metering MS Project มีให้ใช้งานในเวอร์ชันทดลองใช้งานหรือไม่
 ตอบ: ได้ การใช้งานการวัดปริมาณการใช้งาน MS Project มีให้บริการใน Aspose.Tasks สำหรับ .NET เวอร์ชันทดลองและเวอร์ชันลิขสิทธิ์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

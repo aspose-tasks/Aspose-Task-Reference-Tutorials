@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 목록과 바닥글 사이의 간격 줄이기
 linktitle: Aspose.Tasks에서 작업 목록과 바닥글 사이의 간격 줄이기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 작업 목록과 바닥글 사이의 간격을 줄이는 방법을 알아보세요. 프로젝트 문서 레이아웃을 손쉽게 최적화하세요.
-type: docs
 weight: 10
 url: /ko/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 목록과 바닥글 사이의 간격 줄이기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 Microsoft Project 파일에서 작업 목록과 바닥글 사이의 간격을 줄이는 방법을 살펴보겠습니다. 다음 단계를 따르면 프로젝트 문서의 레이아웃을 쉽게 최적화할 수 있습니다.
 ## 전제조건
@@ -105,3 +111,9 @@ A: 예, Aspose.Tasks는 XLSX, XML, MPP 등 다양한 형식을 지원합니다.
 ### Q: Aspose.Tasks를 사용하는 동안 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
  A: Aspose.Tasks 커뮤니티 포럼에서 도움을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

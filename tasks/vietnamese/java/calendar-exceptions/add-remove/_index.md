@@ -3,10 +3,16 @@ title: Quản lý ngoại lệ lịch trong Aspose.Tasks
 linktitle: Thêm và xóa ngoại lệ lịch trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách thêm và xóa ngoại lệ lịch trong Aspose.Tasks cho Java một cách hiệu quả. Tăng cường quy trình quản lý dự án một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý ngoại lệ lịch trong Aspose.Tasks
+
 
 ## Giới thiệu
 Trong quản lý dự án, việc xử lý các trường hợp ngoại lệ trong lịch là rất quan trọng để lập kế hoạch chính xác cho các nhiệm vụ và quản lý tài nguyên. Aspose.Tasks cho Java cung cấp các chức năng mạnh mẽ để thêm và xóa các ngoại lệ lịch một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -79,3 +85,10 @@ Trả lời: Aspose.Tasks dành cho Java cung cấp các tính năng mạnh mẽ
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ ở đâu cho bất kỳ vấn đề hoặc thắc mắc nào liên quan đến Aspose.Tasks cho Java?
 
  Đáp: Bạn có thể truy cập diễn đàn Aspose.Tasks dành cho Java trên[trang mạng](https://reference.aspose.com/tasks/java/) để tìm kiếm sự trợ giúp từ cộng đồng hoặc liên hệ trực tiếp với nhóm hỗ trợ để được trợ giúp cá nhân.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

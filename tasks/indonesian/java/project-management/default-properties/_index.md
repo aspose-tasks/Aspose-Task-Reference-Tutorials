@@ -3,10 +3,16 @@ title: Kelola Properti Proyek MS secara Efisien di Aspose.Tasks
 linktitle: Kelola Properti Proyek Default di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola properti MS Project default menggunakan Aspose.Tasks untuk Java. Sederhanakan alur kerja manajemen proyek Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Properti Proyek MS secara Efisien di Aspose.Tasks
+
 ## Perkenalan
 Apakah Anda ingin menyederhanakan proses manajemen proyek Anda dengan Aspose.Tasks untuk Java? Mengelola properti default di file Microsoft Project dapat meningkatkan efisiensi secara signifikan. Dalam tutorial ini, kita akan memandu petunjuk langkah demi langkah tentang cara mengelola properti default MS Project menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -79,3 +85,9 @@ A3: Ya, Anda dapat menemukan bantuan dan dukungan komunitas di[Forum Aspose.Tuga
  A4: Tentu saja! Anda dapat memanfaatkan uji coba gratis dari[situs web](https://releases.aspose.com/).
 ### Q5: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  A5: Anda bisa mendapatkan lisensi sementara dari[halaman pembelian](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

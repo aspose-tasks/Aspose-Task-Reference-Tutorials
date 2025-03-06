@@ -3,10 +3,16 @@ title: Monitorare gli straordinari, i costi rimanenti e il lavoro in Aspose.Task
 linktitle: Monitorare gli straordinari, i costi rimanenti e il lavoro in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come monitorare gli straordinari, i costi rimanenti e lavorare su progetti Java utilizzando Aspose.Tasks. Semplici passaggi per una gestione efficace del progetto.
-type: docs
 weight: 18
 url: /it/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Monitorare gli straordinari, i costi rimanenti e il lavoro in Aspose.Tasks
+
 ## introduzione
 In questo tutorial impareremo come utilizzare Aspose.Tasks per Java per monitorare gli straordinari, i costi rimanenti e lavorare in un progetto. Questo può essere prezioso per i project manager e i responsabili dei team per garantire che i progetti rimangano nei tempi previsti e nel rispetto del budget.
 ## Prerequisiti
@@ -73,3 +79,9 @@ Sì, Aspose.Tasks supporta vari formati di file di progetto tra cui MPP, XML e a
  È possibile visitare il forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15) per supporto.
 ### Come posso acquistare una licenza per Aspose.Tasks?
  Puoi acquistare una licenza da[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

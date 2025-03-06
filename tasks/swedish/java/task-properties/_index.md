@@ -3,10 +3,16 @@ title: Uppgiftsegenskaper
 linktitle: Uppgiftsegenskaper
 second_title: Aspose.Tasks Java API
 description: Förbättra Java-projekthantering med Aspose.Tasks. Utforska självstudier om uppgiftsegenskaper, från att hantera prioriteringar till att hantera kostnader. Optimera ditt projekt idag!
-type: docs
 weight: 34
 url: /sv/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppgiftsegenskaper
+
 ## Introduktion
 
 Hantera och anpassa Microsoft Project-filer enkelt i Java med Aspose.Tasks. Utforska självstudier som täcker olika aspekter av uppgiftsegenskaper för att förbättra dina projektledningsmöjligheter.
@@ -138,3 +144,9 @@ Utforska Aspose.Tasks för Java och behärska tidsfasad datahantering. Ladda ner
 Lär dig hur du uppdaterar uppgiftsdata till MPP-format med Aspose.Tasks för Java. Följ vår steg-för-steg-guide för effektiv projektledning.
 ### [WBS associerad med uppgift i Aspose.Tasks](./wbs-associated-with-task/)
 Bemästra WBS med Aspose.Tasks för Java - Lär dig att läsa och numrera om uppgifts WBS-koder. Öka effektiviteten i projektledningen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

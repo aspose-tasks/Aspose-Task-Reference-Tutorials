@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的計算類型
 linktitle: Aspose.Tasks 中的計算類型
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 庫中的計算類型在 .NET 專案中自訂值計算。
-type: docs
 weight: 30
 url: /zh-hant/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的計算類型
+
 ## 介紹
 
 在本教程中，我們將探索 Aspose.Tasks for .NET 中的計算類型功能。 Aspose.Tasks 是一個功能強大的程式庫，可讓 .NET 開發人員使用 Microsoft Project 文件，而無需在其係統上安裝 Microsoft Project。計算類型可讓我們定義如何計算專案中任務和摘要任務的值。
@@ -97,3 +103,9 @@ A4：是的，Aspose.Tasks 提供了各種 Rollup 類型，例如 Average、Sum 
 ### Q5：在哪裡可以找到更多關於 Aspose.Tasks for .NET 的資源？
 
  A5：您可以瀏覽以下網站上提供的文件和社群支援論壇：[適用於 .NET 的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)以獲得全面的指導和幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS Project PDF 加密詳細信息
 linktitle: 在 Aspose.Tasks 中配置 PDF 加密詳細信息
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中設定 MS Project PDF 加密詳細資訊。使用使用者和所有者密碼保護您的專案文件。
-type: docs
 weight: 11
 url: /zh-hant/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS Project PDF 加密詳細信息
+
 ## 介紹
 在 .NET 開發領域，有效管理任務至關重要。 Aspose.Tasks for .NET 透過提供一整套用於處理 Microsoft Project 檔案的工具來簡化此過程。任務管理的一個重要面向是確保敏感專案資訊的安全。在本教程中，我們將深入研究使用 Aspose.Tasks for .NET 配置 MS Project PDF 加密詳細資訊。
 ## 先決條件
@@ -68,3 +74,9 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 答：雖然 Aspose.Tasks 沒有施加任何特定限制，但建議使用強密碼以增強安全性。
 ### Q：加密的 PDF 可以透過程式解密嗎？
 答：Aspose.Tasks 提供了處理加密 PDF 的 API，允許使用適當的憑證進行解密。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

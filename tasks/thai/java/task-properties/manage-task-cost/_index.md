@@ -3,10 +3,16 @@ title: จัดการต้นทุนงานใน Aspose.Tasks
 linktitle: จัดการต้นทุนงานใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีจัดการต้นทุนงานในแอปพลิเคชัน Java โดยใช้ Aspose.Tasks ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการต้นทุนโครงการอย่างมีประสิทธิภาพ
-type: docs
 weight: 21
 url: /th/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการต้นทุนงานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกของ Aspose.Tasks สำหรับ Java ไลบรารีอันทรงพลังที่ช่วยให้คุณจัดการต้นทุนงานภายในแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจวิธีการใช้ Aspose.Tasks อย่างมีประสิทธิภาพเพื่อจัดการต้นทุนงาน เพื่อให้มั่นใจว่าการจัดการโครงการมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +72,9 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
  ตอบ: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  ตอบ: เยี่ยมชมฟอรั่มการสนับสนุน[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

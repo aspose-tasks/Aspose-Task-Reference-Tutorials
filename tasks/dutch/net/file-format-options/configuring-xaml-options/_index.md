@@ -3,10 +3,16 @@ title: Configureer MS Project XAML-opties met Aspose.Tasks voor .NET
 linktitle: XAML-opties configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project XAML-opties configureert in Aspose.Tasks voor .NET. Verbeter de flexibiliteit en het maatwerk van projectbeheer met stapsgewijze begeleiding.
-type: docs
 weight: 10
 url: /nl/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configureer MS Project XAML-opties met Aspose.Tasks voor .NET
+
 ## Invoering
 In de wereld van .NET-ontwikkeling is het efficiënt beheren van projecttaken cruciaal voor een succesvolle projectafronding. Aspose.Tasks voor .NET biedt een krachtige oplossing voor het naadloos afhandelen van projectbeheertaken. In deze zelfstudie gaan we dieper in op het configureren van MS Project XAML-opties met behulp van Aspose.Tasks voor .NET. 
 ## Vereisten
@@ -68,3 +74,9 @@ A: Ja, Aspose.Tasks voor .NET ondersteunt integratie met verschillende projectma
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?
 
  A: U kunt Aspose.Tasks voor .NET kopen bij[deze link](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

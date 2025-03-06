@@ -3,10 +3,16 @@ title: 자원 관리
 linktitle: 자원 관리
 second_title: Aspose.Tasks 자바 API
 description: Java용 Aspose.Tasks를 사용하여 MS 프로젝트의 마스터 리소스 관리. 비용을 생성, 반복, 관리하는 방법 등을 알아보세요. 튜토리얼을 통해 개발을 최적화하세요.
-type: docs
 weight: 31
 url: /ko/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 자원 관리
+
 ## 소개
 
 Java를 사용하는 MS 프로젝트 개발 영역에서 Aspose.Tasks는 효과적인 리소스 관리를 위한 포괄적인 기능 세트를 제공하는 강력한 라이브러리로 돋보입니다. 이 튜토리얼 시리즈는 다양한 측면을 안내하여 Microsoft Project 리소스를 원활하게 처리하는 데 능숙해지게 해줍니다.
@@ -63,3 +69,9 @@ Aspose.Tasks for Java를 사용하여 MS Project 자원 비용을 효율적으�
 원활한 통합과 효율적인 작업 관리를 위해 Aspose.Tasks를 사용하여 Java에서 MS 프로젝트 리소스 속성을 설정하는 방법을 알아보세요.
 ### [Aspose.Tasks에 업데이트된 리소스 데이터 쓰기](./write-updated-resource-data/)
 Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일의 리소스 데이터를 손쉽게 업데이트하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

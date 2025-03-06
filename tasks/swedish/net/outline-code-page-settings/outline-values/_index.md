@@ -3,10 +3,16 @@ title: Bemästra MS Project Outline Values med Aspose.Tasks
 linktitle: Hantera dispositionsvärden i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Projects dispositionsvärden effektivt med Aspose.Tasks för .NET. Anpassa projektkonturer med lätthet.
-type: docs
 weight: 16
 url: /sv/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra MS Project Outline Values med Aspose.Tasks
+
 ## Introduktion
 I den här självstudien kommer vi att utforska hur man hanterar Microsoft Project-konturvärden med Aspose.Tasks-biblioteket för .NET. Med Aspose.Tasks kan du enkelt manipulera dispositionskoder, skapa nya dispositionsvärden och anpassa projektkonturer efter dina krav.
 ## Förutsättningar
@@ -76,3 +82,9 @@ S: Ja, Aspose.Tasks är kompatibelt med olika .NET-ramverk, vilket säkerställe
 S: Ja, du kan köpa en tillfällig licens för Aspose.Tasks från[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag hitta detaljerad dokumentation för Aspose.Tasks?
  S: Du kan hänvisa till den omfattande dokumentationen som finns tillgänglig[här](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

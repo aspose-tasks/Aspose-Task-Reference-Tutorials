@@ -3,10 +3,16 @@ title: Arbeta med Baseline Collection i Aspose.Tasks
 linktitle: Arbeta med Baseline Collection i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar baslinjer i Aspose.Tasks för .NET effektivt. Följ vår omfattande handledning för steg-för-steg-vägledning.
-type: docs
 weight: 20
 url: /sv/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med Baseline Collection i Aspose.Tasks
+
 ## Introduktion
 
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft Project-filer i sina .NET-applikationer sömlöst. Bland dess många funktioner ger det robust stöd för att hantera baslinjer inom projekt. Baslinjer är viktiga för projektledning eftersom de låter dig jämföra den ursprungliga projektplanen med den aktuella statusen, vilket möjliggör bättre spårning och analys av projektets framsteg.
@@ -116,3 +122,9 @@ S4: Ja, Aspose.Tasks tillhandahåller stöd för integration med populära molnp
 ### F5: Finns det ett communityforum för Aspose.Tasks-användare att söka hjälp och dela kunskap?
 
  A5: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att engagera sig i samhället och få hjälp av experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

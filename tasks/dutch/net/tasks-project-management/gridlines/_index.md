@@ -3,10 +3,16 @@ title: Pas rasterlijnen aan in MS Project voor Aspose.Tasks
 linktitle: Rasterlijnen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u rasterlijnen in MS Project kunt aanpassen met Aspose.Tasks voor .NET. Verbeter uw projectvisualisatie en -beheer met eenvoudig te volgen stappen.
-type: docs
 weight: 23
 url: /nl/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas rasterlijnen aan in MS Project voor Aspose.Tasks
+
 ## Invoering
 
 Bij projectmanagement speelt visuele representatie een cruciale rol bij het begrijpen van projecttijdlijnen, afhankelijkheden en voortgang. Aspose.Tasks voor .NET biedt robuuste tools om projectbestanden programmatisch te manipuleren. Eén zo'n functie is de mogelijkheid om rasterlijnen in MS Project aan te passen met behulp van Aspose.Tasks.
@@ -113,3 +119,9 @@ A: Ja, Aspose.Tasks voor .NET biedt uitgebreide documentatie en ondersteuning vo
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
  A: Ja, u kunt een gratis proefversie downloaden van[Aspose.Tasks voor .NET van](https://forum.aspose.com/c/tasks/15). om de functies ervan te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

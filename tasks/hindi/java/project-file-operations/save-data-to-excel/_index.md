@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट डेटा को
 linktitle: Aspose.Tasks में डेटा को Excel में सहेजें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट डेटा को Excel फ़ाइलों में सहेजना सीखें। जावा डेवलपर्स के लिए आसान एकीकरण।
-type: docs
 weight: 19
 url: /hi/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट डेटा को Excel में सहेजें
+
 ## परिचय
 जावा के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको प्रोजेक्ट फ़ाइल से एक्सेल फ़ाइल में डेटा को चरण दर चरण सहेजने की प्रक्रिया के बारे में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -52,3 +58,9 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
  आप Aspose.Tasks फोरम पर जाकर समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### क्या मैं जावा के लिए Aspose.Tasks के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
  हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tampilan Aspose.Tasks dan Konfigurasi Kode WBS
 linktitle: Tampilan Aspose.Tasks dan Konfigurasi Kode WBS
 second_title: Aspose.Tugas .NET API
 description: Kuasai Aspose.Tasks untuk tampilan .NET dan kode WBS. Sesuaikan manajemen proyek dengan tutorial langkah demi langkah kami. Unduh sekarang untuk visualisasi proyek yang lancar.
-type: docs
 weight: 32
 url: /id/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tampilan Aspose.Tasks dan Konfigurasi Kode WBS
+
 
 ## Perkenalan
 
@@ -56,3 +62,9 @@ Jelajahi konfigurasi Masker Kode WBS langkah demi langkah di proyek .NET menggun
 Tingkatkan manajemen proyek dengan Aspose.Tasks untuk .NET. Pelajari cara membuat, mengelola, dan mentransfer Masker Kode WBS dengan mudah dalam tutorial komprehensif ini.
 ### [Mendefinisikan Urutan WBS di Aspose.Tasks](./wbs-sequences/)
 Berdayakan manajemen proyek Anda dengan Aspose.Tasks untuk .NET – tentukan urutan WBS dengan lancar dan tingkatkan efisiensi dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

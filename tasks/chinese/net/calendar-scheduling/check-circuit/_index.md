@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中检查电路
 linktitle: 在Aspose.Tasks中检查电路
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效管理和分析 C# 中的项目文件。
-type: docs
 weight: 14
 url: /zh/net/calendar-scheduling/check-circuit/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中检查电路
+
 ## 介绍
 
 在 .NET 开发领域，有效管理任务和项目至关重要。 Aspose.Tasks for .NET 是一个功能强大的库，为开发人员提供了简化项目管理流程所需的工具。无论您是创建、阅读还是操作 Microsoft Project 文件，Aspose.Tasks 都可以通过其直观的 API 和全面的功能简化任务。
@@ -79,3 +85,9 @@ A1：是的，Aspose.Tasks for .NET 与各种 .NET 框架兼容，包括 .NET Co
 ### Q5：哪里可以购买 Aspose.Tasks for .NET？
 
  A5：您可以从以下位置购买完整版的 Aspose.Tasks for .NET[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

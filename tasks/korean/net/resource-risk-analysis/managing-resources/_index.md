@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 리소스를 손쉽게 관�
 linktitle: Aspose.Tasks에서 리소스 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project 리소스 컬렉션을 손쉽게 관리하는 방법을 알아보세요. 생산성을 높이고 프로젝트 워크플로우를 간소화하세요.
-type: docs
 weight: 10
 url: /ko/net/resource-risk-analysis/managing-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 리소스를 손쉽게 관리하세요.
+
 ## 소개
 자원을 효율적으로 관리하는 것은 프로젝트 관리, 특히 복잡한 일정과 작업 할당을 처리할 때 매우 중요합니다. Aspose.Tasks for .NET은 Microsoft Project 리소스 컬렉션을 원활하게 처리할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 MS Project 리소스 컬렉션을 관리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -62,3 +68,9 @@ A: 물론, Aspose.Tasks for .NET은 가용성, 비용 등을 포함하여 프로
 A: 예, Aspose.Tasks for .NET은 MPP, PDF, XLSX, HTML 등 다양한 형식으로 프로젝트 데이터 내보내기를 지원합니다.
 ### Q: Aspose.Tasks for .NET에 대한 추가 지원은 어디서 찾을 수 있나요?
  A: 추가 지원이 필요하면 다음 사이트를 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 또는[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose에서 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

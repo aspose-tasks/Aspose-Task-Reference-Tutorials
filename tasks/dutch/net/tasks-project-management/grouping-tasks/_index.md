@@ -3,10 +3,16 @@ title: Efficiënte MS-projecttaakgroepering met Aspose.Tasks
 linktitle: Taken groeperen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-taken effectief kunt groeperen met Aspose.Tasks voor .NET.
-type: docs
 weight: 25
 url: /nl/net/tasks-project-management/grouping-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efficiënte MS-projecttaakgroepering met Aspose.Tasks
+
 ## Invoering
 Het beheren van taken in Microsoft Project kan soms een uitdaging zijn, vooral als het gaat om het efficiënt organiseren ervan. Aspose.Tasks voor .NET biedt hiervoor een totaaloplossing door functionaliteiten te bieden om taken effectief te groeperen. In deze zelfstudie onderzoeken we hoe u MS Project-taken kunt groeperen met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -84,3 +90,9 @@ Ja, Aspose.Tasks ondersteunt verschillende versies van MS Project-bestanden, waa
 Absoluut, Aspose.Tasks biedt opties om het uiterlijk van gegroepeerde taken aan te passen, inclusief celkleuren, lettertypen en stijlen.
 ### Waar kan ik ondersteuning vinden voor Aspose.Tasks voor .NET?
  Ondersteuning en assistentie voor Aspose.Tasks voor .NET vindt u in de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

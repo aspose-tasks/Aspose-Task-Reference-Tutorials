@@ -3,10 +3,16 @@ title: Aspose.Tasks Licentiebeheer
 linktitle: Aspose.Tasks Licentiebeheer
 second_title: Aspose.Tasks .NET API
 description: Ontgrendel de kracht van Aspose.Tasks voor .NET met onze uitgebreide tutorials. Beheer licenties en optimaliseer het gebruik van MS Project voor efficiënt projectbeheer.
-type: docs
 weight: 36
 url: /nl/net/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Licentiebeheer
+
 
 ## Invoering
 
@@ -35,3 +41,9 @@ Klaar om je Aspose.Tasks-vaardigheden te verbeteren? Duik in onze tutorials en o
 Leer hoe u Aspose.Tasks-licenties in .NET-applicaties naadloos kunt beheren met behulp van op bestanden of streams gebaseerde benaderingen.
 ### [Gebruik meten in Aspose.Tasks](./metering-usage/)
 Leer hoe u uw MS Project-gebruik effectief kunt monitoren en optimaliseren met Aspose.Tasks voor .NET. Stap-voor-stap handleiding voor efficiënt projectmanagement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

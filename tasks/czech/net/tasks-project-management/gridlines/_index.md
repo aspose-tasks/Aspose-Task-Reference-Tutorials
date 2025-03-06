@@ -3,10 +3,16 @@ title: Přizpůsobte mřížku v MS Project pro Aspose.Tasks
 linktitle: Mřížka v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak přizpůsobit mřížku v MS Project pomocí Aspose.Tasks pro .NET. Vylepšete vizualizaci a správu svého projektu pomocí snadno pochopitelných kroků.
-type: docs
 weight: 23
 url: /cs/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte mřížku v MS Project pro Aspose.Tasks
+
 ## Úvod
 
 V projektovém řízení hraje vizuální reprezentace klíčovou roli při pochopení časových linií projektu, závislostí a průběhu. Aspose.Tasks for .NET poskytuje robustní nástroje pro programovou manipulaci se soubory projektu. Jednou z takových funkcí je možnost přizpůsobení mřížky v MS Project pomocí Aspose.Tasks.
@@ -113,3 +119,9 @@ Odpověď: Ano, Aspose.Tasks for .NET nabízí rozsáhlou dokumentaci a podporu 
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi[Aspose.Tasks pro .NET od](https://forum.aspose.com/c/tasks/15). k prozkoumání jeho funkcí před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

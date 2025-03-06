@@ -3,10 +3,16 @@ title: 讀取 Aspose.Tasks 專案中的元屬性
 linktitle: 讀取 Aspose.Tasks 專案中的元屬性
 second_title: Aspose.Tasks Java API
 description: 透過這個綜合教程釋放 Aspose.Tasks 專案中元資料的力量。學習輕鬆提取和利用元屬性。
-type: docs
 weight: 10
 url: /zh-hant/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 讀取 Aspose.Tasks 專案中的元屬性
+
 ## 介紹
 在專案管理和資料分析領域，深入研究專案文件的元資料可以提供寶貴的見解。 Aspose.Tasks for Java 提供了一個強大的工具包，可以輕鬆瀏覽這些元屬性。本教程作為提取和理解 Aspose.Tasks 項目中的元屬性的綜合指南。
 ## 先決條件
@@ -71,3 +77,9 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
 答：是的，您可以在[文件頁](https://reference.aspose.com/tasks/java/).
 ### Q：我可以在哪裡尋求 Aspose.Tasks 相關查詢的支援？
 答：有關 Aspose.Tasks 的任何幫助或疑問，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)感謝社會各界和專家的鼎力支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

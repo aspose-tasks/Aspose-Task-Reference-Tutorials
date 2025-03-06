@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的计算类型
 linktitle: Aspose.Tasks 中的计算类型
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 库中的计算类型在 .NET 项目中自定义值计算。
-type: docs
 weight: 30
 url: /zh/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的计算类型
+
 ## 介绍
 
 在本教程中，我们将探索 Aspose.Tasks for .NET 中的计算类型功能。 Aspose.Tasks 是一个功能强大的库，使 .NET 开发人员能够使用 Microsoft Project 文件，而无需在其系统上安装 Microsoft Project。计算类型允许我们定义如何计算项目中任务和摘要任务的值。
@@ -97,3 +103,9 @@ A4：是的，Aspose.Tasks 提供了各种 Rollup 类型，例如 Average、Sum 
 ### Q5：在哪里可以找到有关 Aspose.Tasks for .NET 的更多资源？
 
  A5：您可以浏览以下网站上提供的文档和社区支持论坛：[用于 .NET 的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)以获得全面的指导和帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Raccolta di linee di base delle attività in Aspose.Tasks
 linktitle: Raccolta di linee di base delle attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora le basi delle attività senza sforzo con Aspose.Tasks per .NET. La gestione efficiente dei progetti resa semplice. Scarica ora! #Aspose.Tasks #Progetto MS
-type: docs
 weight: 17
 url: /it/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccolta di linee di base delle attività in Aspose.Tasks
+
 ## introduzione
 Benvenuti nel mondo di Aspose.Tasks per .NET, una potente libreria che facilita la manipolazione e la gestione senza soluzione di continuità delle attività del progetto. In questo tutorial approfondiremo l'affascinante regno delle linee di base delle attività, un aspetto cruciale della pianificazione e del monitoraggio del progetto. Al termine di questa guida imparerai a padroneggiare l'arte di lavorare con le raccolte di attività di base, consentendoti di migliorare le tue capacità di gestione dei progetti.
 ## Prerequisiti
@@ -68,3 +74,9 @@ R: Aspose.Tasks per .NET non impone limiti rigidi al numero di attività, fornen
 R: Assolutamente! Hai il pieno controllo sulla formattazione durante la stampa dei dettagli della linea di base, consentendoti di adattarla alle tue esigenze specifiche.
 ### D: Dove posso chiedere aiuto se riscontro problemi o ho ulteriori domande?
  R: Visita il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto dedicato e assistenza comunitaria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

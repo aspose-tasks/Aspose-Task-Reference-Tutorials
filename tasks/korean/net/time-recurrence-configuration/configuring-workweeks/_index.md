@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 Workweek 구성 마스터하기
 linktitle: Aspose.Tasks에서 근무 주 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 작업 주간을 쉽게 구성하는 방법을 알아보세요. 단계별 가이드를 통해 프로젝트 일정 관리 및 리소스 관리를 강화하세요.
-type: docs
 weight: 16
 url: /ko/net/time-recurrence-configuration/configuring-workweeks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 Workweek 구성 마스터하기
+
 ## 소개
 .NET용 Aspose.Tasks의 근무 주 구성에 대한 종합 가이드에 오신 것을 환영합니다. 효율적인 근무 주간 관리는 프로젝트 계획 및 일정 수립에 매우 중요합니다. Aspose.Tasks는 이 프로세스를 단순화하여 프로젝트 요구 사항에 따라 근무 주를 맞춤 설정할 수 있습니다. 이 튜토리얼에서는 근무 주를 원활하게 구성하는 단계를 안내합니다.
 ## 전제조건
@@ -90,3 +96,9 @@ Aspose.Tasks는 강력한 가져오기/내보내기 기능을 제공하지만 �
 현재 버전에서는 프로젝트에서 구성할 수 있는 근무 주 수에 대해 사전 정의된 제한이 없습니다.
 ### 일반적인 근무 주간을 위한 기본 제공 템플릿이 있나요?
 예, Aspose.Tasks에는 프로젝트의 시작점으로 사용할 수 있는 표준 달력 템플릿이 포함되어 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

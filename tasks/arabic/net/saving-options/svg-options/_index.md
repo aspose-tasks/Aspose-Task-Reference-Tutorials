@@ -3,10 +3,16 @@ title: إنشاء ملفات SVG بسهولة لـ Aspose.Tasks
 linktitle: خيارات SVG لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استخدام Aspose.Tasks لـ .NET لإنشاء تمثيلات SVG لملفات Microsoft Project دون عناء لتحسين تصور المشروع.
-type: docs
 weight: 20
 url: /ar/net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء ملفات SVG بسهولة لـ Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع وتنظيم المهام، تعد القدرة على تصور البيانات بشكل فعال أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً شاملاً لإنشاء تمثيلات SVG لملفات Microsoft Project، مما يسهل الحصول على رؤى واضحة وجذابة للمشروع. يتعمق هذا البرنامج التعليمي في استخدام خيارات SVG MS Project التي توفرها Aspose.Tasks لـ .NET، مما يمكّن المستخدمين من تسخير قوتها لتحسين تصور المشروع.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ project.Save(DataDir + "UseSvgOptions_out.svg", options);
 
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
 ج: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال منتدى Aspose.Tasks أو عن طريق الاتصال بفريق الدعم مباشرة للحصول على المساعدة في أي استفسارات أو مشكلات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

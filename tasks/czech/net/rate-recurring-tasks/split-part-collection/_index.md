@@ -3,10 +3,16 @@ title: Sbírejte MS Project of Split Parts v Aspose.Tasks
 linktitle: Kolekce rozdělených částí v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se shromažďovat rozdělené části v MS Project pomocí Aspose.Tasks for .NET. Tento komplexní návod vás provede procesem krok za krokem.
-type: docs
 weight: 19
 url: /cs/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sbírejte MS Project of Split Parts v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do toho, jak sbírat rozdělené části v MS Project pomocí Aspose.Tasks pro .NET. Rozdělení úkolů na části může být zásadním aspektem řízení projektu a Aspose.Tasks poskytuje pohodlné metody, jak to efektivně zvládnout.
 ## Předpoklady
@@ -66,3 +72,9 @@ Odpověď: Aspose.Tasks podporuje různé verze souborů MS Project a zajišťuj
  Odpověď: Dočasné licence lze získat od[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
 ### Otázka: Kde mohu hledat pomoc nebo podporu ohledně Aspose.Tasks?
  Odpověď: Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15)požádat o pomoc komunitu nebo tým podpory Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

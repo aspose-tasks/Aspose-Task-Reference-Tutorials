@@ -3,10 +3,16 @@ title: Aspose.Tasks でのツリー アルゴリズムの使用
 linktitle: Aspose.Tasks でのツリー アルゴリズムの使用
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks のツリー アルゴリズムを使用して、.NET プロジェクトのタスク階層を効果的に操作する方法を学びます。
-type: docs
 weight: 13
 url: /ja/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でのツリー アルゴリズムの使用
+
 ## 導入
 
 Aspose.Tasks for .NET は、プロジェクト管理タスク、リソース、スケジュールを操作するための強力な機能を提供します。そのような機能の 1 つがツリー アルゴリズムで、ユーザーはタスク階層を効率的に操作できます。このチュートリアルでは、Aspose.Tasks for .NET のツリー アルゴリズムを利用して、プロジェクト内の共通作業を収集し、作業値を更新する方法を検討します。
@@ -115,3 +121,9 @@ A1: Aspose.Tasks for .NET は、開発者が C# を使用して Microsoft Projec
 ### Q5: テスト目的で利用できる一時ライセンスはありますか?
 
  A5: はい、テスト目的の一時ライセンスを次のサイトから取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

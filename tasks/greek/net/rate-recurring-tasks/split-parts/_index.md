@@ -3,10 +3,16 @@ title: Χειρισμός εξαρτημάτων MS Project Split στο Aspose.
 linktitle: Χειρισμός διαχωρισμένων εξαρτημάτων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά τα διαχωρισμένα εξαρτήματα του MS Project με το Aspose.Tasks για .NET. Βελτιώστε τη ροή εργασιών διαχείρισης του έργου σας.
-type: docs
 weight: 18
 url: /el/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εξαρτημάτων MS Project Split στο Aspose.Tasks
+
 
 ## Εισαγωγή
 Η διαχείριση τμημάτων του MS Project μπορεί να είναι μια κρίσιμη πτυχή της διαχείρισης έργου όταν χρησιμοποιείτε το Aspose.Tasks για .NET. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χειρίζεστε αποτελεσματικά τα σπασμένα μέρη χρησιμοποιώντας οδηγίες βήμα προς βήμα.
@@ -94,3 +100,9 @@ foreach (var splitPart in task.SplitParts)
 Α: Οπωσδήποτε, μπορείτε να προσαρμόσετε τα ημερολόγια έργων σύμφωνα με τις απαιτήσεις του έργου σας.
 ### Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για .NET;
  Α: Μπορείτε να βρείτε υποστήριξη και βοήθεια στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

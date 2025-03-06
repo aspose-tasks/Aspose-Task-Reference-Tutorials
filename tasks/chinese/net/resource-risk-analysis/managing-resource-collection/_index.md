@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理项目资源集合
 linktitle: 在 Aspose.Tasks 中管理资源集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks API 在 .NET 中高效管理 Microsoft Project 资源集合。提高生产力和灵活性。
-type: docs
 weight: 13
 url: /zh/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理项目资源集合
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Aspose.Tasks for .NET 有效管理 Microsoft Project 资源集合。 Aspose.Tasks 是一个功能强大的 API，使开发人员能够以编程方式处理 Microsoft Project 文件，从而实现项目数据的无缝集成和操作。
 ## 先决条件
@@ -99,3 +105,9 @@ foreach (var rsc in list)
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 
 答：是的，Aspose.Tasks 用户可以通过论坛获得技术支持[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

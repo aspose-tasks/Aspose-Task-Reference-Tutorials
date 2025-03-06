@@ -3,10 +3,16 @@ title: Verwalten Sie übergeordnete und untergeordnete Aufgaben in Aspose.Tasks
 linktitle: Verwalten Sie übergeordnete und untergeordnete Aufgaben in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Steigern Sie die Effizienz des Projektmanagements mit Aspose.Tasks für Java. Erfahren Sie Schritt für Schritt, wie Sie übergeordnete und untergeordnete Aufgaben verwalten. Jetzt loslegen!
-type: docs
 weight: 24
 url: /de/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten Sie übergeordnete und untergeordnete Aufgaben in Aspose.Tasks
+
 ## Einführung
 Im Bereich des Projektmanagements ist eine effektive Aufgabenorganisation von entscheidender Bedeutung. Aspose.Tasks für Java bietet eine robuste Lösung zur effizienten Verwaltung übergeordneter und untergeordneter Aufgaben. In diesem Tutorial führen wir Sie durch den Prozess der Verwendung von Aspose.Tasks für Java, um Ihre Projektaufgaben zu optimieren.
 ## Voraussetzungen
@@ -103,3 +109,9 @@ Absolut! Aspose.Tasks für Java bietet umfangreiche Anpassungsoptionen für Aufg
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo finde ich eine umfassende Dokumentation für Aspose.Tasks für Java?
  Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Управление задачами в Aspose.Tasks
 linktitle: Управление задачами в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите подробное руководство по управлению задачами с помощью Aspose.Tasks для .NET. Научитесь добавлять, отображать разделенные части, перемещать, получать/устанавливать свойства и многое другое.
-type: docs
 weight: 15
 url: /ru/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление задачами в Aspose.Tasks
+
 ## Введение
 Если вы .NET-разработчик и хотите эффективно управлять задачами в своих проектах, Aspose.Tasks for .NET предоставляет надежное решение. Это руководство проведет вас через различные аспекты управления задачами с помощью Aspose.Tasks, предлагая пошаговые инструкции и примеры кода. Независимо от того, добавляете ли вы задачи, отображаете разделенные части, перемещаете задачи под одним родительским элементом, получаете/настраиваете свойства задач, перебираете назначения задач, читаете базовые показатели задач или удаляете задачи, это руководство поможет вам.
 ## Предварительные условия
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 А: Абсолютно! Aspose.Tasks предоставляет широкие возможности настройки свойств задач. Проверьте документацию для получения более подробной информации.
 ### Вопрос: Как мне получить поддержку Aspose.Tasks?
  А: Посетите[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

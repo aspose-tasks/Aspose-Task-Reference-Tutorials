@@ -3,10 +3,16 @@ title: Links de tarefas
 linktitle: Links de tarefas
 second_title: API Java Aspose.Tasks
 description: Explore Aspose.Tasks for Java com nossos tutoriais. Aprimore a colaboração, defina tipos de links e gerencie tarefas com facilidade. Aumente a eficiência do seu projeto agora!
-type: docs
 weight: 33
 url: /pt/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Links de tarefas
+
 ## Introdução
 
 Se você está mergulhando no mundo do gerenciamento de projetos Java, Aspose.Tasks é a sua ferramenta ideal. Nossos tutoriais abrangentes permitem que você domine vários aspectos, garantindo a utilização ideal da biblioteca Aspose.Tasks for Java.
@@ -38,3 +44,9 @@ Explore o poder do Aspose.Tasks for Java no gerenciamento de projetos. Defina e 
 Explore a identificação de tarefas entre projetos com Aspose.Tasks for Java. Integração perfeita e gerenciamento eficiente. Baixe Agora!
 ### [Gerenciar tarefas predecessoras e sucessoras em Aspose.Tasks](./predecessor-successor-tasks/)
 Explore o gerenciamento eficiente de tarefas com Aspose.Tasks for Java. Lide facilmente com tarefas predecessoras e sucessoras em seus projetos. Baixe o seu teste gratuito agora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

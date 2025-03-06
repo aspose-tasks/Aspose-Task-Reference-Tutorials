@@ -3,10 +3,16 @@ title: Guida alla personalizzazione del tipo di elemento di testo in Aspose.Task
 linktitle: Gestione dei tipi di elementi di testo in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Padroneggia la personalizzazione del tipo di elemento di testo in Aspose.Tasks per .NET con questa guida passo passo. Migliora il tuo gioco di gestione dei progetti senza sforzo.
-type: docs
 weight: 10
 url: /it/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guida alla personalizzazione del tipo di elemento di testo in Aspose.Tasks
+
 ## introduzione
 Se sei uno sviluppatore .NET che si immerge nella gestione dei progetti utilizzando Aspose.Tasks, sei nel posto giusto! In questa guida passo passo, esploreremo le complessità della gestione dei tipi di elementi di testo in Aspose.Tasks, concentrandoci sulla personalizzazione utilizzando la potente libreria .NET.
 ## Prerequisiti
@@ -74,3 +80,9 @@ Congratulazioni! Hai appena scalfito la superficie della gestione dei tipi di el
 R: Esplora ulteriori tutorial nella documentazione di Aspose.Tasks.
 ### D: Dove posso acquistare Aspose.Tasks per .NET?
  R: Acquista la libreria[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

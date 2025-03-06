@@ -3,10 +3,16 @@ title: قم بتخصيص إعدادات عرض صفحة مشروع MS في Aspos
 linktitle: تكوين إعدادات عرض الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات عرض الصفحة في Aspose.Tasks لـ .NET لتخصيص تنسيق الطباعة لمستندات Microsoft Project الخاصة بك.
-type: docs
 weight: 21
 url: /ar/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتخصيص إعدادات عرض صفحة مشروع MS في Aspose.Tasks
+
 ## مقدمة
 يعد Microsoft Project أداة قوية لإدارة المشاريع، ولكن في بعض الأحيان تحتاج إلى تخصيص طريقة عرض مشروعك وطباعته. باستخدام Aspose.Tasks for .NET، يمكنك بسهولة تكوين إعدادات عرض الصفحة لتلبية متطلباتك المحددة. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ج: يوفر Aspose.Tasks التوافق مع Microsoft Project 2003 والإصدارات الأحدث.
 ### س: أين يمكنني العثور على مزيد من المساعدة أو الدعم لـ Aspose.Tasks؟
  ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مشاكل تواجهك أثناء الاستخدام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

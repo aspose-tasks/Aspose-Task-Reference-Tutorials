@@ -3,10 +3,16 @@ title: Χρήση του AND Operator σε όλες τις συνθήκες με
 linktitle: Χρήση του AND Operator σε όλες τις συνθήκες με το Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χρησιμοποιείτε τον τελεστή AND σε όλες τις συνθήκες με το Aspose.Tasks για .NET για να φιλτράρετε αποτελεσματικά τις εργασίες έργου.
-type: docs
 weight: 11
 url: /el/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρήση του AND Operator σε όλες τις συνθήκες με το Aspose.Tasks
+
 ## Εισαγωγή
 
 Θέλετε να εξορθολογίσετε αποτελεσματικά τις εργασίες διαχείρισης του έργου σας; Με το Aspose.Tasks για .NET, μπορείτε να αξιοποιήσετε ισχυρές λειτουργίες για να χειριστείτε αποτελεσματικά τα δεδομένα του έργου. Ένα τέτοιο χαρακτηριστικό είναι η δυνατότητα χρήσης του τελεστή AND σε όλες τις συνθήκες, επιτρέποντάς σας να φιλτράρετε εργασίες με βάση πολλαπλά κριτήρια ταυτόχρονα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής αυτής της λειτουργικότητας βήμα προς βήμα.
@@ -118,3 +124,9 @@ A4: Ναι, μπορείτε να ενσωματώσετε απρόσκοπτα 
 ### Ε5: Υπάρχει κάποιο φόρουμ κοινότητας ή κανάλι υποστήριξης διαθέσιμο για τους χρήστες του Aspose.Tasks;
 
  A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση στο φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε απορία ή βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

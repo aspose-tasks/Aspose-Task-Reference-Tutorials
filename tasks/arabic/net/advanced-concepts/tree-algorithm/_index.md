@@ -3,10 +3,16 @@ title: استخدام خوارزمية الشجرة في Aspose.Tasks
 linktitle: استخدام خوارزمية الشجرة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل بشكل فعال مع التسلسلات الهرمية للمهام في مشاريع .NET الخاصة بك باستخدام خوارزمية شجرة Aspose.Tasks.
-type: docs
 weight: 13
 url: /ar/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام خوارزمية الشجرة في Aspose.Tasks
+
 ## مقدمة
 
 يوفر Aspose.Tasks for .NET وظائف قوية للعمل مع مهام إدارة المشروع والموارد والجداول الزمنية. إحدى هذه الميزات هي خوارزمية الشجرة، والتي تتيح للمستخدمين التعامل مع التسلسل الهرمي للمهام بكفاءة. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام خوارزمية الشجرة في Aspose.Tasks لـ .NET لجمع العمل المشترك وتحديث قيم العمل داخل المشروع.
@@ -115,3 +121,9 @@ summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ### س5: هل هناك ترخيص مؤقت متاح لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

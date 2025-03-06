@@ -3,10 +3,16 @@ title: Освоение данных проекта с помощью Aspose.Tas
 linktitle: Работа с данными проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как манипулировать данными Microsoft Project с помощью Aspose.Tasks в .NET. С легкостью создавайте задачи, добавляйте ресурсы и сохраняйте проекты.
-type: docs
 weight: 16
 url: /ru/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение данных проекта с помощью Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как работать с данными Microsoft Project с помощью библиотеки Aspose.Tasks для .NET. Aspose.Tasks предоставляет мощные функции для управления файлами проектов, включая создание задач, добавление ресурсов, настройку свойств и сохранение проектов в различных форматах.
 ## Предварительные условия
@@ -92,3 +98,9 @@ project.Save(DataDir + "ProjectCreation_out.xml", SaveFileFormat.Xml);
 О: Да, Aspose.Tasks включает в себя расширенные алгоритмы планирования, которые помогут вам оптимизировать сроки проекта и использование ресурсов.
 ### Вопрос: Существует ли форум сообщества для пользователей Aspose.Tasks?
  О: Да, вы можете найти полезные ресурсы и пообщаться с другими пользователями Aspose.Tasks на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

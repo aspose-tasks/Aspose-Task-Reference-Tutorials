@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevleri Yönetme
 linktitle: Aspose.Tasks'ta Görevleri Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile görevleri yönetmeye ilişkin kapsamlı kılavuzu keşfedin. Eklemeyi, bölünmüş parçaları görüntülemeyi, taşımayı, özellikleri almayı/ayarlamayı ve daha fazlasını öğrenin.
-type: docs
 weight: 15
 url: /tr/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevleri Yönetme
+
 ## giriiş
 Projelerinizdeki görevleri verimli bir şekilde yönetmek isteyen bir .NET geliştiricisiyseniz Aspose.Tasks for .NET güçlü bir çözüm sunar. Bu eğitim, Aspose.Tasks kullanarak görevleri yönetmenin çeşitli yönleri konusunda size rehberlik edecek, adım adım talimatlar ve kod örnekleri sunacaktır. Görev ekleme, bölünmüş parçaları görüntüleme, görevleri aynı üst öğe altında taşıma, görev özelliklerini alma/ayarlama, görev atamaları üzerinde yineleme yapma, görev taban çizgilerini okuma veya görevleri silme gibi işlemler yapıyorsanız, bu kılavuz size her konuda yardımcı olacaktır.
 ## Önkoşullar
@@ -144,3 +150,9 @@ C: Evet, Aspose.Tasks çeşitli .NET çerçevelerini destekleyerek geliştirme o
 C: Kesinlikle! Aspose.Tasks, görev özellikleri için kapsamlı özelleştirme seçenekleri sunar. Daha fazla ayrıntı için belgelere bakın.
 ### S: Aspose.Tasks için nasıl destek alabilirim?
  C: Ziyaret edin[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

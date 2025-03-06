@@ -3,10 +3,16 @@ title: Administre tareas críticas y basadas en esfuerzo en Aspose.Tasks
 linktitle: Administre tareas críticas y basadas en esfuerzo en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Administre sin esfuerzo tareas críticas y que requieren esfuerzo en sus proyectos Java con Aspose.Tasks. Descargue la biblioteca y mejore sus capacidades de gestión de proyectos.
-type: docs
 weight: 14
 url: /es/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administre tareas críticas y basadas en esfuerzo en Aspose.Tasks
+
 En el acelerado mundo de la gestión de proyectos, manejar eficientemente las tareas críticas y que requieren esfuerzo es esencial para completar exitosamente el proyecto. Aspose.Tasks para Java proporciona una solución sólida para gestionar estas tareas sin problemas. En este tutorial, lo guiaremos a través del proceso de uso de Aspose.Tasks para Java para manejar tareas críticas y que requieren esfuerzo en sus proyectos.
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener implementados los siguientes requisitos previos:
@@ -60,3 +66,9 @@ Sí, Aspose.Tasks para Java es independiente de la plataforma y se puede utiliza
  Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo comprar Aspose.Tasks para Java?
  Puede comprar Aspose.Tasks para Java desde el[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

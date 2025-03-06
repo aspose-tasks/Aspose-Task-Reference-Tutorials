@@ -3,10 +3,16 @@ title: Aspose.Tasks में उपयोग दृश्य कॉन्फ़
 linktitle: Aspose.Tasks में उपयोग दृश्य कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks में कार्य उपयोग दृश्यों को कॉन्फ़िगर करना सीखें। विस्तृत चरणों के साथ प्रोजेक्ट विज़ुअलाइज़ेशन बढ़ाएँ। अभी लाइब्रेरी डाउनलोड करें!
-type: docs
 weight: 17
 url: /hi/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में उपयोग दृश्य कॉन्फ़िगर करना
+
 ## परिचय
 यदि आप एक .NET डेवलपर हैं जो अपनी परियोजना प्रबंधन क्षमताओं को बढ़ाना चाहते हैं, तो Aspose.Tasks एक शक्तिशाली उपकरण है जो आपको आसानी से Microsoft प्रोजेक्ट फ़ाइलों में हेरफेर करने की अनुमति देता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके उपयोग दृश्यों को कॉन्फ़िगर करने पर ध्यान केंद्रित करेंगे। बेहतर प्रोजेक्ट विज़ुअलाइज़ेशन के लिए विवरण के साथ कार्य उपयोग दृश्य प्रस्तुत करने में अंतर्दृष्टि प्राप्त करने के लिए अनुसरण करें।
 ## आवश्यक शर्तें
@@ -72,3 +78,9 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
  हां, नि:शुल्क परीक्षण का अन्वेषण करें[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: समर्थन की आवश्यकता है या प्रश्न हैं?
  सहायता फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

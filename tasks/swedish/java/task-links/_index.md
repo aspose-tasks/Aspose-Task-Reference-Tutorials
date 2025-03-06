@@ -3,10 +3,16 @@ title: Uppgiftslänkar
 linktitle: Uppgiftslänkar
 second_title: Aspose.Tasks Java API
 description: Utforska Aspose.Tasks för Java med våra handledningar. Förbättra samarbetet, definiera länktyper och hantera uppgifter sömlöst. Öka ditt projekteffektivitet nu!
-type: docs
 weight: 33
 url: /sv/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppgiftslänkar
+
 ## Introduktion
 
 Om du fördjupar dig i en värld av Java-projektledning är Aspose.Tasks ditt bästa verktyg. Våra omfattande handledningar ger dig möjlighet att bemästra olika aspekter, vilket säkerställer optimalt utnyttjande av Aspose.Tasks för Java-biblioteket.
@@ -38,3 +44,9 @@ Utforska kraften i Aspose.Tasks för Java i projektledning. Definiera och anpass
 Utforska uppgiftsidentifiering över projekt med Aspose.Tasks för Java. Sömlös integration och effektiv hantering. Ladda ner nu!
 ### [Hantera föregångare och efterträdare i Aspose.Tasks](./predecessor-successor-tasks/)
 Utforska effektiv uppgiftshantering med Aspose.Tasks för Java. Hantera enkelt föregångare och efterföljande uppgifter i dina projekt. Ladda ner din kostnadsfria testversion nu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

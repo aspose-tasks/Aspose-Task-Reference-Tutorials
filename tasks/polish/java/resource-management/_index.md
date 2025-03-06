@@ -3,10 +3,16 @@ title: Zarządzanie zasobami
 linktitle: Zarządzanie zasobami
 second_title: Aspose.Tasks API Java
 description: Zarządzanie zasobami głównymi w MS Project za pomocą Aspose.Tasks dla Java. Naucz się tworzyć, iterować, zarządzać kosztami i nie tylko. Zoptymalizuj rozwój dzięki naszym tutorialom.
-type: docs
 weight: 31
 url: /pl/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie zasobami
+
 ## Wstęp
 
 W obszarze tworzenia MS Project przy użyciu języka Java Aspose.Tasks wyróżnia się jako solidna biblioteka oferująca kompleksowy zestaw funkcjonalności do efektywnego zarządzania zasobami. Ta seria samouczków przeprowadzi Cię przez różne aspekty, dzięki czemu nabędziesz biegłość w bezproblemowym posługiwaniu się zasobami Microsoft Project.
@@ -63,3 +69,9 @@ Dowiedz się, jak efektywnie zarządzać kosztami zasobów MS Project za pomocą
 Dowiedz się, jak ustawić właściwości zasobów MS Project w Javie przy użyciu Aspose.Tasks w celu zapewnienia bezproblemowej integracji i wydajnego zarządzania zadaniami.
 ### [Zapisz zaktualizowane dane zasobów w Aspose.Tasks](./write-updated-resource-data/)
 Dowiedz się, jak bez wysiłku aktualizować dane zasobów w plikach MS Project za pomocą Aspose.Tasks dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

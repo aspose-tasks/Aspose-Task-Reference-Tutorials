@@ -3,10 +3,16 @@ title: การปรับแต่งมุมมองโครงการ 
 linktitle: การปรับแต่งมุมมองโครงการใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีปรับแต่งมุมมอง MS Project โดยใช้ Aspose.Tasks สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราสำหรับการแสดงภาพการจัดการโครงการอย่างมีประสิทธิภาพ
-type: docs
 weight: 24
 url: /th/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับแต่งมุมมองโครงการ MS ใน Aspose.Tasks
+
 ## การแนะนำ
 Microsoft Project เป็นเครื่องมือที่มีประสิทธิภาพสำหรับการจัดการโครงการ ช่วยให้ผู้ใช้สามารถจัดระเบียบงาน จัดการทรัพยากร และติดตามความคืบหน้าได้อย่างมีประสิทธิภาพ Aspose.Tasks for .NET มอบวิธีที่สะดวกในการทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรม ช่วยให้นักพัฒนาสามารถปรับแต่งมุมมองโปรเจ็กต์ให้เหมาะกับความต้องการเฉพาะของพวกเขาได้ ในบทช่วยสอนนี้ เราจะสำรวจวิธีปรับแต่งมุมมอง MS Project โดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -60,3 +66,9 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
  ใช่ Aspose.Tasks สำหรับ .NET มีเอกสารประกอบและการสนับสนุนที่ครอบคลุมผ่านทาง[ฟอรั่ม](https://forum.aspose.com/c/tasks/15) และ[พอร์ทัลเอกสาร](https://reference.aspose.com/tasks/net/).
 ### 5. ฉันสามารถลองใช้ Aspose.Tasks สำหรับ .NET ก่อนซื้อได้หรือไม่
  ใช่ คุณสามารถใช้ประโยชน์จาก[ทดลองฟรี](https://releases.aspose.com/) ของ Aspose.Tasks สำหรับ .NET เพื่อประเมินคุณสมบัติและความสามารถก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

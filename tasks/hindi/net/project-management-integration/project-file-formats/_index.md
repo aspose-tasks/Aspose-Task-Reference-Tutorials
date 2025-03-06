@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइ
 linktitle: Aspose.Tasks में प्रोजेक्ट फ़ाइल स्वरूपों को संभालना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ Microsoft प्रोजेक्ट फ़ाइल हेरफेर की शक्ति को अनलॉक करें। निर्बाध एकीकरण और प्रबंधन में गोता लगाएँ।
-type: docs
 weight: 18
 url: /hi/net/project-management-integration/project-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइल हैंडलिंग में महारत हासिल करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइल स्वरूपों को कैसे प्रबंधित किया जाए। Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर और प्रबंधित करने की अनुमति देती है। चाहे आप .mpp, .xml, या .csv फ़ाइलों के साथ काम कर रहे हों, Aspose.Tasks परियोजना प्रबंधन के विभिन्न पहलुओं को संभालने के लिए सुविधाओं का एक व्यापक सेट प्रदान करता है।
 ## आवश्यक शर्तें
@@ -52,3 +58,9 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 उ: हां, आप Aspose.Tasks का उपयोग करके कस्टम प्रोजेक्ट फ़ील्ड के साथ काम कर सकते हैं और कस्टम फ़ील्ड जोड़ने, अपडेट करने या हटाने जैसे ऑपरेशन कर सकते हैं।
 ### प्रश्न: क्या मैं Aspose.Tasks का उपयोग करके प्रोजेक्ट रिपोर्ट तैयार कर सकता हूँ?
 उत्तर: हां, Aspose.Tasks आपको प्रोग्रामेटिक रूप से विभिन्न प्रकार की प्रोजेक्ट रिपोर्ट तैयार करने में सक्षम बनाता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

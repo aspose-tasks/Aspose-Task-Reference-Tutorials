@@ -3,10 +3,16 @@ title: Προσαρμόστε τις στήλες προβολής πόρων MS
 linktitle: Προσαρμογή στηλών προβολής πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσαρμόζετε αποτελεσματικά τις στήλες προβολής πόρων του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Δημιουργήστε προσαρμοσμένες προβολές για καλύτερη διαχείριση έργου.
-type: docs
 weight: 17
 url: /el/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τις στήλες προβολής πόρων MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks for .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project μέσω προγραμματισμού. Μια κοινή εργασία στη διαχείριση έργου είναι η προσαρμογή των προβολών για την εμφάνιση συγκεκριμένων πληροφοριών. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσαρμόσετε τις στήλες προβολής πόρων του MS Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -94,3 +100,9 @@ project.Save("Output_PDF_File_Path.pdf", options);
 Ναι, μπορείτε να ενημερώσετε και να αναδημιουργήσετε την προσαρμοσμένη προβολή κάθε φορά που αλλάζουν τα υποκείμενα δεδομένα του έργου.
 ### Το Aspose.Tasks υποστηρίζει την ανάπτυξη πολλαπλών πλατφορμών;
 Το Aspose.Tasks για .NET στοχεύει κυρίως πλατφόρμες .NET, αλλά υπάρχουν επίσης διαθέσιμες εκδόσεις για Java και άλλες πλατφόρμες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

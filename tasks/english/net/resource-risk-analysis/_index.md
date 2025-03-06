@@ -3,10 +3,16 @@ title: Aspose.Tasks Resource Management and Risk Analysis
 linktitle: Aspose.Tasks Resource Management and Risk Analysis
 second_title: Aspose.Tasks .NET API
 description: Manage MS Project resources with Aspose.Tasks .NET. Boost productivity and streamline workflows. Learn resource assignments, usage views, risk analysis, & more.
-type: docs
 weight: 26
 url: /net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Resource Management and Risk Analysis
+
 ## Introduction
 
 Are you seeking efficient ways to manage Microsoft Project resources and enhance risk analysis using Aspose.Tasks for .NET? Look no further! In this comprehensive guide, we'll walk you through various tutorials, covering essential topics to empower developers and project managers.
@@ -90,3 +96,9 @@ Learn how to collect risk item statistics from MS Project files using Aspose.Tas
 Learn how to effectively manage risk patterns in Microsoft Project files using Aspose.Tasks for .NET. Improve project outcomes with powerful risk analysis tools.
 ### [Manage Risk Patterns in MS Project with Aspose.Tasks](./risk-pattern-collection/)
 Learn how to effectively analyze and manipulate risk patterns in Microsoft Project files using Aspose.Tasks for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

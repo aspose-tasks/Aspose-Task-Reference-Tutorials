@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용량 측정
 linktitle: Aspose.Tasks의 측정 사용량
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용을 효과적으로 모니터링하고 최적화하는 방법을 알아보세요. 효율적인 프로젝트 관리를 위한 단계별 가이드입니다.
-type: docs
 weight: 17
 url: /ko/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용량 측정
+
 ## 소개
 Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 효과적으로 관리하고 모니터링하고 싶으십니까? 측정 기능을 사용하면 사용량을 추적하고 프로젝트 관리 활동을 최적화할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 측정하는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -77,3 +83,9 @@ A: 네, 사용량 측정을 위해 Aspose 서버와 통신하려면 인터넷 �
 A: 예, 주기적으로 사용된 크레딧과 소비된 바이트를 확인하여 실시간으로 사용량을 추적할 수 있습니다.
 ### Q: 평가판에서도 MS Project 사용량 측정이 가능합니까?
 A: 예, MS 프로젝트 사용량 측정은 Aspose.Tasks for .NET의 평가판과 라이선스 버전 모두에서 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

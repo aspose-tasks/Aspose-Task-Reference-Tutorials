@@ -3,10 +3,16 @@ title: Padroneggiare le proprietà delle attività in Aspose.Tasks
 linktitle: Leggere e scrivere proprietà generali delle attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora la potenza di Aspose.Tasks per Java nella gestione delle proprietà delle attività senza sforzo. Leggi e scrivi con facilità utilizzando la nostra guida passo passo.
-type: docs
 weight: 26
 url: /it/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le proprietà delle attività in Aspose.Tasks
+
 ## introduzione
 Sblocca tutto il potenziale della gestione delle attività in Java con Aspose.Tasks. In questa guida completa, approfondiremo la lettura e la scrittura delle proprietà generali delle attività utilizzando Aspose.Tasks per Java. Che tu sia uno sviluppatore esperto o un principiante, questo tutorial ti fornirà le competenze per manipolare le proprietà delle attività senza sforzo.
 ## Prerequisiti
@@ -85,3 +91,9 @@ Sì, Aspose.Tasks è compatibile con Java 11 e versioni successive.
  Partecipa alla discussione della community su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per assistenza e collaborazione.
 ### Sono disponibili progetti di esempio come riferimento?
  Esplora la sezione degli esempi della documentazione[Qui](https://reference.aspose.com/tasks/java/) per progetti di esempio e frammenti di codice.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

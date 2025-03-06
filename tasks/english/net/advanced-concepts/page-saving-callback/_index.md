@@ -3,10 +3,16 @@ title: Implementing Page Saving Callback in Aspose.Tasks
 linktitle: Implementing Page Saving Callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to implement a page saving callback in Aspose.Tasks for .NET, enabling customized handling of multi-page document output streams.
-type: docs
 weight: 12
 url: /net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementing Page Saving Callback in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we will explore how to implement a page saving callback in Aspose.Tasks for .NET. This feature allows us to save a multi-page document to user-provided streams, offering flexibility and customization in handling output.
@@ -121,3 +127,10 @@ A4: You can implement error handling mechanisms within the callback methods to m
 ### Q5: Where can I find more resources and support for Aspose.Tasks?
 
 A5: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for assistance, access documentation [here](https://reference.aspose.com/tasks/net/), or explore additional features and licensing options on the [Aspose.Tasks website](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

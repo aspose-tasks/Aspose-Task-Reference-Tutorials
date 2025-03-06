@@ -3,10 +3,16 @@ title: Aspose.Tasks의 MPP 파일에서 데이터 필터링
 linktitle: Aspose.Tasks의 MPP 파일에서 데이터 필터링
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MPP 파일에서 데이터를 필터링하는 방법을 알아보세요. 프로젝트 관리 워크플로를 손쉽게 향상하세요.
-type: docs
 weight: 14
 url: /ko/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 MPP 파일에서 데이터 필터링
+
 ## 소개
 Java 개발 영역에서 프로젝트 작업을 효율적으로 관리하는 것은 성공적인 프로젝트 관리의 중추적인 측면입니다. Aspose.Tasks for Java는 프로젝트 관리 작업을 프로그래밍 방식으로 처리하기 위한 강력한 솔루션을 제공하여 개발자에게 MPP 파일의 데이터를 원활하게 필터링하는 데 필요한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MPP 파일에서 데이터를 필터링하는 프로세스를 자세히 살펴보고 각 단계를 세분화하여 포괄적인 이해를 보장합니다.
 ## 전제조건
@@ -81,3 +87,9 @@ A: 예, 소규모 프로젝트를 관리하든 광범위한 프로젝트 포트�
  답: 물론이죠! 당신은[선적 서류 비치](https://reference.aspose.com/tasks/java/) 자세한 가이드 및 API 참조를 확인하세요. 또한, 발생한 질문이나 문제에 대해 Aspose.Tasks 커뮤니티 포럼에서 도움을 구할 수 있습니다.
 ### Q: 구매하기 전에 Java용 Aspose.Tasks의 기능을 살펴볼 수 있나요?
  답: 물론이죠! 무료 평가판을 이용하실 수 있습니다.[웹사이트](https://releases.aspose.com/) Aspose.Tasks for Java의 기능을 직접 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 파일 형식 옵션
 linktitle: Aspose.Tasks 파일 형식 옵션
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks .NET에서 Aspose.Tasks 파일 형식 옵션과 마스터 구성 XAML 및 XLSX 옵션을 살펴보세요. 사용자 정의 팁으로 프로젝트 관리를 향상하세요.
-type: docs
 weight: 34
 url: /ko/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 파일 형식 옵션
+
 
 ## 소개
 
@@ -27,3 +33,9 @@ url: /ko/net/file-format-options/
 .NET용 Aspose.Tasks에서 MS Project XAML 옵션을 구성하는 방법을 알아보세요. 단계별 지침을 통해 프로젝트 관리 유연성과 사용자 정의를 향상하세요.
 ### [Aspose.Tasks에서 XLSX 옵션 구성](./configuring-xlsx-options/)
 .NET용 Aspose.Tasks에서 MS Project XLSX 옵션을 구성하는 방법을 알아보세요. 열, 인코딩 등을 손쉽게 사용자 정의하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

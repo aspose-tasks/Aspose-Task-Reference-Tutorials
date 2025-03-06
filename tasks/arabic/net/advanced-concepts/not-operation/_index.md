@@ -3,10 +3,16 @@ title: العمل مع NOT Operation في Aspose.Tasks
 linktitle: العمل مع NOT Operation في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية استخدام عملية NOT في Aspose.Tasks لـ .NET لتصفية المهام بشكل فعال. تعزيز قدرات إدارة المشروع الخاص بك الآن.
-type: docs
 weight: 20
 url: /ar/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع NOT Operation في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من عملية NOT في Aspose.Tasks لـ .NET. تسمح لنا عملية NOT بعكس شرط التصفية، مما يمكننا من تحديد العناصر التي لا تلبي معايير محددة.
@@ -114,3 +120,9 @@ foreach (var task in collection)
 ### س5: أين يمكنني العثور على وثائق شاملة لـ Aspose.Tasks؟
 
  ج: يمكنك الوصول إلى الوثائق الكاملة على[صفحة وثائق Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

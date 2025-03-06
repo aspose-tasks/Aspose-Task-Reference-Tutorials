@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中过滤 MPP 文件中的数据
 linktitle: 在 Aspose.Tasks 中过滤 MPP 文件中的数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 MPP 文件中过滤数据。轻松增强您的项目管理工作流程。
-type: docs
 weight: 14
 url: /zh/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中过滤 MPP 文件中的数据
+
 ## 介绍
 在 Java 开发领域，有效管理项目任务是成功项目管理的关键方面。 Aspose.Tasks for Java 提供了一个强大的解决方案，用于以编程方式处理项目管理任务，为开发人员提供了无缝过滤 MPP 文件中的数据所需的工具。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 从 MPP 文件过滤数据的过程，分解每个步骤以确保全面理解。
 ## 先决条件
@@ -81,3 +87,9 @@ System.out.println(criteria22.getField());
 答：当然可以！您可以参考[文档](https://reference.aspose.com/tasks/java/)获取详细指南和 API 参考。此外，您可以从 Aspose.Tasks 社区论坛寻求帮助，以解决遇到的任何疑问或问题。
 ### 问：我可以在购买之前探索 Aspose.Tasks for Java 的功能吗？
 答：当然！您可以从以下网站获得免费试用[网站](https://releases.aspose.com/)亲身体验 Aspose.Tasks for Java 的特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

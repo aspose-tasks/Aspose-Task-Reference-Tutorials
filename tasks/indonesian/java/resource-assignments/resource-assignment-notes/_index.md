@@ -3,10 +3,16 @@ title: Kelola Catatan untuk Penugasan Sumber Daya di Aspose.Tasks
 linktitle: Kelola Catatan untuk Penugasan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola catatan untuk penetapan sumber daya di Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 21
 url: /id/java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Catatan untuk Penugasan Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengelola catatan untuk penetapan sumber daya menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan Java tangguh yang dirancang untuk menangani tugas manajemen proyek secara efisien. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memungkinkan Anda mengintegrasikan manajemen catatan ke dalam alur kerja proyek Anda dengan lancar.
 ## Prasyarat
@@ -76,3 +82,9 @@ Aspose.Tasks untuk Java kompatibel dengan IDE Java apa pun, termasuk IntelliJ ID
 Tidak, lisensi sementara tidak diperlukan untuk masa percobaan. Anda dapat menggunakan versi trial tanpa lisensi apapun.
 ### Di mana saya dapat membeli Aspose.Tasks untuk Java?
 Anda dapat membeli Aspose.Tasks untuk Java dari halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

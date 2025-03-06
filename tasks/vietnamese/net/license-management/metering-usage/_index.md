@@ -3,10 +3,16 @@ title: Đo mức sử dụng dự án MS với Aspose.Tasks cho .NET
 linktitle: Cách sử dụng đo sáng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách giám sát và tối ưu hóa hiệu quả việc sử dụng MS Project của bạn với Aspose.Tasks for .NET. Hướng dẫn từng bước để quản lý dự án hiệu quả.
-type: docs
 weight: 17
 url: /vi/net/license-management/metering-usage/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đo mức sử dụng dự án MS với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Bạn đang tìm cách quản lý và giám sát hiệu quả việc sử dụng MS Project của mình với Aspose.Tasks? Với sức mạnh của việc đo lường, bạn có thể theo dõi việc sử dụng và tối ưu hóa nỗ lực quản lý dự án của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình đo lường mức sử dụng MS Project bằng cách sử dụng Aspose.Tasks for .NET.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Trả lời: Có, cần có kết nối Internet để liên lạc với máy ch
 Đáp: Có, bạn có thể theo dõi việc sử dụng trong thời gian thực bằng cách kiểm tra định kỳ số tiền đã chi tiêu và số byte đã tiêu thụ.
 ### Câu hỏi: Tính năng đo mức sử dụng MS Project có sẵn trong phiên bản dùng thử không?
 Trả lời: Có, tính năng đo mức sử dụng MS Project có sẵn ở cả phiên bản dùng thử và phiên bản được cấp phép của Aspose.Tasks cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

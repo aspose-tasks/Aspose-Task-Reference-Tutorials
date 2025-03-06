@@ -3,10 +3,16 @@ title: Ρύθμιση χαρακτηριστικών έργου MS για νέε
 linktitle: Ορίστε χαρακτηριστικά για νέες εργασίες στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να ορίζετε χαρακτηριστικά MS Project για νέες εργασίες χρησιμοποιώντας το Aspose.Tasks για Java. Προσαρμόστε τις ιδιότητες εργασιών χωρίς κόπο με αυτόν τον περιεκτικό οδηγό.
-type: docs
 weight: 21
 url: /el/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση χαρακτηριστικών έργου MS για νέες εργασίες στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με τη ρύθμιση των χαρακτηριστικών του MS Project για νέες εργασίες στο Aspose.Tasks για Java! Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι μπορείτε εύκολα να διαχειριστείτε και να προσαρμόσετε τις εργασίες σας με αυτήν την ισχυρή βιβλιοθήκη Java.
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ System.out.println("Project file generated Successfully");
  Α: Προσωρινές άδειες χρήσης για το Aspose.Tasks για Java μπορούν να ληφθούν από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή ερωτήματα που σχετίζονται με το Aspose.Tasks για Java;
  Α: Μπορείτε να λάβετε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στο[Aspose.Tasks for Java υποστήριξης φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

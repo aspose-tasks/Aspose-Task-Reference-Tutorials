@@ -3,10 +3,16 @@ title: Kalendrar
 linktitle: Kalendrar
 second_title: Aspose.Tasks Java API
 description: Förbättra dina färdigheter i Java-projektledning med Aspose.Tasks handledningar. Bemästra kalenderhantering, skapa, definiera veckodagar och uppdatera kalendrar med lätthet.
-type: docs
 weight: 21
 url: /sv/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalendrar
+
 ## Introduktion
 
 Är du en Java-utvecklare som vill effektivisera dina färdigheter i projektledning? Dyk in i våra omfattande Aspose.Tasks-handledningar som täcker olika aspekter av att hantera MS Project-kalendrar. Oavsett om du är en erfaren utvecklare eller precis har börjat, ger dessa tutorials steg-för-steg-vägledning för att förbättra dina möjligheter.
@@ -64,3 +70,9 @@ Lär dig hur du skapar en standard MS Project-kalender i Java med Aspose.Tasks. 
 Lär dig hur du läser arbetsveckor från MS Project-kalendern med Aspose.Tasks för Java. Få steg-för-steg-instruktioner i denna omfattande handledning.
 ### [Uppdatera MS Project-kalendrar till MPP-format med Aspose.Tasks](./update-to-mpp/)
 Lär dig hur du uppdaterar MS Project-kalendrar till MPP-format utan ansträngning med Aspose.Tasks för Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

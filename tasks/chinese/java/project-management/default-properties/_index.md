@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中高效管理 MS 项目属性
 linktitle: 管理 Aspose.Tasks 中的默认项目属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 管理默认的 MS Project 属性。轻松简化您的项目管理工作流程。
-type: docs
 weight: 11
 url: /zh/java/project-management/default-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中高效管理 MS 项目属性
+
 ## 介绍
 您是否希望使用 Aspose.Tasks for Java 简化您的项目管理流程？管理 Microsoft Project 文件中的默认属性可以显着提高效率。在本教程中，我们将逐步说明如何使用 Aspose.Tasks 管理默认的 MS Project 属性。
 ## 先决条件
@@ -79,3 +85,9 @@ A3：是的，您可以在[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks
  A4：当然！您可以从以下网站获得免费试用[网站](https://releases.aspose.com/).
 ### Q5：如何获得Aspose.Tasks的临时许可证？
  A5：您可以从以下机构获得临时许可证：[购买页面](https://purchase.aspose.com/temporary-license/)用于测试和评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

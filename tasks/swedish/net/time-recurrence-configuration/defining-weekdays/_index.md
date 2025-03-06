@@ -3,10 +3,16 @@ title: Bemästra veckodagar i Aspose.Tasks för .NET
 linktitle: Definiera veckodagar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska kraften i att definiera vardagar i Aspose.Tasks .NET. Följ vår detaljerade handledning för att effektivt hantera projektkalendrar, anpassa arbetstider och mer.
-type: docs
 weight: 10
 url: /sv/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra veckodagar i Aspose.Tasks för .NET
+
 ## Introduktion
 Om du dyker in i en värld av projektledning med Aspose.Tasks för .NET, är förståelse och manipulering av vardagar en avgörande aspekt. Att effektivt hantera och anpassa veckodagar inom din projektkalender kan avsevärt påverka projektets tidslinjer. I den här handledningen guidar vi dig genom processen att definiera veckodagar med Aspose.Tasks, och tillhandahåller steg-för-steg-instruktioner och exempel för bättre tydlighet.
 ## Förutsättningar
@@ -116,3 +122,9 @@ Använd lämpliga metoder från Aspose.Tasks-biblioteket för att ta bort veckod
 Ja, eventuella ändringar av veckodagar återspeglas i projektfilen när de sparas.
 ### Kan jag använda Aspose.Tasks med andra programmeringsspråk?
 Aspose.Tasks stöder olika programmeringsspråk, men exemplen här är specifikt för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Właściwości projektu
 linktitle: Właściwości projektu
 second_title: Aspose.Tasks API Java
 description: Odblokuj potencjał Aspose.Tasks dla Java dzięki naszym samouczkom dotyczącym właściwości projektu. Wydobywaj, wykorzystuj i manipuluj informacjami Microsoft Project bez wysiłku.
-type: docs
 weight: 24
 url: /pl/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Właściwości projektu
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności Aspose.Tasks for Java? Nasze samouczki dotyczące właściwości projektu umożliwiają wykorzystanie pełnego potencjału tej potężnej biblioteki, koncentrując się na trzech kluczowych aspektach: czytaniu metawłaściwości, wyodrębnianiu informacji Microsoft Project i opanowaniu manipulacji MS Project. Zapoznaj się z tymi samouczkami, aby zwiększyć możliwości programowania w języku Java i zarządzania projektami.
@@ -35,3 +41,9 @@ Odblokuj moc metadanych w projektach Aspose.Tasks dzięki temu wszechstronnemu s
 Dowiedz się, jak wyodrębnić informacje z programu Microsoft Project za pomocą Aspose.Tasks dla Java. Ulepsz zarządzanie projektami w aplikacjach Java bez wysiłku.
 ### [Opanowanie manipulacji projektami MS za pomocą Aspose.Tasks dla Java](./write-project-info/)
 Dowiedz się, jak efektywnie pisać informacje MS Project przy użyciu Aspose.Tasks dla Java. Przewodnik krok po kroku dla programistów Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

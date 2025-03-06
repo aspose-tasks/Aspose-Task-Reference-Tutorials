@@ -3,10 +3,16 @@ title: تخصيص أعمدة عرض موارد مشروع MS في Aspose.Tasks
 linktitle: تخصيص أعمدة عرض الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص أعمدة عرض موارد MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. إنشاء طرق عرض مخصصة لإدارة أفضل للمشروع.
-type: docs
 weight: 17
 url: /ar/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص أعمدة عرض موارد مشروع MS في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft Project برمجيًا. إحدى المهام الشائعة في إدارة المشاريع هي تخصيص طرق العرض لعرض معلومات محددة. في هذا البرنامج التعليمي، سنستكشف كيفية تخصيص أعمدة عرض موارد MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -94,3 +100,9 @@ project.Save("Output_PDF_File_Path.pdf", options);
 نعم، يمكنك تحديث العرض المخصص وإعادة إنشائه كلما تغيرت بيانات المشروع الأساسية.
 ### هل يدعم Aspose.Tasks التطوير عبر الأنظمة الأساسية؟
 يستهدف Aspose.Tasks لـ .NET بشكل أساسي منصات .NET، ولكن هناك أيضًا إصدارات متاحة لـ Java والأنظمة الأساسية الأخرى.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

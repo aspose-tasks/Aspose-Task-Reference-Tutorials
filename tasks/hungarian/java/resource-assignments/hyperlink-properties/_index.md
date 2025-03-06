@@ -3,10 +3,16 @@ title: A hozzárendelésekhez tartozó hiperhivatkozás-tulajdonságok kezelése
 linktitle: Az Aspose.Tasks erőforrás-hozzárendeléseihez tartozó hiperhivatkozás-tulajdonságok kezelése
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan kezelheti a hiperhivatkozás tulajdonságait erőforrás-hozzárendelésekhez az Aspose.Tasks for Java programban. Növelje az együttműködést és a hozzáférhetőséget a projektmenedzsmentben.
-type: docs
 weight: 16
 url: /hu/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A hozzárendelésekhez tartozó hiperhivatkozás-tulajdonságok kezelése az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Az Aspose.Tasks for Java hatékony szolgáltatásokat kínál a projektfeladatok és erőforrások kezeléséhez. Ebben az oktatóanyagban az Aspose.Tasks segítségével az erőforrás-hozzárendelések hiperhivatkozási tulajdonságainak kezelésével foglalkozunk. Ha követi ezeket a lépésenkénti utasításokat, akkor hatékonyan tudja kezelni a projekt erőforrás-hozzárendeléséhez kapcsolódó hiperhivatkozásokat.
 ## Előfeltételek
@@ -84,3 +90,9 @@ V: Az Aspose.Tasks nem szab szigorú korlátozásokat a hiperhivatkozások hossz
 V: Igen, eltávolíthatja a hiperhivatkozásokat az erőforrás-hozzárendelésekből, ha a hivatkozás tulajdonságait nullára vagy üres karakterláncokra állítja.
 ### K: Az Aspose.Tasks támogatja a hiperhivatkozások érvényesítését?
 V: Az Aspose.Tasks a hiperhivatkozás tulajdonságainak kezelésére összpontosít, nem pedig a hivatkozások érvényesítésére. A hivatkozások integritásának biztosítása érdekében azonban egyéni érvényesítési logikát is megvalósíthat a Java-alkalmazáson belül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

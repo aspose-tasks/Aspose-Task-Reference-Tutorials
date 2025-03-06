@@ -3,10 +3,16 @@ title: Aspose.Tasks Quản lý và tùy chỉnh dự án
 linktitle: Aspose.Tasks Quản lý và tùy chỉnh dự án
 second_title: Aspose.Tasks .NET API
 description: Nắm vững Aspose.Tasks cho .NET với các hướng dẫn quản lý dự án của chúng tôi. Tìm hiểu các kỹ thuật thao tác, tùy chỉnh và tối ưu hóa hiệu quả cho các tệp MS Project.
-type: docs
 weight: 23
 url: /vi/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Quản lý và tùy chỉnh dự án
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án của mình với Aspose.Tasks cho .NET chưa? Hướng dẫn toàn diện của chúng tôi bao gồm nhiều chủ đề, từ việc nắm vững các phương pháp MS Project có giá trị kiếm được đến quản lý hiệu quả các thuộc tính dự án và tùy chỉnh biểu đồ Gantt. Hãy cùng đi sâu vào thế giới của Aspose.Tasks và khám phá toàn bộ tiềm năng của quản lý dự án.
@@ -130,3 +136,9 @@ Khám phá cách thao tác các tệp MS Project theo chương trình trong .NET
 Tìm hiểu cách quản lý bộ sưu tập Dự án MS Tiêu chí Nhóm bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
 ### [Trích xuất thông tin đầu trang và chân trang bằng Aspose.Tasks](./header-footer-information/)
 Tìm hiểu cách trích xuất thông tin đầu trang & chân trang từ các tệp MS Project bằng Aspose.Tasks cho .NET. Giải pháp dễ dàng, hiệu quả và thân thiện với nhà phát triển.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gérer les tâches des prédécesseurs et des successeurs dans Aspose.Tas
 linktitle: Gérer les tâches des prédécesseurs et des successeurs dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explorez une gestion efficace des tâches avec Aspose.Tasks pour Java. Gérez facilement les tâches des prédécesseurs et des successeurs dans vos projets. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 15
 url: /fr/java/task-links/predecessor-successor-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les tâches des prédécesseurs et des successeurs dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, la gestion efficace des dépendances des tâches est primordiale. Aspose.Tasks for Java offre une solution robuste pour gérer les tâches prédécesseurs et successeurs dans vos projets. Ce didacticiel vous guidera tout au long du processus d'exploitation d'Aspose.Tasks pour gérer efficacement les liens de tâches, vous permettant d'établir des dépendances entre les tâches.
 ## Conditions préalables
@@ -52,3 +58,9 @@ Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet, notammen
  Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et les discussions de la communauté.
 ### Puis-je télécharger un essai gratuit d’Aspose.Tasks pour Java ?
  Oui, téléchargez un essai gratuit à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

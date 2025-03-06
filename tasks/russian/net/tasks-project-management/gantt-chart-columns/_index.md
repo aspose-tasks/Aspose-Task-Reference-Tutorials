@@ -3,10 +3,16 @@ title: Настройте столбцы диаграммы Ганта с пом
 linktitle: Столбцы диаграммы Ганта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить столбцы диаграммы Ганта в Aspose.Tasks для .NET для эффективного отображения информации о конкретной задаче.
-type: docs
 weight: 21
 url: /ru/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте столбцы диаграммы Ганта с помощью Aspose.Tasks
+
 ## Введение
 Диаграммы Ганта — это фундаментальный инструмент управления проектами, обеспечивающий визуальное представление задач, сроков и ресурсов. Aspose.Tasks для .NET предлагает мощные возможности для управления диаграммами Ганта, включая настройку столбцов для отображения конкретной информации о задаче. В этом уроке мы рассмотрим, как работать со столбцами диаграммы Ганта с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -99,3 +105,9 @@ project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 О: Aspose.Tasks for .NET предлагает широкие возможности настройки, позволяющие добавлять значительное количество столбцов в диаграммы Ганта без ограничений.
 ### Вопрос: Где я могу найти дополнительную поддержку и ресурсы для Aspose.Tasks для .NET?
 О: Вы можете изучить документацию, форумы сообщества и каналы поддержки, предоставляемые Aspose.Tasks для .NET, чтобы получить доступ к обширным ресурсам и помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

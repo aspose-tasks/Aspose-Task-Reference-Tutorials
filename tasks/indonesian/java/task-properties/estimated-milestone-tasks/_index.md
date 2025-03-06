@@ -3,10 +3,16 @@ title: Tangani Estimasi dan Milestone Tugas di Aspose.Tasks
 linktitle: Tangani Estimasi dan Milestone Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi manajemen proyek yang efektif dengan Aspose.Tasks untuk Java. Tangani tugas perkiraan dan pencapaian dengan mudah. Unduh perpustakaannya sekarang!
-type: docs
 weight: 15
 url: /id/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tangani Estimasi dan Milestone Tugas di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java adalah perpustakaan canggih yang memfasilitasi penanganan tugas, pengelolaan proyek, dan manipulasi data proyek dengan mudah. Dalam tutorial ini, kita akan fokus pada aspek penting manajemen proyek – menangani perkiraan tugas dan pencapaian menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -60,3 +66,9 @@ Ya, Anda dapat mengintegrasikan Aspose.Tasks dengan lancar ke dalam proyek Java 
  Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lặp lại theo ngày trong năm trong Aspose.Tasks
 linktitle: Lặp lại theo ngày trong năm trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý các lần lặp lại ngày trong năm trong Aspose.Tasks dành cho .NET để hợp lý hóa việc quản lý tác vụ định kỳ một cách hiệu quả.
-type: docs
 weight: 27
 url: /vi/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lặp lại theo ngày trong năm trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý dự án, việc lập lịch và lặp lại nhiệm vụ hiệu quả đóng vai trò then chốt trong việc đảm bảo thực hiện kịp thời và quy trình làm việc suôn sẻ. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ cho các nhà phát triển để xử lý các tác vụ định kỳ một cách dễ dàng trong ứng dụng của họ. Trong hướng dẫn này, chúng tôi đi sâu vào sự phức tạp khi làm việc với các lần lặp lại ngày trong năm bằng Aspose.Tasks, cung cấp hướng dẫn toàn diện để tạo các nhiệm vụ định kỳ dựa trên các mẫu hàng năm.
@@ -109,3 +115,9 @@ Câu trả lời 4: Chắc chắn, Aspose.Tasks cung cấp các API mạnh mẽ 
 ### Câu hỏi 5: Aspose.Tasks có phù hợp cho cả dự án quy mô nhỏ và cấp doanh nghiệp không?
 
 Câu trả lời 5: Thật vậy, Aspose.Tasks được thiết kế để đáp ứng nhu cầu của các nhà phát triển làm việc trên các dự án thuộc mọi quy mô, từ nhiệm vụ cá nhân đến dự án doanh nghiệp quy mô lớn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إيقاف واستئناف تعيينات الموارد في Aspose.Tas
 linktitle: إيقاف واستئناف تعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 23
 url: /ar/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إيقاف واستئناف تعيينات الموارد في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعلم كيفية إيقاف واستئناف تعيينات الموارد باستخدام Aspose.Tasks لـ Java. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project على أنظمتهم. سنقوم بتقسيم العملية إلى خطوات يمكن التحكم فيها لتسهيل متابعتها.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 يمكنك الحصول على الدعم من المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 ### هل يمكنني شراء ترخيص مؤقت؟
  نعم، يمكنك شراء ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

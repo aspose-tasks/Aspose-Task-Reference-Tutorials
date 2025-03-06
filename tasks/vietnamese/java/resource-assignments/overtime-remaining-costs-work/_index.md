@@ -3,10 +3,16 @@ title: Giám sát thời gian làm thêm, chi phí còn lại và làm việc tr
 linktitle: Giám sát thời gian làm thêm, chi phí còn lại và làm việc trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách giám sát thời gian làm thêm, chi phí còn lại và làm việc trong các dự án Java bằng Aspose.Tasks. Các bước đơn giản để quản lý dự án hiệu quả.
-type: docs
 weight: 18
 url: /vi/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giám sát thời gian làm thêm, chi phí còn lại và làm việc trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để theo dõi thời gian làm thêm, chi phí còn lại và làm việc trong một dự án. Điều này có thể là vô giá đối với người quản lý dự án và trưởng nhóm để đảm bảo các dự án đi đúng hướng và trong ngân sách.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án khác nhau ba
  Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) để hỗ trợ.
 ### Làm cách nào tôi có thể mua giấy phép cho Aspose.Tasks?
  Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

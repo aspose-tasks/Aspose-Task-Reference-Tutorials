@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用 NOT 操作
 linktitle: 在 Aspose.Tasks 中使用 NOT 操作
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中使用 NOT 操作来有效地过滤任务。立即增强您的项目管理能力。
-type: docs
 weight: 20
 url: /zh/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用 NOT 操作
+
 ## 介绍
 
 在本教程中，我们将探索如何在 Aspose.Tasks for .NET 中使用 NOT 操作。 NOT 操作允许我们反转过滤条件，使我们能够选择不满足指定条件的元素。
@@ -114,3 +120,9 @@ foreach (var task in collection)
 ### Q5：在哪里可以找到 Aspose.Tasks 的综合文档？
 
 答：您可以访问以下网站上的完整文档[Aspose.Tasks 文档页面](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

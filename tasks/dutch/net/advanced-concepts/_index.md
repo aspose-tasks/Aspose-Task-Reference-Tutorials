@@ -3,10 +3,16 @@ title: Aspose.Tasks Geavanceerde concepten
 linktitle: Aspose.Tasks Geavanceerde concepten
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u afbeeldingen kunt opslaan, om kunt gaan met uitzonderingen, boomalgoritmen, labelweergaven, laadopties en meer. Beheers geavanceerde concepten in Aspose.Tasks voor .NET
-type: docs
 weight: 24
 url: /nl/net/advanced-concepts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Geavanceerde concepten
+
 
 ## Invoering
 
@@ -84,3 +90,9 @@ Leer hoe u de NOT-bewerking in Aspose.Tasks voor .NET gebruikt om taken effectie
 Leer hoe u efficiënt kunt werken met OLE-objecten in .NET-toepassingen met behulp van Aspose.Tasks, waardoor de mogelijkheden voor projectbeheer worden verbeterd.
 ### [Verzameling van OLE-objecten in Aspose.Tasks](./ole-object-collection/)
 Leer hoe u OLE-objecten beheert in Aspose.Tasks voor .NET met deze uitgebreide zelfstudie. Beheers moeiteloos de verwerking van ingesloten bestanden in projectdocumenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

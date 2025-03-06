@@ -3,10 +3,16 @@ title: Definujte typ odkazu v Aspose.Tasks
 linktitle: Definujte typ odkazu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte sílu Aspose.Tasks pro Java při řízení projektů. Definujte a přizpůsobte typy odkazů bez námahy pomocí našeho podrobného výukového programu.
-type: docs
 weight: 13
 url: /cs/java/task-links/define-link-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definujte typ odkazu v Aspose.Tasks
+
 ## Úvod
 Vítejte ve světě efektivního řízení projektů s Aspose.Tasks for Java! Pokud chcete zefektivnit zpracování svých projektů a zvýšit produktivitu, jste na správném místě. V tomto obsáhlém tutoriálu vás provedeme procesem definování typů odkazů v Aspose.Tasks for Java, čímž rozšíříme možnosti řízení projektů.
 ## Předpoklady
@@ -60,3 +66,9 @@ A: Rozhodně! Aspose.Tasks poskytuje flexibilitu a umožňuje vám definovat a p
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci pro testovací účely.
 ### Otázka: Kde mohu získat podporu pro dotazy související s Aspose.Tasks?
  A: Připojte se ke komunitě Aspose.Tasks na[Fórum podpory](https://forum.aspose.com/c/tasks/15) za pomoc a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

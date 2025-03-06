@@ -3,10 +3,16 @@ title: إتقان طرق عرض مشروع Microsoft باستخدام Aspose.Tas
 linktitle: تكوين طرق العرض في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: إتقان طرق عرض Microsoft Project باستخدام Aspose.Tasks لـ .NET. قم بتخصيص وتبسيط تجربة إدارة مشروعك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان طرق عرض مشروع Microsoft باستخدام Aspose.Tasks
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، يمكن أن يؤدي تخصيص طرق العرض في Microsoft Project إلى تحسين سير عملك بشكل كبير. يوفر Aspose.Tasks for .NET مجموعة أدوات قوية لمعالجة طرق عرض المشروع وتكوينها بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في خطوات تكوين طرق العرض باستخدام Aspose.Tasks لـ .NET، مما يساعدك على تبسيط تصور مشروعك.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ Console.WriteLine("Parent Project of the view: " + view.ParentProject.Get(Prj.Na
  بالتأكيد، قم بالتعمق في وثائق Aspose.Tasks[هنا](https://reference.aspose.com/tasks/net/) لخيارات التخصيص المتقدمة.
 ### أين يمكنني شراء Aspose.Tasks لـ .NET؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy) للحصول على تجربة سلسة لإدارة المشاريع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

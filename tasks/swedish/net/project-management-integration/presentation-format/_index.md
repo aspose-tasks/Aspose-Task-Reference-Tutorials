@@ -3,10 +3,16 @@ title: Format MS Project Presentation i Aspose.Tasks
 linktitle: Formatera projektpresentation i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du formaterar MS Project-presentationer med Aspose.Tasks för .NET. Förbättra visualisering och kommunikation av projektdetaljer utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format MS Project Presentation i Aspose.Tasks
+
 ## Introduktion
 
 Vill du förbättra presentationen av dina MS Project-projekt med Aspose.Tasks för .NET? I den här handledningen guidar vi dig genom processen att formatera MS Project-projektpresentationer steg för steg. I slutet kommer du att kunna skapa snygga presentationer som effektivt kommunicerar ditt projekts detaljer.
@@ -90,3 +96,9 @@ S: Absolut, Aspose.Tasks förblir uppdaterade för att säkerställa kompatibili
 
 ### F5: Behöver jag en tillfällig licens för teständamål?
  S: Om du behöver en tillfällig licens för test- eller utvärderingsändamål kan du få en från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/) på Asposes hemsida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configuring Task Start Date Types in Aspose.Tasks
 linktitle: Configuring Task Start Date Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET to effortlessly configure task start date types. Optimize project management with ease. Download your free trial now!
-type: docs
 weight: 23
 url: /net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuring Task Start Date Types in Aspose.Tasks
+
 In the dynamic world of project management, setting the right start date for tasks is crucial. Aspose.Tasks for .NET provides a powerful solution to configure task start date types effortlessly. In this tutorial, we'll guide you through the process, breaking it down into simple steps to ensure seamless integration.
 ## Prerequisites
 Before diving into the configuration of task start date types, make sure you have the following prerequisites in place:
@@ -52,3 +58,10 @@ Visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15) to get 
 Refer to the documentation [here](https://reference.aspose.com/tasks/net/) for in-depth insights into Aspose.Tasks for .NET.
 ### Q5: Can I obtain a temporary license for Aspose.Tasks?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zaktualizuj i przełóż projekt MS w Aspose.Tasks
 linktitle: Zaktualizuj projekt i przełóż nieukończoną pracę w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak programowo aktualizować i zmieniać harmonogram plików MS Project za pomocą Aspose.Tasks dla Java.
-type: docs
 weight: 23
 url: /pl/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaktualizuj i przełóż projekt MS w Aspose.Tasks
+
 ## Wstęp
 Microsoft Project to powszechnie używane oprogramowanie do zarządzania projektami, które pozwala użytkownikom efektywnie zarządzać zadaniami, zasobami i harmonogramem. Aspose.Tasks dla Java zapewnia potężny zestaw interfejsów API do programowego manipulowania plikami Microsoft Project. W tym samouczku dowiemy się, jak zaktualizować pliki MS Project i przełożyć niezakończone prace za pomocą Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ O: Tak, Aspose.Tasks dla Java zapewnia solidne interfejsy API do wydajnego zarz�
  Odpowiedź: Tak, można kupić licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Tasks dla Java?
  Odpowiedź: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/tasks/java/) w celu uzyskania kompleksowych przewodników i referencji API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 자원 할당 비율 계산
 linktitle: Aspose.Tasks에서 자원 할당에 대한 백분율 계산
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java 프로젝트에서 자원 할당에 대한 백분율을 효율적으로 계산하여 프로젝트 관리 작업을 단순화하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 자원 할당 비율 계산
+
 ## 소개
 프로젝트 관리에서 리소스 할당을 정확하게 계산하는 것은 적시에 작업을 완료하고 리소스를 효율적으로 할당하는 데 중요합니다. Aspose.Tasks for Java는 이 프로세스를 촉진하는 강력한 도구를 제공하여 개발자가 리소스 할당에 대한 백분율을 쉽게 계산할 수 있도록 합니다.
 ## 전제조건
@@ -64,3 +70,9 @@ A: 물론 Aspose.Tasks는 다른 Java 라이브러리와 원활하게 통합되�
  A: 예, Aspose.Tasks는 포럼을 통해 전담 고객 지원을 제공합니다. 도움을 받으실 수 있습니다[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
  A: 예, 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

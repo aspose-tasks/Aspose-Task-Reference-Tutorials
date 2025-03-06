@@ -3,10 +3,16 @@ title: การใช้ Tree Algorithm ใน Aspose.Tasks
 linktitle: การใช้ Tree Algorithm ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการลำดับชั้นของงานในโครงการ .NET ของคุณอย่างมีประสิทธิภาพโดยใช้อัลกอริทึมแผนผังของ Aspose.Tasks
-type: docs
 weight: 13
 url: /th/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้ Tree Algorithm ใน Aspose.Tasks
+
 ## การแนะนำ
 
 Aspose.Tasks สำหรับ .NET มีฟังก์ชันการทำงานที่มีประสิทธิภาพสำหรับการทำงานกับงานการจัดการโครงการ ทรัพยากร และกำหนดการ คุณสมบัติอย่างหนึ่งคือ Tree Algorithm ซึ่งช่วยให้ผู้ใช้สามารถจัดการลำดับชั้นของงานได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้อัลกอริทึมแบบทรีใน Aspose.Tasks สำหรับ .NET เพื่อรวบรวมงานทั่วไปและอัปเดตค่างานภายในโปรเจ็กต์
@@ -115,3 +121,9 @@ summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ### คำถามที่ 5: มีใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับการทดสอบได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση της γραμμής βάσης εργασιών σ
 linktitle: Διαχείριση της γραμμής βάσης εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις γραμμές βάσης ανάθεσης με το Aspose.Tasks για .NET, διασφαλίζοντας ακριβή παρακολούθηση της προόδου και της απόδοσης του έργου.
-type: docs
 weight: 14
 url: /el/net/advanced-features/assignment-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση της γραμμής βάσης εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Όταν εργάζεστε σε εργασίες διαχείρισης έργου, η διαχείριση των βασικών γραμμών ανάθεσης είναι ζωτικής σημασίας για την ακριβή παρακολούθηση της προόδου. Το Aspose.Tasks για .NET παρέχει ένα ολοκληρωμένο σύνολο εργαλείων για τον αποτελεσματικό χειρισμό των βασικών γραμμών ανάθεσης. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία διαχείρισης των βασικών γραμμών ανάθεσης βήμα προς βήμα.
@@ -123,3 +129,9 @@ A4: Ναι, οι προγραμματιστές μπορούν να έχουν �
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
 
  A5: Ναι, οι προγραμματιστές μπορούν να αποκτήσουν μια δωρεάν δοκιμαστική έκδοση του Aspose.Tasks για .NET από[εδώ](https://releases.aspose.com/), επιτρέποντάς τους να αξιολογήσουν τα χαρακτηριστικά και τις δυνατότητές του πριν λάβουν μια απόφαση αγοράς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

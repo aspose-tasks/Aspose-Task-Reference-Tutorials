@@ -3,10 +3,16 @@ title: Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
 linktitle: Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET, cho phép xử lý tùy chỉnh các luồng đầu ra tài liệu nhiều trang.
-type: docs
 weight: 12
 url: /vi/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET. Tính năng này cho phép chúng tôi lưu tài liệu nhiều trang vào các luồng do người dùng cung cấp, mang lại sự linh hoạt và tùy chỉnh trong việc xử lý đầu ra.
@@ -121,3 +127,9 @@ Câu trả lời 4: Bạn có thể triển khai cơ chế xử lý lỗi trong 
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ, truy cập tài liệu[đây](https://reference.aspose.com/tasks/net/) hoặc khám phá các tính năng bổ sung và tùy chọn cấp phép trên[Trang web Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

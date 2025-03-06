@@ -3,10 +3,16 @@ title: Υπολογισμός ποσοστού πόρων MS Project με Aspose
 linktitle: Εκτελέστε υπολογισμούς ποσοστού για πόρους στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να υπολογίζετε τα ποσοστά πόρων του MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
-type: docs
 weight: 14
 url: /el/java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπολογισμός ποσοστού πόρων MS Project με Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την εκτέλεση υπολογισμών ποσοστού για πόρους του MS Project χρησιμοποιώντας Aspose.Tasks για Java. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία αξιοποίησης του Aspose.Tasks για τον αποτελεσματικό χειρισμό και εξαγωγή δεδομένων πόρων από αρχεία Microsoft Project. Το Aspose.Tasks είναι ένα ισχυρό Java API που παρέχει ολοκληρωμένες δυνατότητες για εργασία με έγγραφα του Microsoft Project, επιτρέποντας στους προγραμματιστές να ενσωματώνουν απρόσκοπτα τις λειτουργίες διαχείρισης έργων στις εφαρμογές Java τους.
 ## Προαπαιτούμενα
@@ -59,3 +65,9 @@ if (res.get(Rsc.NAME) != null) {
  Ναι, μπορείτε να βρείτε βοήθεια και να αλληλεπιδράσετε με άλλους χρήστες στο φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Το Aspose.Tasks προσφέρει προσωρινές άδειες για σκοπούς αξιολόγησης;
  Ναι, μπορείτε να λάβετε προσωρινή άδεια για αξιολόγηση από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

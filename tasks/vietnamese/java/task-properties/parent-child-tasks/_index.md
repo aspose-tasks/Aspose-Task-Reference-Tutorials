@@ -3,10 +3,16 @@ title: Quản lý nhiệm vụ của phụ huynh và trẻ em trong Aspose.Tasks
 linktitle: Quản lý nhiệm vụ của phụ huynh và trẻ em trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Nâng cao hiệu quả quản lý dự án với Aspose.Tasks cho Java. Tìm hiểu cách quản lý nhiệm vụ của cha mẹ và con cái theo từng bước. Bắt đầu ngay bây giờ!
-type: docs
 weight: 24
 url: /vi/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý nhiệm vụ của phụ huynh và trẻ em trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc tổ chức nhiệm vụ hiệu quả là rất quan trọng. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý các tác vụ cha và con một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.Tasks cho Java để hợp lý hóa các tác vụ dự án của bạn.
 ## Điều kiện tiên quyết
@@ -103,3 +109,9 @@ Tuyệt đối! Aspose.Tasks for Java cung cấp các tùy chọn tùy chỉnh m
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks cho Java ở đâu?
  Tài liệu có sẵn[đây](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

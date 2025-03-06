@@ -3,10 +3,16 @@ title: Sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks
 linktitle: Sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks dành cho .NET để lọc các tác vụ dự án một cách hiệu quả.
-type: docs
 weight: 11
 url: /vi/net/advanced-features/and-operator-all-conditions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks
+
 ## Giới thiệu
 
 Bạn đang tìm cách hợp lý hóa các nhiệm vụ quản lý dự án của mình một cách hiệu quả? Với Aspose.Tasks cho .NET, bạn có thể tận dụng các chức năng mạnh mẽ để thao tác dữ liệu dự án một cách hiệu quả. Một tính năng như vậy là khả năng sử dụng toán tử AND trong mọi điều kiện, cho phép bạn lọc các tác vụ dựa trên nhiều tiêu chí cùng một lúc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình triển khai chức năng này.
@@ -118,3 +124,9 @@ Câu trả lời 4: Có, bạn có thể tích hợp liền mạch Aspose.Tasks 
 ### Câu hỏi 5: Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho người dùng Aspose.Tasks không?
 
  Câu trả lời 5: Có, bạn có thể truy cập diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

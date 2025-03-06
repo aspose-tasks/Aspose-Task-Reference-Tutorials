@@ -3,10 +3,16 @@ title: Aspose.Tasks PDF Güvenlik Yapılandırması
 linktitle: Aspose.Tasks PDF Güvenlik Yapılandırması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project PDF'lerinizin güvenliğini nasıl artıracağınızı keşfedin. Dijital imza ve şifreleme tekniklerini öğrenin.
-type: docs
 weight: 35
 url: /tr/net/pdf-security-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks PDF Güvenlik Yapılandırması
+
 ## giriiş
 
 Dijital alanda proje dosyalarınızı korumak çok önemlidir. Aspose.Tasks for .NET, Microsoft Project PDF'lerinizin güvenliğini güçlendirmek için güçlü bir çözüm sunar. Bu eğitim serisi, PDF güvenlik yapılandırmasının inceliklerini ele alarak değerli proje verilerinizin gizliliğini ve orijinalliğini sağlar.
@@ -36,3 +42,9 @@ Veri güvenliğinin tartışılamaz olduğu bir dünyada, Aspose.Tasks for .NET 
 Aspose.Tasks for .NET'i kullanarak Microsoft Project PDF dijital imza ayrıntılarını nasıl yapılandıracağınızı öğrenin. Proje dosyalarınızın güvenliğini ve orijinalliğini sağlayın.
 ### [Aspose.Tasks'ta MS Project PDF Şifreleme Ayrıntılarını Yapılandırma](./pdf-encryption-details/)
 Aspose.Tasks for .NET'te MS Project PDF şifreleme ayrıntılarını nasıl yapılandıracağınızı öğrenin. Proje dosyalarınızı kullanıcı ve sahip şifreleriyle koruyun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

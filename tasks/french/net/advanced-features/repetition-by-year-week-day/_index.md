@@ -3,10 +3,16 @@ title: Répétition par année semaine jour dans Aspose.Tasks
 linktitle: Répétition par année semaine jour dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez la puissance d'Aspose.Tasks pour .NET pour gérer efficacement les tâches récurrentes. Guide étape par étape pour la mise en œuvre de la fonctionnalité Répétition par année, semaine et jour.
-type: docs
 weight: 28
 url: /fr/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Répétition par année semaine jour dans Aspose.Tasks
+
 ## Introduction
 
 Dans le domaine de la gestion de projet, l’efficacité et la précision sont primordiales. Aspose.Tasks for .NET apparaît comme un outil puissant, offrant une multitude de fonctionnalités pour rationaliser la gestion des projets. Parmi son arsenal figure la capacité de gérer des tâches récurrentes avec une flexibilité remarquable. L'une de ces fonctionnalités est la fonctionnalité « Répétition par année, semaine et jour », permettant aux utilisateurs de configurer des tâches qui se répètent certains jours de la semaine, au cours de mois désignés et sur plusieurs années.
@@ -126,3 +132,9 @@ R : Oui, Aspose.Tasks for .NET prend en charge les solutions de gestion de proje
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
  : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

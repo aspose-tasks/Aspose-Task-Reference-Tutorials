@@ -3,10 +3,16 @@ title: Minska klyftan mellan uppgiftslistan och sidfoten i Aspose.Tasks
 linktitle: Minska klyftan mellan uppgiftslistan och sidfoten i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du minskar klyftan mellan MS Projects uppgiftslistor och sidfötter med Aspose.Tasks för Java. Optimera projektdokumentlayout utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Minska klyftan mellan uppgiftslistan och sidfoten i Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att fördjupa oss i att minska klyftan mellan uppgiftslistan och sidfoten i Microsoft Project-filer med Aspose.Tasks för Java. Genom att följa dessa steg kommer du att kunna optimera layouten för dina projektdokument utan ansträngning.
 ## Förutsättningar
@@ -105,3 +111,9 @@ S: Ja, Aspose.Tasks stöder ett brett utbud av format, inklusive XLSX, XML och M
 ### F: Var kan jag få support om jag stöter på några problem när jag använder Aspose.Tasks?
 
  S: Du kan få hjälp från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

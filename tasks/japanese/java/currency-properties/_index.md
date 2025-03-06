@@ -3,10 +3,16 @@ title: 通貨のプロパティ
 linktitle: 通貨のプロパティ
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java チュートリアルの機能を解放します。 MS Project ファイルの通貨プロパティを簡単に読み取り、設定するためのステップバイステップのガイドをご覧ください。
-type: docs
 weight: 25
 url: /ja/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 通貨のプロパティ
+
 ## 導入
 Aspose.Tasks for Java のスキルを高める準備はできていますか?通貨プロパティに関する包括的なチュートリアルを学習し、MS Project ファイル内の通貨情報を処理する技術を習得してください。
 
@@ -35,3 +41,9 @@ Aspose.Tasks の専門知識を次のレベルに引き上げる準備はでき�
 Aspose.Tasks for Java を使用して MS Project ファイルから通貨情報を抽出する方法を学びます。ステップバイステップのガイドが提供されます。
 ### [Aspose.Tasks プロジェクトで通貨プロパティを設定する](./set-properties/)
 Java を使用して Aspose.Tasks プロジェクトで通貨プロパティを設定する方法を学びます。 Microsoft Project ファイルを簡単に操作します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

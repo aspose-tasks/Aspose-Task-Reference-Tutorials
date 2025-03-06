@@ -3,10 +3,16 @@ title: Đọc dữ liệu dự án
 linktitle: Đọc dữ liệu dự án
 second_title: API Java Aspose.Tasks
 description: Khai phá sức mạnh của Aspose.Tasks cho Java bằng các hướng dẫn của chúng tôi! Từ việc đọc định nghĩa nhóm đến trích xuất dữ liệu biểu đồ Gantt, hãy làm chủ việc tích hợp liền mạch.
-type: docs
 weight: 28
 url: /vi/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc dữ liệu dự án
+
 ## Giới thiệu
 Nếu bạn đang tìm hiểu bối cảnh rộng lớn về quản lý dự án bằng Java thì các hướng dẫn Aspose.Tasks của chúng tôi chính là ngôi sao dẫn đường cho bạn. Đi sâu vào lĩnh vực nơi việc đọc dữ liệu dự án trở thành một hành trình dễ dàng nhờ có hướng dẫn từng bước của chúng tôi. Hãy cùng nhau bắt tay vào cuộc phiêu lưu tri thức này!
 
@@ -48,3 +54,9 @@ Tìm hiểu cách đọc các tệp được bảo vệ bằng mật khẩu tron
 Tìm hiểu cách trích xuất dữ liệu biểu đồ Gantt cụ thể bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để tích hợp liền mạch vào các ứng dụng Java của bạn.
 ### [Đọc dữ liệu bảng từ tệp trong Aspose.Tasks](./read-table-data/)
 Khai phá sức mạnh của Aspose.Tasks cho Java. Tìm hiểu cách trích xuất dữ liệu bảng từ các tệp trong hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Administrar las credenciales del servidor de MS Project en Aspose.Tasks
 linktitle: Administrar credenciales de Project Server en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar las credenciales de MS Project Server sin problemas con Aspose.Tasks para .NET. Mejorar la eficiencia de la gestión de proyectos.
-type: docs
 weight: 22
 url: /es/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar las credenciales del servidor de MS Project en Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, la coordinación eficaz y la comunicación fluida son fundamentales para una ejecución exitosa del proyecto. Aspose.Tasks para .NET proporciona una solución integral para administrar las credenciales de Microsoft Project Server, lo que permite a los usuarios acceder y manipular de forma segura los datos del proyecto. Este tutorial profundiza en el proceso de administración de las credenciales de MS Project Server utilizando Aspose.Tasks para .NET, guiando a los usuarios a través de cada paso para garantizar una experiencia fluida.
 ## Requisitos previos
@@ -83,3 +89,9 @@ R: Por supuesto, Aspose.Tasks para .NET ofrece soporte integral para acceder y m
 R: Sí, Aspose.Tasks para .NET ofrece opciones de licencia flexibles, incluidas licencias temporales para fines de prueba y licencias completas para uso comercial.
 ### P: ¿Dónde puedo buscar asistencia o soporte para Aspose.Tasks para .NET?
  R: Para cualquier consulta o ayuda con respecto a Aspose.Tasks para .NET, puede visitar el foro de soporte en[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Código fuente completo
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

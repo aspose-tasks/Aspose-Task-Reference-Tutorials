@@ -3,10 +3,16 @@ title: Kelola Durasi Tugas di Aspose.Tasks
 linktitle: Kelola Durasi Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi Aspose.Tasks untuk Java dan pelajari cara mengelola durasi tugas dengan mudah. Ikuti panduan langkah demi langkah kami untuk perencanaan dan pelaksanaan proyek yang efektif.
-type: docs
 weight: 20
 url: /id/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Durasi Tugas di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk Java memberikan solusi tangguh untuk mengelola tugas dan durasi proyek secara efisien. Dalam tutorial ini, kita akan mempelajari cara mengelola durasi tugas menggunakan Aspose.Tasks, memandu Anda melalui setiap langkah. Baik Anda seorang pengembang berpengalaman atau pemula, panduan ini akan membantu Anda memahami pentingnya bekerja dengan durasi tugas dalam proyek Anda.
 ## Prasyarat
@@ -67,3 +73,9 @@ Aspose.Tasks kompatibel dengan Java 6 dan versi yang lebih baru.
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/) untuk menjelajahi Aspose.Tugas sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

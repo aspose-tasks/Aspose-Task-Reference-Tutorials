@@ -3,10 +3,16 @@ title: Project File Operations
 linktitle: Project File Operations
 second_title: Aspose.Tasks Java API
 description: Effortlessly optimize MS Project layouts with Aspose.Tasks for Java. Learn step-by-step tutorials on reducing gaps, rendering data, replacing calendars, and more.
-type: docs
 weight: 29
 url: /java/project-file-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Project File Operations
+
 ## Introduction
 Are you looking to enhance your Java project management capabilities? Dive into our comprehensive tutorials on Aspose.Tasks for Java, focusing on various project file operations. From reducing gaps in task lists to customizing MS Project views, we've got you covered.
 
@@ -94,3 +100,9 @@ Learn how to create custom MS Project views effortlessly using Aspose.Tasks for 
 Learn to manage weekday properties efficiently in Aspose.Tasks for Java. Customize week start dates, days per month, and more with ease.
 ### [Write MPP Project Summary in Aspose.Tasks](./write-mpp-project-summary/)
 Learn how to write MPP project summaries in Java using Aspose.Tasks. Set and retrieve project information effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

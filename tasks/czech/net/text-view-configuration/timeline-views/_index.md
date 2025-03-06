@@ -3,10 +3,16 @@ title: Zvládnutí zobrazení časové osy projektu v Aspose.Tasks
 linktitle: Přizpůsobení zobrazení časové osy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks for .NET v přizpůsobení zobrazení časové osy. Vylepšete své projektové řízení pomocí vizuálně přitažlivých časových plánů přizpůsobených potřebám vašeho projektu.
-type: docs
 weight: 13
 url: /cs/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí zobrazení časové osy projektu v Aspose.Tasks
+
 ## Úvod
 Vytváření vizuálně přitažlivých a informativních zobrazení časové osy je zásadní pro efektivní řízení projektu. Aspose.Tasks for .NET poskytuje robustní řešení pro přizpůsobení zobrazení časové osy, což vám umožňuje přizpůsobit zobrazení úkolů podle konkrétních potřeb vašeho projektu. V tomto podrobném průvodci prozkoumáme, jak používat Aspose.Tasks k snadnému vytváření a přizpůsobení zobrazení časové osy.
 ## Předpoklady
@@ -76,3 +82,9 @@ Absolutně! Aspose.Tasks poskytuje flexibilitu pro přizpůsobení vzhledu každ
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak získám dočasnou licenci pro Aspose.Tasks?
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

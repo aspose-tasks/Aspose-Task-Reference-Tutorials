@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة الموارد وتحليل المخاطر
 linktitle: Aspose.Tasks إدارة الموارد وتحليل المخاطر
 second_title: Aspose.Tasks .NET API
 description: إدارة موارد MS Project باستخدام Aspose.Tasks .NET. تعزيز الإنتاجية وتبسيط سير العمل. تعرف على تعيينات الموارد وطرق عرض الاستخدام وتحليل المخاطر والمزيد.
-type: docs
 weight: 26
 url: /ar/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة الموارد وتحليل المخاطر
+
 ## مقدمة
 
 هل تبحث عن طرق فعالة لإدارة موارد Microsoft Project وتحسين تحليل المخاطر باستخدام Aspose.Tasks لـ .NET؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك عبر العديد من البرامج التعليمية، التي تغطي موضوعات أساسية لتمكين المطورين ومديري المشاريع.
@@ -90,3 +96,9 @@ url: /ar/net/resource-risk-analysis/
 تعرف على كيفية إدارة أنماط المخاطر بشكل فعال في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. تحسين نتائج المشروع باستخدام أدوات تحليل المخاطر القوية.
 ### [إدارة أنماط المخاطر في مشروع MS باستخدام Aspose.Tasks](./risk-pattern-collection/)
 تعرف على كيفية تحليل أنماط المخاطر ومعالجتها بشكل فعال في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

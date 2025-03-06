@@ -3,10 +3,16 @@ title: Ekstrak Informasi Header dan Footer dengan Aspose.Tasks
 linktitle: Informasi Header dan Footer di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengekstrak info header & footer dari file MS Project menggunakan Aspose.Tasks untuk .NET. Solusi yang mudah, efisien, dan ramah pengembang.
-type: docs
 weight: 29
 url: /id/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Informasi Header dan Footer dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project dengan mudah. Dalam tutorial ini, kita akan mempelajari cara mengambil informasi header dan footer dari file MS Project menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -70,3 +76,9 @@ Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, dan M
  Anda dapat menemukan dokumentasi untuk Aspose.Tasks[Di Sini](https://reference.aspose.com/tasks/net/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
  Anda bisa mendapatkan dukungan untuk Aspose.Tasks dengan mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

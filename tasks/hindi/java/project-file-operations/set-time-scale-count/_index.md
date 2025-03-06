@@ -3,10 +3,16 @@ title: Aspose.Tasks में एमएस प्रोजेक्ट टाइ
 linktitle: Aspose.Tasks में टाइम स्केल गणना सेट करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके एमएस प्रोजेक्ट में टाइम स्केल गणना को प्रभावी ढंग से प्रबंधित करना सीखें। प्रोजेक्ट विज़ुअलाइज़ेशन और प्रबंधन को सहजता से अनुकूलित करें।
-type: docs
 weight: 22
 url: /hi/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में एमएस प्रोजेक्ट टाइम स्केल गणना में महारत हासिल करना
+
 ## परिचय
 एमएस प्रोजेक्ट में टाइम स्केल गणना का प्रबंधन प्रोजेक्ट विज़ुअलाइज़ेशन और प्रबंधन को महत्वपूर्ण रूप से प्रभावित कर सकता है। जावा के लिए Aspose.Tasks के साथ, प्रोजेक्ट प्रबंधन कार्यों को प्रोग्रामेटिक रूप से संभालने के लिए एक शक्तिशाली एपीआई, आप अपनी विशिष्ट आवश्यकताओं के अनुसार प्रोजेक्ट दृश्यों को तैयार करने के लिए समय पैमाने की गणना में कुशलतापूर्वक हेरफेर कर सकते हैं।
 ## आवश्यक शर्तें
@@ -91,3 +97,9 @@ project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
  उत्तर: हाँ, आप नि:शुल्क परीक्षण संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: जावा के लिए Aspose.Tasks के लिए मुझे समर्थन कहां से मिल सकता है?
  उत्तर: आप Aspose.Tasks फोरम पर समर्थन और सहायता पा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

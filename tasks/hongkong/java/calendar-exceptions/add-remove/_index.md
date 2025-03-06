@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理行事曆異常
 linktitle: 在 Aspose.Tasks 中新增和刪除日曆異常
 second_title: Aspose.Tasks Java API
 description: 了解如何在 Aspose.Tasks for Java 中有效地新增和刪除日曆異常。輕鬆增強專案管理工作流程。
-type: docs
 weight: 10
 url: /zh-hant/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理行事曆異常
+
 
 ## 介紹
 在專案管理中，處理行事曆中的異常對於準確安排任務和管理資源至關重要。 Aspose.Tasks for Java 提供了強大的功能來輕鬆新增和刪除日曆異常。在本教程中，我們將逐步指導您完成流程。
@@ -79,3 +85,10 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 ### Q：對於與 Aspose.Tasks for Java 相關的任何問題或疑問，我可以在哪裡尋求支援？
 
 答：您可以造訪 Java 的 Aspose.Tasks 論壇[網站](https://reference.aspose.com/tasks/java/)向社區尋求協助或直接聯繫支援團隊以獲得個人化協助。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

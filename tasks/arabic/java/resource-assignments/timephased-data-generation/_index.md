@@ -3,10 +3,16 @@ title: إنشاء بيانات موزعة على الوقت في Aspose.Tasks
 linktitle: قم بإنشاء بيانات موزعة على الوقت لتعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء بيانات موزعة على الوقت لتعيينات الموارد باستخدام Aspose.Tasks لـ Java. قم بتحسين كفاءة إدارة المشاريع باستخدام هذا الدليل الشامل.
-type: docs
 weight: 24
 url: /ar/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء بيانات موزعة على الوقت في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية إنشاء البيانات الموزعة على الوقت لتعيينات الموارد باستخدام Aspose.Tasks لـ Java. توفر البيانات الموزعة على الوقت رؤى قيمة حول كيفية تخصيص الموارد بمرور الوقت داخل المشروع، مما يساعد مديري المشاريع على اتخاذ قرارات مستنيرة.
 ## المتطلبات الأساسية
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 نعم، يسمح Aspose.Tasks للمستخدمين بتحديد حدود العمل المخصصة لتناسب احتياجات المشروع الخاصة بهم.
 ### هل يوجد منتدى مجتمعي حيث يمكنني الحصول على المساعدة فيما يتعلق بـ Aspose.Tasks؟
  نعم يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zvládněte roční vzory opakování v Aspose.Tasks pro .NET
 linktitle: Konfigurace vzorů ročního opakování v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat vzory ročního opakování v Aspose.Tasks pro .NET. Vylepšete své dovednosti projektového řízení pomocí tohoto podrobného průvodce.
-type: docs
 weight: 18
 url: /cs/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládněte roční vzory opakování v Aspose.Tasks pro .NET
+
 ## Úvod
 dynamickém světě projektového řízení je efektivní zvládání opakujících se úkolů klíčovým aspektem. Aspose.Tasks for .NET poskytuje výkonné řešení pro konfiguraci vzorů ročního opakování, což vám umožní zefektivnit plánování a správu vašich projektů. V tomto podrobném průvodci prozkoumáme, jak nastavit roční vzorce opakování pomocí Aspose.Tasks.
 ## Předpoklady
@@ -69,3 +75,9 @@ tomto tutoriálu jsme prozkoumali proces konfigurace vzorů ročního opakován�
  Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu a pomoc komunity.
 ### Mohu si Aspose.Tasks před nákupem zdarma vyzkoušet?
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

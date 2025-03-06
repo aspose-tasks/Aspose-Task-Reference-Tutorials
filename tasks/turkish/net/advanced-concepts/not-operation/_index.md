@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta NOT İşlemi ile Çalışmak
 linktitle: Aspose.Tasks'ta NOT İşlemi ile Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Görevleri etkili bir şekilde filtrelemek için Aspose.Tasks for .NET'te NOT işlemini nasıl kullanacağınızı öğrenin. Proje yönetimi becerilerinizi şimdi geliştirin.
-type: docs
 weight: 20
 url: /tr/net/advanced-concepts/not-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta NOT İşlemi ile Çalışmak
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te NOT işleminin nasıl kullanılacağını inceleyeceğiz. NOT işlemi, bir filtre koşulunu tersine çevirmemizi sağlayarak, belirli bir kriteri karşılamayan öğeleri seçmemizi sağlar.
@@ -114,3 +120,9 @@ C: Evet, Aspose.Tasks, .NET Core, .NET Standard ve .NET Framework dahil olmak ü
 ### S5: Aspose.Tasks için kapsamlı belgeleri nerede bulabilirim?
 
  C: Belgelerin tamamına şu adresten erişebilirsiniz:[Aspose.Tasks dokümantasyon sayfası](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

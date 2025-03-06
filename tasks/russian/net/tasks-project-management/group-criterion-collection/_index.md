@@ -3,10 +3,16 @@ title: Управляйте критериями группы проектов M
 linktitle: Управление коллекцией групповых критериев в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять коллекцией групповых критериев MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство для разработчиков.
-type: docs
 weight: 28
 url: /ru/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управляйте критериями группы проектов MS с помощью Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft Project. В этом уроке мы рассмотрим, как управлять коллекцией групповых критериев в MS Project с помощью Aspose.Tasks.
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### В5: Как я могу получить поддержку, если у меня возникнут какие-либо проблемы?
 
  О: Если у вас есть какие-либо вопросы или вы столкнулись с какими-либо проблемами, вы можете обратиться за поддержкой на форум Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

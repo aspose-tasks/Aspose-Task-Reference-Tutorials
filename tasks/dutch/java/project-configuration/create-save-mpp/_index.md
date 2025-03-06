@@ -3,10 +3,16 @@ title: Creëer en bewaar een leeg project in MPP-formaat met Aspose.Tasks
 linktitle: Creëer en bewaar een leeg project in MPP-formaat met Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u een leeg MS Project-bestand (MPP) kunt maken en opslaan met Aspose.Tasks voor Java. Vereenvoudig projectbeheertaken moeiteloos.
-type: docs
 weight: 12
 url: /nl/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creëer en bewaar een leeg project in MPP-formaat met Aspose.Tasks
+
 ## Invoering
 Het maken en opslaan van een leeg MS Project-bestand (MPP) met Aspose.Tasks voor Java is een eenvoudig proces. In deze zelfstudie doorlopen we elke stap om u te helpen deze taak efficiënt uit te voeren.
 ## Vereisten
@@ -61,3 +67,9 @@ A: Absoluut, Aspose.Tasks voor Java biedt uitgebreide mogelijkheden om taak- en 
 A: Ja, Aspose.Tasks voor Java ondersteunt verschillende projectbestandsindelingen, waaronder XML, CSV en meer.
 ### Vraag: Waar kan ik aanvullende ondersteuning vinden voor Aspose.Tasks voor Java?
  A: U kunt Aspose.Tasks bezoeken[forum](https://forum.aspose.com/c/tasks/15) voor Java-specifieke ondersteuning en assistentie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

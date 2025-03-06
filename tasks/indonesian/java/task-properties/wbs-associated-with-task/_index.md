@@ -3,10 +3,16 @@ title: WBS Terkait dengan Tugas di Aspose.Tasks
 linktitle: WBS Terkait dengan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Kuasai WBS dengan Aspose.Tasks untuk Java - Belajar membaca dan memberi nomor ulang kode WBS tugas. Tingkatkan efisiensi manajemen proyek!
-type: docs
 weight: 36
 url: /id/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS Terkait dengan Tugas di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di dunia manajemen proyek dengan Aspose.Tasks untuk Java! Dalam tutorial ini, kita akan mempelajari seluk-beluk Struktur Perincian Kerja (WBS) yang terkait dengan tugas menggunakan Aspose.Tasks untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membantu Anda memahami esensi pengelolaan kode WBS secara efisien.
 ## Prasyarat
@@ -90,3 +96,9 @@ Selamat! Anda telah berhasil mempelajari cara bekerja dengan kode WBS menggunaka
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan.
 ### T: Dapatkah saya memperoleh lisensi sementara untuk Aspose.Tasks untuk Java?
  A: Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Overtimes in Tasks with Aspose.Tasks
 linktitle: Overtimes in Tasks with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore efficient overtime management in project tasks with Aspose.Tasks for Java. Simplify tracking and resource allocation effortlessly.
-type: docs
 weight: 23
 url: /java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Overtimes in Tasks with Aspose.Tasks
+
 ## Introduction
 Managing overtime in project tasks is crucial for project managers and team leaders to ensure accurate tracking and resource allocation. Aspose.Tasks for Java provides a powerful solution for handling overtime-related aspects in project management. In this tutorial, we'll explore how to utilize Aspose.Tasks to effectively manage and analyze overtime in project tasks.
 ## Prerequisites
@@ -54,3 +60,10 @@ Yes, you can find licensing details and obtain a temporary license [here](https:
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to engage with the community and seek support.
 ### Is there a free trial version available for Aspose.Tasks?
 Yes, you can access the free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

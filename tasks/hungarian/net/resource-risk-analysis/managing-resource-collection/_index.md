@@ -3,10 +3,16 @@ title: Projekt erőforrás-gyűjtemény kezelése az Aspose.Tasks-ban
 linktitle: Erőforrás-gyűjtemény kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan a Microsoft Project erőforrásgyűjteményeit .NET-ben az Aspose.Tasks API használatával. Növelje a termelékenységet és a rugalmasságot.
-type: docs
 weight: 13
 url: /hu/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projekt erőforrás-gyűjtemény kezelése az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet hatékonyan kezelni a Microsoft Project erőforrásgyűjteményeit az Aspose.Tasks for .NET használatával. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal, lehetővé téve a projektadatok zökkenőmentes integrációját és kezelését.
 ## Előfeltételek
@@ -99,3 +105,9 @@ V: Igen, az Aspose.Tasks támogatja a többszálú feldolgozást, amely lehetőv
 ### K: Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
 
  V: Igen, az Aspose.Tasks felhasználói a fórumon keresztül érhetik el a technikai támogatást[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

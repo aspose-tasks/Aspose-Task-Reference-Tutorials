@@ -3,10 +3,16 @@ title: Mengelola Kredensial MS Project Server di Aspose.Tasks
 linktitle: Mengelola Kredensial Server Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola kredensial MS Project Server secara lancar dengan Aspose.Tasks untuk .NET. Meningkatkan efisiensi manajemen proyek.
-type: docs
 weight: 22
 url: /id/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Kredensial MS Project Server di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang manajemen proyek, koordinasi yang efektif dan komunikasi yang lancar sangat penting untuk keberhasilan pelaksanaan proyek. Aspose.Tasks untuk .NET memberikan solusi komprehensif untuk mengelola kredensial Microsoft Project Server, memungkinkan pengguna mengakses dan memanipulasi data proyek dengan aman. Tutorial ini mempelajari proses pengelolaan kredensial MS Project Server menggunakan Aspose.Tasks untuk .NET, memandu pengguna melalui setiap langkah untuk memastikan pengalaman yang lancar.
 ## Prasyarat
@@ -83,3 +89,9 @@ J: Tentu saja, Aspose.Tasks untuk .NET menawarkan dukungan komprehensif untuk me
 J: Ya, Aspose.Tasks untuk .NET menawarkan opsi lisensi yang fleksibel, termasuk lisensi sementara untuk tujuan uji coba dan lisensi penuh untuk penggunaan komersial.
 ### T: Di mana saya dapat mencari bantuan atau dukungan untuk Aspose.Tasks untuk .NET?
  J: Untuk pertanyaan atau bantuan apa pun mengenai Aspose.Tasks untuk .NET, Anda dapat mengunjungi forum dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).## Kode Sumber Lengkap
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

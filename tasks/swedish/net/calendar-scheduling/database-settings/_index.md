@@ -3,10 +3,16 @@ title: Databasinställningar i Aspose.Tasks
 linktitle: Databasinställningar i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du importerar projekt från en Primavera-databas med Aspose.Tasks för .NET. Få steg-för-steg-vägledning i denna omfattande handledning.
-type: docs
 weight: 29
 url: /sv/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Databasinställningar i Aspose.Tasks
+
 ## Introduktion
 
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft Project-filer i sina .NET-applikationer. I den här handledningen kommer vi att fokusera på att importera projekt från en Primavera-databas med Aspose.Tasks.
@@ -100,3 +106,9 @@ S1: Ja, du kan importera projekt från olika databasleverantörer genom att just
 ### F5: Behöver jag en tillfällig licens för att använda Aspose.Tasks för .NET?
 
  S5: Om du vill utvärdera bibliotekets fulla funktionalitet kan du få en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

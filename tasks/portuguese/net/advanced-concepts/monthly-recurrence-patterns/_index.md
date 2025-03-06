@@ -3,10 +3,16 @@ title: Lidando com padrões de recorrência mensal em Aspose.Tasks
 linktitle: Lidando com padrões de recorrência mensal em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com padrões de recorrência mensal em Aspose.Tasks for .NET com este tutorial passo a passo.
-type: docs
 weight: 18
 url: /pt/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lidando com padrões de recorrência mensal em Aspose.Tasks
+
 ## Introdução
 
 Aspose.Tasks for .NET é uma API poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente. Uma das funcionalidades essenciais que oferece é a capacidade de lidar com tarefas recorrentes de forma eficiente. Neste tutorial, vamos nos aprofundar em como trabalhar com padrões de recorrência mensal usando Aspose.Tasks, passo a passo.
@@ -94,3 +100,9 @@ A2: Sim, Aspose.Tasks oferece amplas opções para personalizar padrões de reco
 ### Q5: Onde posso comprar uma licença para Aspose.Tasks?
 
  A5: Você pode adquirir uma licença para Aspose.Tasks no site[aqui](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gestion efficace des coûts d'affectation avec Aspose.Tasks
 linktitle: Gérer le coût de l'affectation dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment gérer efficacement les coûts d'affectation dans Aspose.Tasks pour Java. Guide étape par étape pour gérer efficacement les ressources du projet.
-type: docs
 weight: 12
 url: /fr/java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion efficace des coûts d'affectation avec Aspose.Tasks
+
 ## Introduction
 La gestion efficace des coûts de mission est cruciale pour les tâches de gestion de projet. Aspose.Tasks for Java fournit des fonctionnalités puissantes pour gérer efficacement les coûts d'affectation. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de gestion des coûts d'affectation à l'aide d'Aspose.Tasks for Java.
 ## Conditions préalables
@@ -64,3 +70,9 @@ R : Aspose.Tasks for Java prend en charge différents formats de fichiers de pro
  R : Oui, vous pouvez télécharger un essai gratuit à partir du[site web](https://releases.aspose.com/).
 ### Q : Ai-je besoin d’une licence temporaire pour utiliser Aspose.Tasks for Java dans le cadre d’un essai ?
 R : Non, une licence temporaire n’est pas requise pour une utilisation d’essai. Cependant, il est recommandé pour les environnements de production.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

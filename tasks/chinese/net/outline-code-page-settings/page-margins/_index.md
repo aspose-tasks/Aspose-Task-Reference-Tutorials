@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 轻松设置 MS 项目页边距
 linktitle: 在 Aspose.Tasks 中设置页边距
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 调整 Microsoft Project 文件中的页边距。轻松增强文档布局和演示。
-type: docs
 weight: 19
 url: /zh/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 轻松设置 MS 项目页边距
+
 ## 介绍
 在项目管理领域，效率和精确度至关重要。 Aspose.Tasks for .NET 提供了一个强大的工具包，用于以编程方式管理 Microsoft Project 文件，使开发人员能够简化流程并提高生产力。在本教程中，我们将深入研究项目文件操作的一个特定方面：使用 Aspose.Tasks for .NET 设置页边距。在本指南结束时，您将掌握在 Microsoft Project 文件中无缝调整页边距的知识，从而促进更好的文档布局和演示。
 ## 先决条件
@@ -73,3 +79,9 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 答：是的，Aspose.Tasks 提供了一套全面的项目管理功能，包括任务调度、资源分配和报告。
 ### 问：我可以将 Aspose.Tasks 集成到 Web 应用程序中吗？
 答：当然！ Aspose.Tasks for .NET 可以无缝集成到 Web 应用程序中，以增强项目管理功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

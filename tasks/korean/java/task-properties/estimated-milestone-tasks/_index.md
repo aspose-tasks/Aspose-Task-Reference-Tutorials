@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 예상 및 마일스톤 작업 처리
 linktitle: Aspose.Tasks에서 예상 및 마일스톤 작업 처리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 효과적인 프로젝트 관리를 살펴보세요. 예상 작업과 주요 작업을 손쉽게 처리하세요. 지금 라이브러리를 다운로드하세요!
-type: docs
 weight: 15
 url: /ko/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 예상 및 마일스톤 작업 처리
+
 ## 소개
 Aspose.Tasks for Java는 작업 처리, 프로젝트 관리 및 프로젝트 데이터 조작을 쉽게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 예상 작업과 마일스톤 작업을 처리하는 프로젝트 관리의 중요한 측면에 중점을 둘 것입니다.
 ## 전제조건
@@ -60,3 +66,9 @@ Aspose.Tasks for Java에서 예상 작업과 마일스톤 작업 처리를 마�
  예, Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

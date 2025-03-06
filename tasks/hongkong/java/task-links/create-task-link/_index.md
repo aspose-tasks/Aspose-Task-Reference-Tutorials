@@ -3,10 +3,16 @@ title: 在Aspose.Tasks中建立任務鏈接
 linktitle: 在Aspose.Tasks中建立任務鏈接
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 解鎖 Java 專案中的無縫任務連結。透過我們的逐步指南掌握任務連結所創造的藝術。現在下載！
-type: docs
 weight: 11
 url: /zh-hant/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Tasks中建立任務鏈接
+
 ## 介紹
 高效的任務連結對於簡化專案管理至關重要，Aspose.Tasks for Java 為開發人員提供了強大的工具來無縫實現這一目標。本逐步指南將引導您完成使用 Aspose.Tasks for Java 掌握任務連結建立的過程。
 ## 先決條件
@@ -57,3 +63,9 @@ System.out.println("Task Link Creation Process Completed Successfully");
 答：是的，請查看文件以取得全面的範例專案和程式碼片段。
 ### Q：購買 Aspose.Tasks for Java 的推薦方式是什麼？
 答：透過造訪以下地址來保護您的副本[購買頁面](https://purchase.aspose.com/buy)並探索許可證選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arbeta med tillgänglighetsperioder i Aspose.Tasks
 linktitle: Arbeta med tillgänglighetsperioder i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt hanterar resurstillgänglighetsperioder med Aspose.Tasks för .NET. Den här handledningen ger en steg-för-steg-guide för att arbeta med tillgänglighetsperioder i dina .NET-projekt.
-type: docs
 weight: 17
 url: /sv/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med tillgänglighetsperioder i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperioder i Aspose.Tasks för .NET. Tillgänglighetsperioder är avgörande för att hantera resurser effektivt i projektledningsscenarier. Vi guidar dig genom processen steg för steg.
@@ -107,3 +113,9 @@ S2: Ja, du kan få en gratis testversion av Aspose.Tasks för .NET[här](https:/
 ### F5: Erbjuder ni tillfälliga licenser för Aspose.Tasks för .NET?
 
  A5: Ja, tillfälliga licenser är tillgängliga[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

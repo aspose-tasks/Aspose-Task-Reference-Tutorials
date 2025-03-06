@@ -3,10 +3,16 @@ title: Kelola Properti Tahun Anggaran di Aspose.Tasks
 linktitle: Kelola Properti Tahun Anggaran di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengelola properti tahun fiskal secara efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah dengan contoh disediakan.
-type: docs
 weight: 15
 url: /id/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Properti Tahun Anggaran di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang mengelola file proyek secara efisien, termasuk menangani properti tahun fiskal. Dalam tutorial ini, kita akan memandu proses pengelolaan properti tahun fiskal menggunakan Aspose.Tasks di Java.
 ## Prasyarat
@@ -66,3 +72,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format file proyek termasuk MPP, XML, dan
  J: Ya, Anda dapat mengakses Aspose.Tasks versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya dapat membeli lisensi Aspose.Tasks untuk Java?
  J: Anda dapat membeli lisensi Aspose.Tasks untuk Java dari[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

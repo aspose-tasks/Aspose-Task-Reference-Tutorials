@@ -3,10 +3,16 @@ title: Zvládnutí pracovní doby v Aspose.Tasks
 linktitle: Sbírka pracovních dob v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě časových os projektů. Snadno si přizpůsobte kalendáře, nastavte pracovní dobu a zefektivněte své projekty.
-type: docs
 weight: 14
 url: /cs/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí pracovní doby v Aspose.Tasks
+
 ## Úvod
 Chcete zvládnout umění řízení pracovní doby v Aspose.Tasks pro .NET? Už nehledejte! V tomto podrobném průvodci se ponoříme do složitosti sběru pracovní doby pomocí Aspose.Tasks, což vám umožní efektivně pracovat s vlastními kalendáři a zefektivnit časové osy vašich projektů.
 ## Předpoklady
@@ -114,3 +120,9 @@ Rozhodně! Aspose.Tasks se hladce integruje s ostatními knihovnami .NET, čím�
  Ano, můžete navštívit Aspose.Tasks s bezplatnou zkušební verzí[tento odkaz](https://releases.aspose.com/).
 ### Kde mohu hledat podporu pro Aspose.Tasks?
  V případě jakýchkoli dotazů nebo pomoci navštivte stránku[Fórum podpory Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트에서 통화 속성 설정
 linktitle: Aspose.Tasks 프로젝트에서 통화 속성 설정
 second_title: Aspose.Tasks 자바 API
 description: Java를 사용하여 Aspose.Tasks 프로젝트에서 통화 속성을 설정하는 방법을 알아보세요. Microsoft Project 파일을 쉽게 조작할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트에서 통화 속성 설정
+
 ## 소개
 이 튜토리얼에서는 Java를 사용하여 Aspose.Tasks 프로젝트에서 통화 속성을 설정하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 Java 라이브러리입니다.
 ## 전제조건
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 예, Aspose.Tasks는 다른 Java 라이브러리 및 프레임워크와 원활하게 통합되어 기능과 다양성을 향상시킬 수 있습니다.
 ### Aspose.Tasks에 대한 추가 지원은 어디에서 찾을 수 있나요?
  추가 지원을 받으려면 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)에서 유용한 리소스를 찾고 커뮤니티에 참여할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

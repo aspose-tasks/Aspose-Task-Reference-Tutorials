@@ -3,10 +3,16 @@ title: Mengelola Modul VBA di Aspose.Tasks
 linktitle: Mengelola Modul VBA di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kelola modul VBA dengan mudah di file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Jelajahi panduan langkah demi langkah dan tingkatkan alur kerja pengembangan Anda.
-type: docs
 weight: 10
 url: /id/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Modul VBA di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project di aplikasi .NET mereka. Salah satu fitur utama Aspose.Tasks adalah kemampuannya untuk mengelola modul VBA (Visual Basic for Applications) dalam file Proyek. Dalam tutorial ini, kita akan mempelajari proses pengelolaan modul VBA menggunakan Aspose.Tasks dalam panduan langkah demi langkah.
 ## Prasyarat
@@ -74,3 +80,9 @@ Sangat! Aspose.Tasks menyediakan metode untuk tidak hanya membaca tetapi juga me
 Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan untuk masalah apa pun terkait Aspose.Tasks?
 Jangan ragu untuk mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

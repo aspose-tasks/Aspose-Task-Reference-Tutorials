@@ -3,10 +3,16 @@ title: Zvládnutí kolekcí polí tabulky v Aspose.Tasks pro .NET
 linktitle: Kolekce polí tabulky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte dynamický svět projektového řízení s Aspose.Tasks for .NET. Naučte se, jak manipulovat s kolekcemi polí tabulky, abyste získali přizpůsobené prostředí projektu.
-type: docs
 weight: 13
 url: /cs/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí kolekcí polí tabulky v Aspose.Tasks pro .NET
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která usnadňuje správu projektů tím, že poskytuje rozsáhlé funkce pro práci se soubory Microsoft Project. V tomto tutoriálu se ponoříme do kolekce polí tabulky v Aspose.Tasks a prozkoumáme, jak s nimi efektivně manipulovat a spravovat je pomocí C#.
 ## Předpoklady
@@ -111,3 +117,9 @@ Absolutně! Jak je znázorněno ve výukovém programu, můžete podle potřeby 
  Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)získat podporu, klást otázky a spolupracovat s komunitou.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
  Ano, funkce Aspose.Tasks for .NET můžete prozkoumat pomocí bezplatné zkušební verze. Stáhnout to[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

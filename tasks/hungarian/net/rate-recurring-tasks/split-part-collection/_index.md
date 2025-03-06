@@ -3,10 +3,16 @@ title: Gyűjtse össze az MS Project of Split Parts az Aspose.Tasks-ban
 linktitle: Osztott alkatrészek gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan gyűjthet össze osztott részeket az MS Projectben az Aspose.Tasks for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 19
 url: /hu/net/rate-recurring-tasks/split-part-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gyűjtse össze az MS Project of Split Parts az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthetünk osztott részeket az MS Projectben az Aspose.Tasks for .NET segítségével. A feladatok részekre bontása a projektmenedzsment kulcsfontosságú szempontja lehet, és az Aspose.Tasks kényelmes módszereket kínál ennek hatékony kezelésére.
 ## Előfeltételek
@@ -66,3 +72,9 @@ V: Az Aspose.Tasks az MS Project fájlok különféle verzióit támogatja, bizt
  V: Ideiglenes engedélyek szerezhetők be[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
 ### K: Hol kérhetek segítséget vagy támogatást az Aspose.Tasks-szal kapcsolatban?
  V: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15)hogy segítséget kérjen a közösségtől vagy az Aspose ügyfélszolgálati csapatától.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

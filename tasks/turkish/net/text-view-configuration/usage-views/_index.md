@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kullanım Görünümlerini Yapılandırma
 linktitle: Aspose.Tasks'ta Kullanım Görünümlerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te görev kullanım görünümlerini yapılandırmayı öğrenin. Ayrıntılı adımlarla proje görselleştirmesini geliştirin. Kütüphaneyi şimdi indirin!
-type: docs
 weight: 17
 url: /tr/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kullanım Görünümlerini Yapılandırma
+
 ## giriiş
 Proje yönetimi yeteneklerinizi geliştirmek isteyen bir .NET geliştiricisiyseniz Aspose.Tasks, Microsoft Project dosyalarını zahmetsizce değiştirmenize olanak tanıyan güçlü bir araçtır. Bu eğitimde Aspose.Tasks for .NET'i kullanarak kullanım görünümlerini yapılandırmaya odaklanacağız. Daha iyi proje görselleştirmesi için görev kullanım görünümlerinin ayrıntılarla birlikte oluşturulmasına ilişkin içgörüler kazanmak için takip edin.
 ## Önkoşullar
@@ -72,3 +78,9 @@ Tebrikler! Aspose.Tasks'ta kullanım görünümlerini başarıyla yapılandırd�
  Evet, ücretsiz denemeyi keşfedin[Burada](https://releases.aspose.com/).
 ### S: Desteğe mi ihtiyacınız var veya sorularınız mı var?
  Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

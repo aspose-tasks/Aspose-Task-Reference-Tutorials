@@ -3,10 +3,16 @@ title: Aspose.Tasks アウトライン コードとページ設定
 linktitle: Aspose.Tasks アウトライン コードとページ設定
 second_title: Aspose.Tasks .NET API
 description: アウトライン コード、コレクション、定義、マスク、ページ設定に関するチュートリアルで、Aspose.Tasks for .NET をマスターします。プロジェクトの組織化とカスタマイズを強化します。
-type: docs
 weight: 25
 url: /ja/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks アウトライン コードとページ設定
+
 ## 導入
 Aspose.Tasks for .NET によるシームレスなプロジェクト管理の世界へようこそ!精度と効率性が交渉の余地のないこのデジタル時代では、複雑な Microsoft Project を使いこなすことがゲームチェンジャーとなります。当社の包括的な一連のチュートリアルでは、Aspose.Tasks for .NET の微妙な違いをガイドし、アウトライン コードの管理、データ定義の操作、マスクや値の操作、ページ設定のカスタマイズを簡単に行えるようにします。経験豊富なプロジェクト マネージャーであっても、この分野の初心者であっても、当社のチュートリアルはあらゆるスキル レベルに対応しており、段階的な手順とコード例が提供されています。この旅に参加して、Aspose.Tasks の可能性を最大限に引き出し、プロジェクトの組織化とカスタマイズへのアプローチ方法に革命を起こしましょう。プロジェクト管理スキルを新たな高みに引き上げてみましょう!
 ## Aspose.Tasks for .NET を使用したアウトライン コードの管理
@@ -71,3 +77,9 @@ Aspose.Tasks for .NET を使用して Microsoft Project ファイルのページ
 Aspose.Tasks for .NET を使用して MS Project ページ設定を構成する方法を学習します。簡単な手順で方向やサイズなどをカスタマイズします。
 ### [Aspose.Tasks での MS Project ページ ビュー設定のカスタマイズ](./page-view-settings/)
 Aspose.Tasks for .NET でページ ビュー設定を構成し、Microsoft Project ドキュメントの印刷形式を調整する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kolekce přiřazení zdrojů v Aspose.Tasks
 linktitle: Kolekce přiřazení zdrojů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se spravovat přiřazení zdrojů v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. Výukový program krok za krokem s příklady kódu.
-type: docs
 weight: 12
 url: /cs/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekce přiřazení zdrojů v Aspose.Tasks
+
 ## Úvod
 Vítejte v tomto komplexním kurzu o správě přiřazení zdrojů v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. V tomto tutoriálu se ponoříme do procesu krok za krokem a zajistíme, že budete dobře rozumět tomu, jak efektivně manipulovat s přiřazením zdrojů. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede vším, co potřebujete vědět.
 ## Předpoklady
@@ -94,3 +100,9 @@ Odpověď: Ano, Aspose.Tasks for .NET podporuje různé verze souborů Microsoft
  Odpověď: Ano, dočasné licence jsou k dispozici pro účely hodnocení. Můžete získat jeden od[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde si mohu zakoupit plnou licenci pro Aspose.Tasks pro .NET?
  Odpověď: Plnou licenci si můžete zakoupit v online obchodu Aspose[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

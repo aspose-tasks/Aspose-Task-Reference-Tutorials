@@ -3,10 +3,16 @@ title: عرض استخدام الموارد وعرض الورقة في Aspose.Ta
 linktitle: عرض استخدام الموارد وعرض الورقة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية عرض استخدام موارد MS Project وطرق عرض الورقة في Aspose.Tasks لـ Java. اتبع دليلنا خطوة بخطوة لإنشاء تقارير PDF مفصلة دون عناء.
-type: docs
 weight: 16
 url: /ar/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض استخدام الموارد وعرض الورقة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعلم كيفية استخدام Aspose.Tasks لـ Java لعرض استخدام موارد MS Project وطرق عرض الورقة. Aspose.Tasks هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ project.save(dataDir + months, options);
 لا، Aspose.Tasks هي مكتبة مستقلة ولا تتطلب تثبيت Microsoft Project لتعمل.
 ### هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
  نعم، يمكن لمستخدمي Aspose.Tasks الاستفادة من الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

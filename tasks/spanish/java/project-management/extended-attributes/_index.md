@@ -3,10 +3,16 @@ title: Manejar atributos extendidos en proyectos Aspose.Tasks
 linktitle: Manejar atributos extendidos en proyectos Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a manejar atributos extendidos en proyectos Aspose.Tasks utilizando Java de manera eficiente. Guía paso a paso para una gestión eficaz de proyectos.
-type: docs
 weight: 13
 url: /es/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejar atributos extendidos en proyectos Aspose.Tasks
+
 ## Introducción
 La gestión de atributos extendidos en la gestión de proyectos es crucial para personalizar y mejorar los datos del proyecto. Aspose.Tasks para Java proporciona herramientas sólidas para manejar atributos extendidos en archivos de MS Project de manera eficiente. Este tutorial lo guiará a través del proceso paso a paso, asegurándose de que comprenda cada concepto a fondo.
 ## Requisitos previos
@@ -86,3 +92,9 @@ R: Por supuesto, Aspose.Tasks le permite definir tipos de atributos extendidos p
  R: Puede encontrar documentación completa en el sitio web de Aspose.Tasks[documentación](https://reference.aspose.com/tasks/java/).
 ### P: ¿Hay soporte técnico disponible para los usuarios de Aspose.Tasks?
  R: Sí, puede acceder a soporte técnico a través del foro Aspose.Tasks[sitio web](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

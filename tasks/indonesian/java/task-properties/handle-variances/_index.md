@@ -3,10 +3,16 @@ title: Tangani Varians Tugas di Aspose.Tasks
 linktitle: Tangani Varians Tugas di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi kekuatan Aspose.Tasks untuk Java dalam mengelola varian tugas proyek. Ikuti panduan komprehensif kami untuk integrasi yang lancar dan penanganan yang efisien.
-type: docs
 weight: 19
 url: /id/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tangani Varians Tugas di Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia manajemen proyek, Aspose.Tasks untuk Java menonjol sebagai alat yang tangguh dan serbaguna untuk menangani varian tugas secara efisien. Tutorial ini akan memandu Anda melalui proses penggunaan Aspose.Tasks untuk mengelola dan beradaptasi dengan varian tugas dengan lancar.
 ## Prasyarat
@@ -68,3 +74,9 @@ Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.Tasks[Di Sini](https://
  Untuk dukungan dan diskusi, kunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Bisakah saya mengunduh Aspose.Tasks untuk Java?
  Ya, unduh Aspose.Tasks versi terbaru untuk Java[Di Sini](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

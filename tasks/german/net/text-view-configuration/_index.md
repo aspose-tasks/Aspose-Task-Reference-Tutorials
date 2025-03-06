@@ -3,10 +3,16 @@ title: Aspose.Tasks Text- und Ansichtskonfiguration
 linktitle: Aspose.Tasks Text- und Ansichtskonfiguration
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET-Tutorials zur Text- und Ansichtskonfiguration. Beherrschen Sie Textstile, TIFF-Komprimierung, Zeitleistenansichten und mehr für ein verbessertes Projektmanagement.
-type: docs
 weight: 30
 url: /de/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Text- und Ansichtskonfiguration
+
 ## Einführung
 
 Willkommen beim umfassenden Leitfaden zu Aspose.Tasks für .NET-Tutorials, der sich auf die Text- und Ansichtskonfiguration konzentriert. In diesem Artikel befassen wir uns mit verschiedenen Aspekten des Projektmanagements und geben Schritt-für-Schritt-Einblicke in die Beherrschung der Funktionalitäten von Aspose.Tasks.
@@ -53,3 +59,9 @@ Entdecken Sie die zeitphasengesteuerte Datenerfassung in Aspose.Tasks für .NET.
 Entdecken Sie Aspose.Tasks für .NET, um Zeitskalenebenen in Ihrer Gantt-Diagrammansicht für eine präzise Visualisierung der Projektzeitachse zu konfigurieren.
 ### [Konfigurieren von Nutzungsansichten in Aspose.Tasks](./usage-views/)
 Erfahren Sie, wie Sie Aufgabennutzungsansichten in Aspose.Tasks für .NET konfigurieren. Verbessern Sie die Projektvisualisierung mit detaillierten Schritten. Laden Sie die Bibliothek jetzt herunter!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

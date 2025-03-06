@@ -3,10 +3,16 @@ title: Zarządzanie wyjątkami online MS Project w Aspose.Tasks
 linktitle: Praca z wyjątkami Project Online w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bezproblemowo obsługiwać wyjątki Microsoft Project Online za pomocą Aspose.Tasks dla .NET. Samouczek krok po kroku dotyczący skutecznego zarządzania projektami.
-type: docs
 weight: 21
 url: /pl/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie wyjątkami online MS Project w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku zagłębimy się w zawiłości obsługi wyjątków Microsoft Project Online przy użyciu Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API .NET, który umożliwia programistom łatwe manipulowanie plikami Microsoft Project i zarządzanie nimi. Przeprowadzimy przez ten proces krok po kroku, zapewniając kompleksowe zrozumienie pracy z wyjątkami MS Project Online w aplikacjach .NET.
 ## Warunki wstępne
@@ -74,3 +80,9 @@ Odp.: Tak, Aspose.Tasks zapewnia szerokie wsparcie dla pracy z różnymi formata
 Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P: Jak kupić licencję na Aspose.Tasks?
  Odp.: Możesz kupić licencję na Aspose.Tasks w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

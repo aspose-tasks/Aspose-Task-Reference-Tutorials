@@ -3,10 +3,16 @@ title: إدارة وحدات VBA في Aspose.Tasks
 linktitle: إدارة وحدات VBA في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: قم بإدارة وحدات VBA النمطية في ملفات Microsoft Project بسهولة باستخدام Aspose.Tasks لـ .NET. استكشف الإرشادات خطوة بخطوة وعزز سير عمل التطوير لديك.
-type: docs
 weight: 10
 url: /ar/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة وحدات VBA في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Microsoft Project في تطبيقات .NET الخاصة بهم. إحدى الميزات الرئيسية لبرنامج Aspose.Tasks هي قدرته على إدارة وحدات VBA (Visual Basic for Applications) داخل ملفات المشروع. في هذا البرنامج التعليمي، سوف نتعمق في عملية إدارة وحدات VBA باستخدام Aspose.Tasks في دليل خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ foreach (var module in project.VbaProject.Modules)
 نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم أو طلب المساعدة في أي مشكلة تتعلق بـ Aspose.Tasks؟
 لا تتردد في زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

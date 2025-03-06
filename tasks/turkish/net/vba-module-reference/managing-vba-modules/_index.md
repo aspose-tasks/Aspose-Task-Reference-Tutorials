@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta VBA Modüllerini Yönetme
 linktitle: Aspose.Tasks'ta VBA Modüllerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki VBA modüllerini zahmetsizce yönetin. Adım adım kılavuzu keşfedin ve geliştirme iş akışınızı geliştirin.
-type: docs
 weight: 10
 url: /tr/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta VBA Modüllerini Yönetme
+
 ## giriiş
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir kitaplıktır. Aspose.Tasks'ın temel özelliklerinden biri, Proje dosyalarındaki VBA (Visual Basic for Applications) modüllerini yönetme yeteneğidir. Bu eğitimde, Aspose.Tasks'ı kullanarak VBA modüllerini yönetme sürecini adım adım anlatacağız.
 ## Önkoşullar
@@ -74,3 +80,9 @@ Kesinlikle! Aspose.Tasks, VBA modüllerinin kaynak kodunu yalnızca okumak için
 Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks ile ilgili herhangi bir konuda nasıl destek alabilirim veya yardım isteyebilirim?
 Ziyaret etmekten çekinmeyin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

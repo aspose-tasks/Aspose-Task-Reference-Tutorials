@@ -3,10 +3,16 @@ title: Столбец просмотра пользовательских наз
 linktitle: Столбец просмотра пользовательских назначений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как добавить столбцы представления настраиваемых назначений в Aspose.Tasks для .NET, чтобы расширить возможности управления проектами.
-type: docs
 weight: 16
 url: /ru/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Столбец просмотра пользовательских назначений в Aspose.Tasks
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как добавлять пользовательские столбцы для представлений назначений с помощью Aspose.Tasks для .NET. Пользовательские столбцы обеспечивают гибкость и позволяют отображать дополнительную информацию, соответствующую потребностям управления проектами.
@@ -116,3 +122,9 @@ project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ### В5: Поддерживает ли Aspose.Tasks экспорт проектов в другие форматы, кроме электронных таблиц с настраиваемыми столбцами?
 
 О5: Да, Aspose.Tasks поддерживает экспорт проектов в различные форматы, такие как PDF, HTML и XML, что обеспечивает универсальные варианты отчетности по проектам.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

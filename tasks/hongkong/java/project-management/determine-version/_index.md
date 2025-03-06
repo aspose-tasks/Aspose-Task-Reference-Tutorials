@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 確定 MS Project 版本
 linktitle: 使用 Aspose.Tasks 確定項目版本
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 以程式設計方式確定 MS Project 檔案的版本。帶有程式碼範例的分步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/project-management/determine-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 確定 MS Project 版本
+
 ## 介紹
 本教學將引導您使用 Aspose.Tasks for Java 逐步確定 MS Project 檔案的版本。 Aspose.Tasks 是一個功能強大的 Java API，可讓開發人員操作 Microsoft Project 文件，而無需安裝 Microsoft Project。
 ## 先決條件
@@ -60,3 +66,9 @@ System.out.println("Process completed Successfully");
 答：不需要，Aspose.Tasks 獨立運作，不需要安裝 Microsoft Project。
 ### Q：Aspose.Tasks 是否提供技術支援？
 答：是的，您可以從 Aspose.Tasks 論壇獲得技術支援：[這裡](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

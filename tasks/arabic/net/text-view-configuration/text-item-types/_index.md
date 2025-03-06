@@ -3,10 +3,16 @@ title: دليل تخصيص نوع العنصر النصي في Aspose.Tasks
 linktitle: التعامل مع أنواع العناصر النصية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أتقن تخصيص نوع العنصر النصي في Aspose.Tasks لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة. ارفع مستوى لعبة إدارة المشروعات الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل تخصيص نوع العنصر النصي في Aspose.Tasks
+
 ## مقدمة
 إذا كنت أحد مطوري .NET الذين يتعمقون في إدارة المشاريع باستخدام Aspose.Tasks، فقد وصلت إلى المكان الصحيح! في هذا الدليل التفصيلي، سنستكشف تعقيدات التعامل مع أنواع العناصر النصية في Aspose.Tasks، مع التركيز على التخصيص باستخدام مكتبة .NET القوية.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 ج: استكشف المزيد من البرامج التعليمية في وثائق Aspose.Tasks.
 ### س: أين يمكنني شراء Aspose.Tasks لـ .NET؟
  ج: شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

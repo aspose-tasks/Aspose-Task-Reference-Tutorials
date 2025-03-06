@@ -3,10 +3,16 @@ title: Nastavení atributů MS Project pro nové úkoly v Aspose.Tasks
 linktitle: Nastavte atributy pro nové úkoly v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak nastavit atributy MS Project pro nové úkoly pomocí Aspose.Tasks for Java. Pomocí tohoto komplexního průvodce si snadno přizpůsobte vlastnosti úkolu.
-type: docs
 weight: 21
 url: /cs/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení atributů MS Project pro nové úkoly v Aspose.Tasks
+
 ## Úvod
 Vítejte v našem komplexním tutoriálu o nastavení atributů MS Project pro nové úkoly v Aspose.Tasks pro Java! V této příručce vás provedeme procesem krok za krokem a zajistíme, že můžete snadno spravovat a přizpůsobovat své úkoly pomocí této výkonné knihovny Java.
 ## Předpoklady
@@ -68,3 +74,9 @@ Odpověď: Ano, Aspose.Tasks for Java poskytuje rozsáhlé funkce pro manipulaci
  A: Dočasné licence pro Aspose.Tasks for Java lze získat z[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu získat podporu pro jakékoli problémy nebo dotazy související s Aspose.Tasks for Java?
  Odpověď: Můžete získat podporu a komunikovat s komunitou na[Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

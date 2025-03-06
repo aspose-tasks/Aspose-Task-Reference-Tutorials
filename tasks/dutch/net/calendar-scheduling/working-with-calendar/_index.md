@@ -3,10 +3,16 @@ title: Werken met Agenda in Aspose.Tasks
 linktitle: Werken met Agenda in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Beheer projectkalenders, bereken de duur en handel uitzonderingen eenvoudig af met Aspose.Tasks voor .NET.
-type: docs
 weight: 10
 url: /nl/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met Agenda in Aspose.Tasks
+
 ## Invoering
 
 Aspose.Tasks voor .NET biedt krachtige functies voor het werken met agenda's, waardoor ontwikkelaars projectplanningen en resourcetoewijzingen efficiënt kunnen beheren. In deze zelfstudie onderzoeken we hoe u Aspose.Tasks kunt gebruiken voor interactie met agenda's, waarbij essentiële handelingen worden behandeld, zoals het ophalen van agenda-informatie, het definiëren van werkweken, het berekenen van werkuren en meer.
@@ -497,3 +503,9 @@ A4: Ja, u kunt aangepaste kalenders maken, zoals nachtploegkalenders, met behulp
 ### V5: Kan ik informatie over agenda-uitzonderingen ophalen uit projectbestanden?
 
 A5: Ja, u kunt eenvoudig informatie over agenda-uitzonderingen uit projectbestanden ophalen met Aspose.Tasks voor .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

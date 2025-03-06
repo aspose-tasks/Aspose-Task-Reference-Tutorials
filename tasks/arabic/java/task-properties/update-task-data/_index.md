@@ -3,10 +3,16 @@ title: قم بتحديث بيانات المهمة إلى تنسيق MPP في As
 linktitle: قم بتحديث بيانات المهمة إلى تنسيق MPP في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديث بيانات المهمة إلى تنسيق MPP باستخدام Aspose.Tasks لـ Java. اتبع دليلنا خطوة بخطوة لإدارة المشاريع بكفاءة.
-type: docs
 weight: 35
 url: /ar/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحديث بيانات المهمة إلى تنسيق MPP في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول تحديث بيانات المهمة إلى تنسيق MPP باستخدام Aspose.Tasks لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مع التأكد من أنك تفهم كل خطوة بوضوح. يوفر Aspose.Tasks for Java حلاً قويًا للعمل مع ملفات Microsoft Project، وبنهاية هذا الدليل، ستتمكن من تحديث بيانات المهمة بكفاءة بتنسيق MPP.
 ## المتطلبات الأساسية
@@ -93,3 +99,9 @@ project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
  ج: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل تقدمون تراخيص مؤقتة لأغراض الاختبار؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

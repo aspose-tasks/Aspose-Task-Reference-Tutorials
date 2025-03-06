@@ -3,10 +3,16 @@ title: Haal MS Project-bestandsinformatie op in Aspose.Tasks
 linktitle: Projectbestandsinformatie ophalen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-bestandsgegevens kunt ophalen met Aspose.Tasks voor .NET. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 19
 url: /nl/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal MS Project-bestandsinformatie op in Aspose.Tasks
+
 ## Invoering
 Welkom bij onze stapsgewijze handleiding voor het ophalen van Microsoft Project-bestandsgegevens met Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige bibliotheek waarmee .NET-ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken, waardoor taken mogelijk zijn zoals het lezen, schrijven en manipuleren van projectgegevens.
 ## Vereisten
@@ -58,3 +64,9 @@ Absoluut, Aspose.Tasks biedt uitgebreide mogelijkheden voor het programmatisch l
  Ja, u heeft toegang tot een gratis proefversie van Aspose.Tasks[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
  U kunt ondersteuning krijgen voor Aspose.Tasks via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).## Volledige broncode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

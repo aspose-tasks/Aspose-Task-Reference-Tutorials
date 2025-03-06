@@ -3,10 +3,16 @@ title: مجموعة من حقول عرض استخدام الموارد في Aspo
 linktitle: مجموعة من حقول عرض استخدام الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية الوصول إلى حقول عرض استخدام الموارد ومعالجتها بشكل فعال في ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET.
-type: docs
 weight: 16
 url: /ar/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مجموعة من حقول عرض استخدام الموارد في Aspose.Tasks
+
 ## مقدمة
 في مجال إدارة المشاريع، يعد التعامل مع ملفات Microsoft Project بكفاءة أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً شاملاً للعمل مع ملفات MS Project بسلاسة. في هذا البرنامج التعليمي، سنتعمق في عملية الوصول إلى حقول عرض استخدام الموارد واستخدامها باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ foreach (var field in fields)
  ج: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من[موقع إلكتروني](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET؟
  ج: يمكنك الحصول على ترخيص مؤقت من[صفحة الشراء](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

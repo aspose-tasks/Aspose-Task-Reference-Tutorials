@@ -3,10 +3,16 @@ title: Outline Code Definíciók gyűjteménye az Aspose.Tasks .NET-ben
 linktitle: Outline Code Definíciók gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a vázlatkód-definíciókat a Microsoft Project dokumentumokban az Aspose.Tasks for .NET segítségével. A projektadatok kategorizálása könnyedén.
-type: docs
 weight: 13
 url: /hu/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Outline Code Definíciók gyűjteménye az Aspose.Tasks .NET-ben
+
 ## Bevezetés
 Az Aspose.Tasks egy hatékony .NET-könyvtár, amelyet a Microsoft Project dokumentumok egyszerű és hatékony kezeléséhez terveztek. Egyik kulcsfontosságú jellemzője az a képesség, hogy vázlatkód-definíciókkal dolgozhat, lehetővé téve a felhasználók számára a projektadatok hatékony rendszerezését és kategorizálását. Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk vázlatkód-definíciókkal az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
@@ -83,3 +89,9 @@ V: Ha egy vázlatkód-definíció csak olvasható, nem tudja közvetlenül módo
 V: Az Aspose.Tasks for .NET nem ír elő semmilyen konkrét korlátozást a projekthez hozzáadható vázlatkód-definíciók számára. Ha azonban sok definícióval dolgozik, vegye figyelembe a teljesítmény következményeit.
 ### K: Használhatok vázlatkód-definíciókat a feladatok egyéni kritériumok alapján történő csoportosítására?
 V: Igen, a vázlatkód-definíciók lehetővé teszik a feladatok egyéni kritériumok alapján történő kategorizálását, rugalmasságot biztosítva a projektadatok rendszerezésében.## Teljes forráskód
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extraiga información de encabezado y pie de página con Aspose.Tasks
 linktitle: Información de encabezado y pie de página en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a extraer información de encabezado y pie de página de archivos de MS Project usando Aspose.Tasks para .NET. Solución fácil, eficiente y amigable para los desarrolladores.
-type: docs
 weight: 29
 url: /es/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraiga información de encabezado y pie de página con Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para .NET es una poderosa biblioteca que permite a los desarrolladores manipular archivos de Microsoft Project con facilidad. En este tutorial, aprenderemos cómo recuperar información de encabezado y pie de página de archivos de MS Project usando Aspose.Tasks.
 ## Requisitos previos
@@ -70,3 +76,9 @@ Sí, Aspose.Tasks admite varios formatos de archivos de proyecto, incluidos MPP,
  Puede encontrar la documentación para Aspose.Tasks[aquí](https://reference.aspose.com/tasks/net/).
 ### ¿Cómo puedo obtener soporte para Aspose.Tasks?
  Puede obtener soporte para Aspose.Tasks visitando el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

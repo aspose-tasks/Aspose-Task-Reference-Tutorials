@@ -3,10 +3,16 @@ title: Hantera föräldra- och barnuppgifter i Aspose.Tasks
 linktitle: Hantera föräldra- och barnuppgifter i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Förbättra projektledningseffektiviteten med Aspose.Tasks för Java. Lär dig att hantera föräldra- och barnuppgifter steg för steg. Börja nu!
-type: docs
 weight: 24
 url: /sv/java/task-properties/parent-child-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera föräldra- och barnuppgifter i Aspose.Tasks
+
 ## Introduktion
 Inom projektledningssfären är effektiv uppgiftsorganisation avgörande. Aspose.Tasks för Java tillhandahåller en robust lösning för att effektivt hantera föräldra- och barnuppgifter. I den här handledningen guidar vi dig genom processen att använda Aspose.Tasks för Java för att effektivisera dina projektuppgifter.
 ## Förutsättningar
@@ -103,3 +109,9 @@ Absolut! Aspose.Tasks för Java tillhandahåller omfattande anpassningsalternati
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta omfattande dokumentation för Aspose.Tasks för Java?
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

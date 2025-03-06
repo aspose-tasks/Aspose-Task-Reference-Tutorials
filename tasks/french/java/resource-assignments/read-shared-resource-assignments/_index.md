@@ -3,10 +3,16 @@ title: Lire les affectations de ressources partagées dans Aspose.Tasks
 linktitle: Lire les affectations de ressources partagées dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment lire les affectations de ressources partagées dans Aspose.Tasks pour Java. Améliorez l’efficacité de la gestion de projet avec des didacticiels étape par étape.
-type: docs
 weight: 19
 url: /fr/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lire les affectations de ressources partagées dans Aspose.Tasks
+
 ## Introduction
 En gestion de projet, une allocation efficace des ressources est cruciale pour la réussite du projet. Aspose.Tasks for Java fournit des outils puissants pour gérer efficacement les ressources. Une tâche essentielle consiste à lire les affectations de ressources partagées, ce qui vous permet de comprendre comment les ressources sont allouées sur plusieurs projets.
 ## Conditions préalables
@@ -58,3 +64,9 @@ Absolument, Aspose.Tasks for Java vous permet de générer des rapports personna
 Aspose.Tasks for Java peut gérer des projets de différentes tailles, des projets de petite à grande échelle.
 ### Un support technique est-il disponible pour Aspose.Tasks pour les utilisateurs Java ?
  Oui, vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

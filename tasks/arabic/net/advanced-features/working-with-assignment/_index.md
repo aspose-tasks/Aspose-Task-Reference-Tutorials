@@ -3,10 +3,16 @@ title: العمل مع الواجب في Aspose.Tasks
 linktitle: العمل مع الواجب في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مهام المشروع في .NET باستخدام Aspose.Tasks. اكتشف الخطوط المختلفة لجدولة الموارد.
-type: docs
 weight: 13
 url: /ar/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الواجب في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع المهام في Aspose.Tasks لـ .NET. تعد المهام أمرًا بالغ الأهمية في إدارة المشروع حيث تقوم بتخصيص الموارد للمهام، مما يساعد في جدولة وتتبع التقدم. سنركز على إنشاء بيانات موزعة على الوقت لتخصيص الموارد باستخدام خطوط مختلفة باستخدام Aspose.Tasks.
@@ -109,3 +115,9 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 ### س5: أين يمكنني العثور على دعم للاستعلامات المتعلقة بـ Aspose.Tasks؟
 
 ج5: يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) حيث يشارك الخبراء وأفراد المجتمع بنشاط في المناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

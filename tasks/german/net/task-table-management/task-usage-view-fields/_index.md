@@ -3,10 +3,16 @@ title: Enthüllung der Ansichtsfelder für die Aufgabennutzung in Aspose.Tasks
 linktitle: Sammlung von Feldern zur Aufgabenverwendungsansicht in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET, um Projektdaten mühelos zu verwalten und zu visualisieren. Tauchen Sie ein in die Felder der Aufgabennutzungsansicht, um erweiterte Projekteinblicke zu erhalten.
-type: docs
 weight: 25
 url: /de/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enthüllung der Ansichtsfelder für die Aufgabennutzung in Aspose.Tasks
+
 ## Einführung
 Im Bereich des Projektmanagements stellt Aspose.Tasks für .NET eine robuste Lösung dar, die Entwicklern ein leistungsstarkes Toolkit zur Bearbeitung und Verwaltung von Projektdaten bietet. Eine der bemerkenswerten Funktionen ist die Aufgabenverwendungsansicht, die Einblicke in verschiedene Bereiche bietet, die die Sichtbarkeit des Projekts verbessern. In diesem Tutorial befassen wir uns mit den Feinheiten der Aufgabenverwendungsansichtsfelder mithilfe von Aspose.Tasks für .NET und schlüsseln jeden Schritt für ein umfassendes Verständnis auf.
 ## Voraussetzungen
@@ -64,3 +70,9 @@ Aspose.Tasks konzentriert sich hauptsächlich auf .NET-Anwendungen. Sie können 
  Ja, Sie können temporäre Lizenzen erwerben[Hier](https://purchase.aspose.com/temporary-license/) für den kurzfristigen Einsatz.
 ### Welche Dateiformate werden für Projektdokumente unterstützt?
 Aspose.Tasks für .NET unterstützt verschiedene Formate, darunter MPP, XML und CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

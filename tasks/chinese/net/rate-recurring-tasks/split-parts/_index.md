@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中处理 MS Project 拆分部分
 linktitle: 处理 Aspose.Tasks 中的拆分部分
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 高效处理 MS Project 拆分部分。增强您的项目管理工作流程。
-type: docs
 weight: 18
 url: /zh/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中处理 MS Project 拆分部分
+
 
 ## 介绍
 使用 Aspose.Tasks for .NET 时，管理 MS Project 拆分部分可能是项目管理的一个重要方面。在本教程中，我们将探索如何使用分步指导有效处理拆分零件。
@@ -94,3 +100,9 @@ foreach (var splitPart in task.SplitParts)
 答：当然，您可以根据您的项目需求定制项目日历。
 ### 问：在哪里可以找到对 Aspose.Tasks for .NET 的支持？
 答：您可以在以下网站上找到支持和帮助：[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

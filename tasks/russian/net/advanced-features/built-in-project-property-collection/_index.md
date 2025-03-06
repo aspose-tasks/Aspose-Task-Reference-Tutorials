@@ -3,10 +3,16 @@ title: Встроенная коллекция свойств проекта в 
 linktitle: Встроенная коллекция свойств проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять метасвойствами проекта в приложениях .NET с помощью Aspose.Tasks. Легко читайте, изменяйте и перебирайте свойства.
-type: docs
 weight: 24
 url: /ru/net/advanced-features/built-in-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Встроенная коллекция свойств проекта в Aspose.Tasks
+
 ## Введение
 
 В сфере разработки программного обеспечения эффективное управление задачами и проектами имеет первостепенное значение для успеха. Aspose.Tasks for .NET — это мощная библиотека, предназначенная для облегчения задач управления проектами в приложениях .NET. Благодаря надежным функциям и интуитивно понятному интерфейсу разработчики могут оптимизировать процессы управления проектами, экономя время и ресурсы.
@@ -106,3 +112,9 @@ foreach (Property property in project.BuiltInProps)
 ### Вопрос 5: Где я могу найти дополнительную поддержку и ресурсы для Aspose.Tasks для .NET?
 
  A5: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки сообщества и просмотрите документацию для получения подробных рекомендаций.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Làm chủ mặt nạ phác thảo dự án MS với Aspose.Tasks
 linktitle: Bộ sưu tập các mặt nạ phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thao tác với mặt nạ phác thảo của bộ sưu tập MS Project bằng Aspose.Tasks cho .NET. Nâng cao năng suất với hướng dẫn toàn diện này.
-type: docs
 weight: 15
 url: /vi/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ mặt nạ phác thảo dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Bạn đang muốn khai thác sức mạnh của mặt nạ phác thảo của Microsoft Project bằng Aspose.Tasks cho .NET? Bạn đã đến đúng nơi! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn hiểu rõ về cách thao tác hiệu quả các mặt nạ phác thảo trong dự án của mình. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn này sẽ trang bị cho bạn kiến thức và kỹ năng cần thiết để tối ưu hóa quy trình làm việc của bạn.
 ## Điều kiện tiên quyết
@@ -109,3 +115,9 @@ Trả lời: Có, Aspose.Tasks for .NET tương thích với .NET Core, cho phé
 Đáp: Có, Aspose.Tasks for .NET cung cấp tài liệu toàn diện và hỗ trợ tận tình thông qua trang web và[diễn đàn](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
  Đáp: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks dành cho .NET từ trang web của họ.[trang mạng](https://releases.aspose.com/tasks/net/). để khám phá các tính năng và chức năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

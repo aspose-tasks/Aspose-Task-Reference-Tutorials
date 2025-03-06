@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS Project 온라인 예외 관리
 linktitle: Aspose.Tasks에서 Project Online 예외 작업
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Microsoft Project Online 예외를 원활하게 처리하는 방법을 알아보세요. 효과적인 프로젝트 관리를 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 21
 url: /ko/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS Project 온라인 예외 관리
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Microsoft Project Online 예외를 처리하는 복잡한 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 쉽게 조작하고 관리할 수 있는 강력한 .NET API입니다. .NET 애플리케이션에서 MS Project Online 예외를 처리하는 방법을 포괄적으로 이해하면서 프로세스를 단계별로 살펴보겠습니다.
 ## 전제조건
@@ -74,3 +80,9 @@ A: 예, Aspose.Tasks는 Microsoft Project, Primavera 등을 포함한 다양한 
 A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks 라이선스를 어떻게 구매하나요?
  A: Aspose.Tasks에 대한 라이선스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

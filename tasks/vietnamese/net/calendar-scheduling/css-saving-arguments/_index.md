@@ -3,10 +3,16 @@ title: Đối số lưu CSS trong Aspose.Tasks
 linktitle: Đối số lưu CSS trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách lưu đối số CSS trong Aspose.Tasks cho .NET để tùy chỉnh đầu ra HTML. Tăng cường trình bày với các cài đặt CSS phù hợp.
-type: docs
 weight: 20
 url: /vi/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đối số lưu CSS trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu các đối số CSS bằng Aspose.Tasks cho .NET. Cascading Style Sheets (CSS) rất quan trọng để xác định cách trình bày các phần tử HTML. Aspose.Tasks cho phép chúng ta thao tác và lưu các thuộc tính CSS này một cách hiệu quả.
@@ -118,3 +124,9 @@ A4: Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/tasks/
 ### Câu hỏi 5: Aspose.Tasks dành cho .NET có cung cấp hỗ trợ cho các nhà phát triển không?
 
  Câu trả lời 5: Có, bạn có thể nhận được hỗ trợ từ cộng đồng Aspose.Tasks thông qua[diễn đàn](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

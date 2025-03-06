@@ -3,10 +3,16 @@ title: Beheersing van tijdgebonden gegevensverzameling in Aspose.Tasks
 linktitle: Verzameling van tijdgebonden gegevens in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek tijdgebonden gegevensverzameling in Aspose.Tasks voor .NET. Stapsgewijze handleiding, veelgestelde vragen en meer. Verbeter vandaag nog uw projectmanagementmogelijkheden!
-type: docs
 weight: 15
 url: /nl/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van tijdgebonden gegevensverzameling in Aspose.Tasks
+
 ## Invoering
 Wilt u de kracht van tijdgebonden gegevens in uw .NET-applicaties benutten met behulp van Aspose.Tasks? Zoek niet verder! Deze uitgebreide gids leidt u door het proces van het verzamelen van tijdgebonden gegevens met Aspose.Tasks voor .NET, zodat u het meeste uit deze krachtige bibliotheek haalt.
 ## Vereisten
@@ -121,3 +127,9 @@ Aspose.Tasks verwerkt projecten van verschillende omvang en er is geen strikte l
  Ja, u kunt de functies van Aspose.Tasks voor .NET verkennen door naar de[gratis proefperiode](https://releases.aspose.com/).
 ### Waar kan ik een licentie kopen voor Aspose.Tasks voor .NET?
  kunt een licentie kopen voor Aspose.Tasks voor .NET[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

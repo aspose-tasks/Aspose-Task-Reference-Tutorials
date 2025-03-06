@@ -3,10 +3,16 @@ title: Odsłonięcie pól widoku wykorzystania zadań w Aspose.Tasks
 linktitle: Zbiór pól widoku wykorzystania zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Przeglądaj Aspose.Tasks dla .NET, aby bez wysiłku zarządzać danymi projektu i wizualizować je. Zapoznaj się z polami widoku wykorzystania zadań, aby uzyskać lepszy wgląd w projekt.
-type: docs
 weight: 25
 url: /pl/net/task-table-management/task-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odsłonięcie pól widoku wykorzystania zadań w Aspose.Tasks
+
 ## Wstęp
 W dziedzinie zarządzania projektami Aspose.Tasks dla .NET jest solidnym rozwiązaniem, zapewniającym programistom potężny zestaw narzędzi do manipulowania danymi projektu i zarządzania nimi. Jedną z godnych uwagi funkcji jest widok wykorzystania zadań, oferujący wgląd w różne pola, które zwiększają widoczność projektu. W tym samouczku zagłębimy się w zawiłości pól widoku użycia zadań przy użyciu Aspose.Tasks dla .NET, dzieląc każdy krok w celu pełnego zrozumienia.
 ## Warunki wstępne
@@ -64,3 +70,9 @@ Aspose.Tasks skupia się przede wszystkim na aplikacjach .NET. Można jednak eks
  Tak, możesz nabyć licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/) do krótkotrwałego użytkowania.
 ### Jakie formaty plików są obsługiwane dla dokumentów projektu?
 Aspose.Tasks dla .NET obsługuje różne formaty, w tym MPP, XML i CSV.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

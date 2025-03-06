@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Başlangıç Tarihi Türlerini Yapılandırma
 linktitle: Aspose.Tasks'ta Görev Başlangıç Tarihi Türlerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Görev başlangıç tarihi türlerini zahmetsizce yapılandırmak için Aspose.Tasks for .NET'i keşfedin. Proje yönetimini kolaylıkla optimize edin. Şimdi ücretsiz deneme sürümünü indirin!
-type: docs
 weight: 23
 url: /tr/net/task-table-management/task-start-date-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Başlangıç Tarihi Türlerini Yapılandırma
+
 Proje yönetiminin dinamik dünyasında görevler için doğru başlangıç tarihini belirlemek çok önemlidir. Aspose.Tasks for .NET, görev başlangıç tarihi türlerini zahmetsizce yapılandırmak için güçlü bir çözüm sunar. Bu eğitimde, sorunsuz entegrasyon sağlamak için süreci basit adımlara bölerek süreç boyunca size rehberlik edeceğiz.
 ## Önkoşullar
 Görev başlangıç tarihi türlerinin yapılandırmasına dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
@@ -52,3 +58,9 @@ Evet, Aspose.Tasks for .NET'i kullanarak her görevin başlangıç tarihini ayr�
  Belgelere bakın[Burada](https://reference.aspose.com/tasks/net/) Aspose.Tasks for .NET hakkında derinlemesine bilgiler için.
 ### S5: Aspose.Tasks için geçici bir lisans alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

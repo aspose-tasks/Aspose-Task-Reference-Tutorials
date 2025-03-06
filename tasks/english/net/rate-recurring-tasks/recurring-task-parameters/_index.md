@@ -3,10 +3,16 @@ title: Setting Recurring Task Parameters in Aspose.Tasks
 linktitle: Setting Recurring Task Parameters in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to set recurring task parameters in Microsoft Project using Aspose.Tasks for .NET. Comprehensive tutorial with step-by-step guide.
-type: docs
 weight: 14
 url: /net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Recurring Task Parameters in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will guide you through the process of setting Microsoft Project recurring task parameters using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -79,3 +85,10 @@ Yes, Aspose.Tasks supports various project file formats including MPP, XML, XLSX
 Yes, you can visit the Aspose.Tasks forum for assistance from the community or contact support for direct help.
 ### How can I obtain a temporary license for Aspose.Tasks?
 You can obtain a temporary license from the [website](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

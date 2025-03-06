@@ -3,10 +3,16 @@ title: Aspose.Tasks için Zahmetsiz SVG Oluşturma
 linktitle: Aspose.Tasks için SVG Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Gelişmiş proje görselleştirmesi için Microsoft Project dosyalarının SVG temsillerini zahmetsizce oluşturmak amacıyla Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 20
 url: /tr/net/saving-options/svg-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için Zahmetsiz SVG Oluşturma
+
 ## giriiş
 Proje yönetimi ve görev organizasyonu alanında, verileri etkili bir şekilde görselleştirme yeteneği çok önemlidir. Aspose.Tasks for .NET, Microsoft Project dosyalarının SVG temsillerini oluşturmak için kapsamlı bir çözüm sunarak net ve ilgi çekici proje içgörülerini kolaylaştırır. Bu eğitimde Aspose.Tasks for .NET tarafından sağlanan SVG MS Project seçeneklerinin kullanımı anlatılıyor ve kullanıcıların gelişmiş proje görselleştirmesi için bu seçeneklerin gücünden faydalanmalarına olanak sağlanıyor.
 ## Önkoşullar
@@ -66,3 +72,9 @@ C: Evet, Aspose.Tasks, SVG çıktısının görünümünü tercihlerinize ve ger
 
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
 C: Evet, kullanıcılar Aspose.Tasks forumu aracılığıyla veya herhangi bir soru veya sorunla ilgili yardım almak için doğrudan destek ekibiyle iletişime geçerek teknik desteğe erişebilirler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

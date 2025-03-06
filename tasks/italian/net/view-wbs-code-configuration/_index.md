@@ -3,10 +3,16 @@ title: Visualizzazione Aspose.Tasks e configurazione del codice WBS
 linktitle: Visualizzazione Aspose.Tasks e configurazione del codice WBS
 second_title: Aspose.Tasks API .NET
 description: Master Aspose.Tasks per visualizzazioni .NET e codici WBS. Personalizza la gestione dei progetti con i nostri tutorial passo passo. Scaricalo ora per visualizzare senza problemi il progetto.
-type: docs
 weight: 32
 url: /it/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visualizzazione Aspose.Tasks e configurazione del codice WBS
+
 
 ## introduzione
 
@@ -56,3 +62,9 @@ Esplora la configurazione dettagliata delle maschere codice WBS nei progetti .NE
 Migliora la gestione dei progetti con Aspose.Tasks per .NET. Impara a creare, gestire e trasferire facilmente le maschere codice WBS in questo tutorial completo.
 ### [Definizione delle sequenze WBS in Aspose.Tasks](./wbs-sequences/)
 Potenzia la gestione dei tuoi progetti con Aspose.Tasks per .NET: definisci perfettamente le sequenze WBS e migliora l'efficienza senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

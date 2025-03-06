@@ -3,10 +3,16 @@ title: Gerenciar propriedades do ano fiscal em Aspose.Tasks
 linktitle: Gerenciar propriedades do ano fiscal em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como gerenciar as propriedades do ano fiscal com eficiência usando Aspose.Tasks for Java. Guia passo a passo com exemplos fornecidos.
-type: docs
 weight: 15
 url: /pt/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar propriedades do ano fiscal em Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks é uma biblioteca Java poderosa que permite aos desenvolvedores gerenciar com eficiência arquivos de projeto, incluindo o tratamento de propriedades do ano fiscal. Neste tutorial, percorreremos o processo de gerenciamento de propriedades do ano fiscal usando Aspose.Tasks em Java.
 ## Pré-requisitos
@@ -66,3 +72,9 @@ R: Sim, Aspose.Tasks oferece suporte a uma ampla variedade de formatos de arquiv
  R: Sim, você pode acessar a versão de avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/).
 ### P: Onde posso adquirir uma licença do Aspose.Tasks for Java?
  R: Você pode adquirir uma licença para Aspose.Tasks for Java em[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

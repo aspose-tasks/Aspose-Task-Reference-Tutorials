@@ -3,10 +3,16 @@ title: Thang tỷ lệ đọc và ghi cho các bài tập tài nguyên trong Asp
 linktitle: Thang tỷ lệ đọc và ghi cho các bài tập tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý thang tỷ lệ phân bổ tài nguyên một cách hiệu quả trong Aspose.Tasks cho Java với hướng dẫn toàn diện này.
-type: docs
 weight: 20
 url: /vi/java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thang tỷ lệ đọc và ghi cho các bài tập tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc quản lý thang tỷ lệ phân công tài nguyên bằng Aspose.Tasks cho Java, một thư viện mạnh mẽ để làm việc với các tệp Microsoft Project theo chương trình. Bằng cách làm theo các bước này, bạn sẽ có thể thao tác hiệu quả các cài đặt thang tỷ lệ cho việc gán tài nguyên trong các ứng dụng Java của mình.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cung cấp các tính năng to�
 Trả lời: Có, Aspose.Tasks cung cấp các khả năng mở rộng để tùy chỉnh các nhiệm vụ tài nguyên, bao gồm điều chỉnh chi phí, công việc và thời lượng.
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
  Trả lời: Có, bạn có thể tìm thấy sự hỗ trợ và tương tác với những người dùng khác trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

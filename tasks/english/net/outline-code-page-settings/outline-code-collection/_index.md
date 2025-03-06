@@ -3,10 +3,16 @@ title: Collection MS Project of Outline Codes in Aspose.Tasks
 linktitle: Collection of Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to collect Microsoft Project outline codes using Aspose.Tasks for .NET. This comprehensive tutorial provides step-by-step instructions.
-type: docs
 weight: 11
 url: /net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection MS Project of Outline Codes in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will explore how to collect Microsoft Project outline codes using Aspose.Tasks for .NET. We'll break down the process into step-by-step instructions to ensure clarity and understanding.
 ## Prerequisites
@@ -95,3 +101,10 @@ A: Yes, Aspose.Tasks for .NET supports various versions of Microsoft Project, in
 A: Absolutely, Aspose.Tasks for .NET provides extensive options for customizing the output format according to your requirements.
 ### Q: Where can I find additional support or resources for Aspose.Tasks for .NET?
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries regarding Aspose.Tasks for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

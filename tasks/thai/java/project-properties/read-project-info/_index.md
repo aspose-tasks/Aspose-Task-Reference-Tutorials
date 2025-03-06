@@ -3,10 +3,16 @@ title: แยกข้อมูลโครงการ Microsoft ด้วย A
 linktitle: อ่านข้อมูลโครงการด้วย Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีแยกข้อมูล Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java ปรับปรุงการจัดการโครงการในแอปพลิเคชัน Java ได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อมูลโครงการ Microsoft ด้วย Aspose.Tasks สำหรับ Java
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการและการติดตามงาน Microsoft Project ถือเป็นตำแหน่งที่สำคัญ Aspose.Tasks สำหรับ Java กลายเป็นเครื่องมืออันทรงพลังที่ช่วยให้สามารถโต้ตอบกับไฟล์ Microsoft Project ในสภาพแวดล้อม Java ได้อย่างราบรื่น บทช่วยสอนนี้จะเจาะลึกกระบวนการดึงข้อมูลโปรเจ็กต์ที่สำคัญจากไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -65,3 +71,9 @@ System.out.println("Calendar: " + project.get(Prj.CALENDAR).getName());
 ตอบ: ใช่ Aspose.Tasks สำหรับ Java ช่วยให้สามารถทำงานอัตโนมัติผ่าน API ที่ครอบคลุม ช่วยให้กระบวนการแยกและวิเคราะห์ข้อมูลมีความคล่องตัวมากขึ้น
 ### ถาม: มีฟอรัมชุมชนหรือช่องทางการสนับสนุนสำหรับผู้ใช้ Aspose.Tasks สำหรับผู้ใช้ Java หรือไม่
  ตอบ: ได้ คุณสามารถค้นหาแหล่งข้อมูลที่เป็นประโยชน์และมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

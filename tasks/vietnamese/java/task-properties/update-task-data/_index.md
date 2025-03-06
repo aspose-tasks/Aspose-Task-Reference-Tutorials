@@ -3,10 +3,16 @@ title: Cập nhật dữ liệu tác vụ sang định dạng MPP trong Aspose.T
 linktitle: Cập nhật dữ liệu tác vụ sang định dạng MPP trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách cập nhật dữ liệu tác vụ sang định dạng MPP bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý dự án hiệu quả.
-type: docs
 weight: 35
 url: /vi/java/task-properties/update-task-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cập nhật dữ liệu tác vụ sang định dạng MPP trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách cập nhật dữ liệu tác vụ sang định dạng MPP bằng Aspose.Tasks cho Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo rằng bạn nắm bắt từng bước một cách rõ ràng. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để làm việc với các tệp Microsoft Project và khi kết thúc hướng dẫn này, bạn sẽ có thể cập nhật dữ liệu tác vụ một cách hiệu quả ở định dạng MPP.
 ## Điều kiện tiên quyết
@@ -93,3 +99,9 @@ Chúc mừng! Bạn đã hoàn thành hướng dẫn toàn diện về cách c�
  A: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
 ### Hỏi: Bạn có cung cấp giấy phép tạm thời cho mục đích thử nghiệm không?
  A: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

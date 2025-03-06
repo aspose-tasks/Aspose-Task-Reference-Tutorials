@@ -3,10 +3,16 @@ title: Aspose.Tasks में MPP प्रोजेक्ट सारांश
 linktitle: Aspose.Tasks में MPP प्रोजेक्ट सारांश लिखें
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks का उपयोग करके जावा में MPP प्रोजेक्ट सारांश लिखना सीखें। प्रोजेक्ट जानकारी को सहजता से सेट करें और पुनः प्राप्त करें।
-type: docs
 weight: 27
 url: /hi/java/project-file-operations/write-mpp-project-summary/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MPP प्रोजेक्ट सारांश लिखें
+
 ## परिचय
 इस ट्यूटोरियल में, हम सीखेंगे कि एमपीपी प्रोजेक्ट सारांश लिखने के लिए जावा के लिए Aspose.Tasks का उपयोग कैसे करें। Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने के लिए एक शक्तिशाली जावा लाइब्रेरी है। नीचे दिए गए चरणों का पालन करके, आप इस लाइब्रेरी का उपयोग करके किसी प्रोजेक्ट के बारे में विभिन्न सारांश जानकारी सेट और पुनर्प्राप्त करने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -87,3 +93,9 @@ System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 उत्तर: बिल्कुल, जावा के लिए Aspose.Tasks आपकी विशिष्ट आवश्यकताओं के अनुसार प्रोजेक्ट सारांश जानकारी को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
 ### प्रश्न: जावा के लिए Aspose.Tasks के लिए मुझे समर्थन कहां से मिल सकता है?
 उत्तर: आप Aspose.Tasks समुदाय मंच से समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

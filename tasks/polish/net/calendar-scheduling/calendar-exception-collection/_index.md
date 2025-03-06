@@ -3,10 +3,16 @@ title: Zbiór wyjątków kalendarza w Aspose.Tasks
 linktitle: Zbiór wyjątków kalendarza w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET za pomocą Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
-type: docs
 weight: 13
 url: /pl/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbiór wyjątków kalendarza w Aspose.Tasks
+
 ## Wstęp
 
 zarządzaniu projektami precyzyjne planowanie ma kluczowe znaczenie dla osiągnięcia sukcesu. Jednak rzeczywiste scenariusze często wymagają odstępstw od standardowych harmonogramów ze względu na święta, wydarzenia specjalne lub inne czynniki. Aspose.Tasks dla .NET zapewnia solidne rozwiązanie do zarządzania takimi wyjątkami poprzez funkcję zbierania wyjątków kalendarza. Ten samouczek przeprowadzi Cię krok po kroku przez proces korzystania z tej funkcji.
@@ -143,3 +149,9 @@ O4: Aspose.Tasks dla .NET umożliwia obsługę nakładających się wyjątków p
 ### P5: Czy mogę dostosować godziny pracy na każdy dzień w ramach wyjątku?
 
 Odpowiedź 5: Tak, możesz określić niestandardowe godziny pracy dla poszczególnych dni w ramach wyjątku, aby uwzględnić określone potrzeby związane z harmonogramem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

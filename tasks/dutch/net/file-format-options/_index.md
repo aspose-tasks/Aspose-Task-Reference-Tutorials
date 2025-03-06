@@ -3,10 +3,16 @@ title: Aspose.Tasks Bestandsformaatopties
 linktitle: Aspose.Tasks Bestandsformaatopties
 second_title: Aspose.Tasks .NET API
 description: Ontdek de opties voor bestandsindelingen van Aspose.Tasks en beheer de configuratie van XAML- en XLSX-opties in Aspose.Tasks .NET. Verbeter projectmanagement met maatwerktips.
-type: docs
 weight: 34
 url: /nl/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Bestandsformaatopties
+
 
 ## Invoering
 
@@ -27,3 +33,9 @@ Kortom, onze Aspose.Tasks-tutorials over bestandsformaatopties bieden waardevoll
 Leer hoe u MS Project XAML-opties configureert in Aspose.Tasks voor .NET. Verbeter de flexibiliteit en het maatwerk van projectbeheer met stapsgewijze begeleiding.
 ### [XLSX-opties configureren in Aspose.Tasks](./configuring-xlsx-options/)
 Leer hoe u MS Project XLSX-opties configureert in Aspose.Tasks voor .NET. Pas kolommen, codering en nog veel meer moeiteloos aan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

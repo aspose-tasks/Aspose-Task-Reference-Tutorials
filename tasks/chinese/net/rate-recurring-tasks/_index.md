@@ -3,10 +3,16 @@ title: Aspose.Tasks 速率管理和重复任务
 linktitle: Aspose.Tasks 速率管理和重复任务
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks .NET 掌握 MS 项目率管理和重复任务。了解如何自动执行任务、处理费率以及管理项目工作流程的拆分部分。
-type: docs
 weight: 28
 url: /zh/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 速率管理和重复任务
+
 
 ## 介绍
 
@@ -67,3 +73,9 @@ url: /zh/net/rate-recurring-tasks/
 了解如何使用 Aspose.Tasks for .NET 高效处理 MS Project 拆分部分。增强您的项目管理工作流程。
 ### [在Aspose.Tasks中收集拆分部分的MS项目](./split-part-collection/)
 了解如何使用 Aspose.Tasks for .NET 在 MS Project 中收集拆分部分。这个综合教程将逐步指导您完成整个过程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

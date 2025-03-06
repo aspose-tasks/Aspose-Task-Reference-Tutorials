@@ -3,10 +3,16 @@ title: Základní linie úkolů
 linktitle: Základní linie úkolů
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte Aspose.Tasks Java pomocí našich výukových programů pro základní linie úloh. Zjednodušte plánování úkolů, vytvořte směrné plány úkolů MS Project a osvojte si správu trvání podle směrného plánu.
-type: docs
 weight: 32
 url: /cs/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Základní linie úkolů
+
 ## Úvod
 Vydejte se na cestu, abyste zlepšili své dovednosti projektového řízení s Aspose.Tasks for Java. V této sérii výukových programů se ponoříme hluboko do složitosti základních úkolů a poskytneme vám cenné poznatky a praktické znalosti. Pojďme prozkoumat klíčové výukové programy, které tvoří tento komplexní průvodce.
 
@@ -51,3 +57,9 @@ Naučte se, jak efektivně naplánovat základní linie úkolů pomocí Aspose.T
 Naučte se, jak vytvořit základní plán úloh Microsoft Project v Javě pomocí Aspose.Tasks, výkonné knihovny pro snadnou správu projektových dat.
 ### [Správa doby trvání základního úkolu v Aspose.Tasks](./task-baseline-duration/)
 Naučte se, jak efektivně spravovat základní linie úkolů v MS Project pomocí Aspose.Tasks for Java. Tento tutoriál vás krok za krokem provede celým procesem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định cấu hình cơ sở dữ liệu MS Project Primavera trong Aspos
 linktitle: Định cấu hình cài đặt cơ sở dữ liệu Primavera trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình cài đặt Cơ sở dữ liệu MS Project Primavera trong Aspose.Tasks cho .NET một cách dễ dàng. Hợp lý hóa các nhiệm vụ quản lý dự án của bạn.
-type: docs
 weight: 11
 url: /vi/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định cấu hình cơ sở dữ liệu MS Project Primavera trong Aspose.Tasks
+
 ## Giới thiệu
 Bạn đã sẵn sàng khai thác sức mạnh của Aspose.Tasks for .NET để định cấu hình liền mạch các cài đặt Cơ sở dữ liệu MS Project Primavera chưa? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình. Nhưng trước khi chúng ta đi sâu vào, hãy đảm bảo bạn có mọi thứ mình cần.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Trả lời: Aspose.Tasks cho .NET chủ yếu tập trung vào các giải phá
 Đ: Chắc chắn rồi! Aspose.Tasks for .NET cung cấp một bộ API phong phú để đọc, ghi và thao tác dữ liệu dự án ở nhiều định dạng khác nhau.
 ### Câu hỏi: Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho Aspose.Tasks dành cho người dùng .NET không?
  Đ: Có, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để được cộng đồng hỗ trợ và trợ giúp về bất kỳ vấn đề hoặc thắc mắc nào bạn có thể có.## Mã nguồn hoàn chỉnh
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργήστε τη γραμμή βάσης εργασιών MS
 linktitle: Δημιουργία γραμμής βάσης εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να δημιουργείτε μια γραμμή βάσης εργασιών του Microsoft Project σε Java χρησιμοποιώντας το Aspose.Tasks, μια ισχυρή βιβλιοθήκη για τη διαχείριση δεδομένων έργου χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε τη γραμμή βάσης εργασιών MS Project στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία δημιουργίας μιας γραμμής βάσης εργασιών του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project χωρίς να απαιτείται η εγκατάσταση του Microsoft Project. Με το Aspose.Tasks, μπορείτε να χειρίζεστε αβίαστα δεδομένα έργου, συμπεριλαμβανομένων εργασιών, πόρων και ημερολογίων, για να βελτιστοποιήσετε τις εργασίες διαχείρισης έργου.
 ## Προαπαιτούμενα
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 Ναι, μπορείτε να ορίσετε εξαρτήσεις εργασιών χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks για Java, επιτρέποντάς σας να καθορίσετε την ακολουθία εργασιών στο έργο σας.
 ### Είναι διαθέσιμη τεχνική υποστήριξη για το Aspose.Tasks για Java;
  Ναι, μπορείτε να έχετε πρόσβαση στην τεχνική υποστήριξη για το Aspose.Tasks για Java μέσω του[φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15), όπου μπορείτε να κάνετε ερωτήσεις και να ζητήσετε βοήθεια από την κοινότητα και το προσωπικό υποστήριξης της Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

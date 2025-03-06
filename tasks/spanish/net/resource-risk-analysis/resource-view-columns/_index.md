@@ -3,10 +3,16 @@ title: Personalice las columnas de vista de recursos de MS Project en Aspose.Tas
 linktitle: Personalización de columnas de vista de recursos en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a personalizar las columnas de la vista de recursos de MS Project de manera eficiente usando Aspose.Tasks para .NET. Cree vistas personalizadas para una mejor gestión de proyectos.
-type: docs
 weight: 17
 url: /es/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalice las columnas de vista de recursos de MS Project en Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para .NET es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft Project mediante programación. Una tarea común en la gestión de proyectos es personalizar las vistas para mostrar información específica. En este tutorial, exploraremos cómo personalizar las columnas de la vista de recursos de MS Project usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -94,3 +100,9 @@ Por supuesto, Aspose.Tasks ofrece amplias opciones de formato para mejorar la ap
 Sí, puede actualizar y regenerar la vista personalizada cada vez que cambien los datos subyacentes del proyecto.
 ### ¿Aspose.Tasks admite el desarrollo multiplataforma?
 Aspose.Tasks para .NET se dirige principalmente a plataformas .NET, pero también hay versiones disponibles para Java y otras plataformas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

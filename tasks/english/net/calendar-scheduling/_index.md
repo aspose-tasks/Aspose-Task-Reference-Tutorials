@@ -3,10 +3,16 @@ title: Aspose.Tasks Calendar and Scheduling
 linktitle: Aspose.Tasks Calendar and Scheduling
 second_title: Aspose.Tasks .NET API
 description: Manage project calendars, calculate durations, and handle exceptions with Aspose.Tasks for .NET. Explore step-by-step tutorials for calendar and scheduling tasks.
-type: docs
 weight: 22
 url: /net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Calendar and Scheduling
+
 ## Introduction
 
 Welcome to the world of Aspose.Tasks for .NET tutorials, your go-to resource for mastering the intricacies of calendar management and scheduling in your .NET projects. Aspose.Tasks empowers developers with robust tools to effortlessly handle project calendars, calculate durations, and manage exceptions. In this comprehensive collection of tutorials, we delve into various aspects, from working with calendars and managing exceptions to exploring specialized topics like compound document header exceptions and currency symbol positions. Whether you're a seasoned developer seeking advanced insights or a newcomer eager to enhance your project management skills, these tutorials provide step-by-step guidance and real-world examples. Let's embark on a journey to unlock the full potential of Aspose.Tasks for .NET and elevate your project management capabilities. Ready to dive in? Let's get started!
@@ -135,3 +141,9 @@ Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. C
 Learn how to import projects from a Primavera database using Aspose.Tasks for .NET. Get step-by-step guidance in this comprehensive tutorial.
 ### [Duration Handling in Aspose.Tasks](./duration-handling/)
 Learn how to handle durations effectively in Aspose.Tasks for .NET with step-by-step tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

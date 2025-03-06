@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업 기준 기간 관리
 linktitle: Aspose.Tasks의 작업 기준 기간 관리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 작업 기준선을 효율적으로 관리하는 방법을 알아보세요. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
-type: docs
 weight: 12
 url: /ko/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업 기준 기간 관리
+
 ## 소개
 MS Project에서 작업 기준선을 관리하는 것은 프로젝트 계획 및 추적에 중요합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업 기준 기간을 효과적으로 관리하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ MS Project의 작업 기준선은 시작 날짜, 완료 날짜 및 기간을 포
 예, Aspose.Tasks는 작업 일정 관리, 리소스 할당, 간트 차트 생성을 포함하여 프로젝트 관리를 위한 광범위한 기능을 제공합니다.
 ### Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  Aspose.Tasks에 대한 지원은 다음에서 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15), 질문을 하고 다른 사용자와 상호 작용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

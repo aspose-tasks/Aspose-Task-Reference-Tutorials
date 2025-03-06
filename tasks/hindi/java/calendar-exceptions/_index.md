@@ -3,10 +3,16 @@ title: कैलेंडर अपवाद
 linktitle: कैलेंडर अपवाद
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ जावा प्रोजेक्ट्स में कैलेंडर अपवादों को सहजता से प्रबंधित, परिभाषित, प्रबंधित और पुनः प्राप्त करें। कुशल परियोजना प्रबंधन के लिए परियोजना वर्कफ़्लो को सुव्यवस्थित करें।
-type: docs
 weight: 20
 url: /hi/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कैलेंडर अपवाद
+
 
 ## परिचय
 
@@ -34,3 +40,9 @@ url: /hi/java/calendar-exceptions/
 जावा के लिए Aspose.Tasks के साथ जावा प्रोजेक्ट्स में कैलेंडर अपवादों को प्रभावी ढंग से संभालने का तरीका जानें। अभी अपनी परियोजना प्रबंधन प्रक्रिया को सुव्यवस्थित करें।
 ### [Aspose.Tasks के साथ कैलेंडर अपवाद पुनर्प्राप्त करें](./retrieve/)
 जावा के लिए Aspose.Tasks का उपयोग करके एमएस प्रोजेक्ट से कैलेंडर अपवादों को पुनः प्राप्त करने का तरीका जानें। निर्बाध एकीकरण के लिए चरण-दर-चरण ट्यूटोरियल।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

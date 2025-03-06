@@ -3,10 +3,16 @@ title: Konfigurasikan Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks
 linktitle: Mengonfigurasi Detail Tanda Tangan Digital PDF di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi detail tanda tangan digital Microsoft Project PDF menggunakan Aspose.Tasks untuk .NET. Pastikan keamanan dan keaslian file proyek Anda.
-type: docs
 weight: 10
 url: /id/net/pdf-security-configuration/pdf-digital-signature-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses mengonfigurasi detail tanda tangan digital Microsoft Project PDF menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah ini, Anda akan dapat mengintegrasikan tanda tangan digital dengan lancar ke dalam file MS Project Anda, memastikan keamanan dan keaslian.
 ## Prasyarat
@@ -84,3 +90,9 @@ A: Ya, Anda dapat menyesuaikan tampilan tanda tangan digital, termasuk teks, fon
 J: Tidak, setelah tanda tangan digital diterapkan pada PDF, tanda tangan tersebut tidak dapat dihapus atau diperbarui. Namun, Anda dapat menambahkan tanda tangan tambahan jika diperlukan.
 ### T: Apakah ada batasan ukuran atau kompleksitas file Microsoft Project?
 J: Aspose.Tasks dapat menangani file Microsoft Project dengan berbagai ukuran dan kompleksitas tanpa batasan. Namun, kinerja dapat bervariasi tergantung pada perangkat keras dan sumber daya yang tersedia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

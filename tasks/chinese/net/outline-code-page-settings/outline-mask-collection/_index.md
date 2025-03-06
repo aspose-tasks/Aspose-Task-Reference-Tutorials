@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握 MS 项目大纲掩模
 linktitle: Aspose.Tasks 中轮廓蒙版的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 操作 MS Project 集合大纲蒙版。通过这个综合教程提高工作效率。
-type: docs
 weight: 15
 url: /zh/net/outline-code-page-settings/outline-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握 MS 项目大纲掩模
+
 ## 介绍
 您是否希望使用 Aspose.Tasks for .NET 来利用 Microsoft Project 轮廓蒙版的强大功能？您来对地方了！在这个综合教程中，我们将逐步指导您完成整个过程，确保您充分了解如何在项目中有效地操作轮廓蒙版。无论您是经验丰富的开发人员还是刚刚入门，本指南都将为您提供优化工作流程所需的知识和技能。
 ## 先决条件
@@ -109,3 +115,9 @@ foreach (var maskToAdd in masks)
 答：是的，Aspose.Tasks for .NET 通过其网站和[论坛](https://forum.aspose.com/c/tasks/15).
 ### Q5：Aspose.Tasks for .NET 有免费试用版吗？
 答：是的，您可以从他们的网站访问 Aspose.Tasks for .NET 的免费试用版[网站](https://releases.aspose.com/tasks/net/)。在购买之前探索其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

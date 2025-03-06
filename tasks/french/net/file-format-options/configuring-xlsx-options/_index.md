@@ -3,10 +3,16 @@ title: Configurer les options MS Project XLSX dans Aspose.Tasks pour .NET
 linktitle: Configuration des options XLSX dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les options MS Project XLSX dans Aspose.Tasks pour .NET. Personnalisez les colonnes, l'encodage et bien plus encore sans effort.
-type: docs
 weight: 11
 url: /fr/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer les options MS Project XLSX dans Aspose.Tasks pour .NET
+
 ## Introduction
 Microsoft Project (MS Project) est un outil puissant pour la gestion de projet, et Aspose.Tasks pour .NET offre une intégration transparente pour travailler avec les fichiers MS Project par programme. Dans ce didacticiel, nous passerons en revue le processus de configuration des options de MS Project XLSX à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
@@ -90,3 +96,9 @@ R : Aspose.Tasks for .NET est principalement conçu pour les plates-formes Windo
 ### Q : Existe-t-il des options de licence temporaire disponibles à des fins de test ?
 
  R : Oui, vous pouvez obtenir une licence temporaire auprès du[Page de licence temporaire Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

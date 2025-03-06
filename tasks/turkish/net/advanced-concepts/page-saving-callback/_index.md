@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
 linktitle: Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te, çok sayfalı belge çıktı akışlarının özelleştirilmiş şekilde işlenmesini sağlayan, sayfa tasarrufu sağlayan bir geri aramanın nasıl uygulanacağını öğrenin.
-type: docs
 weight: 12
 url: /tr/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'te sayfa tasarrufu geri çağırma işleminin nasıl uygulanacağını inceleyeceğiz. Bu özellik, çok sayfalı bir belgeyi kullanıcı tarafından sağlanan akışlara kaydetmemize olanak tanıyarak çıktıların işlenmesinde esneklik ve özelleştirme sunar.
@@ -121,3 +127,9 @@ Cevap4: İstisnaları yönetmek ve uygulamanızda sağlamlık sağlamak için ge
 ### S5: Aspose.Tasks için daha fazla kaynağı ve desteği nerede bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) yardım için belgelere erişin[Burada](https://reference.aspose.com/tasks/net/) veya ek özellikleri ve lisanslama seçeneklerini keşfedin[Aspose.Tasks web sitesi](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

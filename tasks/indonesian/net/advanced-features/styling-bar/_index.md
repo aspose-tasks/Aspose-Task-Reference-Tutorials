@@ -3,10 +3,16 @@ title: Styling Bar di Aspose.Tugas
 linktitle: Styling Bar di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menata gaya bar di Aspose.Tasks untuk .NET untuk meningkatkan visualisasi proyek.
-type: docs
 weight: 19
 url: /id/net/advanced-features/styling-bar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Styling Bar di Aspose.Tugas
+
 ## Perkenalan
 
 Styling bar di Aspose.Tasks adalah aspek penting dalam membuat rencana proyek yang menarik secara visual. Dengan fleksibilitas yang ditawarkan oleh Aspose.Tasks API, pengembang dapat menyesuaikan berbagai aspek bilah, seperti warna, bentuk, dan gaya teks, untuk meningkatkan visualisasi proyek. Dalam tutorial ini, kita akan menjelajahi cara menata gaya bar menggunakan Aspose.Tasks untuk .NET, mengelompokkan setiap contoh menjadi langkah-langkah yang dapat dikelola.
@@ -127,3 +133,9 @@ A4: Meskipun Aspose.Tasks menyediakan gaya bilah default, pengembang juga dapat 
 ### Q5: Bisakah saya mengambil dan memodifikasi gaya batang yang ada dalam proyek menggunakan API?
 
 A5: Ya, Anda dapat mengambil dan memodifikasi gaya batang yang ada secara terprogram menggunakan Aspose.Tasks untuk .NET API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

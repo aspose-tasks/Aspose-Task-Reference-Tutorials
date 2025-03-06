@@ -3,10 +3,16 @@ title: Menguasai Kolom Tampilan Proyek MS dengan Aspose.Tasks untuk .NET
 linktitle: Menangani Kolom Tampilan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan visualisasi proyek dengan Aspose.Tasks untuk .NET. Pelajari cara menangani kolom tampilan Proyek MS langkah demi langkah. Tingkatkan efisiensi dan penyesuaian.
-type: docs
 weight: 12
 url: /id/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Kolom Tampilan Proyek MS dengan Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Di bidang manajemen proyek, Aspose.Tasks untuk .NET menonjol sebagai perangkat canggih untuk menangani file Microsoft Project. Salah satu aspek penting dari visualisasi proyek adalah mengelola kolom tampilan secara efisien. Dalam tutorial ini, kita akan menjelajahi cara menangani kolom tampilan Proyek MS menggunakan Aspose.Tasks, memberdayakan Anda untuk menyesuaikan dan mengoptimalkan tampilan proyek Anda.
 ## Prasyarat
@@ -80,3 +86,9 @@ J: Aspose.Tasks terutama berfokus pada file Microsoft Project; namun, Anda dapat
  J: Itu`MyTextStyleCallback` kelas mendemonstrasikan cara menyesuaikan gaya teks untuk meningkatkan representasi visual dalam tampilan tertentu.
 ### T: Di mana saya dapat menemukan sumber daya dan dokumentasi tambahan untuk Aspose.Tasks?
  J: Lihat[Dokumentasi Aspose.Tasks](https://reference.aspose.com/tasks/net/) untuk panduan dan sumber daya yang mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

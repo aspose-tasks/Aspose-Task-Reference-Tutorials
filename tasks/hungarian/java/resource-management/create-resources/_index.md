@@ -3,10 +3,16 @@ title: Hozzon létre MS Project Resources-t az Aspose.Tasks-ban
 linktitle: Hozzon létre erőforrásokat az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan hozhat létre Microsoft Project erőforrásokat Java nyelven az Aspose.Tasks könyvtár használatával. Lépésről lépésre útmutató a hatékony erőforrás-gazdálkodáshoz.
-type: docs
 weight: 10
 url: /hu/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre MS Project Resources-t az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az Aspose.Tasks for Java használatáról a Microsoft Project erőforrások létrehozásához! Az Aspose.Tasks egy hatékony Java-könyvtár, amely felhatalmazza a fejlesztőket arra, hogy hatékonyan kezeljék a Microsoft Project fájlokat Java-alkalmazásaikon belül. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az MS Project erőforrások Aspose.Tasks használatával létrehozásának folyamatán.
 ## Előfeltételek
@@ -45,3 +51,9 @@ Teljesen! Az Aspose.Tasks úgy lett kialakítva, hogy robusztus funkcióival és
 Támogatást és segítséget az Aspose.Tasks fórumon találhat[itt](https://forum.aspose.com/c/tasks/15).
 ### Szükségem van ideiglenes licencre az Aspose.Tasks használatához?
  Míg az Aspose.Tasks licenc nélkül is használható, az ideiglenes licenc további funkciókat és funkciókat nyithat meg. Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks ile Farklı Birimlerdeki Görev Süresi
 linktitle: Aspose.Tasks ile Farklı Birimlerdeki Görev Süresi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile Java projelerinde görev süresi yönetimini keşfedin. Süreleri dakika, gün, saat, hafta ve ay cinsinden doğru bir şekilde hesaplayın ve dönüştürün.
-type: docs
 weight: 32
 url: /tr/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile Farklı Birimlerdeki Görev Süresi
+
 ## giriiş
 Proje yönetimi alanında görev süresini anlamak ve yönetmek kritik bir husustur. Aspose.Tasks for Java, bunun verimli bir şekilde üstesinden gelmek için güçlü bir araç seti sağlar. Bu eğitimde Aspose.Tasks'ı kullanarak çeşitli birimlerdeki görev sürelerini alma konusunda size rehberlik edeceğiz.
 ## Önkoşullar
@@ -83,3 +89,9 @@ Kesinlikle. Aspose.Tasks, çeşitli boyutlardaki projeleri verimli bir şekilde 
  Ziyaret edin[dokümantasyon](https://reference.aspose.com/tasks/java/)kapsamlı kaynaklar için.
 ### S: Satın almadan önce Aspose.Tasks for Java'yı deneyebilir miyim?
  Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) yeteneklerini değerlendirmektir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

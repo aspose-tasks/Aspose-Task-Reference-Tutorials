@@ -3,10 +3,16 @@ title: Gestion de l'enregistrement des images dans Aspose.Tasks
 linktitle: Gestion de l'enregistrement des images dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer l’enregistrement d’images dans Aspose.Tasks pour .NET à l’aide de directives étape par étape. Intégrez de manière transparente la fonctionnalité d’enregistrement d’images dans vos applications .NET.
-type: docs
 weight: 10
 url: /fr/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de l'enregistrement des images dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous approfondirons le processus de gestion de l'enregistrement des images dans Aspose.Tasks pour .NET. Aspose.Tasks est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. Une tâche courante lorsque l'on travaille avec des fichiers de projet est la nécessité d'enregistrer des images, qui peuvent inclure des tableaux, des graphiques ou d'autres éléments visuels. Nous décomposerons le processus étape par étape, en garantissant clarté et compréhension tout au long.
@@ -131,3 +137,9 @@ A4 : Oui, vous pouvez personnaliser l'apparence des images enregistrées en modi
 ### Q5 : Aspose.Tasks propose-t-il des versions d'essai à des fins d'évaluation ?
 
  A5 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Tasks auprès de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

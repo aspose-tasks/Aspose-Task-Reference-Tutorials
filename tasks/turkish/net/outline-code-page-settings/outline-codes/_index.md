@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te Proje Anahat Kodlarını Yönetin
 linktitle: Aspose.Tasks'ta Anahat Kodlarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile MS Project taslak kodlarını yönetmeyi öğrenin. Proje organizasyonunu zahmetsizce basitleştirin.
-type: docs
 weight: 10
 url: /tr/net/outline-code-page-settings/outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te Proje Anahat Kodlarını Yönetin
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET kullanarak Microsoft Project anahat kodlarının nasıl yönetileceğini inceleyeceğiz. Anahat kodları, Microsoft Project'teki kullanıcıların görevleri belirli ölçütlere göre kategorilere ayırmasına ve düzenlemesine olanak tanıyan özel alanlardır. Aspose.Tasks, bu taslak kodların programlı olarak okunması ve işlenmesi sürecini basitleştirir.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Evet, Aspose.Tasks'ın ticari kullanımı için geçerli bir lisans gereklidi
 C: Evet, özelliklerini ve yeteneklerini değerlendirmek için Aspose.Tasks'ın ücretsiz deneme sürümünü web sitesinden indirebilirsiniz.
 ### S: Aspose.Tasks için nereden destek alabilirim?
  C: Aspose.Tasks için şu adresteki forumu ziyaret ederek destek alabilirsiniz:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15).## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

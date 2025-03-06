@@ -3,10 +3,16 @@ title: التعامل مع استثناءات الذاكرة باستخدام As
 linktitle: التعامل مع استثناءات الذاكرة باستخدام Aspose.Tasks Layout Builder
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع استثناءات الذاكرة في .NET باستخدام Aspose.Tasks Layout Builder بكفاءة. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 12
 url: /ar/net/advanced-features/layout-builder-out-of-memory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع استثناءات الذاكرة باستخدام Aspose.Tasks Layout Builder
+
 ## مقدمة
 
 تعد معالجة استثناءات الذاكرة أمرًا بالغ الأهمية لضمان حسن سير أي تطبيق برمجي. عند العمل مع Aspose.Tasks لـ .NET، غالبًا ما يواجه المطورون مشكلات متعلقة بالذاكرة، خاصة عند التعامل مع المشروعات الكبيرة أو التخطيطات المعقدة. في هذا البرنامج التعليمي، سنستكشف كيفية التعامل بشكل فعال مع استثناءات الذاكرة باستخدام Aspose.Tasks Layout Builder.
@@ -112,3 +118,9 @@ catch (BitmapInvalidSizeException ex)
 ### س5: أين يمكنني العثور على مزيد من المساعدة والدعم لـ Aspose.Tasks؟
 
  ج5: يمكنك العثور على المزيد من المساعدة والدعم، فضلاً عن التفاعل مع المجتمع، على الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

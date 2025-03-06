@@ -3,10 +3,16 @@ title: VBA Entegrasyonu
 linktitle: VBA Entegrasyonu
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks Java'yı VBA entegrasyonuyla keşfedin. Proje iş akışlarını kolaylaştırın ve görev takibini iyileştirin. Sorunsuz VBA entegrasyonu için kapsamlı eğitimleri keşfedin!
-type: docs
 weight: 35
 url: /tr/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA Entegrasyonu
+
 
 ## giriiş
 
@@ -38,3 +44,9 @@ Sonuç olarak, Aspose.Tasks for Java'daki VBA entegrasyonu, hem proje yöneticil
 ## VBA Entegrasyon Eğitimleri
 ### [Aspose.Tasks'ta VBA Entegrasyonu ile çalışın](./work-with-vba/)
 Aspose.Tasks for Java ile proje yönetimini geliştirin - Kolaylaştırılmış iş akışları için VBA entegrasyonunu serbest bırakın. Verimli görev takibi için hemen keşfedin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

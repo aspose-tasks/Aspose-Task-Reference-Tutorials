@@ -3,10 +3,16 @@ title: احصل على عدد الصفحات في المشروع باستخدا�
 linktitle: احصل على عدد الصفحات في المشروع باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لإمكانات تطوير Java باستخدام Aspose.Tasks. تعرف على كيفية التعامل مع ملفات Microsoft Project بسلاسة وتعزيز إنتاجيتك.
-type: docs
 weight: 16
 url: /ar/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على عدد الصفحات في المشروع باستخدام Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير Java، يبرز Aspose.Tasks كأداة قوية للتعامل مع ملفات Microsoft Project. سواء كنت مطورًا متمرسًا أو مجرد غمس أصابعك في برمجة Java، فإن إتقان Aspose.Tasks يمكن أن يعزز بشكل كبير قدرتك على معالجة واستخراج الرؤى القيمة من ملفات المشروع.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ iPages = project.getPageCount(0, Timescale.ThirdsOfMonths);
  ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للتفاعل مع المجتمع وطلب المساعدة بخصوص أي مشاكل أو استفسارات.
 ### س: هل يمكنني تجربة Aspose.Tasks قبل إجراء عملية الشراء؟
  ج: بالتأكيد، يمكنك استكشاف ميزات ووظائف Aspose.Tasks من خلال الحصول على نسخة تجريبية مجانية من موقع Aspose.Tasks.[موقع إلكتروني](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

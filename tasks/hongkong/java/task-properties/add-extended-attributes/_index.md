@@ -3,10 +3,16 @@ title: 為 Aspose.Tasks 中的任務新增擴充屬性
 linktitle: 為 Aspose.Tasks 中的任務新增擴充屬性
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks Java 在使用擴充屬性自訂 Microsoft Project 檔案方面的強大功能。輕鬆增強您的專案管理能力。
-type: docs
 weight: 11
 url: /zh-hant/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 為 Aspose.Tasks 中的任務新增擴充屬性
+
 ## 介紹
 增強專案管理能力對於高效的任務追蹤和資源管理至關重要。 Aspose.Tasks for Java 為 Java 開發人員提供了一個強大的解決方案來無縫操作 Microsoft Project 檔案。在本教程中，我們將探索如何使用 Aspose.Tasks for Java 為任務新增擴充屬性，從而允許您根據您的特定要求自訂和組織專案資料。
 ## 先決條件
@@ -75,3 +81,9 @@ project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp)
 答：訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
 ### Q：我可以在購買前試用 Aspose.Tasks for Java 嗎？
 答：是的，您可以存取免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

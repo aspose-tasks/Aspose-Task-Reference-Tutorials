@@ -3,10 +3,16 @@ title: Server Spara MS Project Alternativ för Aspose.Tasks
 linktitle: Project Server Spara alternativ för Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du sparar Microsoft Project-alternativ för Aspose.Tasks med Project Server-integrering. Förbättra dina arbetsflöden för projektledning.
-type: docs
 weight: 16
 url: /sv/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Server Spara MS Project Alternativ för Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att fördjupa oss i att spara Microsoft Project-alternativ för Aspose.Tasks med Project Server. Aspose.Tasks är ett kraftfullt .NET API som låter utvecklare arbeta med Microsoft Project-filer programmatiskt. Med hjälp av Project Server-kapacitet kan vi sömlöst integrera Aspose.Tasks i våra projektledningsarbetsflöden. Denna handledning guidar dig genom processen steg för steg.
 ## Förutsättningar
@@ -71,3 +77,9 @@ S: Ja, Aspose.Tasks är designat för att vara trådsäkert, vilket tillåter sa
 S: Ja, du kan skräddarsy sparalternativ som projektnamn, timeout och pollingintervall för att passa dina krav.
 ### F: Var kan jag hitta support för Aspose.Tasks?
  S: Du kan hitta stöd och hjälp på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

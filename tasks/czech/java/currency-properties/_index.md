@@ -3,10 +3,16 @@ title: Vlastnosti měny
 linktitle: Vlastnosti měny
 second_title: Aspose.Tasks Java API
 description: Odemkněte sílu Aspose.Tasks for Java Tutorials. Objevte podrobné průvodce čtením a nastavením vlastností měny v souborech MS Project bez námahy.
-type: docs
 weight: 25
 url: /cs/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastnosti měny
+
 ## Úvod
 Jste připraveni vylepšit své dovednosti Aspose.Tasks pro Java? Ponořte se do našich komplexních výukových programů o vlastnostech měn a ovládněte umění manipulace s informacemi o měně v souborech MS Project.
 
@@ -35,3 +41,9 @@ Jste připraveni vydat se na tuto vzdělávací cestu? Začněte kliknutím na n
 Naučte se, jak extrahovat informace o měně ze souborů MS Project pomocí Aspose.Tasks for Java. Poskytován průvodce krok za krokem.
 ### [Nastavte vlastnosti měny v projektech Aspose.Tasks](./set-properties/)
 Naučte se, jak nastavit vlastnosti měny v projektech Aspose.Tasks pomocí Javy. Manipulujte se soubory Microsoft Project bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

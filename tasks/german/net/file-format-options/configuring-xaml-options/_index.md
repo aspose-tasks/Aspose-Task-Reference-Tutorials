@@ -3,10 +3,16 @@ title: Konfigurieren Sie MS Project-XAML-Optionen mit Aspose.Tasks für .NET
 linktitle: Konfigurieren von XAML-Optionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-XAML-Optionen in Aspose.Tasks für .NET konfigurieren. Erhöhen Sie die Flexibilität und Anpassung des Projektmanagements mit einer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 10
 url: /de/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurieren Sie MS Project-XAML-Optionen mit Aspose.Tasks für .NET
+
 ## Einführung
 In der Welt der .NET-Entwicklung ist die effiziente Verwaltung von Projektaufgaben entscheidend für den erfolgreichen Projektabschluss. Aspose.Tasks für .NET bietet eine leistungsstarke Lösung für die nahtlose Abwicklung von Projektmanagementaufgaben. In diesem Tutorial befassen wir uns mit der Konfiguration von MS Project-XAML-Optionen mithilfe von Aspose.Tasks für .NET. 
 ## Voraussetzungen
@@ -68,3 +74,9 @@ A: Ja, Aspose.Tasks für .NET unterstützt die Integration mit verschiedenen Pro
 ### F: Wo kann ich Aspose.Tasks für .NET kaufen?
 
  A: Sie können Aspose.Tasks für .NET bei kaufen[dieser Link](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

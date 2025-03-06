@@ -3,10 +3,16 @@ title: Types de contraintes dans Aspose.Tasks
 linktitle: Types de contraintes dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment définir des types de contraintes dans Aspose.Tasks pour .NET afin de gérer efficacement les plannings de projet.
-type: docs
 weight: 17
 url: /fr/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Types de contraintes dans Aspose.Tasks
+
 ## Introduction
 
 Lorsque vous travaillez avec la gestion de projet dans .NET, il est crucial de comprendre comment appliquer différentes contraintes aux tâches. Aspose.Tasks for .NET fournit un ensemble complet d'outils pour gérer efficacement les contraintes du projet. Dans ce didacticiel, nous examinerons les différents types de contraintes disponibles dans Aspose.Tasks et comment les implémenter étape par étape.
@@ -83,3 +89,9 @@ A4 : Oui, Aspose.Tasks est conçu pour gérer des projets de toutes tailles, des
 ### Q5 : Où puis-je obtenir de l'aide pour les requêtes liées à Aspose.Tasks ?
 
  A5 : Vous pouvez obtenir de l'aide pour Aspose.Tasks en visitant leur[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

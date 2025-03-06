@@ -3,10 +3,16 @@ title: تكوين خيارات عرض MS Project في Aspose.Tasks
 linktitle: تكوين خيارات عرض المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات عرض MS Project برمجياً باستخدام Aspose.Tasks لـ .NET. قم بتخصيص مظهر مشروعك دون عناء.
-type: docs
 weight: 17
 url: /ar/net/project-management-integration/project-display-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين خيارات عرض MS Project في Aspose.Tasks
+
 ## مقدمة
 يقدم Microsoft Project عددًا كبيرًا من خيارات العرض لتخصيص مظهر مشروعك. يوفر Aspose.Tasks for .NET إطارًا قويًا لمعالجة هذه الخيارات برمجيًا. في هذا البرنامج التعليمي، سنستكشف كيفية تكوين خيارات عرض MS Project باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ project.Save(DataDir + "ModifiedProjectFile.mpp", SaveFileFormat.Mpp);
 ج: نعم، يمكنك إعادة تعيين خيارات العرض إلى قيمها الافتراضية باستخدام Aspose.Tasks API.
 ### س: هل هناك أي قيود على تخصيص خيارات العرض برمجياً؟
 ج: على الرغم من أن Aspose.Tasks يوفر إمكانات تخصيص واسعة النطاق، فقد لا يمكن الوصول إلى بعض خيارات العرض برمجيًا بسبب القيود الموجودة في تنسيق ملف MS Project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

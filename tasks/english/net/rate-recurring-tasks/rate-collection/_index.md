@@ -3,10 +3,16 @@ title: Master MS Project Rates with Aspose.Tasks
 linktitle: Collection of Rates in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage rates in MS Project files using Aspose.Tasks for .NET. Step-by-step tutorial for effective resource management.
-type: docs
 weight: 11
 url: /net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Rates with Aspose.Tasks
+
 ## Introduction
 Welcome to our tutorial on managing rates in MS Project using Aspose.Tasks for .NET! In this guide, we'll walk you through the process of working with rates in your MS Project files using Aspose.Tasks. Whether you're a seasoned developer or just getting started with .NET development, this tutorial will provide you with step-by-step instructions to effectively handle rates within your projects.
 ## Prerequisites
@@ -110,3 +116,10 @@ A: Yes, you can find comprehensive documentation and access to support forums on
 A: Yes, you can avail of a free trial of Aspose.Tasks for .NET to evaluate its features and compatibility with your requirements.
 ### Q: How can I purchase a license for Aspose.Tasks for .NET?
 A: You can purchase a license for Aspose.Tasks for .NET from the [website](https://purchase.aspose.com/temporary-license/), which provides flexible licensing options to suit your needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

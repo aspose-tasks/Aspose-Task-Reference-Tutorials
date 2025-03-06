@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET에서 MS 프로젝트 라이센스 관리
 linktitle: .NET에서 Aspose.Tasks 라이선스 관리
 second_title: Aspose.태스크 .NET API
 description: 파일 기반 또는 스트림 기반 접근 방식을 사용하여 .NET 애플리케이션에서 Aspose.Tasks 라이선스를 원활하게 관리하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET에서 MS 프로젝트 라이센스 관리
+
 ## 소개
 라이선스 관리는 .NET 애플리케이션에서 Aspose.Tasks를 효과적으로 활용하는 데 있어 중요한 측면입니다. 적절한 라이선스가 없으면 사용에 제한이 있을 수 있습니다. 다행히 Aspose.Tasks는 .NET 프로젝트의 파일이나 스트림을 사용하여 라이선스를 적용하는 간단한 방법을 제공합니다. 이 튜토리얼에서는 .NET 애플리케이션에서 Aspose.Tasks 라이선스를 관리하는 방법을 단계별로 살펴보겠습니다.
 ## 전제조건
@@ -98,3 +104,9 @@ A: 유효한 라이선스가 없으면 Aspose.Tasks는 문서 크기 제한 및 
 ### Q: 여러 애플리케이션에 동일한 라이센스 파일을 사용할 수 있습니까?
 
 A: 예, 동일한 라이선스 사용자가 개발한 여러 애플리케이션에서 동일한 라이선스 파일을 사용할 수 있습니다. 그러나 라이선스가 Aspose가 지정한 사용 약관을 준수하는지 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

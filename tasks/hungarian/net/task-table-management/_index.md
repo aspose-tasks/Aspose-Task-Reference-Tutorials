@@ -3,10 +3,16 @@ title: Aspose.Tasks Feladatkezelés és táblázatformázás
 linktitle: Aspose.Tasks Feladatkezelés és táblázatformázás
 second_title: Aspose.Tasks .NET API
 description: Konfigurálja és kezelje a táblákat könnyedén az Aspose.Tasks for .NET alkalmazásban lépésről lépésre bemutatott oktatóanyagok segítségével. Növelje a projektmenedzsment hatékonyságát és a prezentációs készségeket.
-type: docs
 weight: 29
 url: /hu/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Feladatkezelés és táblázatformázás
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET robusztus szolgáltatásaival forradalmasítja a projektmenedzsmentet. Ez a cikk különféle oktatóanyagokat tár fel a feladatkezelésről és a táblázat formázásáról, és átfogó útmutatót kínál a hatékonyság maximalizálásához. Vágjunk bele a legfontosabb témákba:
@@ -91,3 +97,9 @@ Fedezze fel az Aspose.Tasks for .NET-et a feladatok kezdő dátumának egyszerű
 Fedezze fel az Aspose.Tasks for .NET alkalmazást, amellyel könnyedén kezelheti és megjelenítheti a projektadatokat. Merüljön el a Task Usage View Fieldsben a jobb projektbetekintés érdekében.
 ### [Feladathasználati nézetmezők gyűjteménye az Aspose.Tasks-ban](./task-usage-view-fields/)
 Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja projektmenedzsment látványvilágát.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

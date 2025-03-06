@@ -3,10 +3,16 @@ title: Εκτεταμένα χαρακτηριστικά εργασιών στο
 linktitle: Εκτεταμένα χαρακτηριστικά εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε χαρακτηριστικά εκτεταμένων εργασιών στο Aspose.Tasks για Java. Οδηγός βήμα προς βήμα, συχνές ερωτήσεις και υποστήριξη. Βελτιστοποιήστε τη διαχείριση του έργου σας σήμερα!
-type: docs
 weight: 16
 url: /el/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτεταμένα χαρακτηριστικά εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη μόχλευση των εκτεταμένων χαρακτηριστικών εργασιών στο Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να εργάζεστε με έγγραφα του Microsoft Project απρόσκοπτα. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στα εκτεταμένα χαρακτηριστικά εργασιών και θα δείξουμε πώς μπορείτε να τα χρησιμοποιήσετε για να βελτιώσετε τις δυνατότητες διαχείρισης του έργου σας.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω την πλήρη έκδοση του Aspose.Tasks για Java;
  Μπορείτε να αγοράσετε την πλήρη έκδοση[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

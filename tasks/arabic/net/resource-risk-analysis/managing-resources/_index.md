@@ -3,10 +3,16 @@ title: يمكنك إدارة موارد مشروع MS بسهولة باستخد�
 linktitle: إدارة الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات موارد Microsoft Project بسهولة باستخدام Aspose.Tasks لـ .NET. تعزيز الإنتاجية وتبسيط سير عمل المشروع.
-type: docs
 weight: 10
 url: /ar/net/resource-risk-analysis/managing-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# يمكنك إدارة موارد مشروع MS بسهولة باستخدام Aspose.Tasks
+
 ## مقدمة
 تعد إدارة الموارد بكفاءة أمرًا بالغ الأهمية في إدارة المشاريع، خاصة عند التعامل مع الجداول الزمنية المعقدة وتعيينات المهام. يوفر Aspose.Tasks for .NET مجموعة قوية من الأدوات للتعامل مع مجموعات موارد Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في كيفية إدارة مجموعات موارد MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 ج: نعم، يدعم Aspose.Tasks for .NET تصدير بيانات المشروع إلى مجموعة متنوعة من التنسيقات، بما في ذلك MPP وPDF وXLSX وHTML وغيرها.
 ### س: أين يمكنني العثور على مزيد من المساعدة أو الدعم فيما يتعلق بـ Aspose.Tasks لـ .NET؟
  ج: لمزيد من المساعدة أو الدعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) أو الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) المقدمة من Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

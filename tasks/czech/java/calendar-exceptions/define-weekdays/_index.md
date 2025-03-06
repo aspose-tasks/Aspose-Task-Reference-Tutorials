@@ -3,10 +3,16 @@ title: Definujte pracovní dny pro výjimky kalendáře pomocí Aspose.Tasks
 linktitle: Definujte pracovní dny pro výjimky kalendáře pomocí Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se definovat pracovní dny pro výjimky kalendáře v projektech Java pomocí Aspose.Tasks pro přesné plánování projektu.
-type: docs
 weight: 11
 url: /cs/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definujte pracovní dny pro výjimky kalendáře pomocí Aspose.Tasks
+
 ### Úvod
 projektovém managementu je definování výjimek pro kalendáře zásadní pro přesné znázornění nestandardních pracovních dnů nebo svátků v časové ose projektu. Aspose.Tasks for Java poskytuje robustní funkce pro efektivní správu kalendářů, včetně definování výjimek, jako jsou svátky nebo zvláštní pracovní dny. V tomto tutoriálu se ponoříme do toho, jak definovat pracovní dny pro výjimky kalendáře pomocí Aspose.Tasks for Java.
 ### Předpoklady
@@ -68,3 +74,10 @@ Odpověď: Aspose.Tasks for Java poskytuje flexibilitu při definování výjime
 Odpověď: Můžete programově zpracovávat výjimky založené na požadavcích dynamického projektu pomocí rozsáhlého API poskytovaného Aspose.Tasks for Java.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro Javu?
  Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks for Java z[webová stránka](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

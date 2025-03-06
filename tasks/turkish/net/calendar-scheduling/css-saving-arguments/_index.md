@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta CSS Argümanlarını Kaydetme
 linktitle: Aspose.Tasks'ta CSS Argümanlarını Kaydetme
 second_title: Aspose.Tasks .NET API'si
 description: HTML çıktısını özelleştirmek için Aspose.Tasks for .NET'te CSS argümanlarını nasıl kaydedeceğinizi öğrenin. Özel CSS ayarlarıyla sunumu geliştirin.
-type: docs
 weight: 20
 url: /tr/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta CSS Argümanlarını Kaydetme
+
 ## giriiş
 
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak CSS argümanlarını kaydetme sürecini ayrıntılı olarak ele alacağız. Basamaklı Stil Sayfaları (CSS), HTML öğelerinin sunumunu tanımlamak için çok önemlidir. Aspose.Tasks, bu CSS niteliklerini verimli bir şekilde değiştirmemize ve kaydetmemize olanak tanır.
@@ -118,3 +124,9 @@ A4: başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) 
 ### S5: Aspose.Tasks for .NET geliştiricilere destek sunuyor mu?
 
  Cevap5: Evet, Aspose.Tasks topluluğundan destek alabilirsiniz.[forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

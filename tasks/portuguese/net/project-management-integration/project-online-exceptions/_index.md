@@ -3,10 +3,16 @@ title: Gerenciando exceções do MS Project Online em Aspose.Tasks
 linktitle: Trabalhando com exceções do Project Online em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar perfeitamente com exceções do Microsoft Project Online com Aspose.Tasks for .NET. Tutorial passo a passo para gerenciamento de projetos eficaz.
-type: docs
 weight: 21
 url: /pt/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciando exceções do MS Project Online em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, nos aprofundaremos nas complexidades do tratamento de exceções do Microsoft Project Online usando Aspose.Tasks for .NET. Aspose.Tasks é uma API .NET poderosa que permite aos desenvolvedores manipular e gerenciar arquivos do Microsoft Project com facilidade. Percorreremos o processo passo a passo, garantindo uma compreensão abrangente de como trabalhar com exceções do MS Project Online em seus aplicativos .NET.
 ## Pré-requisitos
@@ -74,3 +80,9 @@ R: Sim, Aspose.Tasks oferece amplo suporte para trabalhar com vários formatos d
 R: Você pode obter suporte no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
 ### P: Como faço para adquirir uma licença para Aspose.Tasks?
  R: Você pode adquirir uma licença para Aspose.Tasks no site[página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

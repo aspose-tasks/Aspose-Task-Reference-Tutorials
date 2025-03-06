@@ -3,10 +3,16 @@ title: خصائص المشروع
 linktitle: خصائص المشروع
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لإمكانات Aspose.Tasks لـ Java من خلال البرامج التعليمية الخاصة بخصائص المشروع. قم باستخراج معلومات Microsoft Project والاستفادة منها ومعالجتها بسهولة.
-type: docs
 weight: 24
 url: /ar/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خصائص المشروع
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى Aspose.Tasks الخاص بك لمهارات Java؟ تمكّنك البرامج التعليمية الخاصة بخصائص المشروع من الاستفادة من الإمكانات الكاملة لهذه المكتبة القوية، مع التركيز على ثلاثة جوانب رئيسية: قراءة الخصائص الوصفية، واستخراج معلومات Microsoft Project، وإتقان معالجة MS Project. انغمس في هذه البرامج التعليمية لتحسين قدراتك في تطوير Java وإدارة المشاريع.
@@ -35,3 +41,9 @@ url: /ar/java/project-properties/
 تعرف على كيفية استخراج معلومات Microsoft Project باستخدام Aspose.Tasks لـ Java. تعزيز إدارة المشاريع في تطبيقات Java دون عناء.
 ### [إتقان معالجة مشروع MS باستخدام Aspose.Tasks لـ Java](./write-project-info/)
 تعرف على كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة لمطوري جافا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

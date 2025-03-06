@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Dosyalarını Çeşitli Formatlarda Kaydetme
 linktitle: Aspose.Tasks'ta Dosyaları Çeşitli Formatlarda Kaydetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project dosyalarını çeşitli formatlarda nasıl kaydedeceğinizi öğrenin. Etkin proje yönetimi için kolay adımlar.
-type: docs
 weight: 17
 url: /tr/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Dosyalarını Çeşitli Formatlarda Kaydetme
+
 ## giriiş
 Bu eğitimde, Microsoft Project dosyalarını Aspose.Tasks for .NET kullanarak çeşitli formatlarda nasıl kaydedeceğimizi inceleyeceğiz. Aspose.Tasks, geliştiricilerin proje dosyalarını programlı olarak değiştirmesine ve yönetmesine olanak tanıyan güçlü bir API'dir.
 ## Önkoşullar
@@ -55,3 +61,9 @@ C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.a
  C: Evet, değerlendirme amaçlı olarak geçici lisanslar mevcuttur. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks'ın fiyatı nedir?
  C: Fiyatlandırma bilgilerini Aspose.Tasks satın alma sayfasında bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

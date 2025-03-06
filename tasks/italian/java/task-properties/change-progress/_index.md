@@ -3,10 +3,16 @@ title: Modificare l'avanzamento dell'attività in Aspose.Tasks
 linktitle: Modificare l'avanzamento dell'attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Migliora la gestione dei progetti Java con Aspose.Tasks. Impara a modificare facilmente l'avanzamento delle attività in questo tutorial passo passo. Scarica ora!
-type: docs
 weight: 12
 url: /it/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modificare l'avanzamento dell'attività in Aspose.Tasks
+
 ## introduzione
 Nel regno dinamico della gestione dei progetti, il monitoraggio efficace dello stato di avanzamento delle attività è fondamentale. Aspose.Tasks per Java si distingue come una soluzione solida, semplificando il processo con le sue potenti funzionalità. In questo tutorial, ti guideremo attraverso i passaggi per modificare l'avanzamento di un'attività utilizzando Aspose.Tasks per Java.
 ## Prerequisiti
@@ -63,3 +69,9 @@ Replica i passaggi per ogni attività che desideri monitorare.
  Esplora la documentazione completa[Qui](https://reference.aspose.com/tasks/java/).
 ### Come posso ottenere una licenza temporanea per Aspose.Tasks per Java?
  Visitare il[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

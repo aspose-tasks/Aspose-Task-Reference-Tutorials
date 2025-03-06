@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中自訂 MS 專案視圖
 linktitle: 在 Aspose.Tasks 中自訂項目視圖
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 自訂 MS Project 視圖。請遵循我們的逐步指南，實現高效的專案管理視覺化。
-type: docs
 weight: 24
 url: /zh-hant/net/project-management-integration/project-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中自訂 MS 專案視圖
+
 ## 介紹
 Microsoft Project 是一個強大的專案管理工具，可讓使用者有效地組織任務、管理資源和追蹤進度。 Aspose.Tasks for .NET 提供了一種以程式設計方式處理 Microsoft Project 檔案的便利方法，使開發人員能夠自訂專案視圖以滿足其特定需求。在本教程中，我們將探討如何使用 Aspose.Tasks for .NET 自訂 MS Project 視圖。
 ## 先決條件
@@ -60,3 +66,9 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
 是的，Aspose.Tasks for .NET 透過其[論壇](https://forum.aspose.com/c/tasks/15)和[文件入口網站](https://reference.aspose.com/tasks/net/).
 ### 5. 我可以在購買前試用 Aspose.Tasks for .NET 嗎？
 是的，您可以利用[免費試用](https://releases.aspose.com/)Aspose.Tasks for .NET 在做出購買決定之前評估其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

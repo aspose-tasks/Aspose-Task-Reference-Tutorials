@@ -3,10 +3,16 @@ title: إدارة تكاليف المهام في Aspose.Tasks
 linktitle: إدارة تكاليف المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة تكاليف المهام في تطبيقات Java باستخدام Aspose.Tasks. اتبع دليلنا خطوة بخطوة لإدارة تكاليف المشروع بشكل فعال.
-type: docs
 weight: 21
 url: /ar/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة تكاليف المهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks for Java، وهي مكتبة قوية تتيح لك إدارة تكاليف المهام بسلاسة داخل تطبيقات Java الخاصة بك. في هذا الدليل التفصيلي خطوة بخطوة، سوف نستكشف كيفية استخدام Aspose.Tasks بشكل فعال للتعامل مع تكاليف المهام، مما يضمن إدارة المشروع بكفاءة.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
  ج: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks لـ Java؟
  ج: قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

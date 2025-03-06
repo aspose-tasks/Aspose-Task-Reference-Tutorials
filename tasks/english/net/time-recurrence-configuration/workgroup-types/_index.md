@@ -3,10 +3,16 @@ title: Effortless Workgroup Handling with Aspose.Tasks for .NET
 linktitle: Handling Workgroup Types in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore Aspose.Tasks for .NET to effortlessly handle workgroup types in your project. Optimize resource allocation and enhance project management.
-type: docs
 weight: 12
 url: /net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effortless Workgroup Handling with Aspose.Tasks for .NET
+
 ## Introduction
 Aspose.Tasks for .NET provides a robust solution for handling workgroup types in project management scenarios. Managing workgroups efficiently is crucial for optimizing resource allocation and ensuring smooth project execution. In this tutorial, we will delve into the process of handling workgroup types using Aspose.Tasks, offering step-by-step guidance.
 ## Prerequisites
@@ -46,3 +52,10 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 Yes, you can access a free trial from [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Tasks?
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

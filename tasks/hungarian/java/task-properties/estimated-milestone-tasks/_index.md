@@ -3,10 +3,16 @@ title: Kezelje a becsült és mérföldkő feladatokat az Aspose.Tasks alkalmaz�
 linktitle: Kezelje a becsült és mérföldkő feladatokat az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel a hatékony projektmenedzsmentet az Aspose.Tasks for Java segítségével. Könnyedén kezelheti a becsült és mérföldkőnek számító feladatokat. Töltse le a könyvtárat most!
-type: docs
 weight: 15
 url: /hu/java/task-properties/estimated-milestone-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje a becsült és mérföldkő feladatokat az Aspose.Tasks alkalmazásban
+
 ## Bevezetés
 Az Aspose.Tasks for Java egy hatékony könyvtár, amely megkönnyíti a feladatok kezelését, a projektek kezelését és a projektadatok könnyed kezelését. Ebben az oktatóanyagban a projektmenedzsment egyik kulcsfontosságú aspektusára összpontosítunk – a becsült és mérföldkőnek számító feladatok kezelésére az Aspose.Tasks for Java használatával.
 ## Előfeltételek
@@ -60,3 +66,9 @@ Igen, az Aspose.Tasks zökkenőmentesen integrálható a Java-projektekbe, ha k�
  Igen, hozzáférhet az Aspose.Tasks ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

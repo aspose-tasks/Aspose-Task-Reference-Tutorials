@@ -3,10 +3,16 @@ title: Projektadatok elsajátítása az Aspose.Tasks segítségével
 linktitle: Munka a projektadatokkal az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a Microsoft Project adatait az Aspose.Tasks segítségével a .NET-ben. Hozzon létre feladatokat, adjon hozzá erőforrásokat és mentse el a projekteket könnyedén.
-type: docs
 weight: 16
 url: /hu/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektadatok elsajátítása az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk a Microsoft Project adatokkal az Aspose.Tasks könyvtár .NET-hez használatával. Az Aspose.Tasks hatékony funkciókat kínál a projektfájlok kezeléséhez, beleértve a feladatok létrehozását, az erőforrások hozzáadását, a tulajdonságok beállítását és a projektek különféle formátumokban történő mentését.
 ## Előfeltételek
@@ -92,3 +98,9 @@ V: Természetesen az Aspose.Tasks zökkenőmentesen integrálódik más .NET-kö
 V: Igen, az Aspose.Tasks fejlett ütemező algoritmusokat tartalmaz, amelyek segítenek optimalizálni a projektek ütemezését és az erőforrás-felhasználást.
 ### K: Létezik közösségi fórum az Aspose.Tasks felhasználók számára?
  V: Igen, találhat hasznos forrásokat, és kapcsolatba léphet más Aspose.Tasks-felhasználókkal a webhelyen[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

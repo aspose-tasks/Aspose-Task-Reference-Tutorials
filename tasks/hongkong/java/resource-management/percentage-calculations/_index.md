@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 計算 MS 專案資源百分比
 linktitle: 在 Aspose.Tasks 中執行資源百分比計算
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 計算 MS Project 資源百分比。包含程式碼範例的分步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 計算 MS 專案資源百分比
+
 ## 介紹
 歡迎使用我們的逐步指南，了解如何使用 Aspose.Tasks for Java 對 MS Project 資源執行百分比計算。在本教程中，我們將深入研究利用 Aspose.Tasks 從 Microsoft Project 檔案中高效操作和提取資源資料的過程。 Aspose.Tasks 是一個強大的 Java API，提供了處理 Microsoft Project 文件的全面功能，讓開發人員將專案管理功能無縫整合到他們的 Java 應用程式中。
 ## 先決條件
@@ -59,3 +65,9 @@ Aspose.Tasks 提供對所有版本的 Microsoft Project 檔案的支持，包括
 是的，您可以在 Aspose.Tasks 社群論壇上尋求協助並與其他使用者互動[這裡](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks 是否提供用於評估目的的臨時許可證？
 是的，您可以從以下位置取得臨時評估許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

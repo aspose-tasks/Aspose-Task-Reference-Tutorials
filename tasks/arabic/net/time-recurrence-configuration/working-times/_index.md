@@ -3,10 +3,16 @@ title: تكوين أوقات العمل في Aspose.Tasks
 linktitle: تكوين أوقات العمل في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تحسين جدولة المشروع في .NET باستخدام Aspose.Tasks. قم بتكوين أوقات العمل دون عناء لإدارة الموارد بدقة. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 13
 url: /ar/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين أوقات العمل في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، يعد التحكم الدقيق في أوقات العمل أمرًا بالغ الأهمية للجدولة الدقيقة وتخصيص الموارد. يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع معلومات وقت العمل ضمن مشاريعك. سيرشدك هذا البرنامج التعليمي خلال عملية تكوين أوقات العمل باستخدام Aspose.Tasks في بيئة .NET.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ foreach (var day in weekDays)
 يدعم Aspose.Tasks تنسيقات ملفات متعددة، مما يتيح عمليات الاستيراد/التصدير السلسة لبيانات المشروع.
 ### ما مدى تكرار إصدار تحديثات Aspose.Tasks؟
 يتم إصدار التحديثات بانتظام لضمان التوافق مع أحدث التقنيات ومعالجة تعليقات المستخدمين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

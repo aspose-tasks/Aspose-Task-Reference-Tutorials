@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 그룹 정의 데이터 읽기
 linktitle: Aspose.Tasks에서 그룹 정의 데이터 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 Microsoft Project 파일에서 그룹 정의 데이터를 읽는 방법을 알아보세요. 단계별 튜토리얼을 따라해보세요.
-type: docs
 weight: 10
 url: /ko/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 그룹 정의 데이터 읽기
+
 ## 소개
 Aspose.Tasks for Java는 개발자가 Microsoft Project 파일을 쉽게 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 프로젝트 파일에서 그룹 정의 데이터를 읽는 과정을 단계별로 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ A: try-catch 블록을 사용하여 오류 처리 메커니즘을 구현하면 �
 A: 예, Aspose.Tasks for Java를 사용하면 프로젝트 데이터를 PDF, XLSX 및 CSV와 같은 형식으로 내보낼 수 있습니다.
 ### Q: Aspose.Tasks for Java에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks for Java 문서](https://reference.aspose.com/tasks/java/) 포괄적인 가이드를 보려면 다음을 참조하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

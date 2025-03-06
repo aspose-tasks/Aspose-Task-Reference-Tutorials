@@ -3,10 +3,16 @@ title: Создайте базовую линию задач MS Project в Aspos
 linktitle: Создание базовой линии задачи в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как создать базовый план задач Microsoft Project на Java с помощью Aspose.Tasks, мощной библиотеки для простого управления данными проекта.
-type: docs
 weight: 11
 url: /ru/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте базовую линию задач MS Project в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы углубимся в процесс создания базового плана задачи Microsoft Project с использованием Aspose.Tasks для Java. Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам работать с файлами Microsoft Project без необходимости установки Microsoft Project. С помощью Aspose.Tasks вы можете легко манипулировать данными проекта, включая задачи, ресурсы и календари, чтобы оптимизировать задачи управления проектами.
 ## Предварительные условия
@@ -59,3 +65,9 @@ project.setBaseline(BaselineType.Baseline);
 Да, вы можете легко установить зависимости задач с помощью Aspose.Tasks for Java, что позволит вам установить последовательность задач в вашем проекте.
 ### Доступна ли техническая поддержка для Aspose.Tasks для Java?
  Да, вы можете получить доступ к технической поддержке Aspose.Tasks для Java через[форум поддержки](https://forum.aspose.com/c/tasks/15), где вы можете задавать вопросы и обращаться за помощью к сообществу и сотрудникам службы поддержки Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

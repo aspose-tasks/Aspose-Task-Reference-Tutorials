@@ -3,10 +3,16 @@ title: Настройте базу данных MS Project Primavera в Aspose.T
 linktitle: Настройка параметров базы данных Primavera в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как легко настроить параметры базы данных MS Project Primavera в Aspose.Tasks для .NET. Оптимизируйте задачи управления проектами.
-type: docs
 weight: 11
 url: /ru/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте базу данных MS Project Primavera в Aspose.Tasks
+
 ## Введение
 Готовы ли вы использовать возможности Aspose.Tasks для .NET для простой настройки параметров базы данных MS Project Primavera? В этом уроке мы шаг за шагом проведем вас через этот процесс. Но прежде чем мы углубимся, давайте убедимся, что у вас есть все необходимое.
 ## Предварительные условия
@@ -73,3 +79,9 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 А: Абсолютно! Aspose.Tasks для .NET предоставляет богатый набор API для чтения, записи и управления данными проекта в различных форматах.
 ### Вопрос: Есть ли форум сообщества или канал поддержки для пользователей Aspose.Tasks для .NET?
  О: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)для поддержки сообщества и помощи по любым вопросам или вопросам, которые могут у вас возникнуть.## Полный исходный код
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

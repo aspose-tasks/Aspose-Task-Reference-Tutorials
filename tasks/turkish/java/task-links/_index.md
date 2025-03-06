@@ -3,10 +3,16 @@ title: Görev Bağlantıları
 linktitle: Görev Bağlantıları
 second_title: Aspose.Tasks Java API'si
 description: Eğitimlerimizle Aspose.Tasks for Java'yı keşfedin. İşbirliğini geliştirin, bağlantı türlerini tanımlayın ve görevleri sorunsuz bir şekilde yönetin. Proje verimliliğinizi şimdi artırın!
-type: docs
 weight: 33
 url: /tr/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görev Bağlantıları
+
 ## giriiş
 
 Java proje yönetimi dünyasına giriyorsanız Aspose.Tasks sizin için en iyi araçtır. Kapsamlı eğitimlerimiz, Aspose.Tasks for Java kütüphanesinin en iyi şekilde kullanılmasını sağlayarak çeşitli yönlerde uzmanlaşmanızı sağlar.
@@ -38,3 +44,9 @@ Aspose.Tasks for Java'nın proje yönetimindeki gücünü keşfedin. Adım adım
 Aspose.Tasks for Java ile projeler arası görev tanımlamayı keşfedin. Kusursuz entegrasyon ve verimli yönetim. Şimdi İndirin!
 ### [Aspose.Tasks'ta Önceki ve Ardıl Görevleri Yönetin](./predecessor-successor-tasks/)
 Aspose.Tasks for Java ile verimli görev yönetimini keşfedin. Projelerinizde öncül ve ardıl görevleri kolayca gerçekleştirin. Şimdi ücretsiz deneme sürümünü indirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

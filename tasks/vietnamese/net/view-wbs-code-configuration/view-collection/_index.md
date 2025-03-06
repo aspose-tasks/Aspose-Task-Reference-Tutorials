@@ -3,10 +3,16 @@ title: Quản lý lượt xem dự án MS dễ dàng với Aspose.Tasks .NET
 linktitle: Bộ sưu tập các lượt xem trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks cho .NET và nắm vững nghệ thuật quản lý Chế độ xem dự án MS một cách dễ dàng. Tải xuống ngay để có trải nghiệm quản lý dự án liền mạch.
-type: docs
 weight: 11
 url: /vi/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý lượt xem dự án MS dễ dàng với Aspose.Tasks .NET
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho .NET, một thư viện mạnh mẽ trao quyền cho các nhà phát triển quản lý hiệu quả Chế độ xem dự án Microsoft trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các yếu tố cần thiết trong việc xử lý Chế độ xem dự án MS bằng Aspose.Tasks, cung cấp cho bạn hướng dẫn từng bước để nâng cao khả năng quản lý dự án của bạn.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://rel
  Tương tác với cộng đồng Aspose.Tasks trên[diễn đàn](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.
 ### Giấy phép tạm thời có sẵn cho Aspose.Tasks không?
  Có, khám phá giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

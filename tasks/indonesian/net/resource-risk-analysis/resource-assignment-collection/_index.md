@@ -3,10 +3,16 @@ title: Kumpulan Penugasan Sumber Daya di Aspose.Tasks
 linktitle: Kumpulan Penugasan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola penetapan sumber daya di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah dengan contoh kode.
-type: docs
 weight: 12
 url: /id/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Penugasan Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif tentang mengelola penetapan sumber daya di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Dalam tutorial ini, kami akan mempelajari prosesnya langkah demi langkah, memastikan Anda memiliki pemahaman yang kuat tentang cara memanipulasi penetapan sumber daya secara efisien. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui semua yang perlu Anda ketahui.
 ## Prasyarat
@@ -94,3 +100,9 @@ J: Ya, Aspose.Tasks untuk .NET mendukung berbagai versi file Microsoft Project, 
  J: Ya, lisensi sementara tersedia untuk tujuan evaluasi. Anda bisa mendapatkannya dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli lisensi penuh Aspose.Tasks untuk .NET?
  J: Anda dapat membeli lisensi penuh dari toko online Aspose[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kalendáře
 linktitle: Kalendáře
 second_title: Aspose.Tasks Java API
 description: Vylepšete své dovednosti v oblasti řízení projektů Java pomocí výukových programů Aspose.Tasks. Ovládněte správu kalendářů, snadno vytvářejte, definujte dny v týdnu a aktualizujte kalendáře.
-type: docs
 weight: 21
 url: /cs/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalendáře
+
 ## Úvod
 
 Jste vývojář Java a chcete zefektivnit své dovednosti projektového řízení? Ponořte se do našich komplexních výukových programů Aspose.Tasks, které pokrývají různé aspekty správy kalendářů MS Project. Ať už jste ostřílený vývojář nebo teprve začínáte, tyto výukové programy poskytují podrobné pokyny ke zlepšení vašich schopností.
@@ -64,3 +70,9 @@ Naučte se, jak vytvořit standardní kalendář MS Project v Javě pomocí Aspo
 Naučte se číst pracovní týdny z kalendáře MS Project pomocí Aspose.Tasks for Java. Získejte podrobné pokyny v tomto komplexním tutoriálu.
 ### [Aktualizujte kalendáře MS Project na formát MPP pomocí Aspose.Tasks](./update-to-mpp/)
 Naučte se, jak bez námahy aktualizovat kalendáře MS Project do formátu MPP pomocí Aspose.Tasks for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

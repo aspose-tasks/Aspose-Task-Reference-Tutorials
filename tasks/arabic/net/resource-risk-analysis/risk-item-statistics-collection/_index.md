@@ -3,10 +3,16 @@ title: قم بتجميع إحصائيات عناصر مخاطر مشروع MS ف
 linktitle: مجموعة من إحصائيات عناصر الخطر في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية جمع إحصائيات عناصر المخاطرة من ملفات MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز قدرات إدارة المشروع الخاص بك.
-type: docs
 weight: 22
 url: /ar/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتجميع إحصائيات عناصر مخاطر مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية جمع إحصائيات عناصر المخاطر من ملفات MS Project باستخدام Aspose.Tasks لـ .NET. توفر هذه المكتبة وظائف قوية لتحليل بيانات المشروع، بما في ذلك تقييم المخاطر والتحليل الإحصائي.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ foreach (var statistic in statistics)
 ج: نعم، يوفر Aspose.Tasks المرونة في تكوين إعدادات تحليل المخاطر لتناسب متطلبات وسيناريوهات مشروعك المحددة.
 ### س: هل يتوفر الدعم الفني لمستخدمي Aspose.Tasks؟
  ج: نعم، يمكن لمستخدمي Aspose.Tasks الوصول إلى الدعم الفني من خلال Aspose[المنتديات](https://forum.aspose.com/c/tasks/15)حيث يمكنهم طرح الأسئلة والإبلاغ عن المشكلات والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

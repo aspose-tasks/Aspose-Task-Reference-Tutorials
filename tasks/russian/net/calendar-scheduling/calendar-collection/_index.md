@@ -3,10 +3,16 @@ title: Управление коллекцией календарей в Aspose.
 linktitle: Управление коллекцией календарей в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями календарей в Aspose.Tasks для .NET. С легкостью создавайте, изменяйте и манипулируйте календарями.
-type: docs
 weight: 11
 url: /ru/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление коллекцией календарей в Aspose.Tasks
+
 ## Введение
 
 В этом уроке мы рассмотрим, как управлять коллекциями календарей в Aspose.Tasks для .NET. Календари играют решающую роль в управлении проектами, определяя рабочие дни, праздники и исключения. Aspose.Tasks предоставляет надежную функциональность для управления календарями в ваших проектах.
@@ -160,3 +166,9 @@ project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
 ### Вопрос 5. Могу ли я настроить рабочее время для определенных дней в календаре?
 
 О5: Конечно, вы можете определить рабочее время для отдельных дней, используя исключения в календаре.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

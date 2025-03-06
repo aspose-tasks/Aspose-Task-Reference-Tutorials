@@ -3,10 +3,16 @@ title: Propriedades da tarefa
 linktitle: Propriedades da tarefa
 second_title: API Java Aspose.Tasks
 description: Aprimore o gerenciamento de projetos Java com Aspose.Tasks. Explore tutoriais sobre propriedades de tarefas, desde o tratamento de prioridades até o gerenciamento de custos. Otimize seu projeto hoje!
-type: docs
 weight: 34
 url: /pt/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriedades da tarefa
+
 ## Introdução
 
 Gerencie e personalize facilmente arquivos do Microsoft Project em Java com Aspose.Tasks. Explore tutoriais que abrangem vários aspectos das propriedades de tarefas para aprimorar seus recursos de gerenciamento de projetos.
@@ -138,3 +144,9 @@ Explore Aspose.Tasks para Java e domine o gerenciamento de dados em fases de tar
 Aprenda como atualizar dados de tarefas para o formato MPP usando Aspose.Tasks for Java. Siga nosso guia passo a passo para um gerenciamento de projetos eficiente.
 ### [WBS associada à tarefa em Aspose.Tasks](./wbs-associated-with-task/)
 Domine WBS com Aspose.Tasks for Java - Aprenda a ler e renumerar códigos de tarefas WBS. Aumente a eficiência do gerenciamento de projetos!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

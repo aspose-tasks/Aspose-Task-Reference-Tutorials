@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट संसाधन 
 linktitle: Aspose.Tasks में संसाधन बनाएँ
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks लाइब्रेरी का उपयोग करके जावा में Microsoft प्रोजेक्ट संसाधन बनाने का तरीका जानें। कुशल संसाधन प्रबंधन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 10
 url: /hi/java/resource-management/create-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट संसाधन बनाएँ
+
 ## परिचय
 Microsoft प्रोजेक्ट संसाधन बनाने के लिए Java के लिए Aspose.Tasks का उपयोग करने पर हमारी व्यापक मार्गदर्शिका में आपका स्वागत है! Aspose.Tasks एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को उनके जावा अनुप्रयोगों के भीतर Microsoft प्रोजेक्ट फ़ाइलों में कुशलतापूर्वक हेरफेर करने का अधिकार देती है। इस ट्यूटोरियल में, हम आपको चरण दर चरण Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संसाधन बनाने की प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -45,3 +51,9 @@ Resource resource = project.getResources().add("ResourceName");
 आप Aspose.Tasks फोरम पर समर्थन और सहायता पा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### क्या मुझे Aspose.Tasks का उपयोग करने के लिए अस्थायी लाइसेंस की आवश्यकता है?
  जबकि आप बिना लाइसेंस के Aspose.Tasks का उपयोग कर सकते हैं, एक अस्थायी लाइसेंस अतिरिक्त सुविधाओं और कार्यात्मकताओं को अनलॉक कर सकता है। आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

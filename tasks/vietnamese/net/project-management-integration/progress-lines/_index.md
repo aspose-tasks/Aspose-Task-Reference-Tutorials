@@ -3,10 +3,16 @@ title: Xử lý dòng tiến độ dự án MS với Aspose.Tasks
 linktitle: Xử lý các dòng tiến trình trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thao tác các dòng tiến trình trong tệp MS Project bằng Aspose.Tasks cho .NET, nâng cao khả năng quản lý và trực quan hóa dự án.
-type: docs
 weight: 15
 url: /vi/net/project-management-integration/progress-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý dòng tiến độ dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project (MS Project) là một công cụ mạnh mẽ để quản lý dự án, cho phép người dùng theo dõi các khía cạnh khác nhau của dự án của họ. Một tính năng quan trọng của MS Project là khả năng trực quan hóa các đường tiến độ, giúp các bên liên quan hiểu được trạng thái và quỹ đạo của dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các dòng tiến trình trong MS Project bằng thư viện Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -96,3 +102,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks được thiết kế để tí
  Trả lời: Có, bạn có thể tìm thấy các tài nguyên hữu ích và tìm kiếm sự trợ giúp trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Aspose.Tasks có cung cấp giấy phép tạm thời cho mục đích đánh giá không?
  Đáp: Có, bạn có thể xin giấy phép tạm thời để đánh giá từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

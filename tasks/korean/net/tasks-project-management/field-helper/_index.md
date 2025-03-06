@@ -3,10 +3,16 @@ title: Aspose.Tasks의 현장 도우미 MS 프로젝트 통합
 linktitle: Aspose.Tasks의 필드 도우미
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 활용하여 MS 프로젝트 파일을 원활하게 작업하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 현장 도우미 MS 프로젝트 통합
+
 ## 소개
 
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일을 원활하게 사용할 수 있게 해주는 강력한 API입니다. 프로젝트 관리 도구를 구축하든, 프로젝트 기능을 애플리케이션에 통합하든, 아니면 단순히 프로젝트 파일을 프로그래밍 방식으로 조작해야 하든 Aspose.Tasks는 작업을 효율적으로 완료하는 데 필요한 도구를 제공합니다.
@@ -74,3 +80,9 @@ A: 예, Aspose.Tasks for .NET은 다양한 버전의 Microsoft Project와 작동
 ### Q5: .NET용 Aspose.Tasks 라이선스는 어디서 구매할 수 있나요?
 
  A: Aspose 웹사이트에서 .NET용 Aspose.Tasks 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

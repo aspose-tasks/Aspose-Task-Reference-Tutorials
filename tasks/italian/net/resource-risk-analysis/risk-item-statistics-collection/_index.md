@@ -3,10 +3,16 @@ title: Raccogliere statistiche sugli elementi di rischio del progetto MS in Aspo
 linktitle: Raccolta di statistiche sugli elementi di rischio in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come raccogliere statistiche sugli elementi di rischio dai file MS Project utilizzando Aspose.Tasks per .NET. Migliora le tue capacità di gestione dei progetti.
-type: docs
 weight: 22
 url: /it/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccogliere statistiche sugli elementi di rischio del progetto MS in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come raccogliere statistiche sugli elementi di rischio dai file MS Project utilizzando Aspose.Tasks per .NET. Questa libreria fornisce potenti funzionalità per analizzare i dati del progetto, inclusa la valutazione del rischio e l'analisi statistica.
 ## Prerequisiti
@@ -88,3 +94,9 @@ R: Assolutamente, Aspose.Tasks è progettato per soddisfare le esigenze delle ap
 R: Sì, Aspose.Tasks offre flessibilità nella configurazione delle impostazioni di analisi del rischio per soddisfare i requisiti e gli scenari specifici del progetto.
 ### D: Il supporto tecnico è disponibile per gli utenti Aspose.Tasks?
  R: Sì, gli utenti di Aspose.Tasks possono accedere al supporto tecnico tramite Aspose[forum](https://forum.aspose.com/c/tasks/15), dove possono porre domande, segnalare problemi e interagire con la community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

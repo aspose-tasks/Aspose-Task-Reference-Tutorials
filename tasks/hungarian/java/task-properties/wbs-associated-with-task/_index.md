@@ -3,10 +3,16 @@ title: WBS Aspose.Tasks feladathoz társítva
 linktitle: WBS Aspose.Tasks feladathoz társítva
 second_title: Aspose.Tasks Java API
 description: A WBS elsajátítása Aspose.Tasks for Java segítségével – Tanulja meg a feladatok WBS kódjainak olvasását és újraszámozását. Növelje a projektmenedzsment hatékonyságát!
-type: docs
 weight: 36
 url: /hu/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS Aspose.Tasks feladathoz társítva
+
 ## Bevezetés
 Üdvözöljük az Aspose.Tasks for Java projektmenedzsment világában! Ebben az oktatóanyagban az Aspose.Tasks for Java használatával kapcsolatos feladatokhoz kapcsolódó Work Breakdown Structure (WBS) bonyolultságaival foglalkozunk. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató segít eligazodni a WBS-kódok hatékony kezelésének alapjaiban.
 ## Előfeltételek
@@ -90,3 +96,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell WBS-kódokkal dolgozni az Aspose
  V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért.
 ### K: Kaphatok ideiglenes licencet az Aspose.Tasks for Java számára?
  V: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

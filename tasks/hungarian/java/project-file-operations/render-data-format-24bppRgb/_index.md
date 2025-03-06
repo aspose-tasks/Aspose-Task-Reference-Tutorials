@@ -3,10 +3,16 @@ title: Renderelje le az MS-projektadatokat 24bppRgb formátumban az Aspose.Tasks
 linktitle: Rendereljen adatokat 24bppRgb formátumban az Aspose.Tasks programban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan jelenítheti meg az MS Project adatait képként Java nyelven az Aspose.Tasks segítségével. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderelje le az MS-projektadatokat 24bppRgb formátumban az Aspose.Tasks-ban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük az MS Project 24bppRgb formátumú adatmegjelenítési folyamatán az Aspose.Tasks for Java használatával. A projektadatok képformátumba történő megjelenítése hasznos lehet különféle célokra, például a projekt előrehaladásának vizuális megosztására vagy jelentések készítésére.
 ## Előfeltételek
@@ -63,3 +69,9 @@ V: Igen, az Aspose.Tasks segítségével testreszabhatja a felbontást és a pix
  V: Igen, licencet kell vásárolnia az Aspose.Tasks kereskedelmi használatához. Ideiglenes licencet tesztelési célból szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kaphatok támogatást az Aspose.Tasks-hoz?
  V: Az Aspose.Tasks-hoz támogatást kaphat a következőtől[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

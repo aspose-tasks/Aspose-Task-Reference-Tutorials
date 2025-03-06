@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 MS 프로젝트 자원 백분율 계산
 linktitle: Aspose.Tasks에서 리소스에 대한 백분율 계산 수행
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS Project 리소스 비율을 계산하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 MS 프로젝트 자원 백분율 계산
+
 ## 소개
 Aspose.Tasks for Java를 사용하여 MS 프로젝트 리소스에 대한 백분율 계산을 수행하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.Tasks를 활용하여 Microsoft Project 파일에서 리소스 데이터를 효율적으로 조작하고 추출하는 프로세스를 자세히 살펴보겠습니다. Aspose.Tasks는 Microsoft Project 문서 작업을 위한 포괄적인 기능을 제공하는 강력한 Java API로, 개발자가 프로젝트 관리 기능을 Java 애플리케이션에 원활하게 통합할 수 있도록 해줍니다.
 ## 전제조건
@@ -59,3 +65,9 @@ Aspose.Tasks는 MPP, MPT, XML 등을 포함한 모든 버전의 Microsoft Projec
  예, Aspose.Tasks 커뮤니티 포럼에서 도움을 찾고 다른 사용자와 교류할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks는 평가 목적으로 임시 라이선스를 제공합니까?
  예, 다음에서 평가용 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

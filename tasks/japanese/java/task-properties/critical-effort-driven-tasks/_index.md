@@ -3,10 +3,16 @@ title: Aspose.Tasks で重要なタスクと労力主導のタスクを管理す
 linktitle: Aspose.Tasks で重要なタスクと労力主導のタスクを管理する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用すると、Java プロジェクト内の重要なタスクや労力を必要とするタスクを簡単に管理できます。ライブラリをダウンロードして、プロジェクト管理機能を強化してください。
-type: docs
 weight: 14
 url: /ja/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で重要なタスクと労力主導のタスクを管理する
+
 ペースの速いプロジェクト管理の世界では、プロジェクトを正常に完了するには、重要で労力を要するタスクを効率的に処理することが不可欠です。 Aspose.Tasks for Java は、これらのタスクをシームレスに管理するための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Tasks for Java を使用して、プロジェクト内の重要なタスクや労力を必要とするタスクを処理するプロセスを説明します。
 ## 前提条件
 チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
@@ -60,3 +66,9 @@ for (Task tsk : collector.getTasks()) {
 仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for Java はどこで購入できますか?
 Aspose.Tasks for Java は、[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

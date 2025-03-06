@@ -3,10 +3,16 @@ title: Hämta MS Project File Information i Aspose.Tasks
 linktitle: Hämta projektfilinformation i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hämtar Microsoft Project-filinformation med Aspose.Tasks för .NET. Steg-för-steg guide med kodexempel.
-type: docs
 weight: 19
 url: /sv/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta MS Project File Information i Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår steg-för-steg-guide för att hämta Microsoft Project-filinformation med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt bibliotek som låter .NET-utvecklare arbeta med Microsoft Project-filer programmatiskt, vilket möjliggör uppgifter som att läsa, skriva och manipulera projektdata.
 ## Förutsättningar
@@ -58,3 +64,9 @@ Absolut, Aspose.Tasks tillhandahåller omfattande möjligheter för att läsa, s
  Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Tasks?
  Du kan få support för Aspose.Tasks genom[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).## Komplett källkod
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập loại ngày trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập loại ngày trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý bộ sưu tập loại ngày một cách hiệu quả trong Aspose.Tasks for .NET. Tạo, sửa đổi và thao tác ngoại lệ lịch một cách dễ dàng.
-type: docs
 weight: 28
 url: /vi/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập loại ngày trong Aspose.Tasks
+
 ## Giới thiệu
 
  Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để quản lý bộ sưu tập loại ngày, rất quan trọng để xác định các ngoại lệ lịch hàng tuần trong các ứng dụng quản lý dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng`DayTypeCollection` lớp một cách hiệu quả. 
@@ -141,3 +147,9 @@ Câu trả lời 2: Có, Aspose.Tasks for .NET hỗ trợ cả .NET Core và .NE
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks cho .NET không?
 
  Câu trả lời 5: Có, giấy phép tạm thời có sẵn để mua từ[trang web giả định](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulatie van MS-projectgroepcriteria in Aspose.Tasks
 linktitle: Groepscriteria in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek hoe u MS Project-bestanden programmatisch kunt manipuleren in .NET met behulp van Aspose.Tasks. Stapsgewijze voorbeelden van taakgroep- en criteriuminformatie ophalen.
-type: docs
 weight: 27
 url: /nl/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulatie van MS-projectgroepcriteria in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige API die het werken met Microsoft Project-bestanden in uw .NET-applicaties vergemakkelijkt. Of u nu projectmanagementsoftware ontwikkelt of projectgegevens programmatisch moet manipuleren, Aspose.Tasks biedt een uitgebreide reeks functies om aan uw behoeften te voldoen.
 ## Vereisten
@@ -78,3 +84,9 @@ Absoluut, Aspose.Tasks biedt uitgebreide functionaliteiten om projectgegevens te
 Ja, Aspose.Tasks ondersteunt meerdere .NET-platforms, waaronder .NET Framework, .NET Core en .NET Standard.
 ### Is er een communityforum voor Aspose.Tasks waar ik hulp kan zoeken?
  Ja, u kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om vragen te stellen, kennis te delen en samen te werken met andere gebruikers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

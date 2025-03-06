@@ -3,10 +3,16 @@ title: Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
 linktitle: Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola tugas berulang secara efisien. Panduan langkah demi langkah untuk menerapkan fitur Pengulangan berdasarkan Tahun, Hari Minggu.
-type: docs
 weight: 28
 url: /id/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
+
 ## Perkenalan
 
 Dalam bidang manajemen proyek, efisiensi dan presisi adalah hal yang terpenting. Aspose.Tasks untuk .NET muncul sebagai alat yang ampuh, menawarkan banyak fitur untuk menyederhanakan penanganan proyek. Di antara persenjataannya adalah kemampuan untuk mengelola tugas berulang dengan fleksibilitas luar biasa. Salah satu fitur tersebut adalah fungsi "Pengulangan berdasarkan Tahun, Hari Minggu", yang memungkinkan pengguna mengatur tugas yang berulang pada hari tertentu dalam seminggu, dalam bulan yang ditentukan, dan dalam beberapa tahun.
@@ -126,3 +132,9 @@ J: Ya, Aspose.Tasks untuk .NET menawarkan dukungan untuk solusi manajemen proyek
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
 J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

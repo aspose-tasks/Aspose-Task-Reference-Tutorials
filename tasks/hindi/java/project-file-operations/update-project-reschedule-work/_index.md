@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट को अद्य
 linktitle: प्रोजेक्ट को अपडेट करें और Aspose.Tasks में अधूरे काम को दोबारा शेड्यूल करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से अद्यतन और पुनर्निर्धारित करना सीखें।
-type: docs
 weight: 23
 url: /hi/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट को अद्यतन और पुनर्निर्धारित करें
+
 ## परिचय
 माइक्रोसॉफ्ट प्रोजेक्ट एक व्यापक रूप से उपयोग किया जाने वाला प्रोजेक्ट प्रबंधन सॉफ्टवेयर है जो उपयोगकर्ताओं को कार्यों, संसाधनों और समयसीमा को कुशलतापूर्वक प्रबंधित करने की अनुमति देता है। जावा के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए एपीआई का एक शक्तिशाली सेट प्रदान करता है। इस ट्यूटोरियल में, हम सीखेंगे कि एमएस प्रोजेक्ट फ़ाइलों को कैसे अपडेट करें और जावा के लिए Aspose.Tasks का उपयोग करके अधूरे काम को कैसे पुनर्निर्धारित करें।
 ## आवश्यक शर्तें
@@ -73,3 +79,9 @@ project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
  उत्तर: हां, अस्थायी लाइसेंस खरीद के लिए उपलब्ध हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Tasks के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
  उत्तर: आप दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://reference.aspose.com/tasks/java/) व्यापक गाइड और एपीआई संदर्भों के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

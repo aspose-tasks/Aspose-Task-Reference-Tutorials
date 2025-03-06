@@ -3,10 +3,16 @@ title: Kezelje az MS Project Group kritériumait az Aspose.Tasks segítségével
 linktitle: Csoportkritérium-gyűjtemény kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a Group Criterion MS Project gyűjteményét az Aspose.Tasks for .NET használatával. Lépésről lépésre útmutató fejlesztőknek.
-type: docs
 weight: 28
 url: /hu/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje az MS Project Group kritériumait az Aspose.Tasks segítségével
+
 ## Bevezetés
 Az Aspose.Tasks for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kezelni a Group Criterion gyűjteményt az MS Projectben az Aspose.Tasks segítségével.
 
@@ -126,3 +132,9 @@ V: Természetesen több feltételt is hozzáadhat egy csoporthoz úgy, hogy mind
 ### 5. kérdés: Hogyan kaphatok támogatást, ha bármilyen problémába ütközöm?
 
  V: Ha bármilyen kérdése van, vagy bármilyen problémája van, kérhet támogatást az Aspose.Tasks fórumon[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

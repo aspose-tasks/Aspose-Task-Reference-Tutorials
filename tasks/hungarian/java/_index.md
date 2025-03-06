@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.Tasks-ra Java-hoz
 linktitle: Aspose.Tasks Java oktatóanyagokhoz
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel az Aspose.Tasks for Java-t oktatóanyagainkkal. Főnaptár, projektmenedzsment és még sok más. Egyszerűsítse munkafolyamatait a hatékony projektvégrehajtás érdekében.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.Tasks-ra Java-hoz
+
 
 ## Bevezetés
 Készen állsz, hogy javítsa Java projektmenedzsment készségeidet? Merüljön el az Aspose.Tasks for Java világában kiterjedt oktatóanyagainkkal, amelyek a projektmenedzsment különféle aspektusait fedik le. A naptárkivételektől a VBA-integrációig mi mindent megtalálunk.
@@ -93,3 +98,9 @@ Fedezze fel az Aspose.Tasks Java-t Task Baseline oktatóanyagainkkal. Egyszerűs
 Javítsa a Java projektkezelést az Aspose.Tasks segítségével. Fedezze fel a feladat tulajdonságairól szóló oktatóanyagokat, a prioritások kezelésétől a költségek kezeléséig. Optimalizálja projektjét még ma!
 ### [VBA integráció](./vba-integration/)
 Fedezze fel az Aspose.Tasks Java-t VBA-integrációval. Egyszerűsítse a projekt munkafolyamatait és javítsa a feladatok nyomon követését. Fedezze fel az átfogó oktatóanyagokat a zökkenőmentes VBA-integrációhoz!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

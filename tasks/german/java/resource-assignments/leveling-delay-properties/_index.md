@@ -3,10 +3,16 @@ title: Behandeln Sie die Eigenschaften der Ausgleichsverzögerung in Aspose.Task
 linktitle: Behandeln Sie die Eigenschaften der Ausgleichsverzögerung für Ressourcenzuweisungen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Nivellierungsverzögerungseigenschaften für Ressourcenzuweisungen in Aspose.Tasks für Java umgehen.
-type: docs
 weight: 17
 url: /de/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandeln Sie die Eigenschaften der Ausgleichsverzögerung in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial führen wir den Prozess der Handhabung von Nivellierungsverzögerungseigenschaften für Ressourcenzuweisungen in Aspose.Tasks für Java durch. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Ihnen ermöglicht, mit Microsoft Project-Dateien zu arbeiten, ohne dass Microsoft Project auf Ihrem System installiert sein muss.
 ## Voraussetzungen
@@ -91,3 +97,9 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-Da
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
 
  A: Sie können eine temporäre Lizenz bei der beantragen[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

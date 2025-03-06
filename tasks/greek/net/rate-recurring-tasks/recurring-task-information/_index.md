@@ -3,10 +3,16 @@ title: Εξαγωγή πληροφοριών επαναλαμβανόμενων 
 linktitle: Εξαγωγή πληροφοριών επαναλαμβανόμενων εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να εξάγετε πληροφορίες επαναλαμβανόμενων εργασιών από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Εύκολη ενσωμάτωση για προγραμματιστές .NET.
-type: docs
 weight: 13
 url: /el/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή πληροφοριών επαναλαμβανόμενων εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft Project στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εξαγάγετε πληροφορίες επαναλαμβανόμενων εργασιών από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
  Α: Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
 ### Ε: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Tasks για .NET;
  Α: Μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

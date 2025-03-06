@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的成本应计类型
 linktitle: Aspose.Tasks 中的成本应计类型
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效管理项目成本。定义成本应计类型以准确跟踪预算。
-type: docs
 weight: 19
 url: /zh/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的成本应计类型
+
 ## 介绍
 
 在项目管理中，准确跟踪成本对于维持预算控制和确保项目成功至关重要。 Aspose.Tasks for .NET 提供了一套强大的工具来管理项目成本，包括定义不同成本应计类型的能力。本教程将引导您完成使用 Aspose.Tasks for .NET 理解和实现成本应计类型的过程。
@@ -86,3 +92,9 @@ A4：是的，您可以为项目中的每个任务和资源单独设置成本应
 ### Q5：Aspose.Tasks for .NET 支持自定义成本应计类型吗？
 
 A5：从最新版本开始，Aspose.Tasks for .NET 不支持定义自定义成本应计类型。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

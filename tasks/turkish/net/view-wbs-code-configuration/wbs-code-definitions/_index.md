@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama
 linktitle: Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET, verimli proje yönetimini güçlendirir. Kapsamlı eğitimimizle WBS kodlarında zahmetsizce ustalaşın. İş akışlarını bugün kolaylaştırın!
-type: docs
 weight: 13
 url: /tr/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama
+
 ## giriiş
 Proje yönetimi geliştikçe süreçleri kolaylaştıran güçlü araçlara olan ihtiyaç da artıyor. .NET geliştirme alanında Aspose.Tasks, proje yönetimi görevlerini yerine getiren güçlü bir kütüphane olarak öne çıkıyor. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak İş Kırılım Yapısı (WBS) kodlarını tanımlama sürecini ayrıntılı olarak ele alacağız. WBS kodları proje hiyerarşilerine düzen getirerek verimli izleme ve organizasyona olanak tanır.
 ## Önkoşullar
@@ -79,3 +85,9 @@ Aspose.Tasks ölçeklenebilirlik sunar ve projenizin karmaşıklığına bağlı
  Aspose.Tasks forumu (bağlantı[Destek](https://forum.aspose.com/c/tasks/15)) yardım istemek ve sorunları gidermek için değerli bir kaynaktır.
 ### Aspose.Tasks'ı satın almadan önce deneme sürümü mevcut mu?
  Evet, Aspose.Tasks'ın özelliklerini ve yeteneklerini şuraya erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) versiyon.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

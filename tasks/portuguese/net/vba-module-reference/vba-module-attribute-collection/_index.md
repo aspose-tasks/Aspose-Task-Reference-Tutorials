@@ -3,10 +3,16 @@ title: Dominando os atributos do módulo VBA em Aspose.Tasks
 linktitle: Coleção de atributos do módulo VBA em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore o poder do Aspose.Tasks for .NET no gerenciamento de atributos do módulo VBA. Aprimore seus projetos .NET sem esforço. Baixe Agora! #Aspose #Tarefas #Projeto MS
-type: docs
 weight: 12
 url: /pt/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando os atributos do módulo VBA em Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao mundo do Aspose.Tasks para .NET! Se você é um desenvolvedor que deseja aproveitar o poder do Aspose.Tasks for .NET em seus projetos, você está no lugar certo. Neste tutorial, nos aprofundaremos nas complexidades de trabalhar com atributos de módulo VBA, fornecendo um guia passo a passo sobre como utilizá-los de maneira eficaz em seus aplicativos .NET.
 ## Pré-requisitos
@@ -63,3 +69,9 @@ Concluindo, Aspose.Tasks for .NET capacita os desenvolvedores a lidar com efici�
  R: Sim, você pode acessar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### P: Onde posso procurar suporte para Aspose.Tasks for .NET?
  R: Visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para suporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تقديم ورقة المهام في Aspose.Tasks
 linktitle: تقديم ورقة المهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لإدارة المشاريع الفعالة باستخدام Aspose.Tasks لـ Java. تقديم أوراق المهام بسلاسة. اكتشف الدليل الشامل الآن!
-type: docs
 weight: 27
 url: /ar/java/task-properties/render-task-sheet/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم ورقة المهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks for Java، وهي مكتبة قوية تمكّن مطوري Java من إمكانات إدارة المشاريع بسلاسة. سواء كنت مطورًا متمرسًا أو مبتدئًا يتطلع إلى تحسين مهارات إدارة المشروعات لديك، فسيرشدك هذا الدليل خلال عرض أوراق المهام باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -58,3 +64,9 @@ project.save(dataDir + "taskSheet.pdf", options);
  احصل على ترخيصك المؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Tasks لـ Java؟
  شراء Aspose.Tasks لجافا[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

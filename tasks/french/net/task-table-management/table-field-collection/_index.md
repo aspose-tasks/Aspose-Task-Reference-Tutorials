@@ -3,10 +3,16 @@ title: Maîtriser les collections de champs de table dans Aspose.Tasks pour .NET
 linktitle: Collection de champs de table dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez le monde dynamique de la gestion de projet avec Aspose.Tasks pour .NET. Apprenez à manipuler les collections de champs de table pour une expérience de projet personnalisée.
-type: docs
 weight: 13
 url: /fr/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les collections de champs de table dans Aspose.Tasks pour .NET
+
 ## Introduction
 Aspose.Tasks for .NET est une bibliothèque puissante qui facilite la gestion de projet en fournissant des fonctionnalités étendues pour travailler avec les fichiers Microsoft Project. Dans ce didacticiel, nous approfondirons la collection de champs de table dans Aspose.Tasks, en explorant comment les manipuler et les gérer efficacement à l'aide de C#.
 ## Conditions préalables
@@ -111,3 +117,9 @@ Absolument! Comme indiqué dans le didacticiel, vous pouvez ajouter, insérer, m
  Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)pour obtenir de l'aide, poser des questions et collaborer avec la communauté.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
  Oui, vous pouvez explorer les fonctionnalités d'Aspose.Tasks pour .NET avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

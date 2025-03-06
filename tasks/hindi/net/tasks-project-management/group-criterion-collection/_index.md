@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ MS प्रोजेक्ट ग्रु
 linktitle: Aspose.Tasks में समूह मानदंड संग्रह का प्रबंधन करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके समूह मानदंड MS प्रोजेक्ट संग्रह को प्रबंधित करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका.
-type: docs
 weight: 28
 url: /hi/net/tasks-project-management/group-criterion-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ MS प्रोजेक्ट ग्रुप मानदंड प्रबंधित करें
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके MS प्रोजेक्ट के भीतर समूह मानदंड संग्रह को प्रबंधित करने का तरीका जानेंगे।
 
@@ -126,3 +132,9 @@ foreach (var criterion in criteria)
 ### Q5: यदि मुझे कोई समस्या आती है तो मुझे सहायता कैसे मिल सकती है?
 
  उत्तर: यदि आपके कोई प्रश्न हैं या किसी समस्या का सामना करना पड़ता है, तो आप Aspose.Tasks फोरम से समर्थन मांग सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

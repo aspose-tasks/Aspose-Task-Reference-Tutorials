@@ -3,10 +3,16 @@ title: Nắm vững thao tác dự án MS với Aspose.Tasks cho Java
 linktitle: Viết thông tin dự án trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách ghi thông tin MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java.
-type: docs
 weight: 12
 url: /vi/java/project-properties/write-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững thao tác dự án MS với Aspose.Tasks cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Tasks cho Java, một thư viện mạnh mẽ để thao tác các tệp Microsoft Project theo chương trình. Chúng ta sẽ tập trung vào một nhiệm vụ cơ bản: viết thông tin MS Project bằng Aspose.Tasks. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình lập trình Java, hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks for Java hỗ trợ nhiều phi
  Trả lời: Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks cho Java không?
  Đáp: Có, giấy phép tạm thời có sẵn để sử dụng trong thời gian ngắn. Bạn có thể lấy một cái từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

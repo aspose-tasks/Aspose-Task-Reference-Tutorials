@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 자원 할당 중지 및 재개
 linktitle: Aspose.Tasks에서 자원 할당 중지 및 재개
 second_title: Aspose.Tasks 자바 API
 description: 이 단계별 튜토리얼을 통해 Java용 Aspose.Tasks에서 리소스 할당을 효과적으로 관리하는 방법을 알아보세요.
-type: docs
 weight: 23
 url: /ko/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 자원 할당 중지 및 재개
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 리소스 할당을 중지하고 재개하는 방법을 알아봅니다. Aspose.Tasks는 개발자가 시스템에 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있는 강력한 Java API입니다. 쉽게 따라할 수 있도록 프로세스를 관리 가능한 단계로 나누어 보겠습니다.
 ## 전제조건
@@ -71,3 +77,9 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 커뮤니티로부터 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### 임시 라이센스를 구매할 수 있나요?
  예, 임시 라이센스를 구매하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

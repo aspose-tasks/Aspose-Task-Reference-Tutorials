@@ -3,10 +3,16 @@ title: التلاعب بمعايير مجموعة مشروع MS في Aspose.Task
 linktitle: معايير المجموعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف كيفية التعامل مع ملفات MS Project برمجياً في .NET باستخدام Aspose.Tasks. استرداد مجموعة المهام ومعلومات المعيار بأمثلة خطوة بخطوة.
-type: docs
 weight: 27
 url: /ar/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بمعايير مجموعة مشروع MS في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks for .NET عبارة عن واجهة برمجة تطبيقات قوية تسهل العمل مع ملفات Microsoft Project في تطبيقات .NET الخاصة بك. سواء كنت تقوم بتطوير برامج إدارة المشاريع أو تحتاج إلى معالجة بيانات المشروع برمجيًا، فإن Aspose.Tasks يقدم مجموعة شاملة من الميزات لتلبية احتياجاتك.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
 نعم، يدعم Aspose.Tasks منصات .NET المتعددة بما في ذلك .NET Framework و.NET Core و.NET Standard.
 ### هل يوجد منتدى مجتمعي لـ Aspose.Tasks حيث يمكنني طلب المساعدة؟
  نعم يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لطرح الأسئلة ومشاركة المعرفة والتعاون مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

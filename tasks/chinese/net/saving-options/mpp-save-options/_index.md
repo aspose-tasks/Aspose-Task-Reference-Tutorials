@@ -3,10 +3,16 @@ title: 轻松保存 Aspose.Tasks 的 MS 项目选项
 linktitle: Aspose.Tasks 的 MPP 保存选项
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 轻松保存 MS Project 选项。提高您的项目管理效率。
-type: docs
 weight: 12
 url: /zh/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轻松保存 Aspose.Tasks 的 MS 项目选项
+
 ## 介绍
 在 .NET 开发领域，有效管理和操作项目文件对于成功至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来轻松处理 Microsoft Project 文件 (MPP)。在其众多功能中，Aspose.Tasks 允许用户无缝保存 MS Project 选项，从而简化工作流程并确保项目完整性。在本教程中，我们将深入研究使用 Aspose.Tasks for .NET 保存 MS Project 选项的过程。
 ## 先决条件
@@ -67,3 +73,9 @@ project.Save(stream, options);
 临时许可证允许您不受任何限制地评估 Aspose.Tasks for .NET。您可以从以下位置获取临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买 Aspose.Tasks for .NET 的许可版本？
 您可以从以下位置购买 Aspose.Tasks for .NET 的许可版本：[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

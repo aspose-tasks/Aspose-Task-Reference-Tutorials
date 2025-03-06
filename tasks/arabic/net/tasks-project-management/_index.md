@@ -3,10 +3,16 @@ title: Aspose.Tasks إدارة المشاريع والتخصيص
 linktitle: Aspose.Tasks إدارة المشاريع والتخصيص
 second_title: Aspose.Tasks .NET API
 description: أتقن Aspose.Tasks لـ .NET من خلال برامجنا التعليمية لإدارة المشاريع. تعلم تقنيات المعالجة والتخصيص والتحسين الفعالة لملفات MS Project.
-type: docs
 weight: 23
 url: /ar/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks إدارة المشاريع والتخصيص
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET؟ تغطي برامجنا التعليمية الشاملة مجموعة من المواضيع، بدءًا من إتقان أساليب MS Project ذات القيمة المكتسبة وحتى إدارة سمات المشروع بكفاءة وتخصيص مخططات جانت. دعونا نتعمق في عالم Aspose.Tasks ونفتح الإمكانات الكاملة لإدارة المشاريع.
@@ -130,3 +136,9 @@ url: /ar/net/tasks-project-management/
 تعرف على كيفية إدارة مجموعة Group Criterion MS Project باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة للمطورين.
 ### [قم باستخراج معلومات الرأس والتذييل باستخدام Aspose.Tasks](./header-footer-information/)
 تعلم كيفية استخراج معلومات الرأس والتذييل من ملفات MS Project باستخدام Aspose.Tasks لـ .NET. حل سهل وفعال وصديق للمطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

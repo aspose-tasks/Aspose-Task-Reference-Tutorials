@@ -3,10 +3,16 @@ title: إيقاف واستئناف المهمة في Aspose.Tasks
 linktitle: إيقاف واستئناف المهمة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: اكتشف قوة Aspose.Tasks لـ Java من خلال دليلنا المفصّل خطوة بخطوة حول إيقاف المهام واستئنافها. تعزيز إدارة المشروع بسلاسة!
-type: docs
 weight: 30
 url: /ar/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إيقاف واستئناف المهمة في Aspose.Tasks
+
 ## مقدمة
 في مجال تطوير Java، تعد إدارة المهام بكفاءة جانبًا حاسمًا في تنفيذ المشروع. يوفر Aspose.Tasks for Java حلاً قويًا للتعامل مع المهام بميزاته القوية. في هذا البرنامج التعليمي، سوف نتعمق في وظيفة واحدة محددة - إيقاف المهام واستئنافها. باتباع هذا الدليل التفصيلي، ستتمكن من دمج هذه الميزة بسلاسة في مشاريع Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ for (Task tsk : collector.getTasks()) {
  نعم يمكنك الوصول إلى[تجربة مجانية](https://releases.aspose.com/) لاستكشاف الميزات قبل إجراء عملية الشراء.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ Java؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

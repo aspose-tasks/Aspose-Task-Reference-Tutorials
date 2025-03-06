@@ -3,10 +3,16 @@ title: Nakonfigurujte možnosti MS Project XLSX v Aspose.Tasks pro .NET
 linktitle: Konfigurace možností XLSX v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat možnosti MS Project XLSX v Aspose.Tasks pro .NET. Přizpůsobte si sloupce, kódování a ještě více bez námahy.
-type: docs
 weight: 11
 url: /cs/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nakonfigurujte možnosti MS Project XLSX v Aspose.Tasks pro .NET
+
 ## Úvod
 Microsoft Project (MS Project) je výkonný nástroj pro řízení projektů a Aspose.Tasks for .NET poskytuje bezproblémovou integraci pro práci se soubory MS Project programově. V tomto tutoriálu projdeme procesem konfigurace možností MS Project XLSX pomocí Aspose.Tasks for .NET.
 ## Předpoklady
@@ -90,3 +96,9 @@ Odpověď: Aspose.Tasks for .NET je primárně navržen pro platformy Windows, a
 ### Otázka: Jsou k dispozici nějaké dočasné licenční možnosti pro účely testování?
 
  Odpověď: Ano, můžete získat dočasnou licenci z[Stránka dočasné licence Aspose.Tasks](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

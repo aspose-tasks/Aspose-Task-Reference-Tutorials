@@ -3,10 +3,16 @@ title: Настройка параметров повторяющихся зад
 linktitle: Настройка параметров повторяющихся задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как установить параметры повторяющихся задач в Microsoft Project с помощью Aspose.Tasks для .NET. Подробное руководство с пошаговым руководством.
-type: docs
 weight: 14
 url: /ru/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка параметров повторяющихся задач в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы проведем вас через процесс настройки параметров повторяющихся задач Microsoft Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 Да, вы можете посетить форум Aspose.Tasks для получения помощи от сообщества или обратиться в службу поддержки для получения прямой помощи.
 ### Как я могу получить временную лицензию для Aspose.Tasks?
  Вы можете получить временную лицензию в[Веб-сайт](https://purchase.aspose.com/temporary-license/) в целях тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

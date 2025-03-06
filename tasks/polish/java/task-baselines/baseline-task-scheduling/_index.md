@@ -3,10 +3,16 @@ title: Bazowe planowanie zadań w Aspose.Tasks
 linktitle: Bazowe planowanie zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie planować podstawy zadań za pomocą Aspose.Tasks dla Java. Usprawnij procesy zarządzania projektami bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bazowe planowanie zadań w Aspose.Tasks
+
 ## Wstęp
 Zarządzanie planami bazowymi zadań jest kluczowym aspektem zarządzania projektami, umożliwiającym dokładne porównanie planowanego i rzeczywistego postępu. W tym samouczku omówimy, jak wykonać podstawowe planowanie zadań przy użyciu Aspose.Tasks dla języka Java. Wykonując poniższe kroki, będziesz w stanie efektywnie usprawnić procesy zarządzania projektami.
 ## Warunki wstępne
@@ -63,3 +69,9 @@ Z pewnością Aspose.Tasks dla Java zapewnia rozbudowane funkcje umożliwiające
  Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla Java z poziomu[strona wydania](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć wsparcie dla Aspose.Tasks dla Java?
  W przypadku jakichkolwiek pytań lub pomocy możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

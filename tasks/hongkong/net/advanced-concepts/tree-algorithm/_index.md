@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用樹演算法
 linktitle: 在 Aspose.Tasks 中使用樹演算法
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 的樹演算法有效操作 .NET 專案中的任務層次結構。
-type: docs
 weight: 13
 url: /zh-hant/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用樹演算法
+
 ## 介紹
 
 Aspose.Tasks for .NET 提供了強大的功能來處理專案管理任務、資源和時間表。其中一項功能是樹演算法，它允許使用者有效地操作任務層次結構。在本教程中，我們將探索如何利用 Aspose.Tasks for .NET 中的樹演算法來收集專案中的常見工作並更新工作值。
@@ -115,3 +121,9 @@ A1：Aspose.Tasks for .NET 是一個功能強大的 API，允許開發人員使�
 ### Q5：是否有可用於測試目的的臨時許可證？
 
  A5：是的，您可以從以下位置取得用於測試目的的臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

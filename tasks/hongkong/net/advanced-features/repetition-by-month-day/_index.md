@@ -3,10 +3,16 @@ title: Aspose.Tasks 中按月日重複
 linktitle: Aspose.Tasks 中按月日重複
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 管理 .NET 專案中的重複任務。按月日處理重複的分步指南。
-type: docs
 weight: 25
 url: /zh-hant/net/advanced-features/repetition-by-month-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中按月日重複
+
 ## 介紹
 
 在.NET 開發領域，Aspose.Tasks 是管理專案任務和進度的強大工具。它提供了大量的功能來簡化專案管理工作流程，包括處理重複任務。按月日重複是專案調度中的常見要求，Aspose.Tasks 為這種情況提供了強大的支援。
@@ -105,3 +111,9 @@ A3：當然，Aspose.Tasks 為專案管理提供了廣泛的功能，包括任�
 ### Q5：如果我遇到問題或有疑問，可以到哪裡尋求協助？
 
  A5：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)尋求社區或 Aspose 團隊的支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

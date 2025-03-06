@@ -3,10 +3,16 @@ title: Aspose.Tasks でタスクの進行状況を変更する
 linktitle: Aspose.Tasks でタスクの進行状況を変更する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java プロジェクト管理を強化します。このステップバイステップのチュートリアルで、タスクの進行状況をシームレスに変更する方法を学びましょう。ダウンロード中！
-type: docs
 weight: 12
 url: /ja/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks でタスクの進行状況を変更する
+
 ## 導入
 プロジェクト管理の動的な領域では、タスクの進捗状況を効果的に追跡することが極めて重要です。 Aspose.Tasks for Java は堅牢なソリューションとして際立っており、その強力な機能によりプロセスを簡素化します。このチュートリアルでは、Aspose.Tasks for Java を使用してタスクの進行状況を変更する手順を説明します。
 ## 前提条件
@@ -63,3 +69,9 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 包括的なドキュメントを調べる[ここ](https://reference.aspose.com/tasks/java/).
 ### Aspose.Tasks for Java の一時ライセンスを取得するにはどうすればよいですか?
 訪問[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

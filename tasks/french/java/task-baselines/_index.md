@@ -3,10 +3,16 @@ title: Lignes de base des tâches
 linktitle: Lignes de base des tâches
 second_title: API Java Aspose.Tasks
 description: Explorez Aspose.Tasks Java avec nos didacticiels sur les lignes de base des tâches. Rationalisez la planification des tâches, créez des références de tâches MS Project et maîtrisez la gestion de la durée de référence.
-type: docs
 weight: 32
 url: /fr/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lignes de base des tâches
+
 ## Introduction
 Embarquez pour un voyage pour améliorer vos compétences en gestion de projet avec Aspose.Tasks pour Java. Dans cette série de didacticiels, nous approfondissons les subtilités des tâches de base, vous fournissant des informations précieuses et des connaissances pratiques. Explorons les principaux didacticiels qui composent ce guide complet.
 
@@ -51,3 +57,9 @@ Découvrez comment planifier efficacement les lignes de base des tâches avec As
 Découvrez comment créer une base de données de tâches Microsoft Project en Java à l'aide d'Aspose.Tasks, une bibliothèque puissante permettant de gérer les données de projet sans effort.
 ### [Gestion de la durée de référence des tâches dans Aspose.Tasks](./task-baseline-duration/)
 Découvrez comment gérer efficacement les références de tâches dans MS Project à l'aide d'Aspose.Tasks pour Java. Ce didacticiel vous guide étape par étape tout au long du processus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

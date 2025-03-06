@@ -3,10 +3,16 @@ title: النسبة المئوية للحسابات الكاملة للمهام 
 linktitle: النسبة المئوية للحسابات الكاملة للمهام في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: استكشف Aspose.Tasks لـ Java وقم بتبسيط تتبع تقدم المشروع. قم بحساب النسب المئوية للمهام بسهولة لإدارة المشروعات بكفاءة.
-type: docs
 weight: 25
 url: /ar/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# النسبة المئوية للحسابات الكاملة للمهام في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في دليلنا المتعمق حول إتقان حسابات النسبة المئوية للمهام باستخدام Aspose.Tasks لـ Java. Aspose.Tasks هي مكتبة Java قوية مصممة للعمل مع ملفات Microsoft Project، وتقدم مجموعة قوية من الميزات لإدارة المشاريع. في هذا البرنامج التعليمي، سوف نركز على حسابات النسبة المئوية للإكتمال، مما يوفر لك المعرفة اللازمة لمراقبة وتحليل تقدم المشروع بشكل فعال.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ for (Task tsk : alTasks) {
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

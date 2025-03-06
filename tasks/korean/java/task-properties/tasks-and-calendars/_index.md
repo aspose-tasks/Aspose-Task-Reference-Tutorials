@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업 및 달력
 linktitle: Aspose.Tasks의 작업 및 달력
 second_title: Aspose.Tasks 자바 API
 description: 작업과 달력을 효율적으로 관리하는 데 있어 Aspose.Tasks for Java의 강력한 기능을 살펴보세요. 원활한 프로젝트 관리 경험을 위해 지금 다운로드하세요!
-type: docs
 weight: 33
 url: /ko/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업 및 달력
+
 ## 소개
 Aspose.Tasks for Java로 프로젝트 관리 게임을 향상시킬 준비가 되셨나요? 이 포괄적인 가이드는 Aspose.Tasks를 사용하여 복잡한 작업 및 달력의 세계를 안내하여 효율적인 프로젝트 계획 및 실행을 위한 잠재력을 최대한 활용할 수 있도록 합니다.
 ## 전제조건
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  다음 커뮤니티에 가입하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원을 위해.
 ### Aspose.Tasks에 대한 라이선스를 구입할 수 있나요?
  예, 라이센스를 구입할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的自訂分配視圖列
 linktitle: Aspose.Tasks 中的自訂分配視圖列
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中新增自訂分配視圖列以增強專案管理功能。
-type: docs
 weight: 16
 url: /zh-hant/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的自訂分配視圖列
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Tasks for .NET 為作業視圖新增自訂列。自訂列提供了靈活性，並允許您顯示與專案管理需求相關的附加資訊。
@@ -116,3 +122,9 @@ A3：是的，您可以透過修改寬度、字體和對齊方式等屬性來自
 ### Q5：除了具有自訂列的電子表格之外，Aspose.Tasks 是否支援將項目匯出為其他格式？
 
 A5：是的，Aspose.Tasks 支援將項目匯出為各種格式，例如 PDF、HTML 和 XML，從而提供多種項目報告選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

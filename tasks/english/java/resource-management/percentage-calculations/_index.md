@@ -3,10 +3,16 @@ title: MS Project Resource Percentage Calculation with Aspose.Tasks
 linktitle: Perform Percentage Calculations for Resources in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to calculate MS Project resource percentages using Aspose.Tasks for Java. Step-by-step guide with code examples included.
-type: docs
 weight: 14
 url: /java/resource-management/percentage-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Resource Percentage Calculation with Aspose.Tasks
+
 ## Introduction
 Welcome to our step-by-step guide on performing percentage calculations for MS Project resources using Aspose.Tasks for Java. In this tutorial, we'll delve into the process of leveraging Aspose.Tasks to manipulate and extract resource data from Microsoft Project files efficiently. Aspose.Tasks is a powerful Java API that provides comprehensive features for working with Microsoft Project documents, allowing developers to seamlessly integrate project management functionalities into their Java applications.
 ## Prerequisites
@@ -59,3 +65,10 @@ Absolutely, Aspose.Tasks offers comprehensive features for manipulating project 
 Yes, you can find assistance and engage with other users on the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 ### Does Aspose.Tasks offer temporary licenses for evaluation purposes?
 Yes, you can obtain a temporary license for evaluation from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

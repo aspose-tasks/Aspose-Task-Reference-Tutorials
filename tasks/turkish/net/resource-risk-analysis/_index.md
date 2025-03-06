@@ -3,10 +3,16 @@ title: Aspose.Tasks Kaynak Yönetimi ve Risk Analizi
 linktitle: Aspose.Tasks Kaynak Yönetimi ve Risk Analizi
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks .NET ile MS Project kaynaklarını yönetin. Üretkenliği artırın ve iş akışlarını kolaylaştırın. Kaynak atamalarını, kullanım görünümlerini, risk analizini ve daha fazlasını öğrenin.
-type: docs
 weight: 26
 url: /tr/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Kaynak Yönetimi ve Risk Analizi
+
 ## giriiş
 
 Aspose.Tasks for .NET'i kullanarak Microsoft Project kaynaklarını yönetmenin ve risk analizini geliştirmenin etkili yollarını mı arıyorsunuz? Başka yerde arama! Bu kapsamlı kılavuzda, geliştiricileri ve proje yöneticilerini güçlendirecek temel konuları kapsayan çeşitli eğitimlerde size yol göstereceğiz.
@@ -90,3 +96,9 @@ Aspose.Tasks for .NET kullanarak MS Project dosyalarından risk öğesi istatist
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki risk modellerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Güçlü risk analizi araçlarıyla proje sonuçlarını iyileştirin.
 ### [Aspose.Tasks ile MS Project'te Risk Modellerini Yönetin](./risk-pattern-collection/)
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki risk modellerini etkili bir şekilde analiz etmeyi ve yönetmeyi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

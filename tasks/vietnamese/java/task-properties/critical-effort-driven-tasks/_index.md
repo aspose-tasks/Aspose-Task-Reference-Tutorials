@@ -3,10 +3,16 @@ title: Quản lý các nhiệm vụ quan trọng và cần nỗ lực trong Aspo
 linktitle: Quản lý các nhiệm vụ quan trọng và cần nỗ lực trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Dễ dàng quản lý các nhiệm vụ quan trọng và cần nhiều nỗ lực trong các dự án Java của bạn với Aspose.Tasks. Tải xuống thư viện và nâng cao khả năng quản lý dự án của bạn.
-type: docs
 weight: 14
 url: /vi/java/task-properties/critical-effort-driven-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý các nhiệm vụ quan trọng và cần nỗ lực trong Aspose.Tasks
+
 Trong thế giới quản lý dự án có nhịp độ phát triển nhanh chóng, việc xử lý hiệu quả các nhiệm vụ quan trọng và đòi hỏi nhiều nỗ lực là điều cần thiết để hoàn thành dự án thành công. Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý các tác vụ này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.Tasks cho Java để xử lý các tác vụ quan trọng và cần nhiều nỗ lực trong các dự án của bạn.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
@@ -60,3 +66,9 @@ Có, Aspose.Tasks dành cho Java độc lập với nền tảng và có thể �
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho Java ở đâu?
  Bạn có thể mua Aspose.Tasks cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

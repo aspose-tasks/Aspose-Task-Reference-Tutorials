@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Para Birimi Sembol Konumları
 linktitle: Aspose.Tasks'ta Para Birimi Sembol Konumları
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks ile .NET projelerinde para birimi simgesi konumlarını zahmetsizce nasıl kontrol edeceğinizi öğrenin.
-type: docs
 weight: 22
 url: /tr/net/calendar-scheduling/currency-symbol-positions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Para Birimi Sembol Konumları
+
 ## giriiş
 
 Yazılım geliştirmede proje yönetimi gibi çeşitli hususların verimli bir şekilde ele alınması çok önemlidir. Aspose.Tasks for .NET, .NET uygulamalarında görevleri, projeleri ve kaynakları sorunsuz bir şekilde yönetmek için güçlü çözümler sunar. Pek çok özelliği arasında, para birimi simgelerinin konumunun kontrol edilmesi, finansal izleme ve raporlama için çok önemlidir. Bu derste, Aspose.Tasks for .NET'i kullanarak para birimi simgesi konumlarını nasıl değiştireceğimizi inceleyeceğiz.
@@ -84,3 +90,9 @@ C2: Evet, Aspose.Tasks birden fazla para birimini destekleyerek geliştiricileri
 ### S5: Aspose.Tasks for .NET lisansını nasıl satın alabilirim?
 
  Cevap5: Aspose.Tasks for .NET lisansını şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

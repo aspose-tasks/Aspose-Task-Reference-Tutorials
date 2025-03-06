@@ -3,10 +3,16 @@ title: Propriétés en semaine dans Aspose.Tasks
 linktitle: Propriétés en semaine dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à gérer efficacement les propriétés des jours de semaine dans Aspose.Tasks pour Java. Personnalisez facilement les dates de début de la semaine, les jours par mois et bien plus encore.
-type: docs
 weight: 25
 url: /fr/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriétés en semaine dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java est une API puissante qui permet aux développeurs Java de travailler avec des fichiers Microsoft Project sans que Microsoft Project soit installé sur la machine. L'une de ses fonctionnalités clés consiste à gérer les propriétés des jours de semaine, permettant aux utilisateurs de personnaliser les dates de début de la semaine, les jours par mois, les minutes par jour et les minutes par semaine. Ce didacticiel fournira un guide détaillé sur la façon d'utiliser efficacement ces fonctionnalités.
 ## Conditions préalables
@@ -74,3 +80,9 @@ R : Oui, Aspose.Tasks for Java offre des capacités d'intégration transparentes
  R : Oui, vous pouvez accéder à une documentation complète et au support communautaire pour Aspose.Tasks for Java sur leur site Web.[site web](https://releases.aspose.com/).
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour Java ?
  : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks pour Java à partir de leur[site web](https://reference.aspose.com/tasks/java/) pour explorer ses fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

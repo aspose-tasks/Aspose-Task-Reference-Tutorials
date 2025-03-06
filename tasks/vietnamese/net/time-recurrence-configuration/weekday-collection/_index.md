@@ -3,10 +3,16 @@ title: Nắm vững các ngày trong tuần trong Aspose.Tasks
 linktitle: Bộ sưu tập các ngày trong tuần trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý các ngày trong tuần một cách dễ dàng. Tùy chỉnh ngày làm việc, loại bỏ ngày cuối tuần và tạo lịch chuyên dụng một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/time-recurrence-configuration/weekday-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các ngày trong tuần trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ hỗ trợ thao tác hiệu quả dữ liệu quản lý dự án. Trong hướng dẫn này, chúng ta sẽ khám phá bộ sưu tập các ngày trong tuần trong Aspose.Tasks, cho phép bạn tùy chỉnh ngày làm việc, loại bỏ các ngày cuối tuần và tạo lịch chuyên dụng để đáp ứng yêu cầu dự án của bạn. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình làm việc với các ngày trong tuần trong Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Trả lời: Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng n
  Đáp: Hãy tham khảo[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết.
 ### Câu hỏi: Làm cách nào để có được giấy phép tạm thời cho Aspose.Tasks cho .NET?
  Đáp: Bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

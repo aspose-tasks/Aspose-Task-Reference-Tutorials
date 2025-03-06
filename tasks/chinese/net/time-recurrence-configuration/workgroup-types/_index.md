@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks for .NET 轻松处理工作组
 linktitle: 在 Aspose.Tasks 中处理工作组类型
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 以轻松处理项目中的工作组类型。优化资源配置，加强项目管理。
-type: docs
 weight: 12
 url: /zh/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks for .NET 轻松处理工作组
+
 ## 介绍
 Aspose.Tasks for .NET 提供了一个强大的解决方案，用于在项目管理场景中处理工作组类型。有效管理工作组对于优化资源分配和确保项目顺利执行至关重要。在本教程中，我们将深入研究使用 Aspose.Tasks 处理工作组类型的过程，并提供分步指导。
 ## 先决条件
@@ -46,3 +52,9 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 是的，您可以从以下位置获取免费试用版[这里](https://releases.aspose.com/).
 ### 我如何获得 Aspose.Tasks 的临时许可证？
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

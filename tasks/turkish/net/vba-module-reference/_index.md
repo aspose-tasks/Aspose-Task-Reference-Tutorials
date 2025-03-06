@@ -3,10 +3,16 @@ title: Aspose.Tasks VBA Modülü ve Referans İşleme
 linktitle: Aspose.Tasks VBA Modülü ve Referans İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks .NET'i kullanarak proje yönetimi yeteneklerinizi yükseltmeye hazır mısınız? VBA modülü ve referans yönetimine yönelik kapsamlı eğitimlerimizi inceleyin.
-type: docs
 weight: 31
 url: /tr/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks VBA Modülü ve Referans İşleme
+
 
 ## Aspose.Tasks'ta VBA Modüllerini Yönetme
 
@@ -40,3 +46,9 @@ Aspose.Tasks for .NET'te VBA Modül Koleksiyonlarını nasıl verimli bir şekil
 Aspose.Tasks for .NET'in VBA Projelerini zahmetsizce yönetme gücünü keşfedin. Bu adım adım kılavuzla proje yönetimi yeteneklerinizi geliştirin.
 ### [Aspose.Tasks'ta VBA Referanslarını Yönetme](./vba-references/)
 Kapsamlı eğitimimizle Aspose.Tasks .NET'te VBA referanslarını işlemenin gücünü keşfedin. VBA referanslarını sorunsuz bir şekilde okumayı, karşılaştırmayı ve bunlarla çalışmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

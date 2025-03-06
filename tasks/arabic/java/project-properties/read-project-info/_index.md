@@ -3,10 +3,16 @@ title: قم باستخراج معلومات مشروع Microsoft باستخدا�
 linktitle: اقرأ معلومات المشروع باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استخراج معلومات Microsoft Project باستخدام Aspose.Tasks لـ Java. تعزيز إدارة المشاريع في تطبيقات Java دون عناء.
-type: docs
 weight: 11
 url: /ar/java/project-properties/read-project-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم باستخراج معلومات مشروع Microsoft باستخدام Aspose.Tasks لـ Java
+
 ## مقدمة
 في مجال إدارة المشاريع وتتبع المهام، يحتل Microsoft Project مكانة مهمة. يظهر Aspose.Tasks for Java كأداة قوية تتيح التفاعل السلس مع ملفات Microsoft Project في بيئات Java. يتعمق هذا البرنامج التعليمي في عملية استخراج معلومات المشروع الحيوية من ملفات Microsoft Project باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ System.out.println("Calendar: " + project.get(Prj.CALENDAR).getName());
 ج: نعم، يسمح Aspose.Tasks for Java بالأتمتة من خلال واجهة برمجة التطبيقات الشاملة الخاصة به، مما يتيح عمليات مبسطة لاستخراج البيانات وتحليلها.
 ### س: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لـ Aspose.Tasks لمستخدمي Java؟
  ج: نعم، يمكنك العثور على موارد مفيدة والتفاعل مع المجتمع على الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

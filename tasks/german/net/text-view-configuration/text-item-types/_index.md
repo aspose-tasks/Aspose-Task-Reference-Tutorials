@@ -3,10 +3,16 @@ title: Leitfaden zur Anpassung von Textelementtypen in Aspose.Tasks
 linktitle: Umgang mit Textelementtypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Beherrschen Sie die Anpassung von Textelementtypen in Aspose.Tasks für .NET mit dieser Schritt-für-Schritt-Anleitung. Verbessern Sie Ihr Projektmanagement mühelos.
-type: docs
 weight: 10
 url: /de/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leitfaden zur Anpassung von Textelementtypen in Aspose.Tasks
+
 ## Einführung
 Wenn Sie als .NET-Entwickler mit Aspose.Tasks in das Projektmanagement eintauchen, sind Sie bei uns genau richtig! In dieser Schritt-für-Schritt-Anleitung erkunden wir die Feinheiten der Handhabung von Textelementtypen in Aspose.Tasks und konzentrieren uns dabei auf die Anpassung mithilfe der leistungsstarken .NET-Bibliothek.
 ## Voraussetzungen
@@ -74,3 +80,9 @@ Glückwunsch! Sie haben gerade erst an der Oberfläche der Handhabung von Textel
 A: Entdecken Sie weitere Tutorials in der Aspose.Tasks-Dokumentation.
 ### F: Wo kann ich Aspose.Tasks für .NET kaufen?
  A: Kaufen Sie die Bibliothek[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Anpassade fälttyper i Aspose.Tasks
 linktitle: Anpassade fälttyper i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du arbetar med anpassade fälttyper i Aspose.Tasks för .NET. Steg-för-steg guide med kodexempel och vanliga frågor.
-type: docs
 weight: 23
 url: /sv/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassade fälttyper i Aspose.Tasks
+
 ## Introduktion
 
 Välkommen till vår handledning om att arbeta med anpassade fälttyper i Aspose.Tasks för .NET! Aspose.Tasks är ett kraftfullt bibliotek som tillåter utvecklare att manipulera Microsoft Project-filer programmatiskt. I den här handledningen kommer vi att fokusera på att förstå och använda anpassade fälttyper, en avgörande aspekt av att arbeta med projektdata.
@@ -89,3 +95,9 @@ S4: Ja, Aspose.Tasks låter dig manipulera både uppgifts- och resursdata i proj
 ### F5: Finns det ett communityforum för Aspose.Tasks-användare?
 
  A5: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att interagera med andra användare och få support från Aspose-teamet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

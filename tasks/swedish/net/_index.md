@@ -1,12 +1,17 @@
 ---
 title: Omfattande handledning och exempel på Aspose.Tasks för .NET
 linktitle: Aspose.Tasks för .NET Tutorials
-type: docs
 weight: 10
 url: /sv/net/
 description: Utforska Aspose.Tasks för .NET-handledningar som täcker sparalternativ, kalender och schemaläggning, projektledning och mer. Lyft dina färdigheter i projektledning.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omfattande handledning och exempel på Aspose.Tasks för .NET
+
 ## Introduktion
 
 Är du redo att låsa upp den fulla potentialen hos Aspose.Tasks för .NET? Dyk in i våra omfattande handledningar och exempel som täcker ett brett spektrum av ämnen för att förbättra dina färdigheter i projektledning. Från sparalternativ till avancerade funktioner, kalender- och schemaläggningsuppgifter, projektledning och anpassning, vi har dig täckt.
@@ -72,3 +77,9 @@ Utforska Aspose.Tasks filformatalternativ och masterkonfiguration av XAML och XL
 Upptäck hur du förbättrar säkerheten för dina Microsoft Project PDF-filer med Aspose.Tasks för .NET. Lär dig digitala signaturer och krypteringstekniker.
 ### [Aspose.Tasks Licenshantering](./license-management/)
 Lås upp kraften i Aspose.Tasks för .NET med våra omfattande handledningar. Hantera licenser och optimera MS Project-användningen för effektiv projektledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

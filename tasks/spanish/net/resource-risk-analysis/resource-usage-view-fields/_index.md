@@ -3,10 +3,16 @@ title: Colección de campos de vista de uso de recursos en Aspose.Tasks
 linktitle: Colección de campos de vista de uso de recursos en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a acceder y manipular eficazmente los campos de visualización de uso de recursos en archivos de Microsoft Project utilizando Aspose.Tasks para .NET.
-type: docs
 weight: 16
 url: /es/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de campos de vista de uso de recursos en Aspose.Tasks
+
 ## Introducción
 En el ámbito de la gestión de proyectos, manejar archivos de Microsoft Project de manera eficiente es crucial. Aspose.Tasks para .NET proporciona una solución integral para trabajar con archivos de MS Project sin problemas. En este tutorial, profundizaremos en el proceso de acceso y utilización de los campos de vista de uso de recursos usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -67,3 +73,9 @@ R: ¡Absolutamente! Aspose.Tasks para .NET proporciona una amplia funcionalidad 
  R: Sí, puedes acceder a una versión de prueba gratuita desde[sitio web](https://releases.aspose.com/).
 ### P: ¿Cómo puedo obtener una licencia temporal de Aspose.Tasks para .NET?
  R: Puede adquirir una licencia temporal del[pagina de compra](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

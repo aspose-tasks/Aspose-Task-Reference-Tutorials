@@ -3,10 +3,16 @@ title: Manipulando partes divididas do MS Project em Aspose.Tasks
 linktitle: Manipulação de peças divididas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com partes divididas do MS Project de forma eficiente com Aspose.Tasks for .NET. Aprimore seu fluxo de trabalho de gerenciamento de projetos.
-type: docs
 weight: 18
 url: /pt/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulando partes divididas do MS Project em Aspose.Tasks
+
 
 ## Introdução
 O gerenciamento de partes divididas do MS Project pode ser um aspecto crucial do gerenciamento de projetos ao usar o Aspose.Tasks for .NET. Neste tutorial, exploraremos como lidar com peças divididas de maneira eficaz usando orientação passo a passo.
@@ -94,3 +100,9 @@ R: Sim, o Aspose.Tasks for .NET permite gerenciar os recursos do projeto com efi
 R: Com certeza, você pode personalizar calendários de projetos de acordo com os requisitos do seu projeto.
 ### P: Onde posso encontrar suporte para Aspose.Tasks for .NET?
  R: Você pode encontrar suporte e assistência no site[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

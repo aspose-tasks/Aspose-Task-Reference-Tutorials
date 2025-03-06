@@ -3,10 +3,16 @@ title: إنشاء تعيينات الموارد في Aspose.Tasks
 linktitle: إنشاء تعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء تعيينات الموارد في Aspose.Tasks لـ Java بسهولة من خلال هذا البرنامج التعليمي خطوة بخطوة. أصبحت الإدارة الفعالة لموارد المشروع سهلة.
-type: docs
 weight: 14
 url: /ar/java/resource-assignments/create-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تعيينات الموارد في Aspose.Tasks
+
 ## مقدمة
 في إدارة المشاريع، تلعب تعيينات الموارد دورًا حاسمًا في تخصيص الموارد بشكل فعال لمختلف المهام. يوفر Aspose.Tasks for Java حلاً قويًا لإدارة موارد المشروع ومهامها برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء تعيينات الموارد خطوة بخطوة باستخدام Aspose.Tasks لـ Java.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
 ج: نعم، يمكنك دمج Aspose.Tasks for Java في تطبيقات الويب الخاصة بك لإدارة موارد المشروع ديناميكيًا.
 ### س: أين يمكنني العثور على دعم إضافي لـ Aspose.Tasks لـ Java؟
  ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية مساعدة فنية أو استفسارات بخصوص المكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

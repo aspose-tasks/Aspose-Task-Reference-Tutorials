@@ -3,10 +3,16 @@ title: Zvládnutí časového měřítka projektu MS Project v Aspose.Tasks
 linktitle: Nastavte počet časového měřítka v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně spravovat počet časových řad v MS Project pomocí Aspose.Tasks for Java. Optimalizujte vizualizaci a správu projektu bez námahy.
-type: docs
 weight: 22
 url: /cs/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí časového měřítka projektu MS Project v Aspose.Tasks
+
 ## Úvod
 Správa počtu časového měřítka v MS Project může významně ovlivnit vizualizaci a správu projektu. S Aspose.Tasks for Java, výkonným rozhraním API pro programové zpracování úkolů projektového řízení, můžete efektivně manipulovat s počtem časového měřítka a přizpůsobit zobrazení projektu vašim konkrétním potřebám.
 ## Předpoklady
@@ -91,3 +97,9 @@ Odpověď: Rozhodně, Aspose.Tasks for Java poskytuje rozsáhlé možnosti přiz
  Odpověď: Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
 ### Otázka: Kde mohu získat podporu pro Aspose.Tasks for Java?
  Odpověď: Podporu a pomoc můžete najít na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

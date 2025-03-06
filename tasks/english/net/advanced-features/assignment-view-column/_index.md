@@ -3,10 +3,16 @@ title: Custom Assignment View Column in Aspose.Tasks
 linktitle: Custom Assignment View Column in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to add custom assignment view columns in Aspose.Tasks for .NET to enhance project management capabilities.
-type: docs
 weight: 16
 url: /net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom Assignment View Column in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we will explore how to add custom columns for assignment views using Aspose.Tasks for .NET. Custom columns provide flexibility and allow you to display additional information relevant to your project management needs.
@@ -116,3 +122,10 @@ A4: Yes, you can remove default columns by excluding them from the `Columns` col
 ### Q5: Does Aspose.Tasks support exporting projects to other formats besides spreadsheets with custom columns?
 
 A5: Yes, Aspose.Tasks supports exporting projects to various formats such as PDF, HTML, and XML, allowing for versatile project reporting options.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

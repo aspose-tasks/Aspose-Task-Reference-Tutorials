@@ -3,10 +3,16 @@ title: Εργασία με το Ημερολόγιο στο Aspose.Tasks
 linktitle: Εργασία με το Ημερολόγιο στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Διαχειριστείτε τα ημερολόγια έργων, υπολογίστε τις διάρκειες, χειριστείτε τις εξαιρέσεις με ευκολία χρησιμοποιώντας το Aspose.Tasks για .NET.
-type: docs
 weight: 10
 url: /el/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με το Ημερολόγιο στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Το Aspose.Tasks για .NET παρέχει ισχυρές δυνατότητες για εργασία με ημερολόγια, επιτρέποντας στους προγραμματιστές να διαχειρίζονται αποτελεσματικά τα χρονοδιαγράμματα έργων και τις κατανομές πόρων. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Tasks για αλληλεπίδραση με ημερολόγια, καλύπτοντας βασικές λειτουργίες όπως η ανάκτηση πληροφοριών ημερολογίου, ο καθορισμός εβδομάδων εργασίας, ο υπολογισμός των ωρών εργασίας και πολλά άλλα.
@@ -497,3 +503,9 @@ A4: Ναι, μπορείτε να δημιουργήσετε προσαρμοσ�
 ### Ε5: Μπορώ να ανακτήσω πληροφορίες σχετικά με εξαιρέσεις ημερολογίου από αρχεία έργου;
 
 A5: Ναι, μπορείτε εύκολα να ανακτήσετε πληροφορίες σχετικά με εξαιρέσεις ημερολογίου από αρχεία έργου χρησιμοποιώντας το Aspose.Tasks για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

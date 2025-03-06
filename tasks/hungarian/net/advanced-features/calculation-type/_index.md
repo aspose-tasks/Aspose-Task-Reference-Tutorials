@@ -3,10 +3,16 @@ title: Számítás típusa az Aspose.Tasks
 linktitle: Számítás típusa az Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan testreszabhatja az értékszámításokat .NET-projektekben az Aspose.Tasks könyvtár Calculation Type segítségével.
-type: docs
 weight: 30
 url: /hu/net/advanced-features/calculation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számítás típusa az Aspose.Tasks
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk az Aspose.Tasks for .NET számítási típusát. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak anélkül, hogy a rendszerükre Microsoft Projectet kellene telepíteni. A számítási típus lehetővé teszi számunkra, hogy meghatározzuk, hogyan számítsuk ki az értékeket a projekten belüli feladatokhoz és összefoglaló feladatokhoz.
@@ -97,3 +103,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk a számítási típ
 ### 5. kérdés: Hol találok további forrásokat az Aspose.Tasks for .NET webhelyen?
 
  5. válasz: Megtekintheti a dokumentációt és a közösségi támogatási fórumokat, amelyek elérhetők a webhelyen[Aspose.Tasks .NET-hez](https://reference.aspose.com/tasks/net/) átfogó útmutatásért és segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

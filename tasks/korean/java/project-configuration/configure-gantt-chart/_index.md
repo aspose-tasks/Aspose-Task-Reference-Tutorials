@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트에서 간트 차트 보기 구성
 linktitle: Aspose.Tasks 프로젝트에서 간트 차트 보기 구성
 second_title: Aspose.Tasks 자바 API
 description: Java를 사용하여 Aspose.Tasks에서 Gantt MS 프로젝트 차트 보기를 구성하는 방법을 알아보세요. 프로젝트를 사용자 정의하고 단계별로 Gantt 차트에서 시각화하세요.
-type: docs
 weight: 10
 url: /ko/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트에서 간트 차트 보기 구성
+
 ## 소개
 이 튜토리얼에서는 Java를 사용하여 Aspose.Tasks 프로젝트에서 Gantt MS 프로젝트 차트 보기를 구성하는 방법을 배웁니다. Aspose.Tasks는 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 Java API입니다. 다음 단계를 수행하면 프로젝트 요구 사항에 따라 Gantt 차트 보기를 사용자 정의할 수 있습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ A: 다음 사이트에서 지원을 찾고 질문할 수 있습니다.[Aspose.Ta
  A: 다음에서 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Q: 테스트 목적으로 임시 라이센스가 필요합니까?
  A: 예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

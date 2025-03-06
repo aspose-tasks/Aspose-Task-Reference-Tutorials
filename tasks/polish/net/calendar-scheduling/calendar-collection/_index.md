@@ -3,10 +3,16 @@ title: Zarządzanie kolekcją kalendarzy w Aspose.Tasks
 linktitle: Zarządzanie kolekcją kalendarzy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać kolekcjami kalendarzy w Aspose.Tasks dla .NET. Z łatwością twórz, modyfikuj i manipuluj kalendarzami.
-type: docs
 weight: 11
 url: /pl/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie kolekcją kalendarzy w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku omówimy, jak zarządzać kolekcjami kalendarzy w Aspose.Tasks dla .NET. Kalendarze odgrywają kluczową rolę w zarządzaniu projektami, definiując dni robocze, święta i wyjątki. Aspose.Tasks zapewnia solidną funkcjonalność do manipulowania kalendarzami w projektach.
@@ -160,3 +166,9 @@ O4: Tak, Aspose.Tasks umożliwia eksportowanie kalendarzy do różnych formatów
 ### P5: Czy mogę dostosować godziny pracy dla poszczególnych dni w kalendarzu?
 
 Odp.5: Oczywiście można zdefiniować godziny pracy dla poszczególnych dni korzystając z wyjątków w kalendarzu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

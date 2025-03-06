@@ -3,10 +3,16 @@ title: Сбор базовых планов назначений в Aspose.Tasks
 linktitle: Сбор базовых планов назначений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять базовыми планами назначений в управлении проектами с помощью Aspose.Tasks для .NET. Повысьте производительность и точность.
-type: docs
 weight: 15
 url: /ru/net/advanced-features/assignment-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сбор базовых планов назначений в Aspose.Tasks
+
 ## Введение
 
 В сфере управления проектами отслеживание и управление базовыми планами выполнения заданий имеет решающее значение для обеспечения успеха проекта и соблюдения сроков. Aspose.Tasks для .NET предлагает надежный набор функций, облегчающих эффективную обработку базовых планов назначений в проектах. В этом уроке мы углубимся в тонкости работы с базовыми коллекциями назначений с использованием Aspose.Tasks для .NET.
@@ -100,3 +106,9 @@ foreach (var assignment in project.ResourceAssignments)
 ### В5: Могу ли я попробовать Aspose.Tasks перед покупкой?
 
 О5: Да, Aspose.Tasks предлагает бесплатную пробную версию, позволяющую разработчикам изучить ее возможности и возможности, прежде чем принимать решение о покупке.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

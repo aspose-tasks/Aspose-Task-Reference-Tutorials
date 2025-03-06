@@ -3,10 +3,16 @@ title: Padroneggiare il conteggio della scala temporale di MS Project in Aspose.
 linktitle: Imposta il conteggio della scala temporale in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come gestire in modo efficace il conteggio della scala temporale in MS Project utilizzando Aspose.Tasks per Java. Ottimizza la visualizzazione e la gestione dei progetti senza sforzo.
-type: docs
 weight: 22
 url: /it/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare il conteggio della scala temporale di MS Project in Aspose.Tasks
+
 ## introduzione
 La gestione del conteggio della scala temporale in MS Project può influire in modo significativo sulla visualizzazione e sulla gestione del progetto. Con Aspose.Tasks per Java, una potente API per la gestione programmatica delle attività di gestione dei progetti, puoi manipolare in modo efficiente il conteggio della scala temporale per personalizzare le visualizzazioni del progetto in base alle tue esigenze specifiche.
 ## Prerequisiti
@@ -91,3 +97,9 @@ R: Assolutamente, Aspose.Tasks per Java offre ampie funzionalità per personaliz
  R: Sì, puoi ottenere una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### D: Dove posso ottenere supporto per Aspose.Tasks per Java?
  R: Puoi trovare supporto e assistenza sul forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

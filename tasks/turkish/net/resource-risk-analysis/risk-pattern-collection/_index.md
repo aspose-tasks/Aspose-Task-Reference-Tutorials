@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project'te Risk Modellerini Yönetin
 linktitle: Aspose.Tasks'ta Risk Modellerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki risk modellerini etkili bir şekilde analiz etmeyi ve yönetmeyi öğrenin.
-type: docs
 weight: 24
 url: /tr/net/resource-risk-analysis/risk-pattern-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project'te Risk Modellerini Yönetin
+
 ## giriiş
 Aspose.Tasks for .NET, Microsoft Project dosyalarındaki risk modellerini yönetmek ve analiz etmek için kapsamlı bir çözüm sunar. Bu eğitimde, projelerinizde risk kalıplarıyla etkili bir şekilde çalışmak için Aspose.Tasks'ı nasıl kullanacağınızı inceleyeceğiz.
 ## Önkoşullar
@@ -106,3 +112,9 @@ C: Kesinlikle Aspose.Tasks, diğer .NET çerçeveleriyle sorunsuz bir şekilde b
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini keşfetmenize olanak tanır.
 ### S: Aspose.Tasks için desteği nerede bulabilirim?
  C: Aspose.Tasks forumunda kapsamlı destek ve yardım bulabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15)Soruları ve sorunları çözmek için uzmanlarla ve diğer kullanıcılarla etkileşime girebileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

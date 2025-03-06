@@ -3,10 +3,16 @@ title: Manage MS Project Attributes Collection in Aspose.Tasks
 linktitle: Managing Extended Attribute Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to efficiently manage MS Project extended attributes using Aspose.Tasks for .NET. Seamlessly manipulate task attributes with step-by-step guidance.
-type: docs
 weight: 12
 url: /net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage MS Project Attributes Collection in Aspose.Tasks
+
 ## Introduction
 Are you looking to efficiently manage MS Project extended attributes using Aspose.Tasks for .NET? In this tutorial, we'll guide you through the process step by step. Let's dive in!
 ## Prerequisites
@@ -105,3 +111,10 @@ A: Absolutely! Aspose.Tasks for .NET allows you to define custom extended attrib
 A: Yes, Aspose.Tasks for .NET supports MS Project file formats across different versions.
 ### Q: Is there a trial version available for Aspose.Tasks for .NET?
 A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

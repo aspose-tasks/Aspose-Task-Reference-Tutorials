@@ -3,10 +3,16 @@ title: Διαχείριση Συλλογών Έργων στο Aspose.Tasks
 linktitle: Διαχείριση της συλλογής ομάδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις συλλογές MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 26
 url: /el/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση Συλλογών Έργων στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο διαχείρισης συλλογών ομαδικών MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Η διαχείριση των συλλογών ομάδων είναι ζωτικής σημασίας για την οργάνωση και τον χειρισμό εργασιών και πόρων αποτελεσματικά στο πλαίσιο του έργου σας.
 ## Προαπαιτούμενα
@@ -108,3 +114,9 @@ foreach (var group in groupsToDelete)
  Μπορείτε να λάβετε υποστήριξη για το Aspose.Tasks για .NET μέσω του[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks για .NET από το[δικτυακός τόπος](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: वीबीए संदर्भ प्रबंधन में मह
 linktitle: Aspose.Tasks में VBA सन्दर्भों को संभालना
 second_title: Aspose.Tasks .NET API
 description: हमारे व्यापक ट्यूटोरियल के साथ Aspose.Tasks .NET में VBA संदर्भों को संभालने की शक्ति का अन्वेषण करें। वीबीए संदर्भों को सहजता से पढ़ना, तुलना करना और उनके साथ काम करना सीखें।
-type: docs
 weight: 15
 url: /hi/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# वीबीए संदर्भ प्रबंधन में महारत हासिल करना - एक चरण-दर-चरण मार्गदर्शिका
+
 ## परिचय
 यदि आप .NET के लिए Aspose.Tasks में गोता लगा रहे हैं और VBA संदर्भों को संभालने की जटिलताओं का पता लगाना चाहते हैं, तो आप सही जगह पर हैं। यह चरण-दर-चरण मार्गदर्शिका आपको पढ़ने, समानता की जाँच करने, हैश कोड प्राप्त करने और Aspose.Tasks का उपयोग करके VBA संदर्भ संग्रह के साथ काम करने की प्रक्रिया से गुजराएगी।
 ## आवश्यक शर्तें
@@ -79,3 +85,9 @@ foreach (var reference in project.VbaProject.References)
  उत्तर: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/tasks/net/).
 ### प्रश्न: क्या मैं Aspose.Tasks खरीद सकता हूँ?
  उत्तर: हाँ, आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

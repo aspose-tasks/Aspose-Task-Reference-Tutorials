@@ -3,10 +3,16 @@ title: Настройте параметры просмотра страницы
 linktitle: Настройка параметров просмотра страниц в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить параметры просмотра страниц в Aspose.Tasks для .NET, чтобы адаптировать формат печати документов Microsoft Project.
-type: docs
 weight: 21
 url: /ru/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте параметры просмотра страницы MS Project в Aspose.Tasks
+
 ## Введение
 Microsoft Project — мощный инструмент для управления проектами, но иногда вам необходимо настроить способ просмотра и печати вашего проекта. С помощью Aspose.Tasks для .NET вы можете легко настроить параметры просмотра страниц в соответствии с вашими конкретными требованиями. В этом уроке мы шаг за шагом проведем вас через этот процесс.
 ## Предварительные условия
@@ -76,3 +82,9 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 О: Aspose.Tasks обеспечивает совместимость с Microsoft Project 2003 и более поздними версиями.
 ### Вопрос: Где я могу найти дополнительную помощь или поддержку для Aspose.Tasks?
  О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любых вопросов или проблем, с которыми вы столкнулись во время использования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

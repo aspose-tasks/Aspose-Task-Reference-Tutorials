@@ -3,10 +3,16 @@ title: Nắm vững các chuỗi WBS với Aspose.Tasks cho .NET
 linktitle: Xác định trình tự WBS trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Trao quyền quản lý dự án của bạn với Aspose.Tasks for .NET - xác định liền mạch các chuỗi WBS và nâng cao hiệu quả một cách dễ dàng. #Aspose #Tasks #MS Project
-type: docs
 weight: 16
 url: /vi/net/view-wbs-code-configuration/wbs-sequences/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các chuỗi WBS với Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Bạn đang làm việc trên một ứng dụng quản lý dự án và cần một công cụ mạnh mẽ để xử lý các chuỗi Cấu trúc phân chia công việc (WBS)? Không cần tìm đâu xa ngoài Aspose.Tasks dành cho .NET, một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ quản lý dự án. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình xác định trình tự WBS.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Tuyệt đối! Aspose.Tasks cung cấp tính linh hoạt trong việc xác đ�
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
 ### Giấy phép tạm thời có sẵn không?
  Có, bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

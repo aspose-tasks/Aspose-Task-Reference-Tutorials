@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 사용자 정의 프로젝트 속성 컬렉션 관리
 linktitle: Aspose.Tasks에서 사용자 정의 프로젝트 속성 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 사용자 정의 프로젝트 속성을 효과적으로 관리하여 프로젝트 관리 경험을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 사용자 정의 프로젝트 속성 컬렉션 관리
+
 ## 소개
 
 Aspose.Tasks for .NET으로 프로젝트 관리 경험을 향상시킬 준비가 되셨습니까? 사용자 정의 프로젝트 속성 관리는 프로젝트 관리의 중요한 측면으로, 이를 통해 프로젝트 요구 사항에 맞는 특정 메타데이터를 추가할 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 사용자 정의 프로젝트 속성 컬렉션을 효과적으로 작업하는 방법을 살펴보겠습니다.
@@ -131,3 +137,9 @@ A4: 예, 평가 목적으로 Aspose 웹사이트에서 임시 라이선스를 �
 ### Q5: Aspose.Tasks for .NET에 관한 지원이나 추가 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 문의사항이나 도움이 필요하시면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

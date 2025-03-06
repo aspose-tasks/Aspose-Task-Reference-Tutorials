@@ -3,10 +3,16 @@ title: Cálculos de porcentagem concluída para tarefas em Aspose.Tasks
 linktitle: Cálculos de porcentagem concluída para tarefas em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore Aspose.Tasks para Java e simplifique o acompanhamento do progresso do projeto. Calcule facilmente porcentagens de tarefas para um gerenciamento de projetos eficiente.
-type: docs
 weight: 25
 url: /pt/java/task-properties/percentage-complete-calculations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cálculos de porcentagem concluída para tarefas em Aspose.Tasks
+
 ## Introdução
 Bem-vindo ao nosso guia detalhado sobre como dominar cálculos de porcentagem de tarefas usando Aspose.Tasks for Java. Aspose.Tasks é uma poderosa biblioteca Java projetada para trabalhar com arquivos do Microsoft Project, oferecendo um conjunto robusto de recursos para gerenciamento de projetos. Neste tutorial, focaremos nos cálculos de porcentagem concluída, fornecendo a você o conhecimento para monitorar e analisar com eficácia o progresso do projeto.
 ## Pré-requisitos
@@ -63,3 +69,9 @@ Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
  Visite o fórum de suporte[aqui](https://forum.aspose.com/c/tasks/15).
 ### P: Como obtenho uma licença temporária?
  Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

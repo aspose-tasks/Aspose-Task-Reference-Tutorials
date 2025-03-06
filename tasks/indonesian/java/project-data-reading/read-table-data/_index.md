@@ -3,10 +3,16 @@ title: Baca Data Tabel dari File di Aspose.Tasks
 linktitle: Baca Data Tabel dari File di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Buka kekuatan Aspose.Tasks untuk Java. Pelajari cara mengekstrak data tabel dari file dalam tutorial komprehensif ini.
-type: docs
 weight: 17
 url: /id/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Data Tabel dari File di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membaca data tabel dari file menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan dokumen Microsoft Project secara terprogram.
 ## Prasyarat
@@ -62,3 +68,9 @@ J: Ya, Anda dapat menggunakan Aspose.Tasks untuk mengubah data tabel secara terp
  J: Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
 ### T: Di mana saya dapat menemukan bantuan dan dukungan untuk Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)atas bantuan dan dukungan dari komunitas dan tim Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

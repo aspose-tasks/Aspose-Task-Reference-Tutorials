@@ -3,10 +3,16 @@ title: บันทึกไฟล์โครงการ MS เป็นเท
 linktitle: บันทึกตัวเลือกเทมเพลตสำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีบันทึกไฟล์ Microsoft Project เป็นเทมเพลตโดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งการตั้งค่าเทมเพลตเพื่อการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 18
 url: /th/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกไฟล์โครงการ MS เป็นเทมเพลตด้วย Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการบันทึกเทมเพลตโดยใช้ Aspose.Tasks สำหรับ .NET เทมเพลตมีประโยชน์สำหรับการกำหนดโครงสร้างและการตั้งค่าโปรเจ็กต์ให้เป็นมาตรฐานสำหรับการใช้งานในอนาคต เราจะสาธิตวิธีการบันทึกโปรเจ็กต์เป็นเทมเพลต และปรับแต่งคุณสมบัติของโปรเจ็กต์ไปพร้อมกัน
 ## ข้อกำหนดเบื้องต้น
@@ -76,3 +82,9 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ตอบ: Aspose.Tasks สำหรับ .NET ได้รับการออกแบบมาเพื่อแอปพลิเคชันเฟรมเวิร์ก .NET ที่ทำงานบนแพลตฟอร์ม Windows เป็นหลัก
 ### ถาม: Aspose.Tasks สำหรับ .NET มีการสนับสนุนด้านเทคนิคหรือไม่
  ตอบ: ได้ คุณสามารถขอความช่วยเหลือด้านเทคนิคและคำแนะนำจากชุมชน Aspose.Tasks ได้[ฟอรั่ม](https://forum.aspose.com/c/tasks/15)หรือติดต่อทีมสนับสนุนโดยตรง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

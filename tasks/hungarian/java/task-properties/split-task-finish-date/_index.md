@@ -3,10 +3,16 @@ title: A feladat befejezési dátumának felosztása az Aspose.Tasks-ban
 linktitle: A feladat befejezési dátumának felosztása az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Ismerje meg, hogyan oszthatja fel könnyedén a feladatok befejezési dátumát az Aspose.Tasks for Java segítségével. Javítsa a projektmenedzsmentet pontos idővonalakkal.
-type: docs
 weight: 28
 url: /hu/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A feladat befejezési dátumának felosztása az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsmentben a feladatok ütemezésének megértése kulcsfontosságú a projekt sikeres befejezéséhez. Az Aspose.Tasks for Java hatékony funkciókat kínál a projektfeladatok hatékony kezeléséhez. Ebben az oktatóanyagban a feladatok befejezési dátumainak felosztásával foglalkozunk az Aspose.Tasks használatával, amely segít a projektek ütemezésének hatékony kezelésében.
 ## Előfeltételek
@@ -54,3 +60,9 @@ feladatok befejezési dátumának manipulálásának elsajátítása kulcsfontos
  4. válasz: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/tasks/15).
 ### 5. kérdés: Megvásárolhatom az Aspose.Tasks-t?
  A5: Igen, megvásárolhatja[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

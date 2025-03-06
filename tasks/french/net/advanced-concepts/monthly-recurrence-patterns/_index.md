@@ -3,10 +3,16 @@ title: Gestion des modèles de récurrence mensuelle dans Aspose.Tasks
 linktitle: Gestion des modèles de récurrence mensuelle dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les modèles de récurrence mensuelle dans Aspose.Tasks pour .NET avec ce didacticiel étape par étape.
-type: docs
 weight: 18
 url: /fr/net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des modèles de récurrence mensuelle dans Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. L’une des fonctionnalités essentielles qu’il offre est la capacité de gérer efficacement les tâches récurrentes. Dans ce didacticiel, nous verrons comment utiliser les modèles de récurrence mensuelle à l'aide d'Aspose.Tasks, étape par étape.
@@ -94,3 +100,9 @@ A2 : Oui, Aspose.Tasks propose de nombreuses options pour personnaliser les mod�
 ### Q5 : Où puis-je acheter une licence pour Aspose.Tasks ?
 
  A5 : Vous pouvez acheter une licence pour Aspose.Tasks sur le site Web[ici](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: كتابة بيانات الموارد المحدثة في Aspose.Tasks
 linktitle: كتابة بيانات الموارد المحدثة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تحديث بيانات الموارد في ملفات MS Project بسهولة باستخدام Aspose.Tasks لـ Java.
-type: docs
 weight: 21
 url: /ar/java/resource-management/write-updated-resource-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كتابة بيانات الموارد المحدثة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال تحديث بيانات موارد Microsoft Project باستخدام Aspose.Tasks لـ Java. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تسمح لك بمعالجة ملفات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project على نظامك.
 
@@ -98,3 +104,10 @@ project.save(resultFile, SaveFileFormat.Mpp);
 ### س5: أين يمكنني العثور على مساعدة أو دعم إضافي لـ Aspose.Tasks؟
 
  ج5: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية مساعدة أو استفسار.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

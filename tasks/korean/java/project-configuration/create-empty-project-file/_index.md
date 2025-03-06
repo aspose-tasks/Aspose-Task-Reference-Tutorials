@@ -3,10 +3,16 @@ title: Aspose.Tasks에 빈 MS 프로젝트 파일 만들기
 linktitle: Aspose.Tasks에 빈 프로젝트 파일 만들기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks를 사용하여 Java에서 빈 Microsoft Project 파일을 만드는 방법을 알아보세요. 원활한 통합을 위한 쉬운 단계.
-type: docs
 weight: 11
 url: /ko/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에 빈 MS 프로젝트 파일 만들기
+
 ## 소개
 프로젝트 관리 및 작업 일정 관리 영역에서는 Microsoft Project 파일을 처리하는 것이 필요한 경우가 많습니다. Aspose.Tasks for Java는 Java 애플리케이션 내에서 이러한 파일을 원활하게 생성, 조작 및 관리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 빈 Microsoft Project 파일을 만드는 과정을 자세히 살펴보겠습니다.
 ## 전제조건
@@ -53,3 +59,9 @@ Aspose.Tasks for Java를 사용하면 빈 Microsoft Project 파일을 만드는 
  커뮤니티 포럼에서 지원을 구할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스는 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

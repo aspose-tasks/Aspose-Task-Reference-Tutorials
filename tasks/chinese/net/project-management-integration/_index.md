@@ -3,10 +3,16 @@ title: Aspose.Tasks 项目管理和集成
 linktitle: Aspose.Tasks 项目管理和集成
 second_title: Aspose.Tasks .NET API
 description: 探索涵盖 MS 项目管理、集成和自定义的全面 Aspose.Tasks for .NET 教程。立即增强您的项目管理技能！
-type: docs
 weight: 27
 url: /zh/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 项目管理和集成
+
 
 ## 介绍
 
@@ -62,3 +68,9 @@ url: /zh/net/project-management-integration/
 使用 Aspose.Tasks for .NET 解锁无缝 MS Project Server 管理。轻松自动化项目任务。
 ### [在 Aspose.Tasks 中自定义 MS 项目视图](./project-views/)
 了解如何使用 Aspose.Tasks for .NET 自定义 MS Project 视图。请遵循我们的分步指南，实现高效的项目管理可视化。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

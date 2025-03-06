@@ -3,10 +3,16 @@ title: Extraire les informations de MS Project dans Aspose.Tasks
 linktitle: Extraction des informations sur le projet dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment extraire facilement des informations MS Project à l'aide d'Aspose.Tasks pour .NET. Plongez dans notre tutoriel complet.
-type: docs
 weight: 20
 url: /fr/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraire les informations de MS Project dans Aspose.Tasks
+
 ## Introduction
 Cherchez-vous à extraire efficacement des informations des fichiers Microsoft Project à l’aide d’Aspose.Tasks pour .NET ? Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus. Mais avant d’entrer dans les détails de la mise en œuvre, assurons-nous d’abord que vous disposez de tout ce dont vous avez besoin.
 ## Conditions préalables
@@ -73,3 +79,9 @@ R : Absolument ! Aspose.Tasks for .NET fournit des fonctionnalités robustes pou
  R : Oui, vous pouvez obtenir une assistance technique pour Aspose.Tasks for .NET via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), où vous pouvez poser des questions et demander l'aide d'experts.
 ### Q5 : Puis-je essayer Aspose.Tasks pour .NET avant de l'acheter ?
  R : Certainement ! Vous pouvez bénéficier d'un essai gratuit d'Aspose.Tasks pour .NET à partir du[page des versions](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de prendre une décision d'achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

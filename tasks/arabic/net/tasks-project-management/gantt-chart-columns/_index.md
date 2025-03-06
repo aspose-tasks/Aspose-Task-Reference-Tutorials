@@ -3,10 +3,16 @@ title: تخصيص أعمدة مخطط جانت باستخدام Aspose.Tasks
 linktitle: أعمدة مخطط جانت في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تخصيص أعمدة مخطط جانت في Aspose.Tasks لـ .NET لعرض معلومات مهمة محددة بكفاءة.
-type: docs
 weight: 21
 url: /ar/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص أعمدة مخطط جانت باستخدام Aspose.Tasks
+
 ## مقدمة
 تعد مخططات جانت أداة أساسية في إدارة المشاريع، حيث توفر تمثيلاً مرئيًا للمهام والجداول الزمنية والموارد. يوفر Aspose.Tasks for .NET إمكانات قوية للتعامل مع مخططات جانت، بما في ذلك تخصيص الأعمدة لعرض معلومات مهمة محددة. في هذا البرنامج التعليمي، سوف نستكشف كيفية العمل مع أعمدة مخطط جانت باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -99,3 +105,9 @@ project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 ج: يوفر Aspose.Tasks for .NET خيارات تخصيص واسعة النطاق، مما يسمح لك بإضافة عدد كبير من الأعمدة إلى مخططات جانت دون قيود.
 ### س: أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Tasks لـ .NET؟
 ج: يمكنك استكشاف الوثائق ومنتديات المجتمع وقنوات الدعم التي يوفرها Aspose.Tasks لـ .NET للوصول إلى الموارد والمساعدة الشاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

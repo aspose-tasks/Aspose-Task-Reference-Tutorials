@@ -3,10 +3,16 @@ title: Configuration du temps Aspose.Tasks et modèles de récurrence
 linktitle: Configuration du temps Aspose.Tasks et modèles de récurrence
 second_title: API Aspose.Tasks .NET
 description: Explorez les didacticiels Aspose.Tasks pour .NET sur la configuration temporelle et les modèles de récurrence. Gérez sans effort les calendriers, personnalisez les temps de travail et optimisez la planification des projets.
-type: docs
 weight: 33
 url: /fr/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration du temps Aspose.Tasks et modèles de récurrence
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.Tasks pour .NET, où une gestion de projet efficace rencontre la puissance de configurations de temps et de modèles de récurrence personnalisables. Dans ce guide complet, nous aborderons divers didacticiels qui vous permettront de maîtriser l'art de la planification de projets et de la gestion des ressources.
@@ -58,3 +64,9 @@ Découvrez comment configurer les semaines de travail sans effort dans Aspose.Ta
 Découvrez comment personnaliser les semaines de travail dans Aspose.Tasks pour .NET. Guide étape par étape pour créer des calendriers de projet personnalisés. Télécharger maintenant!
 ### [Configuration des modèles de récurrence annuelle dans Aspose.Tasks](./yearly-recurrence-patterns/)
 Apprenez à configurer des modèles de récurrence annuels dans Aspose.Tasks pour .NET. Améliorez vos compétences en gestion de projet avec ce guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

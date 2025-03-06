@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Taslak Kodların MS Projesinin Toplanması
 linktitle: Aspose.Tasks'ta Anahat Kodlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project taslak kodlarını nasıl toplayacağınızı öğrenin. Bu kapsamlı eğitimde adım adım talimatlar verilmektedir.
-type: docs
 weight: 11
 url: /tr/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Taslak Kodların MS Projesinin Toplanması
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for .NET kullanarak Microsoft Project anahat kodlarının nasıl toplanacağını inceleyeceğiz. Netlik ve anlayış sağlamak için süreci adım adım talimatlara ayıracağız.
 ## Önkoşullar
@@ -95,3 +101,9 @@ C: Evet, Aspose.Tasks for .NET, en yenileri de dahil olmak üzere Microsoft Proj
 C: Aspose.Tasks for .NET kesinlikle çıktı formatını ihtiyaçlarınıza göre özelleştirmek için kapsamlı seçenekler sunuyor.
 ### S: Aspose.Tasks for .NET için nerede ek destek veya kaynak bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Aspose.Tasks for .NET ile ilgili her türlü yardım veya sorularınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

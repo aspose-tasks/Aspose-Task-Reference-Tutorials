@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 프로젝트의 페이지 수 가져오기
 linktitle: Aspose.Tasks를 사용하여 프로젝트의 페이지 수 가져오기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks로 Java 개발의 잠재력을 활용해 보세요. Microsoft Project 파일을 원활하게 조작하고 생산성을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 프로젝트의 페이지 수 가져오기
+
 ## 소개
 Java 개발 영역에서 Aspose.Tasks는 Microsoft Project 파일을 처리하는 강력한 도구로 돋보입니다. 노련한 개발자이거나 Java 프로그래밍에 발을 담그는 경우 Aspose.Tasks를 마스터하면 프로젝트 파일에서 귀중한 통찰력을 추출하고 조작하는 능력이 크게 향상될 수 있습니다.
 ## 전제조건
@@ -74,3 +80,9 @@ A: Aspose.Tasks는 포괄적인 문서 및 지원을 제공하여 다양한 Java
  A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티와 상호 작용하고 문제나 질문에 대한 도움을 구합니다.
 ### Q: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 물론입니다. Aspose.Tasks에서 무료 평가판을 받아 특징과 기능을 탐색할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

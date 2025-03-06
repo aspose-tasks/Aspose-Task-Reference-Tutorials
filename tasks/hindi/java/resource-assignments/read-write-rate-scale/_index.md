@@ -3,10 +3,16 @@ title: Aspose.Tasks में संसाधन असाइनमेंट क
 linktitle: Aspose.Tasks में संसाधन असाइनमेंट के लिए रेट स्केल पढ़ें और लिखें
 second_title: Aspose.Tasks जावा एपीआई
 description: इस व्यापक ट्यूटोरियल के साथ जानें कि जावा के लिए Aspose.Tasks में संसाधन असाइनमेंट दर पैमाने को प्रभावी ढंग से कैसे प्रबंधित किया जाए।
-type: docs
 weight: 20
 url: /hi/java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में संसाधन असाइनमेंट के लिए रेट स्केल पढ़ें और लिखें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके संसाधन असाइनमेंट दर पैमाने को प्रबंधित करने में गहराई से उतरेंगे, जो प्रोग्रामेटिक रूप से Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने के लिए एक मजबूत लाइब्रेरी है। इन चरणों का पालन करके, आप अपने जावा अनुप्रयोगों में संसाधन असाइनमेंट के लिए दर पैमाने सेटिंग्स में प्रभावी ढंग से हेरफेर करने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -84,3 +90,9 @@ ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getReso
 उत्तर: हां, Aspose.Tasks लागत, कार्य और अवधि समायोजन सहित संसाधन असाइनमेंट को अनुकूलित करने के लिए व्यापक क्षमताएं प्रदान करता है।
 ### Q5: क्या Aspose.Tasks समर्थन के लिए कोई सामुदायिक मंच है?
  उत्तर: हां, आप Aspose.Tasks फोरम पर अन्य उपयोगकर्ताओं के साथ समर्थन पा सकते हैं और उनके साथ बातचीत कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

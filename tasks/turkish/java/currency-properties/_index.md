@@ -3,10 +3,16 @@ title: Para Birimi Özellikleri
 linktitle: Para Birimi Özellikleri
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java Tutorials'ın gücünün kilidini açın. MS Project dosyalarındaki para birimi özelliklerini zahmetsizce okumaya ve ayarlamaya ilişkin adım adım kılavuzları keşfedin.
-type: docs
 weight: 25
 url: /tr/java/currency-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Para Birimi Özellikleri
+
 ## giriiş
 Aspose.Tasks for Java becerilerinizi yükseltmeye hazır mısınız? Para birimi özelliklerine ilişkin kapsamlı eğitimlerimizi inceleyin ve MS Project dosyalarındaki para birimi bilgilerini kullanma sanatında ustalaşın.
 
@@ -35,3 +41,9 @@ Bu eğitici yolculuğa çıkmaya hazır mısınız? Başlamak için aşağıdaki
 Aspose.Tasks for Java'yı kullanarak MS Project dosyalarından para birimi bilgilerini nasıl çıkaracağınızı öğrenin. Adım adım kılavuz sağlanmıştır.
 ### [Aspose.Tasks Projelerinde Para Birimi Özelliklerini Ayarlama](./set-properties/)
 Aspose.Tasks projelerinde Java kullanarak para birimi özelliklerini nasıl ayarlayacağınızı öğrenin. Microsoft Project dosyalarını zahmetsizce yönetin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sesuaikan Minggu Kerja di Aspose.Tasks
 linktitle: Kumpulan Minggu Kerja di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyesuaikan minggu kerja di Aspose.Tasks untuk .NET. Panduan langkah demi langkah untuk membuat kalender proyek yang dipersonalisasi. Unduh sekarang!
-type: docs
 weight: 17
 url: /id/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Minggu Kerja di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial kami tentang cara membuat minggu kerja khusus menggunakan Aspose.Tasks untuk .NET! Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menentukan minggu kerja yang dipersonalisasi untuk kalender di proyek Anda. Aspose.Tasks adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara efisien dengan dokumen Microsoft Project di aplikasi .NET mereka.
 ## Prasyarat
@@ -82,3 +88,9 @@ Ya, Aspose.Tasks mendukung .NET Core.
 Tentu saja, Aspose.Tasks memungkinkan Anda menyimpan proyek Anda dalam berbagai format, termasuk Microsoft Project.
 ### Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan atau bantuan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

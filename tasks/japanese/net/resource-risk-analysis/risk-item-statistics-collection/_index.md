@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクトのリスク項目統計を収集�
 linktitle: Aspose.Tasks でのリスク項目統計の収集
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルからリスク項目統計を収集する方法を学びます。プロジェクト管理能力を強化します。
-type: docs
 weight: 22
 url: /ja/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクトのリスク項目統計を収集する
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project ファイルからリスク項目の統計を収集する方法を説明します。このライブラリは、リスク評価や統計分析など、プロジェクト データを分析するための強力な機能を提供します。
 ## 前提条件
@@ -88,3 +94,9 @@ A: もちろん、Aspose.Tasks はエンタープライズ レベルのプロジ
 A: はい、Aspose.Tasks では、特定のプロジェクト要件やシナリオに合わせてリスク分析設定を柔軟に構成できます。
 ### Q: Aspose.Tasks ユーザーはテクニカル サポートを利用できますか?
  A: はい、Aspose.Tasks ユーザーは、Aspose を通じてテクニカル サポートにアクセスできます。[フォーラム](https://forum.aspose.com/c/tasks/15)、質問したり、問題を報告したり、コミュニティと交流したりできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

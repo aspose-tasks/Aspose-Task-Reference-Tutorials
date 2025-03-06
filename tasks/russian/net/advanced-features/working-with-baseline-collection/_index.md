@@ -3,10 +3,16 @@ title: Работа с базовой коллекцией в Aspose.Tasks
 linktitle: Работа с базовой коллекцией в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять базовыми показателями в Aspose.Tasks для .NET. Следуйте нашему подробному руководству для получения пошаговых инструкций.
-type: docs
 weight: 20
 url: /ru/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с базовой коллекцией в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks for .NET — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами Microsoft Project в своих .NET-приложениях. Среди множества функций он обеспечивает надежную поддержку управления базовыми показателями в проектах. Базовые показатели важны для управления проектами, поскольку они позволяют сравнивать исходный план проекта с текущим статусом, что позволяет лучше отслеживать и анализировать ход проекта.
@@ -116,3 +122,9 @@ foreach (var baseline in baselines)
 ### Вопрос 5: Существует ли форум сообщества, на котором пользователи Aspose.Tasks могут обращаться за помощью и делиться знаниями?
 
  A5: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) взаимодействовать с сообществом и получать помощь от экспертов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

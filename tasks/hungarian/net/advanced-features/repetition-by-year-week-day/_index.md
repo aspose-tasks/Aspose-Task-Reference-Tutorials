@@ -3,10 +3,16 @@ title: Ismétlés évenként Hét napja Aspose.Tasks-ban
 linktitle: Ismétlés évenként Hét napja Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET erejét az ismétlődő feladatok hatékony kezelésében. Útmutató lépésről lépésre az Ismétlés évenkénti, hét napjai funkció megvalósításához.
-type: docs
 weight: 28
 url: /hu/net/advanced-features/repetition-by-year-week-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ismétlés évenként Hét napja Aspose.Tasks-ban
+
 ## Bevezetés
 
 A projektmenedzsment területén a hatékonyság és a precizitás a legfontosabb. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a projektkezelés egyszerűsítésére. Arzenálja közé tartozik az ismétlődő feladatok figyelemreméltó rugalmasság kezelésének képessége. Az egyik ilyen funkció az "Ismétlés évenkénti hétnaponként" funkció, amely lehetővé teszi a felhasználók számára, hogy olyan feladatokat állítsanak be, amelyek a hét meghatározott napjain, meghatározott hónapokon belül és több éven keresztül ismétlődnek.
@@ -126,3 +132,9 @@ V: Igen, az Aspose.Tasks for .NET támogatja a felhő alapú projektmenedzsment 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
 V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy a vásárlási döntés meghozatala előtt felfedezze tulajdonságait.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

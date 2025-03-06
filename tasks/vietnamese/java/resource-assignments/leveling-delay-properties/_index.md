@@ -3,10 +3,16 @@ title: Xử lý các thuộc tính độ trễ cân bằng trong Aspose.Tasks
 linktitle: Xử lý các thuộc tính độ trễ cân bằng cho việc gán tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các thuộc tính độ trễ cân bằng cho các nhiệm vụ tài nguyên trong Aspose.Tasks cho Java với hướng dẫn toàn diện này.
-type: docs
 weight: 17
 url: /vi/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các thuộc tính độ trễ cân bằng trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình xử lý các thuộc tính độ trễ cân bằng cho việc gán tài nguyên trong Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project trên hệ thống của bạn.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của 
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
 
  Đáp: Bạn có thể yêu cầu giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

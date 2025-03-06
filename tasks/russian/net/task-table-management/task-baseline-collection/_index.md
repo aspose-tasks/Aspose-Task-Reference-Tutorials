@@ -3,10 +3,16 @@ title: Сбор базовых показателей задач в Aspose.Tasks
 linktitle: Сбор базовых показателей задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Легко исследуйте базовые показатели задач с помощью Aspose.Tasks для .NET. Эффективное управление проектами стало проще. Скачать сейчас! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /ru/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сбор базовых показателей задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в мир Aspose.Tasks для .NET, мощной библиотеки, которая упрощает манипулирование и управление проектными задачами. В этом уроке мы углубимся в увлекательную область базовых планов задач — важнейший аспект планирования и отслеживания проекта. К концу этого руководства вы освоите искусство работы с коллекциями базовых планов задач, что позволит вам расширить свои возможности управления проектами.
 ## Предварительные условия
@@ -68,3 +74,9 @@ for (var i = 0; i < baselines.Count; i++)
 А: Абсолютно! У вас есть полный контроль над форматированием при печати базовых данных, что позволяет адаптировать его к вашим конкретным требованиям.
 ### Вопрос: Куда я могу обратиться за помощью, если у меня возникнут проблемы или возникнут дополнительные вопросы?
  А: Посетите[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за целенаправленную поддержку и помощь сообществу.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

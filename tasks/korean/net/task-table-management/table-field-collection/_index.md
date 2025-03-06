@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks에서 테이블 필드 컬렉션 마스터링
 linktitle: Aspose.Tasks의 테이블 필드 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 역동적인 프로젝트 관리 세계를 탐험해보세요. 맞춤형 프로젝트 경험을 위해 테이블 필드 컬렉션을 조작하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks에서 테이블 필드 컬렉션 마스터링
+
 ## 소개
 Aspose.Tasks for .NET은 Microsoft Project 파일 작업을 위한 광범위한 기능을 제공하여 프로젝트 관리를 용이하게 하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks의 테이블 필드 컬렉션을 자세히 살펴보고 C#을 사용하여 효율적으로 조작하고 관리하는 방법을 탐구합니다.
 ## 전제조건
@@ -111,3 +117,9 @@ else
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)지원을 받고, 질문하고, 커뮤니티와 협력할 수 있습니다.
 ### .NET용 Aspose.Tasks에 대한 무료 평가판이 있습니까?
  예, 무료 평가판을 통해 Aspose.Tasks for .NET의 기능을 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

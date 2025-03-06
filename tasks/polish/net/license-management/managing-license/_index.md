@@ -3,10 +3,16 @@ title: Zarządzanie licencją MS Project w Aspose.Tasks .NET
 linktitle: Zarządzanie licencją Aspose.Tasks w .NET
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak płynnie zarządzać licencjami Aspose.Tasks w aplikacjach .NET, korzystając z podejścia opartego na plikach lub strumieniach.
-type: docs
 weight: 10
 url: /pl/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie licencją MS Project w Aspose.Tasks .NET
+
 ## Wstęp
 Zarządzanie licencjami jest kluczowym aspektem efektywnego wykorzystania Aspose.Tasks w aplikacjach .NET. Bez odpowiedniej licencji możesz napotkać ograniczenia lub ograniczenia w użytkowaniu. Na szczęście Aspose.Tasks zapewnia proste metody stosowania licencji przy użyciu plików lub strumieni w projektach .NET. W tym samouczku omówimy krok po kroku, jak zarządzać licencjami Aspose.Tasks w aplikacjach .NET.
 ## Warunki wstępne
@@ -98,3 +104,9 @@ Odp.: Bez ważnej licencji Aspose.Tasks działa w trybie ewaluacyjnym, który na
 ### P: Czy mogę używać tego samego pliku licencji do wielu aplikacji?
 
 O: Tak, możesz używać tego samego pliku licencji w wielu aplikacjach opracowanych przez tego samego licencjobiorcę. Upewnij się jednak, że Twoja licencja jest zgodna z warunkami użytkowania określonymi przez Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

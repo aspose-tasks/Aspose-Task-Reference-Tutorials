@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Verilerini Excel'e Kaydetme
 linktitle: Aspose.Tasks'ta Verileri Excel'e Kaydetme
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project verilerini Excel dosyalarına nasıl kaydedeceğinizi öğrenin. Java geliştiricileri için kolay entegrasyon.
-type: docs
 weight: 19
 url: /tr/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Verilerini Excel'e Kaydetme
+
 ## giriiş
 Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, verileri bir Proje dosyasından bir Excel dosyasına adım adım kaydetme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -52,3 +58,9 @@ Aspose.Tasks for Java belgelerini bulabilirsiniz[Burada](https://reference.aspos
  Aspose.Tasks forumunu ziyaret ederek destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for Java için geçici bir lisans satın alabilir miyim?
  Evet, adresinden geçici bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering VBA Reference Handling - A Step-by-Step Guide
 linktitle: Handling VBA References in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the power of handling VBA references in Aspose.Tasks .NET with our comprehensive tutorial. Learn to read, compare, and work with VBA references seamlessly.
-type: docs
 weight: 15
 url: /net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering VBA Reference Handling - A Step-by-Step Guide
+
 ## Introduction
 If you're diving into Aspose.Tasks for .NET and want to explore the intricacies of handling VBA references, you're in the right place. This step-by-step guide will walk you through the process of reading, checking equality, obtaining hash codes, and working with the VBA reference collection using Aspose.Tasks.
 ## Prerequisites
@@ -79,3 +85,10 @@ A: Yes, you can find support on the [Aspose.Tasks forum](https://forum.aspose.co
 A: The documentation is available [here](https://reference.aspose.com/tasks/net/).
 ### Q: Can I purchase Aspose.Tasks?
 A: Yes, you can purchase it [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

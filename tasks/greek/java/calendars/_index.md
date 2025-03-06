@@ -3,10 +3,16 @@ title: Ημερολόγια
 linktitle: Ημερολόγια
 second_title: Aspose.Tasks Java API
 description: Βελτιώστε τις δεξιότητές σας στη διαχείριση έργων Java με τα σεμινάρια Aspose.Tasks. Κατακτήστε τη διαχείριση ημερολογίων, δημιουργήστε, ορίστε τις καθημερινές και ενημερώστε τα ημερολόγια με ευκολία.
-type: docs
 weight: 21
 url: /el/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ημερολόγια
+
 ## Εισαγωγή
 
 Είστε προγραμματιστής Java που θέλετε να βελτιώσετε τις δεξιότητές σας στη διαχείριση έργων; Βουτήξτε στα ολοκληρωμένα μας σεμινάρια Aspose.Tasks που καλύπτουν διάφορες πτυχές της διαχείρισης ημερολογίων MS Project. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτά τα σεμινάρια παρέχουν οδηγίες βήμα προς βήμα για να βελτιώσετε τις δυνατότητές σας.
@@ -64,3 +70,9 @@ url: /el/java/calendars/
 Μάθετε πώς να διαβάζετε εργάσιμες εβδομάδες από το ημερολόγιο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Λάβετε οδηγίες βήμα προς βήμα σε αυτό το περιεκτικό σεμινάριο.
 ### [Ενημερώστε τα Ημερολόγια Έργων MS σε Μορφή MPP με το Aspose.Tasks](./update-to-mpp/)
 Μάθετε πώς να ενημερώνετε τα ημερολόγια του MS Project σε μορφή MPP χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks για Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

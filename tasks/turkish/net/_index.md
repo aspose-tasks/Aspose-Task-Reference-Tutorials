@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Aspose.Tasks for .NET Örnekleri
 linktitle: .NET Eğitimleri için Aspose.Tasks
-type: docs
 weight: 10
 url: /tr/net/
 description: Kaydetme seçenekleri, takvim ve planlama, proje yönetimi ve daha fazlasını kapsayan Aspose.Tasks for .NET eğitimlerini keşfedin. Proje yönetimi becerilerinizi geliştirin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Aspose.Tasks for .NET Örnekleri
+
 ## giriiş
 
 Aspose.Tasks for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? Proje yönetimi becerilerinizi geliştirmek için çok çeşitli konuları kapsayan kapsamlı eğitimlerimizi ve örneklerimizi inceleyin. Kaydetme seçeneklerinden gelişmiş özelliklere, takvim ve planlama görevlerine, proje yönetimine ve özelleştirmeye kadar her konuda yanınızdayız.
@@ -72,3 +77,9 @@ Aspose.Tasks .NET'te Aspose.Tasks dosya formatı seçeneklerini ve XAML ve XLSX 
 Aspose.Tasks for .NET'i kullanarak Microsoft Project PDF'lerinizin güvenliğini nasıl artıracağınızı keşfedin. Dijital imza ve şifreleme tekniklerini öğrenin.
 ### [Aspose.Tasks Lisans Yönetimi](./license-management/)
 Kapsamlı eğitimlerimizle Aspose.Tasks for .NET'in gücünü ortaya çıkarın. Verimli proje yönetimi için lisansları yönetin ve MS Project kullanımını optimize edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

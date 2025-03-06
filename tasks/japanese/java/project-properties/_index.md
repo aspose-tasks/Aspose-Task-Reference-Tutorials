@@ -3,10 +3,16 @@ title: プロジェクトのプロパティ
 linktitle: プロジェクトのプロパティ
 second_title: Aspose.Tasks Java API
 description: プロジェクト プロパティのチュートリアルを使用して、Aspose.Tasks for Java の可能性を解き放ちます。 Microsoft Project の情報を簡単に抽出、活用、操作します。
-type: docs
 weight: 24
 url: /ja/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プロジェクトのプロパティ
+
 ## 導入
 
 Aspose.Tasks for Java のスキルを高める準備はできていますか?プロジェクト プロパティ チュートリアルでは、メタ プロパティの読み取り、Microsoft Project 情報の抽出、MS Project 操作の習得という 3 つの重要な側面に焦点を当て、この強力なライブラリの可能性を最大限に活用できるようにします。これらのチュートリアルを詳しく学習して、Java 開発およびプロジェクト管理の機能を強化してください。
@@ -35,3 +41,9 @@ MS Project 情報の操作に精通したい Java 開発者にとって、私た
 Aspose.Tasks for Java を使用して Microsoft Project 情報を抽出する方法を学びます。 Java アプリケーションのプロジェクト管理を簡単に強化します。
 ### [Aspose.Tasks for Java を使用した MS プロジェクトの操作をマスターする](./write-project-info/)
 Aspose.Tasks for Java を使用して MS Project 情報を効率的に記述する方法を学びます。 Java 開発者向けのステップバイステップ ガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

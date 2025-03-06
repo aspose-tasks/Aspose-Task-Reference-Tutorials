@@ -3,10 +3,16 @@ title: Διαμορφώστε τις ρυθμίσεις σελίδας MS Projec
 linktitle: Διαμόρφωση ρυθμίσεων σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις ρυθμίσεις σελίδας MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε τον προσανατολισμό, το μέγεθος και πολλά άλλα με απλά βήματα.
-type: docs
 weight: 20
 url: /el/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαμορφώστε τις ρυθμίσεις σελίδας MS Project με το Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία διαμόρφωσης των ρυθμίσεων σελίδας του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία Microsoft Project μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 Α: Σίγουρα, μπορείτε να ενσωματώσετε αυτήν τη λειτουργία στη ροή εργασιών της εφαρμογής σας για να αυτοματοποιήσετε τη διαμόρφωση ρυθμίσεων σελίδας.
 ### Ε: Το Aspose.Tasks προσφέρει υποστήριξη για διαφορετικές μορφές αρχείων εκτός από το .mpp;
 Α: Ναι, το Aspose.Tasks υποστηρίζει διάφορες μορφές αρχείων όπως XML, MPT και HTML, μεταξύ άλλων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manage Notes for Resource Assignments in Aspose.Tasks
 linktitle: Manage Notes for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to manage notes for resource assignments in Aspose.Tasks for Java. Step-by-step tutorial for seamless integration.
-type: docs
 weight: 21
 url: /java/resource-assignments/resource-assignment-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Notes for Resource Assignments in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll delve into managing notes for resource assignments using Aspose.Tasks for Java. Aspose.Tasks is a robust Java library designed for handling project management tasks efficiently. This tutorial will guide you through the process step by step, enabling you to seamlessly integrate note management into your project workflows.
 ## Prerequisites
@@ -76,3 +82,10 @@ You can get support from the Aspose.Tasks community forum [here](https://forum.a
 No, a temporary license is not required for the trial period. You can use the trial version without any licensing.
 ### Where can I purchase Aspose.Tasks for Java?
 You can purchase Aspose.Tasks for Java from the purchase page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

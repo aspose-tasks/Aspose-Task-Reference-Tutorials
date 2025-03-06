@@ -3,10 +3,16 @@ title: Aspose.Tasks में प्रोजेक्ट संग्रह क
 linktitle: Aspose.Tasks में समूह संग्रह का प्रबंधन करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संग्रहों को कुशलतापूर्वक प्रबंधित करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें.
-type: docs
 weight: 26
 url: /hi/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में प्रोजेक्ट संग्रह का प्रबंधन करना
+
 ## परिचय
 इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Tasks का उपयोग करके समूह MS प्रोजेक्ट संग्रहों को कैसे प्रबंधित किया जाए। आपके प्रोजेक्ट के भीतर कार्यों और संसाधनों को कुशलतापूर्वक व्यवस्थित करने और हेरफेर करने के लिए समूह संग्रह का प्रबंधन करना महत्वपूर्ण है।
 ## आवश्यक शर्तें
@@ -108,3 +114,9 @@ foreach (var group in groupsToDelete)
  आप .NET के लिए Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
 ### क्या .NET के लिए Aspose.Tasks का कोई परीक्षण संस्करण उपलब्ध है?
  हाँ, आप .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[वेबसाइट](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

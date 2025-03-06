@@ -3,10 +3,16 @@ title: Tạo và lưu dự án trống ở định dạng MPP với Aspose.Tasks
 linktitle: Tạo và lưu dự án trống ở định dạng MPP với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo và lưu tệp MS Project (MPP) trống bằng Aspose.Tasks cho Java. Đơn giản hóa các nhiệm vụ quản lý dự án một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và lưu dự án trống ở định dạng MPP với Aspose.Tasks
+
 ## Giới thiệu
 Tạo và lưu tệp MS Project (MPP) trống bằng Aspose.Tasks cho Java là một quá trình đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước để giúp bạn hoàn thành nhiệm vụ này một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks cho Java cung cấp các khả 
 Trả lời: Có, Aspose.Tasks cho Java hỗ trợ nhiều định dạng tệp dự án khác nhau bao gồm XML, CSV, v.v.
 ### Câu hỏi: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Tasks dành cho Java ở đâu?
  Trả lời: Bạn có thể truy cập Aspose.Tasks[diễn đàn](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và trợ giúp dành riêng cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

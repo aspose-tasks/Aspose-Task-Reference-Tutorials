@@ -3,10 +3,16 @@ title: Identifikasi Tugas Lintas Proyek di Aspose.Tasks
 linktitle: Identifikasi Tugas Lintas Proyek di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi identifikasi tugas lintas proyek dengan Aspose.Tasks untuk Java. Integrasi yang mulus dan manajemen yang efisien. Unduh sekarang!
-type: docs
 weight: 14
 url: /id/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifikasi Tugas Lintas Proyek di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang mengidentifikasi tugas lintas proyek secara efisien dengan Aspose.Tasks untuk Java. Baik Anda seorang pengembang berpengalaman atau pemula, panduan ini akan memandu Anda melalui proses mengintegrasikan fungsi ini ke dalam proyek Java Anda dengan lancar.
 ## Prasyarat
@@ -60,3 +66,9 @@ J: Ya, Aspose.Tasks mendukung berbagai bahasa pemrograman, termasuk Java, .NET, 
  A: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Butuh bantuan atau memiliki pertanyaan spesifik?
 J: Kunjungi forum dukungan Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

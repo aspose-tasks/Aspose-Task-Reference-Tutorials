@@ -3,10 +3,16 @@ title: Ρύθμιση επαναλαμβανόμενων παραμέτρων ε
 linktitle: Ρύθμιση επαναλαμβανόμενων παραμέτρων εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να ορίζετε παραμέτρους επαναλαμβανόμενων εργασιών στο Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Ολοκληρωμένο σεμινάριο με οδηγό βήμα προς βήμα.
-type: docs
 weight: 14
 url: /el/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση επαναλαμβανόμενων παραμέτρων εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης των παραμέτρων επαναλαμβανόμενων εργασιών του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
@@ -79,3 +85,9 @@ project.RootTask.Children.Add(parameters);
 Ναι, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks για βοήθεια από την κοινότητα ή να επικοινωνήσετε με την υποστήριξη για άμεση βοήθεια.
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[δικτυακός τόπος](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

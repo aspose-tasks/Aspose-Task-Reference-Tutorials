@@ -3,10 +3,16 @@ title: Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
 linktitle: Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie die Auswertung von MS Project-Funktionen in Aspose.Tasks-Formeln mit Java unterstützen. Steigern Sie Ihre Produktivität mit Aspose.Tasks.
-type: docs
 weight: 10
 url: /de/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
+
 
 ## Einführung
 Aspose.Tasks für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten. Eine seiner Hauptfunktionen ist die Fähigkeit, die Auswertung von MS Project-Funktionen innerhalb von Aspose.Tasks-Formeln zu unterstützen. Mit dieser Funktion können Benutzer komplexe Berechnungen und Analysen direkt in ihren Java-Anwendungen durchführen.
@@ -65,3 +71,9 @@ A: Ja, Aspose.Tasks für Java unterstützt verschiedene Versionen von Microsoft 
 A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Gibt es eine temporäre Lizenz für Aspose.Tasks für Java?
  A: Ja, Sie können eine temporäre Lizenz zu Testzwecken auf der Aspose-Website erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

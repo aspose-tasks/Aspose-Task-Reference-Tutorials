@@ -3,10 +3,16 @@ title: إدارة خصائص السنة المالية في Aspose.Tasks
 linktitle: إدارة خصائص السنة المالية في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة خصائص السنة المالية بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع الأمثلة المقدمة.
-type: docs
 weight: 15
 url: /ar/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خصائص السنة المالية في Aspose.Tasks
+
 ## مقدمة
 Aspose.Tasks هي مكتبة Java قوية تمكن المطورين من إدارة ملفات المشروع بكفاءة، بما في ذلك التعامل مع خصائص السنة المالية. في هذا البرنامج التعليمي، سنتعرف على عملية إدارة خصائص السنة المالية باستخدام Aspose.Tasks في Java.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من Aspose.Tasks من[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني شراء ترخيص Aspose.Tasks لـ Java؟
  ج: يمكنك شراء ترخيص Aspose.Tasks لـ Java من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

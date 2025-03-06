@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Alt Görevleri Toplama
 linktitle: Aspose.Tasks'ta Alt Görevleri Toplama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak alt görevleri verimli bir şekilde nasıl toplayacağınızı öğrenin. .NET uygulamalarınızda proje yönetimini iyileştirin.
-type: docs
 weight: 15
 url: /tr/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Alt Görevleri Toplama
+
 ## giriiş
 
 Proje yönetimi alanında Aspose.Tasks for .NET, görevlerin ve projelerin verimli bir şekilde yönetilmesi için güçlü bir çözüm olarak öne çıkıyor. Bu güçlü kitaplık, geliştiricilere görevleri, projeleri ve aradaki her şeyi sorunsuz bir şekilde yönetmek için ihtiyaç duydukları araçları sağlar. Bu derste Aspose.Tasks'ın belirli bir yönünü ele alacağız: alt görevlerin toplanması.
@@ -96,3 +102,9 @@ C4: Evet, kullanıcılar teknik desteğe şu adresten erişebilir:[Aspose.Tasks 
 ### S5: Satın almadan önce Aspose.Tasks for .NET'i deneyebilir miyim?
 
  A5: Kesinlikle! Ücretsiz denemeden yararlanabilirsiniz[yayın sayfası](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

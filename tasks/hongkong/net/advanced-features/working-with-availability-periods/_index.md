@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用可用期
 linktitle: 在 Aspose.Tasks 中使用可用期
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 有效率地管理資源可用期。本教程提供了有關在 .NET 專案中使用可用期的逐步指南。
-type: docs
 weight: 17
 url: /zh-hant/net/advanced-features/working-with-availability-periods/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用可用期
+
 ## 介紹
 
 在本教程中，我們將探討如何在 Aspose.Tasks for .NET 中使用可用期。可用期間對於在專案管理場景中有效管理資源至關重要。我們將逐步指導您完成整個過程。
@@ -107,3 +113,9 @@ A4：您可以從社群論壇獲得支持[這裡](https://forum.aspose.com/c/tas
 ### Q5：你們有提供 Aspose.Tasks for .NET 的臨時授權嗎？
 
  A5：是的，可以使用臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zarządzanie czasem trwania zadania w Aspose.Tasks
 linktitle: Zarządzanie czasem trwania zadania w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie zarządzać bazami zadań w MS Project przy użyciu Aspose.Tasks dla Java. Ten samouczek przeprowadzi Cię krok po kroku przez cały proces.
-type: docs
 weight: 12
 url: /pl/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie czasem trwania zadania w Aspose.Tasks
+
 ## Wstęp
 Zarządzanie bazami zadań w MS Project ma kluczowe znaczenie dla planowania i śledzenia projektów. W tym samouczku dowiemy się, jak efektywnie zarządzać czasem trwania zadań przy użyciu Aspose.Tasks dla języka Java.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ Tak, możesz modyfikować plany bazowe zadań w MS Project, aby odzwierciedlić 
 Tak, Aspose.Tasks oferuje szeroką gamę funkcji do zarządzania projektami, w tym planowanie zadań, alokację zasobów i generowanie wykresów Gantta.
 ### Gdzie mogę znaleźć wsparcie dla Aspose.Tasks?
  Wsparcie dla Aspose.Tasks znajdziesz na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz zadawać pytania i kontaktować się z innymi użytkownikami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

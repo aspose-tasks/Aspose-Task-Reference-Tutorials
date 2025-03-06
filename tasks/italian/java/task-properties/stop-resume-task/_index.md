@@ -3,10 +3,16 @@ title: Interrompi e riprendi l'attività in Aspose.Tasks
 linktitle: Interrompi e riprendi l'attività in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Esplora la potenza di Aspose.Tasks per Java con la nostra guida passo passo su come interrompere e riprendere le attività. Migliora la gestione dei progetti senza problemi!
-type: docs
 weight: 30
 url: /it/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Interrompi e riprendi l'attività in Aspose.Tasks
+
 ## introduzione
 Nell'ambito dello sviluppo Java, la gestione efficiente delle attività è un aspetto cruciale dell'esecuzione del progetto. Aspose.Tasks per Java fornisce una soluzione solida per la gestione delle attività con le sue potenti funzionalità. In questo tutorial approfondiremo una funzionalità specifica: interrompere e riprendere le attività. Seguendo questa guida passo passo, sarai in grado di integrare perfettamente questa funzionalità nei tuoi progetti Java.
 ## Prerequisiti
@@ -69,3 +75,9 @@ Sì, l'esempio fornito consente flessibilità nell'impostazione della data minim
  Sì, puoi accedere a[prova gratuita](https://releases.aspose.com/) per esplorare le funzionalità prima di effettuare un acquisto.
 ### Come posso ottenere una licenza temporanea per Aspose.Tasks per Java?
  È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a scopo di test.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định dạng bản trình bày dự án MS trong Aspose.Tasks
 linktitle: Định dạng bản trình bày dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định dạng bản trình bày MS Project bằng Aspose.Tasks cho .NET. Tăng cường trực quan hóa và truyền đạt chi tiết dự án một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/project-management-integration/presentation-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng bản trình bày dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao khả năng trình bày các dự án MS Project của mình bằng Aspose.Tasks cho .NET? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình định dạng bản trình bày dự án MS Project. Cuối cùng, bạn sẽ có thể tạo các bài thuyết trình tinh tế để truyền đạt các chi tiết về dự án một cách hiệu quả.
@@ -90,3 +96,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks luôn được cập nhật đ�
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
  Đáp: Nếu bạn yêu cầu giấy phép tạm thời cho mục đích thử nghiệm hoặc đánh giá, bạn có thể lấy giấy phép từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

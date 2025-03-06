@@ -3,10 +3,16 @@ title: Properti Proyek
 linktitle: Properti Proyek
 second_title: Aspose.Tugas Java API
 description: Buka potensi Aspose.Tasks untuk Java dengan Tutorial Properti Proyek kami. Ekstrak, manfaatkan, dan manipulasi informasi Microsoft Project dengan mudah.
-type: docs
 weight: 24
 url: /id/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Proyek
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan Aspose.Tasks Anda untuk Java? Tutorial Properti Proyek kami memberdayakan Anda untuk memanfaatkan potensi penuh dari perpustakaan canggih ini, dengan fokus pada tiga aspek utama: membaca properti meta, mengekstrak informasi Microsoft Project, dan menguasai manipulasi MS Project. Selami tutorial ini untuk meningkatkan kemampuan pengembangan Java dan manajemen proyek Anda.
@@ -35,3 +41,9 @@ Buka kekuatan metadata di proyek Aspose.Tasks dengan tutorial komprehensif ini. 
 Pelajari cara mengekstrak informasi Microsoft Project menggunakan Aspose.Tasks untuk Java. Tingkatkan manajemen proyek dalam aplikasi Java dengan mudah.
 ### [Menguasai Manipulasi Proyek MS dengan Aspose.Tasks untuk Java](./write-project-info/)
 Pelajari cara menulis informasi MS Project secara efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah untuk pengembang Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

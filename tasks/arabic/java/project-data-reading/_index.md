@@ -3,10 +3,16 @@ title: قراءة بيانات المشروع
 linktitle: قراءة بيانات المشروع
 second_title: Aspose.Tasks جافا API
 description: أطلق العنان لقوة Aspose.Tasks لـ Java من خلال برامجنا التعليمية! بدءًا من قراءة تعريفات المجموعة وحتى استخراج بيانات مخطط جانت، يمكنك إتقان التكامل السلس.
-type: docs
 weight: 28
 url: /ar/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة بيانات المشروع
+
 ## مقدمة
 إذا كنت تتنقل في المشهد الواسع لإدارة المشاريع في Java، فإن دروسنا التعليمية في Aspose.Tasks هي نجومك المرشدين. انغمس في عالم تصبح فيه قراءة بيانات المشروع رحلة سهلة، وذلك بفضل أدلتنا خطوة بخطوة. دعونا نشرع في هذه المغامرة المعرفية معًا!
 
@@ -48,3 +54,9 @@ url: /ar/java/project-data-reading/
 تعرف على كيفية استخراج بيانات مخطط جانت محددة باستخدام Aspose.Tasks لـ Java. برنامج تعليمي خطوة بخطوة للتكامل السلس في تطبيقات Java الخاصة بك.
 ### [قراءة بيانات الجدول من ملف في Aspose.Tasks](./read-table-data/)
 أطلق العنان لقوة Aspose.Tasks لـ Java. تعلم كيفية استخراج بيانات الجدول من الملفات في هذا البرنامج التعليمي الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

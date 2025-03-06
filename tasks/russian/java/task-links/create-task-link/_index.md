@@ -3,10 +3,16 @@ title: Создать ссылку на задачу в Aspose.Tasks
 linktitle: Создать ссылку на задачу в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Разблокируйте плавное связывание задач в проектах Java с помощью Aspose.Tasks. Овладейте искусством создания ссылок на задачи с помощью нашего пошагового руководства. Скачать сейчас!
-type: docs
 weight: 11
 url: /ru/java/task-links/create-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать ссылку на задачу в Aspose.Tasks
+
 ## Введение
 Эффективное связывание задач имеет решающее значение для оптимизации управления проектами, и Aspose.Tasks for Java предоставляет разработчикам мощные инструменты для беспрепятственного достижения этой цели. Это пошаговое руководство проведет вас через процесс создания ссылок на задачи с помощью Aspose.Tasks для Java.
 ## Предварительные условия
@@ -57,3 +63,9 @@ System.out.println("Task Link Creation Process Completed Successfully");
 О: Да, проверьте документацию на предмет подробных примеров проектов и фрагментов кода.
 ### Вопрос: Как рекомендуется приобрести Aspose.Tasks для Java?
  О: Защитите свою копию, посетив[страница покупки](https://purchase.aspose.com/buy) и изучите варианты лицензирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

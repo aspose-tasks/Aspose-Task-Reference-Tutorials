@@ -3,10 +3,16 @@ title: परियोजना गुण
 linktitle: परियोजना गुण
 second_title: Aspose.Tasks जावा एपीआई
 description: हमारे प्रोजेक्ट प्रॉपर्टी ट्यूटोरियल्स के साथ जावा के लिए Aspose.Tasks की क्षमता को अनलॉक करें। Microsoft प्रोजेक्ट जानकारी को आसानी से निकालें, लाभ उठाएं और हेरफेर करें।
-type: docs
 weight: 24
 url: /hi/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# परियोजना गुण
+
 ## परिचय
 
 क्या आप जावा कौशल के लिए अपने Aspose.Tasks को उन्नत करने के लिए तैयार हैं? हमारे प्रोजेक्ट प्रॉपर्टी ट्यूटोरियल आपको तीन प्रमुख पहलुओं पर ध्यान केंद्रित करते हुए इस शक्तिशाली लाइब्रेरी की पूरी क्षमता का उपयोग करने के लिए सशक्त बनाते हैं: मेटा प्रॉपर्टी को पढ़ना, माइक्रोसॉफ्ट प्रोजेक्ट की जानकारी निकालना और एमएस प्रोजेक्ट हेरफेर में महारत हासिल करना। अपने जावा विकास और परियोजना प्रबंधन क्षमताओं को बढ़ाने के लिए इन ट्यूटोरियल्स का गहराई से अध्ययन करें।
@@ -35,3 +41,9 @@ url: /hi/java/project-properties/
 जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट जानकारी निकालने का तरीका जानें। जावा अनुप्रयोगों में परियोजना प्रबंधन को सहजता से बढ़ाएं।
 ### [जावा के लिए Aspose.Tasks के साथ एमएस प्रोजेक्ट मैनिपुलेशन में महारत हासिल करना](./write-project-info/)
 जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट जानकारी को कुशलतापूर्वक लिखना सीखें। जावा डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

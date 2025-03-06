@@ -3,10 +3,16 @@ title: Управляйте стоимостью задач в Aspose.Tasks
 linktitle: Управляйте стоимостью задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как управлять стоимостью задач в приложениях Java с помощью Aspose.Tasks. Следуйте нашему пошаговому руководству для эффективного управления затратами проекта.
-type: docs
 weight: 21
 url: /ru/java/task-properties/manage-task-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управляйте стоимостью задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в мир Aspose.Tasks для Java, мощной библиотеки, которая позволяет вам легко управлять стоимостью задач в ваших Java-приложениях. В этом пошаговом руководстве мы рассмотрим, как эффективно использовать Aspose.Tasks для управления затратами на задачи и обеспечения эффективного управления проектами.
 ## Предварительные условия
@@ -66,3 +72,9 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
  О: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу получить поддержку по Aspose.Tasks для Java?
  О: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

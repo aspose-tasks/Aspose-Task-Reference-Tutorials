@@ -3,10 +3,16 @@ title: Ανάγνωση δεδομένων έργου
 linktitle: Ανάγνωση δεδομένων έργου
 second_title: Aspose.Tasks Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Tasks για Java με τα σεμινάρια μας! Από την ανάγνωση ορισμών ομάδων μέχρι την εξαγωγή δεδομένων γραφήματος Gantt, η κύρια απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 28
 url: /el/java/project-data-reading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάγνωση δεδομένων έργου
+
 ## Εισαγωγή
 Εάν περιηγείστε στο απέραντο τοπίο της διαχείρισης έργων στην Java, τα σεμινάρια Aspose.Tasks είναι τα αστέρια που σας καθοδηγούν. Βουτήξτε σε ένα βασίλειο όπου η ανάγνωση δεδομένων έργου γίνεται ένα αβίαστο ταξίδι, χάρη στους οδηγούς βήμα προς βήμα. Ας ξεκινήσουμε μαζί αυτή την περιπέτεια γνώσης!
 
@@ -48,3 +54,9 @@ url: /el/java/project-data-reading/
 Μάθετε πώς να εξάγετε συγκεκριμένα δεδομένα γραφήματος Gantt χρησιμοποιώντας το Aspose.Tasks για Java. Βήμα προς βήμα μάθημα για απρόσκοπτη ενσωμάτωση στις εφαρμογές σας Java.
 ### [Διαβάστε τα δεδομένα πίνακα από το αρχείο στο Aspose.Tasks](./read-table-data/)
 Ξεκλειδώστε τη δύναμη του Aspose.Tasks για Java. Μάθετε να εξάγετε δεδομένα πίνακα από αρχεία σε αυτό το περιεκτικό σεμινάριο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

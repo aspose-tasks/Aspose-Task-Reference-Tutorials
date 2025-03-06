@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Master Genişletilmiş Nitelik Tanımları MS Projesi
 linktitle: Aspose.Tasks'ta Genişletilmiş Nitelik Tanımlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project'te genişletilmiş öznitelik tanımlarını nasıl yöneteceğinizi öğrenin. Proje verilerinizi zahmetsizce özelleştirin ve geliştirin.
-type: docs
 weight: 14
 url: /tr/net/tasks-project-management/extended-attribute-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Master Genişletilmiş Nitelik Tanımları MS Projesi
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET kullanarak Microsoft Project'te genişletilmiş öznitelik tanımlarıyla nasıl çalışılacağını inceleyeceğiz. Genişletilmiş özellikler, proje verilerini özelleştirmek ve geliştirmek için esnek bir yol sunarak kullanıcıların varsayılan olarak sağlanan standart alanların ötesinde ek alanlar eklemesine olanak tanır. Aspose.Tasks ile proje yönetimi ihtiyaçlarınızı uyarlamak için bu genişletilmiş özellikleri zahmetsizce yönetebilirsiniz.
 ## Önkoşullar
@@ -92,3 +98,9 @@ C: Kesinlikle, tanımladığınız belirli kriterlere göre özel alanları hesa
 C: Aspose.Tasks çeşitli .NET çerçeveleriyle uyumludur, esneklik ve entegrasyon kolaylığı sağlar.
 ### S: Aspose.Tasks için daha fazla kaynağı ve desteği nerede bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) destek için ve belgeleri inceleyin[Burada](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

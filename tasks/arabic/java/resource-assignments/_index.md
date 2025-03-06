@@ -3,10 +3,16 @@ title: تعيينات الموارد
 linktitle: تعيينات الموارد
 second_title: Aspose.Tasks جافا API
 description: يمكنك إتقان Aspose.Tasks لـ Java بسهولة من خلال البرامج التعليمية لتعيين الموارد. إدارة معالجة MS Project وميزانيات المهام والتكاليف والمزيد.
-type: docs
 weight: 30
 url: /ar/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيينات الموارد
+
 
 ## مقدمة
 
@@ -101,3 +107,9 @@ url: /ar/java/resource-assignments/
 تعرف على كيفية إدارة تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي خطوة بخطوة.
 ### [إنشاء بيانات موزعة على الوقت في Aspose.Tasks](./timephased-data-generation/)
 تعرف على كيفية إنشاء بيانات موزعة على الوقت لتعيينات الموارد باستخدام Aspose.Tasks لـ Java. قم بتحسين كفاءة إدارة المشاريع باستخدام هذا الدليل الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

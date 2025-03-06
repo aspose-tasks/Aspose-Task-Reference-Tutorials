@@ -3,10 +3,16 @@ title: Cấu hình mã WBS từng bước trong Aspose.Tasks .NET
 linktitle: Định cấu hình Mặt nạ mã WBS trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá cấu hình Mặt nạ mã WBS từng bước trong các dự án .NET bằng Aspose.Tasks. Nâng cao khả năng quản lý dự án một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/view-wbs-code-configuration/wbs-code-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình mã WBS từng bước trong Aspose.Tasks .NET
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác hiệu quả dữ liệu quản lý dự án trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình định cấu hình Mặt nạ mã cấu trúc phân chia công việc (WBS) bằng cách sử dụng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá quy trình từng bước
  Có, tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/tasks/net/).
 ### Tôi có thể mua Aspose.Tasks ở đâu?
  Mua Aspose.Tasks[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

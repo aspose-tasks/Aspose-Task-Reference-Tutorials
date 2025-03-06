@@ -3,10 +3,16 @@ title: Takvimler
 linktitle: Takvimler
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks eğitimleriyle Java proje yönetimi becerilerinizi geliştirin. Takvim yönetiminde ustalaşın, hafta içi günleri oluşturun, tanımlayın ve takvimleri kolaylıkla güncelleyin.
-type: docs
 weight: 21
 url: /tr/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Takvimler
+
 ## giriiş
 
 Proje yönetimi becerilerinizi kolaylaştırmak isteyen bir Java geliştiricisi misiniz? MS Project takvimlerini yönetmenin çeşitli yönlerini kapsayan kapsamlı Aspose.Tasks eğitimlerimize göz atın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitimler yeteneklerinizi geliştirmek için adım adım rehberlik sağlar.
@@ -64,3 +70,9 @@ Aspose.Tasks'ı kullanarak Java'da standart bir MS Project takvimi oluşturmayı
 Aspose.Tasks for Java'yı kullanarak MS Project takviminden çalışma haftalarını nasıl okuyacağınızı öğrenin. Bu kapsamlı eğitimde adım adım talimatlar alın.
 ### [Aspose.Tasks ile MS Project Takvimlerini MPP Formatına Güncelleyin](./update-to-mpp/)
 Aspose.Tasks for Java'yı kullanarak MS Project takvimlerini zahmetsizce MPP formatına nasıl güncelleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

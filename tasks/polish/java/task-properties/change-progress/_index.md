@@ -3,10 +3,16 @@ title: Zmień postęp zadania w Aspose.Tasks
 linktitle: Zmień postęp zadania w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Ulepsz zarządzanie projektami Java dzięki Aspose.Tasks. Z tego samouczka krok po kroku dowiesz się, jak płynnie modyfikować postęp zadania. Pobierz teraz!
-type: docs
 weight: 12
 url: /pl/java/task-properties/change-progress/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmień postęp zadania w Aspose.Tasks
+
 ## Wstęp
 dynamicznej sferze zarządzania projektami skuteczne śledzenie postępu zadań ma kluczowe znaczenie. Aspose.Tasks dla Java wyróżnia się jako solidne rozwiązanie, upraszczające proces dzięki jego zaawansowanym funkcjom. W tym samouczku przeprowadzimy Cię przez kolejne etapy zmiany postępu zadania przy użyciu Aspose.Tasks dla Java.
 ## Warunki wstępne
@@ -63,3 +69,9 @@ Powtórz kroki dla każdego zadania, które chcesz monitorować.
  Zapoznaj się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/tasks/java/).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks dla Java?
  Odwiedzić[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

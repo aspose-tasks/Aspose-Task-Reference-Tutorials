@@ -3,10 +3,16 @@ title: Quản lý hiệu quả các thuộc tính dự án MS với Aspose.Tasks
 linktitle: Xử lý các thuộc tính tài nguyên mở rộng trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách xử lý các thuộc tính tài nguyên Microsoft Project mở rộng một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho Java. Các bước dễ dàng và hướng dẫn toàn diện.
-type: docs
 weight: 11
 url: /vi/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý hiệu quả các thuộc tính dự án MS với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách xử lý hiệu quả các thuộc tính tài nguyên Microsoft Project mở rộng bằng cách sử dụng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình, cung cấp các chức năng mở rộng để quản lý tác vụ và tài nguyên.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Có, các nhà phát triển có thể sử dụng Aspose.Tasks cho Java trên c
 Hoàn toàn có thể, Aspose.Tasks có thể được tích hợp liền mạch với các thư viện Java khác để nâng cao chức năng và hợp lý hóa các quy trình phát triển.
 ### Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
 Có, người dùng có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn Aspose.Tasks, nơi họ có thể tìm kiếm trợ giúp và tương tác với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

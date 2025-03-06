@@ -3,10 +3,16 @@ title: Aspose.Tasks में जोखिम वाली वस्तुओं
 linktitle: Aspose.Tasks में जोखिम वाली वस्तुओं के आँकड़े
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों में जोखिम विश्लेषण की शक्ति को अनलॉक करें। अंतर्दृष्टि प्राप्त करें, अनिश्चितताओं को कम करें और परियोजना को सहजता से सफलता प्रदान करें।
-type: docs
 weight: 21
 url: /hi/net/resource-risk-analysis/risk-item-statistics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में जोखिम वाली वस्तुओं के आँकड़े
+
 ## परिचय
 क्या आप .NET के लिए Aspose.Tasks का उपयोग करके अपने प्रोजेक्ट प्रबंधन कौशल को बढ़ाना चाह रहे हैं? एमएस प्रोजेक्ट फ़ाइलों में जोखिम वस्तुओं के आंकड़े प्राप्त करने पर हमारे चरण-दर-चरण ट्यूटोरियल के साथ जोखिम विश्लेषण के क्षेत्र में गहराई से उतरें। Aspose.Tasks की शक्तिशाली क्षमताओं का लाभ उठाकर, आप परियोजना अनिश्चितताओं में अमूल्य अंतर्दृष्टि प्राप्त कर सकते हैं और जोखिमों को प्रभावी ढंग से कम करने के लिए सूचित निर्णय ले सकते हैं।
 ## आवश्यक शर्तें
@@ -90,3 +96,9 @@ Console.WriteLine("Maximum: {0}", statistics.Maximum);
 निश्चित रूप से! हमारी समर्पित सहायता टीम आसानी से उपलब्ध है[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) आपकी कार्यान्वयन यात्रा के दौरान आपके सामने आने वाले किसी भी प्रश्न या चुनौती में आपकी सहायता करने के लिए।
 ### क्या आप अल्पकालिक परियोजनाओं के लिए अस्थायी लाइसेंस प्रदान करते हैं?
  हाँ, यदि आपको किसी अल्पकालिक परियोजना के लिए Aspose.Tasks की आवश्यकता है, तो आप हमारी सुविधा का लाभ उठा सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) बिना किसी दीर्घकालिक प्रतिबद्धता के आपकी लाइसेंसिंग आवश्यकताओं को पूरा करने का विकल्प।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

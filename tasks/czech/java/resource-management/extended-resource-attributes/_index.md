@@ -3,10 +3,16 @@ title: Efektivně spravujte atributy MS Project pomocí Aspose.Tasks
 linktitle: Zpracování atributů rozšířených prostředků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně zacházet s rozšířenými atributy prostředků Microsoft Project pomocí Aspose.Tasks for Java. Snadné kroky a komplexní průvodce.
-type: docs
 weight: 11
 url: /cs/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efektivně spravujte atributy MS Project pomocí Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu se ponoříme do toho, jak efektivně zacházet s rozšířenými atributy prostředků Microsoft Project pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory Microsoft Project a nabízí rozsáhlé funkce pro správu úkolů a zdrojů.
 ## Předpoklady
@@ -83,3 +89,9 @@ Ano, vývojáři mohou využívat Aspose.Tasks pro Javu na různých platformác
 Aspose.Tasks lze bez problémů integrovat s jinými knihovnami Java, aby se zlepšila funkčnost a zjednodušily vývojové procesy.
 ### Je pro uživatele Aspose.Tasks k dispozici technická podpora?
 Ano, uživatelé mají přístup k technické podpoře prostřednictvím fóra Aspose.Tasks, kde mohou vyhledat pomoc a zapojit se do komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

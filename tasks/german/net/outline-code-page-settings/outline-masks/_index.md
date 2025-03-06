@@ -3,10 +3,16 @@ title: Beherrschen von Microsoft Project-Gliederungsmasken in Aspose.Tasks
 linktitle: Arbeiten mit Umrissmasken in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET programmgesteuert mit Microsoft Project-Dateien arbeiten. Umrissmasken effizient meistern.
-type: docs
 weight: 14
 url: /de/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen von Microsoft Project-Gliederungsmasken in Aspose.Tasks
+
 ## Einführung
 Im Bereich Projektmanagement und Aufgabenverfolgung ist Microsoft Project ein Eckpfeiler-Tool. Wenn es jedoch darum geht, Projektdateien programmgesteuert zu bearbeiten und zu verwalten, erweist sich Aspose.Tasks für .NET als leistungsstarke Lösung. Dieses Tutorial befasst sich mit einem spezifischen Aspekt der Arbeit mit MS Project-Dateien mithilfe von Aspose.Tasks für .NET: dem Umgang mit Umrissmasken.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ A: Tatsächlich können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspos
  A: Natürlich! Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### F: Wo kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
  A: Wenn Sie zu Evaluierungs- oder Testzwecken eine temporäre Lizenz benötigen, können Sie eine erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

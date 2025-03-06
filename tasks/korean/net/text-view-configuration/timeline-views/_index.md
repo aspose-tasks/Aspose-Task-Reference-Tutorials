@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 프로젝트 타임라인 뷰 마스터하기
 linktitle: Aspose.Tasks에서 타임라인 보기 사용자 정의
 second_title: Aspose.태스크 .NET API
 description: 타임라인 보기 사용자 정의에 대한 .NET용 Aspose.Tasks를 마스터하세요. 프로젝트 요구 사항에 맞춰 시각적으로 매력적인 타임라인을 통해 프로젝트 관리를 강화하세요.
-type: docs
 weight: 13
 url: /ko/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 프로젝트 타임라인 뷰 마스터하기
+
 ## 소개
 효과적인 프로젝트 관리를 위해서는 시각적으로 매력적이고 유익한 타임라인 보기를 만드는 것이 중요합니다. Aspose.Tasks for .NET은 타임라인 보기를 사용자 정의하기 위한 강력한 솔루션을 제공하여 프로젝트의 특정 요구 사항에 따라 작업 표시를 맞춤화할 수 있습니다. 이 단계별 가이드에서는 Aspose.Tasks를 사용하여 타임라인 뷰를 쉽게 만들고 사용자 지정하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -76,3 +82,9 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 임시 라이선스는 어떻게 얻나요?
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

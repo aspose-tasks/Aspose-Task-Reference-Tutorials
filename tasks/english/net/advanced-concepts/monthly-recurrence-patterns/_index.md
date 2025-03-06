@@ -3,10 +3,16 @@ title: Handling Monthly Recurrence Patterns in Aspose.Tasks
 linktitle: Handling Monthly Recurrence Patterns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle monthly recurrence patterns in Aspose.Tasks for .NET with this step-by-step tutorial.
-type: docs
 weight: 18
 url: /net/advanced-concepts/monthly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Monthly Recurrence Patterns in Aspose.Tasks
+
 ## Introduction
 
 Aspose.Tasks for .NET is a powerful API that allows developers to manipulate Microsoft Project files programmatically. One of the essential functionalities it offers is the ability to handle recurring tasks efficiently. In this tutorial, we'll delve into how to work with monthly recurrence patterns using Aspose.Tasks, step by step.
@@ -94,3 +100,10 @@ A4: You can seek assistance and participate in discussions on the [Aspose.Tasks 
 ### Q5: Where can I purchase a license for Aspose.Tasks?
 
 A5: You can purchase a license for Aspose.Tasks from the website [here](https://purchase.aspose.com/buy)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

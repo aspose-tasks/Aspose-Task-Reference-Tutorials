@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Grup Tanımı Verilerini Okuyun
 linktitle: Aspose.Tasks'ta Grup Tanımı Verilerini Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak Microsoft Project dosyalarından grup tanımı verilerini nasıl okuyacağınızı öğrenin. Adım adım eğitimimizi takip edin.
-type: docs
 weight: 10
 url: /tr/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Grup Tanımı Verilerini Okuyun
+
 ## giriiş
 Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarını kolaylıkla yönetmelerine olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, Aspose.Tasks for Java'yı kullanarak bir proje dosyasından grup tanımı verilerini adım adım okuma sürecini anlatacağız.
 ## Önkoşullar
@@ -79,3 +85,9 @@ C: Dosya manipülasyonu sırasında oluşabilecek istisnaları düzgün bir şek
 C: Evet, Aspose.Tasks for Java, proje verilerini PDF, XLSX ve CSV gibi formatlara aktarmanıza olanak tanır.
 ### S: Aspose.Tasks for Java için ek kaynakları ve desteği nerede bulabilirim?
  C: Ziyaret edebilirsiniz[Java belgeleri için Aspose.Tasks](https://reference.aspose.com/tasks/java/) kapsamlı kılavuzlar için bkz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

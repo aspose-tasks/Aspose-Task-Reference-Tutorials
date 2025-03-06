@@ -3,10 +3,16 @@ title: Aspose.Tasks の MS Project リソース ビュー列をカスタマイ�
 linktitle: Aspose.Tasks のリソース ビュー列のカスタマイズ
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project リソース ビューの列を効率的にカスタマイズする方法を学びます。プロジェクト管理を改善するためにカスタマイズされたビューを作成します。
-type: docs
 weight: 17
 url: /ja/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks の MS Project リソース ビュー列をカスタマイズする
+
 ## 導入
 Aspose.Tasks for .NET は、開発者がプログラムで Microsoft Project ファイルを操作できるようにする強力な API です。プロジェクト管理における一般的なタスクの 1 つは、ビューをカスタマイズして特定の情報を表示することです。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project のリソース ビュー列をカスタマイズする方法を説明します。
 ## 前提条件
@@ -94,3 +100,9 @@ MS Project のリソース ビュー列のカスタマイズは、プロジェ�
 はい、基礎となるプロジェクト データが変更されるたびに、カスタム ビューを更新して再生成できます。
 ### Aspose.Tasks はクロスプラットフォーム開発をサポートしていますか?
 Aspose.Tasks for .NET は主に .NET プラットフォームをターゲットとしていますが、Java やその他のプラットフォームで利用できるバージョンもあります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

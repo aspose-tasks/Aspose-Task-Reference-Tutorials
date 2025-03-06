@@ -3,10 +3,16 @@ title: Verwerk uitgebreide attributen in Aspose.Tasks-projecten
 linktitle: Verwerk uitgebreide attributen in Aspose.Tasks-projecten
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u efficiënt omgaat met uitgebreide attributen in Aspose.Tasks-projecten met behulp van Java. Stap-voor-stap handleiding voor effectief projectmanagement.
-type: docs
 weight: 13
 url: /nl/java/project-management/extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwerk uitgebreide attributen in Aspose.Tasks-projecten
+
 ## Invoering
 Het beheren van uitgebreide attributen in projectmanagement is cruciaal voor het aanpassen en verbeteren van projectgegevens. Aspose.Tasks voor Java biedt robuuste tools om uitgebreide attributen in MS Project-bestanden efficiënt te verwerken. Deze tutorial begeleidt u stap voor stap door het proces, zodat u elk concept grondig begrijpt.
 ## Vereisten
@@ -86,3 +92,9 @@ A: Absoluut, met Aspose.Tasks kunt u aangepaste uitgebreide attribuuttypen defin
  A: U kunt uitgebreide documentatie vinden op de Aspose.Tasks-website[documentatie](https://reference.aspose.com/tasks/java/).
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
  A: Ja, u kunt toegang krijgen tot technische ondersteuning via het Aspose.Tasks-forum[website](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

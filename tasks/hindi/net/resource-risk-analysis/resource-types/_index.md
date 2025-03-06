@@ -3,10 +3,16 @@ title: Aspose.Tasks में संसाधनों के प्रकार
 linktitle: Aspose.Tasks में संसाधनों के प्रकार
 second_title: Aspose.Tasks .NET API
 description: चरण-दर-चरण ट्यूटोरियल के माध्यम से सीखें कि .NET के लिए Aspose.Tasks में कार्य, सामग्री और लागत संसाधनों सहित विभिन्न प्रकार के संसाधनों के साथ कैसे काम किया जाए।
-type: docs
 weight: 14
 url: /hi/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में संसाधनों के प्रकार
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। चाहे आप कार्यों, संसाधनों, या शेड्यूल का प्रबंधन कर रहे हों, Aspose.Tasks एपीआई का एक व्यापक सेट प्रदान करके प्रक्रिया को सरल बनाता है। इस ट्यूटोरियल में, हम विभिन्न प्रकार के संसाधनों के बारे में विस्तार से जानेंगे जिनका उपयोग आप .NET के लिए Aspose.Tasks का उपयोग करके अपने प्रोजेक्ट में कर सकते हैं।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ cost.Set(Rsc.Cost, 59.99m);
  उत्तर: हां, आप अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: क्या .NET के लिए Aspose.Tasks संदर्भ के लिए दस्तावेज़ प्रदान करता है?
  उत्तर: हाँ, आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

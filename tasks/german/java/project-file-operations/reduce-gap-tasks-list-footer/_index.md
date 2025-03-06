@@ -3,10 +3,16 @@ title: Reduzierung der Lücke zwischen Aufgabenliste und Fußzeile in Aspose.Tas
 linktitle: Reduzierung der Lücke zwischen Aufgabenliste und Fußzeile in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java die Lücke zwischen MS Project-Aufgabenlisten und Fußzeilen verringern. Optimieren Sie mühelos das Layout von Projektdokumenten.
-type: docs
 weight: 10
 url: /de/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reduzierung der Lücke zwischen Aufgabenliste und Fußzeile in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial befassen wir uns mit der Reduzierung der Lücke zwischen der Aufgabenliste und der Fußzeile in Microsoft Project-Dateien mithilfe von Aspose.Tasks für Java. Wenn Sie diese Schritte befolgen, können Sie das Layout Ihrer Projektdokumente mühelos optimieren.
 ## Voraussetzungen
@@ -105,3 +111,9 @@ A: Ja, Aspose.Tasks unterstützt eine Vielzahl von Formaten, darunter unter ande
 ### F: Wo kann ich Unterstützung erhalten, wenn bei der Verwendung von Aspose.Tasks Probleme auftreten?
 
  A: Sie können Hilfe vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bộ sưu tập các đối tượng OLE trong Aspose.Tasks
 linktitle: Bộ sưu tập các đối tượng OLE trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các đối tượng OLE trong Aspose.Tasks cho .NET với hướng dẫn toàn diện này. Nắm vững cách xử lý các tệp nhúng trong tài liệu dự án một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các đối tượng OLE trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc quản lý các đối tượng OLE (Liên kết và nhúng đối tượng) trong Aspose.Tasks cho .NET. Đối tượng OLE cho phép người dùng nhúng hoặc liên kết các tệp từ các ứng dụng khác trong tệp dự án. Chúng tôi sẽ trình bày cách làm việc với tập hợp các đối tượng này theo từng bước.
@@ -97,3 +103,9 @@ Câu trả lời 3: Mặc dù kiến thức cơ bản về C# được khuyến 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm kiếm sự hỗ trợ và đặt câu hỏi trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

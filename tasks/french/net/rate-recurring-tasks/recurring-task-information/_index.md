@@ -3,10 +3,16 @@ title: Extraction des informations sur les tâches récurrentes dans Aspose.Task
 linktitle: Extraction des informations sur les tâches récurrentes dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment extraire des informations sur les tâches récurrentes à partir de fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Intégration facile pour les développeurs .NET.
-type: docs
 weight: 13
 url: /fr/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraction des informations sur les tâches récurrentes dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft Project dans leurs applications .NET. Dans ce didacticiel, nous explorerons comment extraire des informations sur les tâches récurrentes à partir de fichiers MS Project à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -62,3 +68,9 @@ R : Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet tels 
  R : Vous pouvez trouver la documentation[ici](https://reference.aspose.com/tasks/net/).
 ### Q : Comment puis-je obtenir une assistance technique pour Aspose.Tasks pour .NET ?
  R : Vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

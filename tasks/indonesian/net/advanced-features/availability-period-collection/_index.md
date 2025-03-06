@@ -3,10 +3,16 @@ title: Kumpulan Periode Ketersediaan di Aspose.Tasks
 linktitle: Kumpulan Periode Ketersediaan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola periode ketersediaan sumber daya di Aspose.Tasks untuk .NET. Tutorial langkah demi langkah ini memandu Anda dalam menambahkan, memperbarui, dan menghapus periode ketersediaan, memastikan perencanaan sumber daya proyek yang efektif.
-type: docs
 weight: 18
 url: /id/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Periode Ketersediaan di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara bekerja dengan kumpulan periode ketersediaan sumber daya di Aspose.Tasks untuk .NET. Mengelola periode ketersediaan sangat penting untuk manajemen proyek, memungkinkan kita menentukan kapan sumber daya tersedia untuk tugas-tugas dalam suatu proyek.
@@ -148,3 +154,9 @@ A4: Aspose.Tasks untuk .NET tidak menyediakan mekanisme bawaan untuk menangani p
 ### Q5: Apakah ada batasan jumlah periode ketersediaan yang dimiliki suatu sumber daya?
 
 A5: Tidak ada batasan yang ditentukan sebelumnya mengenai jumlah periode ketersediaan sumber daya, namun kinerja dapat menurun seiring dengan banyaknya periode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

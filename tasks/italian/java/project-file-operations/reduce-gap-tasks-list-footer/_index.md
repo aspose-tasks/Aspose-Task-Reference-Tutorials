@@ -3,10 +3,16 @@ title: Ridurre il divario tra l'elenco delle attività e il piè di pagina in As
 linktitle: Ridurre il divario tra l'elenco delle attività e il piè di pagina in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Scopri come ridurre il divario tra gli elenchi di attività e i piè di pagina di MS Project utilizzando Aspose.Tasks per Java. Ottimizza il layout del documento di progetto senza sforzo.
-type: docs
 weight: 10
 url: /it/java/project-file-operations/reduce-gap-tasks-list-footer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ridurre il divario tra l'elenco delle attività e il piè di pagina in Aspose.Tasks
+
 ## introduzione
 In questo tutorial, approfondiremo la riduzione del divario tra l'elenco delle attività e il piè di pagina nei file di Microsoft Project utilizzando Aspose.Tasks per Java. Seguendo questi passaggi, sarai in grado di ottimizzare il layout dei documenti del tuo progetto senza sforzo.
 ## Prerequisiti
@@ -105,3 +111,9 @@ R: Sì, Aspose.Tasks supporta un'ampia gamma di formati, tra cui XLSX, XML e MPP
 ### D: Dove posso ottenere supporto se riscontro problemi durante l'utilizzo di Aspose.Tasks?
 
  R: Puoi ottenere assistenza dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

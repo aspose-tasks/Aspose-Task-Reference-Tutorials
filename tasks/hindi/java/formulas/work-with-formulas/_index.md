@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.Tasks के साथ एमएस 
 linktitle: Aspose.Tasks में सूत्रों के साथ कार्य करें
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks लाइब्रेरी का उपयोग करके जावा में MS प्रोजेक्ट फ़ाइलों में हेरफेर करना सीखें। आसानी से विशेषताएँ बनाएं, संशोधित करें और गणना करें।
-type: docs
 weight: 11
 url: /hi/java/formulas/work-with-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.Tasks के साथ एमएस प्रोजेक्ट सूत्र
+
 ## परिचय
 इस ट्यूटोरियल में, हम Java के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ॉर्मूले के साथ काम करने के बारे में विस्तार से जानेंगे। Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने में सक्षम बनाती है। इसकी व्यापक विशेषताओं के साथ, आप जावा अनुप्रयोगों में प्रोजेक्ट फ़ाइलों को आसानी से बना सकते हैं, पढ़ सकते हैं, संशोधित कर सकते हैं और परिवर्तित कर सकते हैं।
 ## आवश्यक शर्तें
@@ -64,3 +70,9 @@ project.save("SaveFile.mpp", SaveFileFormat.Mpp);
  उत्तर: सहायता के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: क्या मुझे Aspose.Tasks का उपयोग करने के लिए अस्थायी लाइसेंस की आवश्यकता है?
 उ: यदि आपको अतिरिक्त सुविधाओं की आवश्यकता है, तो आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: บันทึกตัวเลือกโครงการ MS Primav
 linktitle: Primavera บันทึกตัวเลือกสำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ค้นพบวิธีบันทึกตัวเลือก MS Project สำหรับ Primavera ได้อย่างราบรื่นโดยใช้ Aspose.Tasks สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 14
 url: /th/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกตัวเลือกโครงการ MS Primavera ด้วย Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ในแอปพลิเคชัน .NET ของตนได้อย่างราบรื่น หนึ่งในฟังก์ชันหลักที่มีให้คือความสามารถในการบันทึกตัวเลือก MS Project สำหรับ Primavera ซึ่งเป็นซอฟต์แวร์การจัดการโครงการยอดนิยม ในบทช่วยสอนนี้ เราจะเจาะลึกถึงวิธีการบรรลุเป้าหมายนี้โดยใช้ Aspose.Tasks
 ## ข้อกำหนดเบื้องต้น
@@ -59,3 +65,9 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
  ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติและความสามารถของมัน
 ### ถาม: ฉันจะรับการสนับสนุนได้ที่ไหนหากฉันประสบปัญหาหรือมีคำถามขณะใช้งาน Aspose.Tasks
  ตอบ: คุณสามารถขอความช่วยเหลือจากชุมชน Aspose.Tasks และทีมสนับสนุนได้ที่[ฟอรั่ม](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

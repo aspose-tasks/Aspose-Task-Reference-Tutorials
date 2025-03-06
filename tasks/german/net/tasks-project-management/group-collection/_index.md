@@ -3,10 +3,16 @@ title: Verwalten von Projektsammlungen in Aspose.Tasks
 linktitle: Gruppensammlung in Aspose.Tasks verwalten
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Sammlungen mit Aspose.Tasks für .NET effizient verwalten. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 26
 url: /de/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von Projektsammlungen in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie MS Project-Gruppensammlungen mit Aspose.Tasks für .NET verwalten. Die Verwaltung von Gruppensammlungen ist für die effiziente Organisation und Bearbeitung von Aufgaben und Ressourcen in Ihrem Projekt von entscheidender Bedeutung.
 ## Voraussetzungen
@@ -108,3 +114,9 @@ Aspose.Tasks für .NET zielt hauptsächlich auf das .NET-Framework ab, kann jedo
  Unterstützung für Aspose.Tasks für .NET erhalten Sie über die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
 ### Gibt es eine Testversion für Aspose.Tasks für .NET?
  Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET herunterladen[Webseite](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

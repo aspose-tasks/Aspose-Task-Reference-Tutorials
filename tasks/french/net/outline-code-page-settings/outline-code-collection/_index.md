@@ -3,10 +3,16 @@ title: Collection MS Project de codes hiérarchiques dans Aspose.Tasks
 linktitle: Collection de codes hiérarchiques dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment collecter les codes hiérarchiques Microsoft Project à l’aide d’Aspose.Tasks pour .NET. Ce didacticiel complet fournit des instructions étape par étape.
-type: docs
 weight: 11
 url: /fr/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection MS Project de codes hiérarchiques dans Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment collecter les codes hiérarchiques Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Nous décomposerons le processus en instructions étape par étape pour garantir la clarté et la compréhension.
 ## Conditions préalables
@@ -95,3 +101,9 @@ R : Oui, Aspose.Tasks for .NET prend en charge différentes versions de Microsof
 : Absolument, Aspose.Tasks pour .NET offre de nombreuses options pour personnaliser le format de sortie en fonction de vos besoins.
 ### Q : Où puis-je trouver une assistance ou des ressources supplémentaires pour Aspose.Tasks pour .NET ?
  R : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour toute assistance ou question concernant Aspose.Tasks pour .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

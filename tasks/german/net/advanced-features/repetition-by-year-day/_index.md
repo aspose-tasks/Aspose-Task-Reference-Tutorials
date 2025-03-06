@@ -3,10 +3,16 @@ title: Wiederholung nach Jahrestag in Aspose.Tasks
 linktitle: Wiederholung nach Jahrestag in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Tasks für .NET mit Jahrestagswiederholungen umgehen, um die Verwaltung wiederkehrender Aufgaben effizient zu optimieren.
-type: docs
 weight: 27
 url: /de/net/advanced-features/repetition-by-year-day/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wiederholung nach Jahrestag in Aspose.Tasks
+
 ## Einführung
 
 Im Bereich des Projektmanagements spielen eine effiziente Aufgabenplanung und -wiederholung eine entscheidende Rolle, um eine pünktliche Ausführung und einen reibungslosen Arbeitsablauf sicherzustellen. Aspose.Tasks für .NET bietet Entwicklern eine robuste Lösung, mit der sie wiederkehrende Aufgaben in ihren Anwendungen mühelos erledigen können. In diesem Tutorial befassen wir uns mit den Feinheiten der Arbeit mit Jahreswiederholungen mithilfe von Aspose.Tasks und bieten eine umfassende Anleitung zum Erstellen wiederkehrender Aufgaben auf der Grundlage jährlicher Muster.
@@ -109,3 +115,9 @@ A4: Natürlich bietet Aspose.Tasks robuste APIs zur dynamischen Bearbeitung von 
 ### F5: Ist Aspose.Tasks sowohl für kleine als auch für Unternehmensprojekte geeignet?
 
 A5: Tatsächlich ist Aspose.Tasks so konzipiert, dass es den Bedürfnissen von Entwicklern gerecht wird, die an Projekten aller Größenordnungen arbeiten, von Einzelaufgaben bis hin zu großen Unternehmensprojekten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

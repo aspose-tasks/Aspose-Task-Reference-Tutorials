@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中管理 VBA 模組
 linktitle: 在 Aspose.Tasks 中管理 VBA 模組
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 輕鬆管理 Microsoft Project 檔案中的 VBA 模組。探索逐步指導並增強您的開發工作流程。
-type: docs
 weight: 10
 url: /zh-hant/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中管理 VBA 模組
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中使用 Microsoft Project 檔案。 Aspose.Tasks 的主要功能之一是它能夠管理專案檔案中的 VBA（Visual Basic for Applications）模組。在本教程中，我們將在逐步指南中深入研究使用 Aspose.Tasks 管理 VBA 模組的過程。
 ## 先決條件
@@ -74,3 +80,9 @@ foreach (var module in project.VbaProject.Modules)
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### 對於與 Aspose.Tasks 相關的任何問題，我該如何獲得支援或尋求協助？
 請隨時訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

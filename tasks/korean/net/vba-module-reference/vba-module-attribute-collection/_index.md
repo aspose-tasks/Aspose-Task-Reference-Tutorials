@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 VBA 모듈 속성 마스터하기
 linktitle: Aspose.Tasks의 VBA 모듈 속성 컬렉션
 second_title: Aspose.태스크 .NET API
 description: VBA 모듈 속성 관리에서 .NET용 Aspose.Tasks의 강력한 기능을 살펴보세요. .NET 프로젝트를 손쉽게 향상하세요. 지금 다운로드하세요! #Aspose #작업 #MS 프로젝트
-type: docs
 weight: 12
 url: /ko/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 VBA 모듈 속성 마스터하기
+
 ## 소개
 .NET용 Aspose.Tasks의 세계에 오신 것을 환영합니다! 프로젝트에서 Aspose.Tasks for .NET의 강력한 기능을 활용하려는 개발자라면 잘 찾아오셨습니다. 이 튜토리얼에서는 VBA 모듈 속성 작업의 복잡성을 자세히 살펴보고 이를 .NET 애플리케이션에서 효과적으로 활용하는 방법에 대한 단계별 가이드를 제공합니다.
 ## 전제조건
@@ -63,3 +69,9 @@ foreach (var attribute in module.Attributes)
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

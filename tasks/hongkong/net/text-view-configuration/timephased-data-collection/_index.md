@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks 中的時間分段資料收集
 linktitle: Aspose.Tasks 中時間分段資料的收集
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 中的時間分段資料收集。逐步指南、常見問題等。立即增強您的專案管理能力！
-type: docs
 weight: 15
 url: /zh-hant/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks 中的時間分段資料收集
+
 ## 介紹
 您是否希望使用 Aspose.Tasks 在 .NET 應用程式中利用時間分段資料的強大功能？別再猶豫了！這個綜合指南將引導您完成使用 Aspose.Tasks for .NET 收集時間分段資料的過程，確保您充分利用這個強大的函式庫。
 ## 先決條件
@@ -121,3 +127,9 @@ Aspose.Tasks可以處理不同規模的項目，並且對資源和任務的數�
 是的，您可以透過造訪 Aspose.Tasks for .NET 來探索 Aspose.Tasks for .NET 的功能[免費試用](https://releases.aspose.com/).
 ### 在哪裡可以購買 Aspose.Tasks for .NET 的授權？
 您可以購買 Aspose.Tasks for .NET 的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

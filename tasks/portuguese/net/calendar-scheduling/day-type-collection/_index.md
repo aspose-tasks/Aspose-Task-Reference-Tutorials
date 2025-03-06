@@ -3,10 +3,16 @@ title: Gerenciando coleção de tipo de dia em Aspose.Tasks
 linktitle: Gerenciando coleção de tipo de dia em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como gerenciar coleções de tipos de dia com eficiência em Aspose.Tasks for .NET. Crie, modifique e manipule exceções de calendário com facilidade.
-type: docs
 weight: 28
 url: /pt/net/calendar-scheduling/day-type-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciando coleção de tipo de dia em Aspose.Tasks
+
 ## Introdução
 
  Aspose.Tasks for .NET fornece funcionalidade robusta para gerenciar coleções de tipos de dias, cruciais para definir exceções de calendário semanais em aplicativos de gerenciamento de projetos. Neste tutorial, exploraremos como utilizar o`DayTypeCollection` aula de forma eficiente. 
@@ -141,3 +147,9 @@ A2: Sim, Aspose.Tasks for .NET oferece suporte a .NET Core e .NET Framework.
 ### Q5: Posso adquirir uma licença temporária para Aspose.Tasks for .NET?
 
  R5: Sim, licenças temporárias estão disponíveis para compra no[Aspor site](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

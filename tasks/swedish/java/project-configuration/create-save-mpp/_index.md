@@ -3,10 +3,16 @@ title: Skapa och spara tomt projekt i MPP-format med Aspose.Tasks
 linktitle: Skapa och spara tomt projekt i MPP-format med Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du skapar och sparar en tom MS Project-fil (MPP) med Aspose.Tasks för Java. Förenkla projektledningsuppgifter utan ansträngning.
-type: docs
 weight: 12
 url: /sv/java/project-configuration/create-save-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa och spara tomt projekt i MPP-format med Aspose.Tasks
+
 ## Introduktion
 Att skapa och spara en tom MS Project-fil (MPP) med Aspose.Tasks för Java är en enkel process. I den här självstudien går vi igenom varje steg för att hjälpa dig att utföra denna uppgift effektivt.
 ## Förutsättningar
@@ -61,3 +67,9 @@ S: Absolut, Aspose.Tasks för Java erbjuder omfattande möjligheter att anpassa 
 S: Ja, Aspose.Tasks för Java stöder olika projektfilformat inklusive XML, CSV och mer.
 ### F: Var kan jag hitta ytterligare stöd för Aspose.Tasks för Java?
  S: Du kan besöka Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15) för Java-specifik support och hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

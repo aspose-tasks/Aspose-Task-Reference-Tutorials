@@ -3,10 +3,16 @@ title: Hantera MS Project Calendar Properties i Aspose.Tasks
 linktitle: Hantera kalenderegenskaper i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar MS Project-kalenderegenskaper i Java med Aspose.Tasks. Detta ger steg-för-steg-vägledning för kalender i dina Java-applikationer.
-type: docs
 weight: 10
 url: /sv/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Calendar Properties i Aspose.Tasks
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur man hanterar MS Project-kalenderegenskaper med Aspose.Tasks för Java. Genom att förstå hur man manipulerar kalenderegenskaper kan du skräddarsy projektscheman för att möta specifika krav effektivt.
 ## Förutsättningar
@@ -71,3 +77,9 @@ A: Absolut! Du kan sömlöst integrera Aspose.Tasks kalenderhanteringsfunktioner
 S: Ja, Aspose.Tasks erbjuder ett brett utbud av funktioner för att hantera uppgifter, resurser och projektstrukturer, vilket gör det till en heltäckande lösning för projektledning i Java.
 ### F: Finns teknisk support tillgänglig för utvecklare som använder Aspose.Tasks?
 S: Ja, utvecklare kan få tillgång till teknisk support via Aspose.Tasks-forumet, vilket garanterar hjälp med alla frågor eller problem som uppstår under implementeringen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

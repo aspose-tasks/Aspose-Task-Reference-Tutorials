@@ -3,10 +3,16 @@ title: Manajemen proyek
 linktitle: Manajemen proyek
 second_title: Aspose.Tugas Java API
 description: Jelajahi Aspose.Tasks Java dengan tutorial manajemen proyek komprehensif kami. Dari penghitungan jalur kritis hingga properti tahun fiskal, sederhanakan alur kerja Anda.
-type: docs
 weight: 27
 url: /id/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen proyek
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan manajemen proyek Anda menggunakan Aspose.Tasks untuk Java? Selami tutorial eksklusif kami yang mencakup spektrum fitur dan fungsi yang akan memberdayakan perjalanan pengembangan Java Anda. Dari penghitungan jalur kritis hingga menangani pengecualian penulisan tugas selama pencetakan, kami siap membantu Anda. Mari jelajahi kekayaan ilmu yang menanti Anda.
@@ -69,3 +75,9 @@ Pelajari cara membaca file MS Project dari Primavera XML dengan lancar menggunak
 Pelajari cara mencetak halaman untuk memisahkan gambar di Aspose.Tasks untuk Java. Tingkatkan visualisasi proyek dengan panduan langkah demi langkah ini.
 ### [Menangani Pengecualian Penulisan Tugas selama Pencetakan di Aspose.Tasks](./print-task-exceptions/)
 Master penanganan pengecualian di Aspose.Tasks untuk Java untuk memastikan pelaksanaan proyek yang lancar. Pelajari cara menangani pengecualian penulisan tugas selama pencetakan dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

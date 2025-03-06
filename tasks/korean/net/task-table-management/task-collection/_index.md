@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 컬렉션 관리
 linktitle: Aspose.Tasks에서 작업 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 효율적인 작업 컬렉션 관리를 살펴보세요. 생성부터 편집까지 마스터 프로젝트 관리를 쉽게 수행하세요.
-type: docs
 weight: 18
 url: /ko/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 컬렉션 관리
+
 ## 소개
 .NET을 사용하여 프로젝트 관리의 세계를 탐구하고 있다면 Aspose.Tasks는 작업 컬렉션을 원활하게 처리하기 위한 솔루션입니다. 이 튜토리얼은 작업 컬렉션을 효율적으로 관리하는 프로세스를 안내하여 이 강력한 라이브러리를 최대한 활용할 수 있도록 합니다.
 ## 전제조건
@@ -95,3 +101,9 @@ foreach (var task in tasks)
  예, 다음에서 지원을 받고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks에 대한 임시 라이선스를 얻을 수 있나요?
  네, 임시면허증을 받으실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET을 사용한 간편한 MS 프로젝트 뷰 관리
 linktitle: Aspose.Tasks의 뷰 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 탐색하고 MS 프로젝트 뷰를 쉽게 관리하는 기술을 익히십시오. 원활한 프로젝트 관리 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 11
 url: /ko/net/view-wbs-code-configuration/view-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET을 사용한 간편한 MS 프로젝트 뷰 관리
+
 ## 소개
 개발자가 .NET 애플리케이션에서 Microsoft 프로젝트 뷰를 효율적으로 관리할 수 있도록 지원하는 강력한 라이브러리인 Aspose.Tasks for .NET의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 MS 프로젝트 뷰를 처리하는 필수 사항을 조사하고 프로젝트 관리 기능을 향상시키기 위한 단계별 가이드를 제공합니다.
 ## 전제조건
@@ -95,3 +101,9 @@ Aspose.Tasks는 다양한 .NET Framework 버전과 호환되도록 설계되었�
  Aspose.Tasks 커뮤니티에 참여하세요.[법정](https://forum.aspose.com/c/tasks/15) 문의사항이나 도움이 필요하시면
 ### Aspose.Tasks에 임시 라이선스를 사용할 수 있나요?
  예, 임시 라이선스를 살펴보세요[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

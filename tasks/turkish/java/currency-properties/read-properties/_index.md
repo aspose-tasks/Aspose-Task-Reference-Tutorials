@@ -3,10 +3,16 @@ title: Aspose.Tasks Projelerinde Para Birimi Özelliklerini Okuyun
 linktitle: Aspose.Tasks Projelerinde Para Birimi Özelliklerini Okuyun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project dosyalarından para birimi bilgilerini nasıl çıkaracağınızı öğrenin. Adım adım kılavuz sağlanmıştır.
-type: docs
 weight: 10
 url: /tr/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Projelerinde Para Birimi Özelliklerini Okuyun
+
 ## giriiş
 Bu eğitimde, Microsoft Project dosyalarından para birimi özelliklerini okumak için Aspose.Tasks for Java'yı nasıl kullanacağımızı öğreneceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project belgelerini değiştirmesine olanak tanıyan güçlü bir Java API'sidir. Aşağıda özetlenen adımları izleyerek para birimiyle ilgili bilgileri zahmetsizce çıkarabileceksiniz.
 ## Önkoşullar
@@ -57,3 +63,9 @@ C: Evet, Aspose.Tasks, MS Project dosyalarındaki para birimi özelliklerini pro
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nereden yardım veya destek alabilirim?
  C: Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15) herhangi bir yardım veya sorularınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

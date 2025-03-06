@@ -3,10 +3,16 @@ title: Obsługuj cyfry walut za pomocą Aspose.Tasks
 linktitle: Obsługuj cyfry walut za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie obsługiwać cyfry walutowe MS Project przy użyciu Aspose.Tasks dla Java. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 11
 url: /pl/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługuj cyfry walut za pomocą Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym obszernym samouczku dotyczącym obsługi cyfr walut MS Project przy użyciu Aspose.Tasks dla Java. W tym samouczku przeprowadzimy Cię przez proces krok po kroku, upewniając się, że dokładnie rozumiesz każdą koncepcję.
 ## Warunki wstępne
@@ -56,3 +62,9 @@ Tak, możesz używać Aspose.Tasks dla Java na różnych platformach obsługują
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Tasks?
  Wsparcie znajdziesz na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

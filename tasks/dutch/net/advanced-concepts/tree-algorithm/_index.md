@@ -3,10 +3,16 @@ title: Boomalgoritme gebruiken in Aspose.Tasks
 linktitle: Boomalgoritme gebruiken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u taakhiërarchieën in uw .NET-projecten effectief kunt manipuleren met behulp van het Tree Algorithm van Aspose.Tasks.
-type: docs
 weight: 13
 url: /nl/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Boomalgoritme gebruiken in Aspose.Tasks
+
 ## Invoering
 
 Aspose.Tasks voor .NET biedt krachtige functionaliteiten voor het werken met projectmanagementtaken, bronnen en planningen. Eén zo'n functie is het Tree Algorithm, waarmee gebruikers taakhiërarchieën efficiënt kunnen manipuleren. In deze zelfstudie onderzoeken we hoe u het Tree-algoritme in Aspose.Tasks voor .NET kunt gebruiken om algemeen werk te verzamelen en werkwaarden binnen een project bij te werken.
@@ -115,3 +121,9 @@ A1: Aspose.Tasks voor .NET is een krachtige API waarmee ontwikkelaars Microsoft 
 ### Vraag 5: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?
 
  A5: Ja, u kunt een tijdelijke licentie voor testdoeleinden verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

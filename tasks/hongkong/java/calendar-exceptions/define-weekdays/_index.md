@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 定義日曆異常的工作日
 linktitle: 使用 Aspose.Tasks 定義日曆異常的工作日
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 定義 Java 專案中日曆異常的工作日，以實現準確的專案排程。
-type: docs
 weight: 11
 url: /zh-hant/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 定義日曆異常的工作日
+
 ### 介紹
 在專案管理中，定義日曆的例外情況對於準確表示專案時間表內的非標準工作日或假期至關重要。 Aspose.Tasks for Java 提供了強大的功能來有效管理行事曆，包括定義假期或特殊工作日等例外情況。在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 定義日曆異常的工作日。
 ### 先決條件
@@ -68,3 +74,10 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 答：您可以使用 Aspose.Tasks for Java 提供的廣泛 API，根據動態專案需求以程式設計方式處理例外狀況。
 ### Q：Aspose.Tasks for Java 有試用版嗎？
 答：是的，您可以從 Aspose.Tasks for Java 取得免費試用版[網站](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

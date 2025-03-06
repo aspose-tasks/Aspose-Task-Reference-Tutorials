@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS Project PDF 暗号化の詳細を構成する
 linktitle: Aspose.Tasks での PDF 暗号化の詳細の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で MS Project PDF 暗号化の詳細を構成する方法を学びます。ユーザーと所有者のパスワードを使用してプロジェクト ファイルを保護します。
-type: docs
 weight: 11
 url: /ja/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS Project PDF 暗号化の詳細を構成する
+
 ## 導入
 .NET 開発の世界では、タスクを効率的に管理することが非常に重要です。 Aspose.Tasks for .NET は、Microsoft Project ファイルを操作するための包括的なツール セットを提供することで、このプロセスを簡素化します。タスク管理の重要な側面の 1 つは、プロジェクトの機密情報のセキュリティを確保することです。このチュートリアルでは、Aspose.Tasks for .NET を使用した MS Project PDF 暗号化の詳細の構成について詳しく説明します。
 ## 前提条件
@@ -68,3 +74,9 @@ A: いいえ、PDF が暗号化されて保存されると、暗号化の詳細�
 A: Aspose.Tasks によって課される特定の制限はありませんが、セキュリティを強化するために強力なパスワードを使用することをお勧めします。
 ### Q: 暗号化された PDF をプログラムで復号化できますか?
 A: Aspose.Tasks は、暗号化された PDF を操作するための API を提供し、適切な資格情報を使用して復号化できるようにします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

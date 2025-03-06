@@ -3,10 +3,16 @@ title: Dominar el manejo de referencias de VBA una guía paso a paso
 linktitle: Manejo de referencias de VBA en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore el poder de manejar referencias de VBA en Aspose.Tasks .NET con nuestro tutorial completo. Aprenda a leer, comparar y trabajar con referencias de VBA sin problemas.
-type: docs
 weight: 15
 url: /es/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar el manejo de referencias de VBA una guía paso a paso
+
 ## Introducción
 Si está sumergiéndose en Aspose.Tasks para .NET y desea explorar las complejidades del manejo de referencias de VBA, está en el lugar correcto. Esta guía paso a paso lo guiará a través del proceso de lectura, verificación de igualdad, obtención de códigos hash y trabajo con la colección de referencia de VBA utilizando Aspose.Tasks.
 ## Requisitos previos
@@ -79,3 +85,9 @@ R: Aspose.Tasks admite principalmente lenguajes .NET, pero existen otros product
  R: La documentación está disponible.[aquí](https://reference.aspose.com/tasks/net/).
 ### P: ¿Puedo comprar Aspose.Tasks?
  R: Sí, puedes comprarlo.[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Types d’accumulation de coûts dans Aspose.Tasks
 linktitle: Types d’accumulation de coûts dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à gérer efficacement les coûts d'un projet avec Aspose.Tasks pour .NET. Définissez les types de régularisation des coûts pour un suivi budgétaire précis.
-type: docs
 weight: 19
 url: /fr/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Types d’accumulation de coûts dans Aspose.Tasks
+
 ## Introduction
 
 En gestion de projet, un suivi précis des coûts est crucial pour maintenir le contrôle budgétaire et garantir le succès d’un projet. Aspose.Tasks for .NET offre un ensemble robuste d'outils pour gérer les coûts des projets, y compris la possibilité de définir différents types d'accumulation des coûts. Ce didacticiel vous guidera tout au long du processus de compréhension et de mise en œuvre des types de répartition des coûts à l'aide d'Aspose.Tasks pour .NET.
@@ -86,3 +92,9 @@ A4 : Oui, vous pouvez définir le type de régularisation des coûts indépendam
 ### Q5 : Aspose.Tasks pour .NET prend-il en charge les types d'accumulation de coûts personnalisés ?
 
 A5 : Depuis la dernière version, Aspose.Tasks pour .NET ne prend pas en charge la définition de types d'accumulation de coûts personnalisés.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

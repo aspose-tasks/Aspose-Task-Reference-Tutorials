@@ -3,10 +3,16 @@ title: Menangani Properti Penundaan Leveling di Aspose.Tasks
 linktitle: Menangani Properti Penundaan Leveling untuk Penetapan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menangani properti penundaan leveling untuk penetapan sumber daya di Aspose.Tasks untuk Java dengan tutorial komprehensif ini.
-type: docs
 weight: 17
 url: /id/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Properti Penundaan Leveling di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses penanganan properti penundaan leveling untuk penetapan sumber daya di Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan Java yang kuat yang memungkinkan Anda bekerja dengan file Microsoft Project tanpa memerlukan Microsoft Project untuk diinstal pada sistem Anda.
 ## Prasyarat
@@ -91,3 +97,9 @@ J: Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, memastikan 
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
 
  J: Anda dapat meminta lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

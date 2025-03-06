@@ -1,12 +1,17 @@
 ---
 title: Aspose.Tasks for .NET 的综合教程和示例
 linktitle: .NET 教程的 Aspose.Tasks
-type: docs
 weight: 10
 url: /zh/net/
 description: 探索 Aspose.Tasks for .NET 教程，涵盖保存选项、日历和日程安排、项目管理等。提高您的项目管理技能。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET 的综合教程和示例
+
 ## 介绍
 
 您准备好释放 Aspose.Tasks for .NET 的全部潜力了吗？深入研究我们涵盖广泛主题的综合教程和示例，以提高您的项目管理技能。从保存选项到高级功能、日历和计划任务、项目管理和定制，我们都能满足您的需求。
@@ -72,3 +77,9 @@ is_root: true
 了解如何使用 Aspose.Tasks for .NET 增强 Microsoft Project PDF 的安全性。学习数字签名和加密技术。
 ### [Aspose.Tasks 许可证管理](./license-management/)
 通过我们全面的教程释放 Aspose.Tasks for .NET 的强大功能。管理许可证并优化 MS Project 使用，以实现高效的项目管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

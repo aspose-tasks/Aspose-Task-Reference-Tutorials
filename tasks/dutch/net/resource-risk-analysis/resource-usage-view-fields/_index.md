@@ -3,10 +3,16 @@ title: Verzameling van weergavevelden voor resourcegebruik in Aspose.Tasks
 linktitle: Verzameling van weergavevelden voor resourcegebruik in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u effectief toegang krijgt tot en manipuleert weergavevelden voor resourcegebruik in Microsoft Project-bestanden met behulp van Aspose.Tasks voor .NET.
-type: docs
 weight: 16
 url: /nl/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van weergavevelden voor resourcegebruik in Aspose.Tasks
+
 ## Invoering
 Op het gebied van projectmanagement is het efficiënt omgaan met Microsoft Project-bestanden van cruciaal belang. Aspose.Tasks voor .NET biedt een uitgebreide oplossing om naadloos met MS Project-bestanden te werken. In deze zelfstudie verdiepen we ons in het proces van toegang tot en gebruik van de weergavevelden voor resourcegebruik met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
@@ -67,3 +73,9 @@ EEN: Absoluut! Aspose.Tasks voor .NET biedt uitgebreide functionaliteit voor het
  A: Ja, u kunt toegang krijgen tot een gratis proefversie van de[website](https://releases.aspose.com/).
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor .NET?
  A: U kunt een tijdelijke licentie verkrijgen bij de[aankooppagina](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

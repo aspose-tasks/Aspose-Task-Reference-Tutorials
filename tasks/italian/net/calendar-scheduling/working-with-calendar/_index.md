@@ -3,10 +3,16 @@ title: Lavorare con il calendario in Aspose.Tasks
 linktitle: Lavorare con il calendario in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Gestisci i calendari dei progetti, calcola le durate, gestisci le eccezioni con facilità utilizzando Aspose.Tasks per .NET.
-type: docs
 weight: 10
 url: /it/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavorare con il calendario in Aspose.Tasks
+
 ## introduzione
 
 Aspose.Tasks per .NET fornisce potenti funzionalità per lavorare con i calendari, consentendo agli sviluppatori di gestire in modo efficiente le pianificazioni dei progetti e le allocazioni delle risorse. In questo tutorial esploreremo come utilizzare Aspose.Tasks per interagire con i calendari, coprendo operazioni essenziali come il recupero delle informazioni del calendario, la definizione delle settimane lavorative, il calcolo delle ore lavorative e altro ancora.
@@ -497,3 +503,9 @@ A4: Sì, puoi creare calendari personalizzati come calendari dei turni di notte 
 ### Q5: Posso recuperare informazioni sulle eccezioni del calendario dai file di progetto?
 
 A5: Sì, puoi facilmente recuperare informazioni sulle eccezioni del calendario dai file di progetto utilizzando Aspose.Tasks per .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

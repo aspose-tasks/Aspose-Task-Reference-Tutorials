@@ -3,10 +3,16 @@ title: Sử dụng thuật toán cây trong Aspose.Tasks
 linktitle: Sử dụng thuật toán cây trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thao tác hiệu quả hệ thống phân cấp nhiệm vụ trong các dự án .NET của bạn bằng Thuật toán cây của Aspose.Tasks.
-type: docs
 weight: 13
 url: /vi/net/advanced-concepts/tree-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng thuật toán cây trong Aspose.Tasks
+
 ## Giới thiệu
 
 Aspose.Tasks for .NET cung cấp các chức năng mạnh mẽ để làm việc với các nhiệm vụ, tài nguyên và lịch trình quản lý dự án. Một tính năng như vậy là Thuật toán cây, cho phép người dùng thao tác phân cấp nhiệm vụ một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Thuật toán cây trong Aspose.Tasks cho .NET để thu thập công việc chung và cập nhật các giá trị công việc trong một dự án.
@@ -115,3 +121,9 @@ Câu trả lời 1: Aspose.Tasks dành cho .NET là một API mạnh mẽ cho ph
 ### Câu hỏi 5: Có giấy phép tạm thời dành cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời cho mục đích thử nghiệm từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

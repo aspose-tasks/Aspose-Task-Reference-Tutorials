@@ -3,10 +3,16 @@ title: Správa modulů VBA v Aspose.Tasks
 linktitle: Správa modulů VBA v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Snadná správa modulů VBA v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Prozkoumejte pokyny krok za krokem a vylepšete svůj pracovní postup vývoje.
-type: docs
 weight: 10
 url: /cs/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa modulů VBA v Aspose.Tasks
+
 ## Úvod
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project v jejich aplikacích .NET. Jednou z klíčových vlastností Aspose.Tasks je jeho schopnost spravovat moduly VBA (Visual Basic for Applications) v rámci souborů projektu. V tomto tutoriálu se v podrobném průvodci ponoříme do procesu správy modulů VBA pomocí Aspose.Tasks.
 ## Předpoklady
@@ -74,3 +80,9 @@ Absolutně! Aspose.Tasks poskytuje metody nejen číst, ale také aktualizovat z
 Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu nebo vyhledat pomoc pro jakékoli problémy související s Aspose.Tasks?
 Neváhejte a navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

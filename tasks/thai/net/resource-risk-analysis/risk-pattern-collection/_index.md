@@ -3,10 +3,16 @@ title: จัดการรูปแบบความเสี่ยงใน 
 linktitle: การรวบรวมรูปแบบความเสี่ยงใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีการวิเคราะห์และจัดการรูปแบบความเสี่ยงอย่างมีประสิทธิภาพในไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET
-type: docs
 weight: 24
 url: /th/net/resource-risk-analysis/risk-pattern-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการรูปแบบความเสี่ยงใน MS Project ด้วย Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks for .NET มอบโซลูชันที่ครอบคลุมสำหรับการจัดการและวิเคราะห์รูปแบบความเสี่ยงภายในไฟล์ Microsoft Project ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีการใช้ Aspose.Tasks เพื่อทำงานกับรูปแบบความเสี่ยงในโครงการของคุณอย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -106,3 +112,9 @@ settings.Patterns.Clear();
  ตอบ: ได้ คุณสามารถเข้าถึง Aspose.Tasks รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/)ทำให้คุณสำรวจฟีเจอร์ต่างๆ ก่อนตัดสินใจซื้อได้
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถดูการสนับสนุนและความช่วยเหลือที่ครอบคลุมได้ในฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15)ซึ่งคุณสามารถโต้ตอบกับผู้เชี่ยวชาญและเพื่อนผู้ใช้เพื่อแก้ไขข้อสงสัยและปัญหาต่างๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

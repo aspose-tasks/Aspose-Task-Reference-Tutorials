@@ -3,10 +3,16 @@ title: Manipulação de símbolos monetários em Aspose.Tasks
 linktitle: Manipulação de símbolos monetários em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda a manipular símbolos de moeda em arquivos do MS Project usando Aspose.Tasks para Java. Etapas fáceis para gerenciamento eficiente de projetos.
-type: docs
 weight: 12
 url: /pt/java/currency/currency-symbols/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de símbolos monetários em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, nos aprofundaremos na manipulação de símbolos de moeda em arquivos do MS Project usando a biblioteca Aspose.Tasks para Java. Aspose.Tasks fornece funcionalidades poderosas para trabalhar com documentos do Microsoft Project, permitindo que os desenvolvedores lidem com eficiência com vários aspectos do gerenciamento de projetos.
 ## Pré-requisitos
@@ -53,3 +59,9 @@ Sim, os desenvolvedores podem acessar documentação abrangente e fóruns de sup
  Com certeza, os desenvolvedores podem aproveitar uma avaliação gratuita do Aspose.Tasks no[local na rede Internet](https://purchase.aspose.com/buy) avaliar suas características e funcionalidades antes de tomar uma decisão de compra.
 ### P: Como posso obter uma licença temporária para Aspose.Tasks?
  Os desenvolvedores podem adquirir uma licença temporária para Aspose.Tasks no[local na rede Internet](https://purchase.aspose.com/temporary-license/) página de compra, permitindo-lhes explorar todos os recursos da biblioteca durante o período de avaliação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

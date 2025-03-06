@@ -3,10 +3,16 @@ title: Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
 linktitle: Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks-Projekten mit Java festlegen. Bearbeiten Sie Microsoft Project-Dateien mühelos.
-type: docs
 weight: 11
 url: /de/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks-Projekten mithilfe von Java festlegen. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten.
 ## Voraussetzungen
@@ -64,3 +70,9 @@ Absolut, Aspose.Tasks bietet Flexibilität bei der Definition benutzerdefinierte
 Ja, Aspose.Tasks kann nahtlos in andere Java-Bibliotheken und Frameworks integriert werden, wodurch seine Funktionalität und Vielseitigkeit verbessert wird.
 ### Wo finde ich zusätzliche Unterstützung oder Unterstützung für Aspose.Tasks?
  Für zusätzliche Unterstützung können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15), wo Sie hilfreiche Ressourcen finden und mit der Community interagieren können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

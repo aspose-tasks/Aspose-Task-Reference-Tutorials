@@ -3,10 +3,16 @@ title: Сохраните данные проекта MS в Excel в Aspose.Task
 linktitle: Сохраните данные в Excel в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как сохранить данные Microsoft Project в файлы Excel с помощью Aspose.Tasks для Java. Простая интеграция для разработчиков Java.
-type: docs
 weight: 19
 url: /ru/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраните данные проекта MS в Excel в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks for Java — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft Project. В этом уроке мы шаг за шагом проведем вас через процесс сохранения данных из файла проекта в файл Excel.
 ## Предварительные условия
@@ -52,3 +58,9 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
  Вы можете получить поддержку, посетив форум Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
 ### Могу ли я приобрести временную лицензию на Aspose.Tasks для Java?
  Да, вы можете приобрести временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

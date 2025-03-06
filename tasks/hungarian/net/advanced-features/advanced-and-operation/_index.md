@@ -3,10 +3,16 @@ title: Haladó ÉS művelet az Aspose.Tasks-ban
 linktitle: Haladó ÉS művelet az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan hajthat végre speciális ÉS műveleteket az Aspose.Tasks for .NET-ben a projektfeladatok hatékony szűréséhez több feltétel alapján.
-type: docs
 weight: 10
 url: /hu/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haladó ÉS művelet az Aspose.Tasks-ban
+
 ## Bevezetés
 
  Ebben az oktatóanyagban az Aspose.Tasks for .NET fejlett ÉS műveleteivel foglalkozunk, amely egy hatékony eszköz a feladatok és projektek kezelésére. Megvizsgáljuk, hogyan lehet több feltétel alapján szűrni a projektfeladatokat a`Util.And` osztály.
@@ -107,3 +113,9 @@ V: Igen, az Util.And használható tetszőleges számú feltétel kombinálásá
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
 
 V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

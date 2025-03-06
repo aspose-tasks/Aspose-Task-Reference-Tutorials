@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 속성을 효율적으로 �
 linktitle: Aspose.Tasks에서 확장 자원 속성 처리
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 확장된 Microsoft Project 자원 속성을 효율적으로 처리하는 방법을 알아보세요. 쉬운 단계 및 포괄적인 가이드.
-type: docs
 weight: 11
 url: /ko/java/resource-management/extended-resource-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 속성을 효율적으로 관리
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 확장된 Microsoft Project 리소스 속성을 효과적으로 처리하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있도록 하는 강력한 라이브러리로, 작업 및 리소스 관리를 위한 광범위한 기능을 제공합니다.
 ## 전제조건
@@ -83,3 +89,9 @@ Aspose.Tasks는 최신 버전의 Microsoft Project와의 호환성을 보장하�
 물론 Aspose.Tasks는 다른 Java 라이브러리와 원활하게 통합되어 기능을 향상하고 개발 프로세스를 간소화할 수 있습니다.
 ### Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
 예, 사용자는 Aspose.Tasks 포럼을 통해 기술 지원에 액세스하여 도움을 구하고 커뮤니티에 참여할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

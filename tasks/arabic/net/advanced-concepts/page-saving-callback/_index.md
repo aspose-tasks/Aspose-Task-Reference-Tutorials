@@ -3,10 +3,16 @@ title: تنفيذ رد الاتصال بحفظ الصفحة في Aspose.Tasks
 linktitle: تنفيذ رد الاتصال بحفظ الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تنفيذ رد اتصال لحفظ الصفحة في Aspose.Tasks لـ .NET، مما يتيح معالجة مخصصة لتدفقات إخراج المستندات متعددة الصفحات.
-type: docs
 weight: 12
 url: /ar/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ رد الاتصال بحفظ الصفحة في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية تنفيذ رد اتصال لحفظ الصفحة في Aspose.Tasks لـ .NET. تسمح لنا هذه الميزة بحفظ مستند متعدد الصفحات في التدفقات المقدمة من قبل المستخدم، مما يوفر المرونة والتخصيص في التعامل مع المخرجات.
@@ -121,3 +127,9 @@ A1: يعتبر رد الاتصال بحفظ الصفحة إحدى الميزات
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Tasks؟
 
  ج5: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على المساعدة، الوصول إلى الوثائق[هنا](https://reference.aspose.com/tasks/net/) ، أو استكشف الميزات وخيارات الترخيص الإضافية على[موقع Aspose.Tasks](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

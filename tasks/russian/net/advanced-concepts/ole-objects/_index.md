@@ -3,10 +3,16 @@ title: Работа с OLE-объектами в Aspose.Tasks
 linktitle: Работа с OLE-объектами в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно работать с объектами OLE в приложениях .NET с помощью Aspose.Tasks, расширяя возможности управления проектами.
-type: docs
 weight: 22
 url: /ru/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с OLE-объектами в Aspose.Tasks
+
 ## Введение
 
 Aspose.Tasks для .NET предоставляет комплексные функциональные возможности для работы с объектами OLE (связывание и внедрение объектов) в файлах проекта. Это руководство проведет вас через процесс эффективного управления объектами OLE с помощью Aspose.Tasks в ваших .NET-приложениях.
@@ -148,3 +154,9 @@ else
 ### Вопрос 5: Предлагает ли Aspose.Tasks поддержку клиентов и ресурсы документации?
 
 О5: Да, Aspose.Tasks предоставляет обширную документацию, форумы и поддержку клиентов, чтобы помочь разработчикам эффективно использовать его функции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks के लिए MS प्रोजेक्ट विकल
 linktitle: Aspose.Tasks के लिए एमपीपी सेव विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट विकल्पों को सहजता से सहेजना सीखें। अपनी परियोजना प्रबंधन दक्षता बढ़ाएँ।
-type: docs
 weight: 12
 url: /hi/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के लिए MS प्रोजेक्ट विकल्प सहजता से सहेजें
+
 ## परिचय
 .NET विकास की दुनिया में, प्रोजेक्ट फ़ाइलों को कुशलतापूर्वक प्रबंधित करना और उनमें हेरफेर करना सफलता के लिए महत्वपूर्ण है। .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों (MPP) को आसानी से संभालने के लिए एक शक्तिशाली समाधान प्रदान करता है। इसकी कई विशेषताओं में से, Aspose.Tasks उपयोगकर्ताओं को एमएस प्रोजेक्ट विकल्पों को निर्बाध रूप से सहेजने, वर्कफ़्लो को सुव्यवस्थित करने और प्रोजेक्ट अखंडता सुनिश्चित करने की अनुमति देता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट विकल्पों को सहेजने की प्रक्रिया के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -67,3 +73,9 @@ project.Save(stream, options);
  एक अस्थायी लाइसेंस आपको बिना किसी सीमा के .NET के लिए Aspose.Tasks का मूल्यांकन करने की अनुमति देता है। आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं .NET के लिए Aspose.Tasks का लाइसेंस प्राप्त संस्करण कहां से खरीद सकता हूं?
  आप .NET के लिए Aspose.Tasks का लाइसेंस प्राप्त संस्करण खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

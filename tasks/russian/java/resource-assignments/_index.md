@@ -3,10 +3,16 @@ title: Назначение ресурсов
 linktitle: Назначение ресурсов
 second_title: API Aspose.Tasks Java
 description: С легкостью осваивайте Aspose.Tasks для Java с помощью наших руководств по назначению ресурсов. Управляйте манипуляциями MS Project, бюджетами заданий, затратами и многим другим.
-type: docs
 weight: 30
 url: /ru/java/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Назначение ресурсов
+
 
 ## Введение
 
@@ -101,3 +107,9 @@ url: /ru/java/resource-assignments/
 Узнайте, как эффективно управлять назначениями ресурсов в Aspose.Tasks для Java, с помощью этого пошагового руководства.
 ### [Генерация повременных данных в Aspose.Tasks](./timephased-data-generation/)
 Узнайте, как генерировать повременные данные для назначения ресурсов с помощью Aspose.Tasks для Java. Повысьте эффективность управления проектами с помощью этого подробного руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

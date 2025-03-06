@@ -3,10 +3,16 @@ title: Настройка атрибутов MS Project для новых зад
 linktitle: Установите атрибуты для новых задач в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как установить атрибуты MS Project для новых задач с помощью Aspose.Tasks для Java. С помощью этого подробного руководства можно легко настроить свойства задачи.
-type: docs
 weight: 21
 url: /ru/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка атрибутов MS Project для новых задач в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше подробное руководство по настройке атрибутов MS Project для новых задач в Aspose.Tasks для Java! В этом руководстве мы шаг за шагом проведем вас через весь процесс, гарантируя, что вы сможете легко управлять своими задачами и настраивать их с помощью этой мощной библиотеки Java.
 ## Предварительные условия
@@ -68,3 +74,9 @@ System.out.println("Project file generated Successfully");
  О: Временные лицензии на Aspose.Tasks для Java можно получить на сайте[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу получить поддержку по любым вопросам или вопросам, связанным с Aspose.Tasks для Java?
  О: Вы можете получить поддержку и взаимодействовать с сообществом на[Форум поддержки Aspose.Tasks для Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

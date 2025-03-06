@@ -3,10 +3,16 @@ title: إتقان حساب النطاق الزمني لمشروع MS في Aspose
 linktitle: قم بتعيين عدد النطاق الزمني في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة عدد النطاق الزمني بشكل فعال في MS Project باستخدام Aspose.Tasks لـ Java. تحسين تصور المشروع وإدارته دون عناء.
-type: docs
 weight: 22
 url: /ar/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان حساب النطاق الزمني لمشروع MS في Aspose.Tasks
+
 ## مقدمة
 يمكن أن تؤثر إدارة عدد النطاق الزمني في MS Project بشكل كبير على تصور المشروع وإدارته. باستخدام Aspose.Tasks for Java، وهي واجهة برمجة تطبيقات قوية للتعامل مع مهام إدارة المشروعات برمجيًا، يمكنك التعامل بكفاءة مع عدد النطاق الزمني لتخصيص طرق عرض المشروع وفقًا لاحتياجاتك المحددة.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
  ج: نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks لـ Java؟
  ج: يمكنك العثور على الدعم والمساعدة في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Zaman Yapılandırması ve Yinelenme Modelleri
 linktitle: Aspose.Tasks Zaman Yapılandırması ve Yinelenme Modelleri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET eğitimlerini, zaman yapılandırması ve yineleme modelleri ile keşfedin. Takvimleri zahmetsizce yönetin, çalışma sürelerini özelleştirin ve proje planlamasını optimize edin.
-type: docs
 weight: 33
 url: /tr/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zaman Yapılandırması ve Yinelenme Modelleri
+
 ## giriiş
 
 Verimli proje yönetiminin özelleştirilebilir zaman konfigürasyonları ve yineleme modellerinin gücüyle buluştuğu Aspose.Tasks for .NET dünyasına hoş geldiniz. Bu kapsamlı kılavuzda, proje planlama ve kaynak yönetimi sanatında uzmanlaşmanıza yardımcı olacak çeşitli eğitimleri inceleyeceğiz.
@@ -58,3 +64,9 @@ Aspose.Tasks for .NET'te çalışma haftalarını zahmetsizce nasıl yapılandı
 Aspose.Tasks for .NET'te çalışma haftalarını nasıl özelleştireceğinizi öğrenin. Kişiselleştirilmiş proje takvimleri oluşturmak için adım adım kılavuz. Şimdi İndirin!
 ### [Aspose.Tasks'ta Yıllık Yinelenme Modellerini Yapılandırma](./yearly-recurrence-patterns/)
 Aspose.Tasks for .NET'te yıllık yineleme modellerini yapılandırmayı öğrenin. Bu adım adım kılavuzla proje yönetimi becerilerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

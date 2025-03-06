@@ -3,10 +3,16 @@ title: อัปเดตไฟล์ MPP ใน Aspose.Tasks
 linktitle: อัปเดตไฟล์ MPP ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีอัปเดตไฟล์ MPP ได้อย่างราบรื่นโดยใช้ Aspose.Tasks สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการไฟล์โปรเจ็กต์ที่มีประสิทธิภาพ
-type: docs
 weight: 19
 url: /th/java/project-management/update-mpp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อัปเดตไฟล์ MPP ใน Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการ การจัดการและการอัปเดตไฟล์โครงการถือเป็นงานที่สำคัญ Aspose.Tasks for Java มอบโซลูชันอันทรงพลังสำหรับนักพัฒนา Java เพื่อจัดการไฟล์ Microsoft Project ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกการอัปเดตไฟล์ MPP โดยใช้ Aspose.Tasks สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -71,3 +77,9 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
  ตอบ: ใช่ ใบอนุญาตชั่วคราวมีไว้เพื่อการทดสอบ คุณสามารถรับได้จาก[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะขอความช่วยเหลือหรือการสนับสนุนเกี่ยวกับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
  ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับความช่วยเหลือหรือข้อสงสัยใด ๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opanowanie wartości zarysu projektu MS za pomocą Aspose.Tasks
 linktitle: Zarządzanie wartościami konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak efektywnie zarządzać wartościami konspektu MS Project za pomocą Aspose.Tasks dla .NET. Z łatwością dostosowuj kontury projektu.
-type: docs
 weight: 16
 url: /pl/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie wartości zarysu projektu MS za pomocą Aspose.Tasks
+
 ## Wstęp
 W tym samouczku omówimy, jak zarządzać wartościami konspektu programu Microsoft Project przy użyciu biblioteki Aspose.Tasks dla platformy .NET. Dzięki Aspose.Tasks możesz łatwo manipulować kodami konspektu, tworzyć nowe wartości konspektu i dostosowywać konspekty projektu zgodnie z własnymi wymaganiami.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ O: Tak, Aspose.Tasks jest kompatybilny z różnymi frameworkami .NET, zapewniaj�
 Odp.: Tak, możesz kupić tymczasową licencję na Aspose.Tasks od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.Tasks?
  Odp.: Możesz zapoznać się z dostępną obszerną dokumentacją[Tutaj](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

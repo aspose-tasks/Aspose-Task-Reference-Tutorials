@@ -3,10 +3,16 @@ title: Kumpulan Objek OLE di Aspose.Tasks
 linktitle: Kumpulan Objek OLE di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola objek OLE di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Kuasai penanganan file yang tertanam dalam dokumen proyek dengan mudah.
-type: docs
 weight: 23
 url: /id/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Objek OLE di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari pengelolaan objek OLE (Object Linking and Embedding) di Aspose.Tasks untuk .NET. Objek OLE memungkinkan pengguna untuk menyematkan atau menghubungkan file dari aplikasi lain dalam file proyek. Kami akan membahas cara bekerja dengan koleksi objek ini langkah demi langkah.
@@ -97,3 +103,9 @@ A3: Meskipun pengetahuan dasar C# direkomendasikan, Aspose.Tasks menyediakan dok
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
 
  A5: Anda dapat mencari dukungan dan mengajukan pertanyaan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

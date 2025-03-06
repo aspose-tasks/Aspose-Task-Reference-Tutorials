@@ -3,10 +3,16 @@ title: جدولة المهام الأساسية في Aspose.Tasks
 linktitle: جدولة المهام الأساسية في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية جدولة الخطوط الأساسية للمهام بشكل فعال باستخدام Aspose.Tasks لـ Java. تبسيط عمليات إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جدولة المهام الأساسية في Aspose.Tasks
+
 ## مقدمة
 تعد إدارة الخطوط الأساسية للمهام جانبًا حاسمًا في إدارة المشروع، مما يتيح لك مقارنة التقدم المخطط له مقابل التقدم الفعلي بدقة. في هذا البرنامج التعليمي، سوف نستكشف كيفية تنفيذ جدولة المهام الأساسية باستخدام Aspose.Tasks لـ Java. باتباع هذه الخطوات، ستكون جاهزًا لتبسيط عمليات إدارة مشروعك بكفاءة.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ Java من[صفحة الإصدار](https://releases.aspose.com/).
 ### أين يمكنني العثور على الدعم لـ Aspose.Tasks لـ Java؟
  لأية استفسارات أو مساعدة، يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

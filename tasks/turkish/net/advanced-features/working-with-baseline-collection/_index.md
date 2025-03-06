@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Baseline Collection ile Çalışmak
 linktitle: Aspose.Tasks'ta Baseline Collection ile Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te temel çizgileri verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım rehberlik için kapsamlı eğitimimizi takip edin.
-type: docs
 weight: 20
 url: /tr/net/advanced-features/working-with-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Baseline Collection ile Çalışmak
+
 ## giriiş
 
 Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Pek çok özelliğinin yanı sıra, projeler içindeki temel çizgilerin yönetilmesi için güçlü bir destek sağlar. Temel çizgiler, orijinal proje planını mevcut durumla karşılaştırmanıza izin vererek proje ilerlemesinin daha iyi izlenmesine ve analiz edilmesine olanak tanıdığından proje yönetimi için çok önemlidir.
@@ -116,3 +122,9 @@ Cevap4: Evet, Aspose.Tasks, popüler bulut platformlarıyla entegrasyon desteği
 ### S5: Aspose.Tasks kullanıcılarının yardım isteyebileceği ve bilgi paylaşabileceği bir topluluk forumu var mı?
 
  A5: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) toplulukla etkileşime geçmek ve uzmanlardan yardım almak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

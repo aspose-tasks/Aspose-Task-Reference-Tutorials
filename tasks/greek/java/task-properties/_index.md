@@ -3,10 +3,16 @@ title: Ιδιότητες εργασίας
 linktitle: Ιδιότητες εργασίας
 second_title: Aspose.Tasks Java API
 description: Βελτιώστε τη διαχείριση έργων Java με το Aspose.Tasks. Εξερευνήστε μαθήματα για τις ιδιότητες εργασιών, από τον χειρισμό προτεραιοτήτων έως τη διαχείριση του κόστους. Βελτιστοποιήστε το έργο σας σήμερα!
-type: docs
 weight: 34
 url: /el/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ιδιότητες εργασίας
+
 ## Εισαγωγή
 
 Διαχειριστείτε και προσαρμόστε εύκολα τα αρχεία Microsoft Project σε Java με το Aspose.Tasks. Εξερευνήστε μαθήματα που καλύπτουν διάφορες πτυχές των ιδιοτήτων εργασιών για να βελτιώσετε τις δυνατότητες διαχείρισης του έργου σας.
@@ -138,3 +144,9 @@ url: /el/java/task-properties/
 Μάθετε πώς να ενημερώνετε τα δεδομένα εργασιών σε μορφή MPP χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση έργου.
 ### [Το WBS συσχετίζεται με το Task στο Aspose.Tasks](./wbs-associated-with-task/)
 Master WBS με Aspose.Tasks για Java - Μάθετε να διαβάζετε και να επαναριθμείτε τους κωδικούς WBS εργασιών. Ενισχύστε την αποτελεσματικότητα διαχείρισης έργου!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

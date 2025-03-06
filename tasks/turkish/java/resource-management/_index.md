@@ -3,10 +3,16 @@ title: Kaynak yönetimi
 linktitle: Kaynak yönetimi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java ile MS Project'te kaynak yönetiminde uzmanlaşın. Maliyetleri oluşturmayı, yinelemeyi, yönetmeyi ve daha fazlasını öğrenin. Eğitimlerimizle geliştirmeyi optimize edin.
-type: docs
 weight: 31
 url: /tr/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kaynak yönetimi
+
 ## giriiş
 
 Java kullanarak MS Project geliştirme alanında Aspose.Tasks, etkili kaynak yönetimi için kapsamlı işlevler sunan güçlü bir kütüphane olarak öne çıkıyor. Bu eğitim serisi size çeşitli konularda rehberlik edecek ve Microsoft Project kaynaklarını sorunsuz bir şekilde kullanma konusunda ustalaşmanızı sağlayacaktır.
@@ -63,3 +69,9 @@ Aspose.Tasks for Java ile MS Project kaynak maliyetlerini verimli bir şekilde n
 Kusursuz entegrasyon ve verimli görev yönetimi için Aspose.Tasks'ı kullanarak Java'da MS Project kaynak özelliklerini nasıl ayarlayacağınızı öğrenin.
 ### [Aspose.Tasks'a Güncellenmiş Kaynak Verilerini Yazma](./write-updated-resource-data/)
 Aspose.Tasks for Java'yı kullanarak MS Project dosyalarındaki kaynak verilerini zahmetsizce nasıl güncelleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET'te MS Project XLSX Seçeneklerini Yapılandırma
 linktitle: Aspose.Tasks'ta XLSX Seçeneklerini Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te MS Project XLSX seçeneklerini nasıl yapılandıracağınızı öğrenin. Sütunları, kodlamayı ve daha fazlasını zahmetsizce özelleştirin.
-type: docs
 weight: 11
 url: /tr/net/file-format-options/configuring-xlsx-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET'te MS Project XLSX Seçeneklerini Yapılandırma
+
 ## giriiş
 Microsoft Project (MS Project), proje yönetimi için güçlü bir araçtır ve Aspose.Tasks for .NET, MS Project dosyalarıyla programlı olarak çalışmak için kusursuz entegrasyon sağlar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project XLSX seçeneklerini yapılandırma sürecini anlatacağız.
 ## Önkoşullar
@@ -90,3 +96,9 @@ C: Aspose.Tasks for .NET öncelikle Windows platformları için tasarlanmıştı
 ### S: Test amaçlı herhangi bir geçici lisans seçeneği var mı?
 
  C: Evet, geçici lisansı şu adresten alabilirsiniz:[Aspose.Tasks geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

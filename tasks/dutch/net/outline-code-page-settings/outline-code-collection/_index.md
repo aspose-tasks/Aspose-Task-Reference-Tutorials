@@ -3,10 +3,16 @@ title: Verzameling MS-project van overzichtscodes in Aspose.Tasks
 linktitle: Verzameling van overzichtscodes in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u Microsoft Project-overzichtscodes verzamelt met Aspose.Tasks voor .NET. Deze uitgebreide tutorial biedt stapsgewijze instructies.
-type: docs
 weight: 11
 url: /nl/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling MS-project van overzichtscodes in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Microsoft Project-overzichtscodes kunt verzamelen met Aspose.Tasks voor .NET. We zullen het proces opsplitsen in stapsgewijze instructies om duidelijkheid en begrip te garanderen.
 ## Vereisten
@@ -95,3 +101,9 @@ A: Ja, Aspose.Tasks voor .NET ondersteunt verschillende versies van Microsoft Pr
 A: Absoluut, Aspose.Tasks voor .NET biedt uitgebreide opties om het uitvoerformaat aan te passen aan uw vereisten.
 ### Vraag: Waar kan ik aanvullende ondersteuning of bronnen vinden voor Aspose.Tasks voor .NET?
  A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor hulp of vragen over Aspose.Tasks voor .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

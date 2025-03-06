@@ -3,10 +3,16 @@ title: Tùy chỉnh cài đặt chế độ xem trang dự án MS trong Aspose.T
 linktitle: Định cấu hình cài đặt chế độ xem trang trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình cài đặt chế độ xem trang trong Aspose.Tasks cho .NET để điều chỉnh định dạng in của tài liệu Microsoft Project của bạn.
-type: docs
 weight: 21
 url: /vi/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh cài đặt chế độ xem trang dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Microsoft Project là một công cụ mạnh mẽ để quản lý dự án, nhưng đôi khi bạn cần tùy chỉnh cách xem và in dự án của mình. Với Aspose.Tasks cho .NET, bạn có thể dễ dàng định cấu hình cài đặt chế độ xem trang để đáp ứng các yêu cầu cụ thể của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Trả lời: Aspose.Tasks cho phép bạn tùy chỉnh số lượng cột sẽ 
 Trả lời: Aspose.Tasks cung cấp khả năng tương thích với Microsoft Project 2003 và các phiên bản mới hơn.
 ### Câu hỏi: Tôi có thể tìm thêm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?
  Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nếu có bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải trong quá trình sử dụng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

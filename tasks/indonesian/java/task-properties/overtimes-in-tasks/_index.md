@@ -3,10 +3,16 @@ title: Lembur dalam Tugas dengan Aspose.Tasks
 linktitle: Lembur dalam Tugas dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Jelajahi manajemen lembur yang efisien dalam tugas proyek dengan Aspose.Tasks untuk Java. Sederhanakan pelacakan dan alokasi sumber daya dengan mudah.
-type: docs
 weight: 23
 url: /id/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lembur dalam Tugas dengan Aspose.Tasks
+
 ## Perkenalan
 Mengelola lembur dalam tugas-tugas proyek sangat penting bagi manajer proyek dan pemimpin tim untuk memastikan pelacakan dan alokasi sumber daya yang akurat. Aspose.Tasks untuk Java memberikan solusi ampuh untuk menangani aspek terkait lembur dalam manajemen proyek. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk mengelola dan menganalisis lembur secara efektif dalam tugas proyek.
 ## Prasyarat
@@ -54,3 +60,9 @@ Sangat! Aspose.Tasks terintegrasi secara mulus dengan kerangka kerja Java lainny
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk terlibat dengan komunitas dan mencari dukungan.
 ### Apakah ada versi uji coba gratis yang tersedia untuk Aspose.Tasks?
  Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

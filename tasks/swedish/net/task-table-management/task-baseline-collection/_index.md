@@ -3,10 +3,16 @@ title: Samling av Task Baselines i Aspose.Tasks
 linktitle: Samling av Task Baselines i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska uppgiftens baslinjer utan ansträngning med Aspose.Tasks för .NET. Effektiv projektledning på ett enkelt sätt. Ladda ner nu! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /sv/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av Task Baselines i Aspose.Tasks
+
 ## Introduktion
 Välkommen till världen av Aspose.Tasks för .NET, ett kraftfullt bibliotek som underlättar sömlös manipulation och hantering av projektuppgifter. I den här handledningen kommer vi att fördjupa oss i den fascinerande sfären av uppgiftsbaslinjer – en avgörande aspekt av projektplanering och spårning. I slutet av den här guiden kommer du att bemästra konsten att arbeta med uppgiftsbaslinjesamlingar, vilket gör att du kan förbättra dina projektledningsmöjligheter.
 ## Förutsättningar
@@ -68,3 +74,9 @@ S: Aspose.Tasks för .NET sätter inga strikta gränser för antalet uppgifter, 
 A: Absolut! Du har full kontroll över formateringen när du skriver ut baslinjedetaljer, vilket gör att du kan skräddarsy den efter dina specifika krav.
 ### F: Var kan jag söka hjälp om jag stöter på problem eller har ytterligare frågor?
  A: Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för dedikerat stöd och samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

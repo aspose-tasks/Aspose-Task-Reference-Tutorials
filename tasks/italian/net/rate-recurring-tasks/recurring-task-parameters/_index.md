@@ -3,10 +3,16 @@ title: Impostazione dei parametri delle attività ricorrenti in Aspose.Tasks
 linktitle: Impostazione dei parametri delle attività ricorrenti in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come impostare i parametri delle attività ricorrenti in Microsoft Project utilizzando Aspose.Tasks per .NET. Tutorial completo con guida passo passo.
-type: docs
 weight: 14
 url: /it/net/rate-recurring-tasks/recurring-task-parameters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione dei parametri delle attività ricorrenti in Aspose.Tasks
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di impostazione dei parametri delle attività ricorrenti di Microsoft Project utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
@@ -79,3 +85,9 @@ Sì, Aspose.Tasks supporta vari formati di file di progetto tra cui MPP, XML, XL
 Sì, puoi visitare il forum Aspose.Tasks per ricevere assistenza dalla community o contattare l'assistenza per un aiuto diretto.
 ### Come posso ottenere una licenza temporanea per Aspose.Tasks?
  È possibile ottenere una licenza temporanea da[sito web](https://purchase.aspose.com/temporary-license/) a scopo di test.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

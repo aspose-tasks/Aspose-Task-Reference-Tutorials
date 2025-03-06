@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks .NET 中管理 MS 專案許可證
 linktitle: 管理 .NET 中的 Aspose.Tasks 許可證
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用基於檔案或基於流的方法無縫管理 .NET 應用程式中的 Aspose.Tasks 許可證。
-type: docs
 weight: 10
 url: /zh-hant/net/license-management/managing-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks .NET 中管理 MS 專案許可證
+
 ## 介紹
 管理許可證是在 .NET 應用程式中有效利用 Aspose.Tasks 的一個重要方面。如果沒有適當的許可，您可能會遇到使用限製或限制。幸運的是，Aspose.Tasks 提供了使用 .NET 專案中的檔案或串流應用授權的簡單方法。在本教程中，我們將逐步探索如何在 .NET 應用程式中管理 Aspose.Tasks 授權。
 ## 先決條件
@@ -98,3 +104,9 @@ public void ApplyLicenseUsingStream()
 ### Q：我可以為多個應用程式使用同一個許可證文件嗎？
 
 答：是的，您可以在同一被授權人開發的多個應用程式中使用相同的許可證文件。但是，請確保您的授權符合 Aspose 指定的使用條款。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

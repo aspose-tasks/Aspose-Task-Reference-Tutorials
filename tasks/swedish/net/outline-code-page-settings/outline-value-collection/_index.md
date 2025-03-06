@@ -3,10 +3,16 @@ title: Hantera MS Project Outline-värden med Aspose.Tasks
 linktitle: Samling av dispositionsvärden i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar dispositionsvärden i Microsoft Project-filer med Aspose.Tasks för .NET. Steg-för-steg handledning med kodexempel.
-type: docs
 weight: 17
 url: /sv/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera MS Project Outline-värden med Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks för .NET tillhandahåller en omfattande uppsättning funktioner för att interagera med Microsoft Project-filer. En sådan funktion är möjligheten att hantera konturvärden inom ett projekt. I den här handledningen kommer vi att utforska hur man samlar in och manipulerar konturvärden med Aspose.Tasks för .NET.
 ## Förutsättningar
@@ -108,3 +114,9 @@ S: Du kan implementera felhanteringsmekanismer som try-catch-block för att hant
 S: Ja, Aspose.Tasks tillhandahåller omfattande API:er för att anpassa utseendet och beteendet hos konturvärdena enligt dina krav.
 ### F: Var kan jag hitta ytterligare resurser och support för Aspose.Tasks?
  A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och utforska[dokumentation](https://reference.aspose.com/tasks/net/) för detaljerad information om API:er och funktioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

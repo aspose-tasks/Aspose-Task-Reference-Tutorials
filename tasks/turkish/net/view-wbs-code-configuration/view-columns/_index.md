@@ -3,10 +3,16 @@ title: Aspose.Tasks for .NET ile MS Project View Sütunlarında Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Görünüm Sütunlarını İşleme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje görselleştirmesini geliştirin. MS Project görünüm sütunlarını adım adım kullanmayı öğrenin. Verimliliği ve özelleştirmeyi artırın.
-type: docs
 weight: 12
 url: /tr/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks for .NET ile MS Project View Sütunlarında Uzmanlaşmak
+
 ## giriiş
 Proje yönetimi alanında Aspose.Tasks for .NET, Microsoft Project dosyalarının yönetimine yönelik güçlü bir araç seti olarak öne çıkıyor. Proje görselleştirmenin temel yönlerinden biri görünüm sütunlarını verimli bir şekilde yönetmektir. Bu eğitimde Aspose.Tasks'ı kullanarak MS Project görünüm sütunlarını nasıl yöneteceğinizi keşfederek proje görünümlerinizi özelleştirmenize ve optimize etmenize yardımcı olacağız.
 ## Önkoşullar
@@ -80,3 +86,9 @@ C: Aspose.Tasks öncelikle Microsoft Project dosyalarına odaklanır; ancak proj
  C:`MyTextStyleCallback` sınıf, belirli görünümlerde gelişmiş görsel temsil için metin stillerinin nasıl özelleştirileceğini gösterir.
 ### S: Aspose.Tasks için ek kaynakları ve belgeleri nerede bulabilirim?
  C: Bkz.[Aspose.Tasks belgeleri](https://reference.aspose.com/tasks/net/) Ayrıntılı rehberlik ve kaynaklar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

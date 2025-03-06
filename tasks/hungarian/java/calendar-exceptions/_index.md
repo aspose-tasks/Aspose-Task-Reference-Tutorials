@@ -3,10 +3,16 @@ title: Naptári kivételek
 linktitle: Naptári kivételek
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks segítségével könnyedén kezelheti, definiálja, kezelheti és visszakeresheti a naptárkivételeket a Java projektekben. Egyszerűsítse a projektmunkafolyamatokat a hatékony projektmenedzsment érdekében.
-type: docs
 weight: 20
 url: /hu/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Naptári kivételek
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Ismerje meg, hogyan határozhatja meg a naptárkivételek hétköznapjait a Java
 Ismerje meg, hogyan kezelheti hatékonyan a naptárkivételeket Java-projektekben az Aspose.Tasks for Java segítségével. Egyszerűsítse projektmenedzsment folyamatát most.
 ### [A naptári kivételek lekérése az Aspose.Tasks segítségével](./retrieve/)
 Ismerje meg, hogyan kérhet le naptári kivételeket az MS Projectből az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

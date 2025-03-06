@@ -3,10 +3,16 @@ title: Aspose.Tasks Zarządzanie zasobami i analiza ryzyka
 linktitle: Aspose.Tasks Zarządzanie zasobami i analiza ryzyka
 second_title: Aspose.Tasks .NET API
 description: Zarządzaj zasobami MS Project za pomocą Aspose.Tasks .NET. Zwiększ produktywność i usprawnij przepływ pracy. Dowiedz się o przypisywaniu zasobów, widokach użycia, analizie ryzyka i nie tylko.
-type: docs
 weight: 26
 url: /pl/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Zarządzanie zasobami i analiza ryzyka
+
 ## Wstęp
 
 Szukasz skutecznych sposobów zarządzania zasobami Microsoft Project i usprawnienia analizy ryzyka za pomocą Aspose.Tasks dla .NET? Nie szukaj dalej! W tym obszernym przewodniku przeprowadzimy Cię przez różne samouczki, obejmujące najważniejsze tematy zwiększające możliwości programistów i menedżerów projektów.
@@ -90,3 +96,9 @@ Dowiedz się, jak zbierać statystyki pozycji ryzyka z plików MS Project przy u
 Dowiedz się, jak skutecznie zarządzać wzorcami ryzyka w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET. Popraw wyniki projektów dzięki potężnym narzędziom do analizy ryzyka.
 ### [Zarządzaj wzorcami ryzyka w MS Project za pomocą Aspose.Tasks](./risk-pattern-collection/)
 Dowiedz się, jak skutecznie analizować i manipulować wzorcami ryzyka w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

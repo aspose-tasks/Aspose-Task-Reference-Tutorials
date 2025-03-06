@@ -3,10 +3,16 @@ title: Itérer sur des ressources non root dans Aspose.Tasks
 linktitle: Itérer sur des ressources non root dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment parcourir efficacement les ressources non racine dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour Java. Améliorez votre processus de développement.
-type: docs
 weight: 12
 url: /fr/java/resource-management/iterate-non-root-resources/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Itérer sur des ressources non root dans Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java est une bibliothèque puissante qui fournit aux développeurs les outils dont ils ont besoin pour manipuler efficacement les fichiers Microsoft Project. Avec son interface intuitive et ses fonctionnalités étendues, Aspose.Tasks simplifie le processus de travail avec les données de projet, permettant aux développeurs de se concentrer sur la création d'applications robustes.
 ## Conditions préalables
@@ -56,3 +62,9 @@ Oui, Aspose.Tasks peut être intégré de manière transparente aux frameworks J
 Absolument, Aspose.Tasks propose des API complètes pour personnaliser les champs de données du projet en fonction de vos besoins.
 ### Aspose.Tasks fournit-il une assistance et une documentation aux développeurs ?
 Oui, Aspose.Tasks propose une documentation complète et un forum d'assistance dédié pour aider les développeurs pour toute question ou problème qu'ils rencontrent.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

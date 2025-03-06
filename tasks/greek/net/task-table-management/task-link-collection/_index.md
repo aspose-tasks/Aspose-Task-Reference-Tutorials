@@ -3,10 +3,16 @@ title: Χειρισμός συνδέσμων εργασιών στο Aspose.Task
 linktitle: Χειρισμός συνδέσμων εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για .NET στην αποτελεσματική διαχείριση των συνδέσμων εργασιών έργου. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να βελτιώσετε την εμπειρία διαχείρισης έργου.
-type: docs
 weight: 19
 url: /el/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός συνδέσμων εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στον οδηγό βήμα προς βήμα για τον χειρισμό συνδέσμων εργασιών στο Aspose.Tasks για .NET! Οι σύνδεσμοι εργασιών διαδραματίζουν κρίσιμο ρόλο στη διαχείριση έργου, επιτρέποντάς σας να δημιουργήσετε σχέσεις μεταξύ εργασιών και να δημιουργήσετε εξαρτήσεις. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εργασίας με συλλογές συνδέσμων εργασιών χρησιμοποιώντας το Aspose.Tasks.
 ## Προαπαιτούμενα
@@ -85,3 +91,9 @@ foreach (var link in taskLinks)
 Το Aspose.Tasks μπορεί να χειριστεί αποτελεσματικά μεγάλα αρχεία έργου με ελάχιστο αντίκτυπο στην απόδοση.
 ### Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.Tasks;
  Ναι, μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

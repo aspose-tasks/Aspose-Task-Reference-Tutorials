@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Temellerinin Toplanması
 linktitle: Aspose.Tasks'ta Görev Temellerinin Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile görev temellerini zahmetsizce keşfedin. Etkin proje yönetimi basitleştirildi. Şimdi İndirin! #Aspose.Tasks #MS Projesi
-type: docs
 weight: 17
 url: /tr/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Temellerinin Toplanması
+
 ## giriiş
 Proje görevlerinin kesintisiz manipülasyonunu ve yönetimini kolaylaştıran güçlü bir kütüphane olan Aspose.Tasks for .NET dünyasına hoş geldiniz. Bu eğitimde, proje planlama ve izlemenin çok önemli bir yönü olan görev temel çizgilerinin büyüleyici dünyasına gireceğiz. Bu kılavuzun sonunda görev temel koleksiyonlarıyla çalışma sanatında ustalaşacak ve proje yönetimi yeteneklerinizi geliştirmenize olanak tanıyacaksınız.
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Aspose.Tasks for .NET, görev sayısına katı sınırlamalar getirmez ve far
 C: Kesinlikle! Temel ayrıntıları yazdırırken biçimlendirme üzerinde tam kontrole sahip olursunuz ve bunu özel gereksinimlerinize göre uyarlamanıza olanak tanır.
 ### S: Sorunlarla karşılaşırsam veya ek sorularım olursa nereden yardım isteyebilirim?
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) özel destek ve topluluk yardımı için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

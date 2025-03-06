@@ -3,10 +3,16 @@ title: Erstellen und speichern Sie ein leeres Projekt zum Streamen in Aspose.Tas
 linktitle: Erstellen und speichern Sie ein leeres Projekt zum Streamen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks leere MS Project-Dateien erstellen und in einem Stream in Java speichern und so Projektmanagementaufgaben mühelos vereinfachen.
-type: docs
 weight: 13
 url: /de/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen und speichern Sie ein leeres Projekt zum Streamen in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für Java ein leeres MS Project erstellen und in einem Stream speichern. Aspose.Tasks ist eine leistungsstarke Java-API, die es Entwicklern ermöglicht, mit Microsoft Project-Dateien zu arbeiten, ohne dass Microsoft Project auf dem Computer installiert sein muss. Wenn Sie dieser Anleitung folgen, lernen Sie die notwendigen Schritte zum Erstellen und Speichern einer leeren MS Project-Datei mit Aspose.Tasks.
 ## Voraussetzungen
@@ -69,3 +75,9 @@ Ja, Aspose.Tasks unterstützt mehrere Programmiersprachen, einschließlich .NET,
  Unterstützung erhalten Sie im Community-Forum[Hier](https://forum.aspose.com/c/tasks/15).
 ### Kann ich eine temporäre Lizenz für Aspose.Tasks erwerben?
  Ja, temporäre Lizenzen können erworben werden[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

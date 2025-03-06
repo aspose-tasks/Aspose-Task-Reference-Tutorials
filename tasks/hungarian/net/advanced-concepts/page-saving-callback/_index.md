@@ -3,10 +3,16 @@ title: Az oldalmentés visszahívásának megvalósítása az Aspose.Tasks progr
 linktitle: Az oldalmentés visszahívásának megvalósítása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan valósíthat meg oldalmentő visszahívást az Aspose.Tasks for .NET-ben, amely lehetővé teszi a többoldalas dokumentum kimeneti adatfolyamok testreszabott kezelését.
-type: docs
 weight: 12
 url: /hu/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az oldalmentés visszahívásának megvalósítása az Aspose.Tasks programban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan valósíthat meg oldalmentő visszahívást az Aspose.Tasks for .NET-ben. Ezzel a funkcióval többoldalas dokumentumot menthetünk el a felhasználó által biztosított adatfolyamokba, rugalmasságot és testreszabást kínálva a kimenet kezelésében.
@@ -121,3 +127,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan valósíthatunk meg egy oldalmentő
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Tasks számára?
 
  A5: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) segítségért tekintse meg a dokumentációt[itt](https://reference.aspose.com/tasks/net/) , vagy fedezze fel a további funkciókat és licencelési lehetőségeket a[Aspose.Tasks webhely](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

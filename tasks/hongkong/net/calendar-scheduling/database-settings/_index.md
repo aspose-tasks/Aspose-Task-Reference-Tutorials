@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的資料庫設置
 linktitle: Aspose.Tasks 中的資料庫設置
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 從 Primavera 資料庫匯入專案。在此綜合教程中取得逐步指導。
-type: docs
 weight: 29
 url: /zh-hant/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的資料庫設置
+
 ## 介紹
 
 Aspose.Tasks for .NET 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中使用 Microsoft Project 檔案。在本教程中，我們將重點介紹使用 Aspose.Tasks 從 Primavera 資料庫匯入專案。
@@ -100,3 +106,9 @@ A3：你可以找到文檔[這裡](https://reference.aspose.com/tasks/net/).
 ### Q5：我需要臨時授權才能使用 Aspose.Tasks for .NET 嗎？
 
  A5：如果您想評估該庫的全部功能，您可以從以下地址取得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

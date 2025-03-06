@@ -3,10 +3,16 @@ title: التعامل مع استثناءات التقويم في Aspose.Tasks
 linktitle: التعامل مع استثناءات التقويم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة استثناءات التقويم في Aspose.Tasks لـ .NET من خلال البرامج التعليمية والأمثلة خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع استثناءات التقويم في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة استثناءات التقويم في Aspose.Tasks باستخدام إطار عمل .NET. تسمح لنا استثناءات التقويم بتحديد تواريخ أو فترات خاصة في تقويم المشروع حيث يتم تغيير جدول العمل العادي، مثل العطلات أو الإغلاق المؤقت. سنغطي الطرق المختلفة للتعامل مع استثناءات التقويم خطوة بخطوة، باستخدام Aspose.Tasks لـ .NET.
@@ -156,3 +162,9 @@ public void DefineCalendarExceptions()
 ### س5: هل يمكنني تخصيص ساعات العمل لتواريخ استثناء محددة؟
 
 ج5: نعم، يمكنك تحديد أوقات عمل مخصصة لتواريخ الاستثناءات الفردية باستخدام الطرق المناسبة التي يوفرها Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

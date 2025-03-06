@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 不同單位的任務持續時間
 linktitle: 使用 Aspose.Tasks 不同單位的任務持續時間
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 探索 Java 專案中的任務持續時間管理。準確計算和轉換持續時間（以分鐘、天、小時、週和月為單位）。
-type: docs
 weight: 32
 url: /zh-hant/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 不同單位的任務持續時間
+
 ## 介紹
 在專案管理領域，理解和管理任務持續時間是一個關鍵面向。 Aspose.Tasks for Java 提供了一個強大的工具集來有效地處理這個問題。在本教程中，我們將指導您使用 Aspose.Tasks 檢索不同單位的任務持續時間。
 ## 先決條件
@@ -83,3 +89,9 @@ double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
 參觀[文件](https://reference.aspose.com/tasks/java/)以獲得綜合資源。
 ### Q：我可以在購買前試用 Aspose.Tasks for Java 嗎？
 是的，您可以探索[免費試用](https://releases.aspose.com/)來評估其能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

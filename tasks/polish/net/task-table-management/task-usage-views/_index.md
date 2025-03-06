@@ -3,10 +3,16 @@ title: Opanowanie widoków użycia zadań w Aspose.Tasks dla .NET
 linktitle: Konfigurowanie widoków wykorzystania zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Poznaj Aspose.Tasks dla .NET i dowiedz się, jak skonfigurować widoki wykorzystania zadań. Dostosuj ustawienia skali czasu i ulepsz wizualizacje zarządzania projektami.
-type: docs
 weight: 24
 url: /pl/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie widoków użycia zadań w Aspose.Tasks dla .NET
+
 ## Wstęp
 dziedzinie zarządzania projektami wizualizacja wykorzystania zadań ma kluczowe znaczenie dla skutecznego planowania i realizacji. Aspose.Tasks dla .NET zapewnia solidne rozwiązanie do renderowania widoków wykorzystania zadań, umożliwiając dostosowanie ustawień skali czasu i formatów prezentacji. W tym samouczku omówimy kroki konfigurowania widoków użycia zadań przy użyciu Aspose.Tasks.
 ## Warunki wstępne
@@ -75,3 +81,9 @@ Tak, Aspose.Tasks obsługuje popularne formaty plików projektów, takie jak MPP
 Oczywiście możesz dostosować ustawienia skali czasu dla poszczególnych zadań w ramach swojego projektu.
 ### Jak mogę uzyskać wsparcie lub szukać pomocy dla Aspose.Tasks?
  Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie i wskazówki społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

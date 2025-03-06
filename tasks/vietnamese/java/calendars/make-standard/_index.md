@@ -3,10 +3,16 @@ title: Tạo lịch chuẩn trong Aspose.Tasks
 linktitle: Tạo lịch chuẩn trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách tạo lịch MS Project tiêu chuẩn trong Java bằng Aspose.Tasks. Nâng cao khả năng quản lý dự án của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo lịch chuẩn trong Aspose.Tasks
+
 
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới của Aspose.Tasks cho Java, một thư viện mạnh mẽ cho phép các nhà phát triển thao tác liền mạch với các tệp Microsoft Project. Cụ thể, chúng tôi sẽ tập trung vào việc tạo lịch MS Project tiêu chuẩn bằng Aspose.Tasks. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách triển khai chức năng này trong các ứng dụng Java của mình.
@@ -63,3 +69,9 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của 
 Trả lời: Có, các nhà phát triển có thể truy cập hỗ trợ kỹ thuật toàn diện thông qua diễn đàn Aspose.Tasks, đảm bảo hỗ trợ kịp thời cho bất kỳ thắc mắc hoặc vấn đề nào.
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua hàng không?
  Trả lời: Có, bạn có thể khám phá Aspose.Tasks thông qua phiên bản dùng thử miễn phí có sẵn trên[trang mạng](https://purchase.aspose.com/buy), cho phép bạn đánh giá các tính năng và chức năng của nó trước khi đưa ra quyết định.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

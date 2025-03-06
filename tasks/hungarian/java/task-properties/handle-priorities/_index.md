@@ -3,10 +3,16 @@ title: Kezelje a feladatprioritásokat az Aspose.Tasks-ban
 linktitle: Kezelje a feladatprioritásokat az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Az Aspose.Tasks for Java segítségével könnyedén sajátíthatja el a feladatok prioritását. Kövesse ezt az útmutatót a zökkenőmentes kezeléshez. Fejlessze projektmenedzsment készségeit!
-type: docs
 weight: 17
 url: /hu/java/task-properties/handle-priorities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kezelje a feladatprioritásokat az Aspose.Tasks-ban
+
 ## Bevezetés
 feladatok prioritásainak kezelése kulcsfontosságú a projekt sikeréhez, és az Aspose.Tasks for Java segítségével ez zökkenőmentes folyamat lesz. Ez az oktatóanyag végigvezeti Önt a feladatok prioritásainak kezelésén az Aspose.Tasks használatával. Akár tapasztalt fejlesztő, akár újonc, ez az útmutató a folyamatot könnyen követhető lépésekre bontja.
 ## Előfeltételek
@@ -56,3 +62,9 @@ Igen, az Aspose.Tasks for Java egyaránt alkalmas asztali és webes alkalmazáso
  Igen, kaphat ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találok részletes dokumentációt?
  Lásd a dokumentációt[itt](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

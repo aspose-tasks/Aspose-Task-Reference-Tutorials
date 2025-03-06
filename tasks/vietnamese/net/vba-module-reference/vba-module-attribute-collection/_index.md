@@ -3,10 +3,16 @@ title: Nắm vững các thuộc tính mô-đun VBA trong Aspose.Tasks
 linktitle: Bộ sưu tập các thuộc tính mô-đun VBA trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của Aspose.Tasks cho .NET trong việc quản lý Thuộc tính mô-đun VBA. Dễ dàng nâng cao các dự án .NET của bạn. Tải ngay! #Aspose #Tasks #MS Project
-type: docs
 weight: 12
 url: /vi/net/vba-module-reference/vba-module-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các thuộc tính mô-đun VBA trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng đến với thế giới của Aspose.Tasks dành cho .NET! Nếu bạn là nhà phát triển đang tìm cách khai thác sức mạnh của Aspose.Tasks cho .NET trong các dự án của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với Thuộc tính mô-đun VBA, cung cấp cho bạn hướng dẫn từng bước về cách sử dụng chúng một cách hiệu quả trong các ứng dụng .NET của bạn.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Tóm lại, Aspose.Tasks for .NET trao quyền cho các nhà phát triển xử 
  Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

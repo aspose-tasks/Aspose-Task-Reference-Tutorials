@@ -3,10 +3,16 @@ title: Ustawianie atrybutów MS Project dla nowych zadań w Aspose.Tasks
 linktitle: Ustaw atrybuty dla nowych zadań w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak ustawić atrybuty MS Project dla nowych zadań przy użyciu Aspose.Tasks dla Java. Dzięki temu obszernemu przewodnikowi możesz łatwo dostosować właściwości zadań.
-type: docs
 weight: 21
 url: /pl/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie atrybutów MS Project dla nowych zadań w Aspose.Tasks
+
 ## Wstęp
 Witamy w naszym obszernym samouczku dotyczącym ustawiania atrybutów MS Project dla nowych zadań w Aspose.Tasks dla Java! W tym przewodniku przeprowadzimy Cię krok po kroku przez proces, upewniając się, że możesz łatwo zarządzać swoimi zadaniami i dostosowywać je dzięki tej potężnej bibliotece Java.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ O: Tak, Aspose.Tasks dla Java zapewnia rozbudowaną funkcjonalność do manipulo
  O: Tymczasowe licencje na Aspose.Tasks dla Java można uzyskać w witrynie[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań związanych z Aspose.Tasks dla Java?
  O: Możesz uzyskać wsparcie i kontaktować się ze społecznością na stronie[Aspose.Tasks dla forum pomocy technicznej Java](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

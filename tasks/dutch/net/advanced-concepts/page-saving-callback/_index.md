@@ -3,10 +3,16 @@ title: Implementatie van callback voor het opslaan van pagina's in Aspose.Tasks
 linktitle: Implementatie van callback voor het opslaan van pagina's in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u een callback voor paginabesparing implementeert in Aspose.Tasks voor .NET, waardoor aangepaste verwerking van documentuitvoerstromen met meerdere pagina's mogelijk wordt.
-type: docs
 weight: 12
 url: /nl/net/advanced-concepts/page-saving-callback/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Implementatie van callback voor het opslaan van pagina's in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u een callback voor het opslaan van pagina's kunt implementeren in Aspose.Tasks voor .NET. Met deze functie kunnen we een document van meerdere pagina's opslaan in door de gebruiker aangeleverde streams, wat flexibiliteit en maatwerk biedt bij het verwerken van de uitvoer.
@@ -121,3 +127,9 @@ A4: U kunt mechanismen voor foutafhandeling implementeren binnen de callback-met
 ### V5: Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Tasks?
 
  A5: U kunt de bezoeken[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor hulp, toegang tot documentatie[hier](https://reference.aspose.com/tasks/net/) of verken extra functies en licentieopties op de[Aspose.Tasks-website](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

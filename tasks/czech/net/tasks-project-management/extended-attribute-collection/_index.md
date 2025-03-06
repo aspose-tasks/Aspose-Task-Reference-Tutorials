@@ -3,10 +3,16 @@ title: Správa kolekce atributů MS Project v Aspose.Tasks
 linktitle: Správa rozšířené kolekce atributů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se efektivně spravovat rozšířené atributy MS Project pomocí Aspose.Tasks for .NET. Bezproblémová manipulace s atributy úkolů pomocí podrobného vedení.
-type: docs
 weight: 12
 url: /cs/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa kolekce atributů MS Project v Aspose.Tasks
+
 ## Úvod
 Hledáte efektivní správu rozšířených atributů MS Project pomocí Aspose.Tasks for .NET? V tomto tutoriálu vás provedeme procesem krok za krokem. Pojďme se ponořit!
 ## Předpoklady
@@ -105,3 +111,9 @@ A: Rozhodně! Aspose.Tasks for .NET vám umožňuje definovat vlastní pole roz�
 Odpověď: Ano, Aspose.Tasks for .NET podporuje formáty souborů MS Project napříč různými verzemi.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

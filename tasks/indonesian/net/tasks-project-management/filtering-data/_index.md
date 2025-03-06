@@ -3,10 +3,16 @@ title: Pemfilteran Data yang Efisien dengan Aspose.Tasks
 linktitle: Memfilter Data di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara memfilter data dalam file MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan produktivitas dan kemampuan analisis dengan mudah.
-type: docs
 weight: 16
 url: /id/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemfilteran Data yang Efisien dengan Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET menyediakan fungsionalitas yang kuat untuk memfilter data dalam file Microsoft Project, memungkinkan pengguna mengelola dan menganalisis informasi proyek secara efisien. Dalam tutorial ini, kita akan mempelajari cara memfilter data menggunakan Aspose.Tasks dalam format panduan langkah demi langkah.
 ## Prasyarat
@@ -78,3 +84,9 @@ J: Tentu saja, Anda dapat menggabungkan beberapa filter untuk menyempurnakan eks
  A: Ya, Anda bisa merujuk ke yang komprehensif[dokumentasi](https://reference.aspose.com/tasks/net/) disediakan oleh Aspose.Tasks untuk panduan rinci.
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
  J: Ya, Anda dapat mengakses dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau masalah apa pun yang Anda temui.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sammlung von Aufgabenbasislinien in Aspose.Tasks
 linktitle: Sammlung von Aufgabenbasislinien in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erkunden Sie mühelos Aufgabenbasislinien mit Aspose.Tasks für .NET. Effizientes Projektmanagement leicht gemacht. Jetzt downloaden! #Aspose.Tasks #MS-Projekt
-type: docs
 weight: 17
 url: /de/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammlung von Aufgabenbasislinien in Aspose.Tasks
+
 ## Einführung
 Willkommen in der Welt von Aspose.Tasks für .NET, einer leistungsstarken Bibliothek, die die nahtlose Bearbeitung und Verwaltung von Projektaufgaben ermöglicht. In diesem Tutorial befassen wir uns mit dem faszinierenden Bereich der Aufgaben-Baselines – einem entscheidenden Aspekt der Projektplanung und -verfolgung. Am Ende dieses Leitfadens beherrschen Sie die Kunst der Arbeit mit Aufgabenbasisliniensammlungen und können so Ihre Projektmanagementfähigkeiten verbessern.
 ## Voraussetzungen
@@ -68,3 +74,9 @@ A: Aspose.Tasks für .NET legt keine strengen Beschränkungen für die Anzahl de
 A: Auf jeden Fall! Beim Drucken der Grundliniendetails haben Sie die volle Kontrolle über die Formatierung und können diese so an Ihre spezifischen Anforderungen anpassen.
 ### F: Wo kann ich Hilfe suchen, wenn ich auf Probleme stoße oder weitere Fragen habe?
  A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für engagierte Unterstützung und Gemeinschaftshilfe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

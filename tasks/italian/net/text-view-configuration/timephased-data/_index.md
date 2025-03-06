@@ -3,10 +3,16 @@ title: Gestire i dati in modalità timephased con Aspose.Tasks per .NET
 linktitle: Gestione dei dati rapportati alla scala cronologica in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET per gestire facilmente dati rapportati alla scala cronologica, migliorare la pianificazione dei progetti e ottimizzare la gestione delle risorse. #Aspose #Tasks #Progetto MS
-type: docs
 weight: 14
 url: /it/net/text-view-configuration/timephased-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestire i dati in modalità timephased con Aspose.Tasks per .NET
+
 ## introduzione
 Nel mondo della gestione dei progetti, la gestione efficace dei dati temporali è fondamentale per l'allocazione delle risorse, la stima dei costi e la pianificazione complessiva del progetto. Aspose.Tasks per .NET fornisce una potente soluzione per lavorare senza problemi con dati personalizzati rapportati alla scala cronologica. Questo tutorial ti guiderà attraverso il processo di gestione dei dati rapportati alla scala cronologica utilizzando Aspose.Tasks, consentendoti di ottimizzare la gestione delle risorse nei tuoi progetti.
 ## Prerequisiti
@@ -90,3 +96,9 @@ Aspose.Tasks è progettato principalmente per lo sviluppo .NET. Tuttavia, le sue
  Ulteriori informazioni sulle licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso trovare la documentazione per Aspose.Tasks per .NET?
  Fare riferimento al completo[documentazione](https://reference.aspose.com/tasks/net/) per informazioni dettagliate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

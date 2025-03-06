@@ -3,10 +3,16 @@ title: إتقان أنماط التكرار السنوية في Aspose.Tasks ل�
 linktitle: تكوين أنماط التكرار السنوية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعلم كيفية تكوين أنماط التكرار السنوية في Aspose.Tasks لـ .NET. عزز مهاراتك في إدارة المشروعات من خلال هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أنماط التكرار السنوية في Aspose.Tasks لـ .NET
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، يعد التعامل مع المهام المتكررة بكفاءة جانبًا رئيسيًا. يوفر Aspose.Tasks for .NET حلاً قويًا لتكوين أنماط التكرار السنوية، مما يسمح لك بتبسيط جدولة مشروعك وإدارته. في هذا الدليل التفصيلي، سنستكشف كيفية إعداد أنماط التكرار السنوية باستخدام Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع ومساعدته.
 ### هل يمكنني تجربة Aspose.Tasks مجانًا قبل الشراء؟
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

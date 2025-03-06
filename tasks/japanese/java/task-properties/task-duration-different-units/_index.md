@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用したさまざまな単位でのタスク期間
 linktitle: Aspose.Tasks を使用したさまざまな単位でのタスク期間
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks を使用して Java プロジェクトのタスク期間管理を探索します。期間を分、日、時間、週、月単位で正確に計算して変換します。
-type: docs
 weight: 32
 url: /ja/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用したさまざまな単位でのタスク期間
+
 ## 導入
 プロジェクト管理の分野では、タスクの期間を理解し、管理することが重要な側面です。 Aspose.Tasks for Java は、これを効率的に処理するための強力なツールセットを提供します。このチュートリアルでは、Aspose.Tasks を使用してタスクの期間をさまざまな単位で取得する方法を説明します。
 ## 前提条件
@@ -83,3 +89,9 @@ Aspose.Tasks for Java を使用すると、タスク期間の管理が簡単に�
 訪問[ドキュメンテーション](https://reference.aspose.com/tasks/java/)包括的なリソースを提供します。
 ### Q: 購入する前に Aspose.Tasks for Java を試すことはできますか?
 はい、探索できます[無料トライアル](https://releases.aspose.com/)その能力を評価するために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 작업 시간 마스터하기
 linktitle: Aspose.Tasks의 작업 시간 수집
 second_title: Aspose.태스크 .NET API
 description: 프로젝트 일정을 효율적으로 관리하는 데 있어 Aspose.Tasks for .NET의 강력한 기능을 살펴보세요. 달력을 사용자 정의하고, 작업 시간을 설정하고, 프로젝트를 쉽게 간소화하세요.
-type: docs
 weight: 14
 url: /ko/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 작업 시간 마스터하기
+
 ## 소개
 .NET용 Aspose.Tasks에서 작업 시간 관리 기술을 익히고 싶으십니까? 더 이상 보지 마세요! 이 단계별 가이드에서는 Aspose.Tasks를 사용하여 작업 시간 수집의 복잡성을 자세히 살펴보고 사용자 지정 달력을 효율적으로 처리하고 프로젝트 일정을 간소화할 수 있도록 지원합니다.
 ## 전제조건
@@ -114,3 +120,9 @@ Aspose.Tasks에서 작업 시간 모음을 마스터하면 프로젝트 달력�
  예, 다음 사이트를 방문하여 무료 평가판으로 Aspose.Tasks를 탐색할 수 있습니다.[이 링크](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 지원은 어디서 구할 수 있나요?
  질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.Tasks 지원 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maîtriser les options de sauvegarde de MS Project pour Aspose.Tasks
 linktitle: Options générales d'enregistrement pour Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à enregistrer efficacement des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez facilement les options de sortie pour vos projets.
-type: docs
 weight: 17
 url: /fr/net/saving-options/general-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les options de sauvegarde de MS Project pour Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for .NET offre des fonctionnalités puissantes pour manipuler les fichiers Microsoft Project par programme. Dans ce didacticiel, nous aborderons les subtilités de l'enregistrement des fichiers MS Project à l'aide de diverses options fournies par Aspose.Tasks. Plus précisément, nous nous concentrerons sur les options de sauvegarde générales disponibles pour Aspose.Tasks, vous permettant d'adapter la sortie à vos besoins spécifiques.
 ## Conditions préalables
@@ -68,3 +74,9 @@ R : Oui, Aspose.Tasks prend en charge différentes versions de fichiers MS Proje
  R : Des licences temporaires sont disponibles à des fins d'évaluation[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je demander de l'aide pour les requêtes liées à Aspose.Tasks ?
  R : Vous pouvez rejoindre le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15)pour obtenir l'aide d'experts et d'autres développeurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

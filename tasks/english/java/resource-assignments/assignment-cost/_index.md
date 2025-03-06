@@ -3,10 +3,16 @@ title: Efficient Assignment Cost Management with Aspose.Tasks
 linktitle: Handle Assignment Cost in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to handle assignment costs effectively in Aspose.Tasks for Java. Step-by-step guide for managing project resources efficiently.
-type: docs
 weight: 12
 url: /java/resource-assignments/assignment-cost/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efficient Assignment Cost Management with Aspose.Tasks
+
 ## Introduction
 Managing assignment costs efficiently is crucial for project management tasks. Aspose.Tasks for Java provides powerful features to handle assignment costs effectively. In this tutorial, we'll guide you through the process of managing assignment costs step by step using Aspose.Tasks for Java.
 ## Prerequisites
@@ -64,3 +70,10 @@ A: You can get support by visiting the [Aspose.Tasks forum](https://forum.aspose
 A: Yes, you can download a free trial from the [website](https://releases.aspose.com/).
 ### Q: Do I need a temporary license for using Aspose.Tasks for Java in a trial?
 A: No, a temporary license is not required for trial usage. However, it's recommended for production environments.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

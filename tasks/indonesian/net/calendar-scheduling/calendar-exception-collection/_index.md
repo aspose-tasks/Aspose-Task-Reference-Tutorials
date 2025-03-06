@@ -3,10 +3,16 @@ title: Kumpulan Pengecualian Kalender di Aspose.Tasks
 linktitle: Kumpulan Pengecualian Kalender di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani pengecualian kalender secara efisien di proyek .NET Anda menggunakan Aspose.Tasks, memastikan penjadwalan dan manajemen sumber daya yang akurat.
-type: docs
 weight: 13
 url: /id/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kumpulan Pengecualian Kalender di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam manajemen proyek, penjadwalan yang tepat sangat penting untuk kesuksesan. Namun, skenario dunia nyata sering kali memerlukan penyimpangan dari jadwal standar karena hari libur, acara khusus, atau faktor lainnya. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk mengelola pengecualian tersebut melalui fitur Koleksi Pengecualian Kalender. Tutorial ini akan memandu Anda melalui proses pemanfaatan fungsi ini langkah demi langkah.
@@ -143,3 +149,9 @@ A4: Aspose.Tasks untuk .NET memungkinkan Anda menangani pengecualian yang tumpan
 ### Q5: Dapatkah saya menyesuaikan waktu kerja untuk setiap hari dalam pengecualian?
 
 A5: Ya, Anda dapat menentukan waktu kerja khusus untuk setiap hari dalam pengecualian untuk mengakomodasi kebutuhan penjadwalan tertentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

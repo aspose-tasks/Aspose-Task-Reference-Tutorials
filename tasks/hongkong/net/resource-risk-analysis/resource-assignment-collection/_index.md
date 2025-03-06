@@ -3,10 +3,16 @@ title: Aspose.Tasks 中資源分配的集合
 linktitle: Aspose.Tasks 中資源分配的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 中的資源分配。帶有程式碼範例的分步教程。
-type: docs
 weight: 12
 url: /zh-hant/net/resource-risk-analysis/resource-assignment-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中資源分配的集合
+
 ## 介紹
 歡迎閱讀這個關於使用 Aspose.Tasks for .NET 在 Microsoft Project 中管理資源分配的綜合教學。在本教程中，我們將逐步深入研究該過程，確保您充分了解如何有效地操縱資源分配。無論您是經驗豐富的開發人員還是剛入門，本指南都將引導您完成您需要了解的所有內容。
 ## 先決條件
@@ -94,3 +100,9 @@ foreach (var ra in resourceAssignments)
 答：是的，臨時許可證可用於評估目的。您可以從以下位置取得一個[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以購買 Aspose.Tasks for .NET 的完整授權？
 答：您可以從 Aspose 線上商店購買完整許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

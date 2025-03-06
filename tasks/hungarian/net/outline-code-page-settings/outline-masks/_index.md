@@ -3,10 +3,16 @@ title: A Microsoft Project Outline Maszkok elsajátítása az Aspose.Tasks progr
 linktitle: Munkavégzés körvonalmaszkokkal az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan dolgozhat programozottan Microsoft Project fájlokkal az Aspose.Tasks for .NET használatával. Hatékonyan sajátítsa el a körvonalmaszkokat.
-type: docs
 weight: 14
 url: /hu/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Microsoft Project Outline Maszkok elsajátítása az Aspose.Tasks programban
+
 ## Bevezetés
 A projektmenedzsment és a feladatkövetés területén a Microsoft Project sarokkő eszköz. Ha azonban a projektfájlok programozott kezeléséről és kezeléséről van szó, az Aspose.Tasks for .NET hatékony megoldásként jelenik meg. Ez az oktatóanyag az Aspose.Tasks for .NET használatával végzett MS Project fájlokkal való munka egy konkrét szempontját mutatja be: a körvonalmaszkok kezelését.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Valóban, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/
  V: Természetesen! Hozzáférhet az Aspose.Tasks ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### K: Hol szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  V: Ha ideiglenes licencre van szüksége értékelési vagy tesztelési célokra, szerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

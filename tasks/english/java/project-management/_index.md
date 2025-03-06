@@ -3,10 +3,16 @@ title: Project Management
 linktitle: Project Management
 second_title: Aspose.Tasks Java API
 description: Explore Aspose.Tasks Java with our comprehensive project management tutorials. From critical path calculations to fiscal year properties, streamline your workflow.
-type: docs
 weight: 27
 url: /java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Project Management
+
 ## Introduction
 
 Are you ready to elevate your project management skills using Aspose.Tasks for Java? Dive into our exclusive tutorials covering a spectrum of features and functionalities that will empower your Java development journey. From critical path calculations to handling task writing exceptions during printing, we've got you covered. Let's explore the wealth of knowledge waiting for you.
@@ -69,3 +75,10 @@ Learn how to read MS Project files from Primavera XML seamlessly using Aspose.Ta
 Learn how to print pages to separate images in Aspose.Tasks for Java. Improve project visualization with this step-by-step guide.
 ### [Handle Task Writing Exceptions during Printing in Aspose.Tasks](./print-task-exceptions/)
 Master exception handling in Aspose.Tasks for Java to ensure seamless project execution. Learn how to handle task writing exceptions during printing effortlessly.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

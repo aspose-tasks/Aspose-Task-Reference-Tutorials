@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任务基线持续时间管理
 linktitle: Aspose.Tasks 中的任务基线持续时间管理
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 在 MS Project 中高效管理任务基线。本教程将指导您逐步完成该过程。
-type: docs
 weight: 12
 url: /zh/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任务基线持续时间管理
+
 ## 介绍
 在 MS Project 中管理任务基线对于项目规划和跟踪至关重要。在本教程中，我们将探讨如何使用 Aspose.Tasks for Java 有效管理任务基线持续时间。
 ## 先决条件
@@ -76,3 +82,9 @@ MS Project 中的任务基线是任务的初始计划时间表的快照，包括
 是的，Aspose.Tasks 为项目管理提供了广泛的功能，包括任务调度、资源分配和甘特图生成。
 ### 在哪里可以找到对 Aspose.Tasks 的支持？
 您可以在以下位置找到对 Aspose.Tasks 的支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)，您可以在其中提出问题并与其他用户互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

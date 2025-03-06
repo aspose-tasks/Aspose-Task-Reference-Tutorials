@@ -3,10 +3,16 @@ title: Calculate Critical MS Project Path in Aspose.Tasks
 linktitle: Calculate Critical Path in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 description: Learn how to calculate the critical path in MS Project using Aspose.Tasks for Java. This provides step-by-step guidance for efficient project management.
-type: docs
 weight: 10
 url: /java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculate Critical MS Project Path in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will guide you through the process of calculating the critical path in MS Project using Aspose.Tasks for Java. The critical path is essential for project management as it helps identify the sequence of tasks that must be completed on time to ensure the project's overall schedule is not delayed.
 ## Prerequisites
@@ -72,3 +78,10 @@ A: You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/t
 A: Yes, you can purchase a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 ### Q: How can I buy Aspose.Tasks for Java?
 A: You can purchase Aspose.Tasks for Java from the website [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

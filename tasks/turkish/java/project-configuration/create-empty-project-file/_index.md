@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Boş MS Project Dosyası Oluşturun
 linktitle: Aspose.Tasks'ta Boş Proje Dosyası Oluşturun
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks'ı kullanarak Java'da boş Microsoft Project dosyalarını nasıl oluşturacağınızı öğrenin. Kusursuz entegrasyon için kolay adımlar.
-type: docs
 weight: 11
 url: /tr/java/project-configuration/create-empty-project-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Boş MS Project Dosyası Oluşturun
+
 ## giriiş
 Proje yönetimi ve görev planlama alanında Microsoft Project dosyalarının işlenmesi genellikle bir zorunluluktur. Aspose.Tasks for Java, bu dosyaları Java uygulamaları içinde sorunsuz bir şekilde oluşturmak, değiştirmek ve yönetmek için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak boş bir Microsoft Project dosyası oluşturma sürecini ayrıntılı olarak ele alacağız.
 ## Önkoşullar
@@ -53,3 +59,9 @@ Aspose.Tasks for Java ile boş bir Microsoft Project dosyası oluşturmak basit 
  Topluluk forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks for Java için nasıl geçici lisans alabilirim?
  Geçici lisanslar şu adresten alınabilir:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

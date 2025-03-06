@@ -3,10 +3,16 @@ title: Manage Overtimes for Resources in Aspose.Tasks
 linktitle: Manage Overtimes for Resources in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Efficiently manage overtimes for MS Project resources using Aspose.Tasks for Java. Optimize resource utilization and cost management effortlessly.
-type: docs
 weight: 13
 url: /java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Overtimes for Resources in Aspose.Tasks
+
 ## Introduction
 In project management, efficiently managing resources is crucial for successful project completion. Overtime management is a significant aspect, ensuring that resources are utilized optimally without overspending. Aspose.Tasks for Java provides robust functionality to manage overtimes for MS Project resources seamlessly. In this tutorial, we'll guide you through the process of managing overtimes step by step.
 ## Prerequisites
@@ -59,3 +65,10 @@ Absolutely! Aspose.Tasks provides robust APIs to automate overtime management ta
 Yes, Aspose.Tasks provides comprehensive technical support through its forum. You can access the support forum [here](https://forum.aspose.com/c/tasks/15).
 ### Can I try Aspose.Tasks for Java before purchasing?
 Yes, you can explore Aspose.Tasks for Java with a free trial. Download the trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

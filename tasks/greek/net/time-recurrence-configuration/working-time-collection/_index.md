@@ -3,10 +3,16 @@ title: Mastering Working Times στο Aspose.Tasks
 linktitle: Συλλογή ωρών εργασίας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Tasks για το .NET στην αποτελεσματική διαχείριση των χρονοδιαγραμμάτων έργων. Προσαρμόστε τα ημερολόγια, ορίστε ώρες εργασίας και απλοποιήστε τα έργα σας με ευκολία.
-type: docs
 weight: 14
 url: /el/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Working Times στο Aspose.Tasks
+
 ## Εισαγωγή
 Ψάχνετε να κατακτήσετε την τέχνη της διαχείρισης του χρόνου εργασίας στο Aspose.Tasks για .NET; Μην ψάχνετε άλλο! Σε αυτόν τον οδηγό βήμα προς βήμα, θα εμβαθύνουμε στις περιπλοκές της συλλογής του χρόνου εργασίας χρησιμοποιώντας το Aspose.Tasks, δίνοντάς σας τη δυνατότητα να χειρίζεστε αποτελεσματικά προσαρμοσμένα ημερολόγια και να εξορθολογίζετε τα χρονοδιαγράμματα του έργου σας.
 ## Προαπαιτούμενα
@@ -114,3 +120,9 @@ foreach (var day in calendar.WeekDays)
  Ναι, μπορείτε να εξερευνήσετε το Aspose.Tasks με μια δωρεάν δοκιμή μεταβαίνοντας στη διεύθυνση[αυτός ο σύνδεσμος](https://releases.aspose.com/).
 ### Πού μπορώ να αναζητήσω υποστήριξη για το Aspose.Tasks;
  Για οποιαδήποτε απορία ή βοήθεια, επισκεφθείτε το[Φόρουμ υποστήριξης Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

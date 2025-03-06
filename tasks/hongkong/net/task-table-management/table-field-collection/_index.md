@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks for .NET 中的表格欄位集合
 linktitle: Aspose.Tasks 中表格欄位的集合
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 探索專案管理的動態世界。了解如何操作表格欄位集合以獲得自訂項目體驗。
-type: docs
 weight: 13
 url: /zh-hant/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks for .NET 中的表格欄位集合
+
 ## 介紹
 Aspose.Tasks for .NET 是一個功能強大的程式庫，透過提供處理 Microsoft Project 檔案的廣泛功能來促進專案管理。在本教程中，我們將深入研究 Aspose.Tasks 中的表格欄位集合，探索如何使用 C# 有效地操作和管理它們。
 ## 先決條件
@@ -111,3 +117,9 @@ else
 參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)獲得支持、提出問題以及與社區合作。
 ### Aspose.Tasks for .NET 有沒有免費試用版？
 是的，您可以透過免費試用來探索 Aspose.Tasks for .NET 的功能。下載它[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

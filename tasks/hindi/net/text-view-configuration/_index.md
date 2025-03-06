@@ -3,10 +3,16 @@ title: Aspose.Tasks टेक्स्ट और व्यू कॉन्फ़
 linktitle: Aspose.Tasks टेक्स्ट और व्यू कॉन्फ़िगरेशन
 second_title: Aspose.Tasks .NET API
 description: टेक्स्ट पर .NET ट्यूटोरियल के लिए Aspose.Tasks का अन्वेषण करें और कॉन्फ़िगरेशन देखें। बेहतर प्रोजेक्ट प्रबंधन के लिए मास्टर टेक्स्ट शैलियाँ, टिफ़ कम्प्रेशन, टाइमलाइन दृश्य और बहुत कुछ।
-type: docs
 weight: 30
 url: /hi/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks टेक्स्ट और व्यू कॉन्फ़िगरेशन
+
 ## परिचय
 
 टेक्स्ट और व्यू कॉन्फ़िगरेशन पर ध्यान केंद्रित करने वाले .NET ट्यूटोरियल के लिए Aspose.Tasks पर व्यापक गाइड में आपका स्वागत है। इस लेख में, हम Aspose.Tasks की कार्यक्षमता में महारत हासिल करने के लिए चरण-दर-चरण अंतर्दृष्टि प्रदान करते हुए, परियोजना प्रबंधन के विभिन्न पहलुओं पर चर्चा करेंगे।
@@ -53,3 +59,9 @@ url: /hi/net/text-view-configuration/
 सटीक प्रोजेक्ट टाइमलाइन विज़ुअलाइज़ेशन के लिए अपने गैंट चार्ट दृश्य में टाइमस्केल स्तरों को कॉन्फ़िगर करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें।
 ### [Aspose.Tasks में उपयोग दृश्य कॉन्फ़िगर करना](./usage-views/)
 .NET के लिए Aspose.Tasks में कार्य उपयोग दृश्यों को कॉन्फ़िगर करना सीखें। विस्तृत चरणों के साथ प्रोजेक्ट विज़ुअलाइज़ेशन बढ़ाएँ। अभी लाइब्रेरी डाउनलोड करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

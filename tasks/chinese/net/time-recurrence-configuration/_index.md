@@ -3,10 +3,16 @@ title: Aspose.Tasks 时间配置和重复模式
 linktitle: Aspose.Tasks 时间配置和重复模式
 second_title: Aspose.Tasks .NET API
 description: 探索有关时间配置和重复模式的 Aspose.Tasks for .NET 教程。轻松管理日历、自定义工作时间并优化项目安排。
-type: docs
 weight: 33
 url: /zh/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 时间配置和重复模式
+
 ## 介绍
 
 欢迎来到 Aspose.Tasks for .NET 的世界，在这里，高效的项目管理满足了可定制时间配置和重复模式的强大功能。在这份综合指南中，我们将深入研究各种教程，使您能够掌握项目调度和资源管理的艺术。
@@ -58,3 +64,9 @@ url: /zh/net/time-recurrence-configuration/
 了解如何在 Aspose.Tasks for .NET 中自定义工作周。创建个性化项目日历的分步指南。现在下载！
 ### [在 Aspose.Tasks 中配置每年重复模式](./yearly-recurrence-patterns/)
 了解在 Aspose.Tasks for .NET 中配置每年重复模式。通过本分步指南提高您的项目管理技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

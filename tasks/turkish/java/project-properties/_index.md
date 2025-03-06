@@ -3,10 +3,16 @@ title: Proje Özellikleri
 linktitle: Proje Özellikleri
 second_title: Aspose.Tasks Java API'si
 description: Proje Özellikleri Eğitimlerimizle Aspose.Tasks for Java'nın potansiyelini ortaya çıkarın. Microsoft Project bilgilerini zahmetsizce çıkarın, kullanın ve değiştirin.
-type: docs
 weight: 24
 url: /tr/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proje Özellikleri
+
 ## giriiş
 
 Aspose.Tasks for Java becerilerinizi yükseltmeye hazır mısınız? Proje Özellikleri Eğitimlerimiz, üç temel hususa odaklanarak bu güçlü kitaplığın tüm potansiyelinden yararlanmanızı sağlar: meta özellikleri okumak, Microsoft Project bilgilerini çıkarmak ve MS Project manipülasyonunda uzmanlaşmak. Java geliştirme ve proje yönetimi yeteneklerinizi geliştirmek için bu eğitimlere dalın.
@@ -35,3 +41,9 @@ Bu kapsamlı eğitimle Aspose.Tasks projelerinde meta verilerin gücünü ortaya
 Aspose.Tasks for Java'yı kullanarak Microsoft Project bilgilerini nasıl çıkaracağınızı öğrenin. Java uygulamalarında proje yönetimini zahmetsizce geliştirin.
 ### [Aspose.Tasks for Java ile MS Proje Manipülasyonunda Uzmanlaşmak](./write-project-info/)
 Aspose.Tasks for Java'yı kullanarak MS Project bilgilerini verimli bir şekilde yazmayı öğrenin. Java geliştiricileri için adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks での使用状況ビューの構成
 linktitle: Aspose.Tasks での使用状況ビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でタスク使用状況ビューを構成する方法を学習します。詳細な手順でプロジェクトの視覚化を強化します。今すぐライブラリをダウンロードしてください!
-type: docs
 weight: 17
 url: /ja/net/text-view-configuration/usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での使用状況ビューの構成
+
 ## 導入
 プロジェクト管理機能の強化を検討している .NET 開発者にとって、Aspose.Tasks は Microsoft Project ファイルを簡単に操作できる強力なツールです。このチュートリアルでは、Aspose.Tasks for .NET を使用した使用状況ビューの構成に焦点を当てます。フォローして、プロジェクトの視覚化を改善するための詳細を含むタスク使用状況ビューのレンダリングに関する洞察を得ることができます。
 ## 前提条件
@@ -72,3 +78,9 @@ Aspose.Tasks を購入できます[ここ](https://purchase.aspose.com/buy).
 はい、無料トライアルを試してみましょう[ここ](https://releases.aspose.com/).
 ### Q: サポートが必要ですか? 質問がありますか?
 サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

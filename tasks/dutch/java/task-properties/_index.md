@@ -3,10 +3,16 @@ title: Taakeigenschappen
 linktitle: Taakeigenschappen
 second_title: Aspose.Tasks Java-API
 description: Verbeter Java-projectbeheer met Aspose.Tasks. Bekijk tutorials over taakeigenschappen, van het omgaan met prioriteiten tot het beheren van kosten. Optimaliseer uw project vandaag nog!
-type: docs
 weight: 34
 url: /nl/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taakeigenschappen
+
 ## Invoering
 
 Beheer en pas moeiteloos Microsoft Project-bestanden in Java aan met Aspose.Tasks. Ontdek tutorials over verschillende aspecten van taakeigenschappen om uw projectmanagementmogelijkheden te verbeteren.
@@ -138,3 +144,9 @@ Ontdek Aspose.Tasks voor Java en beheer taaktijdgebonden gegevensbeheer. Downloa
 Leer hoe u taakgegevens kunt bijwerken naar MPP-indeling met behulp van Aspose.Tasks voor Java. Volg onze stap-voor-stap handleiding voor efficiënt projectmanagement.
 ### [WBS gekoppeld aan taak in Aspose.Tasks](./wbs-associated-with-task/)
 Beheers WBS met Aspose.Tasks voor Java - Leer taak-WBS-codes lezen en opnieuw nummeren. Verhoog de efficiëntie van projectmanagement!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

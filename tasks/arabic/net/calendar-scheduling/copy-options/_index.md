@@ -3,10 +3,16 @@ title: نسخ الخيارات في Aspose.Tasks
 linktitle: نسخ الخيارات في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية نسخ بيانات المشروع بكفاءة باستخدام Aspose.Tasks لـ .NET. قم بتحسين تطبيقات .NET الخاصة بك من خلال إمكانيات إدارة المشاريع القوية.
-type: docs
 weight: 18
 url: /ar/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# نسخ الخيارات في Aspose.Tasks
+
 ## مقدمة
 
 في عالم تطوير .NET، تعد إدارة المهام بكفاءة أمرًا بالغ الأهمية لنجاح المشروع. يوفر Aspose.Tasks for .NET حلاً شاملاً للمطورين للتعامل مع مهام إدارة المشروع بسلاسة. إحدى الميزات الأساسية هي القدرة على نسخ بيانات المشروع بخيارات مختلفة مصممة خصيصًا لتلبية الاحتياجات المحددة. في هذا البرنامج التعليمي، سوف نستكشف خيارات النسخ في Aspose.Tasks، مع تقسيم كل مثال إلى خطوات متعددة لإرشادك خلال العملية.
@@ -98,3 +104,9 @@ project.CopyTo(mppProject, copyToOptions);
 ### س5: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على الدعم والتوثيق والبرامج التعليمية ومناقشات المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

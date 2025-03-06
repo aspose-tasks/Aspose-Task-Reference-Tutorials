@@ -3,10 +3,16 @@ title: Beheers jaarlijkse herhalingspatronen in Aspose.Tasks voor .NET
 linktitle: Jaarlijkse herhalingspatronen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u jaarlijkse herhalingspatronen configureert in Aspose.Tasks voor .NET. Verbeter uw projectmanagementvaardigheden met deze stapsgewijze handleiding.
-type: docs
 weight: 18
 url: /nl/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheers jaarlijkse herhalingspatronen in Aspose.Tasks voor .NET
+
 ## Invoering
 In de dynamische wereld van projectmanagement is het efficiënt omgaan met terugkerende taken een belangrijk aspect. Aspose.Tasks voor .NET biedt een krachtige oplossing voor het configureren van jaarlijkse herhalingspatronen, zodat u uw projectplanning en -beheer kunt stroomlijnen. In deze stapsgewijze handleiding onderzoeken we hoe u jaarlijkse herhalingspatronen kunt instellen met Aspose.Tasks.
 ## Vereisten
@@ -69,3 +75,9 @@ In deze zelfstudie hebben we het proces van het configureren van jaarlijkse herh
  Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor steun en hulp van de gemeenschap.
 ### Kan ik Aspose.Tasks gratis uitproberen voordat ik een aankoop doe?
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

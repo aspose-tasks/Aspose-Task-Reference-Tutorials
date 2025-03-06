@@ -3,10 +3,16 @@ title: 处理 Aspose.Tasks 中的任务差异
 linktitle: 处理 Aspose.Tasks 中的任务差异
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 在管理项目任务差异方面的强大功能。遵循我们的无缝集成和高效处理的综合指南。
-type: docs
 weight: 19
 url: /zh/java/task-properties/handle-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 处理 Aspose.Tasks 中的任务差异
+
 ## 介绍
 在项目管理领域，Aspose.Tasks for Java 是一款强大且多功能的工具，可有效处理任务差异。本教程将指导您完成利用 Aspose.Tasks 无缝管理和适应任务差异的过程。
 ## 先决条件
@@ -68,3 +74,9 @@ Aspose.Tasks 是一款多功能工具，适合各种项目管理要求，提供�
 如需支持和讨论，请访问 Aspose.Tasks 论坛[这里](https://forum.aspose.com/c/tasks/15).
 ### 我可以下载 Java 版 Aspose.Tasks 吗？
 是的，下载最新版本的 Aspose.Tasks for Java[这里](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

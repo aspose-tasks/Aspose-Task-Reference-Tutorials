@@ -3,10 +3,16 @@ title: Dostosuj kolumny wykresu Gantta za pomocą Aspose.Tasks
 linktitle: Kolumny wykresu Gantta w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak dostosować kolumny wykresu Gantta w Aspose.Tasks dla .NET, aby efektywnie wyświetlać informacje o konkretnych zadaniach.
-type: docs
 weight: 21
 url: /pl/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj kolumny wykresu Gantta za pomocą Aspose.Tasks
+
 ## Wstęp
 Wykresy Gantta są podstawowym narzędziem w zarządzaniu projektami, zapewniającym wizualną reprezentację zadań, osi czasu i zasobów. Aspose.Tasks dla .NET oferuje potężne możliwości manipulowania wykresami Gantta, w tym dostosowywanie kolumn w celu wyświetlania określonych informacji o zadaniu. W tym samouczku omówimy, jak pracować z kolumnami wykresu Gantta za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -99,3 +105,9 @@ Odp.: Aspose.Tasks dla .NET zapewnia kompleksowe interfejsy API i funkcje do zar
 Odp.: Aspose.Tasks dla .NET oferuje szerokie opcje dostosowywania, umożliwiając dodawanie znacznej liczby kolumn do wykresów Gantta bez ograniczeń.
 ### P: Gdzie mogę znaleźć dodatkowe wsparcie i zasoby dla Aspose.Tasks dla .NET?
 Odp.: Możesz przeglądać dokumentację, fora społeczności i kanały wsparcia udostępniane przez Aspose.Tasks dla .NET, aby uzyskać dostęp do kompleksowych zasobów i pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

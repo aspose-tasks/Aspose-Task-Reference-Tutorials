@@ -3,10 +3,16 @@ title: Lưu dự án MS trong Primavera XML cho Aspose.Tasks
 linktitle: Tùy chọn lưu XML Primavera cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để lưu các tùy chọn MS Project ở định dạng Primavera XML. Nâng cao khả năng quản lý dự án một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu dự án MS trong Primavera XML cho Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án và xử lý tác vụ, Aspose.Tasks for .NET nổi lên như một đồng minh đắc lực. Thư viện này trang bị cho các nhà phát triển những công cụ cần thiết để thao tác dữ liệu dự án một cách dễ dàng trong các ứng dụng .NET. Một tính năng đáng chú ý là khả năng tương tác với các tệp XML Primavera, mang lại trải nghiệm liền mạch trong việc xử lý thông tin dự án.
 ## Điều kiện tiên quyết
@@ -56,3 +62,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ tích hợp với nhiều cô
  Trả lời: Có nhiều tùy chọn cấp phép khác nhau, bao gồm cả giấy phép tạm thời, cho Aspose.Tasks for .NET. Khám phá chi tiết cấp phép[đây](https://purchase.aspose.com/buy).
 ### Câu hỏi: Tôi có thể tùy chỉnh các tùy chọn lưu cho định dạng Primavera XML không?
 Trả lời: Có, Aspose.Tasks for .NET cung cấp tính linh hoạt trong việc định cấu hình các tùy chọn lưu, cho phép tùy chỉnh theo yêu cầu cụ thể của dự án.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

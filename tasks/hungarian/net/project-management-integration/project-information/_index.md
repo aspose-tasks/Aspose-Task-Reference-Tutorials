@@ -3,10 +3,16 @@ title: Az MS projekt információinak kibontása az Aspose.Tasks-ból
 linktitle: Projektinformációk kinyerése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Tanulja meg, hogyan bonthatja ki könnyedén az MS Project adatait az Aspose.Tasks for .NET segítségével. Merüljön el átfogó oktatóanyagunkban.
-type: docs
 weight: 20
 url: /hu/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS projekt információinak kibontása az Aspose.Tasks-ból
+
 ## Bevezetés
 Hatékonyan szeretne információkat kinyerni a Microsoft Project fájlokból az Aspose.Tasks for .NET segítségével? Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton. Mielőtt azonban belemerülnénk a megvalósítás részleteibe, győződjünk meg arról, hogy mindennel rendelkezik, amire szüksége van.
 ## Előfeltételek
@@ -73,3 +79,9 @@ V: Abszolút! Az Aspose.Tasks for .NET robusztus funkcionalitást biztosít nemc
  V: Igen, technikai támogatást kaphat az Aspose.Tasks for .NET-hez a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehet fel, és szakértőktől kérhet segítséget.
 ### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t .NET-hez a vásárlás előtt?
  V: Természetesen! Használhatja az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a webhelyről[kiadások oldala](https://releases.aspose.com/), amely lehetővé teszi, hogy a vásárlási döntés meghozatala előtt felfedezze tulajdonságait.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý thời lượng cơ bản của nhiệm vụ trong Aspose.Task
 linktitle: Quản lý thời lượng cơ bản của nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý hiệu quả các đường cơ sở của nhiệm vụ trong MS Project bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn này hướng dẫn bạn từng bước trong suốt quá trình.
-type: docs
 weight: 12
 url: /vi/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thời lượng cơ bản của nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Quản lý đường cơ sở nhiệm vụ trong MS Project là rất quan trọng để lập kế hoạch và theo dõi dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý hiệu quả thời lượng cơ sở của nhiệm vụ bằng cách sử dụng Aspose.Tasks cho Java.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Có, bạn có thể sửa đổi đường cơ sở nhiệm vụ trong MS Proje
 Có, Aspose.Tasks cung cấp nhiều tính năng để quản lý dự án, bao gồm lập lịch tác vụ, phân bổ nguồn lực và tạo biểu đồ Gantt.
 ### Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ cho Aspose.Tasks trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi bạn có thể đặt câu hỏi và tương tác với những người dùng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

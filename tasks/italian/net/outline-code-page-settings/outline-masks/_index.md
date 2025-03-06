@@ -3,10 +3,16 @@ title: Padroneggiare le maschere di contorno di Microsoft Project in Aspose.Task
 linktitle: Lavorare con le maschere di contorno in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come lavorare con i file di Microsoft Project a livello di codice utilizzando Aspose.Tasks per .NET. Padroneggia le maschere di contorno in modo efficiente.
-type: docs
 weight: 14
 url: /it/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le maschere di contorno di Microsoft Project in Aspose.Tasks
+
 ## introduzione
 Nel campo della gestione dei progetti e del monitoraggio delle attività, Microsoft Project rappresenta uno strumento fondamentale. Tuttavia, quando si tratta di manipolare e gestire i file di progetto a livello di codice, Aspose.Tasks per .NET emerge come una potente soluzione. Questo tutorial approfondirà un aspetto specifico del lavoro con i file MS Project utilizzando Aspose.Tasks per .NET: gestione delle maschere di contorno.
 ## Prerequisiti
@@ -76,3 +82,9 @@ R: In effetti, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/t
  R: Certamente! Puoi accedere a una prova gratuita di Aspose.Tasks[Qui](https://releases.aspose.com/).
 ### D: Dove posso ottenere una licenza temporanea per Aspose.Tasks?
  R: Se hai bisogno di una licenza temporanea a scopo di valutazione o test, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

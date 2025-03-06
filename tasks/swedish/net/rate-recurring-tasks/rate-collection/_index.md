@@ -3,10 +3,16 @@ title: Master MS Project Rates med Aspose.Tasks
 linktitle: Samling av priser i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar priser i MS Project-filer med Aspose.Tasks för .NET. Steg-för-steg handledning för effektiv resurshantering.
-type: docs
 weight: 11
 url: /sv/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master MS Project Rates med Aspose.Tasks
+
 ## Introduktion
 Välkommen till vår handledning om att hantera priser i MS Project med Aspose.Tasks för .NET! I den här guiden går vi igenom processen att arbeta med priser i dina MS Project-filer med Aspose.Tasks. Oavsett om du är en erfaren utvecklare eller precis har börjat med .NET-utveckling, kommer den här handledningen att ge dig steg-för-steg-instruktioner för att effektivt hantera priser inom dina projekt.
 ## Förutsättningar
@@ -110,3 +116,9 @@ S: Absolut, Aspose.Tasks för .NET stöder att arbeta med MS Project-filer av ol
 S: Ja, du kan använda en gratis testversion av Aspose.Tasks för .NET för att utvärdera dess funktioner och kompatibilitet med dina krav.
 ### F: Hur kan jag köpa en licens för Aspose.Tasks för .NET?
  S: Du kan köpa en licens för Aspose.Tasks för .NET från[hemsida](https://purchase.aspose.com/temporary-license/)som ger flexibla licensalternativ för att passa dina behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

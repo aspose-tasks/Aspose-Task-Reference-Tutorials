@@ -3,10 +3,16 @@ title: إدارة مجموعات المشروع في Aspose.Tasks
 linktitle: إدارة مجموعة المجموعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات MS Project بكفاءة باستخدام Aspose.Tasks لـ .NET. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 26
 url: /ar/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعات المشروع في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إدارة مجموعات MS Project الجماعية باستخدام Aspose.Tasks لـ .NET. تعد إدارة مجموعات المجموعة أمرًا ضروريًا لتنظيم المهام والموارد ومعالجتها بكفاءة داخل مشروعك.
 ## المتطلبات الأساسية
@@ -108,3 +114,9 @@ foreach (var group in groupsToDelete)
  يمكنك الحصول على دعم لـ Aspose.Tasks لـ .NET من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

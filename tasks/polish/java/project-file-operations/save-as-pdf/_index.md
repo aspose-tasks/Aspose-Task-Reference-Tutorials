@@ -3,10 +3,16 @@ title: Zapisz jako plik PDF w Aspose.Tasks
 linktitle: Zapisz jako plik PDF w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak konwertować pliki projektu do formatu PDF za pomocą Aspose.Tasks dla Java. Proste kroki do skutecznej konwersji.
-type: docs
 weight: 17
 url: /pl/java/project-file-operations/save-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz jako plik PDF w Aspose.Tasks
+
 ## Wstęp
 tym samouczku przeprowadzimy Cię przez proces zapisywania projektu w formacie PDF przy użyciu Aspose.Tasks dla Java. Dzięki Aspose.Tasks możesz efektywnie konwertować pliki projektu do formatu PDF, zapewniając kompatybilność i łatwość udostępniania. Przejdźmy do kroków:
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Odp.: Tak, Aspose.Tasks obsługuje szeroką gamę formatów plików, w tym MPP, 
  Odp.: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks od[Tutaj](https://releases.aspose.com/).
 ### P: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?
  O: Aby uzyskać wsparcie i pomoc, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

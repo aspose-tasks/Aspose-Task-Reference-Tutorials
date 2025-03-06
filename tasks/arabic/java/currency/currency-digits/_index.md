@@ -3,10 +3,16 @@ title: التعامل مع أرقام العملة باستخدام Aspose.Tasks
 linktitle: التعامل مع أرقام العملة باستخدام Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية التعامل مع أرقام العملة في MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 11
 url: /ar/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أرقام العملة باستخدام Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول التعامل مع أرقام MS Project الخاصة بالعملة باستخدام Aspose.Tasks لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم جيدًا.
 ## المتطلبات الأساسية
@@ -56,3 +62,9 @@ System.out.println(project.get(Prj.CURRENCY_DIGITS));
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Anpassad tilldelning Visa kolumn i Aspose.Tasks
 linktitle: Anpassad tilldelning Visa kolumn i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du lägger till anpassade uppdragsvykolumner i Aspose.Tasks för .NET för att förbättra projekthanteringskapaciteten.
-type: docs
 weight: 16
 url: /sv/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassad tilldelning Visa kolumn i Aspose.Tasks
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur du lägger till anpassade kolumner för uppdragsvyer med Aspose.Tasks för .NET. Anpassade kolumner ger flexibilitet och låter dig visa ytterligare information som är relevant för dina projektledningsbehov.
@@ -116,3 +122,9 @@ S3: Ja, du kan anpassa utseendet på anpassade kolumner genom att ändra egenska
 ### F5: Stöder Aspose.Tasks export av projekt till andra format än kalkylblad med anpassade kolumner?
 
 S5: Ja, Aspose.Tasks stöder export av projekt till olika format som PDF, HTML och XML, vilket möjliggör mångsidiga projektrapporteringsalternativ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

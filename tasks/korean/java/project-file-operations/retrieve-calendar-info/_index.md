@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 일정 정보 검색
 linktitle: Aspose.Tasks에서 캘린더 정보 검색
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 달력 정보를 검색하는 방법을 알아보세요. 프로그래밍 방식으로 캘린더 세부정보에 액세스하기 위한 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/java/project-file-operations/retrieve-calendar-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 일정 정보 검색
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for Java 라이브러리를 사용하여 Microsoft Project 파일에서 달력 정보를 검색하는 방법을 살펴보겠습니다. Aspose.Tasks는 근무일 및 시간과 같은 달력 세부 정보에 액세스하는 것을 포함하여 프로젝트 데이터를 조작하는 강력한 기능을 제공합니다.
 ## 전제조건
@@ -88,3 +94,9 @@ A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여
  A: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks에 대한 자세한 문서는 어디서 찾을 수 있나요?
  A: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

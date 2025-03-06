@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestion des taux et tâches récurrentes
 linktitle: Aspose.Tasks Gestion des taux et tâches récurrentes
 second_title: API Aspose.Tasks .NET
 description: Maîtrisez la gestion des tarifs MS Project et les tâches récurrentes avec Aspose.Tasks .NET. Apprenez à automatiser les tâches, à gérer les tarifs et à gérer les parties fractionnées pour les flux de travail du projet.
-type: docs
 weight: 28
 url: /fr/net/rate-recurring-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestion des taux et tâches récurrentes
+
 
 ## Introduction
 
@@ -67,3 +73,9 @@ Découvrez comment enregistrer des fichiers MS Project dans différents formats 
 Apprenez à gérer efficacement les parties fractionnées de MS Project avec Aspose.Tasks pour .NET. Améliorez votre flux de travail de gestion de projet.
 ### [Collecter MS Project de pièces divisées dans Aspose.Tasks](./split-part-collection/)
 Découvrez comment collecter des parties fractionnées dans MS Project à l'aide d'Aspose.Tasks pour .NET. Ce didacticiel complet vous guide tout au long du processus, étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

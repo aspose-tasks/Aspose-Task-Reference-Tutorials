@@ -3,10 +3,16 @@ title: إدارة استثناءات التقويم في Aspose.Tasks
 linktitle: إضافة وإزالة استثناءات التقويم في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إضافة استثناءات التقويم وإزالتها في Aspose.Tasks لـ Java بكفاءة. تعزيز سير عمل إدارة المشروع دون عناء.
-type: docs
 weight: 10
 url: /ar/java/calendar-exceptions/add-remove/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة استثناءات التقويم في Aspose.Tasks
+
 
 ## مقدمة
 في إدارة المشاريع، يعد التعامل مع الاستثناءات ضمن التقويمات أمرًا بالغ الأهمية لجدولة المهام وإدارة الموارد بدقة. يوفر Aspose.Tasks for Java وظائف قوية لإضافة استثناءات التقويم وإزالتها بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
@@ -79,3 +85,10 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 ### س: أين يمكنني طلب الدعم لأية مشكلات أو استفسارات تتعلق بـ Aspose.Tasks for Java؟
 
  ج: يمكنك زيارة منتدى Aspose.Tasks الخاص بـ Java على الموقع[موقع إلكتروني](https://reference.aspose.com/tasks/java/) لطلب المساعدة من المجتمع أو الاتصال مباشرة بفريق الدعم للحصول على مساعدة شخصية.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

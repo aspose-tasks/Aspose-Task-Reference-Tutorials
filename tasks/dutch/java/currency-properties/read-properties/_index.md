@@ -3,10 +3,16 @@ title: Lees valuta-eigenschappen in Aspose.Tasks-projecten
 linktitle: Lees valuta-eigenschappen in Aspose.Tasks-projecten
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u valuta-informatie uit MS Project-bestanden kunt extraheren met Aspose.Tasks voor Java. Stap-voor-stap handleiding meegeleverd.
-type: docs
 weight: 10
 url: /nl/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lees valuta-eigenschappen in Aspose.Tasks-projecten
+
 ## Invoering
 In deze zelfstudie leren we hoe u Aspose.Tasks voor Java kunt gebruiken om valuta-eigenschappen uit Microsoft Project-bestanden te lezen. Aspose.Tasks is een krachtige Java API waarmee ontwikkelaars Microsoft Project-documenten kunnen manipuleren zonder dat Microsoft Project hoeft te worden geïnstalleerd. Door de onderstaande stappen te volgen, kunt u moeiteloos valutagerelateerde informatie extraheren.
 ## Vereisten
@@ -57,3 +63,9 @@ A: Ja, met Aspose.Tasks kunt u valuta-eigenschappen in MS Project-bestanden prog
  A: Ja, u kunt profiteren van een gratis proefperiode van Aspose.Tasks vanaf[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik hulp of ondersteuning zoeken voor Aspose.Tasks?
  A: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15) voor eventuele hulp of vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

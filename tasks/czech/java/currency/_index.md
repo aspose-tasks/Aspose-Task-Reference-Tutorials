@@ -3,10 +3,16 @@ title: Správa měny v Aspose.Tasks pro Java
 linktitle: Měna
 second_title: Aspose.Tasks Java API
 description: Bez námahy spravujte kódy měn, číslice a symboly v souborech MS Project pomocí Aspose.Tasks for Java. Zjednodušte řízení projektů pomocí snadno srozumitelných výukových programů.
-type: docs
 weight: 22
 url: /cs/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa měny v Aspose.Tasks pro Java
+
 
 ## Úvod
 
@@ -43,3 +49,9 @@ Naučte se, jak efektivně spravovat měnové kódy MS Project pomocí Aspose.Ta
 Naučte se, jak efektivně zacházet s číslicemi měny MS Project pomocí Aspose.Tasks for Java. Podrobný průvodce s příklady kódu.
 ### [Manipulace se symboly měn v Aspose.Tasks](./currency-symbols/)
 Naučte se manipulovat se symboly měn v souborech MS Project pomocí Aspose.Tasks for Java. Snadné kroky pro efektivní řízení projektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

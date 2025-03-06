@@ -3,10 +3,16 @@ title: Bộ sưu tập các trường xem sử dụng tài nguyên trong Aspose.
 linktitle: Bộ sưu tập các trường xem sử dụng tài nguyên trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách truy cập và thao tác hiệu quả Trường xem sử dụng tài nguyên trong tệp Microsoft Project bằng Aspose.Tasks cho .NET.
-type: docs
 weight: 16
 url: /vi/net/resource-risk-analysis/resource-usage-view-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ sưu tập các trường xem sử dụng tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc xử lý các tệp Microsoft Project một cách hiệu quả là rất quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp toàn diện để làm việc liền mạch với các tệp MS Project. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình truy cập và sử dụng Trường xem sử dụng tài nguyên bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ nhiều định dạng tệp 
  Đ: Có, bạn có thể truy cập phiên bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks cho .NET?
  Đáp: Bạn có thể xin giấy phép tạm thời từ[trang mua hàng](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

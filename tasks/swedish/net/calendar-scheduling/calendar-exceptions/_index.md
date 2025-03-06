@@ -3,10 +3,16 @@ title: Hantera kalenderundantag i Aspose.Tasks
 linktitle: Hantera kalenderundantag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar kalenderundantag i Aspose.Tasks för .NET med steg-för-steg handledning och exempel.
-type: docs
 weight: 12
 url: /sv/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera kalenderundantag i Aspose.Tasks
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man hanterar kalenderundantag i Aspose.Tasks med .NET-ramverket. Kalenderundantag tillåter oss att definiera speciella datum eller perioder i en projektkalender där det vanliga arbetsschemat ändras, såsom helgdagar eller tillfälliga stängningar. Vi kommer att täcka olika metoder för att hantera kalenderundantag steg för steg, med Aspose.Tasks för .NET.
@@ -156,3 +162,9 @@ S4: Aspose.Tasks stöder olika typer av undantag, inklusive dagliga, veckovisa, 
 ### F5: Kan jag anpassa arbetstiden för specifika undantagsdatum?
 
 S5: Ja, du kan definiera anpassade arbetstider för enskilda undantagsdatum med hjälp av lämpliga metoder som tillhandahålls av Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: MS Project fájlok mentése különböző formátumokban az Aspose.Tasks 
 linktitle: Fájlok mentése különböző formátumokban az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan mentheti az MS Project fájlokat különböző formátumokban az Aspose.Tasks for .NET segítségével. Egyszerű lépések a hatékony projektmenedzsmenthez.
-type: docs
 weight: 17
 url: /hu/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project fájlok mentése különböző formátumokban az Aspose.Tasks programban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan mentheti a Microsoft Project fájlokat különböző formátumokban az Aspose.Tasks for .NET segítségével. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára a projektfájlok programozott kezelését és kezelését.
 ## Előfeltételek
@@ -55,3 +61,9 @@ V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.
  V: Igen, ideiglenes licencek állnak rendelkezésre értékelési célokra. Beszerezhetsz egyet[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Mi az Aspose.Tasks ára?
  V: Az árakkal kapcsolatos információk az Aspose.Tasks vásárlási oldalán találhatók[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

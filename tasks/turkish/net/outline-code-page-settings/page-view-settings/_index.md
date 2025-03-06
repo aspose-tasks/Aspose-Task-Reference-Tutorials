@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Sayfa Görünümü Ayarlarını Özelleştirin
 linktitle: Aspose.Tasks'ta Sayfa Görünümü Ayarlarını Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Microsoft Project belgelerinizin yazdırma formatını uyarlamak için Aspose.Tasks for .NET'te sayfa görüntüleme ayarlarını nasıl yapılandıracağınızı öğrenin.
-type: docs
 weight: 21
 url: /tr/net/outline-code-page-settings/page-view-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Sayfa Görünümü Ayarlarını Özelleştirin
+
 ## giriiş
 Microsoft Project, proje yönetimi için güçlü bir araçtır ancak bazen projenizin görüntülenme ve yazdırılma şeklini özelleştirmeniz gerekir. Aspose.Tasks for .NET ile sayfa görüntüleme ayarlarını özel gereksinimlerinizi karşılayacak şekilde kolayca yapılandırabilirsiniz. Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Evet, üzerinde çalıştığınız her proje dosyası için sayfa görüntü
 C: Aspose.Tasks, Microsoft Project 2003 ve sonraki sürümlerle uyumluluk sunar.
 ### S: Aspose.Tasks için nereden daha fazla yardım veya destek bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Kullanım sırasında karşılaştığınız her türlü soru veya sorun için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

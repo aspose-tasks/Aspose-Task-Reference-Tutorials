@@ -3,10 +3,16 @@ title: คุณสมบัติงานเพิ่มเติมใน Asp
 linktitle: คุณสมบัติงานเพิ่มเติมใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: สำรวจคุณลักษณะของงานเพิ่มเติมใน Aspose.Tasks สำหรับ Java คำแนะนำทีละขั้นตอน คำถามที่พบบ่อย และการสนับสนุน เพิ่มประสิทธิภาพการจัดการโครงการของคุณวันนี้!
-type: docs
 weight: 16
 url: /th/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คุณสมบัติงานเพิ่มเติมใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับการใช้ประโยชน์จากคุณลักษณะของงานเพิ่มเติมใน Aspose.Tasks สำหรับ Java Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังที่ช่วยให้คุณทำงานกับเอกสาร Microsoft Project ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกคุณลักษณะของงานเพิ่มเติม และสาธิตวิธีที่คุณสามารถใช้เพื่อปรับปรุงความสามารถในการจัดการโครงการของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ switch (ea.getAttributeDefinition().getCfType()) {
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะซื้อ Aspose.Tasks สำหรับ Java เวอร์ชันเต็มได้ที่ไหน
  คุณสามารถซื้อเวอร์ชันเต็มได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

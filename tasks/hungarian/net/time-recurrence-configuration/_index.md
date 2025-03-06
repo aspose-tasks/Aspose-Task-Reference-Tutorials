@@ -3,10 +3,16 @@ title: Aspose.Tasks időkonfiguráció és ismétlődési minták
 linktitle: Aspose.Tasks időkonfiguráció és ismétlődési minták
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks .NET-oktatóanyagokat az időkonfigurációról és az ismétlődési mintákról. Könnyedén kezelheti a naptárakat, testreszabhatja a munkaidőt és optimalizálhatja a projekt ütemezését.
-type: docs
 weight: 33
 url: /hu/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks időkonfiguráció és ismétlődési minták
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Tasks for .NET világában, ahol a hatékony projektmenedzsment találkozik a testreszabható időkonfigurációk és az ismétlődési minták erejével. Ebben az átfogó útmutatóban különféle oktatóanyagokba fogunk beleásni, amelyek lehetővé teszik a projektütemezés és az erőforrás-kezelés művészetének elsajátítását.
@@ -58,3 +64,9 @@ Ismerje meg, hogyan konfigurálhatja könnyedén a munkaheteket az Aspose.Tasks 
 Ismerje meg, hogyan szabhatja testre a munkaheteket az Aspose.Tasks for .NET-ben. Lépésről lépésre szóló útmutató személyre szabott projektnaptárak létrehozásához. Letöltés most!
 ### [Éves ismétlődési minták konfigurálása az Aspose.Tasks programban](./yearly-recurrence-patterns/)
 Ismerje meg az éves ismétlődési minták konfigurálását az Aspose.Tasks for .NET-ben. Fejlessze projektmenedzsment készségeit ezzel a lépésről lépésre bemutatott útmutatóval.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

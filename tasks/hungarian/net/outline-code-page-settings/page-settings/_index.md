@@ -3,10 +3,16 @@ title: Konfigurálja az MS Project oldalbeállításait az Aspose.Tasks segíts�
 linktitle: Oldalbeállítások konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project oldalbeállításait az Aspose.Tasks for .NET használatával. Egyszerű lépésekkel testreszabhatja a tájolást, a méretet és egyebeket.
-type: docs
 weight: 20
 url: /hu/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurálja az MS Project oldalbeállításait az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a Microsoft Project oldalbeállításainak konfigurálását az Aspose.Tasks for .NET használatával. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat.
 ## Előfeltételek
@@ -77,3 +83,9 @@ V: Az Aspose.Tasks a papírméretek széles skáláját támogatja, beleértve a
 V: Természetesen ezt a funkciót integrálhatja alkalmazása munkafolyamatába az oldalbeállítások konfigurálásának automatizálása érdekében.
 ### K: Az Aspose.Tasks támogatja az .mpp-n kívül más fájlformátumokat is?
 V: Igen, az Aspose.Tasks különféle fájlformátumokat támogat, többek között az XML-t, az MPT-t és a HTML-t.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gerenciar propriedades de hiperlink para atribuições em Aspose.Tasks
 linktitle: Gerenciar propriedades de hiperlink para atribuições de recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como gerenciar propriedades de hiperlink para atribuições de recursos em Aspose.Tasks for Java. Melhore a colaboração e a acessibilidade no gerenciamento de projetos.
-type: docs
 weight: 16
 url: /pt/java/resource-assignments/hyperlink-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar propriedades de hiperlink para atribuições em Aspose.Tasks
+
 ## Introdução
 Aspose.Tasks for Java oferece recursos poderosos para gerenciar tarefas e recursos do projeto. Neste tutorial, focaremos em como gerenciar propriedades de hiperlink para atribuições de recursos usando Aspose.Tasks. Seguindo estas instruções passo a passo, você poderá gerenciar com eficiência os hiperlinks associados às atribuições de recursos do seu projeto.
 ## Pré-requisitos
@@ -84,3 +90,9 @@ R: Aspose.Tasks não impõe limitações estritas ao comprimento dos hiperlinks.
 R: Sim, você pode remover hiperlinks de atribuições de recursos definindo as propriedades do hiperlink como cadeias de caracteres nulas ou vazias.
 ### P: O Aspose.Tasks oferece suporte à validação de hiperlink?
 R: Aspose.Tasks se concentra no gerenciamento de propriedades de hiperlinks em vez de na validação de hiperlinks. No entanto, você pode implementar uma lógica de validação customizada em seu aplicativo Java para garantir a integridade do hiperlink.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

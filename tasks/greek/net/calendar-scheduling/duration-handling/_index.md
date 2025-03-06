@@ -3,10 +3,16 @@ title: Duration Handling στο Aspose.Tasks
 linktitle: Duration Handling στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά τις διάρκειες στο Aspose.Tasks για .NET με οδηγίες βήμα προς βήμα.
-type: docs
 weight: 30
 url: /el/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Duration Handling στο Aspose.Tasks
+
 ## Εισαγωγή
 
 Ο αποτελεσματικός χειρισμός της διάρκειας είναι ζωτικής σημασίας στις εφαρμογές διαχείρισης έργων. Το Aspose.Tasks για .NET παρέχει ισχυρή λειτουργικότητα για την αποτελεσματική διαχείριση των διάρκειων. Σε αυτό το σεμινάριο, θα εξερευνήσουμε διάφορες πτυχές του χειρισμού διάρκειας χρησιμοποιώντας το Aspose.Tasks για .NET.
@@ -156,3 +162,9 @@ A4: Ναι, το Aspose.Tasks υποστηρίζει την ανάγνωση κ�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
 
 A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Tasks για .NET από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

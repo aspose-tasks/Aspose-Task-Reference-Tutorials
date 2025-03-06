@@ -3,10 +3,16 @@ title: Läs Meta Properties i Aspose.Tasks Projects
 linktitle: Läs Meta Properties i Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 description: Lås upp kraften med metadata i Aspose.Tasks-projekt med denna omfattande handledning. Lär dig att extrahera och utnyttja meta-egenskaper utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/project-properties/read-meta-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Läs Meta Properties i Aspose.Tasks Projects
+
 ## Introduktion
 När det gäller projektledning och dataanalys kan djupdykning i projektfilers metadata erbjuda ovärderliga insikter. Aspose.Tasks för Java presenterar en robust verktygslåda för att enkelt navigera genom dessa meta-egenskaper. Denna handledning fungerar som en omfattande guide för att extrahera och förstå meta-egenskaper i dina Aspose.Tasks-projekt.
 ## Förutsättningar
@@ -71,3 +77,9 @@ S: Ja, Aspose.Tasks stöder ett brett utbud av projektfilformat, inklusive MPP, 
  S: Ja, du kan hitta omfattande dokumentation för Aspose.Tasks på[dokumentationssida](https://reference.aspose.com/tasks/java/).
 ### F: Var kan jag söka stöd för Aspose.Tasks-relaterade frågor?
  S: För all hjälp eller frågor angående Aspose.Tasks kan du besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för dedikerat stöd från samhället och experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

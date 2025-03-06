@@ -3,10 +3,16 @@ title: Hantera valuta i Aspose.Tasks för Java
 linktitle: Valuta
 second_title: Aspose.Tasks Java API
 description: Hantera valutakoder, siffror och symboler enkelt i MS Project-filer med Aspose.Tasks för Java. Effektivisera projekthanteringen med enkla handledningar.
-type: docs
 weight: 22
 url: /sv/java/currency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera valuta i Aspose.Tasks för Java
+
 
 ## Introduktion
 
@@ -43,3 +49,9 @@ Lär dig hur du hanterar valuta MS Project-koder effektivt med Aspose.Tasks för
 Lär dig hur du hanterar valuta MS Project siffror effektivt med Aspose.Tasks för Java. Steg-för-steg guide med kodexempel.
 ### [Valutasymbolsmanipulation i Aspose.Tasks](./currency-symbols/)
 Lär dig att manipulera valutasymboler i MS Project-filer med Aspose.Tasks för Java. Enkla steg för effektiv projektledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

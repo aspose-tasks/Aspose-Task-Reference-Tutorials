@@ -3,10 +3,16 @@ title: Aspose.Tugas Manajemen Sumber Daya dan Analisis Risiko
 linktitle: Aspose.Tugas Manajemen Sumber Daya dan Analisis Risiko
 second_title: Aspose.Tugas .NET API
 description: Kelola sumber daya MS Project dengan Aspose.Tasks .NET. Meningkatkan produktivitas dan menyederhanakan alur kerja. Pelajari penetapan sumber daya, tampilan penggunaan, analisis risiko, & lainnya.
-type: docs
 weight: 26
 url: /id/net/resource-risk-analysis/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tugas Manajemen Sumber Daya dan Analisis Risiko
+
 ## Perkenalan
 
 Apakah Anda mencari cara yang efisien untuk mengelola sumber daya Microsoft Project dan meningkatkan analisis risiko menggunakan Aspose.Tasks untuk .NET? Tidak perlu mencari lagi! Dalam panduan komprehensif ini, kami akan memandu Anda melalui berbagai tutorial, yang mencakup topik-topik penting untuk memberdayakan pengembang dan manajer proyek.
@@ -90,3 +96,9 @@ Pelajari cara mengumpulkan statistik item risiko dari file MS Project menggunaka
 Pelajari cara mengelola pola risiko secara efektif dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan hasil proyek dengan alat analisis risiko yang canggih.
 ### [Kelola Pola Risiko di Proyek MS dengan Aspose.Tasks](./risk-pattern-collection/)
 Pelajari cara menganalisis dan memanipulasi pola risiko secara efektif dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

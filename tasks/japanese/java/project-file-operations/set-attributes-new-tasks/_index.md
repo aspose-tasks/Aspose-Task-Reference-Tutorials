@@ -3,10 +3,16 @@ title: Aspose.Tasks での新しいタスクの MS プロジェクト属性の�
 linktitle: Aspose.Tasks で新しいタスクの属性を設定する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して、新しいタスクに MS Project 属性を設定する方法を学びます。この包括的なガイドを使用して、タスクのプロパティを簡単にカスタマイズします。
-type: docs
 weight: 21
 url: /ja/java/project-file-operations/set-attributes-new-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での新しいタスクの MS プロジェクト属性の設定
+
 ## 導入
 Aspose.Tasks for Java で新しいタスクの MS Project 属性を設定するための包括的なチュートリアルへようこそ。このガイドでは、この強力な Java ライブラリを使用してタスクを簡単に管理およびカスタマイズできるように、プロセスを段階的に説明します。
 ## 前提条件
@@ -68,3 +74,9 @@ A: はい、Aspose.Tasks for Java の無料試用版を次のサイトからダ�
  A: Aspose.Tasks for Java の一時ライセンスは、以下から入手できます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks for Java に関連する問題やクエリのサポートはどこで受けられますか?
  A: サポートを受けたり、コミュニティと交流したりできます。[Aspose.Tasks for Java サポート フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

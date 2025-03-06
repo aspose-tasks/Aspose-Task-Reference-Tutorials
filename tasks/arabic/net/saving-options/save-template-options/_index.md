@@ -3,10 +3,16 @@ title: احفظ ملفات مشروع MS كقوالب باستخدام Aspose.Ta
 linktitle: حفظ خيارات القالب لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ ملفات Microsoft Project كقوالب باستخدام Aspose.Tasks لـ .NET. قم بتخصيص إعدادات القالب لإدارة مبسطة للمشروع.
-type: docs
 weight: 18
 url: /ar/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ ملفات مشروع MS كقوالب باستخدام Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية حفظ القالب باستخدام Aspose.Tasks لـ .NET. تعتبر القوالب مفيدة لتوحيد هياكل المشروع وإعداداته للاستخدام المستقبلي. سنوضح كيفية حفظ المشروع كقالب، وضبط خصائصه على طول الطريق.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ج: تم تصميم Aspose.Tasks for .NET بشكل أساسي لتطبيقات .NET Framework التي تعمل على أنظمة Windows الأساسية.
 ### س: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
  ج: نعم، يمكنك طلب المساعدة الفنية والتوجيه من مجتمع Aspose.Tasks[المنتديات](https://forum.aspose.com/c/tasks/15)أو اتصل بفريق الدعم مباشرة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

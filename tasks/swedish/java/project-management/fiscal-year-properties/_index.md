@@ -3,10 +3,16 @@ title: Hantera räkenskapsårsegenskaper i Aspose.Tasks
 linktitle: Hantera räkenskapsårsegenskaper i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hanterar räkenskapsårets fastigheter effektivt med Aspose.Tasks för Java. Steg-för-steg guide med exempel.
-type: docs
 weight: 15
 url: /sv/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera räkenskapsårsegenskaper i Aspose.Tasks
+
 ## Introduktion
 Aspose.Tasks är ett kraftfullt Java-bibliotek som gör det möjligt för utvecklare att effektivt hantera projektfiler, inklusive hantering av räkenskapsårsegenskaper. I den här handledningen går vi igenom processen att hantera räkenskapsårsegenskaper med Aspose.Tasks i Java.
 ## Förutsättningar
@@ -66,3 +72,9 @@ S: Ja, Aspose.Tasks stöder ett brett utbud av projektfilformat inklusive MPP, X
  S: Ja, du kan komma åt den kostnadsfria testversionen av Aspose.Tasks från[här](https://releases.aspose.com/).
 ### F: Var kan jag köpa en licens för Aspose.Tasks för Java?
  S: Du kan köpa en licens för Aspose.Tasks för Java från[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

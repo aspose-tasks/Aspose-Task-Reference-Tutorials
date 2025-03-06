@@ -3,10 +3,16 @@ title: कार्य लिंक
 linktitle: कार्य लिंक
 second_title: Aspose.Tasks जावा एपीआई
 description: हमारे ट्यूटोरियल के साथ जावा के लिए Aspose.Tasks का अन्वेषण करें। सहयोग बढ़ाएँ, लिंक प्रकार परिभाषित करें और कार्यों को निर्बाध रूप से प्रबंधित करें। अभी अपनी परियोजना दक्षता बढ़ाएँ!
-type: docs
 weight: 33
 url: /hi/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कार्य लिंक
+
 ## परिचय
 
 यदि आप जावा प्रोजेक्ट प्रबंधन की दुनिया में गहराई से उतर रहे हैं, तो Aspose.Tasks आपका पसंदीदा टूल है। हमारे व्यापक ट्यूटोरियल आपको जावा लाइब्रेरी के लिए Aspose.Tasks का इष्टतम उपयोग सुनिश्चित करते हुए, विभिन्न पहलुओं में महारत हासिल करने में सक्षम बनाते हैं।
@@ -38,3 +44,9 @@ Aspose.Tasks के साथ जावा प्रोजेक्ट्स म
 जावा के लिए Aspose.Tasks के साथ क्रॉस-प्रोजेक्ट कार्य पहचान का अन्वेषण करें। निर्बाध एकीकरण और कुशल प्रबंधन। अब डाउनलोड करो!
 ### [Aspose.Tasks में पूर्ववर्ती और उत्तराधिकारी कार्य प्रबंधित करें](./predecessor-successor-tasks/)
 जावा के लिए Aspose.Tasks के साथ कुशल कार्य प्रबंधन का अन्वेषण करें। अपनी परियोजनाओं में पूर्ववर्ती और उत्तराधिकारी कार्यों को आसानी से संभालें। अभी अपने मुफ़्त ट्रायल को डाउनलोड करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

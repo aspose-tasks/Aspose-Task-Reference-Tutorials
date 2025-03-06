@@ -3,10 +3,16 @@ title: Zatrzymaj i wznów przydziały zasobów w Aspose.Tasks
 linktitle: Zatrzymaj i wznów przydziały zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak efektywnie zarządzać przydziałami zasobów w Aspose.Tasks dla Java, korzystając z tego samouczka krok po kroku.
-type: docs
 weight: 23
 url: /pl/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zatrzymaj i wznów przydziały zasobów w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku dowiemy się, jak zatrzymywać i wznawiać przydzielanie zasobów za pomocą Aspose.Tasks dla Java. Aspose.Tasks to potężny interfejs API języka Java, który umożliwia programistom pracę z plikami programu Microsoft Project bez konieczności instalowania programu Microsoft Project w ich systemach. Podzielimy ten proces na łatwe do wykonania kroki, aby ułatwić jego śledzenie.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Tak, Aspose.Tasks umożliwia pracę z plikami Microsoft Project bez koniecznośc
 Możesz uzyskać wsparcie od społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Czy mogę kupić licencję tymczasową?
  Tak, możesz kupić licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

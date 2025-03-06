@@ -3,10 +3,16 @@ title: Tratamento de booleanos anuláveis em Aspose.Tasks
 linktitle: Tratamento de booleanos anuláveis em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como lidar com booleanos anuláveis de maneira eficaz no Aspose.Tasks for .NET com este tutorial abrangente. Domine o uso da classe `NullableBool` e aprimore seu desenvolvimento .NET.
-type: docs
 weight: 21
 url: /pt/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tratamento de booleanos anuláveis em Aspose.Tasks
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos no trabalho com booleanos anuláveis em Aspose.Tasks for .NET. Booleanos anuláveis oferecem flexibilidade na representação de valores booleanos, permitindo a possibilidade de serem indefinidos. Exploraremos como usar o`NullableBool` classe, seus construtores, propriedades e métodos.
@@ -153,3 +159,9 @@ A4: Sim, você pode definir um booleano anulável como indefinido na construçã
 ### Q5: Onde posso encontrar mais documentação sobre Aspose.Tasks for .NET?
 
  A5: Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

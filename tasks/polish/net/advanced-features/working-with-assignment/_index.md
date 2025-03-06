@@ -3,10 +3,16 @@ title: Praca z przypisaniami w Aspose.Tasks
 linktitle: Praca z przypisaniami w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zarządzać przypisaniami projektów w .NET przy użyciu Aspose.Tasks. Poznaj różne kontury planowania zasobów.
-type: docs
 weight: 13
 url: /pl/net/advanced-features/working-with-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z przypisaniami w Aspose.Tasks
+
 ## Wstęp
 
 W tym samouczku omówimy, jak pracować z przypisaniami w Aspose.Tasks dla .NET. Zadania odgrywają kluczową rolę w zarządzaniu projektami, ponieważ przydzielają zasoby do zadań, pomagają w planowaniu i śledzeniu postępów. Skoncentrujemy się na generowaniu danych okresowych przydziału zasobów o różnych konturach za pomocą Aspose.Tasks.
@@ -109,3 +115,9 @@ O4: Tak, jak pokazano w tym samouczku, możesz ustawić różne kontury, takie j
 ### P5: Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.Tasks?
 
 Odpowiedź 5: Pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) gdzie eksperci i członkowie społeczności aktywnie angażują się w dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

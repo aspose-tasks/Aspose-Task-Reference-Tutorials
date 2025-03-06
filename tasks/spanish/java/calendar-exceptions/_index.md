@@ -3,10 +3,16 @@ title: Excepciones del calendario
 linktitle: Excepciones del calendario
 second_title: Aspose.Tasks API de Java
 description: Administre, defina, maneje y recupere excepciones de calendario sin esfuerzo en proyectos Java con Aspose.Tasks. Optimice los flujos de trabajo de proyectos para una gestión eficiente de proyectos.
-type: docs
 weight: 20
 url: /es/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Excepciones del calendario
+
 
 ## Introducción
 
@@ -34,3 +40,9 @@ Aprenda a definir los días de la semana para excepciones de calendario en proye
 Aprenda a manejar excepciones de calendario de manera efectiva en proyectos Java con Aspose.Tasks para Java. Optimice su proceso de gestión de proyectos ahora.
 ### [Recuperar excepciones de calendario con Aspose.Tasks](./retrieve/)
 Aprenda cómo recuperar excepciones de calendario de MS Project usando Aspose.Tasks para Java. Tutorial paso a paso para una integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

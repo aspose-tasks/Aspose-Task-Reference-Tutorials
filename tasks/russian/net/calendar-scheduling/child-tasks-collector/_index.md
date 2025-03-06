@@ -3,10 +3,16 @@ title: Сбор дочерних задач в Aspose.Tasks
 linktitle: Сбор дочерних задач в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно собирать дочерние задачи с помощью Aspose.Tasks для .NET. Улучшите управление проектами в своих приложениях .NET.
-type: docs
 weight: 15
 url: /ru/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сбор дочерних задач в Aspose.Tasks
+
 ## Введение
 
 В области управления проектами Aspose.Tasks for .NET выделяется как надежное решение для эффективной обработки задач и проектов. Эта мощная библиотека предоставляет разработчикам инструменты, необходимые для беспрепятственного управления задачами, проектами и всем, что между ними. В этом уроке мы углубимся в конкретный аспект Aspose.Tasks: сбор дочерних задач.
@@ -96,3 +102,9 @@ A3: Хотя Aspose.Tasks for .NET в первую очередь разрабо
 ### Вопрос 5: Могу ли я попробовать Aspose.Tasks для .NET перед покупкой?
 
  А5: Конечно! Вы можете воспользоваться бесплатной пробной версией на сайте[страница выпуска](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

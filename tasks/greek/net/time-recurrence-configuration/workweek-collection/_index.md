@@ -3,10 +3,16 @@ title: Προσαρμόστε τις Εβδομάδες Εργασίας στο 
 linktitle: Συλλογή εβδομάδων εργασίας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να προσαρμόζετε τις εβδομάδες εργασίας στο Aspose.Tasks για .NET. Οδηγός βήμα προς βήμα για τη δημιουργία εξατομικευμένων ημερολογίων έργων. Κατεβάστε τώρα!
-type: docs
 weight: 17
 url: /el/net/time-recurrence-configuration/workweek-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τις Εβδομάδες Εργασίας στο Aspose.Tasks
+
 ## Εισαγωγή
 Καλώς ήρθατε στο σεμινάριο μας για τη δημιουργία μιας προσαρμοσμένης εβδομάδας εργασίας χρησιμοποιώντας το Aspose.Tasks για .NET! Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία καθορισμού μιας εξατομικευμένης εβδομάδας εργασίας για ένα ημερολόγιο στο έργο σας. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να εργάζονται αποτελεσματικά με έγγραφα του Microsoft Project στις εφαρμογές τους .NET.
 ## Προαπαιτούμενα
@@ -82,3 +88,9 @@ foreach (var workWeek in calendar.WorkWeeks)
 Οπωσδήποτε, το Aspose.Tasks σάς επιτρέπει να αποθηκεύσετε το έργο σας σε διάφορες μορφές, συμπεριλαμβανομένου του Microsoft Project.
 ### Πού μπορώ να αναζητήσω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
  Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για οποιαδήποτε υποστήριξη ή βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

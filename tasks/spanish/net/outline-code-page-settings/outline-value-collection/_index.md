@@ -3,10 +3,16 @@ title: Administre los valores del esquema del proyecto MS con Aspose.Tasks
 linktitle: Colección de valores de esquema en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a administrar valores de esquema en archivos de Microsoft Project usando Aspose.Tasks para .NET. Tutorial paso a paso con ejemplos de código.
-type: docs
 weight: 17
 url: /es/net/outline-code-page-settings/outline-value-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administre los valores del esquema del proyecto MS con Aspose.Tasks
+
 ## Introducción
 Aspose.Tasks para .NET proporciona un conjunto completo de funciones para interactuar con archivos de Microsoft Project. Una de esas características es la capacidad de gestionar valores de esquema dentro de un proyecto. En este tutorial, exploraremos cómo recopilar y manipular valores de esquema usando Aspose.Tasks para .NET.
 ## Requisitos previos
@@ -108,3 +114,9 @@ R: Puede implementar mecanismos de manejo de errores, como bloques try-catch, pa
 R: Sí, Aspose.Tasks proporciona API completas para personalizar la apariencia y el comportamiento de los valores de esquema según sus requisitos.
 ### P: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Tasks?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad y explorar[documentación](https://reference.aspose.com/tasks/net/) para obtener información detallada sobre API y funciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

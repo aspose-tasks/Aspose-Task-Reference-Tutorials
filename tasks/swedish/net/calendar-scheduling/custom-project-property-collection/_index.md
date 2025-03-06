@@ -3,10 +3,16 @@ title: Hantera Custom Project Property Collection i Aspose.Tasks
 linktitle: Hantera Custom Project Property Collection i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt hanterar anpassade projektegenskaper i Aspose.Tasks för .NET, vilket förbättrar din projektledningsupplevelse.
-type: docs
 weight: 24
 url: /sv/net/calendar-scheduling/custom-project-property-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera Custom Project Property Collection i Aspose.Tasks
+
 ## Introduktion
 
 Är du redo att förbättra din erfarenhet av projektledning med Aspose.Tasks för .NET? Hantera anpassade projektegenskaper är en avgörande aspekt av projektledning, vilket gör att du kan lägga till specifik metadata som är skräddarsydd för ditt projekts krav. I den här handledningen kommer vi att dyka in i hur du effektivt kan arbeta med anpassade projektegenskapssamlingar med Aspose.Tasks för .NET.
@@ -131,3 +137,9 @@ S4: Ja, du kan få en tillfällig licens från Asposes webbplats för utvärderi
 ### F5: Var kan jag hitta support eller ytterligare hjälp angående Aspose.Tasks för .NET?
 
  S5: Du kan besöka Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

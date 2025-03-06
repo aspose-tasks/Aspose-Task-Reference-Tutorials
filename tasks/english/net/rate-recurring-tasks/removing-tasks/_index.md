@@ -3,10 +3,16 @@ title: Removing MS Project Tasks with Aspose.Tasks
 linktitle: Removing Tasks in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to remove MS Project tasks programmatically using Aspose.Tasks for .NET. Step-by-step guide with code examples included.
-type: docs
 weight: 15
 url: /net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Removing MS Project Tasks with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to remove tasks from a Microsoft Project file using Aspose.Tasks for .NET. Aspose.Tasks is a powerful API that allows developers to manipulate Microsoft Project files programmatically. Removing tasks from a project file can be a common requirement in project management scenarios, and Aspose.Tasks provides a straightforward way to achieve this.
 ## Prerequisites
@@ -75,3 +81,10 @@ A: Aspose.Tasks provides robust functionality for undoing operations. You can im
 A: Absolutely, Aspose.Tasks offers comprehensive support for complex project structures, allowing you to manipulate tasks, resources, and other project elements with ease.
 ### Q: Is there a trial version available for Aspose.Tasks?
 A: Yes, you can download a free trial version of Aspose.Tasks from [here](https://releases.aspose.com/tasks/net/) to explore its features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

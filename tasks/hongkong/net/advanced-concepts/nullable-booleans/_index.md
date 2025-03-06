@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中處理可為 Null 的布林值
 linktitle: 在 Aspose.Tasks 中處理可為 Null 的布林值
 second_title: Aspose.Tasks .NET API
 description: 透過這個綜合教程，了解如何在 Aspose.Tasks for .NET 中有效處理可為 null 的布林值。掌握 NullableBool 類別的用法並增強您的 .NET 開發能力。
-type: docs
 weight: 21
 url: /zh-hant/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中處理可為 Null 的布林值
+
 ## 介紹
 
 在本教程中，我們將深入研究 Aspose.Tasks for .NET 中可空布林值的使用。可空布林值在表示布林值方面提供了靈活性，允許未定義的可能性。我們將探討如何使用`NullableBool`類別及其建構函數、屬性和方法。
@@ -153,3 +159,9 @@ A4：是的，您可以在建構時將可為空的布林值設為未定義。
 ### 問題 5：在哪裡可以找到更多有關 Aspose.Tasks for .NET 的文件？
 
  A5：你可以找到詳細的文檔[這裡](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

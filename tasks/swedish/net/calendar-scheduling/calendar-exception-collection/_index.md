@@ -3,10 +3,16 @@ title: Samling av kalenderundantag i Aspose.Tasks
 linktitle: Samling av kalenderundantag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt hanterar kalenderundantag i dina .NET-projekt med Aspose.Tasks, vilket säkerställer korrekt schemaläggning och resurshantering.
-type: docs
 weight: 13
 url: /sv/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samling av kalenderundantag i Aspose.Tasks
+
 ## Introduktion
 
 Inom projektledning är exakt schemaläggning avgörande för framgång. Men verkliga scenarier kräver ofta avvikelser från standardscheman på grund av helgdagar, speciella händelser eller andra faktorer. Aspose.Tasks för .NET tillhandahåller en robust lösning för att hantera sådana undantag genom dess Calendar Exception Collection-funktion. Denna handledning guidar dig genom processen att använda den här funktionen steg för steg.
@@ -143,3 +149,9 @@ S4: Aspose.Tasks för .NET låter dig hantera överlappande undantag genom att d
 ### F5: Kan jag anpassa arbetstiderna för varje dag inom ett undantag?
 
 S5: Ja, du kan ange anpassade arbetstider för enskilda dagar inom ett undantag för att tillgodose specifika schemaläggningsbehov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

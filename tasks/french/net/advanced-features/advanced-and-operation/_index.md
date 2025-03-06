@@ -3,10 +3,16 @@ title: Opération ET avancée dans Aspose.Tasks
 linktitle: Opération ET avancée dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment effectuer des opérations ET avancées dans Aspose.Tasks pour .NET afin de filtrer efficacement les tâches de projet en fonction de plusieurs critères.
-type: docs
 weight: 10
 url: /fr/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opération ET avancée dans Aspose.Tasks
+
 ## Introduction
 
  Dans ce didacticiel, nous aborderons l'opération ET avancée dans Aspose.Tasks for .NET, un outil puissant de gestion de tâches et de projets. Nous explorerons comment filtrer les tâches d'un projet en fonction de plusieurs conditions à l'aide de l'outil`Util.And` classe.
@@ -107,3 +113,9 @@ R : Oui, Util.And peut être utilisé pour combiner un certain nombre de condit
 ### Q5 : Comment puis-je obtenir de l'assistance pour Aspose.Tasks pour .NET ?
 
 R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση εργασιών στο Aspose.Tasks
 linktitle: Διαχείριση εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε τον αναλυτικό οδηγό για τη διαχείριση εργασιών με το Aspose.Tasks για .NET. Μάθετε να προσθέτετε, να εμφανίζετε διαχωρισμένα μέρη, να μετακινείτε, να λαμβάνετε/ορίζετε ιδιότητες και πολλά άλλα.
-type: docs
 weight: 15
 url: /el/net/task-table-management/managing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Εάν είστε προγραμματιστής .NET που θέλει να διαχειριστεί αποτελεσματικά τις εργασίες στα έργα σας, το Aspose.Tasks για .NET παρέχει μια ισχυρή λύση. Αυτό το σεμινάριο θα σας καθοδηγήσει σε διάφορες πτυχές της διαχείρισης εργασιών χρησιμοποιώντας το Aspose.Tasks, προσφέροντας οδηγίες βήμα προς βήμα και παραδείγματα κώδικα. Είτε προσθέτετε εργασίες, εμφανίζετε διαχωρισμένα μέρη, μετακινείτε εργασίες κάτω από τον ίδιο γονέα, λαμβάνετε/ρυθμίζετε ιδιότητες εργασιών, επαναλαμβάνετε τις αναθέσεις εργασιών, διαβάζετε γραμμές βάσης εργασιών ή διαγράφετε εργασίες, αυτός ο οδηγός σας καλύπτει.
 ## Προαπαιτούμενα
@@ -144,3 +150,9 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 Α: Απολύτως! Το Aspose.Tasks παρέχει εκτενείς επιλογές προσαρμογής για ιδιότητες εργασιών. Ελέγξτε την τεκμηρίωση για περισσότερες λεπτομέρειες.
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
  Α: Επισκεφθείτε το[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تكوين الجدول الرئيسي في Aspose.Tasks لـ .NET
 linktitle: تكوين الجداول في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين الجداول في Aspose.Tasks لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة. تعزيز تجربة إدارة المشروع الخاص بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين الجدول الرئيسي في Aspose.Tasks لـ .NET
+
 ## مقدمة
 مرحبًا بك في هذا الدليل الشامل حول تكوين الجداول في Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تكوين الجداول باستخدام Aspose.Tasks، مع تفصيل كل خطوة للحصول على فهم واضح.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
  ج: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني شراء Aspose.Tasks؟
  ج: يمكنك شراء الترخيص الكامل[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

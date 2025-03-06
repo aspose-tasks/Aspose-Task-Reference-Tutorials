@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 간트 차트 열 사용자 정의
 linktitle: Aspose.Tasks의 간트 차트 열
 second_title: Aspose.태스크 .NET API
 description: 특정 작업 정보를 효율적으로 표시하기 위해 .NET용 Aspose.Tasks에서 Gantt 차트 열을 조정하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 간트 차트 열 사용자 정의
+
 ## 소개
 간트 차트는 프로젝트 관리의 기본 도구로 작업, 일정 및 리소스를 시각적으로 표현합니다. Aspose.Tasks for .NET은 특정 작업 정보를 표시하기 위한 열 사용자 정의를 포함하여 Gantt 차트를 조작할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Gantt 차트 열로 작업하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -99,3 +105,9 @@ A: Aspose.Tasks for .NET은 복잡한 프로젝트 구조를 관리할 수 있�
 A: Aspose.Tasks for .NET은 광범위한 사용자 정의 옵션을 제공하므로 제한 없이 Gantt 차트에 상당한 수의 열을 추가할 수 있습니다.
 ### Q: .NET용 Aspose.Tasks에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
 A: Aspose.Tasks for .NET에서 제공하는 문서, 커뮤니티 포럼 및 지원 채널을 탐색하여 포괄적인 리소스 및 지원에 액세스할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

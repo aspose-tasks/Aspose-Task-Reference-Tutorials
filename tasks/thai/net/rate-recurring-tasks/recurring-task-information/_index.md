@@ -3,10 +3,16 @@ title: แยกข้อมูลงานที่เกิดซ้ำใน 
 linktitle: แยกข้อมูลงานที่เกิดซ้ำใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีแยกข้อมูลงานที่เกิดซ้ำจากไฟล์ MS Project โดยใช้ Aspose.Tasks สำหรับ .NET บูรณาการอย่างง่ายดายสำหรับนักพัฒนา .NET
-type: docs
 weight: 13
 url: /th/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อมูลงานที่เกิดซ้ำใน Aspose.Tasks
+
 ## การแนะนำ
 Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ในแอปพลิเคชัน .NET ของตนได้ ในบทช่วยสอนนี้ เราจะสำรวจวิธีการดึงข้อมูลงานที่เกิดซ้ำจากไฟล์ MS Project โดยใช้ Aspose.Tasks
 ## ข้อกำหนดเบื้องต้น
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
  ตอบ: คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/tasks/net/).
 ### ถาม: ฉันจะได้รับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถรับการสนับสนุนทางเทคนิคได้จากฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

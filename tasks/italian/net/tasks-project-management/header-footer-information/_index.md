@@ -3,10 +3,16 @@ title: Estrai le informazioni di intestazione e piè di pagina con Aspose.Tasks
 linktitle: Informazioni sull'intestazione e sul piè di pagina in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a estrarre informazioni su intestazione e piè di pagina dai file MS Project utilizzando Aspose.Tasks per .NET. Soluzione semplice, efficiente e intuitiva per gli sviluppatori.
-type: docs
 weight: 29
 url: /it/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai le informazioni di intestazione e piè di pagina con Aspose.Tasks
+
 ## introduzione
 Aspose.Tasks per .NET è una potente libreria che consente agli sviluppatori di manipolare facilmente i file di Microsoft Project. In questo tutorial impareremo come recuperare le informazioni di intestazione e piè di pagina dai file MS Project utilizzando Aspose.Tasks.
 ## Prerequisiti
@@ -70,3 +76,9 @@ Sì, Aspose.Tasks supporta vari formati di file di progetto, inclusi MPP, XML e 
  È possibile trovare la documentazione per Aspose.Tasks[Qui](https://reference.aspose.com/tasks/net/).
 ### Come posso ottenere supporto per Aspose.Tasks?
  È possibile ottenere supporto per Aspose.Tasks visitando il sito[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

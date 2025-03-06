@@ -3,10 +3,16 @@ title: Filtrer les données du fichier MPP dans Aspose.Tasks
 linktitle: Filtrer les données du fichier MPP dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment filtrer les données des fichiers MPP à l'aide d'Aspose.Tasks pour Java. Améliorez votre flux de travail de gestion de projet sans effort.
-type: docs
 weight: 14
 url: /fr/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filtrer les données du fichier MPP dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine du développement Java, la gestion efficace des tâches de projet est un aspect essentiel d'une gestion de projet réussie. Aspose.Tasks for Java offre une solution robuste pour gérer les tâches de gestion de projet par programmation, fournissant aux développeurs les outils nécessaires pour filtrer de manière transparente les données des fichiers MPP. Dans ce didacticiel, nous aborderons le processus de filtrage des données des fichiers MPP à l'aide d'Aspose.Tasks pour Java, en décomposant chaque étape pour garantir une compréhension globale.
 ## Conditions préalables
@@ -81,3 +87,9 @@ R : Oui, que vous gériez un projet à petite échelle ou que vous gériez de va
  R : Certainement ! Vous pouvez vous référer au[Documentation](https://reference.aspose.com/tasks/java/) pour des guides détaillés et des références API. De plus, vous pouvez demander de l'aide sur les forums de la communauté Aspose.Tasks pour toute question ou problème que vous rencontrez.
 ### Q : Puis-je explorer les fonctionnalités d'Aspose.Tasks pour Java avant d'effectuer un achat ?
  R : Bien sûr ! Vous pouvez bénéficier d'un essai gratuit auprès du[site web](https://releases.aspose.com/) pour découvrir les fonctionnalités et les capacités d'Aspose.Tasks pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

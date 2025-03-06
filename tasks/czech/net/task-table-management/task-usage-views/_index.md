@@ -3,10 +3,16 @@ title: Mastering Task Usage Views v Aspose.Tasks for .NET
 linktitle: Konfigurace zobrazení využití úkolů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte Aspose.Tasks for .NET a zjistěte, jak nakonfigurovat zobrazení využití úloh. Přizpůsobte nastavení časové osy a vylepšete vizuály řízení projektů.
-type: docs
 weight: 24
 url: /cs/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Task Usage Views v Aspose.Tasks for .NET
+
 ## Úvod
 oblasti projektového managementu je vizualizace využití úkolů klíčová pro efektivní plánování a realizaci. Aspose.Tasks for .NET poskytuje robustní řešení pro vykreslování zobrazení využití úloh, což vám umožňuje přizpůsobit nastavení časové osy a formáty prezentace. V tomto tutoriálu si projdeme kroky ke konfiguraci zobrazení využití úloh pomocí Aspose.Tasks.
 ## Předpoklady
@@ -75,3 +81,9 @@ Ano, Aspose.Tasks podporuje oblíbené formáty projektových souborů, jako jso
 Absolutně si můžete přizpůsobit nastavení časové osy pro jednotlivé úkoly v rámci vašeho projektu.
 ### Jak mohu získat podporu nebo vyhledat pomoc pro Aspose.Tasks?
  Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu a vedení komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

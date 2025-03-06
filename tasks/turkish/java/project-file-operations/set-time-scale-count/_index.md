@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Zaman Ölçeği Sayımında Uzmanlaşma
 linktitle: Aspose.Tasks'ta Zaman Ölçeği Sayısını Ayarlama
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project'te zaman ölçeği sayımını etkili bir şekilde nasıl yöneteceğinizi öğrenin. Proje görselleştirmesini ve yönetimini zahmetsizce optimize edin.
-type: docs
 weight: 22
 url: /tr/java/project-file-operations/set-time-scale-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Zaman Ölçeği Sayımında Uzmanlaşma
+
 ## giriiş
 MS Project'te zaman ölçeği sayımını yönetmek, proje görselleştirmesini ve yönetimini önemli ölçüde etkileyebilir. Proje yönetimi görevlerini programlı olarak yönetmeye yönelik güçlü bir API olan Aspose.Tasks for Java ile, proje görünümlerini özel ihtiyaçlarınıza göre uyarlamak için zaman ölçeği sayımını verimli bir şekilde değiştirebilirsiniz.
 ## Önkoşullar
@@ -91,3 +97,9 @@ C: Kesinlikle, Aspose.Tasks for Java, Gantt şemalarının görünümünü ihtiy
  C: Evet, adresinden ücretsiz deneme sürümünü alabilirsiniz.[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for Java için nereden destek alabilirim?
  C: Aspose.Tasks forumunda destek ve yardım bulabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

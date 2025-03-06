@@ -3,10 +3,16 @@ title: Aspose.Tasks의 기간 처리
 linktitle: Aspose.Tasks의 기간 처리
 second_title: Aspose.태스크 .NET API
 description: 단계별 튜토리얼을 통해 Aspose.Tasks for .NET에서 기간을 효과적으로 처리하는 방법을 알아보세요.
-type: docs
 weight: 30
 url: /ko/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 기간 처리
+
 ## 소개
 
 프로젝트 관리 애플리케이션에서는 기간을 효과적으로 처리하는 것이 중요합니다. Aspose.Tasks for .NET은 기간을 효율적으로 관리하기 위한 강력한 기능을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 기간 처리의 다양한 측면을 살펴보겠습니다.
@@ -156,3 +162,9 @@ A4: 예, Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 형식의 Micro
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
 A5: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

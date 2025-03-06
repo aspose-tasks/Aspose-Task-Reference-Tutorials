@@ -3,10 +3,16 @@ title: บูรณาการ VBA
 linktitle: บูรณาการ VBA
 second_title: Aspose.Tasks Java API
 description: สำรวจ Aspose.Tasks Java ด้วยการผสานรวม VBA ปรับปรุงขั้นตอนการทำงานของโครงการและปรับปรุงการติดตามงาน สำรวจบทช่วยสอนที่ครอบคลุมสำหรับการผสานรวม VBA ได้อย่างราบรื่น!
-type: docs
 weight: 35
 url: /th/java/vba-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บูรณาการ VBA
+
 
 ## การแนะนำ
 
@@ -38,3 +44,9 @@ url: /th/java/vba-integration/
 ## บทช่วยสอนการรวม VBA
 ### [ทำงานร่วมกับ VBA Integration ใน Aspose.Tasks](./work-with-vba/)
 ปรับปรุงการจัดการโครงการด้วย Aspose.Tasks สำหรับ Java - ปลดปล่อยการผสานรวม VBA เพื่อเวิร์กโฟลว์ที่มีประสิทธิภาพยิ่งขึ้น สำรวจทันทีเพื่อการติดตามงานที่มีประสิทธิภาพ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Сбор периодов доступности в Aspose.Tasks
 linktitle: Сбор периодов доступности в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять периодами доступности ресурсов в Aspose.Tasks для .NET. Это пошаговое руководство поможет вам добавлять, обновлять и удалять периоды доступности, обеспечивая эффективное планирование ресурсов проекта.
-type: docs
 weight: 18
 url: /ru/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сбор периодов доступности в Aspose.Tasks
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как работать с коллекцией периодов доступности ресурса в Aspose.Tasks для .NET. Управление периодами доступности имеет решающее значение для управления проектами, позволяя нам определять, когда ресурсы доступны для задач в рамках проекта.
@@ -148,3 +154,9 @@ otherResource.AvailabilityPeriods.Remove(period2013);
 ### Вопрос 5. Существует ли ограничение на количество периодов доступности, которые может иметь ресурс?
 
 A5. Предопределенного ограничения на количество периодов доступности, которое может иметь ресурс, не существует, но при большом количестве периодов производительность может снижаться.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

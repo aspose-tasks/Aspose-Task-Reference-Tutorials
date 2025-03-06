@@ -3,10 +3,16 @@ title: Nadgodziny w zadaniach z Aspose.Tasks
 linktitle: Nadgodziny w zadaniach z Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Poznaj efektywne zarządzanie nadgodzinami w zadaniach projektowych dzięki Aspose.Tasks dla Java. Uprość śledzenie i alokację zasobów bez wysiłku.
-type: docs
 weight: 23
 url: /pl/java/task-properties/overtimes-in-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nadgodziny w zadaniach z Aspose.Tasks
+
 ## Wstęp
 Zarządzanie nadgodzinami w zadaniach projektowych ma kluczowe znaczenie dla kierowników projektów i liderów zespołów, aby zapewnić dokładne śledzenie i alokację zasobów. Aspose.Tasks dla Java zapewnia potężne rozwiązanie do obsługi aspektów związanych z nadgodzinami w zarządzaniu projektami. W tym samouczku odkryjemy, jak wykorzystać Aspose.Tasks do efektywnego zarządzania i analizowania nadgodzin w zadaniach projektowych.
 ## Warunki wstępne
@@ -54,3 +60,9 @@ Absolutnie! Aspose.Tasks bezproblemowo integruje się z innymi frameworkami Java
  Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nawiązać kontakt ze społecznością i szukać wsparcia.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
  Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

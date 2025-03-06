@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 달력 예외에 대한 평일 정의
 linktitle: Aspose.Tasks를 사용하여 달력 예외에 대한 평일 정의
 second_title: Aspose.Tasks 자바 API
 description: 정확한 프로젝트 일정을 잡기 위해 Aspose.Tasks를 사용하여 Java 프로젝트에서 달력 예외에 대한 평일을 정의하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/calendar-exceptions/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 달력 예외에 대한 평일 정의
+
 ### 소개
 프로젝트 관리에서 달력에 대한 예외를 정의하는 것은 프로젝트 타임라인 내에서 비표준 근무일이나 휴일을 정확하게 표현하는 데 중요합니다. Aspose.Tasks for Java는 휴일이나 특별 근무일과 같은 예외 정의를 포함하여 달력을 효율적으로 관리할 수 있는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 달력 예외에 대한 평일을 정의하는 방법을 살펴보겠습니다.
 ### 전제조건
@@ -68,3 +74,10 @@ A: 물론 Aspose.Tasks for Java는 일일 예외에 국한되지 않고 다양�
 A: Aspose.Tasks for Java에서 제공하는 광범위한 API를 사용하여 동적 프로젝트 요구 사항에 따라 프로그래밍 방식으로 예외를 처리할 수 있습니다.
 ### Q: Aspose.Tasks for Java에 사용할 수 있는 평가판이 있습니까?
  A: 예, 다음 사이트에서 Aspose.Tasks for Java의 무료 평가판을 이용할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

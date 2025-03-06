@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Özelliklerinde Uzmanlaşmak
 linktitle: Aspose.Tasks'ta Görevlerin Genel Özelliklerini Okuma ve Yazma
 second_title: Aspose.Tasks Java API'si
 description: Görev özelliklerini zahmetsizce yönetme konusunda Aspose.Tasks for Java'nın gücünü keşfedin. Adım adım kılavuzumuzu kullanarak kolaylıkla okuyun ve yazın.
-type: docs
 weight: 26
 url: /tr/java/task-properties/read-write-general-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Özelliklerinde Uzmanlaşmak
+
 ## giriiş
 Aspose.Tasks ile Java'daki görev yönetiminin tüm potansiyelini ortaya çıkarın. Bu kapsamlı kılavuzda Aspose.Tasks for Java'yı kullanarak görevlerin genel özelliklerini okuma ve yazma konusunu derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu eğitim sizi görev özelliklerini zahmetsizce değiştirebilmeniz için gereken becerilerle donatacaktır.
 ## Önkoşullar
@@ -85,3 +91,9 @@ Evet, Aspose.Tasks, Java 11 ve sonraki sürümlerle uyumludur.
  Topluluk tartışmasına katılın[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) yardım ve işbirliği için.
 ### Referans için herhangi bir örnek proje var mı?
  Belgelerin örnekler bölümünü inceleyin[Burada](https://reference.aspose.com/tasks/java/) örnek projeler ve kod parçacıkları için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS Project Primavera 데이터베이스 구성
 linktitle: Aspose.Tasks에서 Primavera 데이터베이스 설정 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 MS Project Primavera 데이터베이스 설정을 쉽게 구성하는 방법을 알아보세요. 프로젝트 관리 작업을 간소화하세요.
-type: docs
 weight: 11
 url: /ko/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS Project Primavera 데이터베이스 구성
+
 ## 소개
 .NET용 Aspose.Tasks의 강력한 기능을 활용하여 MS Project Primavera 데이터베이스 설정을 원활하게 구성할 준비가 되셨습니까? 이 튜토리얼에서는 프로세스를 단계별로 안내합니다. 하지만 자세히 알아보기 전에 필요한 모든 것이 갖추어져 있는지 확인하겠습니다.
 ## 전제조건
@@ -73,3 +79,9 @@ A: Aspose.Tasks for .NET은 주로 온프레미스 프로젝트 관리 솔루션
 답: 물론이죠! Aspose.Tasks for .NET은 다양한 형식의 프로젝트 데이터를 읽고, 쓰고, 조작하기 위한 풍부한 API 세트를 제공합니다.
 ### Q: .NET 사용자를 위한 Aspose.Tasks에 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
  A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)문제나 문의 사항이 있을 경우 커뮤니티 지원 및 도움을 받으십시오.## 완전한 소스 코드
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 복합 문서 헤더 예외 처리
 linktitle: Aspose.Tasks에서 복합 문서 헤더 예외 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks에서 ComplexDocumentHeaderException을 처리하는 방법을 알아보세요. 코드 예제를 통해 단계별 지침을 얻으세요.
-type: docs
 weight: 16
 url: /ko/net/calendar-scheduling/compound-document-header-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 복합 문서 헤더 예외 처리
+
 ## 소개
 
  .NET 개발 영역에서는 프로젝트 작업을 효율적으로 관리하는 것이 가장 중요한 관심사입니다. Aspose.Tasks는 .NET 개발자가 프로젝트 관리 작업을 원활하게 처리할 수 있는 포괄적인 솔루션을 제공합니다. 그러나 예외 발생은 소프트웨어 개발에서 피할 수 없는 측면입니다. 개발자가 직면할 수 있는 예외 중 하나는`CompoundDocumentHeaderException`. 이 튜토리얼의 목표는 개발자에게 .NET용 Aspose.Tasks를 사용하여 이 예외를 효과적으로 처리하는 방법을 안내하는 것입니다.
@@ -105,3 +111,9 @@ A4: 예, Aspose.Tasks는 클라우드 기반 프로젝트 관리 플랫폼과의
 ### Q5: Aspose.Tasks에 대한 업데이트와 버그 수정은 얼마나 자주 출시됩니까?
 
 A5: Aspose.Tasks는 라이브러리의 안정성과 신뢰성을 보장하기 위해 정기적으로 업데이트와 버그 수정을 릴리스합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

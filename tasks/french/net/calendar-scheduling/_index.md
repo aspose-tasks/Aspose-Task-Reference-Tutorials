@@ -3,10 +3,16 @@ title: Calendrier et planification Aspose.Tasks
 linktitle: Calendrier et planification Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Gérez les calendriers de projet, calculez les durées et gérez les exceptions avec Aspose.Tasks pour .NET. Explorez des didacticiels étape par étape pour les tâches de calendrier et de planification.
-type: docs
 weight: 22
 url: /fr/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calendrier et planification Aspose.Tasks
+
 ## Introduction
 
 Bienvenue dans le monde des didacticiels Aspose.Tasks pour .NET, votre ressource incontournable pour maîtriser les subtilités de la gestion du calendrier et de la planification dans vos projets .NET. Aspose.Tasks offre aux développeurs des outils robustes pour gérer sans effort les calendriers de projet, calculer les durées et gérer les exceptions. Dans cette collection complète de didacticiels, nous abordons divers aspects, depuis l'utilisation des calendriers et la gestion des exceptions jusqu'à l'exploration de sujets spécialisés tels que les exceptions d'en-tête de document composé et les positions des symboles monétaires. Que vous soyez un développeur chevronné à la recherche d'informations avancées ou un nouveau venu désireux d'améliorer vos compétences en gestion de projet, ces didacticiels fournissent des conseils étape par étape et des exemples concrets. Embarquons pour un voyage visant à libérer tout le potentiel d'Aspose.Tasks pour .NET et à élever vos capacités de gestion de projet. Prêt à plonger ? Commençons!
@@ -135,3 +141,9 @@ Découvrez comment gérer efficacement les collections de type jour dans Aspose.
 Découvrez comment importer des projets à partir d'une base de données Primavera à l'aide d'Aspose.Tasks pour .NET. Obtenez des conseils étape par étape dans ce didacticiel complet.
 ### [Gestion de la durée dans Aspose.Tasks](./duration-handling/)
 Apprenez à gérer efficacement les durées dans Aspose.Tasks pour .NET avec des didacticiels étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

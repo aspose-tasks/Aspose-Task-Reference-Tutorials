@@ -3,10 +3,16 @@ title: Aspose.Tasks الميزات المتقدمة
 linktitle: Aspose.Tasks الميزات المتقدمة
 second_title: Aspose.Tasks .NET API
 description: اكتشف الميزات المتقدمة في Aspose.Tasks لـ .NET من خلال برامجنا التعليمية. من العمليات AND إلى معالجة استثناءات الذاكرة، عزز مهارات إدارة المشروع لديك.
-type: docs
 weight: 21
 url: /ar/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks الميزات المتقدمة
+
 
 ## مقدمة
 
@@ -93,3 +99,9 @@ url: /ar/net/advanced-features/
 تعرف على كيفية إدارة أوضاع الحساب بشكل فعال في Aspose.Tasks لـ .NET لتبسيط جدولة المشروع وتبعيات المهام.
 ### [نوع الحساب في Aspose.Tasks](./calculation-type/)
 تعرف على كيفية تخصيص حسابات القيمة في مشاريع .NET باستخدام نوع الحساب في مكتبة Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

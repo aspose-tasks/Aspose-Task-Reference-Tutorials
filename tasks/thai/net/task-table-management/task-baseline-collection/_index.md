@@ -3,10 +3,16 @@ title: การรวบรวมงานพื้นฐานใน Aspose.Ta
 linktitle: การรวบรวมงานพื้นฐานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจพื้นฐานงานได้อย่างง่ายดายด้วย Aspose.Tasks สำหรับ .NET การจัดการโครงการที่มีประสิทธิภาพทำได้ง่าย ดาวน์โหลดเดี๋ยวนี้! #Aspose.Tasks #โครงการ MS
-type: docs
 weight: 17
 url: /th/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวบรวมงานพื้นฐานใน Aspose.Tasks
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกของ Aspose.Tasks สำหรับ .NET ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้การจัดการและการจัดการงานโครงการเป็นไปอย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกขอบเขตงานที่น่าสนใจซึ่งเป็นส่วนสำคัญของการวางแผนและการติดตามโครงการ ในตอนท้ายของคู่มือนี้ คุณจะเชี่ยวชาญศิลปะของการทำงานกับคอลเลกชันพื้นฐานงาน ซึ่งจะทำให้คุณสามารถเพิ่มความสามารถในการจัดการโครงการของคุณได้
 ## ข้อกำหนดเบื้องต้น
@@ -68,3 +74,9 @@ for (var i = 0; i < baselines.Count; i++)
 ตอบ: แน่นอน! คุณสามารถควบคุมการจัดรูปแบบได้อย่างเต็มที่เมื่อพิมพ์รายละเอียดพื้นฐาน ซึ่งช่วยให้คุณปรับแต่งให้ตรงตามความต้องการเฉพาะของคุณได้
 ### ถาม: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันประสบปัญหาหรือมีคำถามเพิ่มเติม
  ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนโดยเฉพาะและการช่วยเหลือชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

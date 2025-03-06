@@ -3,10 +3,16 @@ title: 停止並恢復 Aspose.Tasks 中的資源分配
 linktitle: 停止並恢復 Aspose.Tasks 中的資源分配
 second_title: Aspose.Tasks Java API
 description: 透過此逐步教學，了解如何在 Aspose.Tasks for Java 中有效管理資源分配。
-type: docs
 weight: 23
 url: /zh-hant/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 停止並恢復 Aspose.Tasks 中的資源分配
+
 ## 介紹
 在本教程中，我們將學習如何使用 Aspose.Tasks for Java 停止和恢復資源分配。 Aspose.Tasks 是一個功能強大的 Java API，允許開發人員使用 Microsoft Project 文件，而無需在其係統上安裝 Microsoft Project。我們將把這個過程分解為可管理的步驟，以便於遵循。
 ## 先決條件
@@ -71,3 +77,9 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 您可以獲得社區的支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### 我可以購買臨時許可證嗎？
 是的，您可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

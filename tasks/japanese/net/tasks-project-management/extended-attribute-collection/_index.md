@@ -3,10 +3,16 @@ title: Aspose.Tasks で MS プロジェクト属性コレクションを管理�
 linktitle: Aspose.Tasks での拡張属性コレクションの管理
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project の拡張属性を効率的に管理する方法を学びます。ステップバイステップのガイダンスに従って、タスクの属性をシームレスに操作します。
-type: docs
 weight: 12
 url: /ja/net/tasks-project-management/extended-attribute-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で MS プロジェクト属性コレクションを管理する
+
 ## 導入
 Aspose.Tasks for .NET を使用して MS Project の拡張属性を効率的に管理したいと考えていますか?このチュートリアルでは、プロセスを段階的に説明します。飛び込んでみましょう！
 ## 前提条件
@@ -105,3 +111,9 @@ A: もちろんです！ Aspose.Tasks for .NET を使用すると、プロジェ
 A: はい、Aspose.Tasks for .NET は、さまざまなバージョンの MS Project ファイル形式をサポートしています。
 ### Q: Aspose.Tasks for .NET の試用版はありますか?
  A: はい、以下から無料トライアルをダウンロードできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jenis Akrual Biaya di Aspose.Tugas
 linktitle: Jenis Akrual Biaya di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola biaya proyek secara efektif dengan Aspose.Tasks untuk .NET. Tentukan jenis akrual biaya untuk pelacakan anggaran yang akurat.
-type: docs
 weight: 19
 url: /id/net/calendar-scheduling/cost-accrual-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jenis Akrual Biaya di Aspose.Tugas
+
 ## Perkenalan
 
 Dalam manajemen proyek, pelacakan biaya secara akurat sangat penting untuk menjaga pengendalian anggaran dan memastikan keberhasilan suatu proyek. Aspose.Tasks untuk .NET menawarkan seperangkat alat canggih untuk mengelola biaya proyek, termasuk kemampuan untuk menentukan jenis akrual biaya yang berbeda. Tutorial ini akan memandu Anda melalui proses memahami dan menerapkan jenis akrual biaya menggunakan Aspose.Tasks untuk .NET.
@@ -86,3 +92,9 @@ A4: Ya, Anda dapat mengatur jenis akrual biaya secara independen untuk setiap tu
 ### Q5: Apakah Aspose.Tasks untuk .NET mendukung jenis akrual biaya khusus?
 
 A5: Pada versi terbaru, Aspose.Tasks untuk .NET tidak mendukung penentuan jenis akrual biaya khusus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

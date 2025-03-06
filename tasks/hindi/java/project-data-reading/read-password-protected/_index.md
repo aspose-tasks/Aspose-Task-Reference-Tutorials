@@ -3,10 +3,16 @@ title: Aspose.Tasks में पासवर्ड-संरक्षित फ
 linktitle: Aspose.Tasks में पासवर्ड-संरक्षित फ़ाइलें पढ़ें
 second_title: Aspose.Tasks जावा एपीआई
 description: इस ट्यूटोरियल में चरण-दर-चरण मार्गदर्शन के साथ जावा के लिए Aspose.Tasks में पासवर्ड-सुरक्षित फ़ाइलों को आसानी से पढ़ना सीखें।
-type: docs
 weight: 14
 url: /hi/java/project-data-reading/read-password-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में पासवर्ड-संरक्षित फ़ाइलें पढ़ें
+
 ## परिचय
 जावा के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने की अनुमति देती है। डेवलपर्स का एक सामान्य कार्य पासवर्ड से सुरक्षित फ़ाइलें पढ़ना है। इस ट्यूटोरियल में, हम आपको चरण दर चरण ऐसी फ़ाइलों को पढ़ने की प्रक्रिया में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -49,3 +55,9 @@ System.out.println("Process completed Successfully");
  उत्तर: हाँ, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: क्या मुझे जावा के लिए Aspose.Tasks का उपयोग करने के लिए अस्थायी लाइसेंस की आवश्यकता है?
  उ: आपको कुछ कार्यात्मकताओं के लिए या मूल्यांकन अवधि के दौरान अस्थायी लाइसेंस की आवश्यकता हो सकती है। उसे ले लो[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

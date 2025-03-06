@@ -3,10 +3,16 @@ title: وسيطات حفظ CSS في Aspose.Tasks
 linktitle: وسيطات حفظ CSS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ وسيطات CSS في Aspose.Tasks لـ .NET لتخصيص مخرجات HTML. تحسين العرض التقديمي باستخدام إعدادات CSS المخصصة.
-type: docs
 weight: 20
 url: /ar/net/calendar-scheduling/css-saving-arguments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# وسيطات حفظ CSS في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ وسائط CSS باستخدام Aspose.Tasks لـ .NET. تعتبر أوراق الأنماط المتتالية (CSS) ضرورية لتحديد عرض عناصر HTML. يسمح لنا Aspose.Tasks بمعالجة سمات CSS هذه وحفظها بكفاءة.
@@ -118,3 +124,9 @@ project.Save("document_out.html", options);
 ### س5: هل يقدم Aspose.Tasks لـ .NET الدعم للمطورين؟
 
  ج5: نعم، يمكنك الحصول على الدعم من مجتمع Aspose.Tasks من خلال[المنتدى](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

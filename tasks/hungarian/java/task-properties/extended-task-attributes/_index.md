@@ -3,10 +3,16 @@ title: Kibővített feladatattribútumok az Aspose.Tasks-ban
 linktitle: Kibővített feladatattribútumok az Aspose.Tasks-ban
 second_title: Aspose.Tasks Java API
 description: Fedezze fel a kiterjesztett feladatattribútumokat az Aspose.Tasks for Java programban. Lépésről lépésre útmutató, GYIK és támogatás. Optimalizálja projektmenedzsmentjét még ma!
-type: docs
 weight: 16
 url: /hu/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kibővített feladatattribútumok az Aspose.Tasks-ban
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az Aspose.Tasks for Java kiterjesztett feladatattribútumainak kihasználásáról. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a Microsoft Project dokumentumokkal való zökkenőmentes kezelést. Ebben az oktatóanyagban a kibővített feladatattribútumokba fogunk beleásni, és bemutatjuk, hogyan használhatja őket projektmenedzsmenti képességei fejlesztésére.
 ## Előfeltételek
@@ -73,3 +79,9 @@ Igen, az Aspose.Tasks for Java segítségével módosíthatja a kiterjesztett fe
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Tasks for Java teljes verzióját?
  Megvásárolhatja a teljes verziót[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

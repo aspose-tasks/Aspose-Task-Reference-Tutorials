@@ -3,10 +3,16 @@ title: Aspose.Tasks로 Microsoft 프로젝트 뷰 마스터하기
 linktitle: Aspose.Tasks에서 뷰 구성
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks로 Microsoft 프로젝트 보기를 마스터하세요. 프로젝트 관리 경험을 손쉽게 사용자 정의하고 간소화하세요.
-type: docs
 weight: 10
 url: /ko/net/view-wbs-code-configuration/configuring-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks로 Microsoft 프로젝트 뷰 마스터하기
+
 ## 소개
 역동적인 프로젝트 관리 세계에서 Microsoft Project의 보기를 사용자 지정하면 작업 흐름이 크게 향상될 수 있습니다. Aspose.Tasks for .NET은 프로젝트 뷰를 원활하게 조작하고 구성할 수 있는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 뷰를 구성하는 단계를 자세히 살펴보고 프로젝트 시각화를 간소화하는 데 도움을 드립니다.
 ## 전제조건
@@ -78,3 +84,9 @@ Aspose.Tasks는 주로 Microsoft Project용으로 설계되어 원활한 통합�
  물론 Aspose.Tasks 문서를 자세히 살펴보세요.[여기](https://reference.aspose.com/tasks/net/) 고급 사용자 정의 옵션.
 ### .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  도서관을 구매하시면 됩니다[여기](https://purchase.aspose.com/buy) 원활한 프로젝트 관리 경험을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中掌握 Microsoft Project Outline Masks
 linktitle: 在 Aspose.Tasks 中使用輪廓遮罩
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以程式設計方式處理 Microsoft Project 檔案。有效掌握輪廓蒙版。
-type: docs
 weight: 14
 url: /zh-hant/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中掌握 Microsoft Project Outline Masks
+
 ## 介紹
 在專案管理和任務追蹤領域，Microsoft Project 是一個基礎工具。然而，當涉及以程式設計方式操作和管理專案文件時，Aspose.Tasks for .NET 成為一個強大的解決方案。本教學將深入探討使用 Aspose.Tasks for .NET 處理 MS Project 檔案的特定面向：處理輪廓遮罩。
 ## 先決條件
@@ -76,3 +82,9 @@ outline.Values.Add(value);
 答：當然！您可以免費試用 Aspose.Tasks[這裡](https://releases.aspose.com/).
 ### Q：我可以在哪裡獲得 Aspose.Tasks 的臨時許可證？
 答：如果您需要臨時許可證用於評估或測試目的，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

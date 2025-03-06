@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的基线任务调度
 linktitle: Aspose.Tasks 中的基线任务调度
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 有效地安排任务基线。轻松简化您的项目管理流程。
-type: docs
 weight: 10
 url: /zh/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的基线任务调度
+
 ## 介绍
 管理任务基线是项目管理的一个重要方面，使您能够准确比较计划进度与实际进度。在本教程中，我们将探讨如何使用 Aspose.Tasks for Java 执行基线任务调度。通过执行这些步骤，您将能够有效地简化项目管理流程。
 ## 先决条件
@@ -63,3 +69,9 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 是的，您可以从以下位置访问 Aspose.Tasks for Java 的免费试用版：[发布页面](https://releases.aspose.com/).
 ### 在哪里可以找到 Aspose.Tasks for Java 的支持？
 如有任何疑问或帮助，您可以访问 Aspose.Tasks 论坛[这里](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

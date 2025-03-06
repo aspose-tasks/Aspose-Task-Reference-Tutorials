@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET のアウトライン コード定義のコレクショ
 linktitle: Aspose.Tasks のアウトライン コード定義のコレクション
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project ドキュメント内のアウトライン コード定義を操作する方法を学習します。プロジェクト データを簡単に分類できます。
-type: docs
 weight: 13
 url: /ja/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET のアウトライン コード定義のコレクション
+
 ## 導入
 Aspose.Tasks は、Microsoft Project ドキュメントを簡単かつ効率的に操作できるように設計された強力な .NET ライブラリです。その重要な機能の 1 つは、アウトライン コード定義を操作できることで、ユーザーはプロジェクト データを効果的に整理および分類できるようになります。このチュートリアルでは、Aspose.Tasks for .NET を使用してアウトライン コード定義を操作する方法を検討します。
 ## 前提条件
@@ -83,3 +89,9 @@ A: アウトライン コード定義が読み取り専用の場合、それを�
 A: Aspose.Tasks for .NET では、プロジェクトに追加できるアウトライン コード定義の数に特別な制限はありません。ただし、多数の定義を操作する場合は、パフォーマンスへの影響を考慮してください。
 ### Q: アウトライン コード定義を使用して、カスタム基準に基づいてタスクをグループ化できますか?
 A: はい、アウトライン コード定義を使用すると、カスタム基準に基づいてタスクを分類できるため、プロジェクト データを柔軟に編成できます。## 完全なソース コード
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

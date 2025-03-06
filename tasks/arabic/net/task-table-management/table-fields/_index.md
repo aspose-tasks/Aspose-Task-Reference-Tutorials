@@ -3,10 +3,16 @@ title: التعامل مع حقول الجدول في Aspose.Tasks
 linktitle: التعامل مع حقول الجدول في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: أتقن التعامل مع حقول الجدول في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي الشامل. تعلم كيفية قراءة جداول المشروع وعرضها وتعديلها بسهولة.
-type: docs
 weight: 12
 url: /ar/net/task-table-management/table-fields/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع حقول الجدول في Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Tasks for .NET، وهي مكتبة قوية تتيح المعالجة السلسة لملفات Microsoft Project في تطبيقات .NET الخاصة بك. في هذا البرنامج التعليمي، سنتعمق في تعقيدات التعامل مع حقول الجدول في Aspose.Tasks، مما يسمح لك بقراءة جداول المشروع وإدارتها بكفاءة. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، فإن هذا الدليل المفصّل خطوة بخطوة سيمكنك من الاستفادة من الإمكانات الكاملة لـ Aspose.Tasks.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ foreach (var field in table.TableFields)
 يتم إصدار تحديثات Aspose.Tasks بانتظام لضمان التوافق وتقديم ميزات جديدة.
 ### هل يوجد منتدى مجتمعي لدعم Aspose.Tasks؟
  نعم، يمكنك العثور على المساعدة والمناقشات حول[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

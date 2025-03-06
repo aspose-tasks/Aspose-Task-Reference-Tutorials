@@ -3,10 +3,16 @@ title: Aspose.Tasks में VBA मॉड्यूल प्रबंधित
 linktitle: Aspose.Tasks में VBA मॉड्यूल प्रबंधित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों में VBA मॉड्यूल को आसानी से प्रबंधित करें। चरण-दर-चरण मार्गदर्शन का अन्वेषण करें और अपने विकास कार्यप्रवाह को बढ़ाएं।
-type: docs
 weight: 10
 url: /hi/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में VBA मॉड्यूल प्रबंधित करना
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने की अनुमति देती है। Aspose.Tasks की प्रमुख विशेषताओं में से एक प्रोजेक्ट फ़ाइलों के भीतर VBA (एप्लिकेशन के लिए विज़ुअल बेसिक) मॉड्यूल को प्रबंधित करने की क्षमता है। इस ट्यूटोरियल में, हम चरण-दर-चरण मार्गदर्शिका में Aspose.Tasks का उपयोग करके VBA मॉड्यूल को प्रबंधित करने की प्रक्रिया के बारे में विस्तार से जानेंगे।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ foreach (var module in project.VbaProject.Modules)
 हाँ, आप निःशुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Tasks से संबंधित किसी भी मुद्दे के लिए समर्थन कैसे प्राप्त कर सकता हूं या सहायता कैसे प्राप्त कर सकता हूं?
 बेझिझक जाएँ[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

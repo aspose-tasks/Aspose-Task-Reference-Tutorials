@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中配置 MS Project Primavera 数据库
 linktitle: 在 Aspose.Tasks 中配置 Primavera 数据库设置
 second_title: Aspose.Tasks .NET API
 description: 了解如何在 Aspose.Tasks for .NET 中轻松配置 MS Project Primavera 数据库设置。简化您的项目管理任务。
-type: docs
 weight: 11
 url: /zh/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中配置 MS Project Primavera 数据库
+
 ## 介绍
 您准备好利用 Aspose.Tasks for .NET 的强大功能来无缝配置 MS Project Primavera 数据库设置了吗？在本教程中，我们将逐步指导您完成该过程。但在我们深入之前，让我们确保您拥有所需的一切。
 ## 先决条件
@@ -73,3 +79,9 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 答：当然！ Aspose.Tasks for .NET 提供了一组丰富的 API，用于读取、写入和操作各种格式的项目数据。
 ### 问：是否有适用于 .NET 用户的 Aspose.Tasks 的社区论坛或支持渠道？
 答： 是的，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)对于您可能遇到的任何问题或疑问，寻求社区支持和帮助。## 完整源代码
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

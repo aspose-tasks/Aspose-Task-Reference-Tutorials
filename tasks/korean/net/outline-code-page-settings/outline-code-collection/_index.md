@@ -3,10 +3,16 @@ title: Aspose.Tasks의 개요 코드 MS 프로젝트 수집
 linktitle: Aspose.Tasks의 개요 코드 컬렉션
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 수집하는 방법을 알아보세요. 이 포괄적인 튜토리얼은 단계별 지침을 제공합니다.
-type: docs
 weight: 11
 url: /ko/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 개요 코드 MS 프로젝트 수집
+
 ## 소개
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 수집하는 방법을 살펴보겠습니다. 명확성과 이해를 보장하기 위해 프로세스를 단계별 지침으로 나누어 보겠습니다.
 ## 전제조건
@@ -95,3 +101,9 @@ A: 예, Aspose.Tasks for .NET은 최신 버전을 포함하여 다양한 버전�
 A: 물론입니다. Aspose.Tasks for .NET은 요구 사항에 따라 출력 형식을 사용자 정의할 수 있는 광범위한 옵션을 제공합니다.
 ### Q: Aspose.Tasks for .NET에 대한 추가 지원이나 리소스는 어디서 찾을 수 있나요?
  A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) Aspose.Tasks for .NET에 관한 지원이나 문의 사항이 있으신 경우.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

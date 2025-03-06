@@ -3,10 +3,16 @@ title: Verwalten der Projektressourcensammlung in Aspose.Tasks
 linktitle: Verwalten der Ressourcensammlung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Microsoft Project-Ressourcensammlungen in .NET mithilfe der Aspose.Tasks-API effizient verwalten. Steigern Sie Produktivität und Flexibilität.
-type: docs
 weight: 13
 url: /de/net/resource-risk-analysis/managing-resource-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten der Projektressourcensammlung in Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Microsoft Project-Ressourcensammlungen mithilfe von Aspose.Tasks für .NET effektiv verwalten. Aspose.Tasks ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft Project-Dateien zu arbeiten und so eine nahtlose Integration und Bearbeitung von Projektdaten zu ermöglichen.
 ## Voraussetzungen
@@ -99,3 +105,9 @@ A: Ja, Aspose.Tasks unterstützt Multithreading und ermöglicht so gleichzeitige
 ### F: Ist technischer Support für Aspose.Tasks-Benutzer verfügbar?
 
  A: Ja, Aspose.Tasks-Benutzer können über das Forum auf technischen Support zugreifen[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

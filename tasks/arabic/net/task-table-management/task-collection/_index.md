@@ -3,10 +3,16 @@ title: إدارة مجموعات المهام في Aspose.Tasks
 linktitle: إدارة مجموعات المهام في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: اكتشف الإدارة الفعالة لمجموعة المهام في Aspose.Tasks لـ .NET. من الإنشاء إلى التحرير، أتقن إدارة المشروعات بسهولة.
-type: docs
 weight: 18
 url: /ar/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعات المهام في Aspose.Tasks
+
 ## مقدمة
 إذا كنت تتعمق في عالم إدارة المشاريع باستخدام .NET، فإن Aspose.Tasks هو الحل الأمثل للتعامل السلس مع مجموعات المهام. سيرشدك هذا البرنامج التعليمي خلال عملية إدارة مجموعات المهام بكفاءة، مما يضمن تحقيق أقصى استفادة من هذه المكتبة القوية.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ foreach (var task in tasks)
  نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
  نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

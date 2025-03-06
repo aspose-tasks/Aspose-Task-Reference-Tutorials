@@ -3,10 +3,16 @@ title: Aspose.Tasks 시간 구성 및 반복 패턴
 linktitle: Aspose.Tasks 시간 구성 및 반복 패턴
 second_title: Aspose.태스크 .NET API
 description: 시간 구성 및 반복 패턴에 대한 .NET 튜토리얼용 Aspose.Tasks를 살펴보세요. 손쉽게 달력을 관리하고, 작업 시간을 맞춤화하고, 프로젝트 일정을 최적화하세요.
-type: docs
 weight: 33
 url: /ko/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 시간 구성 및 반복 패턴
+
 ## 소개
 
 효율적인 프로젝트 관리와 사용자 정의 가능한 시간 구성 및 반복 패턴의 기능이 만나는 Aspose.Tasks for .NET의 세계에 오신 것을 환영합니다. 이 포괄적인 가이드에서는 프로젝트 일정 관리 및 리소스 관리 기술을 익히는 데 도움이 되는 다양한 튜토리얼을 자세히 살펴보겠습니다.
@@ -58,3 +64,9 @@ Aspose.Tasks를 사용하여 .NET에서 프로젝트 일정을 개선하세요. 
 .NET용 Aspose.Tasks에서 작업 주를 사용자 정의하는 방법을 알아보세요. 개인화된 프로젝트 달력을 만들기 위한 단계별 가이드입니다. 지금 다운로드하세요!
 ### [Aspose.Tasks에서 연간 반복 패턴 구성](./yearly-recurrence-patterns/)
 .NET용 Aspose.Tasks에서 연간 반복 패턴을 구성하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트 관리 기술을 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

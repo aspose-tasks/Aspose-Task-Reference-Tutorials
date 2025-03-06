@@ -3,10 +3,16 @@ title: Tùy chọn sao chép trong Aspose.Tasks
 linktitle: Tùy chọn sao chép trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách sao chép dữ liệu dự án một cách hiệu quả bằng Aspose.Tasks cho .NET. Nâng cao các ứng dụng .NET của bạn với khả năng quản lý dự án mạnh mẽ.
-type: docs
 weight: 18
 url: /vi/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn sao chép trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, việc quản lý các tác vụ một cách hiệu quả là yếu tố quan trọng để dự án thành công. Aspose.Tasks for .NET cung cấp giải pháp toàn diện cho các nhà phát triển để xử lý các tác vụ quản lý dự án một cách liền mạch. Một tính năng thiết yếu là khả năng sao chép dữ liệu dự án với nhiều tùy chọn khác nhau phù hợp với nhu cầu cụ thể. Trong hướng dẫn này, chúng ta sẽ khám phá Tùy chọn sao chép trong Aspose.Tasks, chia nhỏ từng ví dụ thành nhiều bước để hướng dẫn bạn thực hiện quy trình.
@@ -98,3 +104,9 @@ Câu trả lời 4: Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ, tài liệu, hướng dẫn và thảo luận cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

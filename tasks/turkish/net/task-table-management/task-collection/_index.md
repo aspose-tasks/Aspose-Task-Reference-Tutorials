@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Koleksiyonlarını Yönetme
 linktitle: Aspose.Tasks'ta Görev Koleksiyonlarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te verimli görev toplama yönetimini keşfedin. Oluşturma aşamasından düzenleme aşamasına kadar proje yönetiminde kolaylıkla uzmanlaşın.
-type: docs
 weight: 18
 url: /tr/net/task-table-management/task-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Koleksiyonlarını Yönetme
+
 ## giriiş
 .NET kullanarak proje yönetimi dünyasına giriyorsanız Aspose.Tasks, görev koleksiyonlarının sorunsuz bir şekilde yönetilmesi için başvuracağınız çözümdür. Bu eğitim, görev koleksiyonlarını verimli bir şekilde yönetme sürecinde size rehberlik edecek ve bu güçlü kitaplıktan en iyi şekilde yararlanmanızı sağlayacaktır.
 ## Önkoşullar
@@ -95,3 +101,9 @@ Kesinlikle! Aspose.Tasks, PDF, XLSX ve MPP dahil olmak üzere çok yönlü dış
  Evet, şu adresten destek bulabilir ve toplulukla etkileşime geçebilirsiniz:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks için geçici lisans alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

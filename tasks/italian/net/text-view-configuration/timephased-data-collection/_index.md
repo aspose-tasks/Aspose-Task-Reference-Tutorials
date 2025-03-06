@@ -3,10 +3,16 @@ title: Padroneggiare la raccolta dati temporale in Aspose.Tasks
 linktitle: Raccolta di dati rapportati alla scala cronologica in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora la raccolta dati rapportata alla scala cronologica in Aspose.Tasks per .NET. Guida passo passo, domande frequenti e altro ancora. Migliora le tue capacità di gestione dei progetti oggi stesso!
-type: docs
 weight: 15
 url: /it/net/text-view-configuration/timephased-data-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare la raccolta dati temporale in Aspose.Tasks
+
 ## introduzione
 Stai cercando di sfruttare la potenza dei dati timephased nelle tue applicazioni .NET utilizzando Aspose.Tasks? Non guardare oltre! Questa guida completa ti guiderà attraverso il processo di raccolta dei dati in scala cronologica con Aspose.Tasks per .NET, assicurandoti di ottenere il massimo da questa potente libreria.
 ## Prerequisiti
@@ -121,3 +127,9 @@ Aspose.Tasks gestisce progetti di varie dimensioni e non esiste un limite rigido
  Sì, puoi esplorare le funzionalità di Aspose.Tasks per .NET accedendo a[prova gratuita](https://releases.aspose.com/).
 ### Dove posso acquistare una licenza per Aspose.Tasks per .NET?
 È possibile acquistare una licenza per Aspose.Tasks per .NET[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

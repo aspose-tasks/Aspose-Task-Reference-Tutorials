@@ -3,10 +3,16 @@ title: VBA 참조 처리 마스터하기 - 단계별 가이드
 linktitle: Aspose.Tasks에서 VBA 참조 처리
 second_title: Aspose.태스크 .NET API
 description: 포괄적인 튜토리얼을 통해 Aspose.Tasks .NET에서 VBA 참조 처리 기능을 살펴보세요. VBA 참조를 원활하게 읽고, 비교하고, 작업하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/vba-module-reference/vba-references/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# VBA 참조 처리 마스터하기 - 단계별 가이드
+
 ## 소개
 .NET용 Aspose.Tasks를 살펴보고 VBA 참조 처리의 복잡성을 살펴보고 싶다면 올바른 위치에 오셨습니다. 이 단계별 가이드는 Aspose.Tasks를 사용하여 읽기, 동일성 확인, 해시 코드 획득 및 VBA 참조 컬렉션 작업 과정을 안내합니다.
 ## 전제조건
@@ -79,3 +85,9 @@ A: Aspose.Tasks는 주로 .NET 언어를 지원하지만, 다양한 플랫폼과
  A: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks를 구매할 수 있나요?
  A: 네, 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

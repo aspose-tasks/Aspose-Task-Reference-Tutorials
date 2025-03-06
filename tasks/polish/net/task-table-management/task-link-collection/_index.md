@@ -3,10 +3,16 @@ title: Obsługa łączy zadań w Aspose.Tasks
 linktitle: Obsługa łączy zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Poznaj moc Aspose.Tasks dla .NET w efektywnym zarządzaniu łączami zadań projektowych. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć zarządzanie projektami.
-type: docs
 weight: 19
 url: /pl/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa łączy zadań w Aspose.Tasks
+
 ## Wstęp
 Witamy w przewodniku krok po kroku dotyczącym obsługi łączy zadań w Aspose.Tasks dla .NET! Powiązania zadań odgrywają kluczową rolę w zarządzaniu projektami, pozwalając na ustanawianie relacji pomiędzy zadaniami i tworzenie zależności. W tym samouczku przeprowadzimy Cię przez proces pracy z kolekcjami łączy do zadań przy użyciu Aspose.Tasks.
 ## Warunki wstępne
@@ -85,3 +91,9 @@ Obecnie Aspose.Tasks obsługuje standardowe typy łączy zadań, a niestandardow
 Aspose.Tasks może efektywnie obsługiwać duże pliki projektu przy minimalnym wpływie na wydajność.
 ### Czy istnieje forum społecznościowe dla wsparcia Aspose.Tasks?
  Tak, możesz znaleźć wsparcie i nawiązać kontakt ze społecznością na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

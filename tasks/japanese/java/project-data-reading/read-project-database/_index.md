@@ -3,10 +3,16 @@ title: Aspose.Tasks での MS Project データベースからのプロジェク
 linktitle: Aspose.Tasks で Microsoft Project データベースからプロジェクト データを読み取る
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して Microsoft Project データベースからプロジェクト データを読み取る方法を学習します。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks での MS Project データベースからのプロジェクト データの読み取り
+
 ## 導入
 このチュートリアルでは、Aspose.Tasks for Java を使用して Microsoft Project データベースからプロジェクト データを読み取る方法を説明します。 Aspose.Tasks は、開発者が Microsoft Project をインストールしなくても Microsoft Project ドキュメントを操作できるようにする強力な Java API です。このガイドで概説されている手順に従うことで、データベースからプロジェクト データを効率的に抽出し、目的の形式で保存する方法を学びます。
 ## 前提条件
@@ -68,3 +74,9 @@ A: もちろん、Aspose.Tasks は、タスクの追加、リソースの更新�
 A: はい、Aspose.Tasks は、XML、PDF、HTML、PNG や JPEG などの画像形式など、さまざまな出力形式をサポートしています。
 ### Q: Aspose.Tasks に関するさらなるサポートや支援はどこで入手できますか?
  A: 追加のサポートや支援が必要な場合は、Aspose.Tasks フォーラムにアクセスするか、Web サイトで入手可能なドキュメントを参照してください。[ここ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

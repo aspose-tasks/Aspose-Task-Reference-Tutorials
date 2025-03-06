@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的持續時間處理
 linktitle: Aspose.Tasks 中的持續時間處理
 second_title: Aspose.Tasks .NET API
 description: 透過逐步教學了解如何在 Aspose.Tasks for .NET 中有效處理持續時間。
-type: docs
 weight: 30
 url: /zh-hant/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的持續時間處理
+
 ## 介紹
 
 有效處理工期對於專案管理應用程式至關重要。 Aspose.Tasks for .NET 提供了強大的功能來有效管理持續時間。在本教程中，我們將使用 Aspose.Tasks for .NET 來探索持續時間處理的各個方面。
@@ -156,3 +162,9 @@ A4：是的，Aspose.Tasks 支援讀取和寫入各種格式的 Microsoft Projec
 ### Q5：Aspose.Tasks for .NET 有試用版嗎？
 
 A5：是的，您可以從以下位置獲得 Aspose.Tasks for .NET 的免費試用版：[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurasikan Detail Enkripsi PDF Proyek MS di Aspose.Tasks
 linktitle: Mengonfigurasi Detail Enkripsi PDF di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi detail enkripsi MS Project PDF di Aspose.Tasks untuk .NET. Amankan file proyek Anda dengan kata sandi pengguna dan pemilik.
-type: docs
 weight: 11
 url: /id/net/pdf-security-configuration/pdf-encryption-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasikan Detail Enkripsi PDF Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, mengelola tugas secara efisien sangatlah penting. Aspose.Tasks untuk .NET menyederhanakan proses ini dengan menyediakan seperangkat alat komprehensif untuk bekerja dengan file Microsoft Project. Salah satu aspek penting dari manajemen tugas adalah memastikan keamanan informasi proyek yang sensitif. Dalam tutorial ini, kita akan mempelajari konfigurasi detail enkripsi MS Project PDF menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -68,3 +74,9 @@ J: Tidak, setelah PDF dienkripsi dan disimpan, detail enkripsi tidak dapat diuba
 J: Meskipun tidak ada batasan khusus yang diberlakukan oleh Aspose.Tasks, disarankan untuk menggunakan kata sandi yang kuat untuk meningkatkan keamanan.
 ### T: Bisakah PDF terenkripsi didekripsi secara terprogram?
 J: Aspose.Tasks menyediakan API untuk bekerja dengan PDF terenkripsi, memungkinkan dekripsi menggunakan kredensial yang sesuai.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

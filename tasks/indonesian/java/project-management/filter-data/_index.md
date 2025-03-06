@@ -3,10 +3,16 @@ title: Filter Data dari File MPP di Aspose.Tasks
 linktitle: Filter Data dari File MPP di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara memfilter data dari file MPP menggunakan Aspose.Tasks untuk Java. Tingkatkan alur kerja manajemen proyek Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/java/project-management/filter-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filter Data dari File MPP di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang pengembangan Java, mengelola tugas-tugas proyek secara efisien merupakan aspek penting dari manajemen proyek yang sukses. Aspose.Tasks untuk Java menawarkan solusi tangguh untuk menangani tugas manajemen proyek secara terprogram, menyediakan alat yang dibutuhkan pengembang untuk memfilter data dari file MPP dengan lancar. Dalam tutorial ini, kita akan mempelajari proses memfilter data dari file MPP menggunakan Aspose.Tasks untuk Java, menguraikan setiap langkah untuk memastikan pemahaman yang komprehensif.
 ## Prasyarat
@@ -81,3 +87,9 @@ J: Ya, baik Anda mengelola proyek skala kecil atau menangani portofolio proyek y
  J: Tentu saja! Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/tasks/java/) untuk panduan terperinci dan referensi API. Selain itu, Anda dapat mencari bantuan dari forum komunitas Aspose.Tasks untuk pertanyaan atau masalah apa pun yang Anda temui.
 ### T: Dapatkah saya menjelajahi fungsi Aspose.Tasks untuk Java sebelum melakukan pembelian?
  J: Tentu saja! Anda dapat memanfaatkan uji coba gratis dari[situs web](https://releases.aspose.com/) untuk merasakan fitur dan kemampuan Aspose.Tasks untuk Java secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nắm vững các chế độ xem sử dụng tác vụ trong Aspose.Task
 linktitle: Định cấu hình Chế độ xem sử dụng tác vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá Aspose.Tasks cho .NET và tìm hiểu cách định cấu hình chế độ xem sử dụng tác vụ. Tùy chỉnh cài đặt thang thời gian và nâng cao hình ảnh quản lý dự án của bạn.
-type: docs
 weight: 24
 url: /vi/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các chế độ xem sử dụng tác vụ trong Aspose.Tasks cho .NET
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc trực quan hóa việc sử dụng nhiệm vụ là yếu tố then chốt để lập kế hoạch và thực hiện hiệu quả. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để hiển thị các chế độ xem sử dụng tác vụ, cho phép bạn tùy chỉnh cài đặt thang thời gian và định dạng trình bày. Trong hướng dẫn này, chúng ta sẽ thực hiện các bước để định cấu hình chế độ xem sử dụng tác vụ bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Có, Aspose.Tasks hỗ trợ các định dạng tệp dự án phổ biến nh�
 Hoàn toàn có thể, bạn có thể tùy chỉnh cài đặt thang thời gian cho từng tác vụ trong dự án của mình.
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho Aspose.Tasks?
  Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

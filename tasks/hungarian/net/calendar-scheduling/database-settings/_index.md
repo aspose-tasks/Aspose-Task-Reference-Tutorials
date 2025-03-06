@@ -3,10 +3,16 @@ title: Adatbázis-beállítások az Aspose.Tasks-ban
 linktitle: Adatbázis-beállítások az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan importálhat projekteket Primavera adatbázisból az Aspose.Tasks for .NET segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre kaphat útmutatást.
-type: docs
 weight: 29
 url: /hu/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adatbázis-beállítások az Aspose.Tasks-ban
+
 ## Bevezetés
 
 Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak .NET-alkalmazásaikban. Ebben az oktatóanyagban a projektek Primavera adatbázisból történő importálására összpontosítunk az Aspose.Tasks segítségével.
@@ -100,3 +106,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan importálhatunk projekteket egy Pri
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.Tasks for .NET használatához?
 
  5. válasz: Ha szeretné értékelni a könyvtár teljes funkcionalitását, szerezzen be egy ideiglenes licencet a webhelyről[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

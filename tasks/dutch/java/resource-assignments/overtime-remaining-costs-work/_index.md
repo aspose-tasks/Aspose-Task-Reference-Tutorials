@@ -3,10 +3,16 @@ title: Houd toezicht op overuren, resterende kosten en werk in Aspose.Tasks
 linktitle: Houd toezicht op overuren, resterende kosten en werk in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u overuren en resterende kosten kunt monitoren en hoe u in Java-projecten kunt werken met Aspose.Tasks. Eenvoudige stappen voor effectief projectmanagement.
-type: docs
 weight: 18
 url: /nl/java/resource-assignments/overtime-remaining-costs-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Houd toezicht op overuren, resterende kosten en werk in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie leren we hoe u Aspose.Tasks voor Java kunt gebruiken om overuren, resterende kosten en het werk in een project te controleren. Dit kan van onschatbare waarde zijn voor projectmanagers en teamleiders om ervoor te zorgen dat projecten op koers en binnen het budget blijven.
 ## Vereisten
@@ -73,3 +79,9 @@ Ja, Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder 
  U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15) Voor ondersteuning.
 ### Hoe kan ik een licentie voor Aspose.Tasks kopen?
  U kunt een licentie kopen bij[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

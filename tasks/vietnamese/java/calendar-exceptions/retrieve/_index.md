@@ -3,10 +3,16 @@ title: Truy xuất ngoại lệ lịch với Aspose.Tasks
 linktitle: Truy xuất ngoại lệ lịch với Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách truy xuất các ngoại lệ lịch từ MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất ngoại lệ lịch với Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách truy xuất các ngoại lệ lịch từ MS Project bằng thư viện Aspose.Tasks cho Java. Aspose.Tasks là một công cụ mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, chia nhỏ từng ví dụ thành nhiều bước để dễ hiểu.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp MS Proj
  Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Có tùy chọn cấp giấy phép tạm thời cho Aspose.Tasks không?
  Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

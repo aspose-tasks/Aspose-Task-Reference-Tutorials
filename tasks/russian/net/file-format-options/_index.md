@@ -3,10 +3,16 @@ title: Параметры формата файла Aspose.Tasks
 linktitle: Параметры формата файла Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Изучите параметры формата файлов Aspose.Tasks и научитесь настраивать параметры XAML и XLSX в Aspose.Tasks .NET. Улучшите управление проектами с помощью советов по настройке.
-type: docs
 weight: 34
 url: /ru/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры формата файла Aspose.Tasks
+
 
 ## Введение
 
@@ -27,3 +33,9 @@ url: /ru/net/file-format-options/
 Узнайте, как настроить параметры MS Project XAML в Aspose.Tasks для .NET. Повысьте гибкость управления проектами и возможность настройки с помощью пошаговых инструкций.
 ### [Настройка параметров XLSX в Aspose.Tasks](./configuring-xlsx-options/)
 Узнайте, как настроить параметры MS Project XLSX в Aspose.Tasks для .NET. Настраивайте столбцы, кодировку и многое другое без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

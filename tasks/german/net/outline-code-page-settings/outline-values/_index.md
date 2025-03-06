@@ -3,10 +3,16 @@ title: Beherrschen der Gliederungswerte von MS Project mit Aspose.Tasks
 linktitle: Verwalten von Gliederungswerten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Gliederungswerte mit Aspose.Tasks für .NET effizient verwalten. Passen Sie Projektskizzen ganz einfach an.
-type: docs
 weight: 16
 url: /de/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der Gliederungswerte von MS Project mit Aspose.Tasks
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Microsoft Project-Gliederungswerte mithilfe der Aspose.Tasks-Bibliothek für .NET verwalten. Mit Aspose.Tasks können Sie Gliederungscodes einfach bearbeiten, neue Gliederungswerte erstellen und Projektgliederungen entsprechend Ihren Anforderungen anpassen.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ A: Ja, Aspose.Tasks ist mit verschiedenen .NET-Frameworks kompatibel und sorgt s
 A: Ja, Sie können eine temporäre Lizenz für Aspose.Tasks erwerben bei[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo finde ich eine ausführliche Dokumentation zu Aspose.Tasks?
  A: Sie können auf die umfassende verfügbare Dokumentation zurückgreifen[Hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

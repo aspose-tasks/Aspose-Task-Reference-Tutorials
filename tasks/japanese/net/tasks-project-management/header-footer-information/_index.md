@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用してヘッダーとフッターの情報を抽出
 linktitle: Aspose.Tasks のヘッダーとフッターの情報
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ファイルからヘッダーとフッター情報を抽出する方法を学びます。簡単、効率的、開発者に優しいソリューション。
-type: docs
 weight: 29
 url: /ja/net/tasks-project-management/header-footer-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用してヘッダーとフッターの情報を抽出する
+
 ## 導入
 Aspose.Tasks for .NET は、開発者が Microsoft Project ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks を使用して MS Project ファイルからヘッダーとフッターの情報を取得する方法を学習します。
 ## 前提条件
@@ -70,3 +76,9 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
  Aspose.Tasks のドキュメントを見つけることができます。[ここ](https://reference.aspose.com/tasks/net/).
 ### Aspose.Tasks のサポートを受けるにはどうすればよいですか?
  Aspose.Tasks のサポートを受けるには、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

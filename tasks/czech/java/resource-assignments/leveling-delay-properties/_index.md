@@ -3,10 +3,16 @@ title: Zvládněte vlastnosti zpoždění vyrovnání v Aspose.Tasks
 linktitle: Zvládněte vlastnosti zpoždění vyrovnání pro přiřazení prostředků v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak zacházet s vlastnostmi zpoždění vyrovnání pro přiřazení zdrojů v Aspose.Tasks for Java, pomocí tohoto komplexního kurzu.
-type: docs
 weight: 17
 url: /cs/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládněte vlastnosti zpoždění vyrovnání v Aspose.Tasks
+
 ## Úvod
 V tomto tutoriálu projdeme procesem zpracování vlastností zpoždění vyrovnání pro přiřazení zdrojů v Aspose.Tasks for Java. Aspose.Tasks je výkonná Java knihovna, která vám umožňuje pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project do vašeho systému.
 ## Předpoklady
@@ -91,3 +97,9 @@ Odpověď: Ano, Aspose.Tasks podporuje různé verze souborů Microsoft Project 
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
 
  Odpověď: Můžete požádat o dočasnou licenci z[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

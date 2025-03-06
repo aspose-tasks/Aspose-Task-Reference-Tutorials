@@ -3,10 +3,16 @@ title: Integración de Field Helper MS Project en Aspose.Tasks
 linktitle: Ayudante de campo en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda cómo aprovechar Aspose.Tasks para .NET para trabajar con archivos de MS Project sin problemas.
-type: docs
 weight: 15
 url: /es/net/tasks-project-management/field-helper/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integración de Field Helper MS Project en Aspose.Tasks
+
 ## Introducción
 
 Aspose.Tasks para .NET es una potente API que permite a los desarrolladores trabajar sin problemas con archivos de Microsoft Project en sus aplicaciones .NET. Ya sea que esté creando una herramienta de gestión de proyectos, integrando la funcionalidad del proyecto en su aplicación o simplemente necesite manipular archivos de proyecto mediante programación, Aspose.Tasks proporciona las herramientas que necesita para realizar el trabajo de manera eficiente.
@@ -74,3 +80,9 @@ R: Sí, Aspose.Tasks para .NET está diseñado para funcionar con varias version
 ### P5: ¿Dónde puedo comprar una licencia de Aspose.Tasks para .NET?
 
  R: Puede comprar una licencia de Aspose.Tasks para .NET desde el sitio web de Aspose[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

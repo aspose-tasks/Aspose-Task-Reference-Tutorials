@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks for .NET 中掌握工作日
 linktitle: 在 Aspose.Tasks 中定义工作日
 second_title: Aspose.Tasks .NET API
 description: 探索在 Aspose.Tasks .NET 中定义工作日的强大功能。按照我们的详细教程来有效管理项目日历、自定义工作时间等。
-type: docs
 weight: 10
 url: /zh/net/time-recurrence-configuration/defining-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks for .NET 中掌握工作日
+
 ## 介绍
 如果您正在使用 Aspose.Tasks for .NET 进入项目管理世界，那么理解和操作工作日是一个至关重要的方面。在项目日历中有效管理和自定义工作日可以显着影响项目时间表。在本教程中，我们将指导您完成使用 Aspose.Tasks 定义工作日的过程，并提供分步说明和示例，以便更加清晰。
 ## 先决条件
@@ -116,3 +122,9 @@ calendar.WeekDays.Add(sunday);
 是的，对工作日的任何修改都会在保存时反映在项目文件中。
 ### 我可以将 Aspose.Tasks 与其他编程语言一起使用吗？
 Aspose.Tasks 支持各种编程语言，但此处的示例专门针对 .NET。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

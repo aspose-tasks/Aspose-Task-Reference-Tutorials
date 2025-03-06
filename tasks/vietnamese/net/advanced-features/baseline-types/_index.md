@@ -3,10 +3,16 @@ title: Các loại đường cơ sở khác nhau trong Aspose.Tasks
 linktitle: Các loại đường cơ sở khác nhau trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách thiết lập và thao tác các đường cơ sở của dự án một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET.
-type: docs
 weight: 21
 url: /vi/net/advanced-features/baseline-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các loại đường cơ sở khác nhau trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý dự án, độ chính xác và tầm nhìn xa là điều tối quan trọng. Aspose.Tasks for .NET cung cấp bộ công cụ mạnh mẽ để quản lý dữ liệu dự án một cách hiệu quả, cho phép người dùng đi sâu vào các khía cạnh khác nhau của việc lập kế hoạch, theo dõi và thực hiện dự án. Một tính năng quan trọng được Aspose.Tasks cung cấp là khả năng thiết lập đường cơ sở, đóng vai trò là điểm tham chiếu để đo lường tiến độ dự án so với kế hoạch ban đầu.
@@ -82,3 +88,9 @@ Câu trả lời 4: Aspose.Tasks cung cấp các diễn đàn hỗ trợ và tà
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
 
 Câu trả lời 5: Có, bạn có thể khám phá Aspose.Tasks thông qua bản dùng thử miễn phí có sẵn trên trang web, cho phép bạn trải nghiệm trực tiếp các khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

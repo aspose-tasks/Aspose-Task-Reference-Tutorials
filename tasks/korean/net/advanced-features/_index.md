@@ -3,10 +3,16 @@ title: Aspose.Tasks 고급 기능
 linktitle: Aspose.Tasks 고급 기능
 second_title: Aspose.태스크 .NET API
 description: 튜토리얼을 통해 .NET용 Aspose.Tasks의 고급 기능을 알아보세요. AND 연산부터 메모리 예외 처리까지 프로젝트 관리 기술을 향상하세요.
-type: docs
 weight: 21
 url: /ko/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 고급 기능
+
 
 ## 소개
 
@@ -93,3 +99,9 @@ Aspose.Tasks를 사용하여 .NET 프로젝트에서 반복되는 작업을 관�
 Aspose.Tasks for .NET에서 계산 모드를 효과적으로 관리하여 프로젝트 일정 및 작업 종속성을 간소화하는 방법을 알아보세요.
 ### [Aspose.Tasks의 계산 유형](./calculation-type/)
 Aspose.Tasks 라이브러리의 계산 유형을 사용하여 .NET 프로젝트에서 값 계산을 사용자 정의하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

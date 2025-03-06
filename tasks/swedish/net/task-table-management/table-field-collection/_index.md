@@ -3,10 +3,16 @@ title: Bemästra tabellfältsamlingar i Aspose.Tasks för .NET
 linktitle: Samling av tabellfält i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska den dynamiska världen av projektledning med Aspose.Tasks för .NET. Lär dig hur du manipulerar tabellfältsamlingar för en skräddarsydd projektupplevelse.
-type: docs
 weight: 13
 url: /sv/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra tabellfältsamlingar i Aspose.Tasks för .NET
+
 ## Introduktion
 Aspose.Tasks för .NET är ett kraftfullt bibliotek som underlättar projektledning genom att tillhandahålla omfattande funktionalitet för att arbeta med Microsoft Project-filer. I den här handledningen kommer vi att fördjupa oss i samlingen av tabellfält i Aspose.Tasks, och utforska hur man manipulerar och hanterar dem effektivt med C#.
 ## Förutsättningar
@@ -111,3 +117,9 @@ Absolut! Som visas i handledningen kan du lägga till, infoga, redigera och ta b
  Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)att få stöd, ställa frågor och samarbeta med samhället.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
  Ja, du kan utforska funktionerna i Aspose.Tasks för .NET med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

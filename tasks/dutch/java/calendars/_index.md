@@ -3,10 +3,16 @@ title: Kalenders
 linktitle: Kalenders
 second_title: Aspose.Tasks Java-API
 description: Verbeter uw Java-projectmanagementvaardigheden met Aspose.Tasks-tutorials. Beheers het agendabeheer, creëer, definieer weekdagen en update agenda's met gemak.
-type: docs
 weight: 21
 url: /nl/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalenders
+
 ## Invoering
 
 Bent u een Java-ontwikkelaar en wilt u uw projectmanagementvaardigheden stroomlijnen? Duik in onze uitgebreide Aspose.Tasks-tutorials die verschillende aspecten van het beheer van MS Project-agenda's behandelen. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorials bieden stapsgewijze begeleiding om uw mogelijkheden te verbeteren.
@@ -64,3 +70,9 @@ Leer hoe u een standaard MS Project-agenda in Java kunt maken met behulp van Asp
 Leer hoe u werkweken uit de MS Project-agenda kunt lezen met Aspose.Tasks voor Java. Ontvang stapsgewijze instructies in deze uitgebreide zelfstudie.
 ### [Update MS Project-kalenders naar MPP-formaat met Aspose.Tasks](./update-to-mpp/)
 Leer hoe u MS Project-agenda's moeiteloos kunt bijwerken naar MPP-indeling met behulp van Aspose.Tasks voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

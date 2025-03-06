@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中收集 MS 專案風險項統計資訊
 linktitle: Aspose.Tasks中風險項目統計資料的收集
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 從 MS Project 檔案收集風險項目統計資料。增強您的專案管理能力。
-type: docs
 weight: 22
 url: /zh-hant/net/resource-risk-analysis/risk-item-statistics-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中收集 MS 專案風險項統計資訊
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Tasks for .NET 從 MS Project 檔案收集風險項目統計資料。該庫提供了強大的功能來分析專案數據，包括風險評估和統計分析。
 ## 先決條件
@@ -88,3 +94,9 @@ foreach (var statistic in statistics)
 答：是的，Aspose.Tasks 可以靈活地配置風險分析設置，以滿足您的特定專案要求和情境。
 ### Q：Aspose.Tasks 用戶可以獲得技術支援嗎？
 答：是的，Aspose.Tasks 用戶可以透過 Aspose 獲得技術支持[論壇](https://forum.aspose.com/c/tasks/15)，他們可以提出問題、報告問題並與社區互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

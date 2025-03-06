@@ -3,10 +3,16 @@ title: Aspose.Tasks में मुद्रा कोड प्रबंधि
 linktitle: Aspose.Tasks में मुद्रा कोड प्रबंधित करें
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके मुद्रा एमएस प्रोजेक्ट कोड को कुशलतापूर्वक प्रबंधित करना सीखें। अपने प्रोजेक्ट प्रबंधन कार्यों को सहजता से सुव्यवस्थित करें।
-type: docs
 weight: 10
 url: /hi/java/currency/currency-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में मुद्रा कोड प्रबंधित करें
+
 ## परिचय
 जावा के लिए Aspose.Tasks का उपयोग करके मुद्रा एमएस प्रोजेक्ट कोड प्रबंधित करने पर हमारे ट्यूटोरियल में आपका स्वागत है। इस ट्यूटोरियल में, हम आपको आपकी एमएस प्रोजेक्ट फ़ाइलों में मुद्रा कोड को आसानी से संभालने की प्रक्रिया के बारे में बताएंगे। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो आपको Microsoft प्रोजेक्ट दस्तावेज़ों को प्रोग्रामेटिक रूप से हेरफेर करने की अनुमति देता है, जो आपके प्रोजेक्ट प्रबंधन कार्यों को सुव्यवस्थित करने के लिए कार्यात्मकताओं की एक विस्तृत श्रृंखला प्रदान करता है।
 ## आवश्यक शर्तें
@@ -53,3 +59,9 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 उत्तर: हां, आप अपनी परियोजना आवश्यकताओं के लिए इसकी विशेषताओं और उपयुक्तता का मूल्यांकन करने के लिए नि:शुल्क परीक्षण के माध्यम से Aspose.Tasks का पता लगा सकते हैं।
 ### प्रश्न: मैं Aspose.Tasks के लिए अस्थायी लाइसेंस कहां से प्राप्त कर सकता हूं?
  उ: Aspose.Tasks के लिए अस्थायी लाइसेंस यहां से प्राप्त किया जा सकता है[वेबसाइट](https://purchase.aspose.com/temporary-license/) सीमित अवधि के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

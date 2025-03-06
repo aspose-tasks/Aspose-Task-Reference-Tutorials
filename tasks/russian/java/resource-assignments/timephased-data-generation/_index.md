@@ -3,10 +3,16 @@ title: Генерация повременных данных в Aspose.Tasks
 linktitle: Генерация повременных данных для назначения ресурсов в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как генерировать повременные данные для назначения ресурсов с помощью Aspose.Tasks для Java. Повысьте эффективность управления проектами с помощью этого подробного руководства.
-type: docs
 weight: 24
 url: /ru/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация повременных данных в Aspose.Tasks
+
 ## Введение
 В этом руководстве мы рассмотрим процесс генерации повременных данных для назначения ресурсов с помощью Aspose.Tasks для Java. Повременные данные дают ценную информацию о том, как ресурсы распределяются во времени в рамках проекта, помогая менеджерам проектов принимать обоснованные решения.
 ## Предварительные условия
@@ -124,3 +130,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 Да, Aspose.Tasks позволяет пользователям определять собственные контуры работы в соответствии с потребностями их конкретных проектов.
 ### Есть ли форум сообщества, где я могу получить помощь по Aspose.Tasks?
  Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

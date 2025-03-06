@@ -3,10 +3,16 @@ title: 日曆
 linktitle: 日曆
 second_title: Aspose.Tasks Java API
 description: 透過 Aspose.Tasks 教學增強您的 Java 專案管理技能。掌握日曆管理，輕鬆建立、定義工作日和更新日曆。
-type: docs
 weight: 21
 url: /zh-hant/java/calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 日曆
+
 ## 介紹
 
 您是希望提升專案管理技能的 Java 開發人員嗎？深入了解我們全面的 Aspose.Tasks 教程，其中涵蓋了管理 MS Project 日曆的各個方面。無論您是經驗豐富的開發人員還是剛剛入門，這些教程都提供了逐步指導來增強您的能力。
@@ -64,3 +70,9 @@ url: /zh-hant/java/calendars/
 了解如何使用 Aspose.Tasks for Java 從 MS Project 行事曆中讀取工作週。在此綜合教程中取得逐步說明。
 ### [使用 Aspose.Tasks 將 MS Project 行事曆更新為 MPP 格式](./update-to-mpp/)
 了解如何使用 Aspose.Tasks for Java 輕鬆將 MS Project 行事曆更新為 MPP 格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

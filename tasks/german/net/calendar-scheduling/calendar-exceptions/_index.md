@@ -3,10 +3,16 @@ title: Behandeln von Kalenderausnahmen in Aspose.Tasks
 linktitle: Behandeln von Kalenderausnahmen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie anhand von Schritt-für-Schritt-Anleitungen und Beispielen, wie Sie Kalenderausnahmen in Aspose.Tasks für .NET verwalten.
-type: docs
 weight: 12
 url: /de/net/calendar-scheduling/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandeln von Kalenderausnahmen in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie Kalenderausnahmen in Aspose.Tasks mithilfe des .NET Frameworks verwalten. Mit Kalenderausnahmen können wir spezielle Daten oder Zeiträume in einem Projektkalender definieren, an denen sich der reguläre Arbeitsplan ändert, wie z. B. Feiertage oder vorübergehende Schließungen. Wir werden Schritt für Schritt verschiedene Methoden zur Behandlung von Kalenderausnahmen mit Aspose.Tasks für .NET behandeln.
@@ -156,3 +162,9 @@ A4: Aspose.Tasks unterstützt verschiedene Arten von Ausnahmen, einschließlich 
 ### F5: Kann ich die Arbeitszeiten für bestimmte Ausnahmetermine anpassen?
 
 A5: Ja, Sie können benutzerdefinierte Arbeitszeiten für einzelne Ausnahmetermine definieren, indem Sie die entsprechenden Methoden von Aspose.Tasks verwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

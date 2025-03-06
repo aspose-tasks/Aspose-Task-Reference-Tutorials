@@ -3,10 +3,16 @@ title: 在 Java 中將 MS Project 轉換為 SVG
 linktitle: 在 Aspose.Tasks 中另存為 SVG
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks 函式庫將 Microsoft Project 檔案儲存為 Java 中的 SVG。帶有程式碼範例的分步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/project-file-operations/save-as-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中將 MS Project 轉換為 SVG
+
 ## 介紹
 Aspose.Tasks for Java 是一個功能強大的函式庫，用於處理專案管理文件，允許開發人員操縱專案資料、執行各種操作並高效產生報告。在本教程中，我們將探討如何使用 Aspose.Tasks for Java 將專案儲存為 SVG。 SVG（可擴展向量圖形）是一種廣泛用於在 Web 上顯示向量圖形的格式，提供可擴展性和高品質渲染。
 ## 先決條件
@@ -58,3 +64,9 @@ project.save(dataDir + "project5.svg", SaveFileFormat.Svg);
 是的，您可以從網站要求免費試用 Aspose.Tasks for Java[這裡](https://purchase.aspose.com/buy)評估其特性和功能。
 ### 在哪裡可以獲得 Aspose.Tasks for Java 的支援？
 您可以透過造訪論壇獲得 Aspose.Tasks for Java 的支持[這裡](https://forum.aspose.com/c/tasks/15)，您可以在其中提出問題並與社區互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

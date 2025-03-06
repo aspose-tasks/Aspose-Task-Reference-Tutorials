@@ -3,10 +3,16 @@ title: พื้นฐานงาน
 linktitle: พื้นฐานงาน
 second_title: Aspose.Tasks Java API
 description: สำรวจ Aspose.Tasks Java ด้วยบทช่วยสอนพื้นฐานงานของเรา ปรับปรุงการกำหนดเวลางาน สร้างเส้นฐานงาน MS Project และการจัดการระยะเวลาหลักหลัก
-type: docs
 weight: 32
 url: /th/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# พื้นฐานงาน
+
 ## การแนะนำ
 เริ่มต้นการเดินทางเพื่อเสริมทักษะการจัดการโครงการของคุณด้วย Aspose.Tasks สำหรับ Java ในชุดบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของเส้นฐานงาน โดยให้ข้อมูลเชิงลึกอันมีค่าและความรู้เชิงปฏิบัติแก่คุณ เรามาสำรวจบทช่วยสอนหลักที่ประกอบขึ้นเป็นคู่มือที่ครอบคลุมนี้กันดีกว่า
 
@@ -51,3 +57,9 @@ url: /th/java/task-baselines/
 เรียนรู้วิธีสร้างงานพื้นฐาน Microsoft Project ใน Java โดยใช้ Aspose.Tasks ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการข้อมูลโครงการได้อย่างง่ายดาย
 ### [การจัดการระยะเวลาพื้นฐานงานใน Aspose.Tasks](./task-baseline-duration/)
 เรียนรู้วิธีจัดการงานพื้นฐานอย่างมีประสิทธิภาพใน MS Project โดยใช้ Aspose.Tasks สำหรับ Java บทช่วยสอนนี้จะแนะนำคุณทีละขั้นตอนตลอดกระบวนการ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Image Save MS Project Options for Aspose.Tasks
 linktitle: Επιλογές αποθήκευσης εικόνας για Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε τις επιλογές του MS Project ως εικόνες χρησιμοποιώντας το Aspose.Tasks για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Save MS Project Options for Aspose.Tasks
+
 
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης λογισμικού, ο αποτελεσματικός χειρισμός των εργασιών του έργου είναι ζωτικής σημασίας για την επιτυχή διαχείριση του έργου. Το Aspose.Tasks για .NET προσφέρει μια ισχυρή λύση για προγραμματιστές που εργάζονται με αρχεία Microsoft Project, επιτρέποντάς τους να χειρίζονται, να μετατρέπουν και να διαχειρίζονται εργασίες έργου απρόσκοπτα στις εφαρμογές τους .NET.
@@ -76,3 +82,9 @@ project.Save(DataDir + "SaveSelectedPagesImageSaveOptions_page2_out.jpeg", optio
 Α: Ναι, μπορείτε να προσαρμόσετε τις επιλογές αποθήκευσης εικόνας σύμφωνα με τις συγκεκριμένες απαιτήσεις σας, όπως προσαρμογή μεγέθους σελίδας, ανάλυσης ή μορφής εξόδου.
 ### Ε5: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για .NET;
  Α: Μπορείτε να βρείτε υποστήριξη και βοήθεια για το Aspose.Tasks για .NET στο[δικαστήριο](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

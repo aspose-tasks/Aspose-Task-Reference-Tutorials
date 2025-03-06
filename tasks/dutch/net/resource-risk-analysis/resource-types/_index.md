@@ -3,10 +3,16 @@ title: Soorten bronnen in Aspose.Tasks
 linktitle: Soorten bronnen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u met verschillende soorten bronnen kunt werken in Aspose.Tasks voor .NET, inclusief werk-, materiaal- en kostenbronnen, via een stapsgewijze zelfstudie.
-type: docs
 weight: 14
 url: /nl/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soorten bronnen in Aspose.Tasks
+
 ## Invoering
 Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken. Of u nu taken, bronnen of planningen beheert, Aspose.Tasks vereenvoudigt het proces door een uitgebreide set API's te bieden. In deze zelfstudie gaan we dieper in op de verschillende soorten bronnen die u binnen uw projecten kunt gebruiken met Aspose.Tasks voor .NET.
 ## Vereisten
@@ -60,3 +66,9 @@ A: Ja, Aspose.Tasks ondersteunt verschillende formaten, waaronder Microsoft Proj
  A: Ja, u kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Biedt Aspose.Tasks voor .NET documentatie ter referentie?
  A: Ja, u kunt de documentatie vinden[hier](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

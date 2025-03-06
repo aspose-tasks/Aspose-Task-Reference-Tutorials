@@ -3,10 +3,16 @@ title: Handling MS Project Resource Assignments in Aspose.Tasks
 linktitle: Handling Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle MS Project resource assignments efficiently using Aspose.Tasks for .NET. This comprehensive provides step-by-step guidance for developers.
-type: docs
 weight: 11
 url: /net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling MS Project Resource Assignments in Aspose.Tasks
+
 ## Introduction
 In this tutorial, we will delve into how to handle Microsoft Project resource assignments efficiently using Aspose.Tasks for .NET. Aspose.Tasks is a powerful API that allows developers to manipulate Microsoft Project files programmatically. By following these steps, you will learn how to manage resource assignments effectively within your .NET applications.
 ## Prerequisites
@@ -73,3 +79,9 @@ Absolutely, Aspose.Tasks offers extensive customization options for resource ass
 Yes, Aspose.Tasks allows exporting project data to various formats such as XML, PDF, and HTML, among others.
 ### Is technical support available for Aspose.Tasks users?
 Yes, Aspose provides dedicated technical support through its forum and other channels to assist users with any queries or issues.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

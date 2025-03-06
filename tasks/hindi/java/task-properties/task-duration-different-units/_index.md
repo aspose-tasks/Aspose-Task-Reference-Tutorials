@@ -3,10 +3,16 @@ title: Aspose.Tasks के साथ विभिन्न इकाइयों
 linktitle: Aspose.Tasks के साथ विभिन्न इकाइयों में कार्य की अवधि
 second_title: Aspose.Tasks जावा एपीआई
 description: Aspose.Tasks के साथ जावा परियोजनाओं में कार्य अवधि प्रबंधन का अन्वेषण करें। मिनट, दिन, घंटे, सप्ताह और महीनों में अवधि की सटीक गणना करें और परिवर्तित करें।
-type: docs
 weight: 32
 url: /hi/java/task-properties/task-duration-different-units/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks के साथ विभिन्न इकाइयों में कार्य की अवधि
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, कार्य अवधि को समझना और प्रबंधित करना एक महत्वपूर्ण पहलू है। जावा के लिए Aspose.Tasks इसे कुशलतापूर्वक संभालने के लिए एक शक्तिशाली टूलसेट प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.Tasks का उपयोग करके विभिन्न इकाइयों में कार्य अवधि पुनर्प्राप्त करने में आपका मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -83,3 +89,9 @@ double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
  दौरा करना[प्रलेखन](https://reference.aspose.com/tasks/java/)व्यापक संसाधनों के लिए.
 ### प्रश्न: क्या मैं खरीदने से पहले जावा के लिए Aspose.Tasks आज़मा सकता हूँ?
  हाँ, आप अन्वेषण कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसकी क्षमताओं का मूल्यांकन करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

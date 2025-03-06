@@ -3,10 +3,16 @@ title: Tangani Digit Mata Uang dengan Aspose.Tasks
 linktitle: Tangani Digit Mata Uang dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menangani digit mata uang MS Project secara efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 11
 url: /id/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tangani Digit Mata Uang dengan Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang penanganan digit mata uang MS Project menggunakan Aspose.Tasks untuk Java. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap konsep secara menyeluruh.
 ## Prasyarat
@@ -56,3 +62,9 @@ Ya, Anda dapat menggunakan Aspose.Tasks untuk Java di berbagai platform yang men
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
  Anda dapat menemukan dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

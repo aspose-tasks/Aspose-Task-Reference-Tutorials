@@ -3,10 +3,16 @@ title: Viết và đọc các công thức dự án MS trong Aspose.Tasks
 linktitle: Viết và đọc công thức trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách viết và đọc các công thức MS Project một cách hiệu quả với Aspose.Tasks cho Java. Nâng cao kỹ năng quản lý dự án của bạn.
-type: docs
 weight: 12
 url: /vi/java/formulas/write-read-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viết và đọc các công thức dự án MS trong Aspose.Tasks
+
 ## Giới thiệu
 Trong lĩnh vực quản lý dự án, việc xử lý dữ liệu hiệu quả là điều tối quan trọng. Aspose.Tasks cho Java là một giải pháp mạnh mẽ hỗ trợ thao tác và trích xuất dữ liệu từ các tệp Microsoft Project. Một tính năng mạnh mẽ mà nó cung cấp là khả năng viết và đọc các công thức MS Project. Hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng chức năng này để nâng cao các nhiệm vụ quản lý dự án của bạn.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Với Aspose.Tasks, bạn có thể linh hoạt hơn trong việc tạo các cô
 Có, Aspose.Tasks hỗ trợ triển khai trên nhiều nền tảng, nâng cao tính linh hoạt của nó.
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Tasks?
  Để được hỗ trợ kỹ thuật và hỗ trợ cộng đồng, hãy truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

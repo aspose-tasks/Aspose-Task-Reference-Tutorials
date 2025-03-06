@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 간트 차트 시간 척도 계층 구성
 linktitle: Aspose.Tasks에서 시간 척도 계층 구성
 second_title: Aspose.태스크 .NET API
 description: 정확한 프로젝트 타임라인 시각화를 위해 Gantt 차트 보기에서 기간 계층을 구성하려면 .NET용 Aspose.Tasks를 탐색하세요. #Aspose.Tasks #MS 프로젝트
-type: docs
 weight: 16
 url: /ko/net/text-view-configuration/timescale-tiers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 간트 차트 시간 척도 계층 구성
+
 ## 소개
 프로젝트 관리의 역동적인 환경에서 효과적인 시각화는 일정과 기한을 이해하는 데 매우 중요합니다. .NET용 Aspose.Tasks는 강력한 도구 세트를 제공하며, 이 튜토리얼에서는 Gantt 차트 보기에서 최적의 표현을 위해 시간 척도 계층을 구성하는 방법을 살펴보겠습니다. 프로젝트 시각화를 향상하려면 다음 단계별 지침을 따르십시오.
 ## 전제조건
@@ -86,3 +92,9 @@ project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 물론, 프로젝트 상황에 가장 잘 맞는 다양한 형식과 스타일을 탐색하여 시간 척도를 표현할 수 있습니다.
 ### Aspose.Tasks 지원을 위한 커뮤니티 포럼이 있나요?
  네, 방문해 보세요[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

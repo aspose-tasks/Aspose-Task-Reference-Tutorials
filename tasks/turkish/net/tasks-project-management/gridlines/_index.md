@@ -3,10 +3,16 @@ title: Aspose.Tasks için MS Project'te Kılavuz Çizgilerini Özelleştirme
 linktitle: Aspose.Tasks'taki kılavuz çizgileri
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project'te kılavuz çizgilerini nasıl özelleştireceğinizi öğrenin. Takip edilmesi kolay adımlarla proje görselleştirmenizi ve yönetiminizi geliştirin.
-type: docs
 weight: 23
 url: /tr/net/tasks-project-management/gridlines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için MS Project'te Kılavuz Çizgilerini Özelleştirme
+
 ## giriiş
 
 Proje yönetiminde görsel temsil, proje zaman çizelgelerini, bağımlılıklarını ve ilerlemesini anlamada çok önemli bir rol oynar. Aspose.Tasks for .NET, proje dosyalarını programlı olarak yönetmek için güçlü araçlar sağlar. Bu özelliklerden biri de Aspose.Tasks'ı kullanarak MS Project'teki kılavuz çizgilerini özelleştirme yeteneğidir.
@@ -113,3 +119,9 @@ C: Evet, Aspose.Tasks for .NET, popüler proje yönetimi araçları ve platforml
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
  C: Evet, ücretsiz deneme sürümünü indirebilirsiniz.[Aspose.Tasks for .NET'ten](https://forum.aspose.com/c/tasks/15). Bir satın alma işlemi yapmadan önce özelliklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

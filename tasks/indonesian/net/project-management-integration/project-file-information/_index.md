@@ -3,10 +3,16 @@ title: Ambil Informasi File Proyek MS di Aspose.Tasks
 linktitle: Mengambil Informasi File Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengambil informasi file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 19
 url: /id/net/project-management-integration/project-file-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Informasi File Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami dalam mengambil informasi file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file Microsoft Project secara terprogram, memungkinkan tugas seperti membaca, menulis, dan memanipulasi data proyek.
 ## Prasyarat
@@ -58,3 +64,9 @@ Tentu saja, Aspose.Tasks memberikan kemampuan luas untuk membaca, menulis, dan m
  Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
  Anda bisa mendapatkan dukungan untuk Aspose.Tasks melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).## Kode Sumber Lengkap
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

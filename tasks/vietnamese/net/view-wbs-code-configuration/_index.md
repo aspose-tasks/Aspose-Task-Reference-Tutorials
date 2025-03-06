@@ -3,10 +3,16 @@ title: Aspose.Tasks Xem và cấu hình mã WBS
 linktitle: Aspose.Tasks Xem và cấu hình mã WBS
 second_title: Aspose.Tasks .NET API
 description: Làm chủ Aspose.Tasks cho chế độ xem .NET và mã WBS. Tùy chỉnh quản lý dự án bằng hướng dẫn từng bước của chúng tôi. Tải xuống ngay để trực quan hóa dự án liền mạch.
-type: docs
 weight: 32
 url: /vi/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Xem và cấu hình mã WBS
+
 
 ## Giới thiệu
 
@@ -56,3 +62,9 @@ Khám phá cấu hình Mặt nạ mã WBS từng bước trong các dự án .NE
 Tăng cường quản lý dự án với Aspose.Tasks cho .NET. Tìm hiểu cách tạo, quản lý và chuyển Mặt nạ mã WBS một cách dễ dàng trong hướng dẫn toàn diện này.
 ### [Xác định trình tự WBS trong Aspose.Tasks](./wbs-sequences/)
 Trao quyền quản lý dự án của bạn với Aspose.Tasks for .NET - xác định liền mạch các chuỗi WBS và nâng cao hiệu quả một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

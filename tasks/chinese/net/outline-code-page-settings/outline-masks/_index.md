@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中掌握 Microsoft Project Outline Masks
 linktitle: 在 Aspose.Tasks 中使用轮廓蒙版
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 以编程方式处理 Microsoft Project 文件。有效掌握轮廓蒙版。
-type: docs
 weight: 14
 url: /zh/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中掌握 Microsoft Project Outline Masks
+
 ## 介绍
 在项目管理和任务跟踪领域，Microsoft Project 是一个基础工具。然而，当涉及到以编程方式操作和管理项目文件时，Aspose.Tasks for .NET 成为一个强大的解决方案。本教程将深入探讨使用 Aspose.Tasks for .NET 处理 MS Project 文件的一个特定方面：处理轮廓蒙版。
 ## 先决条件
@@ -76,3 +82,9 @@ outline.Values.Add(value);
 答：当然！您可以免费试用 Aspose.Tasks[这里](https://releases.aspose.com/).
 ### 问：我在哪里可以获得 Aspose.Tasks 的临时许可证？
 答：如果您需要临时许可证用于评估或测试目的，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

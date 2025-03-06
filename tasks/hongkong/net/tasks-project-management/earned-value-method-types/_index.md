@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 掌握掙值 MS 專案方法
 linktitle: Aspose.Tasks 中的掙值方法型別
 second_title: Aspose.Tasks .NET API
 description: 使用 Aspose.Tasks for .NET 掌握掙值 MS 專案方法類型。輕鬆提高專案管理效率。
-type: docs
 weight: 10
 url: /zh-hant/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 掌握掙值 MS 專案方法
+
 ## 介紹
 在專案管理領域，利用正確的工具和方法對於成功至關重要。 Aspose.Tasks for .NET 提供了一個強大的框架來有效管理專案相關任務。其中一個重要面向是利用掙值管理 (EVM) 方法，該方法透過比較計畫工作與實際完成的工作來深入了解專案績效。在本教學中，我們將使用 Aspose.Tasks for .NET 深入了解並實作掙值 MS 專案方法類型。
 ## 先決條件
@@ -53,3 +59,9 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 答：是的，Aspose.Tasks for .NET 可以使用臨時許可證。您可以從以下位置獲取它們：[臨時執照](https://purchase.aspose.com/temporary-license/)
 ### Q：哪裡可以購買 Aspose.Tasks for .NET？
 答：您可以從以下網站購買 Aspose.Tasks for .NET：[購買](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

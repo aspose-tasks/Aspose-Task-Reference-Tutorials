@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görev Notları Yönetimi
 linktitle: Aspose.Tasks'ta Görev Notları Yönetimi
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'da görev notları yönetimini keşfedin. Verimli Java geliştirme için adım adım kılavuz. Şimdi ücretsiz deneme sürümünü indirin!
-type: docs
 weight: 22
 url: /tr/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görev Notları Yönetimi
+
 ## giriiş
 Aspose.Tasks for Java, görev notları da dahil olmak üzere projeyle ilgili verileri yönetmek için güçlü bir çözüm sunar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak görev notlarını verimli bir şekilde yönetmenin inceliklerini inceleyeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu adım adım kılavuz, görev notlarını sorunsuz bir şekilde işleme sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -51,3 +57,9 @@ Aspose.Tasks for Java'da görev notlarını yönetmek, sağlanan kod parçacıkl
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for Java'yı nereden satın alabilirim?
  Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

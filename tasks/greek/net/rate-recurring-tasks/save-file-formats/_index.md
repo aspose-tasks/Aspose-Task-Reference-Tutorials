@@ -3,10 +3,16 @@ title: Αποθήκευση αρχείων έργου MS σε διάφορες �
 linktitle: Αποθήκευση αρχείων σε διάφορες μορφές στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να αποθηκεύετε αρχεία MS Project σε διάφορες μορφές χρησιμοποιώντας το Aspose.Tasks για .NET. Εύκολα βήματα για αποτελεσματική διαχείριση έργου.
-type: docs
 weight: 17
 url: /el/net/rate-recurring-tasks/save-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση αρχείων έργου MS σε διάφορες μορφές στο Aspose.Tasks
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο αποθήκευσης αρχείων Microsoft Project σε διάφορες μορφές χρησιμοποιώντας το Aspose.Tasks για .NET. Το Aspose.Tasks είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να χειρίζονται και να διαχειρίζονται αρχεία έργου μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -55,3 +61,9 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
  Α: Ναι, διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης. Μπορείτε να αποκτήσετε ένα[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Ποια είναι η τιμολόγηση για το Aspose.Tasks;
  Α: Πληροφορίες τιμολόγησης μπορείτε να βρείτε στη σελίδα αγοράς Aspose.Tasks[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

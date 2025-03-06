@@ -3,10 +3,16 @@ title: طباعة الصفحات لفصل الصورة في Aspose.Tasks
 linktitle: طباعة الصفحات لفصل الصورة في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية طباعة الصفحات لفصل الصور في Aspose.Tasks لـ Java. قم بتحسين تصور المشروع باستخدام هذا الدليل التفصيلي.
-type: docs
 weight: 22
 url: /ar/java/project-management/print-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طباعة الصفحات لفصل الصورة في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية طباعة الصفحات لفصل الصور باستخدام Aspose.Tasks لـ Java. يمكن أن تكون هذه الوظيفة مفيدة بشكل خاص عندما تحتاج إلى تصور تخطيطات المشروع أو المهام الهامة بشكل منفصل.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 ج: نعم، يدعم Aspose.Tasks for Java تصدير بيانات المشروع إلى تنسيقات مختلفة مثل PDF وHTML وXLSX وما إلى ذلك، مما يوفر المرونة في تصور البيانات وإعداد التقارير.
 ### س: هل يتوفر أي دعم مجتمعي لـ Aspose.Tasks لـ Java؟
  ج: نعم، يمكنك العثور على دعم المجتمع وطرح الأسئلة والتفاعل مع المستخدمين الآخرين على الموقع[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

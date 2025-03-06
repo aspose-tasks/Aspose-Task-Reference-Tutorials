@@ -3,10 +3,16 @@ title: Projekteigenschaften
 linktitle: Projekteigenschaften
 second_title: Aspose.Tasks Java-API
 description: Nutzen Sie das Potenzial von Aspose.Tasks für Java mit unseren Tutorials zu Projekteigenschaften. Extrahieren, nutzen und bearbeiten Sie Microsoft Project-Informationen mühelos.
-type: docs
 weight: 24
 url: /de/java/project-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projekteigenschaften
+
 ## Einführung
 
 Sind Sie bereit, Ihre Aspose.Tasks für Java-Kenntnisse zu verbessern? Unsere Tutorials zu Projekteigenschaften ermöglichen es Ihnen, das volle Potenzial dieser leistungsstarken Bibliothek auszuschöpfen, wobei der Schwerpunkt auf drei Schlüsselaspekten liegt: Lesen von Metaeigenschaften, Extrahieren von Microsoft Project-Informationen und Beherrschen der MS Project-Manipulation. Tauchen Sie in diese Tutorials ein, um Ihre Java-Entwicklungs- und Projektmanagementfähigkeiten zu verbessern.
@@ -35,3 +41,9 @@ Nutzen Sie mit diesem umfassenden Tutorial die Leistungsfähigkeit von Metadaten
 Erfahren Sie, wie Sie Microsoft Project-Informationen mit Aspose.Tasks für Java extrahieren. Verbessern Sie mühelos das Projektmanagement in Java-Anwendungen.
 ### [Beherrschen der MS Project-Manipulation mit Aspose.Tasks für Java](./write-project-info/)
 Erfahren Sie, wie Sie MS Project-Informationen mit Aspose.Tasks für Java effizient schreiben. Schritt-für-Schritt-Anleitung für Java-Entwickler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

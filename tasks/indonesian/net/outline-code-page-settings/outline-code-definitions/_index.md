@@ -3,10 +3,16 @@ title: Definisi Penanganan Kode Garis Besar Proyek MS di Aspose.Tasks
 linktitle: Menangani Definisi Kode Garis Besar di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani definisi kode kerangka Proyek MS menggunakan Aspose.Tasks untuk .NET, sehingga memberdayakan aplikasi manajemen proyek Anda.
-type: docs
 weight: 12
 url: /id/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definisi Penanganan Kode Garis Besar Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Microsoft Project adalah alat yang ampuh untuk mengelola proyek, dan Aspose.Tasks untuk .NET menyediakan dukungan komprehensif untuk memanipulasi file proyek secara terprogram. Salah satu aspek penting dari manajemen proyek adalah pengorganisasian tugas menggunakan kode garis besar. Dalam tutorial ini, kita akan mempelajari cara menangani definisi kode kerangka Proyek MS menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -91,3 +97,9 @@ J: Ya, Aspose.Tasks untuk .NET menyediakan fitur ekstensif untuk memanipulasi pe
 J: Tentu saja, Aspose.Tasks untuk .NET mendukung pembacaan dan penulisan bidang khusus, termasuk kode kerangka, dari file MS Project.
 ### Q5: Apakah ada forum komunitas untuk Aspose.Tasks untuk .NET?
  A: Ya, Anda dapat bergabung dengan forum komunitas Aspose.Tasks untuk .NET[Di Sini](https://forum.aspose.com/c/tasks/15) untuk bertanya, berbagi pengetahuan, dan berkolaborasi dengan pengembang lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

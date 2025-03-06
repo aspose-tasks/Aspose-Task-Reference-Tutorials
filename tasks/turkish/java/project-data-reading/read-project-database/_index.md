@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Veritabanından Proje Verilerini Okumak
 linktitle: Aspose.Tasks'ta Microsoft Project Veritabanından Proje Verilerini Okumak
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak proje verilerini Microsoft Project Veritabanından nasıl okuyacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/java/project-data-reading/read-project-database/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Veritabanından Proje Verilerini Okumak
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for Java kullanarak Microsoft Project Veritabanından proje verilerinin nasıl okunacağını inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project belgelerini değiştirmesine olanak tanıyan güçlü bir Java API'sidir. Bu kılavuzda özetlenen adımları izleyerek, proje verilerini bir veritabanından verimli bir şekilde nasıl çıkaracağınızı ve istediğiniz formatta nasıl kaydedeceğinizi öğreneceksiniz.
 ## Önkoşullar
@@ -68,3 +74,9 @@ C: Aspose.Tasks kesinlikle proje verilerinin işlenmesi için görev eklemek, ka
 C: Evet, Aspose.Tasks, XML, PDF, HTML ve PNG ve JPEG gibi görüntü formatları dahil olmak üzere çeşitli çıktı formatlarını destekler.
 ### S: Aspose.Tasks ile ilgili daha fazla desteği veya yardımı nereden bulabilirim?
  C: Ek destek veya yardım için Aspose.Tasks forumunu ziyaret edebilir veya web sitesinde bulunan belgeleri inceleyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

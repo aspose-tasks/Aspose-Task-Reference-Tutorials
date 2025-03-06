@@ -3,10 +3,16 @@ title: Moeiteloze werkgroepafhandeling met Aspose.Tasks voor .NET
 linktitle: Werkgroeptypen verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET om moeiteloos werkgroeptypen in uw project af te handelen. Optimaliseer de toewijzing van middelen en verbeter het projectbeheer.
-type: docs
 weight: 12
 url: /nl/net/time-recurrence-configuration/workgroup-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Moeiteloze werkgroepafhandeling met Aspose.Tasks voor .NET
+
 ## Invoering
 Aspose.Tasks voor .NET biedt een robuuste oplossing voor het verwerken van werkgroeptypen in projectbeheerscenario's. Het efficiënt beheren van werkgroepen is cruciaal voor het optimaliseren van de toewijzing van middelen en het garanderen van een soepele projectuitvoering. In deze zelfstudie verdiepen we ons in het proces van het omgaan met werkgroeptypen met behulp van Aspose.Tasks, waarbij we stapsgewijze begeleiding bieden.
 ## Vereisten
@@ -46,3 +52,9 @@ Ja, u kunt in verschillende fasen van uw project verschillende werkgroeptypen in
  Ja, u kunt toegang krijgen tot een gratis proefperiode van[hier](https://releases.aspose.com/).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

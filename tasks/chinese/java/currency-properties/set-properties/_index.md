@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 项目中设置货币属性
 linktitle: 在 Aspose.Tasks 项目中设置货币属性
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Java 在 Aspose.Tasks 项目中设置货币属性。轻松操作 Microsoft Project 文件。
-type: docs
 weight: 11
 url: /zh/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 项目中设置货币属性
+
 ## 介绍
 在本教程中，我们将探讨如何使用 Java 在 Aspose.Tasks 项目中设置货币属性。 Aspose.Tasks 是一个功能强大的 Java 库，允许开发人员以编程方式操作 Microsoft Project 文件。
 ## 先决条件
@@ -64,3 +70,9 @@ System.out.println("Process completed Successfully");
 是的，Aspose.Tasks 可以与其他 Java 库和框架无缝集成，从而增强其功能和多功能性。
 ### 在哪里可以找到有关 Aspose.Tasks 的其他支持或帮助？
 如需更多支持，您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)，您可以在这里找到有用的资源并与社区互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

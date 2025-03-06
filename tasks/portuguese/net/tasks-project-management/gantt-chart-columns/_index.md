@@ -3,10 +3,16 @@ title: Personalize colunas do gráfico de Gantt com Aspose.Tasks
 linktitle: Colunas do gráfico de Gantt em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como personalizar colunas do gráfico de Gantt no Aspose.Tasks for .NET para exibir informações de tarefas específicas com eficiência.
-type: docs
 weight: 21
 url: /pt/net/tasks-project-management/gantt-chart-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalize colunas do gráfico de Gantt com Aspose.Tasks
+
 ## Introdução
 Os gráficos de Gantt são uma ferramenta fundamental no gerenciamento de projetos, fornecendo uma representação visual de tarefas, cronogramas e recursos. Aspose.Tasks for .NET oferece recursos poderosos para manipular gráficos de Gantt, incluindo a personalização de colunas para exibir informações de tarefas específicas. Neste tutorial, exploraremos como trabalhar com colunas do gráfico de Gantt usando Aspose.Tasks for .NET.
 ## Pré-requisitos
@@ -99,3 +105,9 @@ R: Aspose.Tasks for .NET fornece APIs e recursos abrangentes para gerenciar estr
 R: Aspose.Tasks for .NET oferece amplas opções de personalização, permitindo adicionar um número significativo de colunas aos gráficos de Gantt sem limitações.
 ### P: Onde posso encontrar suporte e recursos adicionais para Aspose.Tasks for .NET?
 R: Você pode explorar a documentação, os fóruns da comunidade e os canais de suporte fornecidos pelo Aspose.Tasks for .NET para acessar recursos e assistência abrangentes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

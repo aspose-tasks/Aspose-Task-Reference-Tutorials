@@ -3,10 +3,16 @@ title: Параметры сохранения проекта MS на серве
 linktitle: Параметры сохранения Project Server для Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как сохранить параметры Microsoft Project для Aspose.Tasks с помощью интеграции Project Server. Улучшите рабочие процессы управления проектами.
-type: docs
 weight: 16
 url: /ru/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры сохранения проекта MS на сервере для Aspose.Tasks
+
 ## Введение
 В этом руководстве мы углубимся в сохранение параметров Microsoft Project для Aspose.Tasks с помощью Project Server. Aspose.Tasks — это мощный .NET API, который позволяет разработчикам программно работать с файлами Microsoft Project. Используя возможности Project Server, мы можем легко интегрировать Aspose.Tasks в наши рабочие процессы управления проектами. Это руководство шаг за шагом проведет вас через этот процесс.
 ## Предварительные условия
@@ -71,3 +77,9 @@ manager.CreateNewProject(project, options);
 О: Да, вы можете настроить параметры сохранения, такие как имя проекта, время ожидания и интервал опроса, в соответствии с вашими требованиями.
 ### Вопрос: Где я могу найти поддержку Aspose.Tasks?
  О: Вы можете найти поддержку и помощь на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

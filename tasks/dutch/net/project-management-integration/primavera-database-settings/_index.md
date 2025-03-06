@@ -3,10 +3,16 @@ title: Configureer MS Project Primavera-database in Aspose.Tasks
 linktitle: Primavera-database-instellingen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project Primavera Database-instellingen moeiteloos kunt configureren in Aspose.Tasks voor .NET. Stroomlijn uw projectmanagementtaken.
-type: docs
 weight: 11
 url: /nl/net/project-management-integration/primavera-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configureer MS Project Primavera-database in Aspose.Tasks
+
 ## Invoering
 Bent u klaar om de kracht van Aspose.Tasks voor .NET te benutten om MS Project Primavera Database-instellingen naadloos te configureren? In deze tutorial begeleiden we u stap voor stap door het proces. Maar voordat we erin duiken, laten we ervoor zorgen dat u alles heeft wat u nodig heeft.
 ## Vereisten
@@ -73,3 +79,9 @@ A: Aspose.Tasks voor .NET richt zich primair op lokale projectbeheeroplossingen,
 EEN: Absoluut! Aspose.Tasks voor .NET biedt een uitgebreide set API's voor het lezen, schrijven en manipuleren van projectgegevens in verschillende formaten.
 ### Vraag: Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Tasks voor .NET-gebruikers?
  A: Ja, u kunt de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor gemeenschapsondersteuning en hulp bij eventuele problemen of vragen die u heeft.## Volledige broncode
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

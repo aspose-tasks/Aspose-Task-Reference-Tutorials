@@ -3,10 +3,16 @@ title: บันทึกโครงการ MS ใน Primavera XML สำห
 linktitle: ตัวเลือกการบันทึก Primavera XML สำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อบันทึกตัวเลือก MS Project ในรูปแบบ Primavera XML ปรับปรุงความสามารถในการจัดการโครงการได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกโครงการ MS ใน Primavera XML สำหรับ Aspose.Tasks
+
 ## การแนะนำ
 ในขอบเขตของการจัดการโครงการและการจัดการงาน Aspose.Tasks สำหรับ .NET กลายเป็นพันธมิตรที่ทรงพลัง ไลบรารีนี้จัดเตรียมเครื่องมือที่จำเป็นให้กับนักพัฒนาเพื่อจัดการข้อมูลโครงการได้อย่างง่ายดายภายในแอปพลิเคชัน .NET คุณสมบัติเด่นประการหนึ่งคือความสามารถในการโต้ตอบกับไฟล์ Primavera XML ซึ่งมอบประสบการณ์ที่ราบรื่นในการจัดการข้อมูลโครงการ
 ## ข้อกำหนดเบื้องต้น
@@ -56,3 +62,9 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
  ตอบ: ตัวเลือกสิทธิ์การใช้งานต่างๆ รวมถึงสิทธิ์การใช้งานชั่วคราวมีให้ใช้งานสำหรับ Aspose.Tasks สำหรับ .NET สำรวจรายละเอียดใบอนุญาต[ที่นี่](https://purchase.aspose.com/buy).
 ### ถาม: ฉันสามารถปรับแต่งตัวเลือกการบันทึกสำหรับรูปแบบ Primavera XML ได้หรือไม่
 ตอบ: ใช่ Aspose.Tasks สำหรับ .NET ให้ความยืดหยุ่นในการกำหนดค่าตัวเลือกการบันทึก ช่วยให้ปรับแต่งได้ตามความต้องการเฉพาะของโปรเจ็กต์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

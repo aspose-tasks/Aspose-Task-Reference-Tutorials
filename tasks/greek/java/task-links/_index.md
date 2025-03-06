@@ -3,10 +3,16 @@ title: Σύνδεσμοι εργασιών
 linktitle: Σύνδεσμοι εργασιών
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε το Aspose.Tasks για Java με τα σεμινάρια μας. Βελτιώστε τη συνεργασία, ορίστε τύπους συνδέσμων και διαχειριστείτε τις εργασίες απρόσκοπτα. Αυξήστε την αποτελεσματικότητα του έργου σας τώρα!
-type: docs
 weight: 33
 url: /el/java/task-links/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σύνδεσμοι εργασιών
+
 ## Εισαγωγή
 
 Εάν εμβαθύνετε στον κόσμο της διαχείρισης έργων Java, το Aspose.Tasks είναι το εργαλείο σας. Τα περιεκτικά μας σεμινάρια σάς δίνουν τη δυνατότητα να κατακτήσετε διάφορες πτυχές, διασφαλίζοντας τη βέλτιστη χρήση της βιβλιοθήκης Aspose.Tasks για Java.
@@ -38,3 +44,9 @@ url: /el/java/task-links/
 Εξερευνήστε την ταυτοποίηση εργασιών μεταξύ έργων με το Aspose.Tasks για Java. Ομαλή ενοποίηση και αποτελεσματική διαχείριση. Κατεβάστε τώρα!
 ### [Διαχείριση εργασιών προκατόχου και διαδόχου στο Aspose.Tasks](./predecessor-successor-tasks/)
 Εξερευνήστε την αποτελεσματική διαχείριση εργασιών με το Aspose.Tasks για Java. Χειριστείτε εύκολα εργασίες προκατόχου και διαδόχου στα έργα σας. Κατεβάστε τη δωρεάν δοκιμή σας τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

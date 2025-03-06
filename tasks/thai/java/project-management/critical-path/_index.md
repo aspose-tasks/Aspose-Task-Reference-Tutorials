@@ -3,10 +3,16 @@ title: คำนวณเส้นทางโครงการ MS ที่ส
 linktitle: คำนวณเส้นทางวิกฤติในโครงการ Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: เรียนรู้วิธีการคำนวณเส้นทางวิกฤติใน MS Project โดยใช้ Aspose.Tasks สำหรับ Java นี่เป็นคำแนะนำทีละขั้นตอนสำหรับการจัดการโครงการที่มีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คำนวณเส้นทางโครงการ MS ที่สำคัญใน Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการคำนวณเส้นทางวิกฤติใน MS Project โดยใช้ Aspose.Tasks สำหรับ Java เส้นทางวิกฤตเป็นสิ่งจำเป็นสำหรับการจัดการโครงการ เนื่องจากช่วยระบุลำดับของงานที่ต้องทำให้เสร็จตรงเวลา เพื่อให้แน่ใจว่ากำหนดการโดยรวมของโครงการจะไม่ล่าช้า
 ## ข้อกำหนดเบื้องต้น
@@ -72,3 +78,9 @@ System.out.println("Process completed Successfully");
  ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ Java ได้อย่างไร
  ตอบ: คุณสามารถซื้อ Aspose.Tasks สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

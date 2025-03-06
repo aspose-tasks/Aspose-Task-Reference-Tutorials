@@ -3,10 +3,16 @@ title: Tùy chọn lưu Aspose.Tasks
 linktitle: Tùy chọn lưu Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lưu, chuyển đổi và quản lý tệp MS Project bằng Aspose.Tasks cho .NET. Khám phá các hướng dẫn từng bước về HTML, hình ảnh, PDF, Primavera, mẫu, v.v.
-type: docs
 weight: 20
 url: /vi/net/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn lưu Aspose.Tasks
+
 
 ## Giới thiệu
 
@@ -53,3 +59,9 @@ Bảng tính chính 2003 Lưu các tùy chọn dự án MS với Aspose.Tasks ch
 Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để tạo các biểu diễn SVG của các tệp Microsoft Project một cách dễ dàng nhằm nâng cao trực quan hóa dự án.
 ### [Chuyển đổi tùy chọn MSP sang XPS với Aspose.Tasks](./xps-options/)
 Tìm hiểu cách chuyển đổi tệp Microsoft Project sang định dạng XPS bằng Aspose.Tasks cho .NET. Tích hợp dễ dàng, chức năng mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

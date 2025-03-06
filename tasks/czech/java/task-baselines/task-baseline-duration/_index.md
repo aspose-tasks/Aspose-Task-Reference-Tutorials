@@ -3,10 +3,16 @@ title: Správa doby trvání základního úkolu v Aspose.Tasks
 linktitle: Správa doby trvání základního úkolu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak efektivně spravovat základní linie úkolů v MS Project pomocí Aspose.Tasks for Java. Tento tutoriál vás krok za krokem provede celým procesem.
-type: docs
 weight: 12
 url: /cs/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa doby trvání základního úkolu v Aspose.Tasks
+
 ## Úvod
 Správa směrných plánů úkolů v MS Project je zásadní pro plánování a sledování projektů. V tomto tutoriálu prozkoumáme, jak efektivně spravovat dobu trvání základního úkolu pomocí Aspose.Tasks for Java.
 ## Předpoklady
@@ -76,3 +82,9 @@ Ano, v MS Project můžete upravit směrné plány úkolů tak, aby odrážely z
 Ano, Aspose.Tasks nabízí širokou škálu funkcí pro řízení projektů, včetně plánování úkolů, alokace zdrojů a generování Ganttových diagramů.
 ### Kde najdu podporu pro Aspose.Tasks?
  Podporu pro Aspose.Tasks najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), kde můžete klást otázky a komunikovat s ostatními uživateli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

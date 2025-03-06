@@ -3,10 +3,16 @@ title: Lưu dữ liệu dự án MS vào Excel trong Aspose.Tasks
 linktitle: Lưu dữ liệu vào Excel trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách lưu dữ liệu Microsoft Project vào tệp Excel bằng Aspose.Tasks cho Java. Tích hợp dễ dàng cho các nhà phát triển Java.
-type: docs
 weight: 19
 url: /vi/java/project-file-operations/save-data-to-excel/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu dữ liệu dự án MS vào Excel trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình lưu dữ liệu từ tệp Dự án sang tệp Excel theo từng bước.
 ## Điều kiện tiên quyết
@@ -52,3 +58,9 @@ Bạn có thể tìm tài liệu về Aspose.Tasks for Java[đây](https://refer
  Bạn có thể nhận được hỗ trợ bằng cách truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks cho Java không?
  Có, bạn có thể mua giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

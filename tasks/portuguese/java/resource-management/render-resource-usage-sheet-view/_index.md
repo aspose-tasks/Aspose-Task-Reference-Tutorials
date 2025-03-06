@@ -3,10 +3,16 @@ title: Renderizar uso de recursos e visualização de planilha em Aspose.Tasks
 linktitle: Renderizar uso de recursos e visualização de planilha em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como renderizar o uso de recursos do MS Project e visualizações de planilha em Aspose.Tasks para Java. Siga nosso guia passo a passo para gerar relatórios PDF detalhados sem esforço.
-type: docs
 weight: 16
 url: /pt/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderizar uso de recursos e visualização de planilha em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, aprenderemos como usar Aspose.Tasks for Java para renderizar o uso de recursos do MS Project e visualizações de planilha. Aspose.Tasks é uma biblioteca Java poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft Project sem a necessidade de instalação do Microsoft Project.
 ## Pré-requisitos
@@ -78,3 +84,9 @@ Absolutamente! Aspose.Tasks oferece amplas opções para personalizar a aparênc
 Não, Aspose.Tasks é uma biblioteca autônoma e não requer a instalação do Microsoft Project para funcionar.
 ### O suporte técnico está disponível para usuários do Aspose.Tasks?
  Sim, os usuários do Aspose.Tasks podem contar com suporte técnico através do[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

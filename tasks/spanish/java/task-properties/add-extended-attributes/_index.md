@@ -3,10 +3,16 @@ title: Agregue atributos extendidos a las tareas en Aspose.Tasks
 linktitle: Agregue atributos extendidos a las tareas en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Explore el poder de Aspose.Tasks Java para personalizar archivos de Microsoft Project con atributos extendidos. Mejore sus capacidades de gestión de proyectos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue atributos extendidos a las tareas en Aspose.Tasks
+
 ## Introducción
 Mejorar sus capacidades de gestión de proyectos es crucial para un seguimiento de tareas y una gestión de recursos eficientes. Aspose.Tasks para Java proporciona una poderosa solución para que los desarrolladores de Java manipulen archivos de Microsoft Project sin problemas. En este tutorial, exploraremos cómo agregar atributos extendidos a tareas usando Aspose.Tasks para Java, permitiéndole personalizar y organizar los datos de su proyecto de acuerdo con sus requisitos específicos.
 ## Requisitos previos
@@ -75,3 +81,9 @@ R: Por supuesto, Aspose.Tasks para Java está diseñado para manejar proyectos d
  R: Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo y debates de la comunidad.
 ### P: ¿Puedo probar Aspose.Tasks para Java antes de comprarlo?
  R: Sí, puedes acceder a una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

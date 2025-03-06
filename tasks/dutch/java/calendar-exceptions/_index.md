@@ -3,10 +3,16 @@ title: Kalenderuitzonderingen
 linktitle: Kalenderuitzonderingen
 second_title: Aspose.Tasks Java-API
 description: Beheer, definieer, behandel en haal moeiteloos agenda-uitzonderingen in Java-projecten op met Aspose.Tasks. Stroomlijn projectworkflows voor efficiënt projectbeheer.
-type: docs
 weight: 20
 url: /nl/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kalenderuitzonderingen
+
 
 ## Invoering
 
@@ -34,3 +40,9 @@ Leer hoe u weekdagen kunt definiëren voor agenda-uitzonderingen in Java-project
 Leer hoe u agenda-uitzonderingen effectief kunt afhandelen in Java-projecten met Aspose.Tasks voor Java. Stroomlijn nu uw projectmanagementproces.
 ### [Agenda-uitzonderingen ophalen met Aspose.Tasks](./retrieve/)
 Leer hoe u agenda-uitzonderingen kunt ophalen uit MS Project met behulp van Aspose.Tasks voor Java. Stap-voor-stap handleiding voor naadloze integratie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

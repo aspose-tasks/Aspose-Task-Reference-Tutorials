@@ -3,10 +3,16 @@ title: Quản lý mô-đun VBA trong Aspose.Tasks
 linktitle: Quản lý mô-đun VBA trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Quản lý dễ dàng các mô-đun VBA trong tệp Microsoft Project bằng Aspose.Tasks for .NET. Khám phá hướng dẫn từng bước và nâng cao quy trình phát triển của bạn.
-type: docs
 weight: 10
 url: /vi/net/vba-module-reference/managing-vba-modules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý mô-đun VBA trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project trong các ứng dụng .NET của họ. Một trong những tính năng chính của Aspose.Tasks là khả năng quản lý các mô-đun VBA (Visual Basic for Application) trong các tệp Dự án. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình quản lý mô-đun VBA bằng Aspose.Tasks theo hướng dẫn từng bước.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Tuyệt đối! Aspose.Tasks cung cấp các phương thức không chỉ đọc
 Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho bất kỳ vấn đề nào liên quan đến Aspose.Tasks?
 Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

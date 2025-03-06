@@ -3,10 +3,16 @@ title: Aspose.Tasks में लेवलिंग विलंब गुणो
 linktitle: Aspose.Tasks में संसाधन असाइनमेंट के लिए लेवलिंग विलंब गुणों को संभालें
 second_title: Aspose.Tasks जावा एपीआई
 description: इस व्यापक ट्यूटोरियल के साथ सीखें कि जावा के लिए Aspose.Tasks में संसाधन असाइनमेंट के लिए लेवलिंग विलंब गुणों को कैसे संभालें।
-type: docs
 weight: 17
 url: /hi/java/resource-assignments/leveling-delay-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में लेवलिंग विलंब गुणों को संभालें
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks में संसाधन असाइनमेंट के लिए लेवलिंग विलंब गुणों को संभालने की प्रक्रिया से गुजरेंगे। Aspose.Tasks एक शक्तिशाली जावा लाइब्रेरी है जो आपको आपके सिस्टम पर Microsoft प्रोजेक्ट इंस्टॉल किए बिना Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने की अनुमति देती है।
 ## आवश्यक शर्तें
@@ -91,3 +97,9 @@ System.out.println("Process completed Successfully");
 ### प्रश्न: मैं Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  उ: आप यहां से अस्थायी लाइसेंस का अनुरोध कर सकते हैं[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/) मूल्यांकन प्रयोजनों के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

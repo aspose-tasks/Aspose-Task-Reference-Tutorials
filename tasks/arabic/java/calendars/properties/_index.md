@@ -3,10 +3,16 @@ title: إدارة خصائص تقويم مشروع MS في Aspose.Tasks
 linktitle: إدارة خصائص التقويم في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة خصائص تقويم MS Project في Java باستخدام Aspose.Tasks. يوفر هذا إرشادات خطوة بخطوة للتقويم ضمن تطبيقات Java الخاصة بك.
-type: docs
 weight: 10
 url: /ar/java/calendars/properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة خصائص تقويم مشروع MS في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إدارة خصائص تقويم MS Project باستخدام Aspose.Tasks لـ Java. من خلال فهم كيفية التعامل مع خصائص التقويم، يمكنك تخصيص جداول المشروع لتلبية متطلبات محددة بكفاءة.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ for (Calendar cal : project.getCalendars()) {
 ج: نعم، يقدم Aspose.Tasks نطاقًا واسعًا من الوظائف لإدارة المهام والموارد وهياكل المشاريع، مما يجعله حلاً شاملاً لإدارة المشاريع في Java.
 ### س: هل يتوفر الدعم الفني للمطورين الذين يستخدمون Aspose.Tasks؟
 ج: نعم، يمكن للمطورين الوصول إلى الدعم الفني من خلال منتدى Aspose.Tasks، مما يضمن المساعدة في أي استفسارات أو مشكلات تتم مواجهتها أثناء التنفيذ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ustaw właściwości zasobów w Aspose.Tasks
 linktitle: Ustaw właściwości zasobów w Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Dowiedz się, jak ustawić właściwości zasobów MS Project w Javie przy użyciu Aspose.Tasks w celu zapewnienia bezproblemowej integracji i wydajnego zarządzania zadaniami.
-type: docs
 weight: 20
 url: /pl/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw właściwości zasobów w Aspose.Tasks
+
 ## Wstęp
 dziedzinie programowania w języku Java efektywne zarządzanie zadaniami jest kluczowym aspektem zarządzania projektami. Aspose.Tasks dla Java zapewnia programistom solidne rozwiązanie do interakcji z plikami Microsoft Project, umożliwiając bezproblemową integrację funkcji zarządzania zadaniami z aplikacjami Java. W tym samouczku zajmiemy się ustawianiem właściwości zasobów MS Project za pomocą Aspose.Tasks dla Java. Pod koniec tego przewodnika będziesz mieć pełną wiedzę na temat manipulowania właściwościami zasobów w projektach Java.
 ## Warunki wstępne
@@ -63,3 +69,9 @@ Tak, Aspose.Tasks for Java jest w stanie obsłużyć szeroką gamę formatów pl
  Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
 ### Gdzie mogę kupić licencjonowaną wersję Aspose.Tasks dla Java?
  Licencjonowaną wersję Aspose.Tasks dla Java można kupić w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

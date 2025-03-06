@@ -3,10 +3,16 @@ title: أنواع القيود في Aspose.Tasks
 linktitle: أنواع القيود في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تعيين أنواع القيود في Aspose.Tasks لـ .NET لإدارة جداول المشروع بكفاءة.
-type: docs
 weight: 17
 url: /ar/net/calendar-scheduling/constraint-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنواع القيود في Aspose.Tasks
+
 ## مقدمة
 
 عند العمل مع إدارة المشاريع في .NET، من الضروري فهم كيفية تطبيق قيود مختلفة على المهام. يوفر Aspose.Tasks for .NET مجموعة شاملة من الأدوات لإدارة قيود المشروع بكفاءة. في هذا البرنامج التعليمي، سوف نتعمق في أنواع القيود المختلفة المتوفرة في Aspose.Tasks وكيفية تنفيذها خطوة بخطوة.
@@ -83,3 +89,9 @@ A1: قيود المشروع هي قيود أو قيود تؤثر على تاري
 ### س5: أين يمكنني الحصول على الدعم للاستعلامات المتعلقة بـ Aspose.Tasks؟
 
  ج5: يمكنك الحصول على الدعم لـ Aspose.Tasks من خلال زيارة موقعهم[المنتدى](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

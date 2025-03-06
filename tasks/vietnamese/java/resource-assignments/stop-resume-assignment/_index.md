@@ -3,10 +3,16 @@ title: Dừng và tiếp tục phân công tài nguyên trong Aspose.Tasks
 linktitle: Dừng và tiếp tục phân công tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách quản lý việc gán tài nguyên một cách hiệu quả trong Aspose.Tasks cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 23
 url: /vi/java/resource-assignments/stop-resume-assignment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dừng và tiếp tục phân công tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách dừng và tiếp tục các hoạt động gán tài nguyên bằng Aspose.Tasks cho Java. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên hệ thống của họ. Chúng tôi sẽ chia quy trình thành các bước có thể quản lý được để bạn dễ dàng thực hiện.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Có, Aspose.Tasks cho phép bạn làm việc với các tệp Microsoft Project
 Bạn có thể nhận được sự hỗ trợ từ cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể mua giấy phép tạm thời không?
  Có, bạn có thể mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

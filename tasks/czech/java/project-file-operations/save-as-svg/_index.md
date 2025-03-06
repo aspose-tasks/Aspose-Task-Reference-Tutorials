@@ -3,10 +3,16 @@ title: Převést MS Project na SVG v Javě
 linktitle: Uložit jako SVG v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se ukládat soubory Microsoft Project jako SVG v Javě pomocí knihovny Aspose.Tasks. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 18
 url: /cs/java/project-file-operations/save-as-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést MS Project na SVG v Javě
+
 ## Úvod
 Aspose.Tasks for Java je výkonná knihovna pro práci se soubory projektového managementu, která umožňuje vývojářům manipulovat s projektovými daty, provádět různé operace a efektivně generovat sestavy. V tomto tutoriálu prozkoumáme, jak uložit projekt jako SVG pomocí Aspose.Tasks for Java. SVG (Scalable Vector Graphics) je široce používaný formát pro zobrazování vektorové grafiky na webu, který poskytuje škálovatelnost a vysoce kvalitní vykreslování.
 ## Předpoklady
@@ -58,3 +64,9 @@ Ano, vzhled výstupu SVG můžete upravit úpravou parametrů, jako jsou fonty, 
  Ano, můžete požádat o bezplatnou zkušební verzi Aspose.Tasks for Java z webu[tady](https://purchase.aspose.com/buy) vyhodnotit jeho vlastnosti a možnosti.
 ### Kde mohu získat podporu pro Aspose.Tasks for Java?
  Podporu pro Aspose.Tasks pro Javu můžete získat návštěvou fóra[tady](https://forum.aspose.com/c/tasks/15), kde můžete klást otázky a komunikovat s komunitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

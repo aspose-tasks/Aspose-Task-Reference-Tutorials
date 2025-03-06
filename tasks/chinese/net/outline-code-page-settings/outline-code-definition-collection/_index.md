@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET 中大纲代码定义的集合
 linktitle: Aspose.Tasks 中大纲代码定义的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 操作 Microsoft Project 文档中的大纲代码定义。轻松对项目数据进行分类。
-type: docs
 weight: 13
 url: /zh/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET 中大纲代码定义的集合
+
 ## 介绍
 Aspose.Tasks 是一个功能强大的.NET 库，旨在轻松高效地操作 Microsoft Project 文档。其主要功能之一是能够使用大纲代码定义，允许用户有效地组织和分类项目数据。在本教程中，我们将探索如何使用 Aspose.Tasks for .NET 处理大纲代码定义。
 ## 先决条件
@@ -83,3 +89,9 @@ project.Save(DataDir + "ModifiedOutlineCodes.mpp", SaveFileFormat.MPP);
 答：Aspose.Tasks for .NET 不会对您可以添加到项目中的大纲代码定义的数量施加任何特定限制。但是，在使用大量定义时，请考虑性能影响。
 ### 问：我可以使用大纲代码定义根据自定义标准对任务进行分组吗？
 答：是的，大纲代码定义允许您根据自定义标准对任务进行分类，从而提供组织项目数据的灵活性。## 完整源代码
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Testo e configurazione della vista
 linktitle: Aspose.Tasks Testo e configurazione della vista
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET Tutorial sul testo e visualizza la configurazione. Padroneggia stili di testo, compressione Tiff, visualizzazioni della timeline e altro ancora per una migliore gestione dei progetti.
-type: docs
 weight: 30
 url: /it/net/text-view-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Testo e configurazione della vista
+
 ## introduzione
 
 Benvenuti nella guida completa su Aspose.Tasks for .NET Tutorials, incentrata sul testo e sulla configurazione della visualizzazione. In questo articolo, approfondiremo vari aspetti della gestione dei progetti, fornendo approfondimenti passo passo su come padroneggiare le funzionalità di Aspose.Tasks.
@@ -53,3 +59,9 @@ Esplora la raccolta dati rapportata alla scala cronologica in Aspose.Tasks per .
 Esplora Aspose.Tasks per .NET per configurare i livelli di scala temporale nella visualizzazione del diagramma di Gantt per una visualizzazione precisa della sequenza temporale del progetto.
 ### [Configurazione delle visualizzazioni di utilizzo in Aspose.Tasks](./usage-views/)
 Impara a configurare le visualizzazioni di utilizzo delle attività in Aspose.Tasks per .NET. Migliora la visualizzazione del progetto con passaggi dettagliati. Scarica subito la libreria!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

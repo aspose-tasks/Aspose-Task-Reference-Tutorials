@@ -3,10 +3,16 @@ title: Xử lý việc lưu hình ảnh trong Aspose.Tasks
 linktitle: Xử lý việc lưu hình ảnh trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET bằng cách sử dụng hướng dẫn từng bước. Tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/advanced-concepts/image-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý việc lưu hình ảnh trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một tác vụ phổ biến khi làm việc với các tệp dự án là cần lưu hình ảnh, có thể bao gồm biểu đồ, đồ thị hoặc các thành phần hình ảnh khác. Chúng tôi sẽ chia nhỏ quy trình theo từng bước để đảm bảo sự rõ ràng và hiểu biết xuyên suốt.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, bạn có thể tùy chỉnh giao diện của hình �
 ### Câu hỏi 5: Aspose.Tasks có cung cấp phiên bản dùng thử cho mục đích đánh giá không?
 
  Câu trả lời 5: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks for .NET 中的年度重复模式
 linktitle: 在 Aspose.Tasks 中配置每年重复模式
 second_title: Aspose.Tasks .NET API
 description: 了解在 Aspose.Tasks for .NET 中配置每年重复模式。通过本分步指南提高您的项目管理技能。
-type: docs
 weight: 18
 url: /zh/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks for .NET 中的年度重复模式
+
 ## 介绍
 在项目管理的动态世界中，有效处理重复任务是一个关键方面。 Aspose.Tasks for .NET 提供了一个强大的解决方案来配置年度重复模式，使您能够简化项目调度和管理。在本分步指南中，我们将探索如何使用 Aspose.Tasks 设置年度重复模式。
 ## 先决条件
@@ -69,3 +75,9 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
 参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区的支持和帮助。
 ### 我可以在购买前免费试用 Aspose.Tasks 吗？
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

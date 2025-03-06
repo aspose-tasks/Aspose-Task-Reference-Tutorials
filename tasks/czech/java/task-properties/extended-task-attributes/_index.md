@@ -3,10 +3,16 @@ title: Rozšířené atributy úloh v Aspose.Tasks
 linktitle: Rozšířené atributy úloh v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Prozkoumejte rozšířené atributy úloh v Aspose.Tasks for Java. Podrobný průvodce, často kladené dotazy a podpora. Optimalizujte své projektové řízení ještě dnes!
-type: docs
 weight: 16
 url: /cs/java/task-properties/extended-task-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozšířené atributy úloh v Aspose.Tasks
+
 ## Úvod
 Vítejte v naší komplexní příručce o využití rozšířených atributů úloh v Aspose.Tasks for Java. Aspose.Tasks je výkonná Java knihovna, která vám umožní bezproblémově pracovat s dokumenty Microsoft Project. V tomto tutoriálu se ponoříme do rozšířených atributů úloh a ukážeme, jak je můžete využít k vylepšení schopností řízení projektů.
 ## Předpoklady
@@ -73,3 +79,9 @@ Ano, můžete upravit atributy rozšířených úloh pomocí Aspose.Tasks for Ja
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit plnou verzi Aspose.Tasks for Java?
  Můžete si zakoupit plnou verzi[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

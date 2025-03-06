@@ -3,10 +3,16 @@ title: Dominar las columnas de vista de MS Project con Aspose.Tasks para .NET
 linktitle: Manejo de columnas de vista en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Mejore la visualización de proyectos con Aspose.Tasks para .NET. Aprenda a manejar las columnas de la vista de MS Project paso a paso. Aumente la eficiencia y la personalización.
-type: docs
 weight: 12
 url: /es/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar las columnas de vista de MS Project con Aspose.Tasks para .NET
+
 ## Introducción
 En el ámbito de la gestión de proyectos, Aspose.Tasks para .NET se destaca como un potente conjunto de herramientas para manejar archivos de Microsoft Project. Uno de los aspectos esenciales de la visualización de proyectos es gestionar las columnas de vista de manera eficiente. En este tutorial, exploraremos cómo manejar las columnas de vista de MS Project usando Aspose.Tasks, permitiéndole personalizar y optimizar las vistas de su proyecto.
 ## Requisitos previos
@@ -80,3 +86,9 @@ R: Aspose.Tasks se centra principalmente en archivos de Microsoft Project; sin e
  R: El`MyTextStyleCallback` La clase demuestra cómo personalizar estilos de texto para mejorar la representación visual en vistas específicas.
 ### P: ¿Dónde puedo encontrar recursos y documentación adicionales para Aspose.Tasks?
  R: Consulte el[Documentación de Aspose.Tasks](https://reference.aspose.com/tasks/net/) para obtener orientación y recursos detallados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

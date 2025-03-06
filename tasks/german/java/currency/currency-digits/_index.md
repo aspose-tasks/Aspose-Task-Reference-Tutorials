@@ -3,10 +3,16 @@ title: Behandeln Sie Währungsziffern mit Aspose.Tasks
 linktitle: Behandeln Sie Währungsziffern mit Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Tasks für Java effizient mit MS Project-Währungsziffern umgehen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 11
 url: /de/java/currency/currency-digits/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Behandeln Sie Währungsziffern mit Aspose.Tasks
+
 ## Einführung
 Willkommen zu unserem umfassenden Tutorial zum Umgang mit MS Project-Währungsziffern mit Aspose.Tasks für Java. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess und stellen sicher, dass Sie jedes Konzept gründlich verstehen.
 ## Voraussetzungen
@@ -56,3 +62,9 @@ Ja, Sie können Aspose.Tasks für Java auf verschiedenen Plattformen verwenden, 
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wo bekomme ich Support für Aspose.Tasks?
  Unterstützung finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

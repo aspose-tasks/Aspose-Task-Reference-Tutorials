@@ -3,10 +3,16 @@ title: Aspose.Tasks .NET'te Anahat Kod Tanımlarının Toplanması
 linktitle: Aspose.Tasks'ta Anahat Kod Tanımlarının Toplanması
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project belgelerindeki anahat kodu tanımlarını nasıl değiştireceğinizi öğrenin. Proje verilerinizin zahmetsizce sınıflandırılması.
-type: docs
 weight: 13
 url: /tr/net/outline-code-page-settings/outline-code-definition-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks .NET'te Anahat Kod Tanımlarının Toplanması
+
 ## giriiş
 Aspose.Tasks, Microsoft Project belgelerini kolaylıkla ve etkili bir şekilde yönetmek için tasarlanmış güçlü bir .NET kitaplığıdır. Temel özelliklerinden biri, kullanıcıların proje verilerini etkili bir şekilde organize etmesine ve kategorilere ayırmasına olanak tanıyan taslak kod tanımlarıyla çalışabilmesidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak taslak kod tanımlarıyla nasıl çalışılacağını inceleyeceğiz.
 ## Önkoşullar
@@ -83,3 +89,9 @@ C: Anahat kodu tanımı salt okunursa onu doğrudan değiştiremezsiniz. Herhang
 C: Aspose.Tasks for .NET, bir projeye ekleyebileceğiniz taslak kod tanımlarının sayısına herhangi bir özel sınırlama getirmez. Ancak çok sayıda tanımla çalışırken performans sonuçlarını göz önünde bulundurun.
 ### S: Görevleri özel ölçütlere göre gruplandırmak için anahat kodu tanımlarını kullanabilir miyim?
 C: Evet, anahat kodu tanımları, görevleri özel kriterlere göre kategorilere ayırmanıza olanak tanıyarak proje verilerinin düzenlenmesinde esneklik sağlar.## Kaynak Kodunu Tamamlayın
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

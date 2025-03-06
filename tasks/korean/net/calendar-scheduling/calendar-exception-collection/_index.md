@@ -3,10 +3,16 @@ title: Aspose.Tasks의 달력 예외 수집
 linktitle: Aspose.Tasks의 달력 예외 수집
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET 프로젝트에서 달력 예외를 효율적으로 처리하여 정확한 일정과 리소스 관리를 보장하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/calendar-scheduling/calendar-exception-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 달력 예외 수집
+
 ## 소개
 
 프로젝트 관리에서는 정확한 일정 관리가 성공을 위해 매우 중요합니다. 그러나 실제 시나리오에서는 휴일, 특별 이벤트 또는 기타 요인으로 인해 표준 일정에서 벗어나는 경우가 많습니다. Aspose.Tasks for .NET은 Calendar Exception Collection 기능을 통해 이러한 예외를 관리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 이 기능을 활용하는 과정을 단계별로 안내합니다.
@@ -143,3 +149,9 @@ A4: .NET용 Aspose.Tasks를 사용하면 프로젝트 요구 사항에 따라 �
 ### Q5: 예외 내에서 매일 근무 시간을 맞춤 설정할 수 있나요?
 
 A5: 예, 특정 일정 요구 사항을 수용하기 위해 예외 내에서 개별 날짜에 대한 사용자 정의 작업 시간을 지정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

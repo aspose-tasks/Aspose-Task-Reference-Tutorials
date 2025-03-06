@@ -3,10 +3,16 @@ title: Geavanceerde functies van Aspose.Tasks
 linktitle: Geavanceerde functies van Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek geavanceerde functies in Aspose.Tasks voor .NET met onze tutorials. Verbeter uw projectmanagementvaardigheden, van AND-bewerkingen tot de afhandeling van geheugenuitzonderingen.
-type: docs
 weight: 21
 url: /nl/net/advanced-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerde functies van Aspose.Tasks
+
 
 ## Invoering
 
@@ -93,3 +99,9 @@ Ontdek de kracht van Aspose.Tasks voor .NET bij het efficiënt beheren van terug
 Leer hoe u berekeningsmodi effectief kunt beheren in Aspose.Tasks voor .NET om projectplanning en taakafhankelijkheden te stroomlijnen.
 ### [Berekeningstype Aspose.Tasks](./calculation-type/)
 Leer hoe u waardeberekeningen in .NET-projecten kunt aanpassen met het berekeningstype in de Aspose.Tasks-bibliotheek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

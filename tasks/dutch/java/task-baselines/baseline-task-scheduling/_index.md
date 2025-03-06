@@ -3,10 +3,16 @@ title: Basislijntaakplanning in Aspose.Tasks
 linktitle: Basislijntaakplanning in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Leer hoe u taakbasislijnen effectief kunt plannen met Aspose.Tasks voor Java. Stroomlijn uw projectmanagementprocessen moeiteloos.
-type: docs
 weight: 10
 url: /nl/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Basislijntaakplanning in Aspose.Tasks
+
 ## Invoering
 Het beheren van taakbasislijnen is een cruciaal aspect van projectmanagement, waardoor u de geplande en werkelijke voortgang nauwkeurig kunt vergelijken. In deze zelfstudie onderzoeken we hoe u basistaken kunt plannen met Aspose.Tasks voor Java. Door deze stappen te volgen, bent u in staat uw projectmanagementprocessen efficiënt te stroomlijnen.
 ## Vereisten
@@ -63,3 +69,9 @@ Zeker, Aspose.Tasks voor Java biedt uitgebreide functionaliteiten om taakbasisli
  Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor Java via de[pagina vrijgeven](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning vinden voor Aspose.Tasks voor Java?
  Voor vragen of hulp kunt u het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

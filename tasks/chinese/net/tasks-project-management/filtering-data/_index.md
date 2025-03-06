@@ -3,10 +3,16 @@ title: 使用 Aspose.Tasks 进行高效数据过滤
 linktitle: 在 Aspose.Tasks 中过滤数据
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 过滤 MS Project 文件中的数据。轻松提高生产力和分析能力。
-type: docs
 weight: 16
 url: /zh/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Tasks 进行高效数据过滤
+
 ## 介绍
 Aspose.Tasks for .NET 提供了强大的功能来过滤 Microsoft Project 文件中的数据，使用户能够有效地管理和分析项目信息。在本教程中，我们将以分步指南的形式探索如何使用 Aspose.Tasks 过滤数据。
 ## 先决条件
@@ -78,3 +84,9 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 答： 是的，您可以参考综合[文档](https://reference.aspose.com/tasks/net/)Aspose.Tasks 提供了详细指导。
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 答：是的，您可以通过以下方式获得技术支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)对于您遇到的任何疑问或问题。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

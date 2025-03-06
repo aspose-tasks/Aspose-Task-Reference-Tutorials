@@ -3,10 +3,16 @@ title: Beheer MS-projecttarieven met Aspose.Tasks
 linktitle: Verzameling van tarieven in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u tarieven in MS Project-bestanden beheert met Aspose.Tasks voor .NET. Stapsgewijze handleiding voor effectief resourcebeheer.
-type: docs
 weight: 11
 url: /nl/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer MS-projecttarieven met Aspose.Tasks
+
 ## Invoering
 Welkom bij onze tutorial over het beheren van tarieven in MS Project met Aspose.Tasks voor .NET! In deze handleiding leiden we u door het proces van het werken met tarieven in uw MS Project-bestanden met behulp van Aspose.Tasks. Of u nu een doorgewinterde ontwikkelaar bent of net begint met .NET-ontwikkeling, deze tutorial biedt u stapsgewijze instructies om effectief met tarieven binnen uw projecten om te gaan.
 ## Vereisten
@@ -110,3 +116,9 @@ A: Absoluut, Aspose.Tasks voor .NET ondersteunt het werken met MS Project-bestan
 A: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor .NET om de functies en compatibiliteit ervan met uw vereisten te evalueren.
 ### Vraag: Hoe kan ik een licentie kopen voor Aspose.Tasks voor .NET?
  A: U kunt een licentie voor Aspose.Tasks voor .NET kopen bij de[website](https://purchase.aspose.com/temporary-license/)dat flexibele licentieopties biedt die aan uw behoeften voldoen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

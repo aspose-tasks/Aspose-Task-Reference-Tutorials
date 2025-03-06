@@ -3,10 +3,16 @@ title: 资源管理
 linktitle: 资源管理
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks for Java 掌握 MS Project 中的资源管理。学习创建、迭代、管理成本等等。通过我们的教程优化开发。
-type: docs
 weight: 31
 url: /zh/java/resource-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 资源管理
+
 ## 介绍
 
 在使用 Java 进行 MS 项目开发领域，Aspose.Tasks 作为一个强大的库脱颖而出，为有效的资源管理提供了一套全面的功能。本系列教程将指导您完成各个方面，确保您能够熟练地无缝处理 Microsoft Project 资源。
@@ -63,3 +69,9 @@ url: /zh/java/resource-management/
 了解如何使用 Aspose.Tasks 在 Java 中设置 MS Project 资源属性，以实现无缝集成和高效的任务管理。
 ### [在 Aspose.Tasks 中写入更新的资源数据](./write-updated-resource-data/)
 了解如何使用 Aspose.Tasks for Java 轻松更新 MS Project 文件中的资源数据。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

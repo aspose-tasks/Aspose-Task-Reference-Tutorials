@@ -3,10 +3,16 @@ title: Kolekcja MS Project kodów konspektu w Aspose.Tasks
 linktitle: Zbiór kodów konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak zbierać kody konspektu programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Ten obszerny samouczek zawiera instrukcje krok po kroku.
-type: docs
 weight: 11
 url: /pl/net/outline-code-page-settings/outline-code-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolekcja MS Project kodów konspektu w Aspose.Tasks
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak zbierać kody konspektu programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Aby zapewnić przejrzystość i zrozumienie, podzielimy proces na instrukcje krok po kroku.
 ## Warunki wstępne
@@ -95,3 +101,9 @@ Odp.: Tak, Aspose.Tasks for .NET obsługuje różne wersje Microsoft Project, w 
 O: Oczywiście, Aspose.Tasks dla .NET zapewnia szerokie możliwości dostosowywania formatu wyjściowego zgodnie z Twoimi wymaganiami.
 ### P: Gdzie mogę znaleźć dodatkowe wsparcie lub zasoby dla Aspose.Tasks dla .NET?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w celu uzyskania pomocy lub zapytań dotyczących Aspose.Tasks dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

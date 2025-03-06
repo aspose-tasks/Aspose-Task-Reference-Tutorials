@@ -3,10 +3,16 @@ title: Az MS Project Outline értékek elsajátítása az Aspose.Tasks segítsé
 linktitle: Vázlatértékek kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az MS Project vázlatértékeit az Aspose.Tasks for .NET használatával. Könnyedén testreszabhatja a projekt körvonalait.
-type: docs
 weight: 16
 url: /hu/net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az MS Project Outline értékek elsajátítása az Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a Microsoft Project vázlatértékeit a .NET Aspose.Tasks könyvtárával. Az Aspose.Tasks segítségével könnyedén módosíthatja a vázlatkódokat, új vázlatértékeket hozhat létre, és a projektvázlatokat igényei szerint testreszabhatja.
 ## Előfeltételek
@@ -76,3 +82,9 @@ V: Igen, az Aspose.Tasks kompatibilis a különböző .NET-keretrendszerekkel, r
 V: Igen, vásárolhat ideiglenes licencet az Aspose.Tasks számára a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találom az Aspose.Tasks részletes dokumentációját?
  V: Tekintse meg a rendelkezésre álló átfogó dokumentációt[itt](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

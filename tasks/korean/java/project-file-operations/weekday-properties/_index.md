@@ -3,10 +3,16 @@ title: Aspose.Tasks의 평일 속성
 linktitle: Aspose.Tasks의 평일 속성
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java에서 평일 속성을 효율적으로 관리하는 방법을 알아보세요. 한 주의 시작 날짜, 월별 날짜 등을 쉽게 사용자 정의하세요.
-type: docs
 weight: 25
 url: /ko/java/project-file-operations/weekday-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 평일 속성
+
 ## 소개
 Aspose.Tasks for Java는 Java 개발자가 컴퓨터에 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 API입니다. 주요 기능 중 하나는 주중 속성을 관리하여 사용자가 주 시작 날짜, 월별 날짜, 하루별 분, 주별 분을 사용자 정의할 수 있도록 하는 것입니다. 이 튜토리얼에서는 이러한 기능을 효과적으로 활용하는 방법에 대한 자세한 가이드를 제공합니다.
 ## 전제조건
@@ -74,3 +80,9 @@ A: 예, Aspose.Tasks for Java는 원활한 통합 기능을 제공하므로 강�
  A: 예, Aspose.Tasks for Java에 대한 광범위한 문서 및 커뮤니티 지원에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for Java에 사용할 수 있는 무료 평가판이 있나요?
 A: 예, 다음 사이트에서 Aspose.Tasks for Java의 무료 평가판을 다운로드할 수 있습니다.[웹사이트](https://reference.aspose.com/tasks/java/) 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

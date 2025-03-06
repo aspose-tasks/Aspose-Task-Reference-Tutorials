@@ -3,10 +3,16 @@ title: Save MS Project in Primavera XML for Aspose.Tasks
 linktitle: Primavera XML Save Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to use Aspose.Tasks for .NET to save MS Project options in Primavera XML format. Enhance project management capabilities effortlessly.
-type: docs
 weight: 15
 url: /net/saving-options/primavera-xml-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save MS Project in Primavera XML for Aspose.Tasks
+
 ## Introduction
 In the realm of project management and task handling, Aspose.Tasks for .NET emerges as a powerful ally. This library equips developers with the tools necessary to manipulate project data effortlessly within .NET applications. One notable feature is its capability to interact with Primavera XML files, offering a seamless experience in handling project information.
 ## Prerequisites
@@ -56,3 +62,9 @@ A: You can seek technical assistance and engage with the community at the Aspose
 A: Various licensing options, including temporary licenses, are available for Aspose.Tasks for .NET. Explore licensing details [here](https://purchase.aspose.com/buy).
 ### Q: Can I customize the saving options for Primavera XML format?
 A: Yes, Aspose.Tasks for .NET provides flexibility in configuring save options, allowing customization according to specific project requirements.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

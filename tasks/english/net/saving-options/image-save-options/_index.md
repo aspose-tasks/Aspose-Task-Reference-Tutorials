@@ -3,10 +3,16 @@ title: Image Save MS Project Options for Aspose.Tasks
 linktitle: Image Save Options for Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to save MS Project options as images using Aspose.Tasks for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 11
 url: /net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Save MS Project Options for Aspose.Tasks
+
 
 ## Introduction
 In the world of software development, handling project tasks efficiently is crucial for successful project management. Aspose.Tasks for .NET offers a powerful solution for developers working with Microsoft Project files, allowing them to manipulate, convert, and manage project tasks seamlessly within their .NET applications.
@@ -76,3 +82,10 @@ A: Yes, Aspose.Tasks for .NET is compatible with various .NET frameworks, includ
 A: Yes, you can customize the image save options according to your specific requirements, such as adjusting page size, resolution, or output format.
 ### Q5: Where can I find support for Aspose.Tasks for .NET?
 A: You can find support and assistance for Aspose.Tasks for .NET on the [forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ambil Pengecualian Kalender dengan Aspose.Tasks
 linktitle: Ambil Pengecualian Kalender dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengambil pengecualian kalender dari MS Project menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Pengecualian Kalender dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengambil pengecualian kalender dari MS Project menggunakan perpustakaan Aspose.Tasks untuk Java. Aspose.Tasks adalah alat canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Kami akan memandu Anda melalui proses langkah demi langkah, membagi setiap contoh menjadi beberapa langkah agar mudah dipahami.
 ## Prasyarat
@@ -55,3 +61,9 @@ Ya, Aspose.Tasks mendukung berbagai versi file MS Project, termasuk format MPP, 
  Anda bisa mendapatkan dukungan dari forum komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Apakah ada opsi untuk lisensi sementara untuk Aspose.Tasks?
  Ya, Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

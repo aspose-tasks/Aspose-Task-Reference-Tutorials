@@ -3,10 +3,16 @@ title: Manejo de la duración en Aspose.Tasks
 linktitle: Manejo de la duración en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a manejar duraciones de manera efectiva en Aspose.Tasks para .NET con tutoriales paso a paso.
-type: docs
 weight: 30
 url: /es/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de la duración en Aspose.Tasks
+
 ## Introducción
 
 Manejar las duraciones de manera efectiva es crucial en las aplicaciones de gestión de proyectos. Aspose.Tasks para .NET proporciona una funcionalidad sólida para administrar duraciones de manera eficiente. En este tutorial, exploraremos varios aspectos del manejo de la duración usando Aspose.Tasks para .NET.
@@ -156,3 +162,9 @@ R4: Sí, Aspose.Tasks admite la lectura y escritura de archivos de Microsoft Pro
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Tasks para .NET?
 
 R5: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

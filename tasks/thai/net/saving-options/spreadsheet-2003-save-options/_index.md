@@ -3,10 +3,16 @@ title: โครงการ MS พร้อมตัวเลือก Spreadsh
 linktitle: Spreadsheet 2003 บันทึกตัวเลือกสำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Spreadsheet 2003 บันทึกตัวเลือกโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET ปรับแต่งและบันทึกไฟล์ MS Project ได้อย่างราบรื่นโดยทางโปรแกรม
-type: docs
 weight: 19
 url: /th/net/saving-options/spreadsheet-2003-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โครงการ MS พร้อมตัวเลือก Spreadsheet 2003 สำหรับ Aspose.Tasks
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการใช้ประโยชน์จาก Aspose.Tasks สำหรับ .NET เพื่อใช้ Spreadsheet 2003 Save MS Project Options เครื่องมืออันทรงพลังนี้ช่วยให้สามารถจัดการและปรับแต่งไฟล์ MS Project ในสภาพแวดล้อม .NET ได้อย่างราบรื่น มาแบ่งกระบวนการทีละขั้นตอนกัน
 ## ข้อกำหนดเบื้องต้น
@@ -65,3 +71,9 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
  ตอบ: แน่นอน! คุณสามารถค้นหาการสนับสนุนและทรัพยากรที่ครอบคลุมได้ในฟอรัม Aspose.Tasks ที่[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)ซึ่งผู้เชี่ยวชาญและสมาชิกชุมชนพร้อมที่จะช่วยแก้ไขข้อสงสัยหรือความท้าทายที่คุณอาจเผชิญ
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET ได้จาก[หน้าซื้อ](https://purchase.aspose.com/temporary-license/)ทำให้คุณสามารถประเมินความสามารถทั้งหมดของไลบรารีได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

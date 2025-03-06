@@ -3,10 +3,16 @@ title: Типы пользовательских полей в Aspose.Tasks
 linktitle: Типы пользовательских полей в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как работать с настраиваемыми типами полей в Aspose.Tasks для .NET. Пошаговое руководство с примерами кода и часто задаваемыми вопросами.
-type: docs
 weight: 23
 url: /ru/net/calendar-scheduling/custom-field-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Типы пользовательских полей в Aspose.Tasks
+
 ## Введение
 
 Добро пожаловать в наше руководство по работе с настраиваемыми типами полей в Aspose.Tasks для .NET! Aspose.Tasks — это мощная библиотека, которая позволяет разработчикам программно манипулировать файлами Microsoft Project. В этом руководстве мы сосредоточимся на понимании и использовании типов настраиваемых полей, что является важным аспектом работы с данными проекта.
@@ -89,3 +95,9 @@ project.ExtendedAttributes.Add(definition);
 ### Вопрос 5: Существует ли форум сообщества для пользователей Aspose.Tasks?
 
  A5: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) взаимодействовать с другими пользователями и получать поддержку от команды Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengekstrak Informasi Tugas Berulang di Aspose.Tasks
 linktitle: Mengekstrak Informasi Tugas Berulang di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengekstrak informasi tugas berulang dari file MS Project menggunakan Aspose.Tasks untuk .NET. Integrasi yang mudah untuk pengembang .NET.
-type: docs
 weight: 13
 url: /id/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekstrak Informasi Tugas Berulang di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project di aplikasi .NET mereka. Dalam tutorial ini, kita akan mempelajari cara mengekstrak informasi tugas berulang dari file MS Project menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -62,3 +68,9 @@ A: Ya, Aspose.Tasks mendukung berbagai format file proyek seperti MPP, XML, dan 
  A: Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/tasks/net/).
 ### T: Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Tasks untuk .NET?
  J: Anda bisa mendapatkan dukungan teknis dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

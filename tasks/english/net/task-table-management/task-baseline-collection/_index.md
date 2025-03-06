@@ -3,10 +3,16 @@ title: Collection of Task Baselines in Aspose.Tasks
 linktitle: Collection of Task Baselines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore task baselines effortlessly with Aspose.Tasks for .NET. Efficient project management made simple. Download now! #Aspose.Tasks #MS Project
-type: docs
 weight: 17
 url: /net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of Task Baselines in Aspose.Tasks
+
 ## Introduction
 Welcome to the world of Aspose.Tasks for .NET, a powerful library that facilitates seamless manipulation and management of project tasks. In this tutorial, we will delve into the fascinating realm of task baselines—a crucial aspect of project planning and tracking. By the end of this guide, you will master the art of working with task baseline collections, enabling you to enhance your project management capabilities.
 ## Prerequisites
@@ -68,3 +74,10 @@ A: Aspose.Tasks for .NET doesn't impose strict limits on the number of tasks, pr
 A: Absolutely! You have full control over formatting when printing baseline details, allowing you to tailor it to your specific requirements.
 ### Q: Where can I seek help if I encounter issues or have additional questions?
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for dedicated support and community assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

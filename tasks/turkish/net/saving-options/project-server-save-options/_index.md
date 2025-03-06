@@ -3,10 +3,16 @@ title: Aspose.Tasks için Sunucu Kaydetme MS Proje Seçenekleri
 linktitle: Aspose.Tasks için Project Server Kaydetme Seçenekleri
 second_title: Aspose.Tasks .NET API'si
 description: Project Server entegrasyonunu kullanarak Aspose.Tasks için Microsoft Project seçeneklerini nasıl kaydedeceğinizi öğrenin. Proje yönetimi iş akışlarınızı geliştirin.
-type: docs
 weight: 16
 url: /tr/net/saving-options/project-server-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks için Sunucu Kaydetme MS Proje Seçenekleri
+
 ## giriiş
 Bu eğitimde, Project Server kullanarak Aspose.Tasks için Microsoft Project seçeneklerini kaydetmeyi ele alacağız. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir .NET API'sidir. Project Server yeteneklerinden yararlanarak Aspose.Tasks'i proje yönetimi iş akışlarımıza sorunsuz bir şekilde entegre edebiliyoruz. Bu eğitim size süreç boyunca adım adım rehberlik edecektir.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Evet, Aspose.Tasks iş parçacığı açısından güvenli olacak şekilde ta
 C: Evet, proje adı, zaman aşımı ve yoklama aralığı gibi kaydetme seçeneklerini ihtiyaçlarınıza göre uyarlayabilirsiniz.
 ### S: Aspose.Tasks için desteği nerede bulabilirim?
  C: Destek ve yardımı şu adreste bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

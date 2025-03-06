@@ -3,10 +3,16 @@ title: Écriture et lecture de formules MS Project dans Aspose.Tasks
 linktitle: Écrire et lire des formules dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à écrire et lire efficacement des formules MS Project avec Aspose.Tasks pour Java. Améliorez vos compétences en gestion de projet.
-type: docs
 weight: 12
 url: /fr/java/formulas/write-read-formulas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Écriture et lecture de formules MS Project dans Aspose.Tasks
+
 ## Introduction
 Dans le domaine de la gestion de projet, la gestion efficace des données est primordiale. Aspose.Tasks for Java est une solution robuste qui facilite la manipulation et l'extraction de données à partir de fichiers Microsoft Project. Une fonctionnalité puissante qu'il offre est la possibilité d'écrire et de lire des formules MS Project. Ce didacticiel vous guidera tout au long du processus d'exploitation de cette fonctionnalité pour améliorer vos tâches de gestion de projet.
 ## Conditions préalables
@@ -69,3 +75,9 @@ Avec Aspose.Tasks, vous disposez d'une grande flexibilité pour créer des formu
 Oui, Aspose.Tasks prend en charge le déploiement sur plusieurs plates-formes, améliorant ainsi sa polyvalence.
 ### Comment puis-je obtenir une assistance technique pour Aspose.Tasks ?
  Pour une assistance technique et un soutien communautaire, visitez le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

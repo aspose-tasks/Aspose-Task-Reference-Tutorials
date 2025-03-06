@@ -3,10 +3,16 @@ title: عرض بيانات مشروع MS بتنسيق 24bppRgb في Aspose.Tasks
 linktitle: عرض البيانات بتنسيق 24bppRgb في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية عرض بيانات MS Project كصور في Java باستخدام Aspose.Tasks. اتبع البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/project-file-operations/render-data-format-24bppRgb/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض بيانات مشروع MS بتنسيق 24bppRgb في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية عرض البيانات بتنسيق MS Project 24bppRgb باستخدام Aspose.Tasks لـ Java. يمكن أن يكون عرض بيانات المشروع في تنسيق صورة مفيدًا لأغراض متعددة مثل مشاركة تقدم المشروع بشكل مرئي أو إنشاء التقارير.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ project.save(dataDir + "resFile.tif", options);
  ج: نعم، أنت بحاجة إلى شراء ترخيص للاستخدام التجاري لـ Aspose.Tasks. يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  ج: يمكنك الحصول على الدعم لـ Aspose.Tasks من[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

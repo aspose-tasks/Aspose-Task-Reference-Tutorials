@@ -3,10 +3,16 @@ title: Настройте параметры XAML MS Project с помощью A
 linktitle: Настройка параметров XAML в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить параметры MS Project XAML в Aspose.Tasks для .NET. Повысьте гибкость управления проектами и возможность настройки с помощью пошаговых инструкций.
-type: docs
 weight: 10
 url: /ru/net/file-format-options/configuring-xaml-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте параметры XAML MS Project с помощью Aspose.Tasks для .NET
+
 ## Введение
 В мире .NET-разработки эффективное управление задачами проекта имеет решающее значение для успешного завершения проекта. Aspose.Tasks для .NET предоставляет мощное решение для беспрепятственного решения задач управления проектами. В этом руководстве мы углубимся в настройку параметров XAML MS Project с помощью Aspose.Tasks для .NET. 
 ## Предварительные условия
@@ -68,3 +74,9 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 ### Вопрос: Где я могу приобрести Aspose.Tasks для .NET?
 
  О: Вы можете приобрести Aspose.Tasks для .NET на сайте[эта ссылка](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

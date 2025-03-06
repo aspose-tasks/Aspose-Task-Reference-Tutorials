@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Dosyalarını Şablon Olarak Kaydetme
 linktitle: Aspose.Tasks için Şablon Seçeneklerini Kaydet
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarını şablon olarak nasıl kaydedeceğinizi öğrenin. Kolaylaştırılmış proje yönetimi için şablon ayarlarını özelleştirin.
-type: docs
 weight: 18
 url: /tr/net/saving-options/save-template-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Dosyalarını Şablon Olarak Kaydetme
+
 ## giriiş
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak bir şablonu kaydetme sürecini anlatacağız. Şablonlar, gelecekte kullanılmak üzere proje yapılarını ve ayarlarını standartlaştırmak için kullanışlıdır. Bir projeyi şablon olarak nasıl kaydedeceğimizi ve özelliklerini ayarlayarak göstereceğiz.
 ## Önkoşullar
@@ -76,3 +82,9 @@ C: Evet, şablon dosyasını yükleyerek ve gerektiğinde mevcut projenizle birl
 C: Aspose.Tasks for .NET öncelikle Windows platformlarında çalışan .NET framework uygulamaları için tasarlanmıştır.
 ### S: Aspose.Tasks for .NET için teknik destek mevcut mu?
  C: Evet, Aspose.Tasks topluluğundan teknik yardım ve rehberlik alabilirsiniz.[forumlar](https://forum.aspose.com/c/tasks/15)veya doğrudan destek ekibiyle iletişime geçin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

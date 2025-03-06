@@ -3,10 +3,16 @@ title: Aspose.Tasks의 계산 모드
 linktitle: Aspose.Tasks의 계산 모드
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks for .NET에서 계산 모드를 효과적으로 관리하여 프로젝트 일정 및 작업 종속성을 간소화하는 방법을 알아보세요.
-type: docs
 weight: 29
 url: /ko/net/advanced-features/calculation-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 계산 모드
+
 ## 소개
 
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. 프로젝트 파일 작업의 중요한 측면 중 하나는 작업 및 프로젝트 일정이 계산되고 업데이트되는 방식을 결정하는 계산 모드를 관리하는 것입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET에서 지원하는 다양한 계산 모드를 살펴보고 이를 효과적으로 사용하는 방법을 보여줍니다.
@@ -165,3 +171,9 @@ A4: 예, Aspose.Tasks를 다른 .NET 라이브러리 및 프레임워크와 원�
 ### Q5: Aspose.Tasks 사용자가 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
 
  A5: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

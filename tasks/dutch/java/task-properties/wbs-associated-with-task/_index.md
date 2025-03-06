@@ -3,10 +3,16 @@ title: WBS gekoppeld aan taak in Aspose.Tasks
 linktitle: WBS gekoppeld aan taak in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Beheers WBS met Aspose.Tasks voor Java - Leer taak-WBS-codes lezen en opnieuw nummeren. Verhoog de efficiëntie van projectmanagement!
-type: docs
 weight: 36
 url: /nl/java/task-properties/wbs-associated-with-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# WBS gekoppeld aan taak in Aspose.Tasks
+
 ## Invoering
 Welkom in de wereld van projectmanagement met Aspose.Tasks voor Java! In deze zelfstudie verdiepen we ons in de fijne kneepjes van de Work Breakdown Structure (WBS) die verband houden met taken die Aspose.Tasks voor Java gebruiken. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze handleiding helpt u bij het navigeren door de essentie van het efficiënt beheren van WBS-codes.
 ## Vereisten
@@ -90,3 +96,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u met WBS-codes kunt werken met beh
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) Voor ondersteuning.
 ### Vraag: Kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor Java?
  A: Ja, vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

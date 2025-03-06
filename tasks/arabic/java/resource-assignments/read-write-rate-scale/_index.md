@@ -3,10 +3,16 @@ title: مقياس معدل القراءة والكتابة لتعيينات ال
 linktitle: مقياس معدل القراءة والكتابة لتعيينات الموارد في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إدارة مقياس معدل تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 20
 url: /ar/java/resource-assignments/read-write-rate-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مقياس معدل القراءة والكتابة لتعيينات الموارد في Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في إدارة مقياس معدل تعيينات الموارد باستخدام Aspose.Tasks for Java، وهي مكتبة قوية للعمل مع ملفات Microsoft Project برمجيًا. باتباع هذه الخطوات، ستتمكن من التعامل بشكل فعال مع إعدادات مقياس المعدل لتعيينات الموارد في تطبيقات Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getReso
 ج: نعم، يوفر Aspose.Tasks إمكانات واسعة النطاق لتخصيص تعيينات الموارد، بما في ذلك تعديلات التكلفة والعمل والمدة.
 ### س5: هل يوجد منتدى مجتمعي لدعم Aspose.Tasks؟
  ج: نعم، يمكنك العثور على الدعم والتفاعل مع المستخدمين الآخرين في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

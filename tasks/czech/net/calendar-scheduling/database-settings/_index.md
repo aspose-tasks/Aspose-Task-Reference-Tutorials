@@ -3,10 +3,16 @@ title: Nastavení databáze v Aspose.Tasks
 linktitle: Nastavení databáze v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se importovat projekty z databáze Primavera pomocí Aspose.Tasks for .NET. Získejte podrobné pokyny v tomto komplexním tutoriálu.
-type: docs
 weight: 29
 url: /cs/net/calendar-scheduling/database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení databáze v Aspose.Tasks
+
 ## Úvod
 
 Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project v jejich aplikacích .NET. V tomto tutoriálu se zaměříme na import projektů z databáze Primavera pomocí Aspose.Tasks.
@@ -100,3 +106,9 @@ Odpověď 1: Ano, můžete importovat projekty od různých poskytovatelů datab
 ### Q5: Potřebuji dočasnou licenci k používání Aspose.Tasks pro .NET?
 
  A5: Pokud chcete otestovat plnou funkčnost knihovny, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

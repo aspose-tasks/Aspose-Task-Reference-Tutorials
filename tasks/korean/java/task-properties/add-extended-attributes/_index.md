@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업에 확장 속성 추가
 linktitle: Aspose.Tasks의 작업에 확장 속성 추가
 second_title: Aspose.Tasks 자바 API
 description: 확장된 속성으로 Microsoft Project 파일을 사용자 정의할 때 Aspose.Tasks Java의 강력한 기능을 살펴보세요. 프로젝트 관리 능력을 손쉽게 향상시키세요.
-type: docs
 weight: 11
 url: /ko/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업에 확장 속성 추가
+
 ## 소개
 효율적인 작업 추적 및 자원 관리를 위해서는 프로젝트 관리 기능을 향상시키는 것이 중요합니다. Aspose.Tasks for Java는 Java 개발자가 Microsoft Project 파일을 원활하게 조작할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 작업에 확장된 속성을 추가하여 특정 요구 사항에 따라 프로젝트 데이터를 사용자 정의하고 구성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -75,3 +81,9 @@ A: 물론 Aspose.Tasks for Java는 대규모 애플리케이션을 포함하여 
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
 ### Q: 구매하기 전에 Java용 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

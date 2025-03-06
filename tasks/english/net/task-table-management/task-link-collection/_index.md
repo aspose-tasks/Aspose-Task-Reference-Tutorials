@@ -3,10 +3,16 @@ title: Handling Task Links in Aspose.Tasks
 linktitle: Handling Task Links in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Explore the power of Aspose.Tasks for .NET in managing project task links efficiently. Follow our step-by-step guide to enhance your project management experience.
-type: docs
 weight: 19
 url: /net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Task Links in Aspose.Tasks
+
 ## Introduction
 Welcome to the step-by-step guide on handling task links in Aspose.Tasks for .NET! Task links play a crucial role in project management, allowing you to establish relationships between tasks and create dependencies. In this tutorial, we will walk you through the process of working with task link collections using Aspose.Tasks.
 ## Prerequisites
@@ -85,3 +91,10 @@ You can apply constraints using the `ConstraintType` property of the `Task` clas
 Aspose.Tasks can handle large project files efficiently with minimal performance impact.
 ### Is there a community forum for Aspose.Tasks support?
 Yes, you can find support and engage with the community on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

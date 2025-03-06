@@ -3,10 +3,16 @@ title: Καθημερινή επανάληψη ημερολογίου στο Asp
 linktitle: Καθημερινή επανάληψη ημερολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να δημιουργείτε επαναλαμβανόμενες εργασίες με καθημερινές επαναλήψεις ημερολογίου στο Aspose.Tasks για .NET. Βελτιώστε την αποτελεσματικότητα διαχείρισης έργου χωρίς κόπο.
-type: docs
 weight: 25
 url: /el/net/calendar-scheduling/daily-calendar-repetition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθημερινή επανάληψη ημερολογίου στο Aspose.Tasks
+
 ## Εισαγωγή
 
  Το Aspose.Tasks για .NET παρέχει ένα ισχυρό σύνολο εργαλείων για τη διαχείριση εργασιών και έργων μέσω προγραμματισμού. Ένα από τα αξιοσημείωτα χαρακτηριστικά του είναι η ικανότητα να χειρίζεται αποτελεσματικά τις καθημερινές επαναλήψεις του ημερολογίου. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το`DailyCalendarRepetition` τάξη μαζί με άλλες σχετικές τάξεις για τη δημιουργία επαναλαμβανόμενων εργασιών με καθημερινές επαναλήψεις με βάση ένα καθορισμένο ημερολόγιο.
@@ -117,3 +123,9 @@ A4: Σίγουρα, το Aspose.Tasks προσφέρει επιλογές οπτ
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks;
 
  A5: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Tasks από[εδώ](https://releases.aspose.com/) για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

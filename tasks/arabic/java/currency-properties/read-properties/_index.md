@@ -3,10 +3,16 @@ title: اقرأ خصائص العملة في مشاريع Aspose.Tasks
 linktitle: اقرأ خصائص العملة في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية استخراج معلومات العملة من ملفات MS Project باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة المقدمة.
-type: docs
 weight: 10
 url: /ar/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ خصائص العملة في مشاريع Aspose.Tasks
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعلم كيفية استخدام Aspose.Tasks لـ Java لقراءة خصائص العملة من ملفات Microsoft Project. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تمكن المطورين من التعامل مع مستندات Microsoft Project دون الحاجة إلى تثبيت Microsoft Project. باتباع الخطوات الموضحة أدناه، ستتمكن من استخراج المعلومات المتعلقة بالعملة دون عناء.
 ## المتطلبات الأساسية
@@ -57,3 +63,9 @@ System.out.println("Process completed Successfully");
  ج: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Tasks[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني طلب المساعدة أو الدعم بخصوص Aspose.Tasks؟
  ج: يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) لأية مساعدة أو استفسار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

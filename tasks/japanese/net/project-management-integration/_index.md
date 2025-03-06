@@ -3,10 +3,16 @@ title: Aspose.Tasks プロジェクト管理と統合
 linktitle: Aspose.Tasks プロジェクト管理と統合
 second_title: Aspose.Tasks .NET API
 description: MS プロジェクトの管理、統合、カスタマイズをカバーする包括的な Aspose.Tasks for .NET チュートリアルをご覧ください。今すぐプロジェクト管理スキルを向上させましょう。
-type: docs
 weight: 27
 url: /ja/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks プロジェクト管理と統合
+
 
 ## 導入
 
@@ -62,3 +68,9 @@ Aspose.Tasks for .NET を使用して MS Project Server の資格情報をシー
 Aspose.Tasks for .NET を使用して、シームレスな MS Project Server 管理を実現します。プロジェクトのタスクを簡単に自動化します。
 ### [Aspose.Tasks での MS Project ビューのカスタマイズ](./project-views/)
 Aspose.Tasks for .NET を使用して MS Project ビューをカスタマイズする方法を学びます。効率的なプロジェクト管理の視覚化については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

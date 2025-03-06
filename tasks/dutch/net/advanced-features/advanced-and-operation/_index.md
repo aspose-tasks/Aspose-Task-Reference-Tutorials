@@ -3,10 +3,16 @@ title: Geavanceerde AND-bewerking in Aspose.Tasks
 linktitle: Geavanceerde AND-bewerking in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u geavanceerde AND-bewerkingen kunt uitvoeren in Aspose.Tasks voor .NET om projecttaken efficiënt te filteren op basis van meerdere criteria.
-type: docs
 weight: 10
 url: /nl/net/advanced-features/advanced-and-operation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerde AND-bewerking in Aspose.Tasks
+
 ## Invoering
 
  In deze tutorial gaan we dieper in op de geavanceerde AND-bewerking in Aspose.Tasks voor .NET, een krachtig hulpmiddel voor het beheren van taken en projecten. We zullen onderzoeken hoe u projecttaken kunt filteren op basis van meerdere voorwaarden met behulp van de`Util.And` klas.
@@ -107,3 +113,9 @@ A: Ja, Util.And kan worden gebruikt om een willekeurig aantal voorwaarden te com
 ### V5: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
 
 A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

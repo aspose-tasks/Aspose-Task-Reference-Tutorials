@@ -3,10 +3,16 @@ title: Lesen Sie Zuweisungen gemeinsam genutzter Ressourcen in Aspose.Tasks
 linktitle: Lesen Sie Zuweisungen gemeinsam genutzter Ressourcen in Aspose.Tasks
 second_title: Aspose.Tasks Java-API
 description: Erfahren Sie, wie Sie Zuweisungen gemeinsam genutzter Ressourcen in Aspose.Tasks für Java lesen. Steigern Sie die Effizienz des Projektmanagements mit Schritt-für-Schritt-Anleitungen.
-type: docs
 weight: 19
 url: /de/java/resource-assignments/read-shared-resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lesen Sie Zuweisungen gemeinsam genutzter Ressourcen in Aspose.Tasks
+
 ## Einführung
 Im Projektmanagement ist eine effiziente Ressourcenallokation entscheidend für den erfolgreichen Projektabschluss. Aspose.Tasks für Java bietet leistungsstarke Tools zur effektiven Ressourcenverwaltung. Eine wesentliche Aufgabe ist das Lesen gemeinsam genutzter Ressourcenzuweisungen, wodurch Sie nachvollziehen können, wie Ressourcen über mehrere Projekte hinweg zugewiesen werden.
 ## Voraussetzungen
@@ -58,3 +64,9 @@ Absolut, mit Aspose.Tasks für Java können Sie benutzerdefinierte Berichte basi
 Aspose.Tasks für Java kann Projekte unterschiedlicher Größe verarbeiten, von kleinen bis hin zu Großprojekten.
 ### Ist technischer Support für Aspose.Tasks für Java-Benutzer verfügbar?
  Ja, Sie können technischen Support im Aspose.Tasks-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

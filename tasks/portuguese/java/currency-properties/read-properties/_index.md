@@ -3,10 +3,16 @@ title: Leia as propriedades da moeda em projetos Aspose.Tasks
 linktitle: Leia as propriedades da moeda em projetos Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como extrair informações monetárias de arquivos do MS Project usando Aspose.Tasks para Java. Guia passo a passo fornecido.
-type: docs
 weight: 10
 url: /pt/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leia as propriedades da moeda em projetos Aspose.Tasks
+
 ## Introdução
 Neste tutorial, aprenderemos como utilizar Aspose.Tasks for Java para ler propriedades de moeda de arquivos do Microsoft Project. Aspose.Tasks é uma API Java poderosa que permite aos desenvolvedores manipular documentos do Microsoft Project sem exigir a instalação do Microsoft Project. Seguindo as etapas descritas abaixo, você poderá extrair informações relacionadas à moeda sem esforço.
 ## Pré-requisitos
@@ -57,3 +63,9 @@ R: Sim, Aspose.Tasks permite ler e modificar propriedades de moeda em arquivos d
  R: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/).
 ### P: Onde posso procurar ajuda ou suporte para Aspose.Tasks?
  R: Você pode visitar o fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

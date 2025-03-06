@@ -3,10 +3,16 @@ title: Aspose.Tasks में टेक्स्ट आइटम प्रका
 linktitle: Aspose.Tasks में टेक्स्ट आइटम प्रकारों को संभालना
 second_title: Aspose.Tasks .NET API
 description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Tasks में मास्टर टेक्स्ट आइटम प्रकार अनुकूलन। अपने प्रोजेक्ट प्रबंधन गेम को सहजता से उन्नत करें।
-type: docs
 weight: 10
 url: /hi/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में टेक्स्ट आइटम प्रकार अनुकूलन गाइड
+
 ## परिचय
 यदि आप एक .NET डेवलपर हैं जो Aspose.Tasks का उपयोग करके प्रोजेक्ट प्रबंधन में रुचि ले रहे हैं, तो आप सही जगह पर आए हैं! इस चरण-दर-चरण मार्गदर्शिका में, हम शक्तिशाली .NET लाइब्रेरी का उपयोग करके अनुकूलन पर ध्यान केंद्रित करते हुए, Aspose.Tasks में टेक्स्ट आइटम प्रकारों को संभालने की जटिलताओं का पता लगाएंगे।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 उत्तर: Aspose.Tasks दस्तावेज़ में अधिक ट्यूटोरियल देखें।
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks कहां से खरीद सकता हूं?
  उ: पुस्तकालय खरीदें[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

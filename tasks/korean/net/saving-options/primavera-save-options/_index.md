@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용하여 MS 프로젝트 옵션 Primavera 저장
 linktitle: Aspose.Tasks에 대한 Primavera 저장 옵션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 Primavera용 MS 프로젝트 옵션을 원활하게 저장하는 방법을 알아보세요. 단계별 튜토리얼을 따라해보세요.
-type: docs
 weight: 14
 url: /ko/net/saving-options/primavera-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용하여 MS 프로젝트 옵션 Primavera 저장
+
 ## 소개
 Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Project 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 앱이 제공하는 주요 기능 중 하나는 인기 있는 프로젝트 관리 소프트웨어인 Primavera용 MS 프로젝트 옵션을 저장하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -59,3 +65,9 @@ A: 물론 Aspose.Tasks는 모든 규모의 프로젝트에서 작업하는 개�
  A: 예, Aspose.Tasks의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 기능과 기능을 살펴보겠습니다.
 ### Q: Aspose.Tasks를 사용하는 동안 문제가 발생하거나 질문이 있는 경우 어디서 지원을 받을 수 있나요?
  A: Aspose.Tasks 커뮤니티 및 지원팀에서 도움을 요청할 수 있습니다.[법정](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

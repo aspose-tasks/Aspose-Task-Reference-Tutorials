@@ -3,10 +3,16 @@ title: Aspose.Tasks を使用して MS プロジェクトのページ余白を�
 linktitle: Aspose.Tasks でのページ余白の設定
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project ファイルのページ余白を調整する方法を学びます。ドキュメントのレイアウトとプレゼンテーションを簡単に強化します。
-type: docs
 weight: 19
 url: /ja/net/outline-code-page-settings/page-margins/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks を使用して MS プロジェクトのページ余白を簡単に設定
+
 ## 導入
 プロジェクト管理の領域では、効率と正確さが最も重要です。 Aspose.Tasks for .NET は、Microsoft Project ファイルをプログラムで管理するための強力なツールキットを提供し、開発者にプロセスを合理化し、生産性を向上させる機能を提供します。このチュートリアルでは、プロジェクト ファイル操作の 1 つの特定の側面、つまり Aspose.Tasks for .NET を使用したページ マージンの設定について詳しく説明します。このガイドを最後まで読み終えると、Microsoft Project ファイル内のページ余白をシームレスに調整して、ドキュメントのレイアウトとプレゼンテーションを改善するための知識が身につくでしょう。
 ## 前提条件
@@ -73,3 +79,9 @@ A: Aspose.Tasks ではマージン値を柔軟に設定できるため、要件�
 A: はい。Aspose.Tasks は、タスクのスケジュール設定、リソースの割り当て、レポート作成など、プロジェクト管理のための包括的な機能スイートを提供します。
 ### Q: Aspose.Tasks を Web アプリケーションに統合できますか?
 A: もちろんです！ Aspose.Tasks for .NET は Web アプリケーションにシームレスに統合して、プロジェクト管理機能を強化できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

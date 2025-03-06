@@ -3,10 +3,16 @@ title: Získejte kódy osnovy MS Project v Aspose.Tasks
 linktitle: Získejte obrysové kódy v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak programově načíst kódy osnovy Microsoft Project pomocí Aspose.Tasks for Java. Vylepšete své schopnosti projektového řízení.
-type: docs
 weight: 15
 url: /cs/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte kódy osnovy MS Project v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu se naučíme, jak získat obrysové kódy aplikace Microsoft Project pomocí Aspose.Tasks for Java. Obrysové kódy v MS Project poskytují strukturovaný způsob, jak kategorizovat a organizovat projektové úkoly, zdroje a přiřazení. Aspose.Tasks je výkonná knihovna Java, která umožňuje vývojářům manipulovat a spravovat soubory Microsoft Project programově.
 ## Předpoklady
@@ -82,3 +88,9 @@ Odpověď: Ano, Aspose.Tasks for Java poskytuje rozhraní API pro programovou ú
  Odpověď: Ano, můžete si zakoupit dočasnou licenci pro Aspose.Tasks for Java z[nákupní stránku](https://purchase.aspose.com/temporary-license/).
 ### Q5: Kde najdu kompletní dokumentaci k Aspose.Tasks for Java?
  A: Můžete odkazovat na[dokumentace](https://reference.aspose.com/tasks/java/) pro podrobné informace o používání Aspose.Tasks for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

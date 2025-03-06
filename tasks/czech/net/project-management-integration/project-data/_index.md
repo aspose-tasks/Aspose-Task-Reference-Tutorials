@@ -3,10 +3,16 @@ title: Zvládnutí projektových dat pomocí Aspose.Tasks
 linktitle: Práce s daty projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se manipulovat s daty Microsoft Project pomocí Aspose.Tasks v .NET. Snadno vytvářejte úkoly, přidávejte zdroje a ukládejte projekty.
-type: docs
 weight: 16
 url: /cs/net/project-management-integration/project-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí projektových dat pomocí Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak pracovat s daty Microsoft Project pomocí knihovny Aspose.Tasks pro .NET. Aspose.Tasks poskytuje výkonné funkce pro manipulaci se soubory projektu, včetně vytváření úkolů, přidávání zdrojů, nastavení vlastností a ukládání projektů v různých formátech.
 ## Předpoklady
@@ -92,3 +98,9 @@ Odpověď: Aspose.Tasks se bez problémů integruje s ostatními knihovnami .NET
 Odpověď: Ano, Aspose.Tasks obsahuje pokročilé plánovací algoritmy, které vám pomohou optimalizovat časové osy projektů a využití zdrojů.
 ### Otázka: Existuje komunitní fórum pro uživatele Aspose.Tasks?
  Odpověď: Ano, můžete najít užitečné zdroje a komunikovat s ostatními uživateli Aspose.Tasks na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

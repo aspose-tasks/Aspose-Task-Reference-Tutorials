@@ -3,10 +3,16 @@ title: Определения обработки кода структуры MS 
 linktitle: Обработка определений структурного кода в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как обрабатывать определения структурного кода MS Project с помощью Aspose.Tasks для .NET, расширяя возможности ваших приложений для управления проектами.
-type: docs
 weight: 12
 url: /ru/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определения обработки кода структуры MS Project в Aspose.Tasks
+
 ## Введение
 Microsoft Project — мощный инструмент для управления проектами, а Aspose.Tasks для .NET обеспечивает комплексную поддержку программного управления файлами проекта. Одним из важных аспектов управления проектами является организация задач с использованием структурных кодов. В этом руководстве мы рассмотрим, как обрабатывать определения структурного кода MS Project с помощью Aspose.Tasks для .NET.
 ## Предварительные условия
@@ -91,3 +97,9 @@ outline.Values.Add(value);
 О: Конечно, Aspose.Tasks для .NET поддерживает чтение и запись настраиваемых полей, включая структурные коды, из файлов MS Project.
 ### Вопрос 5. Существует ли форум сообщества Aspose.Tasks для .NET?
  О: Да, вы можете присоединиться к форуму сообщества Aspose.Tasks для .NET.[здесь](https://forum.aspose.com/c/tasks/15) задавать вопросы, делиться знаниями и сотрудничать с другими разработчиками.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

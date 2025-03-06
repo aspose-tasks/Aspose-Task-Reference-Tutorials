@@ -3,10 +3,16 @@ title: Master Table Configuration in Aspose.Tasks for .NET
 linktitle: Configuring Tables in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn to configure tables in Aspose.Tasks for .NET with this step-by-step guide. Enhance your project management experience effortlessly.
-type: docs
 weight: 10
 url: /net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Table Configuration in Aspose.Tasks for .NET
+
 ## Introduction
 Welcome to this comprehensive guide on configuring tables in Aspose.Tasks for .NET. Aspose.Tasks is a powerful library that enables developers to work with Microsoft Project files seamlessly. In this tutorial, we'll walk you through the process of configuring tables using Aspose.Tasks, breaking down each step for a clear understanding.
 ## Prerequisites
@@ -68,3 +74,10 @@ A: Refer to the [Aspose.Tasks .NET documentation](https://reference.aspose.com/t
 A: Yes, you can explore the free trial version [here](https://releases.aspose.com/).
 ### Q: Where can I purchase Aspose.Tasks?
 A: You can buy the full license [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

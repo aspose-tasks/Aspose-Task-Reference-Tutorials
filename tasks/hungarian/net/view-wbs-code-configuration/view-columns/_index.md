@@ -3,10 +3,16 @@ title: MS Project View oszlopok elsajátítása Aspose.Tasks segítségével .NE
 linktitle: Nézetoszlopok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Javítsa a projektek megjelenítését az Aspose.Tasks for .NET segítségével. Ismerje meg lépésről lépésre az MS Project nézet oszlopainak kezelését. Növelje a hatékonyságot és a testreszabhatóságot.
-type: docs
 weight: 12
 url: /hu/net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project View oszlopok elsajátítása Aspose.Tasks segítségével .NET-hez
+
 ## Bevezetés
 projektmenedzsment területén az Aspose.Tasks for .NET kiemelkedik a Microsoft Project fájlok kezelésének hatékony eszköztárából. A projektvizualizáció egyik alapvető szempontja a nézetoszlopok hatékony kezelése. Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti az MS Project nézetoszlopait az Aspose.Tasks segítségével, amely lehetővé teszi a projektnézetek testreszabását és optimalizálását.
 ## Előfeltételek
@@ -80,3 +86,9 @@ V: Az Aspose.Tasks elsősorban a Microsoft Project fájlokra összpontosít; azo
  V: A`MyTextStyleCallback` osztály bemutatja, hogyan lehet testreszabni a szövegstílusokat a jobb vizuális megjelenítés érdekében bizonyos nézetekben.
 ### K: Hol találhatok további forrásokat és dokumentációt az Aspose.Tasks-hoz?
  V: Lásd a[Aspose.Tasks dokumentáció](https://reference.aspose.com/tasks/net/) mélyreható útmutatásért és forrásokért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

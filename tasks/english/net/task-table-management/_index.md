@@ -3,10 +3,16 @@ title: Aspose.Tasks Task Management and Table Formatting
 linktitle: Aspose.Tasks Task Management and Table Formatting
 second_title: Aspose.Tasks .NET API
 description: Configure and manage tables effortlessly in Aspose.Tasks for .NET with step-by-step tutorials. Enhance project management efficiency and presentation skills.
-type: docs
 weight: 29
 url: /net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Task Management and Table Formatting
+
 ## Introduction
 
 Aspose.Tasks for .NET revolutionizes project management with its robust features. This article explores various tutorials on task management and table formatting, offering a comprehensive guide to maximize your efficiency. Let's dive into the key topics:
@@ -91,3 +97,10 @@ Explore Aspose.Tasks for .NET to effortlessly configure task start date types. O
 Explore Aspose.Tasks for .NET to effortlessly manage and visualize project data. Dive into Task Usage View Fields for enhanced project insights.
 ### [Collection of Task Usage View Fields in Aspose.Tasks](./task-usage-view-fields/)
 Explore Aspose.Tasks for .NET and learn how to configure task usage views. Customize timescale settings and enhance your project management visuals.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

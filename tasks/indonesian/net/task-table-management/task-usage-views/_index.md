@@ -3,10 +3,16 @@ title: Menguasai Tampilan Penggunaan Tugas di Aspose.Tasks untuk .NET
 linktitle: Mengonfigurasi Tampilan Penggunaan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET dan pelajari cara mengonfigurasi tampilan penggunaan tugas. Sesuaikan pengaturan skala waktu dan tingkatkan visual manajemen proyek Anda.
-type: docs
 weight: 24
 url: /id/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Tampilan Penggunaan Tugas di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Dalam bidang manajemen proyek, memvisualisasikan penggunaan tugas sangat penting untuk perencanaan dan pelaksanaan yang efektif. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk merender tampilan penggunaan tugas, memungkinkan Anda menyesuaikan pengaturan skala waktu dan format presentasi. Dalam tutorial ini, kita akan memandu langkah-langkah untuk mengonfigurasi tampilan penggunaan tugas menggunakan Aspose.Tasks.
 ## Prasyarat
@@ -75,3 +81,9 @@ Ya, Aspose.Tasks mendukung format file proyek populer seperti MPP, XML, dan CSV.
 Tentu saja, Anda dapat menyesuaikan pengaturan skala waktu untuk masing-masing tugas dalam proyek Anda.
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan untuk Aspose.Tasks?
  Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bimbingan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

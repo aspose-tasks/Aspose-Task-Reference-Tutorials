@@ -3,10 +3,16 @@ title: Verzameling van beschikbaarheidsperioden in Aspose.Tasks
 linktitle: Verzameling van beschikbaarheidsperioden in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u beschikbaarheidsperioden voor bronnen beheert in Aspose.Tasks voor .NET. Deze stapsgewijze zelfstudie begeleidt u bij het toevoegen, bijwerken en verwijderen van beschikbaarheidsperioden, waardoor een effectieve projectresourceplanning wordt gegarandeerd.
-type: docs
 weight: 18
 url: /nl/net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van beschikbaarheidsperioden in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u kunt werken met de verzameling van de beschikbaarheidsperiode van een bron in Aspose.Tasks voor .NET. Het beheren van beschikbaarheidsperioden is cruciaal voor projectmanagement, waardoor we kunnen definiëren wanneer middelen beschikbaar zijn voor taken binnen een project.
@@ -148,3 +154,9 @@ A4: Aspose.Tasks voor .NET biedt geen ingebouwde mechanismen om overlappende per
 ### Vraag 5: Is er een limiet aan het aantal beschikbaarheidsperioden dat een resource kan hebben?
 
 A5: Er is geen vooraf gedefinieerde limiet voor het aantal beschikbaarheidsperioden dat een resource kan hebben, maar de prestaties kunnen afnemen bij een groot aantal perioden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

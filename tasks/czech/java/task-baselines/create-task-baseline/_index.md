@@ -3,10 +3,16 @@ title: Vytvořte plán úloh MS Project v Aspose.Tasks
 linktitle: Vytvoření základního plánu úkolu v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Naučte se, jak vytvořit základní plán úloh Microsoft Project v Javě pomocí Aspose.Tasks, výkonné knihovny pro snadnou správu projektových dat.
-type: docs
 weight: 11
 url: /cs/java/task-baselines/create-task-baseline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte plán úloh MS Project v Aspose.Tasks
+
 ## Úvod
 tomto tutoriálu se ponoříme do procesu vytváření základního plánu úkolů Microsoft Project pomocí Aspose.Tasks for Java. Aspose.Tasks je výkonná knihovna Java, která umožňuje vývojářům pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project. S Aspose.Tasks můžete bez námahy manipulovat s projektovými daty, včetně úkolů, zdrojů a kalendářů, a zjednodušit tak úkoly projektového řízení.
 ## Předpoklady
@@ -59,3 +65,9 @@ Aspose.Tasks for Java rozhodně poskytuje robustní funkce pro manipulaci se zdr
 Ano, pomocí Aspose.Tasks for Java můžete snadno nastavit závislosti úkolů, což vám umožní stanovit pořadí úkolů v rámci vašeho projektu.
 ### Je k dispozici technická podpora pro Aspose.Tasks for Java?
  Ano, k technické podpoře Aspose.Tasks pro Javu můžete přistupovat prostřednictvím[Fórum podpory](https://forum.aspose.com/c/tasks/15), kde můžete klást otázky a hledat pomoc od komunity a pracovníků podpory Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

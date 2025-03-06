@@ -3,10 +3,16 @@ title: Menguasai Waktu Kerja di Aspose.Tugas
 linktitle: Pengumpulan Waktu Kerja di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola jadwal proyek secara efisien. Sesuaikan kalender, atur waktu kerja, dan sederhanakan proyek Anda dengan mudah.
-type: docs
 weight: 14
 url: /id/net/time-recurrence-configuration/working-time-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Waktu Kerja di Aspose.Tugas
+
 ## Perkenalan
 Apakah Anda ingin menguasai seni mengatur waktu kerja di Aspose.Tasks untuk .NET? Tidak perlu mencari lagi! Dalam panduan langkah demi langkah ini, kami akan mempelajari seluk-beluk pengumpulan waktu kerja menggunakan Aspose.Tasks, sehingga memberdayakan Anda untuk menangani kalender khusus secara efisien dan menyederhanakan jadwal proyek Anda.
 ## Prasyarat
@@ -114,3 +120,9 @@ Tentu! Aspose.Tasks terintegrasi secara mulus dengan pustaka .NET lainnya, menin
  Ya, Anda dapat menjelajahi Aspose.Tasks dengan uji coba gratis dengan mengunjungi[Link ini](https://releases.aspose.com/).
 ### Di mana saya dapat mencari dukungan untuk Aspose.Tasks?
  Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum dukungan Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

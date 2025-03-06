@@ -3,10 +3,16 @@ title: Aspose.Tasks 中的任务注释管理
 linktitle: Aspose.Tasks 中的任务注释管理
 second_title: Aspose.Tasks Java API
 description: 探索 Aspose.Tasks for Java 中的任务注释管理。高效 Java 开发的分步指南。立即下载免费试用版！
-type: docs
 weight: 22
 url: /zh/java/task-properties/task-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 中的任务注释管理
+
 ## 介绍
 Aspose.Tasks for Java 提供了一个强大的解决方案来管理项目相关数据，包括任务注释。在本教程中，我们将深入研究使用 Aspose.Tasks for Java 有效管理任务注释的复杂性。无论您是经验丰富的开发人员还是新手，本分步指南都将引导您顺利完成处理任务注释的过程。
 ## 先决条件
@@ -51,3 +57,9 @@ System.out.println("Notes RTF: " + task.get(Tsk.NOTES_RTF));
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买 Aspose.Tasks for Java？
 您可以购买该产品[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

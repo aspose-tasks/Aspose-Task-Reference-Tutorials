@@ -3,10 +3,16 @@ title: دعم وظائف التقييم في صيغ Aspose.Tasks
 linktitle: دعم وظائف التقييم في صيغ Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية دعم تقييم وظائف MS Project في صيغ Aspose.Tasks باستخدام Java. عزز إنتاجيتك باستخدام Aspose.Tasks.
-type: docs
 weight: 10
 url: /ar/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم وظائف التقييم في صيغ Aspose.Tasks
+
 
 ## مقدمة
 Aspose.Tasks for Java هي مكتبة قوية تمكن المطورين من التعامل مع ملفات Microsoft Project برمجياً. إحدى ميزاته الرئيسية هي القدرة على دعم تقييم وظائف MS Project ضمن صيغ Aspose.Tasks. تتيح هذه الإمكانية للمستخدمين إجراء حسابات وتحليلات معقدة مباشرة داخل تطبيقات Java الخاصة بهم.
@@ -65,3 +71,9 @@ task.getExtendedAttributes().add(a);
 ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل هناك ترخيص مؤقت متاح لـ Aspose.Tasks لـ Java؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من موقع Aspose[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

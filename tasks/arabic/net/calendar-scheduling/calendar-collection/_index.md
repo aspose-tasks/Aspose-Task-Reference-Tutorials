@@ -3,10 +3,16 @@ title: إدارة مجموعة التقويم في Aspose.Tasks
 linktitle: إدارة مجموعة التقويم في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة مجموعات التقويم في Aspose.Tasks لـ .NET بكفاءة. قم بإنشاء التقويمات وتعديلها ومعالجتها بسهولة.
-type: docs
 weight: 11
 url: /ar/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة مجموعة التقويم في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة مجموعات التقويم في Aspose.Tasks لـ .NET. تلعب التقويمات دورًا حاسمًا في إدارة المشاريع، وتحديد أيام العمل والعطلات والاستثناءات. يوفر Aspose.Tasks وظائف قوية للتعامل مع التقويمات داخل مشاريعك.
@@ -160,3 +166,9 @@ A1: نعم، يمكنك إنشاء أيام عمل مخصصة عن طريق إض
 ### س5: هل يمكنني تخصيص ساعات العمل لأيام محددة في التقويم؟
 
 ج5: بالتأكيد، يمكنك تحديد ساعات العمل للأيام الفردية باستخدام الاستثناءات في التقويم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

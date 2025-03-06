@@ -3,10 +3,16 @@ title: Calculer les pourcentages d'affectation des ressources avec Aspose.Tasks
 linktitle: Calculer les pourcentages pour les affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à calculer efficacement les pourcentages pour les affectations de ressources dans les projets Java à l'aide d'Aspose.Tasks, simplifiant ainsi les tâches de gestion de projet.
-type: docs
 weight: 13
 url: /fr/java/resource-assignments/calculate-percentages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculer les pourcentages d'affectation des ressources avec Aspose.Tasks
+
 ## Introduction
 En gestion de projet, le calcul précis des affectations de ressources est crucial pour garantir l’achèvement des tâches dans les délais et une allocation efficace des ressources. Aspose.Tasks for Java fournit des outils puissants pour faciliter ce processus, permettant aux développeurs de calculer facilement les pourcentages pour les affectations de ressources.
 ## Conditions préalables
@@ -64,3 +70,9 @@ R : Certes, Aspose.Tasks peut être intégré de manière transparente à d'autr
  R : Oui, Aspose.Tasks propose un support client dédié via son forum. Vous pouvez trouver de l'aide[ici](https://forum.aspose.com/c/tasks/15).
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks ?
  R : Oui, vous pouvez explorer Aspose.Tasks avec un essai gratuit disponible[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

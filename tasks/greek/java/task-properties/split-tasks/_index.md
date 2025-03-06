@@ -3,10 +3,16 @@ title: Διαχωρισμός εργασιών στο Aspose.Tasks
 linktitle: Διαχωρισμός εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Κατακτήστε τη διαχείριση εργασιών σε Java με το Aspose.Tasks! Μάθετε πώς να διαχωρίζετε τις εργασίες αποτελεσματικά για βελτιστοποιημένα χρονοδιαγράμματα έργων. Κατεβάστε τώρα!
-type: docs
 weight: 29
 url: /el/java/task-properties/split-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχωρισμός εργασιών στο Aspose.Tasks
+
 ## Εισαγωγή
 Δυσκολεύεστε με τη διαχείριση εργασιών στο έργο σας Java; Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για τον αποτελεσματικό διαχωρισμό εργασιών, ενισχύοντας τις δυνατότητες διαχείρισης έργου. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία διαχωρισμού εργασιών χρησιμοποιώντας το Aspose.Tasks για Java, βοηθώντας σας να βελτιστοποιήσετε τα χρονοδιαγράμματα του έργου σας και τις κατανομές πόρων.
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ java.util.Calendar cal2 = java.util.Calendar.getInstance();
  Επισκέψου το[Aspose.Tasks for Java υποστήριξης φόρουμ](https://forum.aspose.com/c/tasks/15) για να λάβετε βοήθεια και να συνδεθείτε με την κοινότητα.
 ### Χρειάζομαι μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
  Μπορείτε να αποκτήσετε προσωρινή άδεια από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) για σκοπούς δοκιμών και αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

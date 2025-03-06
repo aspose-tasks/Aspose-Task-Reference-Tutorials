@@ -3,10 +3,16 @@ title: Suppression des tâches MS Project avec Aspose.Tasks
 linktitle: Suppression de tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment supprimer des tâches MS Project par programme à l'aide d'Aspose.Tasks pour .NET. Guide étape par étape avec des exemples de code inclus.
-type: docs
 weight: 15
 url: /fr/net/rate-recurring-tasks/removing-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suppression des tâches MS Project avec Aspose.Tasks
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment supprimer des tâches d'un fichier Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Aspose.Tasks est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. La suppression de tâches d'un fichier de projet peut être une exigence courante dans les scénarios de gestion de projet, et Aspose.Tasks fournit un moyen simple d'y parvenir.
 ## Conditions préalables
@@ -75,3 +81,9 @@ R : Aspose.Tasks fournit des fonctionnalités robustes pour annuler des opérat
 R : Absolument, Aspose.Tasks offre une prise en charge complète des structures de projet complexes, vous permettant de manipuler facilement les tâches, les ressources et d'autres éléments du projet.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks ?
  R : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks à partir de[ici](https://releases.aspose.com/tasks/net/) pour explorer ses fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

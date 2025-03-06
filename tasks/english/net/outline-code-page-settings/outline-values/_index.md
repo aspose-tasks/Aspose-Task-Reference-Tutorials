@@ -3,10 +3,16 @@ title: Mastering MS Project Outline Values with Aspose.Tasks
 linktitle: Managing Outline Values in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage MS Project outline values efficiently using Aspose.Tasks for .NET. Customize project outlines with ease.
-type: docs
 weight: 16
 url: /net/outline-code-page-settings/outline-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project Outline Values with Aspose.Tasks
+
 ## Introduction
 In this tutorial, we'll explore how to manage Microsoft Project outline values using the Aspose.Tasks library for .NET. With Aspose.Tasks, you can easily manipulate outline codes, create new outline values, and customize project outlines according to your requirements.
 ## Prerequisites
@@ -76,3 +82,10 @@ A: For support and assistance, you can visit the Aspose.Tasks forum [here](https
 A: Yes, you can purchase a temporary license for Aspose.Tasks from [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I find detailed documentation for Aspose.Tasks?
 A: You can refer to the comprehensive documentation available [here](https://reference.aspose.com/tasks/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

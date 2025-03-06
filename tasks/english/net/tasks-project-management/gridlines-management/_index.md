@@ -3,10 +3,16 @@ title: Customize Project Gridlines with Aspose.Tasks for .NET
 linktitle: Gridlines Management in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to programmatically adjust gridline settings in Microsoft Project files using Aspose.Tasks for .NET, project visualization and management efficiency.
-type: docs
 weight: 24
 url: /net/tasks-project-management/gridlines-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize Project Gridlines with Aspose.Tasks for .NET
+
 ## Introduction
 Managing projects efficiently often involves visualizing timelines and tasks with clarity. One crucial aspect of project visualization is the gridlines, which help in organizing and understanding the project's structure. Aspose.Tasks for .NET provides robust capabilities to manipulate gridlines in Microsoft Project files programmatically. In this tutorial, we'll explore how to work with gridlines using Aspose.Tasks for .NET.
 ## Prerequisites
@@ -69,3 +75,10 @@ A: Absolutely. Aspose.Tasks provides extensive options to tailor gridlines accor
 A: Certainly. With Aspose.Tasks, you can incorporate logic to dynamically adjust gridline settings based on project data or user-defined criteria.
 ### Q: Where can I find more resources and support for Aspose.Tasks for .NET?
 A: You can explore the [documentation](https://reference.aspose.com/tasks/net/) for comprehensive guides, visit the [support forum](https://forum.aspose.com/c/tasks/15) for assistance, or consider obtaining a [temporary license](https://purchase.aspose.com/temporary-license/) for extended evaluation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

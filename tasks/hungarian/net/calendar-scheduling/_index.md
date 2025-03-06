@@ -3,10 +3,16 @@ title: Aspose.Tasks Naptár és ütemezés
 linktitle: Aspose.Tasks Naptár és ütemezés
 second_title: Aspose.Tasks .NET API
 description: Kezelje a projektnaptárakat, számítsa ki az időtartamokat és kezelje a kivételeket az Aspose.Tasks for .NET segítségével. Fedezze fel a naptári és ütemezési feladatok lépésenkénti oktatóanyagait.
-type: docs
 weight: 22
 url: /hu/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Naptár és ütemezés
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Tasks for .NET oktatóanyagok világában, amely a .NET-projektek naptárkezelésének és ütemezésének bonyolult elsajátítására szolgáló forrás. Az Aspose.Tasks robusztus eszközökkel ruházza fel a fejlesztőket a projektnaptárak könnyed kezelésére, az időtartamok kiszámítására és a kivételek kezelésére. Ebben az átfogó oktatóanyag-gyűjteményben a naptárak kezelésétől és a kivételek kezelésétől a speciális témák, például az összetett dokumentumfejléc-kivételek és a pénznemszimbólum-pozíciók feltárásáig különböző szempontokba nyúlunk bele. Legyen szó tapasztalt fejlesztőről, aki haladó betekintésre vágyik, vagy újonc, aki szívesen fejleszti projektmenedzsment-készségeit, ezek az oktatóanyagok lépésről lépésre nyújtanak útmutatást és valós példákat. Induljunk el egy utazásra, hogy kiaknázzuk az Aspose.Tasks teljes potenciálját .NET-hez, és növeljük projektmenedzsment képességeit. Készen állsz a merülésre? Kezdjük el!
@@ -135,3 +141,9 @@ Tanulja meg, hogyan kezelheti hatékonyan a nap típusú gyűjteményeket az Asp
 Ismerje meg, hogyan importálhat projekteket Primavera adatbázisból az Aspose.Tasks for .NET segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre kaphat útmutatást.
 ### [Időtartam kezelése az Aspose.Tasks-ban](./duration-handling/)
 Ismerje meg, hogyan kezelheti hatékonyan az időtartamokat az Aspose.Tasks for .NET-ben a lépésről lépésre bemutatott oktatóanyagok segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

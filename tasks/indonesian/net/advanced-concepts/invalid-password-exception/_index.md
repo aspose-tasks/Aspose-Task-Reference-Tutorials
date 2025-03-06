@@ -3,10 +3,16 @@ title: Menangani Pengecualian Kata Sandi Tidak Valid di Aspose.Tasks
 linktitle: Menangani Pengecualian Kata Sandi Tidak Valid di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani InvalidPasswordException di Aspose.Tasks untuk .NET secara efisien. Pastikan kelancaran eksekusi kode Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/net/advanced-concepts/invalid-password-exception/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Pengecualian Kata Sandi Tidak Valid di Aspose.Tasks
+
 ## Perkenalan
 
  Dalam pengembangan perangkat lunak, menghadapi pengecualian adalah hal biasa, dan mengetahui cara menanganinya secara efektif sangat penting untuk kinerja aplikasi yang kuat. Saat bekerja dengan Aspose.Tasks untuk .NET, pengembang mungkin menghadapi masalah ini`InvalidPasswordException` ketika berhadapan dengan file proyek yang dilindungi kata sandi. Tutorial ini akan memandu Anda melalui proses penanganan pengecualian ini langkah demi langkah, memastikan kelancaran eksekusi kode Anda.
@@ -81,3 +87,9 @@ A3: Tentu saja! Aspose.Tasks menawarkan fitur tangguh dan kinerja luar biasa, se
 ### Q5: Dapatkah saya mencoba Aspose.Tasks sebelum membeli?
 
  A5: Ya, Anda dapat menjelajahi Aspose.Tasks dengan mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

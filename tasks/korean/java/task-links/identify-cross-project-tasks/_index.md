@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 프로젝트 간 작업 식별
 linktitle: Aspose.Tasks에서 프로젝트 간 작업 식별
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 프로젝트 간 작업 식별을 살펴보세요. 원활한 통합 및 효율적인 관리. 지금 다운로드하세요!
-type: docs
 weight: 14
 url: /ko/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 프로젝트 간 작업 식별
+
 ## 소개
 Aspose.Tasks for Java를 사용하여 프로젝트 간 작업을 효율적으로 식별하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 숙련된 개발자이든 초보자이든 관계없이 이 가이드는 이 기능을 Java 프로젝트에 원활하게 통합하는 프로세스를 안내합니다.
 ## 전제조건
@@ -60,3 +66,9 @@ A: 예, Aspose.Tasks는 Java, .NET 등을 포함한 여러 프로그래밍 언�
  A: 임시 면허를 취득하세요[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: 도움이 필요하거나 구체적인 질문이 있나요?
 A: Aspose.Tasks 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

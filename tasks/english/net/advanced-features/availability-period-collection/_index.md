@@ -3,10 +3,16 @@ title: Collection of Availability Periods in Aspose.Tasks
 linktitle: Collection of Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage availability periods for resources in Aspose.Tasks for .NET. This step-by-step tutorial guides you through adding, updating, and removing availability periods, ensuring effective project resource planning.
-type: docs
 weight: 18
 url: /net/advanced-features/availability-period-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collection of Availability Periods in Aspose.Tasks
+
 ## Introduction
 
 In this tutorial, we'll explore how to work with the availability period collection of a resource in Aspose.Tasks for .NET. Managing availability periods is crucial for project management, allowing us to define when resources are available for tasks within a project.
@@ -148,3 +154,10 @@ A4: Aspose.Tasks for .NET does not provide built-in mechanisms to handle overlap
 ### Q5: Is there a limit to the number of availability periods a resource can have?
 
 A5: There is no predefined limit to the number of availability periods a resource can have, but performance may degrade with a large number of periods.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maîtriser la manipulation de MS Project avec Aspose.Tasks pour Java
 linktitle: Ajouter des attributs étendus aux affectations de ressources dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Apprenez à écrire efficacement des informations MS Project à l'aide d'Aspose.Tasks pour Java. Guide étape par étape pour les développeurs Java.
-type: docs
 weight: 10
 url: /fr/java/resource-assignments/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la manipulation de MS Project avec Aspose.Tasks pour Java
+
 ## Introduction
 Dans ce didacticiel, nous aborderons l'utilisation d'Aspose.Tasks pour Java, une puissante bibliothèque permettant de manipuler les fichiers Microsoft Project par programme. Nous allons nous concentrer sur une tâche fondamentale : écrire des informations MS Project à l'aide d'Aspose.Tasks. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours dans la programmation Java, ce guide vous guidera pas à pas tout au long du processus.
 ## Conditions préalables
@@ -72,3 +78,9 @@ R : Absolument, Aspose.Tasks for Java prend en charge différentes versions de M
  R : Vous pouvez demander de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
 ### Q : Puis-je acheter une licence temporaire pour Aspose.Tasks pour Java ?
  R : Oui, des licences temporaires sont disponibles pour une utilisation à court terme. Vous pouvez en obtenir un auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

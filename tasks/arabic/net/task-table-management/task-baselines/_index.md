@@ -3,10 +3,16 @@ title: إتقان الخطوط الأساسية للمهام في Aspose.Tasks �
 linktitle: التعامل مع الخطوط الأساسية للمهمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع الخطوط الأساسية للمهام في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي الشامل. عزز مهاراتك في إدارة المشاريع اليوم!
-type: docs
 weight: 16
 url: /ar/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان الخطوط الأساسية للمهام في Aspose.Tasks لـ .NET
+
 ## مقدمة
 في عالم إدارة المشاريع الديناميكي، يعد البقاء منظمًا ومطلعًا أمرًا بالغ الأهمية. يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع الخطوط الأساسية للمهام، مما يسمح لك بالوصول إلى المعلومات الأساسية القيمة بكفاءة. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن أنك تفهم كل مفهوم بوضوح.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ foreach (var data in baseline.TimephasedData)
  ج: اكتشف[توثيق](https://reference.aspose.com/tasks/net/) للحصول على مجموعة واسعة من البرامج التعليمية حول ميزات Aspose.Tasks.
 ### س: أين يمكنني شراء Aspose.Tasks لـ .NET؟
  ج: يمكنك شراء Aspose.Tasks بسهولة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Baca Data Definisi Grup di Aspose.Tasks
 linktitle: Baca Data Definisi Grup di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara membaca data definisi grup dari file Microsoft Project menggunakan Aspose.Tasks untuk Java. Ikuti tutorial langkah demi langkah kami.
-type: docs
 weight: 10
 url: /id/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Data Definisi Grup di Aspose.Tasks
+
 ## Perkenalan
 Aspose.Tasks for Java adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project dengan mudah. Dalam tutorial ini, kita akan memandu proses membaca data definisi grup dari file proyek langkah demi langkah menggunakan Aspose.Tasks untuk Java.
 ## Prasyarat
@@ -79,3 +85,9 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan menggunakan blok coba-ta
 J: Ya, Aspose.Tasks untuk Java memungkinkan Anda mengekspor data proyek ke format seperti PDF, XLSX, dan CSV.
 ### T: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Tasks untuk Java?
  A: Anda dapat mengunjungi[Aspose.Tasks untuk dokumentasi Java](https://reference.aspose.com/tasks/java/) untuk panduan komprehensif dan lihat[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

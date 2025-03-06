@@ -3,10 +3,16 @@ title: Projektmanagement
 linktitle: Projektmanagement
 second_title: Aspose.Tasks Java-API
 description: Entdecken Sie Aspose.Tasks Java mit unseren umfassenden Projektmanagement-Tutorials. Optimieren Sie Ihren Arbeitsablauf, von der Berechnung des kritischen Pfads bis hin zu den Eigenschaften des Geschäftsjahres.
-type: docs
 weight: 27
 url: /de/java/project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektmanagement
+
 ## Einführung
 
 Sind Sie bereit, Ihre Projektmanagementfähigkeiten mit Aspose.Tasks für Java zu verbessern? Tauchen Sie ein in unsere exklusiven Tutorials, die ein Spektrum an Features und Funktionalitäten abdecken, die Ihre Java-Entwicklungsreise unterstützen. Von der Berechnung kritischer Pfade bis hin zur Behandlung von Ausnahmen beim Schreiben von Aufgaben während des Druckens sind Sie bei uns genau richtig. Lassen Sie uns den Wissensschatz erkunden, der auf Sie wartet.
@@ -69,3 +75,9 @@ Erfahren Sie, wie Sie mit Aspose.Tasks für Java nahtlos MS Project-Dateien aus 
 Erfahren Sie, wie Sie in Aspose.Tasks für Java Seiten drucken, um Bilder zu trennen. Verbessern Sie die Projektvisualisierung mit dieser Schritt-für-Schritt-Anleitung.
 ### [Behandeln Sie Ausnahmen beim Schreiben von Aufgaben beim Drucken in Aspose.Tasks](./print-task-exceptions/)
 Beherrschen Sie die Ausnahmebehandlung in Aspose.Tasks für Java, um eine reibungslose Projektausführung sicherzustellen. Erfahren Sie, wie Sie beim Drucken mühelos mit Ausnahmen beim Schreiben von Aufgaben umgehen können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 작업 관리 및 테이블 서식 지정
 linktitle: Aspose.Tasks 작업 관리 및 테이블 서식 지정
 second_title: Aspose.태스크 .NET API
 description: 단계별 튜토리얼을 통해 Aspose.Tasks for .NET에서 테이블을 손쉽게 구성하고 관리하세요. 프로젝트 관리 효율성과 프레젠테이션 기술을 향상시킵니다.
-type: docs
 weight: 29
 url: /ko/net/task-table-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 작업 관리 및 테이블 서식 지정
+
 ## 소개
 
 Aspose.Tasks for .NET은 강력한 기능으로 프로젝트 관리에 혁명을 일으켰습니다. 이 문서에서는 작업 관리 및 테이블 형식 지정에 대한 다양한 튜토리얼을 살펴보고 효율성을 극대화하기 위한 포괄적인 가이드를 제공합니다. 주요 주제를 자세히 살펴보겠습니다.
@@ -91,3 +97,9 @@ Aspose.Tasks for .NET에서 작업 기준을 손쉽게 처리하는 기술을 �
 .NET용 Aspose.Tasks를 탐색하여 프로젝트 데이터를 손쉽게 관리하고 시각화하세요. 향상된 프로젝트 통찰력을 위해 작업 사용량 보기 필드를 살펴보세요.
 ### [Aspose.Tasks의 작업 사용량 보기 필드 컬렉션](./task-usage-view-fields/)
 .NET용 Aspose.Tasks를 살펴보고 작업 사용량 보기를 구성하는 방법을 알아보세요. 기간 설정을 사용자 정의하고 프로젝트 관리 시각적 효과를 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 마스터 획득 가치 MS 프로젝트 방법
 linktitle: Aspose.Tasks의 진척 상황 분석 유형
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하는 마스터 진척 상황 MS 프로젝트 메서드 유형. 손쉽게 프로젝트 관리 효율성을 향상하세요.
-type: docs
 weight: 10
 url: /ko/net/tasks-project-management/earned-value-method-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 마스터 획득 가치 MS 프로젝트 방법
+
 ## 소개
 프로젝트 관리 영역에서는 올바른 도구와 방법론을 활용하는 것이 성공을 위해 가장 중요합니다. Aspose.Tasks for .NET은 프로젝트 관련 작업을 효율적으로 관리하기 위한 강력한 프레임워크를 제공합니다. 그러한 중요한 측면 중 하나는 계획된 작업과 완료된 실제 작업을 비교하여 프로젝트 성과에 대한 통찰력을 제공하는 EVM(실적 가치 관리) 방법을 활용하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 Earned Value MS 프로젝트 메서드 유형을 이해하고 구현하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -53,3 +59,9 @@ A: 예, 다음 웹사이트에서 Aspose.Tasks for .NET의 무료 평가판을 �
  A: 예, Aspose.Tasks for .NET에 대한 임시 라이선스를 사용할 수 있습니다. 다음에서 얻을 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/)
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  A: 다음 웹사이트에서 .NET용 Aspose.Tasks를 구입할 수 있습니다.[구입](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

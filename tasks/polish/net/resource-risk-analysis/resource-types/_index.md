@@ -3,10 +3,16 @@ title: Rodzaje zasobów w Aspose.Tasks
 linktitle: Rodzaje zasobów w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak pracować z różnymi typami zasobów w Aspose.Tasks dla .NET, w tym zasobami pracy, materiałami i kosztami, poprzez samouczek krok po kroku.
-type: docs
 weight: 14
 url: /pl/net/resource-risk-analysis/resource-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rodzaje zasobów w Aspose.Tasks
+
 ## Wstęp
 Aspose.Tasks dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft Project. Niezależnie od tego, czy zarządzasz zadaniami, zasobami czy harmonogramami, Aspose.Tasks upraszcza ten proces, udostępniając kompleksowy zestaw interfejsów API. W tym samouczku zagłębimy się w różne typy zasobów, które możesz wykorzystać w swoich projektach za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ O: Tak, Aspose.Tasks obsługuje różne formaty, w tym Microsoft Project (MPP), 
  Odpowiedź: Tak, możesz kupić licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Czy Aspose.Tasks dla .NET udostępnia dokumentację w celach informacyjnych?
  Odp.: Tak, możesz znaleźć dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

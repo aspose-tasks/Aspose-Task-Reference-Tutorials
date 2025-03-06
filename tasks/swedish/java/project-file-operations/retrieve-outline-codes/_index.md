@@ -3,10 +3,16 @@ title: Hämta MS Project Outline-koder i Aspose.Tasks
 linktitle: Hämta dispositionskoder i Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hämtar Microsoft Project-konturkoder programmatiskt med Aspose.Tasks för Java. Förbättra dina projektledningsmöjligheter.
-type: docs
 weight: 15
 url: /sv/java/project-file-operations/retrieve-outline-codes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta MS Project Outline-koder i Aspose.Tasks
+
 ## Introduktion
 den här handledningen kommer vi att lära oss hur du hämtar Microsoft Project-konturkoder med Aspose.Tasks för Java. Dispositionskoder i MS Project ger ett strukturerat sätt att kategorisera och organisera projektuppgifter, resurser och uppdrag. Aspose.Tasks är ett kraftfullt Java-bibliotek som tillåter utvecklare att manipulera och hantera Microsoft Project-filer programmatiskt.
 ## Förutsättningar
@@ -82,3 +88,9 @@ S: Ja, Aspose.Tasks för Java tillhandahåller API:er för att modifiera disposi
  S: Ja, du kan köpa en tillfällig licens för Aspose.Tasks för Java från[köpsidan](https://purchase.aspose.com/temporary-license/).
 ### F5: Var kan jag hitta den fullständiga dokumentationen för Aspose.Tasks för Java?
  S: Du kan hänvisa till[dokumentation](https://reference.aspose.com/tasks/java/) för detaljerad information om hur du använder Aspose.Tasks för Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

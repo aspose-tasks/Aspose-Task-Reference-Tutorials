@@ -3,10 +3,16 @@ title: Aspose.Tasks 项目管理和定制
 linktitle: Aspose.Tasks 项目管理和定制
 second_title: Aspose.Tasks .NET API
 description: 通过我们的项目管理教程掌握 Aspose.Tasks for .NET。了解 MS Project 文件的高效操作、定制和优化技术。
-type: docs
 weight: 23
 url: /zh/net/tasks-project-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 项目管理和定制
+
 ## 介绍
 
 您准备好使用 Aspose.Tasks for .NET 来提升您的项目管理技能了吗？我们的综合教程涵盖一系列主题，从掌握挣值 MS 项目方法到有效管理项目属性和自定义甘特图。让我们深入 Aspose.Tasks 的世界并释放项目管理的全部潜力。
@@ -130,3 +136,9 @@ url: /zh/net/tasks-project-management/
 了解如何使用 Aspose.Tasks for .NET 管理 Group Criterion MS Project 集合。开发人员的分步指南。
 ### [使用 Aspose.Tasks 提取页眉和页脚信息](./header-footer-information/)
 学习使用 Aspose.Tasks for .NET 从 MS Project 文件中提取页眉和页脚信息。简单、高效且对开发人员友好的解决方案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

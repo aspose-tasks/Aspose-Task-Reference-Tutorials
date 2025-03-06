@@ -3,10 +3,16 @@ title: التعامل مع القيم المنطقية Nullable في Aspose.Task
 linktitle: التعامل مع القيم المنطقية Nullable في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع القيم المنطقية الخالية بشكل فعال في Aspose.Tasks لـ .NET باستخدام هذا البرنامج التعليمي الشامل. إتقان استخدام فئة `NullableBool` وتعزيز تطوير .NET الخاص بك.
-type: docs
 weight: 21
 url: /ar/net/advanced-concepts/nullable-booleans/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع القيم المنطقية Nullable في Aspose.Tasks
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في العمل مع القيم المنطقية الخالية في Aspose.Tasks لـ .NET. توفر القيم المنطقية الخالية المرونة في تمثيل القيم المنطقية، مما يسمح بإمكانية كونها غير محددة. سوف نستكشف كيفية استخدام`NullableBool` الطبقة ومنشئاتها وخصائصها وأساليبها.
@@ -153,3 +159,9 @@ A3: تتم مقارنة القيم المنطقية الخالية استناد�
 ### س5: أين يمكنني العثور على مزيد من الوثائق حول Aspose.Tasks لـ .NET؟
 
  ج5: يمكنك العثور على وثائق مفصلة[هنا](https://reference.aspose.com/tasks/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Properti Tugas
 linktitle: Properti Tugas
 second_title: Aspose.Tugas Java API
 description: Tingkatkan manajemen proyek Java dengan Aspose.Tasks. Jelajahi tutorial tentang properti tugas, mulai dari penanganan prioritas hingga pengelolaan biaya. Optimalkan proyek Anda hari ini!
-type: docs
 weight: 34
 url: /id/java/task-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Tugas
+
 ## Perkenalan
 
 Kelola dan sesuaikan file Microsoft Project dengan mudah di Java dengan Aspose.Tasks. Jelajahi tutorial yang mencakup berbagai aspek properti tugas untuk meningkatkan kemampuan manajemen proyek Anda.
@@ -138,3 +144,9 @@ Jelajahi Aspose.Tasks untuk Java dan kuasai manajemen data bertahap tugas. Unduh
 Pelajari cara memperbarui data tugas ke format MPP menggunakan Aspose.Tasks untuk Java. Ikuti panduan langkah demi langkah kami untuk manajemen proyek yang efisien.
 ### [WBS Terkait dengan Tugas di Aspose.Tasks](./wbs-associated-with-task/)
 Kuasai WBS dengan Aspose.Tasks untuk Java - Belajar membaca dan memberi nomor ulang kode WBS tugas. Tingkatkan efisiensi manajemen proyek!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pare e retome a tarefa em Aspose.Tasks
 linktitle: Pare e retome a tarefa em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Explore o poder do Aspose.Tasks for Java com nosso guia passo a passo sobre como interromper e retomar tarefas. Aprimore o gerenciamento de projetos perfeitamente!
-type: docs
 weight: 30
 url: /pt/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pare e retome a tarefa em Aspose.Tasks
+
 ## Introdução
 No domínio do desenvolvimento Java, o gerenciamento eficiente de tarefas é um aspecto crucial da execução do projeto. Aspose.Tasks for Java fornece uma solução robusta para lidar com tarefas com seus recursos poderosos. Neste tutorial, nos aprofundaremos em uma funcionalidade específica – interromper e retomar tarefas. Seguindo este guia passo a passo, você poderá integrar perfeitamente esse recurso em seus projetos Java.
 ## Pré-requisitos
@@ -69,3 +75,9 @@ Sim, o exemplo fornecido permite flexibilidade na definição da data mínima de
  Sim, você pode acessar o[teste grátis](https://releases.aspose.com/) para explorar os recursos antes de fazer uma compra.
 ### Como posso obter uma licença temporária para Aspose.Tasks for Java?
  Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

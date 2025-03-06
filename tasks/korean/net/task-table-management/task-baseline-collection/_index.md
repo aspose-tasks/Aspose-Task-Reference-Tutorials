@@ -3,10 +3,16 @@ title: Aspose.Tasks의 작업 기준선 수집
 linktitle: Aspose.Tasks의 작업 기준선 수집
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 작업 기준선을 쉽게 탐색하세요. 효율적인 프로젝트 관리가 간편해졌습니다. 지금 다운로드하세요! #Aspose.Tasks #MS 프로젝트
-type: docs
 weight: 17
 url: /ko/net/task-table-management/task-baseline-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks의 작업 기준선 수집
+
 ## 소개
 프로젝트 작업의 원활한 조작 및 관리를 용이하게 하는 강력한 라이브러리인 Aspose.Tasks for .NET의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 프로젝트 계획 및 추적의 중요한 측면인 작업 기준선의 놀라운 영역을 자세히 살펴보겠습니다. 이 가이드를 마치면 작업 기준 컬렉션 작업 기술을 숙지하여 프로젝트 관리 기능을 향상시킬 수 있습니다.
 ## 전제조건
@@ -68,3 +74,9 @@ A: Aspose.Tasks for .NET은 작업 수에 엄격한 제한을 두지 않아 다�
 답: 물론이죠! 기본 세부 사항을 인쇄할 때 형식을 완벽하게 제어할 수 있으므로 특정 요구 사항에 맞게 조정할 수 있습니다.
 ### Q: 문제가 발생하거나 추가 질문이 있는 경우 어디서 도움을 받을 수 있나요?
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 전담 지원 및 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

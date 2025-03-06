@@ -3,10 +3,16 @@ title: Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
 linktitle: Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Tasks für .NET benutzerdefinierte Spalten für die Aufgabenansicht hinzufügen, um die Projektmanagementfunktionen zu verbessern.
-type: docs
 weight: 16
 url: /de/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET benutzerdefinierte Spalten für Aufgabenansichten hinzufügen. Benutzerdefinierte Spalten bieten Flexibilität und ermöglichen Ihnen die Anzeige zusätzlicher Informationen, die für Ihre Projektmanagementanforderungen relevant sind.
@@ -116,3 +122,9 @@ A3: Ja, Sie können das Erscheinungsbild benutzerdefinierter Spalten anpassen, i
 ### F5: Unterstützt Aspose.Tasks den Export von Projekten in andere Formate als Tabellenkalkulationen mit benutzerdefinierten Spalten?
 
 A5: Ja, Aspose.Tasks unterstützt den Export von Projekten in verschiedene Formate wie PDF, HTML und XML und ermöglicht so vielseitige Projektberichtsoptionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

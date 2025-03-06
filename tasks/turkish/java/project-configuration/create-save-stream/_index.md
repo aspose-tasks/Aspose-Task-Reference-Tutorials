@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Boş Proje Oluşturun ve Akışa Kaydedin
 linktitle: Aspose.Tasks'ta Boş Proje Oluşturun ve Akışa Kaydedin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks ile boş MS Project dosyalarını oluşturmayı ve Java'daki bir akışa kaydetmeyi öğrenin, proje yönetimi görevlerini zahmetsizce basitleştirin.
-type: docs
 weight: 13
 url: /tr/java/project-configuration/create-save-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Boş Proje Oluşturun ve Akışa Kaydedin
+
 ## giriiş
 Bu eğitimde, boş bir MS Projesi oluşturmak ve bir akışa kaydetmek için Aspose.Tasks for Java'yı nasıl kullanabileceğimizi keşfedeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project'in makineye kurulmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java API'sidir. Bu kılavuzu takip ederek Aspose.Tasks'ı kullanarak boş bir MS Project dosyası oluşturup kaydetmek için gerekli adımları öğreneceksiniz.
 ## Önkoşullar
@@ -69,3 +75,9 @@ Evet, Aspose.Tasks .NET, C dahil birden fazla programlama dilini destekler++ve J
  Topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks için geçici lisans satın alabilir miyim?
  Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

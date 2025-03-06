@@ -3,10 +3,16 @@ title: Handling Memory Exception with Aspose.Tasks Layout Builder
 linktitle: Handling Memory Exception with Aspose.Tasks Layout Builder
 second_title: Aspose.Tasks .NET API
 description: Learn how to handle memory exceptions in .NET using Aspose.Tasks Layout Builder efficiently. Step-by-step guide with code examples.
-type: docs
 weight: 12
 url: /net/advanced-features/layout-builder-out-of-memory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Handling Memory Exception with Aspose.Tasks Layout Builder
+
 ## Introduction
 
 Handling memory exceptions is crucial for ensuring the smooth functioning of any software application. When working with Aspose.Tasks for .NET, developers often encounter memory-related issues, particularly when dealing with large projects or complex layouts. In this tutorial, we'll explore how to effectively handle memory exceptions using Aspose.Tasks Layout Builder.
@@ -112,3 +118,10 @@ A4: Absolutely! Aspose.Tasks provides extensive capabilities to customize the ap
 ### Q5: Where can I find more help and support for Aspose.Tasks?
 
 A5: You can find more help and support, as well as engage with the community, on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

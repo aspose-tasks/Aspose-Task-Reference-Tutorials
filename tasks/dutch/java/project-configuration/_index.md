@@ -3,10 +3,16 @@ title: Projectconfiguratie
 linktitle: Projectconfiguratie
 second_title: Aspose.Tasks Java-API
 description: Ontdek de kracht van Aspose.Tasks voor Java met onze uitgebreide tutorials. Configureer Gantt-diagrammen, maak MS Project-bestanden en stroomlijn projectbeheer.
-type: docs
 weight: 26
 url: /nl/java/project-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projectconfiguratie
+
 ## Invoering
 
 Bent u klaar om het volledige potentieel van Aspose.Tasks voor Java te ontsluiten? Duik in onze gedetailleerde tutorials om de projectconfiguratie onder de knie te krijgen met behulp van deze krachtige tool. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, onze stapsgewijze handleidingen stellen u in staat de mogelijkheden van Aspose.Tasks naadloos te benutten.
@@ -45,3 +51,9 @@ Leer hoe u lege Microsoft Project-bestanden in Java maakt met Aspose.Tasks. Eenv
 Leer hoe u een leeg MS Project-bestand (MPP) kunt maken en opslaan met Aspose.Tasks voor Java. Vereenvoudig projectbeheertaken moeiteloos.
 ### [Maak en bewaar een leeg project om te streamen in Aspose.Tasks](./create-save-stream/)
 Leer lege MS Project-bestanden maken en opslaan in een stream in Java met Aspose.Tasks, waardoor projectbeheertaken moeiteloos worden vereenvoudigd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

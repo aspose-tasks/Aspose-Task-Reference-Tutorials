@@ -3,10 +3,16 @@ title: Модуль Aspose.Tasks VBA и обработка ссылок
 linktitle: Модуль Aspose.Tasks VBA и обработка ссылок
 second_title: Aspose.Tasks .NET API
 description: Готовы ли вы расширить свои возможности управления проектами с помощью Aspose.Tasks .NET? Погрузитесь в наши подробные руководства по модулям VBA и обработке ссылок.
-type: docs
 weight: 31
 url: /ru/net/vba-module-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Модуль Aspose.Tasks VBA и обработка ссылок
+
 
 ## Управление модулями VBA в Aspose.Tasks
 
@@ -40,3 +46,9 @@ url: /ru/net/vba-module-reference/
 Исследуйте возможности Aspose.Tasks for .NET для простого управления проектами VBA. Расширьте свои возможности управления проектами с помощью этого пошагового руководства.
 ### [Обработка ссылок VBA в Aspose.Tasks](./vba-references/)
 Изучите возможности обработки ссылок VBA в Aspose.Tasks .NET с помощью нашего подробного руководства. Научитесь легко читать, сравнивать и работать с ссылками VBA.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dividir la fecha de finalización de la tarea en Aspose.Tasks
 linktitle: Dividir la fecha de finalización de la tarea en Aspose.Tasks
 second_title: Aspose.Tasks API de Java
 description: Aprenda a dividir las fechas de finalización de las tareas sin esfuerzo utilizando Aspose.Tasks para Java. Mejore la gestión de proyectos con cronogramas precisos.
-type: docs
 weight: 28
 url: /es/java/task-properties/split-task-finish-date/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividir la fecha de finalización de la tarea en Aspose.Tasks
+
 ## Introducción
 En la gestión de proyectos, comprender los cronogramas de las tareas es crucial para completar exitosamente el proyecto. Aspose.Tasks para Java proporciona potentes funciones para manipular las tareas del proyecto de manera eficiente. En este tutorial, profundizaremos en cómo dividir las fechas de finalización de las tareas utilizando Aspose.Tasks, lo que le ayudará a gestionar los cronogramas del proyecto de forma eficaz.
 ## Requisitos previos
@@ -54,3 +60,9 @@ Dominar el arte de manipular las fechas de finalización de las tareas es fundam
  A4: Visita el foro de soporte[aquí](https://forum.aspose.com/c/tasks/15).
 ### P5: ¿Puedo comprar Aspose.Tasks?
  A5: Sí, puedes comprarlo[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

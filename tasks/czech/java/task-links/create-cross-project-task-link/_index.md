@@ -3,10 +3,16 @@ title: Vytvořte propojení úloh mezi projekty v Aspose.Tasks
 linktitle: Vytvořte propojení úloh mezi projekty v Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Vylepšete spolupráci na projektech s Aspose.Tasks for Java. Naučte se krok za krokem vytvářet odkazy na úkoly napříč projekty. Zvyšte efektivitu nyní!
-type: docs
 weight: 10
 url: /cs/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte propojení úloh mezi projekty v Aspose.Tasks
+
 ## Úvod
 dynamickém světě projektového řízení jsou efektivita a spolupráce prvořadé. Aspose.Tasks for Java poskytuje robustní řešení pro rozšíření možností řízení projektů. V tomto tutoriálu se ponoříme do procesu vytváření propojení úloh mezi projekty pomocí Aspose.Tasks for Java. Tento podrobný průvodce vás vybaví dovednostmi pro bezproblémové propojování úkolů napříč různými projekty, čímž podpoří lepší koordinaci a zefektivní pracovní postupy.
 ## Předpoklady
@@ -78,3 +84,9 @@ Ano, Aspose.Tasks for Java podporuje propojení úkolů mezi projekty v různýc
 Ano, můžete odpojit úkoly odstraněním odkazu na úkol pomocí příslušných metod Aspose.Tasks.
 ### Existují nějaká omezení ohledně počtu úkolů, které lze propojit napříč projekty?
 Počet úloh, které lze propojit, závisí na možnostech a omezeních vaší licence Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Tasks में टेबल फ़ील्
 linktitle: Aspose.Tasks में टेबल फ़ील्ड्स का संग्रह
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ परियोजना प्रबंधन की गतिशील दुनिया का अन्वेषण करें। अनुकूलित प्रोजेक्ट अनुभव के लिए तालिका फ़ील्ड संग्रह में हेरफेर करना सीखें।
-type: docs
 weight: 13
 url: /hi/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Tasks में टेबल फ़ील्ड संग्रह में महारत हासिल करना
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली लाइब्रेरी है जो Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने के लिए व्यापक कार्यक्षमता प्रदान करके प्रोजेक्ट प्रबंधन की सुविधा प्रदान करती है। इस ट्यूटोरियल में, हम Aspose.Tasks में टेबल फ़ील्ड्स के संग्रह में गहराई से उतरेंगे, C# का उपयोग करके कुशलतापूर्वक उनमें हेरफेर और प्रबंधन करने का तरीका खोजेंगे।
 ## आवश्यक शर्तें
@@ -111,3 +117,9 @@ else
  दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15)समर्थन प्राप्त करने, प्रश्न पूछने और समुदाय के साथ सहयोग करने के लिए।
 ### क्या .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण उपलब्ध है?
  हाँ, आप नि:शुल्क परीक्षण के साथ .NET के लिए Aspose.Tasks की सुविधाओं का पता लगा सकते हैं। इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

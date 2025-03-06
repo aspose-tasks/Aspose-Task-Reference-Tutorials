@@ -3,10 +3,16 @@ title: Atur Properti Sumber Daya di Aspose.Tasks
 linktitle: Atur Properti Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengatur properti sumber daya MS Project di Java menggunakan Aspose.Tasks untuk integrasi yang lancar dan manajemen tugas yang efisien.
-type: docs
 weight: 20
 url: /id/java/resource-management/set-resource-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Properti Sumber Daya di Aspose.Tasks
+
 ## Perkenalan
 Dalam bidang pengembangan Java, mengelola tugas secara efisien merupakan aspek penting dalam manajemen proyek. Aspose.Tasks untuk Java memberikan solusi tangguh bagi pengembang untuk berinteraksi dengan file Microsoft Project, memungkinkan integrasi fungsi manajemen tugas ke dalam aplikasi Java dengan lancar. Dalam tutorial ini, kita akan mempelajari pengaturan properti sumber daya MS Project menggunakan Aspose.Tasks untuk Java. Di akhir panduan ini, Anda akan memiliki pemahaman komprehensif tentang cara memanipulasi properti sumber daya dalam proyek Java Anda.
 ## Prasyarat
@@ -63,3 +69,9 @@ Ya, Aspose.Tasks untuk Java mampu menangani berbagai format file MS Project, ter
  Anda dapat memperoleh lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
 ### Di mana saya dapat membeli versi berlisensi Aspose.Tasks untuk Java?
  Anda dapat membeli versi berlisensi Aspose.Tasks untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

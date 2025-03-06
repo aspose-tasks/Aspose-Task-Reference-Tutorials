@@ -3,10 +3,16 @@ title: Dauerbehandlung in Aspose.Tasks
 linktitle: Dauerbehandlung in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie anhand von Schritt-für-Schritt-Anleitungen, wie Sie Dauern in Aspose.Tasks für .NET effektiv handhaben.
-type: docs
 weight: 30
 url: /de/net/calendar-scheduling/duration-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dauerbehandlung in Aspose.Tasks
+
 ## Einführung
 
 Der effektive Umgang mit Dauer ist in Projektmanagementanwendungen von entscheidender Bedeutung. Aspose.Tasks für .NET bietet robuste Funktionen für die effiziente Verwaltung von Dauern. In diesem Tutorial untersuchen wir verschiedene Aspekte der Dauerbehandlung mit Aspose.Tasks für .NET.
@@ -156,3 +162,9 @@ A4: Ja, Aspose.Tasks unterstützt das Lesen und Schreiben von Microsoft Project-
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
 A5: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET unter erhalten[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

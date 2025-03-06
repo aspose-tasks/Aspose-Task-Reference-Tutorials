@@ -3,10 +3,16 @@ title: Aspose.Tasks를 사용한 효율적인 데이터 필터링
 linktitle: Aspose.Tasks에서 데이터 필터링
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일의 데이터를 필터링하는 방법을 알아보세요. 손쉽게 생산성과 분석 기능을 향상하세요.
-type: docs
 weight: 16
 url: /ko/net/tasks-project-management/filtering-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks를 사용한 효율적인 데이터 필터링
+
 ## 소개
 Aspose.Tasks for .NET은 Microsoft Project 파일의 데이터를 필터링하는 강력한 기능을 제공하여 사용자가 프로젝트 정보를 효율적으로 관리하고 분석할 수 있도록 합니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 데이터를 필터링하는 방법을 단계별 가이드 형식으로 살펴보겠습니다.
 ## 전제조건
@@ -78,3 +84,9 @@ A: 물론 여러 필터를 결합하여 Aspose.Tasks에서 데이터 추출 및 
  A: 그렇습니다, 당신은 포괄적인 내용을 참조할 수 있습니다[선적 서류 비치](https://reference.aspose.com/tasks/net/) 자세한 안내는 Aspose.Tasks에서 제공됩니다.
 ### Q: Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
  A: 예, 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 귀하가 직면하는 모든 질문이나 문제에 대해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

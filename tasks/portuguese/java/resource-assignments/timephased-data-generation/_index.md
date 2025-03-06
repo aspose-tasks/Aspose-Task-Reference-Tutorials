@@ -3,10 +3,16 @@ title: Gere dados em fases em Aspose.Tasks
 linktitle: Gere dados em fases para atribuições de recursos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprenda como gerar dados em fases para atribuições de recursos usando Aspose.Tasks for Java. Melhore a eficiência do gerenciamento de projetos com este guia completo.
-type: docs
 weight: 24
 url: /pt/java/resource-assignments/timephased-data-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gere dados em fases em Aspose.Tasks
+
 ## Introdução
 Neste tutorial, percorreremos o processo de geração de dados em fases para atribuições de recursos usando Aspose.Tasks for Java. Os dados faseados no tempo fornecem informações valiosas sobre como os recursos são alocados ao longo do tempo dentro de um projeto, ajudando os gerentes de projeto a tomar decisões informadas.
 ## Pré-requisitos
@@ -124,3 +130,9 @@ Sim, Aspose.Tasks oferece suporte a vários formatos de arquivo de projeto, incl
 Sim, Aspose.Tasks permite aos usuários definir contornos de trabalho personalizados para atender às necessidades específicas do projeto.
 ### Existe um fórum da comunidade onde posso obter ajuda com o Aspose.Tasks?
  Sim, você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

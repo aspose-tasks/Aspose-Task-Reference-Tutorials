@@ -3,10 +3,16 @@ title: احفظ MS Project بتنسيق HTML باستخدام Aspose.Tasks
 linktitle: خيارات حفظ HTML لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ ملفات Microsoft Project بتنسيق HTML باستخدام Aspose.Tasks لـ .NET. قم بتحويل بيانات المشروع دون عناء باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/saving-options/html-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ MS Project بتنسيق HTML باستخدام Aspose.Tasks
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي حول حفظ ملفات Microsoft Project بتنسيق HTML باستخدام Aspose.Tasks لـ .NET! Aspose.Tasks هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات Microsoft Project برمجياً. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Tasks لحفظ بيانات المشروع بتنسيق HTML، مع توفير إرشادات خطوة بخطوة على طول الطريق.
 ## المتطلبات الأساسية
@@ -57,3 +63,9 @@ project.Save("OutputFilePath.html", options);
 ج: بالتأكيد، يمكنك استخراج وتضمين صفحات أو أقسام محددة من مشروعك بناءً على متطلباتك.
 ### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
 ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لاستكشاف ميزاته قبل إجراء عملية شراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

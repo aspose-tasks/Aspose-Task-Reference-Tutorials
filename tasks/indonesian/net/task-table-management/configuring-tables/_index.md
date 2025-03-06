@@ -3,10 +3,16 @@ title: Konfigurasi Tabel Master di Aspose.Tasks untuk .NET
 linktitle: Mengonfigurasi Tabel di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tabel di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan pengalaman manajemen proyek Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/task-table-management/configuring-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi Tabel Master di Aspose.Tasks untuk .NET
+
 ## Perkenalan
 Selamat datang di panduan komprehensif tentang mengonfigurasi tabel di Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengonfigurasi tabel menggunakan Aspose.Tasks, menguraikan setiap langkah untuk pemahaman yang jelas.
 ## Prasyarat
@@ -68,3 +74,9 @@ Selamat! Anda telah berhasil mengonfigurasi tabel di Aspose.Tasks untuk .NET. Tu
  A: Ya, Anda dapat menjelajahi versi uji coba gratisnya[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya dapat membeli Aspose.Tasks?
  A: Anda dapat membeli lisensi penuhnya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

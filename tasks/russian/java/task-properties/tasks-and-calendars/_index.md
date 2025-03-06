@@ -3,10 +3,16 @@ title: Задачи и календари в Aspose.Tasks
 linktitle: Задачи и календари в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Исследуйте возможности Aspose.Tasks for Java для эффективного управления задачами и календарями. Загрузите сейчас и получите беспрепятственный опыт управления проектами!
-type: docs
 weight: 33
 url: /ru/java/task-properties/tasks-and-calendars/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Задачи и календари в Aspose.Tasks
+
 ## Введение
 Готовы ли вы улучшить свою игру в управлении проектами с помощью Aspose.Tasks для Java? Это подробное руководство проведет вас через сложный мир задач и календарей с использованием Aspose.Tasks, позволяя вам использовать весь его потенциал для эффективного планирования и выполнения проектов.
 ## Предварительные условия
@@ -55,3 +61,9 @@ tsk.set(Tsk.CALENDAR, cal);
  Присоединяйтесь к сообществу по адресу[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки.
 ### Могу ли я приобрести лицензию на Aspose.Tasks?
  Да, вы можете купить лицензию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering MS Project View Columns with Aspose.Tasks for .NET
 linktitle: Handling View Columns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Enhance project visualization with Aspose.Tasks for .NET. Learn to handle MS Project view columns step-by-step. Boost efficiency and customization.
-type: docs
 weight: 12
 url: /net/view-wbs-code-configuration/view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering MS Project View Columns with Aspose.Tasks for .NET
+
 ## Introduction
 In the realm of project management, Aspose.Tasks for .NET stands out as a powerful toolkit for handling Microsoft Project files. One of the essential aspects of project visualization is managing view columns efficiently. In this tutorial, we'll explore how to handle MS Project view columns using Aspose.Tasks, empowering you to customize and optimize your project views.
 ## Prerequisites
@@ -80,3 +86,9 @@ A: Yes, you can download a free trial version from [here](https://releases.aspos
 A: The `MyTextStyleCallback` class demonstrates how to customize text styles for improved visual representation in specific views.
 ### Q: Where can I find additional resources and documentation for Aspose.Tasks?
 A: Refer to the [Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/) for in-depth guidance and resources.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks で会計年度プロパティを管理する
 linktitle: Aspose.Tasks で会計年度プロパティを管理する
 second_title: Aspose.Tasks Java API
 description: Aspose.Tasks for Java を使用して会計年度プロパティを効率的に管理する方法を学びます。例が示されたステップバイステップのガイド。
-type: docs
 weight: 15
 url: /ja/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks で会計年度プロパティを管理する
+
 ## 導入
 Aspose.Tasks は、開発者が会計年度プロパティの処理など、プロジェクト ファイルを効率的に管理できるようにする強力な Java ライブラリです。このチュートリアルでは、Java で Aspose.Tasks を使用して会計年度プロパティを管理するプロセスを説明します。
 ## 前提条件
@@ -66,3 +72,9 @@ A: はい、Aspose.Tasks は MPP、XML などを含む幅広いプロジェク�
  A: はい、Aspose.Tasks の無料試用版には次のサイトからアクセスできます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for Java のライセンスはどこで購入できますか?
  A: Aspose.Tasks for Java のライセンスは、以下から購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

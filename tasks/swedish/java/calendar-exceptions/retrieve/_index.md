@@ -3,10 +3,16 @@ title: Hämta kalenderundantag med Aspose.Tasks
 linktitle: Hämta kalenderundantag med Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Lär dig hur du hämtar kalenderundantag från MS Project med Aspose.Tasks för Java. Steg-för-steg handledning för sömlös integration.
-type: docs
 weight: 13
 url: /sv/java/calendar-exceptions/retrieve/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta kalenderundantag med Aspose.Tasks
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man hämtar kalenderundantag från MS Project med hjälp av Aspose.Tasks-biblioteket för Java. Aspose.Tasks är ett kraftfullt verktyg som låter utvecklare manipulera Microsoft Project-filer programmatiskt. Vi guidar dig genom processen steg för steg och delar upp varje exempel i flera steg för enkel förståelse.
 ## Förutsättningar
@@ -55,3 +61,9 @@ Ja, Aspose.Tasks stöder olika versioner av MS Project-filer, inklusive MPP-, MP
  Du kan få stöd från gemenskapsforumet[här](https://forum.aspose.com/c/tasks/15).
 ### Finns det ett alternativ för tillfälliga licenser för Aspose.Tasks?
  Ja, du kan få tillfälliga licenser från[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

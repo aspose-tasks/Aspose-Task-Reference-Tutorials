@@ -3,10 +3,16 @@ title: Opsi Format File Aspose.Tasks
 linktitle: Opsi Format File Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi opsi format file Aspose.Tasks dan kuasai konfigurasi opsi XAML & XLSX di Aspose.Tasks .NET. Tingkatkan manajemen proyek dengan tips penyesuaian.
-type: docs
 weight: 34
 url: /id/net/file-format-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Format File Aspose.Tasks
+
 
 ## Perkenalan
 
@@ -27,3 +33,9 @@ Kesimpulannya, tutorial opsi format file Aspose.Tasks kami memberikan panduan ya
 Pelajari cara mengonfigurasi opsi MS Project XAML di Aspose.Tasks untuk .NET. Tingkatkan fleksibilitas dan penyesuaian manajemen proyek dengan panduan langkah demi langkah.
 ### [Mengonfigurasi Opsi XLSX di Aspose.Tasks](./configuring-xlsx-options/)
 Pelajari cara mengonfigurasi opsi MS Project XLSX di Aspose.Tasks untuk .NET. Sesuaikan kolom, pengkodean, dan lainnya dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

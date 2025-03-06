@@ -3,10 +3,16 @@ title: MS Project Outline Code Handling Definice v Aspose.Tasks
 linktitle: Manipulace s definicemi kódu osnovy v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak zacházet s definicemi kódu osnovy MS Project pomocí Aspose.Tasks pro .NET, čímž posílíte své aplikace pro řízení projektů.
-type: docs
 weight: 12
 url: /cs/net/outline-code-page-settings/outline-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Outline Code Handling Definice v Aspose.Tasks
+
 ## Úvod
 Microsoft Project je výkonný nástroj pro správu projektů a Aspose.Tasks for .NET poskytuje komplexní podporu pro programovou manipulaci se soubory projektů. Jedním ze základních aspektů projektového řízení je organizování úkolů pomocí osnovy kódů. V tomto tutoriálu prozkoumáme, jak zacházet s definicemi osnovy kódu MS Project pomocí Aspose.Tasks pro .NET.
 ## Předpoklady
@@ -91,3 +97,9 @@ Odpověď: Ano, Aspose.Tasks for .NET poskytuje rozsáhlé funkce pro manipulaci
 Odpověď: Aspose.Tasks for .NET samozřejmě podporuje čtení a zápis vlastních polí, včetně obrysových kódů, ze souborů MS Project.
 ### Q5: Existuje komunitní fórum pro Aspose.Tasks pro .NET?
  Odpověď: Ano, můžete se připojit ke komunitnímu fóru pro Aspose.Tasks pro .NET[tady](https://forum.aspose.com/c/tasks/15) klást otázky, sdílet znalosti a spolupracovat s ostatními vývojáři.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

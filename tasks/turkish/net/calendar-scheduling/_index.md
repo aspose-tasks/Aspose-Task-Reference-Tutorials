@@ -3,10 +3,16 @@ title: Aspose.Tasks Takvimi ve Planlama
 linktitle: Aspose.Tasks Takvimi ve Planlama
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile proje takvimlerini yönetin, süreleri hesaplayın ve istisnaları yönetin. Takvim ve planlama görevleri için adım adım eğitimleri keşfedin.
-type: docs
 weight: 22
 url: /tr/net/calendar-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Takvimi ve Planlama
+
 ## giriiş
 
 .NET projelerinizde takvim yönetimi ve planlamanın inceliklerini öğrenmek için başvurulacak kaynağınız olan Aspose.Tasks for .NET eğitimlerinin dünyasına hoş geldiniz. Aspose.Tasks, geliştiricilere proje takvimlerini zahmetsizce yönetme, süreleri hesaplama ve istisnaları yönetme konusunda güçlü araçlar sağlar. Bu kapsamlı eğitim koleksiyonunda, takvimlerle çalışmaktan ve istisnaları yönetmekten, bileşik belge başlığı istisnaları ve para birimi simgesi konumları gibi özel konuları keşfetmeye kadar çeşitli konuları ele alıyoruz. İster gelişmiş bilgiler arayan deneyimli bir geliştirici olun, ister proje yönetimi becerilerinizi geliştirmek isteyen yeni başlayan biri olun, bu eğitimler adım adım rehberlik ve gerçek dünyadan örnekler sağlar. Aspose.Tasks for .NET'in tüm potansiyelini ortaya çıkarmak ve proje yönetimi becerilerinizi geliştirmek için bir yolculuğa çıkalım. Dalmaya hazır mısınız? Başlayalım!
@@ -135,3 +141,9 @@ Aspose.Tasks for .NET'te gün türü koleksiyonlarını verimli bir şekilde nas
 Aspose.Tasks for .NET'i kullanarak Primavera veritabanından projeleri nasıl içe aktaracağınızı öğrenin. Bu kapsamlı eğitimde adım adım rehberlik alın.
 ### [Aspose.Tasks'ta Süre İşleme](./duration-handling/)
 Adım adım eğitimlerle Aspose.Tasks for .NET'te süreleri etkili bir şekilde nasıl yöneteceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks Konfiguracja czasu i wzorce powtarzania
 linktitle: Aspose.Tasks Konfiguracja czasu i wzorce powtarzania
 second_title: Aspose.Tasks .NET API
 description: Zapoznaj się z samouczkami Aspose.Tasks for .NET dotyczącymi konfiguracji czasu i wzorców powtarzania. Z łatwością zarządzaj kalendarzami, dostosowuj czas pracy i optymalizuj harmonogram projektów.
-type: docs
 weight: 33
 url: /pl/net/time-recurrence-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Konfiguracja czasu i wzorce powtarzania
+
 ## Wstęp
 
 Witamy w świecie Aspose.Tasks dla .NET, gdzie efektywne zarządzanie projektami łączy się z mocą dostosowywalnych konfiguracji czasu i wzorców powtarzania. W tym obszernym przewodniku zagłębimy się w różne samouczki, które pozwolą Ci opanować sztukę planowania projektów i zarządzania zasobami.
@@ -58,3 +64,9 @@ Dowiedz się, jak bez wysiłku konfigurować tygodnie pracy w Aspose.Tasks dla .
 Dowiedz się, jak dostosować tygodnie pracy w Aspose.Tasks dla .NET. Przewodnik krok po kroku dotyczący tworzenia spersonalizowanych kalendarzy projektów. Pobierz teraz!
 ### [Konfigurowanie rocznych wzorców powtarzania w Aspose.Tasks](./yearly-recurrence-patterns/)
 Dowiedz się, jak skonfigurować roczne wzorce powtarzania w Aspose.Tasks dla .NET. Popraw swoje umiejętności zarządzania projektami dzięki temu przewodnikowi krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

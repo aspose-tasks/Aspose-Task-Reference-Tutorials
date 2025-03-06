@@ -3,10 +3,16 @@ title: Szövegelem-típus testreszabási útmutató az Aspose.Tasks-ban
 linktitle: Szövegelem-típusok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: A szövegelemek típusának testreszabása az Aspose.Tasks programban .NET-hez ezzel a lépésenkénti útmutatóval. Emelje fel a projektmenedzsment játékot könnyedén.
-type: docs
 weight: 10
 url: /hu/net/text-view-configuration/text-item-types/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegelem-típus testreszabási útmutató az Aspose.Tasks-ban
+
 ## Bevezetés
 Ha Ön .NET fejlesztő, aki az Aspose.Tasks használatával merül fel a projektmenedzsmentben, akkor jó helyen jár! Ebben a lépésről-lépésre szóló útmutatóban az Aspose.Tasks szövegelem-típusok kezelésének finomságait fedezzük fel, a nagy teljesítményű .NET-könyvtár segítségével történő testreszabásra összpontosítva.
 ## Előfeltételek
@@ -74,3 +80,9 @@ Gratulálunk! Most megkarcolta a szövegelemtípusok kezelésének felületét a
 V: Fedezzen fel további oktatóanyagokat az Aspose.Tasks dokumentációban.
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?
  V: Vásárolja meg a könyvtárat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

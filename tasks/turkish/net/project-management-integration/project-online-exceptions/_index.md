@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Project Çevrimiçi İstisnalarını Yönetme
 linktitle: Aspose.Tasks'ta Project Online İstisnalarıyla Çalışmak
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET ile Microsoft Project Online istisnalarını sorunsuz bir şekilde nasıl ele alacağınızı öğrenin. Etkili proje yönetimi için adım adım eğitim.
-type: docs
 weight: 21
 url: /tr/net/project-management-integration/project-online-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Project Çevrimiçi İstisnalarını Yönetme
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Microsoft Project Online istisnalarını yönetmenin inceliklerini inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını kolaylıkla değiştirmesine ve yönetmesine olanak tanıyan güçlü bir .NET API'sidir. .NET uygulamalarınızdaki MS Project Online istisnalarıyla nasıl çalışılacağının kapsamlı bir şekilde anlaşılmasını sağlayarak süreci adım adım inceleyeceğiz.
 ## Önkoşullar
@@ -74,3 +80,9 @@ C: Evet, Aspose.Tasks, Microsoft Project, Primavera ve daha fazlası dahil olmak
 C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks lisansını nasıl satın alabilirim?
  C: Aspose.Tasks için lisansı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

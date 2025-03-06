@@ -3,10 +3,16 @@ title: Maîtriser les vues d'utilisation des tâches dans Aspose.Tasks pour .NET
 linktitle: Configuration des vues d'utilisation des tâches dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez Aspose.Tasks pour .NET et découvrez comment configurer les vues d'utilisation des tâches. Personnalisez les paramètres d’échelle de temps et améliorez les visuels de votre gestion de projet.
-type: docs
 weight: 24
 url: /fr/net/task-table-management/task-usage-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les vues d'utilisation des tâches dans Aspose.Tasks pour .NET
+
 ## Introduction
 Dans le domaine de la gestion de projet, la visualisation de l'utilisation des tâches est essentielle pour une planification et une exécution efficaces. Aspose.Tasks for .NET fournit une solution robuste pour le rendu des vues d'utilisation des tâches, vous permettant de personnaliser les paramètres d'échelle de temps et les formats de présentation. Dans ce didacticiel, nous passerons en revue les étapes de configuration des vues d'utilisation des tâches à l'aide d'Aspose.Tasks.
 ## Conditions préalables
@@ -75,3 +81,9 @@ Oui, Aspose.Tasks prend en charge les formats de fichiers de projet populaires t
 Absolument, vous pouvez personnaliser les paramètres d'échelle de temps pour des tâches individuelles au sein de votre projet.
 ### Comment puis-je obtenir de l'aide ou demander de l'aide pour Aspose.Tasks ?
  Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et les conseils de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

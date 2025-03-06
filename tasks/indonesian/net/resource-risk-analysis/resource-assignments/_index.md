@@ -3,10 +3,16 @@ title: Menangani Penugasan Sumber Daya Proyek MS di Aspose.Tasks
 linktitle: Menangani Penugasan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menangani penetapan sumber daya MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Komprehensif ini memberikan panduan langkah demi langkah bagi pengembang.
-type: docs
 weight: 11
 url: /id/net/resource-risk-analysis/resource-assignments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangani Penugasan Sumber Daya Proyek MS di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menangani penetapan sumber daya Microsoft Project secara efisien menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah API canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Dengan mengikuti langkah-langkah ini, Anda akan mempelajari cara mengelola penetapan sumber daya secara efektif dalam aplikasi .NET Anda.
 ## Prasyarat
@@ -73,3 +79,9 @@ Tentu saja, Aspose.Tasks menawarkan opsi penyesuaian yang luas untuk penetapan s
 Ya, Aspose.Tasks memungkinkan mengekspor data proyek ke berbagai format seperti XML, PDF, dan HTML, antara lain.
 ### Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
 Ya, Aspose menyediakan dukungan teknis khusus melalui forumnya dan saluran lainnya untuk membantu pengguna dengan pertanyaan atau masalah apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks में कार्य बेसलाइन अवधि
 linktitle: Aspose.Tasks में कार्य बेसलाइन अवधि प्रबंधन
 second_title: Aspose.Tasks जावा एपीआई
 description: जावा के लिए Aspose.Tasks का उपयोग करके एमएस प्रोजेक्ट में कार्य बेसलाइन को कुशलतापूर्वक प्रबंधित करना सीखें। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करता है।
-type: docs
 weight: 12
 url: /hi/java/task-baselines/task-baseline-duration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य बेसलाइन अवधि प्रबंधन
+
 ## परिचय
 एमएस प्रोजेक्ट में कार्य बेसलाइन प्रबंधित करना परियोजना योजना और ट्रैकिंग के लिए महत्वपूर्ण है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि Java के लिए Aspose.Tasks का उपयोग करके कार्य बेसलाइन अवधि को प्रभावी ढंग से कैसे प्रबंधित किया जाए।
 ## आवश्यक शर्तें
@@ -76,3 +82,9 @@ for (TimephasedData data : baseline.getTimephasedData()) {
 हाँ, Aspose.Tasks परियोजना प्रबंधन के लिए कार्य शेड्यूलिंग, संसाधन आवंटन और गैंट चार्ट निर्माण सहित सुविधाओं की एक विस्तृत श्रृंखला प्रदान करता है।
 ### मुझे Aspose.Tasks के लिए समर्थन कहां मिल सकता है?
  आप Aspose.Tasks के लिए समर्थन पा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15), जहां आप प्रश्न पूछ सकते हैं और अन्य उपयोगकर्ताओं के साथ बातचीत कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

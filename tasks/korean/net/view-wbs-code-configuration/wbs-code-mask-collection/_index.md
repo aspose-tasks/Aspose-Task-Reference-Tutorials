@@ -3,10 +3,16 @@ title: .NET용 Aspose.Tasks로 WBS 코드 마스크 마스터하기
 linktitle: Aspose.Tasks의 WBS 코드 마스크 컬렉션
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks로 프로젝트 관리를 강화하세요. 이 포괄적인 튜토리얼에서 WBS 코드 마스크를 손쉽게 생성, 관리 및 전송하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Tasks로 WBS 코드 마스크 마스터하기
+
 ## 소개
 역동적인 프로젝트 관리 세계에서는 작업을 효율적으로 구성하는 것이 중요합니다. Aspose.Tasks for .NET은 프로젝트 작업분류체계(WBS) 코드를 쉽게 관리할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 WBS 코드 마스크 컬렉션을 자세히 살펴보고 .NET용 Aspose.Tasks를 사용하여 이를 구현하고 조작하는 방법을 탐구합니다.
 ## 전제조건
@@ -139,3 +145,9 @@ A: Aspose.Tasks는 주로 .NET 언어를 지원하지만 다른 언어와의 상
 A: WBS 코드는 프로젝트 작업을 계층적으로 구성하고 구조화하여 프로젝트 계획에 대한 체계적인 접근 방식을 제공합니다.
 ### Q: .NET용 Aspose.Tasks에서 WBS 코드 형식을 사용자 정의할 수 있나요?
 A: 물론 .NET용 Aspose.Tasks를 사용하여 WBS 코드의 형식과 구조를 완전히 제어할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

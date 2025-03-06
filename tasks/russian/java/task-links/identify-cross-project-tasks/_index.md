@@ -3,10 +3,16 @@ title: Определите межпроектные задачи в Aspose.Task
 linktitle: Определите межпроектные задачи в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Изучите идентификацию межпроектных задач с помощью Aspose.Tasks для Java. Бесшовная интеграция и эффективное управление. Скачать сейчас!
-type: docs
 weight: 14
 url: /ru/java/task-links/identify-cross-project-tasks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определите межпроектные задачи в Aspose.Tasks
+
 ## Введение
 Добро пожаловать в наше подробное руководство по эффективному определению межпроектных задач с помощью Aspose.Tasks для Java. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это руководство проведет вас через процесс плавной интеграции этой функции в ваши проекты Java.
 ## Предварительные условия
@@ -60,3 +66,9 @@ System.out.println(externalTask.get(Tsk.EXTERNAL_ID).toString());
  О: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Нужна помощь или есть конкретные вопросы?
 О: Посетите форум поддержки Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

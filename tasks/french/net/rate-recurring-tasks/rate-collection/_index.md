@@ -3,10 +3,16 @@ title: Maîtrisez les tarifs MS Project avec Aspose.Tasks
 linktitle: Collecte des tarifs dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment gérer les tarifs dans les fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. Tutoriel étape par étape pour une gestion efficace des ressources.
-type: docs
 weight: 11
 url: /fr/net/rate-recurring-tasks/rate-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtrisez les tarifs MS Project avec Aspose.Tasks
+
 ## Introduction
 Bienvenue dans notre tutoriel sur la gestion des tarifs dans MS Project à l'aide d'Aspose.Tasks pour .NET ! Dans ce guide, nous vous guiderons tout au long du processus d'utilisation des taux dans vos fichiers MS Project à l'aide d'Aspose.Tasks. Que vous soyez un développeur chevronné ou que vous débutiez tout juste dans le développement .NET, ce didacticiel vous fournira des instructions étape par étape pour gérer efficacement les tarifs au sein de vos projets.
 ## Conditions préalables
@@ -110,3 +116,9 @@ R : Absolument, Aspose.Tasks pour .NET prend en charge l'utilisation de fichiers
 R : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Tasks pour .NET pour évaluer ses fonctionnalités et sa compatibilité avec vos besoins.
 ### Q : Comment puis-je acheter une licence pour Aspose.Tasks pour .NET ?
  R : Vous pouvez acheter une licence pour Aspose.Tasks pour .NET auprès du[site web](https://purchase.aspose.com/temporary-license/)qui offre des options de licence flexibles adaptées à vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

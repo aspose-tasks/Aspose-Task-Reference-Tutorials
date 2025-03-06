@@ -3,10 +3,16 @@ title: Aspose.Tasks View és WBS Code Configuration
 linktitle: Aspose.Tasks View és WBS Code Configuration
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks .NET nézetekhez és WBS kódokhoz. Testreszabhatja a projektmenedzsmentet lépésről lépésre bemutatott oktatóanyagainkkal. Töltse le most a projekt zökkenőmentes megjelenítéséhez.
-type: docs
 weight: 32
 url: /hu/net/view-wbs-code-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks View és WBS Code Configuration
+
 
 ## Bevezetés
 
@@ -56,3 +62,9 @@ Fedezze fel a WBS kódmaszkok konfigurálását lépésről lépésre .NET-proje
 Javítsa a projektmenedzsmentet az Aspose.Tasks for .NET segítségével. Ebben az átfogó oktatóanyagban tanulja meg a WBS kódmaszkok könnyű létrehozását, kezelését és átvitelét.
 ### [WBS-szekvenciák meghatározása az Aspose.Tasks-ban](./wbs-sequences/)
 Erősítse meg projektmenedzsmentjét az Aspose.Tasks for .NET segítségével – zökkenőmentesen határozza meg a WBS-szekvenciákat és fokozza a hatékonyságot erőfeszítés nélkül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 掌握 Aspose.Tasks for .NET 中的任務基線
 linktitle: 在 Aspose.Tasks 中處理任務基線
 second_title: Aspose.Tasks .NET API
 description: 透過這個綜合教程，了解如何在 Aspose.Tasks for .NET 中處理任務基準。立即增強您的專案管理技能！
-type: docs
 weight: 16
 url: /zh-hant/net/task-table-management/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Aspose.Tasks for .NET 中的任務基線
+
 ## 介紹
 在動態的專案管理世界中，保持組織性和資訊靈通至關重要。 Aspose.Tasks for .NET 提供了處理任務基準的強大解決方案，讓您能夠有效地存取有價值的基準資訊。本逐步指南將引導您完成整個過程，確保您清晰地掌握每個概念。
 ## 先決條件
@@ -72,3 +78,9 @@ foreach (var data in baseline.TimephasedData)
 答：探索[文件](https://reference.aspose.com/tasks/net/)有關 Aspose.Tasks 功能的各種教學。
 ### Q：哪裡可以購買 Aspose.Tasks for .NET？
  A：您可以輕鬆購買Aspose.Tasks[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

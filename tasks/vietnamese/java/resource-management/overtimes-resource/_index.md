@@ -3,10 +3,16 @@ title: Quản lý thời gian làm thêm cho tài nguyên trong Aspose.Tasks
 linktitle: Quản lý thời gian làm thêm cho tài nguyên trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Quản lý hiệu quả thời gian làm thêm giờ cho tài nguyên MS Project bằng Aspose.Tasks for Java. Tối ưu hóa việc sử dụng tài nguyên và quản lý chi phí một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/java/resource-management/overtimes-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thời gian làm thêm cho tài nguyên trong Aspose.Tasks
+
 ## Giới thiệu
 Trong quản lý dự án, việc quản lý hiệu quả các nguồn lực là rất quan trọng để hoàn thành dự án thành công. Quản lý ngoài giờ là một khía cạnh quan trọng, đảm bảo rằng các nguồn lực được sử dụng một cách tối ưu mà không bị bội chi. Aspose.Tasks cho Java cung cấp chức năng mạnh mẽ để quản lý thời gian làm thêm cho tài nguyên MS Project một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình quản lý thời gian làm thêm.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Tuyệt đối! Aspose.Tasks cung cấp các API mạnh mẽ để tự động 
  Có, Aspose.Tasks cung cấp hỗ trợ kỹ thuật toàn diện thông qua diễn đàn của nó. Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
 ### Tôi có thể dùng thử Aspose.Tasks cho Java trước khi mua không?
 Có, bạn có thể khám phá Aspose.Tasks for Java với bản dùng thử miễn phí. Tải về phiên bản dùng thử[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

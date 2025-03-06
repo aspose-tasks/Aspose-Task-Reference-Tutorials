@@ -3,10 +3,16 @@ title: Manage Durations of Tasks in Aspose.Tasks
 linktitle: Manage Durations of Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore Aspose.Tasks for Java and learn to manage task durations effortlessly. Follow our step-by-step guide for effective project planning and execution.
-type: docs
 weight: 20
 url: /java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Durations of Tasks in Aspose.Tasks
+
 ## Introduction
 Aspose.Tasks for Java provides a robust solution for managing project tasks and durations efficiently. In this tutorial, we will explore how to manage durations of tasks using Aspose.Tasks, guiding you through each step. Whether you are a seasoned developer or a beginner, this guide will help you grasp the essentials of working with task durations in your projects.
 ## Prerequisites
@@ -67,3 +73,10 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
 ### Is there a free trial available for Aspose.Tasks?
 Yes, you can access the free trial [here](https://releases.aspose.com/) to explore Aspose.Tasks before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

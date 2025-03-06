@@ -3,10 +3,16 @@ title: قم بحفظ خيارات MS Project بسهولة لـ Aspose.Tasks
 linktitle: خيارات حفظ MPP لـ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية حفظ خيارات MS Project بسهولة باستخدام Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشروع الخاص بك.
-type: docs
 weight: 12
 url: /ar/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بحفظ خيارات MS Project بسهولة لـ Aspose.Tasks
+
 ## مقدمة
 في عالم تطوير .NET، تعد إدارة ملفات المشروع ومعالجتها بكفاءة أمرًا بالغ الأهمية لتحقيق النجاح. يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع ملفات Microsoft Project (MPP) بسهولة. من بين ميزاته العديدة، يتيح Aspose.Tasks للمستخدمين حفظ خيارات MS Project بسلاسة، وتبسيط سير العمل وضمان سلامة المشروع. في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ خيارات MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ project.Save(stream, options);
  يسمح لك الترخيص المؤقت بتقييم Aspose.Tasks لـ .NET دون أي قيود. يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء نسخة مرخصة من Aspose.Tasks لـ .NET؟
  يمكنك شراء نسخة مرخصة من Aspose.Tasks لـ .NET من[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

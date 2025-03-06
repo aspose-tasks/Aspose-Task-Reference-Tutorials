@@ -3,10 +3,16 @@ title: Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
 linktitle: Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks formüllerinde MS Project fonksiyonlarının değerlendirilmesini Java kullanarak nasıl destekleyeceğinizi öğrenin. Aspose.Tasks ile üretkenliğinizi artırın.
-type: docs
 weight: 10
 url: /tr/java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
+
 
 ## giriiş
 Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir kütüphanedir. Temel özelliklerinden biri, MS Project fonksiyonlarının Aspose.Tasks formülleri içerisinde değerlendirilmesini destekleme yeteneğidir. Bu yetenek, kullanıcıların karmaşık hesaplamaları ve analizleri doğrudan Java uygulamaları içerisinde gerçekleştirmesine olanak tanır.
@@ -65,3 +71,9 @@ C: Evet, Aspose.Tasks for Java, MPP, MPT ve XML formatları da dahil olmak üzer
 C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks for Java için geçici bir lisans mevcut mu?
  C: Evet, test amaçlı olarak Aspose web sitesinden geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

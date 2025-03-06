@@ -3,10 +3,16 @@ title: Quản lý bộ sưu tập lịch trong Aspose.Tasks
 linktitle: Quản lý bộ sưu tập lịch trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý bộ sưu tập lịch trong Aspose.Tasks cho .NET một cách hiệu quả. Tạo, sửa đổi và thao tác lịch một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/calendar-scheduling/calendar-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý bộ sưu tập lịch trong Aspose.Tasks
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý bộ sưu tập lịch trong Aspose.Tasks cho .NET. Lịch đóng một vai trò quan trọng trong quản lý dự án, xác định ngày làm việc, ngày lễ và các trường hợp ngoại lệ. Aspose.Tasks cung cấp chức năng mạnh mẽ để thao tác lịch trong dự án của bạn.
@@ -160,3 +166,9 @@ Câu trả lời 4: Có, Aspose.Tasks cho phép xuất lịch sang nhiều đị
 ### Câu hỏi 5: Tôi có thể tùy chỉnh giờ làm việc cho những ngày cụ thể trong lịch không?
 
 Câu trả lời 5: Chắc chắn, bạn có thể xác định giờ làm việc cho từng ngày bằng cách sử dụng các ngoại lệ trong lịch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

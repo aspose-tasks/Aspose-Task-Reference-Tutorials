@@ -3,10 +3,16 @@ title: إتقان مجموعات حقول الجدول في Aspose.Tasks لـ .N
 linktitle: مجموعة من حقول الجدول في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف العالم الديناميكي لإدارة المشاريع باستخدام Aspose.Tasks لـ .NET. تعرف على كيفية التعامل مع مجموعات حقول الجدول للحصول على تجربة مشروع مخصصة.
-type: docs
 weight: 13
 url: /ar/net/task-table-management/table-field-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان مجموعات حقول الجدول في Aspose.Tasks لـ .NET
+
 ## مقدمة
 Aspose.Tasks for .NET هي مكتبة قوية تسهل إدارة المشاريع من خلال توفير وظائف واسعة النطاق للعمل مع ملفات Microsoft Project. في هذا البرنامج التعليمي، سوف نتعمق في مجموعة حقول الجدول في Aspose.Tasks، ونستكشف كيفية التعامل معها وإدارتها بكفاءة باستخدام C#.
 ## المتطلبات الأساسية
@@ -111,3 +117,9 @@ else
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)للحصول على الدعم وطرح الأسئلة والتعاون مع المجتمع.
 ### هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
  نعم، يمكنك استكشاف ميزات Aspose.Tasks لـ .NET من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

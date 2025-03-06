@@ -3,10 +3,16 @@ title: Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks
 linktitle: Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Tìm hiểu cách đặt thuộc tính tiền tệ trong dự án Aspose.Tasks bằng Java. Thao tác dễ dàng với các tệp Microsoft Project.
-type: docs
 weight: 11
 url: /vi/java/currency-properties/set-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đặt thuộc tính tiền tệ trong các dự án Aspose.Tasks bằng Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Hoàn toàn có thể, Aspose.Tasks mang đến sự linh hoạt trong việc x�
 Có, Aspose.Tasks có thể được tích hợp liền mạch với các thư viện và khung công tác Java khác, nâng cao chức năng và tính linh hoạt của nó.
 ### Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung cho Aspose.Tasks ở đâu?
  Để được hỗ trợ thêm, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi bạn có thể tìm thấy các tài nguyên hữu ích và tương tác với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

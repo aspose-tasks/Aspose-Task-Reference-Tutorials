@@ -3,10 +3,16 @@ title: การรวบรวมงานลูกใน Aspose.Tasks
 linktitle: การรวบรวมงานลูกใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีรวบรวมงานย่อยอย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET ปรับปรุงการจัดการโครงการในแอปพลิเคชัน .NET ของคุณ
-type: docs
 weight: 15
 url: /th/net/calendar-scheduling/child-tasks-collector/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวบรวมงานลูกใน Aspose.Tasks
+
 ## การแนะนำ
 
 ในขอบเขตของการจัดการโครงการ Aspose.Tasks สำหรับ .NET มีความโดดเด่นในฐานะโซลูชันที่แข็งแกร่งสำหรับการจัดการงานและโครงการอย่างมีประสิทธิภาพ ไลบรารีอันทรงพลังนี้มอบเครื่องมือที่จำเป็นสำหรับนักพัฒนาในการจัดการงาน โปรเจ็กต์ และทุกสิ่งในระหว่างนั้นได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกแง่มุมเฉพาะของ Aspose.Tasks: การรวบรวมงานย่อย
@@ -96,3 +102,9 @@ A4: ใช่ ผู้ใช้สามารถเข้าถึงการ
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Tasks สำหรับ .NET ก่อนซื้อได้หรือไม่
 
  A5: แน่นอน! คุณสามารถทดลองใช้ฟรีได้จาก[หน้าปล่อย](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

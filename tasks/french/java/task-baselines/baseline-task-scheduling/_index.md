@@ -3,10 +3,16 @@ title: Planification des tâches de base dans Aspose.Tasks
 linktitle: Planification des tâches de base dans Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Découvrez comment planifier efficacement les lignes de base des tâches avec Aspose.Tasks pour Java. Rationalisez vos processus de gestion de projet sans effort.
-type: docs
 weight: 10
 url: /fr/java/task-baselines/baseline-task-scheduling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Planification des tâches de base dans Aspose.Tasks
+
 ## Introduction
 La gestion des références de tâches est un aspect crucial de la gestion de projet, vous permettant de comparer avec précision les progrès prévus et réels. Dans ce didacticiel, nous verrons comment effectuer une planification de tâches de base à l'aide d'Aspose.Tasks pour Java. En suivant ces étapes, vous serez en mesure de rationaliser efficacement vos processus de gestion de projet.
 ## Conditions préalables
@@ -63,3 +69,9 @@ Certes, Aspose.Tasks for Java fournit des fonctionnalités étendues pour person
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour Java à partir du[page de sortie](https://releases.aspose.com/).
 ### Où puis-je trouver de l’assistance pour Aspose.Tasks pour Java ?
  Pour toute question ou assistance, vous pouvez visiter le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

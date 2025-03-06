@@ -3,10 +3,16 @@ title: Извлечение информации о повторяющихся �
 linktitle: Извлечение информации о повторяющихся задачах в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как извлечь информацию о повторяющихся задачах из файлов MS Project с помощью Aspose.Tasks для .NET. Простая интеграция для разработчиков .NET.
-type: docs
 weight: 13
 url: /ru/net/rate-recurring-tasks/recurring-task-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение информации о повторяющихся задачах в Aspose.Tasks
+
 ## Введение
 Aspose.Tasks для .NET — это мощная библиотека, которая позволяет разработчикам работать с файлами Microsoft Project в своих .NET-приложениях. В этом уроке мы рассмотрим, как извлечь информацию о повторяющихся задачах из файлов MS Project с помощью Aspose.Tasks.
 ## Предварительные условия
@@ -62,3 +68,9 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
  О: Вы можете найти документацию[здесь](https://reference.aspose.com/tasks/net/).
 ### Вопрос: Как я могу получить техническую поддержку по Aspose.Tasks для .NET?
  О: Вы можете получить техническую поддержку на форуме Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

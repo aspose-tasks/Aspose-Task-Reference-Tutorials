@@ -3,10 +3,16 @@ title: Opanowanie masek konturowych projektu Microsoft w Aspose.Tasks
 linktitle: Praca z maskami konturowymi w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak programowo pracować z plikami Microsoft Project przy użyciu Aspose.Tasks dla .NET. Skutecznie opanuj maski konturowe.
-type: docs
 weight: 14
 url: /pl/net/outline-code-page-settings/outline-masks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie masek konturowych projektu Microsoft w Aspose.Tasks
+
 ## Wstęp
 W dziedzinie zarządzania projektami i śledzenia zadań Microsoft Project jest podstawowym narzędziem. Jednakże, jeśli chodzi o programowe manipulowanie plikami projektu i zarządzanie nimi, Aspose.Tasks dla .NET okazuje się potężnym rozwiązaniem. W tym samouczku omówimy jeden konkretny aspekt pracy z plikami MS Project przy użyciu Aspose.Tasks dla .NET: obsługa masek konturowych.
 ## Warunki wstępne
@@ -76,3 +82,9 @@ Odpowiedź: Rzeczywiście, możesz odwiedzić[Forum Aspose.Tasks](https://forum.
  Odp.: oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks[Tutaj](https://releases.aspose.com/).
 ### P: Gdzie mogę uzyskać tymczasową licencję na Aspose.Tasks?
  Odp.: Jeśli potrzebujesz tymczasowej licencji do celów ewaluacyjnych lub testowych, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

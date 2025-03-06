@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट सर्वर क
 linktitle: Aspose.Tasks में प्रोजेक्ट सर्वर क्रेडेंशियल प्रबंधित करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट सर्वर क्रेडेंशियल को सहजता से प्रबंधित करना सीखें। परियोजना प्रबंधन दक्षता बढ़ाएँ.
-type: docs
 weight: 22
 url: /hi/net/project-management-integration/project-server-credentials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट सर्वर क्रेडेंशियल प्रबंधित करना
+
 ## परिचय
 परियोजना प्रबंधन के क्षेत्र में, प्रभावी समन्वय और निर्बाध संचार सफल परियोजना निष्पादन के लिए महत्वपूर्ण हैं। .NET के लिए Aspose.Tasks Microsoft प्रोजेक्ट सर्वर क्रेडेंशियल्स को प्रबंधित करने के लिए एक व्यापक समाधान प्रदान करता है, जो उपयोगकर्ताओं को प्रोजेक्ट डेटा तक सुरक्षित रूप से पहुंचने और हेरफेर करने में सक्षम बनाता है। यह ट्यूटोरियल .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट सर्वर क्रेडेंशियल्स को प्रबंधित करने की प्रक्रिया पर प्रकाश डालता है, और उपयोगकर्ताओं को एक सहज अनुभव सुनिश्चित करने के लिए प्रत्येक चरण के माध्यम से मार्गदर्शन करता है।
 ## आवश्यक शर्तें
@@ -83,3 +89,9 @@ foreach (var info in list)
 उत्तर: हां, .NET के लिए Aspose.Tasks लचीले लाइसेंसिंग विकल्प प्रदान करता है, जिसमें परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस और व्यावसायिक उपयोग के लिए पूर्ण लाइसेंस शामिल हैं।
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks के लिए सहायता या समर्थन कहां से प्राप्त कर सकता हूं?
  उ: .NET के लिए Aspose.Tasks के संबंध में किसी भी पूछताछ या सहायता के लिए, आप सहायता मंच पर जा सकते हैं[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15).## संपूर्ण स्रोत कोड
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

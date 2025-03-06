@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 MS 프로젝트 분할 부분 처리
 linktitle: Aspose.Tasks에서 분할 부분 처리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 분할 부분을 효율적으로 처리하는 방법을 알아보세요. 프로젝트 관리 워크플로를 강화하세요.
-type: docs
 weight: 18
 url: /ko/net/rate-recurring-tasks/split-parts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 MS 프로젝트 분할 부분 처리
+
 
 ## 소개
 MS 프로젝트 분할 부분을 관리하는 것은 Aspose.Tasks for .NET을 사용할 때 프로젝트 관리의 중요한 측면이 될 수 있습니다. 이 튜토리얼에서는 단계별 지침을 사용하여 분할된 부품을 효과적으로 처리하는 방법을 살펴보겠습니다.
@@ -94,3 +100,9 @@ A: 예, Aspose.Tasks for .NET을 사용하면 프로젝트 리소스를 효율�
 A: 물론, 프로젝트 요구 사항에 따라 프로젝트 달력을 사용자 정의할 수 있습니다.
 ### Q: .NET용 Aspose.Tasks에 대한 지원은 어디서 찾을 수 있나요?
  답변: 다음 웹사이트에서 지원과 도움을 받으실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

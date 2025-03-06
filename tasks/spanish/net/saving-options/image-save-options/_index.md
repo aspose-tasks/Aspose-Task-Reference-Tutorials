@@ -3,10 +3,16 @@ title: Opciones para guardar imágenes de MS Project para Aspose.Tasks
 linktitle: Opciones de guardado de imágenes para Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a guardar opciones de MS Project como imágenes usando Aspose.Tasks para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 11
 url: /es/net/saving-options/image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opciones para guardar imágenes de MS Project para Aspose.Tasks
+
 
 ## Introducción
 En el mundo del desarrollo de software, manejar las tareas del proyecto de manera eficiente es crucial para una gestión exitosa del proyecto. Aspose.Tasks para .NET ofrece una poderosa solución para desarrolladores que trabajan con archivos de Microsoft Project, permitiéndoles manipular, convertir y administrar tareas de proyectos sin problemas dentro de sus aplicaciones .NET.
@@ -76,3 +82,9 @@ R: Sí, Aspose.Tasks para .NET es compatible con varios marcos .NET, incluidos .
 R: Sí, puede personalizar las opciones para guardar imágenes según sus requisitos específicos, como ajustar el tamaño de la página, la resolución o el formato de salida.
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.Tasks para .NET?
  R: Puede encontrar soporte y asistencia para Aspose.Tasks para .NET en el[foro](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

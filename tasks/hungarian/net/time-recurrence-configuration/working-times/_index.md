@@ -3,10 +3,16 @@ title: Munkaidő konfigurálása az Aspose.Tasks-ban
 linktitle: Munkaidő konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Javítsa a projekt ütemezését .NET-ben az Aspose.Tasks segítségével. A munkaidőt könnyedén konfigurálhatja a pontos erőforrás-kezelés érdekében. Töltse le a könyvtárat most!
-type: docs
 weight: 13
 url: /hu/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munkaidő konfigurálása az Aspose.Tasks-ban
+
 ## Bevezetés
 projektmenedzsmentben a munkaidő pontos ellenőrzése kulcsfontosságú a pontos ütemezés és az erőforrás-elosztás szempontjából. Az Aspose.Tasks for .NET hatékony megoldást kínál a munkaidő-információk kezelésére a projekteken belül. Ez az oktatóanyag végigvezeti a munkaidő .NET-környezetben történő Aspose.Tasks használatával történő konfigurálásán.
 ## Előfeltételek
@@ -84,3 +90,9 @@ Igen, az Aspose.Tasks megkönnyíti a különböző projektmenedzsment eszközö
 Az Aspose.Tasks többféle fájlformátumot támogat, lehetővé téve a projektadatok zökkenőmentes importálását/exportálását.
 ### Milyen gyakran adják ki az Aspose.Tasks frissítéseket?
 A legújabb technológiákkal való kompatibilitás biztosítása és a felhasználói visszajelzések figyelembevétele érdekében rendszeresen frissítéseket adunk ki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

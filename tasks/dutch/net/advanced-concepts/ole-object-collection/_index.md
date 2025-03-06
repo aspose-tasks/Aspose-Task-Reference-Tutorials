@@ -3,10 +3,16 @@ title: Verzameling van OLE-objecten in Aspose.Tasks
 linktitle: Verzameling van OLE-objecten in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u OLE-objecten beheert in Aspose.Tasks voor .NET met deze uitgebreide zelfstudie. Beheers moeiteloos de verwerking van ingesloten bestanden in projectdocumenten.
-type: docs
 weight: 23
 url: /nl/net/advanced-concepts/ole-object-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verzameling van OLE-objecten in Aspose.Tasks
+
 ## Invoering
 
 In deze zelfstudie verdiepen we ons in het beheer van OLE-objecten (Object Linking and Embedding) in Aspose.Tasks voor .NET. OLE-objecten stellen gebruikers in staat bestanden uit andere applicaties in een projectbestand in te sluiten of te koppelen. We bespreken stap voor stap hoe u met een verzameling van deze objecten kunt werken.
@@ -97,3 +103,9 @@ A3: Hoewel basiskennis van C# wordt aanbevolen, biedt Aspose.Tasks uitgebreide d
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Tasks?
 
  A5: U kunt ondersteuning zoeken en vragen stellen op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

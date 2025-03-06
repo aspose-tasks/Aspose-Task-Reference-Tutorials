@@ -3,10 +3,16 @@ title: Baca Data Gantt Chart Tertentu di Aspose.Tasks
 linktitle: Baca Data Gantt Chart Tertentu di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara mengekstrak data bagan Gantt tertentu menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar ke dalam aplikasi Java Anda.
-type: docs
 weight: 16
 url: /id/java/project-data-reading/read-specific-gantt-chart-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Data Gantt Chart Tertentu di Aspose.Tasks
+
 ## Perkenalan
 Bagan Gantt adalah alat yang sangat berharga untuk manajemen proyek, memungkinkan pengguna memvisualisasikan tugas, garis waktu, dan ketergantungan. Dengan Aspose.Tasks untuk Java, pengembang dapat secara efisien mengekstrak data spesifik dari bagan Gantt untuk diintegrasikan ke dalam aplikasi mereka. Dalam tutorial ini, kami akan memandu Anda melalui proses membaca data bagan Gantt tertentu langkah demi langkah.
 ## Prasyarat
@@ -104,3 +110,9 @@ J: Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, da
 J: Tentu saja. Aspose.Tasks menyediakan API ekstensif untuk menyesuaikan tampilan bagan Gantt sesuai kebutuhan Anda.
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
 J: Ya, Aspose.Tasks menawarkan dukungan teknis yang komprehensif melalui forum dan saluran dukungan khusus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

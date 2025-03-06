@@ -3,10 +3,16 @@ title: Эффективная обработка отклонений проек
 linktitle: Работа с отклонениями в Aspose.Tasks
 second_title: API Aspose.Tasks Java
 description: Узнайте, как эффективно обрабатывать отклонения в проекте с помощью Aspose.Tasks для Java. Легко управляйте работами, затратами, отклонениями начала и окончания.
-type: docs
 weight: 15
 url: /ru/java/resource-assignments/deal-with-variances/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Эффективная обработка отклонений проекта с помощью Aspose.Tasks
+
 ## Введение
 В этом уроке мы рассмотрим, как обрабатывать отклонения в Aspose.Tasks для Java. Отклонения — это отклонения от запланированных значений, таких как работы, затраты, даты начала или окончания, в управлении проектами. Aspose.Tasks предоставляет эффективные методы для получения и управления этими отклонениями, помогая разработчикам эффективно анализировать и корректировать графики проектов.
 ## Предварительные условия
@@ -65,3 +71,9 @@ System.out.println(ra.get(Asn.FINISH_VARIANCE));
  О: Да, пользователи могут получить доступ к технической поддержке через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любой помощи или вопросов.
 ### Вопрос: Могу ли я попробовать Aspose.Tasks перед покупкой?
  О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks от[здесь](https://releases.aspose.com/) оценить его возможности перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

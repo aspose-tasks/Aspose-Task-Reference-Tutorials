@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 프로젝트 컬렉션 관리
 linktitle: Aspose.Tasks에서 그룹 컬렉션 관리
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 컬렉션을 효율적으로 관리하는 방법을 알아보세요. 단계별 가이드를 따르세요.
-type: docs
 weight: 26
 url: /ko/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 프로젝트 컬렉션 관리
+
 ## 소개
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 그룹 MS 프로젝트 컬렉션을 관리하는 방법을 살펴보겠습니다. 그룹 컬렉션 관리는 프로젝트 내에서 작업과 리소스를 효율적으로 구성하고 조작하는 데 중요합니다.
 ## 전제조건
@@ -108,3 +114,9 @@ foreach (var group in groupsToDelete)
  .NET용 Aspose.Tasks에 대한 지원은 다음을 통해 얻을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 ### .NET용 Aspose.Tasks에 사용할 수 있는 평가판이 있습니까?
  예, 다음에서 .NET용 Aspose.Tasks의 무료 평가판을 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 달력 작업
 linktitle: Aspose.Tasks에서 달력 작업
 second_title: Aspose.태스크 .NET API
 description: .NET용 Aspose.Tasks를 사용하여 프로젝트 달력을 관리하고, 기간을 계산하고, 예외를 쉽게 처리하세요.
-type: docs
 weight: 10
 url: /ko/net/calendar-scheduling/working-with-calendar/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 달력 작업
+
 ## 소개
 
 Aspose.Tasks for .NET은 캘린더 작업을 위한 강력한 기능을 제공하여 개발자가 프로젝트 일정과 리소스 할당을 효율적으로 관리할 수 있도록 해줍니다. 이 튜토리얼에서는 Aspose.Tasks를 활용하여 달력과 상호 작용하는 방법을 살펴보고 달력 정보 검색, 근무 주 정의, 근무 시간 계산 등과 같은 필수 작업을 다룹니다.
@@ -497,3 +503,9 @@ A4: 예, .NET API용 Aspose.Tasks를 사용하여 야간 근무 달력과 같은
 ### Q5: 프로젝트 파일에서 달력 예외에 대한 정보를 검색할 수 있습니까?
 
 A5: 예, Aspose.Tasks for .NET을 사용하면 프로젝트 파일에서 달력 예외에 대한 정보를 쉽게 검색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

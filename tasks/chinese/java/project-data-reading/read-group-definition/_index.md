@@ -3,10 +3,16 @@ title: 读取 Aspose.Tasks 中的组定义数据
 linktitle: 读取 Aspose.Tasks 中的组定义数据
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 从 Microsoft Project 文件读取组定义数据。请按照我们的分步教程进行操作。
-type: docs
 weight: 10
 url: /zh/java/project-data-reading/read-group-definition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 读取 Aspose.Tasks 中的组定义数据
+
 ## 介绍
 Aspose.Tasks for Java 是一个功能强大的库，允许开发人员轻松操作 Microsoft Project 文件。在本教程中，我们将使用 Aspose.Tasks for Java 逐步完成从项目文件中读取组定义数据的过程。
 ## 先决条件
@@ -79,3 +85,9 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 答：是的，Aspose.Tasks for Java 允许您将项目数据导出为 PDF、XLSX 和 CSV 等格式。
 ### 问：在哪里可以找到 Aspose.Tasks for Java 的其他资源和支持？
 答：您可以访问[Aspose.Tasks for Java 文档](https://reference.aspose.com/tasks/java/)欲了解综合指南，请参阅[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

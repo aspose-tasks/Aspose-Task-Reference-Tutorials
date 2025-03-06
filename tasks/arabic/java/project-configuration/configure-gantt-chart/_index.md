@@ -3,10 +3,16 @@ title: تكوين عرض مخطط جانت في مشاريع Aspose.Tasks
 linktitle: تكوين عرض مخطط جانت في مشاريع Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية تكوين عرض مخطط مشروع Gantt MS في Aspose.Tasks باستخدام Java. قم بتخصيص المشروع وتصوره في مخطط جانت خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/project-configuration/configure-gantt-chart/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين عرض مخطط جانت في مشاريع Aspose.Tasks
+
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية تكوين طريقة عرض مخطط مشروع Gantt MS في مشاريع Aspose.Tasks باستخدام Java. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات Java قوية تتيح لك العمل مع ملفات Microsoft Project برمجيًا. باتباع هذه الخطوات، ستتمكن من تخصيص طريقة عرض مخطط جانت وفقًا لمتطلبات مشروعك.
 ## المتطلبات الأساسية
@@ -76,3 +82,9 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
  ج: يمكنك شراء ترخيص من[هنا](https://purchase.aspose.com/buy).
 ### س: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

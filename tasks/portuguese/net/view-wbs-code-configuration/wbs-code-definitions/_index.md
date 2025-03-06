@@ -3,10 +3,16 @@ title: Definindo definições de código WBS em Aspose.Tasks
 linktitle: Definindo definições de código WBS em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aspose.Tasks for .NET permite o gerenciamento eficiente de projetos. Domine os códigos WBS sem esforço com nosso tutorial abrangente. Simplifique os fluxos de trabalho hoje mesmo!
-type: docs
 weight: 13
 url: /pt/net/view-wbs-code-configuration/wbs-code-definitions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definindo definições de código WBS em Aspose.Tasks
+
 ## Introdução
 À medida que o gerenciamento de projetos evolui, aumenta também a necessidade de ferramentas poderosas que simplifiquem os processos. No domínio do desenvolvimento .NET, Aspose.Tasks se destaca como uma biblioteca robusta para lidar com tarefas de gerenciamento de projetos. Neste tutorial, nos aprofundaremos no processo de definição de códigos de Work Breakdown Structure (WBS) usando Aspose.Tasks for .NET. Os códigos WBS ordenam as hierarquias dos projetos, permitindo rastreamento e organização eficientes.
 ## Pré-requisitos
@@ -79,3 +85,9 @@ Aspose.Tasks oferece escalabilidade e você pode definir um número consideráve
  O fórum Aspose.Tasks (link para[apoiar](https://forum.aspose.com/c/tasks/15)) é um recurso valioso para buscar assistência e solucionar dúvidas.
 ### Existe uma versão de teste disponível antes de comprar o Aspose.Tasks?
  Sim, você pode explorar os recursos e capacidades do Aspose.Tasks acessando o[teste grátis](https://releases.aspose.com/) versão.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

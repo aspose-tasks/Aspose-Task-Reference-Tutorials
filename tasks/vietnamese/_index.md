@@ -3,11 +3,16 @@ title: Nắm vững thao tác dự án MS với Aspose.Tasks
 linktitle: Hướng dẫn về Aspose.Tasks
 additionalTitle: Tham khảo API Aspose
 description: Mở khóa năng lực quản lý dự án! Khám phá các hướng dẫn Aspose.Tasks dành cho .NET, Java, C++, v.v. Nâng cao kỹ năng của bạn trên nhiều ngôn ngữ một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững thao tác dự án MS với Aspose.Tasks
+
 
 Bắt tay khám phá toàn diện các khả năng quản lý dự án trên nhiều ngôn ngữ lập trình khác nhau với Danh sách Hướng dẫn Aspose.Tasks của chúng tôi. Cho dù bạn đang làm việc với Aspose.Tasks cho .NET, Java, C++hoặc các ngôn ngữ khác, bộ sưu tập hướng dẫn tuyển chọn này được thiết kế để hỗ trợ các nhà phát triển ở mọi cấp độ. Từ các khái niệm cơ bản đến các kỹ thuật nâng cao, mỗi hướng dẫn đều cung cấp hướng dẫn từng bước, cho phép bạn khai thác toàn bộ tiềm năng của Aspose.Tasks bằng ngôn ngữ ưa thích của bạn. Đi sâu vào kho lưu trữ phong phú của chúng tôi và nâng cao kỹ năng quản lý dự án của bạn trên nhiều nền tảng và môi trường mã hóa. Chúng ta hãy cùng nhau khám phá bối cảnh đa dạng của các hướng dẫn Aspose.Tasks!
 
@@ -58,3 +63,9 @@ Chào mừng bạn đến với cổng quản lý dự án Java nâng cao! Bắt
 - [Liên kết tác vụ](./java/task-links/)
 - [Thuộc tính tác vụ](./java/task-properties/)
 - [Tích hợp VBA](./java/vba-integration/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

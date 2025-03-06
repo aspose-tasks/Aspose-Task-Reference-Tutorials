@@ -3,10 +3,16 @@ title: 작업 기준
 linktitle: 작업 기준
 second_title: Aspose.Tasks 자바 API
 description: 작업 기준 자습서를 통해 Aspose.Tasks Java를 살펴보세요. 작업 일정을 간소화하고, MS Project 작업 기준선을 만들고, 마스터 기준선 기간 관리를 마스터하세요.
-type: docs
 weight: 32
 url: /ko/java/task-baselines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 기준
+
 ## 소개
 Aspose.Tasks for Java로 프로젝트 관리 기술을 향상시키는 여정을 시작하세요. 이 자습서 시리즈에서는 작업 기준의 복잡한 부분을 자세히 살펴보고 귀중한 통찰력과 실용적인 지식을 제공합니다. 이 포괄적인 가이드를 구성하는 주요 튜토리얼을 살펴보겠습니다.
 
@@ -51,3 +57,9 @@ Aspose.Tasks for Java를 사용하여 작업 기준을 효과적으로 예약하
 프로젝트 데이터를 손쉽게 관리하기 위한 강력한 라이브러리인 Aspose.Tasks를 사용하여 Java에서 Microsoft Project 작업 기준선을 생성하는 방법을 알아보세요.
 ### [Aspose.Tasks의 작업 기준 기간 관리](./task-baseline-duration/)
 Aspose.Tasks for Java를 사용하여 MS 프로젝트에서 작업 기준선을 효율적으로 관리하는 방법을 알아보세요. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

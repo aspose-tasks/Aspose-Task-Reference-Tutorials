@@ -3,10 +3,16 @@ title: 日曆例外
 linktitle: 日曆例外
 second_title: Aspose.Tasks Java API
 description: 使用 Aspose.Tasks 輕鬆管理、定義、處理和檢索 Java 專案中的日曆異常。簡化專案工作流程，實現高效率的專案管理。
-type: docs
 weight: 20
 url: /zh-hant/java/calendar-exceptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 日曆例外
+
 
 ## 介紹
 
@@ -34,3 +40,9 @@ url: /zh-hant/java/calendar-exceptions/
 了解如何使用 Aspose.Tasks for Java 在 Java 專案中有效處理日曆異常。立即簡化您的專案管理流程。
 ### [使用 Aspose.Tasks 檢索日曆異常](./retrieve/)
 了解如何使用 Aspose.Tasks for Java 從 MS Project 擷取日曆異常。無縫整合的分步教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

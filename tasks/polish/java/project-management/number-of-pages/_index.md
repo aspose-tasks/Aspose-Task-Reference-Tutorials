@@ -3,10 +3,16 @@ title: Uzyskaj liczbę stron w projekcie za pomocą Aspose.Tasks
 linktitle: Uzyskaj liczbę stron w projekcie za pomocą Aspose.Tasks
 second_title: Aspose.Tasks API Java
 description: Odblokuj potencjał programowania w języku Java dzięki Aspose.Tasks. Dowiedz się, jak płynnie manipulować plikami Microsoft Project i zwiększać swoją produktywność.
-type: docs
 weight: 16
 url: /pl/java/project-management/number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj liczbę stron w projekcie za pomocą Aspose.Tasks
+
 ## Wstęp
 W dziedzinie programowania w języku Java Aspose.Tasks wyróżnia się jako potężne narzędzie do obsługi plików Microsoft Project. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zagłębiasz się w programowanie w języku Java, opanowanie Aspose.Tasks może znacznie zwiększyć Twoje możliwości manipulowania i wydobywania cennych spostrzeżeń z plików projektu.
 ## Warunki wstępne
@@ -74,3 +80,9 @@ O: Aspose.Tasks zapewnia obszerną dokumentację i wsparcie, dzięki czemu jest 
  Odpowiedź: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) do interakcji ze społecznością i szukania pomocy w przypadku jakichkolwiek problemów lub zapytań.
 ### P: Czy mogę wypróbować Aspose.Tasks przed dokonaniem zakupu?
  Odp.: Oczywiście, możesz poznać funkcje i funkcjonalności Aspose.Tasks, uzyskując bezpłatną wersję próbną od[strona internetowa](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

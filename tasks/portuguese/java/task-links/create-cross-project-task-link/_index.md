@@ -3,10 +3,16 @@ title: Criar link de tarefa entre projetos em Aspose.Tasks
 linktitle: Criar link de tarefa entre projetos em Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Aprimore a colaboração em projetos com Aspose.Tasks for Java. Aprenda a criar links de tarefas entre projetos passo a passo. Aumente a eficiência agora!
-type: docs
 weight: 10
 url: /pt/java/task-links/create-cross-project-task-link/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criar link de tarefa entre projetos em Aspose.Tasks
+
 ## Introdução
 No mundo dinâmico do gerenciamento de projetos, eficiência e colaboração são fundamentais. Aspose.Tasks for Java fornece uma solução robusta para aprimorar seus recursos de gerenciamento de projetos. Neste tutorial, nos aprofundaremos no processo de criação de links de tarefas entre projetos usando Aspose.Tasks para Java. Este guia passo a passo irá equipá-lo com as habilidades necessárias para vincular perfeitamente tarefas em diferentes projetos, promovendo melhor coordenação e fluxos de trabalho simplificados.
 ## Pré-requisitos
@@ -78,3 +84,9 @@ Sim, Aspose.Tasks for Java suporta vinculação de tarefas entre projetos em vá
 Sim, você pode desvincular tarefas removendo o link da tarefa usando os métodos Aspose.Tasks apropriados.
 ### Há alguma limitação no número de tarefas que podem ser vinculadas entre projetos?
 O número de tarefas que podem ser vinculadas está sujeito aos recursos e limitações da sua licença Aspose.Tasks.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθέστε εκτεταμένα χαρακτηριστικά στ
 linktitle: Προσθέστε εκτεταμένα χαρακτηριστικά στα Tasks στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Εξερευνήστε τη δύναμη της Java Aspose.Tasks στην προσαρμογή των αρχείων Microsoft Project με εκτεταμένα χαρακτηριστικά. Βελτιώστε τις δυνατότητες διαχείρισης του έργου σας χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/task-properties/add-extended-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε εκτεταμένα χαρακτηριστικά στα Tasks στο Aspose.Tasks
+
 ## Εισαγωγή
 Η ενίσχυση των δυνατοτήτων διαχείρισης του έργου σας είναι ζωτικής σημασίας για την αποτελεσματική παρακολούθηση εργασιών και διαχείριση πόρων. Το Aspose.Tasks για Java παρέχει μια ισχυρή λύση για προγραμματιστές Java για τον απρόσκοπτο χειρισμό των αρχείων του Microsoft Project. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε εκτεταμένα χαρακτηριστικά σε εργασίες χρησιμοποιώντας το Aspose.Tasks για Java, επιτρέποντάς σας να προσαρμόσετε και να οργανώσετε τα δεδομένα του έργου σας σύμφωνα με τις συγκεκριμένες απαιτήσεις σας.
 ## Προαπαιτούμενα
@@ -75,3 +81,9 @@ project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp)
  Α: Επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη και συζητήσεις.
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks για Java πριν το αγοράσω;
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

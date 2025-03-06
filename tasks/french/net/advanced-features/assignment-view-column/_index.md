@@ -3,10 +3,16 @@ title: Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
 linktitle: Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment ajouter des colonnes d'affichage d'affectation personnalisées dans Aspose.Tasks pour .NET afin d'améliorer les capacités de gestion de projet.
-type: docs
 weight: 16
 url: /fr/net/advanced-features/assignment-view-column/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment ajouter des colonnes personnalisées pour les vues d'affectation à l'aide d'Aspose.Tasks pour .NET. Les colonnes personnalisées offrent de la flexibilité et vous permettent d'afficher des informations supplémentaires pertinentes pour vos besoins en matière de gestion de projet.
@@ -116,3 +122,9 @@ A3 : Oui, vous pouvez personnaliser l'apparence des colonnes personnalisées en 
 ### Q5 : Aspose.Tasks prend-il en charge l'exportation de projets vers d'autres formats que les feuilles de calcul avec des colonnes personnalisées ?
 
 A5 : Oui, Aspose.Tasks prend en charge l'exportation de projets vers divers formats tels que PDF, HTML et XML, permettant des options de reporting de projet polyvalentes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

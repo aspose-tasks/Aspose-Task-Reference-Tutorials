@@ -3,10 +3,16 @@ title: Tentukan Hari Kerja di Kalender dengan Aspose.Tasks
 linktitle: Tentukan Hari Kerja di Kalender dengan Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara menentukan hari kerja di MS Project Calendar menggunakan Aspose.Tasks untuk Java. Sesuaikan hari dan waktu kerja dengan mudah.
-type: docs
 weight: 12
 url: /id/java/calendars/define-weekdays/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Hari Kerja di Kalender dengan Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses menentukan hari kerja di Kalender Proyek MS menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan Java yang kuat yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram.
 ## Prasyarat
@@ -82,3 +88,9 @@ J: Ya, Aspose.Tasks mendukung berbagai versi file MS Project, termasuk format MP
 J: Ya, Anda dapat memuat proyek yang ada dengan kalender, membuat modifikasi, lalu menyimpan perubahan kembali ke file aslinya.
 ### Q5: Apakah Aspose.Tasks memberikan dukungan untuk tugas berulang?
 J: Ya, Aspose.Tasks memungkinkan Anda bekerja dengan tugas berulang, termasuk menentukan pola dan durasi pengulangannya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

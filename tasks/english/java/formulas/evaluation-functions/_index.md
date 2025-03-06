@@ -3,10 +3,16 @@ title: Support Evaluation Functions in Aspose.Tasks Formulas
 linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
 second_title: Aspose.Tasks Java API
 description: Learn how to support evaluation of MS Project functions in Aspose.Tasks formulas using Java. Boost your productivity with Aspose.Tasks.
-type: docs
 weight: 10
 url: /java/formulas/evaluation-functions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Support Evaluation Functions in Aspose.Tasks Formulas
+
 
 ## Introduction
 Aspose.Tasks for Java is a powerful library that enables developers to manipulate Microsoft Project files programmatically. One of its key features is the ability to support evaluation of MS Project functions within Aspose.Tasks formulas. This capability allows users to perform complex calculations and analysis directly within their Java applications.
@@ -65,3 +71,10 @@ A: Yes, you can download a free trial version of Aspose.Tasks for Java from the 
 A: You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 ### Q: Is there a temporary license available for Aspose.Tasks for Java?
 A: Yes, you can obtain a temporary license for testing purposes from the Aspose website [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

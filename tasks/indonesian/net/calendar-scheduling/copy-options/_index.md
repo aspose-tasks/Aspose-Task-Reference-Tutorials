@@ -3,10 +3,16 @@ title: Salin Opsi di Aspose.Tasks
 linktitle: Salin Opsi di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyalin data proyek secara efisien menggunakan Aspose.Tasks untuk .NET. Tingkatkan aplikasi .NET Anda dengan kemampuan manajemen proyek yang kuat.
-type: docs
 weight: 18
 url: /id/net/calendar-scheduling/copy-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salin Opsi di Aspose.Tasks
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET, mengelola tugas secara efisien sangat penting untuk keberhasilan proyek. Aspose.Tasks untuk .NET memberikan solusi komprehensif bagi pengembang untuk menangani tugas manajemen proyek dengan lancar. Salah satu fitur penting adalah kemampuan untuk menyalin data proyek dengan berbagai pilihan yang disesuaikan dengan kebutuhan spesifik. Dalam tutorial ini, kita akan menjelajahi Opsi Salin di Aspose.Tasks, membagi setiap contoh menjadi beberapa langkah untuk memandu Anda melalui prosesnya.
@@ -98,3 +104,9 @@ A4: Aspose.Tasks untuk .NET menawarkan opsi penyesuaian yang luas melalui API-ny
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Tasks untuk .NET?
 
  A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan, dokumentasi, tutorial, dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Tasks 프로젝트의 통화 속성 읽기
 linktitle: Aspose.Tasks 프로젝트의 통화 속성 읽기
 second_title: Aspose.Tasks 자바 API
 description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일에서 통화 정보를 추출하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.
-type: docs
 weight: 10
 url: /ko/java/currency-properties/read-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks 프로젝트의 통화 속성 읽기
+
 ## 소개
 이 튜토리얼에서는 Java용 Aspose.Tasks를 활용하여 Microsoft Project 파일에서 통화 속성을 읽는 방법을 알아봅니다. Aspose.Tasks는 개발자가 Microsoft Project를 설치하지 않고도 Microsoft Project 문서를 조작할 수 있게 해주는 강력한 Java API입니다. 아래에 설명된 단계를 따르면 통화 관련 정보를 쉽게 추출할 수 있습니다.
 ## 전제조건
@@ -57,3 +63,9 @@ A: 예, Aspose.Tasks를 사용하면 프로그래밍 방식으로 MS 프로젝�
  A: 예, Aspose의 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 도움이나 지원은 어디서 구할 수 있나요?
  A: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 도움이나 문의사항이 있으면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

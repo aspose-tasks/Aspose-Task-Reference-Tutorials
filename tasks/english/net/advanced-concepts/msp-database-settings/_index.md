@@ -3,10 +3,16 @@ title: Settings for Microsoft Project Database in Aspose.Tasks
 linktitle: Settings for Microsoft Project Database in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to configure Microsoft Project database settings using Aspose.Tasks for seamless integration into .NET applications.
-type: docs
 weight: 19
 url: /net/advanced-concepts/msp-database-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Settings for Microsoft Project Database in Aspose.Tasks
+
 ## Introduction
 
 If you're working with Microsoft Project databases in your .NET applications using Aspose.Tasks, you'll need to configure the necessary settings to import project data seamlessly. This tutorial will guide you through the process step by step.
@@ -99,3 +105,10 @@ A4: Yes, you can specify the schema for the `MspDbSettings` object according to 
 ### Q5: Where can I find more detailed documentation on using Aspose.Tasks?
 
 A5: You can explore the comprehensive documentation [here](https://reference.aspose.com/tasks/net/) for detailed insights into Aspose.Tasks functionalities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

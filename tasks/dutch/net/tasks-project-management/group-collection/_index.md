@@ -3,10 +3,16 @@ title: Projectverzamelingen beheren in Aspose.Tasks
 linktitle: Groepsverzameling beheren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-collecties efficiënt kunt beheren met Aspose.Tasks voor .NET. Volg onze stapsgewijze handleiding.
-type: docs
 weight: 26
 url: /nl/net/tasks-project-management/group-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projectverzamelingen beheren in Aspose.Tasks
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u MS Project-groepscollecties kunt beheren met Aspose.Tasks voor .NET. Het beheren van groepscollecties is cruciaal voor het efficiënt organiseren en manipuleren van taken en bronnen binnen uw project.
 ## Vereisten
@@ -108,3 +114,9 @@ Aspose.Tasks voor .NET richt zich primair op het .NET-framework, maar kan worden
  U kunt ondersteuning krijgen voor Aspose.Tasks voor .NET via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
 ### Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
  Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET downloaden van de[website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

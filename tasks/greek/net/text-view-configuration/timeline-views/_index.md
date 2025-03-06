@@ -3,10 +3,16 @@ title: Mastering Project Timelines Views στο Aspose.Tasks
 linktitle: Προσαρμογή προβολών χρονολογίου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Master Aspose.Tasks για .NET στην προσαρμογή των προβολών λωρίδας χρόνου. Βελτιώστε τη διαχείριση του έργου σας με οπτικά ελκυστικά χρονοδιαγράμματα προσαρμοσμένα στις ανάγκες του έργου σας.
-type: docs
 weight: 13
 url: /el/net/text-view-configuration/timeline-views/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Project Timelines Views στο Aspose.Tasks
+
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών και ενημερωτικών προβολών χρονοδιαγράμματος είναι ζωτικής σημασίας για την αποτελεσματική διαχείριση του έργου. Το Aspose.Tasks για .NET παρέχει μια ισχυρή λύση για την προσαρμογή των προβολών γραμμής χρόνου, επιτρέποντάς σας να προσαρμόσετε την εμφάνιση των εργασιών σύμφωνα με τις συγκεκριμένες ανάγκες του έργου σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Tasks για να δημιουργήσετε και να προσαρμόσετε τις προβολές χρονοδιαγράμματος χωρίς κόπο.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
  Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

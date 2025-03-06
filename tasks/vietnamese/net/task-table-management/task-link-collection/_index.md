@@ -3,10 +3,16 @@ title: Xử lý các liên kết tác vụ trong Aspose.Tasks
 linktitle: Xử lý các liên kết tác vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của Aspose.Tasks cho .NET trong việc quản lý các liên kết nhiệm vụ dự án một cách hiệu quả. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao trải nghiệm quản lý dự án của bạn.
-type: docs
 weight: 19
 url: /vi/net/task-table-management/task-link-collection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các liên kết tác vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước về cách xử lý các liên kết tác vụ trong Aspose.Tasks cho .NET! Liên kết nhiệm vụ đóng một vai trò quan trọng trong quản lý dự án, cho phép bạn thiết lập mối quan hệ giữa các nhiệm vụ và tạo ra sự phụ thuộc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình làm việc với các bộ sưu tập liên kết tác vụ bằng Aspose.Tasks.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Hiện tại, Aspose.Tasks hỗ trợ các loại liên kết nhiệm vụ tiêu
 Aspose.Tasks có thể xử lý các tệp dự án lớn một cách hiệu quả với tác động hiệu suất tối thiểu.
 ### Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
  Có, bạn có thể tìm thấy sự hỗ trợ và tương tác với cộng đồng trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

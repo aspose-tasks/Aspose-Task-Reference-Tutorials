@@ -3,10 +3,16 @@ title: MS Project Server kezelése Aspose.Tasks segítségével
 linktitle: Project Server kezelése az Aspose.Tasks segítségével
 second_title: Aspose.Tasks .NET API
 description: Oldja fel az MS Project Server zökkenőmentes kezelését az Aspose.Tasks for .NET segítségével. Automatizálja a projektfeladatokat könnyedén.
-type: docs
 weight: 23
 url: /hu/net/project-management-integration/project-server-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project Server kezelése Aspose.Tasks segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban az MS Project Server kezelésével foglalkozunk az Aspose.Tasks for .NET használatával. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal, lehetővé téve a projektadatok zökkenőmentes integrációját és kezelését.
 ## Előfeltételek
@@ -71,3 +77,9 @@ V: Természetesen az Aspose.Tasks átfogó támogatást nyújt a projektütemez�
 V: Igen, az Aspose.Tasks lehetővé teszi, hogy automatizálja a projektadatokon alapuló egyéni jelentések előállítását, megkönnyítve a projektek hatékony nyomon követését és elemzését.
 ### K: Kipróbálhatom az Aspose.Tasks-t a vásárlás előtt?
  V: Igen, felfedezheti az Aspose.Tasks képességeit, ha ingyenes próbaverziót ér el a[weboldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

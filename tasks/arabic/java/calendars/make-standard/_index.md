@@ -3,10 +3,16 @@ title: إنشاء تقويم قياسي في Aspose.Tasks
 linktitle: إنشاء تقويم قياسي في Aspose.Tasks
 second_title: Aspose.Tasks جافا API
 description: تعرف على كيفية إنشاء تقويم MS Project قياسي في Java باستخدام Aspose.Tasks. عزز قدرات إدارة مشروعك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/calendars/make-standard/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تقويم قياسي في Aspose.Tasks
+
 
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في عالم Aspose.Tasks for Java، وهي مكتبة قوية تتيح للمطورين التعامل مع ملفات Microsoft Project بسلاسة. على وجه التحديد، سوف نركز على إنشاء تقويم MS Project قياسي باستخدام Aspose.Tasks. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية تنفيذ هذه الوظيفة في تطبيقات Java الخاصة بك.
@@ -63,3 +69,9 @@ System.out.println("Process completed Successfully");
 ج: نعم، يمكن للمطورين الوصول إلى الدعم الفني الشامل من خلال منتدى Aspose.Tasks، مما يضمن المساعدة في الوقت المناسب لأية استفسارات أو مشكلات.
 ### س: هل يمكنني تجربة Aspose.Tasks قبل إجراء عملية الشراء؟
  ج: نعم، يمكنك استكشاف Aspose.Tasks من خلال نسخة تجريبية مجانية متاحة على الموقع[موقع إلكتروني](https://purchase.aspose.com/buy)مما يسمح لك بتقييم ميزاته ووظائفه قبل اتخاذ القرار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

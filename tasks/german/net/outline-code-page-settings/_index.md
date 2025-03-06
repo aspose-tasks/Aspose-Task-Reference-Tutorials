@@ -3,10 +3,16 @@ title: Aspose.Tasks-Gliederungscode und Seiteneinstellungen
 linktitle: Aspose.Tasks-Gliederungscode und Seiteneinstellungen
 second_title: Aspose.Tasks .NET-API
 description: Meistern Sie Aspose.Tasks für .NET mit Tutorials zu Gliederungscodes, Sammlung, Definitionen, Masken und Seiteneinstellungen. Verbessern Sie die Projektorganisation und -anpassung.
-type: docs
 weight: 25
 url: /de/net/outline-code-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks-Gliederungscode und Seiteneinstellungen
+
 ## Einführung
 Willkommen in der Welt des nahtlosen Projektmanagements mit Aspose.Tasks für .NET! In diesem digitalen Zeitalter, in dem Präzision und Effizienz nicht verhandelbar sind, wird die Beherrschung der Feinheiten von Microsoft Project zu einem entscheidenden Faktor. Unsere umfassende Reihe von Tutorials führt Sie durch die Nuancen von Aspose.Tasks für .NET und ermöglicht Ihnen die mühelose Verwaltung von Gliederungscodes, die Bearbeitung von Datendefinitionen, die Arbeit mit Masken und Werten sowie die Anpassung von Seiteneinstellungen. Egal, ob Sie ein erfahrener Projektmanager oder ein Neuling auf diesem Gebiet sind, unsere Tutorials richten sich an alle Fähigkeitsstufen und bieten Schritt-für-Schritt-Anleitungen und Codebeispiele. Begleiten Sie uns auf dieser Reise, um das volle Potenzial von Aspose.Tasks auszuschöpfen und Ihre Herangehensweise an die Projektorganisation und -anpassung zu revolutionieren. Lassen Sie uns eintauchen und Ihre Projektmanagementfähigkeiten auf ein neues Niveau bringen!
 ## Verwalten von Gliederungscodes mit Aspose.Tasks für .NET
@@ -71,3 +77,9 @@ Erfahren Sie, wie Sie Seitenränder in Microsoft Project-Dateien mit Aspose.Task
 Erfahren Sie, wie Sie MS Project-Seiteneinstellungen mit Aspose.Tasks für .NET konfigurieren. Passen Sie Ausrichtung, Größe und mehr mit einfachen Schritten an.
 ### [Passen Sie die Einstellungen für die Seitenansicht von MS Project in Aspose.Tasks an](./page-view-settings/)
 Erfahren Sie, wie Sie die Seitenansichtseinstellungen in Aspose.Tasks für .NET konfigurieren, um das Druckformat Ihrer Microsoft Project-Dokumente anzupassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

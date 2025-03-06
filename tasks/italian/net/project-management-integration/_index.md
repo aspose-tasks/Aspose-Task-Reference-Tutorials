@@ -3,10 +3,16 @@ title: Aspose.Tasks Gestione e integrazione dei progetti
 linktitle: Aspose.Tasks Gestione e integrazione dei progetti
 second_title: Aspose.Tasks API .NET
 description: Scopri tutorial completi su Aspose.Tasks per .NET che coprono la gestione, l'integrazione e la personalizzazione di MS Project. Migliora subito le tue capacità di gestione dei progetti!
-type: docs
 weight: 27
 url: /it/net/project-management-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks Gestione e integrazione dei progetti
+
 
 ## introduzione
 
@@ -62,3 +68,9 @@ Scopri come gestire le credenziali di MS Project Server senza problemi con Aspos
 Sblocca la gestione fluida di MS Project Server con Aspose.Tasks per .NET. Automatizza le attività del progetto senza sforzo.
 ### [Personalizzazione delle visualizzazioni di MS Project in Aspose.Tasks](./project-views/)
 Scopri come personalizzare le visualizzazioni di MS Project utilizzando Aspose.Tasks per .NET. Segui la nostra guida passo passo per una visualizzazione efficiente della gestione del progetto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

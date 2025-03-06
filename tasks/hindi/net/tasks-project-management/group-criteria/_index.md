@@ -3,10 +3,16 @@ title: Aspose.Tasks में MS प्रोजेक्ट ग्रुप म
 linktitle: Aspose.Tasks में समूह मानदंड
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks का उपयोग करके .NET में MS प्रोजेक्ट फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने का तरीका जानें। कार्य समूह और मानदंड जानकारी चरण-दर-चरण उदाहरण पुनः प्राप्त करें।
-type: docs
 weight: 27
 url: /hi/net/tasks-project-management/group-criteria/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में MS प्रोजेक्ट ग्रुप मानदंड का हेरफेर
+
 ## परिचय
 .NET के लिए Aspose.Tasks एक शक्तिशाली API है जो आपके .NET अनुप्रयोगों में Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करने की सुविधा प्रदान करता है। चाहे आप प्रोजेक्ट प्रबंधन सॉफ़्टवेयर विकसित कर रहे हों या प्रोग्रामेटिक रूप से प्रोजेक्ट डेटा में हेरफेर करने की आवश्यकता हो, Aspose.Tasks आपकी आवश्यकताओं को पूरा करने के लिए सुविधाओं का एक व्यापक सेट प्रदान करता है।
 ## आवश्यक शर्तें
@@ -78,3 +84,9 @@ Aspose.Tasks को उच्च प्रदर्शन और विश्व
 हां, Aspose.Tasks .NET फ्रेमवर्क, .NET कोर और .NET स्टैंडर्ड सहित कई .NET प्लेटफार्मों का समर्थन करता है।
 ### क्या Aspose.Tasks के लिए कोई सामुदायिक मंच है जहां मैं सहायता मांग सकता हूं?
  हां, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) प्रश्न पूछने, ज्ञान साझा करने और अन्य उपयोगकर्ताओं के साथ सहयोग करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

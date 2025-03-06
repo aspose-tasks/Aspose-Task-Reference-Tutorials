@@ -3,10 +3,16 @@ title: Aspose.Tasks에서 OLE 개체 작업
 linktitle: Aspose.Tasks에서 OLE 개체 작업
 second_title: Aspose.태스크 .NET API
 description: Aspose.Tasks를 사용하여 .NET 애플리케이션에서 OLE 개체를 효율적으로 사용하여 프로젝트 관리 기능을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks에서 OLE 개체 작업
+
 ## 소개
 
 Aspose.Tasks for .NET은 프로젝트 파일 내의 OLE(Object Linking and Embedding) 개체 작업을 위한 포괄적인 기능을 제공합니다. 이 튜토리얼은 .NET 애플리케이션에서 Aspose.Tasks를 사용하여 OLE 개체를 효율적으로 관리하는 프로세스를 안내합니다.
@@ -148,3 +154,9 @@ A4: 예, Aspose.Tasks는 강력한 기능과 안정적인 성능을 제공하여
 ### Q5: Aspose.Tasks는 고객 지원 및 문서 리소스를 제공합니까?
 
 A5: 예, Aspose.Tasks는 개발자가 기능을 효과적으로 활용할 수 있도록 광범위한 문서, 포럼 및 고객 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

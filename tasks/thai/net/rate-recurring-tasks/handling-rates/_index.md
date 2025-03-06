@@ -3,10 +3,16 @@ title: การจัดการอัตราโครงการ MS ด้
 linktitle: การจัดการอัตราใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เชี่ยวชาญการจัดการ MS Project Rates อย่างง่ายดายโดยใช้ Aspose.Tasks for .NET ทำงานอัตโนมัติอย่างมีประสิทธิภาพเพื่อขั้นตอนการทำงานของโครงการที่ราบรื่นยิ่งขึ้น
-type: docs
 weight: 10
 url: /th/net/rate-recurring-tasks/handling-rates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการอัตราโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการจัดการ MS Project Rate โดยใช้ Aspose.Tasks สำหรับ .NET! ในคู่มือนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้มั่นใจว่าคุณสามารถจัดการอัตราภายในเอกสาร MS Project ของคุณได้อย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ .NET มอบคุณสมบัติอันทรงพลังในการจัดการไฟล์ MS Project โดยทางโปรแกรม ช่วยให้คุณปรับปรุงงานการจัดการโครงการของคุณได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -77,3 +83,9 @@ rate2.CostPerUse = 2m;
 ตอบ: ได้ คุณสามารถใช้การคำนวณอัตราแบบกำหนดเองได้โดยใช้ Aspose.Tasks เพื่อให้ตรงตามข้อกำหนดเฉพาะของโปรเจ็กต์
 ### ถาม: มีฟอรัมชุมชนหรือการสนับสนุนสำหรับผู้ใช้ Aspose.Tasks หรือไม่
  ตอบ: ได้ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)เพื่อขอความช่วยเหลือและโต้ตอบกับผู้ใช้รายอื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中使用 OLE 对象
 linktitle: 在 Aspose.Tasks 中使用 OLE 对象
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 高效地处理 .NET 应用程序中的 OLE 对象，从而增强项目管理功能。
-type: docs
 weight: 22
 url: /zh/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中使用 OLE 对象
+
 ## 介绍
 
 Aspose.Tasks for .NET 提供了在项目文件中处理 OLE（对象链接和嵌入）对象的全面功能。本教程将指导您完成在 .NET 应用程序中使用 Aspose.Tasks 有效管理 OLE 对象的过程。
@@ -148,3 +154,9 @@ A4：是的，Aspose.Tasks 非常适合小型和企业级项目，提供强大�
 ### Q5：Aspose.Tasks 是否提供客户支持和文档资源？
 
 A5：是的，Aspose.Tasks 提供了广泛的文档、论坛和客户支持，以帮助开发人员有效地利用其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

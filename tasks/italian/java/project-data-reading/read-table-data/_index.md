@@ -3,10 +3,16 @@ title: Leggi i dati della tabella dal file in Aspose.Tasks
 linktitle: Leggi i dati della tabella dal file in Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Sblocca la potenza di Aspose.Tasks per Java. Impara a estrarre i dati delle tabelle dai file in questo tutorial completo.
-type: docs
 weight: 17
 url: /it/java/project-data-reading/read-table-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leggi i dati della tabella dal file in Aspose.Tasks
+
 ## introduzione
 In questo tutorial esploreremo come leggere i dati della tabella da un file utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java che consente agli sviluppatori di lavorare con i documenti di Microsoft Project a livello di codice.
 ## Prerequisiti
@@ -62,3 +68,9 @@ R: Sì, puoi utilizzare Aspose.Tasks per modificare i dati della tabella a livel
  R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da[pagina delle uscite](https://releases.aspose.com/).
 ### D: Dove posso trovare aiuto e supporto per Aspose.Tasks?
  R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)per l'assistenza e il supporto da parte della comunità e del team Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

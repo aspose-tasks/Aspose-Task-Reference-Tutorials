@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta MS Proje Bilgilerini Çıkarın
 linktitle: Aspose.Tasks'ta Proje Bilgilerini Çıkarma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project bilgilerini zahmetsizce nasıl çıkaracağınızı öğrenin. Kapsamlı eğitimimize dalın.
-type: docs
 weight: 20
 url: /tr/net/project-management-integration/project-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta MS Proje Bilgilerini Çıkarın
+
 ## giriiş
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarından verimli bir şekilde bilgi ayıklamak mı istiyorsunuz? Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz. Ancak uygulama ayrıntılarına dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
 ## Önkoşullar
@@ -73,3 +79,9 @@ C: Kesinlikle! Aspose.Tasks for .NET, yalnızca temel proje bilgilerini değil a
  C: Evet, Aspose.Tasks for .NET için teknik desteği şu adresten alabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)Soru sorabileceğiniz ve uzmanlardan yardım alabileceğiniz yer.
 ### S5: Aspose.Tasks for .NET'i satın almadan önce deneyebilir miyim?
  C: Kesinlikle! Aspose.Tasks for .NET'in ücretsiz deneme sürümünden yararlanabilirsiniz.[sürümler sayfası](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini keşfetmenize olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

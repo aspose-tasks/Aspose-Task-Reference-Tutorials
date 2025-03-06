@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Kritik MS Proje Yolunu Hesaplayın
 linktitle: Aspose.Tasks Projelerinde Kritik Yolu Hesaplayın
 second_title: Aspose.Tasks Java API'si
 description: Aspose.Tasks for Java'yı kullanarak MS Project'te kritik yolu nasıl hesaplayacağınızı öğrenin. Bu, verimli proje yönetimi için adım adım rehberlik sağlar.
-type: docs
 weight: 10
 url: /tr/java/project-management/critical-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Kritik MS Proje Yolunu Hesaplayın
+
 ## giriiş
 Bu eğitimde, MS Project'te Aspose.Tasks for Java'yı kullanarak kritik yolu hesaplama sürecinde size rehberlik edeceğiz. Kritik yol, projenin genel programının gecikmemesini sağlamak için zamanında tamamlanması gereken görev sırasının belirlenmesine yardımcı olduğundan proje yönetimi için çok önemlidir.
 ## Önkoşullar
@@ -72,3 +78,9 @@ C: Evet, Aspose.Tasks for Java, MS Project 2003'ten MS Project 2019'a kadar .mpp
  C: Evet, adresinden geçici bir lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for Java'yı nasıl satın alabilirim?
  C: Aspose.Tasks for Java'yı web sitesinden satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

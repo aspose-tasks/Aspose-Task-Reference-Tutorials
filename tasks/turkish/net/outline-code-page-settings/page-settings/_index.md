@@ -3,10 +3,16 @@ title: Aspose.Tasks ile MS Project Sayfası Ayarlarını Yapılandırma
 linktitle: Aspose.Tasks'ta Sayfa Ayarlarını Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'i kullanarak MS Project sayfa ayarlarını nasıl yapılandıracağınızı öğrenin. Yönü, boyutu ve daha fazlasını basit adımlarla özelleştirin.
-type: docs
 weight: 20
 url: /tr/net/outline-code-page-settings/page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks ile MS Project Sayfası Ayarlarını Yapılandırma
+
 ## giriiş
 Bu eğitimde, Aspose.Tasks for .NET'i kullanarak Microsoft Project sayfa ayarlarını yapılandırma sürecini anlatacağız. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir API'dir.
 ## Önkoşullar
@@ -77,3 +83,9 @@ C: Aspose.Tasks, standart ve özel boyutlar da dahil olmak üzere çok çeşitli
 C: Elbette, sayfa ayarları yapılandırmasını otomatikleştirmek için bu işlevselliği uygulamanızın iş akışına entegre edebilirsiniz.
 ### S: Aspose.Tasks .mpp'nin yanı sıra farklı dosya formatlarını da destekliyor mu?
 C: Evet, Aspose.Tasks diğerlerinin yanı sıra XML, MPT ve HTML gibi çeşitli dosya formatlarını destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

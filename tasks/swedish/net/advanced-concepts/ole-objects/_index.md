@@ -3,10 +3,16 @@ title: Arbeta med OLE-objekt i Aspose.Tasks
 linktitle: Arbeta med OLE-objekt i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du effektivt arbetar med OLE-objekt i .NET-applikationer med Aspose.Tasks, vilket förbättrar projektledningskapaciteten.
-type: docs
 weight: 22
 url: /sv/net/advanced-concepts/ole-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med OLE-objekt i Aspose.Tasks
+
 ## Introduktion
 
 Aspose.Tasks för .NET tillhandahåller omfattande funktionalitet för att arbeta med OLE-objekt (Object Linking and Embedding) i projektfiler. Denna handledning guidar dig genom processen för att effektivt hantera OLE-objekt med Aspose.Tasks i dina .NET-applikationer.
@@ -148,3 +154,9 @@ S4: Ja, Aspose.Tasks lämpar sig väl för både småskaliga projekt och projekt
 ### F5: Erbjuder Aspose.Tasks kundsupport och dokumentationsresurser?
 
 S5: Ja, Aspose.Tasks tillhandahåller omfattande dokumentation, forum och kundsupport för att hjälpa utvecklare att använda dess funktioner effektivt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

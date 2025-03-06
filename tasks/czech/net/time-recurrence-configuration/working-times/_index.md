@@ -3,10 +3,16 @@ title: Konfigurace pracovní doby v Aspose.Tasks
 linktitle: Konfigurace pracovní doby v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Vylepšete plánování projektů v .NET pomocí Aspose.Tasks. Bez námahy konfigurujte pracovní dobu pro přesné řízení zdrojů. Stáhněte si knihovnu nyní!
-type: docs
 weight: 13
 url: /cs/net/time-recurrence-configuration/working-times/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace pracovní doby v Aspose.Tasks
+
 ## Úvod
 projektovém řízení je přesná kontrola nad pracovní dobou zásadní pro přesné plánování a alokaci zdrojů. Aspose.Tasks for .NET poskytuje výkonné řešení pro manipulaci s informacemi o pracovní době v rámci vašich projektů. Tento tutoriál vás provede procesem konfigurace pracovní doby pomocí Aspose.Tasks v prostředí .NET.
 ## Předpoklady
@@ -84,3 +90,9 @@ Ano, Aspose.Tasks usnadňuje integraci s různými nástroji pro řízení proje
 Aspose.Tasks podporuje více formátů souborů, což umožňuje bezproblémový import/export dat projektu.
 ### Jak často jsou vydávány aktualizace Aspose.Tasks?
 Aktualizace jsou pravidelně vydávány, aby byla zajištěna kompatibilita s nejnovějšími technologiemi a reagovaly na zpětnou vazbu uživatelů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

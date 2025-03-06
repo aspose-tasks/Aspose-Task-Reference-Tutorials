@@ -3,10 +3,16 @@ title: Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
 linktitle: Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
 second_title: API Java Aspose.Tasks
 description: Khám phá Aspose.Tasks cho Java và tìm hiểu cách quản lý thời lượng nhiệm vụ một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để lập kế hoạch và thực hiện dự án hiệu quả.
-type: docs
 weight: 20
 url: /vi/java/task-properties/manage-durations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
+
 ## Giới thiệu
 Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý các nhiệm vụ và thời lượng dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý thời lượng của các nhiệm vụ bằng Aspose.Tasks, hướng dẫn bạn qua từng bước. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn này sẽ giúp bạn nắm bắt được những điều cần thiết khi làm việc với thời lượng nhiệm vụ trong dự án của bạn.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Aspose.Tasks tương thích với Java 6 và các phiên bản mới hơn.
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá Aspose.Tasks trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

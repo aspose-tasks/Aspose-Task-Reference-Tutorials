@@ -3,10 +3,16 @@ title: Aspose.Tasks'ta Görevi Durdurun ve Sürdürün
 linktitle: Aspose.Tasks'ta Görevi Durdurun ve Sürdürün
 second_title: Aspose.Tasks Java API'si
 description: Görevleri durdurma ve devam ettirme konusunda adım adım kılavuzumuzla Aspose.Tasks for Java'nın gücünü keşfedin. Proje yönetimini sorunsuz bir şekilde geliştirin!
-type: docs
 weight: 30
 url: /tr/java/task-properties/stop-resume-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks'ta Görevi Durdurun ve Sürdürün
+
 ## giriiş
 Java geliştirme alanında görevleri verimli bir şekilde yönetmek, proje yürütmenin çok önemli bir yönüdür. Aspose.Tasks for Java, güçlü özellikleriyle görevlerin yerine getirilmesi için sağlam bir çözüm sunar. Bu eğitimde belirli bir işlevselliğe değineceğiz: görevleri durdurma ve devam ettirme. Bu adım adım kılavuzu izleyerek bu özelliği Java projelerinize sorunsuz bir şekilde entegre edebileceksiniz.
 ## Önkoşullar
@@ -69,3 +75,9 @@ Evet, verilen örnek minimum tarihin proje gereksinimlerinize göre ayarlanması
  Evet, erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
 ### Aspose.Tasks for Java için nasıl geçici lisans alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Simpan Opsi Proyek MS dengan mudah untuk Aspose.Tasks
 linktitle: Opsi Penyimpanan MPP untuk Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara menyimpan opsi MS Project dengan mudah dengan Aspose.Tasks untuk .NET. Tingkatkan efisiensi manajemen proyek Anda.
-type: docs
 weight: 12
 url: /id/net/saving-options/mpp-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Opsi Proyek MS dengan mudah untuk Aspose.Tasks
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, mengelola dan memanipulasi file proyek secara efisien sangat penting untuk kesuksesan. Aspose.Tasks untuk .NET menawarkan solusi ampuh untuk menangani file Microsoft Project (MPP) dengan mudah. Di antara banyak fiturnya, Aspose.Tasks memungkinkan pengguna menyimpan opsi MS Project dengan lancar, menyederhanakan alur kerja, dan memastikan integritas proyek. Dalam tutorial ini, kita akan mempelajari proses menyimpan opsi MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
@@ -67,3 +73,9 @@ Untuk bantuan teknis, Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https:/
  Lisensi sementara memungkinkan Anda mengevaluasi Aspose.Tasks untuk .NET tanpa batasan apa pun. Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli versi berlisensi Aspose.Tasks untuk .NET?
  Anda dapat membeli versi berlisensi Aspose.Tasks untuk .NET dari[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

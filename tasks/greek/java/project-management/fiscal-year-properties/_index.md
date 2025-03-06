@@ -3,10 +3,16 @@ title: Διαχείριση ιδιοτήτων οικονομικού έτους
 linktitle: Διαχείριση ιδιοτήτων οικονομικού έτους στο Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τις ιδιότητες του οικονομικού έτους χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα προς βήμα με παραδείγματα.
-type: docs
 weight: 15
 url: /el/java/project-management/fiscal-year-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση ιδιοτήτων οικονομικού έτους στο Aspose.Tasks
+
 ## Εισαγωγή
 Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να διαχειρίζονται αποτελεσματικά τα αρχεία έργων, συμπεριλαμβανομένου του χειρισμού ιδιοτήτων οικονομικού έτους. Σε αυτό το σεμινάριο, θα περιηγηθούμε στη διαδικασία διαχείρισης ιδιοκτησιών οικονομικού έτους χρησιμοποιώντας το Aspose.Tasks σε Java.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ System.out.println("Process completed Successfully");
  Α: Ναι, μπορείτε να αποκτήσετε πρόσβαση στη δωρεάν δοκιμαστική έκδοση του Aspose.Tasks από[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.Tasks για Java;
  Α: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks για Java από[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Passen Sie die Spalten der MS Project-Ressourcenansicht in Aspose.Tasks a
 linktitle: Anpassen der Ressourcenansichtsspalten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie die Spalten der MS Project-Ressourcenansicht mithilfe von Aspose.Tasks für .NET effizient anpassen. Erstellen Sie maßgeschneiderte Ansichten für ein besseres Projektmanagement.
-type: docs
 weight: 17
 url: /de/net/resource-risk-analysis/resource-view-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie die Spalten der MS Project-Ressourcenansicht in Aspose.Tasks an
+
 ## Einführung
 Aspose.Tasks für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft Project-Dateien zu arbeiten. Eine häufige Aufgabe im Projektmanagement besteht darin, Ansichten anzupassen, um bestimmte Informationen anzuzeigen. In diesem Tutorial erfahren Sie, wie Sie die Spalten der MS Project-Ressourcenansicht mithilfe von Aspose.Tasks für .NET anpassen.
 ## Voraussetzungen
@@ -94,3 +100,9 @@ Aspose.Tasks bietet auf jeden Fall umfangreiche Formatierungsoptionen, um das Er
 Ja, Sie können die benutzerdefinierte Ansicht aktualisieren und neu generieren, wenn sich die zugrunde liegenden Projektdaten ändern.
 ### Unterstützt Aspose.Tasks die plattformübergreifende Entwicklung?
 Aspose.Tasks für .NET zielt hauptsächlich auf .NET-Plattformen ab, es sind jedoch auch Versionen für Java und andere Plattformen verfügbar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

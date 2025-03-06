@@ -3,10 +3,16 @@ title: 在 Aspose.Tasks 中更新和重新安排 MS 项目
 linktitle: 在 Aspose.Tasks 中更新项目并重新安排未完成的工作
 second_title: Aspose.Tasks Java API
 description: 了解如何使用 Aspose.Tasks for Java 以编程方式更新和重新安排 MS Project 文件。
-type: docs
 weight: 23
 url: /zh/java/project-file-operations/update-project-reschedule-work/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Tasks 中更新和重新安排 MS 项目
+
 ## 介绍
 Microsoft Project 是一种广泛使用的项目管理软件，允许用户有效地管理任务、资源和时间表。 Aspose.Tasks for Java 提供了一组强大的 API 来以编程方式操作 Microsoft Project 文件。在本教程中，我们将学习如何使用 Aspose.Tasks for Java 更新 MS Project 文件并重新安排未完成的工作。
 ## 先决条件
@@ -73,3 +79,9 @@ project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
 答：是的，可以购买临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：在哪里可以找到 Aspose.Tasks for Java 的详细文档？
 答：可以参考文档[这里](https://reference.aspose.com/tasks/java/)获取全面的指南和 API 参考。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

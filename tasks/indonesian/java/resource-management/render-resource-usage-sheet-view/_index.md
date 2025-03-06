@@ -3,10 +3,16 @@ title: Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
 linktitle: Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
 second_title: Aspose.Tugas Java API
 description: Pelajari cara merender tampilan Penggunaan Sumber Daya Proyek MS dan Lembar di Aspose.Tasks untuk Java. Ikuti panduan langkah demi langkah kami untuk menghasilkan laporan PDF terperinci dengan mudah.
-type: docs
 weight: 16
 url: /id/java/resource-management/render-resource-usage-sheet-view/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Tasks untuk Java untuk merender tampilan Penggunaan Sumber Daya Proyek MS dan Lembar. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project tanpa perlu menginstal Microsoft Project.
 ## Prasyarat
@@ -78,3 +84,9 @@ Sangat! Aspose.Tasks menyediakan opsi ekstensif untuk menyesuaikan tampilan dan 
 Tidak, Aspose.Tasks adalah perpustakaan mandiri dan tidak memerlukan instalasi Microsoft Project agar dapat berfungsi.
 ### Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
  Ya, pengguna Aspose.Tasks dapat memanfaatkan dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
