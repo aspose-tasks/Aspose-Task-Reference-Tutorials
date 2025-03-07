@@ -1,0 +1,85 @@
+---
+title: จัดการรหัสโครงร่างโครงการใน Aspose.Tasks สำหรับ .NET
+linktitle: การจัดการรหัสเค้าร่างใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: เรียนรู้วิธีจัดการโค้ดโครงร่างของ MS Project ด้วย Aspose.Tasks สำหรับ .NET ลดความซับซ้อนในการจัดระเบียบโครงการได้อย่างง่ายดาย
+weight: 10
+url: /th/net/outline-code-page-settings/outline-codes/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการรหัสโครงร่างโครงการใน Aspose.Tasks สำหรับ .NET
+
+## การแนะนำ
+ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการโค้ดโครงร่างของ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ .NET รหัสเค้าร่างเป็นฟิลด์ที่กำหนดเองใน Microsoft Project ที่ให้ผู้ใช้สามารถจัดหมวดหมู่และจัดระเบียบงานตามเกณฑ์เฉพาะ Aspose.Tasks ลดความซับซ้อนของกระบวนการอ่านและจัดการโค้ดโครงร่างเหล่านี้โดยทางโปรแกรม
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+1.  Aspose.Tasks สำหรับ .NET Library: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จาก[เว็บไซต์](https://releases.aspose.com/tasks/net/).
+2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาที่เหมาะสมสำหรับการเขียนโปรแกรม .NET เช่น Visual Studio
+3. ความรู้พื้นฐานของ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์ในการทำความเข้าใจตัวอย่างโค้ด
+
+## การนำเข้าเนมสเปซ
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ C# ของคุณ สิ่งนี้ช่วยให้คุณเข้าถึงคลาสและวิธีการที่มีให้โดยไลบรารี Aspose.Tasks
+1. เปิด Visual Studio: เปิด Visual Studio IDE ของคุณ
+2. สร้างโปรเจ็กต์ใหม่: เริ่มโปรเจ็กต์ C# ใหม่หรือเปิดโปรเจ็กต์ที่มีอยู่ซึ่งคุณต้องการใช้ Aspose.Tasks
+3. เพิ่มการอ้างอิง Aspose.Tasks: คลิกขวาที่โปรเจ็กต์ของคุณใน Solution Explorer เลือก "จัดการแพ็คเกจ NuGet" ค้นหา "Aspose.Tasks" และติดตั้งเวอร์ชันล่าสุด
+4. นำเข้าเนมสเปซ Aspose.Tasks: ที่ด้านบนของไฟล์ C# ให้เพิ่มสิ่งต่อไปนี้โดยใช้คำสั่ง:
+```csharp
+using Aspose.Tasks;
+using System;
+
+```
+## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีเอกสาร
+ขั้นแรก ให้กำหนดเส้นทางไปยังไดเร็กทอรีที่มีไฟล์ MS Project ของคุณ
+```csharp
+String DataDir = "Your Document Directory";
+```
+ แทนที่`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์โครงการของคุณ
+## ขั้นตอนที่ 2: โหลดไฟล์โครงการ
+ สร้างอินสแตนซ์ใหม่`Project` วัตถุโดยการโหลดไฟล์ MS Project
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+```
+สิ่งนี้จะเริ่มต้นวัตถุโครงการด้วยไฟล์ที่ระบุ
+## ขั้นตอนที่ 3: อ่านรหัสโครงร่าง
+วนซ้ำงานทั้งหมดในโปรเจ็กต์และรับโค้ดโครงร่าง
+```csharp
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    if (task.OutlineCodes.Count <= 0)
+    {
+        continue;
+    }
+    Console.WriteLine("Print outline codes of the task: " + task.Get(Tsk.Name));
+    foreach (var value in task.OutlineCodes)
+    {
+        Console.WriteLine("  Field Id: " + value.FieldId);
+        Console.WriteLine("  Value Guid: " + value.ValueGuid);
+        Console.WriteLine("  Value Id: " + value.ValueId);
+    }
+}
+```
+ข้อมูลโค้ดนี้จะวนซ้ำแต่ละงาน ตรวจสอบว่ามีโค้ดโครงร่างหรือไม่ และพิมพ์รายละเอียด เช่น Field Id, Value Guid และ Value Id สำหรับแต่ละโค้ดโครงร่างที่เกี่ยวข้องกับงาน
+
+## บทสรุป
+โดยสรุป Aspose.Tasks สำหรับ .NET มอบความสามารถอันทรงพลังในการจัดการโค้ดเค้าร่างของ Microsoft Project โดยทางโปรแกรม ด้วยการทำตามขั้นตอนที่อธิบายไว้ในบทช่วยสอนนี้ คุณสามารถอ่านและจัดการโค้ดโครงร่างในไฟล์ MS Project ของคุณโดยใช้ C# ได้อย่างมีประสิทธิภาพ
+## คำถามที่พบบ่อย
+### ถาม: ฉันสามารถแก้ไขโค้ดโครงร่างโดยใช้ Aspose.Tasks ได้หรือไม่
+ตอบ: ได้ คุณสามารถแก้ไขโค้ดโครงร่างโดยทางโปรแกรมได้โดยใช้ Aspose.Tasks for .NET เพียงเข้าถึงโครงร่างโค้ดของงานและอัปเดตค่าตามความจำเป็น
+### ถาม: Aspose.Tasks เข้ากันได้กับ Microsoft Project ทุกเวอร์ชันหรือไม่
+ตอบ: Aspose.Tasks รองรับ Microsoft Project เวอร์ชันต่างๆ มากมาย รวมถึงเวอร์ชัน 2003, 2007, 2010, 2013, 2016 และ 2019
+### ถาม: Aspose.Tasks จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานเชิงพาณิชย์หรือไม่
+ตอบ: ใช่ จำเป็นต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้งาน Aspose.Tasks ในเชิงพาณิชย์ คุณสามารถขอรับใบอนุญาตได้จากเว็บไซต์ Aspose
+### ถาม: ฉันสามารถลองใช้ Aspose.Tasks ก่อนซื้อได้หรือไม่
+ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks เวอร์ชันทดลองใช้ฟรีได้จากเว็บไซต์เพื่อประเมินคุณสมบัติและความสามารถของ Aspose.Tasks
+### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
+ ตอบ: คุณสามารถรับการสนับสนุนสำหรับ Aspose.Tasks ได้โดยไปที่ฟอรัมที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## ซอร์สโค้ดที่สมบูรณ์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

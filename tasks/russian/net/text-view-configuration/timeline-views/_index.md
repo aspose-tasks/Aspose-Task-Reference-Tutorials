@@ -1,0 +1,90 @@
+---
+title: Освоение представлений временных шкал проекта в Aspose.Tasks
+linktitle: Настройка представления временной шкалы в Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Освойте Aspose.Tasks для .NET для настройки представлений временной шкалы. Улучшите управление проектами с помощью визуально привлекательных графиков, адаптированных к потребностям вашего проекта.
+weight: 13
+url: /ru/net/text-view-configuration/timeline-views/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение представлений временных шкал проекта в Aspose.Tasks
+
+## Введение
+Создание визуально привлекательных и информативных представлений временной шкалы имеет решающее значение для эффективного управления проектами. Aspose.Tasks для .NET предоставляет надежное решение для настройки представлений временной шкалы, позволяющее адаптировать отображение задач в соответствии с конкретными потребностями вашего проекта. В этом пошаговом руководстве мы рассмотрим, как использовать Aspose.Tasks для легкого создания и настройки представлений временной шкалы.
+## Предварительные условия
+Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующее:
+- Базовые знания программирования на C# и .NET.
+-  Установлена библиотека Aspose.Tasks для .NET. Если нет, скачайте его[здесь](https://releases.aspose.com/tasks/net/).
+- Интегрированная среда разработки (IDE), например Visual Studio.
+## Импортировать пространства имен
+Убедитесь, что вы импортировали необходимые пространства имен в свой код C#:
+```csharp
+    using Aspose.Tasks;
+    using System;
+    
+    using Aspose.Tasks.Saving;
+```
+## Шаг 1. Инициализация представления проекта и временной шкалы
+Начните с инициализации нового проекта и представления временной шкалы:
+```csharp
+var project = new Project();
+var view = new TimelineView();
+```
+## Шаг 2. Установите свойства представления временной шкалы
+Настройте представление временной шкалы, установив различные свойства:
+```csharp
+view.DateFormat = DateFormat.DateDddDd;
+view.DisplayOverlapped = true;
+view.ShowPanZoom = true;
+view.ShowTimescale = true;
+view.ShowToday = true;
+view.TextLinesCount = 2;
+```
+## Шаг 3. Отображение сведений о представлении временной шкалы
+Получите информацию о представлении временной шкалы:
+```csharp
+Console.WriteLine("Show Dates: " + view.ShowDates);
+```
+## Шаг 4. Добавьте представление в проект
+Добавьте в проект настроенное представление временной шкалы:
+```csharp
+project.Views.Add(view);
+```
+## Шаг 5. Добавьте тестовые данные в проект
+Заполните проект примерами задач:
+```csharp
+var task1 = project.RootTask.Children.Add("Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task1.Set(Tsk.Duration, task1.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task2.Set(Tsk.Duration, task1.ParentProject.GetDuration(40, TimeUnitType.Hour));
+```
+## Шаг 6. Сохраните проект в формате PDF.
+Сохраните проект с настроенным представлением временной шкалы в виде файла PDF:
+```csharp
+project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat.Pdf);
+```
+## Заключение
+Поздравляем! Вы успешно настроили представления временной шкалы с помощью Aspose.Tasks для .NET. Эта мощная библиотека упрощает процесс создания визуально привлекательных сроков проекта, расширяя ваши возможности управления проектами.
+## Часто задаваемые вопросы
+### Совместим ли Aspose.Tasks с другими платформами .NET?
+Да, Aspose.Tasks поддерживает различные платформы .NET, обеспечивая совместимость с вашей средой разработки.
+### Могу ли я настроить внешний вид отдельных задач на временной шкале?
+Абсолютно! Aspose.Tasks обеспечивает гибкость настройки внешнего вида каждой задачи на временной шкале.
+### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Tasks?
+ Посетить[Документация Aspose.Tasks](https://reference.aspose.com/tasks/net/)для подробных руководств и[форум поддержки](https://forum.aspose.com/c/tasks/15) для оказания помощи.
+### Доступна ли бесплатная пробная версия Aspose.Tasks?
+ Да, вы можете изучить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+### Как получить временную лицензию на Aspose.Tasks?
+ Получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

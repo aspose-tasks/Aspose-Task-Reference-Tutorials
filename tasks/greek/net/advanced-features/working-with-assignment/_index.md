@@ -1,0 +1,123 @@
+---
+title: Εργασία με Ανάθεση στο Aspose.Tasks
+linktitle: Εργασία με Ανάθεση στο Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Μάθετε πώς να διαχειρίζεστε τις αναθέσεις έργων στο .NET χρησιμοποιώντας το Aspose.Tasks. Εξερευνήστε διαφορετικά περιγράμματα για τον προγραμματισμό πόρων.
+weight: 13
+url: /el/net/advanced-features/working-with-assignment/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με Ανάθεση στο Aspose.Tasks
+
+## Εισαγωγή
+
+Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο εργασίας με εργασίες στο Aspose.Tasks για .NET. Οι εργασίες είναι ζωτικής σημασίας στη διαχείριση έργου, καθώς κατανέμουν πόρους σε εργασίες, βοηθώντας στον προγραμματισμό και την παρακολούθηση της προόδου. Θα επικεντρωθούμε στη δημιουργία δεδομένων χρονικής φάσης εκχώρησης πόρων με διάφορα περιγράμματα χρησιμοποιώντας το Aspose.Tasks.
+
+## Προαπαιτούμενα
+
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+
+1.  Εγκατάσταση του Aspose.Tasks για .NET: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.Tasks για .NET από τη[σύνδεσμος λήψης](https://releases.aspose.com/tasks/net/).
+2. Βασική κατανόηση των C# και .NET Framework: Η εξοικείωση με τη γλώσσα προγραμματισμού C# και τις έννοιες του πλαισίου .NET είναι απαραίτητη για να ακολουθήσει.
+
+## Εισαγωγή χώρων ονομάτων
+
+Βεβαιωθείτε ότι έχετε εισαγάγει τους απαραίτητους χώρους ονομάτων στο έργο σας C#:
+
+```csharp
+using Aspose.Tasks;
+using System;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Util;
+
+```
+
+## Βήμα 1: Δημιουργήστε ένα έργο και μια εργασία
+
+Ας ξεκινήσουμε δημιουργώντας ένα νέο έργο και προσθέτοντας μια εργασία σε αυτό. Ορίστε την ημερομηνία έναρξης, τη διάρκεια και την ημερομηνία λήξης για την εργασία:
+
+```csharp
+var project = new Project();
+project.Set(Prj.StartDate, new DateTime(2000, 1, 3, 8, 0, 0));
+project.Set(Prj.FinishDate, new DateTime(2000, 1, 7, 17, 0, 0));
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2000, 1, 3, 17, 0, 0));
+```
+
+## Βήμα 2: Προσθέστε έναν πόρο και αντιστοιχίστε σε εργασία
+
+Στη συνέχεια, προσθέστε έναν πόρο στο έργο και αντιστοιχίστε τον στην εργασία που δημιουργήθηκε προηγουμένως:
+
+```csharp
+var resource = project.Resources.Add("Resource");
+
+var resourceAssignment = project.ResourceAssignments.Add(task, resource);
+resourceAssignment.Set(Asn.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+resourceAssignment.Set(Asn.Work, project.GetWork(8));
+resourceAssignment.Set(Asn.Finish, new DateTime(2000, 1, 3, 17, 0, 0));
+```
+
+## Βήμα 3: Δημιουργήστε δεδομένα χρονικής φάσης με διαφορετικά περιγράμματα
+
+Τώρα, ας δημιουργήσουμε δεδομένα χρονικής φάσης με διαφορετικά περιγράμματα για την εκχώρηση πόρων:
+
+```csharp
+Console.WriteLine("Flat contour");
+
+var collection = task.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate));
+foreach (var td in collection)
+{
+	Console.WriteLine(td.Start.ToShortDateString() + " " + td.Value);
+}
+```
+
+## Βήμα 4: Αλλαγή περιγραμμάτων και δημιουργία δεδομένων
+
+Μπορούμε να αλλάξουμε τον τύπο περιγράμματος και να δημιουργήσουμε δεδομένα χρονικής φάσης ανάλογα. Να μερικά παραδείγματα:
+
+```csharp
+// Αλλαγή περιγράμματος
+resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
+// Δημιουργήστε δεδομένα χρονικής φάσης και εκτυπώστε
+// Επαναλάβετε αυτό το βήμα για άλλους τύπους περιγράμματος
+```
+
+## συμπέρασμα
+
+Σε αυτό το σεμινάριο, μάθαμε πώς να εργαζόμαστε με εργασίες στο Aspose.Tasks για .NET. Εξερευνήσαμε τη δημιουργία δεδομένων χρονικής φάσης εκχώρησης πόρων με διάφορα περιγράμματα. Αυτή η γνώση μπορεί να είναι εξαιρετικά χρήσιμη σε σενάρια διαχείρισης έργων.
+
+## Συχνές ερωτήσεις
+
+### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Tasks για τον προγραμματισμό εργασιών στην εφαρμογή μου .NET;
+
+A1: Ναι, το Aspose.Tasks παρέχει ολοκληρωμένα API για προγραμματισμό και διαχείριση εργασιών σε εφαρμογές .NET.
+
+### Ε2: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks;
+
+ A2: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
+
+### Ε3: Υπάρχουν περιορισμοί στον αριθμό των εργασιών ή των πόρων στο Aspose.Tasks;
+
+A3: Το Aspose.Tasks δεν επιβάλλει περιορισμούς στον αριθμό των εργασιών ή των πόρων που μπορείτε να διαχειριστείτε στα έργα σας.
+
+### Ε4: Μπορώ να προσαρμόσω τα περιγράμματα για αναθέσεις πόρων στο Aspose.Tasks;
+
+A4: Ναι, όπως αποδεικνύεται σε αυτό το σεμινάριο, μπορείτε να ορίσετε διάφορα περιγράμματα όπως χελώνα, καμπάνα, κορυφή κ.λπ., σύμφωνα με τις απαιτήσεις του έργου σας.
+
+### Ε5: Πού μπορώ να βρω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
+
+A5: Μπορείτε να βρείτε υποστήριξη στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) όπου ειδικοί και μέλη της κοινότητας συμμετέχουν ενεργά σε συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

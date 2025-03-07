@@ -1,0 +1,82 @@
+---
+title: จัดการความแปรปรวนของงานใน Aspose.Tasks
+linktitle: จัดการความแปรปรวนของงานใน Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: สำรวจพลังของ Aspose.Tasks สำหรับ Java ในการจัดการความแปรปรวนของงานโปรเจ็กต์ ปฏิบัติตามคำแนะนำที่ครอบคลุมของเราเพื่อการบูรณาการที่ราบรื่นและการจัดการที่มีประสิทธิภาพ
+weight: 19
+url: /th/java/task-properties/handle-variances/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการความแปรปรวนของงานใน Aspose.Tasks
+
+## การแนะนำ
+ในโลกของการจัดการโครงการ Aspose.Tasks สำหรับ Java มีความโดดเด่นในฐานะเครื่องมือที่แข็งแกร่งและอเนกประสงค์สำหรับการจัดการความแปรปรวนของงานได้อย่างมีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการใช้ Aspose.Tasks เพื่อจัดการและปรับให้เข้ากับความแปรปรวนของงานได้อย่างราบรื่น
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้ติดตั้งอยู่ในเครื่องของคุณ
+-  ไลบรารี Aspose.Tasks: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks คุณสามารถค้นหาห้องสมุด[ที่นี่](https://releases.aspose.com/tasks/java/).
+## แพ็คเกจนำเข้า
+เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ แพ็คเกจเหล่านี้จำเป็นสำหรับการใช้ฟังก์ชัน Aspose.Tasks
+```java
+import com.aspose.tasks.BaselineType;
+import com.aspose.tasks.Prj;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.Tsk;
+import java.util.Calendar;
+```
+## ขั้นตอนที่ 1: การตั้งค่าโครงการ
+เริ่มต้นด้วยการสร้างโปรเจ็กต์ใหม่และเตรียมใช้งานพารามิเตอร์ที่จำเป็น
+```java
+Project project = new Project();
+```
+## ขั้นตอนที่ 2: การเพิ่มงาน
+เพิ่มงานในโครงการด้วยชื่อที่ระบุ
+```java
+Task task = project.getRootTask().getChildren().add("Task");
+```
+## ขั้นตอนที่ 3: การตั้งค่าวันที่เริ่มต้นและระยะเวลา
+ระบุวันที่เริ่มต้นและระยะเวลาของงาน
+```java
+java.util.Calendar cal = java.util.Calendar.getInstance();
+cal.set(2014, Calendar.FEBRUARY, 15, 8, 0, 0);
+project.set(Prj.START_DATE, cal.getTime());
+task.set(Tsk.DURATION, project.getDuration(2));
+```
+## ขั้นตอนที่ 4: การตั้งค่าพื้นฐาน
+กำหนดพื้นฐานสำหรับโครงการเพื่อติดตามผลต่างอย่างมีประสิทธิภาพ
+```java
+project.setBaseline(BaselineType.Baseline);
+```
+## ขั้นตอนที่ 5: การปรับวันที่เริ่มต้นและหยุดงาน
+ปรับแต่งวันที่เริ่มต้นและหยุดงานอย่างละเอียดเพื่อรองรับผลต่าง
+```java
+cal.set(2013, Calendar.NOVEMBER, 29, 8, 0, 0);
+task.set(Tsk.START, cal.getTime());
+cal.set(2013, Calendar.NOVEMBER, 27, 8, 0, 0);
+task.set(Tsk.STOP, cal.getTime());
+```
+ปรับปรุงและปรับใช้ขั้นตอนเหล่านี้ต่อไปตามความต้องการของโครงการของคุณ
+## บทสรุป
+การเรียนรู้การจัดการผลต่างงานใน Aspose.Tasks สำหรับ Java สามารถเพิ่มความสามารถในการจัดการโครงการของคุณได้อย่างมาก ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณสามารถจัดการและปรับให้เข้ากับความแปรปรวนได้อย่างมีประสิทธิภาพ และรับประกันความสำเร็จของโครงการของคุณ
+## คำถามที่พบบ่อย
+### Aspose.Tasks เหมาะสำหรับทุกความต้องการในการจัดการโครงการหรือไม่
+Aspose.Tasks เป็นเครื่องมืออเนกประสงค์ที่เหมาะสำหรับความต้องการการจัดการโครงการที่หลากหลาย โดยให้ความยืดหยุ่นและคุณสมบัติที่แข็งแกร่ง
+### ฉันสามารถรวม Aspose.Tasks เข้ากับโปรเจ็กต์ Java ที่มีอยู่ของฉันได้หรือไม่
+ ใช่ คุณสามารถรวม Aspose.Tasks เข้ากับโปรเจ็กต์ Java ของคุณได้อย่างง่ายดายโดยทำตามเอกสารที่ให้มา[ที่นี่](https://reference.aspose.com/tasks/java/).
+### มีใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks หรือไม่
+ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
+ สำหรับการสนับสนุนและการสนทนา โปรดไปที่ฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+### ฉันสามารถดาวน์โหลด Aspose.Tasks สำหรับ Java ได้หรือไม่
+ ใช่ ดาวน์โหลด Aspose.Tasks สำหรับ Java เวอร์ชันล่าสุด[ที่นี่](https://releases.aspose.com/tasks/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

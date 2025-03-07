@@ -1,0 +1,179 @@
+---
+title: Режим расчета в Aspose.Tasks
+linktitle: Режим расчета в Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Узнайте, как эффективно управлять режимами вычислений в Aspose.Tasks для .NET, чтобы оптимизировать планирование проекта и зависимости задач.
+weight: 29
+url: /ru/net/advanced-features/calculation-mode/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Режим расчета в Aspose.Tasks
+
+## Введение
+
+Aspose.Tasks для .NET — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft Project в своих .NET-приложениях. Одним из важнейших аспектов работы с файлами проекта является управление режимами расчета, которые определяют, как рассчитываются и обновляются задачи и расписания проектов. В этом руководстве мы углубимся в различные режимы вычислений, поддерживаемые Aspose.Tasks для .NET, и продемонстрируем, как их эффективно использовать.
+
+## Предварительные условия
+
+Прежде чем начать, убедитесь, что у вас есть следующее:
+
+1. Visual Studio: убедитесь, что в вашей системе установлена Visual Studio.
+2.  Aspose.Tasks для .NET: Загрузите и установите библиотеку Aspose.Tasks для .NET с сайта[здесь](https://releases.aspose.com/tasks/net/).
+3. Базовое понимание программирования на C#: ознакомьтесь с концепциями программирования на C#.
+
+## Импортировать пространства имен
+
+Прежде чем мы начнем работать с Aspose.Tasks для .NET, давайте импортируем необходимые пространства имен:
+
+```csharp
+using Aspose.Tasks;
+using System;
+
+
+```
+
+## Применение режима автоматического расчета
+
+### Шаг 1. Создайте новый экземпляр проекта.
+
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Automatic`.
+
+```csharp
+var project = new Project
+{
+   CalculationMode = CalculationMode.Automatic
+};
+```
+
+### Шаг 2. Установите дату начала проекта и добавьте задачи.
+
+Определите дату начала проекта и добавьте в него задачи.
+
+```csharp
+project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+```
+
+### Шаг 3. Свяжите задачи
+
+Установите зависимости между задачами.
+
+```csharp
+project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
+```
+
+### Шаг 4. Проверьте пересчитанные даты
+
+Проверьте, были ли даты пересчитаны автоматически.
+
+```csharp
+Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Start).AddDays(1).Equals(task2.Get(Tsk.Start)));
+// При необходимости добавьте дополнительные проверки
+```
+
+## Применение режима ручного расчета
+
+### Шаг 1. Создайте новый экземпляр проекта.
+
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Manual`.
+
+```csharp
+var project = new Project
+{
+   CalculationMode = CalculationMode.Manual
+};
+```
+
+### Шаг 2. Установите дату начала проекта и добавьте задачи.
+
+Определите дату начала проекта и добавьте в него задачи.
+
+```csharp
+project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
+var task1 = project.RootTask.Children.Add("Task 1");
+var task2 = project.RootTask.Children.Add("Task 2");
+```
+
+### Шаг 3. Проверьте свойства задачи
+
+Проверьте, правильно ли заданы свойства задачи в ручном режиме.
+
+```csharp
+Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
+// При необходимости добавьте дополнительные проверки
+```
+
+### Шаг 4. Свяжите задачи и проверьте даты
+
+Свяжите задачи вместе и проверьте, не пересчитываются ли их даты.
+
+```csharp
+project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
+```
+
+## Применение режима «Нет расчета»
+
+### Шаг 1. Создайте новый экземпляр проекта.
+
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.None`.
+
+```csharp
+var project = new Project
+{
+   CalculationMode = CalculationMode.None
+};
+```
+
+### Шаг 2. Добавьте новую задачу
+
+Добавьте в проект новую задачу.
+
+```csharp
+var task = project.RootTask.Children.Add("Task");
+```
+
+### Шаг 3. Проверьте свойства задачи
+
+Проверьте, не рассчитываются ли свойства задачи автоматически.
+
+```csharp
+Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
+// При необходимости добавьте дополнительные проверки
+```
+
+## Заключение
+
+В этом руководстве мы изучили режимы вычислений, доступные в Aspose.Tasks для .NET, и узнали, как применять их в практических сценариях. Независимо от того, нужен ли вам автоматический, ручной или режим без расчета, Aspose.Tasks обеспечивает гибкость, соответствующую требованиям вашего проекта.
+
+## Часто задаваемые вопросы
+
+### Вопрос 1. Могу ли я динамически изменять режим вычислений во время выполнения?
+
+О1: Да, вы можете изменить режим расчета проекта в любой момент во время выполнения, изменив`CalculationMode` свойство.
+
+### Вопрос 2. Поддерживает ли Aspose.Tasks другие форматы файлов управления проектами, кроме Microsoft Project?
+
+A2: Aspose.Tasks в первую очередь ориентирован на форматы файлов Microsoft Project, но также поддерживает другие форматы, такие как Primavera P6 XML, Primavera DB и Asta Powerproject XML.
+
+### Вопрос 3: Подходит ли Aspose.Tasks как для небольших, так и для корпоративных проектов?
+
+А3: Абсолютно! Aspose.Tasks предназначен для удовлетворения потребностей как небольших, так и корпоративных проектов благодаря своим комплексным функциям и надежным API.
+
+### Вопрос 4. Могу ли я интегрировать Aspose.Tasks с другими библиотеками и платформами .NET?
+
+О4: Да, вы можете легко интегрировать Aspose.Tasks с другими библиотеками и платформами .NET, чтобы улучшить функциональность ваших приложений.
+
+### Вопрос 5: Есть ли форум сообщества или канал поддержки, доступный для пользователей Aspose.Tasks?
+
+ A5: Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

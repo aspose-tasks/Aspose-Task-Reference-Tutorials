@@ -1,0 +1,73 @@
+---
+title: สร้างการมอบหมายทรัพยากรใน Aspose.Tasks
+linktitle: สร้างการมอบหมายทรัพยากรใน Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: เรียนรู้วิธีสร้างการมอบหมายทรัพยากรใน Aspose.Tasks สำหรับ Java ได้อย่างง่ายดายด้วยบทช่วยสอนทีละขั้นตอนนี้ การจัดการทรัพยากรโครงการอย่างมีประสิทธิภาพทำได้ง่าย
+weight: 14
+url: /th/java/resource-assignments/create-resource-assignments/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างการมอบหมายทรัพยากรใน Aspose.Tasks
+
+## การแนะนำ
+ในการจัดการโครงการ การมอบหมายทรัพยากรมีบทบาทสำคัญในการจัดสรรทรัพยากรให้กับงานต่างๆ อย่างมีประสิทธิภาพ Aspose.Tasks for Java มอบโซลูชันอันทรงพลังสำหรับการจัดการทรัพยากรโปรเจ็กต์และการมอบหมายงานโดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะสำรวจวิธีสร้างการมอบหมายทรัพยากรทีละขั้นตอนโดยใช้ Aspose.Tasks สำหรับ Java
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเจาะลึกในการสร้างการมอบหมายทรัพยากรโดยใช้ Aspose.Tasks สำหรับ Java ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+### สภาพแวดล้อมการพัฒนาจาวา
+ ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้ง JDK ได้จาก[ที่นี่](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Aspose.Tasks สำหรับไลบรารี Java
+ ดาวน์โหลดไลบรารี Aspose.Tasks สำหรับ Java จาก[หน้าดาวน์โหลด](https://releases.aspose.com/tasks/java/). ปฏิบัติตามคำแนะนำในการติดตั้งเพื่อตั้งค่าไลบรารีในโปรเจ็กต์ Java ของคุณ
+
+## แพ็คเกจนำเข้า
+ในโค้ด Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.Tasks สำหรับ Java เพื่อใช้ฟังก์ชันการทำงาน:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+import com.aspose.tasks.ResourceAssignment;
+import com.aspose.tasks.Task;
+```
+
+## ขั้นตอนที่ 1: สร้างวัตถุโครงการ
+ ยกตัวอย่าง`Project`วัตถุซึ่งแสดงถึงไฟล์โครงการที่คุณกำลังทำงานด้วย:
+```java
+Project project = new Project();
+```
+## ขั้นตอนที่ 2: เพิ่มงานในโครงการ
+ เพิ่มงานในโครงการโดยใช้`addChild` วิธีการรูทงาน:
+```java
+Task task = project.getRootTask().getChildren().add("Task");
+```
+## ขั้นตอนที่ 3: เพิ่มทรัพยากรให้กับโครงการ
+ เพิ่มทรัพยากรให้กับโครงการโดยใช้`add` วิธีการของ`Resources` ของสะสม:
+```java
+Resource rsc = project.getResources().add("Rsc");
+```
+## ขั้นตอนที่ 4: สร้างการมอบหมายทรัพยากร
+ สร้างการมอบหมายทรัพยากรสำหรับงานและทรัพยากรโดยใช้`add` วิธีการของ`ResourceAssignments` ของสะสม:
+```java
+ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
+```
+
+## บทสรุป
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีสร้างการมอบหมายทรัพยากรใน Aspose.Tasks สำหรับ Java ด้วยการทำตามขั้นตอนเหล่านี้ คุณสามารถจัดการการจัดสรรทรัพยากรในแอปพลิเคชันการจัดการโครงการของคุณได้อย่างมีประสิทธิภาพ
+## คำถามที่พบบ่อย
+### ถาม: ฉันสามารถแก้ไขการมอบหมายทรัพยากรหลังจากสร้างได้หรือไม่
+ตอบ: ได้ คุณสามารถอัปเดตการกำหนดทรัพยากรโดยใช้วิธี Aspose.Tasks for Java ที่มีอยู่ในไลบรารีได้
+### ถาม: Aspose.Tasks สำหรับ Java เข้ากันได้กับรูปแบบไฟล์โปรเจ็กต์ต่างๆ หรือไม่
+ตอบ: แน่นอนว่า Aspose.Tasks สำหรับ Java รองรับไฟล์โปรเจ็กต์หลากหลายรูปแบบ รวมถึง MPP, XML และอื่นๆ
+### ถาม: Aspose.Tasks for Java จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานเชิงพาณิชย์หรือไม่
+ตอบ: ใช่ คุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Tasks สำหรับ Java ในโครงการเชิงพาณิชย์ คุณสามารถขอรับใบอนุญาตได้จากเว็บไซต์ Aspose
+### ถาม: ฉันสามารถใช้ Aspose.Tasks สำหรับ Java บนเว็บแอปพลิเคชันของฉันได้หรือไม่
+ตอบ: ได้ คุณสามารถผสานรวม Aspose.Tasks for Java เข้ากับเว็บแอปพลิเคชันของคุณเพื่อจัดการทรัพยากรโปรเจ็กต์แบบไดนามิกได้
+### ถาม: ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
+ ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับความช่วยเหลือด้านเทคนิคหรือข้อสงสัยเกี่ยวกับห้องสมุด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

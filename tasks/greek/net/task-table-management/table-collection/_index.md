@@ -1,0 +1,109 @@
+---
+title: Οδηγός Mastering Table Collections στο Aspose.Tasks
+linktitle: Συλλογή πινάκων στο Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Master Aspose.Tasks για .NET με τον αναλυτικό οδηγό μας για το χειρισμό συλλογών πινάκων. Βελτιώστε τις εφαρμογές διαχείρισης έργου χωρίς κόπο. Κατεβάστε τώρα!
+weight: 11
+url: /el/net/task-table-management/table-collection/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οδηγός Mastering Table Collections στο Aspose.Tasks
+
+## Εισαγωγή
+Ξεκλειδώστε τη δύναμη του Aspose.Tasks για το .NET εμβαθύνοντας στην ενδιαφέρουσα σφαίρα των συλλογών πινάκων. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε το ταξίδι σας με το Aspose.Tasks, αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στις αποχρώσεις του χειρισμού των πινάκων, παρέχοντάς σας τις δεξιότητες για να βελτιώσετε τις εφαρμογές διαχείρισης έργων σας.
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε αυτό το ταξίδι, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+- Βασικές γνώσεις προγραμματισμού C#.
+- Το Aspose.Tasks για .NET είναι εγκατεστημένο στο περιβάλλον ανάπτυξης σας.
+- Ένα αρχείο έργου σε μορφή MPP για πειραματισμό.
+## Εισαγωγή χώρων ονομάτων
+Για να ξεκινήσετε τα πράγματα, βεβαιωθείτε ότι έχετε εισαγάγει τους απαραίτητους χώρους ονομάτων στο έργο σας:
+```csharp
+    using Aspose.Tasks;
+    using System;
+    using System.Collections.Generic;
+    
+```
+## 1. Αρχικοποιήστε το έργο σας
+Ξεκινήστε ρυθμίζοντας το έργο σας και φορτώνοντας το αρχείο MPP:
+```csharp
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String DataDir = "Your Document Directory";
+// Φορτώστε το αρχείο του έργου
+var project = new Project(DataDir + "Project1.mpp");
+```
+## 2. Ελέγξτε την κατάσταση μόνο για ανάγνωση
+Προσδιορίστε εάν η συλλογή των πινάκων είναι μόνο για ανάγνωση:
+```csharp
+Console.WriteLine("Is the collection of tables read-only?: " + project.Tables.IsReadOnly);
+```
+## 3. Επανάληψη Πάνω από Πίνακες
+Εξερευνήστε τους υπάρχοντες πίνακες στο έργο:
+```csharp
+Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
+Console.WriteLine("Table count: " + project.Tables.Count);
+foreach (var tbl in project.Tables)
+{
+    Console.WriteLine("Index: " + tbl.Index);
+    Console.WriteLine("Name: " + tbl.Name);
+}
+```
+## 4. Προσθέστε έναν νέο πίνακα
+Μάθετε πώς μπορείτε να προσθέσετε έναν νέο πίνακα στη συλλογή:
+```csharp
+var tableToAdd = new Table
+{
+    Name = "New Table",
+    ShowInMenu = true
+};
+project.Tables.Add(tableToAdd);
+Console.WriteLine("Does the collection contain the new table?: " + project.Tables.Contains(tableToAdd));
+```
+## 5. Εκκαθαρίστε τη Συλλογή
+Ανακαλύψτε δύο τρόπους για να καθαρίσετε τη συλλογή πινάκων:
+- Διαγράψτε τους πίνακες έναν προς έναν:
+```csharp
+var tables = new Table[project.Tables.Count];
+project.Tables.CopyTo(tables, 0);
+foreach (var table in tables)
+{
+    project.Tables.Remove(table);
+}
+```
+- Εκκαθάριση ολόκληρης της συλλογής:
+```csharp
+project.Tables.Clear();
+```
+## 6. Μετατροπή σε λίστα
+Μετατρέψτε τη συλλογή σε μια απλή λίστα πινάκων:
+```csharp
+List<Table> list = project.Tables.ToList();
+foreach (var table in list)
+{
+    Console.WriteLine("Index: " + table.Index);
+    Console.WriteLine("Name: " + table.Name);
+}
+```
+## συμπέρασμα
+Συγχαρητήρια! Περιηγηθήκατε με επιτυχία στο περίπλοκο τοπίο των συλλογών πινάκων στο Aspose.Tasks για .NET. Οπλισμένοι με αυτή τη γνώση, μπορείτε τώρα να βελτιστοποιήσετε εύκολα τις εφαρμογές διαχείρισης έργων σας.
+## Συχνές Ερωτήσεις
+### Ε: Μπορώ να χειριστώ τις ιδιότητες των υπαρχόντων πινάκων στη συλλογή;
+Α: Απολύτως! Μπορείτε να τροποποιήσετε ιδιότητες όπως όνομα, ορατότητα και άλλα.
+### Ε: Είναι δυνατή η δημιουργία προσαρμοσμένων πινάκων;
+Α: Ναι, μπορείτε να δημιουργήσετε και να προσθέσετε προσαρμοσμένους πίνακες για να τους προσαρμόσετε στις συγκεκριμένες απαιτήσεις σας.
+### Ε: Υπάρχουν περιορισμοί στον αριθμό των πινάκων σε ένα έργο;
+Α: Από την τελευταία έκδοση, δεν υπάρχουν προκαθορισμένοι περιορισμοί στον αριθμό των πινάκων.
+### Ε: Μπορώ να επαναφέρω τις αλλαγές που έγιναν στη συλλογή πινάκων;
+Α: Ναι, μπορείτε να χρησιμοποιήσετε το project.Undo() για να επαναφέρετε τις αλλαγές που έγιναν κατά τη διάρκεια της συνεδρίας.
+### Ε: Υπάρχουν ζητήματα απόδοσης όταν εργάζεστε με μεγάλα έργα;
+Α: Για βέλτιστη απόδοση, εξετάστε τις λειτουργίες παρτίδας και αποφύγετε τις περιττές επαναλήψεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,119 @@
+---
+title: การทำซ้ำตามเดือนวันใน Aspose.Tasks
+linktitle: การทำซ้ำตามเดือนวันใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: เรียนรู้วิธีจัดการงานที่เกิดซ้ำในโครงการ .NET ด้วย Aspose.Tasks คำแนะนำทีละขั้นตอนสำหรับการจัดการการทำซ้ำตามเดือนวัน
+weight: 25
+url: /th/net/advanced-features/repetition-by-month-day/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำซ้ำตามเดือนวันใน Aspose.Tasks
+
+## การแนะนำ
+
+ในขอบเขตของการพัฒนา .NET นั้น Aspose.Tasks ถือเป็นเครื่องมืออันทรงพลังสำหรับการจัดการงานโครงการและกำหนดการ มีฟังก์ชันการทำงานมากมายเพื่อปรับปรุงเวิร์กโฟลว์การจัดการโครงการ รวมถึงการจัดการงานที่เกิดซ้ำ การทำซ้ำตามเดือนเป็นข้อกำหนดทั่วไปในการจัดกำหนดการโครงการ และ Aspose.Tasks ให้การสนับสนุนที่มีประสิทธิภาพสำหรับสถานการณ์นี้
+
+## ข้อกำหนดเบื้องต้น
+
+ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+
+1. ความเข้าใจพื้นฐานของ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# เป็นสิ่งจำเป็นในการเข้าใจแนวคิดที่กล่าวถึงในบทช่วยสอนนี้
+2. การติดตั้ง Aspose.Tasks สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
+3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ติดตั้ง IDE เช่น Visual Studio บนระบบของคุณเพื่อความสะดวกในการเขียนโค้ด
+
+## นำเข้าเนมสเปซ
+
+ในโปรเจ็กต์ C# ของคุณ ให้นำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.Tasks:
+
+```csharp
+using Aspose.Tasks;
+using System;
+
+using Aspose.Tasks.Saving;
+
+```
+
+เรามาแจกแจงตัวอย่างโค้ดที่ให้มาเป็นรูปแบบคำแนะนำทีละขั้นตอน:
+
+## ขั้นตอนที่ 1: โหลดไฟล์โครงการ
+
+```csharp
+// พาธไปยังไดเร็กทอรีเอกสารth
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "Project1.mpp");
+```
+
+ บรรทัดโค้ดนี้เริ่มต้นอินสแตนซ์ใหม่ของ`Project` คลาสกำลังโหลดไฟล์โปรเจ็กต์ชื่อ "Project1.mpp"
+
+## ขั้นตอนที่ 2: กำหนดพารามิเตอร์งานที่เกิดซ้ำ
+
+```csharp
+var parameters = new RecurringTaskParameters
+{
+    TaskName = "t1",
+    Duration = project.GetDuration(1, TimeUnitType.Day),
+    RecurrencePattern = new MonthlyRecurrencePattern
+    {
+        Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+        RecurrenceRange = new EndByRecurrenceRange
+        {
+            Start = new DateTime(2018, 7, 1, 8, 0, 0),
+            Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+        }
+    }
+};
+```
+
+ส่วนนี้กำหนดพารามิเตอร์สำหรับงานที่เกิดซ้ำ รวมถึงชื่อ ระยะเวลา รูปแบบการทำซ้ำ และช่วงการเกิดซ้ำ
+
+## ขั้นตอนที่ 3: เพิ่มงานในโครงการ
+
+```csharp
+project.RootTask.Children.Add(parameters);
+```
+
+ที่นี่ เราเพิ่มพารามิเตอร์งานที่เกิดซ้ำให้กับโปรเจ็กต์
+
+## ขั้นตอนที่ 4: บันทึกไฟล์โครงการ
+
+```csharp
+project.Save(DataDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+สุดท้าย โปรเจ็กต์ที่แก้ไขจะถูกบันทึกพร้อมกับงานที่เกิดซ้ำที่เพิ่มเข้ามา
+
+## บทสรุป
+
+ในบทช่วยสอนนี้ เราได้สำรวจวิธีจัดการกับการทำซ้ำตามเดือนใน Aspose.Tasks for .NET ด้วยการทำตามขั้นตอนที่ให้ไว้ คุณสามารถจัดการงานที่เกิดซ้ำภายในกำหนดการโครงการของคุณได้อย่างมีประสิทธิภาพ
+
+## คำถามที่พบบ่อย
+
+### คำถามที่ 1: Aspose.Tasks เข้ากันได้กับ .NET ทุกเวอร์ชันหรือไม่
+
+คำตอบ 1: Aspose.Tasks รองรับ .NET Framework เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้ในสภาพแวดล้อมที่แตกต่างกัน
+
+### คำถามที่ 2: ฉันสามารถปรับแต่งรูปแบบการเกิดซ้ำเพิ่มเติมได้หรือไม่
+
+ตอบ 2: ใช่ Aspose.Tasks นำเสนอตัวเลือกการปรับแต่งที่ครอบคลุมสำหรับการกำหนดรูปแบบการเกิดซ้ำตามความต้องการของโปรเจ็กต์เฉพาะ
+
+### คำถามที่ 3: Aspose.Tasks ให้การสนับสนุนฟังก์ชันการจัดการโครงการอื่นๆ หรือไม่
+
+ตอบ 3: แน่นอนว่า Aspose.Tasks นำเสนอฟีเจอร์ที่หลากหลายสำหรับการจัดการโครงการ รวมถึงการติดตามงาน การจัดสรรทรัพยากร และการสร้างแผนภูมิแกนต์
+
+### คำถามที่ 4: Aspose.Tasks มีเวอร์ชันทดลองใช้งานหรือไม่
+
+ A4: ได้ คุณสามารถทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/) เพื่อสำรวจความสามารถของ Aspose.Tasks ก่อนตัดสินใจซื้อ
+
+### คำถามที่ 5: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันประสบปัญหาหรือมีข้อสงสัย
+
+ A5: คุณสามารถเยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อขอการสนับสนุนจากชุมชนหรือทีมงาน Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

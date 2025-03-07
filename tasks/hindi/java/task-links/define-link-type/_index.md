@@ -1,0 +1,74 @@
+---
+title: Aspose.Tasks में लिंक प्रकार को परिभाषित करें
+linktitle: Aspose.Tasks में लिंक प्रकार को परिभाषित करें
+second_title: Aspose.Tasks जावा एपीआई
+description: परियोजना प्रबंधन में जावा के लिए Aspose.Tasks की शक्ति का अन्वेषण करें। हमारे चरण-दर-चरण ट्यूटोरियल के साथ लिंक प्रकारों को आसानी से परिभाषित और अनुकूलित करें।
+weight: 13
+url: /hi/java/task-links/define-link-type/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में लिंक प्रकार को परिभाषित करें
+
+## परिचय
+जावा के लिए Aspose.Tasks के साथ कुशल परियोजना प्रबंधन की दुनिया में आपका स्वागत है! यदि आप अपने प्रोजेक्ट प्रबंधन को सुव्यवस्थित करना और उत्पादकता बढ़ाना चाहते हैं, तो आप सही जगह पर हैं। इस व्यापक ट्यूटोरियल में, हम आपकी परियोजना प्रबंधन क्षमताओं को बढ़ाते हुए, जावा के लिए Aspose.Tasks में लिंक प्रकारों को परिभाषित करने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
+## आवश्यक शर्तें
+इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपने निम्नलिखित पूर्वापेक्षाएँ स्थापित कर ली हैं:
+- जावा विकास पर्यावरण: सुनिश्चित करें कि आपके सिस्टम पर एक कार्यात्मक जावा विकास वातावरण स्थापित है।
+-  Aspose.Tasks लाइब्रेरी: जावा लाइब्रेरी के लिए Aspose.Tasks को डाउनलोड और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/tasks/java/).
+- दस्तावेज़ निर्देशिका: एक निर्देशिका बनाएं जहां आप अपने प्रोजेक्ट दस्तावेज़ संग्रहीत करेंगे।
+## पैकेज आयात करें
+इस चरण में, हम अपने प्रोजेक्ट को किकस्टार्ट करने के लिए आवश्यक पैकेज आयात करेंगे। यह सुनिश्चित करता है कि आपका जावा वातावरण Aspose.Tasks कार्यक्षमता को निर्बाध रूप से एकीकृत करने के लिए तैयार है।
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.TaskLink;
+import com.aspose.tasks.TaskLinkCollection;
+import com.aspose.tasks.TaskLinkType;
+```
+## Aspose.Tasks में लिंक प्रकार को परिभाषित करें
+अब, चलिए मुख्य कार्यक्षमता पर चलते हैं - जावा के लिए Aspose.Tasks में लिंक प्रकारों को परिभाषित करना।
+## चरण 1: लिंक प्रकार सेट करना
+```java
+// दस्तावेज़ निर्देशिका का पथ.
+String dataDir = "Your Document Directory";
+
+Project project = new Project();
+Task pred = project.getRootTask().getChildren().add("Task 1");
+Task succ = project.getRootTask().getChildren().add("Task 2");
+TaskLink link = project.getTaskLinks().add(pred, succ);
+link.setLinkType(TaskLinkType.StartToStart);
+```
+इस चरण में, हम एक नया प्रोजेक्ट बनाते हैं, दो कार्य जोड़ते हैं, और उनके बीच एक निर्दिष्ट लिंक प्रकार (इस मामले में, स्टार्ट-टू-स्टार्ट) के साथ एक लिंक स्थापित करते हैं।
+## चरण 2: लिंक प्रकार प्राप्त करना
+```java
+Project project = new Project(dataDir + "project.xml");
+TaskLinkCollection allLinks = project.getTaskLinks();
+for (TaskLink tskLink : allLinks) {
+    System.out.println(tskLink.getLinkType());
+}
+```
+यहां, हम एक मौजूदा प्रोजेक्ट को XML फ़ाइल से लोड करते हैं और सभी कार्य लिंक के माध्यम से पुनरावृत्त करते हैं, उनके संबंधित लिंक प्रकारों को प्रिंट करते हैं।
+इन चरणों का पालन करके, आप अपने Aspose.Tasks for Java प्रोजेक्ट में कार्यों के लिए लिंक प्रकारों को सफलतापूर्वक परिभाषित और पुनः प्राप्त करेंगे।
+## निष्कर्ष
+बधाई हो! अब आपने जावा के लिए Aspose.Tasks में लिंक प्रकारों को परिभाषित करने की कला में महारत हासिल कर ली है। यह शक्तिशाली उपकरण कुशल परियोजना प्रबंधन के लिए नई संभावनाएं खोलता है। अपने प्रोजेक्ट वर्कफ़्लो को पूर्णता के अनुरूप बनाने के लिए विभिन्न लिंक प्रकारों के साथ प्रयोग करें।
+## अक्सर पूछे जाने वाले प्रश्नों
+### प्रश्न: क्या Aspose.Tasks विभिन्न जावा परिवेशों के साथ संगत है?
+उत्तर: हां, Aspose.Tasks को विभिन्न जावा विकास परिवेशों के साथ सहजता से एकीकृत करने के लिए डिज़ाइन किया गया है।
+### प्रश्न: क्या मैं अपनी परियोजना आवश्यकताओं के आधार पर लिंक प्रकारों को अनुकूलित कर सकता हूँ?
+उत्तर: बिल्कुल! Aspose.Tasks लचीलापन प्रदान करता है, जिससे आप अपनी परियोजना की आवश्यकताओं के अनुरूप लिंक प्रकारों को परिभाषित और अनुकूलित कर सकते हैं।
+### प्रश्न: मैं जावा के लिए Aspose.Tasks के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
+ ए: का संदर्भ लें[जावा दस्तावेज़ीकरण के लिए Aspose.Tasks](https://reference.aspose.com/tasks/java/) गहन मार्गदर्शन के लिए.
+### प्रश्न: मैं Aspose.Tasks के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+ दौरा[इस लिंक](https://purchase.aspose.com/temporary-license/) परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करना।
+### प्रश्न: Aspose.Tasks से संबंधित प्रश्नों के लिए मुझे सहायता कहां से मिल सकती है?
+ उत्तर: Aspose.Tasks समुदाय से जुड़ें[सहयता मंच](https://forum.aspose.com/c/tasks/15) सहायता और चर्चा के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,77 @@
+---
+title: Προγραμματισμός εργασιών βάσης στο Aspose.Tasks
+linktitle: Προγραμματισμός εργασιών βάσης στο Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: Μάθετε πώς να προγραμματίζετε αποτελεσματικά τις γραμμές βάσης εργασιών με το Aspose.Tasks για Java. Βελτιώστε τις διαδικασίες διαχείρισης του έργου σας χωρίς κόπο.
+weight: 10
+url: /el/java/task-baselines/baseline-task-scheduling/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προγραμματισμός εργασιών βάσης στο Aspose.Tasks
+
+## Εισαγωγή
+Η διαχείριση των βασικών γραμμών εργασιών είναι μια κρίσιμη πτυχή της διαχείρισης έργου, που σας επιτρέπει να συγκρίνετε με ακρίβεια την προγραμματισμένη με την πραγματική πρόοδο. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εκτελέσετε τον προγραμματισμό εργασιών βάσης χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθώντας αυτά τα βήματα, θα είστε εξοπλισμένοι για να βελτιστοποιήσετε αποτελεσματικά τις διαδικασίες διαχείρισης του έργου σας.
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+### Περιβάλλον Ανάπτυξης Java
+ Βεβαιωθείτε ότι έχετε εγκαταστήσει το Java Development Kit (JDK) στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε το JDK από το[δικτυακός τόπος](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Aspose.Tasks for Java Library
+ Κάντε λήψη της βιβλιοθήκης Aspose.Tasks για Java από το[σελίδα λήψης](https://releases.aspose.com/tasks/java/) και να το συμπεριλάβετε στο έργο σας Java.
+## Εισαγωγή πακέτων
+Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο σας Java:
+```java
+import com.aspose.tasks.BaselineType;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.TaskBaseline;
+```
+Τώρα, ας αναλύσουμε το παρεχόμενο παράδειγμα σε πολλά βήματα:
+## Βήμα 1: Δημιουργήστε ένα νέο παράδειγμα έργου
+```java
+Project project = new Project();
+```
+## Βήμα 2: Καθορίστε μια εργασία και ορίστε τη γραμμή βάσης
+```java
+Task task = project.getRootTask().getChildren().add("Task");
+project.setBaseline(BaselineType.Baseline);
+```
+## Βήμα 3: Πρόσβαση στις πληροφορίες βασικής γραμμής
+```java
+TaskBaseline baseline = task.getBaselines().get(0);
+```
+## Βήμα 4: Εμφάνιση διάρκειας γραμμής βάσης
+```java
+System.out.println(baseline.getDuration().toString());
+```
+## Βήμα 5: Εμφάνιση ημερομηνίας έναρξης γραμμής βάσης
+```java
+System.out.println("Baseline Start: " + baseline.getStart());
+```
+## Βήμα 6: Εμφάνιση ημερομηνίας λήξης γραμμής βάσης
+```java
+System.out.println("Baseline Finish: " + baseline.getFinish());
+```
+Ακολουθώντας αυτά τα βήματα, μπορείτε να χρησιμοποιήσετε αποτελεσματικά το Aspose.Tasks για Java για τη διαχείριση των γραμμών βάσης εργασιών στα έργα σας.
+## συμπέρασμα
+Συμπερασματικά, η γνώση του βασικού προγραμματισμού εργασιών είναι απαραίτητη για την ακριβή διαχείριση του έργου. Με το Aspose.Tasks για Java, μπορείτε να χειρίζεστε αβίαστα τις βασικές γραμμές εργασιών και να διασφαλίζετε την ευθυγράμμιση μεταξύ προγραμματισμένης και πραγματικής προόδου, οδηγώντας σε επιτυχημένα αποτελέσματα του έργου.
+## Συχνές ερωτήσεις
+### Μπορεί το Aspose.Tasks για Java να χειριστεί πολύπλοκες δομές έργου;
+Ναι, το Aspose.Tasks για Java προσφέρει ισχυρές δυνατότητες για την αποτελεσματική διαχείριση έργων διαφορετικής πολυπλοκότητας.
+### Είναι το Aspose.Tasks για Java συμβατό με άλλες βιβλιοθήκες Java;
+Οπωσδήποτε, το Aspose.Tasks για Java ενσωματώνεται απρόσκοπτα με άλλες βιβλιοθήκες Java, ενισχύοντας τις δυνατότητες διαχείρισης του έργου σας.
+### Μπορώ να προσαρμόσω τις γραμμές βάσης εργασιών χρησιμοποιώντας το Aspose.Tasks για Java;
+Σίγουρα, το Aspose.Tasks για Java παρέχει εκτεταμένες λειτουργίες για την προσαρμογή και τη διαχείριση των γραμμών βάσης εργασιών σύμφωνα με τις απαιτήσεις του έργου σας.
+### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για Java;
+ Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για Java από το[σελίδα έκδοσης](https://releases.aspose.com/).
+### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για Java;
+ Για οποιαδήποτε απορία ή βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

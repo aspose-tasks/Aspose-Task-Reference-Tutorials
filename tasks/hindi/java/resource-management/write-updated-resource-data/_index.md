@@ -1,0 +1,113 @@
+---
+title: Aspose.Tasks में अद्यतन संसाधन डेटा लिखें
+linktitle: Aspose.Tasks में अद्यतन संसाधन डेटा लिखें
+second_title: Aspose.Tasks जावा एपीआई
+description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट फ़ाइलों में संसाधन डेटा को आसानी से अपडेट करना सीखें।
+weight: 21
+url: /hi/java/resource-management/write-updated-resource-data/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में अद्यतन संसाधन डेटा लिखें
+
+## परिचय
+इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट संसाधन डेटा को अपडेट करने में आपका मार्गदर्शन करेंगे। Aspose.Tasks एक शक्तिशाली जावा एपीआई है जो आपको आपके सिस्टम पर Microsoft प्रोजेक्ट इंस्टॉल किए बिना Microsoft प्रोजेक्ट फ़ाइलों में हेरफेर करने की अनुमति देता है।
+
+## आवश्यक शर्तें
+
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+
+1. आपके सिस्टम पर जावा डेवलपमेंट किट (जेडीके) स्थापित है।
+2.  जावा लाइब्रेरी के लिए Aspose.Tasks। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/java/).
+3. जावा प्रोग्रामिंग का बुनियादी ज्ञान।
+
+## पैकेज आयात करें
+
+सबसे पहले, आपको अपने जावा कोड में Aspose.Tasks के साथ काम करने के लिए आवश्यक पैकेज आयात करने होंगे। अपनी जावा फ़ाइल में निम्नलिखित आयात विवरण जोड़ें:
+
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+import com.aspose.tasks.Rsc;
+import com.aspose.tasks.SaveFileFormat;
+```
+
+## चरण 1: अपनी डेटा निर्देशिका सेट करें
+
+उस निर्देशिका को परिभाषित करें जहां आपकी डेटा फ़ाइलें स्थित हैं:
+
+```java
+String dataDir = "Your Data Directory";
+```
+
+## चरण 2: इनपुट और आउटपुट फ़ाइलें निर्दिष्ट करें
+
+इनपुट एमएस प्रोजेक्ट फ़ाइल और परिणामी अद्यतन फ़ाइल के लिए पथ परिभाषित करें:
+
+```java
+String file = dataDir + "ResourceWithExtAttribs.xml"; // अद्यतन करने के लिए एक आरएससी के साथ परीक्षण फ़ाइल
+String resultFile = dataDir + "OutputMPP.mpp"; // परीक्षण प्रोजेक्ट लिखने के लिए फ़ाइल
+```
+
+## चरण 3: प्रोजेक्ट लोड करें
+
+ MS प्रोजेक्ट फ़ाइल को a में लोड करें`Project` वस्तु:
+
+```java
+Project project = new Project(file);
+```
+
+## चरण 4: एक संसाधन जोड़ें और विशेषताएँ सेट करें
+
+प्रोजेक्ट में एक नया संसाधन जोड़ें और इसकी विशेषताएँ जैसे मानक दर, ओवरटाइम दर और समूह सेट करें:
+
+```java
+Resource rsc = project.getResources().add("Rsc");
+rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(30));
+rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(45));
+rsc.set(Rsc.GROUP, "Workgroup1");
+```
+
+## चरण 5: प्रोजेक्ट सहेजें
+
+संशोधित संसाधन डेटा के साथ अद्यतन प्रोजेक्ट सहेजें:
+
+```java
+project.save(resultFile, SaveFileFormat.Mpp);
+```
+
+## निष्कर्ष
+
+इस ट्यूटोरियल में, हमने दर्शाया है कि जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संसाधन डेटा को कैसे अपडेट किया जाए। इन चरणों का पालन करके, आप अपने एमएस प्रोजेक्ट फ़ाइलों में संसाधन जानकारी को प्रोग्रामेटिक रूप से कुशलतापूर्वक हेरफेर कर सकते हैं।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+### Q1: क्या मैं Java के लिए Aspose.Tasks का उपयोग करके एक ही प्रोजेक्ट में एकाधिक संसाधनों को अपडेट कर सकता हूँ?
+
+A1: हाँ, आप अनेक संसाधनों को बार-बार दोहराकर और उनकी विशेषताओं को तदनुसार सेट करके अद्यतन कर सकते हैं।
+
+### Q2: क्या Aspose.Tasks MS प्रोजेक्ट के अलावा अन्य फ़ाइल स्वरूपों का समर्थन करता है?
+
+A2: हाँ, Aspose.Tasks XML, MPP और अन्य सहित विभिन्न फ़ाइल स्वरूपों का समर्थन करता है।
+
+### Q3: क्या Aspose.Tasks जावा के विभिन्न संस्करणों के साथ संगत है?
+
+A3: Aspose.Tasks जावा संस्करण 6 और उससे ऊपर के संस्करण के साथ संगत है।
+
+### Q4: क्या मैं Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइलों पर अन्य ऑपरेशन कर सकता हूँ?
+
+A4: हां, आप पढ़ने, लिखने और कार्यों, संसाधनों और कैलेंडर में हेरफेर करने जैसे कई प्रकार के ऑपरेशन कर सकते हैं।
+
+### Q5: Aspose.Tasks के लिए मुझे अतिरिक्त सहायता या समर्थन कहां मिल सकता है?
+
+ A5: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) किसी भी सहायता या प्रश्न के लिए।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,88 @@
+---
+title: Weekday Properties στο Aspose.Tasks
+linktitle: Weekday Properties στο Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: Μάθετε να διαχειρίζεστε αποτελεσματικά τις ιδιότητες της εβδομάδας στο Aspose.Tasks για Java. Προσαρμόστε εύκολα τις ημερομηνίες έναρξης της εβδομάδας, τις ημέρες ανά μήνα και πολλά άλλα.
+weight: 25
+url: /el/java/project-file-operations/weekday-properties/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Weekday Properties στο Aspose.Tasks
+
+## Εισαγωγή
+Το Aspose.Tasks για Java είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές Java να εργάζονται με αρχεία Microsoft Project χωρίς εγκατεστημένο το Microsoft Project στο μηχάνημα. Μία από τις βασικές λειτουργίες του είναι η διαχείριση ιδιοτήτων καθημερινών, επιτρέποντας στους χρήστες να προσαρμόζουν τις ημερομηνίες έναρξης της εβδομάδας, τις ημέρες ανά μήνα, τα λεπτά την ημέρα και τα λεπτά την εβδομάδα. Αυτό το σεμινάριο θα παρέχει έναν λεπτομερή οδηγό για τον τρόπο αποτελεσματικής χρήσης αυτών των δυνατοτήτων.
+## Προαπαιτούμενα
+Πριν βουτήξετε στο Aspose.Tasks για Java, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+### Java Development Kit (JDK)
+Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να κάνετε λήψη και εγκατάσταση του πιο πρόσφατου JDK από τον ιστότοπο της Oracle.
+### Aspose.Tasks for Java Library
+ Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.Tasks για Java από τον ιστότοπο. Μπορείτε να αποκτήσετε πρόσβαση στον σύνδεσμο λήψης[εδώ](https://releases.aspose.com/tasks/java/).
+### Ολοκληρωμένο Αναπτυξιακό Περιβάλλον (IDE)
+Επιλέξτε ένα IDE της προτίμησής σας για ανάπτυξη Java. Οι δημοφιλείς επιλογές περιλαμβάνουν το IntelliJ IDEA, το Eclipse ή το NetBeans.
+## Εισαγωγή πακέτων
+Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα Aspose.Tasks στο έργο σας Java. Δείτε πώς:
+
+```java
+import com.aspose.tasks.DayType;
+import com.aspose.tasks.Prj;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.SaveFileFormat;
+```
+
+Τώρα, ας αναλύσουμε το παρεχόμενο παράδειγμα σε πολλά βήματα για καλύτερη κατανόηση.
+## Βήμα 1: Φόρτωση αρχείου έργου
+```java
+String dataDir = "Your Data Directory";
+Project project = new Project(dataDir + "project.mpp");
+```
+Αυτό το βήμα περιλαμβάνει τη φόρτωση ενός αρχείου Project με το όνομα "project.mpp" από τον καθορισμένο κατάλογο δεδομένων.
+## Βήμα 2: Εμφάνιση ιδιοτήτων της εβδομάδας
+```java
+System.out.println("Week Start Date : " + project.get(Prj.WEEK_START_DAY).toString());
+System.out.println("Days Per Month : " + project.get(Prj.DAYS_PER_MONTH).toString());
+System.out.println("Minutes Per Day : " + project.get(Prj.MINUTES_PER_DAY).toString());
+System.out.println("Minutes Per Week : " + project.get(Prj.MINUTES_PER_WEEK).toString());
+```
+Εδώ, ανακτούμε και εκτυπώνουμε τις ιδιότητες ημερομηνίας έναρξης της εβδομάδας, ημέρες ανά μήνα, λεπτά ανά ημέρα και λεπτά ανά εβδομάδα του φορτωμένου έργου.
+## Βήμα 3: Ρύθμιση ιδιοτήτων της εβδομάδας
+```java
+Project prj = new Project();
+project.set(Prj.WEEK_START_DAY, DayType.Monday);
+project.set(Prj.DAYS_PER_MONTH, 24);
+project.set(Prj.MINUTES_PER_DAY, 540);
+project.set(Prj.MINUTES_PER_WEEK, 3240);
+```
+Αυτό το βήμα περιλαμβάνει τη δημιουργία μιας νέας παρουσίας έργου και τη ρύθμιση προσαρμοσμένων ιδιοτήτων της εβδομάδας, όπως η ημέρα έναρξης της εβδομάδας, οι ημέρες ανά μήνα, τα λεπτά ανά ημέρα και τα λεπτά την εβδομάδα.
+## Βήμα 4: Αποθήκευση έργου
+```java
+prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
+```
+Τέλος, αποθηκεύουμε το τροποποιημένο έργο με τις ενημερωμένες ιδιότητες της εβδομάδας ως αρχείο XML.
+## Βήμα 5: Εμφάνιση αποτελεσμάτων
+```java
+System.out.println("Process completed Successfully");
+```
+Αυτό το βήμα επιβεβαιώνει την επιτυχή ολοκλήρωση της διαδικασίας.
+## συμπέρασμα
+Η εκμάθηση των ιδιοτήτων της εβδομάδας στο Aspose.Tasks για Java είναι ζωτικής σημασίας για την αποτελεσματική διαχείριση έργου. Ακολουθώντας αυτό το σεμινάριο, έχετε μάθει πώς να χειρίζεστε και να προσαρμόζετε αβίαστα τις ιδιότητες των καθημερινών. Εξερευνήστε περαιτέρω τεκμηρίωση και παραδείγματα για να βελτιώσετε τις δυνατότητες διαχείρισης του έργου σας.
+## Συχνές ερωτήσεις
+### Ε: Μπορεί το Aspose.Tasks για Java να χειριστεί περίπλοκες δομές έργου;
+Α: Ναι, το Aspose.Tasks για Java παρέχει ολοκληρωμένη υποστήριξη για το χειρισμό πολύπλοκων δομών έργων με ευκολία.
+### Ε: Είναι το Aspose.Tasks για Java συμβατό με διαφορετικές εκδόσεις αρχείων Microsoft Project;
+Α: Απολύτως, το Aspose.Tasks για Java υποστηρίζει διάφορες εκδόσεις αρχείων Microsoft Project, διασφαλίζοντας τη συμβατότητα σε όλες τις πλατφόρμες.
+### Ε: Μπορώ να ενσωματώσω το Aspose.Tasks για Java στις υπάρχουσες εφαρμογές Java μου;
+Α: Ναι, το Aspose.Tasks για Java προσφέρει δυνατότητες απρόσκοπτης ενοποίησης, επιτρέποντάς σας να βελτιώσετε τις εφαρμογές σας Java με ισχυρές δυνατότητες διαχείρισης έργου.
+### Ε: Το Aspose.Tasks για Java παρέχει τεκμηρίωση και υποστήριξη;
+ Α: Ναι, μπορείτε να έχετε πρόσβαση σε εκτενή τεκμηρίωση και υποστήριξη κοινότητας για το Aspose.Tasks για Java στο δικό τους[δικτυακός τόπος](https://releases.aspose.com/).
+### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για Java;
+Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Tasks για Java από το δικό τους[δικτυακός τόπος](https://reference.aspose.com/tasks/java/) για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

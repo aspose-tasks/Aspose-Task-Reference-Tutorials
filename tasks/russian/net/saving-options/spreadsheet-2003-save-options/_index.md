@@ -1,0 +1,79 @@
+---
+title: MS Project с опциями Spreadsheet 2003 для Aspose.Tasks
+linktitle: Параметры сохранения электронной таблицы 2003 для Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Основная электронная таблица 2003. Сохранение параметров проекта MS с помощью Aspose.Tasks для .NET. Легко настраивайте и сохраняйте файлы MS Project программным способом.
+weight: 19
+url: /ru/net/saving-options/spreadsheet-2003-save-options/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# MS Project с опциями Spreadsheet 2003 для Aspose.Tasks
+
+## Введение
+В этом руководстве мы углубимся в использование Aspose.Tasks для .NET для использования параметров сохранения проекта MS Spreadsheet 2003. Этот мощный инструмент позволяет легко манипулировать и настраивать файлы MS Project в среде .NET. Давайте разберем процесс шаг за шагом.
+## Предварительные условия
+Прежде чем мы приступим к этому руководству, убедитесь, что у вас есть следующие предварительные условия:
+1.  Установка Aspose.Tasks для .NET: Загрузите и установите библиотеку Aspose.Tasks для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/tasks/net/).
+2. Знакомство с программированием на C#. Для понимания концепций, обсуждаемых в этом руководстве, необходимо базовое понимание языка программирования C#.
+
+## Импортировать пространства имен
+Начните с импорта необходимых пространств имен в проект C#:
+```csharp
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
+```
+Эти пространства имен предоставляют доступ к функциям, необходимым для сохранения файлов MS Project в формате электронной таблицы 2003 и настройки параметров просмотра.
+## Шаг 1. Загрузите проект
+Сначала загрузите файл MS Project с помощью Aspose.Tasks:
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+```
+ Заменять`"Your Document Directory"`с фактическим путем к каталогу, в котором находится ваш файл MS Project.
+## Шаг 2. Определите параметры сохранения
+ Определите параметры сохранения электронной таблицы 2003, создав экземпляр`Spreadsheet2003SaveOptions`:
+```csharp
+var options = new Spreadsheet2003SaveOptions();
+```
+## Шаг 3. Настройте столбцы представления
+Настройте столбцы представления для диаграммы Ганта, представления ресурсов и представления назначений:
+```csharp
+var ganttChartColumn = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(ganttChartColumn);
+var resourceViewColumn = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(resourceViewColumn);
+var assignmentViewColumn = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(assignmentViewColumn);
+```
+Эти шаги добавляют пользовательские столбцы в соответствующие представления, расширяя возможности визуализации и анализа файла MS Project.
+## Шаг 4. Сохраните проект
+Наконец, сохраните проект с указанными параметрами:
+```csharp
+project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+Эта команда сохраняет измененный проект в формате электронной таблицы 2003 и настроенных столбцах представления.
+
+## Заключение
+Использование Aspose.Tasks для .NET, в частности, Spreadsheet 2003 Save MS Project Options, дает разработчикам возможность эффективно управлять файлами MS Project и настраивать их программным способом. Следуя пошаговому руководству, изложенному в этом руководстве, вы сможете легко интегрировать эти возможности в свои приложения .NET, повысив производительность и гибкость.
+
+## Часто задаваемые вопросы
+### Вопрос: Можно ли использовать Aspose.Tasks для .NET как в веб-приложениях, так и в настольных приложениях?
+О: Да, Aspose.Tasks for .NET можно легко интегрировать как в веб-приложения, так и в настольные приложения, обеспечивая единообразную функциональность на всех платформах.
+### Вопрос: Доступна ли пробная версия Aspose.Tasks для .NET?
+О: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks для .NET на сайте[Веб-сайт](https://releases.aspose.com/), что позволит вам изучить его возможности перед совершением покупки.
+### Вопрос: Существуют ли какие-либо ограничения на настройку столбцов представления с помощью Aspose.Tasks для .NET?
+О: Aspose.Tasks для .NET предлагает широкие возможности настройки столбцов представления с минимальными ограничениями. Однако сложные настройки могут потребовать глубоких знаний библиотеки.
+### Вопрос: Могу ли я обратиться за помощью, если у меня возникнут проблемы при использовании Aspose.Tasks для .NET?
+ А: Абсолютно! Вы можете найти всестороннюю поддержку и ресурсы на форуме Aspose.Tasks по адресу[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15), где эксперты и члены сообщества готовы помочь вам решить любые вопросы или проблемы, с которыми вы можете столкнуться.
+### Вопрос: Как я могу получить временную лицензию на Aspose.Tasks для .NET?
+ О: Вы можете приобрести временную лицензию на Aspose.Tasks для .NET на сайте[страница покупки](https://purchase.aspose.com/temporary-license/), позволяющий оценить все возможности библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

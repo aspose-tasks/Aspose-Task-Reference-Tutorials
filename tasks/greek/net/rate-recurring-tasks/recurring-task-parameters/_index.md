@@ -1,0 +1,93 @@
+---
+title: Ρύθμιση επαναλαμβανόμενων παραμέτρων εργασιών στο Aspose.Tasks
+linktitle: Ρύθμιση επαναλαμβανόμενων παραμέτρων εργασιών στο Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Μάθετε πώς να ορίζετε παραμέτρους επαναλαμβανόμενων εργασιών στο Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Ολοκληρωμένο σεμινάριο με οδηγό βήμα προς βήμα.
+weight: 14
+url: /el/net/rate-recurring-tasks/recurring-task-parameters/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση επαναλαμβανόμενων παραμέτρων εργασιών στο Aspose.Tasks
+
+## Εισαγωγή
+Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης των παραμέτρων επαναλαμβανόμενων εργασιών του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET.
+## Προαπαιτούμενα
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα ακόλουθα:
+1. Βασική κατανόηση της γλώσσας προγραμματισμού C#.
+2. Εγκατεστημένο Visual Studio ή οποιοδήποτε άλλο C# IDE.
+3. Το Aspose.Tasks για τη βιβλιοθήκη .NET είναι εγκατεστημένο και αναφέρεται στο έργο σας.
+
+## Εισαγωγή χώρων ονομάτων
+Αρχικά, πρέπει να εισαγάγετε τους απαραίτητους χώρους ονομάτων στον κώδικα C#:
+```csharp
+using Aspose.Tasks;
+using System;
+
+```
+## Βήμα 1: Ορίστε τον Κατάλογο Εγγράφων
+```csharp
+String DataDir = "Your Document Directory";
+```
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας.
+## Βήμα 2: Φορτώστε το Αρχείο Έργου
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+```
+ Αυτή η γραμμή κώδικα φορτώνει το αρχείο Microsoft Project στο`project` μεταβλητός.
+## Βήμα 3: Καθορίστε τις επαναλαμβανόμενες παραμέτρους εργασιών
+```csharp
+var parameters = new RecurringTaskParameters
+{
+    TaskName = "Recurring task",
+    Duration = project.GetDuration(1, TimeUnitType.Day),
+    RecurrencePattern = new WeeklyRecurrencePattern
+    {
+        Repetition = new WeeklyRepetition
+        {
+            RepetitionInterval = 2,
+            WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+        },
+        RecurrenceRange = new EndByRecurrenceRange
+        {
+            Start = new DateTime(2018, 7, 1, 8, 0, 0),
+            Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+        }
+    },
+    IgnoreResourceCalendar = false
+};
+```
+Εδώ, ορίζετε τις παραμέτρους για την επαναλαμβανόμενη εργασία, όπως όνομα εργασίας, διάρκεια, μοτίβο επανάληψης, εύρος επανάληψης και αν θα αγνοηθεί το ημερολόγιο πόρων.
+## Βήμα 4: Ορισμός Ημερολογίου για Επαναλαμβανόμενη Εργασία
+```csharp
+parameters.SetCalendar(project, "Standard");
+```
+Αυτό το βήμα ορίζει το ημερολόγιο για την επαναλαμβανόμενη εργασία. Σε αυτό το παράδειγμα, ορίζει το ημερολόγιο σε "Τυπικό".
+## Βήμα 5: Προσθήκη παραμέτρων στο Project
+```csharp
+project.RootTask.Children.Add(parameters);
+```
+Τέλος, προσθέστε τις παραμέτρους στη ριζική εργασία του έργου.
+
+## συμπέρασμα
+Σε αυτό το σεμινάριο, δείξαμε πώς να ορίσετε τις παραμέτρους επαναλαμβανόμενων εργασιών του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET. Ακολουθώντας αυτά τα βήματα, μπορείτε να διαχειριστείτε αποτελεσματικά τις επαναλαμβανόμενες εργασίες στα έργα σας.
+## Συχνές ερωτήσεις
+### Μπορώ να προσαρμόσω περαιτέρω το μοτίβο επανάληψης;
+Ναι, το Aspose.Tasks παρέχει διάφορα μοτίβα επανάληψης και επιλογές για προσαρμογή σύμφωνα με τις απαιτήσεις του έργου σας.
+### Υπάρχει διαθέσιμη δοκιμαστική έκδοση πριν την αγορά;
+ Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από το Aspose.Tasks[δικτυακός τόπος](https://purchase.aspose.com/buy) να αξιολογήσει τα χαρακτηριστικά της βιβλιοθήκης.
+### Το Aspose.Tasks υποστηρίζει άλλες μορφές αρχείων έργου;
+Ναι, το Aspose.Tasks υποστηρίζει διάφορες μορφές αρχείων έργου, όπως MPP, XML, XLSX και άλλα.
+### Μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα κατά την εφαρμογή;
+Ναι, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Tasks για βοήθεια από την κοινότητα ή να επικοινωνήσετε με την υποστήριξη για άμεση βοήθεια.
+### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
+ Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[δικτυακός τόπος](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

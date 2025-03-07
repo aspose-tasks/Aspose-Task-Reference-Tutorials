@@ -1,0 +1,86 @@
+---
+title: Aspose.Tasks में क्रिटिकल MS प्रोजेक्ट पथ की गणना करें
+linktitle: Aspose.Tasks परियोजनाओं में महत्वपूर्ण पथ की गणना करें
+second_title: Aspose.Tasks जावा एपीआई
+description: जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में महत्वपूर्ण पथ की गणना करना सीखें। यह कुशल परियोजना प्रबंधन के लिए चरण-दर-चरण मार्गदर्शन प्रदान करता है।
+weight: 10
+url: /hi/java/project-management/critical-path/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में क्रिटिकल MS प्रोजेक्ट पथ की गणना करें
+
+## परिचय
+इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके एमएस प्रोजेक्ट में महत्वपूर्ण पथ की गणना करने की प्रक्रिया में आपका मार्गदर्शन करेंगे। परियोजना प्रबंधन के लिए महत्वपूर्ण पथ आवश्यक है क्योंकि यह उन कार्यों के अनुक्रम की पहचान करने में मदद करता है जिन्हें समय पर पूरा किया जाना चाहिए ताकि यह सुनिश्चित हो सके कि परियोजना के समग्र कार्यक्रम में देरी न हो।
+## आवश्यक शर्तें
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यकताएँ हैं:
+1. आपके सिस्टम पर जावा डेवलपमेंट किट (जेडीके) स्थापित है।
+2.  जावा लाइब्रेरी के लिए Aspose.Tasks डाउनलोड किया गया और आपके प्रोजेक्ट में जोड़ा गया। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/java/).
+
+## पैकेज आयात करें
+आरंभ करने के लिए, अपने जावा क्लास में आवश्यक पैकेज आयात करें:
+```java
+import com.aspose.tasks.*;
+```
+## चरण 1: डेटा निर्देशिका सेट करें
+अपनी डेटा निर्देशिका का पथ परिभाषित करें जहां आपकी एमएस प्रोजेक्ट फ़ाइल स्थित है।
+```java
+String dataDir = "Your Data Directory";
+```
+## चरण 2: एमएस प्रोजेक्ट फ़ाइल लोड करें
+Aspose.Tasks लाइब्रेरी का उपयोग करके MS प्रोजेक्ट फ़ाइल लोड करें।
+```java
+Project project = new Project(dataDir + "New project 2013.mpp");
+```
+## चरण 3: गणना मोड सेट करें
+महत्वपूर्ण पथ की गणना को सक्षम करने के लिए गणना मोड को स्वचालित पर सेट करें।
+```java
+project.setCalculationMode(CalculationMode.Automatic);
+```
+## चरण 4: कार्य जोड़ें
+अपने प्रोजेक्ट में कार्य जोड़ें. इस उदाहरण में, हम तीन उपकार्य जोड़ते हैं।
+```java
+Task subtask1 = project.getRootTask().getChildren().add("1");
+Task subtask2 = project.getRootTask().getChildren().add("2");
+Task subtask3 = project.getRootTask().getChildren().add("3");
+```
+## चरण 5: कार्य लिंक बनाएं
+कार्यों के बीच निर्भरता को परिभाषित करने के लिए कार्य लिंक बनाएं।
+```java
+project.getTaskLinks().add(subtask1, subtask2, TaskLinkType.FinishToStart);
+```
+## चरण 6: महत्वपूर्ण पथ प्रदर्शित करें
+प्रोजेक्ट का महत्वपूर्ण पथ पुनर्प्राप्त करें और प्रदर्शित करें।
+```java
+for (Task task : project.getCriticalPath()) {
+    System.out.println(task.get(Tsk.NAME));
+}
+```
+## चरण 7: परिणाम प्रदर्शित करें
+प्रक्रिया के सफल समापन का संकेत देने वाला एक संदेश प्रदर्शित करें।
+```java
+System.out.println("Process completed Successfully");
+```
+
+## निष्कर्ष
+जावा के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में महत्वपूर्ण पथ की गणना करना प्रभावी प्रोजेक्ट प्रबंधन के लिए महत्वपूर्ण है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप अपने प्रोजेक्ट की समय-सीमा के लिए महत्वपूर्ण कार्यों के अनुक्रम की सटीक पहचान कर सकते हैं।
+## अक्सर पूछे जाने वाले प्रश्न
+### प्रश्न: क्या मैं MS प्रोजेक्ट फ़ाइलों के किसी भी संस्करण के साथ Java के लिए Aspose.Tasks का उपयोग कर सकता हूँ?
+उत्तर: हाँ, Java के लिए Aspose.Tasks MS प्रोजेक्ट फ़ाइलों के विभिन्न संस्करणों का समर्थन करता है, जिसमें MS प्रोजेक्ट 2003 से MS प्रोजेक्ट 2019 तक .mpp फ़ाइलें शामिल हैं।
+### प्रश्न: क्या जावा के लिए Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+ उत्तर: हाँ, आप नि:शुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+### प्रश्न: मुझे जावा के लिए Aspose.Tasks के लिए समर्थन कहां मिल सकता है?
+ उत्तर: आप इस पर समर्थन पा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+### प्रश्न: क्या मैं जावा के लिए Aspose.Tasks के लिए एक अस्थायी लाइसेंस खरीद सकता हूँ?
+ उत्तर: हां, आप यहां से अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+### प्रश्न: मैं जावा के लिए Aspose.Tasks कैसे खरीद सकता हूँ?
+ उ: आप वेबसाइट से जावा के लिए Aspose.Tasks खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

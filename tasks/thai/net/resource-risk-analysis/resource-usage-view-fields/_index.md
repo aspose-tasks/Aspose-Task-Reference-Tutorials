@@ -1,0 +1,81 @@
+---
+title: การรวบรวมฟิลด์มุมมองการใช้ทรัพยากรใน Aspose.Tasks
+linktitle: การรวบรวมฟิลด์มุมมองการใช้ทรัพยากรใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: เรียนรู้วิธีการเข้าถึงและจัดการฟิลด์มุมมองการใช้ทรัพยากรในไฟล์ Microsoft Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET
+weight: 16
+url: /th/net/resource-risk-analysis/resource-usage-view-fields/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวบรวมฟิลด์มุมมองการใช้ทรัพยากรใน Aspose.Tasks
+
+## การแนะนำ
+ในขอบเขตของการจัดการโครงการ การจัดการไฟล์ Microsoft Project อย่างมีประสิทธิภาพเป็นสิ่งสำคัญ Aspose.Tasks สำหรับ .NET มอบโซลูชันที่ครอบคลุมเพื่อทำงานกับไฟล์ MS Project ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการเข้าถึงและใช้งานช่องมุมมองการใช้ทรัพยากรโดยใช้ Aspose.Tasks สำหรับ .NET
+## ข้อกำหนดเบื้องต้น
+ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1.  การติดตั้ง Aspose.Tasks สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว ถ้าไม่เช่นนั้นคุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/tasks/net/).
+2. ความรู้พื้นฐานของการเขียนโปรแกรม C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# เป็นสิ่งสำคัญที่ต้องปฏิบัติตามพร้อมกับตัวอย่าง
+
+## นำเข้าเนมสเปซ
+ในการเริ่มต้น ให้นำเข้าเนมสเปซที่จำเป็น:
+```csharp
+    using Aspose.Tasks;
+    using System;
+    using System.Collections.Generic;
+    
+```
+
+## ขั้นตอนที่ 1: โหลดไฟล์โครงการ Microsoft
+ขั้นแรก คุณต้องโหลดไฟล์ Microsoft Project ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
+```csharp
+// เส้นทางไปยังไดเร็กทอรีเอกสาร
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+```
+## ขั้นตอนที่ 2: เข้าถึงมุมมองการใช้ทรัพยากร
+ถัดไป คุณจะเข้าถึงมุมมองการใช้ทรัพยากร ต่อไปนี้เป็นวิธีดำเนินการ:
+```csharp
+var view = (ResourceUsageView)project.Views.ToList()[2];
+```
+## ขั้นตอนที่ 3: ทำซ้ำผ่านการรวบรวมภาคสนาม
+ตอนนี้ ทำซ้ำใน Field Collection เพื่อเข้าถึงแต่ละฟิลด์:
+```csharp
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+## ขั้นตอนที่ 4: แปลงคอลเลกชันเป็นรายการ
+หรือคุณสามารถแปลงคอลเลกชันเป็นรายการ ResourceUsageViewField เพื่อการจัดการที่ง่ายขึ้น:
+```csharp
+// แปลงคอลเลกชันให้เป็นรายการ ResourceUsageViewField
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+## บทสรุป
+การเรียนรู้การจัดการฟิลด์มุมมองการใช้ทรัพยากรใน Aspose.Tasks สำหรับ .NET จะช่วยเพิ่มความเป็นไปได้มากมายในการจัดการไฟล์ Microsoft Project ได้อย่างมีประสิทธิภาพ เมื่อปฏิบัติตามบทช่วยสอนนี้ คุณจะได้รับข้อมูลเชิงลึกเกี่ยวกับการเข้าถึงและใช้งานฟิลด์เหล่านี้อย่างมีประสิทธิภาพ ซึ่งช่วยเพิ่มขีดความสามารถในการจัดการโครงการของคุณ
+## คำถามที่พบบ่อย
+### ถาม: Aspose.Tasks สำหรับ .NET เข้ากันได้กับไฟล์ Microsoft Project ทุกเวอร์ชันหรือไม่
+ตอบ: ใช่ Aspose.Tasks สำหรับ .NET รองรับรูปแบบไฟล์ Microsoft Project ที่หลากหลาย จึงรับประกันความเข้ากันได้ในเวอร์ชันต่างๆ
+### ถาม: ฉันสามารถคำนวณขั้นสูงในช่องมุมมองการใช้ทรัพยากรโดยใช้ Aspose.Tasks สำหรับ .NET ได้หรือไม่
+ตอบ: แน่นอน! Aspose.Tasks สำหรับ .NET มีฟังก์ชันการทำงานที่ครอบคลุมเพื่อทำการคำนวณขั้นสูงและการจัดการบนฟิลด์มุมมองการใช้ทรัพยากร
+### ถาม: ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
+ ตอบ: คุณสามารถขอความช่วยเหลือจากชุมชนที่มีชีวิตชีวาและผู้เชี่ยวชาญได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+### ถาม: Aspose.Tasks สำหรับ .NET มีเวอร์ชันทดลองใช้งานหรือไม่
+ ตอบ: ได้ คุณสามารถเข้าถึงเวอร์ชันทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
+### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
+ ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าซื้อ](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการประเมินผล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

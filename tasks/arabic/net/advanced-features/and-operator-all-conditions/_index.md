@@ -1,0 +1,132 @@
+---
+title: استخدام عامل التشغيل AND في كافة الظروف مع Aspose.Tasks
+linktitle: استخدام عامل التشغيل AND في كافة الظروف مع Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: تعرف على كيفية استخدام عامل التشغيل AND في جميع الظروف باستخدام Aspose.Tasks لـ .NET لتصفية مهام المشروع بكفاءة.
+weight: 11
+url: /ar/net/advanced-features/and-operator-all-conditions/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام عامل التشغيل AND في كافة الظروف مع Aspose.Tasks
+
+## مقدمة
+
+هل تتطلع إلى تبسيط مهام إدارة مشروعك بكفاءة؟ باستخدام Aspose.Tasks for .NET، يمكنك الاستفادة من الوظائف القوية لمعالجة بيانات المشروع بشكل فعال. إحدى هذه الميزات هي القدرة على استخدام عامل التشغيل AND في جميع الظروف، مما يسمح لك بتصفية المهام بناءً على معايير متعددة في وقت واحد. في هذا البرنامج التعليمي، سنرشدك خلال عملية تنفيذ هذه الوظيفة خطوة بخطوة.
+
+## المتطلبات الأساسية
+
+قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+
+1. المعرفة الأساسية بـ C#: الإلمام بلغة البرمجة C# سيكون مفيدًا.
+2.  Aspose.Tasks لمكتبة .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[هنا](https://releases.aspose.com/tasks/net/).
+3. بيئة التطوير المتكاملة (IDE): قم بتثبيت بيئة تطوير متكاملة مثل Visual Studio على نظامك لتسهيل عملية البرمجة.
+
+## استيراد مساحات الأسماء
+
+أولاً، تحتاج إلى استيراد مساحات الأسماء الضرورية للوصول إلى الفئات والأساليب المطلوبة.
+
+```csharp
+using Aspose.Tasks;
+using System;
+using System.Collections.Generic;
+
+using Aspose.Tasks.Util;
+
+```
+
+الآن، دعونا نقسم المثال إلى خطوات متعددة لفهم العملية بوضوح.
+
+## الخطوة 1: تحميل ملف المشروع
+
+```csharp
+// المسار إلى دليل المستندات.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "Project2.mpp");
+```
+
+ قم بتحميل ملف المشروع باستخدام ملف`Project`منشئ الفئة، وتحديد مسار الملف.
+
+## الخطوة 2: جمع كافة مهام المشروع
+
+```csharp
+var coll = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, coll, 0);
+```
+
+ الاستفادة من`ChildTasksCollector` فئة لجمع كافة المهام داخل المشروع.
+
+## الخطوة 3: تحديد شروط التصفية
+
+```csharp
+var conditions = new List<ICondition<Task>>
+{
+    new NotNullCondition(),
+    new SummaryCondition()
+};
+```
+
+قم بإنشاء قائمة الشروط لتصفية المهام. في هذا المثال، نقوم بتصفية المهام غير الفارغة وهي مهام موجزة.
+
+## الخطوة 4: تطبيق والمشغل على الشروط
+
+```csharp
+var joinedCondition = new AndAllCondition<Task>(conditions);
+```
+
+ انضم إلى الشروط باستخدام`AndAllCondition` فئة، وتطبيق عامل التشغيل AND على جميع الشروط.
+
+## الخطوة 5: تصفية المهام
+
+```csharp
+List<Task> collection = Filter(coll.Tasks, joinedCondition);
+```
+
+قم بتطبيق شرط الانضمام على المهام المجمعة لتصفيتها وفقًا لذلك.
+
+## الخطوة 6: معالجة المهام التي تمت تصفيتها
+
+```csharp
+foreach (var task in collection)
+{
+    Console.WriteLine("Name: " + task.Get(Tsk.Name));
+    // تنفيذ العمليات مع المهام التي تمت تصفيتها
+}
+```
+
+قم بالتكرار خلال المهام التي تمت تصفيتها وتنفيذ العمليات كما هو مطلوب.
+
+## خاتمة
+
+في الختام، فإن استخدام عامل التشغيل AND في جميع الظروف مع Aspose.Tasks for .NET يمكّنك من تصفية مهام المشروع بكفاءة بناءً على معايير متعددة في وقت واحد. باتباع الدليل التفصيلي المقدم في هذا البرنامج التعليمي، يمكنك دمج هذه الوظيفة بسلاسة في سير عمل إدارة المشروع لديك، مما يعزز الإنتاجية والتنظيم.
+
+## الأسئلة الشائعة
+
+### س1: هل يمكنني تطبيق شروط إضافية بخلاف تلك الموضحة في المثال؟
+
+ج1: نعم، يمكنك تحديد أي شروط مخصصة وتطبيقها بناءً على متطلبات مشروعك.
+
+### س2: هل يتوافق Aspose.Tasks لـ .NET مع تنسيقات ملفات المشروع المختلفة؟
+
+ج2: نعم، يدعم Aspose.Tasks تنسيقات ملفات المشروع المختلفة مثل MPP وXML وCSV.
+
+### س3: هل يقدم Aspose.Tasks الدعم لخوارزميات جدولة المشاريع المعقدة؟
+
+ج3: بالتأكيد، يوفر Aspose.Tasks ميزات متقدمة لإدارة جداول المشروع، بما في ذلك تحليل المسار الحرج وتخصيص الموارد.
+
+### س 4: هل يمكنني دمج Aspose.Tasks مع أطر عمل أو مكتبات .NET الأخرى؟
+
+ج4: نعم، يمكنك دمج Aspose.Tasks بسلاسة مع أطر عمل ومكتبات .NET الأخرى لتحسين الأداء الوظيفي.
+
+### س5: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لمستخدمي Aspose.Tasks؟
+
+ ج5: نعم، يمكنك الوصول إلى منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

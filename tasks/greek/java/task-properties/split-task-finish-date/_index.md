@@ -1,0 +1,68 @@
+---
+title: Διαχωρίστε την ημερομηνία λήξης της εργασίας στο Aspose.Tasks
+linktitle: Διαχωρίστε την ημερομηνία λήξης της εργασίας στο Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: Μάθετε πώς να διαχωρίζετε τις ημερομηνίες λήξης εργασιών χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε τη διαχείριση του έργου με ακριβή χρονοδιαγράμματα.
+weight: 28
+url: /el/java/task-properties/split-task-finish-date/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχωρίστε την ημερομηνία λήξης της εργασίας στο Aspose.Tasks
+
+## Εισαγωγή
+Στη διαχείριση έργου, η κατανόηση των χρονοδιαγραμμάτων εργασιών είναι ζωτικής σημασίας για την επιτυχή ολοκλήρωση του έργου. Το Aspose.Tasks για Java παρέχει ισχυρές δυνατότητες για τον αποτελεσματικό χειρισμό των εργασιών του έργου. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον διαχωρισμό των ημερομηνιών λήξης εργασιών χρησιμοποιώντας το Aspose.Tasks, βοηθώντας σας να διαχειριστείτε αποτελεσματικά τα χρονοδιαγράμματα του έργου.
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
+- Βασικές γνώσεις προγραμματισμού Java.
+-  Εγκαταστάθηκε η βιβλιοθήκη Aspose.Tasks για Java. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/java/).
+- Δημιουργήθηκε ένα περιβάλλον ανάπτυξης Java.
+## Εισαγωγή πακέτων
+Ξεκινήστε συμπεριλαμβάνοντας τα απαραίτητα πακέτα στο έργο σας Java:
+```java
+import com.aspose.tasks.*;
+```
+## Βήμα 1: Βρείτε μια διαίρεση εργασίας
+Εντοπίστε την εργασία που θέλετε να χωρίσετε στο έργο:
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+// Διαβάστε το έργο
+String projectName = dataDir + "SplitTask.mpp";
+Project project = new Project(projectName);
+Task splitTask = project.getRootTask().getChildren().getByUid(1);
+```
+## Βήμα 2: Βρείτε το Ημερολόγιο Έργου
+Ανακτήστε το ημερολόγιο του έργου για ακριβείς υπολογισμούς ημερομηνιών:
+```java
+Calendar calendar = project.get(Prj.CALENDAR);
+```
+## Βήμα 3: Υπολογίστε την ημερομηνία λήξης της εργασίας με διαφορετικές διάρκειες
+Τώρα, υπολογίστε την ημερομηνία λήξης της εργασίας για διάφορες διάρκειες:
+## Βήμα 3.1: Διάρκεια 8 ωρών
+```java
+System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 hours\nFinish Date: " + calendar.getTaskFinishDateFromDuration(splitTask, 8d));
+```
+Επαναλάβετε τον παραπάνω κωδικό για διαφορετικές διάρκειες, προσαρμόζοντας ανάλογα τις ώρες.
+## συμπέρασμα
+Η γνώση της τέχνης του χειρισμού των ημερομηνιών λήξης εργασιών είναι ζωτικής σημασίας για την αποτελεσματική διαχείριση του έργου. Το Aspose.Tasks για Java απλοποιεί αυτή τη διαδικασία, επιτρέποντάς σας να απλοποιήσετε τα χρονοδιαγράμματα του έργου σας χωρίς κόπο.
+## Συχνές ερωτήσεις
+### Ε1: Πώς μπορώ να κατεβάσω το Aspose.Tasks για Java;
+ A1: Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/java/).
+### Ε2: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Tasks;
+ A2: Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/java/).
+### Ε3: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
+ A3: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+### Ε4: Πού μπορώ να αναζητήσω υποστήριξη για το Aspose.Tasks;
+ A4: Επισκεφθείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/tasks/15).
+### Ε5: Μπορώ να αγοράσω το Aspose.Tasks;
+ A5: Ναι, μπορείτε να το αγοράσετε[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

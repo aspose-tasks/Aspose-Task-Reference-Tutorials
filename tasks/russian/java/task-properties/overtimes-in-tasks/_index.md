@@ -1,0 +1,68 @@
+---
+title: Сверхурочные работы в задачах с Aspose.Tasks
+linktitle: Сверхурочные работы в задачах с Aspose.Tasks
+second_title: API Aspose.Tasks Java
+description: Изучите эффективное управление сверхурочной работой в проектных задачах с помощью Aspose.Tasks для Java. Легко упростите отслеживание и распределение ресурсов.
+weight: 23
+url: /ru/java/task-properties/overtimes-in-tasks/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сверхурочные работы в задачах с Aspose.Tasks
+
+## Введение
+Управление сверхурочной работой в задачах проекта имеет решающее значение для менеджеров проектов и руководителей групп, поскольку позволяет обеспечить точное отслеживание и распределение ресурсов. Aspose.Tasks для Java предоставляет мощное решение для решения проблем, связанных со сверхурочной работой, в управлении проектами. В этом уроке мы рассмотрим, как использовать Aspose.Tasks для эффективного управления и анализа сверхурочной работы в задачах проекта.
+## Предварительные условия
+Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
+- Среда разработки Java: убедитесь, что на вашем компьютере установлена среда разработки Java.
+-  Aspose.Tasks для Java: Загрузите и установите библиотеку Aspose.Tasks. Вы можете найти библиотеку и ее документацию[здесь](https://reference.aspose.com/tasks/java/).
+- Файл проекта: подготовьте файл проекта (например, TaskOvertimes.mpp) для работы в ходе обучения.
+## Импортировать пакеты
+В свой проект Java импортируйте необходимые пакеты Aspose.Tasks, чтобы использовать его функциональные возможности. Добавьте следующие операторы импорта:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.Tsk;
+```
+## Шаг 1. Создайте новый проект
+```java
+// Путь к каталогу документов.
+String dataDir = "Your Document Directory";
+// Создать новый проект
+Project project = new Project(dataDir + "TaskOvertimes.mpp");
+```
+## Шаг 2. Выполните итерацию по задачам и распечатайте сведения о сверхурочных работах
+```java
+for (Task tsk : project.getRootTask().getChildren()) {
+    System.out.println("Overtime Cost: " + tsk.get(Tsk.OVERTIME_COST));
+    System.out.println("Overtime Work: " + tsk.get(Tsk.OVERTIME_WORK).toString());
+    System.out.println("Percent Complete: " + tsk.get(Tsk.PERCENT_COMPLETE));
+    System.out.println("Percent Work Complete: " + tsk.get(Tsk.PERCENT_WORK_COMPLETE).toString());
+    System.out.println("Physical Percent Complete: " + tsk.get(Tsk.PHYSICAL_PERCENT_COMPLETE).toString());
+    // Установить процент завершения
+    tsk.set(Tsk.PERCENT_COMPLETE, 100);
+}
+```
+Выполните следующие шаги, чтобы эффективно использовать Aspose.Tasks для Java для управления и анализа сверхурочной работы в задачах вашего проекта. Не стесняйтесь настраивать код в соответствии с требованиями вашего конкретного проекта.
+## Заключение
+Aspose.Tasks для Java упрощает управление сверхурочными работами в задачах проекта, предоставляя разработчикам надежный набор инструментов. Следуя этому руководству, вы сможете легко интегрировать Aspose.Tasks в свои проекты Java, обеспечивая эффективное управление проектами.
+## Часто задаваемые вопросы
+### Подходит ли Aspose.Tasks для управления крупномасштабными проектами?
+Да, Aspose.Tasks предназначен для реализации проектов различного масштаба: от небольших инициатив до крупных и сложных проектов.
+### Могу ли я интегрировать Aspose.Tasks с другими платформами Java?
+Абсолютно! Aspose.Tasks легко интегрируется с другими платформами Java, повышая его универсальность при разработке проектов.
+### Есть ли какие-либо соображения по лицензированию использования Aspose.Tasks?
+ Да, вы можете найти информацию о лицензировании и получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+### Где я могу обратиться за помощью или обсудить вопросы, связанные с Aspose.Tasks?
+ Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) взаимодействовать с сообществом и искать поддержку.
+### Доступна ли бесплатная пробная версия для Aspose.Tasks?
+ Да, вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

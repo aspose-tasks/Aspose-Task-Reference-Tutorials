@@ -1,0 +1,70 @@
+---
+title: Перебор некорневых ресурсов в Aspose.Tasks
+linktitle: Перебор некорневых ресурсов в Aspose.Tasks
+second_title: API Aspose.Tasks Java
+description: Узнайте, как эффективно перебирать некорневые ресурсы в файлах Microsoft Project с помощью Aspose.Tasks для Java. Улучшите процесс разработки.
+weight: 12
+url: /ru/java/resource-management/iterate-non-root-resources/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Перебор некорневых ресурсов в Aspose.Tasks
+
+## Введение
+Aspose.Tasks для Java — это мощная библиотека, предоставляющая разработчикам инструменты, необходимые для эффективного управления файлами Microsoft Project. Благодаря интуитивно понятному интерфейсу и обширным функциональным возможностям Aspose.Tasks упрощает процесс работы с данными проекта, позволяя разработчикам сосредоточиться на создании надежных приложений.
+## Предварительные условия
+Прежде чем приступить к использованию Aspose.Tasks для Java, убедитесь, что у вас есть следующее:
+1.  Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.Tasks для библиотеки Java: загрузите и установите библиотеку Aspose.Tasks для Java с сайта[страница загрузки](https://releases.aspose.com/tasks/java/).
+
+## Импортировать пакеты
+В свой Java-проект импортируйте необходимые пакеты, чтобы начать работу с Aspose.Tasks:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+import com.aspose.tasks.Rsc;
+```
+
+## Шаг 1. Настройте каталог данных.
+```java
+String dataDir = "Your Data Directory";
+```
+ Заменять`"Your Data Directory"` с путем к каталогу, в котором хранятся файлы вашего проекта.
+## Шаг 2. Загрузите файл проекта
+```java
+Project prj = new Project(dataDir + "ResourceCosts.mpp");
+```
+ Эта строка инициализирует новый`Project` объект, загрузив файл проекта с именем`"ResourceCosts.mpp"` из указанного каталога данных.
+## Шаг 3. Перебор некорневых ресурсов
+```java
+for (Resource res : prj.getResources()) {
+    if (res.isRoot()) {
+        continue;
+    }
+    System.out.println(res.get(Rsc.NAME));
+}
+```
+Этот цикл перебирает каждый ресурс в проекте (`prj.getResources()`). Если ресурс является корневым, он переходит к следующей итерации. В противном случае он печатает имя некорневого ресурса.
+
+## Заключение
+В этом руководстве мы рассмотрели, как перебирать некорневые ресурсы с помощью Aspose.Tasks для Java. Следуя этим шагам, вы сможете эффективно манипулировать данными проекта и оптимизировать процесс разработки.
+## Часто задаваемые вопросы
+### Могу ли я использовать Aspose.Tasks для Java для создания новых файлов проекта?
+Да, Aspose.Tasks предоставляет функциональные возможности для создания, изменения и сохранения файлов проекта в различных форматах.
+### Поддерживает ли Aspose.Tasks все версии файлов Microsoft Project?
+Aspose.Tasks поддерживает форматы файлов Microsoft Project 2003-2019, включая MPP, MPT и XML.
+### Совместим ли Aspose.Tasks с платформами Java, такими как Spring?
+Да, Aspose.Tasks можно легко интегрировать в платформы Java, такие как Spring, для приложений корпоративного уровня.
+### Могу ли я настроить поля данных проекта с помощью Aspose.Tasks?
+Безусловно, Aspose.Tasks предлагает обширные API для настройки полей данных проекта в соответствии с вашими требованиями.
+### Предоставляет ли Aspose.Tasks поддержку и документацию для разработчиков?
+Да, Aspose.Tasks предлагает исчерпывающую документацию и специальный форум поддержки, на котором разработчики могут решить любые вопросы или проблемы, с которыми они сталкиваются.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

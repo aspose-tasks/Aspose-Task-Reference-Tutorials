@@ -1,0 +1,91 @@
+---
+title: การจัดการอัตราโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET
+linktitle: การจัดการอัตราใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: เชี่ยวชาญการจัดการ MS Project Rates อย่างง่ายดายโดยใช้ Aspose.Tasks for .NET ทำงานอัตโนมัติอย่างมีประสิทธิภาพเพื่อขั้นตอนการทำงานของโครงการที่ราบรื่นยิ่งขึ้น
+weight: 10
+url: /th/net/rate-recurring-tasks/handling-rates/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการอัตราโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET
+
+## การแนะนำ
+ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการจัดการ MS Project Rate โดยใช้ Aspose.Tasks สำหรับ .NET! ในคู่มือนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้มั่นใจว่าคุณสามารถจัดการอัตราภายในเอกสาร MS Project ของคุณได้อย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ .NET มอบคุณสมบัติอันทรงพลังในการจัดการไฟล์ MS Project โดยทางโปรแกรม ช่วยให้คุณปรับปรุงงานการจัดการโครงการของคุณได้อย่างง่ายดาย
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1. ติดตั้ง Visual Studio แล้ว: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ในระบบของคุณ
+2.  Aspose.Tasks สำหรับ .NET Library: ดาวน์โหลดและติดตั้ง Aspose.Tasks สำหรับ .NET Library คุณสามารถค้นหาลิงค์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/tasks/net/).
+3. ความเข้าใจพื้นฐานของ C#: ทำความคุ้นเคยกับพื้นฐานภาษาการเขียนโปรแกรม C#
+## นำเข้าเนมสเปซ
+ขั้นแรก คุณต้องนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ C# ของคุณ เนมสเปซเหล่านี้จะให้การเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการ MS Project Rates
+## ขั้นตอนที่ 1: นำเข้าเนมสเปซ Aspose.Tasks
+```csharp
+using Aspose.Tasks;
+using System;
+
+```
+ตอนนี้ เรามาแยกย่อยตัวอย่างที่ให้ไว้เป็นหลายขั้นตอนและทำความเข้าใจแต่ละขั้นตอนอย่างละเอียด
+## ขั้นตอนที่ 1: โหลดไฟล์โครงการ
+```csharp
+// เส้นทางไปยังไดเร็กทอรีเอกสาร
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "Project1.mpp");
+```
+ ในขั้นตอนนี้ เรากำลังโหลดไฟล์ MS Project ที่มีอยู่ชื่อ "Project1.mpp" โดยใช้นามสกุล`Project` คลาสที่จัดทำโดย Aspose.Tasks
+## ขั้นตอนที่ 2: เพิ่มทรัพยากรและตั้งค่างาน
+```csharp
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+resource.Set(Rsc.Work, project.GetDuration(2d, TimeUnitType.Hour));
+```
+ที่นี่ เราเพิ่มทรัพยากรใหม่ชื่อ "ทรัพยากร 1" ให้กับโครงการและตั้งค่าประเภทเป็น "งาน" เรายังกำหนดระยะเวลาการทำงานสำหรับทรัพยากรนี้ด้วย
+## ขั้นตอนที่ 3: กำหนดอัตรามาตรฐาน
+```csharp
+resource.Set(Rsc.StandardRate, 20m);
+```
+ในขั้นตอนนี้ เรากำหนดอัตรามาตรฐานสำหรับทรัพยากรเป็น 20 เหรียญต่อชั่วโมง
+## ขั้นตอนที่ 4: กำหนดระยะเวลาอัตรา
+```csharp
+var rate1 = resource.Rates.Add(new DateTime(2019, 1, 1, 8, 0, 0));
+rate1.RateTable = RateType.A;
+rate1.RatesFrom = new DateTime(2019, 1, 1, 8, 0, 0);
+rate1.RatesTo = new DateTime(2019, 11, 11, 17, 0, 0);
+rate1.StandardRate = 5m;
+rate1.StandardRateFormat = RateFormatType.Hour;
+rate1.OvertimeRate = 10m;
+rate1.OvertimeRateFormat = RateFormatType.Hour;
+```
+ที่นี่ เรากำหนดช่วงอัตราสำหรับทรัพยากร Rate1 กำหนดตั้งแต่วันที่ 1 มกราคม 2019 ถึงวันที่ 11 พฤศจิกายน 2019 โดยมีการระบุอัตรามาตรฐานและค่าล่วงเวลา
+## ขั้นตอนที่ 5: เพิ่มช่วงอัตราอื่น
+```csharp
+var rate2 = resource.Rates.Add(new DateTime(2019, 11, 12, 8, 0, 0));
+rate2.RatesTo = new DateTime(2019, 12, 31, 17, 0, 0);
+rate2.StandardRate = 10m;
+rate2.StandardRateFormat = RateFormatType.Hour;
+rate2.CostPerUse = 2m;
+```
+ในขั้นตอนสุดท้ายนี้ เราจะเพิ่มช่วงอัตราอื่นตั้งแต่วันที่ 12 พฤศจิกายน 2019 ถึงวันที่ 31 ธันวาคม 2019 โดยมีการกำหนดอัตรามาตรฐานและราคาต่อการใช้งานที่แตกต่างกันออกไป
+ยินดีด้วย! คุณจัดการ MS Project Rates ได้สำเร็จโดยใช้ Aspose.Tasks สำหรับ .NET
+## บทสรุป
+การจัดการอัตราโครงการ MS โดยทางโปรแกรมสามารถปรับปรุงขั้นตอนการจัดการโครงการของคุณได้อย่างมาก ด้วย Aspose.Tasks สำหรับ .NET คุณจะมีอำนาจในการจัดอัตรางานการจัดการอัตโนมัติอย่างมีประสิทธิภาพ ประหยัดเวลาและทรัพยากร
+## คำถามที่พบบ่อย
+### ถาม: Aspose.Tasks สามารถจัดการโครงสร้างโปรเจ็กต์ที่ซับซ้อนได้หรือไม่
+ตอบ: ใช่ Aspose.Tasks นำเสนอฟีเจอร์ที่มีประสิทธิภาพในการจัดการโครงสร้างโปรเจ็กต์ที่ซับซ้อนได้อย่างง่ายดาย
+### ถาม: Aspose.Tasks เข้ากันได้กับไฟล์ MS Project ทุกเวอร์ชันหรือไม่
+ตอบ: Aspose.Tasks รองรับไฟล์ MS Project เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้บนแพลตฟอร์มต่างๆ
+### ถาม: ฉันสามารถแก้ไขอัตราที่มีอยู่ในไฟล์ MS Project โดยใช้ Aspose.Tasks ได้หรือไม่
+ตอบ: แน่นอน! Aspose.Tasks ช่วยให้คุณสามารถแก้ไขอัตราที่มีอยู่ เพิ่มอัตราใหม่ และจัดการอัตราแบบไดนามิกได้
+### ถาม: Aspose.Tasks รองรับการคำนวณอัตราแบบกำหนดเองหรือไม่
+ตอบ: ได้ คุณสามารถใช้การคำนวณอัตราแบบกำหนดเองได้โดยใช้ Aspose.Tasks เพื่อให้ตรงตามข้อกำหนดเฉพาะของโปรเจ็กต์
+### ถาม: มีฟอรัมชุมชนหรือการสนับสนุนสำหรับผู้ใช้ Aspose.Tasks หรือไม่
+ ตอบ: ได้ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)เพื่อขอความช่วยเหลือและโต้ตอบกับผู้ใช้รายอื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

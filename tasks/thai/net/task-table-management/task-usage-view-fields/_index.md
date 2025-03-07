@@ -1,0 +1,78 @@
+---
+title: การเปิดเผยฟิลด์มุมมองการใช้งานใน Aspose.Tasks
+linktitle: การรวบรวมฟิลด์มุมมองการใช้งานใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: สำรวจ Aspose.Tasks สำหรับ .NET เพื่อจัดการและแสดงภาพข้อมูลโครงการได้อย่างง่ายดาย เจาะลึกฟิลด์มุมมองการใช้งานเพื่อรับข้อมูลเชิงลึกของโครงการที่ได้รับการปรับปรุง
+weight: 25
+url: /th/net/task-table-management/task-usage-view-fields/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเปิดเผยฟิลด์มุมมองการใช้งานใน Aspose.Tasks
+
+## การแนะนำ
+ในขอบเขตของการจัดการโครงการ Aspose.Tasks สำหรับ .NET ถือเป็นโซลูชันที่แข็งแกร่ง โดยมอบชุดเครื่องมืออันทรงพลังแก่นักพัฒนาเพื่อจัดการและจัดการข้อมูลโครงการ หนึ่งในคุณสมบัติเด่นคือ มุมมองการใช้งาน ซึ่งนำเสนอข้อมูลเชิงลึกในสาขาต่างๆ ที่ปรับปรุงการมองเห็นโครงการ ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของช่องมุมมองการใช้งานโดยใช้ Aspose.Tasks สำหรับ .NET โดยแจกแจงแต่ละขั้นตอนเพื่อความเข้าใจที่ครอบคลุม
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่มต้นการเดินทางครั้งนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+-  Aspose.Tasks สำหรับ .NET Library: ดาวน์โหลดและติดตั้งไลบรารีจากไฟล์[Aspose.Tasks สำหรับเอกสาร .NET](https://reference.aspose.com/tasks/net/).
+- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาที่เหมาะสม โดยควรใช้ Visual Studio หรือเครื่องมือพัฒนา .NET อื่นๆ
+- ความเข้าใจพื้นฐาน: ความคุ้นเคยกับ C# และพื้นฐานของแนวคิดการจัดการโครงการจะเป็นประโยชน์
+## นำเข้าเนมสเปซ
+ในโปรเจ็กต์ C# ของคุณ ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็นเพื่อให้ทำงานกับ Aspose.Tasks ได้อย่างราบรื่น:
+```csharp
+    using Aspose.Tasks;
+    using System;
+    using System.Collections.Generic;
+    
+```
+## ขั้นตอนที่ 1: การเริ่มต้นโครงการ
+เริ่มต้นด้วยการเริ่มต้นโปรเจ็กต์ Aspose.Tasks และโหลด TaskUsageView:
+```csharp
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "TaskUsageView.mpp");
+```
+## ขั้นตอนที่ 2: การเข้าถึงมุมมองการใช้งาน
+ดึงอินสแตนซ์ TaskUsageView จากโปรเจ็กต์:
+```csharp
+var view = (TaskUsageView)project.Views.ToList()[2];
+```
+## ขั้นตอนที่ 3: วนซ้ำผ่านฟิลด์
+ตอนนี้ เรามาวนซ้ำช่องต่างๆ ใน TaskUsageView กัน:
+```csharp
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+## ขั้นตอนที่ 4: เปลี่ยนเป็นรายการ
+แปลงคอลเลกชันฟิลด์ให้เป็นรายการ TaskUsageViewField:
+```csharp
+IList<TaskUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+ยินดีด้วย! คุณได้สำรวจเขตข้อมูลมุมมองการใช้งานงานโดยใช้ Aspose.Tasks สำหรับ .NET เรียบร้อยแล้ว
+## บทสรุป
+ในบทช่วยสอนนี้ เราได้สำรวจความสมบูรณ์ของ Aspose.Tasks สำหรับ .NET โดยเน้นที่ฟิลด์มุมมองการใช้งาน การใช้ประโยชน์จากความสามารถนี้ช่วยให้นักพัฒนาได้รับข้อมูลเชิงลึกเกี่ยวกับข้อมูลโครงการ ซึ่งจะช่วยยกระดับประสบการณ์การจัดการโครงการโดยรวม
+## คำถามที่พบบ่อย
+### ฉันสามารถใช้ Aspose.Tasks สำหรับ .NET กับเครื่องมือการจัดการโครงการอื่นๆ ได้หรือไม่
+Aspose.Tasks มุ่งเน้นไปที่แอปพลิเคชัน .NET เป็นหลัก อย่างไรก็ตาม คุณสามารถส่งออกข้อมูลเป็นรูปแบบต่างๆ ที่เข้ากันได้กับเครื่องมืออื่นๆ
+### Aspose.Tasks สำหรับ .NET มีให้ทดลองใช้งานฟรีหรือไม่
+ ใช่ คุณสามารถสัมผัสประสบการณ์การทำงานของ Aspose.Tasks สำหรับ .NET ได้โดยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
+ เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนตามชุมชนหรือสำรวจเอกสารที่ครอบคลุม
+### มีใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ .NET หรือไม่
+ ใช่ คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับการใช้งานระยะสั้น
+### เอกสารโครงการรองรับรูปแบบไฟล์ใดบ้าง
+Aspose.Tasks สำหรับ .NET รองรับรูปแบบต่างๆ รวมถึง MPP, XML และ CSV
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

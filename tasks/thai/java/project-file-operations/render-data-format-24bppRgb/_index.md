@@ -1,0 +1,77 @@
+---
+title: เรนเดอร์ข้อมูลโครงการ MS ด้วยรูปแบบ 24bppRgb ใน Aspose.Tasks
+linktitle: เรนเดอร์ข้อมูลด้วยรูปแบบ 24bppRgb ใน Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: เรียนรู้วิธีเรนเดอร์ข้อมูล MS Project เป็นรูปภาพใน Java โดยใช้ Aspose.Tasks ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
+weight: 11
+url: /th/java/project-file-operations/render-data-format-24bppRgb/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เรนเดอร์ข้อมูลโครงการ MS ด้วยรูปแบบ 24bppRgb ใน Aspose.Tasks
+
+## การแนะนำ
+ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการเรนเดอร์ข้อมูลด้วยรูปแบบ MS Project 24bppRgb โดยใช้ Aspose.Tasks สำหรับ Java การแสดงข้อมูลโครงการในรูปแบบภาพอาจมีประโยชน์สำหรับวัตถุประสงค์ต่างๆ เช่น การแชร์ความคืบหน้าของโครงการด้วยภาพหรือการสร้างรายงาน
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว
+2.  Aspose.Tasks สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Tasks สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/tasks/java/).
+3. ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java: ความคุ้นเคยกับภาษาการเขียนโปรแกรม Java จะเป็นประโยชน์ในการทำความเข้าใจและนำตัวอย่างโค้ดไปใช้
+
+## แพ็คเกจนำเข้า
+ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นในโปรเจ็กต์ Java ของคุณ:
+```java
+import com.aspose.tasks.ImageSaveOptions;
+import com.aspose.tasks.PixelFormat;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.SaveFileFormat;
+```
+
+มาแบ่งตัวอย่างที่ให้มาออกเป็นหลายขั้นตอน:
+## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีข้อมูล
+```java
+// เส้นทางไปยังไดเร็กทอรีเอกสาร
+String dataDir = "Your Data Directory";
+```
+ในขั้นตอนนี้ คุณจะกำหนดไดเร็กทอรีซึ่งเป็นที่ตั้งของข้อมูลโปรเจ็กต์ของคุณ แทนที่`"Your Data Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีข้อมูลของคุณ
+## ขั้นตอนที่ 2: โหลดไฟล์โครงการ
+```java
+Project project = new Project(dataDir + "project.mpp");
+```
+ที่นี่เราโหลดไฟล์ MS Project (`project.mpp` ) โดยใช้ Aspose.Tasks และจัดเก็บไว้ใน`project` วัตถุ.
+## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึกรูปภาพ
+```java
+ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.Tiff);
+options.setHorizontalResolution(72);
+options.setVerticalResolution(72);
+options.setPixelFormat(PixelFormat.Format24bppRgb);
+```
+ขั้นตอนนี้เกี่ยวข้องกับการกำหนดค่าตัวเลือกสำหรับการบันทึกข้อมูลโครงการเป็นรูปภาพ เราระบุรูปแบบภาพ (TIFF) ความละเอียดแนวนอนและแนวตั้ง และรูปแบบพิกเซล (24bppRgb)
+## ขั้นตอนที่ 4: บันทึกข้อมูลโครงการเป็นรูปภาพ
+```java
+project.save(dataDir + "resFile.tif", options);
+```
+สุดท้าย เราบันทึกข้อมูลโครงการเป็นไฟล์รูปภาพ (`resFile.tif`) ด้วยตัวเลือกที่ระบุ
+
+## บทสรุป
+ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีเรนเดอร์ข้อมูลโปรเจ็กต์ด้วยรูปแบบ MS Project 24bppRgb โดยใช้ Aspose.Tasks สำหรับ Java ด้วยการทำตามขั้นตอนที่ให้ไว้ คุณสามารถแปลงข้อมูลโปรเจ็กต์ของคุณเป็นรูปแบบรูปภาพเพื่อวัตถุประสงค์ต่างๆ ได้อย่างง่ายดาย
+## คำถามที่พบบ่อย
+### ถาม: ฉันสามารถเรนเดอร์ข้อมูลโปรเจ็กต์ในรูปแบบรูปภาพอื่นได้หรือไม่
+ตอบ: ใช่ Aspose.Tasks รองรับการเรนเดอร์ข้อมูลโปรเจ็กต์เป็นรูปแบบรูปภาพต่างๆ เช่น PNG, JPEG, BMP เป็นต้น
+### ถาม: Aspose.Tasks เข้ากันได้กับ MS Project เวอร์ชันต่างๆ หรือไม่
+ตอบ: ใช่ Aspose.Tasks รองรับ MS Project หลายเวอร์ชัน รวมถึงปี 2003, 2007, 2010, 2013 และ 2016
+### ถาม: ฉันสามารถปรับแต่งความละเอียดและรูปแบบพิกเซลของภาพที่เรนเดอร์ได้หรือไม่
+ตอบ: ได้ คุณสามารถปรับแต่งความละเอียดและรูปแบบพิกเซลได้ตามความต้องการของคุณโดยใช้ Aspose.Tasks
+### ถาม: Aspose.Tasks จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานเชิงพาณิชย์หรือไม่
+ ตอบ: ใช่ คุณต้องซื้อสิทธิ์การใช้งาน Aspose.Tasks ในเชิงพาณิชย์ คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
+ ตอบ: คุณสามารถรับการสนับสนุนสำหรับ Aspose.Tasks ได้จาก[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

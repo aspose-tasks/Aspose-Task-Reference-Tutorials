@@ -1,0 +1,86 @@
+---
+title: Υπολογισμός κρίσιμης διαδρομής έργου MS στο Aspose.Tasks
+linktitle: Υπολογισμός κρίσιμης διαδρομής στα έργα Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: Μάθετε πώς να υπολογίζετε την κρίσιμη διαδρομή στο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Αυτό παρέχει καθοδήγηση βήμα προς βήμα για αποτελεσματική διαχείριση έργου.
+weight: 10
+url: /el/java/project-management/critical-path/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπολογισμός κρίσιμης διαδρομής έργου MS στο Aspose.Tasks
+
+## Εισαγωγή
+Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία υπολογισμού της κρίσιμης διαδρομής στο MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Η κρίσιμη διαδρομή είναι απαραίτητη για τη διαχείριση του έργου, καθώς βοηθά στον εντοπισμό της αλληλουχίας των εργασιών που πρέπει να ολοκληρωθούν εγκαίρως για να διασφαλιστεί ότι το συνολικό χρονοδιάγραμμα του έργου δεν θα καθυστερήσει.
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+1. Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
+2.  Η βιβλιοθήκη Aspose.Tasks για Java έγινε λήψη και προσθήκη στο έργο σας. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/tasks/java/).
+
+## Εισαγωγή πακέτων
+Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα στην τάξη Java:
+```java
+import com.aspose.tasks.*;
+```
+## Βήμα 1: Ρύθμιση καταλόγου δεδομένων
+Καθορίστε τη διαδρομή προς τον κατάλογο δεδομένων σας όπου βρίσκεται το αρχείο MS Project.
+```java
+String dataDir = "Your Data Directory";
+```
+## Βήμα 2: Φορτώστε το αρχείο MS Project
+Φορτώστε το αρχείο MS Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks.
+```java
+Project project = new Project(dataDir + "New project 2013.mpp");
+```
+## Βήμα 3: Ορίστε τη λειτουργία υπολογισμού
+Ρυθμίστε τη λειτουργία υπολογισμού σε αυτόματη για να ενεργοποιήσετε τον υπολογισμό της κρίσιμης διαδρομής.
+```java
+project.setCalculationMode(CalculationMode.Automatic);
+```
+## Βήμα 4: Προσθήκη εργασιών
+Προσθέστε εργασίες στο έργο σας. Σε αυτό το παράδειγμα, προσθέτουμε τρεις δευτερεύουσες εργασίες.
+```java
+Task subtask1 = project.getRootTask().getChildren().add("1");
+Task subtask2 = project.getRootTask().getChildren().add("2");
+Task subtask3 = project.getRootTask().getChildren().add("3");
+```
+## Βήμα 5: Δημιουργήστε συνδέσμους εργασιών
+Δημιουργήστε συνδέσμους εργασιών για να ορίσετε τις εξαρτήσεις μεταξύ των εργασιών.
+```java
+project.getTaskLinks().add(subtask1, subtask2, TaskLinkType.FinishToStart);
+```
+## Βήμα 6: Εμφάνιση κρίσιμης διαδρομής
+Ανάκτηση και εμφάνιση της κρίσιμης διαδρομής του έργου.
+```java
+for (Task task : project.getCriticalPath()) {
+    System.out.println(task.get(Tsk.NAME));
+}
+```
+## Βήμα 7: Εμφάνιση αποτελεσμάτων
+Εμφανίστε ένα μήνυμα που υποδεικνύει την επιτυχή ολοκλήρωση της διαδικασίας.
+```java
+System.out.println("Process completed Successfully");
+```
+
+## συμπέρασμα
+Ο υπολογισμός της κρίσιμης διαδρομής στο MS Project χρησιμοποιώντας το Aspose.Tasks για Java είναι ζωτικής σημασίας για την αποτελεσματική διαχείριση έργου. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να προσδιορίσετε με ακρίβεια τη σειρά των εργασιών που είναι κρίσιμες για το χρονοδιάγραμμα του έργου σας.
+## Συχνές ερωτήσεις
+### Ε: Μπορώ να χρησιμοποιήσω το Aspose.Tasks για Java με οποιαδήποτε έκδοση αρχείων MS Project;
+Α: Ναι, το Aspose.Tasks για Java υποστηρίζει διάφορες εκδόσεις αρχείων MS Project, συμπεριλαμβανομένων των αρχείων .mpp από το MS Project 2003 έως το MS Project 2019.
+### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για Java;
+ Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
+### Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για Java;
+ Α: Μπορείτε να βρείτε υποστήριξη στο[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15).
+### Ε: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Tasks για Java;
+ Α: Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+### Ε: Πώς μπορώ να αγοράσω το Aspose.Tasks για Java;
+ Α: Μπορείτε να αγοράσετε το Aspose.Tasks για Java από τον ιστότοπο[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

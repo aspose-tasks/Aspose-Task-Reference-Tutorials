@@ -1,0 +1,59 @@
+---
+title: สร้างทรัพยากรโครงการ MS ใน Aspose.Tasks
+linktitle: สร้างทรัพยากรใน Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: เรียนรู้วิธีสร้างทรัพยากร Microsoft Project ใน Java โดยใช้ไลบรารี Aspose.Tasks คำแนะนำทีละขั้นตอนสำหรับการจัดการทรัพยากรอย่างมีประสิทธิภาพ
+weight: 10
+url: /th/java/resource-management/create-resources/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างทรัพยากรโครงการ MS ใน Aspose.Tasks
+
+## การแนะนำ
+ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับการใช้ Aspose.Tasks สำหรับ Java เพื่อสร้างทรัพยากร Microsoft Project! Aspose.Tasks เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project ภายในแอปพลิเคชัน Java ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างทรัพยากร MS Project โดยใช้ Aspose.Tasks ทีละขั้นตอน
+## ข้อกำหนดเบื้องต้น
+ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว
+2.  Aspose.Tasks สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.Tasks สำหรับ Java ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/java/).
+
+## แพ็คเกจนำเข้า
+ในโค้ด Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับการใช้ฟังก์ชัน Aspose.Tasks:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+```
+
+## ขั้นตอนที่ 1: เริ่มต้นวัตถุโครงการ
+ขั้นแรก เริ่มต้นวัตถุ Project ซึ่งจะทำหน้าที่เป็นคอนเทนเนอร์สำหรับข้อมูล MS Project ของคุณ:
+```java
+Project project = new Project();
+```
+## ขั้นตอนที่ 2: เพิ่มทรัพยากร
+ตอนนี้ เรามาเพิ่มทรัพยากรให้กับโครงการกันดีกว่า โดยทั่วไปทรัพยากรในโครงการ MS จะเป็นตัวแทนของผู้คน อุปกรณ์ หรือวัสดุที่เกี่ยวข้องกับโครงการ:
+```java
+Resource resource = project.getResources().add("ResourceName");
+```
+
+## บทสรุป
+ยินดีด้วย! คุณได้เรียนรู้วิธีสร้างทรัพยากร MS Project โดยใช้ Aspose.Tasks สำหรับ Java เรียบร้อยแล้ว ด้วยขั้นตอนง่ายๆ เหล่านี้ คุณสามารถจัดการทรัพยากรในไฟล์ MS Project ของคุณได้อย่างมีประสิทธิภาพโดยทางโปรแกรม ซึ่งช่วยเพิ่มขีดความสามารถในการจัดการโครงการของคุณ
+## คำถามที่พบบ่อย
+### ฉันสามารถจัดการด้านอื่น ๆ ของไฟล์ MS Project โดยใช้ Aspose.Tasks ได้หรือไม่
+ใช่ Aspose.Tasks มีฟังก์ชันการทำงานที่หลากหลายเพื่อจัดการงาน ทรัพยากร ปฏิทิน และอื่นๆ ในไฟล์ MS Project
+### Aspose.Tasks เหมาะสำหรับแอปพลิเคชันระดับองค์กรหรือไม่
+อย่างแน่นอน! Aspose.Tasks ได้รับการออกแบบมาเพื่อตอบสนองความต้องการของแอปพลิเคชันระดับองค์กรด้วยคุณสมบัติที่แข็งแกร่งและประสิทธิภาพที่ยอดเยี่ยม
+### ฉันสามารถลองใช้ Aspose.Tasks ก่อนซื้อได้หรือไม่
+ ใช่ คุณสามารถดาวน์โหลด Aspose.Tasks รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
+คุณสามารถค้นหาการสนับสนุนและความช่วยเหลือได้ที่ฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อใช้ Aspose.Tasks หรือไม่
+ แม้ว่าคุณจะสามารถใช้ Aspose.Tasks ได้โดยไม่ต้องมีใบอนุญาต แต่ใบอนุญาตชั่วคราวสามารถปลดล็อกคุณสมบัติและฟังก์ชันเพิ่มเติมได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

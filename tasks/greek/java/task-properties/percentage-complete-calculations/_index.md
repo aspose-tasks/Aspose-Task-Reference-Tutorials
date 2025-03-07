@@ -1,0 +1,77 @@
+---
+title: Ποσοστό Ολοκληρωμένοι Υπολογισμοί για Εργασίες στο Aspose.Tasks
+linktitle: Ποσοστό Ολοκληρωμένοι Υπολογισμοί για Εργασίες στο Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: Εξερευνήστε το Aspose.Tasks για Java και βελτιστοποιήστε την παρακολούθηση προόδου του έργου. Υπολογίστε αβίαστα τα ποσοστά εργασιών για αποτελεσματική διαχείριση έργου.
+weight: 25
+url: /el/java/task-properties/percentage-complete-calculations/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ποσοστό Ολοκληρωμένοι Υπολογισμοί για Εργασίες στο Aspose.Tasks
+
+## Εισαγωγή
+Καλώς ήλθατε στον αναλυτικό οδηγό μας για τον έλεγχο των υπολογισμών ποσοστού εργασιών χρησιμοποιώντας το Aspose.Tasks για Java. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java που έχει σχεδιαστεί για εργασία με αρχεία Microsoft Project, προσφέροντας ένα ισχυρό σύνολο δυνατοτήτων για τη διαχείριση έργων. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στους υπολογισμούς Ποσοστό Ολοκληρωμένων, παρέχοντάς σας τη γνώση για την αποτελεσματική παρακολούθηση και ανάλυση της προόδου του έργου.
+## Προαπαιτούμενα
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+- Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας.
+-  Aspose.Tasks Library: Κάντε λήψη της βιβλιοθήκης Aspose.Tasks για Java από[αυτός ο σύνδεσμος](https://releases.aspose.com/tasks/java/).
+## Εισαγωγή πακέτων
+Ας ξεκινήσουμε εισάγοντας τα απαραίτητα πακέτα για το έργο Aspose.Tasks για Java. Συμπεριλάβετε το ακόλουθο απόσπασμα κώδικα στο έργο σας:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.TaskCollection;
+import com.aspose.tasks.Tsk;
+```
+Τώρα, ας αναλύσουμε κάθε βήμα με λεπτομερείς εξηγήσεις.
+## Βήμα 1: Εισαγωγή πακέτων
+Στο πρώτο βήμα, εισάγουμε τα απαραίτητα πακέτα για τη ρύθμιση του έργου Aspose.Tasks.
+## Βήμα 2: Ρύθμιση καταλόγου εγγράφων
+ Καθορίστε τη διαδρομή προς τον κατάλογο εγγράφων σας χρησιμοποιώντας το`dataDir`μεταβλητός. Βεβαιωθείτε ότι το αρχείο Microsoft Project, όπως το "Software Development.mpp", βρίσκεται σε αυτόν τον κατάλογο.
+```java
+// Η διαδρομή προς τον κατάλογο εγγράφων.
+String dataDir = "Your Document Directory";
+```
+## Βήμα 3: Φόρτωση του έργου
+ Αρχικοποιήστε ένα νέο`Project` αντικείμενο και φορτώστε το αρχείο Microsoft Project στην παρουσία του έργου.
+```java
+Project project = new Project(dataDir + "Software Development.mpp");
+```
+## Βήμα 4: Ανάκτηση της συλλογής εργασιών
+ Αποκτήστε τη βασική εργασία του έργου και ανακτήστε τα παιδιά του ως συλλογή χρησιμοποιώντας`getRootTask().getChildren()`.
+```java
+TaskCollection alTasks = project.getRootTask().getChildren();
+```
+## Βήμα 5: Ολοκληρώθηκε το ποσοστό εκτύπωσης
+Κάντε βρόχο σε κάθε εργασία της συλλογής και εκτυπώστε το Ποσοστό ολοκλήρωσης, Ποσοστό ολοκλήρωσης εργασίας και Φυσικό ποσοστό ολοκλήρωσης.
+```java
+for (Task tsk : alTasks) {
+    System.out.println(tsk.get(Tsk.PERCENT_COMPLETE));
+    System.out.println(tsk.get(Tsk.PERCENT_WORK_COMPLETE).toString());
+    System.out.println(tsk.get(Tsk.PHYSICAL_PERCENT_COMPLETE).toString());
+}
+```
+Επαναλάβετε αυτά τα βήματα για κάθε εργασία στο έργο σας για να αποκτήσετε γνώσεις σχετικά με την πρόοδο του καθενός.
+## συμπέρασμα
+Συγχαρητήρια! Έχετε κατακτήσει με επιτυχία τους υπολογισμούς ποσοστού εργασιών χρησιμοποιώντας το Aspose.Tasks για Java. Αυτή η ισχυρή βιβλιοθήκη δίνει τη δυνατότητα στους προγραμματιστές να διαχειρίζονται και να αναλύουν αποτελεσματικά την πρόοδο του έργου.
+## Συχνές ερωτήσεις
+### Ε: Πού μπορώ να βρω την τεκμηρίωση του Aspose.Tasks;
+ Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/tasks/java/).
+### Ε: Πώς μπορώ να κατεβάσω τη βιβλιοθήκη Aspose.Tasks για Java;
+ Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/java/).
+### Ε: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
+Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
+ Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/tasks/15).
+### Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
+ Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

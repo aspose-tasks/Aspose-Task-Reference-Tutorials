@@ -1,0 +1,90 @@
+---
+title: Освоение масок контуров Microsoft Project в Aspose.Tasks
+linktitle: Работа с контурными масками в Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Узнайте, как программно работать с файлами Microsoft Project с помощью Aspose.Tasks для .NET. Освойте контурные маски эффективно.
+weight: 14
+url: /ru/net/outline-code-page-settings/outline-masks/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение масок контуров Microsoft Project в Aspose.Tasks
+
+## Введение
+В сфере управления проектами и отслеживания задач Microsoft Project является краеугольным инструментом. Однако, когда дело доходит до программного манипулирования и управления файлами проекта, Aspose.Tasks for .NET оказывается мощным решением. В этом руководстве будет рассмотрен один конкретный аспект работы с файлами MS Project с использованием Aspose.Tasks for .NET: обработка контурных масок.
+## Предварительные условия
+Прежде чем погрузиться в это руководство, убедитесь, что у вас есть следующее:
+- Базовое понимание языка программирования C#.
+- Установлена Visual Studio с .NET Framework.
+- Знакомство с форматами файлов Microsoft Project.
+-  Скачал и установил библиотеку Aspose.Tasks для .NET. Если нет, то вы можете получить его[здесь](https://releases.aspose.com/tasks/net/).
+- Базовое понимание концепций управления проектами.
+## Импортировать пространства имен
+Прежде чем продолжить работу с руководством, импортируйте необходимые пространства имен в файл C#:
+```csharp
+    
+```
+## Шаг 1. Загрузите файл проекта
+Первый шаг — загрузить файл Microsoft Project с помощью библиотеки Aspose.Tasks.
+```csharp
+// Путь к каталогу документов.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+```
+## Шаг 2. Определите общий код
+Затем определите определение общего кода для проекта.
+```csharp
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+project.OutlineCodes.Add(outline);
+```
+## Шаг 3: Определите контурную маску
+Теперь создайте контурную маску для контурного кода.
+```csharp
+var mask = new OutlineMask();
+// Установите тип маски
+mask.Type = MaskType.Characters;
+// Установить разделитель значений кода
+mask.Separator = "/";
+// Установите уровень маски
+mask.Level = 1;
+// Установите максимальную длину (в символах) значений структурного кода. 0, если длина не определена.
+mask.Length = 2;
+// Добавьте маску в определение
+outline.Masks.Add(mask);
+```
+## Шаг 4: Определите контурную ценность
+Определите значение структуры для кода структуры.
+```csharp
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+```
+В этом пошаговом руководстве описан процесс работы с контурными масками в Aspose.Tasks для .NET. Выполнив эти шаги, вы сможете эффективно программно управлять контурными масками в файлах Microsoft Project.
+
+## Заключение
+Освоение программного управления файлами Microsoft Project открывает мир возможностей автоматизации управления проектами. Благодаря Aspose.Tasks для .NET обработка контурных масок становится упрощенной и эффективной, что дает разработчикам возможность создавать индивидуальные решения для отслеживания и управления проектами.
+## Часто задаваемые вопросы
+### Вопрос: Могу ли я использовать Aspose.Tasks для .NET с другими инструментами управления проектами?
+А: Абсолютно! Хотя Aspose.Tasks в первую очередь ориентирован на файлы Microsoft Project, он обеспечивает совместимость с различными форматами управления проектами.
+### Вопрос: Поддерживает ли Aspose.Tasks чтение и запись файлов Microsoft Project?
+О: Да, Aspose.Tasks позволяет разработчикам читать и записывать файлы Microsoft Project, обеспечивая комплексные манипуляции.
+### Вопрос: Существует ли форум сообщества Aspose.Tasks, где я могу обратиться за помощью?
+A: Действительно, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) задавать вопросы, делиться идеями и взаимодействовать с другими пользователями.
+### Вопрос: Могу ли я попробовать Aspose.Tasks для .NET перед покупкой?
+ А: Конечно! Вы можете получить доступ к бесплатной пробной версии Aspose.Tasks.[здесь](https://releases.aspose.com/).
+### Вопрос: Где я могу получить временную лицензию на Aspose.Tasks?
+ О: Если вам нужна временная лицензия для целей оценки или тестирования, вы можете получить ее.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

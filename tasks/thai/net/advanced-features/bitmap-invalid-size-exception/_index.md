@@ -1,0 +1,125 @@
+---
+title: การจัดการข้อยกเว้นขนาดไม่ถูกต้องสำหรับบิตแมปใน Aspose.Tasks
+linktitle: การจัดการข้อยกเว้นขนาดไม่ถูกต้องสำหรับบิตแมปใน Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: เรียนรู้วิธีจัดการ BitmapInvalidSizeException ใน Aspose.Tasks สำหรับ .NET เมื่อบันทึกโปรเจ็กต์เป็นรูปภาพ บทช่วยสอนที่ครอบคลุมพร้อมคำแนะนำทีละขั้นตอน
+weight: 22
+url: /th/net/advanced-features/bitmap-invalid-size-exception/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อยกเว้นขนาดไม่ถูกต้องสำหรับบิตแมปใน Aspose.Tasks
+
+## การแนะนำ
+
+ ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการจัดการ`BitmapInvalidSizeException` เมื่อทำงานกับ Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project โดยทางโปรแกรม ช่วยให้งานต่างๆ เช่น การบันทึกโปรเจ็กต์เป็นรูปภาพได้ อย่างไรก็ตาม ในบางครั้ง เมื่อพยายามบันทึกโปรเจ็กต์เป็นรูปภาพ เราอาจพบปัญหา`Invalid Size Exception`ที่เกี่ยวข้องกับบิตแมป บทช่วยสอนนี้มีจุดมุ่งหมายเพื่อแนะนำคุณตลอดกระบวนการตรวจจับและจัดการข้อยกเว้นนี้อย่างมีประสิทธิภาพ
+
+## ข้อกำหนดเบื้องต้น
+
+ก่อนดำเนินการบทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1. ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
+2. ติดตั้ง Aspose.Tasks สำหรับ .NET แล้ว
+3. คุ้นเคยกับการทำงานกับไฟล์ Microsoft Project
+
+## นำเข้าเนมสเปซ
+
+ก่อนเริ่มต้น ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็น:
+```csharp
+using Aspose.Tasks;
+using System;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
+
+```
+
+## ขั้นตอนที่ 1: เริ่มต้นโครงการและกำหนดมุมมอง
+
+ ขั้นแรก ให้เริ่มต้น a`Project` วัตถุและกำหนดมุมมองเช่น`GanttChartView`.
+
+```csharp
+// พาธไปยังไดเร็กทอรีเอกสารth
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "Blank2010.mpp");
+GanttChartView view = (GanttChartView) project.Views.ToList()[0];
+```
+
+## ขั้นตอนที่ 2: ระบุตัวเลือกการบันทึกรูปภาพ
+
+จากนั้น ระบุตัวเลือกสำหรับการบันทึกรูปภาพ รวมถึงรูปแบบและมาตราส่วนเวลา
+
+```csharp
+var options = new ImageSaveOptions(SaveFileFormat.Png)
+{
+    Timescale = Timescale.DefinedInView
+};
+```
+
+## ขั้นตอนที่ 3: ตั้งค่าหน่วยมาตราเวลาและการนับ
+
+ปรับหน่วยมาตราเวลาและนับตามความต้องการของคุณ ในตัวอย่างนี้ เรากำหนดมาตราส่วนเวลาเป็นนาที
+
+```csharp
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
+view.MiddleTimescaleTier.Count = 1;
+```
+
+## ขั้นตอนที่ 4: บันทึกโครงการเป็นรูปภาพ
+
+พยายามบันทึกโปรเจ็กต์เป็นรูปภาพโดยใช้ตัวเลือกที่ระบุ
+
+```csharp
+project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
+```
+
+## ขั้นตอนที่ 5: จับและจัดการข้อยกเว้น
+
+ ใช้การจัดการข้อยกเว้นเพื่อตรวจจับ`BitmapInvalidSizeException` หากเกิดขึ้นระหว่างขั้นตอนการบันทึกภาพ
+
+```csharp
+try
+{
+    // พยายามบันทึกโครงการเป็นรูปภาพ
+    project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
+}
+catch (BitmapInvalidSizeException ex)
+{
+    // จัดการกับข้อยกเว้น
+    Console.WriteLine(ex.Message);
+}
+```
+
+## บทสรุป
+
+ โดยสรุปแล้ว การจัดการกับ`BitmapInvalidSizeException` เมื่อบันทึกโปรเจ็กต์เป็นอิมเมจใน Aspose.Tasks สำหรับ .NET ถือเป็นสิ่งสำคัญอย่างยิ่งในการทำให้แอปพลิเคชันของคุณทำงานได้อย่างราบรื่น ด้วยการทำตามขั้นตอนที่ระบุไว้ในบทช่วยสอนนี้ คุณสามารถตรวจจับและจัดการข้อยกเว้นนี้ได้อย่างมีประสิทธิภาพ ซึ่งจะช่วยปรับปรุงความแข็งแกร่งของโซลูชันการจัดการโครงการของคุณ
+
+## คำถามที่พบบ่อย
+
+### คำถามที่ 1: อะไรทำให้เกิด BitmapInvalidSizeException ใน Aspose.Tasks
+
+A1:: ข้อยกเว้นนี้เกิดขึ้นเมื่อพยายามบันทึกโครงการเป็นรูปภาพที่มีพารามิเตอร์ขนาดบิตแมปที่ไม่ถูกต้อง
+
+### คำถามที่ 2: ฉันสามารถปรับแต่งมาตราส่วนเวลาเมื่อบันทึกโปรเจ็กต์เป็นรูปภาพได้หรือไม่
+
+A2: ได้ คุณสามารถปรับหน่วยมาตราส่วนเวลาและนับได้ตามความต้องการของคุณ ดังที่แสดงในบทช่วยสอน
+
+### คำถามที่ 3: ฉันจะหาแหล่งข้อมูลเพิ่มเติมสำหรับการทำงานกับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
+
+คำตอบ 3: คุณสามารถสำรวจเอกสารประกอบและฟอรัมสนับสนุนที่ Aspose.Tasks จัดทำขึ้นเพื่อขอคำแนะนำและความช่วยเหลือที่ครอบคลุม
+
+### คำถามที่ 4: Aspose.Tasks เข้ากันได้กับไฟล์ Microsoft Project เวอร์ชันต่างๆ หรือไม่
+
+ตอบ 4: ใช่ Aspose.Tasks รองรับไฟล์ Microsoft Project เวอร์ชันต่างๆ ทำให้สามารถทำงานร่วมกันได้อย่างราบรื่น
+
+### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้อย่างไร
+
+A5: คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผ่านลิงก์ที่ให้ไว้ในบทความ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

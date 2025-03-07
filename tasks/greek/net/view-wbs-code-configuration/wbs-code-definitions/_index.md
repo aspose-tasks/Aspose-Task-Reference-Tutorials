@@ -1,0 +1,93 @@
+---
+title: Καθορισμός ορισμών κώδικα WBS στο Aspose.Tasks
+linktitle: Καθορισμός ορισμών κώδικα WBS στο Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: Το Aspose.Tasks for .NET ενισχύει την αποτελεσματική διαχείριση έργων. Master WBS κωδικοποιεί αβίαστα με το περιεκτικό μας σεμινάριο. Βελτιώστε τις ροές εργασίας σήμερα!
+weight: 13
+url: /el/net/view-wbs-code-configuration/wbs-code-definitions/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός ορισμών κώδικα WBS στο Aspose.Tasks
+
+## Εισαγωγή
+Καθώς η διαχείριση έργου εξελίσσεται, τόσο αυξάνεται η ανάγκη για ισχυρά εργαλεία που εξορθολογίζουν τις διαδικασίες. Στον τομέα της ανάπτυξης .NET, το Aspose.Tasks ξεχωρίζει ως μια ισχυρή βιβλιοθήκη για το χειρισμό εργασιών διαχείρισης έργου. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ορισμού κωδικών Δομής Ανάλυσης Εργασίας (WBS) χρησιμοποιώντας το Aspose.Tasks για .NET. Οι κωδικοί WBS φέρνουν τάξη στις ιεραρχίες έργων, επιτρέποντας την αποτελεσματική παρακολούθηση και οργάνωση.
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+- Γνώση εργασίας για την ανάπτυξη .NET.
+-  Εγκαταστάθηκε το Aspose.Tasks για τη βιβλιοθήκη .NET. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/net/).
+- Ένα πρόγραμμα επεξεργασίας κώδικα (συνιστάται το Visual Studio).
+## Εισαγωγή χώρων ονομάτων
+Στο έργο σας .NET, ξεκινήστε εισάγοντας τους απαραίτητους χώρους ονομάτων:
+```csharp
+    
+    using Aspose.Tasks.Saving;
+```
+Τώρα, ας αναλύσουμε τη διαδικασία ορισμού κωδικών WBS σε διαχειρίσιμα βήματα.
+
+## Βήμα 1: Ορίστε τον Κατάλογο εγγράφων
+```csharp
+String DataDir = "Your Document Directory";
+```
+Αντικαταστήστε το "Ο Κατάλογος Εγγράφων σας" με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+## Βήμα 2: Αρχικοποιήστε το έργο
+```csharp
+var project = new Project();
+```
+Δημιουργήστε μια νέα παρουσία έργου χρησιμοποιώντας το Aspose.Tasks.
+## Βήμα 3: Διαμορφώστε τον ορισμό κώδικα WBS
+```csharp
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+```
+Ρυθμίστε παραμέτρους ορισμού κώδικα WBS, όπως δημιουργία κώδικα, επαλήθευση μοναδικότητας και πρόθεμα κώδικα.
+## Βήμα 4: Ορίστε τις μάσκες κώδικα WBS
+```csharp
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+```
+Καθορίστε μάσκες κώδικα WBS για τη δομή κωδικών με βάση το μήκος, το διαχωριστικό και την ακολουθία.
+## Βήμα 5: Δημιουργία εργασιών και επανυπολογισμός
+```csharp
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+project.Recalculate();
+```
+Προσθέστε εργασίες στην ιεραρχία του έργου και υπολογίστε ξανά για να ενημερώσετε τους κωδικούς WBS.
+## Βήμα 6: Αποθηκεύστε το έργο
+```csharp
+project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+Αποθηκεύστε το έργο με τους πρόσφατα καθορισμένους κωδικούς WBS.
+## συμπέρασμα
+Σε αυτό το σεμινάριο, εξερευνήσαμε τη δύναμη του Aspose.Tasks για .NET στον ορισμό κωδικών WBS. Ακολουθώντας αυτά τα βήματα, μπορείτε να βελτιώσετε τις δυνατότητες διαχείρισης του έργου σας, φέρνοντας δομή και αποτελεσματικότητα στις ροές εργασίας σας.
+## Συχνές Ερωτήσεις
+### Είναι το Aspose.Tasks συμβατό με όλες τις εκδόσεις .NET;
+Ναι, το Aspose.Tasks υποστηρίζει διάφορες εκδόσεις .NET, διασφαλίζοντας τη συμβατότητα με ένα ευρύ φάσμα περιβαλλόντων ανάπτυξης.
+### Μπορώ να προσαρμόσω περαιτέρω τη μορφή κώδικα WBS;
+Απολύτως. Το Aspose.Tasks παρέχει εκτεταμένη ευελιξία, επιτρέποντάς σας να προσαρμόσετε τους κωδικούς WBS ώστε να ανταποκρίνονται σε συγκεκριμένες απαιτήσεις του έργου.
+### Υπάρχουν περιορισμοί στον αριθμό των κωδικών WBS που μπορώ να ορίσω;
+Το Aspose.Tasks προσφέρει επεκτασιμότητα και μπορείτε να ορίσετε έναν σημαντικό αριθμό κωδικών WBS με βάση την πολυπλοκότητα του έργου σας.
+### Πώς μπορώ να αντιμετωπίσω ζητήματα που σχετίζονται με τον κώδικα WBS στο έργο μου;
+ Το φόρουμ Aspose.Tasks (σύνδεσμος προς[υποστήριξη](https://forum.aspose.com/c/tasks/15)) είναι μια πολύτιμη πηγή για την αναζήτηση βοήθειας και την αντιμετώπιση προβλημάτων.
+### Υπάρχει διαθέσιμη δοκιμαστική έκδοση πριν από την αγορά του Aspose.Tasks;
+ Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες και τις δυνατότητες του Aspose.Tasks μεταβαίνοντας στο[δωρεάν δοκιμή](https://releases.aspose.com/) εκδοχή.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

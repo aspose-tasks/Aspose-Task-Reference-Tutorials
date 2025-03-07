@@ -1,0 +1,69 @@
+---
+title: Aspose.Tasks में कार्य और कैलेंडर
+linktitle: Aspose.Tasks में कार्य और कैलेंडर
+second_title: Aspose.Tasks जावा एपीआई
+description: कार्यों और कैलेंडरों को कुशलतापूर्वक प्रबंधित करने में जावा के लिए Aspose.Tasks की शक्ति का अन्वेषण करें। निर्बाध परियोजना प्रबंधन अनुभव के लिए अभी डाउनलोड करें!
+weight: 33
+url: /hi/java/task-properties/tasks-and-calendars/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Tasks में कार्य और कैलेंडर
+
+## परिचय
+क्या आप जावा के लिए Aspose.Tasks के साथ अपने प्रोजेक्ट प्रबंधन गेम को उन्नत करने के लिए तैयार हैं? यह व्यापक मार्गदर्शिका आपको Aspose.Tasks का उपयोग करके कार्यों और कैलेंडर की जटिल दुनिया के बारे में बताएगी, जिससे आप कुशल परियोजना योजना और निष्पादन के लिए इसकी पूरी क्षमता का उपयोग कर सकेंगे।
+## आवश्यक शर्तें
+ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+- जावा डेवलपमेंट किट (जेडीके): सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
+- Aspose.Tasks लाइब्रेरी: Aspose.Tasks लाइब्रेरी को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप पुस्तकालय पा सकते हैं[यहाँ](https://releases.aspose.com/tasks/java/).
+## पैकेज आयात करें
+अपने जावा प्रोजेक्ट में, Aspose.Tasks के लिए आवश्यक पैकेज आयात करें:
+```java
+import com.aspose.tasks.Calendar;
+import com.aspose.tasks.ChildTasksCollector;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.TaskUtils;
+import com.aspose.tasks.Tsk;
+```
+## चरण 1: अपना प्रोजेक्ट सेट करें
+एक नया जावा प्रोजेक्ट बनाकर और Aspose.Tasks लाइब्रेरी को आयात करके शुरुआत करें।
+## चरण 2: Aspose.Tasks ऑब्जेक्ट को आरंभ करें
+एक नया प्रोजेक्ट इंस्टेंस और एक रूट कार्य बनाएं। प्रोजेक्ट में "टास्क1" नामक कार्य जोड़ें।
+```java
+Project project = new Project();
+Task tsk = project.getRootTask().getChildren().add("Task1");
+```
+## चरण 3: एक कैलेंडर बनाएं
+निम्नलिखित कोड का उपयोग करके अपने प्रोजेक्ट में एक मानक कैलेंडर जोड़ें:
+```java
+Calendar cal = project.getCalendars().add("TaskCal1");
+```
+## चरण 4: कार्य को कैलेंडर के साथ संबद्ध करें
+सुनिश्चित करें कि कार्य बनाए गए कैलेंडर से संबद्ध है:
+```java
+tsk.set(Tsk.CALENDAR, cal);
+```
+अपने प्रोजेक्ट के लिए आवश्यकतानुसार अनेक कार्यों और कैलेंडर के लिए इन चरणों को दोहराएँ।
+## निष्कर्ष
+बधाई हो! आपने Java के लिए Aspose.Tasks में कार्यों और कैलेंडरों को प्रबंधित करने की जटिलताओं को सफलतापूर्वक पार कर लिया है। यह शक्तिशाली उपकरण प्रभावी परियोजना प्रबंधन के लिए संभावनाओं की दुनिया खोलता है।
+## अक्सर पूछे जाने वाले प्रश्नों
+### मैं जावा के लिए Aspose.Tasks कैसे डाउनलोड कर सकता हूँ?
+ मिलने जाना[इस लिंक](https://releases.aspose.com/tasks/java/) लाइब्रेरी डाउनलोड करने के लिए.
+### मुझे Aspose.Tasks के लिए दस्तावेज़ कहाँ मिल सकते हैं?
+ दस्तावेज़ीकरण का अन्वेषण करें[यहाँ](https://reference.aspose.com/tasks/java/).
+### क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+हाँ, आप निःशुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+### मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त करूं?
+ समुदाय में शामिल हों[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15) समर्थन के लिए।
+### क्या मैं Aspose.Tasks के लिए लाइसेंस खरीद सकता हूँ?
+ हां, आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

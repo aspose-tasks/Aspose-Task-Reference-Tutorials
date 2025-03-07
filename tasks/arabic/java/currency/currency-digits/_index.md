@@ -1,0 +1,70 @@
+---
+title: التعامل مع أرقام العملة باستخدام Aspose.Tasks
+linktitle: التعامل مع أرقام العملة باستخدام Aspose.Tasks
+second_title: Aspose.Tasks جافا API
+description: تعرف على كيفية التعامل مع أرقام العملة في MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
+weight: 11
+url: /ar/java/currency/currency-digits/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع أرقام العملة باستخدام Aspose.Tasks
+
+## مقدمة
+مرحبًا بك في برنامجنا التعليمي الشامل حول التعامل مع أرقام MS Project الخاصة بالعملة باستخدام Aspose.Tasks لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم جيدًا.
+## المتطلبات الأساسية
+قبل الغوص في هذا البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+1. بيئة تطوير Java: تأكد من تثبيت Java Development Kit (JDK) على نظامك.
+2.  مكتبة Aspose.Tasks: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة Java. يمكنك الحصول عليه من[هنا](https://releases.aspose.com/tasks/java/).
+3. المعرفة الأساسية بجافا: تعرف على أساسيات لغة برمجة جافا.
+
+## حزم الاستيراد
+قبل أن نبدأ البرمجة، دعونا نستورد الحزم الضرورية:
+```java
+import java.io.IOException;
+import com.aspose.tasks.Prj;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.SaveFileFormat;
+```
+
+## الخطوة 1: تحديد دليل البيانات
+أولاً، تحتاج إلى تحديد المسار إلى دليل البيانات الخاص بك حيث يوجد ملف المشروع.
+```java
+String dataDir = "Your Data Directory";
+```
+ يستبدل`"Your Data Directory"` مع المسار الفعلي إلى دليل البيانات الخاص بك.
+## الخطوة 2: تحميل ملف المشروع
+بعد ذلك، قم بتحميل ملف المشروع باستخدام مكتبة Aspose.Tasks.
+```java
+Project project = new Project(dataDir + "project.mpp");
+```
+ ضمان`"project.mpp"` يطابق اسم ملف المشروع الخاص بك.
+## الخطوة 3: استرداد أرقام العملة
+الآن، دعونا نستعيد أرقام العملة من ملف المشروع.
+```java
+System.out.println(project.get(Prj.CURRENCY_DIGITS));
+```
+سيقوم هذا الخط بطباعة أرقام العملة على وحدة التحكم.
+
+## خاتمة
+في الختام، يعد التعامل مع أرقام MS Project الخاصة بالعملة باستخدام Aspose.Tasks لـ Java أمرًا مباشرًا مع النهج الصحيح. باتباع هذا البرنامج التعليمي، تعلمت كيفية استرداد أرقام العملة من ملف المشروع بكفاءة.
+## الأسئلة الشائعة
+### هل يستطيع Aspose.Tasks التعامل مع سمات المشروع الأخرى إلى جانب أرقام العملة؟
+نعم، يقدم Aspose.Tasks نطاقًا واسعًا من الوظائف لمعالجة الجوانب المختلفة لملفات المشروع.
+### هل Aspose.Tasks مناسب للتطبيقات على مستوى المؤسسة؟
+بالتأكيد، تم تصميم Aspose.Tasks لتلبية متطلبات المشاريع على مستوى المؤسسات.
+### هل يدعم Aspose.Tasks التطوير عبر الأنظمة الأساسية؟
+نعم، يمكنك استخدام Aspose.Tasks for Java على منصات مختلفة تدعم تطوير Java.
+### هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+### أين يمكنني الحصول على الدعم لـ Aspose.Tasks؟
+ يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,72 @@
+---
+title: اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
+linktitle: اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
+second_title: Aspose.Tasks جافا API
+description: تعرف على كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks لـ Java. تعزيز كفاءة إدارة المشروع من خلال البرامج التعليمية خطوة بخطوة.
+weight: 19
+url: /ar/java/resource-assignments/read-shared-resource-assignments/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
+
+## مقدمة
+في إدارة المشاريع، يعد التخصيص الفعال للموارد أمرًا بالغ الأهمية لإنجاز المشروع بنجاح. يوفر Aspose.Tasks for Java أدوات قوية لإدارة الموارد بفعالية. إحدى المهام الأساسية هي قراءة تعيينات الموارد المشتركة، مما يسمح لك بفهم كيفية تخصيص الموارد عبر مشاريع متعددة.
+## المتطلبات الأساسية
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+- المعرفة الأساسية بلغة البرمجة جافا.
+- JDK (Java Development Kit) مثبت على نظامك.
+-  تم تنزيل Aspose.Tasks لمكتبة Java وإضافتها إلى مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/java/).
+
+## حزم الاستيراد
+للبدء، قم باستيراد الحزم الضرورية في كود Java الخاص بك:
+```java
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+import com.aspose.tasks.Rsc;
+```
+
+دعنا نقسم المثال إلى عدة خطوات:
+## الخطوة 1: تحديد دليل البيانات
+```java
+String dataDir = "Your Data Directory";
+```
+حدد الدليل الذي توجد به بيانات مشروعك.
+## الخطوة 2: تحميل ملف المشروع
+```java
+Project project = new Project(dataDir + "ResourceCosts.mpp");
+```
+قم بتحميل ملف المشروع الذي يحتوي على تعيينات الموارد المشتركة.
+## الخطوة 3: الوصول إلى الموارد
+```java
+Resource resource = project.getResources().getByUid(1);
+```
+استرداد المورد من المشروع بواسطة المعرف الفريد (UID).
+## الخطوة 4: استرداد وحدات الموارد
+```java
+Double units = resource.get(Rsc.PEAK_UNITS);
+```
+استرداد وحدات الذروة للمورد، والتي يتم حسابها باستخدام التعيينات من مشاريع أخرى.
+
+## خاتمة
+تعد قراءة تعيينات الموارد المشتركة في Aspose.Tasks لـ Java عملية أساسية لإدارة المشاريع بكفاءة. باستخدام البرنامج التعليمي المقدم، يمكنك الوصول بسهولة إلى تخصيص الموارد وتحليله عبر مشاريع متعددة.
+## الأسئلة الشائعة
+### هل يمكنني تعديل تعيينات الموارد باستخدام Aspose.Tasks لـ Java؟
+نعم، يمكنك تعديل تعيينات الموارد وإدارتها برمجيًا.
+### هل Aspose.Tasks for Java متوافق مع تنسيقات ملفات المشروع المختلفة؟
+نعم، فهو يدعم تنسيقات ملفات المشروع المختلفة مثل MPP، وXML، وMPX.
+### هل يمكنني إنشاء تقارير بناءً على تعيينات الموارد؟
+بالتأكيد، يتيح لك Aspose.Tasks for Java إنشاء تقارير مخصصة بناءً على بيانات الموارد.
+### هل هناك أي قيود على حجم ملفات المشروع التي يمكنه التعامل معها؟
+يمكن لـ Aspose.Tasks for Java التعامل مع المشاريع ذات الأحجام المختلفة، من المشاريع الصغيرة إلى المشاريع الكبيرة.
+### هل يتوفر الدعم الفني لـ Aspose.Tasks لمستخدمي Java؟
+ نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
