@@ -69,6 +69,47 @@ Learn how to manage MS Project resource costs efficiently with Aspose.Tasks for 
 Learn how to set MS Project resource properties in Java using Aspose.Tasks for seamless integration and efficient task management.
 ### [Write Updated Resource Data in Aspose.Tasks](./write-updated-resource-data/)
 Learn how to effortlessly update resource data in MS Project files using Aspose.Tasks for Java.
+### [Aspose.Tasks Java Guide&#58; Iterate Non-Root Resources Efficiently](./guide-iterate-non-root-resources-aspose-tasks-java/)
+Learn how to iterate over non-root resources in your project schedules using Aspose.Tasks for Java. Optimize resource management and enhance project efficiency with this comprehensive guide.
+
+### [Aspose.Tasks Java&#58; Efficient Resource Assignments in Project Management](./aspose-tasks-java-resource-assignments/)
+Learn how to use Aspose.Tasks Java for efficient resource assignments. Streamline your project management by creating and managing tasks with ease.
+
+### [Aspose.Tasks Java&#58; Master Resource Variance Analysis for Project Management](./aspose-tasks-java-resource-variance-analysis/)
+Learn how to use Aspose.Tasks in Java to effectively analyze and manage resource variances, optimizing project performance and efficiency. Start enhancing your project management skills today!
+
+### [Aspose.Tasks Java&#58; Project & Resource Management Guide | Step-by-Step](./implement-aspose-tasks-java-project-resource-guide/)
+Master Aspose.Tasks for Java with this comprehensive guide on project creation and resource management. Learn to optimize your workflow in technical environments.
+
+### [Master Aspose.Tasks Java for Material Resource Management in Projects](./aspose-tasks-java-master-material-resources/)
+Learn how to set material resource units with Aspose.Tasks Java, enhancing project accuracy and efficiency. Discover practical techniques for effective resource management.
+
+### [Master Java Project Management&#58; Load & Access Resources with Aspose.Tasks](./java-project-management-aspose-tasks/)
+Learn how to efficiently load and manage project files using Aspose.Tasks for Java. Discover resource assignment access, improve your workflow, and enhance project management capabilities.
+
+### [Master Resource Assignment in Aspose.Tasks Java&#58; Ultimate Guide for Developers](./aspose-tasks-java-resource-assignment-management/)
+Learn to manage resource assignments with Aspose.Tasks in Java. This guide covers setting and retrieving properties, optimizing project management workflows efficiently.
+
+### [Master Resource Cost Management in Java with Aspose.Tasks - Tutorial](./resource-cost-management-aspose-tasks-java/)
+Learn to manage resource costs effectively using Aspose.Tasks for Java. Retrieve, set, and optimize project costs efficiently.
+
+### [Master Resource Management in Java with Aspose.Tasks - Tutorial](./manage-project-resources-aspose-tasks-java/)
+Learn how to efficiently manage project resources using Aspose.Tasks for Java. This tutorial covers adding, configuring, and budgeting resources seamlessly.
+
+### [Master Task Cost Optimization with Aspose.Tasks for Java&#58; Advanced Formulas](./optimize-task-costs-aspose-tasks-java/)
+Learn how to leverage Aspose.Tasks for Java to optimize project costs using custom formulas. Enhance accuracy and efficiency in resource management.
+
+### [Resource Leveling in Java with Aspose.Tasks&#58; A Comprehensive Guide](./master-resource-leveling-java-aspose-tasks/)
+Learn how to automate resource leveling in Java projects using Aspose.Tasks. Optimize task scheduling and reduce manual adjustments efficiently.
+
+## Additional Resources
+
+- [Aspose.Tasks for Java Documentation](https://docs.aspose.com/tasks/java/)
+- [Aspose.Tasks for Java API Reference](https://reference.aspose.com/tasks/java/)
+- [Download Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/)
+- [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks)
+- [Free Support](https://forum.aspose.com/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
