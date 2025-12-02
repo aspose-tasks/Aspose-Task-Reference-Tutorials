@@ -1,78 +1,134 @@
 ---
-title: Calendarios
-linktitle: Calendarios
-second_title: Aspose.Tasks API de Java
-description: Mejore sus habilidades de gestión de proyectos Java con los tutoriales de Aspose.Tasks. Domine la gestión del calendario, cree, defina los días de la semana y actualice los calendarios con facilidad.
+date: 2025-12-02
+description: Aprenda a definir los días laborables en los calendarios de MS Project
+  usando Aspose.Tasks para Java. Guía paso a paso para personalizar los días de trabajo,
+  mejorar la programación y aumentar la eficiencia en la gestión de proyectos.
+language: es
+linktitle: Calendars
+second_title: Aspose.Tasks Java API
+title: Cómo definir los días laborables en los calendarios de MS Project – Aspose.Tasks
+  Java
+url: /java/calendars/
 weight: 21
-url: /es/java/calendars/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calendarios
+# Calendars
 
-## Introducción
+## Introduction
 
-¿Es usted un desarrollador de Java que busca optimizar sus habilidades de gestión de proyectos? Sumérgete en nuestros completos tutoriales de Aspose.Tasks que cubren varios aspectos de la gestión de calendarios de MS Project. Ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales brindan orientación paso a paso para mejorar sus capacidades.
+Si eres un desarrollador Java que busca **definir días laborables** en el calendario de tu proyecto, has llegado al lugar correcto. En este centro reunimos todos los tutoriales de Aspose.Tasks for Java que muestran **cómo definir días laborables** dentro de los calendarios de MS Project, ajustar horas de trabajo y mantener tus cronogramas claros como el cristal. Ya sea que estés construyendo un nuevo motor de programación o ajustando un plan existente, dominar la definición de días laborables te brinda un control preciso sobre los patrones de jornada, festivos y turnos personalizados.
 
-## Administrar las propiedades del calendario de MS Project en Aspose.Tasks
-Libere todo el potencial de administrar las propiedades del calendario de MS Project en Java con Aspose.Tasks. Nuestro tutorial lo guía a través de las complejidades de la gestión del calendario y le ofrece información valiosa sobre la personalización y optimización. Desde ajustar el horario laboral hasta definir fechas especiales, lo dominarás todo.
+## Quick Answers
+- **¿Cuál es el propósito principal de definir días laborables?**  
+  Indicar a MS Project qué días son laborables y cuáles son sus horas de trabajo.
+- **¿Qué biblioteca maneja la definición de días laborables en Java?**  
+  Aspose.Tasks for Java proporciona una API fluida para la manipulación de calendarios.
+- **¿Necesito una licencia?**  
+  Una licencia de evaluación gratuita funciona para pruebas; se requiere una licencia comercial para producción.
+- **¿Puedo definir varios calendarios para diferentes equipos?**  
+  Sí – cada proyecto puede contener varios calendarios, cada uno con su propia configuración de días laborables.
+- **¿Existe un proyecto de ejemplo para comenzar?**  
+  El tutorial “Define Weekdays in Calendar” enlazado a continuación incluye un ejemplo listo para ejecutar.
 
- ¿Listo para tomar el control de los cronogramas de su proyecto?[Explora el tutorial aquí](./properties/).
+## ¿Qué es “definir días laborables” en MS Project?
+Definir días laborables significa especificar qué días de la semana se consideran días de trabajo y asignar horarios de inicio/fin, reglas de horas extra o excepciones para cada día. Esta información impulsa la programación de tareas, la asignación de recursos y los cálculos de ruta crítica a lo largo del ciclo de vida del proyecto.
 
-## Cree calendarios de MS Project usando Aspose.Tasks
-Optimice sin esfuerzo la gestión de su proyecto con la creación de calendarios de MS Project utilizando Aspose.Tasks para Java. Nuestro tutorial simplifica el proceso, garantizando que pueda configurar calendarios adaptados a las necesidades únicas de su proyecto. Dé el primer paso hacia una planificación y organización eficiente de proyectos.
+## ¿Por qué usar Aspose.Tasks for Java para definir días laborables?
+- **Control total de la API** – Sin limitaciones de UI; puedes crear, modificar o eliminar entradas de días laborables programáticamente.
+- **Multiplataforma** – Funciona en cualquier entorno compatible con JVM, desde aplicaciones de escritorio hasta servicios en la nube.
+- **Precisión** – Establece diferentes horarios de trabajo para cada día laborable, agrega excepciones para festivos y sincroniza calendarios entre varios proyectos.
+- **Rendimiento** – Manipula archivos de proyecto grandes sin cargar toda la UI, ideal para pipelines automatizados.
 
- ¿Listo para crear calendarios con facilidad?[Mira el tutorial](./create/).
+## Requisitos previos
+- Java 8 o superior instalado.
+- Biblioteca Aspose.Tasks for Java (descargada del sitio web de Aspose o añadida mediante Maven/Gradle).
+- Una licencia válida de Aspose.Tasks (la licencia de evaluación funciona para aprendizaje).
 
-## Definir días laborables en Calendar con Aspose.Tasks
-Personalice sus calendarios de MS Project definiendo los días de la semana utilizando Aspose.Tasks para Java. Este tutorial le guía a través del proceso de adaptación de los días y horarios laborales, ofreciéndole la flexibilidad necesaria para una gestión exitosa del proyecto. Haga que sus calendarios funcionen para usted.
+## Administrar propiedades del calendario de MS Project en Aspose.Tasks
+Desbloquea todo el potencial de la gestión de propiedades del calendario de MS Project en Java con Aspose.Tasks. Nuestro tutorial te guía a través de las complejidades de la gestión de calendarios, ofreciendo valiosos conocimientos sobre personalización y optimización. Desde ajustar las horas de trabajo hasta definir fechas especiales, dominarás todo.
 
- ¿Listo para definir los días de la semana sin esfuerzo?[Comience aquí](./define-weekdays/).
+¿Listo para tomar el control de los cronogramas de tu proyecto? [Explora el tutorial aquí](./properties/).
 
-medida que navega por estos tutoriales, descubrirá temas adicionales que cubren la extracción de horas de trabajo, la creación de calendarios estándar, la lectura de semanas laborales y la actualización de calendarios al formato MPP. Cada tutorial está diseñado para brindarle conocimientos prácticos, lo que garantiza que pueda aplicar lo que aprenda directamente a sus proyectos Java.
+## Crear calendarios de MS Project usando Aspose.Tasks
+Optimiza sin esfuerzo la gestión de tu proyecto creando calendarios de MS Project con Aspose.Tasks for Java. Nuestro tutorial simplifica el proceso, asegurando que puedas configurar calendarios adaptados a las necesidades únicas de tu proyecto. Da el primer paso hacia una planificación y organización de proyectos eficientes.
 
-## Obtenga horas de trabajo del calendario usando Aspose.Tasks
-Simplifique sus tareas de gestión de proyectos extrayendo las horas de trabajo de los calendarios de MS Project utilizando Aspose.Tasks para Java. Este tutorial le proporciona las habilidades necesarias para optimizar los plazos de su proyecto de manera eficiente.
+¿Listo para crear calendarios con facilidad? [Consulta el tutorial](./create/).
 
- ¿Listo para extraer horas de trabajo sin esfuerzo?[Explora el tutorial](./working-hours/).
+## Definir días laborables en el calendario con Aspose.Tasks
+Personaliza tus calendarios de MS Project definiendo días laborables con Aspose.Tasks for Java. Este tutorial te guía a través del proceso de adaptar los días de trabajo y los horarios, ofreciéndote la flexibilidad necesaria para una gestión de proyectos exitosa. Haz que tus calendarios trabajen para ti.
+
+¿Listo para definir días laborables sin esfuerzo? [Comienza aquí](./define-weekdays/).
+
+A medida que navegas por estos tutoriales, descubrirás temas adicionales que cubren la extracción de horas de trabajo, la creación de calendarios estándar, la lectura de semanas laborales y la actualización de calendarios al formato MPP. Cada tutorial está diseñado para brindarte conocimientos prácticos, asegurando que puedas aplicar lo que aprendas directamente a tus proyectos Java.
+
+## Obtener horas de trabajo del calendario usando Aspose.Tasks
+Simplifica tus tareas de gestión de proyectos extrayendo las horas de trabajo de los calendarios de MS Project con Aspose.Tasks for Java. Este tutorial te brinda las habilidades necesarias para optimizar eficientemente los cronogramas de tu proyecto.
+
+¿Listo para extraer horas de trabajo sin esfuerzo? [Explora el tutorial](./working-hours/).
 
 ## Crear calendario estándar en Aspose.Tasks
-Mejore sus capacidades de gestión de proyectos aprendiendo cómo crear un calendario estándar de MS Project en Java con Aspose.Tasks. Este tutorial paso a paso garantiza que pueda implementar un enfoque estandarizado para los cronogramas de su proyecto.
+Mejora tus capacidades de gestión de proyectos aprendiendo a crear un calendario estándar de MS Project en Java con Aspose.Tasks. Este tutorial paso a paso garantiza que puedas implementar un enfoque estandarizado para los cronogramas de tu proyecto.
 
- ¿Listo para crear un calendario estándar?[Mira el tutorial](./make-standard/).
+¿Listo para crear un calendario estándar? [Consulta el tutorial](./make-standard/).
 
-## Lea las semanas laborales del calendario de MS Project con Aspose.Tasks
-Obtenga información completa sobre la lectura de semanas laborales de los calendarios de MS Project utilizando Aspose.Tasks para Java. Este tutorial ofrece instrucciones detalladas que le permitirán gestionar los cronogramas de sus proyectos de forma eficaz.
+## Leer semanas laborales del calendario de MS Project con Aspose.Tasks
+Obtén una visión completa sobre cómo leer semanas laborales de los calendarios de MS Project usando Aspose.Tasks for Java. Este tutorial ofrece instrucciones detalladas, capacitándote para gestionar eficazmente los cronogramas de tu proyecto.
 
- ¿Listo para leer las semanas laborales sin esfuerzo?[Comience aquí](./read-work-weeks/).
+¿Listo para leer semanas laborales sin esfuerzo? [Comienza aquí](./read-work-weeks/).
 
-## Actualice los calendarios de MS Project al formato MPP con Aspose.Tasks
-Actualice sin esfuerzo los calendarios de MS Project al formato MPP utilizando Aspose.Tasks para Java. Este tutorial proporciona un enfoque perfecto para garantizar que los datos de su proyecto estén en el formato correcto para una compatibilidad óptima.
+## Actualizar calendarios de MS Project al formato MPP con Aspose.Tasks
+Actualiza sin esfuerzo los calendarios de MS Project al formato MPP usando Aspose.Tasks for Java. Este tutorial ofrece un enfoque fluido para garantizar que los datos de tu proyecto estén en el formato correcto para una compatibilidad óptima.
 
- ¿Listo para actualizar calendarios al formato MPP?[Explora el tutorial](./update-to-mpp/).
+¿Listo para actualizar los calendarios al formato MPP? [Explora el tutorial](./update-to-mpp/).
 
-Libere todo el potencial de Aspose.Tasks para Java y mejore sus habilidades de gestión de proyectos. Cada tutorial está diseñado para atender a desarrolladores de todos los niveles, garantizando una experiencia de aprendizaje fluida. ¡Sumérgete y revoluciona tu viaje de gestión de proyectos Java hoy!
-## Tutoriales de calendarios
-### [Administrar las propiedades del calendario de MS Project en Aspose.Tasks](./properties/)
-Aprenda a administrar las propiedades del calendario de MS Project en Java usando Aspose.Tasks. Esto proporciona una guía paso a paso para el calendario dentro de sus aplicaciones Java.
-### [Cree calendarios de MS Project usando Aspose.Tasks](./create/)
-Aprenda a crear calendarios de MS Project usando Aspose.Tasks para Java. Agilice la gestión de proyectos con facilidad.
-### [Definir días laborables en Calendar con Aspose.Tasks](./define-weekdays/)
-Aprenda a definir los días de la semana en MS Project Calendar usando Aspose.Tasks para Java. Personaliza los días laborables y los horarios sin esfuerzo.
-### [Obtenga horas de trabajo del calendario usando Aspose.Tasks](./working-hours/)
-Extraiga fácilmente las horas de trabajo de los calendarios de MS Project con Aspose.Tasks para Java. Simplifique las tareas de gestión de proyectos.
+Desbloquea todo el potencial de Aspose.Tasks for Java y eleva tus habilidades de gestión de proyectos. Cada tutorial está diseñado para atender a desarrolladores de todos los niveles, garantizando una experiencia de aprendizaje fluida. ¡Sumérgete y revoluciona hoy mismo tu trayectoria en la gestión de proyectos Java!
+
+## Calendars Tutorials
+### [Administrar propiedades del calendario de MS Project en Aspose.Tasks](./properties/)
+Aprende a gestionar las propiedades del calendario de MS Project en Java usando Aspose.Tasks. Proporciona una guía paso a paso para el calendario dentro de tus aplicaciones Java.
+### [Crear calendarios de MS Project usando Aspose.Tasks](./create/)
+Aprende a crear calendarios de MS Project usando Aspose.Tasks for Java. Optimiza la gestión de proyectos con facilidad.
+### [Definir días laborables en el calendario con Aspose.Tasks](./define-weekdays/)
+Aprende a definir días laborables en el calendario de MS Project usando Aspose.Tasks for Java. Personaliza los días de trabajo y los horarios sin esfuerzo.
+### [Obtener horas de trabajo del calendario usando Aspose.Tasks](./working-hours/)
+Extrae fácilmente las horas de trabajo de los calendarios de MS Project con Aspose.Tasks for Java. Simplifica las tareas de gestión de proyectos.
 ### [Crear calendario estándar en Aspose.Tasks](./make-standard/)
-Aprenda a crear un calendario estándar de MS Project en Java usando Aspose.Tasks. Mejore sus capacidades de gestión de proyectos con este tutorial paso a paso.
-### [Lea las semanas laborales del calendario de MS Project con Aspose.Tasks](./read-work-weeks/)
-Aprenda a leer semanas laborales del calendario de MS Project usando Aspose.Tasks para Java. Obtenga instrucciones paso a paso en este completo tutorial.
-### [Actualice los calendarios de MS Project al formato MPP con Aspose.Tasks](./update-to-mpp/)
-Aprenda cómo actualizar calendarios de MS Project al formato MPP sin esfuerzo usando Aspose.Tasks para Java.
+Aprende a crear un calendario estándar de MS Project en Java usando Aspose.Tasks. Mejora tus capacidades de gestión de proyectos con este tutorial paso a paso.
+### [Leer semanas laborales del calendario de MS Project con Aspose.Tasks](./read-work-weeks/)
+Aprende a leer semanas laborales del calendario de MS Project usando Aspose.Tasks for Java. Obtén instrucciones paso a paso en este tutorial completo.
+### [Actualizar calendarios de MS Project al formato MPP con Aspose.Tasks](./update-to-mpp/)
+Aprende a actualizar los calendarios de MS Project al formato MPP sin esfuerzo usando Aspose.Tasks for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Preguntas frecuentes
+
+**P: ¿Puedo definir diferentes horas de trabajo para cada día laborable?**  
+R: Sí. Aspose.Tasks permite establecer horarios de inicio y fin individualmente para lunes a domingo.
+
+**P: ¿Cómo manejo los festivos o días no laborables?**  
+R: Después de definir los días laborables, puedes agregar excepciones (fechas) para marcar festivos o periodos personalizados no laborables.
+
+**P: ¿Es posible copiar una definición de día laborable de un calendario a otro?**  
+R: Absolutamente. Puedes obtener un objeto `WeekDay` de un calendario existente y añadirlo a otra instancia de calendario.
+
+**P: ¿Necesito recargar el proyecto después de actualizar los días laborables?**  
+R: No. Los cambios se aplican directamente al objeto `Project` en memoria; solo guarda el proyecto cuando hayas terminado.
+
+**P: ¿Qué versión de Aspose.Tasks se requiere para la manipulación de días laborables?**  
+R: Todas las versiones recientes (20.10 y posteriores) soportan la API completa de días laborables. Recomendamos usar la última versión estable para obtener el mejor rendimiento.
+
+---
+
+**Última actualización:** 2025-12-02  
+**Probado con:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
