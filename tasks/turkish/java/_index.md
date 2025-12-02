@@ -116,13 +116,6 @@ Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerin yönetiminden
 ### [VBA Entegrasyonu](./vba-integration/)
 Aspose.Tasks Java ile VBA entegrasyonunu keşfedin. Proje iş akışlarını sadeleştirin ve görev takibini iyileştirin. Sorunsuz VBA entegrasyonu için kapsamlı öğreticileri inceleyin!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Aspose.Tasks for Java'ı ticari bir uygulamada kullanabilir miyim?**  
@@ -145,5 +138,12 @@ A: Resmi dokümantasyon, Aspose web sitesinde Aspose.Tasks for Java bölümünde
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Tasks for Java 24.12 (yazım zamanındaki en son sürüm)  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ---

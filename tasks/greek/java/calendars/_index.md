@@ -104,13 +104,6 @@ weight: 21
 ### [Ενημέρωση Ημερολογίων MS Project σε Μορφή MPP με το Aspose.Tasks](./update-to-mpp/)
 Μάθετε πώς να ενημερώσετε ημερολόγια MS Project σε μορφή MPP χωρίς κόπο χρησιμοποιώντας το Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να ορίσω διαφορετικές ώρες εργασίας για κάθε εργάσιμη ημέρα;**  
@@ -128,6 +121,15 @@ A: Όχι. Οι αλλαγές εφαρμόζονται απευθείας στ�
 **Q: Ποια έκδοση του Aspose.Tasks απαιτείται για τη διαχείριση εργάσιμων ημερών;**  
 A: Όλες οι πρόσφατες εκδόσεις (20.10 και μετά) υποστηρίζουν πλήρη API για εργάσιμες ημέρες. Συνιστούμε τη χρήση της πιο πρόσφατης σταθερής έκδοσης για βέλτιστη απόδοση.
 
+---
+
 **Τελευταία ενημέρωση:** 2025-12-02  
 **Δοκιμή με:** Aspose.Tasks for Java 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

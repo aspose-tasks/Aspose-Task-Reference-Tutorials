@@ -110,13 +110,6 @@ weight: 21
 ### [อัปเดตปฏิทิน MS Projectเป็นรูปแบบ MPPด้วย Aspose.Tasks](./update-to-mpp/)
 เรียนรู้วิธีอัปเดตปฏิทิน MS Projectเป็นรูปแบบ MPP อย่างง่ายดายด้วย Aspose.Tasks for Java
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามพบบ่อย
 
 **Q: ฉันสามารถกำหนดชั่วโมงทำงานที่แตกต่างสำหรับแต่ละวันทำงานได้หรือไม่?**  
@@ -139,3 +132,10 @@ A: ทุกเวอร์ชันล่าสุด (20.10 ขึ้นไป
 **อัปเดตล่าสุด:** 2025-12-02  
 **ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

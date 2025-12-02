@@ -102,13 +102,6 @@ Tìm hiểu cách đọc tuần làm việc từ lịch MS Project sử dụng A
 ### [Cập nhật Lịch MS Project sang Định dạng MPP với Aspose.Tasks](./update-to-mpp/)
 Tìm hiểu cách cập nhật các lịch MS Project sang định dạng MPP một cách dễ dàng sử dụng Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể định nghĩa giờ làm việc khác nhau cho mỗi ngày trong tuần không?**  
@@ -131,3 +124,10 @@ A: Tất cả các phiên bản gần đây (20.10 trở lên) đều hỗ trợ
 **Cập nhật lần cuối:** 2025-12-02  
 **Kiểm tra với:** Aspose.Tasks for Java 24.12  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -102,13 +102,6 @@ weight: 21
 ### [Обновление календарей MS Project до формата MPP с Aspose.Tasks](./update-to-mpp/)
 Узнайте, как без труда обновлять календари MS Project до формата MPP с помощью Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Можно ли задать разные рабочие часы для каждого дня недели?**  
@@ -131,3 +124,10 @@ weight: 21
 **Последнее обновление:** 2025-12-02  
 **Тестировано с:** Aspose.Tasks for Java 24.12  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

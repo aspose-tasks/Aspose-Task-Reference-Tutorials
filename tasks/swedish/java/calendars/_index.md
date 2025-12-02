@@ -104,13 +104,6 @@ Lär dig hur du läser arbetsveckor från MS Project‑kalender med Aspose.Tasks
 ### [Uppdatera MS Project‑kalendrar till MPP‑format med Aspose.Tasks](./update-to-mpp/)
 Lär dig hur du uppdaterar MS Project‑kalendrar till MPP‑format utan ansträngning med Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag definera olika arbetstimmar för varje weekday?**  
@@ -133,3 +126,10 @@ A: Alla senaste versioner (20.10 och senare) stödjer fullständiga weekday‑AP
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

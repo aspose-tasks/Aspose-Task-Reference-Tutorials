@@ -129,13 +129,6 @@ Aspose.Tasks で Java プロジェクト管理を強化しましょう。優先�
 ### [VBA 統合](./vba-integration/)
 Aspose.Tasks Java と VBA 統合を探求してください。プロジェクトワークフローを合理化し、タスク追跡を改善します。シームレスな VBA 統合の包括的なチュートリアルはこちらで！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: Aspose.Tasks for Java を商用アプリケーションで使用できますか？**  
@@ -158,5 +151,12 @@ A: 公式ドキュメントは Aspose のウェブサイトの Aspose.Tasks for 
 **最終更新日:** 2025-12-02  
 **テスト環境:** Aspose.Tasks for Java 24.12（執筆時点での最新）  
 **作成者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ---

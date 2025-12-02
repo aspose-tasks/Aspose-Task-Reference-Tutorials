@@ -131,13 +131,6 @@ weight: 10
 ### [دمج VBA](./vba-integration/)
 استكشف Aspose.Tasks للـ Java مع دمج VBA. تحسين سير عمل المشروع وتحسين تتبع المهام. استكشف دروس شاملة لدمج VBA بسلاسة!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.Tasks للـ Java في تطبيق تجاري؟**  
@@ -160,5 +153,12 @@ weight: 10
 **آخر تحديث:** 2025-12-02  
 **تم الاختبار مع:** Aspose.Tasks للـ Java 24.12 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ---

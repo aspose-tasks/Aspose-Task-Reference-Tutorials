@@ -103,13 +103,6 @@ Ismerje meg, hogyan olvassa a munkahét adatokat az MS Project naptárból az As
 ### [MS Project naptárak frissítése MPP formátumba Aspose.Tasks használatával](./update-to-mpp/)
 Ismerje meg, hogyan frissítse az MS Project naptárakat MPP formátumba könnyedén az Aspose.Tasks for Java segítségével.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Definiálhatok különböző munkaidőket minden hétköznapra?**  
@@ -132,3 +125,10 @@ Ismerje meg, hogyan frissítse az MS Project naptárakat MPP formátumba könnye
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

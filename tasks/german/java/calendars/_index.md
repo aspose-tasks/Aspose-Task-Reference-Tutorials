@@ -102,13 +102,6 @@ Erfahren Sie, wie Sie Arbeitswochen aus dem MS Project‑Kalender mit Aspose.T
 ### [MS Project‑Kalender ins MPP‑Format mit Aspose.Tasks aktualisieren](./update-to-mpp/)
 Erfahren Sie, wie Sie MS Project‑Kalender mühelos ins MPP‑Format mit Aspose.Tasks for Java aktualisieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich für jeden Wochentag unterschiedliche Arbeitszeiten festlegen?**  
@@ -131,3 +124,10 @@ A: Alle aktuellen Versionen (20.10 und später) unterstützen die vollständigen
 **Zuletzt aktualisiert:** 2025-12-02  
 **Getestet mit:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

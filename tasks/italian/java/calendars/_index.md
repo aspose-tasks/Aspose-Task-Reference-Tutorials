@@ -111,13 +111,6 @@ Scopri come leggere le settimane lavorative dal calendario MS Project usando Asp
 ### [Aggiornare i calendari MS Project al formato MPP con Aspose.Tasks](./update-to-mpp/)
 Scopri come aggiornare i calendari MS Project al formato MPP senza sforzo usando Aspose.Tasks per Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **D: Posso definire ore di lavoro diverse per ogni giorno feriale?**  
@@ -140,3 +133,10 @@ R: Tutte le versioni recenti (20.10 e successive) supportano le API complete dei
 **Ultimo aggiornamento:** 2025-12-02  
 **Testato con:** Aspose.Tasks for Java 24.12  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

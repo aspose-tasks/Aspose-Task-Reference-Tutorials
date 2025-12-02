@@ -114,13 +114,6 @@ weight: 10
 ### [VBA 集成](./vba-integration/)
 通过 Aspose.Tasks Java 与 VBA 集成，简化项目工作流并改进任务跟踪。探索完整的 VBA 集成教程！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **问：我可以在商业应用中使用 Aspose.Tasks for Java 吗？**  
@@ -143,5 +136,12 @@ weight: 10
 **最后更新：** 2025-12-02  
 **测试环境：** Aspose.Tasks for Java 24.12（撰写时的最新版本）  
 **作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ---

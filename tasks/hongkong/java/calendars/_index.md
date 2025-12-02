@@ -100,13 +100,6 @@ weight: 21
 ### [Update MS Project Calendars to MPP Format with Aspose.Tasks](./update-to-mpp/)
 學習如何使用 Aspose.Tasks for Java 輕鬆將 MS Project 行事曆更新為 MPP 格式。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 可以為每個工作日設定不同的工作時數嗎？**  
@@ -124,6 +117,15 @@ A: 不需要。變更會直接套用到記憶體中的 `Project` 物件，只要
 **Q: 需要哪個版本的 Aspose.Tasks 才能操作工作日？**  
 A: 所有近期版本（20.10 及之後）皆支援完整的工作日 API。我們建議使用最新的穩定版以獲得最佳效能。
 
+---
+
 **最後更新：** 2025-12-02  
 **測試環境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

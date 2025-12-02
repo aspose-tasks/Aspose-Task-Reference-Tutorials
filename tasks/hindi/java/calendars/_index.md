@@ -108,13 +108,6 @@ Aspose.Tasks for Java का उपयोग करके MS Project कैल�
 ### [Update MS Project Calendars to MPP Format with Aspose.Tasks](./update-to-mpp/)
 Aspose.Tasks for Java का उपयोग करके MS Project कैलेंडर को MPP फ़ॉर्मेट में आसानी से अपडेट करना सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं प्रत्येक सप्ताह के दिन के लिए अलग-अलग कार्य घंटे परिभाषित कर सकता हूँ?**  
@@ -137,3 +130,10 @@ A: सभी नवीनतम संस्करण (20.10 और बाद �
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

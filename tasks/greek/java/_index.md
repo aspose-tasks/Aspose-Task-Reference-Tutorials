@@ -131,13 +131,6 @@ weight: 10
 ### [Ενσωμάτωση VBA](./vba-integration/)
 ξερευνήστε το Aspose.Tasks Java με ενσωμάτωση VBA. Βελτιώστε τις ροές εργασίας του έργου και την παρακολούθηση εργασιών. Εξερευνήστε ολοκληρωμένα μαθήματα για αδιάσπαστη ενσωμάτωση VBA!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.Tasks for Java σε εμπορική εφαρμογή;**  
@@ -160,3 +153,10 @@ A: Η επίσημη τεκμηρίωση φιλοξενείται στην ισ
 **Τελευταία Ενημέρωση:** 2025-12-02  
 **Δοκιμή Με:** Aspose.Tasks for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

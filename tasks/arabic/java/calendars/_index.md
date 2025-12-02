@@ -102,13 +102,6 @@ weight: 21
 ### [تحديث تقويمات MS Project إلى صيغة MPP باستخدام Aspose.Tasks](./update-to-mpp/)
 تعلم كيفية تحديث تقويمات MS Project إلى صيغة MPP بسهولة باستخدام Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تعريف ساعات عمل مختلفة لكل يوم من أيام الأسبوع؟**  
@@ -131,3 +124,10 @@ weight: 21
 **آخر تحديث:** 2025-12-02  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

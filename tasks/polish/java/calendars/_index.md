@@ -102,13 +102,6 @@ Dowiedz się, jak odczytywać tygodnie pracy z kalendarza MS Project przy użyci
 ### [Aktualizacja kalendarzy MS Project do formatu MPP przy użyciu Aspose.Tasks](./update-to-mpp/)
 Dowiedz się, jak bezproblemowo aktualizować kalendarze MS Project do formatu MPP przy użyciu Aspose.Tasks for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę definiować różne godziny pracy dla każdego dnia tygodnia?**  
@@ -131,3 +124,10 @@ A: Wszystkie recent versions (20.10 i późniejsze) obsługują pełne API dni r
 **Ostatnia aktualizacja:** 2025-12-02  
 **Testowano z:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

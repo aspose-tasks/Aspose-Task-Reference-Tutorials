@@ -116,13 +116,6 @@ Zvyšte úroveň řízení projektů v Javě s Aspose.Tasks. Prozkoumejte tutori
 ### [VBA Integration](./vba-integration/)
 Prozkoumejte Aspose.Tasks Java s integrací VBA. Zefektivněte projektová workflow a zlepšete sledování úkolů. Prozkoumejte komplexní tutoriály pro plynulou integraci VBA!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.Tasks pro Java v komerční aplikaci?**  
@@ -145,5 +138,12 @@ A: Oficiální dokumentace je hostována na webu Aspose v sekci Aspose.Tasks pro
 **Poslední aktualizace:** 2025-12-02  
 **Testováno s:** Aspose.Tasks pro Java 24.12 (nejnovější v době psaní)  
 **Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ---
