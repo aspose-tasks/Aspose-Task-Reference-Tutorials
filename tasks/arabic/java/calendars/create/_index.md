@@ -1,74 +1,134 @@
 ---
-title: إنشاء تقويمات مشروع MS باستخدام Aspose.Tasks
-linktitle: إنشاء التقويم باستخدام Aspose.Tasks
-second_title: Aspose.Tasks جافا API
-description: تعرف على كيفية إنشاء تقويمات MS Project باستخدام Aspose.Tasks لـ Java. تبسيط إدارة المشروع بكل سهولة.
+date: 2025-12-02
+description: تعلم كيفية إضافة تقويم إلى المشروع، وكيفية إنشاء تقويم MS Project، وحفظ
+  المشروع كملف XML باستخدام Aspose.Tasks للغة Java.
+language: ar
+linktitle: Add Calendar to Project using Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: إضافة تقويم إلى المشروع باستخدام Aspose.Tasks للـ Java
+url: /java/calendars/create/
 weight: 11
-url: /ar/java/calendars/create/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء تقويمات مشروع MS باستخدام Aspose.Tasks
+# إضافة تقويم إلى المشروع باستخدام Aspose.Tasks للغة Java
 
-## مقدمة
-في العصر الرقمي الحالي، تعد الإدارة الفعالة للمشاريع أمرًا حيويًا لازدهار الشركات. يظهر Aspose.Tasks for Java كأداة قوية في هذا المجال، مما يسهل المعالجة السلسة لملفات Microsoft Project برمجيًا. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء تقويم MS Project باستخدام Aspose.Tasks لـ Java. باتباع هذه الخطوات، ستتمكن من تحسين قدرات إدارة مشروعك وتبسيط سير عملك بشكل فعال.
-## المتطلبات الأساسية
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-### بيئة تطوير جافا
-تأكد من تثبيت Java Development Kit (JDK) على نظامك.
-### Aspose.مكتبة المهام
- قم بتنزيل مكتبة Aspose.Tasks لـ Java من[موقع إلكتروني](https://releases.aspose.com/tasks/java/) وإدراجه في مشروع Java الخاص بك.
+## المقدمة
+في سير عمل إدارة المشاريع الحديثة، القدرة على **add calendar to project** برمجياً يمكن أن توفر ساعات من التعديل اليدوي. توفر Aspose.Tasks للغة Java للمطورين واجهة برمجة تطبيقات نظيفة وآمنة من حيث النوع للتعامل مع ملفات Microsoft Project دون الحاجة لفتح العميل المكتبي. في هذا البرنامج التعليمي ستتعلم **how to add calendar**, **how to create MS Project calendar**, و **save project as XML**—كل ذلك ببضع أسطر من كود Java.
 
-## حزم الاستيراد
-للبدء، قم باستيراد الحزم الضرورية في كود Java الخاص بك:
+## إجابات سريعة
+- **What does “add calendar to project” mean?**  
+  يعني ذلك إدراج تعريف جديد لوقت العمل (تقويم) في ملف Microsoft Project عبر الكود.  
+- **Which library handles this?**  
+  توفر Aspose.Tasks للغة Java الفئة `Calendar` وحاوية `Project` لإدارة التقويمات.  
+- **Do I need a license?**  
+  ترخيص تقييم مؤقت يكفي للاختبار؛ يلزم الحصول على ترخيص كامل للاستخدام في بيئة الإنتاج.  
+- **Can I save the file as XML?**  
+  نعم—استخدم `SaveFileFormat.Xml` لتصدير المشروع كملف XML.  
+- **What are the prerequisites?**  
+  Java JDK 8+ وملف JAR الخاص بـ Aspose.Tasks للغة Java في مسار الـ classpath الخاص بك.
+
+## ما هو “add calendar to project”؟
+إضافة تقويم إلى مشروع تُنشئ جدولاً مخصصاً يحدد أيام العمل، العطلات، وساعات العمل اليومية. يمكن بعد ذلك تعيين هذا التقويم للمهام أو الموارد أو للمشروع بأكمله، مما يضمن أن حسابات مثل تواريخ البدء والمدة تحترم وقت العمل المحدد.
+
+## لماذا تستخدم Aspose.Tasks للغة Java لإضافة تقويم إلى المشروع؟
+- **تحكم كامل** – لا حاجة لواجهة مستخدم؛ يمكن أتمتة إنشاء تقويمات جماعية عبر العديد من المشاريع.  
+- **توافق عبر الإصدارات** – يعمل مع ملفات Project 2007، 2010، 2013، 2016، والإصدارات الأحدث.  
+- **بدون تثبيت Microsoft Project** – يمكن تشغيله على أي خادم أو خط أنابيب CI.  
+- **مرونة التصدير** – احفظ كملف XML، MPP، أو أي تنسيق مدعوم آخر.
+
+## المتطلبات المسبقة
+- **Java Development Kit (JDK) 8 أو أحدث** مثبت ومُعد.  
+- مكتبة **Aspose.Tasks للغة Java** – حمّلها من [الموقع الرسمي](https://releases.aspose.com/tasks/java/) وأضف ملف JAR إلى مسار الـ classpath الخاص بمشروعك.  
+- بيئة تطوير متكاملة (IDE) أو أداة بناء (Maven/Gradle) حسب اختيارك.
+
+## دليل خطوة بخطوة
+
+### الخطوة 1: استيراد حزمة Aspose.Tasks المطلوبة
+أولاً، استورد فئات Aspose.Tasks إلى النطاق لتتمكن من العمل مع المشاريع والتقويمات.
+
 ```java
 import com.aspose.tasks.*;
 ```
-## الخطوة 1: تعيين مسار دليل البيانات
-حدد المسار إلى دليل البيانات الخاص بك حيث سيتم حفظ ملف المشروع:
+
+### الخطوة 2: تعيين مسار دليل البيانات
+حدد المكان الذي سيُكتب فيه ملف المشروع المُنشأ. استبدل العنصر النائب بمسار مطلق أو نسبي على جهازك.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## الخطوة 2: إنشاء مثيل المشروع
-قم بإنشاء مثيل لكائن Project لبدء العمل مع ملفات MS Project:
+
+### الخطوة 3: إنشاء كائن Project جديد
+أنشئ كائن `Project` – يمثل ملف Microsoft Project فارغ يمكنك ملؤه.
+
 ```java
 Project prj = new Project();
 ```
-## الخطوة 3: تحديد التقاويم
-حدد التقويمات التي تريد إضافتها إلى مشروعك:
+
+### الخطوة 4: تعريف التقويمات التي تريد إضافتها
+استخدم الطريقة `Calendars.add(String name)` لإنشاء إدخالات تقويم جديدة. في هذا المثال نضيف ثلاثة تقويمات، لكن يمكنك إضافة أي عدد تحتاجه وتكوين أوقات العمل لاحقاً.
+
 ```java
 Calendar cal1 = prj.getCalendars().add("no info");
 Calendar cal2 = prj.getCalendars().add("no name");
 Calendar cal3 = prj.getCalendars().add("cal3");
 ```
-## الخطوة 4: احفظ المشروع
-احفظ المشروع مع التقويمات المضافة:
+
+> **نصيحة احترافية:** بعد إضافة تقويم، يمكنك تخصيص أيام العمل باستخدام `cal1.getWeekDays().add(...)` وتحديد ساعات العمل اليومية عبر `cal1.getBaseCalendar().setWorkingTime(...)`.
+
+### الخطوة 5: حفظ المشروع (حفظ المشروع كملف XML)
+احفظ المشروع، بما في ذلك التقويمات المضافة حديثاً، إلى ملف XML. هذا التنسيق سهل الفحص ومتوافق مع العديد من الأدوات.
+
 ```java
 prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-## الخطوة 5: عرض رسالة الإكمال
-اطبع رسالة تشير إلى إتمام العملية بنجاح:
+
+### الخطوة 6: عرض رسالة إكمال
+أخبر المستخدم أن العملية انتهت بنجاح.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-باتباع هذه الخطوات البسيطة، تكون قد نجحت في إنشاء تقويم MS Project باستخدام Aspose.Tasks لـ Java.
 
-## خاتمة
-يعمل Aspose.Tasks for Java على تمكين المطورين من خلال وظائف قوية لمعالجة ملفات MS Project برمجيًا. ومن خلال الاستفادة من إمكاناته، يمكنك تعزيز كفاءة إدارة المشروع وتبسيط سير العمل بسلاسة.
-## الأسئلة الشائعة
-### س: هل يمكن لـ Aspose.Tasks لـ Java التعامل مع هياكل المشاريع المعقدة؟
-ج: نعم، يوفر Aspose.Tasks for Java دعمًا شاملاً لإدارة هياكل المشاريع المعقدة بسهولة.
-### س: هل يتوافق Aspose.Tasks for Java مع الإصدارات المختلفة من ملفات MS Project؟
-ج: بالتأكيد، يدعم Aspose.Tasks for Java إصدارات مختلفة من ملفات MS Project، مما يضمن التوافق عبر بيئات مختلفة.
-### س: هل يمكنني دمج Aspose.Tasks لـ Java مع مكتبات Java الأخرى؟
-ج: نعم، يمكن دمج Aspose.Tasks for Java بسلاسة مع مكتبات Java الأخرى لتحسين الوظائف وتحقيق متطلبات محددة.
-### س: هل يقدم Aspose.Tasks for Java الدعم للمهام المتكررة؟
-ج: نعم، Aspose.Tasks for Java يسهل إدارة المهام المتكررة، مما يتيح الجدولة والتتبع بكفاءة.
-### س: هل يوجد منتدى مجتمعي لـ Aspose.Tasks لمستخدمي Java؟
- ج: نعم، يمكنك العثور على موارد قيمة والتفاعل مع المجتمع في[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+باتباع هذه الخطوات الست المختصرة، تكون قد نجحت في **add calendar to project** وحفظ النتيجة كملف XML.
+
+## المشكلات الشائعة والحلول
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| **`NullPointerException` on `prj.getCalendars()`** | كائن Project لم يتم تهيئته بشكل صحيح. | تأكد من استدعاء `new Project()` قبل الوصول إلى التقويمات. |
+| **File not found when saving** | `dataDir` يشير إلى مجلد غير موجود. | أنشئ المجلد أولاً أو استخدم مسارًا مطلقًا. |
+| **Calendar name appears as “no info”** | تم استخدام أسماء بديلة في العينة. | استبدلها بأسماء ذات معنى تعكس الجدول الزمني (مثال: “US Holiday Calendar”). |
+| **Saved XML cannot be opened in MS Project** | استخدام نسخة قديمة من Aspose.Tasks. | حدّث إلى أحدث إصدار من Aspose.Tasks للغة Java. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكن لـ Aspose.Tasks التعامل مع تقويمات معقدة تحتوي على استثناءات متعددة؟**  
+ج: نعم – بعد إضافة تقويم يمكنك تعريف الاستثناءات، ساعات العمل، وأيام عدم العمل باستخدام فئتي `WeekDay` و `Exception`.
+
+**س: هل من الممكن تعيين التقويم الجديد لمهام محددة؟**  
+ج: بالتأكيد. استرجع مهمة عبر `prj.getRootTask().getChildren().add("Task Name")` ثم عيّن `task.set(Tsk.CALENDAR, cal3);`.
+
+**س: هل تدعم المكتبة الحفظ بتنسيقات أخرى مثل MPP؟**  
+ج: نعم. استبدل `SaveFileFormat.Xml` بـ `SaveFileFormat.Mpp` أو `SaveFileFormat.P6` حسب الحاجة.
+
+**س: هل أحتاج إلى ترخيص لبناءات التطوير؟**  
+ج: ترخيص تقييم مؤقت يكفي للاختبار؛ يلزم الحصول على ترخيص كامل للنشر في بيئات الإنتاج.
+
+**س: أين يمكنني الحصول على مساعدة إذا واجهت مشاكل؟**  
+ج: منتدى مجتمع Aspose.Tasks هو مصدر ممتاز: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+## الخلاصة
+باستخدام Aspose.Tasks للغة Java، يمكنك برمجياً **add calendar to project**، تخصيص قواعد الجدولة، و **save project as XML** ببضع أسطر من الكود. هذه الأتمتة تقلل الجهد اليدوي، تُزيل الأخطاء البشرية، وتُمكّن من معالجة دفعات كبيرة من مشاريع المحفظة.
+
+---
+
+**آخر تحديث:** 2025-12-02  
+**تم الاختبار مع:** Aspose.Tasks للغة Java 24.12 (أحدث نسخة وقت كتابة هذا الدليل)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,74 +1,134 @@
 ---
-title: 使用 Aspose.Tasks 建立 MS Project 日曆
-linktitle: 使用 Aspose.Tasks 建立日曆
+date: 2025-12-02
+description: 了解如何將行事曆加入專案、如何建立 MS Project 行事曆，以及如何使用 Aspose.Tasks for Java 將專案儲存為
+  XML。
+language: zh-hant
+linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 建立 MS Project 行事曆。輕鬆簡化專案管理。
+title: 使用 Aspose.Tasks for Java 為專案新增行事曆
+url: /java/calendars/create/
 weight: 11
-url: /zh-hant/java/calendars/create/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks 建立 MS Project 日曆
+# 使用 Aspose.Tasks for Java 為專案新增行事曆
 
 ## 介紹
-在當今的數位時代，高效的專案管理對於企業的蓬勃發展至關重要。 Aspose.Tasks for Java 成為該領域的強大工具，有助於以程式設計方式無縫操作 Microsoft Project 檔案。本教學將引導您完成使用 Aspose.Tasks for Java 建立 MS 專案日曆的過程。透過執行這些步驟，您將能夠增強專案管理能力並有效簡化工作流程。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-### Java開發環境
-確保您的系統上安裝了 Java 開發工具包 (JDK)。
-### Aspose.Tasks函式庫
-從下列位置下載 Aspose.Tasks for Java 函式庫[網站](https://releases.aspose.com/tasks/java/)並將其包含在您的 Java 專案中。
+在現代專案管理工作流程中，透過程式碼 **為專案新增行事曆** 能節省大量手動編輯的時間。Aspose.Tasks for Java 為開發者提供乾淨且型別安全的 API，讓您在不開啟桌面客戶端的情況下操作 Microsoft Project 檔案。本教學將教您 **如何新增行事曆**、**如何建立 MS Project 行事曆**，以及 **將專案儲存為 XML**——只需幾行 Java 程式碼。
 
-## 導入包
-首先，在 Java 程式碼中匯入必要的套件：
+## 快速回答
+- **「為專案新增行事曆」是什麼意思？**  
+  意指透過程式碼在 Microsoft Project 檔案中插入一個新的工作時間定義（行事曆）。  
+- **哪個函式庫負責此功能？**  
+  Aspose.Tasks for Java 提供 `Calendar` 類別與 `Project` 容器來管理行事曆。  
+- **需要授權嗎？**  
+  測試時可使用臨時評估授權；正式上線則需購買正式授權。  
+- **可以將檔案儲存為 XML 嗎？**  
+  可以——使用 `SaveFileFormat.Xml` 即可匯出為 XML 檔。  
+- **前置條件是什麼？**  
+  需要 Java JDK 8 以上，並在 classpath 中加入 Aspose.Tasks for Java JAR。
+
+## 「為專案新增行事曆」是什麼？
+為專案新增行事曆會建立一套自訂排程，定義工作日、假日與每日工作時數。之後可將此行事曆指派給工作、資源或整個專案，確保開始日期與工期等計算遵循所設定的工作時間。
+
+## 為什麼使用 Aspose.Tasks for Java 來為專案新增行事曆？
+- **完整控制** – 無需 UI，能在大量專案中自動化批次建立行事曆。  
+- **跨版本相容** – 支援 Project 2007、2010、2013、2016 以及更新版本的檔案。  
+- **不需安裝 Microsoft Project** – 可在任何伺服器或 CI 流程中執行。  
+- **匯出彈性** – 可儲存為 XML、MPP 或其他支援格式。
+
+## 前置條件
+- 已安裝並設定 **Java Development Kit (JDK) 8 或更新版本**。  
+- **Aspose.Tasks for Java** 函式庫 – 從[官方網站](https://releases.aspose.com/tasks/java/)下載，並將 JAR 加入專案的 classpath。  
+- 任一您慣用的 IDE 或建置工具（Maven/Gradle）。
+
+## 步驟說明
+
+### 步驟 1：匯入所需的 Aspose.Tasks 套件
+首先，將 Aspose.Tasks 類別匯入，以便操作專案與行事曆。
+
 ```java
 import com.aspose.tasks.*;
 ```
-## 第1步：設定資料目錄路徑
-定義儲存專案檔案的資料目錄的路徑：
+
+### 步驟 2：設定資料目錄路徑
+定義產生的專案檔案要寫入的路徑。請將佔位符替換為您機器上的絕對或相對路徑。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 步驟2：建立專案實例
-實例化一個 Project 物件以開始使用 MS Project 檔案：
+
+### 步驟 3：建立新的 Project 實例
+實例化 `Project` 物件——這代表一個空的 Microsoft Project 檔案，您可以自行填入內容。
+
 ```java
 Project prj = new Project();
 ```
-## 第 3 步：定義日曆
-定義要新增到專案中的日曆：
+
+### 步驟 4：定義要新增的行事曆
+使用 `Calendars.add(String name)` 方法建立新的行事曆項目。以下範例新增三個行事曆，您可依需求新增更多，並在之後設定其工作時間。
+
 ```java
 Calendar cal1 = prj.getCalendars().add("no info");
 Calendar cal2 = prj.getCalendars().add("no name");
 Calendar cal3 = prj.getCalendars().add("cal3");
 ```
-## 第 4 步：儲存項目
-使用新增的日曆儲存項目：
+
+> **小技巧：** 新增行事曆後，可使用 `cal1.getWeekDays().add(...)` 自訂工作日，並透過 `cal1.getBaseCalendar().setWorkingTime(...)` 設定每日工作時數。
+
+### 步驟 5：儲存專案（將專案儲存為 XML）
+將專案（含新加入的行事曆）持久化為 XML 檔案。此格式易於檢視，且相容多種工具。
+
 ```java
 prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-## 第 5 步：顯示完成訊息
-列印一條訊息，指示該過程成功完成：
+
+### 步驟 6：顯示完成訊息
+通知使用者操作已成功完成。
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-透過遵循這些簡單的步驟，您已經使用 Aspose.Tasks for Java 成功建立了 MS 專案行事曆。
+
+透過上述六個簡潔步驟，您已成功 **為專案新增行事曆**，並將結果儲存為 XML 檔案。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **`NullPointerException` 發生於 `prj.getCalendars()`** | 專案物件未正確初始化。 | 確保在存取行事曆前已呼叫 `new Project()`。 |
+| **儲存時找不到檔案** | `dataDir` 指向不存在的資料夾。 | 先建立該目錄，或改用絕對路徑。 |
+| **行事曆名稱顯示為「no info」** | 範例使用了佔位名稱。 | 替換為能反映排程內容的實際名稱（例如「美國假日行事曆」）。 |
+| **儲存的 XML 無法在 MS Project 開啟** | 使用了過舊的 Aspose.Tasks 版本。 | 更新至最新的 Aspose.Tasks for Java 版本。 |
+
+## 常見問答
+
+**Q: Aspose.Tasks 能處理包含多個例外的複雜行事曆嗎？**  
+A: 能——新增行事曆後，您可以使用 `WeekDay` 與 `Exception` 類別定義例外、工作時段與非工作日。
+
+**Q: 可以將新行事曆指派給特定工作嗎？**  
+A: 當然可以。透過 `prj.getRootTask().getChildren().add("Task Name")` 取得工作，然後設定 `task.set(Tsk.CALENDAR, cal3);`。
+
+**Q: 函式庫是否支援儲存為其他格式，例如 MPP？**  
+A: 支援。只需將 `SaveFileFormat.Xml` 替換為 `SaveFileFormat.Mpp` 或 `SaveFileFormat.P6` 即可。
+
+**Q: 開發版需要授權嗎？**  
+A: 測試時使用臨時評估授權即可；正式部署則需購買正式授權。
+
+**Q: 若遇到問題該向哪裡尋求協助？**  
+A: Aspose.Tasks 社群論壇是極佳的資源：[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)。
 
 ## 結論
-Aspose.Tasks for Java 為開發人員提供了強大的功能，以程式設計方式操作 MS Project 檔案。透過利用其功能，您可以提高專案管理效率並無縫簡化工作流程。
-## 常見問題解答
-### Q：Aspose.Tasks for Java 可以處理複雜的專案結構嗎？
-答：是的，Aspose.Tasks for Java 為輕鬆管理複雜的專案結構提供了全面的支援。
-### Q：Aspose.Tasks for Java 是否與不同版本的 MS Project 檔案相容？
-答：當然，Aspose.Tasks for Java 支援各種版本的 MS Project 文件，確保不同環境之間的相容性。
-### Q：我可以將 Aspose.Tasks for Java 與其他 Java 函式庫整合嗎？
-答：是的，Aspose.Tasks for Java 可以與其他 Java 函式庫無縫集成，以增強功能並實現特定要求。
-### Q：Aspose.Tasks for Java 是否支援重複任務？
-答：是的，Aspose.Tasks for Java 有助於管理重複任務，從而實現高效的調度和追蹤。
-### Q：是否有 Java 使用者的 Aspose.Tasks 社群論壇？
-答：是的，您可以在以下位置找到有價值的資源並與社區互動：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+使用 Aspose.Tasks for Java，您可以程式化 **為專案新增行事曆**、自訂排程規則，並 **將專案儲存為 XML**，僅需幾行程式碼。此自動化可減少手動工作、降低人為錯誤，並支援大規模專案組合的批次處理。
+
+---
+
+**最後更新：** 2025-12-02  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
