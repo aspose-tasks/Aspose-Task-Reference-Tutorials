@@ -1,59 +1,94 @@
 ---
-title: Aspose.Tasks を使用してカレンダーの平日を定義する
-linktitle: Aspose.Tasks を使用してカレンダーの平日を定義する
+date: 2025-12-02
+description: Aspose.Tasks for Java を使用して、カレンダーの設定、MS Project の平日の定義、カスタム作業日の設定方法を学びましょう。数行のコードでプロジェクトを
+  XML として保存できます。
+language: ja
+linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して MS Project Calendar で曜日を定義する方法を学びます。稼働日とタイミングを簡単にカスタマイズできます。
+title: Aspose.Tasks を使用して MS Project のカレンダーを設定し、平日を定義する方法
+url: /java/calendars/define-weekdays/
 weight: 12
-url: /ja/java/calendars/define-weekdays/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks を使用してカレンダーの平日を定義する
+# MS Projectでカレンダーを設定し、平日を定義する方法（Aspose.Tasks使用）
 
-## 導入
-このチュートリアルでは、Aspose.Tasks for Java を使用して MS Project カレンダーで平日を定義するプロセスを順を追って説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力な Java ライブラリです。
-## 前提条件
-始める前に、次の前提条件が満たされていることを確認してください。
-1.  Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。からダウンロードできます。[オラクルのWebサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)まだ行っていない場合は。
-2.  Aspose.Tasks for Java ライブラリ: Aspose.Tasks for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/java/)。ドキュメントに記載されているインストール手順に従ってください。
+## Introduction
+このチュートリアルでは、**カレンダーの設定方法** をプログラムで行い、Aspose.Tasks for Java ライブラリを使用して Microsoft Project ファイル内の平日を定義する方法を学びます。標準の作業週を作成したり、週末の作業日を追加したり、短い金曜日スケジュールを設定したりする必要がある場合でも、本ガイドはプロジェクトの作成から XML 形式での保存まで、すべての手順を丁寧に案内します。
 
-## パッケージのインポート
-まず、Java プロジェクトで Aspose.Tasks を操作するために必要なパッケージをインポートします。
+## Quick Answers
+- **必要なライブラリは？** Aspose.Tasks for Java  
+- **週末の作業日を追加できますか？** はい – 土曜日と日曜日を作業日として追加するだけです。  
+- **プロジェクトはどのように保存しますか？** `prj.save(..., SaveFileFormat.Xml)` を使用します。  
+- **ライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **必要な Java バージョンは？** Java 8 以上。
+
+## What is “how to set calendar” in the context of MS Project?
+MS Project におけるカレンダー設定とは、作業日や作業時間、祝日などの例外を定義することを指します。このカレンダーはタスクのスケジューリング、リソース割り当て、全体的なプロジェクト期間に影響を与えます。
+
+## Why use Aspose.Tasks for calendar manipulation?
+- **Full control** – UI を開かずにプログラムからカレンダーを作成、変更、削除できます。  
+- **Cross‑platform** – Java をサポートする任意の OS で動作します。  
+- **Supports all file formats** – MPP、MPT、XML をサポートしているため、*save project as XML* して他システムとの連携が容易です。  
+- **No COM dependencies** – Microsoft Project Interop ライブラリとは異なり COM 依存がありません。
+
+## Prerequisites
+開始する前に以下を用意してください。
+
+1. **Java Development Kit (JDK) 8+** – [Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)からダウンロード。  
+2. **Aspose.Tasks for Java** – [Aspose.Tasks ダウンロードページ](https://releases.aspose.com/tasks/java/)から最新の JAR を取得。  
+3. IDE またはビルドツール（Maven/Gradle）で Aspose.Tasks JAR をプロジェクトのクラスパスに追加。
+
+## Import Packages
+まず、必要なクラスをインポートします。これらのインポートにより、プロジェクト、カレンダー、作業時間オブジェクトにアクセスできます。
+
 ```java
 import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
 ```
-## ステップ 1: プロジェクト インスタンスを作成する
-作業する MS Project ファイルを表す Project オブジェクトをインスタンス化します。
+
+## Step‑by‑Step Guide
+
+### Step 1: Create a Project Instance
+新しい `Project` オブジェクトを作成します。このオブジェクトは編集対象の MS Project ファイルを表します。
+
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 Project prj = new Project();
 ```
-## ステップ 2: カレンダーを定義する
-新しいカレンダー インスタンスを作成し、プロジェクトに追加します。
+
+### Step 2: Define a New Calendar
+プロジェクトに新しいカレンダーを追加します。複数のカレンダーを扱う場合は、分かりやすい名前を付けると便利です。
+
 ```java
 Calendar cal = prj.getCalendars().add("Calendar1");
 ```
-## ステップ 3: 営業日を追加する
-月曜日から木曜日までをデフォルトのタイミングで追加して営業日を定義します。
+
+### Step 3: Add Standard Working Days (Monday‑Thursday)
+組み込みヘルパー `WeekDay.createDefaultWorkingDay` を使用して、コア作業週のデフォルト 9 am‑5 pm スケジュールを設定します。
+
 ```java
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Monday));
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Tuesday));
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Wednesday));
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Thursday));
 ```
-## ステップ 4: カスタム稼働日を設定する
-土曜日と日曜日を営業日として定義します。
+
+### Step 4: Add Weekend Working Days
+プロジェクトが週末にも稼働する場合は、土曜日と日曜日を通常の作業日として追加します。これが **add weekend working days** の例です。
+
 ```java
 cal.getWeekDays().add(new WeekDay(DayType.Saturday));
 cal.getWeekDays().add(new WeekDay(DayType.Sunday));
 ```
-## ステップ 5: 短時間勤務日を設定する
-カスタムの勤務時間を使用して金曜日を短い勤務日として設定します。
+
+### Step 5: Set a Custom Short Working Day (Friday)
+ここでは金曜日の **set custom working days** として、午前シフト（9 am‑12 pm）と午後シフト（1 pm‑4 pm）を設定します。
+
 ```java
 WeekDay myWeekDay = new WeekDay(DayType.Friday);
 WorkingTime wt1 = new WorkingTime(
@@ -69,25 +104,47 @@ myWeekDay.getWorkingTimes().add(wt2);
 myWeekDay.setDayWorking(true);
 cal.getWeekDays().add(myWeekDay);
 ```
-## ステップ 6: プロジェクトを保存する
-変更したプロジェクトを XML ファイルに保存します。
+
+### Step 6: Save the Project as XML
+最後に変更を永続化します。`SaveFileFormat.Xml` オプションを使用すると **save project as XML** が可能で、他ツールとの統合に便利です。
+
 ```java
 prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## 結論
-おめでとう！ Aspose.Tasks for Java を使用して、MS Project カレンダーで平日を正常に定義できました。この機能を Java アプリケーションに統合して、MS Project ファイルをプログラムで操作できるようになりました。
-## よくある質問
-### Q1: Aspose.Tasks for Java を使用してカスタムの非稼働日を定義できますか?
- A: はい、設定することでカスタムの非稼働日を定義できます。`DayWorking`財産を`false`それぞれの平日の。
-### Q2: カレンダーに休日を追加するにはどうすればよいですか?
- A: インスタンスを作成することで休日を追加できます。`CalendarExceptions`そして非稼働日を指定します。
-### Q3: Aspose.Tasks は、MS Project ファイルのさまざまなバージョンと互換性がありますか?
-A: はい、Aspose.Tasks は、MPP、MPT、XML 形式など、さまざまなバージョンの MS Project ファイルをサポートしています。
-### Q4: MS Project ファイル内の既存のカレンダーを変更できますか?
-A: はい、カレンダーを含む既存のプロジェクトをロードし、変更を加えて、変更を元のファイルに保存できます。
-### Q5: Aspose.Tasks は定期的なタスクをサポートしていますか?
-A: はい、Aspose.Tasks を使用すると、繰り返しのパターンや期間の定義など、繰り返しのタスクを操作できます。
+## Common Issues & Solutions
+| Issue | Solution |
+|-------|----------|
+| **Working times not applied** | カスタム `WeekDay` に対して `setDayWorking(true)` が呼び出されていることを確認してください。 |
+| **File not found when saving** | `dataDir` が既存のフォルダーを指しているか、書き込み権限があるかを確認してください。 |
+| **Calendar not reflected in tasks** | `task.setCalendar(cal)` を使用して、作成したカレンダーをリソースまたはタスクに割り当ててください。 |
+
+## Frequently Asked Questions
+
+**Q: Can I define custom non‑working days using Aspose.Tasks for Java?**  
+A: はい。任意の `WeekDay` の `DayWorking` プロパティを `false` に設定すれば、非作業日として扱えます。
+
+**Q: How can I add holidays or company‑wide exceptions?**  
+A: `CalendarException` オブジェクトを作成し、例外日付を指定して `cal.getExceptions()` に追加します。
+
+**Q: Is the library compatible with older MS Project versions?**  
+A: 完全に対応しています。Aspose.Tasks は複数バージョンの MPP、MPT、XML フォーマットをサポートしています。
+
+**Q: Can I modify an existing calendar in an imported project?**  
+A: `new Project("existing.mpp")` でプロジェクトを読み込み、目的のカレンダーを取得して変更し、保存できます。
+
+**Q: Does Aspose.Tasks handle recurring tasks as well?**  
+A: はい、`RecurringTask` クラスを使用して繰り返しタスクの作成・編集が可能です。
+
+## Conclusion
+これで **カレンダーの設定方法**、**MS Project の平日定義**、週末作業日の追加、短い金曜日スケジュールの作成方法をすべて Aspose.Tasks for Java で実装できました。結果を XML として保存し、任意の Java ベースのプロジェクト管理ソリューションにカレンダー ロジックを統合してください。
+
+---
+
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
