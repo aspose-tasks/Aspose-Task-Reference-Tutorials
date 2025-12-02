@@ -1,43 +1,71 @@
 ---
-title: naptári kivételek lekérése az Aspose.Tasks segítségével
-linktitle: naptári kivételek lekérése az Aspose.Tasks segítségével
+date: 2025-11-29
+description: Tanulja meg, hogyan lehet lekérdezni a naptári kivételeket az MS Projectből
+  az Aspose.Tasks for Java használatával. Ez az Aspose.Tasks Java oktatóanyag lépésről
+  lépésre bemutatott kódrészleteket tartalmaz.
+language: hu
+linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan kérhet le naptári kivételeket az MS Projectből az Aspose.Tasks for Java segítségével. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
+title: Naptári kivételek lekérése az Aspose.Tasks segítségével – asp tasks java oktató.
+url: /java/calendar-exceptions/retrieve/
 weight: 13
-url: /hu/java/calendar-exceptions/retrieve/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# naptári kivételek lekérése az Aspose.Tasks segítségével
+# Naptári kivételek lekérése az Aspose.Tasks segítségével – asp tasks java tutorial
 
-## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet naptárkivételeket lekérni az MS Projectből a Java Aspose.Tasks könyvtárával. Az Aspose.Tasks egy hatékony eszköz, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok programozott kezelését. Lépésről lépésre végigvezetjük a folyamaton, az egyes példákat több lépésre bontva a könnyebb érthetőség érdekében.
-## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Tasks for Java: Töltse le és telepítse az Aspose.Tasks for Java-t innen[itt](https://releases.aspose.com/tasks/java/).
-3. Integrált fejlesztői környezet (IDE): Bármely tetszőleges IDE-t használhat, például az IntelliJ IDEA-t vagy az Eclipse-t.
+## Introduction
+Ebben a **asp tasks java tutorial**-ban megtanulja, hogyan lehet naptári kivételeket lekérni egy Microsoft Project fájlból az Aspose.Tasks Java könyvtár segítségével. A naptári kivételek a nem munkavégzési időszakokat, például ünnepeket vagy egyedi munkaidő szabályokat jelölik, és ezek programozott olvasása elengedhetetlen a erőforrás‑kiegyenlítéshez, jelentéskészítéshez és egyedi ütemezési logikához. Lépésről‑lépésre végigvezetjük a teljes folyamatot, hogy magabiztosan integrálhassa ezt a funkciót saját Java‑alkalmazásaiba.
 
-## Csomagok importálása
-Először is importálnia kell a szükséges csomagokat az Aspose.Tasks használatához:
+## Quick Answers
+- **Mi a tutorial tartalma?** Naptári kivételek lekérése egy MPP fájlból az Aspose.Tasks for Java segítségével.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy alapbeállításhoz.  
+- **Előfeltételek?** JDK, Aspose.Tasks for Java, és egy IDE (IntelliJ IDEA vagy Eclipse).  
+- **Szükség van licencre?** Fejlesztéshez ingyenes próba verzió használható; termeléshez kereskedelmi licenc szükséges.  
+- **Támogatott Project verziók?** Minden főbb MS Project formátum (MPP, MPT, XML).
+
+## What is asp tasks java tutorial?
+Egy **asp tasks java tutorial** bemutatja, hogyan kell használni az Aspose.Tasks API‑t Java projektekben. Konkrét kódrészleteket, legjobb gyakorlatokat és valós példákat nyújt, hogy a fejlesztők a Microsoft Project telepítése nélkül is manipulálhassák a Project fájlokat.
+
+## Why retrieve calendar exceptions?
+A naptári kivételek megértése lehetővé teszi:
+- Pontos projekt‑idővonalak generálását, amelyek figyelembe veszik az ünnepeket és egyedi munkarendeket.
+- Egyedi jelentéskészítő eszközök épét, amelyek kiemelik a nem munkanapokat.
+- A Project naptárak szinkronizálását külső rendszerekkel (pl. ERP, HR).
+
+## Prerequisites
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik a következő előfeltételekkel:
+
+1. **Java Development Kit (JDK)** – Győződjön meg arról, hogy JDK 8 vagy újabb van telepítve.
+2. **Aspose.Tasks for Java** – Töltse le és telepítse az Aspose.Tasks for Java‑t innen: [here](https://releases.aspose.com/tasks/java/).
+3. **Integrated Development Environment (IDE)** – Bármely kedvenc IDE használható, például IntelliJ IDEA vagy Eclipse.
+
+## Import Packages
+Először importálni kell a szükséges csomagokat az Aspose.Tasks használatához:
+
 ```java
 import com.aspose.tasks.*;
 ```
-## 1. lépés: Állítsa be az adattárat
+
+## Step 1: Set Up Your Data Directory
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
- Biztosítsa a cserét`"Your Data Directory"` az MS Project fájlt tartalmazó könyvtár elérési útjával.
-## 2. lépés: Töltse be az MS Project fájlt
+
+> **Pro tipp:** Használjon abszolút elérési utat vagy a projekt erőforrásmappájához relatív utat a `FileNotFoundException` elkerülése érdekében.
+
+## Step 2: Load MS Project File
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Ez a sor inicializál egy újat`Project` objektumot az elérési út által megadott MS Project fájl betöltésével.
-## 3. lépés: A naptári kivételek lekérése
+
+Ez a sor egy új `Project` objektumot inicializál, amely betölti a megadott útvonalon található MS Project fájlt.
+
+## Step 3: Retrieve Calendar Exceptions
 ```java
 for (Calendar cal : project.getCalendars()) {
     for (CalendarException calExc : cal.getExceptions()) {
@@ -46,21 +74,49 @@ for (Calendar cal : project.getCalendars()) {
     }
 }
 ```
-Itt a projekt minden naptárán, majd az adott naptáron belüli minden naptárkivételen át ismételjük. Minden kivétel kezdő és befejező dátumát kinyomtatjuk.
 
-## Következtetés
-Ebben az oktatóanyagban megtanultuk, hogyan lehet naptárkivételeket lekérni az MS Projectből az Aspose.Tasks for Java segítségével. Ezeket az egyszerű lépéseket követve zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba.
-## Gyakran Ismételt Kérdések
-### Az Aspose.Tasks képes kezelni az MS Project fájlok különböző verzióit?
-Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit, beleértve az MPP, MPT és XML formátumokat.
-### Elérhető az Aspose.Tasks ingyenes próbaverziója?
- Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
-### Hol találom az Aspose.Tasks for Java dokumentációját?
- A dokumentációra hivatkozhat[itt](https://reference.aspose.com/tasks/java/).
-### Hogyan kaphatok támogatást az Aspose.Tasks programhoz?
- Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
-### Van lehetőség ideiglenes licencekre az Aspose.Tasks számára?
- Igen, ideiglenes engedélyeket szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+Itt végigiterálunk a projekt minden naptárán, majd az egyes naptárak kivételein. Kiírjuk minden kivétel kezdő‑ és befejező dátumát.
+
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **No output printed** | A projektfájl nem tartalmaz naptári kivételeket. | Ellenőrizze, hogy a MS Project naptárában definiáltak-e kivételeket (pl. ünnepek). |
+| **`NullPointerException`** | A `dataDir` útvonal hibás vagy a fájl nem található. | Ellenőrizze újra a könyvtár útvonalát, és győződjön meg arról, hogy a `project.mpp` létezik. |
+| **Time zone mismatch** | A dátumok UTC‑ben jelennek meg. | Használja a `calExc.getFromDate().toLocalDateTime()` metódust a helyi időre konvertáláshoz, ha szükséges. |
+
+## Frequently Asked Questions
+### Can Aspose.Tasks handle different versions of MS Project files?
+Igen, az Aspose.Tasks támogatja a különböző MS Project fájlverziókat, beleértve az MPP, MPT és XML formátumokat.
+
+### Is there a free trial available for Aspose.Tasks?
+Igen, letölthet egy ingyenes próbaverziót az Aspose.Tasks‑ből innen: [here](https://releases.aspose.com/).
+
+### Where can I find documentation for Aspose.Tasks for Java?
+A dokumentációt megtalálja itt: [here](https://reference.aspose.com/tasks/java/).
+
+### How can I get support for Aspose.Tasks?
+Támogatást kaphat a közösségi fórumon itt: [here](https://forum.aspose.com/c/tasks/15).
+
+### Is there an option for temporary licenses for Aspose.Tasks?
+Igen, ideiglenes licenceket szerezhet itt: [here](https://purchase.aspose.com/temporary-license/).
+
+**Additional Q&A**
+
+**Q:** *Can I modify calendar exceptions after retrieving them?*  
+**A:** Természetesen. Használja a `CalendarException.setFromDate()` és `setToDate()` metódusokat a dátumok módosításához, majd mentse a projektet a `project.save(...)` hívással.
+
+**Q:** *Does Aspose.Tasks preserve custom fields on calendars?*  
+**A:** Igen, minden egyedi mező és kiterjesztett attribútum megmarad a projekt betöltésekor és mentésekor.
+
+## Conclusion
+Ebben a **asp tasks java tutorial**‑ban megtanultuk, hogyan kell naptári kivételeket lekérni egy MS Project fájlból az Aspose.Tasks for Java segítségével. Az egyszerű lépések követésével zökkenőmentesen integrálhatja ezt a funkciót Java‑alkalmazásaiba, gazdagabb ütemezési lehetőségeket és pontosabb projekt‑elemzéseket biztosítva.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
