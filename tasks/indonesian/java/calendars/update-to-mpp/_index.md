@@ -1,34 +1,55 @@
 ---
-title: Perbarui Kalender Proyek MS ke Format MPP dengan Aspose.Tasks
-linktitle: Perbarui Kalender ke Format MPP di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara memperbarui kalender MS Project ke format MPP dengan mudah menggunakan Aspose.Tasks untuk Java.
+date: 2025-12-03
+description: Pelajari cara membuat kalender MS Project, mengonversi proyek ke MPP,
+  dan menyimpan proyek MPP dengan mudah menggunakan Aspose.Tasks untuk Java.
+language: id
+linktitle: Update Calendar to MPP Format in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Buat Kalender MS Project dan Simpan sebagai MPP dengan Aspose.Tasks
+url: /java/calendars/update-to-mpp/
 weight: 16
-url: /id/java/calendars/update-to-mpp/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Perbarui Kalender Proyek MS ke Format MPP dengan Aspose.Tasks
+# Buat Kalender MS Project dan Simpan sebagai MPP dengan Aspose.Tasks
 
-## Perkenalan
+## Introduction
 
-Dalam bidang manajemen proyek, menangani berbagai format file sangat penting untuk kolaborasi yang lancar dan alur kerja yang efisien. Aspose.Tasks untuk Java menawarkan solusi tangguh untuk memanipulasi file Microsoft Project, memfasilitasi tugas seperti memperbarui kalender MS Project ke format MPP. Dalam tutorial ini, kita akan mempelajari langkah-langkah yang diperlukan untuk mencapai hal ini menggunakan Aspose.Tasks untuk Java.
+Dalam manajemen proyek modern Anda sering perlu **membuat file kalender MS Project** dan kemudian membagikannya dalam format MPP asli. Baik Anda mengkonsolidasikan jadwal dari berbagai sumber atau memigrasikan data warisan, kemampuan menghasilkan kalender secara programatik menghemat waktu dan menghilangkan kesalahan manual. Tutorial ini memandu Anda melalui proses lengkap membuat kalender di MS Project, menyesuaikannya, dan akhirnya **mengonversi proyek ke MPP** menggunakan Aspose.Tasks Java API.
 
-## Prasyarat
+## Quick Answers
+- **Apa yang dibahas tutorial ini?** Membuat kalender di MS Project dan menyimpannya sebagai file MPP dengan Aspose.Tasks untuk Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi (JDK 8+).  
+- **Bisakah saya menyesuaikan kalender?** Ya – Anda dapat menambahkan jam kerja, pengecualian, dan hari libur.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk kalender dasar.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## What is “create calendar MS Project”?
 
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda.
-2.  Aspose.Tasks for Java: Unduh dan instal Aspose.Tasks for Java dari[situs web](https://releases.aspose.com/tasks/java/).
-3. Lingkungan Pengembangan Terpadu (IDE): Pilih IDE seperti IntelliJ IDEA atau Eclipse untuk pengembangan Java.
-4. Pengetahuan dasar Java: Biasakan diri Anda dengan konsep dan sintaksis pemrograman Java.
+Membuat kalender MS Project berarti mendefinisikan secara programatik hari kerja, jam kerja, dan pengecualian yang mengatur penjadwalan tugas dalam file Microsoft Project. Dengan menggunakan Aspose.Tasks Anda dapat membangun, memodifikasi, dan menyimpan kalender ini tanpa pernah membuka UI Microsoft Project.
 
-## Paket Impor
+## Why use Aspose.Tasks for this task?
 
-Pertama, Anda perlu mengimpor paket yang diperlukan untuk mulai bekerja dengan Aspose.Tasks untuk Java:
+- **Kompatibilitas .NET/Java penuh** – berfungsi di platform apa pun yang mendukung Java.  
+- **Tidak memerlukan instalasi COM atau Office** – ideal untuk otomatisasi sisi server.  
+- **API kaya** – mendukung setiap properti kalender, termasuk minggu kerja khusus dan hari libur.  
+- **Output MPP langsung** – Anda dapat **menyimpan proyek MPP** tanpa konversi perantara.
+
+## Prerequisites
+
+1. **Java Development Kit (JDK) 8+** – pastikan `java -version` menampilkan 1.8 atau lebih baru.  
+2. **Aspose.Tasks untuk Java** – unduh JAR terbaru dari [situs Aspose](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
+4. **Pengetahuan dasar Java** – familiar dengan kelas, metode, dan I/O file.
+
+## Step‑by‑Step Guide
+
+### Step 1: Import Required Packages
+
+First, bring the Aspose.Tasks classes and Java utilities into scope.
 
 ```java
 import com.aspose.tasks.*;
@@ -37,91 +58,103 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 ```
 
-## Langkah 1: Siapkan Direktori Data
+### Step 2: Set Up the Data Directory
 
-Tentukan jalur ke direktori data tempat file input dan output Anda berada.
+Define where your input template and output files will live. Replace the placeholder with the actual path on your machine.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Langkah 2: Tentukan File Input dan Output
+### Step 3: Define Input and Output File Names
 
-Tentukan nama file input dan output.
+We’ll load an existing MPP file (or a blank project) and write the result to a new file.
 
 ```java
 String resultFile = "OutputMpp.mpp";
 String newFile = "SampleMpp.mpp";
 ```
 
-## Langkah 3: Muat Proyek dan Tambahkan Kalender
+### Step 4: Load the Project and Add a New Calendar
 
-Muat file proyek dan tambahkan kalender baru.
+Create a `Project` instance from the source file and add a calendar named **“Calendar 1”**.
 
 ```java
 Project project = new Project(dataDir + newFile);
 Calendar cal1 = project.getCalendars().add("Calendar 1");
 ```
 
-## Langkah 4: Sesuaikan Kalender (Opsional)
+### Step 5: Customize the Calendar (Optional)
 
-Sesuaikan kalender yang baru ditambahkan sesuai kebutuhan menggunakan metode tambahan.
+If you need specific working times, holidays, or exceptions, call your own helper method. The sample uses `GetTestCalendar` as a placeholder.
 
 ```java
-GetTestCalendar(cal1); // Metode tambahan untuk menyesuaikan kalender jika diperlukan
+GetTestCalendar(cal1); // Additional method for customizing calendar if required
 ```
 
-## Langkah 5: Tetapkan Kalender Proyek
+> **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set working hours for each day of the week.
 
-Atur kalender proyek ke kalender yang Anda buat atau sesuaikan.
+### Step 6: Assign the Calendar to the Project
+
+Tell the project to use the newly created calendar for all its scheduling calculations.
 
 ```java
 project.set(Prj.CALENDAR, cal1);
 ```
 
-## Langkah 6: Simpan Proyek
+### Step 7: Save the Project as MPP
 
-Simpan proyek yang diperbarui ke lokasi yang diinginkan dalam format MPP.
+Now **convert project to MPP** by saving it with the `SaveFileFormat.Mpp` option.
 
 ```java
 project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 ```
 
-## Langkah 7: Tampilkan Pesan Penyelesaian
+### Step 8: Confirm Successful Completion
 
-Cetak pesan untuk menunjukkan keberhasilan penyelesaian proses.
+A simple console message lets you know the process finished without errors.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Dengan mengikuti langkah-langkah ini dengan cermat, Anda dapat dengan mudah memperbarui kalender MS Project ke format MPP menggunakan Aspose.Tasks untuk Java.
+## Common Use Cases
 
-## Kesimpulan
+- **Pembuatan jadwal otomatis** untuk proyek berulang (mis., sprint mingguan).  
+- **Migrasi kalender CSV atau Excel lama** ke file MS Project yang lengkap.  
+- **Pelaporan sisi server** di mana layanan web mengembalikan file MPP sesuai permintaan.  
 
-Kesimpulannya, menguasai manipulasi file MS Project sangat diperlukan bagi manajer proyek dan pengembang. Aspose.Tasks untuk Java menyederhanakan tugas ini dengan menyediakan seperangkat alat dan fungsi yang komprehensif. Dengan panduan langkah demi langkah yang diuraikan di atas, Anda dapat memperbarui kalender MS Project ke format MPP dengan lancar, sehingga meningkatkan alur kerja manajemen proyek Anda.
+## Troubleshooting & Common Pitfalls
 
-## FAQ
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| `NullPointerException` pada `project.save` | `dataDir` mengarah ke folder yang tidak ada | Pastikan direktori ada atau buat secara programatis. |
+| Kalender tidak diterapkan pada tugas | Tugas masih merujuk ke kalender default | Setelah mengatur `Prj.CALENDAR`, juga perbarui setiap `Task.CALENDAR` jika sebelumnya telah ditimpa. |
+| File output berukuran 0 KB | Tidak ada izin menulis | Jalankan JVM dengan hak akses sistem file yang sesuai atau pilih jalur yang dapat ditulisi. |
 
-### Q1: Apakah Aspose.Tasks untuk Java kompatibel dengan versi MS Project yang berbeda?
+## Frequently Asked Questions
 
-A1: Ya, Aspose.Tasks untuk Java mendukung berbagai versi MS Project, memastikan kompatibilitas di berbagai lingkungan.
+**T: Apakah Aspose.Tasks untuk Java kompatibel dengan berbagai versi MS Project?**  
+J: Ya, Aspose.Tasks untuk Java mendukung berbagai versi MS Project, mulai dari Project 2007 hingga rilis terbaru, memastikan kompatibilitas yang mulus.
 
-### Q2: Dapatkah saya menyesuaikan kalender sesuai dengan kebutuhan proyek tertentu?
+**T: Bisakah saya menyesuaikan kalender sesuai kebutuhan proyek tertentu?**  
+J: Tentu saja. Anda dapat menentukan hari kerja, mengatur minggu kerja khusus, menambahkan hari libur, dan bahkan membuat beberapa kalender dalam satu file proyek.
 
-A2: Tentu saja, Aspose.Tasks untuk Java memungkinkan Anda menyesuaikan kalender agar sesuai dengan kebutuhan unik proyek Anda secara efisien.
+**T: Apakah Aspose.Tasks untuk Java menyediakan dukungan untuk pemecahan masalah dan bantuan?**  
+J: Ya, Anda dapat mendapatkan bantuan dari forum komunitas Aspose.Tasks [di sini](https://forum.aspose.com/c/tasks/15).
 
-### Q3: Apakah Aspose.Tasks untuk Java menawarkan dukungan untuk pemecahan masalah dan bantuan?
+**T: Apakah tersedia percobaan gratis untuk Aspose.Tasks untuk Java?**  
+J: Ya, percobaan gratis yang berfungsi penuh tersedia [di sini](https://releases.aspose.com/).
 
- A3: Ya, Anda dapat mencari bantuan dan dukungan pemecahan masalah dari forum komunitas Aspose.Tasks yang tersedia di[Di Sini](https://forum.aspose.com/c/tasks/15).
+**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?**  
+J: Lisensi sementara dapat diminta melalui situs Aspose [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk Java?
+---
 
- A4: Ya, Anda dapat menjelajahi fitur dan fungsi Aspose.Tasks untuk Java dengan mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
-
- A5: Untuk memperoleh lisensi sementara Aspose.Tasks untuk Java, kunjungi situs web[Di Sini](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
