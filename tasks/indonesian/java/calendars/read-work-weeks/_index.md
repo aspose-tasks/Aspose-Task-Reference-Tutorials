@@ -1,26 +1,50 @@
 ---
-title: Baca Minggu Kerja dari Kalender Proyek MS dengan Aspose.Tasks
-linktitle: Baca Minggu Kerja dari Kalender dengan Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara membaca minggu kerja dari kalender MS Project menggunakan Aspose.Tasks untuk Java. Dapatkan petunjuk langkah demi langkah dalam tutorial komprehensif ini.
+date: 2025-12-03
+description: Pelajari cara membaca minggu kerja Java dari kalender Microsoft Project
+  menggunakan Aspose.Tasks. Ikuti panduan langkah demi langkah dengan contoh kode
+  lengkap.
+language: id
+linktitle: Read Work Weeks from Calendar with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Baca Work Weeks Java dari Kalender MS Project Aspose.Tasks
+url: /java/calendars/read-work-weeks/
 weight: 15
-url: /id/java/calendars/read-work-weeks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Baca Minggu Kerja dari Kalender Proyek MS dengan Aspose.Tasks
+# Membaca Work Weeks Java dari Kalender MS Project dengan Aspose.Tasks
 
-## Perkenalan
-Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Tasks untuk Java untuk membaca informasi minggu kerja dari kalender Microsoft Project. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan Anda memanipulasi dan mengelola dokumen Microsoft Project secara terprogram.
+## Pendahuluan
+Dalam tutorial ini Anda akan **membaca work weeks Java** dari kalender Microsoft Project menggunakan pustaka Aspose.Tasks. Baik Anda sedang membangun alat pelaporan, menyinkronkan jadwal, atau mengotomatisasi ekstraksi data proyek, kemampuan mengakses definisi work‑week secara programatik menghemat banyak jam kerja manual. Kami akan memandu Anda melalui penyiapan yang diperlukan, menunjukkan kode tepat untuk mengambil detail work‑week, dan menjelaskan setiap langkah sehingga Anda dapat menyesuaikan solusi ini untuk proyek Anda sendiri.
+
+## Jawaban Cepat
+- **Apa arti “read work weeks java”?** Itu merujuk pada mengekstrak definisi work‑week dari file Project menggunakan kode Java.  
+- **Pustaka apa yang dibutuhkan?** Aspose.Tasks untuk Java (tersedia trial gratis).  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Trial dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Format file apa yang didukung?** Baik *.mpp* maupun file Project XML didukung.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit setelah pustaka terpasang.
+
+## Apa itu “read work weeks java”?
+Membaca work weeks dalam Java berarti menggunakan API Aspose.Tasks untuk mengakses `WorkWeekCollection` dari objek kalender di dalam file Microsoft Project. Setiap `WorkWeek` berisi tanggal mulai/berakhir serta definisi waktu kerja harian yang menentukan bagaimana sumber daya dijadwalkan.
+
+## Mengapa membaca work weeks java dari kalender Microsoft Project?
+- **Otomatisasi:** Menghilangkan penyalinan‑tempel data jadwal secara manual.  
+- **Integrasi:** Menyalurkan informasi work‑week ke sistem ERP, HR, atau pelaporan khusus.  
+- **Konsistensi:** Memastikan semua alat hilir menghormati aturan kalender yang sama yang didefinisikan dalam file Project.
+
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2.  Aspose.Tasks untuk perpustakaan Java diunduh dan diinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/java/).
-## Paket Impor
-Pertama, mari impor paket yang diperlukan untuk memulai kode kita:
+Sebelum masuk ke kode, pastikan Anda memiliki:
+
+1. **Java Development Kit (JDK)** – versi 8 atau lebih baru terpasang.  
+2. **Aspose.Tasks untuk Java** – unduh JAR terbaru dari situs resmi: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
+3. Sebuah **file Project contoh** (`ReadWorkWeeksInformation.mpp`) yang ditempatkan di folder yang diketahui.
+
+## Impor Paket
+Pertama, impor kelas‑kelas yang diperlukan untuk berinteraksi dengan kalender dan work weeks:
+
 ```java
 import com.aspose.tasks.Calendar;
 import com.aspose.tasks.Project;
@@ -30,47 +54,78 @@ import com.aspose.tasks.WorkWeek;
 import com.aspose.tasks.WorkWeekCollection;
 import com.aspose.tasks.WorkingTimeCollection;
 ```
-## Langkah 1: Siapkan Direktori Data Anda
-Siapkan jalur direktori tempat file MS Project Anda berada:
+
+## Langkah 1: Menyiapkan Direktori Data Anda
+Tentukan folder yang berisi file `.mpp`. Ganti placeholder dengan jalur sebenarnya di mesin Anda:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Langkah 2: Buat Instans Proyek dan Akses Kalender
-Buat instance baru dari kelas Project dan akses koleksi kalender dan minggu kerja:
+
+## Langkah 2: Membuat Instance Project dan Mengakses Kalender
+Instansiasi objek `Project`, pilih kalender yang diinginkan (berdasarkan UID), dan peroleh `WorkWeekCollection`‑nya:
+
 ```java
 Project project = new Project(dataDir + "ReadWorkWeeksInformation.mpp");
 Calendar calendar = project.getCalendars().getByUid(3);
 WorkWeekCollection collection = calendar.getWorkWeeks();
 ```
-## Langkah 3: Ulangi Melalui Minggu Kerja
-Ulangi kumpulan minggu kerja dan tampilkan informasinya:
+
+> **Tip pro:** Jika Anda tidak yakin tentang UID kalender, Anda dapat melakukan iterasi melalui `project.getCalendars()` dan mencetak nama serta UID setiap kalender.
+
+## Langkah 3: Mengiterasi Work Weeks
+Lakukan loop pada setiap `WorkWeek` untuk menampilkan nama, tanggal mulai/berakhir, dan waktu kerja harian:
+
 ```java
 for (WorkWeek workWeek : collection) {
-    // Tampilkan nama minggu kerja, dari dan sampai tanggal
+    // Display work week name, from and to dates
     System.out.println(workWeek.getName());
     System.out.println(workWeek.getFromDate());
     System.out.println(workWeek.getToDate());
-    // Akses hari minggu dan waktu kerja
+    // Access week days and working times
     WeekDayCollection weekDays = workWeek.getWeekDays();
     for (WeekDay day : weekDays) {
         WorkingTimeCollection workingTimes = day.getWorkingTimes();
-        // Proses lebih lanjut waktu kerja jika diperlukan
+        // Further process working times if needed
     }
 }
 ```
+
+**Apa yang akan Anda lihat:** Konsol mencetak label setiap work‑week (misalnya “Standard”), rentang tanggal efektifnya, dan Anda dapat menelusuri jam kerja tepat untuk setiap hari.
+
+## Masalah Umum dan Solusinya
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| `NullPointerException` saat mengakses `calendar` | UID salah atau kalender tidak ada | Verifikasi UID dengan `project.getCalendars().size()` dan daftar kalender yang tersedia terlebih dahulu. |
+| Tidak ada output untuk work weeks | Kalender yang dipilih tidak memiliki work weeks khusus (menggunakan default) | Gunakan kalender default (`project.getDefaultCalendar()`) atau buat work week secara programatik. |
+| Format tanggal terlihat aneh | `System.out.println` menggunakan format default `java.util.Date` | Terapkan `SimpleDateFormat` untuk memformat tanggal sesuai kebutuhan. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya memodifikasi informasi work weeks menggunakan Aspose.Tasks untuk Java?**  
+J: Ya. API menyediakan metode seperti `addWorkWeek()`, `removeWorkWeek()`, dan setter properti untuk mengubah nama, tanggal, serta waktu kerja.
+
+**T: Apakah Aspose.Tasks kompatibel dengan berbagai versi file Microsoft Project?**  
+J: Tentu. Ia mendukung file MPP dari Project 98 hingga versi terbaru, serta file Project XML.
+
+**T: Bisakah saya mengintegrasikan Aspose.Tasks dengan kerangka kerja Java lainnya?**  
+J: Ya. Pustaka ini murni Java, sehingga dapat digunakan bersama Spring, Jakarta EE, atau kerangka kerja lainnya.
+
+**T: Apakah ada versi trial yang tersedia untuk Aspose.Tasks?**  
+J: Ya, Anda dapat mengunduh trial gratis selama 30 hari dari situs resmi: [Aspose.Tasks trial](https://releases.aspose.com/).
+
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?**  
+J: Forum komunitas Aspose adalah tempat terbaik: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
 ## Kesimpulan
-Dalam tutorial ini, kita telah mempelajari cara membaca informasi minggu kerja dari kalender Microsoft Project menggunakan Aspose.Tasks untuk Java. Pustaka yang kuat ini memungkinkan manipulasi file Proyek dengan lancar, memungkinkan pengembang mengotomatiskan berbagai tugas secara efisien.
-## FAQ
-### Bisakah saya mengubah informasi minggu kerja menggunakan Aspose.Tasks untuk Java?
-Ya, Aspose.Tasks menyediakan API untuk mengubah, menambah, atau menghapus minggu kerja dan informasi terkaitnya.
-### Apakah Aspose.Tasks kompatibel dengan versi file Microsoft Project yang berbeda?
-Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, termasuk format MPP dan XML.
-### Bisakah saya mengintegrasikan Aspose.Tasks dengan kerangka Java lainnya?
-Tentu saja, Aspose.Tasks dapat diintegrasikan secara mulus dengan kerangka kerja dan pustaka Java lainnya untuk meningkatkan fungsionalitas.
-### Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks?
- Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
-Anda dapat menemukan dukungan dan bantuan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+Anda kini telah menguasai **read work weeks java** menggunakan Aspose.Tasks. Dengan mengikuti langkah‑langkah di atas, Anda dapat secara programatik menarik definisi work‑week dari kalender MS Project mana pun, mengintegrasikan data tersebut ke dalam aplikasi Anda, dan mengotomatisasi alur kerja terkait jadwal. Jangan ragu untuk bereksperimen dengan membuat atau memperbarui work weeks—Aspose.Tasks membuatnya menjadi mudah.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-03  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

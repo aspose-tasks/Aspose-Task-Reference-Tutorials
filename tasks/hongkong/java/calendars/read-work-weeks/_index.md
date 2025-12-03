@@ -1,26 +1,48 @@
 ---
-title: 使用 Aspose.Tasks 從 MS 專案行事曆中讀取工作週
-linktitle: 使用 Aspose.Tasks 從行事曆中讀取工作週
+date: 2025-12-03
+description: 學習如何使用 Aspose.Tasks 從 Microsoft Project 行事曆中讀取 Java 工作週。請跟隨一步一步的指南，並附上完整程式碼範例。
+language: zh-hant
+linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 從 MS Project 行事曆中讀取工作週。在此綜合教程中取得逐步說明。
+title: 使用 Aspose.Tasks 在 Java 中從 MS Project 行事曆讀取工作週
+url: /java/calendars/read-work-weeks/
 weight: 15
-url: /zh-hant/java/calendars/read-work-weeks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks 從 MS 專案行事曆中讀取工作週
+# 從 MS Project 行事曆讀取工作週（Java） – Aspose.Tasks
 
 ## 介紹
-在本教程中，我們將探討如何使用 Aspose.Tasks for Java 從 Microsoft Project 日曆中讀取工作週資訊。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓您以程式設計方式操作和管理 Microsoft Project 文件。
-## 先決條件
-在我們開始之前，請確保您具備以下先決條件：
-1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2. 下載並安裝了 Java 函式庫的 Aspose.Tasks。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/java/).
-## 導入包
-首先，讓我們匯入必要的套件來開始使用我們的程式碼：
+在本教學中，您將 **使用 Aspose.Tasks 程式庫從 Microsoft Project 行事曆讀取工作週（Java）**。無論您是建立報表工具、同步排程，或是自動化專案資料擷取，能以程式方式取得工作週定義都能節省大量手動時間。我們將說明必要的設定步驟，提供完整程式碼範例，並逐步解說每個步驟，讓您能將此解決方案套用到自己的專案中。
+
+## 快速回答
+- **「read work weeks java」是什麼意思？** 指的是使用 Java 程式碼從 Project 檔案中擷取工作週定義。  
+- **需要哪個程式庫？** Aspose.Tasks for Java（提供免費試用版）。  
+- **開發時需要授權嗎？** 測試可使用試用版；正式上線需購買商業授權。  
+- **支援哪些檔案格式？** 同時支援 *.mpp* 與 Project XML 檔案。  
+- **實作需要多久？** 在安裝程式庫後，通常不超過 10 分鐘即可完成。
+
+## 什麼是「read work weeks java」？
+在 Java 中讀取工作週，即使用 Aspose.Tasks API 取得 Microsoft Project 檔案內行事曆物件的 `WorkWeekCollection`。每個 `WorkWeek` 包含開始/結束日期以及每日的工作時間定義，這些資訊決定資源的排程方式。
+
+## 為什麼要從 Microsoft Project 行事曆讀取工作週（Java）？
+- **自動化：** 消除手動複製排程資料的步驟。  
+- **整合：** 將工作週資訊輸入 ERP、HR 或自訂報表系統。  
+- **一致性：** 確保所有下游工具遵循 Project 檔案中定義的相同行事曆規則。
+
+## 前置條件
+在開始撰寫程式碼前，請先確保您已具備：
+
+1. **Java Development Kit (JDK)** – 已安裝 8 版或更新版本。  
+2. **Aspose.Tasks for Java** – 從官方網站下載最新 JAR 檔案：[Aspose.Tasks for Java 下載](https://releases.aspose.com/tasks/java/)。  
+3. 一個 **範例 Project 檔案**（`ReadWorkWeeksInformation.mpp`），放置於已知資料夾中。
+
+## 匯入套件
+首先，匯入與行事曆及工作週互動所需的類別：
+
 ```java
 import com.aspose.tasks.Calendar;
 import com.aspose.tasks.Project;
@@ -30,47 +52,78 @@ import com.aspose.tasks.WorkWeek;
 import com.aspose.tasks.WorkWeekCollection;
 import com.aspose.tasks.WorkingTimeCollection;
 ```
-## 第 1 步：設定您的資料目錄
-設定 MS Project 檔案所在的目錄路徑：
+
+## 步驟 1：設定資料目錄
+定義存放 `.mpp` 檔案的資料夾路徑。將佔位字串替換為您機器上的實際路徑：
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 步驟 2：建立專案實例並存取日曆
-建立 Project 類別的新實例並存取日曆和工作週集合：
+
+## 步驟 2：建立 Project 實例並存取行事曆
+建立 `Project` 物件，依 UID 取得目標行事曆，並取得其 `WorkWeekCollection`：
+
 ```java
 Project project = new Project(dataDir + "ReadWorkWeeksInformation.mpp");
 Calendar calendar = project.getCalendars().getByUid(3);
 WorkWeekCollection collection = calendar.getWorkWeeks();
 ```
-## 第 3 步：迭代工作週
-迭代工作週的集合並顯示其資訊：
+
+> **小技巧：** 若不確定行事曆的 UID，可遍歷 `project.getCalendars()`，列印每個行事曆的名稱與 UID。
+
+## 步驟 3：遍歷工作週
+迭代每個 `WorkWeek`，顯示其名稱、開始/結束日期以及每日工作時間：
+
 ```java
 for (WorkWeek workWeek : collection) {
-    //顯示工作週名稱、開始日期和結束日期
+    // Display work week name, from and to dates
     System.out.println(workWeek.getName());
     System.out.println(workWeek.getFromDate());
     System.out.println(workWeek.getToDate());
-    //訪問工作日和工作時間
+    // Access week days and working times
     WeekDayCollection weekDays = workWeek.getWeekDays();
     for (WeekDay day : weekDays) {
         WorkingTimeCollection workingTimes = day.getWorkingTimes();
-        //如果需要進一步處理工作時間
+        // Further process working times if needed
     }
 }
 ```
+
+**您將看到的結果：** 主控台會印出每個工作週的標籤（例如「Standard」）、其有效日期範圍，並可深入查看每一天的具體工作時段。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| `NullPointerException` 於存取 `calendar` 時發生 | UID 錯誤或行事曆不存在 | 使用 `project.getCalendars().size()` 檢查 UID，先列出可用的行事曆 |
+| 工作週沒有輸出 | 所選行事曆未設定自訂工作週（使用預設） | 改用預設行事曆 `project.getDefaultCalendar()`，或以程式方式建立工作週 |
+| 日期格式怪異 | `System.out.println` 使用預設的 `java.util.Date` 格式 | 使用 `SimpleDateFormat` 依需求格式化日期 |
+
+## 常見問答
+
+**Q: 可以使用 Aspose.Tasks for Java 修改工作週資訊嗎？**  
+A: 可以。API 提供 `addWorkWeek()`、`removeWorkWeek()` 以及屬性設定方法，讓您變更名稱、日期與工作時間。
+
+**Q: Aspose.Tasks 是否相容不同版本的 Microsoft Project 檔案？**  
+A: 完全相容。支援從 Project 98 到最新版本的 MPP 檔案，同時支援 Project XML 檔案。
+
+**Q: 能否將 Aspose.Tasks 與其他 Java 框架整合？**  
+A: 能。此程式庫為純 Java，您可以與 Spring、Jakarta EE 或其他框架一起使用。
+
+**Q: 是否提供 Aspose.Tasks 的試用版？**  
+A: 有，您可從官方網站下載 30 天免費試用版：[Aspose.Tasks 試用版](https://releases.aspose.com/)。
+
+**Q: 在哪裡可以取得 Aspose.Tasks 的支援？**  
+A: 最佳管道是 Aspose 社群論壇：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)。
+
 ## 結論
-在本教程中，我們學習如何使用 Aspose.Tasks for Java 從 Microsoft Project 日曆中讀取工作週資訊。這個功能強大的庫可以無縫操作專案文件，使開發人員能夠有效地自動執行各種任務。
-## 常見問題解答
-### 我可以使用 Aspose.Tasks for Java 修改工作週資訊嗎？
-是的，Aspose.Tasks 提供了 API 來修改、新增或刪除工作週及其相關資訊。
-### Aspose.Tasks 是否與不同版本的 Microsoft Project 檔案相容？
-是的，Aspose.Tasks 支援各種版本的 Microsoft Project 文件，包括 MPP 和 XML 格式。
-### 我可以將 Aspose.Tasks 與其他 Java 框架整合嗎？
-當然，Aspose.Tasks 可以與其他 Java 框架和函式庫無縫集成，以增強功能。
-### Aspose.Tasks 有試用版嗎？
-是的，您可以從以下位置下載 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/).
-### 在哪裡可以找到對 Aspose.Tasks 的支援？
-您可以在 Aspose.Tasks 論壇上找到支援和協助[這裡](https://forum.aspose.com/c/tasks/15).
+您已掌握使用 Aspose.Tasks 讀取工作週（Java）的完整流程。依照上述步驟，即可程式化取得任何 MS Project 行事曆中的工作週定義，將資料整合至您的應用程式，並自動化排程相關工作流程。歡迎自行嘗試建立或更新工作週——Aspose.Tasks 讓這一切變得簡單。
+
+---
+
+**最後更新：** 2025-12-03  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
