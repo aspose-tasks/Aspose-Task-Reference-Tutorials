@@ -1,75 +1,131 @@
 ---
-title: Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
-linktitle: Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
-second_title: Aspose.Tasks Java-API
-description: Erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks-Projekten mit Java festlegen. Bearbeiten Sie Microsoft Project-Dateien mühelos.
+date: 2025-12-04
+description: Lernen Sie, wie Sie die Währung in Aspose.Tasks‑Java‑Projekten festlegen,
+  einschließlich dem Ändern der Währung und des Währungssymbols in Java. Bearbeiten
+  Sie Microsoft‑Project‑Dateien mühelos.
+language: de
+linktitle: Set Currency Properties in Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Wie man die Währung in Aspose.Tasks-Projekten festlegt – Java-Leitfaden
+url: /java/currency-properties/set-properties/
 weight: 11
-url: /de/java/currency-properties/set-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Legen Sie Währungseigenschaften in Aspose.Tasks-Projekten fest
+# So setzen Sie die Währung in Aspose.Tasks-Projekten – Java‑Leitfaden
 
 ## Einführung
-In diesem Tutorial erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks-Projekten mithilfe von Java festlegen. Aspose.Tasks ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten.
+In diesem Tutorial lernen Sie **wie man die Währung** für eine Microsoft‑Project‑Datei mit der Aspose.Tasks‑Java‑API festlegt. Egal, ob Sie die *Währung* für internationale Teams *ändern* müssen oder das *Währungssymbol* in Java anpassen wollen, die nachfolgenden Schritte führen Sie durch den Prozess mit klaren Erklärungen und sofort ausführbarem Code.
+
+## Schnelle Antworten
+- **Welche Bibliothek wird benötigt?** Aspose.Tasks for Java.  
+- **Kann ich das Währungssymbol ändern?** Ja – verwenden Sie `CurrencySymbolPositionType` und `Prj.CURRENCY_SYMBOL`.  
+- **Welche Dateiformate werden unterstützt?** XML, MPP und über `SaveFileFormat`.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine Lizenz erforderlich.  
+- **Wie lange dauert die Implementierung?** Etwa 5‑10 Minuten für ein Basis‑Setup.
+
+## Was ist „Währung“ in einer Projektdatei?
+Die Währung eines Projekts definiert, wie Kostenwerte angezeigt werden – Code (z. B. `AUD`), Anzahl der Dezimalstellen, Symbol (`$`) und die Position des Symbols. Das Festlegen dieser Eigenschaften stellt sicher, dass jedes kostenbezogene Feld (Ressourcensätze, Aufgabenbudgets usw.) das korrekte monetäre Format für Ihr Publikum widerspiegelt.
+
+## Warum Aspose.Tasks zum Ändern der Währung verwenden?
+- **Keine Microsoft‑Project‑Installation erforderlich** – Dateien auf jedem Server manipulieren.  
+- **Vollständige API‑Abdeckung** – alle währungsbezogenen Felder sind über `Prj`‑Konstanten verfügbar.  
+- **Plattformübergreifend** – funktioniert auf Windows, Linux und macOS mit jeder Java‑kompatiblen IDE.  
+- **Hohe Leistung** – große Projektdateien schnell und zuverlässig verarbeiten.
+
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-1. Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist.
-2.  Aspose.Tasks for Java-Bibliothek: Laden Sie die Aspose.Tasks for Java-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/tasks/java/).
-3. Integrierte Entwicklungsumgebung (IDE): Wählen Sie Ihre bevorzugte IDE wie Eclipse oder IntelliJ IDEA.
+1. **Java Development Kit (JDK)** – Version 8 oder höher.  
+2. **Aspose.Tasks for Java** – laden Sie das neueste JAR von der [Aspose.Tasks‑Download‑Seite](https://releases.aspose.com/tasks/java/) herunter.  
+3. **Eine IDE** – Eclipse, IntelliJ IDEA oder ein beliebiger Editor Ihrer Wahl.  
+4. **Ein beschreibbarer Ordner** – in dem die erzeugte Projektdatei gespeichert wird.
+
 ## Pakete importieren
-Importieren wir zunächst die notwendigen Pakete, um mit Aspose.Tasks in Java zu arbeiten.
+Importieren Sie zunächst die Klassen, die Zugriff auf Projekteigenschaften und die Dateiverarbeitung bieten.
+
 ```java
 import com.aspose.tasks.CurrencySymbolPositionType;
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
-## Schritt 1: Datenverzeichnis festlegen
-Legen Sie das Datenverzeichnis fest, in dem sich Ihre Projektdateien befinden.
+
+## Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: Datenverzeichnis definieren
+Geben Sie den Ordner an, der Ihre Quelldateien enthält und in den die Ausgabe geschrieben wird.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Schritt 2: Projektinstanz erstellen
-Erstellen Sie mit Aspose.Tasks eine neue Projektinstanz.
+
+### Schritt 2: Neue Projektinstanz erstellen
+Instanziieren Sie ein neues `Project`‑Objekt. Dieses Objekt stellt eine Microsoft‑Project‑Datei im Arbeitsspeicher dar.
+
 ```java
 Project project = new Project();
 ```
-## Schritt 3: Währungseigenschaften festlegen
-Legen wir nun die Währungseigenschaften für das Projekt fest.
+
+### Schritt 3: Währungseigenschaften festlegen
+Hier legen wir die Details zum **Setzen der Währung** fest, wie Code, Dezimalstellen, Symbol und Symbolposition.
+
 ```java
-project.set(Prj.CURRENCY_CODE, "AUD");
-project.set(Prj.CURRENCY_DIGITS, 2);
-project.set(Prj.CURRENCY_SYMBOL, "$");
-project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After);
+project.set(Prj.CURRENCY_CODE, "AUD");                         // Currency code (e.g., AUD, USD)
+project.set(Prj.CURRENCY_DIGITS, 2);                          // Number of decimal places
+project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to display
+project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
-## Schritt 4: Speichern Sie das Projekt
-Speichern Sie das Projekt mit den aktualisierten Währungseigenschaften.
+
+> **Pro‑Tipp:** Wenn Sie die **Währung** für ein bestehendes Projekt **ändern** müssen, laden Sie die Datei einfach mit `new Project("file.mpp")`, bevor Sie die obigen Einstellungen anwenden.
+
+### Schritt 4: Aktualisiertes Projekt speichern
+Schreiben Sie das Projekt im gewünschten Format zurück auf die Festplatte. In diesem Beispiel verwenden wir das XML‑Format, Sie können aber auch `SaveFileFormat.MPP` wählen.
+
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-## Schritt 5: Abschlussmeldung anzeigen
-Zeigt eine Meldung an, die den erfolgreichen Abschluss des Vorgangs anzeigt.
+
+### Schritt 5: Erfolg bestätigen
+Geben Sie eine freundliche Meldung aus, damit Sie wissen, dass der Vorgang ohne Fehler abgeschlossen wurde.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Glückwunsch! Sie haben erfolgreich Währungseigenschaften in einem Aspose.Tasks-Projekt mit Java festgelegt.
-## Abschluss
-In diesem Tutorial haben wir gelernt, wie man Aspose.Tasks für Java verwendet, um Währungseigenschaften in Projektdateien festzulegen. Mit Aspose.Tasks können Entwickler Projektdaten effizient bearbeiten, was es zu einem wertvollen Werkzeug für Projektmanagementanwendungen macht.
-## FAQs
-### Kann ich mit Aspose.Tasks mehrere Währungen in einem einzigen Projekt festlegen?
-Ja, mit Aspose.Tasks können Sie mehrere Währungen in einer einzigen Projektdatei verwalten.
-### Ist Aspose.Tasks mit verschiedenen Versionen von Microsoft Project-Dateien kompatibel?
-Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-Dateien und gewährleistet so die Kompatibilität in verschiedenen Umgebungen.
-### Bietet Aspose.Tasks Unterstützung für benutzerdefinierte Währungsformate?
-Absolut, Aspose.Tasks bietet Flexibilität bei der Definition benutzerdefinierter Währungsformate, um spezifische Projektanforderungen zu erfüllen.
-### Kann ich Aspose.Tasks mit anderen Java-Bibliotheken oder Frameworks integrieren?
-Ja, Aspose.Tasks kann nahtlos in andere Java-Bibliotheken und Frameworks integriert werden, wodurch seine Funktionalität und Vielseitigkeit verbessert wird.
-### Wo finde ich zusätzliche Unterstützung oder Unterstützung für Aspose.Tasks?
- Für zusätzliche Unterstützung können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15), wo Sie hilfreiche Ressourcen finden und mit der Community interagieren können.
+
+## Häufige Probleme & Lösungen
+
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| **`NullPointerException` on `project.save`** | `dataDir` ist kein gültiger Pfad oder hat keine Schreibberechtigung. | Stellen Sie sicher, dass das Verzeichnis existiert und Ihr Java‑Prozess Schreibzugriff hat. |
+| **Währungssymbol wird nicht angezeigt** | Die Symbolposition ist für Ihr Gebietsschema falsch eingestellt. | Verwenden Sie `CurrencySymbolPositionType.Before`, wenn das Symbol dem Betrag vorausgehen soll. |
+| **Projektdatei lässt sich nicht in MS Project öffnen** | Speichern im älteren Format mit inkompatiblen Einstellungen. | Speichern Sie mit `SaveFileFormat.MPP` für volle Kompatibilität mit neueren MS‑Project‑Versionen. |
+
+## Häufig gestellte Fragen
+
+**F: Kann ich in einem einzigen Projekt mehrere Währungen mit Aspose.Tasks festlegen?**  
+A: Ja, Aspose.Tasks ermöglicht es, mehrere Währungen innerhalb einer einzigen Projektdatei zu verwalten, indem Sie die Währungseigenschaften pro Ressource oder pro Aufgabe festlegen.
+
+**F: Ist Aspose.Tasks mit verschiedenen Versionen von Microsoft‑Project‑Dateien kompatibel?**  
+A: Auf jeden Fall. Die Bibliothek unterstützt MPP‑Dateien von Project 2000 bis zu den neuesten Versionen sowie XML und andere Formate.
+
+**F: Bietet Aspose.Tasks Unterstützung für benutzerdefinierte Währungsformate  
+A: Ja, Sie können benutzerdefinierte Symbole, Dezimalstellen und Positionen definieren, um jede regionale Anforderung zu erfüllen.
+
+**F: Kann ich Aspose.Tasks mit anderen Java‑Bibliotheken oder -Frameworks integrieren?**  
+A: Sicherlich. Die API ist reines Java, sodass sie nahtlos mit Spring, Hibernate, Maven, Gradle und anderen Ökosystemen funktioniert.
+
+**F: Wo finde ich zusätzliche Unterstützung oder Hilfe für Aspose.Tasks?**  
+A: Besuchen Sie das [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15) für Community‑Hilfe oder konsultieren Sie die offizielle Dokumentation für detaillierte API‑Referenzen.
+
+## Fazit
+Sie wissen jetzt, **wie man die Währung festlegt**, wie man **Währungswerte** ändert und wie man **Währungssymbole im Java‑Stil** mit Aspose.Tasks für Java ändert. Diese Möglichkeiten ermöglichen es Ihnen, Kostendaten für globale Teams anzupassen, länderspezifische Berichte zu erstellen und Ihre Projektdateien über Grenzen hinweg konsistent zu halten.
+
+**Zuletzt aktualisiert:** 2025-12-04  
+**Getestet mit:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

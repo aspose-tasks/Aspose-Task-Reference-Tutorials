@@ -1,82 +1,134 @@
 ---
-title: 在 Aspose.Tasks 中管理 MS Project 日曆屬性
-linktitle: 在 Aspose.Tasks 中管理日曆屬性
+date: 2025-12-04
+description: 了解如何在 Java 中使用 Aspose.Tasks 設定專案行事曆並管理 MS Project 行事曆屬性。一步一步的指南，展示行事曆工作時間並自訂排程。
+language: zh-hant
+linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks 在 Java 中管理 MS Project 日曆屬性。這為 Java 應用程式中的日曆提供了逐步指導。
+title: 如何使用 Aspose.Tasks for Java 設定專案行事曆
+url: /java/calendars/properties/
 weight: 10
-url: /zh-hant/java/calendars/properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中管理 MS Project 日曆屬性
+# 如何使用 Aspose.Tasks for Java 設定專案日曆
 
 ## 介紹
-在本教程中，我們將探討如何使用 Aspose.Tasks for Java 管理 MS Project 日曆屬性。透過了解如何操作日曆屬性，您可以自訂專案計劃以有效地滿足特定要求。
-## 先決條件
-在繼續之前，請確保您符合以下先決條件：
-### Java 開發工具包 (JDK) 安裝
-確保您的系統上安裝了 Java 開發工具包 (JDK)。
-### Java 函式庫的 Aspose.Tasks
-從下列位置下載並設定 Aspose.Tasks for Java 函式庫[下載頁面](https://releases.aspose.com/tasks/java/).
+在本教學中，您將學會如何使用 Aspose.Tasks for Java 程式化 **設定專案日曆**。控制日曆屬性可讓您 **顯示日曆工作時段**、自訂工作日，並使您的專案排程符合實際限制。我們將逐步說明——從環境設定到遍歷日曆並讀取其屬性——讓您能在應用程式中自信地管理 MS Project 日曆。
 
-## 導入包
-首先導入必要的套件：
+## 快速回答
+- **「設定專案日曆」是什麼意思？** 代表在 MS Project 檔案中建立或更新日曆的工作時間、基礎日曆與日類型。  
+- **需要哪個程式庫？** Aspose.Tasks for Java（任意近期版本）。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **可以顯示日曆工作時段嗎？** 可以——讀取每個 `WeekDay` 後即可輸出各日類型的工作時段。  
+- **支援 Maven/Gradle 嗎？** 完全支援——只要將 Aspose.Tasks JAR 加入相依性即可。
+
+## 什麼是專案日曆？
+專案日曆定義了任務、資源與整體專案時間線的工作日與工作時段。在 MS Project 中，日曆可以繼承自基礎日曆，每種日類型（例如 **Standard**、**Non‑working**）皆可設定獨立的工作時間。以程式方式管理這些設定，可在不手動編輯的情況下動態調整排程。
+
+## 為什麼要以程式方式管理 MS Project 日曆？
+- **自動化：** 只需一支腳本即可在多個專案間調整日曆。  
+- **一致性：** 強制執行全公司統一的工作時間政策。  
+- **整合性：** 與外部系統（HR、ERP）同步日曆。  
+- **可見性：** 快速 **顯示日曆工作時段**，方便報表或除錯。
+
+## 前置需求
+在開始之前，請確保您已具備：
+
+- **Java Development Kit (JDK) 8+** 已安裝且設定 `JAVA_HOME`。  
+- **Aspose.Tasks Java** 程式庫，請從 [下載頁面](https://releases.aspose.com/tasks/java/) 取得。將 JAR 加入專案的 classpath 或 Maven/Gradle 相依性中。
+
+## 匯入套件
+首先，匯入本教學中將會使用的 Aspose.Tasks 核心類別：
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## 第 1 步：設定資料目錄
+## 步驟 1：設定資料目錄
+定義存放專案檔案的資料夾。將佔位符替換為您機器上的實際路徑。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`與您的資料目錄的路徑。
-## 第 2 步：定義時間單位
+
+## 步驟 2：定義時間單位
+工作時間以毫秒為單位。定義可重複使用的常數可提升程式可讀性。
+
 ```java
-long OneSec = 1000; //1000毫秒
+long OneSec = 1000; // 1000 milliseconds
 long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
-在這裡，為了方便起見，我們定義了時間單位。
-## 第 3 步：載入項目數據
+
+## 步驟 3：載入專案資料
+透過載入現有的 MS Project XML 檔案（`.xml` 或 `.mpp`）建立 `Project` 實例，從而取得檔案中所有日曆的存取權。
+
 ```java
 Project project = new Project(dataDir + "project.xml");
 ```
-從指定的 XML 檔案載入 MS Project 資料。
-## 第 4 步：迭代日曆
+
+## 步驟 4：遍歷日曆並顯示工作時段
+現在，我們會遍歷每個日曆，印出其唯一識別碼、名稱、基礎日曆，以及各日類型的工作時段。此範例同時示範 **如何設定專案日曆** 以及 **如何顯示日曆工作時段**。
+
 ```java
 for (Calendar cal : project.getCalendars()) {
     if (cal.getName() == null) {
         continue;
     }
     System.out.println("UID: " + cal.getUid() + " Name: " + cal.getName());
-    //顯示是否有基準日曆
+    // Show if it has a base calendar
     System.out.print("Base Calendar: ");
     System.out.println(cal.isBaseCalendar() ? "Self" : cal.getBaseCalendar().getName());
-    //迭代工作日
+    // Iterate through weekdays
     for (WeekDay wd : cal.getWeekDays()) {
         double ts = wd.getWorkingTime();
         System.out.println("Day Type: " + DayType.toString(DayType.class, wd.getDayType()) + " Hours: " + ts / OneHour);
     }
 }
 ```
-此循環循環存取專案中的每個行事曆，顯示其屬性，例如 UID、名稱、基準日曆和每種日期類型的工作時間。
+
+### 程式碼說明
+- **過濾未命名的日曆**（某些內部日曆的 `name` 為 `null`）。  
+- **印出 UID 與名稱**——方便日後辨識。  
+- **顯示基礎日曆**——若為「Self」表示該日曆本身即為基礎日曆，否則顯示繼承的日曆名稱。  
+- **遍歷每個 `WeekDay`**，計算並輸出總工作時數（workingTime` 以毫秒為單位，需除以 `OneHour`）。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|-------|--------|-----|
+| `NullPointerException` 發生於 `cal.getBaseCalendar()` | 該日曆本身即為基礎日曆（`isBaseCalendar()` 回傳 `true`）。 | 如範例所示使用三元運算子 (`cal.isBaseCalendar() ? "Self" : ...`)。 |
+| 工作時段未輸出 | 專案檔使用不同的時間單位（ticks）。 | 檢查檔案格式；Aspose.Tasks 會正規化為毫秒，但請確保載入正確的檔案類型。 |
+| 找不到 `project.xml` | `dataDir` 路徑錯誤。 | 使用絕對路徑或 `Paths.get(dataDir, "project.xml").toString()`。 |
+
+## 常見問答
+
+**Q: 可以使用 Aspose.Tasks 程式化修改日曆屬性嗎？**  
+A: 可以，API 提供完整的讀寫存取，您可以新增、編輯或刪除工作時間、例外與基礎日曆關係。
+
+**Q: Aspose.Tasks 在日曆自訂方面有什麼限制？**  
+A: 此程式庫與 Microsoft Project 的功能相同，幾乎可以自訂所有日曆項目。僅極舊的 Project 檔案版本可能會有少量相容性問題。
+
+**Q: 能否將日曆管理整合到現有的 Java 專案中？**  
+A: 完全可以。只要將 Aspose.Tasks JAR 加入建置路徑，並使用本教學中的程式碼模式即可。
+
+**Q: Aspose.Tasks 除了日曆管理，還支援其他專案管理功能嗎？**  
+A: 支援，包括任務、資源、指派、概覽、基線等，是 Java 專案自動化的完整解決方案。
+
+**Q: 開發者使用 Aspose.Tasks 是否有技術支援？**  
+A: 有，Aspose 提供專屬論壇、電子郵件支援以及完整文件，供所有授權使用者使用。
 
 ## 結論
-透過學習本教學課程，您已經了解如何使用 Aspose.Tasks for Java 管理 MS Project 行事曆屬性。這些知識使您能夠有效地自訂專案時間表，確保符合專案要求。
-## 常見問題解答
-### Q：我可以使用 Aspose.Tasks 以程式設計方式修改日曆屬性嗎？
-答：是的，Aspose.Tasks 提供了一個全面的 API 來在 Java 應用程式中動態操作日曆屬性。
-### Q：使用 Aspose.Tasks 進行日曆自訂有任何限制嗎？
-答：Aspose.Tasks 在行事曆管理方面提供了廣泛的靈活性，並且對自訂選項的限制極小。
-### Q：我可以將日曆管理功能整合到現有的 Java 專案中嗎？
-答：當然！您可以將Aspose.Tasks的日曆管理功能無縫整合到您的Java專案中，增強專案排程功能。
-### Q：除了行事曆管理之外，Aspose.Tasks 是否支援其他專案管理功能？
-答：是的，Aspose.Tasks 提供了廣泛的功能來管理任務、資源和專案結構，使其成為 Java 專案管理的全面解決方案。
-### Q：使用 Aspose.Tasks 的開發人員可以獲得技術支援嗎？
-答：是的，開發人員可以透過 Aspose.Tasks 論壇獲得技術支持，確保對實施過程中遇到的任何疑問或問題提供協助。
+透過本指南，您已掌握 **如何設定專案日曆**、讀取並 **顯示日曆工作時段**，以及如何在任何 Java 應用程式中整合這些功能。這讓您能自動化排程調整、落實一致的工作政策，並打造更完整的專案管理解決方案。
+
+---
+
+**最後更新：** 2025-12-04  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

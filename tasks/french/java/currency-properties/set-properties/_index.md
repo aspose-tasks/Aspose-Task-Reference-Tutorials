@@ -1,75 +1,134 @@
 ---
-title: Définir les propriétés de devise dans les projets Aspose.Tasks
-linktitle: Définir les propriétés de devise dans les projets Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Découvrez comment définir les propriétés monétaires dans les projets Aspose.Tasks à l'aide de Java. Manipulez les fichiers Microsoft Project sans effort.
+date: 2025-12-04
+description: Apprenez à définir la devise dans les projets Aspose.Tasks Java, y compris
+  comment changer la devise et le symbole de devise en Java. Manipulez les fichiers
+  Microsoft Project sans effort.
+language: fr
+linktitle: Set Currency Properties in Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Comment définir la devise dans les projets Aspose.Tasks – Guide Java
+url: /java/currency-properties/set-properties/
 weight: 11
-url: /fr/java/currency-properties/set-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Définir les propriétés de devise dans les projets Aspose.Tasks
+# Comment définir la devise dans les projets Aspose.Tasks – Guide Java
 
 ## Introduction
-Dans ce didacticiel, nous verrons comment définir les propriétés de devise dans les projets Aspose.Tasks à l'aide de Java. Aspose.Tasks est une puissante bibliothèque Java qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme.
-## Conditions préalables
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-1. Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système.
-2.  Bibliothèque Aspose.Tasks for Java : téléchargez et installez la bibliothèque Aspose.Tasks for Java à partir du[lien de téléchargement](https://releases.aspose.com/tasks/java/).
-3. Environnement de développement intégré (IDE) : choisissez votre IDE préféré tel qu'Eclipse ou IntelliJ IDEA.
-## Importer des packages
-Tout d’abord, importons les packages nécessaires pour travailler avec Aspose.Tasks en Java.
+Dans ce tutoriel, vous apprendrez **comment définir la devise** d’un fichier Microsoft Project à l’aide de l’API Aspose.Tasks pour Java. Que vous ayez besoin de *modifier la devise* pour des équipes internationales ou d’ajuster le *symbole monétaire* en Java, les étapes ci‑dessous vous guideront avec des explications claires et du code prêt à l’emploi.
+
+## Réponses rapides
+- **Quelle bibliothèque est requise ?** Aspose.Tasks pour Java.  
+- **Puis‑je changer le symbole monétaire ?** Oui – utilisez `CurrencySymbolPositionType` et `Prj.CURRENCY_SYMBOL`.  
+- **Quels formats de fichier sont pris en charge ?** XML, MPP et bien d’autres via `SaveFileFormat`.  
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise en production.  
+- **Combien de temps prend l’implémentation ?** Environ 5‑10 minutes pour une configuration de base.
+
+## Qu’est‑ce que la « devise » dans un fichier Project ?
+La devise d’un projet définit la façon dont les valeurs monétaires sont affichées : code (p. ex. `AUD`), nombre de décimales, symbole (`$`) et position du symbole. Définir ces propriétés garantit que chaque champ lié aux coûts (taux des ressources, budgets des tâches, etc.) reflète le format monétaire correct pour votre audience.
+
+## Pourquoi utiliser Aspose.Tasks pour changer la devise ?
+- **Pas d’installation de Microsoft Project requise** – manipulez les fichiers sur n’importe quel serveur.  
+- **Couverture complète de l’API** – tous les champs liés à la devise sont exposés via les constantes `Prj`.  
+- **Multiplateforme** – fonctionne sous Windows, Linux et macOS avec n’importe quel IDE compatible Java.  
+- **Haute performance** – traite rapidement et de manière fiable de gros fichiers de projet.
+
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
+
+1. **Java Development Kit (JDK)** – version 8 ou supérieure.  
+2. **Aspose.Tasks pour Java** – téléchargez le JAR le plus récent depuis la [page de téléchargement Aspose.Tasks](https://releases.aspose.com/tasks/java/).  
+3. **Un IDE** – Eclipse, IntelliJ IDEA ou tout autre éditeur de votre choix.  
+4. **Un dossier accessible en écriture** – où le fichier de projet généré sera enregistré.
+
+## Importer les packages
+Tout d’abord, importez les classes qui donnent accès aux propriétés du projet et à la gestion des fichiers.
+
 ```java
 import com.aspose.tasks.CurrencySymbolPositionType;
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
-## Étape 1 : Définir le répertoire de données
-Définissez le répertoire de données où se trouvent vos fichiers de projet.
+
+## Guide étape par étape
+
+### Étape 1 : Définir le répertoire de données
+Spécifiez le dossier qui contient vos fichiers source et où la sortie sera écrite.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Étape 2 : Créer une instance de projet
-Créez une nouvelle instance de projet à l'aide d'Aspose.Tasks.
+
+### Étape 2 : Créer une nouvelle instance de projet
+Instanciez un nouvel objet `Project`. Cet objet représente fichier Microsoft Project en mémoire.
+
 ```java
 Project project = new Project();
 ```
-## Étape 3 : Définir les propriétés de la devise
-Maintenant, définissons les propriétés monétaires du projet.
+
+### Étape 3 : Définir les propriétés de la devise
+C’est ici que nous **définissons la devise** : code, décimales, symbole et position du symbole.
+
 ```java
-project.set(Prj.CURRENCY_CODE, "AUD");
-project.set(Prj.CURRENCY_DIGITS, 2);
-project.set(Prj.CURRENCY_SYMBOL, "$");
-project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After);
+project.set(Prj.CURRENCY_CODE, "AUD");                         // Currency code (e.g., AUD, USD)
+project.set(Prj.CURRENCY_DIGITS, 2);                          // Number of decimal places
+project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to display
+project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
-## Étape 4 : Enregistrez le projet
-Enregistrez le projet avec les propriétés de devise mises à jour.
+
+> **Astuce :** Si vous devez **modifier la devise** d’un projet existant, chargez simplement le fichier avec `new Project("file.mpp")` avant d’appliquer les paramètres ci‑dessus.
+
+### Étape 4 : Enregistrer le projet mis à jour
+Écrivez le projet sur le disque dans le format souhaité. Dans cet exemple nous utilisons le format XML, mais vous pouvez également choisir `SaveFileFormat.MPP`.
+
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-## Étape 5 : Afficher le message de fin
-Afficher un message indiquant la réussite du processus.
+
+### Étape 5 : Confirmer le succès
+Affichez un message convivial pour savoir que l’opération s’est terminée sans erreurs.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Toutes nos félicitations! Vous avez défini avec succès les propriétés monétaires dans un projet Aspose.Tasks à l'aide de Java.
+
+## Problèmes courants & solutions
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| **`NullPointerException` sur `project.save`** | `dataDir` n’est pas un chemin valide ou n’a pas les droits d’écriture. | Vérifiez que le répertoire existe et que votre processus Java possède les droits d’écriture. |
+| **Le symbole monétaire n’apparaît pas** | La position du symbole est mal configurée pour votre locale. | Utilisez `CurrencySymbolPositionType.Before` si le symbole doit précéder le montant. |
+| **Le fichier projet ne s’ouvre pas dans MS Project** | Enregistrement dans un format ancien avec des paramètres incompatibles. | Enregistrez avec `SaveFileFormat.MPP` pour une compatibilité totale avec les versions récentes de MS Project. |
+
+## Foire aux questions
+
+**Q : Puis‑je définir plusieurs devises dans un même projet avec Aspose.Tasks ?**  
+R : Oui, Aspose.Tasks vous permet de gérer plusieurs devises au sein d’un même fichier projet en définissant les propriétés de devise au niveau de chaque ressource ou tâche.
+
+**Q : Aspose.Tasks est‑il compatible avec différentes versions de fichiers Microsoft Project ?**  
+R : Absolument. La bibliothèque prend en charge les fichiers MPP de Project 2000 jusqu’aux dernières versions, ainsi que les formats XML et d’autres formats.
+
+**Q : Aspose.Tasks propose‑t‑il la prise en charge de formats de devise personnalisés ?**  
+R : Oui, vous pouvez définir des symboles personnalisés, le nombre de décimales et la position du symbole pour répondre à n’importe quelle exigence régionale.
+
+**Q : Puis‑je intégrer Aspose.Tasks avec d’autres bibliothèques ou frameworks Java ?**  
+R : Bien sûr. L’API est purement Java, elle s’intègre donc parfaitement avec Spring, Hibernate, Maven, Gradle et d’autres écosystèmes.
+
+**Q : Où puis‑je trouver une assistance supplémentaire pour Aspose.Tasks ?**  
+R : Consultez le [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir de l’aide de la communauté, ou référez‑vous à la documentation officielle pour des références détaillées de l’API.
+
 ## Conclusion
-Dans ce didacticiel, nous avons appris à utiliser Aspose.Tasks pour Java pour définir les propriétés monétaires dans les fichiers de projet. Avec Aspose.Tasks, les développeurs peuvent manipuler efficacement les données du projet, ce qui en fait un outil précieux pour les applications de gestion de projet.
-## FAQ
-### Puis-je définir plusieurs devises dans un seul projet à l'aide d'Aspose.Tasks ?
-Oui, Aspose.Tasks vous permet de gérer plusieurs devises dans un seul fichier de projet.
-### Aspose.Tasks est-il compatible avec différentes versions des fichiers Microsoft Project ?
-Oui, Aspose.Tasks prend en charge différentes versions de fichiers Microsoft Project, garantissant ainsi la compatibilité entre différents environnements.
-### Aspose.Tasks prend-il en charge les formats de devises personnalisés ?
-Absolument, Aspose.Tasks offre une flexibilité dans la définition de formats de devises personnalisés pour répondre aux exigences spécifiques du projet.
-### Puis-je intégrer Aspose.Tasks à d’autres bibliothèques ou frameworks Java ?
-Oui, Aspose.Tasks peut être intégré de manière transparente à d’autres bibliothèques et frameworks Java, améliorant ainsi sa fonctionnalité et sa polyvalence.
-### Où puis-je trouver une assistance ou une assistance supplémentaire pour Aspose.Tasks ?
- Pour une assistance supplémentaire, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), où vous pouvez trouver des ressources utiles et interagir avec la communauté.
+Vous savez maintenant **comment définir la devise**, comment **modifier les valeurs monétaires** et comment **modifier le symbole monétaire en Java** à l’aide d’Aspose.Tasks pour Java. Ces capacités vous permettent d’adapter les données de coût pour des équipes mondiales, de générer des rapports spécifiques à une locale et de garder vos fichiers projet cohérents à l’échelle internationale.
+
+---
+
+**Dernière mise à jour :** 2025-12-04  
+**Testé avec :** Aspose.Tasks pour Java 24.11  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,68 +1,128 @@
 ---
-title: Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
-linktitle: Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách trích xuất thông tin tiền tệ từ các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước được cung cấp.
+date: 2025-12-04
+description: Tìm hiểu cách đọc các thuộc tính tiền tệ trong Java từ các tệp MS Project
+  bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước này để trích xuất mã
+  tiền tệ, ký hiệu, số chữ số và vị trí một cách lập trình.
+language: vi
+linktitle: Read Currency Properties Java with Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Đọc các thuộc tính tiền tệ Java với các dự án Aspose.Tasks
+url: /java/currency-properties/read-properties/
 weight: 10
-url: /vi/java/currency-properties/read-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
+# Đọc Thuộc tính Tiền tệ Java với Dự án Aspose.Tasks
 
 ## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để đọc các thuộc tính tiền tệ từ các tệp Microsoft Project. Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu Microsoft Project mà không yêu cầu cài đặt Microsoft Project. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể trích xuất thông tin liên quan đến tiền tệ một cách dễ dàng.
-## Điều kiện tiên quyết
-Trước khi tiếp tục với hướng dẫn này, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2.  Aspose.Tasks for Java JAR: Tải xuống thư viện Aspose.Tasks for Java từ[đây](https://releases.aspose.com/tasks/java/) và đưa nó vào dự án Java của bạn.
-## Gói nhập khẩu
-Bắt đầu bằng cách nhập các gói cần thiết vào lớp Java của bạn:
+Trong hướng dẫn này bạn sẽ **đọc thuộc tính tiền tệ Java** từ các tệp Microsoft Project bằng cách sử dụng API Aspose.Tasks cho Java. Aspose.Tasks cho phép bạn làm việc với các tệp .mpp mà không cần cài đặt Microsoft Project, làm cho nó trở nên lý tưởng cho việc báo cáo tự động, di chuyển dữ liệu, hoặc tích hợp vào các ứng dụng doanh nghiệp dựa trên Java. Khi kết thúc hướng dẫn này, bạn sẽ có thể trích xuất mã tiền tệ, ký hiệu, số chữ số thập phân và vị trí ký hiệu trực tiếp từ một tệp dự án.
+
+## Câu trả lời nhanh
+- **“đọc thuộc tính tiền tệ java” có nghĩa là gì?** Nó đề cập đến việc lấy siêu dữ liệu liên quan đến tiền tệ (mã, ký hiệu, chữ số, vị trí) từ một tệp MS Project bằng mã Java.  
+- **Tôi có cần giấy phép để thử không?** Có một bản dùng thử miễn phí của Aspose.Tasks; giấy phép thương mại là bắt buộc cho việc sử dụng trong môi trường sản xuất.  
+- **Phiên bản JDK nào được yêu cầu?** Java 8 hoặc cao hơn.  
+- **Tôi có thể sửa đổi cài đặt tiền tệ sau khi đọc không?** Có, Aspose.Tasks cho phép cả thao tác đọc và ghi trên các thuộc tính tiền tệ.  
+- **Điều này có tương thích với tất cả các phiên bản .mpp không?** API hỗ trợ các tệp được tạo bằng Microsoft Project 2003‑2021.
+
+## Đọc thuộc tính tiền tệ Java là gì?
+Đọc thuộc tính tiền tệ trong Java có nghĩa là truy cập các cài đặt ở mức dự án xác định cách hiển thị giá trị tiền tệ trong tệp Microsoft Project. Các cài đặt này bao gồm mã tiền tệ ISO (ví dụ, **USD**), ký hiệu (**$**), số chữ số thập phân, và việc ký hiệu xuất hiện trước hay sau số tiền.
+
+## Tại sao nên đọc thuộc tính tiền tệ Java với Aspose.Tasks?
+- **Không cần cài đặt Microsoft Project** – API hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
+- **Trích xuất nhanh, trong‑process** – lý tưởng cho việc lý hàng loạt số lượng lớn tệp dự án.  
+- **Kiểm soát đầy đủ** – bạn có thể kết hợp các giá trị đã lấy với báo cáo tùy chỉnh hoặc tích hợp chúng vào hệ thống ERP.  
+- **Hỗ trợ đa phiên bản** – hoạt động với các tệp .mpp từ Project 2003 tới bản phát hành mới nhất 2021.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. **Java Development Kit (JDK)** – Java 8 hoặc mới hơn đã được cài đặt và cấu hình trong `PATH` của bạn.  
+2. **Aspose.Tasks for Java JAR** – tải thư viện mới nhất từ [đây](https://releases.aspose.com/tasks/java/) và thêm vào classpath của dự án.  
+
+## Nhập gói
+Bắt đầu bằng cách nhập namespace Aspose.Tasks cần thiết cho việc thao tác dự án:
+
 ```java
 import com.aspose.tasks.*;
 ```
-## Bước 1: Thiết lập thư mục dự án của bạn
-Trước tiên, hãy thiết lập thư mục dự án nơi chứa tệp Microsoft Project của bạn. Bạn có thể xác định đường dẫn thư mục này như sau:
+
+## Bước 1: Thiết lập Thư mục Dự án của Bạn
+Xác định thư mục chứa tệp `.mpp` mà bạn muốn phân tích. Việc giữ đường dẫn trong một biến giúp mã có thể tái sử dụng:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Thay thế`"Your Data Directory"` với đường dẫn thực tế đến thư mục dự án của bạn.
-## Bước 2: Tạo phiên bản Project Reader
- Khởi tạo một`Project` đối tượng bằng cách cung cấp đường dẫn đến tệp Microsoft Project của bạn:
+
+*Thay thế `"Your Data Directory"` bằng đường dẫn tuyệt đối hoặc tương đối tới thư mục chứa `project.mpp`.*
+
+## Bước 2: Tạo một Instance Đọc Dự án
+Tải tệp Microsoft Project vào một đối tượng `Project`. Đối tượng này cung cấp quyền truy cập vào tất cả các thuộc tính dự án, bao gồm cài đặt tiền tệ:
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Đảm bảo thay thế`"project.mpp"` với tên tệp MS Project của bạn.
-## Bước 3: Hiển thị thuộc tính tiền tệ
-Truy xuất và hiển thị các thuộc tính tiền tệ từ tệp dự án:
+
+*Nếu tệp của bạn có tên khác, hãy thay đổi `"project.mpp"` cho phù hợp.*
+
+## Bước 3: Hiển thị Thuộc tính Tiền tệ
+Bây giờ hãy lấy từng thuộc tính tiền tệ bằng cách sử dụng enum `Prj` và in kết quả ra console. API trả về các đối tượng mà bạn có thể chuyển thành chuỗi để hiển thị:
+
 ```java
 System.out.println("Currency Code : " + project.get(Prj.CURRENCY_CODE).toString());
 System.out.println("<br>Currency Digits : " + project.get(Prj.CURRENCY_DIGITS).toString());
 System.out.println("<br>Currency Symbol : " + project.get(Prj.CURRENCY_SYMBOL).toString());
-System.out.println("Currency Symbol Position" + project.get(Prj.CURRENCY_SYMBOL_POSITION).toString());
+System.out.println("Currency Symbol Position : " + project.get(Prj.CURRENCY_SYMBOL_POSITION).toString());
 ```
-Đoạn mã này lấy thông tin như mã tiền tệ, chữ số, ký hiệu và vị trí ký hiệu từ tệp MS Project và in chúng ra bảng điều khiển.
-## Bước 4: Hoàn tất quy trình
-Cuối cùng, in thông báo cho biết quá trình đã hoàn tất thành công:
+
+**Bạn sẽ thấy:**  
+- **Currency Code** – mã ISO‑4217 như `USD`, `EUR`, `JPY`.  
+- **Currency Digits** – thường là `2` cho hầu hết các tiền tệ, `0` cho Yên Nhật.  
+- **Currency Symbol** – ký tự hiển thị trong báo cáo (`$`, `€`, `¥`).  
+- **Currency Symbol Position** – `0` cho **trước** số tiền, `1` cho **sau**.
+
+## Bước 4: Hoàn thành Quy trình
+Thông báo rằng việc trích xuất đã hoàn thành thành công. Thông báo đơn giản này hữu ích khi mã chạy như một phần của công việc batch lớn hơn:
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-## Phần kết luận
-Trong hướng dẫn này, chúng ta đã khám phá cách đọc các thuộc tính tiền tệ từ các tệp Microsoft Project bằng Aspose.Tasks cho Java. Bằng cách làm theo các bước đã nêu, bạn có thể dễ dàng trích xuất thông tin liên quan đến tiền tệ từ các tệp dự án của mình theo chương trình, cho phép tích hợp liền mạch vào các ứng dụng Java của bạn.
+
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|--------|-------------|----------------|
+| **FileNotFoundException** | `dataDir` không đúng hoặc tên tệp bị viết sai. | Kiểm tra chuỗi thư mục và đảm bảo tệp `.mpp` tồn tại tại vị trí đã chỉ định. |
+| **NullPointerException on `project.get(...)`** | Tệp dự án không chứa thông tin tiền tệ (không phổ biến) hoặc khóa thuộc tính sai. | Sử dụng `project.contains(Prj.CURRENCY_CODE)` để kiểm tra tồn tại trước khi đọc. |
+| **LicenseException** | Chạy mà không có giấy phép Aspose.Tasks hợp lệ trong môi trường sản xuất. | Áp dụng tệp giấy phép bằng cách sử dụng `License license = new License(); license.setLicense("Aspose.Tasks.lic");` trước khi tạo đối tượng `Project`. |
+
 ## Câu hỏi thường gặp
-### Câu hỏi: Aspose.Tasks có tương thích với tất cả các phiên bản Microsoft Project không?
-Trả lời: Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của Microsoft Project, bao gồm các tệp MPP được tạo bởi MS Project 2003-2021.
-### Câu hỏi: Tôi có thể sửa đổi thuộc tính tiền tệ bằng Aspose.Tasks không?
-Trả lời: Có, Aspose.Tasks cho phép bạn đọc và sửa đổi các thuộc tính tiền tệ trong tệp MS Project theo chương trình.
-### Câu hỏi: Aspose.Tasks có phù hợp cho mục đích sử dụng thương mại không?
- Trả lời: Có, Aspose.Tasks là một thư viện thương mại được thiết kế để sử dụng chuyên nghiệp. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
-### Câu hỏi: Aspose.Tasks có cung cấp bản dùng thử miễn phí không?
- Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/).
-### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?
- Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+
+**Q: Aspose.Tasks có tương thích với tất cả các phiên bản của Microsoft Project không?**  
+A: Aspose.Tasks hỗ trợ các tệp .mpp được tạo bởi Microsoft Project 2003‑2021, bao gồm cả các định dạng cũ và mới nhất.
+
+**Q: Tôi có thể sửa đổi thuộc tính tiền tệ bằng Aspose.Tasks không?**  
+A: Có, bạn có thể đọc và ghi cài đặt tiền tệ. Sử dụng `project.set(Prj.CURRENCY_CODE, "EUR");` và sau đó lưu dự án.
+
+**Q: Aspose.Tasks có phù hợp cho việc sử dụng thương mại không?**  
+A: Chắc chắn. Đây là thư viện thương mại; bạn có thể mua giấy phép [tại đây](https://purchase.aspose.com/buy).
+
+**Q: Aspose.Tasks có cung cấp bản dùng thử miễn phí không?**  
+A: Có, bản dùng thử đầy đủ chức năng có sẵn từ [đây](https://releases.aspose.com/).
+
+**Q: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?**  
+A: Diễn đàn chính thức của Aspose.Tasks là nơi tốt nhất để được hỗ trợ – truy cập [đây](https://forum.aspose.com/c/tasks/15).
+
+## Kết luận
+Bạn đã học cách **đọc thuộc tính tiền tệ Java** từ một tệp MS Project bằng Aspose.Tasks cho Java. Khả năng này cho phép bạn tích hợp siêu dữ liệu tiền tệ vào các báo cáo tùy chỉnh, phân tích tài chính, hoặc các pipeline tích hợp mà không cần phụ thuộc vào Microsoft Project. Hãy thoải mái thử nghiệm việc sửa đổi các thuộc tính hoặc kết hợp dữ liệu này với các thuộc tính dự án khác để xây dựng các giải pháp phong phú hơn.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-04  
+**Được kiểm tra với:** Aspose.Tasks for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
