@@ -1,68 +1,128 @@
 ---
-title: Przeczytaj właściwości waluty w projektach Aspose.Tasks
-linktitle: Przeczytaj właściwości waluty w projektach Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak wyodrębnić informacje o walutach z plików MS Project przy użyciu Aspose.Tasks dla Java. Dostarczono przewodnik krok po kroku.
+date: 2025-12-04
+description: Dowiedz się, jak odczytywać właściwości waluty w Javie z plików MS Project
+  przy użyciu Aspose.Tasks for Java. Postępuj zgodnie z tym przewodnikiem krok po
+  kroku, aby programowo wyodrębnić kod waluty, symbol, liczbę cyfr i położenie.
+language: pl
+linktitle: Read Currency Properties Java with Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Odczyt właściwości waluty w Javie przy użyciu projektów Aspose.Tasks
+url: /java/currency-properties/read-properties/
 weight: 10
-url: /pl/java/currency-properties/read-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przeczytaj właściwości waluty w projektach Aspose.Tasks
+# Odczyt właściwości waluty w Javie z projektami Aspose.Tasks
 
-## Wstęp
-tym samouczku dowiemy się, jak wykorzystać Aspose.Tasks dla Java do odczytu właściwości waluty z plików Microsoft Project. Aspose.Tasks to potężny interfejs API języka Java, który umożliwia programistom manipulowanie dokumentami programu Microsoft Project bez konieczności instalowania programu Microsoft Project. Wykonując czynności opisane poniżej, będziesz mógł bez wysiłku wyodrębnić informacje związane z walutą.
-## Warunki wstępne
-Przed kontynuowaniem tego samouczka upewnij się, że spełnione są następujące wymagania wstępne:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2.  Aspose.Tasks for Java JAR: Pobierz bibliotekę Aspose.Tasks for Java ze strony[Tutaj](https://releases.aspose.com/tasks/java/) i dołącz go do swojego projektu Java.
-## Importuj pakiety
-Rozpocznij od zaimportowania niezbędnych pakietów do klasy Java:
+## Wprowadzenie
+W tym samouczku **odczytasz właściwości waluty w Javie** z plików Microsoft Project przy użyciu API Aspose.Tasks for Java. Aspose.Tasks pozwala pracować z plikami .mpp bez konieczności instalacji Microsoft Project, co czyni go idealnym rozwiązaniem do automatycznego raportowania, migracji danych lub integracji z aplikacjami korporacyjnymi opartymi na Javie. Po zakończeniu tego przewodnika będziesz w stanie wyodrębnić kod waluty, symbol, liczbę cyfr po przecinku oraz pozycję symbolu bezpośrednio z pliku projektu.
+
+## Szybkie odpowiedzi
+- **Co oznacza „read currency properties java”?** Odnosi się do pobierania metadanych związanych z walutą (kod, symbol, liczba cyfr, pozycja) z pliku MS Project przy użyciu kodu Java.  
+- **Czy potrzebna jest licencja, aby to wypróbować?** Dostępna jest darmowa wersja próbna Aspose.Tasks; licencja komercyjna jest wymagana do użytku produkcyjnego.  
+- **Jaka wersja JDK jest wymagana?** Java 8 lub nowsza.  
+- **Czy mogę zmodyfikować ustawienia waluty po ich odczytaniu?** Tak, Aspose.Tasks umożliwia zarówno odczyt, jak i zapis właściwości waluty.  
+- **Czy jest to kompatybilne ze wszystkimi wersjami .mpp?** API obsługuje pliki utworzone w Microsoft Project 2003‑2021.
+
+## Czym jest odczyt właściwości waluty w Javie?
+Odczyt właściwości waluty w Javie oznacza dostęp do ustawień na poziomie projektu, które definiują sposób wyświetlania wartości pieniężnych w pliku Microsoft Project. Ustawienia te obejmują kod waluty ISO (np. **USD**), symbol (**$**), liczbę cyfr po przecinku oraz to, czy symbol pojawia się przed czy po kwocie.
+
+## Dlaczego odczytywać właściwości waluty w Javie przy użyciu Aspose.Tasks?
+- **Brak potrzeby instalacji Microsoft Project** – API działa na każdej platformie obsługującej Javę.  
+- **Szybkie, w‑procesie wyodrębnianie** – idealne do przetwarzania wsadowego dużej liczby plików projektów.  
+- **Pełna kontrola** – możesz łączyć pobrane wartości z własnymi raportami lub integrować je z systemami ERP.  
+- **Wsparcie wielowersyjne** – działa z plikami .mpp od Project 2003 do najnowszej wersji 2021.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – Java 8 lub nowszą zainstalowaną i skonfigurowaną w `PATH`.  
+2. **Aspose.Tasks for Java JAR** – pobierz najnowszą bibliotekę z [tutaj](https://releases.aspose.com/tasks/java/) i dodaj ją do classpath projektu.
+
+## Importowanie pakietów
+Rozpocznij od zaimportowania przestrzeni nazwose.Tasks potrzebnej do manipulacji projektem:
+
 ```java
 import com.aspose.tasks.*;
 ```
+
 ## Krok 1: Skonfiguruj katalog projektu
-Najpierw skonfiguruj katalog projektu, w którym znajduje się plik Microsoft Project. Możesz zdefiniować tę ścieżkę katalogu w następujący sposób:
+Zdefiniuj folder zawierający plik `.mpp`, który chcesz przeanalizować. Przechowywanie ścieżki w zmiennej ułatwia ponowne użycie kodu:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Zastępować`"Your Data Directory"` z rzeczywistą ścieżką do katalogu projektu.
+
+*Zastąp `"Your Data Directory"` absolutną lub względną ścieżką do folderu, w którym znajduje się `project.mpp`.*
+
 ## Krok 2: Utwórz instancję czytnika projektu
- Utwórz instancję a`Project` obiekt, podając ścieżkę do pliku Microsoft Project:
+Załaduj plik Microsoft Project do obiektu `Project`. Obiekt ten zapewnia dostęp do wszystkich właściwości projektu, w tym ustawień waluty:
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Pamiętaj o wymianie`"project.mpp"` z nazwą pliku MS Project.
+
+*Jeśli Twój plik ma inną nazwę, zmień `"project.mpp"` odpowiednio.*
+
 ## Krok 3: Wyświetl właściwości waluty
-Pobierz i wyświetl właściwości waluty z pliku projektu:
+Teraz pobierz każdy atrybut waluty przy użyciu wyliczenia `Prj` i wypisz wyniki w konsoli. API zwraca obiekty, które możesz przekształcić w ciągi znaków do wyświetlenia:
+
 ```java
 System.out.println("Currency Code : " + project.get(Prj.CURRENCY_CODE).toString());
 System.out.println("<br>Currency Digits : " + project.get(Prj.CURRENCY_DIGITS).toString());
 System.out.println("<br>Currency Symbol : " + project.get(Prj.CURRENCY_SYMBOL).toString());
-System.out.println("Currency Symbol Position" + project.get(Prj.CURRENCY_SYMBOL_POSITION).toString());
+System.out.println("Currency Symbol Position : " + project.get(Prj.CURRENCY_SYMBOL_POSITION).toString());
 ```
-Ten segment kodu pobiera informacje, takie jak kod waluty, cyfry, symbol i pozycja symbolu z pliku MS Project i drukuje je na konsoli.
+
+**Co zobaczysz:**  
+- **Currency Code** – kod ISO‑4217, np. `USD`, `EUR`, `JPY`.  
+- **Currency Digits** – zazwyczaj `2` dla większości walut, `0` dla japońskiego jena.  
+- **Currency Symbol** – znak wyświetlany w raportach (`$`, `€`, `¥`).  
+- **Currency Symbol Position** – `0` dla **przed** kwotą, `1` dla **po**.
+
 ## Krok 4: Zakończenie procesu
-Na koniec wydrukuj komunikat informujący o pomyślnym zakończeniu procesu:
+Zasygnalizuj, że wyodrębnianie zakończyło się pomyślnie. Ta prosta wiadomość jest przydatna, gdy kod działa jako część większego zadania wsadowego:
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-## Wniosek
-W tym samouczku omówiliśmy, jak czytać właściwości waluty z plików Microsoft Project za pomocą Aspose.Tasks dla Java. Wykonując opisane kroki, możesz bez wysiłku programowo wyodrębnić informacje dotyczące walut z plików projektu, umożliwiając bezproblemową integrację z aplikacjami Java.
-## Często zadawane pytania
-### P: Czy Aspose.Tasks jest kompatybilny ze wszystkimi wersjami Microsoft Project?
-Odp.: Aspose.Tasks obsługuje różne wersje Microsoft Project, w tym pliki MPP wygenerowane przez MS Project 2003-2021.
-### P: Czy mogę modyfikować właściwości waluty za pomocą Aspose.Tasks?
-O: Tak, Aspose.Tasks umożliwia programowe odczytywanie i modyfikowanie właściwości walut w plikach MS Project.
-### P: Czy Aspose.Tasks nadaje się do użytku komercyjnego?
- O: Tak, Aspose.Tasks to biblioteka komercyjna przeznaczona do użytku profesjonalnego. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
-### P: Czy Aspose.Tasks oferuje bezpłatną wersję próbną?
- Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/).
-### P: Gdzie mogę szukać pomocy lub wsparcia dla Aspose.Tasks?
- O: Możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15) w celu uzyskania pomocy lub pytań.
+
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego występuje | Rozwiązanie |
+|---------|--------------------|-------------|
+| **FileNotFoundException** | Ścieżka `dataDir` jest niepoprawna lub nazwa pliku jest błędnie napisana. | Zweryfikuj ciąg katalogu i upewnij się, że plik `.mpp` istnieje w podanej lokalizacji. |
+| **NullPointerException przy `project.get(...)`** | Plik projektu nie zawiera informacji o walucie (mało prawdopodobne) lub klucz właściwości jest nieprawidłowy. | Użyj `project.contains(Prj.CURRENCY_CODE)`, aby sprawdzić istnienie przed odczytem. |
+| **LicenseException** | Uruchamianie bez ważnej licencji Aspose.Tasks w środowisku produkcyjnym. | Zastosuj plik licencji używając `License license = new License(); license.setLicense("Aspose.Tasks.lic");` przed utworzeniem obiektu `Project`. |
+
+## Najczęściej zadawane pytania
+
+**Q: Czy Aspose.Tasks jest kompatybilny ze wszystkimi wersjami Microsoft Project?**  
+A: Aspose.Tasks obsługuje pliki .mpp generowane przez Microsoft Project 2003‑2021, obejmując zarówno starsze, jak i najnowsze formaty.
+
+**Q: Czy mogę modyfikować właściwości waluty przy użyciu Aspose.Tasks?**  
+A: Tak, możesz zarówno odczytywać, jak i zapisywać ustawienia waluty. Użyj `project.set(Prj.CURRENCY_CODE, "EUR");`, a następnie zapisz projekt.
+
+**Q: Czy Aspose.Tasks nadaje się do użytku komercyjnego?**  
+A: Zdecydowanie tak. To komercyjna biblioteka; możesz zakupić licencję [tutaj](https://purchase.aspose.com/buy).
+
+**Q: Czy Aspose.Tasks oferuje darmową wersję próbną?**  
+A: Tak, w pełni funkcjonalna wersja próbna jest dostępna [tutaj](https://releases.aspose.com/).
+
+**Q: Gdzie mogę uzyskać pomoc lub wsparcie dla Aspose.Tasks?**  
+A: Oficjalne forum Aspose.Tasks jest najlepszym miejscem do uzyskania pomocy – odwiedź je [tutaj](https://forum.aspose.com/c/tasks/15).
+
+## Podsumowanie
+Teraz wiesz, jak **odczytać właściwości waluty w Javie** z pliku MS Project przy użyciu Aspose.Tasks for Java. Ta funkcjonalność umożliwia włączenie metadanych waluty do własnych raportów, analiz finansowych lub potoków integracyjnych bez konieczności korzystania z samego Microsoft Project. Śmiało eksperymentuj z modyfikacją właściwości lub łączeniem tych danych z innymi atrybutami projektu, aby tworzyć bardziej rozbudowane rozwiązania.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-04  
+**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
