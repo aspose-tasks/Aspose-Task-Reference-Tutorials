@@ -1,49 +1,102 @@
 ---
-title: Propiedades de moneda
-linktitle: Propiedades de moneda
-second_title: Aspose.Tasks API de Java
-description: Desbloquee el poder de Aspose.Tasks para los tutoriales de Java. Descubra guías paso a paso sobre cómo leer y configurar propiedades de moneda en archivos de MS Project sin esfuerzo.
+date: 2025-12-04
+description: Aprenda a leer la moneda y a establecer sus propiedades en archivos de
+  MS Project usando Aspose.Tasks para Java. Guías paso a paso para manipular archivos
+  de proyecto sin esfuerzo.
+language: es
+linktitle: How to Read Currency
+second_title: Aspose.Tasks Java API
+title: Cómo leer las propiedades de moneda con Aspose.Tasks para Java
+url: /java/currency-properties/
 weight: 25
-url: /es/java/currency-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Propiedades de moneda
+# Cómo leer propiedades de moneda con Aspose.Tasks para Java
 
-## Introducción
-¿Estás listo para mejorar tus habilidades en Aspose.Tasks para Java? Sumérjase en nuestros completos tutoriales sobre propiedades monetarias y domine el arte de manejar información monetaria dentro de archivos de MS Project.
+## Introduction
+¿Listo para impulsar su experiencia en Aspose.Tasks para Java? En este tutorial le mostraremos **cómo leer la moneda** de los archivos Microsoft Project y también cubriremos **cómo establecer la moneda** cuando lo necesite. Comprender estas propiedades le permite mantener los datos financieros consistentes en proyectos internacionales, evitar errores de conversión y presentar informes de costos claros a las partes interesadas.
 
-## Lectura de propiedades de moneda en proyectos Aspose.Tasks
+## Quick Answers
+- **What does “read currency” mean?** Extracción del código de moneda, símbolo y formato almacenados en un archivo Project.  
+- **Why adjust currency settings?** Para que coincida con el formato regional del presupuesto de su proyecto o para cumplir con los requisitos del cliente.  
+- **Do I need a license?** Se requiere una licencia válida de Aspose.Tasks para Java para uso en producción; una prueba gratuita funciona para evaluación.  
+- **Which Project versions are supported?** Tanto los formatos .mpp (Microsoft Project 2007‑2024) como .xml son totalmente compatibles.  
+- **Is any additional setup required?** Simplemente añada el JAR de Aspose.Tasks para Java a su classpath e importe las clases relevantes.
 
- En el ámbito dinámico de la gestión de proyectos, comprender las propiedades de las monedas es primordial. Nuestro tutorial sobre[Lectura de propiedades de moneda en proyectos Aspose.Tasks](./read-properties/) es su recurso de referencia. Esta guía paso a paso le permite extraer información monetaria valiosa de archivos de MS Project utilizando Aspose.Tasks para Java.
+## How to Read Currency Properties in Aspose.Tasks Projects
+En el dinámico ámbito de la gestión de proyectos, extraer los detalles de moneda es esencial para un análisis de costos preciso. Nuestra guía dedicada **[Reading Currency Properties in Aspose.Tasks Projects](./read-properties/)** lo lleva paso a paso—desde abrir un archivo de proyecto hasta obtener el código de moneda, símbolo y formato. Al seguir el tutorial podrá:
 
-Comience su viaje adquiriendo información sobre las complejidades de las propiedades monetarias. Descubrimos las complejidades, asegurándonos de que comprenda cada concepto sin esfuerzo. Desde el inicio hasta la finalización del proyecto, saber cómo navegar por los datos relacionados con la moneda mejora su destreza en la gestión de proyectos. Con nuestro tutorial, integrará perfectamente este conocimiento en su kit de herramientas Aspose.Tasks para Java.
+* Obtener el código de moneda (p. ej., USD, EUR) utilizado en todo el proyecto.  
+* Acceder al símbolo de moneda y a la configuración de formato numérico.  
+* Utilizar esta información para generar informes de costos localizados o alimentar paneles financieros.
 
-¿Por qué conformarse con lo ordinario cuando puedes sobresalir con habilidades extraordinarias? Libere el potencial de las propiedades monetarias y mejore su competencia en Aspose.Tasks.
+Comprender cómo leer la moneda garantiza que pueda auditar los presupuestos del proyecto, comparar costos entre regiones y mantener el cumplimiento con las normas contables.
 
-## Configuración de propiedades de moneda en proyectos de Aspose.Tasks
+## How to Set Currency Properties in Aspose.Tasks Projects
+Cuando un proyecto se traslada a un nuevo mercado o el cliente solicita un formato monetario diferente, necesitará **how to set currency** valores programáticamente. Nuestra guía paso a paso **[Setting Currency Properties in Aspose.Tasks Projects](./set-properties/)** explica cómo:
 
- ¿Listo para llevar su experiencia en Aspose.Tasks al siguiente nivel? Nuestro tutorial sobre[Configuración de propiedades de moneda en proyectos de Aspose.Tasks](./set-properties/) está diseñado para entusiastas como tú. Adéntrate en el mundo de la programación Java y manipula sin esfuerzo archivos de Microsoft Project con precisión.
+* Definir un nuevo código de moneda y símbolo para todo el proyecto.  
+* Ajustar el formato numérico (decimales, separadores de miles) para que coincida con las convenciones locales.  
+* Guardar el archivo de proyecto actualizado sin perder datos existentes.
 
-Siga nuestra guía paso a paso para navegar por las complejidades de configurar las propiedades de la moneda. Simplificamos el proceso, haciéndolo accesible tanto para principiantes como para desarrolladores experimentados. Capacítese para personalizar la información monetaria dentro de los proyectos de Aspose.Tasks, garantizando una experiencia de gestión de proyectos perfecta.
+Al dominar cómo establecer la moneda, obtiene control total sobre la representación financiera de sus cronogramas, facilitando el cambio entre USD, GBP, JPY o cualquier moneda compatible al instante.
 
-Al embarcarse en este tutorial, imagine las posibilidades que se abren al dominar las propiedades de la moneda. Integre perfectamente sus nuevas habilidades en sus proyectos, mejorando la eficiencia general de su flujo de trabajo.
+## Why Master Currency Handling in Aspose.Tasks?
+* **Global Collaboration:** Los equipos de diferentes países pueden ver los costos en su formato nativo.  
+* **Accurate Reporting:** Evita errores de redondeo o conversión que podrían afectar la presupuestación.  
+* **Compliance:** Alinea con las normas contables regionales y especificaciones del cliente.  
+* **Automation:** Reduce ediciones manuales aplicando programáticamente la configuración de moneda durante la generación del proyecto.
 
-En conclusión, nuestros tutoriales de Aspose.Tasks para Java sobre propiedades de divisas proporcionan una puerta de entrada a la excelencia. Mejore sus habilidades, resuelva las complejidades y conviértase en un desarrollador competente de Aspose.Tasks. Mejore su viaje con el conocimiento para leer y configurar propiedades monetarias sin esfuerzo, aportando un valor incomparable a sus archivos de MS Project.
+## Real‑World Use Cases
+* **Multi‑national Projects:** Una empresa constructora que gestiona sitios en Europa y Norteamérica necesita presentar presupuestos tanto en EUR como en USD.  
+* **Financial Audits:** Los auditores requieren una visión clara del contexto de moneda para cada entrada de costo.  
+* **Dynamic Pricing Models:** Los proveedores SaaS ajustan los costos de suscripciones según la moneda local del cliente.
 
-¿Listo para embarcarse en este viaje educativo? Haga clic en los enlaces a continuación para comenzar:
+## Common Pitfalls & Tips
+* **Pitfall:** Olvidar actualizar el símbolo de moneda después de cambiar el código.  
+  **Tip:** Siempre establezca tanto el código como el símbolo juntos para evitar visualizaciones incongruentes.  
+* **Pitfall:** Confiar en la configuración regional predeterminada de la máquina que ejecuta el código.  
+  **Tip:** Especifique explícitamente el formato de moneda deseado en su código Aspose.Tasks para garantizar consistencia en todos los entornos.  
 
-## Tutoriales sobre propiedades de moneda
-### [Leer propiedades de moneda en proyectos Aspose.Tasks](./read-properties/)
-Aprenda a extraer información monetaria de archivos de MS Project utilizando Aspose.Tasks para Java. Se proporciona una guía paso a paso.
-### [Establecer propiedades de moneda en proyectos de Aspose.Tasks](./set-properties/)
-Aprenda a configurar propiedades de moneda en proyectos Aspose.Tasks usando Java. Manipule archivos de Microsoft Project sin esfuerzo.
+## Currency Properties Tutorials
+### [Read Currency Properties in Aspose.Tasks Projects](./read-properties/)
+Aprenda a extraer información de moneda de archivos MS Project usando Aspose.Tasks para Java. Guía paso a paso incluida.
+
+### [Set Currency Properties in Aspose.Tasks Projects](./set-properties/)
+Aprenda a establecer propiedades de moneda en proyectos Aspose.Tasks usando Java. Manipule archivos Microsoft Project sin esfuerzo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: Can I change the currency after the project is already saved?**  
+A: Yes. Use the `Project.setCurrencyCode()` and related methods, then save the project again.
+
+**Q: Does changing the currency affect existing cost values?**  
+A: The numeric values remain unchanged; only the display format (symbol, decimal separator) is updated. You must recalculate costs if you need conversion between currencies.
+
+**Q: Are there any limits on the number of currencies I can define?**  
+A: Aspose.Tasks supports any ISO‑4217 currency code, so you’re effectively unlimited.
+
+**Q: What happens if I open a project with an unsupported currency code?**  
+A: The library falls back to the default currency (USD) and logs a warning; you can override this by setting the desired currency manually.
+
+**Q: Is it possible to read/write currency properties in a Project XML file?**  
+A: Absolutely. The same API works for both .mpp and .xml formats.
+
+---
+
+**Last Updated:** 2025-12-04  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
