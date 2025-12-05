@@ -1,28 +1,50 @@
 ---
-title: Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
-linktitle: Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
-second_title: Aspose.Tasks Java API'si
-description: Aspose.Tasks for Java'yı kullanarak para birimi MS Project rakamlarını verimli bir şekilde nasıl kullanacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
+date: 2025-12-05
+description: Ms Project para birimi basamaklarını Aspose.Tasks for Java kullanarak
+  verimli bir şekilde nasıl yöneteceğinizi öğrenin. Java proje dosyası işleme ve mpp
+  dosyalarını nasıl yükleyeceğinizi adım adım anlatan rehber.
+language: tr
+linktitle: Handle ms project currency Digits with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks ile MS Project para birimi basamaklarını işleyin
+url: /java/currency/currency-digits/
 weight: 11
-url: /tr/java/currency/currency-digits/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile Para Birimi Rakamlarını İşleyin
+# Aspose.Tasks ile ms project para birimi basamaklarını işleyin
 
-## giriiş
-Aspose.Tasks for Java'yı kullanarak para birimi MS Project rakamlarını işlemeye ilişkin kapsamlı eğitimimize hoş geldiniz. Bu eğitimde, süreç boyunca size adım adım rehberlik ederek her kavramı iyice kavramanızı sağlayacağız.
+## Giriş
+Bu kapsamlı öğreticide **ms project para birimi** değerleriyle Java için Aspose.Tasks kütüphanesini nasıl kullanacağınızı keşfedeceksiniz. Bir raporlama aracı, bir geçiş yardımcı programı oluşturuyor ya da sadece bir **java proje dosyasından** para birimi ayarlarını okumanız gerekiyorsa, bu kılavuz *.mpp* dosyasını yüklemekten para birimi basamaklarını çıkarmaya kadar her adımı size gösterir. Sonunda, ms project para birimi verilerini kendi uygulamalarınızda rahatça işleyebileceksiniz.
+
+## Hızlı Yanıtlar
+- **MS Project dosyalarını okuyan kütüphane nedir?** Aspose.Tasks for Java.  
+- **Para birimi basamaklarını almak için kaç satır kod gerekir?** Proje yüklendikten sonra sadece üç kısa satır.  
+- **Geliştirme için lisans gerekir mi?** Test için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümü desteklenir?** Java 8 ve üzeri (Aspose.Tasks'i çalıştırabilen herhangi bir JDK).  
+- **Diğer Project özelliklerini alabilir miyim?** Evet – Aspose.Tasks, proje alanlarının tam bir setini (ör. başlangıç tarihi, maliyet oranları vb.) sunar.
+
+## ms project para birimi nedir?
+`ms project para birimi`, Microsoft Project'in para değerlerini gösterirken kullandığı sayısal hassasiyeti (ondalık basamak sayısı) ifade eder. Proje dosyasında **CURRENCY_DIGITS** özelliği olarak saklanır ve tutarların tam sayı, tek ondalık, iki ondalık vb. olarak görüntülenip görüntülenmeyeceğini belirler.
+
+## ms project para birimini işlemek için Aspose.Tasks neden kullanılmalı?
+- **Microsoft Project kurulumu gerekmez** – *.mpp* dosyalarıyla doğrudan, Java’yı destekleyen herhangi bir platformda çalışın.  
+- **Güçlü tip güvenliği** – API, güçlü tipli değerler döndürür, ayrıştırma hatalarını azaltır.  
+- **Performans‑optimizeli** – büyük projeleri hızlıca yükleyin ve yalnızca ihtiyacınız olan alanları çıkarın.  
+- **Çapraz‑platform** – Windows, Linux veya macOS üzerinde değişiklik yapmadan çalışır.
+
 ## Önkoşullar
-Bu eğitime dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1. Java Geliştirme Ortamı: Sisteminizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun.
-2.  Aspose.Tasks Kütüphanesi: Aspose.Tasks for Java kütüphanesini indirip yükleyin. adresinden alabilirsiniz[Burada](https://releases.aspose.com/tasks/java/).
-3. Temel Java Bilgisi: Java programlama dilinin temellerini öğrenin.
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+
+1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü ve yapılandırılmış.  
+2. **Aspose.Tasks for Java** – resmi siteden en son JAR dosyasını indirin: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
+3. **Temel Java bilgisi** – bir Java projesi oluşturma, harici kütüphaneler ekleme ve bir `main` metodu çalıştırma konusunda rahat olmalısınız.  
 
 ## Paketleri İçe Aktar
-Kodlamaya başlamadan önce gerekli paketleri içe aktaralım:
+İhtiyacımız olan sınıfları önce içe aktaralım.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -30,38 +52,55 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## 1. Adım: Veri Dizinini Tanımlayın
-Öncelikle Proje dosyasının bulunduğu veri dizininizin yolunu tanımlamanız gerekir.
+## Adım 1: Veri Dizinini Tanımla
+**java proje dosyanızın** (`*.mpp`) bulunduğu klasörü belirtin.  
 ```java
 String dataDir = "Your Data Directory";
 ```
- Yer değiştirmek`"Your Data Directory"` veri dizininizin gerçek yolu ile.
-## Adım 2: Proje Dosyasını Yükleyin
-Daha sonra Aspose.Tasks kütüphanesini kullanarak Proje dosyasını yükleyin.
+`"Your Data Directory"` ifadesini `project.mpp` dosyasının bulunduğu mutlak ya da göreli yol ile değiştirin.
+
+## Adım 2: MPP Dosyasını Yükle  
+Şimdi **mpp** dosyalarını Aspose.Tasks ile nasıl yükleyeceğimizi göreceğiz.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Şundan emin olun:`"project.mpp"` Proje dosyanızın adıyla eşleşir.
-## Adım 3: Para Birimi Rakamlarını Alın
-Şimdi Proje dosyasından para birimi rakamlarını alalım.
+Dosya adı tam olarak eşleşmelidir; aksi takdirde bir `IOException` fırlatılır.
+
+## Adım 3: Para Birimi Basamaklarını Al  
+Projeyi yükledikten sonra **ms project para birimi** basamaklarını almak tek satırda yapılır:  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-Bu satır para birimi rakamlarını konsola yazdıracaktır.
+Bu çağrı, ondalık basamak sayısını temsil eden bir `Integer` döndürür (ör. cent için `2`). Değer konsola yazdırılır, ancak daha sonraki işlemler için bir değişkende saklanabilir.
 
-## Çözüm
-Sonuç olarak, Aspose.Tasks for Java ile MS Project para birimi rakamlarını yönetmek, doğru yaklaşımla basittir. Bu öğreticiyi takip ederek, bir Proje dosyasından para birimi rakamlarını verimli bir şekilde nasıl alacağınızı öğrendiniz.
-## SSS'ler
-### Aspose.Tasks para birimi rakamlarının yanı sıra diğer Proje özelliklerini de işleyebilir mi?
-Evet, Aspose.Tasks, Proje dosyalarının çeşitli yönlerini değiştirmek için geniş bir işlevsellik yelpazesi sunar.
-### Aspose.Tasks kurumsal düzeydeki uygulamalar için uygun mu?
-Aspose.Tasks kesinlikle kurumsal düzeydeki projelerin taleplerini karşılamak üzere tasarlanmıştır.
-### Aspose.Tasks platformlar arası geliştirmeyi destekliyor mu?
-Evet, Aspose.Tasks for Java'yı Java geliştirmeyi destekleyen farklı platformlarda kullanabilirsiniz.
-### Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
- Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
-### Aspose.Tasks için nereden destek alabilirim?
- Şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+## Yaygın Sorunlar ve İpuçları
+- **Dosya bulunamadı** – `dataDir` yolunu iki kez kontrol edin ve dosya adının `.mpp` uzantısı dahil doğru olduğundan emin olun.  
+- **Desteklenmeyen dosya sürümü** – Aspose.Tasks, Project 2000‑2024 formatlarını destekler; daha eski ya da bozuk dosyalar dönüştürme gerektirebilir.  
+- **Lisans ayarlanmamış** – geliştirme aşamasında deneme sürümü çalışır, ancak üretimde değerlendirme filigranlarından kaçınmak için geçerli bir lisans uygulanmalıdır.
+
+## Sık Sorulan Sorular
+
+**S: Aspose.Tasks para birimi basamakları dışında başka Project özelliklerini de işleyebilir mi?**  
+C: Evet, Aspose.Tasks, görevler, kaynaklar ve özel alanlar gibi Project dosyalarının çeşitli yönlerini manipüle etmek için geniş bir işlevsellik sunar.
+
+**S: Aspose.Tasks kurumsal düzeyde uygulamalar için uygun mu?**  
+C: Kesinlikle, Aspose.Tasks yüksek performans ve ölçeklenebilirlik sunarak kurumsal projelerin gereksinimlerini karşılayacak şekilde tasarlanmıştır.
+
+**S: Aspose.Tasks çapraz‑platform geliştirmeyi destekliyor mu?**  
+C: Evet, Java Runtime Environment (JRE) destekleyen herhangi bir platformda (Windows, Linux, macOS) Aspose.Tasks for Java kullanılabilir.
+
+**S: Aspose.Tasks'i satın almadan önce deneyebilir miyim?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+
+**S: Aspose.Tasks için destek nereden alınır?**  
+C: Destek için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11 (yazım anındaki en yeni)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

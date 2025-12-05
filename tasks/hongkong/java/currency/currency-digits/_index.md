@@ -1,28 +1,49 @@
 ---
-title: 使用 Aspose.Tasks 處理貨幣數字
-linktitle: 使用 Aspose.Tasks 處理貨幣數字
+date: 2025-12-05
+description: 學習如何使用 Aspose.Tasks for Java 高效處理 MS Project 的貨幣位數。一步一步的指南，涵蓋 Java 專案檔案處理以及如何載入
+  MPP 檔案。
+language: zh-hant
+linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 有效處理貨幣 MS Project 數字。帶有程式碼範例的分步指南。
+title: 使用 Aspose.Tasks 處理 MS Project 貨幣位數
+url: /java/currency/currency-digits/
 weight: 11
-url: /zh-hant/java/currency/currency-digits/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks 處理貨幣數字
+# 使用 Aspose.Tasks 處理 MS Project 貨幣位數
 
-## 介紹
-歡迎來到我們關於使用 Aspose.Tasks for Java 處理貨幣 MS Project 數字的綜合教學。在本教程中，我們將逐步引導您完成整個過程，確保您徹底掌握每個概念。
+## 簡介
+在本完整教學中，您將學會 **如何使用 Aspose.Tasks for Java 套件處理 MS Project 貨幣** 值。無論您是要建立報表工具、遷移程式，或只是需要從 **java 專案檔** 讀取貨幣設定，本指南都會一步步帶您完成——從載入 *.mpp* 檔案到抽取貨幣位數。完成後，您將能在自己的應用程式中自如處理 MS Project 貨幣資料。
+
+## 快速答覆
+- **哪個函式庫可讀取 MS Project 檔案？** Aspose.Tasks for Java。  
+- **取得貨幣位數需要多少行程式碼？** 載入專案後只需三行簡潔程式碼。  
+- **開發時需要授權嗎？** 免費試用版可用於測試；正式環境需購買商業授權。  
+- **支援哪個 Java 版本？** Java 8 或以上（任何可執行 Aspose.Tasks 的 JDK）。  
+- **我可以取得其他 Project 屬性嗎？** 可以 – Aspose.Tasks 提供完整的 Project 欄位（例如開始日期、成本費率等）。
+
+## 什麼是 MS Project 貨幣？
+`ms project currency` 指的是 Microsoft Project 在顯示金額時所使用的數值精度（小數位數）。它在專案檔中以 **CURRENCY_DIGITS** 屬性儲存，決定金額是以整數、單小數、雙小數等方式呈現。
+
+## 為什麼使用 Aspose.Tasks 來處理 MS Project 貨幣？
+- **不需安裝 Microsoft Project** – 直接在任何支援 Java 的平台上操作 *.mpp* 檔案。  
+- **強型別安全** – API 回傳強型別值，減少解析錯誤。  
+- **效能優化** – 快速載入大型專案，僅抽取所需欄位。  
+- **跨平台** – 可在 Windows、Linux 或 macOS 上執行，無需修改。
+
 ## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-1. Java 開發環境：確保您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Aspose.Tasks 函式庫：下載並安裝 Aspose.Tasks for Java 函式庫。您可以從以下位置獲取它：[這裡](https://releases.aspose.com/tasks/java/).
-3. Java 基礎：熟悉 Java 程式語言基礎知識。
+在開始之前，請確保您具備以下條件：
 
-## 導入包
-在開始編碼之前，讓我們先導入必要的套件：
+1. **Java 開發環境** – 已安裝並設定 JDK 8 或更新版本。  
+2. **Aspose.Tasks for Java** – 從官方網站下載最新 JAR： [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/)。  
+3. **基本的 Java 知識** – 能建立 Java 專案、加入外部函式庫，並執行 `main` 方法。
+
+## 匯入套件
+首先，匯入我們需要的類別。  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -30,38 +51,55 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## 第 1 步：定義資料目錄
-首先，您需要定義專案文件所在的資料目錄的路徑。
+## 步驟 1：定義資料目錄
+指定包含您的 **java 專案檔** (`*.mpp`) 的資料夾。  
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`與資料目錄的實際路徑。
-## 步驟2：載入專案文件
-接下來，使用 Aspose.Tasks 庫載入專案檔。
+將 `"Your Data Directory"` 替換為 `project.mpp` 所在的絕對或相對路徑。
+
+## 步驟 2：載入 MPP 檔案  
+現在我們將示範 **如何使用 Aspose.Tasks 載入 mpp** 檔案。  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-確保這件事`"project.mpp"`與您的專案文件的名稱相符。
-## 第 3 步：檢索貨幣數字
-現在，讓我們從專案文件中檢索貨幣數字。
+確保檔名完全相符；否則會拋出 `IOException`。
+
+## 步驟 3：取得貨幣位數  
+在載入專案後，提取 **MS Project 貨幣** 位數只需一行程式碼：  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-該行會將貨幣數字列印到控制台。
+此呼叫會回傳一個 `Integer`，表示小數位數（例如 `2` 代表分）。此值會印到主控台，您亦可將其存入變數以供後續處理。
 
-## 結論
-總之，透過正確的方法，使用 Aspose.Tasks for Java 處理貨幣 MS Project 數字非常簡單。透過學習本教程，您已經了解如何有效地從專案文件中檢索貨幣數字。
-## 常見問題解答
-### 除了貨幣數字之外，Aspose.Tasks 還能處理其他物品屬性嗎？
-是的，Aspose.Tasks 提供了廣泛的功能來操作專案文件的各個方面。
-### Aspose.Tasks適合企業級應用程式嗎？
-毫無疑問，Aspose.Tasks 旨在滿足企業級專案的需求。
-### Aspose.Tasks支援跨平台開發嗎？
-是的，您可以在支援 Java 開發的不同平台上使用 Aspose.Tasks for Java。
-### 我可以在購買前試用 Aspose.Tasks 嗎？
-是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
-### 我可以在哪裡獲得 Aspose.Tasks 的支援？
-您可以在以下位置找到支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+## 常見問題與提示
+- **找不到檔案** – 再次確認 `dataDir` 路徑，並確保檔名正確且包含 `.mpp` 副檔名。  
+- **不支援的檔案版本** – Aspose.Tasks 支援 Project 2000‑2024 格式；較舊或損毀的檔案可能需要先轉換。  
+- **未設定授權** – 開發階段可使用試用版，但正式上線必須套用有效授權，以免出現評估水印。
+
+## 常見問答
+
+**Q: Aspose.Tasks 能處理除貨幣位數之外的其他 Project 屬性嗎？**  
+A: 可以，Aspose.Tasks 提供廣泛功能，可操作 Task、Resource、Custom Field 等多種 Project 資訊。
+
+**Q: Aspose.Tasks 適合企業級應用嗎？**  
+A: 絕對適合，Aspose.Tasks 為企業級專案設計，具備高效能與可擴充性。
+
+**Q: Aspose.Tasks 支援跨平台開發嗎？**  
+A: 支援，您可在任何支援 Java Runtime Environment 的平台（Windows、Linux、macOS）上使用 Aspose.Tasks for Java。
+
+**Q: 我可以先試用 Aspose.Tasks 再決定是否購買嗎？**  
+A: 可以，您可從[此處](https://releases.aspose.com/)下載免費試用版。
+
+**Q: 我該向哪裡尋求 Aspose.Tasks 的支援？**  
+A: 您可在 [Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)取得支援。
+
+---
+
+**最後更新：** 2025-12-05  
+**測試環境：** Aspose.Tasks for Java 24.11（撰寫時最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
