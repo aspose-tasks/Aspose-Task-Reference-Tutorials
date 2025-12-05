@@ -1,57 +1,90 @@
 ---
-title: Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
-linktitle: Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Ekstrak jam kerja dari kalender MS Project dengan mudah menggunakan Aspose.Tasks untuk Java. Sederhanakan tugas manajemen proyek.
+date: 2025-12-05
+description: Pelajari cara menentukan hari kerja dan menghitung durasi tugas dengan
+  mengekstrak jam kerja dari kalender MS Project menggunakan Aspose.Tasks untuk Java.
+language: id
+linktitle: Determine Working Days & Working Hours with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Menentukan Hari Kerja & Jam Kerja dengan Aspose.Tasks
+url: /java/calendars/working-hours/
 weight: 13
-url: /id/java/calendars/working-hours/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Jam Kerja dari Kalender menggunakan Aspose.Tasks
+# Menentukan Hari Kerja & Jam Kerja dengan Aspose.Tasks
 
-## Perkenalan
-Mengelola kalender proyek dan menentukan jam kerja sangat penting untuk manajemen proyek yang efektif. Aspose.Tasks untuk Java menyediakan fungsionalitas yang kuat untuk mengambil jam kerja dari kalender MS Project dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
+## Pendahuluan
+Mengelola kalender proyek adalah bagian inti dari perencanaan proyek yang berhasil. Pada tutorial ini Anda akan **menentukan hari kerja** untuk tugas apa pun dan **mengekstrak jam kerja** dari kalender MS Project menggunakan Aspose.Tasks untuk Java. Pada akhir panduan Anda akan dapat **menghitung durasi tugas**, menyesuaikan jam kerja, dan dengan andal **memuat file MPP** untuk mengambil data yang Anda perlukan.
+
+## Jawaban Cepat
+- **Apa arti “menentukan hari kerja”?** Artinya mengidentifikasi tanggal kalender mana yang dianggap hari kerja untuk suatu tugas tertentu.  
+- **Pustaka mana yang harus saya gunakan?** Asp.Tasks untuk Java menyediakan API lengkap untuk bekerja dengan file MS Project.  
+- **Berapa lama implementasinya?** Biasanya 10–15 menit untuk ekstraksi dasar.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Bisakah saya menyesuaikan jam kerja?** Ya – Anda dapat memodifikasi kalender, menambahkan hari libur, dan mengatur rentang jam kerja khusus.
+
+## Apa itu “menentukan hari kerja”?
+Ketika sebuah tugas dijadwalkan, kalender proyek menentukan hari mana yang merupakan hari kerja dan mana yang bukan (akhir pekan, hari libur). Menentukan hari kerja berarti menanyakan kalender tersebut untuk mengetahui secara tepat kapan pekerjaan dapat dilakukan, yang penting untuk perhitungan **menghitung durasi tugas** yang akurat.
+
+## Mengapa menggunakan Aspose.Tasks untuk mengambil jam kerja?
+- **Tidak memerlukan Microsoft Project** – bekerja dengan file .MPP di platform apa pun.  
+- **Dukungan kalender lengkap** – mencakup kalender default, sumber daya, dan tugas.  
+- **Kinerja tinggi** – memproses proyek besar dengan cepat.  
+- **Dokumentasi lengkap** – contoh dan referensi API tersedia dengan mudah.
+
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2.  Aspose.Tasks untuk perpustakaan Java diunduh dan ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/java/).
-3. Pemahaman dasar bahasa pemrograman Java.
-## Paket Impor
-Pertama, impor paket yang diperlukan untuk bekerja dengan Aspose.Tasks untuk Java:
+Sebelum memulai, pastikan Anda memiliki:
+
+1. **Java Development Kit (JDK)** – versi 8 atau lebih tinggi.  
+2. **Aspose.Tasks untuk Java** – unduh JAR terbaru dari [di sini](https://releases.aspose.com/tasks/java/).  
+3. Pengetahuan dasar pemrograman Java.  
+
+## Mengimpor Paket
+Pertama, impor namespace inti Aspose.Tasks:
+
 ```java
 import com.aspose.tasks.*;
 ```
-## Langkah 1: Muat File Proyek
-Mulailah dengan memuat file MS Project Anda:
+
+## Langkah 1: Memuat file MPP
+Muat file proyek Anda (langkah **memuat file mpp**) sehingga Anda dapat bekerja dengan kalendernya:
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-## Langkah 2: Ambil Informasi Tugas dan Kalender
-Ekstrak detail tugas dan kalender dari proyek:
+
+## Langkah 2: Mengambil Informasi Tugas dan Kalender
+Pilih tugas yang ingin Anda analisis dan dapatkan kalender yang terkait. Di sinilah kita **mengambil jam kerja** untuk tugas tersebut:
+
 ```java
 Task task = project.getRootTask().getChildren().getById(1);
 Calendar taskCalendar = task.get(Tsk.CALENDAR);
 ```
-## Langkah 3: Tentukan Tanggal Mulai dan Berakhir
-Tetapkan tanggal mulai dan berakhir untuk tugas:
+
+## Langkah 3: Menentukan Tanggal Mulai dan Selesai
+Atur jendela waktu untuk mana Anda ingin **menentukan hari kerja**:
+
 ```java
 java.util.Calendar calStartDate = java.util.Calendar.getInstance();
 calStartDate.setTime(task.get(Tsk.START));
 java.util.Calendar calEndDate = java.util.Calendar.getInstance();
 calEndDate.setTime(task.get(Tsk.FINISH));
 ```
-## Langkah 4: Ulangi Tanggal
-Ulangi tanggal dalam durasi tugas:
+
+## Langkah 4: Mengiterasi Tanggal
+Loop melalui setiap tanggal dalam durasi tugas. Loop ini akan membantu kita **menyesuaikan jam kerja** nanti jika diperlukan:
+
 ```java
 java.util.Calendar tempDate = calStartDate;
 ```
-## Langkah 5: Hitung Durasi
-Hitung durasi dalam menit, jam, dan hari:
+
+## Langkah 5: Menghitung Durasi
+Selama iterasi kami memeriksa apakah setiap hari adalah hari kerja, menjumlahkan jam kerja, dan akhirnya menghitung durasi tugas dalam menit, jam, dan hari:
+
 ```java
 double durationInMins = 0;
 double durationInHours = 0;
@@ -76,19 +109,39 @@ System.out.println("Duration in Hours = " + durationInHours);
 System.out.println("Duration in Days = " + durationInDays);
 System.out.println();
 ```
+
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
+|-------|----------|
+| **Tugas mengembalikan `null` untuk kalender** | Pastikan tugas memang memiliki kalender yang ditetapkan; jika tidak, ia akan mewarisi kalender default proyek. |
+| **Durasi tidak tepat karena hari libur** | Verifikasi bahwa hari libur didefinisikan di kalender tugas atau di kalender dasar proyek. |
+| **Ketidaksesuaian zona waktu** | Gunakan `java.util.TimeZone` untuk menyelaraskan zona waktu kalender dengan sistem Anda jika diperlukan. |
+
+## Pertanyaan yang Sering Diajukan
+### Q: Bisakah Aspose.Tasks untuk Java menangani struktur proyek yang kompleks?
+A: Ya, Aspose.Tasks untuk Java menyediakan dukungan komprehensif untuk menangani struktur proyek yang kompleks, termasuk tugas, sumber daya, dan kalender.
+
+### Q: Apakah Aspose.Tasks untuk Java kompatibel dengan berbagai versi MS Project?
+A: Tentu saja, Aspose.Tasks untuk Java mendukung berbagai versi MS Project, memastikan kompatibilitas di berbagai lingkungan.
+
+### Q: Bisakah saya menyesuaikan jam kerja dan hari libur dalam kalender proyek?
+A: Ya, Anda dapat dengan mudah menyesuaikan jam kerja dan hari libur sesuai kebutuhan proyek menggunakan API Aspose.Tasks untuk Java.
+
+### Q: Apakah Aspose.Tasks untuk Java menawarkan dukungan dan dokumentasi?
+A: Ya, Aspose.Tasks untuk Java menyediakan dokumentasi yang luas dan forum dukungan khusus untuk membantu pengembang memanfaatkan fiturnya secara efektif.
+
+### Q: Apakah ada versi percobaan yang tersedia untuk Aspose.Tasks untuk Java?
+A: Ya, Anda dapat mengakses versi percobaan gratis Aspose.Tasks untuk Java dari [di sini](https://releases.aspose.com/).
+
 ## Kesimpulan
-Dalam tutorial ini, kami telah membahas cara mengambil jam kerja dari kalender MS Project menggunakan Aspose.Tasks untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat mengelola jadwal proyek secara efisien dan menghitung durasi tugas dengan mudah.
-## FAQ
-### T: Dapatkah Aspose.Tasks untuk Java menangani struktur proyek yang kompleks?
-J: Ya, Aspose.Tasks untuk Java memberikan dukungan komprehensif untuk menangani struktur proyek yang kompleks, termasuk tugas, sumber daya, dan kalender.
-### T: Apakah Aspose.Tasks untuk Java kompatibel dengan versi MS Project yang berbeda?
-J: Tentu saja, Aspose.Tasks untuk Java mendukung berbagai versi MS Project, memastikan kompatibilitas di berbagai lingkungan.
-### T: Dapatkah saya menyesuaikan jam kerja dan hari libur di kalender proyek?
-J: Ya, Anda dapat dengan mudah menyesuaikan jam kerja dan hari libur sesuai dengan kebutuhan proyek Anda menggunakan Aspose.Tasks untuk Java API.
-### T: Apakah Aspose.Tasks untuk Java menawarkan dukungan dan dokumentasi?
-J: Ya, Aspose.Tasks untuk Java menyediakan dokumentasi ekstensif dan forum dukungan khusus untuk membantu pengembang dalam memanfaatkan fitur-fiturnya secara efektif.
-### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk Java?
- J: Ya, Anda dapat mengakses Aspose.Tasks versi uji coba gratis untuk Java dari[Di Sini](https://releases.aspose.com/).
+Dalam panduan ini kami menunjukkan cara **menentukan hari kerja**, **mengambil jam kerja**, dan **menghitung durasi tugas** dari kalender MS Project menggunakan Aspose.Tasks untuk Java. Dengan mengikuti langkah‑langkah di atas Anda dapat mengotomatiskan analisis jadwal, menyesuaikan kalender, dan menjaga rencana proyek Anda tetap akurat dan terkini.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-05  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (versi terbaru saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

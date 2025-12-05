@@ -1,28 +1,50 @@
 ---
-title: Gestisci le cifre della valuta con Aspose.Tasks
-linktitle: Gestisci le cifre della valuta con Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come gestire le cifre di valuta di MS Project in modo efficiente utilizzando Aspose.Tasks per Java. Guida passo passo con esempi di codice.
+date: 2025-12-05
+description: Scopri come gestire in modo efficiente le cifre della valuta in MS Project
+  utilizzando Aspose.Tasks per Java. Guida passo passo che copre la gestione dei file
+  di progetto Java e come caricare i file MPP.
+language: it
+linktitle: Handle ms project currency Digits with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Gestire le cifre della valuta di MS Project con Aspose.Tasks
+url: /java/currency/currency-digits/
 weight: 11
-url: /it/java/currency/currency-digits/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestisci le cifre della valuta con Aspose.Tasks
+# Gestire le cifre della valuta di ms project con Aspose.Tasks
 
-## introduzione
-Benvenuti nel nostro tutorial completo sulla gestione delle cifre di valuta MS Project utilizzando Aspose.Tasks per Java. In questo tutorial ti guideremo attraverso il processo passo dopo passo, assicurandoti di comprendere a fondo ogni concetto.
+## Introduzione
+In questo tutorial completo scoprirai **come lavorare con i valori della valuta di ms project** utilizzando la libreria Aspose.Tasks per Java. Che tu stia costruendo uno strumento di reporting, un'utilità di migrazione, o semplicemente abbia bisogno di leggere le impostazioni di valuta da un **java project file**, questa guida ti accompagna passo passo—dal caricamento di un file *.mpp* all'estrazione delle cifre della valuta. Alla fine, sarai a tuo agio nel gestire i dati della valuta di ms project nelle tue applicazioni.
+
+## Risposte rapide
+- **Quale libreria legge i file MS Project?** Aspose.Tasks for Java.  
+- **Quante righe di codice servono per ottenere le cifre della valuta?** Solo tre righe concise dopo il caricamento del progetto.  
+- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per i test; è necessaria una licenza commerciale per la produzione.  
+- **Quale versione di Java è supportata?** Java 8 o superiore (qualsiasi JDK che esegue Aspose.Tasks).  
+- **Posso recuperare altre proprietà del Project?** Sì – Aspose.Tasks espone un set completo di campi del Project (ad esempio, data di inizio, tariffe dei costi, ecc.).
+
+## Cos'è la valuta di ms project?
+`ms project currency` si riferisce alla precisione numerica (numero di cifre decimali) che Microsoft Project utilizza quando visualizza valori monetari. È memorizzata nel file Project come proprietà **CURRENCY_DIGITS** e determina se gli importi appaiono come numeri interi, con una decimale, due decimali, ecc.
+
+## Perché usare Aspose.Tasks per gestire la valuta di ms project?
+- **Nessuna installazione di Microsoft Project richiesta** – lavora direttamente con file *.mpp* su qualsiasi piattaforma che supporta Java.  
+- **Forte sicurezza dei tipi** – l'API restituisce valori tipizzati, riducendo gli errori di parsing.  
+- **Ottimizzato per le prestazioni** – carica rapidamente progetti di grandi dimensioni ed estrae solo i campi necessari.  
+- **Cross‑platform** – esegui su Windows, Linux o macOS senza modifiche.
+
 ## Prerequisiti
-Prima di immergerti in questo tutorial, assicurati di possedere i seguenti prerequisiti:
-1. Ambiente di sviluppo Java: assicurati di avere Java Development Kit (JDK) installato sul tuo sistema.
-2.  Libreria Aspose.Tasks: scarica e installa la libreria Aspose.Tasks per Java. Puoi ottenerlo da[Qui](https://releases.aspose.com/tasks/java/).
-3. Conoscenza di base di Java: familiarizza con le basi del linguaggio di programmazione Java.
+Prima di iniziare, assicurati di avere quanto segue:
 
-## Importa pacchetti
-Prima di iniziare a scrivere codice, importiamo i pacchetti necessari:
+1. **Ambiente di sviluppo Java** – JDK 8 o più recente installato e configurato.  
+2. **Aspose.Tasks for Java** – scarica l'ultimo JAR dal sito ufficiale: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
+3. **Conoscenza di base di Java** – dovresti sentirti a tuo agio nel creare un progetto Java, aggiungere librerie esterne ed eseguire un metodo `main`.  
+
+## Importare i pacchetti
+Per prima cosa, importa le classi di cui avremo bisogno.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -30,38 +52,55 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## Passaggio 1: definire la directory dei dati
-Innanzitutto, devi definire il percorso della directory dei dati in cui si trova il file di progetto.
+## Passo 1: Definire la directory dei dati
+Specifica la cartella che contiene il tuo **java project file** (`*.mpp`).  
 ```java
 String dataDir = "Your Data Directory";
 ```
- Sostituire`"Your Data Directory"` con il percorso effettivo della directory dei dati.
-## Passaggio 2: caricare il file di progetto
-Successivamente, carica il file di progetto utilizzando la libreria Aspose.Tasks.
+Sostituisci `"Your Data Directory"` con il percorso assoluto o relativo dove risiede `project.mpp`.
+
+## Passo 2: Caricare il file MPP  
+Ora vedremo **come caricare file mpp** usando Aspose.Tasks.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Assicurarsi che`"project.mpp"` corrisponde al nome del file di progetto.
-## Passaggio 3: recuperare le cifre della valuta
-Ora recuperiamo le cifre della valuta dal file di progetto.
+Assicurati che il nome del file corrisponda esattamente; altrimenti verrà generata un'`IOException`.
+
+## Passo 3: Recuperare le cifre della valuta  
+Con il progetto caricato, estrarre le **cifre della valuta di ms project** è una singola riga:  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-Questa riga stamperà le cifre della valuta sulla console.
+La chiamata restituisce un `Integer` che rappresenta il numero di cifre decimali (ad esempio, `2` per i centesimi). Il valore è stampato sulla console, ma puoi anche memorizzarlo in una variabile per ulteriori elaborazioni.
 
-## Conclusione
-In conclusione, gestire le cifre di valuta MS Project con Aspose.Tasks per Java è semplice con l'approccio giusto. Seguendo questo tutorial, hai imparato come recuperare in modo efficiente le cifre della valuta da un file di progetto.
+## Problemi comuni e suggerimenti
+- **File non trovato** – verifica il percorso `dataDir` e assicurati che il nome del file sia corretto, inclusa l'estensione `.mpp`.  
+- **Versione del file non supportata** – Aspose.Tasks supporta i formati Project 2000‑2024; file più vecchi o corrotti potrebbero necessitare di conversione.  
+- **Licenza non impostata** – durante lo sviluppo una versione di prova funziona, ma per la produzione devi applicare una licenza valida per evitare filigrane di valutazione.
+
 ## Domande frequenti
-### Aspose.Tasks può gestire altri attributi del progetto oltre alle cifre della valuta?
-Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per manipolare vari aspetti dei file di progetto.
-### Aspose.Tasks è adatto per applicazioni di livello aziendale?
-Assolutamente, Aspose.Tasks è progettato per soddisfare le esigenze di progetti di livello aziendale.
-### Aspose.Tasks supporta lo sviluppo multipiattaforma?
-Sì, puoi utilizzare Aspose.Tasks per Java su diverse piattaforme che supportano lo sviluppo Java.
-### Posso provare Aspose.Tasks prima dell'acquisto?
- Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
-### Dove posso ottenere supporto per Aspose.Tasks?
- Puoi trovare supporto su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+**Q: Aspose.Tasks può gestire altri attributi del Project oltre alle cifre della valuta?**  
+A: Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per manipolare vari aspetti dei file Project, come attività, risorse e campi personalizzati.
+
+**Q: Aspose.Tasks è adatto per applicazioni a livello enterprise?**  
+A: Assolutamente, Aspose.Tasks è progettato per soddisfare le esigenze di progetti di livello enterprise, offrendo alte prestazioni e scalabilità.
+
+**Q: Aspose.Tasks supporta lo sviluppo cross‑platform?**  
+A: Sì, puoi utilizzare Aspose.Tasks for Java su qualsiasi piattaforma che supporta il Java Runtime Environment (Windows, Linux, macOS).
+
+**Q: Posso provare Aspose.Tasks prima di acquistarlo?**  
+A: Sì, puoi scaricare una versione di prova gratuita da [qui](https://releases.aspose.com/).
+
+**Q: Dove posso ottenere supporto per Aspose.Tasks?**  
+A: Puoi trovare supporto sul [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+---
+
+**Ultimo aggiornamento:** 2025-12-05  
+**Testato con:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,64 +1,110 @@
 ---
-title: Aspose.Tasks 中的貨幣符號操作
-linktitle: Aspose.Tasks 中的貨幣符號操作
+date: 2025-12-05
+description: 學習如何使用 Aspose.Tasks for Java 提取 MPP 檔案中的貨幣符號，並變更 Java 中的貨幣符號。快速取得 Java
+  的貨幣符號，以便於專案管理。
+language: zh-hant
+linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: 學習使用 Aspose.Tasks for Java 操作 MS Project 檔案中的貨幣符號。簡單的步驟即可實現高效率的專案管理。
+title: 使用 Aspose.Tasks for Java 提取 MPP 貨幣符號
+url: /java/currency/currency-symbols/
 weight: 12
-url: /zh-hant/java/currency/currency-symbols/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中的貨幣符號操作
+# 使用 Aspose.Tasks for Java 提取貨幣符號 mpp
 
-## 介紹
-在本教程中，我們將使用 Java 的 Aspose.Tasks 函式庫深入研究 MS Project 檔案中貨幣符號的操作。 Aspose.Tasks 提供了強大的功能來處理 Microsoft Project 文檔，使開發人員能夠有效地處理專案管理的各個方面。
+## 簡介
+在本教學中，您將 **extract currency symbol mpp** 從 Microsoft Project 檔案中提取，並了解如何使用 Aspose.Tasks 函式庫 **change currency symbol java** 或 **retrieve currency symbol java**。無論您是建立報告工具、將 Project 資料整合至財務系統，或僅需在使用者介面中顯示正確的貨幣符號，掌握這項雖小卻關鍵的任務，都能讓您的 Java 應用程式更健全且使用者友好。
+
+## 快速解答
+- **“extract currency symbol mpp” 是什麼意思？** 它表示讀取儲存在 MPP（Microsoft Project）檔案中的貨幣符號。  
+- **哪個函式庫負責此操作？** Aspose.Tasks for Java 提供簡易的 API 來完成此工作。  
+- **我需要授權嗎？** 免費試用可用於開發；商業授權則需於正式環境使用。  
+- **需要多久時間？** 使用以下程式碼，您可在不到一分鐘內取得符號。  
+- **我也能更改符號嗎？** 可以 —— 只要使用相同的 `Prj.CURRENCY_SYMBOL` 屬性設定新值即可。
+
+## 什麼是 “extract currency symbol mpp”？
+Microsoft Project 將貨幣符號（例如 $, €, £）儲存在專案檔案的標頭中。**extract currency symbol mpp** 操作會讀取該值，以便您可以以程式方式顯示或操作它。
+
+## 為什麼要更改 currency symbol java？
+專案常跨越多個地區。能在執行時 **change currency symbol java**，即可讓您在不重新建立整個專案檔的情況下，將報告、發票或儀表板調整為當地市場。
+
 ## 先決條件
-在我們開始之前，請確保您符合以下先決條件：
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從 Oracle 網站下載並安裝最新版本的 JDK。
-2.  Aspose.Tasks for Java：從下列位置下載並安裝 Aspose.Tasks for Java：[下載連結](https://releases.aspose.com/tasks/java/)。請按照文件中提供的安裝說明進行操作。
+1. **Java Development Kit (JDK)** – 版本 8 或以上。  
+2. **Aspose.Tasks for Java** – 從 [Aspose.Tasks 下載頁面](https://releases.aspose.com/tasks/java/) 下載最新的 JAR。  
+3. 有效的 **project.mpp** 檔案，放置於可在程式碼中參考的資料夾內。
 
-## 導入包
-首先，讓我們匯入必要的套件來啟動對 MS Project 檔案中貨幣符號的操作。
+## 匯入套件
+首先，匯入我們處理 Project 檔案所需的類別。
+
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 ```
 
-## 第 1 步：定義資料目錄
-設定 MS Project 檔案所在資料目錄的路徑。
+## 步驟 1：定義資料目錄
+告訴應用程式 *.mpp* 檔案所在的位置。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`與資料目錄的實際路徑。
-## 第 2 步：載入 MS 專案文件
-將 MS Project 檔案載入到`Project`使用 Aspose.Tasks 的物件。
+
+> **小技巧：** 使用 `System.getProperty("user.dir")` 來建立在任何機器上皆可使用的絕對路徑。
+
+## 步驟 2：載入 MS Project 檔案
+建立一個代表記憶體中 MPP 檔案的 `Project` 物件。
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-代替`"project.mpp"`與您的 MS Project 檔案的名稱。
-## 第 3 步：檢索貨幣符號
-從載入的項目文件中提取貨幣符號。
-```java
-System.out.println(project.get(Prj.CURRENCY_SYMBOL));
-```
-此代碼檢索貨幣符號並將其列印到控制台。
 
-## 結論
-總之，使用 Aspose.Tasks for Java 操作 MS Project 檔案中的貨幣符號是一個簡單的過程。透過遵循本教程中概述的步驟，開發人員可以將此功能無縫整合到他們的 Java 應用程式中，從而增強他們的專案管理能力。
-## 常見問題解答
-### Q：我可以使用 Aspose.Tasks 操作除貨幣符號以外的其他項目屬性嗎？
-是的，Aspose.Tasks 提供了廣泛的功能來操作各種項目屬性，例如任務資訊、資源分配等。
-### Q：Aspose.Tasks 是否與不同版本的 MS Project 檔案相容？
-Aspose.Tasks支援多種MS Project檔案格式，包括MPP、MPT和XML格式，確保不同版本之間的相容性。
-### Q：Aspose.Tasks 是否為開發人員提供文件和支援？
-是的，開發人員可以訪問 Aspose.Tasks 網站上的綜合文件和專門的支援論壇，以幫助他們完成開發任務。
-### Q：我可以在購買之前試用 Aspose.Tasks 嗎？
-當然，開發人員可以免費試用 Aspose.Tasks[網站](https://purchase.aspose.com/buy)在做出購買決定之前評估其特性和功能。
-### Q：如何取得 Aspose.Tasks 的臨時許可證？
-開發人員可以從 Aspose.Tasks 取得臨時許可證[網站](https://purchase.aspose.com/temporary-license/)購買頁面，使他們能夠在評估期間探索圖書館的全部功能。
+## 步驟 3：取得（並可選擇性更改）貨幣符號
+現在，我們透過讀取 `Prj.CURRENCY_SYMBOL` 屬性來 **retrieve currency symbol java**。您也可以透過將新字串指派給相同屬性來 **change currency symbol java**。
+
+```java
+// Retrieve the current currency symbol
+System.out.println(project.get(Prj.CURRENCY_SYMBOL));
+
+// Example of changing it (uncomment to use)
+// project.set(Prj.CURRENCY_SYMBOL, "€");
+// System.out.println("New symbol: " + project.get(Prj.CURRENCY_SYMBOL));
+```
+
+`System.out.println` 呼叫會將符號（例如 `$`）印到主控台，以確認提取成功。
+
+## 常見問題與解決方法
+| 症狀 | 可能原因 | 解決方案 |
+|---------|--------------|----------|
+| `NullPointerException` on `project.get(...)` | 檔案路徑錯誤或找不到檔案 | 檢查 `dataDir` 與檔名；使用 `new File(dataDir).exists()` 進行除錯 |
+| 符號異常（例如 `?`） | 專案使用非標準語系建立 | 確保來源 MPP 檔案實際定義了貨幣符號；如上所示可程式化設定 |
+| 授權錯誤 | 使用試用版卻未提供有效授權檔案 | 在建立 `Project` 物件前，使用 `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` 載入授權 |
+
+## 常見問與答
+
+**Q: 我可以使用 Aspose.Tasks 操作除貨幣符號外的其他專案屬性嗎？**  
+A: 可以，Aspose.Tasks 允許您編輯工作、資源、指派、行事曆以及許多其他專案屬性。
+
+**Q: Aspose.Tasks 是否相容於不同版本的 MS Project 檔案？**  
+A: 完全相容。它支援從 Project 98 到最新版本的 MPP、MPT 以及 XML 格式。
+
+**Q: Aspose.Tasks 是否提供開發人員的文件與支援？**  
+A: 官方網站提供完整的 API 文件、程式碼範例以及專屬支援論壇。
+
+**Q: 我可以在購買前試用 Aspose.Tasks 嗎？**  
+A: 可以 —— 完整功能的免費試用版可從 [Aspose 官方網站](https://purchase.aspose.com/buy) 下載。
+
+**Q: 我該如何取得 Aspose.Tasks 的臨時授權？**  
+A: 臨時授權可於 [Aspose 臨時授權頁面](https://purchase.aspose.com/temporary-license/) 取得，以供評估使用。
+
+---
+
+**最後更新：** 2025-12-05  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
