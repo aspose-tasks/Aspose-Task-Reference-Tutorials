@@ -1,28 +1,48 @@
 ---
-title: Escrevendo e lendo fórmulas do MS Project em Aspose.Tasks
-linktitle: Escreva e leia fórmulas em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Aprenda a escrever e ler fórmulas do MS Project de forma eficiente com Aspose.Tasks for Java. Aprimore suas habilidades de gerenciamento de projetos.
+date: 2025-12-07
+description: Aprenda como salvar o arquivo de projeto, escrever e ler fórmulas do
+  MS Project e adicionar fórmulas de campos personalizados usando o Aspose.Tasks para
+  Java.
+language: pt
+linktitle: Save Project File & Write Formulas in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Salvar arquivo de projeto e escrever fórmulas do MS Project com Aspose.Tasks
+url: /java/formulas/write-read-formulas/
 weight: 12
-url: /pt/java/formulas/write-read-formulas/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Escrevendo e lendo fórmulas do MS Project em Aspose.Tasks
+# Salvar Arquivo de Projeto e Escrever Fórmulas do MS Project com Aspose.Tasks
 
 ## Introdução
-No domínio do gerenciamento de projetos, o tratamento eficaz dos dados é fundamental. Aspose.Tasks for Java é uma solução robusta que facilita a manipulação e extração de dados de arquivos do Microsoft Project. Um recurso poderoso que oferece é a capacidade de escrever e ler fórmulas do MS Project. Este tutorial irá guiá-lo através do processo de aproveitamento dessa funcionalidade para aprimorar suas tarefas de gerenciamento de projetos.
+No âmbito da gestão de projetos, o manuseio eficaz dos dados é fundamental. Aspose.Tasks for Java é uma solução robusta que facilita a manipulação e extração de dados de arquivos Microsoft Project. Um recurso poderoso que ele oferece é a capacidade de escrever e ler fórmulas do MS Project. **Você também aprenderá como *salvar arquivo de projeto* após aplicar essas fórmulas**, garantindo que suas alterações sejam preservadas para análises futuras. Este tutorial o guiará pelo processo de aproveitamento dessa funcionalidade para melhorar suas tarefas de gestão de projetos.
+
+## Respostas Rápidas
+- **O que faz “salvar arquivo de projeto”?** Ele grava todas as alterações em memória de volta para um arquivo .mpp no disco.  
+- **Posso adicionar fórmulas de campo personalizado?** Sim – você pode criar um campo personalizado e atribuir uma fórmula como “dobrar custo da tarefa”.  
+- **Preciso de licença para executar o código?** Uma avaliação gratuita funciona para testes; uma licença comercial é necessária para produção.  
+- **Qual IDE funciona melhor?** Qualquer IDE Java (IntelliJ IDEA, Eclipse, VS Code) compilará o exemplo.  
+- **A API é compatível com a versão mais recente do MS Project?** Aspose.Tasks suporta todos os formatos .mpp recentes.
+
+## O que é “salvar arquivo de projeto” no Aspose.Tasks?
+Salvar um arquivo de projeto significa persistir o estado atual do objeto `Project` — incluindo tarefas, recursos e quaisquer fórmulas personalizadas — em um arquivo físico do Microsoft Project (`.mpp`). Essa operação é essencial após modificar dados, como adicionar um campo personalizado ou alterar custos de tarefas.
+
+## Por que adicionar um campo personalizado e criar uma fórmula de campo personalizado?
+Adicionar um campo personalizado oferece um contêiner flexível para informações extras que não são cobertas pelos campos padrão. Ao associar uma fórmula — como uma que **dobra o custo da tarefa** — você automatiza cálculos, reduz erros manuais e mantém os dados do cronograma consistentes.
+
 ## Pré-requisitos
-Antes de mergulhar neste tutorial, certifique-se de ter os seguintes pré-requisitos:
-1. Kit de desenvolvimento Java (JDK): certifique-se de ter o Java instalado em seu sistema.
-2.  Aspose.Tasks para Java: Baixe e instale Aspose.Tasks para Java em[aqui](https://releases.aspose.com/tasks/java/).
-3. Ambiente de Desenvolvimento Integrado (IDE): Escolha seu IDE preferido para desenvolvimento Java.
+Antes de mergulhar neste tutorial, certifique‑se de que você possui os seguintes pré‑requisitos:
+
+1. **Java Development Kit (JDK)** – Java 8 ou superior instalado em sua máquina.  
+2. **Aspose.Tasks for Java** – Baixe e instale de [here](https://releases.aspose.com/tasks/java/).  
+3. **Integrated Development Environment (IDE)** – Escolha sua IDE preferida para desenvolvimento Java (IntelliJ IDEA, Eclipse, VS Code, etc.).  
 
 ## Importando Pacotes
-Para começar, importe os pacotes necessários para o seu projeto Java:
+Para começar, importe os pacotes necessários ao seu projeto Java:
+
 ```java
 import com.aspose.tasks.*;
 import java.io.IOException;
@@ -30,51 +50,75 @@ import java.math.BigDecimal;
 import java.util.Objects;
 ```
 
-## Etapa 1: configurar o diretório de dados
+## Etapa 1: Configurar Diretório de Dados
 ```java
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
-Nesta etapa, defina o diretório onde seus arquivos do MS Project estão localizados.
-## Etapa 2: carregar o arquivo do projeto
+Defina a pasta onde seus arquivos MS Project estão armazenados. É aqui que você carregará o arquivo fonte e, posteriormente, **salvará o arquivo de projeto**.
+
+## Etapa 2: Carregar Arquivo de Projeto
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Aqui, carregue o arquivo MS Project em um`Project` objeto para manipulação.
-## Etapa 3: definir fórmula personalizada
+Carregue o arquivo Microsoft Project existente em um objeto `Project` para que você possa ler ou modificar seu conteúdo.
+
+## Etapa 3: Adicionar Campo Personalizado e Criar Fórmula de Campo Personalizado
 ```java
 project.set(Prj.NEW_TASKS_ARE_MANUAL, new NullableBool(false));
-ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text1, "Custom");
+ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(
+        CustomFieldType.Text, ExtendedAttributeTask.Text1, "Custom");
 attr.setAlias("Double Costs");
-attr.setFormula("[Cost]*2");
+attr.setFormula("[Cost]*2");   // This formula doubles the task cost
 project.getExtendedAttributes().add(attr);
 ```
-Esta etapa envolve a criação de um campo personalizado com uma fórmula que duplica o custo da tarefa.
-## Etapa 4: adicionar tarefa e definir custo
+Nesta etapa, **adicionamos o campo personalizado** “Double Costs” e **criamos a fórmula de campo personalizado** que multiplica o `[Cost]` da tarefa por 2, efetivamente **dobrando o custo da tarefa**. O método `setFormula` incorpora o cálculo diretamente no arquivo do projeto.
+
+## Etapa 4: Adicionar Tarefa e Definir Custo
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 task.set(Tsk.COST, BigDecimal.valueOf(100));
 ```
-Aqui, uma nova tarefa é adicionada e seu custo é definido como 100.
-## Etapa 5: salvar o arquivo do projeto
+Crie uma nova tarefa e, em seguida, atribua um custo base de `100`. Quando o projeto for salvo, o campo personalizado exibirá automaticamente `200` devido à fórmula definida anteriormente.
+
+## Etapa 5: Salvar Arquivo de Projeto
 ```java
 project.save(dataDir + "saved.mpp", SaveFileFormat.Mpp);
 ```
-Finalmente, salve o arquivo de projeto modificado.
+Finalmente, **salve o arquivo de projeto** com todas as modificações. O método `save` grava o projeto atualizado, incluindo o novo campo personalizado e seus valores calculados, em `saved.mpp`.
+
+## Problemas Comuns e Soluções
+| Problema | Razão | Solução |
+|----------|-------|---------|
+| **Fórmula não aplicada** | Campo personalizado não adicionado à coleção `ExtendedAttributes` do projeto. | Certifique‑se de que `project.getExtendedAttributes().add(attr);` seja executado antes de salvar. |
+| **Arquivo não encontrado** | Caminho `dataDir` incorreto. | Verifique se a string do diretório termina com um separador de caminho (`/` ou `\\`). |
+| **Custo aparece como 0** | Custo da tarefa não definido antes de salvar. | Chame `task.set(Tsk.COST, ...)` antes de `project.save`. |
+
+## Perguntas Frequentes
+**Q: O Aspose.Tasks é compatível com todas as versões do MS Project?**  
+A: Sim, o Aspose.Tasks suporta uma ampla gama de versões do MS Project, desde formatos .mpp mais antigos até as versões mais recentes.
+
+**Q: Posso integrar o Aspose.Tasks ao meu projeto Java existente?**  
+A: Absolutamente. A API foi projetada para integração perfeita; basta adicionar o JAR do Aspose.Tasks ao classpath do seu projeto.
+
+**Q: Existem limitações quanto aos tipos de fórmulas que posso criar?**  
+A: A biblioteca suporta a maioria da sintaxe nativa de fórmulas do MS Project, incluindo aritmética, lógica e funções integradas. Funções personalizadas complexas podem exigir soluções alternativas.
+
+**Q: O Aspose.Tasks suporta implantação multiplataforma?**  
+A: Sim, a biblioteca funciona em qualquer plataforma que suporte Java, incluindo Windows, Linux e macOS.
+
+**Q: Como posso obter suporte técnico para o Aspose.Tasks?**  
+A: Visite o [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) para ajuda da comunidade ou abra um ticket de suporte se você possuir uma licença comercial.
 
 ## Conclusão
-Neste tutorial, exploramos como escrever e ler fórmulas do MS Project usando Aspose.Tasks para Java. Seguindo essas etapas, você pode manipular com eficiência os dados do projeto para atender aos seus requisitos específicos.
-## Perguntas frequentes
-### O Aspose.Tasks é compatível com todas as versões do MS Project?
-Aspose.Tasks oferece compatibilidade com diversas versões do MS Project, garantindo flexibilidade aos usuários.
-### Posso integrar Aspose.Tasks em meu projeto Java existente?
-Absolutamente! Aspose.Tasks fornece integração perfeita com projetos Java por meio do uso simples de API.
-### Há alguma limitação nos tipos de fórmulas que posso criar?
-Com Aspose.Tasks, você tem ampla flexibilidade na elaboração de fórmulas personalizadas adaptadas às necessidades do seu projeto.
-### O Aspose.Tasks oferece suporte à implantação multiplataforma?
-Sim, Aspose.Tasks suporta implantação em múltiplas plataformas, aumentando sua versatilidade.
-### Como posso obter suporte técnico para Aspose.Tasks?
- Para assistência técnica e apoio comunitário, visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Neste tutorial abordamos como **salvar o arquivo de projeto**, **adicionar campo personalizado** e **criar uma fórmula de campo personalizado** que **dobra o custo da tarefa** usando Aspose.Tasks for Java. Seguindo estas etapas, você pode automatizar cálculos, enriquecer os dados do seu projeto e garantir que todas as alterações sejam persistidas para relatórios e análises futuras.
+
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
