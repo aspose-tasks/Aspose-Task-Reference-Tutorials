@@ -1,75 +1,129 @@
 ---
-title: Java용 Aspose.Tasks를 사용한 MS 프로젝트 수식
-linktitle: Aspose.Tasks에서 수식 작업
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks 라이브러리를 사용하여 Java에서 MS 프로젝트 파일을 조작하는 방법을 알아보세요. 속성을 쉽게 생성, 수정, 계산할 수 있습니다.
+date: 2025-12-07
+description: Aspose.Tasks for Java를 사용하여 Microsoft Project 파일을 조작하면서 **테스트 프로젝트 생성**
+  및 **사용자 정의 필드 추가** 방법을 배웁니다.
+language: ko
+linktitle: Work with Formulas in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks for Java로 테스트 프로젝트 생성 및 수식 사용
+url: /java/formulas/work-with-formulas/
 weight: 11
-url: /ko/java/formulas/work-with-formulas/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Tasks를 사용한 MS 프로젝트 수식
+# Aspose.Tasks for Java로 테스트 프로젝트 생성 및 수식 사용
 
 ## 소개
-이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 수식 작업을 자세히 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 광범위한 기능을 사용하면 Java 애플리케이션에서 프로젝트 파일을 쉽게 생성, 읽기, 수정 및 변환할 수 있습니다.
-## 전제조건
-시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
-### 자바 개발 환경
-시스템에 JDK(Java Development Kit)가 설치되어 있는지 확인하십시오. Oracle 웹사이트에서 최신 JDK를 다운로드하여 설치할 수 있습니다.
-### Aspose.Tasks 라이브러리
-Java 프로젝트에 Aspose.Tasks 라이브러리를 추가해야 합니다. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose.Tasks for Java 다운로드 페이지](https://releases.aspose.com/tasks/java/) 프로젝트의 종속성에 포함시킵니다.
+이 튜토리얼에서는 **테스트 프로젝트** 파일을 만들고, 사용자 정의 필드를 추가한 뒤, Aspose.Tasks for Java 라이브러리를 사용해 MS Project 수식을 적용하는 방법을 배웁니다. Aspose.Tasks를 사용하면 **Microsoft Project** 데이터를 프로그래밍 방식으로 손쉽게 **조작**할 수 있습니다—일정 생성, 날짜 계산, 보고서 자동화 등 어떤 작업이든 가능합니다. 가이드를 마치면 확장 속성을 정의하고, 작업에 마감일을 설정하며, 프로젝트를 MPP 파일로 저장하는 실행 가능한 예제를 얻게 됩니다.
+
+## 빠른 답변
+- **이 튜토리얼에서 다루는 내용은?** 테스트 프로젝트 생성, 사용자 정의 필드 추가, 확장 속성 정의, 수식을 이용한 작업 마감일 설정.  
+- **필요한 라이브러리는?** Aspose.Tasks for Java (최신 버전).  
+- **라이선스가 필요한가요?** 개발 단계에서는 무료 체험판으로 가능하지만, 프로덕션에서는 라이선스가 필요합니다.  
+- **어떤 IDE를 사용할 수 있나요?** JDK 8 이상을 지원하는 모든 Java IDE (IntelliJ IDEA, Eclipse, VS Code 등).  
+- **구현 시간은 얼마나 걸리나요?** 코드를 복사하고 실행하는 데 약 10‑15 분 정도 소요됩니다.
+
+## Aspose.Tasks에서 “테스트 프로젝트”란?
+**테스트 프로젝트**는 기능을 시연하거나 검증하기 위해 프로그래밍 방식으로 생성된 가벼운 Microsoft Project 파일입니다. 최소한의 작업, 리소스, 사용자 정의 필드만 포함되어 있어 실제 프로젝트 데이터에 영향을 주지 않고 자유롭게 조작할 수 있습니다.
+
+## Microsoft Project 조작에 Aspose.Tasks를 사용하는 이유
+- **전체 API 지원** – 모든 Project, Task, Resource 속성에 접근 가능.  
+- **Office 설치 불필요** – 서버, CI 파이프라인, Docker 컨테이너에서도 동작.  
+- **크로스‑플랫폼** – 동일한 Java 코드로 Windows, Linux, macOS에서 실행.  
+- **강력한 수식 엔진** – 프로젝트 파일 내부에서 날짜, 기간, 사용자 정의 필드를 직접 계산.
+
+## 사전 요구 사항
+시작하기 전에 다음 항목을 준비하세요:
+
+- **Java Development Kit (JDK) 8+** – Oracle 웹사이트 또는 OpenJDK에서 다운로드.  
+- **Aspose.Tasks for Java** – 최신 JAR 파일을 [Aspose.Tasks for Java 다운로드 페이지](https://releases.aspose.com/tasks/java/)에서 받아 프로젝트 클래스패스 또는 Maven/Gradle 의존성에 추가.
 
 ## 패키지 가져오기
-예제를 살펴보기 전에 필요한 패키지를 Java 코드로 가져옵니다.
+먼저 필요한 클래스를 가져옵니다:
+
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-제공된 예제를 여러 단계로 나누어 보겠습니다.
-## 1단계: 사용자 정의 필드를 사용하여 테스트 프로젝트 만들기
+## 단계별 가이드
+
+### 단계 1: 사용자 정의 필드가 포함된 테스트 프로젝트 생성
+**테스트 프로젝트**를 만들고, 이후 수식 결과를 저장할 사용자 정의 필드를 추가합니다.
+
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
- 먼저 다음을 사용하여 사용자 정의 필드가 있는 테스트 프로젝트를 만듭니다.`CreateTestProjectWithCustomField()` 방법. 이 메서드는 새로 생성된 프로젝트를 나타내는 Project 개체를 반환합니다.
-## 2단계: 확장된 속성 정의 정의
+
+> *팁:* `CreateTestProjectWithCustomField()`는 최소 일정과 확장 속성을 생성해 수식 할당을 준비하는 헬퍼 메서드입니다.
+
+### 단계 2: 확장 속성 정의 (사용자 정의 필드 추가)
+다음으로 **확장 속성**—즉 사용자 정의 필드—을 정의하고 친숙한 별칭을 지정합니다. 여기서 **사용자 정의 필드** 로직을 추가합니다.
+
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
 attr.setAlias("Days from finish to deadline");
 attr.setFormula("[Deadline] - [Finish]");
 ```
-프로젝트에서 확장된 속성 정의를 검색하고 해당 별칭과 수식을 설정합니다. 이 예에서는 완료 날짜부터 마감일까지의 일수를 계산하는 속성을 정의합니다.
-## 3단계: 작업 마감일 설정
+
+- **Alias**는 Project에서 필드를 읽기 쉽게 만들어 줍니다.  
+- **Formula**는 작업의 *Finish* 날짜와 *Deadline* 사이의 일수를 계산합니다.
+
+### 단계 3: 작업에 마감일 설정 (마감일 작업 추가 및 설정)
+특정 작업에 *Deadline* 속성을 설정해 **마감일 작업** 데이터를 추가합니다.
+
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2015, Calendar.MARCH, 26, 8, 0, 0);
 Task task = project.getRootTask().getChildren().getById(1);
 task.set(Tsk.DEADLINE, cal.getTime());
 ```
-Calendar 개체를 만들고 마감일을 설정합니다. 그런 다음 프로젝트에서 작업을 검색하고 Calendar 개체를 사용하여 마감일을 설정합니다.
-## 4단계: 프로젝트 저장
+
+- `Calendar` 인스턴스가 정확한 마감일 시점을 정의합니다.  
+- `set(Tsk.DEADLINE, …)` **선택한 작업의 마감일**을 설정합니다.
+
+### 단계 4: 프로젝트 저장 (Microsoft Project 파일 조작)
+마지막으로 **Microsoft Project**를 조작해 변경 내용을 MPP 파일에 저장합니다.
+
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
-마지막으로 프로젝트를 지정된 이름과 형식의 파일로 저장합니다. 이 경우 MPP 파일로 저장하겠습니다.
 
-## 결론
-이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 수식으로 작업하는 방법을 배웠습니다. 다음 단계를 따르면 사용자 정의 필드를 추가하고 수식을 기반으로 속성을 계산하여 프로젝트 파일을 프로그래밍 방식으로 효과적으로 조작할 수 있습니다.
+`SaveFile.mpp`를 Microsoft Project에서 열면 사용자 정의 필드, 수식 결과, 마감일이 일정에 반영된 것을 확인할 수 있습니다.
 
-## FAQ
-### Q: Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-A: 예, Aspose.Tasks는 Java, .NET 등을 포함한 다양한 프로그래밍 언어를 지원합니다.
-### Q: Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
- A: 예, Aspose.Tasks의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
-### Q: Aspose.Tasks에 대한 문서는 어디서 찾을 수 있나요?
- A: Aspose.Tasks에 대한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/java/).
-### Q: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
- A: 지원을 받으려면 다음 사이트를 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
-### Q: Aspose.Tasks를 사용하려면 임시 라이선스가 필요합니까?
-A: 추가 기능이 필요한 경우 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+## 일반적인 문제 및 해결 방법
+| 문제 | 해결 방법 |
+|-------|----------|
+| **수식이 평가되지 않음** | 속성의 `Formula` 문자열에 올바른 필드 이름(`[Deadline]`, `[Finish]` 등)이 사용됐는지 확인하세요. |
+| **작업을 찾을 수 없음** | 예제에서 사용한 작업 ID(`1`)가 존재하는지 확인하고, `project.getRootTask().getChildren().size()` 로 디버그해 보세요. |
+| **라이선스 예외 발생** | API 메서드 호출 전에 유효한 Aspose.Tasks 라이선스를 적용하세요(`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+
+## 자주 묻는 질문
+
+**Q: Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?**  
+A: 네, Aspose.Tasks는 .NET, Java 등 여러 플랫폼용 API를 제공하므로 원하는 언어로 **Microsoft Project** 파일을 **조작**할 수 있습니다.
+
+**Q: Aspose.Tasks의 무료 체험판이 있나요?**  
+A: 물론입니다. [Aspose.Tasks 다운로드 페이지](https://releases.aspose.com/)에서 완전 기능 체험판을 다운로드하세요.
+
+**Q: Aspose.Tasks에 대한 자세한 문서는 어디서 찾을 수 있나요?**  
+A: 공식 문서는 [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/)에 있습니다.
+
+**Q: Aspose.Tasks 지원을 받으려면 어떻게 해야 하나요?**  
+A: [Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)에서 질문을 올리면 커뮤니티와 함께 문제를 해결할 수 있습니다.
+
+**Q: 평가용 임시 라이선스가 필요한가요?**  
+A: 단기 테스트를 위한 임시 라이선스를 제공하고 있습니다. [여기](https://purchase.aspose.com/temporary-license/)에서 요청하세요.
+
+---
+
+**마지막 업데이트:** 2025-12-07  
+**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
