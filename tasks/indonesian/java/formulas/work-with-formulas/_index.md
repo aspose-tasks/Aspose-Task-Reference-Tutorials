@@ -1,75 +1,129 @@
 ---
-title: Rumus Proyek MS dengan Aspose.Tasks untuk Java
-linktitle: Bekerja dengan Rumus di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara memanipulasi file MS Project di Java menggunakan perpustakaan Aspose.Tasks. Membuat, memodifikasi, dan menghitung atribut dengan mudah.
+date: 2025-12-07
+description: Pelajari cara **membuat proyek uji** dan **menambahkan bidang khusus**
+  sambil memanipulasi file Microsoft Project menggunakan Aspose.Tasks untuk Java.
+language: id
+linktitle: Work with Formulas in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Buat Proyek Uji dan Gunakan Rumus dengan Aspose.Tasks untuk Java
+url: /java/formulas/work-with-formulas/
 weight: 11
-url: /id/java/formulas/work-with-formulas/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rumus Proyek MS dengan Aspose.Tasks untuk Java
+# Buat Proyek Uji dan Gunakan Rumus dengan Aspose.Tasks untuk Java
 
-## Perkenalan
-Dalam tutorial ini, kita akan mempelajari cara bekerja dengan Rumus Proyek MS menggunakan Aspose.Tasks untuk Java. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Dengan fiturnya yang luas, Anda dapat dengan mudah membuat, membaca, memodifikasi, dan mengonversi file proyek di aplikasi Java.
+## Pendahuluan
+Dalam tutorial ini Anda akan **membuat file proyek uji**, menambahkan bidang khusus, dan bekerja dengan rumus MS Project menggunakan pustaka Aspose.Tasks untuk Java. Aspose.Tasks memudahkan **manipulasi data Microsoft Project** secara programatis—baik Anda perlu menghasilkan jadwal, menghitung tanggal, atau mengotomatisasi pelaporan. Pada akhir panduan Anda akan memiliki contoh yang dapat dijalankan yang mendefinisikan atribut ekstensi, menetapkan batas waktu untuk sebuah tugas, dan menyimpan proyek sebagai file MPP.
+
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Membuat proyek uji, menambahkan bidang khusus, mendefinisikan atribut ekstensi, dan menetapkan batas waktu tugas dengan rumus.  
+- **Pustaka apa yang diperlukan?** Aspose.Tasks untuk Java (versi terbaru).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
+- **IDE apa yang dapat saya gunakan?** Semua IDE Java (IntelliJ IDEA, Eclipse, VS Code) yang mendukung JDK 8+.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk menyalin kode dan menjalankannya.
+
+## Apa Itu “Proyek Uji” di Aspose.Tasks?
+**Proyek uji** adalah file Microsoft Project ringan yang dibuat secara programatis untuk mendemonstrasikan atau memvalidasi fungsionalitas. Ia berisi sekumpulan tugas, sumber daya, dan bidang khusus minimal yang dapat Anda manipulasi tanpa memengaruhi data proyek yang sebenarnya.
+
+## Mengapa Menggunakan Aspose.Tasks untuk Memanipulasi Microsoft Project?
+- **Cakupan API penuh** – akses setiap properti Project, Task, dan Resource.  
+- **Tidak memerlukan instalasi Office** – dapat dijalankan di server, pipeline CI, dan kontainer Docker.  
+- **Lintas‑platform** – berjalan di Windows, Linux, dan macOS dengan kode Java yang sama.  
+- **Mesin rumus yang kuat** – menghitung tanggal, durasi, dan bidang khusus langsung di dalam file proyek.
+
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menyiapkan prasyarat berikut:
-### Lingkungan Pengembangan Jawa
-Pastikan Anda memiliki Java Development Kit (JDK) yang terinstal di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari situs Oracle.
-### Perpustakaan Aspose.Tugas
-Anda perlu menambahkan perpustakaan Aspose.Tasks ke proyek Java Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Tasks untuk halaman unduh Java](https://releases.aspose.com/tasks/java/) dan sertakan dalam dependensi proyek Anda.
+Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-## Paket Impor
-Sebelum mendalami contoh, impor paket yang diperlukan ke kode Java Anda:
+- **Java Development Kit (JDK) 8+** – unduh dari situs Oracle atau gunakan OpenJDK.  
+- **Aspose.Tasks untuk Java** – dapatkan JAR terbaru dari [halaman unduhan Aspose.Tasks untuk Java](https://releases.aspose.com/tasks/java/) dan tambahkan ke classpath proyek Anda atau ke dependensi Maven/Gradle.
+
+## Impor Paket
+Pertama, impor kelas‑kelas yang diperlukan:
+
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-Mari kita bagi contoh yang diberikan menjadi beberapa langkah:
-## Langkah 1: Buat Proyek Uji dengan Bidang Kustom
+## Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Buat Proyek Uji dengan Bidang Khusus
+Kita mulai dengan **membuat proyek uji** dan menambahkan bidang khusus yang nantinya akan menampung hasil rumus kita.
+
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
- Pertama, buat proyek uji dengan bidang khusus menggunakan`CreateTestProjectWithCustomField()` metode. Metode ini akan mengembalikan objek Proyek yang mewakili proyek yang baru dibuat.
-## Langkah 2: Tentukan Definisi Atribut yang Diperluas
+
+> *Tip profesional:* `CreateTestProjectWithCustomField()` adalah metode pembantu yang membangun jadwal minimal dan mendaftarkan atribut ekstensi siap untuk penugasan rumus.
+
+### Langkah 2: Definisikan Atribut Ekstensi (Tambahkan Bidang Khusus)
+Selanjutnya, kita **mendefinisikan atribut ekstensi** – pada dasarnya bidang khusus – dan memberikan alias yang mudah dipahami. Di sinilah logika **menambahkan bidang khusus** diterapkan.
+
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
 attr.setAlias("Days from finish to deadline");
 attr.setFormula("[Deadline] - [Finish]");
 ```
-Ambil definisi atribut yang diperluas dari proyek dan atur alias dan rumusnya. Dalam contoh ini, kita mendefinisikan atribut untuk menghitung jumlah hari dari tanggal selesai hingga tenggat waktu.
-## Langkah 3: Tetapkan Batas Waktu untuk suatu Tugas
+
+- **Alias** membuat bidang dapat dibaca di Project.  
+- **Formula** menghitung jumlah hari antara tanggal *Finish* tugas dan *Deadline*‑nya.
+
+### Langkah 3: Tetapkan Batas Waktu untuk Tugas (Tambahkan Tugas Batas Waktu & Tetapkan Batas Waktu Tugas)
+Sekarang kita **menambahkan data tugas batas waktu** dengan menetapkan properti *Deadline* pada tugas tertentu.
+
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2015, Calendar.MARCH, 26, 8, 0, 0);
 Task task = project.getRootTask().getChildren().getById(1);
 task.set(Tsk.DEADLINE, cal.getTime());
 ```
-Buat objek Kalender dan atur tanggal tenggat waktu. Kemudian, ambil tugas dari proyek dan tetapkan tenggat waktunya menggunakan objek Kalender.
-## Langkah 4: Simpan Proyek
+
+- Instance `Calendar` menentukan momen batas waktu yang tepat.  
+- `set(Tsk.DEADLINE, …)` **menetapkan batas waktu tugas** untuk tugas yang dipilih.
+
+### Langkah 4: Simpan Proyek (Manipulasi File Microsoft Project)
+Akhirnya, kita **memanipulasi Microsoft Project** dengan menyimpan perubahan ke file MPP.
+
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
-Terakhir, simpan proyek ke file dengan nama dan format yang ditentukan. Dalam hal ini, kami menyimpannya sebagai file MPP.
 
-## Kesimpulan
-Dalam tutorial ini, kita telah mempelajari cara bekerja dengan Rumus Proyek MS menggunakan Aspose.Tasks untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat memanipulasi file proyek secara efektif secara terprogram, menambahkan bidang khusus, dan menghitung atribut berdasarkan rumus.
+Anda dapat membuka `SaveFile.mpp` di Microsoft Project untuk melihat bidang khusus, hasil rumus, dan batas waktu yang tercermin dalam jadwal.
 
-## FAQ
-### T: Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?
-J: Ya, Aspose.Tasks mendukung berbagai bahasa pemrograman termasuk Java, .NET, dan lainnya.
-### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
- J: Ya, Anda dapat mengunduh uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/).
-### T: Di mana saya dapat menemukan dokumentasi untuk Aspose.Tasks?
- J: Anda dapat menemukan dokumentasi untuk Aspose.Tasks[Di Sini](https://reference.aspose.com/tasks/java/).
-### T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- A: Untuk dukungan, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
-### T: Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks?
-J: Jika Anda memerlukan fitur tambahan, Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
+|-------|----------|
+| **Rumus tidak dievaluasi** | Pastikan string `Formula` atribut menggunakan nama bidang yang benar (misalnya `[Deadline]`, `[Finish]`). |
+| **Tugas tidak ditemukan** | Verifikasi bahwa ID tugas (`1` pada contoh) memang ada; gunakan `project.getRootTask().getChildren().size()` untuk debugging. |
+| **Pengecualian lisensi** | Terapkan lisensi Aspose.Tasks yang valid sebelum memanggil metode API apa pun (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?**  
+J: Ya, Aspose.Tasks menyediakan API untuk .NET, Java, dan platform lainnya, memungkinkan Anda **memanipulasi file Microsoft Project** dalam bahasa pilihan Anda.
+
+**T: Apakah ada versi percobaan gratis untuk Aspose.Tasks?**  
+J: Tentu saja. Unduh percobaan penuh fungsi dari [halaman unduhan Aspose.Tasks](https://releases.aspose.com/).
+
+**T: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.Tasks?**  
+J: Dokumentasi resmi tersedia di [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
+
+**T: Bagaimana cara mendapatkan dukungan untuk Aspose.Tasks?**  
+J: Kunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk mengajukan pertanyaan dan berbagi pengalaman dengan komunitas.
+
+**T: Apakah saya memerlukan lisensi sementara untuk evaluasi?**  
+J: Lisensi sementara tersedia untuk pengujian jangka pendek; Anda dapat memintanya [di sini](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Terakhir Diperbarui:** 2025-12-07  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

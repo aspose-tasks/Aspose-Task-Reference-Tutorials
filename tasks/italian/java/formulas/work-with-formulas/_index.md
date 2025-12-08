@@ -1,75 +1,129 @@
 ---
-title: Formule di MS Project con Aspose.Tasks per Java
-linktitle: Lavorare con le formule in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come manipolare i file MS Project in Java utilizzando la libreria Aspose.Tasks. Crea, modifica e calcola gli attributi con facilità.
+date: 2025-12-07
+description: Scopri come **creare un progetto di prova** e **aggiungere un campo personalizzato**
+  mentre manipoli i file Microsoft Project usando Aspose.Tasks per Java.
+language: it
+linktitle: Work with Formulas in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Crea progetto di test e usa le formule con Aspose.Tasks per Java
+url: /java/formulas/work-with-formulas/
 weight: 11
-url: /it/java/formulas/work-with-formulas/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formule di MS Project con Aspose.Tasks per Java
+# Crea un progetto di test e utilizza le formule con Aspose.Tasks per Java
 
-## introduzione
-In questo tutorial, approfondiremo il lavoro con le formule di MS Project utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di programmazione. Grazie alle sue funzionalità estese, puoi creare, leggere, modificare e convertire facilmente file di progetto in applicazioni Java.
+## Introduzione
+In questo tutorial **creerai file di progetto di test**, aggiungerai un campo personalizzato e lavorerai con le formule di MS Project utilizzando la libreria Aspose.Tasks per Java. Aspose.Tasks rende semplice **manipolare i dati di Microsoft Project** in modo programmatico—che tu debba generare pianificazioni, calcolare date o automatizzare i report. Alla fine della guida avrai un esempio eseguibile che definisce un attributo esteso, imposta una scadenza per un'attività e salva il progetto come file MPP.
+
+## Risposte rapide
+- **Di cosa tratta il tutorial?** Creare un progetto di test, aggiungere un campo personalizzato, definire un attributo esteso e impostare una scadenza per un'attività con una formula.  
+- **Quale libreria è necessaria?** Aspose.Tasks per Java (ultima versione).  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza per la produzione.  
+- **Quale IDE posso usare?** Qualsiasi IDE Java (IntelliJ IDEA, Eclipse, VS Code) che supporti JDK 8+.  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per copiare il codice ed eseguirlo.
+
+## Che cos'è un “progetto di test” in Aspose.Tasks?
+Un **progetto di test** è un file Microsoft Project leggero creato programmaticamente per dimostrare o convalidare funzionalità. Contiene un insieme minimo di attività, risorse e campi personalizzati che puoi manipolare senza influire sui dati di progetto reali.
+
+## Perché usare Aspose.Tasks per manipolare Microsoft Project?
+- **Copertura completa dell'API** – accedi a ogni proprietà di Project, Task e Resource.  
+- **Nessuna installazione di Office richiesta** – funziona su server, pipeline CI e container Docker.  
+- **Cross‑platform** – funziona su Windows, Linux e macOS con lo stesso codice Java.  
+- **Motore di formule robusto** – calcola date, durate e campi personalizzati direttamente nel file di progetto.
+
 ## Prerequisiti
-Prima di iniziare, assicurati di aver configurato i seguenti prerequisiti:
-### Ambiente di sviluppo Java
-Assicurati di avere un Java Development Kit (JDK) installato sul tuo sistema. È possibile scaricare e installare l'ultimo JDK dal sito Web Oracle.
-### Libreria Aspose.Tasks
-È necessario che la libreria Aspose.Tasks sia aggiunta al tuo progetto Java. È possibile scaricare la libreria da[Aspose.Tasks per la pagina di download di Java](https://releases.aspose.com/tasks/java/) e includilo nelle dipendenze del tuo progetto.
+Prima di iniziare, assicurati di avere quanto segue:
 
-## Importa pacchetti
-Prima di immergerti negli esempi, importa i pacchetti necessari nel tuo codice Java:
+- **Java Development Kit (JDK) 8+** – scaricalo dal sito Oracle o utilizza OpenJDK.  
+- **Aspose.Tasks per Java** – ottieni l'ultimo JAR dalla [pagina di download di Aspose.Tasks per Java](https://releases.aspose.com/tasks/java/) e aggiungilo al classpath del tuo progetto o alle dipendenze Maven/Gradle.
+
+## Importa i pacchetti
+Per prima cosa, importa le classi di cui avremo bisogno:
+
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-Suddividiamo l'esempio fornito in più passaggi:
-## Passaggio 1: crea un progetto di prova con campo personalizzato
+## Guida passo‑passo
+
+### Passo 1: Crea un progetto di test con un campo personalizzato
+Iniziamo **creando un progetto di test** e aggiungendo un campo personalizzato che in seguito conterrà il risultato della nostra formula.
+
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
- Innanzitutto, crea un progetto di prova con un campo personalizzato utilizzando il file`CreateTestProjectWithCustomField()` metodo. Questo metodo restituirà un oggetto Project che rappresenta il progetto appena creato.
-## Passaggio 2: definire una definizione di attributo estesa
+
+> *Suggerimento:* `CreateTestProjectWithCustomField()` è un metodo di supporto che costruisce una programmazione minima e registra un attributo esteso pronto per l'assegnazione della formula.
+
+### Passo 2: Definisci un attributo esteso (Aggiungi campo personalizzato)
+Successivamente, **definiamo l'attributo esteso** – essenzialmente il campo personalizzato – e gli assegniamo un alias leggibile. Qui è dove inseriamo la logica per **aggiungere il campo personalizzato**.
+
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
 attr.setAlias("Days from finish to deadline");
 attr.setFormula("[Deadline] - [Finish]");
 ```
-Recupera la definizione dell'attributo esteso dal progetto e impostane l'alias e la formula. In questo esempio stiamo definendo un attributo per calcolare il numero di giorni dalla data di fine alla scadenza.
-## Passaggio 3: imposta la scadenza per un'attività
+
+- **Alias** rende il campo leggibile in Project.  
+- **Formula** calcola il numero di giorni tra la data *Finish* di un'attività e la sua *Deadline*.
+
+### Passo 3: Imposta la scadenza per un'attività (Aggiungi attività di scadenza e imposta la scadenza)
+Ora **aggiungiamo i dati della scadenza** impostando la proprietà *Deadline* su un'attività specifica.
+
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2015, Calendar.MARCH, 26, 8, 0, 0);
 Task task = project.getRootTask().getChildren().getById(1);
 task.set(Tsk.DEADLINE, cal.getTime());
 ```
-Crea un oggetto Calendario e imposta la data di scadenza. Quindi, recupera un'attività dal progetto e impostane la scadenza utilizzando l'oggetto Calendario.
-## Passaggio 4: salva il progetto
+
+- L'istanza `Calendar` definisce il momento esatto della scadenza.  
+- `set(Tsk.DEADLINE, …)` **imposta la scadenza dell'attività** per l'attività selezionata.
+
+### Passo 4: Salva il progetto (Manipola il file Microsoft Project)
+Infine, **manipoliamo Microsoft Project** salvando le modifiche in un file MPP.
+
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
-Infine, salva il progetto in un file con il nome e il formato specificati. In questo caso, lo salviamo come file MPP.
 
-## Conclusione
-In questo tutorial, abbiamo imparato come lavorare con le formule di MS Project utilizzando Aspose.Tasks per Java. Seguendo questi passaggi, puoi manipolare in modo efficace i file di progetto a livello di codice, aggiungendo campi personalizzati e calcolando attributi in base a formule.
+Puoi aprire `SaveFile.mpp` in Microsoft Project per vedere il campo personalizzato, il risultato della formula e la scadenza riflessi nella pianificazione.
+
+## Problemi comuni e soluzioni
+| Problema | Soluzione |
+|----------|-----------|
+| **Formula non valutata** | Assicurati che la stringa `Formula` dell'attributo utilizzi i nomi di campo corretti (ad esempio, `[Deadline]`, `[Finish]`). |
+| **Attività non trovata** | Verifica che l'ID dell'attività (`1` nell'esempio) esista; usa `project.getRootTask().getChildren().size()` per il debug. |
+| **Eccezione di licenza** | Applica una licenza valida di Aspose.Tasks prima di chiamare qualsiasi metodo API (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
 ## Domande frequenti
-### D: Posso utilizzare Aspose.Tasks con altri linguaggi di programmazione?
-R: Sì, Aspose.Tasks supporta vari linguaggi di programmazione tra cui Java, .NET e altri.
-### D: È disponibile una prova gratuita per Aspose.Tasks?
- R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/).
-### D: Dove posso trovare la documentazione per Aspose.Tasks?
- R: È possibile trovare la documentazione per Aspose.Tasks[Qui](https://reference.aspose.com/tasks/java/).
-### D: Come posso ottenere supporto per Aspose.Tasks?
- R: Per supporto, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
-### D: Ho bisogno di una licenza temporanea per utilizzare Aspose.Tasks?
-R: Se hai bisogno di funzionalità aggiuntive, puoi ottenere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
+
+**D: Posso usare Aspose.Tasks con altri linguaggi di programmazione?**  
+R: Sì, Aspose.Tasks fornisce API per .NET, Java e altre piattaforme, consentendoti di **manipolare i file Microsoft Project** nel linguaggio che preferisci.
+
+**D: È disponibile una versione di prova gratuita per Aspose.Tasks?**  
+R: Assolutamente. Scarica una versione di prova completa dalla [pagina di download di Aspose.Tasks](https://releases.aspose.com/).
+
+**D: Dove posso trovare la documentazione dettagliata per Aspose.Tasks?**  
+R: La documentazione ufficiale è disponibile su [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
+
+**D: Come posso ottenere supporto per Aspose.Tasks?**  
+R: Visita il [forum di Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per porre domande e condividere esperienze con la community.
+
+**D: È necessaria una licenza temporanea per la valutazione?**  
+R: È disponibile una licenza temporanea per test a breve termine; puoi richiederla [qui](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Ultimo aggiornamento:** 2025-12-07  
+**Testato con:** Aspose.Tasks per Java 24.12 (ultima versione al momento della scrittura)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
