@@ -64,13 +64,6 @@ weight: 23
 ### [Запись и чтение формул MS Project в Aspose.Tasks](./write-read-formulas/)
 Научитесь эффективно записывать и читать формулы MS Project с Aspose.Tasks for Java. Улучшайте навыки управления проектами.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я изменить формулы в существующем файле .mpp без потери остальных данных?**  
@@ -94,4 +87,9 @@ A: Обрабатывайте задачи пакетами, переиспол�
 **Тестировано с:** Aspose.Tasks for Java 24.11  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

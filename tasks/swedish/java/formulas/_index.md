@@ -64,13 +64,6 @@ Lär dig hur du manipulerar MS Project‑filer i Java med Aspose.Tasks‑bibliot
 ### [Skriva och läsa MS Project‑formler i Aspose.Tasks](./write-read-formulas/)
 Lär dig att skriva och läsa MS Project‑formler effektivt med Aspose.Tasks for Java. Förbättra dina projektledningskunskaper.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag ändra formler i en befintlig .mpp‑fil utan att förlora annan data?**  
@@ -93,3 +86,10 @@ A: Bearbeta uppgifter i batcher, återanvänd en enda `FormulaEvaluator`‑insta
 **Senast uppdaterad:** 2025-12-07  
 **Testat med:** Aspose.Tasks for Java 24.11  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

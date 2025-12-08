@@ -63,13 +63,6 @@ weight: 23
 ### [การเขียนและอ่านสูตร MS Project ใน Aspose.Tasks](./write-read-formulas/)
 เรียนรู้การเขียนและอ่านสูตร MS Project อย่างมีประสิทธิภาพด้วย Aspose.Tasks for Java พัฒนาทักษะการจัดการโครงการของคุณ  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **ถาม: ฉันสามารถแก้ไขสูตรในไฟล์ .mpp ที่มีอยู่โดยไม่ทำให้ข้อมูลอื่นหายไปได้หรือไม่?**  
@@ -93,4 +86,9 @@ weight: 23
 **ทดสอบกับ:** Aspose.Tasks for Java 24.11  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

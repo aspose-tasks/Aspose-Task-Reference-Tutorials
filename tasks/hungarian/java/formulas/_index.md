@@ -66,13 +66,6 @@ Tanuld meg, hogyan manipulálhatod a MS Project fájlokat Java-ban az Aspose.Tas
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Tanuld meg, hogyan írj és olvass MS Project képleteket hatékonyan az Aspose.Tasks for Java-val. Fejleszd projektmenedzsment képességeidet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Módosíthatok képleteket egy meglévő .mpp fájlban anélkül, hogy más adatokat elveszítenék?**  
@@ -96,4 +89,9 @@ A: Feldolgozd a feladatokat kötegekben, használd újra egyetlen `FormulaEvalua
 **Tesztelve:** Aspose.Tasks for Java 24.11  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

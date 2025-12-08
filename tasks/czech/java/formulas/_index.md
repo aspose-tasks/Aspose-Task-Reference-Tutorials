@@ -66,13 +66,6 @@ Naučte se manipulovat se soubory MS Project v Javě pomocí knihovny Aspose.Tas
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Naučte se efektivně zapisovat a číst vzorce MS Project s Aspose.Tasks pro Java. Zlepšete své dovednosti v řízení projektů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Můžu upravit vzorce v existujícím .mpp souboru bez ztráty ostatních dat?**  
@@ -96,4 +89,9 @@ A: Zpracovávejte úkoly po dávkách, znovu použijte jedinou instanci `Formula
 **Testováno s:** Aspose.Tasks for Java 24.11  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

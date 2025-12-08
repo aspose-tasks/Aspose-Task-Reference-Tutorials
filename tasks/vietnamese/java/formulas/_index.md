@@ -64,13 +64,6 @@ Tìm hiểu cách thao tác các tệp MS Project trong Java bằng thư viện 
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Học cách viết và đọc công thức MS Project một cách hiệu quả với Aspose.Tasks for Java. Nâng cao kỹ năng quản lý dự án của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể sửa đổi công thức trong một tệp .mpp hiện có mà không mất dữ liệu khác không?**  
@@ -94,4 +87,9 @@ A: Xử lý nhiệm vụ theo lô, tái sử dụng một đối tượng `Formu
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

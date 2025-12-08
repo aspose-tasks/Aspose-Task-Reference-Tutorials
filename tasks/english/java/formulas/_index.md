@@ -61,13 +61,6 @@ Learn how to manipulate MS Project files in Java using Aspose.Tasks library. Cre
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Learn to write and read MS Project formulas efficiently with Aspose.Tasks for Java. Enhance your project management skills.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I modify formulas in an existing .mpp file without losing other data?**  
@@ -91,4 +84,9 @@ A: Process tasks in batches, reuse a single `FormulaEvaluator` instance, and avo
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

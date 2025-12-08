@@ -66,13 +66,6 @@ weight: 23
 ### [Γραφή και ανάγνωση τύπων MS Project σε Aspose.Tasks](./write-read-formulas/)
 Μάθετε να γράφετε και να διαβάζετε τύπους MS Project αποδοτικά με το Aspose.Tasks for Java. Ενισχύστε τις δεξιότητές σας στη διαχείριση έργων.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να τροποποιήσω τύπους σε ένα υπάρχον αρχείο .mpp χωρίς να χάσω άλλα δεδομένα;**  
@@ -96,4 +89,10 @@ A: Επεξεργαστείτε τις εργασίες σε παρτίδες, �
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

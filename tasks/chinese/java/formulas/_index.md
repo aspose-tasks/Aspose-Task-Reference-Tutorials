@@ -69,13 +69,6 @@ MS Project 公式是根据其他任务或资源数据计算字段值（例如成
 ### [在 Aspose.Tasks 中编写和读取 MS Project 公式](./write-read-formulas/)
 学习如何使用 Aspose.Tasks for Java 高效编写和读取 MS Project 公式。提升您的项目管理技能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以在现有 .mpp 文件中修改公式而不丢失其他数据吗？**  
@@ -98,3 +91,10 @@ MS Project 公式是根据其他任务或资源数据计算字段值（例如成
 **Last Updated:** 2025-12-07  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

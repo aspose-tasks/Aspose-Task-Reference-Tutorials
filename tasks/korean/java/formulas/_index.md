@@ -65,13 +65,6 @@ Aspose.Tasks 라이브러리를 사용하여 Java에서 MS Project 파일을 조
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Aspose.Tasks for Java로 MS Project 수식을 효율적으로 작성하고 읽는 방법을 배우세요. 프로젝트 관리 기술을 향상시킵니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 기존 .mpp 파일에서 다른 데이터를 잃지 않고 수식을 수정할 수 있나요?**  
@@ -94,3 +87,10 @@ Aspose.Tasks for Java로 MS Project 수식을 효율적으로 작성하고 읽�
 **Last Updated:** 2025-12-07  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -64,13 +64,6 @@ Aspose.Tasks लाइब्रेरी का उपयोग करके Jav
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 Aspose.Tasks for Java के साथ MS Project फ़ॉर्मूले को प्रभावी रूप से लिखना और पढ़ना सीखें। अपने प्रोजेक्ट मैनेजमेंट कौशल को बढ़ाएँ।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं मौजूदा .mpp फ़ाइल में फ़ॉर्मूले को संशोधित कर सकता हूँ बिना अन्य डेटा खोए?**  
@@ -94,4 +87,9 @@ A: टास्क को बैच में प्रोसेस करें
 **परीक्षित संस्करण:** Aspose.Tasks for Java 24.11  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -71,13 +71,6 @@ Dowiedz się, jak manipulować plikami MS Project w Javie przy użyciu bibliotek
 ### [Zapisywanie i odczytywanie formuł MS Project w Aspose.Tasks](./write-read-formulas/)
 Naucz się efektywnie zapisywać i odczytywać formuły MS Project przy użyciu Aspose.Tasks for Java. Rozwijaj swoje umiejętności zarządzania projektami.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę modyfikować formuły w istniejącym pliku .mpp bez utraty innych danych?**  
@@ -101,4 +94,9 @@ A: Przetwarzaj zadania w partiach, ponownie używaj jednej instancji `FormulaEva
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

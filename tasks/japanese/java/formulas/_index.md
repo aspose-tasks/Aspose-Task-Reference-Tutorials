@@ -64,13 +64,6 @@ Aspose.Tasks ライブラリを使って Java で MS Project ファイルを操�
 ### [Aspose.Tasks での MS Project 数式の書き込みと読み取り](./write-read-formulas/)
 Aspose.Tasks for Java を使用して MS Project の数式を書き込み、読み取る方法を効率的に学びます。プロジェクト管理スキルを強化しましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: 既存の .mpp ファイルの数式を、他のデータを失わずに変更できますか？**  
@@ -93,3 +86,10 @@ A: タスクをバッチ処理し、単一の `FormulaEvaluator` インスタン
 **最終更新日:** 2025-12-07  
 **テスト環境:** Aspose.Tasks for Java 24.11  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

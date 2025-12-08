@@ -63,13 +63,6 @@ weight: 23
 ### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
 تعلم كتابة وقراءة صيغ MS Project بفعالية مع Aspose.Tasks for Java. حسّن مهاراتك في إدارة المشاريع.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تعديل الصيغ في ملف .mpp موجود دون فقدان البيانات الأخرى؟**  
@@ -93,4 +86,9 @@ weight: 23
 **تم الاختبار مع:** Aspose.Tasks for Java 24.11  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

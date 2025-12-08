@@ -64,13 +64,6 @@ Aspose.Tasks kütüphanesini kullanarak Java'da MS Project dosyalarını nasıl 
 ### [Aspose.Tasks'te MS Project Formüllerini Yazma ve Okuma](./write-read-formulas/)
 Aspose.Tasks for Java ile MS Project formüllerini verimli bir şekilde yazmayı ve okumayı öğrenin. Proje yönetimi becerilerinizi geliştirin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q:** Mevcut bir .mpp dosyasındaki formülleri diğer verileri kaybetmeden değiştirebilir miyim?  
@@ -93,3 +86,10 @@ Aspose.Tasks for Java ile MS Project formüllerini verimli bir şekilde yazmayı
 **Last Updated:** 2025-12-07  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
