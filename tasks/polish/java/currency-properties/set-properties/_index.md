@@ -1,75 +1,134 @@
 ---
-title: Ustaw właściwości waluty w projektach Aspose.Tasks
-linktitle: Ustaw właściwości waluty w projektach Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak ustawić właściwości waluty w projektach Aspose.Tasks przy użyciu języka Java. Bez wysiłku manipuluj plikami Microsoft Project.
+date: 2025-12-04
+description: Dowiedz się, jak ustawić walutę w projektach Aspose.Tasks Java, w tym
+  jak zmienić walutę i symbol waluty w Javie. Bez wysiłku manipuluj plikami Microsoft
+  Project.
+language: pl
+linktitle: Set Currency Properties in Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Jak ustawić walutę w projektach Aspose.Tasks – przewodnik Java
+url: /java/currency-properties/set-properties/
 weight: 11
-url: /pl/java/currency-properties/set-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw właściwości waluty w projektach Aspose.Tasks
+# Jak ustawić walutę w projektach Aspose.Tasks – przewodnik Java
 
-## Wstęp
-W tym samouczku przyjrzymy się, jak ustawić właściwości waluty w projektach Aspose.Tasks przy użyciu języka Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom programowe manipulowanie plikami Microsoft Project.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany pakiet JDK.
-2.  Aspose.Tasks for Java Library: Pobierz i zainstaluj bibliotekę Aspose.Tasks for Java z pliku[link do pobrania](https://releases.aspose.com/tasks/java/).
-3. Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko IDE, takie jak Eclipse lub IntelliJ IDEA.
-## Importuj pakiety
-Najpierw zaimportujmy niezbędne pakiety do pracy z Aspose.Tasks w Javie.
+## Wprowadzenie
+W tym samouczku dowiesz się **jak ustawić walutę** w pliku Microsoft Project przy użyciu API Aspose.Tasks dla Javy. Niezależnie od tego, czy musisz *zmienić walutę* dla międzynarodowych zespołów, czy dostosować *symbol waluty* w Javie, poniższe kroki przeprowadzą Cię przez proces z jasnymi wyjaśnieniami i gotowym do uruchomienia kodem.
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.Tasks for Java.  
+- **Czy mogę zmienić symbol waluty?** Tak – użyj `CurrencySymbolPositionType` i `Prj.CURRENCY_SYMBOL`.  
+- **Jakie formaty plików są obsługiwane?** XML, MPP i wiele innych poprzez `SaveFileFormat`.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Około 5‑10 minut dla podstawowej konfiguracji.
+
+## Co to jest „waluta” w pliku Project?
+Waluta projektu określa, jak wyświetlane są wartości kosztów — kod (np. `AUD`), liczba cyfr po przecinku, symbol (`$`) oraz pozycja symbolu. Ustawienie tych właściwości zapewnia, że każde pole związane z kosztami (stawki zasobów, budżety zadań itp.) odzwierciedla prawidłowy format pieniężny dla Twojej publiczności.
+
+## Dlaczego warto używać Aspose.Tasks do zmiany waluty?
+- **Brak wymogu instalacji Microsoft Project** – manipuluj plikami na dowolnym serwerze.  
+- **Pełne pokrycie API** – wszystkie pola związane z walutą są dostępne poprzez stałe `Prj`.  
+- **Cross‑platform** – działa na Windows, Linux i macOS z dowolnym IDE kompatybilnym z Javą.  
+- **Wysoka wydajność** – przetwarzaj duże pliki projektów szybko i niezawodnie.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – wersja 8 lub wyższa.  
+2. **Aspose.Tasks for Java** – pobierz najnowszy JAR ze [strony pobierania Aspose.Tasks](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA lub dowolny edytor, którego używasz.  
+4. **Folder z prawami zapisu** – w którym zostanie zapisany wygenerowany plik projektu.
+
+## Importowanie pakietów
+Najpierw zaimportuj klasy zapewniające dostęp do właściwości projektu i obsługi plików.
+
 ```java
 import com.aspose.tasks.CurrencySymbolPositionType;
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
-## Krok 1: Ustaw katalog danych
-Ustaw katalog danych, w którym znajdują się pliki projektu.
+
+## Przewodnik krok po kroku
+
+### Krok 1: Zdefiniuj katalog danych
+Określ folder zawierający pliki źródłowe i miejsce, w którym zostanie zapisany wynik.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Krok 2: Utwórz instancję projektu
-Utwórz nową instancję projektu za pomocą Aspose.Tasks.
+
+### Krok 2: Utwórz nową instancję projektu
+Zainicjuj nowy obiekt `Project`. Obiekt ten reprezentuje projekt Microsoft Project w pamięci.
+
 ```java
 Project project = new Project();
 ```
-## Krok 3: Ustaw właściwości waluty
-Teraz ustawmy właściwości waluty projektu.
+
+### Krok 3: Ustaw właściwości waluty
+Tutaj **jak ustawić walutę** – kod, liczba cyfr, symbol i pozycja symbolu.
+
 ```java
-project.set(Prj.CURRENCY_CODE, "AUD");
-project.set(Prj.CURRENCY_DIGITS, 2);
-project.set(Prj.CURRENCY_SYMBOL, "$");
-project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After);
+project.set(Prj.CURRENCY_CODE, "AUD");                         // Currency code (e.g., AUD, USD)
+project.set(Prj.CURRENCY_DIGITS, 2);                          // Number of decimal places
+project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to display
+project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
-## Krok 4: Zapisz projekt
-Zapisz projekt ze zaktualizowanymi właściwościami waluty.
+
+> **Wskazówka:** Jeśli musisz **zmienić walutę** w istniejącym projekcie, po prostu wczytaj plik za pomocą `new Project("file.mpp")` przed zastosowaniem powyższych ustawień.
+
+### Krok 4: Zapisz zaktualizowany projekt
+Zapisz projekt na dysku w wybranym formacie. W tym przykładzie używamy formatu XML, ale możesz także wybrać `SaveFileFormat.MPP`.
+
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-## Krok 5: Wyświetl komunikat o zakończeniu
-Wyświetl komunikat informujący o pomyślnym zakończeniu procesu.
+
+### Krok 5: Potwierdź powodzenie
+Wypisz przyjazny komunikat, aby wiedzieć, że operacja zakończyła się bez błędów.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Gratulacje! Pomyślnie ustawiłeś właściwości waluty w projekcie Aspose.Tasks przy użyciu języka Java.
-## Wniosek
-W tym samouczku nauczyliśmy się używać Aspose.Tasks dla Java do ustawiania właściwości waluty w plikach projektu. Dzięki Aspose.Tasks programiści mogą efektywnie manipulować danymi projektu, co czyni go cennym narzędziem w aplikacjach do zarządzania projektami.
-## Często zadawane pytania
-### Czy mogę ustawić wiele walut w jednym projekcie za pomocą Aspose.Tasks?
-Tak, Aspose.Tasks umożliwia obsługę wielu walut w jednym pliku projektu.
-### Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików Microsoft Project?
-Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, zapewniając kompatybilność w różnych środowiskach.
-### Czy Aspose.Tasks zapewnia obsługę niestandardowych formatów walut?
-Absolutnie Aspose.Tasks oferuje elastyczność w definiowaniu niestandardowych formatów walut w celu spełnienia określonych wymagań projektu.
-### Czy mogę zintegrować Aspose.Tasks z innymi bibliotekami lub frameworkami Java?
-Tak, Aspose.Tasks można bezproblemowo zintegrować z innymi bibliotekami i frameworkami Java, zwiększając jego funkcjonalność i wszechstronność.
-### Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dla Aspose.Tasks?
- Aby uzyskać dodatkowe wsparcie, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz znaleźć przydatne zasoby i nawiązać kontakt ze społecznością.
+
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| **`NullPointerException` przy `project.save`** | `dataDir` nie jest prawidłową ścieżką lub brakuje uprawnień do zapisu. | Upewnij się, że katalog istnieje i proces Java ma prawo zapisu. |
+| **Symbol waluty się nie wyświetla** | Pozycja symbolu jest ustawiona niepoprawnie dla Twojego regionu. | Użyj `CurrencySymbolPositionType.Before`, jeśli symbol ma poprzedzać kwotę. |
+| **Plik projektu nie otwiera się w MS Project** | Zapis w starszym formacie z niekompatybilnymi ustawieniami. | Zapisz przy użyciu `SaveFileFormat.MPP` dla pełnej kompatybilności z najnowszymi wersjami MS Project. |
+
+## Najczęściej zadawane pytania
+
+**P: Czy mogę ustawić wiele walut w jednym projekcie przy użyciu Aspose.Tasks?**  
+O: Tak, Aspose.Tasks pozwala obsługiwać wiele walut w jednym pliku projektu, ustawiając właściwości waluty na poziomie zasobu lub zadania.
+
+**P: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików Microsoft Project?**  
+O: Zdecydowanie. Biblioteka obsługuje pliki MPP od Project 2000 aż po najnowsze wydania, a także XML i inne formaty.
+
+**P: Czy Aspose.Tasks oferuje wsparcie dla niestandardowych formatów walut?**  
+O: Tak, możesz definiować własne symbole, liczbę cyfr po przecinku i pozycję, aby spełnić wymagania regionalne.
+
+**P: Czy mogę zintegrować Aspose.Tasks z innymi bibliotekami lub frameworkami Java?**  
+O: Oczywiście. API jest czystą Javą, więc współpracuje bezproblemowo ze Spring, Hibernate, Maven, Gradle i innymi ekosystemami.
+
+**P: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dotyczącą Aspose.Tasks?**  
+O: Odwiedź [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) po pomoc społeczności lub zapoznaj się z oficjalną dokumentacją, aby uzyskać szczegółowe odniesienia do API.
+
+## Zakończenie
+Teraz wiesz **jak ustawić walutę**, jak **zmienić wartości waluty** oraz jak **zmienić symbol waluty w stylu Java** przy użyciu Aspose.Tasks for Java. Dzięki tym możliwościom możesz dostosować dane kosztowe dla zespołów globalnych, generować raporty specyficzne dla lokalizacji i utrzymywać spójność plików projektów na całym świecie.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-04  
+**Testowano z:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

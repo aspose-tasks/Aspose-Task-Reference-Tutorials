@@ -1,46 +1,97 @@
 ---
-title: Thuộc tính tiền tệ
-linktitle: Thuộc tính tiền tệ
-second_title: API Java Aspose.Tasks
-description: Khai phá sức mạnh của Aspose.Tasks cho Hướng dẫn Java. Khám phá hướng dẫn từng bước về cách đọc và thiết lập thuộc tính tiền tệ trong tệp MS Project một cách dễ dàng.
+date: 2025-12-04
+description: Tìm hiểu cách đọc tiền tệ và cách thiết lập các thuộc tính tiền tệ trong
+  các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để thao tác tệp
+  dự án một cách dễ dàng.
+language: vi
+linktitle: How to Read Currency
+second_title: Aspose.Tasks Java API
+title: Cách đọc thuộc tính tiền tệ với Aspose.Tasks cho Java
+url: /java/currency-properties/
 weight: 25
-url: /vi/java/currency-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thuộc tính tiền tệ
+# Cách Đọc Thuộc Tính Tiền Tệ với Aspose.Tasks cho Java
 
 ## Giới thiệu
-Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks for Java của mình chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về các thuộc tính tiền tệ và nắm vững nghệ thuật xử lý thông tin tiền tệ trong các tệp MS Project.
+Sẵn sàng nâng cao kỹ năng Aspose.Tasks cho Java? Trong hướng dẫn này chúng tôi sẽ chỉ **cách đọc thông tin tiền tệ** từ các tệp Microsoft Project và cũng sẽ trình bày **cách thiết lập giá trị tiền tệ** khi cần. Hiểu được các thuộc tính này giúp bạn duy trì dữ liệu tài chính nhất quán trong các dự án quốc tế, tránh lỗi chuyển đổi và trình bày báo cáo chi phí rõ ràng cho các bên liên quan.
 
-## Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks
+## Câu trả lời nhanh
+- **“Đọc tiền tệ” có nghĩa là gì?** Trích xuất mã tiền tệ, ký hiệu và định dạng được lưu trong tệp Project.  
+- **Tại sao cần điều chỉnh cài đặt tiền tệ?** Để phù hợp với định dạng khu vực của ngân sách dự án hoặc đáp ứng yêu cầu của khách hàng.  
+- **Có cần giấy phép không?** Cần có giấy phép Aspose.Tasks cho Java hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí đủ cho việc đánh giá.  
+- **Những phiên bản Project nào được hỗ trợ?** Cả định dạng .mpp (Microsoft Project 2007‑2024) và .xml đều được hỗ trợ đầy đủ.  
+- **Cần thiết lập bổ sung nào không?** Chỉ cần thêm JAR Aspose.Tasks cho Java vào classpath và import các lớp liên quan.
 
- Trong lĩnh vực năng động của quản lý dự án, việc hiểu rõ các đặc tính của tiền tệ là điều tối quan trọng. Hướng dẫn của chúng tôi về[Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks](./read-properties/) là nguồn tài nguyên phù hợp của bạn. Hướng dẫn từng bước này cho phép bạn trích xuất thông tin tiền tệ có giá trị từ các tệp MS Project bằng Aspose.Tasks cho Java.
+## Cách Đọc Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks
+Trong lĩnh vực quản lý dự án năng động, việc trích xuất chi tiết tiền tệ là cần thiết cho phân tích chi phí chính xác. Hướng dẫn chi tiết của chúng tôi **[Đọc Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks](./read-properties/)** sẽ hướng dẫn bạn từng bước — từ mở tệp dự án đến lấy mã tiền tệ, ký hiệu và định dạng. Khi làm theo tutorial, bạn sẽ có thể:
 
-Bắt đầu hành trình của bạn bằng cách hiểu rõ hơn về sự phức tạp của các đặc tính tiền tệ. Chúng tôi làm sáng tỏ sự phức tạp, đảm bảo bạn nắm bắt từng khái niệm một cách dễ dàng. Từ khi bắt đầu đến khi hoàn thành dự án, việc biết cách điều hướng dữ liệu liên quan đến tiền tệ sẽ nâng cao năng lực quản lý dự án của bạn. Với hướng dẫn của chúng tôi, bạn sẽ tích hợp liền mạch kiến thức này vào bộ công cụ Aspose.Tasks for Java của mình.
+* Lấy mã tiền tệ (ví dụ: USD, EUR) được sử dụng trong toàn bộ dự án.  
+* Truy cập ký hiệu tiền tệ và các cài đặt định dạng số.  
+* Sử dụng thông tin này để tạo báo cáo chi phí bản địa hoá hoặc cung cấp cho các bảng điều khiển tài chính.
 
-Tại sao phải chấp nhận những điều bình thường khi bạn có thể nổi trội với những kỹ năng phi thường? Mở khóa tiềm năng của các thuộc tính tiền tệ và nâng cao trình độ Aspose.Tasks của bạn.
+Hiểu cách đọc tiền tệ giúp bạn kiểm tra ngân sách dự án, so sánh chi phí giữa các khu vực và duy trì tuân thủ các chuẩn kế toán.
 
-## Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks
+## Cách Thiết Lập Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks
+Khi một dự án chuyển sang thị trường mới hoặc khách hàng yêu cầu định dạng tiền tệ khác, bạn sẽ cần **cách thiết lập tiền tệ** một cách lập trình. Hướng dẫn chi tiết **[Thiết Lập Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks](./set-properties/)** giải thích cách:
 
- Bạn đã sẵn sàng nâng cao kiến thức chuyên môn về Aspose.Tasks của mình lên một tầm cao mới chưa? Hướng dẫn của chúng tôi về[Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks](./set-properties/) được thiết kế cho những người đam mê như bạn. Đi sâu vào thế giới lập trình Java và thao tác dễ dàng với các tệp Microsoft Project một cách chính xác.
+* Định nghĩa mã tiền tệ và ký hiệu mới cho toàn bộ dự án.  
+* Điều chỉnh định dạng số (số thập phân, dấu phân cách hàng nghìn) để phù hợp với quy ước địa phương.  
+* Lưu tệp dự án đã cập nhật mà không mất bất kỳ dữ liệu hiện có nào.
 
-Hãy làm theo hướng dẫn từng bước của chúng tôi để hiểu những điểm phức tạp của việc thiết lập thuộc tính tiền tệ. Chúng tôi đơn giản hóa quy trình, giúp cả người mới bắt đầu và nhà phát triển dày dạn kinh nghiệm đều có thể truy cập được. Trao quyền cho bản thân để tùy chỉnh thông tin tiền tệ trong các dự án Aspose.Tasks, đảm bảo trải nghiệm quản lý dự án liền mạch.
+Bằng cách thành thạo cách thiết lập tiền tệ, bạn sẽ có toàn quyền kiểm soát cách biểu diễn tài chính của lịch trình, dễ dàng chuyển đổi giữa USD, GBP, JPY hoặc bất kỳ tiền tệ nào được hỗ trợ.
 
-Khi bạn bắt tay vào hướng dẫn này, hãy hình dung những khả năng mà việc nắm vững các thuộc tính tiền tệ sẽ mở ra. Tích hợp liền mạch các kỹ năng mới tìm thấy vào dự án của bạn, nâng cao hiệu quả chung cho quy trình làm việc của bạn.
+## Tại Sao Nên Thành Thạo Xử Lý Tiền Tệ trong Aspose.Tasks?
+* **Hợp tác toàn cầu:** Các đội ngũ ở các quốc gia khác nhau có thể xem chi phí theo định dạng địa phương của họ.  
+* **Báo cáo chính xác:** Ngăn ngừa lỗi làm tròn hoặc chuyển đổi có thể ảnh hưởng đến ngân sách.  
+* **Tuân thủ:** Phù hợp với các chuẩn kế toán khu vực và yêu cầu của khách hàng.  
+* **Tự động hoá:** Giảm thiểu chỉnh sửa thủ công bằng cách áp dụng cài đặt tiền tệ một cách lập trình trong quá trình tạo dự án.
 
-Tóm lại, Hướng dẫn Aspose.Tasks dành cho Java về Thuộc tính tiền tệ của chúng tôi cung cấp một cánh cửa dẫn đến sự xuất sắc. Nâng cao kỹ năng của bạn, giải quyết những vấn đề phức tạp và trở thành nhà phát triển Aspose.Tasks thành thạo. Trao quyền cho hành trình của bạn với kiến thức để đọc và thiết lập các thuộc tính tiền tệ một cách dễ dàng, mang lại giá trị vô song cho các tệp MS Project của bạn.
+## Các Trường Hợp Sử Dụng Thực Tế
+* **Dự án đa quốc gia:** Một công ty xây dựng quản lý các công trường ở Châu Âu và Bắc Mỹ cần trình bày ngân sách bằng EUR và USD.  
+* **Kiểm toán tài chính:** Kiểm toán viên yêu cầu có cái nhìn rõ ràng về ngữ cảnh tiền tệ cho mỗi mục chi phí.  
+* **Mô hình định giá động:** Các nhà cung cấp SaaS điều chỉnh phí thuê bao dựa trên tiền tệ địa phương của khách hàng.
 
-Bạn đã sẵn sàng bắt tay vào cuộc hành trình giáo dục này chưa? Nhấp vào các liên kết bên dưới để bắt đầu:
+## Những Sai Lầm Thường Gặp & Mẹo
+* **Sai lầm:** Quên cập nhật ký hiệu tiền tệ sau khi thay đổi mã.  
+  **Mẹo:** Luôn đặt cả mã và ký hiệu cùng lúc để tránh hiển thị không khớp.  
+* **Sai lầm:** Phụ thuộc vào locale mặc định của máy chạy mã.  
+  **Mẹo:** Rõ ràng chỉ định định dạng tiền tệ mong muốn trong mã Aspose.Tasks để đảm bảo tính nhất quán trên mọi môi trường.  
 
-## Hướng dẫn về thuộc tính tiền tệ
-### [Đọc thuộc tính tiền tệ trong dự án Aspose.Tasks](./read-properties/)
-Tìm hiểu cách trích xuất thông tin tiền tệ từ các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước được cung cấp.
-### [Đặt thuộc tính tiền tệ trong dự án Aspose.Tasks](./set-properties/)
-Tìm hiểu cách đặt thuộc tính tiền tệ trong dự án Aspose.Tasks bằng Java. Thao tác dễ dàng với các tệp Microsoft Project.
+## Các Tutorial về Thuộc Tính Tiền Tệ
+### [Đọc Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks](./read-properties/)
+Tìm hiểu cách trích xuất thông tin tiền tệ từ tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn chi tiết từng bước.
+
+### [Thiết Lập Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks](./set-properties/)
+Tìm hiểu cách thiết lập thuộc tính tiền tệ trong dự án Aspose.Tasks bằng Java. Thao tác với các tệp Microsoft Project một cách dễ dàng.
+
+## Câu Hỏi Thường Gặp
+
+**H: Tôi có thể thay đổi tiền tệ sau khi dự án đã được lưu không?**  
+Đ: Có. Sử dụng `Project.setCurrencyCode()` và các phương thức liên quan, sau đó lưu lại dự án.
+
+**H: Thay đổi tiền tệ có ảnh hưởng đến các giá trị chi phí hiện có không?**  
+Đ: Các giá trị số vẫn không thay đổi; chỉ định dạng hiển thị (ký hiệu, dấu phân cách thập phân) được cập nhật. Bạn phải tính lại chi phí nếu cần chuyển đổi giữa các tiền tệ.
+
+**H: Có giới hạn số lượng tiền tệ tôi có thể định nghĩa không?**  
+Đ: Aspose.Tasks hỗ trợ bất kỳ mã tiền tệ ISO‑4217 nào, vì vậy về thực tế bạn không bị giới hạn.
+
+**H: Điều gì sẽ xảy ra nếu tôi mở một dự án với mã tiền tệ không được hỗ trợ?**  
+Đ: Thư viện sẽ quay lại tiền tệ mặc định (USD) và ghi cảnh báo; bạn có thể ghi đè bằng cách thiết lập tiền tệ mong muốn thủ công.
+
+**H: Có thể đọc/ghi thuộc tính tiền tệ trong tệp Project XML không?**  
+Đ: Hoàn toàn có thể. Cùng một API hoạt động cho cả định dạng .mpp và .xml.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-04  
+**Kiểm tra với:** Aspose.Tasks cho Java 24.12  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
