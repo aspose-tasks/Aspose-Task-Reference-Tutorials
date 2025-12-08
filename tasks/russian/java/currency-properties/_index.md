@@ -69,13 +69,6 @@ weight: 25
 ### [Установка свойств валюты в проектах Aspose.Tasks](./set-properties/)
 Узнайте, как задавать свойства валюты в проектах Aspose.Tasks с помощью Java. Легко манипулируйте файлами Microsoft Project.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли изменить валюту после того, как проект уже сохранён?**  
@@ -99,4 +92,9 @@ A: Конечно. Один и тот же API работает как с фор
 **Тестировано с:** Aspose.Tasks for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

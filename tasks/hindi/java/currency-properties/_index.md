@@ -68,13 +68,6 @@ MS Project फ़ाइलों से Aspose.Tasks for Java का उपय�
 ### [Set Currency Properties in Aspose.Tasks Projects](./set-properties/)
 Java का उपयोग करके Aspose.Tasks प्रोजेक्ट्स में मुद्रा गुण सेट करना सीखें। Microsoft Project फ़ाइलों को आसानी से हेरफेर करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: क्या मैं प्रोजेक्ट को पहले से सहेजे जाने के बाद मुद्रा बदल सकता हूँ?**  
@@ -98,4 +91,9 @@ A: बिल्कुल। वही API .mpp और .xml दोनों फ�
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

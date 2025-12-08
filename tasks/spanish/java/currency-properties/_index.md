@@ -69,13 +69,6 @@ Aprenda a extraer información de moneda de archivos MS Project usando Aspose.Ta
 ### [Set Currency Properties in Aspose.Tasks Projects](./set-properties/)
 Aprenda a establecer propiedades de moneda en proyectos Aspose.Tasks usando Java. Manipule archivos Microsoft Project sin esfuerzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I change the currency after the project is already saved?**  
@@ -99,4 +92,9 @@ A: Absolutely. The same API works for both .mpp and .xml formats.
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

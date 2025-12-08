@@ -69,13 +69,6 @@ Dowiedz się, jak wyodrębnić informacje o walucie z plików MS Project przy u�
 ### [Ustawianie właściwości waluty w projektach Aspose.Tasks](./set-properties/)
 Poznaj metodę ustawiania właściwości waluty w projektach Aspose.Tasks przy użyciu Javy. Manipuluj plikami Microsoft Project bez wysiłku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę zmienić walutę po zapisaniu projektu?**  
@@ -99,4 +92,9 @@ O: Oczywiście. To samo API działa zarówno dla formatów .mpp, jak i .xml.
 **Testowano z:** Aspose.Tasks dla Javy 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

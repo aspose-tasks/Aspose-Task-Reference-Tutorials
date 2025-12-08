@@ -68,13 +68,6 @@ Aspose.Tasks for Java를 사용해 MS Project 파일에서 통화 정보를 추�
 ### [Aspose.Tasks 프로젝트에서 통화 속성 설정하기](./set-properties/)
 Java를 이용해 Aspose.Tasks 프로젝트의 통화 속성을 설정하는 방법을 배웁니다. Microsoft Project 파일을 손쉽게 조작할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 프로젝트를 저장한 뒤에도 통화를 변경할 수 있나요?**  
@@ -97,3 +90,10 @@ A: 물론 가능합니다. 동일한 API가 .mpp와 .xml 형식 모두에서 작
 **마지막 업데이트:** 2025-12-04  
 **테스트 환경:** Aspose.Tasks for Java 24.12  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

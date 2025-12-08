@@ -69,13 +69,6 @@ Apprenez comment extraire les informations de devise des fichiers MS Project à 
 ### [Définir les propriétés de devise dans les projets Aspose.Tasks](./set-properties/)
 Apprenez comment définir les propriétés de devise dans les projets Aspose.Tasks en utilisant Java. Manipulez les fichiers Microsoft Project sans effort.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquemment posées
 
 **Q : Puis‑je changer la devise après que le projet a déjà été enregistré ?**  
@@ -99,4 +92,9 @@ A : Absolument. La même API fonctionne pour les formats .mpp et .xml.
 **Testé avec :** Aspose.Tasks for Java 24.12  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

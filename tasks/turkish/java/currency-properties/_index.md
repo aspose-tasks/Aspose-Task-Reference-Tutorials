@@ -69,13 +69,6 @@ Aspose.Tasks for Java kullanarak MS Project dosyalarından para birimi bilgileri
 ### [Aspose.Tasks Projelerinde Para Birimi Özelliklerini Ayarlama](./set-properties/)
 Java kullanarak Aspose.Tasks projelerinde para birimi özelliklerini nasıl ayarlayacağınızı öğrenin. Microsoft Project dosyalarını zahmetsizce yönetin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Proje zaten kaydedildikten sonra para birimini değiştirebilir miyim?**  
@@ -99,4 +92,9 @@ A: Kesinlikle. Aynı API .mpp ve .xml formatları için çalışır.
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

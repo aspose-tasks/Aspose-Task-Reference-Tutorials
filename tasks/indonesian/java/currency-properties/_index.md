@@ -69,13 +69,6 @@ Pelajari cara mengekstrak informasi mata uang dari file MS Project menggunakan A
 ### [Mengatur Properti Mata Uang dalam Proyek Aspose.Tasks](./set-properties/)
 Pelajari cara mengatur properti mata uang dalam proyek Aspose.Tasks menggunakan Java. Manipulasi file Microsoft Project menjadi mudah.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya mengubah mata uang setelah proyek sudah disimpan?**  
@@ -99,4 +92,9 @@ J: Tentu saja. API yang sama bekerja untuk format .mpp dan .xml.
 **Diuji Dengan:** Aspose.Tasks untuk Java 24.12  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

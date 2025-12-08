@@ -69,13 +69,6 @@ Ismerd meg, hogyan nyerheted ki a pénznem információkat az MS Project fájlok
 ### [Pénznem tulajdonságok beállítása az Aspose.Tasks projektekben](./set-properties/)
 Ismerd meg, hogyan állíthatod be a pénznem tulajdonságait az Aspose.Tasks projektekben Java használatával. Könnyedén manipulálhatod a Microsoft Project fájlokat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Módosíthatom a pénznemet, miután a projekt már el lett mentve?**  
@@ -99,4 +92,9 @@ A: Természetesen. Ugyanaz az API működik mind .mpp, mind .xml formátumok ese
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

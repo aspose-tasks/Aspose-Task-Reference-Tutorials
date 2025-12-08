@@ -67,13 +67,6 @@ weight: 25
 ### [在 Aspose.Tasks 專案中設定貨幣屬性](./set-properties/)
 了解如何使用 Java 在 Aspose.Tasks 專案中設定貨幣屬性。輕鬆操作 Microsoft Project 檔案。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問答
 
 **Q: 我可以在專案已儲存後變更貨幣嗎？**  
@@ -96,3 +89,10 @@ A: 當然可以。相同的 API 同時支援 .mpp 與 .xml 格式。
 **最後更新：** 2025-12-04  
 **測試環境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

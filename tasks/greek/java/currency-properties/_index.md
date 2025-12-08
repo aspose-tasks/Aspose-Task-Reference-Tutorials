@@ -69,13 +69,6 @@ weight: 25
 ### [Set Currency Properties in Aspose.Tasks Projects](./set-properties/)
 Μάθετε πώς να ορίζετε ιδιότητες νομίσματος σε έργα Aspose.Tasks χρησιμοποιώντας Java. Διαχειριστείτε αρχεία Microsoft Project με ευκολία.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να αλλάξω το νόμισμα μετά την αποθήκευση του έργου;**  
@@ -99,4 +92,9 @@ weight: 25
 **Δοκιμή Με:** Aspose.Tasks for Java 24.12  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

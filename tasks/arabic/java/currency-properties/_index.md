@@ -68,13 +68,6 @@ weight: 25
 ### [ضبط خصائص العملة في مشاريع Aspose.Tasks](./set-properties/)
 تعلم كيفية ضبط خصائص العملة في مشاريع Aspose.Tasks باستخدام Java. تعامل مع ملفات Microsoft Project بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تغيير العملة بعد حفظ المشروع؟**  
@@ -98,4 +91,9 @@ weight: 25
 **تم الاختبار مع:** Aspose.Tasks for Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

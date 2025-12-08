@@ -69,13 +69,6 @@ Naučte se, jak extrahovat informace o měně ze souborů MS Project pomocí Asp
 ### [Nastavit vlastnosti měny v projektech Aspose.Tasks](./set-properties/)
 Naučte se, jak nastavit vlastnosti měny v projektech Aspose.Tasks pomocí Javy. Snadno manipulujte se soubory Microsoft Project.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu změnit měnu po tom, co byl projekt již uložen?**  
@@ -98,3 +91,10 @@ A: Ano. Stejné API funguje pro formáty .mpp i .xml.
 **Poslední aktualizace:** 2025-12-04  
 **Testováno s:** Aspose.Tasks pro Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

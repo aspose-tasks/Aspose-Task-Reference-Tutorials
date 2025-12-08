@@ -69,13 +69,6 @@ Erfahren Sie, wie Sie Währungsinformationen aus MS‑Project‑Dateien mithilfe
 ### [Währungseigenschaften in Aspose.Tasks‑Projekten setzen](./set-properties/)
 Erfahren Sie, wie Sie Währungseigenschaften in Aspose.Tasks‑Projekten mit Java festlegen. Microsoft‑Project‑Dateien mühelos manipulieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich die Währung ändern, nachdem das Projekt bereits gespeichert wurde?**  
@@ -99,4 +92,9 @@ A: Absolut. Die gleiche API funktioniert sowohl für .mpp‑ als auch für .xml�
 **Getestet mit:** Aspose.Tasks für Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

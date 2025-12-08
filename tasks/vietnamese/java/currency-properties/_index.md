@@ -69,13 +69,6 @@ Tìm hiểu cách trích xuất thông tin tiền tệ từ tệp MS Project b�
 ### [Thiết Lập Thuộc Tính Tiền Tệ trong Dự Án Aspose.Tasks](./set-properties/)
 Tìm hiểu cách thiết lập thuộc tính tiền tệ trong dự án Aspose.Tasks bằng Java. Thao tác với các tệp Microsoft Project một cách dễ dàng.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **H: Tôi có thể thay đổi tiền tệ sau khi dự án đã được lưu không?**  
@@ -99,4 +92,9 @@ Tìm hiểu cách thiết lập thuộc tính tiền tệ trong dự án Aspose.
 **Kiểm tra với:** Aspose.Tasks cho Java 24.12  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

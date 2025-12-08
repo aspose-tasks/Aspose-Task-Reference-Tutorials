@@ -69,13 +69,6 @@ Lär dig hur du extrahainformation från MS Project‑filer med Aspose.Tasks fö
 ### [Ställ in valutaproperties i Aspose.Tasks‑projekt](./set-properties/)
 Lär dig hur du ställer in valutaproperties i Aspose.Tasks‑projekt med Java. Manipulera Microsoft Project‑filer utan ansträngning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag ändra valutan efter att projektet redan har sparats?**  
@@ -99,4 +92,9 @@ A: Absolut. samma API fungerar för både .mpp‑ och .xml‑format.
 **Testat med:** Aspose.Tasks för Java 24.12  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
