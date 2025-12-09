@@ -1,58 +1,96 @@
 ---
-title: Configurare la visualizzazione del diagramma di Gantt nei progetti Aspose.Tasks
-linktitle: Configurare la visualizzazione del diagramma di Gantt nei progetti Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come configurare la visualizzazione del diagramma di Gantt MS Project in Aspose.Tasks utilizzando Java. Personalizza i progetti e visualizzali nel diagramma di Gantt passo dopo passo.
-weight: 10
+date: 2025-12-09
+description: Impara come impostare la directory dei dati e configurare la visualizzazione
+  del diagramma di Gantt in Aspose.Tasks usando Java. Questa guida mostra anche come
+  personalizzare i campi della tabella e configurare i progetti Java del diagramma
+  di Gantt passo dopo passo.
+linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Imposta la directory dei dati per la visualizzazione del diagramma di Gantt
+  in Aspose.Tasks
 url: /it/java/project-configuration/configure-gantt-chart/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configurare la visualizzazione del diagramma di Gantt nei progetti Aspose.Tasks
+# Impostare la Directory dei Dati per la Visualizzazione del Diagramma di Gantt in Aspose.Tasks
 
-## introduzione
-In questo tutorial imparerai come configurare la visualizzazione del grafico di Gantt MS Project nei progetti Aspose.Tasks utilizzando Java. Aspose.Tasks è una potente API Java che ti consente di lavorare con i file di Microsoft Project a livello di codice. Seguendo questi passaggi, sarai in grado di personalizzare la visualizzazione del diagramma di Gantt in base ai requisiti del tuo progetto.
+## Introduzione
+In questo tutorial, imparerai **come impostare la directory dei dati** e configurare la visualizzazione del diagramma di Gantt di MS Project in progetti Aspose.Tasks usando Java. Aspose.Tasks è una robusta API Java che consente di manipolare i file Microsoft Project programmaticamente. Alla fine di questa guida sarai in grado di **personalizzare i campi della tabella**, regolare la directory dei dati e visualizzare il tuo progetto esattamente come desideri.
+
+## Risposte Rapide
+- **Qual è il primo passo?** Imposta il percorso della directory dei dati dove risiedono i file del tuo progetto.  
+- **Quale libreria è necessaria?** Aspose.Tasks per Java (scaricabile dal sito ufficiale).  
+- **Posso aggiungere attributi personalizzati?** Sì – puoi definire attributi estesi e mostrarli nel diagramma di Gantt.  
+- **Ho bisogno di una licenza per i test?** È disponibile una licenza temporanea per scopi di valutazione.  
+- **Quale IDE funziona meglio?** Qualsiasi IDE Java (IntelliJ IDEA, Eclipse, NetBeans) funzionerà.
+
+## Cos'è “impostare la directory dei dati” e perché è importante?
+Impostare la directory dei dati indica ad Aspose.Tasks dove leggere e scrivere i file di progetto. Senza un percorso corretto l'API non può trovare i tuoi file `.mpp`, causando errori FileNotFound. Definire questa directory all'inizio del tuo codice rende il resto del flusso di lavoro pulito e ripetibile.
+
+## Perché personalizzare i campi della tabella in un diagramma di Gantt?
+I campi della tabella personalizzati ti consentono di mostrare informazioni aggiuntive — come attributi personalizzati, dati delle risorse o note specifiche del progetto — direttamente nella visualizzazione Gantt. Questo rende il diagramma più informativo per gli stakeholder e riduce la necessità di passare tra più report.
+
 ## Prerequisiti
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
-1. Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema.
-2.  Libreria Aspose.Tasks: scarica e installa la libreria Aspose.Tasks. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/java/).
-3. Ambiente di sviluppo integrato (IDE): scegli un IDE a tua scelta. Questo tutorial utilizza IntelliJ IDEA, ma puoi utilizzare qualsiasi IDE con cui ti trovi a tuo agio.
-## Importa pacchetti
-Innanzitutto, devi importare i pacchetti necessari per lavorare con Aspose.Tasks nel tuo progetto Java. Aggiungi le seguenti istruzioni di importazione al tuo file Java:
+Prima di iniziare, assicurati di avere:
+
+1. **Java Development Kit (JDK)** – qualsiasi versione recente (8+).  
+2. **Libreria Aspose.Tasks** – scaricala da [here](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, o qualsiasi editor compatibile con Java che preferisci.
+
+## Importare i Pacchetti
+Per prima cosa, importa lo spazio dei nomi Aspose.Tasks così da poter lavorare con le sue classi:
+
 ```java
 import com.aspose.tasks.*;
 ```
-Ora, analizziamo il processo di configurazione della visualizzazione del diagramma di progetto Gantt MS in istruzioni dettagliate:
-## Passaggio 1: impostare la directory dei dati
+
+## Guida Passo‑Passo
+
+### Passo 1: Configurare la Directory dei Dati
+Definisci la cartella che contiene i tuoi file di progetto. Questo è il passo **impostare la directory dei dati** su cui si concentra il tutorial.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Sostituire`"Your Data Directory"` con il percorso della directory dei dati del progetto.
-## Passaggio 2: caricare il file di progetto
+
+Sostituisci `"Your Data Directory"` con il percorso assoluto della cartella dove è memorizzato `project.mpp`.
+
+### Passo 2: Caricare il File di Progetto
+Crea un'istanza `Project` caricando un file Microsoft Project esistente.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Carica il file del tuo progetto (`project.mpp` in questo esempio) utilizzando il file`Project` classe da Aspose.Tasks.
-## Passaggio 3: aggiungi una nuova attività
+
+### Passo 3: Aggiungere una Nuova Attività
+Inserisci una nuova attività (task) nella radice del progetto.
+
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
 ```
- Crea una nuova attività nel tuo progetto utilizzando il file`Task` class e aggiungerla ai figli dell'attività root.
-## Passaggio 4: definire l'attributo personalizzato
+
+### Passo 4: Definire un Attributo Personalizzato
+Crea una definizione di attributo personalizzato che potrai successivamente associare ai task.
+
 ```java
 ExtendedAttributeDefinition text1Definition = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text1, null);
 project.getExtendedAttributes().add(text1Definition);
 ```
- Definire un nuovo attributo personalizzato utilizzando il file`ExtendedAttributeDefinition`class e aggiungerlo agli attributi estesi del progetto.
-## Passaggio 5: aggiungi un attributo personalizzato all'attività
+
+### Passo 5: Aggiungere l'Attributo Personalizzato al Task
+Assegna il nuovo attributo definito al task che hai creato.
+
 ```java
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
 ```
- Aggiungi l'attributo personalizzato all'attività creata utilizzando il file`createExtendedAttribute` metodo.
-## Passaggio 6: personalizzare la tabella
+
+### Passo 6: Personalizzare la Tabella – **customize table fields**
+Aggiungi l'attributo personalizzato come colonna nella tabella del diagramma di Gantt, specificando larghezza, titolo e allineamento.
+
 ```java
 TableField attrField = new TableField();
 attrField.setField(Field.TaskText1);
@@ -63,25 +101,47 @@ attrField.setAlignData(HorizontalStringAlignment.Center);
 Table table = project.getTables().toList().get(0);
 table.getTableFields().add(3, attrField);
 ```
-Personalizza la tabella aggiungendo il campo degli attributi di testo con larghezza, titolo e allineamento specificati.
-## Passaggio 7: salva il progetto
+
+### Passo 7: Salvare il Progetto
+Salva le modifiche in un nuovo file che può essere aperto in Microsoft Project.
+
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
 ```
-Salvare il progetto con la vista diagramma di progetto Gantt MS configurata. Il file risultante può essere aperto in Microsoft Project 2010.
+
+## Problemi Comuni e Soluzioni
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **FileNotFoundException** durante il caricamento del progetto | Il percorso **impostare la directory dei dati** è errato o manca una barra finale. | Verifica che `dataDir` punti alla cartella esatta e includi il separatore di file corretto (`/` o `\\`). |
+| Attributo personalizzato non visibile nella visualizzazione Gantt | Il campo della tabella è stato aggiunto all'indice sbagliato o la larghezza della colonna è troppo piccola. | Assicurati che `table.getTableFields().add(3, attrField);` utilizzi un indice valido e regola `setWidth` secondo necessità. |
+| LicenseException durante il salvataggio | Nessuna licenza valida è stata applicata per l'uso in produzione. | Applica una licenza temporanea o permanente prima di chiamare `project.save()`. |
+
+## Domande Frequenti
+
+**Q: Posso usare Aspose.Tasks con altri linguaggi di programmazione?**  
+A: Sì, Aspose.Tasks è disponibile per più linguaggi di programmazione tra cui .NET, Java e C++.
+
+**Q: È disponibile una versione di prova gratuita per Aspose.Tasks?**  
+A: Sì, puoi scaricare una versione di prova gratuita da [here](https://releases.aspose.com/).
+
+**Q: Dove posso trovare supporto per Aspose.Tasks?**  
+A: Puoi trovare supporto e fare domande sul [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+**Q: Come posso acquistare una licenza per Aspose.Tasks?**  
+A: Puoi acquistare una licenza da [here](https://purchase.aspose.com/buy).
+
+**Q: Ho bisogno di una licenza temporanea per scopi di test?**  
+A: Sì, puoi ottenere una licenza temporanea da [here](https://purchase.aspose.com/temporary-license/).
+
 ## Conclusione
-Congratulazioni! Hai configurato correttamente la visualizzazione del grafico di Gantt MS Project nei progetti Aspose.Tasks utilizzando Java. Ora puoi personalizzare gli attributi del progetto e visualizzarli nel diagramma di Gantt in base alle esigenze del tuo progetto.
-## Domande frequenti
-### D: Posso utilizzare Aspose.Tasks con altri linguaggi di programmazione?
-R: Sì, Aspose.Tasks è disponibile per più linguaggi di programmazione tra cui .NET, Java e C++.
-### D: È disponibile una prova gratuita per Aspose.Tasks?
- R: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
-### D: Dove posso trovare supporto per Aspose.Tasks?
-R: Puoi trovare supporto e porre domande su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
-### D: Come posso acquistare una licenza per Aspose.Tasks?
- R: Puoi acquistare una licenza da[Qui](https://purchase.aspose.com/buy).
-### D: Ho bisogno di una licenza temporanea a scopo di test?
- R: Sì, puoi ottenere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
+Ora hai imparato come **impostare la directory dei dati**, aggiungere una nuova attività, definire e associare un attributo personalizzato, e **personalizzare i campi della tabella** in una visualizzazione del diagramma di Gantt usando Aspose.Tasks per Java. Questi passaggi ti danno il pieno controllo su come i dati del progetto vengono visualizzati, rendendo i tuoi diagrammi di Gantt più informativi e su misura per le esigenze dei tuoi stakeholder.
+
+---
+
+**Ultimo Aggiornamento:** 2025-12-09  
+**Testato Con:** Aspose.Tasks Java 24.12 (latest)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

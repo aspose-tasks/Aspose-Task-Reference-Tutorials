@@ -1,58 +1,94 @@
 ---
-title: Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
-linktitle: Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak skonfigurować widok wykresu projektu Gantt MS Project w Aspose.Tasks przy użyciu języka Java. Dostosuj projekt i wizualizuj go na wykresie Gantta krok po kroku.
-weight: 10
+date: 2025-12-09
+description: Dowiedz się, jak ustawić katalog danych i skonfigurować widok wykresu
+  Gantta w Aspose.Tasks przy użyciu Javy. Ten przewodnik pokazuje również, jak dostosować
+  pola tabeli i krok po kroku konfigurować projekty Java z wykresem Gantta.
+linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Ustaw katalog danych dla widoku wykresu Gantta w Aspose.Tasks
 url: /pl/java/project-configuration/configure-gantt-chart/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skonfiguruj widok wykresu Gantta w projektach Aspose.Tasks
+# Ustaw katalog danych dla widoku wykresu Gantta w Aspose.Tasks
 
-## Wstęp
-W tym samouczku dowiesz się, jak skonfigurować widok wykresu Gantta MS Project w projektach Aspose.Tasks przy użyciu języka Java. Aspose.Tasks to potężny interfejs API Java, który umożliwia programową pracę z plikami Microsoft Project. Wykonując poniższe kroki, będziesz mógł dostosować widok wykresu Gantta do wymagań swojego projektu.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
-2.  Biblioteka Aspose.Tasks: Pobierz i zainstaluj bibliotekę Aspose.Tasks. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/java/).
-3. Zintegrowane środowisko programistyczne (IDE): Wybierz wybrane IDE. W tym samouczku wykorzystano IntelliJ IDEA, ale możesz użyć dowolnego IDE, z którym czujesz się komfortowo.
-## Importuj pakiety
-Najpierw musisz zaimportować niezbędne pakiety do pracy z Aspose.Tasks w swoim projekcie Java. Dodaj następujące instrukcje importu do pliku Java:
+## Wprowadzenie
+W tym samouczku dowiesz się **jak ustawić katalog danych** i skonfigurować widok wykresu Gantta MS Project w projektach Aspose.Tasks przy użyciu Javy. Aspose.Tasks to solidne API Java, które umożliwia programowe manipulowanie plikami Microsoft Project. Po zakończeniu tego przewodnika będziesz w stanie **dostosować pola tabeli**, zmienić katalog danych oraz zwizualizować swój projekt dokładnie tak, jak tego potrzebujesz.
+
+## Szybkie odpowiedzi
+- **Jaki jest pierwszy krok?** Ustaw ścieżkę katalogu danych, w którym znajdują się pliki projektu.  
+- **Która biblioteka jest wymagana?** Aspose.Tasks dla Javy (do pobrania ze strony oficjalnej).  
+- **Czy mogę dodać własnetrybuty?** Tak – możesz definiować rozszerzone atrybuty i wyświetlać je na wykresie Gantta.  
+- **Czy potrzebna jest licencja do testów?** Dostępna jest tymczasowa licencja do celów ewaluacyjnych.  
+- **Które IDE działa najlepiej?** Każde IDE Java (IntelliJ IDEA, Eclipse, NetBeans) będzie odpowiednie.
+
+## Co to jest „ustaw katalog danych” i dlaczego ma to znaczenie?
+Ustawienie katalogu danych informuje Aspose.Tasks, gdzie ma odczytywać i zapisywać pliki projektu. Bez prawidłowej ścieżki API nie może zlokalizować plików `.mpp`, co prowadzi do błędów FileNotFound. Zdefiniowanie tego katalogu na początku kodu sprawia, że dalszy przepływ pracy jest czysty i powtarzalny.
+
+## Dlaczego warto dostosować pola tabeli w wykresie Gantta?
+Niestandardowe pola tabeli pozwalają wyświetlać dodatkowe informacje — takie jak własne atrybuty, dane zasobów czy notatki specyficzne dla projektu — bezpośrednio w widoku Gantta. Dzięki temu wykres jest bardziej informacyjny dla interesariuszy i zmniejsza potrzebę przełączania się między wieloma raportami.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – dowolna aktualna wersja (8+).  
+2. **Biblioteka Aspose.Tasks** – pobierz ją z [tutaj](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor kompatybilny z Javą, którego używasz.
+
+## Importowanie pakietów
+Najpierw zaimportuj przestrzeń nazw Aspose.Tasks, aby móc pracować z jej klasami:
+
 ```java
 import com.aspose.tasks.*;
 ```
-Podzielmy teraz proces konfigurowania widoku wykresu projektu Gantt MS Project na instrukcje krok po kroku:
-## Krok 1: Skonfiguruj katalog danych
+
+## Przewodnik krok po kroku
+
+### Krok 1: Konfiguracja katalogu danych
+Zdefiniuj folder, który zawiera pliki projektu. To jest krok **ustaw katalog danych**, na którym koncentruje się samouczek.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Zastępować`"Your Data Directory"` ze ścieżką do katalogu danych projektu.
-## Krok 2: Załaduj plik projektu
+
+Zastąp `"Your Data Directory"` absolutną ścieżką do folderu, w którym znajduje się `project.mpp`.
+
+### Krok 2: Załaduj plik projektu
+Utwórz instancję `Project`, ładując istniejący plik Microsoft Project.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Załaduj plik projektu (`project.mpp` w tym przykładzie) za pomocą`Project` klasa z Aspose.Tasks.
-## Krok 3: Dodaj nową aktywność
+
+### Krok 3: Dodaj nową aktywność
+Wstaw nowe zadanie (aktywność) do korzenia projektu.
+
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
 ```
- Utwórz nowe zadanie w swoim projekcie za pomocą pliku`Task` class i dodaj ją do elementów podrzędnych zadania głównego.
-## Krok 4: Zdefiniuj atrybut niestandardowy
+
+### Krok 4: Zdefiniuj własny atrybut
+Utwórz definicję własnego atrybutu, którą później możesz przypisać do zadań.
+
 ```java
 ExtendedAttributeDefinition text1Definition = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text1, null);
 project.getExtendedAttributes().add(text1Definition);
 ```
- Zdefiniuj nowy atrybut niestandardowy za pomocą`ExtendedAttributeDefinition`class i dodaj ją do rozszerzonych atrybutów projektu.
-## Krok 5: Dodaj niestandardowy atrybut do zadania
+
+### Krok 5: Dodaj własny atrybut do zadania
+Przypisz nowo zdefiniowany atrybut do utworzonego zadania.
+
 ```java
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
 ```
- Dodaj atrybut niestandardowy do utworzonego zadania za pomocą`createExtendedAttribute` metoda.
-## Krok 6: Dostosuj tabelę
+
+### Krok 6: Dostosuj tabelę – **dostosuj pola tabeli**
+Dodaj własny atrybut jako kolumnę w tabeli wykresu Gantta, określając szerokość, tytuł i wyrównanie.
+
 ```java
 TableField attrField = new TableField();
 attrField.setField(Field.TaskText1);
@@ -63,25 +99,47 @@ attrField.setAlignData(HorizontalStringAlignment.Center);
 Table table = project.getTables().toList().get(0);
 table.getTableFields().add(3, attrField);
 ```
-Dostosuj tabelę, dodając pole atrybutu tekstowego o określonej szerokości, tytule i wyrównaniu.
-## Krok 7: Zapisz projekt
+
+### Krok 7: Zapisz projekt
+Zachowaj zmiany w nowym pliku, który można otworzyć w Microsoft Project.
+
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
 ```
-Zapisz projekt ze skonfigurowanym widokiem wykresu projektu Gantt MS. Powstały plik można otworzyć w programie Microsoft Project 2010.
-## Wniosek
-Gratulacje! Pomyślnie skonfigurowałeś widok wykresu projektu Gantt MS w projektach Aspose.Tasks przy użyciu języka Java. Możesz teraz dostosować atrybuty projektu i wizualizować je na wykresie Gantta zgodnie z potrzebami projektu.
-## Często zadawane pytania
-### P: Czy mogę używać Aspose.Tasks z innymi językami programowania?
-Odp.: Tak, Aspose.Tasks jest dostępny dla wielu języków programowania, w tym .NET, Java i C++.
-### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
- Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
-### P: Gdzie mogę znaleźć wsparcie dla Aspose.Tasks?
-O: Możesz znaleźć wsparcie i zadawać pytania na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
-### P: Jak mogę kupić licencję na Aspose.Tasks?
- Odpowiedź: Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
-### P: Czy potrzebuję tymczasowej licencji do celów testowych?
- Odpowiedź: Tak, możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **FileNotFoundException** podczas ładowania projektu | Ścieżka **ustaw katalog danych** jest nieprawidłowa lub brakuje końcowego ukośnika. | Sprawdź, czy `dataDir` wskazuje dokładnie na folder i zawiera odpowiedni separator (`/` lub `\\`). |
+| Własny atrybut nie jest widoczny w widoku Gantta | Pole tabeli zostało dodane pod niewłaściwym indeksem lub szerokość kolumny jest zbyt mała. | Upewnij się, że `table.getTableFields().add(3, attrField);` używa prawidłowego indeksu i dostosuj `setWidth` w razie potrzeby. |
+| LicenseException przy zapisie | Nie zastosowano ważnej licencji do użytku produkcyjnego. | Zastosuj tymczasową lub stałą licencję przed wywołaniem `project.save()`. |
+
+## Najczęściej zadawane pytania
+
+**P: Czy mogę używać Aspose.Tasks w innych językach programowania?**  
+O: Tak, Aspose.Tasks jest dostępny dla wielu języków, w tym .NET, Java i C++.
+
+**P: Czy dostępna jest darmowa wersja próbna Aspose.Tasks?**  
+O: Tak, darmową wersję próbną można pobrać [tutaj](https://releases.aspose.com/).
+
+**P: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?**  
+O: Wsparcie i pytania znajdziesz na [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+**P: Jak mogę kupić licencję na Aspose.Tasks?**  
+O: Licencję można zakupić [tutaj](https://purchase.aspose.com/buy).
+
+**P: Czy potrzebuję tymczasowej licencji do celów testowych?**  
+O: Tak, tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+
+## Zakończenie
+Teraz wiesz, jak **ustawić katalog danych**, dodać nową aktywność, zdefiniować i dołączyć własny atrybut oraz **dostosować pola tabeli** w widoku wykresu Gantta przy użyciu Aspose.Tasks dla Javy. Te kroki dają pełną kontrolę nad sposobem wyświetlania danych projektu, czyniąc wykresy Gantta bardziej informacyjnymi i dopasowanymi do potrzeb interesariuszy.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowane z:** Aspose.Tasks Java 24.12 (najnowsza)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
