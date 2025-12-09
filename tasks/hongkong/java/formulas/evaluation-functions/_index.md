@@ -1,76 +1,121 @@
 ---
-title: 支援 Aspose.Tasks 公式中的評估函數
-linktitle: 支援 Aspose.Tasks 公式中的評估函數
+date: 2025-12-09
+description: 學習如何使用 Java 建立 Project 物件，並在 Aspose.Tasks 公式中支援評估函式。了解如何為任務建立擴充屬性。
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Java 支援對 Aspose.Tasks 公式中的 MS Project 函數求值。使用 Aspose.Tasks 提高您的工作效率。
-weight: 10
+title: 建立專案物件 Java – 支援 Aspose.Tasks 中的評估功能
 url: /zh-hant/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 支援 Aspose.Tasks 公式中的評估函數
-
+# 在 Aspose.Tasks 公式中支援評估函式
 
 ## 介紹
-Aspose.Tasks for Java 是一個功能強大的函式庫，使開發人員能夠以程式設計方式操作 Microsoft Project 檔案。其主要功能之一是能夠支援在 Aspose.Tasks 公式中評估 MS Project 函數。此功能允許使用者直接在其 Java 應用程式中執行複雜的計算和分析。
-## 先決條件
-在開始將 MS Project 函數整合到 Aspose.Tasks 公式之前，請確保您具備以下條件：
-1. Java 開發環境：確保您的系統上安裝了 Java 以及用於 Java 開發的相容 IDE，例如 IntelliJ IDEA 或 Eclipse。
-2.  Aspose.Tasks for Java 函式庫：下載 Aspose.Tasks for Java 函式庫並將其包含在您的 Java 專案中。您可以從[Aspose.Tasks for Java 下載頁面](https://releases.aspose.com/tasks/java/).
-## 導入包
-首先，在 Java 類別中匯入必要的套件以利用 Aspose.Tasks 功能：
+Aspose.Tasks for Java 讓您 **建立 project object java** 實例，並直接在 Java 程式碼中評估 Microsoft Project 函式。透過嵌入這些公式，您可以執行複雜計算、產生自訂報表，並在不離開開發環境的情況下自動化專案分析。本教學將逐步說明整個流程——從設定專案物件到新增可保存自訂資料的延伸屬性。
+
+## 快速答覆
+- **「create project object java」是什麼意思？** 它會在記憶體中建立一個 `Project` 實例，讓您以程式方式操作。  
+- **需要哪個程式庫？** Aspose.Tasks for Java（從官方網站下載）。  
+- **需要授權嗎？** 生產環境必須使用臨時或正式授權；亦提供免費試用版。  
+- **可以使用自訂欄位嗎？** 可以——您能定義並將延伸屬性附加至工作。  
+- **是否相容所有 Project 檔案格式？** Aspose.Tasks 支援 MPP、MPT 與 XML 格式。
+
+## 前置條件
+在開始之前，請確保您已具備：
+
+1. **Java 開發環境** – JDK 8 以上，並使用 IntelliJ IDEA 或 Eclipse 等 IDE。  
+2. **Aspose.Tasks for Java 程式庫** – 從 [Aspose.Tasks for Java 下載頁面](https://releases.aspose.com/tasks/java/) 下載並加入專案。
+
+## 匯入套件
+在 Java 類別中加入 Aspose.Tasks 命名空間，以便操作專案、工作與延伸屬性：
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## 第 1 步：建立一個新的專案對象
-首先，建立一個新的`Project`使用對象：
+## 步驟 1：建立 Project Object Java
+建立一個新的 `Project` 物件。此物件將作為所有工作、資源與自訂資料的容器。
+
 ```java
 Project project = new Project();
 ```
-這會初始化一個新的空項目。
-## 步驟 2：定義任務的擴充屬性
-接下來，定義任務的擴展屬性。此屬性將保存與任務關聯的自訂資料：
+
+上述程式碼 **creates project object java**，建立一個空白且可供自訂的專案實例。
+
+## 步驟 2：如何建立延伸屬性
+定義一個延伸屬性，用於儲存每個工作之自訂數值資料（例如正弦值）。
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
-在這裡，我們建立一個類型的擴充屬性`Number`任務名稱為“Sine”。
-## 步驟3：將擴充屬性加入到專案中
-將擴充屬性定義新增至項目的擴充屬性清單：
+
+此處 **create extended attribute** 為類型 `Number`、名稱為「Sine」的屬性，並將其關聯至工作。
+
+## 步驟 3：將延伸屬性加入專案
+將屬性定義註冊到專案，使每個工作都能參照它。
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-這會將自訂屬性新增至項目。
-## 第 4 步：建立新任務
-現在，讓我們在專案中建立一個新任務：
+
+## 步驟 4：建立新工作
+在專案的根工作下新增一個簡單的工作，名稱為「Task」。
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-這將向專案新增一個名為「Task」的新任務。
-## 步驟 5：將擴充屬性與任務關聯
-將先前建立的擴充屬性與任務相關聯：
+
+## 步驟 5：將延伸屬性關聯至工作
+將先前定義的延伸屬性連結到新建立的工作。
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-這會將「Sine」擴充屬性與任務關聯起來。
 
-## 結論
-總之，將 MS Project 函數整合到 Java 中的 Aspose.Tasks 公式中是一個簡單的過程。透過遵循提供的步驟，您可以有效地利用 Aspose.Tasks for Java 的強大功能以程式設計方式操作和分析 Microsoft Project 檔案。
-## 常見問題解答
-### Q：Aspose.Tasks for Java 可以處理複雜的 MS Project 公式嗎？
-答：是的，Aspose.Tasks for Java 支援評估各種 MS Project 函數，允許在 Java 應用程式中進行複雜的計算。
-### Q：Aspose.Tasks for Java 是否與不同版本的 Microsoft Project 檔案相容？
-答：是的，Aspose.Tasks for Java 支援各種版本的 Microsoft Project 文件，包括 MPP、MPT 和 XML 格式。
-### Q：我可以在購買前試用 Aspose.Tasks for Java 嗎？
-答：是的，您可以從網站下載 Aspose.Tasks for Java 的免費試用版[這裡](https://purchase.aspose.com/buy).
-### Q：如何獲得 Aspose.Tasks for Java 的支援？
-答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
-### Q：Aspose.Tasks for Java 是否有可用的臨時授權？
-答：是的，您可以從 Aspose 網站取得用於測試目的的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+現在此工作已擁有自訂的「Sine」欄位，您可以在公式或計算中使用它。
+
+## 為什麼要使用評估函式？
+在 Aspose.Tasks 公式中嵌入 MS Project 函式，可讓您：
+
+- 即時執行計算（例如 `Sin([Start])`），無需外部工具。  
+- 將所有專案邏輯集中於單一、易於維護的程式碼庫。  
+- 產生即時反映資料變更的動態報表。
+
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **公式回傳 `NaN`** | 確認自訂欄位類型與預期的數值類型相符。 |
+| **延伸屬性未顯示** | 確保在建立工作 **之前** 已將屬性定義加入專案。 |
+| **授權例外** | 安裝臨時或正式授權；試用模式可能限制某些功能。 |
+
+## 常見問答
+
+**Q: Aspose.Tasks for Java 能處理複雜的 MS Project 公式嗎？**  
+A: 能，Aspose.Tasks for Java 支援廣泛的 MS Project 函式，讓您在 Java 應用程式中執行複雜計算。
+
+**Q: Aspose.Tasks for Java 是否相容不同版本的 Microsoft Project 檔案？**  
+A: 能，Aspose.Tasks for Java 支援多種 Microsoft Project 檔案版本，包括 MPP、MPT 與 XML 格式。
+
+**Q: 我可以在購買前試用 Aspose.Tasks for Java 嗎？**  
+A: 可以，您可從網站 [此處](https://purchase.aspose.com/buy) 下載免費試用版。
+
+**Q: 如何取得 Aspose.Tasks for Java 的支援？**  
+A: 您可前往 Aspose.Tasks 社群論壇 [此處](https://forum.aspose.com/c/tasks/15) 取得協助。
+
+**Q: 是否提供 Aspose.Tasks for Java 的臨時授權？**  
+A: 有，您可從 Aspose 網站 [此處](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
+
+---
+
+**最後更新：** 2025-12-09  
+**測試環境：** Aspose.Tasks for Java 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

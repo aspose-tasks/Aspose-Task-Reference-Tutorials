@@ -1,76 +1,123 @@
 ---
-title: Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
-linktitle: Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách hỗ trợ đánh giá các hàm MS Project trong công thức Aspose.Tasks bằng Java. Tăng năng suất của bạn với Aspose.Tasks.
-weight: 10
+date: 2025-12-09
+description: Tìm hiểu cách tạo đối tượng dự án trong Java và hỗ trợ các hàm đánh giá
+  trong công thức Aspose.Tasks bằng Java. Khám phá cách tạo thuộc tính mở rộng cho
+  các nhiệm vụ.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+second_title: Aspose.Tasks Java API
+title: Tạo Đối tượng Dự án Java – Hỗ trợ các Hàm Đánh giá trong Aspose.Tasks
 url: /vi/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hỗ trợ các hàm đánh giá trong công thức Aspose.Tasks
-
+# Hỗ trợ các hàm Đánh giá trong công thức Aspose.Tasks
 
 ## Giới thiệu
-Aspose.Tasks cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một trong những tính năng chính của nó là khả năng hỗ trợ đánh giá các chức năng MS Project trong các công thức Aspose.Tasks. Khả năng này cho phép người dùng thực hiện các phép tính và phân tích phức tạp trực tiếp trong các ứng dụng Java của họ.
-## Điều kiện tiên quyết
-Trước khi bắt đầu tích hợp các hàm MS Project vào công thức Aspose.Tasks, hãy đảm bảo bạn có những điều sau:
-1. Môi trường phát triển Java: Đảm bảo rằng bạn đã cài đặt Java trên hệ thống của mình cùng với một IDE tương thích để phát triển Java như IntelliJ IDEA hoặc Eclipse.
-2.  Aspose.Tasks for Java Library: Tải xuống và đưa thư viện Aspose.Tasks for Java vào dự án Java của bạn. Bạn có thể tải nó xuống từ[Trang tải xuống Aspose.Tasks cho Java](https://releases.aspose.com/tasks/java/).
-## Gói nhập khẩu
-Để bắt đầu, hãy nhập các gói cần thiết trong lớp Java của bạn để sử dụng các chức năng của Aspose.Tasks:
+Aspose.Tasks for Java cho phép bạn **create project object java** các thể hiện và đánh giá các hàm Microsoft Project trực tiếp trong mã Java của bạn. Bằng cách nhúng các công thức này, bạn có thể thực hiện các phép tính phức tạp, tạo báo cáo tùy chỉnh và tự động hoá phân tích dự án mà không cần rời khỏi môi trường phát triển. Hướng dẫn này sẽ đưa bạn qua toàn bộ quy trình — từ việc thiết lập đối tượng dự án đến việc thêm thuộc tính mở rộng có thể chứa dữ liệu tùy chỉnh.
+
+## Câu trả lời nhanh
+- **“create project object java” có nghĩa là gì?** Nó tạo một thể hiện `Project` trong bộ nhớ mà bạn có thể thao tác bằng chương trình.  
+- **Thư viện nào được yêu cầu?** Aspose.Tasks for Java (tải xuống từ trang chính thức).  
+- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời hoặc đầy đủ cho việc sử dụng trong môi trường sản xuất; phiên bản dùng thử miễn phí có sẵn.  
+- **Tôi có thể sử dụng trường tùy chỉnh không?** Có – bạn có thể định nghĩa và gắn thuộc tính mở rộng vào các tác vụ.  
+- **Điều này có tương thích với tất cả các định dạng tệp Project không?** Aspose.Tasks hỗ trợ các định dạng MPP, MPT và XML.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. **Môi trường phát triển Java** – JDK 8+ và một IDE như IntelliJ IDEA hoặc Eclipse.  
+2. **Thư viện Aspose.Tasks for Java** – Tải xuống và bao gồm thư viện từ [trang tải xuống Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).
+
+## Nhập các gói
+Thêm không gian tên Aspose.Tasks vào lớp Java của bạn để có thể làm việc với dự án, tác vụ và thuộc tính mở rộng:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Bước 1: Tạo đối tượng dự án mới
- Đầu tiên, tạo một cái mới`Project`đối tượng để làm việc với:
+## Bước 1: Tạo Project Object Java
+Khởi tạo một đối tượng `Project` mới. Đối tượng này sẽ đóng vai trò là container cho tất cả các tác vụ, nguồn lực và dữ liệu tùy chỉnh mà bạn sẽ định nghĩa.
+
 ```java
 Project project = new Project();
 ```
-Điều này khởi tạo một dự án trống mới.
-## Bước 2: Xác định thuộc tính mở rộng cho nhiệm vụ
-Tiếp theo, xác định thuộc tính mở rộng cho tác vụ. Thuộc tính này sẽ chứa dữ liệu tùy chỉnh được liên kết với các tác vụ:
+
+Dòng trên **creates project object java** khởi tạo một dự án trống, sẵn sàng cho việc tùy biến.
+
+## Bước 2: Cách tạo thuộc tính mở rộng
+Định nghĩa một thuộc tính mở rộng sẽ lưu trữ dữ liệu số tùy chỉnh (ví dụ: giá trị sin) cho mỗi tác vụ.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- Ở đây, chúng tôi tạo một thuộc tính mở rộng thuộc loại`Number` với tên "Sine" cho các nhiệm vụ.
-## Bước 3: Thêm thuộc tính mở rộng vào dự án
-Thêm định nghĩa thuộc tính mở rộng vào danh sách các thuộc tính mở rộng của dự án:
+
+Ở đây chúng ta **create extended attribute** loại `Number` có tên “Sine” và gắn nó vào các tác vụ.
+
+## Bước 3: Thêm thuộc tính mở rộng vào Project
+Đăng ký định nghĩa thuộc tính với dự án để mọi tác vụ đều có thể tham chiếu tới nó.
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-Điều này thêm thuộc tính tùy chỉnh cho dự án.
+
 ## Bước 4: Tạo một tác vụ mới
-Bây giờ, hãy tạo một nhiệm vụ mới trong dự án:
+Thêm một tác vụ đơn giản có tên “Task” dưới tác vụ gốc của dự án.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Điều này thêm một nhiệm vụ mới có tên "Nhiệm vụ" vào dự án.
-## Bước 5: Liên kết thuộc tính mở rộng với nhiệm vụ
-Liên kết thuộc tính mở rộng được tạo trước đó với tác vụ:
+
+## Bước 5: Gắn thuộc tính mở rộng vào tác vụ
+Liên kết thuộc tính mở rộng đã định nghĩa trước đó với tác vụ mới tạo.
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-Điều này liên kết thuộc tính mở rộng "Sine" với nhiệm vụ.
 
-## Phần kết luận
-Tóm lại, việc tích hợp các hàm MS Project vào các công thức Aspose.Tasks trong Java là một quá trình đơn giản. Bằng cách làm theo các bước được cung cấp, bạn có thể sử dụng hiệu quả các khả năng mạnh mẽ của Aspose.Tasks dành cho Java để thao tác và phân tích các tệp Microsoft Project theo chương trình.
+Bây giờ tác vụ chứa trường tùy chỉnh “Sine” mà bạn có thể sử dụng trong công thức hoặc các phép tính.
+
+## Tại sao nên sử dụng các hàm đánh giá?
+Nhúng các hàm MS Project vào công thức Aspose.Tasks cho phép bạn:
+
+- Thực hiện các phép tính ngay lập tức (ví dụ: `Sin([Start])`) mà không cần công cụ bên ngoài.  
+- Giữ toàn bộ logic dự án trong một codebase duy nhất, dễ bảo trì.  
+- Tạo báo cáo động phản ánh các thay đổi dữ liệu theo thời gian thực.
+
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Formula returns `NaN`** | Xác minh rằng kiểu trường tùy chỉnh khớp với kiểu số mong đợi. |
+| **Extended attribute not visible** | Đảm bảo định nghĩa thuộc tính được thêm vào dự án **trước** khi tạo các tác vụ. |
+| **License exception** | Cài đặt giấy phép tạm thời hoặc đầy đủ; chế độ dùng thử có thể giới hạn một số tính năng. |
+
 ## Câu hỏi thường gặp
-### Câu hỏi: Aspose.Tasks dành cho Java có thể xử lý các công thức MS Project phức tạp không?
-Trả lời: Có, Aspose.Tasks for Java hỗ trợ đánh giá nhiều chức năng MS Project, cho phép thực hiện các phép tính phức tạp trong các ứng dụng Java.
-### Câu hỏi: Aspose.Tasks dành cho Java có tương thích với các phiên bản khác nhau của tệp Microsoft Project không?
-Trả lời: Có, Aspose.Tasks for Java hỗ trợ nhiều phiên bản khác nhau của tệp Microsoft Project, bao gồm các định dạng MPP, MPT và XML.
-### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks cho Java trước khi mua không?
- Trả lời: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks cho Java từ trang web[đây](https://purchase.aspose.com/buy).
-### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho Java?
-Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
-### Câu hỏi: Có giấy phép tạm thời dành cho Aspose.Tasks dành cho Java không?
- Trả lời: Có, bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm từ trang web Aspose[đây](https://purchase.aspose.com/temporary-license/).
+
+**Q: Aspose.Tasks for Java có thể xử lý các công thức MS Project phức tạp không?**  
+A: Có, Aspose.Tasks for Java hỗ trợ đánh giá một loạt các hàm MS Project, cho phép thực hiện các phép tính phức tạp trong ứng dụng Java.
+
+**Q: Aspose.Tasks for Java có tương thích với các phiên bản tệp Microsoft Project khác nhau không?**  
+A: Có, Aspose.Tasks for Java hỗ trợ nhiều phiên bản tệp Microsoft Project, bao gồm các định dạng MPP, MPT và XML.
+
+**Q: Tôi có thể thử Aspose.Tasks for Java trước khi mua không?**  
+A: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Tasks for Java từ trang web [here](https://purchase.aspose.com/buy).
+
+**Q: Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Tasks for Java?**  
+A: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+**Q: Có giấy phép tạm thời cho Aspose.Tasks for Java không?**  
+A: Có, bạn có thể lấy giấy phép tạm thời để thử nghiệm từ trang web Aspose [here](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-09  
+**Kiểm tra với:** Aspose.Tasks for Java 24.10  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

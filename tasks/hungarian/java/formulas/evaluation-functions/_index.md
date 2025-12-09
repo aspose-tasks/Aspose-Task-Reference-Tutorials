@@ -1,76 +1,123 @@
 ---
-title: Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
-linktitle: Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
+date: 2025-12-09
+description: Tanulja meg, hogyan hozhat létre projektobjektumot Java-ban, és hogyan
+  támogatja az értékelési függvényeket az Aspose.Tasks képletekben Java használatával.
+  Fedezze fel, hogyan hozhat létre kiterjesztett attribútumot a feladatokhoz.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan támogassa az MS Project függvények kiértékelését Aspose.Tasks képletekben Java használatával. Növelje termelékenységét az Aspose.Tasks segítségével.
-weight: 10
+title: Projektobjektum létrehozása Java-ban – Értékelő függvények támogatása az Aspose.Tasks-ben
 url: /hu/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Támogassa az értékelési funkciókat az Aspose.Tasks formulákban
-
+# Támogassa az értékelő függvényeket az Aspose.Tasks képletekben
 
 ## Bevezetés
-Az Aspose.Tasks for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. Az egyik legfontosabb jellemzője, hogy támogatja az MS Project függvények kiértékelését az Aspose.Tasks formulákon belül. Ez a képesség lehetővé teszi a felhasználók számára, hogy összetett számításokat és elemzéseket végezzenek közvetlenül a Java-alkalmazásokon belül.
+Az Aspose.Tasks for Java lehetővé teszi, hogy **create project object java** példányokat hozzon létre, és közvetlenül a Java kódjában értékelje a Microsoft Project függvényeket. Ezeknek a képleteknek a beágyazásával összetett számításokat végezhet, egyedi jelentéseket generálhat, és automatizálhatja a projekt‑elemzést anélkül, hogy elhagyná a fejlesztői környezetet. Ez az útmutató végigvezeti Önt a teljes folyamaton – a projektobjektum beállításától az egyéni adatokat tároló kiterjesztett attribútum hozzáadásáig.
+
+## Gyors válaszok
+- **Mit jelent a “create project object java”?** Egy memóriában lévő `Project` példányt hoz létre, amelyet programozottan módosíthat.  
+- **Melyik könyvtár szükséges?** Aspose.Tasks for Java (letölthető a hivatalos oldalról).  
+- **Szükségem van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz; ingyenes próba elérhető.  
+- **Használhatok egyéni mezőket?** Igen – definiálhat és felcsatolhat kiterjesztett attribútumokat feladatokhoz.  
+- **Kompatibilis minden Project fájlformátummal?** Az Aspose.Tasks támogatja az MPP, MPT és XML formátumokat.
+
 ## Előfeltételek
-Mielőtt elkezdené az MS Project függvények integrálását az Aspose.Tasks képletekbe, győződjön meg arról, hogy rendelkezik a következőkkel:
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszeren, valamint a Java fejlesztéshez kompatibilis IDE, például az IntelliJ IDEA vagy az Eclipse.
-2.  Aspose.Tasks for Java Library: Töltse le és foglalja bele az Aspose.Tasks for Java könyvtárat a Java projektbe. Letöltheti a[Aspose.Tasks for Java letöltési oldal](https://releases.aspose.com/tasks/java/).
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+
+1. **Java fejlesztői környezet** – JDK 8+ és egy IDE, például IntelliJ IDEA vagy Eclipse.  
+2. **Aspose.Tasks for Java könyvtár** – Töltse le, és vegye fel a projektbe a [Aspose.Tasks for Java letöltési oldal](https://releases.aspose.com/tasks/java/) segítségével.
+
 ## Csomagok importálása
-Kezdésként importálja a szükséges csomagokat a Java osztályba az Aspose.Tasks funkciók használatához:
+Adja hozzá az Aspose.Tasks névteret a Java osztályához, hogy a projektek, feladatok és kiterjesztett attribútumok kezelhetők legyenek:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## 1. lépés: Hozzon létre egy új projektobjektumot
- Először hozzon létre egy újat`Project`objektum, amellyel dolgozni:
+## 1. lépés: Create Project Object Java
+Hozzon létre egy új `Project` objektumot. Ez lesz a tároló minden feladat, erőforrás és egyéni adat számára, amelyet definiálni fog.
+
 ```java
 Project project = new Project();
 ```
-Ez inicializál egy új üres projektet.
-## 2. lépés: Határozzon meg egy kiterjesztett attribútumot a feladatokhoz
-Ezután határozzon meg egy kiterjesztett attribútumot a feladatokhoz. Ez az attribútum a feladatokhoz társított egyéni adatokat tárol:
+
+A fenti sor **creates project object java**, amely kezdetben üres, és készen áll a testreszabásra.
+
+## 2. lépés: Hogyan hozzunk létre kiterjesztett attribútumot
+Definiáljon egy kiterjesztett attribútumot, amely egyedi numerikus adatot (például szinusz értéket) tárol minden feladatnál.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- Itt létrehozunk egy kiterjesztett típusú attribútumot`Number` feladatokhoz "Sine" névvel.
-## 3. lépés: Adja hozzá a kiterjesztett attribútumot a projekthez
-Adja hozzá a kiterjesztett attribútumdefiníciót a projekt kiterjesztett attribútumainak listájához:
+
+Itt **create extended attribute** típusú `Number` attribútumot hozunk létre „Sine” néven, és hozzárendeljük a feladatokhoz.
+
+## 3. lépés: A kiterjesztett attribútum hozzáadása a projekthez
+Regisztrálja az attribútumdefiníciót a projektben, hogy minden feladat hivatkozhasson rá.
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-Ez hozzáadja az egyéni attribútumot a projekthez.
-## 4. lépés: Hozzon létre egy új feladatot
-Most hozzunk létre egy új feladatot a projekten belül:
+
+## 4. lépés: Új feladat létrehozása
+Adjon hozzá egy egyszerű, „Task” nevű feladatot a projekt gyökérfeladata alá.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Ezzel a projekthez hozzáad egy új, „Feladat” nevű feladatot.
-## 5. lépés: Társítsa a kiterjesztett attribútumot a feladathoz
-Társítsa a korábban létrehozott kiterjesztett attribútumot a feladathoz:
+
+## 5. lépés: A kiterjesztett attribútum összekapcsolása a feladattal
+Kösse össze a korábban definiált kiterjesztett attribútumot az újonnan létrehozott feladattal.
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-Ez a "Sine" kiterjesztett attribútumot társítja a feladathoz.
 
-## Következtetés
-Összefoglalva, az MS Project funkcióinak integrálása a Java Aspose.Tasks képleteibe egy egyszerű folyamat. A megadott lépések követésével hatékonyan használhatja az Aspose.Tasks for Java hatékony képességeit a Microsoft Project fájlok programozott kezeléséhez és elemzéséhez.
-## GYIK
-### K: Az Aspose.Tasks for Java kezelheti az összetett MS Project képleteket?
-V: Igen, az Aspose.Tasks for Java támogatja az MS Project függvények széles skálájának kiértékelését, lehetővé téve a Java alkalmazásokon belüli összetett számításokat.
-### K: Az Aspose.Tasks for Java kompatibilis a Microsoft Project fájlok különböző verzióival?
-V: Igen, az Aspose.Tasks for Java támogatja a Microsoft Project fájlok különféle verzióit, beleértve az MPP, MPT és XML formátumokat.
-### K: Kipróbálhatom az Aspose.Tasks for Java programot vásárlás előtt?
- V: Igen, letöltheti az Aspose.Tasks for Java ingyenes próbaverzióját a webhelyről[itt](https://purchase.aspose.com/buy).
-### K: Hogyan kaphatok támogatást az Aspose.Tasks for Java számára?
-V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
-### K: Rendelkezésre áll ideiglenes licenc az Aspose.Tasks for Java számára?
- V: Igen, tesztelési célból ideiglenes licencet szerezhet be az Aspose webhelyéről[itt](https://purchase.aspose.com/temporary-license/).
+Most a feladat egy egyedi „Sine” mezőt tartalmaz, amelyet képletekben vagy számításokban használhat.
+
+## Miért használjunk értékelő függvényeket?
+A MS Project függvények beágyazása az Aspose.Tasks képletekbe lehetővé teszi, hogy:
+
+- Valós‑időben végezzen számításokat (például `Sin([Start])`) külső eszközök nélkül.  
+- A projektlogikát egyetlen, karbantartható kódbázisban tartsa.  
+- Dinamikus jelentéseket generáljon, amelyek tükrözik a valós‑időben változó adatokat.
+
+## Gyakori problémák és megoldások
+| Probléma | Megoldás |
+|----------|----------|
+| **A képlet `NaN`‑t ad vissza** | Ellenőrizze, hogy az egyéni mező típusa megfelel-e a várt numerikus típusnak. |
+| **A kiterjesztett attribútum nem látható** | Győződjön meg róla, hogy az attribútumdefiníció a feladatok **létrehozása előtt** került hozzáadásra a projekthez. |
+| **Licenckivétel** | Telepítsen ideiglenes vagy teljes licencet; a próba mód bizonyos funkciókat korlátozhat. |
+
+## Gyakran feltett kérdések
+
+**K: Kezelni tudja az Aspose.Tasks for Java a bonyolult MS Project képleteket?**  
+V: Igen, az Aspose.Tasks for Java támogatja a széles körű MS Project függvények értékelését, lehetővé téve a komplex számításokat Java‑alkalmazásokban.
+
+**K: Kompatibilis-e az Aspose.Tasks for Java a különböző Microsoft Project fájlverziókkal?**  
+V: Igen, az Aspose.Tasks for Java támogatja a Microsoft Project különböző verzióit, beleértve az MPP, MPT és XML formátumokat.
+
+**K: Próbálhatom-e ki az Aspose.Tasks for Java‑t vásárlás előtt?**  
+V: Igen, letölthet egy ingyenes próba verziót az Aspose.Tasks for Java‑ból a [itt](https://purchase.aspose.com/buy) található weboldalról.
+
+**K: Hogyan kaphatok támogatást az Aspose.Tasks for Java‑hoz?**  
+V: Támogatást a Aspose.Tasks közösségi fórumon kaphat [itt](https://forum.aspose.com/c/tasks/15).
+
+**K: Van-e ideiglenes licenc az Aspose.Tasks for Java‑hoz?**  
+V: Igen, ideiglenes licencet kérhet tesztelési célokra az Aspose weboldalról [itt](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Utoljára frissítve:** 2025-12-09  
+**Tesztelt verzió:** Aspose.Tasks for Java 24.10  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

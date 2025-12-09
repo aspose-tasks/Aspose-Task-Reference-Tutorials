@@ -1,76 +1,118 @@
 ---
-title: Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
-linktitle: Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u de evaluatie van MS Project-functies in Aspose.Tasks-formules kunt ondersteunen met behulp van Java. Verhoog uw productiviteit met Aspose.Tasks.
-weight: 10
+date: 2025-12-09
+description: Leer hoe je een projectobject in Java maakt en evaluatiefuncties ondersteunt
+  in Aspose.Tasks‑formules met Java. Ontdek hoe je een uitgebreid attribuut voor taken
+  maakt.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+second_title: Aspose.Tasks Java API
+title: Projectobject maken in Java – Ondersteun evaluatiefuncties in Aspose.Tasks
 url: /nl/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ondersteuning van evaluatiefuncties in Aspose.Tasks-formules
+# Ondersteun Evaluatiefuncties in Aspose.Tasks Formules
 
+## Introductie
+Aspose.Tasks for Java stelt je in staat om **create project object java** instanties te maken en Microsoft Project-functies direct in je Java-code te evalueren. Door deze formules in te sluiten, kun je geavanceerde berekeningen uitvoeren, aangepaste rapporten genereren en projectanalyse automatiseren zonder je ontwikkelomgeving te verlaten. Deze tutorial leidt je door het volledige proces — van het instellen van het projectobject tot het toevoegen van een uitgebreid attribuut dat aangepaste gegevens kan bevatten.
 
-## Invoering
-Aspose.Tasks voor Java is een krachtige bibliotheek waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een van de belangrijkste kenmerken is de mogelijkheid om evaluatie van MS Project-functies binnen Aspose.Tasks-formules te ondersteunen. Dankzij deze mogelijkheid kunnen gebruikers complexe berekeningen en analyses rechtstreeks binnen hun Java-applicaties uitvoeren.
+## Snelle Antwoorden
+- **Wat betekent “create project object java”?** Het maakt een in‑memory `Project` instantie die je programmatisch kunt manipuleren.  
+- **Welke bibliotheek is vereist?** Aspose.Tasks for Java (download van de officiële site).  
+- **Heb ik een licentie nodig?** Een tijdelijke of volledige licentie is vereist voor productiegebruik; een gratis proefversie is beschikbaar.  
+- **Kan ik aangepaste velden gebruiken?** Ja – je kunt uitgebreide attributen definiëren en aan taken koppelen.  
+- **Is dit compatibel met alle Project-bestandsformaten?** Aspose.Tasks ondersteunt MPP-, MPT- en XML-formaten.
+
 ## Vereisten
-Voordat u aan de slag gaat met het integreren van MS Project-functies in Aspose.Tasks-formules, moet u ervoor zorgen dat u over het volgende beschikt:
-1. Java-ontwikkelomgeving: Zorg ervoor dat Java op uw systeem is geïnstalleerd, samen met een compatibele IDE voor Java-ontwikkeling, zoals IntelliJ IDEA of Eclipse.
-2.  Aspose.Tasks voor Java-bibliotheek: Download de Aspose.Tasks voor Java-bibliotheek en neem deze op in uw Java-project. Je kunt het downloaden van de[Aspose.Tasks voor Java-downloadpagina](https://releases.aspose.com/tasks/java/).
-## Pakketten importeren
-Importeer om te beginnen de benodigde pakketten in uw Java-klasse om de Aspose.Tasks-functionaliteiten te gebruiken:
+Voordat je begint, zorg dat je het volgende hebt:
+
+1. **Java-ontwikkelomgeving** – JDK 8+ en een IDE zoals IntelliJ IDEA of Eclipse.  
+2. **Aspose.Tasks for Java Bibliotheek** – Download en voeg de bibliotheek toe vanaf de [Aspose.Tasks for Java downloadpagina](https://releases.aspose.com/tasks/java/).
+
+## Importeer Pakketten
+Voeg de Aspose.Tasks‑namespace toe aan je Java‑klasse zodat je kunt werken met projecten, taken en uitgebreide attributen:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Stap 1: Maak een nieuw projectobject
- Maak eerst een nieuw`Project`voorwerp om mee te werken:
+## Stap 1: Maak Project Object Java
+Instantieer een nieuw `Project`‑object. Dit dient als container voor alle taken, resources en aangepaste gegevens die je definieert.
+
 ```java
 Project project = new Project();
 ```
-Hiermee wordt een nieuw leeg project geïnitialiseerd.
-## Stap 2: Definieer een uitgebreid attribuut voor taken
-Definieer vervolgens een uitgebreid attribuut voor taken. Dit attribuut bevat aangepaste gegevens die zijn gekoppeld aan taken:
+
+De bovenstaande regel **creates project object java** die leeg begint en klaar is voor aanpassing.
+
+## Stap 2: Hoe Maak je een Uitgebreid Attribuut
+Definieer een uitgebreid attribuut dat aangepaste numerieke gegevens (bijv. een sinuswaarde) voor elke taak opslaat.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- Hier maken we een uitgebreid attribuut van type`Number` met de naam "Sine" voor taken.
-## Stap 3: Voeg het uitgebreide attribuut toe aan het project
-Voeg de uitgebreide attribuutdefinitie toe aan de lijst met uitgebreide attributen van het project:
+
+Hier **create extended attribute** van het type `Number` met de naam “Sine” en koppelen we het aan taken.
+
+## Stap 3: Voeg het Uitgebreide Attribuut toe aan het Project
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-Hiermee wordt het aangepaste attribuut aan het project toegevoegd.
-## Stap 4: Maak een nieuwe taak
-Laten we nu een nieuwe taak binnen het project maken:
+
+## Stap 4: Maak een Nieuwe Taak
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Hiermee wordt een nieuwe taak met de naam "Taak" aan het project toegevoegd.
-## Stap 5: Koppel het uitgebreide attribuut aan de taak
-Koppel het eerder gemaakte uitgebreide attribuut aan de taak:
+
+## Stap 5: Koppel het Uitgebreide Attribuut aan de Taak
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-Hierdoor wordt het uitgebreide attribuut "Sinus" aan de taak gekoppeld.
 
-## Conclusie
-Kortom, het integreren van MS Project-functies in Aspose.Tasks-formules in Java is een eenvoudig proces. Door de gegeven stappen te volgen, kunt u effectief gebruik maken van de krachtige mogelijkheden van Aspose.Tasks voor Java om Microsoft Project-bestanden programmatisch te manipuleren en analyseren.
-## Veelgestelde vragen
-### Vraag: Kan Aspose.Tasks voor Java complexe MS Project-formules verwerken?
-A: Ja, Aspose.Tasks voor Java ondersteunt de evaluatie van een breed scala aan MS Project-functies, waardoor complexe berekeningen binnen Java-toepassingen mogelijk zijn.
-### Vraag: Is Aspose.Tasks voor Java compatibel met verschillende versies van Microsoft Project-bestanden?
-A: Ja, Aspose.Tasks voor Java ondersteunt verschillende versies van Microsoft Project-bestanden, waaronder MPP-, MPT- en XML-formaten.
-### Vraag: Kan ik Aspose.Tasks voor Java uitproberen voordat ik het aanschaf?
- A: Ja, u kunt een gratis proefversie van Aspose.Tasks voor Java downloaden van de website[hier](https://purchase.aspose.com/buy).
-### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
-A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
-### Vraag: Is er een tijdelijke licentie beschikbaar voor Aspose.Tasks voor Java?
- A: Ja, u kunt een tijdelijke licentie voor testdoeleinden verkrijgen via de Aspose-website[hier](https://purchase.aspose.com/temporary-license/).
+Nu bevat de taak een aangepast “Sine”‑veld dat je kunt gebruiken in formules of berekeningen.
+
+## Waarom Evaluatiefuncties Gebruiken?
+Het insluiten van MS Project‑functies in Aspose.Tasks‑formules maakt het mogelijk om:
+
+- Berekeningen on‑the‑fly uit te voeren (bijv. `Sin([Start])`) zonder externe tools.  
+- Alle projectlogica binnen één onderhoudbare codebase te houden.  
+- Dynamische rapporten te genereren die realtime gegevenswijzigingen weergeven.
+
+## Veelvoorkomende Problemen en Oplossingen
+| Probleem | Oplossing |
+|----------|-----------|
+| **Formule geeft `NaN` terug** | Controleer of het type van het aangepaste veld overeenkomt met het verwachte numerieke type. |
+| **Uitgebreid attribuut niet zichtbaar** | Zorg ervoor dat de attribuutdefinitie aan het project wordt toegevoegd **voordat** taken worden aangemaakt. |
+| **Licentie‑exception** | Installeer een tijdelijke of volledige licentie; de proefmodus kan bepaalde functies beperken. |
+
+## Veelgestelde Vragen
+
+**Q: Kan Aspose.Tasks for Java complexe MS Project-formules verwerken?**  
+A: Ja, Aspose.Tasks for Java ondersteunt de evaluatie van een breed scala aan MS Project-functies, waardoor complexe berekeningen binnen Java-toepassingen mogelijk zijn.
+
+**Q: Is Aspose.Tasks for Java compatibel met verschillende versies van Microsoft Project‑bestanden?**  
+A: Ja, Aspose.Tasks for Java ondersteunt verschillende versies van Microsoft Project‑bestanden, inclusief MPP-, MPT- en XML-formaten.
+
+**Q: Kan ik Aspose.Tasks for Java uitproberen voordat ik het koop?**  
+A: Ja, je kunt een gratis proefversie van Aspose.Tasks for Java downloaden vanaf de website [hier](https://purchase.aspose.com/buy).
+
+**Q: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks for Java?**  
+A: Je kunt ondersteuning krijgen via het Aspose.Tasks community‑forum [hier](https://forum.aspose.com/c/tasks/15).
+
+**Q: Is er een tijdelijke licentie beschikbaar voor Aspose.Tasks for Java?**  
+A: Ja, je kunt een tijdelijke licentie voor testdoeleinden verkrijgen via de Aspose‑website [hier](https://purchase.aspose.com/temporary-license/).
+
+**Laatst bijgewerkt:** 2025-12-09  
+**Getest met:** Aspose.Tasks for Java 24.10  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

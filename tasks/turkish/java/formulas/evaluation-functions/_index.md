@@ -1,76 +1,124 @@
 ---
-title: Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
-linktitle: Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
-second_title: Aspose.Tasks Java API'si
-description: Aspose.Tasks formüllerinde MS Project fonksiyonlarının değerlendirilmesini Java kullanarak nasıl destekleyeceğinizi öğrenin. Aspose.Tasks ile üretkenliğinizi artırın.
-weight: 10
+date: 2025-12-09
+description: Java kullanarak proje nesnesi oluşturmayı ve Aspose.Tasks formüllerinde
+  değerlendirme işlevlerini desteklemeyi öğrenin. Görevler için genişletilmiş öznitelik
+  oluşturmayı keşfedin.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+second_title: Aspose.Tasks Java API
+title: Java’da Proje Nesnesi Oluştur – Aspose.Tasks’te Değerlendirme Fonksiyonlarını
+  Destekle
 url: /tr/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleyin
+# Aspose.Tasks Formüllerinde Değerlendirme Fonksiyonlarını Destekleme
 
+## Giriş
+Aspose.Tasks for Java, **create project object java** örnekleri oluşturmanıza ve Microsoft Project fonksiyonlarını doğrudan Java kodunuz içinde değerlendirmenize olanak tanır. Bu formülleri gömerek, karmaşık hesaplamalar çalıştırabilir, özel raporlar oluşturabilir ve proje analizini geliştirme ortamınızdan çıkmadan otomatikleştirebilirsiniz. Bu öğretici, proje nesnesini kurmaktan özel veri tutabilecek bir genişletilmiş öznitelik eklemeye kadar tüm süreci adım adım gösterir.
 
-## giriiş
-Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir kütüphanedir. Temel özelliklerinden biri, MS Project fonksiyonlarının Aspose.Tasks formülleri içerisinde değerlendirilmesini destekleme yeteneğidir. Bu yetenek, kullanıcıların karmaşık hesaplamaları ve analizleri doğrudan Java uygulamaları içerisinde gerçekleştirmesine olanak tanır.
+## Hızlı Yanıtlar
+- **“create project object java” ne anlama geliyor?** Programatik olarak manipüle edebileceğiniz bellek içi bir `Project` örneği oluşturur.  
+- **Hangi kütüphane gereklidir?** Aspose.Tasks for Java (resmi siteden indirin).  
+- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçici veya tam lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Özel alanlar kullanabilir miyim?** Evet – görevlerine genişletilmiş öznitelikler tanımlayabilir ve ekleyebilirsiniz.  
+- **Bu, tüm Project dosya formatlarıyla uyumlu mu?** Aspose.Tasks, MPP, MPT ve XML formatlarını destekler.
+
 ## Önkoşullar
-MS Project işlevlerini Aspose.Tasks formüllerine entegre etmeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1. Java Geliştirme Ortamı: Sisteminizde Java'nın ve IntelliJ IDEA veya Eclipse gibi Java geliştirme için uyumlu bir IDE'nin yüklü olduğundan emin olun.
-2.  Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesini indirin ve Java projenize ekleyin. adresinden indirebilirsiniz.[Aspose.Tasks for Java indirme sayfası](https://releases.aspose.com/tasks/java/).
-## Paketleri İçe Aktar
-Başlamak için Aspose.Tasks işlevlerini kullanmak üzere gerekli paketleri Java sınıfınıza aktarın:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Java Geliştirme Ortamı** – JDK 8+ ve IntelliJ IDEA veya Eclipse gibi bir IDE.  
+2. **Aspose.Tasks for Java Kütüphanesi** – Kütüphaneyi [Aspose.Tasks for Java indirme sayfasından](https://releases.aspose.com/tasks/java/) indirin ve projenize ekleyin.
+
+## Paketleri İçe Aktarma
+Projeler, görevler ve genişletilmiş özniteliklerle çalışabilmeniz için Aspose.Tasks ad alanını Java sınıfınıza ekleyin:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Adım 1: Yeni Bir Proje Nesnesi Oluşturun
- İlk önce yeni bir tane oluşturun`Project`çalışılacak nesne:
+## Adım 1: Project Object Java Oluşturma
+Yeni bir `Project` nesnesi oluşturun. Bu, tanımlayacağınız tüm görevler, kaynaklar ve özel veriler için bir kapsayıcı görevi görecektir.
+
 ```java
 Project project = new Project();
 ```
-Bu, yeni bir boş projeyi başlatır.
-## Adım 2: Görevler için Genişletilmiş Bir Öznitelik Tanımlayın
-Daha sonra görevler için genişletilmiş bir öznitelik tanımlayın. Bu özellik, görevlerle ilişkili özel verileri tutacak:
+
+Yukarıdaki satır, **creates project object java** ifadesiyle, boş ve özelleştirmeye hazır bir proje nesnesi oluşturur.
+
+## Adım 2: Genişletilmiş Öznitelik Nasıl Oluşturulur
+Her görev için özel sayısal veri (ör. bir sinüs değeri) depolayacak bir genişletilmiş öznitelik tanımlayın.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- Burada, türün genişletilmiş bir niteliğini oluşturuyoruz`Number` görevler için "Sine" adıyla.
-## Adım 3: Genişletilmiş Özelliği Projeye Ekleme
-Genişletilmiş öznitelik tanımını projenin genişletilmiş öznitelikler listesine ekleyin:
+
+Burada, `Number` türünde “Sine” adlı **create extended attribute** oluşturuyor ve görevlerle ilişkilendiriyoruz.
+
+## Adım 3: Genişletilmiş Özniteliği Projeye Ekleyin
+Öznitelik tanımını projeye kaydedin, böylece her görev ona referans verebilir.
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-Bu, projeye özel özniteliği ekler.
-## 4. Adım: Yeni Bir Görev Oluşturun
-Şimdi proje içerisinde yeni bir görev oluşturalım:
+
+## Adım 4: Yeni Bir Görev Oluşturun
+Projenin kök görevi altında “Task” adlı basit bir görev ekleyin.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Bu, projeye "Görev" adlı yeni bir görev ekler.
-## Adım 5: Genişletilmiş Özniteliği Görevle İlişkilendirin
-Daha önce oluşturulan genişletilmiş özniteliği görevle ilişkilendirin:
+
+## Adım 5: Genişletilmiş Özniteliği Göreve Bağlayın
+Önceden tanımlanan genişletilmiş özniteliği yeni oluşturulan göreve bağlayın.
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-Bu, "Sinüs" genişletilmiş özelliğini görevle ilişkilendirir.
 
-## Çözüm
-Sonuç olarak, MS Project işlevlerini Java'daki Aspose.Tasks formüllerine entegre etmek basit bir süreçtir. Verilen adımları takip ederek Aspose.Tasks for Java'nın güçlü özelliklerinden yararlanarak Microsoft Project dosyalarını programlı olarak yönetebilir ve analiz edebilirsiniz.
-## SSS'ler
-### S: Aspose.Tasks for Java, karmaşık MS Project formüllerini işleyebilir mi?
-C: Evet, Aspose.Tasks for Java, çok çeşitli MS Project işlevlerinin değerlendirilmesini destekleyerek Java uygulamalarında karmaşık hesaplamalara olanak tanır.
-### S: Aspose.Tasks for Java, Microsoft Project dosyalarının farklı sürümleriyle uyumlu mudur?
-C: Evet, Aspose.Tasks for Java, MPP, MPT ve XML formatları da dahil olmak üzere Microsoft Project dosyalarının çeşitli sürümlerini destekler.
-### S: Satın almadan önce Aspose.Tasks for Java'yı deneyebilir miyim?
- C: Evet, Aspose.Tasks for Java'nın ücretsiz deneme sürümünü web sitesinden indirebilirsiniz.[Burada](https://purchase.aspose.com/buy).
-### S: Aspose.Tasks for Java için nasıl destek alabilirim?
-C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
-### S: Aspose.Tasks for Java için geçici bir lisans mevcut mu?
- C: Evet, test amaçlı olarak Aspose web sitesinden geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Artık görev, formüllerde veya hesaplamalarda kullanabileceğiniz özel bir “Sine” alanına sahiptir.
+
+## Değerlendirme Fonksiyonlarını Neden Kullanmalısınız?
+MS Project fonksiyonlarını Aspose.Tasks formüllerine gömmek şunları yapmanızı sağlar:
+
+- Harici araçlar kullanmadan anlık hesaplamalar yapın (ör. `Sin([Start])`).  
+- Tüm proje mantığını tek, sürdürülebilir bir kod tabanında tutun.  
+- Gerçek zamanlı veri değişikliklerini yansıtan dinamik raporlar oluşturun.
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Çözüm |
+|-------|----------|
+| **Formül `NaN` döndürüyor** | Özel alan tipinin beklenen sayısal tip ile eşleştiğini doğrulayın. |
+| **Genişletilmiş öznitelik görünmüyor** | Öznitelik tanımının görevler oluşturulmadan **önce** projeye eklendiğinden emin olun. |
+| **Lisans istisnası** | Geçici veya tam bir lisans kurun; deneme modu bazı özellikleri kısıtlayabilir. |
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Tasks for Java karmaşık MS Project formüllerini işleyebilir mi?**  
+C: Evet, Aspose.Tasks for Java, geniş bir MS Project fonksiyon yelpazesinin değerlendirilmesini destekler ve Java uygulamaları içinde karmaşık hesaplamalara olanak tanır.
+
+**S: Aspose.Tasks for Java farklı Microsoft Project dosya sürümleriyle uyumlu mu?**  
+C: Evet, Aspose.Tasks for Java, MPP, MPT ve XML formatları dahil olmak üzere çeşitli Microsoft Project dosya sürümlerini destekler.
+
+**S: Aspose.Tasks for Java'ı satın almadan önce deneyebilir miyim?**  
+C: Evet, web sitesinden ücretsiz deneme sürümünü [buradan](https://purchase.aspose.com/buy) indirebilirsiniz.
+
+**S: Aspose.Tasks for Java için destek nasıl alabilirim?**  
+C: Aspose.Tasks topluluk forumundan [buradan](https://forum.aspose.com/c/tasks/15) destek alabilirsiniz.
+
+**S: Aspose.Tasks for Java için geçici bir lisans mevcut mu?**  
+C: Evet, test amaçlı geçici bir lisansı Aspose web sitesinden [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-09  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.10  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

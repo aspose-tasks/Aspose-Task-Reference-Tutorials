@@ -1,10 +1,12 @@
 ---
-title: دعم وظائف التقييم في صيغ Aspose.Tasks
-linktitle: دعم وظائف التقييم في صيغ Aspose.Tasks
-second_title: Aspose.Tasks جافا API
-description: تعرف على كيفية دعم تقييم وظائف MS Project في صيغ Aspose.Tasks باستخدام Java. عزز إنتاجيتك باستخدام Aspose.Tasks.
-weight: 10
+date: 2025-12-09
+description: تعرّف على كيفية إنشاء كائن مشروع Java ودعم وظائف التقييم في صيغ Aspose.Tasks
+  باستخدام Java. اكتشف كيفية إنشاء سمة موسعة للمهام.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+second_title: Aspose.Tasks Java API
+title: إنشاء كائن مشروع Java – دعم وظائف التقييم في Aspose.Tasks
 url: /ar/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,66 +15,109 @@ url: /ar/java/formulas/evaluation-functions/
 
 # دعم وظائف التقييم في صيغ Aspose.Tasks
 
+## المقدمة
+تتيح لك Aspose.Tasks for Java **create project object java** وإنشاء مثيلات وتقييم وظائف Microsoft Project مباشرة داخل شفرة Java الخاصة بك. من خلال تضمين هذه الصيغ، يمكنك إجراء حسابات متقدمة، إنشاء تقارير مخصصة، وأتمتة تحليل المشروع دون مغادرة بيئة التطوير. يشرح هذا الدرس العملية بالكامل — من إعداد كائن المشروع إلى إضافة سمة موسعة يمكنها احتواء بيانات مخصصة.
 
-## مقدمة
-Aspose.Tasks for Java هي مكتبة قوية تمكن المطورين من التعامل مع ملفات Microsoft Project برمجياً. إحدى ميزاته الرئيسية هي القدرة على دعم تقييم وظائف MS Project ضمن صيغ Aspose.Tasks. تتيح هذه الإمكانية للمستخدمين إجراء حسابات وتحليلات معقدة مباشرة داخل تطبيقات Java الخاصة بهم.
-## المتطلبات الأساسية
-قبل البدء في دمج وظائف MS Project في صيغ Aspose.Tasks، تأكد من أن لديك ما يلي:
-1. بيئة تطوير Java: تأكد من تثبيت Java على نظامك بالإضافة إلى IDE متوافق لتطوير Java مثل IntelliJ IDEA أو Eclipse.
-2.  Aspose.Tasks لمكتبة Java: قم بتنزيل مكتبة Aspose.Tasks لـ Java وتضمينها في مشروع Java الخاص بك. يمكنك تنزيله من[صفحة تنزيل Aspose.Tasks لـ Java](https://releases.aspose.com/tasks/java/).
-## حزم الاستيراد
-للبدء، قم باستيراد الحزم الضرورية في فئة Java الخاصة بك للاستفادة من وظائف Aspose.Tasks:
+## إجابات سريعة
+- **ماذا يعني “create project object java”؟** إنه ينشئ مثيل `Project` في الذاكرة يمكنك التلاعب به برمجيًا.  
+- **ما المكتبة المطلوبة؟** Aspose.Tasks for Java (download from the official site).  
+- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص مؤقت أو كامل للاستخدام في بيئة الإنتاج؛ يتوفر نسخة تجريبية مجانية.  
+- **هل يمكنني استخدام الحقول المخصصة؟** نعم – يمكنك تعريف وإرفاق سمات موسعة للمهام.  
+- **هل هذا متوافق مع جميع صيغ ملفات Project؟** تدعم Aspose.Tasks صيغ MPP و MPT و XML.
+
+## المتطلبات المسبقة
+قبل البدء، تأكد من وجود ما يلي:
+
+1. **بيئة تطوير Java** – JDK 8+ وIDE مثل IntelliJ IDEA أو Eclipse.  
+2. **مكتبة Aspose.Tasks for Java** – قم بتحميل المكتبة وإدراجها من [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/).
+
+## استيراد الحزم
+أضف مساحة الاسم Aspose.Tasks إلى فئة Java الخاصة بك لتتمكن من العمل مع المشاريع والمهام والسمات الموسعة:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## الخطوة 1: إنشاء كائن مشروع جديد
- أولاً، قم بإنشاء جديد`Project`كائن للعمل مع:
+## الخطوة 1: إنشاء كائن مشروع Java
+قم بإنشاء كائن `Project` جديد. سيعمل هذا كحاوية لجميع المهام والموارد والبيانات المخصصة التي ستحددها.
+
 ```java
 Project project = new Project();
 ```
-يؤدي هذا إلى تهيئة مشروع فارغ جديد.
-## الخطوة 2: تحديد سمة موسعة للمهام
-بعد ذلك، حدد سمة موسعة للمهام. ستحتفظ هذه السمة بالبيانات المخصصة المرتبطة بالمهام:
+
+السطر أعلاه **creates project object java** يبدأ فارغًا وجاهزًا للتخصيص.
+
+## الخطوة 2: كيفية إنشاء سمة موسعة
+عرّف سمة موسعة ستخزن بيانات رقمية مخصصة (مثل قيمة جيب الزاوية) لكل مهمة.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- هنا، نقوم بإنشاء سمة موسعة من النوع`Number` مع اسم "Sine" للمهام.
+
+هنا نقوم **create extended attribute** من النوع `Number` باسم “Sine” وربطه بالمهام.
+
 ## الخطوة 3: إضافة السمة الموسعة إلى المشروع
-أضف تعريف السمة الموسعة إلى قائمة السمات الموسعة الخاصة بالمشروع:
+سجِّل تعريف السمة مع المشروع بحيث يمكن لكل مهمة الإشارة إليها.
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-يؤدي هذا إلى إضافة السمة المخصصة إلى المشروع.
+
 ## الخطوة 4: إنشاء مهمة جديدة
-الآن، لنقم بإنشاء مهمة جديدة داخل المشروع:
+أضف مهمة بسيطة باسم “Task” تحت مهمة الجذر في المشروع.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-يؤدي هذا إلى إضافة مهمة جديدة تسمى "المهمة" إلى المشروع.
+
 ## الخطوة 5: ربط السمة الموسعة بالمهمة
-قم بربط السمة الموسعة التي تم إنشاؤها مسبقًا بالمهمة:
+اربط السمة الموسعة التي تم تعريفها مسبقًا بالمهمة التي تم إنشاؤها حديثًا.
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-يؤدي هذا إلى ربط السمة الموسعة "Sine" بالمهمة.
 
-## خاتمة
-في الختام، يعد دمج وظائف MS Project في صيغ Aspose.Tasks في Java عملية مباشرة. باتباع الخطوات المتوفرة، يمكنك الاستفادة بشكل فعال من إمكانيات Aspose.Tasks الخاصة بـ Java لمعالجة ملفات Microsoft Project وتحليلها برمجيًا.
-## الأسئلة الشائعة
-### س: هل يمكن لـ Aspose.Tasks لـ Java التعامل مع صيغ MS Project المعقدة؟
-ج: نعم، يدعم Aspose.Tasks for Java تقييم مجموعة واسعة من وظائف MS Project، مما يسمح بإجراء حسابات معقدة داخل تطبيقات Java.
-### س: هل يتوافق Aspose.Tasks for Java مع الإصدارات المختلفة من ملفات Microsoft Project؟
-ج: نعم، يدعم Aspose.Tasks for Java إصدارات مختلفة من ملفات Microsoft Project، بما في ذلك تنسيقات MPP وMPT وXML.
-### س: هل يمكنني تجربة Aspose.Tasks لـ Java قبل الشراء؟
- ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks لـ Java من موقع الويب[هنا](https://purchase.aspose.com/buy).
-### س: كيف يمكنني الحصول على دعم Aspose.Tasks لـ Java؟
-ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
-### س: هل هناك ترخيص مؤقت متاح لـ Aspose.Tasks لـ Java؟
- ج: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من موقع Aspose[هنا](https://purchase.aspose.com/temporary-license/).
+الآن تحتوي المهمة على حقل “Sine” مخصص يمكنك استخدامه في الصيغ أو الحسابات.
+
+## لماذا نستخدم وظائف التقييم؟
+تضمين وظائف MS Project في صيغ Aspose.Tasks يتيح لك:
+
+- إجراء حسابات فورية (مثل `Sin([Start])`) دون الحاجة إلى أدوات خارجية.  
+- إبقاء جميع منطق المشروع داخل قاعدة شفرة واحدة قابلة للصيانة.  
+- إنشاء تقارير ديناميكية تعكس تغيّر البيانات في الوقت الحقيقي.
+
+## المشكلات الشائعة والحلول
+| المشكلة | الحل |
+|-------|----------|
+| **Formula returns `NaN`** | تحقق من أن نوع الحقل المخصص يطابق النوع الرقمي المتوقع. |
+| **Extended attribute not visible** | تأكد من إضافة تعريف السمة إلى المشروع **قبل** إنشاء المهام. |
+| **License exception** | قم بتثبيت ترخيص مؤقت أو كامل؛ قد تقيّد وضع التجربة بعض الميزات. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكن لـ Aspose.Tasks for Java التعامل مع صيغ MS Project المعقدة؟**  
+ج: نعم، تدعم Aspose.Tasks for Java تقييم مجموعة واسعة من وظائف MS Project، مما يسمح بإجراء حسابات معقدة داخل تطبيقات Java.
+
+**س: هل Aspose.Tasks for Java متوافق مع إصدارات مختلفة من ملفات Microsoft Project؟**  
+ج: نعم، تدعم Aspose.Tasks for Java إصدارات متعددة من ملفات Microsoft Project، بما في ذلك صيغ MPP و MPT و XML.
+
+**س: هل يمكنني تجربة Aspose.Tasks for Java قبل الشراء؟**  
+ج: نعم، يمكنك تحميل نسخة تجريبية مجانية من Aspose.Tasks for Java من الموقع [here](https://purchase.aspose.com/buy).
+
+**س: كيف يمكنني الحصول على دعم لـ Aspose.Tasks for Java؟**  
+ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks عبر الرابط [here](https://forum.aspose.com/c/tasks/15).
+
+**س: هل هناك ترخيص مؤقت متاح لـ Aspose.Tasks for Java؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من موقع Aspose عبر الرابط [here](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Tasks for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
