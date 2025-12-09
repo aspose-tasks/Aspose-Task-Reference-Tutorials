@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 学习如何向项目添加日历、创建 MS Project 日历，以及使用 Aspose.Tasks for Java 将项目保存为 XML。
-language: zh
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks for Java 向项目添加日历
-url: /java/calendars/create/
+url: /zh/java/calendars/create/
 weight: 11
 ---
 

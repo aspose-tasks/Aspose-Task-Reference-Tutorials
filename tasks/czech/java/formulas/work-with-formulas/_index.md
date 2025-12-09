@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Naučte se, jak **vytvořit testovací projekt** a **přidat vlastní pole**
   při manipulaci se soubory Microsoft Project pomocí Aspose.Tasks pro Javu.
-language: cs
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Vytvořte testovací projekt a použijte vzorce s Aspose.Tasks pro Javu
-url: /java/formulas/work-with-formulas/
+url: /cs/java/formulas/work-with-formulas/
 weight: 11
 ---
 

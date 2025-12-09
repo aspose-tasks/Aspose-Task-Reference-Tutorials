@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Apprenez à créer des formules MS Project, à manipuler des fichiers MS Project
   et à calculer les valeurs des tâches en Java à l’aide d’Aspose.Tasks pour Java.
   Augmentez votre productivité grâce à des tutoriels étape par étape.
-language: fr
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Créer des formules MS Project avec Aspose.Tasks pour Java
-url: /java/formulas/
+url: /fr/java/formulas/
 weight: 23
 ---
 

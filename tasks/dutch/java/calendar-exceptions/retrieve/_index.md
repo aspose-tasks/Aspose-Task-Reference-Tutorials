@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Leer hoe u agenda‑uitzonderingen uit MS Project kunt ophalen met Aspose.Tasks
   voor Java. Deze Aspose.Tasks Java‑tutorial biedt stapsgewijze code‑voorbeelden.
-language: nl
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Kalenderuitzonderingen ophalen met Aspose.Tasks – asp‑taken java‑tutorial
-url: /java/calendar-exceptions/retrieve/
+url: /nl/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Skapa enkelt anpassade kalenderundantag, integrera MS Project‑kalender
   och hantera, definiera, behandla och hämta kalenderundantag i Java‑projekt med Aspose.Tasks.
   Effektivisera projektarbetsflöden för smidig projektledning.
-language: sv
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Skapa anpassade kalenderundantag med Aspose.Tasks för Java
-url: /java/calendar-exceptions/
+url: /sv/java/calendar-exceptions/
 weight: 20
 ---
 

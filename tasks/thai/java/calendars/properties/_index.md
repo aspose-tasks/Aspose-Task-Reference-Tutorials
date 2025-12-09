@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีตั้งค่าปฏิทินโครงการและจัดการคุณสมบัติปฏิทินของ MS Project
   ใน Java ด้วย Aspose.Tasks คู่มือแบบขั้นตอนเพื่อแสดงชั่วโมงทำงานของปฏิทินและปรับแต่งกำหนดการ
-language: th
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: วิธีตั้งปฏิทินโครงการด้วย Aspose.Tasks สำหรับ Java
-url: /java/calendars/properties/
+url: /th/java/calendars/properties/
 weight: 10
 ---
 

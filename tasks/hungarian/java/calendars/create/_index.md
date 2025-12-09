@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tanulja meg, hogyan adjon hozzá naptárat a projekthez, hogyan hozzon
   létre MS Project naptárat, és hogyan mentse a projektet XML formátumban az Aspose.Tasks
   for Java használatával.
-language: hu
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Naptár hozzáadása a projekthez az Aspose.Tasks for Java segítségével
-url: /java/calendars/create/
+url: /hu/java/calendars/create/
 weight: 11
 ---
 

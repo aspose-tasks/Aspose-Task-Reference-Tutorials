@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Maak moeiteloos aangepaste kalenderuitzonderingen, integreer de MS Project‑kalender
   en beheer, definieer, verwerk en haal kalenderuitzonderingen op in Java‑projecten
   met Aspose.Tasks. Stroomlijn projectworkflows voor efficiënt projectbeheer.
-language: nl
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Maak aangepaste kalenderuitzonderingen met Aspose.Tasks voor Java
-url: /java/calendar-exceptions/
+url: /nl/java/calendar-exceptions/
 weight: 20
 ---
 

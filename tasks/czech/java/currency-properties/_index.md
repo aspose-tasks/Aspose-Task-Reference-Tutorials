@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se, jak číst měnu a jak nastavit vlastnosti měny v souborech MS
   Project pomocí Aspose.Tasks pro Javu. Průvodce krok za krokem pro snadnou manipulaci
   se soubory projektů.
-language: cs
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Jak číst vlastnosti měny pomocí Aspose.Tasks pro Javu
-url: /java/currency-properties/
+url: /cs/java/currency-properties/
 weight: 25
 ---
 

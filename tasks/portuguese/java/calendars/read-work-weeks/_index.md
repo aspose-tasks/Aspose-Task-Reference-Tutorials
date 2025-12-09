@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aprenda a ler semanas de trabalho Java a partir de um calendário do Microsoft
   Project usando Aspose.Tasks. Siga o guia passo a passo com exemplos de código completos.
-language: pt
 linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Ler Semanas de Trabalho Java do Calendário do MS Project Aspose.Tasks
-url: /java/calendars/read-work-weeks/
+url: /pt/java/calendars/read-work-weeks/
 weight: 15
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعرّف على كيفية إنشاء صيغ MS Project، ومعالجة ملفات MS Project، وحساب
   قيم المهام باستخدام Aspose.Tasks for Java. عزّز الإنتاجية من خلال دروس خطوة بخطوة.
-language: ar
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: إنشاء صيغ MS Project باستخدام Aspose.Tasks لجافا
-url: /java/formulas/
+url: /ar/java/formulas/
 weight: 23
 ---
 

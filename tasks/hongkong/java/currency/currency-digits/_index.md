@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 學習如何使用 Aspose.Tasks for Java 高效處理 MS Project 的貨幣位數。一步一步的指南，涵蓋 Java 專案檔案處理以及如何載入
   MPP 檔案。
-language: zh-hant
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 處理 MS Project 貨幣位數
-url: /java/currency/currency-digits/
+url: /zh-hant/java/currency/currency-digits/
 weight: 11
 ---
 

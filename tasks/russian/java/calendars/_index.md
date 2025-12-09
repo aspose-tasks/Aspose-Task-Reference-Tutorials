@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Узнайте, как определять рабочие дни в календарях MS Project с помощью
   Aspose.Tasks для Java. Пошаговое руководство по настройке рабочих дней, улучшению
   планирования и повышению эффективности управления проектами.
-language: ru
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Как определить будние дни в календарях MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /ru/java/calendars/
 weight: 21
 ---
 

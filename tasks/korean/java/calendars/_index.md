@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.Tasks for Java를 사용하여 MS Project 캘린더에서 평일을 정의하는 방법을 배워보세요. 작업일을
   맞춤 설정하고, 일정 관리를 개선하며, 프로젝트 관리 효율성을 높이는 단계별 가이드.
-language: ko
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: MS Project 캘린더에서 평일을 정의하는 방법 – Aspose.Tasks Java
-url: /java/calendars/
+url: /ko/java/calendars/
 weight: 21
 ---
 

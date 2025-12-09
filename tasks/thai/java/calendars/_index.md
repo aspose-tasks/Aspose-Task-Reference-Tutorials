@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีกำหนดวันทำงานในปฏิทินของ MS Project ด้วย Aspose.Tasks for
   Java คู่มือขั้นตอนต่อขั้นตอนในการปรับแต่งวันทำงาน ปรับปรุงการกำหนดเวลา และเพิ่มประสิทธิภาพการจัดการโครงการ
-language: th
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: วิธีกำหนดวันทำงานในปฏิทิน MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /th/java/calendars/
 weight: 21
 ---
 

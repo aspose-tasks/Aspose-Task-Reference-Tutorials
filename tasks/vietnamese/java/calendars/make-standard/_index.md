@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách tạo lịch trong Java bằng Aspose.Tasks. Hướng dẫn từng bước
   này cho bạn biết cách tạo lịch chuẩn của MS Project, thêm lịch chuẩn và sử dụng
   Aspose.Tasks một cách hiệu quả.
-language: vi
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Cách tạo lịch – Tạo lịch tiêu chuẩn trong Aspose.Tasks
-url: /java/calendars/make-standard/
+url: /vi/java/calendars/make-standard/
 weight: 14
 ---
 

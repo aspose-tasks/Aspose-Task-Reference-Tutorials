@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách thiết lập lịch dự án và quản lý các thuộc tính lịch MS
   Project trong Java bằng Aspose.Tasks. Hướng dẫn từng bước để hiển thị giờ làm việc
   của lịch và tùy chỉnh lịch trình.
-language: vi
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Cách thiết lập Lịch dự án với Aspose.Tasks cho Java
-url: /java/calendars/properties/
+url: /vi/java/calendars/properties/
 weight: 10
 ---
 

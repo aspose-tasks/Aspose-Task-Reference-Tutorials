@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Tìm hiểu cách truy xuất các ngoại lệ lịch từ MS Project bằng Aspose.Tasks
   cho Java. Bài hướng dẫn Aspose.Tasks cho Java này cung cấp các ví dụ mã từng bước.
-language: vi
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Lấy các ngoại lệ lịch với Aspose.Tasks – hướng dẫn asp tasks java
-url: /java/calendar-exceptions/retrieve/
+url: /vi/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

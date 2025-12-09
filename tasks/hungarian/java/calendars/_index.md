@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Ismerje meg, hogyan definiálhatja a hétköznapokat az MS Project naptárakban
   az Aspose.Tasks for Java segítségével. Lépésről‑lépésre útmutató a munkanapok testreszabásához,
   a tervezés javításához és a projektmenedzsment hatékonyságának növeléséhez.
-language: hu
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Hogyan definiáljuk a hétköznapokat az MS Project naptárakban – Aspose.Tasks
   Java
-url: /java/calendars/
+url: /hu/java/calendars/
 weight: 21
 ---
 

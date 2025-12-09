@@ -4,11 +4,10 @@ description: Μάθετε πώς να ορίζετε το ημερολόγιο �
   ιδιότητες του ημερολογίου MS Project σε Java χρησιμοποιώντας το Aspose.Tasks. Οδηγός
   βήμα‑προς‑βήμα για την εμφάνιση των ωρών εργασίας του ημερολογίου και την προσαρμογή
   των προγραμμάτων.
-language: el
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Πώς να ορίσετε το ημερολόγιο του έργου με το Aspose.Tasks για Java
-url: /java/calendars/properties/
+url: /el/java/calendars/properties/
 weight: 10
 ---
 

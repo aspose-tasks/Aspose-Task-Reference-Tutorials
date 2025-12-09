@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Naučte se, jak uložit soubor projektu, zapisovat a číst vzorce MS Project
   a přidávat vlastní vzorce polí pomocí Aspose.Tasks pro Javu.
-language: cs
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Uložte soubor projektu a zapisujte vzorce MS Project pomocí Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /cs/java/formulas/write-read-formulas/
 weight: 12
 ---
 

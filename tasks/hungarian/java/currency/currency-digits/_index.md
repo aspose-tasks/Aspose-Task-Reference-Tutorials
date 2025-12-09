@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan kezelje hatékonyan a MS Project pénznemjegyeit az
   Aspose.Tasks for Java segítségével. Lépésről lépésre útmutató, amely lefedi a Java
   projektfájl-kezelést és azt, hogyan töltsön be MPP fájlokat.
-language: hu
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Kezelje az MS Project pénznemjegyeit az Aspose.Tasks segítségével
-url: /java/currency/currency-digits/
+url: /hu/java/currency/currency-digits/
 weight: 11
 ---
 

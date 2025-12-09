@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Узнайте, как установить валюту в проектах Aspose.Tasks Java, включая
   изменение валюты и символа валюты в Java. Легко манипулируйте файлами Microsoft
   Project.
-language: ru
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Как установить валюту в проектах Aspose.Tasks – руководство по Java
-url: /java/currency-properties/set-properties/
+url: /ru/java/currency-properties/set-properties/
 weight: 11
 ---
 

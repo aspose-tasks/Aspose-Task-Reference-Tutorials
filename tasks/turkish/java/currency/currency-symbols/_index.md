@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Tasks for Java ile para birimi simgesini MPP'den çıkarma ve Java'da
   para birimi simgesini değiştirme yöntemlerini öğrenin. Proje yönetimi için para
   birimi simgesini Java'da hızlıca alın.
-language: tr
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java ile mpp dosyasından para birimi simgesini çıkar
-url: /java/currency/currency-symbols/
+url: /tr/java/currency/currency-symbols/
 weight: 12
 ---
 

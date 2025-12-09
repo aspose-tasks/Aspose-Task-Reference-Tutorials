@@ -4,11 +4,10 @@ description: Mühelos benutzerdefinierte Kalenderausnahmen erstellen, den MS P
   integrieren und Kalenderausnahmen in Java‑Projekten mit Aspose.Tasks verwalten,
   definieren, bearbeiten und abrufen. Optimieren Sie Projektabläufe für ein effizientes
   Projektmanagement.
-language: de
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Erstellen benutzerdefinierter Kalenderausnahmen mit Aspose.Tasks für Java
-url: /java/calendar-exceptions/
+url: /de/java/calendar-exceptions/
 weight: 20
 ---
 

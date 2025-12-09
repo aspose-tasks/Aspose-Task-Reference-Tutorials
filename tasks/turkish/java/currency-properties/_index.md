@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Tasks for Java kullanarak MS Project dosyalarında para birimini
   nasıl okuyacağınızı ve para birimi özelliklerini nasıl ayarlayacağınızı öğrenin.
   Sorunsuz proje dosyası manipülasyonu için adım adım rehberler.
-language: tr
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java ile Para Birimi Özelliklerini Okuma
-url: /java/currency-properties/
+url: /tr/java/currency-properties/
 weight: 25
 ---
 

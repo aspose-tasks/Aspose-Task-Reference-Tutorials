@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java를 사용하여 MS Project 수식을 만들고, MS Project 파일을 조작하며,
   작업 값을 계산하는 방법을 배우세요. 단계별 튜토리얼로 생산성을 높이세요.
-language: ko
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java를 사용한 MS Project 수식 만들기
-url: /java/formulas/
+url: /ko/java/formulas/
 weight: 23
 ---
 

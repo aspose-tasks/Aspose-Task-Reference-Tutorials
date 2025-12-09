@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.Tasks for Java を使用して、カレンダーの設定、MS Project の平日の定義、カスタム作業日の設定方法を学びましょう。数行のコードでプロジェクトを
   XML として保存できます。
-language: ja
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks を使用して MS Project のカレンダーを設定し、平日を定義する方法
-url: /java/calendars/define-weekdays/
+url: /ja/java/calendars/define-weekdays/
 weight: 12
 ---
 

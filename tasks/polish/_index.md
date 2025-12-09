@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Dowiedz się, jak wyeksportować projekt do PDF przy użyciu Aspose.Tasks,
   zarządzać licencjami projektu oraz odkrywać wielojęzyczne samouczki dla .NET, Java,
   C++ i nie tylko.
-language: pl
 linktitle: Aspose.Tasks Tutorials
 title: Eksport projektu do PDF z samouczkiem Aspose.Tasks
-url: /
+url: /pl/
 weight: 11
 ---
 

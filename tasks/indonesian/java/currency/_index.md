@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara mengelola kode mata uang, digit, dan simbol dalam file
   MS Project menggunakan Aspose.Tasks untuk Java. Tutorial langkah demi langkah untuk
   penanganan keuangan proyek yang sempurna.
-language: id
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Kelola Kode Mata Uang Java dengan Aspose.Tasks
-url: /java/currency/
+url: /id/java/currency/
 weight: 22
 ---
 

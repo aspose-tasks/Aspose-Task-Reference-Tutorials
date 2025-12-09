@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Μάθετε πώς να δημιουργείτε τύπους MS Project, να διαχειρίζεστε αρχεία
   MS Project και να υπολογίζετε τιμές εργασιών με Java χρησιμοποιώντας το Aspose.Tasks
   for Java. Αυξήστε την παραγωγικότητα με βήμα‑βήμα οδηγούς.
-language: el
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Δημιουργήστε τύπους MS Project με το Aspose.Tasks για Java
-url: /java/formulas/
+url: /el/java/formulas/
 weight: 23
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak efektywnie obsługiwać cyfry walut w MS Project przy
   użyciu Aspose.Tasks for Java. Przewodnik krok po kroku obejmujący obsługę plików
   projektu w Javie oraz sposób ładowania plików MPP.
-language: pl
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Obsłuż cyfry waluty w MS Project przy użyciu Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /pl/java/currency/currency-digits/
 weight: 11
 ---
 

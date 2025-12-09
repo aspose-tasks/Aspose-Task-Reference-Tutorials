@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να ορίζετε το νόμισμα σε έργα Aspose.Tasks Java, συμπεριλαμβανομένου
   του πώς να αλλάζετε το νόμισμα και το σύμβολο του νομίσματος. Διαχειριστείτε αρχεία
   Microsoft Project με ευκολία.
-language: el
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Πώς να ορίσετε το νόμισμα σε έργα Aspose.Tasks – Οδηγός Java
-url: /java/currency-properties/set-properties/
+url: /el/java/currency-properties/set-properties/
 weight: 11
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 學習如何在使用 Aspose.Tasks for Java 操作 Microsoft Project 檔案時，**建立測試專案**及**新增自訂欄位**。
-language: zh-hant
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 建立測試專案並在 Aspose.Tasks for Java 中使用公式
-url: /java/formulas/work-with-formulas/
+url: /zh-hant/java/formulas/work-with-formulas/
 weight: 11
 ---
 

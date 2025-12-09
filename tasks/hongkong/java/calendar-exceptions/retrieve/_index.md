@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 學習如何使用 Aspose.Tasks for Java 從 MS Project 取得行事曆例外。此 Aspose.Tasks Java
   教程提供逐步程式碼範例。
-language: zh-hant
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 取得行事曆例外 – ASP Tasks Java 教學
-url: /java/calendar-exceptions/retrieve/
+url: /zh-hant/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

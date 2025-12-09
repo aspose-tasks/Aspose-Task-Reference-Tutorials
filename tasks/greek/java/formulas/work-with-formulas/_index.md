@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Μάθετε πώς να **δημιουργήσετε δοκιμαστικό έργο** και **προσθέσετε προσαρμοσμένο
   πεδίο** ενώ χειρίζεστε αρχεία Microsoft Project χρησιμοποιώντας το Aspose.Tasks
   for Java.
-language: el
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Δημιουργία δοκιμαστικού έργου και χρήση τύπων με το Aspose.Tasks για Java
-url: /java/formulas/work-with-formulas/
+url: /el/java/formulas/work-with-formulas/
 weight: 11
 ---
 

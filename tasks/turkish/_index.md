@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Aspose.Tasks kullanarak projeyi PDF'ye nasıl dışa aktaracağınızı öğrenin,
   proje lisanslarını yönetin ve .NET, Java, C++ ve daha fazlası için çok dilli öğreticileri
   keşfedin.
-language: tr
 linktitle: Aspose.Tasks Tutorials
 title: Aspose.Tasks ile Projeyi PDF'ye Dışa Aktarma Öğreticisi
-url: /
+url: /tr/
 weight: 11
 ---
 

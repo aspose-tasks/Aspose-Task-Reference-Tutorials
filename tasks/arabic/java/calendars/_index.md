@@ -3,11 +3,10 @@ date: 2025-12-02
 description: تعلم كيفية تعريف أيام الأسبوع في تقاويم MS Project باستخدام Aspose.Tasks
   للغة Java. دليل خطوة بخطوة لتخصيص أيام العمل، تحسين الجدولة، وتعزيز كفاءة إدارة
   المشاريع.
-language: ar
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: كيفية تعريف أيام الأسبوع في تقاويم MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /ar/java/calendars/
 weight: 21
 ---
 

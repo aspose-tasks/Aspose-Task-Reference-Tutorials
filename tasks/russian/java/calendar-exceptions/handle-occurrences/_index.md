@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Учебник по календарю Java, показывающий, как обрабатывать исключения
   календаря, задавать повторения и настраивать тип исключения с помощью Aspose.Tasks
   для Java.
-language: ru
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Учебник по Java Calendar: Обработка исключений календаря'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /ru/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

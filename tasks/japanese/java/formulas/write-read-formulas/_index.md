@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java を使用して、プロジェクト ファイルの保存方法、MS Project の数式の書き込みと読み取り、カスタム
   フィールド数式の追加方法を学びます。
-language: ja
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasksでプロジェクトファイルを保存し、MS Projectの数式を書き込む
-url: /java/formulas/write-read-formulas/
+url: /ja/java/formulas/write-read-formulas/
 weight: 12
 ---
 

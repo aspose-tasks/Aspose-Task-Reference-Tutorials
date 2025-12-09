@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.Tasks kullanarak Java'da takvim oluşturmayı öğrenin. Bu adım adım
   rehber, standart bir MS Project takvimi oluşturmayı, standart bir takvim eklemeyi
   ve Aspose.Tasks'i etkili bir şekilde kullanmayı gösterir.
-language: tr
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Takvim Nasıl Oluşturulur – Aspose.Tasks'te Standart Takvim Oluşturma
-url: /java/calendars/make-standard/
+url: /tr/java/calendars/make-standard/
 weight: 14
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tìm hiểu cách lưu tệp dự án, viết và đọc công thức MS Project, và thêm
   công thức trường tùy chỉnh bằng Aspose.Tasks cho Java.
-language: vi
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Lưu tệp dự án và viết công thức MS Project với Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /vi/java/formulas/write-read-formulas/
 weight: 12
 ---
 

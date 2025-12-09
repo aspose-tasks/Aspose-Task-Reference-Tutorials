@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: เรียนรู้วิธีส่งออกโครงการเป็น PDF ด้วย Aspose.Tasks, จัดการใบอนุญาตโครงการ,
   และสำรวจบทเรียนหลายภาษาสำหรับ .NET, Java, C++ และอื่น ๆ
-language: th
 linktitle: Aspose.Tasks Tutorials
 title: ส่งออกโครงการเป็น PDF ด้วยบทแนะนำ Aspose.Tasks
-url: /
+url: /th/
 weight: 11
 ---
 

@@ -4,11 +4,10 @@ description: Jednoduše vytvářejte vlastní výjimky kalendáře, integrujte k
   Project a spravujte, definujte, zpracovávejte a načítejte výjimky kalendáře v Java
   projektech s Aspose.Tasks. Zefektivněte pracovní postupy projektů pro efektivní
   řízení projektů.
-language: cs
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Vytvořte vlastní výjimky kalendáře pomocí Aspose.Tasks pro Javu
-url: /java/calendar-exceptions/
+url: /cs/java/calendar-exceptions/
 weight: 20
 ---
 

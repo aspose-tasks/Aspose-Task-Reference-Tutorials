@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Tasks Java प्रोजेक्ट्स में मुद्रा कैसे सेट करें, जिसमें मुद्रा
   बदलना और मुद्रा प्रतीक बदलना शामिल है। Microsoft Project फ़ाइलों को आसानी से संभालें।
-language: hi
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks प्रोजेक्ट्स में मुद्रा कैसे सेट करें – जावा गाइड
-url: /java/currency-properties/set-properties/
+url: /hi/java/currency-properties/set-properties/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara mendefinisikan hari kerja dalam kalender MS Project menggunakan
   Aspose.Tasks untuk Java. Panduan langkah demi langkah untuk menyesuaikan hari kerja,
   meningkatkan penjadwalan, dan meningkatkan efisiensi manajemen proyek.
-language: id
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Cara Mendefinisikan Hari Kerja dalam Kalender MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /id/java/calendars/
 weight: 21
 ---
 

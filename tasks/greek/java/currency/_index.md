@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να διαχειρίζεστε κωδικούς νομισμάτων, ψηφία και σύμβολα σε
   αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Αναλυτικά μαθήματα βήμα‑προς‑βήμα
   για άψογη διαχείριση των οικονομικών του έργου.
-language: el
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Διαχείριση Κωδικών Νομισμάτων Java με το Aspose.Tasks
-url: /java/currency/
+url: /el/java/currency/
 weight: 22
 ---
 

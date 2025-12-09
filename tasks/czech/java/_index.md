@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Naučte se, jak vytvořit projektový kalendář Aspose a nakonfigurovat Ganttův
   diagram v Javě pomocí Aspose.Tasks pro Javu. Komplexní tutoriály, příklady a osvědčené
   postupy.
-language: cs
 linktitle: Aspose.Tasks for Java Tutorials
 title: Vytvořit kalendář projektu Aspose – Průvodce Aspose.Tasks pro Java
-url: /java/
+url: /cs/java/
 weight: 10
 ---
 

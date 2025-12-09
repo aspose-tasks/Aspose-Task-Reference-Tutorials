@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lernen Sie, wie Sie die Währungsstellen in MS Project effizient mit Aspose.Tasks
   für Java handhaben. Schritt‑für‑Schritt‑Anleitung zur Java‑Projektdateiverarbeitung
   und zum Laden von MPP‑Dateien.
-language: de
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Währungsstellen von MS Project mit Aspose.Tasks verarbeiten
-url: /java/currency/currency-digits/
+url: /de/java/currency/currency-digits/
 weight: 11
 ---
 

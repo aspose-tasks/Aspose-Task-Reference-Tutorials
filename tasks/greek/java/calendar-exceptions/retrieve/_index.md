@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Μάθετε πώς να ανακτήσετε εξαιρέσεις ημερολογίου από το MS Project χρησιμοποιώντας
   το Aspose.Tasks για Java. Αυτό το σεμινάριο Aspose.Tasks για Java παρέχει παραδείγματα
   κώδικα βήμα‑βήμα.
-language: el
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Ανάκτηση εξαιρέσεων ημερολογίου με το Aspose.Tasks – οδηγός asp tasks java
-url: /java/calendar-exceptions/retrieve/
+url: /el/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

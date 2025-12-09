@@ -4,11 +4,10 @@ description: Könnyedén hozhat létre egyedi naptárkivételket, integrálhatja
   naptárát, és kezelheti, definiálhatja, feldolgozhatja és lekérheti a naptárkivételket
   Java projektekben az Aspose.Tasks segítségével. Egyszerűsítse a projektfolyamatokat
   a hatékony projektmenedzsment érdekében.
-language: hu
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Egyéni naptárkivételek létrehozása az Aspose.Tasks for Java segítségével
-url: /java/calendar-exceptions/
+url: /hu/java/calendar-exceptions/
 weight: 20
 ---
 

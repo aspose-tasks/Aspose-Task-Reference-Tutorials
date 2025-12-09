@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Leer hoe je een agenda maakt in Java met Aspose.Tasks. Deze stapsgewijze
   handleiding laat zien hoe je een standaard MS Project‑agenda maakt, een standaardagenda
   toevoegt en Aspose.Tasks effectief gebruikt.
-language: nl
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Hoe een kalender te maken – Standaardkalender maken in Aspose.Tasks
-url: /java/calendars/make-standard/
+url: /nl/java/calendars/make-standard/
 weight: 14
 ---
 

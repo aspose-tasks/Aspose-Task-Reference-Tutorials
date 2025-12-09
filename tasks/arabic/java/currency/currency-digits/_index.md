@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية التعامل مع أرقام عملة MS Project بفعالية باستخدام Aspose.Tasks
   للغة Java. دليل خطوة بخطوة يغطي معالجة ملفات مشروع Java وكيفية تحميل ملفات MPP.
-language: ar
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: معالجة أرقام عملة مشروع MS باستخدام Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /ar/java/currency/currency-digits/
 weight: 11
 ---
 

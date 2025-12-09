@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Aprenda a definir los días laborables en los calendarios de MS Project
   usando Aspose.Tasks para Java. Guía paso a paso para personalizar los días de trabajo,
   mejorar la programación y aumentar la eficiencia en la gestión de proyectos.
-language: es
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Cómo definir los días laborables en los calendarios de MS Project – Aspose.Tasks
   Java
-url: /java/calendars/
+url: /es/java/calendars/
 weight: 21
 ---
 

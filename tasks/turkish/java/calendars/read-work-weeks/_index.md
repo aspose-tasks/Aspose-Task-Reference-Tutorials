@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Tasks kullanarak bir Microsoft Project takviminden iş haftalarını
   Java ile nasıl okuyacağınızı öğrenin. Tam kod örnekleriyle adım adım kılavuzu izleyin.
-language: tr
 linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: MS Project Takviminden Aspose.Tasks ile Java’da Çalışma Haftalarını Okuma
-url: /java/calendars/read-work-weeks/
+url: /tr/java/calendars/read-work-weeks/
 weight: 15
 ---
 

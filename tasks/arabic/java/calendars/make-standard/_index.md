@@ -3,11 +3,10 @@ date: 2025-12-03
 description: تعلم كيفية إنشاء تقويم في Java باستخدام Aspose.Tasks. يوضح لك هذا الدليل
   خطوة بخطوة كيفية إنشاء تقويم MS Project قياسي، وإضافة تقويم قياسي، واستخدام Aspose.Tasks
   بفعالية.
-language: ar
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: كيفية إنشاء تقويم – إنشاء تقويم قياسي في Aspose.Tasks
-url: /java/calendars/make-standard/
+url: /ar/java/calendars/make-standard/
 weight: 14
 ---
 

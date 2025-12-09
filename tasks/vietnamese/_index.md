@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: Tìm hiểu cách xuất dự án ra PDF bằng Aspose.Tasks, quản lý giấy phép
   dự án và khám phá các hướng dẫn đa ngôn ngữ cho .NET, Java, C++ và hơn nữa.
-language: vi
 linktitle: Aspose.Tasks Tutorials
 title: Xuất dự án sang PDF với hướng dẫn Aspose.Tasks
-url: /
+url: /vi/
 weight: 11
 ---
 

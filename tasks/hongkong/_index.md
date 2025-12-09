@@ -2,10 +2,9 @@
 additionalTitle: Aspose API References
 date: 2025-11-29
 description: 學習如何使用 Aspose.Tasks 將專案匯出為 PDF、管理專案授權，並探索 .NET、Java、C++ 等多語言教學。
-language: zh-hant
 linktitle: Aspose.Tasks Tutorials
 title: 使用 Aspose.Tasks 將專案匯出為 PDF 教學
-url: /
+url: /zh-hant/
 weight: 11
 ---
 

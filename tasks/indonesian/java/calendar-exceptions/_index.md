@@ -4,11 +4,10 @@ description: Dengan mudah membuat pengecualian kalender khusus, mengintegrasikan
   MS Project, serta mengelola, mendefinisikan, menangani, dan mengambil pengecualian
   kalender dalam proyek Java dengan Aspose.Tasks. Menyederhanakan alur kerja proyek
   untuk manajemen proyek yang efisien.
-language: id
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Buat Pengecualian Kalender Kustom dengan Aspose.Tasks untuk Java
-url: /java/calendar-exceptions/
+url: /id/java/calendar-exceptions/
 weight: 20
 ---
 

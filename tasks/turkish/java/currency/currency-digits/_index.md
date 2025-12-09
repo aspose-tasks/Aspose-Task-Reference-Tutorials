@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Ms Project para birimi basamaklarını Aspose.Tasks for Java kullanarak
   verimli bir şekilde nasıl yöneteceğinizi öğrenin. Java proje dosyası işleme ve mpp
   dosyalarını nasıl yükleyeceğinizi adım adım anlatan rehber.
-language: tr
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks ile MS Project para birimi basamaklarını işleyin
-url: /java/currency/currency-digits/
+url: /tr/java/currency/currency-digits/
 weight: 11
 ---
 

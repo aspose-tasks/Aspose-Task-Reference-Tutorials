@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Μάθετε πώς να δημιουργήσετε ημερολόγιο έργου Aspose και να διαμορφώσετε
   διάγραμμα Gantt σε Java χρησιμοποιώντας το Aspose.Tasks for Java. Πλήρη μαθήματα,
   παραδείγματα και βέλτιστες πρακτικές.
-language: el
 linktitle: Aspose.Tasks for Java Tutorials
 title: Δημιουργία ημερολογίου έργου Aspose – Οδηγός Aspose.Tasks για Java
-url: /java/
+url: /el/java/
 weight: 10
 ---
 

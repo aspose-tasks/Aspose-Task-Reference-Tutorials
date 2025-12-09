@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีเพิ่มปฏิทินลงในโครงการ, วิธีสร้างปฏิทิน MS Project, และบันทึกโครงการเป็น
   XML ด้วย Aspose.Tasks สำหรับ Java.
-language: th
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: เพิ่มปฏิทินในโครงการด้วย Aspose.Tasks สำหรับ Java
-url: /java/calendars/create/
+url: /th/java/calendars/create/
 weight: 11
 ---
 

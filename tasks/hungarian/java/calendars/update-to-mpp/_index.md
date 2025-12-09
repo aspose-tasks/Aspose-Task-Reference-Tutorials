@@ -3,12 +3,11 @@ date: 2025-12-03
 description: Tanulja meg, hogyan hozhat létre naptárat az MS Projectben, konvertálhatja
   a projektet MPP formátumba, és mentheti a projekt MPP-t könnyedén az Aspose.Tasks
   for Java használatával.
-language: hu
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Naptár létrehozása MS Projectben és mentés MPP formátumban az Aspose.Tasks
   segítségével
-url: /java/calendars/update-to-mpp/
+url: /hu/java/calendars/update-to-mpp/
 weight: 16
 ---
 

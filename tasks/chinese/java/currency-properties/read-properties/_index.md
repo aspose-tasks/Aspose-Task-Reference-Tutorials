@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 了解如何使用 Aspose.Tasks for Java 从 MS Project 文件中读取货币属性。请按照本分步指南以编程方式提取货币代码、符号、位数和位置。
-language: zh
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 项目在 Java 中读取货币属性
-url: /java/currency-properties/read-properties/
+url: /zh/java/currency-properties/read-properties/
 weight: 10
 ---
 

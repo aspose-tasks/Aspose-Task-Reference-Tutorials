@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie Währungscodes, Ziffern und Symbole in MS‑Project‑Dateien
   mit Aspose.Tasks für Java verwalten. Schritt‑für‑Schritt‑Anleitungen für eine fehlerfreie
   finanzielle Projektabwicklung.
-language: de
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Währungscodes in Java mit Aspose.Tasks verwalten
-url: /java/currency/
+url: /de/java/currency/
 weight: 22
 ---
 

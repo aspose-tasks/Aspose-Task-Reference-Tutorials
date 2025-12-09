@@ -3,11 +3,10 @@ date: 2025-12-04
 description: تعلم كيفية قراءة خصائص العملة في جافا من ملفات MS Project باستخدام Aspose.Tasks
   for Java. اتبع هذا الدليل خطوةً بخطوة لاستخراج رمز العملة، والرمز، وعدد الأرقام
   العشرية، وموقعه برمجيًا.
-language: ar
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: قراءة خصائص العملة في جافا باستخدام مشاريع Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /ar/java/currency-properties/read-properties/
 weight: 10
 ---
 

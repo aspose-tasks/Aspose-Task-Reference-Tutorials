@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Tasks for Java kullanarak MS Project dosyalarında para birimi
   kodları, rakamlar ve sembolleri nasıl yöneteceğinizi öğrenin. Kusursuz proje finans
   yönetimi için adım adım öğreticiler.
-language: tr
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks ile Java’da Para Birimi Kodlarını Yönet
-url: /java/currency/
+url: /tr/java/currency/
 weight: 22
 ---
 

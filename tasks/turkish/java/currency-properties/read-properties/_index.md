@@ -4,11 +4,10 @@ description: Aspose.Tasks for Java kullanarak MS Project dosyalarından para bir
   özelliklerini Java’da nasıl okuyacağınızı öğrenin. Para birimi kodunu, sembolünü,
   basamak sayısını ve konumunu programlı olarak çıkarmak için bu adım‑adım kılavuzu
   izleyin.
-language: tr
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Java ile Aspose.Tasks Projelerinde Para Birimi Özelliklerini Okuma
-url: /java/currency-properties/read-properties/
+url: /tr/java/currency-properties/read-properties/
 weight: 10
 ---
 

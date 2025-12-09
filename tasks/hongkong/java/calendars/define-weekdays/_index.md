@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 學習如何設定日曆、在 MS Project 中定義工作日，並使用 Aspose.Tasks for Java 設定自訂工作日。只需幾行程式碼即可將專案儲存為
   XML。
-language: zh-hant
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 如何在 MS Project 中使用 Aspose.Tasks 設定行事曆與定義工作日
-url: /java/calendars/define-weekdays/
+url: /zh-hant/java/calendars/define-weekdays/
 weight: 12
 ---
 

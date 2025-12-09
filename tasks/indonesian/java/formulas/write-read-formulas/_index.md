@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Pelajari cara menyimpan file proyek, menulis dan membaca rumus MS Project,
   serta menambahkan rumus bidang khusus menggunakan Aspose.Tasks untuk Java.
-language: id
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Simpan File Proyek dan Tulis Rumus MS Project dengan Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /id/java/formulas/write-read-formulas/
 weight: 12
 ---
 

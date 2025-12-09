@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Erfahren Sie, wie Sie einen Projektkalender mit Aspose erstellen und
   ein Gantt‑Diagramm in Java mit Aspose.Tasks for Java konfigurieren. Umfassende Tutorials,
   Beispiele und bewährte Verfahren.
-language: de
 linktitle: Aspose.Tasks for Java Tutorials
 title: Projektkalender erstellen – Aspose.Tasks für Java Leitfaden
-url: /java/
+url: /de/java/
 weight: 10
 ---
 

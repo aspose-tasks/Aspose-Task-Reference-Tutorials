@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 學習如何儲存專案檔案、編寫與讀取 MS Project 公式，以及使用 Aspose.Tasks for Java 新增自訂欄位公式。
-language: zh-hant
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 儲存專案檔案並使用 Aspose.Tasks 撰寫 MS Project 公式
-url: /java/formulas/write-read-formulas/
+url: /zh-hant/java/formulas/write-read-formulas/
 weight: 12
 ---
 

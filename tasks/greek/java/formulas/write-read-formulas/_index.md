@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Μάθετε πώς να αποθηκεύετε το αρχείο έργου, να γράφετε και να διαβάζετε
   τύπους MS Project και να προσθέτετε τύπους προσαρμοσμένων πεδίων χρησιμοποιώντας
   το Aspose.Tasks για Java.
-language: el
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Αποθήκευση αρχείου έργου και συγγραφή τύπων MS Project με το Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /el/java/formulas/write-read-formulas/
 weight: 12
 ---
 

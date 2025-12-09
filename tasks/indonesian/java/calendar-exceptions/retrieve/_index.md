@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari cara mengambil pengecualian kalender dari MS Project menggunakan
   Aspose.Tasks untuk Java. Tutorial Aspose.Tasks Java ini menyediakan contoh kode
   langkah demi langkah.
-language: id
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Mengambil Pengecualian Kalender dengan Aspose.Tasks – tutorial Java Aspose.Tasks
-url: /java/calendar-exceptions/retrieve/
+url: /id/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Dowiedz się, jak odczytywać właściwości waluty w Javie z plików MS Project
   przy użyciu Aspose.Tasks for Java. Postępuj zgodnie z tym przewodnikiem krok po
   kroku, aby programowo wyodrębnić kod waluty, symbol, liczbę cyfr i położenie.
-language: pl
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Odczyt właściwości waluty w Javie przy użyciu projektów Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /pl/java/currency-properties/read-properties/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีอ่านคุณสมบัติสกุลเงินจากไฟล์ MS Project ด้วย Aspose.Tasks
   for Java. ทำตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อดึงรหัสสกุลเงิน, สัญลักษณ์, จำนวนทศนิยมและตำแหน่งของสกุลเงินโดยอัตโนมัติ.
-language: th
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: อ่านคุณสมบัติสกุลเงิน Java ด้วยโครงการ Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /th/java/currency-properties/read-properties/
 weight: 10
 ---
 

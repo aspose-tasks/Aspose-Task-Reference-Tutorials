@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: カスタム カレンダー例外を簡単に作成し、MS Project カレンダーを統合し、Aspose.Tasks を使用した Java プロジェクトでカレンダー例外を管理、定義、処理、取得できます。プロジェクト
   ワークフローを効率化し、効果的なプロジェクト管理を実現します。
-language: ja
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Javaでカスタム カレンダー例外を作成する
-url: /java/calendar-exceptions/
+url: /ja/java/calendar-exceptions/
 weight: 20
 ---
 

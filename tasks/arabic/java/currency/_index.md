@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية إدارة رموز العملات والأرقام والرموز في ملفات MS Project باستخدام
   Aspose.Tasks للغة Java. دروس خطوة بخطوة للتعامل المالي المثالي في المشاريع.
-language: ar
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: إدارة رموز العملات في جافا باستخدام Aspose.Tasks
-url: /java/currency/
+url: /ar/java/currency/
 weight: 22
 ---
 

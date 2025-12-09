@@ -3,11 +3,10 @@ date: 2025-11-29
 description: أنشئ استثناءات تقويم مخصصة بسهولة، ودمج تقويم MS Project، وإدارة، تعريف،
   معالجة واسترجاع استثناءات التقويم في مشاريع Java باستخدام Aspose.Tasks. سهل سير
   عمل المشروع لإدارة مشروع فعّالة.
-language: ar
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: إنشاء استثناءات تقويم مخصصة باستخدام Aspose.Tasks للـ Java
-url: /java/calendar-exceptions/
+url: /ar/java/calendar-exceptions/
 weight: 20
 ---
 

@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: تعلم كيفية تصدير المشروع إلى PDF باستخدام Aspose.Tasks، وإدارة تراخيص
   المشروع، واستكشاف دروس متعددة اللغات لـ .NET، Java، C++ والمزيد.
-language: ar
 linktitle: Aspose.Tasks Tutorials
 title: تصدير المشروع إلى PDF مع دليل Aspose.Tasks
-url: /
+url: /ar/
 weight: 11
 ---
 

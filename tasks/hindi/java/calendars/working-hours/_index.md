@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Tasks for Java का उपयोग करके MS Project कैलेंडरों से कार्य घंटे
   निकालकर कार्य दिवस निर्धारित करने और कार्य अवधि की गणना करना सीखें।
-language: hi
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks के साथ कार्य दिवस और कार्य घंटे निर्धारित करें
-url: /java/calendars/working-hours/
+url: /hi/java/calendars/working-hours/
 weight: 13
 ---
 

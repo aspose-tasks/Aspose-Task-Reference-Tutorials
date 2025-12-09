@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Lär dig hur du ställer in projektkalender och hanterar MS Project‑kalenderegenskaper
   i Java med Aspose.Tasks. Steg‑för‑steg‑guide för att visa kalenderns arbetstimmar
   och anpassa scheman.
-language: sv
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Hur man ställer in projektkalender med Aspose.Tasks för Java
-url: /java/calendars/properties/
+url: /sv/java/calendars/properties/
 weight: 10
 ---
 

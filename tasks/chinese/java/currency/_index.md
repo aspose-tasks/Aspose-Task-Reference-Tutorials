@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何使用 Aspose.Tasks for Java 在 MS Project 文件中管理货币代码、数字和符号。一步步教程，助您实现项目财务处理的完美无瑕。
-language: zh
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 在 Java 中管理货币代码
-url: /java/currency/
+url: /zh/java/currency/
 weight: 22
 ---
 

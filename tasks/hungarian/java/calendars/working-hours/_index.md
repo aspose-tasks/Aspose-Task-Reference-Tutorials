@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan határozza meg a munkanapokat és számítsa ki a feladat
   időtartamát az MS Project naptárakból származó munkaórák kinyerésével az Aspose.Tasks
   for Java segítségével.
-language: hu
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Munkaidő napok és munkaórák meghatározása az Aspose.Tasks segítségével
-url: /java/calendars/working-hours/
+url: /hu/java/calendars/working-hours/
 weight: 13
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีกำหนดวันทำงานและคำนวณระยะเวลางานโดยการดึงชั่วโมงทำงานจากปฏิทิน
   MS Project ด้วย Aspose.Tasks สำหรับ Java.
-language: th
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: กำหนดวันทำงานและชั่วโมงทำงานด้วย Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /th/java/calendars/working-hours/
 weight: 13
 ---
 

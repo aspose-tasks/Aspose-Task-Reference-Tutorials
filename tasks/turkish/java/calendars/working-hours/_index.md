@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Tasks for Java kullanarak MS Project takvimlerinden çalışma saatlerini
   çıkararak çalışma günlerini belirlemeyi ve görev süresini hesaplamayı öğrenin.
-language: tr
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks ile Çalışma Günlerini ve Çalışma Saatlerini Belirleyin
-url: /java/calendars/working-hours/
+url: /tr/java/calendars/working-hours/
 weight: 13
 ---
 

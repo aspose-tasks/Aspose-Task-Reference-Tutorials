@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Aprenda como criar calendário de projeto Aspose e configurar gráfico
   de Gantt em Java usando Aspose.Tasks para Java. Tutoriais abrangentes, exemplos
   e melhores práticas.
-language: pt
 linktitle: Aspose.Tasks for Java Tutorials
 title: Criar Calendário de Projeto Aspose – Guia Aspose.Tasks para Java
-url: /java/
+url: /pt/java/
 weight: 10
 ---
 

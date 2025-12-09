@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe u de valutacijfers van MS Project efficiënt kunt verwerken met
   Aspose.Tasks voor Java. Stapsgewijze handleiding over het omgaan met Java‑projectbestanden
   en het laden van MPP‑bestanden.
-language: nl
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Behandel valutacijfers van MS Project met Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /nl/java/currency/currency-digits/
 weight: 11
 ---
 

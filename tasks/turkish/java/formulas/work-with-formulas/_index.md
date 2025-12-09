@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java kullanarak Microsoft Project dosyalarını manipüle
   ederken **test projesi oluşturmayı** ve **özel alan eklemeyi** öğrenin.
-language: tr
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Test Projesi Oluşturun ve Aspose.Tasks for Java ile Formülleri Kullanın
-url: /java/formulas/work-with-formulas/
+url: /tr/java/formulas/work-with-formulas/
 weight: 11
 ---
 

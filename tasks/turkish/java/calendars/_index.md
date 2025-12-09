@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Aspose.Tasks for Java kullanarak MS Project takvimlerinde hafta içi günlerini
   nasıl tanımlayacağınızı öğrenin. Çalışma günlerini özelleştirmek, planlamayı iyileştirmek
   ve proje yönetimi verimliliğini artırmak için adım adım rehber.
-language: tr
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: MS Project Takvimlerinde Hafta Günlerini Nasıl Tanımlarsınız – Aspose.Tasks
   Java
-url: /java/calendars/
+url: /tr/java/calendars/
 weight: 21
 ---
 

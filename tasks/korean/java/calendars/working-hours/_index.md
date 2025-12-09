@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Tasks for Java를 사용하여 MS Project 캘린더에서 작업 시간을 추출함으로써 작업일을 결정하고
   작업 기간을 계산하는 방법을 배웁니다.
-language: ko
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks를 사용하여 작업일 및 작업시간 결정
-url: /java/calendars/working-hours/
+url: /ko/java/calendars/working-hours/
 weight: 13
 ---
 

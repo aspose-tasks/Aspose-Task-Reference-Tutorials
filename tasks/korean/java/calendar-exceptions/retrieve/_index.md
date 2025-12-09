@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.Tasks for Java를 사용하여 MS Project에서 캘린더 예외를 검색하는 방법을 배웁니다. 이 Aspose.Tasks
   Java 튜토리얼은 단계별 코드 예제를 제공합니다.
-language: ko
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks를 사용한 캘린더 예외 가져오기 – ASP Tasks Java 튜토리얼
-url: /java/calendar-exceptions/retrieve/
+url: /ko/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

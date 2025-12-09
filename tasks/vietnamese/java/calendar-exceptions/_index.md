@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tạo các ngoại lệ lịch tùy chỉnh một cách dễ dàng, tích hợp lịch MS Project
   và quản lý, định nghĩa, xử lý & truy xuất các ngoại lệ lịch trong các dự án Java
   với Aspose.Tasks. Tinh giản quy trình dự án để quản lý dự án hiệu quả.
-language: vi
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Tạo các ngoại lệ lịch tùy chỉnh với Aspose.Tasks cho Java
-url: /java/calendar-exceptions/
+url: /vi/java/calendar-exceptions/
 weight: 20
 ---
 

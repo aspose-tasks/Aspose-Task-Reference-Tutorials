@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Lär dig hur du definierar veckodagar i MS Project‑kalendrar med Aspose.Tasks
   för Java. Steg‑för‑steg‑guide för att anpassa arbetsdagar, förbättra schemaläggning
   och öka projektledningens effektivitet.
-language: sv
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Hur man definierar veckodagar i MS Project‑kalendrar – Aspose.Tasks Java
-url: /java/calendars/
+url: /sv/java/calendars/
 weight: 21
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Tìm hiểu cách tạo lịch trong MS Project, chuyển đổi dự án sang định dạng
   MPP và lưu dự án MPP một cách dễ dàng bằng Aspose.Tasks cho Java.
-language: vi
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Tạo Lịch MS Project và Lưu dưới dạng MPP với Aspose.Tasks
-url: /java/calendars/update-to-mpp/
+url: /vi/java/calendars/update-to-mpp/
 weight: 16
 ---
 

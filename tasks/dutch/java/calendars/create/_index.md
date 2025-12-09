@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Leer hoe u een agenda aan een project toevoegt, hoe u een MS Project‑agenda
   maakt en hoe u een project opslaat als XML met Aspose.Tasks voor Java.
-language: nl
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Kalender toevoegen aan project met Aspose.Tasks voor Java
-url: /java/calendars/create/
+url: /nl/java/calendars/create/
 weight: 11
 ---
 

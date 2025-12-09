@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีจัดการรหัสสกุลเงิน Java, ตัวเลขและสัญลักษณ์ในไฟล์ MS Project
   ด้วย Aspose.Tasks for Java. การสอนทีละขั้นตอนเพื่อการจัดการการเงินของโครงการอย่างไม่มีที่ติ.
-language: th
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: จัดการรหัสสกุลเงิน Java ด้วย Aspose.Tasks
-url: /java/currency/
+url: /th/java/currency/
 weight: 22
 ---
 

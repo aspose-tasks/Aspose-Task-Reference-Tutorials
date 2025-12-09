@@ -4,11 +4,10 @@ description: Ismerje meg, hogyan hozhat létre naptárat Java-ban az Aspose.Task
   Ez a lépésről‑lépésre útmutató bemutatja, hogyan hozhat létre egy szabványos MS
   Project naptárat, hogyan adhat hozzá egy szabványos naptárat, és hogyan használhatja
   hatékonyan az Aspose.Tasks-et.
-language: hu
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Hogyan hozzunk létre naptárat – Standard naptár készítése az Aspose.Tasks-ben
-url: /java/calendars/make-standard/
+url: /hu/java/calendars/make-standard/
 weight: 14
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: जावा में Aspose.Tasks का उपयोग करके कैलेंडर बनाना सीखें। यह चरण-दर-चरण
   गाइड आपको मानक MS प्रोजेक्ट कैलेंडर बनाने, एक मानक कैलेंडर जोड़ने, और Aspose.Tasks
   को प्रभावी ढंग से उपयोग करने का तरीका दिखाता है।
-language: hi
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: कैसे बनाएं कैलेंडर – Aspose.Tasks में मानक कैलेंडर बनाएं
-url: /java/calendars/make-standard/
+url: /hi/java/calendars/make-standard/
 weight: 14
 ---
 

@@ -2,10 +2,9 @@
 additionalTitle: Aspose API References
 date: 2025-11-29
 description: 了解如何使用 Aspose.Tasks 将项目导出为 PDF，管理项目许可证，并探索针对 .NET、Java、C++ 等多语言的教程。
-language: zh
 linktitle: Aspose.Tasks Tutorials
 title: 使用 Aspose.Tasks 将项目导出为 PDF 教程
-url: /
+url: /zh/
 weight: 11
 ---
 

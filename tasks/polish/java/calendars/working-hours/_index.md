@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak określić dni robocze i obliczyć czas trwania zadania,
   wyodrębniając godziny pracy z kalendarzy MS Project przy użyciu Aspose.Tasks dla
   Javy.
-language: pl
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Określ dni robocze i godziny pracy za pomocą Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /pl/java/calendars/working-hours/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Μάθημα Java ημερολογίου που δείχνει πώς να διαχειρίζεστε εξαιρέσεις ημερολογίου,
   να ορίζετε επαναλήψεις και να διαμορφώνετε τον τύπο εξαίρεσης με το Aspose.Tasks
   για Java.
-language: el
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Μάθημα Java Calendar: Διαχείριση Εξαίρεσεων Ημερολογίου'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /el/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

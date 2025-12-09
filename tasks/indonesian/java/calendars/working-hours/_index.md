@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Pelajari cara menentukan hari kerja dan menghitung durasi tugas dengan
   mengekstrak jam kerja dari kalender MS Project menggunakan Aspose.Tasks untuk Java.
-language: id
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Menentukan Hari Kerja & Jam Kerja dengan Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /id/java/calendars/working-hours/
 weight: 13
 ---
 

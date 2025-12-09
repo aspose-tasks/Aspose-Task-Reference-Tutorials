@@ -1,10 +1,9 @@
 ---
 date: 2025-12-02
 description: Aspose.Tasks for Java を使用して、プロジェクト カレンダーを作成し、Java のガントチャートを構成する方法を学びましょう。包括的なチュートリアル、例、ベストプラクティスをご提供します。
-language: ja
 linktitle: Aspose.Tasks for Java Tutorials
 title: Asposeでプロジェクトカレンダーを作成 – Aspose.Tasks for Java ガイド
-url: /java/
+url: /ja/java/
 weight: 10
 ---
 

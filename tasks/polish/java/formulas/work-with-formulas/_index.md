@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Dowiedz się, jak **utworzyć projekt testowy** i **dodać pole niestandardowe**,
   manipulując plikami Microsoft Project przy użyciu Aspose.Tasks dla Javy.
-language: pl
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Utwórz projekt testowy i użyj formuł z Aspose.Tasks dla Javy
-url: /java/formulas/work-with-formulas/
+url: /pl/java/formulas/work-with-formulas/
 weight: 11
 ---
 

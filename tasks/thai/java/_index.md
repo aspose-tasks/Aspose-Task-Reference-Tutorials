@@ -2,10 +2,9 @@
 date: 2025-12-02
 description: เรียนรู้วิธีสร้างปฏิทินโครงการด้วย Aspose และกำหนดค่าแผนภูมิแกนท์ใน Java
   โดยใช้ Aspose.Tasks for Java. คู่มือเชิงลึก ตัวอย่าง และแนวปฏิบัติที่ดีที่สุด.
-language: th
 linktitle: Aspose.Tasks for Java Tutorials
 title: สร้างปฏิทินโครงการ Aspose – คู่มือ Aspose.Tasks สำหรับ Java
-url: /java/
+url: /th/java/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Apprenez à définir la devise dans les projets Aspose.Tasks Java, y compris
   comment changer la devise et le symbole de devise en Java. Manipulez les fichiers
   Microsoft Project sans effort.
-language: fr
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Comment définir la devise dans les projets Aspose.Tasks – Guide Java
-url: /java/currency-properties/set-properties/
+url: /fr/java/currency-properties/set-properties/
 weight: 11
 ---
 

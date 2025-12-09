@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách định nghĩa các ngày trong tuần trong lịch MS Project bằng
   Aspose.Tasks cho Java. Hướng dẫn từng bước để tùy chỉnh ngày làm việc, cải thiện
   lập kế hoạch và tăng hiệu quả quản lý dự án.
-language: vi
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Cách Định Nghĩa Các Ngày Trong Tuần Trong Lịch MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /vi/java/calendars/
 weight: 21
 ---
 

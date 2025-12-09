@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java를 사용하여 Microsoft Project 파일을 조작하면서 **테스트 프로젝트 생성**
   및 **사용자 정의 필드 추가** 방법을 배웁니다.
-language: ko
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java로 테스트 프로젝트 생성 및 수식 사용
-url: /java/formulas/work-with-formulas/
+url: /ko/java/formulas/work-with-formulas/
 weight: 11
 ---
 

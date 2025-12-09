@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Naučte se, jak vytvářet vzorce v MS Project, manipulovat se soubory MS
   Project a vypočítávat hodnoty úkolů v Javě pomocí Aspose.Tasks pro Javu. Zvyšte
   produktivitu pomocí krok‑za‑krokem návodů.
-language: cs
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Vytvořte vzorce MS Project pomocí Aspose.Tasks pro Javu
-url: /java/formulas/
+url: /cs/java/formulas/
 weight: 23
 ---
 

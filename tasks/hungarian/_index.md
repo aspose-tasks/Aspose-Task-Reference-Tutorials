@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Tanulja meg, hogyan exportálhatja a projektet PDF formátumba az Aspose.Tasks
   segítségével, kezelje a projektlicenceket, és fedezze fel a többnyelvű oktatóanyagokat
   .NET, Java, C++ és egyéb nyelvekhez.
-language: hu
 linktitle: Aspose.Tasks Tutorials
 title: Projekt exportálása PDF-be az Aspose.Tasks tutorial segítségével
-url: /
+url: /hu/
 weight: 11
 ---
 

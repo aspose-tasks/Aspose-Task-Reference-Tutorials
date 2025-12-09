@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Erfahren Sie, wie Sie Wochentage in MS Project‑Kalendern mit Aspose.Tasks
   für Java definieren. Schritt‑für‑Schritt‑Anleitung zur Anpassung von Arbeitstagen,
   zur Verbesserung der Terminplanung und zur Steigerung der Effizienz im Projektmanagement.
-language: de
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Wie man Wochentage in MS Project‑Kalendern definiert – Aspose.Tasks Java
-url: /java/calendars/
+url: /de/java/calendars/
 weight: 21
 ---
 

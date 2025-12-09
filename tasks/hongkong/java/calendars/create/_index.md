@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 了解如何將行事曆加入專案、如何建立 MS Project 行事曆，以及如何使用 Aspose.Tasks for Java 將專案儲存為
   XML。
-language: zh-hant
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks for Java 為專案新增行事曆
-url: /java/calendars/create/
+url: /zh-hant/java/calendars/create/
 weight: 11
 ---
 

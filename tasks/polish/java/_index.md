@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Dowiedz się, jak utworzyć kalendarz projektu w Aspose i skonfigurować
   wykres Gantta w Javie przy użyciu Aspose.Tasks for Java. Kompleksowe samouczki,
   przykłady i najlepsze praktyki.
-language: pl
 linktitle: Aspose.Tasks for Java Tutorials
 title: Utwórz kalendarz projektu Aspose – Przewodnik Aspose.Tasks dla Javy
-url: /java/
+url: /pl/java/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Узнайте, как установить календарь, определить рабочие дни в MS Project
   и задать пользовательские рабочие дни с помощью Aspose.Tasks для Java. Сохраните
   проект в формате XML, используя всего несколько строк кода.
-language: ru
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Как установить календарь и определить рабочие дни в MS Project с помощью Aspose.Tasks
-url: /java/calendars/define-weekdays/
+url: /ru/java/calendars/define-weekdays/
 weight: 12
 ---
 

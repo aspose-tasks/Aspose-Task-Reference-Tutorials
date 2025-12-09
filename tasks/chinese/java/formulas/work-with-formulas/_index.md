@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 学习如何在使用 Aspose.Tasks for Java 操作 Microsoft Project 文件时**创建测试项目**和**添加自定义字段**。
-language: zh
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 创建测试项目并在 Aspose.Tasks for Java 中使用公式
-url: /java/formulas/work-with-formulas/
+url: /zh/java/formulas/work-with-formulas/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Узнайте, как **создать тестовый проект** и **добавить пользовательское
   поле**, работая с файлами Microsoft Project с помощью Aspose.Tasks для Java.
-language: ru
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Создайте тестовый проект и используйте формулы с Aspose.Tasks для Java
-url: /java/formulas/work-with-formulas/
+url: /ru/java/formulas/work-with-formulas/
 weight: 11
 ---
 

@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Μάθετε πώς να εξάγετε το έργο σε PDF χρησιμοποιώντας το Aspose.Tasks,
   να διαχειρίζεστε τις άδειες του έργου και να εξερευνάτε πολυγλωσσικά μαθήματα για
   .NET, Java, C++ και άλλα.
-language: el
 linktitle: Aspose.Tasks Tutorials
 title: Εξαγωγή έργου σε PDF με το Aspose.Tasks – Οδηγός
-url: /
+url: /el/
 weight: 11
 ---
 

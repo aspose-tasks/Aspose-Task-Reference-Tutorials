@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprenda a definir dias úteis nos calendários do MS Project usando Aspose.Tasks
   para Java. Guia passo a passo para personalizar dias de trabalho, melhorar o agendamento
   e aumentar a eficiência da gestão de projetos.
-language: pt
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Como definir dias da semana nos calendários do MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /pt/java/calendars/
 weight: 21
 ---
 

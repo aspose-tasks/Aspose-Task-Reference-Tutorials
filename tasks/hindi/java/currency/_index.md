@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Tasks for Java का उपयोग करके MS Project फ़ाइलों में मुद्रा कोड,
   अंक और प्रतीकों को कैसे प्रबंधित करें, सीखें। त्रुटिहीन प्रोजेक्ट वित्तीय प्रबंधन
   के लिए चरण‑दर‑चरण ट्यूटोरियल।
-language: hi
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks के साथ जावा में मुद्रा कोड प्रबंधित करें
-url: /java/currency/
+url: /hi/java/currency/
 weight: 22
 ---
 

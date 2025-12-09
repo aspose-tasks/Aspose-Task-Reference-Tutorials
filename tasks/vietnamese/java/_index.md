@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Tìm hiểu cách tạo lịch dự án Aspose và cấu hình biểu đồ Gantt trong Java
   bằng Aspose.Tasks cho Java. Các hướng dẫn toàn diện, ví dụ và các thực tiễn tốt
   nhất.
-language: vi
 linktitle: Aspose.Tasks for Java Tutorials
 title: Tạo Lịch Dự Án Aspose – Hướng Dẫn Aspose.Tasks cho Java
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

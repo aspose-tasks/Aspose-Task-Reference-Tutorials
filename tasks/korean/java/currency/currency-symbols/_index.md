@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Tasks for Java를 사용하여 MPP에서 통화 기호를 추출하고 Java에서 통화 기호를 변경하는 방법을
   배웁니다. 프로젝트 관리에 필요한 통화 기호를 Java에서 빠르게 가져옵니다.
-language: ko
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java를 사용하여 MPP에서 통화 기호 추출
-url: /java/currency/currency-symbols/
+url: /ko/java/currency/currency-symbols/
 weight: 12
 ---
 

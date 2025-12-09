@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Tasks for Java का उपयोग करके MS Project फ़ाइलों में मुद्रा पढ़ना
   और मुद्रा गुण सेट करना सीखें। सहज प्रोजेक्ट फ़ाइल संचालन के लिए चरण‑दर‑चरण मार्गदर्शिकाएँ।
-language: hi
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java के साथ मुद्रा गुण कैसे पढ़ें
-url: /java/currency-properties/
+url: /hi/java/currency-properties/
 weight: 25
 ---
 

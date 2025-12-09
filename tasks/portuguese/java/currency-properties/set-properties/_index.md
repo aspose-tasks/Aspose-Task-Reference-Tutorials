@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprenda como definir a moeda em projetos Aspose.Tasks Java, incluindo
   como alterar a moeda e mudar o símbolo da moeda em Java. Manipule arquivos do Microsoft
   Project sem esforço.
-language: pt
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Como definir a moeda em projetos Aspose.Tasks – Guia Java
-url: /java/currency-properties/set-properties/
+url: /pt/java/currency-properties/set-properties/
 weight: 11
 ---
 

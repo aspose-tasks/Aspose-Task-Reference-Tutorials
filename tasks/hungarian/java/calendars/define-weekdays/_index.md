@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Ismerje meg, hogyan állíthat be naptárat, definiálhatja a hét napjait
   az MS Projectben, és állíthat be egyéni munkanapokat az Aspose.Tasks for Java használatával.
   Mentse a projektet XML formátumban néhány sor kóddal.
-language: hu
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Hogyan állítsunk be naptárat és definiáljuk a hét napjait az MS Projectben
   az Aspose.Tasks segítségével
-url: /java/calendars/define-weekdays/
+url: /hu/java/calendars/define-weekdays/
 weight: 12
 ---
 

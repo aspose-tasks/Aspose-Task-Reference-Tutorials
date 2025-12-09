@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعرّف على كيفية **إنشاء مشروع اختبار** و **إضافة حقل مخصص** أثناء التعامل
   مع ملفات Microsoft Project باستخدام Aspose.Tasks للغة Java.
-language: ar
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: إنشاء مشروع اختبار واستخدام الصيغ مع Aspose.Tasks لجافا
-url: /java/formulas/work-with-formulas/
+url: /ar/java/formulas/work-with-formulas/
 weight: 11
 ---
 

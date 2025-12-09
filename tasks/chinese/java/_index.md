@@ -1,10 +1,9 @@
 ---
 date: 2025-12-02
 description: 学习如何使用 Aspose.Tasks for Java 创建项目日历并配置甘特图。提供全面的教程、示例和最佳实践。
-language: zh
 linktitle: Aspose.Tasks for Java Tutorials
 title: 创建项目日历 Aspose – Aspose.Tasks for Java指南
-url: /java/
+url: /zh/java/
 weight: 10
 ---
 

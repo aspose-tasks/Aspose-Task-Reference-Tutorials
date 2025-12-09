@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Pelajari cara mengekspor proyek ke PDF menggunakan Aspose.Tasks, mengelola
   lisensi proyek, dan menjelajahi tutorial multi‑bahasa untuk .NET, Java, C++ dan
   lainnya.
-language: id
 linktitle: Aspose.Tasks Tutorials
 title: Ekspor Proyek ke PDF dengan Tutorial Aspose.Tasks
-url: /
+url: /id/
 weight: 11
 ---
 

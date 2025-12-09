@@ -4,11 +4,10 @@ description: Bezproblemowo twórz niestandardowe wyjątki kalendarza, integruj k
   MS Project oraz zarządzaj, definiuj, obsługuj i pobieraj wyjątki kalendarza w projektach
   Java z Aspose.Tasks. Usprawnij przepływy pracy w projekcie dla efektywnego zarządzania
   projektami.
-language: pl
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Tworzenie własnych wyjątków kalendarza przy użyciu Aspose.Tasks dla Javy
-url: /java/calendar-exceptions/
+url: /pl/java/calendar-exceptions/
 weight: 20
 ---
 

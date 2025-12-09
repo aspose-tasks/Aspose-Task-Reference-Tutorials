@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Tasks kullanarak Java’da proje takvimini nasıl ayarlayacağınızı
   ve MS Project takvim özelliklerini nasıl yöneteceğinizi öğrenin. Takvim çalışma
   saatlerini görüntülemek ve programları özelleştirmek için adım adım kılavuz.
-language: tr
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java ile Proje Takvimini Nasıl Ayarlarsınız
-url: /java/calendars/properties/
+url: /tr/java/calendars/properties/
 weight: 10
 ---
 

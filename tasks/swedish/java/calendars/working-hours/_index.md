@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du bestämmer arbetsdagar och beräknar uppgiftens varaktighet
   genom att extrahera arbetstimmar från MS Project‑kalendrar med Aspose.Tasks för
   Java.
-language: sv
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Bestäm arbetsdagar och arbetstimmar med Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /sv/java/calendars/working-hours/
 weight: 13
 ---
 

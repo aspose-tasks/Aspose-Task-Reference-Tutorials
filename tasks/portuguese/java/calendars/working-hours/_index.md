@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aprenda como determinar dias úteis e calcular a duração das tarefas extraindo
   horas de trabalho dos calendários do MS Project usando Aspose.Tasks para Java.
-language: pt
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Determinar dias úteis e horas de trabalho com Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /pt/java/calendars/working-hours/
 weight: 13
 ---
 

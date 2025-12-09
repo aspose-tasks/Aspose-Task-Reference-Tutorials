@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية ضبط تقويم المشروع وإدارة خصائص تقويم MS Project في جافا باستخدام
   Aspose.Tasks. دليل خطوة بخطوة لعرض ساعات عمل التقويم وتخصيص الجداول.
-language: ar
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: كيفية تعيين تقويم المشروع باستخدام Aspose.Tasks للغة Java
-url: /java/calendars/properties/
+url: /ar/java/calendars/properties/
 weight: 10
 ---
 

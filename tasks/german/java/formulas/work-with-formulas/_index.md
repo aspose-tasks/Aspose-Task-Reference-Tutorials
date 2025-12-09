@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Erfahren Sie, wie Sie ein **Testprojekt erstellen** und ein **benutzerdefiniertes
   Feld hinzufügen**, während Sie Microsoft Project‑Dateien mit Aspose.Tasks für Java
   manipulieren.
-language: de
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Testprojekt erstellen und Formeln mit Aspose.Tasks für Java verwenden
-url: /java/formulas/work-with-formulas/
+url: /de/java/formulas/work-with-formulas/
 weight: 11
 ---
 

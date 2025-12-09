@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: Aspose.Tasks for Java を使用して、MS Project カレンダーで平日を定義する方法を学びましょう。作業日をカスタマイズし、スケジューリングを改善し、プロジェクト管理の効率を向上させるステップバイステップガイドです。
-language: ja
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: MS Project カレンダーで平日を定義する方法 – Aspose.Tasks Java
-url: /java/calendars/
+url: /ja/java/calendars/
 weight: 21
 ---
 

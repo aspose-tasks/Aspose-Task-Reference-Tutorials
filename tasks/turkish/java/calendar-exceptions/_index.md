@@ -4,11 +4,10 @@ description: Özel takvim istisnalarını zahmetsizce oluşturun, MS Project tak
   entegre edin ve Aspose.Tasks ile Java projelerinde takvim istisnalarını yönetin,
   tanımlayın, işleyin ve alın. Proje iş akışlarını kolaylaştırarak verimli proje yönetimi
   sağlayın.
-language: tr
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java ile Özel Takvim İstisnaları Oluşturun
-url: /java/calendar-exceptions/
+url: /tr/java/calendar-exceptions/
 weight: 20
 ---
 

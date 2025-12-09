@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: دليل تقويم جافا يوضح كيفية التعامل مع استثناءات التقويم، تعيين التكرارات،
   وتكوين نوع الاستثناء باستخدام Aspose.Tasks للغة جافا.
-language: ar
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'دروس تقويم جافا: التعامل مع حدوث استثناءات التقويم'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /ar/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

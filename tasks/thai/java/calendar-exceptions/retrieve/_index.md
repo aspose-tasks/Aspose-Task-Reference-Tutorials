@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธีดึงข้อยกเว้นของปฏิทินจาก MS Project ด้วย Aspose.Tasks สำหรับ
   Java บทเรียน Aspose.Tasks Java นี้ให้ตัวอย่างโค้ดแบบขั้นตอนต่อขั้นตอน
-language: th
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: ดึงข้อยกเว้นของปฏิทินด้วย Aspose.Tasks – บทเรียน Java ของ asp tasks
-url: /java/calendar-exceptions/retrieve/
+url: /th/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

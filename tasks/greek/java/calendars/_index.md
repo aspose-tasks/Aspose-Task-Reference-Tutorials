@@ -4,12 +4,11 @@ description: Μάθετε πώς να ορίζετε τις εργάσιμες �
   χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα‑βήμα για την προσαρμογή των
   εργάσιμων ημερών, τη βελτίωση του προγραμματισμού και την ενίσχυση της αποδοτικότητας
   της διαχείρισης έργων.
-language: el
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Πώς να ορίσετε τις εργάσιμες ημέρες στα ημερολόγια του MS Project – Aspose.Tasks
   Java
-url: /java/calendars/
+url: /el/java/calendars/
 weight: 21
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีสร้างสูตร MS Project, จัดการไฟล์ MS Project, และคำนวณค่าทาสก์ใน
   Java ด้วย Aspose.Tasks for Java. เพิ่มประสิทธิภาพการทำงานด้วยบทเรียนทีละขั้นตอน.
-language: th
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: สร้างสูตร MS Project ด้วย Aspose.Tasks สำหรับ Java
-url: /java/formulas/
+url: /th/java/formulas/
 weight: 23
 ---
 

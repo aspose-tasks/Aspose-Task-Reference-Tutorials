@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: Aspose.Tasks を使用してプロジェクトを PDF にエクスポートする方法を学び、プロジェクト ライセンスを管理し、.NET、Java、C++
   などの多言語チュートリアルを探索しましょう。
-language: ja
 linktitle: Aspose.Tasks Tutorials
 title: Aspose.Tasks チュートリアル：プロジェクトを PDF にエクスポート
-url: /
+url: /ja/
 weight: 11
 ---
 

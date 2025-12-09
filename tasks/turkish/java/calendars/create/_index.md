@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Projeye takvim eklemeyi, MS Project takvimi oluşturmayı ve projeyi Aspose.Tasks
   for Java kullanarak XML olarak kaydetmeyi öğrenin.
-language: tr
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java ile projeye takvim ekleyin
-url: /java/calendars/create/
+url: /tr/java/calendars/create/
 weight: 11
 ---
 

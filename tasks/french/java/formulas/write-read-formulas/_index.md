@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Apprenez à enregistrer le fichier de projet, à écrire et lire les formules
   MS Project, et à ajouter des formules de champs personnalisés avec Aspose.Tasks
   pour Java.
-language: fr
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Enregistrer le fichier de projet et écrire des formules MS Project avec Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /fr/java/formulas/write-read-formulas/
 weight: 12
 ---
 

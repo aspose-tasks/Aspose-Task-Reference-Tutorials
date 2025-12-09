@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Узнайте, как создать календарь в Java с помощью Aspose.Tasks. Это пошаговое
   руководство покажет, как создать стандартный календарь MS Project, добавить стандартный
   календарь и эффективно использовать Aspose.Tasks.
-language: ru
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Как создать календарь – создать стандартный календарь в Aspose.Tasks
-url: /java/calendars/make-standard/
+url: /ru/java/calendars/make-standard/
 weight: 14
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Leer hoe u een projectbestand opslaat, MS Project‑formules schrijft en
   leest, en aangepaste veldformules toevoegt met Aspose.Tasks voor Java.
-language: nl
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Projectbestand opslaan en MS Project‑formules schrijven met Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /nl/java/formulas/write-read-formulas/
 weight: 12
 ---
 

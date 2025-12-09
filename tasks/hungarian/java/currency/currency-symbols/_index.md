@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan lehet kinyerni a pénznem szimbólumát az MPP fájlból,
   és módosítani a pénznem szimbólumát Java-ban az Aspose.Tasks for Java segítségével.
   Gyorsan szerezze be a pénznem szimbólumát Java-ban a projektmenedzsmenthez.
-language: hu
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Pénznem szimbólum kinyerése mpp-ből az Aspose.Tasks for Java használatával
-url: /java/currency/currency-symbols/
+url: /hu/java/currency/currency-symbols/
 weight: 12
 ---
 

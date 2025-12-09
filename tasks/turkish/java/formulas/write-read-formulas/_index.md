@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aspose.Tasks for Java kullanarak proje dosyasını nasıl kaydedeceğinizi,
   MS Project formüllerini nasıl yazıp okuyacağınızı ve özel alan formüllerini nasıl
   ekleyeceğinizi öğrenin.
-language: tr
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks ile Proje Dosyasını Kaydedin ve MS Project Formüllerini Yazın
-url: /java/formulas/write-read-formulas/
+url: /tr/java/formulas/write-read-formulas/
 weight: 12
 ---
 

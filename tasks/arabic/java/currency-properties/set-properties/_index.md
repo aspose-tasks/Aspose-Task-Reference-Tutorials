@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية تعيين العملة في مشاريع Aspose.Tasks Java، بما في ذلك كيفية
   تغيير العملة وتغيير رمز العملة في Java. تعامل مع ملفات Microsoft Project بسهولة.
-language: ar
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: كيفية تعيين العملة في مشاريع Aspose.Tasks – دليل Java
-url: /java/currency-properties/set-properties/
+url: /ar/java/currency-properties/set-properties/
 weight: 11
 ---
 

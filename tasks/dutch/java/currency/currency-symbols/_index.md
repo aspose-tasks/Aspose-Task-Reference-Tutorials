@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe u het valutateken uit een MPP-bestand kunt extraheren en het
   valutateken in Java kunt wijzigen met Aspose.Tasks voor Java. Haal het valutateken
   in Java snel op voor projectbeheer.
-language: nl
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Valutasymbool mpp extraheren met Aspose.Tasks voor Java
-url: /java/currency/currency-symbols/
+url: /nl/java/currency/currency-symbols/
 weight: 12
 ---
 

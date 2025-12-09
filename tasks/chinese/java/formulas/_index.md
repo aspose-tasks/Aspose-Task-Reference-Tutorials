@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 学习如何使用 Aspose.Tasks for Java 创建 MS Project 公式、操作 MS Project 文件以及计算任务值。通过一步步教程提升工作效率。
-language: zh
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks for Java 创建 MS Project 公式
-url: /java/formulas/
+url: /zh/java/formulas/
 weight: 23
 ---
 

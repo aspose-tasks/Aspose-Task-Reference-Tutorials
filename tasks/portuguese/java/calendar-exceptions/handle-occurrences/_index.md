@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Um tutorial de calendário Java que mostra como lidar com exceções de
   calendário, definir ocorrências e configurar o tipo de exceção com Aspose.Tasks
   para Java.
-language: pt
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Tutorial de Calendário Java: Manipular Ocorrências de Exceções no Calendário'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /pt/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

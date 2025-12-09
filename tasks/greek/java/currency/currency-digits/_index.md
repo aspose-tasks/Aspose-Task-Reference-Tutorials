@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να διαχειρίζεστε αποδοτικά τα ψηφία νομισμάτων του MS Project
   χρησιμοποιώντας το Aspose.Tasks για Java. Οδηγός βήμα-βήμα που καλύπτει τη διαχείριση
   αρχείων έργου Java και πώς να φορτώνετε αρχεία MPP.
-language: el
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Διαχείριση ψηφίων νομίσματος του MS Project με το Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /el/java/currency/currency-digits/
 weight: 11
 ---
 

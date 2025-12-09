@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Tasks Java プロジェクトで通貨を設定する方法、通貨や通貨記号の変更方法を学びましょう。Microsoft Project
   ファイルを簡単に操作できます。
-language: ja
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks プロジェクトで通貨を設定する方法 – Java ガイド
-url: /java/currency-properties/set-properties/
+url: /ja/java/currency-properties/set-properties/
 weight: 11
 ---
 

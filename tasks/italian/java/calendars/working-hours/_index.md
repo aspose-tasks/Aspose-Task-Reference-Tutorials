@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Scopri come determinare i giorni lavorativi e calcolare la durata delle
   attività estraendo le ore lavorative dai calendari di MS Project utilizzando Aspose.Tasks
   per Java.
-language: it
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Determinare i giorni lavorativi e le ore lavorative con Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /it/java/calendars/working-hours/
 weight: 13
 ---
 

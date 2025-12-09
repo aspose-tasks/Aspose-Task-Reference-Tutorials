@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara mengatur kalender, mendefinisikan hari kerja MS Project,
   dan mengatur hari kerja khusus menggunakan Aspose.Tasks untuk Java. Simpan proyek
   sebagai XML dengan hanya beberapa baris kode.
-language: id
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Cara Mengatur Kalender dan Menentukan Hari Kerja di MS Project dengan Aspose.Tasks
-url: /java/calendars/define-weekdays/
+url: /id/java/calendars/define-weekdays/
 weight: 12
 ---
 

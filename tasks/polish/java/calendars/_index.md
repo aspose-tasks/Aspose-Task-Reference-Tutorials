@@ -3,11 +3,10 @@ date: 2025-12-02
 description: „Dowiedz się, jak definiować dni robocze w kalendarzach MS Project przy
   użyciu Aspose.Tasks dla Javy. Przewodnik krok po kroku, jak dostosować dni pracy,
   usprawnić harmonogramowanie i zwiększyć efektywność zarządzania projektami.”
-language: pl
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Jak definiować dni robocze w kalendarzach MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /pl/java/calendars/
 weight: 21
 ---
 

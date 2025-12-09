@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se, jak číst vlastnosti měny v Javě ze souborů MS Project pomocí
   Aspose.Tasks pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce a programově
   extrahujte kód měny, symbol, počet desetinných míst a pozici.
-language: cs
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Čtení měnových vlastností v Javě s projekty Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /cs/java/currency-properties/read-properties/
 weight: 10
 ---
 

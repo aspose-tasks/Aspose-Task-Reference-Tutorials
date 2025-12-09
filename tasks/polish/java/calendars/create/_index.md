@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Dowiedz się, jak dodać kalendarz do projektu, jak utworzyć kalendarz
   MS Project oraz jak zapisać projekt jako XML przy użyciu Aspose.Tasks dla Javy.
-language: pl
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Dodaj kalendarz do projektu przy użyciu Aspose.Tasks dla Javy
-url: /java/calendars/create/
+url: /pl/java/calendars/create/
 weight: 11
 ---
 

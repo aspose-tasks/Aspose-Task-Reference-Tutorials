@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何使用 Aspose.Tasks for Java 提取 MPP 中的货币符号并更改 Java 中的货币符号。快速检索项目管理所需的货币符号。
-language: zh
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks for Java 提取 MPP 货币符号
-url: /java/currency/currency-symbols/
+url: /zh/java/currency/currency-symbols/
 weight: 12
 ---
 

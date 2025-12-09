@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Pelajari cara membaca properti mata uang Java dari file MS Project menggunakan
   Aspose.Tasks untuk Java. Ikuti panduan langkah demi langkah ini untuk mengekstrak
   kode mata uang, simbol, digit, dan posisi secara programatik.
-language: id
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Baca Properti Mata Uang Java dengan Proyek Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /id/java/currency-properties/read-properties/
 weight: 10
 ---
 

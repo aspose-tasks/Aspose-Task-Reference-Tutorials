@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Lär dig hur du sparar projektfil, skriver och läser MS Project‑formler
   samt lägger till anpassade fältformler med Aspose.Tasks för Java.
-language: sv
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Spara projektfil och skriv MS Project‑formler med Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /sv/java/formulas/write-read-formulas/
 weight: 12
 ---
 

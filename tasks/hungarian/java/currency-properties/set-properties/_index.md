@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Ismerje meg, hogyan állíthatja be a pénznemet az Aspose.Tasks Java projektekben,
   beleértve a pénznem és a pénznem szimbólum Java‑ban történő módosítását. Kezelje
   könnyedén a Microsoft Project fájlokat.
-language: hu
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Hogyan állítsuk be a pénznemet az Aspose.Tasks projektekben – Java útmutató
-url: /java/currency-properties/set-properties/
+url: /hu/java/currency-properties/set-properties/
 weight: 11
 ---
 

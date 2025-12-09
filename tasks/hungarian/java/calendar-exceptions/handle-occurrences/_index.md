@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Egy Java naptár oktatóanyag, amely bemutatja, hogyan kezelhetők a naptárkivétel,
   hogyan állíthatók be az előfordulások, és hogyan konfigurálható a kivétel típusa
   az Aspose.Tasks for Java használatával.
-language: hu
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Java naptár oktatóanyag: Kezelje a naptári kivételek előfordulásait'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /hu/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

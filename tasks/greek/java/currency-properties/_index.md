@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να διαβάζετε το νόμισμα και πώς να ορίζετε τις ιδιότητες του
   νομίσματος σε αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks for Java. Οδηγοί
   βήμα‑βήμα για άνετη διαχείριση αρχείων έργου.
-language: el
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Πώς να διαβάσετε τις ιδιότητες του νομίσματος με το Aspose.Tasks για Java
-url: /java/currency-properties/
+url: /el/java/currency-properties/
 weight: 25
 ---
 

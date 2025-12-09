@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách thiết lập lịch, định nghĩa các ngày trong tuần trong MS
   Project và thiết lập ngày làm việc tùy chỉnh bằng Aspose.Tasks cho Java. Lưu dự
   án dưới dạng XML chỉ với vài dòng mã.
-language: vi
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Cách thiết lập lịch và xác định các ngày trong tuần trong MS Project bằng Aspose.Tasks
-url: /java/calendars/define-weekdays/
+url: /vi/java/calendars/define-weekdays/
 weight: 12
 ---
 

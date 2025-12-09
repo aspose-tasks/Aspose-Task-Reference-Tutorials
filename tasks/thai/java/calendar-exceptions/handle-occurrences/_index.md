@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: บทเรียนปฏิทิน Java ที่แสดงวิธีจัดการข้อยกเว้นของปฏิทิน ตั้งค่าการเกิดซ้ำ
   และกำหนดประเภทข้อยกเว้นด้วย Aspose.Tasks สำหรับ Java.
-language: th
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'บทเรียน Java Calendar: จัดการการเกิดข้อยกเว้นของปฏิทิน'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /th/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

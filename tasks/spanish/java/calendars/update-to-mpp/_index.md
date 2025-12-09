@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aprende cómo crear un calendario en MS Project, convertir el proyecto
   a MPP y guardar el proyecto MPP sin esfuerzo usando Aspose.Tasks para Java.
-language: es
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Crear calendario en MS Project y guardar como MPP con Aspose.Tasks
-url: /java/calendars/update-to-mpp/
+url: /es/java/calendars/update-to-mpp/
 weight: 16
 ---
 

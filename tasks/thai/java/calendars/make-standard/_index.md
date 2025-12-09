@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีสร้างปฏิทินใน Java ด้วย Aspose.Tasks คู่มือขั้นตอนต่อขั้นตอนนี้จะแสดงวิธีสร้างปฏิทินมาตรฐานของ
   MS Project, เพิ่มปฏิทินมาตรฐาน, และใช้ Aspose.Tasks อย่างมีประสิทธิภาพ
-language: th
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: วิธีสร้างปฏิทิน – สร้างปฏิทินมาตรฐานใน Aspose.Tasks
-url: /java/calendars/make-standard/
+url: /th/java/calendars/make-standard/
 weight: 14
 ---
 

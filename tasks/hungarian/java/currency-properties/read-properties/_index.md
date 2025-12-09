@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Ismerje meg, hogyan olvashatja ki a pénznem tulajdonságait Java-ban MS
   Project fájlokból az Aspose.Tasks for Java használatával. Kövesse ezt a lépésről‑lépésre
   útmutatót a pénznemkód, szimbólum, számjegyek és pozíció programozott kinyeréséhez.
-language: hu
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Valuta tulajdonságok olvasása Java-val az Aspose.Tasks projektekben
-url: /java/currency-properties/read-properties/
+url: /hu/java/currency-properties/read-properties/
 weight: 10
 ---
 

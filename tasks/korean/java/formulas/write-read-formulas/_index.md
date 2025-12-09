@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java를 사용하여 프로젝트 파일을 저장하고, MS Project 수식을 작성·읽으며, 사용자
   정의 필드 수식을 추가하는 방법을 배우세요.
-language: ko
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks로 프로젝트 파일 저장 및 MS Project 수식 작성
-url: /java/formulas/write-read-formulas/
+url: /ko/java/formulas/write-read-formulas/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Tasks Java projelerinde para birimini nasıl ayarlayacağınızı,
   para birimini ve para birimi simgesini Java’da nasıl değiştireceğinizi öğrenin.
   Microsoft Project dosyalarını zahmetsizce yönetin.
-language: tr
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks Projelerinde Para Birimini Nasıl Ayarlarsınız – Java Rehberi
-url: /java/currency-properties/set-properties/
+url: /tr/java/currency-properties/set-properties/
 weight: 11
 ---
 

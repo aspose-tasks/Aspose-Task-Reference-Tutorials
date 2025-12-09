@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan kezelje a pénznemkódokat, számjegyeket és szimbólumokat
   MS Project fájlokban az Aspose.Tasks for Java segítségével. Lépésről‑lépésre útmutatók
   a hibátlan projektpénzügyi kezeléshez.
-language: hu
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Pénznemkódok kezelése Java-ban az Aspose.Tasks segítségével
-url: /java/currency/
+url: /hu/java/currency/
 weight: 22
 ---
 

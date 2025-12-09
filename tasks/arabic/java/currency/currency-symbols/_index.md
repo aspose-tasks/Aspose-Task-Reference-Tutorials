@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية استخراج رمز العملة من ملفات MPP وتغيير رمز العملة في Java
   باستخدام Aspose.Tasks for Java. استرجع رمز العملة في Java بسرعة لإدارة المشاريع.
-language: ar
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: استخراج رمز العملة من ملف MPP باستخدام Aspose.Tasks للـ Java
-url: /java/currency/currency-symbols/
+url: /ar/java/currency/currency-symbols/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να προσδιορίζετε τις εργάσιμες ημέρες και να υπολογίζετε τη
   διάρκεια των εργασιών εξάγοντας τις εργάσιμες ώρες από τα ημερολόγια του MS Project
   χρησιμοποιώντας το Aspose.Tasks για Java.
-language: el
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Καθορίστε τις εργάσιμες ημέρες και τις εργάσιμες ώρες με το Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /el/java/calendars/working-hours/
 weight: 13
 ---
 

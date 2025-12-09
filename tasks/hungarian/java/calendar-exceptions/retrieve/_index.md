@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan lehet lekérdezni a naptári kivételeket az MS Projectből
   az Aspose.Tasks for Java használatával. Ez az Aspose.Tasks Java oktatóanyag lépésről
   lépésre bemutatott kódrészleteket tartalmaz.
-language: hu
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Naptári kivételek lekérése az Aspose.Tasks segítségével – asp tasks java oktató.
-url: /java/calendar-exceptions/retrieve/
+url: /hu/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

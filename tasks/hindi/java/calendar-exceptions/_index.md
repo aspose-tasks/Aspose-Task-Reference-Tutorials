@@ -4,11 +4,10 @@ description: आसानी से कस्टम कैलेंडर अप
   और Aspose.Tasks के साथ जावा प्रोजेक्ट्स में कैलेंडर अपवादों को प्रबंधित, परिभाषित,
   संभालें और पुनः प्राप्त करें। प्रोजेक्ट वर्कफ़्लो को सुव्यवस्थित करके प्रभावी प्रोजेक्ट
   मैनेजमेंट सुनिश्चित करें।
-language: hi
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java के साथ कस्टम कैलेंडर अपवाद बनाएं
-url: /java/calendar-exceptions/
+url: /hi/java/calendar-exceptions/
 weight: 20
 ---
 

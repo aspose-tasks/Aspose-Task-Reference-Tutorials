@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách thiết lập tiền tệ trong các dự án Aspose.Tasks Java, bao
   gồm cách thay đổi tiền tệ và ký hiệu tiền tệ trong Java. Thao tác các tệp Microsoft
   Project một cách dễ dàng.
-language: vi
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Cách Đặt Tiền Tệ trong Dự Án Aspose.Tasks – Hướng Dẫn Java
-url: /java/currency-properties/set-properties/
+url: /vi/java/currency-properties/set-properties/
 weight: 11
 ---
 

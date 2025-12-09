@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธี **สร้างโครงการทดสอบ** และ **เพิ่มฟิลด์กำหนดเอง** ขณะจัดการไฟล์
   Microsoft Project ด้วย Aspose.Tasks สำหรับ Java.
-language: th
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: สร้างโครงการทดสอบและใช้สูตรกับ Aspose.Tasks สำหรับ Java
-url: /java/formulas/work-with-formulas/
+url: /th/java/formulas/work-with-formulas/
 weight: 11
 ---
 

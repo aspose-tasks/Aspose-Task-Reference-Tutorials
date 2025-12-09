@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: Aspose.Tasks for Java を使用して、MS Project ファイルから通貨プロパティ（Java）を読み取る方法を学びましょう。ステップバイステップのガイドに従って、通貨コード、シンボル、桁数、位置をプログラムで抽出します。
-language: ja
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks プロジェクトで Java を使用して通貨プロパティを読み取る
-url: /java/currency-properties/read-properties/
+url: /ja/java/currency-properties/read-properties/
 weight: 10
 ---
 

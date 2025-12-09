@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Aprenda cómo recuperar excepciones de calendario de MS Project usando
   Aspose.Tasks para Java. Este tutorial de Aspose.Tasks para Java proporciona ejemplos
   de código paso a paso.
-language: es
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Recuperar excepciones de calendario con Aspose.Tasks – tutorial de Java de
   asp tasks
-url: /java/calendar-exceptions/retrieve/
+url: /es/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

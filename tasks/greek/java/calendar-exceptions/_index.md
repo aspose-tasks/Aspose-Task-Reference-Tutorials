@@ -4,11 +4,10 @@ description: Δημιουργήστε εύκολα προσαρμοσμένες 
   το ημερολόγιο του MS Project και διαχειριστείτε, ορίστε, χειριστείτε & ανακτήστε
   εξαιρέσεις ημερολογίου σε έργα Java με το Aspose.Tasks. Βελτιστοποιήστε τις ροές
   εργασίας του έργου για αποδοτική διαχείριση έργων.
-language: el
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Δημιουργήστε προσαρμοσμένες εξαιρέσεις ημερολογίου με το Aspose.Tasks για Java
-url: /java/calendar-exceptions/
+url: /el/java/calendar-exceptions/
 weight: 20
 ---
 

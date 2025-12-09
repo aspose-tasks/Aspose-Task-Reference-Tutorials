@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.Tasks for Java ile takvim istisnalarını nasıl ele alacağınızı,
   oluşumları nasıl ayarlayacağınızı ve istisna türünü nasıl yapılandıracağınızı gösteren
   bir Java takvim öğreticisi.
-language: tr
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Java Takvim Öğreticisi: Takvim İstisna Durumlarını Yönet'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /tr/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

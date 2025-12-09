@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du hanterar valutakoder, siffror och symboler i MS Project‑filer
   med Aspose.Tasks för Java. Steg‑för‑steg‑handledningar för felfri ekonomihantering
   i projekt.
-language: sv
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Hantera valutakoder Java med Aspose.Tasks
-url: /java/currency/
+url: /sv/java/currency/
 weight: 22
 ---
 

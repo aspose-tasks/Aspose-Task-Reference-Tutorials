@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tanulja meg, hogyan olvassa be a munkahét adatokat Java-ban egy Microsoft
   Project naptárból az Aspose.Tasks használatával. Kövesse a lépésről‑lépésre útmutatót
   teljes kódrészletekkel.
-language: hu
 linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Munkahét olvasása Java-val az MS Project naptárból – Aspose.Tasks
-url: /java/calendars/read-work-weeks/
+url: /hu/java/calendars/read-work-weeks/
 weight: 15
 ---
 

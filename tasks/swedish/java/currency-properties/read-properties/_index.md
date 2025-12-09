@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Lär dig hur du läser valutaegenskaper i Java från MS Project‑filer med
   Aspose.Tasks för Java. Följ den här steg‑för‑steg‑guiden för att programatiskt extrahera
   valutakod, symbol, siffror och position.
-language: sv
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Läs valutaegenskaper i Java med Aspose.Tasks‑projekt
-url: /java/currency-properties/read-properties/
+url: /sv/java/currency-properties/read-properties/
 weight: 10
 ---
 

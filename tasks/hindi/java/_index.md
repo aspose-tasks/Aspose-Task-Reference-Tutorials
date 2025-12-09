@@ -2,10 +2,9 @@
 date: 2025-12-02
 description: Aspose.Tasks for Java का उपयोग करके प्रोजेक्ट कैलेंडर बनाना और Gantt
   चार्ट को जावा में कॉन्फ़िगर करना सीखें। व्यापक ट्यूटोरियल, उदाहरण और सर्वोत्तम प्रथाएँ।
-language: hi
 linktitle: Aspose.Tasks for Java Tutorials
 title: Aspose के साथ प्रोजेक्ट कैलेंडर बनाएं – Aspose.Tasks for Java गाइड
-url: /java/
+url: /hi/java/
 weight: 10
 ---
 

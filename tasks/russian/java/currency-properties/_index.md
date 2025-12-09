@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Узнайте, как считывать валюту и задавать свойства валюты в файлах MS Project
   с помощью Aspose.Tasks для Java. Пошаговые руководства для простого управления проектными
   файлами.
-language: ru
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Как читать свойства валюты с помощью Aspose.Tasks для Java
-url: /java/currency-properties/
+url: /ru/java/currency-properties/
 weight: 25
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tanulja meg, hogyan mentse a projektfájlt, írjon és olvasson MS Project
   képleteket, és adjon hozzá egyéni mezőképleteket az Aspose.Tasks for Java segítségével.
-language: hu
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Projektfájl mentése és MS Project képletek írása az Aspose.Tasks segítségével
-url: /java/formulas/write-read-formulas/
+url: /hu/java/formulas/write-read-formulas/
 weight: 12
 ---
 

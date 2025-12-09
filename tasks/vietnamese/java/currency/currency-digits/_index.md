@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách xử lý các chữ số tiền tệ trong MS Project một cách hiệu
   quả bằng Aspose.Tasks cho Java. Hướng dẫn từng bước bao gồm việc xử lý tệp dự án
   Java và cách tải các tệp MPP.
-language: vi
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Xử lý các chữ số tiền tệ trong MS Project bằng Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /vi/java/currency/currency-digits/
 weight: 11
 ---
 

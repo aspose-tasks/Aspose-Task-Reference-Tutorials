@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: Naučte se, jak exportovat projekt do PDF pomocí Aspose.Tasks, spravovat
   licence projektu a prozkoumat vícejazyčné tutoriály pro .NET, Java, C++ a další.
-language: cs
 linktitle: Aspose.Tasks Tutorials
 title: Export projektu do PDF s tutoriálem Aspose.Tasks
-url: /
+url: /cs/
 weight: 11
 ---
 

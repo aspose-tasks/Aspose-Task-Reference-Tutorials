@@ -4,11 +4,10 @@ description: Apprenez à lire les propriétés de devise Java à partir des fich
   en utilisant Aspose.Tasks pour Java. Suivez ce guide étape par étape pour extraire
   le code de devise, le symbole, le nombre de décimales et la position de manière
   programmatique.
-language: fr
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Lire les propriétés de devise Java avec les projets Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /fr/java/currency-properties/read-properties/
 weight: 10
 ---
 

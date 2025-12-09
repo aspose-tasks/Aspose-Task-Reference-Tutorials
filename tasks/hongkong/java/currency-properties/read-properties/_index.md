@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何使用 Aspose.Tasks for Java 從 MS Project 檔案中讀取貨幣屬性。請跟隨本分步指南，程式化提取貨幣代碼、符號、位數及位置。
-language: zh-hant
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 專案在 Java 中讀取貨幣屬性
-url: /java/currency-properties/read-properties/
+url: /zh-hant/java/currency-properties/read-properties/
 weight: 10
 ---
 

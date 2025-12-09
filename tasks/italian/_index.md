@@ -4,10 +4,9 @@ date: 2025-11-29
 description: Impara come esportare un progetto in PDF usando Aspose.Tasks, gestire
   le licenze del progetto ed esplorare tutorial multilingua per .NET, Java, C++ e
   altro.
-language: it
 linktitle: Aspose.Tasks Tutorials
 title: Esporta il progetto in PDF con il tutorial di Aspose.Tasks
-url: /
+url: /it/
 weight: 11
 ---
 

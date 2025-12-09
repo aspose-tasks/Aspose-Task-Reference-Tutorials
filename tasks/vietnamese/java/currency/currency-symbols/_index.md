@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách trích xuất ký hiệu tiền tệ mpp và thay đổi ký hiệu tiền
   tệ java bằng Aspose.Tasks cho Java. Nhanh chóng lấy ký hiệu tiền tệ java cho quản
   lý dự án.
-language: vi
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Trích xuất ký hiệu tiền tệ mpp bằng Aspose.Tasks cho Java
-url: /java/currency/currency-symbols/
+url: /vi/java/currency/currency-symbols/
 weight: 12
 ---
 

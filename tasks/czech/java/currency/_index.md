@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak spravovat měnové kódy, číslice a symboly v souborech MS
   Project pomocí Aspose.Tasks pro Java. Krok‑za‑krokem návody pro bezchybné finanční
   řízení projektů.
-language: cs
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Správa měnových kódů v Javě s Aspose.Tasks
-url: /java/currency/
+url: /cs/java/currency/
 weight: 22
 ---
 

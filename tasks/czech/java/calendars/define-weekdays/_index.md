@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak nastavit kalendář, definovat pracovní dny v MS Project
   a nastavit vlastní pracovní dny pomocí Aspose.Tasks pro Javu. Uložte projekt jako
   XML pomocí několika řádků kódu.
-language: cs
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Jak nastavit kalendář a definovat pracovní dny v MS Project pomocí Aspose.Tasks
-url: /java/calendars/define-weekdays/
+url: /cs/java/calendars/define-weekdays/
 weight: 12
 ---
 

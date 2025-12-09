@@ -4,11 +4,10 @@ description: Μάθετε πώς να διαβάζετε τις ιδιότητε
   χρησιμοποιώντας το Aspose.Tasks for Java. Ακολουθήστε αυτόν τον οδηγό βήμα‑βήμα
   για να εξάγετε προγραμματιστικά τον κωδικό νομίσματος, το σύμβολο, τα ψηφία και
   τη θέση.
-language: el
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Ανάγνωση Ιδιοτήτων Νομίσματος Java με τα Έργα Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /el/java/currency-properties/read-properties/
 weight: 10
 ---
 

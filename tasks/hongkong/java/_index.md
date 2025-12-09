@@ -1,10 +1,9 @@
 ---
 date: 2025-12-02
 description: 學習如何使用 Aspose.Tasks for Java 建立專案行事曆並設定甘特圖。提供完整的教學、範例與最佳實踐。
-language: zh-hant
 linktitle: Aspose.Tasks for Java Tutorials
 title: 建立專案日曆 Aspose – Aspose.Tasks for Java 指南
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 

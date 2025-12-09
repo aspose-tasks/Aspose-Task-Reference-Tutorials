@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Apprenez à lire la devise et à définir les propriétés de devise dans
   les fichiers MS Project à l’aide d’Aspose.Tasks pour Java. Guides étape par étape
   pour une manipulation sans effort des fichiers de projet.
-language: fr
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Comment lire les propriétés de devise avec Aspose.Tasks pour Java
-url: /java/currency-properties/
+url: /fr/java/currency-properties/
 weight: 25
 ---
 

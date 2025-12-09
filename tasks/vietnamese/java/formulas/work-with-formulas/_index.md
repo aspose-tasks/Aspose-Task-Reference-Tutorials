@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tìm hiểu cách **tạo dự án thử nghiệm** và **thêm trường tùy chỉnh** khi
   thao tác với các tệp Microsoft Project bằng Aspose.Tasks cho Java.
-language: vi
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Tạo dự án thử nghiệm và sử dụng công thức với Aspose.Tasks cho Java
-url: /java/formulas/work-with-formulas/
+url: /vi/java/formulas/work-with-formulas/
 weight: 11
 ---
 

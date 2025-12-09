@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعرّف على كيفية حفظ ملف المشروع، كتابة وقراءة صيغ MS Project، وإضافة
   صيغ الحقول المخصصة باستخدام Aspose.Tasks للغة Java.
-language: ar
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: حفظ ملف المشروع وكتابة صيغ MS Project باستخدام Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /ar/java/formulas/write-read-formulas/
 weight: 12
 ---
 

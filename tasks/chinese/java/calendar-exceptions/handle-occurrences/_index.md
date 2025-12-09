@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 一个 Java 日历教程，展示如何使用 Aspose.Tasks for Java 处理日历异常、设置出现次数以及配置异常类型。
-language: zh
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: Java 日历教程：处理日历异常发生
-url: /java/calendar-exceptions/handle-occurrences/
+url: /zh/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

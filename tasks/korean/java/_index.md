@@ -2,10 +2,9 @@
 date: 2025-12-02
 description: Aspose.Tasks for Java를 사용하여 프로젝트 캘린더를 만들고 Gantt 차트를 구성하는 방법을 배우세요. 포괄적인
   튜토리얼, 예제 및 모범 사례.
-language: ko
 linktitle: Aspose.Tasks for Java Tutorials
 title: 프로젝트 캘린더 만들기 Aspose – Aspose.Tasks for Java 가이드
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Ismerje meg, hogyan állíthatja be a projekt naptárát és kezelheti az
   MS Project naptár tulajdonságait Java-ban az Aspose.Tasks segítségével. Lépésről‑lépésre
   útmutató a naptár munkavégzési óráinak megjelenítéséhez és az ütemezések testreszabásához.
-language: hu
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Hogyan állítsuk be a projekt naptárát az Aspose.Tasks for Java segítségével
-url: /java/calendars/properties/
+url: /hu/java/calendars/properties/
 weight: 10
 ---
 

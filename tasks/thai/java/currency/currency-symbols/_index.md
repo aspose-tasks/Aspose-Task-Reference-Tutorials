@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีดึงสัญลักษณ์สกุลเงินจากไฟล์ mpp และเปลี่ยนสัญลักษณ์สกุลเงินใน
   Java ด้วย Aspose.Tasks for Java. ดึงสัญลักษณ์สกุลเงินใน Java อย่างรวดเร็วสำหรับการจัดการโครงการ.
-language: th
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: ดึงสัญลักษณ์สกุลเงินจากไฟล์ MPP ด้วย Aspose.Tasks สำหรับ Java
-url: /java/currency/currency-symbols/
+url: /th/java/currency/currency-symbols/
 weight: 12
 ---
 

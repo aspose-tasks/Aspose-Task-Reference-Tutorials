@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách quản lý mã tiền tệ, chữ số và ký hiệu trong các tệp MS
   Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để xử lý tài chính dự án
   một cách hoàn hảo.
-language: vi
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Quản lý mã tiền tệ Java với Aspose.Tasks
-url: /java/currency/
+url: /vi/java/currency/
 weight: 22
 ---
 

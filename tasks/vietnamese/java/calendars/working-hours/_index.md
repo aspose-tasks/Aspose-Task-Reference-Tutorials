@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tìm hiểu cách xác định ngày làm việc và tính thời gian thực hiện nhiệm
   vụ bằng cách trích xuất giờ làm việc từ lịch MS Project bằng Aspose.Tasks cho Java.
-language: vi
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Xác định ngày làm việc và giờ làm việc với Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /vi/java/calendars/working-hours/
 weight: 13
 ---
 

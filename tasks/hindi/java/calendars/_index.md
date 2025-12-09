@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.Tasks for Java का उपयोग करके MS Project कैलेंडरों में सप्ताह के
   कार्यदिवसों को कैसे परिभाषित करें, सीखें। कार्य दिवसों को अनुकूलित करने, शेड्यूलिंग
   में सुधार करने और प्रोजेक्ट प्रबंधन की दक्षता बढ़ाने के लिए चरण‑दर‑चरण गाइड।
-language: hi
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: MS प्रोजेक्ट कैलेंडर में सप्ताह के दिन कैसे परिभाषित करें – Aspose.Tasks Java
-url: /java/calendars/
+url: /hi/java/calendars/
 weight: 21
 ---
 

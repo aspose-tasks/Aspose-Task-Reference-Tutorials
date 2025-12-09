@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Tasks를 사용하여 Java에서 프로젝트 캘린더를 설정하고 MS Project 캘린더 속성을 관리하는 방법을
   배웁니다. 캘린더 작업 시간을 표시하고 일정을 맞춤 설정하는 단계별 가이드.
-language: ko
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java를 사용하여 프로젝트 캘린더 설정하는 방법
-url: /java/calendars/properties/
+url: /ko/java/calendars/properties/
 weight: 10
 ---
 

@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Tanulja meg, hogyan hozhat létre projekt naptárat az Aspose segítségével,
   és hogyan konfigurálhatja a Gantt-diagramot Java-ban az Aspose.Tasks for Java használatával.
   Átfogó oktatóanyagok, példák és legjobb gyakorlatok.
-language: hu
 linktitle: Aspose.Tasks for Java Tutorials
 title: Projekt naptár létrehozása Aspose – Aspose.Tasks for Java útmutató
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 学习如何使用 Aspose.Tasks 在 Java 中设置项目日历并管理 MS Project 日历属性。一步一步的指南，展示日历工作时间并自定义计划。
-language: zh
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 如何使用 Aspose.Tasks for Java 设置项目日历
-url: /java/calendars/properties/
+url: /zh/java/calendars/properties/
 weight: 10
 ---
 

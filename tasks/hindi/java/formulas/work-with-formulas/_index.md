@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Tasks for Java का उपयोग करके Microsoft Project फ़ाइलों को संभालते
   हुए **टेस्ट प्रोजेक्ट बनाना** और **कस्टम फ़ील्ड जोड़ना** सीखें।
-language: hi
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java के साथ टेस्ट प्रोजेक्ट बनाएं और फ़ॉर्मूले उपयोग करें
-url: /java/formulas/work-with-formulas/
+url: /hi/java/formulas/work-with-formulas/
 weight: 11
 ---
 

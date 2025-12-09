@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Một hướng dẫn lịch Java cho thấy cách xử lý các ngoại lệ lịch, thiết
   lập các lần xuất hiện và cấu hình loại ngoại lệ với Aspose.Tasks cho Java.
-language: vi
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Hướng dẫn Java Calendar: Xử lý các trường hợp ngoại lệ của Calendar'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /vi/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

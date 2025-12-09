@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 轻松创建自定义日历例外，集成 MS Project 日历，并在 Java 项目中使用 Aspose.Tasks 管理、定义、处理和检索日历例外。简化项目工作流，实现高效的项目管理。
-language: zh
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks for Java 创建自定义日历例外
-url: /java/calendar-exceptions/
+url: /zh/java/calendar-exceptions/
 weight: 20
 ---
 

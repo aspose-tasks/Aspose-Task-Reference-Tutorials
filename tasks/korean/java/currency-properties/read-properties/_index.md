@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Tasks for Java를 사용하여 MS Project 파일에서 통화 속성을 읽는 방법을 배워보세요. 단계별
   가이드를 따라 프로그래밍 방식으로 통화 코드, 기호, 소수 자릿수 및 위치를 추출합니다.
-language: ko
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks 프로젝트를 사용한 Java에서 통화 속성 읽기
-url: /java/currency-properties/read-properties/
+url: /ko/java/currency-properties/read-properties/
 weight: 10
 ---
 

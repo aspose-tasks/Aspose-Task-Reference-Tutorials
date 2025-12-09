@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprenda cómo leer las propiedades de moneda en Java a partir de archivos
   de MS Project usando Aspose.Tasks para Java. Siga esta guía paso a paso para extraer
   el código de moneda, el símbolo, los dígitos y la posición de forma programática.
-language: es
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Leer propiedades de moneda Java con proyectos Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /es/java/currency-properties/read-properties/
 weight: 10
 ---
 

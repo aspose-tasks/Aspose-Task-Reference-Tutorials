@@ -3,11 +3,10 @@ date: 2025-11-29
 description: สร้างข้อยกเว้นปฏิทินแบบกำหนดเองได้อย่างง่ายดาย, ผสานรวมปฏิทิน MS Project,
   และจัดการ, กำหนด, ควบคุมและดึงข้อมูลข้อยกเว้นปฏิทินในโครงการ Java ด้วย Aspose.Tasks.
   ปรับกระบวนการทำงานของโครงการให้เป็นระบบเพื่อการจัดการโครงการที่มีประสิทธิภาพ.
-language: th
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: สร้างข้อยกเว้นปฏิทินแบบกำหนดเองด้วย Aspose.Tasks สำหรับ Java
-url: /java/calendar-exceptions/
+url: /th/java/calendar-exceptions/
 weight: 20
 ---
 

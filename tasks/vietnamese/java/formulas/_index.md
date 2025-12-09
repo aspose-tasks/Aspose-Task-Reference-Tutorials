@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tìm hiểu cách tạo công thức MS Project, thao tác với các tệp MS Project
   và tính giá trị nhiệm vụ bằng Java sử dụng Aspose.Tasks for Java. Tăng năng suất
   với các hướng dẫn từng bước.
-language: vi
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Tạo công thức MS Project với Aspose.Tasks cho Java
-url: /java/formulas/
+url: /vi/java/formulas/
 weight: 23
 ---
 

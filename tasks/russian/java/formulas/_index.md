@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Изучите, как создавать формулы в MS Project, работать с файлами MS Project
   и вычислять значения задач на Java с помощью Aspose.Tasks для Java. Повышайте продуктивность
   с пошаговыми руководствами.
-language: ru
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Создавайте формулы MS Project с помощью Aspose.Tasks для Java
-url: /java/formulas/
+url: /ru/java/formulas/
 weight: 23
 ---
 

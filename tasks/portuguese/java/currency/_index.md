@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprenda a gerenciar códigos de moeda, dígitos e símbolos em arquivos
   do MS Project usando Aspose.Tasks para Java. Tutoriais passo a passo para um gerenciamento
   financeiro de projetos impecável.
-language: pt
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Gerenciar códigos de moeda Java com Aspose.Tasks
-url: /java/currency/
+url: /pt/java/currency/
 weight: 22
 ---
 

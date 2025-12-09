@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Lär dig hur du **skapar testprojekt** och **lägger till ett anpassat
   fält** när du manipulerar Microsoft Project-filer med Aspose.Tasks för Java.
-language: sv
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Skapa testprojekt och använd formler med Aspose.Tasks för Java
-url: /java/formulas/work-with-formulas/
+url: /sv/java/formulas/work-with-formulas/
 weight: 11
 ---
 

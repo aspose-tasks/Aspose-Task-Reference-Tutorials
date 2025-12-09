@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 一個 Java 行事曆教學，展示如何使用 Aspose.Tasks for Java 處理行事曆例外、設定發生次數，以及配置例外類型。
-language: zh-hant
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: Java 行事曆教學：處理例外發生情況
-url: /java/calendar-exceptions/handle-occurrences/
+url: /zh-hant/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

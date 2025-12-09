@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách đọc tiền tệ và cách thiết lập các thuộc tính tiền tệ trong
   các tệp MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để thao tác tệp
   dự án một cách dễ dàng.
-language: vi
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Cách đọc thuộc tính tiền tệ với Aspose.Tasks cho Java
-url: /java/currency-properties/
+url: /vi/java/currency-properties/
 weight: 25
 ---
 

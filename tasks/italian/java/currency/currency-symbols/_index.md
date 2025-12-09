@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Scopri come estrarre il simbolo della valuta mpp e modificare il simbolo
   della valuta java con Aspose.Tasks per Java. Recupera rapidamente il simbolo della
   valuta java per la gestione dei progetti.
-language: it
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Estrai il simbolo della valuta mpp usando Aspose.Tasks per Java
-url: /java/currency/currency-symbols/
+url: /it/java/currency/currency-symbols/
 weight: 12
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีบันทึกไฟล์โครงการ, เขียนและอ่านสูตร MS Project, และเพิ่มสูตรฟิลด์ที่กำหนดเองโดยใช้
   Aspose.Tasks สำหรับ Java.
-language: th
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: บันทึกไฟล์โครงการและเขียนสูตร MS Project ด้วย Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /th/java/formulas/write-read-formulas/
 weight: 12
 ---
 

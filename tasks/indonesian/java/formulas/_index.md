@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Pelajari cara membuat formula MS Project, memanipulasi file MS Project,
   dan menghitung nilai tugas Java menggunakan Aspose.Tasks untuk Java. Tingkatkan
   produktivitas dengan tutorial langkah demi langkah.
-language: id
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: Buat Rumus MS Project dengan Aspose.Tasks untuk Java
-url: /java/formulas/
+url: /id/java/formulas/
 weight: 23
 ---
 

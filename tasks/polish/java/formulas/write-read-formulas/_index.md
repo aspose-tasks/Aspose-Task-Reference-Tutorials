@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Dowiedz się, jak zapisać plik projektu, tworzyć i odczytywać formuły
   MS Project oraz dodawać formuły pól niestandardowych przy użyciu Aspose.Tasks dla
   Javy.
-language: pl
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Zapisz plik projektu i twórz formuły MS Project przy użyciu Aspose.Tasks
-url: /java/formulas/write-read-formulas/
+url: /pl/java/formulas/write-read-formulas/
 weight: 12
 ---
 

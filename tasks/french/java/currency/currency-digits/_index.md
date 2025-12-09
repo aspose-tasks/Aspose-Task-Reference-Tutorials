@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à gérer efficacement les décimales monétaires de MS Project
   à l’aide d’Aspose.Tasks pour Java. Guide étape par étape couvrant la manipulation
   des fichiers de projet Java et la façon de charger les fichiers MPP.
-language: fr
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Gérer les décimales de la devise MS Project avec Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /fr/java/currency/currency-digits/
 weight: 11
 ---
 

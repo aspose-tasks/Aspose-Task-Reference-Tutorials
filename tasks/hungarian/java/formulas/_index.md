@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tanulja meg, hogyan hozhat létre MS Project képleteket, kezelhet MS Project
   fájlokat, és számíthat feladatértékeket Java nyelven az Aspose.Tasks for Java segítségével.
   Növelje a termelékenységet lépésről‑lépésre útmutatókkal.
-language: hu
 linktitle: Create MS Project Formulas
 second_title: Aspose.Tasks Java API
 title: MS Project képletek létrehozása az Aspose.Tasks for Java használatával
-url: /java/formulas/
+url: /hu/java/formulas/
 weight: 23
 ---
 

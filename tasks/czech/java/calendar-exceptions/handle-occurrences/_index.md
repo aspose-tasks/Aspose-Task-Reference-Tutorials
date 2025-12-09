@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Java tutoriál kalendáře, který ukazuje, jak zpracovávat výjimky kalendáře,
   nastavit výskyty a konfigurovat typ výjimky pomocí Aspose.Tasks pro Javu.
-language: cs
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Java kalendářový tutoriál: Zpracování výskytů výjimek kalendáře'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /cs/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

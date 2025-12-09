@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Tasks for Java kullanarak MS Project'ten takvim istisnalarını
   nasıl alacağınızı öğrenin. Bu Aspose.Tasks Java öğreticisi adım adım kod örnekleri
   sunar.
-language: tr
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks ile Takvim İstisnalarını Al – asp tasks java öğreticisi
-url: /java/calendar-exceptions/retrieve/
+url: /tr/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

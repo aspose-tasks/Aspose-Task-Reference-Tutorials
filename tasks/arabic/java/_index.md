@@ -2,10 +2,9 @@
 date: 2025-12-02
 description: تعلم كيفية إنشاء تقويم المشروع باستخدام Aspose وتكوين مخطط جانت في Java
   باستخدام Aspose.Tasks for Java. دروس شاملة، أمثلة، وأفضل الممارسات.
-language: ar
 linktitle: Aspose.Tasks for Java Tutorials
 title: إنشاء تقويم المشروع Aspose – دليل Aspose.Tasks للغة Java
-url: /java/
+url: /ar/java/
 weight: 10
 ---
 

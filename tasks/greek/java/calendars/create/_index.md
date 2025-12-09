@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Μάθετε πώς να προσθέσετε ημερολόγιο σε έργο, πώς να δημιουργήσετε ημερολόγιο
   MS Project και να αποθηκεύσετε το έργο ως XML χρησιμοποιώντας το Aspose.Tasks για
   Java.
-language: el
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Προσθήκη ημερολογίου στο έργο με το Aspose.Tasks για Java
-url: /java/calendars/create/
+url: /el/java/calendars/create/
 weight: 11
 ---
 

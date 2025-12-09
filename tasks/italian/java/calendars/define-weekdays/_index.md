@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Scopri come impostare il calendario, definire i giorni feriali in MS Project
   e impostare giorni lavorativi personalizzati usando Aspose.Tasks per Java. Salva
   il progetto come XML con poche righe di codice.
-language: it
 linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Come impostare il calendario e definire i giorni della settimana in MS Project
   con Aspose.Tasks
-url: /java/calendars/define-weekdays/
+url: /it/java/calendars/define-weekdays/
 weight: 12
 ---
 

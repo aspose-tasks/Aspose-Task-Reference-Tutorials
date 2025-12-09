@@ -1,11 +1,10 @@
 ---
 date: 2025-12-02
 description: 了解如何使用 Aspose.Tasks for Java 在 MS Project 日历中定义工作日。一步步指南帮助自定义工作天数、优化排程并提升项目管理效率。
-language: zh
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: 如何在 MS Project 日历中定义工作日 – Aspose.Tasks Java
-url: /java/calendars/
+url: /zh/java/calendars/
 weight: 21
 ---
 

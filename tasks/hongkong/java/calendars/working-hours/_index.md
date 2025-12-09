@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何透過使用 Aspose.Tasks for Java 從 MS Project 行事曆提取工作時數，以確定工作天數並計算任務持續時間。
-language: zh-hant
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 使用 Aspose.Tasks 確定工作天數與工作時數
-url: /java/calendars/working-hours/
+url: /zh-hant/java/calendars/working-hours/
 weight: 13
 ---
 

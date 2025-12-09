@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Dowiedz się, jak pobierać wyjątki kalendarza z MS Project przy użyciu
   Aspose.Tasks dla Javy. Ten samouczek Aspose.Tasks Java zawiera krok po kroku przykłady
   kodu.
-language: pl
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Pobieranie wyjątków kalendarza przy użyciu Aspose.Tasks – samouczek Aspose.Tasks
   Java
-url: /java/calendar-exceptions/retrieve/
+url: /pl/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

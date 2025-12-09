@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Tasks for Java를 사용하여 캘린더 예외를 처리하고, 발생 횟수를 설정하며, 예외 유형을 구성하는 방법을
   보여주는 Java 캘린더 튜토리얼.
-language: ko
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Java 캘린더 튜토리얼: 캘린더 예외 발생 처리'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /ko/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

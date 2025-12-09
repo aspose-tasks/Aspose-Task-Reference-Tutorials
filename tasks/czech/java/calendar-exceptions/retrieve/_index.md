@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Naučte se, jak získat výjimky kalendáře z MS Project pomocí Aspose.Tasks
   pro Javu. Tento tutoriál Aspose.Tasks pro Javu poskytuje krok za krokem příklady
   kódu.
-language: cs
 linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
 second_title: Aspose.Tasks Java API
 title: Získání výjimek kalendáře pomocí Aspose.Tasks – tutoriál asp tasks java
-url: /java/calendar-exceptions/retrieve/
+url: /cs/java/calendar-exceptions/retrieve/
 weight: 13
 ---
 

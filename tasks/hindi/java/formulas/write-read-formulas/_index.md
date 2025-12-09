@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: जानेँ कि Aspose.Tasks for Java का उपयोग करके प्रोजेक्ट फ़ाइल कैसे सहेजें,
   MS Project फ़ॉर्मूले लिखें और पढ़ें, और कस्टम फ़ील्ड फ़ॉर्मूले कैसे जोड़ें।
-language: hi
 linktitle: Save Project File & Write Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks के साथ प्रोजेक्ट फ़ाइल सहेजें और MS Project फ़ॉर्मूले लिखें
-url: /java/formulas/write-read-formulas/
+url: /hi/java/formulas/write-read-formulas/
 weight: 12
 ---
 

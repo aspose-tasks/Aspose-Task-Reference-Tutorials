@@ -2,10 +2,9 @@
 date: 2025-12-02
 description: Изучите, как создать календарь проекта Aspose и настроить диаграмму Ганта
   на Java с помощью Aspose.Tasks for Java. Полные руководства, примеры и лучшие практики.
-language: ru
 linktitle: Aspose.Tasks for Java Tutorials
 title: Создание календаря проекта Aspose – Руководство по Aspose.Tasks для Java
-url: /java/
+url: /ru/java/
 weight: 10
 ---
 

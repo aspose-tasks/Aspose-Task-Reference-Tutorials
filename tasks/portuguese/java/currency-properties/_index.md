@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aprenda a ler a moeda e a definir as propriedades de moeda em arquivos
   MS Project usando Aspose.Tasks para Java. Guias passo a passo para manipulação de
   arquivos de projeto sem esforço.
-language: pt
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
 title: Como ler propriedades de moeda com Aspose.Tasks para Java
-url: /java/currency-properties/
+url: /pt/java/currency-properties/
 weight: 25
 ---
 

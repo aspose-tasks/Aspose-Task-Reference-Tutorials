@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Scopri come definire i giorni feriali nei calendari di MS Project usando
   Aspose.Tasks per Java. Guida passo‑passo per personalizzare i giorni lavorativi,
   migliorare la pianificazione e aumentare l'efficienza nella gestione dei progetti.
-language: it
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Come definire i giorni feriali nei calendari di MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /it/java/calendars/
 weight: 21
 ---
 

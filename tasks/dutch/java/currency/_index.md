@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Leer hoe u valutacodes, cijfers en symbolen in MS Project‑bestanden beheert
   met Aspose.Tasks voor Java. Stapsgewijze tutorials voor foutloze financiële projectafhandeling.
-language: nl
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Valutacodes beheren in Java met Aspose.Tasks
-url: /java/currency/
+url: /nl/java/currency/
 weight: 22
 ---
 

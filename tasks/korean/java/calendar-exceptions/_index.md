@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 맞춤형 캘린더 예외를 손쉽게 생성하고, MS Project 캘린더를 통합하며, Aspose.Tasks를 사용해 Java 프로젝트에서
   캘린더 예외를 관리·정의·처리·검색합니다. 효율적인 프로젝트 관리를 위해 워크플로를 간소화합니다.
-language: ko
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks for Java를 사용하여 사용자 정의 캘린더 예외 만들기
-url: /java/calendar-exceptions/
+url: /ko/java/calendar-exceptions/
 weight: 20
 ---
 

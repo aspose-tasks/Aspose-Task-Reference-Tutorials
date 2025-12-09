@@ -3,10 +3,9 @@ additionalTitle: Aspose API References
 date: 2025-11-29
 description: Aspose.Tasks를 사용하여 프로젝트를 PDF로 내보내는 방법을 배우고, 프로젝트 라이선스를 관리하며, .NET, Java,
   C++ 등 다양한 언어 튜토리얼을 탐색하세요.
-language: ko
 linktitle: Aspose.Tasks Tutorials
 title: Aspose.Tasks 튜토리얼로 프로젝트를 PDF로 내보내기
-url: /
+url: /ko/
 weight: 11
 ---
 

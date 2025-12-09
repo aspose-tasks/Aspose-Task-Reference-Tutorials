@@ -3,10 +3,9 @@ date: 2025-12-02
 description: Aspose.Tasks for Java kullanarak proje takvimini nasıl oluşturacağınızı
   ve Gantt şemasını nasıl yapılandıracağınızı öğrenin. Kapsamlı öğreticiler, örnekler
   ve en iyi uygulamalar.
-language: tr
 linktitle: Aspose.Tasks for Java Tutorials
 title: Aspose ile Proje Takvimi Oluşturma – Aspose.Tasks for Java Rehberi
-url: /java/
+url: /tr/java/
 weight: 10
 ---
 

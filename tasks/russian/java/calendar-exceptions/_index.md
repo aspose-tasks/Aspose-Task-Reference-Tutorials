@@ -4,11 +4,10 @@ description: Легко создавайте пользовательские и
   календарь MS Project и управляйте, определяйте, обрабатывайте и получайте исключения
   календаря в Java‑проектах с Aspose.Tasks. Оптимизируйте рабочие процессы проекта
   для эффективного управления проектом.
-language: ru
 linktitle: Calendar Exceptions
 second_title: Aspose.Tasks Java API
 title: Создайте пользовательские исключения календаря с Aspose.Tasks для Java
-url: /java/calendar-exceptions/
+url: /ru/java/calendar-exceptions/
 weight: 20
 ---
 

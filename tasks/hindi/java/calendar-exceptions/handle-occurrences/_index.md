@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Tasks for Java के साथ जावा कैलेंडर ट्यूटोरियल जो कैलेंडर अपवादों
   को संभालना, घटनाओं को सेट करना और अपवाद प्रकार को कॉन्फ़िगर करना दिखाता है।
-language: hi
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'जावा कैलेंडर ट्यूटोरियल: कैलेंडर अपवाद घटनाओं को संभालें'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /hi/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

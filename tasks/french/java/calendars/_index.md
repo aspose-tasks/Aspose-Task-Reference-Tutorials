@@ -4,12 +4,11 @@ description: Apprenez à définir les jours de la semaine dans les calendriers M
   à l’aide d’Aspose.Tasks pour Java. Guide étape par étape pour personnaliser les
   jours ouvrables, améliorer la planification et augmenter l’efficacité de la gestion
   de projet.
-language: fr
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Comment définir les jours de la semaine dans les calendriers MS Project – Aspose.Tasks
   Java
-url: /java/calendars/
+url: /fr/java/calendars/
 weight: 21
 ---
 

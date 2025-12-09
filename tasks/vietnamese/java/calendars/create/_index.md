@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Tìm hiểu cách thêm lịch vào dự án, cách tạo lịch MS Project và lưu dự
   án dưới dạng XML bằng Aspose.Tasks cho Java.
-language: vi
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Thêm lịch vào dự án bằng Aspose.Tasks cho Java
-url: /java/calendars/create/
+url: /vi/java/calendars/create/
 weight: 11
 ---
 

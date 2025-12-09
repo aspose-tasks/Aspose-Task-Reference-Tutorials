@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Tasks for Java를 사용하여 MS Project 통화 자릿수를 효율적으로 처리하는 방법을 배웁니다. Java
   프로젝트 파일 처리와 MPP 파일 로드 방법을 단계별로 안내합니다.
-language: ko
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks를 사용하여 MS Project 통화 자릿수 처리
-url: /java/currency/currency-digits/
+url: /ko/java/currency/currency-digits/
 weight: 11
 ---
 

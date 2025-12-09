@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Samouczek kalendarza w Javie pokazujący, jak obsługiwać wyjątki kalendarza,
   ustawiać wystąpienia i konfigurować typy wyjątków przy użyciu Aspose.Tasks dla Javy.
-language: pl
 linktitle: 'Java Calendar Tutorial: Handle Calendar Exception Occurrences'
 second_title: Aspose.Tasks Java API
 title: 'Samouczek kalendarza Java: Obsługa wystąpień wyjątków kalendarza'
-url: /java/calendar-exceptions/handle-occurrences/
+url: /pl/java/calendar-exceptions/handle-occurrences/
 weight: 12
 ---
 

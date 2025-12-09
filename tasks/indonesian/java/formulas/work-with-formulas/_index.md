@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Pelajari cara **membuat proyek uji** dan **menambahkan bidang khusus**
   sambil memanipulasi file Microsoft Project menggunakan Aspose.Tasks untuk Java.
-language: id
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Buat Proyek Uji dan Gunakan Rumus dengan Aspose.Tasks untuk Java
-url: /java/formulas/work-with-formulas/
+url: /id/java/formulas/work-with-formulas/
 weight: 11
 ---
 

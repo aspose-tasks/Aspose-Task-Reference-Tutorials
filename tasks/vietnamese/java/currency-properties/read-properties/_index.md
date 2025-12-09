@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách đọc các thuộc tính tiền tệ trong Java từ các tệp MS Project
   bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước này để trích xuất mã
   tiền tệ, ký hiệu, số chữ số và vị trí một cách lập trình.
-language: vi
 linktitle: Read Currency Properties Java with Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
 title: Đọc các thuộc tính tiền tệ Java với các dự án Aspose.Tasks
-url: /java/currency-properties/read-properties/
+url: /vi/java/currency-properties/read-properties/
 weight: 10
 ---
 

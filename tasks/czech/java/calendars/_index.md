@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak definovat pracovní dny v kalendářích MS Project pomocí
   Aspose.Tasks pro Javu. Krok za krokem průvodce přizpůsobením pracovních dnů, zlepšením
   plánování a zvýšením efektivity řízení projektů.
-language: cs
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: Jak definovat pracovní dny v kalendářích MS Project – Aspose.Tasks Java
-url: /java/calendars/
+url: /cs/java/calendars/
 weight: 21
 ---
 

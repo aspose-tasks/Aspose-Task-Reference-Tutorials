@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να εξάγετε το σύμβολο νομίσματος mpp και να αλλάξετε το σύμβολο
   νομίσματος java με το Aspose.Tasks for Java. Ανακτήστε γρήγορα το σύμβολο νομίσματος
   java για τη διαχείριση έργων.
-language: el
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 title: Εξαγωγή συμβόλου νομίσματος mpp με χρήση Aspose.Tasks για Java
-url: /java/currency/currency-symbols/
+url: /el/java/currency/currency-symbols/
 weight: 12
 ---
 

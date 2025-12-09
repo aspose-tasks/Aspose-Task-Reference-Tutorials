@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se efektivně pracovat s měnovými číslicemi v MS Project pomocí
   Aspose.Tasks pro Javu. Podrobný návod krok za krokem, který zahrnuje manipulaci
   s projektovými soubory v Javě a načítání souborů MPP.
-language: cs
 linktitle: Handle ms project currency Digits with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Zpracujte číslice měny v MS Project pomocí Aspose.Tasks
-url: /java/currency/currency-digits/
+url: /cs/java/currency/currency-digits/
 weight: 11
 ---
 

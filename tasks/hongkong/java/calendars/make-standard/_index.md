@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 學習如何使用 Aspose.Tasks 在 Java 中建立日曆。本分步指南將向您展示如何建立標準的 MS Project 日曆、加入標準日曆，以及有效運用
   Aspose.Tasks。
-language: zh-hant
 linktitle: Make Standard Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: 如何建立行事曆 – 在 Aspose.Tasks 中製作標準行事曆
-url: /java/calendars/make-standard/
+url: /zh-hant/java/calendars/make-standard/
 weight: 14
 ---
 

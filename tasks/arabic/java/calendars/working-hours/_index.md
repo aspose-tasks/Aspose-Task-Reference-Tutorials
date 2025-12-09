@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية تحديد أيام العمل وحساب مدة المهمة عن طريق استخراج ساعات العمل
   من تقاويم MS Project باستخدام Aspose.Tasks للغة Java.
-language: ar
 linktitle: Determine Working Days & Working Hours with Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: تحديد أيام العمل وساعات العمل باستخدام Aspose.Tasks
-url: /java/calendars/working-hours/
+url: /ar/java/calendars/working-hours/
 weight: 13
 ---
 
