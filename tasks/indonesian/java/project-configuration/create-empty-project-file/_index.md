@@ -99,17 +99,15 @@ Lisensi sementara dapat diperoleh dari [here](https://purchase.aspose.com/tempor
 ## Conclusion
 Dengan Aspose.Tasks untuk Java, membuat file Microsoft Project kosong menjadi tugas yang mudah. Dengan mengikuti langkah‑langkah yang dijabarkan di atas, Anda dapat mengintegrasikan fungsionalitas ini secara mulus ke dalam aplikasi Java Anda, menyederhanakan alur kerja manajemen proyek, dan menyiapkan dasar bagi otomatisasi yang lebih canggih.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

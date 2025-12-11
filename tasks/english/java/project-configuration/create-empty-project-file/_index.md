@@ -97,17 +97,15 @@ Temporary licenses can be obtained from [here](https://purchase.aspose.com/tempo
 ## Conclusion
 With Aspose.Tasks for Java, creating an empty Microsoft Project file becomes a straightforward endeavor. By following the steps outlined above, you can seamlessly integrate this functionality into your Java applications, streamlining your project management workflows and laying the groundwork for more advanced automation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

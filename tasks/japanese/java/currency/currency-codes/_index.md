@@ -100,15 +100,15 @@ A: はい、無料トライアルで全機能（通貨コードの読み取り�
 **Q: Aspose.Tasks の一時ライセンスはどこで取得できますか？**  
 A: 短期評価用の一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から入手可能です。
 
+---
+
+**最終更新日:** 2025-12-09  
+**テスト環境:** Aspose.Tasks for Java（最新バージョン）  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-09  
-**テスト環境:** Aspose.Tasks for Java（最新バージョン）  
-**作成者:** Aspose

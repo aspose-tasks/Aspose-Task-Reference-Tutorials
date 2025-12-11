@@ -100,15 +100,15 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 **问：在哪里可以获取 Aspose.Tasks 的临时许可证？**  
 答：可从 [website](https://purchase.aspose.com/temporary-license/) 获取短期评估用的临时许可证。
 
+---
+
+**最后更新：** 2025-12-09  
+**测试环境：** Aspose.Tasks for Java（最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-09  
-**测试环境：** Aspose.Tasks for Java（最新版本）  
-**作者：** Aspose

@@ -101,15 +101,15 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 **س: أين يمكن الحصول على تراخيص مؤقتة لـ Aspose.Tasks؟**  
 ج: يمكن الحصول على تراخيص مؤقتة من [الموقع](https://purchase.aspose.com/temporary-license/) للتقييم قصير الأمد.
 
+---
+
+**آخر تحديث:** 2025-12-09  
+**تم الاختبار مع:** Aspose.Tasks for Java (أحدث نسخة)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** Aspose.Tasks for Java (أحدث نسخة)  
-**المؤلف:** Aspose

@@ -100,15 +100,15 @@ A: 提供免費試用，讓您評估所有功能，包括讀取貨幣代碼。
 **Q: 在哪裡可以取得 Aspose.Tasks 的臨時授權？**  
 A: 可於[網站](https://purchase.aspose.com/temporary-license/)取得臨時授權，以進行短期評估。
 
+---
+
+**最後更新：** 2025-12-09  
+**測試環境：** Aspose.Tasks for Java (latest version)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-09  
-**測試環境：** Aspose.Tasks for Java (latest version)  
-**作者：** Aspose

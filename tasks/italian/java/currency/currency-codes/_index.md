@@ -102,15 +102,15 @@ R: È offerta una versione di prova gratuita per valutare tutte le funzionalità
 **D: Dove posso ottenere licenze temporanee per Aspose.Tasks?**  
 R: Le licenze temporanee possono essere ottenute dal [sito web](https://purchase.aspose.com/temporary-license/) per valutazioni a breve termine.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-09  
+**Testato con:** Aspose.Tasks per Java (ultima versione)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-09  
-**Testato con:** Aspose.Tasks per Java (ultima versione)  
-**Autore:** Aspose

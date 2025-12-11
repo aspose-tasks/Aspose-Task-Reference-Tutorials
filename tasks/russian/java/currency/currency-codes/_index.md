@@ -101,15 +101,15 @@ A: Предлагается бесплатная trial‑версия, чтоб�
 **Q: Где можно получить временные лицензии для Aspose.Tasks?**  
 A: Временные лицензии можно получить на [website](https://purchase.aspose.com/temporary-license/) для краткосрочной оценки.
 
+---
+
+**Последнее обновление:** 2025-12-09  
+**Тестировано с:** Aspose.Tasks for Java (latest version)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-09  
-**Тестировано с:** Aspose.Tasks for Java (latest version)  
-**Автор:** Aspose

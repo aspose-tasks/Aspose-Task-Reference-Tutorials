@@ -101,15 +101,15 @@ A: En gratis provversion erbjuds så att du kan utvärdera alla funktioner, inkl
 **Q: Var kan jag få tillfälliga licenser för Aspose.Tasks?**  
 A: Tillfälliga licenser kan erhållas från [website](https://purchase.aspose.com/temporary-license/) för korttidsutvärdering.
 
+---
+
+**Senast uppdaterad:** 2025-12-09  
+**Testat med:** Aspose.Tasks for Java (latest version)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-09  
-**Testat med:** Aspose.Tasks for Java (latest version)  
-**Författare:** Aspose

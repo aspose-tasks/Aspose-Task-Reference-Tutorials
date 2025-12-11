@@ -103,15 +103,15 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 **Ε: Από πού μπορώ να αποκτήσω προσωρινές άδειες για το Aspose.Tasks;**  
 **Α:** Μπορείτε να λάβετε προσωρινές άδειες από την [ιστοσελίδα](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμη αξιολόγηση.
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-09  
+**Δοκιμή με:** Aspose.Tasks for Java (latest version)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-09  
-**Δοκιμή με:** Aspose.Tasks for Java (latest version)  
-**Συγγραφέας:** Aspose

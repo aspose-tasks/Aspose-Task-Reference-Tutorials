@@ -99,15 +99,15 @@ Ideiglenes licenceket szerezhet [innen](https://purchase.aspose.com/temporary-li
 ## Összegzés
 Az Aspose.Tasks for Java segítségével egy üres Microsoft Project fájl létrehozása egyszerű feladat. A fenti lépések követésével zökkenőmentesen integrálhatja ezt a funkciót Java alkalmazásaiba, egyszerűsítve a projektmenedzsment munkafolyamatait és előkészítve a fejlettebb automatizálást.
 
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

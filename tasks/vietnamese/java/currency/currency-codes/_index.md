@@ -102,15 +102,15 @@ A: Bản dùng thử miễn phí được cung cấp để bạn đánh giá t�
 **Q: Tôi có thể lấy giấy phép tạm thời cho Aspose.Tasks ở đâu?**  
 A: Giấy phép tạm thời có thể được lấy từ [website](https://purchase.aspose.com/temporary-license/) cho việc đánh giá ngắn hạn.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-09  
+**Kiểm thử với:** Aspose.Tasks for Java (latest version)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-09  
-**Kiểm thử với:** Aspose.Tasks for Java (latest version)  
-**Tác giả:** Aspose

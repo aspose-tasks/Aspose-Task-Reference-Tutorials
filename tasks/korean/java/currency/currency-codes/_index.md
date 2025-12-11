@@ -101,15 +101,15 @@ A: 예, 모든 기능(통화 코드 읽기 포함)을 평가할 수 있는 무�
 **Q: Aspose.Tasks 임시 라이선스는 어디서 받을 수 있나요?**  
 A: 단기 평가용 임시 라이선스는 [website](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.Tasks for Java (최신 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-09  
-**테스트 환경:** Aspose.Tasks for Java (최신 버전)  
-**작성자:** Aspose

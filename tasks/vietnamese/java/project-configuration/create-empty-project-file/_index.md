@@ -99,15 +99,15 @@ Giấy phép tạm thời có thể được lấy từ [đây](https://purchase
 ## Kết luận
 Với Aspose.Tasks cho Java, việc tạo một tệp Microsoft Project trống trở nên đơn giản. Bằng cách làm theo các bước đã nêu ở trên, bạn có thể tích hợp chức năng này một cách liền mạch vào các ứng dụng Java, tối ưu hóa quy trình quản lý dự án và xây dựng nền tảng cho các tự động hóa nâng cao hơn.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-09  
+**Kiểm tra với:** Aspose.Tasks for Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-09  
-**Kiểm tra với:** Aspose.Tasks for Java 24.12  
-**Tác giả:** Aspose

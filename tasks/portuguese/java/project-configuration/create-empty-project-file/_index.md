@@ -99,17 +99,16 @@ Licenças temporárias podem ser obtidas [aqui](https://purchase.aspose.com/temp
 ## Conclusão
 Com Aspose.Tasks para Java, criar um arquivo Microsoft Project vazio torna‑se uma tarefa simples. Seguindo os passos descritos acima, você pode integrar essa funcionalidade perfeitamente em suas aplicações Java, otimizar seus fluxos de trabalho de gestão de projetos e preparar o terreno para automações mais avançadas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-09  
 **Testado com:** Aspose.Tasks para Java 24.12  
 **Autor:** Aspose  
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

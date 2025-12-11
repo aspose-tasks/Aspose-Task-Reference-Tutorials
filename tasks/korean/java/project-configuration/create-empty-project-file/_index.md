@@ -98,17 +98,15 @@ System.out.println("Project file generated Successfully");
 ## 결론
 Aspose.Tasks for Java를 사용하면 빈 Microsoft Project 파일을 손쉽게 만들 수 있습니다. 위 단계들을 따라 하면 Java 애플리케이션에 이 기능을 매끄럽게 통합하여 프로젝트 관리 워크플로를 간소화하고, 향후 고급 자동화 작업을 위한 기반을 마련할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

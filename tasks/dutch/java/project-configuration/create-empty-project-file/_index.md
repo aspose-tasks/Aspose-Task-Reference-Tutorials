@@ -99,17 +99,15 @@ Tijdelijke licenties zijn verkrijgbaar via [hier](https://purchase.aspose.com/te
 ## Conclusie
 Met Aspose.Tasks voor Java wordt het maken van een leeg Microsoft Project‑bestand een eenvoudige taak. Door de bovenstaande stappen te volgen, kun je deze functionaliteit naadloos integreren in je Java‑applicaties, je projectmanagement‑workflows stroomlijnen en de basis leggen voor meer geavanceerde automatisering.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-09  
 **Getest met:** Aspose.Tasks voor Java 24.12  
 **Auteur:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

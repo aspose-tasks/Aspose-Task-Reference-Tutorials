@@ -103,15 +103,15 @@ A: A free trial is offered so you can evaluate all features, including reading c
 **Q: Where can I get temporary licenses for Aspose.Tasks?**  
 A: Temporary licenses can be obtained from the [website](https://purchase.aspose.com/temporary-license/) for short‑term evaluation.
 
+---
+
+**Legutóbb frissítve:** 2025-12-09  
+**Tesztelve:** Aspose.Tasks for Java (latest version)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-09  
-**Tesztelve:** Aspose.Tasks for Java (latest version)  
-**Szerző:** Aspose

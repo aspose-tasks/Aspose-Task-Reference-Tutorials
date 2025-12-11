@@ -103,15 +103,15 @@ C: Ücretsiz bir deneme sunulur, böylece para birimi kodlarını okuma dahil t�
 **S: Aspose.Tasks için geçici lisansları nereden alabilirim?**  
 C: Kısa vadeli değerlendirme için geçici lisanslar [web sitesinden](https://purchase.aspose.com/temporary-license/) temin edilebilir.
 
+---
+
+**Son Güncelleme:** 2025-12-09  
+**Test Edilen:** Aspose.Tasks for Java (en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-09  
-**Test Edilen:** Aspose.Tasks for Java (en son sürüm)  
-**Yazar:** Aspose

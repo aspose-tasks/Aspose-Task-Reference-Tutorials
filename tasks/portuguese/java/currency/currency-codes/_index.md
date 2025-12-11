@@ -102,15 +102,15 @@ A: Uma avaliação gratuita é oferecida para que você possa avaliar todos os r
 **Q: Onde posso obter licenças temporárias para o Aspose.Tasks?**  
 A: Licenças temporárias podem ser obtidas no [site](https://purchase.aspose.com/temporary-license/) para avaliação de curto prazo.
 
+---
+
+**Última atualização:** 2025-12-09  
+**Testado com:** Aspose.Tasks for Java (latest version)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-09  
-**Testado com:** Aspose.Tasks for Java (latest version)  
-**Autor:** Aspose

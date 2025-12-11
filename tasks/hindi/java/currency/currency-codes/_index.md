@@ -103,15 +103,15 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 **प्रश्न: Aspose.Tasks के लिए अस्थायी लाइसेंस कहाँ प्राप्त कर सकते हैं?**  
 उत्तर: अस्थायी लाइसेंस [वेबसाइट](https://purchase.aspose.com/temporary-license/) से छोटे‑समय के मूल्यांकन के लिए प्राप्त किए जा सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-09  
+**परीक्षित संस्करण:** Aspose.Tasks for Java (नवीनतम संस्करण)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-09  
-**परीक्षित संस्करण:** Aspose.Tasks for Java (नवीनतम संस्करण)  
-**लेखक:** Aspose

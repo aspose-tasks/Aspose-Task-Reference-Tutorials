@@ -98,17 +98,15 @@ Temporary licenses can be obtained from [here](https://purchase.aspose.com/tempo
 ## Conclusion
 Aspose.Tasks for Java を使用すれば、空の Microsoft Project ファイルの作成はシンプルな作業になります。上記の手順に従うことで、この機能を Java アプリケーションにシームレスに組み込み、プロジェクト管理ワークフローを効率化し、より高度な自動化の基盤を構築できます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

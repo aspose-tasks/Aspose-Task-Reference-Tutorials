@@ -101,15 +101,15 @@ A: Er wordt een gratis proefversie aangeboden zodat je alle functies kunt evalue
 **Q: Waar kan ik tijdelijke licenties voor Aspose.Tasks krijgen?**  
 A: Tijdelijke licenties kunnen worden verkregen via de [website](https://purchase.aspose.com/temporary-license/) voor kortetermijnevaluatie.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-09  
+**Getest met:** Aspose.Tasks for Java (latest version)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-09  
-**Getest met:** Aspose.Tasks for Java (latest version)  
-**Auteur:** Aspose

@@ -99,15 +99,15 @@ Dočasné licence lze získat [zde](https://purchase.aspose.com/temporary-licens
 ## Závěr
 S Aspose.Tasks pro Java se vytvoření prázdného souboru Microsoft Project stává jednoduchým úkolem. Dodržením výše uvedených kroků můžete tuto funkci snadno integrovat do svých Java aplikací, zefektivnit pracovní postupy řízení projektů a připravit půdu pro pokročilejší automatizaci.
 
+---
+
+**Poslední aktualizace:** 2025-12-09  
+**Testováno s:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

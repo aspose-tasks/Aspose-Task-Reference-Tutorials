@@ -101,15 +101,15 @@ A: Ano, je k dispozici bezplatná zkušební verze, abyste mohli vyhodnotit vše
 **Q: Kde mohu získat dočasné licence pro Aspose.Tasks?**  
 A: Dočasné licence lze získat na [webu](https://purchase.aspose.com/temporary-license/) pro krátkodobé hodnocení.
 
+---
+
+**Poslední aktualizace:** 2025-12-09  
+**Testováno s:** Aspose.Tasks for Java (nejnovější verze)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.Tasks for Java (nejnovější verze)  
-**Autor:** Aspose

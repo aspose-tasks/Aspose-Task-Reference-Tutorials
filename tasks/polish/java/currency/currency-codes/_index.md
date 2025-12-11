@@ -102,15 +102,15 @@ O: Tak, dostępna jest wersja próbna, dzięki której możesz ocenić wszystkie
 **P: Gdzie mogę uzyskać tymczasowe licencje na Aspose.Tasks?**  
 O: Tymczasowe licencje można uzyskać na [stronie internetowej](https://purchase.aspose.com/temporary-license/) w celu krótkoterminowej oceny.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowano z:** Aspose.Tasks dla Javy (najnowsza wersja)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-09  
-**Testowano z:** Aspose.Tasks dla Javy (najnowsza wersja)  
-**Autor:** Aspose

@@ -99,17 +99,15 @@ Geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) ed
 ## Conclusion
 Aspose.Tasks for Java ile boş bir Microsoft Project dosyası oluşturmak oldukça basit bir işlemdir. Yukarıda özetlenen adımları izleyerek bu işlevi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir, proje yönetimi süreçlerinizi hızlandırabilir ve daha ileri otomasyonlar için sağlam bir temel oluşturabilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

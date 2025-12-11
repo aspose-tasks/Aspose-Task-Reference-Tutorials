@@ -99,15 +99,15 @@ Tillfälliga licenser kan erhållas från [here](https://purchase.aspose.com/tem
 ## Slutsats
 Med Aspose.Tasks för Java blir skapandet av en tom Microsoft Project‑fil en enkel uppgift. Genom att följa stegen ovan kan du sömlöst integrera denna funktionalitet i dina Java‑applikationer, effektivisera dina projektledningsarbetsflöden och lägga grunden för mer avancerad automatisering.
 
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose
