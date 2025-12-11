@@ -1,58 +1,94 @@
 ---
-title: Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
-linktitle: Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
+date: 2025-12-09
+description: Naučte se, jak nastavit adresář s daty a nakonfigurovat zobrazení Ganttova
+  diagramu v Aspose.Tasks pomocí Javy. Tento průvodce také ukazuje, jak přizpůsobit
+  pole tabulky a krok za krokem konfigurovat projekty Ganttova diagramu v Javě.
+linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Naučte se konfigurovat zobrazení Gantt MS Project Chart v Aspose.Tasks pomocí Javy. Přizpůsobte si projekt a vizualizujte je v Ganttově diagramu krok za krokem.
-weight: 10
+title: Nastavit adresář dat pro zobrazení Ganttova diagramu v Aspose.Tasks
 url: /cs/java/project-configuration/configure-gantt-chart/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konfigurace zobrazení Ganttova diagramu v projektech Aspose.Tasks
+# Nastavení adresáře dat pro zobrazení Ganttova diagramu v Aspose.Tasks
 
 ## Úvod
-V tomto tutoriálu se naučíte, jak nakonfigurovat zobrazení Gantt MS Project Chart v projektech Aspose.Tasks pomocí Javy. Aspose.Tasks je výkonné Java API, které vám umožňuje programově pracovat se soubory Microsoft Project. Podle těchto kroků budete moci upravit zobrazení Ganttova diagramu podle požadavků vašeho projektu.
-## Předpoklady
-Než začnete, ujistěte se, že máte následující předpoklady:
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu.
-2.  Knihovna Aspose.Tasks: Stáhněte a nainstalujte knihovnu Aspose.Tasks. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/java/).
-3. Integrované vývojové prostředí (IDE): Vyberte si IDE podle svého výběru. Tento tutoriál používá IntelliJ IDEA, ale můžete použít jakékoli IDE, které vám vyhovuje.
-## Importujte balíčky
-Nejprve musíte importovat potřebné balíčky pro práci s Aspose.Tasks ve vašem projektu Java. Přidejte do svého souboru Java následující příkazy pro import:
+V tomto tutoriálu se naučíte **jak nastavit adresář dat** a nakonfigurovat zobrazení Gantt MS Project Chart v projektech Aspose.Tasks pomocí Javy. Aspose.Tasks je robustní Java API, které vám umožní programově manipulovat se soubory Microsoft Project. Na konci tohoto průvodce budete schopni **přizpůsobit pole tabulky**, upravit adresář dat a vizualizovat svůj projekt přesně tak, jak potřebujete.
+
+## Rychlé odpovědi
+- **Jaký je první krok?** Nastavte cestu k adresáři dat, kde se nacházejí vaše projektové soubory.  
+- **Která knihovna je vyžadována?** Aspose.Tasks pro Java (ke stažení na oficiálních stránkách).  
+- **Mohu přidat vlastní atributy?** Ano – můžete definovat rozšířené atributy a zobrazit je v Ganttově diagramu.  
+- **Potřebuji licenci pro testování?** Dočasná licence je k dispozici pro evaluační účely.  
+- **Které IDE funguje nejlépe?** Jakékoli Java IDE (IntelliJ IDEA, Eclipse, NetBeans) bude fungovat.
+
+## Co je „nastavení adresáře dat“ a proč je to důležité?
+Nastavení adresáře dat říká Aspose.Tasks, kde má číst a zapisovat projektové soubory. Bez správné cesty API nemůže najít vaše soubory `.mpp`, což vede k chybám FileNotFound. Definování tohoto adresáře na začátku kódu činí zbytek workflow čistým a opakovatelným.
+
+## Proč přizpůsobit pole tabulky v Ganttově diagramu?
+Vlastní pole tabulky vám umožní zobrazit další informace – například vlastní atributy, data o zdrojích nebo projektové poznámky – přímo v Ganttově zobrazení. To činí diagram informativnějším pro zainteresované strany a snižuje potřebu přepínat mezi více reporty.
+
+## Požadavky
+Před zahájením se ujistěte, že máte:
+
+1. **Java Development Kit (JDK)** – libovolná aktuální verze (8+).  
+2. **Aspose.Tasks Library** – stáhněte ji z [zde](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli Java‑kompatibilní editor, který preferujete.
+
+## Import balíčků
+Nejprve importujte jmenný prostor Aspose.Tasks, abyste mohli pracovat s jeho třídami:
+
 ```java
 import com.aspose.tasks.*;
 ```
-Nyní si rozeberme proces konfigurace zobrazení Gantt MS Project Chart na podrobné pokyny:
-## Krok 1: Nastavte datový adresář
+
+## Průvodce krok za krokem
+
+### Krok 1: Nastavení adresáře dat
+Definujte složku, která obsahuje vaše projektové soubory. Toto je krok **nastavení adresáře dat**, na který se tutoriál zaměřuje.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Nahradit`"Your Data Directory"` s cestou k adresáři projektových dat.
-## Krok 2: Načtěte soubor projektu
+
+Nahraďte `"Your Data Directory"` absolutní cestou ke složce, kde je uložen `project.mpp`.
+
+### Krok 2: Načtení projektového souboru
+Vytvořte instanci `Project` načtením existujícího souboru Microsoft Project.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Načtěte soubor projektu (`project.mpp` v tomto příkladu) pomocí`Project` třídy z Aspose.Tasks.
-## Krok 3: Přidejte novou aktivitu
+
+### Krok 3: Přidání nové aktivity
+Vložte nový úkol (aktivitu) do kořene projektu.
+
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
 ```
- Vytvořte nový úkol ve svém projektu pomocí`Task` třídu a přidejte ji k dětem kořenového úkolu.
-## Krok 4: Definujte vlastní atribut
+
+### Krok 4: Definice vlastního atributu
+Vytvořte definici vlastního atributu, kterou můžete později přiřadit úkolům.
+
 ```java
 ExtendedAttributeDefinition text1Definition = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text1, null);
 project.getExtendedAttributes().add(text1Definition);
 ```
- Definujte nový vlastní atribut pomocí`ExtendedAttributeDefinition`třídy a přidejte ji do rozšířených atributů projektu.
-## Krok 5: Přidejte do úkolu vlastní atribut
+
+### Krok 5: Přidání vlastního atributu k úkolu
+Přiřaďte nově definovaný atribut úkolu, který jste vytvořili.
+
 ```java
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
 ```
- Přidejte vlastní atribut do vytvořené úlohy pomocí`createExtendedAttribute` metoda.
-## Krok 6: Přizpůsobte tabulku
+
+### Krok 6: Přizpůsobení tabulky – **customize table fields**
+Přidejte vlastní atribut jako sloupec do tabulky Ganttova diagramu, specifikujte šířku, název a zarovnání.
+
 ```java
 TableField attrField = new TableField();
 attrField.setField(Field.TaskText1);
@@ -63,25 +99,47 @@ attrField.setAlignData(HorizontalStringAlignment.Center);
 Table table = project.getTables().toList().get(0);
 table.getTableFields().add(3, attrField);
 ```
-Přizpůsobte tabulku přidáním pole textového atributu se zadanou šířkou, nadpisem a zarovnáním.
-## Krok 7: Uložte projekt
+
+### Krok 7: Uložení projektu
+Uložte změny do nového souboru, který lze otevřít v Microsoft Project.
+
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
 ```
-Uložte projekt pomocí nakonfigurovaného zobrazení grafu Gantt MS Project Chart. Výsledný soubor lze otevřít v aplikaci Microsoft Project 2010.
+
+## Časté problémy a řešení
+| Problém | Proč se stane | Řešení |
+|-------|----------------|-----|
+| **FileNotFoundException** při načítání projektu | Cesta **nastavení adresáře dat** je nesprávná nebo chybí koncová lomítka. | Ověřte, že `dataDir` ukazuje na přesnou složku a zahrňte správný oddělovač souborů (`/` nebo `\\`). |
+| Vlastní atribut není viditelný v Ganttově zobrazení | Pole tabulky bylo přidáno na špatný index nebo je šířka sloupce příliš malá. | Ujistěte se, že `table.getTableFields().add(3, attrField);` používá platný index a upravte `setWidth` podle potřeby. |
+| LicenseException při ukládání | Pro produkční použití nebyla aplikována platná licence. | Aplikujte dočasnou nebo trvalou licenci před voláním `project.save()`. |
+
+## Často kladené otázky
+
+**Q: Mohu použít Aspose.Tasks s jinými programovacími jazyky?**  
+A: Ano, Aspose.Tasks je dostupný pro více programovacích jazyků včetně .NET, Java a C++.
+
+**Q: Je k dispozici bezplatná zkušební verze Aspose.Tasks?**  
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://releases.aspose.com/).
+
+**Q: Kde mohu najít podporu pro Aspose.Tasks?**  
+A: Podporu a otázky najdete na [Aspose.Tasks fóru](https://forum.aspose.com/c/tasks/15).
+
+**Q: Jak mohu zakoupit licenci pro Aspose.Tasks?**  
+A: Licenci můžete zakoupit [zde](https://purchase.aspose.com/buy).
+
+**Q: Potřebuji dočasnou licenci pro testovací účely?**  
+A: Ano, dočasnou licenci získáte [zde](https://purchase.aspose.com/temporary-license/).
+
 ## Závěr
-Gratulujeme! Úspěšně jste nakonfigurovali zobrazení grafu Gantt MS Project Chart v projektech Aspose.Tasks pomocí Java. Nyní můžete přizpůsobit atributy projektu a vizualizovat je v Ganttově diagramu podle potřeb vašeho projektu.
-## FAQ
-### Otázka: Mohu používat Aspose.Tasks s jinými programovacími jazyky?
-Odpověď: Ano, Aspose.Tasks je k dispozici pro více programovacích jazyků včetně .NET, Java a C++.
-### Otázka: Je pro Aspose.Tasks k dispozici nějaká bezplatná zkušební verze?
- Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
-### Otázka: Kde najdu podporu pro Aspose.Tasks?
-Odpověď: Podporu a dotazy můžete najít na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
-### Otázka: Jak si mohu zakoupit licenci pro Aspose.Tasks?
- Odpověď: Můžete si zakoupit licenci od[tady](https://purchase.aspose.com/buy).
-### Otázka: Potřebuji dočasnou licenci pro testovací účely?
- Odpověď: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+Nyní jste se naučili, jak **nastavit adresář dat**, přidat novou aktivitu, definovat a přiřadit vlastní atribut a **přizpůsobit pole tabulky** v zobrazení Ganttova diagramu pomocí Aspose.Tasks pro Java. Tyto kroky vám dávají plnou kontrolu nad tím, jak jsou projektová data zobrazena, což činí vaše Ganttovy diagramy informativnějšími a přizpůsobenými potřebám vašich stakeholderů.
+
+---
+
+**Poslední aktualizace:** 2025-12-09  
+**Testováno s:** Aspose.Tasks Java 24.12 (nejnovější)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

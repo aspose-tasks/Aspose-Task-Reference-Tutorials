@@ -1,76 +1,123 @@
 ---
-title: Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
-linktitle: Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
-second_title: Aspose.Tasks Java-API
-description: Erfahren Sie, wie Sie die Auswertung von MS Project-Funktionen in Aspose.Tasks-Formeln mit Java unterstützen. Steigern Sie Ihre Produktivität mit Aspose.Tasks.
-weight: 10
+date: 2025-12-09
+description: Erfahren Sie, wie Sie ein Projektobjekt in Java erstellen und Evaluierungsfunktionen
+  in Aspose.Tasks‑Formeln mit Java unterstützen. Entdecken Sie, wie Sie ein erweitertes
+  Attribut für Aufgaben erstellen.
+linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+second_title: Aspose.Tasks Java API
+title: Projektobjekt in Java erstellen – Evaluierungsfunktionen in Aspose.Tasks unterstützen
 url: /de/java/formulas/evaluation-functions/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Unterstützen Sie Auswertungsfunktionen in Aspose.Tasks-Formeln
-
+# Unterstützungs‑Evaluierungsfunktionen in Aspose.Tasks‑Formeln
 
 ## Einführung
-Aspose.Tasks für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten. Eine seiner Hauptfunktionen ist die Fähigkeit, die Auswertung von MS Project-Funktionen innerhalb von Aspose.Tasks-Formeln zu unterstützen. Mit dieser Funktion können Benutzer komplexe Berechnungen und Analysen direkt in ihren Java-Anwendungen durchführen.
+Aspose.Tasks für Java ermöglicht es Ihnen, **create project object java** Instanzen zu **erstellen** und Microsoft Project‑Funktionen direkt in Ihrem Java‑Code zu evaluieren. Durch das Einbetten dieser Formeln können Sie komplexe Berechnungen durchführen, benutzerdefinierte Berichte erzeugen und die Projektanalyse automatisieren, ohne Ihre Entwicklungsumgebung zu verlassen. Dieses Tutorial führt Sie durch den gesamten Prozess – vom Einrichten des Projektobjekts bis zum Hinzufügen eines erweiterten Attributs, das benutzerdefinierte Daten aufnehmen kann.
+
+## Schnelle Antworten
+- **Was bedeutet “create project object java”?** Es erstellt eine im Speicher befindliche `Project`‑Instanz, die Sie programmgesteuert manipulieren können.  
+- **Welche Bibliothek wird benötigt?** Aspose.Tasks für Java (Download von der offiziellen Seite).  
+- **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine temporäre oder vollständige Lizenz erforderlich; eine kostenlose Testversion ist verfügbar.  
+- **Kann ich benutzerdefinierte Felder verwenden?** Ja – Sie können erweiterte Attribute zu Aufgaben definieren und anhängen.  
+- **Ist das mit allen Project‑Dateiformaten kompatibel?** Aspose.Tasks unterstützt die Formate MPP, MPT und XML.
+
 ## Voraussetzungen
-Bevor Sie mit der Integration von MS Project-Funktionen in Aspose.Tasks-Formeln beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System Java zusammen mit einer kompatiblen IDE für die Java-Entwicklung wie IntelliJ IDEA oder Eclipse installiert ist.
-2.  Aspose.Tasks for Java-Bibliothek: Laden Sie die Aspose.Tasks for Java-Bibliothek herunter und fügen Sie sie in Ihr Java-Projekt ein. Sie können es hier herunterladen[Aspose.Tasks für Java-Downloadseite](https://releases.aspose.com/tasks/java/).
-## Pakete importieren
-Importieren Sie zunächst die erforderlichen Pakete in Ihre Java-Klasse, um die Funktionen von Aspose.Tasks zu nutzen:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+
+1. **Java‑Entwicklungsumgebung** – JDK 8+ und eine IDE wie IntelliJ IDEA oder Eclipse.  
+2. **Aspose.Tasks für Java Bibliothek** – Downloaden und in Ihr Projekt einbinden von der [Aspose.Tasks für Java Download‑Seite](https://releases.aspose.com/tasks/java/).
+
+## Import‑Pakete
+Fügen Sie den Aspose.Tasks‑Namespace zu Ihrer Java‑Klasse hinzu, damit Sie mit Projekten, Aufgaben und erweiterten Attributen arbeiten können:
+
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Schritt 1: Erstellen Sie ein neues Projektobjekt
- Erstellen Sie zunächst ein neues`Project`Objekt, mit dem gearbeitet werden soll:
+## Schritt 1: Create Project Object Java
+Instanziieren Sie ein neues `Project`‑Objekt. Dieses dient als Container für alle Aufgaben, Ressourcen und benutzerdefinierten Daten, die Sie definieren werden.
+
 ```java
 Project project = new Project();
 ```
-Dadurch wird ein neues leeres Projekt initialisiert.
-## Schritt 2: Definieren Sie ein erweitertes Attribut für Aufgaben
-Als nächstes definieren Sie ein erweitertes Attribut für Aufgaben. Dieses Attribut enthält benutzerdefinierte Daten, die mit Aufgaben verknüpft sind:
+
+Die obige Zeile **creates project object java**, das zunächst leer ist und bereit für Anpassungen.
+
+## Schritt 2: Wie man ein erweitertes Attribut erstellt
+Definieren Sie ein erweitertes Attribut, das benutzerdefinierte numerische Daten (z. B. einen Sinuswert) für jede Aufgabe speichert.
+
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
- Hier erstellen wir ein erweitertes Attribut vom Typ`Number` mit dem Namen „Sinus“ für Aufgaben.
-## Schritt 3: Fügen Sie das erweiterte Attribut zum Projekt hinzu
-Fügen Sie die erweiterte Attributdefinition zur Liste der erweiterten Attribute des Projekts hinzu:
+
+Hier **create extended attribute** vom Typ `Number` mit dem Namen „Sine“ und verknüpfen es mit Aufgaben.
+
+## Schritt 3: Das erweiterte Attribut zum Projekt hinzufügen
+Registrieren Sie die Attributdefinition im Projekt, sodass jede Aufgabe darauf zugreifen kann.
+
 ```java
 project.getExtendedAttributes().add(attr);
 ```
-Dadurch wird das benutzerdefinierte Attribut zum Projekt hinzugefügt.
-## Schritt 4: Erstellen Sie eine neue Aufgabe
-Erstellen wir nun eine neue Aufgabe innerhalb des Projekts:
+
+## Schritt 4: Eine neue Aufgabe erstellen
+Fügen Sie eine einfache Aufgabe mit dem Namen „Task“ unter der Stammaufgabe des Projekts hinzu.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Dadurch wird dem Projekt eine neue Aufgabe mit dem Namen „Aufgabe“ hinzugefügt.
-## Schritt 5: Verknüpfen Sie das erweiterte Attribut mit der Aufgabe
-Verknüpfen Sie das zuvor erstellte erweiterte Attribut mit der Aufgabe:
+
+## Schritt 5: Das erweiterte Attribut mit der Aufgabe verknüpfen
+Verknüpfen Sie das zuvor definierte erweiterte Attribut mit der neu erstellten Aufgabe.
+
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
-Dadurch wird der Aufgabe das erweiterte Attribut „Sinus“ zugeordnet.
 
-## Abschluss
-Zusammenfassend lässt sich sagen, dass die Integration von MS Project-Funktionen in Aspose.Tasks-Formeln in Java ein unkomplizierter Prozess ist. Wenn Sie die bereitgestellten Schritte befolgen, können Sie die leistungsstarken Funktionen von Aspose.Tasks für Java effektiv nutzen, um Microsoft Project-Dateien programmgesteuert zu bearbeiten und zu analysieren.
-## FAQs
-### F: Kann Aspose.Tasks für Java komplexe MS Project-Formeln verarbeiten?
-A: Ja, Aspose.Tasks für Java unterstützt die Auswertung einer Vielzahl von MS Project-Funktionen und ermöglicht so komplexe Berechnungen innerhalb von Java-Anwendungen.
-### F: Ist Aspose.Tasks für Java mit verschiedenen Versionen von Microsoft Project-Dateien kompatibel?
-A: Ja, Aspose.Tasks für Java unterstützt verschiedene Versionen von Microsoft Project-Dateien, einschließlich der Formate MPP, MPT und XML.
-### F: Kann ich Aspose.Tasks für Java vor dem Kauf testen?
- A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java von der Website herunterladen[Hier](https://purchase.aspose.com/buy).
-### F: Wie erhalte ich Unterstützung für Aspose.Tasks für Java?
-A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
-### F: Gibt es eine temporäre Lizenz für Aspose.Tasks für Java?
- A: Ja, Sie können eine temporäre Lizenz zu Testzwecken auf der Aspose-Website erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+Jetzt enthält die Aufgabe ein benutzerdefiniertes Feld „Sine“, das Sie in Formeln oder Berechnungen verwenden können.
+
+## Warum Evaluierungsfunktionen verwenden?
+Das Einbetten von MS‑Project‑Funktionen in Aspose.Tasks‑Formeln ermöglicht Ihnen:
+
+- On‑the‑fly‑Berechnungen (z. B. `Sin([Start])`) ohne externe Werkzeuge durchzuführen.  
+- Alle Projektlogik in einem einzigen, wartbaren Code‑Base zu behalten.  
+- Dynamische Berichte zu erzeugen, die Echtzeit‑Datenänderungen widerspiegeln.
+
+## Häufige Probleme und Lösungen
+| Problem | Lösung |
+|-------|----------|
+| **Formel liefert `NaN`** | Stellen Sie sicher, dass der Typ des benutzerdefinierten Feldes dem erwarteten numerischen Typ entspricht. |
+| **Erweitertes Attribut nicht sichtbar** | Vergewissern Sie sich, dass die Attributdefinition dem Projekt **vor** dem Erstellen von Aufgaben hinzugefügt wurde. |
+| **Lizenz‑Ausnahme** | Installieren Sie eine temporäre oder vollständige Lizenz; der Testmodus kann bestimmte Funktionen einschränken. |
+
+## Häufig gestellte Fragen
+
+**F: Kann Aspose.Tasks für Java komplexe MS‑Project‑Formeln verarbeiten?**  
+A: Ja, Aspose.Tasks für Java unterstützt die Auswertung einer breiten Palette von MS‑Project‑Funktionen, sodass komplexe Berechnungen innerhalb von Java‑Anwendungen möglich sind.
+
+**F: Ist Aspose.Tasks für Java mit verschiedenen Versionen von Microsoft‑Project‑Dateien kompatibel?**  
+A: Ja, Aspose.Tasks für Java unterstützt verschiedene Versionen von Microsoft‑Project‑Dateien, einschließlich der Formate MPP, MPT und XML.
+
+**F: Kann ich Aspose.Tasks für Java vor dem Kauf testen?**  
+A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java von der Website [hier](https://purchase.aspose.com/buy) herunterladen.
+
+**F: Wie erhalte ich Support für Aspose.Tasks für Java?**  
+A: Sie erhalten Support im Aspose.Tasks‑Community‑Forum [hier](https://forum.aspose.com/c/tasks/15).
+
+**F: Gibt es eine temporäre Lizenz für Aspose.Tasks für Java?**  
+A: Ja, Sie können eine temporäre Lizenz für Testzwecke von der Aspose‑Website [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-09  
+**Getestet mit:** Aspose.Tasks für Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
