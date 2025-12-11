@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose.Tasks: Create and Save Empty Project to Stream
+title: How to Use Aspose.Tasks - Create and Save Empty Project to Stream
 linktitle: Create and Save Empty Project to Stream in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to use aspose to create empty project java files and how to save project to a stream, including saving MS Project XML with Aspose.Tasks.
