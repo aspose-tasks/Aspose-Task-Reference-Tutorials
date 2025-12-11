@@ -84,13 +84,6 @@ Learn how to extract specific Gantt chart data using Aspose.Tasks for Java. Step
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Unlock the power of Aspose.Tasks for Java. Learn to extract table data from files in this comprehensive tutorial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I read Microsoft Project Online data without a user interface?**  
@@ -114,4 +107,9 @@ A: A single commercial license covers all environments (development, testing, pr
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

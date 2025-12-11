@@ -83,13 +83,6 @@ Naučte se extrahovat konkrétní data Ganttova diagramu pomocí Aspose.Tasks fo
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Odemkněte sílu Aspose.Tasks for Java. Naučte se extrahovat data tabulky ze souborů v tomto komplexním tutoriálu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu číst data Microsoft Project Online bez uživatelského rozhraní?**  
@@ -113,4 +106,9 @@ A: Jedna komerční licence pokrývá všechna prostředí (vývoj, testování,
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -84,13 +84,6 @@ Tanuld meg, hogyan nyerhetsz ki specifikus Gantt-diagram adatokat az Aspose.Task
 ### [Táblázat adatok olvasása fájlból az Aspose.Tasks-ben](./read-table-data/)
 Fedezd fel az Aspose.Tasks for Java erejét. Tanuld meg, hogyan nyerhetsz ki táblázat adatokat fájlokból ebben az átfogó tutorialban.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Olvashatok Microsoft Project Online adatokat felhasználói felület nélkül?**  
@@ -114,4 +107,9 @@ A: Egyetlen kereskedelmi licenc fedezi az összes környezetet (fejlesztés, tes
 **Tesztelve:** Aspose.Tasks for Java 24.12  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

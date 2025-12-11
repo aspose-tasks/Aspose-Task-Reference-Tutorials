@@ -83,13 +83,6 @@ Aspose.Tasks for Java का उपयोग करके विशिष्ट 
 ### [Aspose.Tasks में फ़ाइल से टेबल डेटा पढ़ें](./read-table-data/)
 Aspose.Tasks for Java की शक्ति को अनलॉक करें। इस व्यापक ट्यूटोरियल में फ़ाइलों से टेबल डेटा निकालना सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं Microsoft Project Online डेटा को बिना यूज़र इंटरफ़ेस के पढ़ सकता हूँ?**  
@@ -113,4 +106,9 @@ Aspose.Tasks for Java की शक्ति को अनलॉक करें
 **टेस्टेड विथ:** Aspose.Tasks for Java 24.12  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -84,13 +84,6 @@ Aprende a extraer datos específicos del diagrama de Gantt usando Aspose.Tasks f
 ### [Leer datos de tabla desde un archivo en Aspose.Tasks](./read-table-data/)
 Desbloquea el poder de Aspose.Tasks for Java. Aprende a extraer datos de tabla desde archivos en este tutorial integral.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo leer datos de Microsoft Project Online sin una interfaz de usuario?**  
@@ -114,4 +107,9 @@ R: Una única licencia comercial cubre todos los entornos (desarrollo, pruebas, 
 **Probado con:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -84,13 +84,6 @@ Leer hoe je specifieke Gantt‑chart‑gegevens extraheert met Aspose.Tasks for 
 ### [Tabelgegevens uit bestand lezen in Aspose.Tasks](./read-table-data/)
 Ontgrendel de kracht van Aspose.Tasks for Java. Leer tabelgegevens uit bestanden te extraheren in deze uitgebreide tutorial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Kan ik Microsoft Project Online‑gegevens lezen zonder een gebruikersinterface?**  
@@ -114,4 +107,9 @@ A: Eén commerciële licentie dekt alle omgevingen (ontwikkeling, testen, produc
 **Getest met:** Aspose.Tasks for Java 24.12  
 **Auteur:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

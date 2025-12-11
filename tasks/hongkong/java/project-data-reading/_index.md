@@ -82,13 +82,6 @@ weight: 28
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 發掘 Aspose.Tasks for Java 的強大功能，學習從檔案提取表格資料的完整教學。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問答
 
 **Q: 我可以在沒有使用者介面的情況下讀取 Microsoft Project Online 資料嗎？**  
@@ -112,4 +105,9 @@ weight: 28
 **測試環境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

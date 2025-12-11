@@ -84,13 +84,6 @@ Pelajari cara mengekstrak data diagram Gantt spesifik menggunakan Aspose.Tasks u
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Buka kekuatan Aspose.Tasks untuk Java. Pelajari cara mengekstrak data tabel dari file dalam tutorial komprehensif ini.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya membaca data Microsoft Project Online tanpa antarmuka pengguna?**  
@@ -114,4 +107,9 @@ A: Satu lisensi komersial mencakup semua lingkungan (pengembangan, pengujian, pr
 **Diuji Dengan:** Aspose.Tasks for Java 24.12  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

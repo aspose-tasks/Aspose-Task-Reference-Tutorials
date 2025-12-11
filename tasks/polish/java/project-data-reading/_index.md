@@ -84,13 +84,6 @@ Dowiedz się, jak wyodrębnić konkretne dane wykresu Gantta przy użyciu Aspose
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Odblokuj moc Aspose.Tasks for Java. Naucz się wyodrębniać dane tabel z plików w tym kompleksowym samouczku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I read Microsoft Project Online data without a user interface?**  
@@ -114,4 +107,9 @@ A: Jedna licencja komercyjna obejmuje wszystkie środowiska (deweloperskie, test
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

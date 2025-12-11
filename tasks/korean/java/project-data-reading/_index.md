@@ -83,13 +83,6 @@ Aspose.Tasks for Java를 사용해 특정 Gantt 차트 데이터를 추출하는
 ### [Aspose.Tasks에서 파일의 테이블 데이터 읽기](./read-table-data/)
 Aspose.Tasks for Java의 강력한 기능을 활용해 파일에서 테이블 데이터를 추출하는 방법을 배웁니다. 포괄적인 튜토리얼을 통해 이 과정을 마스터하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 사용자 인터페이스 없이 Microsoft Project Online 데이터를 읽을 수 있나요?**  
@@ -113,4 +106,9 @@ A: 단일 상용 라이선스로 모든 환경(개발, 테스트, 운영)을 커
 **테스트 환경:** Aspose.Tasks for Java 24.12  
 **작성자:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -84,13 +84,6 @@ Erfahren Sie, wie Sie spezifische Gantt‑Diagrammdaten mit Aspose.Tasks für Ja
 ### [Tabellendaten aus Datei in Aspose.Tasks lesen](./read-table-data/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Tasks für Java. Lernen Sie, Tabellendaten aus Dateien in diesem umfassenden Tutorial zu extrahieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Microsoft Project Online‑Daten ohne Benutzeroberfläche lesen?**  
@@ -114,4 +107,9 @@ A: Eine einzelne kommerzielle Lizenz deckt alle Umgebungen (Entwicklung, Test, P
 **Getestet mit:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

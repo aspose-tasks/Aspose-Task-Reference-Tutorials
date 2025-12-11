@@ -84,13 +84,6 @@ Lär dig hur du extraherar specifik Gantt‑diagramdata med Aspose.Tasks for Jav
 ### [Läs tabelldata från fil i Aspose.Tasks](./read-table-data/)
 Lås upp kraften i Aspose.Tasks for Java. Lär dig att extrahera tabelldata från filer i denna omfattande handledning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag läsa Microsoft Project Online‑data utan ett användargränssnitt?**  
@@ -108,6 +101,15 @@ A: Du kan läsa från Microsoft Access (*.mdb, *.accdb) och från den inbyggda
 **Q: Behöver jag en separat licens för varje distributionsmiljö?**  
 A: En enda kommersiell licens täcker alla miljöer (utveckling, test, produktion) så länge villkoren uppfylls.
 
+---
+
 **Senast uppdaterad:** 2025-12-11  
 **Testad med:** Aspose.Tasks for Java 24.12  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

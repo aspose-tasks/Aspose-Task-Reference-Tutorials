@@ -84,13 +84,6 @@ weight: 28
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Откройте возможности Aspose.Tasks for Java. Научитесь извлекать данные таблиц из файлов в этом всестороннем руководстве.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли читать данные Microsoft Project Online без пользовательского интерфейса?**  
@@ -114,4 +107,9 @@ A: Одна коммерческая лицензия покрывает все 
 **Тестировано с:** Aspose.Tasks for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -84,13 +84,6 @@ Aspose.Tasks for Java kullanarak belirli Gantt şeması verilerini nasıl çıka
 ### [Aspose.Tasks'te Dosyadan Tablo Verilerini Okuma](./read-table-data/)
 Aspose.Tasks for Java'ın gücünü ortaya çıkarın. Bu kapsamlı eğitimde dosyalardan tablo verilerini çıkarmayı öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Microsoft Project Online verilerini bir kullanıcı arayüzü olmadan okuyabilir miyim?**  
@@ -113,3 +106,10 @@ A: Tek bir ticari lisans, şartlar karşılandığı sürece tüm ortamları (ge
 **Son Güncelleme:** 2025-12-11  
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

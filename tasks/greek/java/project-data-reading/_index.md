@@ -84,13 +84,6 @@ weight: 28
 ### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
 Αποκτήστε τη δύναμη του Aspose.Tasks for Java. Μάθετε να εξάγετε δεδομένα πινάκων από αρχεία σε αυτό το ολοκληρωμένο μάθημα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Μπορώ να διαβάσω δεδομένα Microsoft Project Online χωρίς διεπαφή χρήστη;**  
@@ -108,6 +101,15 @@ A: Μπορείτε να διαβάσετε από Microsoft Access (*.mdb, *.
 **Q: Χρειάζομαι ξεχωριστή άδεια για κάθε περιβάλλον ανάπτυξης;**  
 A: Μία εμπορική άδεια καλύπτει όλα τα περιβάλλοντα (ανάπτυξη, δοκιμή, παραγωγή) εφόσον τηρούνται οι όροι.
 
+---
+
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
