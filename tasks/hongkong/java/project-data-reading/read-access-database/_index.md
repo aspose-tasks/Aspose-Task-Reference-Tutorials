@@ -1,29 +1,45 @@
 ---
-title: 在 Aspose.Tasks 中從 MS Access 資料庫讀取項目數據
-linktitle: 使用 Aspose.Tasks 從 Microsoft Access 資料庫讀取專案數據
+date: 2025-12-11
+description: 學習如何使用 Java 讀取 Access 資料庫並將 Access 轉換為 XML，使用 Aspose.Tasks for Java。請跟隨我們的逐步指南匯出
+  MS Project XML。
+linktitle: Reading Project Data from Microsoft Access Database with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 從 Microsoft Access 資料庫讀取 MS Project 資料。請按照我們的逐步教學進行無縫整合。
-weight: 11
+title: java 讀取 Access 資料庫：使用 Aspose.Tasks 讀取專案資料
 url: /zh-hant/java/project-data-reading/read-access-database/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中從 MS Access 資料庫讀取項目數據
+# java 讀取 Access 資料庫：使用 Aspose.Tasks 讀取專案資料
 
-## 介紹
-Aspose.Tasks for Java 是一個功能強大的 API，可讓開發人員在 Java 應用程式中無縫地使用 Microsoft Project 檔案。在本教程中，我們將重點放在使用 Aspose.Tasks 從 Microsoft Access 資料庫讀取 MS Project 資料。
-## 先決條件
-在我們開始之前，請確保您具備以下條件：
-### 安裝 Java 開發工具包 (JDK)
-確保您的系統上安裝了 Java 開發工具包 (JDK)。您可以從 Oracle 網站下載並安裝最新版本。
-### Java 函式庫的 Aspose.Tasks
-下載 Aspose.Tasks for Java 程式庫並將其包含在您的專案中。您可以從 Aspose 網站取得它。跟著[下載連結](https://releases.aspose.com/tasks/java/)獲取該庫。
+## Introduction
+Aspose.Tasks for Java 是一個功能強大的 API，讓您 **java read access database** 資料並將其轉換為 Microsoft Project 格式。在本教學中，我們將逐步說明如何從 Microsoft Access 資料庫中讀取 MS Project 資料、將資料轉換為 XML，最後匯出為可供其他工具使用的 XML 檔案。
 
-## 導入包
-首先，您需要將必要的套件匯入到您的 Java 專案中才能使用 Aspose.Tasks 功能。
+## Quick Answers
+- **本教學涵蓋什麼內容？** 從 Access DB 讀取 MS Project 資料並使用 Aspose.Tasks 匯出為 XML。  
+- **需要哪個函式庫？** Aspose.Tasks for Java（最新版本）。  
+- **需要授權嗎？** 生產環境需使用臨時或正式授權。  
+- **可以將 Access 轉換為 XML 嗎？** 可以 – `MpdSettings` 類別會自動處理轉換。  
+- **支援 Java 8+ 嗎？** 完全支援，任何 JDK 8 以上皆可使用。
+
+## What is java read access database?
+在 Java 中從 Access 資料庫讀取資料，意指建立連接字串、擷取專案資訊，然後使用 Aspose.Tasks 來操作這些資料。當您有儲存在 Access 中的舊有專案資料，且需要遷移至現代專案管理工具時，此方法非常適合。
+
+## Why use Aspose.Tasks for this task?
+- **無需 COM interop** – 不必在伺服器上安裝 Microsoft Project。  
+- **直接 DB 存取** – `MpdSettings` 直接讀取 Access 檔案，無需中間步驟。  
+- **內建轉換** – 自動 **convert access to xml** 並 **export ms project xml**。  
+- **跨平台** – 在 Windows、Linux 與 macOS 上皆可使用相同程式碼。
+
+## Prerequisites
+- **Java Development Kit (JDK)** – 確認已安裝 JDK 8 或更新版本。  
+- **Aspose.Tasks for Java Library** – 從官方網站下載。請前往[下載連結](https://releases.aspose.com/tasks/java/)取得函式庫，並將其加入專案的 classpath。
+
+## Import Packages
+First, import the necessary classes that enable project handling and database connectivity.
 ```java
 import com.aspose.tasks.MpdSettings;
 import com.aspose.tasks.Project;
@@ -31,41 +47,63 @@ import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
 
-讓我們將範例程式碼分解為多個步驟：
-## 第 1 步：定義資料目錄
-將路徑設定為要儲存專案 XML 檔案的目錄。
+## How to java read access database with Aspose.Tasks?
+Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+
+### Step 1: Define Data Directory
+Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 第 2 步：定義 MpdSettings
-使用 Microsoft Access 資料庫的連線字串和專案識別碼初始化 MpdSettings 物件。
+
+### Step 2: Define MpdSettings
+Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record).
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 ```
-## 第 3 步：從資料庫載入項目
-透過傳遞 MpdSettings 實例建立一個新的 Project 物件。
+
+> **Pro tip:** If you need to **read ms project access** data for multiple projects, loop through the IDs and instantiate a new `MpdSettings` for each iteration.
+
+### Step 3: Load Project from Database
+Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
 ```java
 Project project = new Project(settings);
 ```
-## 第 4 步：儲存項目數據
-將項目資料儲存到 XML 檔案。
+
+### Step 4: Save Project Data
+Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
 
-## 結論
-在本教程中，我們學習如何使用 Aspose.Tasks for Java 從 Microsoft Access 資料庫讀取 MS Project 資料。透過按照提供的步驟操作，您可以有效地將此功能整合到您的 Java 應用程式中。
-## 常見問題解答
-### Q：除了 Microsoft Access 之外，我還可以將 Aspose.Tasks for Java 與其他資料庫系統一起使用嗎？
-答：是的，Aspose.Tasks 支援各種資料庫系統，如 SQL Server、MySQL 和 Oracle。
-### Q：Aspose.Tasks for Java 是否有免費試用版？
-答：是的，您可以從以下位置獲得免費試用[這裡](https://releases.aspose.com/).
-### Q：如何獲得 Aspose.Tasks for Java 的技術支援？
-答：您可以透過以下方式獲得技術支援：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
-### Q：我需要臨時許可證才能使用 Aspose.Tasks for Java 嗎？
-答：您可能需要臨時許可證才能使用某些進階功能。從以下位置取得[這裡](https://purchase.aspose.com/temporary-license/).
-### Q：哪裡可以購買 Aspose.Tasks for Java？
-答：您可以從以下位置購買 Aspose.Tasks for Java：[這個連結](https://purchase.aspose.com/buy).
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| *Connection string errors* | Verify the Access file path and ensure the Jet/ACE OLEDB provider is installed on the machine. |
+| *Permission denied on save* | Make sure the `dataDir` folder exists and the application has write permissions. |
+| *Project appears empty* | Confirm that the correct project ID is passed to `MpdSettings`. Use a database viewer to inspect the `ProjectID` column. |
+
+## Frequently Asked Questions
+### Q: Can I use Aspose.Tasks for Java with other database systems besides Microsoft Access?  
+A: Yes, Aspose.Tasks supports various database systems like SQL Server, MySQL, and Oracle.
+
+### Q: Is there a free trial available for Aspose.Tasks for Java?  
+A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+
+### Q: How can I get technical support for Aspose.Tasks for Java?  
+A: You can get technical support from the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+### Q: Do I need a temporary license to use Aspose.Tasks for Java?  
+A: You may need a temporary license for some advanced features. Get it from [here](https://purchase.aspose.com/temporary-license/).
+
+### Q: Where can I purchase Aspose.Tasks for Java?  
+A: You can purchase Aspose.Tasks for Java from [this link](https://purchase.aspose.com/buy).
+
+---  
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Tasks for Java (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

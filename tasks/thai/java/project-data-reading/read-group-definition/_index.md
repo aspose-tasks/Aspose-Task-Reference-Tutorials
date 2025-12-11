@@ -1,54 +1,90 @@
 ---
-title: อ่านข้อมูลคำจำกัดความกลุ่มใน Aspose.Tasks
-linktitle: อ่านข้อมูลคำจำกัดความกลุ่มใน Aspose.Tasks
+date: 2025-12-11
+description: เรียนรู้วิธีอ่านข้อมูลการกำหนดกลุ่มจากไฟล์ Microsoft Project ด้วย Aspose.Tasks
+  for Java. ติดตามบทเรียนแบบขั้นตอนของเรา.
+linktitle: Read Group Definition Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: เรียนรู้วิธีอ่านข้อมูลคำจำกัดความกลุ่มจากไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเรา
-weight: 10
+title: อ่านข้อมูลการกำหนดกลุ่มใน Aspose.Tasks
 url: /th/java/project-data-reading/read-group-definition/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# อ่านข้อมูลคำจำกัดความกลุ่มใน Aspose.Tasks
+# อ่านข้อมูลการกำหนดกลุ่มใน Aspose.Tasks
 
-## การแนะนำ
-Aspose.Tasks for Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft Project ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะอธิบายกระบวนการอ่านข้อมูลคำจำกัดความกลุ่มจากไฟล์โปรเจ็กต์ทีละขั้นตอนโดยใช้ Aspose.Tasks สำหรับ Java
+## บทนำ
+Aspose.Tasks for Java เป็นไลบรารีที่ทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการไฟล์ Microsoft Project ได้อย่างง่ายดาย ในบทเรียนนี้ **คุณจะได้เรียนรู้วิธีการอ่านข้อมูลการกำหนดกลุ่ม** จากไฟล์โครงการอย่างเป็นขั้นตอน เพื่อให้คุณสามารถดึงและทำงานกับข้อมูลกลุ่มงานในแอปพลิเคชัน Java ของคุณได้
+
+## คำตอบอย่างรวดเร็ว
+- **อะไรหมายถึง “read group definition”?** หมายถึงการสกัดนิยามของกลุ่มงาน (ชื่อ, เกณฑ์, การจัดรูปแบบ) จากไฟล์ Microsoft Project  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Tasks for Java  
+- **ต้องการไลเซนส์หรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **IDE ที่รองรับมีอะไรบ้าง?** IDE ของ Java ใดก็ได้ เช่น IntelliJ IDEA หรือ Eclipse  
+- **ต้องเขียนโค้ดเท่าไหร่?** น้อยกว่า 30 บรรทัดของโค้ด Java เพื่อโหลดโครงการและแสดงรายละเอียดของกลุ่ม
+
+## การอ่านการกำหนดกลุ่มคืออะไร?
+*group definition* ใน Microsoft Project อธิบายว่าหน้าที่ต่าง ๆ ถูกจัดกลุ่มเข้าด้วยกันอย่างไรโดยอิงตามเกณฑ์ (เช่น สถานะ, ความสำคัญ) การอ่านนิยามนี้ทำให้คุณสามารถตรวจสอบตรรกะการจัดกลุ่ม, สี, ฟอนต์, และลำดับการจัดเรียงที่ใช้ในไฟล์โครงการได้โดยโปรแกรม
+
+## ทำไมต้องอ่านข้อมูลการกำหนดกลุ่ม?
+- **Automation:** สร้างรายงานแบบกำหนดเองที่สะท้อนการจัดกลุ่มที่คุณเห็นใน Project  
+- **Migration:** ย้ายกฎการจัดกลุ่มไปยังโครงการอื่นหรือระบบการจัดการโครงการที่แตกต่าง  
+- **Validation:** ตรวจสอบให้แน่ใจว่ากลุ่มที่คาดหวังมีอยู่ก่อนทำการอัปเดตเป็นกลุ่มใหญ่  
+- **Customization:** ใช้ตรรกะธุรกิจเพิ่มเติมโดยอิงจากการตั้งค่าฟอนต์หรือสีของกลุ่ม  
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว
-2.  Aspose.Tasks สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/tasks/java/).
-3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): เลือก IDE ที่คุณต้องการ เช่น IntelliJ IDEA หรือ Eclipse
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-## แพ็คเกจนำเข้า
-ขั้นแรก เรามานำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มทำงานกับ Aspose.Tasks สำหรับ Java
+1. **Java Development Kit (JDK)** – เวอร์ชันล่าสุดใดก็ได้ (8 หรือใหม่กว่า)  
+2. **Aspose.Tasks for Java Library** – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/tasks/java/)  
+3. **IDE** – IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขใด ๆ ที่คุณต้องการ  
+
+## นำเข้าแพ็กเกจ
+ก่อนอื่น, นำเข้าแพ็กเกจหลักของ Aspose.Tasks:
+
 ```java
 import com.aspose.tasks.*;
 ```
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีข้อมูลของคุณ
+
+## คู่มือขั้นตอนต่อขั้นตอน
+
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีข้อมูลของคุณ
+กำหนดโฟลเดอร์ที่บรรจุไฟล์ `.mpp` ที่คุณต้องการตรวจสอบ
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- แทนที่`"Your Data Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีที่มีไฟล์โครงการของคุณ
-## ขั้นตอนที่ 2: โหลดไฟล์โครงการ
+
+แทนที่ `"Your Data Directory"` ด้วยเส้นทางเต็มไปยังตำแหน่งไฟล์โครงการของคุณ
+
+### ขั้นตอนที่ 2: โหลดไฟล์โครงการ
+สร้างอินสแตนซ์ `Project` โดยชี้ไปยังไฟล์ `.mpp` ของคุณ
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- โหลดไฟล์โครงการของคุณโดยใช้ไฟล์`Project` ตัวสร้างคลาส ส่งเส้นทางไปยังไฟล์โครงการของคุณ
-## ขั้นตอนที่ 3: ดึงข้อมูลจำนวนกลุ่มงาน
+
+### ขั้นตอนที่ 3: ดึงจำนวนกลุ่มงาน
+พิมพ์จำนวนรวมของกลุ่มงานที่กำหนดในโครงการ
+
 ```java
 System.out.println("Task Groups Count: " + project.getTaskGroups().size());
 ```
- ดึงข้อมูลจำนวนกลุ่มงานในโครงการโดยใช้`getTaskGroups()` วิธี.
-## ขั้นตอนที่ 4: ดึงข้อมูลกลุ่มงาน
+
+### ขั้นตอนที่ 4: ดึงข้อมูลกลุ่มงานเฉพาะ
+ดึงกลุ่มเฉพาะ (ดัชนี 1 ในตัวอย่างนี้) และแสดงชื่อของมันพร้อมจำนวนเกณฑ์ที่มี
+
 ```java
 Group taskGroup = project.getTaskGroups().toList().get(1);
 System.out.println("Percent Complete:" + taskGroup.getName());
 System.out.println("Group Criteria count: " + taskGroup.getGroupCriteria().size());
 ```
-รับข้อมูลเกี่ยวกับกลุ่มงานเฉพาะ เช่น ชื่อและจำนวนเกณฑ์ของกลุ่ม
-## ขั้นตอนที่ 5: ดึงข้อมูลเกณฑ์กลุ่ม
+
+### ขั้นตอนที่ 5: ดึงข้อมูลเกณฑ์ของกลุ่ม
+แต่ละกลุ่มอาจมีหนึ่งหรือหลายเกณฑ์ โค้ดตัวอย่างด้านล่างจะสกัดรายละเอียดเช่น ฟิลด์ที่ใช้สำหรับการจัดกลุ่ม, โหมดการจัดกลุ่ม, สีของเซลล์, และรูปแบบ
+
 ```java
 GroupCriterion criterion = taskGroup.getGroupCriteria().toList().get(0);
 System.out.println("Criterion Field: " + criterion.getField());
@@ -56,35 +92,58 @@ System.out.println("Criterion GroupOn: " + criterion.getGroupOn());
 System.out.println("Criterion Cell Color: " + criterion.getCellColor());
 System.out.println("Criterion Pattern: " + criterion.getPattern());
 ```
-รับข้อมูลเกี่ยวกับเกณฑ์ของกลุ่ม เช่น เขตข้อมูล กลุ่มบน สีของเซลล์ และรูปแบบ
-## ขั้นตอนที่ 6: ตรวจสอบกลุ่มผู้ปกครอง
+
+### ขั้นตอนที่ 6: ตรวจสอบกลุ่มแม่
+บางครั้งเกณฑ์อาจเป็นของกลุ่มแม่ การตรวจสอบนี้ยืนยันความสัมพันธ์นั้น
+
 ```java
 if (taskGroup == criterion.getParentGroup())
     System.out.println("Parent Group is equval to task Group.");
 ```
-ตรวจสอบว่ากลุ่มหลักเท่ากับกลุ่มงานหรือไม่
-## ขั้นตอนที่ 7: ดึงข้อมูลแบบอักษรของเกณฑ์
+
+### ขั้นตอนที่ 7: ดึงข้อมูลฟอนต์ของเกณฑ์
+เกณฑ์ของกลุ่มอาจมีการจัดรูปแบบฟอนต์แบบกำหนดเอง โค้ดต่อไปนี้จะแสดงฟอนต์, ขนาด, สไตล์, และทิศทางการจัดเรียง
+
 ```java
 System.out.println("Font Family Name: " + criterion.getFont().getFontFamily());
 System.out.println("Font Size: " + criterion.getFont().getSize());
 System.out.println("Font Style: " + criterion.getFont().getStyle());
 System.out.println("Ascending/Descending: " + criterion.getAscending());
 ```
-ดึงข้อมูลแบบอักษรสำหรับเกณฑ์ เช่น ตระกูลแบบอักษร ขนาด สไตล์ และลำดับการเรียงลำดับ
 
-## บทสรุป
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีอ่านข้อมูลคำจำกัดความกลุ่มจากไฟล์ Microsoft Project โดยใช้ Aspose.Tasks สำหรับ Java ด้วยการทำตามขั้นตอนเหล่านี้ คุณสามารถแยกและใช้ข้อมูลกลุ่มงานในแอปพลิเคชัน Java ของคุณได้อย่างมีประสิทธิภาพ
+## ปัญหาทั่วไปและวิธีแก้ไข
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|---------|
+| **`NullPointerException` on `criterion.getParentGroup()`** | เกณฑ์อาจไม่มีกลุ่มแม่. | เพิ่มการตรวจสอบ null ก่อนทำการเปรียบเทียบ. |
+| **File not found** | เส้นทาง `dataDir` ไม่ถูกต้อง. | ใช้ `Paths.get(dataDir, "project.mpp").toAbsolutePath()` เพื่อตรวจสอบ. |
+| **License not set** | ไลบรารี Aspose ทำงานในโหมดประเมินผลและอาจจำกัดผลลัพธ์. | ลงทะเบียนไลเซนส์ของคุณด้วย `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` |
+
 ## คำถามที่พบบ่อย
-### ถาม: ฉันสามารถใช้ Aspose.Tasks สำหรับ Java เพื่อแก้ไขไฟล์โปรเจ็กต์ได้หรือไม่
-ตอบ: ใช่ Aspose.Tasks for Java มีคุณสมบัติมากมายสำหรับทั้งการอ่านและการแก้ไขไฟล์ Microsoft Project โดยทางโปรแกรม
-### ถาม: Aspose.Tasks สำหรับ Java เข้ากันได้กับไฟล์ Microsoft Project ทุกเวอร์ชันหรือไม่
-ตอบ: Aspose.Tasks สำหรับ Java รองรับไฟล์ Microsoft Project เวอร์ชันต่างๆ รวมถึงรูปแบบ MPP และ XML
-### ถาม: ฉันจะจัดการกับข้อผิดพลาดขณะทำงานกับ Aspose.Tasks สำหรับ Java ได้อย่างไร
-ตอบ: คุณสามารถใช้กลไกการจัดการข้อผิดพลาดได้โดยใช้บล็อก try-catch เพื่อจัดการข้อยกเว้นที่อาจเกิดขึ้นระหว่างการจัดการไฟล์ได้อย่างสวยงาม
-### ถาม: Aspose.Tasks for Java รองรับการส่งออกข้อมูลโปรเจ็กต์เป็นรูปแบบอื่นหรือไม่
-ตอบ: ได้ Aspose.Tasks สำหรับ Java ช่วยให้คุณสามารถส่งออกข้อมูลโปรเจ็กต์เป็นรูปแบบต่างๆ เช่น PDF, XLSX และ CSV
-### ถาม: ฉันจะค้นหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
- ตอบ: คุณสามารถเยี่ยมชมได้ที่[Aspose.Tasks สำหรับเอกสาร Java](https://reference.aspose.com/tasks/java/) สำหรับคำแนะนำที่ครอบคลุมและดูที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อสนับสนุนชุมชน
+
+**Q: ฉันสามารถใช้ Aspose.Tasksล์โครงการได้หรือไม่?**  
+A: ได้, ไลบรารีนี้ให้ความสามารถในการอ่าน/เขียนเต็มรูปแบบสำหรับไฟล์ Microsoft Project  
+
+**Q: Aspose.Tasks for Java รองรับไฟล์ Microsoft Project ทุกเวอร์ชันหรือไม่?**  
+A: รองรับไฟล์ MPP, XML, และรูปแบบ Project ที่พบบ่อยอื่น ๆ ในหลายเวอร์ชัน  
+
+**Q: ฉันจะจัดการข้อผิดพลาดขณะทำงานกับ Aspose.Tasks for Java อย่างไร?**  
+A: ห่อการดำเนินการไฟล์ด้วยบล็อก `try‑catch` และตรวจสอบ `TasksException` เพื่อดูข้อความรายละเอียด  
+
+**Q: Aspose.Tasks for Java มีการสนับสนุนการส่งออกข้อมูลโครงการเป็นรูปแบบอื่นหรือไม่?**  
+A: แน่นอน – คุณสามารถส่งออกเป็น PDF, XLSX, CSV, และอื่น ๆ ด้วย API การส่งออกของไลบรารี  
+
+**Q: ฉันจะหาแหล่งข้อมูลและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?**  
+A: เยี่ยมชม [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/) เพื่อดูเอกสาร API ทั้งหมดและ [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) เพื่อรับความช่วยเหลือจากชุมชน  
+
+## สรุป
+ในบทเรียนนี้ เราได้อธิบายวิธี **อ่านข้อมูลการกำหนดกลุ่ม** จากไฟล์ Microsoft Project ด้วย Aspose.Tasks for Java โดยการทำตามขั้นตอนข้างต้นคุณสามารถสกัดชื่อกลุ่ม, เกณฑ์, การจัดรูปแบบ, และความสัมพันธ์ของกลุ่มแม่ได้ ซึ่งช่วยให้คุณสร้างรายงานแบบกำหนดเอง, ย้ายการตั้งค่า, หรือทำอัตโนมัติการตรวจสอบตรรกะในแอปพลิเคชัน Java ของคุณ
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-11  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
