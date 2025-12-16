@@ -5,7 +5,7 @@ description: MS Project Online डेटा को Aspose Tasks Java का उ�
   सूची कैसे बनाएं, और संसाधन गिनती कैसे प्राप्त करें।
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: बिना मेहनत के MS Project Online डेटा पढ़ना'
+title: 'Aspose.Tasks Java - बिना मेहनत के MS Project Online डेटा पढ़ना'
 url: /hi/java/project-data-reading/read-project-online/
 weight: 13
 ---

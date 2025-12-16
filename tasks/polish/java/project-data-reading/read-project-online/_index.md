@@ -5,7 +5,7 @@ description: Dowiedz się, jak odczytywać dane MS Project Online przy użyciu A
   SharePoint oraz uzyskać liczbę zasobów.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: Bezproblemowe odczytywanie danych z MS Project Online'
+title: 'Aspose.Tasks Java - Bezproblemowe odczytywanie danych z MS Project Online'
 url: /pl/java/project-data-reading/read-project-online/
 weight: 13
 ---

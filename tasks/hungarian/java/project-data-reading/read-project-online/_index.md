@@ -5,7 +5,7 @@ description: Tanulja meg, hogyan olvassa a MS Project Online adatokat az Aspose.
   a SharePoint projektek listáját, és a források számát.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: Könnyed MS Project Online adatolvasás'
+title: 'Aspose.Tasks Java - Könnyed MS Project Online adatolvasás'
 url: /hu/java/project-data-reading/read-project-online/
 weight: 13
 ---

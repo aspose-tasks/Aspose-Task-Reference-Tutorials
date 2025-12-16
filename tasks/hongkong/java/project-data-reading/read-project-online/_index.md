@@ -4,7 +4,7 @@ description: 學習如何使用 Aspose.Tasks Java 讀取 MS Project Online 資�
   項目，以及取得資源數量。
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: aspose tasks java：輕鬆讀取 MS Project Online 數據
+title: Aspose.Tasks Java - 輕鬆讀取 MS Project Online 數據
 url: /zh-hant/java/project-data-reading/read-project-online/
 weight: 13
 ---

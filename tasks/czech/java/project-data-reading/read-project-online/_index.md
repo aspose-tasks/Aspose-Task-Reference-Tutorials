@@ -5,7 +5,7 @@ description: Naučte se, jak číst data MS Project Online pomocí Aspose.Tasks 
   získat počet zdrojů.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: Snadné čtení dat z MS Project Online'
+title: 'Aspose.Tasks Java - Snadné čtení dat z MS Project Online'
 url: /cs/java/project-data-reading/read-project-online/
 weight: 13
 ---

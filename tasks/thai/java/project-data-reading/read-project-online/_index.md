@@ -4,7 +4,7 @@ description: เรียนรู้วิธีอ่านข้อมูล 
   รายการโครงการ SharePoint, และนับจำนวนทรัพยากร
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: การอ่านข้อมูล MS Project Online อย่างง่ายดาย'
+title: 'Aspose.Tasks Java - การอ่านข้อมูล MS Project Online อย่างง่ายดาย'
 url: /th/java/project-data-reading/read-project-online/
 weight: 13
 ---

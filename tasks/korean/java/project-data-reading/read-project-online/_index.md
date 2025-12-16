@@ -4,7 +4,7 @@ description: Aspose Tasks Java를 사용하여 MS Project Online 데이터를 �
   목록을 가져오고, SharePoint 프로젝트를 나열하며, 리소스 수를 확인하는 방법을 보여줍니다.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: 손쉬운 MS Project 온라인 데이터 읽기'
+title: 'Aspose.Tasks Java - 손쉬운 MS Project 온라인 데이터 읽기'
 url: /ko/java/project-data-reading/read-project-online/
 weight: 13
 ---

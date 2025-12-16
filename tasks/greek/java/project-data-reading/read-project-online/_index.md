@@ -5,7 +5,7 @@ description: Μάθετε πώς να διαβάζετε δεδομένα του
   εμφανίσετε τα έργα του SharePoint και να λάβετε τον αριθμό των πόρων.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: Απρόσκοπτη ανάγνωση δεδομένων MS Project Online'
+title: 'Aspose.Tasks Java - Απρόσκοπτη ανάγνωση δεδομένων MS Project Online'
 url: /el/java/project-data-reading/read-project-online/
 weight: 13
 ---

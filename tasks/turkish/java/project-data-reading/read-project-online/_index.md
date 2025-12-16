@@ -5,7 +5,7 @@ description: Aspose Tasks Java kullanarak MS Project Online verilerini nasıl ok
   listeleyeceğinizi ve kaynak sayısını nasıl elde edeceğinizi gösterir.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'aspose tasks java: MS Project Online Verilerini Zahmetsiz Okuma'
+title: Aspose.Tasks Java - MS Project Online Verilerini Zahmetsiz Okuma'
 url: /tr/java/project-data-reading/read-project-online/
 weight: 13
 ---

@@ -1,5 +1,5 @@
 ---
-title: "aspose tasks java: Effortless MS Project Online Data Reading"
+title: "Aspose.Tasks Java - Effortless MS Project Online Data Reading"
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: "Learn how to read MS Project Online data using aspose tasks java. This guide shows how to retrieve project list, list sharepoint projects, and get resource count."
