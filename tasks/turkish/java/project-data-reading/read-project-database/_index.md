@@ -126,15 +126,15 @@ C: Ek yardım için Aspose.Tasks forumunu ziyaret edebilir veya web sitesinde bu
 ## Sonuç
 Bu adım‑adım kılavuzu izleyerek, artık Aspose.Tasks for Java kullanarak **read microsoft project database**'i nasıl okuyacağınızı, verileri programlı olarak nasıl manipüle edeceğinizi ve ihtiyacınız olan formata nasıl dışa aktaracağınızı biliyorsunuz. Bu yaklaşım Microsoft Project bağımlılığını ortadan kaldırır, otomatik raporlamayı kolaylaştırır ve güçlü özel entegrasyonların kapısını açar.
 
+---
+
+**Son Güncelleme:** 2025-12-13  
+**Test Edilen:** Aspose.Tasks for Java 24.5 (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-13  
-**Test Edilen:** Aspose.Tasks for Java 24.5 (yazım zamanındaki en son sürüm)  
-**Yazar:** Aspose

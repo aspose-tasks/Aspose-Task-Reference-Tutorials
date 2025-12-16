@@ -126,17 +126,15 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## الخاتمة
 باتباعك هذا الدليل خطوة بخطوة، أصبحت الآن تعرف كيفية **قراءة قاعدة بيانات Microsoft Project** باستخدام Aspose.Tasks for Java، تعديل البيانات برمجيًا، وتصديرها إلى الصيغة التي تحتاجها. يزيل هذا النهج الاعتماد على Microsoft Project، يبسط إعداد التقارير الآلية، ويفتح الباب أمام تكاملات مخصصة قوية.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-13  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.5 (أحدث نسخة وقت كتابة هذا الدليل)  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

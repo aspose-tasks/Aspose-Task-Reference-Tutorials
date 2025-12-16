@@ -126,15 +126,15 @@ A: Für zusätzliche Hilfe besuchen Sie das Aspose.Tasks‑Forum oder erkunden S
 ## Fazit
 Durch Befolgen dieser Schritt‑für‑Schritt‑Anleitung wissen Sie jetzt, wie Sie **Microsoft Projectatenbank** mit Aspose.Tasks für Java lesen, die Daten programmgesteuert manipulieren und in das gewünschte Format exportieren können. Dieser Ansatz eliminiert die Abhängigkeit von Microsoft Project, vereinfacht automatisierte Berichte und eröffnet leistungsstarke, benutzerdefinierte Integrationsmöglichkeiten.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-13  
+**Getestet mit:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-13  
-**Getestet mit:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
-**Autor:** Aspose

@@ -125,15 +125,15 @@ A: 추가 도움이 필요하면 Aspose.Tasks 포럼을 방문하거나 웹사�
 ## 결론
 이 단계별 가이드를 따라 하면 Aspose.Tasks for Java를 사용하여 **Microsoft Project 데이터베이스를 읽는** 방법을 알게 되고, 데이터를 프로그래밍 방식으로 조작하며, 필요한 형식으로 내보낼 수 있습니다. 이 접근 방식은 Microsoft Project에 대한 의존성을 없애고, 자동 보고를 간소화하며, 강력한 맞춤형 통합의 문을 엽니다.
 
+---
+
+**마지막 업데이트:** 2025-12-13  
+**테스트 환경:** Aspose.Tasks for Java 24.5 (작성 시 최신 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-13  
-**테스트 환경:** Aspose.Tasks for Java 24.5 (작성 시 최신 버전)  
-**작성자:** Aspose

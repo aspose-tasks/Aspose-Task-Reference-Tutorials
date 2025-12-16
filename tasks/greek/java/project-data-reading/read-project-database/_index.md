@@ -127,17 +127,15 @@ A: Για επιπλέον βοήθεια, επισκεφθείτε το φόρ�
 ## Συμπέρασμα
 Ακολουθώντας αυτόν τον βήμα‑βήμα οδηγό, τώρα γνωρίζετε πώς να **read microsoft project database** χρησιμοποιώντας το Aspose.Tasks για Java, να επεξεργάζεστε τα δεδομένα προγραμματιστικά και να τα εξάγετε στη μορφή που χρειάζεστε. Αυτή η προσέγγιση αφαιρεί την εξάρτηση από το Microsoft Project, βελτιστοποιεί την αυτοματοποιημένη αναφορά και ανοίγει το δρόμο για ισχυρές προσαρμοσμένες ενσωματώσεις.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-13  
 **Δοκιμασμένο Με:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

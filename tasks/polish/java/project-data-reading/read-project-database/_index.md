@@ -127,17 +127,15 @@ O: Po dodatkową pomoc odwiedź forum Aspose.Tasks lub zapoznaj się z dokumenta
 ## Podsumowanie
 Korzystając z tego przewodnika krok po kroku, teraz wiesz, jak **odczytać bazę danych Microsoft Project** przy użyciu Aspose.Tasks dla Javy, programowo manipulować danymi i eksportować je do potrzebnego formatu. To podejście eliminuje zależność od Microsoft Project, usprawnia automatyczne raportowanie i otwiera drzwi do potężnych, niestandardowych integracji.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-13  
 **Testowano z:** Aspose.Tasks dla Javy 24.5 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

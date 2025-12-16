@@ -125,15 +125,15 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## 结论
 通过本分步指南，您现在了解如何使用 Aspose.Tasks for Java **读取 Microsoft Project 数据库**，以编程方式操作数据，并导出为所需的格式。此方法消除了对 Microsoft Project 的依赖，简化了自动化报告，并为强大的自定义集成打开了大门。
 
+---
+
+**最后更新：** 2025-12-13  
+**测试环境：** Aspose.Tasks for Java 24.5（撰写时的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-13  
-**测试环境：** Aspose.Tasks for Java 24.5（撰写时的最新版本）  
-**作者：** Aspose

@@ -126,17 +126,15 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## Заключение
 Следуя этому пошаговому руководству, вы теперь знаете, как **читать базу данных Microsoft Project** с помощью Aspose.Tasks для Java, программно манипулировать данными и экспортировать их в нужный формат. Такой подход устраняет зависимость от Microsoft Project, упрощает автоматизированную отчётность и открывает возможности для мощных пользовательских интеграций.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-13  
 **Тестировано с:** Aspose.Tasks for Java 24.5 (на момент написания)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

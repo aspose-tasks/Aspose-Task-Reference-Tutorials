@@ -125,17 +125,15 @@ A: 可前往 Aspose.Tasks 論壇或參考官方網站上的文件，連結如下
 ## 結論
 透過本步驟指南，您已掌握如何使用 Aspose.Tasks for Java **讀取 Microsoft Project 資料庫**、程式化操作資料，並匯出為所需格式。此方法免除對 Microsoft Project 的依賴，簡化自動化報表流程，並為強大的自訂整合開啟可能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-13  
 **測試環境：** Aspose.Tasks for Java 24.5（撰寫時的最新版本）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

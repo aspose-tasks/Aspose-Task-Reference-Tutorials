@@ -126,15 +126,15 @@ R: Per ulteriore aiuto, visita il forum di Aspose.Tasks o esplora la documentazi
 ## Conclusione
 Seguendo questa guida passo‑passo, ora sai come **leggere il database di Microsoft Project** usando Aspose.Tasks per Java, manipolare i dati programmaticamente e esportarli nel formato di cui hai bisogno. Questo approccio elimina la dipendenza da Microsoft Project, semplifica la reportistica automatizzata e apre la porta a potenti integrazioni personalizzate.
 
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-13  
-**Tested With:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
-**Author:** Aspose

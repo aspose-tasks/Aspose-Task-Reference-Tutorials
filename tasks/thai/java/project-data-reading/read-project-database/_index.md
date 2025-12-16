@@ -126,17 +126,15 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## สรุป
 โดยทำตามคู่มือขั้นตอน‑โดยขั้นตอนนี้ คุณจะรู้วิธี **อ่านฐานข้อมูล Microsoft Project** ด้วย Aspose.Tasks สำหรับ Java, จัดการข้อมูลโดยโปรแกรม, และส่งออกเป็นรูปแบบที่ต้องการ วิธีนี้ช่วยขจัดการพึ่งพา Microsoft Project, ทำให้การรายงานอัตโนมัติง่ายขึ้น, และเปิดประตูสู่การบูรณาการแบบกำหนดเองที่ทรงพลัง
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-13  
 **ทดสอบกับ:** Aspose.Tasks for Java 24.5 (ล่าสุด ณ เวลาที่เขียน)  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

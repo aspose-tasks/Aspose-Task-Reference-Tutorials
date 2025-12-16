@@ -126,15 +126,15 @@ A: Để được hỗ trợ thêm, hãy truy cập diễn đàn Aspose.Tasks ho
 ## Kết luận
 Bằng cách làm theo hướng dẫn chi tiết này, bạn đã biết cách **đọc cơ sở dữ liệu Microsoft Project** bằng Aspose.Tasks cho Java, thao tác dữ liệu một cách lập trình và xuất ra định dạng bạn cần. Cách tiếp cận này loại bỏ phụ thuộc vào Microsoft Project, tối ưu hoá quy trình báo cáo tự động và mở ra cơ hội tích hợp tùy chỉnh mạnh mẽ.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-13  
+**Kiểm tra với:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-13  
-**Kiểm tra với:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
-**Tác giả:** Aspose

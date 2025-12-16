@@ -125,17 +125,15 @@ A: 詳細なサポートは Aspose.Tasks フォーラムをご覧いただくか
 ## 結論
 本ステップバイステップ ガイドに従うことで、Aspose.Tasks for Java を使用して **Microsoft Project データベースを読み取り**、プログラムでデータを操作し、必要な形式でエクスポートする方法が習得できました。この手法により Microsoft Project への依存が排除され、自動レポート作成が効率化され、強力なカスタム統合への道が開かれます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-13  
 **テスト環境:** Aspose.Tasks for Java 24.5（執筆時点での最新バージョン）  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
