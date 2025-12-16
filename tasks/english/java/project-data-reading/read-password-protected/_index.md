@@ -1,5 +1,5 @@
 ---
-title: Aspose Tasks Tutorial Java: Read Password-Protected Files
+title: Aspose Tasks Tutorial Java - Read Password-Protected Files
 linktitle: Read Password-Protected Files in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to read password‑protected files in Aspose.Tasks for Java with this step‑by‑step Aspose Tasks tutorial Java guide.
@@ -90,15 +90,13 @@ A: You may require a temporary license for certain functionalities or during the
 
 ---
 
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose
