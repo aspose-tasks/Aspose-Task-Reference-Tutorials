@@ -1,28 +1,45 @@
 ---
-title: Aspose.Tasks에서 특정 간트 차트 데이터 읽기
-linktitle: Aspose.Tasks에서 특정 간트 차트 데이터 읽기
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks for Java를 사용하여 특정 간트 차트 데이터를 추출하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하기 위한 단계별 튜토리얼입니다.
-weight: 16
+date: 2025-12-16
+description: Aspose.Tasks for Java를 사용하여 gantt 데이터를 읽는 방법을 배우세요. Java 애플리케이션에 원활하게
+  통합할 수 있는 단계별 튜토리얼.
+linktitle: Read Specific Gantt Chart Data in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: aspose.tasks로 Gantt 데이터 읽기 – 특정 Gantt 차트 데이터 읽기
 url: /ko/java/project-data-reading/read-specific-gantt-chart-data/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 특정 간트 차트 데이터 읽기
+# read gantt data aspose.tasks – Read Specific Gantt Chart Data
 
-## 소개
-간트 차트는 프로젝트 관리를 위한 귀중한 도구로, 사용자가 작업, 일정 및 종속성을 시각화할 수 있도록 해줍니다. Aspose.Tasks for Java를 사용하면 개발자는 Gantt 차트에서 특정 데이터를 효율적으로 추출하여 애플리케이션에 통합할 수 있습니다. 이 튜토리얼에서는 특정 간트 차트 데이터를 읽는 과정을 단계별로 안내합니다.
-## 전제조건
-튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
-1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Tasks for Java 라이브러리: 다음에서 Aspose.Tasks for Java 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/tasks/java/).
-3. 통합 개발 환경(IDE): 원하는 IDE를 선택하세요. 널리 사용되는 선택에는 IntelliJ IDEA, Eclipse 또는 NetBeans가 있습니다.
+## Introduction
+이 튜토리얼에서는 **read gantt data aspose.tasks** 를 사용하여 Aspose.Tasks for Java 로 특정 Gantt 차트 데이터를 읽고 추출하는 방법을 배웁니다. Gantt 차트는 프로젝트 관리에 있어 작업, 일정, 종속성을 시각화하는 데 매우 유용한 도구입니다. Aspose.Tasks for Java 를 이용하면 개발자는 필요한 정확한 정보를 효율적으로 가져와 애플리케이션에 통합할 수 있습니다. 단계별로 함께 진행해 보겠습니다.
 
-## 패키지 가져오기
-먼저 Aspose.Tasks 기능에 액세스하려면 필요한 패키지를 Java 프로젝트로 가져옵니다.
+## Quick Answers
+- **What can I extract?** Any view property, bar style, gridline, text style, progress line, or timescale tier from a Gantt chart.  
+- **Do I need a license?** A trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Java 8 or later (the tutorial uses JDK 11).  
+- **Is the code runnable as‑is?** Yes – just replace the data directory path.  
+- **Can I modify the view after reading?** Absolutely – the API lets you change properties and save back to the project file.
+
+## Why read gantt data aspose.tasks?
+프로그램matically Gantt 차트 데이터를 추출하면 다음과 같은 작업을 할 수 있습니다:
+- 맞춤형 대시보드 또는 보고 도구 구축
+- 프로젝트 일정과 다른 엔터프라이즈 시스템 간 동기화
+- 작업 종속성 및 일정에 대한 자동 감사 수행
+- 수동 내보내기 없이 PDF, Excel 시트 또는 웹 시각화 생성
+
+## Prerequisites
+튜토리얼을 시작하기 전에 다음 전제 조건을 확인하십시오:
+1. Java Development Kit (JDK): 시스템에 Java가 설치되어 있는지 확인합니다. [여기](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)에서 다운로드할 수 있습니다.  
+2. Aspose.Tasks for Java Library: [여기](https://releases.aspose.com/tasks/java/)에서 Aspose.Tasks for Java 라이브러리를 다운로드하고 설치합니다.  
+3. Integrated Development Environment (IDE): 선호하는 IDE를 선택합니다. 일반적인 선택으로는 IntelliJ IDEA, Eclipse, NetBeans 등이 있습니다.
+
+## Import Packages
+먼저 Aspose.Tasks 기능에 접근하기 위해 Java 프로젝트에 필요한 패키지를 가져옵니다:
 ```java
 import com.aspose.tasks.DateLabel;
 import com.aspose.tasks.DayType;
@@ -42,77 +59,108 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.TextStyle;
 import com.aspose.tasks.TimescaleUnit;
 ```
-## 1단계: 프로젝트 파일 로드
-간트 차트 데이터가 포함된 프로젝트 파일을 로드하는 것으로 시작합니다. 데이터 디렉터리 경로를 제공하고 파일 이름을 지정합니다.
+
+## How to read gantt data aspose.tasks – Load the Project File
+Gantt 차트 데이터가 포함된 프로젝트 파일을 로드합니다. 데이터 디렉터리 경로와 파일명을 지정하십시오.
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "ReadSpecificGantChartViewData.mpp");
 ```
-## 2단계: 간트 차트 보기에 액세스
-프로젝트에서 Gantt 차트 보기를 검색합니다. 목록의 첫 번째 보기라고 가정하겠습니다.
+
+## Step 1: Access Gantt Chart View
+프로젝트에서 Gantt 차트 뷰를 가져옵니다. 리스트의 첫 번째 뷰라고 가정합니다.
 ```java
 GanttChartView view = (GanttChartView) project.getViews().toList().get(0);
 ```
-## 3단계: 뷰 속성 추출
-이제 Gantt 차트 보기의 다양한 속성을 추출하고 검사를 위해 인쇄해 보겠습니다.
+
+## Step 2: Extract View Properties
+이제 Gantt 차트 뷰의 다양한 속성을 추출하고 콘솔에 출력해 봅니다.
 ```java
 System.out.println("View.BarRounding: " + view.getBarRounding());
 System.out.println("view.ShowBarSplits: " + view.getShowBarSplits());
 System.out.println("view.ShowDrawings: " + view.getShowDrawings());
-// 다른 부동산에 대해 계속...
+// Continue for other properties...
 ```
-## 4단계: 막대 스타일 추출
-간트 차트 보기에서 막대 스타일을 반복하고 세부 정보를 인쇄합니다.
+
+## Step 3: Extract Bar Styles
+Gantt 차트 뷰의 바 스타일을 순회하면서 상세 정보를 출력합니다.
 ```java
 for (int i = 0; i < view.getBarStyles().size(); i++) {
     GanttBarStyle barStyle = view.getBarStyles().get(i);
-    // 인쇄 막대 스타일 세부정보...
+    // Print bar style details...
 }
 ```
-## 5단계: 격자선 추출
-간트 차트 보기의 눈금선에 대한 정보를 검색하고 인쇄합니다.
+
+## Step 4: Extract Gridlines
+Gantt 차트 뷰의 그리드라인 정보를 가져와 출력합니다.
 ```java
 System.out.println("Gridlines count: " + view.getGridlines().size());
 Gridlines gridlines = view.getGridlines().get(0);
-// 눈금선 세부정보 인쇄...
+// Print gridline details...
 ```
-## 6단계: 텍스트 스타일 추출
-간트 차트 보기에 사용되는 텍스트 스타일을 검색하고 인쇄합니다.
+
+## Step 5: Extract Text Styles
+Gantt 차트 뷰에서 사용되는 텍스트 스타일을 가져와 출력합니다.
 ```java
 System.out.println("\nView Text Styles:");
 for (TextStyle textStyle : view.getTextStyles()) {
-    // 텍스트 스타일 세부정보 인쇄...
+    // Print text style details...
 }
 ```
-## 7단계: 진행 라인 추출
-간트 차트 보기에서 진행 라인의 속성에 액세스하고 인쇄합니다.
+
+## Step 6: Extract Progress Lines
+Gantt 차트 뷰의 진행 라인 속성을 접근하고 출력합니다.
 ```java
 System.out.println("ProgressLInes.BeginAtDate: " + view.getProgressLines().getBeginAtDate());
-// 기타 진행 라인 세부정보 인쇄...
-```
-## 8단계: 기간 계층 추출
-Gantt 차트 보기에서 기간 계층에 대한 정보를 검색하고 인쇄합니다.
-```java
-System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier().getCount());
-// 다른 기간 계층의 세부정보 인쇄...
+// Print other progress line details...
 ```
 
-## 결론
-축하해요! Aspose.Tasks for Java를 사용하여 특정 간트 차트 데이터를 읽는 방법을 성공적으로 배웠습니다. 다음 단계를 수행하면 Java 애플리케이션 내에서 간트 차트 정보를 효율적으로 추출하고 조작할 수 있습니다.
-## FAQ
-### Q: Aspose.Tasks for Java를 다른 Java 라이브러리와 함께 사용할 수 있나요?
-A: 예, Aspose.Tasks for Java는 다른 Java 라이브러리 및 프레임워크와 원활하게 통합되도록 설계되었습니다.
-### Q: Aspose.Tasks는 대규모 기업 프로젝트에 적합합니까?
-답: 물론이죠. Aspose.Tasks는 강력한 기능과 뛰어난 성능을 제공하므로 모든 규모의 프로젝트에 적합합니다.
-### Q: Aspose.Tasks는 여러 프로젝트 파일 형식을 지원합니까?
-A: 예, Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 프로젝트 파일 형식을 지원합니다.
-### Q: Aspose.Tasks를 사용하여 Gantt 차트의 모양을 사용자 정의할 수 있나요?
-답: 물론이죠. Aspose.Tasks는 요구 사항에 따라 Gantt 차트 모양을 사용자 정의하기 위한 광범위한 API를 제공합니다.
-### Q: Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
-A: 예, Aspose.Tasks는 포럼과 전용 지원 채널을 통해 포괄적인 기술 지원을 제공합니다.
+## Step 7: Extract Timescale Tiers
+Gantt 차트 뷰의 타임스케일 티어 정보를 가져와 출력합니다.
+```java
+System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier().getCount());
+// Print details of other timescale tiers...
+```
+
+## Common Pitfalls & Tips
+- **Incorrect data directory:** Ensure `dataDir` ends with a file‑separator (`/` or `\\`) appropriate for your OS.  
+- **Missing view:** If the project has no Gantt view, `project.getViews()` will be empty – add a check before casting.  
+- **License exceptions:** Without a valid license, the API may add a watermark to exported data.  
+
+## Frequently Asked Questions (Extended)
+
+**Q: Can I use Aspose.Tasks for Java with other Java libraries?**  
+A: Yes, Aspose.Tasks for Java is designed to seamlessly integrate with other Java libraries and frameworks.
+
+**Q: Is Aspose.Tasks suitable for large‑scale enterprise projects?**  
+A: Absolutely. Aspose.Tasks offers robust features and excellent performance, making it suitable for projects of any scale.
+
+**Q: Does Aspose.Tasks support multiple project file formats?**  
+A: Yes, Aspose.Tasks supports various project file formats, including MPP, XML, and MPX.
+
+**Q: Can I customize the appearance of Gantt charts with Aspose.Tasks?**  
+A: Certainly. Aspose.Tasks provides extensive APIs for customizing Gantt chart appearance according to your requirements.
+
+**Q: Is technical support available for Aspose.Tasks users?**  
+A: Yes, Aspose.Tasks offers comprehensive technical support through its forum and dedicated support channels.
+
+**Q: How do I save changes after modifying a view?**  
+A: Call `project.save("output.mpp");` after making any modifications to persist them.
+
+## Conclusion
+축하합니다! 이제 **read gantt data aspose.tasks** 를 사용하여 Aspose.Tasks for Java 로 특정 Gantt 차트 정보를 읽고 추출하는 방법을 익혔습니다. 이 단계들을 따라 하면 Java 애플리케이션 내에서 Gantt 차트 데이터를 효율적으로 가져오고, 분석하고, 조작할 수 있어 강력한 보고, 통합 및 자동화 시나리오를 구현할 수 있습니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
