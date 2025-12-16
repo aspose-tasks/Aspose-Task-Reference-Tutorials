@@ -151,17 +151,15 @@ C: Herhangi bir değişiklik yaptıktan sonra `project.save("output.mpp");` ça�
 ## Conclusion
 Tebrikler! Aspose.Tasks for Java kullanarak **read gantt data aspose.tasks** nasıl okunur ve belirli Gantt şeması bilgileri nasıl çıkarılır öğrendiniz. Bu adımları izleyerek Java uygulamalarınız içinde Gantt şeması verilerini verimli bir şekilde çekebilir, analiz edebilir ve manipüle edebilir, böylece güçlü raporlama, entegrasyon ve otomasyon senaryolarının kapılarını açabilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

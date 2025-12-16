@@ -151,15 +151,15 @@ A: Chiama `project.save("output.mpp");` dopo aver apportato modifiche per persis
 ## Conclusione
 Congratulazioni! Hai appreso con successo come **read gantt data aspose.tasks** ed estrarre informazioni specifiche del diagramma di Gantt usando Aspose.Tasks per Java. Seguendo questi passaggi, puoi recuperare, analizzare e manipolare i dati del diagramma di Gantt all'interno delle tue applicazioni Java, aprendo la porta a potenti scenari di reporting, integrazione e automazione.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-16  
+**Testato con:** Aspose.Tasks per Java 24.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-16  
-**Testato con:** Aspose.Tasks per Java 24.12  
-**Autore:** Aspose

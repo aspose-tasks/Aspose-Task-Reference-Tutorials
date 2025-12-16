@@ -150,15 +150,15 @@ A: Вызовите `project.save("output.mpp");` после внесения и
 ## Заключение
 Поздравляем! Вы успешно узнали, как **read gantt data aspose.tasks** и извлекать конкретную информацию о диаграмме Ганта с помощью Aspose.Tasks for Java. Следуя этим шагам, вы сможете эффективно получать, анализировать и манипулировать данными диаграммы Ганта в своих Java‑приложениях, открывая возможности для мощных отчетов, интеграций и автоматизации.
 
+---
+
+**Последнее обновление:** 2025-12-16  
+**Тестировано с:** Aspose.Tasks for Java 24.12  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-16  
-**Тестировано с:** Aspose.Tasks for Java 24.12  
-**Автор:** Aspose

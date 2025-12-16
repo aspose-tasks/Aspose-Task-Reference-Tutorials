@@ -151,15 +151,15 @@ A: Καλείτε `project.save("output.mpp");` μετά από οποιεσδή
 ## Conclusion
 Συγχαρητήρια! Έχετε μάθει πώς να **read gantt data aspose.tasks** και να εξάγετε συγκεκριμένες πληροφορίες διαγράμματος Gantt χρησιμοποιώντας το Aspose.Tasks for Java. Ακολουθώντας αυτά τα βήματα, μπορείτε αποδοτικά να αντλήσετε, να αναλύσετε και να διαχειριστείτε δεδομένα Gantt μέσα στις εφαρμογές Java σας, ανοίγοντας το δρόμο για ισχυρές αναφορές, ενσωματώσεις και αυτοματισμούς.
 
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

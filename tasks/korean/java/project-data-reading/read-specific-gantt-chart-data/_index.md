@@ -150,17 +150,15 @@ A: Call `project.save("output.mpp");` after making any modifications to persist 
 ## Conclusion
 축하합니다! 이제 **read gantt data aspose.tasks** 를 사용하여 Aspose.Tasks for Java 로 특정 Gantt 차트 정보를 읽고 추출하는 방법을 익혔습니다. 이 단계들을 따라 하면 Java 애플리케이션 내에서 Gantt 차트 데이터를 효율적으로 가져오고, 분석하고, 조작할 수 있어 강력한 보고, 통합 및 자동화 시나리오를 구현할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -150,17 +150,15 @@ A: Zavolejte `project.save("output.mpp");` po provedení jakýchkoli úprav, aby
 ## Závěr
 Gratulujeme! Úspěšně jste se naučili, jak **číst gantt data aspose.tasks** a extrahovat konkrétní informace z Ganttova diagramu pomocí Aspose.Tasks pro Java. Dodržením těchto kroků můžete efektivně získávat, analyzovat a manipulovat s daty Ganttova diagramu ve svých Java aplikacích, čímž otevřete dveře k výkonnému reportování, integraci a automatizačním scénářům.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-16  
 **Testováno s:** Aspose.Tasks pro Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

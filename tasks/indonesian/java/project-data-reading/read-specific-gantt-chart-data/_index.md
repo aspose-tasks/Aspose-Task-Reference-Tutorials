@@ -151,17 +151,15 @@ A: Panggil `project.save("output.mpp");` setelah melakukan modifikasi apa pun un
 ## Conclusion
 Selamat! Anda telah berhasil mempelajari cara **baca data gantt aspose.tasks** dan mengekstrak informasi Gantt chart spesifik menggunakan Aspose.Tasks for Java. Dengan mengikuti langkah‑langkah ini, Anda dapat dengan efisien mengambil, menganalisis, dan memanipulasi data Gantt chart dalam aplikasi Java Anda, membuka pintu bagi skenario pelaporan, integrasi, dan otomasi yang kuat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

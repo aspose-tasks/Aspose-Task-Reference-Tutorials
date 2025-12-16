@@ -150,15 +150,15 @@ System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier()
 ## الخاتمة
 تهانينا! لقد تعلمت بنجاح كيفية **قراءة بيانات gantt aspose.tasks** واستخراج معلومات مخطط جانت المحددة باستخدام Aspose.Tasks for Java. باتباعك لهذه الخطوات، يمكنك سحب وتحليل وتعديل بيانات مخطط جانت بفعالية داخل تطبيقات Java الخاصة بك، مما يفتح الباب أمام تقارير قوية، وتكامل، وسيناريوهات أتمتة متقدمة.
 
+---
+
+**آخر تحديث:** 2025-12-16  
+**تم الاختبار مع:** Aspose.Tasks for Java 24.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-16  
-**تم الاختبار مع:** Aspose.Tasks for Java 24.12  
-**المؤلف:** Aspose

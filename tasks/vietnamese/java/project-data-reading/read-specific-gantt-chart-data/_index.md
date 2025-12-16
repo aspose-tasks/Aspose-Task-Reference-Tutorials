@@ -150,15 +150,15 @@ A: Gọi `project.save("output.mpp");` sau khi thực hiện bất kỳ thay đ�
 ## Kết luận
 Chúc mừng! Bạn đã học cách **đọc dữ liệu gantt aspose.tasks** và trích xuất thông tin biểu đồ Gantt cụ thể bằng Aspose.Tasks for Java. Thực hiện theo các bước này, bạn có thể nhanh chóng lấy, phân tích và thao tác dữ liệu biểu đồ Gantt trong các ứng dụng Java của mình, mở ra nhiều khả năng báo cáo, tích hợp và tự động hoá mạnh mẽ.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-16  
+**Đã kiểm tra với:** Aspose.Tasks for Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-16  
-**Đã kiểm tra với:** Aspose.Tasks for Java 24.12  
-**Tác giả:** Aspose

@@ -150,15 +150,15 @@ A: Hívja meg a `project.save("output.mpp");` metódust a módosítások elvégz
 ## Összegzés
 Gratulálunk! Sikeresen megtanulta, hogyan **read gantt data aspose.tasks** és hogyan nyerjen ki specifikus Gantt-diagram információkat az Aspose.Tasks for Java segítségével. A lépések követésével hatékonyan kinyerheti, elemezheti és manipulálhatja a Gantt-diagram adatokat Java alkalmazásaiban, megnyitva az utat a hatékony jelentéskészítés, integráció és automatizálás felé.
 
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

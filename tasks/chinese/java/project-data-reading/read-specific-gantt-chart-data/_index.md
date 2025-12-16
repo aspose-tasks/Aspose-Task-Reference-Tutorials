@@ -150,17 +150,15 @@ A: 在完成任何修改后，调用 `project.save("output.mpp");` 以持久化�
 ## Conclusion
 恭喜！您已成功学习如何 **read gantt data aspose.tasks** 并使用 Aspose.Tasks for Java 提取特定的甘特图信息。通过遵循上述步骤，您可以在 Java 应用程序中高效地获取、分析和操作甘特图数据，从而开启强大的报表、集成和自动化场景的大门。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

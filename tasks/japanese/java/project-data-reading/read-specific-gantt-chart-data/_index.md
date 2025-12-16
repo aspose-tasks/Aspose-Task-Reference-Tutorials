@@ -150,17 +150,15 @@ A: ビューを変更した後は `project.save("output.mpp");` を呼び出し�
 ## Conclusion
 おめでとうございます！**read gantt data aspose.tasks** の方法と、Aspose.Tasks for Java を使用して特定のガントチャート情報を抽出する手順を習得しました。この手順に従うことで、Java アプリケーション内でガントチャート データを効率的に取得・分析・操作でき、強力なレポート作成、統合、Automation シナリオへの道が開かれます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -150,15 +150,15 @@ O: Wywołaj `project.save("output.mpp");` po wprowadzeniu zmian, aby je utrwali�
 ## Zakończenie
 Gratulacje! Pomyślnie nauczyłeś się, jak **read gantt data aspose.tasks** i wyodrębnić konkretne informacje wykresu Gantta przy użyciu Aspose.Tasks for Java. Postępując zgodnie z tymi krokami, możesz efektywnie pobierać, analizować i manipulować danymi wykresu Gantta w swoich aplikacjach Java, otwierając drzwi do zaawansowanego raportowania, integracji i automatyzacji.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-16  
+**Testowano z:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-16  
-**Testowano z:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

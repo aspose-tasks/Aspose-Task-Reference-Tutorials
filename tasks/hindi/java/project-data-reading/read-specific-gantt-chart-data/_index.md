@@ -150,17 +150,15 @@ A: किसी भी संशोधन के बाद `project.save("output
 ## Conclusion
 बधाई हो! आपने सफलतापूर्वक **read gantt data aspose.tasks** सीख लिया और Aspose.Tasks for Java का उपयोग करके विशिष्ट Gantt चार्ट जानकारी निकाली। इन चरणों का पालन करके आप अपने Java एप्लिकेशन में Gantt चार्ट डेटा को कुशलतापूर्वक खींच, विश्लेषण और मैनीपुलेट कर सकते हैं, जिससे शक्तिशाली रिपोर्टिंग, इंटीग्रेशन और ऑटोमेशन परिदृश्य संभव होते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-16  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
