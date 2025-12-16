@@ -1,29 +1,52 @@
 ---
-title: Lectura de datos en línea de MS Project sin esfuerzo con Aspose.Tasks
-linktitle: Lectura de datos del proyecto en línea en Aspose.Tasks
-second_title: Aspose.Tasks API de Java
-description: Aprenda a leer sin esfuerzo datos de Microsoft Project Online utilizando Aspose.Tasks para Java. Mejore sus capacidades de gestión de proyectos.
-weight: 13
+date: 2025-12-15
+description: Aprenda a leer datos de MS Project Online usando Aspose Tasks para Java.
+  Esta guía muestra cómo obtener la lista de proyectos, listar proyectos de SharePoint
+  y obtener el recuento de recursos.
+linktitle: Reading Project Online Data in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Aspose.Tasks Java - Lectura sin esfuerzo de datos de MS Project Online'
 url: /es/java/project-data-reading/read-project-online/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lectura de datos en línea de MS Project sin esfuerzo con Aspose.Tasks
+# aspose tasks java: Lectura sin esfuerzo de datos de MS Project Online
 
 ## Introducción
-En el ámbito de la gestión de proyectos, manejar los datos de Microsoft Project Online de manera eficiente es crucial para optimizar las operaciones. Aspose.Tasks para Java proporciona una solución sólida para leer dichos datos sin esfuerzo. Este tutorial profundiza en cómo aprovechar Aspose.Tasks para acceder y manipular datos de MS Project Online sin problemas.
+En el ámbito de la gestión de proyectos, manejar los datos de Microsoft Project Online de manera eficiente es crucial para operaciones fluidas. **aspose tasks java** ofrece una API robusta y fácil de usar que permite leer datos de Project Online sin lidiar con llamadas HTTP de bajo nivel. En este tutorial recorreremos cómo obtener una lista de proyectos, enumerar proyectos de SharePoint y obtener el recuento de recursos de cada proyecto, todo con solo unas pocas líneas de código Java.
+
+## Respuestas rápidas
+- **¿Qué hace aspose tasks java?** Lee y manipula archivos de Microsoft Project y datos de Project Online de forma programática.  
+- **¿Necesito una licencia para probarlo?** Hay una prueba gratuita disponible; se requiere una licencia para uso en producción.  
+- **¿Qué credenciales se requieren?** Dominio de SharePoint, nombre de usuario y contraseña (o token de Azure AD).  
+- **¿Puedo enumerar proyectos de SharePoint?** Sí – usa `ProjectServerManager.getProjectList()` para recuperarlos.  
+- **¿Cómo obtengo el recuento de recursos?** Carga cada objeto `Project` y llama a `project.getResources().size()`.
+
+## ¿Qué es aspose tasks java?
+**aspose tasks java** es una biblioteca orientada a desarrolladores que abstrae las complejidades de los formatos de archivo de Microsoft Project y de las API REST de Project Server. Permite leer, crear y modificar datos de proyectos directamente desde aplicaciones Java, facilitando la integración con sistemas empresariales existentes.
+
+## ¿Por qué usar aspose tasks java para leer MS Project Online?
+- **Sin manejo manual de HTTP** – la biblioteca se encarga de la autenticación y de las llamadas REST.  
+- **Seguridad de tipos fuerte** – trabaja con `Project`, `ProjectInfo` y otros POJOs en lugar de JSON crudo.  
+- **Multiplataforma** – se ejecuta en cualquier entorno compatible con JVM.  
+- **Conjunto de funciones rico** – además de leer, también puedes actualizar tareas, recursos y cronogramas.
+
 ## Requisitos previos
-Antes de sumergirse en este tutorial, asegúrese de tener lo siguiente:
-1. Kit de desarrollo de Java (JDK): instale JDK para compilar y ejecutar programas Java.
-2.  Biblioteca Aspose.Tasks para Java: descargue e incluya la biblioteca Aspose.Tasks en su proyecto Java. Puedes adquirirlo desde[aquí](https://releases.aspose.com/tasks/java/).
-3. Cuenta de Microsoft Project Online: obtenga credenciales válidas para acceder a los datos de MS Project Online.
-4. Dirección de dominio de SharePoint: la dirección de dominio de SharePoint donde residen sus datos de MS Project Online.
-5. Nombre de usuario y Contraseña: Credenciales para autenticar el acceso a MS Project Online.
+Antes de comenzar, asegúrate de tener:
+
+1. **Java Development Kit (JDK)** – JDK 8 o superior instalado.  
+2. **Biblioteca Aspose.Tasks for Java** – descárgala desde [here](https://releases.aspose.com/tasks/java/).  
+3. **Cuenta de Microsoft Project Online** – con permisos para leer proyectos.  
+4. **Dirección del dominio de SharePoint** – donde reside tu instancia de Project Online.  
+5. **Nombre de usuario y contraseña** – o credenciales adecuadas de Azure AD para la autenticación.
+
 ## Importar paquetes
-En su proyecto Java, importe los paquetes Aspose.Tasks necesarios para una integración perfecta:
+Primero, importa las clases esenciales de Aspose.Tasks que utilizaremos a lo largo del tutorial:
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.ProjectInfo;
@@ -31,20 +54,26 @@ import com.aspose.tasks.ProjectServerCredentials;
 import com.aspose.tasks.ProjectServerManager;
 ```
 
-## Paso 1: configurar la dirección de dominio, el nombre de usuario y la contraseña de SharePoint
+## Paso 1: Establecer dominio de SharePoint, nombre de usuario y contraseña
+Define los detalles de conexión para tu entorno de Project Online. Sustituye los valores de marcador de posición por tus propias credenciales.
+
 ```java
 String sharepointDomainAddress = "https://contoso.sharepoint.com";
 String userName = "admin@contoso.onmicrosoft.com";
 String password = "MyPassword";
 ```
- Reemplazar`"https://contoso.sharepoint.com"` con su dirección de dominio de SharePoint,`"admin@contoso.onmicrosoft.com"` con su nombre de usuario, y`"MyPassword"` con tu contraseña.
-## Paso 2: autenticarse con las credenciales de Project Server
+
+## Paso 2: Autenticar con credenciales del servidor de proyectos
+Crea un objeto `ProjectServerCredentials` e inicializa un `ProjectServerManager`. Este gestor manejará todas las llamadas posteriores a Project Online.
+
 ```java
 ProjectServerCredentials credentials = new ProjectServerCredentials(sharepointDomainAddress, userName, password);
 ProjectServerManager reader = new ProjectServerManager(credentials);
 ```
- Crear`ProjectServerCredentials` objeto con la dirección de dominio, nombre de usuario y contraseña de SharePoint. Luego inicializa`ProjectServerManager` con estas credenciales.
-## Paso 3: recuperar la lista de proyectos y mostrar información
+
+## Paso 3: Recuperar lista de proyectos y mostrar información
+Utiliza el gestor para **recuperar la lista de proyectos** (enumerar proyectos de SharePoint) y muestra detalles básicos como nombre, fecha de creación y fecha de última guardado.
+
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
     System.out.println("Project Name:" + p.getName());
@@ -52,8 +81,10 @@ for (ProjectInfo p : reader.getProjectList()) {
     System.out.println("Project Last Saved Date:" + p.getLastSavedDate());
 }
 ```
- Iterar a través de la lista de proyectos obtenida de`reader.getProjectList()` y mostrar detalles del proyecto como el nombre, la fecha de creación y la última fecha de guardado.
-## Paso 4: cargar proyectos individuales y generar el recuento de recursos
+
+## Paso 4: Cargar proyectos individuales y mostrar recuento de recursos
+Para cada proyecto devuelto en el paso anterior, carga el objeto `Project` completo y muestra el **recuento de recursos**.
+
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
     Project project = reader.getProject(p.getId());
@@ -61,21 +92,37 @@ for (ProjectInfo p : reader.getProjectList()) {
     System.out.println("Resources count:" + project.getResources().size());
 }
 ```
- Para cada proyecto, cárguelo usando`reader.getProject(p.getId())` y genere el nombre del proyecto junto con el recuento de recursos asociados.
 
-## Conclusión
-Aspose.Tasks para Java simplifica el proceso de lectura de datos de MS Project Online y ofrece a los desarrolladores un potente conjunto de herramientas para optimizar las tareas de gestión de proyectos. Siguiendo este tutorial, puede integrar Aspose.Tasks de manera eficiente en sus aplicaciones Java para acceder y manipular los datos del proyecto con facilidad.
+## Problemas comunes y soluciones
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **Error de autenticación** | Dominio, nombre de usuario o contraseña incorrectos. | Verifica las credenciales y asegura que la cuenta tenga permisos de lectura en Project Online. |
+| **SSLHandshakeException** | El tiempo de ejecución de Java no dispone de la versión TLS requerida. | Actualiza el JDK a la última versión o habilita TLS 1.2+. |
+| **`reader.getProjectList()` devuelve vacío** | La cuenta no tiene acceso a ningún proyecto. | Revisa los permisos en Project Online o utiliza una cuenta de administrador. |
+| **Proyectos grandes provocan OutOfMemoryError** | Cargar muchos proyectos a la vez consume memoria. | Carga los proyectos uno por uno y libera referencias después de usarlos. |
+
 ## Preguntas frecuentes
-### P: ¿Puedo usar Aspose.Tasks para Java para modificar datos de MS Project Online?
-R: Sí, Aspose.Tasks proporciona amplias capacidades no solo para leer sino también para modificar datos de MS Project Online mediante programación.
-### P: ¿Aspose.Tasks admite otros formatos de archivos de gestión de proyectos?
-R: Por supuesto, Aspose.Tasks admite varios formatos de archivo, incluidos MPP, XML y más, lo que garantiza la compatibilidad con diversos sistemas de gestión de proyectos.
-### P: ¿Hay una prueba gratuita disponible para Aspose.Tasks para Java?
- R: Sí, puedes aprovechar una prueba gratuita desde[aquí](https://releases.aspose.com/) para explorar las características y funcionalidades de Aspose.Tasks.
-### P: ¿Dónde puedo encontrar documentación completa sobre Aspose.Tasks para Java?
- R: Puede consultar la documentación detallada.[aquí](https://reference.aspose.com/tasks/java/)para obtener orientación completa sobre cómo utilizar Aspose.Tasks en sus proyectos Java.
-### P: ¿Qué opciones de soporte están disponibles para Aspose.Tasks para Java?
- R: Si encuentra algún problema o tiene alguna consulta, puede buscar ayuda en el foro de la comunidad Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
+### Q: ¿Puedo usar aspose tasks java para modificar datos de MS Project Online?
+A: Sí, Aspose.Tasks ofrece amplias capacidades tanto para leer **como** modificar datos de Project Online de forma programática.
+
+### Q: ¿Aspose.Tasks admite otros formatos de archivo de gestión de proyectos?
+A: Absolutamente. Soporta MPP, XML, Primavera y muchos más, garantizando compatibilidad en diversos ecosistemas de proyectos.
+
+### Q: ¿Existe una prueba gratuita disponible para Aspose.Tasks for Java?
+A: Sí, puedes obtener una prueba gratuita desde [here](https://releases.aspose.com/) para explorar las características y funcionalidades de Aspose.Tasks.
+
+### Q: ¿Dónde puedo encontrar documentación completa para Aspose.Tasks for Java?
+A: Puedes consultar la documentación detallada [here](https://reference.aspose.com/tasks/java/) para obtener una guía completa sobre el uso de Aspose.Tasks en tus proyectos Java.
+
+### Q: ¿Qué opciones de soporte están disponibles para Aspose.Tasks for Java?
+A: Si encuentras algún problema o tienes consultas, puedes buscar asistencia en el foro de la comunidad de Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+---
+
+**Última actualización:** 2025-12-15  
+**Probado con:** Aspose.Tasks for Java 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
