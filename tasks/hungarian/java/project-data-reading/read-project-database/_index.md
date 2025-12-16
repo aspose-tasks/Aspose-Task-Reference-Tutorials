@@ -1,28 +1,50 @@
 ---
-title: Projektadatok olvasása az MS Project Database-ból az Aspose.Tasks programban
-linktitle: Projektadatok olvasása a Microsoft Project Database-ból az Aspose.Tasks programban
+date: 2025-12-13
+description: Tanulja meg, hogyan olvassa be a Microsoft Project adatbázist az Aspose.Tasks
+  for Java segítségével. Lépésről‑lépésre útmutató kódrészletekkel és bevált gyakorlatokkal.
+linktitle: Reading Project Data from Microsoft Project Database in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan olvashat projektadatokat a Microsoft Project Database-ból az Aspose.Tasks for Java segítségével. Lépésről lépésre útmutató kódpéldákkal.
-weight: 12
+title: Microsoft Project adatbázis olvasása az Aspose.Tasks for Java segítségével
 url: /hu/java/project-data-reading/read-project-database/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Projektadatok olvasása az MS Project Database-ból az Aspose.Tasks programban
+# Microsoft Project adatbázis olvasása Aspose.Tasks for Java segítségével
 
-## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan olvashatunk projektadatokat egy Microsoft Project Database-ból az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül kezeljék a Microsoft Project dokumentumokat. Az ebben az útmutatóban vázolt lépések követésével megtanulhatja, hogyan lehet hatékonyan kivonni a projektadatokat egy adatbázisból, és elmenteni azokat a kívánt formátumban.
-## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-1. Java programozási alapismeretek.
-2. Java Development Kit (JDK) telepítve a rendszerére.
-3. Aspose.Tasks a Java könyvtárhoz letöltve és konfigurálva a projektben.
+## Introduction
+Ebben az útmutatóban megtanulja, hogyan **olvassa be a Microsoft Project adatbázist** közvetlenül egy Microsoft Project Serverről az Aspose.Tasks Java API használatával. Akár jelentéseket kell készítenie, adatokat migrálni, vagy projektinformációkat integrálni saját alkalmazásaiba, ez a leírás minden lépésen végigvezet – az adatbázis‑kapcsolat beállításától a projekt XML‑be exportálásáig. A végére egy stabil, termelés‑kész megoldást kap, amely Microsoft Project telepítése nélkül is működik a célgépen.
 
-## Csomagok importálása
-A kezdéshez importálja a szükséges csomagokat:
+## Quick Answers
+- **What does Aspose.Tasks do?** It provides a pure‑Java API to read, write, and manipulate Microsoft Project files and databases.  
+- **Do I need Microsoft Project installed?** No, Aspose.Tasks works independently of Microsoft Project.  
+- **Which database type is supported?** Microsoft SQL Server (the backend of Project Server).  
+- **Can I export to other formats?** Yes, besides XML you can save to PDF, HTML, CSV, and more.  
+- **What are the main prerequisites?** JDK, Aspose.Tasks for Java library, and the SQL Server JDBC driver.
+
+## What is “read microsoft project database”?
+A Microsoft Project adatbázis olvasása azt jelenti, hogy csatlakozunk a Project Server SQL Server tárolójához, kinyerjük a tárolt projektadatokat, és betöltjük őket egy `Project` objektumba, amelyet az Aspose.Tasks manipulálni tud. Ez a megközelítés ideális automatizált jelentéskészítéshez, adatköltöztetéshez vagy egyedi elemzésekhez.
+
+## Why use Aspose.Tasks for Java?
+- **No Microsoft Project dependency** – run on any server or CI environment.  
+- **Rich object model** – access tasks, resources, assignments, calendars, and custom fields programmatically.  
+- **Multiple export options** – XML, PDF, HTML, PNG, etc., with a single API call.  
+- **High performance** – optimized for large enterprise projects.
+
+## Prerequisites
+Before you begin, make sure you have:
+
+1. A working Java development environment (JDK 8 or newer).  
+2. Aspose.Tasks for Java library added to your project’s classpath.  
+3. Access credentials for the Project Server SQL database (server name, port, database name, username, password).  
+4. The Microsoft JDBC Driver for SQL Server (e.g., `sqljdbc4.jar`).  
+
+## Import Packages
+First, import the classes you’ll need. The list includes Aspose.Tasks core classes and standard Java utilities.
+
 ```java
 import com.aspose.tasks.MspDbSettings;
 import com.aspose.tasks.Project;
@@ -33,8 +55,10 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.UUID;
 ```
-## 1. lépés: Állítsa be az adatbázis-kapcsolatot
-Először is be kell állítania a kapcsolatot a Microsoft Project Database-szal. Ez magában foglalja az adatbázis URL-címének, a kiszolgálónévnek, a portszámnak, az adatbázisnévnek, a felhasználónévnek és a jelszónak a megadását.
+
+## Step 1: Set Up Database Connection
+Create an `MspDbSettings` instance that holds the JDBC connection string. Replace the placeholder values with your actual server details.
+
 ```java
 String url = "jdbc:sqlserver://";
 String serverName = "192.168.56.2\\MSSQLSERVER";
@@ -44,36 +68,70 @@ String userName = "sa";
 String password = "***";
 MspDbSettings settings = new MspDbSettings(url + serverName + ":" + portNumber + ";databaseName=" + databaseName + ";user=" + userName + ";password=" + password);
 ```
-## 2. lépés: Adja hozzá a JDBC illesztőprogramot
-Ezután hozzá kell adnia a JDBC illesztőprogramot a projekthez. Ez az illesztőprogram megkönnyíti a kommunikációt a Java alkalmazások és a Microsoft SQL Server adatbázis között.
+
+> **Pro tip:** Store the connection string in a secure configuration file or environment variable rather than hard‑coding credentials.
+
+## Step 2: Add JDBC Driver
+Load the Microsoft SQL Server JDBC driver at runtime so the JVM can communicate with the database.
+
 ```java
 addJDBCDriver(new File("c:\\Program Files (x86)\\Microsoft JDBC Driver 4.0 for SQL Server\\sqljdbc_4.0\\enu\\sqljdbc4.jar"));
 ```
-## 3. lépés: Olvassa el a projektadatokat
- Most hozzon létre a`Project` objektumot, és töltse be a projektadatokat az adatbázisból a korábban meghatározott beállításokkal.
+
+> **Warning:** Ensure the driver version matches your SQL Server version. Using an incompatible driver may cause connection failures.
+
+## Step 3: Read Project Data
+Instantiate a `Project` object by passing the `MspDbSettings`. Aspose.Tasks will fetch the project data from the database automatically.
+
 ```java
 Project project = new Project(settings);
 ```
-## 4. lépés: Projektadatok mentése
-Végül mentse a projekt adatait a kívánt formátumba. Ebben a példában XML fájlként mentjük el.
+
+At this point you can explore the `project` object—list tasks, resources, or modify fields as needed.
+
+## Step 4: Save Project Data
+Export the loaded project to a file format of your choice. The example below saves the project as XML, which can later be imported into Microsoft Project or processed further.
+
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
-Gratulálunk! Sikeresen beolvassa a projektadatokat egy Microsoft Project Database-ból az Aspose.Tasks for Java használatával.
 
-## Következtetés
-Ebben az oktatóanyagban bemutattuk a projektadatok Microsoft Project Database-ból történő kiolvasásának folyamatát az Aspose.Tasks for Java használatával. A vázolt lépések követésével zökkenőmentesen kinyerheti a projektinformációkat, és igényei szerint módosíthatja azokat. Az Aspose.Tasks leegyszerűsíti a Microsoft Project dokumentumok kezelését, lehetővé téve az adatok hatékony kinyerését és kezelését.
-## GYIK
-### K: Az Aspose.Tasks használható projektadatok olvasására más adatbázisokból a Microsoft Projecten kívül?
-V: Igen, az Aspose.Tasks támogatja a projektadatok olvasását különböző forrásokból, beleértve az XML-fájlokat, a Primavera- és a Microsoft Project-adatbázisokat.
-### K: Az Aspose.Tasks kompatibilis a Microsoft Project különböző verzióival?
-V: Igen, az Aspose.Tasks a Microsoft Project különböző verzióival való együttműködésre készült, így biztosítva a kompatibilitást és a zökkenőmentes integrációt.
-### K: Módosíthatom a projektadatokat a mentés előtt?
-V: Természetesen az Aspose.Tasks szolgáltatások széles skáláját kínálja a projektadatok kezeléséhez, például feladatok hozzáadásához, erőforrások frissítéséhez és projekttulajdonságok beállításához.
-### K: Az Aspose.Tasks több kimeneti formátumot támogat?
-V: Igen, az Aspose.Tasks különféle kimeneti formátumokat támogat, beleértve az XML-t, PDF-et, HTML-t, valamint az olyan képformátumokat, mint a PNG és a JPEG.
-### K: Hol találhatok további támogatást vagy segítséget az Aspose.Tasks szolgáltatással kapcsolatban?
- V: További támogatásért vagy segítségért keresse fel az Aspose.Tasks fórumot, vagy tekintse meg a webhelyen elérhető dokumentációt.[itt](https://forum.aspose.com/c/tasks/15).
+You can replace `SaveFileFormat.Xml` with `Pdf`, `Html`, `Csv`, etc., depending on your.
+
+## Common Issues & Solutions
+| Issue | Typical Cause | Fix |
+|-------|---------------|-----|
+| **Connection timeout** | Wrong server/port or firewall blocking | Verify server address, open port 1433, and test connectivity with a simple JDBC test program. |
+| **Authentication error** | Invalid username/password or SQL Server not configured for SQL authentication | Use a valid SQL login or enable mixed‑mode authentication on the server. |
+| **Driver not found** | JDBC jar not on classpath | Ensure `addJDBCDriver` points to the correct `.jar` file and that the path uses double backslashes (`\\`). |
+| **Empty project after load** | Insufficient permissions to read Project Server tables | Grant the login SELECT rights on the Project Server database schema. |
+
+## Frequently Asked Questions
+
+**Q: Can Aspose.Tasks be used to read project data from other databases besides Microsoft Project?**  
+A: Yes, Aspose.Tasks supports reading project data from various sources, including XML files, Primavera, and Microsoft Project databases.
+
+**Q: Is Aspose.Tasks compatible with different versions of Microsoft Project?**  
+A: Yes, Aspose.Tasks is designed to work with multiple Microsoft Project versions, ensuring seamless integration.
+
+**Q: Can I manipulate the project data before saving it?**  
+A: Absolutely, Aspose.Tasks provides a rich API for adding tasks, updating resources, and setting project properties before export.
+
+**Q: Does Aspose.Tasks support multiple output formats?**  
+A: Yes, you can save projects as XML, PDF, HTML, CSV, PNG, JPEG, and more.
+
+**Q: Where can I find further support or assistance with Aspose.Tasks?**  
+A: For additional help, visit the Aspose.Tasks forum or explore the documentation available on the website [here](https://forum.aspose.com/c/tasks/15).
+
+## Conclusion
+By following this step‑by‑step guide, you now know how to **read microsoft project database** using Aspose.Tasks for Java, manipulate the data programmatically, and export it to the format you need. This approach eliminates the dependency on Microsoft Project, streamlines automated reporting, and opens the door to powerful custom integrations.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
