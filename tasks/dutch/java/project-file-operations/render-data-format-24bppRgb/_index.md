@@ -1,28 +1,47 @@
 ---
-title: Render MS-projectgegevens met formaat 24bppRgb in Aspose.Tasks
-linktitle: Geef gegevens weer met formaat 24bppRgb in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u MS Project-gegevens als afbeeldingen in Java kunt weergeven met behulp van Aspose.Tasks. Volg onze stap-voor-stap handleiding voor een naadloze integratie.
-weight: 11
+date: 2025-12-17
+description: Leer hoe u een project als afbeelding opslaat en de afbeeldingsresolutie
+  wijzigt in Java met Aspose.Tasks voor Java. Deze stapsgewijze handleiding toont
+  het renderen van MS‑Project‑gegevens met het 24bppRgb‑formaat.
+linktitle: Save Project as Image – 24bppRgb Format
+second_title: Aspose.Tasks Java API
+title: Project opslaan als afbeelding – 24bppRgb‑formaat met Aspose.Tasks
 url: /nl/java/project-file-operations/render-data-format-24bppRgb/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render MS-projectgegevens met formaat 24bppRgb in Aspose.Tasks
+# Project opslaan als afbeelding – 24bppRgb-formaat met Aspose.Tasks
 
-## Invoering
-In deze zelfstudie begeleiden we u bij het renderen van gegevens met MS Project-indeling 24bppRgb met behulp van Aspose.Tasks voor Java. Het weergeven van projectgegevens in een afbeeldingsindeling kan nuttig zijn voor verschillende doeleinden, zoals het visueel delen van de projectvoortgang of het maken van rapporten.
-## Vereisten
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
-1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor Java: Download en installeer Aspose.Tasks voor Java van[hier](https://releases.aspose.com/tasks/java/).
-3. Basiskennis van Java-programmeren: Bekendheid met de Java-programmeertaal zal nuttig zijn om de codevoorbeelden te begrijpen en te implementeren.
+## Introduction
+In deze tutorial leer je hoe je **save project as image** kunt gebruiken met het 24bppRgb-pixelformaat met Aspose.Tasks voor Java. Het renderen van MS Project-gegevens naar een afbeelding is handig wanneer je een visueel momentopname van een planning wilt delen, een tijdlijn in een rapport wilt insluiten, of miniaturen voor een project‑portal wilt genereren. We laten je ook zien hoe je **change image resolution java** kunt aanpassen om aan je kwaliteitsvereisten te voldoen.
 
-## Pakketten importeren
-Eerst moet u de benodigde pakketten in uw Java-project importeren:
+## Quick Answers
+- **Kan ik een project renderen naar een afbeelding?** Ja, Aspose.Tasks laat je een project opslaan als TIFF, PNG, JPEG, enz.  
+- **Welk pixelformaat biedt de beste kleurdiepte?** `Format24bppRgb` levert true‑color (24‑bit) afbeeldingen.  
+- **Hoe pas ik de afbeeldingsresolutie aan?** Gebruik `setHorizontalResolution` en `setVerticalResolution` op `ImageSaveOptions`.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor niet‑evaluatiegebruik.  
+- **Is dit compatibel met alle Java‑versies?** Werkt met Java 8 en nieuwer.
+
+## What is “save project as image”?
+Het opslaan van een project als afbeelding zet de visuele weergave van een Microsoft Project‑bestand (`.mpp`) om naar een rasterformaat (bijv. TIFF). Het resulterende bestand kan worden weergegeven in browsers, ingevoegd in documenten, of afgedrukt zonder de originele Project‑applicatie nodig te hebben.
+
+## Why use the 24bppRgb format?
+Het 24bppRgb-pixelformaat slaat elke pixel op met 8 bits voor rood, groen en blauw, en levert true‑color kwaliteit zonder een alfakanaal. Dit is ideaal voor rapporten met hoge helderheid waar kleurnauwkeurigheid belangrijk is, terwijl de bestandsgrootte redelijk blijft vergeleken met 32‑bit formaten.
+
+## Prerequisites
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
+
+1. **Java Development Kit (JDK)** – JDK 8 of nieuwer geïnstalleerd op je machine.  
+2. **Aspose.Tasks for Java** – Download en installeer van [here](https://releases.aspose.com/tasks/java/).  
+3. **Basic Java knowledge** – Vertrouwdheid met Java‑syntaxis en projectopzet helpt je de code‑fragmenten te volgen.
+
+## Import Packages
+Importeer eerst de benodigde Aspose.Tasks‑klassen in je Java‑project:
+
 ```java
 import com.aspose.tasks.ImageSaveOptions;
 import com.aspose.tasks.PixelFormat;
@@ -30,45 +49,68 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-Laten we het gegeven voorbeeld in meerdere stappen opsplitsen:
-## Stap 1: Definieer de gegevensdirectory
+## Step‑by‑Step Guide
+
+### Step 1: Define Data Directory
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
-In deze stap definieert u de directory waarin uw projectgegevens zich bevinden. Vervangen`"Your Data Directory"` met het daadwerkelijke pad naar uw gegevensmap.
-## Stap 2: Projectbestand laden
+Vervang `"Your Data Directory"` door het absolute pad waar je `.mpp`‑bestand zich bevindt.
+
+### Step 2: Load Project File
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Hier laden we het MS Project-bestand (`project.mpp` ) met behulp van Aspose.Tasks en sla het op in de`project` voorwerp.
-## Stap 3: Configureer de opties voor het opslaan van afbeeldingen
+Deze regel leest het Microsoft Project‑bestand (`project.mpp`) en maakt een `Project`‑object aan dat Aspose.Tasks kan manipuleren.
+
+### Step 3: Configure Image Save Options
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.Tiff);
 options.setHorizontalResolution(72);
 options.setVerticalResolution(72);
 options.setPixelFormat(PixelFormat.Format24bppRgb);
 ```
-Deze stap omvat het configureren van de opties voor het opslaan van de projectgegevens als afbeelding. We specificeren het beeldformaat (TIFF), horizontale en verticale resoluties en pixelformaat (24bppRgb).
-## Stap 4: Projectgegevens opslaan als afbeelding
+Hier stellen we het uitvoerformaat in op TIFF, geven we een resolutie van **72 dpi** op (je kunt deze waarden aanpassen aan je behoeften – dit is waar je **change image resolution java**), en selecteren we het 24bppRgb-pixelformaat voor true‑color output.
+
+### Step 4: Save Project Data as Image
 ```java
 project.save(dataDir + "resFile.tif", options);
 ```
-Ten slotte slaan we de projectgegevens op als afbeeldingsbestand (`resFile.tif`) met de opgegeven opties.
+De `save`‑methode schrijft de gerenderde afbeelding naar `resFile.tif` met de hierboven gedefinieerde opties.
 
-## Conclusie
-In deze zelfstudie hebben we geleerd hoe u projectgegevens kunt weergeven met MS Project-indeling 24bppRgb met behulp van Aspose.Tasks voor Java. Door de aangegeven stappen te volgen, kunt u uw projectgegevens eenvoudig omzetten in een afbeeldingsformaat voor verschillende doeleinden.
-## Veelgestelde vragen
-### Vraag: Kan ik projectgegevens in andere afbeeldingsformaten weergeven?
-A: Ja, Aspose.Tasks ondersteunt het weergeven van projectgegevens in verschillende afbeeldingsformaten zoals PNG, JPEG, BMP, enz.
-### Vraag: Is Aspose.Tasks compatibel met verschillende versies van MS Project?
-A: Ja, Aspose.Tasks ondersteunt meerdere versies van MS Project, waaronder 2003, 2007, 2010, 2013 en 2016.
-### Vraag: Kan ik de resolutie en het pixelformaat van de gerenderde afbeelding aanpassen?
-A: Ja, u kunt de resolutie en het pixelformaat aanpassen aan uw wensen met behulp van Aspose.Tasks.
-### Vraag: Heeft Aspose.Tasks een licentie nodig voor commercieel gebruik?
- A: Ja, u moet een licentie aanschaffen voor commercieel gebruik van Aspose.Tasks. Een tijdelijke licentie voor testdoeleinden kunt u verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
-### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
- A: U kunt ondersteuning voor Aspose.Tasks krijgen van de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+## Common Issues and Solutions
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **Blank image output** | De projectweergave kan leeg zijn. | Roep `project.setDefaultView(ViewType.Gantt);` aan vóór het opslaan. |
+| **Low‑quality image** | Resolutie te laag ingesteld. | Verhoog `setHorizontalResolution` en `setVerticalResolution` (bijv. 150 dpi). |
+| **Unsupported pixel format** | Gebruik van een oudere Aspose.Tasks‑versie. | Upgrade naar de nieuwste Aspose.Tasks for Java‑release. |
+
+## Conclusion
+Je weet nu hoe je **save project as image** kunt uitvoeren met het 24bppRgb-formaat en de resolutie kunt aanpassen met Aspose.Tasks voor Java. Deze aanpak stelt je in staat duidelijke, kleurnauwkeurige visuele weergaven van je projectschema's te genereren voor delen, rapportage of archiveringsdoeleinden.
+
+## FAQ's
+### Q: Kan ik projectgegevens renderen in andere afbeeldingsformaten?
+A: Ja, Aspose.Tasks ondersteunt het renderen van projectgegevens naar verschillende afbeeldingsformaten zoals PNG, JPEG, BMP, enz.
+
+### Q: Is Aspose.Tasks compatibel met verschillende versies van MS Project?
+A: Ja, Aspose.Tasks ondersteunt meerdere versies van MS Project, inclusief 2003, 2007, 2010, 2013 en 2016.
+
+### Q: Kan ik de resolutie en het pixelformaat van de gerenderde afbeelding aanpassen?
+A: Ja, je kunt de resolutie en het pixelformaat aanpassen aan je eisen met behulp van Aspose.Tasks.
+
+### Q: Vereist Aspose.Tasks een licentie voor commercieel gebruik?
+A: Ja, je moet een licentie aanschaffen voor commercieel gebruik van Aspose.Tasks. Je kunt een tijdelijke licentie voor testdoeleinden verkrijgen via [here](https://purchase.aspose.com/temporary-license/).
+
+### Q: Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
+A: Je kunt ondersteuning voor Aspose.Tasks krijgen via het [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,54 @@
 ---
-title: Ridurre il divario tra l'elenco delle attività e il piè di pagina in Aspose.Tasks
-linktitle: Ridurre il divario tra l'elenco delle attività e il piè di pagina in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come ridurre il divario tra gli elenchi di attività e i piè di pagina di MS Project utilizzando Aspose.Tasks per Java. Ottimizza il layout del documento di progetto senza sforzo.
-weight: 10
+date: 2025-12-17
+description: Scopri come esportare il progetto in PDF, ridurre lo spazio a piè di
+  pagina e salvare il progetto come immagine usando Aspose.Tasks per Java. Ottimizza
+  il layout di MS Project senza sforzo.
+linktitle: Export Project to PDF and Reduce Gap Between Tasks List and Footer in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Esporta il progetto in PDF e riduci lo spazio tra l'elenco delle attività e
+  il piè di pagina in Aspose.Tasks
 url: /it/java/project-file-operations/reduce-gap-tasks-list-footer/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ridurre il divario tra l'elenco delle attività e il piè di pagina in Aspose.Tasks
+# Esporta il progetto in PDF e riduci lo spazio tra l'elenco attività e il piè di pagina in Aspose.Tasks
 
-## introduzione
-In questo tutorial, approfondiremo la riduzione del divario tra l'elenco delle attività e il piè di pagina nei file di Microsoft Project utilizzando Aspose.Tasks per Java. Seguendo questi passaggi, sarai in grado di ottimizzare il layout dei documenti del tuo progetto senza sforzo.
+## Introduzione  
+In questo tutorial scoprirai **come esportare un progetto in PDF** riducendo al contempo lo spazio indesiderato tra l'elenco attività e il piè di pagina nei file Microsoft Project. Alla fine della guida sarai in grado di generare PDF puliti, immagini PNG e pagine HTML con un layout compatto usando Aspose.Tasks per Java. Segui il processo passo‑passo.
+
+## Risposte rapide  
+- **Cosa significa “esportare progetto in PDF”?** Converte un file MPP in un documento PDF preservando attività, linee temporali e formattazione.  
+- **Perché ridurre lo spazio del piè di pagina?** Uno spazio più piccolo crea report più compatti e dall’aspetto professionale, soprattutto per documenti stampati o visualizzati sul web.  
+- **Posso anche salvare il progetto come immagine?** Sì – Aspose.Tasks supporta PNG, JPEG e altri formati immagine.  
+- **È necessaria una licenza speciale?** È disponibile una versione di prova gratuita; per l’uso in produzione è richiesta una licenza commerciale.  
+- **Quale versione di Java è necessaria?** Java 8 o superiore funziona con la libreria corrente di Aspose.Tasks.
+
+## Cos’è “esportare progetto in PDF”?  
+Esportare un progetto in PDF trasforma la struttura interna MPP in un documento portatile che può essere aperto su qualsiasi dispositivo senza bisogno di Microsoft Project. È ideale per condividere report di stato, aggiornamenti per gli stakeholder o per archiviare piani di progetto.
+
+## Perché ridurre lo spazio del piè di pagina?  
+Lo spazio predefinito del piè di pagina può aggiungere spazi bianchi inutili, causando problemi di impaginazione e un aspetto sbilanciato. Ridurre questo spazio garantisce che il contenuto utilizzi la pagina in modo efficiente, rendendo il PDF o l’immagine finale più leggibile.
+
+## Come ridurre lo spazio tra l'elenco attività e il piè di pagina?  
+Aspose.Tasks fornisce l’opzione `setReduceFooterGap(true)` per le operazioni di salvataggio immagine, PDF e HTML. Abilitare questa opzione indica al motore di comprimere lo spazio tra l’ultima riga di attività e il piè di pagina.
+
+## Salva il progetto come immagine con Aspose.Tasks  
+Se ti serve uno snapshot visivo del tuo programma, puoi **salvare il progetto come immagine** (PNG) applicando le stesse impostazioni di riduzione dello spazio.
+
+## Esportazione del progetto Java in PDF  
+Le sezioni seguenti illustrano un flusso di lavoro completo per **esportare un progetto Java**, dal caricamento del file MPP al salvataggio in tre formati diversi.
+
 ## Prerequisiti
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
-1. Java Development Kit (JDK): assicurati di avere JDK installato sul tuo sistema.
-2.  Aspose.Tasks per Java Library: scarica e includi la libreria Aspose.Tasks per Java nel tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/java/).
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
+1. Java Development Kit (JDK) – versione 8 o successiva.  
+2. Libreria Aspose.Tasks per Java – scaricala da [here](https://releases.aspose.com/tasks/java/).  
 
-## Importa pacchetti
-Prima di immergerci nella parte di codifica, importiamo i pacchetti necessari:
+## Importazione dei pacchetti
+Prima di passare alla parte di codifica, importiamo i pacchetti necessari:
 ```java
 import com.aspose.tasks.HtmlSaveOptions;
 import com.aspose.tasks.ImageSaveOptions;
@@ -33,17 +60,20 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## Passaggio 1: fornisci il percorso della directory dei dati
+
+## Passo 1: Fornire il percorso alla directory dei dati
 ```java
 String dataDir = "Your Data Directory";
 ```
- Assicurati di sostituire`"Your Data Directory"` con il percorso della directory dei dati effettiva in cui si trova il file Microsoft Project (`HomeMovePlan.mpp` in questo esempio) si trova.
-## Passaggio 2: leggere il file MPP
+Assicurati di sostituire `"Your Data Directory"` con il percorso della tua directory dati reale dove si trova il file Microsoft Project (`HomeMovePlan.mpp` in questo esempio).
+
+## Passo 2: Leggere il file MPP
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
- Questa riga di codice legge il file di Microsoft Project denominato`HomeMovePlan.mpp`.
-## Passaggio 3: imposta le opzioni ImageSave
+Questa riga di codice legge il file Microsoft Project denominato `HomeMovePlan.mpp`.
+
+## Passo 3: Impostare ImageSaveOptions (Salva progetto come immagine)
 ```java
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
 imageSaveOptions.setReduceFooterGap(true);
@@ -51,13 +81,15 @@ imageSaveOptions.setRenderToSinglePage(false);
 imageSaveOptions.setPageSize(PageSize.A0);
 imageSaveOptions.setTimescale(Timescale.Days);
 ```
- Configurare le opzioni di salvataggio dell'immagine, impostazione`ReduceFooterGap` A`true` per ridurre il divario tra l'elenco delle attività e il piè di pagina.
-## Passaggio 4: salva come immagine
+Configura le opzioni di salvataggio immagine, impostando `ReduceFooterGap` su `true` per ridurre lo spazio tra l’elenco attività e il piè di pagina.
+
+## Passo 4: Salva come immagine
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.png", (SaveOptions) imageSaveOptions);
 ```
 Salva il progetto come immagine con le opzioni configurate.
-## Passaggio 5: imposta PdfSaveOptions
+
+## Passo 5: Impostare PdfSaveOptions (Esporta progetto in PDF)
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setReduceFooterGap(true);
@@ -65,52 +97,79 @@ pdfSaveOptions.setSaveToSeparateFiles(true);
 pdfSaveOptions.setPageSize(PageSize.A0);
 pdfSaveOptions.setTimescale(Timescale.Days);
 ```
- Definire le opzioni di salvataggio del PDF, assicurandosi di impostarle`ReduceFooterGap` A`true`.
-## Passaggio 6: salva come PDF
+Definisci le opzioni di salvataggio PDF, assicurandoti di impostare `ReduceFooterGap` su `true`.
+
+## Passo 6: Salva come PDF
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.pdf", (SaveOptions) pdfSaveOptions);
 ```
 Salva il progetto come PDF con le opzioni configurate.
-## Passaggio 7: imposta HtmlSaveOptions
+
+## Passo 7: Impostare HtmlSaveOptions
 ```java
 HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-htmlSaveOptions.setReduceFooterGap(true); // impostato su vero
+htmlSaveOptions.setReduceFooterGap(true); // set to true
 htmlSaveOptions.setIncludeProjectNameInPageHeader(false);
 htmlSaveOptions.setIncludeProjectNameInTitle(false);
 htmlSaveOptions.setPageSize(PageSize.A0);
 htmlSaveOptions.setTimescale(Timescale.Days);
 ```
- Specificare le opzioni di salvataggio HTML, impostazione`ReduceFooterGap` A`true`.
-## Passaggio 8: salva come HTML
+Specifica le opzioni di salvataggio HTML, impostando `ReduceFooterGap` su `true`.
+
+## Passo 8: Salva come HTML
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSaveOptions);
 ```
 Salva il progetto come file HTML con le opzioni configurate.
 
-## Conclusione
-In conclusione, ridurre il divario tra l'elenco delle attività e il piè di pagina nei file di Microsoft Project è un processo semplice con Aspose.Tasks per Java. Seguendo i passaggi descritti in questo tutorial, puoi ottimizzare in modo efficiente il layout dei documenti del tuo progetto.
+## Conclusione  
+In conclusione, ridurre lo spazio tra l’elenco attività e il piè di pagina nei file Microsoft Project è un processo semplice con Aspose.Tasks per Java. Seguendo i passaggi descritti in questo tutorial, potrai **esportare il progetto in PDF**, salvarlo come immagine o generare HTML mantenendo un layout compatto e professionale.
 
-## Domande frequenti
+## FAQ
 
-### D: Aspose.Tasks è compatibile con tutte le versioni di Microsoft Project?
+### Q: Aspose.Tasks è compatibile con tutte le versioni di Microsoft Project?
 
-R: Aspose.Tasks supporta i formati Microsoft Project 2003-2019, garantendo la compatibilità tra varie versioni.
+A: Aspose.Tasks supporta i formati Microsoft Project 2003‑2019, garantendo la compatibilità con varie versioni.
 
-### D: Posso personalizzare l'aspetto del piè di pagina nei documenti del mio progetto?
+### Q: Posso personalizzare l’aspetto del piè di pagina nei miei documenti di progetto?
 
-R: Sì, Aspose.Tasks offre ampie opzioni per personalizzare l'aspetto dei piè di pagina, inclusa la riduzione degli spazi vuoti e la regolazione del posizionamento dei contenuti.
+A: Sì, Aspose.Tasks offre ampie opzioni per personalizzare i piè di pagina, inclusa la riduzione degli spazi e la regolazione del posizionamento del contenuto.
 
-### D: Aspose.Tasks supporta il salvataggio di progetti in formati diversi da PNG, PDF e HTML?
+### Q: Aspose.Tasks supporta il salvataggio dei progetti in formati diversi da PNG, PDF e HTML?
 
-R: Sì, Aspose.Tasks supporta un'ampia gamma di formati, tra cui XLSX, XML e MPP, tra gli altri.
+A: Sì, Aspose.Tasks supporta una vasta gamma di formati, tra cui XLSX, XML e MPP, tra gli altri.
 
-### D: È disponibile una versione di prova per Aspose.Tasks?
+### Q: È disponibile una versione di prova per Aspose.Tasks?
 
- R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/).
+A: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da [here](https://releases.aspose.com/).
 
-### D: Dove posso ottenere supporto se riscontro problemi durante l'utilizzo di Aspose.Tasks?
+### Q: Dove posso ottenere supporto se incontro problemi usando Aspose.Tasks?
 
- R: Puoi ottenere assistenza dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+A: Puoi ricevere assistenza dal forum della community di Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+## Domande frequenti (Aggiuntive)
+
+**Q: Come influisce la riduzione dello spazio del piè di pagina sulla paginazione?**  
+A: Minimizza lo spazio vuoto nella parte inferiore di ogni pagina, consentendo di inserire più attività in una singola pagina e riducendo il numero totale di pagine.
+
+**Q: Posso applicare la stessa impostazione di riduzione dello spazio a una sola pagina?**  
+A: Sì, impostando `setRenderToSinglePage(true)` in `ImageSaveOptions` puoi controllare la paginazione mantenendo la riduzione dello spazio.
+
+**Q: L’opzione `setReduceFooterGap` è disponibile per altri formati di output?**  
+A: Attualmente è supportata per le esportazioni PNG, PDF e HTML. Per altri formati potrebbe essere necessario regolare manualmente il layout.
+
+**Q: Cosa succede se il mio progetto contiene campi personalizzati—vengono preservati?**  
+A: Tutti i campi personalizzati vengono mantenuti durante l’esportazione; le regolazioni di layout influenzano solo la spaziatura, non i dati.
+
+**Q: La libreria gestisce progetti di grandi dimensioni in modo efficiente?**  
+A: Aspose.Tasks trasmette i dati in streaming e può elaborare file MPP di grandi dimensioni; tuttavia, assicurati di disporre di memoria sufficiente quando esporti immagini ad alta risoluzione.
+
+---
+
+**Ultimo aggiornamento:** 2025-12-17  
+**Testato con:** Aspose.Tasks 24.11 per Java  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
