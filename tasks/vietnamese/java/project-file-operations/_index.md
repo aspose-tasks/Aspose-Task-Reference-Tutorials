@@ -1,108 +1,154 @@
 ---
-title: Hoạt động tập tin dự án
-linktitle: Hoạt động tập tin dự án
-second_title: API Java Aspose.Tasks
-description: Dễ dàng tối ưu hóa bố cục MS Project với Aspose.Tasks cho Java. Tìm hiểu hướng dẫn từng bước về cách giảm khoảng cách, hiển thị dữ liệu, thay thế lịch, v.v.
-weight: 29
+date: 2025-12-18
+description: Học cách cập nhật lịch trình MS Project, chuyển đổi PDF MS Project, xuất
+  ra Excel, truy xuất mã đề mục và lưu CSV bằng Aspose.Tasks cho Java. Các hướng dẫn
+  chi tiết từng bước.
+linktitle: Project File Operations
+second_title: Aspose.Tasks Java API
+title: Cập nhật Lịch trình MS Project – Thao tác tệp dự án
 url: /vi/java/project-file-operations/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoạt động tập tin dự án
+# Thao Tác Tệp Dự Án
 
-## Giới thiệu
-Bạn đang tìm cách nâng cao khả năng quản lý dự án Java của mình? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về Aspose.Tasks cho Java, tập trung vào các thao tác tệp dự án khác nhau. Từ việc giảm bớt khoảng trống trong danh sách nhiệm vụ đến tùy chỉnh chế độ xem MS Project, chúng tôi đã hỗ trợ bạn.
+## Giới Thiệu
+Bạn đang muốn nâng cao khả năng quản lý dự án Java của mình? Trong trung tâm này, bạn sẽ khám phá cách **cập nhật lịch MS Project** một cách lập trình, chuyển đổi tệp sang PDF, xuất dữ liệu ra Excel, truy xuất thông tin outline, và lưu dữ liệu dự án dưới dạng CSV — tất cả đều sử dụng Aspose.Tasks cho Java. Hãy khám phá các hướng dẫn chi tiết của chúng tôi và bắt đầu tối ưu hoá quy trình dự án ngay hôm nay.
 
-## Giảm khoảng cách giữa danh sách nhiệm vụ và chân trang trong Aspose.Tasks
- Tìm hiểu cách giảm khoảng cách giữa danh sách nhiệm vụ và chân trang của MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước của chúng tôi hướng dẫn bạn qua quy trình, cho phép bạn dễ dàng tối ưu hóa bố cục tài liệu dự án của mình.[Kiểm tra hướng dẫn ở đây.](./reduce-gap-tasks-list-footer/)
+## Câu Hỏi Nhanh
+- **Tôi có thể tự động hoá gì với Aspose.Tasks?** Cập nhật lịch, chuyển đổi sang PDF/Excel, truy xuất lịch, và nhiều hơn nữa.  
+- **Ngôn ngữ nào được hỗ trợ?** Java, với các API đầy đủ kiểu .NET.  
+- **Tôi có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể chuyển đổi dự án sang PDF không?** Có – xem hướng dẫn “Convert MS Project PDF”.  
+- **Xuất ra Excel có khả thi không?** Chắc chắn – kiểm tra hướng dẫn “Export MS Project Excel”.
 
-## Kết xuất dữ liệu dự án MS với định dạng 24bppRgb trong Aspose.Tasks
- Khám phá thế giới hiển thị dữ liệu MS Project dưới dạng hình ảnh trong Java với Aspose.Tasks. Hướng dẫn của chúng tôi cung cấp các bước tích hợp liền mạch, đảm bảo bạn đạt được kết quả tối ưu với Định dạng 24bppRgb.[Thực hiện theo hướng dẫn ở đây.](./render-data-format-24bppRgb/)
+## Cách Cập Nhật Lịch MS Project Bằng Aspose.Tasks cho Java
+Việc duy trì kế hoạch dự án luôn cập nhật là yếu tố then chốt để giao hàng thành công. Với Aspose.Tasks, bạn có thể lập trình sửa đổi ngày thực hiện công việc, tính lại đường đi quan trọng, và lên lịch lại toàn bộ dự án mà không cần mở Microsoft Project thủ công. Cách tiếp cận này tiết kiệm thời gian, giảm lỗi con người, và tích hợp mượt mà vào các pipeline CI/CD.
 
-## Thay thế Lịch dự án MS trong Aspose.Tasks
-Kiểm soát lịch dự án của bạn bằng cách tìm hiểu cách thay thế lịch bằng Aspose.Tasks cho Java. Hướng dẫn chi tiết của chúng tôi, kèm theo các ví dụ về mã, cho phép bạn tùy chỉnh trải nghiệm quản lý dự án của mình.[Khám phá các bước ở đây.](./replace-calendar/)
+### Tại sao cần cập nhật lịch một cách lập trình?
+- **Nhất quán:** Đảm bảo mọi bên liên quan đều nhìn thấy cùng một ngày.  
+- **Tự động hoá:** Phù hợp với các script báo cáo tự động hoặc phân bổ nguồn lực.  
+- **Mở rộng:** Xử lý các tệp dự án lớn mà việc chỉnh sửa thủ công sẽ rất tốn thời gian.
 
-## Truy xuất thông tin lịch dự án MS trong Aspose.Tasks
- Việc truy cập chi tiết lịch MS Project theo chương trình được thực hiện dễ dàng với Aspose.Tasks cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để truy xuất thông tin lịch một cách dễ dàng và nâng cao khả năng quản lý dự án của bạn.[Tim hiểu thêm ở đây.](./retrieve-calendar-info/)
+### Trường hợp sử dụng điển hình
+Hãy tưởng tượng một quy trình build hàng đêm lấy các phân bổ nguồn lực mới nhất từ hệ thống ERP và cập nhật lịch MS Project tương ứng. Chỉ với vài dòng mã Java, lịch được làm mới, lưu lại, và tùy chọn xuất ra PDF để phân phối.
 
-## Truy xuất mã phác thảo dự án MS trong Aspose.Tasks
- Khám phá sức mạnh của việc truy xuất mã phác thảo Microsoft Project theo chương trình bằng cách sử dụng Aspose.Tasks cho Java. Nâng cao khả năng quản lý dự án của bạn với hướng dẫn này.[Khám phá các khả năng ở đây.](./retrieve-outline-codes/)
+## Giảm Khoảng Cách Giữa Danh Sách Công Việc và Chân Trang trong Aspose.Tasks
+Tìm hiểu cách giảm khoảng cách giữa danh sách công việc MS Project và chân trang bằng Aspose.Tasks cho Java. Hướng dẫn từng bước của chúng tôi sẽ giúp bạn tối ưu hoá bố cục tài liệu dự án một cách dễ dàng. [Xem hướng dẫn tại đây.](./reduce-gap-tasks-list-footer/)
 
-## Lưu dưới dạng CSV, văn bản và mẫu trong Aspose.Tasks
-Lưu các tệp Microsoft Project một cách hiệu quả ở định dạng CSV, Văn bản và Mẫu với Aspose.Tasks cho Java. Hướng dẫn của chúng tôi cung cấp các bước tích hợp dễ dàng, đơn giản hóa quy trình cho các nhà phát triển Java.[Bắt đầu lưu ở đây.](./save-csv-text-template/)
+## Render Dữ Liệu MS Project với Định Dạng 24bppRgb trong Aspose.Tasks
+Khám phá cách render dữ liệu MS Project thành hình ảnh trong Java với Aspose.Tasks. Hướng dẫn của chúng tôi cung cấp các bước tích hợp liền mạch, giúp bạn đạt được kết quả tối ưu với Định Dạng 24bppRgb. [Theo dõi hướng dẫn tại đây.](./render-data-format-24bppRgb/)
 
-## Lưu dưới dạng PDF trong Aspose.Tasks
- Chuyển đổi các tệp dự án của bạn sang PDF một cách liền mạch bằng Aspose.Tasks for Java. Hãy làm theo các bước đơn giản của chúng tôi để chuyển đổi hiệu quả và nâng cao khả năng lập tài liệu dự án của bạn.[Tìm hiểu làm thế nào ở đây.](./save-as-pdf/)
+## Thay Thế Lịch MS Project trong Aspose.Tasks
+Kiểm soát lịch dự án của bạn bằng cách học cách thay thế nó qua Aspose.Tasks cho Java. Hướng dẫn chi tiết, kèm ví dụ mã nguồn, giúp bạn tùy chỉnh trải nghiệm quản lý dự án. [Khám phá các bước tại đây.](./replace-calendar/)
 
-## Chuyển đổi MS Project sang SVG trong Java
- Khám phá cách lưu tệp Microsoft Project dưới dạng SVG trong Java bằng thư viện Aspose.Tasks. Hướng dẫn từng bước của chúng tôi cùng với các ví dụ về mã đảm bảo quá trình tích hợp diễn ra suôn sẻ.[Bắt đầu chuyển đổi sang SVG tại đây.](./save-as-svg/)
+## Truy Xuất Thông Tin Lịch MS Project trong Aspose.Tasks
+Truy cập chi tiết lịch MS Project một cách lập trình trở nên dễ dàng với Aspose.Tasks cho Java. Thực hiện theo hướng dẫn từng bước để lấy thông tin lịch một cách nhanh chóng và nâng cao khả năng quản lý dự án. [Tìm hiểu thêm tại đây.](./retrieve-calendar-info/)
 
-## Lưu dữ liệu dự án MS vào Excel trong Aspose.Tasks
- Các nhà phát triển Java có thể dễ dàng lưu dữ liệu Microsoft Project vào tệp Excel bằng Aspose.Tasks. Hướng dẫn của chúng tôi cung cấp các bước tích hợp đơn giản, giúp công việc của bạn dễ dàng hơn.[Tim hiểu thêm ở đây.](./save-data-to-excel/)
+## Truy Xuất Mã Outline MS Project trong Aspose.Tasks
+Khám phá sức mạnh của việc truy xuất mã outline của Microsoft Project một cách lập trình bằng Aspose.Tasks cho Java. Nâng cao khả năng quản lý dự án của bạn với tutorial này. [Khám phá các khả năng tại đây.](./retrieve-outline-codes/)
 
-## Chuyển đổi MS Project thành JPEG trong Aspose.Tasks
-Tăng năng suất của bạn bằng cách tìm hiểu cách chuyển đổi tệp Microsoft Project thành hình ảnh JPEG bằng Aspose.Tasks cho Java. Hướng dẫn của chúng tôi cung cấp một quy trình đơn giản để đạt được điều này một cách hiệu quả.[Hãy bắt đầu từ đây.](./save-as-jpeg/)
+## Lưu Dưới Dạng CSV, Text và Template trong Aspose.Tasks
+Lưu tệp Microsoft Project dưới dạng CSV, Text và Template một cách hiệu quả với Aspose.Tasks cho Java. Hướng dẫn của chúng tôi cung cấp các bước tích hợp dễ dàng, đơn giản hoá quy trình cho các nhà phát triển Java. [Bắt đầu lưu tại đây.](./save-csv-text-template/)
 
-## Đặt thuộc tính dự án MS cho nhiệm vụ mới trong Aspose.Tasks
- Tùy chỉnh các thuộc tính tác vụ một cách dễ dàng bằng cách tìm hiểu cách đặt thuộc tính MS Project cho các tác vụ mới bằng Aspose.Tasks cho Java. Hướng dẫn toàn diện của chúng tôi đảm bảo bạn có thể điều chỉnh trải nghiệm quản lý dự án của mình.[Khám phá hướng dẫn ở đây.](./set-attributes-new-tasks/)
+## Lưu Dưới Dạng PDF trong Aspose.Tasks
+Chuyển đổi tệp dự án sang PDF một cách liền mạch bằng Aspose.Tasks cho Java. Thực hiện các bước đơn giản của chúng tôi để chuyển đổi hiệu quả và nâng cao khả năng tài liệu hoá dự án. [Tìm hiểu cách thực hiện tại đây.](./save-as-pdf/)
 
-## Nắm vững số lượng quy mô thời gian của dự án MS trong Aspose.Tasks
- Quản lý hiệu quả số lượng quy mô thời gian trong MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa việc quản lý và trực quan hóa dự án một cách dễ dàng với hướng dẫn từng bước của chúng tôi.[Đếm thang thời gian chính ở đây.](./set-time-scale-count/)
+## Chuyển Đổi MS Project sang SVG trong Java
+Khám phá cách lưu tệp Microsoft Project dưới dạng SVG trong Java bằng thư viện Aspose.Tasks. Hướng dẫn chi tiết kèm ví dụ mã nguồn của chúng tôi đảm bảo quá trình tích hợp suôn sẻ. [Bắt đầu chuyển đổi sang SVG tại đây.](./save-as-svg/)
 
-## Cập nhật & Lên lịch lại dự án MS trong Aspose.Tasks
-Luôn cập nhật các dự án của bạn bằng cách tìm hiểu cách cập nhật và sắp xếp lại các tệp MS Project theo chương trình với Aspose.Tasks cho Java. Hướng dẫn của chúng tôi đảm bảo một quy trình suôn sẻ để quản lý dự án hiệu quả.[Luôn cập nhật ở đây.](./update-project-reschedule-work/)
+## Lưu Dữ Liệu MS Project vào Excel trong Aspose.Tasks
+Các nhà phát triển Java có thể dễ dàng lưu dữ liệu Microsoft Project vào tệp Excel với Aspose.Tasks. Hướng dẫn của chúng tôi cung cấp các bước tích hợp trực quan, giúp công việc của bạn trở nên dễ dàng hơn. [Tìm hiểu thêm tại đây.](./save-data-to-excel/)
 
-## Tạo chế độ xem dự án MS tùy chỉnh trong Aspose.Tasks
- Nâng cao hiệu quả quản lý dự án bằng cách dễ dàng tạo các chế độ xem MS Project tùy chỉnh bằng cách sử dụng Aspose.Tasks cho Java. Hướng dẫn của chúng tôi sẽ hướng dẫn bạn trong suốt quá trình, cung cấp các chế độ xem phù hợp cho dự án của bạn.[Tạo chế độ xem tùy chỉnh ở đây.](./custom-views/)
+## Chuyển Đổi MS Project sang JPEG trong Aspose.Tasks
+Tăng năng suất của bạn bằng cách học cách chuyển đổi tệp Microsoft Project sang hình ảnh JPEG sử dụng Aspose.Tasks cho Java. Hướng dẫn của chúng tôi cung cấp quy trình không rắc rối để đạt được kết quả nhanh chóng. [Bắt đầu ngay tại đây.](./save-as-jpeg/)
 
-## Thuộc tính ngày trong tuần trong Aspose.Tasks
- Quản lý các thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, ngày trong tháng và hơn thế nữa một cách dễ dàng bằng cách sử dụng hướng dẫn chi tiết của chúng tôi.[Quản lý các ngày trong tuần hiệu quả tại đây.](./weekday-properties/)
+## Đặt Thuộc Tính MS Project cho Các Công Việc Mới trong Aspose.Tasks
+Tùy chỉnh thuộc tính công việc một cách dễ dàng bằng cách học cách đặt thuộc tính MS Project cho các công việc mới sử dụng Aspose.Tasks cho Java. Hướng dẫn toàn diện của chúng tôi đảm bảo bạn có thể tùy chỉnh trải nghiệm quản lý dự án. [Khám phá hướng dẫn tại đây.](./set-attributes-new-tasks/)
 
-## Viết tóm tắt dự án MPP trong Aspose.Tasks
- Tìm hiểu cách viết tóm tắt dự án MPP bằng Java bằng Aspose.Tasks. Thiết lập và truy xuất thông tin dự án một cách dễ dàng với hướng dẫn từng bước của chúng tôi.[Viết tóm tắt dự án ở đây.](./write-mpp-project-summary/)
+## Thành Thạo Đếm Thang Thời Gian MS Project trong Aspose.Tasks
+Quản lý đếm thang thời gian trong MS Project một cách hiệu quả bằng Aspose.Tasks cho Java. Tối ưu hoá việc hiển thị và quản lý dự án một cách dễ dàng với tutorial từng bước của chúng tôi. [Thành thạo đếm thang thời gian tại đây.](./set-time-scale-count/)
+
+## Cập Nhật & Lên Lịch Lại MS Project trong Aspose.Tasks
+Luôn cập nhật dự án của bạn bằng cách học cách cập nhật và lên lịch lại tệp MS Project một cách lập trình với Aspose.Tasks cho Java. Hướng dẫn của chúng tôi đảm bảo quy trình suôn sẻ cho việc quản lý dự án hiệu quả. [Cập nhật ngay tại đây.](./update-project-reschedule-work/)
+
+## Tạo Các View Tùy Chỉnh cho MS Project trong Aspose.Tasks
+Nâng cao hiệu quả quản lý dự án bằng cách tạo các view tùy chỉnh cho MS Project một cách dễ dàng sử dụng Aspose.Tasks cho Java. Tutorial của chúng tôi hướng dẫn bạn qua quá trình, cung cấp các view được thiết kế riêng cho dự án của bạn. [Tạo view tùy chỉnh tại đây.](./custom-views/)
+
+## Thuộc Tính Ngày Trong Tuần trong Aspose.Tasks
+Quản lý thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, số ngày trong tháng và nhiều hơn nữa một cách dễ dàng với tutorial chi tiết của chúng tôi. [Quản lý ngày trong tuần hiệu quả tại đây.](./weekday-properties/)
+
+## Ghi Tóm Tắt Dự Án MPP trong Aspose.Tasks
+Học cách ghi tóm tắt dự án MPP trong Java bằng Aspose.Tasks. Đặt và truy xuất thông tin dự án một cách dễ dàng với hướng dẫn từng bước của chúng tôi. [Ghi tóm tắt dự án tại đây.](./write-mpp-project-summary/)
 
 ---
 
-Khám phá những khả năng to lớn của Aspose.Tasks dành cho Java với các hướng dẫn chuyên sâu của chúng tôi. Mỗi hướng dẫn được tạo ra để trao quyền cho các nhà phát triển Java trong việc nắm vững các thao tác tệp dự án, đảm bảo hiệu quả và nâng cao khả năng quản lý dự án. Hãy tham gia và kiểm soát các dự án của bạn ngay hôm nay!
-## Hướng dẫn vận hành tệp dự án
-### [Giảm khoảng cách giữa danh sách nhiệm vụ và chân trang trong Aspose.Tasks](./reduce-gap-tasks-list-footer/)
-Tìm hiểu cách giảm khoảng cách giữa danh sách nhiệm vụ và chân trang của MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa bố cục tài liệu dự án một cách dễ dàng.
-### [Kết xuất dữ liệu dự án MS với định dạng 24bppRgb trong Aspose.Tasks](./render-data-format-24bppRgb/)
-Tìm hiểu cách hiển thị dữ liệu MS Project dưới dạng hình ảnh trong Java bằng Aspose.Tasks. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-### [Thay thế Lịch dự án MS trong Aspose.Tasks](./replace-calendar/)
-Tìm hiểu cách thay thế lịch Microsoft Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước với các ví dụ về mã.
-### [Truy xuất thông tin lịch dự án MS trong Aspose.Tasks](./retrieve-calendar-info/)
-Tìm hiểu cách truy xuất thông tin lịch MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để truy cập chi tiết lịch theo chương trình.
-### [Truy xuất mã phác thảo dự án MS trong Aspose.Tasks](./retrieve-outline-codes/)
-Tìm hiểu cách truy xuất mã phác thảo Microsoft Project theo chương trình bằng cách sử dụng Aspose.Tasks cho Java. Nâng cao khả năng quản lý dự án của bạn.
-### [Lưu dưới dạng CSV, văn bản và mẫu trong Aspose.Tasks](./save-csv-text-template/)
-Tìm hiểu cách lưu tệp Microsoft Project ở định dạng CSV, Văn bản và Mẫu bằng Aspose.Tasks cho Java.
-### [Lưu dưới dạng PDF trong Aspose.Tasks](./save-as-pdf/)
-Tìm hiểu cách chuyển đổi tệp dự án sang PDF bằng Aspose.Tasks cho Java. Các bước đơn giản để chuyển đổi hiệu quả.
-### [Chuyển đổi MS Project sang SVG trong Java](./save-as-svg/)
-Tìm hiểu cách lưu tệp Microsoft Project dưới dạng SVG trong Java bằng thư viện Aspose.Tasks. Hướng dẫn từng bước với các ví dụ về mã.
-### [Lưu dữ liệu dự án MS vào Excel trong Aspose.Tasks](./save-data-to-excel/)
+Khám phá vô vàn khả năng của Aspose.Tasks cho Java qua các tutorial sâu sắc của chúng tôi. Mỗi hướng dẫn được thiết kế để giúp các nhà phát triển Java làm chủ các thao tác tệp dự án, đảm bảo hiệu suất và nâng cao khả năng quản lý dự án. Hãy bắt đầu và kiểm soát dự án của bạn ngay hôm nay!
+
+## Tutorial Thao Tác Tệp Dự Án
+### [Giảm Khoảng Cách Giữa Danh Sách Công Việc và Chân Trang trong Aspose.Tasks](./reduce-gap-tasks-list-footer/)
+Tìm hiểu cách giảm khoảng cách giữa danh sách công việc MS Project và chân trang bằng Aspose.Tasks cho Java. Tối ưu hoá bố cục tài liệu dự án một cách dễ dàng.
+### [Render Dữ Liệu MS Project với Định Dạng 24bppRgb trong Aspose.Tasks](./render-data-format-24bppRgb/)
+Tìm hiểu cách render dữ liệu MS Project thành hình ảnh trong Java sử dụng Aspose.Tasks. Thực hiện tutorial từng bước để tích hợp liền mạch.
+### [Thay Thế Lịch MS Project trong Aspose.Tasks](./replace-calendar/)
+Tìm hiểu cách thay thế lịch Microsoft Project bằng Aspose.Tasks cho Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
+### [Truy Xuất Thông Tin Lịch MS Project trong Aspose.Tasks](./retrieve-calendar-info/)
+Tìm hiểu cách truy xuất thông tin lịch MS Project bằng Aspose.Tasks cho Java. Hướng dẫn từng bước để truy cập chi tiết lịch một cách lập trình.
+### [Truy Xuất Mã Outline MS Project trong Aspose.Tasks](./retrieve-outline-codes/)
+Tìm hiểu cách truy xuất mã outline của Microsoft Project một cách lập trình bằng Aspose.Tasks cho Java. Nâng cao khả năng quản lý dự án của bạn.
+### [Lưu Dưới Dạng CSV, Text và Template trong Aspose.Tasks](./save-csv-text-template/)
+Tìm hiểu cách lưu tệp Microsoft Project dưới dạng CSV, Text và Template bằng Aspose.Tasks cho Java.
+### [Lưu Dưới Dạng PDF trong Aspose.Tasks](./save-as-pdf/)
+Tìm hiểu cách chuyển đổi tệp dự án sang PDF bằng Aspose.Tasks cho Java. Các bước đơn giản cho việc chuyển đổi hiệu quả.
+### [Chuyển Đổi MS Project sang SVG trong Java](./save-as-svg/)
+Tìm hiểu cách lưu tệp Microsoft Project dưới dạng SVG trong Java bằng thư viện Aspose.Tasks. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
+### [Lưu Dữ Liệu MS Project vào Excel trong Aspose.Tasks](./save-data-to-excel/)
 Tìm hiểu cách lưu dữ liệu Microsoft Project vào tệp Excel bằng Aspose.Tasks cho Java. Tích hợp dễ dàng cho các nhà phát triển Java.
-### [Chuyển đổi MS Project thành JPEG trong Aspose.Tasks](./save-as-jpeg/)
-Tìm hiểu cách dễ dàng chuyển đổi tệp Microsoft Project thành hình ảnh JPEG bằng Aspose.Tasks cho Java. Tăng năng suất của bạn.
-### [Đặt thuộc tính dự án MS cho nhiệm vụ mới trong Aspose.Tasks](./set-attributes-new-tasks/)
-Tìm hiểu cách đặt thuộc tính MS Project cho các tác vụ mới bằng Aspose.Tasks cho Java. Tùy chỉnh các thuộc tính nhiệm vụ một cách dễ dàng với hướng dẫn toàn diện này.
-### [Nắm vững số lượng quy mô thời gian của dự án MS trong Aspose.Tasks](./set-time-scale-count/)
-Tìm hiểu cách quản lý hiệu quả số lượng quy mô thời gian trong MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa trực quan hóa và quản lý dự án một cách dễ dàng.
-### [Cập nhật & Lên lịch lại dự án MS trong Aspose.Tasks](./update-project-reschedule-work/)
-Tìm hiểu cách cập nhật và sắp xếp lại các tệp MS Project theo chương trình bằng Aspose.Tasks cho Java.
-### [Tạo chế độ xem dự án MS tùy chỉnh trong Aspose.Tasks](./custom-views/)
-Tìm hiểu cách tạo chế độ xem MS Project tùy chỉnh một cách dễ dàng bằng cách sử dụng Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với các quan điểm phù hợp.
-### [Thuộc tính ngày trong tuần trong Aspose.Tasks](./weekday-properties/)
-Tìm hiểu cách quản lý các thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, ngày trong tháng và hơn thế nữa một cách dễ dàng.
-### [Viết tóm tắt dự án MPP trong Aspose.Tasks](./write-mpp-project-summary/)
-Tìm hiểu cách viết tóm tắt dự án MPP bằng Java bằng Aspose.Tasks. Thiết lập và truy xuất thông tin dự án một cách dễ dàng.
+### [Chuyển Đổi MS Project sang JPEG trong Aspose.Tasks](./save-as-jpeg/)
+Tìm hiểu cách chuyển đổi tệp Microsoft Project sang hình ảnh JPEG một cách dễ dàng bằng Aspose.Tasks cho Java. Tăng năng suất của bạn.
+### [Đặt Thuộc Tính MS Project cho Các Công Việc Mới trong Aspose.Tasks](./set-attributes-new-tasks/)
+Tìm hiểu cách đặt thuộc tính MS Project cho các công việc mới bằng Aspose.Tasks cho Java. Tùy chỉnh thuộc tính công việc một cách dễ dàng với hướng dẫn toàn diện này.
+### [Thành Thạo Đếm Thang Thời Gian MS Project trong Aspose.Tasks](./set-time-scale-count/)
+Tìm hiểu cách quản lý đếm thang thời gian trong MS Project một cách hiệu quả bằng Aspose.Tasks cho Java. Tối ưu hoá việc hiển thị và quản lý dự án một cách dễ dàng.
+### [Cập Nhật & Lên Lịch Lại MS Project trong Aspose.Tasks](./update-project-reschedule-work/)
+Tìm hiểu cách cập nhật và lên lịch lại tệp MS Project một cách lập trình bằng Aspose.Tasks cho Java.
+### [Tạo Các View Tùy Chỉnh cho MS Project trong Aspose.Tasks](./custom-views/)
+Tìm hiểu cách tạo các view tùy chỉnh cho MS Project một cách dễ dàng bằng Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với các view được thiết kế riêng.
+### [Thuộc Tính Ngày Trong Tuần trong Aspose.Tasks](./weekday-properties/)
+Học cách quản lý thuộc tính ngày trong tuần một cách hiệu quả trong Aspose.Tasks cho Java. Tùy chỉnh ngày bắt đầu tuần, số ngày trong tháng và nhiều hơn nữa một cách dễ dàng.
+### [Ghi Tóm Tắt Dự Án MPP trong Aspose.Tasks](./write-mpp-project-summary/)
+Tìm hiểu cách ghi tóm tắt dự án MPP trong Java bằng Aspose.Tasks. Đặt và truy xuất thông tin dự án một cách dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Câu Hỏi Thường Gặp
+
+**Q: Làm thế nào để cập nhật lịch MS Project mà không mở Microsoft Project?**  
+A: Sử dụng Aspose.Tasks cho Java để tải tệp .mpp, sửa đổi ngày công việc hoặc lịch dự án, gọi `project.updateTaskDates()` (hoặc API tương tự), sau đó lưu tệp.
+
+**Q: Tôi có thể chuyển đổi tệp MS Project trực tiếp sang PDF không?**  
+A: Có. Tutorial “Save As PDF” hướng dẫn cách xuất dự án ra PDF chỉ với một lời gọi phương thức.
+
+**Q: Xuất dữ liệu dự án ra Excel có được hỗ trợ không?**  
+A: Chắc chắn. Thực hiện theo hướng dẫn “Save MS Project Data to Excel” để tạo tệp .xlsx chứa công việc, nguồn lực và phân công.
+
+**Q: Làm sao để truy xuất mã outline từ một dự án?**  
+A: Tutorial “Retrieve MS Project Outline Codes” minh họa cách duyệt qua các công việc và đọc bộ sưu tập `OutlineCode`.
+
+**Q: Định dạng nào nên dùng để lưu dữ liệu dự án lớn cho phân tích?**  
+A: CSV là lựa chọn nhẹ; xem tutorial “Save As CSV, Text, and Template” để biết chi tiết.
+
+---
+
+**Cập Nhật Cuối Cùng:** 2025-12-18  
+**Được Kiểm Tra Với:** Aspose.Tasks cho Java 24.11  
+**Tác Giả:** Aspose
