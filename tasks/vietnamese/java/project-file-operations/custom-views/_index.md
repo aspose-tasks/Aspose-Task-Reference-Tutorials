@@ -1,28 +1,42 @@
 ---
-title: Tạo chế độ xem dự án MS tùy chỉnh trong Aspose.Tasks
-linktitle: Chế độ xem tùy chỉnh trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách tạo chế độ xem MS Project tùy chỉnh một cách dễ dàng bằng cách sử dụng Aspose.Tasks cho Java. Nâng cao hiệu quả quản lý dự án với các quan điểm phù hợp.
-weight: 24
+date: 2025-12-18
+description: Tìm hiểu cách tạo view trong Aspose.Tasks cho Java, bao gồm cách lưu
+  view dự án và thiết lập các thuộc tính view. Nâng cao hiệu quả quản lý dự án với
+  các view tùy chỉnh MS Project được thiết kế riêng.
+linktitle: Custom Views in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Cách tạo View: Các chế độ xem tùy chỉnh của MS Project trong Aspose.Tasks'
 url: /vi/java/project-file-operations/custom-views/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo chế độ xem dự án MS tùy chỉnh trong Aspose.Tasks
+# Cách Tạo View: Các View Tùy Chỉnh trong MS Project bằng Aspose.Tasks
 
-## Giới thiệu
-Trong quản lý dự án, việc tùy chỉnh chế độ xem có thể nâng cao đáng kể tính rõ ràng và hiệu quả của việc quản lý nhiệm vụ và tài nguyên. Aspose.Tasks cho Java cung cấp các công cụ mạnh mẽ để tạo các chế độ xem tùy chỉnh phù hợp với các yêu cầu cụ thể của dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo các chế độ xem MS Project tùy chỉnh bằng cách sử dụng Aspose.Tasks cho Java theo từng bước.
-## Điều kiện tiên quyết
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-### Môi trường phát triển Java
-Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
-### Aspose.Tasks cho Java
- Tải xuống và cài đặt Aspose.Tasks cho Java từ[đây](https://releases.aspose.com/tasks/java/).
-## Gói nhập khẩu
-Đầu tiên, nhập các gói cần thiết vào dự án Java của bạn:
+## Introduction
+Nếu bạn đang tìm **cách tạo view** phù hợp với nhu cầu báo cáo độc đáo của dự án, bạn đã đến đúng nơi. Trong quản lý dự án, việc tùy chỉnh các view có thể cải thiện đáng kể độ rõ ràng và hiệu quả khi xử lý nhiệm vụ và nguồn lực. **Aspose.Tasks for Java** cung cấp cho bạn một API phong phú để **thêm custom view java**‑style, cho phép bạn điều chỉnh các view của MS Project chính xác theo nhu cầu. Trong hướng dẫn này, chúng tôi sẽ đi qua quy trình từng bước, từ việc thiết lập dự án đến lưu view dự án.
+
+## Quick Answers
+- **Mục đích chính là gì?** Tạo và lưu trữ một custom MS Project view bằng Aspose.Tasks for Java.  
+- **Lớp nào tạo view?** `GanttChartView` (hoặc các loại view khác).  
+- **Làm sao để view xuất hiện trong menu?** Đặt `view.setShowInMenu(true)`.  
+- **Làm sao để lưu view cùng dự án?** Sử dụng `MPPSaveOptions` với `setWriteViewData(true)`.  
+- **Có cần giấy phép không?** Có, cần một giấy phép Aspose.Tasks hợp lệ để sử dụng trong môi trường sản xuất.
+
+## Prerequisites
+Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
+
+### Java Development Environment
+Đảm bảo Java đã được cài đặt trên hệ thống của bạn.
+
+### Aspose.Tasks for Java
+Tải xuống và cài đặt Aspose.Tasks for Java từ [here](https://releases.aspose.com/tasks/java/).
+
+## Import Packages
+Đầu tiên, nhập các package cần thiết vào dự án Java của bạn:
 ```java
 import com.aspose.tasks.Field;
 import com.aspose.tasks.GanttChartView;
@@ -33,65 +47,97 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.TableField;
 import com.aspose.tasks.View;
 ```
-Bây giờ, hãy chia ví dụ thành nhiều bước:
-## Bước 1: Thiết lập dự án
+
+## Step 1: Set Up Project
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Tạo một dự án trống không có lượt xem
+// Create an empty project without views
 Project project = new Project();
 project.set(Prj.NAME, "Test View Project");
 ```
-## Bước 2: Tạo chế độ xem
+
+## Step 2: Create View
 ```java
-// Tạo chế độ xem biểu đồ Gantt tiêu chuẩn
+// Create a standard Gantt chart view
 View view = new GanttChartView();
 ```
-## Bước 3: Tùy chỉnh thuộc tính chế độ xem
+
+## Step 3: Customize View Properties *(set view properties)*
 ```java
-// Đặt một số thuộc tính chế độ xem
-view.setShowInMenu(true); // Cho biết có hiển thị chế độ xem trong menu hay không
-view.setHighlightFilter(true); // Cho biết có đánh dấu bộ lọc cho chế độ xem hay không
+// Set some view properties
+view.setShowInMenu(true); // Indicate whether to show the view in the menu
+view.setHighlightFilter(true); // Indicate whether to highlight the filter for the view
 ```
-## Bước 4: Điều chỉnh cài đặt chế độ xem
+
+### How to Show View Menu
+Lệnh `view.setShowInMenu(true)` đảm bảo view mới tạo sẽ xuất hiện trong **view menu** của MS Project, giúp người dùng cuối truy cập nhanh chóng.
+
+## Step 4: Tune View Settings
 ```java
-// Điều chỉnh một số cài đặt chế độ xem
-view.getPageInfo().getPageViewSettings().setFirstColumnsCount(4); // Đặt số cột đầu tiên để in trên tất cả các trang
-view.getPageInfo().getPageViewSettings().setPrintFirstColumnsCountOnAllPages(true); // Cho biết có in số cột đầu tiên được chỉ định trên tất cả các trang hay không
+// Tune some view settings
+view.getPageInfo().getPageViewSettings().setFirstColumnsCount(4); // Set the number of first columns to print on all pages
+view.getPageInfo().getPageViewSettings().setPrintFirstColumnsCountOnAllPages(true); // Indicate whether to print specified number of first columns on all pages
 ```
-## Bước 5: Thêm chế độ xem vào dự án
+
+## Step 5: Add View to Project *(add custom view java)*
 ```java
-// Thêm chế độ xem vào dự án của chúng tôi
+// Add the view to our project
 project.getViews().add(view);
 ```
-## Bước 6: Lưu dự án
+
+## Step 6: Save Project *(save project view)*
 ```java
-// Lưu dự án với chế độ xem đã tạo
+// Save the project with the created view
 MPPSaveOptions options = new MPPSaveOptions();
-options.setWriteViewData(true); // Sử dụng cờ WriteViewData để duy trì các sửa đổi của project.Views
+options.setWriteViewData(true); // Use WriteViewData flag to persist modifications of project.Views
 project.save(dataDir + "workWithView_output.mpp", options);
 ```
-## Bước 7: Kiểm tra thuộc tính xem
+
+### Why Saving the Project View Matters
+Thiết lập `options.setWriteViewData(true)` thông báo cho Aspose.Tasks **lưu thông tin view dự án** vào file MPP, vì vậy view tùy chỉnh sẽ được giữ lại qua các phiên làm việc.
+
+## Step 7: Check View Properties
 ```java
-// Kiểm tra thuộc tính của chế độ xem mới được thêm vào
-System.out.println("View Uid: " + view.getUid()); // In mã định danh duy nhất của chế độ xem
-System.out.println("View Screen: " + view.getScreen()); // In loại màn hình cho chế độ xem
-System.out.println("View Type: " + view.getType()); // In kiểu xem
-System.out.println("Parent Project of the view: " + view.getParentProject().get(Prj.NAME)); // In dự án mẹ của dạng xem
+// Check properties of the newly added view
+System.out.println("View Uid: " + view.getUid()); // Print the unique identifier of the view
+System.out.println("View Screen: " + view.getScreen()); // Print the screen type for the view
+System.out.println("View Type: " + view.getType()); // Print the type of the view
+System.out.println("Parent Project of the view: " + view.getParentProject().get(Prj.NAME)); // Print the parent project of the view
 ```
-## Phần kết luận
-Chế độ xem MS Project tùy chỉnh cung cấp một cách linh hoạt để trực quan hóa dữ liệu dự án theo nhu cầu cụ thể. Với Aspose.Tasks dành cho Java, việc tạo chế độ xem tùy chỉnh trở nên đơn giản, cho phép người quản lý dự án hợp lý hóa quy trình công việc của họ một cách hiệu quả.
-## Các câu hỏi thường gặp
-### Câu hỏi 1: Tôi có thể tùy chỉnh các chế độ xem ngoài biểu đồ Gantt không?
-Trả lời: Có, Aspose.Tasks dành cho Java cung cấp tính linh hoạt để tùy chỉnh nhiều loại chế độ xem khác nhau ngoài biểu đồ Gantt, bao gồm các bảng và đồ thị.
-### Câu hỏi 2: Aspose.Tasks dành cho Java có phù hợp với các dự án quy mô lớn không?
-Đ: Chắc chắn rồi. Aspose.Tasks cho Java được thiết kế để xử lý các dự án thuộc mọi quy mô, cung cấp các tính năng mạnh mẽ để quản lý dự án hiệu quả.
-### Câu hỏi 3: Aspose.Tasks dành cho Java có hỗ trợ xuất chế độ xem sang các định dạng khác nhau không?
-Trả lời: Có, Aspose.Tasks for Java hỗ trợ xuất chế độ xem sang nhiều định dạng khác nhau như PDF, XLSX và HTML, đảm bảo khả năng tương thích với các nền tảng khác nhau.
-### Câu hỏi 4: Tôi có thể tự động hóa việc tạo chế độ xem tùy chỉnh bằng Aspose.Tasks cho Java không?
-Đ: Chắc chắn rồi. Aspose.Tasks cho Java cung cấp các API toàn diện để tự động hóa, cho phép các nhà phát triển tạo và quản lý các chế độ xem tùy chỉnh theo chương trình khi cần.
-### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks cho Java không?
- Đáp: Có, bạn có thể tìm sự trợ giúp và tương tác với những người dùng khác trong[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho các truy vấn và thảo luận liên quan đến Java.
+
+## Common Use Cases
+- **Stakeholder Reporting:** Tạo một view chỉ hiển thị các mốc quan trọng cấp cao và các nhiệm vụ quan trọng.  
+- **Resource Allocation:** Xây dựng một view liệt kê nguồn lực cùng với các nhiệm vụ được giao để kiểm tra năng lực nhanh chóng.  
+- **Print‑Ready Documents:** Điều chỉnh cài đặt trang (như trong Step 4) để tạo ra các bản sao dự án có thể in được.
+
+## Troubleshooting Tips
+- **View Not Appearing in Menu:** Kiểm tra lại việc gọi `view.setShowInMenu(true)` trước khi lưu.  
+- **Missing Columns in Printout:** Đảm bảo `setFirstColumnsCount` khớp với số cột bạn cần và bật `setPrintFirstColumnsCountOnAllPages(true)`.  
+- **License Exceptions:** Nếu gặp lỗi giấy phép, xác nhận rằng file giấy phép Aspose.Tasks hợp lệ đã được tải trước khi tạo đối tượng `Project`.
+
+## Frequently Asked Questions
+### Q1: Can I customize views beyond Gantt charts?
+A: Yes, Aspose.Tasks for Java provides flexibility to customize various types of views beyond Gantt charts, including tables and graphs.
+
+### Q2: Is Aspose.Tasks for Java suitable for large‑scale projects?
+A: Absolutely. The library is engineered to handle projects of any size, offering robust performance and memory management.
+
+### Q3: Does Aspose.Tasks for Java support exporting views to different formats?
+A: Yes, you can export views to PDF, XLSX, HTML, and other formats, ensuring seamless sharing across platforms.
+
+### Q4: Can I automate the creation of custom views using Aspose.Tasks for Java?
+A: Certainly. The API enables full automation, allowing you to programmatically generate and manage custom views.
+
+### Q5: Is there a community forum for Aspose.Tasks for Java support?
+A: Yes, you can find assistance and engage with other users in the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for Java‑related queries and discussions.
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
