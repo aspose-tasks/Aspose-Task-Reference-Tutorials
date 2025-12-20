@@ -1,54 +1,80 @@
 ---
-title: 在 Aspose.Tasks 中檢索 MS 專案大綱程式碼
-linktitle: 檢索 Aspose.Tasks 中的大綱程式碼
+date: 2025-12-20
+description: 學習如何使用 Aspose.Tasks for Java 以程式方式取得 MS Project 大綱代碼，提升您的專案管理能力。
+linktitle: Retrieve Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 以程式設計方式擷取 Microsoft Project 大綱程式碼。增強您的專案管理能力。
-weight: 15
+title: 在 Aspose.Tasks 中檢索 MS Project 大綱代碼
 url: /zh-hant/java/project-file-operations/retrieve-outline-codes/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中檢索 MS 專案大綱程式碼
+# 以 Aspose.Tasks 取得 MS Project 大綱代碼
 
 ## 介紹
-在本教程中，我們將學習如何使用 Aspose.Tasks for Java 檢索 Microsoft Project 大綱程式碼。 MS Project 中的大綱程式碼提供了一種結構化的方法來分類和組織專案任務、資源和分配。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式操作和管理 Microsoft Project 檔案。
-## 先決條件
-在我們開始之前，請確保您已設定以下先決條件：
-### 1.Java開發環境
-確保您的系統上安裝了 Java 開發工具包 (JDK)。您可以從 Oracle 網站下載並安裝 JDK。
-### 2.Aspose.Tasks庫
-下載 Aspose.Tasks 庫並將其包含在您的 Java 專案中。您可以從以下位置下載該程式庫[Aspose.Tasks for Java 下載頁面](https://releases.aspose.com/tasks/java/).
-## 導入包
-首先，從 Java 程式碼中的 Aspose.Tasks 匯入必要的套件：
+在本教學中，您將學習 **如何使用 Aspose.Tasks for Java 取得 MS Project 大綱代碼**。MS Project 的大綱代碼提供了一種強大的方式來對工作、資源與指派進行分類，程式化存取這些代碼可讓您建立自訂報表、自動化或整合解決方案。我們將一步一步示範完整範例，您可以直接複製到自己的專案中。
+
+## 快速回答
+- **程式碼的功能是什麼？** 載入專案檔並列印每個大綱代碼的定義、遮罩與值。  
+- **需要哪個函式庫？** Aspose.Tasks for Java（任意近期版本）。  
+- **需要授權嗎？** 開發階段可使用試用版；正式環境需購買正式授權。  
+- **支援哪個 Java 版本？** Java 8 以上。  
+- **取得後可以修改代碼嗎？** 可以——相同的 API 允許您新增、編輯或刪除大綱代碼。
+
+## 什麼是 MS Project 大綱代碼？
+大綱代碼是自訂欄位，讓專案經理在預設階層之外對工作進行分組與篩選。它們可以是簡單的數值、字串，甚至是企業層級在組織中定義的自訂代碼。透過讀取這些代碼，您可以驅動儀表板、匯出資料，或自動執行命名規則。
+
+## 為什麼要使用 Aspose.Tasks 取得 MS Project 大綱代碼？
+- **自動化：** 在不需手動匯出的情況下產生報表或觸發工作流程。  
+- **整合：** 將大綱代碼同步至 ERP、PPM 或 BI 工具。  
+- **客製化：** 根據代碼值套用業務規則（例如成本分配）。  
+- **跨平台：** 可在 Windows、Linux、macOS 上執行，與 Microsoft Project UI 無關。
+
+## 前置條件
+在開始之前，請確保已完成以下前置作業：
+
+### 1. Java 開發環境
+請確認您的系統已安裝 Java Development Kit (JDK)。可從 Oracle 官方網站下載並安裝 JDK。
+
+### 2. Aspose.Tasks 函式庫
+下載並將 Aspose.Tasks 函式庫加入您的 Java 專案。可從 [Aspose.Tasks for Java 下載頁面](https://releases.aspose.com/tasks/java/) 取得。
+
+## 匯入套件
+首先，在 Java 程式碼中匯入 Aspose.Tasks 所需的套件：
 ```java
 import com.aspose.tasks.OutlineCodeDefinition;
 import com.aspose.tasks.OutlineMask;
 import com.aspose.tasks.OutlineValue;
 import com.aspose.tasks.Project;
 ```
-現在讓我們將提供的範例程式碼分解為多個步驟：
-## 第 1 步：載入項目
+
+接下來，我們將提供的範例程式碼分成多個步驟說明：
+
+## 步驟 1：載入專案
 ```java
 String projectName = "ProjectFile.mpp";
 Project project = new Project(projectName);
 ```
-在此步驟中，我們將 Microsoft Project 檔案載入到`Project`使用提供的檔案名稱的物件。
-## 第 2 步：擷取大綱程式碼
+此步驟會使用提供的檔名將 Microsoft Project 檔載入 `Project` 物件。
+
+## 步驟 2：取得大綱代碼
 ```java
 for (OutlineCodeDefinition ocd : project.getOutlineCodes()) {
 ```
-我們迭代專案中的每個大綱程式碼定義。
-## 第 3 步：存取大綱程式碼屬性
+我們會遍歷專案中的每個大綱代碼定義。
+
+## 步驟 3：存取大綱代碼屬性
 ```java
 System.out.println("Alias = " + ocd.getAlias());
 System.out.println("Field Id = " + ocd.getFieldId());
 System.out.println("Field Name = " + ocd.getFieldName());
 ```
-我們檢索並列印大綱程式碼定義的各種屬性，例如別名、欄位 ID 和欄位名稱。
-## 第四步：檢查企業自訂程式碼
+取得並列印大綱代碼定義的各種屬性，例如別名 (Alias)、欄位 ID 與欄位名稱。
+
+## 步驟 4：檢查企業自訂代碼
 ```java
 if (ocd.getEnterprise()) {
     System.out.println("It is an enterprise custom outline code.");
@@ -56,16 +82,18 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-我們檢查大綱程式碼是否為企業自訂程式碼並相應列印結果。
-## 第 5 步：顯示輪廓代碼遮罩
+判斷此大綱代碼是否為企業自訂代碼，並相應列印結果。
+
+## 步驟 5：顯示大綱代碼遮罩
 ```java
 for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Level of a mask = " + m1.getLevel());
     System.out.println("Mask = " + m1.toString());
 }
 ```
-我們迭代與大綱程式碼關聯的每個遮罩並列印其層級和遮罩值。
-## 步驟 6：顯示輪廓代碼值
+遍歷與大綱代碼相關的每個遮罩，列印其層級與遮罩值。
+
+## 步驟 6：顯示大綱代碼值
 ```java
 for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Description of outline value = " + v1.getDescription());
@@ -74,20 +102,41 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-我們迭代每個大綱程式碼值並列印其描述、值 ID、值和類型。
+遍歷每個大綱代碼值，列印其說明、值 ID、值本身與類型。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **沒有輸出** | 專案檔路徑不正確 | 確認 `projectName` 指向有效的 `.mpp` 檔案。 |
+| **值為 null** | 檔案中未定義大綱代碼 | 確認專案檔實際包含大綱代碼（可在 MS Project UI 中檢查）。 |
+| **LicenseException** | 使用試用版未正確啟用 | 透過 `License license = new License(); license.setLicense("Aspose.Tasks.lic");` 套用臨時或正式授權。 |
+
+## 常見問答
+
+**Q: 可以使用 Aspose.Tasks for Java 在專案檔中修改大綱代碼嗎？**  
+A: 可以，Aspose.Tasks for Java 提供 API 讓您以程式方式修改大綱代碼。您可以使用相同的 `Project` 物件新增、編輯或刪除定義。
+
+**Q: Aspose.Tasks for Java 有提供試用版嗎？**  
+A: 有，您可從 [Aspose.Tasks 官方網站](https://releases.aspose.com/) 下載免費試用版。
+
+**Q: 如何取得 Aspose.Tasks for Java 的技術支援？**  
+A: 可前往 [Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15) 發問取得技術支援。
+
+**Q: 可以購買臨時授權嗎？**  
+A: 可以，請至 [購買頁面](https://purchase.aspose.com/temporary-license/) 購買 Aspose.Tasks for Java 的臨時授權。
+
+**Q: 哪裡可以找到 Aspose.Tasks for Java 的完整文件？**  
+A: 請參考 [文件說明](https://reference.aspose.com/tasks/java/) 取得詳細使用資訊。
+
 ## 結論
-在本教程中，我們學習如何使用 Aspose.Tasks for Java 檢索 MS Project 大綱程式碼。透過遵循提供的步驟，您可以有效地存取和操作 Java 應用程式中的大綱程式碼，從而實現高階專案管理功能。
-## 常見問題解答
-### Q1: 我可以使用Aspose.Tasks for Java修改Project檔案中的大綱程式碼嗎？
-答：是的，Aspose.Tasks for Java 提供 API 以程式方式修改 MS Project 檔案中的大綱程式碼。
-### Q2：Aspose.Tasks for Java 有試用版嗎？
-答：是的，您可以從 Aspose.Tasks for Java 下載免費試用版[Aspose.Tasks 網站](https://releases.aspose.com/).
-### Q3：如何獲得 Aspose.Tasks for Java 的技術支援？
-答：您可以透過造訪網站獲得技術支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)並在那裡發布您的疑問。
-### Q4：我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
-答：是的，您可以從 Aspose.Tasks for Java 購買臨時許可證[購買頁面](https://purchase.aspose.com/temporary-license/).
-### Q5：在哪裡可以找到 Aspose.Tasks for Java 的完整文件？
-答：您可以參考[文件](https://reference.aspose.com/tasks/java/)有關使用 Aspose.Tasks for Java 的詳細資訊。
+本教學說明了如何使用 Aspose.Tasks for Java 取得 **MS Project 大綱代碼**。依循上述步驟，您即可在 Java 應用程式中有效存取與操作大綱代碼，從而實現自訂報表、自動化以及與其他企業系統的整合等進階專案管理功能。
+
+---
+
+**最後更新：** 2025-12-20  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,45 @@
 ---
-title: Aspose.Tasks에서 MS 프로젝트 일정 정보 검색
-linktitle: Aspose.Tasks에서 캘린더 정보 검색
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks for Java를 사용하여 MS 프로젝트 달력 정보를 검색하는 방법을 알아보세요. 프로그래밍 방식으로 캘린더 세부정보에 액세스하기 위한 단계별 가이드입니다.
-weight: 14
+date: 2025-12-20
+description: Java를 사용하여 Microsoft Project 파일에서 프로젝트 캘린더 세부 정보를 추출하는 방법을 Aspose.Tasks로
+  배우세요. 코드 예제가 포함된 단계별 가이드.
+linktitle: Retrieve Calendar Info in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks를 사용하여 MS Project 캘린더 정보를 가져오는 방법
 url: /ko/java/project-file-operations/retrieve-calendar-info/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 MS 프로젝트 일정 정보 검색
+# Aspose.Tasks를 사용하여 MS Project 캘린더 정보 가져오기
 
 ## 소개
-이 튜토리얼에서는 Aspose.Tasks for Java 라이브러리를 사용하여 Microsoft Project 파일에서 달력 정보를 검색하는 방법을 살펴보겠습니다. Aspose.Tasks는 근무일 및 시간과 같은 달력 세부 정보에 액세스하는 것을 포함하여 프로젝트 데이터를 조작하는 강력한 기능을 제공합니다.
-## 전제조건
-시작하기 전에 다음 사항이 있는지 확인하세요.
-- Java 프로그래밍에 대한 기본 지식.
-- 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Aspose.Tasks for Java 라이브러리. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/java/).
+이 튜토리얼에서는 **Aspose.Tasks를 사용하는 방법**을 알아보고 Microsoft Project 파일에서 프로그래밍 방식으로 캘린더 정보를 가져오는 방법을 배웁니다. 작업일, 근무시간 및 예외와 같은 캘린더 데이터를 액세스하는 것은 **프로젝트 캘린더** 세부 정보를 보고, 통합하거나 맞춤 일정 로직을 위해 추출해야 할 때 필수적입니다. 단계별로 과정을 살펴보겠습니다.
+
+## 빠른 답변
+- **이 튜토리얼에서 사용하는 라이브러리는?** Aspose.Tasks for Java.  
+- **다루는 주요 키워드는?** *how to use aspose.tasks*.  
+- **무엇을 추출할 수 있나요?** 작업일 및 근무시간을 포함한 프로젝트 캘린더.  
+- **라이선스가 필요합니까?** 무료 체험판을 사용할 수 있으며, 프로덕션에서는 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Java 8 이상.
+
+## 프로젝트 캘린더 정보를 추출하는 이유
+프로젝트 캘린더는 작업 날짜, 리소스 할당 및 전체 일정 계산을 결정합니다. 이 데이터를 추출하면 다음을 수행할 수 있습니다:
+- 실제 작업 일정이 반영된 맞춤 보고서를 생성합니다.  
+- Microsoft Project 일정과 외부 시스템(ERP, BI 등)을 동기화합니다.  
+- 캘린더 설정을 프로그래밍 방식으로 수정하여 가상 시나리오 분석을 수행합니다.
+
+## 전제 조건
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
+- Java 프로그래밍에 대한 기본 지식.  
+- 시스템에 Java Development Kit (JDK)가 설치되어 있음.  
+- Aspose.Tasks for Java 라이브러리. [here](https://releases.aspose.com/tasks/java/)에서 다운로드할 수 있습니다.
+
 ## 패키지 가져오기
-먼저 Aspose.Tasks 기능을 사용하려면 Java 코드에 필요한 패키지를 가져와야 합니다.
+먼저, Java 프로젝트에 필요한 Aspose.Tasks 클래스를 가져옵니다.
+
 ```java
 import com.aspose.tasks.Calendar;
 import com.aspose.tasks.CalendarCollection;
@@ -29,43 +47,59 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.WeekDay;
 import com.aspose.tasks.WeekDayCollection;
 ```
-이제 더 나은 이해를 위해 제공된 예제를 여러 단계로 나누어 보겠습니다.
-## 1단계: 데이터 디렉터리 설정
+
+## 단계 1: 데이터 디렉터리 설정
+*.mpp* 파일이 포함된 폴더를 정의합니다.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- 바꾸다`"Your Data Directory"` 프로젝트 파일 디렉터리 경로를 사용하세요.
-## 2단계: 시간 단위 정의
+
+`"Your Data Directory"`를 **project.mpp** 파일이 위치한 폴더의 절대 경로로 교체하십시오.
+
+## 단계 2: 시간 단위 정의
+내부 시간 표현을 사람이 읽을 수 있는 시간(시)으로 변환하는 데 도움이 되는 상수를 생성합니다.
+
 ```java
 long OneSec = 10000000;
 long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
-이러한 상수는 마이크로초 단위의 시간 단위를 나타냅니다.
-## 3단계: 프로젝트 인스턴스 생성
+
+## 단계 3: Project 인스턴스 생성
+Microsoft Project 파일을 `Project` 객체에 로드합니다.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- 이 줄은`Project` 클래스를 프로젝트 파일의 경로로 초기화합니다(`project.mpp`).
-## 4단계: 캘린더 정보 검색
+
+`Project` 생성자는 *.mpp* 파일을 파싱하고 캘린더를 포함한 모든 프로젝트 데이터를 API를 통해 접근 가능하게 합니다.
+
+## 단계 4: 캘린더 정보 가져오기
+프로젝트에 정의된 캘린더 컬렉션을 가져옵니다.
+
 ```java
 CalendarCollection alCals = project.getCalendars();
 ```
-여기서는 프로젝트 파일에 있는 달력 컬렉션을 검색합니다.
-## 5단계: 달력을 통해 반복
+
+프로젝트에는 여러 캘린더(표준, 리소스, 사용자 정의 캘린더)가 포함될 수 있습니다. 이 컬렉션을 통해 각 캘린더에 접근할 수 있습니다.
+
+## 단계 5: 캘린더 순회
+각 캘린더를 순회하면서 UID, 이름 및 해당 근무일과 시간을 표시합니다.
+
 ```java
 for (Calendar cal : alCals) {
     if (cal.getName() != null) {
-        // 캘린더 정보
+        // Calendar Information
         System.out.println("Calendar UID : " + cal.getUid());
         System.out.println("Calendar Name : " + cal.getName());
-        // 평일을 통해 반복
+        // Iterate Through WeekDays
         WeekDayCollection alDays = cal.getWeekDays();
         for (WeekDay wd : alDays) {
-            double ts = wd.getWorkingTime(); // 시간(밀리초)
-            double time = ts / (OneHour); // 시간으로 변환
+            double ts = wd.getWorkingTime(); // Time in milliseconds
+            double time = ts / (OneHour); // Convert to hours
             if (wd.getDayWorking()) {
-                // 근무일 및 시간 표시
+                // Display Working Days and Hours
                 System.out.print(wd.getDayType() + ":");
                 System.out.print("Working Time:" + time + " Hours");
                 System.out.println(", Ticks = " + ts);
@@ -74,26 +108,42 @@ for (Calendar cal : alCals) {
     }
 }
 ```
-이 루프는 각 달력을 반복하여 해당 UID, 이름 및 작업일과 각 작업 시간을 인쇄합니다.
-## 6단계: 완료 메시지 표시
+
+내부 루프는 각 `WeekDay` 객체를 확인합니다. 해당 일이 작업일로 표시되면 요일 유형(월요일, 화요일, …)과 계산된 근무 시간을 함께 출력합니다.
+
+## 단계 6: 완료 메시지 표시
+추출 프로세스가 완료되었음을 알립니다.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-마지막으로 프로세스 완료를 나타내는 메시지가 표시됩니다.
-## 결론
-이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 파일에서 달력 정보를 검색하는 방법을 배웠습니다. 다음 단계를 수행하면 Java 애플리케이션에서 프로젝트 데이터에 효율적으로 액세스하고 조작할 수 있습니다.
 
-## FAQ
-### Q: Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-A: 예, Aspose.Tasks는 .NET, C를 포함한 여러 플랫폼과 프로그래밍 언어를 지원합니다.++, 파이썬, 자바.
-### Q: Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
- A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
-### Q: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
-A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
-### Q: Aspose.Tasks의 임시 라이선스를 구매할 수 있나요?
- A: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-### Q: Aspose.Tasks에 대한 자세한 문서는 어디서 찾을 수 있나요?
- A: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/tasks/java/).
+## 결론
+이 단계를 따르면 **Java를 사용하여 MS Project 파일에서 프로젝트 캘린더 정보를 추출하는 방법**을 이제 알게 됩니다. 이 로직을 더 큰 애플리케이션에 통합하거나, 보고서를 자동화하거나, 다른 엔터프라이즈 시스템과 일정을 동기화할 수 있습니다.
+
+## 자주 묻는 질문
+
+**Q: Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?**  
+A: 예, Aspose.Tasks는 .NET, C++, Python, Java 등 여러 플랫폼 및 프로그래밍 언어를 지원합니다.
+
+**Q: Aspose.Tasks의 무료 체험판이 있나요?**  
+A: 예, [here](https://releases.aspose.com/)에서 무료 체험판을 다운로드할 수 있습니다.
+
+**Q: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?**  
+A: Aspose.Tasks 커뮤니티 포럼에서 [here](https://forum.aspose.com/c/tasks/15) 지원을 받을 수 있습니다.
+
+**Q: Aspose.Tasks의 임시 라이선스를 구매할 수 있나요?**  
+A: 예, 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 구매할 수 있습니다.
+
+**Q: Aspose.Tasks에 대한 자세한 문서는 어디에서 찾을 수 있나요?**  
+A: 문서는 [here](https://reference.aspose.com/tasks/java/)에서 확인할 수 있습니다.
+
+---
+
+**마지막 업데이트:** 2025-12-20  
+**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
