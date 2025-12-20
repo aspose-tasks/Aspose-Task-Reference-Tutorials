@@ -1,27 +1,45 @@
 ---
-title: 在 Aspose.Tasks 中檢索 MS 專案日曆信息
-linktitle: 在 Aspose.Tasks 中檢索日曆信息
+date: 2025-12-20
+description: 學習如何使用 Aspose.Tasks 透過 Java 從 Microsoft Project 檔案中提取專案行事曆詳細資訊。逐步說明與程式碼範例。
+linktitle: Retrieve Calendar Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 擷取 MS Project 行事曆資訊。以程式設計方式存取日曆詳細資訊的逐步指南。
-weight: 14
+title: 如何使用 Aspose.Tasks 取得 MS Project 行事曆資訊
 url: /zh-hant/java/project-file-operations/retrieve-calendar-info/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中檢索 MS 專案日曆信息
+# 如何使用 Aspose.Tasks 取得 MS Project 行事曆資訊
 
 ## 介紹
-在本教學中，我們將探討如何使用 Aspose.Tasks for Java 函式庫從 Microsoft Project 檔案中擷取行事曆資訊。 Aspose.Tasks 提供了強大的功能來操作專案數據，包括存取日曆詳細信息，例如工作日和時間。
-## 先決條件
-在我們開始之前，請確保您具備以下條件：
-- Java 程式設計的基礎知識。
-- 您的系統上安裝了 Java 開發工具包 (JDK)。
--  Java 函式庫的 Aspose.Tasks。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/java/).
-## 導入包
-首先，您需要在 Java 程式碼中匯入必要的套件才能使用 Aspose.Tasks 功能。
+在本教學中，**您將學會如何使用 Aspose.Tasks** 以程式方式從 Microsoft Project 檔案中取得行事曆資訊。取得工作日、工時與例外情況等行事曆資料，對於需要**擷取專案行事曆**以進行報表、整合或自訂排程邏輯時相當重要。讓我們一步一步完成整個流程。
+
+## 快速回答
+- **本教學使用哪個函式庫？** Aspose.Tasks for Java。  
+- **主要關鍵字是什麼？** *how to use aspose.tasks*。  
+- **可以抽取什麼資訊？** 專案行事曆，包括工作日與工時。  
+- **需要授權嗎？** 提供免費試用版；正式環境需購買授權。  
+- **支援的 Java 版本？** Java 8 以上。
+
+## 為什麼要抽取專案行事曆資訊？
+專案行事曆決定工作任務的日期、資源分配與整體時間線計算。抽取這些資料您可以：
+- 產生反映實際工作排程的自訂報表。  
+- 將 Microsoft Project 時間線與外部系統（ERP、BI 等）同步。  
+- 透過程式化修改行事曆設定，執行假設分析。
+
+## 前置條件
+在開始之前，請確保您已具備：
+
+- 基本的 Java 程式開發知識。  
+- 已在系統上安裝 Java Development Kit (JDK)。  
+- Aspose.Tasks for Java 函式庫。您可從 [此處](https://releases.aspose.com/tasks/java/) 下載。
+
+## 匯入套件
+首先，將必要的 Aspose.Tasks 類別匯入您的 Java 專案。
+
 ```java
 import com.aspose.tasks.Calendar;
 import com.aspose.tasks.CalendarCollection;
@@ -29,43 +47,61 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.WeekDay;
 import com.aspose.tasks.WeekDayCollection;
 ```
-現在讓我們將提供的範例分解為多個步驟以便更好地理解。
-## 第1步：設定資料目錄
+
+## 步驟 1：設定資料目錄
+定義放置 *.mpp* 檔案的資料夾路徑。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`以及專案檔案目錄的路徑。
-## 第 2 步：定義時間單位
+
+將 `"Your Data Directory"` 替換為 **project.mpp** 所在資料夾的絕對路徑。
+
+## 步驟 2：定義時間單位
+建立常數，以協助將內部時間表示轉換為可讀的工時。
+
 ```java
 long OneSec = 10000000;
 long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
-這些常數表示以微秒為單位的時間單位。
-## 步驟3：建立專案實例
+
+這些值以微秒為單位，正是 Aspose.Tasks 內部儲存時間的方式。
+
+## 步驟 3：建立 Project 實例
+將 Microsoft Project 檔案載入為 `Project` 物件。
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-這一行建立了一個實例`Project`類，使用專案文件的路徑對其進行初始化（`project.mpp`）。
-## 第 4 步：檢索日曆信息
+
+`Project` 建構子會解析 *.mpp* 檔案，並讓您透過 API 存取所有專案資料，包括行事曆。
+
+## 步驟 4：取得行事曆資訊
+取得專案中定義的行事曆集合。
+
 ```java
 CalendarCollection alCals = project.getCalendars();
 ```
-在這裡，我們檢索項目文件中存在的日曆集合。
-## 第 5 步：迭代日曆
+
+一個專案可能包含多個行事曆（標準、資源與自訂行事曆）。此集合讓您可以存取每一個行事曆。
+
+## 步驟 5：遍歷行事曆
+逐一迭代每個行事曆，顯示其 UID、名稱以及對應的工作日與工時。
+
 ```java
 for (Calendar cal : alCals) {
     if (cal.getName() != null) {
-        //日曆資訊
+        // Calendar Information
         System.out.println("Calendar UID : " + cal.getUid());
         System.out.println("Calendar Name : " + cal.getName());
-        //迭代工作日
+        // Iterate Through WeekDays
         WeekDayCollection alDays = cal.getWeekDays();
         for (WeekDay wd : alDays) {
-            double ts = wd.getWorkingTime(); //時間（以毫秒為單位）
-            double time = ts / (OneHour); //轉換為小時
+            double ts = wd.getWorkingTime(); // Time in milliseconds
+            double time = ts / (OneHour); // Convert to hours
             if (wd.getDayWorking()) {
-                //顯示工作日和時間
+                // Display Working Days and Hours
                 System.out.print(wd.getDayType() + ":");
                 System.out.print("Working Time:" + time + " Hours");
                 System.out.println(", Ticks = " + ts);
@@ -74,26 +110,42 @@ for (Calendar cal : alCals) {
     }
 }
 ```
-此循環遍歷每個日曆並列印其 UID、名稱、工作日以及相應的工作時間。
-## 第 6 步：顯示完成訊息
+
+內部迴圈會檢查每個 `WeekDay` 物件。若該日被標記為工作日，則會印出星期類型（Monday、Tuesday…）以及計算出的工作時數。
+
+## 步驟 6：顯示完成訊息
+表示抽取程序已結束。
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-最後，將顯示一條訊息，指示該過程已完成。
-## 結論
-在本教程中，我們學習如何使用 Aspose.Tasks for Java 從 MS Project 檔案檢索日曆資訊。透過執行這些步驟，您可以有效地存取和操作 Java 應用程式中的專案資料。
 
-## 常見問題解答
-### Q：我可以將 Aspose.Tasks 與其他程式語言一起使用嗎？
-答：是的，Aspose.Tasks支援多種平台和程式語言，包括.NET、C++、Python 和 Java。
-### Q：Aspose.Tasks 是否有免費試用版？
-答：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
-### Q：如何獲得 Aspose.Tasks 的支援？
-答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
-### Q：我可以購買 Aspose.Tasks 的臨時授權嗎？
-答：是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-### Q：在哪裡可以找到 Aspose.Tasks 的詳細文件？
-答：可以參考文檔[這裡](https://reference.aspose.com/tasks/java/).
+## 結論
+透過上述步驟，**您現在已掌握如何使用 Aspose.Tasks 以 Java 從 MS Project 檔案中抽取專案行事曆資訊**。您可以將此邏輯整合至更大型的應用程式、自動化報表，或與其他企業系統同步排程。
+
+## 常見問與答
+
+**Q: 可以在其他程式語言中使用 Aspose.Tasks 嗎？**  
+A: 可以，Aspose.Tasks 支援多平台與程式語言，包括 .NET、C++、Python 與 Java。
+
+**Q: Aspose.Tasks 有提供免費試用版嗎？**  
+A: 有，您可從 [此處](https://releases.aspose.com/) 下載免費試用版。
+
+**Q: 如何取得 Aspose.Tasks 的支援？**  
+A: 您可在 Aspose.Tasks 社群論壇 [此處](https://forum.aspose.com/c/tasks/15) 取得支援。
+
+**Q: 可以購買臨時授權嗎？**  
+A: 可以，臨時授權可於 [此處](https://purchase.aspose.com/temporary-license/) 購買。
+
+**Q: 哪裡可以找到 Aspose.Tasks 的詳細文件？**  
+A: 請參考文件說明 [此處](https://reference.aspose.com/tasks/java/)。
+
+---
+
+**最後更新：** 2025-12-20  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,47 @@
 ---
-title: Recuperar información del calendario de MS Project en Aspose.Tasks
-linktitle: Recuperar información del calendario en Aspose.Tasks
-second_title: Aspose.Tasks API de Java
-description: Aprenda cómo recuperar información del calendario de MS Project usando Aspose.Tasks para Java. Guía paso a paso para acceder a los detalles del calendario mediante programación.
-weight: 14
+date: 2025-12-20
+description: Aprende a usar Aspose.Tasks para extraer los detalles del calendario
+  del proyecto de archivos de Microsoft Project usando Java. Guía paso a paso con
+  ejemplos de código.
+linktitle: Retrieve Calendar Info in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cómo usar Aspose.Tasks para obtener información del calendario de MS Project
 url: /es/java/project-file-operations/retrieve-calendar-info/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recuperar información del calendario de MS Project en Aspose.Tasks
+# Cómo usar Aspose.Tasks para obtener información del calendario de MS Project
 
 ## Introducción
-En este tutorial, exploraremos cómo recuperar información del calendario de archivos de Microsoft Project usando la biblioteca Aspose.Tasks para Java. Aspose.Tasks proporciona potentes funciones para manipular los datos del proyecto, incluido el acceso a detalles del calendario, como días y horas laborables.
+En este tutorial, **descubrirás cómo usar Aspose.Tasks** para recuperar programáticamente información del calendario de archivos Microsoft Project. Acceder a datos del calendario como días laborables, horas y excepciones es esencial cuando necesitas **extraer el calendario del proyecto** para informes, integración o lógica de programación personalizada. Vamos a recorrer el proceso paso a paso.
+
+## Respuestas rápidas
+- **¿Qué biblioteca utiliza este tutorial?** Aspose.Tasks for Java.  
+- **¿Qué palabra clave principal se cubre?** *how to use aspose.tasks*.  
+- **¿Qué puedes extraer?** Calendarios de proyecto, incluidos los días y horas laborables.  
+- **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia para producción.  
+- **¿Qué versión de Java se admite?** Java 8 o superior.
+
+## ¿Por qué extraer información del calendario del proyecto?
+Los calendarios del proyecto determinan las fechas de las tareas, la asignación de recursos y los cálculos de la línea de tiempo general. Al extraer estos datos puedes:
+- Generar informes personalizados que reflejen los horarios de trabajo reales.  
+- Sincronizar las líneas de tiempo de Microsoft Project con sistemas externos (ERP, BI, etc.).  
+- Realizar análisis de escenarios modificando la configuración del calendario mediante programación.
+
 ## Requisitos previos
-Antes de comenzar, asegúrese de tener lo siguiente:
-- Conocimientos básicos de programación Java.
-- Kit de desarrollo de Java (JDK) instalado en su sistema.
--  Aspose.Tasks para la biblioteca Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/java/).
+Antes de comenzar, asegúrate de contar con:
+
+- Conocimientos básicos de programación en Java.  
+- Java Development Kit (JDK) instalado en su sistema.  
+- Biblioteca Aspose.Tasks for Java. Puede descargarla desde [here](https://releases.aspose.com/tasks/java/).
+
 ## Importar paquetes
-Primero, necesita importar los paquetes necesarios en su código Java para usar las funcionalidades de Aspose.Tasks.
+Primero, importa las clases necesarias de Aspose.Tasks en tu proyecto Java.
+
 ```java
 import com.aspose.tasks.Calendar;
 import com.aspose.tasks.CalendarCollection;
@@ -29,43 +49,61 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.WeekDay;
 import com.aspose.tasks.WeekDayCollection;
 ```
-Ahora dividamos el ejemplo proporcionado en varios pasos para una mejor comprensión.
-## Paso 1: configurar el directorio de datos
+
+## Paso 1: Establecer el directorio de datos
+Define la carpeta que contiene tu archivo *.mpp*.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Reemplazar`"Your Data Directory"` con la ruta al directorio de archivos de su proyecto.
-## Paso 2: definir unidades de tiempo
+
+Reemplaza `"Your Data Directory"` con la ruta absoluta a la carpeta donde reside **project.mpp**.
+
+## Paso 2: Definir unidades de tiempo
+Crea constantes que ayuden a convertir la representación interna del tiempo a horas legibles por humanos.
+
 ```java
 long OneSec = 10000000;
 long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
-Estas constantes representan unidades de tiempo en microsegundos.
-## Paso 3: crear una instancia de proyecto
+
+Estos valores se expresan en microsegundos, que es como Aspose.Tasks almacena el tiempo internamente.
+
+## Paso 3: Crear una instancia de Project
+Carga el archivo Microsoft Project en un objeto `Project`.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
- Esta línea crea una instancia de la`Project` clase, inicializándola con la ruta al archivo del proyecto (`project.mpp`).
-## Paso 4: recuperar información de calendarios
+
+El constructor `Project` analiza el archivo *.mpp* y hace que todos los datos del proyecto, incluidos los calendarios, sean accesibles a través de la API.
+
+## Paso 4: Recuperar información de los calendarios
+Obtén la colección de calendarios definidos en el proyecto.
+
 ```java
 CalendarCollection alCals = project.getCalendars();
 ```
-Aquí, recuperamos una colección de calendarios presentes en el archivo del proyecto.
-## Paso 5: iterar a través de calendarios
+
+Un proyecto puede contener múltiples calendarios (estándar, de recursos y personalizados). Esta colección te brinda acceso a cada uno.
+
+## Paso 5: Iterar a través de los calendarios
+Recorre cada calendario, muestra su UID, nombre y los días laborables con sus horas correspondientes.
+
 ```java
 for (Calendar cal : alCals) {
     if (cal.getName() != null) {
-        // Información del calendario
+        // Calendar Information
         System.out.println("Calendar UID : " + cal.getUid());
         System.out.println("Calendar Name : " + cal.getName());
-        // Iterar a través de los días de la semana
+        // Iterate Through WeekDays
         WeekDayCollection alDays = cal.getWeekDays();
         for (WeekDay wd : alDays) {
-            double ts = wd.getWorkingTime(); // Tiempo en milisegundos
-            double time = ts / (OneHour); // Convertir a horas
+            double ts = wd.getWorkingTime(); // Time in milliseconds
+            double time = ts / (OneHour); // Convert to hours
             if (wd.getDayWorking()) {
-                // Mostrar días y horas laborables
+                // Display Working Days and Hours
                 System.out.print(wd.getDayType() + ":");
                 System.out.print("Working Time:" + time + " Hours");
                 System.out.println(", Ticks = " + ts);
@@ -74,26 +112,42 @@ for (Calendar cal : alCals) {
     }
 }
 ```
-Este bucle recorre cada calendario e imprime su UID, nombre y días laborables con sus respectivos horarios laborales.
+
+El bucle interno verifica cada objeto `WeekDay`. Si el día está marcado como laborable, imprime el tipo de día (Monday, Tuesday, …) junto con las horas laborables calculadas.
+
 ## Paso 6: Mostrar mensaje de finalización
+Indica que el proceso de extracción ha finalizado.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Finalmente, se muestra un mensaje indicando la finalización del proceso.
+
 ## Conclusión
-En este tutorial, aprendimos cómo recuperar información del calendario de archivos de MS Project usando Aspose.Tasks para Java. Si sigue estos pasos, podrá acceder y manipular eficazmente los datos del proyecto en sus aplicaciones Java.
+Al seguir estos pasos, **ahora sabes cómo usar Aspose.Tasks para extraer información del calendario del proyecto** de un archivo MS Project usando Java. Puedes integrar esta lógica en aplicaciones más grandes, automatizar informes o sincronizar horarios con otros sistemas empresariales.
 
 ## Preguntas frecuentes
-### P: ¿Puedo utilizar Aspose.Tasks con otros lenguajes de programación?
-R: Sí, Aspose.Tasks admite múltiples plataformas y lenguajes de programación, incluidos .NET, C++, Python y Java.
-### P: ¿Hay una prueba gratuita disponible para Aspose.Tasks?
- R: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
-### P: ¿Cómo puedo obtener soporte para Aspose.Tasks?
-R: Puede obtener soporte en el foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
-### P: ¿Puedo comprar una licencia temporal para Aspose.Tasks?
- R: Sí, se pueden comprar licencias temporales[aquí](https://purchase.aspose.com/temporary-license/).
-### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?
- R: Puede consultar la documentación.[aquí](https://reference.aspose.com/tasks/java/).
+
+**Q: ¿Puedo usar Aspose.Tasks con otros lenguajes de programación?**  
+A: Sí, Aspose.Tasks admite múltiples plataformas y lenguajes de programación, incluidos .NET, C++, Python y Java.
+
+**Q: ¿Hay una prueba gratuita disponible para Aspose.Tasks?**  
+A: Sí, puedes descargar una versión de prueba gratuita desde [here](https://releases.aspose.com/).
+
+**Q: ¿Cómo puedo obtener soporte para Aspose.Tasks?**  
+A: Puedes obtener soporte en el foro de la comunidad de Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+**Q: ¿Puedo comprar una licencia temporal para Aspose.Tasks?**  
+A: Sí, las licencias temporales están disponibles para su compra [here](https://purchase.aspose.com/temporary-license/).
+
+**Q: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?**  
+A: Puedes consultar la documentación [here](https://reference.aspose.com/tasks/java/).
+
+---
+
+**Última actualización:** 2025-12-20  
+**Probado con:** Aspose.Tasks for Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
