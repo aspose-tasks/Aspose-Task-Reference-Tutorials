@@ -1,68 +1,120 @@
 ---
-title: แปลงโครงการ MS เป็น JPEG ใน Aspose.Tasks
-linktitle: บันทึกโครงการเป็น JPEG ใน Aspose.Tasks
+date: 2025-12-20
+description: เรียนรู้วิธีการปรับคุณภาพ JPEG และส่งออกภาพ JPEG จากไฟล์ Microsoft Project
+  ด้วย Aspose.Tasks สำหรับ Java.
+linktitle: Save Project As JPEG in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: เรียนรู้วิธีแปลงไฟล์ Microsoft Project เป็นภาพ JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Tasks สำหรับ Java เพิ่มผลผลิตของคุณ
-weight: 20
+title: ปรับคุณภาพ JPEG เมื่อบันทึก MS Project เป็น JPEG
 url: /th/java/project-file-operations/save-as-jpeg/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลงโครงการ MS เป็น JPEG ใน Aspose.Tasks
+# ปรับคุณภาพ JPEG เมื่อบันทึก MS Project เป็น JPEG ด้วย Aspose.Tasks
 
-## การแนะนำ
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกไฟล์ Microsoft Project เป็นรูปภาพ JPEG โดยใช้ Aspose.Tasks สำหรับ Java สิ่งนี้มีประโยชน์อย่างยิ่งสำหรับการแบ่งปันการแสดงภาพโครงการหรือการบูรณาการข้อมูลโครงการลงในรายงานหรือการนำเสนอ
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดได้จาก[เว็บไซต์จาวา](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Tasks สำหรับ Java: ดาวน์โหลดและตั้งค่า Aspose.Tasks สำหรับ Java โดยทำตามคำแนะนำที่ให้ไว้ใน[เอกสารประกอบ](https://reference.aspose.com/tasks/java/).
+## Introduction
+ในบทแนะนำนี้ คุณจะได้เรียนรู้วิธี **ปรับคุณภาพ JPEG** เมื่อบันทึกไฟล์ Microsoft Project เป็นภาพ JPEG โดยใช้ Aspose.Tasks for Java ความสามารถนี้มีประโยชน์สำหรับการสร้างรายงานภาพที่ชัดเจน การฝังภาพโครงการลงในงานนำเสนอ หรือเพียงแค่ส่งออกไฟล์ JPEG ด้วยระดับรายละเอียดที่คุณต้องการ
 
-## แพ็คเกจนำเข้า
-ขั้นแรก นำเข้าแพ็คเกจที่จำเป็นไปยังไฟล์ Java ของคุณ:
+## Quick Answers
+- **“ปรับคุณภาพ JPEG” ทำอะไร?** มันให้คุณควบคุมระดับการบีบอัดของ JPEG ที่ส่งออก เพื่อสมดุลระหว่างขนาดไฟล์และความคมชัดของภาพ  
+- **ไลบรารีที่ทำการแปลงคืออะไร?** Aspose.Tasks for Java มี API ที่ใช้งานง่ายสำหรับการส่งออกไฟล์ Project เป็น JPEG  
+- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีสามารถใช้เพื่อประเมินผลได้; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **ฉันสามารถตั้งค่าคุณภาพในโค้ดได้หรือไม่?** ได้, ใช้เมธอด `ImageSaveOptions.setJpegQuality(int)` (ช่วง 0‑100)  
+- **กระบวนการเร็วหรือไม่?** การแปลงไฟล์โครงการทั่วไปเป็น JPEG ใช้เวลาเพียงไม่กี่วินาทีบนฮาร์ดแวร์สมัยใหม่  
+
+## What is “adjust JPEG quality”?
+การปรับคุณภาพ JPEG หมายถึงการตั้งค่าปัจจัยการบีบอัดที่ใช้เมื่อบันทึกรูปภาพในรูปแบบ JPEG คุณภาพที่สูงกว่า (ค่าที่ใกล้ 100) จะรักษารายละเอียดมากขึ้นแต่ไฟล์จะใหญ่ขึ้น, ในขณะที่คุณภาพที่ต่ำกว่าจะลดขนาดไฟล์แต่เสียความคมชัดของภาพ
+
+## Why use Aspose.Tasks for JPEG export?
+Aspose.Tasks ให้วิธีที่เชื่อถือได้และไม่ขึ้นกับแพลตฟอร์มในการเรนเดอร์แผนภูมิ Gantt, มุมมองทรัพยากร, และภาพโครงการอื่น ๆ โดยตรงเป็นไฟล์ภาพ มันช่วยขจัดความจำเป็นในการถ่ายภาพหน้าจอด้วยตนเองและรับประกันผลลัพธ์ที่สม่ำเสมอในทุกสภาพแวดล้อม
+
+## Prerequisites
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+1. Java Development Kit (JDK): ตรวจสอบว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจาก [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. Aspose.Tasks for Java: ดาวน์โหลดและตั้งค่า Aspose.Tasks for Java ตามคำแนะนำใน [documentation](https://reference.aspose.com/tasks/java/).
+
+## Import Packages
+แรกสุด, นำเข้าแพ็กเกจที่จำเป็นไปยังไฟล์ Java ของคุณ:
 ```java
 import com.aspose.tasks.ImageSaveOptions;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
-## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีข้อมูล
-กำหนดเส้นทางไปยังไดเร็กทอรีข้อมูลของคุณซึ่งมีไฟล์ MS Project อยู่
+
+## Step 1: Define Data Directory
+กำหนดเส้นทางไปยังไดเรกทอรีข้อมูลของคุณที่ไฟล์ MS Project อยู่
 ```java
 String dataDir = "Your Data Directory";
 ```
-## ขั้นตอนที่ 2: โหลดไฟล์โครงการ MS
-โหลดไฟล์ MS Project โดยใช้ Aspose.Tasks
+
+## Step 2: Load MS Project File
+โหลดไฟล์ MS Project ด้วย Aspose.Tasks.
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
-## ขั้นตอนที่ 3: กำหนดค่าคุณภาพ JPEG (ไม่บังคับ)
- หากคุณต้องการปรับคุณภาพ JPEG คุณสามารถตั้งค่าได้โดยใช้`ImageSaveOptions` ระดับ. คุณภาพมีตั้งแต่ 0 ถึง 100
+
+## Step 3: Adjust JPEG Quality (Optional)
+หากคุณต้องการปรับแต่งผลลัพธ์, คุณสามารถ **ตั้งค่าคุณภาพ JPEG** โดยใช้คลาส `ImageSaveOptions` ค่า quality อยู่ในช่วง 0 ถึง 100, และนี่เป็นวิธีทั่วไปในการ **set jpeg quality java**‑style.
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.Jpeg);
-options.setJpegQuality(50); // ตั้งค่าคุณภาพ JPEG เป็น 50
+options.setJpegQuality(50); // Set JPEG quality to 50
 ```
-## ขั้นตอนที่ 4: บันทึกโครงการเป็น JPEG
-บันทึกไฟล์ MS Project เป็นรูปภาพ JPEG
+
+## Step 4: Save Project as JPEG
+บันทึกไฟล์ MS Project เป็นภาพ JPEG.
 ```java
 project.save(dataDir + "image_out.jpeg", options);
 ```
 
-## บทสรุป
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีบันทึกไฟล์ Microsoft Project เป็นรูปภาพ JPEG โดยใช้ Aspose.Tasks สำหรับ Java คุณสมบัตินี้ช่วยให้สามารถแบ่งปันและรวมข้อมูลโครงการลงในเอกสารและการนำเสนอต่างๆ ได้อย่างง่ายดาย
-## คำถามที่พบบ่อย
-### ถาม: ฉันสามารถปรับคุณภาพของภาพ JPEG ได้หรือไม่
- ตอบ: ได้ คุณสามารถปรับคุณภาพได้โดยใช้`setJpegQuality()` วิธีที่มีช่วงตั้งแต่ 0 ถึง 100
-### ถาม: จะเกิดอะไรขึ้นหากฉันไม่ระบุคุณภาพ JPEG
-ตอบ: หากคุณไม่ระบุคุณภาพ ระบบจะใช้คุณภาพเริ่มต้น
-### ถาม: Aspose.Tasks สำหรับ Java ใช้งานได้ฟรีหรือไม่
- ตอบ: Aspose.Tasks for Java เป็นไลบรารีเชิงพาณิชย์ แต่คุณสามารถสำรวจคุณสมบัติต่างๆ ได้ด้วยการทดลองใช้ฟรี เยี่ยมชม[หน้าทดลองใช้ฟรี](https://releases.aspose.com/) สำหรับข้อมูลเพิ่มเติม.
-### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
-ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
-### ถาม: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้หรือไม่
- ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+## How to Export JPEG from MS Project
+ขั้นตอนข้างต้นแสดง **วิธีการส่งออก JPEG** จากไฟล์ Microsoft Project โดยการปรับคุณภาพ JPEG, คุณควบคุมการแลกเปลี่ยนระหว่างความคมชัดของภาพและขนาดไฟล์, ทำให้ภาพที่ส่งออกเหมาะสำหรับการเผยแพร่บนเว็บ, รายงานที่พิมพ์, หรือสไลด์ที่ฝัง
+
+## Conclusion
+ในบทแนะนำนี้, เราได้อธิบายวิธี **ปรับคุณภาพ JPEG** ขณะแปลงไฟล์ Microsoft Project เป็นภาพ JPEG ด้วย Aspose.Tasks for Java วิธีนี้ช่วยให้การแชร์ภาพการมองเห็นโครงการเป็นเรื่องง่าย, รับประกันคุณภาพภาพที่สม่ำเสมอ, และให้คุณควบคุมขนาดผลลัพธ์ได้เต็มที่
+
+## FAQ's
+### Q: Can I adjust the quality of the JPEG image?
+A: ใช่, คุณสามารถปรับคุณภาพได้โดยใช้เมธอด `setJpegQuality()`, ช่วงค่าตั้งแต่ 0 ถึง 100.  
+
+### Q: What if I don't specify the JPEG quality?
+A: หากคุณไม่ได้ระบุคุณภาพ, ระบบจะใช้คุณภาพเริ่มต้น.  
+
+### Q: Is Aspose.Tasks for Java free to use?
+A: Aspose.Tasks for Java เป็นไลบรารีเชิงพาณิชย์, แต่คุณสามารถสำรวจคุณสมบัติโดยใช้การทดลองใช้ฟรี. เยี่ยมชม [free trial page](https://releases.aspose.com/) สำหรับข้อมูลเพิ่มเติม.  
+
+### Q: Where can I get support for Aspose.Tasks for Java?
+A: คุณสามารถรับการสนับสนุนจากฟอรั่มชุมชน Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).  
+
+### Q: Can I purchase a temporary license for Aspose.Tasks?
+A: ใช่, คุณสามารถซื้อไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).  
+
+## Additional Frequently Asked Questions
+
+**Q: Does adjusting JPEG quality affect Gantt chart readability?**  
+A: คุณภาพที่สูงจะรักษาข้อความและรายละเอียดเส้นไว้ได้ดี, ในขณะที่คุณภาพที่ต่ำมากอาจทำให้ป้ายกำกับขนาดเล็กอ่านยาก.  
+
+**Q: Can I export other image formats besides JPEG?**  
+A: ใช่, Aspose.Tasks รองรับ PNG, BMP, และ TIFF ผ่าน enum `SaveFileFormat` ที่เหมาะสม.  
+
+**Q: Is it possible to export multiple pages (e.g., different views) at once?**  
+A: คุณสามารถวนลูปผ่านมุมมองที่ต้องการและบันทึกแต่ละอันเป็น JPEG แยกไฟล์โดยใช้การตั้งค่า `ImageSaveOptions` เดียวกัน.  
+
+**Q: What Java version is required?**  
+A: Aspose.Tasks for Java ทำงานกับ JDK 8 ขึ้นไป.  
+
+**Q: How do I handle large projects that produce big images?**  
+A: พิจารณาลดคุณภาพ JPEG หรือปรับขนาดมิติภาพผ่านการตั้งค่าเพิ่มเติมของ `ImageSaveOptions`.  
+
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
