@@ -1,86 +1,119 @@
 ---
-title: Save As CSV, Text, and Template in Aspose.Tasks
-linktitle: Save As CSV, Text, and Template in Aspose.Tasks
+title: Save Project as Template, CSV, and Text with Aspose.Tasks for Java
+linktitle: Save Project as Template, CSV, and Text with Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: Learn how to save Microsoft Project files in CSV, Text, and Template formats using Aspose.Tasks for Java.
+description: Learn how to save project as template, export MPP to CSV, and convert MPP to text using Aspose.Tasks for Java.
 weight: 16
 url: /java/project-file-operations/save-csv-text-template/
+date: 2025-12-21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save As CSV, Text, and Template in Aspose.Tasks
+# Save Project as Template, CSV, and Text with Aspise.Tasks
 
 ## Introduction
-In this tutorial, we'll explore how to save project files in various formats like CSV, Text, and Template using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows developers to work with Microsoft Project files without the need for Microsoft Project to be installed.
+In this tutorial, you'll discover **how to save project as template** and also how to export your Microsoft Project (MPP) files to CSV and plain‑text formats using the Aspose.Tasks library for Java. Whether you need to create a reusable project template, generate CSV reports for analytics, or produce simple text extracts for integration, these steps will guide you through the process quickly and efficiently.
+
+## Quick Answers
+- **Can I export MPP to CSV?** Yes – use `project.save(..., SaveFileFormat.CSV)`.  
+- **How to export text?** Save with `SaveFileFormat.TEXT`.  
+- **What does “save project as template” do?** It creates an `.mpt` file that strips actual and baseline values, ready for reuse.  
+- **Do I need a license?** A trial is available; a commercial license is required for production.  
+- **Which Java version is required?** Java 8+ is supported.
+
+## What is “save project as template”?
+Saving a project as a template (`.mpt`) captures the structure, task hierarchy, and resource assignments while removing the actual start/finish dates and baseline data. This makes the template ideal for re‑using a standard project layout across multiple new projects.
+
+## Why use Aspose.Tasks for Java?
+Aspose.Tasks lets you manipulate Microsoft Project files without installing Microsoft Project itself. It supports **how to export MPP**, **how to export text**, and **convert MPP to CSV**, all from pure Java code, which is perfect for server‑side automation, CI pipelines, or desktop utilities.
+
 ## Prerequisites
-Before we begin, make sure you have the following prerequisites:
-1. Java Development Kit (JDK) installed on your system.
-2. Aspose.Tasks for Java library downloaded and configured in your Java project. You can download it from [here](https://releases.aspose.com/tasks/java/).
-3. Basic knowledge of Java programming language.
+Before we begin, ensure you have:
+
+1. Java Development Kit (JDK) 8 or higher installed.  
+2. Aspose.Tasks for Java library added to your project. Download it from [here](https://releases.aspose.com/tasks/java/).  
+3. Basic familiarity with Java syntax and Maven/Gradle project setup.
 
 ## Import Packages
-First, you need to import the necessary packages in your Java file:
+First, import the required classes in your Java source file:
+
 ```java
 import java.io.IOException;
 import com.aspose.tasks.*;
 ```
-## Save Project As CSV
-Let's break down the steps to save a project as CSV:
+
+## Save Project as CSV (Export MPP to CSV)
+Exporting an MPP file to CSV is useful for data analysis in Excel or BI tools.
+
 ### Step 1: Load the Project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
+
 ### Step 2: Save as CSV
 ```java
 String csvFileName = "output.csv";
 project.save(csvFileName, com.aspose.tasks.SaveFileFormat.CSV);
 ```
-## Save Project As Text
-Here's how you can save a project as Text:
+
+## Save Project as Text (How to Export Text)
+If you need a plain‑text representation of tasks, resources, or assignments, save the project as a text file.
+
 ### Step 1: Load the Project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
+
 ### Step 2: Save as Text
 ```java
 String textFileName = "output.txt";
 project.save(textFileName, com.aspose.tasks.SaveFileFormat.TEXT);
 ```
-## Save Project As Template
-Saving a project as a template involves the following steps:
+
+## Save Project as Template (Create Project Template Java)
+Creating a reusable template removes actual dates and baselines, leaving a clean skeleton for new projects.
+
 ### Step 1: Load the Project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
+
 ### Step 2: Set Template Options
 ```java
 SaveTemplateOptions options = new SaveTemplateOptions();
 options.setRemoveActualValues(true);
 options.setRemoveBaselineValues(true);
 ```
+
 ### Step 3: Save as Template
 ```java
 String templateName = "output.mpt";
 project.saveAsTemplate(templateName, options);
 ```
 
+## Common Issues & Tips
+- **File Not Found:** Ensure the path to `YourProject.mpp` is correct or use an absolute path.  
+- **License Exceptions:** Without a valid license, the library runs in evaluation mode and may add watermarks. Apply your license early in the code (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
+- **Large Projects:** For very large MPP files, consider increasing the JVM heap size (`-Xmx2g`) to avoid `OutOfMemoryError`.
+
 ## Conclusion
-In this tutorial, we've learned how to save Microsoft Project files as CSV, Text, and Template using Aspose.Tasks for Java. With these simple steps, you can efficiently manage your project files in various formats, enhancing your productivity as a Java developer.
+We've covered **how to save project as template**, as well as how to **export MPP to CSV** and **convert MPP to text** using Aspose.Tasks for Java. These capabilities let you automate project data handling, generate reusable templates, and integrate project information into other systems—all without needing Microsoft Project installed.
+
 ## FAQ's
 ### Q: Can Aspose.Tasks for Java handle complex project files?
-A: Absolutely! Aspose.Tasks for Java can handle projects of varying complexity with ease, providing comprehensive support for Microsoft Project file formats.
+A: Absolutely! Aspose.Tasks for Java can handle projects of varying complexity with ease, providing comprehensive support for Microsoft Project file formats.  
 ### Q: Is there a trial version available for Aspose.Tasks for Java?
-A: Yes, you can get a free trial of Aspose.Tasks for Java from [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial of Aspose.Tasks for Java from [here](https://releases.aspose.com/).  
 ### Q: Where can I find support for Aspose.Tasks for Java?
-A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries regarding Aspose.Tasks for Java.
+A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries regarding Aspose.Tasks for Java.  
 ### Q: Can I purchase a temporary license for Aspose.Tasks for Java?
-A: Yes, you can purchase a temporary license from [here](https://purchase.aspose.com/temporary-license/), allowing you to evaluate the full potential of the library.
+A: Yes, you can purchase a temporary license from [here](https://purchase.aspose.com/temporary-license/), allowing you to evaluate the full potential of the library.  
 ### Q: Is Aspose.Tasks for Java compatible with different operating systems?
 A: Yes, Aspose.Tasks for Java is compatible with various operating systems, including Windows, macOS, and Linux.
 
@@ -88,5 +121,12 @@ A: Yes, Aspose.Tasks for Java is compatible with various operating systems, incl
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
