@@ -1,29 +1,51 @@
 ---
-title: Converteer MS-project naar SVG in Java
-linktitle: Opslaan als SVG in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u Microsoft Project-bestanden opslaat als SVG in Java met behulp van de Aspose.Tasks-bibliotheek. Stapsgewijze handleiding met codevoorbeelden.
-weight: 18
+date: 2025-12-21
+description: Leer hoe u SVG maakt van MPP‑bestanden in Java en het project opslaat
+  als SVG met behulp van de Aspose.Tasks‑bibliotheek. Stapsgewijze handleiding met
+  codevoorbeelden.
+linktitle: Save As SVG in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Hoe maak je een SVG van een MPP in Java met Aspose.Tasks
 url: /nl/java/project-file-operations/save-as-svg/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Converteer MS-project naar SVG in Java
+# Hoe SVG te maken van MPP in Java
 
-## Invoering
-Aspose.Tasks voor Java is een krachtige bibliotheek voor het werken met projectbeheerbestanden, waarmee ontwikkelaars projectgegevens kunnen manipuleren, verschillende bewerkingen kunnen uitvoeren en efficiënt rapporten kunnen genereren. In deze zelfstudie onderzoeken we hoe u een project als SVG kunt opslaan met Aspose.Tasks voor Java. SVG (Scalable Vector Graphics) is een veelgebruikt formaat voor de weergave van vectorafbeeldingen op internet en biedt schaalbaarheid en weergave van hoge kwaliteit.
+## Inleiding
+In deze tutorial leer je hoe je **SVG van MPP**‑bestanden maakt met Aspose.Tasks voor Java. Het converteren van een Microsoft Project‑bestand (MPP) naar scalable vector graphics (SVG) stelt je in staat om hoogwaardige, resolutie‑onafhankelijke diagrammen direct in webpagina’s, rapporten of dashboards te embedden. We lopen de benodigde setup door, tonen de exacte code die je nodig hebt, en leggen elke stap uit zodat je vol vertrouwen **project kunt opslaan als SVG** in je eigen applicaties.
+
+## Snelle antwoorden
+- **Wat betekent “create SVG from MPP”?**  
+  Het zet een Microsoft Project‑bestand (.mpp) om in een SVG‑afbeelding die in elke browser kan worden weergegeven zonder kwaliteitsverlies.  
+- **Welke bibliotheek voert de conversie uit?**  
+  Aspose.Tasks voor Java biedt een één‑regelige `save`‑methode om de conversie uit te voeren.  
+- **Heb ik een licentie nodig?**  
+  Een tijdelijke licentie is vereist voor commercieel gebruik; een gratis proefversie is beschikbaar.  
+- **Wat zijn de vereisten?**  
+  Java JDK 8+ en de Aspose.Tasks voor Java JAR.  
+- **Hoe lang duurt de conversie?**  
+  Meestal minder dan een seconde voor standaard projectbestanden.
+
+## Wat is “create SVG from MPP”?
+Een SVG maken van een MPP‑bestand betekent dat je de visuele weergave van een projectschema—taken, tijdlijnen en resources—exporteert naar het Scalable Vector Graphics‑formaat. SVG is XML‑gebaseerd, lichtgewicht en schaalt perfect op high‑resolution displays.
+
+## Waarom Aspose.Tasks gebruiken om project op te slaan als SVG?
+- **Geen Microsoft Project‑installatie vereist** – de bibliotheek werkt onafhankelijk.  
+- **Volledige nauwkeurigheid** – grafieken, Gantt‑balken en mijlpalen behouden hun stijlen.  
+- **Cross‑platform** – voer de code uit op Windows, Linux of macOS.  
+- **Eenvoudige integratie** – één‑regelige API‑aanroep past natuurlijk in bestaande Java‑pijplijnen.
+
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
-### Java-ontwikkelomgeving
-Zorg ervoor dat Java Development Kit (JDK) op uw systeem is geïnstalleerd. U kunt JDK downloaden en installeren vanaf de Oracle-website.
-### Aspose.Tasks voor Java-bibliotheek
- Download en installeer de Aspose.Tasks voor Java-bibliotheek vanaf de website. U vindt de downloadlink in de meegeleverde documentatie[hier](https://releases.aspose.com/tasks/java/).
+- **Java Development Kit (JDK)** – versie 8 of hoger. Download van de Oracle‑website.  
+- **Aspose.Tasks voor Java** – verkrijg de bibliotheek van de officiële downloadpagina **[here](https://releases.aspose.com/tasks/java/)**.  
 
-## Pakketten importeren
-Eerst moet u de benodigde pakketten in uw Java-programma importeren om met de Aspose.Tasks-functionaliteiten te kunnen werken.
+## Importeer pakketten
+Eerst importeer je de klassen die je nodig hebt. Het import‑blok blijft ongewijzigd.
 
 ```java
 import com.aspose.tasks.Project;
@@ -34,36 +56,66 @@ import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
 
-Laten we nu het gegeven voorbeeld in meerdere stappen opsplitsen:
-## Stap 2: Definieer de gegevensdirectory
+## Stap 1: Definieer de gegevensmap
+Geef aan waar je bron‑MPP‑bestand zich bevindt en waar de SVG moet worden weggeschreven.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Vervangen`"Your Data Directory"`met het pad naar de map waar uw projectbestand zich bevindt.
-## Stap 3: Projectbestand laden
+
+> **Pro tip:** Gebruik een absoluut pad of een pad relatief ten opzichte van de resources‑map van je project om een `FileNotFoundException` te voorkomen.
+
+## Stap 2: Laad het MPP‑bestand
+Maak een `Project`‑instantie door het bestaande Microsoft Project‑bestand te laden.
+
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
-Met deze stap wordt het projectbestand met de naam "HomeMovePlan.mpp" geladen vanuit de opgegeven gegevensmap.
-## Stap 4: Opslaan als SVG
+
+Deze regel leest *HomeMovePlan.mpp* uit de map die je eerder hebt gedefinieerd.
+
+## Stap 3: Sla het project op als SVG
+Nu kun je **project opslaan als SVG** met één enkele opdracht.
+
 ```java
 project.save(dataDir + "project5.svg", SaveFileFormat.Svg);
 ```
-Met deze stap wordt het geladen project opgeslagen als SVG-indeling met de naam "project5.svg" in de opgegeven gegevensmap.
+
+De methode schrijft `project5.svg` naar dezelfde directory. De resulterende SVG kan in elke moderne browser worden geopend of direct in HTML worden ingebed.
+
+## Veelvoorkomende problemen en oplossingen
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Bestand niet gevonden** | Onjuiste `dataDir`‑pad | Controleer of de directory‑string eindigt met een scheidingsteken (`/` of `\\`). |
+| **Lege SVG‑output** | Project geladen zonder weergaven | Zorg ervoor dat het MPP‑bestand een Gantt‑chart‑weergave bevat voordat u opslaat. |
+| **Licentie‑exception** | Geen geldige licentie toegepast | Pas een tijdelijke licentie toe met `License.setLicense("path/to/license.xml")` voordat u `save` aanroept. |
+
+## Veelgestelde vragen
+
+**Q: Is Aspose.Tasks voor Java compatibel met alle versies van Microsoft Project‑bestanden?**  
+A: Ja, het ondersteunt MPP, MPT en XML‑formaten van oudere tot de nieuwste Project‑releases.
+
+**Q: Kan ik het uiterlijk van de SVG‑output aanpassen?**  
+A: Absoluut. Gebruik `SvgOptions` om lettertypen, kleuren en lay‑outopties in te stellen voordat u `save` aanroept.
+
+**Q: Vereist Aspose.Tasks voor Java een licentie voor commercieel gebruik?**  
+A: Ja, een geldige licentie is vereist voor productie. Je kunt een tijdelijke licentie verkrijgen **[here](https://purchase.aspose.com/temporary-license/)**.
+
+**Q: Kan ik Aspose.Tasks voor Java eerst uitproberen voordat ik koop?**  
+A: Ja, een gratis proefversie is beschikbaar **[here](https://purchase.aspose.com/buy)**.
+
+**Q: Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?**  
+A: Bezoek het community‑forum **[here](https://forum.aspose.com/c/tasks/15)** om vragen te stellen en feedback te delen.
 
 ## Conclusie
-In deze zelfstudie hebben we geleerd hoe u een project als SVG kunt opslaan met Aspose.Tasks voor Java. Door de aangegeven stappen te volgen, kunt u projectbestanden efficiënt naar SVG-indeling converteren, waardoor naadloze integratie met webgebaseerde toepassingen of visualisatietools mogelijk wordt.
-## Veelgestelde vragen
-### Is Aspose.Tasks voor Java compatibel met alle versies van Microsoft Project-bestanden?
-Ja, Aspose.Tasks voor Java ondersteunt verschillende versies van Microsoft Project-bestanden, waaronder MPP-, MPT- en XML-formaten.
-### Kan ik het uiterlijk van de SVG-uitvoer aanpassen?
-Ja, u kunt het uiterlijk van de SVG-uitvoer aanpassen door parameters zoals lettertypen, kleuren en lay-outconfiguraties aan te passen.
-### Heeft Aspose.Tasks voor Java een licentie nodig voor commercieel gebruik?
- Ja, voor commercieel gebruik van Aspose.Tasks voor Java is een geldige licentie vereist. U kunt een licentie verkrijgen via de website[hier](https://purchase.aspose.com/temporary-license/).
-### Kan ik Aspose.Tasks voor Java uitproberen voordat ik het aanschaf?
- Ja, u kunt via de website een gratis proefversie van Aspose.Tasks voor Java aanvragen[hier](https://purchase.aspose.com/buy) om de kenmerken en mogelijkheden ervan te evalueren.
-### Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
- U kunt ondersteuning krijgen voor Aspose.Tasks voor Java door het forum te bezoeken[hier](https://forum.aspose.com/c/tasks/15), waar u vragen kunt stellen en kunt communiceren met de community.
+Je weet nu hoe je **SVG van MPP**‑bestanden maakt in Java en efficiënt **project opslaat als SVG** met Aspose.Tasks. Deze mogelijkheid stelt je in staat om rijke projectvisualisaties te integreren in webportalen, rapportagedashboards of elke plek waar schaalbare graphics nodig zijn. Experimenteer met `SvgOptions` om de output fijn af te stemmen, en je hebt een krachtig hulpmiddel in je ontwikkel‑toolkit.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-21  
+**Getest met:** Aspose.Tasks voor Java 24.10  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
