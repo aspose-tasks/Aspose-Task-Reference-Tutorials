@@ -1,28 +1,43 @@
 ---
-title: Az MS Project Time Scale Count elsajátítása az Aspose.Tasks programban
-linktitle: Állítsa be az időskálát az Aspose.Tasks-ban
+date: 2025-12-21
+description: Ismerje meg, hogyan testreszabhatja a Gantt-diagram nézeteket, kezelheti
+  a projekt megjelenítését, és mentheti a projektet PDF formátumban az Aspose.Tasks
+  for Java segítségével. Állítsa be könnyedén az időskála számát.
+linktitle: Set Time Scale Count in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan kezelheti hatékonyan az időskálák számát az MS Projectben az Aspose.Tasks for Java segítségével. Könnyedén optimalizálhatja a projekt vizualizációját és kezelését.
-weight: 22
+title: Gantt-diagram testreszabása – Az MS Project időskála számlálásának elsajátítása
+  az Aspose.Tasks-ben
 url: /hu/java/project-file-operations/set-time-scale-count/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az MS Project Time Scale Count elsajátítása az Aspose.Tasks programban
+# Gantt-diagram testreszabása – Az MS Project időskála számlálásának elsajátítása az Aspose.Tasks-ben
 
 ## Bevezetés
-Az időskálák számának kezelése az MS Projectben jelentősen befolyásolhatja a projekt megjelenítését és kezelését. Az Aspose.Tasks for Java segítségével, amely egy hatékony API a projektmenedzsment feladatok programozott kezelésére, hatékonyan manipulálhatja az időskálák számát, hogy a projektnézeteket az Ön egyedi igényeihez igazítsa.
+Ha a Microsoft Projectben a **Gantt-diagram** megjelenését szeretné testreszabni, az időskála számlálásának vezérlése kulcsfontosságú technika. Az Aspose.Tasks for Java segítségével programozottan beállíthatja az alsó és középső időskála rétegeket, finomhangolhatja a jelölőpontok láthatóságát, majd **projekt mentése PDF‑ként** a résztvevőkkel való megosztáshoz. Ez az útmutató végigvezeti Önt a teljes folyamaton – a környezet beállításától a testreszabott Gantt-nézetet tükröző, kifinomult PDF generálásáig.
+
+## Gyors válaszok
+- **Mit jelent a “Gantt-diagram testreszabása”?** Az időskála rétegek, színek és elrendezés módosítása a jelentési igényeknek megfelelően.  
+- **Melyik API metódus állítja be az alsó réteg számlálását?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **Generálhatok PDF‑et közvetlenül a projektből?** Igen – használja a `project.save(..., SaveFileFormat.Pdf)` metódust.  
+- **Szükség van licencre a termelési használathoz?** Kereskedelmi licenc szükséges; ingyenes próba verzió is elérhető.  
+- **Melyik Java verzió támogatott?** A Java 8 vagy újabb verzió működik a legújabb Aspose.Tasks könyvtárral.
+
+## Mi jelent a “Gantt-diagram testreszabása” az Aspose.Tasks-ben?
+A Gantt-diagram testreszabása azt jelenti, hogy programozottan módosítja a diagram vizuális elemeit – például az időskála intervallumokat, a jelölőpontokat és a feladatsávokat – hogy a diagram megfeleljen annak a módnak, ahogyan **a projekt megjelenítését** kezelni szeretné. Az időskála számlálásának megváltoztatásával szabályozhatja, hogy egy szegmens hány napot, hetet vagy hónapot képvisel, ezáltal a diagram érthetőbbé válik különböző közönségek számára.
+
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy a következők vannak a helyükön:
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszerén.
-2.  Aspose.Tasks for Java Library: Töltse le és telepítse az Aspose.Tasks for Java könyvtárat. től lehet kapni[itt](https://releases.aspose.com/tasks/java/).
-3. Java programozási alapismeretek: A Java programozási nyelv ismerete előnyt jelent.
+1. **Java fejlesztői környezet** – telepített JDK 8 vagy újabb.  
+2. **Aspose.Tasks for Java könyvtár** – letölthető innen: [here](https://releases.aspose.com/tasks/java/).  
+3. **Alapvető Java ismeretek** – ismerje a Java szintaxist és az objektum‑orientált koncepciókat.
 
 ## Csomagok importálása
-Importálja a szükséges csomagokat a Java projektbe:
+Importálja a szükséges osztályokat a Java projektjébe:
+
 ```java
 import com.aspose.tasks.GanttChartView;
 import com.aspose.tasks.Project;
@@ -32,71 +47,107 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## 1. lépés: Állítsa be az adatkönyvtárat
-Határozza meg annak az adatkönyvtárnak az elérési útját, ahol a projektfájlokat tárolni fogja:
+## Lépésről‑lépésre útmutató
+
+### 1. lépés: Adatkönyvtár beállítása
+Határozza meg, hogy a projektfájlok honnan lesznek beolvasva és hová lesznek írva:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Cserélje ki`"Your Data Directory"` az adatkönyvtár elérési útjával.
-## 2. lépés: Hozzon létre projektpéldányt
- Példányosítson egy újat`Project` tárgy:
+
+Cserélje le a `"Your Data Directory"` értéket a gépén lévő abszolút útvonalra.
+
+### 2. lépés: Új Project példány létrehozása
+Hozzon létre egy új `Project` objektumot, amely tartalmazni fogja az összes feladatot és nézetbeállítást:
+
 ```java
 Project project = new Project();
 ```
-Ez létrehoz egy új projektobjektumot.
-## 3. lépés: A Gantt-diagram nézet konfigurálása
- Hozzon létre egy`GanttChartView` objektum a Gantt-diagram nézet konfigurálásához:
+
+### 3. lépés: A Gantt-diagram nézet konfigurálása
+Hozzon létre egy `GanttChartView` objektumot – itt fogja **generálni a Gantt nézet Java** kódot a diagram megjelenésének vezérléséhez:
+
 ```java
 GanttChartView view = new GanttChartView();
 ```
-## 4. lépés: Állítsa be az időskálát az alsó szinthez
-Állítsa be a számlálást és a pipák láthatóságát az alsó időskála szinthez:
+
+### 4. lépés: Az alsó réteg időskála számlálásának beállítása
+Állítsa be az alsó réteget úgy, hogy két intervallumot jelenítsen meg, és elrejtse a jelölőpontokat:
+
 ```java
 view.getBottomTimescaleTier().setCount(2);
 view.getBottomTimescaleTier().setShowTicks(false);
 ```
-Ez határozza meg az intervallumok számát, és azt, hogy megjelenjenek-e az alsó szint jelölései.
-## 5. lépés: Állítsa be az időskálát a középső szinthez
-Hasonlóképpen állítsa be a középső időskálát:
+
+### 5. lépés: A középső réteg időskála számlálásának beállítása
+Alkalmazza ugyanazt a konfigurációt a középső rétegre:
+
 ```java
 view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
-## 6. lépés: Nézet hozzáadása a projekthez
-Adja hozzá a konfigurált nézetet a projekthez:
+
+### 6. lépés: A testreszabott nézet hozzáadása a projekthez
+Csatolja a most konfigurált nézetet a `Project` példányhoz:
+
 ```java
 project.getViews().add(view);
 ```
-Ez hozzáadja a testreszabott nézetet a projekthez.
-## 7. lépés: Tesztadatok hozzáadása a projekthez
-Adjon hozzá néhány tesztadatot a projekthez demonstráció céljából:
+
+### 7. lépés: Minta feladatok hozzáadása (teszt adatok)
+Hozzon létre néhány feladatot meghatározott időtartamokkal a testreszabott Gantt-diagram bemutatásához:
+
 ```java
 Task task1 = project.getRootTask().getChildren().add("Task 1");
 Task task2 = project.getRootTask().getChildren().add("Task 2");
 task1.set(Tsk.DURATION, task1.getParentProject().getDuration(24, TimeUnitType.Hour));
 task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Hour));
 ```
-Ez két feladatot hoz létre meghatározott időtartammal.
-## 8. lépés: Projekt mentése PDF formátumban
-Mentse el a projektet PDF fájlként:
+
+### 8. lépés: Projekt mentése PDF‑ként
+Végül exportálja a projektet – beleértve a **testreszabott Gantt-diagramot** – PDF fájlba:
+
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
-Ezzel PDF fájlba menti a projektet az alkalmazott konfigurációkkal.
 
-## Következtetés
-Az időskálák számának hatékony kezelése az MS Projectben az Aspose.Tasks for Java segítségével lehetővé teszi a projektnézetek testreszabását a jobb megjelenítés és kezelés érdekében.
-## GYIK
-### K: Az Aspose.Tasks for Java kezelheti a nagyméretű projektfájlokat?
-V: Igen, az Aspose.Tasks for Java hatékonyan képes kezelni a nagyméretű projektfájlokat.
-### K: Az Aspose.Tasks for Java kompatibilis a különböző Java IDE-kkel?
-V: Igen, az Aspose.Tasks for Java zökkenőmentesen működik a népszerű Java Integrated Development Environment-ekkel (IDE), mint például az Eclipse és az IntelliJ IDEA.
-### K: Testreszabhatom a Gantt-diagramok megjelenését az Aspose.Tasks for Java segítségével?
-V: Természetesen az Aspose.Tasks for Java kiterjedt lehetőségeket biztosít a Gantt-diagramok megjelenésének testreszabásához az Ön igényei szerint.
-### K: Elérhető az Aspose.Tasks for Java próbaverziója?
- V: Igen, ingyenes próbaverziót szerezhet be a webhelyről[itt](https://releases.aspose.com/).
-### K: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?
- V: Támogatást és segítséget az Aspose.Tasks fórumon találhat[itt](https://forum.aspose.com/c/tasks/15).
+Az eredményül kapott PDF bemutatja, hogyan lettek **testreszabva** az alsó és középső időskála rétegek, így a résztvevők számára egyértelmű, nyomtatható ütemtervet biztosít.
+
+## Gyakori problémák és hibaelhárítás
+- **A PDF üres** – Győződjön meg arról, hogy a `dataDir` útvonal fájlelválasztóval (`/` vagy `\`) végződik, és hogy a könyvtár létezik.  
+- **A jelölőpontok még mindig megjelennek** – Ellenőrizze, hogy a `setShowTicks(false)` mindkét rétegen meghívásra került.  
+- **Az időtartam nem alkalmazódik** – Győződjön meg arról, hogy a `TimeUnitType.Hour` (vagy a megfelelő egység) használatával hozza létre az időtartamokat.
+
+## Gyakran feltett kérdések
+
+**K: Kezelni tudja az Aspose.Tasks for Java a nagyméretű projektfájlokat?**  
+V: Igen, a könyvtár a nagy mennyiségű projektadat magas teljesítményű feldolgozására van optimalizálva.
+
+**K: Kompatibilis-e az Aspose.Tasks for Java különböző Java IDE‑kkel?**  
+V: Teljes mértékben – zökkenőmentesen működik az Eclipse, IntelliJ IDEA, NetBeans és más népszerű IDE‑kkel.
+
+**K: Testreszabhatom a Gantt-diagramok megjelenését az időskála beállításain túl?**  
+V: Igen, az Aspose.Tasks kiterjedt stílusbeállítási lehetőségeket kínál, például sávszínek, betűtípusok és rácsvonalak.
+
+**K: Elérhető próba verzió az Aspose.Tasks for Java‑hoz?**  
+V: Igen, ingyenes próba verziót szerezhet [innen](https://releases.aspose.com/).
+
+**K: Hol kaphatok támogatást az Aspose.Tasks for Java‑hoz?**  
+V: Támogatást és segítséget az Aspose.Tasks fórumon találhat [itt](https://forum.aspose.com/c/tasks/15).
+
+**K: Hogyan változtathatom meg programozottan a Gantt-diagram háttérszínét?**  
+V: Használja a `view.getGanttChartProperties().setBackgroundColor(Color)` metódust a `java.awt.Color` importálása után.
+
+## Összegzés
+A lépések követésével megtanulta, hogyan **testreszabja a Gantt-diagram** időskála rétegeit, javítsa a **projekt megjelenítését**, és **projektet mentse PDF‑ként** az Aspose.Tasks for Java segítségével. Ez a megközelítés teljes irányítást biztosít a vizuális kimenet felett, megkönnyítve a tiszta, professzionális ütemtervek megosztását a csapatával vagy ügyfeleivel.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

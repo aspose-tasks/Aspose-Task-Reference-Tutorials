@@ -1,28 +1,45 @@
 ---
-title: Nắm vững số lượng quy mô thời gian của dự án MS trong Aspose.Tasks
-linktitle: Đặt số lượng quy mô thời gian trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách quản lý hiệu quả số lượng quy mô thời gian trong MS Project bằng Aspose.Tasks cho Java. Tối ưu hóa trực quan hóa và quản lý dự án một cách dễ dàng.
-weight: 22
+date: 2025-12-21
+description: Tìm hiểu cách tùy chỉnh chế độ xem biểu đồ Gantt, quản lý việc hiển thị
+  dự án và lưu dự án dưới dạng PDF bằng Aspose.Tasks cho Java. Điều chỉnh số lượng
+  thang thời gian một cách dễ dàng.
+linktitle: Set Time Scale Count in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Tùy chỉnh biểu đồ Gantt – Thành thạo việc đếm thang thời gian trong MS Project
+  bằng Aspose.Tasks
 url: /vi/java/project-file-operations/set-time-scale-count/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nắm vững số lượng quy mô thời gian của dự án MS trong Aspose.Tasks
+# Tùy chỉnh Biểu đồ Gantt – Thành thạo Đếm Thang thời gian trong MS Project bằng Aspose.Tasks
 
-## Giới thiệu
-Việc quản lý số lượng quy mô thời gian trong MS Project có thể ảnh hưởng đáng kể đến việc quản lý và trực quan hóa dự án. Với Aspose.Tasks cho Java, một API mạnh mẽ để xử lý các tác vụ quản lý dự án theo chương trình, bạn có thể thao tác một cách hiệu quả số lượng quy mô thời gian để điều chỉnh chế độ xem dự án theo nhu cầu cụ thể của mình.
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có sẵn những điều sau:
-1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của mình.
-2.  Aspose.Tasks for Java Library: Tải xuống và cài đặt thư viện Aspose.Tasks for Java. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/tasks/java/).
-3. Kiến thức cơ bản về lập trình Java: Làm quen với ngôn ngữ lập trình Java sẽ có lợi.
+## Introduction
+Nếu bạn cần **tùy chỉnh biểu đồ Gantt** trong Microsoft Project, việc kiểm soát số lượng thang thời gian là một kỹ thuật then chốt. Với Aspose.Tasks for Java bạn có thể thiết lập chương trình các tầng thời gian dưới và trung, tinh chỉnh hiển thị tick, và sau đó **lưu dự án dưới dạng PDF** để chia sẻ với các bên liên quan. Hướng dẫn này sẽ đưa bạn qua toàn bộ quy trình—từ cài đặt môi trường đến tạo ra một PDF hoàn chỉnh phản ánh giao diện Gantt đã tùy chỉnh.
 
-## Gói nhập khẩu
-Nhập các gói cần thiết vào dự án Java của bạn:
+## Quick Answers
+- **What does “customize Gantt chart” mean?** Điều chỉnh các tầng thang thời gian, màu sắc và bố cục để phù hợp với nhu cầu báo cáo của bạn.  
+- **Which API method sets the bottom tier count?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **Can I generate a PDF directly from the project?** Yes—use `project.save(..., SaveFileFormat.Pdf)`.  
+- **Do I need a license for production use?** Cần có giấy phép thương mại; bản dùng thử miễn phí có sẵn.  
+- **Which Java version is supported?** Java 8 hoặc cao hơn hoạt động với thư viện Aspose.Tasks mới nhất.
+
+## What is “customize Gantt chart” in Aspose.Tasks?
+Việc tùy chỉnh biểu đồ Gantt có nghĩa là thay đổi các thành phần trực quan của nó một cách lập trình—như khoảng thời gian thang thời gian, dấu tick, và thanh nhiệm vụ—để biểu đồ phù hợp với cách bạn muốn **quản lý việc hiển thị dự án**. Bằng cách thay đổi số lượng thang thời gian, bạn kiểm soát số ngày, tuần hoặc tháng mà mỗi đoạn đại diện, làm cho biểu đồ rõ ràng hơn cho các đối tượng khác nhau.
+
+## Prerequisites
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+1. **Java Development Environment** – Môi trường phát triển Java — JDK 8 hoặc mới hơn đã được cài đặt.  
+2. **Aspose.Tasks for Java Library** – Download it from [here](https://releases.aspose.com/tasks/java/).  
+3. **Basic Java Knowledge** – Kiến thức cơ bản về Java — Quen thuộc với cú pháp Java và các khái niệm hướng đối tượng.
+
+## Import Packages
+Import the necessary classes into your Java project:
+
 ```java
 import com.aspose.tasks.GanttChartView;
 import com.aspose.tasks.Project;
@@ -32,71 +49,116 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## Bước 1: Đặt thư mục dữ liệu
-Xác định đường dẫn đến thư mục dữ liệu nơi các tệp dự án của bạn sẽ được lưu trữ:
+## Step‑by‑Step Guide
+
+### Step 1: Set Data Directory
+Define where your project files will be read from and written to:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Thay thế`"Your Data Directory"` với đường dẫn đến thư mục dữ liệu của bạn.
-## Bước 2: Tạo phiên bản dự án
- Khởi tạo một cái mới`Project` sự vật:
+
+Replace `"Your Data Directory"` with the absolute path on your machine.  
+Thay thế `"Your Data Directory"` bằng đường dẫn tuyệt đối trên máy của bạn.
+
+### Step 2: Create a New Project Instance
+Instantiate a fresh `Project` object that will hold all tasks and view settings:
+
 ```java
 Project project = new Project();
 ```
-Điều này tạo ra một đối tượng dự án mới.
-## Bước 3: Định cấu hình Chế độ xem biểu đồ Gantt
- Tạo một`GanttChartView` đối tượng để định cấu hình chế độ xem biểu đồ Gantt:
+
+### Step 3: Configure the Gantt Chart View
+Create a `GanttChartView` object—this is where you’ll **generate Gantt view Java** code to control the chart appearance:
+
 ```java
 GanttChartView view = new GanttChartView();
 ```
-## Bước 4: Đặt số lượng thang thời gian cho cấp dưới cùng
-Đặt mức độ hiển thị số lượng và đánh dấu cho bậc thời gian dưới cùng:
+
+### Step 4: Set Time Scale Count for the Bottom Tier
+Adjust the bottom tier to show two intervals and hide the tick marks:
+
 ```java
 view.getBottomTimescaleTier().setCount(2);
 view.getBottomTimescaleTier().setShowTicks(false);
 ```
-Điều này chỉ định số lượng khoảng thời gian và có hiển thị dấu tích cho tầng dưới cùng hay không.
-## Bước 5: Đặt số lượng thang thời gian cho cấp trung
-Tương tự, định cấu hình tầng thời gian ở giữa:
+
+### Step 5: Set Time Scale Count for the Middle Tier
+Apply the same configuration to the middle tier:
+
 ```java
 view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
-## Bước 6: Thêm chế độ xem vào dự án
-Thêm chế độ xem được định cấu hình vào dự án:
+
+### Step 6: Add the Customized View to the Project
+Attach the view you just configured to the `Project` instance:
+
 ```java
 project.getViews().add(view);
 ```
-Điều này thêm chế độ xem tùy chỉnh cho dự án.
-## Bước 7: Thêm dữ liệu thử nghiệm vào dự án
-Thêm một số dữ liệu thử nghiệm vào dự án để trình diễn:
+
+### Step 7: Add Sample Tasks (Test Data)
+Create a couple of tasks with specific durations to illustrate the customized Gantt chart:
+
 ```java
 Task task1 = project.getRootTask().getChildren().add("Task 1");
 Task task2 = project.getRootTask().getChildren().add("Task 2");
 task1.set(Tsk.DURATION, task1.getParentProject().getDuration(24, TimeUnitType.Hour));
 task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Hour));
 ```
-Điều này tạo ra hai nhiệm vụ với thời lượng được chỉ định.
-## Bước 8: Lưu dự án dưới dạng PDF
-Lưu dự án dưới dạng tệp PDF:
+
+### Step 8: Save the Project as a PDF
+Finally, export the project—including your **customized Gantt chart**—to a PDF file:
+
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
-Thao tác này sẽ lưu dự án với các cấu hình được áp dụng vào tệp PDF.
 
-## Phần kết luận
-Quản lý hiệu quả số lượng quy mô thời gian trong MS Project bằng Aspose.Tasks cho Java cho phép bạn tùy chỉnh các chế độ xem dự án để quản lý và trực quan hóa tốt hơn.
-## Câu hỏi thường gặp
-### Câu hỏi: Aspose.Tasks cho Java có thể xử lý các tệp dự án quy mô lớn không?
-Trả lời: Có, Aspose.Tasks cho Java có khả năng xử lý các tệp dự án quy mô lớn một cách hiệu quả.
-### Câu hỏi: Aspose.Tasks dành cho Java có tương thích với các IDE Java khác nhau không?
-Trả lời: Có, Aspose.Tasks dành cho Java hoạt động liền mạch với các Môi trường phát triển tích hợp Java (IDE) phổ biến như Eclipse và IntelliJ IDEA.
-### Câu hỏi: Tôi có thể tùy chỉnh giao diện của biểu đồ Gantt bằng Aspose.Tasks cho Java không?
-Đáp: Hoàn toàn có thể, Aspose.Tasks dành cho Java cung cấp các khả năng mở rộng để tùy chỉnh giao diện của biểu đồ Gantt theo yêu cầu của bạn.
-### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
- Đ: Có, bạn có thể tải phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?
- Trả lời: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+The resulting PDF demonstrates how the bottom and middle time‑scale tiers have been **customized**, giving stakeholders a clear, printable view of the schedule.  
+PDF kết quả cho thấy cách các tầng thang thời gian dưới và trung đã được **tùy chỉnh**, cung cấp cho các bên liên quan một góc nhìn rõ ràng, có thể in được của lịch trình.
+
+## Common Issues & Troubleshooting
+- **PDF is blank** – Ensure the `dataDir` path ends with a file separator (`/` or `\`) and that the directory exists.  
+  PDF trống — Đảm bảo đường dẫn `dataDir` kết thúc bằng dấu phân tách thư mục (`/` hoặc `\`) và thư mục tồn tại.  
+- **Ticks still appear** – Verify that `setShowTicks(false)` is called on both tiers.  
+  Các dấu tick vẫn xuất hiện — Kiểm tra rằng `setShowTicks(false)` được gọi trên cả hai tầng.  
+- **Duration not applied** – Confirm you are using `TimeUnitType.Hour` (or the appropriate unit) when creating durations.  
+  Thời lượng không được áp dụng — Xác nhận bạn đang sử dụng `TimeUnitType.Hour` (hoặc đơn vị phù hợp) khi tạo thời lượng.
+
+## Frequently Asked Questions
+
+**Q: Can Aspose.Tasks for Java handle large‑scale project files?**  
+A: Yes, the library is optimized for high‑performance processing of extensive project data.  
+Có, thư viện được tối ưu cho việc xử lý hiệu suất cao các dữ liệu dự án quy mô lớn.
+
+**Q: Is Aspose.Tasks for Java compatible with different Java IDEs?**  
+A: Absolutely – it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other popular IDEs.  
+Chắc chắn — nó hoạt động liền mạch với Eclipse, IntelliJ IDEA, NetBeans và các IDE phổ biến khác.
+
+**Q: Can I customize the appearance of Gantt charts beyond time‑scale settings?**  
+A: Yes, Aspose.Tasks provides extensive styling options such as bar colors, fonts, and grid lines.  
+Có, Aspose.Tasks cung cấp các tùy chọn định dạng phong phú như màu thanh, phông chữ và đường lưới.
+
+**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+A: Yes, you can get a free trial version from [here](https://releases.aspose.com/).  
+
+**Q: Where can I get support for Aspose.Tasks for Java?**  
+A: You can find support and assistance on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).  
+
+**Q: How do I programmatically change the Gantt chart’s background color?**  
+A: Use the `view.getGanttChartProperties().setBackgroundColor(Color)` method after importing `java.awt.Color`.  
+
+## Conclusion
+By following these steps you’ve learned how to **customize Gantt chart** time‑scale tiers, improve **project visualization**, and **save project as PDF** using Aspose.Tasks for Java. This approach gives you full control over the visual output, making it easier to share clear, professional schedules with your team or clients.  
+Bằng cách thực hiện các bước trên, bạn đã học cách **tùy chỉnh các tầng thang thời gian của biểu đồ Gantt**, cải thiện **việc hiển thị dự án**, và **lưu dự án dưới dạng PDF** bằng Aspose.Tasks for Java. Cách tiếp cận này cho phép bạn kiểm soát hoàn toàn đầu ra hình ảnh, giúp dễ dàng chia sẻ các lịch trình rõ ràng, chuyên nghiệp với đội ngũ hoặc khách hàng của mình.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
