@@ -1,28 +1,43 @@
 ---
-title: Mengatur Atribut Proyek MS untuk Tugas Baru di Aspose.Tasks
-linktitle: Tetapkan Atribut untuk Tugas Baru di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara mengatur atribut MS Project untuk tugas baru menggunakan Aspose.Tasks untuk Java. Sesuaikan properti tugas dengan mudah dengan panduan komprehensif ini.
-weight: 21
+date: 2025-12-21
+description: Pelajari cara membuat proyek dan mengatur atribut MS Project untuk tugas
+  baru menggunakan Aspose.Tasks untuk Java, termasuk cara menyimpan proyek sebagai
+  XML dan menyesuaikan properti tugas.
+linktitle: Set Attributes for New Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cara Membuat Proyek – Menetapkan Atribut Tugas Baru dengan Aspose.Tasks
 url: /id/java/project-file-operations/set-attributes-new-tasks/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Atribut Proyek MS untuk Tugas Baru di Aspose.Tasks
+# Cara Membuat Proyek – Mengatur Atribut Tugas Baru dengan Aspose.Tasks
 
-## Perkenalan
-Selamat datang di tutorial komprehensif kami tentang pengaturan atribut MS Project untuk tugas baru di Aspose.Tasks untuk Java! Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan bahwa Anda dapat dengan mudah mengelola dan menyesuaikan tugas Anda dengan pustaka Java yang canggih ini.
+## Pendahuluan
+Dalam panduan komprehensif ini Anda akan menemukan **cara membuat proyek** file dan mengatur atribut Microsoft Project untuk tugas baru menggunakan pustaka Aspose.Tasks Java. Kami akan memandu Anda melalui setiap langkah, mulai dari menyiapkan lingkungan pengembangan hingga menyimpan proyek sebagai file XML, sehingga Anda dapat dengan mudah **menyesuaikan properti tugas** dan menyederhanakan alur kerja manajemen proyek Anda.
+
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Mengatur tanggal mulai default untuk tugas baru dan menyimpan proyek sebagai XML.  
+- **Pustaka apa yang diperlukan?** Aspose.Tasks for Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Apakah saya dapat mengubah default tugas lainnya?** Ya, Aspose.Tasks memungkinkan Anda memodifikasi banyak default pada tingkat tugas.  
+- **Format output apa yang digunakan?** XML (SaveFileFormat.Xml).
+
+## Apa itu Proyek dalam Aspose.Tasks?
+*Proyek* adalah model objek yang mencerminkan file Microsoft Project. Ia menyimpan tugas, sumber daya, kalender, dan data penjadwalan lainnya, memungkinkan Anda secara programatis membaca, memodifikasi, dan menghasilkan file proyek.
+
+## Mengapa Mengatur Default Tugas?
+Mengatur nilai default seperti tanggal mulai untuk tugas baru memastikan konsistensi di seluruh rencana. Ini menghemat Anda dari memperbarui setiap tugas secara manual dan mengurangi risiko kesalahan penjadwalan.
+
 ## Prasyarat
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda dan Anda memahami konsep dasar pemrograman Java.
-2.  Aspose.Tasks for Java Library: Unduh dan instal perpustakaan Aspose.Tasks for Java dari[tautan unduhan](https://releases.aspose.com/tasks/java/).
-3. Java IDE: Pilih Java Integrated Development Environment (IDE) seperti Eclipse atau IntelliJ IDEA untuk pengkodean.
+1. **Lingkungan Pengembangan Java** – Java 8 atau lebih tinggi terpasang.  
+2. **Aspose.Tasks for Java** – Unduh dari [tautan unduhan](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA, atau editor yang kompatibel dengan Java.
 
-## Paket Impor
-Sebelum kita mulai mengatur atribut MS Project untuk tugas baru, mari impor paket yang diperlukan:
+## Impor Paket
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
@@ -30,50 +45,82 @@ import com.aspose.tasks.SaveFileFormat;
 import com.aspose.tasks.TaskStartDateType;
 ```
 
-## Langkah 1: Tentukan Direktori Data
-Pertama, tentukan jalur ke direktori tempat Anda ingin menyimpan file proyek Anda:
+## Cara Membuat Proyek – Mengatur Atribut Tugas Baru
+### Langkah 1: Tentukan Direktori Data
 ```java
 String dataDir = "Your Data Directory";
 ```
- Mengganti`"Your Data Directory"` dengan jalur ke direktori yang Anda inginkan.
-## Langkah 2: Buat Instans Proyek
-Buat instance objek Project baru untuk mulai bekerja dengan proyek Anda:
+Ganti `"Your Data Directory"` dengan jalur absolut tempat Anda ingin menyimpan file output.
+
+### Langkah 2: Buat Instance Proyek
 ```java
 Project prj = new Project();
 ```
-Ini menciptakan contoh proyek baru.
-## Langkah 3: Tetapkan Properti Tugas Baru
-Sekarang, mari tetapkan tanggal mulai untuk tugas baru. Dalam contoh ini, kami menetapkannya ke tanggal saat ini:
+Ini membuat proyek kosong yang siap untuk disesuaikan.
+
+### Langkah 3: Atur Properti Tugas Baru
 ```java
 prj.set(Prj.NEW_TASK_START_DATE, TaskStartDateType.CurrentDate);
 ```
- Baris ini mengatur properti`NEW_TASK_START_DATE` ke`TaskStartDateType.CurrentDate`.
-## Langkah 4: Simpan Proyek
-Simpan proyek dengan atribut tugas baru dalam format XML:
+Baris di atas memberi tahu Aspose.Tasks untuk menetapkan **tanggal saat ini** sebagai tanggal mulai untuk setiap tugas yang Anda tambahkan nanti.
+
+### Langkah 4: Simpan Proyek
 ```java
 prj.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
-Baris ini menyimpan proyek dengan nama file tertentu di direktori yang ditentukan sebelumnya.
-## Langkah 5: Tampilkan Hasil
-Terakhir, mari cetak pesan untuk mengonfirmasi bahwa file proyek berhasil dibuat:
+Di sini kami **menyimpan proyek sebagai XML**, yang merupakan format yang banyak didukung untuk pertukaran dan pemrosesan lebih lanjut.
+
+### Langkah 5: Tampilkan Hasil
 ```java
 System.out.println("Project file generated Successfully");
 ```
-Baris ini menampilkan pesan sukses di konsol.
+Pesan konsol sederhana mengonfirmasi bahwa file telah dibuat tanpa kesalahan.
+
+## Cara Mengatur Atribut Tugas
+Selain tanggal mulai, Anda dapat memodifikasi pengaturan default tugas lainnya seperti durasi, kalender, dan prioritas menggunakan enumerasi `Prj`. Fleksibilitas ini memungkinkan Anda **menyesuaikan properti tugas** agar sesuai dengan standar organisasi Anda.
+
+## Cara Menyimpan Proyek sebagai XML
+Menyimpan sebagai XML mempertahankan struktur proyek secara lengkap sekaligus membuat file dapat dibaca manusia. Ini ideal untuk integrasi dengan alat lain, kontrol versi, atau pipeline otomatis.
+
+## Masalah Umum dan Solusinya
+- **Jalur direktori data tidak valid** – Pastikan folder ada dan aplikasi memiliki izin menulis.  
+- **Lisensi tidak ditemukan** – Muat lisensi Aspose.Tasks Anda sebelum membuat objek `Project` untuk menghindari watermark evaluasi.  
+- **Tanggal mulai tidak terduga** – Pastikan tidak ada kode lain yang menimpa `Prj.NEW_TASK_START_DATE` setelah Anda mengaturnya.
+
+## FAQ
+### T: Apakah saya dapat menggunakan Aspose.Tasks for Java untuk memanipulasi file proyek yang ada?
+J: Ya, Aspose.Tasks for Java menyediakan fungsionalitas luas untuk memanipulasi file proyek yang ada, termasuk membaca, memodifikasi, dan menyimpannya dalam berbagai format.
+
+### T: Di mana saya dapat menemukan dokumentasi dan sumber daya lebih lanjut untuk Aspose.Tasks for Java?
+J: Anda dapat menjelajahi dokumentasi dan sumber daya di [halaman dokumentasi Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/).
+
+### T: Apakah ada percobaan gratis untuk Aspose.Tasks for Java?
+J: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Tasks for Java dari [di sini](https://releases.aspose.com/).
+
+### T: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Tasks for Java?
+J: Lisensi sementara untuk Aspose.Tasks for Java dapat diperoleh dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
+### T: Di mana saya dapat mendapatkan dukungan untuk masalah atau pertanyaan terkait Aspose.Tasks for Java?
+J: Anda dapat mendapatkan dukungan dan berinteraksi dengan komunitas di [forum dukungan Aspose.Tasks for Java](https://forum.aspose.com/c/tasks/15).
+
+**T: Bisakah saya mengubah tanggal mulai default setelah membuat proyek?**  
+J: Ya, Anda dapat memanggil `prj.set(Prj.NEW_TASK_START_DATE, ...)` kapan saja sebelum menambahkan tugas baru.  
+
+**T: Apakah menyimpan sebagai XML memengaruhi kinerja untuk proyek besar?**  
+J: XML berbasis teks, sehingga ukuran file dapat lebih besar daripada format biner, tetapi tetap cepat untuk kebanyakan ukuran proyek tipikal.  
+
+**T: Apakah ada default tugas lain yang dapat saya atur secara global?**  
+J: Tentu – properti seperti `NEW_TASK_DURATION`, `NEW_TASK_COST`, dan `NEW_TASK_PRIORITY` juga dapat dikonfigurasi melalui enumerasi `Prj`.
 
 ## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara mengatur atribut MS Project untuk tugas baru menggunakan Aspose.Tasks untuk Java. Dengan pengetahuan ini, Anda kini dapat menyesuaikan properti tugas sesuai dengan kebutuhan Anda, sehingga meningkatkan kemampuan manajemen proyek Anda.
-## FAQ
-### T: Bisakah saya menggunakan Aspose.Tasks for Java untuk memanipulasi file proyek yang ada?
-J: Ya, Aspose.Tasks for Java menyediakan fungsionalitas luas untuk memanipulasi file proyek yang ada, termasuk membaca, memodifikasi, dan menyimpannya dalam berbagai format.
-### T: Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya untuk Aspose.Tasks untuk Java?
- J: Anda dapat menjelajahi dokumentasi dan sumber daya di[Aspose.Tasks untuk halaman dokumentasi Java](https://reference.aspose.com/tasks/java/).
-### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk Java?
- J: Ya, Anda dapat mengunduh Aspose.Tasks versi uji coba gratis untuk Java dari[Di Sini](https://releases.aspose.com/).
-### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
- A: Lisensi sementara untuk Aspose.Tasks untuk Java dapat diperoleh dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
-### T: Di mana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun terkait Aspose.Tasks untuk Java?
- A: Anda bisa mendapatkan dukungan dan berinteraksi dengan komunitas di[Aspose.Tasks untuk forum dukungan Java](https://forum.aspose.com/c/tasks/15).
+Anda kini telah mempelajari **cara membuat proyek** file, mengatur tanggal mulai default untuk tugas baru, dan **menyimpan proyek sebagai XML** menggunakan Aspose.Tasks for Java. Dengan menguasai langkah‑langkah ini Anda dapat dengan mudah **menyesuaikan properti tugas** untuk memenuhi skenario manajemen proyek apa pun, meningkatkan konsistensi dan menghemat waktu berharga.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

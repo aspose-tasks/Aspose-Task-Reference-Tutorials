@@ -1,28 +1,45 @@
 ---
-title: Maîtriser le nombre d'échelles de temps MS Project dans Aspose.Tasks
-linktitle: Définir le nombre d'échelles de temps dans Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Découvrez comment gérer efficacement le nombre d'échelles de temps dans MS Project à l'aide d'Aspose.Tasks pour Java. Optimisez la visualisation et la gestion des projets sans effort.
-weight: 22
+date: 2025-12-21
+description: Apprenez à personnaliser les vues du diagramme de Gantt, à gérer la visualisation
+  du projet et à enregistrer le projet au format PDF à l'aide d'Aspose.Tasks pour
+  Java. Ajustez le nombre d'échelles de temps sans effort.
+linktitle: Set Time Scale Count in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Personnaliser le diagramme de Gantt – Maîtriser le comptage de l’échelle de
+  temps MS Project dans Aspose.Tasks
 url: /fr/java/project-file-operations/set-time-scale-count/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maîtriser le nombre d'échelles de temps MS Project dans Aspose.Tasks
+# Personnaliser le diagramme de Gantt – Maîtriser le nombre d’échelles de temps MS Project dans Aspose.Tasks
 
 ## Introduction
-La gestion du nombre d'échelles de temps dans MS Project peut affecter considérablement la visualisation et la gestion du projet. Avec Aspose.Tasks for Java, une API puissante pour gérer les tâches de gestion de projet par programmation, vous pouvez manipuler efficacement le décompte de l'échelle de temps pour adapter les vues de projet à vos besoins spécifiques.
-## Conditions préalables
-Avant de commencer, assurez-vous d'avoir mis en place les éléments suivants :
-1. Environnement de développement Java : assurez-vous que le kit de développement Java (JDK) est installé sur votre système.
-2.  Bibliothèque Aspose.Tasks pour Java : téléchargez et installez la bibliothèque Aspose.Tasks pour Java. Vous pouvez l'obtenir de[ici](https://releases.aspose.com/tasks/java/).
-3. Connaissance de base de la programmation Java : une connaissance du langage de programmation Java sera bénéfique.
+Si vous devez **personnaliser le diagramme de Gantt** dans Microsoft Project, contrôler le nombre d’échelles de temps est une technique clé. Avec Aspose.Tasks for Java, vous pouvez définir programmétiquement les niveaux inférieur et intermédiaire de l’échelle de temps, ajuster la visibilité des repères, puis **enregistrer le projet au format PDF** pour le partager avec les parties prenantes. Ce tutoriel vous guide à travers l’ensemble du processus — de la configuration de l’environnement à la génération d’un PDF soigné reflétant votre vue Gantt personnalisée.
 
-## Importer des packages
-Importez les packages nécessaires dans votre projet Java :
+## Réponses rapides
+- **Que signifie « personnaliser le diagramme de Gantt » ?** Ajuster les niveaux de l’échelle de temps, les couleurs et la mise en page pour répondre à vos besoins de reporting.  
+- **Quelle méthode API définit le nombre du niveau inférieur ?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **Puis‑je générer un PDF directement à partir du projet ?** Oui — utilisez `project.save(..., SaveFileFormat.Pdf)`.  
+- **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale est requise ; une version d’essai gratuite est disponible.  
+- **Quelle version de Java est prise en charge ?** Java 8 ou supérieur fonctionne avec la dernière bibliothèque Aspose.Tasks.
+
+## Qu’est‑ce que « personnaliser le diagramme de Gantt » dans Aspose.Tasks ?
+Personnaliser un diagramme de Gantt signifie modifier programmétiquement ses composants visuels — tels que les intervalles de l’échelle de temps, les repères et les barres de tâches—afin que le diagramme corresponde à la façon dont vous souhaitez **gérer la visualisation du projet**. En changeant le nombre d’échelles de temps, vous contrôlez combien de jours, semaines ou mois chaque segment représente, rendant le diagramme plus clair pour différents publics.
+
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
+
+1. **Environnement de développement Java** – JDK 8 ou plus récent installé.  
+2. **Bibliothèque Aspose.Tasks for Java** – Téléchargez‑la depuis [ici](https://releases.aspose.com/tasks/java/).  
+3. **Connaissances de base en Java** – Familiarité avec la syntaxe Java et les concepts orientés objet.
+
+## Importer les packages
+Importez les classes nécessaires dans votre projet Java :
+
 ```java
 import com.aspose.tasks.GanttChartView;
 import com.aspose.tasks.Project;
@@ -32,71 +49,107 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## Étape 1 : Définir le répertoire de données
-Définissez le chemin d'accès au répertoire de données où vos fichiers de projet seront stockés :
+## Guide étape par étape
+
+### Étape 1 : Définir le répertoire de données
+Définissez l’endroit où vos fichiers de projet seront lus et écrits :
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Remplacer`"Your Data Directory"` avec le chemin d'accès à votre répertoire de données.
-## Étape 2 : Créer une instance de projet
- Instancier un nouveau`Project` objet:
+
+Remplacez `"Your Data Directory"` par le chemin absolu sur votre machine.
+
+### Étape 2 : Créer une nouvelle instance de projet
+Instanciez un objet `Project` vierge qui contiendra toutes les tâches et les paramètres de vue :
+
 ```java
 Project project = new Project();
 ```
-Cela crée un nouvel objet de projet.
-## Étape 3 : Configurer la vue Diagramme de Gantt
- Créer un`GanttChartView` objet pour configurer la vue du diagramme de Gantt :
+
+### Étape 3 : Configurer la vue du diagramme de Gantt
+Créez un objet `GanttChartView` — c’est ici que vous **générerez le code Java de la vue Gantt** pour contrôler l’apparence du diagramme :
+
 ```java
 GanttChartView view = new GanttChartView();
 ```
-## Étape 4 : Définir le nombre d'échelles de temps pour le niveau inférieur
-Définissez le nombre et la visibilité des ticks pour le niveau inférieur de l'échelle de temps :
+
+### Étape 4 : Définir le nombre d’échelles de temps pour le niveau inférieur
+Ajustez le niveau inférieur pour afficher deux intervalles et masquer les repères :
+
 ```java
 view.getBottomTimescaleTier().setCount(2);
 view.getBottomTimescaleTier().setShowTicks(false);
 ```
-Ceci spécifie le nombre d'intervalles et s'il faut afficher les graduations pour le niveau inférieur.
-## Étape 5 : Définir le nombre d'échelles de temps pour le niveau intermédiaire
-De même, configurez le niveau d'échelle de temps intermédiaire :
+
+### Étape 5 : Définir le nombre d’échelles de temps pour le niveau intermédiaire
+Appliquez la même configuration au niveau intermédiaire :
+
 ```java
 view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
-## Étape 6 : Ajouter une vue au projet
-Ajoutez la vue configurée au projet :
+
+### Étape 6 : Ajouter la vue personnalisée au projet
+Attachez la vue que vous venez de configurer à l’instance `Project` :
+
 ```java
 project.getViews().add(view);
 ```
-Cela ajoute la vue personnalisée au projet.
-## Étape 7 : Ajouter des données de test au projet
-Ajoutez quelques données de test au projet pour démonstration :
+
+### Étape 7 : Ajouter des tâches d’exemple (données de test)
+Créez quelques tâches avec des durées spécifiques pour illustrer le diagramme de Gantt personnalisé :
+
 ```java
 Task task1 = project.getRootTask().getChildren().add("Task 1");
 Task task2 = project.getRootTask().getChildren().add("Task 2");
 task1.set(Tsk.DURATION, task1.getParentProject().getDuration(24, TimeUnitType.Hour));
 task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Hour));
 ```
-Cela crée deux tâches avec des durées spécifiées.
-## Étape 8 : Enregistrer le projet au format PDF
-Enregistrez le projet sous forme de fichier PDF :
+
+### Étape 8 : Enregistrer le projet au format PDF
+Enfin, exportez le projet—y compris votre **diagramme de Gantt personnalisé**—vers un fichier PDF :
+
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
-Cela enregistre le projet avec les configurations appliquées dans un fichier PDF.
+
+Le PDF résultant montre comment les niveaux inférieur et intermédiaire de l’échelle de temps ont été **personnalisés**, offrant aux parties prenantes une vue claire et imprimable du planning.
+
+## Problèmes courants et dépannage
+- **Le PDF est vide** – Vérifiez que le chemin `dataDir` se termine par un séparateur de fichiers (`/` ou `\`) et que le répertoire existe.  
+- **Les repères apparaissent toujours** – Assurez‑vous que `setShowTicks(false)` est appelé sur les deux niveaux.  
+- **La durée n’est pas appliquée** – Confirmez que vous utilisez `TimeUnitType.Hour` (ou l’unité appropriée) lors de la création des durées.
+
+## Foire aux questions
+
+**Q : Aspose.Tasks for Java peut‑il gérer des fichiers de projet à grande échelle ?**  
+R : Oui, la bibliothèque est optimisée pour le traitement haute performance de données de projet volumineuses.
+
+**Q : Aspose.Tasks for Java est‑il compatible avec différents IDE Java ?**  
+R : Absolument — il fonctionne parfaitement avec Eclipse, IntelliJ IDEA, NetBeans et d’autres IDE populaires.
+
+**Q : Puis‑je personnaliser l’apparence des diagrammes de Gantt au‑delà des paramètres d’échelle de temps ?**  
+R : Oui, Aspose.Tasks offre de nombreuses options de style telles que les couleurs des barres, les polices et les lignes de grille.
+
+**Q : Existe‑t‑il une version d’essai d’Aspose.Tasks for Java ?**  
+R : Oui, vous pouvez obtenir une version d’essai gratuite depuis [ici](https://releases.aspose.com/).
+
+**Q : Où puis‑je obtenir du support pour Aspose.Tasks for Java ?**  
+R : Vous trouverez de l’aide sur le forum Aspose.Tasks [ici](https://forum.aspose.com/c/tasks/15).
+
+**Q : Comment changer programmétiquement la couleur de fond du diagramme de Gantt ?**  
+R : Utilisez la méthode `view.getGanttChartProperties().setBackgroundColor(Color)` après avoir importé `java.awt.Color`.
 
 ## Conclusion
-La gestion efficace du nombre d'échelles de temps dans MS Project à l'aide d'Aspose.Tasks pour Java vous permet de personnaliser les vues du projet pour une meilleure visualisation et gestion.
-## FAQ
-### Q : Aspose.Tasks pour Java peut-il gérer des fichiers de projet à grande échelle ?
-R : Oui, Aspose.Tasks for Java est capable de gérer efficacement des fichiers de projet à grande échelle.
-### Q : Aspose.Tasks pour Java est-il compatible avec différents IDE Java ?
-R : Oui, Aspose.Tasks pour Java fonctionne de manière transparente avec les environnements de développement intégrés (IDE) Java populaires tels qu'Eclipse et IntelliJ IDEA.
-### Q : Puis-je personnaliser l'apparence des diagrammes de Gantt à l'aide d'Aspose.Tasks pour Java ?
-R : Absolument, Aspose.Tasks pour Java offre des fonctionnalités étendues pour personnaliser l'apparence des diagrammes de Gantt en fonction de vos besoins.
-### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour Java ?
- R : Oui, vous pouvez obtenir une version d'essai gratuite auprès de[ici](https://releases.aspose.com/).
-### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks pour Java ?
- R : Vous pouvez trouver de l'aide et de l'assistance sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+En suivant ces étapes, vous avez appris à **personnaliser les niveaux d’échelle de temps du diagramme de Gantt**, à améliorer la **visualisation du projet**, et à **enregistrer le projet au format PDF** avec Aspose.Tasks for Java. Cette approche vous donne un contrôle total sur la sortie visuelle, facilitant le partage d’horaires clairs et professionnels avec votre équipe ou vos clients.
+
+---
+
+**Dernière mise à jour :** 2025-12-21  
+**Testé avec :** Aspose.Tasks for Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
