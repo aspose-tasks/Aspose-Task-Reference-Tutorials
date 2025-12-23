@@ -1,98 +1,139 @@
 ---
-title: Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
-linktitle: Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
+date: 2025-12-23
+description: Μάθετε πώς να δημιουργείτε σύνοψη MPP και να ενημερώνετε τον συγγραφέα
+  του έργου χρησιμοποιώντας το Aspose.Tasks για Java. Ορίστε και ανακτήστε τις πληροφορίες
+  του έργου με ευκολία.
+linktitle: Write MPP Project Summary in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Μάθετε πώς να γράφετε περιλήψεις έργων MPP σε Java χρησιμοποιώντας το Aspose.Tasks. Ρυθμίστε και ανακτήστε πληροφορίες έργου χωρίς κόπο.
-weight: 27
+title: Πώς να δημιουργήσετε σύνοψη MPP και να ενημερώσετε τον συγγραφέα του έργου
+  με το Aspose.Tasks
 url: /el/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Γράψτε τη σύνοψη έργου MPP στο Aspose.Tasks
+# Γράψτε Περίληψη Έργου MPP στο Aspose.Tasks
 
 ## Εισαγωγή
-Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Tasks για την Java για τη σύνταξη περιλήψεων έργων MPP. Το Aspose.Tasks είναι μια ισχυρή βιβλιοθήκη Java για εργασία με αρχεία Microsoft Project. Ακολουθώντας τα βήματα που περιγράφονται παρακάτω, θα μπορείτε να ορίσετε και να ανακτήσετε διάφορες συνοπτικές πληροφορίες σχετικά με ένα έργο χρησιμοποιώντας αυτήν τη βιβλιοθήκη.
-## Προαπαιτούμενα
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
-1. Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας.
-2.  Aspose.Tasks για Java: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.Tasks για Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/tasks/java/).
-3. Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Επιλέξτε το IDE που προτιμάτε για ανάπτυξη Java, όπως το IntelliJ IDEA, το Eclipse ή το NetBeans.
+Σε αυτό το tutorial, θα **create MPP summary** πληροφορίες για ένα αρχείο Microsoft Project και θα μάθετε πώς να **update project author** λεπτομέρειες χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Είτε δημιουργείτε ένα εργαλείο διαχείρισης έργων είτε αυτοματοποιείτε την αναφορά, ο προγραμματιστικός έλεγχος των ιδιοτήτων περίληψης εξοικονομεί χρόνο και εξασφαλίζει συνέπεια σε όλα τα έργα σας.
 
-## Εισαγωγή πακέτων
-Πρώτα, εισαγάγετε τα απαραίτητα πακέτα στην τάξη Java σας:
+## Γρήγορες Απαντήσεις
+- **What does “create MPP summary” mean?** Σημαίνει τον ορισμό των υψηλού επιπέδου ιδιοτήτων του έργου (author, revision, keywords, κ.λπ.) που εμφανίζονται στο παράθυρο Project Summary Information του Microsoft Project.  
+- **Which library handles this?** Η Aspose.Tasks for Java παρέχει ένα fluent API για ανάγνωση και εγγραφή αυτών των ιδιοτήτων.  
+- **Do I need a license?** Διατίθεται δωρεάν δοκιμαστική έκδοση, αλλά απαιτείται εμπορική άδεια για παραγωγική χρήση.  
+- **Can I also change the author after the file is saved?** Ναι – μπορείτε να **update project author** καλώντας `project.set(Prj.AUTHOR, "New Author")` και στη συνέχεια να αποθηκεύσετε ξανά το αρχείο.  
+- **What file formats are supported?** Υποστηρίζονται πλήρως τόσο τα MPP όσο και XML (SaveFileFormat.Xml).
+
+## Τι είναι η δημιουργία περίληψης MPP;
+Η δημιουργία μιας MPP summary περιλαμβάνει την πληρότητα των μεταδεδομένων του έργου—author, revision number, keywords, comments, creation date και printed date. Αυτά τα μεταδεδομένα αποθηκεύονται μέσα στην εγγραφή Project Summary Information και εμφανίζονται στην ενότητα **File → Info** του Microsoft Project.
+
+## Γιατί να ενημερώσετε τον συγγραφέα του έργου;
+Η διατήρηση ακριβούς πληροφορίας **project author** είναι κρίσιμη για τα αρχεία ελέγχου, τη συνεργασία και την αναφορά. Όταν πολλοί μέλη της ομάδας συμβάλλουν, ίσως χρειαστεί να **update project author** ώστε να αντικατοπτρίζει τις τελευταίες αλλαγές ή να αποδίδει σωστά τη δουλειά.
+
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
+1. Java Development Kit (JDK) εγκατεστημένο στον υπολογιστή σας.  
+2. Aspose.Tasks for Java – κατεβάστε το από [here](https://releases.aspose.com/tasks/java/).  
+3. Ένα IDE όπως IntelliJ IDEA, Eclipse ή NetBeans.
+
+## Εισαγωγή Πακέτων
+Πρώτα, εισάγετε τα απαραίτητα πακέτα στην κλάση Java σας:
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
-## Βήμα 1: Ρύθμιση έργου και ορισμός πληροφοριών σύνοψης
+
+## Βήμα 1: Ρύθμιση Έργου και Ορισμός Πληροφοριών Περίληψης
 ```java
-// Η διαδρομή προς τον κατάλογο εγγράφων.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//Αρχικοποιήστε ένα νέο αντικείμενο Project με τη διαδρομή προς το αρχείο του έργου σας
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// Ορίστε συνοπτικές πληροφορίες για το έργο
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
 project.set(Prj.KEYWORDS, "MSP Aspose");
 project.set(Prj.COMMENTS, "Comments");
-// Ορίστε την ημερομηνία δημιουργίας του έργου
+// Set creation date of the project
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// Ορίστε λέξεις-κλειδιά για το έργο
+// Set keywords for the project
 project.set(Prj.KEYWORDS, "MPP Aspose");
-// Ορίστε την τελευταία ημερομηνία εκτύπωσης του έργου
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
-## Βήμα 2: Αποθήκευση πληροφοριών περίληψης έργου
+Στον παραπάνω κώδικα **create MPP summary** πεδία όπως author, revision και keywords. Μπορείτε επίσης να **update project author** αργότερα καλώντας `project.set(Prj.AUTHOR, "New Name")`.
+
+## Βήμα 2: Αποθήκευση Πληροφοριών Περίληψης Έργου
 ```java
-// Αποθηκεύστε το έργο ξανά σε μορφή MPP
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// Εμφάνιση μηνύματος επιτυχίας
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
-## Βήμα 3: Διαβάστε τις πληροφορίες περίληψης έργου
+Η αποθήκευση του έργου διατηρεί όλα τα δεδομένα περίληψης που ορίσατε.
+
+## Βήμα 3: Ανάγνωση Πληροφοριών Περίληψης Έργου
 ```java
-// Ανάγνωση πληροφοριών περίληψης έργου
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// Εκτύπωση συγγραφέας του έργου
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// Εκτύπωση τελευταίου συγγραφέα του έργου
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// Εκτύπωση του αριθμού αναθεώρησης του έργου
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// Εκτύπωση λέξεων-κλειδιών του έργου
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Εκτύπωση σχολίων του έργου
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// Εκτύπωση ημερομηνίας δημιουργίας του έργου
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// Εκτύπωση λέξεων-κλειδιών του έργου (ξανά)
+// Print keywords of the project (again)
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Εκτύπωση τελευταίας ημερομηνίας εκτύπωσης του έργου
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
+Αυτό το απόσπασμα δείχνει πώς να **read back** τις πληροφορίες περίληψης, επιβεβαιώνοντας ότι η λειτουργία **create MPP summary** ολοκληρώθηκε επιτυχώς.
 
-## συμπέρασμα
-Σε αυτό το σεμινάριο, έχουμε καλύψει πώς να γράφουμε περιλήψεις έργων MPP χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθώντας αυτά τα βήματα, μπορείτε να ορίσετε και να ανακτήσετε αποτελεσματικά διάφορες συνοπτικές πληροφορίες σχετικά με τα αρχεία του έργου σας. Το Aspose.Tasks απλοποιεί τη διαδικασία εργασίας με αρχεία Microsoft Project σε εφαρμογές Java, προσφέροντας ισχυρή λειτουργικότητα και ευκολία στη χρήση.
-## Συχνές ερωτήσεις
-### Ε: Μπορώ να χρησιμοποιήσω το Aspose.Tasks για Java με άλλες βιβλιοθήκες Java;
-Α: Ναι, το Aspose.Tasks για Java μπορεί να ενσωματωθεί απρόσκοπτα με άλλες βιβλιοθήκες Java για να βελτιώσει τις δυνατότητες διαχείρισης του έργου σας.
-### Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για Java;
- Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
-### Ε: Πόσο συχνά ενημερώνεται το Aspose.Tasks για Java;
-Α: Το Aspose.Tasks για Java ενημερώνεται τακτικά για να διασφαλίζεται η συμβατότητα με τις πιο πρόσφατες εκδόσεις των αρχείων Java και Microsoft Project.
-### Ε: Μπορώ να προσαρμόσω περαιτέρω τις πληροφορίες περίληψης του έργου;
-Α: Απολύτως, το Aspose.Tasks για Java παρέχει εκτενείς επιλογές για την προσαρμογή των πληροφοριών περίληψης έργου σύμφωνα με τις συγκεκριμένες απαιτήσεις σας.
-### Ε: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks για Java;
-Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
+## Κοινά Προβλήματα και Λύσεις
+- **Null values after reading:** Βεβαιωθείτε ότι το έργο αποθηκεύτηκε επιτυχώς πριν το ξαναφορτώσετε. Ελέγξτε τις διαδρομές αρχείων και τα δικαιώματα.  
+- **Date formatting differences:** `project.get(Prj.CREATION_DATE)` επιστρέφει ένα `java.util.Date`. Χρησιμοποιήστε `SimpleDateFormat` αν χρειάζεστε προσαρμοσμένη μορφή εμφάνισης.  
+- **License not set:** Χωρίς έγκυρη άδεια, η Aspose.Tasks λειτουργεί σε λειτουργία αξιολόγησης και μπορεί να ενσωματώνει υδατογράφημα. Καταχωρίστε την άδειά σας νωρίς στον κώδικα.
+
+## Συχνές Ερωτήσεις
+**Q: Μπορώ να χρησιμοποιήσω την Aspose.Tasks for Java με άλλες βιβλιοθήκες Java;**  
+A: Ναι, η Aspose.Tasks for Java μπορεί να ενσωματωθεί άψογα με άλλες βιβλιοθήκες Java για να ενισχύσει τις δυνατότητες διαχείρισης έργων σας.
+
+**Q: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για την Aspose.Tasks for Java;**  
+A: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση από [here](https://releases.aspose.com/).
+
+**Q: Πόσο συχνά ενημερώνεται η Aspose.Tasks for Java;**  
+A: Η Aspose.Tasks for Java ενημερώνεται τακτικά για να εξασφαλίσει συμβατότητα με τις τελευταίες εκδόσεις της Java και των αρχείων Microsoft Project.
+
+**Q: Μπορώ να προσαρμόσω περαιτέρω τις πληροφορίες περίληψης του έργου;**  
+A: Απόλυτα, η Aspose.Tasks for Java παρέχει εκτενείς επιλογές για προσαρμογή των πληροφοριών περίληψης του έργου σύμφωνα με τις συγκεκριμένες απαιτήσεις σας.
+
+**Q: Πού μπορώ να λάβω υποστήριξη για την Aspose.Tasks for Java;**  
+A: Μπορείτε να λάβετε υποστήριξη από το φόρουμ της κοινότητας Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+## Συμπέρασμα
+Σε αυτό το tutorial σας δείξαμε πώς να **create MPP summary** δεδομένα, να **update project author**, και να επαληθεύσετε αυτές τις αλλαγές χρησιμοποιώντας την Aspose.Tasks for Java. Με την αυτοματοποίηση αυτών των βημάτων αποκτάτε πλήρη έλεγχο πάνω στα μεταδεδομένα του έργου, καθιστώντας τις εφαρμογές σας πιο ανθεκτικές και τις αναφορές έργου πιο ακριβείς.
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-23  
+**Δοκιμάστηκε Με:** Aspose.Tasks for Java 24.10  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

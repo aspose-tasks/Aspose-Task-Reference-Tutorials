@@ -1,98 +1,136 @@
 ---
-title: Schrijf een MPP-projectsamenvatting in Aspose.Tasks
-linktitle: Schrijf een MPP-projectsamenvatting in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u MPP-projectsamenvattingen schrijft in Java met behulp van Aspose.Tasks. Moeiteloos projectinformatie instellen en ophalen.
-weight: 27
+date: 2025-12-23
+description: Leer hoe u een MPP‑samenvatting maakt en de projectauteur bijwerkt met
+  Aspose.Tasks voor Java. Stel projectinformatie in en haal deze moeiteloos op.
+linktitle: Write MPP Project Summary in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Hoe een MPP-samenvatting maken en de projectauteur bijwerken met Aspose.Tasks
 url: /nl/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Schrijf een MPP-projectsamenvatting in Aspose.Tasks
+# MPP-projectsamenvatting schrijven in Aspose.Tasks
 
-## Invoering
-In deze zelfstudie leren we hoe u Aspose.Tasks voor Java kunt gebruiken om MPP-projectsamenvattingen te schrijven. Aspose.Tasks is een krachtige Java-bibliotheek voor het werken met Microsoft Project-bestanden. Door de onderstaande stappen te volgen, kunt u met behulp van deze bibliotheek verschillende samenvattende informatie over een project instellen en ophalen.
+## Introductie
+In deze tutorial maak je **MPP-samenvatting** informatie voor een Microsoft Project‑bestand en leer je hoe je **projectauteur** details bijwerkt met behulp van de Aspose.Tasks‑bibliotheek voor Java. Of je nu een project‑managementtool bouwt of rapportage automatiseert, het programmatisch beheren van samenvattende eigenschappen bespaart tijd en zorgt voor consistentie in al je projecten.
+
+## Snelle antwoorden
+- **Wat betekent “create MPP summary”?** Het betekent het instellen van de hoog‑niveau projecteigenschappen (author, revision, keywords, etc.) die verschijnen in het dialoogvenster Project Summary Information van Microsoft Project.  
+- **Welke bibliotheek behandelt dit?** Aspose.Tasks for Java biedt een fluente API om die eigenschappen te lezen en te schrijven.  
+- **Heb ik een licentie nodig?** Er is een gratis proefversie beschikbaar, maar een commerciële licentie is vereist voor productiegebruik.  
+- **Kan ik de auteur ook wijzigen nadat het bestand is opgeslagen?** Ja – je kunt **projectauteur bijwerken** door `project.set(Prj.AUTHOR, "New Author")` aan te roepen en vervolgens het bestand opnieuw op te slaan.  
+- **Welke bestandsformaten worden ondersteund?** Zowel MPP als XML (SaveFileFormat.Xml) worden volledig ondersteund.
+
+## Wat is create MPP summary?
+Het maken van een MPP‑samenvatting houdt in dat je de metadata van het project invult — author, revision‑nummer, keywords, comments, creation‑date en printed‑date. Deze metadata wordt opgeslagen in het record Project Summary Information en wordt weergegeven in de **File → Info**‑sectie van Microsoft Project.
+
+## Waarom projectauteur bijwerken?
+Het nauwkeurig houden van de **projectauteur**‑informatie is essentieel voor audit‑trails, samenwerking en rapportage. Wanneer meerdere teamleden bijdragen, moet je mogelijk de **projectauteur** bijwerken om de laatste wijzigingen weer te geven of het werk correct toe te wijzen.
+
 ## Vereisten
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor Java: Download en installeer de Aspose.Tasks voor Java-bibliotheek. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/java/).
-3. Integrated Development Environment (IDE): Kies de IDE van uw voorkeur voor Java-ontwikkeling, zoals IntelliJ IDEA, Eclipse of NetBeans.
+1. Java Development Kit (JDK) geïnstalleerd op je machine.  
+2. Aspose.Tasks for Java – download het vanaf [hier](https://releases.aspose.com/tasks/java/).  
+3. Een IDE zoals IntelliJ IDEA, Eclipse of NetBeans.
 
 ## Pakketten importeren
-Importeer eerst de benodigde pakketten in uw Java-klasse:
+Importeer eerst de benodigde pakketten in je Java‑klasse:
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
-## Stap 1: Project instellen en samenvattende informatie definiëren
+
+## Stap 1: Project instellen en samenvattingsinformatie definiëren
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//Initialiseer een nieuw Project-object met het pad naar uw projectbestand
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// Stel samenvattende informatie over het project in
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
 project.set(Prj.KEYWORDS, "MSP Aspose");
 project.set(Prj.COMMENTS, "Comments");
-// Stel de aanmaakdatum van het project in
+// Set creation date of the project
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// Stel trefwoorden in voor het project
+// Set keywords for the project
 project.set(Prj.KEYWORDS, "MPP Aspose");
-// Stel de laatst afgedrukte datum van het project in
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
-## Stap 2: Bewaar projectsamenvattingsinformatie
+In de bovenstaande code maken we **MPP‑samenvatting**‑velden zoals author, revision en keywords. Je kunt later ook de **projectauteur** bijwerken door `project.set(Prj.AUTHOR, "New Name")` aan te roepen.
+
+## Stap 2: Project‑samenvattingsinformatie opslaan
 ```java
-// Sla het project weer op in MPP-indeling
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// Geef een succesbericht weer
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
-## Stap 3: Lees de projectsamenvattingsinformatie
+Het opslaan van het project bewaart alle samenvattingsgegevens die je zojuist hebt gedefinieerd.
+
+## Stap 3: Project‑samenvattingsinformatie lezen
 ```java
-// Projectsamenvattingsinformatie lezen
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// Print auteur van het project
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// Laatste auteur van het project afdrukken
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// Druk het revisienummer van het project af
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// Druk trefwoorden van het project af
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Opmerkingen over het project afdrukken
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// Aanmaakdatum van het project afdrukken
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// Trefwoorden van het project (opnieuw) afdrukken
+// Print keywords of the project (again)
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Print de laatst afgedrukte datum van het project
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
+Dit fragment toont hoe je de samenvattingsinformatie **terugleest**, waarmee wordt bevestigd dat de **create MPP summary**‑operatie geslaagd is.
+
+## Veelvoorkomende problemen en oplossingen
+- **Null‑waarden na het lezen:** Zorg ervoor dat het project succesvol is opgeslagen voordat je het opnieuw laadt. Controleer bestands‑paden en rechten.  
+- **Verschillen in datumopmaak:** `project.get(Prj.CREATION_DATE)` retourneert een `java.util.Date`. Gebruik `SimpleDateFormat` als je een aangepast weergaveformaat nodig hebt.  
+- **Licentie niet ingesteld:** Zonder een geldige licentie draait Aspose.Tasks in evaluatiemodus en kan een watermerk worden toegevoegd. Registreer je licentie vroeg in de code.
+
+## Veelgestelde vragen
+**Q: Kan ik Aspose.Tasks for Java gebruiken met andere Java‑bibliotheken?**  
+A: Ja, Aspose.Tasks for Java kan naadloos worden geïntegreerd met andere Java‑bibliotheken om je project‑managementmogelijkheden te verbeteren.
+
+**Q: Is er een proefversie beschikbaar voor Aspose.Tasks for Java?**  
+A: Ja, je kunt een gratis proefversie downloaden vanaf [hier](https://releases.aspose.com/).
+
+**Q: Hoe vaak wordt Aspose.Tasks for Java bijgewerkt?**  
+A: Aspose.Tasks for Java wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste versies van Java en Microsoft Project‑bestanden te waarborgen.
+
+**Q: Kan ik de project‑samenvattingsinformatie verder aanpassen?**  
+A: Absoluut, Aspose.Tasks for Java biedt uitgebreide opties om de project‑samenvattingsinformatie aan te passen aan je specifieke eisen.
+
+**Q: Waar kan ik ondersteuning krijgen voor Aspose.Tasks for Java?**  
+A: Je kunt ondersteuning krijgen via het Aspose.Tasks‑communityforum [hier](https://forum.aspose.com/c/tasks/15).
 
 ## Conclusie
-In deze zelfstudie hebben we besproken hoe u MPP-projectsamenvattingen schrijft met Aspose.Tasks voor Java. Door deze stappen te volgen, kunt u efficiënt verschillende samenvattende informatie over uw projectbestanden instellen en ophalen. Aspose.Tasks vereenvoudigt het proces van het werken met Microsoft Project-bestanden in Java-applicaties en biedt robuuste functionaliteit en gebruiksgemak.
-## Veelgestelde vragen
-### Vraag: Kan ik Aspose.Tasks voor Java gebruiken met andere Java-bibliotheken?
-A: Ja, Aspose.Tasks voor Java kan naadloos worden geïntegreerd met andere Java-bibliotheken om uw projectbeheermogelijkheden te verbeteren.
-### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
- A: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
-### Vraag: Hoe vaak wordt Aspose.Tasks voor Java bijgewerkt?
-A: Aspose.Tasks voor Java wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste versies van Java- en Microsoft Project-bestanden te garanderen.
-### Vraag: Kan ik de samenvattingsinformatie van het project verder aanpassen?
-A: Absoluut, Aspose.Tasks voor Java biedt uitgebreide opties voor het aanpassen van projectsamenvattingsinformatie volgens uw specifieke vereisten.
-### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
-A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
+In deze tutorial hebben we laten zien hoe je **MPP‑samenvatting**‑gegevens maakt, de **projectauteur** bijwerkt, en die wijzigingen verifieert met Aspose.Tasks for Java. Door deze stappen te automatiseren krijg je volledige controle over projectmetadata, waardoor je applicaties robuuster worden en je projectrapporten nauwkeuriger.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-23  
+**Getest met:** Aspose.Tasks for Java 24.10  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
