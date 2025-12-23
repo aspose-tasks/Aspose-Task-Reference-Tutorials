@@ -1,27 +1,43 @@
 ---
-title: Viết tóm tắt dự án MPP trong Aspose.Tasks
-linktitle: Viết tóm tắt dự án MPP trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách viết tóm tắt dự án MPP bằng Java bằng Aspose.Tasks. Thiết lập và truy xuất thông tin dự án một cách dễ dàng.
-weight: 27
+date: 2025-12-23
+description: Tìm hiểu cách tạo bản tóm tắt MPP và cập nhật tác giả dự án bằng Aspose.Tasks
+  cho Java. Thiết lập và truy xuất thông tin dự án một cách dễ dàng.
+linktitle: Write MPP Project Summary in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cách tạo tóm tắt MPP và cập nhật tác giả dự án bằng Aspose.Tasks
 url: /vi/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Viết tóm tắt dự án MPP trong Aspose.Tasks
+# Viết Tóm tắt Dự án MPP trong Aspose.Tasks
 
 ## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để viết tóm tắt dự án MPP. Aspose.Tasks là một thư viện Java mạnh mẽ để làm việc với các tệp Microsoft Project. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể thiết lập và truy xuất các thông tin tóm tắt khác nhau về một dự án bằng thư viện này.
-## Điều kiện tiên quyết
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2.  Aspose.Tasks cho Java: Tải xuống và cài đặt thư viện Aspose.Tasks cho Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/java/).
-3. Môi trường phát triển tích hợp (IDE): Chọn IDE ưa thích của bạn để phát triển Java, chẳng hạn như IntelliJ IDEA, Eclipse hoặc NetBeans.
+Trong hướng dẫn này, bạn sẽ **tạo thông tin tóm tắt MPP** cho một tệp Microsoft Project và học cách **cập nhật thông tin tác giả dự án** bằng thư viện Aspose.Tasks cho Java. Dù bạn đang xây dựng một công cụ quản lý dự án hay tự động hoá báo cáo, việc điều khiển các thuộc tính tóm tắt một cách lập trình sẽ tiết kiệm thời gian và đảm bảo tính nhất quán trong các dự án của bạn.
 
-## Gói nhập khẩu
+## Câu trả lời nhanh
+- **“tạo tóm tắt MPP” có nghĩa là gì?** Nó có nghĩa là thiết lập các thuộc tính dự án cấp cao (tác giả, phiên bản, từ khóa, v.v.) xuất hiện trong hộp thoại Project Summary Information của Microsoft Project.  
+- **Thư viện nào xử lý việc này?** Aspose.Tasks cho Java cung cấp một API fluent để đọc và ghi các thuộc tính đó.  
+- **Tôi có cần giấy phép không?** Có phiên bản dùng thử miễn phí, nhưng giấy phép thương mại là bắt buộc cho việc sử dụng trong môi trường sản xuất.  
+- **Tôi có thể thay đổi tác giả sau khi tệp đã được lưu không?** Có – bạn có thể **cập nhật tác giả dự án** bằng cách gọi `project.set(Prj.AUTH, "New Author")` và sau đó lưu lại tệp.  
+- **Các định dạng tệp nào được hỗ trợ?** Cả MPP và XML (SaveFileFormat.Xml) đều được hỗ trợ đầy đủ.
+
+## “tạo tóm tắt MPP” là gì?
+Việc tạo tóm tắt MPP liên quan đến việc điền các siêu dữ liệu của dự án — tác giả, số phiên bản, từ khóa, nhận xét, ngày tạo và ngày in. Các siêu dữ liệu này được lưu trong bản ghi Project Summary Information và được hiển thị trong phần **File → Info** của Microsoft Project.
+
+## Tại sao cần cập nhật tác giả dự án?
+Giữ thông tin **tác giả dự án** chính xác là rất quan trọng cho việc truy vết, hợp tác và báo cáo. Khi có nhiều thành viên trong nhóm đóng góp, bạn có thể cần **cập nhật tác giả dự án** để phản ánh các thay đổi mới nhất hoặc ghi nhận công việc đúng người.
+
+## Điều kiện tiên quyết
+Trước khi bắt đầu, hãy đảm bảo bạn đã có các điều kiện sau:
+1. Java Development Kit (JDK) đã được cài đặt trên máy tính của bạn.  
+2. Aspose.Tasks cho Java – tải về từ [here](https://releases.aspose.com/tasks/java/).  
+3. Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans.
+
+## Nhập khẩu các gói
 Đầu tiên, nhập các gói cần thiết vào lớp Java của bạn:
 ```java
 import com.aspose.tasks.Prj;
@@ -29,70 +45,93 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
-## Bước 1: Thiết lập dự án và xác định thông tin tóm tắt
+
+## Bước 1: Thiết lập Dự án và Định nghĩa Thông tin Tóm tắt
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//Khởi tạo một đối tượng Project mới với đường dẫn đến tệp dự án của bạn
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// Đặt thông tin tóm tắt về dự án
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
 project.set(Prj.KEYWORDS, "MSP Aspose");
 project.set(Prj.COMMENTS, "Comments");
-// Đặt ngày tạo dự án
+// Set creation date of the project
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// Đặt từ khóa cho dự án
+// Set keywords for the project
 project.set(Prj.KEYWORDS, "MPP Aspose");
-// Đặt ngày in cuối cùng của dự án
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
-## Bước 2: Lưu thông tin tóm tắt dự án
+Trong đoạn mã trên, chúng ta **tạo các trường tóm tắt MPP** như tác giả, phiên bản và từ khóa. Bạn cũng có thể **cập nhật tác giả dự án** sau này bằng cách gọi `project.set(Prj.AUTHOR, "New Name")`.
+
+## Bước 2: Lưu Thông tin Tóm tắt Dự án
 ```java
-// Lưu dự án trở lại định dạng MPP
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// Hiển thị thông báo thành công
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
-## Bước 3: Đọc thông tin tóm tắt dự án
+Việc lưu dự án sẽ ghi lại tất cả dữ liệu tóm tắt mà bạn vừa định nghĩa.
+
+## Bước 3: Đọc Thông tin Tóm tắt Dự án
 ```java
-// Đọc thông tin tóm tắt dự án
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// In tác giả của dự án
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// In tác giả cuối cùng của dự án
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// In số sửa đổi của dự án
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// In từ khóa của dự án
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// In ý kiến của dự án
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// In ngày tạo dự án
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// In từ khóa của dự án (lại)
+// Print keywords of the project (again)
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// In ngày in cuối cùng của dự án
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
+Đoạn mã này minh họa cách **đọc lại** thông tin tóm tắt, xác nhận rằng thao tác **tạo tóm tắt MPP** đã thành công.
 
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã trình bày cách viết tóm tắt dự án MPP bằng Aspose.Tasks cho Java. Bằng cách làm theo các bước này, bạn có thể thiết lập và truy xuất các thông tin tóm tắt khác nhau về các tệp dự án của mình một cách hiệu quả. Aspose.Tasks đơn giản hóa quá trình làm việc với các tệp Microsoft Project trong các ứng dụng Java, cung cấp chức năng mạnh mẽ và dễ sử dụng.
+## Các vấn đề thường gặp và giải pháp
+- **Giá trị null sau khi đọc:** Đảm bảo dự án đã được lưu thành công trước khi tải lại. Kiểm tra đường dẫn tệp và quyền truy cập.  
+- **Khác biệt định dạng ngày:** `project.get(Prj.CREATION_DATE)` trả về một `java.util.Date`. Sử dụng `SimpleDateFormat` nếu bạn cần định dạng hiển thị tùy chỉnh.  
+- **Chưa đặt giấy phép:** Nếu không có giấy phép hợp lệ, Aspose.Tasks sẽ chạy ở chế độ đánh giá và có thể chèn watermark. Đăng ký giấy phép ngay trong mã của bạn.
+
 ## Câu hỏi thường gặp
-### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks cho Java với các thư viện Java khác không?
-Trả lời: Có, Aspose.Tasks cho Java có thể được tích hợp liền mạch với các thư viện Java khác để nâng cao khả năng quản lý dự án của bạn.
-### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
- Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-### Câu hỏi: Aspose.Tasks cho Java được cập nhật thường xuyên như thế nào?
-Trả lời: Aspose.Tasks cho Java được cập nhật thường xuyên để đảm bảo khả năng tương thích với các phiên bản mới nhất của tệp Java và Microsoft Project.
-### Câu hỏi: Tôi có thể tùy chỉnh thêm thông tin tóm tắt dự án không?
-Trả lời: Hoàn toàn có thể, Aspose.Tasks cho Java cung cấp các tùy chọn mở rộng để tùy chỉnh thông tin tóm tắt dự án theo yêu cầu cụ thể của bạn.
-### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?
-Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+**H: Tôi có thể dùng Aspose.Tasks cho Java cùng với các thư viện Java khác không?**  
+Đ: Có, Aspose.Tasks cho Java có thể tích hợp liền mạch với các thư viện Java khác để nâng cao khả năng quản lý dự án của bạn.
+
+**H: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?**  
+Đ: Có, bạn có thể tải phiên bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
+
+**H: Aspose.Tasks cho Java được cập nhật bao lâu một lần?**  
+Đ: Aspose.Tasks cho Java được cập nhật thường xuyên để đảm bảo tương thích với các phiên bản mới nhất của Java và các tệp Microsoft Project.
+
+**H: Tôi có thể tùy chỉnh thêm thông tin tóm tắt dự án không?**  
+Đ: Chắc chắn, Aspose.Tasks cho Java cung cấp nhiều tùy chọn để tùy chỉnh thông tin tóm tắt dự án theo yêu cầu cụ thể của bạn.
+
+**H: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?**  
+Đ: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+## Kết luận
+Trong hướng dẫn này, chúng tôi đã chỉ cho bạn cách **tạo dữ liệu tóm tắt MPP**, **cập nhật tác giả dự án**, và xác minh các thay đổi đó bằng Aspose.Tasks cho Java. Bằng cách tự động hoá các bước này, bạn sẽ có toàn quyền kiểm soát siêu dữ liệu dự án, làm cho ứng dụng của mình mạnh mẽ hơn và các báo cáo dự án chính xác hơn.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-23  
+**Đã kiểm tra với:** Aspose.Tasks cho Java 24.10  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

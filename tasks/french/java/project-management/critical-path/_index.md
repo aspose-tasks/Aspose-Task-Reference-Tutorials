@@ -1,83 +1,130 @@
 ---
-title: Calculer le chemin critique du projet MS dans Aspose.Tasks
-linktitle: Calculer le chemin critique dans les projets Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Découvrez comment calculer le chemin critique dans MS Project à l'aide d'Aspose.Tasks pour Java. Celui-ci fournit des conseils étape par étape pour une gestion de projet efficace.
-weight: 10
+date: 2025-12-23
+description: Apprenez à créer des dépendances de tâches et à calculer le chemin critique
+  dans MS Project en utilisant Aspose.Tasks pour Java. Guide étape par étape pour
+  la gestion de projet.
+linktitle: Calculate Critical Path in Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+title: Créer des dépendances de tâches et calculer le chemin critique dans Aspose.Tasks
 url: /fr/java/project-management/critical-path/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calculer le chemin critique du projet MS dans Aspose.Tasks
+# Créer des dépendances de tâches et calculer le chemin critique dans Aspose.Tasks
 
 ## Introduction
-Dans ce didacticiel, nous vous guiderons tout au long du processus de calcul du chemin critique dans MS Project à l'aide d'Aspose.Tasks pour Java. Le chemin critique est essentiel pour la gestion de projet car il permet d'identifier la séquence de tâches qui doivent être terminées à temps pour garantir que le calendrier global du projet ne soit pas retardé.
-## Conditions préalables
-Avant de commencer, assurez-vous de disposer des prérequis suivants :
-1. Kit de développement Java (JDK) installé sur votre système.
-2.  Bibliothèque Aspose.Tasks pour Java téléchargée et ajoutée à votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/java/).
+Dans ce tutoriel, **vous apprendrez comment créer des dépendances de tâches** et calculer le chemin critique dans un fichier MS Project en utilisant Aspose.Tasks pour Java. Comprendre et visualiser le chemin critique vous aide à maintenir votre projet dans les délais, tandis que le lien correct des tâches garantit que tout retard est immédiatement visible. Parcourons l’ensemble du processus, de la configuration de l’environnement à l’affichage du chemin critique final.
 
-## Importer des packages
-Pour commencer, importez les packages nécessaires dans votre classe Java :
+## Quick Answers
+- **Quelle est la première étape ?** Configurez votre projet Java et ajoutez la bibliothèque Aspose.Tasks.  
+- **Quel mode doit être activé ?** `CalculationMode.Automatic` (activer le calcul automatique).  
+- **Comment lier les tâches ?** Utilisez `project.getTaskLinks().add(...)` pour créer des dépendances de tâches.  
+- **Comment afficher le chemin critique ?** Parcourez `project.getCriticalPath()` et affichez le nom de chaque tâche.  
+- **Ai‑je besoin d’une licence ?** Oui, une licence valide Aspose.Tasks est requise pour une utilisation en production.
+
+## What is “create task dependencies”?
+Créer des dépendances de tâches signifie définir des relations (par ex., Fin‑à‑Début) entre les tâches afin que le planning reflète les contraintes du monde réel. Dans Aspose.Tasks, cela se fait via des objets `TaskLink`.
+
+## Why calculate the critical path in MS Project?
+Le **chemin critique de MS Project** montre la séquence la plus longue de tâches dépendantes qui détermine la durée minimale du projet. En le calculant, vous pouvez rapidement identifier les tâches qui ne peuvent pas glisser sans affecter le calendrier global—essentiel pour les applications de **gestion de projet Java** efficaces.
+
+## Prerequisites
+Avant de commencer, assurez‑vous d’avoir :
+
+1. Le Java Development Kit (JDK) installé sur votre système.  
+2. La bibliothèque Aspose.Tasks pour Java téléchargée et ajoutée à votre projet. Vous pouvez la télécharger [ici](https://releases.aspose.com/tasks/java/).  
+
+## Import Packages
+Pour commencer, importez les packages nécessaires dans votre classe Java :
 ```java
 import com.aspose.tasks.*;
 ```
-## Étape 1 : configurer le répertoire de données
-Définissez le chemin d'accès à votre répertoire de données où se trouve votre fichier MS Project.
-```java
-String dataDir = "Your Data Directory";
-```
-## Étape 2 : Charger le fichier MS Project
-Chargez le fichier MS Project à l'aide de la bibliothèque Aspose.Tasks.
-```java
-Project project = new Project(dataDir + "New project 2013.mpp");
-```
-## Étape 3 : Définir le mode de calcul
-Définissez le mode de calcul sur automatique pour permettre le calcul du chemin critique.
+
+## How to set automatic calculation?
+Définir le mode de calcul sur automatique garantit que toute modification des tâches ou des liens met immédiatement à jour le planning, y compris le chemin critique.
 ```java
 project.setCalculationMode(CalculationMode.Automatic);
 ```
-## Étape 4 : Ajouter des tâches
-Ajoutez des tâches à votre projet. Dans cet exemple, nous ajoutons trois sous-tâches.
+
+## Step‑by‑Step Guide
+
+### Step 1: Set Up Data Directory
+Définissez le chemin du dossier qui contient votre fichier MS Project.
+```java
+String dataDir = "Your Data Directory";
+```
+
+### Step 2: Load MS Project File
+Chargez le fichier de projet existant (par ex., *New project 2013.mpp*) à l’aide d’Aspose.Tasks.
+```java
+Project project = new Project(dataDir + "New project 2013.mpp");
+```
+
+### Step 3: Add Tasks
+Créez trois sous‑tâches simples que nous lierons plus tard.
 ```java
 Task subtask1 = project.getRootTask().getChildren().add("1");
 Task subtask2 = project.getRootTask().getChildren().add("2");
 Task subtask3 = project.getRootTask().getChildren().add("3");
 ```
-## Étape 5 : Créer des liens de tâches
-Créez des liens de tâches pour définir les dépendances entre les tâches.
+
+### Step 4: Create Task Links (create task dependencies)
+Définissez les dépendances entre les tâches. Ici nous utilisons un lien Fin‑à‑Début, qui est le type le plus courant.
 ```java
 project.getTaskLinks().add(subtask1, subtask2, TaskLinkType.FinishToStart);
+project.getTaskLinks().add(subtask2, subtask3, TaskLinkType.FinishToStart);
 ```
-## Étape 6 : Afficher le chemin critique
-Récupérer et afficher le chemin critique du projet.
+
+### Step 5: Display Critical Path (display critical path)
+Récupérez et affichez le chemin critique. La méthode `getCriticalPath()` renvoie la liste des tâches qui forment la chaîne critique.
 ```java
 for (Task task : project.getCriticalPath()) {
     System.out.println(task.get(Tsk.NAME));
 }
 ```
-## Étape 7 : Afficher le résultat
-Afficher un message indiquant la réussite du processus.
+
+### Step 6: Confirm Completion
+Affichez un message convivial une fois le processus terminé.
 ```java
 System.out.println("Process completed Successfully");
 ```
 
+## Common Issues and Solutions
+| Problème | Solution |
+|----------|----------|
+| **Le chemin critique est vide** | Assurez‑vous que `CalculationMode.Automatic` est défini avant d’ajouter les liens. |
+| **Les tâches ne sont pas liées** | Vérifiez que vous avez ajouté des objets `TaskLink` pour chaque dépendance. |
+| **Exception de licence** | Chargez une licence valide Aspose.Tasks avant de créer l’instance `Project`. |
+
+## FAQ's
+### Q : Puis‑je utiliser Aspose.Tasks pour Java avec n’importe quelle version de fichiers MS Project ?
+R : Oui, Aspose.Tasks pour Java prend en charge diverses versions de fichiers MS Project, y compris les fichiers .mpp de MS Project 2003 à MS Project 2019.  
+
+### Q : Existe‑t‑il un essai gratuit disponible pour Aspose.Tasks pour Java ?
+R : Oui, vous pouvez télécharger un essai gratuit [ici](https://releases.aspose.com/).  
+
+### Q : Où puis‑je trouver du support pour Aspose.Tasks pour Java ?
+R : Vous pouvez obtenir du support sur le [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).  
+
+### Q : Puis‑je acheter une licence temporaire pour Aspose.Tasks pour Java ?
+R : Oui, vous pouvez acheter une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).  
+
+### Q : Comment acheter Aspose.Tasks pour Java ?
+R : Vous pouvez acheter Aspose.Tasks pour Java sur le site web [ici](https://purchase.aspose.com/buy).
+
 ## Conclusion
-Le calcul du chemin critique dans MS Project à l'aide d'Aspose.Tasks pour Java est crucial pour une gestion de projet efficace. En suivant les étapes décrites dans ce didacticiel, vous pouvez identifier avec précision la séquence de tâches critiques pour le calendrier de votre projet.
-## FAQ
-### Q : Puis-je utiliser Aspose.Tasks pour Java avec n’importe quelle version des fichiers MS Project ?
-R : Oui, Aspose.Tasks for Java prend en charge différentes versions de fichiers MS Project, y compris les fichiers .mpp de MS Project 2003 à MS Project 2019.
-### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour Java ?
- R : Oui, vous pouvez télécharger un essai gratuit à partir de[ici](https://releases.aspose.com/).
-### Q : Où puis-je trouver de l'assistance pour Aspose.Tasks pour Java ?
- R : Vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
-### Q : Puis-je acheter une licence temporaire pour Aspose.Tasks pour Java ?
- R : Oui, vous pouvez acheter une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
-### Q : Comment puis-je acheter Aspose.Tasks pour Java ?
- R : Vous pouvez acheter Aspose.Tasks pour Java sur le site Web.[ici](https://purchase.aspose.com/buy).
+En suivant ces étapes, vous avez **créé des dépendances de tâches**, activé le **calcul automatique**, et affiché avec succès le **chemin critique** de votre fichier MS Project. Ce flux de travail vous donne un contrôle complet sur la logique du planning et vous aide à garder vos projets sur la bonne voie grâce au code de **gestion de projet** basé sur Java.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

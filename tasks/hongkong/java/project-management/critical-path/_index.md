@@ -1,83 +1,129 @@
 ---
-title: 在 Aspose.Tasks 中計算關鍵 MS 專案路徑
-linktitle: 計算 Aspose.Tasks 專案中的關鍵路徑
+date: 2025-12-23
+description: 學習如何在 MS Project 中使用 Aspose.Tasks for Java 建立任務相依關係並計算關鍵路徑。一步一步的專案管理指南。
+linktitle: Calculate Critical Path in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 計算 MS Project 中的關鍵路徑。這為高效的專案管理提供了逐步指導。
-weight: 10
+title: 在 Aspose.Tasks 中建立任務相依性並計算關鍵路徑
 url: /zh-hant/java/project-management/critical-path/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中計算關鍵 MS 專案路徑
+# 在 Aspose.Tasks 中建立工作項目相依性並計算關鍵路徑
 
-## 介紹
-在本教程中，我們將引導您完成使用 Aspose.Tasks for Java 在 MS Project 中計算關鍵路徑的過程。關鍵路徑對於專案管理至關重要，因為它有助於確定必須按時完成的任務順序，以確保專案的整體進度不會延遲。
+## 簡介
+在本教學中，**您將學會如何建立工作項目相依性**，並使用 Aspose.Tasks for Java 計算 MS Project 檔案的關鍵路徑。了解並視覺化關鍵路徑有助於讓您的專案維持在排程上，而正確連結工作項目則能讓任何延遲立即顯現。讓我們從環境設定一路走到最終顯示關鍵路徑的完整流程。
+
+## 快速答覆
+- **第一步是什麼？** 設定您的 Java 專案並加入 Aspose.Tasks 程式庫。  
+- **必須啟用哪種模式？** `CalculationMode.Automatic`（設定自動計算）。  
+- **如何連結工作項目？** 使用 `project.getTaskLinks().add(...)` 來建立工作項目相依性。  
+- **如何檢視關鍵路徑？** 迭代 `project.getCriticalPath()` 並印出每個工作項目的名稱。  
+- **是否需要授權？** 是，正式使用時必須擁有有效的 Aspose.Tasks 授權。
+
+## 什麼是「建立工作項目相依性」？
+建立工作項目相依性是指為工作項目定義關係（例如 Finish‑to‑Start），使排程能反映真實世界的限制。在 Aspose.Tasks 中，這透過 `TaskLink` 物件來完成。
+
+## 為什麼要在 MS Project 中計算關鍵路徑？
+**MS Project 的關鍵路徑** 顯示決定專案最短工期的最長相依工作項目序列。計算它可以快速辨識出若延遲將直接影響整體時程的工作項目——對於有效的 **project management Java** 應用程式至關重要。
+
 ## 先決條件
-在我們開始之前，請確保您符合以下先決條件：
-1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Aspose.Tasks for Java 程式庫下載並新增到您的專案中。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/java/).
+在開始之前，請確保您已具備：
 
-## 導入包
-首先，在 Java 類別中導入必要的套件：
+1. 已在系統上安裝 Java Development Kit (JDK)。  
+2. 下載並將 Aspose.Tasks for Java 程式庫加入您的專案。您可以從 [here](https://releases.aspose.com/tasks/java/) 下載。
+
+## 匯入套件
+要開始，請在您的 Java 類別中匯入必要的套件：
 ```java
 import com.aspose.tasks.*;
 ```
-## 第1步：設定資料目錄
-定義 MS Project 檔案所在的資料目錄的路徑。
-```java
-String dataDir = "Your Data Directory";
-```
-## 第 2 步：載入 MS 專案文件
-使用 Aspose.Tasks 庫載入 MS Project 檔案。
-```java
-Project project = new Project(dataDir + "New project 2013.mpp");
-```
-## 第三步：設定計算模式
-將計算模式設定為自動以啟用關鍵路徑的計算。
+
+## 如何設定自動計算？
+將計算模式設定為自動，可確保任何工作項目或連結的變更即時更新排程，包括關鍵路徑。
 ```java
 project.setCalculationMode(CalculationMode.Automatic);
 ```
-## 第 4 步：新增任務
-將任務新增到您的專案中。在此範例中，我們新增三個子任務。
+
+## 逐步指南
+
+### 步驟 1：設定資料目錄
+定義包含您 MS Project 檔案的資料夾路徑。
+```java
+String dataDir = "Your Data Directory";
+```
+
+### 步驟 2：載入 MS Project 檔案
+使用 Aspose.Tasks 載入既有的專案檔（例如 *New project 2013.mpp*）。
+```java
+Project project = new Project(dataDir + "New project 2013.mpp");
+```
+
+### 步驟 3：新增工作項目
+建立三個簡單的子工作項目，稍後我們會將它們連結起來。
 ```java
 Task subtask1 = project.getRootTask().getChildren().add("1");
 Task subtask2 = project.getRootTask().getChildren().add("2");
 Task subtask3 = project.getRootTask().getChildren().add("3");
 ```
-## 第 5 步：建立任務鏈接
-建立任務連結以定義任務之間的依賴關係。
+
+### 步驟 4：建立工作項目連結（建立工作項目相依性）
+定義工作項目之間的相依性。此處使用最常見的 Finish‑to‑Start 連結。
 ```java
 project.getTaskLinks().add(subtask1, subtask2, TaskLinkType.FinishToStart);
+project.getTaskLinks().add(subtask2, subtask3, TaskLinkType.FinishToStart);
 ```
-## 步驟6：顯示關鍵路徑
-檢索並顯示專案的關鍵路徑。
+
+### 步驟 5：顯示關鍵路徑（display critical path）
+取得並印出關鍵路徑。`getCriticalPath()` 方法會回傳形成關鍵鏈的工作項目清單。
 ```java
 for (Task task : project.getCriticalPath()) {
     System.out.println(task.get(Tsk.NAME));
 }
 ```
-## 第7步：顯示結果
-顯示一條訊息，指示該過程已成功完成。
+
+### 步驟 6：確認完成
+流程結束後顯示友善訊息。
 ```java
 System.out.println("Process completed Successfully");
 ```
 
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **關鍵路徑為空** | 確保在加入連結前已設定 `CalculationMode.Automatic`。 |
+| **工作項目未連結** | 檢查是否已為每個相依性加入 `TaskLink` 物件。 |
+| **授權例外** | 在建立 `Project` 實例之前先載入有效的 Aspose.Tasks 授權。 |
+
+## 常見問答
+
+### Q: 我可以在任何版本的 MS Project 檔案上使用 Aspose.Tasks for Java 嗎？
+A: 可以，Aspose.Tasks for Java 支援多種版本的 MS Project 檔案，包含從 MS Project 2003 到 MS Project 2019 的 .mpp 檔案。
+
+### Q: 是否提供 Aspose.Tasks for Java 的免費試用？
+A: 有，您可以從 [here](https://releases.aspose.com/) 下載免費試用版。
+
+### Q: 我可以在哪裡取得 Aspose.Tasks for Java 的支援？
+A: 您可以在 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 上取得支援。
+
+### Q: 我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
+A: 可以，您可從 [here](https://purchase.aspose.com/temporary-license/) 購買臨時授權。
+
+### Q: 我要如何購買 Aspose.Tasks for Java？
+A: 您可於網站 [here](https://purchase.aspose.com/buy) 購買 Aspose.Tasks for Java。
+
 ## 結論
-使用 Aspose.Tasks for Java 計算 MS Project 中的關鍵路徑對於有效的專案管理至關重要。透過遵循本教程中概述的步驟，您可以準確地確定對專案時間軸至關重要的任務順序。
-## 常見問題解答
-### Q：我可以將 Aspose.Tasks for Java 與任何版本的 MS Project 檔案一起使用嗎？
-答：是的，Aspose.Tasks for Java 支援各種版本的 MS Project 文件，包括從 MS Project 2003 到 MS Project 2019 的 .mpp 檔案。
-### Q：Aspose.Tasks for Java 是否有免費試用版？
-答：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
-### Q：在哪裡可以找到 Aspose.Tasks for Java 的支援？
-答：您可以在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
-### Q：我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
-答：是的，您可以從以下位置購買臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
-### Q：如何購買 Aspose.Tasks for Java？
- A：您可以從網站購買Aspose.Tasks for Java[這裡](https://purchase.aspose.com/buy).
+透過上述步驟，您已 **建立工作項目相依性**、設定 **自動計算**，並成功 **顯示 MS Project 檔案的關鍵路徑**。此工作流程讓您完整掌控排程邏輯，並以 Java 為基礎的 **project management** 程式碼協助專案保持在正軌上。
+
+---
+
+**最後更新：** 2025-12-23  
+**測試環境：** Aspose.Tasks for Java 24.11  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

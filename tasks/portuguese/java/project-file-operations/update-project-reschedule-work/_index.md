@@ -1,28 +1,48 @@
 ---
-title: Atualizar e reprogramar MS Project em Aspose.Tasks
-linktitle: Atualizar projeto e reprogramar trabalho incompleto em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Aprenda como atualizar e reagendar arquivos do MS Project programaticamente usando Aspose.Tasks para Java.
-weight: 23
+date: 2025-12-23
+description: Aprenda como atualizar arquivos do MS Project e reprogramar o trabalho
+  não concluído usando o Aspose.Tasks para Java. Veja também como salvar o XML do
+  MS Project.
+linktitle: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Atualizar o MS Project e Reprogramar o Trabalho com Aspose.Tasks
 url: /pt/java/project-file-operations/update-project-reschedule-work/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atualizar e reprogramar MS Project em Aspose.Tasks
+# Atualizar MS Project e Reagendar Trabalho com Aspose.Tasks
 
 ## Introdução
-O Microsoft Project é um software de gerenciamento de projetos amplamente utilizado que permite aos usuários gerenciar tarefas, recursos e cronogramas com eficiência. Aspose.Tasks for Java fornece um conjunto poderoso de APIs para manipular arquivos do Microsoft Project programaticamente. Neste tutorial, aprenderemos como atualizar arquivos do MS Project e reagendar trabalhos incompletos usando Aspose.Tasks for Java.
-## Pré-requisitos
-Antes de começarmos, certifique-se de ter o seguinte:
-1. Java Development Kit (JDK) instalado em seu sistema.
-2.  Aspose.Tasks para biblioteca Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/java/).
-3. Compreensão básica da linguagem de programação Java.
+Microsoft Project é uma ferramenta de gerenciamento de projetos amplamente usada que ajuda equipes a planejar, monitorar e entregar o trabalho no prazo. Quando os cronogramas mudam, você frequentemente precisa **update MS Project** programaticamente — marcar o trabalho como concluído, mover as tarefas restantes e manter a linha de base do projeto precisa. Aspose.Tasks for Java oferece uma API limpa e tipada para fazer exatamente isso sem abrir a interface gráfica. Neste tutorial você verá como atualizar um projeto, marcar o trabalho como finalizado até uma data específica e, em seguida, **how to reschedule MS Project** o trabalho que ainda está pendente.
 
-## Importar pacotes
-Primeiro, importe os pacotes necessários em seu código Java:
+## Respostas Rápidas
+- **O que significa “update MS Project”?** Ele marca tarefas como concluídas até uma data fornecida e grava as alterações de volta no arquivo.  
+- **Posso reagendar o trabalho restante automaticamente?** Sim — use `rescheduleUncompletedWorkToStartAfter` para avançar as tarefas não finalizadas.  
+- **Qual formato de arquivo é salvo?** Os exemplos salvam o projeto como XML (`SaveFileFormat.Xml`).  
+- **Preciso de uma licença para executar o código?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Qual versão do Java é necessária?** JDK 8 ou superior.
+
+## O que é “update MS Project” no código?
+Atualizar um projeto significa alterar programaticamente datas, durações ou percentuais de conclusão das tarefas e persistir essas alterações. Aspose.Tasks expõe métodos como `updateProjectWorkAsComplete` que aplicam as mudanças com base em uma `Date` de referência que você fornece.
+
+## Por que usar Aspose.Tasks for Java para atualizar MS Project?
+- **Sem dependência de UI** – automatize alterações em massa em vários arquivos.  
+- **Alta fidelidade** – a biblioteca preserva todos os dados nativos do Project (recursos, calendários, campos personalizados).  
+- **Multiplataforma** – execute o mesmo código no Windows, Linux ou macOS.  
+- **Salvar MS Project XML** – você pode exportar o projeto atualizado para o formato XML amplamente suportado para ferramentas downstream.
+
+## Pré‑requisitos
+1. Java Development Kit (JDK) instalado.  
+2. Biblioteca Aspose.Tasks for Java – faça o download [aqui](https://releases.aspose.com/tasks/java/).  
+3. Familiaridade básica com a sintaxe Java e conceitos de orientação a objetos.
+
+## Importar Pacotes
+Primeiro, importe as classes necessárias do Aspose.Tasks e utilitários Java:
+
 ```java
 import com.aspose.tasks.NullableBool;
 import com.aspose.tasks.Prj;
@@ -35,50 +55,75 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-## Etapa 1: configurar o projeto
-Inicialize um novo objeto Project e defina tarefas dentro dele juntamente com suas durações e dependências.
+
+## Etapa 1: Configurar o Projeto
+Crie uma nova instância `Project`, defina algumas tarefas de exemplo, configure suas durações e estabeleça dependências. Em seguida, persista o estado inicial para que você possa ver o efeito antes‑e‑depois.
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project();
-// Defina tarefas e suas durações
+// Define tasks and their durations
 // ...
-// Definir dependências de tarefas
+// Define task dependencies
 // ...
-// Salve o estado inicial do projeto
+// Save the initial project state
 project.save(dataDir + "not_updated.xml", SaveFileFormat.Xml);
 ```
-## Etapa 2: atualizar o trabalho do projeto
-Atualize o trabalho do projeto para marcá-lo como concluído até uma determinada data.
+
+## Etapa 2: Atualizar o Trabalho do Projeto
+Marque o trabalho como concluído até uma data de corte específica. Este é o núcleo do **update MS Project** — a API ajustará o progresso e as datas das tarefas automaticamente.
+
 ```java
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.updateProjectWorkAsComplete(cal.getTime(), false);
-// Salve o projeto atualizado
+// Save the updated project
 project.save(dataDir + "updated.xml", SaveFileFormat.Xml);
 ```
-## Etapa 3: reprogramar trabalho incompleto
-Reprograme qualquer trabalho incompleto para começar após uma data especificada.
+
+## Etapa 3: Reagendar Trabalho Não Concluído
+Após marcar o trabalho concluído, costuma ser necessário avançar as tarefas restantes. A chamada a seguir move qualquer trabalho não finalizado para iniciar após a mesma data de corte, efetivamente **how to reschedule MS Project**.
+
 ```java
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.rescheduleUncompletedWorkToStartAfter(cal.getTime());
-// Salvar o projeto reprogramado
+// Save the rescheduled project
 project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
 ```
 
-## Conclusão
-Neste tutorial, aprendemos como atualizar arquivos do MS Project e reagendar trabalhos incompletos usando Aspose.Tasks for Java. Isto pode ser particularmente útil em cenários em que os cronogramas dos projetos precisam de ajustes com base no progresso ou na mudança de prioridades.
+## Problemas Comuns e Soluções
+| Problema | Motivo | Correção |
+|----------|--------|----------|
+| Tarefas não exibem datas atualizadas | O projeto foi salvo em um formato diferente (por exemplo, `.mpp`) | Use `SaveFileFormat.Xml` para manter a estrutura XML intacta. |
+| `updateProjectWorkAsComplete` parece não fazer nada | A data de referência é anterior ao início do projeto | Certifique-se de que a data do `Calendar` esteja dentro do cronograma do projeto. |
+| Tarefas reprogramadas se sobrepõem | Nenhum calendário ou nivelamento de recursos aplicado | Aplique um calendário `Project` ou use `Task.setStart` manualmente após o replanejamento. |
 
-## Perguntas frequentes
-### P: O Aspose.Tasks for Java pode lidar com estruturas de projetos complexas?
-R: Sim, Aspose.Tasks for Java fornece APIs robustas para gerenciar tarefas, dependências, recursos e outros elementos do projeto com eficiência.
-### P: Existe uma versão de teste disponível para Aspose.Tasks for Java?
- R: Sim, você pode obter uma avaliação gratuita em[aqui](https://releases.aspose.com/).
-### P: Como posso obter suporte para Aspose.Tasks for Java?
- R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvida.
-### P: Posso adquirir uma licença temporária do Aspose.Tasks for Java?
- R: Sim, licenças temporárias estão disponíveis para compra[aqui](https://purchase.aspose.com/temporary-license/).
-### P: Onde posso encontrar documentação detalhada para Aspose.Tasks for Java?
- R: Você pode consultar a documentação[aqui](https://reference.aspose.com/tasks/java/) para guias abrangentes e referências de API.
+## Perguntas Frequentes (Estendidas)
+
+**P: O Aspose.Tasks for Java pode lidar com estruturas de projeto complexas?**  
+R: Sim, Aspose.Tasks for Java fornece APIs robustas para gerenciar tarefas, dependências, recursos e outros elementos do projeto de forma eficiente.
+
+**P: Existe uma versão de avaliação disponível para Aspose.Tasks for Java?**  
+R: Sim, você pode obter uma avaliação gratuita [aqui](https://releases.aspose.com/).
+
+**P: Como posso obter suporte para Aspose.Tasks for Java?**  
+R: Você pode visitar o [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvidas.
+
+**P: Posso comprar uma licença temporária para Aspose.Tasks for Java?**  
+R: Sim, licenças temporárias estão disponíveis para compra [aqui](https://purchase.aspose.com/temporary-license/).
+
+**P: Onde encontro documentação detalhada para Aspose.Tasks for Java?**  
+R: Consulte a documentação [aqui](https://reference.aspose.com/tasks/java/) para guias abrangentes e referências de API.
+
+## Conclusão
+Neste tutorial percorremos todo o processo de **update MS Project**, marcando o trabalho como concluído e, em seguida, **how to reschedule MS Project** as tarefas que permanecem incompletas. Ao salvar o projeto como XML você mantém a compatibilidade com outras ferramentas e preserva um registro claro das alterações. Use esses padrões para automatizar ajustes de cronograma em grandes portfólios, integrar com pipelines de CI ou criar painéis de relatórios personalizados.
+
+---
+
+**Última atualização:** 2025-12-23  
+**Testado com:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

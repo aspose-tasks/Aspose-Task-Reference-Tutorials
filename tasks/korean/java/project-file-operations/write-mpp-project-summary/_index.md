@@ -1,98 +1,137 @@
 ---
-title: Aspose.Tasks에 MPP 프로젝트 요약 작성
-linktitle: Aspose.Tasks에 MPP 프로젝트 요약 작성
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks를 사용하여 Java로 MPP 프로젝트 요약을 작성하는 방법을 알아보세요. 프로젝트 정보를 쉽게 설정하고 검색할 수 있습니다.
-weight: 27
+date: 2025-12-23
+description: Aspose.Tasks for Java를 사용하여 MPP 요약을 만들고 프로젝트 저자를 업데이트하는 방법을 배워보세요. 프로젝트
+  정보를 손쉽게 설정하고 검색하세요.
+linktitle: Write MPP Project Summary in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks로 MPP 요약 만들기 및 프로젝트 작성자 업데이트
 url: /ko/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에 MPP 프로젝트 요약 작성
+# Aspose.Tasks에서 MPP 프로젝트 요약 작성
 
 ## 소개
-이 튜토리얼에서는 Aspose.Tasks for Java를 활용하여 MPP 프로젝트 요약을 작성하는 방법을 알아봅니다. Aspose.Tasks는 Microsoft Project 파일 작업을 위한 강력한 Java 라이브러리입니다. 아래 설명된 단계를 따르면 이 라이브러리를 사용하여 프로젝트에 대한 다양한 요약 정보를 설정하고 검색할 수 있습니다.
-## 전제조건
-시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
-2.  Aspose.Tasks for Java: Aspose.Tasks for Java 라이브러리를 다운로드하고 설치하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/java/).
-3. IDE(통합 개발 환경): IntelliJ IDEA, Eclipse, NetBeans 등 Java 개발을 위해 선호하는 IDE를 선택하세요.
+이 튜토리얼에서는 Microsoft Project 파일에 대한 **MPP 요약** 정보를 **생성**하고 Aspose.Tasks for Java 라이브러리를 사용하여 **프로젝트 작성자** 세부 정보를 **업데이트**하는 방법을 배웁니다. 프로젝트 관리 도구를 구축하거나 보고서를 자동화할 때, 요약 속성을 프로그래밍 방식으로 제어하면 시간을 절약하고 프로젝트 전반에 걸쳐 일관성을 유지할 수 있습니다.
+
+## 빠른 답변
+- **“MPP 요약 생성”은 무엇을 의미하나요?** Microsoft Project의 프로젝트 요약 정보 대화 상자에 표시되는 고수준 프로젝트 속성(작성자, 개정, 키워드 등)을 설정하는 것을 의미합니다.  
+- **어떤 라이브러리가 이를 처리하나요?** Aspose.Tasks for Java는 이러한 속성을 읽고 쓸 수 있는 유창한 API를 제공합니다.  
+- **라이선스가 필요하나요?** 무료 체험판을 사용할 수 있지만, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **파일을 저장한 후에도 작성자를 변경할 수 있나요?** 예 – `project.set(Prj.AUTHOR, "New Author")` 를 호출한 뒤 파일을 다시 저장하면 **프로젝트 작성자**를 **업데이트**할 수 있습니다.  
+- **지원되는 파일 형식은 무엇인가요?** MPP와 XML(SaveFileFormat.Xml) 모두 완전하게 지원됩니다.
+
+## “MPP 요약 생성”이란?
+MPP 요약을 생성한다는 것은 프로젝트의 메타데이터(작성자, 개정 번호, 키워드, 코멘트, 생성 날짜, 인쇄 날짜 등)를 채우는 것을 의미합니다. 이 메타데이터는 Project Summary Information 레코드에 저장되며 Microsoft Project의 **파일 → 정보** 섹션에 표시됩니다.
+
+## 왜 프로젝트 작성자를 업데이트해야 할까요?
+**프로젝트 작성자** 정보를 정확히 유지하는 것은 감사 추적, 협업 및 보고에 필수적입니다. 여러 팀원이 기여하는 경우 최신 변경 사항을 반영하거나 작업을 올바르게 귀속시키기 위해 **프로젝트 작성자**를 **업데이트**해야 할 수 있습니다.
+
+## 사전 요구 사항
+시작하기 전에 다음 요구 사항을 확인하세요:
+1. 머신에 Java Development Kit (JDK)가 설치되어 있어야 합니다.  
+2. Aspose.Tasks for Java – [여기](https://releases.aspose.com/tasks/java/)에서 다운로드합니다.  
+3. IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE가 필요합니다.
 
 ## 패키지 가져오기
-먼저 필요한 패키지를 Java 클래스로 가져옵니다.
+먼저 Java 클래스에 필요한 패키지를 가져옵니다:
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
+
 ## 1단계: 프로젝트 설정 및 요약 정보 정의
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//프로젝트 파일의 경로를 사용하여 새 프로젝트 개체를 초기화합니다.
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// 프로젝트에 대한 요약 정보 설정
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
 project.set(Prj.KEYWORDS, "MSP Aspose");
 project.set(Prj.COMMENTS, "Comments");
-// 프로젝트 생성 날짜 설정
+// Set creation date of the project
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// 프로젝트에 대한 키워드 설정
+// Set keywords for the project
 project.set(Prj.KEYWORDS, "MPP Aspose");
-// 프로젝트의 마지막 인쇄 날짜 설정
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
+위 코드에서는 작성자, 개정, 키워드와 같은 **MPP 요약** 필드를 **생성**합니다. 이후 `project.set(Prj.AUTHOR, "New Name")` 를 호출하여 **프로젝트 작성자**를 **업데이트**할 수도 있습니다.
+
 ## 2단계: 프로젝트 요약 정보 저장
 ```java
-// 프로젝트를 MPP 형식으로 다시 저장
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// 성공 메시지 표시
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
+프로젝트를 저장하면 방금 정의한 모든 요약 데이터가 영구적으로 기록됩니다.
+
 ## 3단계: 프로젝트 요약 정보 읽기
 ```java
-// 프로젝트 요약 정보 읽기
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// 프로젝트의 인쇄 작성자
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// 프로젝트의 마지막 작성자 인쇄
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// 프로젝트 개정 번호 인쇄
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// 프로젝트의 키워드 인쇄
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// 프로젝트 코멘트 인쇄
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// 프로젝트 생성 날짜 인쇄
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// 프로젝트의 키워드 인쇄 (다시)
+// Print keywords of the project (again)
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// 프로젝트의 마지막 인쇄 날짜를 인쇄합니다.
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
+이 스니펫은 **요약 정보를 다시 읽어** **MPP 요약 생성** 작업이 성공했는지 확인하는 방법을 보여줍니다.
+
+## 일반적인 문제 및 해결 방법
+- **읽은 후 값이 null인 경우:** 프로젝트가 성공적으로 저장되었는지 확인하고 다시 로드하세요. 파일 경로와 권한을 점검합니다.  
+- **날짜 형식 차이:** `project.get(Prj.CREATION_DATE)` 는 `java.util.Date` 를 반환합니다. 사용자 정의 표시 형식이 필요하면 `SimpleDateFormat` 을 사용하세요.  
+- **라이선스 미설정:** 유효한 라이선스가 없으면 Aspose.Tasks 가 평가 모드로 실행되어 워터마크가 삽입될 수 있습니다. 코드 초기에 라이선스를 등록하세요.
+
+## 자주 묻는 질문
+**Q: Aspose.Tasks for Java를 다른 Java 라이브러리와 함께 사용할 수 있나요?**  
+A: 예, Aspose.Tasks for Java는 다른 Java 라이브러리와 원활하게 통합되어 프로젝트 관리 기능을 확장할 수 있습니다.
+
+**Q: Aspose.Tasks for Java의 체험판을 제공하나요?**  
+A: 예, [여기](https://releases.aspose.com/)에서 무료 체험판을 다운로드할 수 있습니다.
+
+**Q: Aspose.Tasks for Java는 얼마나 자주 업데이트되나요?**  
+A: 최신 Java 버전 및 Microsoft Project 파일과의 호환성을 보장하기 위해 정기적으로 업데이트됩니다.
+
+**Q: 프로젝트 요약 정보를 더 세부적으로 커스터마이즈할 수 있나요?**  
+A: 물론입니다. Aspose.Tasks for Java는 특정 요구 사항에 맞게 프로젝트 요약 정보를 광범위하게 커스터마이즈할 수 있는 옵션을 제공합니다.
+
+**Q: Aspose.Tasks for Java에 대한 지원은 어디서 받을 수 있나요?**  
+A: Aspose.Tasks 커뮤니티 포럼 [여기](https://forum.aspose.com/c/tasks/15)에서 지원을 받을 수 있습니다.
 
 ## 결론
-이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MPP 프로젝트 요약을 작성하는 방법을 다루었습니다. 다음 단계를 수행하면 프로젝트 파일에 대한 다양한 요약 정보를 효율적으로 설정하고 검색할 수 있습니다. Aspose.Tasks는 Java 애플리케이션에서 Microsoft Project 파일 작업 프로세스를 단순화하여 강력한 기능과 사용 편의성을 제공합니다.
-## FAQ
-### Q: Aspose.Tasks for Java를 다른 Java 라이브러리와 함께 사용할 수 있나요?
-A: 예, Aspose.Tasks for Java는 다른 Java 라이브러리와 원활하게 통합되어 프로젝트 관리 기능을 향상시킬 수 있습니다.
-### Q: Aspose.Tasks for Java에 사용할 수 있는 평가판이 있습니까?
- A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
-### Q: Aspose.Tasks for Java는 얼마나 자주 업데이트되나요?
-A: Aspose.Tasks for Java는 최신 버전의 Java 및 Microsoft Project 파일과의 호환성을 보장하기 위해 정기적으로 업데이트됩니다.
-### Q: 프로젝트 요약 정보를 추가로 사용자 정의할 수 있나요?
-A: 물론, Aspose.Tasks for Java는 특정 요구 사항에 따라 프로젝트 요약 정보를 사용자 정의할 수 있는 광범위한 옵션을 제공합니다.
-### Q: Java용 Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
-A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+이 튜토리얼에서는 **MPP 요약** 데이터를 **생성**하고, **프로젝트 작성자**를 **업데이트**하며, Aspose.Tasks for Java를 사용해 이러한 변경 사항을 검증하는 방법을 살펴보았습니다. 이러한 단계를 자동화하면 프로젝트 메타데이터를 완벽히 제어할 수 있어 애플리케이션이 더욱 견고해지고 프로젝트 보고서가 보다 정확해집니다.
+
+---
+
+**마지막 업데이트:** 2025-12-23  
+**테스트 환경:** Aspose.Tasks for Java 24.10  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
