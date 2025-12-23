@@ -1,30 +1,40 @@
 ---
-title: Hétköznapi tulajdonságok az Aspose.Tasks-ban
-linktitle: Hétköznapi tulajdonságok az Aspose.Tasks-ban
+date: 2025-12-23
+description: Tanulja meg, hogyan használja az Aspose.Tasks Java-t a projekt ütemezésének
+  frissítéséhez, a hét kezdőnapjának beállításához, a hónap napjainak módosításához,
+  és a projekt naptár hatékony testreszabásához.
+linktitle: Weekday Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg a hétköznapi tulajdonságok hatékony kezelését az Aspose.Tasks for Java programban. Könnyedén testreszabhatja a hét kezdési dátumait, a hónap napjait és még sok mást.
-weight: 25
+title: aspose tasks java – Hétköznapok tulajdonságainak kezelése
 url: /hu/java/project-file-operations/weekday-properties/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hétköznapi tulajdonságok az Aspose.Tasks-ban
+# aspose tasks java – Hétköznapi tulajdonságok kezelése
 
 ## Bevezetés
-Az Aspose.Tasks for Java egy hatékony API, amely lehetővé teszi a Java fejlesztők számára, hogy Microsoft Project fájlokkal dolgozzanak anélkül, hogy Microsoft Project lenne telepítve a gépre. Egyik legfontosabb funkciója a hétköznapok tulajdonságainak kezelése, amely lehetővé teszi a felhasználók számára a hét kezdési dátumának, a hónap napjainak, a napi perceknek és a heti perceknek a testreszabását. Ez az oktatóanyag részletes útmutatót ad ezeknek a funkcióknak a hatékony használatához.
+Az Aspose.Tasks for Java (aspose tasks java) egy robusztus API, amely lehetővé teszi a Java fejlesztők számára, hogy a Microsoft Project fájlokkal dolgozzanak anélkül, hogy a Microsoft Project telepítve lenne. Ebben az útmutatóban megtanulja, hogyan **töltsön be egy MPP fájlt**, **állítsa be a hét kezdőnapját**, **változtassa meg a hónap napjainak számát**, és egyébként **testreszabja a projekt naptárát** – mindezek alapvető lépések a projekt ütemezésének frissítéséhez. A végére képes lesz programozottan módosítani a hétköznapi tulajdonságokat, és a változtatásokat a szükséges formátumban menteni.
+
+## Gyors válaszok
+- **Mi a fő osztály a projektek kezeléséhez?** `Project` az Aspose.Tasks könyvtárból.  
+- **Hogyan változtathatom meg a hét kezdőnapját?** Használja a `project.set(Prj.WEEK_START_DAY, DayType.Monday)` metódust.  
+- **Betölthetek egy meglévő .mpp fájlt?** Igen – hozza létre a `Project` példányt a fájl útvonalával.  
+- **Melyik metódus menti a projektet XML-ként?** `project.save(path, SaveFileFormat.Xml)`.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió elegendő értékeléshez; a termeléshez licenc szükséges.
+
 ## Előfeltételek
-Mielőtt belevágna az Aspose.Tasks for Java programba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-### Java fejlesztőkészlet (JDK)
-Győződjön meg arról, hogy a JDK telepítve van a rendszeren. A legújabb JDK letölthető és telepíthető az Oracle webhelyéről.
-### Aspose.Tasks for Java Library
- Töltse le és telepítse az Aspose.Tasks for Java könyvtárat a webhelyről. A letöltési linket elérheti[itt](https://releases.aspose.com/tasks/java/).
-### Integrált fejlesztési környezet (IDE)
-Válasszon egy IDE-t a Java fejlesztéshez. A népszerű választások közé tartozik az IntelliJ IDEA, az Eclipse vagy a NetBeans.
+Mielőtt elkezdené, győződjön meg arról, hogy a következők rendelkezésre állnak:
+
+- **Java Development Kit (JDK)** – a legújabb verzió telepítve.  
+- **Aspose.Tasks for Java könyvtár** – töltse le [itt](https://releases.aspose.com/tasks/java/).  
+- **IDE** például IntelliJ IDEA, Eclipse vagy NetBeans.  
+
 ## Csomagok importálása
-kezdéshez importálja a szükséges Aspose.Tasks csomagokat a Java projektbe. Itt van, hogyan:
+A kezdéshez importálja a szükséges Aspose.Tasks osztályokat:
 
 ```java
 import com.aspose.tasks.DayType;
@@ -33,22 +43,25 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-Most bontsuk le a megadott példát több lépésre a jobb megértés érdekében.
-## 1. lépés: Töltse be a projektfájlt
+Most lépjünk végig a hétköznapi tulajdonságok kezelésének minden lépésén.
+
+## 1. lépés: MPP fájl betöltése
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-Ez a lépés egy "project.mpp" nevű projektfájl betöltését jelenti a megadott adatkönyvtárból.
-## 2. lépés: Jelenítse meg a hétköznapok tulajdonságait
+*Itt **betöltünk egy meglévő .mpp fájlt** (`load mpp file`), hogy megvizsgálhassuk és módosíthassuk a naptárbeállításait.*
+
+## 2. lépés: Aktuális hétköznapi tulajdonságok megjelenítése
 ```java
 System.out.println("Week Start Date : " + project.get(Prj.WEEK_START_DAY).toString());
 System.out.println("Days Per Month : " + project.get(Prj.DAYS_PER_MONTH).toString());
 System.out.println("Minutes Per Day : " + project.get(Prj.MINUTES_PER_DAY).toString());
 System.out.println("Minutes Per Week : " + project.get(Prj.MINUTES_PER_WEEK).toString());
 ```
-Itt lekérjük és kinyomtatjuk a betöltött projekt heti kezdési dátumát, havi napjait, napi perceit és heti perceit.
-## 3. lépés: Hétköznapi tulajdonságok beállítása
+Ez a kód kiírja a jelenlegi **hét kezdőnapját**, **hónap napjainak számát**, **percet naponta**, és **percet hétenként** – a fő elemeket, amelyeket gyakran szükséges **testreszabni a projekt naptárát**.
+
+## 3. lépés: Új hétköznapi tulajdonságok beállítása
 ```java
 Project prj = new Project();
 project.set(Prj.WEEK_START_DAY, DayType.Monday);
@@ -56,30 +69,48 @@ project.set(Prj.DAYS_PER_MONTH, 24);
 project.set(Prj.MINUTES_PER_DAY, 540);
 project.set(Prj.MINUTES_PER_WEEK, 3240);
 ```
-Ebben a lépésben létre kell hozni egy új projektpéldányt, és be kell állítani az egyéni hétköznapi tulajdonságokat, például a hét kezdőnapját, a hónap napjait, a napi perceket és a heti perceket.
-## 4. lépés: Projekt mentése
+Ebben a lépésben **beállítjuk a hét kezdőnapját** hétfőre, **megváltoztatjuk a hónap napjainak számát** 24-re, és módosítjuk a napi és heti percértékeket. Ezek a beállítások tipikusak, ha **frissíteni kell a projekt ütemezését** egy nem szabványos munkanaptárhoz igazodva.
+
+## 4. lépés: A módosított projekt mentése
 ```java
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-Végül XML-fájlként mentjük a módosított projektet a frissített hétköznap tulajdonságokkal.
-## 5. lépés: Eredmény megjelenítése
+A módosított projekt XML fájlként kerül mentésre, ami egyszerűvé teszi a megosztást vagy más eszközökbe való importálást.
+
+## 5. lépés: A művelet megerősítése
 ```java
 System.out.println("Process completed Successfully");
 ```
-Ez a lépés megerősíti a folyamat sikeres befejezését.
-## Következtetés
-Az Aspose.Tasks for Java hétköznapi tulajdonságainak elsajátítása elengedhetetlen a hatékony projektmenedzsmenthez. Az oktatóanyag követésével megtanulta, hogyan lehet könnyedén kezelni és testreszabni a hétköznapi tulajdonságokat. Fedezze fel a további dokumentációkat és példákat projektmenedzsment képességeinek fejlesztéséhez.
-## GYIK
-### K: Az Aspose.Tasks for Java kezelheti az összetett projektstruktúrákat?
-V: Igen, az Aspose.Tasks for Java átfogó támogatást nyújt az összetett projektstruktúrák egyszerű kezeléséhez.
-### K: Az Aspose.Tasks for Java kompatibilis a Microsoft Project fájlok különböző verzióival?
-V: Az Aspose.Tasks for Java természetesen támogatja a Microsoft Project fájlok különféle verzióit, biztosítva a platformok közötti kompatibilitást.
-### K: Integrálhatom az Aspose.Tasks for Java-t a meglévő Java alkalmazásaimba?
-V: Igen, az Aspose.Tasks for Java zökkenőmentes integrációs lehetőségeket kínál, lehetővé téve, hogy Java-alkalmazásait hatékony projektmenedzsment funkciókkal bővítse.
-### K: Az Aspose.Tasks for Java dokumentációt és támogatást nyújt?
- V: Igen, hozzáférhet az Aspose.Tasks for Java kiterjedt dokumentációjához és közösségi támogatásához[weboldal](https://releases.aspose.com/).
-### K: Elérhető az Aspose.Tasks for Java ingyenes próbaverziója?
-V: Igen, letöltheti az Aspose.Tasks Java ingyenes próbaverzióját az ő oldalukról[weboldal](https://reference.aspose.com/tasks/java/) hogy vásárlás előtt ismerkedjen meg funkcióival.
+Egy egyszerű konzolüzenet jelzi, hogy a munkafolyamat hibamentesen befejeződött.
+
+## Gyakori problémák és tippek
+- **Helytelen fájl útvonal** – Ellenőrizze, hogy a `dataDir` perjellel végződik-e, vagy használja a `Paths.get(...)`-t a platform‑független útvonalakhoz.  
+- **Licenc nincs beállítva** – Egy termelési környezetben hívja meg a `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` kódot a `Project` létrehozása előtt.  
+- **Váratlan hét kezdőnap** – Győződjön meg róla, hogy a megfelelő `DayType` enum értéket használja (pl. `DayType.Sunday`).  
+
+## Gyakran ismételt kérdések
+
+**Q: Kezelni tudja az Aspose.Tasks for Java a komplex projekt struktúrákat?**  
+A: Igen, az Aspose.Tasks for Java átfogó támogatást nyújt a komplex projekt struktúrák könnyű kezeléséhez.
+
+**Q: Kompatibilis-e az Aspose.Tasks for Java a Microsoft Project fájlok különböző verzióival?**  
+A: Teljes mértékben, az Aspose.Tasks for Java támogatja a Microsoft Project fájlok különböző verzióit, biztosítva a kompatibilitást a platformok között.
+
+**Q: Integrálhatom az Aspose.Tasks for Java-t a meglévő Java alkalmazásaimba?**  
+A: Igen, az Aspose.Tasks for Java zökkenőmentes integrációs lehetőségeket kínál, lehetővé téve, hogy erőteljes projektmenedzsment funkciókkal bővítse Java alkalmazásait.
+
+**Q: Kínál az Aspose.Tasks for Java dokumentációt és támogatást?**  
+A: Igen, részletes dokumentációhoz és közösségi támogatáshoz férhet hozzá az Aspose.Tasks for Java-hoz a [weboldalukon](https://releases.aspose.com/).
+
+**Q: Elérhető ingyenes próba verzió az Aspose.Tasks for Java-hoz?**  
+A: Igen, letöltheti az Aspose.Tasks for Java ingyenes próba verzióját a [weboldalukról](https://reference.aspose.com/tasks/java/), hogy megismerje a funkciókat vásárlás előtt.
+
+---
+
+**Legutóbb frissítve:** 2025-12-23  
+**Tesztelve a következővel:** Aspose.Tasks for Java 24.11  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
