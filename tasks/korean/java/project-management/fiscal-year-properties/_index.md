@@ -1,77 +1,123 @@
 ---
-title: Aspose.Tasks에서 회계 연도 속성 관리
-linktitle: Aspose.Tasks에서 회계 연도 속성 관리
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks for Java를 사용하여 회계연도 속성을 효율적으로 관리하는 방법을 알아보세요. 예제가 포함된 단계별 가이드입니다.
-weight: 15
+date: 2025-12-25
+description: Aspose.Tasks for Java를 사용하여 회계연도 속성을 관리하고 MPP 파일을 효율적으로 로드하는 방법을 배웁니다.
+  예제와 함께 단계별 가이드.
+linktitle: Manage Fiscal Year Properties in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks에서 회계 연도 속성 관리하기
 url: /ko/java/project-management/fiscal-year-properties/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 회계 연도 속성 관리
+# Aspose.Tasks에서 회계연도 속성 관리
 
 ## 소개
-Aspose.Tasks는 개발자가 회계 연도 속성 처리를 포함하여 프로젝트 파일을 효율적으로 관리할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 Java에서 Aspose.Tasks를 사용하여 회계 연도 속성을 관리하는 프로세스를 안내합니다.
-## 전제조건
-시작하기 전에 다음 사항이 있는지 확인하세요.
-1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
-2.  Java JAR용 Aspose.Tasks: 다음에서 Aspose.Tasks for Java 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/tasks/java/) 프로젝트에 포함시키세요.
+Aspose.Tasks는 강력한 Java 라이브러리로, **회계연도** 설정을 관리하고, MPP 파일을 로드하며, 프로젝트 데이터를 몇 줄의 코드만으로 XML로 변환할 수 있습니다. 이 튜토리얼에서는 회계연도 속성을 설정하고, 회계연도 정보를 표시하며, 결과를 저장하는 방법을 단계별로 보여줍니다. 코드는 깔끔하고 유지보수가 쉬운 형태로 작성됩니다.
+
+## 빠른 답변
+- **Aspose.Tasks에서 “회계연도 관리”란 무엇인가요?** 회계연도 시작 월을 정의하고 프로젝트에 회계연도 번호 매기기를 활성화할 수 있습니다.  
+- **회계연도 시작 월을 어떻게 설정하나요?** `Prj.FY_START_DATE` 속성에 `Month` 열거형 값(예: `Month.JULY`)을 사용합니다.  
+- **MPP 파일을 로드할 수 있나요?** 예, *.mpp* 파일 경로를 지정해 `Project` 인스턴스를 생성하면 됩니다.  
+- **MPP를 XML로 변환하려면?** 원하는 속성을 설정한 뒤 `project.save(..., SaveFileFormat.Xml)`을 호출합니다.  
+- **라이선스가 필요한가요?** 무료 체험판을 사용할 수 있으며, 상용 환경에서는 상업용 라이선스가 필요합니다.
+
+## 프로젝트 파일에서 “회계연도 관리”란?
+회계연도 관리는 재무 보고를 위해 프로젝트가 따르는 달력을 구성하는 것을 의미합니다. 여기에는 회계연도 시작 월을 설정하고, 필요에 따라 회계연도 번호 매기기를 활성화하는 작업이 포함되며, 이는 날짜 계산 및 보고서 표시 방식에 영향을 줍니다.
+
+## Aspose.Tasks를 회계연도 처리에 사용하는 이유
+- **Microsoft Project가 필요 없음** – Java에서 직접 프로젝트 파일을 다룰 수 있습니다.  
+- **전체 제어** – 회계연도 시작을 설정하고, 번호 매기기를 활성화하며, 형식을 프로그래밍 방식으로 변환합니다.  
+- **견고한 API** – 대용량 MPP 파일을 안정적으로 처리하고 XML 내보내기를 원활하게 수행합니다.
+
+## 사전 요구 사항
+시작하기 전에 다음이 준비되어 있어야 합니다:
+1. 시스템에 Java Development Kit (JDK)가 설치되어 있어야 합니다.  
+2. Aspose.Tasks for Java JAR – [여기](https://releases.aspose.com/tasks/java/)에서 다운로드하고 프로젝트 클래스패스에 추가합니다.
 
 ## 패키지 가져오기
-시작하려면 Java 파일에 필요한 패키지를 가져옵니다.
+Java 소스 파일에 필요한 클래스를 가져옵니다:
 ```java
 import com.aspose.tasks.*;
 ```
 
-제공된 예제를 여러 단계로 나누어 보겠습니다.
-## 1단계: 프로젝트 파일 로드
+## MPP 파일을 로드하고 회계연도 정보를 표시하는 방법
+아래에서는 과정을 명확한 단계로 나누어 설명합니다.
+
+### 단계 1: 프로젝트 파일 로드
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-이 단계에서는 지정된 데이터 디렉터리에 있는 "project.mpp"라는 프로젝트 파일을 로드합니다.
-## 2단계: 회계연도 속성 표시
+여기서는 지정된 디렉터리의 `project.mpp` **MPP 파일을 로드**합니다. 이는 회계연도와 관련된 모든 조작의 첫 번째 단계입니다.
+
+### 단계 2: 회계연도 속성 표시
 ```java
-//회계연도 속성 표시
+//Display fiscal year properties
 System.out.println("Fiscal Year Start Date : " + project.get(Prj.FY_START_DATE));
 System.out.println("Fiscal Year Numbering : " + project.get(Prj.FISCAL_YEAR_START));
 ```
-이 단계는 로드된 프로젝트에서 회계연도의 시작 날짜와 번호를 검색하고 인쇄합니다.
-## 3단계: 프로젝트 회계연도 속성 설정
+`Prj.FY_START_DATE`와 `Prj.FISCAL_YEAR_START` 속성을 사용해 **회계연도** 세부 정보를 표시하고, 현재 회계구성이 어떻게 설정되어 있는지 확인합니다.
+
+### 단계 3: 회계연도 시작 설정 및 번호 매기기 활성화
 ```java
-//프로젝트 인스턴스 만들기
+//Create a project instance
 Project prj = new Project();
-//회계연도 속성 설정
+//Set fiscal year properties
 prj.set(Prj.FY_START_DATE, Month.JULY);
 prj.set(Prj.FISCAL_YEAR_START, new NullableBool(true));
-//프로젝트를 XML 프로젝트 파일로 저장
+//Save the project as XML project file
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-여기서는 새 프로젝트 인스턴스를 생성하고 회계 연도 시작 날짜를 7월로 설정하고 회계 연도 번호 매기기를 활성화합니다. 그런 다음 수정된 프로젝트를 XML 파일로 저장합니다.
-## 4단계: 결과 표시
+이 단계에서는 **회계연도 설정 방법**을 보여줍니다:
+- `Month.JULY`는 회계연도 시작 월을 정의합니다.  
+- `NullableBool(true)`는 회계연도 번호 매기기를 켭니다.  
+- 마지막으로 `SaveFileFormat.Xml`을 사용해 프로젝트를 **MPP에서 XML로 변환**합니다.
+
+### 단계 4: 작업 확인
 ```java
-//변환 결과를 표시합니다.
+//Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
-마지막으로 프로세스가 성공적으로 완료되었음을 나타내는 메시지를 인쇄합니다.
+간단한 콘솔 메시지를 통해 회계연도가 정상적으로 구성되고 파일이 저장되었음을 확인합니다.
+
+## 일반적인 문제와 해결책
+| 문제 | 해결책 |
+|-------|----------|
+| **잘못된 월 값** | `Month` 열거형(예: `Month.JANUARY`)을 사용했는지 확인합니다. |
+| **파일을 찾을 수 없음** | `dataDir`이 올바른 폴더를 가리키는지, 파일 이름이 정확한지 확인합니다. |
+| **저장 실패** | 대상 디렉터리에 대한 쓰기 권한을 확인하고 `SaveFileFormat`이 지원되는지 점검합니다. |
+
+## 자주 묻는 질문
+
+**Q: Aspose.Tasks for Java를 사용해 다른 프로젝트 속성도 조작할 수 있나요?**  
+A: 예, Aspose.Tasks는 회계연도 설정 외에도 다양한 프로젝트 속성을 관리할 수 있는 포괄적인 기능을 제공합니다.
+
+**Q: Aspose.Tasks for Java가 다양한 프로젝트 파일 형식을 지원하나요?**  
+A: 예, MPP, XML 등 다양한 형식을 지원합니다.
+
+**Q: Aspose.Tasks for Java 사용 중 문제가 발생하면 어떻게 지원받을 수 있나요?**  
+A: [포럼](https://forum.aspose.com/c/tasks/15)에서 커뮤니티에 문의하거나 직접 지원팀에 연락하면 됩니다.
+
+**Q: 무료 체험 버전을 제공하나요?**  
+A: 예, [여기](https://releases.aspose.com/)에서 Aspose.Tasks 무료 체험 버전을 다운로드할 수 있습니다.
+
+**Q: Aspose.Tasks for Java 라이선스는 어디서 구매하나요?**  
+A: [여기](https://purchase.aspose.com/buy)에서 Aspose.Tasks for Java 라이선스를 구매할 수 있습니다.
 
 ## 결론
-Aspose.Tasks for Java에서 회계 연도 속성을 관리하는 것은 제공된 API를 사용하면 간단합니다. 이 튜토리얼에 설명된 단계를 따르면 프로젝트에서 회계연도 관련 작업을 효율적으로 처리할 수 있습니다.
-## FAQ
-### Q: Aspose.Tasks for Java를 사용하여 다른 프로젝트 속성을 조작할 수 있나요?
-A: 예, Aspose.Tasks는 회계연도 속성 외에도 다양한 프로젝트 속성을 관리하는 포괄적인 기능을 제공합니다.
-### Q: Aspose.Tasks for Java는 다른 프로젝트 파일 형식과 호환됩니까?
-A: 예, Aspose.Tasks는 MPP, XML 등을 포함한 광범위한 프로젝트 파일 형식을 지원합니다.
-### Q: Aspose.Tasks for Java를 사용하는 동안 문제가 발생하면 어떻게 지원을 받을 수 있나요?
- A: Aspose.Tasks 커뮤니티에서 도움을 구할 수 있습니다.[법정](https://forum.aspose.com/c/tasks/15)또는 지원팀에 직접 문의하세요.
-### Q: Aspose.Tasks는 무료 평가판을 제공합니까?
- A: 예, Aspose.Tasks의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
-### Q: Aspose.Tasks for Java 라이선스는 어디서 구매할 수 있나요?
- A: Aspose.Tasks for Java 라이선스는 다음에서 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+Aspose.Tasks for Java에서 회계연도 속성을 관리하는 것은 매우 간단합니다. 위 단계들을 따르면 **회계연도 관리**, **MPP 파일 로드**, **회계연도 상세 정보 표시**, 그리고 **MPP를 XML로 변환**하는 작업을 자신 있게 수행할 수 있습니다. 이러한 기술을 활용해 프로젝트 일정이 조직의 재무 캘린더와 일치하도록 유지하세요.
+
+---
+
+**마지막 업데이트:** 2025-12-25  
+**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

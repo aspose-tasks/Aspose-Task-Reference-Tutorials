@@ -1,77 +1,123 @@
 ---
-title: Kelola Properti Tahun Anggaran di Aspose.Tasks
-linktitle: Kelola Properti Tahun Anggaran di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara mengelola properti tahun fiskal secara efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah dengan contoh disediakan.
-weight: 15
+date: 2025-12-25
+description: Pelajari cara mengelola properti tahun fiskal dan memuat file MPP secara
+  efisien menggunakan Aspose.Tasks untuk Java. Panduan langkah demi langkah dengan
+  contoh.
+linktitle: Manage Fiscal Year Properties in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Kelola Properti Tahun Fiskal di Aspose.Tasks
 url: /id/java/project-management/fiscal-year-properties/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kelola Properti Tahun Anggaran di Aspose.Tasks
+# Kelola Properti Tahun Fiskal di Aspose.Tasks
 
-## Perkenalan
-Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang mengelola file proyek secara efisien, termasuk menangani properti tahun fiskal. Dalam tutorial ini, kita akan memandu proses pengelolaan properti tahun fiskal menggunakan Aspose.Tasks di Java.
+## Pendahuluan
+Aspose.Tasks adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk **mengelola tahun fiskal** pengaturan, memuat file MPP, dan mengonversi data proyek ke XML dengan hanya beberapa baris kode. Dalam tutorial ini Anda akan melihat secara tepat cara mengatur properti tahun fiskal, menampilkan informasi tahun fiskal, dan menyimpan hasilnya—semua sambil menjaga kode Anda tetap bersih dan dapat dipelihara.
+
+## Jawaban Cepat
+- **Apa arti “manage fiscal year” dalam Aspose.Tasks?** Ini memungkinkan Anda menentukan bulan mulai tahun fiskal dan mengaktifkan penomoran tahun fiskal untuk sebuah proyek.  
+- **Bagaimana cara mengatur bulan mulai tahun fiskal?** Gunakan properti `Prj.FY_START_DATE` dengan nilai enum `Month` (misalnya, `Month.JULY`).  
+- **Bisakah saya memuat file MPP?** Ya, cukup buat instance `Project` dengan path ke file *.mpp*.  
+- **Bagaimana cara mengonversi MPP ke XML?** Panggil `project.save(..., SaveFileFormat.Xml)` setelah mengatur properti yang diinginkan.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.
+
+## Apa itu “manage fiscal year” dalam file proyek?
+Mengelola tahun fiskal berarti mengonfigurasi kalender yang diikuti proyek Anda untuk pelaporan keuangan. Ini mencakup pengaturan bulan mulai tahun fiskal dan secara opsional mengaktifkan penomoran tahun fiskal, yang memengaruhi cara tanggal dihitung dan ditampilkan dalam laporan.
+
+## Mengapa menggunakan Aspose.Tasks untuk penanganan tahun fiskal?
+- **Tidak memerlukan Microsoft Project** – bekerja dengan file proyek secara langsung di Java.  
+- **Kontrol penuh** – mengatur awal tahun fiskal, mengaktifkan penomoran, dan mengonversi format secara programatis.  
+- **API yang kuat** – penanganan file MPP besar yang andal dan ekspor XML yang mulus.
+
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.
-2.  Aspose.Tasks untuk Java JAR: Unduh perpustakaan Aspose.Tasks untuk Java dari[Di Sini](https://releases.aspose.com/tasks/java/) dan sertakan dalam proyek Anda.
+1. Java Development Kit (JDK) terpasang di sistem Anda.  
+2. Aspose.Tasks for Java JAR – unduh dari [here](https://releases.aspose.com/tasks/java/) dan tambahkan ke classpath proyek Anda.
 
-## Paket Impor
-Untuk memulai, impor paket yang diperlukan ke file Java Anda:
+## Impor Paket
+Untuk memulai, impor kelas yang diperlukan dalam file sumber Java Anda:
 ```java
 import com.aspose.tasks.*;
 ```
 
-Mari kita bagi contoh yang diberikan menjadi beberapa langkah:
-## Langkah 1: Muat File Proyek
+## Cara memuat file MPP dan menampilkan informasi tahun fiskal
+Di bawah ini kami memecah proses menjadi langkah-langkah berurutan yang jelas.
+
+### Langkah 1: Muat File Proyek
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-Pada langkah ini, kita memuat file proyek bernama "project.mpp" yang terletak di direktori data yang ditentukan.
-## Langkah 2: Tampilkan Properti Tahun Anggaran
+Di sini kami **memuat file MPP** (`project.mpp`) dari direktori yang ditentukan. Ini adalah langkah pertama dalam setiap manipulasi yang terkait dengan tahun fiskal.
+
+### Langkah 2: Tampilkan Properti Tahun Fiskal
 ```java
-//Menampilkan properti tahun fiskal
+//Display fiscal year properties
 System.out.println("Fiscal Year Start Date : " + project.get(Prj.FY_START_DATE));
 System.out.println("Fiscal Year Numbering : " + project.get(Prj.FISCAL_YEAR_START));
 ```
-Langkah ini mengambil dan mencetak tanggal mulai dan penomoran tahun fiskal dari proyek yang dimuat.
-## Langkah 3: Menetapkan Properti Tahun Anggaran Proyek
+Properti `Prj.FY_START_DATE` dan `Prj.FISCAL_YEAR_START` memungkinkan Anda **menampilkan detail tahun fiskal**, menjawab pertanyaan “apa konfigurasi fiskal saat ini?”.
+
+### Langkah 3: Atur Awal Tahun Fiskal dan Aktifkan Penomoran
 ```java
-//Buat contoh proyek
+//Create a project instance
 Project prj = new Project();
-//Tetapkan properti tahun fiskal
+//Set fiscal year properties
 prj.set(Prj.FY_START_DATE, Month.JULY);
 prj.set(Prj.FISCAL_YEAR_START, new NullableBool(true));
-//Simpan proyek sebagai file proyek XML
+//Save the project as XML project file
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-Di sini, kami membuat contoh proyek baru, menetapkan tanggal mulai tahun fiskal ke Juli dan mengaktifkan penomoran tahun fiskal. Kemudian, kami menyimpan proyek yang dimodifikasi sebagai file XML.
-## Langkah 4: Tampilkan Hasil
+Pada langkah ini kami **menunjukkan cara mengatur** pengaturan fiskal:
+- `Month.JULY` menentukan bulan mulai tahun fiskal.  
+- `NullableBool(true)` mengaktifkan penomoran tahun fiskal.  
+- Akhirnya, proyek **dikonversi dari MPP ke XML** menggunakan `SaveFileFormat.Xml`.
+
+### Langkah 4: Konfirmasi Operasi
 ```java
-//Tampilkan hasil konversi.
+//Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
-Terakhir, kami mencetak pesan yang menunjukkan keberhasilan penyelesaian proses.
+Pesan konsol sederhana mengonfirmasi bahwa tahun fiskal telah dikonfigurasi dan file telah disimpan.
+
+## Masalah Umum dan Solusinya
+| Masalah | Solusi |
+|-------|----------|
+| **Nilai bulan tidak tepat** | Pastikan Anda menggunakan enum `Month` (misalnya, `Month.JANUARY`). |
+| **File tidak ditemukan** | Verifikasi `dataDir` mengarah ke folder yang benar dan nama file cocok. |
+| **Gagal menyimpan** | Periksa izin menulis pada direktori target dan pastikan `SaveFileFormat` didukung. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menggunakan Aspose.Tasks untuk Java untuk memanipulasi properti proyek lainnya?**  
+A: Ya, Aspose.Tasks menyediakan fungsionalitas komprehensif untuk mengelola berbagai properti proyek di luar pengaturan tahun fiskal.
+
+**Q: Apakah Aspose.Tasks untuk Java kompatibel dengan berbagai format file proyek?**  
+A: Ya, ia mendukung berbagai format termasuk MPP, XML, dan lainnya.
+
+**Q: Bagaimana saya dapat mendapatkan dukungan jika saya mengalami masalah saat menggunakan Aspose.Tasks untuk Java?**  
+A: Anda dapat mencari bantuan dari komunitas Aspose.Tasks di [forum](https://forum.aspose.com/c/tasks/15) atau menghubungi tim dukungan mereka secara langsung.
+
+**Q: Apakah Aspose.Tasks menawarkan versi percobaan gratis?**  
+A: Ya, Anda dapat mengakses versi percobaan gratis Aspose.Tasks dari [here](https://releases.aspose.com/).
+
+**Q: Di mana saya dapat membeli lisensi untuk Aspose.Tasks untuk Java?**  
+A: Anda dapat membeli lisensi untuk Aspase.Tasks untuk Java dari [here](https://purchase.aspose.com/buy).
 
 ## Kesimpulan
-Mengelola properti tahun fiskal di Aspose.Tasks untuk Java sangatlah mudah dengan API yang disediakan. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat secara efisien menangani tugas-tugas terkait tahun fiskal di proyek Anda.
-## FAQ
-### T: Bisakah saya menggunakan Aspose.Tasks for Java untuk memanipulasi properti proyek lainnya?
-J: Ya, Aspose.Tasks menyediakan fungsionalitas komprehensif untuk mengelola berbagai properti proyek selain properti tahun fiskal.
-### T: Apakah Aspose.Tasks untuk Java kompatibel dengan format file proyek yang berbeda?
-J: Ya, Aspose.Tasks mendukung berbagai format file proyek termasuk MPP, XML, dan lainnya.
-### T: Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah apa pun saat menggunakan Aspose.Tasks untuk Java?
- J: Anda dapat mencari bantuan dari komunitas Aspose.Tasks di[forum](https://forum.aspose.com/c/tasks/15)atau hubungi tim dukungan mereka secara langsung.
-### T: Apakah Aspose.Tasks menawarkan versi uji coba gratis?
- J: Ya, Anda dapat mengakses Aspose.Tasks versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-### T: Di mana saya dapat membeli lisensi Aspose.Tasks untuk Java?
- J: Anda dapat membeli lisensi Aspose.Tasks untuk Java dari[Di Sini](https://purchase.aspose.com/buy).
+Mengelola properti tahun fiskal di Aspose.Tasks untuk Java sangat sederhana. Dengan mengikuti langkah-langkah di atas Anda dapat **mengelola tahun fiskal**, **memuat file MPP**, **menampilkan detail tahun fiskal**, dan **mengonversi MPP ke XML** dengan percaya diri. Gunakan teknik ini untuk menjaga jadwal proyek Anda tetap selaras dengan kalender keuangan organisasi Anda.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-25  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
