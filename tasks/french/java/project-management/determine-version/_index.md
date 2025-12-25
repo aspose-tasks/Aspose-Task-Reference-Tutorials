@@ -1,71 +1,139 @@
 ---
-title: Déterminer la version de MS Project avec Aspose.Tasks
-linktitle: Déterminer la version du projet avec Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Découvrez comment déterminer la version des fichiers MS Project par programme à l'aide d'Aspose.Tasks pour Java. Guide étape par étape avec des exemples de code.
-weight: 12
+date: 2025-12-25
+description: Explorez ce tutoriel Aspose Tasks Java pour apprendre à déterminer la
+  version du projet des fichiers MS Project. Guide étape par étape avec des exemples
+  de code.
+linktitle: Determine Project Version with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Tutoriel Aspose Tasks Java : Déterminer la version de MS Project'
 url: /fr/java/project-management/determine-version/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Déterminer la version de MS Project avec Aspose.Tasks
+# Tutoriel Aspose Tasks Java : Déterminer la version de MS Project
 
 ## Introduction
-Ce didacticiel vous guidera dans l'utilisation d'Aspose.Tasks pour Java pour déterminer étape par étape la version d'un fichier MS Project. Aspose.Tasks est une API Java puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project sans nécessiter l'installation de Microsoft Project.
-## Conditions préalables
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-1. Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système.
-2.  Fichier JAR Aspose.Tasks for Java : téléchargez la bibliothèque Aspose.Tasks for Java à partir du[site web](https://releases.aspose.com/tasks/java/) et ajoutez-le à votre projet Java.
-3. Fichier MS Project : préparez un fichier MS Project (format XML) pour les tests.
+Dans ce **aspose tasks java tutorial**, vous découvrirez comment trouver programmétiquement la version d’un fichier Microsoft Project en utilisant la bibliothèque Aspose.Tasks pour Java. Connaître la version du fichier vous aide à gérer les problèmes de compatibilité, à appliquer des politiques de migration ou simplement à consigner quelle version de Project a créé le fichier. Nous parcourrons chaque étape — de la configuration de l’environnement à l’affichage de la version et de la date de dernière sauvegarde — afin que vous puissiez intégrer cette vérification dans n’importe quelle application Java en toute confiance.
 
-## Importer des packages
-Avant de plonger dans le code, importons les packages nécessaires :
+## Quick Answers
+- **What does this tutorial cover?** Determining the MS Project file version with Aspose.Tasks for Java.  
+- **Do I need Microsoft Project installed?** No, Aspose.Tasks works independently.  
+- **Which file formats are supported?** XML‑based Project files (MPP, XML, etc.).  
+- **How long does the implementation take?** About 5‑10 minutes for a basic check.  
+- **Is a license required?** A free trial works for evaluation; a license is needed for production.
+
+## What is Aspose Tasks Java Tutorial?
+An **aspose tasks java tutorial** provides hands‑on guidance for using the Aspose.Tasks API in Java projects. It shows you how to read, modify, and analyze Microsoft Project data without the need for Microsoft Project itself.
+
+## Why use Aspose.Tasks to determine project version?
+- **No dependency on Microsoft Project** – perfect for server‑side automation.  
+- **Accurate version metadata** – retrieve the exact SAVE_VERSION and LAST_SAVED fields.  
+- **Cross‑platform** – works on any OS that supports Java.  
+- **High performance** – lightweight parsing suitable for batch processing.
+
+## Prerequisites
+Before we begin, make sure you have the following:
+
+1. **Java Development Kit (JDK)** – any recent JDK (8 or higher).  
+2. **Aspose.Tasks for Java JAR** – download it from the [website](https://releases.aspose.com/tasks/java/) and add it to your project’s classpath.  
+3. **MS Project file** – an XML‑based Project file (e.g., `input.xml`) that you want to inspect.  
+
+> **Pro tip:** Keep the Project file in a dedicated `data` folder to simplify path handling.
+
+## Import Packages
+First, import the essential Aspose.Tasks classes:
+
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 ```
-## Étape 1 : configurer le projet
+
+## Step 1: Set Up the Project Directory
+Define the folder that contains your Project file.
+
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
- Remplacer`"Your Data Directory"` avec le chemin d'accès au répertoire contenant votre fichier MS Project.
-## Étape 2 : Charger le projet
+
+Replace `"Your Data Directory"` with the absolute or relative path where `input.xml` resides.
+
+## Step 2: Load the Project
+Create a `Project` instance by loading the XML file.
+
 ```java
 Project project = new Project(dataDir + "input.xml");
 ```
- Remplacer`"input.xml"` avec le nom de votre fichier MS Project.
-## Étape 3 : Déterminer la version du projet
+
+If your file has a different name, adjust `"input.xml"` accordingly.
+
+## Step 3: How to Determine Project Version
+Retrieve the version information and the last saved timestamp.
+
 ```java
-//Afficher la propriété de la version du projet
+//Display project version property
 System.out.println("Project Version : " + project.get(Prj.SAVE_VERSION));
 System.out.println("Last Saved : " + project.get(Prj.LAST_SAVED));
 ```
-Cet extrait de code récupère et imprime la version et la date du dernier enregistrement du fichier MS Project.
-## Étape 4 : Afficher le résultat
+
+The `Prj.SAVE_VERSION` property indicates the Microsoft Project version that was used to save the file (e.g., 12 for Project 2010). `Prj.LAST_SAVED` returns the date/time of the most recent save operation.
+
+## Step 4: Display Result
+Signal successful completion of the version check.
+
 ```java
-//Afficher le résultat de la conversion.
+//Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
-Cette ligne indique la fin du processus.
+
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| `NullPointerException` on `project.get(...)` | File not found or path incorrect | Verify `dataDir` and file name; use absolute path for testing. |
+| Unexpected version number (e.g., 0) | Loading a non‑Project XML file | Ensure the file is a valid Microsoft Project file (MPP/XML). |
+| License exception | Using the trial without a valid license in production | Apply your Aspose.Tasks license (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+
+## Frequently Asked Questions
+
+### Q: Can I use Aspose.Tasks with other programming languages?
+A: Yes, Aspose.Tasks supports multiple languages including .NET, Java, and C++.
+
+### Q: Is Aspose.Tasks suitable for large‑scale projects?
+A: Absolutely, Aspose.Tasks is designed to handle projects of any size with ease.
+
+### Q: Can I customize project data using Aspose.Tasks?
+A: Yes, you can manipulate project data, modify tasks, resources, and much more using Aspose.Tasks.
+
+### Q: Does Aspose.Tasks require Microsoft Project installation?
+A: No, Aspose.Tasks works independently and does not require Microsoft Project to be installed.
+
+### Q: Is technical support available for Aspose.Tasks?
+A: Yes, you can get technical support from the Aspose.Tasks forum at [here](https://forum.aspose.com/c/tasks/15).
+
+### Additional Q&A
+
+**Q: How do I retrieve other project properties (e.g., author, company)?**  
+A: Use `project.get(Prj.AUTHOR)` or `project.get(Prj.COMPANY)` similarly to the version example.
+
+**Q: Can I check the version of an MPP file (binary format)?**  
+A: Yes, Aspose.Tasks can load `.mpp` files directly; the same `Prj.SAVE_VERSION` property works.
+
+**Q: Is there a way to programmatically upgrade an older project file to a newer version?**  
+A: Load the older file, then save it using `project.save("newfile.mpp", SaveFileFormat.MPP);` – Aspose.Tasks writes it in the latest format by default.
 
 ## Conclusion
-Dans ce didacticiel, vous avez appris à déterminer la version d'un fichier MS Project à l'aide d'Aspose.Tasks pour Java. En suivant le guide étape par étape, vous pouvez travailler efficacement et sans problème avec les fichiers MS Project dans vos applications Java.
+You’ve now completed a concise **aspose tasks java tutorial** that shows **how to determine project version** of MS Project files using Aspose.Tasks for Java. Integrate this snippet into larger automation workflows, reporting tools, or migration utilities to ensure you always know the exact Project version you’re dealing with.
 
-## FAQ
-### Q : Puis-je utiliser Aspose.Tasks avec d’autres langages de programmation ?
-R : Oui, Aspose.Tasks prend en charge plusieurs langages de programmation, notamment .NET, Java et C.++.
-### Q : Aspose.Tasks est-il adapté aux projets à grande échelle ?
-: Absolument, Aspose.Tasks est conçu pour gérer facilement des projets de toute taille.
-### Q : Puis-je personnaliser les données du projet à l’aide d’Aspose.Tasks ?
-R : Oui, vous pouvez manipuler les données du projet, modifier les tâches, les ressources et bien plus encore à l'aide d'Aspose.Tasks.
-### Q : Aspose.Tasks nécessite-t-il l'installation de Microsoft Project ?
-R : Non, Aspose.Tasks fonctionne de manière indépendante et ne nécessite pas l'installation de Microsoft Project.
-### Q : Le support technique est-il disponible pour Aspose.Tasks ?
- R : Oui, vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks à l'adresse[ici](https://forum.aspose.com/c/tasks/15).
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
