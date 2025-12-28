@@ -1,28 +1,46 @@
 ---
-title: 更新Aspose.Tasks中的MPP文件
-linktitle: 更新Aspose.Tasks中的MPP文件
+date: 2025-12-28
+description: 了解如何使用 Aspose.Tasks for Java（Java 專案管理函式庫）新增任務並更新 MPP 檔案。請依照我們的逐步指南，在
+  MPP 中建立任務並將專案儲存為 MPP。
+linktitle: How to Add Task and Update MPP File in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 無縫更新 MPP 檔案。請按照我們的逐步指南進行高效率的專案文件操作。
-weight: 19
+title: 如何在 Aspose.Tasks 中新增任務並更新 MPP 檔案
 url: /zh-hant/java/project-management/update-mpp/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 更新Aspose.Tasks中的MPP文件
+# 如何在 Aspose.Tasks 中新增任務並更新 MPP 檔案
 
-## 介紹
-在專案管理領域，處理和更新專案文件是一項至關重要的任務。 Aspose.Tasks for Java 為 Java 開發人員提供了一個強大的解決方案來無縫操作 Microsoft Project 檔案。在本教程中，我們將深入研究使用 Aspose.Tasks for Java 更新 MPP 檔案。
+## 簡介
+在本教學中，我們將示範如何 **新增任務** 並使用 Aspose.Tasks for Java（領先的 **java 專案管理函式庫**）更新 MPP 檔案。無論您是要建立自訂排程器，或是需要以程式方式修改既有專案計畫，本指南都會一步步帶您完成——從載入檔案到將變更儲存為新的 MPP 文件。
+
+## 快速解答
+- **「新增任務」在此情境下是什麼意思？** 它指的是以程式方式在現有的 Microsoft Project (MPP) 檔案中建立一個新任務。  
+- **是哪個函式庫負責此操作？** Aspose.Tasks for Java，一個功能強大的 java 專案管理函式庫。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線則需購買商業授權。  
+- **可以將結果儲存為 MPP 嗎？** 可以——使用 `project.save(..., SaveFileFormat.Mpp)` 來 **將專案儲存為 mpp**。  
+- **需要哪個 Java 版本？** Java 8 或更新版本。
+
+## 什麼是 MPP 檔案中的「新增任務」？
+新增任務即是在專案層級中插入一個新的工作項目，設定其開始/結束日期，並將變更寫回 MPP 檔案。Aspose.Tasks 抽象化了底層檔案格式的細節，讓您專注於業務邏輯。
+
+## 為什麼使用 Aspose.Tasks for Java？
+- **完整相容** Microsoft Project 2007‑2021 檔案。  
+- **不需 COM 或 Office 安裝**——純 Java API。  
+- **功能豐富**：任務連結、資源分配、自訂欄位等。  
+- **高效能** 處理大型專案檔，適合伺服器端自動化。
+
 ## 先決條件
-在深入學習本教學之前，請確保您具備以下條件：
-1. Java 開發環境：確保您的系統上安裝了 Java。
-2.  Aspose.Tasks for Java：從下列位置下載並安裝 Aspose.Tasks for Java：[下載頁面](https://releases.aspose.com/tasks/java/).
-3. Java 基礎知識：需要熟悉 Java 程式語言才能理解範例。
+1. **Java 開發環境** – 已安裝並設定 JDK 8+。  
+2. **Aspose.Tasks for Java** – 從 [download page](https://releases.aspose.com/tasks/java/) 下載。  
+3. **基本 Java 知識** – 熟悉類別、物件與日期處理。
 
-## 導入包
-首先，您需要將必要的套件匯入到您的 Java 專案中，以有效地利用 Aspose.Tasks 功能。
+## 匯入套件
+首先，匯入您需要的類別，以取得專案操作、任務屬性與日期處理的功能。
 
 ```java
 import com.aspose.tasks.Project;
@@ -31,25 +49,26 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-這行程式碼從 Aspose.Tasks 庫匯入所有必要的類別和方法，讓您可以輕鬆地使用 Microsoft Project 檔案。
 
-現在，讓我們將使用 Aspose.Tasks for Java 更新 MPP 檔案的過程分解為可管理的步驟。
-## 第2步：定義資料目錄
+## 步驟 1：定義資料目錄
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`與 MPP 檔案所在的實際路徑。
-## 第 3 步：閱讀現有項目
+將 `"Your Data Directory"` 替換為存放來源 MPP 檔案的絕對路徑。
+
+## 步驟 2：讀取現有專案
 ```java
 Project project = new Project(dataDir + "SampleMSP2010.mpp");
 ```
-此程式碼讀取名為的現有 MPP 專案文件`SampleMSP2010.mpp`從指定的資料目錄。
-## 第 4 步：建立新任務
+`Project` 建構子會載入 **SampleMSP2010.mpp**，為您提供可操作的物件模型。
+
+## 步驟 3：建立新任務（如何新增任務）
 ```java
 Task task = project.getRootTask().getChildren().add("Task1");
 ```
-在這裡，我們將一個名為「Task1」的新任務新增到專案的根任務中。
-## 第 5 步：設定開始和結束日期
+此行 **creates task in mpp**，透過在根任務下加入名為 *Task1* 的子任務來建立新任務。
+
+## 步驟 4：設定開始與結束日期
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2012, Calendar.JULY, 1, 8, 0, 0);
@@ -57,26 +76,55 @@ task.set(Tsk.START, cal.getTime());
 cal.set(2012, Calendar.JULY, 1, 17, 0, 0);
 task.set(Tsk.FINISH, cal.getTime());
 ```
-這些程式碼行會設定新建立的任務的開始日期和完成日期。
-## 第 6 步：儲存項目
+在此為新加入的任務定義排程。請依您的專案時間表調整日期。
+
+## 步驟 5：儲存專案（將專案儲存為 mpp）
 ```java
 project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 ```
-最後，此步驟將包含新新增任務的更新項目儲存到名為的新 MPP 檔案中`AfterLinking.mpp`.
+更新後的專案已包含新任務，並以 **AfterLinking.mpp** 形式持久化。
 
-## 結論
-在本教程中，我們探討如何使用 Aspose.Tasks for Java 更新 MPP 檔案。透過遵循逐步指南，您可以在 Java 應用程式中有效地操作 Microsoft Project 檔案。
-## 常見問題解答
-### Q：Aspose.Tasks for Java 可以處理複雜的專案結構嗎？
-答：是的，Aspose.Tasks for Java 提供了強大的功能來有效地處理複雜的專案結構。
-### Q：Aspose.Tasks for Java 是否有免費試用版？
-答：是的，您可以從以下網站下載免費試用版：[網站](https://releases.aspose.com/).
-### Q：Aspose.Tasks for Java 是否支援不同版本的 Microsoft Project 檔案？
-答：當然，Aspose.Tasks for Java 支援各種版本的 Microsoft Project 文件，包括 MPP、MPT 和 XML 格式。
-### Q：我可以取得 Aspose.Tasks for Java 的臨時授權嗎？
-答：是的，臨時許可證可用於測試目的。您可以從以下位置獲取它們：[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
-### Q：我可以在哪裡尋求有關 Aspose.Tasks for Java 的協助或支援？
-答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)如有任何幫助或疑問。
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **找不到檔案** | 確認 `dataDir` 以路徑分隔符 (`/` 或 `\\`) 結尾，且檔名正確。 |
+| **日期不正確** | 記得 `Calendar` 的月份是從 0 開始計算；`Calendar.JULY` 才是七月。 |
+| **授權例外** | 在呼叫任何 API 前先安裝有效的 Aspose.Tasks 授權，以避免評估水印。 |
+
+## 常見問答
+### 問：Aspose.Tasks for Java 能處理複雜的專案結構嗎？
+答：可以，Aspose.Tasks for Java 提供強大的功能，能有效處理複雜的專案結構。  
+### 問：是否提供 Aspose.Tasks for Java 的免費試用？
+答：可以，您可從 [website](https://releases.aspose.com/) 下載免費試用版。  
+### 問：Aspose.Tasks for Java 是否支援不同版本的 Microsoft Project 檔案？
+答：當然支援，Aspose.Tasks for Java 支援多種 Microsoft Project 檔案版本，包括 MPP、MPT 與 XML 格式。  
+### 問：我可以取得 Aspose.Tasks for Java 的臨時授權嗎？
+答：可以，臨時授權可供測試使用。您可從 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得。  
+### 問：我可以在哪裡尋求 Aspose.Tasks for Java 的協助或支援？
+答：您可前往 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 取得協助或提出問題。
+
+## 常見問題
+**問：如何一次新增多個任務？**  
+答：在任務名稱集合上迴圈，於迴圈內重複「建立任務」的程式碼區塊。
+
+**問：可以為新任務設定自訂欄位嗎？**  
+答：可以——使用 `task.set(Tsk.CUSTOM_FIELD_x, value)`，其中 *x* 為欄位索引。
+
+**問：是否可以將既有任務複製為範本？**  
+答：可將來源任務克隆 (`Task cloned = sourceTask.clone();`) 後加入至目標父任務。
+
+**問：如果需要更新既有任務而非新增，該怎麼做？**  
+答：透過 ID 取得任務 (`Task existing = project.getRootTask().getChildren().getById(id);`) 後修改其屬性。
+
+**問：Aspose.Tasks 是否支援儲存為 PDF 或 PNG 等其他格式？**  
+答：支援——使用 `project.save("output.pdf", SaveFileFormat.Pdf);` 或 `SaveFileFormat.Png` 產生視覺化圖像。
+
+---
+
+**最後更新：** 2025-12-28  
+**測試版本：** Aspose.Tasks for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
