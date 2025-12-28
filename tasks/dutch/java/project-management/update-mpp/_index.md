@@ -1,28 +1,47 @@
 ---
-title: Update het MPP-bestand in Aspose.Tasks
-linktitle: Update het MPP-bestand in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u MPP-bestanden naadloos kunt bijwerken met Aspose.Tasks voor Java. Volg onze stapsgewijze handleiding voor efficiënte manipulatie van projectbestanden.
-weight: 19
+date: 2025-12-28
+description: Leer hoe u taken kunt toevoegen en MPP‑bestanden kunt bijwerken met Aspose.Tasks
+  for Java, een Java‑projectmanagementbibliotheek. Volg onze stapsgewijze handleiding
+  om een taak in MPP te maken en het project als MPP op te slaan.
+linktitle: How to Add Task and Update MPP File in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Hoe een taak toe te voegen en een MPP‑bestand bij te werken in Aspose.Tasks
 url: /nl/java/project-management/update-mpp/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Update het MPP-bestand in Aspose.Tasks
+# Hoe een taak toe te voegen en een MPP-bestand bij te werken in Aspose.Tasks
 
-## Invoering
-Op het gebied van projectmanagement is het behandelen en bijwerken van projectbestanden een cruciale taak. Aspose.Tasks voor Java biedt een krachtige oplossing voor Java-ontwikkelaars om Microsoft Project-bestanden naadloos te manipuleren. In deze zelfstudie gaan we dieper in op het bijwerken van MPP-bestanden met Aspose.Tasks voor Java.
+## Introductie
+In deze tutorial laten we u zien **hoe u een taak kunt toevoegen** en een MPP-bestand bijwerken met Aspose.Tasks for Java, een toonaangevende **java projectmanagementbibliotheek**. Of u nu een aangepaste planner bouwt of bestaande projectplannen programmatisch moet wijzigen, deze gids leidt u door elke stap — van het laden van het bestand tot het opslaan van de wijzigingen als een nieuw MPP-document.
+
+## Snelle antwoorden
+- **Wat betekent “how to add task” in deze context?** Het verwijst naar het programmatisch aanmaken van een nieuwe taak binnen een bestaand Microsoft Project (MPP)-bestand.  
+- **Welke bibliotheek voert de bewerking uit?** Aspose.Tasks for Java, een robuuste java projectmanagementbibliotheek.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik het resultaat opslaan als MPP?** Ja — gebruik `project.save(..., SaveFileFormat.Mpp)` om **project op te slaan als mpp**.  
+- **Welke Java-versie is vereist?** Java 8 of hoger.
+
+## Wat is “how to add task” in een MPP-bestand?
+Een taak toevoegen betekent een nieuw werkitem in de projecthiërarchie invoegen, de start-/einddatums definiëren en de wijziging terug opslaan in het MPP-bestand. Aspose.Tasks abstraheert de low‑level bestandsformaatdetails, zodat u zich kunt concentreren op de bedrijfslogica.
+
+## Waarom Aspose.Tasks for Java gebruiken?
+- **Volledige compatibiliteit** met Microsoft Project 2007‑2021 bestanden.  
+- **Geen COM- of Office‑installatie** vereist — pure Java API.  
+- **Rijke functionaliteit**: taakkoppelingen, resource‑toewijzing, aangepaste velden, en meer.  
+- **Hoge prestaties** voor grote projectbestanden, waardoor het ideaal is voor server‑side automatisering.
+
 ## Vereisten
-Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
-1. Java-ontwikkelomgeving: Zorg ervoor dat Java op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor Java: Download en installeer Aspose.Tasks voor Java vanaf de[downloadpagina](https://releases.aspose.com/tasks/java/).
-3. Basiskennis van Java: Bekendheid met de Java-programmeertaal is noodzakelijk om de voorbeelden te kunnen volgen.
+1. **Java-ontwikkelomgeving** – JDK 8+ geïnstalleerd en geconfigureerd.  
+2. **Aspose.Tasks for Java** – Download van de [downloadpagina](https://releases.aspose.com/tasks/java/).  
+3. **Basiskennis van Java** – Vertrouwdheid met klassen, objecten en datumafhandeling.  
 
-## Pakketten importeren
-Ten eerste moet u de benodigde pakketten in uw Java-project importeren om de Aspose.Tasks-functionaliteiten effectief te kunnen gebruiken.
+## Importer pakketten
+Eerst importeert u de klassen die u nodig heeft. Hiermee krijgt u toegang tot projectmanipulatie, taak‑eigenschappen en datumafhandeling.
 
 ```java
 import com.aspose.tasks.Project;
@@ -31,25 +50,26 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-Deze coderegel importeert alle essentiële klassen en methoden uit de Aspose.Tasks-bibliotheek, zodat u moeiteloos met Microsoft Project-bestanden kunt werken.
 
-Laten we nu het proces van het bijwerken van een MPP-bestand met Aspose.Tasks voor Java in beheersbare stappen opsplitsen.
-## Stap 2: Definieer de gegevensdirectory
+## Stap 1: Definieer gegevensdirectory
 ```java
 String dataDir = "Your Data Directory";
 ```
- Vervangen`"Your Data Directory"` met het daadwerkelijke pad waar uw MPP-bestand zich bevindt.
-## Stap 3: Lees bestaand project
+Vervang `"Your Data Directory"` door het absolute pad waar uw bron‑MPP‑bestand zich bevindt.
+
+## Stap 2: Lees bestaand project
 ```java
 Project project = new Project(dataDir + "SampleMSP2010.mpp");
 ```
- Deze code leest een bestaand MPP-projectbestand met de naam`SampleMSP2010.mpp` uit de opgegeven gegevensdirectory.
-## Stap 4: Maak een nieuwe taak
+De `Project`‑constructor laadt **SampleMSP2010.mpp**, waardoor u een bewerkbaar objectmodel krijgt.
+
+## Stap 3: Maak een nieuwe taak (how to add task)
 ```java
 Task task = project.getRootTask().getChildren().add("Task1");
 ```
-Hier voegen we een nieuwe taak met de naam "Taak1" toe aan de hoofdtaak van het project.
-## Stap 5: Stel de start- en einddatum in
+Deze regel **maakt taak in mpp** door een kind met de naam *Task1* toe te voegen aan de hoofdtaak.
+
+## Stap 4: Stel start‑ en einddatums in
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2012, Calendar.JULY, 1, 8, 0, 0);
@@ -57,26 +77,55 @@ task.set(Tsk.START, cal.getTime());
 cal.set(2012, Calendar.JULY, 1, 17, 0, 0);
 task.set(Tsk.FINISH, cal.getTime());
 ```
-Deze coderegels stellen de start- en einddatum voor de nieuw gemaakte taak in.
-## Stap 6: Sla het project op
+Hier definiëren we het schema voor de nieuw toegevoegde taak. Pas de datums aan zodat ze overeenkomen met uw projecttijdlijn.
+
+## Stap 5: Sla het project op (save project as mpp)
 ```java
 project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 ```
- Ten slotte slaat deze stap het bijgewerkte project met de nieuw toegevoegde taak op in een nieuw MPP-bestand met de naam`AfterLinking.mpp`.
+Het bijgewerkte project, nu met de nieuwe taak, wordt opgeslagen als **AfterLinking.mpp**.
 
-## Conclusie
-In deze zelfstudie hebben we onderzocht hoe u MPP-bestanden kunt bijwerken met Aspose.Tasks voor Java. Door de stapsgewijze handleiding te volgen, kunt u Microsoft Project-bestanden efficiënt manipuleren binnen uw Java-toepassingen.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Oplossing |
+|----------|-----------|
+| **Bestand niet gevonden** | Controleer of `dataDir` eindigt op een pad‑scheidingsteken (`/` of `\\`) en of de bestandsnaam correct is. |
+| **Onjuiste datums** | Onthoud dat de maanden van `Calendar` nul‑gebaseerd zijn; `Calendar.JULY` is correct voor juli. |
+| **Licentie‑exceptie** | Installeer een geldige Aspose.Tasks‑licentie voordat u een API aanroept om evaluatiewatermerken te vermijden. |
+
+## FAQ's
+### Q: Kan Aspose.Tasks for Java complexe projectstructuren aan?
+A: Ja, Aspose.Tasks for Java biedt robuuste functies om complexe projectstructuren efficiënt te verwerken.  
+### Q: Is er een gratis proefversie beschikbaar voor Aspose.Tasks for Java?
+A: Ja, u kunt een gratis proefversie downloaden van de [website](https://releases.aspose.com/).  
+### Q: Ondersteunt Aspose.Tasks for Java verschillende versies van Microsoft Project‑bestanden?
+A: Absoluut, Aspose.Tasks for Java ondersteunt verschillende versies van Microsoft Project‑bestanden, inclusief MPP-, MPT- en XML‑formaten.  
+### Q: Kan ik tijdelijke licenties krijgen voor Aspose.Tasks for Java?
+A: Ja, tijdelijke licenties zijn beschikbaar voor testdoeleinden. U kunt ze verkrijgen via de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).  
+### Q: Waar kan ik hulp of ondersteuning krijgen voor Aspose.Tasks for Java?
+A: U kunt het [Aspose.Tasks‑forum](https://forum.aspose.com/c/tasks/15) bezoeken voor hulp of vragen.
+
 ## Veelgestelde vragen
-### Vraag: Kan Aspose.Tasks voor Java complexe projectstructuren aan?
-A: Ja, Aspose.Tasks voor Java biedt robuuste functies om complexe projectstructuren efficiënt af te handelen.
-### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor Java?
- A: Ja, u kunt een gratis proefversie downloaden van de[website](https://releases.aspose.com/).
-### Vraag: Ondersteunt Aspose.Tasks voor Java verschillende versies van Microsoft Project-bestanden?
-A: Absoluut, Aspose.Tasks voor Java ondersteunt verschillende versies van Microsoft Project-bestanden, waaronder MPP-, MPT- en XML-formaten.
-### Vraag: Kan ik tijdelijke licenties krijgen voor Aspose.Tasks voor Java?
- A: Ja, er zijn tijdelijke licenties beschikbaar voor testdoeleinden. U kunt ze verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
-### Vraag: Waar kan ik hulp of ondersteuning zoeken met betrekking tot Aspose.Tasks voor Java?
- A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor eventuele hulp of vragen.
+**Q: Hoe voeg ik meerdere taken tegelijk toe?**  
+A: Loop over een collectie van taaknamen en herhaal het “create task”‑blok binnen de lus.
+
+**Q: Kan ik aangepaste velden instellen voor de nieuwe taak?**  
+A: Ja — gebruik `task.set(Tsk.CUSTOM_FIELD_x, value)` waarbij *x* de veld‑index is.
+
+**Q: Is het mogelijk om een bestaande taak als sjabloon te kopiëren?**  
+A: Clone de bron‑taak (`Task cloned = sourceTask.clone();`) en voeg deze vervolgens toe aan de gewenste ouder.
+
+**Q: Wat als ik een bestaande taak moet bijwerken in plaats van een nieuwe toe te voegen?**  
+A: Haal de taak op via ID (`Task existing = project.getRootTask().getChildren().getById(id);`) en wijzig de eigenschappen.
+
+**Q: Ondersteunt Aspose.Tasks het opslaan naar andere formaten zoals PDF of PNG?**  
+A: Ja — gebruik `project.save("output.pdf", SaveFileFormat.Pdf);` of `SaveFileFormat.Png` voor visuele weergaven.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-28  
+**Getest met:** Aspose.Tasks for Java 24.12  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

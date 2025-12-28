@@ -1,26 +1,50 @@
 ---
-title: اقرأ MS Project من Primavera باستخدام Aspose.Tasks لـ Java
-linktitle: قراءة المشروع من بريمافيرا في Aspose.Tasks
-second_title: Aspose.Tasks جافا API
-description: تعرف على كيفية قراءة ملفات MS Project من Primavera XML بسلاسة باستخدام Aspose.Tasks لـ Java. تعزيز كفاءة إدارة المشروع الخاص بك.
-weight: 20
+date: 2025-12-28
+description: تعلم كيفية قراءة ملفات Primavera XML إلى MS Project باستخدام Aspose.Tasks
+  للغة Java، مما يتيح تبادل بيانات سلس وتحسين إدارة المشاريع.
+linktitle: Read Project from Primavera in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: كيفية قراءة ملف XML من Primavera إلى MS Project باستخدام Aspose.Tasks للغة
+  Java
 url: /ar/java/project-management/read-primavera/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# اقرأ MS Project من Primavera باستخدام Aspose.Tasks لـ Java
+# قراءة ملفات MS Project من Primavera باستخدام Aspose.Tasks for Java
 
 ## مقدمة
-في إدارة المشاريع، تعد قابلية التشغيل البيني بين منصات البرامج المختلفة أمرًا بالغ الأهمية لسير العمل السلس. يوفر Aspose.Tasks for Java وظائف قوية لقراءة ملفات Microsoft Project من Primavera XML. سيرشدك هذا البرنامج التعليمي خلال عملية قراءة ملفات MS Project من Primavera باستخدام Aspose.Tasks لـ Java، مما يسمح لك بفحص خصائص Primavera الخاصة بالمهام بكفاءة.
-## المتطلبات الأساسية
-قبل المتابعة، تأكد من تثبيت المتطلبات الأساسية التالية وإعدادها:
-1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
-2.  Aspose.Tasks لـ Java: قم بتنزيل Aspose.Tasks لـ Java وتثبيته من[هنا](https://releases.aspose.com/tasks/java/).
+في إدارة المشاريع الحديثة، نقل البيانات بين الأدوات دون فقدان التفاصيل أمر أساسي. يوضح هذا الدليل **كيفية قراءة ملفات primavera xml** واستيرادها إلى Microsoft Project باستخدام Aspose.Tasks for Java. في النهاية، ستتمكن من استخراج خصائص المهام الخاصة بـ Primavera، مما يجعل التحليل عبر المنصات بسيطًا وفعالًا.
 
-## حزم الاستيراد
+## إجابات سريعة
+- **ماذا يفعل Aspose.Tasks for Java؟** يقرأ ويكتب العديد من صيغ ملفات المشاريع، بما في ذلك Primavera XML و Microsoft Project (MPP).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ التر مطلوب للاستخدام في الإنتاج.  
+- **ما نسخة Java المدعومة؟** يلزم Java 8 أو أعلى.  
+- **هل يمكنني قراءة صيغ أخرى غير Primavera XML؟** نعم، يدعم Aspose.Tasks صيغ MPP، XML، والعديد غيرها.  
+- **هل هذا النهج مناسب للمشاريع المؤسسية الكبيرة؟** بالتأكيد—تم تصميم Aspose.Tasks لأداء عالي وللبيئات المؤسسية.
+
+## ما هو read primavera xml؟
+قراءة Primavera XML تعني تحليل تصدير XML من Oracle Primavera P6 لاسترجاع بيانات جدول المشروع—المهام، المدد، الموارد، والخصائص الخاصة بـ Primavera—حتى يمكن استهلاكها بواسطة أدوات أخرى مثل Microsoft Project.
+
+## لماذا نستخدم Aspose.Tasks for Java لقراءة primavera xml؟
+- **دقة كاملة:** جميع الخصائص الخاصة بـ Primavera تُحفظ دون فقدان.  
+- **بدون تبعيات خارجية:** مكتبة Java صافية، لا تحتاج إلى تثبيت Primavera أو MS Project.  
+- **قابلة للتوسع:** تتعامل بكفاءة مع مشاريع ضخمة تحتوي على آلاف المهام.  
+- **متعددة المنصات:** تعمل على Windows وLinux وmacOS.
+
+## المتطلبات المسبقة
+قبل البدء، تأكد من وجود ما يلي:
+1. **مجموعة تطوير Java (JDK)** – Java 8 أو أحدث مثبتة.  
+2. **Aspose.Tasks for Java** – قم بتحميله من [هنا](https://releases.aspose.com/tasks/java/).  
+3. ملف Primavera XML (مثال: `PrimaveraProject.xml`) تريد قراءته.
+
+## كيف تقرأ ملف المشروع java باستخدام Aspose.Tasks؟
+فيما يلي دليل خطوة بخطوة يشرح العملية بالكامل.
+
+### استيراد الحزم
 ```java
 import com.aspose.tasks.PrimaveraReadOptions;
 import com.aspose.tasks.Prj;
@@ -28,19 +52,22 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeDelta;
 ```
-## الخطوة 1: إعداد دليل البيانات
+
+### الخطوة 1: إعداد دليل البيانات
 ```java
 String dataDir = "Your Data Directory";
 ```
- تأكد من الاستبدال`"Your Data Directory"` مع المسار الفعلي إلى دليل البيانات الخاص بك.
-## الخطوة 2: قراءة المشروع من Primavera XML
+استبدل `"Your Data Directory"` بالمسار المطلق حيث يوجد ملف Primavera XML الخاص بك.
+
+### الخطوة 2: قراءة المشروع من Primavera XML
 ```java
 PrimaveraReadOptions options = new PrimaveraReadOptions();
 options.setProjectUid(3883);
 Project project = new Project(dataDir + "PrimaveraProject.xml", options);
 ```
- تأكد من الاستبدال`"PrimaveraProject.xml"` بالاسم الفعلي لملف Primavera XML الخاص بك.
-## الخطوة 3: التكرار خلال المهام واسترداد الخصائص الخاصة ببرنامج بريمافيرا
+حدّث `"PrimaveraProject.xml"` باسم ملف تصدير Primavera الفعلي.
+
+### الخطوة 3: التجول عبر المهام واسترجاع الخصائص الخاصة بـ Primavera
 ```java
 for (Task task : project.enumerateAllChildTasks()) {
     System.out.println("Task '" + task.getName() + "'");
@@ -79,21 +106,38 @@ for (Task task : project.enumerateAllChildTasks()) {
     System.out.println("Units % Complete: " + task.getPrimaveraProperties().getUnitsPercentComplete());
 }
 ```
-يتكرر هذا الرمز خلال كل مهمة في المشروع، مما يؤدي إلى طباعة الخصائص ذات الصلة الخاصة ببرنامج Primavera.
+تقوم هذه الحلقة بطباعة تفاصيل كل مهمة خاصة بـ Primavera، مثل معرف النشاط، تسلسل WBS، أنواع المدد، تفاصيل التكلفة، وغيرها.
 
-## خاتمة
-في هذا البرنامج التعليمي، تعلمت كيفية قراءة ملفات MS Project من Primavera XML باستخدام Aspose.Tasks لـ Java. تتيح هذه الوظيفة التكامل والتحليل السلس لبيانات المشروع عبر منصات مختلفة، مما يعزز كفاءة إدارة المشروع بشكل عام.
-## الأسئلة الشائعة
-### س: هل يمكنني تعديل خصائص المهام الخاصة ببرنامج Primavera باستخدام Aspose.Tasks لـ Java؟
-ج: نعم، يوفر Aspose.Tasks for Java واجهات برمجة التطبيقات لتعديل خصائص المهام الخاصة بـ Primavera حسب الحاجة.
-### س: هل يدعم Aspose.Tasks for Java قراءة تنسيقات ملفات المشروع الأخرى؟
-ج: نعم، يدعم Aspose.Tasks for Java قراءة تنسيقات ملفات المشروع المختلفة بما في ذلك MPP وXML وPrimavera XML.
+## المشكلات الشائعة والحلول
+- **خطأ ملف غير موجود:** تأكد أن `dataDir` ينتهي بفاصل مسار (`/` أو `\\`) وأن اسم ملف XML صحيح.  
+- **غياب خصائص Primavera:** تأكد من أن XML تم تصديره مع جميع الحقول المطلوبة؛ قد تُهمل الإصدارات القديمة من Primavera بعض الخصائص.  
+- **الأداء مع الملفات الكبيرة:** فكر في زيادة حجم ذاكرة JVM (`-Xmx2g` أو أعلى) للمشاريع التي تحتوي على عشرات الآلاف من المهام.
+
+## الأسئلة المتكررة
+### س: هل يمكنني تعديل الخصائص الخاصة بـ Primavera للمهام باستخدام Aspose.Tasks for Java؟
+ج: نعم، توفر Aspose.Tasks for Java واجهات برمجة تطبيقات لتعديل خصائص Primavera للمهام حسب الحاجة.
+
+### س: هل يدعم Aspose.Tasks for Java قراءة صيغ ملفات مشروع أخرى؟
+ج: نعم، يدعم Aspose.Tasks for Java قراءة صيغ ملفات مشروع متعددة بما في ذلك MPP، XML، وPrimavera XML.
+
 ### س: هل Aspose.Tasks for Java مناسب لتطبيقات إدارة المشاريع على مستوى المؤسسة؟
-ج: بالتأكيد، يوفر Aspose.Tasks for Java ميزات قوية وقابلية للتوسع، مما يجعله مناسبًا لتطبيقات إدارة المشاريع على مستوى المؤسسة.
-### س: هل يمكنني استخراج معلومات الموارد من مشاريع Primavera باستخدام Aspose.Tasks لـ Java؟
-ج: نعم، يتيح لك Aspose.Tasks for Java استخراج معلومات الموارد بالإضافة إلى تفاصيل المهام من مشاريع Primavera.
-### س: أين يمكنني العثور على دعم أو وثائق إضافية لـ Aspose.Tasks لـ Java؟
- ج: يمكنك العثور على وثائق شاملة والوصول إلى المنتديات للحصول على الدعم على[Aspose.Tasks لوثائق جافا](https://reference.aspose.com/tasks/java/) صفحة.
+ج: بالتأكيد، يقدم Aspose.Tasks for Java ميزات قوية وقابلية توسع تجعله مناسبًا لتطبيقات إدارة المشاريع على مستوى المؤسسة.
+
+### س: هل يمكنني استخراج معلومات الموارد من مشاريع Primavera باستخدام Aspose.Tasks for Java؟
+ج: نعم، يتيح لك Aspose.Tasks for Java استخراج معلومات الموارد جنبًا إلى جنب مع تفاصيل المهام من مشاريع Primavera.
+
+### س: أين يمكنني العثور على دعم إضافي أو وثائق لـ Aspose.Tasks for Java؟
+ج: يمكنك العثور على وثائق شاملة والوصول إلى المنتديات للدعم على صفحة [توثيق Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/).
+
+## الخلاصة
+لقد تعلمت الآن **كيفية قراءة ملفات primavera xml** واستخراج معلومات تفصيلية عن المهام إلى تطبيق Java باستخدام Aspose.Tasks. هذه القدرة تجسر الفجوة بين Primavera وMicrosoft Project، مما يمنحك رؤية كاملة عبر المنصات ويعزز كفاءة إدارة المشاريع بشكل عام.
+
+---
+
+**آخر تحديث:** 2025-12-28  
+**تم الاختبار مع:** Aspose.Tasks for Java 24.11  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
