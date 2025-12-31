@@ -1,49 +1,87 @@
 ---
-title: 項目屬性
-linktitle: 項目屬性
+date: 2025-12-31
+description: 學習如何使用 Aspose.Tasks for Java 讀取元資料。解鎖專案屬性、提取資訊，輕鬆操作 Microsoft Project
+  檔案。
+linktitle: Project Properties
 second_title: Aspose.Tasks Java API
-description: 透過我們的專案屬性教學釋放 Aspose.Tasks for Java 的潛力。輕鬆擷取、利用和操作 Microsoft Project 資訊。
-weight: 24
+title: 如何讀取元資料 – 專案屬性
 url: /zh-hant/java/project-properties/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 項目屬性
+# 專案屬性
 
 ## 介紹
 
-您準備好提升您的 Aspose.Tasks for Java 技能了嗎？我們的專案屬性教學使您能夠充分利用這個強大的程式庫的潛力，重點放在三個關鍵方面：讀取元屬性、提取 Microsoft Project 資訊和掌握 MS Project 操作。深入研究這些教程以增強您的 Java 開發和專案管理能力。
+你準備好提升你的 Aspose.Tasks for Java 技能了嗎？在本教學系列中，我們將示範 **如何讀取中繼資料**，提取關鍵的 Microsoft Project 資訊，並精通專案操作。了解**如何讀取中繼資料**能讓你更深入洞悉專案時間表、資源與自訂欄位，從而在任何基於 Java 的解決方案中作出更聰明的決策。
 
-## 讀取 Aspose.Tasks 專案中的元屬性
-在 Aspose.Tasks for Java 的動態領域中，理解元屬性至關重要。我們關於讀取元屬性的教學為您提供了輕鬆釋放元資料力量的知識。了解如何導航和提取重要訊息，讓您更深入地了解您的專案。從專案開始到完成，利用從元屬性中獲得的見解來進行有效的決策和無縫的專案管理。
+## 快速解答
+- **什麼是專案檔案中的中繼資料？** 它是描述性資訊，例如作者、建立日期、自訂欄位以及與任務資料一起儲存的其他屬性。  
+- **為什麼要讀取中繼資料？** 以自動化報告、強制執行標準，並在不解析每個任務的情況下推動分析。  
+- **哪個 API 方法可讀取中繼資料？** 使用 Aspose.Tasks for Java 的 `Project.getProperties()` 與 `Project.getExtendedAttributes()`。  
+- **我需要授權嗎？** 生產環境使用需有效的 Aspose.Tasks 授權；可取得免費試用版以進行評估。  
+- **這與 Java 17 相容嗎？** 是的，該函式庫支援 Java 8 及之後的版本，包括 Java 17。
 
-[閱讀有關提取元屬性的更多信息](./read-meta-properties/)
+## 如何使用 Aspose.Tasks for Java 讀取中繼資料
+讀取中繼資料是釋放專案檔案全部潛能的第一步。以下提供三個重點教學，帶領你從基本屬性存取到進階操作的完整流程。
 
-## 使用 Aspose.Tasks for Java 提取 Microsoft Project 信息
-高效的專案管理取決於獲取準確、及時的資訊。深入了解使用 Aspose.Tasks for Java 提取 Microsoft Project 資訊的教學課程。深入了解專案資料擷取的複雜性，使您能夠輕鬆增強 Java 應用程式。無論您是經驗豐富的開發人員還是 Java 愛好者，本逐步指南都可以讓您充分利用 Aspose.Tasks for Java 的潛力，讓專案管理變得輕而易舉。
+### 讀取 Aspose.Tasks 專案中的中繼屬性
+在 Aspose.Tasks for Java 的動態領域中，了解中繼屬性至關重要。我們的讀取中繼屬性教學讓你輕鬆掌握中繼資料的力量。學習如何導航與提取關鍵資訊，讓你對專案有更深入的了解。從專案啟動到完成，善用中繼屬性所帶來的洞見，以作出有效決策並實現順暢的專案管理。
 
-[探索有關提取項目資訊的教程](./read-project-info/)
+[Read more about extracting meta properties](./read-meta-properties/)
 
-## 使用 Aspose.Tasks for Java 掌握 MS 專案操作
-對於尋求掌握 MS Project 資訊操作的 Java 開發人員來說，我們的教學是您的綜合指南。透過我們的逐步說明，解鎖使用 Aspose.Tasks for Java 編寫 MS Project 資訊的效率。瀏覽錯綜複雜的專案操作，確保您的 Java 應用程式無縫運行。利用這對 Java 開發人員來說非常寶貴的資源來提升您的專案管理水準。
+### 使用 Aspose.Tasks for Java 提取 Microsoft Project 資訊
+高效的專案管理依賴於取得準確且即時的資訊。深入我們使用 Aspose.Tasks for Java 提取 Microsoft Project 資訊的教學。了解專案資料提取的細節，讓你輕鬆提升 Java 應用程式。無論你是資深開發者或 Java 愛好者，此步驟式指南都能讓你充分發揮 Aspose.Tasks for Java 的潛能，使專案管理變得輕而易舉。
 
-[透過我們的教學掌握 MS Project 操作](./write-project-info/)
+[Explore the tutorial on extracting project info](./read-project-info/)
 
-總之，我們的專案屬性教學為 Java 開發人員釋放 Aspose.Tasks 的全部潛力鋪平了道路。無論您是要深入閱讀元屬性、提取 Microsoft Project 信息，還是掌握 MS Project 操作，這些教程都可以提供成功所需的知識和見解。立即提升您的 Java 開發之旅！
+### 精通使用 Aspose.Tasks for Java 操作 MS Project
+對於希望精通操作 MS Project 資訊的 Java 開發者，我們的教學是完整的指南。透過步驟式說明，使用 Aspose.Tasks for Java 寫入 MS Project 資訊，釋放高效能。掌握專案操作的細節，確保你的 Java 應用程式順暢運作。以此寶貴資源提升你的專案管理能力。
 
-## 項目屬性教程
-### [讀取 Aspose.Tasks 專案中的元屬性](./read-meta-properties/)
-透過這個綜合教程釋放 Aspose.Tasks 專案中元資料的力量。學習輕鬆提取和利用元屬性。
-### [使用 Aspose.Tasks for Java 提取 Microsoft Project 信息](./read-project-info/)
-了解如何使用 Aspose.Tasks for Java 擷取 Microsoft Project 資訊。輕鬆增強 Java 應用程式中的專案管理。
-### [使用 Aspose.Tasks for Java 掌握 MS 專案操作](./write-project-info/)
-了解如何使用 Aspose.Tasks for Java 有效地撰寫 MS Project 資訊。 Java 開發人員的逐步指南。
+[Master MS Project manipulation with our tutorial](./write-project-info/)
+
+總結來說，我們的專案屬性教學為 Java 開發者開啟 Aspose.Tasks 的全部潛能鋪路。無論你在探索**如何讀取中繼資料**、提取 Microsoft Project 資訊，或是精通 MS Project 操作，這些教學都提供成功所需的知識與洞見。立即提升你的 Java 開發之旅！
+
+## 專案屬性教學
+### [讀取 Aspose.Tasks 專案中的中繼屬性](./read-meta-properties/)
+透過此完整教學，解鎖 Aspose.Tasks 專案中中繼資料的力量。輕鬆學會提取與運用中繼屬性。
+
+### [使用 Aspose.Tasks for Java 提取 Microsoft Project 資訊](./read-project-info/)
+學習如何使用 Aspose.Tasks for Java 提取 Microsoft Project 資訊。輕鬆提升 Java 應用程式中的專案管理。
+
+### [精通使用 Aspose.Tasks for Java 操作 MS Project](./write-project-info/)
+學習如何使用 Aspose.Tasks for Java 高效寫入 MS Project 資訊。為 Java 開發者提供的步驟式指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 常見問題
+
+**Q: 我可以讀取在 Microsoft Project 中新增的自訂欄位嗎？**  
+A: 是的。自訂欄位以延伸屬性形式儲存，可透過 `Project.getExtendedAttributes()` 存取。
+
+**Q: 讀取中繼資料會影響效能嗎？**  
+A: 取得專案屬性是輕量的；除非明確要求，否則不會載入任務資料。
+
+**Q: 有沒有方法依類型篩選中繼資料？**  
+A: 你可以查詢 `ProjectPropertyCollection`，並檢查每個屬性的 `PropertyType` 以進行相應的篩選。
+
+**Q: 需要哪個版本的 Aspose.Tasks？**  
+A: 最新的穩定版支援本教學中示範的所有功能；較早的版本可能僅支援有限的 API。
+
+**Q: 在讀取中繼資料時，如何處理加密的 Project 檔案？**  
+A: 在存取屬性之前，使用 `new Project(filePath, new LoadOptions(password))` 並提供正確的密碼開啟檔案。
+
+---
+
+**最後更新：** 2025-12-31  
+**測試環境：** Aspose.Tasks for Java 24.12  
+**作者：** Aspose

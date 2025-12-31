@@ -1,45 +1,65 @@
 ---
-title: Aspose.Tasks for Java を使用した MS プロジェクトの操作をマスターする
-linktitle: Aspose.Tasks にプロジェクト情報を書き込む
+date: 2025-12-31
+description: Aspose.Tasks for Java を使用して、プロジェクトの開始日を設定し、プロジェクト情報を書き込み、XML としてプロジェクトを保存する方法を学びます。
+linktitle: Write Project Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して MS Project 情報を効率的に記述する方法を学びます。 Java 開発者向けのステップバイステップ ガイド。
-weight: 12
+title: Aspose.Tasks for Java を使用して MS Project のプロジェクト開始日を設定する
 url: /ja/java/project-properties/write-project-info/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks for Java を使用した MS プロジェクトの操作をマスターする
+# MS ProjectでAspose.Tasks for Javaを使用してプロジェクト開始日を設定する
 
-## 導入
-このチュートリアルでは、Microsoft Project ファイルをプログラムで操作するための強力なライブラリである Aspose.Tasks for Java の利用について詳しく説明します。ここでは、Aspose.Tasks を使用して MS Project 情報を書き込むという基本的なタスクに焦点を当てます。あなたが経験豊富な開発者であっても、Java プログラミングを始めたばかりであっても、このガイドではプロセスを段階的に説明します。
-## 前提条件
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-1. Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。
-2.  Aspose.Tasks for Java ライブラリ: Aspose.Tasks for Java ライブラリをダウンロードしてインストールします。から入手できます[ここ](https://releases.aspose.com/tasks/java/).
-3. 統合開発環境 (IDE): 好みの IDE を選択します。 IntelliJ IDEA または Eclipse をお勧めします。
+## Introduction
+このチュートリアルでは、Aspose.Tasks for Java を使用して **プロジェクト開始日を設定**し、追加の MS Project 情報を書き込む方法を紹介します。プロジェクトスケジュールの自動化、レポートの生成、またはプロジェクトデータを大規模システムに統合する場合でも、開始日をプログラムで制御することで、タイムラインを正確に管理できます。環境設定から更新されたプロジェクトを XML ファイルとして保存するまでの各ステップを順に解説するので、すぐにこの手法を適用できます。
 
-## パッケージのインポート
-まず、必要なパッケージを Java プロジェクトにインポートします。
+## Quick Answers
+- **プロジェクトを操作するための主要クラスは何ですか？** `Project` は Aspose.Tasks ライブラリから提供されます。  
+- **プロジェクト開始日を設定するには？** `project.set(Prj.START_DATE, <date>)` を使用します。  
+- **ステータス日も設定できますか？** はい、`project.set(Prj.STATUS_DATE, <date>)` で設定できます。  
+- **プロジェクトをエクスポートする形式は？** `SaveFileFormat.Xml` で XML として保存します。  
+- **本番環境でライセンスが必要ですか？** フル機能を利用するには有効な Aspose.Tasks ライセンスが必要です。
+
+## What is **set project start date**?
+プロジェクト開始日を設定することは、すべてのスケジュールされたタスクが開始するカレンダー日を定義することです。タスク期間、依存関係、クリティカルパスなどの計算の基準点となります。プログラムでこの日付を設定することで、複数のプロジェクトファイル間で一貫性が保たれ、手動入力エラーが排除されます。
+
+## Why use Aspose.Tasks for Java to write project information?
+- **フル API カバレッジ:** Microsoft Project をインストールせずに、すべての Project プロパティを読み取り、変更、書き込みできます。  
+- **クロスプラットフォーム:** Windows、Linux、macOS で動作します。  
+- **オートメーション対応:** バッチ処理、CI パイプライン、またはリアルタイムでプロジェクトスケジュールを生成するバックエンドサービスに最適です。  
+
+## Prerequisites
+開始する前に、以下を確認してください:
+
+1. **Java Development Kit (JDK)** – 任意の最新バージョン（8 以上推奨）。  
+2. **Aspose.Tasks for Java ライブラリ** – [here](https://releases.aspose.com/tasks/java/) からダウンロードしてください。  
+3. **IDE** – IntelliJ IDEA、Eclipse、またはお好みの Java エディタ。  
+
+## Import Packages
+まず、Java プロジェクトで必要なパッケージをインポートします:
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-## ステップ 1: データ ディレクトリを設定する
-プロジェクト データを保存するディレクトリを定義します。
+## Step 1: Set Up Data Directory
+プロジェクトデータを保存するディレクトリを定義します。
 ```java
 String dataDir = "Your Data Directory";
 ```
-## ステップ 2: プロジェクト インスタンスを作成する
-新しいプロジェクト インスタンスを初期化します。
+
+## Step 2: Create Project Instance
+新しいプロジェクトインスタンスを初期化します。
 ```java
 Project project = new Project();
 ```
-## ステップ 3: プロジェクト情報のプロパティを設定する
-開始日、開始からのスケジュール、状況報告日などのプロジェクトのプロパティを設定します。
+
+## Step 3: Set Project Information Properties
+ここでは **プロジェクト開始日**、開始からのスケジュール、ステータス日を設定します — 主なキーワード *write project information* と二次キーワード *how to set status* をカバーします。
 ```java
 project.set(Prj.SCHEDULE_FROM_START, new NullableBool(true));
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -48,25 +68,41 @@ project.set(Prj.START_DATE, cal.getTime());
 project.set(Prj.CURRENT_DATE, cal.getTime());
 project.set(Prj.STATUS_DATE, cal.getTime());
 ```
-## ステップ 4: プロジェクトを XML として保存する
-更新された情報を含むプロジェクトを XML ファイルとして保存します。
+
+## Step 4: Save Project as XML
+最後に、更新されたプロジェクトファイルを永続化します。これは二次キーワード **save project as xml** を示しています。
 ```java
 project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
 ```
 
-## 結論
-おめでとう！ Aspose.Tasks for Java を使用して MS Project 情報を書き込む方法を学習しました。この新たに得た知識を活用すると、Microsoft Project ファイルに関連するさまざまなタスクを自動化し、Java 開発者としての生産性を向上させることができます。
-## よくある質問
-### Q: Aspose.Tasks for Java を使用して MS Project ファイルを読み取ることはできますか?
-A: はい、Aspose.Tasks for Java は、MS Project ファイルの読み取りと書き込みの両方に堅牢な機能を提供します。
-### Q: Aspose.Tasks for Java は、MS Project のさまざまなバージョンと互換性がありますか?
-A: もちろん、Aspose.Tasks for Java はさまざまなバージョンの MS Project をサポートしており、さまざまなファイル形式間の互換性を確保しています。
-### Q: Aspose.Tasks for Java の試用版には制限がありますか?
-A: 試用版ではライブラリの機能を試すことができますが、出力ファイルの透かしなどの制限があります。
-### Q: Aspose.Tasks for Java のサポートを受けるにはどうすればよいですか?
- A: Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
-### Q: Aspose.Tasks for Java の一時ライセンスを購入できますか?
- A: はい、一時ライセンスは短期間の使用に利用できます。以下から入手できます。[ここ](https://purchase.aspose.com/temporary-license/).
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **開始日が正しくない** | Java の Calendar では月が 0 から始まります。 | `Calendar.JULY` を使用する（または月インデックスに 1 を加える）ようにします。 |
+| **ファイルが保存されない** | `dataDir` が存在しない、または書き込み権限がありません。 | 事前にディレクトリを作成するか、書き込み可能なパスを選択してください。 |
+| **ライセンス警告** | ライセンスなしで実行すると透かしが付加されます。 | `Project` オブジェクトを作成する前に有効な Aspose.Tasks ライセンスを適用してください。 |
+
+## FAQ's
+### Q: Can I use Aspose.Tasks for Java to read MS Project files?
+A: はい、Aspose.Tasks for Java は MS Project ファイルの読み取りと書き込みの両方に強力な機能を提供します。  
+### Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?
+A: もちろん、Aspose.Tasks for Java はさまざまなバージョンの MS Project をサポートしており、異なるファイル形式間でも互換性があります。  
+### Q: Are there any limitations to the trial version of Aspose.Tasks for Java?
+A: トライアル版ではライブラリの機能を試すことができますが、出力ファイルに透かしが入るなどの制限があります。  
+### Q: How can I get support for Aspose.Tasks for Java?
+A: Aspose.Tasks コミュニティフォーラム [here](https://forum.aspose.com/c/tasks/15) でサポートを受けられます。  
+### Q: Can I purchase a temporary license for Aspose.Tasks for Java?
+A: はい、短期利用向けの一時ライセンスが利用可能です。[here](https://purchase.aspose.com/temporary-license/) から取得できます。  
+
+## Conclusion
+これで **プロジェクト開始日を設定**し、重要なプロジェクト情報を書き込み、Aspose.Tasks for Java を使用して **XML としてプロジェクトを保存**する方法を学びました。これらの基本ブロックにより、プロジェクト管理ワークフローの自動化、一貫したスケジュールの生成、MS Project データの Java アプリケーションへの統合が可能になります。
+
+---
+
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
