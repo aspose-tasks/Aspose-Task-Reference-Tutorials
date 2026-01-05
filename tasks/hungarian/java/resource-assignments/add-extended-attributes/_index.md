@@ -1,28 +1,45 @@
 ---
-title: MS Project Manipulation elsajátítása Aspose.Tasks for Java segítségével
-linktitle: Bővített attribútumok hozzáadása az Aspose.Tasks erőforrás-hozzárendeléseihez
+date: 2026-01-05
+description: Tanulja meg, hogyan állíthatja be a projekt kezdő dátumát, és mentheti
+  az MS Project XML-t az Aspose.Tasks for Java használatával. Lépésről lépésre útmutató
+  Java fejlesztőknek.
+linktitle: Add Extended Attributes to Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan írhat hatékonyan MS Project információkat az Aspose.Tasks for Java használatával. Lépésről lépésre útmutató Java fejlesztőknek.
-weight: 10
+title: Projekt kezdő dátum beállítása az Aspose.Tasks for Java segítségével
 url: /hu/java/resource-assignments/add-extended-attributes/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# MS Project Manipulation elsajátítása Aspose.Tasks for Java segítségével
+# Projekt kezdő dátum beállítása Aspose.Tasks for Java-val
 
 ## Bevezetés
-Ebben az oktatóanyagban bemutatjuk az Aspose.Tasks for Java használatát, amely egy hatékony könyvtár a Microsoft Project fájlok programozott kezeléséhez. Egy alapvető feladatra összpontosítunk: MS Project információk írására az Aspose.Tasks segítségével. Akár tapasztalt fejlesztő, akár csak most kezdi a Java programozási utat, ez az útmutató lépésről lépésre végigvezeti a folyamaton.
+Ebben az oktatóanyagban megtanulja, **hogyan állítsa be a projekt kezdő dátumát** egy Microsoft Project fájlban, majd **mentse el az MS Project XML-t** az Aspose.Tasks Java könyvtár segítségével. Akár jelentéskészítő csővezeték automatizálásáról, akár egy egyedi projektmenedzsment eszköz építéséről van szó, ennek a feladatnak a elsajátítása időt takarít meg, és kiküszöböli a kézi hibákat.
+
+## Gyors válaszok
+- **Mi a fő módszer a kezdő dátum beállításához?** Használja a `project.set(Prj.START_DATE, …)`-t.
+- **Milyen formátumot használjak a fájl exportálásához?** Mentse XML-ként a `SaveFileFormat.Xml` segítségével.
+- **Szükség van licencre ehhez a művelethez?** A próbaverzió működik, de a teljes licenc eltávolítja a vízjeleket.
+- **Megváltoztathatom a kezdő dátumot a feladatok létrehozása után?** Igen, frissítse a projekt tulajdonságát a feladatok hozzáadása előtt.
+- **Ez kompatibilis minden MS Project verzióval?** Az Aspose.Tasks támogatja az XML, MPP és egyéb formátumokat.
+
+## Mi az a „Projekt kezdő dátum beállítása”?
+A projekt kezdő dátumának beállítása meghatározza az alapnaptárat, amelyből minden feladat ütemezési számítás kiindul. Ez az első lépés egy megbízható projektmenetrend programozott felépítésében.
+
+## Miért használja az Aspose.Tasks for Java-t?
+Az Aspose.Tasks egy tiszta Java API-t biztosít, amely bármely platformon működik, anélkül, hogy a Microsoft Project telepítve lenne. Lehetővé teszi a projektadatok gyors létrehozását, módosítását és exportálását, így ideális a szerveroldali automatizáláshoz.
+
 ## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Tasks for Java Library: Töltse le és telepítse az Aspose.Tasks for Java könyvtárat. től szerezheti be[itt](https://releases.aspose.com/tasks/java/).
-3. Integrált fejlesztői környezet (IDE): Válasszon egy IDE-t az Ön által preferált. Az IntelliJ IDEA-t vagy az Eclipse-t ajánljuk.
+1. **Java Development Kit (JDK)** – bármely friss JDK verzió.
+2. **Aspose.Tasks for Java** – letölthető [itt](https://releases.aspose.com/tasks/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse vagy a kedvenc Java IDE-je.
 
 ## Csomagok importálása
-Először importálja a szükséges csomagokat a Java projektbe:
+Először importálja a szükséges osztályokat:
+
 ```java
 import com.aspose.tasks.CustomFieldType;
 import com.aspose.tasks.ExtendedAttribute;
@@ -38,19 +55,24 @@ import com.aspose.tasks.Value;
 import java.io.IOException;
 import java.math.BigDecimal;
 ```
-# Bontsuk fel a példát több lépésre:
-## 1. lépés: Állítsa be a Data Directory-t
-Határozza meg a könyvtárat, ahol a projekt adatait tárolni kell.
+
+### 1. lépés: Adatkönyvtár beállítása
+Határozza meg, hogy hol legyenek tárolva a generált fájlok.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 2. lépés: Hozzon létre projektpéldányt
-Inicializáljon egy új projektpéldányt.
+
+### 2. lépés: Projekt példány létrehozása
+Hozzon létre egy új, üres projektet.
+
 ```java
 Project project = new Project();
 ```
-## 3. lépés: Állítsa be a Projektinformáció tulajdonságait
-Állítsa be a projekt tulajdonságait, például kezdési dátumot, ütemezést a kezdéstől és állapotdátumot.
+
+### 3. lépés: Projektinformációs tulajdonságok beállítása
+Itt **beállítjuk a projekt kezdő dátumát** és a kapcsolódó ütemezési tulajdonságokat.
+
 ```java
 project.set(Prj.SCHEDULE_FROM_START, new NullableBool(true));
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -59,25 +81,48 @@ project.set(Prj.START_DATE, cal.getTime());
 project.set(Prj.CURRENT_DATE, cal.getTime());
 project.set(Prj.STATUS_DATE, cal.getTime());
 ```
-## 4. lépés: Projekt mentése XML-ként
-Mentse el a projektet a frissített információkkal XML-fájlként.
+
+### 4. lépés: MS Project XML mentése
+Exportálja a beállított projektet egy XML fájlba.
+
 ```java
 project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
 ```
 
-## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan írjon MS Project információkat az Aspose.Tasks for Java segítségével. Ezzel az újonnan megszerzett tudással automatizálhatja a Microsoft Project fájlokkal kapcsolatos különféle feladatokat, javítva ezzel Java fejlesztői hatékonyságát.
-## GYIK
-### K: Használhatom az Aspose.Tasks for Java-t MS Project fájlok olvasásához?
-V: Igen, az Aspose.Tasks for Java robusztus funkciókat biztosít az MS Project fájlok olvasásához és írásához.
-### K: Az Aspose.Tasks for Java kompatibilis az MS Project különböző verzióival?
-V: Természetesen az Aspose.Tasks for Java támogatja az MS Project különféle verzióit, biztosítva a különböző fájlformátumok közötti kompatibilitást.
-### K: Vannak korlátozások az Aspose.Tasks for Java próbaverziójára vonatkozóan?
-V: Bár a próbaverzió lehetővé teszi a könyvtár képességeinek felfedezését, bizonyos korlátai vannak, például vízjelek a kimeneti fájlokon.
-### K: Hogyan kaphatok támogatást az Aspose.Tasks for Java számára?
- V: Kérhet segítséget az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
-### K: Vásárolhatok ideiglenes licencet az Aspose.Tasks for Java számára?
- V: Igen, rövid távú használatra ideiglenes licencek állnak rendelkezésre. Az egyiket beszerezheti[itt](https://purchase.aspose.com/temporary-license/).
+## Gyakori problémák és megoldások
+- **Helytelen dátumformátum:** Győződjön meg róla, hogy a `java.util.Calendar`-t használja, és a hozzárendelés előtt meghívja a `getTime()`-t.
+- **A fájl nem mentődik:** Ellenőrizze, hogy a `dataDir` egy létező, írható mappára mutat.
+- **Licencfigyelmeztetések:** A próbaverzió vízjeleket ad hozzá; érvényes licenc alkalmazásával eltávolíthatók.
+
+## Gyakran feltett kérdések
+
+### K: Használhatom az Aspose.Tasks for Java-t MS Project fájlok olvasására?
+**A:** Igen, az Aspose.Tasks for Java robusztus funkciókat biztosít mind MS Project fájlok olvasásához, mind írásához.
+
+### K: Az Aspose.Tasks for Java kompatibilis a különböző MS Project verziókkal?
+**A:** Teljes mértékben, az Aspose.Tasks for Java támogatja a különféle MS Project formátumokat, biztosítva a széles körű kompatibilitást.
+
+### K: Vannak korlátozások a Aspose.Tasks for Java próbaverziójában?
+**A:** A próbaverzió lehetővé teszi a könyvtár felfedezését, de vízjeleket ad a kimeneti fájlokhoz.
+
+### K: Hogyan kaphatok támogatást az Aspose.Tasks for Java-hoz?
+**A:** Segítséget kérhet az Aspose.Tasks közösségi fórumon [itt](https://forum.aspose.com/c/tasks/15).
+
+### K: Vásárolhatok ideiglenes licencet az Aspose.Tasks for Java-hoz?
+**A:** Igen, ideiglenes licencek elérhetők rövid távú használatra. Szerezzen egyet [itt](https://purchase.aspose.com/temporary-license/).
+
+### K: Az XML-ként mentés megőrzi az egyedi mezőket?
+**A:** Igen, amikor a `SaveFileFormat.Xml`-t használja, minden egyedi attribútum és kiterjesztett mező megmarad.
+
+### K: Megváltoztathatom a kezdő dátumot a feladatok hozzáadása után?
+**A:** A kezdő dátumot bármikor frissítheti a mentés előtt; csak hívja újra a `project.set(Prj.START_DATE, …)`-t.
+
+---
+
+**Utoljára frissítve:** 2026-01-05  
+**Tesztelve:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

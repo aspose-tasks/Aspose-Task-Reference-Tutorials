@@ -1,115 +1,149 @@
 ---
-title: Przydziały zasobów
-linktitle: Przydziały zasobów
-second_title: Aspose.Tasks API Java
-description: Z łatwością opanuj Aspose.Tasks dla języka Java, korzystając z naszych samouczków dotyczących przypisywania zasobów. Zarządzaj manipulacją MS Project, budżetami przydziałów, kosztami i nie tylko.
-weight: 30
+date: 2026-01-05
+description: Dowiedz się, jak zarządzać budżetem przydziału w Javie przy użyciu Aspose.Tasks
+  for Java. Opanuj przydziały zasobów, budżety, koszty i manipulację MS Project.
+linktitle: Resource Assignments
+second_title: Aspose.Tasks Java API
+title: Zarządzaj budżetem przydziału Java – Przydziały zasobów
 url: /pl/java/resource-assignments/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przydziały zasobów
+# Przypisania zasobów
 
+## Wprowadzenie
 
-## Wstęp
+Witamy w naszym kompleksowym przewodniku po **Aspose.Tasks for Java**, ze szczególnym uwzględnieniem **zarządzania budżetem przypisań w Javie**. Niezależnie od tego, czy jesteś doświadczonym programistą Javy, czy dopiero zaczynasz, te samouczki dadzą Ci pewność w obsłudze wszystkich aspektów plików Microsoft Project — od budżetowania po obsługę odchyleń. Odkryj bogaty zestaw tematów, które pomogą Ci być bardziej produktywnym i oszczędnym w Twoich projektach.
 
-Witamy w naszym obszernym przewodniku na temat opanowania Aspose.Tasks dla Java, skupiającym się na przydzielaniu zasobów. Niezależnie od tego, czy jesteś doświadczonym programistą Java, czy dopiero zaczynasz, te samouczki wyposażą Cię w dogłębną wiedzę niezbędną do skutecznego zarządzania różnymi aspektami plików Microsoft Project. Zanurzmy się w kluczowych poruszanych tematach:
+## Szybkie odpowiedzi
+- **Co oznacza „manage assignment budget java”?**  
+  Odnosi się do używania Aspose.Tasks for Java do odczytu, aktualizacji i obliczania danych budżetowych dla przypisań zasobów w plikach MS Project.  
+- **Czy potrzebna jest licencja?**  
+  Tak, do użytku produkcyjnego wymagana jest ważna licencja Aspose.Tasks.  
+- **Jaką wersję Javy obsługujecie?**  
+  Aspose.Tasks działa z Java 8 i nowszymi.  
+- **Czy mogę programowo manipulować budżetami?**  
+  Oczywiście — Aspose.Tasks udostępnia pełne API do właściwości związanych z budżetem.  
+- **Czy dostępny jest przykładowy kod?**  
+  Każdy powiązany samouczek zawiera gotowe do uruchomienia fragmenty Java.
 
-## Opanowanie manipulacji projektami MS za pomocą Aspose.Tasks dla Java
+## Co to jest „manage assignment budget java”?
+Zarządzanie budżetem przypisań w Javie oznacza programowe sterowanie polem **Budget** każdego przypisania zasobu w pliku Microsoft Project. Umożliwia to śledzenie planowanych vs. rzeczywistych wydatków, prognozowanie kosztów oraz generowanie raportów finansowych bezpośrednio z aplikacji Java.
 
-Zapoznaj się z przewodnikiem krok po kroku dla programistów Java, który nauczy Cię, jak efektywnie pisać informacje w programie MS Project przy użyciu Aspose.Tasks. Ten poradnik,[Opanowanie manipulacji projektami MS](./add-extended-attributes/), zapewnia bezcenne informacje umożliwiające bezproblemową integrację.
+## Dlaczego warto używać Aspose.Tasks for Java do zarządzania budżetami?
+- **Pełna kontrola** nad każdym elementem projektu bez konieczności instalacji MS Project.  
+- **Wysoka wydajność** przy dużych plikach — idealna dla rozwiązań na skalę przedsiębiorstwa.  
+- **Kompatybilność wieloplatformowa**, dzięki czemu kod działa na Windows, Linux i macOS.  
+- **Bogata dokumentacja** oraz gotowe przykłady przyspieszające rozwój.
 
-## Zarządzanie budżetem przydziałów w Aspose.Tasks
+## Jak zarządzać budżetem przypisań w Javie przy użyciu Aspose.Tasks
+Poniżej znajduje się starannie dobrana lista samouczków, które krok po kroku przeprowadzą Cię przez cały proces. Każdy link otwiera dedykowany, praktyczny przewodnik, który możesz śledzić linia po linii.
 
- Naucz się sztuki efektywnego zarządzania budżetem zadań w Javie przy użyciu Aspose.Tasks. Nasz poradnik[Zarządzanie budżetem przydziałów](./assignment-budget/) poprowadzi Cię przez cały proces, dzięki czemu śledzenie budżetu stanie się dziecinnie proste.
+### Opanowanie manipulacji MS Project przy użyciu Aspose.Tasks for Java
+Poznaj przewodnik krok po kroku dla programistów Javy, uczący efektywnego zapisu informacji MS Project przy użyciu Aspose.Tasks. Ten samouczek, [Mastering MS Project Manipulation](./add-extended-attributes/), dostarcza nieocenionych wskazówek dla płynnej integracji.
 
-## Efektywne zarządzanie kosztami przydziałów dzięki Aspose.Tasks
+### Zarządzanie budżetem przypisań w Aspose.Tasks
+Poznaj sztukę efektywnego **zarządzania budżetem przypisań** w Javie przy użyciu Aspose.Tasks. Nasz samouczek [Assignment Budget Management](./assignment-budget/) prowadzi Cię przez cały proces, czyniąc śledzenie budżetu prostym.
 
- Zagłęb się w zawiłości efektywnego zarządzania kosztami przydziałów w Aspose.Tasks dla Java. Poradnik[Efektywne zarządzanie kosztami przydziału](./assignment-cost/) zapewnia efektywne zarządzanie zasobami projektu.
+### Efektywne zarządzanie kosztami przypisań w Aspose.Tasks
+Zanurz się w szczegóły skutecznego obsługi kosztów przypisań w Aspose.Tasks for Java. Samouczek [Efficient Assignment Cost Management](./assignment-cost/) zapewnia możliwość efektywnego zarządzania zasobami projektu.
 
-## Oblicz procenty przydziału zasobów za pomocą Aspose.Tasks
+### Obliczanie procentów przypisań zasobów w Aspose.Tasks
+Uprość zadania zarządzania projektem, ucząc się, jak obliczać procenty dla przypisań zasobów w projektach Java. Nasz samouczek [Calculate Resource Assignment Percentages](./calculate-percentages/) oferuje proste kroki do dokładnych obliczeń.
 
- Uprość swoje zadania związane z zarządzaniem projektami, ucząc się, jak obliczać wartości procentowe przydziałów zasobów w projektach Java. Nasz poradnik[Oblicz procenty przydziału zasobów](./calculate-percentages/) zapewnia proste kroki umożliwiające dokładne obliczenia procentowe.
+### Tworzenie przypisań zasobów w Aspose.Tasks
+Twórz przypisania zasobów w Aspose.Tasks for Java bez wysiłku dzięki naszemu samouczkowi krok po kroku [Create Resource Assignments](./create-resource-assignments/). Rozwiń umiejętności zarządzania zasobami projektu z tym przewodnikiem.
 
-## Utwórz przypisania zasobów w Aspose.Tasks
+### Efektywna obsługa odchyleń projektu w Aspose.Tasks
+Radź sobie z odchyleniami projektu efektywnie, korzystając z naszego przewodnika [Efficient Project Variance Handling](./deal-with-variances/) w Aspose.Tasks for Java. Zarządzaj odchyleniami pracy, kosztów, startu i zakończenia bez problemu.
 
- Z łatwością twórz przydziały zasobów w Aspose.Tasks dla Java, korzystając z naszego samouczka krok po kroku[Utwórz przypisania zasobów](./create-resource-assignments/). Dzięki temu przewodnikowi rozwiń swoje umiejętności zarządzania zasobami projektu.
+### Zarządzanie właściwościami hiperlinków dla przypisań w Aspose.Tasks
+Zwiększ współpracę i dostępność w zarządzaniu projektami, ucząc się, jak zarządzać właściwościami hiperlinków dla przypisań zasobów w Aspose.Tasks. Nasz samouczek [Manage Hyperlink Properties](./hyperlink-properties/) dostarcza niezbędnych wskazówek.
 
-## Efektywna obsługa odchyleń w projekcie dzięki Aspose.Tasks
+### Obsługa właściwości opóźnienia poziomowania w Aspose.Tasks
+Ten kompleksowy samouczek [Handle Leveling Delay Properties](./leveling-delay-properties/) prowadzi Cię przez obsługę właściwości opóźnienia poziomowania dla przypisań zasobów w Aspose.Tasks for Java.
 
- Skutecznie radzij sobie z odchyleniami w projekcie, korzystając z naszego przewodnika[Efektywna obsługa odchyleń w projekcie](./deal-with-variances/) przy użyciu Aspose.Tasks dla Java. Bez wysiłku zarządzaj odchyleniami w zakresie pracy, kosztów, rozpoczęcia i zakończenia.
+### Monitorowanie nadgodzin, pozostałych kosztów i pracy w Aspose.Tasks
+Skutecznie monitoruj nadgodziny, pozostałe koszty i pracę w projektach Java przy użyciu Aspose.Tasks. Nasz samouczek [Monitor Overtime, Remaining Costs, and Work](./overtime-remaining-costs-work/) oferuje proste kroki do efektywnego zarządzania projektem.
 
-## Zarządzaj właściwościami hiperłączy dla przypisań w Aspose.Tasks
+### Odczyt współdzielonych przypisań zasobów w Aspose.Tasks
+Zwiększ wydajność zarządzania projektem, ucząc się, jak odczytywać współdzielone przypisania zasobów w Aspose.Tasks for Java. Nasz samouczek [Read Shared Resource Assignments](./read-shared-resource-assignments/) dostarcza szczegółowych wskazówek krok po kroku.
 
- Popraw współpracę i dostępność w zarządzaniu projektami, ucząc się, jak zarządzać właściwościami hiperłączy dla przydziałów zasobów w Aspose.Tasks. Nasz poradnik[Zarządzaj właściwościami hiperłączy](./hyperlink-properties/) dostarcza istotnych spostrzeżeń.
+### Odczyt i zapis skali stawek dla przypisań zasobów w Aspose.Tasks
+Efektywnie zarządzaj skalą stawek przypisań zasobów w Aspose.Tasks for Java dzięki naszemu kompleksowemu samouczkowi [Read and Write Rate Scale](./read-write-rate-scale/). Rozwiń umiejętności niezbędne do skutecznego zarządzania projektem.
 
-## Obsługuj właściwości opóźnienia poziomowania w Aspose.Tasks
+### Zarządzanie notatkami dla przypisań zasobów w Aspose.Tasks
+Bezproblemowo integruj notatki dla przypisań zasobów w Aspose.Tasks for Java dzięki naszemu samouczkowi krok po kroku [Manage Notes for Resource Assignments](./resource-assignment-notes/). Podnieś możliwości zarządzania projektem.
 
-Ten kompleksowy samouczek[Właściwości opóźnienia poziomowania obsługi](./leveling-delay-properties/) prowadzi Cię przez obsługę właściwości opóźnienia poziomowania dla przydziałów zasobów w Aspose.Tasks dla Java.
+### Zatrzymywanie i wznawianie przypisań zasobów w Aspose.Tasks
+Dowiedz się, jak efektywnie zarządzać przypisaniami zasobów w Aspose.Tasks for Java dzięki naszemu samouczkowi [Stop and Resume Resource Assignments](./stop-resume-assignment/). Zdobądź wiedzę niezbędną do optymalizacji przepływów pracy w projekcie.
 
-## Monitoruj nadgodziny, pozostałe koszty i pracę w Aspose.Tasks
+### Generowanie danych czasowych w Aspose.Tasks
+Popraw wydajność zarządzania projektem, ucząc się generować dane czasowe dla przypisań zasobów przy użyciu Aspose.Tasks for Java. Nasz obszerny przewodnik [Generate Timephased Data](./timephased-data-generation/) prowadzi Cię przez cały proces.
 
- Skutecznie monitoruj nadgodziny, pozostałe koszty i pracuj w projektach Java za pomocą Aspose.Tasks. Nasz poradnik[Monitoruj nadgodziny, pozostałe koszty i pracę](./overtime-remaining-costs-work/) zawiera proste kroki umożliwiające efektywne zarządzanie projektami.
-
-## Przeczytaj przydziały zasobów współdzielonych w Aspose.Tasks
-
- Zwiększ efektywność zarządzania projektami, ucząc się, jak czytać przydziały udostępnionych zasobów w Aspose.Tasks dla Java. Nasz poradnik[Przeczytaj Przydziały zasobów współdzielonych](./read-shared-resource-assignments/) dostarcza szczegółowych informacji krok po kroku.
-
-## Skala szybkości odczytu i zapisu dla przydziałów zasobów w Aspose.Tasks
-
- Efektywnie zarządzaj skalą przydziału zasobów w Aspose.Tasks dla Java dzięki naszemu wszechstronnemu samouczkowi[Skala szybkości odczytu i zapisu](./read-write-rate-scale/). Zwiększ swoje umiejętności skutecznego zarządzania projektami.
-
-## Zarządzaj notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks
-
- Bezproblemowo integruj notatki dotyczące przydziału zasobów w Aspose.Tasks dla Java, korzystając z naszego samouczka krok po kroku[Zarządzaj notatkami dotyczącymi przydziałów zasobów](./resource-assignment-notes/). Zwiększ swoje możliwości zarządzania projektami.
-
-## Zatrzymaj i wznów przydziały zasobów w Aspose.Tasks
-
- Dowiedz się, jak efektywnie zarządzać przydziałami zasobów w Aspose.Tasks dla Java, korzystając z naszego samouczka[Zatrzymaj i wznów przydziały zasobów](./stop-resume-assignment/). Uzyskaj wgląd w optymalizację przepływów pracy w projektach.
-
-## Generuj dane okresowe w Aspose.Tasks
-
- Popraw efektywność zarządzania projektami, ucząc się, jak generować dane okresowe dla przydziałów zasobów za pomocą Aspose.Tasks dla Java. Nasz obszerny przewodnik[Generuj dane okresowe](./timephased-data-generation/) przeprowadzi Cię przez proces.
-
-Zapoznaj się z tymi samouczkami, aby odblokować pełny potencjał Aspose.Tasks dla Java i podnieść swoje umiejętności zarządzania projektami. Miłego kodowania!
+Odkryj te samouczki, aby odblokować pełny potencjał Aspose.Tasks for Java i podnieść swoje umiejętności zarządzania projektami. Szczęśliwego kodowania!
 
 ---
 
-## Samouczki dotyczące przydziału zasobów
-### [Opanowanie manipulacji projektami MS za pomocą Aspose.Tasks dla Java](./add-extended-attributes/)
-Dowiedz się, jak efektywnie pisać informacje MS Project przy użyciu Aspose.Tasks dla Java. Przewodnik krok po kroku dla programistów Java.
-### [Zarządzanie budżetem przydziałów w Aspose.Tasks](./assignment-budget/)
-Dowiedz się, jak efektywnie zarządzać budżetami przydziałów w Javie, korzystając z Aspose.Tasks, potężnej biblioteki do manipulacji plikami Microsoft Project.
-### [Efektywne zarządzanie kosztami przydziałów dzięki Aspose.Tasks](./assignment-cost/)
-Dowiedz się, jak efektywnie zarządzać kosztami przydziałów w Aspose.Tasks dla Java. Przewodnik krok po kroku dotyczący efektywnego zarządzania zasobami projektu.
-### [Oblicz procenty przydziału zasobów za pomocą Aspose.Tasks](./calculate-percentages/)
-Dowiedz się, jak efektywnie obliczać wartości procentowe przydziału zasobów w projektach Java przy użyciu Aspose.Tasks, upraszczając zadania związane z zarządzaniem projektami.
-### [Utwórz przypisania zasobów w Aspose.Tasks](./create-resource-assignments/)
-Dzięki temu samouczkowi krok po kroku dowiedz się, jak bez wysiłku tworzyć przypisania zasobów w Aspose.Tasks dla języka Java. Efektywne zarządzanie zasobami projektu stało się proste.
-### [Efektywna obsługa odchyleń w projekcie dzięki Aspose.Tasks](./deal-with-variances/)
-Dowiedz się, jak skutecznie radzić sobie z odchyleniami w projekcie za pomocą Aspose.Tasks dla Java. Bez wysiłku zarządzaj odchyleniami w zakresie pracy, kosztów, rozpoczęcia i zakończenia.
-### [Zarządzaj właściwościami hiperłączy dla przypisań w Aspose.Tasks](./hyperlink-properties/)
-Dowiedz się, jak zarządzać właściwościami hiperłączy dla przypisań zasobów w Aspose.Tasks dla Java. Popraw współpracę i dostępność w zarządzaniu projektami.
-### [Obsługuj właściwości opóźnienia poziomowania w Aspose.Tasks](./leveling-delay-properties/)
-Dowiedz się, jak obsługiwać właściwości opóźnienia poziomowania dla przydziałów zasobów w Aspose.Tasks dla Java, korzystając z tego wszechstronnego samouczka.
-### [Monitoruj nadgodziny, pozostałe koszty i pracę w Aspose.Tasks](./overtime-remaining-costs-work/)
-Dowiedz się, jak monitorować nadgodziny, pozostałe koszty i pracować w projektach Java za pomocą Aspose.Tasks. Proste kroki do skutecznego zarządzania projektami.
-### [Przeczytaj przydziały zasobów współdzielonych w Aspose.Tasks](./read-shared-resource-assignments/)
-Dowiedz się, jak czytać przydziały zasobów współdzielonych w Aspose.Tasks dla Java. Zwiększ efektywność zarządzania projektami dzięki samouczkom krok po kroku.
-### [Skala szybkości odczytu i zapisu dla przydziałów zasobów w Aspose.Tasks](./read-write-rate-scale/)
-Dowiedz się, jak skutecznie zarządzać skalą przydziału zasobów w Aspose.Tasks dla Java, korzystając z tego wszechstronnego samouczka.
-### [Zarządzaj notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks](./resource-assignment-notes/)
-Dowiedz się, jak zarządzać notatkami dotyczącymi przydziałów zasobów w Aspose.Tasks dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
-### [Zatrzymaj i wznów przydziały zasobów w Aspose.Tasks](./stop-resume-assignment/)
-Dowiedz się, jak efektywnie zarządzać przydziałami zasobów w Aspose.Tasks dla Java, korzystając z tego samouczka krok po kroku.
-### [Generuj dane okresowe w Aspose.Tasks](./timephased-data-generation/)
-Dowiedz się, jak generować dane okresowe dla przydziałów zasobów za pomocą Aspose.Tasks dla Java. Popraw efektywność zarządzania projektami dzięki temu kompleksowemu przewodnikowi.
+## Samouczki dotyczące przypisań zasobów
+### [Mastering MS Project Manipulation with Aspose.Tasks for Java](./add-extended-attributes/)
+Dowiedz się, jak efektywnie zapisywać informacje MS Project przy użyciu Aspose.Tasks for Java. Przewodnik krok po kroku dla programistów Javy.  
+### [Assignment Budget Management in Aspose.Tasks](./assignment-budget/)
+Dowiedz się, jak efektywnie zarządzać budżetami przypisań w Javie przy użyciu Aspose.Tasks, potężnej biblioteki do manipulacji plikami Microsoft Project.  
+### [Efficient Assignment Cost Management with Aspose.Tasks](./assignment-cost/)
+Dowiedz się, jak skutecznie obsługiwać koszty przypisań w Aspose.Tasks for Java. Przewodnik krok po kroku do efektywnego zarządzania zasobami projektu.  
+### [Calculate Resource Assignment Percentages with Aspose.Tasks](./calculate-percentages/)
+Dowiedz się, jak efektywnie obliczać procenty dla przypisań zasobów w projektach Java przy użyciu Aspose.Tasks, upraszczając zadania zarządzania projektem.  
+### [Create Resource Assignments in Aspose.Tasks](./create-resource-assignments/)
+Dowiedz się, jak tworzyć przypisania zasobów w Aspose.Tasks for Java bez wysiłku dzięki temu samouczkowi krok po kroku. Efektywne zarządzanie zasobami projektu w zasięgu ręki.  
+### [Efficient Project Variance Handling with Aspose.Tasks](./deal-with-variances/)
+Dowiedz się, jak efektywnie radzić sobie z odchyleniami projektu w Aspose.Tasks for Java. Zarządzaj odchyleniami pracy, kosztów, startu i zakończenia bez problemu.  
+### [Manage Hyperlink Properties for Assignments in Aspose.Tasks](./hyperlink-properties/)
+Dowiedz się, jak zarządzać właściwościami hiperlinków dla przypisań zasobów w Aspose.Tasks for Java. Zwiększ współpracę i dostępność w zarządzaniu projektem.  
+### [Handle Leveling Delay Properties in Aspose.Tasks](./leveling-delay-properties/)
+Dowiedz się, jak obsługiwać właściwości opóźnienia poziomowania dla przypisań zasobów w Aspose.Tasks for Java w tym kompleksowym samouczku.  
+### [Monitor Overtime, Remaining Costs, and Work in Aspose.Tasks](./overtime-remaining-costs-work/)
+Dowiedz się, jak monitorować nadgodziny, pozostałe koszty i pracę w projektach Java przy użyciu Aspose.Tasks. Proste kroki do skutecznego zarządzania projektem.  
+### [Read Shared Resource Assignments in Aspose.Tasks](./read-shared-resource-assignments/)
+Dowiedz się, jak odczytywać współdzielone przypisania zasobów w Aspose.Tasks for Java. Zwiększ wydajność zarządzania projektem dzięki samouczkom krok po kroku.  
+### [Read and Write Rate Scale for Resource Assignments in Aspose.Tasks](./read-write-rate-scale/)
+Dowiedz się, jak skutecznie zarządzać skalą stawek przypisań zasobów w Aspose.Tasks for Java dzięki temu kompleksowemu samouczkowi.  
+### [Manage Notes for Resource Assignments in Aspose.Tasks](./resource-assignment-notes/)
+Dowiedz się, jak zarządzać notatkami dla przypisań zasobów w Aspose.Tasks for Java. Samouczek krok po kroku dla płynnej integracji.  
+### [Stop and Resume Resource Assignments in Aspose.Tasks](./stop-resume-assignment/)
+Dowiedz się, jak efektywnie zarządzać przypisaniami zasobów w Aspose.Tasks for Java dzięki temu samouczkowi krok po kroku.  
+### [Generate Timephased Data in Aspose.Tasks](./timephased-data-generation/)
+Dowiedz się, jak generować dane czasowe dla przypisań zasobów przy użyciu Aspose.Tasks for Java. Popraw wydajność zarządzania projektem dzięki temu kompleksowemu przewodnikowi.  
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Najczęściej zadawane pytania
+
+**P: Czy mogę używać Aspose.Tasks do aktualizacji budżetów w istniejącym pliku MS Project?**  
+O: Tak, API pozwala otworzyć plik, zmodyfikować pole Budget dowolnego przypisania i zapisać zmiany bez potrzeby instalacji MS Project.
+
+**P: Czy istnieje limit liczby przypisań, które mogę zarządzać?**  
+O: Aspose.Tasks obsługuje tysiące przypisań efektywnie; wydajność zależy głównie od dostępnej pamięci.
+
+**P: Czy muszę ręcznie obsługiwać konwersję walut?**  
+O: Biblioteka pracuje z numeryczną wartością budżetu; konwersję walut należy wykonać w własnym kodzie.
+
+**P: Jak odczytać budżet konkretnego przypisania zasobu?**  
+O: Załaduj projekt, znajdź Assignment po jego ID lub Resource UID, a następnie użyj `assignment.getBudget()` (metoda Java), aby pobrać wartość.
+
+**P: Jakiej wersji Aspose.Tasks potrzebuję do zarządzania budżetem?**  
+O: Wszystkie recent releases (2023‑2025) obsługują właściwości budżetu; zalecamy użycie najnowszej stabilnej wersji dla najlepszej kompatybilności.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-05  
+**Testowane z:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose

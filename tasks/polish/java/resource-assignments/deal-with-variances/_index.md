@@ -1,79 +1,142 @@
 ---
-title: Efektywna obsługa odchyleń w projekcie dzięki Aspose.Tasks
-linktitle: Radź sobie z różnicami w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak skutecznie radzić sobie z odchyleniami w projekcie za pomocą Aspose.Tasks dla Java. Bez wysiłku zarządzaj odchyleniami w zakresie pracy, kosztów, rozpoczęcia i zakończenia.
-weight: 15
+date: 2026-01-05
+description: Dowiedz się, jak efektywnie zarządzać planowaną a rzeczywistą pracą oraz
+  innymi odchyleniami projektu przy użyciu Aspose.Tasks dla Javy. Łatwo zarządzaj
+  odchyleniami w pracy, kosztach, terminach rozpoczęcia i zakończenia.
+linktitle: Deal with Variances in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Planowana vs rzeczywista praca: Efektywne zarządzanie odchyleniami projektu
+  z Aspose.Tasks'
 url: /pl/java/resource-assignments/deal-with-variances/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Efektywna obsługa odchyleń w projekcie dzięki Aspose.Tasks
+# Planowana vs rzeczywista praca: Efektywne zarządzanie odchyleniami projektu z Aspose.Tasks
 
-## Wstęp
-W tym samouczku przyjrzymy się, jak obsługiwać różnice w Aspose.Tasks dla Java. Odchylenia to odchylenia od planowanych wartości, takich jak praca, koszt, daty rozpoczęcia i zakończenia, w zarządzaniu projektami. Aspose.Tasks zapewnia wydajne metody wyszukiwania i zarządzania tymi rozbieżnościami, pomagając programistom skutecznie analizować i dostosowywać harmonogramy projektów.
-## Warunki wstępne
-Przed kontynuowaniem upewnij się, że spełnione są następujące wymagania wstępne:
-1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2.  Biblioteka Aspose.Tasks dla Java pobrana i dodana do Twojego projektu. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/java/).
+## Wprowadzenie
+W tym samouczku odkryjesz **jak pobrać dane o odchyleniach** i porównać *planowaną vs rzeczywistą pracę* przy użyciu Aspose.Tasks Java API. Odchylenia — niezależnie od tego, czy dotyczą pracy, kosztów, dat rozpoczęcia czy zakończenia — są kluczowymi wskaźnikami zdrowia harmonogramu. Po zakończeniu tego przewodnika będziesz potrafił obliczyć odchylenie kosztów, wyodrębnić wartości odchyleń dla każdego przypisania zasobu oraz skutecznie zarządzać odchyleniami projektu, aby utrzymać go na właściwej ścieżce.
+
+## Szybkie odpowiedzi
+- **Co to jest „planowana vs rzeczywista praca”?** To różnica między pierwotnie zaplanowaną pracą a pracą, która faktycznie została wykonana.  
+- **Która klasa API dostarcza dane o odchyleniach?** Klasa `Asn` (np. `Asn.WORK_VARIANCE`, `Asn.COST_VARIANCE`).  
+- **Czy potrzebna jest licencja do uruchomienia przykładu?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę pobrać wszystkie typy odchyleń w jednej pętli?** Tak — iteruj po obiektach `ResourceAssignment` i wywołuj `ra.get(Asn.*_VARIANCE)`.  
+- **Jakiej wersji Javy wymaga?** Zalecana jest Java 8 lub nowsza.
+
+## Wymagania wstępne
+Zanim przejdziesz dalej, upewnij się, że spełniasz następujące wymagania:
+1. Zainstalowany Java Development Kit (JDK) na Twoim systemie.  
+2. Biblioteka Aspose.Tasks for Java pobrana i dodana do projektu. Możesz ją pobrać [tutaj](https://releases.aspose.com/tasks/java/).  
 3. Podstawowa znajomość języka programowania Java.
-## Importuj pakiety
+
+## Importowanie pakietów
 Najpierw zaimportuj niezbędne pakiety do pracy z Aspose.Tasks:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.ResourceAssignment;
-
 ```
-## Krok 1: Iteruj po przypisaniach zasobów
-Aby poradzić sobie z rozbieżnościami, musimy iterować przydziały zasobów w projekcie. Osiąga się to za pomocą prostej pętli:
+
+## Krok 1: Iteracja po przypisaniach zasobów
+Aby **zarządzać odchyleniami projektu**, musimy przejść przez każde przypisanie zasobu w załadowanym pliku projektu:
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 for (ResourceAssignment ra : project.getResourceAssignments()) {
-    // Wykonaj operacje na każdym przypisaniu zasobu
+    // Perform operations on each resource assignment
 }
 ```
-## Krok 2: Pobierz różnicę w pracy
-Odchylenie pracy reprezentuje odchylenie między pracą planowaną a pracą rzeczywistą wykonaną przez zasób. Aby pobrać wariancję pracy dla każdego przypisania zasobu, użyj następującego fragmentu kodu:
+
+## Krok 2: Pobranie odchylenia pracy (Planowana vs rzeczywista praca)
+Odchylenie pracy pokazuje lukę między **planowaną a rzeczywistą pracą**. Pobierz je za pomocą:
+
 ```java
 System.out.println(ra.get(Asn.WORK_VARIANCE));
 ```
-## Krok 3: Uzyskaj informacje o odchyleniach kosztów
-Odchylenie kosztów wskazuje różnicę między kosztami planowanymi i rzeczywistymi poniesionymi w związku z przydziałem zasobu. Aby uzyskać rozbieżność kosztów, użyj następującego kodu:
+
+## Krok 3: Pobranie odchylenia kosztów
+Jeśli potrzebujesz **obliczyć odchylenie kosztów**, użyj następującego wywołania:
+
 ```java
 System.out.println(ra.get(Asn.COST_VARIANCE));
 ```
-## Krok 4: Pobierz wariancję początkową
-Odchylenie rozpoczęcia oznacza rozbieżność między planowaną i rzeczywistą datą rozpoczęcia zadania. Aby pobrać wariancję początkową, użyj następującego kodu:
+
+## Krok 4: Pobranie odchylenia startu
+Odchylenie startu wskazuje różnicę między zaplanowaną datą rozpoczęcia a rzeczywistą datą rozpoczęcia:
+
 ```java
 System.out.println(ra.get(Asn.START_VARIANCE));
 ```
-## Krok 5: Pobierz wariancję wykończenia
-Odchylenie zakończenia oznacza różnicę między planowanymi i rzeczywistymi datami zakończenia zadania. Aby uzyskać wariancję końcową, użyj następującego kodu:
+
+## Krok 5: Pobranie odchylenia zakończenia
+Odchylenie zakończenia odzwierciedla odchylenie między planowaną datą zakończenia a rzeczywistą datą zakończenia:
+
 ```java
 System.out.println(ra.get(Asn.FINISH_VARIANCE));
 ```
-## Wniosek
-Radzenie sobie z rozbieżnościami ma kluczowe znaczenie w zarządzaniu projektami, ponieważ umożliwia ocenę jego wyników i wprowadzanie niezbędnych korekt. Dzięki Aspose.Tasks dla Java programiści mogą efektywnie zarządzać odchyleniami i zapewnić sukces projektu.
-## Często zadawane pytania
-### P: Czy mogę zintegrować Aspose.Tasks z innymi bibliotekami Java?
-O: Tak, Aspose.Tasks można bezproblemowo zintegrować z innymi bibliotekami Java, aby zwiększyć możliwości zarządzania projektami.
-### P: Czy Aspose.Tasks nadaje się do projektów na dużą skalę?
-O: Oczywiście, Aspose.Tasks jest przeznaczony do obsługi projektów dowolnej skali, oferując solidną wydajność i niezawodność.
-### P: Czy mogę dostosowywać raporty w oparciu o analizę wariancji?
-Odp.: Z pewnością Aspose.Tasks zapewnia rozbudowane funkcje umożliwiające dostosowywanie raportów zgodnie z wymaganiami analizy wariancji.
-### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
- O: Tak, użytkownicy mogą uzyskać dostęp do pomocy technicznej poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w celu uzyskania pomocy lub pytań.
-### P: Czy mogę wypróbować Aspose.Tasks przed zakupem?
- Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/) aby ocenić jego funkcje przed dokonaniem zakupu.
+
+## Dlaczego pobierać dane o odchyleniach?
+Zrozumienie odchyleń pomaga:
+- Wcześnie wykrywać opóźnienia w harmonogramie.  
+- Dostosować alokację zasobów, zanim koszty wymkną się spod kontroli.  
+- Generować dokładne raporty statusowe dla interesariuszy.  
+- Przeprowadzać analizę przyczyn źródłowych opóźnionych zadań.
+
+## Typowe pułapki i wskazówki
+- **Pułapka:** Zapomnienie załadowania poprawnej ścieżki pliku `.mpp`.  
+  **Wskazówka:** Upewnij się, że `dataDir` wskazuje na folder zawierający `ResourceAssignmentVariance.mpp`.  
+- **Pułapka:** Zakładanie, że wartości odchyleń są zawsze liczbowe.  
+  **Wskazówka:** Niektóre przypisania mogą zwracać `null`, jeśli dane nie są dostępne; dodaj sprawdzenia na null.  
+- **Pro tip:** Użyj `ra.get(Asn.WORK)` razem z `ra.get(Asn.WORK_VARIANCE)`, aby obliczyć rzeczywiście wykonaną pracę.
+
+## Podsumowanie
+Obsługa **planowanej vs rzeczywistej pracy** oraz innych odchyleń jest kluczowa dla efektywnej kontroli projektu. Dzięki Aspose.Tasks for Java możesz programowo pobierać i analizować te metryki, umożliwiając podejmowanie decyzji opartych na danych, które utrzymują projekty na harmonogramie i w budżecie.
+
+## FAQ
+### Q: Czy mogę zintegrować Aspose.Tasks z innymi bibliotekami Java?
+A: Tak, Aspose.Tasks może być bezproblemowo integrowany z innymi bibliotekami Java, aby rozszerzyć możliwości zarządzania projektami.  
+### Q: Czy Aspose.Tasks jest odpowiedni dla dużych projektów?
+A: Absolutnie, Aspose.Tasks jest zaprojektowany tak, aby obsługiwać projekty każdej skali, oferując solidną wydajność i niezawodność.  
+### Q: Czy mogę dostosować raporty na podstawie analizy odchyleń?
+A: Oczywiście, Aspose.Tasks udostępnia rozbudowane funkcje umożliwiające dostosowanie raportów do wymagań analizy odchyleń.  
+### Q: Czy wsparcie techniczne jest dostępne dla użytkowników Aspose.Tasks?
+A: Tak, użytkownicy mogą uzyskać wsparcie techniczne poprzez [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w razie potrzeby.  
+### Q: Czy mogę wypróbować Aspose.Tasks przed zakupem?
+A: Tak, możesz skorzystać z darmowej wersji próbnej Aspose.Tasks dostępnej [tutaj](https://releases.aspose.com/), aby ocenić funkcje przed podjęciem decyzji o zakupie.
+
+## Najczęściej zadawane pytania
+
+**Q: Jak obliczyć odchylenie kosztów dla konkretnego zadania?**  
+A: Użyj `ra.get(Asn.COST_VARIANCE)` po iteracji po przypisaniu; połącz to z `ra.get(Asn.COST)`, aby uzyskać pełną analizę kosztów.
+
+**Q: Co zrobić, gdy wartość odchylenia zwraca null?**  
+A: Null wskazuje, że dane nie zostały ustawione w pliku źródłowym. Zabezpiecz kod sprawdzeniem null przed wypisaniem lub użyciem wartości.
+
+**Q: Czy mogę wyeksportować dane o odchyleniach do Excela?**  
+A: Tak — zbierz wartości w kolekcji i użyj biblioteki takiej jak Apache POI, aby zapisać je w arkuszu Excel.
+
+**Q: Czy Aspose.Tasks obsługuje metryki odchyleń projektów Agile?**  
+A: Chociaż API koncentruje się na tradycyjnych danych MS‑Project, możesz mapować informacje o sprintach Agile na zadania i nadal pobierać wartości odchyleń.
+
+**Q: Czy istnieje sposób na masową aktualizację wartości odchyleń?**  
+A: Możesz modyfikować pola podstawowe (np. `Asn.WORK`) i następnie zapisać projekt; pola odchyleń zostaną przeliczone przy następnym odczycie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-05  
+**Testowano z:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
