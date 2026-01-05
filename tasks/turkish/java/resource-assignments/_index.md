@@ -1,10 +1,13 @@
 ---
-title: Kaynak Atamaları
-linktitle: Kaynak Atamaları
-second_title: Aspose.Tasks Java API'si
-description: Kaynak atama eğitimlerimiz ile Aspose.Tasks for Java'da zahmetsizce ustalaşın. MS Project manipülasyonunu, atama bütçelerini, maliyetleri ve daha fazlasını yönetin.
-weight: 30
+date: 2026-01-05
+description: Aspose.Tasks for Java kullanarak atama bütçesini nasıl yöneteceğinizi
+  öğrenin. Kaynak atamalarını, bütçeleri, maliyetleri ve MS Project manipülasyonunu
+  ustalaşın.
+linktitle: Resource Assignments
+second_title: Aspose.Tasks Java API
+title: Atama Bütçesini Yönet Java – Kaynak Atamaları
 url: /tr/java/resource-assignments/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,103 +16,135 @@ url: /tr/java/resource-assignments/
 
 # Kaynak Atamaları
 
+## Giriş
 
-## giriiş
+Aspose.Tasks for Java **üzerinde uzmanlaşmak** için kapsamlı rehberimize hoş geldiniz; özellikle **manage assignment budget java** konusuna odaklanıyoruz. İster deneyimli bir Java geliştiricisi olun, ister yeni başlıyor olun, bu eğitimler Microsoft Project dosyalarının bütçelemeden varyans yönetimine kadar her yönünü güvenle ele almanızı sağlayacak. Projelerinizde daha üretken ve maliyet‑etkin olmanıza yardımcı olacak zengin konu setini keşfedelim.
 
-Kaynak atamalarına odaklanan Aspose.Tasks for Java konusunda uzmanlaşmaya yönelik kapsamlı kılavuzumuza hoş geldiniz. İster deneyimli bir Java geliştiricisi olun ister yeni başlıyor olun, bu eğitimler Microsoft Project dosyalarının çeşitli yönlerini verimli bir şekilde yönetmeniz için size derinlemesine bilgi verecektir. Ele alınan temel konulara bakalım:
+## Hızlı Yanıtlar
+- **“manage assignment budget java” ne anlama geliyor?**  
+  Aspose.Tasks for Java kullanarak MS Project dosyalarındaki kaynak atamalarının bütçe verilerini okuma, güncelleme ve hesaplama anlamına gelir.  
+- **Bir lisansa ihtiyacım var mı?**  
+  Evet, üretim ortamında kullanmak için geçerli bir Aspose.Tasks lisansı gereklidir.  
+- **Hangi Java sürümü destekleniyor?**  
+  Aspose.Tasks, Java 8 ve üzeri sürümlerle çalışır.  
+- **Bütçeleri programlı olarak manipüle edebilir miyim?**  
+  Kesinlikle—Aspose.Tasks, bütçe‑ile ilgili özellikler için tam bir API sunar.  
+- **Örnek kod mevcut mu?**  
+  Her bağlantılı eğitim, çalıştırmaya hazır Java kod parçacıkları içerir.
 
-## Aspose.Tasks for Java ile MS Proje Manipülasyonunda Uzmanlaşmak
+## “manage assignment budget java” nedir?
+Java’da atama bütçelerini yönetmek, bir Microsoft Project dosyası içindeki her kaynak atamasının **Budget** alanını programlı olarak kontrol etmek demektir. Bu sayede planlanan harcamalar ile gerçekleşen harcamalar izlenebilir, maliyet tahminleri yapılabilir ve finansal raporlar doğrudan Java uygulamalarınızdan oluşturulabilir.
 
-Aspose.Tasks'ı kullanarak MS Project bilgilerini verimli bir şekilde nasıl yazacağınızı öğreten, Java geliştiricilerine yönelik adım adım kılavuzu keşfedin. Bu öğretici,[MS Proje Manipülasyonunda Uzmanlaşmak](./add-extended-attributes/), kusursuz entegrasyon için paha biçilmez bilgiler sağlar.
+## Neden bütçeleri yönetmek için Aspose.Tasks for Java kullanmalısınız?
+- **Tam kontrol** – MS Project yüklü olmadan her proje unsurunu yönetebilirsiniz.  
+- **Yüksek performans** – büyük dosyalar için ideal, kurumsal ölçekli çözümler sunar.  
+- **Çapraz‑platform** uyumluluğu, kodunuz Windows, Linux veya macOS’ta çalışır.  
+- **Zengin dokümantasyon** ve geliştirmeyi hızlandıran hazır örnekler.
 
-## Aspose.Tasks'ta Atama Bütçe Yönetimi
+## Aspose.Tasks ile assignment budget java nasıl yönetilir
+Aşağıda, sürecin her adımını adım adım gösteren özenle seçilmiş eğitim listesi yer alıyor. Her bağlantı, satır satır takip edebileceğiniz bir rehbere yönlendirir.
 
- Aspose.Tasks'ı kullanarak Java'da verimli atama bütçesi yönetimi sanatını öğrenin. Eğitimimiz[Atama Bütçe Yönetimi](./assignment-budget/) Süreç boyunca size rehberlik ederek bütçe takibini çocuk oyuncağı haline getirir.
+### Aspose.Tasks for Java ile MS Project Manipülasyonunu Ustalıkla Öğrenme
+Java geliştiricileri için adım‑adım kılavuzu keşfedin; Aspose.Tasks kullanarak MS Project bilgilerini verimli bir şekilde nasıl yazacağınızı öğrenin. Bu eğitim, [Mastering MS Project Manipulation](./add-extended-attributes/) adlı bağlantıyı içerir ve sorunsuz entegrasyon için paha biçilmez bilgiler sunar.
 
-## Aspose.Tasks ile Etkin Atama Maliyet Yönetimi
+### Aspose.Tasks’te Atama Bütçe Yönetimi
+Java’da Aspose.Tasks kullanarak **assignment budget management** sanatını öğrenin. Eğitimimiz [Assignment Budget Management](./assignment-budget/) süreci adım adım anlatır ve bütçe takibini çok kolay hâle getirir.
 
- Aspose.Tasks for Java'da atama maliyetlerini etkili bir şekilde yönetmenin inceliklerini keşfedin. öğretici[Etkin Atama Maliyet Yönetimi](./assignment-cost/) proje kaynaklarını verimli bir şekilde yönetebilmenizi sağlar.
+### Aspose.Tasks ile Verimli Atama Maliyet Yönetimi
+Aspose.Tasks for Java’da atama maliyetlerini etkili bir şekilde ele almanın inceliklerine dalın. Eğitimimiz [Efficient Assignment Cost Management](./assignment-cost/) proje kaynaklarını verimli bir şekilde yönetmenizi sağlar.
 
-## Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplayın
+### Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplama
+Java projelerinde kaynak atamaları için yüzde hesaplamalarını öğrenerek proje yönetimi görevlerinizi basitleştirin. Eğitimimiz [Calculate Resource Assignment Percentages](./calculate-percentages/) doğru yüzde hesaplamaları için kolay adımlar sunar.
 
- Java projelerinde kaynak atamalarına ilişkin yüzdelerin nasıl hesaplanacağını öğrenerek proje yönetimi görevlerinizi basitleştirin. Eğitimimiz[Kaynak Atama Yüzdelerini Hesaplayın](./calculate-percentages/) Doğru yüzde hesaplamaları için kolay adımlar sağlar.
+### Aspose.Tasks’te Kaynak Atamaları Oluşturma
+Aspose.Tasks for Java’da kaynak atamaları oluşturmayı adım‑adım öğrenin. Eğitimimiz [Create Resource Assignments](./create-resource-assignments/) proje kaynak yönetiminizi sorunsuz bir şekilde geliştirir.
 
-## Aspose.Tasks'ta Kaynak Atamaları Oluşturun
+### Aspose.Tasks ile Verimli Proje Varyans Yönetimi
+Aspose.Tasks for Java’da [Efficient Project Variance Handling](./deal-with-variances/) rehberiyle proje varyanslarını etkili bir şekilde yönetin. İş, maliyet, başlangıç ve bitiş varyanslarını zahmetsizce yönetin.
 
- Adım adım eğitimimizle Aspose.Tasks for Java'da zahmetsizce kaynak atamaları oluşturun[Kaynak Atamaları Oluşturun](./create-resource-assignments/). Bu kılavuzla proje kaynak yönetimi becerilerinizi geliştirin.
+### Aspose.Tasks’te Atamalar İçin Bağlantı Özelliklerini Yönetme
+Projelerde iş birliğini ve erişilebilirliği artırmak için kaynak atamaları için bağlantı (hyperlink) özelliklerini nasıl yöneteceğinizi öğrenin. Eğitimimiz [Manage Hyperlink Properties](./hyperlink-properties/) temel içgörüler sunar.
 
-## Aspose.Tasks ile Proje Farklılıklarının Etkin Yönetimi
+### Aspose.Tasks’te Dengeleme Gecikme Özelliklerini Ele Alma
+Bu kapsamlı eğitim [Handle Leveling Delay Properties](./leveling-delay-properties/) Aspose.Tasks for Java’da kaynak atamaları için dengeleme gecikme özelliklerini nasıl ele alacağınızı gösterir.
 
- Kılavuzumuzla proje farklılıklarını verimli bir şekilde ele alın[Verimli Proje Farkı Yönetimi](./deal-with-variances/) Java için Aspose.Tasks'ı kullanma. İşi, maliyeti, başlangıç ve bitiş farklılıklarını zahmetsizce yönetin.
+### Aspose.Tasks’te Fazla Mesai, Kalan Maliyet ve İş Takibi
+Java projelerinde fazla mesai, kalan maliyet ve işi etkili bir şekilde izleyin. Eğitimimiz [Monitor Overtime, Remaining Costs, and Work](./overtime-remaining-costs-work/) verimli proje yönetimi için kolay adımlar sunar.
 
-## Aspose.Tasks'ta Atamalar için Köprü Özelliklerini Yönetme
+### Aspose.Tasks’te Paylaşılan Kaynak Atamalarını Okuma
+Aspose.Tasks for Java’da paylaşılan kaynak atamalarını nasıl okuyacağınızı öğrenerek proje yönetimi verimliliğinizi artırın. Eğitimimiz [Read Shared Resource Assignments](./read-shared-resource-assignments/) adım‑adım içgörüler sağlar.
 
- Aspose.Tasks'ta kaynak atamaları için köprü özelliklerinin nasıl yönetileceğini öğrenerek proje yönetiminde işbirliğini ve erişilebilirliği geliştirin. Eğitimimiz[Köprü Özelliklerini Yönetme](./hyperlink-properties/) önemli içgörüler sağlar.
+### Aspose.Tasks’te Kaynak Atamaları İçin Oran Ölçeğini Okuma ve Yazma
+Aspose.Tasks for Java’da kaynak atamaları oran ölçeğini etkili bir şekilde yönetmek için kapsamlı eğitimimiz [Read and Write Rate Scale](./read-write-rate-scale/) size yardımcı olur.
 
-## Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme
+### Aspose.Tasks’te Kaynak Atamaları İçin Notları Yönetme
+Aspose.Tasks for Java’da kaynak atamaları için notları sorunsuz bir şekilde entegre edin. Eğitimimiz [Manage Notes for Resource Assignments](./resource-assignment-notes/) adım‑adım rehber sunar.
 
-Bu kapsamlı eğitim[Kol Tesviye Gecikmesi Özellikleri](./leveling-delay-properties/) Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikmesi özelliklerinin kullanımında size yol gösterir.
+### Aspose.Tasks’te Kaynak Atamalarını Durdurma ve Yeniden Başlatma
+Aspose.Tasks for Java’da kaynak atamalarını etkili bir şekilde yönetmeyi öğrenin. Eğitimimiz [Stop and Resume Resource Assignments](./stop-resume-assignment/) proje iş akışlarını optimize etme konusunda içgörüler sağlar.
 
-## Aspose.Tasks'ta Fazla Mesaiyi, Kalan Maliyetleri ve Çalışmayı İzleyin
+### Aspose.Tasks’te Zaman Aşamalı Veri Oluşturma
+Aspose.Tasks for Java kullanarak kaynak atamaları için zaman aşamalı veri üretmeyi öğrenin. Kapsamlı rehberimiz [Generate Timephased Data](./timephased-data-generation/) süreci adım adım anlatır.
 
- Aspose.Tasks'ı kullanarak fazla mesaiyi, kalan maliyetleri etkili bir şekilde izleyin ve Java projelerinde çalışın. Eğitimimiz[Fazla Mesai, Kalan Maliyetler ve Çalışmayı Takip Edin](./overtime-remaining-costs-work/) verimli proje yönetimi için size kolay adımlar sunar.
-
-## Aspose.Tasks'ta Paylaşılan Kaynak Atamalarını Okuyun
-
- Aspose.Tasks for Java'da paylaşılan kaynak atamalarının nasıl okunacağını öğrenerek proje yönetimi verimliliğini artırın. Eğitimimiz[Paylaşılan Kaynak Atamaları'nı Okuyun](./read-shared-resource-assignments/) adım adım içgörüler sağlar.
-
-## Aspose.Tasks'ta Kaynak Atamaları için Okuma ve Yazma Hızı Ölçeği
-
- Kapsamlı eğitimimizle Aspose.Tasks for Java'da kaynak atamaları oran ölçeğini verimli bir şekilde yönetin[Okuma ve Yazma Hızı Ölçeği](./read-write-rate-scale/). Etkili proje yönetimi için becerilerinizi geliştirin.
-
-## Aspose.Tasks'ta Kaynak Atamaları için Notları Yönetme
-
- Adım adım eğitimimizle Aspose.Tasks for Java'daki kaynak atamalarına ilişkin notları sorunsuz bir şekilde entegre edin[Kaynak Atamaları için Notları Yönetme](./resource-assignment-notes/). Proje yönetimi becerilerinizi geliştirin.
-
-## Aspose.Tasks'ta Kaynak Atamalarını Durdurun ve Sürdürün
-
- Eğitimimizle Aspose.Tasks for Java'da kaynak atamalarını etkili bir şekilde nasıl yöneteceğinizi öğrenin[Kaynak Atamalarını Durdurun ve Sürdürün](./stop-resume-assignment/). Proje iş akışlarını optimize etmeye yönelik öngörüler edinin.
-
-## Aspose.Tasks'ta Zaman Aşamalı Veri Oluşturma
-
- Aspose.Tasks for Java'yı kullanarak kaynak atamaları için zaman aşamalı verilerin nasıl oluşturulacağını öğrenerek proje yönetimi verimliliğini artırın. Kapsamlı rehberimiz[Zaman Aşamalı Veri Oluştur](./timephased-data-generation/) süreç boyunca size yol gösterir.
-
-Aspose.Tasks for Java'nın tüm potansiyelini ortaya çıkarmak ve proje yönetimi becerilerinizi geliştirmek için bu eğitimleri inceleyin. Mutlu kodlama!
+Bu eğitimleri keşfederek Aspose.Tasks for Java’un tam potansiyelini ortaya çıkarın ve proje yönetimi becerilerinizi yükseltin. İyi kodlamalar!
 
 ---
 
 ## Kaynak Atamaları Eğitimleri
-### [Aspose.Tasks for Java ile MS Proje Manipülasyonunda Uzmanlaşmak](./add-extended-attributes/)
-Aspose.Tasks for Java'yı kullanarak MS Project bilgilerini verimli bir şekilde yazmayı öğrenin. Java geliştiricileri için adım adım kılavuz.
-### [Aspose.Tasks'ta Atama Bütçe Yönetimi](./assignment-budget/)
-Microsoft Project dosya manipülasyonuna yönelik güçlü bir kütüphane olan Aspose.Tasks'ı kullanarak Java'da ödev bütçelerini nasıl verimli bir şekilde yöneteceğinizi öğrenin.
-### [Aspose.Tasks ile Etkin Atama Maliyet Yönetimi](./assignment-cost/)
-Aspose.Tasks for Java'da atama maliyetlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Proje kaynaklarını verimli bir şekilde yönetmek için adım adım kılavuz.
-### [Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplayın](./calculate-percentages/)
-Aspose.Tasks'ı kullanarak Java projelerinde kaynak atamaları için yüzdeleri verimli bir şekilde nasıl hesaplayacağınızı öğrenin ve proje yönetimi görevlerini basitleştirin.
-### [Aspose.Tasks'ta Kaynak Atamaları Oluşturun](./create-resource-assignments/)
-Bu adım adım eğitimle Aspose.Tasks for Java'da kaynak atamalarını zahmetsizce nasıl oluşturacağınızı öğrenin. Etkin proje kaynak yönetimi artık çok kolay.
-### [Aspose.Tasks ile Proje Farklılıklarının Etkin Yönetimi](./deal-with-variances/)
-Aspose.Tasks for Java ile proje farklılıklarını verimli bir şekilde nasıl ele alacağınızı öğrenin. İşi, maliyeti, başlangıç ve bitiş farklılıklarını zahmetsizce yönetin.
-### [Aspose.Tasks'ta Atamalar için Köprü Özelliklerini Yönetme](./hyperlink-properties/)
-Aspose.Tasks for Java'da kaynak atamaları için köprü özelliklerini nasıl yöneteceğinizi öğrenin. Proje yönetiminde işbirliğini ve erişilebilirliği geliştirin.
-### [Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme](./leveling-delay-properties/)
-Bu kapsamlı eğitimle Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikmesi özelliklerini nasıl kullanacağınızı öğrenin.
-### [Aspose.Tasks'ta Fazla Mesaiyi, Kalan Maliyetleri ve Çalışmayı İzleyin](./overtime-remaining-costs-work/)
-Aspose.Tasks'ı kullanarak fazla mesaiyi, kalan maliyetleri nasıl izleyeceğinizi ve Java projelerinde nasıl çalışacağınızı öğrenin. Etkili proje yönetimi için kolay adımlar.
-### [Aspose.Tasks'ta Paylaşılan Kaynak Atamalarını Okuyun](./read-shared-resource-assignments/)
-Aspose.Tasks for Java'da paylaşılan kaynak atamalarını nasıl okuyacağınızı öğrenin. Adım adım eğitimlerle proje yönetimi verimliliğini artırın.
-### [Aspose.Tasks'ta Kaynak Atamaları için Okuma ve Yazma Hızı Ölçeği](./read-write-rate-scale/)
-Bu kapsamlı eğitimle Aspose.Tasks for Java'da kaynak atamalarının oran ölçeğini etkili bir şekilde nasıl yöneteceğinizi öğrenin.
-### [Aspose.Tasks'ta Kaynak Atamaları için Notları Yönetme](./resource-assignment-notes/)
-Aspose.Tasks for Java'da kaynak atamalarına ilişkin notları nasıl yöneteceğinizi öğrenin. Kusursuz entegrasyon için adım adım eğitim.
-### [Aspose.Tasks'ta Kaynak Atamalarını Durdurun ve Sürdürün](./stop-resume-assignment/)
-Bu adım adım eğitimle Aspose.Tasks for Java'da kaynak atamalarını etkili bir şekilde nasıl yöneteceğinizi öğrenin.
-### [Aspose.Tasks'ta Zaman Aşamalı Veri Oluşturma](./timephased-data-generation/)
-Aspose.Tasks for Java'yı kullanarak kaynak atamaları için zaman aşamalı verileri nasıl oluşturacağınızı öğrenin. Bu kapsamlı kılavuzla proje yönetimi verimliliğini artırın.
+### [Aspose.Tasks for Java ile MS Project Manipülasyonunu Ustalıkla Öğrenme](./add-extended-attributes/)
+Java geliştiricileri için MS Project bilgilerini verimli bir şekilde nasıl yazacağınızı öğrenin. Adım‑adım rehber.
+### [Aspose.Tasks’te Atama Bütçe Yönetimi](./assignment-budget/)
+Aspose.Tasks kullanarak Java’da atama bütçelerini etkili bir şekilde yönetmeyi öğrenin; Microsoft Project dosyası manipülasyonu için güçlü bir kütüphane.
+### [Aspose.Tasks ile Verimli Atama Maliyet Yönetimi](./assignment-cost/)
+Aspose.Tasks for Java’da atama maliyetlerini etkili bir şekilde ele almayı öğrenin. Proje kaynaklarını verimli yönetmek için adım‑adım rehber.
+### [Aspose.Tasks ile Kaynak Atama Yüzdelerini Hesaplama](./calculate-percentages/)
+Aspose.Tasks kullanarak Java projelerinde kaynak atamaları için yüzde hesaplamalarını verimli bir şekilde yapın; proje yönetimi görevlerini basitleştirir.
+### [Aspose.Tasks’te Kaynak Atamaları Oluşturma](./create-resource-assignments/)
+Aspose.Tasks for Java’da kaynak atamaları oluşturmayı adım‑adım öğrenin. Verimli proje kaynak yönetimini kolaylaştırır.
+### [Aspose.Tasks ile Verimli Proje Varyans Yönetimi](./deal-with-variances/)
+Aspose.Tasks for Java’da proje varyanslarını etkili bir şekilde yönetmeyi öğrenin. İş, maliyet, başlangıç ve bitiş varyanslarını zahmetsizce yönetin.
+### [Aspose.Tasks’te Atamalar İçin Bağlantı Özelliklerini Yönetme](./hyperlink-properties/)
+Aspose.Tasks for Java’da kaynak atamaları için bağlantı özelliklerini yönetmeyi öğrenin. Proje yönetiminde iş birliği ve erişilebilirliği artırır.
+### [Aspose.Tasks’te Dengeleme Gecikme Özelliklerini Ele Alma](./leveling-delay-properties/)
+Aspose.Tasks for Java’da kaynak atamaları için dengeleme gecikme özelliklerini ele almayı bu kapsamlı eğitimle öğrenin.
+### [Aspose.Tasks’te Fazla Mesai, Kalan Maliyet ve İş Takibi](./overtime-remaining-costs-work/)
+Aspose.Tasks kullanarak Java projelerinde fazla mesai, kalan maliyet ve işi izlemeyi öğrenin. Etkili proje yönetimi için kolay adımlar.
+### [Aspose.Tasks’te Paylaşılan Kaynak Atamalarını Okuma](./read-shared-resource-assignments/)
+Aspose.Tasks for Java’da paylaşılan kaynak atamalarını okumayı öğrenin. Adım‑adım eğitimle proje yönetimi verimliliğini artırın.
+### [Aspose.Tasks’te Kaynak Atamaları İçin Oran Ölçeğini Okuma ve Yazma](./read-write-rate-scale/)
+Aspose.Tasks for Java’da kaynak atamaları oran ölçeğini etkili bir şekilde yönetmek için kapsamlı eğitim.
+### [Aspose.Tasks’te Kaynak Atamaları İçin Notları Yönetme](./resource-assignment-notes/)
+Aspose.Tasks for Java’da kaynak atamaları için notları yönetmeyi sorunsuz bir şekilde entegre edin. Adım‑adım rehber.
+### [Aspose.Tasks’te Kaynak Atamalarını Durdurma ve Yeniden Başlatma](./stop-resume-assignment/)
+Aspose.Tasks for Java’da kaynak atamalarını etkili bir şekilde yönetmeyi öğrenin. Adım‑adım eğitim.
+### [Aspose.Tasks’te Zaman Aşamalı Veri Oluşturma](./timephased-data-generation/)
+Aspose.Tasks for Java kullanarak kaynak atamaları için zaman aşamalı veri üretmeyi öğrenin. Bu kapsamlı rehberle proje yönetimi verimliliğini artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Tasks’i mevcut bir MS Project dosyasındaki bütçeleri güncellemek için kullanabilir miyim?**  
+C: Evet, API herhangi bir atamanın Budget alanını açmanıza, değiştirmenize ve MS Project yüklü olmadan değişiklikleri kaydetmenize olanak tanır.
+
+**S: Yönetebileceğim atama sayısında bir sınırlama var mı?**  
+C: Aspose.Tasks binlerce atamayı verimli bir şekilde işleyebilir; performans esas olarak mevcut bellek miktarına bağlıdır.
+
+**S: Para birimi dönüşümünü manuel olarak yapmam gerekiyor mu?**  
+C: Kütüphane sayısal bütçe değeriyle çalışır; para birimi dönüşümünü kendi kodunuzda uygulamanız gerekir.
+
+**S: Belirli bir kaynak atamasının bütçesini nasıl okurum?**  
+C: Projeyi yükleyin, atamayı ID veya Resource UID ile bulun, ardından `assignment.getBudget()` (Java metodu) kullanarak değeri alın.
+
+**S: Bütçe yönetimi için hangi Aspose.Tasks sürümü gerekli?**  
+C: Son sürümler (2023‑2025) bütçe özelliklerini destekler; en iyi uyumluluk için en son kararlı sürümü kullanmanızı öneririz.
+
+---
+
+**Son Güncelleme:** 2026-01-05  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11  
+**Yazar:** Aspose
