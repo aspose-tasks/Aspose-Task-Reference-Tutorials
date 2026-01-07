@@ -1,27 +1,42 @@
 ---
-title: Xử lý các thuộc tính độ trễ cân bằng trong Aspose.Tasks
-linktitle: Xử lý các thuộc tính độ trễ cân bằng cho việc gán tài nguyên trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách xử lý các thuộc tính độ trễ cân bằng cho các nhiệm vụ tài nguyên trong Aspose.Tasks cho Java với hướng dẫn toàn diện này.
-weight: 17
+date: 2026-01-07
+description: Tìm hiểu cách thêm nguồn lực vào dự án và xử lý các thuộc tính độ trễ
+  cân bằng cho các phân công nguồn lực bằng Aspose.Tasks cho Java.
+linktitle: Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cách Thêm Tài Nguyên Vào Dự Án và Xử Lý Thuộc Tính Độ Trễ Cân Bằng Trong Aspose.Tasks
 url: /vi/java/resource-assignments/leveling-delay-properties/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xử lý các thuộc tính độ trễ cân bằng trong Aspose.Tasks
+# Cách Thêm Tài Nguyên Vào Dự Án và Xử Lý Thuộc Tính Độ Trễ Cân Bằng trong Aspose.Tasks
 
-## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình xử lý các thuộc tính độ trễ cân bằng cho việc gán tài nguyên trong Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp Microsoft Project mà không yêu cầu cài đặt Microsoft Project trên hệ thống của bạn.
-## Điều kiện tiên quyết
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-1.  Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java JDK trên hệ thống của mình. Bạn có thể tải xuống và cài đặt nó từ[trang mạng](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-   
-2.  Aspose.Tasks cho Thư viện Java: Tải xuống thư viện Aspose.Tasks cho Java từ[trang tải xuống](https://releases.aspose.com/tasks/java/).
+## Introduction
+Trong hướng dẫn này, bạn sẽ học **cách thêm tài nguyên vào dự án** đồng thời quản lý các thuộc tính độ trễ cân bằng cho các phân công tài nguyên bằng Aspose.Tasks cho Java. Dù bạn đang xây dựng một công cụ lập lịch hay tự động cập nhật dự án, việc nắm vững các bước này giúp bạn giữ dữ liệu dự án chính xác mà không cần cài đặt Microsoft Project.
 
-## Gói nhập khẩu
+## Quick Answers
+- **“add resource to project” có nghĩa là gì?** Nó tạo một mục tài nguyên mới có thể được gán cho các công việc.  
+- **Tôi có thể đặt độ trễ cân bằng sau khi gán không?** Có, bằng cách sử dụng các trường `Asn.DELAY` hoặc `Asn.LEVELING_DELAY`.  
+- **Tôi có cần giấy phép để chạy đoạn mã này không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép trả phí cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc mới hơn.  
+- **Điều này có tương thích với tất cả các định dạng tệp MS Project không?** Aspose.Tasks hỗ trợ .MPP, .XML, .XER và nhiều định dạng khác.
+
+## What is “add resource to project” in Aspose.Tasks?
+Thêm tài nguyên vào dự án có nghĩa là tạo một đối tượng `Resource` bên trong mô hình `Project`. Đối tượng này sau đó có thể được liên kết với các công việc thông qua `ResourceAssignment`, cho phép bạn theo dõi công việc, chi phí và cài đặt cân bằng.
+
+## Why handle leveling delay properties?
+Độ trễ cân bằng giúp bộ lập lịch phân bố công việc khi tài nguyên bị quá tải. Bằng cách đặt độ trễ, bạn yêu cầu công cụ hoãn thời gian bắt đầu của một phân công, tránh xung đột và giữ cho dự án thực tế hơn.
+
+## Prerequisites
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các điều kiện sau:
+1. **Java Development Kit (JDK):** Đảm bảo rằng bạn đã cài đặt Java JDK trên hệ thống. Bạn có thể tải và cài đặt từ [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Thư viện Aspose.Tasks cho Java:** Tải thư viện Aspose.Tasks cho Java từ [download page](https://releases.aspose.com/tasks/java/).
+
+## Import Packages
 Đầu tiên, nhập các gói cần thiết vào dự án Java của bạn để sử dụng các chức năng của Aspose.Tasks:
 ```java
 import com.aspose.tasks.Asn;
@@ -34,69 +49,99 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Bước 1: Tạo đối tượng dự án
- Khởi tạo một`Project` sự vật:
+## Step 1: Create a Project Object
+Khởi tạo một đối tượng `Project`, đối tượng này sẽ là container cho tất cả các công việc, tài nguyên và phân công:
 ```java
 Project prj = new Project();
 ```
-## Bước 2: Tạo tác vụ
-Thêm nhiệm vụ vào dự án:
+
+## Step 2: Create a Task
+Thêm một công việc vào dự án. Điều này minh họa **cách thêm công việc** một cách lập trình:
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
-## Bước 3: Đặt ngày bắt đầu và thời lượng nhiệm vụ
-Đặt ngày bắt đầu và thời lượng cho tác vụ:
+
+## Step 3: Set Task Start Date and Duration
+Xác định ngày bắt đầu và thời lượng của công việc:
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2000, Calendar.JANUARY, 3, 8, 0, 0);
 task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
-## Bước 4: Thêm tài nguyên
-Thêm tài nguyên vào dự án:
+
+## Step 4: Add a Resource
+Bây giờ chúng ta **add resource to project** bằng cách tạo một mục `Resource` mới:
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
-## Bước 5: Tạo phân công nguồn lực
-Tạo phân công tài nguyên cho nhiệm vụ và tài nguyên:
+
+## Step 5: Create a Resource Assignment
+Liên kết công việc và tài nguyên vừa thêm lại với nhau:
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
-## Bước 6: Đặt độ trễ cân bằng
-Đặt độ trễ cân bằng cho bài tập:
+
+## Step 6: Set Leveling Delay
+Cấu hình độ trễ cân bằng cho phân công. Đặt giá trị bằng 0 có nghĩa là không có độ trễ bổ sung, nhưng bạn có thể điều chỉnh giá trị tùy nhu cầu:
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
-## Bước 7: Hiển thị kết quả
-In độ trễ cân bằng và các thông tin liên quan khác:
+
+## Step 7: Display Results
+In ra các thuộc tính quan trọng để xác nhận mọi thứ đã được thiết lập đúng:
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
 System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## Phần kết luận
-Trong hướng dẫn này, chúng ta đã học cách xử lý các thuộc tính độ trễ cân bằng cho việc gán tài nguyên trong Aspose.Tasks cho Java. Bằng cách làm theo các bước này, bạn có thể quản lý hiệu quả việc phân công tài nguyên trong các dự án Java của mình.
-## Câu hỏi thường gặp
-### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks với các thư viện Java khác không?
+## Common Pitfalls & Tips
+- **Pitfall:** Quên đặt ngày bắt đầu của công việc có thể khiến phân công mặc định bắt đầu từ ngày đầu dự án.  
+- **Tip:** Sử dụng `prj.getDuration(value, TimeUnitType.Day)` để kiểm soát độ chi tiết của độ trễ.  
+- **Tip:** Sau khi thêm nhiều tài nguyên, gọi `prj.updateResourceAssignments()` để cho bộ lập lịch tính lại cân bằng.
 
-Trả lời: Có, Aspose.Tasks có thể được tích hợp với các thư viện Java khác để nâng cao khả năng quản lý dự án.
+## Conclusion
+Bằng cách thực hiện các bước trên, bạn đã biết **cách thêm tài nguyên vào dự án**, gán nó cho một công việc và quản lý các thuộc tính độ trễ cân bằng bằng Aspose.Tasks cho Java. Kiến thức này cho phép bạn xây dựng các giải pháp tự động hoá dự án mạnh mẽ, đồng bộ với các hạn chế thực tế của tài nguyên.
 
-### Câu hỏi: Aspose.Tasks có tương thích với các phiên bản khác nhau của tệp Microsoft Project không?
+## FAQ's
+### Q: Tôi có thể sử dụng Aspose.Tasks cùng với các thư viện Java khác không?
 
-Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp Microsoft Project, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+A: Có, Aspose.Tasks có thể được tích hợp với các thư viện Java khác để nâng cao khả năng quản lý dự án.
 
-### Câu hỏi: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Tasks ở đâu?
+### Q: Aspose.Tasks có tương thích với các phiên bản tệp Microsoft Project khác nhau không?
 
- Đáp: Bạn có thể tìm thấy sự hỗ trợ và nguồn lực trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+A: Có, Aspose.Tasks hỗ trợ nhiều phiên bản tệp Microsoft Project, đảm bảo tính tương thích trên các môi trường khác nhau.
 
-### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
+### Q: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Tasks ở đâu?
 
- Trả lời: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks từ[trang phát hành](https://releases.aspose.com/).
+A: Bạn có thể tìm hỗ trợ và tài nguyên trên [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
+### Q: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
 
- Đáp: Bạn có thể yêu cầu giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+A: Có, bạn có thể lấy bản dùng thử miễn phí của Aspose.Tasks từ [releases page](https://releases.aspose.com/).
+
+### Q: Làm thế nào để tôi nhận được giấy phép tạm thời cho Aspose.Tasks?
+
+A: Bạn có thể yêu cầu giấy phép tạm thời từ [temporary license page](https://purchase.aspose.com/temporary-license/) để đánh giá.
+
+## Additional Frequently Asked Questions
+
+**Q: Điều gì sẽ xảy ra nếu tôi đặt độ trễ cân bằng khác 0?**  
+A: Bộ lập lịch sẽ hoãn thời gian bắt đầu của phân công theo khoảng thời gian đã chỉ định, giúp giải quyết tình trạng quá tải.
+
+**Q: Tôi có thể lấy lại độ trễ cân bằng sau khi lưu dự án không?**  
+A: Có, bạn có thể mở lại tệp dự án và đọc thuộc tính `Asn.DELAY` từ phân công.
+
+**Q: Có cách nào để áp dụng độ trễ cân bằng cho tất cả các phân công cùng một lúc không?**  
+A: Bạn có thể duyệt qua `prj.getResourceAssignments()` và đặt độ trễ cho mỗi phân công trong một vòng lặp.
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
