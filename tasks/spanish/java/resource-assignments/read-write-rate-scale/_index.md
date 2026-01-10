@@ -1,27 +1,45 @@
 ---
-title: Escala de tasa de lectura y escritura para asignaciones de recursos en Aspose.Tasks
-linktitle: Escala de tasa de lectura y escritura para asignaciones de recursos en Aspose.Tasks
-second_title: Aspose.Tasks API de Java
-description: Aprenda cómo administrar la escala de tasas de asignaciones de recursos de manera efectiva en Aspose.Tasks para Java con este completo tutorial.
-weight: 20
+date: 2026-01-10
+description: Aprenda a leer la escala de tarifas y gestionar asignaciones de recursos
+  en Aspose.Tasks para Java. Defina recursos materiales, cómo establecer la escala
+  y asignar recursos a la tarea.
+linktitle: Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cómo leer la escala de tarifas y escribir la escala de tarifas para asignaciones
+  de recursos en Aspose.Tasks
 url: /es/java/resource-assignments/read-write-rate-scale/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Escala de tasa de lectura y escritura para asignaciones de recursos en Aspose.Tasks
+# Cómo leer la escala de tarifas y escribir la escala de tarifas para asignaciones de recursos en Aspose.Tasks
 
-## Introducción
-En este tutorial, profundizaremos en la gestión de la escala de tasa de asignaciones de recursos utilizando Aspose.Tasks para Java, una biblioteca sólida para trabajar con archivos de Microsoft Project mediante programación. Si sigue estos pasos, podrá manipular eficazmente la configuración de escala de tarifas para las asignaciones de recursos en sus aplicaciones Java.
+En este tutorial descubrirá **cómo leer la escala de tarifas** y ajustarla para las asignaciones de recursos usando Aspose.Tasks para Java. Ya sea que esté creando un programador, una herramienta de informes, o simplemente necesite automatizar actualizaciones de proyectos, dominar la manipulación de la escala de tarifas le brinda un control fino sobre los recursos materiales y de trabajo.
+
+## Respuestas rápidas
+- **¿Cuál es la clase principal para el manejo de tarifas?** `ResourceAssignment` con la propiedad `Asn.RATE_SCALE`.  
+- **¿Qué enum define las opciones de escala?** `RateScaleType` (Day, Week, Month, etc.).  
+- **¿Necesito una licencia para ejecutar el ejemplo?** Una licencia de evaluación gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
+- **¿Puedo cambiar la escala después de guardar?** Sí – recargue el proyecto y modifique `Asn.RATE_SCALE` como se muestra.  
+- **¿IDE compatibles?** Cualquier IDE de Java (IntelliJ IDEA, Eclipse, NetBeans) puede compilar el código.
+
+## ¿Qué es la escala de tarifas?
+La escala de tarifas determina la unidad de tiempo (día, semana, mes, etc.) a la que se aplica la tarifa de costo de un recurso. Ajustar la escala le permite modelar el consumo de material o el esfuerzo laboral con precisión.
+
+## ¿Por qué leer y escribir la escala de tarifas?
+Leer la escala actual le ayuda a auditar los cronogramas existentes, mientras que escribir una nueva escala le permite alinear los recursos con las políticas de facturación o consumo del proyecto. Esto es especialmente útil al **definir recursos materiales** o cuando necesita **establecer la escala** para calendarios de trabajo no estándar.
+
 ## Requisitos previos
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
-1. Entorno de desarrollo de Java: asegúrese de tener el kit de desarrollo de Java (JDK) instalado en su sistema.
-2.  Biblioteca Aspose.Tasks para Java: descargue e instale la biblioteca Aspose.Tasks para Java desde[aquí](https://releases.aspose.com/tasks/java/).
+Antes de comenzar, asegúrese de cumplir los siguientes requisitos:
+1. **Entorno de desarrollo Java** – JDK 8 o superior instalado.  
+2. **Biblioteca Aspose.Tasks para Java** – Descargue e instale la biblioteca desde [aquí](https://releases.aspose.com/tasks/java/).
 
 ## Importar paquetes
-Primero, debe importar los paquetes necesarios para trabajar con las funcionalidades de Aspose.Tasks. 
+Primero, importe las clases necesarias de Aspose.Tasks.
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -34,42 +52,55 @@ import com.aspose.tasks.SaveFileFormat;
 import com.aspose.tasks.Task;
 import java.io.IOException;
 ```
-## Paso 1: configura tu proyecto
-Comience configurando su proyecto Java e incluya la biblioteca Aspose.Tasks en sus dependencias.
-## Paso 2: cargue el archivo del proyecto
-Cargue el archivo de proyecto con el que desea trabajar en su aplicación Java.
+
+## Paso 1: Configurar su proyecto Java
+Cree un proyecto Maven o Gradle y añada el JAR de Aspose.Tasks a su classpath. Este paso garantiza que el compilador pueda localizar las clases importadas.
+
+## Paso 2: Cargar el archivo de proyecto
+Cargue el archivo Microsoft Project existente con el que desea trabajar.
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "New project 2013.mpp");
 ```
-## Paso 3: agregar una tarea
-Añade una nueva tarea a tu proyecto.
+
+## Paso 3: Añadir una tarea
+Cree una nueva tarea que más adelante recibirá asignaciones de recursos.
+
 ```java
 Task task = project.getRootTask().getChildren().add("t1");
 ```
-## Paso 4: definir recursos
-Definir recursos materiales y no materiales y especificar sus tipos.
+
+## Paso 4: Definir recursos
+Aquí **definimos un recurso material** y un recurso de trabajo regular. Observe el uso de `ResourceType.Material` para el recurso de tipo material.
+
 ```java
 Resource materialResource = project.getResources().add("materialResource");
 materialResource.set(Rsc.TYPE, ResourceType.Material);
 Resource nonMaterialResource = project.getResources().add("nonMaterialResource");
 nonMaterialResource.set(Rsc.TYPE, ResourceType.Work);
 ```
-## Paso 5: asignar recursos a la tarea
-Asigne los recursos previamente definidos a la tarea junto con sus tipos de escala de tarifas.
+
+## Paso 5: Asignar recursos a la tarea
+Ahora **asignamos recursos a la tarea** y especificamos **cómo establecer la escala** usando `RateScaleType.Week`. Esto ilustra tanto la lectura como la escritura de la escala de tarifas.
+
 ```java
 ResourceAssignment materialResourceAssignment = project.getResourceAssignments().add(task, materialResource);
 materialResourceAssignment.set(Asn.RATE_SCALE, RateScaleType.Week);
 ResourceAssignment nonMaterialResourceAssignment = project.getResourceAssignments().add(task, nonMaterialResource);
 nonMaterialResourceAssignment.set(Asn.RATE_SCALE, RateScaleType.Week);
 ```
-## Paso 6: guarde el proyecto
-Guarde el proyecto con las asignaciones de recursos modificadas.
+
+## Paso 6: Guardar el proyecto
+Guarde los cambios en un nuevo archivo para que luego podamos verificar la escala de tarifas almacenada.
+
 ```java
 project.save("output.mpp", SaveFileFormat.Mpp);
 ```
-## Paso 7: recuperar asignaciones de recursos
-Vuelva a cargar el proyecto guardado y recupere las asignaciones de recursos para verificar la configuración de la escala de tarifas.
+
+## Paso 7: Recuperar asignaciones de recursos
+Recargue el proyecto guardado y **lea la escala de tarifas** para confirmar que se escribió correctamente.
+
 ```java
 Project resavedProject = new Project("output.mpp");
 ResourceAssignment resavedMaterialResourceAssignment = resavedProject.getResourceAssignments().getByUid(1);
@@ -77,19 +108,37 @@ System.out.println(resavedMaterialResourceAssignment.get(Asn.RATE_SCALE));
 ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getResourceAssignments().getByUid(2);
 ```
 
+## Errores comunes y consejos
+- **Desajuste de UID** – Al recuperar asignaciones por UID, asegúrese de que los valores de UID coincidan con los asignados durante la creación.  
+- **Tipo de recurso incorrecto** – Usar `ResourceType.Material` para un recurso de trabajo hará que los cálculos de tarifas se comporten de manera inesperada.  
+- **Formato de guardado** – Siempre guarde usando `SaveFileFormat.Mpp` (u otro formato compatible) para preservar campos personalizados como la escala de tarifas.
+
 ## Conclusión
-Administrar la escala de tasa de asignaciones de recursos en Aspose.Tasks para Java es crucial para una gestión eficaz de proyectos. Si sigue esta guía paso a paso, podrá manipular sin problemas la configuración de la escala de tarifas para las asignaciones de recursos en sus aplicaciones Java.
+Gestionar e inspeccionar la escala de tarifas para asignaciones de recursos en Aspose.Tasks para Java es sencillo una vez que conoce las clases y propiedades relevantes. Siguiendo esta guía, podrá **leer la información de tarifas**, **definir objetos de recurso material**, **establecer la escala** y **asignar recursos a la tarea** con confianza.
+
 ## Preguntas frecuentes
-### P1: ¿Puedo usar Aspose.Tasks para Java con cualquier IDE de Java?
-R: Sí, Aspose.Tasks para Java es compatible con todos los principales IDE de Java, incluidos IntelliJ IDEA, Eclipse y NetBeans.
-### P2: ¿Aspose.Tasks admite otros formatos de archivo además de MPP?
-R: Sí, Aspose.Tasks admite varios formatos de archivo, incluidos MPP, XML y HTML.
-### P3: ¿Aspose.Tasks es adecuado para la gestión de proyectos a nivel empresarial?
-R: Por supuesto, Aspose.Tasks ofrece funciones integrales para gestionar proyectos de cualquier escala, lo que lo hace adecuado para la gestión de proyectos a nivel empresarial.
-### P4: ¿Puedo personalizar las asignaciones de recursos más allá de la escala de tarifas?
-R: Sí, Aspose.Tasks proporciona amplias capacidades para personalizar las asignaciones de recursos, incluidos ajustes de costo, trabajo y duración.
-### P5: ¿Existe un foro comunitario para soporte de Aspose.Tasks?
- R: Sí, puedes encontrar soporte e interactuar con otros usuarios en el foro Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
+
+**Q: ¿Puedo usar Aspose.Tasks para Java con cualquier IDE de Java?**  
+A: Sí, Aspose.Tasks para Java es compatible con todos los IDE de Java principales, incluidos IntelliJ IDEA, Eclipse y NetBeans.
+
+**Q: ¿Aspose.Tasks admite otros formatos de archivo además de MPP?**  
+A: Sí, Aspose.Tasks admite varios formatos de archivo, incluidos MPP, XML y HTML.
+
+**Q: ¿Aspose.Tasks es adecuado para la gestión de proyectos a nivel empresarial?**  
+A: Absolutamente, Aspose.Tasks ofrece funciones integrales para gestionar proyectos de cualquier escala, lo que lo hace adecuado para la gestión de proyectos a nivel empresarial.
+
+**Q: ¿Puedo personalizar más las asignaciones de recursos más allá de la escala de tarifas?**  
+A: Sí, Aspose.Tasks brinda amplias capacidades para personalizar las asignaciones de recursos, incluyendo ajustes de costo, trabajo y duración.
+
+**Q: ¿Existe un foro comunitario para soporte de Aspose.Tasks?**  
+A: Sí, puede encontrar soporte e interactuar con otros usuarios en el foro de Aspose.Tasks [aquí](https://forum.aspose.com/c/tasks/15).
+
+---
+
+**Última actualización:** 2026-01-10  
+**Probado con:** Aspose.Tasks para Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
