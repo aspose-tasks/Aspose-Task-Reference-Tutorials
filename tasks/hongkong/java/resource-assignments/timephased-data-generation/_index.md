@@ -1,26 +1,43 @@
 ---
-title: 在 Aspose.Tasks 中產生時間分段數據
-linktitle: 在 Aspose.Tasks 中產生資源分配的時間分段數據
+date: 2026-01-10
+description: 學習如何使用 Aspose.Tasks for Java 變更資源指派的輪廓並產生時間相位資料，以提升專案管理效率。
+linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 產生資源分配的時間分段資料。透過這份綜合指南提升專案管理效率。
-weight: 24
+title: 如何在 Aspose.Tasks 中更改時間相位資料的輪廓
 url: /zh-hant/java/resource-assignments/timephased-data-generation/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中產生時間分段數據
+# 如何在 Aspose.Tasks 中變更輪廓以產生時間相位資料
 
-## 介紹
-在本教程中，我們將逐步介紹使用 Aspose.Tasks for Java 產生資源分配的時間分段資料的過程。時間分段資料提供了有關專案內資源如何隨時間分配的寶貴見解，幫助專案經理做出明智的決策。
+## 簡介
+在本教學中，您將學習 **如何變更輪廓** 以針對資源指派產生時間相位資料，並使用 Aspose.Tasks for Java。時間相位資料揭示了工作在專案時間線上的分佈，讓您能微調排程、平衡工作負載，並作出以資料為依據的決策。
+
+## 快速答覆
+- **什麼是輪廓？** 工作輪廓定義了工作在任務持續期間的分佈方式（例如，Flat、Turtle、Bell）。  
+- **為什麼要變更輪廓？** 以反映實際的工作模式，例如前置或後置工作量。  
+- **需要哪個程式庫？** Aspose.Tasks for Java（任何近期版本）。  
+- **是否需要授權？** 是的，正式使用時需要有效的 Aspose.Tasks 授權。  
+- **可以在主控台看到結果嗎？** 範例會列印每個時間相位段的開始日期與數值。
+
+## 什麼是「變更輪廓」？
+變更輪廓即是更新 `ResourceAssignment` 的 `WORK_CONTOUR` 屬性。Aspose.Tasks 支援多種預定義輪廓（Flat、Turtle、Bell 等），這些輪廓會影響工作隨時間的分配方式。
+
+## 為什麼使用 Aspose.Tasks 產生時間相位資料？
+- **精確報表：** 匯出精確的工作分佈供報表工具使用。  
+- **情境規劃：** 在不改變原始排程的情況下測試不同輪廓。  
+- **自動化：** 整合至 CI 流程，自動驗證專案健康狀況。
+
 ## 先決條件
-在我們開始之前，請確保您具備以下先決條件：
-1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。您可以從以下位置下載並安裝 JDK[這裡](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Tasks for Java 函式庫：您需要有 Aspose.Tasks for Java 函式庫。您可以從[網站](https://releases.aspose.com/tasks/java/).
+在開始之前，請確保您具備以下條件：
+1. **Java Development Kit (JDK)：** 確認系統已安裝 JDK。您可以從 [此處](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載並安裝。  
+2. **Aspose.Tasks for Java 程式庫：** 必須擁有 Aspose.Tasks for Java 程式庫。您可以從 [官方網站](https://releases.aspose.com/tasks/java/) 下載。
 
-## 導入包
+## 匯入套件
 首先，讓我們匯入使用 Aspose.Tasks 所需的套件：
 ```java
 import com.aspose.tasks.Asn;
@@ -31,85 +48,95 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimephasedData;
 import com.aspose.tasks.WorkContourType;
 ```
-## 步驟1：讀取來源MPP文件
+
+## 步驟 1：讀取來源 MPP 檔案
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//讀取來源MPP文件
+// Read the source MPP file
 Project project = new Project(dataDir + "project.mpp");
 ```
-## 第 2 步：獲取任務和資源分配
+
+## 步驟 2：取得任務與資源指派
 ```java
-//取得專案的第一個任務
+// Get the first task of the Project
 Task task = project.getRootTask().getChildren().getById(1);
-//取得專案的第一個資源分配
+// Get the first resource assignment of the project
 ResourceAssignment firstRA = project.getResourceAssignments().toList().get(0);
 ```
-## 步驟 3：產生具有平坦輪廓的時間分段數據
+
+## 如何變更輪廓 – Flat（預設）
 ```java
-//平坦輪廓是預設輪廓
+// Flat contour is the default contour
 System.out.println("Flat contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 步驟 4：將輪廓更改為海龜
+
+## 如何變更輪廓 – Turtle
 ```java
-//將輪廓更改為海龜
+// Change contour to Turtle
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Turtle);
 System.out.println("Turtle contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 第 5 步：將輪廓更改為 BackLoaded
+
+## 如何變更輪廓 – BackLoaded
 ```java
-//將輪廓更改為 BackLoaded
+// Change contour to BackLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 System.out.println("BackLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 第 6 步：將輪廓更改為 FrontLoaded
+
+## 如何變更輪廓 – FrontLoaded
 ```java
-//將輪廓變更為 FrontLoaded
+// Change contour to FrontLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FrontLoaded);
 System.out.println("FrontLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 步驟7：將輪廓更改為鐘形
+
+## 如何變更輪廓 – Bell
 ```java
-//將輪廓更改為 Bell
+// Change contour to Bell
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Bell);
 System.out.println("Bell contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 第 8 步：將等值線改為 EarlyPeak
+
+## 如何變更輪廓 – EarlyPeak
 ```java
-//將輪廓更改為 EarlyPeak
+// Change contour to EarlyPeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EarlyPeak);
 System.out.println("EarlyPeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 第 9 步：將輪廓更改為 LatePeak
+
+## 如何變更輪廓 – LatePeak
 ```java
-//將輪廓更改為 LatePeak
+// Change contour to LatePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LatePeak);
 System.out.println("LatePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## 步驟 10：將等值線改為 DoublePeak
+
+## 如何變更輪廓 – DoublePeak
 ```java
-//將輪廓更改為 DoublePeak
+// Change contour to DoublePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DoublePeak);
 System.out.println("DoublePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
@@ -117,19 +144,33 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## 結論
-在本教程中，我們介紹如何使用 Aspose.Tasks for Java 產生資源分配的時間分段資料。了解不同的工作輪廓可以幫助專案經理有效管理專案中的資源分配和調度。
-## 常見問題解答
-### 我可以將 Aspose.Tasks 與其他 Java 函式庫一起使用嗎？
-是的，Aspose.Tasks 可以與其他 Java 程式庫整合以增強專案管理功能。
-### Aspose.Tasks適合大型企業專案嗎？
-當然，Aspose.Tasks 旨在處理各種規模的項目，包括大型企業項目。
-### Aspose.Tasks 是否提供不同專案文件格式的支援？
-是的，Aspose.Tasks 支援各種專案檔案格式，包括 MPP、XML 和 MPX。
-### 我可以根據我的專案要求客製化工作輪廓嗎？
-是的，Aspose.Tasks 允許使用者定義自訂工作輪廓以滿足其特定的專案需求。
-### 是否有社群論壇可以讓我獲得有關 Aspose.Tasks 的幫助？
-是的，您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以尋求支持和討論。
+## 常見問題與技巧
+- **輪廓未更新？** 確保在取得時間相位資料之前 *先* 呼叫 `firstRA.set(Asn.WORK_CONTOUR, …)`。  
+- **數值異常？** 檢查來源 MPP 中任務的開始與結束日期是否正確設定。  
+- **效能技巧：** 在遍歷多個輪廓時，重複使用同一個 `Project` 實例，以避免不必要的檔案 I/O。
+
+## 常見問答
+### 我可以將 Aspose.Tasks 與其他 Java 程式庫一起使用嗎？
+可以，Aspose.Tasks 能與其他 Java 程式庫整合，以增強專案管理功能。
+
+### Aspose.Tasks 適合大型企業專案嗎？
+絕對適合，Aspose.Tasks 設計能處理各種規模的專案，包含大型企業級專案。
+
+### Aspose.Tasks 是否支援不同的專案檔案格式？
+是的，Aspose.Tasks 支援多種格式，例如 MPP、XML 與 MPX。
+
+### 我可以根據專案需求自訂工作輪廓嗎？
+可以，您可以自行定義工作輪廓，以符合特定排程需求。
+
+### 有沒有社群論壇可以取得 Aspose.Tasks 的協助？
+有，您可以前往 [Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15) 取得支援與討論。
+
+---
+
+**最後更新：** 2026-01-10  
+**測試環境：** Aspose.Tasks for Java（最新發行版）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
