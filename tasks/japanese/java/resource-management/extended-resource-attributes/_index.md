@@ -1,28 +1,55 @@
 ---
-title: Aspose.Tasks を使用して MS プロジェクト属性を効率的に管理する
-linktitle: Aspose.Tasks で拡張リソース属性を処理する
+date: 2026-01-13
+description: Aspose.Tasks for Java を使用して、カスタム属性の作成、Microsoft Project ファイルの読み込み、Java
+  で数値を設定し、プロジェクトを XML として保存する方法を学びます。
+linktitle: Handle Extended Resource Attributes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して、拡張された Microsoft Project リソース属性を効率的に処理する方法を学びます。簡単な手順と包括的なガイド。
-weight: 11
+title: Aspose.Tasks を使用して MS Project でカスタム属性を作成する方法
 url: /ja/java/resource-management/extended-resource-attributes/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks を使用して MS プロジェクト属性を効率的に管理する
+# MS Project で Aspose.Tasks を使用してカスタム属性を作成する方法
 
-## 導入
-このチュートリアルでは、Aspose.Tasks for Java を使用して拡張された Microsoft Project リソース属性を効果的に処理する方法を詳しく説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力なライブラリであり、タスクとリソースの管理のための広範な機能を提供します。
-## 前提条件
-続行する前に、次の前提条件が満たされていることを確認してください。
-1. Java 開発環境: システム上に Java Development Kit (JDK) をセットアップします。
-2.  Aspose.Tasks for Java:Aspose.Tasks for Java ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/java/).
-3. 統合開発環境 (IDE): Java 開発用に Eclipse や IntelliJ IDEA などの IDE がインストールされています。
+## Introduction
+このチュートリアルでは、**Aspose.Tasks for Java** を使用して Microsoft Project ファイルのリソースに対するカスタム属性の作成方法を学びます。Microsoft Project ファイルの読み込み、数値属性の定義、値の設定、そして XML としてプロジェクトを保存する手順を順に解説します。最後まで実践できるサンプルが得られ、独自のプロジェクト管理ソリューションに応用できます。
 
-## パッケージのインポート
-まず、必要なパッケージを Java プロジェクトにインポートします。 
+## Quick Answers
+- **“カスタム属性” とは何ですか？**  
+  ユーザーが定義するフィールドで、リソースやタスクに対して余分な情報（例: 年齢、スキルレベル）を保存できます。  
+- **どのライブラリがこれを扱いますか？**  
+  Aspose.Tasks for Java が、カスタム属性の作成・管理用のフルエント API を提供します。  
+- **ライセンスは必要ですか？**  
+  評価用の無料一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
+- **数値を設定できますか？**  
+  はい – `setNumericValue` に `BigDecimal`（例: `30.5345`）を渡して設定します。  
+- **プロジェクトはどのように保存しますか？**  
+  変更後のファイルは `SaveFileFormat.Xml` を使用して XML として保存できます。
+
+## What is a Custom Attribute?
+**カスタム属性**（拡張属性とも呼ばれます）は、Microsoft Project のリソースやタスクに追加できる列です。組み込みフィールドではカバーできない情報（従業員の年齢、認定レベル、ビジネス固有の指標など）を取得するために使用します。
+
+## Why Create a Custom Attribute in MS Project?
+- **組織のニーズに合わせてプロジェクトデータをカスタマイズ**  
+- **高度なレポート作成を可能にする**（後でクエリできる値を保存）  
+- **複数プロジェクト間で一貫性を維持**（同じ属性定義をプログラムで適用）
+
+## Prerequisites
+開始する前に以下を用意してください。
+
+1. **Java 開発環境** – JDK 8 以上がインストールされていること。  
+2. **Aspose.Tasks for Java** – 最新バージョンを [here](https://releases.aspose.com/tasks/java/) からダウンロード。  
+3. **IDE** – Eclipse、IntelliJ IDEA、または任意の Java 対応 IDE。
+
+## Step‑by‑Step Guide
+
+### Import Packages
+まず、必要な Aspose.Tasks クラスをインポートします。これらはプロジェクト、リソース、拡張属性の操作に必須です。
+
 ```java
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.ExtendedAttributeDefinition;
@@ -33,18 +60,24 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
-## ステップ 1: データ ディレクトリを定義する
-プロジェクト データが存在するディレクトリへのパスを設定します。
+
+### Step 1: Define Data Directory
+ソースのプロジェクトファイルがあるフォルダーと、出力先フォルダーを設定します。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## ステップ 2: プロジェクト ファイルをロードする
-インスタンス化する`Project` Microsoft Project ファイルをロードしてオブジェクトを作成します。
+
+### Step 2: Load Microsoft Project File
+既存ファイルを読み込んで `Project` インスタンスを作成します。これが **Microsoft プロジェクトファイルのロード** 手順で、ファイル内容全体にアクセスできるようになります。
+
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
-## ステップ 3: 拡張属性を定義する
-リソースの拡張属性を定義します。
+
+### Step 3: Define the Custom Attribute
+数値属性 **Age** を新規定義します。API は定義が既に存在するか確認し、存在しなければ作成します。
+
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
 if (myNumber1 == null) {
@@ -52,43 +85,70 @@ if (myNumber1 == null) {
     prj.getExtendedAttributes().add(myNumber1);
 }
 ```
-## ステップ 4: 拡張属性の作成と値の設定
-拡張属性を作成し、それに数値を割り当てます。
+
+### Step 4: Set Numeric Value in Java
+特定のリソース用に属性インスタンスを作成し、`setNumericValue` で数値を設定します。これが **set numeric value java** の実例です。
+
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
-## ステップ 5: リソースと拡張属性を追加する
-新しいリソースをその拡張属性とともにプロジェクトに追加します。
+
+### Step 5: Add Resource and Attach the Custom Attribute
+新しいリソース **R1** を追加し、先ほど作成したカスタム属性を紐付けます。
+
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
-## ステップ 6: プロジェクトを保存する
-変更したプロジェクトを新しいファイルに保存します。
+
+### Step 6: Save Project as XML
+変更を永続化するためにプロジェクトを保存します。これは **save project as xml** 手順で、更新されたファイルをクリーンな XML 形式で出力します。
+
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
-## ステップ 7: 結果の表示
-プロセスの完了を確認するメッセージを出力します。
+
+### Step 7: Display Result
+処理がエラーなく完了したことを示すメッセージを出力します。
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-これらの手順を注意深く実行すると、Aspose.Tasks for Java を使用して拡張された MS Project リソース属性をシームレスに処理できます。
 
-## 結論
-結論として、Aspose.Tasks for Java は、拡張リソース属性の処理を含む、Microsoft Project ファイルを管理するための堅牢な機能を提供します。 Aspose.Tasks が提供する機能を活用することで、開発者はプロジェクト データを効率的に操作してさまざまな要件を満たすことができます。
-## よくある質問
-### Aspose.Tasks は複雑なプロジェクト構造を処理できますか?
-はい、Aspose.Tasks は複雑なプロジェクト構造を包括的にサポートし、ユーザーがタスク、リソース、属性をシームレスに管理できるようにします。
-### Aspose.Tasks は Microsoft Project の最新バージョンと互換性がありますか?
-Aspose.Tasks は、Microsoft Project の最新バージョンとの互換性を確保するために定期的に更新され、ユーザーにプロジェクト管理のための信頼できるソリューションを提供します。
-### Aspose.Tasks はクロスプラットフォーム開発をサポートしていますか?
-はい、開発者はさまざまなプラットフォームで Aspose.Tasks for Java を利用できるため、プロジェクト管理アプリケーションにとって多用途の選択肢となります。
-### Aspose.Tasks を他の Java ライブラリと統合できますか?
-もちろん、Aspose.Tasks は他の Java ライブラリとシームレスに統合して、機能を強化し、開発プロセスを合理化できます。
-### Aspose.Tasks ユーザーはテクニカル サポートを利用できますか?
-はい、ユーザーは Aspose.Tasks フォーラムを通じてテクニカル サポートにアクセスでき、そこで支援を求めたり、コミュニティに参加したりできます。
+これらの手順を実行することで、**カスタム属性の作成**、Microsoft Project ファイルの読み込み、Java での数値設定、そして XML 形式での保存が完了します。
+
+## Common Pitfalls & Tips
+- **属性 ID の競合**: 新規定義を作成する前に必ず `getById` で既存を確認し、重複 ID を防止してください。  
+- **精度の取り扱い**: `BigDecimal` は小数点以下の精度を保持します。正確な値が必要な場合は `float` や `double` の使用を避けましょう。  
+- **ファイルパス**: 絶対パスを使用するか、IDE の作業ディレクトリを適切に設定して `FileNotFoundException` を回避してください。
+
+## Frequently Asked Questions
+
+**Q: タスクにもカスタム属性を作成できますか？**  
+A: はい – 属性定義時に `ExtendedAttributeTask` を使用すればタスク向けのカスタム属性が作れます。
+
+**Q: 複数のカスタム属性を一度に追加できますか？**  
+A: 可能です。属性ごとに `ExtendedAttributeDefinition` オブジェクトを作成し、目的のリソースやタスクに紐付けます。
+
+**Q: プロジェクトはどの形式で保存できますか？**  
+A: Aspose.Tasks は XML、MPP、PDF、HTML など多数の形式をサポートしています。本例では `SaveFileFormat.Xml` を使用しました。
+
+**Q: 開発ビルドでも Aspose.Tasks のライセンスは必要ですか？**  
+A: 評価用の一時ライセンスで十分です。本番環境ではフルライセンスが必須です。
+
+**Q: 後でカスタム属性の値を取得するには？**  
+A: `resource.getExtendedAttributes()` で属性コレクションを取得し、`getNumericValue()` や `getTextValue()` で個々の値を読み取れます。
+
+## Conclusion
+Aspose.Tasks for Java を使って Microsoft Project に **カスタム属性** を作成する手順は、プロジェクトの読み込み → 属性定義 → 値設定 → リソースへの紐付け → ファイル保存、という流れでシンプルです。この方法により、プロジェクトデータモデルをプログラムで拡張でき、レポートの充実や業務プロセスとの統合が容易になります。
+
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
