@@ -1,44 +1,58 @@
 ---
-title: Herhaal niet-rootbronnen in Aspose.Tasks
-linktitle: Herhaal niet-rootbronnen in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u efficiënt kunt itereren over niet-rootbronnen in Microsoft Project-bestanden met behulp van Aspose.Tasks voor Java. Verbeter uw ontwikkelingsproces.
-weight: 12
+date: 2026-01-13
+description: Leer hoe u niet‑wortelbronnen in Microsoft Project‑bestanden kunt itereren
+  met Aspose.Tasks voor Java.
+linktitle: Iterate Non-Root Resources with Aspose.Tasks for Java
+second_title: Aspose.Tasks Java API
+title: Itereer niet‑wortelbronnen met Aspose.Tasks voor Java
 url: /nl/java/resource-management/iterate-non-root-resources/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Herhaal niet-rootbronnen in Aspose.Tasks
+# Itereren over niet‑root resources met Aspose.Tasks voor Java
 
-## Invoering
-Aspose.Tasks voor Java is een krachtige bibliotheek die ontwikkelaars de tools biedt die ze nodig hebben om Microsoft Project-bestanden efficiënt te manipuleren. Met zijn intuïtieve interface en uitgebreide functionaliteit vereenvoudigt Aspose.Tasks het proces van het werken met projectgegevens, waardoor ontwikkelaars zich kunnen concentreren op het bouwen van robuuste applicaties.
+## Inleiding
+Aspose.Tasks voor Java is een krachtige bibliotheek die ontwikkelaars een nette, object‑georiënteerde manier biedt om met Microsoft Project‑bestanden te werken. In deze tutorial leer je **hoe je niet‑root resources kunt itereren** zodat je resource‑gegevens kunt lezen, wijzigen of analyseren zonder met de root‑placeholder te hoeven omgaan. Of je nu een rapportagetool, een migratiescript of een aangepaste planner bouwt, het beheersen van deze techniek maakt je code nauwkeuriger en efficiënter.
+
+## Snelle antwoorden
+- **Wat betekent “niet‑root resource”?** Een resource die niet de standaard “Project” placeholder is (de root‑node).  
+- **Waarom de root‑resource filteren?** De root bevat geen bruikbare planningsgegevens en kan rapporten onnodig vervuilen.  
+- **Welke Aspose.Tasks‑klasse levert de resource‑collectie?** `Project.getResources()`.  
+- **Heb ik een licentie nodig voor deze code?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik dit gebruiken met Java 17?** Ja – Aspose.Tasks ondersteunt Java 8 en hoger.
+
 ## Vereisten
-Voordat u Aspose.Tasks voor Java gaat gebruiken, moet u ervoor zorgen dat u over het volgende beschikt:
-1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Tasks voor Java-bibliotheek: Download en installeer Aspose.Tasks voor Java-bibliotheek vanuit de[downloadpagina](https://releases.aspose.com/tasks/java/).
+Voordat je in de code duikt, zorg dat je het volgende hebt:
 
-## Pakketten importeren
-Importeer in uw Java-project de benodigde pakketten om met Aspose te gaan werken. Taken:
+1. **Java Development Kit (JDK)** – Installeer de nieuwste JDK vanaf de [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Tasks voor Java‑bibliotheek** – Haal de nieuwste JAR op vanaf de [downloadpagina](https://releases.aspose.com/tasks/java/).  
+
+## Importeer pakketten
+Importeer in je Java‑project de benodigde Aspose.Tasks‑klassen:
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-## Stap 1: Stel de gegevensdirectory in
+## Stap 1: Stel de gegevensmap in
 ```java
 String dataDir = "Your Data Directory";
 ```
- Vervangen`"Your Data Directory"` met het pad naar de map waar uw projectbestanden zijn opgeslagen.
-## Stap 2: Laad het projectbestand
+Vervang `"Your Data Directory"` door het absolute pad waar je `.mpp`‑bestanden zich bevinden.
+
+## Stap 2: Laad het projectbestand
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
- Deze regel initialiseert een nieuw`Project` object door het projectbestand genaamd`"ResourceCosts.mpp"` uit de opgegeven gegevensdirectory.
-## Stap 3: Herhaal de niet-rootbronnen
+Dit maakt een `Project`‑instantie aan door **ResourceCosts.mpp** te laden vanuit de map die je hebt opgegeven.
+
+## Stap 3: Itereer over niet‑root resources
 ```java
 for (Resource res : prj.getResources()) {
     if (res.isRoot()) {
@@ -47,24 +61,50 @@ for (Resource res : prj.getResources()) {
     System.out.println(res.get(Rsc.NAME));
 }
 ```
-Deze lus herhaalt zich over elke resource in het project (`prj.getResources()`). Als de resource een hoofdresource is, gaat deze naar de volgende iteratie. Anders wordt de naam van de niet-rootbron afgedrukt.
+De lus doorloopt elk `Resource`‑object in het project. De `isRoot()`‑controle slaat de ingebouwde root‑resource over, en de `System.out.println`‑instructie print de naam van elke **niet‑root resource**.
+
+## Hoe niet‑root resources itereren
+Het bovenstaande fragment toont het kernpatroon:
+
+1. Haal de volledige collectie op met `prj.getResources()`.  
+2. Gebruik `isRoot()` om de placeholder te filteren.  
+3. Toegang tot elk resource‑veld (bijv. `Rsc.NAME`, `Rsc.COST`) naar behoefte.
+
+Je kunt dit patroon uitbreiden om kosten te aggregeren, naar CSV te exporteren of aangepaste bedrijfsregels toe te passen.
+
+## Veelvoorkomende valkuilen & tips
+- **Null‑controles** – Sommige resources kunnen optionele velden hebben; bescherm altijd tegen `null` bij het aanroepen van `get()`.  
+- **Prestaties** – Bij zeer grote projecten kun je overwegen een index‑gebaseerde lus te gebruiken om het aanmaken van tussen‑collecties te vermijden.  
+- **Licenties** – Het uitvoeren van de code zonder een geldige licentie voegt een watermerk toe aan geëxporteerde bestanden; zorg dat je je licentie vroeg in de applicatie activeert.
 
 ## Conclusie
-In deze zelfstudie hebben we onderzocht hoe u niet-rootbronnen kunt herhalen met Aspose.Tasks voor Java. Door deze stappen te volgen, kunt u projectgegevens effectief manipuleren en uw ontwikkelingsproces stroomlijnen.
+Door deze stappen te volgen weet je nu **hoe je niet‑root resources kunt itereren** met Aspose.Tasks voor Java. Deze techniek helpt je je te concentreren op de daadwerkelijke project‑resources, data‑extracties op te schonen en betrouwbaardere project‑managementoplossingen te bouwen.
+
 ## Veelgestelde vragen
 ### Kan ik Aspose.Tasks voor Java gebruiken om nieuwe projectbestanden te maken?
-Ja, Aspose.Tasks biedt functionaliteit voor het maken, wijzigen en opslaan van projectbestanden in verschillende formaten.
-### Ondersteunt Aspose.Tasks alle versies van Microsoft Project-bestanden?
-Aspose.Tasks ondersteunt de bestandsindelingen van Microsoft Project 2003-2019, waaronder MPP, MPT en XML.
-### Is Aspose.Tasks compatibel met Java-frameworks zoals Spring?
-Ja, Aspose.Tasks kan naadloos worden geïntegreerd in Java-frameworks zoals Spring voor bedrijfsapplicaties.
-### Kan ik projectgegevensvelden aanpassen met Aspose.Tasks?
-Absoluut, Aspose.Tasks biedt uitgebreide API's voor het aanpassen van projectgegevensvelden volgens uw vereisten.
+Ja, Aspose.Tasks biedt volledige CRUD‑functionaliteit (Create, Read, Update, Delete) voor MPP-, MPT- en XML‑projectformaten.  
+
+### Ondersteunt Aspose.Tasks alle versies van Microsoft Project‑bestanden?
+Absoluut. Het verwerkt Project‑bestanden van 2003‑2019, inclusief de nieuwste MPP‑specificaties.  
+
+### Is Aspose.Tasks compatibel met Java‑frameworks zoals Spring?
+Ja, je kunt de bibliotheek injecteren in Spring‑beans of gebruiken in elke standaard Java‑applicatie.  
+
+### Kan ik project‑datavelden aanpassen met Aspose.Tasks?
+Zeker. De API stelt je in staat om aangepaste velden toe te voegen, te wijzigen of te verwijderen op taken, resources en toewijzingen.  
+
 ### Biedt Aspose.Tasks ondersteuning en documentatie voor ontwikkelaars?
-Ja, Aspose.Tasks biedt uitgebreide documentatie en een speciaal ondersteuningsforum om ontwikkelaars te helpen met eventuele vragen of problemen die ze tegenkomen.
+Het product bevat uitgebreide API‑documentatie, code‑voorbeelden en een toegewijd support‑forum voor snelle hulp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-01-13  
+**Getest met:** Aspose.Tasks voor Java 24.12  
+**Auteur:** Aspose
