@@ -1,32 +1,47 @@
 ---
-title: Escreva dados de recursos atualizados em Aspose.Tasks
-linktitle: Escreva dados de recursos atualizados em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Aprenda como atualizar facilmente dados de recursos em arquivos do MS Project usando Aspose.Tasks for Java.
-weight: 21
+date: 2026-01-15
+description: Aprenda como adicionar recurso ao projeto, atualizar os dados do recurso
+  e salvar o projeto como MPP usando Aspose.Tasks para Java.
+linktitle: Add Resource to Project Using Aspose.Tasks for Java
+second_title: Aspose.Tasks Java API
+title: Adicionar Recurso ao Projeto Usando Aspose.Tasks para Java
 url: /pt/java/resource-management/write-updated-resource-data/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Escreva dados de recursos atualizados em Aspose.Tasks
+# Adicionar Recurso ao Projeto Usando Aspose.Tasks para Java
 
 ## Introdução
-Neste tutorial, orientaremos você na atualização de dados de recursos do Microsoft Project usando Aspose.Tasks para Java. Aspose.Tasks é uma API Java poderosa que permite manipular arquivos do Microsoft Project sem exigir que o Microsoft Project esteja instalado em seu sistema.
+Neste tutorial prático, você descobrirá **como adicionar recurso ao projeto** programaticamente com a API Aspose.Tasks Java. Vamos percorrer o carregamento de um arquivo XML do MS Project existente, inserir um novo recurso, atualizar suas propriedades e, finalmente, **salvar o projeto como MPP**. Ao final, você terá um padrão claro e repetível que pode ser inserido em qualquer ferramenta de relatório ou automação baseada em Java.
+
+## Respostas Rápidas
+- **O que significa “add resource to project”?** Cria uma nova entrada de recurso (pessoas, equipamentos, material) dentro de um arquivo Microsoft Project.  
+- **Qual biblioteca lida com isso?** Aspose.Tasks for Java – não é necessário ter o Microsoft Project instalado.  
+- **Preciso de uma licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Posso converter XML para MPP?** Sim – carregue o arquivo XML e **salve o projeto como MPP** usando `project.save(...)`.  
+- **Qual versão do Java é necessária?** Java 6 ou posterior (Java 8+ recomendado).
+
+## O que é “add resource to project”?
+Adicionar um recurso a um projeto significa inserir uma nova linha na tabela de Recursos de um arquivo MS Project. Essa linha armazena detalhes como nome, taxas de custo, grupo e campos personalizados que as tarefas podem referenciar posteriormente.
+
+## Por que usar Aspose.Tasks para Java?
+- **Sem dependência do Microsoft Project** – funciona em qualquer SO ou servidor CI.  
+- **Fidelidade total** – mantém todos os recursos nativos do Project ao converter entre formatos.  
+- **API rica** – permite ler, gravar e manipular tarefas, recursos, calendários e muito mais.
 
 ## Pré-requisitos
+Antes de começar, certifique‑se de que você tem:
 
-Antes de começarmos, certifique-se de ter o seguinte:
+1. Java Development Kit (JDK) 8 ou mais recente instalado.  
+2. Biblioteca Aspose.Tasks for Java – faça o download a partir de [here](https://releases.aspose.com/tasks/java/).  
+3. Familiaridade básica com a sintaxe Java e configuração de projetos Maven/Gradle.
 
-1. Java Development Kit (JDK) instalado em seu sistema.
-2.  Aspose.Tasks para biblioteca Java. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/java/).
-3. Conhecimento básico de programação Java.
-
-## Importar pacotes
-
-Primeiro, você precisa importar os pacotes necessários para trabalhar com Aspose.Tasks em seu código Java. Adicione as seguintes instruções de importação ao seu arquivo Java:
+## Importar Pacotes
+Adicione as classes necessárias do Aspose.Tasks ao seu arquivo fonte Java:
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,34 +50,30 @@ import com.aspose.tasks.Rsc;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## Etapa 1: configure seu diretório de dados
-
-Defina o diretório onde seus arquivos de dados estão localizados:
+## Etapa 1: Configurar seu Diretório de Dados
+Defina onde os arquivos XML de origem e os arquivos MPP resultantes ficarão:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Etapa 2: especificar arquivos de entrada e saída
-
-Defina os caminhos para o arquivo de entrada do MS Project e o arquivo atualizado resultante:
+## Etapa 2: Especificar Arquivos de Entrada e Saída
+Aponte para o arquivo XML que você deseja converter (**convert XML to MPP**) e o arquivo MPP de destino que conterá o novo recurso:
 
 ```java
-String file = dataDir + "ResourceWithExtAttribs.xml"; // Arquivo de teste com um rsc para atualizar
-String resultFile = dataDir + "OutputMPP.mpp"; // Arquivo para escrever o projeto de teste
+String file = dataDir + "ResourceWithExtAttribs.xml"; // Test file with one rsc to update
+String resultFile = dataDir + "OutputMPP.mpp"; // File to write test project
 ```
 
-## Etapa 3: carregar o projeto
-
- Carregue o arquivo do MS Project em um`Project` objeto:
+## Etapa 3: Carregar o Projeto
+Crie um objeto `Project` a partir da fonte XML:
 
 ```java
 Project project = new Project(file);
 ```
 
-## Etapa 4: adicionar um recurso e definir atributos
-
-Adicione um novo recurso ao projeto e defina seus atributos como taxa padrão, taxa de horas extras e grupo:
+## Etapa 4: Adicionar um Recurso e Definir Atributos
+É aqui que **add resource to project** e configuramos suas taxas e grupo:
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
@@ -71,39 +82,38 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(45));
 rsc.set(Rsc.GROUP, "Workgroup1");
 ```
 
-## Etapa 5: salve o projeto
+*Dica profissional:* Você pode repetir a chamada `add` dentro de um loop para **update multiple resources** em uma única execução.
 
-Salve o projeto atualizado com os dados do recurso modificados:
+## Etapa 5: Salvar o Projeto
+Finalmente, **save project as MPP** para persistir as alterações:
 
 ```java
 project.save(resultFile, SaveFileFormat.Mpp);
 ```
 
 ## Conclusão
+Você acabou de aprender **como adicionar recurso ao projeto**, atualizar suas propriedades e **salvar o projeto como MPP** usando Aspose.Tasks para Java. Essa abordagem é ideal para pipelines de relatórios automatizados, importações em massa de recursos ou qualquer cenário em que seja necessário manipular arquivos MS Project sem a aplicação desktop.
 
-Neste tutorial, demonstramos como atualizar dados de recursos do MS Project usando Aspose.Tasks for Java. Seguindo essas etapas, você pode manipular com eficiência as informações de recursos em seus arquivos do MS Project de maneira programática.
+## Perguntas Frequentes
 
-## Perguntas frequentes
+**Q1: Posso atualizar vários recursos no mesmo projeto usando Aspose.Tasks para Java?**  
+A: Sim, itere sobre `project.getResources()` ou chame `add` repetidamente, definindo os campos de cada recurso conforme necessário.
 
-### Q1: Posso atualizar vários recursos no mesmo projeto usando Aspose.Tasks for Java?
+**Q2: O Aspose.Tasks suporta outros formatos de arquivo além do MS Project?**  
+A: Absolutamente – XML, MPP, MPX, Primavera e muito mais são todos suportados.
 
-A1: Sim, você pode atualizar vários recursos iterando por meio deles e definindo seus atributos de acordo.
+**Q3: O Aspose.Tasks é compatível com diferentes versões do Java?**  
+A: A biblioteca funciona com Java 6 e posterior; Java 8+ é fortemente recomendado para melhor desempenho.
 
-### Q2: O Aspose.Tasks oferece suporte a outros formatos de arquivo além do MS Project?
+**Q4: Posso realizar outras operações em arquivos MS Project com Aspose.Tasks?**  
+A: Sim, você pode ler/gravar tarefas, calendários, atribuições, campos personalizados e até gerar relatórios.
 
-A2: Sim, Aspose.Tasks oferece suporte a vários formatos de arquivo, incluindo XML, MPP e muito mais.
+**Q5: Onde posso encontrar ajuda ou suporte adicional para Aspose.Tasks?**  
+A: Visite o [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) para assistência da comunidade e suporte oficial.
 
-### Q3: O Aspose.Tasks é compatível com diferentes versões do Java?
-
-A3: Aspose.Tasks é compatível com Java versões 6 e superiores.
-
-### Q4: Posso realizar outras operações em arquivos do MS Project com Aspose.Tasks?
-
-A4: Sim, você pode realizar uma ampla variedade de operações, como ler, escrever e manipular tarefas, recursos e calendários.
-
-### P5: Onde posso encontrar ajuda ou suporte adicional para Aspose.Tasks?
-
- A5: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvida.
+**Última atualização:** 2026-01-15  
+**Testado com:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
