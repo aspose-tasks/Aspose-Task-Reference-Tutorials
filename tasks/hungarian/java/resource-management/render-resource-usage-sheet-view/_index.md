@@ -1,27 +1,51 @@
 ---
-title: Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Tasks alkalmazásban
-linktitle: Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Tasks alkalmazásban
+date: 2026-01-15
+description: Tanulja meg, hogyan mentse el a projektet PDF‑ként, és hogyan jelenítse
+  meg az MS Project erőforrás‑használat és lap nézeteket az Aspose.Tasks for Java
+  segítségével. Kövesse lépésről‑lépésre útmutatónkat a projekt PDF‑be exportálásához
+  könnyedén.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan jeleníthet meg MS Project erőforrás-használati és munkalapnézeteket az Aspose.Tasks for Java alkalmazásban. Kövesse lépésenkénti útmutatónkat, hogy könnyedén készítsen részletes PDF jelentéseket.
-weight: 16
+title: Projekt mentése PDF‑ként – Erőforrás‑felhasználás és táblanézet megjelenítése
+  az Aspose.Tasks‑ben
 url: /hu/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rendererje le az erőforráshasználatot és a lapnézetet az Aspose.Tasks alkalmazásban
+# Projekt mentése PDF‑ként – Erőforrás‑használat és Lap nézet renderelése az Aspose.Tasks‑ben
 
 ## Bevezetés
-Ebben az oktatóanyagban megtanuljuk, hogyan használhatja az Aspose.Tasks for Java-t az MS Project Resource Usage és Sheet nézeteinek megjelenítéséhez. Az Aspose.Tasks egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft Project telepítése nélkül dolgozzanak Microsoft Project fájlokkal.
+Ebben az útmutatóban megtudja, hogyan **mentse a projektet PDF‑ként**, miközben a Microsoft Project fájl Erőforrás‑használat és Lap nézeteit rendereli. Akár nyomtatható jelentést kell készítenie az érintettek számára, akár MPP fájlokat szeretne egy mindenki számára megtekinthető formátumba konvertálni, az Aspose.Tasks for Java egyszerűvé teszi a folyamatot – Microsoft Project telepítése nélkül.
+
+## Gyors válaszok
+- **Mit csinál a „save project as pdf”?** Egy Project fájlt (MPP) PDF dokumentummá konvertálja, megőrizve a kiválasztott nézetet.  
+- **Mely nézet exportálható?** Erőforrás‑használat, Lap, Gantt, Feladat‑használat és egyéb.  
+- **Módosítható a PDF‑ben a időskála?** Igen – a lehetőségek közé tartozik a Days, ThirdsOfMonths és Months.  
+- **Szükséges a Microsoft Project telepítve?** Nem, az Aspose.Tasks önállóan működik.  
+- **Kell licenc a termeléshez?** Igen, kereskedelmi licenc szükséges a nem‑próba használathoz.
+
+## Mi a „save project as PDF”?
+A projekt PDF‑ként való mentése egy statikus, nagy felbontású ábrázolást hoz létre a kiválasztott Project nézetről. Ez ideális ügyfelekkel való megosztásra, archiválásra vagy nyomtatásra anélkül, hogy a háttérben lévő projektfájlt felfedné.
+
+## Miért használja az Aspose.Tasks‑t a projekt PDF‑be exportálásához?
+- **Nincs külső függőség** – bármely Java‑t támogató platformon működik.  
+- **Finomhangolt vezérlés** – kiválaszthatja a nézetet, az időskálát és az elrendezést.  
+- **Magas hűség** – a PDF tükrözi az eredeti Project nézet megjelenését.  
+- **Automatizálásra kész** – integrálható CI csővezetékekbe, jelentési szolgáltatásokba vagy kötegelt konvertálókba.
+
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy telepítette és beállította a következő előfeltételeket:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a Java Development Kit telepítve van a rendszeren. A JDK legújabb verzióját letöltheti és telepítheti az Oracle webhelyéről.
-2.  Aspose.Tasks for Java: Töltse le és telepítse az Aspose.Tasks for Java könyvtárat a[letöltési oldal](https://releases.aspose.com/tasks/java/).
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+
+1. **Java Development Kit (JDK)** – a legújabb verzió ajánlott.  
+2. **Aspose.Tasks for Java** – töltse le a [letöltési oldalról](https://releases.aspose.com/tasks/java/).
 
 ## Csomagok importálása
-Először is importálnia kell a szükséges csomagokat a Java projektbe:
+Először importálja a szükséges osztályokat a Java projektjébe:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +54,91 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## 1. lépés: Olvassa el a Forrásprojektet
+
+## Lépésről‑lépésre útmutató
+
+### 1. lépés: A forrásprojekt beolvasása
+Töltse be a konvertálni kívánt MPP fájlt.
+
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Olvassa el a projekt forrását
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-Ebben a lépésben megadjuk a forrás Project fájl elérési útját (`ResourceUsageView.mpp` ), és használja a`Project` osztályt elolvasni.
-## 2. lépés: Adja meg a mentési beállításokat a szükséges időskála-beállításokkal
+
+### 2. lépés: SaveOptions definiálása a szükséges időskálával (Projekt exportálása PDF‑be)
+Állítsa be a PDF exportálási beállításokat, és adja meg a kívánt időskálát.  
+*Ebben a példában a **Days**‑t használjuk.*
+
 ```java
-// Határozza meg a mentési beállításokat a szükséges időskála-beállításokkal Napokként
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- Itt definiáljuk a`SaveOptions` a szükségesvel`TimeScale` beállítások. Ebben a példában beállítjuk a`TimeScale` a mai.
-## 3. lépés: Állítsa a Prezentációs formátumot ResourceUsage értékre
+
+### 3. lépés: A PresentationFormat beállítása ResourceUsage‑ra
+Válassza ki a renderelni kívánt nézetet. Ebben az esetben a **Resource Usage** nézet.
+
 ```java
-// Állítsa a Prezentáció formátumát ResourceUsage értékre
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- Beállítottuk a prezentáció formátumát`ResourceUsage`, jelezve, hogy az Erőforráshasználat nézetet szeretnénk megjeleníteni.
-## 4. lépés: Mentse el a projektet
-```java
-// Mentse el a projektet
-project.save(dataDir + days, options);
-```
-Végül elmentjük a Projektet a megadott opciókkal. Ebben a példában a kimeneti fájl a következő néven lesz elmentve`result_days.pdf`.
-## 5. lépés: Rendereljen nézeteket az egyéb időskála-beállításokhoz
-Ismételje meg a 2–4. lépéseket a nézetek megjelenítéséhez különböző időskála-beállításokkal (Hónapok harmada és hónap).
-```java
-// Állítsa az Időskála beállításait ThirdsOfMonths értékre
-options.setTimescale(Timescale.ThirdsOfMonths);
-// Mentse el a projektet
-project.save(thirds, options);
-// Állítsa az Időskála beállításait Hónapokra
-options.setTimescale(Timescale.Months);
-// Mentse el a projektet
-project.save(dataDir + months, options);
-```
- Győződjön meg arról, hogy megváltoztatja a`Timescale` minden nézethez megfelelő beállításokat.
 
-## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk, hogyan használhatjuk az Aspose.Tasks for Java-t az MS Project Resource Usage és Sheet nézeteinek megjelenítésére. A fent vázolt lépések követésével hatékonyan hozhatja létre ezeket a nézeteket PDF formátumban, megkönnyítve a projektadatok jobb megjelenítését és elemzését.
-## GYIK
-### Az Aspose.Tasks megjeleníthet más nézeteket az Erőforrás-használaton és a Munkalapon kívül?
-Az Aspose.Tasks támogatja a különféle nézetek, például Gantt-diagram, Feladathasználat és Naptár nézetek megjelenítését.
+### 4. lépés: Projekt mentése (MPP konvertálása PDF‑be)
+Hajtsa végre a konverziót, és generálja a PDF fájlt.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### 5. lépés: Nézetek renderelése más időskála beállításokhoz (Időskála módosítása PDF‑ben)
+Ismételje meg az előző lépéseket, hogy különböző időskálákkal, például **ThirdsOfMonths** és **Months**, PDF‑eket hozzon létre.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## Gyakori problémák és megoldások
+- **File not found hibák** – Ellenőrizze, hogy a `dataDir` a megfelelő mappára mutat-e, és hogy az MPP fájl neve pontosan egyezik-e.  
+- **Üres PDF kimenet** – Győződjön meg arról, hogy a `PresentationFormat` olyan nézethez van beállítva, amely tartalmaz adatot (pl. ResourceUsage).  
+- **Helytelen időskála** – Ellenőrizze, hogy a `options.setTimescale()` minden `project.save()` előtt meghívásra került.
+
+## Gyakran feltett kérdések
+
+### Az Aspose.Tasks képes más nézetek renderelésére is az Erőforrás‑használat és Lap mellett?
+Az Aspose.Tasks különféle nézetek renderelését támogatja, például Gantt-diagram, Task Usage és Calendar nézetek, többek között.
+
 ### Az Aspose.Tasks kompatibilis a Microsoft Project fájlok különböző verzióival?
-Igen, az Aspose.Tasks a Microsoft Project fájlformátumok széles skáláját támogatja, beleértve az MPP, MPT és XML formátumokat.
-### Testreszabhatom a megjelenített nézetek megjelenését az Aspose.Tasks segítségével?
-Teljesen! Az Aspose.Tasks kiterjedt lehetőségeket kínál a renderelt nézetek megjelenésének és elrendezésének testreszabására az Ön egyedi igényei szerint.
-### Az Aspose.Tasks használatához telepíteni kell a Microsoft Projectet a rendszeren?
-Nem, az Aspose.Tasks egy önálló könyvtár, és működéséhez nem szükséges a Microsoft Project telepítése.
+Igen, az Aspose.Tasks széles körű Microsoft Project fájlformátumot támogat, beleértve az MPP, MPT és XML formátumokat.
+
+### Testreszabhatom a renderelt nézetek megjelenését az Aspose.Tasks használatával?
+Természetesen! Az Aspose.Tasks kiterjedt lehetőségeket kínál a renderelt nézetek megjelenésének és elrendezésének testreszabására, hogy megfeleljenek az Ön egyedi igényeinek.
+
+### Az Aspose.Tasks megköveteli a Microsoft Project telepítését a rendszeren?
+Nem, az Aspose.Tasks egy önálló könyvtár, és nem igényli a Microsoft Project telepítését a működéséhez.
+
 ### Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
- Igen, az Aspose.Tasks felhasználók technikai támogatást vehetnek igénybe a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+Igen, az Aspose.Tasks felhasználók technikai támogatást vehetnek igénybe a [Aspose.Tasks fórumon](https://forum.aspose.com/c/tasks/15).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utolsó frissítés:** 2026-01-15  
+**Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose

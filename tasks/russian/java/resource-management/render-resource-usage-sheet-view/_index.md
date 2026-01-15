@@ -1,27 +1,50 @@
 ---
-title: Рендеринг использования ресурсов и просмотр листа в Aspose.Tasks
-linktitle: Рендеринг использования ресурсов и просмотр листа в Aspose.Tasks
-second_title: API Aspose.Tasks Java
-description: Узнайте, как отображать использование ресурсов MS Project и представления листов в Aspose.Tasks для Java. Следуйте нашему пошаговому руководству, чтобы легко создавать подробные отчеты в формате PDF.
-weight: 16
+date: 2026-01-15
+description: Узнайте, как сохранить проект в формате PDF и отобразить представления
+  Resource Usage и Sheet в MS Project с помощью Aspose.Tasks для Java. Следуйте нашему
+  пошаговому руководству, чтобы легко экспортировать проект в PDF.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Сохранить проект в PDF – отобразить использование ресурсов и листовой вид в
+  Aspose.Tasks
 url: /ru/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Рендеринг использования ресурсов и просмотр листа в Aspose.Tasks
+# Сохранить проект как PDF – отобразить представления использования ресурсов и листа в Aspose.Tasks
 
-## Введение
-В этом уроке мы узнаем, как использовать Aspose.Tasks для Java для рендеринга представлений использования ресурсов MS Project и листов. Aspose.Tasks — это мощная библиотека Java, которая позволяет разработчикам работать с файлами Microsoft Project без необходимости установки Microsoft Project.
-## Предварительные условия
-Прежде чем мы начнем, убедитесь, что у вас установлены и настроены следующие необходимые компоненты:
-1. Java Development Kit (JDK): убедитесь, что в вашей системе установлен Java Development Kit. Вы можете загрузить и установить последнюю версию JDK с веб-сайта Oracle.
-2.  Aspose.Tasks for Java: Загрузите и установите библиотеку Aspose.Tasks for Java из[страница загрузки](https://releases.aspose.com/tasks/java/).
+## Introduction
+В этом руководстве вы узнаете, как **сохранить проект как PDF**, одновременно отрисовывая представления использования ресурсов и листа файла Microsoft Project. Независимо от того, нужно ли вам создать печатный отчет для заинтересованных сторон или конвертировать файлы MPP в универсальный формат, Aspose.Tasks for Java делает процесс простым — без необходимости установки Microsoft Project.
 
-## Импортировать пакеты
-Сначала вам необходимо импортировать необходимые пакеты в ваш Java-проект:
+## Quick Answers
+- **Что делает «save project as pdf»?** Он преобразует файл проекта (MPP) в документ PDF, сохраняя выбранное представление.  
+- **Какое представление можно экспортировать?** Resource Usage, Sheet, Gantt, Task Usage и другие.  
+- **Можно ли изменить масштаб времени в PDF?** Да — доступны варианты Days, ThirdsOfMonths и Months.  
+- **Нужна ли установка Microsoft Project?** Нет, Aspose.Tasks работает независимо.  
+- **Требуется ли лицензия для продакшн?** Да, для использования не в режиме пробной версии необходима коммерческая лицензия.
+
+## What is “save project as PDF”?
+Сохранение проекта как PDF создаёт статическое, высоко‑разрешённое представление выбранного представления Project. Это идеально для обмена с клиентами, архивирования или печати без раскрытия исходного файла проекта.
+
+## Why use Aspose.Tasks to export project to PDF?
+- **Нет внешних зависимостей** — работает на любой платформе, поддерживающей Java.  
+- **Тонкий контроль** — вы можете выбрать представление, масштаб времени и макет.  
+- **Высокая точность** — PDF отражает внешний вид оригинального представления Project.  
+- **Готово к автоматизации** — интегрировать в CI‑конвейеры, службы отчетности или пакетные конвертеры.
+
+## Prerequisites
+Before we dive in, ensure you have:
+
+1. **Java Development Kit (JDK)** — рекомендуется последняя версия.  
+2. **Aspose.Tasks for Java** — загрузите со [страницы загрузки](https://releases.aspose.com/tasks/java/).  
+
+## Import Packages
+First, import the necessary classes into your Java project:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +53,91 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## Шаг 1. Прочтите исходный проект
+
+## Step‑by‑Step Guide
+
+### Step 1: Read the Source Project
+Load the MPP file you want to convert.
+
 ```java
-// Путь к каталогу документов.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Читать исходный проект
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-На этом этапе мы указываем путь к исходному файлу проекта (`ResourceUsageView.mpp` ) и используйте`Project` класс, чтобы прочитать это.
-## Шаг 2. Определите SaveOptions с необходимыми настройками TimeScale
+
+### Step 2: Define SaveOptions with Required Timescale (Export Project to PDF)
+Configure the PDF export options and set the desired timescale.  
+*Here we use **Days** as an example.*
+
 ```java
-// Определите SaveOptions с необходимыми настройками TimeScale как дни.
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- Здесь мы определяем`SaveOptions` с необходимым`TimeScale` настройки. В этом примере мы устанавливаем`TimeScale` до Дней.
-## Шаг 3. Установите для формата презентации значение ResourceUsage.
+
+### Step 3: Set the Presentation Format to ResourceUsage
+Choose the view you want to render. In this case, the **Resource Usage** view.
+
 ```java
-// Установите формат презентации ResourceUsage.
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- Мы установили формат представления`ResourceUsage`, указывая, что мы хотим отобразить представление использования ресурсов.
-## Шаг 4. Сохраните проект
-```java
-// Сохранить проект
-project.save(dataDir + days, options);
-```
-Наконец, мы сохраняем проект с указанными параметрами. В этом примере выходной файл будет сохранен как`result_days.pdf`.
-## Шаг 5. Отрисовка представлений для других настроек шкалы времени
-Повторите шаги 2–4 для визуализации представлений с различными настройками TimeScale (ThirdsOfMonths и Months).
-```java
-// Установите для параметров шкалы времени значение ThirdsOfMonths.
-options.setTimescale(Timescale.ThirdsOfMonths);
-// Сохранить проект
-project.save(thirds, options);
-// Установите для параметра «Шкала времени» значение «Месяцы».
-options.setTimescale(Timescale.Months);
-// Сохранить проект
-project.save(dataDir + months, options);
-```
- Обязательно измените`Timescale` настройки соответственно для каждого вида.
 
-## Заключение
-В этом руководстве мы рассмотрели, как использовать Aspose.Tasks для Java для визуализации использования ресурсов MS Project и представлений листов. Следуя шагам, описанным выше, вы сможете эффективно создавать эти представления в формате PDF, что позволит улучшить визуализацию и анализ данных вашего проекта.
-## Часто задаваемые вопросы
-### Может ли Aspose.Tasks отображать другие представления, кроме использования ресурсов и листа?
-Aspose.Tasks поддерживает отображение различных представлений, таких как диаграмма Ганта, использование задач и представление календаря, среди других.
-### Совместим ли Aspose.Tasks с различными версиями файлов Microsoft Project?
-Да, Aspose.Tasks поддерживает широкий спектр форматов файлов Microsoft Project, включая форматы MPP, MPT и XML.
-### Могу ли я настроить внешний вид отображаемых представлений с помощью Aspose.Tasks?
-Абсолютно! Aspose.Tasks предоставляет широкие возможности для настройки внешнего вида и расположения отображаемых представлений в соответствии с вашими конкретными требованиями.
-### Требуется ли для Aspose.Tasks установка Microsoft Project в системе?
-Нет, Aspose.Tasks — это отдельная библиотека, для работы которой не требуется установка Microsoft Project.
+### Step 4: Save the Project (Convert MPP to PDF)
+Execute the conversion and generate the PDF file.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### Step 5: Render Views for Other Timescale Settings (Change Timescale PDF)
+Repeat the previous steps to produce PDFs with different timescales such as **ThirdsOfMonths** and **Months**.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## Common Issues and Solutions
+- **Ошибки «файл не найден»** — проверьте, что `dataDir` указывает на правильную папку и что имя файла MPP точно совпадает.  
+- **Пустой PDF‑файл** — убедитесь, что `PresentationFormat` соответствует представлению, содержащему данные (например, ResourceUsage).  
+- **Неправильный масштаб времени** — проверьте, что `options.setTimescale()` вызывается перед каждым `project.save()`.
+
+## Frequently Asked Questions
+
+### Может ли Aspose.Tasks отрисовывать другие представления, кроме Resource Usage и Sheet?
+Aspose.Tasks поддерживает отрисовку различных представлений, таких как Gantt Chart, Task Usage и Calendar, среди прочих.
+
+### Совместим ли Aspose.Tasks с разными версиями файлов Microsoft Project?
+Да, Aspose.Tasks поддерживает широкий спектр форматов файлов Microsoft Project, включая MPP, MPT и XML.
+
+### Могу ли я настроить внешний вид отрисованных представлений с помощью Aspose.Tasks?
+Абсолютно! Aspose.Tasks предоставляет обширные возможности для настройки внешнего вида и макета отрисованных представлений в соответствии с вашими требованиями.
+
+### Требуется ли для Aspose.Tasks установка Microsoft Project на системе?
+Нет, Aspose.Tasks — автономная библиотека и не требует установки Microsoft Project для своей работы.
+
 ### Доступна ли техническая поддержка для пользователей Aspose.Tasks?
- Да, пользователи Aspose.Tasks могут воспользоваться технической поддержкой через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Да, пользователи Aspose.Tasks могут получить техническую поддержку через [форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose

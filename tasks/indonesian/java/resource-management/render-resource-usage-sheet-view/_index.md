@@ -1,27 +1,50 @@
 ---
-title: Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
-linktitle: Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Pelajari cara merender tampilan Penggunaan Sumber Daya Proyek MS dan Lembar di Aspose.Tasks untuk Java. Ikuti panduan langkah demi langkah kami untuk menghasilkan laporan PDF terperinci dengan mudah.
-weight: 16
+date: 2026-01-15
+description: Pelajari cara menyimpan proyek sebagai PDF dan merender tampilan Penggunaan
+  Sumber Daya serta Lembar MS Project menggunakan Aspose.Tasks untuk Java. Ikuti panduan
+  langkah‑demi‑langkah kami untuk mengekspor proyek ke PDF dengan mudah.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Simpan Proyek sebagai PDF – Render Penggunaan Sumber Daya dan Tampilan Lembar
+  di Aspose.Tasks
 url: /id/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Render Penggunaan Sumber Daya dan Tampilan Lembar di Aspose.Tasks
+# Simpan Proyek sebagai PDF – Render Tampilan Penggunaan Sumber Daya dan Lembar di Aspose.Tasks
 
-## Perkenalan
-Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Tasks untuk Java untuk merender tampilan Penggunaan Sumber Daya Proyek MS dan Lembar. Aspose.Tasks adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project tanpa perlu menginstal Microsoft Project.
+## Pendahuluan
+Dalam tutorial ini Anda akan menemukan cara **save project as PDF** sambil merender tampilan Resource Usage dan Sheet dari file Microsoft Project. Baik Anda perlu menghasilkan laporan yang dapat dicetak untuk pemangku kepentingan atau mengonversi file MPP ke format yang dapat dilihat secara universal, Aspose.Tasks for Java membuat prosesnya sederhana—tanpa memerlukan instalasi Microsoft Project.
+
+## Jawaban Cepat
+- **Apa yang dilakukan “save project as pdf”?** Ini mengonversi file Project (MPP) menjadi dokumen PDF yang mempertahankan tampilan yang dipilih.  
+- **Tampilan mana yang dapat diekspor?** Resource Usage, Sheet, Gantt, Task Usage, dan lainnya.  
+- **Apakah saya dapat mengubah skala waktu di PDF?** Ya—opsinya termasuk Days, ThirdsOfMonths, dan Months.  
+- **Apakah saya perlu menginstal Microsoft Project?** Tidak, Aspose.Tasks berfungsi secara mandiri.  
+- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial diperlukan untuk penggunaan non‑trial.
+
+## Apa itu “save project as PDF”?
+Menyimpan proyek sebagai PDF membuat representasi statis dengan resolusi tinggi dari tampilan Project yang dipilih. Ini ideal untuk dibagikan kepada klien, pengarsipan, atau pencetakan tanpa mengungkapkan file proyek yang mendasarinya.
+
+## Mengapa menggunakan Aspose.Tasks untuk mengekspor proyek ke PDF?
+- **No external dependencies** – works on any platform supporting Java.  
+- **Fine‑grained control** – you can select the view, timescale, and layout.  
+- **High fidelity** – the PDF mirrors the appearance of the original Project view.  
+- **Automation‑ready** – integrate into CI pipelines, reporting services, or batch converters.
+
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menginstal dan menyiapkan prasyarat berikut:
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal Java Development Kit di sistem Anda. Anda dapat mengunduh dan menginstal JDK versi terbaru dari situs web Oracle.
-2.  Aspose.Tasks for Java: Unduh dan instal perpustakaan Aspose.Tasks for Java dari[Unduh Halaman](https://releases.aspose.com/tasks/java/).
+Sebelum kita mulai, pastikan Anda memiliki:
 
-## Paket Impor
-Pertama, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda:
+1. **Java Development Kit (JDK)** – versi terbaru disarankan.  
+2. **Aspose.Tasks for Java** – unduh dari [download page](https://releases.aspose.com/tasks/java/).
+
+## Impor Paket
+First, import the necessary classes into your Java project:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +53,91 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## Langkah 1: Baca Proyek Sumber
+
+## Panduan Langkah demi Langkah
+
+### Langkah 1: Baca Proyek Sumber
+Muat file MPP yang ingin Anda konversi.
+
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Baca Proyek sumber
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-Pada langkah ini, kami menentukan jalur ke file Proyek sumber (`ResourceUsageView.mpp` ) dan gunakan`Project` kelas untuk membacanya.
-## Langkah 2: Tentukan SaveOptions dengan Pengaturan Skala Waktu yang Diperlukan
+
+### Langkah 2: Tentukan SaveOptions dengan Timescale yang Diperlukan (Ekspor Proyek ke PDF)
+Konfigurasikan opsi ekspor PDF dan atur timescale yang diinginkan.  
+*Di sini kami menggunakan **Days** sebagai contoh.*
+
 ```java
-// Tentukan SaveOptions dengan pengaturan TimeScale yang diperlukan sebagai Hari
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- Di sini, kami mendefinisikan`SaveOptions` dengan yang diperlukan`TimeScale` pengaturan. Dalam contoh ini, kami menetapkan`TimeScale` ke hari.
-## Langkah 3: Atur Format Presentasi ke ResourceUsage
+
+### Langkah 3: Atur Presentation Format ke ResourceUsage
+Pilih tampilan yang ingin Anda render. Dalam kasus ini, tampilan **Resource Usage**.
+
 ```java
-// Atur format Presentasi ke ResourceUsage
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- Kami mengatur format presentasi menjadi`ResourceUsage`, menunjukkan bahwa kita ingin merender tampilan Penggunaan Sumber Daya.
-## Langkah 4: Simpan Proyek
-```java
-// Simpan Proyek
-project.save(dataDir + days, options);
-```
-Terakhir, kami menyimpan Proyek dengan opsi yang ditentukan. Dalam contoh ini, file keluaran akan disimpan sebagai`result_days.pdf`.
-## Langkah 5: Render Tampilan untuk Pengaturan Skala Waktu Lainnya
-Ulangi Langkah 2 hingga 4 untuk merender tampilan dengan pengaturan Skala Waktu yang berbeda (ThirdsOfMonths dan Months).
-```java
-// Atur pengaturan Skala Waktu ke ThirdsOfMonths
-options.setTimescale(Timescale.ThirdsOfMonths);
-// Simpan Proyek
-project.save(thirds, options);
-// Atur pengaturan Skala Waktu ke Bulan
-options.setTimescale(Timescale.Months);
-// Simpan proyek
-project.save(dataDir + months, options);
-```
- Pastikan untuk mengubah`Timescale` pengaturan yang sesuai untuk setiap tampilan.
 
-## Kesimpulan
-Dalam tutorial ini, kita telah menjelajahi cara menggunakan Aspose.Tasks untuk Java untuk merender tampilan Penggunaan Sumber Daya Proyek MS dan Lembar. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat secara efisien menghasilkan tampilan ini dalam format PDF, memfasilitasi visualisasi dan analisis data proyek Anda yang lebih baik.
-## FAQ
-### Bisakah Aspose.Tasks merender tampilan lain selain Penggunaan Sumber Daya dan Lembar?
-Aspose.Tasks mendukung rendering berbagai tampilan seperti tampilan Gantt Chart, Penggunaan Tugas, dan Kalender, antara lain.
-### Apakah Aspose.Tasks kompatibel dengan versi file Microsoft Project yang berbeda?
+### Langkah 4: Simpan Proyek (Konversi MPP ke PDF)
+Jalankan konversi dan hasilkan file PDF.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### Langkah 5: Render Tampilan untuk Pengaturan Timescale Lain (Ubah Timescale PDF)
+Ulangi langkah-langkah sebelumnya untuk menghasilkan PDF dengan timescale berbeda seperti **ThirdsOfMonths** dan **Months**.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## Masalah Umum dan Solusinya
+- **File not found errors** – Pastikan bahwa `dataDir` mengarah ke folder yang benar dan nama file MPP cocok persis.  
+- **Blank PDF output** – Pastikan `PresentationFormat` cocok dengan tampilan yang berisi data (mis., ResourceUsage).  
+- **Incorrect timescale** – Periksa kembali bahwa `options.setTimescale()` dipanggil sebelum setiap `project.save()`.
+
+## Pertanyaan yang Sering Diajukan
+
+### Apakah Aspose.Tasks dapat merender tampilan lain selain Resource Usage dan Sheet?
+Aspose.Tasks mendukung perenderan berbagai tampilan seperti Gantt Chart, Task Usage, dan tampilan Kalender, di antara lainnya.
+
+### Apakah Aspose.Tasks kompatibel dengan berbagai versi file Microsoft Project?
 Ya, Aspose.Tasks mendukung berbagai format file Microsoft Project, termasuk format MPP, MPT, dan XML.
-### Bisakah saya menyesuaikan tampilan tampilan yang dirender menggunakan Aspose.Tasks?
-Sangat! Aspose.Tasks menyediakan opsi ekstensif untuk menyesuaikan tampilan dan tata letak tampilan yang diberikan agar sesuai dengan kebutuhan spesifik Anda.
-### Apakah Aspose.Tasks memerlukan Microsoft Project untuk diinstal pada sistem?
-Tidak, Aspose.Tasks adalah perpustakaan mandiri dan tidak memerlukan instalasi Microsoft Project agar dapat berfungsi.
+
+### Apakah saya dapat menyesuaikan tampilan render menggunakan Aspose.Tasks?
+Tentu saja! Aspose.Tasks menyediakan banyak opsi untuk menyesuaikan tampilan dan tata letak tampilan yang dirender sesuai dengan kebutuhan spesifik Anda.
+
+### Apakah Aspose.Tasks memerlukan Microsoft Project terinstal di sistem?
+Tidak, Aspose.Tasks adalah pustaka mandiri dan tidak memerlukan Microsoft Project terinstal untuk berfungsi.
+
 ### Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
- Ya, pengguna Aspose.Tasks dapat memanfaatkan dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+Ya, pengguna Aspose.Tasks dapat memperoleh dukungan teknis melalui [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-01-15  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12  
+**Penulis:** Aspose

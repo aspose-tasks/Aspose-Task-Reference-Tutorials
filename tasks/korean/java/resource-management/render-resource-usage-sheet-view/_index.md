@@ -1,27 +1,48 @@
 ---
-title: Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
-linktitle: Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
-second_title: Aspose.Tasks 자바 API
-description: Aspose.Tasks for Java에서 MS 프로젝트 리소스 사용량 및 시트 보기를 렌더링하는 방법을 알아보세요. 자세한 PDF 보고서를 쉽게 생성하려면 단계별 가이드를 따르십시오.
-weight: 16
+date: 2026-01-15
+description: Aspose.Tasks for Java를 사용하여 프로젝트를 PDF로 저장하고 MS Project 리소스 사용량 및 시트 뷰를
+  렌더링하는 방법을 배워보세요. 단계별 가이드를 따라 프로젝트를 손쉽게 PDF로 내보내세요.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 프로젝트를 PDF로 저장 – Aspose.Tasks에서 리소스 사용량 및 시트 보기 렌더링
 url: /ko/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks의 렌더링 리소스 사용량 및 시트 보기
+# 프로젝트를 PDF로 저장 – Aspose.Tasks에서 리소스 사용량 및 시트 보기 렌더링
 
 ## 소개
-이 튜토리얼에서는 Aspose.Tasks for Java를 사용하여 MS 프로젝트 리소스 사용량 및 시트 보기를 렌더링하는 방법을 알아봅니다. Aspose.Tasks는 개발자가 Microsoft Project를 설치할 필요 없이 Microsoft Project 파일로 작업할 수 있는 강력한 Java 라이브러리입니다.
-## 전제조건
-시작하기 전에 다음 필수 구성 요소가 설치 및 설정되어 있는지 확인하세요.
-1. JDK(Java Development Kit): 시스템에 Java Development Kit가 설치되어 있는지 확인하십시오. Oracle 웹사이트에서 최신 버전의 JDK를 다운로드하여 설치할 수 있습니다.
-2.  Aspose.Tasks for Java: 다음에서 Aspose.Tasks for Java 라이브러리를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/java/).
+이 튜토리얼에서는 Microsoft Project 파일의 리소스 사용량 및 시트 보기를 렌더링하면서 **프로젝트를 PDF로 저장**하는 방법을 알아봅니다. 이해관계자를 위한 인쇄 가능한 보고서를 생성하거나 MPP 파일을 보편적으로 볼 수 있는 형식으로 변환해야 할 때, Aspose.Tasks for Java을 사용하면 Microsoft Project를 설치할 필요 없이 간단히 처리할 수 있습니다.
+
+## 빠른 답변
+- **“save project as pdf”가 무엇을 하나요?** 선택한 보기를 유지하면서 Project 파일(MPP)을 PDF 문서로 변환합니다.  
+- **어떤 보기를 내보낼 수 있나요?** Resource Usage, Sheet, Gantt, Task Usage 등.  
+- **PDF에서 시간 눈금을 변경할 수 있나요?** 예 — 옵션에는 Days, ThirdsOfMonths, Months가 포함됩니다.  
+- **Microsoft Project를 설치해야 하나요?** 아니요, Aspose.Tasks는 독립적으로 작동합니다.  
+- **프로덕션에 라이선스가 필요합니까?** 예, 비체험 사용을 위해 상업용 라이선스가 필요합니다.
+
+## “save project as PDF”란 무엇인가요?
+프로젝트를 PDF로 저장하면 선택한 Project 보기의 정적이며 고해상도 표현이 생성됩니다. 이는 클라이언트와 공유하거나, 보관하거나, 기본 프로젝트 파일을 노출하지 않고 인쇄할 때 이상적입니다.
+
+## 왜 Aspose.Tasks를 사용해 프로젝트를 PDF로 내보내나요?
+- **외부 종속성 없음** – Java를 지원하는 모든 플랫폼에서 작동합니다.  
+- **세밀한 제어** – 보기, 시간 눈금 및 레이아웃을 선택할 수 있습니다.  
+- **높은 정확도** – PDF가 원본 Project 보기의 모습을 그대로 반영합니다.  
+- **자동화 준비** – CI 파이프라인, 보고 서비스 또는 배치 변환기에 통합할 수 있습니다.
+
+## 전제 조건
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
+
+1. **Java Development Kit (JDK)** – 최신 버전을 권장합니다.  
+2. **Aspose.Tasks for Java** – [download page](https://releases.aspose.com/tasks/java/)에서 다운로드하십시오.
 
 ## 패키지 가져오기
-먼저 필요한 패키지를 Java 프로젝트로 가져와야 합니다.
+먼저, 필요한 클래스를 Java 프로젝트에 가져옵니다:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +51,91 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## 1단계: 소스 프로젝트 읽기
+
+## 단계별 가이드
+
+### 1단계: 소스 프로젝트 읽기
+변환하려는 MPP 파일을 로드합니다.
+
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// 소스 프로젝트 읽기
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-이 단계에서는 소스 프로젝트 파일의 경로를 지정합니다(`ResourceUsageView.mpp` ) 그리고`Project` 그것을 읽는 수업.
-## 2단계: 필수 TimeScale 설정으로 SaveOptions 정의
+
+### 2단계: 필요한 시간 눈금으로 SaveOptions 정의 (프로젝트를 PDF로 내보내기)
+PDF 내보내기 옵션을 구성하고 원하는 시간 눈금을 설정합니다.  
+*예제로 **Days**를 사용합니다.*
+
 ```java
-// 필요한 TimeScale 설정을 사용하여 SaveOptions를 일로 정의합니다.
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- 여기에서 우리는`SaveOptions` 필수와 함께`TimeScale` 설정. 이 예에서는`TimeScale` 일까지.
-## 3단계: 프레젠테이션 형식을 ResourceUsage로 설정
+
+### 3단계: Presentation Format을 ResourceUsage로 설정
+렌더링하려는 보기를 선택합니다. 여기서는 **Resource Usage** 보기를 사용합니다.
+
 ```java
-// 프레젠테이션 형식을 ResourceUsage로 설정합니다.
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- 프레젠테이션 형식을 다음과 같이 설정했습니다.`ResourceUsage`, 자원 사용량 보기를 렌더링하려고 함을 나타냅니다.
-## 4단계: 프로젝트 저장
-```java
-// 프로젝트 저장
-project.save(dataDir + days, options);
-```
-마지막으로 지정된 옵션을 사용하여 프로젝트를 저장합니다. 이 예에서는 출력 파일이 다음과 같이 저장됩니다.`result_days.pdf`.
-## 5단계: 다른 TimeScale 설정을 위한 렌더 뷰
-다양한 TimeScale 설정(ThirdsOfMonths 및 Months)을 사용하여 뷰를 렌더링하려면 2~4단계를 반복합니다.
-```java
-// 시간 표시줄 설정을 ThirdsOfMonths로 설정합니다.
-options.setTimescale(Timescale.ThirdsOfMonths);
-// 프로젝트 저장
-project.save(thirds, options);
-// 기간 설정을 월로 설정합니다.
-options.setTimescale(Timescale.Months);
-// 프로젝트 저장
-project.save(dataDir + months, options);
-```
- 변경 사항을 확인하세요.`Timescale` 각 보기에 맞게 설정합니다.
 
-## 결론
-이 튜토리얼에서는 Java용 Aspose.Tasks를 사용하여 MS 프로젝트 리소스 사용량 및 시트 보기를 렌더링하는 방법을 살펴보았습니다. 위에 설명된 단계를 수행하면 이러한 뷰를 PDF 형식으로 효율적으로 생성하여 프로젝트 데이터의 시각화 및 분석을 더 쉽게 할 수 있습니다.
-## FAQ
-### Aspose.Tasks는 리소스 사용량 및 시트 외에 다른 뷰를 렌더링할 수 있나요?
-Aspose.Tasks는 간트 차트, 작업 사용량, 달력 보기 등 다양한 보기 렌더링을 지원합니다.
-### Aspose.Tasks는 다른 버전의 Microsoft Project 파일과 호환됩니까?
-예, Aspose.Tasks는 MPP, MPT 및 XML 형식을 포함한 광범위한 Microsoft Project 파일 형식을 지원합니다.
-### Aspose.Tasks를 사용하여 렌더링된 뷰의 모양을 사용자 정의할 수 있나요?
-전적으로! Aspose.Tasks는 특정 요구 사항에 맞게 렌더링된 뷰의 모양과 레이아웃을 사용자 정의하기 위한 광범위한 옵션을 제공합니다.
-### Aspose.Tasks를 사용하려면 Microsoft Project를 시스템에 설치해야 합니까?
-아니요, Aspose.Tasks는 독립 실행형 라이브러리이며 작동을 위해 Microsoft Project를 설치할 필요가 없습니다.
-### Aspose.Tasks 사용자에게 기술 지원이 제공됩니까?
- 예, Aspose.Tasks 사용자는 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+### 4단계: 프로젝트 저장 (MPP를 PDF로 변환)
+변환을 실행하고 PDF 파일을 생성합니다.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### 5단계: 다른 시간 눈금 설정에 대한 보기 렌더링 (시간 눈금 변경 PDF)
+앞 단계들을 반복하여 **ThirdsOfMonths**, **Months**와 같은 다른 시간 눈금의 PDF를 생성합니다.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## 일반적인 문제 및 해결책
+- **File not found errors** – `dataDir`이 올바른 폴더를 가리키고 MPP 파일 이름이 정확히 일치하는지 확인하십시오.  
+- **Blank PDF output** – `PresentationFormat`이 데이터가 포함된 보기와 일치하는지 확인하십시오(예: ResourceUsage).  
+- **Incorrect timescale** – 각 `project.save()` 호출 전에 `options.setTimescale()`이 호출되었는지 다시 확인하십시오.
+
+## 자주 묻는 질문
+
+### Aspose.Tasks가 Resource Usage와 Sheet 외에 다른 보기도 렌더링할 수 있나요?
+Aspose.Tasks는 Gantt Chart, Task Usage, Calendar 보기 등 다양한 보기를 렌더링하는 것을 지원합니다.
+
+### Aspose.Tasks가 다양한 버전의 Microsoft Project 파일과 호환되나요?
+예, Aspose.Tasks는 MPP, MPT, XML 형식을 포함한 다양한 Microsoft Project 파일 형식을 지원합니다.
+
+### Aspose.Tasks를 사용해 렌더링된 보기의 모양을 맞춤 설정할 수 있나요?
+물론입니다! Aspose.Tasks는 특정 요구에 맞게 렌더링된 보기의 모양과 레이아웃을 맞춤 설정할 수 있는 다양한 옵션을 제공합니다.
+
+### Aspose.Tasks가 시스템에 Microsoft Project가 설치되어 있어야 하나요?
+아니요, Aspose.Tasks는 독립형 라이브러리이며 작동을 위해 Microsoft Project가 설치될 필요가 없습니다.
+
+### Aspose.Tasks 사용자를 위한 기술 지원이 제공되나요?
+예, Aspose.Tasks 사용자는 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)에서 기술 지원을 받을 수 있습니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
