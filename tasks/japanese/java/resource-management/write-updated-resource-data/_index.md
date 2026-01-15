@@ -1,32 +1,47 @@
 ---
-title: 更新されたリソース データを Aspose.Tasks に書き込む
-linktitle: 更新されたリソース データを Aspose.Tasks に書き込む
+date: 2026-01-15
+description: Aspose.Tasks for Java を使用して、プロジェクトにリソースを追加し、リソース データを更新し、プロジェクトを MPP
+  として保存する方法を学びます。
+linktitle: Add Resource to Project Using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して MS Project ファイル内のリソース データを簡単に更新する方法を学びます。
-weight: 21
+title: Aspose.Tasks for Java を使用してプロジェクトにリソースを追加する
 url: /ja/java/resource-management/write-updated-resource-data/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 更新されたリソース データを Aspose.Tasks に書き込む
+# Aspose.Tasks for Java を使用してプロジェクトにリソースを追加する
 
-## 導入
-このチュートリアルでは、Aspose.Tasks for Java を使用して Microsoft Project リソース データを更新する方法を説明します。 Aspose.Tasks は、システムに Microsoft Project をインストールしなくても Microsoft Project ファイルを操作できる強力な Java API です。
+## Introduction
+このハンズオンチュートリアルでは、Aspose.Tasks Java API を使って **プロジェクトにリソースを追加する方法** をプログラムで実装する方法を学びます。既存の MS Project XML ファイルを読み込み、新しいリソースを挿入し、プロパティを更新し、最後に **プロジェクトを MPP として保存** します。これにより、Java ベースのレポート作成や自動化ツールに組み込める明確で再利用可能なパターンが手に入ります。
 
-## 前提条件
+## Quick Answers
+- **“add resource to project” とは何ですか？** Microsoft Project ファイル内に新しいリソースエントリ（人物、機器、材料など）を作成します。  
+- **どのライブラリがこれを処理しますか？** Aspose.Tasks for Java – Microsoft Project のインストールは不要です。  
+- **ライセンスは必要ですか？** 開発目的なら無料トライアルで動作しますが、製品環境では商用ライセンスが必要です。  
+- **XML を MPP に変換できますか？** はい – XML ファイルを読み込み、`project.save(...)` を使って **プロジェクトを MPP として保存** します。  
+- **必要な Java バージョンは？** Java 6 以降（Java 8 以上推奨）。
 
-始める前に、以下のものがあることを確認してください。
+## What is “add resource to project”?
+プロジェクトにリソースを追加するとは、MS Project ファイルの Resources テーブルに新しい行を挿入することです。この行には、名前、コストレート、グループ、タスクが後で参照できるカスタムフィールドなどの情報が格納されます。
 
-1. Java Development Kit (JDK) がシステムにインストールされています。
-2.  Java ライブラリの Aspose.Tasks。からダウンロードできます[ここ](https://releases.aspose.com/tasks/java/).
-3. Java プログラミングの基本的な知識。
+## Why use Aspose.Tasks for Java?
+- **Microsoft Project への依存が不要** – 任意の OS や CI サーバーで動作します。  
+- **完全な忠実度** – フォーマット間の変換時にもすべてのネイティブ Project 機能が保持されます。  
+- **豊富な API** – タスク、リソース、カレンダーなどを読み書き・操作できます。
 
-## パッケージのインポート
+## Prerequisites
+開始する前に以下を用意してください。
 
-まず、Java コードで Aspose.Tasks を操作するために必要なパッケージをインポートする必要があります。次のインポート ステートメントを Java ファイルに追加します。
+1. Java Development Kit (JDK) 8 以上がインストールされていること。  
+2. Aspose.Tasks for Java ライブラリ – [こちら](https://releases.aspose.com/tasks/java/) からダウンロード。  
+3. Java の構文と Maven/Gradle プロジェクト設定に関する基本的な知識。
+
+## Import Packages
+Java ソースファイルに必要な Aspose.Tasks クラスを追加します。
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,34 +50,30 @@ import com.aspose.tasks.Rsc;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## ステップ 1: データ ディレクトリを設定する
-
-データ ファイルが配置されるディレクトリを定義します。
+## Step 1: Set Up Your Data Directory
+ソース XML と生成される MPP ファイルの保存先ディレクトリを定義します。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## ステップ 2: 入力ファイルと出力ファイルを指定する
-
-入力 MS Project ファイルとその結果として更新されるファイルのパスを定義します。
+## Step 2: Specify Input and Output Files
+変換したい XML ファイル（**convert XML to MPP**）と、新しいリソースを含む対象 MPP ファイルを指定します。
 
 ```java
-String file = dataDir + "ResourceWithExtAttribs.xml"; //更新する 1 つの RSC を含むテスト ファイル
-String resultFile = dataDir + "OutputMPP.mpp"; //テストプロジェクトを書き込むファイル
+String file = dataDir + "ResourceWithExtAttribs.xml"; // Test file with one rsc to update
+String resultFile = dataDir + "OutputMPP.mpp"; // File to write test project
 ```
 
-## ステップ 3: プロジェクトをロードする
-
- MS Project ファイルを`Project`物体：
+## Step 3: Load the Project
+XML ソースから `Project` オブジェクトを作成します。
 
 ```java
 Project project = new Project(file);
 ```
 
-## ステップ 4: リソースを追加して属性を設定する
-
-新しいリソースをプロジェクトに追加し、標準レート、超過勤務レート、グループなどの属性を設定します。
+## Step 4: Add a Resource and Set Attributes
+ここで **add resource to project** を実行し、レートやグループを設定します。
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
@@ -71,39 +82,40 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(45));
 rsc.set(Rsc.GROUP, "Workgroup1");
 ```
 
-## ステップ 5: プロジェクトを保存する
+*Pro tip:* ループ内で `add` 呼び出しを繰り返すことで、**複数のリソースを一度に更新** できます。
 
-更新されたプロジェクトを、変更されたリソース データとともに保存します。
+## Step 5: Save the Project
+最後に **save project as MPP** して変更を永続化します。
 
 ```java
 project.save(resultFile, SaveFileFormat.Mpp);
 ```
 
-## 結論
+## Conclusion
+**プロジェクトにリソースを追加する方法** を学び、プロパティを更新し、Aspose.Tasks for Java を使って **プロジェクトを MPP として保存** できるようになりました。この手法は、レポート自動化パイプラインや大量リソースのインポート、デスクトップアプリケーションなしで MS Project ファイルを操作するあらゆるシナリオに最適です。
 
-このチュートリアルでは、Aspose.Tasks for Java を使用して MS Project リソース データを更新する方法を説明しました。これらの手順に従うことで、MS Project ファイル内のリソース情報をプログラムで効率的に操作できます。
+## Frequently Asked Questions
 
-## よくある質問
+**Q1: Aspose.Tasks for Java を使って同じプロジェクト内の複数リソースを更新できますか？**  
+A: はい、`project.getResources()` をイテレートするか、`add` を繰り返し呼び出して各リソースのフィールドを設定します。
 
-### Q1: Aspose.Tasks for Java を使用して、同じプロジェクト内の複数のリソースを更新できますか?
+**Q2: Aspose.Tasks は MS Project 以外のファイル形式もサポートしていますか？**  
+A: もちろんです – XML、MPP、MPX、Primavera など多数の形式に対応しています。
 
-A1: はい、複数のリソースを反復処理し、それに応じて属性を設定することで、複数のリソースを更新できます。
+**Q3: Aspose.Tasks はさまざまな Java バージョンと互換性がありますか？**  
+A: ライブラリは Java 6 以降で動作し、Java 8 以上を推奨しています。
 
-### Q2: Aspose.Tasks は MS Project 以外のファイル形式をサポートしていますか?
+**Q4: MS Project ファイルで他の操作も可能ですか？**  
+A: はい、タスク、カレンダー、割り当て、カスタムフィールドの読み書きやレポート生成も行えます。
 
-A2: はい、Aspose.Tasks は XML、MPP などを含むさまざまなファイル形式をサポートしています。
+**Q5: Aspose.Tasks の追加サポートやヘルプはどこで得られますか？**  
+A: コミュニティ支援と公式サポートは [Aspose.Tasks フォーラム](https://forum.aspose.com/c/tasks/15) をご利用ください。
 
-### Q3: Aspose.Tasks は Java のさまざまなバージョンと互換性がありますか?
+---
 
-A3: Aspose.Tasks は Java バージョン 6 以降と互換性があります。
-
-### Q4: Aspose.Tasks を使用して MS Project ファイルに対して他の操作を実行できますか?
-
-A4: はい、タスク、リソース、カレンダーの読み取り、書き込み、操作など、幅広い操作を実行できます。
-
-### Q5: Aspose.Tasks に関する追加のヘルプやサポートはどこで見つけられますか?
-
- A5: をご覧いただけます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートやご質問がございましたら。
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

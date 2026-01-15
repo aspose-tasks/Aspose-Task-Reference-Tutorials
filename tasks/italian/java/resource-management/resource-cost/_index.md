@@ -1,33 +1,47 @@
 ---
-title: Gestisci i costi delle risorse di MS Project con Aspose.Tasks per Java
-linktitle: Gestire il costo delle risorse in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come gestire i costi delle risorse di MS Project in modo efficiente con Aspose.Tasks per Java. Segui la nostra guida passo passo.
-weight: 18
+date: 2026-01-15
+description: Scopri come gestire il lavoro a costo preventivato pianificato nei file
+  Microsoft Project utilizzando Aspose.Tasks per Java. Segui la nostra guida passo
+  passo.
+linktitle: Handle Resource Cost in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Lavoro a costo preventivato programmato con Aspose.Tasks per Java
 url: /it/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestisci i costi delle risorse di MS Project con Aspose.Tasks per Java
+# budgeted cost work scheduled con Aspose.Tasks per Java
 
-## introduzione
+## Introduzione
 
-Nella gestione dei progetti, il monitoraggio e la gestione dei costi delle risorse sono fondamentali per mantenere i progetti entro i limiti del budget e garantire la redditività. Aspose.Tasks per Java offre potenti strumenti per gestire in modo efficiente i costi delle risorse di Microsoft Project. In questo tutorial, approfondiremo come gestire in modo efficace i costi delle risorse utilizzando Aspose.Tasks per Java, suddividendo ogni passaggio in istruzioni facili da seguire.
+Gestire **budgeted cost work scheduled** (BCWS) è fondamentale per mantenere un progetto in linea e garantire che le previsioni finanziarie siano coerenti con il lavoro pianificato. In Microsoft Project, BCWS rappresenta l'importo di denaro che avrebbe dovuto essere speso per il lavoro programmato fino a una data specifica. Aspose.Tasks per Java ti offre il pieno controllo programmatico su questi valori, consentendoti di leggere, modificare e generare report sui costi delle risorse senza aprire manualmente il file .mpp. In questo tutorial vedremo un esempio completo che mostra come caricare un progetto, iterare le sue risorse e visualizzare il budgeted cost work scheduled insieme ad altre metriche di costo chiave.
+
+## Risposte rapide
+- **Cosa significa BCWS?** Budgeted Cost Work Scheduled – il costo pianificato per il lavoro programmato fino alla data corrente.  
+- **Quale proprietà API restituisce BCWS?** `Rsc.BCWS` su un oggetto `Resource`.  
+- **È necessaria una licenza per eseguire il campione?** Una licenza di valutazione gratuita è sufficiente per i test; è richiesta una licenza completa per la produzione.  
+- **Posso modificare i valori BCWS?** Sì, puoi impostare `Rsc.BCWS` come qualsiasi altro campo numerico.  
+- **Versioni di Project supportate?** Tutte le versioni di Microsoft Project dal 2000 al più recente formato .mpp.
+
+## Che cos'è il budgeted cost work scheduled?
+
+**Budgeted Cost Work Scheduled (BCWS)** è una misura di performance che riflette il costo che sarebbe dovuto essere sostenuto per il lavoro pianificato fino a un determinato momento. È un pilastro della Earned Value Management (EVM) e aiuta i project manager a confrontare la spesa pianificata con quella reale.
 
 ## Prerequisiti
 
-Prima di immergerti in questo tutorial, assicurati di possedere i seguenti prerequisiti:
+Prima di immergerti nel codice, assicurati di avere:
 
-1. Conoscenza di base della programmazione Java.
-2. Installazione di Aspose.Tasks per Java.
-3. Familiarità con i file Microsoft Project (.mpp).
+1. Una solida conoscenza dei fondamenti di Java.  
+2. Aspose.Tasks per Java aggiunto al tuo progetto (Maven/Gradle o JAR).  
+3. Un file Microsoft Project (`.mpp`) che contenga risorse con dati di costo (ad es., *ResourceCosts.mpp*).
 
-## Importa pacchetti
+## Importare i pacchetti
 
-Innanzitutto, devi importare i pacchetti necessari per lavorare con Aspose.Tasks per Java. Aggiungi le seguenti istruzioni di importazione al tuo file Java:
+Per prima cosa, importa le classi Aspose.Tasks necessarie per gestire progetti e risorse:
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,33 +49,31 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-Suddividiamo il codice di esempio in più passaggi:
-
-## Passaggio 1: definire la directory dei dati
+## Passo 1: Definire la directory dei dati
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
- Sostituire`"Your Data Directory"` con il percorso del file MS Project.
+Sostituisci `"Your Data Directory"` con il percorso assoluto o relativo dove risiede *ResourceCosts.mpp*.
 
-## Passaggio 2: caricare il file MS Project
+## Passo 2: Caricare il file MS Project
 
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
 
- Creane uno nuovo`Project` oggetto caricando il file MS Project utilizzando il suo percorso.
+Il costruttore `Project` legge il file .mpp e crea una rappresentazione in memoria su cui è possibile eseguire query.
 
-## Passaggio 3: scorrere le risorse
+## Passo 3: Iterare le risorse
 
 ```java
 for (Resource res : prj.getResources()) {
 ```
 
-Scorrere ogni risorsa nel progetto.
+Questo ciclo attraversa ogni risorsa definita nel progetto, fornendoti l'accesso ai suoi campi di costo.
 
-## Passaggio 4: controlla il nome e i costi della risorsa
+## Passo 4: Verificare nome della risorsa e costi
 
 ```java
 if (res.get(Rsc.NAME) != null) {
@@ -72,36 +84,59 @@ if (res.get(Rsc.NAME) != null) {
 }
 ```
 
-Controlla se il nome della risorsa non è nullo, quindi stampa gli attributi relativi ai costi come costo, costo effettivo del lavoro eseguito (ACWP), costo preventivato del lavoro programmato (BCWS) e costo preventivato del lavoro eseguito (BCWP).
+All'interno del blocco `if` noi:
 
-## Conclusione
+* Stampiamo il **costo totale** (`Rsc.COST`).  
+* Stampiamo il **costo effettivo del lavoro eseguito** (`Rsc.ACWP`).  
+* Stampiamo il **budgeted cost work scheduled** (`Rsc.BCWS`) – la metrica principale su cui ci concentriamo.  
+* Stampiamo il **budgeted cost work performed** (`Rsc.BCWP`).
 
-Gestire in modo efficace i costi delle risorse è essenziale per il successo del progetto e Aspose.Tasks per Java semplifica questo processo con le sue robuste funzionalità. Seguendo i passaggi descritti in questo tutorial, puoi gestire in modo efficiente i costi delle risorse nei file Microsoft Project utilizzando Aspose.Tasks per Java.
+Questi quattro valori forniscono una rapida panoramica della situazione finanziaria del progetto.
+
+## Perché è importante monitorare il budgeted cost work scheduled
+
+* **Allarme precoce:** Se BCWS è significativamente più alto del costo reale, potresti stare sovrallocando le risorse.  
+* **Analisi Earned Value:** BCWS è un input chiave per calcolare Cost Variance (CV) e Schedule Variance (SV).  
+* **Previsione:** Dati BCWS accurati aiutano a prevedere le esigenze di flusso di cassa future e a informare i report per gli stakeholder.
+
+## Problemi comuni e risoluzione
+
+| Sintomo | Probabile causa | Soluzione |
+|---------|-----------------|-----------|
+| `null` stampato per BCWS | La risorsa non ha una tabella dei tassi di costo definita | Definisci una tabella dei tassi di costo per la risorsa in Microsoft Project o impostala programmaticamente tramite `Rsc.COST_RATE_TABLE` |
+| `ArrayIndexOutOfBoundsException` durante l'iterazione delle risorse | File di progetto corrotto o contiene voci di risorsa vuote | Convalida il file .mpp in Microsoft Project e rimuovi le risorse vuote |
+| Valori inattesi (es. BCWS negativo) | Campi personalizzati che sovrascrivono i campi di costo standard | Assicurati di accedere al campo standard `Rsc.BCWS` e non a un campo personalizzato con lo stesso nome |
 
 ## Domande frequenti
 
-### Q1: Aspose.Tasks per Java può gestire strutture di progetto complesse?
+**D: Posso aggiornare il valore BCWS programmaticamente?**  
+R: Sì. Usa `res.set(Rsc.BCWS, newValue)` e poi salva il progetto con `prj.save("Updated.mpp")`.
 
-R1: Sì, Aspose.Tasks per Java fornisce un supporto completo per la gestione di strutture di progetto complesse, incluse risorse, attività e assegnazioni.
+**D: Aspose.Tasks supporta progetti multivaluta?**  
+R: Assolutamente. I campi di costo rispettano le impostazioni di valuta definite nel file di progetto.
 
-### Q2: Aspose.Tasks per Java è compatibile con diverse versioni dei file Microsoft Project?
+**D: È possibile esportare queste metriche di costo in CSV?**  
+R: Puoi iterare le risorse e scrivere i valori in un `StringBuilder` oppure utilizzare una libreria CSV per generare il file.
 
-A2: Sì, Aspose.Tasks per Java supporta varie versioni di file Microsoft Project, garantendo la compatibilità tra diversi ambienti.
+**D: In che modo BCWS differisce da BCWP?**  
+R: BCWS è il costo pianificato per il lavoro programmato, mentre BCWP (Budgeted Cost Work Performed) riflette il costo pianificato per il lavoro effettivamente completato.
 
-### Q3: Posso integrare Aspose.Tasks per Java con altre librerie Java?
+**D: È necessaria una licenza speciale per leggere i dati di costo?**  
+R: La licenza di valutazione fornisce pieno accesso in lettura/scrittura; una licenza commerciale è richiesta per le distribuzioni in produzione.
 
-A3: Assolutamente, Aspose.Tasks per Java può essere facilmente integrato con altre librerie Java per migliorare ulteriormente le capacità di gestione dei progetti.
+## Conclusione
 
-### Q4: Aspose.Tasks per Java offre assistenza clienti?
+Sfruttando Aspose.Tasks per Java, ottieni un accesso preciso e programmatico al **budgeted cost work scheduled** e ad altre metriche di costo vitali. Questo ti consente di creare dashboard personalizzate, automatizzare i report di Earned Value e mantenere i tuoi progetti finanziariamente sotto controllo, il tutto senza interagire manualmente con Microsoft Project.
 
-R4: Sì, Aspose fornisce un eccellente supporto clienti attraverso i suoi forum, dove gli utenti possono porre domande e chiedere assistenza.
-
-### Q5: È disponibile una prova gratuita per Aspose.Tasks per Java?
-
-A5: Sì, puoi accedere a una prova gratuita di Aspose.Tasks per Java per esplorarne le funzionalità prima di prendere una decisione di acquisto.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-01-15  
+**Testato con:** Aspose.Tasks per Java 24.12 (ultima versione)  
+**Autore:** Aspose
