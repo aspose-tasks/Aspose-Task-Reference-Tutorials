@@ -1,33 +1,47 @@
 ---
-title: Kezelje az MS Project erőforrásköltségeit az Aspose.Tasks for Java segítségével
-linktitle: Kezelje az erőforrásköltséget az Aspose.Tasks-ban
+date: 2026-01-15
+description: Tanulja meg, hogyan dolgozhat a Microsoft Project fájlokban ütemezett
+  költségvetett munkával az Aspose.Tasks for Java segítségével. Kövesse lépésről‑lépésre
+  útmutatónkat.
+linktitle: Handle Resource Cost in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan kezelheti hatékonyan az MS Project erőforrásköltségeit az Aspose.Tasks for Java segítségével. Kövesse lépésenkénti útmutatónkat.
-weight: 18
+title: Költségvetett költségű munka ütemezése az Aspose.Tasks for Java-val
 url: /hu/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kezelje az MS Project erőforrásköltségeit az Aspose.Tasks for Java segítségével
+# Ütemezett költségvetési munka (BCWS) az Aspose.Tasks for Java segítségével
 
 ## Bevezetés
 
-projektmenedzsmentben az erőforrásköltségek nyomon követése és kezelése kulcsfontosságú a projektek költségvetésen belül tartásához és a jövedelmezőség biztosításához. Az Aspose.Tasks for Java hatékony eszközöket kínál a Microsoft Project erőforrásköltségeinek hatékony kezelésére. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet hatékonyan kezelni az erőforrásköltségeket az Aspose.Tasks for Java használatával, az egyes lépéseket könnyen követhető utasításokra bontva.
+A **budgeted cost work scheduled** (BCWS) kezelése elengedhetetlen a projekt nyomon követéséhez és ahhoz, hogy a pénzügyi előrejelzés összhangban legyen a tervezett munkával. A Microsoft Projectben a BCWS azt a pénzösszeget jelöli, amelyet a megadott dátumig ütemezett munkára el kellett volna költeni. Az Aspose.Tasks for Java teljes programozási vezérlést biztosít ezek felett az értékek felett, lehetővé téve a forrásköltségek olvasását, módosítását és jelentéskészítését anélkül, hogy manuálisan megnyitná a .mpp fájlt. Ebben az útmutatóban egy komplett példán keresztül mutatjuk be, hogyan töltsünk be egy projektet, járjuk be annak erőforrásait, és jelenítsük meg az ütemezett költségvetési munkát a többi kulcsfontosságú költségmutatóval együtt.
+
+## Gyors válaszok
+- **Mit jelent a BCWS?** Budgeted Cost Work Scheduled – a tervezett költség a napig ütemezett munkára.  
+- **Melyik API‑tulajdonság adja vissza a BCWS‑t?** `Rsc.BCWS` egy `Resource` objektumon.  
+- **Szükségem van licencre a minta futtatásához?** Egy ingyenes értékelő licenc elegendő a teszteléshez; a teljes licenc a termeléshez kötelező.  
+- **Módosíthatom a BCWS értékeket?** Igen, a `Rsc.BCWS` mezőt bármely más numerikus mezőhöz hasonlóan beállíthatja.  
+- **Mely Project‑verziók támogatottak?** Minden Microsoft Project verzió 2000‑től a legújabb .mpp formátumig.
+
+## Mi az ütemezett költségvetési munka (BCWS)?
+
+**Budgeted Cost Work Scheduled (BCWS)** egy teljesítménymutató, amely azt a költséget tükrözi, amelyet a megadott időpontig tervezett munkáért el kellett volna költeni. Az Earned Value Management (EVM) egyik alappillére, és segít a projektmenedzsereknek a tervezett és a tényleges kiadások összehasonlításában.
 
 ## Előfeltételek
 
-Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy:
 
-1. A Java programozás alapvető ismerete.
-2. Az Aspose.Tasks telepítése Java-hoz.
-3. Microsoft Project fájlok (.mpp) ismerete.
+1. Jól ismeri a Java alapjait.  
+2. Az Aspose.Tasks for Java hozzá van adva a projekthez (Maven/Gradle vagy JAR).  
+3. Van egy Microsoft Project fájlja (`.mpp`), amely tartalmaz költségadatokkal rendelkező erőforrásokat (pl. *ResourceCosts.mpp*).
 
-## Csomagok importálása
+## Importálás csomagok
 
-Először is importálnia kell a szükséges csomagokat az Aspose.Tasks for Java használatához. Adja hozzá a következő importálási utasításokat a Java fájlhoz:
+Először importálja az Aspose.Tasks osztályait, amelyek a projektek és erőforrások kezeléséhez szükségesek:
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,33 +49,31 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-Bontsuk fel a példakódot több lépésre:
-
-## 1. lépés: Határozza meg az adatkönyvtárat
+## 1. lépés: Adatkönyvtár meghatározása
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
- Cserélje ki`"Your Data Directory"` az MS Project fájl elérési útjával.
+Cserélje le a `"Your Data Directory"` értéket arra az abszolút vagy relatív útvonalra, ahol a *ResourceCosts.mpp* található.
 
-## 2. lépés: Töltse be az MS Project fájlt
+## 2. lépés: MS Project fájl betöltése
 
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
 
- Újat csinálni`Project` objektumot az MS Project fájl betöltésével az elérési út használatával.
+A `Project` konstruktor beolvassa a .mpp fájlt, és egy memóriában tárolt reprezentációt hoz létre, amelyet lekérdezhet.
 
-## 3. lépés: Ismétlés az erőforrásokon keresztül
+## 3. lépés: Erőforrások bejárása
 
 ```java
 for (Resource res : prj.getResources()) {
 ```
 
-Ismételje meg a projekt minden erőforrását.
+Ez a ciklus végigjárja a projektben definiált összes erőforrást, és hozzáférést biztosít azok költségmezőihez.
 
-## 4. lépés: Ellenőrizze az erőforrás nevét és a költségeket
+## 4. lépés: Erőforrás neve és költségei ellenőrzése
 
 ```java
 if (res.get(Rsc.NAME) != null) {
@@ -72,36 +84,59 @@ if (res.get(Rsc.NAME) != null) {
 }
 ```
 
-Ellenőrizze, hogy az erőforrás neve nem nulla-e, majd nyomtassa ki a költségekkel kapcsolatos attribútumait, például a költséget, az elvégzett munka tényleges költségét (ACWP), az ütemezett munka költségkeretét (BCWS) és az elvégzett munka költségvetési költségét (BCWP).
+Az `if` blokkban:
 
-## Következtetés
+* Kiírjuk a **teljes költséget** (`Rsc.COST`).  
+* Kiírjuk a **ténylegesen elvégzett munka költségét** (`Rsc.ACWP`).  
+* Kiírjuk az **ütemezett költségvetési munkát** (`Rsc.BCWS`) – ez a fő mutató, amelyre fókuszálunk.  
+* Kiírjuk a **ténylegesen elvégzett költségvetési munkát** (`Rsc.BCWP`).
 
-Az erőforrásköltségek hatékony kezelése elengedhetetlen a projekt sikeréhez, és az Aspose.Tasks for Java leegyszerűsíti ezt a folyamatot robusztus funkcióival. Az ebben az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti az erőforrásköltségeket a Microsoft Project fájlokban az Aspose.Tasks for Java használatával.
+E négy érték gyors áttekintést nyújt a projekt pénzügyi állapotáról.
 
-## GYIK
+## Miért fontos az ütemezett költségvetési munka (BCWS) nyomon követése
 
-### 1. kérdés: Az Aspose.Tasks for Java kezelheti az összetett projektstruktúrákat?
+* **Korai figyelmeztetés:** Ha a BCWS lényegesen magasabb a tényleges költségnél, erőforrásokat túlzottan allokálhat.  
+* **Earned Value elemzés:** A BCWS kulcsfontosságú bemenet a Cost Variance (CV) és a Schedule Variance (SV) számításához.  
+* **Előrejelzés:** A pontos BCWS adatok segítenek a jövőbeni cash‑flow igények előrejelzésében és a stakeholder‑jelentésekben.
 
-1. válasz: Igen, az Aspose.Tasks for Java átfogó támogatást nyújt összetett projektstruktúrák kezeléséhez, beleértve az erőforrásokat, feladatokat és hozzárendeléseket.
+## Gyakori problémák és hibaelhárítás
 
-### 2. kérdés: Az Aspose.Tasks for Java kompatibilis a Microsoft Project fájlok különböző verzióival?
+| Tünet | Valószínű ok | Megoldás |
+|-------|--------------|----------|
+| `null` jelenik meg a BCWS‑nél | Az erőforrásnak nincs költségár táblázata definiálva | Definiáljon költségár táblázatot az erőforrás számára a Microsoft Projectben, vagy állítsa be programozottan a `Rsc.COST_RATE_TABLE` segítségével |
+| `ArrayIndexOutOfBoundsException` erőforrások bejárásakor | A projektfájl sérült vagy üres erőforrásbejegyzéseket tartalmaz | Ellenőrizze a .mpp fájlt a Microsoft Projectben, és távolítsa el az üres erőforrásokat |
+| Váratlan értékek (pl. negatív BCWS) | Egyedi mezők felülírják a szabványos költségmezőket | Győződjön meg arról, hogy a szabványos `Rsc.BCWS` mezőt használja, és nem egy azonos nevű egyedi mezőt |
 
-2. válasz: Igen, az Aspose.Tasks for Java támogatja a Microsoft Project fájlok különféle verzióit, így biztosítja a kompatibilitást a különböző környezetekben.
+## Gyakran ismételt kérdések
 
-### 3. kérdés: Integrálhatom az Aspose.Tasks for Java-t más Java könyvtárakkal?
+**Q: Programozottan frissíthetem a BCWS értékét?**  
+A: Igen. Használja a `res.set(Rsc.BCWS, newValue)` metódust, majd mentse a projektet a `prj.save("Updated.mpp")` paranccsal.
 
-3. válasz: Természetesen az Aspose.Tasks for Java könnyen integrálható más Java-könyvtárakba a projektkezelési képességek továbbfejlesztése érdekében.
+**Q: Az Aspose.Tasks támogatja a többvalutás projekteket?**  
+A: Teljes mértékben. A költségmezők tiszteletben tartják a projektfájlban definiált pénznembeállításokat.
 
-### 4. kérdés: Az Aspose.Tasks for Java kínál ügyfélszolgálatot?
+**Q: Van mód ezeknek a költségmutatóknak CSV‑be exportálására?**  
+A: Az erőforrások bejárása közben az értékeket egy `StringBuilder`‑be írhatja, vagy használhat CSV‑könyvtárat a fájl generálásához.
 
-4. válasz: Igen, az Aspose kiváló ügyfélszolgálatot biztosít fórumain keresztül, ahol a felhasználók kérdéseket tehetnek fel és segítséget kérhetnek.
+**Q: Miben különbözik a BCWS a BCWP‑től?**  
+A: A BCWS a tervezett költség az ütemezett munkára, míg a BCWP (Budgeted Cost Work Performed) a tervezett költség a ténylegesen befejezett munkára vonatkozik.
 
-### 5. kérdés: Elérhető az Aspose.Tasks for Java ingyenes próbaverziója?
+**Q: Szükség van speciális licencre a költségadatok olvasásához?**  
+A: Az értékelő licenc teljes olvasási/írási hozzáférést biztosít; a kereskedelmi licenc a termelési környezetben kötelező.
 
-5. válasz: Igen, hozzáférhet az Aspose.Tasks for Java ingyenes próbaverziójához, hogy a vásárlási döntés meghozatala előtt felfedezze annak funkcióit.
+## Összegzés
+
+Az Aspose.Tasks for Java használatával pontos, programozott hozzáférést kap a **budgeted cost work scheduled** és más fontos költségmutatókhoz. Ez lehetővé teszi egyedi irányítópultok építését, az Earned Value jelentések automatizálását, és a projektek pénzügyi nyomon követését – mindezt anélkül, hogy manuálisan kellene kezelnie a Microsoft Projectet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose
