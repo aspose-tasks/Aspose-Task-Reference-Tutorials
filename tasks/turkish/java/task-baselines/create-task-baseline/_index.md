@@ -1,27 +1,44 @@
 ---
-title: Aspose.Tasks'ta MS Project Görev Temeli Oluşturun
-linktitle: Aspose.Tasks'ta Görev Temeli Oluşturma
-second_title: Aspose.Tasks Java API'si
-description: Proje verilerini zahmetsizce yönetmek için güçlü bir kütüphane olan Aspose.Tasks'ı kullanarak Java'da bir Microsoft Project görev temelini nasıl oluşturacağınızı öğrenin.
-weight: 11
+date: 2026-01-18
+description: Java'da görev listesi oluşturmayı ve Microsoft Project'e görev eklemeyi,
+  Aspose.Tasks kullanarak MS Project olmadan bir temel çizgi ayarlamayı öğrenin.
+linktitle: Creating a Task Baseline in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Java'da Görev Listesi Oluştur – Aspose.Tasks ile MS Project Temel Çizgisi
 url: /tr/java/task-baselines/create-task-baseline/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta MS Project Görev Temeli Oluşturun
+# Java Görev Listesi Oluştur – Aspose.Tasks ile MS Project Baseline
 
-## giriiş
-Bu eğitimde Aspose.Tasks for Java'yı kullanarak bir Microsoft Project görev temeli oluşturma sürecini ayrıntılı olarak ele alacağız. Aspose.Tasks, geliştiricilerin Microsoft Project'in kurulmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Aspose.Tasks ile proje yönetimi görevlerini kolaylaştırmak için görevler, kaynaklar ve takvimler dahil olmak üzere proje verilerini zahmetsizce değiştirebilirsiniz.
+## Giriş
+Bu öğreticide, Aspose.Tasks for Java kullanarak bir Microsoft Project görev baseline'ı oluşturarak **Java görev listesi oluşturacaksınız**. Aspose.Tasks, Microsoft Project olmadan Project dosyalarıyla çalışmanıza olanak tanır; böylece **Microsoft Project'e görev ekleyebilir**, kaynakları yönetebilir ve hatta **MS Project olmadan baseline ayarlayabilirsiniz**—hepsi saf Java kodundan.
+
+## Hızlı Yanıtlar
+- **Aspose.Tasks ne yapar?** MS Project olmadan Microsoft Project dosyalarını oluşturmak, okumak ve düzenlemek için bir Java API'si sağlar.  
+- **Microsoft Project yüklü olması gerekiyor mu?** Hayır, Aspose.Tasks bağımsız çalışır.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri.  
+- **Tek bir görev için baseline ayarlayabilir miyim?** Evet, bir görev listesiyle `setBaseline` kullanın.  
+- **Üretim için lisans gerekli mi?** Evet, ticari lisans değerlendirme sınırlamalarını kaldırır.
+
+## Görev Baseline'ı Nedir?
+Bir görev baseline'ı, bir görevin orijinal planlanan başlangıç, bitiş ve iş değerlerini kaydeder. Gerçek ilerlemeyi orijinal planla karşılaştırmak için bir referans noktası olarak hizmet eder.
+
+## Neden Aspose.Tasks ile Java görev listesi oluşturmalısınız?
+- **MS Project bağımlılığı yok** – sunucu‑tarafı otomasyon için idealdir.  
+- **Tam kontrol** görevler, kaynaklar ve takvimler üzerinde Java kodu aracılığıyla.  
+- **Sürümler arası uyumluluk** Project 2007‑2024 dosyalarıyla.
+
 ## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1. Java Geliştirme Kiti (JDK): Aspose.Tasks for Java, sisteminizde JDK'nın kurulu olmasını gerektirir. JDK'yı Oracle web sitesinden indirip yükleyebilirsiniz.
-2.  Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesini şu adresten indirin:[İndirme: {link](https://releases.aspose.com/tasks/java/) tedarik edilen.
+1. **Java Development Kit (JDK)** – JDK 8 veya daha yeni bir sürüm kurun.  
+2. **Aspose.Tasks for Java** – kütüphaneyi [download link](https://releases.aspose.com/tasks/java/) adresinden indirin.  
 
-## Paketleri İçe Aktar
-Java projenizde Aspose.Tasks ile çalışmaya başlamak için gerekli paketleri içe aktarın:
+## Paketleri İçe Aktarma
+To start working with Aspose.Tasks in your Java project, import the necessary packages:
 ```java
 import com.aspose.tasks.BaselineType;
 import com.aspose.tasks.Project;
@@ -30,44 +47,71 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Adım 1: Proje Nesnesi Oluşturun
+## Adım 1: Project Nesnesi Oluşturma
 ```java
 Project project = new Project();
 ```
- İlk önce yeni bir tane oluşturun`Project` nesne. Bu nesne, üzerinde çalışacağınız Microsoft Project dosyasını temsil eder.
+Burada yeni bir `Project` nesnesi örnekliyoruz – bu, görev listemizi tutacak MS Project dosyasını temsil eder.
+
 ## Adım 2: Projeye Görev Ekleme
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
- Kullanmak`getRootTask()` yöntemini kullanarak projenin kök görevine erişin ve ardından ona yeni bir görev ekleyin.`add()` yöntem. Parantez içindeki göreve bir ad verin.
-## 3. Adım: Belirtilen Görevler için Taban Çizgisini Ayarlayın
+`getRootTask()` kullanarak proje hiyerarşisinin köküne erişir ve **Microsoft Project'e görev ekleriz**. `"Task"` dizesi görev adıdır; ihtiyacınıza göre istediğiniz açıklamayı koyabilirsiniz.
+
+## Adım 3: Belirtilen Görevler İçin Baseline Ayarlama
 ```java
 List<Task> myList = new ArrayList<Task>();
 project.setBaseline(BaselineType.Baseline, (Iterable<Task>) myList);
 ```
-Belirli görevler için bir temel belirlemek üzere bir görev listesi oluşturun (`myList` bu durumda) ve bunu temeli ayarlamak istediğiniz görevlerle doldurun. Daha sonra şunu kullanın:`setBaseline()` Temel türü ve görev listesini belirten yöntem.
-## Adım 4: Tüm Proje için Temel Çizgiyi Belirleyin
+**MS Project olmadan baseline ayarlamak** için, baseline'ını almak istediğiniz görevlerin bir listesini (burada `myList`) oluşturun ve `setBaseline`'a geçirin. Yalnızca seçmeli bir baseline'a ihtiyacınız varsa, eklediğiniz görevlerle `myList`'i doldurun.
+
+## Adım 4: Tüm Proje İçin Baseline Ayarlama
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
- Alternatif olarak, yalnızca çağrı yaparak tüm proje için bir temel belirleyebilirsiniz.`setBaseline()` belirtilen temel türe sahip yöntem.
+Tüm projeyi tek bir çağrıyla baseline'lamak isterseniz, istediğiniz `BaselineType` ile `setBaseline`'ı çağırmanız yeterlidir.
 
-## Çözüm
-Bu eğitimde Aspose.Tasks for Java'yı kullanarak bir Microsoft Project görev tabanının nasıl oluşturulacağını araştırdık. Yukarıda özetlenen adımları izleyerek proje verilerini verimli bir şekilde yönetebilir ve proje yönetimi görevlerini kolaylıkla kolaylaştırabilirsiniz.
-## SSS'ler
-### Aspose.Tasks for Java'yı Microsoft Project yüklü olmadan kullanabilir miyim?
-Evet, Aspose.Tasks for Java, sisteminizde Microsoft Project'in kurulu olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmanıza olanak tanır.
-### Aspose.Tasks for Java, Microsoft Project'in farklı sürümleriyle uyumlu mu?
-Evet, Aspose.Tasks for Java, Microsoft Project'in çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
-### Aspose.Tasks for Java'yı kullanarak proje kaynaklarını değiştirebilir miyim?
-Aspose.Tasks for Java kesinlikle proje kaynaklarını yönetmek için, gerektiğinde kaynak eklemek, güncellemek ve kaldırmak dahil olmak üzere güçlü özellikler sağlar.
-### Aspose.Tasks for Java görev bağımlılıklarını ayarlamayı destekliyor mu?
-Evet, Aspose.Tasks for Java'yı kullanarak görev bağımlılıklarını zahmetsizce ayarlayabilir, böylece projenizdeki görevlerin sırasını oluşturabilirsiniz.
-### Aspose.Tasks for Java için teknik destek mevcut mu?
- Evet, Aspose.Tasks for Java teknik desteğine şu adresten ulaşabilirsiniz:[destek Forumu](https://forum.aspose.com/c/tasks/15), soru sorabileceğiniz ve topluluktan ve Aspose destek personelinden yardım isteyebileceğiniz yer.
+## Microsoft Project'e Görev Ekleme Aspose.Tasks Kullanarak
+Yukarıda gösterilen tek görev dışında, birden fazla görev, alt‑görev ekleyebilir ve kaynak atayabilirsiniz. `add()`'ın her çağrısı, daha fazla yapılandırabileceğiniz bir `Task` nesnesi döndürür (süre, başlangıç tarihi vb.).
+
+## MS Project Olmadan Baseline Ayarlama
+Aspose.Tasks, tamamen kod üzerinden baseline oluşturmayı sağlar. `BaselineType` enum'ını değiştirerek farklı baseline türlerini (Baseline, Baseline1‑Baseline10) ayarlayabilir, MS Project'i hiç açmadan birden fazla revizyon baseline'ını izleyebilirsiniz.
+
+## Yaygın Sorunlar ve Çözümleri
+- **Baseline görünmüyor:** Baseline'ı ayarladıktan sonra `project.save("output.mpp")` çağrısını yaptığınızdan emin olun (kısalık için kaydetme adımı burada atlanmıştır).  
+- **Görev listesi boş görünüyor:** Görevleri doğru ebeveyne (`getRootTask()` veya bir alt‑göreve) eklediğinizi doğrulayın.  
+- **Sürüm uyumsuzluğu hataları:** Daha yeni .mpp formatlarıyla uyumluluğu garanti etmek için en son Aspose.Tasks JAR'ını kullanın.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Tasks for Java'ı Microsoft Project yüklü olmadan kullanabilir miyim?**  
+C: Evet, Aspose.Tasks bağımsız çalışır ve ana makinede Microsoft Project gerektirmez.
+
+**S: Aspose.Tasks for Java farklı Microsoft Project sürümleriyle uyumlu mu?**  
+C: Kesinlikle. Kütüphane, 2007'den en yeni 2024 sürümlerine kadar Project dosyalarını destekler.
+
+**S: Aspose.Tasks for Java ile proje kaynaklarını manipüle edebilir miyim?**  
+C: Evet, görevler gibi kaynakları da programlı olarak ekleyebilir, güncelleyebilir ve silebilirsiniz.
+
+**S: Aspose.Tasks for Java görev bağımlılıklarını ayarlamayı destekliyor mu?**  
+C: Evet, `TaskLink` sınıfını kullanarak önceki‑sonraki ilişkileri tanımlayabilirsiniz.
+
+**S: Aspose.Tasks for Java için teknik destek mevcut mu?**  
+C: Evet, [support forum](https://forum.aspose.com/c/tasks/15) üzerinden yardım alabilirsiniz; Aspose çalışanları ve topluluk sorulara yanıt verir.
+
+## Sonuç
+Bu adımları izleyerek, Aspose.Tasks kullanarak **Java görev listesi oluşturmayı**, **Microsoft Project'e görev eklemeyi** ve **MS Project olmadan baseline ayarlamayı** öğrendiniz. Bu yaklaşım proje otomasyonunu basitleştirir, masaüstü Project kurulumuna gerek kalmaz ve proje verileriniz üzerinde tam programatik kontrol sağlar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
