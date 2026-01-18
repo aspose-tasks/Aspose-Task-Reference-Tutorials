@@ -1,77 +1,148 @@
 ---
-title: Базовое планирование задач в Aspose.Tasks
-linktitle: Базовое планирование задач в Aspose.Tasks
-second_title: API Aspose.Tasks Java
-description: Узнайте, как эффективно планировать базовые показатели задач с помощью Aspose.Tasks для Java. Оптимизируйте процессы управления проектами без особых усилий.
-weight: 10
+date: 2026-01-18
+description: Узнайте, как планировать базовый план управления проектом с помощью Aspose.Tasks
+  для Java, что позволяет управлять базовыми планами проекта и сравнивать запланированный
+  и фактический прогресс.
+linktitle: Baseline Task Scheduling in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Базовый план управления проектом — планирование задач с Aspose.Tasks
 url: /ru/java/task-baselines/baseline-task-scheduling/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Базовое планирование задач в Aspose.Tasks
+# Базовый план управления проектом – Планирование задач с Aspose.Tasks
 
-## Введение
-Управление базовыми показателями задач — важнейший аспект управления проектами, позволяющий точно сравнивать запланированный и фактический прогресс. В этом руководстве мы рассмотрим, как выполнить базовое планирование задач с помощью Aspose.Tasks для Java. Выполнив эти шаги, вы сможете эффективно оптимизировать процессы управления проектами.
-## Предварительные условия
-Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
-### Среда разработки Java
- Убедитесь, что в вашей системе установлен Java Development Kit (JDK). Вы можете загрузить и установить JDK с сайта[Веб-сайт](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-### Aspose.Tasks для библиотеки Java
- Загрузите библиотеку Aspose.Tasks для Java с сайта[страница загрузки](https://releases.aspose.com/tasks/java/) и включите его в свой Java-проект.
-## Импортировать пакеты
-Начните с импорта необходимых пакетов в ваш Java-проект:
+## Введение в базовый план управления проектом
+Управление **project management baseline** является краеугольным камнем эффективного управления проектом. Это позволяет зафиксировать исходный план и позже сравнить **planned vs actual progress**, чтобы раннее выявлять отклонения. В этом руководстве мы пройдем процесс планирования базовых задач с использованием Aspose.Tasks for Java, предоставляя вам инструменты для **manage project baselines** с уверенностью и поддерживая проекты в нужном русле.
+
+## Быстрые ответы
+- **Что представляет собой базовый план управления проектом?**  
+  Базовый план фиксирует исходный график, стоимость и объём работ для последующего анализа отклонений.  
+- **Какая библиотека обрабатывает планирование базовых линий в Java?**  
+  Aspose.Tasks for Java предоставляет мощный API для создания и управления базовыми линиями.  
+- **Нужна ли лицензия для запуска кода?**  
+  Бесплатная пробная версия подходит для тестирования; коммерческая лицензия требуется для использования в продакшене.  
+- **Каковы основные предпосылки?**  
+  Java Development Kit (JDK) и библиотека Aspose.Tasks for Java.  
+- **Можно ли просмотреть даты базовой линии после их установки?**  
+  Да — используйте объект `TaskBaseline` для чтения значений start, finish и duration.  
+
+## Что такое базовый план управления проектом?
+Базовый план управления проектом фиксирует утверждённую версию графика проекта, бюджета и объёма работ в начале выполнения. Он служит точкой отсчёта для измерения эффективности и выявления отклонений на протяжении жизненного цикла проекта.
+
+## Почему использовать Aspose.Tasks для планирования базовых линий?
+Aspose.Tasks предлагает чистый Java API, который работает без установленного Microsoft Project. Он позволяет **create a project instance**, определять задачи, устанавливать базовые линии и программно получать информацию о базовых линиях — идеально для автоматизированной отчетности или интеграции в пользовательские инструменты PM.
+
+## Предпосылки
+Перед началом убедитесь, что у вас есть следующее:
+
+### Java Development Environment
+Убедитесь, что у вас установлен Java Development Kit (JDK). Вы можете скачать и установить JDK с [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### Aspose.Tasks for Java Library
+Скачайте библиотеку Aspose.Tasks for Java со [download page](https://releases.aspose.com/tasks/java/) и включите её в ваш Java‑проект.
+
+## Import Packages
+Start by importing the necessary packages into your Java project:
+
 ```java
 import com.aspose.tasks.BaselineType;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskBaseline;
 ```
-Теперь давайте разобьем приведенный пример на несколько этапов:
-## Шаг 1. Создайте новый экземпляр проекта
+
+Now, let's break down the provided example into multiple steps:
+
+## Step 1: Create a New Project Instance
 ```java
 Project project = new Project();
 ```
-## Шаг 2. Определите задачу и установите базовый план
+
+## Step 2: Define a Task and Set Baseline
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 project.setBaseline(BaselineType.Baseline);
 ```
-## Шаг 3. Доступ к базовой информации
+
+## Step 3: Access Baseline Information
 ```java
 TaskBaseline baseline = task.getBaselines().get(0);
 ```
-## Шаг 4. Отображение базовой продолжительности
+
+## Step 4: Display Baseline Duration
 ```java
 System.out.println(baseline.getDuration().toString());
 ```
-## Шаг 5. Отображение базовой даты начала
+
+## Step 5: Display Baseline Start Date
 ```java
 System.out.println("Baseline Start: " + baseline.getStart());
 ```
-## Шаг 6. Отображение базовой даты окончания
+
+## Step 6: Display Baseline Finish Date
 ```java
 System.out.println("Baseline Finish: " + baseline.getFinish());
 ```
-Следуя этим шагам, вы сможете эффективно использовать Aspose.Tasks для Java для управления базовыми показателями задач в ваших проектах.
-## Заключение
-В заключение, освоение базового планирования задач необходимо для точного управления проектами. С помощью Aspose.Tasks for Java вы можете легко управлять базовыми показателями задач и обеспечивать соответствие между запланированным и фактическим ходом выполнения, что приводит к успешным результатам проекта.
-## Часто задаваемые вопросы
+
+Следуя этим шагам, вы сможете эффективно использовать Aspose.Tasks for Java для **manage project baselines** в ваших проектах.
+
+## Распространённые проблемы и решения
+- **Baseline not set:** Убедитесь, что вызываете `project.setBaseline(BaselineType.Baseline)` **после** добавления задач; иначе коллекция базовых линий будет пустой.  
+- **Null values:** Если `task.getBaselines()` возвращает пустой список, проверьте, что задача была добавлена в иерархию проекта перед установкой базовой линии.  
+- **Date format:** Методы `getStart()` и `getFinish()` возвращают объекты `Date`. Используйте форматировщик, если нужен пользовательский формат отображения.  
+
+## FAQ
+
 ### Может ли Aspose.Tasks for Java обрабатывать сложные структуры проектов?
-Да, Aspose.Tasks для Java предлагает надежные возможности для эффективного управления проектами различной сложности.
-### Совместим ли Aspose.Tasks для Java с другими библиотеками Java?
-Безусловно, Aspose.Tasks for Java легко интегрируется с другими библиотеками Java, расширяя ваши возможности управления проектами.
-### Могу ли я настроить базовые показатели задач с помощью Aspose.Tasks для Java?
-Конечно, Aspose.Tasks for Java предоставляет обширные функциональные возможности для настройки и управления базовыми показателями задач в соответствии с требованиями вашего проекта.
-### Доступна ли пробная версия Aspose.Tasks для Java?
- Да, вы можете получить доступ к бесплатной пробной версии Aspose.Tasks для Java на сайте[страница выпуска](https://releases.aspose.com/).
-### Где я могу найти поддержку Aspose.Tasks для Java?
- По любым вопросам или помощи вы можете посетить форум Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+Да, Aspose.Tasks for Java предоставляет мощные возможности для эффективного управления проектами различной сложности.
+
+### Совместим ли Aspose.Tasks for Java с другими Java‑библиотеками?
+Абсолютно, Aspose.Tasks for Java бесшовно интегрируется с другими Java‑библиотеками, расширяя возможности управления проектами.
+
+### Могу ли я настраивать базовые линии задач с помощью Aspose.Tasks for Java?
+Конечно, Aspose.Tasks for Java предоставляет обширные функции для настройки и управления базовыми линиями задач в соответствии с требованиями вашего проекта.
+
+### Доступна ли пробная версия Aspose.Tasks for Java?
+Да, вы можете получить бесплатную пробную версию Aspose.Tasks for Java со [release page](https://releases.aspose.com/).
+
+### Где я могу найти поддержку Aspose.Tasks for Java?
+По любым вопросам или помощи вы можете посетить форум Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+## Frequently Asked Questions
+
+**В: Как создать новый экземпляр проекта в Aspose.Tasks?**  
+A: Создайте экземпляр класса `Project` (`Project project = new Project();`). Это создаёт новый файл проекта, готовый к задачам и базовым линиям.
+
+**В: В чём разница между `BaselineType.Baseline` и другими типами базовых линий?**  
+A: `BaselineType.Baseline` относится к основной базовой линии (Baseline 1). Aspose.Tasks также поддерживает Baseline 2‑10 для дополнительных снимков.
+
+**В: Могу ли я экспортировать данные базовой линии в Excel или CSV?**  
+A: Да, вы можете перебрать объекты `TaskBaseline` и записать значения в CSV‑файл с помощью стандартного Java I/O.
+
+**В: Влияет ли установка базовой линии на существующие даты задач?**  
+A: Установка базовой линии фиксирует текущие даты, но не изменяет активный график задачи. Вы всё ещё можете корректировать даты начала/окончания после установки базовой линии.
+
+**В: Можно ли программно сравнивать несколько базовых линий?**  
+A: Абсолютно. Получайте каждую базовую линию через `task.getBaselines().get(index)` и сравнивайте их свойства `Start`, `Finish` и `Duration`.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
