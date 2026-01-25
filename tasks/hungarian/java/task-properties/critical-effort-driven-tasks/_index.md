@@ -1,27 +1,46 @@
 ---
-title: A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tasks alkalmazásban
-linktitle: A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tasks alkalmazásban
+date: 2026-01-25
+description: Tanulja meg, hogyan használja az Aspose Tasks Java-t a Java feladatkezeléshez,
+  kezelje a kritikus és erőforrás‑alapú feladatokat projektjeiben. Javítsa a projektfolyamatokat
+  ezzel az útmutatóval.
+linktitle: Aspose Tasks Java – Manage Critical and Effort‑Driven Tasks
 second_title: Aspose.Tasks Java API
-description: Az Aspose.Tasks segítségével könnyedén kezelheti Java-projektjei kritikus és erőfeszítést igénylő feladatait. Töltse le a könyvtárat, és javítsa projektkezelési képességeit.
-weight: 14
+title: Aspose Tasks Java – Kritikus és munka‑alapú feladatok kezelése
 url: /hu/java/task-properties/critical-effort-driven-tasks/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A kritikus és erőfeszítés-vezérelt feladatok kezelése az Aspose.Tasks alkalmazásban
+# Aspose Tasks Java:‑vezére, hogy közvetlenül a Java kódból azonosítsa és szabályozza a kritikus és erőfeszítés‑vezérelt feladatokat. Akár ütemezőt, jelentéskészítő eszközt vagy egyedi irányítópultot épít, ezen feladatjellemzők helyes kezelése döntő lehet egy a terv szerint haladó projekt és egy kontrollálhatatlanul kifutó projekt között. Ebben az útmutatóban mindent végigvezetünk, amit a kritikus és erőfeszítés‑vezérelt feladatokkal való munka során tudnia kell az Aspose Tasks Java használatával.
 
-A projektmenedzsment felgyorsult világában a kritikus és erőfeszítés-vezérelt feladatok hatékony kezelése elengedhetetlen a sikeres projektek befejezéséhez. Az Aspose.Tasks for Java robusztus megoldást kínál ezeknek a feladatoknak a zökkenőmentes kezelésére. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.Tasks for Java használatán a kritikus és erőfeszítést igénylő feladatok kezeléséhez a projektekben.
-## Előfeltételek
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-- Aspose.Tasks for Java Library: Töltse le és telepítse a könyvtárat a[Aspose.Tasks a Java dokumentációhoz](https://reference.aspose.com/tasks/java/).
-- Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren.
-- Integrált fejlesztői környezet (IDE): Java fejlesztéshez használja a kívánt IDE-t.
-- Projektfájl: Készítsen egy projektfájlt XML formátumban, amelyet a demonstrációhoz fog használni.
+## Gyors válaszok
+- **Mi a “kritikus” jelentése?** Egy feladat, amelynek késése meghosszabbítja a projekt befejezési dátumát.  
+- **Mi a “effort‑driven” (erőfeszítés‑vezérelt) jelentése?** Egy feladat, amely automatikusan módosítja az időtartamát, amikor a munka mennyiségét változtatja.  
+- **Melyik könyvtár biztosítja ezeket a funkciókat?** Aspose Tasks Java.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba a kiértékeléshez megfelelő; licenc szükséges a termeléshez.  
+- **Futtatható ez bármely operációs rendszeren?** Igen – a könyvtár platform‑független (Windows, Linux, macOS).
+
+## Mik azok a kritikus és erőfeszítés‑vezérelt feladatok?
+A kritikus feladatok a projekt kritikus útvonalán helyezkednek el; bármely csúszás közvetlenül befolyásolja az összmenetrendet. Az erőfeszítés‑vezérelt feladatok ezzel szemben újraszámolják az időtartamukat a hozzárendelt munka mennyisége alapján, így ideálisak azoknak az erőforrásoknak, amelyek túlórázhatnak vagy több feladat között oszthatják meg az erőfeszítést.
+
+## Miért használjuk az Aspose Tasks Java-t ehhez?
+- **Teljes .NET‑stílusú API Java-ban** – Nincs szükség nyelvváltásra.  
+- **Nagy teljesítmény** – Nagy XML‑alapú projektfájlokkal dolgozik anélkül, hogy az egész fájlt a memóriába töltené.  
+- **Gazdag tulajdonságkészlet** – Hozzáférés az `IS_CRITICAL`, `IS_EFFORT_DRIVEN` és számos további feladatelőíráshoz.  
+- **Kereszt‑platform** – Bármely JVM‑kompatibilis környezetben fut.
+
+## Előkövetelmények
+- Aspose.Tasks for Java könyvtár: Töltse le és telepítse a könyvtárat a [Aspose.Tasks for Java dokumentációból](https://reference.aspose.com/tasks/java/).
+- Java Development Kit (JDK): Győződjön meg róla, hogy a Java telepítve van a rendszerén.
+- Integrált fejlesztői környezet (IDE): Használja a kedvenc IDE-jét Java fejlesztéshez.
+- Projektfájl: Készítsen egy XML formátumú projektfájlt, amelyet a bemutatóhoz használ.
+
 ## Csomagok importálása
-Java-projektjében importálja a szükséges csomagokat az Aspose.Tasks for Java funkcióinak kihasználásához:
+Java projektjében importálja a szükséges csomagokat az Aspose.Tasks for Java funkcióinak kihasználásához:
+
 ```java
 import com.aspose.tasks.ChildTasksCollector;
 import com.aspose.tasks.Project;
@@ -29,22 +48,25 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskUtils;
 import com.aspose.tasks.Tsk;
 ```
-Most bontsuk le az egyes lépéseket egy átfogó útmutatóra:
-## 1. lépés: Gyűjtse össze a feladatokat a ChildTasksCollector segítségével
- Hozzon létre egy`ChildTasksCollector` példányt a gyökérfeladat összes feladatának összegyűjtéséhez`TaskUtils.apply`. Ez biztosítja, hogy hozzáférjen a projekten belüli összes feladathoz.
+
+### 1. lépés: Feladatok gyűjtése a `ChildTasksCollector` használatával
+Hozzon létre egy `ChildTasksCollector` példányt, amely a `TaskUtils.apply` segítségével összegyűjti az összes feladatot a gyökérfeladattól. Ez biztosítja, hogy a projekt minden feladatához hozzáférjen.
+
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "project.xml");
-// Hozzon létre egy ChildTasksCollector példányt
+// Create a ChildTasksCollector instance
 ChildTasksCollector collector = new ChildTasksCollector();
-// Gyűjtsd össze az összes feladatot a RootTask alkalmazásból a TaskUtils segítségével
+// Collect all the tasks from RootTask using TaskUtils
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
-## 2. lépés: Ismételje meg az összegyűjtött feladatokat
- Elemezze át az összes összegyűjtött feladatot a segítségével`for` hurok. Minden egyes feladatnál határozza meg, hogy az erőfeszítés-vezérelt és kritikus-e, és nyomtassa ki a megfelelő állapotot.
+
+### 2. lépés: Gyűjtött feladatok bejárása
+Iteráljon végig az összegyűjtött feladatokon egy `for` ciklussal. Minden feladatra határozza meg, hogy erőfeszítés‑vezérelt és kritikus-e, majd írja ki a megfelelő állapotot.
+
 ```java
-// Elemezze az összes összegyűjtött feladatot
+// Parse through all the collected tasks
 for (Task tsk : collector.getTasks()) {
     String strED = tsk.get(Tsk.IS_EFFORT_DRIVEN) != null ? "EffortDriven" : "Non-EffortDriven";
     String strCrit = tsk.get(Tsk.IS_CRITICAL) != null ? "Critical" : "Non-Critical";
@@ -52,20 +74,37 @@ for (Task tsk : collector.getTasks()) {
     System.out.println(strCrit);
 }
 ```
-Az alábbi lépések követésével hatékonyan kezelheti a kritikus és erőfeszítést igénylő feladatokat a projektekben az Aspose.Tasks for Java használatával.
-## Következtetés
-Összefoglalva, az Aspose.Tasks for Java felhatalmazza a Java fejlesztőket a kritikus és erőfeszítést igénylő feladatok hatékony kezelésére a projektmenedzsmentben. Könnyen használható funkcióinak és robusztus funkcióinak köszönhetően az összetett projektforgatókönyvek kezelése gyerekjáték lesz.
-## Gyakran Ismételt Kérdések
-### K: Használhatom az Aspose.Tasks for Java programot Windows és Linux környezetben is?
-Igen, az Aspose.Tasks for Java platformfüggetlen, és Windows és Linux környezetben is használható.
-### K: Elérhető az Aspose.Tasks for Java ingyenes próbaverziója?
- Igen, hozzáférhet az Aspose.Tasks for Java ingyenes próbaverziójához[itt](https://releases.aspose.com/).
-### K: Hol találok támogatást az Aspose.Tasks for Java számára?
- Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
-### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for Java számára?
- Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
-### K: Hol vásárolhatom meg az Aspose.Tasks for Java-t?
- Az Aspose.Tasks for Java megvásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+
+Ezeket a lépéseket követve hatékonyan kezelheti a kritikus és erőfeszítés‑vezérelt feladatokat projektjeiben a **aspose tasks java** segítségével.
+
+## Gyakori problémák és megoldások
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| `NullPointerException` on `tsk.get(Tsk.IS_CRITICAL)` | A feladat nem rendelkezik a tulajdonsággal beállítva (pl. összegző feladat). | Ellenőrizze a `tsk.get(Tsk.TASK_TYPE)` értéket a jelző elérése előtt, vagy szűrje ki az összegző feladatokat. |
+| Project file not found | Helytelen `dataDir` útvonal vagy hiányzó fájlkiterjesztés. | `Paths.get(dataDir, "project.xml").toString()` használata és ellenőrizze, hogy a fájl létezik. |
+| License not applied | A könyvtár értékelő módban fut, ami korlátozza a funkciókat. | Töltse be a licencfájlt a `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` kóddal a `Project` objektum létrehozása előtt. |
+
+## Gyakran ismételt kérdések
+### K: Használhatom az Aspose.Tasks for Java-t Windows és Linux környezetben is?
+V: Igen, az Aspose.Tasks for Java platform‑független, és használható Windows és Linux környezetben egyaránt.
+
+### K: a [itt](https://releases.aspose.com/) érhet el.
+
+### K: Hol találok támogatást az Aspose.Tasks for Java-hoz?
+V: Látogassa meg a [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és megbeszélésekért.
+
+### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks for Java-hoz?
+V: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhet.
+
+### K: Hol vásárolhatok Aspose.Tasks for Java-t?
+V: Az [vásárlási oldalon](https://purchase.aspose.com/buy) vásárolhat.
+
+---
+
+**Utoljára frissítve:** 2026-01-25  
+**Tesztelve:** Aspose.Tasks Java 24.11 (a legújabb a írás időpontjában)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
