@@ -1,48 +1,75 @@
 ---
-title: Aspose.Tasks 中的擴充任務屬性
-linktitle: Aspose.Tasks 中的擴充任務屬性
+date: 2026-01-28
+description: 學習如何使用 Aspose.Tasks for Java 讀取擴充任務屬性，並有效切換自訂欄位類型。
+linktitle: Read Extended Task Attributes with Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: 探索 Aspose.Tasks for Java 中的擴充任務屬性。逐步指南、常見問題和支援。立即優化您的專案管理！
-weight: 16
+title: 使用 Aspose.Tasks for Java 讀取擴展任務屬性
 url: /zh-hant/java/task-properties/extended-task-attributes/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中的擴充任務屬性
+# 使用 Aspose.Tasks for Java 讀取擴充任務屬性
 
-## 介紹
-歡迎閱讀我們關於在 Aspose.Tasks for Java 中利用擴充任務屬性的綜合指南。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓您無縫地處理 Microsoft Project 文件。在本教程中，我們將深入研究擴展任務屬性，並示範如何利用它們來增強專案管理能力。
+## 簡介
+在本完整教學中，您將學會如何使用 Aspose.Tasks for Java 從 Microsoft Project 檔案 **讀取擴充任務屬性**。無論您是要建立報表工具、同步資料，或只是需要深入了解自訂欄位，此功能都能讓您提取專案中儲存的每一筆資訊。我們將說明必要的設定步驟、示範在處理屬性時如何切換自訂欄位類型，並提供實用技巧以避免常見陷阱。
+
+## 快速回答
+- **「讀取擴充任務屬性」是什麼意思？** 指的是擷取超出 Project 檔案預設任務屬性的自訂欄位值。  
+- **哪個類別提供對這些屬性的存取？** Aspose.Tasks 中的 `ExtendedAttribute` 類別。  
+- **執行程式碼需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **可以在執行時變更屬性類型嗎？** 可以 ─ 透過 `switch` 陳述式根據 `CustomFieldType` **切換自訂欄位類型**。  
+- **此功能支援 Java 8 及以上版本嗎？** 完全支援，API 相容於 JDK 8+。
+
+## 什麼是讀取擴充任務屬性？
+擴充任務屬性是使用者自行定義的欄位（文字、日期、數字、旗標等），用以補足 Microsoft Project 中的標準任務屬性。Aspose.Tasks 透過每個 `Task` 物件所附帶的 `ExtendedAttribute` 集合，讓您以程式方式讀取或修改這些值。
+
+## 為什麼要讀取擴充任務屬性？
+- **完整可視性：** 瞭解利害關係人於排程中加入的自訂資料。  
+- **自動化：** 填充儀表板、產生自訂報表，或將資料遷移至其他系統，免除手動匯出。  
+- **彈性：** 透過適當的處理，可支援任何自訂欄位類型──文字、日期、工期、成本、旗標等。
+
 ## 先決條件
-在我們開始之前，請確保您具備以下先決條件：
-- Java 程式設計的基礎知識。
-- 在您的電腦上安裝了 Java 開發工具包 (JDK)。
-- 整合開發環境 (IDE)，例如 IntelliJ 或 Eclipse。
-## 導入包
-首先匯入必要的套件來啟動您的 Aspose.Tasks 專案：
+在開始之前，請確保您已具備：
+- 具備 Java 程式設計的基本知識。  
+- 在電腦上安裝 Java Development Kit (JDK)。  
+- 使用 IntelliJ IDEA 或 Eclipse 等 IDE。  
+
+## 匯入套件
+首先匯入 Aspose.Tasks 專案所需的類別：
+
 ```java
 import com.aspose.tasks.CustomFieldType;
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 ```
-現在，讓我們將該範例分解為多個步驟來引導您完成該過程：
-## 第 1 步：存取任務和擴充屬性
+
+## 步驟 1：存取任務與擴充屬性
+載入 Project 檔案並遍歷每個任務以取得其擴充屬性：
+
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "ReadTaskExtendedAttributes.mpp");
 for (Task tsk : project.getRootTask().getChildren()) {
     for (ExtendedAttribute ea : tsk.getExtendedAttributes()) {
 ```
-## 步驟 2：檢索欄位 ID 和值 GUID
+
+## 步驟 2：取得欄位 ID 與值 GUID
+列印內部識別碼，以協助了解正在處理的自訂欄位：
+
 ```java
 System.out.println(ea.getFieldId());
 System.out.println(ea.getValueGuid());
 ```
-## 步驟 3：處理不同的屬性類型
+
+## 步驟 3：讀取擴充任務屬性時如何切換自訂欄位類型
+使用 `switch` 陳述式對 `CustomFieldType` 進行切換，以正確處理每種可能的資料類型：
+
 ```java
 switch (ea.getAttributeDefinition().getCfType()) {
     case CustomFieldType.Date:
@@ -65,20 +92,38 @@ switch (ea.getAttributeDefinition().getCfType()) {
         break;
 }
 ```
-對專案中的每個任務重複這些步驟，以探索和操作擴展任務屬性。
-## 結論
-總之，理解並利用 Aspose.Tasks for Java 中的擴充任務屬性可以顯著增強您的專案管理能力。本指南為您開始這趟旅程奠定了堅實的基礎。
-## 經常問的問題
-### 我可以透過程式修改擴展任務屬性嗎？
-是的，您可以使用 Aspose.Tasks for Java 來修改擴充任務屬性。請參閱文件以取得詳細說明。
-### 有試用版嗎？
-是的，您可以免費試用[這裡](https://releases.aspose.com/).
-### 在哪裡可以找到 Aspose.Tasks for Java 的支援？
-如需支持，請訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
-### 我怎麼才能獲得臨時許可證？
-您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-### 在哪裡可以購買完整版的 Aspose.Tasks for Java？
-您可以購買完整版[這裡](https://purchase.aspose.com/buy).
+
+對專案中的每個任務重複上述步驟，以探索與操作所有擴充任務屬性。
+
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **返回空值 (Null)** | 確認自訂欄位在來源 .mpp 檔案中已實際填寫。 |
+| **顯示類型不正確** | 確保在 `switch` 陳述式中使用正確的 `CustomFieldType`；類型不匹配會導致預設值。 |
+| **大型專案效能下降** | 使用 `project.getRootTask().getChildren().stream()` 搭配適當的條件式，將任務分批處理或僅篩選所需的任務。 |
+
+## 常見問答
+### 我可以以程式方式修改擴充任務屬性嗎？
+可以，您可以使用 Aspose.Tasks for Java 修改擴充任務屬性。請參考文件以取得詳細說明。
+
+### 是否提供試用版？
+是的，您可以在此取得免費試用版 [here](https://releases.aspose.com/)。
+
+### 我可以在哪裡取得 Aspose.Tasks for Java 的支援？
+如需支援，請前往 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)。
+
+### 如何取得臨時授權？
+您可以在此取得臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
+
+### 我可以從哪裡購買 Aspose.Tasks for Java 的完整版本？
+您可以在此購買完整版本 [here](https://purchase.aspose.com/buy)。
+
+---
+
+**最後更新：** 2026-01-28  
+**測試環境：** Aspose.Tasks Java API（最新穩定版）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
