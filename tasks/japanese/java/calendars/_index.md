@@ -1,6 +1,7 @@
 ---
-date: 2025-12-02
-description: Aspose.Tasks for Java を使用して、MS Project カレンダーで平日を定義する方法を学びましょう。作業日をカスタマイズし、スケジューリングを改善し、プロジェクト管理の効率を向上させるステップバイステップガイドです。
+date: 2026-02-02
+description: Aspose.Tasks for Java を使用して、MS Project カレンダーで平日を定義する方法を学びましょう。このステップバイステップガイドでは、平日の定義方法、MS
+  Project カレンダーのカスタマイズ方法、そしてプロジェクト管理の効率向上について示します。
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
 title: MS Project カレンダーで平日を定義する方法 – Aspose.Tasks Java
@@ -12,74 +13,60 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# カレンダー
+# Calendars
 
 ## Introduction
 
-If you’re a Java developer looking to **define weekdays** in your project schedule, you’ve come to the right place. In this hub we gather all Aspose.Tasks for Java tutorials that show **how to define weekdays** inside MS Project calendars, adjust working hours, and keep your timelines crystal‑clear. Whether you’re building a new scheduling engine or tweaking an existing plan, mastering weekday definition gives you precise control over work‑day patterns, holidays, and custom shifts.
-
-## Quick Answers
-- **What is the primary purpose of defining weekdays?**  
-  To tell MS Project which days are working days and what their working hours are.
-- **Which library handles weekday definition in Java?**  
-  Aspose.Tasks for Java provides a fluent API for calendar manipulation.
+Java 開発者で、プロジェクトスケジュールに **define weekdays**（平日の定義）をした来ました。このガイドでは、Aspose.Tasks for Java を使用して MS Project カレンダーで **を示整し、タイムラインをクリアに保つための Aspose.Tasks for Java のチュートリアルをすべて集めています。新しいスケジューリングエンジンを構築する場合でも、既存の計画業日パターン、休日、カスタムシフトを正 the業時間が何- **Which library handles weekday definition in Java?**  
+  Aspose.Tasks for Java がカレンダー操作用のフルエント API を提供します。
 - **Do I need a license?**  
-  A free evaluation license works for testing; a commercial license is required for production.
+  無料の評価ライセンスでテストは可能です。商用利用には商用ライセンスが必要です。
 - **Can I define multiple calendars for different teams?**  
-  Yes – each project can contain several calendars, each with its own weekday settings.
-- **Is there a sample project to start from?**  
-  The “Define Weekdays in Calendar” tutorial linked below includes a ready‑to‑run example.
+  はい。各プロジェクトは複数のカレンダーを持ち、各カレンダーに独自の “Define Weekdays in Calendarぐに in MSの日を作業日とみなすかを指定し、開始/終了時刻、残業規則、または例外日を各日ごとに割り当てることです。この情報は、タスクのスケジューリング、リソース割り当て、クリティカルパス計算にプロジェクトライフサイクル全体で影響を与えます。
 
-## What is “defining weekdays” in MS Project?
+## Why Use Aspose.Tasks for Java to Define Weekdays?
+- **Full API control** – UI の制限がなく、プログラムから平日エントリを作成、変更、削除できます。
+- **Cross‑platform** – デスクトップアプリからクラウドサービスまで、JVM 互換環境ならどこでも動作します。
+- **Precision** – 各平日に異なる作業時間を設定し、休日の例外を追加し、複数プロジェクト間でカレンダーを同期できます。
+- **Performance** – UI 全体をロードせずに大規模プロジェクトファイルを操作でき、自動化パイプラインに最適です。
 
-Defining weekdays means specifying which days of the week are considered work days and assigning start/end times, overtime rules, or exceptions for each day. This information drives task scheduling, resource allocation, and critical‑path calculations throughout the project lifecycle.
-
-## Why use Aspose.Tasks for Java to define weekdays?
-
-- **Full API control** – No UI limitations; you can programmatically create, modify, or delete weekday entries.
-- **Cross‑platform** – Works on any JVM‑compatible environment, from desktop apps to cloud services.
-- **Precision** – Set different working times for each weekday, add exceptions for holidays, and synchronize calendars across multiple projects.
-- **Performance** – Manipulate large project files without loading the entire UI, ideal for automated pipelines.
-
-## Prerequisites
-- Java 8 or higher installed.
-- Aspose.Tasks for Java library (downloaded from the Aspose website or added via Maven/Gradle).
-- A valid Aspose.Tasks license (evaluation license works for learning).
+## Customize MS Project Calendar
+Aspose.Tasks を使用すると、デの作業週を超えて **customize MS Project calendar** 設定を行えます。日々の作業時間を調整したり、シフトを分割したり、特定チーム向けにユニークカレンダーを定義 8リイセンス（評価ライセンスでも学習は可能）。
 
 ## Manage MS Project Calendar Properties in Aspose.Tasks
-Unlock the full potential of managing MS Project calendar properties in Java with Aspose.Tasks. Our tutorial walks you through the intricacies of calendar management, offering valuable insights into customization and optimization. From adjusting working hours to defining special dates, you'll master it all.
+Java で Aspose.Tasks を使い、MS Project カレンダーのプロパティ管理の可能性を最大限に引き出しましょう。本チュートリアルでは、カレンダー管理の詳細を順を追って解説し、カスタマイズと最適化に関する貴重な洞察を提供します。作業時間の調整から特なの定義まで、すべてをマスターできます。
 
 Ready to take control of your project timelines? [Explore the tutorial here](./properties/).
 
 ## Create MS Project Calendars using Aspose.Tasks
-Effortlessly streamline your project management with the creation of MS Project calendars using Aspose.Tasks for Java. Our tutorial simplifies the process, ensuring you can set up calendars tailored to your project's unique needs. Take the first step towards efficient project planning and organization.
+Aspose.Tasks for Java を使って MS Project カレンダーを作成し、プロジェクト管理をスムーズにしましょう。本チュートリアルはプロセスをシンプルにし、プロジェクト固有のニーズに合わせたカレンダー設定を簡単に行えるようにします。効率的なプロジェクト計画と組織化への第一歩を踏み出しましょう。
 
 Ready to create calendars with ease? [Check out the tutorial](./create/).
 
 ## Define Weekdays in Calendar with Aspose.Tasks
-Customize your MS Project calendars by defining weekdays using Aspose.Tasks for Java. This tutorial guides you through the process of tailoring working days and timings, offering you the flexibility needed for successful project management. Make your calendars work for you.
+Aspose.Tasks for Java を使用して MS Project カレンダーの平順を案内し、カレンダーをあなたのため働せましょう。
 
 Ready to define weekdays effortlessly? [Get started here](./define-weekdays/).
 
 As you navigate through these tutorials, you'll discover additional topics covering working hours extraction, standard calendar creation, reading work weeks, and updating calendars to MPP format. Each tutorial is crafted to provide you with practical knowledge, ensuring you can apply what you learn directly to your Java projects.
 
 ## Get Working Hours from Calendar using Aspose.Tasks
-Simplify your project management tasks by extracting working hours from MS Project calendars using Aspose.Tasks for Java. This tutorial equips you with the skills needed to optimize your project timelines efficiently.
+Aspose.Tasks for Java を使用して MS Project カレンダーから作業時間を抽出し、プロジェクト管理タスクを簡素化しましょう。このチュートリアルで、プロジェクトタイムラインを効率的に最適化するスキルを身につけられます。
 
 Ready to extract working hours effortlessly? [Explore the tutorial](./working-hours/).
 
 ## Make Standard Calendar in Aspose.Tasks
-Enhance your project management capabilities by learning how to create a standard MS Project calendar in Java with Aspose.Tasks. This step‑by‑step tutorial ensures you can implement a standardized approach to your project timelines.
+Aspose.Tasks を使って Java で標準的な MS Project カレンダーを作成する方法を学び、プロジェクト管理能力向上させましょう。このステップバイステップのチュートリアルで、標準化されたタイムラインアプローチを実装できます。
 
 Ready to create a standard calendar? [Check out the tutorial](./make-standard/).
 
 ## Read Work Weeks from MS Project Calendar with Aspose.Tasks
-Gain comprehensive insights into reading work weeks from MS Project calendars using Aspose.Tasks for Java. This tutorial offers detailed instructions, empowering you to manage your project schedules effectively.
+Aspose.Tasks for Java を使用して MS Project カレンダーから作業週を読み取る方法を包括的に学びましょう。このチュートリアルは詳細な手順を提供し、プロジェクトスケジュールを効果的に管理できるよう支援します。
 
 Ready to read work weeks effortlessly? [Get started here](./read-work-weeks/).
 
 ## Update MS Project Calendars to MPP Format with Aspose.Tasks
-Effortlessly update MS Project calendars to MPP format using Aspose.Tasks for Java. This tutorial provides a seamless approach to ensure your project data is in the right format for optimal compatibility.
+Aspose.Tasks for Java を使って MS Project カレンダーを MPP 形式にシームレスに更新しましょう。このチュートリアルは、プロジェクトデータを最適な互換性のある形式に保つための手順を提供します。
 
 Ready to update calendars to MPP format? [Explore the tutorial](./update-to-mpp/).
 
@@ -120,7 +107,7 @@ A: All recent versions (20.10 and later) support full weekday APIs. We recommend
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
 
