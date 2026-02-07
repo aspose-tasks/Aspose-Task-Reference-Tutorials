@@ -1,7 +1,7 @@
 ---
-date: 2025-12-05
+date: 2026-02-07
 description: Aspose.Tasks for Java를 사용하여 MS Project 파일에서 통화 코드, 숫자 및 기호를 관리하는 방법을
-  배워보세요. 완벽한 프로젝트 재무 처리를 위한 단계별 튜토리얼.
+  배우세요. 완벽한 프로젝트 재무 처리를 위한 단계별 튜토리얼.
 linktitle: Currency
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks와 함께 Java에서 통화 코드 관리
@@ -33,7 +33,7 @@ If you need to **manage currency codes java** in Microsoft Project files, Aspose
 
 ## What is “manage currency codes java”?
 
-Managing currency codes in Java means using Aspose.Tasks to retrieve or assign the ISO 4217 currency identifier (e.g., **USD**, **EUR**, **JPY**) that MS Project uses for cost calculations. This identifier drives how the software formats monetary values throughout the project.
+Managing currency codes in Java means using Aspose.Tasks to retrieve or assign the ISO 4217 currency identifier (e.g., **USD**, **EUR**, **JPY**) that MS Project uses for cost calculations. This identifier drives how the software formats monetary values throughout the project.
 
 ## Why use Aspose.Tasks for currency handling?
 
@@ -65,11 +65,17 @@ Imagine a world where you effortlessly handle currency digits, leaving no room f
 
 ## Effortless Currency Symbols Manipulation  
 
-Ready to take your project management skills to the next level? Learn [Currency Symbols Manipulation in Aspose.Tasks for Java](./currency-symbols/) with our user‑friendly guide. We provide easy steps to manipulate currency symbols in MS Project files.
+Ready to take your project management skills to the next level? Learn [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/) with our user‑friendly guide. We provide easy steps to manipulate currency symbols in MS Project files.
 
 Navigating the tutorial, you'll discover the power of Aspose.Tasks for Java in simplifying currency symbol manipulation. Say goodbye to the days of confusion and hello to efficient project management. Our step‑by‑step guide ensures you grasp every nuance.
 
-In conclusion, Aspose.Tasks for Java empowers you to become a currency management maestro. Whether it's codes, digits, or symbols, our tutorials have you covered. Navigate the complexities effortlessly, and enhance your project management skills today!
+## Currency Code Tutorial Java – Deep Dive  
+
+If you’re searching for a **currency code tutorial java**, this section consolidates the essential concepts you need. We’ll recap how to read the current code with `Project.getCurrencyCode()`, update it using `Project.setCurrencyCode("GBP")`, and validate the change with `Project.validate()`. This concise walkthrough complements the earlier detailed guides and gives you a quick reference for everyday development.
+
+## Change Currency Symbol Java – Practical Tips  
+
+Sometimes you only need to adjust the visual representation of monetary values. The **change currency symbol java** operation is independent of the ISO code. Use `Project.setCurrencySymbol("£")` to replace the default symbol while keeping the underlying calculations intact. Remember to re‑save the project to persist the change.
 
 ## Currency Tutorials
 ### [Manage Currency Codes in Aspose.Tasks](./currency-codes/)
@@ -96,9 +102,15 @@ A: MS Project stores a single currency per file. To handle multiple currencies, 
 **Q: How do I verify that my changes were applied correctly?**  
 A: After saving, reopen the project and call `Project.getCurrencyCode()` or inspect the currency fields in the UI to confirm the update.
 
+**Q: Can I use the API to change only the currency symbol without touching the code?**  
+A: Absolutely. Call `Project.setCurrencySymbol("$")` (or any other symbol) and re‑save the file; the ISO code remains unchanged.
+
+**Q: Are there performance considerations for bulk updates on large projects?**  
+A: For very large .mpp files, consider batching updates and calling `Project.save` only once after all changes to minimize I/O overhead.
+
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
