@@ -1,21 +1,21 @@
 ---
-title: How to Set Project Calendar with Aspose.Tasks for Java
+title: How to Set Project Calendar Java with Aspose.Tasks
 linktitle: Manage Calendar Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to set project calendar and manage MS Project calendar properties in Java using Aspose.Tasks. Step‑by‑step guide to display calendar working hours and customize schedules.
+description: Learn how to set project calendar java and manage MS Project calendar properties using Aspose.Tasks. Step‑by‑step guide to display calendar working hours and customize schedules.
 weight: 10
 url: /java/calendars/properties/
-date: 2025-12-04
+date: 2026-02-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set Project Calendar with Aspose.Tasks for Java
+# How to Set Project Calendar Java with Aspose.Tasks
 
 ## Introduction
-In this tutorial you'll discover **how to set project calendar** programmatically using the Aspose.Tasks library for Java. Controlling calendar properties lets you **display calendar working hours**, define custom working days, and align your project schedule with real‑world constraints. We'll walk through every step—from setting up the environment to iterating over calendars and reading their properties—so you can confidently manage MS Project calendars in your applications.
+In this tutorial you'll discover **how to set project calendar java** programmatically using the Aspose.Tasks library for Java. Controlling calendar properties lets you **display calendar working hours**, define custom working days, and align your project schedule with real‑world constraints. We'll walk through every step—from setting up the environment to iterating over calendars and reading their properties—so you can confidently **manage ms project calendar** settings in your applications.
 
 ## Quick Answers
 - **What does “set project calendar” mean?** It means creating or updating a calendar's working times, base calendar, and day types within an MS Project file.  
@@ -24,6 +24,9 @@ In this tutorial you'll discover **how to set project calendar** programmaticall
 - **Can I display calendar working hours?** Yes—by reading each `WeekDay` you can output the hours for every day type.  
 - **Is this compatible with Maven/Gradle?** Absolutely—add the Aspose.Tasks JAR as a dependency.
 
+## How to Set Project Calendar Java
+This section directly addresses the primary keyword. We'll cover the exact steps you need to **set project calendar java** values, modify calendar working days, and calculate working hours java‑style.
+
 ## What Is a Project Calendar?
 A project calendar defines the working days and hours for tasks, resources, and the overall project timeline. In MS Project, calendars can inherit from a base calendar, and each day type (e.g., **Standard**, **Non‑working**) can have its own working time. Managing these settings programmatically enables dynamic schedule adjustments without manual editing.
 
@@ -31,7 +34,8 @@ A project calendar defines the working days and hours for tasks, resources, and 
 - **Automation:** Adjust calendars across many projects with a single script.  
 - **Consistency:** Enforce organization‑wide working time policies.  
 - **Integration:** Sync calendars with external systems (HR, ERP).  
-- **Visibility:** Quickly **display calendar working hours** for reporting or debugging.
+- **Visibility:** Quickly **display calendar working hours** for reporting or debugging.  
+- **Flexibility:** You can **modify calendar working days** or add exceptions on the fly.
 
 ## Prerequisites
 Before you start, make sure you have:
@@ -54,7 +58,7 @@ String dataDir = "Your Data Directory";
 ```
 
 ## Step 2: Define Time Units
-Working times are expressed in milliseconds. Defining reusable constants makes the code easier to read.
+Working times are expressed in milliseconds. Defining reusable constants makes the code easier to read and helps you **calculate working hours java** accurately.
 
 ```java
 long OneSec = 1000; // 1000 milliseconds
@@ -69,8 +73,8 @@ Create a `Project` instance by loading an existing MS Project XML file (`.xml` o
 Project project = new Project(dataDir + "project.xml");
 ```
 
-## Step 4: Iterate Through Calendars and Display Working Hours
-Now we loop through every calendar, print its unique identifier, name, base calendar, and the working hours for each day type. This demonstrates **how to set project calendar** values and also how to **display calendar working hours**.
+## Iterate Through Calendars Java
+Now we loop through every calendar, print its unique identifier, name, base calendar, and the working hours for each day type. This demonstrates **how to set project calendar java** values and also how to **display calendar working hours**.
 
 ```java
 for (Calendar cal : project.getCalendars()) {
@@ -119,12 +123,9 @@ A: Yes, it covers tasks, resources, assignments, outlines, baselines, and more�
 **Q: Is technical support available for developers using Aspose.Tasks?**  
 A: Yes, Aspose provides dedicated forums, email support, and extensive documentation for all licensed users.
 
-## Conclusion
-By following this guide you now know **how to set project calendar** values, read and **display calendar working hours**, and integrate these capabilities into any Java application using Aspose.Tasks. This empowers you to automate schedule adjustments, enforce consistent working policies, and build richer project‑management solutions.
-
 ---
 
-**Last Updated:** 2025-12-04  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
