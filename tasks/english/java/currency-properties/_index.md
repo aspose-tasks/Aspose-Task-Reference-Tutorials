@@ -1,21 +1,21 @@
 ---
-title: "How to Read Currency Properties with Aspose.Tasks for Java"
+title: "Read Currency Properties Java with Aspose.Tasks"
 linktitle: "How to Read Currency"
 second_title: "Aspose.Tasks Java API"
-description: "Learn how to read currency and how to set currency properties in MS Project files using Aspose.Tasks for Java. Step‑by‑step guides for effortless project file manipulation."
+description: "Learn how to read currency properties java and set currency values in MS Project files using Aspose.Tasks for Java. Step‑by‑step guide for extracting currency code java and adjusting currency format java."
 weight: 25
 url: /java/currency-properties/
-date: 2025-12-04
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Read Currency Properties with Aspose.Tasks for Java
+# Read Currency Properties Java with Aspose.Tasks
 
 ## Introduction
-Ready to boost your Aspose.Tasks for Java expertise? In this tutorial we’ll show **how to read currency** information from Microsoft Project files and also cover **how to set currency** values when you need them. Understanding these properties lets you keep financial data consistent across international projects, avoid conversion errors, and present clear cost reports to stakeholders.
+Ready to boost your Aspose.Tasks for Java expertise? In this tutorial you’ll discover **how to read currency properties java** from Microsoft Project files and also learn **how to set currency** values when needed. Mastering these properties helps you keep financial data consistent across international projects, avoid conversion errors, and present clear cost reports to stakeholders.
 
 ## Quick Answers
 - **What does “read currency” mean?** Extracting the currency code, symbol, and format stored in a Project file.  
@@ -24,7 +24,7 @@ Ready to boost your Aspose.Tasks for Java expertise? In this tutorial we’ll sh
 - **Which Project versions are supported?** Both .mpp (Microsoft Project 2007‑2024) and .xml formats are fully supported.  
 - **Is any additional setup required?** Just add the Aspose.Tasks for Java JAR to your classpath and import the relevant classes.
 
-## How to Read Currency Properties in Aspose.Tasks Projects
+## Read Currency Properties Java in Aspose.Tasks Projects
 In the dynamic realm of project management, extracting currency details is essential for accurate cost analysis. Our dedicated guide **[Reading Currency Properties in Aspose.Tasks Projects](./read-properties/)** walks you through every step—from opening a project file to retrieving the currency code, symbol, and format. By following the tutorial you’ll be able to:
 
 * Pull the currency code (e.g., USD, EUR) used throughout the project.  
@@ -33,8 +33,25 @@ In the dynamic realm of project management, extracting currency details is essen
 
 Understanding how to read currency ensures that you can audit project budgets, compare costs across regions, and maintain compliance with accounting standards.
 
+## How to Extract Currency Code Java with Aspose.Tasks
+If you only need the ISO‑4217 identifier, the API provides a straightforward property:
+
+* `project.getCurrencyCode()` returns the three‑letter code such as **USD** or **EUR**.  
+* This value can be stored, logged, or passed to external financial services for conversion.
+
+Extracting the currency code programmatically is especially useful when you integrate project data with ERP systems that expect a standardized code.
+
+## How to Adjust Currency Format Java with Aspose.Tasks
+Different locales require different number formats (decimal separators, thousand separators, etc.). Use the following properties to fine‑tune the display:
+
+* `project.setCurrencySymbol("€")` – sets the visual symbol.  
+* `project.setCurrencyDecimalSeparator(",")` – defines the decimal separator.  
+* `project.setCurrencyThousandsSeparator(".")` – defines the thousands separator.  
+
+Adjusting the currency format ensures that every stakeholder sees numbers in a familiar style, reducing misinterpretation.
+
 ## How to Set Currency Properties in Aspose.Tasks Projects
-When a project moves to a new market or the client requests a different monetary format, you’ll need to **how to set currency** values programmatically. Our step‑by‑step guide **[Setting Currency Properties in Aspose.Tasks Projects](./set-properties/)** explains how to:
+When a project moves to a new market or the client requests a different monetary format, you’ll need to **set currency** values programmatically. Our step‑by‑step guide **[Setting Currency Properties in Aspose.Tasks Projects](./set-properties/)** explains how to:
 
 * Define a new currency code and symbol for the entire project.  
 * Adjust the number format (decimal places, thousand separators) to match local conventions.  
@@ -85,7 +102,7 @@ A: Absolutely. The same API works for both .mpp and .xml formats.
 
 ---
 
-**Last Updated:** 2025-12-04  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
