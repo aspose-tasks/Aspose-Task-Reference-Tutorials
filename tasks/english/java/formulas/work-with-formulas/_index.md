@@ -1,37 +1,43 @@
 ---
-title: Create Test Project and Use Formulas with Aspose.Tasks for Java
+title: Calculate days between dates with Aspose.Tasks for Java
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to **create test project** and **add custom field** while manipulating Microsoft Project files using Aspose.Tasks for Java.
+description: Learn how to calculate days between dates, create a test project, and add a custom field while manipulating Microsoft Project files using Aspose.Tasks for Java.
 weight: 11
 url: /java/formulas/work-with-formulas/
-date: 2025-12-07
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Test Project and Use Formulas with Aspose.Tasks for Java
+# Calculate days between dates with Aspose.Tasks for Java
 
 ## Introduction
-In this tutorial you’ll **create test project** files, add a custom field, and work with MS Project formulas using the Aspose.Tasks library for Java. Aspose.Tasks makes it straightforward to **manipulate Microsoft Project** data programmatically—whether you need to generate schedules, calculate dates, or automate reporting. By the end of the guide you’ll have a runnable example that defines an extended attribute, sets a deadline for a task, and saves the project as an MPP file.
+In this tutorial you’ll **calculate days between dates** by creating a test project, adding a custom field, and using Microsoft Project formulas through the Aspose.Tasks library for Java. Whether you need to generate schedules, compute deadlines, or automate reporting, Aspose.Tasks lets you manipulate Project data programmatically without a desktop installation. By the end of the guide you’ll have a runnable example that defines an extended attribute, sets a deadline for a task, and saves the project as an MPP file.
 
 ## Quick Answers
-- **What does the tutorial cover?** Creating a test project, adding a custom field, defining an extended attribute, and setting a task deadline with a formula.  
+- **What does the tutorial cover?** Creating a test project, adding a custom field, defining an extended attribute, and setting a task deadline with a formula to calculate days between dates.  
 - **Which library is required?** Aspose.Tasks for Java (latest version).  
 - **Do I need a license?** A free trial works for development; a license is required for production.  
 - **What IDE can I use?** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) that supports JDK 8+.  
 - **How long does the implementation take?** About 10‑15 minutes to copy the code and run it.
 
-## What is a “Test Project” in Aspose.Tasks?
-A **test project** is a lightweight Microsoft Project file created programmatically to demonstrate or validate functionality. It contains a minimal set of tasks, resources, and custom fields that you can manipulate without affecting real project data.
+## What is “calculate days between dates” in Aspose.Tasks?
+Calculating days between dates means using a Project formula that subtracts one date field (e.g., **Finish**) from another (e.g., **Deadline**) and returns the numeric difference in days. This is useful for tracking schedule slippage, measuring buffer time, or generating custom reports.
 
-## Why Use Aspose.Tasks to Manipulate Microsoft Project?
+## Why Use Aspose.Tasks to Calculate Days Between Dates?
 - **Full API coverage** – access every Project, Task, and Resource property.  
 - **No Office installation required** – works on servers, CI pipelines, and Docker containers.  
 - **Cross‑platform** – runs on Windows, Linux, and macOS with the same Java code.  
-- **Robust formula engine** – calculate dates, durations, and custom fields directly inside the project file.
+- **Robust formula engine** – lets you define calculations such as `[Deadline] - [Finish]` directly inside the project file.
+
+## How to set deadline for a task
+Setting a deadline is the first step before you can calculate the interval. The deadline is stored in the `Tsk.DEADLINE` field of a task and can be assigned using a `java.util.Calendar` instance.
+
+## How to define extended attribute
+An extended attribute is the custom field that will hold the result of your formula. You define it once, give it an alias for readability, and then attach a formula that performs the date subtraction.
 
 ## Prerequisites
 Before you start, make sure you have the following:
@@ -50,7 +56,7 @@ import java.util.Calendar;
 ## Step‑by‑Step Guide
 
 ### Step 1: Create a Test Project with a Custom Field
-We begin by **creating test project** and adding a custom field that will later hold our formula result.
+We begin by **creating a test project** and adding a custom field that will later hold our formula result.
 
 ```java
 Project project = CreateTestProjectWithCustomField();
@@ -59,7 +65,7 @@ Project project = CreateTestProjectWithCustomField();
 > *Pro tip:* `CreateTestProjectWithCustomField()` is a helper method that builds a minimal schedule and registers an extended attribute ready for formula assignment.
 
 ### Step 2: Define an Extended Attribute (Add Custom Field)
-Next, we **define extended attribute** – essentially the custom field – and give it a friendly alias. This is where we **add custom field** logic.
+Next, we **define an extended attribute** – essentially the custom field – and give it a friendly alias. This is where we **add custom field** logic.
 
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
@@ -68,7 +74,7 @@ attr.setFormula("[Deadline] - [Finish]");
 ```
 
 - **Alias** makes the field readable in Project.  
-- **Formula** calculates the number of days between a task’s *Finish* date and its *Deadline*.
+- **Formula** calculates the number of days between a task’s *Finish* date and its *Deadline* – the core of *calculate days between dates*.
 
 ### Step 3: Set Deadline for a Task (Add Deadline Task & Set Task Deadline)
 Now we **add deadline task** data by setting the *Deadline* property on a specific task.
@@ -118,7 +124,7 @@ A: A temporary license is available for short‑term testing; you can request on
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
