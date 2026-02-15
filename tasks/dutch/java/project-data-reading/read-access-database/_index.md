@@ -1,11 +1,10 @@
 ---
-date: 2025-12-11
-description: Leer hoe je met Java een Access-database kunt lezen en Access naar XML
-  kunt converteren met Aspose.Tasks voor Java. Volg onze stapsgewijze gids om MS Project
-  XML te exporteren.
+date: 2026-02-15
+description: Leer hoe je een Access-database in Java kunt lezen, Access naar XML kunt
+  converteren en MS Project XML kunt exporteren met Aspose.Tasks voor Java.
 linktitle: Reading Project Data from Microsoft Access Database with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'java read access database: Lees projectgegevens met Aspose.Tasks'
+title: 'hoe Access te lezen: Java Access DB naar XML met Aspose.Tasks'
 url: /nl/java/project-data-reading/read-access-database/
 weight: 11
 ---
@@ -14,33 +13,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# java read access database: Projectgegevens lezen met Aspose.Tasks
+# how to read access: Java Access DB naar XML met Aspose.Tasks
 
-## Inleiding
-Aspose.Tasks for Java is een krachtige API die je **java read access database** gegevens laat lezen en omzetten naar Microsoft Project-formaten. In deze tutorial lopen we de exacte stappen door die nodig zijn om MS Project-gegevens die zijn opgeslagen in een Microsoft Access-database te lezen, die gegevens naar XML te converteren, en uiteindelijk het project te exporteren als een XML‑bestand dat door andere tools kan worden gebruikt.
+## Introductie
+If you need to **how to read access** data stored in a legacy Microsoft Access database and turn it into a modern Microsoft Project XML file, you’re in the right place. In this tutorial we’ll walk through every step required to connect to the Access file from Java, use Aspose.Tasks to pull the project information, **convert access to xml**, and finally **save project as xml** so other tools can consume it. By the end you’ll have a reusable snippet that works on Windows, Linux, or macOS.
 
 ## Snelle antwoorden
-- **Wat behandelt de tutorial?** Het lezen van MS Project-gegevens uit een Access‑DB en deze exporteren naar XML met Aspose.Tasks.  
-- **Welke bibliotheek is vereist?** Aspose.Tasks for Java (laatste versie).  
-- **Heb ik een licentie nodig?** Een tijdelijke of volledige licentie is vereist voor productiegebruik.  
-- **Kan ik Access naar XML converteren?** Ja – de `MpdSettings`‑klasse verwerkt de conversie automatisch.  
-- **Wordt Java 8+ ondersteund?** Absoluut, elke JDK 8 of hoger werkt.
+- **What does the tutorial cover?** Reading MS Project data from an Access DB and exporting it to XML with Aspose.Tasks.  
+- **Which library is required?** Aspose.Tasks for Java (latest version).  
+- **Do I need a license?** A temporary or full license is required for production use.  
+- **Can I convert Access to XML?** Yes – the `MpdSettings` class handles the conversion automatically.  
+- **Is Java 8+ supported?** Absolutely, any JDK 8 or newer works.
 
-## Wat is java read access database?
-Gegevens lezen uit een Access-database in Java betekent een connection string opzetten, de projectinformatie ophalen, en vervolgens Aspose.Tasks gebruiken om die gegevens te manipuleren. Deze aanpak is ideaal wanneer je legacy‑projectgegevens hebt opgeslagen in Access en deze wilt migreren naar moderne projectmanagement‑tools.
+## Wat betekent “how to read access”?
+In the Java world, **how to read access** refers to establishing a proper JDBC‑style connection string for an Access (.mdb/.accdb) file, retrieving the stored project rows, and then feeding that data into a library that can understand Microsoft Project structures. Aspose.Tasks abstracts the heavy lifting, letting you focus on the conversion logic.
 
-## Waarom Aspose.Tasks voor deze taak gebruiken?
-- **Geen COM‑interop** – je hebt Microsoft Project niet geïnstalleerd op de server nodig.  
-- **Directe DB‑toegang** – `MpdSettings` leest het Access‑bestand zonder tussenstappen.  
-- **Ingebouwde conversie** – automatisch **convert access to xml** en **export ms project xml**.  
-- **Cross‑platform** – werkt op Windows, Linux en macOS met dezelfde code.
+## Waarom Aspose.Tasks gebruiken voor deze taak?
+- **No COM interop** – you don’t need Microsoft Project installed on the server.  
+- **Direct DB access** – `MpdSettings` reads the Access file without an intermediate export step.  
+- **Built‑in conversion** – automatically **convert access to xml** and **export ms project xml**.  
+- **Cross‑platform** – works the same on Windows, Linux, and macOS.  
 
 ## Voorvereisten
-- **Java Development Kit (JDK)** – Zorg ervoor dat JDK 8 of nieuwer is geïnstalleerd.  
-- **Aspose.Tasks for Java Library** – Download deze van de officiële site. Volg de [download link](https://releases.aspose.com/tasks/java/) om de bibliotheek te verkrijgen en voeg deze toe aan de classpath van je project.
+- **Java Development Kit (JDK)** – JDK 8 or newer installed.  
+- **Aspose.Tasks for Java Library** – Download it from the official site. Follow the [download link](https://releases.aspose.com/tasks/java/) to obtain the library and add it to your project’s classpath.  
 
-## Pakketten importeren
-Importeer eerst de benodigde klassen die projectverwerking en database‑connectiviteit mogelijk maken.
+## Import pakketten
+First, import the classes that enable project handling and database connectivity.
 ```java
 import com.aspose.tasks.MpdSettings;
 import com.aspose.tasks.Project;
@@ -48,31 +47,31 @@ import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
 
-## Hoe java read access database met Aspose.Tasks?
-Hieronder vind je een stapsgewijze walkthrough. Elke stap wordt in eenvoudige taal uitgelegd vóór het code‑blok, zodat je precies weet wat er gebeurt.
+## Hoe lees je een Access‑database met Aspose.Tasks?
+Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
 
-### Stap 1: Definieer gegevensmap
-Stel de map in waar het resulterende XML‑bestand wordt opgeslagen. Vervang de placeholder door je eigen pad.
+### Stap 1: Define Data Directory
+Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Stap 2: Definieer MpdSettings
-Maak een `MpdSettings`‑instantie aan die de connection string naar je Access‑database bevat en de identifier van het project dat je wilt lezen (hier verwijst `1` naar het eerste projectrecord).
+### Stap 2: Define MpdSettings
+Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record). This is the core of **read access database java**.
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 ```
 
-> **Pro tip:** Als je **read ms project access** gegevens voor meerdere projecten moet lezen, loop dan door de ID's en maak voor elke iteratie een nieuwe `MpdSettings` aan.
+> **Pro tip:** If you need to **read ms project access** data for multiple projects, loop through the IDs and instantiate a new `MpdSettings` for each iteration.
 
-### Stap 3: Laad project uit database
-Geef het `MpdSettings`‑object door aan de `Project`‑constructor. Aspose.Tasks haalt de projectgegevens direct uit het Access‑bestand.
+### Stap 3: Load Project from Database
+Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
 ```java
 Project project = new Project(settings);
 ```
 
-### Stap 4: Sla projectgegevens op
-Exporteer tenslotte het geladen project naar een XML‑bestand. Deze stap **export ms project xml** zodat andere tools het kunnen gebruiken.
+### Stap 4: Save Project Data
+Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it, and it also **save project as xml** on disk.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
@@ -80,28 +79,32 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## Veelvoorkomende problemen en oplossingen
 | Probleem | Oplossing |
 |----------|-----------|
-| *Connection string errors* | Controleer het pad naar het Access‑bestand en zorg ervoor dat de Jet/ACE OLEDB‑provider op de machine is geïnstalleerd. |
-| *Permission denied on save* | Zorg ervoor dat de `dataDir`‑map bestaat en dat de applicatie schrijfrechten heeft. |
-| *Project appears empty* | Bevestig dat de juiste project‑ID wordt doorgegeven aan `MpdSettings`. Gebruik een database‑viewer om de `ProjectID`‑kolom te inspecteren. |
+| *Connection string errors* | Verify the Access file path and ensure the Jet/ACE OLEDB provider is installed on the machine. |
+| *Permission denied on save* | Make sure the `dataDir` folder exists and the application has write permissions. |
+| *Project appears empty* | Confirm that the correct project ID is passed to `MpdSettings`. Use a database viewer to inspect the `ProjectID` column. |
 
 ## Veelgestelde vragen
-### Q: Kan ik Aspose.Tasks for Java gebruiken met andere databasesystemen dan Microsoft Access?  
+### Q: Kan ik Aspose.Tasks voor Java gebruiken met andere databasesystemen dan Microsoft Access?  
 A: Ja, Aspose.Tasks ondersteunt verschillende databasesystemen zoals SQL Server, MySQL en Oracle.
 
-### Q: Is er een gratis proefversie beschikbaar voor Aspose.Tasks for Java?  
+### Q: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor Java?  
 A: Ja, je kunt een gratis proefversie krijgen via [hier](https://releases.aspose.com/).
 
-### Q: Hoe kan ik technische ondersteuning krijgen voor Aspose.Tasks for Java?  
+### Q: Hoe kan ik technische ondersteuning krijgen voor Aspose.Tasks voor Java?  
 A: Je kunt technische ondersteuning krijgen via het [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### Q: Heb ik een tijdelijke licentie nodig om Aspose.Tasks for Java te gebruiken?  
-A: Voor sommige geavanceerde functies heb je mogelijk een tijdelijke licentie nodig. Verkrijg deze via [hier](https://purchase.aspose.com/temporary-license/).
+### Q: Heb ik een tijdelijke licentie nodig om Aspose.Tasks voor Java te gebruiken?  
+A: Voor sommige geavanceerde functies is mogelijk een tijdelijke licentie vereist. Verkrijg deze via [hier](https://purchase.aspose.com/temporary-license/).
 
-### Q: Waar kan ik Aspose.Tasks for Java kopen?  
-A: Je kunt Aspose.Tasks for Java kopen via [deze link](https://purchase.aspose.com/buy).
+### Q: Waar kan ik Aspose.Tasks voor Java kopen?  
+A: Je kunt Aspose.Tasks voor Java kopen via [deze link](https://purchase.aspose.com/buy).
 
----  
-**Laatst bijgewerkt:** 2025-12-11  
+## Conclusie
+You now have a complete, production‑ready example of **how to read access** data, **convert access to xml**, and **save project as xml** using Aspose.Tasks for Java. Feel free to adapt the snippet for batch processing or to integrate it into larger migration pipelines.
+
+---
+
+**Last Updated:** 2026-02-15  
 **Getest met:** Aspose.Tasks for Java (latest)  
 **Auteur:** Aspose  
 

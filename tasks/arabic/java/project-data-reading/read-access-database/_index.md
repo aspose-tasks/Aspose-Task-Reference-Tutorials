@@ -1,46 +1,47 @@
 ---
-date: 2025-12-11
-description: تعلم كيفية قراءة قاعدة بيانات Access باستخدام Java وتحويل Access إلى
-  XML باستخدام Aspose.Tasks for Java. اتبع دليلنا خطوة بخطوة لتصدير ملف XML الخاص
-  بـ MS Project.
+date: 2026-02-15
+description: تعلم كيفية قراءة قاعدة بيانات Access في Java، وتحويل Access إلى XML،
+  وتصدير XML لمشروع MS باستخدام Aspose.Tasks للغة Java.
 linktitle: Reading Project Data from Microsoft Access Database with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'جافا قراءة قاعدة بيانات Access: قراءة بيانات المشروع باستخدام Aspose.Tasks'
+title: 'كيفية قراءة Access: تحويل قاعدة بيانات Java Access إلى XML باستخدام Aspose.Tasks'
 url: /ar/java/project-data-reading/read-access-database/
 weight: 11
 ---
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# java read access database: Reading Project Data with Aspose.Tasks
+# كيفية قراءة Access: قاعدة بيانات Access في Java إلى XML باستخدام Aspose.Tasks
 
-## Introduction
-Aspose.Tasks for Java هي واجهة برمجة تطبيقات قوية تتيح لك **java read access database** البيانات وتحويلها إلى صيغ Microsoft Project. في هذا الدرس سنستعرض الخطوات الدقيقة اللازمة لقراءة بيانات MS Project المخزنة في قاعدة بيانات Microsoft Access، وتحويل تلك البيانات إلى XML، وأخيرًا تصدير المشروع كملف XML يمكن استخدامه في أدوات أخرى.
+## المقدمة
+إذا كنت بحاجة إلى **كيفية قراءة Access** للبيانات المخزنة في قاعدة بيانات Microsoft Access القديمة وتحويلها إلى ملف XML حديث لبرنامج Microsoft Project، فأنت في المكان الصحيح. في هذا الدليل سنستعرض كل خطوة مطلوبة للاتصال بملف Access من Java، واستخدام Aspose.Tasks لاستخراج معلومات المشروع، **تحويل Access إلى XML**، وأخيرًا **حفظ المشروع كملف XML** حتى تتمكن الأدوات الأخرى من استهلاكه. في النهاية ستحصل على مقتطف قابل لإعادة الاستخدام يعمل على Windows أو Linux أو macOS.
 
-## Quick Answers
-- **ما الذي يغطيه الدرس؟** قراءة بيانات MS Project من قاعدة Access وتصديرها إلى XML باستخدام Aspose.Tasks.  
+## إجابات سريعة
+- **ما الذي يغطيه الدليل؟** قراءة بيانات MS Project من قاعدة بيانات Access وتصديرها إلى XML باستخدام Aspose.Tasks.  
 - **ما المكتبة المطلوبة؟** Aspose.Tasks for Java (أحدث نسخة).  
-- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص مؤقت أو كامل للاستخدام في بيئة الإنتاج.  
-- **هل يمكنني تحويل Access إلى XML؟** نعم – فئة `MpdSettings` تتولى التحويل تلقائيًا.  
-- **هل Java 8+ مدعومة؟** بالتأكيد، أي JDK 8 أو أحدث يعمل.
+- **هل أحتاج إلى ترخيص؟** يلزم ترخيص مؤقت أو كامل للاستخدام في بيئة الإنتاج.  
+- **هل يمكنني تحويل Access إلى XML؟** نعم – تتولى فئة `MpdSettings` عملية التحويل تلقائيًا.  
+- **هل Java 8+ مدعومة؟** بالتأكيد، أي JDK 8 أو أحدث يعمل.
 
-## What is java read access database?
-قراءة البيانات من قاعدة Access في Java تعني إنشاء سلسلة اتصال، سحب معلومات المشروع، ثم استخدام Aspose.Tasks لمعالجة تلك البيانات. هذا النهج مثالي عندما تكون لديك بيانات مشروع قديمة مخزنة في Access وتحتاج إلى ترحيلها إلى أدوات إدارة مشاريع حديثة.
+## ماذا يعني “كيفية قراءة Access”؟
+في عالم Java، **كيفية قراءة Access** تشير إلى إنشاء سلسلة اتصال JDBC‑style صحيحة لملف Access (.mdb/.accdb)، استرجاع صفوف المشروع المخزنة، ثم تمرير تلك البيانات إلى مكتبة تستطيع فهم بنية Microsoft Project. تقوم Aspose.Tasks بتجريد الجزء الثقيل من العملية، مما يتيح لك التركيز على منطق التحويل.
 
-## Why use Aspose.Tasks for this task?
+## لماذا نستخدم Aspose.Tasks لهذه المهمة؟
 - **بدون COM interop** – لا تحتاج إلى تثبيت Microsoft Project على الخادم.  
-- **وصول مباشر إلى قاعدة البيانات** – `MpdSettings` يقرأ ملف Access دون خطوات وسيطة.  
-- **تحويل مدمج** – يتحول **convert access to xml** تلقائيًا و**export ms project xml**.  
-- **متعدد المنصات** – يعمل على Windows وLinux وmacOS بنفس الكود.
+- **وصول مباشر إلى قاعدة البيانات** – `MpdSettings` يقرأ ملف Access دون خطوة تصدير وسيطة.  
+- **تحويل مدمج** – يقوم تلقائيًا **تحويل Access إلى XML** و **تصدير XML لمشروع MS**.  
+- **متعدد المنصات** – يعمل بنفس الطريقة على Windows وLinux وmacOS.  
 
-## Prerequisites
-- **Java Development Kit (JDK)** – تأكد من تثبيت JDK 8 أو أحدث.  
-- **Aspose.Tasks for Java Library** – حمّله من الموقع الرسمي. اتبع [download link](https://releases.aspose.com/tasks/java/) للحصول على المكتبة وإضافتها إلى مسار الـ classpath الخاص بمشروعك.
+## المتطلبات المسبقة
+- **مجموعة تطوير Java (JDK)** – JDK 8 أو أحدث مثبتة.  
+- **Aspose.Tasks for Java Library** – حمّلها من الموقع الرسمي. اتبع [رابط التحميل](https://releases.aspose.com/tasks/java/) للحصول على المكتبة وإضافتها إلى مسار الـ classpath الخاص بمشروعك.  
 
-## Import Packages
-First, import the necessary classes that enable project handling and database connectivity.
+## استيراد الحزم
+أولاً، استورد الفئات التي تمكّن من التعامل مع المشاريع والاتصال بقاعدة البيانات.
 ```java
 import com.aspose.tasks.MpdSettings;
 import com.aspose.tasks.Project;
@@ -48,62 +49,66 @@ import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
 
-## How to java read access database with Aspose.Tasks?
-Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+## كيفية قراءة قاعدة بيانات Access باستخدام Aspose.Tasks؟
+فيما يلي شرح خطوة‑بخطوة. كل خطوة موضحة بلغة بسيطة قبل كتلة الكود، حتى تعرف بالضبط ما يحدث.
 
-### Step 1: Define Data Directory
-Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
+### الخطوة 1: تعريف دليل البيانات
+حدد المجلد الذي سيُحفظ فيه ملف XML الناتج. استبدل العنصر النائب بالمسار الفعلي الخاص بك.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 2: Define MpdSettings
-Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record).
+### الخطوة 2: تعريف MpdSettings
+أنشئ كائن `MpdSettings` يحتوي على سلسلة الاتصال بقاعدة بيانات Access ومعرّف المشروع الذي تريد قراءته (هنا، `1` يشير إلى سجل المشروع الأول). هذا هو جوهر **قراءة قاعدة بيانات Access في Java**.
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 ```
 
-> **Pro tip:** إذا كنت بحاجة إلى **read ms project access** لعدة مشاريع، يمكنك عمل حلقة تمر عبر المعرفات وإنشاء كائن `MpdSettings` جديد لكل تكرار.
+> **نصيحة احترافية:** إذا كنت بحاجة إلى **قراءة بيانات Access لمشروع MS** لعدة مشاريع، قم بعمل حلقة تمر عبر المعرفات وأنشئ كائن `MpdSettings` جديد لكل تكرار.
 
-### Step 3: Load Project from Database
-Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
+### الخطوة 3: تحميل المشروع من قاعدة البيانات
+مرّر كائن `MpdSettings` إلى مُنشئ `Project`. ستقوم Aspose.Tasks بجلب بيانات المشروع مباشرة من ملف Access.
 ```java
 Project project = new Project(settings);
 ```
 
-### Step 4: Save Project Data
-Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it.
+### الخطوة 4: حفظ بيانات المشروع
+أخيرًا، صدّر المشروع المحمّل إلى ملف XML. هذه الخطوة **تصدير XML لمشروع MS** حتى تتمكن الأدوات الأخرى من استهلاكه، كما أنها **تحفظ المشروع كملف XML** على القرص.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues and Solutions
-| Issue | Solution |
+## المشكلات الشائعة والحلول
+| المشكلة | الحل |
 |-------|----------|
-| *Connection string errors* | تحقق من مسار ملف Access وتأكد من تثبيت موفر Jet/ACE OLEDB على الجهاز. |
-| *Permission denied on save* | تأكد من وجود مجلد `dataDir` ومن أن التطبيق يملك صلاحيات الكتابة. |
-| *Project appears empty* | تأكد من تمرير معرف المشروع الصحيح إلى `MpdSettings`. استخدم عارض قاعدة بيانات لفحص عمود `ProjectID`. |
+| *أخطاء في سلسلة الاتصال* | تحقق من مسار ملف Access وتأكد من تثبيت موفر Jet/ACE OLEDB على الجهاز. |
+| *رفض الإذن عند الحفظ* | تأكد من وجود مجلد `dataDir` وأن التطبيق يمتلك صلاحيات الكتابة. |
+| *المشروع يظهر فارغًا* | تأكد من تمرير معرف المشروع الصحيح إلى `MpdSettings`. استخدم عارض قاعدة بيانات لفحص عمود `ProjectID`. |
 
-## Frequently Asked Questions
-### Q: Can I use Aspose.Tasks for Java with other database systems besides Microsoft Access?  
-A: نعم، تدعم Aspose.Tasks أنظمة قواعد بيانات متعددة مثل SQL Server وMySQL وOracle.
+## الأسئلة المتكررة
+### س: هل يمكنني استخدام Aspose.Tasks for Java مع أنظمة قواعد بيانات أخرى غير Microsoft Access؟  
+ج: نعم، تدعم Aspose.Tasks عدة أنظمة قواعد بيانات مثل SQL Server وMySQL وOracle.
 
-### Q: Is there a free trial available for Aspose.Tasks for Java?  
-A: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks for Java؟  
+ج: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 
-### Q: How can I get technical support for Aspose.Tasks for Java?  
-A: يمكنك الحصول على الدعم الفني عبر [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+### س: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks for Java؟  
+ج: يمكنك الحصول على الدعم الفني من خلال [منتدى Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### Q: Do I need a temporary license to use Aspose.Tasks for Java?  
-A: قد تحتاج إلى ترخيص مؤقت لبعض الميزات المتقدمة. احصل عليه من [here](https://purchase.aspose.com/temporary-license/).
+### س: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks for Java؟  
+ج: قد تحتاج إلى ترخيص مؤقت لبعض الميزات المتقدمة. احصل عليه من [هنا](https://purchase.aspose.com/temporary-license/).
 
-### Q: Where can I purchase Aspose.Tasks for Java?  
-A: يمكنك شراء Aspose.Tasks for Java من [this link](https://purchase.aspose.com/buy).
+### س: أين يمكنني شراء Aspose.Tasks for Java؟  
+ج: يمكنك شراء Aspose.Tasks for Java عبر [هذا الرابط](https://purchase.aspose.com/buy).
 
----  
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Tasks for Java (latest)  
-**Author:** Aspose  
+## الخلاصة
+الآن لديك مثال كامل وجاهز للإنتاج يوضح **كيفية قراءة Access**، **تحويل Access إلى XML**، و**حفظ المشروع كملف XML** باستخدام Aspose.Tasks for Java. لا تتردد في تعديل المقتطف لمعالجة دفعات متعددة أو دمجه في خطوط ترحيل أكبر.
+
+---
+
+**آخر تحديث:** 2026-02-15  
+**تم الاختبار مع:** Aspose.Tasks for Java (أحدث نسخة)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
