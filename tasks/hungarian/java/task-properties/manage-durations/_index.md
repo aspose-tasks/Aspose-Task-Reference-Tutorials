@@ -1,24 +1,43 @@
 ---
-title: A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
-linktitle: A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
+date: 2026-02-20
+description: Fedezze fel, hogyan adhat feladatot egy projekthez, és kezelheti az időtartamokat
+  az Aspose.Tasks for Java segítségével. Tanulja meg, hogyan állíthat be időtartamot,
+  és hogyan konvertálhatja azt egyszerűen.
+linktitle: Manage Durations of Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Fedezze fel az Aspose.Tasks for Java alkalmazást, és tanulja meg könnyedén kezelni a feladatok időtartamát. Kövesse lépésről lépésre útmutatónkat a hatékony projekttervezés és -végrehajtás érdekében.
-weight: 20
+title: Feladat hozzáadása a projekthez és időtartamok kezelése az Aspose.Tasks segítségével
 url: /hu/java/task-properties/manage-durations/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A feladatok időtartamának kezelése az Aspose.Tasks alkalmazásban
+# Feladat hozzáadása a projekthez és időtartamok kezelése az Aspose.Tasks segítségével
 
 ## Bevezetés
-Az Aspose.Tasks for Java robusztus megoldást kínál a projektfeladatok és -időtartamok hatékony kezelésére. Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a feladatok időtartamát az Aspose.Tasks segítségével, és végigvezeti Önt az egyes lépéseken. Legyen szó tapasztalt fejlesztőről vagy kezdőről, ez az útmutató segít megérteni a projektekben a feladatok időtartamával történő munkavégzés lényegét.
-## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
--  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a gépen. Letöltheti[itt](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.Tasks könyvtár: Töltse le és foglalja bele a projektbe az Aspose.Tasks könyvtárat. Megtalálhatod a könyvtárat[itt](https://releases.aspose.com/tasks/java/).
+Ebben az útmutatóban megtanulja, **hogyan adjon feladatot a projekthez**, és hogyan szabályozza annak időtartamát az Aspose.Tasks for Java használatával. Akár új projekttervező eszközt épít, akár egy meglévő megoldást bővít, a feladat‑időtartam kezelése elengedhetetlen a pontos ütemezéshez és jelentéskészítéshez.
+
+## Gyors válaszok
+- **Mit jelent a „feladat hozzáadása a projekthez”?** Új feladatobjektumot hoz létre a projekt gyökerénél vagy egy adott összegző feladat alatt.  
+- **Melyik osztály képviseli az időtartamot?** `com.aspose.tasks.Duration`.  
+- **Hogyan állítsuk be az időtartamot?** Használja a `task.set(Tsk.DURATION, project.getDuration(value, TimeUnitType))` metódust.  
+- **Átkonvertálhatok egy időtartamot más egységre?** Igen, hívja a `duration.convert(TimeUnitType.Hour)` vagy bármely más `TimeUnitType` metódust.  
+- **Szükség van licencre a termeléshez?** Egy érvényes Aspose.Tasks licenc szükséges kereskedelmi felhasználáshoz.
+
+## Mi az a „feladat hozzáadása a projekthez”?
+A feladat hozzáadása a projekthez azt jelenti, hogy létrehoz egy `Task` objektumot, és azt a projekt feladat-hierarchiájához csatolja. Ez a művelet az első lépés, mielőtt meghatározná a munkát, erőforrásokat vagy az időtartamot az adott feladathoz.
+
+## Miért kezeljük a feladat időtartamait?
+A pontos időtartamok reális ütemterveket, erőforrás-elosztást és kritikus út elemzést biztosítanak. Az Aspose.Tasks segítségével programozottan beállíthat, olvashat, konvertálhat és módosíthat időtartamokat, így teljes irányítást kap a projekt ütemezése felett.
+
+## Prerequisites
+Mielőtt elkezdené, győződjön meg róla, hogy a következők rendelkezésre állnak:
+
+- Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a gépén. Letöltheti [itt](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Tasks Library: Töltse le és illessze be az Aspose.Tasks könyvtárat a projektjébe. A könyvtárat megtalálja [itt](https://releases.aspose.com/tasks/java/).
+
 ## Csomagok importálása
 Java projektjében importálja a szükséges csomagokat az Aspose.Tasks használatához:
 ```java
@@ -28,51 +47,98 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
-## 1. lépés: Állítsa be projektjét
+
+## 1. lépés: A projekt beállítása
 ```java
-// Hozzon létre egy új projektet
+// Create a new project
 Project project = new Project();
 ```
-## 2. lépés: Új feladat hozzáadása
+
+## 2. lépés: Új feladat hozzáadása (feladat hozzáadása a projekthez)
 ```java
-// Adjon hozzá egy új feladatot a projekthez
+// Add a new task to the project
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## 3. lépés: A feladat időtartamának lekérése és konvertálása
+
+## Hogyan állítsuk be az időtartamot
+Most, hogy a feladat létezik, meghatározhatja annak hosszát. Alapértelmezés szerint az időtartamok napokban vannak kifejezve.
+
+## 3. lépés: Feladat időtartamának lekérése és konvertálása
 ```java
-// Feladat időtartamának lekérése napokban (alapértelmezett időegység)
+// Get task duration in days (default time unit)
 Duration duration = task.get(Tsk.DURATION);
 System.out.println("Duration equals 1 day: " + duration.toString().equals("1 day"));
-// Az időtartam konvertálása óra időegységre
+// Convert duration to hours time unit
 duration = duration.convert(TimeUnitType.Hour);
 System.out.println("Duration equals 8 hrs: " + duration.toString().equals("8 hrs"));
 ```
-## 4. lépés: Frissítse a feladat időtartamát 1 hétre
+
+## Hogyan konvertáljuk az időtartamot
+A `convert` metódus lehetővé teszi, hogy egy `Duration`‑t egy `TimeUnitType`‑ról egy másikra (például nap → óra, hét → nap) átalakítson.
+
+## 4. lépés: Feladat időtartamának frissítése 1 hétre
 ```java
-// Növelje a feladat időtartamát 1 hétre
+// Increase task duration to 1 week
 task.set(Tsk.DURATION, project.getDuration(1, TimeUnitType.Week));
 System.out.println("Duration equals 1 wk: " + task.get(Tsk.DURATION).toString().equals("1 wk"));
 ```
-## 5. lépés: Csökkentse a feladat időtartamát
+
+## 5. lépés: Feladat időtartamának csökkentése
 ```java
-// Csökkentse a feladat időtartamát
+// Decrease task duration
 task.set(Tsk.DURATION, task.get(Tsk.DURATION).subtract(0.5));
 System.out.println("Duration equals 0.5 wks: " + task.get(Tsk.DURATION).toString().equals("0.5 wks"));
 ```
-Az alábbi lépések követésével sikeresen kezelte a feladatok időtartamát az Aspose.Tasks for Java projektben.
+
+Ezeknek a lépéseknek a követésével sikeresen **feladatot adott hozzá egy projekthez**, és az időtartamát az Aspose.Tasks for Java segítségével kezelte.
+
+## Gyakori hibák és tippek
+- **Hiba:** Az időtartam átalakításának elhagyása a számítások előtt helytelen eredményekhez vezethet. Mindig ellenőrizze az egységet a `duration.getTimeUnit()` metódussal.
+- **Tipp:** Használja a `project.getDuration(value, TimeUnitType)` metódust, hogy a kívánt egységben hozza létre az időtartamokat, a későbbi konvertálás helyett.
+- **Hiba:** Negatív időtartam beállítása kivételt dob. Győződjön meg a bemeneti értékek validálásáról.
+
 ## Következtetés
-Ebben az oktatóanyagban a feladatok időtartamának kezelésének alapjait ismertetjük az Aspose.Tasks for Java használatával. Most már magabiztosan beépítheti ezeket a technikákat projektjeibe a hatékony feladatidő-kezelés érdekében.
-## GYIK
-### Az Aspose.Tasks kompatibilis az összes Java-verzióval?
-Az Aspose.Tasks kompatibilis a Java 6 és újabb verzióival.
-### Használhatom az Aspose.Tasks-t kereskedelmi projektekhez?
- Igen, használhatja az Aspose.Tasks-t személyes és kereskedelmi projektekhez egyaránt. Látogatás[itt](https://purchase.aspose.com/buy) az engedélyezési részletekért.
-### Hol találhatok további támogatást és forrásokat?
- Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
-### Hogyan szerezhetek ideiglenes licencet tesztelési célból?
- Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
-### Elérhető az Aspose.Tasks ingyenes próbaverziója?
- Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) hogy fedezze fel az Aspose.Tasks-t vásárlás előtt.
+Ebben az útmutatóban megtanulta, hogyan **adjunk feladatot a projekthez**, olvassa el annak alapértelmezett időtartamát, **állítsa be az időtartamot**, és **konvertálja az időtartamot** különböző időegységek között. Most már beépítheti ezeket a technikákat nagyobb ütemező alkalmazásokba a pontos projekttervezés érdekében.
+
+## Gyakran Ismételt Kérdések
+### Kompatibilis-e az Aspose.Tasks minden Java verzióval?
+Az Aspose.Tasks kompatibilis a Java 6‑os és újabb verzióival.
+
+### Használhatom az Aspose.Tasks‑et kereskedelmi projektekhez?
+Igen, az Aspose.Tasks használható személyes és kereskedelmi projektekhez egyaránt. A licenc részleteiért látogasson el [ide](https://purchase.aspose.com/buy).
+
+### Hol találok további támogatást és erőforrásokat?
+Látogassa meg az [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) a közösségi támogatás és a megbeszélések céljából.
+
+### Hogyan szerezhetek ideiglenes licencet tesztelési célokra?
+Ideiglenes licencet szerezhet [ide](https://purchase.aspose.com/temporary-license/) a tesztelés és értékelés céljából.
+
+### Elérhető-e ingyenes próba az Aspose.Tasks‑hez?
+Igen, az ingyenes próbaverziót [ide](https://releases.aspose.com/) érheti el, hogy felfedezze az Aspose.Tasks-et vásárlás előtt.
+
+## Gyakran Ismételt Kérdések
+
+**Q: Hogyan változtathatom meg egy feladat időtartamát, miután már be lett állítva?**  
+A: Szerezze meg a jelenlegi időtartamot a `task.get(Tsk.DURATION)` metódussal, módosítsa (például `add`, `subtract` vagy `convert`), majd állítsa vissza a `task.set(Tsk.DURATION, newDuration)` segítségével.
+
+**Q: Beállíthatok időtartamot percekben?**  
+A: Igen, használja a `TimeUnitType.Minute` értéket a `project.getDuration(value, TimeUnitType.Minute)` hívásakor.
+
+**Q: Az időtartam módosítása automatikusan frissíti a feladat kezdő‑ és befejező dátumát?**  
+A: Csak akkor, ha a projekt ütemezési módja automatikusra van állítva. Ellenkező esetben újraszámolhatja az ütemtervet a `project.calculateCriticalPath()` metódussal.
+
+**Q: Lehet-e az időtartamot nyers számként lekérni?**  
+A: Hívja a `duration.getTimeSpan()` metódust, hogy megkapja a numerikus értéket az aktuális időegységben.
+
+**Q: Mi történik, ha a jelenlegi időtartamnál nagyobb értéket vonok le?**  
+A: Az API `ArgumentOutOfRangeException` kivételt dob. Mindig ellenőrizze, hogy a kapott időtartam pozitív maradjon.
+
+---
+
+**Legutóbb frissítve:** 2026-02-20  
+**Tesztelve:** Aspose.Tasks for Java (legújabb)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
