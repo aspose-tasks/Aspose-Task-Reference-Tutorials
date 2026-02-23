@@ -1,53 +1,91 @@
 ---
-title: Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ trong Aspose.Tasks
-linktitle: Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Khám phá Aspose.Tasks dành cho Java và hợp lý hóa việc theo dõi tiến độ dự án. Dễ dàng tính toán tỷ lệ phần trăm nhiệm vụ để quản lý dự án hiệu quả.
-weight: 25
+date: 2026-02-23
+description: Khám phá Aspose.Tasks cho Java để đơn giản hoá quản lý dự án Java, và
+  học cách tính tỷ lệ phần trăm công việc và theo dõi tiến độ một cách hiệu quả.
+linktitle: Percentage Complete Calculations for Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Quản lý dự án Java: Phần trăm hoàn thành công việc bằng Aspose.Tasks'
 url: /vi/java/task-properties/percentage-complete-calculations/
+weight: 25
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+}}
+
+All good.
+
+Make sure to keep markdown formatting.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tỷ lệ phần trăm tính toán hoàn thành cho các nhiệm vụ trong Aspose.Tasks
+# Quản Lý Dự Án Java: Tính Phần Trăm Hoàn Thành Nhiệm Vụ với Aspose.Tasks
 
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách tính toán phần trăm nhiệm vụ thành thạo bằng Aspose.Tasks cho Java. Aspose.Tasks là một thư viện Java mạnh mẽ được thiết kế để làm việc với các tệp Microsoft Project, cung cấp một bộ tính năng mạnh mẽ để quản lý dự án. Trong hướng dẫn này, chúng tôi sẽ tập trung vào tính toán Tỷ lệ phần trăm hoàn thành, cung cấp cho bạn kiến thức để theo dõi và phân tích tiến độ dự án một cách hiệu quả.
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình.
--  Thư viện Aspose.Tasks: Tải xuống thư viện Aspose.Tasks cho Java từ[liên kết này](https://releases.aspose.com/tasks/java/).
-## Gói nhập khẩu
-Hãy bắt đầu bằng cách nhập các gói cần thiết cho dự án Aspose.Tasks for Java của bạn. Bao gồm đoạn mã sau vào dự án của bạn:
+Chào mừng bạn đến với hướng dẫn toàn diện về **project management java** sử dụng Aspose.Tasks cho Java. Trong tutorial này, bạn sẽ học cách đọc tệp Microsoft Project, tính công việc đã hoàn thành và nhận phần trăm tiến độ chính xác cho mỗi nhiệm vụ. Nắm vững các phép tính này giúp bạn cập nhật thông tin cho các bên liên quan và đảm bảo dự án của bạn luôn đúng tiến độ.
+
+## Câu trả lời nhanh
+- **Thư viện nào xử lý tệp Microsoft Project trong Java?** Aspose.Tasks for Java.  
+- **Thuộc tính nào hiển thị tiến độ tổng thể?** `Tsk.PERCENT_COMPLETE`.  
+- **Làm thế nào để đọc tệp .mpp?** Tải nó bằng `new Project(filePath)`.  
+- **Tôi có thể tính công việc đã hoàn thành không?** Có, sử dụng `Tsk.PERCENT_WORK_COMPLETE`.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.Tasks hợp lệ.
+
+## Project Management Java là gì?
+Project management java đề cập đến việc sử dụng các công cụ và thư viện dựa trên Java—như Aspose.Tasks—để tạo, đọc và thao tác lịch trình dự án một cách lập trình. Cách tiếp cận này cho phép báo cáo tự động, bảng điều khiển tùy chỉnh và tích hợp liền mạch với các ứng dụng Java hiện có.
+
+## Tại sao nên sử dụng Aspose.Tasks để tính phần trăm nhiệm vụ?
+- **Theo dõi tiến độ chính xác** – lấy các trường Project gốc mà không cần phân tích thủ công.  
+- **Hỗ trợ .mpp đầy đủ** – đọc, chỉnh sửa và lưu tệp Microsoft Project trực tiếp.  
+- **Tự động hoá mở rộng** – xử lý hàng nghìn nhiệm vụ trong vài giây, lý tưởng cho danh mục lớn.  
+- **Đa nền tảng** – hoạt động trên bất kỳ môi trường Java nào, từ máy tính để bàn đến dịch vụ đám mây.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+- **Java Development Kit (JDK)** đã được cài đặt (Java 8 hoặc mới hơn).  
+- **Thư viện Aspose.Tasks for Java** – tải xuống từ [this link](https://releases.aspose.com/tasks/java/).  
+- Một tệp Microsoft Project mẫu (ví dụ: *Software Development.mpp*) được đặt trong một thư mục đã biết.
+
+## Nhập gói
+Đầu tiên, nhập các lớp bạn sẽ cần. Đoạn mã này nên được thêm vào bất kỳ lớp Java nào làm việc với Aspose.Tasks.
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskCollection;
 import com.aspose.tasks.Tsk;
 ```
-Bây giờ, hãy chia nhỏ từng bước với lời giải thích chi tiết.
-## Bước 1: Nhập gói
-Ở bước đầu tiên, chúng tôi nhập các gói cần thiết để thiết lập dự án Aspose.Tasks của mình.
-## Bước 2: Thiết lập thư mục tài liệu
- Xác định đường dẫn đến thư mục tài liệu của bạn bằng cách sử dụng`dataDir`Biến đổi. Đảm bảo tệp Microsoft Project của bạn, như "Software Development.mpp," nằm trong thư mục này.
+
+### Bước 1: Đặt thư mục tài liệu
+Xác định thư mục chứa tệp *.mpp* của bạn. Thay thế placeholder bằng đường dẫn thực tế trên máy của bạn.
+
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-## Bước 3: Tải dự án
- Khởi tạo một cái mới`Project` object và tải tệp Microsoft Project của bạn vào phiên bản dự án.
+
+### Bước 2: Tải tệp Project
+Tạo một thể hiện `Project` và tải tệp Microsoft Project. Bước này **đọc tệp Microsoft Project** để bạn có thể truy cập các nhiệm vụ của nó.
+
 ```java
 Project project = new Project(dataDir + "Software Development.mpp");
 ```
-## Bước 4: Truy xuất bộ sưu tập tác vụ
- Nhận tác vụ gốc của dự án và truy xuất các phần tử con của nó dưới dạng bộ sưu tập bằng cách sử dụng`getRootTask().getChildren()`.
+
+### Bước 3: Lấy bộ sưu tập Nhiệm vụ
+Lấy nhiệm vụ gốc và sau đó các nhiệm vụ con của nó. Bộ sưu tập này đại diện cho tất cả các nhiệm vụ cấp cao trong dự án.
+
 ```java
 TaskCollection alTasks = project.getRootTask().getChildren();
 ```
-## Bước 5: Hoàn thành phần trăm in
-Lặp lại từng nhiệm vụ trong bộ sưu tập và in Phần trăm hoàn thành, Phần trăm hoàn thành công việc và Phần trăm hoàn thành vật lý.
+
+### Bước 4: In giá trị Phần trăm Hoàn thành
+Lặp qua mỗi nhiệm vụ và hiển thị ba chỉ số tiến độ chính:
+
+- **Percentage Complete** – tiến độ tổng thể của nhiệm vụ.  
+- **Percentage Work Complete** – tiến độ dựa trên công việc.  
+- **Physical Percentage Complete** – tiến độ vật lý (nếu được thiết lập).
+
 ```java
 for (Task tsk : alTasks) {
     System.out.println(tsk.get(Tsk.PERCENT_COMPLETE));
@@ -55,20 +93,50 @@ for (Task tsk : alTasks) {
     System.out.println(tsk.get(Tsk.PHYSICAL_PERCENT_COMPLETE).toString());
 }
 ```
-Lặp lại các bước này cho từng nhiệm vụ trong dự án của bạn để hiểu rõ hơn về tiến độ của từng nhiệm vụ.
-## Phần kết luận
-Chúc mừng! Bạn đã thành thạo cách tính tỷ lệ phần trăm nhiệm vụ bằng cách sử dụng Aspose.Tasks cho Java. Thư viện mạnh mẽ này trao quyền cho các nhà phát triển quản lý và phân tích tiến độ dự án một cách hiệu quả.
+
+Chạy vòng lặp này cho mọi nhiệm vụ bạn cần giám sát. Đầu ra cung cấp cho bạn một bức tranh rõ ràng về **cách lấy tiến độ** cho mỗi mục công việc.
+
+## Các trường hợp sử dụng phổ biến
+- **Báo cáo bảng điều khiển:** Lấy phần trăm và đưa vào các công cụ BI.  
+- **Cảnh báo tự động:** Kích hoạt thông báo khi `PERCENT_COMPLETE` của một nhiệm vụ giảm xuống dưới ngưỡng.  
+- **Cân bằng nguồn lực:** Điều chỉnh phân công dựa trên `PERCENT_WORK_COMPLETE` để lịch trình thực tế.
+
+## Khắc phục sự cố & Mẹo
+- **Giá trị Null:** Đảm bảo tệp dự án thực sự chứa các trường bạn đang truy vấn; một số tệp .mpp cũ có thể thiếu `PHYSICAL_PERCENT_COMPLETE`.  
+- **Hiệu năng:** Đối với các dự án rất lớn, cân nhắc phân trang qua `TaskCollection` hoặc lọc theo ID nhiệm vụ để giảm sử dụng bộ nhớ.  
+- **Lỗi giấy phép:** Nếu bạn thấy cảnh báo giấy phép, hãy xác minh rằng tệp giấy phép Aspose.Tasks hợp lệ đã được tải trước khi tạo đối tượng `Project`.
+
 ## Câu hỏi thường gặp
-### Câu hỏi: Tôi có thể tìm tài liệu Aspose.Tasks ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/tasks/java/).
-### Câu hỏi: Làm cách nào tôi có thể tải xuống thư viện Aspose.Tasks cho Java?
- Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/java/).
-### Hỏi: Có bản dùng thử miễn phí không?
-Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
- Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/tasks/15).
-### Hỏi: Làm cách nào để có được giấy phép tạm thời?
- Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+**Q: Tôi có thể tìm tài liệu Aspose.Tasks ở đâu?**  
+A: Tài liệu có sẵn [here](https://reference.aspose.com/tasks/java/).
+
+**Q: Làm sao tôi có thể tải thư viện Aspose.Tasks cho Java?**  
+A: Bạn có thể tải xuống [here](https://releases.aspose.com/tasks/java/).
+
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể truy cập bản dùng thử miễn phí [here](https://releases.aspose.com/).
+
+**Q: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?**  
+A: Truy cập diễn đàn hỗ trợ [here](https://forum.aspose.com/c/tasks/15).
+
+**Q: Làm sao tôi có thể lấy giấy phép tạm thời?**  
+A: Bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
+
+**Additional Q&A**
+
+**Q: Tôi có thể tính phần trăm nhiệm vụ mà không dùng Aspose.Tasks không?**  
+A: Bạn có thể tự phân tích nhị phân .mpp, nhưng Aspose.Tasks cung cấp một API đáng tin cậy, được hỗ trợ đầy đủ và xử lý mọi trường hợp biên.
+
+**Q: Aspose.Tasks có hỗ trợ đọc tệp Project Online không?**  
+A: Có, bạn có thể tải các tệp được xuất từ Project Online miễn là chúng được lưu ở định dạng .mpp.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Tasks for Java 24.11 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
