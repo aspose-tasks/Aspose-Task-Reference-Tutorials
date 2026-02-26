@@ -1,69 +1,120 @@
 ---
-title: Rendre la feuille de tâches dans Aspose.Tasks
-linktitle: Rendre la feuille de tâches dans Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Débloquez une gestion de projet efficace avec Aspose.Tasks pour Java. Rendre les feuilles de tâches de manière transparente. Explorez le guide complet maintenant !
-weight: 27
+date: 2026-02-26
+description: Apprenez à enregistrer un projet au format PDF et à générer une feuille
+  de tâches à l’aide d’Aspose.Tasks pour Java. Exportez rapidement un MPP en PDF grâce
+  à ce guide étape par étape.
+linktitle: Render Task Sheet in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Enregistrer le projet au format PDF – Générer la feuille de tâches avec Aspose.Tasks
+  pour Java
 url: /fr/java/task-properties/render-task-sheet/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rendre la feuille de tâches dans Aspose.Tasks
+# Enregistrer le projet au format PDF – Rendre la feuille de tâches avec Aspose.Tasks
 
 ## Introduction
-Bienvenue dans le monde d'Aspose.Tasks for Java, une bibliothèque puissante qui offre aux développeurs Java des capacités de gestion de projet transparentes. Que vous soyez un développeur chevronné ou un débutant cherchant à améliorer vos compétences en gestion de projet, ce guide vous guidera à travers les feuilles de tâches de rendu à l'aide d'Aspose.Tasks.
-## Conditions préalables
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-1. Kit de développement Java (JDK) : installez la dernière version du JDK pour exécuter des programmes Java.
-2.  Aspose.Tasks pour la bibliothèque Java : téléchargez et configurez la bibliothèque. Tu peux le trouver[ici](https://releases.aspose.com/tasks/java/).
-## Importer des packages
-Pour commencer, importez les packages nécessaires dans votre projet Java. Cette étape est cruciale pour accéder aux fonctionnalités Aspose.Tasks dans votre code.
+Dans ce guide complet, vous découvrirez comment **save project as PDF** et générer une feuille de tâches avec Aspose.Tasks pour Java. Que vous ayez besoin d’exporter un fichier MPP en PDF pour des revues avec les parties prenantes ou simplement de rendre une feuille de tâches propre pour le reporting, ce tutoriel vous accompagne à chaque étape, explique pourquoi chaque paramètre est important et montre le code exact à exécuter.
+
+## Réponses rapides
+- **Que fait “save project as pdf” ?** Il convertit un fichier Microsoft Project (MPP) en document PDF, en le formatant éventuellement comme une feuille de tâches.  
+- **Quel format est utilisé pour un PDF de feuille de tâches ?** L’option `PresentationFormat.TaskSheet` dans `PdfSaveOptions`.  
+- **Ai‑je besoin d’une licence pour exécuter le code ?** Une licence temporaire ou complète est requise en production ; un essai gratuit suffit pour l’évaluation.  
+- **Quels sont les prérequis principaux ?** Java JDK, la bibliothèque Aspose.Tasks for Java, et un fichier de projet valide (par ex., *.mpp).  
+- **Puis‑je personnaliser la mise en page du PDF ?** Oui, Aspose.Tasks propose de nombreuses propriétés `PdfSaveOptions` pour le style et la configuration de la page.
+
+## Qu’est‑ce que “save project as pdf” ?
+Enregistrer un projet au format PDF transforme les données internes du projet en un document portable et en lecture seule. C’est idéal pour partager des plannings, des feuilles de tâches ou des rapports d’état avec des parties prenantes qui n’ont pas Microsoft Project installé.
+
+## Pourquoi rendre une feuille de tâches ?
+Une feuille de tâches présente chaque tâche sous forme tabulaire, affichant les ID, les noms, les dates de début/fin et d’autres champs. La rendre en PDF garantit un formatage cohérent sur toutes les plateformes et facilite l’impression ou l’intégration dans d’autres documents.
+
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
+
+1. **Java Development Kit (JDK)** – dernière version installée et `java`/`javac` disponibles dans votre PATH.  
+2. **Aspose.Tasks for Java** – téléchargez la bibliothèque depuis le site officiel [here](https://releases.aspose.com/tasks/java/).  
+3. Un **fichier de projet** valide (`*.mpp`) que vous souhaitez convertir, par ex., `NewProductDev.mpp`.  
+
+## Importer les packages
+Tout d’abord, importez les classes Aspose.Tasks requises. Ces imports vous donnent accès aux options d’enregistrement PDF, aux formats de présentation et à l’objet principal `Project`.
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveOptions;
 ```
-## Étape 1 : définissez votre répertoire de documents
-Commencez par définir le chemin d'accès à votre répertoire de documents dans le code Java. C'est ici que votre fichier de projet et la feuille de tâches rendue seront enregistrés.
+
+## Guide étape par étape
+
+### Étape 1 : Définir le répertoire de vos documents
+Définissez le dossier où se trouve le fichier MPP source et où le PDF généré sera écrit. L’utilisation d’un chemin absolu ou relatif fonctionne ; assurez‑vous simplement que le dossier existe.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-## Étape 2 : charger le fichier de projet
-Chargez votre fichier projet à l'aide de la bibliothèque Aspose.Tasks. Dans cet exemple, nous supposons que le fichier projet s'appelle « NewProductDev.mpp ».
+
+### Étape 2 : Charger le fichier de projet
+Créez une instance `Project` en chargeant le fichier MPP existant. Cet objet représente toute la structure du projet en mémoire.
+
 ```java
 Project project = new Project(dataDir + "NewProductDev.mpp");
 ```
-## Étape 3 : Configurer les options d'enregistrement
-Configurez les options d'enregistrement en spécifiant le format de présentation souhaité. Dans ce cas, nous souhaitons générer une fiche de tâches au format PDF.
+
+### Étape 3 : Configurer les options d’enregistrement – Exporter le MPP en PDF
+Instanciez `PdfSaveOptions` et indiquez à Aspose.Tasks que vous voulez que le PDF soit rendu comme une **feuille de tâches**. C’est l’étape clé pour le cas d’utilisation *export project pdf*.
+
 ```java
 SaveOptions options = new PdfSaveOptions();
 options.setPresentationFormat(PresentationFormat.TaskSheet);
 ```
-## Étape 4 : Enregistrez le projet en tant que feuille de tâches
-Enregistrez le projet avec les options spécifiées pour générer la feuille de tâches au format PDF.
+
+### Étape 4 : Enregistrer le projet en tant que feuille de tâches – Enregistrer le projet au format PDF
+Appelez la méthode `save` sur l’objet `Project`, en passant le nom du fichier cible et les options configurées. Cette action **convertit le fichier MPP en PDF** formaté comme une feuille de tâches.
+
 ```java
 project.save(dataDir + "taskSheet.pdf", options);
 ```
-## Étape 5 : Examiner le résultat
-Examinez la feuille de tâches générée jointe dans le répertoire spécifié. La feuille de tâches de votre projet est désormais rendue efficacement à l'aide d'Aspose.Tasks pour Java.
-## Conclusion
-Aspose.Tasks for Java simplifie la gestion de projet en fournissant des fonctionnalités robustes pour le rendu des feuilles de tâches. En suivant ce guide étape par étape, vous avez exploité la puissance d'Aspose.Tasks pour améliorer vos capacités de gestion de projet.
 
-## FAQ
-### Aspose.Tasks est-il compatible avec toutes les versions de Java ?
- Oui, Aspose.Tasks est compatible avec une large gamme de versions Java. Se référer au[Documentation](https://reference.aspose.com/tasks/java/) pour des détails spécifiques.
-### Puis-je essayer Aspose.Tasks avant d’acheter ?
- Absolument! Explorez la version d'essai gratuite[ici](https://releases.aspose.com/).
-### Où puis-je trouver de l’assistance pour Aspose.Tasks ?
- Rejoignez la communauté Aspose.Tasks sur le[forum](https://forum.aspose.com/c/tasks/15) pour du soutien et des discussions.
-### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
- Obtenez votre permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
-### Où puis-je acheter Aspose.Tasks pour Java ?
- Acheter Aspose.Tasks pour Java[ici](https://purchase.aspose.com/buy).
+### Étape 5 : Examiner le résultat
+Naviguez vers le répertoire que vous avez spécifié (`dataDir`). Vous devriez voir `taskSheet.pdf` contenant une liste soigneusement formatée de toutes les tâches. Ouvrez‑le avec n’importe quel lecteur PDF pour vérifier que la conversion a réussi.
+
+## Problèmes courants et solutions
+- **FileNotFoundException** – Assurez‑vous que `dataDir` se termine par un séparateur de chemin (`/` ou `\\`) et que le nom du fichier MPP est correct.  
+- **LicenseException** – Si vous rencontrez des erreurs de licence, appliquez une licence temporaire ou achetée avant d’appeler toute API Aspose.Tasks.  
+- **Blank PDF** – Vérifiez que le projet contient réellement des tâches ; un projet vide produira un PDF vide.
+
+## Questions fréquentes
+
+**Q : Aspose.Tasks est‑il compatible avec toutes les versions de Java ?**  
+R : Oui, Aspose.Tasks fonctionne avec un large éventail de versions Java. Consultez la [documentation](https://reference.aspose.com/tasks/java/) pour plus de détails.
+
+**Q : Puis‑je essayer Aspose.Tasks avant d’acheter ?**  
+R : Absolument ! Explorez la version d’essai gratuite [here](https://releases.aspose.com/).
+
+**Q : Où puis‑je trouver du support pour Aspose.Tasks ?**  
+R : Rejoignez la communauté Aspose.Tasks sur le [forum](https://forum.aspose.com/c/tasks/15) pour obtenir de l’aide et participer aux discussions.
+
+**Q : Comment obtenir une licence temporaire pour Aspose.Tasks ?**  
+R : Obtenez votre licence temporaire [here](https://purchase.aspose.com/temporary-license/).
+
+**Q : Où puis‑je acheter Aspose.Tasks pour Java ?**  
+R : Achetez Aspose.Tasks pour Java [here](https://purchase.aspose.com/buy).
+
+## Conclusion
+En suivant ces étapes, vous avez appris comment **save project as PDF**, en particulier en rendant une feuille de tâches, à l’aide d’Aspose.Tasks pour Java. Cette fonctionnalité vous permet d’*export MPP to PDF* rapidement, de partager des instantanés de projet lisibles et d’intégrer les données du projet dans des flux de travail de reporting plus larges.
+
+---
+
+**Last Updated:** 2026-02-26  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
