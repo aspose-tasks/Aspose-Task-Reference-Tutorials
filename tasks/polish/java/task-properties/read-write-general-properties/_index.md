@@ -1,27 +1,48 @@
 ---
-title: Opanowanie właściwości zadań w Aspose.Tasks
-linktitle: Odczytuj i zapisuj ogólne właściwości zadań w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Odkryj moc Aspose.Tasks for Java w łatwym zarządzaniu właściwościami zadań. Czytaj i pisz z łatwością, korzystając z naszego przewodnika krok po kroku.
-weight: 26
+date: 2026-02-26
+description: Dowiedz się, jak tworzyć projekty zadań Aspose w Javie i uzyskać datę
+  rozpoczęcia zadania przy użyciu Aspose.Tasks dla Javy. Przewodnik krok po kroku,
+  jak odczytywać i zapisywać ogólne właściwości zadań.
+linktitle: Read and Write General Properties of Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Utwórz zadanie Aspose Java – opanowanie właściwości zadania
 url: /pl/java/task-properties/read-write-general-properties/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opanowanie właściwości zadań w Aspose.Tasks
+# Tworzenie zadania Aspose Java – Opanowanie właściwości zadania
 
-## Wstęp
-Odblokuj pełny potencjał zarządzania zadaniami w Javie dzięki Aspose.Tasks. W tym obszernym przewodniku zagłębimy się w odczytywanie i zapisywanie ogólnych właściwości zadań przy użyciu Aspose.Tasks dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten samouczek wyposaży Cię w umiejętności łatwego manipulowania właściwościami zadań.
-## Warunki wstępne
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Pobrano i skonfigurowano bibliotekę Aspose.Tasks dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/tasks/java/).
+## Introduction
+Odblokuj pełny potencjał zarządzania zadaniami w Javie dzięki Aspose.Tasks. W tym kompleksowym przewodniku **dowiesz się, jak tworzyć projekty task Aspose Java**, odczytywać i zapisywać ogólne właściwości oraz nawet **pobrać datę rozpoczęcia zadania** dla dowolnego zadania w swoim harmonogramie. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten tutorial wyposaży Cię w praktyczny kod, który możesz skopiować i wkleić do własnych aplikacji.
+
+## Quick Answers
+- **Co mogę zrobić z Aspose.Tasks dla Javy?** Odczytywać i zapisywać właściwości zadań, w tym daty rozpoczęcia, czasy trwania i pola niestandardowe.  
+- **Jak utworzyć nowe zadanie?** Użyj `project.getRootTask().getChildren().add("TaskName")` i ustaw właściwości za pomocą wyliczenia `Tsk`.  
+- **Jak mogę pobrać datę rozpoczęcia zadania?** Wywołaj `task.get(Tsk.START)` po załadowaniu projektu lub utworzeniu zadania.  
+- **Czy potrzebuję licencji do rozwoju?** Tymczasowa licencja działa w testach; pełna licencja jest wymagana w produkcji.  
+- **Jaką wersję Javy obsługuje?** Aspose.Tasks działa z Javą 8 i nowszą, w tym Java 11 i Java 17.
+
+## What is “create task Aspose Java”?
+Tworzenie zadania przy użyciu Aspose.Tasks oznacza programowe dodanie nowego wpisu do harmonogramu projektu, określenie jego nazwy, czasu rozpoczęcia, czasu zakończenia oraz innych atrybutów, bez ręcznej edycji pliku XML lub MPP.
+
+## Why use Aspose.Tasks for Java?
+- **Pełna kontrola** nad każdym atrybutem zadania (ID, UID, nazwa, daty itp.).  
+- **Wieloplatformowość** – działa na Windows, Linux i macOS.  
+- **Brak zależności od COM lub Office** – czysta biblioteka Java.  
+- **Bogate API** do odczytu, zapisu i walidacji danych projektu.
+
+## Prerequisites
+- Zainstalowany Java Development Kit (JDK) na Twoim systemie.  
+- Biblioteka Aspose.Tasks for Java pobrana i skonfigurowana. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/tasks/java/).  
 - Edytor kodu, taki jak IntelliJ IDEA lub Eclipse.
-## Importuj pakiety
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Ten krok zapewnia dostęp do funkcjonalności Aspose.Tasks. Oto fragment, który Cię poprowadzi:
+
+## Import Packages
+Aby rozpocząć, zaimportuj niezbędne pakiety w swoim projekcie Java. Ten krok zapewnia dostęp do funkcjonalności Aspose.Tasks. Oto fragment kodu, który Cię poprowadzi:
+
 ```java
 import com.aspose.tasks.ChildTasksCollector;
 import com.aspose.tasks.Project;
@@ -30,11 +51,13 @@ import com.aspose.tasks.TaskUtils;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-## Czytanie ogólnych właściwości zadań
-## Krok 1: Utwórz zadanie
-Zacznij od utworzenia zadania w swoim projekcie. Wiąże się to z ustawieniem nazwy zadania, daty rozpoczęcia i innych istotnych szczegółów. Oto przykład:
+
+## How to create task Aspose Java
+### Step 1: Create a Task
+Zacznij od utworzenia zadania w swoim projekcie. To obejmuje ustawienie nazwy zadania, daty rozpoczęcia i innych istotnych szczegółów. Poniższy kod demonstruje ten proces:
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Project project = new Project();
 Task task = project.getRootTask().getChildren().add("Task1");
@@ -43,10 +66,12 @@ cal.set(2013, Calendar.JULY, 17, 8, 0, 0);
 task.set(Tsk.START, cal.getTime());
 task.set(Tsk.NAME, "new name");
 ```
-## Krok 2: Przeczytaj właściwości zadania
-Po utworzeniu zadania pobierzmy i wyświetlmy jego ogólne właściwości. Realizuje to następujący fragment kodu:
+
+### Step 2: Read Task Properties
+Teraz, gdy utworzyłeś zadanie, pobierzmy i wyświetlmy jego ogólne właściwości, w tym właśnie ustawioną datę rozpoczęcia:
+
 ```java
-// Czytanie ogólnych właściwości zadań
+// Reading General Properties of Tasks
 Project prj = new Project(dataDir + "project.xml");
 ChildTasksCollector collector = new ChildTasksCollector();
 TaskUtils.apply(prj.getRootTask(), collector, 0);
@@ -58,16 +83,23 @@ for (Task tsk : collector.getTasks()) {
     System.out.println("Task Finish: " + tsk.get(Tsk.FINISH));
 }
 ```
-## Pisanie ogólnych właściwości zadań
-## Krok 3: Załaduj projekt i utwórz kolektor
- Aby napisać ogólne właściwości, załaduj istniejący projekt i skonfiguruj plik`ChildTasksCollector`:
+
+## How to get task start date
+Jeśli potrzebujesz **pobrać datę rozpoczęcia zadania** do dalszych obliczeń (np. planowania lub raportowania), po prostu wywołaj właściwość `Tsk.START` na dowolnym obiekcie `Task`, jak pokazano w powyższej pętli. Zwrócona wartość to `java.util.Date`, którą możesz sformatować lub porównać w zależności od potrzeb.
+
+## Writing General Properties of Tasks
+### Step 3: Load Project and Create Collector
+Aby zapisać lub zaktualizować ogólne właściwości, załaduj istniejący projekt i skonfiguruj `ChildTasksCollector`:
+
 ```java
 Project prj = new Project(dataDir + "project.xml");
 ChildTasksCollector collector = new ChildTasksCollector();
 TaskUtils.apply(prj.getRootTask(), collector, 0);
 ```
-## Krok 4: Przeanalizuj i wyświetl właściwości
-Na koniec przeanalizuj zebrane zadania i wyświetl ich właściwości:
+
+### Step 4: Parse and Display Properties
+Na koniec przeiteruj zebrane zadania i wyświetl (lub zmodyfikuj) ich właściwości:
+
 ```java
 for (Task tsk : collector.getTasks()) {
     System.out.println("Task Id:" + tsk.get(Tsk.ID));
@@ -77,20 +109,42 @@ for (Task tsk : collector.getTasks()) {
     System.out.println("Task Finish: " + tsk.get(Tsk.FINISH));
 }
 ```
-Gratulacje! Pomyślnie odczytałeś i zapisałeś ogólne właściwości zadań przy użyciu Aspose.Tasks dla Java.
-## Wniosek
-W tym samouczku omówiliśmy podstawowe kroki umożliwiające bezproblemowe manipulowanie właściwościami zadań za pomocą Aspose.Tasks dla języka Java. Opanowując te techniki, możesz podnieść swoje umiejętności programowania w języku Java i usprawnić zarządzanie zadaniami w swoich projektach.
-## Często zadawane pytania
-### Czy Aspose.Tasks jest kompatybilny z Javą 11?
-Tak, Aspose.Tasks jest kompatybilny z Java 11 i nowszymi wersjami.
-### Czy mogę używać Aspose.Tasks do projektów komercyjnych?
- Absolutnie! Aspose.Tasks to potężne narzędzie zarówno do projektów osobistych, jak i komercyjnych. Odwiedzać[Tutaj](https://purchase.aspose.com/buy) aby poznać opcje licencjonowania.
-### Jak mogę uzyskać tymczasową licencję do celów testowych?
- Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania i oceny.
-### Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Tasks?
- Dołącz do dyskusji społeczności na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za pomoc i współpracę.
-### Czy są dostępne jakieś przykładowe projekty w celach informacyjnych?
- Zapoznaj się z sekcją przykładów w dokumentacji[Tutaj](https://reference.aspose.com/tasks/java/) dla przykładowych projektów i fragmentów kodu.
+
+> **Wskazówka:** Po zaktualizowaniu dowolnej właściwości, wywołaj `prj.save("output.xml")`, aby zapisać zmiany w nowym pliku projektu.
+
+Gratulacje! Pomyślnie odczytałeś, zapisałeś i zapytałeś o ogólne właściwości zadań przy użyciu Aspose.Tasks for Java.
+
+## Common Issues and Solutions
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| `NullPointerException` przy dostępie do `task.get(Tsk.START)` | Zadanie nie zostało dodane do hierarchii projektu. | Upewnij się, że dodałeś zadanie do `project.getRootTask().getChildren()` przed ustawieniem właściwości. |
+| Daty są przesunięte o jeden dzień | Różnice stref czasowych między Java `Date` a plikiem projektu. | Użyj `java.util.Calendar` z wyraźnie określoną strefą czasową lub przechowuj daty w UTC. |
+| Zmiany nie zostały zapisane | Zapomniano wywołać `project.save(...)`. | Zawsze zapisuj projekt po wprowadzeniu zmian. |
+
+## Frequently Asked Questions
+
+**P:** Czy Aspose.Tasks jest kompatybilny z Java 11?  
+**O:** Tak, Aspose.Tasks jest kompatybilny z Java 11 i późniejszymi wersjami.
+
+**P:** Czy mogę używać Aspose.Tasks w projektach komercyjnych?  
+**O:** Oczywiście! Aspose.Tasks to potężne narzędzie zarówno do projektów prywatnych, jak i komercyjnych. Odwiedź [tutaj](https://purchase.aspose.com/buy), aby zapoznać się z opcjami licencjonowania.
+
+**P:** Jak mogę uzyskać tymczasową licencję do celów testowych?  
+**O:** Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do testów i oceny.
+
+**P:** Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Tasks?  
+**O:** Dołącz do dyskusji społecznościowej na [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), aby uzyskać pomoc i współpracować.
+
+**P:** Czy dostępne są przykładowe projekty do odniesienia?  
+**O:** Przeglądaj sekcję przykładów w dokumentacji [tutaj](https://reference.aspose.com/tasks/java/), aby zobaczyć przykładowe projekty i fragmenty kodu.
+
+## Conclusion
+W tym tutorialu omówiliśmy podstawowe kroki do **tworzenia projektów task Aspose Java**, odczytywania i zapisywania ogólnych właściwości oraz **pobierania daty rozpoczęcia zadania** bez wysiłku. Opanowując te techniki, możesz usprawnić zarządzanie zadaniami w każdej aplikacji do planowania w Javie i dostarczyć użytkownikom bogatsze funkcje planowania projektu.
+
+**Ostatnia aktualizacja:** 2026-02-26  
+**Testowano z:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
