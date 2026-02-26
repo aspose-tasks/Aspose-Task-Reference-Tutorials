@@ -1,26 +1,43 @@
 ---
-title: Phân chia nhiệm vụ trong Aspose.Tasks
-linktitle: Phân chia nhiệm vụ trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Quản lý tác vụ thành thạo trong Java với Aspose.Tasks! Tìm hiểu cách phân chia nhiệm vụ hiệu quả để tối ưu hóa các mốc thời gian của dự án. Tải ngay!
-weight: 29
+date: 2026-02-26
+description: Tìm hiểu cách chia nhỏ công việc với Aspose.Tasks cho Java – hướng dẫn
+  toàn diện về cách chia nhỏ công việc, thiết lập lịch dự án và tạo phân công nguồn
+  lực.
+linktitle: Split Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cách chia tách nhiệm vụ trong Aspose.Tasks
 url: /vi/java/task-properties/split-tasks/
+weight: 29
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ with translations.
+
+Be careful to keep markdown formatting exactly.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Phân chia nhiệm vụ trong Aspose.Tasks
+# Cách Tách Nhiệm Vụ trong Aspose.Tasks
 
 ## Giới thiệu
-Bạn đang gặp khó khăn với việc quản lý tác vụ trong dự án Java của mình? Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để phân chia nhiệm vụ một cách hiệu quả, nâng cao khả năng quản lý dự án. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình phân chia nhiệm vụ bằng Aspose.Tasks cho Java, giúp bạn tối ưu hóa tiến trình dự án và phân bổ tài nguyên của mình.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
--  Thư viện Aspose.Tasks dành cho Java đã được tải xuống và thêm vào dự án của bạn. Bạn có thể tải nó xuống từ[Aspose.Tasks cho tài liệu Java](https://reference.aspose.com/tasks/java/).
-## Gói nhập khẩu
-Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn:
+Nếu bạn đang tìm kiếm **cách tách nhiệm vụ** trong một dự án dựa trên Java, bạn đã đến đúng nơi. Aspose.Tasks for Java cung cấp cho bạn một cách tiếp cận lập trình sạch sẽ để chia một nhiệm vụ kéo dài thành các phần nhỏ hơn, dễ quản lý, giúp cân bằng tài nguyên, báo cáo chính xác và thời gian dự án chặt chẽ hơn. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình — từ việc thiết lập lịch dự án đến tạo một phân công tài nguyên và cuối cùng là tách nhiệm vụ thành nhiều đoạn.
+
+## Câu trả lời nhanh
+- **Task splitting là gì?** Việc chia một nhiệm vụ duy nhất thành nhiều khoảng thời gian nhỏ hơn trong khi vẫn giữ tổng thời lượng của nó.  
+- **Tại sao tách nhiệm vụ trong Java?** Nó cho phép phân bổ tài nguyên chính xác và theo dõi tiến độ tốt hơn.  
+- **Thư viện nào hỗ trợ?** Aspose.Tasks for Java cung cấp các phương thức tích hợp sẵn để tách và time‑phasing.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; cần giấy phép cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Thư viện hoạt động với Java 8 và các phiên bản mới hơn.
+
+## Yêu cầu trước
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
+- Thư viện Aspose.Tasks for Java đã được tải xuống và thêm vào dự án. Bạn có thể tải nó từ [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
+
+## Nhập khẩu các gói
+Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +49,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## Bước 1: Tạo một dự án mới
-Bắt đầu bằng cách tạo một dự án mới bằng thư viện Aspose.Tasks:
+
+## Bước 1: Tạo một Dự án Mới
+Bắt đầu bằng cách tạo một dự án mới sử dụng thư viện Aspose.Tasks:
+
 ```java
-// Tạo một dự án mới
+// Create a new project
 Project splitTaskProject = new Project();
 ```
-## Bước 2: Đặt lịch dự án
-Đặt cài đặt lịch của dự án để thiết lập dòng thời gian:
+
+## Bước 2: Đặt Lịch Dự Án
+Việc đặt **project calendar** xác định các ngày làm việc, ngày nghỉ và tổng thời gian cho lịch trình của bạn. Bước này rất quan trọng để tính toán time‑phased một cách chính xác.
+
 ```java
-// Nhận lịch chuẩn
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// Đặt cài đặt lịch của dự án
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (tiếp tục với ví dụ)
+// ... (continue with the example)
 ```
-## Bước 3: Thêm tác vụ gốc
-Thêm tác vụ gốc vào dự án của bạn:
+
+## Bước 3: Thêm Nhiệm Vụ Gốc
+Mỗi dự án cần một container gốc. Thêm một nhiệm vụ gốc sẽ cung cấp vị trí để gắn tất cả các nhiệm vụ tiếp theo.
+
 ```java
-// Nhiệm vụ gốc
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
-## Bước 4: Thêm nhiệm vụ mới vào phân chia
-Thêm một nhiệm vụ mới vào dự án mà bạn muốn phân chia:
+
+## Bước 4: Thêm Nhiệm Vụ Mới để Tách
+Tạo nhiệm vụ mà bạn muốn tách. Ở đây chúng tôi đặt thời lượng ba ngày làm ví dụ.
+
 ```java
-// Thêm nhiệm vụ mới
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
-## Bước 5: Tạo phân công nguồn lực
-Tạo sự phân công tài nguyên mới cho nhiệm vụ:
+
+## Bước 5: Tạo Phân Công Tài Nguyên
+Một **resource assignment** liên kết một tài nguyên (hoặc placeholder) với nhiệm vụ. Điều này là bắt buộc trước khi tạo dữ liệu time‑phased.
+
 ```java
-// Tạo phân công tài nguyên mới
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## Bước 6: Tạo dữ liệu theo pha thời gian
-Tạo dữ liệu theo pha thời gian phân công tài nguyên:
+
+## Bước 6: Tạo Dữ liệu Timephased
+Dữ liệu time‑phased biểu thị cách công việc được phân phối trong suốt thời lượng của nhiệm vụ. Việc tạo nó chuẩn bị nhiệm vụ cho quá trình tách.
+
 ```java
-// Tạo dữ liệu theo pha thời gian phân công tài nguyên
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## Bước 7: Chia nhiệm vụ
-Chia nhiệm vụ thành nhiều phần:
+
+## Bước 7: Tách Nhiệm Vụ
+Bây giờ chúng ta **split the task into parts**. Trong ví dụ này, chúng tôi chia nhiệm vụ ba ngày thành ba đoạn một ngày.
+
 ```java
-// Chia nhiệm vụ thành 3 phần
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (tiếp tục với ví dụ)
+// ... (continue with the example)
 ```
-## Phần kết luận
-Chúc mừng! Bạn đã học thành công cách phân chia nhiệm vụ bằng Aspose.Tasks cho Java. Thư viện mạnh mẽ này đơn giản hóa việc quản lý tác vụ trong các dự án Java, cung cấp các giải pháp hiệu quả để tối ưu hóa tiến trình dự án và phân bổ tài nguyên.
-## Các câu hỏi thường gặp
-### Tôi có thể chia nhiệm vụ với thời lượng khác nhau không?
-Có, bạn có thể điều chỉnh thời lượng của nhiệm vụ theo yêu cầu dự án của mình.
+
+## Tại sao nên Tách Nhiệm Vụ?
+Tách nhiệm vụ cho phép bạn kiểm soát chi tiết hơn về:
+- **Resource leveling:** Gán các tài nguyên khác nhau cho mỗi đoạn.  
+- **Progress tracking:** Cập nhật trạng thái theo từng đoạn.  
+- **Reporting:** Tạo các biểu đồ Gantt và báo cáo chi tiết hơn.
+
+## Các Vấn đề Thường gặp và Giải pháp
+- **Missing calendar data:** Đảm bảo bạn gọi `timephasedDataFromTaskDuration` trước khi tách.  
+- **Zero‑duration segments:** Kiểm tra mỗi khoảng tách có thời lượng khác 0; nếu không, thư viện sẽ bỏ qua.  
+- **License exceptions:** Chạy mà không có giấy phép hợp lệ có thể thêm watermark vào các tệp xuất.
+
+## Câu hỏi Thường gặp
+### Tôi có thể tách nhiệm vụ với các thời lượng khác nhau không?
+Có, bạn có thể điều chỉnh thời lượng của mỗi phần để phù hợp với yêu cầu dự án của mình.
+
 ### Aspose.Tasks for Java có tương thích với tất cả các phiên bản Java không?
-Aspose.Tasks for Java được thiết kế để hoạt động trơn tru với nhiều phiên bản Java khác nhau, đảm bảo khả năng tương thích.
-### Tôi có thể sử dụng Aspose.Tasks cho Java miễn phí không?
-Aspose.Tasks for Java cung cấp bản dùng thử miễn phí, cho phép bạn khám phá các tính năng của nó trước khi mua hàng.
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho Java?
- Tham quan[Aspose.Tasks cho diễn đàn hỗ trợ Java](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và kết nối với cộng đồng.
+Aspose.Tasks for Java được thiết kế để hoạt động liền mạch với Java 8 và các phiên bản mới hơn, đảm bảo tính tương thích rộng rãi.
+
+### Tôi có thể sử dụng Aspose.Tasks for Java miễn phí không?
+Aspose.Tasks for Java cung cấp bản dùng thử miễn phí, cho phép bạn khám phá các tính năng trước khi mua.
+
+### Làm thế nào tôi có thể nhận hỗ trợ cho Aspose.Tasks for Java?
+Truy cập [Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và kết nối với cộng đồng.
+
 ### Tôi có cần giấy phép tạm thời cho Aspose.Tasks for Java không?
- Bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+Bạn có thể lấy giấy phép tạm thời từ [this link](https://purchase.aspose.com/temporary-license/) để thử nghiệm và đánh giá.
+
+---
+
+**Cập nhật lần cuối:** 2026-02-26  
+**Kiểm tra với:** Aspose.Tasks for Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

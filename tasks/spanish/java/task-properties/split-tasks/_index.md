@@ -1,26 +1,49 @@
 ---
-title: Dividir tareas en Aspose.Tasks
-linktitle: Dividir tareas en Aspose.Tasks
-second_title: Aspose.Tasks API de Java
-description: ¡Domina la gestión de tareas en Java con Aspose.Tasks! Aprenda a dividir tareas de manera eficiente para optimizar los cronogramas del proyecto. ¡Descargar ahora!
-weight: 29
+date: 2026-02-26
+description: 'Aprenda cómo dividir tareas con Aspose.Tasks para Java: la guía definitiva
+  sobre cómo dividir tareas, establecer el calendario del proyecto y crear asignaciones
+  de recursos.'
+linktitle: Split Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cómo dividir tareas en Aspose.Tasks
 url: /es/java/task-properties/split-tasks/
+weight: 29
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+?"
+
+Link text translate.
+
+Then the bottom metadata lines: "Last Updated:" "Tested With:" "Author:" translate.
+
+Now produce final content.
+
+Make sure to keep code block placeholders exactly as they are.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dividir tareas en Aspose.Tasks
+# Cómo dividir tareas en Aspose.Tasks
 
 ## Introducción
-¿Tiene dificultades con la gestión de tareas en su proyecto Java? Aspose.Tasks para Java proporciona una poderosa solución para dividir tareas de manera eficiente, mejorando las capacidades de gestión de proyectos. En este tutorial, lo guiaremos a través del proceso de dividir tareas usando Aspose.Tasks para Java, ayudándolo a optimizar los cronogramas de su proyecto y la asignación de recursos.
+Si estás buscando **cómo dividir tareas** en un proyecto basado en Java, has llegado al lugar correcto. Aspose.Tasks for Java te brinda una forma limpia y programática de dividir una tarea de larga duración en partes más pequeñas y manejables, lo que ayuda con el nivelado de recursos, informes precisos y cronogramas de proyecto más ajustados. En este tutorial recorreremos todo el proceso, desde la configuración del calendario del proyecto hasta la creación de una asignación de recurso y, finalmente, la división de la tarea en varios segmentos.
+
+## Respuestas rápidas
+- **¿Qué es la división de tareas?** Dividir una única tarea en varios intervalos más pequeños mientras se conserva su duración total.  
+- **¿Por qué dividir tareas en Java?** Permite una asignación de recursos precisa y un mejor seguimiento del progreso.  
+- **¿Qué biblioteca ayuda?** Aspose.Tasks for Java proporciona métodos integrados para dividir y crear fases temporales.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia para producción.  
+- **¿Qué versión de Java es compatible?** La biblioteca funciona con Java 8 y versiones posteriores.
+
 ## Requisitos previos
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Biblioteca Aspose.Tasks para Java descargada y agregada a su proyecto. Puedes descargarlo desde el[Aspose.Tasks para la documentación de Java](https://reference.aspose.com/tasks/java/).
+Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requisitos:
+- Java Development Kit (JDK) instalado en tu máquina.  
+- Biblioteca Aspose.Tasks for Java descargada y añadida a tu proyecto. Puedes descargarla de la [documentación de Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/).
+
 ## Importar paquetes
-Comience importando los paquetes necesarios a su proyecto Java:
+Comienza importando los paquetes necesarios en tu proyecto Java:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +55,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## Paso 1: crear un nuevo proyecto
-Comience creando un nuevo proyecto usando la biblioteca Aspose.Tasks:
+
+## Paso 1: Crear un nuevo proyecto
+Crea un nuevo proyecto usando la biblioteca Aspose.Tasks:
+
 ```java
-// Crear un nuevo proyecto
+// Create a new project
 Project splitTaskProject = new Project();
 ```
-## Paso 2: configurar el calendario del proyecto
-Establezca la configuración del calendario del proyecto para establecer el cronograma:
+
+## Paso 2: Configurar el calendario del proyecto
+Establecer el **calendario del proyecto** define los días laborables, festivos y la línea de tiempo general de tu planificación. Este paso es esencial para cálculos de fases temporales precisos.
+
 ```java
-// Obtenga un calendario estándar
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// Establecer la configuración del calendario del proyecto
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (sigue con el ejemplo)
+// ... (continue with the example)
 ```
-## Paso 3: agregar una tarea raíz
-Agregue una tarea raíz a su proyecto:
+
+## Paso 3: Añadir una tarea raíz
+Todo proyecto necesita un contenedor raíz. Añadir una tarea raíz te brinda un lugar donde adjuntar todas las tareas posteriores.
+
 ```java
-// Tarea raíz
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
-## Paso 4: agregue una nueva tarea para dividir
-Agregue una nueva tarea a su proyecto que desee dividir:
+
+## Paso 4: Añadir una nueva tarea para dividir
+Crea la tarea que deseas dividir. Aquí establecemos una duración de tres días como ejemplo.
+
 ```java
-// Agregar una nueva tarea
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
-## Paso 5: crear una asignación de recursos
-Cree una nueva asignación de recursos para la tarea:
+
+## Paso 5: Crear una asignación de recurso
+Una **asignación de recurso** vincula un recurso (o un marcador de posición) a la tarea. Esto es necesario antes de generar datos de fases temporales.
+
 ```java
-// Crear una nueva asignación de recursos
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## Paso 6: generar datos en fases temporales
-Generar datos de fase temporal de asignación de recursos:
+
+## Paso 6: Generar datos de fases temporales
+Los datos de fases temporales representan cómo se distribuye el trabajo a lo largo de la duración de la tarea. Generarlos prepara la tarea para ser dividida.
+
 ```java
-// Generar datos de fase temporal de asignación de recursos
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## Paso 7: dividir la tarea
-Divida la tarea en varias partes:
+
+## Paso 7: Dividir la tarea
+Ahora **dividimos la tarea en partes**. En este ejemplo dividimos la tarea de tres días en tres segmentos de un día cada uno.
+
 ```java
-// Dividir la tarea en 3 partes.
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (sigue con el ejemplo)
+// ... (continue with the example)
 ```
-## Conclusión
-¡Felicidades! Ha aprendido con éxito cómo dividir tareas usando Aspose.Tasks para Java. Esta potente biblioteca simplifica la gestión de tareas en proyectos Java y proporciona soluciones eficientes para optimizar los cronogramas de los proyectos y la asignación de recursos.
+
+## ¿Por qué dividir tareas?
+Dividir tareas te brinda un control más granular sobre:
+- **Nivelado de recursos:** Asigna diferentes recursos a cada segmento.  
+- **Seguimiento del progreso:** Actualiza el estado por segmento.  
+- **Informes:** Genera diagramas de Gantt y reportes más detallados.
+
+## Problemas comunes y soluciones
+- **Datos de calendario faltantes:** Asegúrate de llamar a `timephasedDataFromTaskDuration` antes de dividir.  
+- **Segmentos de duración cero:** Verifica que cada intervalo dividido tenga una duración distinta de cero; de lo contrario, la biblioteca lo ignorará.  
+- **Excepciones de licencia:** Ejecutar sin una licencia válida puede añadir una marca de agua a los archivos exportados.
+
 ## Preguntas frecuentes
 ### ¿Puedo dividir tareas con diferentes duraciones?
-Sí, puede ajustar la duración de las tareas según los requisitos de su proyecto.
-### ¿Aspose.Tasks para Java es compatible con todas las versiones de Java?
-Aspose.Tasks para Java está diseñado para funcionar perfectamente con varias versiones de Java, lo que garantiza la compatibilidad.
-### ¿Puedo utilizar Aspose.Tasks para Java de forma gratuita?
-Aspose.Tasks para Java ofrece una prueba gratuita que le permite explorar sus funciones antes de realizar una compra.
-### ¿Cómo puedo obtener soporte para Aspose.Tasks para Java?
- Visita el[Foro de soporte de Aspose.Tasks para Java](https://forum.aspose.com/c/tasks/15) para obtener asistencia y conectarse con la comunidad.
-### ¿Necesito una licencia temporal para Aspose.Tasks para Java?
- Puede obtener una licencia temporal de[este enlace](https://purchase.aspose.com/temporary-license/) para fines de prueba y evaluación.
+Sí, puedes ajustar la duración de cada parte para que coincida con los requisitos de tu proyecto.
+
+### ¿Es Aspose.Tasks for Java compatible con todas las versiones de Java?
+Aspose.Tasks for Java está diseñado para funcionar sin problemas con Java 8 y versiones posteriores, garantizando una amplia compatibilidad.
+
+### ¿Puedo usar Aspose.Tasks for Java de forma gratuita?
+Aspose.Tasks for Java ofrece una prueba gratuita, que te permite explorar sus funciones antes de realizar una compra.
+
+### ¿Cómo puedo obtener soporte para Aspose.Tasks for Java?
+Visita el [foro de soporte de Aspose.Tasks for Java](https://forum.aspose.com/c/tasks/15) para obtener asistencia y conectar con la comunidad.
+
+### ¿Necesito una licencia temporal para Aspose.Tasks for Java?
+Puedes obtener una licencia temporal desde [este enlace](https://purchase.aspose.com/temporary-license/) para propósitos de prueba y evaluación.
+
+---
+
+**Última actualización:** 2026-02-26  
+**Probado con:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
