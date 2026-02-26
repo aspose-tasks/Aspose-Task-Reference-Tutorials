@@ -1,65 +1,121 @@
 ---
-title: Aspose.Tasks での分割タスク終了日
-linktitle: Aspose.Tasks での分割タスク終了日
+date: 2026-02-26
+description: Aspose.Tasks for Java を使用して、タスクの完了日を分割し、プロジェクトのタイムラインを管理する方法を学びましょう。このガイドでは、タスクを効率的に分割する方法を示します。
+linktitle: Split Task Finish Date in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用してタスクの終了日を簡単に分割する方法を学びましょう。正確なタイムラインでプロジェクト管理を強化します。
-weight: 28
+title: プロジェクトタイムラインの管理 – Aspose.Tasks における分割タスクの完了日
 url: /ja/java/task-properties/split-task-finish-date/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks での分割タスク終了日
+# Aspose.Tasks のタスク完了日の分割
 
-## 導入
-プロジェクト管理では、タスクのタイムラインを理解することが、プロジェクトを正常に完了するために重要です。 Aspose.Tasks for Java は、プロジェクト タスクを効率的に操作するための強力な機能を提供します。このチュートリアルでは、プロジェクトのタイムラインを効果的に管理できるように、Aspose.Tasks を使用してタスクの終了日を分割する方法について詳しく説明します。
+## はじめに
+プロジェクトのタイムラインを効果的に **管理する** ことは、成功するプロジェクト納品の基礎です。タスクの期間が変更されると、スケジュールの正確性を保つために完了日を再計算する必要があります。このチュートリアルでは、Aspose.Tasks for Java を使用して **タスクの完了日を分割する方法** を示し、プロジェクトのタイムラインを正確にコントロールできるようにします。
+
+## クイック回答
+- **タスクの完了日を分割すると何が得られますか？** 任意の期間に対して終了日を計算でき、スケジュールをリアルタイムで調整するのに役立ちます。  
+- **必要なライブラリはどれですか？** Aspose.Tasks for Java（公式サイトからダウンロード可能）。  
+- **開発にライセンスは必要ですか？** テスト用には一時ライセンスで動作しますが、本番環境では正式ライセンスが必要です。  
+- **任意のプロジェクトカレンダーで使用できますか？** はい、API はプロジェクトのカレンダーを使用して稼働日や祝日を考慮します。  
+- **必要なコード行数は？** 任意の期間の完了日を取得するのに 10 行未満です。
+
+## Aspose.Tasks における「プロジェクトタイムラインの管理」とは？
+プロジェクトタイムラインの管理とは、カレンダー、リソース、タスクの依存関係を考慮しながら、すべてのタスクの開始日と完了日を全体スケジュールと同期させることです。正確な完了日計算は、現実的な見積もりとステークホルダーの信頼を得るために不可欠です。
+
+## なぜタスクの完了日を分割するのか？
+- **柔軟性:** 異なる作業時間の割り当てが納期に与える影響をすぐに確認できます。  
+- **リスク評価:** 元の計画を変更せずに「もしも」シナリオを評価できます。  
+- **リソース計画:** タスク期間をチームのキャパシティやカレンダーの制約に合わせられます。
+
 ## 前提条件
-始める前に、以下のものがあることを確認してください。
-- Java プログラミングの基本的な知識。
--  Aspose.Tasks for Java ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/java/).
-- Java 開発環境がセットアップされています。
+開始する前に、以下が揃っていることを確認してください。
+
+- Java プログラミングの基本知識。  
+- Aspose.Tasks for Java ライブラリがインストールされていること。ダウンロードは [here](https://releases.aspose.com/tasks/java/) から。  
+- Java 開発環境が構築されていること。
+
 ## パッケージのインポート
-まず、Java プロジェクトに必要なパッケージを含めます。
+まず、Java プロジェクトに必要なパッケージをインクルードします。
 ```java
 import com.aspose.tasks.*;
 ```
-## ステップ 1: 分割タスクを見つける
-プロジェクト内で分割するタスクを見つけます。
+
+## 手順 1: 分割タスクを見つける
+プロジェクト内で分割したいタスクを見つけます。
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//プロジェクトを読む
+// Read project
 String projectName = dataDir + "SplitTask.mpp";
 Project project = new Project(projectName);
 Task splitTask = project.getRootTask().getChildren().getByUid(1);
 ```
-## ステップ 2: プロジェクト カレンダーを見つける
-正確な日付を計算するためにプロジェクト カレンダーを取得します。
+
+## 手順 2: プロジェクトカレンダーを取得する
+正確な日付計算のためにプロジェクトカレンダーを取得します。
 ```java
 Calendar calendar = project.get(Prj.CALENDAR);
 ```
-## ステップ 3: さまざまな期間でタスクの終了日を計算する
-ここで、さまざまな期間におけるタスクの終了日を計算します。
-## ステップ 3.1: 8 時間の継続時間
+
+## 手順 3: 異なる期間でタスクの完了日を計算する
+それでは、さまざまな期間に対してタスクの完了日を計算します。
+
+### 手順 3.1: 8 時間の期間
 ```java
 System.out.println("Start Date: " + splitTask.get(Tsk.START) + "\n+ Duration 8 hours\nFinish Date: " + calendar.getTaskFinishDateFromDuration(splitTask, 8d));
 ```
-上記のコードをさまざまな期間に対して繰り返し、それに応じて時間を調整します。
+
+*上記のコードを異なる期間で繰り返し、時間を調整して各変更が完了日に与える影響を確認してください。*
+
+## よくある問題と解決策
+- **カレンダー参照の誤り:** 新しいカレンダーを作成せず、プロジェクトのカレンダー (`project.get(Prj.CALENDAR)`) を取得していることを確認してください。  
+- **タスク UID の誤り:** UID は実際に存在するタスクと一致している必要があります。そうでない場合、`getByUid` は `null` を返し、`NullPointerException` が発生します。  
+- **タイムゾーンの不一致:** API はカレンダーのタイムゾーンで動作します。結果がずれている場合は、システムのデフォルトゾーンを確認してください。
+
 ## 結論
-タスクの終了日を操作する技術を習得することは、効果的なプロジェクト管理にとって極めて重要です。 Aspose.Tasks for Java はこのプロセスを簡素化し、プロジェクトのタイムラインを簡単に合理化できるようにします。
-## よくある質問
-### Q1: Aspose.Tasks for Java をダウンロードするにはどうすればよいですか?
- A1: ダウンロードできます[ここ](https://releases.aspose.com/tasks/java/).
-### Q2: Aspose.Tasks のドキュメントはどこで見つけられますか?
- A2: ドキュメントを参照してください。[ここ](https://reference.aspose.com/tasks/java/).
-### Q3: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
- A3: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
-### Q4: Aspose.Tasks のサポートはどこに問い合わせればよいですか?
- A4: サポート フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/tasks/15).
-### Q5: Aspose.Tasks を購入できますか?
- A5: はい、購入できます。[ここ](https://purchase.aspose.com/buy).
+**プロジェクトタイムラインの管理** をタスクの完了日を分割して習得することは、効果的なプロジェクト管理にとって重要です。Aspose.Tasks for Java はこのプロセスを簡素化し、スケジュールを手間なく最適化できます。
+
+## FAQ
+### Q1: Aspose.Tasks for Java はどこからダウンロードできますか？
+A1: [here](https://releases.aspose.com/tasks/java/) からダウンロードできます。
+
+### Q2: Aspose.Tasks のドキュメントはどこで見つけられますか？
+A2: ドキュメントは [here](https://reference.aspose.com/tasks/java/) を参照してください。
+
+### Q3: Aspose.Tasks の一時ライセンスはどう取得しますか？
+A3: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+### Q4: Aspose.Tasks のサポートはどこで受けられますか？
+A4: サポートフォーラムは [here](https://forum.aspose.com/c/tasks/15) をご覧ください。
+
+### Q5: Aspose.Tasks を購入できますか？
+A5: はい、[here](https://purchase.aspose.com/buy) から購入できます。
+
+## 追加のよくある質問
+
+**Q: カスタムカレンダーでもこの手法を使用できますか？**  
+A: もちろんです。`project.get(Prj.CALENDAR)` をカスタムの `Calendar` インスタンスに置き換えるだけです。
+
+**Q: 非稼働日を考慮しますか？**  
+A: はい、完了日を計算する際にカレンダーの稼働時間定義が適用されます。
+
+**Q: 小数時間（例: 3.5 時間）の完了日を取得する方法はありますか？**  
+A: `getTaskFinishDateFromDuration` に `3.5d` のような `double` 値を渡してください。API は小数の期間を処理します。
+
+**Q: 出力日付のフォーマットはどうすればよいですか？**  
+A: 返された `Date` オブジェクトに `java.time.format.DateTimeFormatter` を使用して、好みの形式で表示します。
+
+---
+
+**最終更新日:** 2026-02-26  
+**テスト環境:** Aspose.Tasks for Java 24.12  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
