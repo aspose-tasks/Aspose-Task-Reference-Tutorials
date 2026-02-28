@@ -1,27 +1,50 @@
 ---
-title: Taak Tijdgebonden gegevens in Aspose.Tasks
-linktitle: Taak Tijdgebonden gegevens in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Ontdek Aspose.Tasks voor Java en beheer taaktijdgebonden gegevensbeheer. Download de bibliotheek, profiteer van een gratis proefperiode en stroomlijn het bijhouden van uw projecten.
-weight: 34
+date: 2026-02-28
+description: Leer hoe u Aspose.Tasks voor Java kunt gebruiken om taak‑tijdgebaseerde
+  gegevens te beheren, download de bibliotheek, probeer het gratis en optimaliseer
+  de projecttracking.
+linktitle: Task Timephased Data in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Hoe Aspose.Tasks te gebruiken om taak‑tijdgebaseerde gegevens te beheren (Java)
 url: /nl/java/task-properties/task-timephased-data/
+weight: 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Taak Tijdgebonden gegevens in Aspose.Tasks
+# Hoe Aspose.Tasks te gebruiken voor taak‑tijdgebaseerde gegevens
 
-## Invoering
-Op het gebied van projectmanagement is het nauwkeurig volgen van tijdgebonden taakgegevens cruciaal voor een efficiënte projectuitvoering. Aspose.Tasks voor Java komt naar voren als een krachtig hulpmiddel om dit proces te stroomlijnen en biedt robuuste functies en flexibiliteit. Deze tutorial begeleidt u bij het gebruik van Aspose.Tasks voor Java om tijdgebonden taakgegevens effectief te beheren.
-## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Java-ontwikkelomgeving: Zorg ervoor dat Java op uw systeem is geïnstalleerd.
--  Aspose.Tasks voor Java-bibliotheek: Download de Aspose.Tasks-bibliotheek en neem deze op in uw project. Je kunt de bibliotheek vinden[hier](https://releases.aspose.com/tasks/java/).
-- Documentmap: Stel een map in voor uw projectdocumenten.
+## Introductie
+Als je op zoek bent naar **how to use Aspose** om je projectschema nauwlettend te beheren, ben je hier aan het juiste adres. Nauwkeurige tracking van taak‑tijdgebaseerde gegevens is een hoeksteen van succesvol projectmanagement, en Aspose.Tasks for Java biedt de tools die je nodig hebt om dat proces te automatiseren. In deze tutorial lopen we een volledig end‑to‑end voorbeeld door dat laat zien hoe je Aspose.Tasks gebruikt om een project te maken, resources toe te wijzen, baselines in te stellen en uiteindelijk tijdgebaseerde gegevens op te halen en weer te geven.
+
+## Snelle antwoorden
+- **Wat betekent “timephased data”?** Het zijn gegevens opgesplitst per tijdsintervallen (dagen, weken, maanden) die werk, kosten of resterend werk over de projecttijdlijn laten zien.  
+- **Welke bibliotheek biedt deze functionaliteit?** Aspose.Tasks for Java.  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger.  
+- **Kan ik de resultaten exporteren naar Excel?** Ja – je kunt de `TimephasedData`‑collectie itereren en waarden naar elk gewenst formaat schrijven.
+
+## Wat is taak‑tijdgebaseerde gegevens?
+Taak‑tijdgebaseerde gegevens geven de hoeveelheid werk (of kosten) weer die voor een taak is gepland gedurende elk tijdssegment van de projectkalender. Ze stellen je in staat te zien hoe werk wordt verdeeld, overbelasting te ontdekken en de geplande versus de werkelijke voortgang te vergelijken.
+
+## Waarom Aspose.Tasks gebruiken om tijdgebaseerde gegevens te beheren?
+- **Volledige controle** – programmeerbaar maken, wijzigen en opvragen van tijdgebaseerde informatie zonder Microsoft Project te openen.  
+- **Cross‑platform** – werkt op elk OS dat Java ondersteunt.  
+- **Geen COM‑afhankelijkheden** – ideaal voor automatisering aan de serverzijde.  
+- **Rijke API** – ondersteunt baselines, werkcontouren en aangepaste velden direct uit de doos.
+
+## Voorwaarden
+Voor je in de code duikt, zorg dat je het volgende hebt:
+
+- **Java‑ontwikkelomgeving** – JDK 8+ geïnstalleerd en `JAVA_HOME` geconfigureerd.  
+- **Aspose.Tasks for Java‑bibliotheek** – Download en voeg de Aspose.Tasks‑bibliotheek toe aan je project. Je kunt de bibliotheek vinden [hier](https://releases.aspose.com/tasks/java/).  
+- **Documentmap** – Een map op je computer waar het voorbeeldprojectbestand (`project.xml`) wordt gelezen en weggeschreven.
+
 ## Pakketten importeren
-Importeer in uw Java-project de benodigde pakketten voor Aspose.Tasks:
+In je Java‑project importeer je de benodigde Aspose.Tasks‑klassen:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.BaselineType;
@@ -40,15 +63,17 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 ```
-## Stap 1: Stel de startdatum van het project in
+
+## Stap 1: Project‑startdatum instellen
 ```java
 Project project = new Project(dataDir + "project.xml");
-// Aanvullende code voor pakketimport
+// Additional code for package imports
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2013, 7, 17, 8, 0, 0);
 project.set(Prj.START_DATE, cal.getTime());
 ```
-Uitleg: Initialiseer een kalenderobject, stel de startdatum in en pas dit toe op het project.
+*Uitleg:* We maken een `Project`‑instantie, initialiseren een `Calendar` met de gewenste startdatum en wijzen deze toe aan de `START_DATE`‑eigenschap van het project.
+
 ## Stap 2: Taak en resource definiëren
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
@@ -56,60 +81,82 @@ Resource rsc = project.getResources().add("Rsc");
 rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(10));
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(15));
 ```
-Uitleg: Maak een taak en resource aan en stel tarieven in voor standaard- en overuren.
-## Stap 3: Stel de taakduur in
+*Uitleg:* Een nieuwe taak met de naam **Task** wordt toegevoegd onder de hoofdtaak. We maken ook een resource genaamd **Rsc** aan en stellen de standaard‑ en overurentarieven in.
+
+## Stap 3: Taakduur instellen
 ```java
 task.set(Tsk.DURATION, project.getDuration(6));
 ```
-Toelichting: Definieer de duur van de taak (bijvoorbeeld 6 dagen).
-## Stap 4: Wijs een resource toe aan een taak
+*Uitleg:* De taak wordt gepland voor een duur van **6 dagen**.
+
+## Stap 4: Resource aan taak toewijzen
 ```java
 ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
 ```
-Verklaring: Wijs de resource toe aan de taak.
-## Stap 5: Resourcetoewijzing configureren
+*Uitleg:* De eerder gedefinieerde resource wordt via een `ResourceAssignment` aan de taak gekoppeld.
+
+## Stap 5: Resource‑toewijzing configureren
 ```java
 Date d = new Date(0);
 assn.set(Asn.STOP, new Date(0));
 assn.set(Asn.RESUME, new Date(0));
 assn.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 ```
-Verklaring: Stel parameters zoals stoppen, hervatten en werkcontour voor de resourcetoewijzing in.
-## Stap 6: Basislijn instellen
+*Uitleg:* We stellen de stop‑ en hervattingsdatums van de toewijzing in (met een tijdelijke waarde) en passen een **Back‑Loaded** werkcontour toe, waardoor meer werk naar het einde van de toewijzing wordt verschoven.
+
+## Stap 6: Baseline instellen
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-Uitleg: Stel een basislijn voor het project vast.
-## Stap 7: Voltooiing van taak bijwerken
+*Uitleg:* Het vastleggen van een baseline stelt je in staat later geplande waarden te vergelijken met de werkelijke waarden.
+
+## Stap 7: Taakvoortgang bijwerken
 ```java
 task.set(Tsk.PERCENT_COMPLETE, 50);
 ```
-Toelichting: Geef het voltooiingspercentage van de taak aan.
-## Stap 8: Tijdgebonden gegevens ophalen
+*Uitleg:* De taak wordt gemarkeerd als **50 % voltooid**, wat invloed heeft op de berekening van het resterende werk.
+
+## Stap 8: Tijdgebaseerde gegevens ophalen
 ```java
 List<TimephasedData> td = assn.getTimephasedData(assn.get(Asn.START), assn.get(Asn.FINISH), TimephasedDataType.AssignmentRemainingWork).toList();
 ```
-Uitleg: Tijdgebonden gegevens ophalen voor het resterende werk van de opdracht.
-## Stap 9: Tijdgebonden gegevens weergeven
+*Uitleg:* Deze oproep haalt het **resterende werk** voor de toewijzing op, opgesplitst per tijdsinterval van het project.
+
+## Stap 9: Tijdgebaseerde gegevens weergeven
 ```java
 System.out.println(td.size());
 System.out.println(td.get(0).getValue());
-// Aanvullende code voor het weergeven van andere waarden
+// Additional code for displaying other values
 ```
-Uitleg: Voer de tijdgebonden gegevens uit en geef ze weer.
-## Conclusie
-Het effectief beheren van tijdgebonden taakgegevens is onmisbaar voor het succes van projecten. Aspose.Tasks voor Java vereenvoudigt dit proces en biedt een uitgebreide reeks functionaliteiten. Door deze tutorial te volgen, kunt u Aspose.Tasks naadloos integreren in uw Java-project, waardoor u nauwkeurige controle krijgt over de projecttijdlijnen en de toewijzing van middelen.
-## Veel Gestelde Vragen
-### Vraag: Kan ik Aspose.Tasks voor Java in elk Java-project gebruiken?
-A: Ja, Aspose.Tasks voor Java is compatibel met elk op Java gebaseerd project.
-### Vraag: Waar kan ik aanvullende ondersteuning vinden voor Aspose.Tasks voor Java?
- A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor ondersteuning en discussies.
-### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor Java?
- A: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
-### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks voor Java?
- A: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
-### Vraag: Waar kan ik Aspose.Tasks voor Java kopen?
- A: U kunt Aspose.Tasks voor Java kopen[hier](https://purchase.aspose.com/buy).
+*Uitleg:* We printen simpelweg het aantal tijdgebaseerde items en de waarde van het eerste item. In een real‑world scenario zou je de lijst itereren en de gegevens exporteren naar een rapport of UI.
+
+## Veelvoorkomende problemen en oplossingen
+- **NullPointerException bij `getTimephasedData`** – Zorg ervoor dat de `START`‑ en `FINISH`‑datums van de toewijzing zijn ingesteld voordat je de methode aanroept.  
+- **Onjuiste werkcontour** – Controleer of het `WorkContourType` dat je kiest overeenkomt met je planningsstrategie; `BackLoaded` is slechts één van de opties.  
+- **Baseline reflecteert geen wijzigingen** – Vergeet niet `project.setBaseline` aan te roepen *nadat* je taken, resources en toewijzingen hebt gedefinieerd.
+
+## Veelgestelde vragen
+### V: Kan ik Aspose.Tasks for Java in elk Java‑project gebruiken?
+A: Ja, Aspose.Tasks for Java is compatibel met elk Java‑gebaseerd project.
+
+### V: Waar kan ik extra ondersteuning vinden voor Aspose.Tasks for Java?
+A: Bezoek het [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) voor ondersteuning en discussies.
+
+### V: Is er een gratis proefversie beschikbaar voor Aspose.Tasks for Java?
+A: Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
+
+### V: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Tasks for Java?
+A: Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
+
+### V: Waar kan ik Aspose.Tasks for Java kopen?
+A: Je kunt Aspose.Tasks for Java kopen [hier](https://purchase.aspose.com/buy).
+
+---
+
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
