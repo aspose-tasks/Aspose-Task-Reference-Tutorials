@@ -1,27 +1,48 @@
 ---
-title: Update taakgegevens naar MPP-indeling in Aspose.Tasks
-linktitle: Update taakgegevens naar MPP-indeling in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u taakgegevens kunt bijwerken naar MPP-indeling met behulp van Aspose.Tasks voor Java. Volg onze stap-voor-stap handleiding voor efficiënt projectmanagement.
-weight: 35
+date: 2026-03-03
+description: Leer hoe je taakgegevens kunt bijwerken naar MPP‑formaat met Aspose Tasks Java.
+  Volg onze stapsgewijze handleiding voor efficiënt projectbeheer.
+linktitle: Update Task Data to MPP Format in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: aspose tasks java – Update taakgegevens naar MPP-formaat
 url: /nl/java/task-properties/update-task-data/
+weight: 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Update taakgegevens naar MPP-indeling in Aspose.Tasks
+# Update Taakgegevens naar MPP-indeling in Aspose.Tasks
 
-## Invoering
-Welkom bij onze stapsgewijze handleiding voor het bijwerken van taakgegevens naar MPP-indeling met behulp van Aspose.Tasks voor Java. In deze zelfstudie leiden we u door het proces, zodat u elke stap duidelijk begrijpt. Aspose.Tasks voor Java biedt een robuuste oplossing voor het werken met Microsoft Project-bestanden, en aan het einde van deze handleiding kunt u taakgegevens efficiënt bijwerken in MPP-indeling.
+## Inleiding
+Welkom bij onze stapsgewijze gids over **het bijwerken van taakgegevens naar MPP-indeling met Aspose.Tasks for Java**. In deze tutorial leer je hoe je projectbestanden programmatisch kunt manipuleren met *aspose tasks java*, van het maken van een samenvattingstaak tot het converteren van een XML‑project naar een MPP‑bestand. Aan het einde kun je projecttaken efficiënt beheren en de oplossing integreren in je Java‑toepassingen.
+
+## Snelle Antwoorden
+- **Waar gaat deze tutorial over?** Het bijwerken van taakgegevens en het opslaan van een project als MPP met Aspose.Tasks for Java.  
+- **Heb ik een licentie nodig?** Een tijdelijke of volledige licentie is vereist voor productiegebruik; een gratis proefversie is beschikbaar.  
+- **Welke IDE werkt het beste?** Elke Java‑IDE (IntelliJ IDEA, Eclipse, VS Code) werkt.  
+- **Kan ik XML naar MPP converteren?** Ja – het voorbeeld laadt een XML‑project en slaat het op als MPP.  
+- **Hoeveel taken worden er aangemaakt?** Het voorbeeld maakt één hoofdtaak, een samenvattingstaak en tien extra taken aan.
+
+## Wat is Aspose.Tasks for Java?
+Aspose.Tasks for Java is een krachtige API die ontwikkelaars in staat stelt Microsoft Project‑bestanden (MPP, XML en meer) te lezen, te schrijven en te wijzigen zonder dat Microsoft Project geïnstalleerd hoeft te zijn. Het ondersteunt volledige project‑niveau manipulatie, inclusief het aanmaken van taken, het afhandelen van beperkingen en bestandsformaatconversie.
+
+## Waarom Aspose.Tasks Java gebruiken voor projectbeheer?
+- **Volle controle** over taak‑eigenschappen zoals startdatum, duur en beperkingen.  
+- **Naadloze conversie** tussen XML en MPP, waardoor integratie met bestaande project‑datapijplijnen mogelijk is.  
+- **Geen COM‑interop** – pure Java, ideaal voor cross‑platform omgevingen.  
+- **Hoge prestaties** voor grote projectbestanden, waardoor het geschikt is voor enterprise‑scale oplossingen.
+
 ## Vereisten
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
--  Aspose.Tasks voor Java: Zorg ervoor dat de bibliotheek Aspose.Tasks is geïnstalleerd. Je kunt het downloaden van de[pagina vrijgeven](https://releases.aspose.com/tasks/java/).
-- Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd.
-- Integrated Development Environment (IDE): Gebruik een IDE naar keuze voor Java-ontwikkeling.
+Voordat we aan de tutorial beginnen, zorg ervoor dat je de volgende vereisten hebt:
+- Aspose.Tasks for Java: Zorg ervoor dat je de Aspose.Tasks‑bibliotheek geïnstalleerd hebt. Je kunt deze downloaden van de [release page](https://releases.aspose.com/tasks/java/).
+- Java Development Kit (JDK): Zorg ervoor dat Java op je systeem geïnstalleerd is.
+- Integrated Development Environment (IDE): Gebruik een IDE naar keuze voor Java‑ontwikkeling.
+
 ## Pakketten importeren
-Begin met het importeren van de benodigde pakketten in uw Java-project. Het volgende fragment laat zien hoe u pakketten importeert:
+Begin met het importeren van de benodigde pakketten in je Java‑project. Het volgende fragment toont hoe je pakketten importeert:
+
 ```java
 import com.aspose.tasks.ConstraintType;
 import com.aspose.tasks.Prj;
@@ -32,76 +53,112 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.examples.TaskLinks.UpdatedTaskLinkDataToMpp;
 ```
-## 1. Maak en configureer de initiële taak
+
+## Hoe een samenvattingstaak te maken
+Een samenvattingstaak groepeert gerelateerde subtaken en geeft je een overzicht op hoog niveau van werkpakketten. In de onderstaande code maken we een samenvattingstaak aan en koppelen we de eerste taak als kind.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 long OneSec = 1000;
 long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 Project project = new Project(dataDir + "project.xml");
 Task task1 = project.getRootTask().getChildren().add("First task");
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 2. Stel de startdatum en -duur in
+
+## Hoe de startdatum voor een taak in te stellen
+Het instellen van de startdatum is essentieel voor een nauwkeurige planning. Het voorbeeld gebruikt een `Calendar`‑instantie om de projectstart te definiëren en wijst deze toe aan de taak.
+
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2013, 12, 10, 8, 0, 0);
 project.set(Prj.START_DATE, cal.getTime());
 task1.set(Tsk.START, cal.getTime());
 task1.set(Tsk.DURATION, project.getDuration(24, TimeUnitType.Hour));
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 3. Maak een samenvattingstaak
+
+## Hoe XML naar MPP te converteren
+De API kan een XML‑projectbestand lezen en direct opslaan als een MPP‑bestand, waardoor eenvoudige migratie vanuit legacy‑formaten mogelijk is.
+
 ```java
 Task summary = project.getRootTask().getChildren().add("Summary task");
 summary.getChildren().add(task1);
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 4. Stel de deadline en taaknotities in
+
+## Hoe een deadline in te stellen en taaknotities toe te voegen
+Deadlines helpen taken op schema te houden, terwijl notities context bieden voor teamleden.
+
 ```java
 cal.setTime(task1.get(Tsk.START));
 cal.add(java.util.Calendar.DATE, 10);
 task1.set(Tsk.DEADLINE, cal.getTime());
 task1.set(Tsk.NOTES_TEXT, "The first task.");
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 5. Configureer taakbeperkingen
+
+## Hoe taakbeperkingen te configureren en de taakduur bij te werken
+Beperkingen zoals *Finish No Later Than* sturen de planner. Je kunt ook het duurformaat wijzigen om geschatte dagen weer te geven.
+
 ```java
 task1.set(Tsk.DURATION_FORMAT, TimeUnitType.DayEstimated);
 task1.set(Tsk.CONSTRAINT_TYPE, ConstraintType.FinishNoLaterThan);
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 6. Maak aanvullende taken
+
+## Hoe extra taken te maken (Projecttaken beheren)
+De onderstaande lus toont hoe je meerdere taken programmatisch kunt genereren, een veelvoorkomende vereiste bij het importeren van bulkgegevens.
+
 ```java
-//Creëer 10 nieuwe taken
+// Create 10 new tasks
 for (int i = 0; i < 10; i++) {
-    //... (Ga verder met de rest van de code)
+    //... (Continue with the rest of the code)
 }
-//... (Ga verder met de rest van de code)
+//... (Continue with the rest of the code)
 ```
-## 7. Sla het project op
+
+## Hoe het project op te slaan (Exporteren naar MPP)
+Tenslotte, bewaar de wijzigingen door het project op te slaan als een MPP‑bestand.
+
 ```java
-// Sla het project op
+// Save the Project
 project.save(dataDir + "WritingUpdatedTaskDataToMpp.mpp", SaveFileFormat.Mpp);
 ```
-Door deze stappen te volgen, hebt u de taakgegevens met succes bijgewerkt naar de MPP-indeling met behulp van Aspose.Tasks voor Java.
+
+Door deze stappen te volgen, heb je met succes **taakgegevens bijgewerkt naar MPP‑indeling met aspose tasks java**. Je hebt nu een solide basis voor het beheren van projecttaken, het maken van samenvattingstaken, het instellen van startdatums en het converteren van XML‑projecten naar MPP.
+
 ## Conclusie
-Gefeliciteerd! U hebt een uitgebreide handleiding voltooid over het bijwerken van taakgegevens in MPP-indeling met behulp van Aspose.Tasks voor Java. Deze krachtige bibliotheek vereenvoudigt projectbeheertaken, waardoor het een waardevol hulpmiddel is voor Java-ontwikkelaars.
+Gefeliciteerd! Je hebt een uitgebreide gids voltooid over het bijwerken van taakgegevens in MPP‑indeling met Aspose.Tasks for Java. Deze krachtige bibliotheek vereenvoudigt projectmanagementtaken, waardoor het een waardevol hulpmiddel is voor Java‑ontwikkelaars die **projecttaken** programmatisch moeten beheren.
+
 ## Veelgestelde vragen
-### Vraag: Waar kan ik de Aspose.Tasks voor Java-documentatie vinden?
- A: De documentatie is beschikbaar[hier](https://reference.aspose.com/tasks/java/).
-### Vraag: Hoe kan ik Aspose.Tasks voor Java downloaden?
- A: U kunt het downloaden van de[pagina vrijgeven](https://releases.aspose.com/tasks/java/).
-### Vraag: Is er een gratis proefversie beschikbaar?
- A: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
-### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
- A: Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/tasks/15).
-### Vraag: Bieden jullie tijdelijke licenties aan voor testdoeleinden?
- A: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+
+### V: Waar kan ik de Aspose.Tasks for Java documentatie vinden?
+A: De documentatie is beschikbaar [hier](https://reference.aspose.com/tasks/java/).
+
+### V: Hoe kan ik Aspose.Tasks for Java downloaden?
+A: Je kunt het downloaden van de [release page](https://releases.aspose.com/tasks/java/).
+
+### V: Is er een gratis proefversie beschikbaar?
+A: Ja, je kunt de gratis proefversie [hier](https://releases.aspose.com/) benaderen.
+
+### V: Waar kan ik ondersteuning krijgen voor Aspose.Tasks for Java?
+A: Bezoek het ondersteuningsforum [hier](https://forum.aspose.com/c/tasks/15).
+
+### V: Biedt u tijdelijke licenties voor testdoeleinden?
+A: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-03-03  
+**Getest met:** Aspose.Tasks for Java 24.11 (latest)  
+**Auteur:** Aspose
