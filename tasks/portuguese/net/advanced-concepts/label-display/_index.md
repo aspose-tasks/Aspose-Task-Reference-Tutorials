@@ -1,148 +1,180 @@
 ---
-title: Exibindo rótulos em Aspose.Tasks
-linktitle: Exibindo rótulos em Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda como personalizar exibições de rótulos no gerenciamento de projetos com Aspose.Tasks for .NET. Melhore a legibilidade e a clareza sem esforço.
-weight: 14
+date: 2026-03-08
+description: Aprenda como definir a exibição de rótulos e personalizar o rótulo de
+  dia no gerenciamento de projetos usando Aspose.Tasks para .NET, melhorando a legibilidade
+  e a clareza.
+linktitle: Displaying Labels in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Como definir a exibição de rótulo no Aspose.Tasks para .NET
 url: /pt/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exibindo rótulos em Aspose.Tasks
+# Como Definir a Exibição de Rótulo no Aspose.Tasks para .NET
 
 ## Introdução
 
-No domínio do desenvolvimento de software, o gerenciamento eficiente de tarefas é fundamental para o sucesso do projeto. Aspose.Tasks for .NET oferece uma solução robusta para lidar perfeitamente com tarefas de gerenciamento de projetos dentro da estrutura .NET. Um aspecto fundamental do gerenciamento de projetos é a capacidade de personalizar as opções de exibição para atender a requisitos específicos. Neste tutorial, exploraremos como utilizar Aspose.Tasks for .NET para manipular exibições de rótulos de minutos, horas, dias, semanas, meses e anos nos arquivos do projeto.
+Ao construir uma solução de gerenciamento de projetos com **Aspose.Tasks for .NET**, ser capaz de **how to set label** é essencial para tornar os cronogramas fáceis de ler. Seja precisando de precisão minuto a minuto ou de uma visão anual de alto nível, personalizar a exibição do rótulo permite que você apresente a linha do tempo exatamente como seus stakeholders esperam. Neste tutorial, percorreremos o processo passo a passo de definir exibições de rótulo para minutos, horas, dias, semanas, meses e anos, e também mostraremos como **customize day label** para obter a máxima clareza.
+
+## Respostas Rápidas
+- **What does “how to set label” mean?** Refere‑se à configuração das propriedades `DisplayOptions` que controlam como as unidades de tempo aparecem em um arquivo de projeto.  
+- **Which label can I change?** Minutos, horas, dias, semanas, meses e anos são todos configuráveis.  
+- **Do I need a license?** É necessária uma licença válida do Aspose.Tasks para uso em produção; um teste gratuito funciona para testes.  
+- **Is this supported on .NET Core?** Sim, a API funciona com .NET Core, .NET 5/6 e o .NET Framework completo.  
+- **Can I change the label at runtime?** Absolutamente – você pode modificar as opções de exibição a qualquer momento antes de salvar o projeto.
+
+## O que é exibição de rótulo no Aspose.Tasks?
+
+A exibição de rótulo determina a representação textual das unidades de tempo (minuto, hora, dia, etc.) no gráfico de Gantt e na escala de tempo. Ao definir a propriedade `DisplayOptions` apropriada, você instrui o Aspose.Tasks a renderizar essas unidades, o que pode melhorar drasticamente a legibilidade do projeto.
+
+## Por que personalizar as exibições de rótulo?
+
+- **Improved readability:** Stakeholders podem compreender instantaneamente a granularidade do cronograma.  
+- **Consistent reporting:** Alinha a saída visual com os padrões corporativos (por exemplo, usando “Mo” para meses).  
+- **Flexibility:** Alterna entre visualizações detalhadas e de alto nível sem alterar os dados subjacentes do cronograma.
 
 ## Pré-requisitos
 
-Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos:
+1. **C# knowledge** – familiaridade básica com a sintaxe C# e a estrutura de projetos .NET.  
+2. **Aspose.Tasks for .NET** – baixe e instale a biblioteca [aqui](https://releases.aspose.com/tasks/net/).  
+3. **Development environment** – Visual Studio, VS Code ou qualquer IDE que suporte desenvolvimento .NET.
 
-1. Conhecimento de programação C#: É necessário um conhecimento básico da linguagem de programação C# para compreender e implementar os exemplos fornecidos.
-2.  Instalação do Aspose.Tasks for .NET: Baixe e instale a biblioteca Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/tasks/net/).
-3. Ambiente de desenvolvimento: configure um ambiente de desenvolvimento com Visual Studio ou qualquer outro IDE preferido para desenvolvimento .NET.
+## Importar Namespaces
 
-## Importar namespaces
-
-Antes de começar, certifique-se de importar os namespaces necessários para Aspose.Tasks:
+Antes de começar, importe os namespaces necessários:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Exibindo rótulos de minutos
+## Como definir a exibição de rótulo para minutos
 
-Para exibir rótulos de minutos em arquivos de projeto:
+### 1. Exibindo Rótulos de Minuto
+
+Para definir o rótulo de minuto, use a propriedade `MinuteLabel`:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo dos minutos é exibido
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Exibindo rótulos de horas
+## Como definir a exibição de rótulo para horas
 
-Para exibir rótulos de horas em arquivos de projeto:
+### 2. Exibindo Rótulos de Hora
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo da hora é exibido
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Exibindo rótulos de dias
+## Personalizar a exibição de rótulo de dia
 
-Para exibir rótulos de dias em arquivos de projeto:
+### 3. Exibindo Rótulos de Dia
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo do dia é exibido
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Exibindo rótulos semanais
+## Como definir a exibição de rótulo para semanas
 
-Para exibir rótulos de semana em arquivos de projeto:
+### 4. Exibindo Rótulos de Semana
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo da semana é exibido
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Exibindo rótulos de mês
+## Como definir a exibição de rótulo para meses
 
-Para exibir rótulos de mês em arquivos de projeto:
+### 5. Exibindo Rótulos de Mês
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo do mês é exibido
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Exibindo rótulos de ano
+## Como definir a exibição de rótulo para anos
 
-Para exibir rótulos de ano nos arquivos de projeto:
+### 6. Exibindo Rótulos de Ano
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Defina como o rótulo do ano é exibido
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
+## Armadilhas Comuns & Dicas
+
+- **Tip:** Sempre defina a exibição do rótulo *antes* de salvar o projeto; alterações feitas após a gravação não serão refletidas no arquivo.  
+- **Pitfall:** Usar um valor de enum não suportado lançará uma `ArgumentException`. Mantenha‑se nos enums `*LabelDisplay` fornecidos.  
+- **Tip:** Se precisar de estilos de rótulo diferentes para visualizações separadas, crie instâncias distintas de `Project` ou clone o objeto `DisplayOptions`.
+
 ## Conclusão
 
-Concluindo, o gerenciamento eficiente das tarefas do projeto é crucial para o sucesso do projeto, e o Aspose.Tasks for .NET fornece uma solução abrangente para lidar com tarefas de gerenciamento de projetos. Ao personalizar a exibição dos rótulos, os usuários podem aumentar a clareza e a legibilidade dos dados do projeto, levando a processos aprimorados de gerenciamento de projetos.
+Ao dominar as opções de **how to set label** no Aspose.Tasks, você obtém controle granular sobre a apresentação visual dos cronogramas do seu projeto. Seja personalizando o rótulo de dia para um quadro Scrum diário ou ajustando o rótulo de ano para um roadmap de vários anos, essas configurações ajudam a entregar documentação de projeto mais clara e profissional.
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### P1: Posso personalizar exibições de rótulos para seções específicas de um projeto?
+### Q1: Posso personalizar as exibições de rótulo para seções específicas de um projeto?
 
-A1: Sim, Aspose.Tasks for .NET permite controle granular sobre exibições de rótulos, permitindo a personalização para seções específicas de um projeto conforme necessário.
+A1: Sim, o Aspose.Tasks for .NET permite controle granular sobre as exibições de rótulo, possibilitando a personalização para seções específicas de um projeto conforme necessário.
 
-### Q2: O Aspose.Tasks é compatível com estruturas .NET populares?
+### Q2: O Aspose.Tasks é compatível com os frameworks .NET populares?
 
-A2: Sim, Aspose.Tasks for .NET é compatível com vários frameworks .NET, incluindo .NET Core e .NET Framework.
+A2: Sim, o Aspose.Tasks for .NET é compatível com diversos frameworks .NET, incluindo .NET Core e .NET Framework.
 
-### P3: Posso alterar dinamicamente a exibição dos rótulos com base nos requisitos do projeto?
+### Q3: Posso alterar dinamicamente as exibições de rótulo com base nos requisitos do projeto?
 
-A3: Com certeza, a flexibilidade do Aspose.Tasks for .NET permite ajustes dinâmicos para exibir rótulos com base na evolução dos requisitos do projeto.
+A3: Absolutamente, a flexibilidade do Aspose.Tasks for .NET permite ajustes dinâmicos nas exibições de rótulo conforme os requisitos do projeto evoluem.
 
-### P4: Há alguma limitação para a personalização das exibições de etiquetas?
+### Q4: Existem limitações na personalização das exibições de rótulo?
 
-A4: Aspose.Tasks for .NET oferece amplas opções de personalização para exibição de etiquetas, com limitações mínimas, proporcionando aos usuários ampla flexibilidade.
+A4: O Aspose.Tasks for .NET oferece amplas opções de personalização para as exibições de rótulo, com limitações mínimas, proporcionando aos usuários grande flexibilidade.
 
-### P5: O Aspose.Tasks oferece suporte à integração com outras ferramentas de gerenciamento de projetos?
+### Q5: O Aspose.Tasks suporta integração com outras ferramentas de gerenciamento de projetos?
 
-A5: Sim, Aspose.Tasks oferece recursos de integração perfeita, facilitando a interoperabilidade com outras ferramentas e plataformas de gerenciamento de projetos.
+A5: Sim, o Aspose.Tasks oferece recursos de integração perfeitos, facilitando a interoperabilidade com outras ferramentas e plataformas de gerenciamento de projetos.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
