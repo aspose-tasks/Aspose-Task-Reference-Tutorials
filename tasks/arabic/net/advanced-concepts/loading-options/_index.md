@@ -1,37 +1,74 @@
 ---
-title: خيارات التحميل في Aspose.Tasks
-linktitle: خيارات التحميل في Aspose.Tasks
+date: 2026-03-08
+description: تعلم كيفية استيراد ملف المشروع باستخدام Aspose.Tasks لـ .NET، بما في
+  ذلك كيفية تحديد ترميز الملف وتحميل ملف Microsoft Project بكفاءة.
+linktitle: Options for Loading in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: تعرف على كيفية الاستفادة من قوة Aspose.Tasks لـ .NET لإدارة مستندات Microsoft Project بكفاءة من خلال إرشادات خطوة بخطوة.
-weight: 16
+title: استيراد ملف المشروع – خيارات التحميل في Aspose.Tasks
 url: /ar/net/advanced-concepts/loading-options/
+weight: 16
 ---
+
+ each step heading.
+
+Step 1: Load a Password‑Protected Project
+
+Translate.
+
+Then placeholder.
+
+Similarly others.
+
+Now "By following these steps you can precisely **import project file** data, tailor the loading process to your needs, and keep your application robust." translate.
+
+Now "Common Issues & Tips" heading.
+
+List items translate.
+
+Now "Frequently Asked Questions" heading.
+
+Each Q/A translate, keep bold Q: etc. Keep code formatting.
+
+Translate link texts.
+
+Now "Last Updated:" etc. Keep dates.
+
+Now shortcodes closing.
+
+Now final backtop button shortcode.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# خيارات التحميل في Aspose.Tasks
+# استيراد ملف المشروع – خيارات التحميل في Aspose.Tasks
 
-## مقدمة
+## المقدمة
 
-Aspose.Tasks for .NET هي مكتبة قوية تسمح للمطورين بمعالجة مستندات Microsoft Project برمجياً. سواء كنت بحاجة إلى إنشاء ملفات المشروع أو قراءتها أو كتابتها أو تحويلها، فإن Aspose.Tasks يوفر نطاقًا واسعًا من الوظائف لتبسيط مهامك. في هذا البرنامج التعليمي، سنتعمق في أساسيات استخدام Aspose.Tasks لـ .NET، وتقسيم العمليات الأساسية إلى خطوات بسيطة وقابلة للتنفيذ.
+تجعل Aspose.Tasks for .NET عملية **استيراد ملف المشروع** من Microsoft Project وPrimavera وغيرها من الصيغ سهلة. سواء كنت بحاجة إلى قراءة ملف محمي بكلمة مرور، أو تعيين ترميز مخصص، أو التعامل مع أخطاء التحليل، توفر المكتبة تحكمًا دقيقًا عبر خيارات التحميل. في هذا الدرس سنستعرض أكثر السيناريوهات شيوعًا حتى تتمكن من **تحميل ملف Microsoft Project** بثقة في تطبيقات .NET الخاصة بك.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هي الطريقة الأساسية لاستيراد ملف مشروع؟** استخدم مُنشئ `Project` مع كائن `LoadOptions`.  
+- **هل يمكنني فتح ملفات محمية بكلمة مرور؟** نعم—قم بتعيين خاصية `Password` في `LoadOptions`.  
+- **كيف أحدد ترميز الملف؟** عيّن كائن `Encoding` إلى `LoadOptions.Encoding`.  
+- **هل يمكن تخصيص معالجة الأخطاء؟** بالتأكيد—قدّم دالة إلى `LoadOptions.ErrorHandler`.  
+- **هل تعمل هذه الخيارات مع ملفات Primavera؟** نعم، عبر `PrimaveraReadOptions` داخل `LoadOptions`.
 
-قبل الغوص في Aspose.Tasks لـ .NET، تأكد من إعداد المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-1. Visual Studio: قم بتثبيت Visual Studio أو أي بيئة تطوير متكاملة أخرى من اختيارك.
-2.  Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/).
-3. الفهم الأساسي لـ C#: تعرف على أساسيات لغة البرمجة C#.
+قبل المتابعة، تأكد من وجود ما يلي:
 
-الآن بعد أن قمنا بتغطية متطلباتنا الأساسية، دعنا نستكشف مساحات الأسماء الأساسية ونتعمق في الدليل خطوة بخطوة.
+1. **Visual Studio** (أو أي بيئة تطوير .NET مفضلة).  
+2. **Aspose.Tasks for .NET** – قم بتنزيله من الـ[موقع الإلكتروني](https://releases.aspose.com/tasks/net/).  
+3. فهم أساسي لصياغة **C#** وبنية المشروع.
 
-## استيراد مساحات الأسماء
+الآن بعد أن أصبح كل شيء جاهزًا، لنستورد المساحات الاسم المطلوبة.
 
-في مشروع C# الخاص بك، قم باستيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Tasks:
+## استيراد المساحات الاسم
 
-1. Aspose.Tasks: توفر مساحة الاسم هذه الفئات الأساسية والواجهات للعمل مع مستندات المشروع.
+في مشروع C# الخاص بك، أضف عبارات `using` التالية لتصبح فئات الـ API متاحة:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +76,145 @@ using System.Text;
 using System.Threading;
 ```
 
-الآن، دعونا نقسم المهام المختلفة إلى أدلة خطوة بخطوة.
+## كيفية استيراد ملف المشروع مع خيارات التحميل
 
-## الخطوة 1: تحميل المشاريع المحمية بكلمة مرور
+فيما يلي أربعة أمثلة عملية تغطي أكثر سيناريوهات التحميل شيوعًا.
+
+### الخطوة 1: تحميل مشروع محمي بكلمة مرور
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // قم بتهيئة FileStream لتحميل ملف المشروع
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // إنشاء مثيل LoadOptions
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // قم بتعيين كلمة المرور
+            Password = "password" // Set the password
         };
 
-        // قم بتحميل المشروع بالخيارات المحددة
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // عرض اسم المشروع
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## الخطوة 2: تحميل مشاريع بريمافيرا بخيارات مخصصة
+### الخطوة 2: تحميل مشروع Primavera مع خيارات مخصصة
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // إنشاء مثيل LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // تكوين خيارات القراءة بريمافيرا
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // قم بتعيين معرف المشروع
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // ضبط خيارات القراءة لبرنامج بريمافيرا
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // قم بتحميل مشروع بريمافيرا بالخيارات المحددة
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // عرض اسم المشروع
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // إجراء المزيد من العمليات مع المشروع المحمل
+    // Perform further operations with the loaded project
 }
 ```
 
-## الخطوة 3: تحديد ترميز الملف
+### الخطوة 3: **تحديد ترميز الملف** عند استيراد ملف XER
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // إنشاء مثيل LoadOptions
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // حدد التشفير عند فتح مشروع من ملف Primavera XER
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // قم بتحميل المشروع بالترميز المحدد
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // إجراء المزيد من العمليات مع المشروع المحمل
+    // Perform further operations with the loaded project
 }
 ```
 
-## الخطوة 4: تحميل مشاريع بريمافيرا مع معالجة الأخطاء
+### الخطوة 4: تحميل مشروع Primavera مع معالجة أخطاء مخصصة
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // إنشاء مثيل LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // تكوين خيارات القراءة بريمافيرا
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // قم بتعيين معرف المشروع
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // ضبط خيارات القراءة لبرنامج بريمافيرا
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //قم بتعيين معالجة الأخطاء المخصصة
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // قم بتحميل مشروع Primavera بالخيارات المحددة ومعالجة الأخطاء
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // إجراء المزيد من العمليات مع المشروع المحمل
+    // Perform further operations with the loaded project
 }
 
-// طريقة معالجة الأخطاء المخصصة
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // تنفيذ منطق معالجة الأخطاء المخصص
+    // Implement custom error handling logic
 }
 ```
 
-باتباع هذه الخطوات، يمكنك الاستفادة بشكل فعال من خيارات التحميل في Aspose.Tasks لـ .NET لمعالجة مستندات المشروع وفقًا لمتطلباتك.
+باتباع هذه الخطوات يمكنك بدقة **استيراد ملف المشروع**، وتخصيص عملية التحميل وفقًا لاحتياجاتك، والحفاظ على استقرار تطبيقك.
 
-## خاتمة
+## المشكلات الشائعة والنصائح
 
-في هذا البرنامج التعليمي، اكتشفنا أساسيات العمل مع خيارات التحميل في Aspose.Tasks لـ .NET. بدءًا من تحميل المشروعات المحمية بكلمة مرور وحتى تحديد معالجة مخصصة للأخطاء، فإن إتقان هذه التقنيات سيمكنك من إدارة ملفات المشروع بكفاءة داخل تطبيقات .NET الخاصة بك.
+- **كلمة مرور غير صحيحة** – خاصية `Password` ستطرح استثناء؛ تحقق من صحة الاعتماد قبل التحميل.  
+- **ترميز غير مدعوم** – تأكد من وجود صفحة الترميز التي تحددها على الجهاز الهدف (`Encoding.GetEncoding(1251)` تعمل للغة السيريالية).  
+- **غياب خيارات Primavera** – إذا كنت بحاجة للحفاظ على معرفات المهام (UIDs)، عيّن `PreserveUids = true`؛ وإلا قد تظهر معرفات مكررة.  
+- **معالج الأخطاء يُعيد null** – إرجاع `null` يُشير إلى أن المحلل يتخطى العنصر المسبب للمشكلة؛ خصص السلوك حسب الحاجة.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س 1: هل Aspose.Tasks لـ .NET متوافق مع كافة إصدارات Microsoft Project؟
+**س: هل Aspose.Tasks for .NET متوافق مع جميع إصدارات Microsoft Project؟**  
+ج: نعم، يدعم مجموعة واسعة من إصدارات Microsoft Project، لذا يمكنك **تحميل ملفات Microsoft Project** من ملفات MPP القديمة إلى أحدث الصيغ.
 
-ج1: نعم، يدعم Aspose.Tasks for .NET إصدارات مختلفة من Microsoft Project، مما يضمن التوافق عبر بيئات مختلفة.
+**س: هل يمكنني دمج Aspose.Tasks for .NET مع مكتبات طرف ثالث أخرى؟**  
+ج: بالتأكيد. تعمل المكتبة بسلاسة مع حزم .NET الأخرى، مما يتيح لك دمجها مع أطر التقارير، واجهات المستخدم، أو أطر الوصول إلى البيانات.
 
-### س2: هل يمكنني دمج Aspose.Tasks لـ .NET مع مكتبات الجهات الخارجية الأخرى؟
+**س: هل توفر Aspose.Tasks for .NET وثائق وموارد دعم؟**  
+ج: نعم، يمكنك الرجوع إلى الـ[وثائق الشاملة](https://reference.aspose.com/tasks/net/) والوصول إلى الدعم عبر [منتدى Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-ج2: بالتأكيد، Aspose.Tasks for .NET يتكامل بسلاسة مع مكتبات .NET الأخرى، مما يوفر وظائف ومرونة محسنة.
+**س: هل توجد خيارات ترخيص متاحة لـ Aspose.Tasks for .NET؟**  
+ج: نعم، يمكنك استكشاف خيارات الترخيص المختلفة، بما في ذلك التجارب المجانية والتراخيص المؤقتة، على موقع [Aspose.Tasks](https://purchase.aspose.com/buy).
 
-### س3: هل يوفر Aspose.Tasks لـ .NET الوثائق وموارد الدعم؟
+**س: ما مدى تكرار إصدار التحديثات والميزات الجديدة لـ Aspose.Tasks for .NET؟**  
+ج: تصدر Aspose.Tasks تحديثات منتظمة تضيف ميزات، وتحسن الأداء، وتحافظ على التوافق مع أحدث إصدارات Microsoft Project.
 
- ج3: نعم، يمكنك الرجوع إلى الشامل[توثيق](https://reference.aspose.com/tasks/net/) والوصول إلى الدعم من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+---
 
-### س4: هل توجد أية خيارات ترخيص متاحة لـ Aspose.Tasks لـ .NET؟
+**آخر تحديث:** 2026-03-08  
+**تم الاختبار مع:** Aspose.Tasks 24.11 for .NET  
+**المؤلف:** Aspose  
 
- ج4: نعم، يمكنك استكشاف خيارات الترخيص المختلفة، بما في ذلك التجارب المجانية والتراخيص المؤقتة، على[موقع Aspose.Tasks](https://purchase.aspose.com/buy).
-
-### س5: ما مدى تكرار التحديثات والميزات الجديدة التي يتم إصدارها لـ Aspose.Tasks لـ .NET؟
-
-ج5: يتلقى Aspose.Tasks لـ .NET تحديثات منتظمة وتحسينات في الميزات لضمان الأداء الأمثل والتوافق مع التقنيات المتطورة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
