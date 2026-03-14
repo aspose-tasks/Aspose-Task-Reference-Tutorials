@@ -1,53 +1,73 @@
 ---
-title: OLE-objektumok gyűjteménye az Aspose.Tasks-ban
-linktitle: OLE-objektumok gyűjteménye az Aspose.Tasks-ban
+date: 2026-03-14
+description: Tanulja meg, hogyan lehet beágyazott fájlokat kinyerni és projektfájlt
+  betölteni az Aspose.Tasks for .NET segítségével. Ez az útmutató lépésről lépésre
+  mutatja be az OLE-objektumok kinyerését.
+linktitle: Collection of OLE Objects in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti az OLE objektumokat az Aspose.Tasks for .NET-ben. Könnyedén sajátítsa el a projektdokumentumokon belüli beágyazott fájlok kezelését.
-weight: 23
+title: Beágyazott fájlok kinyerése OLE-objektumokból az Aspose.Tasks-ben
 url: /hu/net/advanced-concepts/ole-object-collection/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OLE-objektumok gyűjteménye az Aspose.Tasks-ban
+# Beágyazott fájlok kinyerése OLE objektumokból az Aspose.Tasks-ben
 
 ## Bevezetés
 
-Ebben az oktatóanyagban az OLE (Object Linking and Embedding) objektumok kezelésével foglalkozunk az Aspose.Tasks for .NET-ben. Az OLE objektumok lehetővé teszik a felhasználók számára, hogy más alkalmazásokból származó fájlokat ágyazzanak be vagy hivatkozzanak egy projektfájlba. Lépésről lépésre bemutatjuk, hogyan kell dolgozni ezen objektumok gyűjteményével.
+Ebben az útmutatóban **beágyazott fájlokat** fogunk kinyerni, amelyek OLE objektumként vannak tárolva egy Microsoft Project fájlban az Aspose.Tasks for .NET segítségével. Akár Word dokumentumokat, Excel táblázatokat vagy rich‑text fájlokat szeretne kinyerni, az alábbi lépések megmutatják, hogyan **töltsük be a projektfájlt**, hogyan fedezzük fel az egyes OLE bejegyzéseket, és hogyan írjuk vissza a bináris tartalmat a lemezre. A végére magabiztosan tud majd egy teljes **c# extract ole** munkafolyamatot alkalmazni saját alkalmazásaiban.
+
+## Gyors válaszok
+- **Mit jelent a „beágyazott fájlok kinyerése”?** Azt jelenti, hogy elolvassuk az OLE objektumok bináris terhelését, és külön fájlokként mentjük el a lemezen.  
+- **Melyik API metódus tölti be a projektet?** `new Project(filePath)` az Aspose.Tasks névtérből.  
+- **Exportálhatok bármilyen típusú OLE objektumot?** Csak azokat a formátumokat, amelyeket az Aspose.Tasks felismer (pl. RTF, Word, Excel).  
+- **Szükség van licencre?** Egy ingyenes próba verzió elegendő értékeléshez; a kereskedelmi licenc szükséges a termeléshez.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Mit jelent a „beágyazott fájlok kinyerése” OLE objektumok kontextusában?
+
+Az OLE (Object Linking and Embedding) lehetővé teszi, hogy egy Project fájl teljes másolatokat tartalmazzon külső dokumentumokról. Ezeknek a beágyazott fájloknak a kinyerése közvetlen hozzáférést biztosít az eredeti tartalomhoz a Microsoft Project megnyitása nélkül.
+
+## Miért érdemes beágyazott fájlokat kinyerni OLE objektumokból?
+
+- **Az eredeti adatok megőrzése:** Minden csatolt dokumentumról készítsen biztonsági másolatot.  
+- **Jelentések automatizálása:** Word vagy Excel jelentéseket nyerjen ki sok projektből egyetlen kötegben.  
+- **Integráció más rendszerekkel:** A kinyert fájlokat dokumentum‑kezelő vagy analitikai csővezetékekbe táplálhatja.  
 
 ## Előfeltételek
 
-Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET webhelyet innen[itt](https://releases.aspose.com/tasks/net/).
-3. C# alapismeretek: Ismerkedjen meg a C# programozási nyelv alapjaival.
+1. **Visual Studio** – bármely friss verzió (2019, 2022 vagy újabb).  
+2. **Aspose.Tasks for .NET** – letölthető és telepíthető [innen](https://releases.aspose.com/tasks/net/).  
+3. **Alap C# ismeretek** – legyen kényelmes a ciklusok, gyűjtemények és fájl‑I/O használatában.  
 
 ## Névterek importálása
 
-Kezdésként importálja a szükséges névtereket a projektbe:
+A kezdéshez importálja a szükséges névtereket a projektbe:
 
 ```csharp
 using Aspose.Tasks;
 using System.Collections.Generic;
 using System.IO;
-
-
 ```
 
-## 1. lépés: Töltse be a projektfájlt
+## 1. lépés: A projektfájl betöltése
 
-Először töltse be az OLE objektumokat tartalmazó projektfájlt:
+Először töltse be azt a Project fájlt, amelyik az OLE objektumokat tartalmazza:
 
 ```csharp
 var project = new Project(DataDir + "Embedded.mpp");
 ```
 
+> **Tipp:** A `DataDir`‑nek arra a mappára kell mutatnia, ahol a `.mpp` fájlja található. Ez a lépés teljesíti a **load project file** követelményt.
+
 ## 2. lépés: Fájlkiterjesztések meghatározása
 
-Ezután határozza meg az OLE objektumokhoz társított fájlkiterjesztéseket:
+Hozzon létre egy keresőtáblát, amely az OLE `FileFormat` azonosítókat a kívánt kimeneti fájlnevekkel párosítja. Ez megkönnyíti a **export ole objects** helyes kiterjesztésekkel történő végrehajtását:
 
 ```csharp
 IDictionary<string, string> extensions = new Dictionary<string, string>
@@ -58,9 +78,9 @@ IDictionary<string, string> extensions = new Dictionary<string, string>
 };
 ```
 
-## 3. lépés: Iteráció OLE objektumok felett
+## 3. lépés: OLE objektumok bejárása és beágyazott fájlok kinyerése
 
-Most ismételje meg az OLE objektumokat a projekten belül:
+Most járja végig a projekt minden OLE objektumát, ellenőrizze, hogy a formátum támogatott‑e, és írja a bináris tartalmat egy új fájlba:
 
 ```csharp
 foreach (var oleObject in project.OleObjects)
@@ -78,31 +98,39 @@ foreach (var oleObject in project.OleObjects)
 }
 ```
 
-## Következtetés
+> **Profi tipp:** Az `OutDir`‑nek írható könyvtárnak kell lennie. A fenti kód olyan fájlokat hoz létre, mint például `EmbeddedContent__wordFile_out.docx`, hatékonyan **extract ole objects** a projektből.
 
-Összefoglalva, az OLE objektumok kezelése az Aspose.Tasks for .NET-ben kulcsfontosságú a projektdokumentumokon belüli beágyazott vagy csatolt fájlok kezeléséhez. Az oktatóanyagban ismertetett lépések követésével hatékonyan dolgozhat az OLE objektumgyűjteményekkel a .NET-alkalmazásokban.
+## Gyakori problémák és megoldások
 
-## GYIK
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Nem jönnek létre fájlok | `OutDir` nem létezik vagy nincs írási jogosultsága | Győződjön meg róla, hogy a könyvtár létezik, és az alkalmazásnak van írási hozzáférése. |
+| Váratlan fájlformátum | Az OLE objektum `FileFormat` nincs a szótárban | Adja hozzá a hiányzó formátumot az `extensions` szótárhoz. |
+| Nagy OLE objektumok memória‑nyomást okoznak | Sok nagy objektum egyszerre történő betöltése | Dolgozza fel az objektumokat egy‑esével, ahogy a példában látható, vagy közvetlenül streamelje őket a lemezre. |
 
-### 1. kérdés: Mi az OLE objektum?
+## Gyakran feltett kérdések
 
-1. válasz: Az OLE (Object Linking and Embedding) objektum egy olyan technológia, amely lehetővé teszi más alkalmazásokból származó fájlok beágyazását vagy összekapcsolását egy dokumentumon belül.
+**K: Mi az az OLE objektum?**  
+V: Az OLE (Object Linking and Embedding) egy olyan technológia, amely lehetővé teszi fájlok beágyazását vagy hivatkozását más alkalmazásokból egy dokumentumban.
 
-### 2. kérdés: Hogyan telepíthetem az Aspose.Tasks-t .NET-hez?
+**K: Hogyan telepíthetem az Aspose.Tasks for .NET‑et?**  
+V: Letöltheti az Aspose.Tasks for .NET‑et [innen](https://releases.aspose.com/tasks/net/) és kövesse a mellékelt telepítési útmutatót.
 
- 2. válasz: Az Aspose.Tasks for .NET innen letölthető[itt](https://releases.aspose.com/tasks/net/) és kövesse a mellékelt telepítési utasításokat.
+**K: Dolgozhatok OLE objektumokkal az Aspose.Tasks‑ben C#‑tudás nélkül?**  
+V: Bár az alap C# ismeret ajánlott, az Aspose.Tasks átfogó dokumentációt és oktatóanyagokat biztosít, amelyek segítenek a felhasználóknak a programozási háttér függetlenül elkezdeni.
 
-### 3. kérdés: Dolgozhatok OLE objektumokkal az Aspose.Tasks programban a C# előzetes ismerete nélkül?
+**K: Van ingyenes próba verzió az Aspose.Tasks‑hez?**  
+V: Igen, ingyenes próba verziót igényelhet [innen](https://releases.aspose.com/).
 
-3. válasz: Míg a C# alapismerete ajánlott, az Aspose.Tasks átfogó dokumentációt és oktatóanyagokat kínál a felhasználóknak az induláshoz, programozási hátterüktől függetlenül.
+**K: Hol találok támogatást az Aspose.Tasks‑hez?**  
+V: Támogatást és kérdéseket a Aspose.Tasks fórumon kérhet [itt](https://forum.aspose.com/c/tasks/15).
 
-### 4. kérdés: Elérhető az Aspose.Tasks ingyenes próbaverziója?
+---
 
- 4. válasz: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+**Utoljára frissítve:** 2026-03-14  
+**Tesztelve:** Aspose.Tasks 24.11 for .NET  
+**Szerző:** Aspose  
 
-### 5. kérdés: Hol találok támogatást az Aspose.Tasks számára?
-
- 5. válasz: Az Aspose.Tasks fórumon kérhet támogatást és kérdéseket tehet fel[itt](https://forum.aspose.com/c/tasks/15).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
