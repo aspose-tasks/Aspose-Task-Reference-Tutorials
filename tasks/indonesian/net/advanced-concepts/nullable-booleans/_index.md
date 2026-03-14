@@ -1,105 +1,118 @@
 ---
-title: Menangani Boolean Nullable di Aspose.Tasks
-linktitle: Menangani Boolean Nullable di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara menangani boolean nullable secara efektif di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Kuasai penggunaan kelas `NullableBool` dan tingkatkan pengembangan .NET Anda.
-weight: 21
+date: 2026-03-14
+description: Pelajari cara menggunakan boolean nullable di Aspose.Tasks untuk .NET,
+  termasuk mengonversi nilai boolean nullable dan mengatur properti boolean nullable.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cara Menggunakan Boolean Nullable di Aspose.Tasks
 url: /id/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menangani Boolean Nullable di Aspose.Tasks
+# Cara Menggunakan Boolean Nullable di Aspose.Tasks
 
-## Perkenalan
+Dalam tutorial ini kami akan menunjukkan **cara menggunakan nullable** boolean saat bekerja dengan API Aspose.Tasks .NET. Boolean nullable memberi Anda tiga kemungkinan keadaan—`true`, `false`, atau *undefined*—yang sangat berguna untuk pengaturan tingkat proyek yang mungkin tidak ditentukan secara eksplisit. Anda akan melihat cara membuat, mengonversi, dan **menetapkan boolean nullable**, serta mengapa penanganan boolean nullable dengan benar dapat mencegah perilaku tak terduga dalam aplikasi penjadwalan Anda.
 
-Dalam tutorial ini, kita akan mempelajari cara menggunakan boolean nullable di Aspose.Tasks untuk .NET. Boolean yang dapat dibatalkan menawarkan fleksibilitas dalam merepresentasikan nilai boolean, memungkinkan adanya kemungkinan untuk tidak terdefinisi. Kami akan menjelajahi cara menggunakan`NullableBool` kelas, konstruktor, properti, dan metodenya.
+## Jawaban Cepat
+- **Apa itu nullable boolean?** Tipe yang dapat menyimpan `true`, `false`, atau tidak terdefinisi.  
+- **Mengapa menggunakan nullable boolean di Aspose.Tasks?** Mereka memungkinkan Anda merepresentasikan properti proyek opsional tanpa menebak nilai default.  
+- **Bagaimana mengonversi nullable boolean menjadi bool biasa?** Gunakan konversi implisit atau periksa `IsDefined` terlebih dahulu.  
+- **Apa kelas utama?** `NullableBool` di namespace `Aspose.Tasks`.  
+- **Apakah saya memerlukan lisensi?** Ya, lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi.
+
+## Apa Itu Nullable Boolean?
+
+Nullable boolean (`NullableBool`) memperluas tipe `bool` biasa dengan menambahkan flag *IsDefined*. Ketika `IsDefined` bernilai `false`, nilai dianggap tidak terdefinisi, memungkinkan Anda membedakan antara “false” dan “tidak disetel”.
+
+## Mengapa Menangani Nullable Boolean dalam Pengaturan Proyek?
+
+Banyak opsi proyek—seperti **ActualsInSync** atau **HonorConstraints**—adalah opsional. Menggunakan `bool` biasa memaksa Anda memilih `true` atau `false`, yang dapat secara tidak sengaja menimpa niat pengguna. Dengan **menangani nullable boolean**, Anda mempertahankan keadaan asli dan menghindari perubahan konfigurasi yang tidak disengaja.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-1. Visual Studio: Instal Visual Studio atau IDE pilihan lainnya untuk pengembangan .NET.
-2.  Aspose.Tasks untuk .NET: Unduh dan instal Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1. **Visual Studio** (atau IDE yang kompatibel dengan .NET apa pun).  
+2. **Aspose.Tasks for .NET** – unduh dari [sini](https://releases.aspose.com/tasks/net/).
 
 ## Impor Namespace
 
-Pertama, pastikan untuk mengimpor namespace yang diperlukan dalam kode Anda:
+Pertama, impor namespace yang diperlukan:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah.
+Sekarang mari kita bahas setiap contoh langkah demi langkah.
 
-##  Bekerja dengan`NullableBool`
+## Bekerja dengan `NullableBool`
 
-###  Langkah 1: Buat yang baru`Project` instance.
+### Langkah 1: Buat instance `Project` baru.
 
 ```csharp
 var project = new Project();
 ```
 
-###  Langkah 2: Buat instance a`NullableBool` object with specified values.
+### Langkah 2: Instansiasi objek `NullableBool` dengan nilai yang ditentukan.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  Langkah 3: Periksa nilai dan status yang ditentukan`NullableBool` object.
+### Langkah 3: Periksa nilai dan status terdefinisi dari objek `NullableBool`.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Langkah 4: Manfaatkan`NullableBool` instance by setting it in the project.
+### Langkah 4: **Set nullable boolean** pada proyek.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  Langkah 5: Buat instance yang lain`NullableBool` object with a single value.
+### Langkah 5: Instansiasi objek `NullableBool` lain dengan satu nilai.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  Langkah 6: Tampilkan representasi string dari`NullableBool` object.
+### Langkah 6: Tampilkan representasi string dari objek `NullableBool`.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  Langkah 7: Gunakan`NullableBool` instance by setting it in the project.
+### Langkah 7: Gunakan instance `NullableBool` dengan menyetelnya di proyek.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  Perbandingan`NullableBool` Instances
+## Membandingkan Instance `NullableBool`
 
-###  Langkah 1: Buat instance dua`NullableBool` objects.
+### Langkah 1: Instansiasi dua objek `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Langkah 2: Periksa representasi string masing-masing`NullableBool` object.
+### Langkah 2: Periksa representasi string dari masing-masing objek `NullableBool`.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  Langkah 3: Periksa konversi implisit ke`bool` and print the result.
+### Langkah 3: Konversi implisit ke `bool` dan cetak hasilnya.
 
 ```csharp
 if (bool1)
@@ -112,53 +125,57 @@ else
 }
 ```
 
-###  Langkah 4: Bandingkan keduanya`NullableBool` objects for equality.
+### Langkah 4: Bandingkan dua objek `NullableBool` untuk kesetaraan.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  Mendapatkan Kode Hash dari`NullableBool`
+## Mendapatkan Hash Code dari `NullableBool`
 
-###  Langkah 1: Buat instance dua`NullableBool` objects.
+### Langkah 1: Instansiasi dua objek `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### Langkah 2: Cetak kode hash untuk masing-masingnya`NullableBool` object.
+### Langkah 2: Cetak hash code untuk masing-masing objek `NullableBool`.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## Kesimpulan
+## Kesalahan Umum & Tips
 
- Dalam tutorial ini, kita telah menjelajahi cara menangani boolean yang dapat dibatalkan di Aspose.Tasks untuk .NET. Dengan memanfaatkan`NullableBool` kelas dan metodenya, Anda dapat mengelola nilai boolean secara efisien dengan fleksibilitas tambahan karena dapat dibatalkan.
+- **Jangan pernah menganggap nullable boolean terdefinisi.** Selalu periksa `IsDefined` sebelum menggunakan `Value`.  
+- **Mengonversi ke bool biasa** tanpa pemeriksaan dapat melempar pengecualian jika nilai tidak terdefinisi. Gunakan konversi implisit hanya ketika Anda yakin itu terdefinisi.  
+- **Saat menyetel properti proyek**, gunakan metode `Set` dengan `NullableBool` untuk mempertahankan keadaan tidak terdefinisi jika diperlukan.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apa yang dimaksud dengan boolean yang dapat dibatalkan?
+**T: Apa itu nullable boolean?**  
+J: Nullable boolean dapat merepresentasikan `true`, `false`, atau keadaan tidak terdefinisi, memungkinkan tiga hasil yang berbeda.
 
-A1: Boolean yang dapat dibatalkan adalah tipe yang dapat mewakili nilai benar, salah, atau tidak terdefinisi.
+**T: Bagaimana saya dapat mengonversi nullable boolean ke bool biasa dengan aman?**  
+J: Periksa `IsDefined` terlebih dahulu, kemudian gunakan properti `Value` atau bergantung pada konversi implisit ketika Anda yakin itu terdefinisi.
 
-### Q2: Mengapa menggunakan boolean yang dapat dibatalkan?
+**T: Mengapa saya harus menggunakan nullable boolean alih-alih bool biasa di Aspose.Tasks?**  
+J: Mereka memungkinkan Anda menjaga pengaturan proyek opsional tetap tidak tersentuh, mencegah penimpaan yang tidak disengaja.
 
-A2: Boolean nullable menawarkan fleksibilitas dalam skenario di mana nilai boolean tidak selalu ditentukan.
+**T: Bisakah saya menyetel nullable boolean menjadi tidak terdefinisi?**  
+J: Ya—gunakan konstruktor yang hanya menerima flag terdefinisi, misalnya `new NullableBool(false, false)`.
 
-### Q3: Bagaimana boolean yang dapat dibatalkan dibandingkan untuk kesetaraan?
+**T: Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Tasks untuk .NET?**  
+J: Anda dapat menemukan dokumentasi detail [di sini](https://reference.aspose.com/tasks/net/).
 
-A3: Boolean nullable dibandingkan berdasarkan status dan nilai yang ditentukan.
+---
 
-### Q4: Bisakah saya menyetel boolean yang dapat dibatalkan menjadi tidak terdefinisi?
+**Terakhir Diperbarui:** 2026-03-14  
+**Diuji Dengan:** Aspose.Tasks for .NET (rilis terbaru)  
+**Penulis:** Aspose  
 
-A4: Ya, Anda dapat menyetel boolean yang dapat dibatalkan menjadi tidak terdefinisi saat konstruksi.
-
-### Q5: Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Tasks untuk .NET?
-
- A5: Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

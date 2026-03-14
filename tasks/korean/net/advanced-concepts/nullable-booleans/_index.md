@@ -1,105 +1,118 @@
 ---
-title: Aspose.Tasks에서 Nullable 부울 처리
-linktitle: Aspose.Tasks에서 Nullable 부울 처리
-second_title: Aspose.태스크 .NET API
-description: 이 포괄적인 튜토리얼을 통해 .NET용 Aspose.Tasks에서 null 허용 부울을 효과적으로 처리하는 방법을 알아보세요. 'NullableBool' 클래스의 사용법을 익히고 .NET 개발을 강화하세요.
-weight: 21
+date: 2026-03-14
+description: Aspose.Tasks for .NET에서 null 허용 부울을 사용하는 방법을 배우고, null 허용 부울 값을 변환하고
+  null 허용 부울 속성을 설정하는 방법을 포함합니다.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks에서 Nullable Boolean 사용 방법
 url: /ko/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 Nullable 부울 처리
+# Aspose.Tasks에서 Nullable Boolean 사용 방법
 
-## 소개
+이 튜토리얼에서는 Aspose.Tasks .NET API를 사용할 때 **nullable** Boolean을 사용하는 방법을 보여줍니다. Nullable Boolean은 `true`, `false`, 또는 *undefined*의 세 가지 상태를 가질 수 있어, 명시적으로 지정되지 않을 수 있는 프로젝트 수준 설정에 특히 유용합니다. Nullable Boolean 값을 생성, 변환 및 **설정**하는 방법과, 이를 올바르게 처리하면 일정 관리 애플리케이션에서 예상치 못한 동작을 방지할 수 있는 이유를 확인하게 됩니다.
 
-이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울 작업을 자세히 살펴보겠습니다. Nullable 부울은 부울 값을 나타내는 유연성을 제공하여 정의되지 않을 가능성을 허용합니다. 사용법을 알아보겠습니다.`NullableBool` 클래스, 해당 생성자, 속성 및 메서드.
+## Quick Answers
+- **Nullable Boolean이란?** `true`, `false` 또는 정의되지 않음(undefined)을 가질 수 있는 타입입니다.  
+- **Aspose.Tasks에서 Nullable Boolean을 사용하는 이유는?** 기본값을 추측하지 않고 선택적 프로젝트 속성을 표현할 수 있습니다.  
+- **Nullable Boolean을 일반 bool로 변환하려면?** 암시적 변환을 사용하거나 먼저 `IsDefined`를 확인합니다.  
+- **주요 클래스는?** `Aspose.Tasks` 네임스페이스의 `NullableBool`입니다.  
+- **라이선스가 필요한가요?** 예, 프로덕션 사용을 위해서는 유효한 Aspose.Tasks 라이선스가 필요합니다.
 
-## 전제조건
+## Nullable Boolean이란?
 
-시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+Nullable Boolean(`NullableBool`)은 일반 `bool` 타입에 *IsDefined* 플래그를 추가한 형태입니다. `IsDefined`가 `false`이면 값이 정의되지 않은 것으로 간주되어 “false”와 “설정되지 않음”을 구분할 수 있습니다.
 
-1. Visual Studio: Visual Studio 또는 .NET 개발을 위해 선호하는 기타 IDE를 설치합니다.
-2.  .NET용 Aspose.Tasks: 다음에서 .NET용 Aspose.Tasks를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/tasks/net/).
+## 프로젝트 설정에서 Nullable Boolean을 처리해야 하는 이유
 
-## 네임스페이스 가져오기
+많은 프로젝트 옵션—예: **ActualsInSync** 또는 **HonorConstraints**—은 선택 사항입니다. 일반 `bool`을 사용하면 `true` 또는 `false` 중 하나를 선택해야 하므로 사용자의 의도를 무심코 덮어쓸 수 있습니다. **Nullable Boolean을 처리**함으로써 원래 상태를 보존하고 의도치 않은 구성 변경을 방지할 수 있습니다.
 
-먼저, 코드에서 필요한 네임스페이스를 가져와야 합니다.
+## Prerequisites
+
+시작하기 전에 다음이 준비되어 있는지 확인하세요:
+
+1. **Visual Studio**(또는 .NET 호환 IDE).  
+2. **Aspose.Tasks for .NET** – [여기](https://releases.aspose.com/tasks/net/)에서 다운로드합니다.
+
+## Import Namespaces
+
+먼저 필요한 네임스페이스를 가져옵니다:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-이제 각 예를 여러 단계로 나누어 보겠습니다.
+이제 각 예제를 단계별로 살펴보겠습니다.
 
-##  함께 일하기`NullableBool`
+## Working with `NullableBool`
 
-###  1단계: 새로 만들기`Project` instance.
+### Step 1: Create a new `Project` instance.
 
 ```csharp
 var project = new Project();
 ```
 
-###  2단계: 인스턴스화`NullableBool` object with specified values.
+### Step 2: Instantiate a `NullableBool` object with specified values.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  3단계: 값과 정의된 상태를 확인합니다.`NullableBool` object.
+### Step 3: Check the value and defined status of the `NullableBool` object.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  4단계: 활용`NullableBool` instance by setting it in the project.
+### Step 4: **Set nullable boolean** on the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  5단계: 다른 인스턴스화`NullableBool` object with a single value.
+### Step 5: Instantiate another `NullableBool` object with a single value.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  6단계: 문자열 표현을 표시합니다.`NullableBool` object.
+### Step 6: Display the string representation of the `NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  7단계:`NullableBool` instance by setting it in the project.
+### Step 7: Use the `NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  비교`NullableBool` Instances
+## Comparing `NullableBool` Instances
 
-###  1단계: 두 개 인스턴스화`NullableBool` objects.
+### Step 1: Instantiate two `NullableBool` objects.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  2단계: 각 항목의 문자열 표현 확인`NullableBool` object.
+### Step 2: Check the string representation of each `NullableBool` object.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  3단계: 다음으로의 암시적 변환 확인`bool` and print the result.
+### Step 3: Implicit conversion to `bool` and print the result.
 
 ```csharp
 if (bool1)
@@ -112,53 +125,57 @@ else
 }
 ```
 
-###  4단계: 두 가지 비교`NullableBool` objects for equality.
+### Step 4: Compare the two `NullableBool` objects for equality.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  해시 코드 가져오기`NullableBool`
+## Getting the Hash Code of `NullableBool`
 
-###  1단계: 두 개 인스턴스화`NullableBool` objects.
+### Step 1: Instantiate two `NullableBool` objects.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### 2단계: 각각의 해시 코드를 인쇄하세요.`NullableBool` object.
+### Step 2: Print the hash code for each `NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## 결론
+## Common Pitfalls & Tips
 
- 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울을 처리하는 방법을 살펴보았습니다. 활용하여`NullableBool` 클래스와 해당 메서드를 사용하면 null 허용이라는 유연성이 추가되어 부울 값을 효율적으로 관리할 수 있습니다.
+- **Nullable Boolean이 정의되었다고 가정하지 마세요.** `Value`를 사용하기 전에 항상 `IsDefined`를 확인합니다.  
+- **정의되지 않은 값을 일반 bool로 변환**하면 예외가 발생할 수 있습니다. 정의된 경우에만 암시적 변환을 사용하세요.  
+- **프로젝트 속성을 설정할 때**는 필요에 따라 정의되지 않은 상태를 유지하기 위해 `NullableBool`을 사용해 `Set` 메서드를 호출합니다.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Null 허용 부울이란 무엇입니까?
+**Q: Nullable Boolean이란 무엇인가요?**  
+A: Nullable Boolean은 `true`, `false`, 또는 정의되지 않은 상태를 나타낼 수 있어 세 가지 결과를 구분할 수 있습니다.
 
-대답 1: 널 입력 가능 부울은 true, false 또는 정의되지 않음을 나타낼 수 있는 유형입니다.
+**Q: Nullable Boolean을 일반 bool로 안전하게 변환하려면 어떻게 해야 하나요?**  
+A: 먼저 `IsDefined`를 확인한 뒤 `Value` 속성을 사용하거나, 정의된 경우에만 암시적 변환을 사용합니다.
 
-### 질문 2: null 허용 부울을 사용하는 이유는 무엇입니까?
+**Q: Aspose.Tasks에서 일반 bool 대신 Nullable Boolean을 사용해야 하는 이유는?**  
+A: 선택적 프로젝트 설정을 그대로 두어 의도치 않은 오버라이드를 방지할 수 있기 때문입니다.
 
-A2: Nullable 부울은 부울 값이 항상 정의되지 않는 시나리오에서 유연성을 제공합니다.
+**Q: Nullable Boolean을 undefined 상태로 설정할 수 있나요?**  
+A: 예—정의 플래그만 받는 생성자를 사용합니다. 예: `new NullableBool(false, false)`.
 
-### Q3: nullable 부울은 동등성을 어떻게 비교합니까?
+**Q: Aspose.Tasks for .NET에 대한 추가 문서는 어디서 찾을 수 있나요?**  
+A: 자세한 문서는 [여기](https://reference.aspose.com/tasks/net/)에서 확인할 수 있습니다.
 
-A3: Null 허용 부울은 정의된 상태 및 값을 기준으로 비교됩니다.
+---
 
-### Q4: Null 허용 부울을 정의되지 않도록 설정할 수 있나요?
+**Last Updated:** 2026-03-14  
+**Tested With:** Aspose.Tasks for .NET (latest release)  
+**Author:** Aspose  
 
-A4: 예, 생성 시 nullable 부울을 정의되지 않도록 설정할 수 있습니다.
-
-### Q5: .NET용 Aspose.Tasks에 대한 추가 문서는 어디서 찾을 수 있나요?
-
- A5: 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

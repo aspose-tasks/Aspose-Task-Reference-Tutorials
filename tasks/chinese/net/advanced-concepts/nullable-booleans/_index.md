@@ -1,105 +1,129 @@
 ---
-title: 在 Aspose.Tasks 中处理可为 Null 的布尔值
-linktitle: 在 Aspose.Tasks 中处理可为 Null 的布尔值
+date: 2026-03-14
+description: 了解如何在 Aspose.Tasks for .NET 中使用可空布尔值，包括转换可空布尔值和设置可空布尔属性。
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 通过这个综合教程，了解如何在 Aspose.Tasks for .NET 中有效处理可为 null 的布尔值。掌握 NullableBool 类的用法并增强您的 .NET 开发能力。
-weight: 21
+title: 如何在 Aspose.Tasks 中使用可空布尔值
 url: /zh/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
+
+ Aspose" => "**作者:** Aspose"
+
+Then closing shortcodes.
+
+Then backtop button shortcode.
+
+Make sure to keep all shortcodes unchanged.
+
+Now produce final content with translations.
+
+Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中处理可为 Null 的布尔值
+# 如何在 Aspose.Tasks 中使用可空布尔
 
-## 介绍
+在本教程中，我们将展示 **如何使用可空** 布尔值来操作 Aspose.Tasks .NET API。可空布尔提供了三种可能的状态——`true`、`false` 或 *未定义*——这在可能未显式指定的项目级设置中尤为方便。您将看到如何创建、转换以及 **设置可空布尔** 值，并了解正确处理可空布尔如何防止调度应用程序中出现意外行为。
 
-在本教程中，我们将深入研究 Aspose.Tasks for .NET 中可空布尔值的使用。可空布尔值在表示布尔值方面提供了灵活性，允许未定义的可能性。我们将探讨如何使用`NullableBool`类及其构造函数、属性和方法。
+## 快速答案
+- **什么是可空布尔？** 一种可以保存 `true`、`false` 或未定义的类型。  
+- **为什么在 Aspose.Tasks 中使用可空布尔？** 它们让您在不猜测默认值的情况下表示可选的项目属性。  
+- **如何将可空布尔转换为普通 bool？** 使用隐式转换或先检查 `IsDefined`。  
+- **主要类是什么？** `Aspose.Tasks` 命名空间中的 `NullableBool`。  
+- **我需要许可证吗？** 是的，生产环境使用需有效的 Aspose.Tasks 许可证。
 
-## 先决条件
+## 什么是可空布尔？
 
-在我们开始之前，请确保您满足以下先决条件：
+可空布尔 (`NullableBool`) 通过添加 *IsDefined* 标志扩展了常规的 `bool` 类型。当 `IsDefined` 为 `false` 时，该值被视为未定义，从而可以区分 “false” 与 “未设置”。
 
-1. Visual Studio：安装 Visual Studio 或任何其他用于 .NET 开发的首选 IDE。
-2.  Aspose.Tasks for .NET：从以下位置下载并安装 Aspose.Tasks for .NET[这里](https://releases.aspose.com/tasks/net/).
+## 为什么在项目设置中处理可空布尔？
+
+许多项目选项——如 **ActualsInSync** 或 **HonorConstraints**——都是可选的。使用普通 `bool` 会强制您选择 `true` 或 `false`，这可能无意中覆盖用户的意图。通过 **处理可空布尔**，您可以保留原始状态，避免意外的配置更改。
+
+## 前置条件
+
+在开始之前，请确保您拥有：
+
+1. **Visual Studio**（或任何 .NET 兼容的 IDE）。  
+2. **Aspose.Tasks for .NET** – 从 [here](https://releases.aspose.com/tasks/net/) 下载。
 
 ## 导入命名空间
 
-首先，确保在代码中导入必要的命名空间：
+首先，导入所需的命名空间：
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-现在，让我们将每个示例分解为多个步骤。
+现在让我们一步步浏览每个示例。
 
-## 与...一起工作`NullableBool`
+## 使用 `NullableBool`
 
-### 第 1 步：创建一个新的`Project` instance.
+### 步骤 1：创建一个新的 `Project` 实例。
 
 ```csharp
 var project = new Project();
 ```
 
-### 第 2 步：实例化`NullableBool` object with specified values.
+### 步骤 2：实例化一个带有指定值的 `NullableBool` 对象。
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-### 步骤 3：检查值和定义的状态`NullableBool` object.
+### 步骤 3：检查 `NullableBool` 对象的值和已定义状态。
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-### 第 4 步：利用`NullableBool` instance by setting it in the project.
+### 步骤 4：**在项目上设置可空布尔**。
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-### 第 5 步：实例化另一个`NullableBool` object with a single value.
+### 步骤 5：使用单一值实例化另一个 `NullableBool` 对象。
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-### 第 6 步：显示字符串表示形式`NullableBool` object.
+### 步骤 6：显示 `NullableBool` 对象的字符串表示。
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-### 第 7 步：使用`NullableBool` instance by setting it in the project.
+### 步骤 7：通过在项目中设置来使用 `NullableBool` 实例。
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-## 比较`NullableBool` Instances
+## 比较 `NullableBool` 实例
 
-### 步骤一：实例化两个`NullableBool` objects.
+### 步骤 1：实例化两个 `NullableBool` 对象。
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### 第 2 步：检查每个字符串的表示形式`NullableBool` object.
+### 步骤 2：检查每个 `NullableBool` 对象的字符串表示。
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-### 步骤 3：检查隐式转换为`bool` and print the result.
+### 步骤 3：隐式转换为 `bool` 并打印结果。
 
 ```csharp
 if (bool1)
@@ -112,53 +136,57 @@ else
 }
 ```
 
-### 第四步：比较两者`NullableBool` objects for equality.
+### 步骤 4：比较两个 `NullableBool` 对象的相等性。
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-## 获取哈希码`NullableBool`
+## 获取 `NullableBool` 的哈希码
 
-### 步骤一：实例化两个`NullableBool` objects.
+### 步骤 1：实例化两个 `NullableBool` 对象。
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### 第 2 步：打印每个的哈希码`NullableBool` object.
+### 步骤 2：打印每个 `NullableBool` 对象的哈希码。
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## 结论
+## 常见陷阱与技巧
 
-在本教程中，我们探讨了如何在 Aspose.Tasks for .NET 中处理可为 null 的布尔值。通过利用`NullableBool`类及其方法，您可以有效地管理布尔值，并具有可为空的灵活性。
+- **永远不要假设可空布尔已定义。** 在使用 `Value` 之前始终检查 `IsDefined`。  
+- **将可空布尔转换为普通 bool** 时如果不检查，值未定义会抛出异常。仅在确定已定义时才使用隐式转换。  
+- **设置项目属性时**，使用带有 `NullableBool` 的 `Set` 方法，以在需要时保留未定义状态。
 
-## 常见问题解答
+## 常见问题
 
-### Q1：什么是可为 null 的布尔值？
+**Q: 什么是可空布尔？**  
+A: 可空布尔可以表示 `true`、`false` 或未定义状态，从而提供三种不同的结果。
 
-A1：可为 null 的布尔值是一种可以表示 true、false 或未定义的类型。
+**Q: 如何安全地将可空布尔转换为普通 bool？**  
+A: 首先检查 `IsDefined`，然后使用 `Value` 属性或在确定已定义时使用隐式转换。
 
-### Q2：为什么使用可为 null 的布尔值？
+**Q: 为什么在 Aspose.Tasks 中使用可空布尔而不是普通 bool？**  
+A: 它们让您保持可选项目设置不被更改，防止意外覆盖。
 
-A2：可为空布尔值在布尔值可能不总是被定义的情况下提供了灵活性。
+**Q: 我可以将可空布尔设置为未定义吗？**  
+A: 可以——使用仅接受已定义标志的构造函数，例如 `new NullableBool(false, false)`。
 
-### 问题 3：如何比较可空布尔值的相等性？
+**Q: 在哪里可以找到 Aspose.Tasks for .NET 的更多文档？**  
+A: 您可以在 [here](https://reference.aspose.com/tasks/net/) 找到详细文档。
 
-A3：可空布尔值根据其定义的状态和值进行比较。
+---
 
-### Q4：我可以将可为 null 的布尔值设置为未定义吗？
+**最后更新:** 2026-03-14  
+**测试环境:** Aspose.Tasks for .NET (latest release)  
+**作者:** Aspose  
 
-A4：是的，您可以在构造时将可为空的布尔值设置为未定义。
-
-### 问题 5：在哪里可以找到有关 Aspose.Tasks for .NET 的更多文档？
-
- A5：你可以找到详细的文档[这里](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

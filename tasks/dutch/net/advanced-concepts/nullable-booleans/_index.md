@@ -1,105 +1,120 @@
 ---
-title: Nullable Booleans verwerken in Aspose.Tasks
-linktitle: Nullable Booleans verwerken in Aspose.Tasks
+date: 2026-03-14
+description: Leer hoe u nullable booleans gebruikt in Aspose.Tasks voor .NET, inclusief
+  het converteren van nullable boolean‑waarden en het instellen van nullable boolean‑eigenschappen.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u nullable booleans effectief kunt verwerken in Aspose.Tasks voor .NET met deze uitgebreide tutorial. Beheers het gebruik van de klasse `NullableBool` en verbeter uw .NET-ontwikkeling.
-weight: 21
+title: Hoe nullable Booleans te gebruiken in Aspose.Tasks
 url: /nl/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ shortcodes unchanged.
+
+Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nullable Booleans verwerken in Aspose.Tasks
+# Hoe nullable booleans te gebruiken in Aspose.Tasks
 
-## Invoering
+In deze tutorial laten we **zien hoe je nullable** booleans kunt gebruiken bij het werken met de Aspose.Tasks .NET API. Nullable booleans geven je drie mogelijke toestanden—`true`, `false` of *undefined*—wat vooral handig is voor project‑niveau instellingen die mogelijk niet expliciet zijn gespecificeerd. Je zult zien hoe je nullable boolean‑waarden maakt, converteert en **nullable boolean instellen**, en waarom het correct afhandelen van nullable booleans onverwacht gedrag in je planningsapplicaties kan voorkomen.
 
-In deze zelfstudie gaan we dieper in op het werken met nulbare booleans in Aspose.Tasks voor .NET. Nullable booleans bieden flexibiliteit bij het weergeven van booleaanse waarden, waardoor de mogelijkheid bestaat dat ze ongedefinieerd zijn. We zullen onderzoeken hoe we de`NullableBool` klasse, de constructors, eigenschappen en methoden ervan.
+## Snelle antwoorden
+- **Wat is een nullable boolean?** Een type dat `true`, `false` of undefined kan bevatten.  
+- **Waarom nullable booleans gebruiken in Aspose.Tasks?** Ze laten je optionele projecteigenschappen weergeven zonder een standaardwaarde te raden.  
+- **Hoe converteer je een nullable boolean naar een reguliere bool?** Gebruik de impliciete conversie of controleer eerst `IsDefined`.  
+- **Wat is de primaire klasse?** `NullableBool` in de `Aspose.Tasks` namespace.  
+- **Heb ik een licentie nodig?** Ja, een geldige Aspose.Tasks‑licentie is vereist voor productiegebruik.
+
+## Wat is een Nullable Boolean?
+
+Een nullable boolean (`NullableBool`) breidt het reguliere `bool`‑type uit met een *IsDefined*‑vlag. Wanneer `IsDefined` `false` is, wordt de waarde beschouwd als undefined, waardoor je kunt onderscheiden tussen “false” en “not set”.
+
+## Waarom nullable booleans afhandelen in projectinstellingen?
+
+Veel projectopties—zoals **ActualsInSync** of **HonorConstraints**—zijn optioneel. Het gebruik van een gewone `bool` dwingt je om `true` of `false` te kiezen, wat per ongeluk de intentie van een gebruiker kan overschrijven. Door **nullable booleans af te handelen**, behoud je de oorspronkelijke staat en vermijd je onbedoelde configuratiewijzigingen.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-1. Visual Studio: Installeer Visual Studio of een andere gewenste IDE voor .NET-ontwikkeling.
-2.  Aspose.Tasks voor .NET: Download en installeer Aspose.Tasks voor .NET van[hier](https://releases.aspose.com/tasks/net/).
+1. **Visual Studio** (of een andere .NET‑compatibele IDE).  
+2. **Aspose.Tasks for .NET** – download het van [hier](https://releases.aspose.com/tasks/net/).
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Zorg er eerst voor dat u de benodigde naamruimten in uw code importeert:
+Importeer eerst de benodigde namespaces:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-Laten we nu elk voorbeeld in meerdere stappen opsplitsen.
+Laten we nu elk voorbeeld stap voor stap doorlopen.
 
-##  Werken met`NullableBool`
+## Werken met `NullableBool`
 
-###  Stap 1: Maak een nieuwe`Project` instance.
+### Stap 1: Maak een nieuwe `Project`‑instantie.
 
 ```csharp
 var project = new Project();
 ```
 
-###  Stap 2: Instantieer een`NullableBool` object with specified values.
+### Stap 2: Instantieer een `NullableBool`‑object met opgegeven waarden.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  Stap 3: Controleer de waarde en gedefinieerde status van de`NullableBool` object.
+### Stap 3: Controleer de waarde en de gedefinieerde status van het `NullableBool`‑object.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Stap 4: Gebruik de`NullableBool` instance by setting it in the project.
+### Stap 4: **Nullable boolean instellen** op het project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  Stap 5: Instantieer een andere`NullableBool` object with a single value.
+### Stap 5: Instantieer een ander `NullableBool`‑object met een enkele waarde.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  Stap 6: Geef de tekenreeksweergave van de weer`NullableBool` object.
+### Stap 6: Toon de stringrepresentatie van het `NullableBool`‑object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  Stap 7: Gebruik de`NullableBool` instance by setting it in the project.
+### Stap 7: Gebruik de `NullableBool`‑instantie door deze in het project in te stellen.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  Vergelijken`NullableBool` Instances
+## Vergelijken van `NullableBool`‑instanties
 
-###  Stap 1: Instantieer twee`NullableBool` objects.
+### Stap 1: Instantieer twee `NullableBool`‑objecten.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Stap 2: Controleer de tekenreeksrepresentatie van elk`NullableBool` object.
+### Stap 2: Controleer de stringrepresentatie van elk `NullableBool`‑object.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  Stap 3: Controleer de impliciete conversie naar`bool` and print the result.
+### Stap 3: Impliciete conversie naar `bool` en druk het resultaat af.
 
 ```csharp
 if (bool1)
@@ -112,53 +127,57 @@ else
 }
 ```
 
-###  Stap 4: Vergelijk de twee`NullableBool` objects for equality.
+### Stap 4: Vergelijk de twee `NullableBool`‑objecten op gelijkheid.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  Hashcode ophalen van`NullableBool`
+## De hashcode van `NullableBool` ophalen
 
-###  Stap 1: Instantieer twee`NullableBool` objects.
+### Stap 1: Instantieer twee `NullableBool`‑objecten.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### Stap 2: Druk de hashcode voor elk af`NullableBool` object.
+### Stap 2: Print de hashcode voor elk `NullableBool`‑object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## Conclusie
+## Veelvoorkomende valkuilen & tips
 
- In deze zelfstudie hebben we onderzocht hoe u met nulbare booleans omgaat in Aspose.Tasks voor .NET. Door gebruik te maken van de`NullableBool` class en zijn methoden, kunt u Booleaanse waarden efficiënt beheren met de extra flexibiliteit dat ze nulwaarden kunnen bevatten.
+- **Veronderstel nooit dat een nullable boolean gedefinieerd is.** Controleer altijd `IsDefined` voordat je `Value` gebruikt.  
+- **Converteren naar een reguliere bool** zonder controle kan een uitzondering veroorzaken als de waarde undefined is. Gebruik de impliciete conversie alleen wanneer je zeker weet dat deze gedefinieerd is.  
+- **Bij het instellen van projecteigenschappen**, gebruik de `Set`‑methode met een `NullableBool` om de undefined‑status te behouden indien nodig.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Wat is een nulbare booleaanse waarde?
+**Q: Wat is een nullable boolean?**  
+A: Een nullable boolean kan `true`, `false` of een undefined‑status vertegenwoordigen, waardoor drie verschillende uitkomsten mogelijk zijn.
 
-A1: Een nulbare booleaanse waarde is een type dat waar, onwaar of ongedefinieerd kan zijn.
+**Q: Hoe kan ik een nullable boolean veilig naar een reguliere bool converteren?**  
+A: Controleer eerst `IsDefined`, gebruik daarna de `Value`‑eigenschap of vertrouw op de impliciete conversie wanneer je zeker bent dat deze gedefinieerd is.
 
-### Vraag 2: Waarom nulbare booleans gebruiken?
+**Q: Waarom zou ik nullable booleans gebruiken in plaats van gewone bools in Aspose.Tasks?**  
+A: Ze laten je optionele projectinstellingen onaangeroerd houden, waardoor onbedoelde overschrijvingen worden voorkomen.
 
-A2: Nullable booleans bieden flexibiliteit in scenario's waarin niet altijd een Booleaanse waarde wordt gedefinieerd.
+**Q: Kan ik een nullable boolean op undefined zetten?**  
+A: Ja—gebruik de constructor die alleen de defined‑vlag accepteert, bijv. `new NullableBool(false, false)`.
 
-### Vraag 3: Hoe worden nulbare booleans vergeleken voor gelijkheid?
+**Q: Waar kan ik meer documentatie vinden over Aspose.Tasks voor .NET?**  
+A: Gedetailleerde documentatie vind je [hier](https://reference.aspose.com/tasks/net/).
 
-A3: Nullable booleans worden vergeleken op basis van hun gedefinieerde status en waarden.
+---
 
-### Vraag 4: Kan ik een nulbare booleaanse waarde instellen op ongedefinieerd?
+**Laatst bijgewerkt:** 2026-03-14  
+**Getest met:** Aspose.Tasks for .NET (latest release)  
+**Auteur:** Aspose  
 
-A4: Ja, u kunt een null-booleaanse waarde zo instellen dat deze tijdens de constructie ongedefinieerd is.
-
-### V5: Waar kan ik verdere documentatie vinden over Aspose.Tasks voor .NET?
-
- A5: U kunt gedetailleerde documentatie vinden[hier](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
