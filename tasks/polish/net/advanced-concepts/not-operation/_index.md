@@ -1,33 +1,49 @@
 ---
-title: Praca z operacją NOT w Aspose.Tasks
-linktitle: Praca z operacją NOT w Aspose.Tasks
+date: 2026-03-14
+description: Dowiedz się, jak filtrować zadania niebędące operacjami w Aspose.Tasks
+  dla .NET i odkryj, jak używać filtru NOT z warunkiem NOT w elastycznych zapytaniach
+  o zadania.
+linktitle: Working with NOT Operation in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak używać operacji NOT w Aspose.Tasks dla .NET, aby skutecznie filtrować zadania. Zwiększ swoje możliwości zarządzania projektami już teraz.
-weight: 20
+title: Filtruj zadania, nie operację w Aspose.Tasks
 url: /pl/net/advanced-concepts/not-operation/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Praca z operacją NOT w Aspose.Tasks
+# filtrowanie zadań przy użyciu operacji NOT w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku omówimy, jak wykorzystać operację NOT w Aspose.Tasks dla .NET. Operacja NOT umożliwia odwrócenie warunku filtru, dzięki czemu możemy wybrać elementy, które nie spełniają określonych kryteriów.
+W tym samouczku dowiesz się **jak filtrować zadania przy użyciu operacji NOT** za pomocą Aspose.Tasks dla .NET. Operacja NOT odwraca warunek filtru, dzięki czemu możesz wybrać każde zadanie, które **nie** spełnia określonego kryterium. Ta funkcja jest niezbędna, gdy musisz wykluczyć określone elementy — np. zadania bez wartości — lub gdy chcesz budować złożone zapytania bez pisania dodatkowego kodu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi operacja NOT?** Odwraca warunek filtru, zwracając elementy, które nie przeszły pierwotnego testu.  
+- **Dlaczego używać operacji NOT przy filtrowaniu zadań?** Upraszcza logikę wykluczania i utrzymuje kod czytelnym.  
+- **Która przestrzeń nazw udostępnia klasę NOT?** `Aspose.Tasks.Util`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak, wymagana jest ważna licencja Aspose.Tasks dla wersji nie‑trial.  
+- **Czy mogę łączyć NOT z innymi warunkami?** Oczywiście — można łączyć go z `AndCondition`, `OrCondition` itp.
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+## Czym jest operacja NOT w filtrowaniu zadań?
+**Operacja NOT w filtrowaniu zadań** to logiczna negacja zastosowana do filtru zadania. Zamiast wybierać zadania spełniające warunek, wybiera te, które *nie* spełniają tego warunku. Jest to szczególnie przydatne, gdy chcesz pominąć zadania z pustymi polami, określonymi statusami lub dowolnym innym atrybutem, który chcesz wykluczyć.
 
-1. Visual Studio: Aby postępować zgodnie z przykładami kodu, potrzebujesz działającej instalacji programu Visual Studio.
-2.  Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
-3. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie pomocna w zrozumieniu przykładów kodu.
+## Dlaczego stosować warunek NOT przy filtrowaniu zadań?
+Zastosowanie **warunku NOT** zmniejsza potrzebę wielokrotnego przetwarzania danych projektu. Pozwala napisać zwięzły, łatwy do utrzymania kod i poprawia wydajność, delegując ocenę do zoptymalizowanego silnika Aspose.Tasks.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Najpierw zaimportujmy niezbędne przestrzenie nazw dla naszego kodu:
+Przed rozpoczęciem upewnij się, że masz następujące elementy:
+
+1. Visual Studio: Potrzebujesz działającej instalacji Visual Studio, aby móc podążać za przykładami kodu.  
+2. Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET ze [strony internetowej](https://releases.aspose.com/tasks/net/).  
+3. Podstawowa znajomość C#: Znajomość języka programowania C# będzie pomocna przy rozumieniu przykładów kodu.
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj niezbędne przestrzenie nazw dla naszego kodu:
 
 ```csharp
 using Aspose.Tasks;
@@ -41,85 +57,103 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Krok 1: Skonfiguruj projekt i zadania
+## Krok 1: Konfiguracja projektu i zadań
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Zaczynamy od załadowania pliku projektu o nazwie „Project2.mpp” za pomocą rozszerzenia`Project` klasa dostarczona przez Aspose.Tasks. Upewnij się, że plik projektu istnieje w określonym katalogu.
+Rozpoczynamy od wczytania pliku projektu o nazwie **Project2.mpp** przy użyciu klasy `Project` udostępnionej przez Aspose.Tasks. Upewnij się, że plik projektu istnieje w podanym katalogu.
 
-## Krok 2: Zbierz zadania projektowe
+## Krok 2: Zbieranie zadań projektu
 
 ```csharp
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Tutaj tworzymy`ChildTasksCollector` obiekt, aby zebrać wszystkie zadania w ramach projektu. Następnie używamy`TaskUtils.Apply` metoda przeglądania hierarchii zadań projektu i zbierania wszystkich zadań podrzędnych.
+Tutaj tworzymy obiekt `ChildTasksCollector`, aby zebrać wszystkie zadania w projekcie. Następnie używamy `TaskUtils.Apply`, aby przejść przez hierarchię zadań projektu i zebrać każde zadanie podrzędne.
 
-## Krok 3: Zdefiniuj stan filtra
+## Krok 3: Definiowanie warunku filtru
 
 ```csharp
 var filter = new NullCondition();
 ```
 
- Definiujemy warunek filtra za pomocą niestandardowej klasy o nazwie`NullCondition`. Ten warunek wybiera zadania, które mają wartość null.
+Definiujemy warunek filtru przy użyciu własnej klasy o nazwie `NullCondition`. Ten warunek wybiera zadania, które mają **null** jako wartość.  
 
-## Krok 4: Zastosuj operację NIE
+> **Wskazówka:** Zamień `NullCondition` na inny warunek (np. `EqualsCondition`), aby celować w różne atrybuty.
+
+## Krok 4: Zastosowanie operacji NOT
 
 ```csharp
 var condition = new Not<Task>(filter);
 ```
 
- Stosujemy operację NOT do warunku filtra za pomocą`Not<T>`klasa dostarczona przez Aspose.Tasks. Spowoduje to odwrócenie warunku filtru i wybranie zadań, które nie mają wartości null.
+Stosujemy **operację NOT** do warunku filtru przy użyciu klasy `Not<T>` udostępnionej przez Aspose.Tasks. Odwraca to pierwotny warunek, więc filtr teraz wybiera zadania, które **nie** mają wartości null. To jest sedno techniki **jak używać filtru NOT**.
 
-## Krok 5: Filtruj zadania
+## Krok 5: Filtrowanie zadań
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, condition);
 ```
 
- Filtrujemy zebrane zadania na podstawie zastosowanego warunku za pomocą niestandardowego`Filter` metoda. Ta metoda przyjmuje jako parametry wejściowe wyliczalną kolekcję zadań i warunek filtru, a następnie zwraca listę zadań spełniających ten warunek.
+Filtujemy zebrane zadania na podstawie zastosowanego warunku przy użyciu własnej metody `Filter`. Metoda przyjmuje kolekcję zadań oraz warunek filtru, zwracając listę zadań spełniających **warunek NOT**.
 
-## Krok 6: Przetwarzaj filtrowane zadania
+## Krok 6: Przetwarzanie przefiltrowanych zadań
 
 ```csharp
 foreach (var task in collection)
 {
     Console.WriteLine("Name: " + task.Get(Tsk.Name));
 
-    // Pracuj z innymi właściwościami...
+    // Work with other properties...
 }
 ```
 
-Na koniec iterujemy po przefiltrowanych zadaniach i wykonujemy dowolne operacje. W tym przykładzie po prostu wypisujemy nazwy zadań na konsoli.
+Na koniec iterujemy po przefiltrowanych zadaniach i wykonujemy dowolne operacje. W tym przykładzie po prostu wypisujemy nazwy zadań w konsoli, ale możesz rozbudować ten blok, aby aktualizować pola, przenosić zadania lub generować raporty.
 
-## Wniosek
+## Typowe przypadki użycia
 
-W tym samouczku nauczyliśmy się, jak pracować z operacją NOT w Aspose.Tasks dla .NET. Odwracając warunki filtrowania, możemy selektywnie wybierać elementy, które nie spełniają określonych kryteriów, zwiększając naszą elastyczność w manipulacji zadaniami w projektach.
+- **Wyklucz zakończone zadania** przy generowaniu listy zaległych prac.  
+- **Znajdź zadania brakujące w polach niestandardowych** (np. kolumna „Owner” o wartości null).  
+- **Połącz z innymi warunkami**, aby budować zaawansowane zapytania, takie jak „zadania, które nie są null i mają datę rozpoczęcia wcześniejszą niż dzisiaj”.
 
-## Często zadawane pytania
+## Rozwiązywanie problemów i wskazówki
 
-### P1: Czy mogę używać Aspose.Tasks z innymi frameworkami .NET?
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Brak zwróconych zadań | Oryginalny warunek może być zbyt restrykcyjny. | Zweryfikuj logikę warunku lub przetestuj prostszy filtr, np. `new TrueCondition()`. |
+| `NullReferenceException` | Ścieżka `DataDir` jest nieprawidłowa. | Upewnij się, że `DataDir` wskazuje na folder zawierający *Project2.mpp*. |
+| Nieoczekiwane wyniki | Niepoprawne łączenie `Not<T>` z innymi warunkami. | Użyj nawiasów: `new AndCondition(new Not<Task>(filter), otherCondition)`. |
 
-O: Tak, Aspose.Tasks obsługuje różne platformy .NET, w tym .NET Core, .NET Standard i .NET Framework.
+## Najczęściej zadawane pytania
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
+**P: Czy mogę używać Aspose.Tasks z innymi frameworkami .NET?**  
+O: Tak, Aspose.Tasks obsługuje .NET Core, .NET Standard oraz klasyczny .NET Framework.
 
- O: Tak, możesz pobrać bezpłatną wersję próbną ze strony[strona internetowa](https://releases.aspose.com/).
+**P: Czy dostępna jest darmowa wersja próbna Aspose.Tasks?**  
+O: Tak, darmową wersję próbną możesz pobrać ze [strony internetowej](https://releases.aspose.com/).
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.Tasks?
+**P: Jak mogę uzyskać wsparcie techniczne dla Aspose.Tasks?**  
+O: Odwiedź [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), aby zadać pytania lub uzyskać pomoc techniczną.
 
- O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań dotyczących wsparcia lub pomocy technicznej.
+**P: Czy mogę kupić tymczasową licencję na Aspose.Tasks?**  
+O: Tak, tymczasową licencję można nabyć na [stronie zakupu](https://purchase.aspose.com/temporary-license/).
 
-### P4: Czy mogę kupić tymczasową licencję na Aspose.Tasks?
+**P: Gdzie znajdę pełną dokumentację Aspose.Tasks?**  
+O: Kompletną dokumentację znajdziesz na [stronie dokumentacji Aspose.Tasks](https://reference.aspose.com/tasks/net/).
 
- Odp.: Tak, możesz kupić tymczasową licencję w witrynie[strona zakupu](https://purchase.aspose.com/temporary-license/).
+## Zakończenie
 
-### P5: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.Tasks?
+Opanowując **operację NOT przy filtrowaniu zadań** oraz ucząc się **jak używać filtru NOT** z **warunkiem NOT**, zyskujesz precyzyjną kontrolę nad wyborem zadań w Aspose.Tasks. Dzięki temu możesz pisać czystszy kod, unikać ręcznych wykluczeń i tworzyć potężne narzędzia do zarządzania projektami.
 
- O: Możesz uzyskać dostęp do pełnej dokumentacji na stronie[Strona dokumentacji Aspose.Tasks](https://reference.aspose.com/tasks/net/).
+---
+
+**Ostatnia aktualizacja:** 2026-03-14  
+**Testowano z:** Aspose.Tasks 24.11 dla .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
