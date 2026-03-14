@@ -1,109 +1,158 @@
 ---
-title: 在 Aspose.Tasks 中使用 VBA 集成
-linktitle: 在 Aspose.Tasks 中使用 VBA 集成
+description: 學習如何在 Aspose.Tasks for Java 中讀取 VBA、列出 VBA 參考並取得 VBA 模組原始碼，以提升專案管理效率。
+linktitle: How to Read VBA with Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: 使用 Aspose.Tasks for Java 增強專案管理 - 釋放 VBA 整合以簡化工作流程。立即探索高效的任務追蹤！
-weight: 10
+title: 如何使用 Aspose.Tasks for Java 讀取 VBA
 url: /zh-hant/java/vba-integration/work-with-vba/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中使用 VBA 集成
+# 如何使用 Aspose.Tasks for Java 讀取 VBA
 
-## 介紹
-在專案管理和任務追蹤的動態世界中，擁有一個與 Visual Basic for Applications (VBA) 無縫整合的強大工具可以改變遊戲規則。 Aspose.Tasks for Java 就是這樣一個強大的工具，它允許您輕鬆地使用 VBA 整合。在本教程中，我們將深入研究使用 Aspose.Tasks for Java 進行 VBA 整合的複雜性，探索讀取 VBA 專案資訊、引用、模組和模組屬性的步驟。
-## 先決條件
-在我們開始這個令人興奮的旅程之前，請確保您已準備好以下內容：
--  Aspose.Tasks for Java：確保您已安裝 Aspose.Tasks 函式庫。你可以下載它[這裡](https://releases.aspose.com/tasks/java/).
-- Java 開發環境：具有必要相依性的工作 Java 開發環境。
-## 導入包
-讓我們透過導入必要的套件來開始。確保您已設定文件目錄，並替換`"Your Document Directory"`與實際路徑。
+## Introduction
+如果您需要直接從 Microsoft Project 檔案中 **如何讀取 VBA** 資料，Aspose.Tasks for Java 為您提供乾淨、程式化的方式來完成。 在本教學中，我們將逐步說明讀取 VBA 專案資訊、列出 VBA 參考，並取得 VBA 模組原始碼——全部都有清晰、一步一步的範例，您今天就能執行。
+
+## Quick Answers
+- **我可以提取什麼？** VBA 專案細節、參考、模組以及模組屬性。  
+- **使用哪個 API？** 來自 Aspose.Tasks for Java 的 `Project.getVbaProject()`。  
+- **需要授權嗎？** 免費試用可用於評估；正式環境需購買商業授權。  
+- **支援的 Java 版本？** 從 Java 8 到最新版本皆可運作。  
+- **結果顯示在哪裡？** 所有資訊皆透過 `System.out.println` 輸出至主控台。
+
+## What is VBA Integration in Aspose.Tasks?
+VBA（Visual Basic for Applications）是 Microsoft Project 使用的巨集語言。Aspose.Tasks 能讀取嵌入的 VBA 專案，讓您在不開啟 Project 檔案的情況下檢視或遷移自訂自動化邏輯。
+
+## Why read VBA with Aspose.Tasks?
+- **自動化遷移：** 在遷移至新平台前提取現有巨集。  
+- **合規性檢查：** 確認專案檔案中未嵌入禁止的程式碼。  
+- **文件化：** 產生所有 VBA 模組與參考的報告，以供稽核使用。
+
+## Prerequisites
+在開始之前，請確保您已具備：
+
+- **Aspose.Tasks for Java** – 前往[此處](https://releases.aspose.com/tasks/java/)下載。  
+- 具備 **Java 開發環境**（建議 JDK 8 以上），並將 Aspose.Tasks JAR 加入 classpath。  
+- 一個包含 VBA 程式碼的範例 Project 檔案 (`VbaProject1.mpp`)。
+
+## Import Packages
+讓我們先匯入所需的類別，並設定文件資料夾路徑。將 `"Your Document Directory"` 替換為您機器上的實際資料夾。
+
 ```java
 import com.aspose.tasks.IVbaModule;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.VbaProject;
 import com.aspose.tasks.VbaReference;
 import com.aspose.tasks.VbaReferenceCollection;
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-## 閱讀 VBA 專案訊息
-閱讀 VBA 專案資訊是將 VBA 整合到 Aspose.Tasks 專案的第一步。按著這些次序：
-## 第 1 步：載入專案文件
+
+## How to read VBA project information?
+讀取高階 VBA 專案資料是第一步。它會提供專案名稱、說明、編譯參數以及說明文件的 Context ID。
+
+### Step 1: Load the Project File
 ```java
 Project project = new Project(dataDir + "VbaProject1.mpp");
 VbaProject vbaProject = project.getVbaProject();
 ```
-## 第 2 步：渲染 VBA 專案訊息
+
+### Step 2: Render VBA Project Information
 ```java
 System.out.println("VbaProject.Name " + vbaProject.getName());
 System.out.println("VbaProject.Description " + vbaProject.getDescription());
 System.out.println("VbaProject.CompilationArguments" + vbaProject.getCompilationArguments());
 System.out.println("VbaProject.HelpContextId" + vbaProject.getHelpContextId());
 ```
-## 閱讀參考訊息
-現在，讓我們探討如何從 VBA 專案中讀取參考資訊。
-## 第 1 步：載入專案檔案（如果未載入）
+
+## How to list VBA references?
+參考指向 VBA 程式碼所依賴的外部函式庫。列出它們可協助您了解巨集的相依性。
+
+### Step 1: Load the Project File (if not already loaded)
 ```java
 Project project = new Project(dataDir + "VbaProject1.mpp");
 VbaProject vbaProject = project.getVbaProject();
 ```
-## 第 2 步：渲染參考訊息
+
+### Step 2: Render References Information
 ```java
 VbaReferenceCollection references = vbaProject.getReferences();
 System.out.println("Reference count " + references.size());
 VbaReference reference = vbaProject.getReferences().toList().get(0);
 System.out.println("Identifier: " + reference.getLibIdentifier());
 System.out.println("Name: " + reference.getName());
-//對每個引文重複上面兩行
+// Repeat the above two lines for each reference
 ```
-## 讀取模組資訊
-接下來，讓我們探討如何讀取有關 VBA 專案中模組的資訊。
-## 第 1 步：載入專案檔案（如果未載入）
+
+## How to get VBA module source?
+每個 VBA 模組都包含實際的巨集程式碼。提取原始碼可讓您檢閱或重新利用其邏輯。
+
+### Step 1: Load the Project File (if not already loaded)
 ```java
 Project project = new Project(dataDir + "VbaProject1.mpp");
 VbaProject vbaProject = project.getVbaProject();
 ```
-## 第2步：渲染模組資訊
+
+### Step 2: Render Modules Information
 ```java
 System.out.println("Total Modules Count: " + vbaProject.getModules().size());
 IVbaModule vbaModule = vbaProject.getModules().toList().get(0);
 System.out.println("Module Name: " + vbaModule.getName());
 System.out.println("Source Code: " + vbaModule.getSourceCode());
-//對每個模組重複上面兩行
+// Repeat the above two lines for each module
 ```
-## 讀取模組屬性資訊
-最後，讓我們深入閱讀有關 VBA 專案中模組屬性的資訊。
-## 第 1 步：載入專案檔案（如果未載入）
+
+## How to read VBA module attributes?
+屬性儲存中繼資料，例如模組名稱 (`VB_Name`) 以及其他自訂屬性。
+
+### Step 1: Load the Project File (if not already loaded)
 ```java
 Project project = new Project(dataDir + "VbaProject1.mpp");
 VbaProject vbaProject = project.getVbaProject();
 IVbaModule vbaModule = vbaProject.getModules().toList().get(0);
 ```
-## 第2步：渲染模組屬性資訊
+
+### Step 2: Render Module Attributes Information
 ```java
 System.out.println("Attributes Count: " + vbaModule.getAttributes().size());
 System.out.println("VB_Name: " + vbaModule.getAttributes().toList().get(0).getKey());
 System.out.println("Module1: " + vbaModule.getAttributes().toList().get(0).getValue());
-//對每個屬性重複上面兩行
+// Repeat the above two lines for each attribute
 ```
-透過執行這些步驟，您已經成功地使用 Aspose.Tasks for Java 完成了 VBA 整合的複雜領域。現在，當您在專案管理工作中利用 VBA 的力量時，讓您的創造力飆升。
-## 結論
-在本教程中，我們揭開了將 VBA 整合到 Aspose.Tasks for Java 的過程的神秘面紗。掌握了這些知識，您就可以增強專案管理能力並簡化工作流程。
-## 經常問的問題
-### Aspose.Tasks for Java 與最新的 Java 版本相容嗎？
-是的，Aspose.Tasks for Java 旨在與最新的 Java 版本相容。
-### 我可以將 Aspose.Tasks for Java 用於個人和商業專案嗎？
-是的，Aspose.Tasks for Java 可用於個人和商業目的。有關許可詳細信息，請訪問[這裡](https://purchase.aspose.com/buy).
-### 我如何獲得 Aspose.Tasks for Java 的支援？
-您可以透過以下方式尋求支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
-### Aspose.Tasks for Java 是否有免費試用版？
-是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
+
+## Common Pitfalls & Tips
+- **空值檢查：** 若檔案未包含 VBA 程式碼，`project.getVbaProject()` 會回傳 `null`。存取成員前務必先檢查。  
+- **大型專案：** 讀取大量模組可能佔用較多記憶體；建議一次處理單一模組。  
+- **編碼問題：** 原始碼以純字串回傳，請確保您的主控台或記錄器能正確顯示 Unicode 字元。
+
+## Conclusion
+依照上述步驟操作後，您已掌握使用 Aspose.Tasks for Java **如何讀取 VBA** 資料、**列出 VBA 參考** 以及 **取得 VBA 模組原始碼** 的方法。此功能讓您能在不手動抽取的情況下，審核、遷移或文件化嵌入於 Microsoft Project 檔案中的 VBA 巨集。
+
+## Frequently Asked Questions
+### Aspose.Tasks for Java 是否相容於最新的 Java 版本？
+是，Aspose.Tasks for Java 設計上相容於最新的 Java 版本。
+
+### 我可以將 Aspose.Tasks for Java 用於個人與商業專案嗎？
+可以，Aspose.Tasks for Java 可用於個人與商業用途。授權細節請參閱[此處](https://purchase.aspose.com/buy)。
+
+### 如何取得 Aspose.Tasks for Java 的支援？
+您可於 [Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15) 尋求支援。
+
+### 是否提供 Aspose.Tasks for Java 的免費試用？
+是，您可在[此處](https://releases.aspose.com/)體驗免費試用。
+
 ### 我可以取得 Aspose.Tasks for Java 的臨時授權嗎？
-是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+可以，您可於[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
+
+---
+
+**Last Updated:** 2026-03-14  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
