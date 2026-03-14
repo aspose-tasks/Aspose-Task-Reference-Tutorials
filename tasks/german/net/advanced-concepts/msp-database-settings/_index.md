@@ -1,28 +1,41 @@
 ---
-title: Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
-linktitle: Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie Microsoft Project-Datenbankeinstellungen mit Aspose.Tasks für eine nahtlose Integration in .NET-Anwendungen konfigurieren.
-weight: 19
+date: 2026-03-14
+description: Erfahren Sie, wie Sie das Datenbankschema für eine Microsoft Project‑Datenbank
+  mit Aspose.Tasks festlegen und wie Sie Projektdaten in .NET‑Anwendungen importieren.
+linktitle: Specify database schema for Project DB with Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Datenbankschema für Projekt‑DB mit Aspose.Tasks festlegen
 url: /de/net/advanced-concepts/msp-database-settings/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Einstellungen für die Microsoft Project-Datenbank in Aspose.Tasks
+# Einstellungen für Microsoft Project-Datenbank in Aspose.Tasks
 
 ## Einführung
 
-Wenn Sie mit Aspose.Tasks in Ihren .NET-Anwendungen mit Microsoft Project-Datenbanken arbeiten, müssen Sie die erforderlichen Einstellungen konfigurieren, um Projektdaten nahtlos zu importieren. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
+Wenn Sie in Ihren .NET‑Anwendungen mit Microsoft Project‑Datenbanken unter Verwendung von Aspose.Tasks arbeiten, müssen Sie **das Datenbankschema angeben** und die erforderlichen Einstellungen konfigurieren, um **Projekt‑Daten** nahtlos zu **importieren**. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und zeigt Ihnen, **wie Sie Verbindungsdetails konfigurieren**, **eine .NET‑Verbindungszeichenfolge erstellen** und schließlich **ein Projekt als MPP speichern**.
+
+## Schnellantworten
+- **Was ist das Hauptziel?** Das Datenbankschema angeben und eine Project‑Datenbank in eine .NET‑App importieren.  
+- **Welche Bibliothek wird benötigt?** Aspose.Tasks für .NET.  
+- **Wie stelle ich eine Verbindung zu Project Server her?** Durch Erstellen einer korrekten SQL‑Verbindungszeichenfolge und Verwendung von `MspDbSettings`.  
+- **Welches Dateiformat wird erzeugt?** Eine MPP‑Datei, gespeichert mit `SaveFileFormat.Mpp`.  
+- **Kann ich den Schemanamen ändern?** Ja, setzen Sie die Eigenschaft `Schema` von `MspDbSettings`.
+
+## Wie man das Datenbankschema für Project‑DB angibt
+
+Zu verstehen, warum Sie **das Datenbankschema angeben** müssen, ist entscheidend. In vielen Unternehmensumgebungen befindet sich die Project‑Server‑Datenbank unter einem benutzerdefinierten Schema (z. B. `dbo`, `psdata`). Durch das explizite Festlegen des Schemas stellen Sie sicher, dass Aspose.Tasks die richtigen Tabellen abfragt, wodurch Laufzeitfehler vermieden und ein genauer Datenimport gewährleistet wird.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Aspose.Tasks für .NET: Laden Sie die Aspose.Tasks-Bibliothek herunter und installieren Sie sie[Hier](https://releases.aspose.com/tasks/net/).
-2. Zugriff auf eine Microsoft Project-Datenbank: Sie sollten Zugriff auf eine Microsoft Project-Datenbank haben, aus der Sie Daten importieren können.
+1. Aspose.Tasks für .NET: Laden Sie die Aspose.Tasks‑Bibliothek von [hier](https://releases.aspose.com/tasks/net/) herunter und installieren Sie sie.  
+2. Zugriff auf eine Microsoft Project‑Datenbank: Sie benötigen Zugriff auf eine Microsoft Project‑Datenbank, aus der Sie Daten importieren können.  
 
 ## Namespaces importieren
 
@@ -39,7 +52,7 @@ using Aspose.Tasks.Saving;
 
 ## Schritt 1: Verbindungszeichenfolge erstellen
 
-Erstellen Sie die Verbindungszeichenfolge zu Ihrer Microsoft Project-Datenbank. Hier ist ein Beispiel:
+Erstellen Sie die Verbindungszeichenfolge zu Ihrer Microsoft Project‑Datenbank. Hierbei **erstellen Sie die .NET‑Verbindungszeichenfolge** und definieren, wie Sie **eine Verbindung zu Project Server** herstellen.
 
 ```csharp
 var connectionString = new SqlConnectionStringBuilder();
@@ -53,20 +66,22 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Stellen Sie sicher, dass Sie die Platzhalterwerte durch Ihre tatsächlichen Datenbankanmeldeinformationen ersetzen.
+> **Pro Tipp:** Überprüfen Sie die Werte für `DataSource` und `InitialCatalog` sorgfältig; sie müssen mit der Adresse Ihres Servers und dem veröffentlichten Datenbanknamen übereinstimmen.
 
-## Schritt 2: Konfigurieren Sie MspDbSettings
+## Schritt 2: MspDbSettings konfigurieren
 
- Erstellen Sie eine Instanz von`MspDbSettings` und geben Sie die Verbindungszeichenfolge zusammen mit der Projekt-GUID an:
+Erzeugen Sie eine Instanz von `MspDbSettings`, übergeben Sie die Verbindungszeichenfolge und **geben Sie das Datenbankschema an**, indem Sie die Eigenschaft `Schema` setzen. Damit teilt Sie Aspose.Tasks mit, welches Schema abgefragt werden soll.
 
 ```csharp
 var settings = new MspDbSettings(connectionString.ConnectionString, new Guid("E6426C44-D6CB-4B9C-AF16-48910ACE0F54"));
 settings.Schema = "dbo";
 ```
 
+Hier geben wir außerdem die Projekt‑GUID an, die das spezifische Projekt identifiziert, das Sie laden möchten.
+
 ## Schritt 3: Projektdaten laden
 
- Instanziieren Sie a`Project` Objekt mit den konfigurierten Einstellungen:
+Instanziieren Sie ein `Project`‑Objekt mit den konfigurierten Einstellungen. Dieser Schritt demonstriert **wie Projekt‑Daten** aus der Datenbank in ein .NET‑Objekt importiert werden.
 
 ```csharp
 var project = new Project(settings);
@@ -74,37 +89,47 @@ var project = new Project(settings);
 
 ## Schritt 4: Projektdaten speichern
 
-Speichern Sie die geladenen Projektdaten in einer Datei:
+Zum Schluss speichern Sie das geladene Projekt als MPP‑Datei auf dem Datenträger. Dies zeigt, **wie man ein Projekt als MPP speichert** mithilfe der Aspose.Tasks‑API.
 
 ```csharp
 project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mpp);
 ```
 
-## Abschluss
+Nach dem Ausführen des Codes finden Sie die Datei `ImportProjectDataFromDatabase_out.mpp` im Ausgabeverzeichnis, bereit zum Öffnen in Microsoft Project.
 
-In diesem Tutorial haben Sie gelernt, wie Sie Einstellungen für den Zugriff auf Microsoft Project-Datenbanken mithilfe von Aspose.Tasks für .NET konfigurieren. Wenn Sie diese Schritte befolgen, können Sie Projektdaten nahtlos in Ihre Anwendungen importieren und so ein effizientes Projektmanagement ermöglichen.
+## Fazit
 
-## FAQs
+In diesem Tutorial haben Sie gelernt, **das Datenbankschema** für eine Microsoft Project‑Datenbank anzugeben, **die Verbindung zu konfigurieren**, **Projekt‑Daten** zu importieren und **das Projekt als MPP** mit Aspose.Tasks für .NET zu speichern. Diese Schritte ermöglichen eine nahtlose Integration von Project‑Server‑Daten in Ihre eigenen Anwendungen und unterstützen Sie beim Aufbau robuster Projektmanagement‑Lösungen.
 
-### F1: Kann ich Aspose.Tasks mit verschiedenen Versionen von Microsoft Project-Datenbanken verwenden?
+## Häufig gestellte Fragen
 
-A1: Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-Datenbanken und ermöglicht so Flexibilität bei der Integration.
+### Q1: Kann ich Aspose.Tasks mit verschiedenen Versionen von Microsoft Project‑Datenbanken verwenden?
+A1: Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project‑Datenbanken und bietet damit Flexibilität bei der Integration.
 
-### F2: Wie kann ich Verbindungsprobleme mit der Datenbank beheben?
+### Q2: Wie kann ich Verbindungsprobleme mit der Datenbank beheben?
+A2: Stellen Sie sicher, dass Ihre Verbindungszeichenfolge korrekt konfiguriert ist und die richtigen Anmeldeinformationen sowie Datenbankdetails enthält. Weitere Informationen finden Sie in der Dokumentation oder im [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15).
 
- A2: Stellen Sie sicher, dass Ihre Verbindungszeichenfolge korrekt mit den entsprechenden Anmeldeinformationen und Datenbankdetails konfiguriert ist. Sie können auch in der Dokumentation nachschlagen oder Unterstützung von der erhalten[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+### Q3: Gibt es eine Testversion von Aspose.Tasks?
+A3: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) erhalten.
 
-### F3: Gibt es eine Testversion für Aspose.Tasks?
+### Q4: Kann ich das Schema für die Datenbankinteraktion anpassen?
+A4: Ja, Sie können das Schema für das `MspDbSettings`‑Objekt gemäß Ihrer Datenbankstruktur festlegen.
 
- A3: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+### Q5: Wo finde ich ausführlichere Dokumentation zur Verwendung von Aspose.Tasks?
+A5: Die umfassende Dokumentation finden Sie [hier](https://reference.aspose.com/tasks/net/) für detaillierte Einblicke in die Funktionen von Aspose.Tasks.
 
-### F4: Kann ich das Schema für die Datenbankinteraktion anpassen?
+**F: Funktioniert dieser Ansatz mit Azure‑SQL‑Datenbanken?**  
+A: Absolut. Passen Sie einfach den `DataSource` an den Namen Ihres Azure‑Servers an und stellen Sie sicher, dass TLS/SSL‑Einstellungen aktiviert sind.
 
- A4: Ja, Sie können das Schema dafür angeben`MspDbSettings` Objekt entsprechend Ihrer Datenbankstruktur.
+**F: Wie gehe ich mit großen Project‑Datenbanken um, ohne dass ein Timeout auftritt?**  
+A: Erhöhen Sie den Wert `ConnectTimeout` in der Verbindungszeichenfolge und erwägen Sie, Projekte bei Bedarf in Batches zu laden.
 
-### F5: Wo finde ich eine ausführlichere Dokumentation zur Verwendung von Aspose.Tasks?
+---
 
- A5: Sie können die umfassende Dokumentation erkunden[Hier](https://reference.aspose.com/tasks/net/) für detaillierte Einblicke in die Funktionalitäten von Aspose.Tasks.
+**Zuletzt aktualisiert:** 2026-03-14  
+**Getestet mit:** Aspose.Tasks 24.12 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

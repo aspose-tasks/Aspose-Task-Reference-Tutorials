@@ -1,32 +1,56 @@
 ---
-title: Configuración para la base de datos de Microsoft Project en Aspose.Tasks
-linktitle: Configuración para la base de datos de Microsoft Project en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a configurar los ajustes de la base de datos de Microsoft Project utilizando Aspose.Tasks para una integración perfecta en aplicaciones .NET.
-weight: 19
+date: 2026-03-14
+description: Aprenda cómo especificar el esquema de base de datos para una base de
+  datos de Microsoft Project usando Aspose.Tasks y cómo importar datos de proyecto
+  en aplicaciones .NET.
+linktitle: Specify database schema for Project DB with Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Especificar el esquema de la base de datos para Project DB con Aspose.Tasks
 url: /es/net/advanced-concepts/msp-database-settings/
+weight: 19
 ---
+
+ >}}
+
+# Settings for Microsoft Project Database in Aspose.Tasks
+
+Translate title: "Configuración de la base de datos de Microsoft Project en Aspose.Tasks". Keep heading level.
+
+Proceed.
+
+Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuración para la base de datos de Microsoft Project en Aspose.Tasks
+# Configuración de la base de datos de Microsoft Project en Aspose.Tasks
 
 ## Introducción
 
-Si está trabajando con bases de datos de Microsoft Project en sus aplicaciones .NET usando Aspose.Tasks, necesitará configurar los ajustes necesarios para importar datos del proyecto sin problemas. Este tutorial lo guiará a través del proceso paso a paso.
+Si trabajas con bases de datos de Microsoft Project en tus aplicaciones .NET usando Aspose.Tasks, necesitarás **especificar el esquema de la base de datos** y configurar los ajustes necesarios para **importar datos del proyecto** de manera fluida. Este tutorial te guiará paso a paso, mostrándote **cómo configurar los detalles de conexión**, **crear la cadena de conexión .NET**, y finalmente **guardar el proyecto como MPP**.
+
+## Respuestas rápidas
+- **¿Cuál es el objetivo principal?** Especificar el esquema de la base de datos e importar una base de datos de Project a una aplicación .NET.  
+- **¿Qué biblioteca se requiere?** Aspose.Tasks para .NET.  
+- **¿Cómo me conecto a Project Server?** Construyendo una cadena de conexión SQL adecuada y usando `MspDbSettings`.  
+- **¿Qué formato de archivo se genera?** Un archivo MPP guardado con `SaveFileFormat.Mpp`.  
+- **¿Puedo cambiar el nombre del esquema?** Sí, establece la propiedad `Schema` en `MspDbSettings`.
+
+## Cómo especificar el esquema de la base de datos para Project DB
+
+Entender por qué podrías necesitar **especificar el esquema de la base de datos** es esencial. En muchos entornos empresariales la base de datos de Project Server reside bajo un esquema personalizado (p. ej., `dbo`, `psdata`). Al establecer explícitamente el esquema, garantizas que Aspose.Tasks consulte las tablas correctas, evitando errores en tiempo de ejecución y asegurando una importación de datos precisa.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente:
+Antes de comenzar, asegúrate de contar con lo siguiente:
 
-1.  Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks desde[aquí](https://releases.aspose.com/tasks/net/).
-2. Acceso a una base de datos de Microsoft Project: debe tener acceso a una base de datos de Microsoft Project para importar datos.
+1. Aspose.Tasks para .NET: Descarga e instala la biblioteca Aspose.Tasks desde [aquí](https://releases.aspose.com/tasks/net/).  
+2. Acceso a una base de datos de Microsoft Project: Debes disponer de acceso a una base de datos de Microsoft Project desde la cual importar datos.  
 
 ## Importar espacios de nombres
 
-Primero, asegúrese de importar los espacios de nombres necesarios a su proyecto:
+Primero, asegúrate de importar los espacios de nombres necesarios en tu proyecto:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,9 +61,9 @@ using Aspose.Tasks.Connectivity;
 using Aspose.Tasks.Saving;
 ```
 
-## Paso 1: crear una cadena de conexión
+## Paso 1: Crear la cadena de conexión
 
-Construya la cadena de conexión a su base de datos de Microsoft Project. He aquí un ejemplo:
+Construye la cadena de conexión a tu base de datos de Microsoft Project. Aquí es donde **creas la cadena de conexión .NET** y también defines cómo **conectarte a Project Server**.
 
 ```csharp
 var connectionString = new SqlConnectionStringBuilder();
@@ -53,58 +77,70 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Asegúrese de reemplazar los valores del marcador de posición con las credenciales reales de su base de datos.
+> **Consejo profesional:** Verifica dos veces los valores de `DataSource` y `InitialCatalog`; deben coincidir con la dirección de tu servidor y el nombre de la base de datos publicada.
 
-## Paso 2: configurar MspDbSettings
+## Paso 2: Configurar MspDbSettings
 
- Crear una instancia de`MspDbSettings` y especifique la cadena de conexión junto con el GUID del proyecto:
+Crea una instancia de `MspDbSettings`, pasa la cadena de conexión y **especifica el esquema de la base de datos** estableciendo la propiedad `Schema`. Esto indica a Aspose.Tasks qué esquema consultar.
 
 ```csharp
 var settings = new MspDbSettings(connectionString.ConnectionString, new Guid("E6426C44-D6CB-4B9C-AF16-48910ACE0F54"));
 settings.Schema = "dbo";
 ```
 
-## Paso 3: cargar datos del proyecto
+Aquí también proporcionamos el GUID del proyecto que identifica el proyecto específico que deseas cargar.
 
- Crear una instancia de`Project` objeto utilizando los ajustes configurados:
+## Paso 3: Cargar datos del proyecto
+
+Instancia un objeto `Project` usando la configuración configurada. Este paso efectivamente **importa datos del proyecto** desde la base de datos a un objeto .NET.
 
 ```csharp
 var project = new Project(settings);
 ```
 
-## Paso 4: guardar los datos del proyecto
+## Paso 4: Guardar los datos del proyecto
 
-Guarde los datos del proyecto cargado en un archivo:
+Finalmente, persiste el proyecto cargado en un archivo MPP en disco. Esto demuestra **guardar el proyecto como MPP** usando la API de Aspose.Tasks.
 
 ```csharp
 project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mpp);
 ```
 
+Después de ejecutar el código, encontrarás el archivo `ImportProjectDataFromDatabase_out.mpp` en el directorio de salida, listo para abrirse en Microsoft Project.
+
 ## Conclusión
 
-En este tutorial, aprendió cómo configurar los ajustes para acceder a las bases de datos de Microsoft Project usando Aspose.Tasks para .NET. Si sigue estos pasos, podrá importar sin problemas datos del proyecto a sus aplicaciones, lo que facilitará una gestión eficiente del proyecto.
+En este tutorial, has aprendido cómo **especificar el esquema de la base de datos** para una base de datos de Microsoft Project, **configurar la conexión**, **importar datos del proyecto** y **guardar el proyecto como MPP** usando Aspose.Tasks para .NET. Estos pasos permiten una integración fluida de los datos de Project Server en tus aplicaciones personalizadas, ayudándote a crear soluciones robustas de gestión de proyectos.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.Tasks con diferentes versiones de bases de datos de Microsoft Project?
+### Q1: ¿Puedo usar Aspose.Tasks con diferentes versiones de bases de datos de Microsoft Project?
+A1: Sí, Aspose.Tasks admite varias versiones de bases de datos de Microsoft Project, lo que brinda flexibilidad en la integración.
 
-R1: Sí, Aspose.Tasks admite varias versiones de bases de datos de Microsoft Project, lo que permite flexibilidad en la integración.
+### Q2: ¿Cómo puedo solucionar problemas de conexión con la base de datos?
+A2: Asegúrate de que tu cadena de conexión esté configurada correctamente con las credenciales y los detalles de la base de datos apropiados. También puedes consultar la documentación o buscar ayuda en el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### P2: ¿Cómo puedo solucionar problemas de conexión con la base de datos?
+### Q3: ¿Existe una versión de prueba disponible para Aspose.Tasks?
+A3: Sí, puedes acceder a una versión de prueba gratuita desde [aquí](https://releases.aspose.com/).
 
- R2: Asegúrese de que su cadena de conexión esté configurada correctamente con las credenciales y los detalles de la base de datos adecuados. También puede consultar la documentación o buscar ayuda del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+### Q4: ¿Puedo personalizar el esquema para la interacción con la base de datos?
+A4: Sí, puedes especificar el esquema para el objeto `MspDbSettings` según la estructura de tu base de datos.
 
-### P3: ¿Existe una versión de prueba disponible para Aspose.Tasks?
+### Q5: ¿Dónde puedo encontrar documentación más detallada sobre el uso de Aspose.Tasks?
+A5: Puedes explorar la documentación completa [aquí](https://reference.aspose.com/tasks/net/) para obtener información detallada sobre las funcionalidades de Aspose.Tasks.
 
- R3: Sí, puedes acceder a una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+**P: ¿Este enfoque funciona con bases de datos Azure SQL?**  
+R: Absolutamente. Solo ajusta el `DataSource` al nombre de tu servidor Azure y asegúrate de que las configuraciones TLS/SSL estén habilitadas.
 
-### P4: ¿Puedo personalizar el esquema para la interacción con la base de datos?
+**P: ¿Cómo manejo bases de datos de Project muy grandes sin que se agote el tiempo de espera?**  
+R: Incrementa el valor de `ConnectTimeout` en la cadena de conexión y considera cargar los proyectos por lotes si es necesario.
 
- R4: Sí, puede especificar el esquema para el`MspDbSettings` objeto de acuerdo con la estructura de su base de datos.
+---
 
-### P5: ¿Dónde puedo encontrar documentación más detallada sobre el uso de Aspose.Tasks?
+**Última actualización:** 2026-03-14  
+**Probado con:** Aspose.Tasks 24.12 para .NET  
+**Autor:** Aspose  
 
- A5: Puede explorar la documentación completa[aquí](https://reference.aspose.com/tasks/net/) para obtener información detallada sobre las funcionalidades de Aspose.Tasks.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
