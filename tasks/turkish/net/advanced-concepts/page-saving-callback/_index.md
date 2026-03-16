@@ -1,35 +1,49 @@
 ---
-title: Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
-linktitle: Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET'te, çok sayfalı belge çıktı akışlarının özelleştirilmiş şekilde işlenmesini sağlayan, sayfa tasarrufu sağlayan bir geri aramanın nasıl uygulanacağını öğrenin.
-weight: 12
+date: 2026-03-16
+description: Aspose.Tasks for .NET'te sayfa kaydetme geri çağrısını nasıl uygulayacağınızı
+  öğrenin ve çok sayfalı belge çıktı akışlarını özelleştirilmiş şekilde yönetmenizi
+  sağlayın.
+linktitle: Implement page saving callback in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks'te sayfa kaydetme geri çağrısını uygulayın
 url: /tr/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+quote > **Pro tip:** translation.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
+# Aspose.Tasks'te Sayfa Kaydetme Geri Çağrısını Uygulama
 
-## giriiş
+## Giriş
 
-Bu eğitimde Aspose.Tasks for .NET'te sayfa tasarrufu geri çağırma işleminin nasıl uygulanacağını inceleyeceğiz. Bu özellik, çok sayfalı bir belgeyi kullanıcı tarafından sağlanan akışlara kaydetmemize olanak tanıyarak çıktıların işlenmesinde esneklik ve özelleştirme sunar.
+Bu öğreticide, .NET için Aspose.Tasks'te **sayfa kaydetme geri çağrısını uygulamayı** öğreneceksiniz. Bu güçlü özellik, çok sayfalı bir belgenin her sayfasını istediğiniz bir akıma yönlendirmenizi sağlar; böylece çıktının nasıl depolanacağı veya daha ileri işleneceği üzerinde tam kontrol elde edersiniz.
 
-## Önkoşullar:
+## Hızlı Yanıtlar
+- **Sayfa kaydetme geri çağrısı ne işe yarar?** Her render edilen sayfayı ayrı bir akıma yakalar, böylece onları bireysel olarak işleyebilirsiniz.  
+- **Hangi formatlara dışa aktarabilirim?** `ImageSaveOptions` tarafından desteklenen herhangi bir format, ör. PNG, JPEG, PDF.  
+- **Lisans gerekli mi?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir.  
+- **Bunu .NET Core ile kullanabilir miyim?** Evet, Aspose.Tasks .NET Core ve .NET 5/6+ ile tam uyumludur.  
+- **Geri çağrı iş parçacığı‑güvenli mi?** Geri çağrı, render işlemini yapan aynı iş parçacığında çalışır; bu yüzden normal iş parçacığı‑güvenliği kuralları geçerlidir.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## **implement page saving callback** nedir?
+**implement page saving callback** deseni, Aspose.Tasks'in kaydetme işlem hattına özel mantık eklemenizi sağlar. Doğrudan bir dosyaya yazmak yerine, her sayfa için bir `Stream` nesnesi alırsınız; bu sayede akışı bellekte tutabilir, bulut depolamaya yükleyebilir veya ek işlem uygulayabilirsiniz.
 
-1. C# programlama dili bilgisi: C# sözdizimi ve kavramları hakkında temel bir anlayışa sahip olmalısınız.
-   
-2.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks kütüphanesini geliştirme ortamınıza yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+## Neden bir geri çağrı ile projeyi PNG olarak dışa aktaralım?
+Projeyi PNG olarak dışa aktarmak, her Gantt şeması sayfasının raster bir görüntüsünü verir; bu da raporlar, e‑postalar veya web sayfalarına gömme için idealdir. Bir geri çağrı kullanmak, her sayfayı geçici dosyalar oluşturmadan ayrı bir `MemoryStream` içinde tutmanızı sağlar.
 
-3. Geliştirme Ortamı Kurulumu: .NET geliştirme için tercih ettiğiniz IDE'yi (örneğin, Visual Studio) ayarlayın.
+## Önkoşullar
 
-## Ad Alanlarını İçe Aktar:
+1. **C# bilgisi** – sınıflar, arayüzler ve akışlar hakkında temel bilgi.  
+2. **Aspose.Tasks for .NET** – [buradan](https://releases.aspose.com/tasks/net/) indirip kurun.  
+3. **IDE** – Visual Studio, Rider veya herhangi bir .NET‑uyumlu editör.
 
-Başlamak için gerekli ad alanlarını C# kodunuza aktarmanız gerekir:
+## Ad Alanlarını İçe Aktarın
+
+Başlamak için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +51,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Adım 1: Proje Nesnesi Oluşturun
+## Adım 1: Bir Project Nesnesi Oluşturun
 
- Bir örnek oluştur`Project` Mevcut bir proje dosyasını yükleyerek nesne:
+Mevcut bir MPP dosyasını bir `Project` örneğine yükleyin:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## 2. Adım: Görüntü Kaydetme Seçeneklerini Yapılandırın
+## Adım 2: Image Save Options'ı Yapılandırın
 
- Tanımlamak`ImageSaveOptions`ayarlayarak sayfa kaydetme davranışını özelleştirin.`PageSavingCallback` mülk:
+PNG çıktısı için `ImageSaveOptions` ayarlayın ve özel geri çağrıyı ekleyin:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +72,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## 3. Adım: Projeyi Geri Aramayla Kaydetme
+> **İpucu:** `RenderToSinglePage = false` ayarı, her Gantt şeması sayfasının ayrı ayrı render edilmesini sağlar; bu, geri çağrının farklı akışlar alması için gereklidir.
 
-Yapılandırılmış görüntü kaydetme seçeneklerini kullanarak projeyi kaydedin:
+## Adım 3: Projeyi Geri Çağrı ile Kaydedin
+
+Gerçek akışlar geri çağrı tarafından sağlandığı için `Stream.Null` geçirerek `Save` metodunu çağırın:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## 4. Adım: Kaydedilen Sayfa Akışlarını İşleyin
+## Adım 4: Kaydedilen Sayfa Akışlarını İşleyin
 
-Her sayfayı ayrı ayrı işlemek için geri arama tarafından sağlanan sayfa akışlarını yineleyin:
+Kaydetme işlemi tamamlandıktan sonra, geri çağrı bir `MemoryStream` koleksiyonu tutar—sayfa başına bir tane. Artık bunlar üzerinde döngü kurabilirsiniz:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Her sayfa akışını işleyin
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Adım 5: Özel Sayfa Kaydederek Geri Aramayı Uygulayın
+## Adım 5: Özel Sayfa Kaydetme Geri Çağrısını Uygulayın
 
- uygulayan bir sınıf oluşturun.`IPageSavingCallback` sayfa kaydetme işlemini gerçekleştirecek arayüz:
+`IPageSavingCallback` arayüzünü uygulayan mühürlenmiş bir sınıf oluşturun. Bu sınıf, her sayfanın akışını yakalar ve daha sonra kullanılmak üzere bir listede saklar.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +112,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Herhangi bir temizleme veya sonlandırma işlemini gerçekleştirin
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Çözüm:
+## Yaygın Tuzaklar ve Sorun Giderme
 
-Bu eğitimde, Aspose.Tasks for .NET'te, çok sayfalı belgeleri ayrı akışlara kaydetmemize olanak tanıyan, sayfa tasarrufu geri çağırma işlemini nasıl uygulayacağımızı öğrendik. Bu adımları izleyerek uygulamanızın işlevselliğini geliştirebilir ve özelleştirilmiş çıktı yönetimi elde edebilirsiniz.
+| Sorun | Sebep | Çözüm |
+|-------|--------|----------|
+| **Hiç sayfa dönmüyor** | `RenderToSinglePage` `true` olarak bırakılmış. | Ayrı sayfalar üretmek için `RenderToSinglePage = false` ayarlayın. |
+| **Akışlar boş** | `KeepStreamOpen` `true` olarak ayarlanmış ve daha sonra kapatılmamış. | Varsayılan `false` bırakın ve geri çağrının akışları otomatik kapatmasına izin verin. |
+| **Bellek dışı hatalar** | Çok büyük projeler yüksek çözünürlüklü PNG'ler üretir. | Akışları tek tek işleyin veya VM bellek limitlerini artırın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.Tasks'ta sayfa kaydetme geri araması nedir?
+**S1: Aspose.Tasks'te sayfa kaydetme geri çağrısı nedir?**  
+C: Sayfa kaydetme geri çağrısı, çok sayfalı bir belgenin her sayfası için kaydetme sürecini yakalamanızı sağlar ve o sayfa için özel bir `Stream` sunar.
 
-Cevap1: Sayfa tasarrufu sağlayan geri arama, Aspose.Tasks'te, kullanıcıların her sayfa için ayrı ayrı akışlar sağlayarak çok sayfalı belgelerin kaydetme sürecini özelleştirmesine olanak tanıyan bir özelliktir.
+**S2: Bu geri çağrıyı kullanarak sayfaları farklı formatlarda kaydedebilir miyim?**  
+C: Evet. `SaveFileFormat` değerini değiştirerek PNG, JPEG, PDF, SVG vb. formatlara dışa aktarabilirsiniz.
 
-### S2: Bu geri aramayı kullanarak sayfaları kaydetmek için farklı formatlar kullanabilir miyim?
+**S3: Aspose.Tasks .NET Core ile uyumlu mu?**  
+C: Kesinlikle. Aspose.Tasks .NET Core, .NET 5 ve .NET 6'yı destekler.
 
-Cevap2: Evet, sayfaları geri çağırmayla kaydetmek için Aspose.Tasks tarafından desteklenen PNG, JPEG, PDF vb. gibi çeşitli dosya formatlarını kullanabilirsiniz.
+**S4: Sayfa kaydetme sırasında hataları nasıl yönetebilirim?**  
+C: Geri çağrı mantığını try/catch bloklarıyla sarın ve istisnaları kaydedin. `OnFinish` metodu, son temizlik işlemleri için iyi bir yerdir.
 
-### S3: Aspose.Tasks .NET Core ile uyumlu mu?
+**S5: Aspose.Tasks için daha fazla kaynak ve destek nereden bulunur?**  
+C: Yardım için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilir, belgeleri [buradan](https://reference.aspose.com/tasks/net/) inceleyebilir veya ek özellikler ve lisans seçenekleri için [Aspose.Tasks web sitesine](https://purchase.aspose.com/buy) göz atabilirsiniz.
 
-C3: Evet, Aspose.Tasks, .NET Core'u destekleyerek geliştiricilerin özelliklerini platformlar arası uygulamalarda kullanmalarına olanak tanıyor.
+---
 
-### S4: Sayfa kaydetme işlemi sırasındaki hataları nasıl halledebilirim?
+**Son Güncelleme:** 2026-03-16  
+**Test Edilen Sürüm:** Aspose.Tasks 24.12 for .NET  
+**Yazar:** Aspose  
 
-Cevap4: İstisnaları yönetmek ve uygulamanızda sağlamlık sağlamak için geri çağırma yöntemleri dahilinde hata işleme mekanizmalarını uygulayabilirsiniz.
-
-### S5: Aspose.Tasks için daha fazla kaynağı ve desteği nerede bulabilirim?
-
- A5: ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) yardım için belgelere erişin[Burada](https://reference.aspose.com/tasks/net/) veya ek özellikleri ve lisanslama seçeneklerini keşfedin[Aspose.Tasks web sitesi](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

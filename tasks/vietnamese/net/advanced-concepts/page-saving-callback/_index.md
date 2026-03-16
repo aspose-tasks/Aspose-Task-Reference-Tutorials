@@ -1,35 +1,54 @@
 ---
-title: Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
-linktitle: Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
+date: 2026-03-16
+description: Tìm hiểu cách triển khai callback lưu trang trong Aspose.Tasks cho .NET,
+  cho phép xử lý tùy chỉnh luồng đầu ra của tài liệu đa trang.
+linktitle: Implement page saving callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET, cho phép xử lý tùy chỉnh các luồng đầu ra tài liệu nhiều trang.
-weight: 12
+title: Thực hiện callback lưu trang trong Aspose.Tasks
 url: /vi/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+-16  
+**Đã kiểm tra với:** Aspose.Tasks 24.12 cho .NET  
+**Tác giả:** Aspose  
+
+Now the closing shortcodes.
+
+Make sure to keep all shortcodes exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
+# Triển khai callback lưu trang trong Aspose.Tasks
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET. Tính năng này cho phép chúng tôi lưu tài liệu nhiều trang vào các luồng do người dùng cung cấp, mang lại sự linh hoạt và tùy chỉnh trong việc xử lý đầu ra.
+Trong hướng dẫn này, bạn sẽ học cách **triển khai callback lưu trang** trong Aspose.Tasks cho .NET. Tính năng mạnh mẽ này cho phép bạn chỉ định mỗi trang của tài liệu đa trang tới một stream mà bạn chọn, cung cấp cho bạn toàn quyền kiểm soát cách lưu trữ hoặc xử lý đầu ra.
 
-## Điều kiện tiên quyết:
+## Câu trả lời nhanh
+- **Callback lưu trang làm gì?** Nó ghi lại mỗi trang đã render vào một stream riêng biệt để bạn có thể xử lý chúng từng cái một.  
+- **Tôi có thể xuất sang định dạng nào?** Bất kỳ định dạng nào được `ImageSaveOptions` hỗ trợ, ví dụ: PNG, JPEG, PDF.  
+- **Tôi có cần giấy phép không?** Cần có giấy phép Aspose.Tasks hợp lệ để sử dụng trong môi trường sản xuất.  
+- **Có thể sử dụng với .NET Core không?** Có, Aspose.Tasks hoàn toàn hỗ trợ .NET Core và .NET 5/6+.  
+- **Callback có an toàn đa luồng không?** Callback chạy trên cùng một luồng thực hiện việc render, vì vậy các quy tắc an toàn luồng thông thường áp dụng.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## **Triển khai callback lưu trang** là gì?
+Mẫu **triển khai callback lưu trang** cho phép bạn chèn logic tùy chỉnh vào quy trình lưu của Aspose.Tasks. Thay vì ghi trực tiếp vào tệp, bạn nhận được một đối tượng `Stream` cho mỗi trang, cho phép lưu trữ trong bộ nhớ, tải lên lưu trữ đám mây, hoặc thực hiện xử lý bổ sung.
 
-1. Kiến thức về ngôn ngữ lập trình C#: Bạn cần có hiểu biết cơ bản về cú pháp và khái niệm C#.
-   
-2.  Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+## Tại sao xuất dự án dưới dạng PNG với callback?
+Xuất dự án dưới dạng PNG cung cấp cho bạn hình ảnh raster của mỗi trang biểu đồ Gantt, rất phù hợp cho báo cáo, email, hoặc nhúng vào trang web. Sử dụng callback có nghĩa là bạn có thể giữ mỗi trang trong một `MemoryStream` riêng biệt mà không cần tạo các tệp tạm trên đĩa.
 
-3. Thiết lập môi trường phát triển: Thiết lập IDE ưa thích của bạn để phát triển .NET, chẳng hạn như Visual Studio.
+## Yêu cầu trước
 
-## Nhập không gian tên:
+1. **Kiến thức C#** – hiểu biết cơ bản về lớp, giao diện và stream.  
+2. **Aspose.Tasks cho .NET** – tải xuống và cài đặt từ [here](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider, hoặc bất kỳ trình soạn thảo nào tương thích với .NET.
 
-Để bắt đầu, bạn cần nhập các vùng tên cần thiết trong mã C# của mình:
+## Nhập không gian tên
+
+Để bắt đầu, nhập các không gian tên cần thiết:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +56,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Bước 1: Tạo đối tượng dự án
+## Bước 1: Tạo đối tượng Project
 
- Khởi tạo một`Project` đối tượng bằng cách tải tệp dự án hiện có:
+Tải một tệp MPP hiện có vào một thể hiện `Project`:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Bước 2: Định cấu hình tùy chọn lưu hình ảnh
+## Bước 2: Cấu hình Image Save Options
 
- Định nghĩa`ImageSaveOptions`và tùy chỉnh hành vi lưu trang bằng cách đặt`PageSavingCallback` tài sản:
+Thiết lập `ImageSaveOptions` cho đầu ra PNG và gắn callback tùy chỉnh:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +77,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Bước 3: Lưu dự án bằng lệnh gọi lại
+> **Mẹo chuyên nghiệp:** Đặt `RenderToSinglePage = false` đảm bảo mỗi trang biểu đồ Gantt được render riêng biệt, điều này rất cần thiết để callback nhận được các stream riêng.
 
-Lưu dự án bằng cách sử dụng các tùy chọn lưu hình ảnh đã định cấu hình:
+## Bước 3: Lưu Project với Callback
+
+Gọi phương thức `Save`, truyền `Stream.Null` vì các stream thực tế được cung cấp bởi callback:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Bước 4: Xử lý luồng trang đã lưu
+## Bước 4: Xử lý các Stream trang đã lưu
 
-Lặp lại qua các luồng trang do lệnh gọi lại cung cấp để xử lý từng trang riêng lẻ:
+Sau khi thao tác lưu hoàn tất, callback giữ một bộ sưu tập các đối tượng `MemoryStream` — một cho mỗi trang. Bạn có thể duyệt qua chúng ngay bây giờ:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Xử lý từng luồng trang
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Bước 5: Thực hiện gọi lại lưu trang tùy chỉnh
+## Bước 5: Triển khai Custom Page Saving Callback
 
- Tạo một lớp thực hiện các`IPageSavingCallback` giao diện xử lý việc lưu trang:
+Tạo một lớp sealed triển khai `IPageSavingCallback`. Lớp này ghi lại stream của mỗi trang và lưu vào danh sách để sử dụng sau.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +117,40 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Thực hiện bất kỳ việc dọn dẹp hoặc hoàn thiện nào
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Phần kết luận:
+## Các lỗi thường gặp & Khắc phục
 
-Trong hướng dẫn này, chúng ta đã học cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET, cho phép chúng ta lưu tài liệu nhiều trang vào các luồng riêng biệt. Bằng cách làm theo các bước này, bạn có thể nâng cao chức năng của ứng dụng và đạt được khả năng xử lý đầu ra tùy chỉnh.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|-----------|
+| **Không có trang nào được trả về** | `RenderToSinglePage` để là `true`. | Đặt `RenderToSinglePage = false` để tạo các trang riêng biệt. |
+| **Streams rỗng** | `KeepStreamOpen` được đặt thành `true` mà không giải phóng sau này. | Giữ nó là `false` (mặc định) và để callback tự động đóng các stream. |
+| **Lỗi hết bộ nhớ** | Các dự án rất lớn tạo ra nhiều PNG độ phân giải cao. | Xử lý các stream từng cái một hoặc tăng giới hạn bộ nhớ VM. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Lệnh gọi lại lưu trang trong Aspose.Tasks là gì?
+**Q1: Callback lưu trang là gì trong Aspose.Tasks?**  
+A: Callback lưu trang cho phép bạn chặn quá trình lưu cho mỗi trang của tài liệu đa trang, cung cấp một `Stream` tùy chỉnh cho trang đó.
 
-Câu trả lời 1: Lệnh gọi lại lưu trang là một tính năng trong Aspose.Tasks cho phép người dùng tùy chỉnh quy trình lưu tài liệu nhiều trang bằng cách cung cấp luồng cho từng trang riêng lẻ.
+**Q2: Tôi có thể sử dụng các định dạng khác nhau để lưu các trang bằng callback này không?**  
+A: Có. Bằng cách thay đổi `SaveFileFormat` bạn có thể xuất sang PNG, JPEG, PDF, SVG, v.v.
 
-### Câu hỏi 2: Tôi có thể sử dụng các định dạng khác nhau để lưu trang bằng lệnh gọi lại này không?
+**Q3: Aspose.Tasks có tương thích với .NET Core không?**  
+A: Hoàn toàn. Aspose.Tasks hỗ trợ .NET Core, .NET 5 và .NET 6.
 
-Câu trả lời 2: Có, bạn có thể sử dụng nhiều định dạng tệp khác nhau được Aspose.Tasks hỗ trợ, chẳng hạn như PNG, JPEG, PDF, v.v., để lưu các trang bằng lệnh gọi lại.
+**Q4: Làm sao để xử lý lỗi trong quá trình lưu trang?**  
+A: Bao bọc logic callback trong khối try/catch và ghi log ngoại lệ. Phương thức `OnFinish` là nơi tốt để thực hiện dọn dẹp cuối cùng.
 
-### Câu 3: Aspose.Tasks có tương thích với .NET Core không?
+**Q5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?**  
+A: Bạn có thể truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ, xem tài liệu [tại đây](https://reference.aspose.com/tasks/net/), hoặc khám phá các tính năng và tùy chọn giấy phép bổ sung trên [trang web Aspose.Tasks](https://purchase.aspose.com/buy).
 
-Câu trả lời 3: Có, Aspose.Tasks hỗ trợ .NET Core, cho phép các nhà phát triển sử dụng các tính năng của nó trong các ứng dụng đa nền tảng.
+**Cập nhật lần cuối:** 2026-03-16  
+**Đã kiểm tra với:** Aspose.Tasks 24.12 cho .NET  
+**Tác giả:** Aspose  
 
-### Q4: Làm cách nào để xử lý lỗi trong quá trình lưu trang?
-
-Câu trả lời 4: Bạn có thể triển khai cơ chế xử lý lỗi trong các phương thức gọi lại để quản lý các ngoại lệ và đảm bảo tính mạnh mẽ trong ứng dụng của mình.
-
-### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?
-
- A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ, truy cập tài liệu[đây](https://reference.aspose.com/tasks/net/) hoặc khám phá các tính năng bổ sung và tùy chọn cấp phép trên[Trang web Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

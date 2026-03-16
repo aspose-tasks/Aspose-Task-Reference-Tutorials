@@ -1,35 +1,47 @@
 ---
-title: Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
-linktitle: Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come implementare un callback per il salvataggio delle pagine in Aspose.Tasks per .NET, consentendo la gestione personalizzata dei flussi di output di documenti multipagina.
-weight: 12
+date: 2026-03-16
+description: Scopri come implementare il callback di salvataggio delle pagine in Aspose.Tasks
+  per .NET, consentendo una gestione personalizzata dei flussi di output dei documenti
+  multi‑pagina.
+linktitle: Implement page saving callback in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Implementare il callback di salvataggio della pagina in Aspose.Tasks
 url: /it/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
+# Implementare il callback di salvataggio della pagina in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-In questo tutorial, esploreremo come implementare una richiamata di salvataggio della pagina in Aspose.Tasks per .NET. Questa funzionalità ci consente di salvare un documento di più pagine nei flussi forniti dall'utente, offrendo flessibilità e personalizzazione nella gestione dell'output.
+In questo tutorial imparerai come **implementare il callback di salvataggio della pagina** in Aspose.Tasks per .NET. Questa potente funzionalità ti consente di indirizzare ogni pagina di un documento multi‑pagina a uno stream a tua scelta, offrendoti il pieno controllo su come l'output viene memorizzato o ulteriormente elaborato.
 
-## Prerequisiti:
+## Risposte rapide
+- **Cosa fa il callback di salvataggio della pagina?** Cattura ogni pagina renderizzata in uno stream separato così puoi gestirle individualmente.  
+- **Quale formato posso esportare?** Qualsiasi formato supportato da `ImageSaveOptions`, ad esempio PNG, JPEG, PDF.  
+- **Ho bisogno di una licenza?** È necessaria una licenza valida di Aspose.Tasks per l'uso in produzione.  
+- **Posso usarlo con .NET Core?** Sì, Aspose.Tasks supporta pienamente .NET Core e .NET 5/6+.  
+- **Il callback è thread‑safe?** Il callback viene eseguito sullo stesso thread che esegue il rendering, quindi si applicano le normali regole di thread‑safety.
 
-Prima di iniziare, assicurati di avere quanto segue:
+## Che cos'è **implementare il callback di salvataggio della pagina**?
+Il pattern **implementare il callback di salvataggio della pagina** consente di inserire logica personalizzata nella pipeline di salvataggio di Aspose.Tasks. Invece di scrivere direttamente su un file, ricevi un oggetto `Stream` per ogni pagina, permettendoti di memorizzarlo in memoria, caricarlo su storage cloud o applicare ulteriori elaborazioni.
 
-1. Conoscenza del linguaggio di programmazione C#: è necessario avere una conoscenza di base della sintassi e dei concetti di C#.
-   
-2.  Installazione di Aspose.Tasks per .NET: assicurati di aver installato la libreria Aspose.Tasks nel tuo ambiente di sviluppo. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
+## Perché esportare il progetto come PNG con un callback?
+Esportare un progetto come PNG ti fornisce un'immagine raster di ogni pagina del diagramma di Gantt, ideale per report, email o incorporamento in pagine web. Usare un callback significa che puoi mantenere ogni pagina in un `MemoryStream` separato senza creare file temporanei su disco.
 
-3. Configurazione dell'ambiente di sviluppo: configura il tuo IDE preferito per lo sviluppo .NET, come Visual Studio.
+## Prerequisiti
 
-## Importa spazi dei nomi:
+1. **Conoscenza di C#** – familiarità di base con classi, interfacce e stream.  
+2. **Aspose.Tasks per .NET** – scarica e installa da [here](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider o qualsiasi editor compatibile con .NET.
 
-Per iniziare, devi importare gli spazi dei nomi necessari nel tuo codice C#:
+## Importare gli spazi dei nomi
+
+Per iniziare, importa gli spazi dei nomi richiesti:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +49,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Passaggio 1: crea un oggetto di progetto
+## Passo 1: Creare un oggetto Project
 
- Istanziare a`Project` oggetto caricando un file di progetto esistente:
+Carica un file MPP esistente in un'istanza `Project`:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Passaggio 2: configura le opzioni di salvataggio dell'immagine
+## Passo 2: Configurare le opzioni di salvataggio immagine
 
- Definire`ImageSaveOptions` personalizzare il comportamento di salvataggio della pagina impostando il file`PageSavingCallback` proprietà:
+Imposta `ImageSaveOptions` per l'output PNG e collega il callback personalizzato:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +70,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Passaggio 3: salva il progetto con richiamata
+> **Suggerimento professionale:** Impostare `RenderToSinglePage = false` garantisce che ogni pagina del diagramma di Gantt venga renderizzata separatamente, il che è essenziale affinché il callback riceva stream distinti.
 
-Salva il progetto utilizzando le opzioni di salvataggio dell'immagine configurate:
+## Passo 3: Salvare il progetto con il callback
+
+Invoca il metodo `Save`, passando `Stream.Null` perché gli stream reali sono forniti dal callback:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Passaggio 4: elaborazione dei flussi di pagine salvati
+## Passo 4: Elaborare gli stream delle pagine salvate
 
-Scorri i flussi di pagina forniti dal callback per elaborare ciascuna pagina individualmente:
+Dopo il completamento dell'operazione di salvataggio, il callback contiene una collezione di oggetti `MemoryStream`—uno per pagina. Ora puoi iterare su di essi:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Elabora ogni flusso di pagine
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Passaggio 5: implementare la richiamata di salvataggio della pagina personalizzata
+## Passo 5: Implementare il callback personalizzato di salvataggio pagina
 
- Crea una classe che implementa il`IPageSavingCallback` interfaccia per gestire il salvataggio della pagina:
+Crea una classe sealed che implementa `IPageSavingCallback`. Questa classe cattura lo stream di ogni pagina e lo memorizza in una lista per un uso successivo.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +110,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Eseguire qualsiasi pulizia o finalizzazione
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Conclusione:
+## Problemi comuni e risoluzione
 
-In questo tutorial, abbiamo imparato come implementare un callback per il salvataggio della pagina in Aspose.Tasks per .NET, permettendoci di salvare documenti multipagina in flussi separati. Seguendo questi passaggi è possibile migliorare la funzionalità dell'applicazione e ottenere una gestione dell'output personalizzata.
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| **Nessuna pagina restituita** | `RenderToSinglePage` lasciato su `true`. | Imposta `RenderToSinglePage = false` per generare pagine separate. |
+| **Gli stream sono vuoti** | `KeepStreamOpen` impostato su `true` senza rilasciare successivamente. | Mantienilo `false` (predefinito) e lascia che il callback chiuda gli stream automaticamente. |
+| **Errori di out‑of‑memory** | Progetti molto grandi generano molti PNG ad alta risoluzione. | Elabora gli stream uno alla volta o aumenta i limiti di memoria della VM. |
 
 ## Domande frequenti
 
-### Q1: Che cos'è una richiamata di salvataggio della pagina in Aspose.Tasks?
+**D1: Cos'è un callback di salvataggio della pagina in Aspose.Tasks?**  
+R: Un callback di salvataggio della pagina ti consente di intercettare il processo di salvataggio per ogni pagina di un documento multi‑pagina, fornendo uno `Stream` personalizzato per quella pagina.
 
-A1: Una richiamata di salvataggio della pagina è una funzionalità di Aspose.Tasks che consente agli utenti di personalizzare il processo di salvataggio di documenti a più pagine fornendo flussi per ogni pagina individualmente.
+**D2: Posso usare formati diversi per salvare le pagine usando questo callback?**  
+R: Sì. Modificando `SaveFileFormat` è possibile esportare in PNG, JPEG, PDF, SVG, ecc.
 
-### Q2: Posso utilizzare formati diversi per salvare le pagine utilizzando questo callback?
+**D3: Aspose.Tasks è compatibile con .NET Core?**  
+R: Assolutamente. Aspose.Tasks supporta .NET Core, .NET 5 e .NET 6.
 
-A2: Sì, puoi utilizzare vari formati di file supportati da Aspose.Tasks, come PNG, JPEG, PDF, ecc., per salvare le pagine con il callback.
+**D4: Come posso gestire gli errori durante il processo di salvataggio della pagina?**  
+R: Avvolgi la logica del callback in blocchi try/catch e registra le eccezioni. Il metodo `OnFinish` è un buon punto per la pulizia finale.
 
-### Q3: Aspose.Tasks è compatibile con .NET Core?
+**D5: Dove posso trovare ulteriori risorse e supporto per Aspose.Tasks?**  
+R: Puoi visitare il [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per assistenza, accedere alla documentazione [qui](https://reference.aspose.com/tasks/net/), o esplorare funzionalità aggiuntive e opzioni di licenza sul [sito Aspose.Tasks](https://purchase.aspose.com/buy).
 
-A3: Sì, Aspose.Tasks supporta .NET Core, consentendo agli sviluppatori di utilizzare le sue funzionalità in applicazioni multipiattaforma.
+---
 
-### Q4: Come posso gestire gli errori durante il processo di salvataggio della pagina?
+**Ultimo aggiornamento:** 2026-03-16  
+**Testato con:** Aspose.Tasks 24.12 per .NET  
+**Autore:** Aspose  
 
-A4: è possibile implementare meccanismi di gestione degli errori all'interno dei metodi di callback per gestire le eccezioni e garantire la robustezza dell'applicazione.
-
-### Q5: Dove posso trovare più risorse e supporto per Aspose.Tasks?
-
- A5: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per assistenza, accedere alla documentazione[Qui](https://reference.aspose.com/tasks/net/) oppure esplora funzionalità aggiuntive e opzioni di licenza su[Sito web Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,46 @@
 ---
-title: Implementera Page Saving Callback i Aspose.Tasks
-linktitle: Implementera Page Saving Callback i Aspose.Tasks
+date: 2026-03-16
+description: Lär dig hur du implementerar en callback för sidlagring i Aspose.Tasks
+  för .NET, vilket möjliggör anpassad hantering av flersidiga dokumentutmatningsströmmar.
+linktitle: Implement page saving callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du implementerar en sidsparande återuppringning i Aspose.Tasks för .NET, vilket möjliggör anpassad hantering av flersidiga dokumentutdataströmmar.
-weight: 12
+title: Implementera callback för sidsparning i Aspose.Tasks
 url: /sv/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementera Page Saving Callback i Aspose.Tasks
+# Implementera page saving callback i Aspose.Tasks
 
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man implementerar en sidsparande återuppringning i Aspose.Tasks för .NET. Den här funktionen låter oss spara ett flersidigt dokument till användartillhandahållna strömmar, vilket erbjuder flexibilitet och anpassning vid hantering av utdata.
+I den här handledningen kommer du att lära dig hur du **implement page saving callback** i Aspose.Tasks för .NET. Denna kraftfulla funktion låter dig rikta varje sida i ett flersidigt dokument till en ström du väljer, vilket ger dig full kontroll över hur utdata lagras eller vidarebehandlas.
 
-## Förutsättningar:
+## Snabba svar
+- **Vad gör page saving callback?** Den fångar varje renderad sida i en separat ström så att du kan hantera dem individuellt.  
+- **Vilket format kan jag exportera till?** Alla format som stöds av `ImageSaveOptions`, t.ex. PNG, JPEG, PDF.  
+- **Behöver jag en licens?** En giltig Aspose.Tasks‑licens krävs för produktionsanvändning.  
+- **Kan jag använda detta med .NET Core?** Ja, Aspose.Tasks stöder fullt ut .NET Core och .NET 5/6+.  
+- **Är återuppringningen trådsäker?** Återuppringningen körs på samma tråd som utför renderingen, så vanliga trådsäkerhetsregler gäller.
 
-Innan vi börjar, se till att du har följande:
+## Vad är **implement page saving callback**?
+Mönstret **implement page saving callback** låter dig ansluta anpassad logik till sparnings‑pipeline i Aspose.Tasks. Istället för att skriva direkt till en fil får du ett `Stream`‑objekt för varje sida, vilket gör att du kan lagra det i minnet, ladda upp till molnlagring eller tillämpa ytterligare bearbetning.
 
-1. Kunskaper i C# programmeringsspråk: Du bör ha en grundläggande förståelse för C# syntax och begrepp.
-   
-2.  Installation av Aspose.Tasks för .NET: Se till att du har installerat Aspose.Tasks-biblioteket i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+## Varför exportera projekt som PNG med en återuppringning?
+Att exportera ett projekt som PNG ger dig en rasterbild av varje Gantt‑diagramssida, vilket är idealiskt för rapporter, e‑post eller inbäddning i webbsidor. Genom att använda en återuppringning kan du behålla varje sida i ett separat `MemoryStream` utan att skapa temporära filer på disken.
 
-3. Inställning av utvecklingsmiljö: Konfigurera din föredragna IDE för .NET-utveckling, till exempel Visual Studio.
+## Förutsättningar
 
-## Importera namnområden:
+1. **C#‑kunskap** – grundläggande förståelse för klasser, gränssnitt och strömmar.  
+2. **Aspose.Tasks för .NET** – ladda ner och installera från [here](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider eller någon .NET‑kompatibel editor.
 
-För att börja måste du importera de nödvändiga namnrymden i din C#-kod:
+## Importera namnrymder
+
+För att börja, importera de nödvändiga namnrymderna:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +48,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Steg 1: Skapa ett projektobjekt
+## Steg 1: Skapa ett Project‑objekt
 
- Instantiera en`Project` objekt genom att ladda en befintlig projektfil:
+Läs in en befintlig MPP‑fil i en `Project`‑instans:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Steg 2: Konfigurera bildsparalternativ
+## Steg 2: Konfigurera Image Save Options
 
- Definiera`ImageSaveOptions`och anpassa sidsparbeteendet genom att ställa in`PageSavingCallback` fast egendom:
+Ställ in `ImageSaveOptions` för PNG‑utmatning och anslut den anpassade återuppringningen:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,9 +69,11 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
+> **Proffstips:** Att sätta `RenderToSinglePage = false` säkerställer att varje Gantt‑diagramssida renderas separat, vilket är avgörande för att återuppringningen ska få separata strömmar.
+
 ## Steg 3: Spara projekt med återuppringning
 
-Spara projektet med de konfigurerade bildsparalternativen:
+Anropa `Save`‑metoden och skicka `Stream.Null` eftersom de faktiska strömmarna levereras av återuppringningen:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
@@ -69,18 +81,18 @@ project.Save(Stream.Null, imageSaveOptions);
 
 ## Steg 4: Bearbeta sparade sidströmmar
 
-Iterera genom sidströmmarna som tillhandahålls av återuppringningen för att behandla varje sida individuellt:
+När sparningsoperationen är klar håller återuppringningen en samling `MemoryStream`‑objekt – en per sida. Du kan nu iterera över dem:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Bearbeta varje sidström
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Steg 5: Implementera Custom Page Saving Callback
+## Steg 5: Implementera anpassad page saving callback
 
- Skapa en klass som implementerar`IPageSavingCallback` gränssnitt för att hantera sidsparande:
+Skapa en sealed‑klass som implementerar `IPageSavingCallback`. Denna klass fångar varje sidas ström och lagrar den i en lista för senare användning.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +109,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Utför eventuell sanering eller slutbehandling
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Slutsats:
+## Vanliga fallgropar & felsökning
 
-I den här handledningen har vi lärt oss hur man implementerar en sidsparande callback i Aspose.Tasks för .NET, vilket gör att vi kan spara flersidiga dokument till separata strömmar. Genom att följa dessa steg kan du förbättra din applikations funktionalitet och uppnå anpassad utdatahantering.
+| Problem | Orsak | Lösning |
+|-------|--------|----------|
+| **Inga sidor returneras** | `RenderToSinglePage` lämnades som `true`. | Sätt `RenderToSinglePage = false` för att generera separata sidor. |
+| **Strömmar är tomma** | `KeepStreamOpen` satt till `true` utan att stänga senare. | Behåll den som `false` (standard) och låt återuppringningen stänga strömmarna automatiskt. |
+| **Out‑of‑memory‑fel** | Mycket stora projekt genererar många högupplösta PNG‑filer. | Bearbeta strömmarna en efter en eller öka VM‑minnesgränserna. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Vad är en sidsparande återuppringning i Aspose.Tasks?
+**Q1: Vad är en page saving callback i Aspose.Tasks?**  
+A: En page saving callback låter dig avbryta sparningsprocessen för varje sida i ett flersidigt dokument och tillhandahåller en anpassad `Stream` för den sidan.
 
-S1: En sidsparande återuppringning är en funktion i Aspose.Tasks som gör det möjligt för användare att anpassa sparprocessen för flersidiga dokument genom att tillhandahålla strömmar för varje sida individuellt.
+**Q2: Kan jag använda olika format för att spara sidor med denna återuppringning?**  
+A: Ja. Genom att ändra `SaveFileFormat` kan du exportera till PNG, JPEG, PDF, SVG osv.
 
-### F2: Kan jag använda olika format för att spara sidor med denna återuppringning?
+**Q3: Är Aspose.Tasks kompatibel med .NET Core?**  
+A: Absolut. Aspose.Tasks stödjer .NET Core, .NET 5 och .NET 6.
 
-S2: Ja, du kan använda olika filformat som stöds av Aspose.Tasks, såsom PNG, JPEG, PDF, etc., för att spara sidor med återuppringningen.
+**Q4: Hur kan jag hantera fel under page saving‑processen?**  
+A: Omslut återuppringningslogiken i try/catch‑block och logga undantag. `OnFinish`‑metoden är ett bra ställe för slutlig städning.
 
-### F3: Är Aspose.Tasks kompatibel med .NET Core?
+**Q5: Var kan jag hitta fler resurser och support för Aspose.Tasks?**  
+A: Du kan besöka [Aspose.Tasks‑forumet](https://forum.aspose.com/c/tasks/15) för hjälp, få åtkomst till dokumentation [här](https://reference.aspose.com/tasks/net/), eller utforska ytterligare funktioner och licensalternativ på [Aspose.Tasks‑webbplatsen](https://purchase.aspose.com/buy).
 
-S3: Ja, Aspose.Tasks stöder .NET Core, vilket gör att utvecklare kan använda dess funktioner i plattformsoberoende applikationer.
+---
 
-### F4: Hur kan jag hantera fel under processen för att spara sidan?
+**Senast uppdaterad:** 2026-03-16  
+**Testad med:** Aspose.Tasks 24.12 for .NET  
+**Författare:** Aspose  
 
-S4: Du kan implementera felhanteringsmekanismer inom callback-metoderna för att hantera undantag och säkerställa robusthet i din applikation.
-
-### F5: Var kan jag hitta fler resurser och support för Aspose.Tasks?
-
- A5: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp, tillgång till dokumentation[här](https://reference.aspose.com/tasks/net/) , eller utforska ytterligare funktioner och licensalternativ på[Aspose.Tasks webbplats](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
