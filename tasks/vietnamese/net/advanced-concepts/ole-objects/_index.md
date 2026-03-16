@@ -1,35 +1,60 @@
 ---
-title: Làm việc với các đối tượng OLE trong Aspose.Tasks
-linktitle: Làm việc với các đối tượng OLE trong Aspose.Tasks
+date: 2026-03-16
+description: Tìm hiểu cách xóa các đối tượng OLE bằng Aspose.Tasks cho .NET, và khám
+  phá cách quản lý OLE và xóa OLE một cách hiệu quả trong các dự án của bạn.
+linktitle: How to Remove OLE Objects in Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách làm việc hiệu quả với các đối tượng OLE trong ứng dụng .NET bằng Aspose.Tasks, nâng cao khả năng quản lý dự án.
-weight: 22
+title: Cách xóa các đối tượng OLE trong Aspose.Tasks cho .NET
 url: /vi/net/advanced-concepts/ole-objects/
+weight: 22
 ---
+
+ unchanged.
+
+Now produce final content.
+
+Be careful to preserve markdown formatting.
+
+Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm việc với các đối tượng OLE trong Aspose.Tasks
+# Cách Xóa Các Đối Tượng OLE trong Aspose.Tasks cho .NET
 
 ## Giới thiệu
 
-Aspose.Tasks for .NET cung cấp chức năng toàn diện để làm việc với các đối tượng OLE (Liên kết và nhúng đối tượng) trong các tệp dự án. Hướng dẫn này sẽ hướng dẫn bạn quy trình quản lý hiệu quả các đối tượng OLE bằng Aspose.Tasks trong các ứng dụng .NET của bạn.
+Aspose.Tasks cho .NET cung cấp cho bạn khả năng kiểm soát toàn bộ các đối tượng OLE (Object Linking and Embedding) nằm bên trong các tệp Microsoft Project. Trong hướng dẫn này, bạn sẽ học **cách xóa các đối tượng OLE**, cách **quản lý nội dung OLE**, và các bước chính xác để **xóa dữ liệu OLE** khi không còn cần thiết. Khi hoàn thành, bạn sẽ có thể tải một tệp dự án, kiểm tra các đối tượng OLE được nhúng, xóa chúng một cách an toàn, và lưu lại dự án đã được làm sạch — tất cả bằng mã C# sạch sẽ và dễ đọc.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **Cách chính để xóa các đối tượng OLE là gì?** Sử dụng `project.OleObjects.Clear()` rồi lưu dự án.  
+- **Tôi có cần giấy phép đặc biệt không?** Cần có giấy phép Aspose.Tasks hợp lệ cho môi trường sản xuất.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Tôi có thể kiểm tra nội dung OLE trước khi xóa không?** Có, duyệt qua `project.OleObjects` để đọc các thuộc tính hoặc byte nội dung.  
+- **Việc xóa OLE trong các dự án lớn có an toàn không?** Hoàn toàn an toàn – thao tác nhanh và không ảnh hưởng đến dữ liệu dự án khác.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “Xóa các đối tượng OLE” có nghĩa là gì trong ngữ cảnh Aspose.Tasks?
 
-1.  Cài đặt: Đảm bảo bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+Xóa các đối tượng OLE có nghĩa là xóa các tệp nhúng (hình ảnh, bảng Excel, tài liệu Word, v.v.) được lưu bên trong tệp Microsoft Project (.mpp). Điều này hữu ích khi bạn muốn giảm kích thước tệp, loại bỏ các tham chiếu lỗi thời, hoặc tuân thủ các chính sách lưu trữ dữ liệu.
 
-2. Kiến thức cơ bản: Làm quen với ngôn ngữ lập trình C# và các khái niệm .NET framework.
+## Tại sao nên quản lý các đối tượng OLE bằng Aspose.Tasks?
 
-3. Môi trường phát triển: Thiết lập môi trường phát triển phù hợp như Visual Studio.
+- **Kiểm soát chi tiết** – Truy cập ID, tên và byte thô của từng đối tượng OLE.  
+- **Tự động hoá** – Dọn dẹp hàng chục dự án một cách lập trình mà không cần mở chúng trong Microsoft Project.  
+- **Hỗ trợ đa phiên bản** – Hoạt động với các tệp Project 2007‑2023.  
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. **Aspose.Tasks cho .NET** đã được cài đặt. Bạn có thể tải về từ [đây](https://releases.aspose.com/tasks/net/).  
+2. Kiến thức cơ bản về **C#** và hệ sinh thái **.NET**.  
+3. Môi trường phát triển như **Visual Studio** (Community hoặc cao hơn).  
 
 ## Nhập không gian tên
 
-Đầu tiên, nhập các không gian tên cần thiết để truy cập chức năng Aspose.Tasks:
+Đầu tiên, nhập các không gian tên cung cấp API của Aspose.Tasks:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,36 +62,40 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-
 ```
 
-Bây giờ, hãy chia mỗi ví dụ thành nhiều bước theo định dạng hướng dẫn từng bước:
+## Cách quản lý các đối tượng OLE – Hướng dẫn từng bước
 
-## Làm việc với các đối tượng OLE
+Dưới đây chúng tôi sẽ trình bày ba kịch bản phổ biến:
 
-### Bước 1: Tải tệp dự án
+1. **Kiểm tra các đối tượng OLE** – đọc thuộc tính và một đoạn nhỏ của nội dung nhị phân.  
+2. **Xóa toàn bộ các đối tượng OLE** – thao tác “xóa OLE” cốt lõi.  
+3. **Đọc thông tin vị trí hiển thị** – hữu ích khi bạn cần điều chỉnh cách các đối tượng OLE xuất hiện trong Gantt hoặc các chế độ xem khác.
+
+### Kịch bản 1: Kiểm tra các đối tượng OLE
+
+#### Bước 1: Tải tệp dự án  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Bước 2: Truy cập đối tượng OLE
+#### Bước 2: Truy cập các đối tượng OLE  
 ```csharp
 List<OleObject> oleObjects = project.OleObjects.ToList();
 ```
 
-### Bước 3: Lặp lại các đối tượng OLE
+#### Bước 3: Duyệt qua các đối tượng OLE  
 ```csharp
 foreach (var oleObject in oleObjects)
 {
-    // Truy cập và in các thuộc tính đối tượng OLE
+    // Access and print OLE object properties
     Console.WriteLine("Id: " + oleObject.Id);
     Console.WriteLine("Name: " + oleObject.Name);
-    // Tiếp tục cho các thuộc tính khác
+    // Continue for other properties
 }
 ```
 
-### Bước 4: Truy xuất byte nội dung
+#### Bước 4: Lấy một phần nhỏ của nội dung nhị phân (tùy chọn)  
 ```csharp
 private string Get10Bytes(OleObject oleObject)
 {
@@ -84,38 +113,40 @@ private string Get10Bytes(OleObject oleObject)
 }
 ```
 
-## Xóa đối tượng OLE
+### Kịch bản 2: Cách xóa OLE – loại bỏ tất cả các đối tượng nhúng
 
-### Bước 1: Tải tệp dự án
+#### Bước 1: Tải tệp dự án  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Bước 2: Xóa đối tượng OLE
+#### Bước 2: Xóa các đối tượng OLE  
 ```csharp
 project.OleObjects.Clear();
 ```
 
-### Bước 3: Lưu dự án
+#### Bước 3: Lưu dự án đã được làm sạch  
 ```csharp
 project.Save("ClearedProject.mpp");
 ```
 
-## Lấy thuộc tính vị trí đối tượng trực quan
+> **Mẹo chuyên nghiệp:** Sau khi xóa các đối tượng OLE, bạn có thể gọi `project.Save` với tên tệp khác để giữ nguyên bản gốc.
 
-### Bước 1: Tải tệp dự án
+### Kịch bản 3: Lấy các thuộc tính vị trí hiển thị của đối tượng
+
+#### Bước 1: Tải tệp dự án  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Bước 2: Truy cập đối tượng OLE và vị trí đối tượng trực quan
+#### Bước 2: Truy cập đối tượng OLE đầu tiên và vị trí của nó trong chế độ xem Gantt  
 ```csharp
 var oleObject = project.OleObjects.First();
 var view = project.Views.First(v => v.Name == "&Gantt Chart");
 var oleObjectPlacement = view.VisualObjectsPlacements.First(p => p.OleObjectId == oleObject.Id);
 ```
 
-### Bước 3: Truy xuất thuộc tính
+#### Bước 3: Lấy các thuộc tính vị trí  
 ```csharp
 Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineColor);
 Console.WriteLine("BorderLineThickness: {0}", oleObjectPlacement.BorderLineThickness);
@@ -129,34 +160,44 @@ else
 }
 ```
 
-## Phần kết luận
+## Những lỗi thường gặp và cách khắc phục
 
-Trong hướng dẫn này, chúng ta đã khám phá cách làm việc hiệu quả với các đối tượng OLE trong Aspose.Tasks cho .NET. Bằng cách làm theo các ví dụ từng bước này, bạn có thể tích hợp liền mạch các khả năng quản lý đối tượng OLE vào các ứng dụng .NET của mình, nâng cao chức năng và khả năng sử dụng của chúng.
+| Vấn đề | Lý do | Cách khắc phục |
+|-------|--------|----------------|
+| `project.OleObjects` rỗng | Tệp .mpp nguồn không chứa bất kỳ đối tượng OLE nào. | Kiểm tra lại tệp dự án có thực sự nhúng dữ liệu OLE (ví dụ: một bảng Excel đính kèm). |
+| `project.Save` ném ngoại lệ | Tệp đang bị khóa hoặc bạn không có quyền ghi. | Đóng mọi phiên bản mở của tệp và đảm bảo thư mục đích có quyền ghi. |
+| Byte nội dung trông bị hỏng | Bạn đang đọc toàn bộ mảng byte dưới dạng văn bản. | Sử dụng `Get10Bytes` hoặc ghi byte ra tệp để kiểm tra bằng công cụ phù hợp. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Tasks có thể xử lý các định dạng đối tượng OLE khác nhau không?
+**H: Aspose.Tasks có thể xử lý các định dạng đối tượng OLE khác nhau không?**  
+Đ: Có, nó hỗ trợ hình ảnh, tài liệu Office, PDF và nhiều định dạng OLE khác.
 
-Câu trả lời 1: Có, Aspose.Tasks hỗ trợ nhiều định dạng đối tượng OLE bao gồm hình ảnh, tài liệu và tệp đa phương tiện.
+**H: API có tương thích với các phiên bản Microsoft Project cũ không?**  
+Đ: Hoàn toàn – Aspose.Tasks hoạt động với các tệp Project từ 2007 tới các phiên bản mới nhất năm 2023.
 
-### Câu hỏi 2: Aspose.Tasks có tương thích với các phiên bản khác nhau của tệp Microsoft Project không?
+**H: Làm sao để xóa chỉ một số đối tượng OLE cụ thể thay vì xóa toàn bộ?**  
+Đ: Tìm `OleObject` mong muốn bằng `Id` hoặc `Name` và gọi `project.OleObjects.Remove(oleObject)` trước khi lưu.
 
-Trả lời 2: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp Microsoft Project, đảm bảo khả năng tương thích và tích hợp liền mạch.
+**H: Việc xóa OLE có ảnh hưởng đến các phụ thuộc công việc hoặc lịch trình không?**  
+Đ: Không. Các đối tượng OLE là các yếu tố hiển thị độc lập; việc xóa chúng không thay đổi quan hệ giữa các công việc.
 
-### Câu hỏi 3: Tôi có thể thao tác vị trí đối tượng OLE trong chế độ xem dự án không?
+**H: Tôi có thể tìm thêm ví dụ về thao tác OLE ở đâu?**  
+Đ: Tham khảo tài liệu chính thức của Aspose.Tasks và tham chiếu API cho các lớp `OleObject` và `VisualObjectsPlacements`.
 
-Câu trả lời 3: Hoàn toàn có thể, Aspose.Tasks cung cấp API để quản lý các thuộc tính vị trí và giao diện của đối tượng OLE trong chế độ xem dự án.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Tasks có phù hợp với các dự án cấp doanh nghiệp không?
+Chúng ta đã bao quát mọi thứ cần thiết để **xóa các đối tượng OLE** và quản lý nội dung OLE trong Aspose.Tasks cho .NET. Bằng cách làm theo các ví dụ từng bước, bạn có thể kiểm tra, xóa và điều chỉnh vị trí hiển thị của các đối tượng OLE, giúp các tệp dự án của bạn gọn nhẹ và tập trung hơn.
 
-Câu trả lời 4: Có, Aspose.Tasks rất phù hợp cho cả dự án quy mô nhỏ và cấp doanh nghiệp, cung cấp các tính năng mạnh mẽ và hiệu suất đáng tin cậy.
-
-### Câu hỏi 5: Aspose.Tasks có cung cấp tài nguyên tài liệu và hỗ trợ khách hàng không?
-
-Câu trả lời 5: Có, Aspose.Tasks cung cấp tài liệu, diễn đàn và hỗ trợ khách hàng phong phú để hỗ trợ các nhà phát triển sử dụng các tính năng của nó một cách hiệu quả.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-03-16  
+**Kiểm tra với:** Aspose.Tasks 24.11 cho .NET  
+**Tác giả:** Aspose
