@@ -1,54 +1,69 @@
 ---
-title: Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
-linktitle: Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET'i kullanarak proje yönetiminde atama temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin. Üretkenliği ve doğruluğu artırın.
-weight: 15
+date: 2026-03-19
+description: Aspose.Tasks for .NET ile temel çizgileri nasıl okuyacağınızı ve proje
+  yönetimi temel çizgilerini verimli bir şekilde nasıl yöneteceğinizi öğrenin.
+linktitle: Project Management Baselines using Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks ile Proje Yönetimi Temel Çizgileri
 url: /tr/net/advanced-features/assignment-baseline-collection/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Atama Temel Çizgilerinin Toplanması
+# Aspose.Tasks ile Proje Yönetimi Temel Çizgileri
 
-## giriiş
+## Giriş
 
-Proje yönetimi alanında, atama temel çizgilerinin izlenmesi ve yönetilmesi, projenin başarısının ve zaman çizelgelerine bağlılığın sağlanması açısından çok önemlidir. Aspose.Tasks for .NET, projelerdeki atama temel çizgilerinin verimli bir şekilde ele alınmasını kolaylaştırmak için güçlü bir dizi özellik sunar. Bu eğitimde Aspose.Tasks for .NET kullanarak Atama Temel Koleksiyonları ile çalışmanın inceliklerini ele alacağız.
+Proje yönetiminde, temel çizgiler planlanan ve gerçekleşen performansı karşılaştırmanıza olanak tanıyan referans noktalarıdır. **Proje yönetimi temel çizgilerini**—özellikle atama temel çizgilerini—yönetmek, takvimlerin yolunda kalmasını sağlar ve sorumluluğu temin eder. Aspose.Tasks for .NET, bu temel çizgileri programlı olarak oluşturmak, okumak, güncellemek ve silmek için güçlü bir API sunar. Bu öğreticide, Aspose.Tasks for .NET kullanarak Atama Temel Çizgisi Koleksiyonlarıyla nasıl çalışılacağını adım adım göstereceğiz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Atama temel çizgilerinin temel amacı nedir?** Her kaynak ataması için planlanan başlangıç/bitiş tarihlerini yakalamaktır.  
+- **Hangi API yöntemi temel çizgileri okur?** `Assignment.Baselines` koleksiyonu.  
+- **Temel çizgiler programlı olarak silinebilir mi?** Evet, `Assignment.Baselines` koleksiyonundan öğeleri kaldırarak.  
+- **Bu özellikleri kullanmak için lisansa ihtiyacım var mı?** Üretim kullanımında geçerli bir Aspose.Tasks lisansı gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-Bu eğitime devam etmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Proje yönetimi temel çizgileri nedir?
+Proje yönetimi temel çizgileri, belirli bir zamanda alınan zaman çizelgesi, maliyet ve kapsam verilerinin anlık görüntüleridir. Proje performansını ölçmek ve proje yaşam döngüsü boyunca sapmaları belirlemek için bir referans noktası olarak hizmet ederler.
 
-1. Temel C# programlama dili bilgisi.
-2. Sisteminizde Visual Studio yüklü.
-3.  Aspose.Tasks for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+## Proje yönetimi temel çizgileri için Aspose.Tasks neden kullanılmalı?
+- **Tam kontrol:** Projeyi Microsoft Project'te açmadan temel çizgi verilerine erişebilir ve bunları manipüle edebilirsiniz.  
+- **Otomasyona hazır:** Temel çizgi işleme süreçlerini CI/CD boru hatlarına veya raporlama araçlarına entegre edin.  
+- **Çapraz format desteği:** MPP, XML ve MPX dosyalarıyla çalışır, farklı proje dosya formatları arasında esneklik sağlar.  
 
-## Ad Alanlarını İçe Aktar
+## Ön Koşullar
+
+Bu öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+
+1. C# programlama diline temel bilgi.  
+2. Sisteminizde Visual Studio yüklü.  
+3. Aspose.Tasks for .NET kütüphanesi yüklü. [buradan](https://releases.aspose.com/tasks/net/) indirebilirsiniz.
+
+## Ad Alanlarını İçe Aktarın
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using Aspose.Tasks;
-
-
 ```
 
 ## Adım 1: Proje Dosyasını Yükleyin
 
-Öncelikle atama temellerini içeren proje dosyasını yüklememiz gerekiyor.
+İlk olarak, atama temel çizgilerini içeren proje dosyasını yüklememiz gerekir.
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 ```
 
-## 2. Adım: Ödevin Temel Çizgilerini Okuyun
+## Temel çizgiler nasıl okunur?
 
-Daha sonra, ilgili temellere erişmek için projedeki her kaynak atamasını yineliyoruz.
+Sonra, projedeki her kaynak atamasını döngüyle gezerek ilgili temel çizgilere erişiyoruz.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -66,9 +81,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 3. Adım: Atama Taban Çizgilerini Silin
+## Adım 3: Atama Temel Çizgilerini Sil
 
-Bu adımda tüm atama temel çizgilerinin projeden nasıl silineceğini gösteriyoruz.
+Bu adımda, projeden tüm atama temel çizgilerini nasıl sileceğimizi gösteriyoruz.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -81,31 +96,63 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Görev temel çizgilerinin verimli yönetimi, proje yönetiminde çok önemlidir; programlara bağlılığın sağlanması ve proje ilerlemesinin doğru bir şekilde izlenmesi. Aspose.Tasks for .NET ile atama temel çizgilerinin yönetimi sorunsuz hale gelir ve geliştiricilere proje yönetimi süreçlerini kolaylaştırmak için gerekli araçlar sağlanır.
+| Issue | Solution |
+|-------|----------|
+| **Temel çizgiler boş görünüyor** | Proje dosyasının gerçekten kaydedilmiş temel çizgileri içerdiğinden emin olun; bunlar otomatik olarak oluşturulmaz. |
+| `baselines.ParentAssignment` erişilirken `NullReferenceException` | Atama nesnesinin null olmadığını ve temel çizgilerin başlatıldığını doğrulayın. |
+| Büyük projelerde performans yavaşlaması | `Assignment.Id` ile filtreleyerek veya atamaları toplu işleyerek kapsamı sınırlayın. |
+
+## Sonuç
+
+Atama temel çizgilerinin etkin yönetimi, proje yönetiminde takvimlere uyumu sağlamak ve proje ilerlemesini doğru bir şekilde izlemek açısından hayati öneme sahiptir. Aspose.Tasks for .NET ile atama temel çizgileriyle çalışmak sorunsuz hale gelir; geliştiricilere proje yönetimi süreçlerini kolaylaştırmak için gerekli araçları sunar.
 
 ## SSS'ler
 
-### S1: Aspose.Tasks farklı proje dosyası formatları için atama temellerini yönetebilir mi?
+### Q1: Aspose.Tasks farklı proje dosya formatları için atama temel çizgilerini yönetebilir mi?
 
-Cevap1: Evet, Aspose.Tasks, MPP, XML ve MPX dahil olmak üzere çeşitli proje dosyası formatlarını destekler ve farklı dosya türlerindeki atama temellerini zahmetsizce yönetmenize olanak tanır.
+A1: Evet, Aspose.Tasks MPP, XML ve MPX dahil olmak üzere çeşitli proje dosya formatlarını destekler; böylece farklı dosya türlerinde atama temel çizgilerini sorunsuz bir şekilde yönetebilirsiniz.
 
-### S2: Aspose.Tasks, .NET Framework'ün tüm sürümleriyle uyumlu mu?
+### Q2: Aspose.Tasks tüm .NET Framework sürümleriyle uyumlu mu?
 
-Cevap2: Aspose.Tasks for .NET, .NET Framework'ün birden fazla sürümüyle uyumludur ve farklı ortamlardaki geliştiricilere uyumluluk ve esneklik sağlar.
+A2: Aspose.Tasks for .NET, .NET Framework'ün birden çok sürümüyle uyumludur; bu da farklı ortamlar arasında geliştiriciler için uyumluluk ve esneklik sağlar.
 
-### S3: Aspose.Tasks'ı kullanarak atama temel çizgilerini programlı olarak değiştirebilir miyim?
+### Q3: Aspose.Tasks kullanarak atama temel çizgilerini programlı olarak manipüle edebilir miyim?
 
-Cevap3: Kesinlikle Aspose.Tasks, geliştiricilerin proje gereksinimlerine göre atama temel çizgilerini programlı bir şekilde oluşturmasına, okumasına, güncellemesine ve silmesine olanak tanıyan kapsamlı bir API sağlar.
+A3: Kesinlikle, Aspose.Tasks, geliştiricilerin proje gereksinimlerine göre atama temel çizgilerini programlı olarak oluşturmasını, okumasını, güncellemesini ve silmesini sağlayan kapsamlı bir API sunar.
 
-### S4: Aspose.Tasks geliştiricilere teknik destek sunuyor mu?
+### Q4: Aspose.Tasks geliştiricilere teknik destek sunuyor mu?
 
-C4: Evet, Aspose.Tasks, geliştiricilerin yardım isteyebileceği, bilgi paylaşabileceği ve meslektaşlarıyla işbirliği yapabileceği topluluk forumu aracılığıyla güçlü teknik destek sağlıyor.
+A4: Evet, Aspose.Tasks, geliştiricilerin yardım alabileceği, bilgi paylaşabileceği ve akranlarıyla iş birliği yapabileceği topluluk forumu aracılığıyla güçlü teknik destek sağlar.
 
-### S5: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
+### Q5: Satın almadan önce Aspose.Tasks'i deneyebilir miyim?
 
-Cevap5: Evet, Aspose.Tasks, geliştiricilerin satın alma kararı vermeden önce özelliklerini ve işlevlerini keşfetmesine olanak tanıyan ücretsiz bir deneme sürümü sunuyor.
+A5: Evet, Aspose.Tasks ücretsiz deneme sürümü sunar; geliştiriciler satın alma kararından önce özelliklerini ve işlevlerini keşfedebilir.
+
+## Sık Sorulan Sorular
+
+**S: Belirli bir atama için temel çizgileri nasıl okurum?**  
+C: O atama için `Assignment.Baselines` koleksiyonuna erişin ve “Temel çizgiler nasıl okunur?” bölümünde gösterildiği gibi döngüyle gezinin.
+
+**S: Mevcut bir atamaya yeni bir temel çizgi eklemek mümkün mü?**  
+C: Evet, bir `AssignmentBaseline` nesnesi oluşturabilir, `Start` ve `Finish` değerlerini ayarlayabilir ve `Assignment.Baselines` koleksiyonuna ekleyebilirsiniz.
+
+**S: Temel çizgileri silmek orijinal takvimi etkiler mi?**  
+C: Temel çizgileri silmek yalnızca kaydedilmiş anlık görüntüleri kaldırır; mevcut takvim (gerçek tarihler) değişmeden kalır.
+
+**S: Temel çizgi verilerini CSV'ye aktarabilir miyim?**  
+C: Aspose.Tasks temel çizgiler için doğrudan bir CSV dışa aktarma sağlamasa da, koleksiyonu döngüyle gezerek değerleri standart .NET I/O sınıflarıyla bir CSV dosyasına yazabilirsiniz.
+
+**S: Aspose.Tasks temel çizgi karşılaştırma raporlarını destekliyor mu?**  
+C: Evet, temel çizgi tarihlerini gerçek tarihlerle programlı olarak karşılaştırabilir ve tercih ettiğiniz herhangi bir raporlama kütüphanesini kullanarak özel raporlar oluşturabilirsiniz.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks for .NET (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
