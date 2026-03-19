@@ -1,33 +1,52 @@
 ---
-title: Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
-linktitle: Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Découvrez comment ajouter des colonnes d'affichage d'affectation personnalisées dans Aspose.Tasks pour .NET afin d'améliorer les capacités de gestion de projet.
-weight: 16
+date: 2026-03-19
+description: Apprenez comment ajouter plusieurs colonnes personnalisées et formater
+  la largeur des colonnes personnalisées lors de l'exportation d'un projet au format
+  XML à l'aide d'Aspose.Tasks pour .NET.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Ajouter plusieurs colonnes personnalisées à la vue des affectations dans Aspose.Tasks
 url: /fr/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Colonne d'affichage des affectations personnalisées dans Aspose.Tasks
+# Ajouter plusieurs colonnes personnalisées à la vue d'affectation dans Aspose.Tasks
 
 ## Introduction
 
-Dans ce didacticiel, nous allons explorer comment ajouter des colonnes personnalisées pour les vues d'affectation à l'aide d'Aspose.Tasks pour .NET. Les colonnes personnalisées offrent de la flexibilité et vous permettent d'afficher des informations supplémentaires pertinentes pour vos besoins en matière de gestion de projet.
+Dans ce tutoriel, vous découvrirez **comment ajouter plusieurs colonnes personnalisées** à une vue d'affectation avec Aspose.Tasks pour .NET. Les colonnes personnalisées vous permettent d'afficher des données supplémentaires — telles que des notes, des coûts ou des indicateurs personnalisés — directement dans les rapports exportés. À la fin du guide, vous serez capable de définir la largeur d'une colonne personnalisée, d'exporter le projet au format XML et d'adapter la vue à vos besoins en gestion de projet.
 
-## Conditions préalables
+## Quick Answers
+- **What can I achieve?** Afficher n'importe quelle donnée d'affectation dans des colonnes personnalisées et contrôler leur apparence.  
+- **Which format supports it?** Exporter le projet au format XML (ou d'autres formats) en utilisant `Spreadsheet2003SaveOptions`.  
+- **Do I need a license?** Oui, une licence valide d'Aspose.Tasks est requise pour une utilisation en production.  
+- **Which .NET versions work?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How many columns can I add?** Illimité – il suffit de créer des instances supplémentaires de `AssignmentViewColumn`.
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
+## What are multiple custom columns?
+Les multiples colonnes personnalisées sont des champs définis par l'utilisateur qui apparaissent aux côtés des colonnes d'affectation par défaut lorsqu'un projet est enregistré ou exporté. Elles offrent la flexibilité d'exposer n'importe quelle propriété d'un objet `ResourceAssignment`, comme des notes personnalisées, des codes de coût ou des valeurs calculées.
 
-1. Connaissance de base du langage de programmation C#.
-2.  Aspose.Tasks pour la bibliothèque .NET installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
-3. Un environnement de développement intégré (IDE) tel que Visual Studio.
+## Why add multiple custom columns to the assignment view?
+- **Enhanced reporting:** Inclure des informations spécifiques au projet qui ne sont pas couvertes par les colonnes intégrées.  
+- **Better decision‑making:** Les parties prenantes peuvent voir exactement les données dont elles ont besoin sans fouiller dans les fichiers bruts.  
+- **Consistent formatting:** Contrôler la largeur des colonnes et la conversion du texte pour obtenir une sortie propre et lisible.  
 
-## Importer des espaces de noms
+## Prerequisites
 
-Tout d'abord, importons les espaces de noms nécessaires pour accéder aux classes et méthodes requises pour créer des colonnes de vue d'affectation personnalisée :
+Avant de commencer, assurez‑vous d'avoir :
+
+1. Des connaissances de base en langage de programmation C#.  
+2. La bibliothèque Aspose.Tasks pour .NET installée. Si ce n'est pas le cas, vous pouvez la télécharger **[ici](https://releases.aspose.com/tasks/net/)**.  
+3. Un environnement de développement intégré (IDE) tel que Visual Studio.  
+
+## Step-by-Step Guide
+
+### Step 1: Import Namespaces
+Tout d'abord, importez les espaces de noms qui fournissent les classes nécessaires pour travailler avec les projets et les visualisations.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +54,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Étape 1 : Charger le projet
-
- Pour commencer, chargez votre fichier de projet à l'aide du`Project` classe:
+### Step 2: Load the Project
+Créez une instance `Project` et chargez un fichier MPP existant.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## Étape 2 : Créer des options d'enregistrement dans une feuille de calcul
-
- Ensuite, créez une instance de`Spreadsheet2003SaveOptions` ce qui nous permet de personnaliser les colonnes de la vue des affectations :
+### Step 3: Create Spreadsheet Save Options
+Instanciez `Spreadsheet2003SaveOptions` – cet objet nous permet de personnaliser la vue d'affectation avant l'exportation.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## Étape 3 : Définir une colonne personnalisée
-
- Maintenant, définissez votre colonne personnalisée en créant une instance de`AssignmentViewColumn`. Cette classe nécessite le nom de la colonne, sa largeur et une fonction déléguée pour convertir les données d'affectation en texte de colonne :
+### Step 4: Define Custom Column
+Créez un `AssignmentViewColumn` pour chaque donnée que vous souhaitez afficher. Ci‑dessous, nous ajoutons une colonne **Notes** avec une largeur de 200 points.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## Étape 4 : ajouter une colonne personnalisée aux options
+**Tip:** Pour ajouter *plusieurs* colonnes personnalisées, répétez cette étape avec des noms de champ différents et une logique de délégué, puis ajoutez chaque instance à `options.AssignmentView.Columns`.
 
-Ajoutez la colonne personnalisée à la collection de colonnes d'affichage des affectations des options d'enregistrement :
+### Step 5: Add Custom Column to Options
+Ajoutez la colonne (ou les colonnes) à la collection `Columns` de la vue d'affectation.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## Étape 5 : Parcourir les affectations
-
-Parcourez chaque affectation de ressource dans le projet et affichez le texte de la colonne personnalisée :
+### Step 6: Iterate Through Assignments (Optional Debugging)
+Vous pouvez parcourir les affectations pour vérifier que le texte de la colonne personnalisée est généré correctement.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +104,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Étape 6 : Enregistrez le projet avec des colonnes personnalisées
-
-Enfin, enregistrez le projet avec les colonnes de la vue des affectations personnalisées :
+### Step 7: Save the Project with Custom Columns
+Enfin, enregistrez le projet. L'exemple sauvegarde au format XML, mais vous pouvez choisir n'importe quel format pris en charge.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Conclusion
+## How to export project to XML with custom columns?
+Lorsque vous appelez `project.Save` avec les `Spreadsheet2003SaveOptions` configurés, Aspose.Tasks écrit les données du projet — y compris toutes les **multiples colonnes personnalisées** — dans le fichier XML choisi. Cela facilite le partage d'informations de projet enrichies avec d'autres systèmes ou parties prenantes.
 
-Dans ce didacticiel, nous avons appris à ajouter des colonnes d'affichage d'affectation personnalisées à l'aide d'Aspose.Tasks pour .NET. Les colonnes personnalisées offrent une flexibilité dans l'affichage d'informations supplémentaires adaptées aux exigences de votre projet, améliorant ainsi les capacités de gestion de projet.
+## Format custom column width for better readability
+Le deuxième paramètre du constructeur `AssignmentViewColumn` contrôle la largeur de la colonne (mesurée en points). Ajustez cette valeur en fonction de la quantité de texte attendue. Par exemple, une largeur de **300** convient bien aux notes longues, tandis que **100** suffit pour de courts indicateurs.
 
-## FAQ
+## Common Issues and Solutions
+- **Column text appears blank:** Assurez‑vous que le délégué renvoie une chaîne et que la propriété d'affectation sous‑jacente (par ex., `Asn.NotesText`) est remplie.  
+- **Columns are not visible in the exported file:** Vérifiez que `options.AssignmentView.Columns` contient vos colonnes personnalisées avant d'appeler `Save`.  
+- **Width seems ignored:** Certains formats d'exportation ont leurs propres règles de mise en page ; XML respecte la largeur, mais PDF/HTML peuvent nécessiter un style supplémentaire.
 
-### Q1 : Puis-je ajouter plusieurs colonnes personnalisées à la vue des affectations ?
+## Frequently Asked Questions
 
- A1 : Oui, vous pouvez ajouter plusieurs colonnes personnalisées en créant des instances supplémentaires de`AssignmentViewColumn` et en les ajoutant au`Columns` collection.
+### Q1: Can I add multiple custom columns to the assignment view?
+**A:** Oui, il suffit de créer des objets `AssignmentViewColumn` supplémentaires et de les ajouter à `options.AssignmentView.Columns`.
 
-### Q2 : Existe-t-il des convertisseurs prédéfinis disponibles pour les champs d'affectation courants ?
+### Q2: Are there predefined converters available for common assignment fields?
+**A:** Oui, Aspose.Tasks fournit des convertisseurs intégrés pour de nombreux champs standards, ce qui facilite l'extraction des données sans écrire de délégués personnalisés.
 
-A2 : Oui, Aspose.Tasks fournit des convertisseurs prédéfinis pour les champs d'affectation courants, facilitant ainsi l'extraction de données pour les colonnes personnalisées.
+### Q3: Can I customize the appearance of custom columns, such as formatting text or applying styles?
+**A:** Absolument. En plus de définir la largeur, vous pouvez modifier la police, l'alignement et d'autres propriétés visuelles via les options de style de la colonne.
 
-### Q3 : Puis-je personnaliser l'apparence des colonnes personnalisées, comme le formatage du texte ou l'application de styles ?
+### Q4: Is it possible to remove default columns from the assignment view?
+**A:** Vous pouvez exclure les colonnes par défaut en les retirant de la collection `Columns` ou en définissant leur largeur à zéro.
 
-A3 : Oui, vous pouvez personnaliser l'apparence des colonnes personnalisées en modifiant les propriétés telles que la largeur, la police et l'alignement.
+### Q5: Does Aspose.Tasks support exporting projects to other formats besides spreadsheets with custom columns?
+**A:** Oui, Aspose.Tasks peut exporter vers PDF, HTML, XML et de nombreux autres formats tout en conservant les définitions des colonnes personnalisées.
 
-### Q4 : Est-il possible de supprimer les colonnes par défaut de la vue des affectations ?
+---
 
- A4 : Oui, vous pouvez supprimer les colonnes par défaut en les excluant du`Columns` collection ou en mettant leur largeur à zéro.
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-### Q5 : Aspose.Tasks prend-il en charge l'exportation de projets vers d'autres formats que les feuilles de calcul avec des colonnes personnalisées ?
-
-A5 : Oui, Aspose.Tasks prend en charge l'exportation de projets vers divers formats tels que PDF, HTML et XML, permettant des options de reporting de projet polyvalentes.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

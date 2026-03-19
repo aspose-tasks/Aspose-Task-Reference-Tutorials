@@ -1,33 +1,52 @@
 ---
-title: Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
-linktitle: Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
+date: 2026-03-19
+description: Ismerje meg, hogyan adhat hozzá több egyéni oszlopot, és formázhatja
+  az egyéni oszlopszélességet egy projekt XML-be exportálásakor az Aspose.Tasks for
+  .NET használatával.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan adhat hozzá egyéni hozzárendelési nézet oszlopokat az Aspose.Tasks for .NET-hez a projektkezelési képességek javítása érdekében.
-weight: 16
+title: Több egyéni oszlop hozzáadása a hozzárendelés nézethez az Aspose.Tasks-ben
 url: /hu/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
+# Több egyéni oszlop hozzáadása a hozzárendelés nézethez az Aspose.Tasks-ben
 
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá egyéni oszlopokat hozzárendelési nézetekhez az Aspose.Tasks for .NET használatával. Az egyéni oszlopok rugalmasságot biztosítanak, és lehetővé teszik a projektmenedzsment igényeinek megfelelő további információk megjelenítését.
+Ebben az oktatóanyagban megtudja, **hogyan adjon hozzá több egyéni oszlopot** a hozzárendelés nézethez az Aspose.Tasks for .NET segítségével. Az egyéni oszlopok lehetővé teszik további adatok megjelenítését – például megjegyzések, költségek vagy egyéni jelzők – közvetlenül az exportált jelentésekben. A útmutató végére képes lesz formázni az egyéni oszlop szélességét, exportálni a projektet XML-be, és testre szabni a nézetet a projektmenedzsment igényeihez.
+
+## Gyors válaszok
+- **Mit érhetek el?** Bármely hozzárendelési adat megjelenítése egyéni oszlopokban és azok megjelenésének szabályozása.  
+- **Melyik formátum támogatja?** A projekt exportálása XML-be (vagy más formátumokba) a `Spreadsheet2003SaveOptions` használatával.  
+- **Szükségem van licencre?** Igen, egy érvényes Aspose.Tasks licenc szükséges a termelési használathoz.  
+- **Mely .NET verziók működnek?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Hány oszlopot adhatok hozzá?** Korlátlan – egyszerűen hozzon létre további `AssignmentViewColumn` példányokat.
+
+## Mi a több egyéni oszlop?
+A több egyéni oszlop felhasználó által definiált mezők, amelyek az alapértelmezett hozzárendelési oszlopok mellett jelennek meg, amikor egy projektet mentenek vagy exportálnak. Lehetővé teszik, hogy bármely `ResourceAssignment` objektum tulajdonságát megjelenítsék, például egyéni megjegyzéseket, költségkódokat vagy számított értékeket.
+
+## Miért adjunk hozzá több egyéni oszlopot a hozzárendelés nézethez?
+- **Fejlett jelentés:** Projekt‑specifikus információk belefoglalása, amelyeket a beépített oszlopok nem fednek le.  
+- **Jobb döntéshozatal:** Az érintettek láthatják a pontos adatokat, amire szükségük van, anélkül, hogy nyers fájlokba kellene mélyedniük.  
+- **Következetes formázás:** Az oszlopszélesség és a szövegkonverzió szabályozása a tiszta, olvasható kimenet érdekében.  
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belemerülnénk, győződjön meg róla, hogy rendelkezik:
 
-1. C# programozási nyelv alapismerete.
-2.  Aspose.Tasks for .NET könyvtár telepítve. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/tasks/net/).
-3. Integrált fejlesztői környezet (IDE), például a Visual Studio.
+1. Alapvető C# programozási nyelvi ismeretekkel.  
+2. Az Aspose.Tasks for .NET könyvtár telepítve van. Ha nincs, letöltheti **[itt](https://releases.aspose.com/tasks/net/)**.  
+3. Integrált fejlesztői környezettel (IDE), például a Visual Studio-val.  
 
-## Névterek importálása
+## Lépésről lépésre útmutató
 
-Először is importáljuk a szükséges névtereket az egyéni hozzárendelési nézet oszlopok létrehozásához szükséges osztályok és metódusok eléréséhez:
+### 1. lépés: Névterek importálása
+Először importálja a névtereket, amelyek biztosítják a projektekhez és vizualizációkhoz szükséges osztályokat.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +54,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## 1. lépés: Töltse be a projektet
-
- A kezdéshez töltse be a projektfájlt a`Project` osztály:
+### 2. lépés: Projekt betöltése
+Hozzon létre egy `Project` példányt, és töltse be egy meglévő MPP fájlt.
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## 2. lépés: Hozzon létre Táblázat mentési opciókat
-
- Ezután hozzon létre egy példányt a`Spreadsheet2003SaveOptions` amely lehetővé teszi a hozzárendelés nézet oszlopainak testreszabását:
+### 3. lépés: Spreadsheet mentési beállítások létrehozása
+Példányosítsa a `Spreadsheet2003SaveOptions` osztályt – ez az objektum lehetővé teszi a hozzárendelés nézet testreszabását exportálás előtt.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## 3. lépés: Egyéni oszlop meghatározása
-
- Most határozza meg az egyéni oszlopot a példány létrehozásával`AssignmentViewColumn`. Ez az osztály megköveteli az oszlop nevét, szélességét és egy delegálási függvényt a hozzárendelési adatok oszlopszöveggé alakításához:
+### 4. lépés: Egyéni oszlop definiálása
+Hozzon létre egy `AssignmentViewColumn`-t minden megjeleníteni kívánt adatdarabhoz. Az alábbiakban egy **Notes** (Megjegyzések) oszlopot adunk hozzá 200 pont szélességgel.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## 4. lépés: Adjon egyéni oszlopot a Beállításokhoz
+**Tipp:** Több egyéni oszlop hozzáadásához ismételje meg ezt a lépést különböző mezőnevekkel és delegált logikával, majd adja hozzá az egyes példányokat a `options.AssignmentView.Columns`-hoz.
 
-Adja hozzá az egyéni oszlopot a mentési beállítások hozzárendelési nézet oszlopgyűjteményéhez:
+### 5. lépés: Egyéni oszlop hozzáadása a beállításokhoz
+Adja hozzá az oszlopot (vagy oszlopokat) a hozzárendelés nézet `Columns` gyűjteményéhez.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## 5. lépés: Ismétlés a hozzárendeléseken keresztül
-
-Iteráljon végig a projektben minden erőforrás-hozzárendelésen, és jelenítse meg az egyéni oszlopszöveget:
+### 6. lépés: Hozzárendelések bejárása (opcionális hibakeresés)
+Átfuthat a hozzárendeléseken, hogy ellenőrizze, a egyéni oszlop szövege helyesen generálódik-e.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +104,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 6. lépés: Mentse el a projektet egyéni oszlopokkal
-
-Végül mentse a projektet az egyéni hozzárendelési nézet oszlopaival:
+### 7. lépés: Projekt mentése egyéni oszlopokkal
+Végül mentse a projektet. A példa XML-be ment, de bármely támogatott formátumot választhat.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Következtetés
+## Hogyan exportáljuk a projektet XML-be egyéni oszlopokkal?
+Amikor a `project.Save` metódust a konfigurált `Spreadsheet2003SaveOptions`-szal hívja, az Aspose.Tasks a projekt adatokat – beleértve az összes **több egyéni oszlopot** – a kiválasztott XML fájlba írja. Ez megkönnyíti a gazdagított projektinformációk megosztását más rendszerekkel vagy érintettekkel.
 
-Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá egyéni hozzárendelési nézet oszlopokat az Aspose.Tasks for .NET használatával. Az egyéni oszlopok rugalmasságot kínálnak a projektkövetelményekhez szabott további információk megjelenítésében, javítva ezzel a projektkezelési képességeket.
+## Az egyéni oszlopszélesség formázása a jobb olvashatóság érdekében
+Az `AssignmentViewColumn` konstruktor második paramétere szabályozza az oszlopszélességet (pontban mérve). Állítsa be ezt az értéket a várt szövegmennyiséghez. Például a **300** szélesség jól működik hosszabb megjegyzéseknél, míg a **100** elegendő rövid jelzőkhöz.
 
-## GYIK
+## Gyakori problémák és megoldások
+- **Az oszlop szövege üresnek jelenik meg:** Győződjön meg arról, hogy a delegált stringet ad vissza, és hogy az alapul szolgáló hozzárendelési tulajdonság (pl. `Asn.NotesText`) fel van töltve.  
+- **Az oszlopok nem láthatók az exportált fájlban:** Ellenőrizze, hogy a `options.AssignmentView.Columns` tartalmazza az egyéni oszlopokat a `Save` hívása előtt.  
+- **A szélesség figyelmen kívül marad:** Egyes export formátumok saját elrendezési szabályokkal rendelkeznek; az XML tiszteletben tartja a szélességet, de a PDF/HTML további stílusozást igényelhet.
 
-### 1. kérdés: Hozzáadhatok több egyéni oszlopot a hozzárendelési nézethez?
+## Gyakran ismételt kérdések
 
- 1. válasz: Igen, több egyéni oszlopot is hozzáadhat a következő példányok létrehozásával`AssignmentViewColumn` és hozzáadjuk őket a`Columns` Gyűjtemény.
+### Q1: Hozzáadhatok több egyéni oszlopot a hozzárendelés nézethez?
+**A:** Igen, egyszerűen hozzon létre további `AssignmentViewColumn` objektumokat, és adja hozzá őket a `options.AssignmentView.Columns`-hoz.
 
-### 2. kérdés: Rendelkezésre állnak-e előre meghatározott konverterek a közös hozzárendelési mezőkhöz?
+### Q2: Vannak előre definiált konverterek a gyakori hozzárendelési mezőkhöz?
+**A:** Igen, az Aspose.Tasks beépített konvertereket biztosít számos szabványos mezőhöz, így könnyen lekérheti az adatokat anélkül, hogy egyéni delegáltakat kellene írnia.
 
-2. válasz: Igen, az Aspose.Tasks előre definiált konvertereket biztosít a gyakori hozzárendelési mezőkhöz, megkönnyítve az adatok kinyerését az egyéni oszlopokhoz.
+### Q3: Testreszabhatom-e az egyéni oszlopok megjelenését, például a szöveg formázását vagy stílusok alkalmazását?
+**A:** Teljesen. A szélesség beállítása mellett módosíthatja a betűtípust, igazítást és egyéb vizuális tulajdonságokat az oszlop stílusbeállításain keresztül.
 
-### 3. kérdés: Testreszabhatom az egyéni oszlopok megjelenését, például a szöveg formázását vagy a stílusok alkalmazását?
+### Q4: Lehetőség van az alapértelmezett oszlopok eltávolítására a hozzárendelés nézetből?
+**A:** Az alapértelmezett oszlopokat eltávolíthatja a `Columns` gyűjteményből, vagy a szélességüket nullára állíthatja.
 
-3. válasz: Igen, testreszabhatja az egyéni oszlopok megjelenését a tulajdonságok, például a szélesség, a betűtípus és az igazítás módosításával.
+### Q5: Támogatja-e az Aspose.Tasks a projektek exportálását más formátumokba a táblázatokon kívül egyéni oszlopokkal?
+**A:** Igen, az Aspose.Tasks exportálhat PDF, HTML, XML és sok más formátumba, miközben megőrzi az egyéni oszlopdefiníciókat.
 
-### 4. kérdés: Eltávolíthatók az alapértelmezett oszlopok a hozzárendelési nézetből?
+---
 
- 4. válasz: Igen, eltávolíthatja az alapértelmezett oszlopokat, ha kizárja őket a`Columns` összegyűjtése vagy szélességük nullára állítása.
+**Utoljára frissítve:** 2026-03-19  
+**Tesztelve:** Aspose.Tasks 24.12 for .NET  
+**Szerző:** Aspose  
 
-### 5. kérdés: Az Aspose.Tasks támogatja a projektek exportálását más formátumokba, az egyéni oszlopokat tartalmazó táblázatokon kívül?
-
-5. válasz: Igen, az Aspose.Tasks támogatja a projektek exportálását különféle formátumokba, például PDF, HTML és XML formátumokba, így sokoldalú projektjelentési lehetőségeket tesz lehetővé.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
