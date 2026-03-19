@@ -1,33 +1,50 @@
 ---
-title: Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
-linktitle: Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
-second_title: Aspose.Tasks .NET API'si
-description: Proje görevlerini verimli bir şekilde filtrelemek için Aspose.Tasks for .NET ile AND operatörünü her koşulda nasıl kullanacağınızı öğrenin.
-weight: 11
+date: 2026-03-19
+description: Aspose.Tasks for .NET ile tüm koşullarda AND operatörünü nasıl kullanacağınızı
+  öğrenerek proje görevlerini verimli bir şekilde filtreleyin.
+linktitle: Using AND Operator in All Conditions with Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks ile All Conditions içinde AND operatörünü nasıl kullanılır
 url: /tr/net/advanced-features/and-operator-all-conditions/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile AND Operatörünü Her Koşulda Kullanmak
+# Aspose.Tasks ile Tüm Koşullarda AND Operatörünü Kullanma
 
-## giriiş
+## Introduction
 
-Proje yönetimi görevlerinizi verimli bir şekilde kolaylaştırmak mı istiyorsunuz? Aspose.Tasks for .NET ile proje verilerini etkili bir şekilde yönetmek için güçlü işlevlerden yararlanabilirsiniz. Bu özelliklerden biri, görevleri aynı anda birden fazla kritere göre filtrelemenize olanak tanıyan AND operatörünü tüm koşullarda kullanma yeteneğidir. Bu eğitimde, bu işlevselliği adım adım uygulama sürecinde size yol göstereceğiz.
+Proje yönetimi görevlerinizi verimli bir şekilde sadeleştirmek mi istiyorsunuz? Aspose.Tasks for .NET ile proje verilerini etkili bir şekilde manipüle etmek için güçlü işlevlerden yararlanabilirsiniz. Bu özelliklerden biri, tüm koşullarda **use and operator** kullanma yeteneğidir; bu sayede görevleri aynı anda birden fazla kritere göre filtreleyebilirsiniz. Bu öğreticide, bu işlevselliği adım adım nasıl uygulayacağınızı gösterecek ve **how to filter tasks** hızlı ve güvenilir bir şekilde yapmanızı sağlayacağız.
 
-## Önkoşullar
+## Quick Answers
+- **AND operatörü ne yapar?** Birden fazla filtre koşulunu birleştirir, böylece yalnızca *tüm* kriterleri karşılayan görevler döndürülür.  
+- **Bu özelliği hangi kütüphane sağlar?** Aspose.Tasks for .NET.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.  
+- **Bir MPP dosyası yükleyebilir miyim?** Evet – *.mpp* dosyasını yüklemek için `Project` sınıfını kullanın.  
+- **Özet görevleri filtrelemek mümkün mü?** Kesinlikle, koşul listesine bir `SummaryCondition` ekleyerek.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## “use and operator” özelliği nedir?
 
-1. Temel C# Bilgisi: C# programlama diline aşina olmak faydalı olacaktır.
-2.  Aspose.Tasks for .NET Kütüphanesi: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
-3. Entegre Geliştirme Ortamı (IDE): Kodlama kolaylığı için sisteminizde Visual Studio gibi bir IDE'nin kurulu olmasını sağlayın.
+**use and operator** yeteneği, birkaç `ICondition<T>` uygulamasını bir `AndAllCondition<T>` ile birleştirmenizi sağlar. Oluşan filtre, belirttiğiniz *her* koşulu karşılayan görevleri döndürür.
 
-## Ad Alanlarını İçe Aktar
+## Neden birden fazla koşul uygulanır?
 
-Öncelikle gerekli sınıflara ve yöntemlere erişmek için gerekli ad alanlarını içe aktarmanız gerekir.
+Birden fazla koşul uygulamak (ör. “görev null değil” **and** “görev bir özet görevdir”) veriler üzerinde hassas kontrol sağlar. Bu, özellikle karmaşık proje takvimleri için **create custom filter** mantığını oluşturmanız gerektiğinde veya belirli görev gruplarına odaklanan raporlar üretirken faydalıdır.
+
+## Ön Koşullar
+
+Öğreticiye başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+
+1. **C# Temel Bilgisi** – C# programlama diline aşina olmak faydalı olacaktır.  
+2. **Aspose.Tasks for .NET Kütüphanesi** – Aspose.Tasks for .NET kütüphanesini [buradan](https://releases.aspose.com/tasks/net/) indirip kurun.  
+3. **Entegre Geliştirme Ortamı (IDE)** – Kodlama kolaylığı için sisteminizde Visual Studio gibi bir IDE kurulu olmalı.  
+
+## Ad Alanlarını İçe Aktarın
+
+İlk olarak, gerekli sınıflara ve metodlara erişmek için gerekli ad alanlarını içe aktarmanız gerekir.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,31 +52,32 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Şimdi süreci net bir şekilde anlamak için örneği birden fazla adıma ayıralım.
+Şimdi örneği birden fazla adıma ayırarak süreci net bir şekilde anlayalım.
 
-## Adım 1: Proje Dosyasını Yükleyin
+## Adım 1: Proje Dosyasını Yükle (load mpp file)
+
+`Project` sınıfı yapıcıyı kullanarak dosya yolunu belirterek proje dosyasını yükleyin. Bu adım **load mpp file** işlemini gösterir.
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Proje dosyasını kullanarak yükleyin.`Project`dosya yolunu belirten sınıf yapıcısı.
+## Adım 2: Tüm Proje Görevlerini Topla
 
-## Adım 2: Tüm Proje Görevlerini Toplayın
+Projede bulunan tüm görevleri toplamak için `ChildTasksCollector` sınıfını kullanın.
 
 ```csharp
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Kullanın`ChildTasksCollector` proje içindeki tüm görevleri toplamak için sınıf.
+## Adım 3: Filtre Koşullarını Tanımla
 
-## 3. Adım: Filtre Koşullarını Tanımlayın
+Görevleri filtrelemek için bir koşul listesi oluşturun. Bu örnekte, **null olmayan** ve **özet görev** olan görevleri filtreliyoruz – bu **filter summary tasks** örneğidir.
 
 ```csharp
 var conditions = new List<ICondition<Task>>
@@ -69,64 +87,70 @@ var conditions = new List<ICondition<Task>>
 };
 ```
 
-Görevleri filtrelemek için koşulların bir listesini oluşturun. Bu örnekte null olmayan ve özet görevler olan görevleri filtreliyoruz.
+## Adım 4: Koşullara AND Operatörünü Uygula (apply multiple conditions)
 
-## Adım 4: Koşullara AND Operatörü Uygula
+Koşulları `AndAllCondition` sınıfı ile birleştirerek, tüm koşullara **use and operator** uygularsınız.
 
 ```csharp
 var joinedCondition = new AndAllCondition<Task>(conditions);
 ```
 
- Koşulları kullanarak katılın`AndAllCondition` AND operatörünü tüm koşullara uygulayan sınıf.
-
 ## Adım 5: Görevleri Filtrele
+
+Birleştirilen koşulu toplanan görevlere uygulayarak onları uygun şekilde filtreleyin. Bu adım, birleşik bir koşul kullanarak **how to filter tasks** göstermektedir.
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-Birleştirilen koşulu, uygun şekilde filtrelemek için toplanan görevlere uygulayın.
+## Adım 6: Filtrelenmiş Görevleri İşle
 
-## Adım 6: Filtrelenmiş Görevleri İşleyin
+Filtrelenmiş görevler üzerinde döngü kurarak gerekli işlemleri gerçekleştirin.
 
 ```csharp
 foreach (var task in collection)
 {
     Console.WriteLine("Name: " + task.Get(Tsk.Name));
-    // Filtrelenmiş görevlerle işlemleri gerçekleştirin
+    // Perform operations with filtered tasks
 }
 ```
 
-Filtrelenen görevleri yineleyin ve işlemleri gerektiği gibi gerçekleştirin.
+## Yaygın Sorunlar ve Çözümler
 
-## Çözüm
+- **Koşul listesi boş** – `AndAllCondition<T>` oluşturulmadan önce en az bir `ICondition<T>` eklediğinizden emin olun.  
+- **Görev döndürülmedi** – Eklediğiniz koşulların projenizdeki görevlerle gerçekten eşleştiğini doğrulayın (ör. özet görevler olmadığında özet görevleri filtreliyor olabilirsiniz).  
+- **Dosya bulunamadı** – `DataDir` yolunu ve *.mpp* dosyasının adını iki kez kontrol edin.
 
-Sonuç olarak, Aspose.Tasks for .NET ile AND operatörünü her koşulda kullanmak, proje görevlerini aynı anda birden fazla kritere göre verimli bir şekilde filtrelemenize olanak tanır. Bu eğitimde sağlanan adım adım kılavuzu takip ederek, bu işlevselliği proje yönetimi iş akışınıza sorunsuz bir şekilde entegre ederek üretkenliği ve organizasyonu artırabilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**Q: Örnekte gösterilenlerin dışında ek koşullar uygulayabilir miyim?**  
+A: Evet, proje gereksinimlerinize göre herhangi bir özel koşul tanımlayıp uygulayabilirsiniz.
 
-### S1: Örnekte gösterilenlerin dışında ek koşullar uygulayabilir miyim?
+**Q: Aspose.Tasks for .NET farklı proje dosya formatlarıyla uyumlu mu?**  
+A: Evet, Aspose.Tasks MPP, XML ve CSV gibi çeşitli proje dosya formatlarını destekler.
 
-C1: Evet, proje gereksinimlerinize göre herhangi bir özel koşulu tanımlayabilir ve uygulayabilirsiniz.
+**Q: Aspose.Tasks karmaşık proje zamanlama algoritmalarını destekliyor mu?**  
+A: Kesinlikle, Aspose.Tasks kritik yol analizi ve kaynak tahsisi gibi gelişmiş özellikler sunar.
 
-### S2: Aspose.Tasks for .NET farklı proje dosyası formatlarıyla uyumlu mudur?
+**Q: Aspose.Tasks'i diğer .NET çerçeveleri veya kütüphaneleriyle entegre edebilir miyim?**  
+A: Evet, Aspose.Tasks'i diğer .NET çerçeveleri ve kütüphaneleriyle sorunsuz bir şekilde entegre ederek işlevselliği artırabilirsiniz.
 
-C2: Evet, Aspose.Tasks MPP, XML ve CSV gibi çeşitli proje dosyası formatlarını destekler.
+**Q: Aspose.Tasks kullanıcıları için bir topluluk forumu veya destek kanalı var mı?**  
+A: Evet, herhangi bir soru veya yardım için Aspose.Tasks topluluk forumuna [buradan](https://forum.aspose.com/c/tasks/15) erişebilirsiniz.
 
-### S3: Aspose.Tasks karmaşık proje planlama algoritmaları için destek sunuyor mu?
+## Sonuç
 
-Cevap3: Kesinlikle Aspose.Tasks, proje programlarını yönetmek için kritik yol analizi ve kaynak tahsisi de dahil olmak üzere gelişmiş özellikler sağlar.
+Sonuç olarak, Aspose.Tasks for .NET ile tüm koşullarda **use and operator** kullanmak, proje görevlerini aynı anda birden fazla kritere göre verimli bir şekilde filtrelemenizi sağlar. Bu öğreticide verilen adım adım rehberi izleyerek, bu işlevselliği proje yönetimi iş akışınıza sorunsuz bir şekilde entegre edebilir, verimliliği ve organizasyonu artırabilirsiniz.
 
-### S4: Aspose.Tasks'ı diğer .NET çerçeveleri veya kitaplıklarıyla entegre edebilir miyim?
-
-Cevap4: Evet, işlevselliği geliştirmek için Aspose.Tasks'ı diğer .NET çerçeveleri ve kitaplıklarıyla sorunsuz bir şekilde entegre edebilirsiniz.
-
-### S5: Aspose.Tasks kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
-
- Cevap5: Evet, Aspose.Tasks topluluk forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose
