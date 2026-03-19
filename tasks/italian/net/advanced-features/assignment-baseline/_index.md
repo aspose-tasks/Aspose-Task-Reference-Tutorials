@@ -1,56 +1,63 @@
 ---
-title: Gestione della baseline di assegnazione in Aspose.Tasks
-linktitle: Gestione della baseline di assegnazione in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come gestire in modo efficiente le linee di base delle assegnazioni con Aspose.Tasks per .NET, garantendo un monitoraggio accurato dell'avanzamento e delle prestazioni del progetto.
-weight: 14
+date: 2026-03-19
+description: Scopri come impostare la baseline del progetto e gestire efficacemente
+  le baseline delle attività con Aspose.Tasks per .NET, garantendo un monitoraggio
+  accurato dell'avanzamento del progetto.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Imposta la baseline del progetto – Gestione della baseline delle assegnazioni
+  in Aspose.Tasks
 url: /it/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestione della baseline di assegnazione in Aspose.Tasks
+# Impostare la baseline del progetto – Gestione della baseline delle assegnazioni in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-Quando si lavora su attività di gestione del progetto, la gestione delle basi di assegnazione è fondamentale per monitorare accuratamente i progressi. Aspose.Tasks per .NET fornisce un set completo di strumenti per gestire in modo efficiente le linee di base delle assegnazioni. In questo tutorial approfondiremo passo dopo passo il processo di gestione delle basi di assegnazione.
+Quando si lavora su attività di gestione dei progetti, **impostare una baseline del progetto** è fondamentale per misurare i progressi effettivi rispetto al piano originale. Aspose.Tasks per .NET non solo consente di **impostare la baseline del progetto**, ma offre anche il pieno controllo sulle baseline delle assegnazioni, permettendo un monitoraggio preciso delle prestazioni. In questo tutorial percorreremo l'intero processo—caricamento di un progetto, impostazione di una baseline, lettura dei dati della baseline delle assegnazioni e confronto delle baseline—così potrai monitorare i tuoi progetti con sicurezza.
+
+## Risposte rapide
+- **Cosa significa “impostare la baseline del progetto”?** Registra i dati originali di programmazione e di costo per un confronto successivo con le prestazioni effettive.  
+- **Quale metodo API imposta una baseline?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Le baseline delle assegnazioni richiedono una chiamata separata?** No, vengono memorizzate automaticamente quando imposti una baseline del progetto.  
+- **Quali formati sono supportati?** MPP, XML, MPX e altri tramite Aspose.Tasks.  
+- **È necessaria una licenza per la produzione?** Sì, è necessaria una licenza commerciale per l'uso non‑trial.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
+- Conoscenza di base della programmazione C#.  
+- Visual Studio (qualsiasi versione recente).  
+- Libreria Aspose.Tasks per .NET aggiunta al tuo progetto. Puoi scaricarla da [qui](https://releases.aspose.com/tasks/net/).  
+- Accesso a un file di progetto in formato MPP (ad esempio `AssignmentBaseline2007.mpp`).
 
-- Conoscenza base del linguaggio di programmazione C#.
-- Visual Studio installato nel sistema.
-- Libreria Aspose.Tasks per .NET aggiunta al tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
-- Accesso a un file di progetto in formato MPP.
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Per iniziare a lavorare con Aspose.Tasks, devi importare gli spazi dei nomi necessari nel tuo progetto C#. Aggiungi i seguenti spazi dei nomi all'inizio del file C#:
+Aggiungi gli spazi dei nomi richiesti all'inizio del tuo file C# in modo che il compilatore sappia dove trovare le classi di Aspose.Tasks.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Passaggio 1: caricare il progetto e impostare la baseline
+## Passo 1: Caricare il progetto e impostare la baseline del progetto
 
- Innanzitutto, carica il file di progetto utilizzando il file`Project` classe da Aspose.Tasks. Quindi, imposta il tipo di baseline per il progetto utilizzando il file`SetBaseline` metodo.
+Per prima cosa, carica il file MPP esistente e poi chiama `SetBaseline` per **impostare la baseline del progetto** per l'intero progetto.
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Passaggio 2: leggere le informazioni di base sull'assegnazione
+## Passo 2: Leggere le informazioni della baseline delle assegnazioni
 
-Scorrere ogni assegnazione di risorse nel progetto e recuperare le informazioni di base per ogni assegnazione.
+Dopo che la baseline è stata impostata, ogni assegnazione di risorsa contiene i propri record di baseline. Il ciclo qui sotto estrae e stampa tali dettagli, inclusi le date di inizio/fine, il costo, il lavoro e eventuali dati a intervalli di tempo.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +89,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Passaggio 3: verificare l'uguaglianza della linea di base
+## Passo 3: Confrontare le baseline delle assegnazioni
 
-Confronta le informazioni di base per diversi incarichi utilizzando vari metodi di confronto forniti da Aspose.Tasks.
+Puoi confrontare le baseline di diverse assegnazioni utilizzando gli operatori di uguaglianza e confronto integrati. Questo è utile quando devi rilevare spostamenti di programma o superamenti di costo tra le attività.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +100,51 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Controllare l'uguaglianza della linea di base
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Controllare il confronto di base
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Visualizza gli hashcode di base
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-La gestione delle basi di assegnazione è parte integrante della gestione dei progetti, consentendo un monitoraggio accurato dei progressi e delle prestazioni. Con Aspose.Tasks per .NET, la gestione delle linee di base delle assegnazioni diventa semplificata ed efficiente, fornendo agli sviluppatori potenti strumenti per migliorare i flussi di lavoro di gestione dei progetti.
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **I dati della baseline appaiono vuoti** | Il file di progetto è stato aperto in modalità sola lettura o la baseline non è mai stata impostata. | Chiama `project.SetBaseline(BaselineType.Baseline)` prima di leggere le baseline delle assegnazioni. |
+| **`NullReferenceException` su `TimephasedData`** | Non tutte le baseline contengono voci a intervalli di tempo. | Controlla sempre `baseline.TimephasedData != null` (come mostrato nel codice). |
+| **Recupero UID errato** | I valori UID differiscono tra le versioni del file. | Usa `ResourceAssignments.GetByUid` con l'UID corretto oppure itera per trovare l'assegnazione necessaria. |
 
 ## Domande frequenti
 
-### Q1: Aspose.Tasks può gestire più linee di base per una singola assegnazione?
+**Q: Aspose.Tasks può gestire più baseline per una singola assegnazione?**  
+A: Sì, Aspose.Tasks supporta più baseline per ogni assegnazione, consentendo un monitoraggio completo dell'avanzamento del progetto nel tempo.
 
-R1: Sì, Aspose.Tasks supporta più linee di base per ogni assegnazione, consentendo un monitoraggio completo dell'avanzamento del progetto nel tempo.
+**Q: Aspose.Tasks è compatibile con vari formati di file di progetto oltre a MPP?**  
+A: Sì, Aspose.Tasks supporta un'ampia gamma di formati di file di progetto, inclusi XML, MPX e MPP, garantendo la compatibilità con diversi strumenti di gestione dei progetti.
 
-### Q2: Aspose.Tasks è compatibile con vari formati di file di progetto diversi da MPP?
+**Q: Posso modificare le informazioni della baseline programmaticamente usando Aspose.Tasks?**  
+A: Assolutamente, Aspose.Tasks fornisce API estese per modificare le informazioni della baseline in modo dinamico secondo i requisiti del progetto, offrendo flessibilità e controllo sui processi di gestione del progetto.
 
-R2: Sì, Aspose.Tasks supporta un'ampia gamma di formati di file di progetto, inclusi XML, MPX e MPP, garantendo la compatibilità con vari strumenti di gestione dei progetti.
+**Q: Aspose.Tasks offre documentazione e risorse di supporto per gli sviluppatori?**  
+A: Sì, gli sviluppatori possono accedere a documentazione completa, tutorial e forum sul sito web di Aspose.Tasks, facilitando un'integrazione fluida e la risoluzione dei problemi.
 
-### Q3: posso modificare le informazioni di base a livello di codice utilizzando Aspose.Tasks?
+**Q: È disponibile una versione di prova per Aspose.Tasks per .NET?**  
+A: Sì, gli sviluppatori possono ottenere una versione di prova gratuita di Aspose.Tasks per .NET da [qui](https://releases.aspose.com/), consentendo loro di valutare le funzionalità e le capacità prima di prendere una decisione d'acquisto.
 
-A3: Assolutamente, Aspose.Tasks fornisce API estese per modificare dinamicamente le informazioni di base in base ai requisiti del progetto, offrendo flessibilità e controllo sui processi di gestione del progetto.
-
-### Q4: Aspose.Tasks offre documentazione e risorse di supporto per gli sviluppatori?
-
-R4: Sì, gli sviluppatori possono accedere a documentazione completa, tutorial e forum sul sito Web Aspose.Tasks, facilitando un'integrazione e una risoluzione dei problemi fluide.
-
-### Q5: È disponibile una versione di prova per Aspose.Tasks per .NET?
-
- A5: Sì, gli sviluppatori possono ottenere una versione di prova gratuita di Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/), consentendo loro di valutarne le caratteristiche e le capacità prima di prendere una decisione di acquisto.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-03-19  
+**Testato con:** Aspose.Tasks 24.12 for .NET  
+**Autore:** Aspose

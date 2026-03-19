@@ -1,56 +1,64 @@
 ---
-title: Správa základního plánu přiřazení v Aspose.Tasks
-linktitle: Správa základního plánu přiřazení v Aspose.Tasks
+date: 2026-03-19
+description: Naučte se, jak nastavit základní linii projektu a efektivně spravovat
+  základní linie přiřazení pomocí Aspose.Tasks pro .NET, což zajišťuje přesné sledování
+  postupu projektu.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak efektivně spravovat základní linie zadání pomocí Aspose.Tasks pro .NET, což zajišťuje přesné sledování průběhu a výkonu projektu.
-weight: 14
+title: Nastavit projektovou základní linii – Správa základní linie přiřazení v Aspose.Tasks
 url: /cs/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa základního plánu přiřazení v Aspose.Tasks
+# Nastavení projektové základní linie – Správa základních linií přiřazení v Aspose.Tasks
 
 ## Úvod
 
-Při práci na úkolech projektového řízení je pro přesné sledování pokroku zásadní řízení výchozích linií přiřazení. Aspose.Tasks for .NET poskytuje komplexní sadu nástrojů pro efektivní zpracování základních linií přiřazení. V tomto tutoriálu se krok za krokem ponoříme do procesu správy základních linií přiřazení.
+Při práci na úkolech projektového řízení je **nastavení projektové základní linie** nezbytné pro měření skutečného postupu oproti původnímu plánu. Aspose.Tasks pro .NET vám nejen umožní **nastavit projektovou základní linii**, ale také poskytuje plnou kontrolu nad základními liniemi přiřazení, což umožňuje přesné sledování výkonnosti. V tomto tutoriálu projdeme celý proces – načtení projektu, nastavení základní linie, čtení dat o základní linii přiřazení a porovnání základních linií – abyste mohli sebejistě sledovat své projekty.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená „nastavit projektovou základní linii“?** Zaznamená původní data o harmonogramu a nákladech pro pozdější srovnání se skutečným výkonem.  
+- **Která metoda API nastavuje základní linii?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Vyžadují základní linie přiřazení samostatné volání?** Ne, jsou uloženy automaticky při nastavení projektové základní linie.  
+- **Jaké formáty jsou podporovány?** MPP, XML, MPX a další prostřednictvím Aspose.Tasks.  
+- **Je pro produkční použití vyžadována licence?** Ano, pro ne‑zkušební použití je potřeba komerční licence.
 
-Než začneme, ujistěte se, že máte následující předpoklady:
+## Požadavky
 
-- Základní znalost programovacího jazyka C#.
-- Visual Studio nainstalované ve vašem systému.
-- Do vašeho projektu byla přidána knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
-- Přístup k souboru projektu ve formátu MPP.
+Než začnete, ujistěte se, že máte:
 
-## Importovat jmenné prostory
+- Základní znalosti programování v C#.  
+- Visual Studio (libovolná aktuální verze).  
+- Knihovnu Aspose.Tasks pro .NET přidanou do vašeho projektu. Můžete ji stáhnout [zde](https://releases.aspose.com/tasks/net/).  
+- Přístup k projektovému souboru ve formátu MPP (např. `AssignmentBaseline2007.mpp`).
 
-Chcete-li začít pracovat s Aspose.Tasks, musíte do svého projektu C# importovat potřebné jmenné prostory. Na začátek souboru C# přidejte následující jmenné prostory:
+## Importujte jmenné prostory
+
+Přidejte požadované jmenné prostory na začátek vašeho souboru C#, aby kompilátor věděl, kde najít třídy Aspose.Tasks.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Krok 1: Načtěte projekt a nastavte základní plán
+## Krok 1: Načtení projektu a nastavení projektové základní linie
 
- Nejprve načtěte soubor projektu pomocí`Project` třídy z Aspose.Tasks. Poté nastavte typ výchozího plánu pro projekt pomocí`SetBaseline` metoda.
+Nejprve načtěte existující soubor MPP a poté zavolejte `SetBaseline`, abyste **nastavili projektovou základní linii** pro celý projekt.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Krok 2: Přečtěte si informace o základním plánu přiřazení
+## Krok 2: Načtení informací o základní linii přiřazení
 
-Projděte každé přiřazení zdrojů v projektu a načtěte základní informace pro každé přiřazení.
+Po nastavení základní linie obsahuje každé přiřazení zdroje své vlastní záznamy základní linie. Smyčka níže extrahuje a vypíše tyto podrobnosti, včetně dat zahájení/ukončení, nákladů, práce a případných časově fázovaných dat.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Krok 3: Zkontrolujte základní rovnost
+## Krok 3: Porovnání základních linií přiřazení
 
-Porovnejte základní informace pro různá přiřazení pomocí různých porovnávacích metod poskytovaných Aspose.Tasks.
+Můžete porovnávat základní linie různých přiřazení pomocí vestavěných operátorů rovnosti a porovnání. To je užitečné, když potřebujete zjistit posuny v harmonogramu nebo překročení nákladů mezi úkoly.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,53 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Zkontrolujte základní rovnost
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Zkontrolujte základní srovnání
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Zobrazit základní hashkódy
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Správa základních linií přiřazení je nedílnou součástí projektového řízení a umožňuje přesné sledování postupu a výkonu. S Aspose.Tasks for .NET se manipulace se základními liniemi přiřazení zjednoduší a zefektivní a poskytuje vývojářům výkonné nástroje pro zlepšení pracovních postupů projektového řízení.
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| **Data základní linie jsou prázdná** | Projektový soubor byl otevřen v režimu jen pro čtení nebo základní linie nebyla nikdy nastavena. | Zavolejte `project.SetBaseline(BaselineType.Baseline)` před čtením základních linií přiřazení. |
+| **`NullReferenceException` u `TimephasedData`** | Ne všechny základní linie obsahují časově fázované položky. | Vždy kontrolujte `baseline.TimephasedData != null` (jak je ukázáno v kódu). |
+| **Nesprávné získání UID** | Hodnoty UID se liší mezi verzemi souborů. | Použijte `ResourceAssignments.GetByUid` s správným UID nebo iterujte, abyste našli požadované přiřazení. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Může Aspose.Tasks zpracovat více směrných plánů pro jeden úkol?
+**Q: Dokáže Aspose.Tasks zpracovat více základních linií pro jedno přiřazení?**  
+A: Ano, Aspose.Tasks podporuje více základních linií pro každé přiřazení, což umožňuje komplexní sledování postupu projektu v čase.
 
-Odpověď 1: Ano, Aspose.Tasks podporuje více směrných plánů pro každé zadání, což umožňuje komplexní sledování průběhu projektu v průběhu času.
+**Q: Je Aspose.Tasks kompatibilní s různými formáty projektových souborů kromě MPP?**  
+A: Ano, Aspose.Tasks podporuje širokou škálu formátů projektových souborů, včetně XML, MPX a MPP, což zajišťuje kompatibilitu s různými nástroji pro řízení projektů.
 
-### Q2: Je Aspose.Tasks kompatibilní s různými formáty souborů projektu jinými než MPP?
+**Q: Mohu programově upravovat informace o základní linii pomocí Aspose.Tasks?**  
+A: Rozhodně, Aspose.Tasks poskytuje rozsáhlé API pro dynamickou úpravu informací o základní linii podle požadavků projektu, což nabízí flexibilitu a kontrolu nad procesy řízení projektů.
 
-Odpověď 2: Ano, Aspose.Tasks podporuje širokou škálu formátů souborů projektu, včetně XML, MPX a MPP, což zajišťuje kompatibilitu s různými nástroji pro správu projektů.
+**Q: Nabízí Aspose.Tasks dokumentaci a podpůrné zdroje pro vývojáře?**  
+A: Ano, vývojáři mají přístup k podrobné dokumentaci, tutoriálům a fórům na webu Aspose.Tasks, což usnadňuje hladkou integraci a řešení problémů.
 
-### Q3: Mohu upravit informace podle směrného plánu programově pomocí Aspose.Tasks?
+**Q: Existuje zkušební verze Aspose.Tasks pro .NET?**  
+A: Ano, vývojáři si mohou stáhnout bezplatnou zkušební verzi Aspose.Tasks pro .NET [zde](https://releases.aspose.com/), aby mohli vyzkoušet její funkce a možnosti před rozhodnutím o koupi.
 
-A3: Absolutně, Aspose.Tasks poskytuje rozsáhlá rozhraní API pro dynamickou úpravu základních informací podle požadavků projektu a nabízí flexibilitu a kontrolu nad procesy projektového řízení.
-
-### Q4: Nabízí Aspose.Tasks dokumentaci a zdroje podpory pro vývojáře?
-
-Odpověď 4: Ano, vývojáři mají přístup ke komplexní dokumentaci, výukovým programům a fórům na webu Aspose.Tasks, což usnadňuje hladkou integraci a odstraňování problémů.
-
-### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
-
- A5: Ano, vývojáři mohou získat bezplatnou zkušební verzi Aspose.Tasks for .NET od[tady](https://releases.aspose.com/), což jim umožňuje vyhodnotit jeho vlastnosti a možnosti před rozhodnutím o koupi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-03-19  
+**Testováno s:** Aspose.Tasks 24.12 pro .NET  
+**Autor:** Aspose  
+
+---
