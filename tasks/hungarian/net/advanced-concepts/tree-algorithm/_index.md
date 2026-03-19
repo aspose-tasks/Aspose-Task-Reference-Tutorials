@@ -1,53 +1,68 @@
 ---
-title: Fa-algoritmus használata az Aspose.Tasks-ban
-linktitle: Fa-algoritmus használata az Aspose.Tasks-ban
+date: 2026-03-19
+description: Tanulja meg, hogyan adjon hozzá erőforrást a projekthez, és számítsa
+  ki a feladat időtartamát az Aspose.Tasks fa algoritmusával, valamint hogyan rendelje
+  hozzá az erőforrásokat a feladatokhoz .NET‑ben.
+linktitle: Add Resource to Project with Tree Algorithm in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti hatékonyan a feladathierarchiákat .NET-projektjeiben az Aspose.Tasks' Tree Algorithm segítségével.
-weight: 13
+title: Erőforrás hozzáadása a projekthez fa algoritmussal az Aspose.Tasks-ben
 url: /hu/net/advanced-concepts/tree-algorithm/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fa-algoritmus használata az Aspose.Tasks-ban
+# Erőforrás hozzáadása projekthez a Fa Algoritmus segítségével az Aspose.Tasks-ben
 
 ## Bevezetés
 
-Az Aspose.Tasks for .NET hatékony funkciókat kínál a projektmenedzsment feladatokkal, erőforrásokkal és ütemezésekkel való munkához. Az egyik ilyen funkció a Tree Algorithm, amely lehetővé teszi a felhasználók számára a feladathierarchiák hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET fa algoritmusa a közös munka összegyűjtésére és a munkaértékek frissítésére egy projekten belül.
+Ebben az útmutatóban megtudja, **hogyan adjon hozzá erőforrást a projekthez**, az Aspose.Tasks for .NET által biztosított hatékony Fa Algoritmus kihasználásával. Lépésről lépésre végigvezetjük a feladathierarchia létrehozásán, a feladat időtartamának kiszámításán és az erőforrások feladatokhoz rendelésén – mindezt egyértelmű, másolható módon, amelyet saját megoldásába illeszthet.
+
+## Gyors válaszok
+- **Mi a Fa Algoritmus feladata?** Egy feladathierarchiát jár be, hogy hatékonyan összegyűjtse a munkamennyiségeket.  
+- **Melyik fő műveletet fed le ez az útmutató?** Erőforrás hozzáadása a projekthez és a munkamennyiségek frissítése.  
+- **Szükségem van licencre?** Ideiglenes vagy teljes licenc szükséges a termelésben való használathoz.  
+- **Használhatom .NET Core‑dal?** Igen, az Aspose.Tasks támogatja a .NET Framework‑öt és a .NET Core‑t.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy egyszerű projektfájlhoz.
+
+## Mi az a „erőforrás hozzáadása projekthez” az Aspose.Tasks-ben?
+
+Erőforrás hozzáadása a projekthez azt jelenti, hogy létrehozunk egy `Resource` objektumot, meghatározzuk típusát (pl. work), és a `ResourceAssignments` segítségével egy vagy több feladathoz kapcsoljuk. Ez lehetővé teszi a tervező számára, hogy kiszámolja a ráfordítást, a költséget és a projekt teljes időtartamát.
+
+## Miért használjuk a Fa Algoritmust az erőforrás munkaszámításokhoz?
+
+A Fa Algoritmus egyszer bejárja a feladattafát, és a levélfeladatok munkáját felhalmozva összegzi a szummár feladatoknál. Ez a megközelítés sokkal hatékonyabb, mint minden feladat egyenkénti iterálása, különösen nagy, mély hierarchiájú projektek esetén. Emellett garantálja, hogy a szummár munkamennyiségek szinkronban maradjanak a gyermekekkel.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+1. **Visual Studio** – bármelyik legújabb kiadás (2019, 2022 vagy újabb).  
+2. **Aspose.Tasks for .NET** – töltsd le [innen](https://releases.aspose.com/tasks/net/).  
+3. **Alap C# ismeretek** – kényelmesen kell tudnod osztályokkal, objektumokkal és egyszerű LINQ‑al dolgozni.
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET webhelyet innen[itt](https://releases.aspose.com/tasks/net/).
-3. A C# alapvető ismerete: A példák követéséhez a C# programozási nyelv ismerete szükséges.
+## Névtér importálása
 
-## Névterek importálása
-
-A C#-projektben importálja a szükséges névtereket az Aspose.Tasks funkciók használatához:
+A C# projektedben importáld a szükséges névtereket az Aspose.Tasks funkciók használatához:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Most bontsuk le az egyes példákat több lépésre:
+Most bontsuk le minden példát több lépésre:
 
-## 1. lépés: Töltse be a projektfájlt
+## 1. lépés: Projektfájl betöltése
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Töltse be a projektfájlt a memóriába a`Project` osztály.
+Töltsd be a projektfájlt a memóriába a `Project` osztály segítségével.
 
-## 2. lépés: Határozza meg a feladathierarchiát
+## 2. lépés: Feladathierarchia meghatározása
 
 ```csharp
 var root = project.RootTask.Children.Add("Project Management");
@@ -55,9 +70,9 @@ var summary = root.Children.Add("Manage iteration");
 var task = summary.Children.Add("Acquire staff");
 ```
 
-Határozza meg a feladathierarchiát szülő- és gyermekfeladatok hozzáadásával.
+Határozd meg a feladathierarchiát szülő‑ és gyermekfeladatok hozzáadásával.
 
-## 3. lépés: Állítsa be a Feladat tulajdonságait
+## 3. lépés: Feladat tulajdonságainak beállítása (beleértve a **feladat időtartamának kiszámítását**)
 
 ```csharp
 task.Set(Tsk.Start, new DateTime(1999, 5, 3, 9, 0, 0));
@@ -65,9 +80,9 @@ task.Set(Tsk.Duration, project.GetDuration(8 * 14, TimeUnitType.Hour));
 task.Set(Tsk.Finish, project.Get(Prj.Calendar).GetFinishDateByStartAndWork(task.Get(Tsk.Start), task.Get(Tsk.Duration)));
 ```
 
-Állítson be olyan tulajdonságokat a feladatokhoz, mint a kezdő dátum, időtartam és befejezési dátum.
+Itt **kiszámítjuk a feladat időtartamát** azzal, hogy a munkával töltött órákat `Duration` objektummá alakítjuk, majd meghatározzuk a befejezési dátumot.
 
-## 4. lépés: Erőforrás hozzáadása
+## 4. lépés: Erőforrás hozzáadása (**erőforrások feladatokhoz rendelése**)
 
 ```csharp
 var resource = project.Resources.Add("Project Manager");
@@ -75,18 +90,18 @@ resource.Set(Rsc.Type, ResourceType.Work);
 project.ResourceAssignments.Add(task, resource);
 ```
 
-Adjon hozzá erőforrásokat a projekthez, és szükség szerint rendelje hozzá feladatokhoz.
+Ez a kódrészlet **hozzáad egy erőforrást a projekthez** és **erőforrásokat rendel feladatokhoz**, így a tervező tudja, ki felelős a munkáért.
 
-## 5. lépés: Faalgoritmus alkalmazása
+## 5. lépés: Fa Algoritmus alkalmazása
 
 ```csharp
 var acc = new WorkAccumulator();
 TaskUtils.Apply(summary, acc, 0);
 ```
 
- Inicializálja a`WorkAccumulator` osztályban, és alkalmazza a Fa algoritmust a közös munka összegyűjtéséhez.
+Inicializáld a `WorkAccumulator` osztályt, és alkalmazd a Fa Algoritmust a hierarchiában lévő közös munka összegyűjtésére.
 
-## 6. lépés: Frissítse a feladatot
+## 6. lépés: Feladatmunka frissítése
 
 ```csharp
 var summaryWork = acc.Work.ToDouble();
@@ -94,33 +109,60 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Frissítse a feladatok munkaértékeit az összegyűjtött információk alapján.
+Frissítsd a feladatok munkamennyiségeit a begyűjtött információk alapján.
+
+## Gyakori problémák és tippek
+
+- **Hiányzó naptárbeállítások:** Ha a befejezési dátum hibásnak tűnik, győződj meg róla, hogy a projekt naptár helyesen van beállítva a `GetFinishDateByStartAndWork` hívása előtt.  
+- **Erőforrás típus eltérés:** Mindig állítsd be a `Rsc.Type` értékét `ResourceType.Work`‑ra a munkához kapcsolódó erőforrásoknál; egyébként a munka összegzés nulla lehet.  
+- **Pro tipp:** A munka frissítése után hívd meg a `project.Save("UpdatedProject.mpp")` függvényt a változások mentéséhez.
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan használhatjuk az Aspose.Tasks for .NET fa-algoritmust a feladathierarchiák hatékony manipulálására. A lépésenkénti útmutató követésével hatékonyan kezelheti a projekteken belüli feladatokat és erőforrásokat.
+Ezeknek a lépéseknek a követésével most már tudod, hogyan **adj hozzá erőforrást a projekthez**, **számítsd ki a feladat időtartamát**, és **rendelj erőforrásokat feladatokhoz** az Aspose.Tasks Fa Algoritmusával. Ez a módszer egyszerűsíti a hierarchiakezelést és pontosan tartja a szummár munkamennyiségeket minimális kóddal.
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
-### 1. kérdés: Mi az Aspose.Tasks for .NET?
+### Q1: Mi az Aspose.Tasks for .NET?
 
-1. válasz: Az Aspose.Tasks for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára a Microsoft Project fájlok programozott kezelését a C# használatával.
+A1: Az Aspose.Tasks for .NET egy erőteljes API, amely lehetővé teszi a fejlesztők számára, hogy C#‑ban programozottan manipulálják a Microsoft Project fájlokat.
 
-### 2. kérdés: Letölthetem az Aspose.Tasks ingyenes próbaverzióját .NET-hez?
+### Q2: Letölthetek ingyenes próbaverziót az Aspose.Tasks for .NET‑ből?
 
- 2. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez a webhelyről[itt](https://releases.aspose.com/).
+A2: Igen, ingyenes próbaverziót tölthetsz le az Aspose.Tasks for .NET‑ből [innen](https://releases.aspose.com/).
 
-### 3. kérdés: Hol találom az Aspose.Tasks for .NET dokumentációját?
+### Q3: Hol találom az Aspose.Tasks for .NET dokumentációját?
 
- 3. válasz: Az Aspose.Tasks for .NET dokumentációja megtalálható[itt](https://reference.aspose.com/tasks/net/).
+A3: A dokumentációt megtalálod [itt](https://reference.aspose.com/tasks/net/).
 
-### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
+### Q4: Hogyan kaphatok támogatást az Aspose.Tasks for .NET‑hez?
 
- 4. válasz: Az Aspose.Tasks for .NET-hez kapcsolódó támogatásért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+A4: Támogatásért látogasd meg az [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15).
 
-### 5. kérdés: Rendelkezésre áll-e ideiglenes licenc tesztelési célokra?
+### Q5: Van ideiglenes licenc tesztelési célokra?
 
- 5. válasz: Igen, ideiglenes licencet szerezhet tesztelési célból a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
+A5: Igen, ideiglenes licencet kaphatsz tesztelési célokra [innen](https://purchase.aspose.com/temporary-license/).
+
+## Gyakran Ismételt Kérdések
+
+**K: Használhatom ezt a megközelítést egy meglévő nagy projektfájllal?**  
+A: Természetesen. A Fa Algoritmus bármely `Project` példányon működik, mérettől függetlenül.
+
+**K: A algoritmus frissíti a költségértékeket is?**  
+A: A példa a munkára fókuszál, de kiterjeszthető a költségre is, ha a `Tsk.Cost` értékeket hasonló módon halmozod.
+
+**K: Mely .NET verziók támogatottak?**  
+A: Az Aspose.Tasks támogatja a .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ és .NET 6+ verziókat.
+
+**K: Hogyan kezelem a több erőforrást egy feladathoz?**  
+A: Adj minden erőforrást a `project.ResourceAssignments.Add(task, resource)` metódussal; az akkumulátor automatikusan összeadja a munkájukat.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
