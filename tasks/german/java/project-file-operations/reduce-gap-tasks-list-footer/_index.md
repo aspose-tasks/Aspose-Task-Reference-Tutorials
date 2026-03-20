@@ -124,23 +124,6 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ## Fazit  
 Zusammenfassend lässt sich sagen, dass das Reduzieren des Abstands zwischen Aufgabenliste und Fußzeile in Microsoft‑Project‑Dateien mit Aspose.Tasks für Java ein einfacher Vorgang ist. Wenn Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie effizient **Projekt in PDF exportieren**, es als Bild speichern oder HTML erzeugen, wobei das Layout kompakt und professionell bleibt.
 
-## FAQ
-
-### Q: Ist Aspose.Tasks mit allen Versionen von Microsoft Project kompatibel?
-Aspose.Tasks unterstützt die Formate von Microsoft Project 2003‑2019 und gewährleistet damit die Kompatibilität mit verschiedenen Versionen.
-
-### Q: Kann ich das Aussehen der Fußzeile in meinen Projektdokumenten anpassen?
-Ja, Aspose.Tasks bietet umfangreiche Optionen zur Anpassung des Aussehens von Fußzeilen, einschließlich der Reduzierung von Abständen und der Anpassung der Inhaltsposition.
-
-### Q: Unterstützt Aspose.Tasks das Speichern von Projekten in anderen Formaten als PNG, PDF und HTML?
-Ja, Aspose.Tasks unterstützt eine Vielzahl von Formaten, darunter XLSX, XML und MPP sowie weitere.
-
-### Q: Gibt es eine Testversion von Aspose.Tasks?
-Ja, Sie können eine kostenlose Testversion von Aspose.Tasks von [hier](https://releases.aspose.com/) herunterladen.
-
-### Q: Wo kann ich Unterstützung erhalten, wenn ich bei der Verwendung von Aspose.Tasks auf Probleme stoße?
-Sie können Unterstützung im Aspose.Tasks‑Community‑Forum [hier](https://forum.aspose.com/c/tasks/15) erhalten.
-
 ## Häufig gestellte Fragen (Zusätzlich)
 
 **Q: Wie wirkt sich das Reduzieren des Fußzeilenabstands auf die Seitennummerierung aus?**  

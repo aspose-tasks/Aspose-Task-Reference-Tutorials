@@ -125,28 +125,6 @@ Salve o projeto como um arquivo HTML com as opções configuradas.
 ## Conclusão  
 Em conclusão, reduzir o espaço entre a lista de tarefas e o rodapé em arquivos do Microsoft Project é um processo simples com Aspose.Tasks para Java. Seguindo os passos descritos neste tutorial, você pode **exportar projeto para PDF**, salvá‑lo como imagem ou gerar HTML mantendo o layout compacto e profissional.
 
-## FAQ's
-
-### Q: O Aspose.Tasks é compatível com todas as versões do Microsoft Project?
-
-A: Aspose.Tasks suporta formatos do Microsoft Project 2003‑2019, garantindo compatibilidade em várias versões.
-
-### Q: Posso personalizar a aparência do rodapé nos meus documentos de projeto?
-
-A: Sim, Aspose.Tasks oferece opções extensas para personalizar a aparência dos rodapés, incluindo a redução de espaços e ajuste da posição do conteúdo.
-
-### Q: O Aspose.Tasks suporta salvar projetos em formatos além de PNG, PDF e HTML?
-
-A: Sim, Aspose.Tasks suporta uma ampla gama de formatos, incluindo XLSX, XML e MPP, entre outros.
-
-### Q: Existe uma versão de avaliação disponível para o Aspose.Tasks?
-
-A: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Tasks [aqui](https://releases.aspose.com/).
-
-### Q: Onde posso obter suporte se encontrar algum problema ao usar o Aspose.Tasks?
-
-A: Você pode obter assistência no fórum da comunidade Aspose.Tasks [aqui](https://forum.aspose.com/c/tasks/15).
-
 ## Perguntas Frequentes (Adicionais)
 
 **Q: Como a redução do espaço do rodapé afeta a paginação?**  

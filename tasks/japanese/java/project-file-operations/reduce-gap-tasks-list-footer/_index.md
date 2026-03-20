@@ -15,37 +15,37 @@ weight: 10
 
 # Aspose.Tasks でプロジェクトを PDF にエクスポートし、タスクリストとフッター間の余白を削減する
 
-## Introduction  
+## はじめに  
 このチュートリアルでは、Microsoft Project ファイルにおいてタスクリストとフッター間の不要な余白を削減しながら、**プロジェクトを PDF にエクスポートする方法**を学びます。ガイドの最後までに、Aspose.Tasks for Java を使用して、レイアウトがコンパクトな PDF、PNG 画像、HTML ページを生成できるようになります。ステップバイステップで進めていきましょう。
 
-## Quick Answers  
+## よくある質問  
 - **「プロジェクトを PDF にエクスポートする」とは何ですか？** MPP ファイルを PDF ドキュメントに変換し、タスク、タイムライン、書式設定を保持します。  
 - **フッターの余白を削減する理由は？** 余白が小さくなることで、レポートがよりタイトでプロフェッショナルに見え、印刷やウェブ表示に適したドキュメントになります。  
 - **プロジェクトを画像として保存できますか？** はい – Aspose.Tasks は PNG、JPEG などの画像形式をサポートしています。  
 - **特別なライセンスが必要ですか？** 無料トライアルがありますが、商用利用にはライセンスが必要です。  
 - **必要な Java のバージョンは？** 現行の Aspose.Tasks ライブラリは Java 8 以上で動作します。
 
-## What is “export project to PDF”?  
+## 「プロジェクトをPDFにエクスポート」とは？  
 プロジェクトを PDF にエクスポートすると、内部の MPP 構造がポータブルドキュメントに変換され、Microsoft Project がなくても任意のデバイスで開くことができます。ステータスレポートやステークホルダー向けの更新、プロジェクト計画のアーカイブに最適です。
 
-## Why Reduce Footer Gap?  
+## フッターの間隔を狭める理由  
 デフォルトのフッター余白は不要な空白を生み、ページ分割の問題やバランスの悪い外観を引き起こします。余白を削減することで、ページを効率的に使用でき、最終的な PDF や画像の可読性が向上します。
 
-## How to Reduce Gap Between Tasks List and Footer?  
+## タスクリストとフッターの間隔を狭める方法  
 Aspose.Tasks は画像、PDF、HTML の保存操作に対して `setReduceFooterGap(true)` オプションを提供しています。このフラグを有効にすると、最終タスク行とページフッター間のスペースが圧縮されます。
 
-## Save Project as Image with Aspose.Tasks  
+## Aspose.Tasksでプロジェクトを画像として保存する  
 スケジュールのビジュアルスナップショットが必要な場合は、**プロジェクトを画像として保存**（PNG）し、同じ余白削減設定を適用できます。
 
-## Java Project Export to PDF  
+## JavaプロジェクトをPDFにエクスポートする  
 以下のセクションでは、MPP ファイルの読み込みから 3 種類のフォーマットでの保存まで、完全な **java プロジェクトエクスポート** ワークフローを順に解説します。
 
-## Prerequisites
+## 前提条件
 開始する前に、以下の前提条件を確認してください。  
 1. Java Development Kit (JDK) – バージョン 8 以上。  
 2. Aspose.Tasks for Java ライブラリ – [here](https://releases.aspose.com/tasks/java/) からダウンロードしてください。
 
-## Import Packages
+## パッケージのインポート
 コーディングに入る前に、必要なパッケージをインポートします。  
 ```java
 import com.aspose.tasks.HtmlSaveOptions;
@@ -59,19 +59,19 @@ import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
 
-## Step 1: Provide the Path to Your Data Directory
+## ステップ1：データディレクトリへのパスを指定する
 ```java
 String dataDir = "Your Data Directory";
 ```
 `"Your Data Directory"` を、Microsoft Project ファイル（この例では `HomeMovePlan.mpp`）が格納されている実際のディレクトリパスに置き換えてください。
 
-## Step 2: Read the MPP File
+## ステップ2：MPPファイルを読み込む
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
 このコード行は、`HomeMovePlan.mpp` という名前の Microsoft Project ファイルを読み込みます。
 
-## Step 3: Set ImageSaveOptions (Save Project as Image)
+## ステップ3：ImageSaveOptionsを設定（プロジェクトを画像として保存）
 ```java
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
 imageSaveOptions.setReduceFooterGap(true);
@@ -81,13 +81,13 @@ imageSaveOptions.setTimescale(Timescale.Days);
 ```
 画像保存オプションを設定し、`ReduceFooterGap` を `true` にしてタスクリストとフッター間の余白を削減します。
 
-## Step 4: Save as Image
+## ステップ4：画像として保存
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.png", (SaveOptions) imageSaveOptions);
 ```
 設定したオプションでプロジェクトを画像として保存します。
 
-## Step 5: Set PdfSaveOptions (Export Project to PDF)
+## ステップ5：PdfSaveOptionsを設定（プロジェクトをPDFとしてエクスポート）
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setReduceFooterGap(true);
@@ -97,13 +97,13 @@ pdfSaveOptions.setTimescale(Timescale.Days);
 ```
 PDF 保存オプションを定義し、`ReduceFooterGap` を `true` に設定します。
 
-## Step 6: Save as PDF
+## ステップ6：PDFとして保存
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.pdf", (SaveOptions) pdfSaveOptions);
 ```
 設定したオプションでプロジェクトを PDF として保存します。
 
-## Step 7: Set HtmlSaveOptions
+## ステップ7：HtmlSaveOptionsを設定
 ```java
 HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
 htmlSaveOptions.setReduceFooterGap(true); // set to true
@@ -114,38 +114,16 @@ htmlSaveOptions.setTimescale(Timescale.Days);
 ```
 HTML 保存オプションを指定し、`ReduceFooterGap` を `true` にします。
 
-## Step 8: Save as HTML
+## ステップ8：HTMLとして保存
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSaveOptions);
 ```
 設定したオプションでプロジェクトを HTML ファイルとして保存します。
 
-## Conclusion  
+## まとめ
 結論として、Microsoft Project ファイルにおけるタスクリストとフッター間の余白削減は、Aspose.Tasks for Java を使用すれば簡単に実現できます。本チュートリアルの手順に従うことで、**プロジェクトを PDF にエクスポート**したり、画像として保存したり、HTML を生成したりしながら、レイアウトをタイトでプロフェッショナルに保つことができます。
 
-## FAQ's
-
-### Q: Aspose.Tasks はすべてのバージョンの Microsoft Project と互換性がありますか？
-
-A: Aspose.Tasks は Microsoft Project 2003〜2019 のフォーマットをサポートしており、さまざまなバージョンとの互換性が確保されています。
-
-### Q: プロジェクト文書のフッターの外観をカスタマイズできますか？
-
-A: はい、Aspose.Tasks はフッターの外観をカスタマイズする豊富なオプションを提供しており、余白の削減やコンテンツ配置の調整が可能です。
-
-### Q: PNG、PDF、HTML 以外の形式でプロジェクトを保存できますか？
-
-A: はい、Aspose.Tasks は XLSX、XML、MPP など多数の形式をサポートしています。
-
-### Q: Aspose.Tasks のトライアル版はありますか？
-
-A: はい、[here](https://releases.aspose.com/) から無料トライアル版をダウンロードできます。
-
-### Q: Aspose.Tasks 使用中に問題が発生した場合、どこでサポートを受けられますか？
-
-A: Aspose.Tasks コミュニティフォーラム [here](https://forum.aspose.com/c/tasks/15) で支援を受けられます。
-
-## Frequently Asked Questions (Additional)
+## よくある質問（追加）
 
 **Q: フッター余白を削減するとページネーションにどのような影響がありますか？**  
 A: 各ページ下部の空白が最小化され、1 ページに収まるタスク数が増えるため、総ページ数が減少します。

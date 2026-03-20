@@ -124,23 +124,6 @@ Enregistrez le projet en fichier HTML avec les options configurées.
 ## Conclusion  
 En conclusion, réduire l’écart entre la liste des tâches et le pied de page dans les fichiers Microsoft Project est un processus simple avec Aspose.Tasks pour Java. En suivant les étapes décrites dans ce tutoriel, vous pouvez efficacement **exporter le projet en PDF**, l’enregistrer en image ou générer du HTML tout en conservant une mise en page compacte et professionnelle.
 
-## FAQ
-
-### Q : Aspose.Tasks est‑il compatible avec toutes les versions de Microsoft Project ?
-A : Aspose.Tasks prend en charge les formats Microsoft Project 2003‑2019, garantissant la compatibilité avec diverses versions.
-
-### Q : Puis‑je personnaliser l’apparence du pied de page dans mes documents de projet ?
-A : Oui, Aspose.Tasks offre de nombreuses options pour personnaliser l’apparence des pieds de page, y compris la réduction des écarts et le réglage du placement du contenu.
-
-### Q : Aspose.Tasks prend‑il en charge l’enregistrement de projets dans des formats autres que PNG, PDF et HTML ?
-A : Oui, Aspose.Tasks prend en charge un large éventail de formats, notamment XLSX, XML et MPP, entre autres.
-
-### Q : Existe‑t‑il une version d’essai disponible pour Aspose.Tasks ?
-A : Oui, vous pouvez télécharger une version d’essai gratuite d’Aspose.Tasks depuis [ici](https://releases.aspose.com/).
-
-### Q : Où puis‑je obtenir de l’aide si je rencontre des problèmes en utilisant Aspose.Tasks ?
-A : Vous pouvez obtenir de l’assistance sur le forum communautaire Aspose.Tasks [ici](https://forum.aspose.com/c/tasks/15).
-
 ## Questions fréquemment posées (Supplémentaires)
 
 **Q : Comment la réduction de l’écart du pied de page affecte‑t‑elle la pagination ?**  

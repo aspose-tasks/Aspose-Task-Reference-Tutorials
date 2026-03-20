@@ -125,28 +125,6 @@ Salva il progetto come file HTML con le opzioni configurate.
 ## Conclusione  
 In conclusione, ridurre lo spazio tra l’elenco attività e il piè di pagina nei file Microsoft Project è un processo semplice con Aspose.Tasks per Java. Seguendo i passaggi descritti in questo tutorial, potrai **esportare il progetto in PDF**, salvarlo come immagine o generare HTML mantenendo un layout compatto e professionale.
 
-## FAQ
-
-### Q: Aspose.Tasks è compatibile con tutte le versioni di Microsoft Project?
-
-A: Aspose.Tasks supporta i formati Microsoft Project 2003‑2019, garantendo la compatibilità con varie versioni.
-
-### Q: Posso personalizzare l’aspetto del piè di pagina nei miei documenti di progetto?
-
-A: Sì, Aspose.Tasks offre ampie opzioni per personalizzare i piè di pagina, inclusa la riduzione degli spazi e la regolazione del posizionamento del contenuto.
-
-### Q: Aspose.Tasks supporta il salvataggio dei progetti in formati diversi da PNG, PDF e HTML?
-
-A: Sì, Aspose.Tasks supporta una vasta gamma di formati, tra cui XLSX, XML e MPP, tra gli altri.
-
-### Q: È disponibile una versione di prova per Aspose.Tasks?
-
-A: Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da [here](https://releases.aspose.com/).
-
-### Q: Dove posso ottenere supporto se incontro problemi usando Aspose.Tasks?
-
-A: Puoi ricevere assistenza dal forum della community di Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
-
 ## Domande frequenti (Aggiuntive)
 
 **Q: Come influisce la riduzione dello spazio del piè di pagina sulla paginazione?**  

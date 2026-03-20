@@ -122,28 +122,6 @@ Save the project as an HTML file with the configured options.
 ## Conclusion  
 In conclusion, reducing the gap between the task list and footer in Microsoft Project files is a straightforward process with Aspose.Tasks for Java. By following the steps outlined in this tutorial, you can efficiently **export project to PDF**, save it as an image, or generate HTML while keeping the layout tight and professional.
 
-## FAQ's
-
-### Q: Is Aspose.Tasks compatible with all versions of Microsoft Project?
-
-A: Aspose.Tasks supports Microsoft Project 2003-2019 formats, ensuring compatibility across various versions.
-
-### Q: Can I customize the appearance of the footer in my project documents?
-
-A: Yes, Aspose.Tasks provides extensive options for customizing the appearance of footers, including reducing gaps and adjusting content placement.
-
-### Q: Does Aspose.Tasks support saving projects in formats other than PNG, PDF, and HTML?
-
-A: Yes, Aspose.Tasks supports a wide range of formats, including XLSX, XML, and MPP, among others.
-
-### Q: Is there a trial version available for Aspose.Tasks?
-
-A: Yes, you can download a free trial version of Aspose.Tasks from [here](https://releases.aspose.com/).
-
-### Q: Where can I get support if I encounter any issues while using Aspose.Tasks?
-
-A: You can get assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
-
 ## Frequently Asked Questions (Additional)
 
 **Q: How does reducing the footer gap affect pagination?**  

@@ -123,23 +123,6 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ## 결론  
 결론적으로, Microsoft Project 파일에서 작업 목록과 바닥글 사이의 간격을 줄이는 것은 Aspose.Tasks for Java를 사용하면 간단한 과정입니다. 이 튜토리얼에 설명된 단계를 따르면 **프로젝트를 PDF로 내보내기**, 이미지로 저장하거나 HTML을 생성하면서 레이아웃을 촘촘하고 전문적으로 유지할 수 있습니다.
 
-## FAQ
-
-### Q: Aspose.Tasks가 모든 버전의 Microsoft Project와 호환되나요?
-A: Aspose.Tasks는 Microsoft Project 2003-2019 형식을 지원하므로 다양한 버전과 호환됩니다.
-
-### Q: 프로젝트 문서의 바닥글 모양을 사용자 정의할 수 있나요?
-A: 예, Aspose.Tasks는 간격 감소 및 콘텐츠 배치 조정을 포함하여 바닥글 모양을 사용자 정의할 수 있는 다양한 옵션을 제공합니다.
-
-### Q: Aspose.Tasks가 PNG, PDF, HTML 외의 형식으로 저장을 지원하나요?
-A: 예, Aspose.Tasks는 XLSX, XML, MPP 등 다양한 형식을 지원합니다.
-
-### Q: Aspose.Tasks의 체험판이 있나요?
-A: 예, [here](https://releases.aspose.com/)에서 Aspose.Tasks 무료 체험판을 다운로드할 수 있습니다.
-
-### Q: Aspose.Tasks 사용 중 문제가 발생하면 어디서 지원을 받을 수 있나요?
-A: Aspose.Tasks 커뮤니티 포럼 [here](https://forum.aspose.com/c/tasks/15)에서 도움을 받을 수 있습니다.
-
 ## 자주 묻는 질문 (추가)
 
 **Q: 바닥글 간격을 줄이면 페이지 매김에 어떤 영향을 미치나요?**  

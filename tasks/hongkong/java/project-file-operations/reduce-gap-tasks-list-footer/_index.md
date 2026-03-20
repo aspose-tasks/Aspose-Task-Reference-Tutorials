@@ -132,23 +132,6 @@ project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSave
 ## 結論  
 總結來說，使用 Aspose.Tasks for Java 縮減 Microsoft Project 檔案中任務清單與頁腳之間的間距是一個簡單的流程。依照本教學所列步驟，您即可有效 **匯出專案為 PDF**、將其另存為圖片，或產生 HTML，同時保持版面緊湊且專業。
 
-## 常見問題
-
-### Q: Aspose.Tasks 是否相容所有版本的 Microsoft Project？
-A: Aspose.Tasks 支援 Microsoft Project 2003-2019 格式，確保在各版本之間的相容性。
-
-### Q: 我可以自訂專案文件中頁腳的外觀嗎？
-A: 可以，Aspose.Tasks 提供廣泛的選項來自訂頁腳外觀，包括縮減間距與調整內容位置。
-
-### Q: Aspose.Tasks 是否支援除 PNG、PDF、HTML 之外的其他格式儲存專案？
-A: 可以，Aspose.Tasks 支援多種格式，包括 XLSX、XML、MPP 等等。
-
-### Q: 是否有 Aspose.Tasks 的試用版？
-A: 可以，您可從 [here](https://releases.aspose.com/) 下載 Aspose.Tasks 的免費試用版。
-
-### Q: 使用 Aspose.Tasks 時若遇到問題，該向何處尋求支援？
-A: 您可在 Aspose.Tasks 社群論壇取得協助，請前往 [here](https://forum.aspose.com/c/tasks/15)。
-
 ## 常見問答（補充）
 
 **Q: 縮減頁腳間距會如何影響分頁？**  

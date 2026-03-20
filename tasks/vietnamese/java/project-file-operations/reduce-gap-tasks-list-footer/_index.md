@@ -125,28 +125,6 @@ Lưu dự án dưới dạng tệp HTML với các tùy chọn đã cấu hình.
 ## Kết luận  
 Tóm lại, việc giảm khoảng cách giữa danh sách nhiệm vụ và chân trang trong các tệp Microsoft Project là một quy trình đơn giản với Aspose.Tasks cho Java. Bằng cách làm theo các bước trong hướng dẫn này, bạn có thể **xuất dự án sang PDF**, lưu dưới dạng hình ảnh hoặc tạo HTML mà vẫn giữ được bố cục gọn gàng và chuyên nghiệp.
 
-## Câu hỏi thường gặp
-
-### Q: Aspose.Tasks có tương thích với mọi phiên bản của Microsoft Project không?
-
-A: Aspose.Tasks hỗ trợ các định dạng Microsoft Project 2003‑2019, đảm bảo tính tương thích trên nhiều phiên bản khác nhau.
-
-### Q: Tôi có thể tùy chỉnh giao diện của chân trang trong tài liệu dự án không?
-
-A: Có, Aspose.Tasks cung cấp nhiều tùy chọn để tùy chỉnh chân trang, bao gồm giảm khoảng cách và điều chỉnh vị trí nội dung.
-
-### Q: Aspose.Tasks có hỗ trợ lưu dự án ở các định dạng khác ngoài PNG, PDF và HTML không?
-
-A: Có, Aspose.Tasks hỗ trợ đa dạng định dạng, bao gồm XLSX, XML và MPP, cùng nhiều định dạng khác.
-
-### Q: Có phiên bản dùng thử cho Aspose.Tasks không?
-
-A: Có, bạn có thể tải phiên bản dùng thử miễn phí của Aspose.Tasks từ [here](https://releases.aspose.com/).
-
-### Q: Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề khi sử dụng Aspose.Tasks?
-
-A: Bạn có thể nhận trợ giúp từ diễn đàn cộng đồng Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
-
 ## Các câu hỏi thường gặp bổ sung
 
 **Q: Giảm khoảng cách chân trang ảnh hưởng như thế nào đến phân trang?**  

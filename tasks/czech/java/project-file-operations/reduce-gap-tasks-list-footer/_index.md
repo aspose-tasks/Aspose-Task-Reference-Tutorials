@@ -125,23 +125,6 @@ Uložte projekt jako HTML soubor s nakonfigurovanými možnostmi.
 ## Závěr  
 Závěrem, snížení mezery mezi seznamem úkolů a zápatím v souborech Microsoft Project je jednoduchý proces s Aspose.Tasks pro Java. Dodržením kroků popsaných v tomto tutoriálu můžete efektivně **exportovat projekt do PDF**, uložit jej jako obrázek nebo vygenerovat HTML při zachování těsného a profesionálního rozvržení.
 
-## Často kladené otázky
-
-### Q: Je Aspose.Tasks kompatibilní se všemi verzemi Microsoft Project?
-A: Aspose.Tasks podporuje formáty Microsoft Project 2003‑2019, což zajišťuje kompatibilitu napříč různými verzemi.
-
-### Q: Mohu přizpůsobit vzhled zápatí v mých projektových dokumentech?
-A: Ano, Aspose.Tasks nabízí rozsáhlé možnosti přizpůsobení vzhledu zápatí, včetně snížení mezer a úpravy umístění obsahu.
-
-### Q: Podporuje Aspose.Tasks ukládání projektů v jiných formátech než PNG, PDF a HTML?
-A: Ano, Aspose.Tasks podporuje širokou škálu formátů, včetně XLSX, XML a MPP a dalších.
-
-### Q: Je k dispozici zkušební verze Aspose.Tasks?
-A: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks z [zde](https://releases.aspose.com/).
-
-### Q: Kde mohu získat podporu, pokud narazím na problémy při používání Aspose.Tasks?
-A: Pomoc můžete získat na komunitním fóru Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
-
 ## Často kladené otázky (další)
 
 **Q: Jak snížení mezery v zápatí ovlivňuje stránkování?**  

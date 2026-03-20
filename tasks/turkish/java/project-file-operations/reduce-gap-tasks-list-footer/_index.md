@@ -125,28 +125,6 @@ Projeyi, yapılandırılmış seçeneklerle bir HTML dosyası olarak kaydedin.
 ## Sonuç  
 Sonuç olarak, Microsoft Project dosyalarında görev listesi ile altbilgi arasındaki boşluğun azaltılması, Aspose.Tasks for Java ile oldukça basit bir işlemdir. Bu öğreticideki adımları izleyerek **projeyi PDF olarak dışa aktarabilir**, görüntü olarak kaydedebilir veya HTML oluşturabilir, aynı zamanda düzeni sıkı ve profesyonel tutabilirsiniz.
 
-## SSS
-
-### S: Aspose.Tasks tüm Microsoft Project sürümleriyle uyumlu mu?
-
-C: Aspose.Tasks, Microsoft Project 2003‑2019 formatlarını destekler ve çeşitli sürümlerle uyumluluk sağlar.
-
-### S: Proje belgelerimde altbilginin görünümünü özelleştirebilir miyim?
-
-C: Evet, Aspose.Tasks altbilgi görünümünü özelleştirmek için geniş seçenekler sunar; boşlukları azaltma ve içerik yerleşimini ayarlama gibi.
-
-### S: Aspose.Tasks PNG, PDF ve HTML dışındaki formatları da destekliyor mu?
-
-C: Evet, Aspose.Tasks XLSX, XML, MPP ve daha birçok formatı destekler.
-
-### S: Aspose.Tasks için bir deneme sürümü var mı?
-
-C: Evet, **[buradan](https://releases.aspose.com/)** ücretsiz bir deneme sürümü indirebilirsiniz.
-
-### S: Aspose.Tasks kullanırken sorun yaşarsam nereden destek alabilirim?
-
-C: Aspose.Tasks topluluk forumundan **[burada](https://forum.aspose.com/c/tasks/15)** yardım alabilirsiniz.
-
 ## Sıkça Sorulan Sorular (Ek)
 
 **S: Altbilgi boşluğunu azaltmak sayfalama üzerinde nasıl bir etki yapar?**  

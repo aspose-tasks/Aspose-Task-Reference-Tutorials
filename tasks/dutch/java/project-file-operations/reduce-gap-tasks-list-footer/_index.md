@@ -125,28 +125,6 @@ Sla het project op als HTML‑bestand met de geconfigureerde opties.
 ## Conclusie  
 Samengevat is het verkleinen van de ruimte tussen de takenlijst en de voettekst in Microsoft Project‑bestanden een eenvoudig proces met Aspose.Tasks voor Java. Door de stappen in deze tutorial te volgen, kun je efficiënt **project exporteren naar PDF**, opslaan als afbeelding, of HTML genereren terwijl de lay‑out strak en professioneel blijft.
 
-## Veelgestelde vragen
-
-### Q: Is Aspose.Tasks compatibel met alle versies van Microsoft Project?
-
-A: Aspose.Tasks ondersteunt Microsoft Project 2003‑2019‑formaten, waardoor compatibiliteit met diverse versies gegarandeerd is.
-
-### Q: Kan ik het uiterlijk van de voettekst in mijn projectdocumenten aanpassen?
-
-A: Ja, Aspose.Tasks biedt uitgebreide opties voor het aanpassen van voetteksten, inclusief het verkleinen van ruimtes en het aanpassen van de inhoudsplaatsing.
-
-### Q: Ondersteunt Aspose.Tasks het opslaan van projecten in andere formaten dan PNG, PDF en HTML?
-
-A: Ja, Aspose.Tasks ondersteunt een breed scala aan formaten, waaronder XLSX, XML en MPP, onder andere.
-
-### Q: Is er een proefversie beschikbaar voor Aspose.Tasks?
-
-A: Ja, je kunt een gratis proefversie van Aspose.Tasks downloaden van [here](https://releases.aspose.com/).
-
-### Q: Waar kan ik ondersteuning krijgen als ik problemen ondervind bij het gebruik van Aspose.Tasks?
-
-A: Je kunt hulp krijgen via het Aspose.Tasks community‑forum [here](https://forum.aspose.com/c/tasks/15).
-
 ## Veelgestelde vragen (aanvullend)
 
 **Q: Hoe beïnvloedt het verkleinen van de voettekst‑ruimte de paginering?**  

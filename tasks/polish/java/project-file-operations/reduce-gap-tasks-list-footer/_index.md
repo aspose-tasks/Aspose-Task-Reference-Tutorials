@@ -14,40 +14,40 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportowanie projektu do PDF i zmniejszenie odstępu między listą zadań a stopką w Aspose.Tasks
+# Eksportowanie projektu do PDF i odstępu między listą zadań a stopką w Aspose.Tasks
 
-## Introduction  
-W tym samouczku odkryjesz **jak wyeksportować projekt do PDF**, jednocześnie zmniejszając niepożądany odstęp między listą zadań a stopką w plikach Microsoft Project. Po zakończeniu przewodnika będziesz w stanie generować czyste pliki PDF, obrazy PNG oraz strony HTML o zwartej układzie przy użyciu Aspose.Tasks dla Javy. Przejdźmy krok po kroku przez proces.
+## Wstęp
+W tym samouczku odkryjesz **jak wyeksportować projekt do PDF**, jednocześnie zmniejszając niepożądany odstęp między listą zadań a stopką w pliku Microsoft Project. Po usunięciu przewodnika w przypadku wygenerowania czystych plików PDF, obrazów PNG oraz stron HTML o zwartej kolejności przy użyciu Aspose.Tasks dla Javy. Przejdźmy krok po kroku przez proces.
 
-## Quick Answers  
-- **What does “export project to PDF” mean?** It converts an MPP file into a PDF document preserving tasks, timelines, and formatting.  
-- **Why reduce the footer gap?** A smaller gap creates tighter, more professional‑looking reports, especially for printed or web‑viewed documents.  
-- **Can I also save the project as an image?** Yes – Aspose.Tasks supports PNG, JPEG, and other image formats.  
-- **Do I need a special license?** A free trial is available; a commercial license is required for production use.  
-- **Which Java version is required?** Java 8 or higher works with the current Aspose.Tasks library.
+## Szybkie odpowiedzi
+- **Co oznacza „eksportuj projekt do formatu PDF”?** Konwertuje plik MPP na dokument PDF, zachowując zadania, osie czasu i formatowanie.
+- **Po co zmniejszać odstęp w stopce?** Mniejsza przerwa tworzy zwarte, bardziej profesjonalnie wyglądające raporty, zwłaszcza w przypadku dokumentów drukowanych lub przeglądanych w Internecie.
+- **Czy mogę zapisać projekt również jako obraz?** Tak – Aspose.Tasks obsługuje PNG, JPEG i inne formaty obrazów.
+- **Czy potrzebuję specjalnej licencji?** Dostępna jest bezpłatna wersja próbna; do użytku produkcyjnego wymagana jest licencja komercyjna.
+- **Która wersja Javy jest wymagana?** Java 8 lub nowsza działa z obecną biblioteką Aspose.Tasks.
 
-## What is “export project to PDF”?  
-Exporting a project to PDF transforms the internal MPP structure into a portable document that can be opened on any device without needing Microsoft Project. This is ideal for sharing status reports, stakeholder updates, or archiving project plans.
+## Czym jest „eksport projektu do PDF”?
+Eksport projektu do PDF przekształca wewnętrzną strukturę MPP w przenośny dokument, który można otworzyć na dowolnym urządzeniu bez konieczności korzystania z programu Microsoft Project. Jest to idealne rozwiązanie do udostępniania raportów o stanie, aktualizacji dla interesariuszy lub archiwizowania planów projektów.
 
-## Why Reduce Footer Gap?  
-The default footer gap can add unnecessary white space, causing pagination issues and an unbalanced appearance. Reducing the gap ensures that your content utilizes the page efficiently, making the final PDF or image more readable.
+## Dlaczego warto zmniejszyć odstęp w stopce?
+Domyślny odstęp w stopce może powodować niepotrzebne odstępy, powodując problemy z paginacją i nierówny wygląd. Zmniejszenie odstępu zapewnia efektywne wykorzystanie strony przez treść, dzięki czemu końcowy plik PDF lub obraz jest bardziej czytelny.
 
-## How to Reduce Gap Between Tasks List and Footer?  
-Aspose.Tasks provides a `setReduceFooterGap(true)` option for image, PDF, and HTML save operations. Enabling this flag tells the engine to compress the space between the last task row and the page footer.
+## Jak zmniejszyć odstęp między listą zadań a stopką?
+Aspose.Tasks udostępnia opcję `setReduceFooterGap(true)` dla operacji zapisywania obrazów, plików PDF i HTML. Włączenie tej flagi powoduje, że silnik kompresuje przestrzeń między ostatnim wierszem zadania a stopką strony.
 
-## Save Project as Image with Aspose.Tasks  
-If you need a visual snapshot of your schedule, you can **save project as image** (PNG) while applying the same gap‑reduction settings.
+## Zapisz projekt jako obraz za pomocą Aspose.Tasks
+Jeśli potrzebujesz wizualnego podglądu harmonogramu, możesz **zapisać projekt jako obraz** (PNG), stosując te same ustawienia redukcji luk.
 
-## Java Project Export to PDF  
-The following sections walk through a complete **java project export** workflow, from loading the MPP file to saving it in three different formats.
+## Eksport projektu Java do PDF
+Poniższe sekcje opisują pełny proces **eksportu projektu Java**, od załadowania pliku MPP do zapisania go w trzech różnych formatach.
 
-## Prerequisites
-Before we begin, ensure you have the following prerequisites:
-1. Java Development Kit (JDK) – version 8 or later.  
-2. Aspose.Tasks for Java Library – download it from [here](https://releases.aspose.com/tasks/java/).  
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
+1. Java Development Kit (JDK) – wersja 8 lub nowsza.
+2. Aspose.Tasks for Java Library – pobierz ją [tutaj](https://releases.aspose.com/tasks/java/).
 
-## Import Packages
-Before diving into the coding part, let's import the necessary packages:
+## Importuj pakiety
+Zanim przejdziemy do kodowania, zaimportujmy niezbędne pakiety:
 ```java
 import com.aspose.tasks.HtmlSaveOptions;
 import com.aspose.tasks.ImageSaveOptions;
@@ -60,19 +60,19 @@ import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
 
-## Step 1: Provide the Path to Your Data Directory
+## Krok 1: Podaj ścieżkę do katalogu danych
 ```java
 String dataDir = "Your Data Directory";
 ```
-Make sure to replace `"Your Data Directory"` with the path to your actual data directory where your Microsoft Project file (`HomeMovePlan.mpp` in this example) is located.
+Upewnij się, że fragment „Twój katalog danych” został zastąpiony ścieżką do rzeczywistego katalogu danych, w którym znajduje się plik Microsoft Project (w tym przykładzie „HomeMovePlan.mpp”).
 
-## Step 2: Read the MPP File
+## Krok 2: Odczyt pliku MPP
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
-This line of code reads the Microsoft Project file named `HomeMovePlan.mpp`.
+Ten wiersz kodu odczytuje plik Microsoft Project o nazwie „HomeMovePlan.mpp”.
 
-## Step 3: Set ImageSaveOptions (Save Project as Image)
+## Krok 3: Ustaw ImageSaveOptions (Zapisz projekt jako obraz)
 ```java
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
 imageSaveOptions.setReduceFooterGap(true);
@@ -80,15 +80,15 @@ imageSaveOptions.setRenderToSinglePage(false);
 imageSaveOptions.setPageSize(PageSize.A0);
 imageSaveOptions.setTimescale(Timescale.Days);
 ```
-Configure the image saving options, setting `ReduceFooterGap` to `true` to reduce the gap between the task list and footer.
+Skonfiguruj opcje zapisywania obrazu, ustawiając parametr „ReduceFooterGap” na „true”, aby zmniejszyć odstęp między listą zadań a stopką.
 
-## Step 4: Save as Image
+## Krok 4: Zapisz jako obraz
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.png", (SaveOptions) imageSaveOptions);
 ```
-Save the project as an image with the configured options.
+Zapisz projekt jako obraz ze skonfigurowanymi opcjami.
 
-## Step 5: Set PdfSaveOptions (Export Project to PDF)
+## Krok 5: Ustaw PdfSaveOptions (Eksportuj projekt do PDF)
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setReduceFooterGap(true);
@@ -96,15 +96,15 @@ pdfSaveOptions.setSaveToSeparateFiles(true);
 pdfSaveOptions.setPageSize(PageSize.A0);
 pdfSaveOptions.setTimescale(Timescale.Days);
 ```
-Define PDF saving options, ensuring to set `ReduceFooterGap` to `true`.
+Zdefiniuj opcje zapisywania pliku PDF, ustawiając parametr „ReduceFooterGap” na „true”.
 
-## Step 6: Save as PDF
+## Krok 6: Zapisz jako PDF
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.pdf", (SaveOptions) pdfSaveOptions);
 ```
-Save the project as a PDF with the configured options.
+Zapisz projekt jako PDF ze skonfigurowanymi opcjami.
 
-## Step 7: Set HtmlSaveOptions
+## Krok 7: Ustaw HtmlSaveOptions
 ```java
 HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
 htmlSaveOptions.setReduceFooterGap(true); // set to true
@@ -113,61 +113,39 @@ htmlSaveOptions.setIncludeProjectNameInTitle(false);
 htmlSaveOptions.setPageSize(PageSize.A0);
 htmlSaveOptions.setTimescale(Timescale.Days);
 ```
-Specify HTML saving options, setting `ReduceFooterGap` to `true`.
+Określ opcje zapisu HTML, ustawiając `ReduceFooterGap` na `true`.
 
-## Step 8: Save as HTML
+## Krok 8: Zapisz jako HTML
 ```java
 project.save(dataDir + "ReducingGapBetweenTasksListAndFooter_out.html", htmlSaveOptions);
 ```
-Save the project as an HTML file with the configured options.
+Zapisz projekt jako plik HTML ze skonfigurowanymi opcjami.
 
-## Conclusion  
-In conclusion, reducing the gap between the task list and footer in Microsoft Project files is a straightforward process with Aspose.Tasks for Java. By following the steps outlined in this tutorial, you can efficiently **export project to PDF**, save it as an image, or generate HTML while keeping the layout tight and professional.
+## Podsumowanie
+Podsumowując, zmniejszenie odstępu między listą zadań a stopką w plikach programu Microsoft Project to prosty proces dzięki Aspose.Tasks for Java. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz sprawnie **eksportować projekt do pliku PDF**, zapisać go jako obraz lub wygenerować kod HTML, zachowując jednocześnie zwarty i profesjonalny układ.
 
-## FAQ's
+## Często zadawane pytania (dodatkowe)
 
-### Q: Is Aspose.Tasks compatible with all versions of Microsoft Project?
+**P: Jak zmniejszenie odstępu między stopkami wpływa na paginację?**
+O: Minimalizuje to puste miejsce u dołu każdej strony, umożliwiając umieszczenie większej liczby zadań na jednej stronie i zmniejszając całkowitą liczbę stron.
 
-A: Aspose.Tasks supports Microsoft Project 2003-2019 formats, ensuring compatibility across various versions.
+**P: Czy mogę zastosować to samo ustawienie redukcji odstępu tylko do jednej strony?**
+O: Tak, ustawiając `setRenderToSinglePage(true)` w `ImageSaveOptions`, możesz kontrolować paginację, jednocześnie zmniejszając odstęp.
 
-### Q: Can I customize the appearance of the footer in my project documents?
+**P: Czy opcja `setReduceFooterGap` jest dostępna dla innych formatów wyjściowych?**
+O: Obecnie jest obsługiwana dla eksportów PNG, PDF i HTML. W przypadku innych formatów może być konieczne ręczne dostosowanie układu.
 
-A: Yes, Aspose.Tasks provides extensive options for customizing the appearance of footers, including reducing gaps and adjusting content placement.
+**P: Co zrobić, jeśli mój projekt zawiera pola niestandardowe — czy są one zachowywane?**
+O: Wszystkie pola niestandardowe są zachowywane podczas eksportu; zmiany układu wpływają tylko na odstępy, a nie na dane.
 
-### Q: Does Aspose.Tasks support saving projects in formats other than PNG, PDF, and HTML?
-
-A: Yes, Aspose.Tasks supports a wide range of formats, including XLSX, XML, and MPP, among others.
-
-### Q: Is there a trial version available for Aspose.Tasks?
-
-A: Yes, you can download a free trial version of Aspose.Tasks from [here](https://releases.aspose.com/).
-
-### Q: Where can I get support if I encounter any issues while using Aspose.Tasks?
-
-A: You can get assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
-
-## Frequently Asked Questions (Additional)
-
-**Q: How does reducing the footer gap affect pagination?**  
-A: It minimizes blank space at the bottom of each page, allowing more tasks to fit on a single page and reducing the total page count.
-
-**Q: Can I apply the same gap‑reduction setting to a single page only?**  
-A: Yes, by setting `setRenderToSinglePage(true)` in `ImageSaveOptions` you can control pagination while still reducing the gap.
-
-**Q: Is the `setReduceFooterGap` option available for other output formats?**  
-A: Currently it is supported for PNG, PDF, and HTML exports. For other formats you may need to adjust layout manually.
-
-**Q: What if my project contains custom fields—are they preserved?**  
-A: All custom fields are retained during export; the layout adjustments only affect spacing, not data.
-
-**Q: Does the library handle large projects efficiently?**  
-A: Aspose.Tasks streams data and can process large MPP files; however, ensure sufficient memory when exporting to high‑resolution images.
+**P: Czy biblioteka sprawnie obsługuje duże projekty?**
+O: Aspose.Tasks przesyła strumieniowo dane i może przetwarzać duże pliki MPP; należy jednak zapewnić wystarczającą ilość pamięci podczas eksportowania obrazów o wysokiej rozdzielczości.
 
 ---
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Tasks 24.11 for Java  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-17
+**Testowano z:** Aspose.Tasks 24.11 dla Javy
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
