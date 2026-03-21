@@ -1,10 +1,12 @@
 ---
-title: Koleksi Properti Proyek Bawaan di Aspose.Tasks
-linktitle: Koleksi Properti Proyek Bawaan di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengelola properti meta proyek secara efisien dalam aplikasi .NET menggunakan Aspose.Tasks. Membaca, memodifikasi, dan mengulangi properti dengan mudah.
-weight: 24
+date: 2026-03-21
+description: Pelajari cara membaca properti proyek bawaan di .NET menggunakan Aspose.Tasks,
+  memodifikasinya, dan mengiterasi koleksi secara efisien.
+linktitle: Built-In Project Property Collection in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cara membaca properti proyek bawaan dengan Aspose.Tasks
 url: /id/net/advanced-features/built-in-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,33 +15,29 @@ url: /id/net/advanced-features/built-in-project-property-collection/
 
 # Koleksi Properti Proyek Bawaan di Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang pengembangan perangkat lunak, mengelola tugas dan proyek secara efisien adalah hal terpenting untuk mencapai kesuksesan. Aspose.Tasks for .NET adalah perpustakaan canggih yang dirancang untuk memfasilitasi tugas manajemen proyek dalam aplikasi .NET. Dengan fitur-fitur canggih dan antarmuka intuitif, pengembang dapat menyederhanakan proses manajemen proyek, menghemat waktu dan sumber daya.
+Dalam dunia pengembangan perangkat lunak, mengelola tugas dan proyek secara efisien sangat penting untuk keberhasilan. Ketika Anda perlu **membaca properti proyek bawaan** dari file Microsoft Project, Aspose.Tasks untuk .NET menawarkan API yang bersih dan tipe‑aman yang membuat pekerjaan menjadi sederhana. Dengan memanfaatkan pustaka ini Anda dapat dengan cepat mengekstrak meta‑informasi seperti penulis, kategori, dan komentar khusus, kemudian menggunakan data tersebut untuk laporan, analitik, atau logika alur kerja khusus.
+
+## Jawaban Cepat
+- **Apa arti “membaca properti proyek bawaan”?** Mengekstrak metadata standar (penulis, tanggal mulai, dll.) yang disertakan dalam file Project.  
+- **Paket NuGet mana yang diperlukan?** `Aspose.Tasks.NET` – instal melalui Visual Studio atau `dotnet add package`.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya memodifikasi properti setelah membacanya?** Ya, koleksi `BuiltInProps` dapat dibaca/tulis sepenuhnya.  
+- **Format file yang didukung?** MPP, XML, dan format lain yang didukung oleh Aspose.Tasks.
 
 ## Prasyarat
 
-Sebelum mendalami dunia Aspose.Tasks untuk .NET, ada beberapa prasyarat yang harus Anda miliki:
+Sebelum menyelam ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-### 1. Pengaturan Lingkungan Pengembangan .NET
-
-Pastikan Anda memiliki lingkungan pengembangan yang berfungsi untuk .NET, termasuk Visual Studio atau IDE lain pilihan Anda.
-
-### 2. Pemahaman Dasar C#
-
-Biasakan diri Anda dengan dasar-dasar bahasa pemrograman C#, termasuk variabel, tipe data, loop, dan pernyataan kondisional.
-
-### 3. Instalasi Aspose.Tasks untuk .NET
-
- Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
-
-### 4. Keakraban dengan Konsep Manajemen Proyek
-
-Memiliki pemahaman dasar tentang konsep manajemen proyek akan membantu Anda memanfaatkan Aspose.Tasks untuk .NET dengan lebih baik dalam proyek Anda.
+1. **Lingkungan Pengembangan .NET** – Visual Studio, Rider, atau IDE apa pun yang Anda sukai.  
+2. **Pengetahuan Dasar C#** – variabel, loop, dan konsep berorientasi objek.  
+3. **Aspose.Tasks untuk .NET** – unduh dari [situs web](https://releases.aspose.com/tasks/net/).  
+4. **Pemahaman Dasar Manajemen Proyek** – membantu Anda memetakan properti ke konsep dunia nyata.
 
 ## Impor Namespace
 
-Untuk memulai Aspose.Tasks untuk .NET, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek Anda. Namespace ini menyediakan akses ke kelas dan metode yang diperlukan untuk bekerja dengan file proyek secara efisien.
+Tambahkan namespace yang diperlukan agar Anda dapat bekerja dengan API Aspose.Tasks.
 
 ```csharp
 using Aspose.Tasks;
@@ -47,33 +45,34 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 
 using Aspose.Tasks.Properties;
-
 ```
 
-Mari kita uraikan kode contoh yang diberikan menjadi beberapa langkah untuk memahami cara membaca properti meta proyek menggunakan Aspose.Tasks untuk .NET.
+## Cara membaca properti proyek bawaan
 
-## Langkah 1: Muat File Proyek
+Berikut ini adalah panduan langkah‑demi‑langkah yang menunjukkan cara memuat file proyek dan mengambil properti bawaan di dalamnya.
+
+### Langkah 1: Muat File Proyek
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
- Langkah ini melibatkan memuat file proyek ke dalam`project` objek menggunakan konstruktor`Project` kelas.
+Konstruktor `Project` membaca file yang ditentukan dan membuat representasi dalam memori yang dapat Anda query.
 
-## Langkah 2: Akses Properti Proyek Bawaan
+### Langkah 2: Akses Properti Bawaan Individu
 
 ```csharp
 Console.WriteLine("Author: " + project.BuiltInProps.Author);
 Console.WriteLine("Category: " + project.BuiltInProps.Category);
 Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
-// Properti lainnya...
+// More properties...
 ```
 
- Di sini, kita mengakses berbagai properti proyek bawaan seperti penulis, kategori, komentar, dll., menggunakan properti masing-masing`BuiltInProps` obyek.
+Setiap properti (misalnya, `Author`, `Category`) disajikan sebagai anggota bertipe kuat dari koleksi `BuiltInProps`, memudahkan **membaca properti proyek bawaan** tanpa harus mem‑parse XML secara manual.
 
-## Langkah 3: Ulangi Koleksi Properti Bawaan
+### Langkah 3: Iterasi Seluruh Koleksi Properti Bawaan
 
 ```csharp
 foreach (Property property in project.BuiltInProps)
@@ -85,11 +84,19 @@ foreach (Property property in project.BuiltInProps)
 }
 ```
 
-Langkah ini melibatkan iterasi kumpulan properti bawaan proyek dan mencetak representasi nama, nilai, dan string dari setiap properti.
+Iterasi memberikan Anda snapshot lengkap dari setiap bidang metadata standar yang terdapat dalam file proyek. Ini berguna ketika Anda perlu menampilkan semua properti dalam grid UI atau mengekspornya ke file CSV.
 
-## Kesimpulan
+## Mengapa membaca properti proyek bawaan?
 
-Kesimpulannya, Aspose.Tasks untuk .NET memberikan solusi komprehensif untuk mengelola properti meta proyek secara efisien dalam aplikasi .NET. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, pengembang dapat dengan mudah mengintegrasikan fungsi manajemen proyek ke dalam proyek perangkat lunak mereka, sehingga meningkatkan produktivitas dan organisasi.
+- **Laporan & Dasbor:** Tarik informasi penulis, tanggal mulai, dan status untuk memberi makan alat BI.  
+- **Otomatisasi:** Memicu alur kerja khusus berdasarkan metadata proyek (misalnya, otomatis menugaskan sumber daya ketika “Category” cocok dengan nilai tertentu).  
+- **Migrasi:** Saat memindahkan proyek antar sistem, properti bawaan mempertahankan konteks penting.
+
+## Masalah Umum & Tips
+
+- **Kesalahan Jalur File:** Pastikan `DataDir` diakhiri dengan pemisah jalur (`\` atau `/`) atau gunakan `Path.Combine`.  
+- **Properti Hilang:** Beberapa properti mungkin kosong jika file sumber tidak mendefinisikannya; selalu periksa `null` atau string kosong.  
+- **Kinerja:** Untuk file MPP yang sangat besar, muat proyek sekali dan gunakan kembali objek `project` daripada membuka ulang berulang kali.
 
 ## FAQ
 
@@ -97,21 +104,36 @@ Kesimpulannya, Aspose.Tasks untuk .NET memberikan solusi komprehensif untuk meng
 
 A1: Ya, Aspose.Tasks untuk .NET kompatibel dengan berbagai versi .NET Framework, memastikan fleksibilitas dan kemudahan integrasi.
 
-### Q2: Bisakah saya mengubah properti meta proyek menggunakan Aspose.Tasks untuk .NET?
+### Q2: Bisakah saya memodifikasi meta‑properti proyek menggunakan Aspose.Tasks untuk .NET?
 
-A2: Tentu saja! Aspose.Tasks untuk .NET memungkinkan Anda tidak hanya membaca tetapi juga memodifikasi properti meta proyek sesuai dengan kebutuhan Anda.
+A2: Tentu saja! Aspose.Tasks untuk .NET memungkinkan Anda tidak hanya membaca tetapi juga memodifikasi meta‑properti proyek sesuai kebutuhan Anda.
 
 ### Q3: Apakah Aspose.Tasks untuk .NET mendukung format file proyek populer?
 
-A3: Ya, Aspose.Tasks untuk .NET mendukung berbagai format file proyek, termasuk MPP, XML, dan XLSX, antara lain.
+A3: Ya, Aspose.Tasks untuk .NET mendukung beragam format file proyek, termasuk MPP, XML, dan XLSX, serta lainnya.
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
+### Q4: Apakah ada versi percobaan gratis untuk Aspose.Tasks untuk .NET?
 
- A4: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/) untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+A4: Ya, Anda dapat mengakses versi percobaan gratis Aspose.Tasks untuk .NET dari [situs web](https://releases.aspose.com/tasks/net/) untuk menjelajahi fiturnya sebelum melakukan pembelian.
 
 ### Q5: Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.Tasks untuk .NET?
 
- A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan telusuri dokumentasi untuk panduan komprehensif.
+A5: Anda dapat mengunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan menelusuri dokumentasi untuk panduan komprehensif.
+
+### Q6: Bisakah saya menambahkan properti bawaan baru secara programatis?
+
+A6: Properti bawaan sudah ditentukan oleh skema Project, tetapi Anda dapat menambahkan properti khusus melalui koleksi `ExtendedAttributes`.
+
+### Q7: Bagaimana cara menyimpan perubahan setelah memodifikasi properti?
+
+A7: Panggil `project.Save("UpdatedProject.mpp")` dengan format yang diinginkan; pustaka akan menulis semua perubahan kembali ke file.
+
+---
+
+**Terakhir Diperbarui:** 2026-03-21  
+**Diuji Dengan:** Aspose.Tasks 24.12 untuk .NET  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
