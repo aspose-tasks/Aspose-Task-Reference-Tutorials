@@ -1,64 +1,76 @@
 ---
-title: Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
-linktitle: Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET'te kaynakların kullanılabilirlik sürelerini nasıl yöneteceğinizi öğrenin. Bu adım adım öğretici, kullanılabilirlik dönemlerini ekleme, güncelleme ve kaldırma konusunda size yol göstererek etkili proje kaynak planlaması sağlar.
-weight: 18
+date: 2026-03-21
+description: Aspose.Tasks for .NET ile kaynakların kullanılabilirlik dönemlerini nasıl
+  yöneteceğinizi öğrenin ve etkili proje kaynak kullanılabilirliği sağlayın. Bu adım
+  adım kılavuz, kullanılabilirlik dönemlerini nasıl ekleyeceğinizi, güncelleyeceğinizi
+  ve kaldıracağınızı gösterir.
+linktitle: Collection of Availability Periods in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Proje Kaynak Kullanılabilirliği – Aspose.Tasks'te Kullanılabilirlik Dönemlerini
+  Yönetme
 url: /tr/net/advanced-features/availability-period-collection/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Kullanılabilirlik Dönemlerinin Toplanması
+# Proje Kaynak Kullanılabilirliği: Aspose.Tasks'te Kullanılabilirlik Dönemlerinin Koleksiyonu
 
-## giriiş
+**Proje kaynak kullanılabilirliğini** yönetmek, başarılı proje planlamasının temel bir parçasıdır. Bu öğreticide, Aspose.Tasks for .NET API'sini kullanarak kaynakların kullanılabilirliğini adım adım nasıl yöneteceğinizi öğreneceksiniz; bir projeyi yüklemekten kaynaklar arasında dönemleri kopyalamaya kadar.
 
-Bu eğitimde Aspose.Tasks for .NET'te bir kaynağın kullanılabilirlik dönemi koleksiyonuyla nasıl çalışılacağını keşfedeceğiz. Kullanılabilirlik dönemlerini yönetmek, proje yönetimi için çok önemlidir ve bir proje içindeki görevler için kaynakların ne zaman kullanılabilir olduğunu tanımlamamıza olanak tanır.
+## Hızlı Yanıtlar
+- **Kullanılabilirlik dönemleri için ana sınıf nedir?** `AvailabilityPeriod` sınıfı, `Aspose.Tasks` ad alanında bulunur.  
+- **Mevcut dönemleri temizleyebilir miyim?** Evet, `resource.AvailabilityPeriods.Clear()` metodunu çağırın.  
+- **Yeni bir dönem nasıl eklenir?** Bir `AvailabilityPeriod` nesnesi oluşturun ve `Add` ya da `Insert` metodunu kullanın.  
+- **Dönemleri başka bir kaynağa kopyalamak mümkün mü?** Kesinlikle – `CopyTo` metodunu kullanın ve ardından her öğeyi hedef kaynağa ekleyin.  
+- **Üretim ortamında lisansa ihtiyacım var mı?** Evet, deneme dışı dağıtımlar için ticari bir Aspose.Tasks lisansı gereklidir.
+
+## Proje kaynak kullanılabilirliği nedir?
+Proje kaynak kullanılabilirliği, bir kaynağın görevlere atanabileceği tarihleri ve birimlerini (kapasite yüzdesi) tanımlar. Bu dönemleri kontrol ederek aşırı tahsisatı önler ve takvim doğruluğunu artırırsınız.
+
+## Kullanılabilirlik dönemlerini yönetmek için Aspose.Tasks neden tercih edilmeli?
+- **Tam .NET entegrasyonu** – COM ara yüzüne gerek yok, tamamen yönetilen kod.  
+- **İnce ayar kontrolü** – kesin başlangıç/bitiş tarihleri ve kesirli birimler ayarlanabilir.  
+- **Kolay kopyalama** – kullanılabilirlik verilerini manuel ayrıştırma yapmadan kaynaklar arasında taşıyabilirsiniz.  
+- **Performans odaklı** – büyük MPP dosyalarıyla verimli çalışır.
 
 ## Önkoşullar
+1. **Visual Studio** – herhangi bir güncel sürüm (2019, 2022 veya daha yenisi).  
+2. **Aspose.Tasks for .NET** – [buradan](https://releases.aspose.com/tasks/net/) indirin.  
+3. **Temel C# bilgisi** – sınıflar, koleksiyonlar ve LINQ konusunda rahat olmalısınız.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-1. Visual Studio: Sisteminizde Visual Studio'nun kurulu olduğundan emin olun.
-2.  Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
-3. Temel Anlama: C# ve .NET çerçevesine aşinalık.
-
-## Ad Alanlarını İçe Aktar
-
-Öncelikle gerekli ad alanlarını projemize aktarmamız gerekiyor:
+## İsim Alanlarını İçe Aktarma
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Örnek kodu birden çok adıma ayıralım ve her bir bölümü anlayalım:
+Temel Aspose.Tasks ad alanını, daha sonra ihtiyaç duyacağımız standart .NET koleksiyonlarıyla birlikte içe aktarıyoruz.
 
-## Adım 1: Projeyi ve Kaynağı Başlatın
+## Adım 1: Projeyi ve Kaynağı Başlatma
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
-Burada bir proje dosyası yüklüyoruz ve kimliğine göre belirli bir kaynağı elde ediyoruz.
+Burada mevcut bir MPP dosyasını yüklüyor ve kullanılabilirliğini düzenlemek istediğimiz kaynağı (ID = 1) alıyoruz.
 
-## 2. Adım: Mevcut Kullanılabilirlik Dönemlerini Temizleyin
+## Adım 2: Mevcut Kullanılabilirlik Dönemlerini Temizleme
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
 ```
 
-Kaynakla ilişkili mevcut kullanılabilirlik dönemlerini temizliyoruz.
+Temizleme, önceden tanımlanmış tüm dönemleri kaldırır ve temiz bir başlangıç sağlar.
 
-## 3. Adım: Kullanılabilirlik Dönemlerini Ekleyin
+## Adım 3: Kullanılabilirlik Dönemleri Ekleme
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -71,9 +83,9 @@ foreach (var period in periods)
 }
 ```
 
-Kullanılabilirlik dönemleri koleksiyonunu yineliyoruz ve bunları kaynağa ekliyoruz.
+`AvailabilityPeriod` nesnelerinin bir koleksiyonunu alıyoruz (`GetPeriods` yardımcı metodunun başka bir yerde tanımlandığı varsayılır) ve koleksiyonun yazılabilir olduğundan emin olarak her birini ekliyoruz.
 
-## 4. Adım: Yeni Bir Kullanılabilirlik Dönemi Ekleme
+## Adım 4: Yeni Bir Kullanılabilirlik Dönemi Ekleme
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -84,9 +96,9 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 }
 ```
 
-2013 yılı için yeni bir stok dönemi oluşturup koleksiyona ekliyoruz.
+Bu, 2013 yılı için özel bir dönem oluşturur ve zaten mevcut değilse 1. konuma (ikinci slot) ekler.
 
-## Adım 5: Kullanılabilirlik Dönemlerini Görüntüleyin
+## Adım 5: Kullanılabilirlik Dönemlerini Görüntüleme
 
 ```csharp
 Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
@@ -99,9 +111,9 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Kaynakla ilişkili her kullanılabilirlik döneminin sayısını ve ayrıntılarını yazdırırız.
+Konsola hızlı bir döküm, toplam sayıyı ve her dönemin ayrıntılarını gösterir – hata ayıklama veya doğrulama için kullanışlıdır.
 
-## 6. Adım: Kullanılabilirlik Dönemlerini Başka Bir Kaynağa Kopyalayın
+## Adım 6: Kullanılabilirlik Dönemlerini Başka Bir Kaynağa Kopyalama
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -115,45 +127,52 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-Kullanılabilirlik dönemlerini bir kaynaktan diğerine kopyalarız.
+Tüm koleksiyonu bir diziye kopyalıyoruz, hedef kaynağın dönemlerini temizliyoruz ve ardından yeniden dolduruyoruz. Bu, kullanılabilirlik verilerinin kaynaklar arasında nasıl çoğaltılacağını gösterir.
 
-## 7. Adım: Kullanılabilirlik Dönemlerini Güncelleyin ve Kaldırın
+## Adım 7: Kullanılabilirlik Dönemlerini Güncelleme ve Kaldırma
 
 ```csharp
-// Belirli bir dönem için mevcut birimleri güncelleme
+// Update available units for a specific period
 otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
 
-// Belirli bir dönemi kaldır
+// Remove a specific period
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-Belirli bir döneme ait mevcut birimleri güncelliyoruz ve belirli dönemleri koleksiyondan kaldırıyoruz.
+Burada sondan ikinci dönemin `AvailableUnits` değerini ayarlıyor ve daha önce eklediğimiz 2013 dönemini kaldırıyoruz.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Yalnızca‑okunur koleksiyon hatası** – Projenin yalnızca‑okunur modda açılmadığından ve yeni öğeler eklemeden önce `resource.AvailabilityPeriods.Clear()` çağrıldığından emin olun.  
+- **Çakışan dönemler** – Aspose.Tasks çakışmaları otomatik birleştirmez; tespit ve çözüm için özel mantık yazmanız gerekebilir.  
+- **Yanlış tarih formatı** – Her zaman `DateTime` nesneleri kullanın; dize ayrıştırma yerel ayar hatalarına yol açabilir.
 
-Bu eğitimde Aspose.Tasks for .NET'te kullanılabilirlik dönemi koleksiyonlarıyla nasıl çalışılacağını öğrendik. Kaynak kullanılabilirliğini yönetmek, etkili proje planlama ve yürütme için çok önemlidir.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Kullanılabilirlik dönemlerine özel alanlar ekleyebilir miyim?**  
+C: Hayır, Aspose.Tasks for .NET'te kullanılabilirlik dönemleri özel alanları desteklemez.
 
-### S1: Kullanılabilirlik dönemlerine özel alanlar ekleyebilir miyim?
+**S: Kullanılabilirlik dönemleri belirli görevlere bağlı mı?**  
+C: Hayır, bu dönemler kaynaklarla ilişkilidir ve kaynağın genel olarak görevlere ne zaman uygun olduğunu tanımlar.
 
-Cevap1: Hayır, Aspose.Tasks for .NET'teki kullanılabilirlik dönemleri özel alanları desteklemez.
+**S: Kullanılabilirlik dönemlerini dış kaynaklardan içe aktarabilir miyim?**  
+C: Evet, CSV, XML veya bir veritabanından `AvailabilityPeriod` nesneleri oluşturarak koleksiyona ekleyebilirsiniz.
 
-### S2: Kullanılabilirlik dönemleri belirli görevlerle bağlantılı mı?
+**S: Çakışan kullanılabilirlik dönemlerini nasıl yönetirim?**  
+C: Çakışmalar otomatik olarak çözülmez; çakışan dönemleri birleştirmek veya reddetmek için özel doğrulama uygulamanız gerekir.
 
-C2: Hayır, kullanılabilirlik dönemleri kaynaklarla ilişkilidir ve genel olarak görevler için ne zaman kullanılabilir olduklarını tanımlar.
+**S: Bir kaynağın sahip olabileceği kullanılabilirlik dönemi sayısında bir sınırlama var mı?**  
+C: Katı bir sınır yoktur, ancak çok büyük koleksiyonlar performansı etkileyebilir; mümkün olduğunca dönemleri birleştirmeyi düşünün.
 
-### S3: Kullanılabilirlik dönemlerini harici kaynaklardan alabilir miyim?
+## Sonuç
 
-Cevap3: Evet, Aspose.Tasks for .NET API'lerini kullanarak çeşitli veri kaynaklarından kullanılabilirlik dönemlerini içe aktarabilirsiniz.
+Bu rehberde, Aspose.Tasks for .NET ile **proje kaynak kullanılabilirliğini** yönetmek için bilmeniz gereken her şeyi ele aldık—projeyi başlatma ve eski verileri temizlemeden, dönem ekleme, ekleme, kopyalama, güncelleme ve kaldırmaya kadar. Bu adımları ustalaştırmak, kaynak takvimlerinizi doğru tutmanıza ve proje takvimlerinizi gerçekçi hale getirmenize yardımcı olur.
 
-### S4: Çakışan kullanılabilirlik dönemlerini nasıl halledebilirim?
+---
 
-Cevap4: Aspose.Tasks for .NET, çakışan dönemleri yönetecek yerleşik mekanizmalar sağlamaz. Bu tür senaryoları yönetmek için özel mantık uygulamanız gerekebilir.
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen Versiyon:** Aspose.Tasks for .NET (en son sürüm)  
+**Yazar:** Aspose  
 
-### S5: Bir kaynağın sahip olabileceği kullanılabilirlik dönemi sayısında bir sınır var mı?
-
-Y5: Bir kaynağın sahip olabileceği kullanılabilirlik dönemlerinin sayısına ilişkin önceden tanımlanmış bir sınır yoktur, ancak performans çok sayıda dönemle birlikte düşebilir.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
