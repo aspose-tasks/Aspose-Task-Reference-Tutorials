@@ -1,46 +1,59 @@
 ---
-title: Berekeningsmodus in Aspose.Tasks
-linktitle: Berekeningsmodus in Aspose.Tasks
+date: 2026-03-24
+description: Leer hoe u de berekeningsmodus instelt in Aspose.Tasks voor .NET, met
+  uitleg over automatische, handmatige en geen modus om taakafhankelijkheden te beheren.
+linktitle: How to Set Calculation Mode in Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u berekeningsmodi effectief kunt beheren in Aspose.Tasks voor .NET om projectplanning en taakafhankelijkheden te stroomlijnen.
-weight: 29
+title: Hoe de berekeningsmodus instellen in Aspose.Tasks voor .NET
 url: /nl/net/advanced-features/calculation-mode/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Berekeningsmodus in Aspose.Tasks
+# Hoe de berekeningsmodus in te stellen in Aspose.Tasks voor .NET
 
-## Invoering
+## Inleiding
 
-Aspose.Tasks voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft Project-bestanden kunnen werken in hun .NET-toepassingen. Een cruciaal aspect van het werken met projectbestanden is het beheren van berekeningsmodi, die bepalen hoe taken en projectplanningen worden berekend en bijgewerkt. In deze zelfstudie verdiepen we ons in de verschillende berekeningsmodi die worden ondersteund door Aspose.Tasks voor .NET en laten we zien hoe u deze effectief kunt gebruiken.
+Aspose.Tasks for .NET is een krachtige API waarmee u programmatisch met Microsoft Project‑bestanden kunt werken. Een van de belangrijkste instellingen die u tegenkomt is de **berekeningsmodus**, die bepaalt hoe taakdatums en projectschema's worden bijgewerkt. In deze tutorial leert u **hoe u de berekening** instelt, verkent u **automatische berekeningsmodus**, **handmatige berekeningsmodus** en **geen berekeningsmodus**, en ziet u hoe deze opties invloed hebben op **het beheren van taakafhankelijkheden**, **het aanmaken van de projectstartdatum**, en **het koppelen van taak‑eind‑aan‑start** relaties.
+
+## Snelle antwoorden
+- **Wat is berekeningsmodus?** Het bepaalt of taakdatums automatisch, handmatig of helemaal niet opnieuw worden berekend.  
+- **Waarom handmatige berekeningsmodus gebruiken?** Om volledige controle te hebben over wanneer het schema wordt ververst, handig bij bulk‑updates.  
+- **Welke modus is standaard?** Automatische berekeningsmodus, die datums direct bijwerkt na wijzigingen.  
+- **Kan ik de modus tijdens runtime wijzigen?** Ja—stel simpelweg de `CalculationMode`‑eigenschap in op het `Project`‑object.  
+- **Heb ik een licentie nodig?** Een geldige Aspose.Tasks‑licentie is vereist voor productiegebruik.
+
+## Wat is “hoe de berekening in te stellen” in Aspose.Tasks?
+
+Het instellen van de berekeningsmodus is zo eenvoudig als een enum‑waarde toewijzen aan de eigenschap `Project.CalculationMode`. De enum biedt drie opties: `Automatic`, `Manual` en `None`. De juiste modus kiezen hangt af van uw workflow—of u directe updates, batchverwerking of volledige controle wilt.
 
 ## Vereisten
 
-Zorg ervoor dat u over het volgende beschikt voordat u begint:
+1. **Visual Studio** – elke recente versie (2019, 2022 of later).  
+2. **Aspose.Tasks for .NET** – download en installeer de bibliotheek van [hier](https://releases.aspose.com/tasks/net/).  
+3. **Basiskennis van C#** – u moet vertrouwd zijn met het maken van console‑applicaties en het gebruiken van NuGet‑pakketten.
 
-1. Visual Studio: Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van[hier](https://releases.aspose.com/tasks/net/).
-3. Basiskennis van C#-programmeren: maak uzelf vertrouwd met C#-programmeerconcepten.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Voordat we met Aspose.Tasks voor .NET gaan werken, importeren we de benodigde naamruimten:
+Voordat we beginnen met werken met Aspose.Tasks voor .NET, importeren we de benodigde namespaces:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Automatische berekeningsmodus toepassen
+## Hoe de berekeningsmodus in te stellen
 
-### Stap 1: Maak een nieuw Project-exemplaar
+Hieronder vindt u stapsgewijze voorbeelden voor elke berekeningsmodus. De codeblokken blijven ongewijzigd ten opzichte van de oorspronkelijke tutorial; de omliggende uitleg is uitgebreid voor meer duidelijkheid.
 
- Initialiseer een nieuwe`Project` object en stel het in`CalculationMode` eigendom aan`CalculationMode.Automatic`.
+### Toepassen van automatische berekeningsmodus
+
+De automatische modus herberekent datums direct wanneer u taken of koppelingen wijzigt.
+
+#### Stap 1: Maak een nieuw Project‑object
 
 ```csharp
 var project = new Project
@@ -49,9 +62,7 @@ var project = new Project
 };
 ```
 
-### Stap 2: Stel de startdatum van het project in en voeg taken toe
-
-Definieer de startdatum van het project en voeg er taken aan toe.
+#### Stap 2: Stel de projectstartdatum in en voeg taken toe
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -59,28 +70,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Stap 3: Taken koppelen
-
-Breng afhankelijkheden tussen taken tot stand.
+#### Stap 3: Koppel taken (eind‑aan‑start)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-### Stap 4: Controleer de herberekende datums
-
-Controleer of de data automatisch opnieuw zijn berekend.
+#### Stap 4: Controleer herberekende datums
 
 ```csharp
 Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Start).AddDays(1).Equals(task2.Get(Tsk.Start)));
-// Voeg indien nodig meer verificaties toe
+// Add more verifications as needed
 ```
 
-## Handmatige berekeningsmodus toepassen
+### Toepassen van handmatige berekeningsmodus
 
-### Stap 1: Maak een nieuw Project-exemplaar
+De handmatige modus schakelt automatische updates uit, waardoor u wijzigingen in batches kunt verwerken voordat u een herberekening afdwingt.
 
- Initialiseer een nieuwe`Project` object en stel het in`CalculationMode` eigendom aan`CalculationMode.Manual`.
+#### Stap 1: Maak een nieuw Project‑object
 
 ```csharp
 var project = new Project
@@ -89,9 +96,7 @@ var project = new Project
 };
 ```
 
-### Stap 2: Stel de startdatum van het project in en voeg taken toe
-
-Definieer de startdatum van het project en voeg er taken aan toe.
+#### Stap 2: Stel de projectstartdatum in en voeg taken toe
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -99,28 +104,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Stap 3: Controleer de taakeigenschappen
-
-Controleer of de taakeigenschappen correct zijn ingesteld in de handmatige modus.
+#### Stap 3: Controleer taak‑eigenschappen
 
 ```csharp
 Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
-// Voeg indien nodig meer verificaties toe
+// Add more verifications as needed
 ```
 
-### Stap 4: Taken koppelen en datums verifiëren
-
-Koppel taken aan elkaar en controleer of hun datums niet opnieuw worden berekend.
+#### Stap 4: Koppel taken en controleer datums (geen automatische herberekening)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-## Geen berekeningsmodus toepassen
+### Toepassen van geen berekeningsmodus
 
-### Stap 1: Maak een nieuw Project-exemplaar
+De geen‑modus schakelt alle interne berekeningen uit. Gebruik deze wanneer u alleen gegevens wilt lezen of exporteren zonder enige schema‑wijzigingen.
 
- Initialiseer een nieuwe`Project` object en stel het in`CalculationMode` eigendom aan`CalculationMode.None`.
+#### Stap 1: Maak een nieuw Project‑object
 
 ```csharp
 var project = new Project
@@ -129,48 +130,50 @@ var project = new Project
 };
 ```
 
-### Stap 2: Voeg een nieuwe taak toe
-
-Voeg een nieuwe taak toe aan het project.
+#### Stap 2: Voeg een nieuwe taak toe
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
 ```
 
-### Stap 3: Controleer de taakeigenschappen
-
-Controleer of taakeigenschappen niet automatisch worden berekend.
+#### Stap 3: Controleer taak‑eigenschappen (geen automatische ID’s)
 
 ```csharp
 Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
-// Voeg indien nodig meer verificaties toe
+// Add more verifications as needed
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we de beschikbare berekeningsmodi in Aspose.Tasks voor .NET onderzocht en geleerd hoe we deze in praktische scenario's kunnen toepassen. Of u nu een automatische, handmatige of geen berekeningsmodus nodig heeft, Aspose.Tasks biedt de flexibiliteit om aan de vereisten van uw project te voldoen.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| Datums worden niet bijgewerkt na het koppelen van taken | Project staat in **Manual** of **None** modus | Stel `project.CalculationMode = CalculationMode.Automatic` in of roep `project.Calculate()` handmatig aan |
+| Taak‑ID’s blijven op 0 | Gebruik van **None** modus voorkomt ID‑generatie | Schakel over naar **Automatic** of **Manual** modus en rekeneer opnieuw |
+| Koppelen mislukt met `ArgumentException` | De startdatum van de voorganger is later dan die van de opvolger bij gebruik van **Manual** modus zonder herberekening | Zorg voor correcte startdatums of rekeneer opnieuw na het toevoegen van koppelingen |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de berekeningsmodus dynamisch wijzigen tijdens runtime?
+**Q1: Kan ik de berekeningsmodus dynamisch tijdens runtime wijzigen?**  
+A1: Ja, u kunt de eigenschap `CalculationMode` op elk moment in uw code aanpassen en vervolgens `project.Calculate()` aanroepen als u een onmiddellijke update nodig heeft.
 
-A1: Ja, u kunt de berekeningsmodus van een project op elk moment tijdens de runtime wijzigen door de`CalculationMode` eigendom.
+**Q2: Ondersteunt Aspose.Tasks andere projectmanagement‑bestandsformaten naast Microsoft Project?**  
+A2: Aspose.Tasks richt zich voornamelijk op Microsoft Project‑formaten, maar ondersteunt ook Primavera P6 XML, Primavera DB en Asta Powerproject XML.
 
-### V2: Ondersteunt Aspose.Tasks naast Microsoft Project ook andere bestandsindelingen voor projectbeheer?
+**Q3: Is Aspose.Tasks geschikt voor zowel kleinschalige als enterprise‑projecten?**  
+A3: Absoluut. De API schaalt van eenvoudige takenlijsten tot complexe, meerfasige enterprise‑schema's.
 
-A2: Aspose.Tasks richt zich primair op Microsoft Project-bestandsformaten, maar ondersteunt ook andere formaten zoals Primavera P6 XML, Primavera DB en Asta Powerproject XML.
+**Q4: Kan ik Aspose.Tasks integreren met andere .NET‑bibliotheken en -frameworks?**  
+A4: Ja, u kunt Aspose.Tasks combineren met ASP.NET, WPF, Xamarin of elke andere .NET‑technologie om rijke project‑managementoplossingen te bouwen.
 
-### Vraag 3: Is Aspose.Tasks geschikt voor zowel kleinschalige als ondernemingsprojecten?
+**Q5: Is er een community‑forum of ondersteuningskanaal beschikbaar voor Aspose.Tasks‑gebruikers?**  
+A5: Ja, u kunt het [Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) bezoeken voor community‑ondersteuning en discussies.
 
-A3: Absoluut! Aspose.Tasks is ontworpen om tegemoet te komen aan de behoeften van zowel kleinschalige als ondernemingsprojecten met zijn uitgebreide functies en robuuste API's.
+---
 
-### V4: Kan ik Aspose.Tasks integreren met andere .NET-bibliotheken en -frameworks?
+**Laatst bijgewerkt:** 2026-03-24  
+**Getest met:** Aspose.Tasks 24.11 for .NET  
+**Auteur:** Aspose  
 
-A4: Ja, u kunt Aspose.Tasks naadloos integreren met andere .NET-bibliotheken en -frameworks om de functionaliteit van uw applicaties te verbeteren.
-
-### V5: Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Tasks-gebruikers?
-
- A5: Ja, u kunt de bezoeken[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

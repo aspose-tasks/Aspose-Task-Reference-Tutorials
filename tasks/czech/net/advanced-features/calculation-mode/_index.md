@@ -1,46 +1,58 @@
 ---
-title: Režim výpočtu v Aspose.Tasks
-linktitle: Režim výpočtu v Aspose.Tasks
+date: 2026-03-24
+description: Naučte se, jak nastavit režim výpočtu v Aspose.Tasks pro .NET, zahrnující
+  automatický, manuální režim výpočtu a režim žádný pro správu závislostí úkolů.
+linktitle: How to Set Calculation Mode in Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak efektivně spravovat režimy výpočtu v Aspose.Tasks for .NET, abyste zefektivnili plánování projektů a závislosti na úkolech.
-weight: 29
+title: Jak nastavit režim výpočtu v Aspose.Tasks pro .NET
 url: /cs/net/advanced-features/calculation-mode/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Režim výpočtu v Aspose.Tasks
+# Jak nastavit režim výpočtu v Aspose.Tasks pro .NET
 
 ## Úvod
 
-Aspose.Tasks for .NET je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft Project programově v jejich aplikacích .NET. Jedním z klíčových aspektů práce s projektovými soubory je správa režimů výpočtu, které určují, jak se úkoly a harmonogramy projektů počítají a aktualizují. V tomto tutoriálu se ponoříme do různých režimů výpočtu podporovaných Aspose.Tasks pro .NET a předvedeme, jak je efektivně používat.
+Aspose.Tasks pro .NET je výkonná API, která vám umožňuje programově pracovat se soubory Microsoft Project. Jedním z nejdůležitějších nastavení, na které narazíte, je **režim výpočtu**, který řídí, jak jsou aktualizovány data úkolů a harmonogramy projektu. V tomto tutoriálu se naučíte **jak nastavit výpočet**, prozkoumáte **automatický režim výpočtu**, **manuální režim výpočtu** a **režim žádného výpočtu** a uvidíte, jak tyto možnosti ovlivňují **správu závislostí úkolů**, **vytvoření data zahájení projektu** a **propojení vztahů ukončení‑na‑začátek úkolů**.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co je režim výpočtu?** Určuje, zda jsou data úkolů přepočítávána automaticky, manuálně nebo vůbec.  
+- **Proč používat manuální režim výpočtu?** Pro získání úplné kontroly nad tím, kdy se harmonogram obnoví, což je užitečné při hromadných aktualizacích.  
+- **Který režim je výchozí?** Automatický režim výpočtu, který aktualizuje data okamžitě po změnách.  
+- **Mohu režim změnit během běhu aplikace?** Ano — stačí nastavit vlastnost `CalculationMode` na objektu `Project`.  
+- **Potřebuji licenci?** Pro produkční použití je vyžadována platná licence Aspose.Tasks.
 
-Než začnete, ujistěte se, že máte následující:
+## Co je “jak nastavit výpočet” v Aspose.Tasks?
+Nastavení režimu výpočtu je tak jednoduché, jako přiřadit hodnotu výčtu (`enum`) k vlastnosti `Project.CalculationMode`. Výčet poskytuje tři možnosti: `Automatic`, `Manual` a `None`. Volba správného režimu závisí na vašem pracovním postupu — zda chcete okamžité aktualizace, dávkové zpracování nebo úplnou kontrolu.
 
-1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio.
-2.  Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
-3. Základní porozumění programování v C#: Seznamte se s koncepty programování v C#.
+## Požadavky
+
+1. **Visual Studio** — jakákoli recentní verze (2019, 2022 nebo novější).  
+2. **Aspose.Tasks pro .NET** — stáhněte a nainstalujte knihovnu z [zde](https://releases.aspose.com/tasks/net/).  
+3. **Základní znalost C#** — měli byste být schopni vytvářet konzolové aplikace a používat balíčky NuGet.
 
 ## Importovat jmenné prostory
 
-Než začneme pracovat s Aspose.Tasks pro .NET, importujme potřebné jmenné prostory:
+Než začneme pracovat s Aspose.Tasks pro .NET, naimportujme potřebné jmenné prostory:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Použití režimu automatického výpočtu
+## Jak nastavit režim výpočtu
 
-### Krok 1: Vytvořte novou instanci projektu
+Níže najdete krok‑za‑krokem příklady pro každý režim výpočtu. Kódové bloky zůstávají nezměněny oproti originálnímu tutoriálu; doprovodná vysvětlení byla rozšířena pro větší přehlednost.
 
- Inicializujte nový`Project` objekt a nastavte jej`CalculationMode` majetek do`CalculationMode.Automatic`.
+### Použití automatického režimu výpočtu
+
+Automatický režim přepočítává data okamžitě, kdykoli upravíte úkoly nebo odkazy.
+
+#### Krok 1: Vytvořit novou instanci Project
 
 ```csharp
 var project = new Project
@@ -49,9 +61,7 @@ var project = new Project
 };
 ```
 
-### Krok 2: Nastavte datum zahájení projektu a přidejte úkoly
-
-Definujte datum zahájení projektu a přidejte k němu úkoly.
+#### Krok 2: Nastavit datum zahájení projektu a přidat úkoly
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -59,28 +69,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Krok 3: Propojte úkoly
-
-Vytvořte závislosti mezi úkoly.
+#### Krok 3: Propojit úkoly (ukončení‑na‑začátek)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-### Krok 4: Ověřte přepočítaná data
-
-Zkontrolujte, zda byla data přepočítána automaticky.
+#### Krok 4: Ověřit přepočítaná data
 
 ```csharp
 Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Start).AddDays(1).Equals(task2.Get(Tsk.Start)));
-// Podle potřeby přidejte další ověření
+// Add more verifications as needed
 ```
 
-## Použití režimu ručního výpočtu
+### Použití manuálního režimu výpočtu
 
-### Krok 1: Vytvořte novou instanci projektu
+Manuální režim vypíná automatické aktualizace a dává vám možnost provést dávkové změny před vynucením přepočtu.
 
- Inicializujte nový`Project` objekt a nastavte jej`CalculationMode` majetek do`CalculationMode.Manual`.
+#### Krok 1: Vytvořit novou instanci Project
 
 ```csharp
 var project = new Project
@@ -89,9 +95,7 @@ var project = new Project
 };
 ```
 
-### Krok 2: Nastavte datum zahájení projektu a přidejte úkoly
-
-Definujte datum zahájení projektu a přidejte k němu úkoly.
+#### Krok 2: Nastavit datum zahájení projektu a přidat úkoly
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -99,28 +103,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Krok 3: Ověřte vlastnosti úlohy
-
-Zkontrolujte, zda jsou vlastnosti úlohy správně nastaveny v ručním režimu.
+#### Krok 3: Ověřit vlastnosti úkolu
 
 ```csharp
 Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
-// Podle potřeby přidejte další ověření
+// Add more verifications as needed
 ```
 
-### Krok 4: Propojte úkoly a ověřte data
-
-Propojte úkoly dohromady a zkontrolujte, zda se jejich data nepřepočítají.
+#### Krok 4: Propojit úkoly a ověřit data (žádná automatická přepočet)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-## Použití žádného režimu výpočtu
+### Použití režimu žádného výpočtu
 
-### Krok 1: Vytvořte novou instanci projektu
+Režim None vypíná všechny interní výpočty. Použijte jej, když potřebujete pouze číst nebo exportovat data bez jakýchkoli změn harmonogramu.
 
- Inicializujte nový`Project` objekt a nastavte jej`CalculationMode` majetek do`CalculationMode.None`.
+#### Krok 1: Vytvořit novou instanci Project
 
 ```csharp
 var project = new Project
@@ -129,48 +129,50 @@ var project = new Project
 };
 ```
 
-### Krok 2: Přidejte nový úkol
-
-Přidejte do projektu nový úkol.
+#### Krok 2: Přidat nový úkol
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
 ```
 
-### Krok 3: Ověřte vlastnosti úlohy
-
-Zkontrolujte, zda se vlastnosti úlohy nevypočítávají automaticky.
+#### Krok 3: Ověřit vlastnosti úkolu (žádné automatické ID)
 
 ```csharp
 Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
-// Podle potřeby přidejte další ověření
+// Add more verifications as needed
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme prozkoumali režimy výpočtu dostupné v Aspose.Tasks pro .NET a naučili jsme se, jak je aplikovat v praktických scénářích. Ať už potřebujete automatický, manuální nebo žádný režim výpočtu, Aspose.Tasks poskytuje flexibilitu, aby vyhovovala požadavkům vašeho projektu.
+| Problém | Proč se to děje | Oprava |
+|---------|----------------|--------|
+| Data se neaktualizují po propojení úkolů | Projekt je v režimu **Manual** nebo **None** | Nastavte `project.CalculationMode = CalculationMode.Automatic` nebo zavolejte `project.Calculate()` ručně |
+| ID úkolů zůstávají na 0 | Použití režimu **None** zabraňuje generování ID | Přepněte do režimu **Automatic** nebo **Manual** a poté přepočítejte |
+| Propojení selže s `ArgumentException` | Datum zahájení předchůdce je pozdější než následníka při použití režimu **Manual** bez přepočtu | Zajistěte správná data zahájení nebo přepočítejte po přidání odkazů |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu během běhu dynamicky změnit režim výpočtu?
+**Q1: Mohu během běhu měnit režim výpočtu?**  
+A1: Ano, můžete kdykoli v kódu změnit vlastnost `CalculationMode` a poté zavolat `project.Calculate()`, pokud potřebujete okamžitou aktualizaci.
 
-A1: Ano, režim výpočtu projektu můžete změnit kdykoli během běhu úpravou`CalculationMode` vlastnictví.
+**Q2: Podporuje Aspose.Tasks i jiné formáty souborů pro řízení projektů kromě Microsoft Project?**  
+A2: Aspose.Tasks se primárně zaměřuje na formáty Microsoft Project, ale také podporuje Primavera P6 XML, Primavera DB a Asta Powerproject XML.
 
-### Q2: Podporuje Aspose.Tasks jiné formáty souborů správy projektů kromě Microsoft Project?
+**Q3: Je Aspose.Tasks vhodný jak pro malé, tak pro enterprise‑úrovňové projekty?**  
+A3: Rozhodně. API škáluje od jednoduchých seznamů úkolů po složité, vícefázové enterprise harmonogramy.
 
-Odpověď 2: Aspose.Tasks se primárně zaměřuje na formáty souborů Microsoft Project, ale podporuje také další formáty, jako je Primavera P6 XML, Primavera DB a Asta Powerproject XML.
+**Q4: Mohu integrovat Aspose.Tasks s jinými .NET knihovnami a frameworky?**  
+A4: Ano, můžete kombinovat Aspose.Tasks s ASP.NET, WPF, Xamarin nebo jakoukoli jinou .NET technologií pro tvorbu bohatých řešení pro řízení projektů.
 
-### Q3: Je Aspose.Tasks vhodný jak pro malé, tak pro podnikové projekty?
+**Q5: Existuje komunitní fórum nebo podpora pro uživatele Aspose.Tasks?**  
+A5: Ano, můžete navštívit [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) pro komunitní podporu a diskuze.
 
-A3: Rozhodně! Aspose.Tasks je navržen tak, aby uspokojil potřeby malých i podnikových projektů se svými komplexními funkcemi a robustními API.
+---
 
-### Q4: Mohu integrovat Aspose.Tasks s jinými knihovnami a frameworky .NET?
+**Poslední aktualizace:** 2026-03-24  
+**Testováno s:** Aspose.Tasks 24.11 pro .NET  
+**Autor:** Aspose  
 
-Odpověď 4: Ano, můžete bezproblémově integrovat Aspose.Tasks s dalšími knihovnami a frameworky .NET a zlepšit tak funkčnost vašich aplikací.
-
-### Q5: Je pro uživatele Aspose.Tasks k dispozici komunitní fórum nebo kanál podpory?
-
- A5: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

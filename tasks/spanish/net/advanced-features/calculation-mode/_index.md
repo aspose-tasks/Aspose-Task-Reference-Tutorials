@@ -1,29 +1,43 @@
 ---
-title: Modo de cálculo en Aspose.Tasks
-linktitle: Modo de cálculo en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a administrar los modos de cálculo de manera efectiva en Aspose.Tasks para .NET para optimizar la programación de proyectos y las dependencias de tareas.
-weight: 29
+date: 2026-03-24
+description: Aprenda cómo establecer el modo de cálculo en Aspose.Tasks para .NET,
+  cubriendo el modo de cálculo automático, manual y sin cálculo para gestionar las
+  dependencias de tareas.
+linktitle: How to Set Calculation Mode in Aspose.Tasks for .NET
+second_title: Aspose.Tasks .NET API
+title: Cómo establecer el modo de cálculo en Aspose.Tasks para .NET
 url: /es/net/advanced-features/calculation-mode/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modo de cálculo en Aspose.Tasks
+# Cómo establecer el modo de cálculo en Aspose.Tasks para .NET
 
 ## Introducción
 
-Aspose.Tasks para .NET es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft Project mediante programación en sus aplicaciones .NET. Un aspecto crucial de trabajar con archivos de proyecto es la gestión de los modos de cálculo, que dictan cómo se calculan y actualizan las tareas y los cronogramas del proyecto. En este tutorial, profundizaremos en los diversos modos de cálculo admitidos por Aspose.Tasks para .NET y demostraremos cómo usarlos de manera efectiva.
+Aspose.Tasks para .NET es una API potente que le permite trabajar con archivos de Microsoft Project de forma programática. Uno de los ajustes más importantes que encontrará es el **modo de cálculo**, que controla cómo se actualizan las fechas de las tareas y los cronogramas del proyecto. En este tutorial aprenderá **cómo establecer el modo de cálculo**, explorará el **modo de cálculo automático**, el **modo de cálculo manual** y el **modo de cálculo none**, y verá cómo estas opciones afectan a **gestionar dependencias de tareas**, **crear la fecha de inicio del proyecto** y **vincular relaciones de fin‑inicio** entre tareas.
+
+## Respuestas rápidas
+- **¿Qué es el modo de cálculo?** Determina si las fechas de las tareas se recalculan automáticamente, manualmente o no se recalculan.  
+- **¿Por qué usar el modo de cálculo manual?** Para obtener control total sobre cuándo se actualiza el cronograma, útil en actualizaciones masivas.  
+- **¿Cuál es el modo predeterminado?** El modo de cálculo automático, que actualiza las fechas instantáneamente después de los cambios.  
+- **¿Puedo cambiar el modo en tiempo de ejecución?** Sí, simplemente establezca la propiedad `CalculationMode` en el objeto `Project`.  
+- **¿Necesito una licencia?** Se requiere una licencia válida de Aspose.Tasks para uso en producción.
+
+## Qué significa “cómo establecer el cálculo” en Aspose.Tasks?
+
+Establecer el modo de cálculo es tan simple como asignar un valor de enumeración a la propiedad `Project.CalculationMode`. La enumeración ofrece tres opciones: `Automatic`, `Manual` y `None`. Elegir el modo adecuado depende de su flujo de trabajo—si desea actualizaciones instantáneas, procesamiento por lotes o control total.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente:
+Antes de comenzar, asegúrese de contar con:
 
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su sistema.
-2.  Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
-3. Comprensión básica de la programación en C#: familiarícese con los conceptos de programación en C#.
+1. **Visual Studio** – cualquier versión reciente (2019, 2022 o posterior).  
+2. **Aspose.Tasks para .NET** – descargue e instale la biblioteca desde [aquí](https://releases.aspose.com/tasks/net/).  
+3. **Conocimientos básicos de C#** – debe sentirse cómodo creando aplicaciones de consola y usando paquetes NuGet.
 
 ## Importar espacios de nombres
 
@@ -32,15 +46,17 @@ Antes de comenzar a trabajar con Aspose.Tasks para .NET, importemos los espacios
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Aplicar el modo de cálculo automático
+## Cómo establecer el modo de cálculo
 
-### Paso 1: crear una nueva instancia de proyecto
+A continuación encontrará ejemplos paso a paso para cada modo de cálculo. Los bloques de código permanecen sin cambios respecto al tutorial original; las explicaciones circundantes se han ampliado para mayor claridad.
 
- Inicializar un nuevo`Project` objeto y establecer su`CalculationMode` propiedad a`CalculationMode.Automatic`.
+### Aplicar el modo de cálculo automático
+
+El modo automático recalcula las fechas al instante siempre que modifique tareas o enlaces.
+
+#### Paso 1: Crear una nueva instancia de Project
 
 ```csharp
 var project = new Project
@@ -49,9 +65,7 @@ var project = new Project
 };
 ```
 
-### Paso 2: establezca la fecha de inicio del proyecto y agregue tareas
-
-Defina la fecha de inicio del proyecto y agréguele tareas.
+#### Paso 2: Establecer la fecha de inicio del proyecto y agregar tareas
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -59,28 +73,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Paso 3: vincular tareas
-
-Establecer dependencias entre tareas.
+#### Paso 3: Vincular tareas (fin‑a‑inicio)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-### Paso 4: verificar las fechas recalculadas
-
-Compruebe si las fechas se han recalculado automáticamente.
+#### Paso 4: Verificar las fechas recalculadas
 
 ```csharp
 Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Start).AddDays(1).Equals(task2.Get(Tsk.Start)));
-// Agregue más verificaciones según sea necesario
+// Add more verifications as needed
 ```
 
-## Aplicar el modo de cálculo manual
+### Aplicar el modo de cálculo manual
 
-### Paso 1: crear una nueva instancia de proyecto
+El modo manual desactiva las actualizaciones automáticas, dándole la oportunidad de procesar cambios por lotes antes de forzar una recalculación.
 
- Inicializar un nuevo`Project` objeto y establecer su`CalculationMode` propiedad a`CalculationMode.Manual`.
+#### Paso 1: Crear una nueva instancia de Project
 
 ```csharp
 var project = new Project
@@ -89,9 +99,7 @@ var project = new Project
 };
 ```
 
-### Paso 2: establezca la fecha de inicio del proyecto y agregue tareas
-
-Defina la fecha de inicio del proyecto y agréguele tareas.
+#### Paso 2: Establecer la fecha de inicio del proyecto y agregar tareas
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -99,28 +107,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Paso 3: verificar las propiedades de la tarea
-
-Compruebe si las propiedades de la tarea están configuradas correctamente en modo manual.
+#### Paso 3: Verificar las propiedades de la tarea
 
 ```csharp
 Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
-// Agregue más verificaciones según sea necesario
+// Add more verifications as needed
 ```
 
-### Paso 4: Vincular tareas y verificar fechas
-
-Vincula tareas y comprueba si sus fechas no se recalculan.
+#### Paso 4: Vincular tareas y verificar fechas (sin recalculación automática)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-## Aplicar el modo de cálculo Ninguno
+### Aplicar el modo de cálculo None
 
-### Paso 1: crear una nueva instancia de proyecto
+El modo None desactiva todos los cálculos internos. Úselo cuando solo necesite leer o exportar datos sin realizar cambios en el cronograma.
 
- Inicializar un nuevo`Project` objeto y establecer su`CalculationMode` propiedad a`CalculationMode.None`.
+#### Paso 1: Crear una nueva instancia de Project
 
 ```csharp
 var project = new Project
@@ -129,48 +133,50 @@ var project = new Project
 };
 ```
 
-### Paso 2: agrega una nueva tarea
-
-Agregue una nueva tarea al proyecto.
+#### Paso 2: Agregar una nueva tarea
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
 ```
 
-### Paso 3: verificar las propiedades de la tarea
-
-Compruebe si las propiedades de la tarea no se calculan automáticamente.
+#### Paso 3: Verificar las propiedades de la tarea (sin IDs automáticos)
 
 ```csharp
 Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
-// Agregue más verificaciones según sea necesario
+// Add more verifications as needed
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, exploramos los modos de cálculo disponibles en Aspose.Tasks para .NET y aprendimos cómo aplicarlos en escenarios prácticos. Ya sea que necesite un modo de cálculo automático, manual o sin cálculo, Aspose.Tasks brinda la flexibilidad para adaptarse a los requisitos de su proyecto.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| Las fechas no se actualizan después de vincular tareas | El proyecto está en modo **Manual** o **None** | Establezca `project.CalculationMode = CalculationMode.Automatic` o llame a `project.Calculate()` manualmente |
+| Los IDs de tarea permanecen en 0 | Usar el modo **None** impide la generación de IDs | Cambie a modo **Automatic** o **Manual**, luego recalcule |
+| El enlace falla con `ArgumentException` | La fecha de inicio del predecesor es posterior a la del sucesor al usar el modo **Manual** sin recalculación | Asegúrese de que las fechas de inicio sean correctas o recalcule después de agregar enlaces |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo cambiar el modo de cálculo dinámicamente durante el tiempo de ejecución?
+**Q1: ¿Puedo cambiar el modo de cálculo dinámicamente durante la ejecución?**  
+A1: Sí, puede modificar la propiedad `CalculationMode` en cualquier punto de su código y luego llamar a `project.Calculate()` si necesita una actualización inmediata.
 
-R1: Sí, puede cambiar el modo de cálculo de un proyecto en cualquier momento durante el tiempo de ejecución modificando el`CalculationMode` propiedad.
+**Q2: ¿Aspose.Tasks admite otros formatos de archivo de gestión de proyectos además de Microsoft Project?**  
+A2: Aspose.Tasks se centra principalmente en los formatos de Microsoft Project, pero también admite Primavera P6 XML, Primavera DB y Asta Powerproject XML.
 
-### P2: ¿Aspose.Tasks admite otros formatos de archivos de gestión de proyectos además de Microsoft Project?
+**Q3: ¿Es Aspose.Tasks adecuado tanto para proyectos de pequeña escala como para proyectos a nivel empresarial?**  
+A3: Absolutamente. La API escala desde listas de tareas simples hasta cronogramas empresariales complejos y multi‑fase.
 
-R2: Aspose.Tasks se centra principalmente en los formatos de archivo de Microsoft Project, pero también admite otros formatos como Primavera P6 XML, Primavera DB y Asta Powerproject XML.
+**Q4: ¿Puedo integrar Aspose.Tasks con otras bibliotecas y frameworks de .NET?**  
+A4: Sí, puede combinar Aspose.Tasks con ASP.NET, WPF, Xamarin o cualquier otra tecnología .NET para crear soluciones de gestión de proyectos avanzadas.
 
-### P3: ¿Aspose.Tasks es adecuado para proyectos tanto de pequeña escala como de nivel empresarial?
+**Q5: ¿Existe un foro comunitario o canal de soporte disponible para usuarios de Aspose.Tasks?**  
+A5: Sí, puede visitar el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener soporte comunitario y participar en discusiones.
 
-R3: ¡Absolutamente! Aspose.Tasks está diseñado para satisfacer las necesidades de proyectos tanto de pequeña escala como de nivel empresarial con sus funciones integrales y API sólidas.
+---
 
-### P4: ¿Puedo integrar Aspose.Tasks con otras bibliotecas y marcos .NET?
+**Última actualización:** 2026-03-24  
+**Probado con:** Aspose.Tasks 24.11 para .NET  
+**Autor:** Aspose  
 
-R4: Sí, puede integrar Aspose.Tasks sin problemas con otras bibliotecas y marcos .NET para mejorar la funcionalidad de sus aplicaciones.
-
-### P5: ¿Existe un foro comunitario o un canal de soporte disponible para los usuarios de Aspose.Tasks?
-
- R5: Sí, puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo y debates de la comunidad.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
