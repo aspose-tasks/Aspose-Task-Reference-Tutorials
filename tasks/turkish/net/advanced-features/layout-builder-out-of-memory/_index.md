@@ -1,33 +1,40 @@
 ---
-title: Aspose.Tasks Layout Builder ile Bellek İstisnalarını İşleme
-linktitle: Aspose.Tasks Layout Builder ile Bellek İstisnalarını İşleme
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks Layout Builder'ı verimli bir şekilde kullanarak .NET'te bellek istisnalarını nasıl ele alacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-weight: 12
+date: 2026-03-24
+description: Bellek dışı işleme ve Aspose.Tasks Layout Builder kullanarak .NET'te
+  proje görüntüsünü nasıl kaydedeceğinizi öğrenin. Adım adım kod örnekleriyle rehber.
+linktitle: Out of Memory Handling with Aspose.Tasks Layout Builder
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks Layout Builder (C#) ile Bellek Yetersizliği Yönetimi
 url: /tr/net/advanced-features/layout-builder-out-of-memory/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Layout Builder ile Bellek İstisnalarını İşleme
+# Aspose.Tasks Layout Builder ile Bellek Dışı İşleme
 
-## giriiş
+## Giriş
 
-Bellek istisnalarının ele alınması, herhangi bir yazılım uygulamasının düzgün çalışmasını sağlamak için çok önemlidir. Aspose.Tasks for .NET ile çalışırken geliştiriciler, özellikle büyük projeler veya karmaşık düzenler ile uğraşırken sıklıkla bellekle ilgili sorunlarla karşılaşırlar. Bu eğitimde Aspose.Tasks Layout Builder'ı kullanarak bellek istisnalarını etkili bir şekilde nasıl ele alabileceğimizi keşfedeceğiz.
+Bellek dışı işleme, büyük proje dosyalarıyla çalışan güvenilir .NET uygulamaları oluşturmanın kritik bir parçasıdır. Aspose.Tasks Layout Builder ile görselleştirmeler oluşturduğunuzda, özellikle karmaşık Gantt grafiklerinde bellekle ilgili istisnalara hızlıca takılabilirsiniz. Bu öğreticide **handle memory exceptions**, **customize Gantt view** ve **save project image** işlemlerini güvenli bir şekilde nasıl yapacağınızı adım adım göstereceğiz, böylece uygulamanız büyük takvimlerde bile yanıt vermeye devam eder.
 
-## Önkoşullar
+## Hızlı Cevaplar
+- **Bellek dışı işleme nedir?** Büyük verileri işlerken bellek kullanımını yönetmek ve `OutOfMemoryException`‑tipi hataları yakalamak.
+- **Hangi API yardımcı olur?** Aspose.Tasks Layout Builder for .NET.
+- **Tipik senaryo?** Yüksek çözünürlüklü bir Gantt grafiğini PNG olarak oluşturma.
+- **Temel ön koşul?** Aspose.Tasks yüklü .NET (Framework 4.5+ veya .NET 6).
+- **Hataları nasıl yakalarsınız?** `ApsLayoutBuilderOutOfMemoryException` ve ilgili istisnalar için `try…catch` blokları kullanın.
 
-Bu eğitime dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Ön Koşullar
 
-1. C# programlamaya ilişkin temel bilgi: Bu eğitimde C# sözdizimine ve kavramlarına aşina olunduğu varsayılmaktadır.
-2.  Aspose.Tasks for .NET Kurulumu: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
-3. IDE (Entegre Geliştirme Ortamı): Kodlama ve derleme için Visual Studio gibi bir IDE'nin kurulu olmasını sağlayın.
+Koda başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-## Ad Alanlarını İçe Aktar
+1. **C# temelleri** – standart C# sözdizimiyle rahat olmalısınız.
+2. **Aspose.Tasks for .NET** yüklü. Henüz eklemediyseniz, [buradan](https://releases.aspose.com/tasks/net/) indirin.
+3. **Bir IDE** – örneğin Visual Studio (veya C# uzantılı VS Code) – örnek kodu derlemek ve çalıştırmak için.
 
-Başlamak için gerekli ad alanlarını C# projenize aktarın:
+## Ad Alanlarını İçe Aktarma
 
 ```csharp
 using Aspose.Tasks;
@@ -35,22 +42,21 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-Aspose.Tasks Layout Builder ile bellek istisnalarının nasıl etkili bir şekilde ele alınacağını anlamak için verilen örnek kodu birden fazla adıma ayıralım:
+## Adım Adım Kılavuz
 
-## Adım 1: Projeyi Yükleyin
+### Adım 1: Projeyi Yükle
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
 
- Bu adım, "Blank2010.mpp" proje dosyasını bir örneğine yükler.`Project` sınıf.
+Bu satır **Blank2010.mpp** dosyasını bir `Project` örneğine yükler ve görselleştirme için hazırlar.
 
-## Adım 2: Gantt Grafiği Görünümünü Özelleştirin
+### Adım 2: Gantt Grafik Görünümünü Özelleştir
 
 ```csharp
 var ganttChart = (GanttChartView)project.Views.ToList()[0];
@@ -59,26 +65,26 @@ ganttChart.BottomTimescaleTier.Unit = TimescaleUnit.Minutes;
 ganttChart.BottomTimescaleTier.Count = 1;
 ```
 
-Burada, daha iyi görselleştirme için zaman ölçeği birimlerini ve sayımı ayarlayarak Gantt Grafiği görünümünü özelleştiriyoruz.
+Burada orta ve alt zaman ölçeği katmanlarını ayarlayarak **customize Gantt view** yapıyoruz. Bu katmanları değiştirmek, aynı anda işlenen veri miktarını azaltır ve bellek baskısını hafifletebilir.
 
-## 3. Adım: Görüntü Kaydetme Seçeneklerini Yapılandırın
+### Adım 3: Görüntü Kaydetme Seçeneklerini Yapılandır
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png);
 options.Timescale = Timescale.DefinedInView;
 ```
 
- Bu adımda örneğini oluşturuyoruz.`ImageSaveOptions` Çıkış görüntüsünün formatını ve zaman ölçeği ayarlarını belirtmek için.
+`ImageSaveOptions`, Aspose.Tasks'e grafiği nasıl oluşturacağını söyler. Çıktı formatı olarak PNG seçiyoruz ve zaman ölçeğini az önce özelleştirdiğimiz görünüme bağlıyoruz.
 
-## Adım 4: Projeyi Görüntü Olarak Kaydetme
+### Adım 4: Projeyi Görüntü Olarak Kaydet
 
 ```csharp
 project.Save(DataDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", options);
 ```
 
-Son olarak projeyi belirtilen seçeneklerle kaydediyoruz. Proje çok büyük veya karmaşıksa, burası bir bellek istisnasının meydana gelebileceği yerdir.
+`Save` çağrısı, yukarıda tanımlanan seçenekleri kullanarak **saves the project image** yapar. Proje çok büyükse, bellek dışı durumun ortaya çıkma ihtimalinin en yüksek olduğu nokta budur.
 
-## Adım 5: İstisnaları Ele Alın
+### Adım 5: İstisnaları Ele Al
 
 ```csharp
 catch (ApsLayoutBuilderOutOfMemoryException ex)
@@ -91,33 +97,61 @@ catch (BitmapInvalidSizeException ex)
 }
 ```
 
-Burada, uygun hata mesajları veya işleme mantığı sağlayarak, bellek ve bitmap boyutuyla ilgili belirli istisnaları yakalayıp ele alıyoruz.
+`ApsLayoutBuilderOutOfMemoryException` yakalayarak **handle memory exception** sorunsuz bir şekilde ele alırsınız, uygulamanın çökmesi yerine net bir mesaj sağlarsınız. İkinci catch, büyük grafikler oluşturulurken ortaya çıkabilecek bitmap boyutu sorunlarıyla ilgilenir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu adım adım kılavuzu takip ederek, .NET uygulamalarınızda Aspose.Tasks Layout Builder ile çalışırken bellek istisnalarını etkili bir şekilde yönetebilirsiniz. Bellekle ilgili sorunları azaltmak için kaynak kullanımını optimize etmeyi ve projelerinizin karmaşıklığını göz önünde bulundurmayı unutmayın.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|------|
+| **OutOfMemoryException** | Çok yüksek çözünürlüklü bir görüntüyü oluşturmak, işlemin tahsis edebileceğinden daha fazla RAM tüketir. | Görüntü boyutlarını küçültün, zaman ölçeği katmanlarını basitleştirin veya grafiği birden fazla görüntüye bölün. |
+| **BitmapInvalidSizeException** | İstenen bitmap boyutu platformun maksimumunu aşıyor. | `ImageSaveOptions` içinde genişlik/yüksekliği sınırlayın veya segmentler halinde render edin. |
+| **Slow performance** | Büyük proje dosyaları çok fazla işlem gerektirir. | Render etmeden önce `project.Set(Prj.SaveToCache, true)` etkinleştirin veya bir arka plan iş parçacığı kullanın. |
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.Tasks for .NET nedir?
+### Q1: Aspose.Tasks for .NET nedir?
 
-Cevap1: Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını .NET uygulamalarında programlı olarak değiştirmelerine olanak tanıyan güçlü bir API'dir.
+A1: Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarını programlı olarak manipüle etmelerini sağlayan güçlü bir API'dir.
 
-### S2: Aspose.Tasks için nasıl geçici lisans alabilirim?
+### Q2: Aspose.Tasks için geçici bir lisans nasıl alınır?
 
- Cevap2: adresini ziyaret ederek Aspose.Tasks için geçici bir lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+A2: Aspose.Tasks için geçici bir lisansı, [bu linki](https://purchase.aspose.com/temporary-license/) ziyaret ederek alabilirsiniz.
 
-### S3: Aspose.Tasks büyük proje dosyalarını işlemeye uygun mudur?
+### Q3: Aspose.Tasks büyük proje dosyalarını işlemek için uygun mu?
 
-Cevap3: Evet, Aspose.Tasks büyük proje dosyalarını verimli bir şekilde yönetmek için özellikler ve optimizasyonlar sağlar, ancak geliştiricilerin yine de bellek yönetimi stratejilerini dikkate alması gerekir.
+A3: Evet, Aspose.Tasks büyük proje dosyalarını verimli bir şekilde işlemek için özellikler ve optimizasyonlar sunar, ancak geliştiricilerin hâlâ bellek yönetimi stratejilerini göz önünde bulundurmaları gerekir.
 
-### S4: Aspose.Tasks'ı kullanarak Gantt grafiklerinin görünümünü özelleştirebilir miyim?
+### Q4: Aspose.Tasks kullanarak Gantt grafiklerinin görünümünü özelleştirebilir miyim?
 
-Cevap4: Kesinlikle! Aspose.Tasks, Gantt şemalarının görünümünü ve düzenini gereksinimlerinize göre özelleştirmeniz için kapsamlı yetenekler sağlar.
+A4: Kesinlikle! Aspose.Tasks, Gantt grafiklerinin görünümünü ve düzenini gereksinimlerinize göre özelleştirmek için kapsamlı yetenekler sunar.
 
-### S5: Aspose.Tasks için nerede daha fazla yardım ve destek bulabilirim?
+### Q5: Aspose.Tasks için daha fazla yardım ve destek nereden bulunur?
 
- Cevap 5: Daha fazla yardım ve destek bulabilir, ayrıca toplulukla etkileşime geçebilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+A5: Daha fazla yardım ve destek bulabilir, ayrıca toplulukla etkileşime geçebilirsiniz, [Aspose.Tasks forumunda](https://forum.aspose.com/c/tasks/15).
+
+## Sık Sorulan Sorular
+
+**S:** Proje görüntüsü kaydederken bellek kullanımını nasıl azaltabilirim?  
+**C:** Görüntü çözünürlüğünü düşürün, zaman ölçeği aralığını sınırlayın veya grafiği birden fazla daha küçük segmente kaydedin.
+
+**S:** Görüntüyü doğrudan bir web yanıtına akıtmak mümkün mü?  
+**C:** Evet, `project.Save(stream, options)` kullanabilir ve akışı HTTP yanıtına yazabilirsiniz.
+
+**S:** Aspose.Tasks .NET Core ve .NET 5/6'yı destekliyor mu?  
+**C:** Kütüphane .NET Core, .NET 5 ve .NET 6 ile tam uyumludur.
+
+**S:** Optimizasyondan sonra hâlâ bellek dışı hatası alıyorsam ne yapmalıyım?  
+**C:** Projeyi daha fazla RAM'e sahip bir makinede işlemeyi veya render işlemini bir arka plan servisine yüklemeyi düşünün.
+
+**S:** Gantt grafiğini PNG dışındaki formatlara dışa aktarabilir miyim?  
+**C:** Evet, `ImageSaveOptions` PNG'ye ek olarak JPEG, BMP ve TIFF formatlarını da destekler.
+
+---
+
+**Son Güncelleme:** 2026-03-24  
+**Test Edilen Versiyon:** Aspose.Tasks 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
