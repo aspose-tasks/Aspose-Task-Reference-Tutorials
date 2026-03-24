@@ -1,53 +1,68 @@
 ---
-title: ประเภทการคำนวณใน Aspose.Tasks
-linktitle: ประเภทการคำนวณใน Aspose.Tasks
+date: 2026-03-24
+description: เรียนรู้วิธีตั้งค่าการคำนวณใน Aspose.Tasks สำหรับ .NET พร้อมตัวอย่างการคำนวณค่าสรุป,
+  กำหนดสูตรการคำนวณ, และกำหนดค่าการสรุปแบบ rollup.
+linktitle: Calculation Type in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีปรับแต่งการคำนวณมูลค่าในโครงการ .NET ด้วยประเภทการคำนวณในไลบรารี Aspose.Tasks
-weight: 30
+title: วิธีตั้งค่าประเภทการคำนวณใน Aspose.Tasks
 url: /th/net/advanced-features/calculation-type/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ประเภทการคำนวณใน Aspose.Tasks
+# วิธีตั้งค่า Calculation Type ใน Aspose.Tasks
 
-## การแนะนำ
+## Introduction
 
-ในบทช่วยสอนนี้ เราจะสำรวจฟีเจอร์ประเภทการคำนวณใน Aspose.Tasks สำหรับ .NET Aspose.Tasks เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา .NET สามารถทำงานกับไฟล์ Microsoft Project ได้โดยไม่จำเป็นต้องติดตั้ง Microsoft Project บนระบบของพวกเขา ประเภทการคำนวณช่วยให้เรากำหนดวิธีคำนวณค่าสำหรับงานและสรุปงานภายในโครงการได้
+หากคุณต้องการ **วิธีตั้งค่า calculation** สำหรับงานและแถวสรุปในไฟล์ Microsoft Project, บทเรียนนี้จะแสดงให้คุณทำเช่นนั้นโดยใช้ Aspose.Tasks สำหรับ .NET เราจะเดินผ่านตัวอย่าง **calculation type** อย่างครบถ้วน, สาธิตวิธี **calculate summary values**, และอธิบายวิธี **define calculation formula** และ **configure rollup summary** สำหรับคุณลักษณะขยาย (extended attributes) เมื่อจบคุณจะสามารถเพิ่มงานลงในโปรเจกต์, ตั้งค่าตรรกะการคำนวณแบบกำหนดเอง, และควบคุมพฤติกรรม roll‑up ได้อย่างมั่นใจ
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What is the primary purpose?** เพื่อควบคุมวิธีการคำนวณค่าของงานและค่ารวมในไฟล์ Project  
+- **Which API class is used?** `ExtendedAttributeDefinition` ร่วมกับ `CalculationType` และ `SummaryRowsCalculationType`  
+- **Can I use a formula?** ใช่ – ตั้งค่า `CalculationType = CalculationType.Formula` แล้วใส่สตริงสูตร  
+- **How do I roll‑up summary values?** ใช้ `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` และระบุ `RollupType` เช่น `Average`  
+- **Do I need a license?** จำเป็นต้องมีใบอนุญาต Aspose.Tasks ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+## What is Calculation Type and how to set calculation?
 
-1. ความรู้พื้นฐานเกี่ยวกับกรอบงาน C# และ .NET
-2. ติดตั้ง Visual Studio บนระบบของคุณแล้ว
-3.  ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
-4.  เข้าถึงเอกสาร Aspose.Tasks สำหรับ .NET เพื่อใช้อ้างอิงได้[ที่นี่](https://reference.aspose.com/tasks/net/).
+`CalculationType` บอก Aspose.Tasks ว่าจะคำนวณค่าของคุณลักษณะขยายอย่างไร คุณสามารถเลือกค่าคงที่, สูตร, หรือให้ไลบรารีทำการ roll‑up ค่าจากงานลูก การตั้งค่า calculation อย่างถูกต้องเป็นสิ่งสำคัญเมื่อคุณต้องการให้โปรเจกต์สะท้อนกฎธุรกิจที่กำหนดเองโดยไม่ต้องอัปเดตด้วยตนเอง
 
-## นำเข้าเนมสเปซ
+## Why use calculation type to calculate summary values?
 
-ก่อนที่จะเจาะลึกตัวอย่าง ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็น:
+เมื่อโปรเจกต์มีงานสรุป, คุณมักต้องการให้แถวสรุปแสดงข้อมูลที่รวมกัน (เช่น ค่าใช้จ่ายทั้งหมด, ระยะเวลาเฉลี่ย) โดยการกำหนด **calculate summary values** ผ่าน `SummaryRowsCalculationType` และ `RollupType`, Aspose.Tasks สามารถรักษาการรวมค่าเหล่านี้ให้สอดคล้องโดยอัตโนมัติขณะคุณแก้ไขงานแต่ละรายการ
+
+## Prerequisites
+
+ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
+
+1. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET framework  
+2. Visual Studio (เวอร์ชันล่าสุดใดก็ได้) ติดตั้งบนเครื่องของคุณ  
+3. ไลบรารี Aspose.Tasks สำหรับ .NET ติดตั้งแล้ว – คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/tasks/net/)  
+4. การเข้าถึงเอกสารอย่างเป็นทางการของ Aspose.Tasks สำหรับ .NET เพื่ออ้างอิง, มีให้ที่ [here](https://reference.aspose.com/tasks/net/)
+
+## Import Namespaces
+
+ก่อนจะลงลึกในตัวอย่าง, อย่าลืมนำเข้า namespace ที่จำเป็น:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## ขั้นตอนที่ 1: สร้างโครงการใหม่
+## Step 1: Create a new Project
 
-ขั้นแรก เรามาสร้างวัตถุโครงการใหม่:
+ขั้นแรก, เราจะสร้างอ็อบเจ็กต์ `Project` ว่างที่ใช้เก็บงานและคุณลักษณะกำหนดเองของเรา
 
 ```csharp
 var project = new Project();
 ```
 
-## ขั้นตอนที่ 2: เพิ่มงาน
+## Step 2: Add a Task to the Project
 
-ตอนนี้ เรามาเพิ่มงานให้กับโครงการของเรา:
+ต่อไปเราจะ **add task project** โดยสร้างงานง่าย ๆ ตั้งค่าวันเริ่มต้นและกำหนดระยะเวลาเป็นหนึ่งวัน
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
@@ -55,9 +70,9 @@ task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
 task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
 ```
 
-## ขั้นตอนที่ 3: กำหนดประเภทการคำนวณสำหรับแอตทริบิวต์เพิ่มเติม
+## Step 3: Define Calculation Type for an Extended Attribute (Formula Example)
 
-เราจะสร้างคำจำกัดความแอตทริบิวต์เพิ่มเติมโดยตั้งค่าประเภทการคำนวณเป็นสูตร:
+ที่นี่เราจะสร้างการกำหนดคุณลักษณะขยายที่ค่าถูกคำนวณจากสูตร ซึ่งเป็นการสาธิต **calculation type example** และแสดงวิธี **define calculation formula**
 
 ```csharp
 var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
@@ -67,9 +82,9 @@ calculation.Formula = "[stARt]";
 project.ExtendedAttributes.Add(calculation);
 ```
 
-## ขั้นตอนที่ 4: กำหนดประเภทการคำนวณสำหรับแถวสรุป
+## Step 4: Define Calculation Type for Summary Rows (Configure Rollup Summary)
 
-ต่อไป เราจะสร้างข้อกำหนดแอตทริบิวต์เพิ่มเติมอื่นโดยที่ค่าสำหรับงานสรุปจะถูกคำนวณโดยใช้ประเภทค่าสะสมเฉลี่ย:
+ต่อมาเราจะสร้างการกำหนดคุณลักษณะขยายอีกอันหนึ่งที่บอก Aspose.Tasks ให้ **configure rollup summary** โดยใช้ประเภท roll‑up *Average* วิธีนี้เป็นวิธีทั่วไปในการ **calculate summary values** สำหรับค่าใช้จ่าย, งาน, หรือฟิลด์กำหนดเอง
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -78,31 +93,46 @@ lookup.RollupType = RollupType.Average;
 project.ExtendedAttributes.Add(lookup);
 ```
 
-## บทสรุป
+## Common Issues & Troubleshooting
 
-ในบทช่วยสอนนี้ เราได้สำรวจวิธีการทำงานกับประเภทการคำนวณใน Aspose.Tasks สำหรับ .NET ด้วยการกำหนดประเภทการคำนวณสำหรับแอตทริบิวต์เพิ่มเติม เราสามารถปรับแต่งวิธีคำนวณค่าสำหรับงานและงานสรุปภายในโครงการได้ ซึ่งให้ความยืดหยุ่นและการควบคุมที่มากขึ้น
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Formula returns `null` | Incorrect field reference in the formula | Verify the field name inside brackets (e.g., `[Start]` not `[stARt]`). |
+| Summary rows show 0 | `SummaryRowsCalculationType` not set or wrong `RollupType` | Ensure `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` and choose an appropriate `RollupType`. |
+| Project fails to load after adding attributes | Mismatch between attribute definition and task usage | Add the attribute definition **before** you assign it to any task. |
 
-## คำถามที่พบบ่อย
+## Conclusion
 
-### คำถามที่ 1: ประเภทการคำนวณใน Aspose.Tasks คืออะไร
+ในบทเรียนนี้ เราได้ครอบคลุม **วิธีตั้งค่า calculation** ใน Aspose.Tasks สำหรับ .NET ตั้งแต่การสร้างงานง่าย ๆ ไปจนถึงการกำหนดประเภทการคำนวณแบบสูตรและแบบ roll‑up ด้วยการควบคุมเหล่านี้ คุณจะได้การควบคุมระดับละเอียดในการ **calculate summary values**, ทำให้การวิเคราะห์โปรเจกต์มีความลึกซึ้งยิ่งขึ้นโดยไม่ต้องพึ่งสเปรดชีตแบบแมนนวล
 
-A1: ประเภทการคำนวณใน Aspose.Tasks จะกำหนดวิธีคำนวณค่าสำหรับงานและงานสรุปภายในโปรเจ็กต์ โดยเสนอตัวเลือกต่างๆ เช่น สูตรและค่าสะสม
+## FAQ's
 
-### คำถามที่ 2: ฉันจะตั้งค่าประเภทการคำนวณสำหรับแอตทริบิวต์เพิ่มเติมได้อย่างไร
+### Q1: What is Calculation Type in Aspose.Tasks?
 
-A2: คุณสามารถตั้งค่าประเภทการคำนวณสำหรับแอตทริบิวต์แบบขยายได้โดยการกำหนดคุณสมบัติ CalculationType ให้สอดคล้องกัน
+A1: Calculation Type in Aspose.Tasks determines how values are calculated for tasks and summary tasks within a project, offering options such as Formula and Rollup.
 
-### คำถามที่ 3: ฉันสามารถปรับแต่งประเภทการคำนวณสำหรับแถวสรุปในโครงการได้หรือไม่
+### Q2: How do I set Calculation Type for an Extended Attribute?
 
-A3: ใช่ Aspose.Tasks อนุญาตให้คุณระบุประเภทการคำนวณสำหรับแถวสรุป ช่วยให้คุณสามารถปรับแต่งการคำนวณมูลค่าตามความต้องการของคุณ
+A2: You can set Calculation Type for an Extended Attribute by defining its CalculationType property accordingly.
 
-### คำถามที่ 4: มีประเภทชุดรวมที่แตกต่างกันสำหรับการคำนวณงานสรุปหรือไม่
+### Q3: Can I customize Calculation Type for summary rows in a project?
 
-A4: ใช่ Aspose.Tasks มีประเภทค่าสะสมต่างๆ เช่น ค่าเฉลี่ย ผลรวม และจำนวน สำหรับการคำนวณค่าของงานสรุป
+A3: Yes, Aspose.Tasks allows you to specify Calculation Type for summary rows, enabling you to tailor value calculations based on your requirements.
 
-### คำถามที่ 5: ฉันจะค้นหาแหล่งข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
+### Q4: Are there different Rollup Types available for summary task calculations?
 
- A5: คุณสามารถสำรวจเอกสารและฟอรัมสนับสนุนชุมชนที่มีอยู่ใน[Aspose.Tasks สำหรับ .NET](https://reference.aspose.com/tasks/net/) เพื่อขอคำแนะนำและความช่วยเหลืออย่างครอบคลุม
+A4: Yes, Aspose.Tasks provides various Rollup Types such as Average, Sum, and Count for calculating values of summary tasks.
+
+### Q5: Where can I find more resources on Aspose.Tasks for .NET?
+
+A5: You can explore the documentation and community support forums available on the [Aspose.Tasks for .NET](https://reference.aspose.com/tasks/net/) for comprehensive guidance and assistance.
+
+---
+
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.Tasks for .NET (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

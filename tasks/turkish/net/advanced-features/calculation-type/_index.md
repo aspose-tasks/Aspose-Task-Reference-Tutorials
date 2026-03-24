@@ -1,53 +1,69 @@
 ---
-title: Aspose.Tasks'ta Hesaplama Türü
-linktitle: Aspose.Tasks'ta Hesaplama Türü
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks kütüphanesindeki Hesaplama Türü ile .NET projelerinde değer hesaplamalarını nasıl özelleştireceğinizi öğrenin.
-weight: 30
+date: 2026-03-24
+description: Aspose.Tasks for .NET'te hesaplamayı nasıl ayarlayacağınızı öğrenin;
+  özet değerleri hesaplamak, hesaplama formülünü tanımlamak ve toplama özetini yapılandırmak
+  için örneklerle.
+linktitle: Calculation Type in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks'te Hesaplama Türünü Nasıl Ayarlarsınız
 url: /tr/net/advanced-features/calculation-type/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Hesaplama Türü
+# Aspose.Tasks'te Hesaplama Türünü Nasıl Ayarlarsınız
 
-## giriiş
+## Giriş
 
-Bu eğitimde Aspose.Tasks for .NET'teki Hesaplama Türü özelliğini inceleyeceğiz. Aspose.Tasks, .NET geliştiricilerinin sistemlerinde Microsoft Project'in yüklü olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmasını sağlayan güçlü bir kütüphanedir. Hesaplama Türü, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını tanımlamamıza olanak tanır.
+Eğer bir Microsoft Project dosyasında görevler ve özet satırlar için **hesaplamayı nasıl ayarlayacağınızı** belirten kurallara ihtiyacınız varsa, bu öğretici Aspose.Tasks for .NET kullanarak tam olarak bunu gösterir. Tam bir **hesaplama türü örneği** üzerinden geçecek, **özet değerleri hesaplamak** nasıl yapılır gösterecek ve **hesaplama formülünü tanımlamak** ile **rollup özetini yapılandırmak** için genişletilmiş özniteliklerin nasıl ayarlanacağını açıklayacağız. Sonunda, bir görevi projeye ekleyebilecek, özel hesaplama mantığını ayarlayabilecek ve roll‑up davranışını güvenle kontrol edebileceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Ana amaç nedir?** Bir Project dosyasında görev ve özet değerlerinin nasıl hesaplandığını kontrol etmek için.  
+- **Hangi API sınıfı kullanılıyor?** `ExtendedAttributeDefinition` birlikte `CalculationType` ve `SummaryRowsCalculationType`.  
+- **Formül kullanabilir miyim?** Evet – `CalculationType = CalculationType.Formula` ayarlayın ve bir formül dizesi sağlayın.  
+- **Özet değerleri nasıl roll‑up yapılır?** `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` kullanın ve `Average` gibi bir `RollupType` belirtin.  
+- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir.
 
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Hesaplama Türü Nedir ve Hesaplama Nasıl Ayarlanır?
 
-1. Temel C# ve .NET framework bilgisi.
-2. Sisteminizde Visual Studio yüklü.
-3.  Aspose.Tasks for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
-4.  Referans amacıyla Aspose.Tasks for .NET belgelerine erişim mevcuttur[Burada](https://reference.aspose.com/tasks/net/).
+`CalculationType` Aspose.Tasks'e genişletilmiş bir özniteliğin değerini nasıl hesaplayacağını söyler. Statik bir değer, bir formül seçebilir veya kütüphanenin alt görevlerden değerleri roll‑up yapmasına izin verebilirsiniz. Hesaplamayı doğru ayarlamak, projenin manuel güncellemeler olmadan özel iş kurallarını yansıtmasını istediğinizde çok önemlidir.
 
-## Ad Alanlarını İçe Aktar
+## Özet değerleri hesaplamak için neden hesaplama türü kullanılmalı?
 
-Örneğe dalmadan önce gerekli ad alanlarını içe aktardığınızdan emin olun:
+Bir proje özet görevler içerdiğinde, genellikle özet satırların toplu verileri (ör. toplam maliyet, ortalama süre) göstermesi gerekir. `SummaryRowsCalculationType` ve `RollupType` aracılığıyla **özet değerleri hesaplamak** yapılandırılarak, bireysel görevleri değiştirdiğinizde bu toplamların otomatik olarak senkronize kalması sağlanır.
+
+## Ön Koşullar
+
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
+
+1. C# ve .NET çerçevesi hakkında temel bilgi.  
+2. Makinenizde Visual Studio (herhangi bir yeni sürüm) yüklü.  
+3. Aspose.Tasks for .NET kütüphanesi yüklü – bunu [buradan](https://releases.aspose.com/tasks/net/) indirebilirsiniz.  
+4. Referans için resmi Aspose.Tasks for .NET dokümantasyonuna erişim, mevcut [burada](https://reference.aspose.com/tasks/net/).
+
+## Ad Alanlarını İçe Aktarın
+
+Örneğe geçmeden önce gerekli ad alanlarını içe aktardığınızdan emin olun:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## 1. Adım: Yeni bir Proje oluşturun
+## Adım 1: Yeni Bir Proje Oluşturun
 
-Öncelikle yeni bir proje nesnesi oluşturalım:
+İlk olarak, görevlerimizi ve özel özniteliklerimizi tutacak boş bir `Project` nesnesi oluştururuz.
 
 ```csharp
 var project = new Project();
 ```
 
-## 2. Adım: Görev Ekleme
+## Adım 2: Projeye Bir Görev Ekleyin
 
-Şimdi projemize bir görev ekleyelim:
+Şimdi **görev projesi ekleyin** verilerini, basit bir görev oluşturarak, başlangıç tarihini ayarlayarak ve bir günlük bir süre vererek ekliyoruz.
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
@@ -55,9 +71,9 @@ task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
 task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
 ```
 
-## Adım 3: Genişletilmiş Bir Nitelik için Hesaplama Türünü Tanımlayın
+## Adım 3: Genişletilmiş Bir Öznitelik İçin Hesaplama Türünü Tanımlayın (Formül Örneği)
 
-Hesaplama Türü Formül olarak ayarlandığında genişletilmiş bir öznitelik tanımı oluşturacağız:
+Burada, değeri bir formülden hesaplanan bir genişletilmiş öznitelik tanımı oluşturuyoruz. Bu, bir **hesaplama türü örneği** gösterir ve **hesaplama formülünü tanımlamak** nasıl yapılır gösterir.
 
 ```csharp
 var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
@@ -67,9 +83,9 @@ calculation.Formula = "[stARt]";
 project.ExtendedAttributes.Add(calculation);
 ```
 
-## Adım 4: Özet Satırlar için Hesaplama Türünü Tanımlayın
+## Adım 4: Özet Satırlar İçin Hesaplama Türünü Tanımlayın (Rollup Özeti Yapılandırma)
 
-Daha sonra, özet görev değerlerinin Ortalama toplama türü kullanılarak hesaplandığı başka bir genişletilmiş öznitelik tanımı oluşturacağız:
+Sonra, Aspose.Tasks'in *Average* roll‑up türünü kullanarak **rollup özetini yapılandır**masını söyleyen başka bir genişletilmiş öznitelik tanımı oluşturuyoruz. Bu, maliyet, iş ya da özel alanlar için **özet değerleri hesaplamak** tipik yoludur.
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -78,31 +94,46 @@ lookup.RollupType = RollupType.Average;
 project.ExtendedAttributes.Add(lookup);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Sorun Giderme
 
-Bu eğitimde Aspose.Tasks for .NET'te Hesaplama Türü ile nasıl çalışılacağını araştırdık. Genişletilmiş nitelikler için Hesaplama Türlerini tanımlayarak, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını özelleştirebilir, böylece daha fazla esneklik ve kontrol sağlayabiliriz.
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|------|
+| Formül `null` döndürüyor | Formülde hatalı alan referansı | Parantez içindeki alan adını doğrulayın (örneğin `[Start]` yerine `[stARt]` değil). |
+| Özet satırlar 0 gösteriyor | `SummaryRowsCalculationType` ayarlanmamış veya yanlış `RollupType` | `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` olduğundan emin olun ve uygun bir `RollupType` seçin. |
+| Öznitelikler eklendikten sonra proje yüklenemiyor | Öznitelik tanımı ile görev kullanımı arasında uyumsuzluk | Öznitelik tanımını **herhangi bir göreve atamadan önce** ekleyin. |
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.Tasks'ta Hesaplama Türü Nedir?
+Bu öğreticide, .NET için Aspose.Tasks'te **hesaplamayı nasıl ayarlayacağınızı** kapsadık; basit bir görev oluşturmaktan formül‑tabanlı ve roll‑up‑tabanlı hesaplama türlerini tanımlamaya kadar. Bu ayarları ustalaştırarak **özet değerleri hesaplamak** üzerinde ince ayar kontrolü elde eder, manuel elektronik tablo çalışması olmadan daha zengin proje analizleri yapabilirsiniz.
 
-A1: Aspose.Tasks'taki Hesaplama Türü, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını belirler ve Formül ve Toplama gibi seçenekler sunar.
+## SSS
 
-### S2: Genişletilmiş Öznitelik için Hesaplama Türünü nasıl ayarlayabilirim?
+### Q1: Aspose.Tasks'te Hesaplama Türü Nedir?
 
-Cevap2: Genişletilmiş bir Öznitelik için Hesaplama Türünü, CalculationType özelliğini uygun şekilde tanımlayarak ayarlayabilirsiniz.
+A1: Aspose.Tasks'te Hesaplama Türü, bir projedeki görevler ve özet görevler için değerlerin nasıl hesaplandığını belirler ve Formül ve Rollup gibi seçenekler sunar.
 
-### S3: Bir projedeki özet satırları için Hesaplama Türünü özelleştirebilir miyim?
+### Q2: Genişletilmiş Bir Öznitelik İçin Hesaplama Türü Nasıl Ayarlanır?
 
-C3: Evet, Aspose.Tasks, özet satırları için Hesaplama Türünü belirtmenize olanak tanıyarak değer hesaplamalarını gereksinimlerinize göre uyarlamanıza olanak tanır.
+A2: Genişletilmiş bir öznitelik için Hesaplama Türünü, ilgili CalculationType özelliğini uygun şekilde tanımlayarak ayarlayabilirsiniz.
 
-### S4: Özet görev hesaplamaları için farklı Toplama Türleri mevcut mu?
+### Q3: Projedeki özet satırlar için Hesaplama Türünü Özelleştirebilir miyim?
 
-Cevap4: Evet, Aspose.Tasks, özet görevlerin değerlerini hesaplamak için Ortalama, Toplam ve Sayım gibi çeşitli Toplama Türleri sağlar.
+A3: Evet, Aspose.Tasks özet satırlar için Hesaplama Türünü belirlemenize izin verir ve böylece değer hesaplamalarını gereksinimlerinize göre özelleştirebilirsiniz.
 
-### S5: Aspose.Tasks for .NET'te daha fazla kaynağı nerede bulabilirim?
+### Q4: Özet görev hesaplamaları için farklı Rollup Türleri mevcut mu?
 
- Cevap5: Web sitesinde bulunan belgeleri ve topluluk destek forumlarını inceleyebilirsiniz.[.NET için Aspose.Tasks](https://reference.aspose.com/tasks/net/) Kapsamlı rehberlik ve yardım için.
+A4: Evet, Aspose.Tasks, özet görevlerin değerlerini hesaplamak için Ortalama, Toplam ve Sayım gibi çeşitli Rollup Türleri sunar.
+
+### Q5: Aspose.Tasks for .NET hakkında daha fazla kaynağı nerede bulabilirim?
+
+A5: Kapsamlı rehberlik ve destek için [Aspose.Tasks for .NET](https://reference.aspose.com/tasks/net/) üzerindeki dokümantasyon ve topluluk destek forumlarını inceleyebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-24  
+**Test Edilen:** Aspose.Tasks for .NET (latest release)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
