@@ -90,22 +90,6 @@ for (TableField f : t1.getTableFields()) {
 ## Závěr
 Po provedení těchto kroků nyní víte, jak **get table fields** a číst data tabulky ze souboru Microsoft Project pomocí Aspose.Tasks pro Java. Tato schopnost otevírá dveře k výkonným scénářům automatizace, pipeline pro migraci dat a vlastním řešením reportování ve vašich Java aplikacích.
 
-## Často kladené otázky
-### Q: Je Aspose.Tasks kompatibilní se všemi verzemi Microsoft Project?
-Aspose.Tasks podporuje různé verze Microsoft Project, včetně Project 2003, 2007, 2010, 2013 a 2016.  
-
-### Q: Mohu upravit data tabulky a uložit je zpět do souboru projektu?
-Ano, můžete pomocí Aspose.Tasks programově upravit data tabulky a uložit změny do původního souboru projektu.  
-
-### Q: Vyžaduje Aspose.Tasks samostatnou licenci pro komerční použití?
-Ano, pokud chcete Aspose.Tasks používat v komerčním prostředí, musíte si zakoupit licenci. Licenci můžete získat na [stránce nákupu](https://purchase.aspose.com/buy).  
-
-### Q: Je k dispozici bezplatná zkušební verze Aspose.Tasks?
-Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks ze [stránky vydání](https://releases.aspose.com/).  
-
-### Q: Kde mohu najít pomoc a podporu pro Aspose.Tasks?
-Můžete navštívit [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro pomoc a podporu od komunity i týmu Aspose.  
-
 ## Další často kladené otázky
 
 **Q: Jak číst data tabulky v prostředí s více projekty?**  

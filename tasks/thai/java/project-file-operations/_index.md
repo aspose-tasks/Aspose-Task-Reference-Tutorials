@@ -123,32 +123,32 @@ weight: 29
 ### [การเขียนสรุปโครงการ MPP ใน Aspose.Tasks](./write-mpp-project-summary/)
 เรียนรู้วิธีเขียนสรุปโครงการ MPP ใน Java ด้วย Aspose.Tasks. ตั้งค่าและดึงข้อมูลโครงการได้อย่างง่ายดาย.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
-**Q: How do I update an MS Project schedule without opening Microsoft Project?**  
-A: Use Aspose.Tasks for Java to load the .mpp file, modify task dates or the project calendar, call `project.updateTaskDates()` (or similar API), and then save the file.
+**ถาม: ฉันจะอัปเดตกำหนดการของ MS Project โดยไม่ต้องเปิด Microsoft Project ได้อย่างไร?**
+ตอบ: ใช้ Aspose.Tasks for Java เพื่อโหลดไฟล์ .mpp แก้ไขวันที่ของงานหรือปฏิทินโครงการ เรียกใช้ `project.updateTaskDates()` (หรือ API ที่คล้ายกัน) แล้วบันทึกไฟล์
 
-**Q: Can I convert an MS Project file directly to PDF?**  
-A: Yes. The “Save As PDF” tutorial shows how to export a project to PDF with a single method call.
+**ถาม: ฉันสามารถแปลงไฟล์ MS Project เป็น PDF ได้โดยตรงหรือไม่?**
+ตอบ: ได้ คู่มือ “บันทึกเป็น PDF” แสดงวิธีการส่งออกโครงการไปยัง PDF ด้วยการเรียกใช้เมธอดเพียงครั้งเดียว
 
-**Q: Is exporting project data to Excel supported?**  
-A: Absolutely. Follow the “Save MS Project Data to Excel” guide to generate .xlsx files containing tasks, resources, and assignments.
+**ถาม: รองรับการส่งออกข้อมูลโครงการไปยัง Excel หรือไม่?**
+ตอบ: ได้อย่างแน่นอน ทำตามคำแนะนำ “บันทึกข้อมูล MS Project ไปยัง Excel” เพื่อสร้างไฟล์ .xlsx ที่มีงาน ทรัพยากร และการมอบหมาย
 
-**Q: How can I retrieve outline codes from a project?**  
-A: The “Retrieve MS Project Outline Codes” tutorial demonstrates how to iterate over tasks and read the `OutlineCode` collection.
+**ถาม: ฉันจะดึงรหัสโครงร่างจากโครงการได้อย่างไร?**
+ตอบ: คู่มือ “ดึงรหัสโครงร่าง MS Project” แสดงวิธีการวนซ้ำงานและอ่านคอลเลกชัน `OutlineCode`
 
-**Q: What format should I use to save large project data for analytics?**  
-A: CSV is a lightweight option; see the “Save As CSV, Text, and Template” tutorial for details.
+**ถาม: ฉันควรใช้รูปแบบใดในการบันทึกข้อมูลโครงการขนาดใหญ่เพื่อการวิเคราะห์?**
+ตอบ: CSV เป็นตัวเลือกที่มีน้ำหนักเบา โปรดดูบทช่วยสอน “บันทึกเป็น CSV, ข้อความ และเทมเพลต” สำหรับรายละเอียดเพิ่มเติม
 
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

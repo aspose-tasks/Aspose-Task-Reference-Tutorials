@@ -123,13 +123,6 @@ Naučte se efektivně spravovat vlastnosti pracovních dnů v Aspose.Tasks pro J
 ### [Zápis souhrnu MPP projektu v Aspose.Tasks](./write-mpp-project-summary/)
 Zjistěte, jak zapisovat souhrny MPP projektů v Javě pomocí Aspose.Tasks. Nastavujte a získávejte informace o projektu snadno.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Jak mohu aktualizovat plán MS Project bez otevření Microsoft Project?**  
@@ -150,3 +143,10 @@ A: CSV je lehká volba; podívejte se na tutoriál „Save As CSV, Text, and Tem
 **Poslední aktualizace:** 2025-12-18  
 **Testováno s:** Aspose.Tasks for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

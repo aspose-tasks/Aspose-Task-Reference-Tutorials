@@ -121,13 +121,6 @@ Learn to manage weekday properties efficiently in Aspose.Tasks for Java. Customi
 ### [Write MPP Project Summary in Aspose.Tasks](./write-mpp-project-summary/)
 Learn how to write MPP project summaries in Java using Aspose.Tasks. Set and retrieve project information effortlessly.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: How do I update an MS Project schedule without opening Microsoft Project?**  
@@ -150,3 +143,10 @@ A: CSV is a lightweight option; see the “Save As CSV, Text, and Template” tu
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

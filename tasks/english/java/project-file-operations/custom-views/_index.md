@@ -1,5 +1,5 @@
 ---
-title: "How to Create View: Custom MS Project Views in Aspose.Tasks"
+title: "How to Create View - Custom MS Project Views in Aspose.Tasks"
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: "Learn how to create view in Aspose.Tasks for Java, including how to save project view and set view properties. Enhance project management efficiency with tailored custom MS Project views."

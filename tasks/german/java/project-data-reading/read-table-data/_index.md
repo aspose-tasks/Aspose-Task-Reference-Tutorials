@@ -90,18 +90,6 @@ Der Ausschnitt gibt die Breite, den Titel und die Ausrichtung jeder Spalte in de
 ## Fazit
 Durch das Befolgen dieser Schritte wissen Sie jetzt, wie Sie **Tabellenspalten** abrufen und Tabellendaten aus einer Microsoft Project‑Datei mit Aspose.Tasks für Java lesen können. Diese Fähigkeit eröffnet leistungsstarke Automatisierungsszenarien, Datenmigrationspipelines und benutzerdefinierte Reporting‑Lösungen in Ihren Java‑Anwendungen.
 
-## FAQ
-### Q: Ist Aspose.Tasks mit allen Versionen von Microsoft Project kompatibel?
-A: Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project, einschließlich Project 2003, 2007, 2010, 2013 und 2016.  
-### Q: Kann ich die Tabellendaten ändern und zurück in die Projektdatei speichern?
-A: Ja, Sie können Aspose.Tasks verwenden, um Tabellendaten programmgesteuert zu ändern und die Änderungen in der ursprünglichen Projektdatei zu speichern.  
-### Q: Benötigt Aspose.Tasks eine separate Lizenz für die kommerzielle Nutzung?
-A: Ja, Sie müssen eine Lizenz für Aspose.Tasks erwerben, wenn Sie es in einer kommerziellen Umgebung einsetzen möchten. Sie können eine Lizenz über die [Kaufseite](https://purchase.aspose.com/buy) erhalten.  
-### Q: Gibt es eine kostenlose Testversion von Aspose.Tasks?
-A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks von der [Release‑Seite](https://releases.aspose.com/) herunterladen.  
-### Q: Wo finde ich Hilfe und Support für Aspose.Tasks?
-A: Sie können das [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15) besuchen, um Unterstützung von der Community und dem Aspose‑Team zu erhalten.
-
 ## Weitere häufig gestellte Fragen
 
 **Q: Wie lese ich Tabellendaten in einer Multi‑Projekt‑Umgebung?**  

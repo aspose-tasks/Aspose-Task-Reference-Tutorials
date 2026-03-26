@@ -123,13 +123,6 @@ Apprenez à gérer les propriétés des jours de la semaine efficacement dans As
 ### [Rédiger le résumé du projet MPP dans Aspose.Tasks](./write-mpp-project-summary/)
 Apprenez à rédiger des résumés de projet MPP en Java avec Aspose.Tasks. Définissez et récupérez les informations du projet sans effort.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Comment mettre à jour un planning MS Project sans ouvrir Microsoft Project ?**  
@@ -150,3 +143,10 @@ Apprenez à rédiger des résumés de projet MPP en Java avec Aspose.Tasks. Déf
 **Dernière mise à jour :** 2025-12-18  
 **Testé avec :** Aspose.Tasks pour Java 24.11  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

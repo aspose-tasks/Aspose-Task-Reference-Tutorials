@@ -5,7 +5,7 @@ description: Leer hoe u een weergave maakt in Aspose.Tasks voor Java, inclusief 
   van projectbeheer met op maat gemaakte aangepaste MS Project‑weergaven.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Hoe maak je een weergave: Aangepaste MS Project‑weergaven in Aspose.Tasks'
+title: 'Hoe maak je een weergave - Aangepaste MS Project‑weergaven in Aspose.Tasks'
 url: /nl/java/project-file-operations/custom-views/
 weight: 24
 ---

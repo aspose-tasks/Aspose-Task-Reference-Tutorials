@@ -89,23 +89,6 @@ Kodsnutten skriver ut bredd, titel och justering för varje kolumn i standardtab
 ## Slutsats
 Genom att följa dessa steg vet du nu hur du **hämtar tabellfält** och läser tabelldata från en Microsoft Project‑fil med Aspose.Tasks för Java. Denna funktion öppnar dörren till kraftfulla automationsscenarier, datamigrationspipeline och anpassade rapportlösningar i dina Java‑applikationer.
 
-## Vanliga frågor
-
-### Q: Är Aspose.Tasks kompatibel med alla versioner av Microsoft Project?
-A: Aspose.Tasks stöder olika versioner av Microsoft Project, inklusive Project 2003, 2007, 2010, 2013 och 2016.  
-
-### Q: Kan jag ändra tabelldata och spara tillbaka till Project‑filen?
-A: Ja, du kan använda Aspose.Tasks för att programatiskt ändra tabelldata och spara förändringarna i den ursprungliga Project‑filen.  
-
-### Q: Kräver Aspose.Tasks en separat licens för kommersiell användning?
-A: Ja, du måste köpa en licens för Aspose.Tasks om du avser att använda den i en kommersiell miljö. Du kan skaffa en licens via [purchase page](https://purchase.aspose.com/buy).  
-
-### Q: Finns det en gratis provversion av Aspose.Tasks?
-A: Ja, du kan ladda ner en gratis provversion av Aspose.Tasks från [releases page](https://releases.aspose.com/).  
-
-### Q: Var kan jag hitta hjälp och support för Aspose.Tasks?
-A: Du kan besöka [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp och support från communityn och Aspose‑teamet.  
-
 ## Ytterligare vanliga frågor
 
 **Q: Hur läser jag tabelldata i en miljö med flera projekt?**  

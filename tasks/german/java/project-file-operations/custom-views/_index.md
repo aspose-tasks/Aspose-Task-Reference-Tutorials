@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie in Aspose.Tasks für Java eine Ansicht erstel
   MS Project‑Ansichten.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Wie man eine Ansicht erstellt: Benutzerdefinierte MS Project‑Ansichten in
+title: 'Wie man eine Ansicht erstellt - Benutzerdefinierte MS Project‑Ansichten in
   Aspose.Tasks'
 url: /de/java/project-file-operations/custom-views/
 weight: 24

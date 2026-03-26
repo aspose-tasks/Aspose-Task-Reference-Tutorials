@@ -88,22 +88,6 @@ for (TableField f : t1.getTableFields()) {
 ## 结论
 通过上述步骤，您现在了解如何使用 Aspose.Tasks for Java 从 Microsoft Project 文件中 **获取表字段** 并读取表数据。此功能为您的 Java 应用程序打开了强大自动化场景、数据迁移管道和自定义报表解决方案的大门。
 
-## 常见问题
-### 问：Aspose.Tasks 是否兼容所有版本的 Microsoft Project？
-A: Aspose.Tasks 支持多种 Microsoft Project 版本，包括 Project 2003、2007、2010、2013 和 2016。  
-
-### 问：我可以修改表数据并保存回 Project 文件吗？
-A: 可以，您可以使用 Aspose.Tasks 以编程方式修改表数据并将更改保存回原始 Project 文件。  
-
-### 问：Aspose.Tasks 在商业使用时是否需要单独的许可证？
-A: 是的，如果您打算在商业环境中使用 Aspose.Tasks，需要购买其许可证。您可以在 [purchase page](https://purchase.aspose.com/buy) 获取许可证。  
-
-### 问：Aspose.Tasks 是否提供免费试用？
-A: 可以，您可以从 [releases page](https://releases.aspose.com/) 下载 Aspose.Tasks 的免费试用版。  
-
-### 问：在哪里可以找到 Aspose.Tasks 的帮助和支持？
-A: 您可以访问 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 获取社区和 Aspose 团队的帮助与支持。  
-
 ## 其他常见问题
 
 **问：如何在多项目环境中读取表数据？**  

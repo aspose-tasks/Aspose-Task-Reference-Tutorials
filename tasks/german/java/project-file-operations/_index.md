@@ -138,13 +138,6 @@ Erfahren Sie, wie Sie Wochentagseigenschaften effizient in Aspose.Tasks für Jav
 ### [Schreiben einer MPP‑Projektzusammenfassung in Aspose.Tasks](./write-mpp-project-summary/)
 Erfahren Sie, wie Sie MPP‑Projektzusammenfassungen in Java mit Aspose.Tasks schreiben. Setzen und lesen Sie Projektinformationen mühelos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Wie aktualisiere ich einen MS Project‑Zeitplan, ohne Microsoft Project zu öffnen?**  
@@ -167,3 +160,10 @@ A: CSV ist eine leichtgewichtige Option; siehe das Tutorial „Save As CSV, Text
 **Zuletzt aktualisiert:** 2025-12-18  
 **Getestet mit:** Aspose.Tasks für Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

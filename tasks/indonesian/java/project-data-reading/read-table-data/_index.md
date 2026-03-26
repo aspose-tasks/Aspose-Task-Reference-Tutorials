@@ -90,18 +90,6 @@ Potongan kode ini mencetak lebar, judul, dan perataan untuk setiap kolom dalam t
 ## Kesimpulan
 Dengan mengikuti langkah‑langkah ini, Anda kini tahu cara **get table fields** dan membaca data tabel dari file Microsoft Project menggunakan Aspose.Tasks untuk Java. Kemampuan ini membuka pintu ke skenario otomatisasi yang kuat, pipeline migrasi data, dan solusi pelaporan khusus dalam aplikasi Java Anda.
 
-## FAQ
-### Q: Apakah Aspose.Tasks kompatibel dengan semua versi Microsoft Project?
-A: Aspose.Tasks mendukung berbagai versi Microsoft Project, termasuk Project 2003, 2007, 2010, 2013, dan 2016.  
-### Q: Bisakah saya memodifikasi data tabel dan menyimpannya kembali ke file Project?
-A: Ya, Anda dapat menggunakan Aspose.Tasks untuk memodifikasi data tabel secara programatik dan menyimpan perubahan ke file Project asli.  
-### Q: Apakah Aspose.Tasks memerlukan lisensi terpisah untuk penggunaan komersial?
-A: Ya, Anda harus membeli lisensi untuk Aspose.Tasks jika ingin menggunakannya dalam lingkungan komersial. Anda dapat memperoleh lisensi dari [halaman pembelian](https://purchase.aspose.com/buy).  
-### Q: Apakah ada versi percobaan gratis untuk Aspose.Tasks?
-A: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Tasks dari [halaman rilis](https://releases.aspose.com/).  
-### Q: Di mana saya dapat menemukan bantuan dan dukungan untuk Aspose.Tasks?
-A: Anda dapat mengunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk bantuan dan dukungan dari komunitas serta tim Aspose.
-
 ## Pertanyaan Umum Tambahan
 
 **Q: Bagaimana cara membaca data tabel dalam lingkungan multi‑proyek?**  

@@ -16,112 +16,136 @@ weight: 29
 
 # प्रोजेक्ट फ़ाइल ऑपरेशन्स
 
-## Introduction
-क्या आप अपनी Java प्रोजेक्ट मैनेजमेंट क्षमताओं को बढ़ाना चाहते हैं? इस हब में आप **MS Project शेड्यूल को प्रोग्रामेटिकली अपडेट** करना, फ़ाइलों को PDF में बदलना, डेटा को Excel में एक्सपोर्ट करना, आउटलाइन जानकारी प्राप्त करना, और प्रोजेक्ट डेटा को CSV के रूप में सेव करना—all Aspose.Tasks for Java का उपयोग करके—का पता लगाएंगे। हमारे व्यापक ट्यूटोरियल्स में डुबकी लगाएँ और आज ही अपने प्रोजेक्ट वर्कफ़्लो को सुव्यवस्थित करना शुरू करें।
+## परिचय
+क्या आप अपनी Java Project Management क्षमताओं को बढ़ाना चाहते हैं? इस हब में आप **MS Project Schedule को प्रोग्रामेटिकली अपडेट** करना, PDF में अपलोड करना, डेटा को Excel में एक्सपोर्ट करना, आउटलाइन जानकारी प्राप्त करना, और Project Data को CSV के रूप में सेव करना—सभी Aspose.Tasks for Java का उपयोग करके—का पता लगाएंगे। हमारे व्यापक ट्यूटोरियल में लॉगिन लगाएँ और आज ही अपने Project Management को कॉन्फ़िगर करना शुरू करें।
 
-## Quick Answers
-- **Aspose.Tasks के साथ मैं क्या ऑटोमेट कर सकता हूँ?** शेड्यूल अपडेट करना, PDF/Excel में कन्वर्ट करना, कैलेंडर प्राप्त करना और बहुत कुछ।  
-- **कौन सी भाषा समर्थित है?** Java, पूर्ण .NET‑स्टाइल APIs के साथ।  
-- **क्या मुझे लाइसेंस की आवश्यकता है?** एक फ्री ट्रायल उपलब्ध है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।  
-- **क्या मैं प्रोजेक्ट को PDF में बदल सकता हूँ?** हाँ – “Convert MS Project PDF” ट्यूटोरियल देखें।  
-- **क्या Excel में एक्सपोर्ट करना संभव है?** बिल्कुल – “Export MS Project Excel” गाइड देखें।
+## त्वरित उत्तर
+- **Aspose.Tasks के साथ मैं क्या ऑटोमेट कर सकता हूँ?** शेड्यूल अपडेट करना, PDF/Excel में कन्वर्ट करना, कैलेंडर प्राप्त करना और बहुत कुछ।
+- **कौन सी भाषा समर्थित है?** Java, पूर्ण .NET‑स्टाइल APIs के साथ।
+- **क्या मुझे लाइसेंस की आवश्यकता है?** एक फ्री ट्रायल उपलब्ध है; प्रोडक्शन के लिए आउटपुट लाइसेंस आवश्यक है।
+- **क्या मैं Project को PDF में बदल सकता हूँ?** हाँ – “Convert MS Project PDF” Tutorial देखें।
+- **क्या Excel में एक्सपोर्ट करना मुमकिन है?** बिल्कुल – “Export MS Project Excel” गाइड देखें।
 
-## How to Update MS Project Schedule Using Aspose.Tasks for Java
-एक प्रोजेक्ट प्लान को अद्यतित रखना सफल डिलीवरी के लिए आवश्यक है। Aspose.Tasks के साथ आप प्रोग्रामेटिकली टास्क डेट्स को संशोधित कर सकते हैं, क्रिटिकल पाथ को पुनः गणना कर सकते हैं, और बिना Microsoft Project खोले पूरे प्रोजेक्ट को री‑शेड्यूल कर सकते हैं। यह तरीका समय बचाता है, मानव त्रुटियों को कम करता है, और CI/CD पाइपलाइन में सहजता से इंटीग्रेट होता है।
+## Java के लिए Aspose.Tasks का इस्तेमाल करके MS Project शेड्यूल कैसे अपडेट करें
+एक प्रोजेक्ट प्लान को प्लान में रखना सफल डिलीवरी के लिए ज़रूरी है। Aspose.Tasks के साथ आप प्रोग्रामेटिकली टास्क डेट्स को अधिकृत कर सकते हैं, क्रिटिकल पाथ को फिर से कैलकुलेट कर सकते हैं, और बिना Microsoft Project पहुँच पूरे प्रोजेक्ट को री-शेड्यूल कर सकते हैं। यह तरीका समय पर तैयार होता है, मानव क्षमताओं को कम करता है, और CI/CD पाइपलाइन में आसानी से इंटीग्रेट होता है।
 
-### Why update the schedule programmatically?
-- **Consistency:** सुनिश्चित करता है कि हर स्टेकहोल्डर को एक ही डेट्स दिखें।  
-- **Automation:** स्वचालित रिपोर्टिंग या रिसोर्स‑एलोकेशन स्क्रिप्ट्स में फिट बैठता है।  
-- **Scalability:** बड़े प्रोजेक्ट फ़ाइलों को संभालता है जो मैन्युअल रूप से एडिट करना थकाऊ होगा।
+### शेड्यूल को प्रोग्रामेटिकली अपडेट क्यों करें?
 
-### Typical use‑case
+- **Consistency:** यह पक्का करता है कि हर स्टेकहोल्डर को एक ही डेट्स दिखें।
+- **Automation:** ऑटोमैटिक रिपोर्टिंग या रिसोर्स-एलोकेशन स्क्रिप्ट्स में फिट इंस्टॉलेशन है।
+- **Scalability:** बड़े प्रोजेक्ट असाइनमेंट को हैंडल करता है जो असाइनमेंट रूप से एडिट करना असाइनमेंट होगा।
+
+### विशिष्ट उपयोग-मामला
 कल्पना करें एक नाइटली बिल्ड की जो ERP सिस्टम से नवीनतम रिसोर्स अलोकेशन खींचती है और उसी अनुसार MS Project शेड्यूल को अपडेट करती है। कुछ ही लाइनों के Java कोड से शेड्यूल रिफ्रेश, सेव, और वैकल्पिक रूप से PDF में एक्सपोर्ट हो जाता है वितरण के लिए।
 
-## Reducing Gap Between Tasks List and Footer in Aspose.Tasks
-Learn how to reduce the gap between MS Project task lists and footers using Aspose.Tasks for Java. Our step-by-step tutorial guides you through the process, allowing you to effortlessly optimize your project document layout. [ट्यूटोरियल यहाँ देखें।](./reduce-gap-tasks-list-footer/)
+## Aspose.Tasks में टास्क लिस्ट और फुटर के बीच गैप कम करना
+Aspose.Tasks for Java का इस्तेमाल करके MS Project टास्क लिस्ट और फुटर के बीच गैप कम करना सीखें। हमारा स्टेप-बाय-स्टेप ट्यूटोरियल आपको इस प्रोसेस में गाइड करता है, जिससे आप आसानी से अपने प्रोजेक्ट डॉक्यूमेंट लेआउट को ऑप्टिमाइज़ कर सकते हैं। [ट्यूटोरियल यहाँ देखें।](./reduce-gap-tasks-list-footer/)
 
-## Render MS Project Data with Format 24bppRgb in Aspose.Tasks
-Explore the world of rendering MS Project data as images in Java with Aspose.Tasks. Our tutorial provides seamless integration steps, ensuring you achieve optimal results with Format 24bppRgb. [गाइड यहाँ फॉलो करें।](./render-data-format-24bppRgb/)
+## Aspose.Tasks में 24bppRgb फ़ॉर्मेट के साथ MS Project डेटा रेंडर करें
+Aspose.Tasks के साथ Java में इमेज के रूप में MS Project डेटा रेंडर करने की दुनिया को एक्सप्लोर करें। हमारा ट्यूटोरियल आसान इंटीग्रेशन स्टेप्स बताता है, जिससे यह पक्का होता है कि आपको 24bppRgb फ़ॉर्मेट के साथ सबसे अच्छे रिज़ल्ट मिलें। [गाइड यहाँ फ़ॉलो करें।](./render-data-format-24bppRgb/)
 
-## Replace MS Project Calendar in Aspose.Tasks
-Take control of your project calendar by learning how to replace it using Aspose.Tasks for Java. Our detailed guide, complete with code examples, empowers you to customize your project management experience. [स्टेप्स यहाँ देखें।](./replace-calendar/)
+## Aspose.Tasks में MS Project कैलेंडर बदलें
+Aspose.Tasks for Java का इस्तेमाल करके इसे बदलना सीखकर अपने प्रोजेक्ट कैलेंडर पर कंट्रोल रखें। कोड उदाहरणों के साथ हमारी पूरी गाइड आपको अपने प्रोजेक्ट मैनेजमेंट अनुभव को कस्टमाइज़ करने में मदद करती है। [स्टेप्स यहाँ देखें।](./replace-calendar/)
 
-## Retrieve MS Project Calendar Info in Aspose.Tasks
-Accessing MS Project calendar details programmatically is made easy with Aspose.Tasks for Java. Follow our step-by-step guide to retrieve calendar information effortlessly and enhance your project management capabilities. [और अधिक यहाँ सीखें।](./retrieve-calendar-info/)
+## Aspose.Tasks में MS Project कैलेंडर की जानकारी पाएं
+Aspose.Tasks for Java के साथ MS Project कैलेंडर की जानकारी प्रोग्राम के ज़रिए पाना आसान हो गया है। कैलेंडर की जानकारी आसानी से पाने और अपनी प्रोजेक्ट मैनेजमेंट क्षमताओं को बेहतर बनाने के लिए हमारी स्टेप-बाय-स्टेप गाइड को फ़ॉलो करें। [और यहाँ और जानें।](./retrieve-calendar-info/)
 
-## Retrieve MS Project Outline Codes in Aspose.Tasks
-Uncover the power of retrieving Microsoft Project outline codes programmatically using Aspose.Tasks for Java. Elevate your project management capabilities with this tutorial. [संभावनाएँ यहाँ एक्सप्लोर करें।](./retrieve-outline-codes/)
+## Aspose.Tasks में MS Project आउटलाइन कोड पाएं
+Aspose.Tasks for Java का इस्तेमाल करके Microsoft Project आउटलाइन कोड को प्रोग्राम के ज़रिए पाने की ताकत जानें। इस ट्यूटोरियल के साथ अपनी प्रोजेक्ट मैनेजमेंट क्षमताओं को बेहतर बनाएं। [संभावनाएँ यहाँ एक्सप्लोर करें।](./retrieve-outline-codes/)
 
-## Save As CSV, Text, and Template in Aspose.Tasks
-Efficiently save Microsoft Project files in CSV, Text, and Template formats with Aspose.Tasks for Java. Our tutorial provides easy integration steps, simplifying the process for Java developers. [यहाँ सेव करना शुरू करें।](./save-csv-text-template/)
+## Aspose.Tasks में CSV, Text, और Template के तौर पर सेव करें
+Java के लिए Aspose.Tasks के साथ Microsoft Project फ़ाइलों को CSV, Text, और Template फ़ॉर्मेट में अच्छे से सेव करें। हमारा ट्यूटोरियल आसान इंटीग्रेशन स्टेप्स बताता है, जिससे Java डेवलपर्स के लिए प्रोसेस आसान हो जाता है। [यहाँ सेव करना शुरू करें।](./save-csv-text-template/)
 
-## Save As PDF in Aspose.Tasks
-Convert your project files to PDF seamlessly using Aspose.Tasks for Java. Follow our simple steps for efficient conversion and enhance your project documentation capabilities. [यहाँ सीखें कैसे।](./save-as-pdf/)
+## Aspose.Tasks में PDF के तौर पर सेव करें
+Java के लिए Aspose.Tasks का इस्तेमाल करके अपनी प्रोजेक्ट फ़ाइलों को आसानी से PDF में बदलें। अच्छे से बदलने और अपनी प्रोजेक्ट डॉक्यूमेंटेशन क्षमताओं को बेहतर बनाने के लिए हमारे आसान स्टेप्स फ़ॉलो करें। [यहाँ सीखें कैसे।](./save-as-pdf/)
 
-## Convert MS Project to SVG in Java
-Discover how to save Microsoft Project files as SVG in Java using Aspose.Tasks library. Our step-by-step guide with code examples ensures a smooth integration process. [यहाँ SVG में कन्वर्ट करना शुरू करें।](./save-as-svg/)
+## Java में MS Project को SVG में कन्वर्ट करें
+जानें कि Aspose.Tasks लाइब्रेरी का इस्तेमाल करके Java में Microsoft Project फ़ाइलों को SVG के तौर पर कैसे सेव करें। कोड उदाहरणों के साथ हमारी स्टेप-बाय-स्टेप गाइड एक आसान इंटीग्रेशन प्रोसेस पक्का करती है। [यहाँ SVG में कन्वर्ट करना शुरू करें।](./save-as-svg/)
 
-## Save MS Project Data to Excel in Aspose.Tasks
-Java developers can easily save Microsoft Project data to Excel files with Aspose.Tasks. Our tutorial provides straightforward integration steps, making your job easier. [और अधिक यहाँ सीखें।](./save-data-to-excel/)
+## Aspose.Tasks में MS Project डेटा को Excel में सेव करें
+Java डेवलपर्स आसानी से Aspose.Tasks से Microsoft Project डेटा को Excel फ़ाइलों में सेव कर सकते हैं। हमारा ट्यूटोरियल आसान इंटीग्रेशन स्टेप्स बताता है, जिससे आपका काम आसान हो जाता है। [और यहाँ और सीखें।](./save-data-to-excel/)
 
-## Convert MS Project As JPEG in Aspose.Tasks
-Boost your productivity by learning how to convert Microsoft Project files to JPEG images using Aspose.Tasks for Java. Our tutorial provides a hassle‑free process to achieve this efficiently. [यहाँ शुरू करें।](./save-as-jpeg/)
+## Aspose.Tasks में MS Project को JPEG के तौर पर कन्वर्ट करें
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project फ़ाइलों को JPEG इमेज में कन्वर्ट करना सीखकर अपनी प्रोडक्टिविटी बढ़ाएँ। हमारा ट्यूटोरियल इसे अच्छे से करने के लिए एक आसान प्रोसेस बताता है। [यहाँ शुरू करें।](./save-as-jpeg/)
 
-## Setting MS Project Attributes for New Tasks in Aspose.Tasks
-Customize task properties effortlessly by learning how to set MS Project attributes for new tasks using Aspose.Tasks for Java. Our comprehensive guide ensures you can tailor your project management experience. [गाइड यहाँ एक्सप्लोर करें।](./set-attributes-new-tasks/)
+## Aspose.Tasks में नए टास्क के लिए MS Project एट्रिब्यूट सेट करना
+Java के लिए Aspose.Tasks का इस्तेमाल करके नए टास्क के लिए MS Project एट्रिब्यूट सेट करना सीखकर टास्क प्रॉपर्टीज़ को आसानी से कस्टमाइज़ करें। हमारी पूरी गाइड यह पक्का करती है कि आप अपने प्रोजेक्ट मैनेजमेंट एक्सपीरियंस को अपने हिसाब से बना सकें। [गाइड यहाँ एक्सप्लोर करें।](./set-attributes-new-tasks/)
 
-## Mastering MS Project Time Scale Count in Aspose.Tasks
-Effectively manage time scale count in MS Project using Aspose.Tasks for Java. Optimize project visualization and management effortlessly with our step-by-step tutorial. [यहाँ टाइम स्केल काउंट में महारत हासिल करें।](./set-time-scale-count/)
+## Aspose.Tasks में MS प्रोजेक्ट टाइम स्केल काउंट में महारत हासिल करें
+Java के लिए Aspose.Tasks का इस्तेमाल करके MS प्रोजेक्ट में टाइम स्केल काउंट को असरदार तरीके से मैनेज करें। हमारे स्टेप-बाय-स्टेप ट्यूटोरियल से प्रोजेक्ट विज़ुअलाइज़ेशन और मैनेजमेंट को आसानी से ऑप्टिमाइज़ करें। [यहाँ टाइम स्केल काउंट में सख्ती हासिल करें।](./set-time-scale-count/)
 
-## Update & Reschedule MS Project in Aspose.Tasks
-Stay on top of your projects by learning how to update and reschedule MS Project files programmatically with Aspose.Tasks for Java. Our guide ensures a smooth process for efficient project management. [यहाँ अपडेट रहें।](./update-project-reschedule-work/)
+## Aspose.Tasks में MS प्रोजेक्ट को अपडेट और रीशेड्यूल करें
+Java के लिए Aspose.Tasks के साथ प्रोग्राम के ज़रिए MS प्रोजेक्ट फ़ाइलों को अपडेट और रीशेड्यूल करना सीखकर अपने प्रोजेक्ट्स पर नज़र रखें। हमारी गाइड अच्छे प्रोजेक्ट मैनेजमेंट के लिए एक आसान प्रोसेस पक्का करती है। [यहाँ अपडेट रहें।](./update-project-reschedule-work/)
 
-## Create Custom MS Project Views in Aspose.Tasks
-Enhance project management efficiency by creating custom MS Project views effortlessly using Aspose.Tasks for Java. Our tutorial guides you through the process, providing tailored views for your projects. [कस्टम व्यूज़ यहाँ बनाएं।](./custom-views/)
+## Aspose.Tasks में कस्टम MS प्रोजेक्ट व्यू बनाएँ
+Java के लिए Aspose.Tasks का इस्तेमाल करके आसानी से कस्टम MS प्रोजेक्ट व्यू बनाकर प्रोजेक्ट मैनेजमेंट की क्षमता बढ़ाएँ। हमारा ट्यूटोरियल आपको इस प्रोसेस में गाइड करता है, और आपके प्रोजेक्ट्स के लिए खास व्यू देता है। [कस्टम व्यूज़ यहाँ बनाएँ।](./custom-views/)
 
-## Weekday Properties in Aspose.Tasks
-Manage weekday properties efficiently in Aspose.Tasks for Java. Customize week start dates, days per month, and more with ease using our detailed tutorial. [सप्ताह के दिन यहाँ कुशलता से मैनेज करें।](./weekday-properties/)
+## Aspose.Tasks में वीकडे प्रॉपर्टीज़
+Java के लिए Aspose.Tasks में वीकडे प्रॉपर्टीज़ को अच्छे से मैनेज करें। हमारे डिटेल्ड ट्यूटोरियल का इस्तेमाल करके आसानी से हफ़्ते की शुरू होने की तारीखें, महीने के दिन, और भी बहुत कुछ कस्टमाइज़ करें। [सप्ताह के दिन यहाँ असाइनमेंट से मैनेज करें।](./weekday-properties/)
 
-## Write MPP Project Summary in Aspose.Tasks
-Learn how to write MPP project summaries in Java using Aspose.Tasks. Set and retrieve project information effortlessly with our step-by-step guide. [प्रोजेक्ट सारांश यहाँ लिखें।](./write-mpp-project-summary/)
+## Aspose.Tasks में MPP प्रोजेक्ट समरी लिखें
+Aspose.Tasks का इस्तेमाल करके Java में MPP प्रोजेक्ट समरी लिखना सीखें। हमारे स्टेप-बाय-स्टेप गाइड से आसानी से प्रोजेक्ट की जानकारी सेट करें और पाएं। [प्रोजेक्ट समरी यहाँ लिखें।](./write-mpp-project-summary/)
 
 ---
 
-Explore the vast possibilities of Aspose.Tasks for Java with our in‑depth tutorials. Each guide is crafted to empower Java developers in mastering project file operations, ensuring efficiency, and enhancing project management capabilities. Dive in and take control of your projects today!
+हमारे डिटेल्ड ट्यूटोरियल के साथ Java के लिए Aspose.Tasks की बहुत सारी संभावनाओं को एक्सप्लोर करें। हर गाइड Java डेवलपर्स को प्रोजेक्ट फ़ाइल ऑपरेशन में माहिर बनाने, एफिशिएंसी पक्का करने और प्रोजेक्ट मैनेजमेंट क्षमताओं को बढ़ाने में मदद करने के लिए बनाई गई है। आज ही इसमें शामिल हों और अपने प्रोजेक्ट्स को कंट्रोल करें!
 
-## Project File Operations Tutorials
-### [Reducing Gap Between Tasks List and Footer in Aspose.Tasks](./reduce-gap-tasks-list-footer/)
-Learn how to reduce the gap between MS Project task lists and footers using Aspose.Tasks for Java. Optimize project document layout effortlessly.
-### [Render MS Project Data with Format 24bppRgb in Aspose.Tasks](./render-data-format-24bppRgb/)
-Learn how to render MS Project data as images in Java using Aspose.Tasks. Follow our step-by-step tutorial for seamless integration.
-### [Replace MS Project Calendar in Aspose.Tasks](./replace-calendar/)
-Learn how to replace Microsoft Project calendar using Aspose.Tasks for Java. Step-by-step guide with code examples.
-### [Retrieve MS Project Calendar Info in Aspose.Tasks](./retrieve-calendar-info/)
-Learn how to retrieve MS Project calendar info using Aspose.Tasks for Java. Step-by-step guide for accessing calendar details programmatically.
-### [Retrieve MS Project Outline Codes in Aspose.Tasks](./retrieve-outline-codes/)
-Learn how to retrieve Microsoft Project outline codes programmatically using Aspose.Tasks for Java. Enhance your project management capabilities.
-### [Save As CSV, Text, and Template in Aspose.Tasks](./save-csv-text-template/)
-Learn how to save Microsoft Project files in CSV, Text, and Template formats using Aspose.Tasks for Java.
-### [Save As PDF in Aspose.Tasks](./save-as-pdf/)
-Learn how to convert project files to PDF using Aspose.Tasks for Java. Simple steps for efficient conversion.
-### [Convert MS Project to SVG in Java](./save-as-svg/)
-Learn how to save Microsoft Project files as SVG in Java using Aspose.Tasks library. Step-by-step guide with code examples.
-### [Save MS Project Data to Excel in Aspose.Tasks](./save-data-to-excel/)
-Learn how to save Microsoft Project data to Excel files using Aspose.Tasks for Java. Easy integration for Java developers.
-### [Convert MS Project As JPEG in Aspose.Tasks](./save-as-jpeg/)
-Learn how to easily convert Microsoft Project files to JPEG images using Aspose.Tasks for Java. Boost your productivity.
-### [Setting MS Project Attributes for New Tasks in Aspose.Tasks](./set-attributes-new-tasks/)
-Learn how to set MS Project attributes for new tasks using Aspose.Tasks for Java. Customize task properties effortlessly with this comprehensive guide.
-### [Mastering MS Project Time Scale Count in Aspose.Tasks](./set-time-scale-count/)
-Learn how to effectively manage time scale count in MS Project using Aspose.Tasks for Java. Optimize project visualization and management effortlessly.
-### [Update & Reschedule MS Project in Aspose.Tasks](./update-project-reschedule-work/)
-Learn how to update and reschedule MS Project files programmatically using Aspose.Tasks for Java.
-### [Create Custom MS Project Views in Aspose.Tasks](./custom-views/)
-Learn how to create custom MS Project views effortlessly using Aspose.Tasks for Java. Enhance project management efficiency with tailored views.
-### [Weekday Properties in Aspose.Tasks](./weekday-properties/)
-Learn to manage weekday properties efficiently in Aspose.Tasks for Java. Customize week start dates, days per month, and more with ease.
-### [Write MPP Project Summary in Aspose.Tasks](./write-mpp-project-summary/)
-Learn how to write MPP project summaries in Java using Aspose.Tasks. Set and retrieve project information effortlessly.
+## प्रोजेक्ट फ़ाइल ऑपरेशन ट्यूटोरियल
+### [Aspose.Tasks में टास्क लिस्ट और फुटर के बीच गैप कम करना](./reduce-gap-tasks-list-footer/)
+Aspose.Tasks for Java का इस्तेमाल करके MS Project टास्क लिस्ट और फुटर के बीच गैप कम करना सीखें। प्रोजेक्ट डॉक्यूमेंट लेआउट को आसानी से ऑप्टिमाइज़ करें।
+### [Aspose.Tasks में 24bppRgb फॉर्मेट में MS Project डेटा रेंडर करें](./render-data-format-24bppRgb/)
+Aspose.Tasks का इस्तेमाल करके Java में MS Project डेटा को इमेज के रूप में रेंडर करना सीखें। आसान इंटीग्रेशन के लिए हमारा स्टेप-बाय-स्टेप ट्यूटोरियल फॉलो करें।
+### [Aspose.Tasks में MS Project Calendar बदलें](./replace-calendar/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project कैलेंडर को बदलना सीखें। कोड उदाहरणों के साथ स्टेप-बाय-स्टेप गाइड।
+### [Aspose.Tasks में MS Project Calendar की जानकारी पाएं](./retrieve-calendar-info/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके MS Project कैलेंडर की जानकारी पाना सीखें। प्रोग्राम के ज़रिए कैलेंडर की जानकारी पाने के लिए स्टेप-बाय-स्टेप गाइड।
+### [Aspose.Tasks में MS Project आउटलाइन कोड पाएं](./retrieve-outline-codes/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project आउटलाइन कोड को प्रोग्राम के ज़रिए पाना सीखें। अपनी प्रोजेक्ट मैनेजमेंट क्षमताओं को बेहतर बनाएं।
+### [Aspose.Tasks में CSV, टेक्स्ट और टेम्पलेट के तौर पर सेव करें](./save-csv-text-template/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project फ़ाइलों को CSV, टेक्स्ट और टेम्पलेट फ़ॉर्मेट में सेव करना सीखें।
+### [Aspose.Tasks में PDF के तौर पर सेव करें](./save-as-pdf/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके प्रोजेक्ट फ़ाइलों को PDF में कन्वर्ट करना सीखें। अच्छे से बदलने के लिए आसान स्टेप्स।
+### [Java में MS Project को SVG में कन्वर्ट करें](./save-as-svg/)
+Aspose.Tasks लाइब्रेरी का इस्तेमाल करके Java में Microsoft Project फ़ाइलों को SVG के तौर पर सेव करना सीखें। कोड उदाहरणों के साथ स्टेप-बाय-स्टेप गाइड।
+### [Aspose.Tasks में MS Project डेटा को Excel में सेव करें](./save-data-to-excel/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project डेटा को Excel फ़ाइलों में सेव करना सीखें। Java डेवलपर्स के लिए आसान इंटीग्रेशन।
+### [Aspose.Tasks में MS Project को JPEG के रूप में कन्वर्ट करें](./save-as-jpeg/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके Microsoft Project फ़ाइलों को आसानी से JPEG इमेज में कन्वर्ट करना सीखें। अपनी प्रोडक्टिविटी बढ़ाएँ।
+### [Aspose.Tasks में नए टास्क के लिए MS Project एट्रिब्यूट सेट करना](./set-attributes-new-tasks/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके नए टास्क के लिए MS Project एट्रिब्यूट सेट करना सीखें। इस पूरी गाइड से टास्क प्रॉपर्टीज़ को आसानी से कस्टमाइज़ करें।
+### [Aspose.Tasks में MS Project टाइम स्केल काउंट में महारत हासिल करें](./set-time-scale-count/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके MS Project में टाइम स्केल काउंट को असरदार तरीके से मैनेज करना सीखें। प्रोजेक्ट विज़ुअलाइज़ेशन और मैनेजमेंट को आसानी से ऑप्टिमाइज़ करें।
+### [Aspose.Tasks में MS Project को अपडेट और रीशेड्यूल करें](./update-project-reschedule-work/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके MS Project फ़ाइलों को प्रोग्रामेटिक रूप से अपडेट और रीशेड्यूल करना सीखें।
+### [Aspose.Tasks में कस्टम MS Project व्यू बनाएँ](./custom-views/)
+Java के लिए Aspose.Tasks का इस्तेमाल करके आसानी से कस्टम MS Project व्यू बनाना सीखें। टेलर्ड व्यू के साथ प्रोजेक्ट मैनेजमेंट एफिशिएंसी बढ़ाएँ।
+### [Aspose.Tasks में वीकडे प्रॉपर्टीज़](./weekday-properties/)
+Java के लिए Aspose.Tasks में वीकडे प्रॉपर्टीज़ को अच्छे से मैनेज करना सीखें। हफ़्ते की शुरू होने की तारीखें, महीने के दिन, और भी बहुत कुछ आसानी से कस्टमाइज़ करें।
+### [Aspose.Tasks में MPP प्रोजेक्ट समरी लिखें](./write-mpp-project-summary/)
+Aspose.Tasks का इस्तेमाल करके Java में MPP प्रोजेक्ट समरी लिखना सीखें। प्रोजेक्ट की जानकारी आसानी से सेट और पाएं।
+
+## अक्सर पूछे जाने वाले सवाल
+
+**सवाल: मैं Microsoft Project खोले बिना MS Project शेड्यूल कैसे अपडेट करूं?**
+जवाब: .mpp फ़ाइल लोड करने, टास्क की तारीखें या प्रोजेक्ट कैलेंडर बदलने, `project.updateTaskDates()` (या इसी तरह के API) को कॉल करने और फिर फ़ाइल सेव करने के लिए Java के लिए Aspose.Tasks का इस्तेमाल करें।
+
+**सवाल: क्या मैं MS Project फ़ाइल को सीधे PDF में बदल सकता हूं?**
+जवाब: हां। “Save As PDF” ट्यूटोरियल दिखाता है कि एक ही मेथड कॉल से किसी प्रोजेक्ट को PDF में कैसे एक्सपोर्ट किया जाए।
+
+**सवाल: क्या प्रोजेक्ट डेटा को Excel में एक्सपोर्ट करना सपोर्टेड है?**
+जवाब: बिल्कुल। टास्क, रिसोर्स और असाइनमेंट वाली .xlsx फ़ाइलें बनाने के लिए “Save MS Project Data to Excel” गाइड को फ़ॉलो करें।
+
+**सवाल: मैं किसी प्रोजेक्ट से आउटलाइन कोड कैसे निकाल सकता हूँ?**
+जवाब: “Retrieve MS Project Outline Codes” ट्यूटोरियल दिखाता है कि टास्क को कैसे दोहराना है और `OutlineCode` कलेक्शन को कैसे पढ़ना है।
+
+**सवाल: एनालिटिक्स के लिए बड़े प्रोजेक्ट डेटा को सेव करने के लिए मुझे किस फ़ॉर्मेट का इस्तेमाल करना चाहिए?**
+जवाब: CSV एक लाइटवेट ऑप्शन है; ज़्यादा जानकारी के लिए “Save As CSV, Text, and Template” ट्यूटोरियल देखें।
+
+---
+
+**पिछला अपडेट:** 2025-12-18
+**इसके साथ टेस्ट किया गया:** Java 24.11 के लिए Aspose.Tasks
+**लेखक:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,26 +153,3 @@ Learn how to write MPP project summaries in Java using Aspose.Tasks. Set and ret
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
-
-**Q: How do I update an MS Project schedule without opening Microsoft Project?**  
-A: Use Aspose.Tasks for Java to load the .mpp file, modify task dates or the project calendar, call `project.updateTaskDates()` (or similar API), and then save the file.
-
-**Q: Can I convert an MS Project file directly to PDF?**  
-A: Yes. The “Save As PDF” tutorial shows how to export a project to PDF with a single method call.
-
-**Q: Is exporting project data to Excel supported?**  
-A: Absolutely. Follow the “Save MS Project Data to Excel” guide to generate .xlsx files containing tasks, resources, and assignments.
-
-**Q: How can I retrieve outline codes from a project?**  
-A: The “Retrieve MS Project Outline Codes” tutorial demonstrates how to iterate over tasks and read the `OutlineCode` collection.
-
-**Q: What format should I use to save large project data for analytics?**  
-A: CSV is a lightweight option; see the “Save As CSV, Text, and Template” tutorial for details.
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose

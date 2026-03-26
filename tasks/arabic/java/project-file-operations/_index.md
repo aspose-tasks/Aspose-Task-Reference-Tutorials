@@ -123,13 +123,6 @@ weight: 29
 ### [كتابة ملخص مشروع MPP في Aspose.Tasks](./write-mpp-project-summary/)
 تعلم كيفية كتابة ملخصات مشاريع MPP في Java باستخدام Aspose.Tasks. عيّن واسترجع معلومات المشروع بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني تحديث جدول MS Project دون فتح Microsoft Project؟**  
@@ -150,3 +143,10 @@ weight: 29
 **آخر تحديث:** 2025-12-18  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.11  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

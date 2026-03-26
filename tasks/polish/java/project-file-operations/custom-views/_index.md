@@ -5,7 +5,7 @@ description: Dowiedz się, jak tworzyć widoki w Aspose.Tasks dla Javy, w tym ja
   dzięki dostosowanym, niestandardowym widokom MS Project.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Jak utworzyć widok: niestandardowe widoki MS Project w Aspose.Tasks'
+title: 'Jak utworzyć widok - niestandardowe widoki MS Project w Aspose.Tasks'
 url: /pl/java/project-file-operations/custom-views/
 weight: 24
 ---

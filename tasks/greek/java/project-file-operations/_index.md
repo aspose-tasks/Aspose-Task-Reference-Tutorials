@@ -124,13 +124,6 @@ weight: 29
 ### [Συγγραφή Περίληψης Έργου MPP στο Aspose.Tasks](./write-mpp-project-summary/)
 Μάθετε πώς να γράψετε περιλήψεις έργων MPP σε Java χρησιμοποιώντας το Aspose.Tasks. Ορίστε και ανακτήστε πληροφορίες έργου εύκολα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Πώς μπορώ να ενημερώσω ένα χρονοδιάγραμμα MS Project χωρίς να ανοίξω το Microsoft Project;**  
@@ -153,3 +146,10 @@ weight: 29
 **Τελευταία ενημέρωση:** 2025-12-18  
 **Δοκιμασμένο με:** Aspose.Tasks for Java 24.11  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

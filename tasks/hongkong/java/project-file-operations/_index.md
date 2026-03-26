@@ -137,13 +137,6 @@ Java 開發者可輕鬆使用 Aspose.Tasks 將 Microsoft Project 資料儲存為
 ### [在 Aspose.Tasks 中撰寫 MPP 專案摘要](./write-mpp-project-summary/)
 了解如何使用 Aspose.Tasks 在 Java 中撰寫 MPP 專案摘要，輕鬆設定與取得專案資訊。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 如何在不開啟 Microsoft Project 的情況下更新 MS Project 時程？**  
@@ -166,3 +159,10 @@ A: CSV 是輕量化的選擇；請參閱「Save As CSV, Text, and Template」教
 **最後更新：** 2025-12-18  
 **測試環境：** Aspose.Tasks for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

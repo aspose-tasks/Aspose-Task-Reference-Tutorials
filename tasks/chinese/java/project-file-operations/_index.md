@@ -122,13 +122,6 @@ Java 开发者可以使用 Aspose.Tasks 将 Microsoft Project 数据轻松保存
 ### [在 Aspose.Tasks 中编写 MPP 项目摘要](./write-mpp-project-summary/)
 了解如何使用 Aspose.Tasks 在 Java 中编写 MPP 项目摘要。轻松设置和获取项目信息。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **问：如何在不打开 Microsoft Project 的情况下更新 MS Project 计划？**  
@@ -151,3 +144,10 @@ Java 开发者可以使用 Aspose.Tasks 将 Microsoft Project 数据轻松保存
 **最后更新：** 2025-12-18  
 **测试环境：** Aspose.Tasks for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

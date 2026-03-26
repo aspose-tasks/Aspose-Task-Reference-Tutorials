@@ -90,18 +90,6 @@ O trecho imprime a largura, o título e o alinhamento de cada coluna na tabela p
 ## Conclusão
 Seguindo estas etapas, você agora sabe como **obter campos de tabela** e ler dados de tabela de um arquivo Microsoft Project usando Aspose.Tasks para Java. Essa capacidade abre portas para cenários poderosos de automação, pipelines de migração de dados e soluções de relatório personalizadas em suas aplicações Java.
 
-## Perguntas Frequentes
-### Q: O Aspose.Tasks é compatível com todas as versões do Microsoft Project?
-A: Aspose.Tasks suporta várias versões do Microsoft Project, incluindo Project 2003, 2007, 2010, 2013 e 2016.  
-### Q: Posso modificar os dados da tabela e salvá‑los de volta no arquivo de Projeto?
-A: Sim, você pode usar Aspose.Tasks para modificar os dados da tabela programaticamente e salvar as alterações no arquivo de Projeto original.  
-### Q: O Aspose.Tasks requer uma licença separada para uso comercial?
-A: Sim, você precisa adquirir uma licença para Aspose.Tasks se pretender usá‑lo em um ambiente comercial. Você pode obter uma licença na [página de compra](https://purchase.aspose.com/buy).  
-### Q: Existe uma versão de avaliação gratuita disponível para o Aspose.Tasks?
-A: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Tasks a partir da [página de releases](https://releases.aspose.com/).  
-### Q: Onde posso encontrar ajuda e suporte para o Aspose.Tasks?
-A: Você pode visitar o [fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obter assistência e suporte da comunidade e da equipe Aspose.
-
 ## Perguntas Frequentes Adicionais
 
 **Q: Como ler dados de tabela em um ambiente multi‑projeto?**  

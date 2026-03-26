@@ -88,18 +88,6 @@ The snippet prints the width, title, and alignment for every column in the defau
 ## Conclusion
 By following these steps, you now know how to **get table fields** and read table data from a Microsoft Project file using Aspose.Tasks for Java. This capability opens the door to powerful automation scenarios, data migration pipelines, and custom reporting solutions in your Java applications.
 
-## FAQ's
-### Q: Is Aspose.Tasks compatible with all versions of Microsoft Project?
-A: Aspose.Tasks supports various versions of Microsoft Project, including Project 2003, 2007, 2010, 2013, and 2016.  
-### Q: Can I modify the table data and save it back to the Project file?
-A: Yes, you can use Aspose.Tasks to modify table data programmatically and save the changes to the original Project file.  
-### Q: Does Aspose.Tasks require a separate license for commercial use?
-A: Yes, you need to purchase a license for Aspose.Tasks if you intend to use it in a commercial environment. You can obtain a license from the [purchase page](https://purchase.aspose.com/buy).  
-### Q: Is there a free trial available for Aspose.Tasks?
-A: Yes, you can download a free trial version of Aspose.Tasks from the [releases page](https://releases.aspose.com/).  
-### Q: Where can I find help and support for Aspose.Tasks?
-A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for assistance and support from the community and Aspose team.
-
 ## Additional Frequently Asked Questions
 
 **Q: How do I read table data in a multi‑project environment?**  

@@ -15,23 +15,23 @@ weight: 17
 
 # Aspose.Tasks에서 테이블 필드를 가져오고 테이블 데이터를 읽는 방법
 
-## Introduction
-이 튜토리얼에서는 Microsoft Project 파일에서 **테이블 필드를 가져오는 방법**과 Aspose.Tasks for Java를 사용해 테이블 데이터를 읽는 방법을 알아봅니다. 보고서 도구를 만들거나, 데이터를 마이그레이션하거나, 프로젝트 분석을 자동화할 때, 프로그래밍 방식으로 테이블 정보를 추출하면 수작업 시간을 크게 절감할 수 있습니다. 환경 설정부터 각 필드의 세부 정보를 출력하는 전체 과정을 단계별로 안내하므로, 바로 자신의 애플리케이션에 이 기능을 통합할 수 있습니다.
+## 소개
+이 튜토리얼에서는 Microsoft Project 파일에서 **테이블 필드를 가져오는 방법**과 Aspose.Tasks for Java를 사용하여 테이블 데이터를 보는 방법을 알아봅니다. 도구를 작성하거나, 데이터를 마이그레이션하거나, 프로젝트 분석을 자동화할 때, 프로그래밍 방식으로 테이블 정보를 추출하면 작업 시간을 크게 할 수 있습니다. 환경 설정부터 각 필드의 세부 정보를 출력하는 전체 과정을 기대하기 때문에, 바로 자신만의 특별한 기능을 통합할 수 있습니다.
 
-## Quick Answers
-- **“테이블 필드 가져오기”는 무엇을 의미하나요?** 프로젝트 뷰 테이블에 표시되는 각 열의 정의(너비, 제목, 정렬 등)를 가져오는 것을 말합니다.  
-- **필요한 라이브러리는?** Aspose.Tasks for Java.  
-- **개발에 라이선스가 필요하나요?** 평가용 무료 체험판을 사용할 수 있으며, 실제 운영 환경에서는 상용 라이선스가 필요합니다.  
-- **모든 Project 버전에서 테이블을 읽을 수 있나요?** 예, Aspose.Tasks는 Project 2003‑2016 및 최신 형식을 지원합니다.  
-- **추가 설정이 필요한가요?** JDK 8 이상과 클래스패스에 Aspose.Tasks JAR만 있으면 됩니다.
+## 빠른 답변
+- **“테이블 필드 가져오기”는 무엇을 의미하는지?** 프로젝트를 위해 테이블에 표시되는 각 열의 정의(너비, 제목, 대신 등)를 가져오는 것을 말합니다.
+- **필요한 라이브러리는?** Aspose.Tasks for Java.
+- **개발에 전력이 필요한가요?** 평가용 무료 체험판을 사용할 수 있으며 실제 운영 환경에서 인스턴스 인스턴스가 필요합니다.
+- **모든 프로젝트 버전에서 테이블을 사용할 수 있습니까?** 예, Aspose.Tasks는 Project 2003‑2016 및 최신 형식을 지원합니다.
+- **추가 설정이 필요합니까?** JDK 8 이상과 클래스 패스트에 Aspose.Tasks JAR만 있으면 됩니다.
 
-## Prerequisites
+## 전제 조건
 시작하기 전에 다음이 준비되어 있는지 확인하세요:
 
-1. **Java Development Kit (JDK)** – JDK 8 이상이 설치되어 있어야 합니다. Oracle 웹사이트에서 다운로드할 수 있습니다.  
-2. **Aspose.Tasks for Java JAR** – 최신 라이브러리를 [download link](https://releases.aspose.com/tasks/java/)에서 받아 프로젝트 빌드 경로에 추가하세요.  
+1. **JDK(Java Development Kit)** – JDK 8이 설치되어 있어야 합니다. 오라클 웹사이트에서 다운로드하실 수 있습니다.
+2. **Aspose.Tasks for Java JAR** – 최신 라이브러리를 [다운로드 링크](https://releases.aspose.com/tasks/java/)에서 수용 프로젝트 빌드 외부에 추가하세요.
 
-## Import Packages
+## 패키지 가져오기
 필요한 Aspose.Tasks 클래스를 가져옵니다:
 
 ```java
@@ -40,7 +40,7 @@ import com.aspose.tasks.Table;
 import com.aspose.tasks.TableField;
 ```
 
-## Step 1: Set up the Data Directory
+## 1단계: 데이터 디렉터리 설정
 *.mpp* 파일이 들어 있는 폴더를 정의합니다:
 
 ```java
@@ -49,7 +49,7 @@ String dataDir = "Your Data Directory";
 
 `"Your Data Directory"`를 실제 절대 경로(예: `C:/Projects/Data/`)로 교체하세요.
 
-## Step 2: Load the Project File
+## 2단계: 프로젝트 파일 불러오기
 분석하려는 Project 파일을 가리키는 `Project` 인스턴스를 생성합니다:
 
 ```java
@@ -58,7 +58,7 @@ Project project = new Project(dataDir + "Project2003.mpp");
 
 파일 이름이나 확장자가 다르면 문자열을 적절히 수정하세요.
 
-## Step 3: Retrieve table information
+## 3단계: 테이블 정보 가져오기
 이제 **테이블 필드**를 가져와 각 필드의 속성을 표시합니다:
 
 ```java
@@ -76,32 +76,20 @@ for (TableField f : t1.getTableFields()) {
 
 이 스니펫은 기본 테이블에 있는 모든 열의 너비, 제목, 정렬을 출력하여 프로젝트에 정의된 **테이블 필드** 전체를 한눈에 보여줍니다.
 
-## Why retrieve table information?
-- **자동화** – 수동 복사‑붙여넣기 없이 맞춤형 보고서를 생성합니다.  
-- **마이그레이션** – 레거시 Project 파일의 데이터를 최신 데이터베이스로 옮깁니다.  
-- **검증** – 프로젝트 템플릿이 조직 표준을 준수하는지 확인합니다.  
+## 테이블 정보를 검색하는 이유는 무엇입니까?
+- **자동화** – 수동 복사본을 첨부하여 생성하도록 했습니다.
+- **마이그레이션** – 레거시 프로젝트 파일의 데이터를 최신 데이터베이스로 옮깁니다.
+- **검증** – 프로젝트 폴더가 조직을 준수하는지 확인합니다.
 
-## Common Pitfalls & Tips
-- **Null 테이블** – 프로젝트에 테이블이 없으면 `project.getTables()`가 비어 있을 수 있습니다. 인덱스 `0`에 접근하기 전에 리스트 크기를 반드시 확인하세요.  
-- **인코딩 문제** – 최신 Aspose.Tasks 버전을 사용하면 제목에 포함된 비ASCII 문자도 올바르게 표시됩니다.  
-- **성능** – 매우 큰 *.mpp* 파일을 로드하면 메모리를 많이 사용합니다. 대용량 데이터셋의 경우 스트리밍 API 사용을 고려하세요.
+## 일반적인 함정 및 팁
+- **Null 테이블** – 프로젝트에 테이블이 없으면 `project.getTables()`가 비어 있을 수 있습니다. 0`에 접근하기 전에 크기를 확인하세요.
+- **인코딩 문제** – 최신 Aspose.Tasks 버전을 사용하면 제목에 포함된 ASCII 문자 표시가 적용됩니다.
+- ** 협조하면 ** – 매우 큰 *.mpp* 파일을 메모리를 많이 사용합니다. 스트리밍 데이터셋의 경우 스트리밍 API를 사용해보세요.
 
-## Conclusion
-위 단계를 따라 하면 Aspose.Tasks for Java를 사용해 Microsoft Project 파일에서 **테이블 필드를 가져오고** 테이블 데이터를 읽는 방법을 알게 됩니다. 이 기능을 통해 Java 애플리케이션에서 강력한 자동화 시나리오, 데이터 마이그레이션 파이프라인, 맞춤형 보고서 솔루션을 구현할 수 있습니다.
+## 결론
+단계를 따라 Aspose.Tasks for Java를 사용하여 Microsoft Project 파일에서 **테이블 필드를 가져오고** 테이블 데이터를 사용하는 방법을 관계에 두는 것입니다. 이 기능을 통해 Java 파이프라인을 잘라내기, 데이터 마이그레이션라인, 끝내기 위한 솔루션을 제공할 수 있습니다.
 
-## FAQ's
-### Q: Aspose.Tasks가 Microsoft Project 모든 버전과 호환되나요?
-A: Aspose.Tasks는 Project 2003, 2007, 2010, 2013, 2016 등 다양한 버전을 지원합니다.  
-### Q: 테이블 데이터를 수정하고 Project 파일에 다시 저장할 수 있나요?
-A: 예, Aspose.Tasks를 사용해 테이블 데이터를 프로그래밍 방식으로 수정하고 원본 Project 파일에 저장할 수 있습니다.  
-### Q: 상용 사용을 위해 별도의 라이선스가 필요한가요?
-A: 예, 상용 환경에서 사용하려면 Aspose.Tasks 라이선스를 구매해야 합니다. 라이선스는 [purchase page](https://purchase.aspose.com/buy)에서 구입할 수 있습니다.  
-### Q: Aspose.Tasks 무료 체험판이 있나요?
-A: 예, [releases page](https://releases.aspose.com/)에서 Aspose.Tasks 무료 체험판을 다운로드할 수 있습니다.  
-### Q: Aspose.Tasks에 대한 도움과 지원은 어디서 받을 수 있나요?
-A: 커뮤니티와 Aspose 팀의 지원을 받으려면 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)을 방문하세요.
-
-## Additional Frequently Asked Questions
+## 추가 자주 묻는 질문
 
 **Q: 다중 프로젝트 환경에서 테이블 데이터를 어떻게 읽나요?**  
 A: `new Project(path)`로 각 프로젝트를 개별적으로 로드하고, 각 인스턴스에 대해 테이블‑필드 추출 루프를 반복하면 됩니다.

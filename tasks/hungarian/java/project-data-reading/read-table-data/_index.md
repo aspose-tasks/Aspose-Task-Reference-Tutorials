@@ -90,18 +90,6 @@ A kódrészlet kiírja a szélességet, a címet és az igazítást az alapérte
 ## Következtetés
 E lépések követésével most már tudja, hogyan **szerezhetők meg a táblamezők** és hogyan olvashatók a táblázat adatai egy Microsoft Project fájlból az Aspose.Tasks for Java segítségével. Ez a képesség lehetővé teszi a hatékony automatizálási forgatókönyveket, adatátviteli csővezetékeket és egyedi jelentéskészítő megoldásokat Java alkalmazásaiban.
 
-## Gyakran ismételt kérdések
-### K: Az Aspose.Tasks kompatibilis a Microsoft Project minden verziójával?
-A: Az Aspose.Tasks számos Microsoft Project verziót támogat, többek között a Project 2003, 2007, 2010, 2013 és 2016 verziókat.  
-### K: Módosíthatom a táblázat adatait, és visszamenthetem a projektfájlba?
-A: Igen, az Aspose.Tasks segítségével programozottan módosíthatja a táblázat adatait, és elmentheti a változtatásokat az eredeti projektfájlba.  
-### K: Az Aspose.Tasks külön licencet igényel kereskedelmi felhasználáshoz?
-A: Igen, licencet kell vásárolnia az Aspose.Tasks-hez, ha kereskedelmi környezetben kívánja használni. Licencet a [vásárlási oldalon](https://purchase.aspose.com/buy) szerezhet be.  
-### K: Elérhető ingyenes próba verzió az Aspose.Tasks-hez?
-A: Igen, letölthet egy ingyenes próba verziót az Aspose.Tasks-ből a [kiadások oldaláról](https://releases.aspose.com/).  
-### K: Hol találok segítséget és támogatást az Aspose.Tasks-hez?
-A: Látogassa meg az [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) a közösség és az Aspose csapat támogatásáért.  
-
 ## További gyakran ismételt kérdések
 
 **K: Hogyan olvashatom a táblázat adatait több projekt környezetben?**  

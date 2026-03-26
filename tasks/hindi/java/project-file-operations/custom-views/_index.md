@@ -5,7 +5,7 @@ description: Aspose.Tasks for Java में व्यू कैसे बना
   साथ प्रोजेक्ट प्रबंधन की दक्षता बढ़ाएँ।
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'व्यू कैसे बनाएं: Aspose.Tasks में कस्टम MS प्रोजेक्ट व्यूज़'
+title: 'व्यू कैसे बनाएं - Aspose.Tasks में कस्टम MS प्रोजेक्ट व्यूज़'
 url: /hi/java/project-file-operations/custom-views/
 weight: 24
 ---

@@ -123,13 +123,6 @@ Dowiedz się, jak efektywnie zarządzać właściwościami dni tygodnia w Aspose
 ### [Zapisywanie podsumowania projektu MPP w Aspose.Tasks](./write-mpp-project-summary/)
 Dowiedz się, jak zapisywać podsumowania projektów MPP w Javie przy użyciu Aspose.Tasks. Ustawiaj i pobieraj informacje o projekcie bez trudu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **P: Jak zaktualizować harmonogram MS Project bez otwierania Microsoft Project?**  
@@ -152,3 +145,10 @@ O: CSV jest lekką opcją; zobacz samouczek „Save As CSV, Text, and Template�
 **Ostatnia aktualizacja:** 2025-12-18  
 **Testowane z:** Aspose.Tasks for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,7 @@ description: Μάθετε πώς να δημιουργήσετε προβολή 
   MS Project.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Πώς να δημιουργήσετε προβολή: Προσαρμοσμένες προβολές MS Project στο Aspose.Tasks'
+title: 'Πώς να δημιουργήσετε προβολή - Προσαρμοσμένες προβολές MS Project στο Aspose.Tasks'
 url: /el/java/project-file-operations/custom-views/
 weight: 24
 ---

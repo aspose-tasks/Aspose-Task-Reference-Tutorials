@@ -90,18 +90,6 @@ for (TableField f : t1.getTableFields()) {
 ## Kết luận
 Sau khi thực hiện các bước trên, bạn đã biết **cách lấy các trường bảng** và đọc dữ liệu bảng từ tệp Microsoft Project bằng Aspose.Tasks cho Java. Khả năng này mở ra cánh cửa cho các kịch bản tự động hoá mạnh mẽ, quy trình di chuyển dữ liệu và giải pháp báo cáo tùy chỉnh trong các ứng dụng Java của bạn.
 
-## Câu hỏi thường gặp
-### H: Aspose.Tasks có tương thích với tất cả các phiên bản của Microsoft Project không?
-A: Aspose.Tasks hỗ trợ nhiều phiên bản Microsoft Project, bao gồm Project 2003, 2007, 2010, 2013 và 2016.  
-### H: Tôi có thể sửa đổi dữ liệu bảng và lưu lại vào tệp Project không?
-A: Có, bạn có thể dùng Aspose.Tasks để chỉnh sửa dữ liệu bảng một cách lập trình và lưu các thay đổi trở lại tệp Project gốc.  
-### H: Aspose.Tasks có yêu cầu giấy phép riêng cho việc sử dụng thương mại không?
-A: Có, bạn cần mua giấy phép cho Aspose.Tasks nếu muốn sử dụng trong môi trường thương mại. Bạn có thể mua giấy phép tại [trang mua hàng](https://purchase.aspose.com/buy).  
-### H: Có bản dùng thử miễn phí cho Aspose.Tasks không?
-A: Có, bạn có thể tải bản dùng thử miễn phí của Aspose.Tasks từ [trang phát hành](https://releases.aspose.com/).  
-### H: Tôi có thể tìm trợ giúp và hỗ trợ cho Aspose.Tasks ở đâu?
-A: Bạn có thể truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để nhận sự hỗ trợ từ cộng đồng và đội ngũ Aspose.
-
 ## Các câu hỏi thường gặp bổ sung
 
 **H: Làm sao để đọc dữ liệu bảng trong môi trường đa‑dự án?**  

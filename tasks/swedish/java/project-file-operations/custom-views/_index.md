@@ -5,7 +5,7 @@ description: Lär dig hur du skapar en vy i Aspose.Tasks för Java, inklusive hu
   med skräddarsydda anpassade MS Project‑vyer.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Hur man skapar vy: Anpassade MS Project‑vyer i Aspose.Tasks'
+title: 'Hur man skapar vy - Anpassade MS Project‑vyer i Aspose.Tasks'
 url: /sv/java/project-file-operations/custom-views/
 weight: 24
 ---

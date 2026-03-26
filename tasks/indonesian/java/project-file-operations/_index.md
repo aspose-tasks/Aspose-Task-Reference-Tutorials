@@ -121,13 +121,6 @@ Pelajari cara mengelola properti hari kerja secara efisien di Aspose.Tasks untuk
 ### [Menulis Ringkasan Proyek MPP di Aspose.Tasks](./write-mpp-project-summary/)
 Pelajari cara menulis ringkasan proyek MPP dalam Java menggunakan Aspose.Tasks. Atur dan ambil informasi proyek dengan mudah.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara memperbarui jadwal MS Project tanpa membuka Microsoft Project?**  
@@ -148,3 +141,10 @@ A: CSV adalah opsi ringan; lihat tutorial “Save As CSV, Text, and Template” 
 **Terakhir Diperbarui:** 2025-12-18  
 **Diuji Dengan:** Aspose.Tasks untuk Java 24.11  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

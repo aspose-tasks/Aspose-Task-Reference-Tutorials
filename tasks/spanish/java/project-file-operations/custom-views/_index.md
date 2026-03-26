@@ -5,7 +5,7 @@ description: Aprenda cómo crear vistas en Aspose.Tasks para Java, incluyendo c�
   eficiencia de la gestión de proyectos con vistas personalizadas de MS Project adaptadas.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Cómo crear una vista: Vistas personalizadas de MS Project en Aspose.Tasks'
+title: 'Cómo crear una vista - Vistas personalizadas de MS Project en Aspose.Tasks'
 url: /es/java/project-file-operations/custom-views/
 weight: 24
 ---

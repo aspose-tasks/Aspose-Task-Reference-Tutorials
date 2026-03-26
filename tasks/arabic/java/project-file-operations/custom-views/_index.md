@@ -5,7 +5,7 @@ description: تعلم كيفية إنشاء عرض في Aspose.Tasks للغة Ja
   لبرنامج MS Project.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'كيفية إنشاء عرض: عروض مخصصة في MS Project باستخدام Aspose.Tasks'
+title: 'كيفية إنشاء عرض - عروض مخصصة في MS Project باستخدام Aspose.Tasks'
 url: /ar/java/project-file-operations/custom-views/
 weight: 24
 ---

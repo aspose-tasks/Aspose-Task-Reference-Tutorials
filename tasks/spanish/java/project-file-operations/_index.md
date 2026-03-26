@@ -123,13 +123,6 @@ Aprenda a gestionar eficientemente las propiedades de los días de la semana en 
 ### [Escribir resumen de proyecto MPP en Aspose.Tasks](./write-mpp-project-summary/)
 Aprenda a escribir resúmenes de proyectos MPP en Java usando Aspose.Tasks. Establezca y recupere información del proyecto sin esfuerzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **Q: ¿Cómo actualizo un cronograma de MS Project sin abrir Microsoft Project?**  
@@ -152,3 +145,10 @@ A: CSV es una opción ligera; consulte el tutorial “Save As CSV, Text, and Tem
 **Última actualización:** 2025-12-18  
 **Probado con:** Aspose.Tasks for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -122,13 +122,6 @@ Aspose.Tasks for Java에서 요일 속성을 효율적으로 관리하는 방법
 ### [Aspose.Tasks에서 MPP 프로젝트 요약 작성](./write-mpp-project-summary/)
 Aspose.Tasks를 사용해 Java에서 MPP 프로젝트 요약을 작성하는 방법을 배워 프로젝트 정보를 손쉽게 설정하고 조회하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: Microsoft Project를 열지 않고 일정을 업데이트하려면 어떻게 해야 하나요?**  
@@ -151,3 +144,10 @@ A: CSV가 가벼운 옵션입니다. 자세한 내용은 “Save As CSV, Text, a
 **마지막 업데이트:** 2025-12-18  
 **테스트 환경:** Aspose.Tasks for Java 24.11  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

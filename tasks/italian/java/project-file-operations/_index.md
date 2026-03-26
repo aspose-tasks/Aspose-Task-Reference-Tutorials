@@ -138,13 +138,6 @@ Impara a gestire le proprietà dei giorni della settimana in modo efficiente in 
 ### [Scrivere il Riepilogo del Progetto MPP in Aspose.Tasks](./write-mpp-project-summary/)
 Scopri come scrivere riepiloghi di progetti MPP in Java usando Aspose.Tasks. Imposta e recupera le informazioni del progetto senza sforzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Come posso aggiornare un programma di MS Project senza aprire Microsoft Project?**  
@@ -165,3 +158,10 @@ A: CSV è un'opzione leggera; consulta il tutorial “Save As CSV, Text, and Tem
 **Ultimo Aggiornamento:** 2025-12-18  
 **Testato Con:** Aspose.Tasks per Java 24.11  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

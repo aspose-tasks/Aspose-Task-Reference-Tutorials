@@ -5,7 +5,7 @@ description: Aspose.Tasks for Java'da görünüm oluşturmayı, proje görünüm
   proje yönetimi verimliliğini artırın.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Görünüm Nasıl Oluşturulur: Aspose.Tasks''te Özel MS Project Görünümleri'
+title: 'Görünüm Nasıl Oluşturulur - Aspose.Tasks''te Özel MS Project Görünümleri'
 url: /tr/java/project-file-operations/custom-views/
 weight: 24
 ---

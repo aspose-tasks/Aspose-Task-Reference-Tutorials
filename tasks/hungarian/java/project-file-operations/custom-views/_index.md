@@ -5,7 +5,7 @@ description: Ismerje meg, hogyan hozhat létre nézetet az Aspose.Tasks for Java
   a projektmenedzsment hatékonyságát testreszabott MS Project nézetekkel.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Hogyan hozhatunk létre nézetet: Egyedi MS Project nézetek az Aspose.Tasks-ben'
+title: 'Hogyan hozhatunk létre nézetet - Egyedi MS Project nézetek az Aspose.Tasks-ben'
 url: /hu/java/project-file-operations/custom-views/
 weight: 24
 ---

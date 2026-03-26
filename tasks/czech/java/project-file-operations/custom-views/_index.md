@@ -5,7 +5,7 @@ description: Naučte se, jak vytvořit zobrazení v Aspose.Tasks pro Javu, včet
   řízení projektů pomocí přizpůsobených vlastních zobrazení MS Project.
 linktitle: Custom Views in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Jak vytvořit zobrazení: Vlastní zobrazení MS Project v Aspose.Tasks'
+title: 'Jak vytvořit zobrazení - Vlastní zobrazení MS Project v Aspose.Tasks'
 url: /cs/java/project-file-operations/custom-views/
 weight: 24
 ---

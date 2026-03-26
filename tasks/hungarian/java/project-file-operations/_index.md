@@ -123,13 +123,6 @@ Tanulja meg, hogyan kezelheti hatékonyan a hétköznap tulajdonságokat az Aspo
 ### [MPP projekt összefoglaló írása az Aspose.Tasks‑ben](./write-mpp-project-summary/)
 Tanulja meg, hogyan írhat MPP projekt összefoglalókat Java‑ban az Aspose.Tasks használatával. Állítson be és kérdezzen le projektinformációkat könnyedén.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Hogyan frissíthetem az MS Project ütemtervet anélkül, hogy megnyitnám a Microsoft Projectet?**  
@@ -152,3 +145,10 @@ A: A CSV könnyűsúlyú opció; tekintse meg a „Save As CSV, Text, and Templa
 **Utoljára frissítve:** 2025-12-18  
 **Tesztelve:** Aspose.Tasks for Java 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

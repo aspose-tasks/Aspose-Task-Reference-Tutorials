@@ -138,13 +138,6 @@ Leer weekdag‑eigenschappen efficiënt beheren in Aspose.Tasks voor Java. Pas w
 ### [MPP‑projectoverzicht schrijven in Aspose.Tasks](./write-mpp-project-summary/)
 Leer hoe u MPP‑projectoverzichten schrijft in Java met Aspose.Tasks. Stel projectinformatie in en haal deze moeiteloos op.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Hoe kan ik een MS Project‑schema bijwerken zonder Microsoft Project te openen?**  
@@ -167,3 +160,10 @@ A: CSV is een lichtgewicht optie; zie de “Save As CSV, Text, and Template” t
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

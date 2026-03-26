@@ -90,18 +90,6 @@ Bu kod parçacığı, varsayılan tablodaki her sütun için genişlik, başlık
 ## Sonuç
 Bu adımları izleyerek, Microsoft Project dosyasından Aspose.Tasks for Java kullanarak **tablo alanlarını nasıl alacağınızı** ve tablo verilerini nasıl okuyacağınızı öğrendiniz. Bu yetenek, Java uygulamalarınızda güçlü otomasyon senaryoları, veri taşıma boru hatları ve özel raporlama çözümlerinin kapısını açar.
 
-## SSS
-### S: Aspose.Tasks tüm Microsoft Project sürümleriyle uyumlu mu?
-C: Aspose.Tasks, Project 2003, 2007, 2010, 2013 ve 2016 dahil olmak üzere çeşitli Microsoft Project sürümlerini destekler.  
-### S: Tablo verilerini değiştirebilir ve Project dosyasına geri kaydedebilir miyim?
-C: Evet, Aspose.Tasks ile tablo verilerini programlı olarak değiştirebilir ve değişiklikleri orijinal Project dosyasına kaydedebilirsiniz.  
-### S: Aspose.Tasks ticari kullanım için ayrı bir lisans gerektiriyor mu?
-C: Evet, ticari bir ortamda kullanacaksanız Aspose.Tasks için bir lisans satın almanız gerekir. Lisansı [satın alma sayfasından](https://purchase.aspose.com/buy) temin edebilirsiniz.  
-### S: Aspose.Tasks için ücretsiz deneme mevcut mu?
-C: Evet, ücretsiz bir deneme sürümünü [sürümler sayfasından](https://releases.aspose.com/) indirebilirsiniz.  
-### S: Aspose.Tasks için yardım ve destek nereden alınır?
-C: Topluluk ve Aspose ekibinden destek almak için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
-
 ## Ek Sık Sorulan Sorular
 
 **S: Çok‑proje ortamında tablo verilerini nasıl okurum?**  

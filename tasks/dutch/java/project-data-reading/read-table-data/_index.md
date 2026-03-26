@@ -98,18 +98,6 @@ Veelvoorkomende valkuilen & tips
 Conclusie  
 Door deze stappen te volgen, weet je nu hoe je **tabelvelden kunt ophalen** en tabelgegevens kunt lezen uit een Microsoft Project‑bestand met Aspose.Tasks voor Java. Deze mogelijkheid opent de deur naar krachtige automatiseringsscenario's, gegevens‑migratie‑pijplijnen en aangepaste rapportage‑oplossingen in je Java‑applicaties.
 
-## FAQ's
-### V: Is Aspose.Tasks compatibel met alle versies van Microsoft Project?
-A: Aspose.Tasks ondersteunt verschillende versies van Microsoft Project, inclusief Project 2003, 2007, 2010, 2013 en 2016.  
-### V: Kan ik de tabelgegevens wijzigen en terug opslaan naar het Project‑bestand?
-A: Ja, je kunt Aspose.Tasks gebruiken om tabelgegevens programmatisch te wijzigen en de wijzigingen op te slaan in het oorspronkelijke Project‑bestand.  
-### V: Vereist Aspose.Tasks een aparte licentie voor commercieel gebruik?
-A: Ja, je moet een licentie voor Aspose.Tasks aanschaffen als je het wilt gebruiken in een commerciële omgeving. Je kunt een licentie verkrijgen via de [purchase page](https://purchase.aspose.com/buy).  
-### V: Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
-A: Ja, je kunt een gratis proefversie van Aspose.Tasks downloaden van de [releases page](https://releases.aspose.com/).  
-### V: Waar kan ik hulp en ondersteuning vinden voor Aspose.Tasks?
-A: Je kunt het [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) bezoeken voor hulp en ondersteuning van de community en het Aspose‑team.  
-
 ## Additional Frequently Asked Questions
 
 **V: Hoe lees ik tabelgegevens in een multi‑project omgeving?**  
