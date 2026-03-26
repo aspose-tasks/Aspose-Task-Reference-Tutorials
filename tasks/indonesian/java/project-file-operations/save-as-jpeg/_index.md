@@ -76,23 +76,6 @@ Langkah‑langkah di atas menunjukkan **cara mengekspor JPEG** dari file Microso
 ## Kesimpulan
 Dalam tutorial ini, kami telah membahas cara **menyesuaikan kualitas JPEG** saat mengonversi file Microsoft Project menjadi gambar JPEG menggunakan Aspose.Tasks for Java. Pendekatan ini mempermudah berbagi visualisasi proyek, memastikan kualitas gambar yang konsisten, dan memberi Anda kontrol penuh atas ukuran output.
 
-## FAQ
-
-### Q: Bisakah saya menyesuaikan kualitas gambar JPEG?
-A: Ya, Anda dapat menyesuaikan kualitas menggunakan metode `setJpegQuality()`, dengan rentang 0 hingga 100.  
-
-### Q: Bagaimana jika saya tidak menentukan kualitas JPEG?
-A: Jika Anda tidak menentukan kualitas, kualitas default akan digunakan.  
-
-### Q: Apakah Aspose.Tasks for Java gratis untuk digunakan?
-A: Aspose.Tasks for Java adalah perpustakaan komersial, tetapi Anda dapat menjelajahi fiturnya dengan percobaan gratis. Kunjungi [halaman percobaan gratis](https://releases.aspose.com/) untuk informasi lebih lanjut.  
-
-### Q: Di mana saya dapat mendapatkan dukungan untuk Aspose.Tasks for Java?
-A: Anda dapat mendapatkan dukungan dari forum komunitas Aspose.Tasks [di sini](https://forum.aspose.com/c/tasks/15).  
-
-### Q: Bisakah saya membeli lisensi sementara untuk Aspose.Tasks?
-A: Ya, Anda dapat membeli lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/).
-
 ## Pertanyaan Umum Tambahan
 
 **Q: Apakah menyesuaikan kualitas JPEG memengaruhi keterbacaan diagram Gantt?**  

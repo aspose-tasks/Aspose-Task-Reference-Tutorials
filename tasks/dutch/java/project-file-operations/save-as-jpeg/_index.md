@@ -76,18 +76,6 @@ De bovenstaande stappen laten zien **hoe je JPEG** kunt exporteren vanuit een Mi
 ## Conclusie
 In deze tutorial hebben we behandeld hoe je **JPEG‑kwaliteit** kunt **aanpassen** bij het converteren van een Microsoft Project‑bestand naar een JPEG‑afbeelding met Aspose.Tasks voor Java. Deze aanpak vereenvoudigt het delen van projectvisualisaties, zorgt voor consistente beeldkwaliteit en geeft je volledige controle over de outputgrootte.
 
-## Veelgestelde vragen
-### V: Kan ik de kwaliteit van de JPEG‑afbeelding aanpassen?
-A: Ja, je kunt de kwaliteit aanpassen met de `setJpegQuality()`‑methode, met een bereik van 0 tot 100.  
-### V: Wat gebeurt er als ik de JPEG‑kwaliteit niet specificeer?
-A: Als je de kwaliteit niet specificeert, wordt de standaardkwaliteit gebruikt.  
-### V: Is Aspose.Tasks voor Java gratis te gebruiken?
-A: Aspose.Tasks voor Java is een commerciële bibliotheek, maar je kunt de functionaliteit verkennen met een gratis proefversie. Bezoek de [gratis proefpagina](https://releases.aspose.com/) voor meer informatie.  
-### V: Waar kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
-A: Je kunt ondersteuning krijgen via het Aspose.Tasks‑communityforum [hier](https://forum.aspose.com/c/tasks/15).  
-### V: Kan ik een tijdelijke licentie voor Aspose.Tasks aanschaffen?
-A: Ja, je kunt een tijdelijke licentie aanschaffen via [hier](https://purchase.aspose.com/temporary-license/).
-
 ## Aanvullende veelgestelde vragen
 
 **V: Heeft het aanpassen van JPEG‑kwaliteit invloed op de leesbaarheid van het Gantt‑diagram?**  

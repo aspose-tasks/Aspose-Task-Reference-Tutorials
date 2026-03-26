@@ -76,18 +76,6 @@ Các bước trên minh họa **cách xuất JPEG** từ tệp Microsoft Project
 ## Kết luận
 Trong hướng dẫn này, chúng ta đã tìm hiểu cách **điều chỉnh chất lượng JPEG** khi chuyển đổi tệp Microsoft Project sang ảnh JPEG bằng Aspose.Tasks cho Java. Cách tiếp cận này giúp chia sẻ hình ảnh dự án một cách dễ dàng, đảm bảo chất lượng ảnh nhất quán và cho phép bạn kiểm soát hoàn toàn kích thước đầu ra.
 
-## Câu hỏi thường gặp
-### H: Tôi có thể điều chỉnh chất lượng của ảnh JPEG không?
-Đ: Có, bạn có thể điều chỉnh chất lượng bằng phương thức `setJpegQuality()`, với phạm vi từ 0 đến 100.  
-### H: Nếu tôi không chỉ định chất lượng JPEG thì sao?
-Đ: Nếu không chỉ định, hệ thống sẽ sử dụng chất lượng mặc định.  
-### H: Aspose.Tasks cho Java có miễn phí không?
-Đ: Aspose.Tasks cho Java là thư viện thương mại, nhưng bạn có thể khám phá các tính năng của nó với bản dùng thử miễn phí. Truy cập [trang dùng thử miễn phí](https://releases.aspose.com/) để biết thêm chi tiết.  
-### H: Tôi có thể nhận hỗ trợ cho Aspose.Tasks cho Java ở đâu?
-Đ: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks [tại đây](https://forum.aspose.com/c/tasks/15).  
-### H: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?
-Đ: Có, bạn có thể mua giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
-
 ## Các câu hỏi thường gặp bổ sung
 
 **H: Điều chỉnh chất lượng JPEG có ảnh hưởng đến khả năng đọc biểu đồ Gantt không?**  

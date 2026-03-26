@@ -76,22 +76,6 @@ project.save(dataDir + "image_out.jpeg", options);
 ## 결론
 이 튜토리얼에서는 Aspose.Tasks for Java를 사용해 Microsoft Project 파일을 JPEG 이미지로 변환하면서 **JPEG 품질을 조정**하는 방법을 다루었습니다. 이 접근 방식은 프로젝트 시각화를 공유하고, 일관된 이미지 품질을 보장하며, 출력 크기에 대한 완전한 제어를 제공합니다.
 
-## FAQ
-### Q: JPEG 이미지의 품질을 조정할 수 있나요?
-A: 예, `setJpegQuality()` 메서드를 사용해 0부터 100까지의 범위로 품질을 조정할 수 있습니다.  
-
-### Q: JPEG 품질을 지정하지 않으면 어떻게 되나요?
-A: 품질을 지정하지 않으면 기본 품질 값이 사용됩니다.  
-
-### Q: Aspose.Tasks for Java는 무료로 사용할 수 있나요?
-A: Aspose.Tasks for Java는 상용 라이브러리이지만, 무료 체험판으로 기능을 시험해 볼 수 있습니다. 자세한 내용은 [무료 체험 페이지](https://releases.aspose.com/)를 참고하세요.  
-
-### Q: Aspose.Tasks for Java에 대한 지원은 어디서 받을 수 있나요?
-A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다: [여기](https://forum.aspose.com/c/tasks/15).  
-
-### Q: Aspose.Tasks에 대한 임시 라이선스를 구매할 수 있나요?
-A: 예, [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 구매할 수 있습니다.
-
 ## 추가 자주 묻는 질문
 
 **Q: JPEG 품질을 조정하면 Gantt 차트 가독성에 영향을 미치나요?**  

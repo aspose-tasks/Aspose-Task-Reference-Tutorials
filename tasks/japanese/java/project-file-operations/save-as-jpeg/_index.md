@@ -76,18 +76,6 @@ project.save(dataDir + "image_out.jpeg", options);
 ## 結論
 このチュートリアルでは、Aspose.Tasks for Java を使用して Microsoft Project ファイルを JPEG 画像に変換する際に **JPEG 品質を調整する** 方法を解説しました。このアプローチにより、プロジェクトの可視化を共有しやすくなり、画像品質を一貫させつつ出力サイズを自由にコントロールできます。
 
-## FAQ
-### Q: JPEG 画像の品質を調整できますか？
-A: はい、`setJpegQuality()` メソッドを使用して 0 から 100 の範囲で品質を調整できます。  
-### Q: JPEG 品質を指定しなかった場合はどうなりますか？
-A: 品質を指定しない場合はデフォルトの品質が使用されます。  
-### Q: Aspose.Tasks for Java は無料で使用できますか？
-A: Aspose.Tasks for Java は商用ライブラリですが、無料トライアルで機能を試すことができます。詳細は [free trial page](https://releases.aspose.com/) をご覧ください。  
-### Q: Aspose.Tasks for Java のサポートはどこで受けられますか？
-A: Aspose.Tasks コミュニティフォーラムは [here](https://forum.aspose.com/c/tasks/15) から利用できます。  
-### Q: Aspose.Tasks の一時ライセンスを購入できますか？
-A: はい、[here](https://purchase.aspose.com/temporary-license/) から一時ライセンスを購入できます。
-
 ## 追加のよくある質問
 
 **Q: JPEG 品質を調整するとガントチャートの可読性に影響しますか？**  

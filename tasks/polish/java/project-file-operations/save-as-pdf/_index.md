@@ -15,33 +15,33 @@ weight: 17
 
 # Jak wyeksportować PDF w Aspose.Tasks – Zapisz jako PDF
 
-## Introduction
-W tym samouczku pokażemy, **jak wyeksportować PDF** w Aspose.Tasks dla Java, prowadząc Cię przez proces zapisywania projektu jako PDF. Dzięki Aspose.Tasks możesz efektywnie **convert MPP to PDF**, zapewniając kompatybilność i łatwość udostępniania wśród zespołów i interesariuszy. Zanurzmy się w kroki, abyś szybko uzyskał drukowalny PDF z dowolnego pliku projektu.
+## Wstęp
+W tym samouczku, **jak wyeksportować PDF** w Aspose.Tasks dla Java, prowadzący Cię przez proces za typowy projekt jako PDF. Dzięki Aspose.Tasks możesz **przekonwertować MPP na PDF**, uwzględnić kompatybilność i zaakceptować dostęp do środowiska i zainteresowań. Zanurzmy się w wymaganiach, które zostaną szybko opublikowane w formacie PDF z uniwersalnym plikiem projektu.
 
-## Quick Answers
-- **Co oznacza „export PDF” w Aspose.Tasks?** Oznacza to konwersję pliku projektu (np. MPP) do dokumentu PDF zachowującego układ wizualny.  
-- **Która wersja biblioteki jest wymagana?** Dowolna wersja Aspose.Tasks for Java obsługująca `PdfSaveOptions` (zalecana jest najnowsza wersja).  
-- **Czy potrzebna jest licencja do tej konwersji?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w użyciu produkcyjnym.  
-- **Czy mogę dostosować wygląd PDF?** Tak – możesz ustawić skalę czasu, legendy i inne `PdfSaveOptions`.  
-- **Czy konwersja jest szybka dla dużych projektów?** Zazwyczaj kilka sekund; wydajność zależy od rozmiaru projektu i wybranych opcji.
+## Szybkie odpowiedzi
+- **Co oznacza „export PDF” w Aspose.Tasks?** badanie do konwersji pliku projektu (np.MPP) do dokumentu PDF wyjaśniającego układ.
+- **Która wersji biblioteki jest wymagana?** Dowolna wersja Aspose.Tasks for Java obsługująca `PdfSaveOptions` (zalecana jest najnowsza wersja).
+- **Czy istnieje licencja do tej rasy?** Wersja próbna działa w środowisku mieszkaskim; licencja komercyjna jest wymagana w użytkowaniu produkcyjnym.
+- **Czy można dostosować wygląd PDF?** Tak – można ustawić konfigurację czasu, legendę i inne `PdfSaveOptions`.
+- **Czy konwersja jest szybka dla dużych projektów?** kilka sekund; Opcja zależna od oddzielnego projektu i wybranej opcji.
 
-## What is “how to export pdf” in the context of Aspose.Tasks?
-Exportowanie PDF za pomocą Aspose.Tasks oznacza pobranie pliku projektu (takiego jak `.mpp`, `.xml` lub `.xlsx`) i wygenerowanie PDF, który odzwierciedla wykres Gantta, widok użycia zadań lub dowolny inny format prezentacji, który skonfigurujesz. Jest to przydatne do raportowania, dokumentacji lub udostępniania widoków tylko do odczytu interesariuszom nietechnicznym.
+## Co to jest „jak wyeksportować plik PDF” w kontekście Aspose.Tasks?
+Eksportowanie PDF za pomocą Aspose.Tasks oznacza pobranie pliku projektu (takiego jak`.mpp`,`.xml` lub`.xlsx`) i wygenerowanie PDF, który przedstawia wykres Gantta, widok użycia zadań lub inny format prezentacji, który skonfigurujesz. Jest to kontrola do raportowania, dokumentacja lub udostępnianie widoków tylko do odczytu zainteresowań nietechnicznych.
 
-## Why Export Project Files to PDF?
-- **Uniwersalna czytelność:** PDF działa na każdym urządzeniu bez potrzeby posiadania oryginalnego oprogramowania projektowego.  
-- **Profesjonalna prezentacja:** Zachowuje formatowanie, kolory i układ w raportach skierowanych do klientów.  
-- **Łatwa dystrybucja:** Udostępniaj przez e‑mail, intranet lub chmurę bez obaw o kontrolę wersji.  
-- **Zgodność i archiwizacja:** PDF-y są idealne do długoterminowego przechowywania i spełniania wymogów regulacyjnych.
+## Dlaczego warto eksportować pliki projektu do formatu PDF?
+- **Uniwersalna czytelność:** PDF działa na każdym etapie bez konieczności posiadania oprogramowania projektowego.
+- **Profesjonalna prezentacja:** Zachowuje formatowanie, kolory i układ w raportach dostarczonych do klientów.
+- **Łatwa dystrybucja:** Udostępniaj przez e-mail, intranet lub chmurę bez obawy o kontrolę wersji.
+- **Zgodność i archiwizacja:** PDF-y są idealnym rozwiązaniem do przechowywania i dostarczania danych.
 
-## Prerequisites
-Zanim rozpoczniesz, upewnij się, że masz następujące elementy:
+## Warunki wstępne
+Zanim ustalisz, dowiedz się, że masz szczegółowe elementy:
 
-1. **Java Development Kit (JDK):** JDK 8 lub nowszy zainstalowany na Twoim komputerze.  
-2. **Aspose.Tasks for Java Library:** Pobierz bibliotekę ze strony oficjalnej [here](https://releases.aspose.com/tasks/java/).  
-3. **Plik projektu:** Miej gotowy istniejący plik projektu (np. `HomeMovePlan.mpp`) do konwersji.
+1. **Java Development Kit (JDK):** JDK8 lub nowszy przełącznik na komputerze.
+2. **Aspose.Tasks for Java Library:** Pobierz bibliotekę ze strony funkcjonalne[tutaj](https://releases.aspose.com/tasks/java/).
+3. **Plik projektu:** Miejski gotowy plik projektu (np.`HomeMovePlan.mpp`) do mieszkalnych.
 
-## Import Packages
+## Importuj pakiety
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -51,22 +51,22 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 ```
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Read the Input Project File
+### Krok 1: Odczyt pliku wejściowego projektu
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
 Zastąp `"Your Data Directory"` absolutną ścieżką, w której znajduje się Twój plik `.mpp`. To ładuje projekt do pamięci, abyś mógł go manipulować lub wyeksportować.
 
-### Step 2: Save the Project as PDF
+### Krok 2: Zapisywanie projektu w formacie PDF
 ```java
 project.save(dataDir + "Project5.pdf", SaveFileFormat.Pdf);
 ```
 Powyższa linia wykonuje prostą operację **save project as PDF**, tworząc `Project5.pdf` w tym samym folderze.
 
-### Step 3: Fit Contents to Cell Size (Advanced PDF Save Options)
+### Krok 3: Dopasowywanie zawartości do rozmiaru komórki (zaawansowane opcje zapisu PDF)
 ```java
 Project project1 = new Project(dataDir + "project6.mpp");
 SaveOptions o = new PdfSaveOptions();
@@ -79,48 +79,48 @@ Tutaj demonstrujemy użycie **pdf save options** do kontrolowania układu:
 - `setTimescale(Timescale.Months)` zmienia skalę czasu na miesiące.  
 - `setPresentationFormat(PresentationFormat.TaskUsage)` wybiera widok Task Usage.
 
-### Step 4: Hide Legends (Cleaner Output)
+### Krok 4: Ukrywanie legend (czystszy wynik)
 ```java
 o.setLegendOnEachPage(false);
 ```
 Wyłączenie legend może sprawić, że PDF będzie bardziej zwarty, szczególnie w dużych projektach.
 
-### Step 5: Save the Project with Applied Options
+### Krok 5: Zapisywanie projektu z zastosowanymi opcjami
 ```java
 project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
 ```
 Ten ostatni krok zapisuje PDF przy użyciu niestandardowych opcji zdefiniowanych powyżej, tworząc czysty dokument ze skalą miesięczną, bez legend na każdej stronie.
 
-## Common Issues & Tips
-- **Plik nie znaleziony:** Upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\\`) i wskazuje na właściwy katalog.  
-- **Puste strony:** Sprawdź, czy wybrany `PresentationFormat` odpowiada oczekiwanemu widokowi (np. Gantt, Task Usage).  
-- **Duże pliki trwają dłużej:** Rozważ ustawienie `o.setFitContent(false)` dla bardzo dużych projektów, aby skrócić czas przetwarzania.
+## Typowe problemy i wskazówki
+- **Plik nie znaleziony:** podlega, że ​​`dataDir` kończy się separatorem plików (`/` lub `\\`) i odpowiednio na właściwym katalogu.
+- **Puste strony:** Sprawdź, czy wybierz `PresentationFormat` odpowiadający oczekiwanemu widokowi (np. Gantt, Task Usage).
+- **Duże pliki trwające:** Rozważ ustawienie `o.setFitContent(false)` dla bardzo dużych projektów, aby skrócić czas przetwarzania.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**Q: Czy Aspose.Tasks jest kompatybilny ze wszystkimi wersjami Java?**  
-A: Tak, Aspose.Tasks obsługuje wersje Java od JDK 6 i wyżej.
+**P: Czy Aspose.Tasks jest rozwiązaniem ze stosowaniem wersji Java?**
+A: Tak, Aspose.Tasks obsługuje wersje Java od JDK6 i wyżej.
 
-**Q: Czy mogę dostosować wygląd wyjściowego PDF?**  
-A: Oczywiście! Aspose.Tasks oferuje liczne **pdf save options** — takie jak skala czasu, widoczność legendy i format prezentacji — aby dopasować PDF do Twoich potrzeb.
+**Q: Czy można dostosować wygląd wyjściowy PDF?**
+O: Oczywiście! Aspose.Tasks dostępne **pdf opcje zapisu** — takie jak skala czasu, wyjaśnienie legendy i format prezentacji — aby uruchomić PDF do Twoich potrzeb.
 
-**Q: Czy Aspose.Tasks obsługuje inne formaty plików do konwersji?**  
-A: Tak, możesz konwertować pomiędzy MPP, XML, XLSX i wieloma innymi formatami, co czyni go wszechstronnym narzędziem do **convert mpp to pdf** i innych przekształceń.
+**Q: Czy Aspose.Tasks obsługuje inne formaty plików do wolności?**
+A: Tak, możesz konwertować pomiędzy MPP, XML, XLSX i wieloma innymi formatami, co powoduje, że istnieją funkcje do **convert mpp to pdf** i inne przekształceń.
 
-**Q: Czy dostępna jest wersja próbna Aspose.Tasks?**  
-A: Tak, możesz uzyskać darmową wersję próbną Aspose.Tasks [here](https://releases.aspose.com/).
+**P: Czy dostępna jest wersja próbna Aspose.Tasks?**
+O: Możesz pobrać bezpłatną wersję próbną Aspose.Tasks[tutaj](https://releases.aspose.com/).
 
-**Q: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?**  
-A: Aby uzyskać wsparcie i pomoc, odwiedź oficjalne [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+**Q: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?**
+Odp.: Aby uzyskać wsparcie i pomoc, pomocne [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-## Conclusion
-Postępując zgodnie z tym przewodnikiem, wiesz już, **jak wyeksportować PDF** z dowolnego projektu Java przy użyciu Aspose.Tasks, od prostej jednowierszowej operacji zapisu po zaawansowaną personalizację przy użyciu `PdfSaveOptions`. Wykorzystaj te techniki, aby tworzyć dopracowane, łatwe do udostępniania PDF-y do raportowania, prezentacji klientom lub celów archiwizacyjnych.
+## Wniosek
+Po połączeniu z tym, wiesz już, **jak wyeksportować PDF** z dowolnego projektu Java przy użyciu Aspose.Tasks, od elektronicznej jednowierszowej operacji zapisu po zaawansowanej personalizacji przy użyciu `PdfSaveOptions`. te techniki, które udostępniają, udostępnianie PDF-y do raportów, prezentacja klientom lub celom archiwizacyjnym.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 20.12.2025 r
+**Testowano z:** Aspose.Tasks dla Java 24.12 (najnowsza wersja w momencie pisania tego tekstu)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
