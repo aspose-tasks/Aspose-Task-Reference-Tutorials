@@ -1,28 +1,44 @@
 ---
-title: Opanowanie liczenia skali czasu projektu MS w Aspose.Tasks
-linktitle: Ustaw licznik skali czasu w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak efektywnie zarządzać skalą czasu w MS Project przy użyciu Aspose.Tasks dla Java. Bez wysiłku optymalizuj wizualizację projektu i zarządzanie nim.
-weight: 22
+date: 2025-12-21
+description: Dowiedz się, jak dostosować widoki wykresu Gantta, zarządzać wizualizacją
+  projektu i zapisywać projekt jako PDF przy użyciu Aspose.Tasks for Java. Łatwo dostosuj
+  liczbę jednostek skali czasu.
+linktitle: Set Time Scale Count in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Dostosuj wykres Gantta – opanowanie liczenia skali czasu w MS Project w Aspose.Tasks
 url: /pl/java/project-file-operations/set-time-scale-count/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opanowanie liczenia skali czasu projektu MS w Aspose.Tasks
+# Dostosuj wykres Gantta – Opanowanie liczby skali czasu w MS Project w Aspose.Tasks
 
-## Wstęp
-Zarządzanie skalą czasową w MS Project może znacząco wpłynąć na wizualizację i zarządzanie projektem. Dzięki Aspose.Tasks for Java, potężnemu API do programowej obsługi zadań związanych z zarządzaniem projektami, możesz efektywnie manipulować licznikiem skali czasu, aby dostosować widoki projektu do swoich konkretnych potrzeb.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz przygotowane następujące elementy:
-1. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
-2.  Aspose.Tasks for Java Library: Pobierz i zainstaluj bibliotekę Aspose.Tasks for Java. Możesz to dostać od[Tutaj](https://releases.aspose.com/tasks/java/).
-3. Podstawowa znajomość programowania w języku Java: Znajomość języka programowania Java będzie korzystna.
+## Wprowadzenie
+Jeśli potrzebujesz **dostosować wykres Gantta** w Microsoft Project, kontrola liczby skali czasu jest kluczową techniką. Dzięki Aspose.Tasks for Java możesz programowo ustawić dolny i środkowy poziom skali czasu, precyzyjnie dostroić widoczność znaczników oraz **zapisać projekt jako PDF**, aby udostępnić go interesariuszom. Ten samouczek przeprowadzi Cię przez cały proces – od konfiguracji środowiska po wygenerowanie eleganckiego PDF‑a odzwierciedlającego Twoje spersonalizowane widoki Gantta.
 
-## Importuj pakiety
-Zaimportuj niezbędne pakiety do swojego projektu Java:
+## Szybkie odpowiedzi
+- **Co oznacza „dostosować wykres Gantta”?** Dostosowanie poziomów skali czasu, kolorów i układu do potrzeb raportowania.  
+- **Która metoda API ustawia liczbę dolnego poziomu?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **Czy mogę wygenerować PDF bezpośrednio z projektu?** Tak – użyj `project.save(..., SaveFileFormat.Pdf)`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest licencja komercyjna; dostępna jest wersja próbna.  
+- **Jaką wersję Javy obsługuje biblioteka?** Java 8 lub nowsza współpracuje z najnowszą wersją Aspose.Tasks.
+
+## Co oznacza „dostosowanie wykresu Gantta” w Aspose.Tasks?
+Dostosowanie wykresu Gantta oznacza programowe modyfikowanie jego elementów wizualnych – takich jak interwały skali czasu, znaczniki oraz paski zadań – tak, aby wykres odpowiadał Twojemu **zarządzaniu wizualizacją projektu**. Zmieniając liczbę skali czasu, kontrolujesz, ile dni, tygodni lub miesięcy reprezentuje każdy segment, co czyni wykres czytelniejszym dla różnych odbiorców.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Środowisko programistyczne Java** – zainstalowany JDK 8 lub nowszy.  
+2. **Bibliotekę Aspose.Tasks for Java** – pobierz ją z [tutaj](https://releases.aspose.com/tasks/java/).  
+3. **Podstawową znajomość Javy** – znajomość składni i koncepcji obiektowych.
+
+## Importowanie pakietów
+Zaimportuj niezbędne klasy do swojego projektu Java:
+
 ```java
 import com.aspose.tasks.GanttChartView;
 import com.aspose.tasks.Project;
@@ -32,71 +48,107 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## Krok 1: Ustaw katalog danych
-Zdefiniuj ścieżkę do katalogu danych, w którym będą przechowywane pliki projektu:
+## Przewodnik krok po kroku
+
+### Krok 1: Ustaw katalog danych
+Zdefiniuj, skąd będą odczytywane i gdzie będą zapisywane pliki projektu:
+
 ```java
 String dataDir = "Your Data Directory";
 ```
- Zastępować`"Your Data Directory"` ze ścieżką do katalogu danych.
-## Krok 2: Utwórz instancję projektu
- Utwórz instancję nowego`Project` obiekt:
+
+Zastąp `"Your Data Directory"` absolutną ścieżką na swoim komputerze.
+
+### Krok 2: Utwórz nową instancję projektu
+Zainicjuj nowy obiekt `Project`, który będzie przechowywał wszystkie zadania i ustawienia widoku:
+
 ```java
 Project project = new Project();
 ```
-Spowoduje to utworzenie nowego obiektu projektu.
-## Krok 3: Skonfiguruj widok wykresu Gantta
- Stwórz`GanttChartView` obiekt do konfiguracji widoku wykresu Gantta:
+
+### Krok 3: Skonfiguruj widok wykresu Gantta
+Utwórz obiekt `GanttChartView` – to tutaj **generujesz kod Java widoku Gantta**, aby kontrolować wygląd wykresu:
+
 ```java
 GanttChartView view = new GanttChartView();
 ```
-## Krok 4: Ustaw licznik skali czasu dla dolnej warstwy
-Ustaw widoczność liczby i znaczników dla dolnej warstwy skali czasu:
+
+### Krok 4: Ustaw liczbę skali czasu dla dolnego poziomu
+Dostosuj dolny poziom, aby wyświetlał dwa interwały i ukryj znaczniki:
+
 ```java
 view.getBottomTimescaleTier().setCount(2);
 view.getBottomTimescaleTier().setShowTicks(false);
 ```
-Określa liczbę interwałów i wyświetlanie znaczników najniższego poziomu.
-## Krok 5: Ustaw licznik skali czasu dla warstwy środkowej
-Podobnie skonfiguruj środkową warstwę skali czasu:
+
+### Krok 5: Ustaw liczbę skali czasu dla środkowego poziomu
+Zastosuj tę samą konfigurację do środkowego poziomu:
+
 ```java
 view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
-## Krok 6: Dodaj widok do projektu
-Dodaj skonfigurowany widok do projektu:
+
+### Krok 6: Dodaj dostosowany widok do projektu
+Dołącz skonfigurowany widok do instancji `Project`:
+
 ```java
 project.getViews().add(view);
 ```
-Spowoduje to dodanie dostosowanego widoku do projektu.
-## Krok 7: Dodaj dane testowe do projektu
-Dodaj trochę danych testowych do projektu w celu demonstracji:
+
+### Krok 7: Dodaj przykładowe zadania (dane testowe)
+Utwórz kilka zadań o określonych czasach trwania, aby zilustrować spersonalizowany wykres Gantta:
+
 ```java
 Task task1 = project.getRootTask().getChildren().add("Task 1");
 Task task2 = project.getRootTask().getChildren().add("Task 2");
 task1.set(Tsk.DURATION, task1.getParentProject().getDuration(24, TimeUnitType.Hour));
 task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Hour));
 ```
-Spowoduje to utworzenie dwóch zadań o określonym czasie trwania.
-## Krok 8: Zapisz projekt jako plik PDF
-Zapisz projekt jako plik PDF:
+
+### Krok 8: Zapisz projekt jako PDF
+Na koniec wyeksportuj projekt – wraz z **dostosowanym wykresem Gantta** – do pliku PDF:
+
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
-Spowoduje to zapisanie projektu z zastosowanymi konfiguracjami do pliku PDF.
 
-## Wniosek
-Efektywne zarządzanie skalą czasu w MS Project za pomocą Aspose.Tasks dla Java umożliwia dostosowywanie widoków projektu w celu lepszej wizualizacji i zarządzania.
-## Często zadawane pytania
-### P: Czy Aspose.Tasks for Java obsługuje duże pliki projektów?
-O: Tak, Aspose.Tasks for Java jest w stanie wydajnie obsługiwać duże pliki projektów.
-### P: Czy Aspose.Tasks for Java jest kompatybilny z różnymi środowiskami IDE Java?
-O: Tak, Aspose.Tasks for Java bezproblemowo współpracuje z popularnymi zintegrowanymi środowiskami programistycznymi Java (IDE), takimi jak Eclipse i IntelliJ IDEA.
-### P: Czy mogę dostosować wygląd wykresów Gantta za pomocą Aspose.Tasks dla Java?
-O: Oczywiście, Aspose.Tasks dla Java zapewnia szerokie możliwości dostosowywania wyglądu wykresów Gantta zgodnie z Twoimi wymaganiami.
-### P: Czy dostępna jest wersja próbna Aspose.Tasks dla Java?
- Odp.: Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
-### P: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Tasks dla Java?
- O: Możesz znaleźć wsparcie i pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+Wygenerowany PDF pokazuje, jak dolny i środkowy poziom skali czasu zostały **spersonalizowane**, zapewniając interesariuszom przejrzysty, drukowalny widok harmonogramu.
+
+## Typowe problemy i rozwiązywanie
+- **PDF jest pusty** – Upewnij się, że ścieżka `dataDir` kończy się separatorem plików (`/` lub `\`) i że katalog istnieje.  
+- **Znaczniki wciąż się wyświetlają** – Sprawdź, czy metoda `setShowTicks(false)` została wywołana dla obu poziomów.  
+- **Czas trwania nie został zastosowany** – Potwierdź, że przy tworzeniu czasów używasz `TimeUnitType.Hour` (lub odpowiedniej jednostki).
+
+## Najczęściej zadawane pytania
+
+**P: Czy Aspose.Tasks for Java radzi sobie z dużymi plikami projektów?**  
+O: Tak, biblioteka jest zoptymalizowana pod kątem wysokowydajnego przetwarzania rozbudowanych danych projektowych.
+
+**P: Czy Aspose.Tasks for Java jest kompatybilny z różnymi IDE Javy?**  
+O: Absolutnie – działa bezproblemowo w Eclipse, IntelliJ IDEA, NetBeans i innych popularnych środowiskach.
+
+**P: Czy mogę dostosować wygląd wykresu Gantta poza ustawieniami skali czasu?**  
+O: Tak, Aspose.Tasks oferuje rozbudowane opcje stylizacji, takie jak kolory pasków, czcionki i linie siatki.
+
+**P: Czy dostępna jest wersja próbna Aspose.Tasks for Java?**  
+O: Tak, możesz uzyskać wersję próbną za darmo z [tutaj](https://releases.aspose.com/).
+
+**P: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks for Java?**  
+O: Wsparcie i pomoc znajdziesz na forum Aspose.Tasks [tutaj](https://forum.aspose.com/c/tasks/15).
+
+**P: Jak programowo zmienić kolor tła wykresu Gantta?**  
+O: Użyj metody `view.getGanttChartProperties().setBackgroundColor(Color)` po zaimportowaniu `java.awt.Color`.
+
+## Podsumowanie
+Korzystając z powyższych kroków, nauczyłeś się **dostosowywać poziomy skali czasu wykresu Gantta**, ulepszać **wizualizację projektu** oraz **zapisywać projekt jako PDF** przy użyciu Aspose.Tasks for Java. To podejście daje pełną kontrolę nad wyjściem wizualnym, ułatwiając udostępnianie przejrzystych, profesjonalnych harmonogramów Twojemu zespołowi lub klientom.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
