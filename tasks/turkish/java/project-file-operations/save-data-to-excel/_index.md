@@ -96,15 +96,15 @@ Destek almayı Aspose.Tasks forumunu [buradan](https://forum.aspose.com/c/tasks/
 ### Aspose.Tasks for Java için geçici bir lisans satın alabilir miyim?
 Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) satın alabilirsiniz.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

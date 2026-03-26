@@ -95,13 +95,6 @@ Podporu získáte návštěvou fóra Aspose.Tasks [zde](https://forum.aspose.com
 ### Mohu zakoupit dočasnou licenci pro Aspose.Tasks pro Java?
 Ano, dočasnou licenci můžete zakoupit [zde](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-21  
@@ -109,3 +102,10 @@ Ano, dočasnou licenci můžete zakoupit [zde](https://purchase.aspose.com/tempo
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

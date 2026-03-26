@@ -118,12 +118,6 @@ R: Sí, puedes adquirir una licencia temporal desde [aquí](https://purchase.asp
 ### P: ¿Aspose.Tasks para Java es compatible con diferentes sistemas operativos?
 R: Sí, Aspose.Tasks para Java es compatible con varios sistemas operativos, incluidos Windows, macOS y Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-21  
@@ -131,3 +125,9 @@ R: Sí, Aspose.Tasks para Java es compatible con varios sistemas operativos, inc
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

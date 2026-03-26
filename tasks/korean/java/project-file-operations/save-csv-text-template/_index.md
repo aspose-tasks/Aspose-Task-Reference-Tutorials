@@ -118,12 +118,6 @@ A: 예, [here](https://purchase.aspose.com/temporary-license/)에서 임시 라�
 ### Q: Aspose.Tasks for Java는 다양한 운영 체제와 호환되나요?
 A: 예, Aspose.Tasks for Java는 Windows, macOS, Linux 등 다양한 운영 체제에서 호환됩니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2025-12-21  
@@ -131,3 +125,9 @@ A: 예, Aspose.Tasks for Java는 Windows, macOS, Linux 등 다양한 운영 체�
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -117,12 +117,6 @@ project.saveAsTemplate(templateName, options);
 ### 问：Aspose.Tasks for Java 是否兼容不同操作系统？
 答：是的，Aspose.Tasks for Java 兼容多种操作系统，包括 Windows、macOS 和 Linux。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最近更新：** 2025-12-21  
@@ -130,3 +124,9 @@ project.saveAsTemplate(templateName, options);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

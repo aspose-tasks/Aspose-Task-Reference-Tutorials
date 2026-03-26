@@ -97,15 +97,15 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ### Μπορώ να αγοράσω προσωρινή άδεια για το Aspose.Tasks for Java;
 Ναι, μπορείτε να αγοράσετε προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-21  
+**Δοκιμή με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-21  
-**Δοκιμή με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Συγγραφέας:** Aspose

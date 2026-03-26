@@ -118,12 +118,6 @@ A: Ja, je kunt een tijdelijke licentie kopen via [hier](https://purchase.aspose.
 ### V: Is Aspose.Tasks voor Java compatibel met verschillende besturingssystemen?
 A: Ja, Aspose.Tasks voor Java is compatibel met diverse besturingssystemen, waaronder Windows, macOS en Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-21  
@@ -131,3 +125,9 @@ A: Ja, Aspose.Tasks voor Java is compatibel met diverse besturingssystemen, waar
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

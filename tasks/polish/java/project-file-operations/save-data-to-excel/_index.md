@@ -96,13 +96,6 @@ Wsparcie można uzyskać, odwiedzając forum Aspose.Tasks [tutaj](https://forum.
 ### Czy mogę zakupić tymczasową licencję na Aspose.Tasks dla Javy?
 Tak, tymczasową licencję można nabyć [tutaj](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-21  
@@ -110,3 +103,10 @@ Tak, tymczasową licencję można nabyć [tutaj](https://purchase.aspose.com/tem
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

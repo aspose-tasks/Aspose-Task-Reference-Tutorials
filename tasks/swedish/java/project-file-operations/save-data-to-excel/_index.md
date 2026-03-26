@@ -96,13 +96,6 @@ Du kan få support genom att besöka Aspose.Tasks‑forumet [here](https://forum
 ### Kan jag köpa en tillfällig licens för Aspose.Tasks för Java?
 Ja, du kan köpa en tillfällig licens från [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-21  
@@ -110,3 +103,10 @@ Ja, du kan köpa en tillfällig licens från [here](https://purchase.aspose.com/
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -116,12 +116,6 @@ A: Evet, [buradan](https://purchase.aspose.com/temporary-license/) geçici bir l
 ### Q: Aspose.Tasks for Java farklı işletim sistemleriyle uyumlu mu?
 A: Evet, Aspose.Tasks for Java Windows, macOS ve Linux dahil olmak üzere çeşitli işletim sistemleriyle uyumludur.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -129,3 +123,9 @@ A: Evet, Aspose.Tasks for Java Windows, macOS ve Linux dahil olmak üzere çeşi
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

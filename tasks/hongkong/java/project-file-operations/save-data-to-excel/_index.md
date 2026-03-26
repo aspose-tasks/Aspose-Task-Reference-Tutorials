@@ -94,15 +94,15 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ### 我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
 是的，您可以從 [here](https://purchase.aspose.com/temporary-license/) 購買臨時授權。
 
+---
+
+**最後更新：** 2025-12-21  
+**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-21  
-**測試環境：** Aspose.Tasks for Java 24.12（撰寫時的最新版本）  
-**作者：** Aspose

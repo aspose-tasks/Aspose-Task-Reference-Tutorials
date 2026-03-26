@@ -95,13 +95,6 @@ Bạn có thể nhận hỗ trợ bằng cách truy cập diễn đàn Aspose.Ta
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks cho Java không?
 Có, bạn có thể mua giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -109,3 +102,10 @@ Có, bạn có thể mua giấy phép tạm thời từ [đây](https://purchase
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

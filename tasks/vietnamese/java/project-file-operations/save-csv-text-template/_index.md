@@ -118,12 +118,6 @@ Chúng ta đã tìm hiểu **cách lưu dự án dưới dạng mẫu**, cũng n
 ### H: Aspose.Tasks cho Java có tương thích với các hệ điều hành khác nhau không?
 Đ: Có, Aspose.Tasks cho Java tương thích với nhiều hệ điều hành, bao gồm Windows, macOS và Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-21  
@@ -131,3 +125,9 @@ Chúng ta đã tìm hiểu **cách lưu dự án dưới dạng mẫu**, cũng n
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

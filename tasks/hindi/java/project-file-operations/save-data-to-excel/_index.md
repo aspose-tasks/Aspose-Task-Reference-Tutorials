@@ -96,15 +96,15 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ### क्या मैं Aspose.Tasks for Java के लिए एक टेम्पररी लाइसेंस खरीद सकता हूँ?
 हाँ, आप टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) से खरीद सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-21  
+**परीक्षण किया गया:** Aspose.Tasks for Java 24.12 (लेखन के समय नवीनतम)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-21  
-**परीक्षण किया गया:** Aspose.Tasks for Java 24.12 (लेखन के समय नवीनतम)  
-**लेखक:** Aspose

@@ -97,15 +97,15 @@ Támogatást a Aspose.Tasks fórumon [itt](https://forum.aspose.com/c/tasks/15) 
 ### Vásárolhatok ideiglenes licencet az Aspose.Tasks for Java-hoz?
 Igen, ideiglenes licencet vásárolhatsz [itt](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Utolsó frissítés:** 2025-12-21  
+**Tesztelve ezzel:** Aspose.Tasks for Java 24.12 (legújabb a írás időpontjában)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-21  
-**Tesztelve ezzel:** Aspose.Tasks for Java 24.12 (legújabb a írás időpontjában)  
-**Szerző:** Aspose

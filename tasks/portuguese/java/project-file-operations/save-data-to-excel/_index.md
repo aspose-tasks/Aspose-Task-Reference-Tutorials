@@ -95,15 +95,15 @@ Você pode obter suporte visitando o fórum do Aspose.Tasks [aqui](https://forum
 ### Posso comprar uma licença temporária para Aspose.Tasks para Java?
 Sim, você pode comprar uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

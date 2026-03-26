@@ -95,15 +95,15 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks for Java؟
 نعم، يمكنك شراء ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

@@ -95,13 +95,6 @@ Puede obtener soporte visitando el foro de Aspose.Tasks [aquí](https://forum.as
 ### ¿Puedo comprar una licencia temporal para Aspose.Tasks para Java?
 Sí, puede adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-21  
@@ -109,3 +102,10 @@ Sí, puede adquirir una licencia temporal [aquí](https://purchase.aspose.com/te
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

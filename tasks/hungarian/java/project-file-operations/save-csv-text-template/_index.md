@@ -117,12 +117,6 @@ A: Igen, ideiglenes licencet vásárolhat [innen](https://purchase.aspose.com/te
 ### K: Kompatibilis-e az Aspose.Tasks for Java különböző operációs rendszerekkel?
 A: Igen, az Aspose.Tasks for Java kompatibilis különböző operációs rendszerekkel, beleértve a Windows, macOS és Linux rendszereket.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -130,3 +124,9 @@ A: Igen, az Aspose.Tasks for Java kompatibilis különböző operációs rendsze
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

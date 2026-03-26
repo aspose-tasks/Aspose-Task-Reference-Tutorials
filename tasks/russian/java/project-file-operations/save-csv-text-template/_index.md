@@ -118,12 +118,6 @@ project.saveAsTemplate(templateName, options);
 ### В: Совместима ли Aspose.Tasks для Java с разными операционными системами?
 **О:** Да, Aspose.Tasks для Java работает на различных ОС, включая Windows, macOS и Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-21  
@@ -131,3 +125,9 @@ project.saveAsTemplate(templateName, options);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

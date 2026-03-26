@@ -118,12 +118,6 @@ project.saveAsTemplate(templateName, options);
 ### س: هل Aspose.Tasks للغة Java متوافق مع أنظمة تشغيل مختلفة؟
 ج: نعم، Aspose.Tasks للغة Java متوافق مع أنظمة تشغيل متعددة، بما في ذلك Windows و macOS و Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-21  
@@ -131,3 +125,9 @@ project.saveAsTemplate(templateName, options);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

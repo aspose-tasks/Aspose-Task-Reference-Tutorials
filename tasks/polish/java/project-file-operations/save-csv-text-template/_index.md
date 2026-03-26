@@ -118,12 +118,6 @@ A: Tak, możesz zakupić tymczasową licencję z [here](https://purchase.aspose.
 ### Q: Czy Aspose.Tasks dla Javy jest kompatybilny z różnymi systemami operacyjnymi?
 A: Tak, Aspose.Tasks dla Javy jest kompatybilny z różnymi systemami operacyjnymi, w tym Windows, macOS i Linux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-21  
@@ -131,3 +125,9 @@ A: Tak, Aspose.Tasks dla Javy jest kompatybilny z różnymi systemami operacyjny
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

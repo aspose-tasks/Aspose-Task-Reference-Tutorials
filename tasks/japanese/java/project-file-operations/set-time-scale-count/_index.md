@@ -119,22 +119,22 @@ project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 
 ## よくある質問
 
-**Q: Can Aspose.Tasks for Java handle large‑scale project files?**  
+**Q: Aspose.Tasks for Javaは大規模なプロジェクトファイルを処理できますか？** 
 A: はい、ライブラリは大規模なプロジェクトデータの高性能処理に最適化されています。
 
-**Q: Is Aspose.Tasks for Java compatible with different Java IDEs?**  
+**Q: Aspose.Tasks for Javaは様々なJava IDEと互換性がありますか？**
 A: もちろんです—Eclipse、IntelliJ IDEA、NetBeans、その他の主要な IDE でシームレスに動作します。
 
-**Q: Can I customize the appearance of Gantt charts beyond time‑scale settings?**  
+**Q: ガントチャートの外観を、時間軸の設定以外にもカスタマイズできますか？**
 A: はい、Aspose.Tasks はバーの色、フォント、グリッドラインなど、幅広いスタイリングオプションを提供しています。
 
-**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+**Q: Aspose.Tasks for Javaの試用版はありますか？** 
 A: はい、[here](https://releases.aspose.com/) から無料トライアル版を入手できます。
 
-**Q: Where can I get support for Aspose.Tasks for Java?**  
+**Q: Aspose.Tasks for Javaのサポートはどこで受けられますか？**  
 A: Aspose.Tasks フォーラム [here](https://forum.aspose.com/c/tasks/15) でサポートと支援を受けられます。
 
-**Q: How do I programmatically change the Gantt chart’s background color?**  
+**Q: ガントチャートの背景色をプログラムで変更するにはどうすればよいですか？** 
 A: `java.awt.Color` をインポートした後、`view.getGanttChartProperties().setBackgroundColor(Color)` メソッドを使用します。
 
 ## 結論

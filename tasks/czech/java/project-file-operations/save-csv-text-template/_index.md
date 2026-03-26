@@ -116,14 +116,14 @@ A: Ano, můžete zakoupit dočasnou licenci na [zde](https://purchase.aspose.com
 ### Q: Je Aspose.Tasks pro Javu kompatibilní s různými operačními systémy?
 A: Ano, Aspose.Tasks pro Javu je kompatibilní s různými operačními systémy, včetně Windows, macOS a Linuxu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

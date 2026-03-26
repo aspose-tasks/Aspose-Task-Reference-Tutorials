@@ -95,13 +95,6 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ### Можно ли приобрести временную лицензию для Aspose.Tasks for Java?
 Да, временную лицензию можно приобрести [здесь](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-21  
@@ -109,3 +102,10 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
