@@ -1,21 +1,21 @@
 ---
-title: "How to Create Calendar – Make Standard Calendar in Aspose.Tasks"
-linktitle: Make Standard Calendar in Aspose.Tasks
+title: "Set Default Project Calendar in Aspose.Tasks – Guide"
+linktitle: Set Default Project Calendar in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: "Learn how to create calendar in Java using Aspose.Tasks. This step‑by‑step guide shows you how to create a standard MS Project calendar, add a standard calendar, and use Aspose.Tasks effectively."
+description: "Learn how to set default project calendar in Java using Aspose.Tasks and create MS Project calendar. This step‑by‑step guide shows you how to add a standard calendar and use Aspose.Tasks effectively."
 weight: 14
 url: /java/calendars/make-standard/
-date: 2025-12-03
+date: 2026-02-02
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Create Calendar – Make Standard Calendar in Aspose.Tasks
+# Set Default Project Calendar in Aspose.Tasks – Guide
 
 ## Introduction
-In this tutorial you’ll learn **how to create calendar** objects for Microsoft Project files by using the Aspose.Tasks for Java library. We’ll walk through creating a standard MS Project calendar, making it the default (standard) calendar, and saving the project file. By the end of the guide you’ll be able to integrate calendar creation into any Java‑based project‑management solution.
+In this tutorial you’ll learn how to **set default project calendar** objects for Microsoft Project files using the Aspose.Tasks for Java library. We’ll walk through creating a **standard MS Project calendar**, making it the default (standard) calendar, and saving the project file. By the end of the guide you’ll be able to integrate calendar creation into any Java‑based project‑management solution and even **create MS Project calendar** objects programmatically.
 
 ## Quick Answers
 - **What does “standard calendar” mean?** It’s the default working time definition used by tasks that don’t specify a custom calendar.  
@@ -29,6 +29,9 @@ A **standard calendar** defines the default working days and hours for a project
 
 ## Why Use Aspose.Tasks to Create a Calendar?
 Aspose.Tasks provides a pure‑Java API that lets you manipulate Project files without needing Microsoft Project installed. This makes it ideal for server‑side automation, CI pipelines, or any Java application that needs to **create MS Project calendar** objects programmatically.
+
+## How to set default project calendar with Aspose.Tasks
+Setting the default project calendar is as simple as creating a new calendar and promoting it to the standard calendar. The following steps walk you through the entire process.
 
 ## Prerequisites
 Before you start, ensure the following are in place:
@@ -65,14 +68,14 @@ Project project = new Project();
 ```
 
 ### Step 3: Define and Make the Calendar Standard
-Add a new calendar named **“My Cal”** and promote it to the standard calendar for the project.
+Add a new calendar named **“My Cal”** and promote it to the default project calendar.
 
 ```java
 Calendar cal1 = project.getCalendars().add("My Cal");
 Calendar.makeStandardCalendar(cal1);
 ```
 
-> **Pro tip:** The `makeStandardCalendar` method automatically marks the supplied calendar as the default for the project, which is exactly what you need when you want to **add standard calendar** functionality.
+> **Pro tip:** The `makeStandardCalendar` method automatically marks the supplied calendar as the default for the project, which is exactly what you need when you want to **set default project calendar** functionality.
 
 ### Step 4: Save the Project
 Persist the project (including the new calendar) to an XML file.
@@ -115,7 +118,7 @@ A: Yes, Aspose provides dedicated forums, ticket‑based support, and extensive 
 A: Yes, you can explore a free trial version available on the [website](https://purchase.aspose.com/buy), allowing you to evaluate all features before committing.
 
 ## Conclusion
-You now know **how to create calendar** objects in Aspose.Tasks for Java, make them the standard calendar, and save the resulting Project file. This capability lets you automate project scheduling, enforce consistent working times, and integrate Microsoft Project data directly into your Java applications.
+You now know **how to set default project calendar** objects in Aspose.Tasks for Java, make them the standard calendar, and save the resulting Project file. This capability lets you automate project scheduling, enforce consistent working times, and integrate Microsoft Project data directly into your Java applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -126,7 +129,7 @@ You now know **how to create calendar** objects in Aspose.Tasks for Java, make t
 
 ---
 
-**Last Updated:** 2025-12-03  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 

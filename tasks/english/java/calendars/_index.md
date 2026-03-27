@@ -2,10 +2,10 @@
 title: "How to Define Weekdays in MS Project Calendars – Aspose.Tasks Java"
 linktitle: Calendars
 second_title: Aspose.Tasks Java API
-description: "Learn how to define weekdays in MS Project calendars using Aspose.Tasks for Java. Step‑by‑step guide to customize working days, improve scheduling, and boost project management efficiency."
+description: "Learn how to define weekdays in MS Project calendars using Aspose.Tasks for Java. This step‑by‑step guide shows how to define weekdays, customize MS Project calendar, and boost project management efficiency."
 weight: 21
 url: /java/calendars/
-date: 2025-12-02
+date: 2026-02-02
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-02
 
 ## Introduction
 
-If you’re a Java developer looking to **define weekdays** in your project schedule, you’ve come to the right place. In this hub we gather all Aspose.Tasks for Java tutorials that show **how to define weekdays** inside MS Project calendars, adjust working hours, and keep your timelines crystal‑clear. Whether you’re building a new scheduling engine or tweaking an existing plan, mastering weekday definition gives you precise control over work‑day patterns, holidays, and custom shifts.
+If you’re a Java developer looking to **define weekdays** in your project schedule, you’ve come to the right place. In this guide, we’ll show you **how to define weekdays** in MS Project calendars using Aspose.Tasks for Java. In this hub we gather all Aspose.Tasks for Java tutorials that show **how to define weekdays** inside MS Project calendars, adjust working hours, and keep your timelines crystal‑clear. Whether you’re building a new scheduling engine or tweaking an existing plan, mastering weekday definition gives you precise control over work‑day patterns, holidays, and custom shifts.
 
 ## Quick Answers
 - **What is the primary purpose of defining weekdays?**  
@@ -30,14 +30,17 @@ If you’re a Java developer looking to **define weekdays** in your project sche
 - **Is there a sample project to start from?**  
   The “Define Weekdays in Calendar” tutorial linked below includes a ready‑to‑run example.
 
-## What is “defining weekdays” in MS Project?
+## How to Define Weekdays in MS Project Calendars
 Defining weekdays means specifying which days of the week are considered work days and assigning start/end times, overtime rules, or exceptions for each day. This information drives task scheduling, resource allocation, and critical‑path calculations throughout the project lifecycle.
 
-## Why use Aspose.Tasks for Java to define weekdays?
+## Why Use Aspose.Tasks for Java to Define Weekdays?
 - **Full API control** – No UI limitations; you can programmatically create, modify, or delete weekday entries.
 - **Cross‑platform** – Works on any JVM‑compatible environment, from desktop apps to cloud services.
 - **Precision** – Set different working times for each weekday, add exceptions for holidays, and synchronize calendars across multiple projects.
 - **Performance** – Manipulate large project files without loading the entire UI, ideal for automated pipelines.
+
+## Customize MS Project Calendar
+With Aspose.Tasks you can **customize MS Project calendar** settings beyond the default work week. Adjust daily working hours, add split shifts, or define unique calendars for special teams—all through simple Java code.
 
 ## Prerequisites
 - Java 8 or higher installed.
@@ -118,10 +121,9 @@ A: All recent versions (20.10 and later) support full weekday APIs. We recommend
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
