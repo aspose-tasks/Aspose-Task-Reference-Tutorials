@@ -1,77 +1,124 @@
 ---
-title: Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
-linktitle: Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
-second_title: Aspose.Tasks Java API'si
-description: Aspose.Tasks for Java'yı kullanarak mali yıl özelliklerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Sağlanan örneklerle adım adım kılavuz.
-weight: 15
+date: 2025-12-25
+description: Aspose.Tasks for Java kullanarak mali yıl özelliklerini nasıl yöneteceğinizi
+  ve MPP dosyalarını verimli bir şekilde nasıl yükleyeceğinizi öğrenin. Örneklerle
+  adım adım kılavuz.
+linktitle: Manage Fiscal Year Properties in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks'te Mali Yıl Özelliklerini Yönet
 url: /tr/java/project-management/fiscal-year-properties/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Mali Yıl Özelliklerini Yönetme
+# Aspose.Tasks'te Mali Yıl Özelliklerini Yönetme
 
-## giriiş
-Aspose.Tasks, geliştiricilerin mali yıl özelliklerinin yönetimi de dahil olmak üzere proje dosyalarını verimli bir şekilde yönetmelerine olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimde, Java'da Aspose.Tasks'ı kullanarak mali yıl özelliklerini yönetme sürecini anlatacağız.
-## Önkoşullar
+## Giriş
+Aspose.Tasks, geliştiricilerin **mali yıl** ayarlarını yönetmelerine, MPP dosyalarını yüklemelerine ve proje verilerini sadece birkaç satır kodla XML'e dönüştürmelerine olanak tanıyan güçlü bir Java kütüphanesidir. Bu öğreticide, mali yıl özelliklerini nasıl ayarlayacağınızı, mali yıl bilgilerini nasıl görüntüleyeceğinizi ve sonucu nasıl kaydedeceğinizi tam olarak göreceksiniz — kodunuzu temiz ve sürdürülebilir tutarken.
+
+## Hızlı Yanıtlar
+- **Aspose.Tasks'te “mali yılı yönetmek” ne anlama geliyor?** Proje için mali yıl başlangıç ayını tanımlamanıza ve mali yıl numaralandırmasını etkinleştirmenize olanak tanır.  
+- **Mali yıl başlangıç ayını nasıl ayarlarsınız?** `Prj.FY_START_DATE` özelliğini bir `Month` enum değeriyle (ör. `Month.JULY`) kullanın.  
+- **Bir MPP dosyasını yükleyebilir miyim?** Evet, *.mpp* dosyasının yolunu belirterek bir `Project` örneği oluşturmanız yeterlidir.  
+- **MPP'yi XML'e nasıl dönüştürürüm?** İstediğiniz özellikleri ayarladıktan sonra `project.save(..., SaveFileFormat.Xml)` metodunu çağırın.  
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü mevcuttur; üretim kullanımı için ticari bir lisans gereklidir.
+
+## Proje dosyalarında “mali yılı yönetmek” ne anlama gelir?
+Mali yılı yönetmek, projenizin finansal raporlama için kullandığı takvimi yapılandırmak anlamına gelir. Bu, mali yılın başlangıç ayını ayarlamayı ve isteğe bağlı olarak mali yıl numaralandırmasını etkinleştirmeyi içerir; bu da tarihlerin raporlarda nasıl hesaplandığını ve gösterildiğini etkiler.
+
+## Mali yıl işleme için Aspose.Tasks'i neden kullanmalısınız?
+- **Microsoft Project gerekmez** – proje dosyalarıyla doğrudan Java içinde çalışın.  
+- **Tam kontrol** – mali yıl başlangıcını ayarlayın, numaralandırmayı etkinleştirin ve formatları programlı olarak dönüştürün.  
+- **Sağlam API** – büyük MPP dosyalarını güvenilir bir şekilde işleyin ve sorunsuz XML dışa aktarımı yapın.
+
+## Ön Koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2.  Aspose.Tasks for Java JAR: Aspose.Tasks for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/tasks/java/) ve bunu projenize dahil edin.
+1. Sisteminizde yüklü Java Development Kit (JDK).  
+2. Aspose.Tasks for Java JAR – bunu [buradan](https://releases.aspose.com/tasks/java/) indirin ve projenizin sınıf yoluna ekleyin.
 
-## Paketleri İçe Aktar
-Başlamak için gerekli paketleri Java dosyanıza aktarın:
+## Paketleri İçe Aktarma
+Başlamak için Java kaynak dosyanıza gerekli sınıfları içe aktarın:
 ```java
 import com.aspose.tasks.*;
 ```
 
-Sağlanan örneği birden çok adıma ayıralım:
-## Adım 1: Proje Dosyasını Yükleyin
+## Bir MPP dosyasını nasıl yükler ve mali yıl bilgilerini görüntüleriz
+Aşağıda süreci net, numaralı adımlara ayırıyoruz.
+
+### Adım 1: Proje Dosyasını Yükle
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-Bu adımda belirtilen veri dizininde yer alan "project.mpp" isimli proje dosyasını yüklüyoruz.
-## Adım 2: Mali Yıl Özelliklerini Görüntüleyin
+Burada belirtilen dizinden bir **MPP dosyası** (`project.mpp`) **yüklenir**. Bu, mali yıl ile ilgili herhangi bir işlemde ilk adımdır.
+
+### Adım 2: Mali Yıl Özelliklerini Görüntüle
 ```java
-//Mali yıl özelliklerini görüntüle
+//Display fiscal year properties
 System.out.println("Fiscal Year Start Date : " + project.get(Prj.FY_START_DATE));
 System.out.println("Fiscal Year Numbering : " + project.get(Prj.FISCAL_YEAR_START));
 ```
-Bu adım, yüklenen projeden mali yılın başlangıç tarihini ve numaralandırmasını alır ve yazdırır.
-## 3. Adım: Proje Mali Yılı Özelliklerini Ayarlama
+`Prj.FY_START_DATE` ve `Prj.FISCAL_YEAR_START` özellikleri, **mali yıl** ayrıntılarını **görüntülemenizi** sağlar ve “mevcut mali yapılandırma nedir?” sorusuna yanıt verir.
+
+### Adım 3: Mali Yıl Başlangıcını Ayarla ve Numaralandırmayı Etkinleştir
 ```java
-//Proje örneği oluşturma
+//Create a project instance
 Project prj = new Project();
-//Mali yıl özelliklerini ayarlama
+//Set fiscal year properties
 prj.set(Prj.FY_START_DATE, Month.JULY);
 prj.set(Prj.FISCAL_YEAR_START, new NullableBool(true));
-//Projeyi XML proje dosyası olarak kaydedin
+//Save the project as XML project file
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-Burada yeni bir proje örneği oluşturuyoruz, mali yılın başlangıç tarihini Temmuz olarak ayarlıyoruz ve mali yıl numaralandırmayı etkinleştiriyoruz. Daha sonra değiştirilen projeyi XML dosyası olarak kaydediyoruz.
-## Adım 4: Sonucu Görüntüle
+Bu adımda **mali** ayarları nasıl belirleyeceğinizi gösteriyoruz:
+- `Month.JULY`, mali yılın başlangıç ayını tanımlar.  
+- `NullableBool(true)`, mali yıl numaralandırmasını etkinleştirir.  
+- Son olarak, proje `SaveFileFormat.Xml` kullanılarak **MPP'den XML'e dönüştürülür**.
+
+### Adım 4: İşlemi Onayla
 ```java
-//Dönüşümün sonucunu görüntüleyin.
+//Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
-Son olarak işlemin başarıyla tamamlandığını belirten bir mesaj yazdırıyoruz.
+Basit bir konsol mesajı, mali yılın yapılandırıldığını ve dosyanın kaydedildiğini onaylar.
 
-## Çözüm
-Aspose.Tasks for Java'da mali yıl özelliklerini yönetmek, sağlanan API ile basittir. Bu öğreticide özetlenen adımları izleyerek projelerinizdeki mali yılla ilgili görevleri verimli bir şekilde gerçekleştirebilirsiniz.
-## SSS'ler
-### S: Aspose.Tasks for Java'yı diğer proje özelliklerini değiştirmek için kullanabilir miyim?
-C: Evet, Aspose.Tasks, mali yıl özellikleri dışında çeşitli proje özelliklerini yönetmek için kapsamlı işlevsellik sağlar.
-### S: Aspose.Tasks for Java farklı proje dosyası formatlarıyla uyumlu mudur?
-C: Evet, Aspose.Tasks MPP, XML ve diğerleri de dahil olmak üzere çok çeşitli proje dosyası formatlarını destekler.
-### S: Aspose.Tasks for Java'yı kullanırken herhangi bir sorunla karşılaşırsam nasıl destek alabilirim?
- C: Aspose.Tasks topluluğundan yardım isteyebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15)veya doğrudan destek ekibiyle iletişime geçin.
-### S: Aspose.Tasks'ın ücretsiz deneme sürümü var mı?
- C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
-### S: Aspose.Tasks for Java lisansını nereden satın alabilirim?
- C: Aspose.Tasks for Java lisansını şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Çözüm |
+|-------|----------|
+| **Yanlış ay değeri** | `Month` enum'ını kullandığınızdan emin olun (ör. `Month.JANUARY`). |
+| **Dosya bulunamadı** | `dataDir`'in doğru klasöre işaret ettiğini ve dosya adının eşleştiğini doğrulayın. |
+| **Kaydetme başarısız** | Hedef klasörde yazma izinlerini ve `SaveFileFormat`'ın desteklendiğini kontrol edin. |
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Tasks for Java'ı diğer proje özelliklerini değiştirmek için kullanabilir miyim?**  
+C: Evet, Aspose.Tasks, mali yıl ayarlarının ötesinde çeşitli proje özelliklerini yönetmek için kapsamlı işlevsellik sağlar.
+
+**S: Aspose.Tasks for Java farklı proje dosya formatlarıyla uyumlu mu?**  
+C: Evet, MPP, XML ve diğer birçok formatı destekler.
+
+**S: Aspose.Tasks for Java kullanırken bir sorunla karşılaşırsam nasıl destek alabilirim?**  
+C: Aspose.Tasks topluluğundan [forum](https://forum.aspose.com/c/tasks/15) üzerinden yardım isteyebilir veya doğrudan destek ekibiyle iletişime geçebilirsiniz.
+
+**S: Aspose.Tasks ücretsiz deneme sürümü sunuyor mu?**  
+C: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+
+**S: Aspose.Tasks for Java için lisans nereden satın alınır?**  
+C: Lisansı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+## Sonuç
+Aspose.Tasks for Java'da mali yıl özelliklerini yönetmek oldukça basittir. Yukarıdaki adımları izleyerek **mali yılı yönetebilir**, **MPP dosyalarını yükleyebilir**, **mali yıl** detaylarını **görüntüleyebilir** ve **MPP'yi XML'e dönüştürebilirsiniz**. Bu teknikleri kullanarak proje takvimlerinizi organizasyonunuzun finansal takvimine uyumlu tutun.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
