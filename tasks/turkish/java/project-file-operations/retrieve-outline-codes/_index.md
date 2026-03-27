@@ -1,5 +1,5 @@
 ---
-date: 2025-12-20
+date: 2026-03-27
 description: Aspose.Tasks for Java kullanarak MS Project taslak kodlarını programlı
   olarak nasıl alacağınızı öğrenin. Proje yönetimi yeteneklerinizi geliştirin.
 linktitle: Retrieve Outline Codes in Aspose.Tasks
@@ -13,35 +13,41 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile MS Project Outline Kodlarını Almak
+# MS Project Taslak Kodlarını Aspose.Tasks ile Almak
 
 ## Giriş
-Bu öğreticide, **ms project outline kodlarını** Aspose.Tasks for Java kullanarak nasıl alacağınızı keşfedeceksiniz. MS Project'teki outline kodları, görevleri, kaynakları ve atamaları sınıflandırmanın güçlü bir yolunu sunar; bunlara programlı olarak erişmek, özel raporlama, otomasyon veya entegrasyon çözümleri oluşturmanıza olanak tanır. Kendi projenize kopyalayabileceğiniz eksiksiz, adım adım bir örnek üzerinden ilerleyeceğiz.
+Bu öğreticide, Aspose.Tasks for Java kullanarak **ms project outline kodlarını nasıl alacağınızı** keşfedeceksiniz. MS Project'teki outline kodları, görevleri, kaynakları ve atamaları kategorize etmenin güçlü bir yolunu sunar ve bunlara programlı olarak erişmek, özel raporlama, otomasyon veya entegrasyon çözümleri oluşturmanıza olanak tanır. Kendi projenize kopyalayabileceğiniz eksiksiz, adım adım bir örnek üzerinden ilerleyeceğiz.
 
 ## Hızlı Yanıtlar
-- **Kod ne işe yarar?** Bir Project dosyasını yükler ve her outline kod tanımını, maskelerini ve değerlerini yazdırır.  
-- **Hangi kütüphane gerekir?** Aspose.Tasks for Java (herhangi bir yeni sürüm).  
-- **Lisans gerekli mi?** Geliştirme için deneme sürümü çalışır; üretim için tam lisans gerekir.  
-- **Hangi Java sürümü desteklenir?** Java 8 ve üzeri.  
-- **Kodları aldıktan sonra değiştirebilir miyim?** Evet – aynı API ile outline kodlarını ekleyebilir, düzenleyebilir veya silebilirsiniz.
+- **Kod ne yapıyor?** Bir Project dosyasını yükler ve her outline kod tanımını, maskelerini ve değerlerini yazdırır.  
+- **Hangi kütüphane gerekli?** Aspose.Tasks for Java (herhangi bir güncel sürüm).  
+- **Lisans gerekli mi?** Geliştirme için bir deneme sürümü çalışır; üretim için tam lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
+- **Kodları aldıktan sonra değiştirebilir miyim?** Evet – aynı API, outline kodlarını eklemenize, düzenlemenize veya silmenize olanak tanır.
 
 ## ms project outline kodları nedir?
-Outline kodları, proje yöneticilerinin varsayılan hiyerarşinin ötesinde görevleri gruplandırıp filtrelemesini sağlayan özel alanlardır. Basit sayısal değerler, metinler veya kuruluş seviyesinde tanımlanan kurumsal özel kodlar olabilir. Bu kodları okuyarak panolar oluşturabilir, verileri dışa aktarabilir veya adlandırma kurallarını otomatik olarak uygulayabilirsiniz.
+Outline kodları, proje yöneticilerinin varsayılan hiyerarşinin ötesinde görevleri gruplandırıp filtrelemesini sağlayan özel alanlardır. Basit sayısal değerler, metin dizileri veya organizasyon seviyesinde tanımlanan kurumsal çapta özel kodlar olabilirler. Bu kodları okuyarak panoları besleyebilir, veri dışa aktarabilir veya adlandırma kurallarını otomatik olarak uygulayabilirsiniz.
 
 ## Aspose.Tasks ile ms project outline kodlarını neden almalı?
 - **Otomasyon:** Raporlar oluşturun veya manuel dışa aktarım olmadan iş akışlarını tetikleyin.  
 - **Entegrasyon:** Outline kodlarını ERP, PPM veya BI araçlarıyla senkronize edin.  
-- **Özelleştirme:** Kod değerlerine dayalı iş kuralları uygulayın (ör. maliyet tahsisi).  
+- **Özelleştirme:** Kod değerlerine dayalı iş kurallarını uygulayın (ör. maliyet tahsisi).  
 - **Çapraz platform:** Windows, Linux ve macOS'ta çalışır, Microsoft Project UI'sinden bağımsızdır.
 
+## Outline kodları için MPP dosyaları nasıl okunur?
+MPP (Microsoft Project) dosyasını okumak, outline kodlarını çıkarmanın ilk adımıdır. Aspose.Tasks dosya formatını soyutlar, böylece ikili yapıyı kendiniz ayrıştırmanız gerekmez. `Project` sınıfı ağır işleri halleder ve gerçekten ihtiyacınız olan verilere odaklanmanızı sağlar.
+
+## MS Project'teki özel alanlar
+Outline kodları, MS Project'te bir **özel alan** türüdür. Standart alanlar tarihleri, süreleri ve kaynakları kapsarken, özel alanlar organizasyona özgü bilgileri depolamanıza olanak tanır. Aspose.Tasks aracılığıyla bunlara erişmek, aynı programatik esnekliği sağlar.
+
 ## Önkoşullar
-Başlamadan önce aşağıdaki önkoşulların kurulu olduğundan emin olun:
+Başlamadan önce, aşağıdaki önkoşulların kurulu olduğundan emin olun:
 
-### 1. Java Geliştirme Ortamı
-Sisteminizde Java Development Kit (JDK) yüklü olmalı. JDK'yı Oracle web sitesinden indirip kurabilirsiniz.
+### 1. Java Development Environment
+Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. JDK'yı Oracle web sitesinden indirip kurabilirsiniz.
 
-### 2. Aspose.Tasks Kütüphanesi
-Aspose.Tasks kütüphanesini Java projenize dahil edin. Kütüphaneyi [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/) adresinden indirebilirsiniz.
+### 2. Aspose.Tasks Library
+Aspose.Tasks kütüphanesini Java projenize indirin ve ekleyin. Kütüphaneyi [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/) adresinden indirebilirsiniz.
 
 ## Paketleri İçe Aktarma
 İlk olarak, Java kodunuzda Aspose.Tasks'ten gerekli paketleri içe aktarın:
@@ -54,20 +60,20 @@ import com.aspose.tasks.Project;
 
 Şimdi sağlanan örnek kodu birden fazla adıma ayıralım:
 
-## Adım 1: Projeyi Yükleme
+## Adım 1: Projeyi Yükle
 ```java
 String projectName = "ProjectFile.mpp";
 Project project = new Project(projectName);
 ```
-Bu adımda, verilen dosya adıyla Microsoft Project dosyasını bir `Project` nesnesine yüklüyoruz.
+Bu adımda, verilen dosya adını kullanarak Microsoft Project dosyasını bir `Project` nesnesine yüklüyoruz.
 
-## Adım 2: Outline Kodlarını Getirme
+## Adım 2: Outline Kodlarını Al
 ```java
 for (OutlineCodeDefinition ocd : project.getOutlineCodes()) {
 ```
-Projede tanımlı her outline kod tanımını döngüyle inceliyoruz.
+Projede bulunan her outline kod tanımı üzerinde döngü yapıyoruz.
 
-## Adım 3: Outline Kod Özelliklerine Erişim
+## Adım 3: Outline Kod Özelliklerine Erişme
 ```java
 System.out.println("Alias = " + ocd.getAlias());
 System.out.println("Field Id = " + ocd.getFieldId());
@@ -75,7 +81,7 @@ System.out.println("Field Name = " + ocd.getFieldName());
 ```
 Alias, Field ID ve Field Name gibi outline kod tanımının çeşitli özelliklerini alıp yazdırıyoruz.
 
-## Adım 4: Kurumsal Özel Kodu Kontrol Etme
+## Adım 4: Kurumsal Özel Kodu Kontrol Et
 ```java
 if (ocd.getEnterprise()) {
     System.out.println("It is an enterprise custom outline code.");
@@ -83,18 +89,18 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-Outline kodunun kurumsal bir özel kod olup olmadığını kontrol ediyor ve sonucu buna göre yazdırıyoruz.
+Outline kodunun kurumsal bir özel kod olup olmadığını kontrol ediyor ve sonuca göre yazdırıyoruz.
 
-## Adım 5: Outline Kod Maskelerini Görüntüleme
+## Adım 5: Outline Kod Maskelerini Göster
 ```java
 for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Level of a mask = " + m1.getLevel());
     System.out.println("Mask = " + m1.toString());
 }
 ```
-Outline koduna bağlı her maskeyi dolaşıp seviyesini ve mask değerini yazdırıyoruz.
+Outline koduna bağlı her maskeyi döngüyle işleyip seviyesini ve mask değerini yazdırıyoruz.
 
-## Adım 6: Outline Kod Değerlerini Görüntüleme
+## Adım 6: Outline Kod Değerlerini Göster
 ```java
 for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Description of outline value = " + v1.getDescription());
@@ -103,39 +109,39 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-Her outline kod değerini dolaşıp açıklamasını, değer kimliğini, değerini ve tipini yazdırıyoruz.
+Her outline kod değerini döngüyle işleyip açıklamasını, değer ID'sini, değerini ve tipini yazdırıyoruz.
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın Sorunlar ve Çözümler
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
 | **Çıktı yok** | Proje dosyası yolu hatalı | `projectName`'in geçerli bir `.mpp` dosyasına işaret ettiğini doğrulayın. |
-| **Null değerler** | Outline kod dosyada tanımlı değil | Proje dosyasının gerçekten outline kodları içerdiğini (MS Project UI'da kontrol edin) teyit edin. |
-| **LicenseException** | Uygun aktivasyon olmadan deneme sürümü kullanılıyor | `License license = new License(); license.setLicense("Aspose.Tasks.lic");` ile geçici veya tam lisans uygulayın. |
+| **Null değerler** | Outline kodu dosyada tanımlı değil | Project dosyasının gerçekten outline kodları içerdiğinden emin olun (MS Project UI'da kontrol edin). |
+| **LicenseException** | Uygun aktivasyon olmadan deneme sürümü kullanılıyor | Geçici veya tam lisansı şu şekilde uygulayın: `License license = new License(); license.setLicense("Aspose.Tasks.lic");` |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Tasks for Java kullanarak bir Project dosyasındaki outline kodlarını değiştirebilir miyim?**  
-C: Evet, Aspose.Tasks for Java programlı olarak outline kodlarını değiştirmek için API'ler sunar. Aynı `Project` nesnesiyle tanımları ekleyebilir, düzenleyebilir veya silebilirsiniz.
+**Q: Aspose.Tasks for Java'ı bir Project dosyasındaki outline kodlarını değiştirmek için kullanabilir miyim?**  
+A: Evet, Aspose.Tasks for Java, outline kodlarını programlı olarak değiştirmek için API'ler sağlar. Aynı `Project` nesnesini kullanarak tanımları ekleyebilir, düzenleyebilir veya silebilirsiniz.
 
-**S: Aspose.Tasks for Java için bir deneme sürümü mevcut mu?**  
-C: Evet, Aspose.Tasks for Java'ın ücretsiz deneme sürümünü [Aspose.Tasks web sitesinden](https://releases.aspose.com/) indirebilirsiniz.
+**Q: Aspose.Tasks for Java için bir deneme sürümü mevcut mu?**  
+A: Evet, Aspose.Tasks for Java'ın ücretsiz deneme sürümünü [Aspose.Tasks web sitesinden](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Aspose.Tasks for Java için teknik destek nasıl alınır?**  
-C: Teknik desteği, [Aspose.Tasks forumunda](https://forum.aspose.com/c/tasks/15) sorularınızı paylaşarak alabilirsiniz.
+**Q: Aspose.Tasks for Java için teknik destek nasıl alabilirim?**  
+A: Teknik desteği, [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret ederek ve sorularınızı orada göndererek alabilirsiniz.
 
-**S: Aspose.Tasks for Java için geçici bir lisans satın alabilir miyim?**  
-C: Evet, Aspose.Tasks for Java için geçici lisansı [satın alma sayfasından](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+**Q: Aspose.Tasks for Java için geçici bir lisans satın alabilir miyim?**  
+A: Evet, Aspose.Tasks for Java için geçici lisansı [satın alma sayfasından](https://purchase.aspose.com/temporary-license/) satın alabilirsiniz.
 
-**S: Aspose.Tasks for Java'ın tam belgelerine nereden ulaşabilirim?**  
-C: Detaylı bilgi için [belgelere](https://reference.aspose.com/tasks/java/) göz atabilirsiniz.
+**Q: Aspose.Tasks for Java için tam belgeleri nerede bulabilirim?**  
+A: Aspose.Tasks for Java kullanımına ilişkin detaylı bilgi için [belgelere](https://reference.aspose.com/tasks/java/) başvurabilirsiniz.
 
 ## Sonuç
-Bu öğreticide, Aspose.Tasks for Java kullanarak **ms project outline kodlarını** nasıl alacağınızı öğrendik. Sağlanan adımları izleyerek Java uygulamalarınızda outline kodlarına etkili bir şekilde erişebilir ve bunları manipüle edebilir, böylece özel raporlama, otomasyon ve diğer kurumsal sistemlerle entegrasyon gibi gelişmiş proje yönetimi yeteneklerini etkinleştirebilirsiniz.
+Bu öğreticide, Aspose.Tasks for Java kullanarak **ms project outline kodlarını** nasıl alacağımızı öğrendik. Sağlanan adımları izleyerek, Java uygulamalarınızda outline kodlarına etkili bir şekilde erişebilir ve bunları manipüle edebilir, özel raporlama, otomasyon ve diğer kurumsal sistemlerle entegrasyon gibi gelişmiş proje yönetimi yeteneklerini etkinleştirebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-03-27  
+**Test Edilen Versiyon:** Aspose.Tasks for Java (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

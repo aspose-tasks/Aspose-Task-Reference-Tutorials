@@ -1,6 +1,6 @@
 ---
-date: 2025-12-20
-description: Aspose.Tasks for Java を使用して、MS Project のアウトラインコードをプログラムで取得する方法を学びましょう。プロジェクト管理能力を向上させましょう。
+date: 2026-03-27
+description: Aspose.Tasks for Java を使用して、MS Project のアウトラインコードをプログラムで取得する方法を学び、プロジェクト管理能力を向上させましょう。
 linktitle: Retrieve Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.TasksでMS Projectのアウトラインコードを取得する
@@ -12,37 +12,43 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks で MS Project のアウトラインコードを取得する
+# Aspose.TasksでMS Projectアウトラインコードを取得する
 
-## はじめに
-このチュートリアルでは、Aspose.Tasks for Java を使用して **MS Project のアウトラインコードを取得する方法** を紹介します。MS Project のアウトラインコードは、タスク、リソース、割り当てを分類する強力な手段であり、プログラムからアクセスすることでカスタムレポートや自動化、統合ソリューションを構築できます。自分のプロジェクトにコピーして使用できる、完全なステップバイステップの例を一緒に見ていきましょう。
+## Introduction
+このチュートリアルでは、Aspose.Tasks for Java を使用して **MS Project アウトラインコードを取得する方法** を学びます。MS Project のアウトラインコードは、タスク、リソース、割り当てを分類する強力な手段であり、プログラムからアクセスすることでカスタムレポート、Automation、統合ソリューションを構築できます。自分のプロジェクトにコピーできる完全なステップバイステップの例を順に解説します。
 
-## クイック回答
-- **このコードは何をするのですか？** プロジェクト ファイルを読み込み、すべてのアウトラインコード定義、そのマスク、値を出力します。  
-- **必要なライブラリは？** Aspose.Tasks for Java（最新バージョン）。  
-- **ライセンスは必要ですか？** 開発段階はトライアルで動作しますが、本番環境ではフル ライセンスが必要です。  
-- **対応している Java バージョンは？** Java 8 以降。  
-- **取得後にコードを変更できますか？** はい。同じ API でアウトラインコードの追加、編集、削除が可能です。
+## Quick Answers
+- **What does the code do?** プロジェクト ファイルを読み込み、すべてのアウトラインコード定義、そのマスク、値を出力します。  
+- **Which library is required?** Aspose.Tasks for Java（最新バージョン可）。  
+- **Do I need a license?** 開発目的ならトライアルで動作しますが、本番環境ではフル ライセンスが必要です。  
+- **What Java version is supported?** Java 8 以上。  
+- **Can I modify the codes after retrieving them?** はい。同じ API を使ってアウトラインコードの追加、編集、削除が可能です。
 
-## MS Project のアウトラインコードとは？
-アウトラインコードは、プロジェクト マネージャーがデフォルトの階層構造を超えてタスクをグループ化・フィルタリングできるカスタム フィールドです。数値、文字列、あるいは組織全体で定義されたエンタープライズ カスタムコードなど、さまざまな形式が利用できます。これらのコードを読み取ることで、ダッシュボードの駆動、データのエクスポート、命名規則の自動適用などが実現できます。
+## What are ms project outline codes?
+アウトラインコードは、プロジェクト マネージャーがデフォルトの階層構造を超えてタスクをグループ化・フィルタリングできるカスタム フィールドです。数値、文字列、あるいは組織全体で定義されたエンタープライズ カスタムコードなど、さまざまな形式が利用できます。これらのコードを読み取ることで、ダッシュボードの生成、データエクスポート、命名規則の自動適用などが可能になります。
 
-## なぜ Aspose.Tasks で MS Project のアウトラインコードを取得するのか？
-- **自動化:** 手動エクスポートなしでレポート生成やワークフローのトリガーが可能。  
-- **統合:** ERP、PPM、BI ツールとアウトラインコードを同期。  
-- **カスタマイズ:** コード値に基づくビジネス ルールの適用（例: コスト配分）。  
-- **クロスプラットフォーム:** Windows、Linux、macOS で動作し、Microsoft Project の UI に依存しません。
+## Why retrieve ms project outline codes with Aspose.Tasks?
+- **Automation:** 手動エクスポートなしでレポート作成やワークフローのトリガーが可能。  
+- **Integration:** ERP、PPM、BI ツールとアウトラインコードを同期。  
+- **Customization:** コード値に基づくビジネス ルール（例：コスト配分）を適用。  
+- **Cross‑platform:** Windows、Linux、macOS 上で動作し、Microsoft Project の UI に依存しません。
 
-## 前提条件
-開始する前に、以下の環境が整っていることを確認してください。
+## How to read MPP files for outline codes?
+MPP（Microsoft Project）ファイルの読み取りは、アウトラインコード抽出の第一歩です。Aspose.Tasks はファイル形式を抽象化するため、バイナリ構造を自分で解析する必要はありません。`Project` クラスが重い処理を担い、必要なデータに集中できます。
 
-### 1. Java 開発環境
-システムに Java Development Kit（JDK）がインストールされていることを確認します。Oracle の公式サイトから JDK をダウンロードしてインストールできます。
+## Custom fields in MS Project
+アウトラインコードは MS Project の **カスタム フィールド** の一種です。標準フィールドが日付や期間、リソースを扱うのに対し、カスタム フィールドは組織固有の情報を保存できます。Aspose.Tasks を通じてこれらにアクセスすれば、プログラムから同様の柔軟性が得られます。
 
-### 2. Aspose.Tasks ライブラリ
+## Prerequisites
+開始する前に、以下の前提条件が整っていることを確認してください。
+
+### 1. Java Development Environment
+システムに Java Development Kit（JDK）がインストールされていることを確認します。Oracle の公式サイトから JDK をダウンロードしてインストールしてください。
+
+### 2. Aspose.Tasks Library
 Aspose.Tasks ライブラリをダウンロードし、Java プロジェクトに組み込みます。ライブラリは [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/) から入手できます。
 
-## パッケージのインポート
+## Import Packages
 まず、Java コードで Aspose.Tasks の必要なパッケージをインポートします:
 ```java
 import com.aspose.tasks.OutlineCodeDefinition;
@@ -53,28 +59,28 @@ import com.aspose.tasks.Project;
 
 次に、提供されたサンプルコードを複数のステップに分解して説明します。
 
-## ステップ 1: プロジェクトのロード
+## Step 1: Load the Project
 ```java
 String projectName = "ProjectFile.mpp";
 Project project = new Project(projectName);
 ```
-このステップでは、指定したファイル名で Microsoft Project ファイルを `Project` オブジェクトにロードします。
+このステップでは、指定されたファイル名を使って Microsoft Project ファイルを `Project` オブジェクトにロードします。
 
-## ステップ 2: アウトラインコードの取得
+## Step 2: Retrieve Outline Codes
 ```java
 for (OutlineCodeDefinition ocd : project.getOutlineCodes()) {
 ```
 プロジェクト内の各アウトラインコード定義を列挙します。
 
-## ステップ 3: アウトラインコード プロパティへのアクセス
+## Step 3: Access Outline Code Properties
 ```java
 System.out.println("Alias = " + ocd.getAlias());
 System.out.println("Field Id = " + ocd.getFieldId());
 System.out.println("Field Name = " + ocd.getFieldName());
 ```
-エイリアス、フィールド ID、フィールド名など、アウトラインコード定義のさまざまなプロパティを取得して表示します。
+アウトラインコード定義の Alias、Field ID、Field Name などのプロパティを取得し、出力します。
 
-## ステップ 4: エンタープライズ カスタム コードの確認
+## Step 4: Check Enterprise Custom Code
 ```java
 if (ocd.getEnterprise()) {
     System.out.println("It is an enterprise custom outline code.");
@@ -82,18 +88,18 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-アウトラインコードがエンタープライズ カスタムコードかどうかをチェックし、結果を出力します。
+アウトラインコードがエンタープライズ カスタムコードかどうかを確認し、結果を表示します。
 
-## ステップ 5: アウトラインコード マスクの表示
+## Step 5: Display Outline Code Masks
 ```java
 for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Level of a mask = " + m1.getLevel());
     System.out.println("Mask = " + m1.toString());
 }
 ```
-アウトラインコードに関連付けられた各マスクを走査し、レベルとマスク値を表示します。
+アウトラインコードに関連付けられた各マスクを走査し、レベルとマスク値を出力します。
 
-## ステップ 6: アウトラインコード 値の表示
+## Step 6: Display Outline Code Values
 ```java
 for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Description of outline value = " + v1.getDescription());
@@ -102,40 +108,40 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-各アウトラインコード値を走査し、説明、値 ID、実際の値、タイプを出力します。
+各アウトラインコード値を走査し、説明、Value ID、値、タイプを出力します。
 
-## よくある問題と対策
-| 問題 | 原因 | 対策 |
-|------|------|------|
-| **出力がない** | プロジェクト ファイルのパスが間違っている | `projectName` が有効な `.mpp` ファイルを指しているか確認してください。 |
-| **null 値が出る** | ファイルにアウトラインコードが定義されていない | MS Project の UI で実際にアウトラインコードが存在するか確認してください。 |
-| **LicenseException** | トライアル版を適切にアクティベートしていない | `License license = new License(); license.setLicense("Aspose.Tasks.lic");` で一時またはフル ライセンスを適用してください。 |
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **No output** | Project file path incorrect | `projectName` が有効な `.mpp` ファイルを指しているか確認してください。 |
+| **Null values** | Outline code not defined in the file | プロジェクト ファイルにアウトラインコードが実際に含まれているか（MS Project UI で確認）を確認してください。 |
+| **LicenseException** | Using trial without proper activation | `License license = new License(); license.setLicense("Aspose.Tasks.lic");` で一時またはフル ライセンスを適用してください。 |
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: Aspose.Tasks for Java を使って Project ファイル内のアウトラインコードを変更できますか？**  
-A: はい。Aspose.Tasks for Java はアウトラインコードをプログラムから変更できる API を提供しています。同じ `Project` オブジェクトを使って定義の追加、編集、削除が可能です。
+**Q: Can I use Aspose.Tasks for Java to modify outline codes in a Project file?**  
+A: はい、Aspose.Tasks for Java はアウトラインコードをプログラムから変更する API を提供しています。同じ `Project` オブジェクトを使って定義の追加、編集、削除が可能です。
 
-**Q: Aspose.Tasks for Java のトライアル版はありますか？**  
-A: はい。無料トライアル版は [Aspose.Tasks website](https://releases.aspose.com/) からダウンロードできます。
+**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+A: はい、[Aspose.Tasks website](https://releases.aspose.com/) から無料トライアル版をダウンロードできます。
 
-**Q: Aspose.Tasks for Java のテクニカルサポートはどこで受けられますか？**  
-A: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) にアクセスし、質問を投稿してください。
+**Q: How can I get technical support for Aspose.Tasks for Java?**  
+A: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) にアクセスし、質問を投稿することで技術サポートを受けられます。
 
-**Q: Aspose.Tasks for Java の一時ライセンスを購入できますか？**  
-A: はい。[purchase page](https://purchase.aspose.com/temporary-license/) から一時ライセンスを購入できます。
+**Q: Can I purchase a temporary license for Aspose.Tasks for Java?**  
+A: はい、[purchase page](https://purchase.aspose.com/temporary-license/) から一時ライセンスを購入できます。
 
-**Q: Aspose.Tasks for Java の完全なドキュメントはどこにありますか？**  
+**Q: Where can I find the complete documentation for Aspose.Tasks for Java?**  
 A: 詳細な情報は [documentation](https://reference.aspose.com/tasks/java/) を参照してください。
 
-## 結論
-このチュートリアルでは、Aspose.Tasks for Java を使用して **MS Project のアウトラインコードを取得する方法** を学びました。示した手順に従うことで、Java アプリケーションからアウトラインコードにアクセス・操作でき、カスタムレポート、自動化、他のエンタープライズ システムとの統合といった高度なプロジェクト管理機能を実現できます。
+## Conclusion
+このチュートリアルでは、Aspose.Tasks for Java を使用して **MS Project アウトラインコードを取得する方法** を学びました。示した手順に従うことで、Java アプリケーションからアウトラインコードに効果的にアクセス・操作でき、カスタムレポート、Automation、他のエンタープライズ システムとの統合といった高度なプロジェクト管理機能を実現できます。
 
 ---
 
-**最終更新日:** 2025-12-20  
-**テスト環境:** Aspose.Tasks for Java 24.12（執筆時点の最新）  
-**作者:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
