@@ -1,24 +1,24 @@
 ---
-title: How to create SVG from MPP in Java using Aspose.Tasks
+title: How to export MPP to SVG in Java using Aspose.Tasks
 linktitle: Save As SVG in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to create SVG from MPP files in Java and save project as SVG using the Aspose.Tasks library. Step‑by‑step guide with code examples.
+description: Learn how to export MPP to SVG in Java with Aspose.Tasks. Step‑by‑step guide, code examples and tips to save a project as SVG quickly.
 weight: 18
 url: /java/project-file-operations/save-as-svg/
-date: 2025-12-21
+date: 2026-03-27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create SVG from MPP in Java
+# How to export MPP to SVG in Java
 
-## Introduction
-In this tutorial you’ll learn how to **create SVG from MPP** files using Aspose.Tasks for Java. Converting a Microsoft Project (MPP) file to scalable vector graphics (SVG) lets you embed high‑quality, resolution‑independent diagrams directly into web pages, reports, or dashboards. We'll walk through the required setup, show the exact code you need, and explain each step so you can confidently **save project as SVG** in your own applications.
+## Export MPP to SVG – Introduction
+In this tutorial you’ll learn how to **export MPP to SVG** files using Aspose.Tasks for Java. Converting a Microsoft Project (MPP) file to a Scalable Vector Graphics (SVG) image lets you embed high‑quality, resolution‑independent diagrams directly into web pages, reports, or dashboards. We'll walk through the required setup, show the exact code you need, and explain each step so you can confidently **save project as SVG** in your own applications.
 
 ## Quick Answers
-- **What does “create SVG from MPP” mean?**  
+- **What does “export MPP to SVG” mean?**  
   It converts a Microsoft Project file (.mpp) into an SVG image that can be displayed on any browser without loss of quality.  
 - **Which library handles the conversion?**  
   Aspose.Tasks for Java provides a single‑line `save` method to perform the conversion.  
@@ -29,14 +29,14 @@ In this tutorial you’ll learn how to **create SVG from MPP** files using Aspos
 - **How long does the conversion take?**  
   Typically less than a second for standard project files.
 
-## What is “create SVG from MPP”?
-Creating an SVG from an MPP file means exporting the visual representation of a project schedule—tasks, timelines, and resources—into the Scalable Vector Graphics format. SVG is XML‑based, lightweight, and scales perfectly on high‑resolution displays.
+## What is “export MPP to SVG”?
+Exporting MPP to SVG means taking the visual representation of a project schedule—tasks, timelines, and resources—and writing it out as an SVG file. SVG is XML‑based, lightweight, and scales perfectly on high‑resolution displays.
 
-## Why use Aspose.Tasks to save project as SVG?
+## Why export MPP to SVG with Aspose.Tasks?
 - **No Microsoft Project installation required** – the library works independently.  
 - **Full fidelity** – charts, Gantt bars, and milestones retain their styles.  
 - **Cross‑platform** – run the code on Windows, Linux, or macOS.  
-- **Easy integration** – one‑line API call fits naturally into existing Java pipelines.
+- **One‑line API** – a single call saves the project as SVG, fitting naturally into existing Java pipelines.
 
 ## Prerequisites
 - **Java Development Kit (JDK)** – version 8 or later. Download from the Oracle website.  
@@ -73,13 +73,18 @@ Project project = new Project(dataDir + "HomeMovePlan.mpp");
 This line reads *HomeMovePlan.mpp* from the folder you defined earlier.
 
 ## Step 3: Save the Project as SVG
-Now you can **save project as SVG** with a single command.
+Now you can **export MPP to SVG** with a single command.
 
 ```java
 project.save(dataDir + "project5.svg", SaveFileFormat.Svg);
 ```
 
 The method writes `project5.svg` to the same directory. The resulting SVG can be opened in any modern browser or embedded directly in HTML.
+
+## Common Use Cases
+- **Project dashboards** – embed live Gantt charts in web portals without requiring the client to install Microsoft Project.  
+- **Automated reporting** – generate SVG images on the fly for PDF or HTML reports.  
+- **Cross‑team collaboration** – share a visual schedule with stakeholders who only need a browser to view it.
 
 ## Common Issues and Solutions
 | Issue | Reason | Fix |
@@ -106,11 +111,11 @@ A: Yes, a free trial is available **[here](https://purchase.aspose.com/buy)**.
 A: Visit the community forum **[here](https://forum.aspose.com/c/tasks/15)** to ask questions and share feedback.
 
 ## Conclusion
-You now know how to **create SVG from MPP** files in Java and efficiently **save project as SVG** using Aspose.Tasks. This capability lets you integrate rich project visualizations into web portals, reporting dashboards, or any place where scalable graphics are needed. Experiment with `SvgOptions` to fine‑tune the output, and you’ll have a powerful tool in your development toolkit.
+You now know how to **export MPP to SVG** in Java and efficiently **save project as SVG** using Aspose.Tasks. This capability lets you integrate rich project visualizations into web portals, reporting dashboards, or any place where scalable graphics are needed. Experiment with `SvgOptions` to fine‑tune the output, and you’ll have a powerful tool in your development toolkit.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-03-27  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
 
