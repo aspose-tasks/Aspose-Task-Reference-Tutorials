@@ -4,7 +4,7 @@ description: استكشف هذا البرنامج التعليمي لـ Aspose T
   إصدار المشروع لملفات MS Project. دليل خطوة بخطوة مع أمثلة على الشيفرة.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'دورة Aspose Tasks Java: تحديد إصدار MS Project'
+title: 'دورة Aspose Tasks Java - تحديد إصدار MS Project'
 url: /ar/java/project-management/determine-version/
 weight: 12
 ---

@@ -113,22 +113,6 @@ System.out.println(criteria22.getField());
 | **フィールド名が正しくない** | タイプミスを防ぐために `ItemType` 列挙型（例: `ItemType.Task`）を使用してください。 |
 | **フィルタが結果を返さない** | テスト演算子と値が MPP ファイル内のデータと一致しているか確認してください。 |
 
-## FAQ
-### Q: Aspose.Tasks for Java はさまざまなバージョンの Microsoft Project ファイルに対応していますか？
-A: はい、Aspose.Tasks for Java は多数の Microsoft Project ファイルバージョンをサポートしており、プロジェクト管理タスクでの互換性と柔軟性を提供します。
-
-### Q: プロジェクト固有の要件に基づいてフィルタ条件をカスタマイズできますか？
-A: もちろんです！ Aspose.Tasks for Java はプロジェクト固有のニーズに合わせてフィルタ条件を調整でき、ターゲットデータの操作と分析を可能にします。
-
-### Q: 小規模プロジェクトと大規模プロジェクトの両方に適していますか？
-A: はい、小規模プロジェクトから大規模なポートフォリオまで、Aspose.Tasks for Java はスケーラビリティとパフォーマンスを提供し、さまざまな規模のプロジェクト管理シナリオに対応します。
-
-### Q: 包括的なドキュメントとサポートリソースはありますか？
-A: もちろんです！ 詳細なガイドと API リファレンスは [ドキュメント](https://reference.aspose.com/tasks/java/) で確認できます。また、Aspose.Tasks コミュニティフォーラムで質問や問題に対する支援を受けられます。
-
-### Q: 購入前に Aspose.Tasks for Java の機能を試すことはできますか？
-A: はい、[ウェブサイト](https://releases.aspose.com/) から無料トライアルを取得して、Aspose.Tasks for Java の機能と性能を実際に体験できます。
-
 ## Frequently Asked Questions
 
 **Q: 新しいフィルタをプログラムで作成するには？**  

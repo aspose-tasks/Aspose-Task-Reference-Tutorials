@@ -1,5 +1,5 @@
 ---
-title: Load MPP File Java: Manage Project Properties with Aspose.Tasks
+title: Load MPP File Java - Manage Project Properties with Aspose.Tasks
 linktitle: Manage Default Project Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to load MPP file Java and manage default MS Project properties using Aspose.Tasks for Java. Streamline your project management workflow effortlessly.

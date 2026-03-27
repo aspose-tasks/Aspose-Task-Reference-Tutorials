@@ -3,7 +3,7 @@ date: 2025-12-25
 description: 探索此 Aspose Tasks Java 教程，了解如何确定 MS Project 文件的项目版本。一步一步的指南，附有代码示例。
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose Tasks Java 教程：确定 MS Project 版本
+title: Aspose Tasks Java 教程 - 确定 MS Project 版本
 url: /zh/java/project-management/determine-version/
 weight: 12
 ---

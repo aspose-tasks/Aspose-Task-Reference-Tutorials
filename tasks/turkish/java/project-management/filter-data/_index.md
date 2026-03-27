@@ -114,22 +114,6 @@ System.out.println(criteria22.getField());
 | **Yanlış alan adları** | Yazım hatalarını önlemek için `ItemType` enumlarını (ör. `ItemType.Task`) kullanın. |
 | **Filtre sonuç döndürmüyor** | Test operatörlerinin ve değerlerin MPP dosyanızdaki verilerle eşleştiğini kontrol edin. |
 
-## SSS
-### S: Aspose.Tasks for Java, farklı Microsoft Project dosya sürümleriyle uyumlu mu?
-C: Evet, Aspose.Tasks for Java çeşitli Microsoft Project dosya sürümlerini destekler; bu sayede proje yönetimi görevlerinde uyumluluk ve esneklik sağlar.
-
-### S: Filtre kriterlerini proje gereksinimlerine göre özelleştirebilir miyim?
-C: Kesinlikle! Aspose.Tasks for Java, projenizin benzersiz ihtiyaçlarına göre filtre kriterlerini şekillendirmenize olanak tanır; böylece hedef odaklı veri manipülasyonu ve analizi yapabilirsiniz.
-
-### S: Aspose.Tasks for Java, küçük ve büyük ölçekli projeler için uygun mu?
-C: Evet, ister küçük ölçekli bir proje yönetin ister geniş bir proje portföyüyle çalışın, Aspose.Tasks for Java gerekli ölçeklenebilirlik ve performansı sunar.
-
-### S: Aspose.Tasks for Java kapsamlı dokümantasyon ve destek kaynakları sağlıyor mu?
-C: Elbette! Ayrıntılı kılavuzlar ve API referansları için [dokümantasyona](https://reference.aspose.com/tasks/java/) bakabilirsiniz. Ayrıca, karşılaştığınız sorular veya sorunlar için Aspose.Tasks topluluk forumlarından yardım alabilirsiniz.
-
-### S: Aspose.Tasks for Java’yı satın almadan önce deneyebilir miyim?
-C: Tabii ki! Özellik ve yetenekleri doğrudan deneyimlemek için [web sitesinden](https://releases.aspose.com/) ücretsiz deneme sürümünden faydalanabilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Yeni bir filtreyi programlı olarak nasıl oluştururum?**  

@@ -114,22 +114,6 @@ System.out.println(criteria22.getField());
 | **Nombres de campo incorrectos** | Utiliza los enums `ItemType` (p. ej., `ItemType.Task`) para evitar errores tipográficos. |
 | **El filtro no devuelve resultados** | Verifica que los operadores de prueba y los valores coincidan con los datos de tu archivo MPP. |
 
-## Preguntas frecuentes
-### P: ¿Aspose.Tasks para Java es compatible con diferentes versiones de archivos de Microsoft Project?
-R: Sí, Aspose.Tasks para Java admite varias versiones de archivos de Microsoft Project, garantizando compatibilidad y flexibilidad en tareas de gestión de proyectos.
-
-### P: ¿Puedo personalizar los criterios del filtro según requisitos específicos del proyecto?
-R: ¡Absolutamente! Aspose.Tasks para Java te permite adaptar los criterios de filtro a las necesidades únicas de tu proyecto, facilitando la manipulación y el análisis de datos dirigidos.
-
-### P: ¿Aspose.Tasks para Java es adecuado tanto para proyectos pequeños como para proyectos a gran escala?
-R: Sí, ya sea que gestiones un proyecto de pequeña escala o una cartera extensa de proyectos, Aspose.Tasks para Java ofrece la escalabilidad y el rendimiento necesarios para diversos escenarios de gestión.
-
-### P: ¿Aspose.Tasks para Java proporciona documentación completa y recursos de soporte?
-R: Por supuesto. Puedes consultar la [documentación](https://reference.aspose.com/tasks/java/) para guías detalladas y referencias de la API. Además, puedes buscar ayuda en los foros de la comunidad de Aspose.Tasks para cualquier consulta o problema que encuentres.
-
-### P: ¿Puedo explorar la funcionalidad de Aspose.Tasks para Java antes de comprar?
-R: Claro. Puedes obtener una prueba gratuita desde el [sitio web](https://releases.aspose.com/) para experimentar de primera mano las características y capacidades de Aspose.Tasks para Java.
-
 ## Preguntas frecuentes adicionales
 
 **P: ¿Cómo creo un filtro completamente nuevo programáticamente?**  

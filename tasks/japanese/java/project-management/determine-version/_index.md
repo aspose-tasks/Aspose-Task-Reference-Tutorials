@@ -4,7 +4,7 @@ description: この Aspose Tasks Java チュートリアルを探求し、MS Pro
   ガイドです。
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose Tasks Java チュートリアル：MS Project バージョンの判定
+title: Aspose Tasks Java チュートリアル - MS Project バージョンの判定
 url: /ja/java/project-management/determine-version/
 weight: 12
 ---

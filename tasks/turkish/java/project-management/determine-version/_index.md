@@ -4,7 +4,7 @@ description: Aspose Tasks Java öğreticisini keşfedin ve MS Project dosyaları
   sürümünü nasıl belirleyeceğinizi öğrenin. Kod örnekleriyle adım adım rehber.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Aspose Tasks Java Öğreticisi: MS Project Sürümünü Belirleme'
+title: 'Aspose Tasks Java Öğreticisi - MS Project Sürümünü Belirleme'
 url: /tr/java/project-management/determine-version/
 weight: 12
 ---

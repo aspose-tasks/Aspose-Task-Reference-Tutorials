@@ -112,23 +112,6 @@ System.out.println(criteria22.getField());
 | **Nieprawidłowe nazwy pól** | Użyj enumów `ItemType` (np. `ItemType.Task`), aby uniknąć literówek. |
 | **Filtr nie zwraca wyników** | Sprawdź, czy operatory testów i wartości pasują do danych w pliku MPP. |
 
-## FAQ
-
-### Q: Czy Aspose.Tasks dla Javy jest kompatybilny z różnymi wersjami plików Microsoft Project?
-A: Tak, Aspose.Tasks dla Javy obsługuje różne wersje plików Microsoft Project, zapewniając kompatybilność i elastyczność w zadaniach zarządzania projektami.
-
-### Q: Czy mogę dostosować kryteria filtru w oparciu o konkretne wymagania projektu?
-A: Oczywiście! Aspose.Tasks dla Javy pozwala dostosować kryteria filtru do unikalnych potrzeb Twojego projektu, umożliwiając ukierunkowaną manipulację i analizę danych.
-
-### Q: Czy Aspose.Tasks dla Javy jest odpowiedni zarówno dla małych, jak i dużych projektów?
-A: Tak, niezależnie od tego, czy zarządzasz małym projektem, czy obsługujesz rozbudowane portfolia projektów, Aspose.Tasks dla Javy zapewnia skalowalność i wydajność niezbędną w różnych scenariuszach zarządzania projektami.
-
-### Q: Czy Aspose.Tasks dla Javy zapewnia kompleksową dokumentację i zasoby wsparcia?
-A: Oczywiście! Możesz odwołać się do [dokumentacji](https://reference.aspose.com/tasks/java/) zawierającej szczegółowe przewodniki i odniesienia API. Dodatkowo możesz uzyskać pomoc na forach społeczności Aspose.Tasks w przypadku pytań lub problemów.
-
-### Q: Czy mogę przetestować funkcjonalność Aspose.Tasks dla Javy przed zakupem?
-A: Oczywiście! Możesz skorzystać z darmowej wersji próbnej dostępnej na [stronie internetowej](https://releases.aspose.com/), aby osobiście przetestować funkcje i możliwości Aspose.Tasks dla Javy.
-
 ## Najczęściej zadawane pytania
 
 **P: Jak programowo utworzyć zupełnie nowy filtr?**  

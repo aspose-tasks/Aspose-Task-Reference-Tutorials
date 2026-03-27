@@ -4,7 +4,7 @@ description: Utforska den här Aspose Tasks Java‑handledningen för att lära 
   du bestämmer projektversionen för MS Project‑filer. Steg‑för‑steg‑guide med kodexempel.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Aspose Tasks Java-handledning: Bestäm MS Project-version'
+title: 'Aspose Tasks Java-handledning - Bestäm MS Project-version'
 url: /sv/java/project-management/determine-version/
 weight: 12
 ---

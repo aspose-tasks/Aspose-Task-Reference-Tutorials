@@ -1,6 +1,6 @@
 ---
-title: Create custom field Aspose: Handle extended attributes
-linktitle: Create custom field Aspose: Handle extended attributes
+title: Create custom field Aspose - Handle extended attributes
+linktitle: Create custom field Aspose - Handle extended attributes
 second_title: Aspose.Tasks Java API
 description: Learn how to create custom field aspose and handle extended attributes in Aspose.Tasks projects using Java. Step‑by‑step guide to add custom field task and define extended attribute.
 weight: 13
@@ -162,15 +162,15 @@ A: Custom fields saved in newer Aspose.Tasks versions remain readable by older v
 
 ---
 
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

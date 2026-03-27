@@ -117,23 +117,6 @@ System.out.println(criteria22.getField());
 
 ## Gyakran Ismételt Kérdések
 
-### K: Az Aspose.Tasks for Java kompatibilis‑e a Microsoft Project különböző verzióival?
-A: Igen, az Aspose.Tasks for Java különböző Microsoft Project fájlverziókat támogat, biztosítva a kompatibilitást és a rugalmasságot a projektmenedzsment feladatokban.
-
-### K: Testre szabhatom a szűrőfeltételeket a projekt specifikus követelményei alapján?
-A: Teljes mértékben! Az Aspose.Tasks for Java lehetővé teszi, hogy a szűrőfeltételeket a projekted egyedi igényeihez igazítsd, így célzott adatmanipulációt és elemzést valósíthatsz meg.
-
-### K: Az Aspose.Tasks for Java alkalmas‑e kis és nagy léptékű projektekhez egyaránt?
-A: Igen, legyen szó kis‑léptékű projektről vagy kiterjedt projektportfóliók kezeléséről, az Aspose.Tasks for Java a skálázhatóságot és a teljesítményt biztosítja a különféle projektmenedzsment forgatókönyvekhez.
-
-### K: Az Aspose.Tasks for Java átfogó dokumentációt és támogatási forrásokat kínál?
-A: Természetesen! Részletes útmutatók és API‑referenciák érhetők el a [dokumentációban](https://reference.aspose.com/tasks/java/). Emellett a Aspose.Tasks közösségi fórumain kérdezhetsz és segítséget kaphatsz bármilyen felmerülő problémához.
-
-### K: Kipróbálhatom az Aspose.Tasks for Java funkcióit vásárlás előtt?
-A: Persze! A [weboldalon](https://releases.aspose.com/) elérhető ingyenes próba verzióval saját kezeddel tapasztalhatod meg az Aspose.Tasks for Java képességeit.
-
-## Gyakran Ismételt Kérdések
-
 **K: Hogyan hozhatok létre teljesen új szűrőt programozottan?**  
 A: Használd a `project.getTaskFilters().add(new Filter("My Filter"))` kifejezést, majd definiáld a `FilterCriteria` gyűjteményét.
 

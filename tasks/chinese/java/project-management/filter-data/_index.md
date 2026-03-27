@@ -113,22 +113,6 @@ System.out.println(criteria22.getField());
 | **字段名称不正确** | 使用 `ItemType` 枚举（例如 `ItemType.Task`）以避免拼写错误。 |
 | **过滤后没有返回结果** | 检查测试运算符和数值是否与 MPP 文件中的数据匹配。 |
 
-## 常见问答
-### Q: Aspose.Tasks for Java 是否兼容不同版本的 Microsoft Project 文件？
-A: 是的，Aspose.Tasks for Java 支持多种 Microsoft Project 文件版本，确保在项目管理任务中的兼容性和灵活性。
-
-### Q: 我可以根据具体项目需求自定义过滤条件吗？
-A: 当然！Aspose.Tasks for Java 允许您根据项目的独特需求定制过滤条件，实现有针对性的数据操作和分析。
-
-### Q: Aspose.Tasks for Java 适用于小型和大型项目吗？
-A: 是的，无论是小规模项目还是大型项目组合，Aspose.Tasks for Java 都提供所需的可扩展性和性能，满足各种项目管理场景。
-
-### Q: Aspose.Tasks for Java 是否提供完整的文档和支持资源？
-A: 当然！您可以参考 [documentation](https://reference.aspose.com/tasks/java/) 获取详细指南和 API 参考。此外，还可以在 Aspose.Tasks 社区论坛中寻求帮助，解决任何疑问或问题。
-
-### Q: 在购买前，我可以先试用 Aspose.Tasks for Java 的功能吗？
-A: 当然可以！您可以从 [website](https://releases.aspose.com/) 获取免费试用版，亲自体验 Aspose.Tasks for Java 的功能和能力。
-
 ## 常见问题
 
 **Q: 如何以编程方式创建全新的过滤器？**  

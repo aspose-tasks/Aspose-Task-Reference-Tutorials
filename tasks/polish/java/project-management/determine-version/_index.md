@@ -5,7 +5,7 @@ description: Zapoznaj się z tym samouczkiem Aspose Tasks Java, aby dowiedzieć 
   kodu.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Samouczek Aspose Tasks Java: Określenie wersji MS Project'
+title: 'Samouczek Aspose Tasks Java - Określenie wersji MS Project'
 url: /pl/java/project-management/determine-version/
 weight: 12
 ---

@@ -4,7 +4,7 @@ description: Esplora questo tutorial Aspose Tasks Java per imparare come determi
   la versione del progetto nei file MS Project. Guida passo‑passo con esempi di codice.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Tutorial Aspose Tasks Java: Determinare la versione di MS Project'
+title: 'Tutorial Aspose Tasks Java - Determinare la versione di MS Project'
 url: /it/java/project-management/determine-version/
 weight: 12
 ---

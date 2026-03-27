@@ -4,7 +4,7 @@ description: Aspose Tasks Java 튜토리얼을 탐색하여 MS Project 파일의
   단계별 가이드와 코드 예제가 포함되어 있습니다.
 linktitle: Determine Project Version with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Aspose Tasks Java 튜토리얼: MS Project 버전 확인'
+title: 'Aspose Tasks Java 튜토리얼 - MS Project 버전 확인'
 url: /ko/java/project-management/determine-version/
 weight: 12
 ---
