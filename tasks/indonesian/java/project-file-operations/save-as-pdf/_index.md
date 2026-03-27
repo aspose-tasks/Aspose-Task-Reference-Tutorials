@@ -1,10 +1,11 @@
 ---
-date: 2025-12-20
-description: Pelajari cara mengekspor PDF di Aspose.Tasks untuk Java, panduan sederhana
-  untuk mengonversi MPP ke PDF dan menyimpan file proyek Anda secara efisien.
+date: 2026-03-27
+description: Pelajari cara menyimpan proyek sebagai PDF menggunakan Aspose.Tasks untuk
+  Java, panduan sederhana untuk mengonversi MPP ke PDF dan mengekspor file proyek
+  secara efisien.
 linktitle: Save As PDF in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Cara Mengekspor PDF di Aspose.Tasks – Simpan Sebagai PDF
+title: Cara Menyimpan Proyek sebagai PDF dengan Aspose.Tasks – Panduan Ekspor
 url: /id/java/project-file-operations/save-as-pdf/
 weight: 17
 ---
@@ -13,35 +14,35 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengekspor PDF di Aspose.Tasks – Simpan Sebagai PDF
+# Cara Menyimpan Proyek sebagai PDF dengan Aspise.Tasks – Panduan Ekspor
 
-## Pendahuluan
-Dalam tutorial ini, kami akan menunjukkan **cara mengekspor PDF** di Aspose.Tasks untuk Java, membimbing Anda melalui proses menyimpan sebuah proyek sebagai PDF. Dengan Aspose.Tasks, Anda dapat dengan efisien **mengonversi MPP ke PDF**, memastikan kompatibilitas dan kemudahan berbagi antar tim dan pemangku kepentingan. Mari kita selami langkah‑langkahnya sehingga Anda dapat dengan cepat mendapatkan PDF yang dapat dicetak dari file proyek apa pun.
+## Introduction
+Dalam tutorial ini, Anda akan menemukan **cara menyimpan proyek sebagai pdf** menggunakan Aspose.Tasks untuk Java. Kami akan memandu Anda melalui semua hal mulai dari konversi satu baris hingga penyesuaian PDF lanjutan, sehingga Anda dapat mengubah MPP (atau format lain yang didukung) menjadi dokumen PDF yang rapi dan dapat dibagikan. Baik Anda membutuhkan laporan cetak cepat atau diagram Gantt yang sepenuhnya bergaya, langkah‑langkah ini akan membantu Anda mencapainya dengan cepat.
 
-## Jawaban Cepat
+## Quick Answers
 - **Apa arti “export PDF” dalam Aspose.Tasks?** Itu berarti mengonversi file proyek (misalnya MPP) menjadi dokumen PDF yang mempertahankan tata letak visual.  
-- **Versi perpustakaan mana yang diperlukan?** Versi Aspose.Tasks untuk Java apa pun yang mendukung `PdfSaveOptions` (disarankan menggunakan rilis terbaru).  
+- **Versi perpustakaan mana yang dibutuhkan?** Versi Aspose.Tasks untuk Java apa pun yang mendukung `PdfSaveOptions` (disarankan menggunakan rilis terbaru).  
 - **Apakah saya memerlukan lisensi untuk konversi ini?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk penggunaan produksi.  
 - **Bisakah saya menyesuaikan tampilan PDF?** Ya – Anda dapat mengatur timescale, legenda, dan `PdfSaveOptions` lainnya.  
 - **Apakah konversi cepat untuk proyek besar?** Biasanya dalam hitungan detik; kinerja tergantung pada ukuran proyek dan opsi yang dipilih.
 
-## Apa itu “cara mengekspor pdf” dalam konteks Aspose.Tasks?
-Mengekspor PDF dengan Aspose.Tasks berarti mengambil file proyek (seperti `.mpp`, `.xml`, atau `.xlsx`) dan menghasilkan PDF yang mencerminkan diagram Gantt, tampilan penggunaan tugas, atau format presentasi lain yang Anda konfigurasikan. Ini berguna untuk pelaporan, dokumentasi, atau berbagi tampilan hanya‑baca dengan pemangku kepentingan non‑teknis.
+## What is “save project as pdf” in the context of Aspose.Tasks?
+Menyimpan proyek sebagai PDF dengan Aspose.Tasks berarti mengambil file proyek (seperti `.mpp`, `.xml`, atau `.xlsx`) dan menghasilkan PDF yang mencerminkan diagram Gantt, tampilan penggunaan tugas, atau format presentasi lain yang Anda konfigurasikan. Ini berguna untuk pelaporan, dokumentasi, atau berbagi tampilan hanya‑baca dengan pemangku kepentingan non‑teknis.
 
-## Mengapa Mengekspor File Proyek ke PDF?
+## Why Export Gantt Chart to PDF?
 - **Keterbacaan universal:** PDF dapat dibuka di perangkat apa pun tanpa memerlukan perangkat lunak proyek asli.  
-- **Presentasi profesional:** Mempertahankan format, warna, dan tata letak untuk laporan yang ditujukan kepada klien.  
-- **Distribusi mudah:** Berbagi melalui email, intranet, atau penyimpanan cloud tanpa kekhawatiran kontrol versi.  
-- **Kepatuhan & pengarsipan:** PDF ideal untuk penyimpanan jangka panjang dan kepatuhan regulasi.
+- **Presentasi profesional:** Mempertahankan warna, font, dan tata letak untuk laporan yang ditujukan kepada klien.  
+- **Distribusi mudah:** Bagikan melalui email, intranet, atau penyimpanan cloud tanpa kekhawatiran kontrol versi.  
+- **Kepatuhan & arsip:** PDF ideal untuk penyimpanan jangka panjang dan kepatuhan regulasi.
 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
+## Prerequisites
+Sebelum Anda memulai, pastikan Anda memiliki hal‑hal berikut:
 
 1. **Java Development Kit (JDK):** JDK 8 atau yang lebih baru terpasang di mesin Anda.  
-2. **Perpustakaan Aspose.Tasks untuk Java:** Unduh perpustakaan dari situs resmi [here](https://releases.aspose.com/tasks/java/).  
-3. **File Proyek:** Miliki file proyek yang sudah ada (misalnya `HomeMovePlan.mpp`) yang siap untuk dikonversi.
+2. **Aspose.Tasks for Java Library:** Unduh perpustakaan dari situs resmi [here](https://releases.aspose.com/tasks/java/).  
+3. **File Proyek:** Miliki file proyek yang sudah ada (misalnya `HomeMovePlan.mpp`) siap untuk konversi.
 
-## Impor Paket
+## Import Packages
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -51,22 +52,22 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 ```
 
-## Panduan Langkah‑per‑Langkah
+## Step‑by‑Step Guide
 
-### Langkah 1: Baca File Proyek Input
+### Step 1: Read the Input Project File
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
-Ganti `"Your Data Directory"` dengan path absolut tempat file `.mpp` Anda berada. Ini memuat proyek ke memori sehingga Anda dapat memanipulasi atau mengekspornya.
+Ganti `"Your Data Directory"` dengan jalur absolut tempat file `.mpp` Anda berada. Ini memuat proyek ke memori sehingga Anda dapat memanipulasi atau mengekspornya.
 
-### Langkah 2: Simpan Proyek sebagai PDF
+### Step 2: Save the Project as PDF (Basic Conversion)
 ```java
 project.save(dataDir + "Project5.pdf", SaveFileFormat.Pdf);
 ```
-Baris di atas melakukan operasi **menyimpan proyek sebagai PDF** yang sederhana, membuat `Project5.pdf` di folder yang sama.
+Baris di atas melakukan operasi **save project as pdf** yang sederhana, menghasilkan `Project5.pdf` di folder yang sama.
 
-### Langkah 3: Sesuaikan Konten ke Ukuran Sel (Opsi Simpan PDF Lanjutan)
+### Step 3: Fit Contents to Cell Size (Advanced PDF Save Options)
 ```java
 Project project1 = new Project(dataDir + "project6.mpp");
 SaveOptions o = new PdfSaveOptions();
@@ -79,48 +80,51 @@ Di sini kami menunjukkan penggunaan **pdf save options** untuk mengontrol tata l
 - `setTimescale(Timescale.Months)` mengubah skala waktu menjadi bulan.  
 - `setPresentationFormat(PresentationFormat.TaskUsage)` memilih tampilan Task Usage.
 
-### Langkah 4: Sembunyikan Legenda (Output Lebih Bersih)
+### Step 4: Hide Legends (Cleaner Output)
 ```java
 o.setLegendOnEachPage(false);
 ```
 Menonaktifkan legenda dapat membuat PDF lebih ringkas, terutama untuk proyek besar.
 
-### Langkah 5: Simpan Proyek dengan Opsi yang Diterapkan
+### Step 5: Save the Project with Applied Options
 ```java
 project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
 ```
-Langkah akhir ini menulis PDF menggunakan opsi khusus yang didefinisikan di atas, menghasilkan dokumen bersih dengan skala bulan tanpa legenda per‑halaman.
+Langkah akhir ini menulis PDF menggunakan opsi khusus yang telah didefinisikan di atas, menghasilkan dokumen berskala bulan yang bersih tanpa legenda per‑halaman.
 
-## Masalah Umum & Tips
-- **File tidak ditemukan:** Pastikan `dataDir` diakhiri dengan pemisah file (`/` atau `\\`) dan mengarah ke direktori yang benar.  
-- **Halaman kosong:** Verifikasi bahwa `PresentationFormat` yang dipilih cocok dengan tampilan yang Anda harapkan (misalnya Gantt, Task Usage).  
-- **File besar memerlukan waktu lebih lama:** Pertimbangkan mengatur `o.setFitContent(false)` untuk proyek yang sangat besar guna mengurangi waktu pemrosesan.  
+## Export Gantt Chart to PDF – Custom Styling
+Jika Anda ingin mengekspor hanya diagram Gantt dengan tampilan tertentu, atur `PresentationFormat` ke `GanttChart` dan sesuaikan opsi tambahan seperti `setBarColor` atau `setShowCriticalTasks`. Pendekatan ini memungkinkan Anda **export gantt chart to pdf** dengan kontrol penuh atas elemen visual.
 
-## Pertanyaan yang Sering Diajukan
+## Common Issues & Tips
+- **File not found:** Pastikan `dataDir` diakhiri dengan pemisah file (`/` atau `\\`) dan mengarah ke direktori yang benar.  
+- **Blank pages:** Verifikasi bahwa `PresentationFormat` yang dipilih sesuai dengan tampilan yang Anda harapkan (mis., Gantt, Task Usage).  
+- **Large files take longer:** Pertimbangkan mengatur `o.setFitContent(false)` untuk proyek yang sangat besar guna mengurangi waktu pemrosesan.  
 
-**T: Apakah Aspose.Tasks kompatibel dengan semua versi Java?**  
-J: Ya, Aspose.Tasks mendukung versi Java mulai dari JDK 6 ke atas.
+## Frequently Asked Questions
 
-**T: Bisakah saya menyesuaikan tampilan output PDF?**  
-J: Tentu saja! Aspose.Tasks menyediakan banyak **pdf save options**—seperti skala waktu, visibilitas legenda, dan format presentasi—untuk menyesuaikan PDF sesuai kebutuhan Anda.
+**Q: Apakah Aspose.Tasks kompatibel dengan semua versi Java?**  
+A: Ya, Aspose.Tasks mendukung versi Java mulai dari JDK 6 ke atas.
 
-**T: Apakah Aspose.Tasks mendukung format file lain untuk konversi?**  
-J: Ya, Anda dapat mengonversi antara MPP, XML, XLSX, dan banyak format lainnya, menjadikannya alat serbaguna untuk **convert mpp to pdf** dan transformasi lainnya.
+**Q: Bisakah saya menyesuaikan tampilan output PDF?**  
+A: Tentu! Aspose.Tasks menyediakan banyak **pdf save options**—seperti timescale, visibilitas legenda, dan format presentasi—untuk menyesuaikan PDF sesuai kebutuhan Anda.
 
-**T: Apakah ada versi percobaan yang tersedia untuk Aspose.Tasks?**  
-J: Ya, Anda dapat memperoleh versi percobaan gratis Aspose.Tasks dari [here](https://releases.aspose.com/).
+**Q: Apakah Aspose.Tasks mendukung format file lain untuk konversi?**  
+A: Ya, Anda dapat mengonversi antara MPP, XML, XLSX, dan banyak format lainnya, menjadikannya alat serbaguna untuk **convert mpp to pdf** dan transformasi lainnya.
 
-**T: Di mana saya dapat mendapatkan dukungan untuk Aspose.Tasks?**  
-J: Untuk dukungan dan bantuan, kunjungi [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) resmi.
+**Q: Apakah ada versi percobaan yang tersedia untuk Aspose.Tasks?**  
+A: Ya, Anda dapat mendapatkan percobaan gratis Aspose.Tasks dari [here](https://releases.aspose.com/).
 
-## Kesimpulan
-Dengan mengikuti panduan ini, Anda kini mengetahui **cara mengekspor PDF** dari proyek Java mana pun menggunakan Aspose.Tasks, mulai dari penyimpanan satu baris sederhana hingga penyesuaian lanjutan dengan `PdfSaveOptions`. Gunakan teknik ini untuk menghasilkan PDF yang rapi dan dapat dibagikan untuk pelaporan, presentasi kepada klien, atau keperluan pengarsipan.
+**Q: Di mana saya dapat mendapatkan dukungan untuk Aspose.Tasks?**  
+A: Untuk dukungan dan bantuan, kunjungi forum resmi [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+## Conclusion
+Dengan mengikuti panduan ini, Anda kini tahu **cara menyimpan proyek sebagai pdf** dari proyek Java mana pun menggunakan Aspose.Tasks, mulai dari penyimpanan satu baris sederhana hingga penyesuaian lanjutan dengan `PdfSaveOptions`. Gunakan teknik ini untuk menghasilkan PDF yang rapi dan dapat dibagikan untuk pelaporan, presentasi klien, atau keperluan arsip.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** Aspose.Tasks for Java 24.12 (versi terbaru pada saat penulisan)  
-**Penulis:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
