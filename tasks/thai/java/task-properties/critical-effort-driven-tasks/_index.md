@@ -1,27 +1,48 @@
 ---
-title: จัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามใน Aspose.Tasks
-linktitle: จัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามใน Aspose.Tasks
+date: 2026-01-25
+description: เรียนรู้วิธีใช้ Aspose Tasks Java สำหรับการจัดการงาน Java, การจัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามในโครงการของคุณ.
+  เพิ่มประสิทธิภาพกระบวนการทำงานของโครงการด้วยคู่มือนี้.
+linktitle: Aspose Tasks Java – Manage Critical and Effort‑Driven Tasks
 second_title: Aspose.Tasks Java API
-description: จัดการงานที่สำคัญและต้องใช้ความพยายามในโปรเจ็กต์ Java ของคุณได้อย่างง่ายดายด้วย Aspose.Tasks ดาวน์โหลดไลบรารีและปรับปรุงความสามารถในการจัดการโครงการของคุณ
-weight: 14
+title: Aspose Tasks Java – จัดการงานสำคัญและงานที่ขับเคลื่อนด้วยความพยายาม
 url: /th/java/task-properties/critical-effort-driven-tasks/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามใน Aspose.Tasks
+# Aspose Tasks Java: จัดการงานที่สำคัญและงานที่ขับเคลื่อนด้วยความพยายาม
 
-ในโลกของการจัดการโครงการที่เปลี่ยนแปลงไปอย่างรวดเร็ว การจัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามอย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญสำหรับการดำเนินโครงการให้สำเร็จ Aspose.Tasks for Java มอบโซลูชันที่มีประสิทธิภาพในการจัดการงานเหล่านี้ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการใช้ Aspose.Tasks สำหรับ Java เพื่อจัดการงานที่สำคัญและต้องใช้ความพยายามในโปรเจ็กต์ของคุณ
+ในการจัดการโครงการสมัยใหม่, **aspose tasks java** ให้คุณมีพลังในการระบุและควบคุมงานที่สำคัญและงานที่ขับเคลื่อนด้วยความพยายามโดยตรงจากโค้ด Java ของคุณ ไม่ว่าคุณจะสร้างตัวกำหนดเวลา, เครื่องมือรายงาน, หรือแดชบอร์ดแบบกำหนดเอง การจัดการคุณสมบัติงานเหล่านี้อย่างถูกต้องอาจเป็นความแตกต่างระหว่างโครงการที่ดำเนินไปตามแผนและโครงการที่ล่มสลาย ในบทเรียนนี้เราจะอธิบายทุกอย่างที่คุณต้องรู้เพื่อทำงานกับงานที่สำคัญและงานที่ขับเคลื่อนด้วยความพยายามโดยใช้ Aspose Tasks Java.
+
+## คำตอบอย่างรวดเร็ว
+- **What does “critical” mean?** งานที่การล่าช้าจะทำให้วันที่สิ้นสุดโครงการล่าช้า  
+- **What is “effort‑driven”?** งานที่ปรับระยะเวลาโดยอัตโนมัติเมื่อคุณเปลี่ยนปริมาณงาน  
+- **Which library provides these features?** Aspose Tasks Java.  
+- **Do I need a license for development?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีใบอนุญาตสำหรับการผลิต  
+- **Can I run this on any OS?** ใช่ – ไลบรารีเป็นแบบแพลตฟอร์มอิสระ (Windows, Linux, macOS).  
+
+## งานที่สำคัญและงานที่ขับเคลื่อนด้วยความพยายามคืออะไร?
+งานที่สำคัญคืองานที่อยู่บนเส้นทางสำคัญของโครงการ; การล่าช้าใด ๆ จะส่งผลโดยตรงต่อกำหนดการโดยรวม งานที่ขับเคลื่อนด้วยความพยายามนั้นในทางกลับกันจะคำนวณระยะเวลาใหม่ตามปริมาณงานที่มอบหมาย ทำให้เหมาะกับทรัพยากรที่สามารถทำงานล่วงเวลา หรือแบ่งความพยายามระหว่างหลายการมอบหมายงาน
+
+## ทำไมต้องใช้ Aspose Tasks Java สำหรับสิ่งนี้?
+- **Full .NET‑style API in Java** – ไม่จำเป็นต้องเปลี่ยนภาษา.  
+- **High performance** – ทำงานกับไฟล์โครงการขนาดใหญ่ที่เป็น XML โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ.  
+- **Rich property set** – เข้าถึง `IS_CRITICAL`, `IS_EFFORT_DRIVEN` และคุณลักษณะงานอื่น ๆ อีกมากมาย.  
+- **Cross‑platform** – รันบนสภาพแวดล้อมที่รองรับ JVM ใดก็ได้.  
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- Aspose.Tasks สำหรับ Java Library: ดาวน์โหลดและติดตั้งไลบรารีจากไฟล์[Aspose.Tasks สำหรับเอกสาร Java](https://reference.aspose.com/tasks/java/).
-- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว
-- สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ใช้ IDE ที่คุณต้องการสำหรับการพัฒนา Java
-- ไฟล์โครงการ: เตรียมไฟล์โครงการในรูปแบบ XML ที่คุณจะใช้ในการสาธิต
-## แพ็คเกจนำเข้า
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานของ Aspose.Tasks สำหรับ Java:
+ก่อนที่เราจะลงลึกในบทเรียน, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
+- Aspose.Tasks for Java Library: ดาวน์โหลดและติดตั้งไลบรารีจาก [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).  
+- Java Development Kit (JDK): ตรวจสอบว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว.  
+- Integrated Development Environment (IDE): ใช้ IDE ที่คุณชื่นชอบสำหรับการพัฒนา Java.  
+- Project File: เตรียมไฟล์โครงการในรูปแบบ XML ที่คุณจะใช้สำหรับการสาธิต.  
+
+## นำเข้าแพ็กเกจ
+ในโครงการ Java ของคุณ, นำเข้าแพ็กเกจที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันของ Aspose.Tasks for Java:
+
 ```java
 import com.aspose.tasks.ChildTasksCollector;
 import com.aspose.tasks.Project;
@@ -29,22 +50,25 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskUtils;
 import com.aspose.tasks.Tsk;
 ```
-ตอนนี้ เราจะแจกแจงแต่ละขั้นตอนเป็นคำแนะนำที่ครอบคลุม:
-## ขั้นตอนที่ 1: รวบรวมงานโดยใช้ ChildTasksCollector
- สร้างก`ChildTasksCollector` อินสแตนซ์เพื่อรวบรวมงานทั้งหมดจากงานรูทที่ใช้`TaskUtils.apply`. สิ่งนี้ทำให้แน่ใจได้ว่าคุณจะสามารถเข้าถึงงานทั้งหมดภายในโครงการได้
+
+### ขั้นตอนที่ 1: รวบรวมงานโดยใช้ `ChildTasksCollector`
+สร้างอินสแตนซ์ `ChildTasksCollector` เพื่อรวบรวมงานทั้งหมดจากงานรากโดยใช้ `TaskUtils.apply`. สิ่งนี้ทำให้คุณเข้าถึงงานทุกงานภายในโครงการได้.
+
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "project.xml");
-// สร้างอินสแตนซ์ ChildTasksCollector
+// Create a ChildTasksCollector instance
 ChildTasksCollector collector = new ChildTasksCollector();
-// รวบรวมงานทั้งหมดจาก RootTask โดยใช้ TaskUtils
+// Collect all the tasks from RootTask using TaskUtils
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
-## ขั้นตอนที่ 2: ทำซ้ำผ่านงานที่รวบรวมไว้
- แยกวิเคราะห์งานที่รวบรวมทั้งหมดโดยใช้`for` วนซ้ำ สำหรับแต่ละงาน ให้พิจารณาว่างานนั้นเน้นความพยายามและมีความสำคัญหรือไม่ โดยพิมพ์สถานะตามลำดับ
+
+### ขั้นตอนที่ 2: วนลูปผ่านงานที่รวบรวมได้
+วนลูปผ่านงานที่รวบรวมทั้งหมดโดยใช้ `for` loop. สำหรับแต่ละงาน, ตรวจสอบว่ามันเป็นงานที่ขับเคลื่อนด้วยความพยายามและเป็นงานสำคัญหรือไม่, แล้วพิมพ์สถานะที่เกี่ยวข้อง.
+
 ```java
-// แยกวิเคราะห์งานที่รวบรวมทั้งหมด
+// Parse through all the collected tasks
 for (Task tsk : collector.getTasks()) {
     String strED = tsk.get(Tsk.IS_EFFORT_DRIVEN) != null ? "EffortDriven" : "Non-EffortDriven";
     String strCrit = tsk.get(Tsk.IS_CRITICAL) != null ? "Critical" : "Non-Critical";
@@ -52,20 +76,36 @@ for (Task tsk : collector.getTasks()) {
     System.out.println(strCrit);
 }
 ```
-ด้วยการทำตามขั้นตอนเหล่านี้ คุณสามารถจัดการงานที่สำคัญและขับเคลื่อนด้วยความพยายามในโปรเจ็กต์ของคุณได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ Java
-## บทสรุป
-โดยสรุป Aspose.Tasks สำหรับ Java ช่วยให้นักพัฒนา Java สามารถจัดการงานที่สำคัญและต้องใช้ความพยายามในการจัดการโครงการได้อย่างมีประสิทธิภาพ ด้วยคุณสมบัติที่ใช้งานง่ายและฟังก์ชันการทำงานที่แข็งแกร่ง การจัดการสถานการณ์โครงการที่ซับซ้อนจึงกลายเป็นเรื่องง่าย
+
+โดยทำตามขั้นตอนเหล่านี้, คุณสามารถจัดการงานที่สำคัญและงานที่ขับเคลื่อนด้วยความพยายามในโครงการของคุณได้อย่างมีประสิทธิภาพโดยใช้ **aspose tasks java**.
+
+## ปัญหาทั่วไปและวิธีแก้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| `NullPointerException` on `tsk.get(Tsk.IS_CRITICAL)` | งานไม่มีการตั้งค่าคุณสมบัตินี้ (เช่น งานสรุป). | ตรวจสอบ `tsk.get(Tsk.TASK_TYPE)` ก่อนเข้าถึงแฟล็ก, หรือกรองงานสรุปออก. |
+| Project file not found | เส้นทาง `dataDir` ไม่ถูกต้องหรือไม่มีส่วนขยายไฟล์. | ใช้ `Paths.get(dataDir, "project.xml").toString()` และตรวจสอบว่าไฟล์มีอยู่. |
+| License not applied | ไลบรารีทำงานในโหมดประเมินผล ซึ่งจำกัดฟีเจอร์. | โหลดไฟล์ใบอนุญาตของคุณด้วย `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` ก่อนสร้างอ็อบเจ็กต์ `Project`. |
+
 ## คำถามที่พบบ่อย
-### ถาม: ฉันสามารถใช้ Aspose.Tasks สำหรับ Java ได้ทั้งในสภาพแวดล้อม Windows และ Linux ได้หรือไม่
-ใช่ Aspose.Tasks สำหรับ Java ไม่ขึ้นอยู่กับแพลตฟอร์มและสามารถใช้ได้ทั้งในสภาพแวดล้อม Windows และ Linux
-### ถาม: Aspose.Tasks สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
- ใช่ คุณสามารถเข้าถึง Aspose.Tasks for Java รุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
-### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
- เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนและการอภิปรายของชุมชน
-### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
- คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ Java ได้ที่ไหน
- คุณสามารถซื้อ Aspose.Tasks สำหรับ Java ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+### Q: ฉันสามารถใช้ Aspose.Tasks for Java ในสภาพแวดล้อม Windows และ Linux ได้หรือไม่?
+A: ใช่, Aspose.Tasks for Java เป็นแบบแพลตฟอร์มอิสระและสามารถใช้ได้ทั้งใน Windows และ Linux.
+
+### Q: มีการทดลองใช้ฟรีสำหรับ Aspose.Tasks for Java หรือไม่?
+A: ใช่, คุณสามารถเข้าถึงการทดลองใช้ฟรีของ Aspose.Tasks for Java [ที่นี่](https://releases.aspose.com/).
+
+### Q: ฉันจะหาแหล่งสนับสนุนสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?
+A: เยี่ยมชม [ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
+
+### Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks for Java ได้อย่างไร?
+A: คุณสามารถรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+### Q: ฉันจะซื้อ Aspose.Tasks for Java ได้จากที่ไหน?
+A: คุณสามารถซื้อ Aspose.Tasks for Java ได้จาก [หน้าซื้อสินค้า](https://purchase.aspose.com/buy).
+
+**อัปเดตล่าสุด:** 2026-01-25  
+**ทดสอบด้วย:** Aspose.Tasks Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
