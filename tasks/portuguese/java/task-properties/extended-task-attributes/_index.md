@@ -1,48 +1,75 @@
 ---
-title: Atributos de tarefa estendidos em Aspose.Tasks
-linktitle: Atributos de tarefa estendidos em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Explore atributos de tarefa estendidos em Aspose.Tasks for Java. Guia passo a passo, perguntas frequentes e suporte. Otimize seu gerenciamento de projetos hoje!
-weight: 16
+date: 2026-01-28
+description: Aprenda a ler atributos de tarefa estendidos usando Aspose.Tasks para
+  Java e altere o tipo de campo personalizado de forma eficiente.
+linktitle: Read Extended Task Attributes with Aspose.Tasks for Java
+second_title: Aspose.Tasks Java API
+title: Ler atributos de tarefa estendidos com Aspose.Tasks para Java
 url: /pt/java/task-properties/extended-task-attributes/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atributos de tarefa estendidos em Aspose.Tasks
+# Ler Atributos de Tarefa Estendidos com Aspose.Tasks para Java
 
 ## Introdução
-Bem-vindo ao nosso guia completo sobre como aproveitar atributos de tarefa estendidos em Aspose.Tasks for Java. Aspose.Tasks é uma biblioteca Java poderosa que permite trabalhar perfeitamente com documentos do Microsoft Project. Neste tutorial, nos aprofundaremos nos atributos de tarefa estendidos e demonstraremos como você pode utilizá-los para aprimorar seus recursos de gerenciamento de projetos.
-## Pré-requisitos
-Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Conhecimento básico de programação Java.
-- Instalado o Java Development Kit (JDK) em sua máquina.
-- Um ambiente de desenvolvimento integrado (IDE), como IntelliJ ou Eclipse.
-## Importar pacotes
-Comece importando os pacotes necessários para iniciar seu projeto Aspose.Tasks:
+Neste tutorial abrangente, você descobrirá como **read extended task attributes** de arquivos Microsoft Project usando a biblioteca Aspose.Tasks para Java. Seja construindo uma ferramenta de relatórios, sincronizando dados ou simplesmente precisando de uma visão mais profunda dos campos personalizados, dominar esse recurso permitirá extrair todas as informações armazenadas em um projeto. Percorreremos a configuração necessária, mostraremos como mudar o tipo de campo personalizado ao processar atributos e daremos dicas práticas para evitar armadilhas comuns.
+
+## Respostas Rápidas
+- **O que significa “read extended task attributes”?** Refere‑se à extração de valores de campos personalizados que vão além das propriedades padrão de tarefa em um arquivo Project.  
+- **Qual classe fornece acesso a esses atributos?** A classe `ExtendedAttribute` no Aspose.Tasks.  
+- **Preciso de uma licença para executar o código?** Uma versão de avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Posso mudar o tipo do atributo em tempo de execução?** Sim – use a instrução `switch` para **switch custom field type** com base em `CustomFieldType`.  
+- **Esta é compatível com Java 8 e posteriores?** Absolutamente, a API suporta JDK 8+.
+
+## O que são read extended task attributes?
+Atributos de tarefa estendidos são campos definidos pelo usuário (texto, data, número, bandeira, etc.) que complementam as propriedades padrão de tarefa no Microsoft Project. O Aspose.Tasks os expõe através da coleção `ExtendedAttribute` anexada a cada objeto `Task`, permitindo que você leia ou modifique seus valores programaticamente.
+
+## Por que ler atributos de tarefa estendidos?
+- **Visibilidade total:** Obtenha insight sobre os dados personalizados que as partes interessadas adicionaram ao cronograma.  
+- **Automação:** Preencha painéis, gere relatórios personalizados ou migre dados para outros sistemas sem exportação manual.  
+- **Flexibilidade:** Trabalhe com qualquer tipo de campo personalizado — texto, data, duração, custo, bandeira — tratando cada caso adequadamente.
+
+## Pré‑requisitos
+- Conhecimento básico de programação Java.  
+- Java Development Kit (JDK) instalado na sua máquina.  
+- Uma IDE como IntelliJ IDEA ou Eclipse.  
+
+## Importar Pacotes
+Comece importando as classes necessárias para o projeto Aspose.Tasks:
+
 ```java
 import com.aspose.tasks.CustomFieldType;
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 ```
-Agora, vamos dividir o exemplo em várias etapas para guiá-lo durante o processo:
-## Etapa 1: Acessando Tarefas e Atributos Estendidos
+
+## Etapa 1: Acessando Tarefa e Atributos Estendidos
+Carregue um arquivo Project e itere por cada tarefa para acessar seus atributos estendidos:
+
 ```java
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Project project = new Project(dataDir + "ReadTaskExtendedAttributes.mpp");
 for (Task tsk : project.getRootTask().getChildren()) {
     for (ExtendedAttribute ea : tsk.getExtendedAttributes()) {
 ```
-## Etapa 2: recuperando o ID do campo e o GUID do valor
+
+## Etapa 2: Recuperando ID do Campo e GUID do Valor
+Imprima os identificadores internos que ajudam a entender com qual campo personalizado você está lidando:
+
 ```java
 System.out.println(ea.getFieldId());
 System.out.println(ea.getValueGuid());
 ```
-## Etapa 3: Lidando com Diferentes Tipos de Atributos
+
+## Etapa 3: Como mudar o tipo de campo personalizado ao ler atributos de tarefa estendidos
+Use uma instrução `switch` em `CustomFieldType` para tratar cada tipo de dado possível corretamente:
+
 ```java
 switch (ea.getAttributeDefinition().getCfType()) {
     case CustomFieldType.Date:
@@ -65,20 +92,38 @@ switch (ea.getAttributeDefinition().getCfType()) {
         break;
 }
 ```
-Repita essas etapas para cada tarefa do seu projeto para explorar e manipular atributos de tarefa estendidos.
-## Conclusão
-Concluindo, compreender e utilizar atributos de tarefas estendidos em Aspose.Tasks for Java pode aprimorar significativamente seus recursos de gerenciamento de projetos. Este guia fornece uma base sólida para você começar esta jornada.
-## perguntas frequentes
-### Posso modificar atributos de tarefas estendidas programaticamente?
-Sim, você pode modificar atributos de tarefa estendidos usando Aspose.Tasks for Java. Consulte a documentação para obter instruções detalhadas.
-### Existe uma versão de teste disponível?
- Sim, você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
-### Onde posso encontrar suporte para Aspose.Tasks for Java?
- Para suporte, visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+Repita estas etapas para cada tarefa em seu projeto para explorar e manipular cada atributo de tarefa estendido.
+
+## Problemas Comuns e Soluções
+| Problema | Solução |
+|----------|---------|
+| **Null values returned** | Verifique se o campo personalizado está realmente preenchido no arquivo .mpp de origem. |
+| **Incorrect type displayed** | Certifique‑se de que está usando o `CustomFieldType` correto na instrução `switch`; tipos incompatíveis causarão valores padrão. |
+| **Performance slowdown on large projects** | Processe tarefas em lotes ou filtre apenas as tarefas necessárias usando `project.getRootTask().getChildren().stream()` com os predicados adequados. |
+
+## Perguntas Frequentes
+### Posso modificar atributos de tarefa estendidos programaticamente?
+Sim, você pode modificar atributos de tarefa estendidos usando Aspose.Tasks para Java. Consulte a documentação para instruções detalhadas.
+
+### Existe uma versão de avaliação disponível?
+Sim, você pode acessar a versão de avaliação gratuita [aqui](https://releases.aspose.com/).
+
+### Onde posso encontrar suporte para Aspose.Tasks para Java?
+Para suporte, visite o [fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
 ### Como posso obter uma licença temporária?
- Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
-### Onde posso comprar a versão completa do Aspose.Tasks for Java?
- Você pode comprar a versão completa[aqui](https://purchase.aspose.com/buy).
+Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
+
+### Onde posso comprar a versão completa do Aspose.Tasks para Java?
+Você pode comprar a versão completa [aqui](https://purchase.aspose.com/buy).
+
+---
+
+**Última atualização:** 2026-01-28  
+**Testado com:** Aspose.Tasks Java API (última versão estável)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

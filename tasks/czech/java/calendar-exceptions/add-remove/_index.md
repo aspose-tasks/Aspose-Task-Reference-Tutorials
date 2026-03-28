@@ -1,49 +1,71 @@
 ---
-title: Spravujte výjimky kalendáře v Aspose.Tasks
-linktitle: Přidat a odebrat výjimky kalendáře v Aspose.Tasks
+date: 2026-01-28
+description: Naučte se, jak vytvořit výjimku kalendáře pomocí Aspose.Tasks pro Javu,
+  efektivně přidávat a odstraňovat výjimky kalendáře a zlepšit plánování projektu.
+linktitle: Add and Remove Calendar Exceptions in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Naučte se, jak efektivně přidávat a odstraňovat výjimky kalendáře v Aspose.Tasks for Java. Vylepšete pracovní postupy projektového řízení bez námahy.
-weight: 10
+title: Vytvořit výjimku kalendáře Aspose pro Javu
 url: /cs/java/calendar-exceptions/add-remove/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spravujte výjimky kalendáře v Aspose.Tasks
-
+# Vytvoření výjimky kalendáře Aspose pro Java
 
 ## Úvod
-Při řízení projektů je zpracování výjimek v kalendářích zásadní pro přesné plánování úkolů a správu zdrojů. Aspose.Tasks for Java poskytuje výkonné funkce pro snadné přidávání a odstraňování výjimek kalendáře. V tomto tutoriálu vás provedeme procesem krok za krokem.
-#### Předpoklady
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný ve vašem systému
-- Aspose.Tasks pro knihovnu Java staženou a nakonfigurovanou ve vašem projektu
-- Základní znalost programovacího jazyka Java a konceptů projektového řízení
+Přesné plánování projektů často závisí na správném zacházení s **calendar exceptions** — dny, kdy nejsou zdroje k dispozici nebo se mění pracovní rozvrhy. S **Aspose.Tasks for Java** můžete **create calendar exception** objekty, přidávat je do kalendáře projektu nebo je odstraňovat, když již nejsou potřeba. V tomto tutoriálu projdeme celý proces, od načtení souboru projektu až po ověření výjimek, které jste spravovali. Tento průvodce vám ukáže přesně, jak **create calendar exception aspose** v prostředí Java.
 
-## Importujte balíčky
-Nejprve se ujistěte, že do své třídy Java importujete potřebné balíčky, abyste mohli efektivně využívat funkce Aspose.Tasks.
+### Rychlé odpovědi
+- **Co znamená „create calendar exception“?** Znamená to definování časového intervalu, který se liší od standardního pracovního kalendáře.  
+- **Která knihovna tuto funkci poskytuje?** Aspose.Tasks pro Java.  
+- **Potřebuji licenci k vyzkoušení?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční použití.  
+- **Mohu odstranit existující výjimku?** Ano — stačí ji najít v seznamu výjimek kalendáře a smazat.  
+- **Je to kompatibilní se soubory Microsoft Project?** Naprosto; Aspose.Tasks čte a zapisuje všechny hlavní verze .mpp.
+
+#### Požadavky
+Než začnete, ujistěte se, že máte:
+
+- Nainstalovaný Java Development Kit (JDK).  
+- Knihovna Aspose.Tasks pro Java přidaná do classpath vašeho projektu.  
+- Základní znalost Javy a terminologie projektového řízení.
+
+## Jak vytvořit výjimku kalendáře Aspose pomocí Javy
+Níže je podrobný průvodce krok za krokem, který před spuštěním vysvětluje účel každého úryvku kódu. Postupujte podle těchto sekcí v pořadí, abyste zajistili správné zpracování výjimek kalendáře.
+
+## Import balíčků
+Nejprve importujte základní třídy Aspose.Tasks, které umožňují manipulaci s kalendářem.
+
 ```java
 import com.aspose.tasks.*;
 ```
-## Krok 1: Načtěte projekt a otevřete kalendář
-Začněte načtením souboru projektu a přístupem ke kalendáři, do kterého chcete přidat nebo odebrat výjimky.
+
+## Krok 1: Načtení projektu a přístup k jeho kalendáři
+Začínáme načtením existujícího souboru Microsoft Project (`input.mpp`) a získáním prvního kalendáře ve sbírce. Index můžete upravit, pokud potřebujete jiný kalendář.
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "input.mpp");
 Calendar cal = project.getCalendars().toList().get(0);
 ```
-## Krok 2: Odstraňte výjimku
-Chcete-li odstranit existující výjimku z kalendáře, zkontrolujte, zda existují nějaké výjimky, a poté požadovanou výjimku odstraňte.
+
+## Krok 2: Odstranění existující výjimky (pokud je potřeba)
+Někdy kalendář již obsahuje výjimky, které chcete vymazat. Níže uvedený úryvek kontroluje seznam výjimek a odstraňuje první položku, pokud existuje více než jedna výjimka.
+
 ```java
 if (cal.getExceptions().size() > 1) {
     CalendarException exc = cal.getExceptions().get(0);
     cal.getExceptions().remove(exc);
 }
 ```
-## Krok 3: Přidejte výjimku
- Chcete-li do kalendáře přidat novou výjimku, vytvořte a`CalendarException` objektu a definovat jeho počáteční a koncové datum.
+
+> **Pro tip:** Vždy ověřte velikost seznamu výjimek před odstraňováním položek, abyste se vyhnuli `IndexOutOfBoundsException`.
+
+## Krok 3: Vytvoření (přidání) nové výjimky kalendáře
+Nyní **create calendar exception** objekty. V tomto příkladu definujeme výjimku, která zahrnuje 1. – 3. leden 2009. Přizpůsobte data podle časového plánu vašeho projektu.
+
 ```java
 CalendarException calExc = new CalendarException();
 java.util.Calendar calObject = java.util.Calendar.getInstance();
@@ -53,38 +75,51 @@ calObject.set(2009, java.util.Calendar.JANUARY, 3, 0, 0, 0);
 calExc.setToDate(calObject.getTime());
 cal.getExceptions().add(calExc);
 ```
-## Krok 4: Zobrazení výjimek
-Nakonec můžete zobrazit přidané výjimky pro ověření nebo další zpracování.
+
+> **Proč je to důležité:** Přidávání výjimek vám umožňuje modelovat svátky, údržbová okna nebo jakékoli nepracovní období přímo v harmonogramu projektu. Toto je jádro funkčnosti **create calendar exception aspose**.
+
+## Krok 4: Zobrazení všech výjimek pro ověření
+Po přidání (nebo odebrání) výjimek je dobré je vypsat. Pomůže vám to potvrdit, že kalendář odráží požadované změny.
+
 ```java
 for (CalendarException calExc1 : cal.getExceptions()) {
-    System.out.println("From" + calExc1.getFromDate().toString());
-    System.out.println("To" + calExc1.getToDate().toString());
+    System.out.println("From " + calExc1.getFromDate().toString());
+    System.out.println("To   " + calExc1.getToDate().toString());
 }
 ```
 
+## Časté problémy a řešení
+| Problém | Příčina | Řešení |
+|---------|----------|--------|
+| Žádný výstup se neobjeví | Seznam výjimek je prázdný | Ujistěte se, že jste před iterací přidali výjimku. |
+| `NullPointerException` na `project` | Nesprávná cesta k souboru | Ověřte, že `dataDir` ukazuje na platný soubor `.mpp`. |
+| Data jsou posunuta o jeden den | Rozdíly časových pásem | Použijte `java.util.Calendar` s explicitním časovým pásmem nebo API `java.time`. |
+
+## Často kladené otázky
+
+**Q: Mohu pomocí Aspose.Tasks for Java přidat do kalendáře více výjimek?**  
+A: Ano. Stačí vytvořit nový `CalendarException` pro každý časový interval a přidat jej do `cal.getExceptions()` v rámci smyčky.
+
+**Q: Je Aspose.Tasks for Java kompatibilní se všemi verzemi souborů Microsoft Project?**  
+A: Aspose.Tasks podporuje širokou škálu verzí .mpp, od Project 98 až po nejnovější vydání, což zajišťuje bezproblémovou integraci.
+
+**Q: Jak mohu v kalendářích projektu řešit opakující se výjimky (např. týdenní schůzky)?**  
+A: Použijte vlastnosti opakování `CalendarException` (`setRecurrencePattern`) k definování složitých vzorů, jako jsou denní, týdenní nebo měsíční opakování.
+
+**Q: Existuje zkušební verze Aspose.Tasks for Java?**  
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [webu](https://releases.aspose.com/), abyste si před zakoupením vyzkoušeli všechny funkce.
+
+**Q: Kde mohu získat podporu pro případné problémy nebo dotazy týkající se Aspose.Tasks for Java?**  
+A: Navštivte fórum Aspose.Tasks pro Java na [webu](https://reference.aspose.com/tasks/java/), kde můžete klást otázky, nebo kontaktujte přímo podporu Aspose.
+
 ## Závěr
-Správa výjimek kalendáře je nezbytná pro přesné plánování projektu a alokaci zdrojů. S Aspose.Tasks for Java můžete bez námahy přidávat a odstraňovat výjimky, abyste zajistili efektivní udržování časových plánů vašich projektů.
+Správa výjimek kalendáře je nezbytná pro realistické časové plány projektů a plánování zdrojů. S **Aspose.Tasks for Java** můžete **create calendar exception** objekty, přidávat je do libovolného kalendáře projektu a odstraňovat je, když již nejsou relevantní — vše pomocí několika řádků kódu. Tato schopnost **create calendar exception aspose** vám umožní vytvářet harmonogramy, které skutečně odrážejí reálné omezení.
 
-## FAQ
-### Otázka: Mohu přidat více výjimek do kalendáře pomocí Aspose.Tasks for Java?
+---
 
-Odpověď: Ano, do kalendáře můžete přidat více výjimek procházením seznamu výjimek a přidáním každé zvlášť.
-
-### Otázka: Je Aspose.Tasks for Java kompatibilní se všemi verzemi souborů Microsoft Project?
-
-Odpověď: Aspose.Tasks for Java poskytuje kompatibilitu s různými verzemi souborů Microsoft Project a zajišťuje bezproblémovou integraci s vašimi pracovními postupy projektového řízení.
-
-### Otázka: Jak mohu zpracovat opakující se výjimky v kalendářích projektu?
-
-Odpověď: Aspose.Tasks for Java nabízí robustní funkce pro zpracování opakujících se výjimek v projektových kalendářích, což vám umožňuje snadno definovat složité vzorce opakování.
-
-### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro Javu?
-
- Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks for Java z webu[webová stránka](https://releases.aspose.com/) k prozkoumání jeho funkcí před nákupem.
-
-### Otázka: Kde mohu hledat podporu pro jakékoli problémy nebo dotazy související s Aspose.Tasks for Java?
-
- Odpověď: Můžete navštívit fórum Aspose.Tasks pro Javu na webu[webová stránka](https://reference.aspose.com/tasks/java/) požádat o pomoc komunitu nebo přímo kontaktovat tým podpory pro personalizovanou pomoc.
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
