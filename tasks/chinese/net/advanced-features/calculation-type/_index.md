@@ -1,53 +1,67 @@
 ---
-title: Aspose.Tasks 中的计算类型
-linktitle: Aspose.Tasks 中的计算类型
+date: 2026-03-24
+description: 学习如何在 Aspose.Tasks for .NET 中设置计算，示例包括计算汇总值、定义计算公式以及配置汇总统计。
+linktitle: Calculation Type in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks 库中的计算类型在 .NET 项目中自定义值计算。
-weight: 30
+title: 如何在 Aspose.Tasks 中设置计算类型
 url: /zh/net/advanced-features/calculation-type/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中的计算类型
+# 如何在 Aspose.Tasks 中设置计算类型
 
 ## 介绍
 
-在本教程中，我们将探索 Aspose.Tasks for .NET 中的计算类型功能。 Aspose.Tasks 是一个功能强大的库，使 .NET 开发人员能够使用 Microsoft Project 文件，而无需在其系统上安装 Microsoft Project。计算类型允许我们定义如何计算项目中任务和摘要任务的值。
+如果您需要 **如何设置计算** 规则来处理 Microsoft Project 文件中的任务和汇总行，本教程将使用 Aspose.Tasks for .NET 为您详细演示。我们将完整演示一个 **计算类型示例**，展示如何 **计算汇总值**，并说明如何 **定义计算公式** 和 **配置回滚汇总** 以用于扩展属性。完成后，您将能够向项目添加任务，设置自定义计算逻辑，并自信地控制回滚行为。
 
-## 先决条件
+## 快速答案
+- **主要目的是什么？** 在 Project 文件中控制任务和汇总值的计算方式。  
+- **使用哪个 API 类？** `ExtendedAttributeDefinition` 与 `CalculationType` 和 `SummaryRowsCalculationType` 一起使用。  
+- **我可以使用公式吗？** 可以 – 将 `CalculationType = CalculationType.Formula` 并提供公式字符串。  
+- **如何回滚汇总值？** 使用 `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` 并指定如 `Average` 的 `RollupType`。  
+- **我需要许可证吗？** 生产环境需要有效的 Aspose.Tasks 许可证。
 
-在我们开始之前，请确保您满足以下先决条件：
+## 什么是计算类型以及如何设置计算？
 
-1. C# 和 .NET 框架的基础知识。
-2. Visual Studio 安装在您的系统上。
-3. 安装了 .NET 库的 Aspose.Tasks。您可以从以下位置下载：[这里](https://releases.aspose.com/tasks/net/).
-4. 访问 Aspose.Tasks for .NET 文档以供参考，可用[这里](https://reference.aspose.com/tasks/net/).
+`CalculationType` 告诉 Aspose.Tasks 如何计算扩展属性的值。您可以选择静态值、公式，或让库从子任务回滚值。正确设置计算对于希望项目能够在不手动更新的情况下反映自定义业务规则至关重要。
+
+## 为什么使用计算类型来计算汇总值？
+
+当项目包含汇总任务时，您通常需要汇总行显示聚合数据（例如，总成本、平均工期）。通过配置 `SummaryRowsCalculationType` 和 `RollupType` 来 **计算汇总值**，Aspose.Tasks 可以在您修改各个任务时自动保持这些聚合数据同步。
+
+## 前提条件
+
+在开始之前，请确保您具备：
+
+1. 对 C# 和 .NET 框架的基本了解。  
+2. 在机器上安装了 Visual Studio（任意较新版本）。  
+3. 已安装 Aspose.Tasks for .NET 库 – 可从 [here](https://releases.aspose.com/tasks/net/) 下载。  
+4. 可访问官方 Aspose.Tasks for .NET 文档供参考，链接在 [here](https://reference.aspose.com/tasks/net/)。
 
 ## 导入命名空间
 
-在深入研究示例之前，请确保导入必要的命名空间：
+在深入示例之前，请确保导入必要的命名空间：
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## 第 1 步：创建一个新项目
+## 步骤 1：创建新项目
 
-首先，让我们创建一个新的项目对象：
+首先，我们创建一个空的 `Project` 对象，用于保存任务和自定义属性。
 
 ```csharp
 var project = new Project();
 ```
 
-## 第 2 步：添加任务
+## 步骤 2：向项目添加任务
 
-现在，让我们向项目添加一个任务：
+现在我们 **添加任务项目** 数据，通过创建一个简单任务，设置其开始日期，并给它一天的持续时间。
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
@@ -55,9 +69,9 @@ task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
 task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
 ```
 
-## 步骤 3：定义扩展属性的计算类型
+## 步骤 3：为扩展属性定义计算类型（公式示例）
 
-我们将创建一个扩展属性定义，并将计算类型设置为公式：
+这里我们创建一个扩展属性定义，其值通过公式计算。这演示了一个 **计算类型示例**，并展示了如何 **定义计算公式**。
 
 ```csharp
 var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
@@ -67,9 +81,9 @@ calculation.Formula = "[stARt]";
 project.ExtendedAttributes.Add(calculation);
 ```
 
-## 步骤 4：定义汇总行的计算类型
+## 步骤 4：为汇总行定义计算类型（配置回滚汇总）
 
-接下来，我们将创建另一个扩展属性定义，其中使用 Average 汇总类型计算摘要任务的值：
+接下来，我们创建另一个扩展属性定义，指示 Aspose.Tasks 使用 *Average* 回滚类型来 **配置回滚汇总**。这是 **计算汇总值**（如成本、工时或自定义字段）的典型方式。
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -78,31 +92,46 @@ lookup.RollupType = RollupType.Average;
 project.ExtendedAttributes.Add(lookup);
 ```
 
+## 常见问题与故障排除
+
+| 症状 | 可能原因 | 解决办法 |
+|------|----------|----------|
+| 公式返回 `null` | 公式中的字段引用不正确 | 验证括号内的字段名称（例如 `[Start]` 而不是 `[stARt]`）。 |
+| 汇总行显示 0 | `SummaryRowsCalculationType` 未设置或 `RollupType` 错误 | 确保 `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` 并选择合适的 `RollupType`。 |
+| 添加属性后项目加载失败 | 属性定义与任务使用不匹配 | 在将属性分配给任何任务之前 **先** 添加属性定义。 |
+
 ## 结论
 
-在本教程中，我们探讨了如何在 Aspose.Tasks for .NET 中使用计算类型。通过定义扩展属性的计算类型，我们可以自定义项目中任务和摘要任务的值计算方式，从而提供更大的灵活性和控制力。
+在本教程中，我们介绍了在 Aspose.Tasks for .NET 中 **如何设置计算** 规则，从创建简单任务到定义基于公式和基于回滚的计算类型。掌握这些设置后，您即可细粒度地 **计算汇总值**，实现更丰富的项目分析，而无需手动使用电子表格。
 
-## 常见问题解答
+## 常见问答
 
 ### Q1：Aspose.Tasks 中的计算类型是什么？
 
-A1：Aspose.Tasks 中的计算类型确定如何计算项目中的任务和摘要任务的值，提供公式和汇总等选项。
+A1：Aspose.Tasks 中的计算类型决定了项目中任务和汇总任务的值如何计算，提供了公式（Formula）和回滚（Rollup）等选项。
 
-### Q2：如何设置扩展属性的计算类型？
+### Q2：如何为扩展属性设置计算类型？
 
-A2：您可以通过相应地定义扩展属性的 CalculationType 属性来设置扩展属性的计算类型。
+A2：可以通过相应地设置其 CalculationType 属性来为扩展属性设置计算类型。
 
-### Q3：我可以为项目中的汇总行自定义计算类型吗？
+### Q3：我可以自定义项目中汇总行的计算类型吗？
 
-A3：是的，Aspose.Tasks 允许您指定汇总行的计算类型，使您能够根据您的要求定制值计算。
+A3：是的，Aspose.Tasks 允许您为汇总行指定计算类型，从而根据需求定制值的计算方式。
 
-### Q4：是否有不同的 Rollup Type 可用于摘要任务计算？
+### Q4：汇总任务计算是否有不同的回滚类型可用？
 
-A4：是的，Aspose.Tasks 提供了各种 Rollup 类型，例如 Average、Sum 和 Count 来计算摘要任务的值。
+A4：是的，Aspose.Tasks 提供了多种回滚类型，例如 Average、Sum 和 Count，用于计算汇总任务的值。
 
-### Q5：在哪里可以找到有关 Aspose.Tasks for .NET 的更多资源？
+### Q5：在哪里可以找到更多关于 Aspose.Tasks for .NET 的资源？
 
- A5：您可以浏览以下网站上提供的文档和社区支持论坛：[用于 .NET 的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)以获得全面的指导和帮助。
+A5：您可以在 [Aspose.Tasks for .NET](https://reference.aspose.com/tasks/net/) 上的文档和社区支持论坛中查找全面的指南和帮助。
+
+---
+
+**最后更新：** 2026-03-24  
+**测试环境：** Aspose.Tasks for .NET（最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

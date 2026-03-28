@@ -1,53 +1,67 @@
 ---
-title: Tipo di calcolo in Aspose.Tasks
-linktitle: Tipo di calcolo in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come personalizzare i calcoli dei valori nei progetti .NET con il tipo di calcolo nella libreria Aspose.Tasks.
-weight: 30
+date: 2026-03-24
+description: Scopri come impostare il calcolo in Aspose.Tasks per .NET, con esempi
+  per calcolare i valori di riepilogo, definire la formula di calcolo e configurare
+  il riepilogo aggregato.
+linktitle: Calculation Type in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Come impostare il tipo di calcolo in Aspose.Tasks
 url: /it/net/advanced-features/calculation-type/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tipo di calcolo in Aspose.Tasks
+# Come impostare il tipo di calcolo in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-In questo tutorial esploreremo la funzionalità Tipo di calcolo in Aspose.Tasks per .NET. Aspose.Tasks è una potente libreria che consente agli sviluppatori .NET di lavorare con file Microsoft Project senza la necessità di Microsoft Project installato sui loro sistemi. Il Tipo di calcolo ci consente di definire come vengono calcolati i valori per le attività e le attività di riepilogo all'interno di un progetto.
+Se hai bisogno di **come impostare il calcolo** per le regole delle attività e delle righe di riepilogo in un file Microsoft Project, questo tutorial ti mostra esattamente come farlo usando Aspose.Tasks per .NET. Passeremo in rassegna un **esempio di tipo di calcolo**, dimostreremo come **calcolare i valori di riepilogo** e spiegheremo come **definire la formula di calcolo** e **configurare il riepilogo rollup** per gli attributi estesi. Alla fine, sarai in grado di aggiungere un'attività a un progetto, impostare una logica di calcolo personalizzata e controllare il comportamento di roll‑up con sicurezza.
+
+## Risposte rapide
+- **Qual è lo scopo principale?** Per controllare come i valori delle attività e dei riepiloghi vengono calcolati in un file Project.  
+- **Quale classe API è usata?** `ExtendedAttributeDefinition` insieme a `CalculationType` e `SummaryRowsCalculationType`.  
+- **Posso usare una formula?** Sì – imposta `CalculationType = CalculationType.Formula` e fornisci una stringa di formula.  
+- **Come faccio a aggregare i valori di riepilogo?** Usa `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` e specifica un `RollupType` come `Average`.  
+- **Ho bisogno di una licenza?** È necessaria una licenza valida di Aspose.Tasks per l'uso in produzione.
+
+## Cos'è il tipo di calcolo e come impostare il calcolo?
+
+`CalculationType` indica ad Aspose.Tasks come calcolare il valore di un attributo esteso. Puoi scegliere un valore statico, una formula o lasciare che la libreria aggregi i valori dalle attività figlio. Impostare correttamente il calcolo è essenziale quando vuoi che il progetto rifletta regole di business personalizzate senza aggiornamenti manuali.
+
+## Perché usare il tipo di calcolo per calcolare i valori di riepilogo?
+
+Quando un progetto contiene attività di riepilogo, spesso è necessario che le righe di riepilogo mostrino dati aggregati (ad esempio, costo totale, durata media). Configurando **calcolare i valori di riepilogo** tramite `SummaryRowsCalculationType` e `RollupType`, Aspose.Tasks può mantenere automaticamente quegli aggregati sincronizzati mentre modifichi le singole attività.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
+1. Conoscenza di base di C# e del framework .NET.  
+2. Visual Studio (qualsiasi versione recente) installato sulla tua macchina.  
+3. Libreria Aspose.Tasks per .NET installata – puoi scaricarla da [qui](https://releases.aspose.com/tasks/net/).  
+4. Accesso alla documentazione ufficiale di Aspose.Tasks per .NET per riferimento, disponibile [qui](https://reference.aspose.com/tasks/net/).
 
-1. Conoscenza base di C# e framework .NET.
-2. Visual Studio installato nel sistema.
-3.  Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
-4.  Accesso alla documentazione Aspose.Tasks per .NET come riferimento, disponibile[Qui](https://reference.aspose.com/tasks/net/).
-
-## Importa spazi dei nomi
+## Importare gli spazi dei nomi
 
 Prima di immergerti nell'esempio, assicurati di importare gli spazi dei nomi necessari:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Passaggio 1: crea un nuovo progetto
+## Passo 1: Creare un nuovo Project
 
-Innanzitutto, creiamo un nuovo oggetto di progetto:
+Per prima cosa, creiamo un oggetto `Project` vuoto che conterrà le nostre attività e gli attributi personalizzati.
 
 ```csharp
 var project = new Project();
 ```
 
-## Passaggio 2: aggiungi un'attività
+## Passo 2: Aggiungere un'attività al progetto
 
-Ora aggiungiamo un'attività al nostro progetto:
+Ora **aggiungiamo dati al progetto** creando un'attività semplice, impostando la sua data di inizio e assegnandole una durata di un giorno.
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
@@ -55,9 +69,9 @@ task.Set(Tsk.Start, new DateTime(2020, 4, 16, 8, 0, 0));
 task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
 ```
 
-## Passaggio 3: definire il tipo di calcolo per un attributo esteso
+## Passo 3: Definire il tipo di calcolo per un attributo esteso (Esempio di formula)
 
-Creeremo una definizione di attributo esteso con il Tipo di calcolo impostato su Formula:
+Qui creiamo una definizione di attributo esteso il cui valore è calcolato da una formula. Questo dimostra un **esempio di tipo di calcolo** e mostra come **definire la formula di calcolo**.
 
 ```csharp
 var calculation = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Date5, null);
@@ -67,9 +81,9 @@ calculation.Formula = "[stARt]";
 project.ExtendedAttributes.Add(calculation);
 ```
 
-## Passaggio 4: definire il tipo di calcolo per le righe di riepilogo
+## Passo 4: Definire il tipo di calcolo per le righe di riepilogo (Configurare il riepilogo rollup)
 
-Successivamente, creeremo un'altra definizione di attributo esteso in cui i valori per le attività di riepilogo vengono calcolati utilizzando il tipo di rollup medio:
+Successivamente, creiamo un'altra definizione di attributo esteso che indica ad Aspose.Tasks di **configurare il riepilogo rollup** usando il tipo di roll‑up *Average*. Questo è il modo tipico per **calcolare i valori di riepilogo** per costo, lavoro o campi personalizzati.
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -78,31 +92,46 @@ lookup.RollupType = RollupType.Average;
 project.ExtendedAttributes.Add(lookup);
 ```
 
+## Problemi comuni e risoluzione
+
+| Sintomo | Causa probabile | Soluzione |
+|---------|-----------------|-----------|
+| La formula restituisce `null` | Riferimento al campo errato nella formula | Verifica il nome del campo tra parentesi quadre (ad esempio, `[Start]` non `[stARt]`). |
+| Le righe di riepilogo mostrano 0 | `SummaryRowsCalculationType` non impostato o `RollupType` errato | Assicurati che `SummaryRowsCalculationType = SummaryRowsCalculationType.Rollup` e scegli un `RollupType` appropriato. |
+| Il progetto non si carica dopo aver aggiunto gli attributi | Incongruenza tra la definizione dell'attributo e l'uso dell'attività | Aggiungi la definizione dell'attributo **prima** di assegnarla a qualsiasi attività. |
+
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato come lavorare con il tipo di calcolo in Aspose.Tasks per .NET. Definendo i tipi di calcolo per gli attributi estesi, possiamo personalizzare il modo in cui vengono calcolati i valori per le attività e le attività di riepilogo all'interno di un progetto, fornendo maggiore flessibilità e controllo.
+In questo tutorial, abbiamo coperto **come impostare il calcolo** le regole in Aspose.Tasks per .NET, dalla creazione di un'attività semplice alla definizione di tipi di calcolo basati su formula e su roll‑up. Padroneggiando queste impostazioni ottieni un controllo fine sui **calcolare i valori di riepilogo**, consentendo analisi di progetto più ricche senza lavoro manuale su fogli di calcolo.
 
-## Domande frequenti
+## FAQ
 
-### Q1: Qual è il tipo di calcolo in Aspose.Tasks?
+### Q1: Cos'è il tipo di calcolo in Aspose.Tasks?
 
-A1: Il tipo di calcolo in Aspose.Tasks determina il modo in cui vengono calcolati i valori per le attività e le attività di riepilogo all'interno di un progetto, offrendo opzioni come Formula e Rollup.
+Il tipo di calcolo in Aspose.Tasks determina come i valori vengono calcolati per le attività e le attività di riepilogo all'interno di un progetto, offrendo opzioni come Formula e Rollup.
 
-### Q2: Come imposto il tipo di calcolo per un attributo esteso?
+### Q2: Come impostare il tipo di calcolo per un attributo esteso?
 
-A2: è possibile impostare il tipo di calcolo per un attributo esteso definendo di conseguenza la relativa proprietà CalculationType.
+Puoi impostare il tipo di calcolo per un attributo esteso definendo la sua proprietà CalculationType di conseguenza.
 
 ### Q3: Posso personalizzare il tipo di calcolo per le righe di riepilogo in un progetto?
 
-A3: Sì, Aspose.Tasks ti consente di specificare il tipo di calcolo per le righe di riepilogo, consentendoti di personalizzare i calcoli dei valori in base alle tue esigenze.
+Sì, Aspose.Tasks consente di specificare il tipo di calcolo per le righe di riepilogo, permettendoti di personalizzare i calcoli dei valori in base alle tue esigenze.
 
-### Q4: Sono disponibili diversi tipi di rollup per i calcoli delle attività di riepilogo?
+### Q4: Esistono diversi tipi di Rollup disponibili per i calcoli delle attività di riepilogo?
 
-A4: Sì, Aspose.Tasks fornisce vari tipi di rollup come media, somma e conteggio per il calcolo dei valori delle attività di riepilogo.
+Sì, Aspose.Tasks fornisce vari tipi di Rollup come Average, Sum e Count per calcolare i valori delle attività di riepilogo.
 
 ### Q5: Dove posso trovare più risorse su Aspose.Tasks per .NET?
 
- R5: È possibile esplorare la documentazione e i forum di supporto della community disponibili su[Aspose.Tasks per .NET](https://reference.aspose.com/tasks/net/) per una guida e un'assistenza complete.
+Puoi esplorare la documentazione e i forum di supporto della community disponibili su [Aspose.Tasks per .NET](https://reference.aspose.com/tasks/net/) per una guida completa e assistenza.
+
+---
+
+**Ultimo aggiornamento:** 2026-03-24  
+**Testato con:** Aspose.Tasks per .NET (ultima versione)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

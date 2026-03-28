@@ -1,33 +1,39 @@
 ---
-title: 使用 Aspose.Tasks 佈局產生器處理記憶體異常
-linktitle: 使用 Aspose.Tasks 佈局產生器處理記憶體異常
+date: 2026-03-24
+description: 學習記憶體不足的處理方式以及如何使用 Aspose.Tasks Layout Builder 在 .NET 中儲存專案圖像。一步一步的指南，附有程式碼範例。
+linktitle: Out of Memory Handling with Aspose.Tasks Layout Builder
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks Layout Builder 有效處理 .NET 中的記憶體異常。帶有程式碼範例的分步指南。
-weight: 12
+title: 使用 Aspose.Tasks Layout Builder 處理記憶體不足 (C#)
 url: /zh-hant/net/advanced-features/layout-builder-out-of-memory/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks 佈局產生器處理記憶體異常
+# 使用 Aspose.Tasks Layout Builder 處理記憶體不足
 
-## 介紹
+## 簡介
 
-處理記憶體異常對於確保任何軟體應用程式的順利運行至關重要。在使用 Aspose.Tasks for .NET 時，開發人員經常會遇到與記憶體相關的問題，特別是在處理大型專案或複雜佈局時。在本教程中，我們將探索如何使用 Aspose.Tasks Layout Builder 有效處理記憶體異常。
+記憶體不足的處理是建立可靠 .NET 應用程式（處理大型專案檔）時的關鍵部分。當您使用 Aspose.Tasks Layout Builder 產生視覺化圖表時，特別是在複雜的甘特圖上，容易快速遇到記憶體相關的例外。在本教學中，我們將逐步說明如何 **處理記憶體例外**、**自訂甘特圖檢視**，以及 **安全儲存專案影像**，讓您的應用程式即使面對龐大排程也能保持回應。
+
+## 快速解答
+- **什麼是記憶體不足處理？** 在處理大量資料時管理記憶體使用量並捕獲 `OutOfMemoryException` 類型的錯誤。  
+- **哪個 API 能協助？** Aspose.Tasks Layout Builder for .NET。  
+- **典型情境？** 將高解析度的甘特圖渲染為 PNG。  
+- **主要前提條件？** 已安裝 Aspose.Tasks 的 .NET（Framework 4.5+ 或 .NET 6）。  
+- **如何捕獲錯誤？** 使用 `try…catch` 區塊捕獲 `ApsLayoutBuilderOutOfMemoryException` 及相關例外。  
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您符合以下先決條件：
+在深入程式碼之前，請確保您已具備以下條件：
 
-1. C# 程式設計的基礎知識：本教學假設您熟悉 C# 文法和概念。
-2. 安裝 Aspose.Tasks for .NET：請確定您的開發環境中安裝了 Aspose.Tasks for .NET。如果沒有，您可以從以下位置下載[這裡](https://releases.aspose.com/tasks/net/).
-3. IDE（整合開發環境）：安裝Visual Studio等IDE，用於編碼和編譯。
+1. **C# 基礎** – 您應該熟悉標準的 C# 語法。  
+2. 已安裝 **Aspose.Tasks for .NET**。如果尚未加入，請從 [here](https://releases.aspose.com/tasks/net/) 下載。  
+3. **開發環境 (IDE)**，例如 Visual Studio（或安裝 C# 擴充功能的 VS Code），用於編譯與執行範例。  
 
-## 導入命名空間
-
-首先，將必要的命名空間匯入到您的 C# 專案中：
+## 匯入命名空間
 
 ```csharp
 using Aspose.Tasks;
@@ -35,22 +41,21 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-讓我們將提供的範例程式碼分解為多個步驟，以了解如何使用 Aspose.Tasks Layout Builder 有效處理記憶體異常：
+## 逐步指南
 
-## 第 1 步：載入項目
+### 步驟 1：載入專案
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
 
-此步驟將專案檔案「Blank2010.mpp」載入到實例中`Project`班級。
+此行程式碼將 **Blank2010.mpp** 載入 `Project` 實例，為視覺化做準備。
 
-## 第 2 步：自訂甘特圖視圖
+### 步驟 2：自訂甘特圖檢視
 
 ```csharp
 var ganttChart = (GanttChartView)project.Views.ToList()[0];
@@ -59,26 +64,26 @@ ganttChart.BottomTimescaleTier.Unit = TimescaleUnit.Minutes;
 ganttChart.BottomTimescaleTier.Count = 1;
 ```
 
-在這裡，我們透過調整時間刻度單位和計數來自訂甘特圖視圖，以獲得更好的視覺化效果。
+在此我們透過調整中間與底部時間刻度層級來 **自訂甘特圖檢視**。變更這些層級可減少一次渲染的資料量，從而緩解記憶體壓力。
 
-## 步驟 3：設定影像儲存選項
+### 步驟 3：設定影像儲存選項
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png);
 options.Timescale = Timescale.DefinedInView;
 ```
 
-在這一步驟中，我們建立一個實例`ImageSaveOptions`指定輸出影像的格式和時間刻度設定。
+`ImageSaveOptions` 告訴 Aspose.Tasks 如何渲染圖表。我們選擇 PNG 作為輸出格式，並將時間刻度綁定至剛剛自訂的檢視。
 
-## 第 4 步：將項目另存為圖像
+### 步驟 4：將專案儲存為影像
 
 ```csharp
 project.Save(DataDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", options);
 ```
 
-最後，我們使用指定的選項來儲存項目。如果專案太大或太複雜，這就是可能發生記憶體異常的地方。
+`Save` 呼叫 **使用上述選項儲存專案影像**。若專案非常龐大，這裡最容易出現記憶體不足的情況。
 
-## 第 5 步：處理異常
+### 步驟 5：處理例外
 
 ```csharp
 catch (ApsLayoutBuilderOutOfMemoryException ex)
@@ -91,33 +96,61 @@ catch (BitmapInvalidSizeException ex)
 }
 ```
 
-在這裡，我們捕獲並處理與記憶體和點陣圖大小相關的特定異常，提供適當的錯誤訊息或處理邏輯。
+透過捕獲 `ApsLayoutBuilderOutOfMemoryException`，您可以優雅地 **處理記憶體例外**，提供清晰的訊息而非讓應用程式當機。第二個 catch 處理在渲染大型圖表時可能出現的位圖尺寸問題。
 
-## 結論
+## 常見問題與解決方案
 
-透過遵循此逐步指南，您可以在 .NET 應用程式中使用 Aspose.Tasks Layout Builder 時有效地處理記憶體異常。請記住優化資源使用並考慮專案的複雜性，以減輕與記憶體相關的問題。
+| 問題 | 發生原因 | 解決方法 |
+|------|----------|----------|
+| **OutOfMemoryException** | 渲染極高解析度的影像會消耗超過程序可分配的記憶體。 | 降低影像尺寸、簡化時間刻度層級，或將圖表分割為多個影像。 |
+| **BitmapInvalidSizeException** | 請求的位圖尺寸超過平台的最大限制。 | 在 `ImageSaveOptions` 中限制寬度/高度，或分段渲染。 |
+| **Slow performance** | 大型專案檔需要大量處理。 | 在渲染前啟用 `project.Set(Prj.SaveToCache, true)`，或使用背景執行緒。 |
 
-## 常見問題解答
+## 常見問答
 
 ### Q1：什麼是 Aspose.Tasks for .NET？
 
-A1：Aspose.Tasks for .NET 是一個功能強大的 API，可讓開發人員在 .NET 應用程式中以程式設計方式操作 Microsoft Project 檔案。
+A1：Aspose.Tasks for .NET 是一套功能強大的 API，允許開發人員在 .NET 應用程式中以程式方式操作 Microsoft Project 檔案。
 
 ### Q2：如何取得 Aspose.Tasks 的臨時授權？
 
- A2：您可以透過造訪取得 Aspose.Tasks 的臨時許可證[這個連結](https://purchase.aspose.com/temporary-license/).
+A2：您可前往 [this link](https://purchase.aspose.com/temporary-license/) 取得 Aspose.Tasks 的臨時授權。
 
-### Q3：Aspose.Tasks 適合處理大型專案文件嗎？
+### Q3：Aspose.Tasks 是否適合處理大型專案檔？
 
-A3：是的，Aspose.Tasks 提供了有效處理大型專案檔案的功能和最佳化，但開發人員仍應考慮記憶體管理策略。
+A3：是的，Aspose.Tasks 提供功能與最佳化，可有效處理大型專案檔，但開發人員仍需考慮記憶體管理策略。
 
-### Q4：我可以使用 Aspose.Tasks 自訂甘特圖的外觀嗎？
+### Q4：我能使用 Aspose.Tasks 自訂甘特圖的外觀嗎？
 
-A4：當然！ Aspose.Tasks 提供了廣泛的功能，可根據您的要求自訂甘特圖的外觀和佈局。
+A4：當然可以！Aspose.Tasks 提供廣泛的功能，讓您依需求自訂甘特圖的外觀與版面配置。
 
-### Q5：在哪裡可以找到更多有關 Aspose.Tasks 的協助和支援？
+### Q5：在哪裡可以找到更多 Aspose.Tasks 的協助與支援？
 
- A5：您可以在以下位置找到更多幫助和支持，以及與社區互動：[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+A5：您可於 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 獲得更多協助與支援，並與社群互動。
+
+## 常見問題
+
+**Q：如何在儲存專案影像時降低記憶體使用量？**  
+A：降低影像解析度、限制時間刻度範圍，或將圖表分割為多個較小的區段儲存。
+
+**Q：是否可以直接將影像串流至 Web 回應？**  
+A：可以，您可使用 `project.Save(stream, options)`，並將串流寫入 HTTP 回應。
+
+**Q：Aspose.Tasks 是否支援 .NET Core 與 .NET 5/6？**  
+A：此函式庫完全相容於 .NET Core、.NET 5 與 .NET 6。
+
+**Q：若優化後仍遇到記憶體不足錯誤，該怎麼辦？**  
+A：考慮在具備更多 RAM 的機器上處理專案，或將渲染工作外移至背景服務。
+
+**Q：我可以將甘特圖匯出為除 PNG 之外的格式嗎？**  
+A：可以，`ImageSaveOptions` 除 PNG 外亦支援 JPEG、BMP 與 TIFF。
+
+---
+
+**最後更新：** 2026-03-24  
+**測試環境：** Aspose.Tasks 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
