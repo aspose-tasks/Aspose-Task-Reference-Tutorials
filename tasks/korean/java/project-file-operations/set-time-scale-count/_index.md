@@ -1,10 +1,10 @@
 ---
-date: 2025-12-21
-description: Aspose.Tasks for Java를 사용하여 Gantt 차트 뷰를 사용자 정의하고, 프로젝트 시각화를 관리하며, 프로젝트를
-  PDF로 저장하는 방법을 배웁니다. 시간 축 개수를 손쉽게 조정하십시오.
+date: 2026-03-29
+description: Aspose.Tasks for Java를 사용하여 Gantt 차트 시간 눈금 수를 사용자 정의하면서 프로젝트 PDF 파일을
+  만드는 방법을 배웁니다. 이 가이드는 전체 제어를 통해 Gantt를 PDF로 내보내는 단계별 방법을 보여줍니다.
 linktitle: Set Time Scale Count in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 간트 차트 맞춤 설정 – Aspose.Tasks에서 MS Project 시간 눈금 개수 마스터하기
+title: 프로젝트 PDF 만들기 – 간트 차트 시간 눈금 맞춤
 url: /ko/java/project-file-operations/set-time-scale-count/
 weight: 22
 ---
@@ -13,27 +13,32 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gantt 차트 사용자 지정 – Aspose.Tasks에서 MS Project 시간 눈금 카운트 마스터하기
+# 프로젝트 PDF 만들기 – 간트 차트 시간 눈금 사용자 정의
 
 ## 소개
-Microsoft Project에서 **Gantt 차트**를 끌어야 하는 경우, 시간 눈금 카운트를 제어하는 ​​것이 핵심 기술입니다. Aspose.Tasks for Java를 사용하면 하단 및 기본 시간 눈금 티어를 프로그래밍 방식으로 설정하고, 눈금 표시를 처리한 후 **프로젝트를 PDF로 생성**하여 이해를 공유할 수 있습니다. 이 튜토리얼은 환경 설정부터 사용자가 지정한 Ganttify를 복잡하게 PDF 생성까지 전체 과정을 완료하도록 안내합니다.
+완벽하게 조정된 간트 차트를 반영하는 **프로젝트 PDF 만들기** 파일이 필요하다면, 시간 눈금 개수를 제어하는 것이 핵심입니다. Aspose.Tasks for Java를 사용하면 하단 및 중간 시간 눈금 티어를 프로그래밍 방식으로 설정하고 눈금 표시를 숨긴 다음, **프로젝트를 PDF로 저장**하여 쉽게 배포할 수 있습니다. 이 튜토리얼에서는 개발 환경 설정부터 맞춤형 간트 뷰를 보여주는 정교한 PDF 생성까지 필요한 모든 과정을 단계별로 안내합니다.
 
 ## 빠른 답변
-- **“Gantt 차트 사용자 지정”이란 무엇입니까?** 시간 눈금 티어, 색상 및 위치를 조정하여 보고 요청 사항에 만족하는 작업입니다.
-- **하단 티어 카운트를 설정하는 API 메서드는?** `view.getBottomTimescaleTier().setCount(int)`.
-- **프로젝트에서 직접 PDF를 생성할 수 있습니까?** 예—`project.save(..., SaveFileFormat.Pdf)`를 사용합니다.
-- **프로덕션 사용에 필요한 가요?** 기적이 필요하며, 무료 체험판을 제공하고 있습니다.
-- **지원되는 Java 버전은?** 최신 Aspose.Tasks 라이브러리는 Java8에서 이상 동작합니다.
+- **“간트 차트 사용자 정의”가 의미하는 바는?** 보고 요구에 맞게 시간 눈금 티어, 색상 및 레이아웃을 조정하는 것입니다.  
+- **하단 티어 개수를 설정하는 API 메서드는?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **프로젝트에서 직접 PDF를 생성할 수 있나요?** 예—`project.save(..., SaveFileFormat.Pdf)`를 사용합니다.  
+- **프로덕션 사용에 라이선스가 필요합니까?** 상업용 라이선스가 필요하며, 무료 체험판을 사용할 수 있습니다.  
+- **지원되는 Java 버전은?** 최신 Aspose.Tasks 라이브러리는 Java 8 이상에서 작동합니다.
 
-## Aspose.Tasks의 "간트 차트 사용자 정의"란 무엇입니까?
-Gantt 차트를 사용자가 지정한다는 것은 시간 눈금 슬라이더, 눈금 표시, 작업 린드 등을 나타내는 요소를 프로그래밍 방식으로 변경하여 **프로젝트 관리**에 놀라운 차트를 조정하는 것을 의미합니다. 시간 눈 카금 운트를 변경하면 각 동작을 통해 달, 몇 주, 몇 주 동안 관심을 제어할 수 있어 다양한 대상에게 차트를 더 많이 이해할 수 있습니다.
+## Aspose.Tasks에서 “간트 차트 사용자 정의”란?
+간트 차트를 사용자 정의한다는 것은 시간 눈금 간격, 눈금 표시, 작업 막대와 같은 시각적 요소를 프로그래밍 방식으로 변경하여 차트가 **프로젝트 시각화 관리** 방식에 맞도록 만드는 것을 의미합니다. 시간 눈금 개수를 변경하면 각 구간이 며칠, 몇 주, 몇 달을 나타내는지를 제어할 수 있어 다양한 청중에게 차트를 더 명확하게 보여줄 수 있습니다.
+
+## 맞춤형 간트 차트로 프로젝트 PDF를 만드는 이유
+- **이해관계자용 출력:** PDF는 모든 환경에서 볼 수 있어 모든 사람이 동일한 일정 레이아웃을 확인할 수 있습니다.  
+- **인쇄 친화적:** 시간 눈금 티어를 정밀하게 제어하면 혼잡하거나 모호한 인쇄물을 방지할 수 있습니다.  
+- **자동화:** PDF 생성을 CI 파이프라인이나 보고 서비스에 통합하여 수동 작업을 전혀 필요 없게 합니다.  
 
 ## 전제 조건
-시작하기 전에 다음을 준비하세요:
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
 
-1. **Java 개발환경** – JDK 8이상 설치.
-2. **Aspose.Tasks for Java 라이브러리** – [여기](https://releases.aspose.com/tasks/java/)에서 다운로드하세요.
-3. **기본 Java 지식** – Java™와 함께 움직이는 개념에 대한 개념입니다.
+1. **Java 개발 환경** – JDK 8 이상 설치.  
+2. **Aspose.Tasks for Java 라이브러리** – [여기](https://releases.aspose.com/tasks/java/)에서 다운로드하십시오.  
+3. **기본 Java 지식** – Java 구문 및 객체 지향 개념에 익숙함.  
 
 ## 패키지 가져오기
 Java 프로젝트에 필요한 클래스를 가져옵니다:
@@ -49,54 +54,54 @@ import com.aspose.tasks.Tsk;
 
 ## 단계별 가이드
 
-### 1단계: 데이터 디렉터리 설정
-프로젝트 파일을 읽고 쓸 디렉터리를 정의합니다:
+### 단계 1: 데이터 디렉터리 설정
+프로젝트 파일을 읽고 쓸 위치를 정의합니다:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-`"Your Data Directory"`를 실제 머신의 절대 경로로 교체하세요.
+`"Your Data Directory"`를 머신의 절대 경로로 교체하십시오.
 
-### 2단계: 새 프로젝트 인스턴스 생성
-모든 작업 및 뷰 설정을 보관할 새로운 `Project` 객체를 인스턴스화합니다:
+### 단계 2: 새 Project 인스턴스 만들기
+모든 작업 및 보기 설정을 보관할 새로운 `Project` 객체를 인스턴스화합니다:
 
 ```java
 Project project = new Project();
 ```
 
-### 3단계: 간트 차트 보기 구성
-`GanttChartView` 객체를 생성합니다—이 객체를 통해 **Gantt 뷰 Java** 코드를 생성하고 차트 외관을 제어합니다:
+### 단계 3: 간트 차트 보기 구성
+`GanttChartView` 객체를 생성합니다—여기에서 차트 모양을 제어하기 위한 **Gantt view Java** 코드를 **생성**하게 됩니다:
 
 ```java
 GanttChartView view = new GanttChartView();
 ```
 
-### 4단계: 하단 계층 시간 눈금 개수 설정
-하단 티어를 두 개의 간격으로 표시하고 눈금 표시를 숨깁니다:
+### 단계 4: 하단 티어의 시간 눈금 개수 설정
+하단 티어를 두 개의 구간으로 표시하고 눈금 표시를 숨기도록 조정합니다:
 
 ```java
 view.getBottomTimescaleTier().setCount(2);
 view.getBottomTimescaleTier().setShowTicks(false);
 ```
 
-### 5단계: 중간 계층 시간 눈금 개수 설정
-중간 티어에도 동일한 구성을 적용합니다:
+### 단계 5: 중간 티어의 시간 눈금 개수 설정
+같은 구성을 중간 티어에도 적용합니다:
 
 ```java
 view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
 
-### 6단계: 사용자 지정 보기를 프로젝트에 추가
-구성한 뷰를 `Project` 인스턴스에 추가합니다:
+### 단계 6: 맞춤형 보기를 Project에 추가
+방금 구성한 보기를 `Project` 인스턴스에 연결합니다:
 
 ```java
 project.getViews().add(view);
 ```
 
-### 7단계: 샘플 작업(테스트 데이터) 추가
-사용자 지정 Gantt 차트를 보여줄 수 있도록 특정 기간을 가진 작업 몇 개를 생성합니다:
+### 단계 7: 샘플 작업 추가 (테스트 데이터)
+맞춤형 간트 차트를 보여주기 위해 특정 기간을 가진 몇 개의 작업을 생성합니다:
 
 ```java
 Task task1 = project.getRootTask().getChildren().add("Task 1");
@@ -105,48 +110,48 @@ task1.set(Tsk.DURATION, task1.getParentProject().getDuration(24, TimeUnitType.Ho
 task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Hour));
 ```
 
-### 8단계: 프로젝트를 PDF로 저장
-마지막으로 **사용자 지정된 Gantt 차트**를 포함한 프로젝트를 PDF 파일로 내보냅니다:
+### 단계 8: Project를 PDF로 저장
+마지막으로, **맞춤형 간트 차트**를 포함한 프로젝트를 PDF 파일로 내보냅니다:
 
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
 
-생성된 PDF는 하단 및 중간 시간 눈금 티어가 **사용자 지정**된 모습을 보여주어 이해관계자에게 명확하고 인쇄 가능한 일정 뷰를 제공합니다.
+생성된 PDF는 하단 및 중간 시간 눈금 티어가 **사용자 정의**된 방식을 보여주며, 이해관계자에게 명확하고 인쇄 가능한 일정 뷰를 제공합니다.
 
-## 일반적인 문제 및 문제 해결
-- **PDF가 빈 페이지로 표시** – `dataDir`가 정의 파일 구분자(`/` 또는 `\`)로 표시, 릴레이가 실제로 존재하는지 확인하세요.
-- **눈금이 상태 표시되었습니다** – 두 팀 모두 `setShowTicks(false)`가 호출되었는지 확인하세요.
-- **기간이 적용되지 않습니다** – 작업 기간을 생성할 때 `TimeUnitType.Hour`(또는 의도적인 단위)를 사용하도록 확인하세요.
+## 일반적인 문제 및 해결 방법
+- **PDF가 비어 있음** – `dataDir` 경로가 파일 구분자(`/` 또는 `\`)로 끝나고 디렉터리가 존재하는지 확인하십시오.  
+- **눈금이 여전히 표시됨** – 두 티어 모두에서 `setShowTicks(false)`가 호출되었는지 확인하십시오.  
+- **기간이 적용되지 않음** – 기간을 생성할 때 `TimeUnitType.Hour`(또는 적절한 단위)를 사용하고 있는지 확인하십시오.  
 
 ## 자주 묻는 질문
 
-**Q: Aspose.Tasks for Java가 프로젝트 파일을 처리할 수 있나요?**
-A: 예를 들어, 라이벌은 애플리케이션 모듈을 복잡하게 처리하도록 최적화되어 있습니다.
+**Q: Aspose.Tasks for Java가 대규모 프로젝트 파일을 처리할 수 있나요?**  
+A: 예, 이 라이브러리는 방대한 프로젝트 데이터를 고성능으로 처리하도록 최적화되었습니다.
 
-**Q: Aspose.Tasks for Java가 다양한 Java IDE와 호환되나요?**
-A: 물론입니다 – Eclipse, IntelliJ IDEA, NetBeans 등 주요 IDE와 별개히 작동합니다.
+**Q: Aspose.Tasks for Java가 다양한 Java IDE와 호환되나요?**  
+A: 물론입니다 – Eclipse, IntelliJ IDEA, NetBeans 및 기타 인기 IDE와 원활하게 작동합니다.
 
-**Q: 시간 눈금 설정 독수리 Gantt 차트 구성을 더 커스터마이즈할 수 있나요?**
-A: 예, Aspose.Tasks는 링크 색상, 색상, 그리드 라인 등 광범위한 스타일 옵션을 제공합니다.
+**Q: 시간 눈금 설정 외에도 간트 차트의 외관을 사용자 정의할 수 있나요?**  
+A: 예, Aspose.Tasks는 막대 색상, 글꼴, 그리드 라인 등 다양한 스타일 옵션을 제공합니다.
 
-**Q: Aspose.Tasks for Java의 체험 버전을 제공하는데요?**
-A: 예, [여기](https://releases.aspose.com/)에서 무료 체험 버전을 받아보실 수 있습니다.
+**Q: Aspose.Tasks for Java용 체험 버전이 있나요?**  
+A: 예, [여기](https://releases.aspose.com/)에서 무료 체험 버전을 받을 수 있습니다.
 
-**Q: Aspose.Tasks for Java에 대한 지원은 받을 수 없나요?**
-A: Aspose.Tasks [여기](https://forum.aspose.com/c/tasks/15)에서 지원 및 지원을 받을 수 있습니다.
+**Q: Aspose.Tasks for Java에 대한 지원은 어디서 받을 수 있나요?**  
+A: Aspose.Tasks 포럼 [여기](https://forum.aspose.com/c/tasks/15)에서 지원 및 도움을 받을 수 있습니다.
 
-**Q: Gantt 차트 배경 색상을 어떻게 변경하려면 어떻게 해야 합니까?**
-A: `java.awt.Color`를 가져오는 `view.getGanttChartProperties().setBackgroundColor(Color)` 메서드를 사용합니다.
+**Q: 프로그래밍 방식으로 간트 차트의 배경 색상을 변경하려면 어떻게 해야 하나요?**  
+A: `java.awt.Color`를 가져온 후 `view.getGanttChartProperties().setBackgroundColor(Color)` 메서드를 사용합니다.
 
 ## 결론
-이 단계들을 따라서는 **Gantt 차트** 시간 눈금 티어를 **사용자 지정**하고 **프로젝트 요구**를 개선하며 Aspose.Tasks for Java를 사용하여 **프로젝트를 PDF로 저장**하는 방법을 적합하게 합니다. 이 접근 방식은 보고에 대한 완전한 제어를 제공하여 팀이나 클라이언트와 전문적인 작업 정보를 쉽게 공유할 수 있습니다.
+이 단계들을 따라 하면 **프로젝트 PDF 만들기** 파일을 완전히 맞춤화된 간트 차트 시간 눈금으로 생성하고, **프로젝트 시각화**를 개선하며, Aspose.Tasks for Java를 사용해 **프로젝트를 PDF로 저장**하는 방법을 배웠습니다. 이 접근 방식은 시각적 출력에 대한 완전한 제어를 제공하여 팀이나 클라이언트와 명확하고 전문적인 일정을 쉽게 공유할 수 있게 합니다.
 
 ---
 
-**최종 업데이트:** 2025-12-21
-**테스트 대상:** Aspose.Tasks for Java 24.12 (작성 시 최신 버전)
-**저자:** Aspose  
+**마지막 업데이트:** 2026-03-29  
+**테스트 환경:** Aspose.Tasks for Java (latest)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
