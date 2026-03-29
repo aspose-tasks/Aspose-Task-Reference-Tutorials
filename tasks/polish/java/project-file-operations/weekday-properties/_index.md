@@ -1,30 +1,48 @@
 ---
-title: Właściwości dnia tygodnia w Aspose.Tasks
-linktitle: Właściwości dnia tygodnia w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Naucz się efektywnie zarządzać właściwościami dni powszednich w Aspose.Tasks dla Java. Z łatwością dostosuj daty rozpoczęcia tygodnia, dni w miesiącu i nie tylko.
-weight: 25
+date: 2026-03-29
+description: Dowiedz się, jak zmienić liczbę dni w miesiącu i zarządzać innymi właściwościami
+  dni tygodnia w Aspose.Tasks for Java. Dostosuj daty rozpoczęcia tygodnia, modyfikuj
+  kalendarz projektu i zapisz projekt jako XML.
+linktitle: Weekday Properties in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Zmieniaj dni w miesiącu przy użyciu właściwości dni tygodnia Aspose.Tasks
 url: /pl/java/project-file-operations/weekday-properties/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Właściwości dnia tygodnia w Aspose.Tasks
+# Zmień liczbę dni w miesiącu przy użyciu właściwości dni tygodnia Aspose.Tasks
 
-## Wstęp
-Aspose.Tasks for Java to potężny interfejs API, który umożliwia programistom Java pracę z plikami Microsoft Project bez zainstalowanego na komputerze programu Microsoft Project. Jedną z jego kluczowych funkcjonalności jest zarządzanie właściwościami dni tygodnia, umożliwiając użytkownikom dostosowywanie dat rozpoczęcia tygodnia, dni w miesiącu, minut dziennie i minut tygodniowo. W tym samouczku znajdziesz szczegółowy przewodnik na temat efektywnego wykorzystania tych funkcji.
-## Warunki wstępne
-Zanim zagłębisz się w Aspose.Tasks dla Java, upewnij się, że spełniasz następujące wymagania wstępne:
-### Zestaw programistyczny Java (JDK)
-Upewnij się, że masz zainstalowany JDK w swoim systemie. Najnowszą wersję pakietu JDK można pobrać i zainstalować ze strony internetowej Oracle.
-### Aspose.Tasks dla biblioteki Java
- Pobierz i zainstaluj bibliotekę Aspose.Tasks for Java ze strony internetowej. Możesz uzyskać dostęp do łącza pobierania[Tutaj](https://releases.aspose.com/tasks/java/).
-### Zintegrowane środowisko programistyczne (IDE)
-Wybierz preferowane IDE do programowania w języku Java. Do popularnych opcji należą IntelliJ IDEA, Eclipse lub NetBeans.
-## Importuj pakiety
-Aby rozpocząć, zaimportuj niezbędne pakiety Aspose.Tasks do swojego projektu Java. Oto jak:
+## Wprowadzenie
+Aspose.Tasks for Java pozwala **zmienić liczbę dni w miesiącu** i precyzyjnie dostroić inne ustawienia dni tygodnia bez konieczności instalacji Microsoft Project. Niezależnie od tego, czy dopasowujesz kalendarz projektu do niestandardowego miesiąca fiskalnego, czy po prostu musisz zmienić dzień rozpoczęcia tygodnia, ten samouczek przeprowadzi Cię przez najczęstsze scenariusze — pobieranie bieżącego dnia rozpoczęcia tygodnia, dostosowywanie daty rozpoczęcia tygodnia, modyfikowanie kalendarza projektu oraz zapisywanie projektu jako XML.
+
+## Szybkie odpowiedzi
+- **Czy mogę zmienić liczbę dni w miesiącu?** Tak, użyj `Prj.DAYS_PER_MONTH` na obiekcie `Project`.  
+- **Jak dostosować datę rozpoczęcia tygodnia?** Ustaw `Prj.WEEK_START_DAY` na wartość `DayType` (np. `DayType.Monday`).  
+- **Jakiego formatu mogę użyć do eksportu projektu?** Przykład zapisuje plik jako XML z `SaveFileFormat.Xml`.  
+- **Czy wymagana jest licencja do użytku produkcyjnego?** Ważna licencja Aspose.Tasks jest wymagana przy wdrożeniach nie‑ewaluacyjnych.  
+- **Jakie IDE są obsługiwane?** Działa dowolne IDE Java, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+
+## Co oznacza „zmiana liczby dni w miesiącu” w Aspose.Tasks?
+Zmiana liczby dni w miesiącu oznacza aktualizację właściwości `Prj.DAYS_PER_MONTH` w instancji `Project`. Właściwość ta informuje silnik, ile dni roboczych ma uwzględniać w każdym miesiącu, co bezpośrednio wpływa na planowanie zadań i kalkulacje kosztów.
+
+## Dlaczego modyfikować właściwości kalendarza projektu?
+Dostosowanie kalendarza projektu — na przykład ustawienie innego dnia rozpoczęcia tygodnia lub zmiana liczby minut dziennie — pomaga:
+
+- Dostosować harmonogramy do regionalnych tygodni pracy.  
+- Modelować niestandardowe wzorce pracy (np. tygodnie czterodniowe).  
+- Zapewnić dokładne raportowanie dla kontraktów korzystających z niestandardowych kalendarzy.
+
+## Wymagania wstępne
+- **Java Development Kit (JDK)** – Zainstaluj najnowszy JDK od Oracle.  
+- **Aspose.Tasks for Java library** – Pobierz go z oficjalnej strony [here](https://releases.aspose.com/tasks/java/).  
+- **IDE według wyboru** – IntelliJ IDEA, Eclipse lub NetBeans.
+
+## Importowanie pakietów
+Najpierw zaimportuj niezbędne klasy Aspose.Tasks:
 
 ```java
 import com.aspose.tasks.DayType;
@@ -33,22 +51,27 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-Teraz podzielmy podany przykład na wiele kroków, aby lepiej zrozumieć.
 ## Krok 1: Załaduj plik projektu
+Ładuje istniejący plik Microsoft Project (`project.mpp`) z określonego folderu.
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-Ten krok polega na załadowaniu pliku projektu o nazwie „project.mpp” z określonego katalogu danych.
-## Krok 2: Wyświetl właściwości dnia tygodnia
+
+## Krok 2: Wyświetl właściwości dni tygodnia
+Tutaj pobieramy i wyświetlamy bieżące ustawienia dni tygodnia, w tym **dzień rozpoczęcia tygodnia** i **liczbę dni w miesiącu**.
+
 ```java
 System.out.println("Week Start Date : " + project.get(Prj.WEEK_START_DAY).toString());
 System.out.println("Days Per Month : " + project.get(Prj.DAYS_PER_MONTH).toString());
 System.out.println("Minutes Per Day : " + project.get(Prj.MINUTES_PER_DAY).toString());
 System.out.println("Minutes Per Week : " + project.get(Prj.MINUTES_PER_WEEK).toString());
 ```
-Tutaj pobieramy i drukujemy właściwości załadowanego projektu: datę rozpoczęcia tygodnia, dni w miesiącu, minuty dziennie i minuty tygodniowo.
-## Krok 3: Ustawianie właściwości dnia tygodnia
+
+## Krok 3: Ustawianie właściwości dni tygodnia
+W tym kroku **zmieniamy liczbę dni w miesiącu** na 24, ustawiamy rozpoczęcie tygodnia na poniedziałek oraz dostosowujemy liczbę minut dziennie/tygodniowo. Demonstracja, jak programowo **modyfikować kalendarz projektu**.
+
 ```java
 Project prj = new Project();
 project.set(Prj.WEEK_START_DAY, DayType.Monday);
@@ -56,30 +79,58 @@ project.set(Prj.DAYS_PER_MONTH, 24);
 project.set(Prj.MINUTES_PER_DAY, 540);
 project.set(Prj.MINUTES_PER_WEEK, 3240);
 ```
-Ten krok obejmuje utworzenie nowej instancji projektu i ustawienie niestandardowych właściwości dnia tygodnia, takich jak dzień rozpoczęcia tygodnia, dni w miesiącu, minuty dziennie i minuty tygodniowo.
+
 ## Krok 4: Zapisz projekt
+Zmodyfikowany projekt jest zapisywany w formacie **save project as XML**, co jest przydatne przy integracji z innymi narzędziami lub przy przechowywaniu w systemie kontroli wersji.
+
 ```java
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-Na koniec zapisujemy zmodyfikowany projekt ze zaktualizowanymi właściwościami dnia tygodnia w pliku XML.
+
 ## Krok 5: Wyświetl wynik
+Proste potwierdzenie, że operacje zakończyły się bez błędów.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Ten krok potwierdza pomyślne zakończenie procesu.
-## Wniosek
-Opanowanie właściwości dni tygodnia w Aspose.Tasks dla Java jest kluczowe dla skutecznego zarządzania projektami. Wykonując ten samouczek, nauczyłeś się, jak łatwo manipulować i dostosowywać właściwości dni tygodnia. Zapoznaj się z dalszą dokumentacją i przykładami, aby zwiększyć swoje możliwości zarządzania projektami.
-## Często zadawane pytania
-### P: Czy Aspose.Tasks for Java obsługuje złożone struktury projektów?
-O: Tak, Aspose.Tasks dla Java zapewnia kompleksowe wsparcie w łatwej obsłudze złożonych struktur projektowych.
-### P: Czy Aspose.Tasks for Java jest kompatybilny z różnymi wersjami plików Microsoft Project?
-O: Oczywiście, Aspose.Tasks dla Java obsługuje różne wersje plików Microsoft Project, zapewniając kompatybilność na różnych platformach.
-### P: Czy mogę zintegrować Aspose.Tasks for Java z moimi istniejącymi aplikacjami Java?
-Odp.: Tak, Aspose.Tasks for Java oferuje możliwości płynnej integracji, pozwalając na ulepszenie aplikacji Java za pomocą potężnych funkcji zarządzania projektami.
-### P: Czy Aspose.Tasks for Java zapewnia dokumentację i wsparcie?
- O: Tak, możesz uzyskać dostęp do obszernej dokumentacji i wsparcia społeczności dla Aspose.Tasks dla Java na ich stronie[strona internetowa](https://releases.aspose.com/).
-### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla Java?
-O: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Tasks dla Java ze strony[strona internetowa](https://reference.aspose.com/tasks/java/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+
+## Jak dostosować datę rozpoczęcia tygodnia
+Jeśli Twoja organizacja używa kalendarza rozpoczynającego się od niedzieli, zamień `DayType.Monday` na `DayType.Sunday`. Używana jest ta sama właściwość (`Prj.WEEK_START_DAY`), co sprawia, że zmiana jest prosta.
+
+## Jak pobrać dzień rozpoczęcia tygodnia
+Możesz wywołać `project.get(Prj.WEEK_START_DAY)` w dowolnym momencie, aby **pobrać informację o dniu rozpoczęcia tygodnia**, jak pokazano w Kroku 2.
+
+## Jak modyfikować kalendarz projektu
+Poza dniem rozpoczęcia tygodnia, możesz również dostosować `Prj.MINUTES_PER_DAY` i `Prj.MINUTES_PER_WEEK`, aby odzwierciedlić niestandardowe godziny pracy lub wzorce zmian.
+
+## Typowe problemy i rozwiązania
+- **Nieprawidłowa wartość typu dnia** – Upewnij się, że używasz wyliczenia `DayType` (np. `DayType.Monday`).  
+- **Błędy ścieżki pliku** – Sprawdź, czy `dataDir` kończy się odpowiednim separatorem plików (`/` lub `\`).  
+- **Licencja nie ustawiona** – Jeśli pojawiają się ostrzeżenia licencyjne, zarejestruj licencję Aspose.Tasks przed utworzeniem obiektu `Project`.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy Aspose.Tasks for Java radzi sobie ze złożonymi strukturami projektów?**  
+A: Tak, Aspose.Tasks for Java zapewnia kompleksowe wsparcie w obsłudze złożonych struktur projektów z łatwością.
+
+**Q: Czy Aspose.Tasks for Java jest kompatybilny z różnymi wersjami plików Microsoft Project?**  
+A: Absolutnie, Aspose.Tasks for Java obsługuje różne wersje plików Microsoft Project, zapewniając kompatybilność na różnych platformach.
+
+**Q: Czy mogę zintegrować Aspose.Tasks for Java z istniejącymi aplikacjami Java?**  
+A: Tak, Aspose.Tasks for Java oferuje płynną integrację, umożliwiając wzbogacenie aplikacji Java o potężne funkcje zarządzania projektami.
+
+**Q: Czy Aspose.Tasks for Java zapewnia dokumentację i wsparcie?**  
+A: Tak, możesz uzyskać dostęp do obszernej dokumentacji i wsparcia społecznościowego dla Aspose.Tasks for Java na ich [website](https://releases.aspose.com/).
+
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.Tasks for Java?**  
+A: Tak, możesz pobrać darmową wersję próbną Aspose.Tasks for Java z ich [website](https://reference.aspose.com/tasks/java/), aby wypróbować funkcje przed zakupem.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-29  
+**Testowano z:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

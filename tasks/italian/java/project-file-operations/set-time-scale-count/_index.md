@@ -1,12 +1,11 @@
 ---
-date: 2025-12-21
-description: Scopri come personalizzare le visualizzazioni del diagramma di Gantt,
-  gestire la visualizzazione del progetto e salvare il progetto in PDF usando Aspose.Tasks
-  per Java. Regola il conteggio della scala temporale senza sforzo.
+date: 2026-03-29
+description: Scopri come creare file PDF di progetto personalizzando il conteggio
+  della scala temporale del diagramma di Gantt con Aspose.Tasks per Java. Questa guida
+  ti mostra passo passo come esportare il Gantt in PDF con pieno controllo.
 linktitle: Set Time Scale Count in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Personalizza il diagramma di Gantt – Padroneggiare il conteggio della scala
-  temporale di MS Project in Aspose.Tasks
+title: Crea PDF del progetto – Personalizza la scala temporale del diagramma di Gantt
 url: /it/java/project-file-operations/set-time-scale-count/
 weight: 22
 ---
@@ -15,29 +14,34 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Personalizza il diagramma di Gantt – Padronanza del conteggio della scala temporale di MS Project in Aspose.Tasks
+# Crea PDF del progetto – Personalizza la scala temporale del diagramma di Gantt
 
 ## Introduzione
-Se devi **personalizzare il diagramma di Gantt** in Microsoft Project, controllare il conteggio della scala temporale è una tecnica fondamentale. Con Aspose.Tasks per Java puoi impostare programmaticamente i livelli inferiore e intermedio della scala temporale, regolare finemente la visibilità dei segni di spunta e poi **salvare il progetto come PDF** per condividerlo con gli stakeholder. Questo tutorial ti guida attraverso l’intero processo—dalla configurazione dell’ambiente alla generazione di un PDF curato che riflette la tua visualizzazione Gantt personalizzata.
+Se hai bisogno di **creare PDF del progetto** che riflettano un diagramma di Gantt perfettamente sintonizzato, controllare il conteggio della scala temporale è fondamentale. Con Aspose.Tasks per Java puoi impostare programmaticamente i livelli inferiore e intermedio della scala temporale, nascondere i segni di spunta e poi **salvare il progetto come PDF** per una facile distribuzione. In questo tutorial vedremo tutto ciò di cui hai bisogno—dalla configurazione dell'ambiente di sviluppo alla generazione di un PDF rifinito che mostri la tua visualizzazione Gantt personalizzata.
 
 ## Risposte rapide
-- **Cosa significa “personalizzare il diagramma di Gantt”?** Regolare i livelli della scala temporale, i colori e il layout per soddisfare le tue esigenze di reporting.  
+- **Che cosa significa “personalizzare il diagramma di Gantt”?** Regolare i livelli della scala temporale, i colori e il layout per soddisfare le esigenze di reporting.  
 - **Quale metodo API imposta il conteggio del livello inferiore?** `view.getBottomTimescaleTier().setCount(int)`.  
 - **Posso generare un PDF direttamente dal progetto?** Sì—usa `project.save(..., SaveFileFormat.Pdf)`.  
-- **È necessaria una licenza per l’uso in produzione?** È richiesta una licenza commerciale; è disponibile una versione di prova gratuita.  
-- **Quale versione di Java è supportata?** Java 8 o superiore funziona con l’ultima libreria Aspose.Tasks.
+- **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza commerciale; è disponibile una versione di prova gratuita.  
+- **Quale versione di Java è supportata?** Java 8 o superiore funziona con l'ultima libreria Aspose.Tasks.
 
-## Cos’è “personalizzare il diagramma di Gantt” in Aspose.Tasks?
-Personalizzare un diagramma di Gantt significa modificare programmaticamente i suoi componenti visivi—come gli intervalli della scala temporale, i segni di spunta e le barre delle attività—affinché il diagramma si adatti al modo in cui desideri **gestire la visualizzazione del progetto**. Cambiando il conteggio della scala temporale, controlli quanti giorni, settimane o mesi rappresenta ogni segmento, rendendo il diagramma più chiaro per diversi pubblici.
+## Che cosa significa “personalizzare il diagramma di Gantt” in Aspose.Tasks?
+Personalizzare un diagramma di Gantt significa alterare programmaticamente i suoi componenti visivi—come gli intervalli della scala temporale, i segni di spunta e le barre delle attività—affinché il diagramma si allinei al modo in cui desideri **gestire la visualizzazione del progetto**. Modificando il conteggio della scala temporale, controlli quanti giorni, settimane o mesi rappresenta ogni segmento, rendendo il diagramma più chiaro per diversi pubblici.
+
+## Perché creare un PDF del progetto con un diagramma di Gantt personalizzato?
+- **Output pronto per gli stakeholder:** Il PDF è visualizzabile universalmente, garantendo che tutti vedano lo stesso layout di pianificazione.  
+- **Adatto alla stampa:** Il controllo preciso dei livelli della scala temporale evita stampe affollate o ambigue.  
+- **Automazione:** Integra la generazione di PDF nei pipeline CI o nei servizi di reporting per zero sforzo manuale.  
 
 ## Prerequisiti
 Prima di iniziare, assicurati di avere:
 
-1. **Ambiente di sviluppo Java** – JDK 8 o più recente installato.  
+1. **Ambiente di sviluppo Java** – JDK 8 o successivo installato.  
 2. **Libreria Aspose.Tasks per Java** – Scaricala da [qui](https://releases.aspose.com/tasks/java/).  
 3. **Conoscenze di base di Java** – Familiarità con la sintassi Java e i concetti di programmazione orientata agli oggetti.
 
-## Importa i pacchetti
+## Importa pacchetti
 Importa le classi necessarie nel tuo progetto Java:
 
 ```java
@@ -52,7 +56,7 @@ import com.aspose.tasks.Tsk;
 ## Guida passo‑passo
 
 ### Passo 1: Imposta la directory dei dati
-Definisci dove i file del progetto saranno letti e scritti:
+Definisci da dove i file del progetto saranno letti e dove saranno scritti:
 
 ```java
 String dataDir = "Your Data Directory";
@@ -67,15 +71,15 @@ Istanzia un nuovo oggetto `Project` che conterrà tutte le attività e le impost
 Project project = new Project();
 ```
 
-### Passo 3: Configura la visualizzazione del diagramma di Gantt
-Crea un oggetto `GanttChartView`—questo è dove **genererai il codice Java per la visualizzazione Gantt** per controllare l’aspetto del diagramma:
+### Passo 3: Configura la vista del diagramma di Gantt
+Crea un oggetto `GanttChartView`—questo è dove **genererai codice Java per la vista Gantt** per controllare l'aspetto del diagramma:
 
 ```java
 GanttChartView view = new GanttChartView();
 ```
 
 ### Passo 4: Imposta il conteggio della scala temporale per il livello inferiore
-Regola il livello inferiore per mostrare due intervalli e nascondere i segni di spunta:
+Regola il livello inferiore per mostrare due intervalli e nascondi i segni di spunta:
 
 ```java
 view.getBottomTimescaleTier().setCount(2);
@@ -90,8 +94,8 @@ view.getMiddleTimescaleTier().setCount(2);
 view.getMiddleTimescaleTier().setShowTicks(false);
 ```
 
-### Passo 6: Aggiungi la visualizzazione personalizzata al progetto
-Allega la visualizzazione appena configurata all’istanza `Project`:
+### Passo 6: Aggiungi la vista personalizzata al progetto
+Allega la vista appena configurata all'istanza `Project`:
 
 ```java
 project.getViews().add(view);
@@ -108,7 +112,7 @@ task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Ho
 ```
 
 ### Passo 8: Salva il progetto come PDF
-Infine, esporta il progetto—compreso il tuo **diagramma di Gantt personalizzato**—in un file PDF:
+Infine, esporta il progetto—incluse le tue **personalizzazioni del diagramma di Gantt**—in un file PDF:
 
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
@@ -117,19 +121,19 @@ project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 Il PDF risultante dimostra come i livelli inferiore e intermedio della scala temporale siano stati **personalizzati**, offrendo agli stakeholder una vista chiara e stampabile del programma.
 
 ## Problemi comuni e risoluzione
-- **Il PDF è vuoto** – Verifica che il percorso `dataDir` termini con un separatore di file (`/` o `\`) e che la directory esista.  
-- **I segni di spunta compaiono ancora** – Controlla che `setShowTicks(false)` sia stato chiamato su entrambi i livelli.  
-- **Durata non applicata** – Assicurati di utilizzare `TimeUnitType.Hour` (o l’unità appropriata) quando crei le durate.
+- **Il PDF è vuoto** – Assicurati che il percorso `dataDir` termini con un separatore di file (`/` o `\`) e che la directory esista.  
+- **I segni di spunta compaiono ancora** – Verifica che `setShowTicks(false)` sia chiamato su entrambi i livelli.  
+- **Durata non applicata** – Conferma di utilizzare `TimeUnitType.Hour` (o l'unità appropriata) quando crei le durate.
 
 ## Domande frequenti
 
 **D: Aspose.Tasks per Java può gestire file di progetto su larga scala?**  
-R: Sì, la libreria è ottimizzata per l’elaborazione ad alte prestazioni di grandi quantità di dati di progetto.
+R: Sì, la libreria è ottimizzata per l'elaborazione ad alte prestazioni di grandi quantità di dati di progetto.
 
 **D: Aspose.Tasks per Java è compatibile con diversi IDE Java?**  
 R: Assolutamente—funziona senza problemi con Eclipse, IntelliJ IDEA, NetBeans e altri IDE popolari.
 
-**D: Posso personalizzare l’aspetto dei diagrammi di Gantt oltre alle impostazioni della scala temporale?**  
+**D: Posso personalizzare l'aspetto dei diagrammi di Gantt oltre alle impostazioni della scala temporale?**  
 R: Sì, Aspose.Tasks offre ampie opzioni di stile come colori delle barre, caratteri e linee della griglia.
 
 **D: È disponibile una versione di prova per Aspose.Tasks per Java?**  
@@ -138,16 +142,16 @@ R: Sì, puoi ottenere una versione di prova gratuita da [qui](https://releases.a
 **D: Dove posso ottenere supporto per Aspose.Tasks per Java?**  
 R: Puoi trovare supporto e assistenza sul forum Aspose.Tasks [qui](https://forum.aspose.com/c/tasks/15).
 
-**D: Come modifico programmaticamente il colore di sfondo del diagramma di Gantt?**  
+**D: Come posso cambiare programmaticamente il colore di sfondo del diagramma di Gantt?**  
 R: Usa il metodo `view.getGanttChartProperties().setBackgroundColor(Color)` dopo aver importato `java.awt.Color`.
 
 ## Conclusione
-Seguendo questi passaggi hai imparato a **personalizzare i livelli della scala temporale del diagramma di Gantt**, migliorare la **visualizzazione del progetto** e **salvare il progetto come PDF** usando Aspose.Tasks per Java. Questo approccio ti offre il pieno controllo sull’output visivo, facilitando la condivisione di programmi chiari e professionali con il tuo team o i clienti.
+Seguendo questi passaggi hai imparato a **creare PDF del progetto** con una scala temporale del diagramma di Gantt completamente personalizzata, migliorare la **visualizzazione del progetto** e **salvare il progetto come PDF** usando Aspose.Tasks per Java. Questo approccio ti dà il pieno controllo sull'output visivo, facilitando la condivisione di programmi chiari e professionali con il tuo team o i clienti.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-21  
-**Testato con:** Aspose.Tasks per Java 24.12 (ultima versione al momento della scrittura)  
+**Ultimo aggiornamento:** 2026-03-29  
+**Testato con:** Aspose.Tasks per Java (ultima versione)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
