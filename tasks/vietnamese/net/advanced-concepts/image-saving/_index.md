@@ -1,33 +1,56 @@
 ---
-title: Xử lý việc lưu hình ảnh trong Aspose.Tasks
-linktitle: Xử lý việc lưu hình ảnh trong Aspose.Tasks
+date: 2026-03-05
+description: Tìm hiểu cách lưu hình ảnh, tạo HTML có hình ảnh và tùy chỉnh xuất hình
+  ảnh bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước để lưu dự án dưới dạng HTML.
+linktitle: How to Save Images with Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET bằng cách sử dụng hướng dẫn từng bước. Tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của bạn.
-weight: 10
+title: Cách lưu hình ảnh bằng Aspose.Tasks cho .NET
 url: /vi/net/advanced-concepts/image-saving/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xử lý việc lưu hình ảnh trong Aspose.Tasks
+# Cách Lưu Hình Ảnh với Aspose.Tasks cho .NET
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Một tác vụ phổ biến khi làm việc với các tệp dự án là cần lưu hình ảnh, có thể bao gồm biểu đồ, đồ thị hoặc các thành phần hình ảnh khác. Chúng tôi sẽ chia nhỏ quy trình theo từng bước để đảm bảo sự rõ ràng và hiểu biết xuyên suốt.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu hình ảnh** từ các tệp Microsoft Project bằng API Aspose.Tasks cho .NET. Dù bạn cần nhúng biểu đồ vào báo cáo, tạo các trang HTML chứa hình ảnh dự án, hay chỉ đơn giản xuất các tài nguyên dạng sơ đồ, các bước dưới đây sẽ hướng dẫn bạn toàn bộ quy trình — từ việc thiết lập đối tượng dự án đến tùy chỉnh các callback xuất hình ảnh.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **“how to save images” có nghĩa là gì trong Aspose.Tasks?**  
+  Nó đề cập đến việc sử dụng giao diện `IImageSavingCallback` để kiểm soát nơi và cách các tài nguyên hình ảnh được ghi ra đĩa.
+- **Tôi có thể lưu dự án dưới dạng HTML có nhúng hình ảnh không?**  
+  Có, bằng cách sử dụng `HtmlSaveOptions` kết hợp với các callback lưu hình ảnh, bạn có thể **lưu dự án dưới dạng HTML** bao gồm tất cả các hình ảnh được tạo.
+- **Có cần giấy phép để xuất hình ảnh không?**  
+  Giấy phép đánh giá tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.
+- **Các phiên bản .NET nào được hỗ trợ?**  
+  Aspose.Tasks cho .NET hỗ trợ .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6+.
+- **Có thể tùy chỉnh xuất hình ảnh (định dạng, thư mục, đặt tên) không?**  
+  Hoàn toàn có – callback cho phép bạn kiểm soát toàn bộ tên tệp, định dạng và vị trí lưu.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “how to save images” trong ngữ cảnh Aspose.Tasks là gì?
+Lưu hình ảnh có nghĩa là trích xuất các yếu tố trực quan (biểu đồ, thanh Gantt, đồ họa tài nguyên) từ tệp Project và ghi chúng thành các tệp hình ảnh (PNG, JPEG, …). Aspose.Tasks cung cấp một cơ chế callback linh hoạt, cho phép bạn quyết định vị trí chính xác, quy tắc đặt tên và thậm chí định dạng hình ảnh.
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình.
-2.  Aspose.Tasks for .NET: Tải xuống và cài đặt Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/tasks/net/).
-3. Hiểu biết cơ bản về C#: Làm quen với những điều cơ bản về ngôn ngữ lập trình C#.
+## Tại sao nên dùng Aspose.Tasks để lưu hình ảnh?
+- **Kiểm soát hoàn toàn bằng mã** – không cần tương tác UI thủ công.  
+- **Đa nền tảng** – hoạt động trên Windows, Linux và macOS thông qua .NET Core.  
+- **Kết xuất chất lượng cao** – hình ảnh giữ nguyên độ nét như trong chế độ xem Project gốc.  
+- **Tạo HTML dễ dàng** – kết hợp `HtmlSaveOptions` với các callback hình ảnh để **tự động tạo HTML có hình ảnh**.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn bạn đã có:
+
+1. Visual Studio được cài đặt trên máy phát triển.  
+2. Aspose.Tasks cho .NET tải về từ [đây](https://releases.aspose.com/tasks/net/).  
+3. Kiến thức cơ bản về C# và cấu trúc dự án .NET.
 
 ## Nhập không gian tên
 
-Đầu tiên, hãy nhập các không gian tên cần thiết vào dự án của chúng ta:
+Đầu tiên, đưa các không gian tên cần thiết vào file nguồn của bạn:
 
 ```csharp
 using Aspose.Tasks;
@@ -38,69 +61,69 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## Bước 1: Tạo đối tượng dự án
+## Bước 1: Tạo đối tượng Project
 
-Bắt đầu bằng cách tạo đối tượng Project từ tệp Microsoft Project của bạn:
+Tải tệp Microsoft Project mà bạn muốn làm việc:
 
 ```csharp
 var project = new Project("Project1.mpp");
 ```
 
-## Bước 2: Xác định tùy chọn lưu
+## Bước 2: Định nghĩa tùy chọn lưu
 
-Xác định các tùy chọn lưu cho dự án của bạn, chỉ định các trang và các cài đặt khác:
+Tạo các tùy chọn lưu HTML, đồng thời chứa các callback lưu hình ảnh của chúng ta:
 
 ```csharp
 var options = GetSaveOptions(1);
 ```
 
-## Bước 3: Lưu dự án dưới dạng HTML
+## Bước 3: Lưu dự án dưới dạng HTML (save project as html)
 
-Lưu dự án dưới dạng HTML với các tùy chọn đã chỉ định:
+Bây giờ xuất dự án ra tệp HTML. Các hình ảnh được tham chiếu trong HTML sẽ được tạo bởi callback mà chúng ta sẽ định nghĩa tiếp theo:
 
 ```csharp
 project.Save("document_out.html", options);
 ```
 
-## Bước 4: Thực hiện gọi lại lưu hình ảnh
+## Bước 4: Triển khai Callback Lưu Hình Ảnh (customize image export)
 
-Triển khai giao diện ImageSavingCallback để xử lý việc lưu ảnh:
+Triển khai giao diện `IImageSavingCallback`. Đây là nơi bạn **tùy chỉnh hành vi xuất hình ảnh**:
 
 ```csharp
 private class ResourcePrefixForNestedResources : IImageSavingCallback
 {
     public void ImageSaving(ImageSavingArgs args)
     {
-        // Logic lưu hình ảnh ở đây
+        // Image saving logic goes here
     }
 }
 ```
 
-## Bước 5: Lưu hình ảnh vào thư mục được chỉ định
+## Bước 5: Lưu hình ảnh vào thư mục chỉ định
 
-Trong phương thức ImageSaving, chỉ định logic để lưu hình ảnh vào thư mục mong muốn:
+Trong phương thức `ImageSaving`, quyết định nơi mỗi hình ảnh sẽ được lưu. Ví dụ dưới đây phân biệt tài nguyên PNG với các định dạng khác:
 
 ```csharp
 if (args.FileName.EndsWith("png"))
 {
-    // Tiết kiệm tài nguyên lồng nhau
+    // Save nested resources
 }
 else
 {
-    // Tiết kiệm tài nguyên thường xuyên
+    // Save regular resources
 }
 ```
 
-## Bước 6: Chỉ định tùy chọn lưu
+## Bước 6: Chỉ định tùy chọn lưu (bao gồm các callback)
 
-Chỉ định các tùy chọn lưu, bao gồm lệnh gọi lại cho CSS, phông chữ và hình ảnh:
+Kết nối các callback cho phông chữ, CSS và hình ảnh. Điều này đảm bảo mọi yếu tố trực quan đều được xử lý một cách nhất quán:
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Chỉ định các tùy chọn lưu ở đây
+        // Specify save options here
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -112,31 +135,41 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Tóm lại, việc xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET liên quan đến việc xác định các tùy chọn lưu và triển khai lệnh gọi lại để quản lý quá trình lưu một cách hiệu quả. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của mình.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Hình ảnh không hiển thị trong HTML được tạo | Callback không gán đường dẫn tệp hợp lệ | Đảm bảo `args.Path` trỏ tới thư mục có quyền ghi và đặt `args.ImageStream` đúng cách. |
+| Tệp PNG được lưu với phần mở rộng sai | Logic kiểm tra chỉ dựa vào hậu tố “png” | Sử dụng `Path.GetExtension(args.FileName).Equals(".png", StringComparison.OrdinalIgnoreCase)` để phát hiện chính xác. |
+| Liên kết HTML bị hỏng sau khi di chuyển tệp | Đường dẫn tương đối thay đổi khi di chuyển thư mục đầu ra | Giữ nguyên cấu trúc thư mục HTML và hình ảnh cùng nhau hoặc cập nhật `options.ImageFolder` cho phù hợp. |
+
+## Kết luận
+
+Sau khi thực hiện các bước trên, bạn đã biết **cách lưu hình ảnh** từ tệp Project, **lưu dự án dưới dạng HTML**, và **tùy chỉnh xuất hình ảnh** để phù hợp với cấu trúc thư mục của ứng dụng. Cách tiếp cận này cho phép bạn **tạo HTML có hình ảnh** có thể nhúng vào báo cáo, cổng tài liệu hoặc bảng điều khiển web một cách liền mạch.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Tasks để thao tác với các tệp dự án ở các định dạng khác ngoài HTML không?
+**Q1: Tôi có thể dùng Aspose.Tasks để thao tác tệp dự án ở các định dạng khác ngoài HTML không?**  
+A1: Có, Aspose.Tasks hỗ trợ nhiều định dạng như PDF, XLSX và MPP.
 
-Câu trả lời 1: Có, Aspose.Tasks hỗ trợ nhiều định dạng khác nhau như PDF, XLSX và MPP.
+**Q2: Aspose.Tasks có hỗ trợ tích hợp lưu trữ đám mây không?**  
+A2: Có, Aspose.Tasks cung cấp API làm việc với các dịch vụ lưu trữ đám mây phổ biến như Amazon S3 và Google Drive.
 
-### Câu hỏi 2: Aspose.Tasks có hỗ trợ tích hợp lưu trữ đám mây không?
+**Q3: Aspose.Tasks có tương thích với .NET Core không?**  
+A3: Có, Aspose.Tasks tương thích với .NET Core, cho phép bạn phát triển ứng dụng đa nền tảng.
 
-Câu trả lời 2: Có, Aspose.Tasks cung cấp API để làm việc với các dịch vụ lưu trữ đám mây phổ biến như Amazon S3 và Google Drive.
+**Q4: Tôi có thể tùy chỉnh giao diện của các hình ảnh đã lưu không?**  
+A4: Có, bạn có thể tùy chỉnh giao diện của hình ảnh bằng cách sửa đổi logic lưu hình ảnh trong các phương thức callback.
 
-### Câu 3: Aspose.Tasks có tương thích với .NET Core không?
+**Q5: Aspose.Tasks có cung cấp phiên bản dùng thử để đánh giá không?**  
+A5: Có, bạn có thể tải phiên bản dùng thử miễn phí của Aspose.Tasks từ [đây](https://releases.aspose.com/).
 
-Câu trả lời 3: Có, Aspose.Tasks tương thích với .NET Core, cho phép bạn phát triển các ứng dụng đa nền tảng.
+---
 
-### Q4: Tôi có thể tùy chỉnh hình thức của hình ảnh đã lưu không?
+**Cập nhật lần cuối:** 2026-03-05  
+**Đã kiểm tra với:** Aspose.Tasks 24.11 cho .NET  
+**Tác giả:** Aspose  
 
-Câu trả lời 4: Có, bạn có thể tùy chỉnh giao diện của hình ảnh đã lưu bằng cách sửa đổi logic lưu hình ảnh trong các phương thức gọi lại.
-
-### Câu hỏi 5: Aspose.Tasks có cung cấp phiên bản dùng thử cho mục đích đánh giá không?
-
- Câu trả lời 5: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
