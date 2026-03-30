@@ -1,33 +1,50 @@
 ---
-title: Advanced AND Operation i Aspose.Tasks
-linktitle: Advanced AND Operation i Aspose.Tasks
+date: 2026-03-16
+description: Lär dig hur du kombinerar flera villkor och filtrerar projektuppgifter
+  med den avancerade OCH‑operationen i Aspose.Tasks för .NET.
+linktitle: Advanced AND Operation in Aspise.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du utför avancerade AND-operationer i Aspose.Tasks för .NET för att effektivt filtrera projektuppgifter baserat på flera kriterier.
-weight: 10
+title: Hur man kombinerar flera villkor med avancerad OCH‑operation i Aspose.Tasks
 url: /sv/net/advanced-features/advanced-and-operation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Advanced AND Operation i Aspose.Tasks
+# Avancerad OCH-operation i Aspose.Tasks
 
 ## Introduktion
 
- I den här handledningen kommer vi att fördjupa oss i den avancerade AND-driften i Aspose.Tasks för .NET, ett kraftfullt verktyg för att hantera uppgifter och projekt. Vi kommer att utforska hur man filtrerar projektuppgifter baserat på flera förhållanden med hjälp av`Util.And` klass.
+I den här handledningen kommer du att upptäcka **hur man kombinerar flera villkor** med den *avancerade OCH-operationen* i Aspose.Tasks för .NET. I slutet av guiden kommer du att kunna **filtrera projektuppgifter** baserat på flera kriterier—något som är avgörande när du behöver **filtrera uppgifter** som sammanfattningsobjekt, icke‑null‑poster eller anpassade flaggor i ett enda pass.
+
+## Snabba svar
+- **Vad gör den avancerade OCH-operationen?** Den slår ihop två eller fler filtervillkor så att endast uppgifter som uppfyller *alla* kriterier returneras.  
+- **Vilken klass kombinerar villkoren?** `Util.And<T>` (exponerad som `And<T>` i API:et).  
+- **Behöver jag en speciell licens?** En vanlig Aspose.Tasks-licens krävs för produktionsbruk; en gratis provversion finns tillgänglig.  
+- **Kan jag kedja fler än två villkor?** Ja—`And<T>` accepterar ett godtyckligt antal villkor.  
+- **Vilken version av .NET stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+
+## Vad betyder “kombinera flera villkor” i Aspose.Tasks?
+
+Att kombinera flera villkor innebär att skapa ett sammansatt filter som utvärderar varje uppgift mot flera regler samtidigt. Detta tillvägagångssätt är mycket mer effektivt än att iterera genom uppgiftslistan flera gånger eftersom biblioteket tillämpar logiken i ett enda pass.
+
+## Varför använda den avancerade OCH-operationen?
+
+- **Prestanda:** Minskar antalet passeringar över uppgiftskollektionen.  
+- **Läsbarhet:** Håller filterlogiken deklarativ och lätt att underhålla.  
+- **Flexibilitet:** Du kan blanda inbyggda villkor (t.ex. `SummaryCondition`) med anpassade predikat.  
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande:
+1. Grundläggande kunskap i C#-programmering.  
+2. Aspose.Tasks för .NET installerat. Om du ännu inte har laddat ner det, hämta det **[här](https://releases.aspose.com/tasks/net/)**.  
+3. En IDE som Visual Studio (alla utgåvor fungerar).  
 
-1. Grundläggande kunskaper i programmeringsspråket C#.
-2.  Installerade Aspose.Tasks för .NET. Om inte kan du ladda ner den från[här](https://releases.aspose.com/tasks/net/).
-3. Integrerad utvecklingsmiljö (IDE) som Visual Studio.
+## Importera namnrymder
 
-## Importera namnområden
-
-Låt oss först importera de nödvändiga namnrymden till vårt C#-projekt:
+First, import the namespaces that provide the task model and utility classes:
 
 ```csharp
 using Aspose.Tasks;
@@ -35,15 +52,14 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-## Steg 1: Initiera projekt och samla in uppgifter
+## Steg 1: Initiera projekt och samla uppgifter
 
-Börja med att initiera ett nytt Aspose.Tasks-projekt och samla alla uppgifter inom det:
+Vi skapar en `Project`-instans och använder `ChildTasksCollector` för att samla alla uppgifter i filen. Detta demonstrerar **hur man använder collector** för att hämta en platt lista med uppgifter.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 var coll = new ChildTasksCollector();
@@ -52,67 +68,90 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 
 ## Steg 2: Definiera filtervillkor
 
-Definiera sedan filtervillkoren. För det här exemplet skapar vi två villkor: ett för att filtrera sammanfattningsuppgifter och ett annat för att filtrera uppgifter som inte är noll:
+Här definierar vi de enskilda villkoren vi vill tillämpa. I detta exempel **filtrerar vi sammanfattningsuppgifter** och säkerställer också att uppgiftsobjektet inte är null.
 
 ```csharp
 var condition1 = new SummaryCondition();
 var condition2 = new NotNullCondition();
 ```
 
-## Steg 3: Kombinera villkor med OCH-drift
+## Steg 3: Kombinera villkor med OCH-operation
 
- Kombinera nu villkoren med hjälp av`Util.And` klass för att skapa ett sammansatt villkor:
+Nu **kombinerar vi flera villkor** med hjälp av `And<T>`-klassen. Detta är kärnan i den **avancerade OCH-operationen**.
 
 ```csharp
 var joinedCondition = new And<Task>(condition1, condition2);
 ```
 
-## Steg 4: Tillämpa villkor och filteruppgifter
+## Steg 4: Tillämpa villkor och filtrera uppgifter
 
-Tillämpa det kombinerade villkoret på de insamlade uppgifterna och filtrera dem därefter:
+När det sammansatta villkoret är klart anropar vi `Filter` för att **filtrera projektuppgifter** baserat på den kombinerade logiken.
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-## Steg 5: Skriv ut filtrerade uppgifter
+## Steg 5: Visa filtrerade uppgifter
 
-Slutligen, mata ut de filtrerade uppgifterna:
+Till sist visar vi de uppgifter som uppfyllde **alla** villkor. Du kan ersätta `Console.WriteLine`-anropen med någon anpassad bearbetning du behöver.
 
 ```csharp
 Console.WriteLine("Filtered tasks: ");
 foreach (var task in collection)
 {
     Console.WriteLine(" Name: " + task.Get(Tsk.Name));
-    // Ytterligare bearbetning kan göras här
+    // Additional processing can be done here
 }
 ```
 
+## Vanliga problem och lösningar
+
+| Problem | Varför det händer | Snabb åtgärd |
+|-------|----------------|-----------|
+| `Filter`-metoden hittades inte | Saknar `using Aspose.Tasks.Util;` | Se till att Util-namnrymden importeras (se Importera namnrymder). |
+| Inga uppgifter returneras | Villkoren är för restriktiva (t.ex. filtrering av sammanfattningsuppgifter när inga finns) | Verifiera att projektet faktiskt innehåller sammanfattningsuppgifter eller justera villkoren. |
+| NullReferenceException | `coll.Tasks` innehåller null‑poster | `NotNullCondition` skyddar redan mot detta; behåll den i OCH‑kedjan. |
+
+## Vanliga frågor
+
+### Q1: Vad är Aspose.Tasks för .NET?
+
+Aspose.Tasks för .NET är ett robust API som låter utvecklare manipulera Microsoft Project‑filer programmässigt i .NET‑applikationer.
+
+### Q2: Kan jag använda mer än två villkor med Util.And?
+
+Ja, Util.And kan användas för att kombinera ett godtyckligt antal villkor för att skapa komplexa filterkriterier.
+
+### Q3: Finns det en gratis provversion av Aspose.Tasks för .NET?
+
+Ja, du kan ladda ner en gratis provversion **[här](https://releases.aspose.com/)**.
+
+### Q4: Var kan jag hitta dokumentation för Aspose.Tasks för .NET?
+
+Du kan hitta dokumentationen **[här](https://reference.aspose.com/tasks/net/)**.
+
+### Q5: Hur kan jag få support för Aspose.Tasks för .NET?
+
+Du kan få support via Aspose.Tasks‑community‑forumet **[här](https://forum.aspose.com/c/tasks/15)**.
+
+**Additional Q&A**
+
+**Q: Hur filtrerar jag uppgifter efter anpassade fältvärden?**  
+A: Skapa ett `CustomFieldCondition` (eller implementera `ICondition<Task>`) och lägg till det i `And<T>`‑kedjan.
+
+**Q: Kan jag använda samma tillvägagångssätt för att filtrera resurser?**  
+A: Ja—byt ut `Task` mot `Resource` och använd motsvarande villkorsklasser.
+
 ## Slutsats
 
- I den här handledningen lärde vi oss hur man utför avancerade AND-operationer i Aspose.Tasks för .NET. Genom att kombinera förhållanden med hjälp av`Util.And`klass kan vi filtrera uppgifter effektivt baserat på flera kriterier.
+Genom att följa stegen ovan vet du nu **hur man kombinerar flera villkor** med hjälp av den **avancerade OCH-operationen** i Aspose.Tasks för .NET. Denna teknik låter dig **filtrera projektuppgifter** effektivt, oavsett om du riktar in dig på sammanfattningsobjekt, icke‑null‑poster eller någon anpassad kriterium du definierar.
 
-## FAQ's
+---
 
-### F1: Vad är Aspose.Tasks för .NET?
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Tasks for .NET (latest)  
+**Author:** Aspose  
 
-S: Aspose.Tasks för .NET är ett robust API som tillåter utvecklare att manipulera Microsoft Project-filer programmatiskt i .NET-applikationer.
-
-### F2: Kan jag tillämpa fler än två villkor med Util.And?
-
-S: Ja, Util.And kan användas för att kombinera valfritt antal villkor för att skapa komplexa filtreringskriterier.
-
-### F3: Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
-
- S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
-
-### F4: Var kan jag hitta dokumentation för Aspose.Tasks för .NET?
-
- S: Du kan hitta dokumentationen[här](https://reference.aspose.com/tasks/net/).
-
-### F5: Hur kan jag få support för Aspose.Tasks för .NET?
-
-S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,47 @@
 ---
-title: Implementando retorno de chamada para salvar página em Aspose.Tasks
-linktitle: Implementando retorno de chamada para salvar página em Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET, permitindo o tratamento personalizado de fluxos de saída de documentos de várias páginas.
-weight: 12
+date: 2026-03-16
+description: Aprenda a implementar o callback de salvamento de página no Aspose.Tasks
+  para .NET, permitindo o tratamento personalizado de fluxos de saída de documentos
+  de várias páginas.
+linktitle: Implement page saving callback in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Implementar callback de salvamento de página no Aspose.Tasks
 url: /pt/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementando retorno de chamada para salvar página em Aspose.Tasks
+# Implementar callback de salvamento de página no Aspose.Tasks
 
 ## Introdução
 
-Neste tutorial, exploraremos como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET. Esse recurso nos permite salvar um documento de várias páginas em fluxos fornecidos pelo usuário, oferecendo flexibilidade e personalização no tratamento da saída.
+Neste tutorial, você aprenderá como **implementar callback de salvamento de página** no Aspose.Tasks para .NET. Esse recurso poderoso permite direcionar cada página de um documento de várias páginas para um stream de sua escolha, dando controle total sobre como a saída é armazenada ou processada adicionalmente.
 
-## Pré-requisitos:
+## Respostas Rápidas
+- **O que o callback de salvamento de página faz?** Ele captura cada página renderizada em um stream separado para que você possa manipulá‑las individualmente.  
+- **Para qual formato posso exportar?** Qualquer formato suportado por `ImageSaveOptions`, por exemplo, PNG, JPEG, PDF.  
+- **Preciso de uma licença?** Uma licença válida do Aspose.Tasks é necessária para uso em produção.  
+- **Posso usar isso com .NET Core?** Sim, o Aspose.Tasks oferece suporte total ao .NET Core e .NET 5/6+.  
+- **O callback é thread‑safe?** O callback é executado na mesma thread que realiza a renderização, portanto as regras normais de segurança de thread se aplicam.
 
-Antes de começarmos, certifique-se de ter o seguinte:
+## O que é **implement page saving callback**?
+O padrão **implement page saving callback** permite inserir lógica personalizada no pipeline de salvamento do Aspose.Tasks. Em vez de gravar diretamente em um arquivo, você recebe um objeto `Stream` para cada página, permitindo armazená‑lo na memória, fazer upload para armazenamento em nuvem ou aplicar processamento adicional.
 
-1. Conhecimento da linguagem de programação C#: Você deve ter um conhecimento básico da sintaxe e dos conceitos do C#.
-   
-2.  Instalação do Aspose.Tasks para .NET: Certifique-se de ter instalado a biblioteca Aspose.Tasks em seu ambiente de desenvolvimento. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
+## Por que exportar o projeto como PNG com um callback?
+Exportar um projeto como PNG fornece uma imagem raster de cada página do diagrama de Gantt, ideal para relatórios, e‑mails ou incorporação em páginas web. Usar um callback permite manter cada página em um `MemoryStream` separado sem criar arquivos temporários no disco.
 
-3. Configuração do ambiente de desenvolvimento: configure seu IDE preferido para desenvolvimento .NET, como Visual Studio.
+## Pré‑requisitos
 
-## Importar namespaces:
+1. **Conhecimento em C#** – familiaridade básica com classes, interfaces e streams.  
+2. **Aspose.Tasks for .NET** – faça o download e instale a partir de [here](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider ou qualquer editor compatível com .NET.
 
-Para começar, você precisa importar os namespaces necessários em seu código C#:
+## Importar Namespaces
+
+To start, import the required namespaces:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +49,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Etapa 1: Crie um objeto de projeto
+## Etapa 1: Criar um Objeto Project
 
- Instanciar um`Project` objeto carregando um arquivo de projeto existente:
+Load an existing MPP file into a `Project` instance:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Etapa 2: configurar opções para salvar imagens
+## Etapa 2: Configurar Image Save Options
 
- Definir`ImageSaveOptions` personalize o comportamento de salvamento de página definindo o`PageSavingCallback` propriedade:
+Set up `ImageSaveOptions` for PNG output and attach the custom callback:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +70,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Etapa 3: Salvar projeto com retorno de chamada
+> **Dica profissional:** Definir `RenderToSinglePage = false` garante que cada página do diagrama de Gantt seja renderizada separadamente, o que é essencial para que o callback receba streams distintos.
 
-Salve o projeto usando as opções de salvamento de imagem configuradas:
+## Etapa 3: Salvar o Project com Callback
+
+Invoke the `Save` method, passing `Stream.Null` because the actual streams are supplied by the callback:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Etapa 4: processar fluxos de páginas salvas
+## Etapa 4: Processar Streams de Páginas Salvas
 
-Itere pelos fluxos de páginas fornecidos pelo retorno de chamada para processar cada página individualmente:
+After the save operation completes, the callback holds a collection of `MemoryStream` objects—one per page. You can now iterate over them:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Processar cada fluxo de página
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Etapa 5: implementar retorno de chamada para salvar página personalizada
+## Etapa 5: Implementar Callback Personalizado de Salvamento de Página
 
- Crie uma classe que implemente o`IPageSavingCallback` interface para lidar com o salvamento de páginas:
+Create a sealed class that implements `IPageSavingCallback`. This class captures each page’s stream and stores it in a list for later use.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +110,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Execute qualquer limpeza ou finalização
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Conclusão:
+## Armadilhas Comuns & Solução de Problemas
 
-Neste tutorial, aprendemos como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET, permitindo-nos salvar documentos de várias páginas em fluxos separados. Seguindo essas etapas, você pode aprimorar a funcionalidade do seu aplicativo e obter um tratamento de saída personalizado.
+| Problema | Motivo | Solução |
+|----------|--------|----------|
+| **Nenhuma página é retornada** | `RenderToSinglePage` deixado como `true`. | Defina `RenderToSinglePage = false` para gerar páginas separadas. |
+| **Streams estão vazios** | `KeepStreamOpen` definido como `true` sem descarte posterior. | Mantenha como `false` (padrão) e deixe o callback fechar os streams automaticamente. |
+| **Erros de falta de memória** | Projetos muito grandes geram muitas PNGs de alta resolução. | Processar os streams um a um ou aumentar os limites de memória da VM. |
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### Q1: O que é um retorno de chamada para salvar página em Aspose.Tasks?
+**Q1: O que é um callback de salvamento de página no Aspose.Tasks?**  
+A: Um callback de salvamento de página permite interceptar o processo de salvamento para cada página de um documento de várias páginas, fornecendo um `Stream` personalizado para essa página.
 
-A1: Um retorno de chamada para salvar página é um recurso do Aspose.Tasks que permite aos usuários personalizar o processo de salvamento de documentos de várias páginas, fornecendo fluxos para cada página individualmente.
+**Q2: Posso usar formatos diferentes para salvar páginas usando esse callback?**  
+A: Sim. Alterando `SaveFileFormat` você pode exportar para PNG, JPEG, PDF, SVG, etc.
 
-### P2: Posso usar formatos diferentes para salvar páginas usando esse retorno de chamada?
+**Q3: O Aspose.Tasks é compatível com .NET Core?**  
+A: Absolutamente. O Aspose.Tasks oferece suporte ao .NET Core, .NET 5 e .NET 6.
 
-A2: Sim, você pode utilizar vários formatos de arquivo suportados pelo Aspose.Tasks, como PNG, JPEG, PDF, etc., para salvar páginas com retorno de chamada.
+**Q4: Como posso lidar com erros durante o processo de salvamento de página?**  
+A: Envolva a lógica do callback em blocos try/catch e registre as exceções. O método `OnFinish` é um bom local para a limpeza final.
 
-### Q3: O Aspose.Tasks é compatível com .NET Core?
+**Q5: Onde posso encontrar mais recursos e suporte para Aspose.Tasks?**  
+A: Você pode visitar o [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para assistência, acessar a documentação [aqui](https://reference.aspose.com/tasks/net/), ou explorar recursos adicionais e opções de licenciamento no [site Aspose.Tasks](https://purchase.aspose.com/buy).
 
-A3: Sim, Aspose.Tasks oferece suporte a .NET Core, permitindo que os desenvolvedores usem seus recursos em aplicativos de plataforma cruzada.
+---
 
-### P4: Como posso lidar com erros durante o processo de salvamento da página?
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-A4: Você pode implementar mecanismos de tratamento de erros nos métodos de retorno de chamada para gerenciar exceções e garantir robustez em seu aplicativo.
-
-### P5: Onde posso encontrar mais recursos e suporte para Aspose.Tasks?
-
- A5: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para assistência, acesse a documentação[aqui](https://reference.aspose.com/tasks/net/) ou explore recursos adicionais e opções de licenciamento no[Site Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
