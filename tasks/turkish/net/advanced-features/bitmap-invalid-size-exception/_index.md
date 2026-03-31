@@ -1,55 +1,66 @@
 ---
-title: Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
-linktitle: Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
-second_title: Aspose.Tasks .NET API'si
-description: Projeleri görüntü olarak kaydederken Aspose.Tasks for .NET'te BitmapInvalidSizeException'ın nasıl işleneceğini öğrenin. Adım adım rehberlik içeren kapsamlı eğitim.
-weight: 22
+date: 2026-03-21
+description: Aspose.Tasks for .NET'te bir projeyi resim olarak kaydederken görüntüyü
+  dışa aktarmayı ve BitmapInvalidSizeException hatasını nasıl ele alacağınızı öğrenin.
+  Projeyi resim olarak kaydetme ve PNG olarak dışa aktarma adımlarını içerir.
+linktitle: Handling Invalid Size Exception for Bitmap in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Görseli Nasıl Dışa Aktarır ve Geçersiz Boyut İstisnasını Ele Alırsınız
 url: /tr/net/advanced-features/bitmap-invalid-size-exception/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Bitmap için Geçersiz Boyut İstisnasını İşleme
+# How to Export Image – Handling Invalid Size Exception for Bitmap in Aspose.Tasks
 
-## giriiş
+Bu öğreticide **bir Microsoft Project dosyasından görüntü dışa aktarmayı** Aspose.Tasks for .NET kullanarak öğrenecek ve daha da önemlisi, süreç sırasında oluşabilecek `BitmapInvalidSizeException` hatasını nasıl yakalayacağınızı göreceksiniz. Bir projeyi görüntü olarak dışa aktarmak, raporlama panoları, dokümantasyon veya sadece bir takvimin görsel anlık görüntüsünü paylaşmak için yaygın bir gereksinimdir. Bu kılavuzun sonunda **projeyi görüntü olarak kaydetmeyi** güvenilir bir şekilde yapabilecek ve hatta **projeyi PNG formatında dışa aktarabileceksiniz**.
 
- Bu eğitimde, aşağıdaki işlemleri ele alacağız:`BitmapInvalidSizeException` Aspose.Tasks for .NET ile çalışırken. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan, projeleri görüntü olarak kaydetme gibi görevleri mümkün kılan güçlü bir kütüphanedir. Ancak bazen bir projeyi resim olarak kaydetmeye çalışırken bir hatayla karşılaşabiliriz.`Invalid Size Exception`Bitmap ile ilgili. Bu eğitimin amacı, bu istisnayı etkili bir şekilde yakalama ve işleme süreci boyunca size rehberlik etmektir.
+## Quick Answers
+- **What exception can occur when exporting an image?** `BitmapInvalidSizeException`  
+- **Which format is used in the example?** PNG (`SaveFileFormat.Png`)  
+- **Do I need a special license?** Üretim ortamı için geçerli bir Aspose.Tasks lisansı gereklidir.  
+- **Can I change the timescale?** Evet – zaman ölçeği birimini (dakika, saat, gün vb.) ayarlayabilirsiniz.  
+- **Is the code compatible with .NET Core?** Kesinlikle – aynı API .NET Framework ve .NET Core üzerinde çalışır.
 
-## Önkoşullar
+## What is the BitmapInvalidSizeException?
+`BitmapInvalidSizeException`, görüntü için hesaplanan bitmap boyutları desteklenen aralığın dışına çıktığında (ör. genişlik ya da yükseklik sıfır veya iç limitleri aştığında) fırlatılır. Bu genellikle zaman ölçeği veya görünüm ayarları çok büyük ya da çok küçük bir görüntü oluşturduğunda meydana gelir.
 
-Bu eğitime devam etmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1. C# programlama dilinin temel anlayışı.
-2. .NET için Aspose.Tasks'ı yükledim.
-3. Microsoft Project dosyalarıyla çalışmaya aşinalık.
+## Why export a project as an image?
+- **Visual reporting** – Gantt şemasını PDF, Word belgeleri veya web sayfalarına gömebilirsiniz.  
+- **Cross‑platform sharing** – PNG dosyaları, Microsoft Project gerektirmeden herhangi bir cihazda görüntülenebilir.  
+- **Performance** – Görüntüler, tam proje dosyalarına göre hızlı ön izlemeler için daha hafiftir.
 
-## Ad Alanlarını İçe Aktar
+## Prerequisites
+1. C# ve .NET geliştirme konusunda temel bilgi.  
+2. Aspose.Tasks for .NET yüklü (NuGet paketi `Aspose.Tasks`).  
+3. Örnek bir Microsoft Project dosyası (ör. `Blank2010.mpp`).  
 
-Başlamadan önce gerekli ad alanlarını içe aktardığınızdan emin olun:
+## Import Namespaces
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Adım 1: Projeyi Başlatın ve Görünümü Tanımlayın
+## Step‑by‑Step Guide
 
- İlk olarak, bir başlat`Project` nesneyi seçin ve bir görünüm tanımlayın, örneğin`GanttChartView`.
+### Step 1: Initialize the Project and Choose a View
+İlk olarak bir `Project` örneği oluşturun ve renderlamak istediğiniz görünümü seçin (burada ilk Gantt şeması görünümünü kullanıyoruz).
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 GanttChartView view = (GanttChartView) project.Views.ToList()[0];
 ```
 
-## 2. Adım: Görüntü Kaydetme Seçeneklerini Belirleyin
-
-Ardından, format ve zaman ölçeği de dahil olmak üzere görüntüyü kaydetme seçeneklerini belirtin.
+### Step 2: Configure Image Save Options (Export Project to PNG)
+İstenen görüntü formatını ayarlayın ve Aspose.Tasks'in görünümde tanımlı zaman ölçeğini kullanmasını söyleyin.
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png)
@@ -58,68 +69,75 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
 };
 ```
 
-## 3. Adım: Zaman Ölçeği Birimini ve Sayımı Ayarlayın
-
-Zaman ölçeği birimini ayarlayın ve gereksinimlerinize göre sayın. Bu örnekte zaman ölçeğini dakika olarak ayarladık.
+### Step 3: Adjust the Timescale Unit (Control Image Size)
+Zaman ölçeğini değiştirmek bitmap boyutlarını etkiler. Bu örnekte **dakika** birimini kullanarak görüntü boyutunu yönetilebilir tutuyoruz.
 
 ```csharp
 view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
 view.MiddleTimescaleTier.Count = 1;
 ```
 
-## Adım 4: Projeyi Resim Olarak Kaydet
-
-Belirtilen seçenekleri kullanarak projeyi resim olarak kaydetmeyi deneyin.
+### Step 4: Attempt to Save the Project as an Image
+Bu satır, **projeyi görüntü olarak kaydet** işlemini gerçekleştirir.
 
 ```csharp
 project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 ```
 
-## Adım 5: İstisnayı Yakala ve İşle
-
- Yakalamak için istisna işlemeyi uygulayın`BitmapInvalidSizeException` görüntü kaydetme işlemi sırasında meydana gelirse.
+### Step 5: Catch and Handle the BitmapInvalidSizeException
+Kaydetme çağrısını bir `try / catch` bloğuna sarın; böylece bitmap boyutu geçersiz olduğunda uygulamanız sorunsuz bir şekilde yanıt verebilir.
 
 ```csharp
 try
 {
-    // Projeyi resim olarak kaydetmeyi deneyin
+    // Attempt to save project as an image
     project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 }
 catch (BitmapInvalidSizeException ex)
 {
-    // İstisnayı ele alın
+    // Handle the exception – for example, log it or adjust the timescale
     Console.WriteLine(ex.Message);
 }
 ```
 
-## Çözüm
+## Common Issues and Solutions
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Hala zaman ölçeği ayarlandıktan sonra istisna atılıyor | Zaman ölçeği hâlâ çok büyük bir bitmap oluşturuyor | `view.MiddleTimescaleTier.Count` değerini azaltın veya daha kaba bir `TimescaleUnit` (ör. Saat) seçin. |
+| Çıktı dosyası boş | Yanlış dosya yolu veya yazma izni eksikliği | `DataDir`'in yazılabilir bir klasöre işaret ettiğini ve formatı değiştirirseniz dosya adının `.png` ile bittiğini doğrulayın. |
+| Görüntü kalitesi düşük | Varsayılan DPI düşük olabilir | `options.DpiX` ve `options.DpiY` değerlerini daha yüksek bir değere (ör. 300) ayarlayın. |
 
- Sonuç olarak, işleme`BitmapInvalidSizeException` Aspose.Tasks for .NET'te projeleri görüntü olarak kaydederken uygulamalarınızın sorunsuz yürütülmesi açısından çok önemlidir. Bu eğitimde özetlenen adımları izleyerek bu istisnayı etkili bir şekilde yakalayıp yönetebilir, böylece proje yönetimi çözümlerinizin sağlamlığını artırabilirsiniz.
+## Frequently Asked Questions
 
-## SSS'ler
+**Q: What causes the BitmapInvalidSizeException in Aspose.Tasks?**  
+A: Hesaplanan bitmap boyutları geçersiz olduğunda ortaya çıkar—genellikle zaman ölçeği çok büyük bir görüntü oluşturduğunda ya da genişlik/yükseklik sıfır olduğunda.
 
-### S1: Aspose.Tasks'ta BitmapInvalidSizeException'ın nedeni nedir?
+**Q: Can I customize the timescale when exporting an image?**  
+A: Evet. `view.MiddleTimescaleTier.Unit` ve `Count` değerlerini ihtiyacınıza göre değiştirebilirsiniz; öğreticide gösterildiği gibi.
 
-Y1: Bu özel durum, bir projeyi geçersiz bit eşlem boyutu parametreleriyle görüntü olarak kaydetmeye çalışırken ortaya çıkar.
+**Q: Does Aspose.Tasks support other image formats besides PNG?**  
+A: Kesinlikle. `SaveFileFormat` ayrıca JPEG, BMP, GIF ve TIFF gibi formatları da içerir. `ImageSaveOptions` içindeki enum değerini değiştirmeniz yeterlidir.
 
-### S2: Bir projeyi görüntü olarak kaydederken zaman ölçeğini özelleştirebilir miyim?
+**Q: Is a license required for exporting images in a production environment?**  
+A: Evet. Kütüphane değerlendirme modunda çalışsa da, ticari bir lisans değerlendirme kısıtlamalarını kaldırır ve tam destek sağlar.
 
-C2: Evet, eğitimde gösterildiği gibi zaman ölçeği birimini ve sayımı gereksinimlerinize göre ayarlayabilirsiniz.
+**Q: How can I improve the quality of the exported PNG?**  
+A: DPI ayarlarını (`options.DpiX` ve `options.DpiY`) artırın veya daha büyük bir bitmap üretmek için görünümün zaman ölçeğini ayarlayın.
 
-### S3: Aspose.Tasks for .NET ile çalışmak için daha fazla kaynağı nerede bulabilirim?
+## Conclusion
+Yukarıdaki adımları izleyerek artık **bir Project dosyasından görüntü dışa aktarmayı**, **projeyi görüntü olarak kaydetmeyi** ve `BitmapInvalidSizeException` hatasını zarif bir şekilde ele almayı biliyorsunuz. Bu teknikler, raporlama süreçlerinizi daha sağlam hâle getirir ve görsel dışa aktarmaların farklı proje boyutları ve zaman ölçekleriyle sorunsuz çalışmasını sağlar.
 
-Cevap3: Kapsamlı rehberlik ve yardım için Aspose.Tasks tarafından sağlanan belgeleri ve destek forumlarını inceleyebilirsiniz.
-
-### S4: Aspose.Tasks, Microsoft Project dosyalarının farklı sürümleriyle uyumlu mudur?
-
-Cevap4: Evet, Aspose.Tasks, Microsoft Project dosyalarının çeşitli sürümlerini destekleyerek kusursuz bir birlikte çalışabilirlik sağlar.
-
-### S5: Aspose.Tasks için nasıl geçici lisans alabilirim?
-
-Cevap5: Makalede verilen bağlantıdan değerlendirme amaçlı geçici lisans alabilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
+---

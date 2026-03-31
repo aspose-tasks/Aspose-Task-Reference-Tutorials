@@ -1,64 +1,76 @@
 ---
-title: Colección de períodos de disponibilidad en Aspose.Tasks
-linktitle: Colección de períodos de disponibilidad en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a administrar los períodos de disponibilidad de los recursos en Aspose.Tasks para .NET. Este tutorial paso a paso lo guía para agregar, actualizar y eliminar períodos de disponibilidad, lo que garantiza una planificación eficaz de los recursos del proyecto.
-weight: 18
+date: 2026-03-21
+description: Aprenda a gestionar los períodos de disponibilidad de los recursos y
+  lograr una disponibilidad eficaz de los recursos del proyecto con Aspose.Tasks para
+  .NET. Esta guía paso a paso muestra cómo agregar, actualizar y eliminar períodos
+  de disponibilidad.
+linktitle: Collection of Availability Periods in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Disponibilidad de recursos del proyecto – Gestión de períodos de disponibilidad
+  en Aspose.Tasks
 url: /es/net/advanced-features/availability-period-collection/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Colección de períodos de disponibilidad en Aspose.Tasks
+# Disponibilidad de Recursos del Proyecto: Colección de Períodos de Disponibilidad en Aspose.Tasks
 
-## Introducción
+Gestionar la **disponibilidad de recursos del proyecto** es una parte fundamental de una planificación exitosa. En este tutorial aprenderás **cómo gestionar la disponibilidad** de los recursos usando la API Aspose.Tasks para .NET, paso a paso, desde cargar un proyecto hasta copiar períodos entre recursos.
 
-En este tutorial, exploraremos cómo trabajar con la colección del período de disponibilidad de un recurso en Aspose.Tasks para .NET. Gestionar los períodos de disponibilidad es crucial para la gestión de proyectos, ya que nos permite definir cuándo están disponibles los recursos para las tareas dentro de un proyecto.
+## Respuestas rápidas
+- **¿Cuál es la clase principal para los períodos de disponibilidad?** `AvailabilityPeriod` en el espacio de nombres `Aspose.Tasks`.  
+- **¿Puedo borrar los períodos existentes?** Sí, llama a `resource.AvailabilityPeriods.Clear()`.  
+- **¿Cómo añado un nuevo período?** Crea un objeto `AvailabilityPeriod` y usa `Add` o `Insert`.  
+- **¿Es posible copiar períodos a otro recurso?** Absolutamente – usa `CopyTo` y luego agrega cada elemento al recurso de destino.  
+- **¿Necesito una licencia para uso en producción?** Sí, se requiere una licencia comercial de Aspose.Tasks para implementaciones que no sean de prueba.
+
+## ¿Qué es la disponibilidad de recursos del proyecto?
+La disponibilidad de recursos del proyecto define las fechas y unidades (porcentaje de capacidad) cuando un recurso puede ser asignado a tareas. Al controlar estos períodos evitas la sobreasignación y mejoras la precisión del cronograma.
+
+## ¿Por qué usar Aspose.Tasks para gestionar períodos de disponibilidad?
+- **Integración completa con .NET** – sin interop COM, código totalmente administrado.  
+- **Control granular** – establece fechas de inicio/fin exactas y unidades fraccionarias.  
+- **Copia fácil** – mueve datos de disponibilidad entre recursos sin análisis manual.  
+- **Optimizado para rendimiento** – funciona eficientemente con archivos MPP grandes.
 
 ## Requisitos previos
-
-Antes de comenzar, asegúrese de tener lo siguiente:
-
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su sistema.
-2.  Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
-3. Comprensión básica: familiaridad con C# y .NET framework.
+1. **Visual Studio** – cualquier versión reciente (2019, 2022 o posterior).  
+2. **Aspose.Tasks para .NET** – descárgalo desde [aquí](https://releases.aspose.com/tasks/net/).  
+3. **Conocimientos básicos de C#** – deberías estar cómodo con clases, colecciones y LINQ.
 
 ## Importar espacios de nombres
-
-Primero, necesitamos importar los espacios de nombres necesarios a nuestro proyecto:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Dividamos el código de ejemplo en varios pasos y comprendamos cada parte:
+Importamos el espacio de nombres principal de Aspose.Tasks junto con las colecciones estándar de .NET que necesitaremos más adelante.
 
-## Paso 1: inicializar el proyecto y el recurso
+## Paso 1: Inicializar el proyecto y el recurso
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
-Aquí, cargamos un archivo de proyecto y obtenemos un recurso específico por su ID.
+Aquí cargamos un archivo MPP existente y obtenemos el recurso cuya disponibilidad queremos editar (ID = 1).
 
-## Paso 2: borrar los períodos de disponibilidad existentes
+## Paso 2: Borrar los períodos de disponibilidad existentes
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
 ```
 
-Limpiamos cualquier período de disponibilidad existente asociado con el recurso.
+Borrar elimina cualquier período previamente definido, dándonos una hoja limpia.
 
-## Paso 3: agregar períodos de disponibilidad
+## Paso 3: Añadir períodos de disponibilidad
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -71,9 +83,9 @@ foreach (var period in periods)
 }
 ```
 
-Recorremos una colección de períodos de disponibilidad y los agregamos al recurso.
+Recuperamos una colección de objetos `AvailabilityPeriod` (se asume que el asistente `GetPeriods` está definido en otro lugar) y añadimos cada uno, verificando que la colección sea modificable.
 
-## Paso 4: Inserte un nuevo período de disponibilidad
+## Paso 4: Insertar un nuevo período de disponibilidad
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -84,7 +96,7 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 }
 ```
 
-Creamos un nuevo período de disponibilidad para el año 2013 y lo insertamos en la colección.
+Esto crea un período personalizado para el año 2013 e lo inserta en la posición 1 (segundo espacio) si aún no está presente.
 
 ## Paso 5: Mostrar los períodos de disponibilidad
 
@@ -99,9 +111,9 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Imprimimos el recuento y los detalles de cada período de disponibilidad asociado al recurso.
+Una rápida volcado en consola muestra el recuento total y los detalles de cada período – útil para depuración o verificación.
 
-## Paso 6: copiar los períodos de disponibilidad a otro recurso
+## Paso 6: Copiar los períodos de disponibilidad a otro recurso
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -115,45 +127,52 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-Copiamos los periodos de disponibilidad de un recurso a otro.
+Copiamos toda la colección a un arreglo, borramos los períodos del recurso de destino y luego los repoblamos. Esto demuestra cómo duplicar datos de disponibilidad entre recursos.
 
-## Paso 7: actualizar y eliminar períodos de disponibilidad
+## Paso 7: Actualizar y eliminar períodos de disponibilidad
 
 ```csharp
-// Actualizar unidades disponibles para un período específico
+// Update available units for a specific period
 otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
 
-// Eliminar un período específico
+// Remove a specific period
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-Actualizamos las unidades disponibles para un período y eliminamos períodos específicos de la colección.
+Aquí ajustamos `AvailableUnits` para el penúltimo período y luego eliminamos el período 2013 que añadimos antes.
 
-## Conclusión
-
-En este tutorial, aprendimos cómo trabajar con colecciones de períodos de disponibilidad en Aspose.Tasks para .NET. Gestionar la disponibilidad de recursos es esencial para una planificación y ejecución efectiva de proyectos.
+## Problemas comunes y soluciones
+- **Error de colección de solo lectura** – Asegúrate de que el proyecto no esté abierto en modo solo lectura o de que hayas llamado a `resource.AvailabilityPeriods.Clear()` antes de añadir nuevos elementos.  
+- **Períodos superpuestos** – Aspose.Tasks no fusiona automáticamente los solapamientos; puede que necesites escribir lógica personalizada para detectarlos y resolverlos.  
+- **Formato de fecha incorrecto** – Siempre usa objetos `DateTime`; el análisis de cadenas puede generar errores dependientes de la configuración regional.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo agregar campos personalizados a los períodos de disponibilidad?
+**P: ¿Puedo añadir campos personalizados a los períodos de disponibilidad?**  
+R: No, los períodos de disponibilidad en Aspose.Tasks para .NET no admiten campos personalizados.
 
-R1: No, los períodos de disponibilidad en Aspose.Tasks para .NET no admiten campos personalizados.
+**P: ¿Los períodos de disponibilidad están vinculados a tareas específicas?**  
+R: No, están asociados a recursos y definen cuándo el recurso está generalmente disponible para tareas.
 
-### P2: ¿Los períodos de disponibilidad están vinculados a tareas específicas?
+**P: ¿Puedo importar períodos de disponibilidad desde fuentes externas?**  
+R: Sí, puedes importar períodos desde CSV, XML o una base de datos creando objetos `AvailabilityPeriod` y añadiéndolos a la colección.
 
-R2: No, los períodos de disponibilidad están asociados a los recursos y definen cuándo están disponibles para las tareas en general.
+**P: ¿Cómo manejo períodos de disponibilidad superpuestos?**  
+R: Los solapamientos no se resuelven automáticamente; debes implementar validación personalizada para fusionar o rechazar períodos conflictivos.
 
-### P3: ¿Puedo importar períodos de disponibilidad de fuentes externas?
+**P: ¿Existe un límite al número de períodos de disponibilidad que puede tener un recurso?**  
+R: No hay un límite codificado, pero colecciones muy grandes pueden afectar el rendimiento; considera consolidar períodos cuando sea posible.
 
-R3: Sí, puede importar períodos de disponibilidad de varias fuentes de datos utilizando Aspose.Tasks para las API de .NET.
+## Conclusión
 
-### P4: ¿Cómo manejo los períodos de disponibilidad superpuestos?
+En esta guía cubrimos todo lo que necesitas saber para gestionar la **disponibilidad de recursos del proyecto** con Aspose.Tasks para .NET—desde inicializar un proyecto y borrar datos antiguos, hasta añadir, insertar, copiar, actualizar y eliminar períodos de disponibilidad. Dominar estos pasos te ayuda a mantener calendarios de recursos precisos y tus cronogramas de proyecto realistas.
 
-R4: Aspose.Tasks para .NET no proporciona mecanismos integrados para manejar períodos superpuestos. Es posible que necesite implementar una lógica personalizada para gestionar dichos escenarios.
+---
 
-### P5: ¿Existe un límite en la cantidad de períodos de disponibilidad que puede tener un recurso?
+**Última actualización:** 2026-03-21  
+**Probado con:** Aspose.Tasks para .NET (última versión)  
+**Autor:** Aspose  
 
-R5: No existe un límite predefinido para la cantidad de períodos de disponibilidad que puede tener un recurso, pero el rendimiento puede degradarse con una gran cantidad de períodos.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

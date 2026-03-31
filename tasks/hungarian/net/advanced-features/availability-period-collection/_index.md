@@ -1,64 +1,75 @@
 ---
-title: Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
-linktitle: Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
+date: 2026-03-21
+description: Ismerje meg, hogyan kezelheti az erőforrások rendelkezésre állási időszakait,
+  és érhet el hatékony projekt‑erőforrás‑elérhetőséget az Aspose.Tasks for .NET segítségével.
+  Ez a lépésről‑lépésre útmutató bemutatja, hogyan adhat hozzá, frissíthet és távolíthat
+  el rendelkezésre állási időszakokat.
+linktitle: Collection of Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti az erőforrások rendelkezésre állási időszakait az Aspose.Tasks for .NET-ben. Ez a lépésenkénti oktatóanyag végigvezeti Önt a rendelkezésre állási időszakok hozzáadásával, frissítésével és eltávolításával, így biztosítva a hatékony projekterőforrás-tervezést.
-weight: 18
+title: Projekt erőforrások elérhetősége – Az elérhetőségi időszakok kezelése az Aspose.Tasks-ben
 url: /hu/net/advanced-features/availability-period-collection/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
+# Projekt erőforrás elérhetőség: Elérhetőségi időszakok gyűjteménye az Aspose.Tasks-ben
 
-## Bevezetés
+A **projekt erőforrás elérhetőség** kezelése a sikeres projekttervezés alapvető része. Ebben az oktatóanyagról megtanulja, **hogyan kezelje az elérhetőséget** az erőforrások számára az Aspose.Tasks for .NET API segítségével, lépésről‑lépésre, a projekt betöltésétől az időszakok másolásáig erőforrások között.
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk az Aspose.Tasks for .NET erőforrás rendelkezésre állási időszakának gyűjteményével. A rendelkezésre állási időszakok kezelése kulcsfontosságú a projektmenedzsment számára, lehetővé téve számunkra, hogy meghatározzuk, mikor állnak rendelkezésre erőforrások a projekten belüli feladatokhoz.
+## Gyors válaszok
+- **Mi a fő osztály az elérhetőségi időszakokhoz?** `AvailabilityPeriod` a `Aspose.Tasks` névtérben.  
+- **Törölhetem a meglévő időszakokat?** Igen, hívd a `resource.AvailabilityPeriods.Clear()` metódust.  
+- **Hogyan adhatok hozzá új időszakot?** Hozz létre egy `AvailabilityPeriod` objektumot, és használd az `Add` vagy `Insert` metódust.  
+- **Lehet-e időszakokat másolni egy másik erőforrásra?** Természetesen – használd a `CopyTo` metódust, majd add hozzá az egyes elemeket a cél erőforráshoz.  
+- **Szükség van licencre a termelési környezetben?** Igen, egy kereskedelmi Aspose.Tasks licenc szükséges a nem‑próba telepítésekhez.
+
+## Mi az a projekt erőforrás elérhetőség?
+A projekt erőforrás elérhetőség meghatározza azokat a dátumokat és egységeket (kapacitás százalékában), amikor egy erőforrás feladatokra rendelhető. Ezeknek az időszakoknak a szabályozásával elkerülhető a túlterhelés, és javítható a menetrend pontossága.
+
+## Miért használjuk az Aspose.Tasks-et az elérhetőségi időszakok kezelésére?
+- **Teljes .NET integráció** – nincs COM interop, tisztán kezelt kód.  
+- **Finomhangolt vezérlés** – pontos kezdő/lezáró dátumok és tört egységek beállítása.  
+- **Egyszerű másolás** – az elérhetőségi adatok áthelyezése erőforrások között manuális feldolgozás nélkül.  
+- **Teljesítmény‑optimalizált** – nagy MPP fájlokkal is hatékonyan működik.
 
 ## Előfeltételek
-
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
-
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
-3. Alapvető ismeretek: C# és .NET keretrendszer ismerete.
+1. **Visual Studio** – bármelyik újabb verzió (2019, 2022 vagy későbbi).  
+2. **Aspose.Tasks for .NET** – letölthető innen: [here](https://releases.aspose.com/tasks/net/).  
+3. **Alapvető C# ismeretek** – ismerned kell az osztályokat, gyűjteményeket és a LINQ‑t.
 
 ## Névterek importálása
-
-Először is importálnunk kell a szükséges névtereket a projektünkbe:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Bontsuk fel a példakódot több lépésre, és értsük meg az egyes részeket:
+Importáljuk a fő Aspose.Tasks névteret a szabványos .NET gyűjteményekkel, amelyekre később szükség lesz.
 
-## 1. lépés: Inicializálja a projektet és az erőforrást
+## 1. lépés: A projekt és az erőforrás inicializálása
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
-Itt egy projektfájlt töltünk be, és egy adott erőforrást kapunk az azonosítója alapján.
+Itt betöltünk egy meglévő MPP fájlt, és lekérjük azt az erőforrást, amelynek az elérhetőségét szerkeszteni szeretnénk (ID = 1).
 
-## 2. lépés: Törölje a meglévő rendelkezésre állási időszakokat
+## 2. lépés: A meglévő elérhetőségi időszakok törlése
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
 ```
 
-Töröljük az erőforráshoz kapcsolódó meglévő rendelkezésre állási időszakokat.
+A törlés eltávolítja az előzőleg definiált időszakokat, így tiszta lappal kezdhetünk.
 
-## 3. lépés: Adjon hozzá rendelkezésre állási időszakokat
+## 3. lépés: Elérhetőségi időszakok hozzáadása
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -71,9 +82,9 @@ foreach (var period in periods)
 }
 ```
 
-Megismételjük a rendelkezésre állási időszakok gyűjteményét, és hozzáadjuk őket az erőforráshoz.
+Lekérünk egy `AvailabilityPeriod` objektumok gyűjteményét (a `GetPeriods` segédfüggvénynek máshol kell definiálva lennie), és minden egyes elemet hozzáadunk, ellenőrizve, hogy a gyűjtemény írható‑e.
 
-## 4. lépés: Adjon meg egy új rendelkezésre állási időszakot
+## 4. lépés: Új elérhetőségi időszak beszúrása
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -84,9 +95,9 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 }
 ```
 
-A 2013-as évre létrehozunk egy új rendelkezésre állási időszakot, és beillesztjük a gyűjteménybe.
+Ez egy egyedi időszakot hoz létre a 2013‑as évre, és a 1. pozícióba (második hely) szúrja be, ha még nem létezik.
 
-## 5. lépés: Az elérhetőségi időszakok megjelenítése
+## 5. lépés: Elérhetőségi időszakok megjelenítése
 
 ```csharp
 Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
@@ -99,9 +110,9 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Kinyomtatjuk az erőforráshoz kapcsolódó minden rendelkezésre állási időszak számát és részleteit.
+Egy gyors konzol‑kiíratás mutatja a teljes darabszámot és minden időszak részleteit – hasznos hibakereséshez vagy ellenőrzéshez.
 
-## 6. lépés: Másolja a rendelkezésre állási időszakokat egy másik erőforrásba
+## 6. lépés: Elérhetőségi időszakok másolása egy másik erőforrásra
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -115,45 +126,52 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-A rendelkezésre állási időszakokat egyik erőforrásból a másikba másoljuk.
+Az egész gyűjteményt egy tömbbe másoljuk, töröljük a cél erőforrás időszakait, majd újra feltöltjük. Ez bemutatja, hogyan lehet duplikálni az elérhetőségi adatokat erőforrások között.
 
-## 7. lépés: Frissítse és távolítsa el az elérhetőségi időszakokat
+## 7. lépés: Elérhetőségi időszakok frissítése és eltávolítása
 
 ```csharp
-// Frissítse a rendelkezésre álló egységeket egy adott időszakra
+// Update available units for a specific period
 otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
 
-// Távolítson el egy adott időszakot
+// Remove a specific period
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-Frissítjük az elérhető egységeket egy adott időszakra, és bizonyos időszakokat eltávolítunk a gyűjteményből.
+Itt módosítjuk a második‑utolsó időszak `AvailableUnits` értékét, majd eltávolítjuk a korábban hozzáadott 2013‑as időszakot.
 
-## Következtetés
+## Gyakori problémák és megoldások
+- **Írásvédett gyűjtemény hiba** – Győződj meg róla, hogy a projekt nincs csak‑olvasás módban megnyitva, vagy hogy a `resource.AvailabilityPeriods.Clear()` metódust meghívtad az új elemek hozzáadása előtt.  
+- **Átfedő időszakok** – Az Aspose.Tasks nem egyesíti automatikusan az átfedéseket; saját logikát kell írnod az észleléshez és feloldáshoz.  
+- **Helytelen dátumformátum** – Mindig `DateTime` objektumokat használj; a karakterlánc‑feldolgozás helyi beállításokhoz kötött hibákat okozhat.
 
-Ebben az oktatóanyagban megtanultuk, hogyan kell dolgozni a rendelkezésre állási időszak gyűjteményeivel az Aspose.Tasks for .NET-ben. Az erőforrások rendelkezésre állásának kezelése elengedhetetlen a hatékony projekttervezéshez és -végrehajtáshoz.
+## Gyakran ismételt kérdések
 
-## GYIK
+**Q: Hozzáadhatok egyéni mezőket az elérhetőségi időszakokhoz?**  
+A: Nem, az Aspose.Tasks for .NET elérhetőségi időszakai nem támogatják az egyéni mezőket.
 
-### 1. kérdés: Hozzáadhatok egyéni mezőket a rendelkezésre állási időszakokhoz?
+**Q: Az elérhetőségi időszakok konkrét feladatokhoz vannak kapcsolva?**  
+A: Nem, ezek erőforrásokhoz tartoznak, és azt határozzák meg, mikor érhető el az erőforrás általánosan a feladatokhoz.
 
-1. válasz: Nem, az Aspose.Tasks for .NET rendelkezésre állási időszakai nem támogatják az egyéni mezőket.
+**Q: Importálhatok elérhetőségi időszakokat külső forrásokból?**  
+A: Igen, importálhatsz időszakokat CSV‑ből, XML‑ből vagy adatbázisból úgy, hogy `AvailabilityPeriod` objektumokat hozol létre, és hozzáadod a gyűjteményhez.
 
-### 2. kérdés: A rendelkezésre állási időszakok meghatározott feladatokhoz kapcsolódnak?
+**Q: Hogyan kezelem az átfedő elérhetőségi időszakokat?**  
+A: Az átfedéseket nem oldja fel automatikusan; saját validációt kell implementálnod a konfliktusok egyesítéséhez vagy elutasításához.
 
-2. válasz: Nem, a rendelkezésre állási időszakok erőforrásokhoz vannak társítva, és meghatározzák, hogy általában mikor állnak rendelkezésre a feladatokhoz.
+**Q: Van korlátozás az egy erőforrásra vonatkozó elérhetőségi időszakok számában?**  
+A: Nincs kódolt korlát, de nagyon nagy gyűjtemények befolyásolhatják a teljesítményt; ahol lehetséges, érdemes az időszakokat konszolidálni.
 
-### 3. kérdés: Importálhatok-e elérhetőségi időszakokat külső forrásokból?
+## Összegzés
 
-3. válasz: Igen, importálhat rendelkezésre állási időszakokat különböző adatforrásokból az Aspose.Tasks for .NET API-k használatával.
+Ebben az útmutatóban mindent áttekintettünk, ami a **projekt erőforrás elérhetőség** kezeléséhez szükséges az Aspose.Tasks for .NET‑el – a projekt inicializálásától a régi adatok törlésén, az időszakok hozzáadásán, beszúrásán, másolásán, frissítésén és eltávolításán keresztül. Ezeknek a lépéseknek a elsajátítása segít pontos erőforrás‑naptárakat fenntartani és reális projektmenetrendet biztosítani.
 
-### 4. kérdés: Hogyan kezelhetem az átfedő rendelkezésre állási időszakokat?
+---
 
-4. válasz: Az Aspose.Tasks for .NET nem biztosít beépített mechanizmusokat az átfedő időszakok kezelésére. Előfordulhat, hogy egyéni logikát kell alkalmaznia az ilyen forgatókönyvek kezeléséhez.
+**Utolsó frissítés:** 2026-03-21  
+**Tesztelt verzió:** Aspose.Tasks for .NET (legújabb kiadás)  
+**Szerző:** Aspose  
 
-### 5. kérdés: Van-e korlátozás az erőforrás rendelkezésre állási időszakainak számára?
-
-5. válasz: Nincs előre meghatározott korlát az erőforrás rendelkezésre állási időszakainak számára, de a teljesítmény csökkenhet nagy számú periódussal.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

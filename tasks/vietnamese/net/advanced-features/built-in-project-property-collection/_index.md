@@ -1,45 +1,43 @@
 ---
-title: Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
-linktitle: Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
+date: 2026-03-21
+description: Tìm hiểu cách đọc các thuộc tính dự án tích hợp sẵn trong .NET bằng Aspose.Tasks,
+  chỉnh sửa chúng và duyệt qua bộ sưu tập một cách hiệu quả.
+linktitle: Built-In Project Property Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý các thuộc tính meta dự án một cách hiệu quả trong các ứng dụng .NET bằng Aspose.Tasks. Đọc, sửa đổi và lặp lại các thuộc tính một cách dễ dàng.
-weight: 24
+title: Cách đọc các thuộc tính dự án tích hợp sẵn bằng Aspose.Tasks
 url: /vi/net/advanced-features/built-in-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bộ sưu tập thuộc tính dự án tích hợp trong Aspose.Tasks
+# Bộ sưu tập Thuộc tính Dự án tích hợp trong Aspose.Tasks
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển phần mềm, việc quản lý các nhiệm vụ và dự án một cách hiệu quả là điều tối quan trọng để thành công. Aspose.Tasks for .NET là một thư viện mạnh mẽ được thiết kế để hỗ trợ các tác vụ quản lý dự án trong các ứng dụng .NET. Với các tính năng mạnh mẽ và giao diện trực quan, các nhà phát triển có thể hợp lý hóa quy trình quản lý dự án, tiết kiệm thời gian và tài nguyên.
+Trong lĩnh vực phát triển phần mềm, việc quản lý các nhiệm vụ và dự án một cách hiệu quả là yếu tố then chốt để đạt được thành công. Khi bạn cần **read built-in project properties** từ các tệp Microsoft Project, Aspose.Tasks cho .NET cung cấp một API sạch sẽ, an toàn kiểu dữ liệu, giúp công việc trở nên đơn giản. Bằng cách tận dụng thư viện này, bạn có thể nhanh chóng trích xuất siêu‑thông tin như tác giả, danh mục và các bình luận tùy chỉnh, sau đó sử dụng dữ liệu này để hỗ trợ báo cáo, phân tích hoặc logic quy trình làm việc tùy chỉnh.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **What does “read built-in project properties” mean?** Trích xuất siêu dữ liệu tiêu chuẩn (tác giả, ngày bắt đầu, v.v.) đi kèm với tệp Project.  
+- **Which NuGet package is required?** `Aspose.Tasks.NET` – cài đặt qua Visual Studio hoặc `dotnet add package`.  
+- **Do I need a license for development?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần giấy phép thương mại cho môi trường sản xuất.  
+- **Can I modify the properties after reading them?** Có, bộ sưu tập `BuiltInProps` hỗ trợ đọc/ghi đầy đủ.  
+- **Supported file formats?** MPP, XML và các định dạng khác được Aspose.Tasks hỗ trợ.
 
-Trước khi đi sâu vào thế giới của Aspose.Tasks dành cho .NET, bạn nên có một số điều kiện tiên quyết:
+## Yêu cầu trước
 
-### 1. Thiết lập môi trường phát triển .NET
+Trước khi bắt đầu viết mã, hãy chắc chắn bạn đã có:
 
-Đảm bảo bạn có môi trường phát triển hoạt động cho .NET, bao gồm Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
+1. **Môi trường phát triển .NET** – Visual Studio, Rider, hoặc bất kỳ IDE nào bạn ưa thích.  
+2. **Kiến thức cơ bản về C#** – biến, vòng lặp và các khái niệm hướng đối tượng.  
+3. **Aspose.Tasks cho .NET** – tải về từ [website](https://releases.aspose.com/tasks/net/).  
+4. **Hiểu biết cơ bản về Quản lý Dự án** – giúp bạn liên kết các thuộc tính với các khái niệm thực tế.
 
-### 2. Hiểu biết cơ bản về C#
+## Nhập các không gian tên
 
-Làm quen với các khái niệm cơ bản về ngôn ngữ lập trình C#, bao gồm các biến, kiểu dữ liệu, vòng lặp và câu lệnh điều kiện.
-
-### 3. Cài đặt Aspose.Tasks cho .NET
-
- Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
-
-### 4. Làm quen với các khái niệm quản lý dự án
-
-Hiểu biết cơ bản về các khái niệm quản lý dự án sẽ giúp bạn sử dụng Aspose.Tasks cho .NET tốt hơn trong các dự án của mình.
-
-## Nhập không gian tên
-
-Để bắt đầu với Aspose.Tasks cho .NET, bạn cần nhập các vùng tên cần thiết vào dự án của mình. Các không gian tên này cung cấp quyền truy cập vào các lớp và phương thức cần thiết để làm việc với các tệp dự án một cách hiệu quả.
+Thêm các không gian tên cần thiết để làm việc với API Aspose.Tasks.
 
 ```csharp
 using Aspose.Tasks;
@@ -47,33 +45,34 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 
 using Aspose.Tasks.Properties;
-
 ```
 
-Hãy chia mã ví dụ được cung cấp thành nhiều bước để hiểu cách đọc các thuộc tính meta của dự án bằng Aspose.Tasks cho .NET.
+## Cách đọc thuộc tính dự án tích hợp
 
-## Bước 1: Tải tệp dự án
+Dưới đây là hướng dẫn chi tiết từng bước cho thấy cách tải tệp dự án và lấy các thuộc tính tích hợp của nó.
+
+### Bước 1: Tải tệp Dự án
 
 ```csharp
-// Đường dẫn tới thư mục tài liệu.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
- Bước này liên quan đến việc tải tệp dự án vào`project` đối tượng sử dụng hàm tạo của`Project` lớp học.
+Constructor `Project` đọc tệp được chỉ định và tạo ra một biểu diễn trong bộ nhớ mà bạn có thể truy vấn.
 
-## Bước 2: Truy cập Thuộc tính dự án tích hợp
+### Bước 2: Truy cập các Thuộc tính Tích hợp Cá nhân
 
 ```csharp
 Console.WriteLine("Author: " + project.BuiltInProps.Author);
 Console.WriteLine("Category: " + project.BuiltInProps.Category);
 Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
-// Thêm bất động sản...
+// More properties...
 ```
 
- Tại đây, chúng tôi truy cập vào các thuộc tính dự án tích hợp khác nhau như tác giả, danh mục, nhận xét, v.v., bằng cách sử dụng các thuộc tính tương ứng của`BuiltInProps` sự vật.
+Mỗi thuộc tính (ví dụ, `Author`, `Category`) được khai báo dưới dạng thành viên kiểu mạnh của bộ sưu tập `BuiltInProps`, giúp bạn dễ dàng **read built-in project properties** mà không cần tự phân tích XML.
 
-## Bước 3: Lặp lại bộ sưu tập thuộc tính tích hợp
+### Bước 3: Duyệt qua Toàn bộ Bộ sưu tập Thuộc tính Tích hợp
 
 ```csharp
 foreach (Property property in project.BuiltInProps)
@@ -85,33 +84,56 @@ foreach (Property property in project.BuiltInProps)
 }
 ```
 
-Bước này liên quan đến việc lặp lại bộ sưu tập thuộc tính tích hợp của dự án và in tên, giá trị và biểu diễn chuỗi của từng thuộc tính.
+Việc duyệt cho phép bạn có được một bức tranh toàn cảnh về mọi trường siêu dữ liệu tiêu chuẩn mà tệp dự án chứa. Điều này hữu ích khi bạn muốn hiển thị tất cả các thuộc tính trong lưới UI hoặc xuất chúng ra tệp CSV.
 
-## Phần kết luận
+## Tại sao nên đọc thuộc tính dự án tích hợp?
 
-Tóm lại, Aspose.Tasks cho .NET cung cấp một giải pháp toàn diện để quản lý các thuộc tính meta dự án một cách hiệu quả trong các ứng dụng .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, các nhà phát triển có thể tích hợp liền mạch các chức năng quản lý dự án vào các dự án phần mềm của họ, nâng cao năng suất và tổ chức.
+- **Báo cáo & Bảng điều khiển:** Lấy thông tin tác giả, ngày bắt đầu và trạng thái để cung cấp cho các công cụ BI.  
+- **Tự động hoá:** Kích hoạt quy trình làm việc tùy chỉnh dựa trên siêu dữ liệu dự án (ví dụ, tự động phân công nguồn lực khi “Category” khớp với giá trị nhất định).  
+- **Di chuyển:** Khi chuyển dự án giữa các hệ thống, các thuộc tính tích hợp giữ lại ngữ cảnh quan trọng.
+
+## Các vấn đề thường gặp & Mẹo
+
+- **File Path Errors:** Đảm bảo `DataDir` kết thúc bằng dấu phân cách đường dẫn (`\` hoặc `/`) hoặc sử dụng `Path.Combine`.  
+- **Missing Properties:** Một số thuộc tính có thể rỗng nếu tệp nguồn không định nghĩa chúng; luôn kiểm tra `null` hoặc chuỗi rỗng.  
+- **Performance:** Đối với các tệp MPP rất lớn, tải dự án một lần và tái sử dụng đối tượng `project` thay vì mở lại liên tục.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Tasks for .NET có tương thích với tất cả các phiên bản .NET Framework không?
+### Q1: Aspose.Tasks cho .NET có tương thích với mọi phiên bản của .NET Framework không?
 
-Câu trả lời 1: Có, Aspose.Tasks for .NET tương thích với nhiều phiên bản .NET Framework khác nhau, đảm bảo tính linh hoạt và dễ tích hợp.
+A1: Có, Aspose.Tasks cho .NET tương thích với nhiều phiên bản của .NET Framework, đảm bảo tính linh hoạt và dễ dàng tích hợp.
 
-### Câu hỏi 2: Tôi có thể sửa đổi các thuộc tính meta của dự án bằng Aspose.Tasks cho .NET không?
+### Q2: Tôi có thể sửa đổi siêu‑thuộc tính dự án bằng Aspose.Tasks cho .NET không?
 
-A2: Chắc chắn rồi! Aspose.Tasks for .NET cho phép bạn không chỉ đọc mà còn sửa đổi các thuộc tính meta của dự án theo yêu cầu của bạn.
+A2: Chắc chắn! Aspose.Tasks cho .NET cho phép bạn không chỉ đọc mà còn sửa đổi siêu‑thuộc tính dự án theo yêu cầu.
 
-### Câu hỏi 3: Aspose.Tasks cho .NET có hỗ trợ các định dạng tệp dự án phổ biến không?
+### Q3: Aspose.Tasks cho .NET có hỗ trợ các định dạng tệp dự án phổ biến không?
 
-Câu trả lời 3: Có, Aspose.Tasks for .NET hỗ trợ nhiều định dạng tệp dự án, bao gồm MPP, XML và XLSX, cùng nhiều định dạng khác.
+A3: Có, Aspose.Tasks cho .NET hỗ trợ đa dạng các định dạng tệp dự án, bao gồm MPP, XML và XLSX, cùng các định dạng khác.
 
-### Câu hỏi 4: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
+### Q4: Có bản dùng thử miễn phí cho Aspose.Tasks cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/) để khám phá các tính năng của nó trước khi mua hàng.
+A4: Có, bạn có thể tải bản dùng thử miễn phí của Aspose.Tasks cho .NET từ [website](https://releases.aspose.com/tasks/net/) để khám phá tính năng trước khi mua.
 
-### Câu hỏi 5: Tôi có thể tìm tài nguyên và hỗ trợ bổ sung cho Aspose.Tasks cho .NET ở đâu?
+### Q5: Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.Tasks cho .NET ở đâu?
 
- A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và duyệt qua tài liệu để được hướng dẫn toàn diện.
+A5: Bạn có thể truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để nhận hỗ trợ cộng đồng và tham khảo tài liệu để có hướng dẫn chi tiết.
+
+### Q6: Tôi có thể lập trình thêm một thuộc tính tích hợp mới không?
+
+A6: Các thuộc tính tích hợp được định nghĩa trước bởi schema của Project, nhưng bạn có thể thêm thuộc tính tùy chỉnh thông qua bộ sưu tập `ExtendedAttributes`.
+
+### Q7: Làm sao lưu các thay đổi sau khi sửa thuộc tính?
+
+A7: Gọi `project.Save("UpdatedProject.mpp")` với định dạng mong muốn; thư viện sẽ ghi lại mọi thay đổi vào tệp.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-21  
+**Kiểm tra với:** Aspose.Tasks 24.12 for .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

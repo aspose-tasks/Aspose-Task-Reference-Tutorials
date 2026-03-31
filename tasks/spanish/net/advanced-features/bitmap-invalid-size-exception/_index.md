@@ -1,55 +1,66 @@
 ---
-title: Manejo de excepción de tamaño no válido para mapa de bits en Aspose.Tasks
-linktitle: Manejo de excepción de tamaño no válido para mapa de bits en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a manejar BitmapInvalidSizeException en Aspose.Tasks para .NET al guardar proyectos como imágenes. Tutorial completo con guía paso a paso.
-weight: 22
+date: 2026-03-21
+description: Aprenda cómo exportar una imagen y manejar BitmapInvalidSizeException
+  al guardar un proyecto como imagen en Aspose.Tasks para .NET. Incluye pasos para
+  guardar el proyecto como imagen y exportar el proyecto a PNG.
+linktitle: Handling Invalid Size Exception for Bitmap in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cómo exportar una imagen y manejar la excepción de tamaño inválido
 url: /es/net/advanced-features/bitmap-invalid-size-exception/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manejo de excepción de tamaño no válido para mapa de bits en Aspose.Tasks
+# Cómo exportar una imagen – Manejo de la excepción de tamaño inválido para Bitmap en Aspose.Tasks
 
-## Introducción
+En este tutorial aprenderá **cómo exportar una imagen** desde un archivo Microsoft Project usando Aspose.Tasks para .NET y, lo que es más importante, cómo capturar la `BitmapInvalidSizeException` que puede ocurrir durante el proceso. Exportar un proyecto como una imagen es un requisito común para paneles de informes, documentación o simplemente compartir una captura visual de un cronograma. Al final de esta guía podrá **guardar el proyecto como imagen** de forma fiable e incluso **exportar el proyecto a formato PNG** sin bloqueos inesperados.
 
- En este tutorial profundizaremos en el manejo del`BitmapInvalidSizeException` cuando se trabaja con Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación, permitiendo tareas como guardar proyectos como imágenes. Sin embargo, ocasionalmente, al intentar guardar un proyecto como imagen, podemos encontrarnos con un`Invalid Size Exception`relacionado con el mapa de bits. Este tutorial tiene como objetivo guiarlo a través del proceso de detectar y manejar esta excepción de manera efectiva.
+## Respuestas rápidas
+- **¿Qué excepción puede ocurrir al exportar una imagen?** `BitmapInvalidSizeException`  
+- **¿Qué formato se usa en el ejemplo?** PNG (`SaveFileFormat.Png`)  
+- **¿Necesito una licencia especial?** Se requiere una licencia válida de Aspose.Tasks para uso en producción.  
+- **¿Puedo cambiar la escala de tiempo?** Sí – puede establecer la unidad de escala de tiempo (minutos, horas, días, etc.).  
+- **¿El código es compatible con .NET Core?** Absolutamente – la misma API funciona en .NET Framework y .NET Core.
+
+## Qué es la BitmapInvalidSizeException?
+`BitmapInvalidSizeException` se lanza cuando las dimensiones del bitmap calculadas para la imagen están fuera del rango admitido (por ejemplo, el ancho o la altura son cero o exceden los límites internos). Esto suele ocurrir cuando la escala de tiempo o la configuración de vista generan una imagen que es demasiado grande o demasiado pequeña.
+
+## ¿Por qué exportar un proyecto como una imagen?
+- **Informes visuales** – incruste un diagrama de Gantt en PDFs, documentos Word o páginas web.  
+- **Compartir multiplataforma** – los archivos PNG pueden verse en cualquier dispositivo sin necesidad de Microsoft Project.  
+- **Rendimiento** – las imágenes son ligeras en comparación con los archivos de proyecto completos para vistas previas rápidas.
 
 ## Requisitos previos
-
-Antes de continuar con este tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-1. Conocimientos básicos del lenguaje de programación C#.
-2. Aspose.Tasks instalado para .NET.
-3. Familiaridad con el trabajo con archivos de Microsoft Project.
+1. Conocimientos básicos de C# y desarrollo .NET.  
+2. Aspose.Tasks para .NET instalado (paquete NuGet `Aspose.Tasks`).  
+3. Un archivo de muestra de Microsoft Project (p. ej., `Blank2010.mpp`).  
 
 ## Importar espacios de nombres
-
-Antes de comenzar, asegúrese de importar los espacios de nombres necesarios:
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Paso 1: inicializar el proyecto y definir la vista
+## Guía paso a paso
 
- En primer lugar, inicialice un`Project` objeto y definir una vista, como la`GanttChartView`.
+### Paso 1: Inicializar el proyecto y elegir una vista
+Primero, cree una instancia de `Project` y seleccione la vista que desea renderizar (aquí usamos la primera vista de diagrama de Gantt).
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 GanttChartView view = (GanttChartView) project.Views.ToList()[0];
 ```
 
-## Paso 2: especificar las opciones para guardar imágenes
-
-A continuación, especifique las opciones para guardar la imagen, incluido el formato y la escala de tiempo.
+### Paso 2: Configurar las opciones de guardado de imagen (Exportar proyecto a PNG)
+Establezca el formato de imagen deseado y indique a Aspose.Tasks que use la escala de tiempo definida en la vista.
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png)
@@ -58,68 +69,73 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
 };
 ```
 
-## Paso 3: Establecer unidad de escala de tiempo y contar
-
-Ajuste la unidad de escala de tiempo y cuente según sus requisitos. En este ejemplo, configuramos la escala de tiempo en minutos.
+### Paso 3: Ajustar la unidad de escala de tiempo (Controlar el tamaño de la imagen)
+Cambiar la escala de tiempo influye en las dimensiones del bitmap. En este ejemplo usamos **minutos** para mantener el tamaño de la imagen manejable.
 
 ```csharp
 view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
 view.MiddleTimescaleTier.Count = 1;
 ```
 
-## Paso 4: guardar el proyecto como imagen
-
-Intente guardar el proyecto como una imagen usando las opciones especificadas.
+### Paso 4: Intentar guardar el proyecto como una imagen
+Esta línea realiza la operación real de **guardar el proyecto como imagen**.
 
 ```csharp
 project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 ```
 
-## Paso 5: capturar y manejar la excepción
-
- Implementar manejo de excepciones para detectar el`BitmapInvalidSizeException` si ocurre durante el proceso de guardar la imagen.
+### Paso 5: Capturar y manejar la BitmapInvalidSizeException
+Envuelva la llamada de guardado en un bloque `try / catch` para que su aplicación pueda reaccionar de forma elegante si el tamaño del bitmap es inválido.
 
 ```csharp
 try
 {
-    // Intenta guardar el proyecto como una imagen.
+    // Attempt to save project as an image
     project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 }
 catch (BitmapInvalidSizeException ex)
 {
-    // Manejar la excepción
+    // Handle the exception – for example, log it or adjust the timescale
     Console.WriteLine(ex.Message);
 }
 ```
 
-## Conclusión
-
- En conclusión, el manejo de la`BitmapInvalidSizeException` Al guardar proyectos como imágenes en Aspose.Tasks para .NET es crucial para garantizar una ejecución fluida de sus aplicaciones. Si sigue los pasos descritos en este tutorial, podrá detectar y manejar eficazmente esta excepción, mejorando así la solidez de sus soluciones de gestión de proyectos.
+## Problemas comunes y soluciones
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| La excepción sigue lanzándose después de ajustar la escala de tiempo | La escala de tiempo sigue produciendo un bitmap demasiado grande | Reduzca `view.MiddleTimescaleTier.Count` o cambie a una `TimescaleUnit` más gruesa (p. ej., Horas). |
+| El archivo de salida está vacío | Ruta de archivo incorrecta o faltan permisos de escritura | Verifique que `DataDir` apunte a una carpeta con permisos de escritura y que el nombre de archivo termine con `.png` si cambia el formato. |
+| La calidad de la imagen es pobre | El DPI predeterminado puede ser bajo | Establezca `options.DpiX` y `options.DpiY` a valores más altos (p. ej., 300). |
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué causa la excepción BitmapInvalidSizeException en Aspose.Tasks?
+**Q: ¿Qué causa la BitmapInvalidSizeException en Aspose.Tasks?**  
+A: Ocurre cuando las dimensiones calculadas del bitmap son inválidas—típicamente porque la escala de tiempo crea una imagen que es demasiado grande o tiene ancho/alto cero.
 
-R1: Esta excepción ocurre al intentar guardar un proyecto como una imagen con parámetros de tamaño de mapa de bits no válidos.
+**Q: ¿Puedo personalizar la escala de tiempo al exportar una imagen?**  
+A: Sí. Puede modificar `view.MiddleTimescaleTier.Unit` y `Count` según sus necesidades, como se muestra en el tutorial.
 
-### P2: ¿Puedo personalizar la escala de tiempo al guardar un proyecto como imagen?
+**Q: ¿Aspose.Tasks admite otros formatos de imagen además de PNG?**  
+A: Absolutamente. `SaveFileFormat` también incluye JPEG, BMP, GIF y TIFF. Simplemente cambie el valor del enum en `ImageSaveOptions`.
 
-R2: Sí, puede ajustar la unidad de escala de tiempo y contar según sus requisitos, como se demuestra en el tutorial.
+**Q: ¿Se requiere una licencia para exportar imágenes en un entorno de producción?**  
+A: Sí. Aunque la biblioteca funciona en modo de evaluación, una licencia comercial elimina las limitaciones de evaluación y brinda soporte completo.
 
-### P3: ¿Dónde puedo encontrar más recursos para trabajar con Aspose.Tasks para .NET?
+**Q: ¿Cómo puedo mejorar la calidad del PNG exportado?**  
+A: Aumente la configuración de DPI (`options.DpiX` y `options.DpiY`) o ajuste la escala de tiempo de la vista para producir un bitmap más grande.
 
-R3: Puede explorar la documentación y los foros de soporte proporcionados por Aspose.Tasks para obtener orientación y asistencia integrales.
+## Conclusión
+Al seguir los pasos anteriores ahora sabe **cómo exportar una imagen** desde un archivo Project, cómo **guardar el proyecto como imagen**, y cómo manejar de forma elegante la `BitmapInvalidSizeException`. Estas técnicas hacen que sus canalizaciones de informes sean más robustas y garantizan que las exportaciones visuales funcionen de manera fiable en diferentes tamaños de proyecto y escalas de tiempo.
 
-### P4: ¿Aspose.Tasks es compatible con diferentes versiones de archivos de Microsoft Project?
-
-R4: Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, lo que permite una interoperabilidad perfecta.
-
-### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.Tasks?
-
-R5: Puede adquirir una licencia temporal con fines de evaluación a través del enlace proporcionado en el artículo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-03-21  
+**Probado con:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose
