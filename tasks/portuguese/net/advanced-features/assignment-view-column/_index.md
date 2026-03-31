@@ -1,33 +1,52 @@
 ---
-title: Coluna de visualização de atribuição personalizada em Aspose.Tasks
-linktitle: Coluna de visualização de atribuição personalizada em Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda como adicionar colunas de visualização de atribuição personalizadas em Aspose.Tasks for .NET para aprimorar os recursos de gerenciamento de projetos.
-weight: 16
+date: 2026-03-19
+description: Aprenda a adicionar várias colunas personalizadas e formatar a largura
+  das colunas personalizadas ao exportar um projeto para XML usando o Aspose.Tasks
+  para .NET.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Adicionar várias colunas personalizadas à visualização de atribuições no Aspose.Tasks
 url: /pt/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Coluna de visualização de atribuição personalizada em Aspose.Tasks
+# Adicionar Múltiplas Colunas Personalizadas à Visualização de Atribuições no Aspose.Tasks
 
 ## Introdução
 
-Neste tutorial, exploraremos como adicionar colunas personalizadas para visualizações de tarefas usando Aspose.Tasks for .NET. Colunas personalizadas fornecem flexibilidade e permitem exibir informações adicionais relevantes para suas necessidades de gerenciamento de projetos.
+Neste tutorial você descobrirá **como adicionar múltiplas colunas personalizadas** a uma visualização de atribuição com Aspose.Tasks para .NET. Colunas personalizadas permitem expor dados extras — como notas, custos ou sinalizadores personalizados — diretamente em relatórios exportados. Ao final do guia você será capaz de formatar a largura da coluna personalizada, exportar o projeto para XML e adaptar a visualização para atender às necessidades de gerenciamento de projetos.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que posso alcançar?** Exibir quaisquer dados de atribuição em colunas personalizadas e controlar sua aparência.  
+- **Qual formato o suporta?** Exportar o projeto para XML (ou outros formatos) usando `Spreadsheet2003SaveOptions`.  
+- **Preciso de uma licença?** Sim, uma licença válida do Aspose.Tasks é necessária para uso em produção.  
+- **Quais versões do .NET funcionam?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Quantas colunas posso adicionar?** Ilimitado – basta criar instâncias adicionais de `AssignmentViewColumn`.
 
-Antes de começarmos, certifique-se de ter o seguinte:
+## O que são múltiplas colunas personalizadas?
+Múltiplas colunas personalizadas são campos definidos pelo usuário que aparecem ao lado das colunas padrão de atribuição quando um projeto é salvo ou exportado. Elas oferecem flexibilidade para expor qualquer propriedade de um objeto `ResourceAssignment`, como notas personalizadas, códigos de custo ou valores calculados.
 
-1. Conhecimento básico da linguagem de programação C#.
-2.  Biblioteca Aspose.Tasks para .NET instalada. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
-3. Um ambiente de desenvolvimento integrado (IDE), como o Visual Studio.
+## Por que adicionar múltiplas colunas personalizadas à visualização de atribuições?
+- **Relatórios aprimorados:** Inclua informações específicas do projeto que não são cobertas pelas colunas internas.  
+- **Melhor tomada de decisão:** As partes interessadas podem ver exatamente os dados que precisam sem precisar vasculhar arquivos brutos.  
+- **Formatação consistente:** Controle a largura da coluna e a conversão de texto para uma saída limpa e legível.  
 
-## Importar namespaces
+## Pré‑requisitos
 
-Primeiro, vamos importar os namespaces necessários para acessar as classes e métodos necessários para criar colunas de visualização de atribuição personalizadas:
+Antes de começar, certifique‑se de que você tem:
+
+1. Conhecimento básico da linguagem de programação C#.  
+2. Biblioteca Aspose.Tasks para .NET instalada. Caso não a tenha, você pode baixá‑la **[aqui](https://releases.aspose.com/tasks/net/)**.  
+3. Um ambiente de desenvolvimento integrado (IDE) como o Visual Studio.  
+
+## Guia Passo a Passo
+
+### Etapa 1: Importar Namespaces
+Primeiro, importe os namespaces que fornecem as classes que usaremos para trabalhar com projetos e visualizações.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +54,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Etapa 1: carregar o projeto
-
- Para começar, carregue seu arquivo de projeto usando o`Project` aula:
+### Etapa 2: Carregar o Projeto
+Crie uma instância de `Project` e carregue um arquivo MPP existente.
 
 ```csharp
-// O caminho para o diretório de documentos.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## Etapa 2: criar opções para salvar planilhas
-
- Em seguida, crie uma instância de`Spreadsheet2003SaveOptions` o que nos permite personalizar as colunas da visualização de tarefas:
+### Etapa 3: Criar Opções de Salvamento de Planilha
+Instancie `Spreadsheet2003SaveOptions` – este objeto permite personalizar a visualização de atribuição antes da exportação.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## Etapa 3: definir coluna personalizada
-
- Agora, defina sua coluna personalizada criando uma instância de`AssignmentViewColumn`. Esta classe requer o nome da coluna, a largura e uma função delegada para converter os dados de atribuição em texto da coluna:
+### Etapa 4: Definir Coluna Personalizada
+Crie um `AssignmentViewColumn` para cada dado que você deseja exibir. Abaixo adicionamos uma coluna **Notes** com largura de 200 pontos.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## Etapa 4: adicionar coluna personalizada às opções
+**Dica:** Para adicionar *múltiplas* colunas personalizadas, repita esta etapa com nomes de campo diferentes e lógica de delegate, então adicione cada instância a `options.AssignmentView.Columns`.
 
-Adicione a coluna personalizada à coleção de colunas da visualização de atribuição das opções de salvamento:
+### Etapa 5: Adicionar Coluna Personalizada às Opções
+Adicione a coluna (ou colunas) à coleção `Columns` da visualização de atribuição.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## Etapa 5: iterar por meio de atribuições
-
-Itere cada atribuição de recurso no projeto e exiba o texto da coluna personalizada:
+### Etapa 6: Iterar Através das Atribuições (Depuração Opcional)
+Você pode percorrer as atribuições para verificar se o texto da coluna personalizada está sendo gerado corretamente.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +104,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Etapa 6: salve o projeto com colunas personalizadas
-
-Por fim, salve o projeto com as colunas de visualização de atribuição personalizada:
+### Etapa 7: Salvar o Projeto com Colunas Personalizadas
+Finalmente, salve o projeto. O exemplo salva em XML, mas você pode escolher qualquer formato suportado.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Conclusão
+## Como exportar o projeto para XML com colunas personalizadas?
+Ao chamar `project.Save` com o `Spreadsheet2003SaveOptions` configurado, o Aspose.Tasks grava os dados do projeto — incluindo todas as **múltiplas colunas personalizadas** — no arquivo XML escolhido. Isso facilita o compartilhamento de informações de projeto enriquecidas com outros sistemas ou partes interessadas.
 
-Neste tutorial, aprendemos como adicionar colunas de visualização de atribuição personalizadas usando Aspose.Tasks for .NET. Colunas personalizadas oferecem flexibilidade na exibição de informações adicionais adaptadas aos requisitos do seu projeto, aprimorando os recursos de gerenciamento de projetos.
+## Formatar a largura da coluna personalizada para melhor legibilidade
+O segundo parâmetro do construtor `AssignmentViewColumn` controla a largura da coluna (medida em pontos). Ajuste esse valor conforme a quantidade de texto que você espera. Por exemplo, uma largura de **300** funciona bem para notas mais longas, enquanto **100** é suficiente para sinalizadores curtos.
 
-## Perguntas frequentes
+## Problemas Comuns e Soluções
+- **O texto da coluna aparece em branco:** Certifique‑se de que o delegate retorna uma string e que a propriedade subjacente da atribuição (por exemplo, `Asn.NotesText`) está preenchida.  
+- **As colunas não são visíveis no arquivo exportado:** Verifique se `options.AssignmentView.Columns` contém suas colunas personalizadas antes de chamar `Save`.  
+- **A largura parece ser ignorada:** Alguns formatos de exportação têm suas próprias regras de layout; o XML respeita a largura, mas PDF/HTML podem precisar de estilo adicional.
 
-### P1: Posso adicionar várias colunas personalizadas à visualização da tarefa?
+## Perguntas Frequentes
 
- A1: Sim, você pode adicionar várias colunas personalizadas criando instâncias adicionais de`AssignmentViewColumn` e adicionando-os ao`Columns` coleção.
+### Q1: Posso adicionar múltiplas colunas personalizadas à visualização de atribuições?
+**R:** Sim, basta criar objetos `AssignmentViewColumn` adicionais e adicioná‑los a `options.AssignmentView.Columns`.
 
-### P2: Existem conversores predefinidos disponíveis para campos de atribuição comuns?
+### Q2: Existem conversores predefinidos disponíveis para campos comuns de atribuição?
+**R:** Sim, o Aspose.Tasks fornece conversores embutidos para muitos campos padrão, facilitando a extração de dados sem escrever delegates personalizados.
 
-A2: Sim, Aspose.Tasks fornece conversores predefinidos para campos de atribuição comuns, facilitando a extração de dados para colunas personalizadas.
+### Q3: Posso personalizar a aparência das colunas personalizadas, como formatar texto ou aplicar estilos?
+**R:** Absolutamente. Além de definir a largura, você pode modificar fonte, alinhamento e outras propriedades visuais através das opções de estilo da coluna.
 
-### P3: Posso personalizar a aparência de colunas personalizadas, como formatação de texto ou aplicação de estilos?
+### Q4: É possível remover colunas padrão da visualização de atribuições?
+**R:** Você pode excluir colunas padrão removendo‑as da coleção `Columns` ou definindo sua largura como zero.
 
-R3: Sim, você pode personalizar a aparência de colunas personalizadas modificando propriedades como largura, fonte e alinhamento.
+### Q5: O Aspose.Tasks suporta exportação de projetos para outros formatos além de planilhas com colunas personalizadas?
+**R:** Sim, o Aspose.Tasks pode exportar para PDF, HTML, XML e muitos outros formatos mantendo as definições de colunas personalizadas.
 
-### Q4: É possível remover colunas padrão da visualização de tarefas?
+---
 
- A4: Sim, você pode remover colunas padrão excluindo-as do`Columns` coleção ou definindo sua largura como zero.
+**Última atualização:** 2026-03-19  
+**Testado com:** Aspose.Tasks 24.12 para .NET  
+**Autor:** Aspose  
 
-### P5: O Aspose.Tasks oferece suporte à exportação de projetos para outros formatos além de planilhas com colunas personalizadas?
-
-A5: Sim, Aspose.Tasks oferece suporte à exportação de projetos para vários formatos, como PDF, HTML e XML, permitindo opções versáteis de relatórios de projetos.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

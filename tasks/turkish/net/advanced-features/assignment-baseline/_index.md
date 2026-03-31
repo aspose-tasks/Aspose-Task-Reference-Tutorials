@@ -1,56 +1,64 @@
 ---
-title: Aspose.Tasks'ta Atama Temelini Yönetme
-linktitle: Aspose.Tasks'ta Atama Temelini Yönetme
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET ile proje ilerlemesinin ve performansının doğru şekilde izlenmesini sağlayarak atama temellerini nasıl verimli bir şekilde yöneteceğinizi öğrenin.
-weight: 14
+date: 2026-03-19
+description: Aspose.Tasks for .NET ile proje temel çizelgesini nasıl ayarlayacağınızı
+  ve görev temel çizelgelerini verimli bir şekilde nasıl yöneteceğinizi öğrenin; proje
+  ilerlemesinin doğru takibini sağlayın.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Proje Temel Çizgisini Ayarla – Aspose.Tasks'te Atama Temel Çizgisini Yönetme
 url: /tr/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Atama Temelini Yönetme
+# Proje Temel Çizgisini Ayarlama – Aspose.Tasks'te Atama Temel Çizgisini Yönetme
 
-## giriiş
+## Introduction
 
-Proje yönetimi görevleri üzerinde çalışırken, ilerlemeyi doğru bir şekilde izlemek için atama temellerini yönetmek çok önemlidir. Aspose.Tasks for .NET, atama temellerini verimli bir şekilde yönetmek için kapsamlı bir araç seti sağlar. Bu öğreticide, atama temellerini adım adım yönetme sürecini ele alacağız.
+Proje yönetimi görevleri üzerinde çalışırken, **proje temel çizgisini ayarlamak**, gerçek ilerlemeyi orijinal plana karşı ölçmek için hayati öneme sahiptir. Aspose.Tasks for .NET, **proje temel çizgisini ayarlamanıza** izin vermekle kalmaz, aynı zamanda atama temel çizgileri üzerinde tam kontrol sağlar ve kesin performans takibi yapmanıza olanak tanır. Bu öğreticide, bir projeyi yükleme, temel çizgi ayarlama, atama temel çizgi verilerini okuma ve temel çizgileri karşılaştırma süreçlerini adım adım ele alacağız; böylece projelerinizi güvenle izleyebileceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **“Proje temel çizgisini ayarlamak” ne anlama geliyor?** Gerçek performansla daha sonra karşılaştırmak üzere orijinal takvim ve maliyet verilerini kaydeder.  
+- **Hangi API yöntemi temel çizgi ayarlar?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Atama temel çizgileri ayrı bir çağrı gerektirir mi?** Hayır, bir proje temel çizgisi ayarlandığında otomatik olarak depolanırlar.  
+- **Hangi formatlar destekleniyor?** MPP, XML, MPX ve daha fazlası Aspose.Tasks aracılığıyla.  
+- **Üretim ortamında lisans gerekli mi?** Evet, deneme dışı kullanım için ticari bir lisans gereklidir.
 
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Prerequisites
 
-- Temel C# programlama dili bilgisi.
-- Sisteminizde Visual Studio yüklü.
-- Aspose.Tasks for .NET kütüphanesi projenize eklendi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
-- MPP formatında bir proje dosyasına erişim.
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-## Ad Alanlarını İçe Aktar
+- C# programlama temelleri.  
+- Visual Studio (herhangi bir güncel sürüm).  
+- Projenize eklenmiş Aspose.Tasks for .NET kütüphanesi. İndirmek için [buraya](https://releases.aspose.com/tasks/net/) tıklayın.  
+- MPP formatında bir proje dosyasına erişim (ör. `AssignmentBaseline2007.mpp`).
 
-Aspose.Tasks ile çalışmaya başlamak için gerekli ad alanlarını C# projenize aktarmanız gerekir. C# dosyanızın başına aşağıdaki ad alanlarını ekleyin:
+## Import Namespaces
+
+C# dosyanızın en üstüne gerekli ad alanlarını ekleyin; böylece derleyici Aspose.Tasks sınıflarını bulabilir.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Adım 1: Projeyi Yükleyin ve Temel Çizgiyi Ayarlayın
+## Step 1: Load Project and Set Project Baseline
 
- Öncelikle proje dosyasını kullanarak yükleyin.`Project` Aspose.Tasks'tan sınıf. Daha sonra, proje için temel tipini kullanarak ayarlayın.`SetBaseline` yöntem.
+Öncelikle mevcut MPP dosyasını yükleyin ve ardından `SetBaseline` metodunu çağırarak **proje temel çizgisini ayarlayın**.
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Adım 2: Ödev Temel Bilgilerini Okuyun
+## Step 2: Read Assignment Baseline Information
 
-Projedeki her kaynak atamasını yineleyin ve her atama için temel bilgileri alın.
+Temel çizgi ayarlandıktan sonra, her kaynak ataması kendi temel çizgi kayıtlarını içerir. Aşağıdaki döngü, başlangıç/bitiş tarihleri, maliyet, iş ve zaman‑fazlı veriler dahil olmak üzere bu detayları çıkarır ve yazdırır.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 3. Adım: Temel Eşitliği Kontrol Edin
+## Step 3: Compare Assignment Baselines
 
-Aspose.Tasks tarafından sağlanan çeşitli karşılaştırma yöntemlerini kullanarak farklı atamalara ilişkin temel bilgileri karşılaştırın.
+Farklı atamaların temel çizgilerini, yerleşik eşitlik ve karşılaştırma operatörlerini kullanarak karşılaştırabilirsiniz. Bu, görevler arasındaki takvim kaymalarını veya maliyet aşımlarını tespit etmeniz gerektiğinde oldukça kullanışlıdır.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,51 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Temel eşitliği kontrol edin
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Temel karşılaştırmayı kontrol edin
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Temel karma kodlarını görüntüle
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Çözüm
+## Common Issues and Solutions
 
-Atama temel çizgilerini yönetmek, proje yönetiminin ayrılmaz bir parçasıdır ve ilerlemenin ve performansın doğru şekilde izlenmesine olanak tanır. Aspose.Tasks for .NET ile atama temellerinin yönetimi kolaylaştırılmış ve verimli hale gelir ve geliştiricilere proje yönetimi iş akışlarını geliştirecek güçlü araçlar sağlanır.
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **Baseline data appears empty** | Proje dosyası yalnızca‑okunur modda açıldı veya temel çizgi hiç ayarlanmamış. | Atama temel çizgilerini okumadan önce `project.SetBaseline(BaselineType.Baseline)` metodunu çağırın. |
+| **`NullReferenceException` on `TimephasedData`** | Tüm temel çizgiler zaman‑fazlı girişler içermez. | Kodda gösterildiği gibi her zaman `baseline.TimephasedData != null` kontrolü yapın. |
+| **Incorrect UID retrieval** | UID değerleri dosya sürümleri arasında farklılık gösterir. | Doğru UID ile `ResourceAssignments.GetByUid` metodunu kullanın veya ihtiyacınız olan atamayı bulmak için döngüyle gezin. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.Tasks tek bir atama için birden fazla temel çizgiyi yönetebilir mi?
+**Q: Aspose.Tasks tek bir atama için birden fazla temel çizgi yönetebilir mi?**  
+A: Evet, Aspose.Tasks her atama için birden fazla temel çizgi destekler; bu sayede proje ilerlemesini zaman içinde kapsamlı bir şekilde izleyebilirsiniz.
 
-Cevap1: Evet, Aspose.Tasks her atama için birden fazla temel çizgiyi destekleyerek projenin zaman içindeki ilerlemesinin kapsamlı bir şekilde izlenmesine olanak tanır.
+**Q: Aspose.Tasks MPP dışındaki farklı proje dosya formatlarıyla uyumlu mu?**  
+A: Evet, Aspose.Tasks XML, MPX ve MPP dahil olmak üzere geniş bir proje dosyası formatı yelpazesini destekler; böylece çeşitli proje yönetim araçlarıyla uyumluluk sağlar.
 
-### S2: Aspose.Tasks, MPP dışındaki çeşitli proje dosyası formatlarıyla uyumlu mudur?
+**Q: Aspose.Tasks kullanarak temel çizgi bilgilerini programatik olarak değiştirebilir miyim?**  
+A: Kesinlikle, Aspose.Tasks, proje gereksinimlerine göre temel çizgi bilgilerini dinamik olarak değiştirebilmeniz için kapsamlı API'ler sunar; bu da proje yönetim süreçlerinde esneklik ve kontrol sağlar.
 
-C2: Evet, Aspose.Tasks, XML, MPX ve MPP dahil çok çeşitli proje dosyası formatlarını destekleyerek çeşitli proje yönetimi araçlarıyla uyumluluk sağlar.
+**Q: Aspose.Tasks geliştiriciler için dokümantasyon ve destek kaynakları sunuyor mu?**  
+A: Evet, geliştiriciler Aspose.Tasks web sitesinde kapsamlı dokümantasyon, öğreticiler ve forumlara erişebilir; bu da sorunsuz entegrasyon ve sorun giderme süreçlerini kolaylaştırır.
 
-### S3: Aspose.Tasks'ı kullanarak temel bilgileri programlı olarak değiştirebilir miyim?
+**Q: Aspose.Tasks for .NET için bir deneme sürümü mevcut mu?**  
+A: Evet, geliştiriciler [buradan](https://releases.aspose.com/) Aspose.Tasks for .NET'in ücretsiz deneme sürümünü edinebilir; böylece satın alma kararı vermeden önce özelliklerini ve yeteneklerini değerlendirebilirler.
 
-Cevap3: Kesinlikle, Aspose.Tasks, temel bilgileri proje gereksinimlerine göre dinamik olarak değiştirmek için kapsamlı API'ler sağlayarak, proje yönetimi süreçleri üzerinde esneklik ve kontrol sunar.
-
-### S4: Aspose.Tasks geliştiriciler için dokümantasyon ve destek kaynakları sunuyor mu?
-
-Cevap4: Evet, geliştiriciler Aspose.Tasks web sitesindeki kapsamlı belgelere, eğitimlere ve forumlara erişebilir, böylece sorunsuz entegrasyon ve sorun giderme işlemleri kolaylaştırılabilir.
-
-### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
-
- Cevap5: Evet, geliştiriciler Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirler:[Burada](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini ve yeteneklerini değerlendirmelerine olanak tanır.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose

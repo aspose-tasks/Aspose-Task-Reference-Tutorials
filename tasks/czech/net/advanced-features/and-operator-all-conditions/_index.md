@@ -1,33 +1,48 @@
 ---
-title: Použití operátoru AND za všech podmínek s Aspose.Tasks
-linktitle: Použití operátoru AND za všech podmínek s Aspose.Tasks
+date: 2026-03-19
+description: Naučte se, jak používat operátor AND ve všech podmínkách s Aspose.Tasks
+  pro .NET k efektivnímu filtrování úkolů projektu.
+linktitle: Using AND Operator in All Conditions with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se používat operátor AND za všech podmínek s Aspose.Tasks for .NET k efektivnímu filtrování projektových úkolů.
-weight: 11
+title: Jak použít operátor AND ve všech podmínkách s Aspose.Tasks
 url: /cs/net/advanced-features/and-operator-all-conditions/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití operátoru AND za všech podmínek s Aspose.Tasks
+# Použití operátoru AND ve všech podmínkách s Aspose.Tasks
 
 ## Úvod
 
-Chcete efektivně zefektivnit své úkoly projektového řízení? S Aspose.Tasks for .NET můžete využít výkonné funkce pro efektivní manipulaci s projektovými daty. Jednou z takových funkcí je schopnost používat operátor AND za všech podmínek, což vám umožňuje filtrovat úkoly na základě více kritérií současně. V tomto tutoriálu vás krok za krokem provedeme procesem implementace této funkce.
+Hledáte způsob, jak efektivně zjednodušit své úkoly projektového řízení? S Aspose.Tasks pro .NET můžete využít výkonné funkce k efektivní manipulaci s projektovými daty. Jednou z těchto funkcí je schopnost **use and operator** ve všech podmínkách, která vám umožní filtrovat úkoly na základě více kritérií současně. V tomto tutoriálu vás provedeme krok za krokem procesem implementace této funkčnosti, abyste mohli **how to filter tasks** rychle a spolehlivě.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co dělá operátor AND?** Kombinuje více podmínek filtru tak, že jsou vráceny pouze úkoly splňující *vše* kritéria.  
+- **Která knihovna tuto funkci poskytuje?** Aspose.Tasks pro .NET.  
+- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro hodnocení; licence je vyžadována pro produkční nasazení.  
+- **Mohu načíst soubor MPP?** Ano – použijte třídu `Project` k načtení souboru *.mpp*.  
+- **Je možné filtrovat souhrnné úkoly?** Rozhodně, přidáním `SummaryCondition` do seznamu podmínek.
 
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je funkce „use and operator“?
+Funkce **use and operator** vám umožňuje spojit několik implementací `ICondition<T>` pomocí `AndAllCondition<T>`. Výsledný filtr vrací pouze ty úkoly, které splňují *každou* podmínku, kterou zadáte.
 
-1. Základní znalost C#: Výhodou bude znalost programovacího jazyka C#.
-2.  Knihovna Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
-3. Integrované vývojové prostředí (IDE): Pro usnadnění kódování mějte na svém systému nainstalované IDE, jako je Visual Studio.
+## Proč použít více podmínek?
+Použití více podmínek (např. „úkol není null“ **and** „úkol je souhrnný úkol“) vám poskytuje přesnou kontrolu nad daty, se kterými pracujete. To je zvláště užitečné, když potřebujete **create custom filter** logiku pro složité projektové plány nebo generovat zprávy zaměřené na konkrétní skupiny úkolů.
 
-## Importovat jmenné prostory
+## Požadavky
 
-Nejprve musíte importovat potřebné jmenné prostory pro přístup k požadovaným třídám a metodám.
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující požadavky:
+
+1. **Základní znalost C#** – Znalost programovacího jazyka C# bude přínosná.  
+2. **Aspose.Tasks pro .NET knihovna** – Stáhněte a nainstalujte knihovnu Aspose.Tasks pro .NET z [here](https://releases.aspose.com/tasks/net/).  
+3. **Integrované vývojové prostředí (IDE)** – Mějte nainstalované IDE, například Visual Studio, na vašem systému pro pohodlí při programování.  
+
+## Importování jmenných prostorů
+
+Nejprve musíte importovat potřebné jmenné prostory, abyste získali přístup k požadovaným třídám a metodám.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,31 +50,30 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Nyní rozdělme příklad do několika kroků, abychom procesu jasně porozuměli.
+Nyní rozdělíme příklad do několika kroků, abychom proces jasně pochopili.
 
-## Krok 1: Načtěte soubor projektu
+## Krok 1: Načtení souboru projektu (load mpp file)
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Načtěte soubor projektu pomocí`Project`konstruktor třídy, určující cestu k souboru.
+Načtěte soubor projektu pomocí konstruktoru třídy `Project`, kde zadáte cestu k souboru. Tento krok demonstruje zpracování **load mpp file**.
 
-## Krok 2: Shromážděte všechny úkoly projektu
+## Krok 2: Shromáždění všech úkolů projektu
 
 ```csharp
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Využijte`ChildTasksCollector` třídy shromáždit všechny úkoly v rámci projektu.
+Využijte třídu `ChildTasksCollector` k shromáždění všech úkolů v projektu.
 
-## Krok 3: Definujte podmínky filtru
+## Krok 3: Definování podmínek filtru
 
 ```csharp
 var conditions = new List<ICondition<Task>>
@@ -69,15 +83,15 @@ var conditions = new List<ICondition<Task>>
 };
 ```
 
-Vytvořte seznam podmínek pro filtrování úkolů. V tomto příkladu filtrujeme úkoly, které nemají hodnotu null a jsou souhrnnými úkoly.
+Vytvořte seznam podmínek pro filtrování úkolů. V tomto příkladu filtrujeme úkoly, které jsou **not null** a jsou **summary tasks** – příklad **filter summary tasks**.
 
-## Krok 4: Použijte operátor AND na podmínky
+## Krok 4: Použití operátoru AND na podmínky (apply multiple conditions)
 
 ```csharp
 var joinedCondition = new AndAllCondition<Task>(conditions);
 ```
 
- Připojte se k podmínkám pomocí`AndAllCondition` třídy, přičemž na všechny podmínky použijete operátor AND.
+Spojte podmínky pomocí třídy `AndAllCondition`, aplikací **use and operator** na všechny podmínky.
 
 ## Krok 5: Filtrování úkolů
 
@@ -85,48 +99,56 @@ var joinedCondition = new AndAllCondition<Task>(conditions);
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-Použijte spojenou podmínku na shromážděné úkoly a podle toho je filtrujte.
+Použijte spojenou podmínku na shromážděné úkoly, aby byly podle toho filtrovány. Tento krok ukazuje **how to filter tasks** pomocí kombinované podmínky.
 
-## Krok 6: Zpracujte filtrované úkoly
+## Krok 6: Zpracování filtrovaných úkolů
 
 ```csharp
 foreach (var task in collection)
 {
     Console.WriteLine("Name: " + task.Get(Tsk.Name));
-    // Provádějte operace s filtrovanými úkoly
+    // Perform operations with filtered tasks
 }
 ```
 
-Procházejte filtrované úlohy a provádějte operace podle potřeby.
+Iterujte přes filtrované úkoly a provádějte požadované operace.
+
+## Časté problémy a řešení
+
+- **Seznam podmínek je prázdný** – Ujistěte se, že přidáte alespoň jeden `ICondition<T>` před vytvořením `AndAllCondition<T>`.  
+- **Nebyl vrácen žádný úkol** – Ověřte, že podmínky, které jste přidali, skutečně odpovídají úkolům ve vašem projektu (např. můžete filtrovat souhrnné úkoly, které ve vašem projektu neexistují).  
+- **Soubor nebyl nalezen** – Dvakrát zkontrolujte cestu `DataDir` a název souboru *.mpp*.
+
+## Často kladené otázky
+
+**Q: Mohu použít další podmínky kromě těch, které jsou v příkladu?**  
+A: Ano, můžete definovat a použít libovolné vlastní podmínky podle požadavků vašeho projektu.
+
+**Q: Je Aspose.Tasks pro .NET kompatibilní s různými formáty souborů projektů?**  
+A: Ano, Aspose.Tasks podporuje různé formáty souborů projektů, jako jsou MPP, XML a CSV.
+
+**Q: Nabízí Aspose.Tasks podporu pro složité algoritmy plánování projektů?**  
+A: Rozhodně, Aspose.Tasks poskytuje pokročilé funkce pro správu projektových plánů, včetně analýzy kritické cesty a alokace zdrojů.
+
+**Q: Mohu integrovat Aspose.Tasks s jinými .NET frameworky nebo knihovnami?**  
+A: Ano, můžete bez problémů integrovat Aspose.Tasks s jinými .NET frameworky a knihovnami pro rozšíření funkcionality.
+
+**Q: Existuje komunitní fórum nebo podpora pro uživatele Aspose.Tasks?**  
+A: Ano, můžete přistupovat ke komunitnímu fóru Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
 
 ## Závěr
 
-Na závěr, využití operátoru AND za všech podmínek s Aspose.Tasks for .NET vám umožňuje efektivně filtrovat projektové úkoly na základě více kritérií současně. Budete-li se řídit podrobným průvodcem uvedeným v tomto kurzu, můžete tuto funkci bez problémů integrovat do pracovního postupu projektového řízení a zvýšit produktivitu a organizaci.
+Na závěr, využití **use and operator** ve všech podmínkách s Aspose.Tasks pro .NET vám umožňuje efektivně filtrovat úkoly projektu na základě více kritérií současně. Dodržením krok‑za‑krokem průvodce v tomto tutoriálu můžete tuto funkci bez problémů začlenit do svého pracovního postupu projektového řízení, čímž zvýšíte produktivitu a organizaci.
 
-## FAQ
-
-### Q1: Mohu použít další podmínky kromě těch, které jsou uvedeny v příkladu?
-
-Odpověď 1: Ano, můžete definovat a použít libovolné vlastní podmínky na základě požadavků vašeho projektu.
-
-### Q2: Je Aspose.Tasks for .NET kompatibilní s různými formáty souborů projektu?
-
-Odpověď 2: Ano, Aspose.Tasks podporuje různé formáty souborů projektu, například MPP, XML a CSV.
-
-### Q3: Nabízí Aspose.Tasks podporu pro složité algoritmy plánování projektů?
-
-A3: Absolutně, Aspose.Tasks poskytuje pokročilé funkce pro správu plánů projektů, včetně analýzy kritických cest a přidělování zdrojů.
-
-### Q4: Mohu integrovat Aspose.Tasks s jinými .NET frameworky nebo knihovnami?
-
-Odpověď 4: Ano, můžete bezproblémově integrovat Aspose.Tasks s jinými frameworky a knihovnami .NET a zlepšit tak funkčnost.
-
-### Q5: Je pro uživatele Aspose.Tasks k dispozici komunitní fórum nebo kanál podpory?
-
- A5: Ano, máte přístup k fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose

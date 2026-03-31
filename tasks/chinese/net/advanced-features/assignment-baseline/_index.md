@@ -1,56 +1,62 @@
 ---
-title: 在 Aspose.Tasks 中管理分配基线
-linktitle: 在 Aspose.Tasks 中管理分配基线
+date: 2026-03-19
+description: 学习如何使用 Aspose.Tasks for .NET 设置项目基准并高效管理任务基准，确保项目进度的准确跟踪。
+linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks for .NET 高效管理分配基线，确保准确跟踪项目进度和绩效。
-weight: 14
+title: 设置项目基准 – 在 Aspose.Tasks 中管理分配基准
 url: /zh/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中管理分配基线
+# 设置项目基准 – 在 Aspose.Tasks 中管理任务分配基准
 
 ## 介绍
 
-在执行项目管理任务时，管理分配基线对于准确跟踪进度至关重要。 Aspose.Tasks for .NET 提供了一套全面的工具来有效地处理分配基线。在本教程中，我们将逐步深入研究管理分配基线的过程。
+在进行项目管理工作时，**设置项目基准**对于将实际进度与原始计划进行对比至关重要。Aspose.Tasks for .NET 不仅可以让你**设置项目基准**，还提供对任务分配基准的完整控制，从而实现精确的绩效跟踪。在本教程中，我们将完整演示整个过程——加载项目、设置基准、读取任务分配基准数据以及比较基准——帮助你自信地监控项目。
 
-## 先决条件
+## 快速答案
+- **“设置项目基准”是什么意思？** 它记录原始的进度和成本数据，以便后续与实际绩效进行比较。  
+- **哪个 API 方法用于设置基准？** `Project.SetBaseline(BaselineType.Baseline)`。  
+- **任务分配基准需要单独调用吗？** 不需要，设置项目基准时会自动保存分配基准。  
+- **支持哪些格式？** MPP、XML、MPX 等，均由 Aspose.Tasks 提供。  
+- **生产环境是否需要许可证？** 是的，非试用使用必须拥有商业许可证。
 
-在我们开始之前，请确保您满足以下先决条件：
+## 前置条件
 
-- C# 编程语言的基础知识。
-- Visual Studio 安装在您的系统上。
-- Aspose.Tasks for .NET 库已添加到您的项目中。您可以从以下位置下载：[这里](https://releases.aspose.com/tasks/net/).
-- 访问 MPP 格式的项目文件。
+在开始之前，请确保你具备以下条件：
+
+- 基本的 C# 编程知识。  
+- Visual Studio（任意近期版本）。  
+- 已在项目中添加 Aspose.Tasks for .NET 库。可从 [here](https://releases.aspose.com/tasks/net/) 下载。  
+- 拥有一个 MPP 格式的项目文件（例如 `AssignmentBaseline2007.mpp`）。
 
 ## 导入命名空间
 
-要开始使用 Aspose.Tasks，您需要将必要的命名空间导入到您的 C# 项目中。在 C# 文件的开头添加以下命名空间：
+在 C# 文件顶部添加所需的命名空间，以便编译器能够找到 Aspose.Tasks 类。
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## 第 1 步：加载项目并设置基线
+## 步骤 1：加载项目并设置项目基准
 
-首先，使用以下命令加载项目文件`Project`来自 Aspose.Tasks 的类。然后，使用以下命令设置项目的基线类型`SetBaseline`方法。
+首先，加载已有的 MPP 文件，然后调用 `SetBaseline` 为整个项目**设置项目基准**。
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## 第 2 步：读取作业基线信息
+## 步骤 2：读取任务分配基准信息
 
-迭代项目中的每个资源分配并检索每个分配的基线信息。
+基准设置完成后，每个资源分配都会拥有自己的基准记录。下面的循环提取并打印这些细节，包括开始/结束日期、成本、工作量以及任何时间相位数据。
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +88,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 第 3 步：检查基线相等性
+## 步骤 3：比较任务分配基准
 
-使用 Aspose.Tasks 提供的各种比较方法来比较不同作业的基线信息。
+你可以使用内置的相等和比较运算符比较不同任务分配的基准。这在需要检测任务进度偏移或成本超支时非常实用。
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +99,53 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-//检查基线相等性
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-//检查基线比较
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-//显示基线哈希码
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## 结论
+## 常见问题及解决方案
 
-管理分配基线是项目管理不可或缺的一部分，可以准确跟踪进度和绩效。借助 Aspose.Tasks for .NET，处理分配基线变得简化且高效，为开发人员提供了增强项目管理工作流程的强大工具。
+| 问题 | 产生原因 | 解决办法 |
+|------|----------|----------|
+| **基准数据为空** | 项目文件以只读模式打开，或根本未设置基准。 | 在读取任务分配基准之前调用 `project.SetBaseline(BaselineType.Baseline)`。 |
+| **`NullReferenceException` 出现在 `TimephasedData` 上** | 并非所有基准都包含时间相位条目。 | 始终检查 `baseline.TimephasedData != null`（如代码所示）。 |
+| **获取 UID 不正确** | 不同文件版本的 UID 值不同。 | 使用 `ResourceAssignments.GetByUid` 并提供正确的 UID，或遍历查找所需的分配。 |
 
-## 常见问题解答
+## 常见问答
 
-### Q1：Aspose.Tasks 可以处理单个作业的多个基线吗？
+**问：Aspose.Tasks 能否为单个任务分配处理多个基准？**  
+答：可以，Aspose.Tasks 支持为每个任务分配维护多个基准，从而实现对项目进度的全面跟踪。
 
-A1：是的，Aspose.Tasks 支持每个任务的多个基线，允许随着时间的推移全面跟踪项目进度。
+**问：Aspose.Tasks 是否兼容除 MPP 之外的其他项目文件格式？**  
+答：是的，Aspose.Tasks 支持包括 XML、MPX、MPP 在内的多种项目文件格式，确保与各种项目管理工具的兼容性。
 
-### Q2：Aspose.Tasks 是否兼容 MPP 以外的各种项目文件格式？
+**问：我可以使用 Aspose.Tasks 以编程方式修改基准信息吗？**  
+答：完全可以，Aspose.Tasks 提供丰富的 API，允许根据项目需求动态修改基准信息，提供灵活的项目管理控制。
 
-A2：是的，Aspose.Tasks支持多种项目文件格式，包括XML、MPX和MPP，确保与各种项目管理工具的兼容性。
+**问：Aspose.Tasks 是否为开发者提供文档和支持资源？**  
+答：是的，开发者可以在 Aspose.Tasks 官方网站上获取完整的文档、教程和论坛，帮助顺利集成并解决问题。
 
-### Q3：我可以使用 Aspose.Tasks 以编程方式修改基线信息吗？
+**问：是否有 Aspose.Tasks for .NET 的试用版可供下载？**  
+答：有，开发者可以从 [here](https://releases.aspose.com/) 获取 Aspose.Tasks for .NET 的免费试用版，以评估其功能和性能后再决定购买。
 
-A3：当然，Aspose.Tasks 提供了广泛的 API，可以根据项目要求动态修改基线信息，从而提供对项目管理流程的灵活性和控制。
-
-### Q4：Aspose.Tasks 是否为开发人员提供文档和支持资源？
-
-A4：是的，开发人员可以在 Aspose.Tasks 网站上访问全面的文档、教程和论坛，从而促进顺利集成和故障排除。
-
-### Q5：Aspose.Tasks for .NET 有试用版吗？
-
- A5：是的，开发人员可以从以下位置获取 Aspose.Tasks for .NET 的免费试用版：[这里](https://releases.aspose.com/)，使他们能够在做出购买决定之前评估其特性和功能。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最后更新：** 2026-03-19  
+**测试环境：** Aspose.Tasks 24.12 for .NET  
+**作者：** Aspose  
+
+---

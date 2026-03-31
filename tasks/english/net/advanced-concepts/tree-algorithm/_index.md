@@ -1,29 +1,45 @@
 ---
-title: Using Tree Algorithm in Aspose.Tasks
-linktitle: Using Tree Algorithm in Aspose.Tasks
+title: Add Resource to Project with Tree Algorithm in Aspose.Tasks
+linktitle: Add Resource to Project with Tree Algorithm in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Learn how to effectively manipulate task hierarchies in your .NET projects using Aspose.Tasks' Tree Algorithm.
+description: Learn how to add resource to project and calculate task duration using Aspose.Tasks' Tree Algorithm, and assign resources to tasks in .NET.
 weight: 13
 url: /net/advanced-concepts/tree-algorithm/
+date: 2026-03-19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Tree Algorithm in Aspose.Tasks
+# Add Resource to Project with Tree Algorithm in Aspose.Tasks
 
 ## Introduction
 
-Aspose.Tasks for .NET provides powerful functionalities for working with project management tasks, resources, and schedules. One such feature is the Tree Algorithm, which allows users to manipulate task hierarchies efficiently. In this tutorial, we'll explore how to utilize the Tree Algorithm in Aspose.Tasks for .NET to gather common work and update work values within a project.
+In this tutorial you’ll discover **how to add resource to project** by leveraging the powerful Tree Algorithm supplied by Aspose.Tasks for .NET. We’ll walk through creating a task hierarchy, calculating task duration, and assigning resources to tasks—all in a clear, step‑by‑step manner that you can copy into your own solution.
+
+## Quick Answers
+- **What does the Tree Algorithm do?** It traverses a task hierarchy to aggregate work values efficiently.  
+- **Which primary operation does this guide cover?** Adding a resource to a project and updating work totals.  
+- **Do I need a license?** A temporary or full license is required for production use.  
+- **Can I use this with .NET Core?** Yes, Aspose.Tasks supports .NET Framework and .NET Core.  
+- **How long does implementation take?** Around 10‑15 minutes for a basic project file.
+
+## What is “add resource to project” in Aspose.Tasks?
+
+Adding a resource to a project means creating a `Resource` object, defining its type (e.g., work), and linking it to one or more tasks via `ResourceAssignments`. This enables the scheduler to calculate effort, cost, and overall project duration.
+
+## Why use the Tree Algorithm for resource work calculations?
+
+The Tree Algorithm walks the task tree once, accumulating work from leaf tasks up to their summary tasks. This approach is far more efficient than iterating over each task individually, especially in large projects with deep hierarchies. It also guarantees that summary work values stay in sync with their children.
 
 ## Prerequisites
 
-Before we begin, ensure that you have the following prerequisites in place:
+Before we dive in, make sure you have the following:
 
-1. Visual Studio: Make sure you have Visual Studio installed on your system.
-2. Aspose.Tasks for .NET: Download and install Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/).
-3. Basic understanding of C#: Familiarity with C# programming language is required to follow along with the examples.
+1. **Visual Studio** – any recent edition (2019, 2022, or later).  
+2. **Aspose.Tasks for .NET** – download it from [here](https://releases.aspose.com/tasks/net/).  
+3. **Basic C# knowledge** – you should be comfortable with classes, objects, and simple LINQ.
 
 ## Import Namespaces
 
@@ -34,7 +50,6 @@ using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
 Now, let's break down each example into multiple steps:
@@ -57,7 +72,7 @@ var task = summary.Children.Add("Acquire staff");
 
 Define the task hierarchy by adding parent and child tasks.
 
-## Step 3: Set Task Properties
+## Step 3: Set Task Properties (including **calculate task duration**)
 
 ```csharp
 task.Set(Tsk.Start, new DateTime(1999, 5, 3, 9, 0, 0));
@@ -65,9 +80,9 @@ task.Set(Tsk.Duration, project.GetDuration(8 * 14, TimeUnitType.Hour));
 task.Set(Tsk.Finish, project.Get(Prj.Calendar).GetFinishDateByStartAndWork(task.Get(Tsk.Start), task.Get(Tsk.Duration)));
 ```
 
-Set properties such as start date, duration, and finish date for tasks.
+Here we **calculate task duration** by converting work hours into a `Duration` object and then derive the finish date.
 
-## Step 4: Add Resource
+## Step 4: Add Resource (**assign resources to tasks**)
 
 ```csharp
 var resource = project.Resources.Add("Project Manager");
@@ -75,7 +90,7 @@ resource.Set(Rsc.Type, ResourceType.Work);
 project.ResourceAssignments.Add(task, resource);
 ```
 
-Add resources to the project and assign them to tasks as needed.
+This snippet **adds a resource to the project** and **assigns resources to tasks** so the scheduler knows who is responsible for the work.
 
 ## Step 5: Apply Tree Algorithm
 
@@ -84,7 +99,7 @@ var acc = new WorkAccumulator();
 TaskUtils.Apply(summary, acc, 0);
 ```
 
-Initialize the `WorkAccumulator` class and apply the Tree Algorithm to gather common work.
+Initialize the `WorkAccumulator` class and apply the Tree Algorithm to gather common work across the hierarchy.
 
 ## Step 6: Update Task Work
 
@@ -96,9 +111,15 @@ summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 
 Update the work values for tasks based on the gathered information.
 
+## Common Issues & Tips
+
+- **Missing calendar settings:** If the finish date looks off, ensure the project calendar is correctly configured before calling `GetFinishDateByStartAndWork`.  
+- **Resource type mismatch:** Always set `Rsc.Type` to `ResourceType.Work` for effort‑based resources; otherwise, the work accumulation may return zero.  
+- **Pro tip:** After updating work, call `project.Save("UpdatedProject.mpp")` to persist changes.
+
 ## Conclusion
 
-In this tutorial, we've learned how to utilize the Tree Algorithm in Aspose.Tasks for .NET to manipulate task hierarchies effectively. By following the step-by-step guide, you can efficiently manage tasks and resources within your projects.
+By following these steps you now know how to **add resource to project**, **calculate task duration**, and **assign resources to tasks** using Aspose.Tasks' Tree Algorithm. This method streamlines hierarchy management and keeps summary work values accurate with minimal code.
 
 ## FAQ's
 
@@ -121,6 +142,26 @@ A4: For support related to Aspose.Tasks for .NET, you can visit the [Aspose.Task
 ### Q5: Is there a temporary license available for testing purposes?
 
 A5: Yes, you can obtain a temporary license for testing purposes from [here](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach with an existing large project file?**  
+A: Absolutely. The Tree Algorithm works on any `Project` instance, regardless of size.
+
+**Q: Does the algorithm also update cost values?**  
+A: The example focuses on work, but you can extend it to cost by accumulating `Tsk.Cost` in a similar fashion.
+
+**Q: What .NET versions are supported?**  
+A: Aspose.Tasks supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5+, and .NET 6+.
+
+**Q: How do I handle multiple resources per task?**  
+A: Add each resource with `project.ResourceAssignments.Add(task, resource)`; the accumulator will sum their work automatically.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

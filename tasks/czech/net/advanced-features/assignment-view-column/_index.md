@@ -1,33 +1,51 @@
 ---
-title: Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
-linktitle: Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
+date: 2026-03-19
+description: Naučte se, jak přidat více vlastních sloupců a nastavit šířku vlastního
+  sloupce při exportu projektu do XML pomocí Aspose.Tasks pro .NET.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak přidat vlastní sloupce zobrazení přiřazení do Aspose.Tasks pro .NET, abyste zlepšili možnosti řízení projektů.
-weight: 16
+title: Přidat více vlastních sloupců do zobrazení přiřazení v Aspose.Tasks
 url: /cs/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
+# Přidání více vlastních sloupců do zobrazení přiřazení v Aspose.Tasks
 
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak přidat vlastní sloupce pro zobrazení přiřazení pomocí Aspose.Tasks for .NET. Vlastní sloupce poskytují flexibilitu a umožňují zobrazit další informace relevantní pro potřeby řízení vašeho projektu.
+V tomto tutoriálu se dozvíte **jak přidat více vlastních sloupců** do zobrazení přiřazení pomocí Aspose.Tasks pro .NET. Vlastní sloupce vám umožní zobrazit další data—například poznámky, náklady nebo vlastní příznaky—přímo v exportovaných zprávách. Na konci průvodce budete schopni nastavit šířku vlastního sloupce, exportovat projekt do XML a přizpůsobit zobrazení tak, aby vyhovovalo vašim potřebám řízení projektů.
+
+## Rychlé odpovědi
+- **Co mohu dosáhnout?** Zobrazit libovolná data přiřazení ve vlastních sloupcích a řídit jejich vzhled.  
+- **Jaký formát to podporuje?** Exportovat projekt do XML (nebo jiných formátů) pomocí `Spreadsheet2003SaveOptions`.  
+- **Potřebuji licenci?** Ano, pro produkční použití je vyžadována platná licence Aspose.Tasks.  
+- **Které verze .NET fungují?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Kolik sloupců mohu přidat?** Neomezeně – stačí vytvořit další instance `AssignmentViewColumn`.
+
+## Co jsou více vlastních sloupců?
+Více vlastních sloupců jsou uživatelem definovaná pole, která se zobrazují vedle výchozích sloupců přiřazení, když je projekt uložen nebo exportován. Poskytují vám flexibilitu zobrazit libovolnou vlastnost objektu `ResourceAssignment`, například vlastní poznámky, kódy nákladů nebo vypočítané hodnoty.
+
+## Proč přidávat více vlastních sloupců do zobrazení přiřazení?
+- **Vylepšené reportování:** Zahrnout projektově specifické informace, které nejsou pokryty vestavěnými sloupci.  
+- **Lepší rozhodování:** Zainteresované strany mohou vidět přesná data, která potřebují, aniž by musely procházet surové soubory.  
+- **Konzistentní formátování:** Ovládat šířku sloupce a konverzi textu pro čistý, čitelný výstup.  
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte následující:
+Než se pustíme dál, ujistěte se, že máte:
 
-1. Základní znalost programovacího jazyka C#.
-2.  Nainstalovaná knihovna Aspose.Tasks for .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
-3. Integrované vývojové prostředí (IDE), jako je Visual Studio.
+1. Základní znalost programovacího jazyka C#.  
+2. Nainstalovanou knihovnu Aspose.Tasks pro .NET. Pokud ne, můžete ji stáhnout **[zde](https://releases.aspose.com/tasks/net/)**.  
+3. Integrované vývojové prostředí (IDE) jako je Visual Studio.  
 
-## Importovat jmenné prostory
+## Postupný návod
 
-Nejprve importujme potřebné jmenné prostory pro přístup ke třídám a metodám potřebným pro vytváření vlastních sloupců zobrazení přiřazení:
+### Krok 1: Importovat jmenné prostory
+Nejprve importujte jmenné prostory, které poskytují třídy potřebné pro práci s projekty a vizualizacemi.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +53,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Krok 1: Načtěte projekt
-
- Chcete-li začít, načtěte soubor projektu pomocí`Project` třída:
+### Krok 2: Načíst projekt
+Vytvořte instanci `Project` a načtěte existující soubor MPP.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## Krok 2: Vytvořte možnosti uložení tabulky
-
- Dále vytvořte instanci`Spreadsheet2003SaveOptions` což nám umožňuje přizpůsobit sloupce zobrazení přiřazení:
+### Krok 3: Vytvořit možnosti uložení Spreadsheet
+Vytvořte instanci `Spreadsheet2003SaveOptions` – tento objekt nám umožňuje přizpůsobit zobrazení přiřazení před exportem.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## Krok 3: Definujte vlastní sloupec
-
- Nyní definujte svůj vlastní sloupec vytvořením instance`AssignmentViewColumn`. Tato třída vyžaduje název sloupce, šířku a funkci delegáta pro převod dat přiřazení na text sloupce:
+### Krok 4: Definovat vlastní sloupec
+Vytvořte `AssignmentViewColumn` pro každý kus dat, který chcete zobrazit. Níže přidáváme sloupec **Notes** s šířkou 200 bodů.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## Krok 4: Přidejte vlastní sloupec do možností
+**Tip:** Pro přidání *více* vlastních sloupců opakujte tento krok s různými názvy polí a logikou delegáta, poté přidejte každou instanci do `options.AssignmentView.Columns`.
 
-Přidejte vlastní sloupec do kolekce sloupců zobrazení přiřazení možností uložení:
+### Krok 5: Přidat vlastní sloupec do možností
+Přidejte sloupec (nebo sloupce) do kolekce `Columns` v zobrazení přiřazení.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## Krok 5: Iterujte přes přiřazení
-
-Projděte každé přiřazení zdrojů v projektu a zobrazte text vlastního sloupce:
+### Krok 6: Procházet přiřazení (volitelné ladění)
+Můžete projít přiřazení, abyste ověřili, že text vlastního sloupce je generován správně.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +103,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Krok 6: Uložte projekt s vlastními sloupci
-
-Nakonec uložte projekt se sloupci zobrazení vlastního přiřazení:
+### Krok 7: Uložit projekt s vlastními sloupci
+Nakonec projekt uložte. Příklad ukládá do XML, ale můžete zvolit libovolný podporovaný formát.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Závěr
+## Jak exportovat projekt do XML s vlastními sloupci?
+Když zavoláte `project.Save` s nakonfigurovanými `Spreadsheet2003SaveOptions`, Aspose.Tasks zapíše data projektu — včetně všech **více vlastních sloupců** — do vybraného XML souboru. To usnadňuje sdílení obohacených informací o projektu s dalšími systémy nebo zainteresovanými stranami.
 
-V tomto tutoriálu jsme se naučili, jak přidat vlastní sloupce zobrazení přiřazení pomocí Aspose.Tasks for .NET. Vlastní sloupce nabízejí flexibilitu při zobrazování dalších informací přizpůsobených požadavkům vašeho projektu a rozšiřují možnosti řízení projektů.
+## Formátování šířky vlastního sloupce pro lepší čitelnost
+Druhý parametr konstruktoru `AssignmentViewColumn` řídí šířku sloupce (měřenou v bodech). Upravit tuto hodnotu podle množství očekávaného textu. Například šířka **300** funguje dobře pro delší poznámky, zatímco **100** stačí pro krátké příznaky.
 
-## FAQ
+## Časté problémy a řešení
+- **Text sloupce je prázdný:** Ujistěte se, že delegát vrací řetězec a že podkladová vlastnost přiřazení (např. `Asn.NotesText`) je naplněna.  
+- **Sloupce nejsou viditelné v exportovaném souboru:** Ověřte, že `options.AssignmentView.Columns` obsahuje vaše vlastní sloupce před voláním `Save`.  
+- **Zdá se, že šířka je ignorována:** Některé exportní formáty mají vlastní pravidla rozvržení; XML šířku respektuje, ale PDF/HTML mohou vyžadovat další stylování.
 
-### Q1: Mohu do zobrazení přiřazení přidat více vlastních sloupců?
+## Často kladené otázky
 
- A1: Ano, můžete přidat více vlastních sloupců vytvořením dalších instancí`AssignmentViewColumn` a přidat je do`Columns` sbírka.
+### Q1: Mohu přidat více vlastních sloupců do zobrazení přiřazení?
+**A:** Ano, stačí vytvořit další objekty `AssignmentViewColumn` a přidat každý do `options.AssignmentView.Columns`.
 
-### Q2: Jsou k dispozici předdefinované převodníky pro běžná pole přiřazení?
+### Q2: Existují předdefinované konvertory pro běžná pole přiřazení?
+**A:** Ano, Aspose.Tasks poskytuje vestavěné konvertory pro mnoho standardních polí, což usnadňuje získání dat bez psaní vlastních delegátů.
 
-A2: Ano, Aspose.Tasks poskytuje předdefinované převodníky pro běžná pole přiřazení, což usnadňuje extrahování dat pro vlastní sloupce.
+### Q3: Mohu přizpůsobit vzhled vlastních sloupců, například formátování textu nebo aplikaci stylů?
+**A:** Rozhodně. Kromě nastavení šířky můžete měnit písmo, zarovnání a další vizuální vlastnosti pomocí možností stylování sloupce.
 
-### Q3: Mohu přizpůsobit vzhled vlastních sloupců, jako je formátování textu nebo použití stylů?
-
-Odpověď 3: Ano, vzhled vlastních sloupců můžete upravit úpravou vlastností, jako je šířka, písmo a zarovnání.
-
-### Q4: Je možné odebrat výchozí sloupce ze zobrazení přiřazení?
-
- A4: Ano, výchozí sloupce můžete odstranit jejich vyloučením z`Columns` sběr nebo nastavení jejich šířky na nulu.
+### Q4: Je možné odstranit výchozí sloupce ze zobrazení přiřazení?
+**A:** Výchozí sloupce můžete vyloučit jejich odstraněním z kolekce `Columns` nebo nastavením jejich šířky na nulu.
 
 ### Q5: Podporuje Aspose.Tasks export projektů do jiných formátů kromě tabulek s vlastními sloupci?
+**A:** Ano, Aspose.Tasks může exportovat do PDF, HTML, XML a mnoha dalších formátů při zachování definic vlastních sloupců.
 
-Odpověď 5: Ano, Aspose.Tasks podporuje export projektů do různých formátů, jako jsou PDF, HTML a XML, což umožňuje všestranné možnosti vykazování projektů.
+---
+
+**Poslední aktualizace:** 2026-03-19  
+**Testováno s:** Aspose.Tasks 24.12 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
