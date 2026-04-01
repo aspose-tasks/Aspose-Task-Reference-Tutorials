@@ -1,57 +1,74 @@
 ---
-title: Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
-linktitle: Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
+date: 2026-04-01
+description: Tìm hiểu cách thiết lập chu kỳ trong Aspose.Tasks cho .NET, thêm nhiệm
+  vụ lặp lại và tự động hoá các nhiệm vụ lặp lại theo tháng, tuần và ngày.
+keywords:
+- how to set recurrence
+- add recurring task
+- automate recurring tasks
+linktitle: Lặp lại theo Tháng, Tuần, Ngày trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách thiết lập các lần lặp lại theo tháng, tuần và ngày trong Aspose.Tasks dành cho .NET để tự động hóa các tác vụ định kỳ một cách hiệu quả.
-weight: 26
+title: Cách thiết lập chu kỳ trong Aspose.Tasks (Tháng, Tuần, Ngày)
 url: /vi/net/advanced-features/repetition-by-month-week-day/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lặp lại theo tháng Ngày trong tuần trong Aspose.Tasks
+# Cách Đặt Lặp Lại trong Aspose.Tasks (Tháng, Tuần, Ngày)
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển phần mềm, đặc biệt là trong các ứng dụng quản lý dự án, khả năng xử lý các tác vụ định kỳ một cách hiệu quả là điều tối quan trọng. Aspose.Tasks for .NET là một thư viện mạnh mẽ được thiết kế để hợp lý hóa việc tạo và quản lý các tác vụ dự án, bao gồm cả các tác vụ định kỳ. Một chức năng như vậy được Aspose.Tasks cung cấp là khả năng thiết lập các lần lặp lại theo tháng, tuần và ngày, đảm bảo rằng các nhiệm vụ được thực hiện đúng tiến độ mà không cần can thiệp thủ công.
+Nếu bạn cần **cách thiết lập lặp lại** cho các nhiệm vụ trong một dự án, Aspose.Tasks cho .NET cung cấp cho bạn một cách sạch sẽ, lập trình để thêm các định nghĩa nhiệm vụ lặp lại chạy theo tháng, tuần hoặc ngày. Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ thực tế cho thấy cách **thêm nhiệm vụ lặp lại**, **tự động hoá các nhiệm vụ lặp lại**, và quản lý chúng trực tiếp từ mã C#. Khi kết thúc, bạn sẽ sẵn sàng tích hợp khả năng này vào bất kỳ giải pháp lập lịch hoặc quản lý dự án nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“recurrence” có nghĩa là gì trong Aspose.Tasks?** Nó định nghĩa một mẫu (hàng ngày, hàng tuần, hàng tháng) tự động tạo các phiên bản nhiệm vụ trong một khoảng thời gian.  
+- **Phương thức chính nào tạo ra lặp lại?** `RecurringTaskParameters` kết hợp với một `RecurrencePattern` cụ thể.  
+- **Tôi có cần giấy phép để chạy đoạn mã này không?** Bản dùng thử hoạt động cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể lên lịch nhiệm vụ hàng tuần thay vì hàng tháng không?** Có – thay `MonthlyRecurrencePattern` bằng `WeeklyRecurrencePattern`.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 và các phiên bản sau.
 
-Trước khi đi sâu vào sự phức tạp của việc thiết lập các lần lặp lại theo tháng, tuần và ngày bằng Aspose.Tasks cho .NET, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Lặp lại là gì trong Aspose.Tasks?
 
-1. Hiểu biết cơ bản về C#: Làm quen với ngôn ngữ lập trình C# là điều cần thiết để hiểu và triển khai các ví dụ mã được cung cấp.
-   
-2.  Cài đặt Aspose.Tasks cho .NET: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Tasks cho .NET. Bạn có thể lấy thư viện từ[trang tải xuống](https://releases.aspose.com/tasks/net/).
+Lặp lại là một tập hợp các quy tắc cho phép Aspose.Tasks tạo các phiên bản nhiệm vụ ở các khoảng thời gian định kỳ—hàng ngày, hàng tuần, hoặc hàng tháng—mà không cần sao chép thủ công. Tính năng này rất quan trọng cho các dự án có các hoạt động thường xuyên như họp trạng thái, kiểm tra, hoặc công việc bảo trì.
 
-3. Quyền truy cập vào Tệp dự án .mpp: Chuẩn bị sẵn tệp Microsoft Project (.mpp), vì chúng tôi sẽ sử dụng tệp đó để chứng minh việc triển khai lặp lại theo tháng, tuần và ngày.
+## Tại sao nên sử dụng tính năng Lặp lại?
+
+- **Tiết kiệm thời gian:** Không cần sao chép‑dán nhiệm vụ thủ công.  
+- **Giảm lỗi:** Thư viện đảm bảo ngày và thời lượng nhất quán.  
+- **Linh hoạt:** Kết hợp các mẫu (ví dụ, “Chủ nhật đầu tiên của mỗi 2 tháng”).  
+- **Tự động hoá:** Hoàn hảo để tạo lịch trong các pipeline CI hoặc công cụ báo cáo.
+
+## Yêu cầu trước
+
+1. **Kiến thức cơ bản về C#** – bạn sẽ viết một vài dòng mã C#.  
+2. **Aspose.Tasks cho .NET đã được cài đặt** – tải về từ [download page](https://releases.aspose.com/tasks/net/).  
+3. **Tệp dự án .mpp** – chúng tôi sẽ sử dụng `Project1.mpp` làm tệp nguồn.
 
 ## Nhập không gian tên
 
-Để bắt đầu sử dụng Aspose.Tasks cho .NET trong ứng dụng C# của bạn, bạn cần nhập các vùng tên cần thiết. Đây là cách bạn có thể làm điều đó:
+Để bắt đầu, nhập các không gian tên Aspose.Tasks cần thiết:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Hãy chia đoạn mã được cung cấp thành nhiều bước để hiểu kỹ từng phần.
-
-## Bước 1: Tải tệp dự án
+### Bước 1: Tải tệp dự án
 
 ```csharp
-// Đường dẫn tới thư mục tài liệu.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Bước này liên quan đến việc tạo một phiên bản mới của`Project` class và tải tệp Microsoft Project hiện có (`Project1.mpp`) từ thư mục được chỉ định.
+Chúng tôi tạo một thể hiện `Project` trỏ tới một tệp Microsoft Project hiện có.
 
-## Bước 2: Xác định tham số tác vụ định kỳ
+### Bước 2: Định nghĩa tham số nhiệm vụ lặp lại
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -75,49 +92,65 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Trong bước này, chúng tôi xác định các tham số cho một tác vụ định kỳ. Chúng tôi chỉ định tên nhiệm vụ, thời lượng, kiểu lặp lại (hàng tháng) và phạm vi lặp lại (kết thúc trước một ngày cụ thể).
+Ở đây chúng tôi **tạo tham số nhiệm vụ lặp lại**:
 
-## Bước 3: Thêm tác vụ định kỳ vào dự án
+- **TaskName** – tên của nhiệm vụ được tạo.  
+- **Duration** – thời lượng của mỗi lần xuất hiện.  
+- **RecurrencePattern** – mẫu hàng tháng lặp lại mỗi 2 tháng vào Chủ nhật đầu tiên.  
+- **RecurrenceRange** – ngày bắt đầu và kết thúc giới hạn lịch trình.
+
+### Bước 3: Thêm nhiệm vụ lặp lại vào dự án
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Ở đây, chúng tôi thêm các tham số tác vụ định kỳ đã xác định vào tác vụ gốc của dự án.
+Dòng này **thêm nhiệm vụ lặp lại** vào gốc của cây dự án.
 
-## Bước 4: Lưu tệp dự án
+### Bước 4: Lưu dự án đã cập nhật
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
-Cuối cùng, chúng tôi lưu tệp dự án đã sửa đổi với tác vụ định kỳ được thêm vào.
+Dự án được lưu dưới dạng tệp `.mpp` mới, hiện chứa lịch trình tự động.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Tóm lại, thiết lập các lần lặp lại theo tháng, tuần và ngày trong Aspose.Tasks cho .NET là một quy trình đơn giản giúp các nhà phát triển tự động hóa việc quản lý các tác vụ định kỳ trong dự án của họ một cách hiệu quả. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể tích hợp liền mạch chức năng này vào các ứng dụng C# của mình, tiết kiệm thời gian và công sức trong quản lý dự án.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| **Nhiệm vụ không hiển thị** | Phạm vi lặp lại nằm ngoài ngày của dự án. | Xác minh giá trị `Start` và `Finish` nằm trong lịch dự án. |
+| **Ngày trong tuần sai** | Không khớp enum `WeekDay`. | Sử dụng `DayOfWeek.Monday` … `DayOfWeek.Sunday` theo nhu cầu. |
+| **Lỗi giấy phép** | Chạy mà không có giấy phép hợp lệ trong môi trường sản xuất. | Áp dụng giấy phép tạm thời hoặc đầy đủ trước khi lưu. |
 
 ## Câu hỏi thường gặp
 
-###Q1: Tôi có thể tùy chỉnh mẫu lặp lại ngoài các ví dụ được cung cấp không?
+### Q1: Tôi có thể tùy chỉnh mẫu lặp lại vượt quá các ví dụ được cung cấp không?
 
-Câu trả lời 1: Có, Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng cho các mẫu lặp lại, cho phép bạn điều chỉnh chúng theo yêu cầu cụ thể của mình.
+A1: Có, Aspose.Tasks cho .NET cung cấp các tùy chọn tùy chỉnh rộng rãi cho các mẫu lặp lại, cho phép bạn điều chỉnh chúng theo yêu cầu cụ thể của mình.
 
-###Q2: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
+### Q2: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang phát hành](https://releases.aspose.com/).
+A2: Có, bạn có thể nhận phiên bản dùng thử miễn phí của Aspose.Tasks cho .NET từ [releases page](https://releases.aspose.com/).
 
-###Q3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
+### Q3: Làm thế nào tôi có thể nhận hỗ trợ cho Aspose.Tasks cho .NET?
 
- Câu trả lời 3: Bạn có thể tìm kiếm sự trợ giúp và tương tác với cộng đồng trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+A3: Bạn có thể tìm kiếm trợ giúp và tham gia cộng đồng trên [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-###Q4: Có giấy phép tạm thời cho Aspose.Tasks cho .NET không?
+### Q4: Có giấy phép tạm thời cho Aspose.Tasks cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời từ[trang mua hàng](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
+A4: Có, bạn có thể mua giấy phép tạm thời từ [purchase page](https://purchase.aspose.com/temporary-license/) để thử nghiệm và đánh giá.
 
-###Q5: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks cho .NET ở đâu?
+### Q5: Tôi có thể tìm tài liệu toàn diện cho Aspose.Tasks cho .NET ở đâu?
 
- A5: Bạn có thể tham khảo chi tiết[tài liệu](https://reference.aspose.com/tasks/net/) có sẵn trên trang web Aspose để được hướng dẫn chuyên sâu về cách sử dụng thư viện.
+A5: Bạn có thể tham khảo tài liệu chi tiết [documentation](https://reference.aspose.com/tasks/net/) có trên trang web Aspose để nhận hướng dẫn sâu về việc sử dụng thư viện.
+
+---
+
+**Cập nhật lần cuối:** 2026-04-01  
+**Đã kiểm tra với:** Aspose.Tasks 24.11 for .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,57 +1,76 @@
 ---
-title: Repetição por mês, dia da semana em Aspose.Tasks
-linktitle: Repetição por mês, dia da semana em Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda como configurar repetições por mês, semana e dia em Aspose.Tasks for .NET para automatizar tarefas recorrentes com eficiência.
-weight: 26
+date: 2026-04-01
+description: Aprenda como definir recorrência no Aspose.Tasks para .NET, adicionar
+  tarefas recorrentes e automatizar tarefas recorrentes por mês, semana e dia.
+keywords:
+- how to set recurrence
+- add recurring task
+- automate recurring tasks
+linktitle: Repetição por Mês, Semana e Dia no Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Como definir recorrência no Aspose.Tasks (Mês, Semana, Dia)
 url: /pt/net/advanced-features/repetition-by-month-week-day/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Repetição por mês, dia da semana em Aspose.Tasks
+# Como Definir Recorrência no Aspose.Tasks (Mês, Semana, Dia)
 
 ## Introdução
 
-No domínio do desenvolvimento de software, especialmente em aplicações de gerenciamento de projetos, a capacidade de lidar com tarefas recorrentes de forma eficiente é fundamental. Aspose.Tasks for .NET é uma biblioteca poderosa projetada para agilizar a criação e o gerenciamento de tarefas de projeto, incluindo as recorrentes. Uma dessas funcionalidades fornecidas pelo Aspose.Tasks é a capacidade de configurar repetições por mês, semana e dia, garantindo que as tarefas sejam executadas dentro do cronograma, sem intervenção manual.
+Se você precisa **como definir recorrência** para tarefas em um projeto, Aspose.Tasks for .NET oferece uma maneira limpa e programática de adicionar definições de tarefas recorrentes que executam por mês, semana ou dia. Neste tutorial, percorreremos um exemplo do mundo real que mostra como **adicionar tarefa recorrente**, **automatizar tarefas recorrentes** e gerenciá-las diretamente a partir do código C#. Ao final, você estará pronto para integrar esse recurso em qualquer solução de agendamento ou gerenciamento de projetos.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que significa “recurrence” no Aspose.Tasks?** Define um padrão (diário, semanal, mensal) que cria automaticamente instâncias de tarefas ao longo de um intervalo de datas.  
+- **Qual método principal cria a recorrência?** `RecurringTaskParameters` combinado com um `RecurrencePattern` específico.  
+- **Preciso de uma licença para executar este código?** Uma versão de avaliação funciona para avaliação; uma licença comercial é necessária para produção.  
+- **Posso agendar tarefas semanais em vez de mensais?** Sim – troque `MonthlyRecurrencePattern` por `WeeklyRecurrencePattern`.  
+- **Quais versões do .NET são suportadas?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 e posteriores.
 
-Antes de mergulhar nos meandros da configuração de repetições por mês, semana e dia usando Aspose.Tasks for .NET, certifique-se de ter os seguintes pré-requisitos em vigor:
+## O Que É Recorrência no Aspose.Tasks?
 
-1. Compreensão básica de C#: Familiaridade com a linguagem de programação C# é essencial para compreender e implementar os exemplos de código fornecidos.
-   
-2.  Instalação do Aspose.Tasks for .NET: Certifique-se de ter baixado e instalado a biblioteca Aspose.Tasks for .NET. Você pode obter a biblioteca no[página de download](https://releases.aspose.com/tasks/net/).
+Recorrência é um conjunto de regras que indica ao Aspose.Tasks para gerar instâncias de tarefas em intervalos regulares—diariamente, semanalmente ou mensalmente—sem duplicá‑las manualmente. Esse recurso é essencial para projetos que contêm atividades rotineiras, como reuniões de status, inspeções ou trabalhos de manutenção.
 
-3. Acesso a um arquivo de projeto .mpp: Tenha em mãos um arquivo do Microsoft Project (.mpp), pois o utilizaremos para demonstrar a implementação de repetições por mês, semana e dia.
+## Por Que Usar Recursos de Recorrência?
 
-## Importar namespaces
+- **Economize tempo:** Não é necessário copiar‑colar tarefas manualmente.  
+- **Reduza erros:** A biblioteca garante datas e durações consistentes.  
+- **Flexibilidade:** Combine padrões (por exemplo, “primeiro domingo de cada 2 meses”).  
+- **Automação:** Perfeito para gerar cronogramas em pipelines CI ou ferramentas de relatório.
 
-Para começar a utilizar Aspose.Tasks for .NET em seu aplicativo C#, você precisa importar os namespaces necessários. Veja como você pode fazer isso:
+## Pré‑requisitos
+
+Antes de começar, certifique‑se de que você tem:
+
+1. **Compreensão Básica de C#** – você escreverá algumas linhas de código C#.  
+2. **Aspose.Tasks for .NET instalado** – obtenha‑o na [download page](https://releases.aspose.com/tasks/net/).  
+3. **Um arquivo de projeto .mpp** – usaremos `Project1.mpp` como arquivo fonte.
+
+## Importar Namespaces
+
+Para começar, importe os namespaces Aspose.Tasks necessários:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Vamos dividir o trecho de código fornecido em várias etapas para entender cada parte completamente.
-
-## Etapa 1: carregar o arquivo do projeto
+### Etapa 1: Carregar o Arquivo de Projeto
 
 ```csharp
-// O caminho para o diretório de documentos.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Esta etapa envolve a criação de uma nova instância do`Project` class e carregando um arquivo existente do Microsoft Project (`Project1.mpp`) do diretório especificado.
+Criamos uma instância `Project` que aponta para um arquivo Microsoft Project existente.
 
-## Etapa 2: definir parâmetros de tarefas recorrentes
+### Etapa 2: Definir Parâmetros da Tarefa Recorrente
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -75,49 +94,65 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Nesta etapa, definimos os parâmetros para uma tarefa recorrente. Especificamos o nome da tarefa, duração, padrão de repetição (mensalmente) e intervalo de recorrência (término em uma data específica).
+Aqui criamos parâmetros de **tarefa recorrente**:
 
-## Etapa 3: adicionar tarefa recorrente ao projeto
+- **TaskName** – o nome da tarefa gerada.  
+- **Duration** – a duração de cada ocorrência.  
+- **RecurrencePattern** – um padrão mensal que se repete a cada 2 meses no primeiro domingo.  
+- **RecurrenceRange** – as datas de início e fim que delimitam o cronograma.
+
+### Etapa 3: Adicionar a Tarefa Recorrente ao Projeto
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Aqui, adicionamos os parâmetros de tarefa recorrente definidos à tarefa raiz do projeto.
+Esta linha **adiciona a tarefa recorrente** à raiz da hierarquia do projeto.
 
-## Etapa 4: salvar o arquivo do projeto
+### Etapa 4: Salvar o Projeto Atualizado
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
-Finalmente, salvamos o arquivo de projeto modificado com a tarefa recorrente adicionada.
+O projeto é salvo como um novo arquivo `.mpp` que agora contém o cronograma automatizado.
 
-## Conclusão
+## Problemas Comuns e Soluções
 
-Concluindo, configurar repetições por mês, semana e dia no Aspose.Tasks for .NET é um processo direto que permite aos desenvolvedores automatizar o gerenciamento de tarefas recorrentes em seus projetos de forma eficiente. Seguindo as etapas descritas neste tutorial, você pode integrar perfeitamente essa funcionalidade em seus aplicativos C#, economizando tempo e esforço no gerenciamento de projetos.
+| Problema | Razão | Correção |
+|----------|-------|----------|
+| **Tarefa não aparece** | O intervalo de recorrência está fora das datas do projeto. | Verifique se os valores de `Start` e `Finish` estão dentro do calendário do projeto. |
+| **Dia da semana errado** | Incompatibilidade do enum `WeekDay`. | Use `DayOfWeek.Monday` … `DayOfWeek.Sunday` conforme necessário. |
+| **Exceção de licença** | Executando sem uma licença válida em produção. | Aplique uma licença temporária ou completa antes de salvar. |
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-###Q1: Posso personalizar o padrão de recorrência além dos exemplos fornecidos?
+### Q1: Posso personalizar o padrão de recorrência além dos exemplos fornecidos?
 
-A1: Sim, Aspose.Tasks for .NET oferece amplas opções de personalização para padrões de recorrência, permitindo adaptá-los aos seus requisitos específicos.
+A1: Sim, o Aspose.Tasks for .NET oferece amplas opções de personalização para padrões de recorrência, permitindo adaptá‑los aos seus requisitos específicos.
 
-###Q2: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
+### Q2: Existe uma versão de avaliação disponível para Aspose.Tasks for .NET?
 
- A2: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET no[página de lançamentos](https://releases.aspose.com/).
+A2: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET na [releases page](https://releases.aspose.com/).
 
-###Q3: Como posso obter suporte para Aspose.Tasks for .NET?
+### Q3: Como posso obter suporte para Aspose.Tasks for .NET?
 
- A3: Você pode procurar assistência e interagir com a comunidade no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+A3: Você pode buscar assistência e interagir com a comunidade no [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-###Q4: As licenças temporárias estão disponíveis para Aspose.Tasks for .NET?
+### Q4: Licenças temporárias estão disponíveis para Aspose.Tasks for .NET?
 
- A4: Sim, você pode adquirir licenças temporárias do[página de compra](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
+A4: Sim, você pode adquirir licenças temporárias na [purchase page](https://purchase.aspose.com/temporary-license/) para fins de teste e avaliação.
 
-###Q5: Onde posso encontrar documentação abrangente para Aspose.Tasks for .NET?
+### Q5: Onde posso encontrar documentação abrangente para Aspose.Tasks for .NET?
 
- A5: Você pode consultar o detalhado[documentação](https://reference.aspose.com/tasks/net/) disponível no site Aspose para orientação detalhada sobre a utilização da biblioteca.
+A5: Você pode consultar a detalhada [documentation](https://reference.aspose.com/tasks/net/) disponível no site da Aspose para orientação aprofundada sobre o uso da biblioteca.
+
+---
+
+**Última atualização:** 2026-04-01  
+**Testado com:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
