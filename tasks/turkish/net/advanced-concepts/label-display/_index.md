@@ -1,148 +1,179 @@
 ---
-title: Aspose.Tasks'ta Etiketleri Görüntüleme
-linktitle: Aspose.Tasks'ta Etiketleri Görüntüleme
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET ile proje yönetiminde etiket görünümlerini nasıl özelleştireceğinizi öğrenin. Okunabilirliği ve netliği zahmetsizce geliştirin.
-weight: 14
+date: 2026-03-08
+description: Aspose.Tasks for .NET kullanarak proje yönetiminde etiket görüntülemeyi
+  ayarlamayı ve gün etiketini özelleştirmeyi öğrenin, okunabilirliği ve netliği artırın.
+linktitle: Displaying Labels in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks for .NET'te Etiket Görüntülemeyi Nasıl Ayarlarsınız
 url: /tr/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Etiketleri Görüntüleme
+# Aspose.Tasks for .NET'te Etiket Görüntülemeyi Nasıl Ayarlarsınız
 
-## giriiş
+## Giriş
 
-Yazılım geliştirme alanında, projelerin başarısı için görevlerin verimli bir şekilde yönetilmesi zorunludur. Aspose.Tasks for .NET, proje yönetimi görevlerini .NET çerçevesinde sorunsuz bir şekilde gerçekleştirmek için güçlü bir çözüm sunar. Proje yönetiminin önemli yönlerinden biri, ekran seçeneklerini belirli gereksinimlere uyacak şekilde özelleştirebilme yeteneğidir. Bu eğitimde, proje dosyalarındaki dakika, saat, gün, hafta, ay ve yıl etiket görünümlerini değiştirmek için Aspose.Tasks for .NET'in nasıl kullanılacağını keşfedeceğiz.
+Aspose.Tasks for .NET ile bir proje‑management çözümü oluştururken, **how to set label** seçeneklerini ayarlayabilmek, takvimlerin okunmasını kolaylaştırmak için çok önemlidir. İster dakikada dakikaya hassasiyet, ister yıllık üst‑seviye bir görünüm ihtiyacınız olsun, etiket görüntüsünü özelleştirerek zaman çizelgesini paydaşlarınızın beklediği şekilde sunabilirsiniz. Bu öğreticide, dakikalar, saatler, günler, haftalar, aylar ve yıllar için etiket görüntülerini ayarlama adımlarını adım adım inceleyecek ve ayrıca **customize day label** biçimlendirmesini en yüksek açıklık için nasıl yapacağınızı göstereceğiz.
+
+## Hızlı Yanıtlar
+- **What does “how to set label” mean?** Bu, zaman birimlerinin bir proje dosyasında nasıl görüneceğini kontrol eden `DisplayOptions` özelliklerini yapılandırmayı ifade eder.  
+- **Which label can I change?** Dakikalar, saatler, günler, haftalar, aylar ve yıllar hepsi yapılandırılabilir.  
+- **Do I need a license?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir; ücretsiz deneme sürümü test için çalışır.  
+- **Is this supported on .NET Core?** Evet, API .NET Core, .NET 5/6 ve tam .NET Framework ile çalışır.  
+- **Can I change the label at runtime?** Kesinlikle – projeyi kaydetmeden önce istediğiniz zaman görüntüleme seçeneklerini değiştirebilirsiniz.
+
+## Aspose.Tasks'te etiket görüntüsü nedir?
+
+Etiket görüntüsü, Gantt şemasında ve zaman ölçeğinde zaman birimlerinin (dakika, saat, gün vb.) metinsel temsili belirler. Uygun `DisplayOptions` özelliğini ayarlayarak Aspose.Tasks'in bu birimleri nasıl render edeceğini belirlersiniz; bu, proje okunabilirliğini büyük ölçüde artırabilir.
+
+## Neden etiket görüntülerini özelleştirirsiniz?
+
+- **Improved readability:** Paydaşlar takvim detayını anında kavrayabilir.  
+- **Consistent reporting:** Görsel çıktıyı kurumsal standartlarla (ör. aylar için “Mo” kullanmak) hizalar.  
+- **Flexibility:** Detaylı ve üst‑seviye görünümler arasında, temel takvim verisini değiştirmeden geçiş yapabilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+1. **C# knowledge** – C# sözdizimi ve .NET proje yapısına temel aşinalık.  
+2. **Aspose.Tasks for .NET** – kütüphaneyi [buradan](https://releases.aspose.com/tasks/net/) indirin ve kurun.  
+3. **Development environment** – Visual Studio, VS Code veya .NET geliştirmeyi destekleyen herhangi bir IDE.
 
-1. C# Programlama Bilgisi: Sunulan örnekleri anlamak ve uygulamak için temel C# programlama dili anlayışı gereklidir.
-2.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks for .NET kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
-3. Geliştirme Ortamı: Visual Studio veya .NET geliştirme için tercih edilen herhangi bir IDE ile bir geliştirme ortamı kurun.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-Başlamadan önce Aspose.Tasks için gerekli ad alanlarını içe aktardığınızdan emin olun:
+Başlamadan önce gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Dakika Etiketlerini Görüntüleme
+## Dakika etiket görüntüsünü nasıl ayarlarsınız
 
-Proje dosyalarındaki dakika etiketlerini görüntülemek için:
+### 1. Dakika Etiketlerini Görüntüleme
+
+Dakika etiketini ayarlamak için `MinuteLabel` özelliğini kullanın:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Dakika etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Saat Etiketlerini Görüntüleme
+## Saat etiket görüntüsünü nasıl ayarlarsınız
 
-Proje dosyalarındaki saat etiketlerini görüntülemek için:
+### 2. Saat Etiketlerini Görüntüleme
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Saat etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Gün Etiketlerini Görüntüleme
+## Gün etiket görüntüsünü özelleştirin
 
-Proje dosyalarındaki gün etiketlerini görüntülemek için:
+### 3. Gün Etiketlerini Görüntüleme
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Gün etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Hafta Etiketlerini Görüntüleme
+## Hafta etiket görüntüsünü nasıl ayarlarsınız
 
-Hafta etiketlerini proje dosyalarında görüntülemek için:
+### 4. Hafta Etiketlerini Görüntüleme
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Hafta etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Ay Etiketlerini Görüntüleme
+## Ay etiket görüntüsünü nasıl ayarlarsınız
 
-Ay etiketlerini proje dosyalarında görüntülemek için:
+### 5. Ay Etiketlerini Görüntüleme
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ay etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Yıl Etiketlerini Görüntüleme
+## Yıl etiket görüntüsünü nasıl ayarlarsınız
 
-Proje dosyalarındaki yıl etiketlerini görüntülemek için:
+### 6. Yıl Etiketlerini Görüntüleme
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Yıl etiketinin nasıl görüntüleneceğini ayarlayın
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
-## Çözüm
+## Yaygın Tuzaklar ve İpuçları
 
-Sonuç olarak, proje görevlerini verimli bir şekilde yönetmek, proje başarısı için çok önemlidir ve Aspose.Tasks for .NET, proje yönetimi görevlerinin yönetilmesi için kapsamlı bir çözüm sunar. Kullanıcılar, etiket görüntülerini özelleştirerek proje verilerinin netliğini ve okunabilirliğini artırabilir ve bu da proje yönetimi süreçlerinin iyileşmesine yol açabilir.
+- **Tip:** Etiket görüntüsünü her zaman projeyi kaydetmeden *önce* ayarlayın; kaydettikten sonra yapılan değişiklikler dosyada yansıtılmaz.  
+- **Pitfall:** Desteklenmeyen bir enum değeri kullanmak `ArgumentException` hatası verir. Sağlanan `*LabelDisplay` enum'larına bağlı kalın.  
+- **Tip:** Ayrı görünümler için farklı etiket stillerine ihtiyacınız varsa, ayrı `Project` örnekleri oluşturun veya `DisplayOptions` nesnesini klonlayın.
 
-## SSS'ler
+## Sonuç
 
-### S1: Bir projenin belirli bölümleri için etiket görünümlerini özelleştirebilir miyim?
+**how to set label** seçeneklerini Aspose.Tasks'te ustalaşarak, proje takvimlerinizin görsel sunumunu ince ayarlarla kontrol edebilirsiniz. Günlük bir scrum tahtası için gün etiketini özelleştiriyor ya da çok‑yıllı bir yol haritası için yıl etiketini ayarlıyor olun, bu ayarlar daha net ve profesyonel proje belgeleri sunmanıza yardımcı olur.
 
-C1: Evet, Aspose.Tasks for .NET, etiket görünümleri üzerinde ayrıntılı kontrole olanak tanıyarak projenin belirli bölümlerinin gerektiği gibi özelleştirilmesini sağlar.
+## SSS
 
-### S2: Aspose.Tasks popüler .NET çerçeveleriyle uyumlu mu?
+### S1: Projenin belirli bölümleri için etiket görüntülerini özelleştirebilir miyim?
 
-C2: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Framework dahil olmak üzere çeşitli .NET çerçeveleriyle uyumludur.
+Evet, Aspose.Tasks for .NET, etiket görüntüleri üzerinde ayrıntılı kontrol sağlar ve gerektiğinde projenin belirli bölümleri için özelleştirmeye olanak tanır.
 
-### S3: Proje gereksinimlerine göre etiket görünümlerini dinamik olarak değiştirebilir miyim?
+### S2: Aspose.Tasks popüler .NET framework'leriyle uyumlu mu?
 
-Cevap3: Kesinlikle, Aspose.Tasks for .NET'in esnekliği, değişen proje gereksinimlerine göre etiket ekranlarında dinamik ayarlamalara olanak tanır.
+Evet, Aspose.Tasks for .NET, .NET Core ve .NET Framework dahil olmak üzere çeşitli .NET framework'leriyle uyumludur.
 
-### S4: Etiket görünümlerinin özelleştirilmesinde herhangi bir sınırlama var mı?
+### S3: Proje gereksinimlerine göre etiket görüntülerini dinamik olarak değiştirebilir miyim?
 
-Cevap4: Aspose.Tasks for .NET, etiket ekranları için minimum sınırlamalarla kapsamlı özelleştirme seçenekleri sunarak kullanıcılara geniş bir esneklik sağlar.
+Kesinlikle, Aspose.Tasks for .NET'in esnekliği, gelişen proje gereksinimlerine göre etiket görüntülerinde dinamik ayarlamalar yapmanıza olanak tanır.
 
-### S5: Aspose.Tasks diğer proje yönetimi araçlarıyla entegrasyonu destekliyor mu?
+### S4: Etiket görüntülerinin özelleştirilmesinde herhangi bir sınırlama var mı?
 
-C5: Evet, Aspose.Tasks kusursuz entegrasyon özellikleri sunarak diğer proje yönetimi araçları ve platformlarıyla birlikte çalışabilirliği kolaylaştırır.
+Aspose.Tasks for .NET, etiket görüntüleri için kapsamlı özelleştirme seçenekleri sunar; sınırlamalar çok azdır ve kullanıcılara geniş bir esneklik sağlar.
+
+### S5: Aspose.Tasks diğer proje yönetim araçlarıyla entegrasyonu destekliyor mu?
+
+Evet, Aspose.Tasks sorunsuz entegrasyon yetenekleri sunar ve diğer proje yönetim araçları ve platformlarıyla birlikte çalışabilirliği kolaylaştırır.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

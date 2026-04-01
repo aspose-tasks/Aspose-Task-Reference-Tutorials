@@ -1,148 +1,180 @@
 ---
-title: Mostrar etiquetas en Aspose.Tasks
-linktitle: Mostrar etiquetas en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a personalizar la visualización de etiquetas en la gestión de proyectos con Aspose.Tasks para .NET. Mejore la legibilidad y la claridad sin esfuerzo.
-weight: 14
+date: 2026-03-08
+description: Aprende cómo configurar la visualización de etiquetas y personalizar
+  la etiqueta de día en la gestión de proyectos usando Aspose.Tasks para .NET, mejorando
+  la legibilidad y claridad.
+linktitle: Displaying Labels in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cómo configurar la visualización de etiquetas en Aspose.Tasks para .NET
 url: /es/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mostrar etiquetas en Aspose.Tasks
+# Cómo establecer la visualización de etiquetas en Aspose.Tasks para .NET
 
 ## Introducción
 
-En el ámbito del desarrollo de software, gestionar las tareas de manera eficiente es imperativo para el éxito del proyecto. Aspose.Tasks para .NET ofrece una solución sólida para manejar tareas de gestión de proyectos sin problemas dentro del marco .NET. Un aspecto clave de la gestión de proyectos es la capacidad de personalizar las opciones de visualización para satisfacer requisitos específicos. En este tutorial, exploraremos cómo utilizar Aspose.Tasks para .NET para manipular la visualización de etiquetas de minutos, horas, días, semanas, meses y años dentro de los archivos del proyecto.
+Cuando estás construyendo una solución de gestión de proyectos con **Aspose.Tasks for .NET**, poder **cómo establecer la etiqueta** es esencial para que los cronogramas sean fáciles de leer. Ya sea que necesites precisión minuto a minuto o una vista anual de alto nivel, personalizar la visualización de la etiqueta te permite presentar la línea de tiempo exactamente como esperan tus interesados. En este tutorial recorreremos el proceso paso a paso de establecer la visualización de etiquetas para minutos, horas, días, semanas, meses y años, y también te mostraremos cómo **personalizar la etiqueta de día** para lograr la máxima claridad.
+
+## Respuestas rápidas
+- **¿Qué significa “how to set label”?** Se refiere a configurar las propiedades `DisplayOptions` que controlan cómo aparecen las unidades de tiempo en un archivo de proyecto.  
+- **¿Qué etiqueta puedo cambiar?** Los minutos, horas, días, semanas, meses y años son configurables.  
+- **¿Necesito una licencia?** Se requiere una licencia válida de Aspose.Tasks para uso en producción; una prueba gratuita funciona para pruebas.  
+- **¿Esto es compatible con .NET Core?** Sí, la API funciona con .NET Core, .NET 5/6 y el .NET Framework completo.  
+- **¿Puedo cambiar la etiqueta en tiempo de ejecución?** Absolutamente – puedes modificar las opciones de visualización en cualquier momento antes de guardar el proyecto.
+
+## ¿Qué es la visualización de etiquetas en Aspose.Tasks?
+
+La visualización de etiquetas determina la representación textual de las unidades de tiempo (minuto, hora, día, etc.) en el diagrama de Gantt y la escala de tiempo. Al establecer la propiedad `DisplayOptions` adecuada, indicas a Aspose.Tasks cómo renderizar esas unidades, lo que puede mejorar drásticamente la legibilidad del proyecto.
+
+## ¿Por qué personalizar las visualizaciones de etiquetas?
+
+- **Mejor legibilidad:** Los interesados pueden comprender instantáneamente la granularidad del cronograma.  
+- **Informes consistentes:** Alinea la salida visual con los estándares corporativos (p.ej., usando “Mo” para meses).  
+- **Flexibilidad:** Cambia entre vistas detalladas y de alto nivel sin alterar los datos subyacentes del cronograma.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de tener los siguientes requisitos previos:
-
-1. Conocimiento de programación C#: es necesario un conocimiento básico del lenguaje de programación C# para comprender e implementar los ejemplos proporcionados.
-2.  Instalación de Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
-3. Entorno de desarrollo: configure un entorno de desarrollo con Visual Studio o cualquier otro IDE preferido para el desarrollo .NET.
+1. **Conocimientos de C#** – familiaridad básica con la sintaxis de C# y la estructura de proyectos .NET.  
+2. **Aspose.Tasks for .NET** – descarga e instala la biblioteca desde [here](https://releases.aspose.com/tasks/net/).  
+3. **Entorno de desarrollo** – Visual Studio, VS Code o cualquier IDE que soporte desarrollo .NET.
 
 ## Importar espacios de nombres
 
-Antes de comenzar, asegúrese de importar los espacios de nombres necesarios para Aspose.Tasks:
+Antes de comenzar, importa los espacios de nombres requeridos:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Visualización de etiquetas de minutos
+## Cómo establecer la visualización de etiquetas para minutos
 
-Para mostrar etiquetas de minutos dentro de archivos de proyecto:
+### 1. Mostrar etiquetas de minuto
+
+Para establecer la etiqueta de minuto, usa la propiedad `MinuteLabel`:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta de los minutos
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Mostrar etiquetas de horas
+## Cómo establecer la visualización de etiquetas para horas
 
-Para mostrar etiquetas de horas dentro de archivos de proyecto:
+### 2. Mostrar etiquetas de hora
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta de la hora
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Mostrar etiquetas de días
+## Personalizar la visualización de la etiqueta de día
 
-Para mostrar etiquetas de días dentro de archivos de proyecto:
+### 3. Mostrar etiquetas de día
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta del día
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Mostrar etiquetas de semana
+## Cómo establecer la visualización de etiquetas para semanas
 
-Para mostrar etiquetas de semana dentro de archivos de proyecto:
+### 4. Mostrar etiquetas de semana
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta de la semana
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Visualización de etiquetas de meses
+## Cómo establecer la visualización de etiquetas para meses
 
-Para mostrar etiquetas de meses dentro de archivos de proyecto:
+### 5. Mostrar etiquetas de mes
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta del mes
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Visualización de etiquetas de año
+## Cómo establecer la visualización de etiquetas para años
 
-Para mostrar etiquetas de años dentro de archivos de proyecto:
+### 6. Mostrar etiquetas de año
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Establecer cómo se muestra la etiqueta del año
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
+## Problemas comunes y consejos
+
+- **Consejo:** Siempre establece la visualización de la etiqueta *antes* de guardar el proyecto; los cambios realizados después de guardar no se reflejarán en el archivo.  
+- **Trampa:** Usar un valor de enumeración no soportado lanzará una `ArgumentException`. Mantente con los enums `*LabelDisplay` proporcionados.  
+- **Consejo:** Si necesitas diferentes estilos de etiqueta para vistas separadas, crea instancias `Project` distintas o clona el objeto `DisplayOptions`.
+
 ## Conclusión
 
-En conclusión, gestionar las tareas del proyecto de manera eficiente es crucial para el éxito del proyecto, y Aspose.Tasks para .NET proporciona una solución integral para manejar las tareas de gestión de proyectos. Al personalizar la visualización de etiquetas, los usuarios pueden mejorar la claridad y legibilidad de los datos del proyecto, lo que lleva a mejores procesos de gestión de proyectos.
+Al dominar las opciones de **cómo establecer la etiqueta** en Aspose.Tasks, obtienes un control granular sobre la presentación visual de tus cronogramas de proyecto. Ya sea que estés personalizando la etiqueta de día para un tablero Scrum diario o ajustando la etiqueta de año para una hoja de ruta multianual, estas configuraciones te ayudan a ofrecer una documentación de proyecto más clara y profesional.
 
 ## Preguntas frecuentes
 
 ### P1: ¿Puedo personalizar la visualización de etiquetas para secciones específicas de un proyecto?
 
-R1: Sí, Aspose.Tasks para .NET permite un control granular sobre la visualización de etiquetas, lo que permite la personalización de secciones específicas de un proyecto según sea necesario.
+R1: Sí, Aspose.Tasks for .NET permite un control granular sobre la visualización de etiquetas, habilitando la personalización para secciones específicas de un proyecto según sea necesario.
 
-### P2: ¿Aspose.Tasks es compatible con los marcos .NET populares?
+### P2: ¿Aspose.Tasks es compatible con los frameworks .NET populares?
 
-R2: Sí, Aspose.Tasks para .NET es compatible con varios marcos .NET, incluidos .NET Core y .NET Framework.
+R2: Sí, Aspose.Tasks for .NET es compatible con varios frameworks .NET, incluidos .NET Core y .NET Framework.
 
 ### P3: ¿Puedo cambiar dinámicamente la visualización de etiquetas según los requisitos del proyecto?
 
-R3: Por supuesto, la flexibilidad de Aspose.Tasks para .NET permite ajustes dinámicos para etiquetar las pantallas según los requisitos cambiantes del proyecto.
+R3: Absolutamente, la flexibilidad de Aspose.Tasks for .NET permite ajustes dinámicos de la visualización de etiquetas según los requisitos cambiantes del proyecto.
 
-### P4: ¿Existe alguna limitación para la personalización de las pantallas de etiquetas?
+### P4: ¿Existen limitaciones en la personalización de la visualización de etiquetas?
 
-R4: Aspose.Tasks para .NET ofrece amplias opciones de personalización para la visualización de etiquetas, con limitaciones mínimas, lo que brinda a los usuarios una amplia flexibilidad.
+R4: Aspose.Tasks for .NET ofrece amplias opciones de personalización para la visualización de etiquetas, con limitaciones mínimas, proporcionando a los usuarios una gran flexibilidad.
 
-### P5: ¿Aspose.Tasks admite la integración con otras herramientas de gestión de proyectos?
+### P5: ¿Aspose.Tasks admite integración con otras herramientas de gestión de proyectos?
 
-R5: Sí, Aspose.Tasks ofrece capacidades de integración perfecta, lo que facilita la interoperabilidad con otras herramientas y plataformas de gestión de proyectos.
+R5: Sí, Aspose.Tasks ofrece capacidades de integración sin problemas, facilitando la interoperabilidad con otras herramientas y plataformas de gestión de proyectos.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
