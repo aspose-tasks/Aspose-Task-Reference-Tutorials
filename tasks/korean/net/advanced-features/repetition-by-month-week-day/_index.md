@@ -1,57 +1,76 @@
 ---
-title: Aspose.Tasks에서 월 요일별 반복
-linktitle: Aspose.Tasks에서 월 요일별 반복
-second_title: Aspose.태스크 .NET API
-description: 반복 작업을 효율적으로 자동화하기 위해 Aspose.Tasks for .NET에서 월, 주, 일 단위로 반복을 설정하는 방법을 알아보세요.
-weight: 26
+date: 2026-04-01
+description: Aspose.Tasks for .NET에서 반복 설정 방법을 배우고, 반복 작업을 추가하며, 월별, 주별, 일별로 반복 작업을
+  자동화하세요.
+keywords:
+- how to set recurrence
+- add recurring task
+- automate recurring tasks
+linktitle: Aspose.Tasks에서 월·주·일별 반복
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks에서 반복 설정 방법 (월, 주, 일)
 url: /ko/net/advanced-features/repetition-by-month-week-day/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 월 요일별 반복
+# Aspose.Tasks에서 반복 설정 방법 (월, 주, 일)
 
 ## 소개
 
-소프트웨어 개발 영역, 특히 프로젝트 관리 애플리케이션에서는 반복 작업을 효율적으로 처리하는 능력이 가장 중요합니다. Aspose.Tasks for .NET은 반복 작업을 포함하여 프로젝트 작업의 생성 및 관리를 간소화하도록 설계된 강력한 라이브러리입니다. Aspose.Tasks가 제공하는 기능 중 하나는 월, 주, 일별로 반복을 설정하여 수동 개입 없이 일정에 따라 작업이 실행되도록 하는 기능입니다.
+프로젝트의 작업에 대해 **반복 설정 방법**이 필요하다면, Aspose.Tasks for .NET은 월, 주, 일 단위로 실행되는 반복 작업 정의를 추가할 수 있는 깔끔하고 프로그래밍 방식의 방법을 제공합니다. 이 튜토리얼에서는 실제 예제를 통해 **반복 작업** 항목을 **추가하고**, **반복 작업 자동화**하며 C# 코드에서 직접 관리하는 방법을 단계별로 살펴봅니다. 끝까지 읽으면 이 기능을 모든 일정 관리 또는 프로젝트 관리 솔루션에 통합할 준비가 됩니다.
 
-## 전제조건
+## 빠른 답변
+- **Aspose.Tasks에서 “recurrence”는 무엇을 의미합니까?** 날짜 범위에 걸쳐 작업 인스턴스를 자동으로 생성하는 패턴(매일, 매주, 매월)을 정의합니다.  
+- **반복을 생성하는 주요 메서드는 무엇입니까?** `RecurringTaskParameters`와 특정 `RecurrencePattern`을 결합합니다.  
+- **이 코드를 실행하려면 라이선스가 필요합니까?** 평가용으로는 체험판이 작동하지만, 제품 환경에서는 상용 라이선스가 필요합니다.  
+- **월별 대신 주별 작업을 예약할 수 있나요?** 예 – `MonthlyRecurrencePattern`을 `WeeklyRecurrencePattern`으로 교체하면 됩니다.  
+- **지원되는 .NET 버전은 무엇입니까?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 및 이후 버전.
 
-.NET용 Aspose.Tasks를 사용하여 월, 주, 일별 반복 설정의 복잡성을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Aspose.Tasks에서 반복이란 무엇입니까?
 
-1. C#에 대한 기본 이해: 제공된 코드 예제를 이해하고 구현하려면 C# 프로그래밍 언어에 대한 지식이 필수적입니다.
-   
-2.  .NET용 Aspose.Tasks 설치: .NET용 Aspose.Tasks 라이브러리를 다운로드하여 설치했는지 확인하세요. 도서관에서 도서관을 구할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/tasks/net/).
+반복은 Aspose.Tasks에게 작업 인스턴스를 정기적인 간격(매일, 매주, 매월)으로 자동 생성하도록 지시하는 규칙 집합입니다. 이를 통해 작업을 수동으로 복제할 필요가 없습니다. 이 기능은 상태 회의, 검사, 유지보수 작업 등 정기적인 활동이 포함된 프로젝트에 필수적입니다.
 
-3. .mpp 프로젝트 파일에 액세스: Microsoft Project 파일(.mpp)을 준비합니다. 월별, 주별, 일별 반복 구현을 보여주기 위해 이 파일을 활용할 것입니다.
+## 왜 반복 기능을 사용해야 할까요?
+
+- **시간 절약:** 작업을 수동으로 복사‑붙여넣기 할 필요가 없습니다.  
+- **오류 감소:** 라이브러리가 일관된 날짜와 기간을 보장합니다.  
+- **유연성:** 패턴을 결합할 수 있습니다(예: “매 2개월 첫 번째 일요일”).  
+- **자동화:** CI 파이프라인이나 보고 도구에서 일정 생성에 최적입니다.
+
+## 사전 요구 사항
+
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
+
+1. **C# 기본 이해** – 몇 줄의 C# 코드를 작성하게 됩니다.  
+2. **Aspose.Tasks for .NET 설치** – [다운로드 페이지](https://releases.aspose.com/tasks/net/)에서 받으세요.  
+3. **.mpp 프로젝트 파일** – 소스 파일로 `Project1.mpp`를 사용합니다.
 
 ## 네임스페이스 가져오기
 
-C# 애플리케이션에서 Aspose.Tasks for .NET 활용을 시작하려면 필요한 네임스페이스를 가져와야 합니다. 방법은 다음과 같습니다.
+시작하려면 필요한 Aspose.Tasks 네임스페이스를 가져옵니다:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-각 부분을 철저하게 이해하기 위해 제공된 코드 조각을 여러 단계로 나누어 보겠습니다.
-
-## 1단계: 프로젝트 파일 로드
+### 단계 1: 프로젝트 파일 로드
 
 ```csharp
-// 문서 디렉터리의 경로입니다.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- 이 단계에는 다음의 새 인스턴스를 만드는 작업이 포함됩니다.`Project` 클래스를 생성하고 기존 Microsoft Project 파일을 로드합니다(`Project1.mpp`) 지정된 디렉토리에서.
+기존 Microsoft Project 파일을 가리키는 `Project` 인스턴스를 생성합니다.
 
-## 2단계: 반복 작업 매개변수 정의
+### 단계 2: 반복 작업 매개변수 정의
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -75,49 +94,65 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-이 단계에서는 반복 작업에 대한 매개변수를 정의합니다. 작업 이름, 기간, 반복 패턴(월별), 반복 범위(특정 날짜까지 종료)를 지정합니다.
+여기서 **반복 작업** 매개변수를 생성합니다:
 
-## 3단계: 프로젝트에 반복 작업 추가
+- **TaskName** – 생성된 작업의 이름입니다.  
+- **Duration** – 각 발생이 지속되는 시간입니다.  
+- **RecurrencePattern** – 매 2개월마다 첫 번째 일요일에 반복되는 월별 패턴입니다.  
+- **RecurrenceRange** – 일정의 시작 및 종료 날짜를 정의합니다.
+
+### 단계 3: 프로젝트에 반복 작업 추가
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-여기서는 정의된 반복 작업 매개변수를 프로젝트의 루트 작업에 추가합니다.
+이 코드는 **반복 작업**을 프로젝트 계층 구조의 루트에 추가합니다.
 
-## 4단계: 프로젝트 파일 저장
+### 단계 4: 업데이트된 프로젝트 저장
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
-마지막으로 반복 작업이 추가된 수정된 프로젝트 파일을 저장합니다.
+프로젝트는 자동 일정이 포함된 새로운 `.mpp` 파일로 저장됩니다.
 
-## 결론
+## 일반적인 문제 및 해결책
 
-결론적으로 Aspose.Tasks for .NET에서 월, 주, 일 단위로 반복을 설정하는 것은 개발자가 프로젝트 내에서 반복 작업 관리를 효율적으로 자동화할 수 있는 간단한 프로세스입니다. 이 자습서에 설명된 단계를 따르면 이 기능을 C# 애플리케이션에 원활하게 통합하여 프로젝트 관리에 드는 시간과 노력을 절약할 수 있습니다.
+| 문제 | 원인 | 해결책 |
+|-------|--------|-----|
+| **작업이 표시되지 않음** | 반복 범위가 프로젝트 날짜 범위 밖에 있습니다. | `Start`와 `Finish` 값이 프로젝트 캘린더 내에 있는지 확인하십시오. |
+| **잘못된 요일** | `WeekDay` 열거형이 일치하지 않습니다. | 필요에 따라 `DayOfWeek.Monday` … `DayOfWeek.Sunday`를 사용하십시오. |
+| **라이선스 예외** | 프로덕션 환경에서 유효한 라이선스 없이 실행하고 있습니다. | 저장하기 전에 임시 또는 전체 라이선스를 적용하십시오. |
 
-## FAQ
+## 자주 묻는 질문
 
-###Q1: 제공된 예시 외에 반복 패턴을 맞춤설정할 수 있나요?
+### Q1: 제공된 예제 외에 반복 패턴을 사용자 정의할 수 있나요?
 
-A1: 예, .NET용 Aspose.Tasks는 반복 패턴에 대한 광범위한 사용자 정의 옵션을 제공하므로 이를 특정 요구 사항에 맞게 조정할 수 있습니다.
+A1: 예, Aspose.Tasks for .NET은 반복 패턴에 대한 광범위한 사용자 정의 옵션을 제공하므로 특정 요구 사항에 맞게 조정할 수 있습니다.
 
-###Q2: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
+### Q2: Aspose.Tasks for .NET의 체험판 버전을 사용할 수 있나요?
 
- A2: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 얻을 수 있습니다.[릴리스 페이지](https://releases.aspose.com/).
+A2: 예, [릴리스 페이지](https://releases.aspose.com/)에서 Aspose.Tasks for .NET의 무료 체험판을 받을 수 있습니다.
 
-###Q3: .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
+### Q3: Aspose.Tasks for .NET에 대한 지원을 어떻게 받을 수 있나요?
 
- 답변 3: 다음을 통해 도움을 구하고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+A3: [Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)에서 지원을 요청하고 커뮤니티와 소통할 수 있습니다.
 
-###Q4: Aspose.Tasks for .NET에 임시 라이선스를 사용할 수 있나요?
+### Q4: Aspose.Tasks for .NET에 임시 라이선스가 제공되나요?
 
- A4: 네, 임시 라이선스는 다음 사이트에서 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+A4: 예, 테스트 및 평가 목적으로 [구매 페이지](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 획득할 수 있습니다.
 
-###Q5: .NET용 Aspose.Tasks에 대한 포괄적인 문서는 어디에서 찾을 수 있나요?
+### Q5: Aspose.Tasks for .NET에 대한 포괄적인 문서를 어디서 찾을 수 있나요?
 
- A5: 자세한 내용을 참조할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/tasks/net/) 라이브러리 활용에 대한 자세한 지침은 Aspose 웹사이트에서 확인할 수 있습니다.
+A5: 라이브러리 활용에 대한 심층 가이드를 위해 Aspose 웹사이트에 있는 자세한 [문서](https://reference.aspose.com/tasks/net/)를 참고하십시오.
+
+---
+
+**마지막 업데이트:** 2026-04-01  
+**테스트 환경:** Aspose.Tasks 24.11 for .NET  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

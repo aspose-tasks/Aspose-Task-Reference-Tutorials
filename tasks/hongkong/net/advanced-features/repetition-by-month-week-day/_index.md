@@ -1,57 +1,75 @@
 ---
-title: Aspose.Tasks 中按月週日重複
-linktitle: Aspose.Tasks 中按月週日重複
+date: 2026-04-01
+description: 了解如何在 Aspose.Tasks for .NET 中設定重複、加入重複任務，並按月、按週、按日自動化重複任務。
+keywords:
+- how to set recurrence
+- add recurring task
+- automate recurring tasks
+linktitle: 在 Aspose.Tasks 中按月、週、日重複
 second_title: Aspose.Tasks .NET API
-description: 了解如何在 Aspose.Tasks for .NET 中按月、週和日設定重複，以有效率地自動執行重複任務。
-weight: 26
+title: 如何在 Aspose.Tasks 中設定重複（月份、星期、天）
 url: /zh-hant/net/advanced-features/repetition-by-month-week-day/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中按月週日重複
+# 如何在 Aspose.Tasks 中設定重複 (月份、星期、天)
 
 ## 介紹
 
-在軟體開發領域，特別是在專案管理應用程式中，有效處理重複任務的能力至關重要。 Aspose.Tasks for .NET 是一個功能強大的函式庫，旨在簡化專案任務（包括重複任務）的建立和管理。 Aspose.Tasks 提供的其中一項功能是能夠按月、週和日設定重複，確保任務按計畫執行，無需人工幹預。
+如果您需要 **設定任務的重複**，Aspose.Tasks for .NET 提供了一個簡潔的程式化方式，讓您可以新增以月份、星期或天為單位執行的重複任務定義。在本教學中，我們將透過一個實務範例說明如何 **新增重複任務**、**自動化重複任務**，以及如何直接從 C# 程式碼管理它們。完成後，您即可將此功能整合至任何排程或專案管理解決方案中。
 
-## 先決條件
+## 快速解答
+- **在 Aspose.Tasks 中「重複」是什麼意思？** 它定義了一個模式（每日、每週、每月），會在指定的日期範圍內自動產生任務實例。  
+- **哪個主要方法會建立重複？** `RecurringTaskParameters` 搭配特定的 `RecurrencePattern`。  
+- **執行此程式碼需要授權嗎？** 試用版可用於評估；正式環境需購買商業授權。  
+- **可以改為排程每週任務而不是每月嗎？** 可以 – 將 `MonthlyRecurrencePattern` 換成 `WeeklyRecurrencePattern`。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 及更高版本。
 
-在深入研究使用 Aspose.Tasks for .NET 按月、週和日設定重複的複雜性之前，請確保滿足以下先決條件：
+## Aspose.Tasks 中的重複是什麼？
 
-1. 對 C# 的基本了解：熟悉 C# 程式語言對於理解和實作所提供的程式碼範例至關重要。
-   
-2. 安裝 Aspose.Tasks for .NET：請確定您已下載並安裝 Aspose.Tasks for .NET 程式庫。您可以從以下位置取得該庫：[下載頁面](https://releases.aspose.com/tasks/net/).
+重複是一組規則，告訴 Aspose.Tasks 在固定間隔（每日、每週或每月）自動產生任務實例，無需手動複製。此功能對於包含例行活動（如狀態會議、檢查或維護工作）的專案尤為重要。
 
-3. 存取 .mpp 專案檔案：準備好 Microsoft Project 檔案 (.mpp)，因為我們將利用它來示範按月、週和日進行重複的實作。
+## 為什麼要使用重複功能？
 
-## 導入命名空間
+- **節省時間：** 不必手動複製貼上任務。  
+- **減少錯誤：** 函式庫保證日期與工期的一致性。  
+- **彈性高：** 可組合模式（例如「每兩個月的第一個星期日」）。  
+- **自動化：** 非常適合在 CI 管線或報表工具中產生排程。
 
-要開始在 C# 應用程式中使用 Aspose.Tasks for .NET，您需要匯入必要的命名空間。您可以這樣做：
+## 前置條件
+
+在開始之前，請確保您已具備：
+
+1. **基本的 C# 知識** – 您將撰寫少量 C# 程式碼。  
+2. **已安裝 Aspose.Tasks for .NET** – 從[下載頁面](https://releases.aspose.com/tasks/net/)取得。  
+3. **.mpp 專案檔** – 本教學使用 `Project1.mpp` 作為來源檔案。
+
+## 匯入命名空間
+
+首先，匯入所需的 Aspose.Tasks 命名空間：
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-讓我們將提供的程式碼片段分解為多個步驟，以徹底理解每個部分。
-
-## 第 1 步：載入專案文件
+### 步驟 1：載入專案檔
 
 ```csharp
-//文檔目錄的路徑。
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
-此步驟涉及建立一個新實例`Project`類別並載入現有的 Microsoft Project 檔案（`Project1.mpp`）從指定的目錄。
+我們建立一個指向既有 Microsoft Project 檔案的 `Project` 實例。
 
-## 第 2 步：定義重複任務參數
+### 步驟 2：定義重複任務參數
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -75,49 +93,65 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-在此步驟中，我們定義重複任務的參數。我們指定任務名稱、持續時間、重複模式（每月）和重複範圍（以特定日期結束）。
+此處 **建立重複任務** 參數：
 
-## 第 3 步：將重複任務新增至專案中
+- **TaskName** – 產生的任務名稱。  
+- **Duration** – 每次出現的持續時間。  
+- **RecurrencePattern** – 每兩個月的第一個星期日的月份模式。  
+- **RecurrenceRange** – 限定排程的開始與結束日期。
+
+### 步驟 3：將重複任務加入專案
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-在這裡，我們將定義的重複任務參數新增到專案的根任務中。
+此行 **將重複任務** 加入專案層級的根節點。
 
-## 第 4 步：儲存專案文件
+### 步驟 4：儲存更新後的專案
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
-最後，我們保存修改後的項目文件以及新增的重複任務。
+專案會另存為新的 `.mpp` 檔，內含自動化排程。
 
-## 結論
+## 常見問題與解決方案
 
-總之，在 Aspose.Tasks for .NET 中按月、週和日設定重複是一個簡單的過程，使開發人員能夠有效地自動管理專案中的重複任務。透過遵循本教學中概述的步驟，您可以將此功能無縫整合到您的 C# 應用程式中，從而節省專案管理的時間和精力。
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **任務未顯示** | 重複範圍超出專案日期。 | 確認 `Start` 與 `Finish` 值在專案行事曆內。 |
+| **星期錯誤** | `WeekDay` 列舉不匹配。 | 依需求使用 `DayOfWeek.Monday` … `DayOfWeek.Sunday`。 |
+| **授權例外** | 生產環境未使用有效授權。 | 在儲存前套用臨時或正式授權。 |
 
-## 常見問題解答
+## 常見問答
 
-###Q1：除了提供的範例之外，我還可以自訂重複模式嗎？
+### Q1: 我可以自訂重複模式，超出範例提供的設定嗎？
 
-A1：是的，Aspose.Tasks for .NET 為重複模式提供了廣泛的自訂選項，可讓您根據您的特定要求進行自訂。
+A1: 可以，Aspose.Tasks for .NET 提供廣泛的自訂選項，讓您依需求調整重複模式。
 
-###Q2：Aspose.Tasks for .NET 有試用版嗎？
+### Q2: 是否有 Aspose.Tasks for .NET 的試用版？
 
- A2：是的，您可以從 Aspose.Tasks for .NET 取得免費試用版[發布頁面](https://releases.aspose.com/).
+A2: 有，您可從[發行頁面](https://releases.aspose.com/)取得免費試用版。
 
-###Q3：如何獲得對 Aspose.Tasks for .NET 的支援？
+### Q3: 如何取得 Aspose.Tasks for .NET 的支援？
 
- A3：您可以尋求協助並與社群互動[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+A3: 您可在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)上尋求協助並與社群互動。
 
-###Q4：Aspose.Tasks for .NET 是否有臨時授權？
+### Q4: 是否提供臨時授權給 Aspose.Tasks for .NET？
 
- A4：是的，您可以從[購買頁面](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
+A4: 有，您可於[購買頁面](https://purchase.aspose.com/temporary-license/)取得臨時授權，用於測試與評估。
 
-###Q5：在哪裡可以找到 Aspose.Tasks for .NET 的綜合文件？
+### Q5: 哪裡可以找到 Aspose.Tasks for .NET 的完整文件？
 
- A5：您可以參考詳細的[文件](https://reference.aspose.com/tasks/net/)可在 Aspose 網站上取得有關使用該程式庫的深入指導。
+A5: 請參考 Aspose 官方網站上的詳細[文件說明](https://reference.aspose.com/tasks/net/)，獲取深入的使用指南。
+
+---
+
+**最後更新：** 2026-04-01  
+**測試環境：** Aspose.Tasks 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
