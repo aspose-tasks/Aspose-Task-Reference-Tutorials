@@ -2,8 +2,8 @@
 title: Export Project to PDF with Aspose.Tasks Tutorial
 linktitle: Aspose.Tasks Tutorials
 additionalTitle: Aspose API References
-description: Learn how to export project to pdf using Aspose.Tasks, manage project licenses, and explore multi‑language tutorials for .NET, Java, C++ and more.
-date: 2025-11-29
+description: Learn how to export project to PDF using Aspose.Tasks, manage project licenses, and explore multi‑language tutorials for .NET, Java, C++ and more.
+date: 2026-01-31
 weight: 11
 url: /
 ---
@@ -14,7 +14,7 @@ url: /
 
 # Export Project to PDF with Aspose.Tasks Tutorial
 
-Exporting a project to PDF is one of the most common ways to share a read‑only view of your Microsoft Project schedule with stakeholders. In this guide you’ll discover how **export project to pdf** using Aspose.Tasks, why the feature matters, and where you can find deeper, language‑specific tutorials for .NET, Java, C++, and more. We’ll also touch on related tasks such as **add vba module**, **set task recurrence**, and **manage project licenses** so you get a full picture of the product’s capabilities.
+In this tutorial, you’ll learn **how to export project to PDF** using Aspose.Tasks, why the feature matters, and where you can find deeper, language‑specific tutorials for .NET, Java, C++, and more. Exporting a project to PDF is one of the most common ways to share a read‑only view of your Microsoft Project schedule with stakeholders. We’ll also touch on related tasks such as **add vba module**, **set task recurrence**, and **manage project licenses** so you get a full picture of the product’s capabilities.
 
 ## Quick Answers
 - **Can Aspose.Tasks export MS Project files to PDF?** Yes – the API provides a one‑line method to generate PDF reports.  
@@ -23,7 +23,7 @@ Exporting a project to PDF is one of the most common ways to share a read‑only
 - **Is VBA support included?** You can **add vba module** to a project and preserve it when exporting.  
 - **Can I schedule recurring tasks before export?** Absolutely – use **set task recurrence** to define patterns that appear in the PDF.
 
-## What is “export project to pdf”?
+## What is “export project to PDF”?
 Exporting a project to PDF means converting an MS Project (.mpp) file into a portable document that retains the layout, Gantt chart, and resource information, but cannot be edited. This format is ideal for distribution, printing, or archiving.
 
 ## Why use Aspose.Tasks for PDF export?
@@ -88,6 +88,9 @@ These are links to some useful resources:
 - [Task Properties](./java/task-properties/)
 - [VBA Integration](./java/vba-integration/)  <!-- secondary keyword -->
 
+## How to Export Project to PDF with Aspose.Tasks
+Below is a concise, step‑by‑step overview that walks you through the entire process, from loading the source file to verifying the final PDF.
+
 ## How to Export Project to PDF (Step‑by‑Step Overview)
 1. **Load your .mpp file** – Use the `Project` class for your language of choice.  
 2. **(Optional) Add a VBA module** – If you need custom macros, call the API to embed them before export.  
@@ -123,7 +126,7 @@ A: Enable the “Risk Analysis” view in the PDF options; the API will render t
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-01-31  
 **Tested With:** Aspose.Tasks 24.11 (all supported platforms)  
 **Author:** Aspose  
 

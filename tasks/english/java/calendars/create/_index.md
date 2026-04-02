@@ -1,39 +1,39 @@
 ---
-title: Add calendar to project with Aspose.Tasks for Java
+title: How to create project calendar with Aspose.Tasks for Java
 linktitle: Add Calendar to Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to add calendar to project, how to create MS Project calendar, and save project as XML using Aspose.Tasks for Java.
+description: Learn how to create project calendar, add holiday calendar, and export project XML using Aspose.Tasks for Java.
 weight: 11
 url: /java/calendars/create/
-date: 2025-12-02
+date: 2026-01-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add calendar to project with Aspose.Tasks for Java
+# How to create project calendar with Aspose.Tasks for Java
 
 ## Introduction
-In modern project‑management workflows, the ability to **add calendar to project** programmatically can save hours of manual editing. Aspose.Tasks for Java gives developers a clean, type‑safe API to manipulate Microsoft Project files without ever opening the desktop client. In this tutorial you’ll learn **how to add calendar**, **how to create MS Project calendar**, and **save project as XML**—all with just a few lines of Java code.
+In modern project‑management workflows, the ability to **create project calendar** programmatically can save hours of manual editing. Aspose.Tasks for Java gives developers a clean, type‑safe API to manipulate Microsoft Project files without ever opening the desktop client. In this tutorial you’ll learn **how to add calendar**, **how to create MS Project calendar**, and **export project XML**—all with just a few lines of Java code.
 
 ## Quick Answers
-- **What does “add calendar to project” mean?**  
-  It means inserting a new working‑time definition (calendar) into a Microsoft Project file via code.  
+- **What does “create project calendar” mean?**  
+  It means generating a new working‑time definition (calendar) inside a Microsoft Project file via code.  
 - **Which library handles this?**  
   Aspose.Tasks for Java provides the `Calendar` class and `Project` container to manage calendars.  
 - **Do I need a license?**  
   A temporary evaluation license works for testing; a full license is required for production use.  
-- **Can I save the file as XML?**  
+- **Can I export the file as XML?**  
   Yes—use `SaveFileFormat.Xml` to export the project as an XML file.  
 - **What are the prerequisites?**  
   Java JDK 8+ and the Aspose.Tasks for Java JAR on your classpath.
 
-## What is “add calendar to project”?
-Adding a calendar to a project creates a custom schedule that defines working days, holidays, and daily work hours. This calendar can then be assigned to tasks, resources, or the entire project, ensuring that calculations such as start dates and durations respect the defined working time.
+## What is “create project calendar”?
+Creating a project calendar defines working days, holidays, and daily work hours for a project. Once the calendar is attached to tasks, resources, or the whole project, all scheduling calculations respect the defined working time.
 
-## Why use Aspose.Tasks for Java to add calendar to project?
-- **Full control** – No UI required; automate bulk calendar creation across many projects.  
+## Why use Aspose.Tasks for Java to create project calendar?
+- **Full control** – Automate bulk calendar creation across many projects without a UI.  
 - **Cross‑version compatibility** – Works with Project 2007, 2010, 2013, 2016, and later files.  
 - **No Microsoft Project installation** – Run on any server or CI pipeline.  
 - **Export flexibility** – Save as XML, MPP, or other supported formats.
@@ -77,7 +77,7 @@ Calendar cal3 = prj.getCalendars().add("cal3");
 
 > **Pro tip:** After adding a calendar, you can customize its working days with `cal1.getWeekDays().add(...)` and set daily work hours using `cal1.getBaseCalendar().setWorkingTime(...)`.
 
-### Step 5: Save the project (save project as XML)
+### Step 5: Save the project (export project XML)
 Persist the project, including the newly added calendars, to an XML file. This format is easy to inspect and compatible with many tools.
 
 ```java
@@ -91,7 +91,7 @@ Let the user know the operation finished successfully.
 System.out.println("Process completed Successfully");
 ```
 
-By following these six concise steps, you have successfully **added a calendar to a project** and saved the result as an XML file.
+By following these six concise steps, you have successfully **created a project calendar**, added it to a Microsoft Project file, and **exported the project as XML**.
 
 ## Common Issues and Solutions
 | Issue | Reason | Fix |
@@ -119,11 +119,11 @@ A: A temporary evaluation license is sufficient for testing; a full license is r
 A: The Aspose.Tasks community forum is an excellent resource: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ## Conclusion
-Using Aspose.Tasks for Java, you can programmatically **add calendar to project**, customize scheduling rules, and **save project as XML** with just a few lines of code. This automation reduces manual effort, eliminates human error, and enables batch processing of large project portfolios.
+Using Aspose.Tasks for Java, you can programmatically **create project calendar**, customize scheduling rules, and **export project XML** with just a few lines of code. This automation reduces manual effort, eliminates human error, and enables batch processing of large project portfolios.
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-01-31  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

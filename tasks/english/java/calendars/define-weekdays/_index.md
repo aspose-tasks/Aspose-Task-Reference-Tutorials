@@ -1,21 +1,21 @@
 ---
-title: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
-linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
+title: How to Set Calendar MS Project and Define Weekdays with Aspose.Tasks
+linktitle: How to Set Calendar MS Project and Define Weekdays with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to set calendar, define weekdays MS Project and set custom working days using Aspose.Tasks for Java. Save project as XML with just a few lines of code.
+description: Learn how to set calendar MS Project, define weekdays, and set custom working days using Aspose.Tasks for Java. Save project as XML with just a few lines of code.
 weight: 12
 url: /java/calendars/define-weekdays/
-date: 2025-12-02
+date: 2026-01-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
+# How to Set Calendar MS Project and Define Weekdays with Aspose.Tasks
 
 ## Introduction
-In this tutorial you’ll discover **how to set calendar** settings programmatically and define weekdays in a Microsoft Project file using the Aspose.Tasks library for Java. Whether you need to create a standard work week, add weekend working days, or configure a short Friday schedule, this guide walks you through every step—from project creation to saving the file as XML.
+In this tutorial you’ll discover how to **set calendar MS Project** settings programmatically and define weekdays in a Microsoft Project file using the Aspose.Tasks library for Java. Whether you need to create a standard work week, **add weekend working days**, or configure a short Friday schedule, this guide walks you through every step—from project creation to **save project as XML**.
 
 ## Quick Answers
 - **What library is needed?** Aspose.Tasks for Java  
@@ -24,10 +24,10 @@ In this tutorial you’ll discover **how to set calendar** settings programmatic
 - **Do I need a license?** A free trial works for evaluation; a license is required for production.  
 - **What Java version is required?** Java 8 or higher.
 
-## What is “how to set calendar” in the context of MS Project?
+## What is set calendar MS Project?
 Setting a calendar in MS Project means defining which days are working days, the daily working hours, and any exceptions such as holidays. This calendar drives task scheduling, resource allocation, and overall project timelines.
 
-## Why use Aspose.Tasks for calendar manipulation?
+## Why set calendar MS Project with Aspose.Tasks?
 - **Full control** – programmatically create, modify, or delete calendars without opening the UI.  
 - **Cross‑platform** – works on any OS that supports Java.  
 - **Supports all file formats** – MPP, MPT, and XML, so you can *save project as XML* for easy integration with other systems.  
@@ -135,11 +135,11 @@ A: Load the project with `new Project("existing.mpp")`, retrieve the desired cal
 A: Yes, you can create and edit recurring tasks using the `RecurringTask` class.
 
 ## Conclusion
-You now know **how to set calendar** settings, **define weekdays MS Project**, add weekend working days, and create a short Friday schedule—all with Aspose.Tasks for Java. Save the result as XML and integrate the calendar logic into any Java‑based project management solution.
+You now know **how to set calendar MS Project**, **define weekdays MS Project**, add weekend working days, and create a short Friday schedule—all with Aspose.Tasks for Java. Save the result as XML and integrate the calendar logic into any Java‑based project‑management solution.
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-01-31  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 
