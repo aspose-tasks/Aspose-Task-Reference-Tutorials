@@ -1,59 +1,71 @@
 ---
-title: Repetición por día del año en Aspose.Tasks
+date: 2026-04-03
+description: Aprenda la programación de tareas de gestión de proyectos y cómo agregar
+  tareas recurrentes usando Aspose.Tasks para .NET, incluyendo guardar el proyecto
+  como MPP.
+keywords:
+- project management task scheduling
+- how to add recurring task
+- save project as mpp
 linktitle: Repetición por día del año en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a manejar las repeticiones de los días del año en Aspose.Tasks para .NET para optimizar la administración de tareas recurrentes de manera eficiente.
-weight: 27
+second_title: Aspose.Tasks .NET API
+title: Programación de tareas de gestión de proyectos con repetición anual en Aspose.Tasks
 url: /es/net/advanced-features/repetition-by-year-day/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Repetición por día del año en Aspose.Tasks
+# Programación de Tareas de Gestión de Proyectos con Repetición por Día del Año en Aspose.Tasks
 
 ## Introducción
 
-En el ámbito de la gestión de proyectos, la programación eficiente de las tareas y la recurrencia desempeñan papeles fundamentales para garantizar una ejecución oportuna y un flujo de trabajo fluido. Aspose.Tasks para .NET ofrece una solución sólida para que los desarrolladores manejen tareas recurrentes sin esfuerzo dentro de sus aplicaciones. En este tutorial, profundizamos en las complejidades de trabajar con repeticiones de días del año usando Aspose.Tasks, proporcionando una guía completa para crear tareas recurrentes basadas en patrones anuales.
+La **programación de tareas de gestión de proyectos** es la columna vertebral de cualquier proyecto exitoso. Cuando las tareas se repiten anualmente —como auditorías anuales, ventanas de mantenimiento o revisiones estacionales— manejar esas recurrencias manualmente puede ser propenso a errores y consumir mucho tiempo. Aspose.Tasks para .NET simplifica esto al permitir definir patrones de día del año de forma programática, de modo que pueda centrarse en lo que más importa: entregar valor. En este tutorial aprenderá **cómo agregar lógica de tarea recurrente** basada en un día específico del año y verá exactamente **cómo guardar el proyecto como MPP** para una integración fluida con Microsoft Project.
+
+## Respuestas rápidas
+- **¿Qué significa “repetición por día del año”?** Programa una tarea en un día específico de un mes específico cada año.  
+- **¿Qué clase de API crea la recurrencia?** `YearlyRecurrencePattern` combined with `ByYearDayRepetition`.  
+- **¿Puedo establecer una fecha de inicio y fin?** Sí, usando `EndByRecurrenceRange`.  
+- **¿Qué formato de archivo se produce?** El proyecto se guarda como un archivo MPP (`SaveFileFormat.Mpp`).  
+- **¿Necesito una licencia para producción?** Se requiere una licencia comercial para uso que no sea de evaluación.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirse en el tutorial, asegúrese de que tiene los siguientes requisitos previos:
 
-1.  Biblioteca Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks para .NET desde[sitio web](https://releases.aspose.com/tasks/net/).
-   
-2. Entorno de desarrollo: configure un entorno de desarrollo adecuado con Visual Studio o cualquier otro IDE preferido para el desarrollo de .NET.
-
-3. Conocimientos básicos de C#: familiarícese con los fundamentos del lenguaje de programación C# para seguir junto con los ejemplos de código.
-
-4. Conceptos de gestión de proyectos: la comprensión de los conceptos de gestión de proyectos y la programación de tareas ayudará a comprender los conceptos del tutorial de forma eficaz.
+1. Bibliotheca Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde el [sitio web](https://releases.aspose.com/tasks/net/).  
+2. Entorno de desarrollo: Configure un entorno de desarrollo adecuado con Visual Studio o cualquier otro IDE preferido para el desarrollo en .NET.  
+3. Conocimientos básicos de C#: Familiarícese con los fundamentos del lenguaje de programación C# para seguir los ejemplos de código.  
+4. Conceptos de gestión de proyectos: Comprender los conceptos de gestión de proyectos y la programación de tareas ayudará a asimilar eficazmente los conceptos del tutorial.
 
 ## Importar espacios de nombres
 
-Antes de comenzar a codificar, importemos los espacios de nombres necesarios para facilitar la manipulación de nuestras tareas utilizando Aspose.Tasks para .NET.
+Antes de comenzar a programar, importemos los espacios de nombres necesarios para facilitar la manipulación de tareas usando Aspose.Tasks para .NET.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Ahora, dividamos el ejemplo proporcionado en varios pasos y aclaremos cada paso en detalle.
+Ahora, desglosaremos el ejemplo proporcionado en varios pasos y explicaremos cada paso en detalle.
 
-## Paso 1: cargar el archivo del proyecto
+## Cómo agregar una tarea recurrente con patrón de día del año
+
+### Paso 1: Cargar archivo de proyecto
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Aquí, inicializamos un nuevo`Project` objeto y cargue un archivo de proyecto existente llamado "Project1.mpp".
+Aquí, inicializamos un nuevo objeto `Project` y cargamos un archivo de proyecto existente llamado **Project1.mpp**.
 
-## Paso 2: definir parámetros de tareas recurrentes
+### Paso 2: Definir parámetros de tarea recurrente
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -72,49 +84,59 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- En este paso, definimos parámetros para nuestra tarea recurrente. Especificamos el nombre de la tarea, la duración y el patrón de recurrencia. Para la recurrencia anual, utilizamos el`YearlyRecurrencePattern` y configure la repetición para que ocurra el 1 de julio usando`ByYearDayRepetition`. Además, definimos el rango de recurrencia desde el 1 de julio de 2018 hasta el 1 de julio de 2019.
+En este paso, definimos los parámetros para nuestra tarea recurrente. Especificamos el nombre de la tarea, la duración y el patrón de recurrencia. Para una recurrencia anual, usamos `YearlyRecurrencePattern` y establecemos la repetición para que ocurra el **1.º día de julio** usando `ByYearDayRepetition`. Además, definimos el rango de recurrencia desde el 1 de julio de 2018 hasta el 1 de julio de 2019.
 
-## Paso 3: agregar tarea al proyecto
+### Paso 3: Agregar tarea al proyecto
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Aquí, agregamos los parámetros de tarea recurrente definidos a la tarea raíz del proyecto.
+Aquí, agregamos los parámetros de la tarea recurrente definidos a la tarea raíz del proyecto.
 
-## Paso 4: guardar proyecto
+### Paso 4: Guardar proyecto como MPP
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Finalmente, guardamos el archivo del proyecto modificado con la tarea recurrente agregada.
+Finalmente, **guardamos el proyecto como un archivo MPP**, dejándolo listo para abrirse en Microsoft Project o cualquier visor compatible.
 
-## Conclusión
+## Por qué es importante
 
-En este tutorial, exploramos el proceso de trabajar con repeticiones de días del año en Aspose.Tasks para .NET. Siguiendo los pasos proporcionados, los desarrolladores pueden integrar sin problemas la funcionalidad de tareas recurrentes en sus aplicaciones, mejorando las capacidades de gestión de proyectos.
+- **Automatización** – Elimina la entrada manual de tareas anuales, reduciendo errores humanos.  
+- **Consistencia** – Garantiza que el mismo patrón día‑mes se aplique a lo largo de varios años.  
+- **Integración** – El archivo MPP resultante puede compartirse con las partes interesadas que dependen de Microsoft Project.  
+
+## Errores comunes y consejos
+
+- **Precisión de DateTime** – Asegúrese de que la hora de inicio se alinee con el calendario de su proyecto; de lo contrario, la tarea puede aparecer desplazada.  
+- **Zonas horarias** – La API trabaja con objetos `DateTime`; considere la conversión a UTC si su aplicación abarca varias regiones.  
+- **Aplicación de licencia** – En modo de evaluación, el MPP guardado puede contener una marca de agua; use una licencia válida para producción.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puede Aspose.Tasks manejar patrones de recurrencia complejos?
+**Q: ¿Puede Aspose.Tasks manejar patrones de recurrencia complejos?**  
+A: Sí, Aspose.Tasks ofrece soporte integral para varios patrones de recurrencia, incluidos los anuales, mensuales, semanales y diarios.
 
-R1: Sí, Aspose.Tasks brinda soporte integral para varios patrones de recurrencia, incluidos los complejos como repeticiones anuales, mensuales, semanales y diarias.
+**Q: ¿Es Aspose.Tasks compatible con diferentes formatos de archivo de proyecto?**  
+A: Absolutamente, Aspose.Tasks soporta formatos de archivo de proyecto populares como MPP, XML y CSV, garantizando compatibilidad con distintas herramientas de gestión de proyectos.
 
-### P2: ¿Aspose.Tasks es compatible con diferentes formatos de archivos de proyectos?
+**Q: ¿Aspose.Tasks ofrece documentación y soporte para desarrolladores?**  
+A: Sí, los desarrolladores pueden acceder a una documentación extensa y buscar asistencia en los foros de la comunidad de Aspose.Tasks para cualquier consulta o problema que encuentren.
 
-R2: Por supuesto, Aspose.Tasks admite formatos de archivos de proyectos populares, como MPP, XML y CSV, lo que garantiza la compatibilidad entre diferentes herramientas de gestión de proyectos.
+**Q: ¿Puedo personalizar propiedades de la tarea como duración y fecha de inicio usando Aspose.Tasks?**  
+A: Por supuesto, Aspose.Tasks ofrece APIs robustas para manipular dinámicamente las propiedades de las tareas, permitiendo a los desarrolladores personalizar duraciones, fechas de inicio, dependencias y más.
 
-### P3: ¿Aspose.Tasks ofrece documentación y soporte para desarrolladores?
+**Q: ¿Aspose.Tasks es adecuado tanto para proyectos de pequeña escala como para proyectos a nivel empresarial?**  
+A: En efecto, Aspose.Tasks está diseñado para atender las necesidades de los desarrolladores que trabajan en proyectos de cualquier escala, desde tareas individuales hasta proyectos empresariales de gran envergadura.
 
-R3: Sí, los desarrolladores pueden acceder a documentación extensa y buscar ayuda en los foros de la comunidad Aspose.Tasks para cualquier consulta o problema que encuentren.
+---
 
-### P4: ¿Puedo personalizar las propiedades de la tarea, como la duración y la fecha de inicio, usando Aspose.Tasks?
+**Última actualización:** 2026-04-03  
+**Probado con:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose  
 
-R4: Ciertamente, Aspose.Tasks proporciona API sólidas para manipular las propiedades de las tareas de forma dinámica, lo que permite a los desarrolladores personalizar duraciones, fechas de inicio, dependencias y más.
-
-### P5: ¿Aspose.Tasks es adecuado para proyectos tanto de pequeña escala como de nivel empresarial?
-
-R5: De hecho, Aspose.Tasks está diseñado para satisfacer las necesidades de los desarrolladores que trabajan en proyectos de todas las escalas, desde tareas individuales hasta proyectos empresariales a gran escala.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

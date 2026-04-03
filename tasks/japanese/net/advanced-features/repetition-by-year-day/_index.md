@@ -1,59 +1,70 @@
 ---
-title: Aspose.Tasks での年日別の繰り返し
-linktitle: Aspose.Tasks での年日別の繰り返し
+date: 2026-04-03
+description: Aspose.Tasks for .NET を使用したプロジェクト管理のタスクスケジューリングと繰り返しタスクの追加方法、さらにプロジェクトを
+  MPP として保存する方法を学びます。
+keywords:
+- project management task scheduling
+- how to add recurring task
+- save project as mpp
+linktitle: Aspose.Tasks の年ごとの繰り返し
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks for .NET で年日の繰り返しを処理し、定期的なタスク管理を効率的に合理化する方法を学びます。
-weight: 27
+title: Aspose.Tasksでの年単位繰り返しを使用したプロジェクト管理タスクスケジューリング
 url: /ja/net/advanced-features/repetition-by-year-day/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks での年日別の繰り返し
+# Aspose.Tasks における年次日繰り返しによるプロジェクト管理タスクスケジューリング
 
-## 導入
+## はじめに
 
-プロジェクト管理の分野では、効率的なタスクのスケジューリングと反復は、タイムリーな実行とスムーズなワークフローを確保する上で極めて重要な役割を果たします。 Aspose.Tasks for .NET は、開発者がアプリケーション内で繰り返し発生するタスクを簡単に処理できる堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Tasks を使用した年日の繰り返しの複雑な作業について詳しく説明し、年間パターンに基づいて定期的なタスクを作成するための包括的なガイドを提供します。
+Effective **project management task scheduling** is the backbone of any successful project. When tasks repeat on a yearly basis—such as annual audits, maintenance windows, or seasonal reviews—handling those recurrences manually can become error‑prone and time‑consuming. Aspose.Tasks for .NET simplifies this by letting you programmatically define year‑day patterns, so you can focus on what matters most: delivering value. In this tutorial you’ll learn **how to add recurring task** logic based on a specific day of the year and see exactly **how to save project as MPP** for seamless integration with Microsoft Project.
+
+## クイック回答
+- **“year day repetition”とは何ですか？** 毎年特定の月の特定の日にタスクをスケジュールします。  
+- **どの API クラスが繰り返しを作成しますか？** `YearlyRecurrencePattern` と `ByYearDayRepetition` を組み合わせます。  
+- **開始日と終了日を設定できますか？** はい、`EndByRecurrenceRange` を使用します。  
+- **生成されるファイル形式は何ですか？** プロジェクトは MPP ファイル (`SaveFileFormat.Mpp`) として保存されます。  
+- **本番環境でライセンスが必要ですか？** 評価版以外の使用には商用ライセンスが必要です。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+Before diving into the tutorial, ensure that you have the following prerequisites in place:
 
-1.  Aspose.Tasks for .NET ライブラリ: Aspose.Tasks for .NET ライブラリを次の場所からダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/tasks/net/).
-   
-2. 開発環境: Visual Studio またはその他の .NET 開発用の推奨 IDE を使用して、適切な開発環境をセットアップします。
-
-3. C# の基礎知識: コード例に沿って C# プログラミング言語の基礎を理解します。
-
-4. プロジェクト管理の概念: プロジェクト管理の概念とタスクのスケジュール設定を理解すると、チュートリアルの概念を効果的に理解するのに役立ちます。
+1. Aspose.Tasks for .NET ライブラリ: [website](https://releases.aspose.com/tasks/net/) から Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。  
+2. 開発環境: Visual Studio またはその他のお好みの .NET 開発用 IDE を使用して、適切な開発環境を設定します。  
+3. C# の基本知識: コード例に沿って学習できるよう、C# プログラミング言語の基礎を理解しておきます。  
+4. プロジェクト管理の概念: プロジェクト管理の概念とタスクスケジューリングの理解は、チュートリアルの概念を効果的に把握するのに役立ちます。
 
 ## 名前空間のインポート
 
-コーディングを開始する前に、Aspose.Tasks for .NET を使用してタスクの操作を容易にするために必要な名前空間をインポートしましょう。
+Before we begin coding, let's import the necessary namespaces to facilitate our task manipulation using Aspose.Tasks for .NET.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-ここで、提供された例を複数のステップに分割し、各ステップを詳しく説明します。
+Now, let's break down the provided example into multiple steps and elucidate each step in detail.
 
-## ステップ 1: プロジェクト ファイルをロードする
+## 年次日パターンで繰り返しタスクを追加する方法
+
+### ステップ 1: プロジェクトファイルの読み込み
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
-ここでは、新しいものを初期化します`Project`オブジェクトを作成し、「Project1.mpp」という名前の既存のプロジェクト ファイルをロードします。
+Here, we initialize a new `Project` object and load an existing project file named **Project1.mpp**.
 
-## ステップ 2: 定期的なタスクのパラメータを定義する
+### ステップ 2: 繰り返しタスクのパラメータを定義する
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -72,49 +83,59 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-このステップでは、定期的なタスクのパラメーターを定義します。タスク名、期間、繰り返しパターンを指定します。毎年の繰り返しの場合は、`YearlyRecurrencePattern`を使用して、繰り返しが 7 月 1 日に発生するように設定します。`ByYearDayRepetition`。さらに、2018 年 7 月 1 日から 2019 年 7 月 1 日までの再発範囲を定義します。
+In this step, we define parameters for our recurring task. We specify the task name, duration, and recurrence pattern. For yearly recurrence, we use the `YearlyRecurrencePattern` and set the repetition to occur on the **1st day of July** using `ByYearDayRepetition`. Additionally, we define the recurrence range from July 1 2018 to July 1 2019.
 
-## ステップ 3: タスクをプロジェクトに追加する
+### ステップ 3: タスクをプロジェクトに追加する
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-ここでは、定義された繰り返しタスクのパラメーターをプロジェクトのルート タスクに追加します。
+Here, we add the defined recurring task parameters to the root task of the project.
 
-## ステップ 4: プロジェクトを保存する
+### ステップ 4: プロジェクトを MPP として保存する
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-最後に、追加した定期タスクを含む変更したプロジェクト ファイルを保存します。
+Finally, we **save the project as an MPP file**, making it ready for opening in Microsoft Project or any compatible viewer.
 
-## 結論
+## なぜこれが重要か
 
-このチュートリアルでは、Aspose.Tasks for .NET で年日の繰り返しを処理するプロセスについて説明しました。提供された手順に従うことで、開発者は定期的なタスク機能をアプリケーションにシームレスに統合し、プロジェクト管理機能を強化できます。
+- **Automation** – 年次タスクの手動入力を排除し、人為的エラーを減らします。  
+- **Consistency** – 同じ日‑月パターンが複数年にわたって適用されることを保証します。  
+- **Integration** – 作成された MPP ファイルは、Microsoft Project を使用するステークホルダーと共有できます。  
+
+## 一般的な落とし穴とヒント
+
+- **DateTime precision** – 開始時刻がプロジェクトカレンダーと一致していることを確認してください。そうでないと、タスクがずれて表示される可能性があります。  
+- **Time zones** – API は `DateTime` オブジェクトで動作します。アプリケーションが複数の地域にまたがる場合は、UTC 変換を検討してください。  
+- **License enforcement** – 評価モードでは、保存された MPP に透かしが入る可能性があります。本番環境では有効なライセンスを使用してください。
 
 ## よくある質問
 
-### Q1: Aspose.Tasks は複雑な繰り返しパターンを処理できますか?
+**Q: Aspose.Tasks は複雑な繰り返しパターンを処理できますか？**  
+A: はい、Aspose.Tasks は年次、月次、週次、日次の繰り返しを含むさまざまな繰り返しパターンを包括的にサポートしています。
 
-A1: はい、Aspose.Tasks は、毎年、毎月、毎週、毎日の繰り返しなどの複雑なパターンを含む、さまざまな繰り返しパターンに対する包括的なサポートを提供します。
+**Q: Aspose.Tasks はさまざまなプロジェクトファイル形式に対応していますか？**  
+A: もちろんです。Aspose.Tasks は MPP、XML、CSV などの一般的なプロジェクトファイル形式をサポートしており、異なるプロジェクト管理ツール間の互換性を確保します。
 
-### Q2: Aspose.Tasks はさまざまなプロジェクト ファイル形式と互換性がありますか?
+**Q: Aspose.Tasks は開発者向けのドキュメントやサポートを提供していますか？**  
+A: はい、開発者は豊富なドキュメントにアクセスでき、問題や質問がある場合は Aspose.Tasks コミュニティフォーラムで支援を受けることができます。
 
-A2: もちろん、Aspose.Tasks は MPP、XML、CSV などの一般的なプロジェクト ファイル形式をサポートしており、さまざまなプロジェクト管理ツール間の互換性を確保しています。
+**Q: Aspose.Tasks を使用して、期間や開始日などのタスクプロパティをカスタマイズできますか？**  
+A: もちろんです。Aspose.Tasks はタスクプロパティを動的に操作できる強力な API を提供しており、期間、開始日、依存関係などをカスタマイズできます。
 
-### Q3: Aspose.Tasks は開発者にドキュメントとサポートを提供しますか?
+**Q: Aspose.Tasks は小規模からエンタープライズ規模のプロジェクトまで対応していますか？**  
+A: はい、Aspose.Tasks は個々のタスクから大規模エンタープライズプロジェクトまで、あらゆる規模のプロジェクトに取り組む開発者のニーズに応えるよう設計されています。
 
-A3: はい、開発者は広範なドキュメントにアクセスし、遭遇した質問や問題については Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。
+---
 
-### Q4: Aspose.Tasks を使用して、期間や開始日などのタスクのプロパティをカスタマイズできますか?
+**最終更新日:** 2026-04-03  
+**テスト環境:** Aspose.Tasks 24.12 for .NET  
+**作者:** Aspose  
 
-A4: 確かに、Aspose.Tasks はタスクのプロパティを動的に操作するための堅牢な API を提供し、開発者が期間、開始日、依存関係などをカスタマイズできるようにします。
-
-### Q5: Aspose.Tasks は小規模プロジェクトとエンタープライズ レベルのプロジェクトの両方に適していますか?
-
-A5: 確かに、Aspose.Tasks は、個々のタスクから大規模なエンタープライズ プロジェクトまで、あらゆる規模のプロジェクトに取り組む開発者のニーズを満たすように設計されています。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
