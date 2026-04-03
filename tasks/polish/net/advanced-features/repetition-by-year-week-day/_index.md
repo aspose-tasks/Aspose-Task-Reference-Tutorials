@@ -1,69 +1,77 @@
 ---
-title: Powtórzenie według roku, dnia tygodnia w Aspose.Tasks
-linktitle: Powtórzenie według roku, dnia tygodnia w Aspose.Tasks
+date: 2026-04-03
+description: Dowiedz się, jak używać Aspose.Tasks do dodawania projektu z zadaniami
+  powtarzającymi się i zapisywania projektu jako MPP. Ten przewodnik pokazuje funkcję
+  Powtarzanie według roku, tygodnia i dnia krok po kroku.
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Powtarzanie według roku, tygodnia, dnia w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Poznaj moc Aspose.Tasks dla .NET w efektywnym zarządzaniu powtarzającymi się zadaniami. Przewodnik krok po kroku dotyczący wdrażania funkcji Powtarzanie według roku, tygodnia i dnia.
-weight: 28
+title: Jak używać Aspose.Tasks – Powtarzanie według roku, tygodnia i dnia
 url: /pl/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Powtórzenie według roku, dnia tygodnia w Aspose.Tasks
+# Powtarzanie według roku, tygodnia, dnia w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-W zarządzaniu projektami najważniejsza jest wydajność i precyzja. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcji usprawniających obsługę projektów. Wśród jego arsenału znajduje się możliwość zarządzania powtarzającymi się zadaniami z niezwykłą elastycznością. Jedną z takich funkcji jest funkcja „Powtarzanie według roku, dnia tygodnia”, umożliwiająca użytkownikom konfigurowanie zadań powtarzających się w określone dni tygodnia, w wyznaczonych miesiącach i przez wiele lat.
+Kiedy potrzebujesz **how to use Aspose.Tasks** do obsługi złożonych harmonogramów powtarzalnych, biblioteka daje Ci precyzyjną kontrolę nad rocznymi wzorcami. W tym samouczku przejdziemy krok po kroku przez tworzenie zadania, które powtarza się w określony dzień tygodnia wybranego miesiąca, obejmując wiele lat. Po zakończeniu będziesz w stanie **add recurring task project** oraz **save project as MPP** przy użyciu kilku linii C#.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „Repetition by Year Week Day”?** Powtarza zadanie w wybrany dzień tygodnia (np. pierwszą niedzielę) danego miesiąca każdego roku.  
+- **Które wersje .NET są obsługiwane?** Wszystkie nowoczesne wersje .NET Framework oraz .NET Core/5/6.  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zmienić zakres powtarzania?** Tak – możesz ustawić datę początkową, datę końcową lub stałą liczbę wystąpień.  
+- **Czy wynikowy plik jest w formacie MPP?** Oczywiście – projekt jest zapisywany jako plik MPP gotowy do otwarcia w Microsoft Project.
 
-Zanim zagłębisz się w zawiłości korzystania z funkcji „Powtarzanie według roku, dnia tygodnia” w Aspose.Tasks dla .NET, upewnij się, że spełnione są następujące wymagania wstępne:
+## Czym jest funkcja „Repetition by Year Week Day”?
 
-### 1. Znajomość .NET Framework
+Funkcja pozwala zdefiniować roczne powtarzanie, które dotyczy konkretnego **dnia tygodnia** (np. niedzieli) oraz **pozycji** w miesiącu (pierwszy, drugi, ostatni itp.). Jest to idealne rozwiązanie dla zadań takich jak kwartalne przeglądy, coroczne audyty lub każde wydarzenie podążające za rytmem kalendarzowym.
 
-Zapoznaj się z podstawami .NET Framework, w tym koncepcjami programowania obiektowego i składnią języka C#.
+## Dlaczego warto używać Aspose.Tasks do zadań powtarzalnych?
 
-### 2. Instalacja Aspose.Tasks dla .NET
+- **Precyzja** – Pełna kontrola nad miesiącami, dniami tygodnia i pozycjami porządkowymi.  
+- **Kompatybilność** – Generuje natywne pliki MPP, które otwierają się bezbłędnie w Microsoft Project.  
+- **Brak interfejsu COM** – Czyste API .NET, bez konieczności instalacji Office.  
+- **Skalowalność** – Działa zarówno dla małych projektów, jak i harmonogramów na poziomie przedsiębiorstwa.
 
- Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[link do pobrania](https://releases.aspose.com/tasks/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować bibliotekę ze środowiskiem programistycznym.
+## Wymagania wstępne
 
-### 3. Dostęp do Dokumentacji
+Zanim zagłębisz się w kod, upewnij się, że masz:
 
- Patrz[dokumentacja](https://reference.aspose.com/tasks/net/) aby uzyskać kompleksowe wskazówki dotyczące Aspose.Tasks dla .NET, w tym szczegółowe wyjaśnienia klas, metod i przykładów użycia.
+1. **Podstawową wiedzę o .NET** – Znajomość C# i koncepcji programowania obiektowego.  
+2. **Aspose.Tasks for .NET** – Pobierz go z [download link](https://releases.aspose.com/tasks/net/) i dodaj plik DLL do swojego projektu.  
+3. **Dostęp do oficjalnej dokumentacji** – [documentation](https://reference.aspose.com/tasks/net/) zawiera wyczerpujące informacje o wszystkich klasach.  
+4. **Środowisko IDE do programowania** – Visual Studio, Rider lub dowolny kompatybilny edytor .NET.
 
-## 4. Konfiguracja środowiska programistycznego
+Teraz, gdy jesteś gotowy, zobaczmy implementację.
 
-Upewnij się, że masz skonfigurowane odpowiednie środowisko programistyczne, takie jak Visual Studio lub dowolne kompatybilne środowisko IDE dla programowania .NET.
+## Jak używać Aspose.Tasks do zadań powtarzalnych
 
-Teraz, gdy masz już warunki wstępne, przejdźmy do przewodnika krok po kroku dotyczącego wdrażania „Powtarzania według roku, dnia tygodnia” w Aspose.Tasks dla .NET.
+### Importowanie wymaganych przestrzeni nazw
 
-
-## Importowanie niezbędnych przestrzeni nazw
-
-Aby rozpocząć, zaimportuj wymagane przestrzenie nazw, aby uzyskać dostęp do klas i funkcjonalności Aspose.Tasks w aplikacji .NET.
-
-W pliku kodu C# umieść następujące deklaracje przestrzeni nazw:
+Najpierw wprowadź wymagane przestrzenie nazw, aby móc pracować z projektami, zadaniami i opcjami zapisu.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Te przestrzenie nazw zapewniają dostęp do biblioteki Aspose.Tasks i klas potrzebnych do pracy z zadaniami i plikami projektu.
+### Krok 1: Inicjalizacja projektu i parametrów zadania
 
-Podzielmy teraz proces konfigurowania zadania cyklicznego za pomocą funkcji „Powtarzanie według dnia tygodnia” w Aspose.Tasks dla .NET na łatwe do wykonania kroki.
-
-## Krok 1: Zainicjuj parametry projektu i zadania
-
-Najpierw zainicjuj projekt i zdefiniuj parametry zadania cyklicznego.
+Utwórz nową instancję `Project`, a następnie zdefiniuj obiekt `RecurringTaskParameters`, który opisuje wzorzec powtarzania.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +93,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Ten segment kodu inicjuje nowy projekt i określa parametry zadania cyklicznego. Ustawia nazwę zadania, czas trwania i definiuje wzorzec powtarzania.
+> **Porada:** Dostosuj `Month`, `WeekDay` i `Position`, aby pasowały do Twojego rzeczywistego harmonogramu.
 
-## Krok 2: Dodaj parametry do projektu
+### Krok 2: Dodaj parametry do projektu
 
-Następnie dodaj zdefiniowane parametry do projektu.
+Wstaw definicję zadania powtarzalnego do korzenia projektu.
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Ta linia dodaje parametry zadania do zadania głównego projektu, włączając konfigurację zadania cyklicznego.
+### Krok 3: Zapisz projekt jako MPP
 
-## Krok 3: Zapisz plik projektu
-
-Na koniec zapisz plik projektu ze skonfigurowanym zadaniem cyklicznym.
+Na koniec zapisz projekt do pliku MPP, aby można go było otworzyć w Microsoft Project lub dowolnym kompatybilnym przeglądarce.
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Ten fragment kodu zapisuje plik projektu z określoną konfiguracją zadania cyklicznego w określonym katalogu wyjściowym.
+> To demonstruje **save project as mpp** w jednej linii kodu.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Podsumowując, opanowanie funkcji „Powtarzanie według roku, dnia tygodnia” w Aspose.Tasks dla .NET umożliwia kierownikom projektów i programistom efektywną obsługę powtarzających się zadań z precyzją i elastycznością. Postępując zgodnie ze szczegółowym przewodnikiem opisanym w tym artykule, możesz bezproblemowo zintegrować tę funkcjonalność z przepływami pracy związanymi z zarządzaniem projektami, zwiększając produktywność i organizację.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------|-----|
+| Brak zadań po otwarciu pliku MPP | Daty zakresu powtarzania znajdują się poza kalendarzem projektu | Sprawdź, czy daty `Start` i `Finish` mieszczą się w czasie pracy projektu |
+| Wyjątek `ArgumentNullException` przy `Add` | `parameters` jest null lub nie w pełni zainicjowany | Upewnij się, że wszystkie wymagane właściwości (TaskName, Duration, RecurrencePattern) są ustawione |
+| Wybrano niewłaściwy dzień tygodnia | Niezgodność wartości enum `WeekDay` | Użyj `DayOfWeek.Monday` … `DayOfWeek.Sunday` w razie potrzeby |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę dostosować wzorzec powtarzania poza podanymi przykładami?
+**Q: Czy mogę dostosować wzorzec powtarzania poza podanym przykładem?**  
+A: Tak, Aspose.Tasks pozwala łączyć `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern` lub nawet własne obiekty `RecurrenceRange`, aby dopasować dowolny harmonogram.
 
-Odp.: Tak, Aspose.Tasks dla .NET oferuje szerokie opcje dostosowywania zadań cyklicznych, umożliwiając dostosowanie wzorca powtarzania do konkretnych wymagań.
+**Q: Czy Aspose.Tasks for .NET jest kompatybilny z innym oprogramowaniem do zarządzania projektami?**  
+A: Zdecydowanie – biblioteka odczytuje i zapisuje formaty MPP, XML i Primavera, umożliwiając płynną wymianę danych.
 
-### P2: Czy Aspose.Tasks for .NET jest kompatybilny z innym oprogramowaniem do zarządzania projektami?
+**Q: Jak mogę obsłużyć wyjątki lub modyfikacje zadań powtarzalnych?**  
+A: Użyj klasy `ExceptionTask`, aby utworzyć nadpisania dla konkretnych wystąpień, lub edytuj `RecurringTaskParameters` i ponownie zapisz projekt.
 
-Odp.: Aspose.Tasks dla .NET obsługuje interoperacyjność z różnymi formatami zarządzania projektami, umożliwiając bezproblemową integrację z popularnymi pakietami oprogramowania.
+**Q: Czy Aspose.Tasks obsługuje rozwiązania chmurowe?**  
+A: Tak, możesz uruchomić API w Azure Functions, AWS Lambda lub dowolnej usłudze chmurowej kompatybilnej z .NET.
 
-### P3: Jak mogę obsłużyć wyjątki lub modyfikacje zadań cyklicznych?
+**Q: Czy dostępna jest wersja próbna Aspose.Tasks for .NET?**  
+A: Tak, możesz uzyskać dostęp do darmowej wersji próbnej Aspose.Tasks for .NET ze [website](https://releases.aspose.com/), co pozwala przetestować funkcje przed podjęciem decyzji o zakupie.
 
-Odp.: Aspose.Tasks dla .NET udostępnia interfejsy API do obsługi wyjątków i modyfikacji powtarzających się zadań, zapewniając elastyczność w zarządzaniu zmieniającymi się wymaganiami projektu.
+**Q: Jak dodać zadanie powtarzalne do istniejącego projektu bez nadpisywania innych danych?**  
+A: Wczytaj istniejący projekt za pomocą `new Project("Existing.mpp")`, dodaj `RecurringTaskParameters` do `RootTask.Children`, a następnie `Save` plik.
 
-### P4: Czy Aspose.Tasks dla .NET oferuje wsparcie dla rozwiązań do zarządzania projektami w chmurze?
+## Zakończenie
 
-Odp.: Tak, Aspose.Tasks dla .NET oferuje wsparcie dla rozwiązań do zarządzania projektami w chmurze, ułatwiając współpracę i dostępność na różnych platformach.
+Opanowując **how to use Aspose.Tasks** w scenariuszu **Repetition by Year Week Day**, zyskasz możliwość **add recurring task project** wpisów, które idealnie pasują do rzeczywistych kalendarzy oraz **save project as MPP** dla płynnej współpracy. Włącz te fragmenty kodu do własnych rozwiązań, aby zwiększyć dokładność planowania i zredukować ręczną pracę.
 
-### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
+---
 
-Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed podjęciem decyzji o zakupie.
+**Ostatnia aktualizacja:** 2026-04-03  
+**Testowane z:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

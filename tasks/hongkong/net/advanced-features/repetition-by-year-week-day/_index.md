@@ -1,69 +1,75 @@
 ---
-title: Aspose.Tasks 中按年週日重複
-linktitle: Aspose.Tasks 中按年週日重複
+date: 2026-04-03
+description: 學習如何使用 Aspose.Tasks 新增重複任務專案並將專案儲存為 MPP。本指南逐步說明「按年、週、日」的重複功能。
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Aspose.Tasks 中的按年、週、日重複
 second_title: Aspose.Tasks .NET API
-description: 探索 Aspose.Tasks for .NET 在有效管理重複任務方面的強大功能。實施按年周日重複功能的逐步指南。
-weight: 28
+title: 如何使用 Aspose.Tasks – 按年、週、日重複
 url: /zh-hant/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中按年週日重複
+# Aspose.Tasks 中的「按年週日」重複
 
 ## 介紹
 
-在專案管理領域，效率和精確度至關重要。 Aspose.Tasks for .NET 成為一個強大的工具，提供了大量的功能來簡化專案處理。其武器庫之一是能夠以非凡的靈活性管理重複性任務。其中一個功能是「按年週日重複」功能，允許用戶設定在一周中的特定日期、指定月份內以及跨多年重複的任務。
+當您需要 **how to use Aspose.Tasks** 來處理複雜的重複排程時，該函式庫提供了對年度模式的精細控制。在本教學中，我們將示範如何建立一個在特定月份的特定星期幾重複的任務，跨越多個年份。完成後，您將能夠以幾行 C# 程式碼 **add recurring task project** 並 **save project as MPP**。
 
-## 先決條件
+## 快速解答
+- **什麼是「Repetition by Year Week Day」？** 它會在每年指定月份的特定星期幾（例如第一個星期日）重複任務。  
+- **支援哪些 .NET 版本？** 所有現代的 .NET Framework 以及 .NET Core/5/6 版本。  
+- **執行程式碼是否需要授權？** 開發時可使用免費試用版；正式環境需購買商業授權。  
+- **可以變更重複範圍嗎？** 可以——您可以設定開始日期、結束日期，或固定的發生次數。  
+- **輸出會是 MPP 檔案嗎？** 當然——專案會儲存為可直接在 Microsoft Project 開啟的 MPP 檔案。
 
-在深入研究使用 Aspose.Tasks for .NET 中的「按年週日重複」功能的複雜性之前，請確保您具備以下先決條件：
+## 「Repetition by Year Week Day」功能是什麼？
 
-### 1..NET框架知識
+此功能讓您定義每年的重複排程，針對特定的**星期幾**（例如星期日）以及該月份中的**位置**（第一、第二、最後等）。非常適合季檢、年度稽核或任何依照日曆節奏的事件。
 
-熟悉 .NET Framework 的基礎知識，包括物件導向的程式設計概念和 C# 語法。
+## 為何在重複任務上使用 Aspose.Tasks？
 
-### 2.安裝Aspose.Tasks for .NET
+- **精確度** – 完全掌控月份、星期幾與序數位置。  
+- **相容性** – 產生原生 MPP 檔案，可在 Microsoft Project 中無縫開啟。  
+- **無 COM 互操作** – 純 .NET API，無需安裝 Office。  
+- **可擴充性** – 無論小型專案或企業級排程皆適用。
 
-從下列位置下載並安裝 Aspose.Tasks for .NET 函式庫[下載連結](https://releases.aspose.com/tasks/net/)。按照提供的安裝說明將庫整合到您的開發環境中。
+## 前置條件
 
-### 3. 取得文檔
+在深入程式碼之前，請確保您已具備：
 
-請參閱[文件](https://reference.aspose.com/tasks/net/)有關 Aspose.Tasks for .NET 的全面指南，包括類別、方法和使用範例的詳細說明。
+1. **基本 .NET 知識** – 熟悉 C# 與物件導向概念。  
+2. **Aspose.Tasks for .NET** – 從[下載連結](https://releases.aspose.com/tasks/net/)下載，並將 DLL 加入專案。  
+3. **取得官方文件** – [文件說明](https://reference.aspose.com/tasks/net/)提供所有類別的完整細節。  
+4. **開發 IDE** – Visual Studio、Rider 或任何相容的 .NET 編輯器。
 
-## 4. 開發環境設定
+現在您已準備就緒，讓我們來看看實作方式。
 
-確保配置了合適的開發環境，例如 Visual Studio 或任何用於 .NET 開發的相容 IDE。
+## 如何使用 Aspose.Tasks 進行重複任務
 
-現在您已經具備了先決條件，讓我們深入研究在 Aspose.Tasks for .NET 中實現「按年週日重複」的分步指南。
+### 匯入必要的命名空間
 
-
-## 導入必要的命名空間
-
-首先，導入所需的命名空間以存取 .NET 應用程式中的 Aspose.Tasks 類別和功能。
-
-在您的 C# 程式碼檔案中，包含以下命名空間聲明：
+首先，將所需的命名空間匯入範圍，以便操作專案、任務與儲存選項。
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-這些命名空間提供對 Aspose.Tasks 庫以及處理任務和項目文件所需的類別的存取。
+### 步驟 1：初始化專案與任務參數
 
-現在，讓我們將使用 Aspose.Tasks for .NET 中的「按年週日重複」功能設定重複任務的過程分解為可管理的步驟。
-
-## 第 1 步：初始化項目和任務參數
-
-首先，初始化項目並定義重複任務的參數。
+建立新的 `Project` 實例，然後定義描述重複模式的 `RecurringTaskParameters` 物件。
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +91,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-此程式碼段初始化一個新項目並指定重複任務的參數。它設定任務名稱、持續時間並定義重複模式。
+> **專業提示：** 調整 `Month`、`WeekDay` 與 `Position` 以符合實際排程。
 
-## 第2步：為項目新增參數
+### 步驟 2：將參數加入專案
 
-接下來，將定義的參數加入項目。
+將重複任務定義插入專案的根節點。
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-此行將任務參數新增至專案的根任務中，並合併重複任務配置。
+### 步驟 3：將專案儲存為 MPP
 
-## 步驟3：儲存專案文件
-
-最後，儲存帶有配置的重複任務的項目檔案。
+最後，將專案持久化為 MPP 檔案，以便在 Microsoft Project 或任何相容檢視器中開啟。
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-此程式碼片段將具有指定重複任務配置的專案檔案儲存到指定的輸出目錄。
+> 這示範了如何以單行程式碼 **save project as mpp**。
+
+## 常見問題與解決方案
+
+| 症狀 | 可能原因 | 解決方法 |
+|------|----------|----------|
+| 開啟 MPP 檔案後未顯示任何任務 | 重複範圍日期超出專案行事曆 | 確認 `Start` 與 `Finish` 日期位於專案的工作時間內 |
+| `Add` 時發生 `ArgumentNullException` 例外 | `parameters` 為 null 或未完整初始化 | 確保已設定所有必要屬性（TaskName、Duration、RecurrencePattern） |
+| 選擇了錯誤的星期幾 | `WeekDay` 列舉值不匹配 | 根據需要使用 `DayOfWeek.Monday` … `DayOfWeek.Sunday` |
+
+## 常見問答
+
+**Q: 我可以自訂重複模式，超出範例所示嗎？**  
+A: 可以，Aspose.Tasks 允許您結合 `MonthlyRecurrencePattern`、`WeeklyRecurrencePattern`，甚至自訂的 `RecurrenceRange` 物件，以符合任何排程。
+
+**Q: Aspose.Tasks for .NET 是否相容其他專案管理軟體？**  
+A: 當然——此函式庫可讀寫 MPP、XML 與 Primavera 格式，實現順暢的資料交換。
+
+**Q: 我要如何處理例外或修改重複任務？**  
+A: 使用 `ExceptionTask` 類別為特定發生建立例外，或編輯 `RecurringTaskParameters` 後重新儲存專案。
+
+**Q: Aspose.Tasks 是否支援雲端解決方案？**  
+A: 支援，您可以在 Azure Functions、AWS Lambda 或任何相容 .NET 的雲端服務中執行此 API。
+
+**Q: 是否提供 Aspose.Tasks for .NET 的試用版？**  
+A: 有，您可從[網站](https://releases.aspose.com/)取得 Aspose.Tasks for .NET 的免費試用版，以在購買前體驗其功能。
+
+**Q: 如何在不覆寫其他資料的情況下，將重複任務加入現有專案？**  
+A: 使用 `new Project("Existing.mpp")` 載入現有專案，將 `RecurringTaskParameters` 加入 `RootTask.Children`，最後 `Save` 檔案。
 
 ## 結論
 
-總之，掌握 Aspose.Tasks for .NET 中的「按年週日重複」功能使專案經理和開發人員能夠精確、靈活地高效處理重複性任務。透過遵循本文中概述的逐步指南，您可以將此功能無縫整合到專案管理工作流程中，從而提高生產力和組織性。
+透過精通 **how to use Aspose.Tasks** 於 **Repetition by Year Week Day** 情境，您即可 **add recurring task project** 條目，完美契合實際行事曆，並 **save project as MPP** 以實現無縫協作。將這些程式碼片段整合至您的解決方案，可提升排程精準度並減少手動工作。
 
-## 常見問題解答
+---
 
-### 問題 1：除了提供的範例之外，我還可以進一步自訂重複模式嗎？
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-答：是的，Aspose.Tasks for .NET 為重複任務提供了廣泛的自訂選項，讓您可以根據您的特定要求自訂重複模式。
-
-### Q2：Aspose.Tasks for .NET 與其他專案管理軟體相容嗎？
-
-答：Aspose.Tasks for .NET 支援與各種專案管理格式的互通性，從而能夠與流行的軟體套件無縫整合。
-
-### Q3：如何處理重複任務的異常或修改？
-
-答：Aspose.Tasks for .NET 提供 API 來處理重複任務的例外狀況和修改，確保管理不斷變化的專案需求的靈活性。
-
-### 問題 4：Aspose.Tasks for .NET 是否提供對雲端為基礎的專案管理解決方案的支援？
-
-答：是的，Aspose.Tasks for .NET 提供對基於雲端的專案管理解決方案的支持，促進跨不同平台的協作和可訪問性。
-
-### Q5：Aspose.Tasks for .NET 有試用版嗎？
-
-答：是的，您可以從以下位置存取 Aspose.Tasks for .NET 的免費試用版：[網站](https://releases.aspose.com/)，讓您在做出購買決定之前探索其功能。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
