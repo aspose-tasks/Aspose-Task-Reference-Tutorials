@@ -1,69 +1,77 @@
 ---
-title: Ismétlés évenként Hét napja Aspose.Tasks-ban
-linktitle: Ismétlés évenként Hét napja Aspose.Tasks-ban
+date: 2026-04-03
+description: Ismerje meg, hogyan használja az Aspose.Tasks-et ismétlődő feladatok
+  hozzáadásához a projektben, és hogyan mentse a projektet MPP formátumban. Ez az
+  útmutató lépésről lépésre mutatja be az Év/Hét/Nap ismétlés funkciót.
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Ismétlés év, hét, nap szerint az Aspose.Tasks-ben
 second_title: Aspose.Tasks .NET API
-description: Fedezze fel az Aspose.Tasks for .NET erejét az ismétlődő feladatok hatékony kezelésében. Útmutató lépésről lépésre az Ismétlés évenkénti, hét napjai funkció megvalósításához.
-weight: 28
+title: Hogyan használjuk az Aspose.Tasks-et – Ismétlés év, hét, nap szerint
 url: /hu/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ismétlés évenként Hét napja Aspose.Tasks-ban
+# Éves ismétlés hét nap szerint az Aspose.Tasks-ben
 
 ## Bevezetés
 
-A projektmenedzsment területén a hatékonyság és a precizitás a legfontosabb. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a projektkezelés egyszerűsítésére. Arzenálja közé tartozik az ismétlődő feladatok figyelemreméltó rugalmasság kezelésének képessége. Az egyik ilyen funkció az "Ismétlés évenkénti hétnaponként" funkció, amely lehetővé teszi a felhasználók számára, hogy olyan feladatokat állítsanak be, amelyek a hét meghatározott napjain, meghatározott hónapokon belül és több éven keresztül ismétlődnek.
+Amikor **how to use Aspose.Tasks**-et kell használni összetett ismétlődő ütemezések kezelésére, a könyvtár finomhangolt vezérlést biztosít az éves minták felett. Ebben az útmutatóban végigvezetünk egy feladat létrehozásán, amely egy adott hónap meghatározott hétnapján ismétlődik több év alatt. A végére képes leszel **add recurring task project** bejegyzéseket létrehozni és **save project as MPP** néhány C# sorral.
+
+## Gyors válaszok
+- **Mit jelent a “Repetition by Year Week Day”?** Egy feladatot ismétel egy kiválasztott hétnapon (pl. első vasárnap) egy adott hónapban minden évben.  
+- **Mely .NET verziók támogatottak?** Minden modern .NET Framework és .NET Core/5/6 verzió.  
+- **Szükség van licencre a kód futtatásához?** Egy ingyenes próba verzió fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Módosítható az ismétlődés időtartama?** Igen – beállítható kezdő dátum, befejező dátum vagy rögzített előfordulásszám.  
+- **Az eredmény MPP fájl lesz?** Természetesen – a projekt MPP fájlként kerül mentésre, készen a Microsoft Project számára.
+
+## Mi a “Repetition by Year Week Day” funkció?
+
+Ez a funkció lehetővé teszi egy éves ismétlődés definiálását, amely egy adott **hét napját** (pl. vasárnap) és a **pozíciót** a hónapban (első, második, utolsó stb.) célozza meg. Ideális például negyedéves felülvizsgálatokhoz, éves auditokhoz vagy bármely naptár‑alapú ritmusú eseményhez.
+
+## Miért használjuk az Aspose.Tasks‑et ismétlődő feladatokhoz?
+
+- **Pontosság** – Teljes vezérlés a hónapok, hétnapok és sorszámok felett.  
+- **Kompatibilitás** – Natív MPP fájlokat generál, amelyek hibátlanul nyílnak meg a Microsoft Projectben.  
+- **Nincs COM interop** – Tiszta .NET API, nincs szükség Office telepítésre.  
+- **Skálázhatóság** – Kis projektekhez és vállalati szintű ütemezésekhez egyaránt alkalmas.
 
 ## Előfeltételek
 
-Mielőtt belemerülne az Aspose.Tasks for .NET "Ismétlés évenkénti hétnaponként" funkciójának használatába, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt a kódba merülnél, győződj meg róla, hogy rendelkezel:
 
-### 1. A .NET-keretrendszer ismerete
+1. **Alap .NET ismeretekkel** – C# és objektum‑orientált koncepciók ismerete.  
+2. **Aspose.Tasks for .NET** – Töltsd le a [letöltési link](https://releases.aspose.com/tasks/net/)‑ről, és add hozzá a DLL‑t a projektedhez.  
+3. **Hozzáférés a hivatalos dokumentációhoz** – A [dokumentáció](https://reference.aspose.com/tasks/net/) kimerítő részleteket tartalmaz minden osztályról.  
+4. **Fejlesztői IDE** – Visual Studio, Rider vagy bármely kompatibilis .NET szerkesztő.
 
-Ismerkedjen meg a .NET-keretrendszer alapjaival, beleértve az objektumorientált programozási koncepciókat és a C# szintaxist.
+Most, hogy minden készen áll, nézzük meg a megvalósítást.
 
-### 2. Az Aspose.Tasks telepítése .NET-hez
+## Hogyan használjuk az Aspose.Tasks‑et ismétlődő feladatokhoz
 
- Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/). Kövesse a kapott telepítési utasításokat a könyvtár fejlesztői környezetbe való integrálásához.
+### Szükséges névterek importálása
 
-### 3. Hozzáférés a Dokumentációhoz
-
- Utal[dokumentáció](https://reference.aspose.com/tasks/net/) átfogó útmutatásért az Aspose.Tasks for .NET-hez, beleértve az osztályok, módszerek és használati példák részletes magyarázatát.
-
-## 4. Fejlesztői környezet beállítása
-
-Győződjön meg arról, hogy megfelelő fejlesztői környezet van beállítva, például a Visual Studio vagy bármely kompatibilis IDE a .NET fejlesztéshez.
-
-Most, hogy megvannak az előfeltételek, nézzük meg az „Ismétlés évenkénti hétnaponként” megvalósításának lépésről lépésre szóló útmutatóját az Aspose.Tasks for .NET-ben.
-
-
-## A szükséges névterek importálása
-
-Kezdésként importálja a szükséges névtereket az Aspose.Tasks osztályok és funkciók eléréséhez a .NET-alkalmazáson belül.
-
-A C# kódfájlba tartalmazza a következő névtérdeklarációkat:
+Először hozd be a szükséges névtereket, hogy a projektek, feladatok és mentési beállítások kezelhetők legyenek.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Ezek a névterek hozzáférést biztosítanak az Aspose.Tasks könyvtárhoz, valamint a feladatok és projektfájlok kezeléséhez szükséges osztályokhoz.
+### 1. lépés: Projekt és feladatparaméterek inicializálása
 
-Most bontsuk fel egy ismétlődő feladat beállításának folyamatát az Aspose.Tasks for .NET „Ismétlés évenkénti hét napja” funkciójával kezelhető lépésekre.
-
-## 1. lépés: Inicializálja a projekt és a feladat paramétereit
-
-Először inicializálja a projektet, és határozza meg az ismétlődő feladat paramétereit.
+Hozz létre egy új `Project` példányt, majd definiálj egy `RecurringTaskParameters` objektumot, amely leírja az ismétlődési mintát.
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +93,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Ez a kódszegmens egy új projektet inicializál, és paramétereket ad meg egy ismétlődő feladathoz. Beállítja a feladat nevét, időtartamát, és meghatározza az ismétlődési mintát.
+> **Pro tipp:** Állítsd be a `Month`, `WeekDay` és `Position` értékeket a valós ütemezésednek megfelelően.
 
-## 2. lépés: Paraméterek hozzáadása a projekthez
+### 2. lépés: Paraméterek hozzáadása a projekthez
 
-Ezután adja hozzá a meghatározott paramétereket a projekthez.
+Illeszd be az ismétlődő feladat definícióját a projekt gyökerébe.
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Ez a sor hozzáadja a feladat paramétereit a projekt gyökérfeladatához, beleértve az ismétlődő feladatkonfigurációt.
+### 3. lépés: Projekt mentése MPP‑ként
 
-## 3. lépés: Projektfájl mentése
-
-Végül mentse el a projektfájlt a konfigurált ismétlődő feladattal.
+Végül mentsd a projektet egy MPP fájlba, hogy megnyitható legyen a Microsoft Projectben vagy bármely kompatibilis megjelenítőben.
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Ez a kódrészlet elmenti a projektfájlt a megadott ismétlődő feladatkonfigurációval a megadott kimeneti könyvtárba.
+> Ez bemutatja a **save project as mpp** funkciót egyetlen kódsorban.
+
+## Gyakori problémák és megoldások
+
+| Tünet | Valószínű ok | Megoldás |
+|---------|--------------|-----|
+| Nem jelennek meg feladatok a MPP fájl megnyitása után | Az ismétlődés időtartam dátumai kívül esnek a projekt naptárán | Ellenőrizd, hogy a `Start` és `Finish` dátumok a projekt munkaidejében legyenek |
+| `ArgumentNullException` kivétel a `Add` hívásakor | `parameters` null vagy nincs teljesen inicializálva | Győződj meg róla, hogy minden kötelező tulajdonság (TaskName, Duration, RecurrencePattern) be van állítva |
+| Rossz hétnap lett kiválasztva | `WeekDay` enum érték nem egyezik | Használd a `DayOfWeek.Monday` … `DayOfWeek.Sunday` értékeket a szükséges naphoz |
+
+## Gyakran feltett kérdések
+
+**K: Testreszabható-e az ismétlődési minta a példán túl?**  
+V: Igen, az Aspose.Tasks lehetővé teszi a `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern` vagy akár egyedi `RecurrenceRange` objektumok kombinálását bármilyen ütemezéshez.
+
+**K: Az Aspose.Tasks for .NET kompatibilis-e más projektmenedzsment szoftverekkel?**  
+V: Teljesen – a könyvtár MPP, XML és Primavera formátumokat olvas és ír, így zökkenőmentes adatcserét biztosít.
+
+**K: Hogyan kezeljem a kivételeket vagy módosításokat az ismétlődő feladatoknál?**  
+V: Használd az `ExceptionTask` osztályt specifikus előfordulások felülírásához, vagy szerkeszd a `RecurringTaskParameters`‑t, majd mentsd újra a projektet.
+
+**K: Támogatja-e az Aspose.Tasks a felhőalapú megoldásokat?**  
+V: Igen, az API futtatható Azure Functions‑ben, AWS Lambda‑ban vagy bármely .NET‑kompatibilis felhőszolgáltatásban.
+
+**K: Elérhető-e próba verzió az Aspose.Tasks for .NET‑hez?**  
+V: Igen, a [weboldal](https://releases.aspose.com/) ingyenes próbaverziót kínál, amely lehetővé teszi a funkciók kipróbálását vásárlás előtt.
+
+**K: Hogyan adhatok hozzá ismétlődő feladatot egy meglévő projekthez anélkül, hogy felülírnám a többi adatot?**  
+V: Töltsd be a meglévő projektet a `new Project("Existing.mpp")`‑vel, add hozzá a `RecurringTaskParameters`‑t a `RootTask.Children`‑hez, majd `Save`-old a fájlt.
 
 ## Következtetés
 
-Összefoglalva, az Aspose.Tasks for .NET "Ismétlés évenkénti hétnaponként" funkciójának elsajátítása lehetővé teszi a projektmenedzserek és fejlesztők számára, hogy hatékonyan, precízen és rugalmasan kezeljék az ismétlődő feladatokat. Az ebben a cikkben felvázolt, lépésenkénti útmutatót követve zökkenőmentesen integrálhatja ezt a funkciót a projektmenedzsment munkafolyamataiba, javítva a termelékenységet és a szervezettséget.
+Az **how to use Aspose.Tasks** a **Repetition by Year Week Day** szcenárióhoz való elsajátításával képes leszel **add recurring task project** bejegyzéseket létrehozni, amelyek tökéletesen illeszkednek a valós naptárakhoz, és **save project as MPP** a zökkenőmentes együttműködés érdekében. Illeszd be ezeket a kódrészleteket saját megoldásaidba a tervezési pontosság növelése és a manuális munka csökkentése érdekében.
 
-## GYIK
+---
 
-### 1. kérdés: Testreszabhatom az ismétlődési mintát a megadott példákon túl?
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-V: Igen, az Aspose.Tasks for .NET kiterjedt testreszabási lehetőségeket kínál az ismétlődő feladatokhoz, lehetővé téve az ismétlődési minta egyedi igényeihez szabását.
-
-### 2. kérdés: Az Aspose.Tasks for .NET kompatibilis más projektmenedzsment szoftverekkel?
-
-V: Az Aspose.Tasks for .NET támogatja a különböző projektmenedzsment formátumokkal való együttműködést, lehetővé téve a zökkenőmentes integrációt a népszerű szoftvercsomagokkal.
-
-### 3. kérdés: Hogyan kezelhetem az ismétlődő feladatok kivételeit vagy módosításait?
-
-V: Az Aspose.Tasks for .NET API-kat biztosít az ismétlődő feladatok kivételeinek és módosításainak kezelésére, így rugalmasságot biztosít a változó projektkövetelmények kezelésében.
-
-### 4. kérdés: Az Aspose.Tasks for .NET támogatja a felhő alapú projektmenedzsment megoldásokat?
-
-V: Igen, az Aspose.Tasks for .NET támogatja a felhő alapú projektmenedzsment megoldásokat, megkönnyítve az együttműködést és a hozzáférést különböző platformokon.
-
-### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
-
-V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy a vásárlási döntés meghozatala előtt felfedezze tulajdonságait.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

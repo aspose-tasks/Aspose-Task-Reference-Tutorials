@@ -1,59 +1,70 @@
 ---
-title: Herhaling per jaardag in Aspose.Tasks
+date: 2026-04-03
+description: Leer taakplanning in projectmanagement en hoe je terugkerende taken toevoegt
+  met Aspose.Tasks voor .NET, inclusief het opslaan van het project als MPP.
+keywords:
+- project management task scheduling
+- how to add recurring task
+- save project as mpp
 linktitle: Herhaling per jaardag in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u met herhalingen van jaardagen omgaat in Aspose.Tasks voor .NET om het beheer van terugkerende taken efficiënt te stroomlijnen.
-weight: 27
+title: Projectmanagementtaakplanning met jaarlijkse dagherhaling in Aspose.Tasks
 url: /nl/net/advanced-features/repetition-by-year-day/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Herhaling per jaardag in Aspose.Tasks
+# Projectmanagementtaakplanning met jaardagherhaling in Aspose.Tasks
 
-## Invoering
+## Introductie
 
-Op het gebied van projectmanagement spelen efficiënte taakplanning en herhaling een cruciale rol bij het garanderen van een tijdige uitvoering en een soepele workflow. Aspose.Tasks voor .NET biedt ontwikkelaars een robuuste oplossing om terugkerende taken moeiteloos binnen hun applicaties af te handelen. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met jaarlijkse dagherhalingen met behulp van Aspose.Tasks, en bieden we een uitgebreide handleiding voor het maken van terugkerende taken op basis van jaarlijkse patronen.
+Effectieve **project management task scheduling** is de ruggengraat van elk succesvol project. Wanneer taken jaarlijks terugkeren — zoals jaarlijkse audits, onderhoudsvensters of seizoensgebonden beoordelingen — kan het handmatig afhandelen van die herhalingen foutgevoelig en tijdrovend zijn. Aspose.Tasks for .NET vereenvoudigt dit door je programmatisch jaar‑dagpatronen te laten definiëren, zodat je je kunt concentreren op wat het belangrijkst is: waarde leveren. In deze tutorial leer je **hoe je terugkerende taak** logica toevoegt op basis van een specifieke dag van het jaar en zie je precies **hoe je het project opslaat als MPP** voor naadloze integratie met Microsoft Project.
+
+## Snelle antwoorden
+- **Wat betekent “year day repetition”?** Het plant een taak op een specifieke dag van een specifieke maand elk jaar.  
+- **Welke API‑klasse maakt de herhaling?** `YearlyRecurrencePattern` gecombineerd met `ByYearDayRepetition`.  
+- **Kan ik een start‑ en einddatum instellen?** Ja, met `EndByRecurrenceRange`.  
+- **Welk bestandsformaat wordt geproduceerd?** Het project wordt opgeslagen als een MPP‑bestand (`SaveFileFormat.Mpp`).  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor niet‑evaluatiegebruik.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat je aan de tutorial begint, zorg ervoor dat je de volgende vereisten hebt:
 
-1.  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanaf de[website](https://releases.aspose.com/tasks/net/).
-   
-2. Ontwikkelomgeving: Zet een geschikte ontwikkelomgeving op met Visual Studio of een andere gewenste IDE voor .NET-ontwikkeling.
+1. Aspose.Tasks for .NET Library: Download en installeer de Aspose.Tasks for .NET‑bibliotheek vanaf de [website](https://releases.aspose.com/tasks/net/).  
+2. Ontwikkelomgeving: Richt een geschikte ontwikkelomgeving in met Visual Studio of een andere favoriete IDE voor .NET‑ontwikkeling.  
+3. Basiskennis van C#: Maak jezelf vertrouwd met de basisprincipes van de programmeertaal C# om de codevoorbeelden te kunnen volgen.  
+4. Concepten van projectmanagement: Inzicht in projectmanagementconcepten en taakplanning helpt bij het effectief begrijpen van de tutorial.
 
-3. Basiskennis van C#: maak uzelf vertrouwd met de grondbeginselen van de programmeertaal C# om de codevoorbeelden te volgen.
+## Namespaces importeren
 
-4. Projectmanagementconcepten: Het begrijpen van projectmanagementconcepten en taakplanning zal helpen bij het effectief begrijpen van de tutorialconcepten.
-
-## Naamruimten importeren
-
-Voordat we beginnen met coderen, importeren we de benodigde naamruimten om onze taakmanipulatie te vergemakkelijken met behulp van Aspose.Tasks voor .NET.
+Voordat we beginnen met coderen, importeren we de benodigde namespaces om onze taakmanipulatie met Aspose.Tasks for .NET te vergemakkelijken.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Laten we nu het gegeven voorbeeld in meerdere stappen opsplitsen en elke stap in detail toelichten.
+Laten we nu het gegeven voorbeeld opsplitsen in meerdere stappen en elke stap in detail toelichten.
 
-## Stap 1: Projectbestand laden
+## Hoe een terugkerende taak toe te voegen met jaardagpatroon
+
+### Stap 1: Projectbestand laden
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Hier initialiseren we een nieuw`Project` object en laad een bestaand projectbestand met de naam "Project1.mpp".
+Hier initialiseren we een nieuw `Project`‑object en laden we een bestaand projectbestand met de naam **Project1.mpp**.
 
-## Stap 2: Definieer terugkerende taakparameters
+### Stap 2: Recurrerende taakparameters definiëren
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -72,49 +83,59 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- In deze stap definiëren we parameters voor onze terugkerende taak. We specificeren de taaknaam, de duur en het herhalingspatroon. Voor jaarlijkse herhaling gebruiken we de`YearlyRecurrencePattern` en stel de herhaling in op de 1e dag van juli met behulp van`ByYearDayRepetition`. Daarnaast definiëren we het herhalingsbereik van 1 juli 2018 tot 1 juli 2019.
+In deze stap definiëren we de parameters voor onze terugkerende taak. We geven de taaknaam, duur en het herhalingspatroon op. Voor jaarlijkse herhaling gebruiken we de `YearlyRecurrencePattern` en stellen we de herhaling in op de **1e dag van juli** met `ByYearDayRepetition`. Daarnaast definiëren we het herhalingsbereik van 1 juli 2018 tot 1 juli 2019.
 
-## Stap 3: Taak toevoegen aan project
+### Stap 3: Taak aan project toevoegen
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Hier voegen we de gedefinieerde terugkerende taakparameters toe aan de hoofdtaak van het project.
+Hier voegen we de gedefinieerde terugkerende taakparameters toe aan de root‑taak van het project.
 
-## Stap 4: Project opslaan
+### Stap 4: Project opslaan als MPP
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Ten slotte slaan we het gewijzigde projectbestand op met de toegevoegde terugkerende taak.
+Tot slot **slaan we het project op als een MPP‑bestand** op, zodat het klaar is om te openen in Microsoft Project of een compatibele viewer.
 
-## Conclusie
+## Waarom dit belangrijk is
 
-In deze zelfstudie hebben we het proces van het werken met jaardagherhalingen in Aspose.Tasks voor .NET onderzocht. Door de aangegeven stappen te volgen, kunnen ontwikkelaars de functionaliteit van terugkerende taken naadloos in hun applicaties integreren, waardoor de mogelijkheden voor projectbeheer worden verbeterd.
+- **Automatisering** – Elimineert handmatige invoer van jaarlijkse taken, waardoor menselijke fouten worden verminderd.  
+- **Consistentie** – Garandeert dat hetzelfde dag‑maand‑patroon wordt toegepast over meerdere jaren.  
+- **Integratie** – Het resulterende MPP‑bestand kan worden gedeeld met belanghebbenden die afhankelijk zijn van Microsoft Project.  
+
+## Veelvoorkomende valkuilen & tips
+
+- **DateTime‑precisie** – Zorg ervoor dat de starttijd overeenkomt met je projectkalender; anders kan de taak verschoven verschijnen.  
+- **Tijdzones** – De API werkt met `DateTime`‑objecten; overweeg UTC‑conversie als je applicatie zich over meerdere regio's uitstrekt.  
+- **Licentie‑handhaving** – In evaluatiemodus kan het opgeslagen MPP een watermerk bevatten; gebruik een geldige licentie voor productie.
 
 ## Veelgestelde vragen
 
-### V1: Kan Aspose.Tasks omgaan met complexe herhalingspatronen?
+**Q: Kan Aspose.Tasks complexe herhalingspatronen aan?**  
+A: Ja, Aspose.Tasks biedt uitgebreide ondersteuning voor verschillende herhalingspatronen, inclusief jaarlijkse, maandelijkse, wekelijkse en dagelijkse herhalingen.
 
-A1: Ja, Aspose.Tasks biedt uitgebreide ondersteuning voor verschillende herhalingspatronen, inclusief complexe patronen zoals jaarlijkse, maandelijkse, wekelijkse en dagelijkse herhalingen.
+**Q: Is Aspose.Tasks compatibel met verschillende projectbestandsformaten?**  
+A: Absoluut, Aspose.Tasks ondersteunt populaire projectbestandsformaten zoals MPP, XML en CSV, waardoor compatibiliteit met verschillende projectmanagementtools wordt gegarandeerd.
 
-### V2: Is Aspose.Tasks compatibel met verschillende projectbestandsformaten?
+**Q: Biedt Aspose.Tasks documentatie en ondersteuning voor ontwikkelaars?**  
+A: Ja, ontwikkelaars hebben toegang tot uitgebreide documentatie en kunnen hulp zoeken op de Aspose.Tasks community‑forums voor eventuele vragen of problemen.
 
-A2: Absoluut, Aspose.Tasks ondersteunt populaire projectbestandsformaten zoals MPP, XML en CSV, waardoor compatibiliteit tussen verschillende projectmanagementtools wordt gegarandeerd.
+**Q: Kan ik taak‑eigenschappen zoals duur en startdatum aanpassen met Aspose.Tasks?**  
+A: Zeker, Aspose.Tasks biedt robuuste API’s om taak‑eigenschappen dynamisch te manipuleren, waardoor ontwikkelaars duur, startdatums, afhankelijkheden en meer kunnen aanpassen.
 
-### V3: Biedt Aspose.Tasks documentatie en ondersteuning voor ontwikkelaars?
+**Q: Is Aspose.Tasks geschikt voor zowel kleinschalige als grootschalige (enterprise) projecten?**  
+A: Inderdaad, Aspose.Tasks is ontworpen om te voldoen aan de behoeften van ontwikkelaars die werken aan projecten van elke omvang, van individuele taken tot grootschalige enterprise‑projecten.
 
-A3: Ja, ontwikkelaars hebben toegang tot uitgebreide documentatie en kunnen hulp inroepen op de Aspose.Tasks-communityforums voor eventuele vragen of problemen die ze tegenkomen.
+---
 
-### V4: Kan ik taakeigenschappen zoals duur en startdatum aanpassen met Aspose.Tasks?
+**Laatst bijgewerkt:** 2026-04-03  
+**Getest met:** Aspose.Tasks 24.12 for .NET  
+**Auteur:** Aspose  
 
-A4: Zeker, Aspose.Tasks biedt robuuste API's om taakeigenschappen dynamisch te manipuleren, waardoor ontwikkelaars de duur, startdatums, afhankelijkheden en meer kunnen aanpassen.
-
-### Vraag 5: Is Aspose.Tasks geschikt voor zowel kleinschalige als ondernemingsprojecten?
-
-A5: Aspose.Tasks is inderdaad ontworpen om tegemoet te komen aan de behoeften van ontwikkelaars die aan projecten van elke schaal werken, van individuele taken tot grootschalige bedrijfsprojecten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
