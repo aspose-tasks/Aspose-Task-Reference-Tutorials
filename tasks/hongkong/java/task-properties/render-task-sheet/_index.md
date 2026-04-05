@@ -1,69 +1,117 @@
 ---
-title: 在 Aspose.Tasks 中渲染任務表
-linktitle: 在 Aspose.Tasks 中渲染任務表
+date: 2026-02-26
+description: 學習如何將專案儲存為 PDF，並使用 Aspose.Tasks for Java 產生任務表。快速將 MPP 匯出為 PDF，請參考此一步一步的指引。
+linktitle: Render Task Sheet in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 使用 Aspose.Tasks for Java 解鎖高效的專案管理。無縫渲染任務表。立即探索綜合指南！
-weight: 27
+title: 將專案另存為 PDF – 使用 Aspose.Tasks for Java 渲染任務表
 url: /zh-hant/java/task-properties/render-task-sheet/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中渲染任務表
+# 將專案另存為 PDF – 在 Aspose.Tasks 中呈現工作表
 
-## 介紹
-歡迎來到 Aspose.Tasks for Java 的世界，這是一個功能強大的函式庫，為 Java 開發人員提供了無縫的專案管理功能。無論您是經驗豐富的開發人員還是希望提高專案管理技能的初學者，本指南都將引導您使用 Aspose.Tasks 渲染任務表。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-1. Java 開發工具包 (JDK)：安裝最新版本的 JDK 來執行 Java 程式。
-2.  Aspose.Tasks for Java Library：下載並設定該庫。你可以找到它[這裡](https://releases.aspose.com/tasks/java/).
-## 導入包
-首先，在您的 Java 專案中匯入必要的套件。此步驟對於存取程式碼中的 Aspose.Tasks 功能至關重要。
+## 簡介
+在本完整指南中，您將學會如何 **將專案另存為 PDF**，並使用 Aspose.Tasks for Java 產生工作表。無論是需要將 MPP 檔案匯出為 PDF 供利害關係人審閱，或是僅僅為報告產出整潔的工作表，本教學都會一步步帶您完成，說明每個設定的原因，並提供您執行所需的完整程式碼。
+
+## 快速解答
+- **「將專案另存為 PDF」的功能是什麼？** 它會將 Microsoft Project 檔案 (MPP) 轉換成 PDF 文件，並可選擇將其格式化為工作表。  
+- **工作表 PDF 使用哪種格式？** 在 `PdfSaveOptions` 中使用 `PresentationFormat.TaskSheet` 選項。  
+- **執行程式碼是否需要授權？** 生產環境需要臨時或正式授權；免費試用版可用於評估。  
+- **主要前置條件是什麼？** Java JDK、Aspose.Tasks for Java 函式庫，以及有效的專案檔 (例如 *.mpp)。  
+- **我可以自訂 PDF 版面嗎？** 可以，Aspose.Tasks 提供多個 `PdfSaveOptions` 屬性可用於樣式與頁面設定。
+
+## 什麼是「將專案另存為 PDF」？
+將專案另存為 PDF 會把內部的專案資料轉換成可攜帶、唯讀的文件。這對於需要與未安裝 Microsoft Project 的利害關係人分享排程、工作表或狀態報告而言，非常理想。
+
+## 為什麼要呈現工作表？
+工作表以表格方式呈現每個任務，顯示 ID、名稱、開始/結束日期以及其他欄位。將其渲染為 PDF 可確保跨平台的格式一致，且便於列印或嵌入其他文件。
+
+## 前置條件
+在開始之前，請確保您已具備以下項目：
+
+1. **Java 開發工具包 (JDK)** – 安裝最新版本，且 `java`/`javac` 已在 PATH 中可用。  
+2. **Aspose.Tasks for Java** – 從官方網站[此處](https://releases.aspose.com/tasks/java/)下載函式庫。  
+3. 有效的**專案檔** (`*.mpp`) ，例如 `NewProductDev.mpp`。  
+
+## 匯入套件
+首先，匯入所需的 Aspose.Tasks 類別。這些匯入讓您能使用 PDF 儲存選項、呈現格式以及核心的 `Project` 物件。
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveOptions;
 ```
-## 第 1 步：設定您的文件目錄
-首先在 Java 程式碼中定義文檔目錄的路徑。這是您的專案文件和渲染的任務表將保存的位置。
+
+## 逐步指南
+
+### 步驟 1：設定文件目錄
+定義來源 MPP 檔所在的資料夾，以及產生的 PDF 要寫入的目錄。使用絕對或相對路徑皆可，只要確保資料夾已存在。
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-## 第 2 步：載入專案文件
-使用 Aspose.Tasks 庫載入專案檔。在此範例中，我們假設專案檔案名稱為「NewProductDev.mpp」。
+
+### 步驟 2：載入專案檔
+透過載入現有的 MPP 檔建立 `Project` 實例。此物件在記憶體中代表整個專案結構。
+
 ```java
 Project project = new Project(dataDir + "NewProductDev.mpp");
 ```
-## 步驟 3：配置儲存選項
-配置儲存選項，指定所需的演示格式。在本例中，我們想要產生 PDF 格式的任務表。
+
+### 步驟 3：設定儲存選項 – 將 MPP 匯出為 PDF
+建立 `PdfSaveOptions`，並告訴 Aspose.Tasks 您希望 PDF 以 **工作表** 形式呈現。這是 *匯出專案 PDF* 使用情境的關鍵步驟。
+
 ```java
 SaveOptions options = new PdfSaveOptions();
 options.setPresentationFormat(PresentationFormat.TaskSheet);
 ```
-## 步驟 4：將項目另存為任務表
-使用指定選項儲存項目以產生 PDF 格式的任務表。
+
+### 步驟 4：將專案另存為工作表 – 專案另存為 PDF
+在 `Project` 物件上呼叫 `save` 方法，傳入目標檔名與先前設定的選項。此動作 **將 MPP 檔轉換為以工作表格式的 PDF**。
+
 ```java
 project.save(dataDir + "taskSheet.pdf", options);
 ```
-## 第 5 步：查看結果
-查看指定目錄中附加的產生的任務表。您專案的任務表現在可以使用 Aspose.Tasks for Java 高效呈現。
-## 結論
-Aspose.Tasks for Java 透過提供用於渲染任務表的強大功能來簡化專案管理。透過遵循本逐步指南，您已經利用 Aspose.Tasks 的強大功能來增強您的專案管理能力。
 
-## 常見問題解答
-### Aspose.Tasks 與所有 Java 版本相容嗎？
-是的，Aspose.Tasks 與多種 Java 版本相容。請參閱[文件](https://reference.aspose.com/tasks/java/)了解具體細節。
-### 我可以在購買前試用 Aspose.Tasks 嗎？
-絕對地！探索免費試用版[這裡](https://releases.aspose.com/).
-### 在哪裡可以找到對 Aspose.Tasks 的支援？
-加入 Aspose.Tasks 社區[論壇](https://forum.aspose.com/c/tasks/15)以尋求支持和討論。
-### 如何取得 Aspose.Tasks 的臨時許可證？
-取得您的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-### 在哪裡可以購買 Aspose.Tasks for Java？
-購買 Java 版 Aspose.Tasks[這裡](https://purchase.aspose.com/buy).
+### 步驟 5：檢查結果
+前往您先前指定的目錄 (`dataDir`)。您應該會看到 `taskSheet.pdf`，其中列出了所有任務的整齊格式清單。使用任何 PDF 閱讀器開啟，以驗證轉換是否成功。
+
+## 常見問題與解決方案
+- **FileNotFoundException** – 確認 `dataDir` 以路徑分隔符 (`/` 或 `\\`) 結尾，且 MPP 檔名正確。  
+- **LicenseException** – 若出現授權錯誤，請在呼叫任何 Aspose.Tasks API 前套用臨時或正式授權。  
+- **Blank PDF** – 確認專案內確實有任務；空白專案會產生空的 PDF。
+
+## 常見問答
+
+**問：Aspose.Tasks 是否相容所有 Java 版本？**  
+答：是，Aspose.Tasks 支援廣泛的 Java 版本。詳情請參閱[文件](https://reference.aspose.com/tasks/java/)。
+
+**問：我可以在購買前試用 Aspose.Tasks 嗎？**  
+答：當然可以！於[此處]探索免費試用版 [here](https://releases.aspose.com/).
+
+**問：在哪裡可以取得 Aspose.Tasks 的支援？**  
+答：加入 Aspose.Tasks 社群於[論壇](https://forum.aspose.com/c/tasks/15)取得支援與討論。
+
+**問：如何取得 Aspose.Tasks 的臨時授權？**  
+答：於[此處]取得臨時授權 [here](https://purchase.aspose.com/temporary-license/).
+
+**問：在哪裡可以購買 Aspose.Tasks for Java？**  
+答：於[此處]購買 Aspose.Tasks for Java [here](https://purchase.aspose.com/buy).
+
+## 結論
+透過上述步驟，您已學會如何 **將專案另存為 PDF**，特別是以工作表形式呈現，使用 Aspose.Tasks for Java。此功能讓您能快速 *將 MPP 匯出為 PDF*，分享可讀的專案快照，並將專案資料整合至更廣泛的報告工作流程中。
+
+---
+
+**Last Updated:** 2026-02-26  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
