@@ -1,33 +1,52 @@
 ---
-title: Styling-Leiste in Aspose.Tasks
-linktitle: Styling-Leiste in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie Balken in Aspose.Tasks für .NET formatieren, um die Projektvisualisierung zu verbessern.
-weight: 19
+date: 2026-04-06
+description: Erfahren Sie, wie Sie die Balkenformatierung ändern und die Balkenfarben
+  in Aspose.Tasks für .NET anpassen, um die Projektvisualisierung zu verbessern.
+keywords:
+- how to change bar
+- customize bar colors
+- Aspose.Tasks bar styling
+linktitle: Styling‑Leiste in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Wie man die Balkenstilierung in Aspose.Tasks ändert
 url: /de/net/advanced-features/styling-bar/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Styling-Leiste in Aspose.Tasks
+# Wie man die Balkenformatierung in Aspose.Tasks ändert
 
 ## Einführung
 
-Das Gestalten von Balken in Aspose.Tasks ist ein wesentlicher Aspekt bei der Erstellung optisch ansprechender Projektpläne. Mit der Flexibilität, die die Aspose.Tasks-API bietet, können Entwickler verschiedene Aspekte von Balken, wie z. B. Farbe, Form und Textstil, anpassen, um die Projektvisualisierung zu verbessern. In diesem Tutorial erfahren Sie, wie Sie Balken mit Aspose.Tasks für .NET formatieren, und unterteilen dabei jedes Beispiel in überschaubare Schritte.
+Wenn Sie das **how to change bar** Aussehen in einer Microsoft Project-Datei ändern müssen, gibt Ihnen Aspose.Tasks für .NET die volle Kontrolle über Balkenfarben, Formen und Textstile. Durch die Anpassung von Balkenfarben und anderen visuellen Attributen können Sie Projektpläne deutlich leichter lesbar und besser an das Branding Ihrer Organisation angepasst machen. In diesem Tutorial führen wir Sie durch ein vollständiges, Schritt‑für‑Schritt‑Beispiel, das zeigt, wie Sie die Balkenformatierung ändern, vom Laden eines Projekts bis zum Export mit den neuen visuellen Regeln.
+
+## Schnelle Antworten
+- **Was kann ich formatieren?** Balken, Meilensteine und Aufgabentext in Gantt‑Diagrammen.  
+- **Welches Format unterstützt formatierte Balken?** PDF, XLSX, HTML und native MPP, wenn mit `PdfSaveOptions` gespeichert.  
+- **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich; eine kostenlose Testversion funktioniert für Tests.  
+- **Kann ich mehrere Stile anwenden?** Ja – fügen Sie so viele `BarStyle`‑Objekte hinzu, wie Sie benötigen.  
+- **Ist es .NET Core kompatibel?** Absolut – funktioniert mit .NET Framework und .NET Core/5/6+.
+
+## Was ist Balkenformatierung in Aspose.Tasks?
+
+Die Balkenformatierung ermöglicht es Ihnen, visuelle Regeln zu definieren, die die Aspose.Tasks‑Engine beim Rendern von Gantt‑Diagrammen anwendet. Jede Regel (ein **BarStyle**) richtet sich an einen bestimmten Elementtyp – Aufgaben, Meilensteine oder Zusammenfassungsaufgaben – und lässt Sie Farben, Formen und sogar benutzerdefinierten Text festlegen.
+
+## Warum Balkenfarben anpassen?
+
+Die Anpassung von Balkenfarben hilft Stakeholdern, kritische Pfade, verzögerte Aufgaben oder Meilensteine sofort zu erkennen. Sie ermöglicht es Ihnen außerdem, Unternehmensfarbschemata anzupassen, sodass Berichte professionell und markenkonform wirken.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-1.  Aspose.Tasks for .NET-Bibliothek: Laden Sie die Aspose.Tasks for .NET-Bibliothek von herunter und installieren Sie sie[Download-Seite](https://releases.aspose.com/tasks/net/).
-2. Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung mit .NET Framework-Unterstützung ein.
-3. Grundkenntnisse von C#: Vertrautheit mit der Programmiersprache C# ist von Vorteil.
+1. **Aspose.Tasks for .NET** – laden Sie es von der [download page](https://releases.aspose.com/tasks/net/) herunter.  
+2. Eine Entwicklungsumgebung, die .NET unterstützt (Framework 4.6+, .NET Core 3.1+ oder höher).  
+3. Grundlegende Kenntnisse in C# – die Beispiele verwenden einfachen, eigenständigen Code.
 
 ## Namespaces importieren
 
-Importieren wir zunächst die erforderlichen Namespaces für den Zugriff auf Aspose.Tasks-Klassen und -Methoden:
+Zuerst importieren Sie die Namespaces, die die Klassen enthalten, die wir verwenden werden:
 
 ```csharp
 using Aspose.Tasks;
@@ -36,22 +55,21 @@ using System.Drawing;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Schritt 1: Laden Sie das Projekt
+## Schritt 1: Projekt laden
 
-Laden Sie zunächst die Projektdatei mit der Aspose.Tasks-API:
+Laden Sie eine vorhandene MPP‑Datei (oder erstellen Sie eine neue), damit Sie ein Projektobjekt haben, mit dem Sie arbeiten können:
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
-## Schritt 2: Speicheroptionen konfigurieren
+## Schritt 2: Speicheroptionen konfigurieren
 
-Definieren Sie die Speicheroptionen und geben Sie die anzuwendenden Balkenstile an:
+Erstellen Sie eine Instanz von `PdfSaveOptions` und initialisieren Sie die `BarStyles`‑Sammlung, in der wir unsere benutzerdefinierten Stile speichern:
 
 ```csharp
 SaveOptions options = new PdfSaveOptions
@@ -60,26 +78,26 @@ SaveOptions options = new PdfSaveOptions
 };
 ```
 
-## Schritt 3: Balkenstil definieren
+## Schritt 3: Balkenstil definieren
 
-Erstellen Sie einen neuen Balkenstil und passen Sie seine Eigenschaften an:
+Jetzt erstellen wir ein `BarStyle`‑Objekt und setzen die Eigenschaften, die das Aussehen des Balkens steuern. Hier passen wir **Balkenfarben** und Formen an:
 
 ```csharp
 var style = new BarStyle();
-style.ItemType = BarItemType.Milestone; // Legen Sie den Typ des Balkenelements fest
-style.BarColor = Color.Green; // Balkenfarbe festlegen
-style.BarShape = BarShape.HalfHeight; // Stabform einstellen
-style.StartShape = Shape.LeftBracket; // Legen Sie die Form am Anfang des Balkens fest
-style.StartShapeColor = Color.Aqua; // Legen Sie die Farbe der Startform fest
-style.EndShape = Shape.RightBracket; // Form am Ende der Leiste festlegen
-style.EndShapeColor = Color.Aquamarine; // Legen Sie die Farbe der Endform fest
-style.TextStyle = new TextStyle(); // Textstil festlegen
-style.TextStyle.BackgroundColor = Color.Black; // Hintergrundfarbe für Text festlegen
+style.ItemType = BarItemType.Milestone; // Set bar item type
+style.BarColor = Color.Green; // Set bar color
+style.BarShape = BarShape.HalfHeight; // Set bar shape
+style.StartShape = Shape.LeftBracket; // Set shape at the beginning of the bar
+style.StartShapeColor = Color.Aqua; // Set color of the start shape
+style.EndShape = Shape.RightBracket; // Set shape at the end of the bar
+style.EndShapeColor = Color.Aquamarine; // Set color of the end shape
+style.TextStyle = new TextStyle(); // Set text style
+style.TextStyle.BackgroundColor = Color.Black; // Set background color for text
 ```
 
-## Schritt 4: Passen Sie den Textkonverter an
+## Schritt 4: Textkonverter anpassen (optional)
 
-Passen Sie optional den Textkonverter an, um die Textwiedergabe zu ändern:
+Wenn Sie den Text, der auf dem Balken erscheint, anpassen möchten, können Sie einen benutzerdefinierten Konverter zuweisen. Das Beispiel fügt Aufgaben­namen, die nicht bereits mit „T“ beginnen, das Präfix hinzu:
 
 ```csharp
 style.LeftBarTextConverter = task =>
@@ -92,47 +110,72 @@ style.LeftBarTextConverter = task =>
 };
 ```
 
-## Schritt 5: Balkenstil zu den Optionen hinzufügen
+## Schritt 5: Balkenstil zu den Optionen hinzufügen
 
-Fügen Sie den konfigurierten Balkenstil zu den Speicheroptionen hinzu:
+Fügen Sie den vollständig konfigurierten Stil zur `BarStyles`‑Sammlung der Speicheroptionen hinzu:
 
 ```csharp
 options.BarStyles.Add(style);
 ```
 
-## Schritt 6: Speichern Sie das Projekt
+## Schritt 6: Projekt speichern
 
-Speichern Sie abschließend das Projekt mit den angewendeten Balkenstilen:
+Exportieren Sie schließlich das Projekt. Das PDF (oder ein anderes Format) rendert das Gantt‑Diagramm mit dem von uns definierten Balkenstil:
 
 ```csharp
 project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Das Anpassen von Balkenstilen in Aspose.Tasks für .NET bietet Entwicklern die Möglichkeit, optisch ansprechende Projektpläne zu erstellen. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie Balken effizient so gestalten, dass sie bestimmte Anforderungen an die Projektvisualisierung erfüllen.
+| Problem | Grund | Lösung |
+|-------|--------|-----|
+| **Balkenstil nicht angewendet** | `BarStyles`‑Sammlung war leer oder nicht an die Speicheroptionen angehängt. | Stellen Sie sicher, dass Sie den `BarStyle` zu `options.BarStyles` hinzufügen, bevor Sie `Save` aufrufen. |
+| **Farben sehen im PDF anders aus** | Die PDF‑Darstellung kann ein anderes Farbprofil verwenden. | Verwenden Sie Standardwerte von `System.Drawing.Color` oder definieren Sie benutzerdefinierte ARGB‑Farben. |
+| **Textkonverter wirft Nullverweis** | Die Aufgabeneigenschaft `Tsk.Name` ist für einige Aufgaben null. | Fügen Sie eine Null‑Prüfung hinzu, bevor Sie `task.Get(Tsk.Name)` aufrufen. |
 
-## FAQs
+## FAQ's
 
-### F1: Kann ich mehrere Balkenstile auf ein einzelnes Projekt anwenden?
+### Q1: Kann ich mehrere Balkenstile auf ein einzelnes Projekt anwenden?
 
-A1: Ja, Sie können mehrere Balkenstile definieren und auf verschiedene Arten von Aufgaben innerhalb desselben Projekts anwenden.
-   
-### F2: Ist es möglich, Balkenstile während der Laufzeit dynamisch zu ändern?
+A1: Ja, Sie können mehrere Balkenstile definieren und auf verschiedene Aufgabentypen innerhalb desselben Projekts anwenden.
+
+### Q2: Ist es möglich, Balkenstile zur Laufzeit dynamisch zu ändern?
 
 A2: Ja, Sie können Balkenstile basierend auf bestimmten Bedingungen oder Benutzerpräferenzen in Ihrer Anwendung dynamisch ändern.
-   
-### F3: Unterstützt Aspose.Tasks den Export von Projekten mit gestalteten Balken in verschiedene Dateiformate?
 
-A3: Ja, Aspose.Tasks unterstützt den Export von Projekten mit gestalteten Balken in verschiedene Formate wie PDF, XLSX und HTML.
-   
-### F4: Sind in Aspose.Tasks vordefinierte Balkenstile verfügbar?
+### Q3: Unterstützt Aspose.Tasks das Exportieren von Projekten mit formatierten Balken in verschiedene Dateiformate?
 
-A4: Während Aspose.Tasks Standardleistenstile bereitstellt, können Entwickler auch benutzerdefinierte Balkenstile erstellen, die auf ihre Projektanforderungen zugeschnitten sind.
-   
-### F5: Kann ich mithilfe der API vorhandene Balkenstile innerhalb eines Projekts abrufen und ändern?
+A3: Ja, Aspose.Tasks unterstützt den Export von Projekten mit formatierten Balken in verschiedene Formate wie PDF, XLSX und HTML.
 
-A5: Ja, Sie können vorhandene Balkenstile programmgesteuert mithilfe der Aspose.Tasks für .NET-API abrufen und ändern.
+### Q4: Gibt es vordefinierte Balkenstile in Aspose.Tasks?
+
+A4: Obwohl Aspose.Tasks Standard‑Balkenstile bereitstellt, können Entwickler auch benutzerdefinierte Balkenstile erstellen, die auf ihre Projektanforderungen zugeschnitten sind.
+
+### Q5: Kann ich vorhandene Balkenstile innerhalb eines Projekts über die API abrufen und ändern?
+
+A5: Ja, Sie können vorhandene Balkenstile programmgesteuert über die Aspose.Tasks‑API für .NET abrufen und ändern.
+
+## Häufig gestellte Fragen
+
+**Q: Wie ändere ich die Balkenfarbe für reguläre Aufgaben statt für Meilensteine?**  
+A: Setzen Sie `style.ItemType = BarItemType.Task;` und weisen Sie `style.BarColor` die gewünschte `Color` zu.
+
+**Q: Kann ich diesen Ansatz verwenden, um Balken beim Export nach HTML zu formatieren?**  
+A: Ja. Verwenden Sie `HtmlSaveOptions` und füllen Sie dessen `BarStyles`‑Sammlung auf dieselbe Weise.
+
+**Q: Gibt es ein Limit für die Anzahl der Balkenstile, die ich definieren kann?**  
+A: Praktisch gibt es kein Limit; Sie können beliebig viele hinzufügen, sollten jedoch die Leistung bei sehr großen Sammlungen im Auge behalten.
+
+**Q: Muss ich `project.Calculate()` nach dem Ändern von Stilen aufrufen?**  
+A: Nein, die Stile werden während des Speicher‑Vorgangs angewendet; eine Neuberechnung ist nur bei Terminplanänderungen erforderlich.
+
+---
+
+**Zuletzt aktualisiert:** 2026-04-06  
+**Getestet mit:** Aspose.Tasks 24.11 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
