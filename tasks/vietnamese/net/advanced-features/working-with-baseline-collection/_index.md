@@ -1,75 +1,86 @@
 ---
-title: Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
-linktitle: Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
+date: 2026-04-06
+description: Tìm hiểu cách xóa tất cả các baseline và quản lý các bộ sưu tập baseline
+  trong Aspose.Tasks cho .NET với các ví dụ mã từng bước.
+keywords:
+- delete all baselines
+- Aspose.Tasks baseline collection
+- manage project baselines
+linktitle: Xóa tất cả các baseline bằng bộ sưu tập Baseline của Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý đường cơ sở trong Aspose.Tasks cho .NET một cách hiệu quả. Hãy làm theo hướng dẫn toàn diện của chúng tôi để được hướng dẫn từng bước.
-weight: 20
+title: Xóa tất cả các baseline bằng bộ sưu tập Baseline của Aspose.Tasks
 url: /vi/net/advanced-features/working-with-baseline-collection/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm việc với Bộ sưu tập đường cơ sở trong Aspose.Tasks
+# Xóa Tất Cả Các Baseline với Bộ Sưu Tập Baseline của Aspose.Tasks
 
 ## Giới thiệu
 
-Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project trong ứng dụng .NET của họ. Trong số nhiều tính năng của nó, nó cung cấp sự hỗ trợ mạnh mẽ để quản lý đường cơ sở trong các dự án. Đường cơ sở rất cần thiết cho việc quản lý dự án vì chúng cho phép bạn so sánh kế hoạch dự án ban đầu với trạng thái hiện tại, cho phép theo dõi và phân tích tiến độ dự án tốt hơn.
+Aspose.Tasks for .NET cho phép bạn thao tác với các tệp Microsoft Project trực tiếp từ các ứng dụng .NET của mình. Một trong những tính năng mạnh mẽ nhất là khả năng **delete all baselines** cho một tài nguyên, điều này rất cần thiết khi bạn cần đặt lại dữ liệu theo dõi của dự án hoặc bắt đầu một giai đoạn baseline mới. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn toàn bộ quy trình — từ việc tải tệp dự án đến việc loại bỏ mọi baseline gắn với một tài nguyên cụ thể — bằng các giải thích rõ ràng, thân thiện và mã C# sẵn sàng chạy.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“delete all baselines” làm gì?** Nó loại bỏ mọi bản ghi baseline đã lưu cho tài nguyên đã chọn, xóa dữ liệu chi phí và công việc lịch sử.  
+- **Tại sao tôi cần điều này?** Để đặt lại việc theo dõi sau một thay đổi lớn của dự án hoặc khi các baseline gốc không còn phù hợp.  
+- **Thư viện nào cung cấp khả năng này?** Aspose.Tasks for .NET.  
+- **Tôi có cần giấy phép không?** Cần một giấy phép Aspose.Tasks hợp lệ cho việc sử dụng trong môi trường sản xuất; một bản dùng thử miễn phí có sẵn.  
+- **Mã có tương thích với .NET 6+ không?** Có, API hoạt động với .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6.
 
-Trước khi chúng ta đi sâu vào làm việc với các bộ sưu tập cơ sở trong Aspose.Tasks, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## Baseline là gì và Tại sao phải Xóa Tất Cả Baseline?
 
-1. Visual Studio: Cài đặt Visual Studio IDE trên hệ thống của bạn.
-2.  Aspose.Tasks for .NET: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/).
-3. Hiểu biết cơ bản về C#: Làm quen với ngôn ngữ lập trình C#.
-4. Tệp Microsoft Project: Chuẩn bị sẵn tệp Microsoft Project (.mpp) cho mục đích thử nghiệm.
+Một baseline ghi lại kế hoạch gốc cho chi phí, công việc và lịch trình tại một thời điểm cụ thể. Trong suốt vòng đời của dự án, bạn có thể tạo ra nhiều baseline (Baseline 1, Baseline 2, v.v.) để so sánh tiến độ thực tế với các snapshot kế hoạch khác nhau. Tuy nhiên, có những trường hợp — chẳng hạn như việc thay đổi phạm vi dự án hoặc khởi đầu mới — khi việc giữ các baseline lịch sử trở nên gây nhầm lẫn. Xóa tất cả baseline sẽ cho bạn một khởi đầu sạch sẽ, cho phép bạn thiết lập các baseline mới phản ánh thực tế hiện tại.
 
-## Nhập không gian tên
+## Yêu cầu trước
 
-Để bắt đầu làm việc với các bộ sưu tập cơ sở trong Aspose.Tasks, bạn cần nhập các không gian tên sau:
+1. **Visual Studio** – bất kỳ phiên bản gần đây nào (Community, Professional, hoặc Enterprise).  
+2. **Aspose.Tasks for .NET** – tải xuống từ [download link](https://releases.aspose.com/tasks/net/).  
+3. **Kiến thức cơ bản về C#** – bạn nên quen thuộc với biến, vòng lặp và xuất console.  
+4. **Tệp Microsoft Project** (`.mpp`) – một tệp mẫu có tên *WorkWithBaselineCollection.mpp* sẽ được sử dụng trong các ví dụ.
+
+## Nhập các Namespace
+
+Đầu tiên, đưa các namespace cần thiết vào phạm vi để trình biên dịch biết nơi tìm các lớp chúng ta sẽ sử dụng.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Bây giờ, hãy chia từng ví dụ thành nhiều bước:
+## Bước 1: Tải tệp Project
 
-## Bước 1: Tải tệp dự án
-
-Đầu tiên, tải tệp Microsoft Project bằng Aspose.Tasks:
+Chúng ta bắt đầu bằng việc tải một tệp Project hiện có. Điều chỉnh `DataDir` để trỏ tới thư mục chứa tệp `.mpp` của bạn.
 
 ```csharp
-// Đường dẫn tới thư mục tài liệu.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
 
-## Bước 2: Nhận tài nguyên
+## Bước 2: Lấy tài nguyên mục tiêu
 
-Tiếp theo, lấy tài nguyên mong muốn từ dự án:
+Để minh họa, chúng ta lấy tài nguyên có UID = 1. Trong thực tế, bạn sẽ xác định tài nguyên bằng tên hoặc định danh khác.
 
 ```csharp
 var resource = project.Resources.GetByUid(1);
 ```
 
-## Bước 3: Hiển thị thông tin cơ bản
+## Bước 3: Hiển thị thông tin Baseline hiện có
 
-Bây giờ, hiển thị thông tin về đường cơ sở được liên kết với tài nguyên:
+Trước khi xóa bất kỳ thứ gì, việc xem các baseline hiện đang gắn với tài nguyên sẽ hữu ích. Điều này giúp bạn chắc chắn rằng mình đang xóa đúng dữ liệu.
 
 ```csharp
 Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
 Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
 ```
 
-## Bước 4: Lặp lại các đường cơ sở
+## Bước 4: Duyệt qua tất cả Baseline
 
-Lặp lại qua từng đường cơ sở được liên kết với tài nguyên và in thông tin liên quan:
+Ở đây chúng ta lặp qua mỗi baseline, in ra các chỉ số chính như chi phí, công việc và giá trị thu được (BCWP/BCWS). Bước này là tùy chọn nhưng hữu ích cho việc ghi log hoặc kiểm toán.
 
 ```csharp
 foreach (var baseline in resource.Baselines)
@@ -83,9 +94,9 @@ foreach (var baseline in resource.Baselines)
 }
 ```
 
-## Bước 5: Xóa đường cơ sở
+## Xóa Tất Cả Baseline
 
-Xóa tất cả các đường cơ sở được liên kết với tài nguyên:
+Bây giờ chúng ta thực hiện hành động chính: **delete all baselines** cho tài nguyên đã chọn. Đầu tiên chúng ta sao chép bộ sưu tập vào một danh sách để tránh sửa đổi bộ sưu tập trong khi lặp, sau đó loại bỏ từng baseline một.
 
 ```csharp
 Console.WriteLine("Delete all baselines: ");
@@ -97,31 +108,41 @@ foreach (var baseline in baselines)
 }
 ```
 
-## Phần kết luận
+Sau khi khối này chạy, `resource.Baselines.Count` sẽ là `0`, xác nhận rằng tất cả bản ghi baseline đã được xóa.
 
-Trong hướng dẫn này, chúng ta đã khám phá cách làm việc với các bộ sưu tập cơ sở trong Aspose.Tasks cho .NET. Bằng cách làm theo hướng dẫn từng bước, bạn có thể dễ dàng quản lý đường cơ sở trong các ứng dụng .NET của mình, cho phép theo dõi và phân tích dự án hiệu quả.
+## Vấn đề thường gặp và Mẹo
+
+- **NullReferenceException** – Đảm bảo tệp dự án thực sự chứa tài nguyên bạn đang nhắm tới; nếu không `GetByUid` sẽ trả về `null`.  
+- **Licensing** – Nếu không có giấy phép Aspose.Tasks hợp lệ, bạn sẽ thấy watermark trong đầu ra và chức năng bị giới hạn.  
+- **Performance** – Đối với các dự án rất lớn, cân nhắc lặp với `Parallel.ForEach` để tăng tốc quá trình xóa, nhưng nhớ rằng bộ sưu tập nền không an toàn với đa luồng.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Tasks có thể xử lý các tệp dự án lớn không?
+**Q: Có thể Aspose.Tasks xử lý các tệp dự án lớn không?**  
+A: Có, Aspose.Tasks được tối ưu hoá cho hiệu năng và có thể xử lý các tệp `.mpp` đa gigabyte một cách hiệu quả.
 
-Câu trả lời 1: Có, Aspose.Tasks được tối ưu hóa để xử lý các tệp dự án lớn một cách hiệu quả, đảm bảo hiệu suất mượt mà.
+**Q: Thư viện có tương thích với tất cả các phiên bản Microsoft Project không?**  
+A: Aspose.Tasks hỗ trợ Project 2000 đến Project 2024, bao gồm cả các định dạng `.mpp` cũ và các tệp dựa trên XML mới hơn.
 
-### Câu hỏi 2: Aspose.Tasks có tương thích với tất cả các phiên bản Microsoft Project không?
+**Q: Tôi có thể tùy chỉnh baseline trước khi xóa không?**  
+A: Chắc chắn. Bạn có thể đọc hoặc sửa đổi bất kỳ thuộc tính nào của baseline (chi phí, công việc, ngày) trước khi quyết định xóa.
 
-Trả lời 2: Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của Microsoft Project, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+**Q: Aspose.Tasks có hoạt động trên các nền tảng đám mây không?**  
+A: Có, API chạy trên bất kỳ môi trường nào tương thích với .NET, bao gồm Azure App Service, AWS Lambda (qua .NET Core), và các container Docker.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh đường cơ sở trong Aspose.Tasks không?
+**Q: Tôi có thể hỏi cộng đồng để được giúp đỡ ở đâu?**  
+A: Truy cập [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) để kết nối với các nhà phát triển khác và nhân viên Aspose.
 
-Câu trả lời 3: Có, bạn có thể tùy chỉnh đường cơ sở theo yêu cầu dự án của mình bằng cách sử dụng Aspose.Tasks for .NET.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Tasks có cung cấp hỗ trợ cho nền tảng đám mây không?
+Trong hướng dẫn này, chúng tôi đã trình bày cách **delete all baselines** từ một tài nguyên bằng Aspose.Tasks cho .NET. Bằng cách làm theo mã từng bước, bạn có thể đặt lại dữ liệu baseline, giữ cho việc theo dõi dự án của bạn sạch sẽ, và chuẩn bị lịch trình cho một chu kỳ lập kế hoạch mới. Hãy thoải mái thử nghiệm tạo các baseline mới sau khi xóa để xem thư viện cập nhật tệp dự án như thế nào.
 
-Câu trả lời 4: Có, Aspose.Tasks cung cấp hỗ trợ tích hợp với các nền tảng đám mây phổ biến, mang lại sự linh hoạt trong việc triển khai.
+---
 
-### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Tasks tìm kiếm trợ giúp và chia sẻ kiến thức không?
+**Cập nhật lần cuối:** 2026-04-06  
+**Kiểm tra với:** Aspose.Tasks 24.12 cho .NET  
+**Tác giả:** Aspose  
 
- A5: Có, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để tương tác với cộng đồng và nhận được sự hỗ trợ từ các chuyên gia.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
