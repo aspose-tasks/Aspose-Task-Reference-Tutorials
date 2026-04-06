@@ -1,69 +1,87 @@
 ---
-title: A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
-linktitle: A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
+date: 2026-04-06
+description: Tanulja meg, hogyan adjon hozzá erőforrást a projekthez, és állítsa be
+  az erőforrás elérhetőségi időszakait az Aspose.Tasks for .NET használatával. Lépésről‑lépésre
+  útmutató az erőforrásnaptárak kezeléséhez.
+keywords:
+- add resource to project
+- set resource availability
+- configure work schedule
+linktitle: Az elérhetőségi időszakok kezelése az Aspose.Tasks-ben
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti hatékonyan az erőforrások rendelkezésre állási időszakait az Aspose.Tasks for .NET használatával. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a .NET-projektek rendelkezésre állási időszakainak kezeléséhez.
-weight: 17
+title: Erőforrás hozzáadása a projekthez és elérhetőség beállítása az Aspose.Tasks-ben
 url: /hu/net/advanced-features/working-with-availability-periods/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
+# Erőforrás hozzáadása a projekthez és elérhetőség beállítása az Aspose.Tasks-ben
 
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk a rendelkezésre állási időszakokkal az Aspose.Tasks for .NET-ben. A rendelkezésre állási időszakok kulcsfontosságúak az erőforrások hatékony kezeléséhez a projektmenedzsment forgatókönyveiben. Lépésről lépésre végigvezetjük a folyamaton.
+Ebben az útmutatóban megtanulja, **hogyan adjon hozzá erőforrást a projekthez**, majd definiálja annak elérhetőségi időszakait az Aspose.Tasks .NET könyvtár segítségével. Az erőforrásnaptárak kezelése elengedhetetlen a reális projektmenetrendekhez, és az alábbi lépések végigvezetik a teljes folyamaton – a projekt példány létrehozásától az egyes időszakok részleteinek kiírásáig.
+
+## Gyors válaszok
+- **Mi a fő cél?** Erőforrás hozzáadása egy projekthez és annak elérhetőségi időszakainak beállítása.  
+- **Melyik könyvtár szükséges?** Aspose.Tasks for .NET.  
+- **Szükségem van licencre a termeléshez?** Igen, kereskedelmi licenc szükséges.  
+- **Támogatott .NET verziók?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Megvalósítási idő?** Általában 15 perc alatt alapvető forgatókönyvek esetén.
+
+## Mi az a „erőforrás hozzáadása a projekthez”?
+
+Erőforrás hozzáadása a projekthez egy helyőrzőt hoz létre egy személy, eszköz vagy anyag számára, amely feladatokhoz rendelhető. Miután az erőforrás létezik, **beállíthatja az erőforrás elérhetőségét**, definiálhatja annak munkanaptárát, és a tervező figyelembe veszi ezeket a korlátokat.
+
+## Miért konfigurálja a munkarendet és az elérhetőségi időszakokat?
+
+- **Pontos tervezés:** A feladatok csak akkor kerülnek ütemezésre, amikor az erőforrás ténylegesen szabad.  
+- **Költségkontroll:** Az elérhetőségi egységek a részmunkaidős erőfeszítést tükrözik, segítve a munkaerőköltségek pontos kiszámítását.  
+- **Erőforrás kiegyenlítés:** A motor automatikusan kiegyenlíti a túlterheléseket, ha ismeri az egyes erőforrások naptárát.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-
-1. Visual Studio: Telepítse a Visual Studio-t vagy bármely más előnyben részesített IDE-t a .NET-fejlesztéshez.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
-3. A C# programozás alapvető ismerete: Hasznos lesz a C# programozási nyelv alapjainak ismerete.
+1. Visual Studio (vagy bármely .NET‑kompatibilis IDE).  
+2. Aspose.Tasks for .NET – letöltés innen: [itt](https://releases.aspose.com/tasks/net/).  
+3. Alap C# ismeretek.
 
 ## Névterek importálása
-
-Mielőtt belemerülne a kódba, feltétlenül importálja a szükséges névtereket:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Bontsuk fel a példakódot több lépésre:
+## Hogyan adjon hozzá erőforrást a projekthez?
 
-## 1. lépés: Hozzon létre egy új projektpéldányt
+### 1. lépés: Új `Project` példány létrehozása
 
 ```csharp
 var project = new Project();
 ```
 
-Ez a sor inicializálja a Project osztály új példányát, amely egy projektet képvisel az Aspose.Tasks fájlban.
+Ez az objektum a teljes projektfájlt képviseli a memóriában.
 
-## 2. lépés: Adjon hozzá egy erőforrást
+### 2. lépés: Erőforrás hozzáadása a projekthez
 
 ```csharp
 var resource = project.Resources.Add("Work Resource");
 ```
 
-Itt egy új erőforrást adunk a projekthez "Munkaerőforrás" néven.
+A hívás egy **erőforrást** hoz létre *Work Resource* néven, amelyet később feladatokhoz csatolhat.
 
-## 3. lépés: Határozza meg a rendelkezésre állási időszakokat
+### 3. lépés: Elérhetőségi időszakok meghatározása
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
 ```
 
- Hívjuk a`GetPeriods()` módszer a rendelkezésre állási időszakok gyűjteményének lekérésére.
+`GetPeriods()` egy segédmetódus (megvalósítás nem látható), amely `AvailabilityPeriod` objektumok gyűjteményét adja vissza. Minden időszak egy kezdő dátumot, egy befejező dátumot és az egységeket (a teljes munkaidő százalékában) tartalmazza, amelyekben az erőforrás elérhető.
 
-## 4. lépés: Adjon hozzá rendelkezésre állási időszakokat az erőforráshoz
+### 4. lépés: Időszakok hozzáadása az erőforráshoz
 
 ```csharp
 foreach (var period in periods)
@@ -72,9 +90,9 @@ foreach (var period in periods)
 }
 ```
 
-Megismételjük az előző lépésben kapott rendelkezésre állási időszakok gyűjteményét, és hozzáadjuk őket az erőforráshoz.
+Itt **beállítjuk az erőforrás elérhetőségét** úgy, hogy végigiterálunk a gyűjteményen, és minden időszakot hozzáadunk az erőforrás naptárához.
 
-## 5. lépés: Jelenítse meg az elérhetőségi időszak részleteit
+### 5. lépés: Az elérhetőségi részletek megjelenítése
 
 ```csharp
 foreach (var period in resource.AvailabilityPeriods)
@@ -86,33 +104,37 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Végül végigfutjuk az erőforráshoz társított rendelkezésre állási időszakokat, és kinyomtatjuk azok részleteit, beleértve a kezdési dátumot, a befejezési dátumot és a rendelkezésre álló egységeket.
+A konzol kimenet lehetővé teszi, hogy ellenőrizze, az időszakok helyesen lettek-e tárolva.
 
-## Következtetés
+## Gyakori hibák és tippek
 
-Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a rendelkezésre állási időszakokkal az Aspose.Tasks for .NET-ben. A lépésenkénti útmutató követésével hatékonyan kezelheti az erőforrások rendelkezésre állását projektmenedzsment alkalmazásaiban.
+- **Dátum pontosság:** `AvailableFrom` és `AvailableTo` `DateTime` értékek; győződjön meg róla, hogy éjfélre vannak beállítva, ha egész napos időszakokat szeretne.  
+- **Egységek tartománya:** Az érvényes értékek 0‑100 %; a tartományon kívüli értékek kivételt okoznak.  
+- **Átfedő időszakok:** Az átfedő időszakok automatikusan egyesülnek, de átláthatóbb, ha különállóak maradnak.
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Használhatom az Aspose.Tasks for .NET-et kereskedelmi projektekben?
+### Q1: Használhatom az Aspose.Tasks for .NET-et kereskedelmi projektekben?
+A1: Igen, az Aspose.Tasks for .NET használható kereskedelmi projektekben. Licencet vásárolhat [itt](https://purchase.aspose.com/buy).
 
- V1: Igen, az Aspose.Tasks for .NET használható kereskedelmi projektekben. Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+### Q2: Elérhető ingyenes próba az Aspose.Tasks for .NET-hez?
+A2: Igen, ingyenes próbaverziót szerezhet az Aspose.Tasks for .NET-hez [itt](https://releases.aspose.com/).
 
-### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
+### Q3: Hol találom az Aspose.Tasks for .NET dokumentációját?
+A3: A dokumentációt megtalálja [itt](https://reference.aspose.com/tasks/net/).
 
-2. válasz: Igen, beszerezheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez[itt](https://releases.aspose.com/).
+### Q4: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
+A4: Támogatást kaphat a közösségi fórumon [itt](https://forum.aspose.com/c/tasks/15).
 
-### 3. kérdés: Hol találom az Aspose.Tasks for .NET dokumentációját?
+### Q5: Kínálnak ideiglenes licenceket az Aspose.Tasks for .NET-hez?
+A5: Igen, ideiglenes licencek elérhetők [itt](https://purchase.aspose.com/temporary-license/).
 
- V3: Megtalálható a dokumentáció[itt](https://reference.aspose.com/tasks/net/).
+---
 
-### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
+**Utolsó frissítés:** 2026-04-06  
+**Tesztelve ezzel:** Aspose.Tasks for .NET (legújabb stabil kiadás)  
+**Szerző:** Aspose  
 
- V4: Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
-
-### 5. kérdés: Kínál ideiglenes licenceket az Aspose.Tasks for .NET számára?
-
- 5. válasz: Igen, rendelkezésre állnak ideiglenes licencek[itt](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

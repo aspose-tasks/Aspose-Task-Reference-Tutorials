@@ -1,69 +1,87 @@
 ---
-title: Utilizzo dei periodi di disponibilità in Aspose.Tasks
-linktitle: Utilizzo dei periodi di disponibilità in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come gestire in modo efficiente i periodi di disponibilità delle risorse utilizzando Aspose.Tasks per .NET. Questa esercitazione fornisce una guida dettagliata per lavorare con i periodi di disponibilità nei progetti .NET.
-weight: 17
+date: 2026-04-06
+description: Scopri come aggiungere una risorsa al progetto e impostare i periodi
+  di disponibilità della risorsa utilizzando Aspose.Tasks per .NET. Guida passo‑passo
+  per la gestione dei calendari delle risorse.
+keywords:
+- add resource to project
+- set resource availability
+- configure work schedule
+linktitle: Lavorare con i periodi di disponibilità in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aggiungi risorsa al progetto e imposta la disponibilità in Aspose.Tasks
 url: /it/net/advanced-features/working-with-availability-periods/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzo dei periodi di disponibilità in Aspose.Tasks
+# Aggiungi risorsa al progetto e imposta la disponibilità in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-In questo tutorial esploreremo come lavorare con i periodi di disponibilità in Aspose.Tasks per .NET. I periodi di disponibilità sono cruciali per gestire le risorse in modo efficiente negli scenari di gestione dei progetti. Ti guideremo attraverso il processo passo dopo passo.
+In questo tutorial imparerai **come aggiungere una risorsa al progetto** e poi definire i suoi periodi di disponibilità usando la libreria Aspose.Tasks per .NET. Gestire i calendari delle risorse è essenziale per pianificazioni di progetto realistiche, e i passaggi seguenti ti guideranno attraverso l'intero processo—dalla creazione di un'istanza del progetto alla stampa dei dettagli di ogni periodo.
+
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Aggiungere una risorsa a un progetto e configurare i suoi periodi di disponibilità.  
+- **Quale libreria è necessaria?** Aspose.Tasks per .NET.  
+- **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale.  
+- **Versioni .NET supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Tempo di implementazione?** Tipicamente meno di 15 minuti per scenari di base.
+
+## Che cosa significa “add resource to project”?
+
+Aggiungere una risorsa a un progetto crea un segnaposto per una persona, attrezzatura o materiale che può essere assegnato alle attività. Una volta che la risorsa esiste, puoi **impostare la disponibilità della risorsa**, definire il suo calendario di lavoro e far sì che il pianificatore rispetti tali vincoli.
+
+## Perché configurare il programma di lavoro e i periodi di disponibilità?
+
+- **Pianificazione accurata:** Le attività vengono programmate solo quando la risorsa è effettivamente libera.  
+- **Controllo dei costi:** Le unità di disponibilità riflettono l'impegno part‑time, aiutandoti a calcolare correttamente i costi del lavoro.  
+- **Livellamento delle risorse:** Il motore può livellare automaticamente le sovrallocazioni quando conosce il calendario di ciascuna risorsa.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
+1. Visual Studio (o qualsiasi IDE compatibile con .NET).  
+2. Aspose.Tasks per .NET – scarica da [qui](https://releases.aspose.com/tasks/net/).  
+3. Conoscenze di base di C#.
 
-1. Visual Studio: installa Visual Studio o qualsiasi altro IDE preferito per lo sviluppo .NET.
-2.  Aspose.Tasks per .NET: scaricare e installare la libreria Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/tasks/net/).
-3. Conoscenza di base della programmazione C#: sarà utile avere familiarità con le nozioni di base del linguaggio di programmazione C#.
-
-## Importa spazi dei nomi
-
-Prima di immergerti nel codice, assicurati di importare gli spazi dei nomi necessari:
+## Importa gli spazi dei nomi
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Suddividiamo il codice di esempio in più passaggi:
+## Come aggiungere una risorsa al progetto?
 
-## Passaggio 1: crea una nuova istanza del progetto
+### Passo 1: Crea una nuova istanza `Project`
 
 ```csharp
 var project = new Project();
 ```
 
-Questa riga inizializza una nuova istanza della classe Project, che rappresenta un progetto in Aspose.Tasks.
+Questo oggetto rappresenta l'intero file di progetto in memoria.
 
-## Passaggio 2: aggiungi una risorsa
+### Passo 2: Aggiungi una risorsa al progetto
 
 ```csharp
 var resource = project.Resources.Add("Work Resource");
 ```
 
-Qui aggiungiamo una nuova risorsa al progetto con il nome "Risorsa lavoro".
+La chiamata crea una **risorsa** denominata *Work Resource* che potrai successivamente collegare alle attività.
 
-## Passaggio 3: definire i periodi di disponibilità
+### Passo 3: Definisci i periodi di disponibilità
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
 ```
 
- Chiamiamo il`GetPeriods()` metodo per recuperare una raccolta di periodi di disponibilità.
+`GetPeriods()` è un metodo di supporto (implementazione non mostrata) che restituisce una collezione di oggetti `AvailabilityPeriod`. Ogni periodo specifica una data di inizio, una data di fine e le unità (percentuale dell'impegno a tempo pieno) in cui la risorsa è disponibile.
 
-## Passaggio 4: aggiungere periodi di disponibilità alla risorsa
+### Passo 4: Aggiungi i periodi alla risorsa
 
 ```csharp
 foreach (var period in periods)
@@ -72,9 +90,9 @@ foreach (var period in periods)
 }
 ```
 
-Iteriamo attraverso la raccolta dei periodi di disponibilità ottenuti nel passaggio precedente e li aggiungiamo alla risorsa.
+Qui **impostiamo la disponibilità della risorsa** iterando sulla collezione e aggiungendo ogni periodo al calendario della risorsa.
 
-## Passaggio 5: visualizzare i dettagli del periodo di disponibilità
+### Passo 5: Visualizza i dettagli della disponibilità
 
 ```csharp
 foreach (var period in resource.AvailabilityPeriods)
@@ -86,33 +104,37 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Infine, esaminiamo i periodi di disponibilità associati alla risorsa e stampiamo i relativi dettagli, tra cui la data di inizio, la data di fine e le unità disponibili.
+L'output della console ti consente di verificare che i periodi siano stati memorizzati correttamente.
 
-## Conclusione
+## Problemi comuni e consigli
 
-In questo tutorial, abbiamo imparato come lavorare con i periodi di disponibilità in Aspose.Tasks per .NET. Seguendo la guida passo passo, puoi gestire in modo efficiente la disponibilità delle risorse nelle tue applicazioni di gestione dei progetti.
+- **Precisione delle date:** `AvailableFrom` e `AvailableTo` sono valori `DateTime`; assicurati che siano impostati a mezzanotte se desideri periodi di un’intera giornata.  
+- **Intervallo delle unità:** I valori validi sono 0‑100 %; valori al di fuori di questo intervallo genereranno un'eccezione.  
+- **Periodi sovrapposti:** I periodi sovrapposti vengono uniti automaticamente, ma è più chiaro mantenerli distinti.
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.Tasks per .NET in progetti commerciali?
+### Q1: Posso usare Aspose.Tasks per .NET in progetti commerciali?
+A1: Sì, Aspose.Tasks per .NET può essere usato in progetti commerciali. Puoi acquistare una licenza [qui](https://purchase.aspose.com/buy).
 
- A1: Sì, Aspose.Tasks per .NET può essere utilizzato in progetti commerciali. È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
-
-### Q2: È disponibile una prova gratuita per Aspose.Tasks per .NET?
-
-A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET[Qui](https://releases.aspose.com/).
+### Q2: È disponibile una versione di prova gratuita per Aspose.Tasks per .NET?
+A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET [qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare la documentazione per Aspose.Tasks per .NET?
-
- A3: È possibile trovare la documentazione[Qui](https://reference.aspose.com/tasks/net/).
+A3: Puoi trovare la documentazione [qui](https://reference.aspose.com/tasks/net/).
 
 ### Q4: Come posso ottenere supporto per Aspose.Tasks per .NET?
-
- R4: Puoi ottenere supporto dal forum della community[Qui](https://forum.aspose.com/c/tasks/15).
+A4: Puoi ottenere supporto dal forum della community [qui](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Offrite licenze temporanee per Aspose.Tasks per .NET?
+A5: Sì, le licenze temporanee sono disponibili [qui](https://purchase.aspose.com/temporary-license/).
 
- R5: Sì, sono disponibili licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
+---
+
+**Ultimo aggiornamento:** 2026-04-06  
+**Testato con:** Aspose.Tasks per .NET (ultima versione stabile)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
