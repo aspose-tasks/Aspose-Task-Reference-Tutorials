@@ -1,146 +1,210 @@
 ---
-title: Aspose.Tasks Naptár és ütemezés
-linktitle: Aspose.Tasks Naptár és ütemezés
+date: 2026-04-06
+description: Tanulja meg, hogyan dolgozzon egyéni mezőtípusokkal az Aspose.Tasks for
+  .NET-ben, kezelje a naptárakat, számolja ki a feladatok időtartamát, és kezelje
+  a tervezési kivételeket.
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
+linktitle: Aspose.Tasks naptár és ütemezés
 second_title: Aspose.Tasks .NET API
-description: Kezelje a projektnaptárakat, számítsa ki az időtartamokat és kezelje a kivételeket az Aspose.Tasks for .NET segítségével. Fedezze fel a naptári és ütemezési feladatok lépésenkénti oktatóanyagait.
-weight: 22
+title: Aspose.Tasks egyéni mezőtípusok – Naptár és ütemezés
 url: /hu/net/calendar-scheduling/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Naptár és ütemezés
+# Aspose.Tasks egyéni mezőtípusok – Naptár és ütemezés
 
 ## Bevezetés
 
-Üdvözöljük az Aspose.Tasks for .NET oktatóanyagok világában, amely a .NET-projektek naptárkezelésének és ütemezésének bonyolult elsajátítására szolgáló forrás. Az Aspose.Tasks robusztus eszközökkel ruházza fel a fejlesztőket a projektnaptárak könnyed kezelésére, az időtartamok kiszámítására és a kivételek kezelésére. Ebben az átfogó oktatóanyag-gyűjteményben a naptárak kezelésétől és a kivételek kezelésétől a speciális témák, például az összetett dokumentumfejléc-kivételek és a pénznemszimbólum-pozíciók feltárásáig különböző szempontokba nyúlunk bele. Legyen szó tapasztalt fejlesztőről, aki haladó betekintésre vágyik, vagy újonc, aki szívesen fejleszti projektmenedzsment-készségeit, ezek az oktatóanyagok lépésről lépésre nyújtanak útmutatást és valós példákat. Induljunk el egy utazásra, hogy kiaknázzuk az Aspose.Tasks teljes potenciálját .NET-hez, és növeljük projektmenedzsment képességeit. Készen állsz a merülésre? Kezdjük el!
+Welcome to the world of Aspose.Tasks for .NET tutorials, your go‑to resource for mastering the intricacies of calendar management, scheduling, **custom field types**, and more in your .NET projects. Aspose.Tasks empowers developers with robust tools to effortlessly handle project calendars, calculate durations, manage exceptions, and work with custom field types. In this comprehensive collection of tutorials, we delve into various aspects, from working with calendars and managing exceptions to exploring specialized topics like compound document header exceptions and currency symbol positions. Whether you're a seasoned developer seeking advanced insights or a newcomer eager to enhance your project‑management skills, these tutorials provide step‑by‑step guidance and real‑world examples. Let's embark on a journey to unlock the full potential of Aspose.Tasks for .NET and elevate your project management capabilities.
 
-## Munka a naptárral az Aspose.Tasks programban
+## Gyors válaszok
+- **What is the primary purpose of custom field types?** They let you store additional, user‑defined information on tasks, resources, or projects.  
+- **How can I manage calendar exceptions?** Use the CalendarExceptionCollection to add, edit, or remove exceptions programmatically.  
+- **Can I export project data to CSV?** Yes—Aspose.Tasks provides CSV export options to customize the output.  
+- **Is daily recurring task creation supported?** Absolutely; daily calendar repetitions let you schedule recurring work easily.  
+- **Do I need a license for production use?** A valid Aspose.Tasks license is required for commercial deployments.
 
-Fedezze fel a projektnaptárak kezelését, az időtartamok kiszámítását és a kivételek zökkenőmentes kezelését az Aspose.Tasks for .NET segítségével. Növelje projektmenedzsment képességeit könnyedén.[Olvass tovább](./working-with-calendar/)
+## Mi az egyéni mezőtípus?
+A **custom field type** in Aspose.Tasks is a user‑defined attribute that can be attached to tasks, resources, or the project itself. It extends the standard set of fields, allowing you to capture business‑specific data such as risk levels, department codes, or custom identifiers.
 
-## Naptárgyűjtemény kezelése az Aspose.Tasks alkalmazásban
+## Miért használjunk egyéni mezőtípusokat?
+- **Flexibility:** Store any data that matters to your organization.  
+- **Reporting:** Pull custom data into reports without altering the core project schema.  
+- **Integration:** Seamlessly map custom fields to external systems (e.g., ERP or BI tools).
 
- Ismerje meg a naptárgyűjtemények kezelésének hatékony módjait az Aspose.Tasks for .NET alkalmazásban. Könnyedén hozhat létre, módosíthat és kezelhet naptárakat, növelve ezzel a projektmenedzsment hatékonyságát.[Olvass tovább](./calendar-collection/)
+## Hogyan kezeljük a naptárat
+Aspose.Tasks offers a rich API for creating, editing, and querying project calendars. You can define working days, set base calendars, and apply exceptions to reflect real‑world schedules.
 
-## A naptári kivételek kezelése az Aspose.Tasks-ban
+## Napi ismétlődő feladatok
+With daily calendar repetitions, you can automate the creation of tasks that repeat every day, simplifying the modeling of routine work such as daily stand‑ups or maintenance activities.
 
- Sajátítsa el a naptárkivételek kezelésének művészetét az Aspose.Tasks for .NET-ben részletes, lépésről lépésre bemutatott oktatóanyagokkal és példákkal. Gondoskodjon a projektek pontos ütemezéséről.[Olvass tovább](./calendar-exceptions/)
+## CSV exportálási beállítások
+The library’s CSV options let you control which fields are exported, the delimiter used, and the encoding, giving you full control over the generated CSV files.
 
- Hatékonyan kezelheti a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével. Lépésről lépésre oktatóanyagokat és példákat kaphat a pontos ütemezéshez és az erőforrás-kezeléshez.[Olvass tovább](./calendar-exception-collection/)
+## Egyéni projekt tulajdonságok kezelése
+Custom project properties work hand‑in‑hand with custom field types, enabling you to store project‑level metadata that can be accessed programmatically or via the UI.
 
-## Ellenőrizze az áramkört az Aspose.Tasks-ban
+## Feladat időtartamának hatékony kiszámítása
+Accurate duration calculation respects calendar settings, exceptions, and working time definitions, ensuring that your schedules reflect true effort.
 
-Tanulja meg az Aspose.Tasks for .NET használatát a projektfájlok hatékony kezelésére és elemzésére C# nyelven. Ezzel az oktatóanyaggal javíthatja projektkezelési képességeit.[Olvass tovább](./check-circuit/)
+## Naptárral való munka az Aspose.Tasks-ben
 
-## Gyermekfeladatok gyűjtése az Aspose.Tasks-ban
+Explore how to manage project calendars, calculate durations, and handle exceptions seamlessly using Aspose.Tasks for .NET. Enhance your project management capabilities effortlessly. [Read more](./working-with-calendar/)
 
- Hatékonyan gyűjtse össze a gyermekfeladatokat az Aspose.Tasks for .NET segítségével. Fokozza a projektmenedzsmentet .NET-alkalmazásaiban lépésről lépésre bemutatott útmutatókkal.[Olvass tovább](./child-tasks-collector/)
+## Naptárgyűjtemény kezelése az Aspose.Tasks-ben
 
-## Összetett dokumentumfejléc-kivétel kezelése az Aspose.Tasks-ban
+Learn efficient ways to manage calendar collections in Aspose.Tasks for .NET. Create, modify, and manipulate calendars effortlessly, boosting your project management efficiency. [Read more](./calendar-collection/)
 
- Ismerje meg, hogyan kezelheti a CompoundDocumentHeaderException kivételt az Aspose.Tasks for .NET-ben. Részletes útmutatást kaphat kódpéldák segítségével a zökkenőmentes projektmenedzsmenthez.[Olvass tovább](./compound-document-header-exception/)
+## Naptárkivételkezelés az Aspose.Tasks-ben
 
-## Kényszertípusok az Aspose.Tasks-ban
+Master the art of managing calendar exceptions in Aspose.Tasks for .NET with detailed step‑by‑step tutorials and examples. Ensure accurate scheduling in your projects. [Read more](./calendar-exceptions/)
 
- Hatékonyan állítson be kényszertípusokat az Aspose.Tasks for .NET-ben a projektütemezések hatékony kezeléséhez. Fokozza projektmenedzsment képességeit ezzel az oktatóanyaggal.[Olvass tovább](./constraint-types/)
+Efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks. Get step‑by‑step tutorials and examples for accurate scheduling and resource management. [Read more](./calendar-exception-collection/)
 
-## Az Aspose.Tasks beállításai másolása
+## Kör ellenőrzése az Aspose.Tasks-ben
 
- Ismerje meg, hogyan másolhat hatékonyan projektadatokat az Aspose.Tasks for .NET használatával. Bővítse .NET-alkalmazásait hatékony projektkezelési képességekkel.[Olvass tovább](./copy-options/)
+Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project files in C#. Improve your project management capabilities with this tutorial. [Read more](./check-circuit/)
 
-## Költségfelhalmozási típusok az Aspose.Tasks-ban
+## Gyermekfeladatok gyűjtése az Aspose.Tasks-ben
 
- A projekt költségeit hatékonyan kezelheti az Aspose.Tasks for .NET segítségével. Határozza meg a költségfelhalmozási típusokat a költségvetés pontos követéséhez. Fedezze fel a lépésenkénti oktatóanyagokat a továbbfejlesztett projektmenedzsmenthez.[Olvass tovább](./cost-accrual-types/)
+Efficiently collect child tasks using Aspose.Tasks for .NET. Enhance project management in your .NET applications with step‑by‑step tutorials. [Read more](./child-tasks-collector/)
 
-## CSS Argumentumok mentése az Aspose.Tasks-ban
+## CompoundDocumentHeaderException kezelése az Aspose.Tasks-ben
 
- Hatékonyan mentse a CSS-argumentumokat az Aspose.Tasks for .NET-be a HTML-kimenet testreszabásához. Fokozza projektbemutatóját személyre szabott CSS-beállításokkal.[Olvass tovább](./css-saving-arguments/)
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples for seamless project management. [Read more](./compound-document-header-exception/)
 
-## CSV-beállítások az Aspose.Tasks-ban
+## Korlátozási típusok az Aspose.Tasks-ben
 
- Használja az Aspose.Tasks for .NET-et a CSV-fájlok hatékony kezeléséhez. Fokozza projektkezelési képességeit könnyedén lépésről lépésre bemutatott oktatóanyagok segítségével.[Olvass tovább](./csv-options/)
+Efficiently set constraint types in Aspose.Tasks for .NET to manage project schedules effectively. Enhance your project management capabilities with this tutorial. [Read more](./constraint-types/)
 
-## A valuta szimbólumok pozíciói az Aspose.Tasks-ban
+## Másolási beállítások az Aspose.Tasks-ben
 
- Az Aspose.Tasks segítségével könnyedén ellenőrizheti a valutaszimbólum-pozíciókat a .NET-projektekben. Fedezze fel a lépésenkénti oktatóanyagokat a zökkenőmentes integráció érdekében.[Olvass tovább](./currency-symbol-positions/)
+Learn how to efficiently copy project data using Aspose.Tasks for .NET. Enhance your .NET applications with powerful project management capabilities. [Read more](./copy-options/)
 
-## Egyéni mezőtípusok az Aspose.Tasks-ban
+## Költség felhalmozási típusok az Aspose.Tasks-ben
 
- Ismerje meg, hogyan dolgozhat egyéni mezőtípusokkal az Aspose.Tasks for .NET alkalmazásban. Fedezze fel a lépésenkénti útmutatókat kódpéldákkal és GYIK-ekkel a hatékony projektmenedzsment érdekében.[Olvass tovább](./custom-field-types/)
+Manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking. Explore step‑by‑step tutorials for enhanced project management. [Read more](./cost-accrual-types/)
 
-## Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
+## CSS mentési argumentumok az Aspose.Tasks-ben
 
- Hatékonyan kezelheti az egyéni projekttulajdonságokat az Aspose.Tasks for .NET-ben. Növelje projektmenedzsment-élményét lépésről lépésre bemutatott útmutatókkal.[Olvass tovább](./custom-project-property-collection/)
+Efficiently save CSS arguments in Aspose.Tasks for .NET to customize HTML output. Enhance your project presentation with tailored CSS settings. [Read more](./css-saving-arguments/)
 
-## Napi naptári ismétlés az Aspose.Tasks-ban
+## CSV beállítások az Aspose.Tasks-ben
 
- Hozzon létre ismétlődő feladatokat napi naptárismétléssel az Aspose.Tasks for .NET-ben. A részletes oktatóanyagok segítségével könnyedén növelheti a projektmenedzsment hatékonyságát.[Olvass tovább](./daily-calendar-repetition/)
+Utilize Aspose.Tasks for .NET to efficiently work with CSV files. Enhance your project management capabilities effortlessly with step‑by‑step tutorials. [Read more](./csv-options/)
 
-## Napi munkaismétlés az Aspose.Tasks-ban
+## Pénznem szimbólum pozíciók az Aspose.Tasks-ben
 
- Hozzon létre napi ismétlődő feladatokat a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével. Növelje a termelékenységet és a szervezettséget lépésenkénti oktatóanyagokkal.[Olvass tovább](./daily-work-repetition/)
+Control currency symbol positions in .NET projects effortlessly with Aspose.Tasks. Explore step‑by‑step tutorials for seamless integration. [Read more](./currency-symbol-positions/)
 
-## Dátumformátum az Aspose.Tasks-ban
+## Egyéni mezőtípusok az Aspose.Tasks-ben
 
- Testreszabhatja a dátumformátumokat az Aspose.Tasks for .NET-ben az átfogó, lépésenkénti oktatóanyagok segítségével. Növelje projektmenedzsment tapasztalatait.[Olvass tovább](./date-format/)
+Learn how to work with custom field types in Aspose.Tasks for .NET. Explore step‑by‑step guides with code examples and FAQs for efficient project management. [Read more](./custom-field-types/)
 
-## Naptípus-gyűjtemény kezelése az Aspose.Tasks-ban
+## Egyéni projekt tulajdonsággyűjtemény kezelése az Aspose.Tasks-ben
 
-Hatékonyan kezelheti a napi típusú gyűjteményeket az Aspose.Tasks for .NET-ben. Egyszerűen hozhat létre, módosíthat és kezelhet naptárkivételeket a lépésenkénti oktatóanyagok segítségével.[Olvass tovább](./day-type-collection/)
+Effectively manage custom project properties in Aspose.Tasks for .NET. Enhance your project management experience with step‑by‑step tutorials. [Read more](./custom-project-property-collection/)
 
-## Adatbázis-beállítások az Aspose.Tasks-ban
+## Napi naptár ismétlés az Aspose.Tasks-ben
 
- Importáljon projekteket egy Primavera adatbázisból az Aspose.Tasks for .NET használatával. Ebben az átfogó oktatóanyagban lépésről lépésre kaphat útmutatást a hatékony projektmenedzsmenthez.[Olvass tovább](./database-settings/)
+Create recurring tasks with daily calendar repetitions in Aspose.Tasks for .NET. Enhance project management efficiency effortlessly with detailed tutorials. [Read more](./daily-calendar-repetition/)
 
-## Időtartam kezelése az Aspose.Tasks-ban
+## Napi munkavégzés ismétlése az Aspose.Tasks-ben
 
- Hatékonyan kezelheti az időtartamokat az Aspose.Tasks for .NET-ben a lépésről lépésre bemutatott oktatóanyagok segítségével. Növelje projektmenedzsment képességeit könnyedén.[Olvass tovább](./duration-handling/)
+Create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization with step‑by‑step tutorials. [Read more](./daily-work-repetition/)
+
+## Dátumformátum az Aspose.Tasks-ben
+
+Customize date formats in Aspose.Tasks for .NET effortlessly with comprehensive step‑by‑step tutorials. Enhance your project management experience. [Read more](./date-format/)
+
+## Nap típus gyűjtemény kezelése az Aspose.Tasks-ben
+
+Efficiently manage day type collections in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease using step‑by‑step tutorials. [Read more](./day-type-collection/)
+
+## Adatbázis beállítások az Aspose.Tasks-ben
+
+Import projects from a Primavera database using Aspose.Tasks for .NET. Get step‑by‑step guidance in this comprehensive tutorial for efficient project management. [Read more](./database-settings/)
+
+## Időtartam kezelése az Aspose.Tasks-ben
+
+Handle durations effectively in Aspose.Tasks for .NET with step‑by‑step tutorials. Enhance your project management capabilities effortlessly. [Read more](./duration-handling/)
+
 ## Aspose.Tasks naptár és ütemezési oktatóanyagok
-### [Munka a naptárral az Aspose.Tasks programban](./working-with-calendar/)
-Az Aspose.Tasks for .NET segítségével könnyedén kezelheti a projektnaptárakat, kiszámíthatja az időtartamokat, kezelheti a kivételeket.
-### [Naptárgyűjtemény kezelése az Aspose.Tasks alkalmazásban](./calendar-collection/)
-Ismerje meg, hogyan kezelheti hatékonyan a naptárgyűjteményeket az Aspose.Tasks for .NET-ben. Könnyedén hozhat létre, módosíthat és kezelhet naptárakat.
-### [A naptári kivételek kezelése az Aspose.Tasks-ban](./calendar-exceptions/)
-Ismerje meg, hogyan kezelheti a naptárkivételeket az Aspose.Tasks for .NET programban lépésenkénti oktatóanyagok és példák segítségével.
-### [Naptári kivételek gyűjteménye az Aspose.Tasks-ban](./calendar-exception-collection/)
-Tanulja meg, hogyan kezelheti hatékonyan a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével, biztosítva a pontos ütemezést és az erőforrás-kezelést.
-### [Ellenőrizze az áramkört az Aspose.Tasks-ban](./check-circuit/)
-Tanulja meg az Aspose.Tasks for .NET használatát a projektfájlok hatékony kezelésére és elemzésére C# nyelven.
-### [Gyermekfeladatok gyűjtése az Aspose.Tasks-ban](./child-tasks-collector/)
-Ismerje meg, hogyan gyűjthet hatékonyan gyermekfeladatokat az Aspose.Tasks for .NET használatával. Javítsa a projektmenedzsmentet .NET-alkalmazásaiban.
-### [Összetett dokumentumfejléc-kivétel kezelése az Aspose.Tasks-ban](./compound-document-header-exception/)
-Ismerje meg, hogyan kezelheti a CompoundDocumentHeaderException kivételt az Aspose.Tasks for .NET-ben. Lépésről lépésre útmutatót kaphat kódpéldákkal.
-### [Kényszertípusok az Aspose.Tasks-ban](./constraint-types/)
-Ismerje meg, hogyan állíthat be kényszertípusokat az Aspose.Tasks for .NET-ben a projekt ütemezésének hatékony kezeléséhez.
-### [Az Aspose.Tasks beállításai másolása](./copy-options/)
-Ismerje meg, hogyan másolhat hatékonyan projektadatokat az Aspose.Tasks for .NET használatával. Bővítse .NET-alkalmazásait hatékony projektkezelési képességekkel.
-### [Költségfelhalmozási típusok az Aspose.Tasks-ban](./cost-accrual-types/)
-Ismerje meg, hogyan kezelheti hatékonyan a projekt költségeit az Aspose.Tasks for .NET segítségével. Határozza meg a költségfelhalmozási típusokat a költségvetés pontos követéséhez.
-### [CSS Argumentumok mentése az Aspose.Tasks-ban](./css-saving-arguments/)
-Ismerje meg, hogyan mentheti a CSS-argumentumokat az Aspose.Tasks for .NET-ben a HTML-kimenet testreszabásához. Fokozza a prezentációt személyre szabott CSS-beállításokkal.
-### [CSV-beállítások az Aspose.Tasks-ban](./csv-options/)
-Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET alkalmazást a CSV-fájlok hatékony kezeléséhez, és könnyedén javíthatja projektkezelési képességeit.
-### [A valuta szimbólumok pozíciói az Aspose.Tasks-ban](./currency-symbol-positions/)
-Az Aspose.Tasks segítségével megtudhatja, hogyan szabályozhatja könnyedén a valutaszimbólum-pozíciókat .NET-projektekben.
-### [Egyéni mezőtípusok az Aspose.Tasks-ban](./custom-field-types/)
-Ismerje meg, hogyan dolgozhat egyéni mezőtípusokkal az Aspose.Tasks for .NET alkalmazásban. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-### [Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban](./custom-project-property-collection/)
-Ismerje meg, hogyan kezelheti hatékonyan az egyéni projekttulajdonságokat az Aspose.Tasks for .NET-ben, javítva ezzel a projektkezelési élményt. 
-### [Napi naptári ismétlés az Aspose.Tasks-ban](./daily-calendar-repetition/)
-Ismerje meg, hogyan hozhat létre ismétlődő feladatokat napi naptárismétléssel az Aspose.Tasks for .NET alkalmazásban. Fokozatmentesen fokozza a projektmenedzsment hatékonyságát.
-### [Napi munkaismétlés az Aspose.Tasks-ban](./daily-work-repetition/)
-Ismerje meg, hogyan hozhat létre napi ismétlődő feladatokat a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével. Növelje a termelékenységet és a szervezettséget könnyedén.
-### [Dátumformátum az Aspose.Tasks-ban](./date-format/)
-Ezzel az átfogó, lépésenkénti oktatóanyaggal megtudhatja, hogyan szabhatja testre a dátumformátumokat az Aspose.Tasks for .NET-ben.
-### [Naptípus-gyűjtemény kezelése az Aspose.Tasks-ban](./day-type-collection/)
-Tanulja meg, hogyan kezelheti hatékonyan a nap típusú gyűjteményeket az Aspose.Tasks for .NET alkalmazásban. Egyszerűen hozhat létre, módosíthat és kezelhet naptárkivételeket.
-### [Adatbázis-beállítások az Aspose.Tasks-ban](./database-settings/)
-Ismerje meg, hogyan importálhat projekteket Primavera adatbázisból az Aspose.Tasks for .NET segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre kaphat útmutatást.
-### [Időtartam kezelése az Aspose.Tasks-ban](./duration-handling/)
-Ismerje meg, hogyan kezelheti hatékonyan az időtartamokat az Aspose.Tasks for .NET-ben a lépésről lépésre bemutatott oktatóanyagok segítségével.
+### [Naptárral való munka az Aspose.Tasks-ben](./working-with-calendar/)
+Manage project calendars, calculate durations, handle exceptions with ease using Aspose.Tasks for .NET.
+### [Naptárgyűjtemény kezelése az Aspose.Tasks-ben](./calendar-collection/)
+Learn how to manage calendar collections in Aspose.Tasks for .NET efficiently. Create, modify, and manipulate calendars with ease.
+### [Naptárkivételkezelés az Aspose.Tasks-ben](./calendar-exceptions/)
+Learn how to manage calendar exceptions in Aspose.Tasks for .NET with step‑by‑step tutorials and examples.
+### [Naptárkivétel-gyűjtemény az Aspose.Tasks-ben](./calendar-exception-collection/)
+Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
+### [Kör ellenőrzése az Aspose.Tasks-ben](./check-circuit/)
+Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project files in C#.
+### [Gyermekfeladatok gyűjtése az Aspose.Tasks-ben](./child-tasks-collector/)
+Learn how to collect child tasks efficiently using Aspose.Tasks for .NET. Improve project management in your .NET applications.
+### [CompoundDocumentHeaderException kezelése az Aspose.Tasks-ben](./compound-document-header-exception/)
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples.
+### [Korlátozási típusok az Aspose.Tasks-ben](./constraint-types/)
+Learn how to set constraint types in Aspose.Tasks for .NET to efficiently manage project schedules.
+### [Másolási beállítások az Aspose.Tasks-ben](./copy-options/)
+Learn how to efficiently copy project data using Aspose.Tasks for .NET. Enhance your .NET applications with powerful project management capabilities.
+### [Költség felhalmozási típusok az Aspose.Tasks-ben](./cost-accrual-types/)
+Learn how to manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking.
+### [CSS mentési argumentumok az Aspose.Tasks-ben](./css-saving-arguments/)
+Learn how to save CSS arguments in Aspose.Tasks for .NET to customize HTML output. Enhance presentation with tailored CSS settings.
+### [CSV beállítások az Aspose.Tasks-ben](./csv-options/)
+Learn how to utilize Aspose.Tasks for .NET to efficiently work with CSV files, enhancing your project management capabilities effortlessly.
+### [Pénznem szimbólum pozíciók az Aspose.Tasks-ben](./currency-symbol-positions/)
+Learn how to control currency symbol positions in .NET projects effortlessly with Aspose.Tasks.
+### [Egyéni mezőtípusok az Aspose.Tasks-ben](./custom-field-types/)
+Learn how to work with custom field types in Aspose.Tasks for .NET. Step‑by‑step guide with code examples and FAQs.
+### [Egyéni projekt tulajdonsággyűjtemény kezelése az Aspose.Tasks-ben](./custom-project-property-collection/)
+Learn how to effectively manage custom project properties in Aspose.Tasks for .NET, enhancing your project management experience. 
+### [Napi naptár ismétlés az Aspose.Tasks-ben](./daily-calendar-repetition/)
+Learn how to create recurring tasks with daily calendar repetitions in Aspose.Tasks for .NET. Enhance project management efficiency effortlessly.
+### [Napi munkavégzés ismétlése az Aspose.Tasks-ben](./daily-work-repetition/)
+Learn how to create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization effortlessly.
+### [Dátumformátum az Aspose.Tasks-ben](./date-format/)
+Learn how to customize date formats in Aspose.Tasks for .NET effortlessly with this comprehensive step‑by‑step tutorial.
+### [Nap típus gyűjtemény kezelése az Aspose.Tasks-ben](./day-type-collection/)
+Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease.
+### [Adatbázis beállítások az Aspose.Tasks-ben](./database-settings/)
+Learn how to import projects from a Primavera database using Aspose.Tasks for .NET. Get step‑by‑step guidance in this comprehensive tutorial.
+### [Időtartam kezelése az Aspose.Tasks-ben](./duration-handling/)
+Learn how to handle durations effectively in Aspose.Tasks for .NET with step‑by‑step tutorials.
+
+## Gyakran Ismételt Kérdések
+
+**Q:** *What are custom field types used for?*  
+**A:** They let you store additional, user‑defined data on tasks, resources, or projects, enabling richer reporting and integration scenarios.
+
+**Q:** *How do I manage calendar exceptions?*  
+**A:** Use the `CalendarExceptionCollection` to add, edit, or remove exceptions. The API respects these when calculating task durations.
+
+**Q:** *Can I export project data to CSV with specific columns?*  
+**A:** Yes—Aspose.Tasks’ CSV options let you select fields, set delimiters, and control encoding to match your downstream system.
+
+**Q:** *Is there support for daily recurring tasks?*  
+**A:** Absolutely. Define a daily repetition on a calendar or use the `RecurringTask` API to automate task creation.
+
+**Q:** *Do I need a license for production use?*  
+**A:** A valid Aspose.Tasks license is required for commercial deployments; a free trial is available for evaluation.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
