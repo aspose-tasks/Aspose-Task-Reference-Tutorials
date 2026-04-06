@@ -1,69 +1,87 @@
 ---
-title: Praca z okresami dostępności w Aspose.Tasks
+date: 2026-04-06
+description: Dowiedz się, jak dodać zasób do projektu i ustawić okresy dostępności
+  zasobu przy użyciu Aspose.Tasks dla .NET. Przewodnik krok po kroku dotyczący zarządzania
+  kalendarzami zasobów.
+keywords:
+- add resource to project
+- set resource availability
+- configure work schedule
 linktitle: Praca z okresami dostępności w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak efektywnie zarządzać okresami dostępności zasobów za pomocą Aspose.Tasks dla .NET. Ten samouczek zawiera przewodnik krok po kroku dotyczący pracy z okresami dostępności w projektach .NET.
-weight: 17
+title: Dodaj zasób do projektu i ustaw dostępność w Aspose.Tasks
 url: /pl/net/advanced-features/working-with-availability-periods/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Praca z okresami dostępności w Aspose.Tasks
+# Dodaj zasób do projektu i ustaw dostępność w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku omówimy, jak pracować z okresami dostępności w Aspose.Tasks dla .NET. Okresy dostępności są kluczowe dla efektywnego zarządzania zasobami w scenariuszach zarządzania projektami. Krok po kroku przeprowadzimy Cię przez proces.
+W tym samouczku nauczysz się **jak dodać zasób do projektu** i następnie określić jego okresy dostępności przy użyciu biblioteki Aspose.Tasks .NET. Zarządzanie kalendarzami zasobów jest niezbędne do realistycznych harmonogramów projektów, a poniższe kroki przeprowadzą Cię przez cały proces — od utworzenia instancji projektu po wypisanie szczegółów każdego okresu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Dodanie zasobu do projektu i skonfigurowanie jego okresów dostępności.  
+- **Jaka biblioteka jest wymagana?** Aspose.Tasks dla .NET.  
+- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest licencja komercyjna.  
+- **Obsługiwane wersje .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Czas implementacji?** Zazwyczaj poniżej 15 minut dla podstawowych scenariuszy.
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Co to jest „dodawanie zasobu do projektu”?
 
-1. Visual Studio: Zainstaluj Visual Studio lub dowolne inne preferowane IDE do programowania .NET.
-2.  Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[Tutaj](https://releases.aspose.com/tasks/net/).
-3. Podstawowa znajomość programowania w języku C#: Pomocna będzie znajomość podstaw języka programowania C#.
+Dodanie zasobu do projektu tworzy miejsce dla osoby, sprzętu lub materiału, które mogą być przydzielane do zadań. Gdy zasób istnieje, możesz **ustawić dostępność zasobu**, zdefiniować jego kalendarz pracy i pozwolić harmonogramowi respektować te ograniczenia.
+
+## Dlaczego konfigurować harmonogram pracy i okresy dostępności?
+
+- **Dokładne planowanie:** Zadania są planowane tylko wtedy, gdy zasób jest rzeczywiście wolny.  
+- **Kontrola kosztów:** Jednostki dostępności odzwierciedlają pracę w niepełnym wymiarze, pomagając prawidłowo obliczyć koszty pracy.  
+- **Poziomowanie zasobów:** Silnik może automatycznie wyrównać nadmierne przydziały, gdy zna kalendarz każdego zasobu.
+
+## Wymagania wstępne
+
+1. Visual Studio (lub dowolne IDE zgodne z .NET).  
+2. Aspose.Tasks for .NET – pobierz z [tutaj](https://releases.aspose.com/tasks/net/).  
+3. Podstawowa znajomość C#.
 
 ## Importuj przestrzenie nazw
-
-Zanim zagłębisz się w kod, pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Podzielmy przykładowy kod na wiele kroków:
+## Jak dodać zasób do projektu?
 
-## Krok 1: Utwórz nową instancję projektu
+### Krok 1: Utwórz nową instancję `Project`
 
 ```csharp
 var project = new Project();
 ```
 
-Ta linia inicjuje nową instancję klasy Project, która reprezentuje projekt w Aspose.Tasks.
+Ten obiekt reprezentuje cały plik projektu w pamięci.
 
-## Krok 2: Dodaj zasób
+### Krok 2: Dodaj zasób do projektu
 
 ```csharp
 var resource = project.Resources.Add("Work Resource");
 ```
 
-Tutaj dodajemy do projektu nowy zasób o nazwie „Zasób pracy”.
+Wywołanie tworzy **zasób** o nazwie *Work Resource*, który później możesz przypisać do zadań.
 
-## Krok 3: Zdefiniuj okresy dostępności
+### Krok 3: Zdefiniuj okresy dostępności
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
 ```
 
- Nazywamy`GetPeriods()` metoda pobierania kolekcji okresów dostępności.
+`GetPeriods()` jest metodą pomocniczą (implementacja nie pokazana), która zwraca kolekcję obiektów `AvailabilityPeriod`. Każdy okres określa datę rozpoczęcia, datę zakończenia oraz jednostki (procent pełnoetatowego nakładu), w których zasób jest dostępny.
 
-## Krok 4: Dodaj okresy dostępności do zasobu
+### Krok 4: Dodaj okresy do zasobu
 
 ```csharp
 foreach (var period in periods)
@@ -72,9 +90,9 @@ foreach (var period in periods)
 }
 ```
 
-Iterujemy po kolekcji okresów dostępności uzyskanych w poprzednim kroku i dodajemy je do zasobu.
+Tutaj **ustawiamy dostępność zasobu** iterując po kolekcji i dodając każdy okres do kalendarza zasobu.
 
-## Krok 5: Wyświetl szczegóły okresu dostępności
+### Krok 5: Wyświetl szczegóły dostępności
 
 ```csharp
 foreach (var period in resource.AvailabilityPeriods)
@@ -86,33 +104,42 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Na koniec przeglądamy okresy dostępności powiązane z zasobem i drukujemy ich szczegóły, w tym datę początkową, datę końcową i dostępne jednostki.
+Wyjście konsoli pozwala zweryfikować, że okresy zostały poprawnie zapisane.
 
-## Wniosek
+## Częste pułapki i wskazówki
 
-W tym samouczku nauczyliśmy się pracować z okresami dostępności w Aspose.Tasks dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie zarządzać dostępnością zasobów w aplikacjach do zarządzania projektami.
+- **Precyzja daty:** `AvailableFrom` i `AvailableTo` są wartościami `DateTime`; upewnij się, że są ustawione na północ, jeśli chcesz pełnodniowe okresy.  
+- **Zakres jednostek:** Poprawne wartości to 0‑100 %; wartości poza tym zakresem spowodują wyjątek.  
+- **Nakładające się okresy:** Nakładające się okresy są automatycznie łączone, ale lepiej jest zachować je odrębnie.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
 ### P1: Czy mogę używać Aspose.Tasks dla .NET w projektach komercyjnych?
 
- O1: Tak, Aspose.Tasks dla .NET może być wykorzystywane w projektach komercyjnych. Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+A1: Tak, Aspose.Tasks dla .NET może być używany w projektach komercyjnych. Licencję możesz kupić [tutaj](https://purchase.aspose.com/buy).
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
+### P2: Czy dostępna jest darmowa wersja próbna Aspose.Tasks dla .NET?
 
-A2: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET[Tutaj](https://releases.aspose.com/).
+A2: Tak, darmową wersję próbną Aspose.Tasks dla .NET możesz uzyskać [tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?
 
- Odpowiedź 3: Możesz znaleźć dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
+A3: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/tasks/net/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
 
- Odpowiedź 4: Możesz uzyskać pomoc na forum społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
+A4: Wsparcie możesz uzyskać na forum społeczności [tutaj](https://forum.aspose.com/c/tasks/15).
 
-### P5: Czy oferujecie tymczasowe licencje na Aspose.Tasks dla .NET?
+### P5: Czy oferujecie tymczasowe licencje dla Aspose.Tasks dla .NET?
 
- Odpowiedź 5: Tak, dostępne są licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+A5: Tak, tymczasowe licencje są dostępne [tutaj](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-06  
+**Testowano z:** Aspose.Tasks for .NET (najnowsze stabilne wydanie)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

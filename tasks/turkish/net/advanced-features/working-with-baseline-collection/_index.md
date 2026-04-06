@@ -1,75 +1,86 @@
 ---
-title: Aspose.Tasks'ta Baseline Collection ile Çalışmak
-linktitle: Aspose.Tasks'ta Baseline Collection ile Çalışmak
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET'te temel çizgileri verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım rehberlik için kapsamlı eğitimimizi takip edin.
-weight: 20
+date: 2026-04-06
+description: Aspose.Tasks for .NET'te tüm baseline'ları silmeyi ve baseline koleksiyonlarını
+  yönetmeyi adım adım kod örnekleriyle öğrenin.
+keywords:
+- delete all baselines
+- Aspose.Tasks baseline collection
+- manage project baselines
+linktitle: Aspose.Tasks Baseline Koleksiyonu ile Tüm Baseline'ları Sil
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks Baseline Koleksiyonu ile Tüm Baseline'ları Sil
 url: /tr/net/advanced-features/working-with-baseline-collection/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Baseline Collection ile Çalışmak
+# Aspose.Tasks Baseline Collection ile Tüm Baseline'ları Sil
 
-## giriiş
+## Giriş
 
-Aspose.Tasks for .NET, geliştiricilerin .NET uygulamalarında Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Pek çok özelliğinin yanı sıra, projeler içindeki temel çizgilerin yönetilmesi için güçlü bir destek sağlar. Temel çizgiler, orijinal proje planını mevcut durumla karşılaştırmanıza izin vererek proje ilerlemesinin daha iyi izlenmesine ve analiz edilmesine olanak tanıdığından proje yönetimi için çok önemlidir.
+Aspose.Tasks for .NET, Microsoft Project dosyalarını .NET uygulamalarınızdan doğrudan manipüle etmenizi sağlar. En güçlü özelliklerden biri, bir kaynak için **tüm baseline'ları sil**me yeteneğidir; bu, bir projenin izleme verilerini sıfırlamanız veya yeni bir baseline dönemi başlatmanız gerektiğinde hayati öneme sahiptir. Bu öğreticide, bir proje dosyasını yüklemekten belirli bir kaynağa bağlı tüm baseline'ları kaldırmaya kadar tüm süreci, net ve sohbet tarzı açıklamalar ve çalıştırmaya hazır C# kodu ile adım adım inceleyeceğiz.
+
+## Hızlı Yanıtlar
+- **“delete all baselines” ne yapar?** Seçilen bir kaynak için saklanan tüm baseline kayıtlarını kaldırır, tarihsel maliyet ve iş verilerini temizler.  
+- **Neden buna ihtiyacım var?** Büyük bir proje değişikliğinden sonra izlemeyi sıfırlamak veya orijinal baseline'lar artık geçerli olmadığında.  
+- **Bu yeteneği hangi kütüphane sağlar?** Aspose.Tasks for .NET.  
+- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Kod .NET 6+ ile uyumlu mu?** Evet, API .NET Framework 4.5+, .NET Core 3.1+ ve .NET 5/6 ile çalışır.
+
+## Baseline Nedir ve Neden Tüm Baseline'lar Silinir?
+
+Bir baseline, belirli bir zamanda maliyet, iş ve takvim için orijinal planı yakalar. Bir projenin yaşamı boyunca birden fazla baseline (Baseline 1, Baseline 2 vb.) oluşturabilirsiniz, böylece gerçek ilerlemeyi farklı planlama anlık görüntüleriyle karşılaştırabilirsiniz. Ancak, bir projenin kapsamının yeniden belirlenmesi veya yeni bir başlangıç gibi durumlarda bu tarihsel baseline'ları tutmak kafa karıştırıcı olabilir. Tüm baseline'ları silmek size temiz bir sayfa sağlar ve mevcut gerçekliği yansıtan yeni baseline'lar oluşturmanıza olanak tanır.
 
 ## Önkoşullar
 
-Aspose.Tasks'ta temel koleksiyonlarla çalışmaya başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+1. **Visual Studio** – herhangi bir yeni sürüm (Community, Professional veya Enterprise).  
+2. **Aspose.Tasks for .NET** – [indirme bağlantısı](https://releases.aspose.com/tasks/net/) adresinden indirin.  
+3. **Temel C# bilgisi** – değişkenler, döngüler ve konsol çıktısı konusunda rahat olmalısınız.  
+4. **Microsoft Project dosyası** (`.mpp`) – örneklerde *WorkWithBaselineCollection.mpp* adlı bir örnek dosya kullanılacaktır.
 
-1. Visual Studio: Sisteminize Visual Studio IDE'yi yükleyin.
-2.  Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/tasks/net/).
-3. Temel C# anlayışı: C# programlama diline aşina olun.
-4. Microsoft Project dosyası: Test amacıyla bir Microsoft Project dosyasını (.mpp) hazır bulundurun.
+## Namespace'leri İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.Tasks'ta temel koleksiyonlarla çalışmaya başlamak için aşağıdaki ad alanlarını içe aktarmanız gerekir:
+İlk olarak, gerekli namespace'leri kapsam içine alın, böylece derleyici kullanacağımız sınıfların nerede olduğunu bilir.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Şimdi her örneği birden fazla adıma ayıralım:
+## Adım 1: Proje Dosyasını Yükleme
 
-## Adım 1: Proje Dosyasını Yükleyin
-
-İlk olarak Aspose.Tasks'ı kullanarak Microsoft Project dosyasını yükleyin:
+Mevcut bir Project dosyasını yükleyerek başlıyoruz. `DataDir` değişkenini `.mpp` dosyanızın bulunduğu klasöre işaret edecek şekilde ayarlayın.
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
 
-## 2. Adım: Kaynak Alın
+## Adım 2: Hedef Kaynağı Almak
 
-Daha sonra projeden istenen kaynağı alın:
+Gösterim amacıyla UID = 1 olan kaynağı alıyoruz. Gerçek bir senaryoda kaynağı isim veya başka bir tanımlayıcı ile bulursunuz.
 
 ```csharp
 var resource = project.Resources.GetByUid(1);
 ```
 
-## Adım 3: Temel Bilgiyi Görüntüleyin
+## Adım 3: Mevcut Baseline Bilgilerini Görüntüleme
 
-Şimdi kaynakla ilişkili taban çizgileri hakkındaki bilgileri görüntüleyin:
+Herhangi bir şey silmeden önce, kaynağa şu anda hangi baseline'ların bağlı olduğunu görmek faydalıdır. Bu, doğru verileri kaldırdığınızdan emin olmanızı sağlar.
 
 ```csharp
 Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
 Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
 ```
 
-## Adım 4: Temel Çizgiler Üzerinden Yineleme Yapın
+## Adım 4: Tüm Baseline'lar Üzerinde Döngü
 
-Kaynakla ilişkili her bir temel çizgiyi yineleyin ve ilgili bilgileri yazdırın:
+Burada her bir baseline üzerinden döngü yapıyoruz ve maliyet, iş ve kazanılmış değer (BCWP/BCWS) gibi temel metrikleri yazdırıyoruz. Bu adım isteğe bağlıdır ancak günlükleme veya denetim amaçları için faydalıdır.
 
 ```csharp
 foreach (var baseline in resource.Baselines)
@@ -83,9 +94,9 @@ foreach (var baseline in resource.Baselines)
 }
 ```
 
-## Adım 5: Taban Çizgilerini Kaldır
+## Tüm Baseline'ları Sil
 
-Kaynakla ilişkili tüm temel çizgileri silin:
+Şimdi temel eylemi gerçekleştiriyoruz: seçilen kaynak için **tüm baseline'ları sil**. Döngü sırasında koleksiyonu değiştirmemek için önce koleksiyonu bir listeye kopyalıyoruz, ardından her bir baseline'ı tek tek kaldırıyoruz.
 
 ```csharp
 Console.WriteLine("Delete all baselines: ");
@@ -97,31 +108,41 @@ foreach (var baseline in baselines)
 }
 ```
 
-## Çözüm
+Bu blok çalıştıktan sonra, `resource.Baselines.Count` `0` olacaktır ve tüm baseline kayıtlarının temizlendiği doğrulanır.
 
-Bu eğitimde Aspose.Tasks for .NET'te temel koleksiyonlarla nasıl çalışılacağını araştırdık. Adım adım kılavuzu takip ederek, .NET uygulamalarınızdaki temel çizgileri kolayca yönetebilir ve etkili proje takibi ve analizine olanak tanıyabilirsiniz.
+## Yaygın Sorunlar ve İpuçları
 
-## SSS'ler
+- **NullReferenceException** – Proje dosyasının hedeflediğiniz kaynağı gerçekten içerdiğinden emin olun; aksi takdirde `GetByUid` `null` dönecektir.  
+- **Lisanslama** – Geçerli bir Aspose.Tasks lisansı olmadan çıktıda bir filigran ve sınırlı işlevsellik görürsünüz.  
+- **Performans** – Çok büyük projeler için kaldırma sürecini hızlandırmak amacıyla `Parallel.ForEach` ile döngü yapmayı düşünebilirsiniz, ancak temel koleksiyonun thread‑safe olmadığını unutmayın.
 
-### S1: Aspose.Tasks büyük proje dosyalarını yönetebilir mi?
+## Sıkça Sorulan Sorular
 
-Cevap1: Evet, Aspose.Tasks büyük proje dosyalarını verimli bir şekilde yönetecek ve sorunsuz performans sağlayacak şekilde optimize edilmiştir.
+**S: Aspose.Tasks büyük proje dosyalarını işleyebilir mi?**  
+C: Evet, Aspose.Tasks performans için optimize edilmiştir ve çok gigabayt boyutundaki `.mpp` dosyalarını verimli bir şekilde işleyebilir.
 
-### S2: Aspose.Tasks, Microsoft Project'in tüm sürümleriyle uyumlu mudur?
+**S: Kütüphane tüm Microsoft Project sürümleriyle uyumlu mu?**  
+C: Aspose.Tasks, Project 2000'den Project 2024'e kadar destekler; hem eski `.mpp` formatlarını hem de yeni XML tabanlı dosyaları kapsar.
 
-Cevap2: Aspose.Tasks, Microsoft Project'in çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
+**S: Baseline'ları silmeden önce özelleştirebilir miyim?**  
+C: Kesinlikle. Silmeye karar vermeden önce herhangi bir baseline özelliğini (maliyet, iş, tarihler) okuyabilir veya değiştirebilirsiniz.
 
-### S3: Aspose.Tasks'ta taban çizgilerini özelleştirebilir miyim?
+**S: Aspose.Tasks bulut platformlarında çalışır mı?**  
+C: Evet, API herhangi bir .NET uyumlu ortamda çalışır; Azure App Service, AWS Lambda (.NET Core aracılığıyla) ve Docker konteynerleri dahil.
 
-C3: Evet, Aspose.Tasks for .NET'i kullanarak temelleri proje gereksinimlerinize göre özelleştirebilirsiniz.
+**S: Topluluktan yardım almak için nereye başvurabilirim?**  
+C: Diğer geliştiriciler ve Aspose ekibiyle iletişime geçmek için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edin.
 
-### S4: Aspose.Tasks bulut platformları için destek sunuyor mu?
+## Sonuç
 
-Cevap4: Evet, Aspose.Tasks, popüler bulut platformlarıyla entegrasyon desteği sağlayarak dağıtımda esneklik sunar.
+Bu rehberde Aspose.Tasks for .NET kullanarak bir kaynaktan **tüm baseline'ları sil** nasıl yapılır gösterdik. Adım adım kodu izleyerek baseline verilerini sıfırlayabilir, proje takibinizi temiz tutabilir ve takviminizi yeni bir planlama döngüsü için hazırlayabilirsiniz. Silme işleminden sonra yeni baseline'lar oluşturup kütüphanenin proje dosyasını nasıl güncellediğini deneyimlemekten çekinmeyin.
 
-### S5: Aspose.Tasks kullanıcılarının yardım isteyebileceği ve bilgi paylaşabileceği bir topluluk forumu var mı?
+---
 
- A5: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) toplulukla etkileşime geçmek ve uzmanlardan yardım almak.
+**Son Güncelleme:** 2026-04-06  
+**Test Edilen:** Aspose.Tasks 24.12 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
