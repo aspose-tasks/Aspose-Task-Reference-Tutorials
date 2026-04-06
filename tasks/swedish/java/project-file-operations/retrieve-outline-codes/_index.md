@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
+date: 2026-03-27
 description: Lär dig hur du programatiskt hämtar outline‑koder i MS Project med Aspose.Tasks
   för Java. Förbättra dina projektledningsförmågor.
 linktitle: Retrieve Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Hämta MS Project‑översiktskoder i Aspose.Tasks
+title: Hämta MS Project Outline‑koder i Aspose.Tasks
 url: /sv/java/project-file-operations/retrieve-outline-codes/
 weight: 15
 ---
@@ -15,36 +15,42 @@ weight: 15
 
 # Hämta MS Project Outline Codes i Aspose.Tasks
 
-## Introduktion
-I den här handledningen kommer du att upptäcka **hur man hämtar ms project outline codes** med Aspose.Tasks för Java. Outline‑koder i MS Project ger dig ett kraftfullt sätt att kategorisera uppgifter, resurser och tilldelningar, och att komma åt dem programmässigt låter dig bygga anpassade rapporter, automatisering eller integrationslösningar. Vi går igenom ett komplett, steg‑för‑steg‑exempel som du kan kopiera in i ditt eget projekt.
+## Introduction
+I den här handledningen kommer du att upptäcka **hur du hämtar MS Project outline codes** med Aspose.Tasks för Java. Outline codes i MS Project ger dig ett kraftfullt sätt att kategorisera uppgifter, resurser och tilldelningar, och att komma åt dem programmässigt låter dig bygga anpassade rapporter, automatisering eller integrationslösningar. Vi går igenom ett komplett, steg‑för‑steg‑exempel som du kan kopiera in i ditt eget projekt.
 
-## Snabba svar
-- **Vad gör koden?** Den laddar en projektfil och skriver ut varje outline‑koddefinition, dess masker och dess värden.  
-- **Vilket bibliotek krävs?** Aspose.Tasks för Java (valfri nyare version).  
-- **Behöver jag en licens?** En provversion fungerar för utveckling; en full licens krävs för produktion.  
-- **Vilken Java‑version stöds?** Java 8 eller högre.  
-- **Kan jag ändra koderna efter att de hämtats?** Ja – samma API låter dig lägga till, redigera eller ta bort outline‑koder.
+## Quick Answers
+- **What does the code do?** It loads a Project file and prints every outline code definition, its masks, and its values.  
+- **Which library is required?** Aspose.Tasks for Java (any recent version).  
+- **Do I need a license?** A trial works for development; a full license is required for production.  
+- **What Java version is supported?** Java 8 or higher.  
+- **Can I modify the codes after retrieving them?** Yes – the same API lets you add, edit, or delete outline codes.
 
-## Vad är ms project outline codes?
-Outline‑koder är anpassade fält som låter projektledare gruppera och filtrera uppgifter utöver den fördefinierade hierarkin. De kan vara enkla numeriska värden, strängar eller till och med företagsomfattande anpassade koder som definieras på organisationsnivå. Genom att läsa dessa koder kan du driva instrumentpaneler, exportera data eller automatiskt upprätthålla namngivningskonventioner.
+## What are ms project outline codes?
+Outline codes är anpassade fält som låter projektledare gruppera och filtrera uppgifter utöver den standardhierarki som finns. De kan vara enkla numeriska värden, strängar eller till och med företagsomfattande anpassade koder som definieras på organisationsnivå. Genom att läsa dessa koder kan du driva instrumentpaneler, exportera data eller automatiskt upprätthålla namngivningskonventioner.
 
-## Varför hämta ms project outline codes med Aspose.Tasks?
-- **Automatisering:** Generera rapporter eller trigga arbetsflöden utan manuell export.  
-- **Integration:** Synkronisera outline‑koder med ERP, PPM eller BI‑verktyg.  
-- **Anpassning:** Tillämpa affärsregler baserade på kodvärden (t.ex. kostnadsfördelning).  
-- **Plattformsoberoende:** Fungerar på Windows, Linux och macOS, oberoende av Microsoft Project‑gränssnittet.
+## Why retrieve ms project outline codes with Aspose.Tasks?
+- **Automation:** Generera rapporter eller trigga arbetsflöden utan manuell export.  
+- **Integration:** Synkronisera outline codes med ERP-, PPM- eller BI-verktyg.  
+- **Customization:** Tillämpa affärsregler baserade på kodvärden (t.ex. kostnadsallokering).  
+- **Cross‑platform:** Fungerar på Windows, Linux och macOS, oberoende av Microsoft Project UI.
 
-## Förutsättningar
-Innan vi börjar, se till att du har följande förutsättningar på plats:
+## How to read MPP files for outline codes?
+Att läsa en MPP‑fil (Microsoft Project) är det första steget för att extrahera outline codes. Aspose.Tasks abstraherar filformatet, så du behöver inte själv tolka den binära strukturen. Klassen `Project` sköter det tunga arbetet, så att du kan fokusera på den data du faktiskt behöver.
 
-### 1. Java-utvecklingsmiljö
-Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner och installera JDK från Oracles webbplats.
+## Custom fields in MS Project
+Outline codes är en typ av **custom fields** i MS Project. Medan standardfält täcker datum, varaktigheter och resurser, låter anpassade fält dig lagra organisationsspecifik information. Att komma åt dem via Aspose.Tasks ger dig samma flexibilitet programmässigt.
 
-### 2. Aspose.Tasks-biblioteket
-Ladda ner och inkludera Aspose.Tasks‑biblioteket i ditt Java‑projekt. Du kan ladda ner biblioteket från [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/).
+## Prerequisites
+Before we begin, ensure you have the following prerequisites set up:
 
-## Importera paket
-Först importerar du de nödvändiga paketen från Aspose.Tasks i din Java‑kod:
+### 1. Java Development Environment
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the Oracle website.
+
+### 2. Aspose.Tasks Library
+Download and include the Aspose.Tasks library in your Java project. You can download the library from the [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/).
+
+## Import Packages
+First, import the necessary packages from Aspose.Tasks in your Java code:
 ```java
 import com.aspose.tasks.OutlineCodeDefinition;
 import com.aspose.tasks.OutlineMask;
@@ -52,30 +58,30 @@ import com.aspose.tasks.OutlineValue;
 import com.aspose.tasks.Project;
 ```
 
-Nu går vi igenom det medföljande exempelprogrammet i flera steg:
+Now let's break down the provided example code into multiple steps:
 
-## Steg 1: Ladda projektet
+## Step 1: Load the Project
 ```java
 String projectName = "ProjectFile.mpp";
 Project project = new Project(projectName);
 ```
-I detta steg laddar vi Microsoft Project‑filen i ett `Project`‑objekt med det angivna filnamnet.
+In this step, we load the Microsoft Project file into a `Project` object using the provided file name.
 
-## Steg 2: Hämta Outline Codes
+## Step 2: Retrieve Outline Codes
 ```java
 for (OutlineCodeDefinition ocd : project.getOutlineCodes()) {
 ```
-Vi itererar genom varje outline‑koddefinition i projektet.
+We iterate through each outline code definition in the project.
 
-## Steg 3: Åtkomst till Outline Code‑egenskaper
+## Step 3: Access Outline Code Properties
 ```java
 System.out.println("Alias = " + ocd.getAlias());
 System.out.println("Field Id = " + ocd.getFieldId());
 System.out.println("Field Name = " + ocd.getFieldName());
 ```
-Vi hämtar och skriver ut olika egenskaper för outline‑koddefinitionen såsom Alias, Field ID och Field Name.
+We retrieve and print various properties of the outline code definition such as Alias, Field ID, and Field Name.
 
-## Steg 4: Kontrollera Enterprise Custom Code
+## Step 4: Check Enterprise Custom Code
 ```java
 if (ocd.getEnterprise()) {
     System.out.println("It is an enterprise custom outline code.");
@@ -83,18 +89,18 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-Vi kontrollerar om outline‑koden är en enterprise‑anpassad kod och skriver ut resultatet därefter.
+We check if the outline code is an enterprise custom code and print the result accordingly.
 
-## Steg 5: Visa Outline Code‑maskar
+## Step 5: Display Outline Code Masks
 ```java
 for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Level of a mask = " + m1.getLevel());
     System.out.println("Mask = " + m1.toString());
 }
 ```
-Vi itererar genom varje mask som är associerad med outline‑koden och skriver ut dess nivå och maskvärde.
+We iterate through each mask associated with the outline code and print its level and mask value.
 
-## Steg 6: Visa Outline Code‑värden
+## Step 6: Display Outline Code Values
 ```java
 for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Description of outline value = " + v1.getDescription());
@@ -103,40 +109,40 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-Vi itererar genom varje outline‑kodvärde och skriver ut dess beskrivning, value ID, värde och typ.
+We iterate through each outline code value and print its description, value ID, value, and type.
 
-## Vanliga problem och lösningar
-| Problem | Orsak | Lösning |
-|---------|-------|---------|
-| **Ingen output** | Projektfilens sökväg är felaktig | Verifiera att `projectName` pekar på en giltig `.mpp`‑fil. |
-| **Null‑värden** | Outline‑kod är inte definierad i filen | Säkerställ att projektfilen faktiskt innehåller outline‑koder (kontrollera i MS Project‑gränssnittet). |
-| **LicenseException** | Använder provversion utan korrekt aktivering | Applicera en tillfällig eller full licens via `License license = new License(); license.setLicense("Aspose.Tasks.lic");` |
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **No output** | Project file path incorrect | Verify `projectName` points to a valid `.mpp` file. |
+| **Null values** | Outline code not defined in the file | Ensure the Project file actually contains outline codes (check in MS Project UI). |
+| **LicenseException** | Using trial without proper activation | Apply a temporary or full license via `License license = new License(); license.setLicense("Aspose.Tasks.lic");` |
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-**Q: Kan jag använda Aspose.Tasks för Java för att ändra outline‑koder i en projektfil?**  
-A: Ja, Aspose.Tasks för Java tillhandahåller API:er för att programmässigt modifiera outline‑koder. Du kan lägga till, redigera eller ta bort definitioner med samma `Project`‑objekt.
+**Q: Can I use Aspose.Tasks for Java to modify outline codes in a Project file?**  
+A: Yes, Aspose.Tasks for Java provides APIs to modify outline codes programmatically. You can add, edit, or delete definitions using the same `Project` object.
 
-**Q: Finns det en provversion av Aspose.Tasks för Java?**  
-A: Ja, du kan ladda ner en gratis provversion av Aspose.Tasks för Java från [Aspose.Tasks website](https://releases.aspose.com/).
+**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+A: Yes, you can download a free trial version of Aspose.Tasks for Java from the [Aspose.Tasks website](https://releases.aspose.com/).
 
-**Q: Hur får jag teknisk support för Aspose.Tasks för Java?**  
-A: Du kan få teknisk support genom att besöka [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) och posta dina frågor där.
+**Q: How can I get technical support for Aspose.Tasks for Java?**  
+A: You can get technical support by visiting the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) and posting your queries there.
 
-**Q: Kan jag köpa en tillfällig licens för Aspose.Tasks för Java?**  
-A: Ja, du kan köpa en tillfällig licens för Aspose.Tasks för Java via [purchase page](https://purchase.aspose.com/temporary-license/).
+**Q: Can I purchase a temporary license for Aspose.Tasks for Java?**  
+A: Yes, you can purchase a temporary license for Aspose.Tasks for Java from the [purchase page](https://purchase.aspose.com/temporary-license/).
 
-**Q: Var kan jag hitta den kompletta dokumentationen för Aspose.Tasks för Java?**  
-A: Du kan hänvisa till [documentation](https://reference.aspose.com/tasks/java/) för detaljerad information om hur du använder Aspose.Tasks för Java.
+**Q: Where can I find the complete documentation for Aspose.Tasks for Java?**  
+A: You can refer to the [documentation](https://reference.aspose.com/tasks/java/) for detailed information on using Aspose.Tasks for Java.
 
-## Slutsats
-I den här handledningen har vi lärt oss hur man **hämtar ms project outline codes** med Aspose.Tasks för Java. Genom att följa de angivna stegen kan du effektivt komma åt och manipulera outline‑koder i dina Java‑applikationer, vilket möjliggör avancerade projektledningsfunktioner såsom anpassade rapporter, automatisering och integration med andra företagsystem.
+## Conclusion
+In this tutorial, we have learned how to retrieve **ms project outline codes** using Aspose.Tasks for Java. By following the provided steps, you can effectively access and manipulate outline codes in your Java applications, enabling advanced project management capabilities such as custom reporting, automation, and integration with other enterprise systems.
 
 ---
 
-**Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Tasks för Java 24.12 (senaste vid skrivtillfället)  
-**Författare:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

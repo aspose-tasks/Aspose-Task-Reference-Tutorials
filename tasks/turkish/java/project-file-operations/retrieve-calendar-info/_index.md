@@ -1,8 +1,7 @@
 ---
-date: 2025-12-20
-description: Java kullanarak Aspose.Tasks'i Microsoft Project dosyalarından proje
-  takvim detaylarını çıkarmak için nasıl kullanacağınızı öğrenin. Kod örnekleriyle
-  adım adım rehber.
+date: 2026-03-27
+description: Aspose ve Aspose.Tasks'i kullanarak Java ile Microsoft Project dosyalarından
+  proje takvim detaylarını nasıl çıkaracağınızı öğrenin. Adım adım kod örnekli rehber.
 linktitle: Retrieve Calendar Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Aspose.Tasks'i Kullanarak MS Project Takvim Bilgilerini Nasıl Alabilirsiniz
@@ -14,32 +13,36 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Kullanarak MS Project Takvim Bilgilerini Nasıl Alabilirsiniz
+# Aspose.Tasks'i Kullanarak MS Project Takvim Bilgilerini Alma
 
-## Giriş
-Bu öğreticide, **Aspose.Tasks'i nasıl kullanacağınızı** keşfedecek ve Microsoft Project dosyalarından programlı olarak takvim bilgilerini alabileceksiniz. Çalışma günleri, saatler ve istisnalar gibi takvim verilerine erişmek, raporlama, entegrasyon veya özel zamanlama mantığı için **proje takvimini** çıkarmanız gerektiğinde çok önemlidir. Süreci adım adım inceleyelim.
+## Introduction
+Bu öğreticide, **Aspose.Tasks'i nasıl kullanacağınızı** keşfedecek ve Microsoft Project dosyalarından takvim bilgilerini programlı olarak nasıl alacağınızı öğreneceksiniz. Çalışma günleri, saatleri ve istisnalar gibi takvim verilerine erişmek, raporlama, entegrasyon veya özel zamanlama mantığı için **proje takvimini çıkarmak** gerektiğinde hayati öneme sahiptir. Süreci adım adım inceleyeceğiz ve **Aspose**'u bir *.mpp* dosyasından bu verileri çekmek için **nasıl kullanacağınızı** tam olarak göreceksiniz.
 
-## Hızlı Yanıtlar
+## Quick Answers
 - **Bu öğreticide hangi kütüphane kullanılıyor?** Aspose.Tasks for Java.  
-- **Hangi anahtar kelime ele alınıyor?** *how to use aspose.tasks*.  
+- **Hangi anahtar kelime ele alınıyor?** *how to use aspose*.  
 - **Ne çıkarabilirsiniz?** Çalışma günleri ve saatleri dahil olmak üzere proje takvimleri.  
-- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için bir lisans gereklidir.  
+- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir.  
 - **Hangi Java sürümü destekleniyor?** Java 8 veya üzeri.
 
-## Neden proje takvim bilgilerini çıkarmalısınız?
+## What is Aspose.Tasks and Why Use It?
+Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını Microsoft Project'e ihtiyaç duymadan okuyup yazmasına ve manipüle etmesine olanak tanıyan güçlü bir Java API'sidir. Aspose.Tasks'i kullanarak **takvim bilgilerini nasıl çıkaracağınızı**, zaman çizelgesi hesaplamalarını otomatikleştirebilir ve proje verilerini diğer kurumsal sistemlerle saf Java kodu üzerinden entegre edebilirsiniz.
+
+## Why extract project calendar information?
 Proje takvimleri görev tarihlerini, kaynak tahsislerini ve genel zaman çizelgesi hesaplamalarını yönlendirir. Bu verileri çıkararak şunları yapabilirsiniz:
-- Gerçek çalışma programlarını yansıtan özel raporlar oluşturun.  
-- Microsoft Project zaman çizelgelerini dış sistemlerle (ERP, BI vb.) senkronize edin.  
-- Takvim ayarlarını programlı olarak değiştirerek ne‑olur analizi yapın.
+- Gerçek çalışma programlarını yansıtan özel raporlar oluşturmak.  
+- Microsoft Project zaman çizelgelerini dış sistemlerle (ERP, BI vb.) senkronize etmek.  
+- Takvim ayarlarını programlı olarak değiştirerek “ne olurdu” analizleri yapmak.  
+- **MS Project takvim** verilerini diğer planlama araçlarına geçiş için çıkarmak.
 
-## Önkoşullar
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+## Prerequisites
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Java programlamada temel bilgi.  
-- Sisteminizde yüklü Java Development Kit (JDK).  
-- Aspose.Tasks for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/tasks/java/) indirebilirsiniz.
+- Java programlamaya temel aşinalık.  
+- Sisteminizde Java Development Kit (JDK) kurulu.  
+- Aspose.Tasks for Java kütüphanesi. İndirmek için [burada](https://releases.aspose.com/tasks/java/) tıklayın.
 
-## Paketleri İçe Aktarma
+## Import Packages
 İlk olarak, gerekli Aspose.Tasks sınıflarını Java projenize içe aktarın.
 
 ```java
@@ -50,16 +53,16 @@ import com.aspose.tasks.WeekDay;
 import com.aspose.tasks.WeekDayCollection;
 ```
 
-## Adım 1: Veri Dizinini Ayarlama
-*.mpp* dosyanızı içeren klasörü tanımlayın.
+## Step 1: Set Data Directory
+*.mpp* dosyanızın bulunduğu klasörü tanımlayın.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-`"Your Data Directory"` ifadesini **project.mpp** dosyasının bulunduğu klasörün mutlak yolu ile değiştirin.
+`"Your Data Directory"` ifadesini **project.mpp** dosyanızın bulunduğu klasörün mutlak yolu ile değiştirin.
 
-## Adım 2: Zaman Birimlerini Tanımlama
+## Step 2: Define Time Units
 İç zaman temsilini insan‑okunur saatlere dönüştürmeye yardımcı olacak sabitleri oluşturun.
 
 ```java
@@ -68,9 +71,9 @@ long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
 
-Bu değerler mikro saniye cinsindendir; Aspose.Tasks zamanı dahili olarak bu şekilde depolar.
+Bu değerler mikro saniyeler cinsindendir; Aspose.Tasks zamanı dahili olarak bu birimde saklar.
 
-## Adım 3: Proje Örneği Oluşturma
+## Step 3: Create Project Instance
 Microsoft Project dosyasını bir `Project` nesnesine yükleyin.
 
 ```java
@@ -79,8 +82,8 @@ Project project = new Project(dataDir + "project.mpp");
 
 `Project` yapıcı (constructor) *.mpp* dosyasını ayrıştırır ve takvimler dahil tüm proje verilerini API üzerinden erişilebilir kılar.
 
-## Adım 4: Takvim Bilgilerini Almak
-Projede tanımlı takvim koleksiyonunu elde edin.
+## Step 4: Retrieve Calendars Information
+Projede tanımlı takvim koleksiyonunu alın.
 
 ```java
 CalendarCollection alCals = project.getCalendars();
@@ -88,8 +91,8 @@ CalendarCollection alCals = project.getCalendars();
 
 Bir proje birden fazla takvim (standart, kaynak ve özel takvimler) içerebilir. Bu koleksiyon her birine erişim sağlar.
 
-## Adım 5: Takvimler Üzerinde Döngü
-Her takvim üzerinde döngü yapın, UID'sini, adını ve ilgili saatlerle çalışma günlerini gösterin.
+## Step 5: Iterate Through Calendars
+Her takvimi döngüye alarak UID, ad ve çalışma günlerini ilgili saatlerle birlikte gösterin.
 
 ```java
 for (Calendar cal : alCals) {
@@ -113,40 +116,47 @@ for (Calendar cal : alCals) {
 }
 ```
 
-İç döngü her `WeekDay` nesnesini kontrol eder. Gün çalışma olarak işaretlendiyse, gün tipini (Monday, Tuesday, …) hesaplanan çalışma saatleriyle birlikte yazdırır.
+İç döngü her `WeekDay` nesnesini kontrol eder. Gün çalışma olarak işaretlendiyse, gün tipi (Monday, Tuesday, …) ve hesaplanan çalışma saatleri birlikte yazdırılır.
 
-## Adım 6: Tamamlanma Mesajını Görüntüleme
+## Step 6: Display Completion Message
 Çıkarma işleminin tamamlandığını bildirin.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-## Sonuç
-Bu adımları izleyerek, **Java kullanarak bir MS Project dosyasından proje takvim bilgilerini çıkarmak için Aspose.Tasks'i nasıl kullanacağınızı** artık biliyorsunuz. Bu mantığı daha büyük uygulamalara entegre edebilir, raporlamayı otomatikleştirebilir veya takvimleri diğer kurumsal sistemlerle senkronize edebilirsiniz.
+## Common Issues and Solutions
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|-------|
+| **Takvimler döndürülmüyor** | Proje dosyası herhangi bir özel takvim içermiyor olabilir. | *.mpp* dosyasının gerçekten takvim tanımladığını doğrulayın veya Microsoft Project'te açarak kontrol edin. |
+| **Yanlış çalışma saatleri** | Zaman dönüşüm sabitleri farklı bir Project sürümü için uyumsuz. | `OneSec`, `OneMin`, `OneHour` değerlerini, dahili zaman birimini değiştiren daha yeni bir Aspose.Tasks sürümü kullanıyorsanız ayarlayın. |
+| **`NullPointerException` on `cal.getName()`** | Bazı takvim nesneleri null olabilir. | Özelliklere erişmeden önce null kontrolü ekleyin (zaten gösterildiği gibi). |
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**S: Aspose.Tasks'i diğer programlama dilleriyle kullanabilir miyim?**  
-C: Evet, Aspose.Tasks .NET, C++, Python ve Java dahil birden fazla platform ve programlama dilini destekler.
+**Q: Aspose.Tasks'i diğer programlama dilleriyle kullanabilir miyim?**  
+A: Evet, Aspose.Tasks .NET, C++, Python ve Java dahil birden çok platform ve programlama dili için destek sağlar.
 
-**S: Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?**  
-C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**Q: Aspose.Tasks için ücretsiz deneme mevcut mu?**  
+A: Evet, ücretsiz deneme sürümünü [burada](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Aspose.Tasks için destek nasıl alabilirim?**  
-C: Aspose.Tasks topluluk forumundan [burada](https://forum.aspose.com/c/tasks/15) destek alabilirsiniz.
+**Q: Aspose.Tasks için destek nasıl alınır?**  
+A: Aspose.Tasks topluluk forumundan [burada](https://forum.aspose.com/c/tasks/15) destek alabilirsiniz.
 
-**S: Aspose.Tasks için geçici bir lisans satın alabilir miyim?**  
-C: Evet, geçici lisanslar [buradan](https://purchase.aspose.com/temporary-license/) satın alınabilir.
+**Q: Aspose.Tasks için geçici bir lisans satın alabilir miyim?**  
+A: Evet, geçici lisansları [burada](https://purchase.aspose.com/temporary-license/) satın alabilirsiniz.
 
-**S: Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?**  
-C: Belgeleri [buradan](https://reference.aspose.com/tasks/java/) inceleyebilirsiniz.
+**Q: Aspose.Tasks için ayrıntılı belgeleri nereden bulabilirim?**  
+A: Belgeleri [burada](https://reference.aspose.com/tasks/java/) inceleyebilirsiniz.
+
+## Conclusion
+Bu adımları izleyerek, **Aspose.Tasks'i kullanarak bir MS Project dosyasından proje takvim bilgilerini nasıl çıkaracağınızı** artık biliyorsunuz. Bu mantığı daha büyük uygulamalara entegre edebilir, raporlamayı otomatikleştirebilir veya takvimleri diğer kurumsal sistemlerle senkronize edebilirsiniz. **Aspose'i nasıl kullanacağınızı** öğrenmek, gelişmiş proje‑yönetimi otomasyon senaryolarının kapılarını açar.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen:** Aspose.Tasks for Java 24.12 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

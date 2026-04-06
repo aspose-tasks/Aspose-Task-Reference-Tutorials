@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: Tìm hiểu cách sử dụng Aspose.Tasks để trích xuất chi tiết lịch dự án
-  từ các tệp Microsoft Project bằng Java. Hướng dẫn từng bước kèm ví dụ mã.
+date: 2026-03-27
+description: Tìm hiểu cách sử dụng Aspose và Aspose.Tasks để trích xuất chi tiết lịch
+  dự án từ các tệp Microsoft Project bằng Java. Hướng dẫn từng bước kèm ví dụ mã.
 linktitle: Retrieve Calendar Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Cách sử dụng Aspose.Tasks để lấy thông tin lịch của MS Project
+title: Cách sử dụng Aspose.Tasks để lấy thông tin lịch MS Project
 url: /vi/java/project-file-operations/retrieve-calendar-info/
 weight: 14
 ---
@@ -15,30 +15,34 @@ weight: 14
 
 # Cách Sử Dụng Aspose.Tasks Để Lấy Thông Tin Lịch Trình MS Project
 
-## Giới Thiệu
-Trong hướng dẫn này, **bạn sẽ khám phá cách sử dụng Aspose.Tasks** để lập trình lấy thông tin lịch trình từ các tệp Microsoft Project. Truy cập dữ liệu lịch như ngày làm việc, giờ làm và các ngoại lệ là rất quan trọng khi bạn cần **trích xuất lịch dự án** cho việc báo cáo, tích hợp hoặc logic lập lịch tùy chỉnh. Hãy cùng đi qua quy trình từng bước.
+## Giới thiệu
+Trong hướng dẫn này, **bạn sẽ khám phá cách sử dụng Aspose.Tasks** để lập trình lấy thông tin lịch trình từ các tệp Microsoft Project. Truy cập dữ liệu lịch như ngày làm việc, giờ làm và các ngoại lệ là rất quan trọng khi bạn cần **trích xuất lịch dự án** cho báo cáo, tích hợp hoặc logic lập lịch tùy chỉnh. Hãy cùng đi qua quy trình từng bước, và bạn sẽ thấy **cách sử dụng Aspose** để lấy dữ liệu này từ tệp *.mpp*.
 
-## Câu Trả Lời Nhanh
+## Câu trả lời nhanh
 - **Thư viện nào được sử dụng trong hướng dẫn này?** Aspose.Tasks for Java.  
-- **Từ khóa chính được đề cập là gì?** *how to use aspose.tasks*.  
-- **Bạn có thể trích xuất gì?** Lịch dự án, bao gồm ngày làm việc và giờ làm việc.  
-- **Tôi có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép cần thiết cho môi trường sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn.
+- **Từ khóa chính được đề cập là gì?** *how to use aspose*.  
+- **Bạn có thể trích xuất gì?** Lịch dự án, bao gồm ngày và giờ làm việc.  
+- **Có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 trở lên.
 
-## Tại Sao cần trích xuất thông tin lịch dự án?
-Lịch dự án quyết định ngày thực hiện công việc, phân bổ nguồn lực và tính toán thời gian tổng thể. Bằng cách trích xuất dữ liệu này, bạn có thể:
+## Aspose.Tasks là gì và tại sao nên dùng?
+Aspose.Tasks là một API Java mạnh mẽ cho phép các nhà phát triển đọc, ghi và thao tác các tệp Microsoft Project mà không cần cài đặt Microsoft Project. Bằng cách sử dụng Aspose.Tasks, bạn có thể **cách trích xuất lịch** thông tin, tự động tính toán lịch trình, và tích hợp dữ liệu dự án với các hệ thống doanh nghiệp khác — tất cả chỉ bằng mã Java thuần.
+
+## Tại sao cần trích xuất thông tin lịch dự án?
+Lịch dự án quyết định ngày thực hiện công việc, phân bổ nguồn lực và tính toán tổng thời gian. Bằng cách trích xuất dữ liệu này, bạn có thể:
 - Tạo báo cáo tùy chỉnh phản ánh lịch làm việc thực tế.  
-- Đồng bộ thời gian Microsoft Project với các hệ thống bên ngoài (ERP, BI, v.v.).  
-- Thực hiện phân tích “what‑if” bằng cách thay đổi cài đặt lịch trình một cách lập trình.
+- Đồng bộ thời gian của Microsoft Project với các hệ thống bên ngoài (ERP, BI, v.v.).  
+- Thực hiện phân tích “what‑if” bằng cách thay đổi cài đặt lịch trình một cách lập trình.  
+- **Trích xuất dữ liệu lịch MS Project** để di chuyển sang các công cụ lập kế hoạch khác.
 
-## Yêu Cầu Trước
-Trước khi bắt đầu, hãy đảm bảo bạn có:
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
 - Kiến thức cơ bản về lập trình Java.  
-- Java Development Kit (JDK) đã được cài đặt trên hệ thống của bạn.  
-- Thư viện Aspose.Tasks for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/tasks/java/).
+- Java Development Kit (JDK) được cài đặt trên máy tính.  
+- Thư viện Aspose.Tasks for Java. Bạn có thể tải về từ [đây](https://releases.aspose.com/tasks/java/).
 
-## Nhập Gói
+## Nhập khẩu các gói
 Đầu tiên, nhập các lớp Aspose.Tasks cần thiết vào dự án Java của bạn.
 
 ```java
@@ -56,10 +60,10 @@ Xác định thư mục chứa tệp *.mpp* của bạn.
 String dataDir = "Your Data Directory";
 ```
 
-Thay thế `"Your Data Directory"` bằng đường dẫn tuyệt đối tới thư mục chứa **project.mpp**.
+Thay `"Your Data Directory"` bằng đường dẫn tuyệt đối tới thư mục chứa **project.mpp**.
 
 ## Bước 2: Định Nghĩa Đơn Vị Thời Gian
-Tạo các hằng số giúp chuyển đổi biểu diễn thời gian nội bộ sang giờ có thể đọc được bởi con người.
+Tạo các hằng số giúp chuyển đổi biểu diễn thời gian nội bộ sang giờ có thể đọc được.
 
 ```java
 long OneSec = 10000000;
@@ -67,28 +71,28 @@ long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
 
-Các giá trị này được biểu thị bằng microseconds, là cách Aspose.Tasks lưu trữ thời gian bên trong.
+Các giá trị này được biểu diễn bằng microseconds, là cách Aspose.Tasks lưu trữ thời gian bên trong.
 
 ## Bước 3: Tạo Đối Tượng Project
-Tải tệp Microsoft Project vào một đối tượng `Project`.
+Nạp tệp Microsoft Project vào một đối tượng `Project`.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-Bộ khởi tạo `Project` sẽ phân tích tệp *.mpp* và làm cho tất cả dữ liệu dự án, bao gồm lịch, có thể truy cập thông qua API.
+Constructor `Project` sẽ phân tích tệp *.mpp* và cung cấp toàn bộ dữ liệu dự án, bao gồm cả lịch, thông qua API.
 
-## Bước 4: Lấy Thông Tin Lịch Trình
-Lấy tập hợp các lịch được định nghĩa trong dự án.
+## Bước 4: Lấy Thông Tin Lịch
+Lấy bộ sưu tập các lịch được định nghĩa trong dự án.
 
 ```java
 CalendarCollection alCals = project.getCalendars();
 ```
 
-Một dự án có thể chứa nhiều lịch (lịch chuẩn, lịch nguồn lực và lịch tùy chỉnh). Tập hợp này cho phép bạn truy cập từng lịch một.
+Một dự án có thể chứa nhiều lịch (lịch tiêu chuẩn, lịch nguồn lực và lịch tùy chỉnh). Bộ sưu tập này cho phép bạn truy cập từng lịch một.
 
-## Bước 5: Duyệt Qua Các Lịch Trình
-Lặp qua mọi lịch, hiển thị UID, tên và các ngày làm việc cùng với giờ làm việc tương ứng.
+## Bước 5: Duyệt Qua Các Lịch
+Lặp qua mỗi lịch, hiển thị UID, tên và các ngày làm việc cùng giờ tương ứng.
 
 ```java
 for (Calendar cal : alCals) {
@@ -112,40 +116,47 @@ for (Calendar cal : alCals) {
 }
 ```
 
-Vòng lặp bên trong kiểm tra từng đối tượng `WeekDay`. Nếu ngày được đánh dấu là ngày làm việc, nó sẽ in loại ngày (Monday, Tuesday, …) cùng với số giờ làm việc đã tính.
+Vòng lặp bên trong kiểm tra từng đối tượng `WeekDay`. Nếu ngày được đánh dấu là làm việc, nó sẽ in loại ngày (Monday, Tuesday, …) cùng với số giờ làm việc đã tính.
 
 ## Bước 6: Hiển Thị Thông Báo Hoàn Thành
-Thông báo rằng quá trình trích xuất đã kết thúc.
+Thông báo quá trình trích xuất đã hoàn tất.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-## Kết Luận
-Bằng cách thực hiện các bước trên, **bây giờ bạn đã biết cách sử dụng Aspose.Tasks để trích xuất thông tin lịch dự án** từ tệp MS Project bằng Java. Bạn có thể tích hợp logic này vào các ứng dụng lớn hơn, tự động hoá báo cáo, hoặc đồng bộ lịch với các hệ thống doanh nghiệp khác.
+## Các Vấn Đề Thường Gặp và Giải Pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **Không có lịch nào được trả về** | Tệp dự án có thể không chứa lịch tùy chỉnh nào. | Kiểm tra xem *.mpp* thực sự có định nghĩa lịch hay mở nó trong Microsoft Project để xác nhận. |
+| **Giờ làm việc không đúng** | Các hằng số chuyển đổi thời gian không phù hợp với phiên bản Project khác. | Điều chỉnh `OneSec`, `OneMin`, `OneHour` nếu bạn dùng phiên bản Aspose.Tasks mới hơn thay đổi đơn vị thời gian nội bộ. |
+| **`NullPointerException` ở `cal.getName()`** | Một số đối tượng lịch có thể null. | Thêm kiểm tra null trước khi truy cập thuộc tính (đã được minh họa trong mã). |
 
 ## Câu Hỏi Thường Gặp
 
-**Q: Tôi có thể sử dụng Aspose.Tasks với các ngôn ngữ lập trình khác không?**  
-A: Có, Aspose.Tasks hỗ trợ nhiều nền tảng và ngôn ngữ lập trình, bao gồm .NET, C++, Python và Java.
+**H: Tôi có thể dùng Aspose.Tasks với các ngôn ngữ lập trình khác không?**  
+Đ: Có, Aspose.Tasks hỗ trợ nhiều nền tảng và ngôn ngữ lập trình, bao gồm .NET, C++, Python và Java.
 
-**Q: Có bản dùng thử miễn phí cho Aspose.Tasks không?**  
-A: Có, bạn có thể tải phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+**H: Có bản dùng thử miễn phí cho Aspose.Tasks không?**  
+Đ: Có, bạn có thể tải bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
-**Q: Làm sao tôi có thể nhận được hỗ trợ cho Aspose.Tasks?**  
-A: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks [đây](https://forum.aspose.com/c/tasks/15).
+**H: Làm sao để nhận hỗ trợ cho Aspose.Tasks?**  
+Đ: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks [tại đây](https://forum.aspose.com/c/tasks/15).
 
-**Q: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?**  
-A: Có, giấy phép tạm thời có sẵn để mua [đây](https://purchase.aspose.com/temporary-license/).
+**H: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?**  
+Đ: Có, giấy phép tạm thời có thể mua [tại đây](https://purchase.aspose.com/temporary-license/).
 
-**Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.Tasks ở đâu?**  
-A: Bạn có thể tham khảo tài liệu [đây](https://reference.aspose.com/tasks/java/).
+**H: Tôi có thể tìm tài liệu chi tiết cho Aspose.Tasks ở đâu?**  
+Đ: Bạn có thể tham khảo tài liệu [tại đây](https://reference.aspose.com/tasks/java/).
+
+## Kết luận
+Bằng cách thực hiện các bước trên, **bây giờ bạn đã biết cách sử dụng Aspose.Tasks để trích xuất thông tin lịch dự án** từ tệp MS Project bằng Java. Bạn có thể tích hợp logic này vào các ứng dụng lớn hơn, tự động hoá báo cáo, hoặc đồng bộ lịch trình với các hệ thống doanh nghiệp khác. Hãy nhớ, việc thành thạo **cách sử dụng aspose** mở ra nhiều kịch bản tự động hoá quản lý dự án nâng cao.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-03-27  
+**Đã kiểm tra với:** Aspose.Tasks for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
