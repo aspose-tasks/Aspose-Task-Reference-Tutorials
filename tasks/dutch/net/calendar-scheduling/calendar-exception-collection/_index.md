@@ -1,63 +1,76 @@
 ---
-title: Verzameling van agenda-uitzonderingen in Aspose.Tasks
-linktitle: Verzameling van agenda-uitzonderingen in Aspose.Tasks
+date: 2026-04-09
+description: Leer hoe u een standaardkalender instelt en projectvakanties beheert
+  in uw .NET‑projecten met Aspose.Tasks voor nauwkeurige planning.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Standaardkalender instellen en uitzonderingen verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u agenda-uitzonderingen in uw .NET-projecten efficiënt kunt afhandelen met behulp van Aspose.Tasks, zodat u verzekerd bent van nauwkeurige planning en resourcebeheer.
-weight: 13
+title: Standaardkalender instellen en uitzonderingen afhandelen in Aspose.Tasks
 url: /nl/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verzameling van agenda-uitzonderingen in Aspose.Tasks
+# Standaardkalender instellen en uitzonderingen afhandelen in Aspose.Tasks
 
-## Invoering
+## Introductie
 
-Bij projectmanagement is nauwkeurige planning essentieel voor succes. Real-world scenario's vereisen echter vaak afwijkingen van de standaardschema's vanwege vakanties, speciale evenementen of andere factoren. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het beheren van dergelijke uitzonderingen via de functie Agenda-uitzonderingen verzamelen. Deze tutorial begeleidt u stap voor stap bij het gebruik van deze functionaliteit.
+Nauwkeurige planning is de ruggengraat van elk succesvol project, en real‑world plannen moeten vaak afwijken van de standaard werkagenda vanwege feestdagen, speciale evenementen of onverwachte stilleggingen. Aspose.Tasks voor .NET maakt het eenvoudig om **set standard calendar** instellingen te configureren en vervolgens aangepaste uitzonderingen toe te voegen. In deze tutorial leer je hoe je een projectkalender laadt, een standaardkalender instelt en projectvakanties beheert via de Calendar Exception Collection‑functie.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat doet “set standard calendar”?** Het reset een kalender naar de standaard werktijd (9 uur‑17 uur, maandag‑vrijdag) voordat je aangepaste uitzonderingen toevoegt.  
+- **Welke methode wist bestaande uitzonderingen?** `Calendar.Exceptions.Clear()` verwijdert alle eerder gedefinieerde uitzonderingen.  
+- **Hoe kan ik een vakantie toevoegen?** Maak een `CalendarException` met `DayWorking = false` en voeg deze toe aan de collectie.  
+- **Moet ik het project opnieuw laden na wijzigingen?** Nee, wijzigingen worden direct toegepast op het in‑memory `Project`‑object.  
+- **Welke bibliotheken zijn vereist?** Aspose.Tasks voor .NET (elke ondersteunde .NET‑versie) en `System`‑namespaces.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Voorvereisten
 
-1.  Aspose.Tasks voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
-2. Basiskennis van C#: Bekendheid met de programmeertaal C# zal nuttig zijn bij het begrijpen van de voorbeelden.
-3. Ontwikkelomgeving: Stel de ontwikkelomgeving van uw voorkeur in, zoals Visual Studio of JetBrains Rider.
+1. **Aspose.Tasks for .NET** – download het [hier](https://releases.aspose.com/tasks/net/).  
+2. Basiskennis van **C#** – je zult een paar korte fragmenten schrijven.  
+3. Een ontwikkelomgeving zoals **Visual Studio** of **JetBrains Rider**.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Voordat u met Aspose.Tasks voor .NET gaat werken, moet u de vereiste naamruimten in uw project importeren. Met deze stap krijgt u toegang tot de klassen en methoden die nodig zijn voor het beheren van agenda-uitzonderingen.
+Deze `using`‑directieven geven je toegang tot de klassen die nodig zijn voor het manipuleren van kalenders.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Laten we het gegeven voorbeeld nu in meerdere stappen opsplitsen:
+## Wat is een kalenderuitzondering?
 
-## Stap 1: Project laden en kalender ophalen
+Een *kalenderuitzondering* vertegenwoordigt een periode waarin het normale werkschema wordt aangepast – bijvoorbeeld een bedrijfsbrede feestdag of een tijdelijk overurenschema. Door uitzonderingen aan een kalender toe te voegen kun je real‑world beperkingen modelleren zonder de basisagenda te wijzigen.
+
+## Hoe een standaardkalender instellen in Aspose.Tasks
+
+De eerste stap is het laden van je projectbestand en het ophalen van de kalender waarmee je wilt werken.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-In deze stap laden we een projectbestand en halen we de gewenste kalender op via de UID.
+### Stap 1: Bestaande uitzonderingen wissen en resetten naar een standaardkalender
 
-## Stap 2: Wis bestaande uitzonderingen en stel de standaardkalender in
+Voordat je nieuwe regels toevoegt, is het een goede gewoonte om eventuele oude uitzonderingen te wissen en **set standard calendar** instellingen te gebruiken. Dit zorgt voor een schone basis.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Met deze stap worden eventuele bestaande uitzonderingen uit de agenda gewist en ingesteld op een standaardconfiguratie.
+### Stap 2: Een werktijd‑uitzondering definiëren
 
-## Stap 3: Werktijduitzondering definiëren en toevoegen
+Soms moet je een tijdelijk schema maken (bijv. verlengde uren voor een productlancering). Het volgende fragment definieert een werktijd‑uitzondering die zich over meerdere dagen uitstrekt en twee dagelijkse werkperioden bevat.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +87,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Deze stap definieert een uitzondering voor de werktijd met specifieke begin- en einddatums, samen met werktijden binnen die datums, en voegt deze toe aan de kalender.
+### Stap 3: Niet‑werkende tijd‑uitzonderingen toevoegen (vakanties)
 
-## Stap 4: Uitzonderingen voor niet-werktijd definiëren en toevoegen
+Om **projectvakanties** te beheren, maak je uitzonderingen waarbij `DayWorking` `false` is. Het voorbeeld hieronder voegt een twee‑daagse vakantieblok toe.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +99,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Voeg indien nodig meer uitzonderingen toe
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Met deze stap worden uitzonderingen op niet-werktijden, zoals feestdagen, gedefinieerd en aan de kalender toegevoegd.
+### Stap 4: Kalenderuitzonderingen weergeven (verificatie)
 
-## Stap 5: Agenda-uitzonderingen weergeven
+Na het toevoegen van uitzonderingen wil je vaak verifiëren dat ze correct zijn vastgelegd. De volgende lus print de details van elke uitzondering naar de console.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +122,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-In deze stap worden de toegevoegde agenda-uitzonderingen weergegeven, samen met hun details.
+### Stap 5: Alle uitzonderingen verwijderen (opschonen)
 
-## Stap 6: verwijder alle uitzonderingen
+Als je de kalender wilt terugzetten naar de oorspronkelijke staat, kun je elke uitzondering programmatisch verwijderen.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +135,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Ten slotte verwijdert deze stap alle uitzonderingen uit de kalender.
+## Veelvoorkomende problemen en oplossingen
 
-## Conclusie
-
-Het beheren van kalenderuitzonderingen is cruciaal voor een nauwkeurige projectplanning. Aspose.Tasks voor .NET vereenvoudigt deze taak door een uitgebreide reeks functies te bieden, waaronder de Calendar Exception Collection. Door de stappen in deze zelfstudie te volgen, kunt u efficiënt omgaan met verschillende planningsscenario's binnen uw projecten.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| Uitzonderingen verschijnen niet na opslaan | Project niet opgeslagen na wijzigingen | Roep `project.Save("output.mpp")` aan na het aanbrengen van wijzigingen. |
+| Overlapende uitzonderingen veroorzaken onverwachte werktijden | Aspose.Tasks gebruikt de laatst toegevoegde uitzondering voor overlappende periodes | Orden je `Add`‑aanroepen zorgvuldig of pas handmatig prioriteiten aan. |
+| `MakeStandardCalendar` reset aangepaste werktijden | Het wist opzettelijk aangepaste tijden; voeg ze opnieuw toe na de aanroep indien nodig. | Voeg je aangepaste `WorkingTime`‑objecten toe na het aanroepen van `MakeStandardCalendar`. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik meerdere uitzonderingen toevoegen aan één kalender?
+**Q: Kan ik meerdere uitzonderingen aan één kalender toevoegen?**  
+A: Ja, je kunt meerdere uitzonderingen aan een kalender toevoegen met de `AddRange`‑methode.
 
- A1: Ja, u kunt meerdere uitzonderingen aan een kalender toevoegen met behulp van de`AddRange` methode.
+**Q: Hoe ga ik om met terugkerende uitzonderingen, zoals wekelijkse vakanties?**  
+A: Je kunt programmatisch terugkerende uitzonderingen berekenen en ze aan de kalender toevoegen met aangepaste logica.
 
-### Vraag 2: Hoe ga ik om met terugkerende uitzonderingen, zoals wekelijkse vakanties?
+**Q: Is het mogelijk om kalenderuitzonderingen te importeren vanuit externe bronnen?**  
+A: Ja, je kunt kalenderuitzonderingen lezen uit externe bronnen zoals databases of CSV‑bestanden en ze in je project integreren.
 
-A2: U kunt terugkerende uitzonderingen programmatisch berekenen en deze met behulp van aangepaste logica aan de agenda toevoegen.
+**Q: Wat gebeurt er als er overlappende uitzonderingen in de kalender zijn?**  
+A: Aspose.Tasks voor .NET stelt je in staat overlappende uitzonderingen af te handelen door prioriteiten te definiëren of conflicten op te lossen op basis van je projectvereisten.
 
-### Vraag 3: Is het mogelijk om agenda-uitzonderingen uit externe bronnen te importeren?
+**Q: Kan ik de werktijden voor elke dag binnen een uitzondering aanpassen?**  
+A: Ja, je kunt aangepaste werktijden specificeren voor individuele dagen binnen een uitzondering om te voldoen aan specifieke planningsbehoeften.
 
-A3: Ja, u kunt kalenderuitzonderingen uit externe bronnen zoals databases of CSV-bestanden lezen en deze in uw project integreren.
+## Conclusie
 
-### Vraag 4: Wat gebeurt er als er overlappende uitzonderingen in de kalender voorkomen?
+Door eerst **set standard calendar** in te stellen en vervolgens aangepaste uitzonderingen toe te voegen, krijg je volledige controle over projectplanning, waardoor het eenvoudig wordt om **projectvakanties** te beheren en andere speciale tijdlijnen. De Calendar Exception Collection in Aspose.Tasks biedt een nette, programmatic manier om real‑world kalenders direct binnen je .NET‑applicaties te modelleren.
 
-A4: Met Aspose.Tasks voor .NET kunt u overlappende uitzonderingen afhandelen door prioriteiten te definiëren of conflicten op te lossen op basis van uw projectvereisten.
+---
 
-### Vraag 5: Kan ik de werktijden voor elke dag aanpassen, behoudens uitzonderingen?
+**Laatst bijgewerkt:** 2026-04-09  
+**Getest met:** Aspose.Tasks 24.12 for .NET  
+**Auteur:** Aspose  
 
-A5: Ja, u kunt aangepaste werktijden opgeven voor individuele dagen binnen een uitzondering om tegemoet te komen aan specifieke planningsbehoeften.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

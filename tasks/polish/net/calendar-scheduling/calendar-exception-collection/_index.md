@@ -1,63 +1,78 @@
 ---
-title: Zbiór wyjątków kalendarza w Aspose.Tasks
-linktitle: Zbiór wyjątków kalendarza w Aspose.Tasks
+date: 2026-04-09
+description: Dowiedz się, jak ustawić standardowy kalendarz i zarządzać dniami wolnymi
+  w projektach .NET przy użyciu Aspose.Tasks, aby zapewnić dokładne harmonogramowanie.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Ustaw standardowy kalendarz i obsłuż wyjątki w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET za pomocą Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
-weight: 13
+title: Ustaw standardowy kalendarz i obsłuż wyjątki w Aspose.Tasks
 url: /pl/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zbiór wyjątków kalendarza w Aspose.Tasks
+# Ustaw standardowy kalendarz i obsłuż wyjątki w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-zarządzaniu projektami precyzyjne planowanie ma kluczowe znaczenie dla osiągnięcia sukcesu. Jednak rzeczywiste scenariusze często wymagają odstępstw od standardowych harmonogramów ze względu na święta, wydarzenia specjalne lub inne czynniki. Aspose.Tasks dla .NET zapewnia solidne rozwiązanie do zarządzania takimi wyjątkami poprzez funkcję zbierania wyjątków kalendarza. Ten samouczek przeprowadzi Cię krok po kroku przez proces korzystania z tej funkcji.
+Dokładne planowanie jest podstawą każdego udanego projektu, a plany w rzeczywistości często muszą odbiegać od domyślnego kalendarza pracy z powodu świąt, specjalnych wydarzeń lub nieoczekiwanych przestojów. Aspose.Tasks dla .NET ułatwia **set standard calendar** ustawienia i następnie nakładanie własnych wyjątków. W tym samouczku nauczysz się, jak wczytać kalendarz projektu, ustawić standardowy kalendarz oraz zarządzać świętami projektowymi za pomocą funkcji Calendar Exception Collection.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „set standard calendar”?** Resetuje kalendarz do domyślnego czasu pracy (9 – 17, od poniedziałku do piątku) przed dodaniem własnych wyjątków.  
+- **Która metoda usuwa istniejące wyjątki?** `Calendar.Exceptions.Clear()` usuwa wszystkie wcześniej zdefiniowane wyjątki.  
+- **Jak dodać święto?** Utwórz `CalendarException` z `DayWorking = false` i dodaj go do kolekcji.  
+- **Czy muszę ponownie wczytać projekt po zmianach?** Nie, zmiany są stosowane bezpośrednio do obiektu `Project` w pamięci.  
+- **Jakie biblioteki są wymagane?** Aspose.Tasks dla .NET (dowolna obsługiwana wersja .NET) oraz przestrzenie nazw `System`.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-1.  Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
-2. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie pomocna w zrozumieniu przykładów.
-3. Środowisko programistyczne: skonfiguruj preferowane środowisko programistyczne, takie jak Visual Studio lub JetBrains Rider.
+Zanim zagłębisz się w kod, upewnij się, że masz:
 
-## Importuj przestrzenie nazw
+1. **Aspose.Tasks for .NET** – download it [here](https://releases.aspose.com/tasks/net/).  
+2. Podstawową znajomość **C#** – będziesz pisać kilka krótkich fragmentów.  
+3. Środowisko programistyczne, takie jak **Visual Studio** lub **JetBrains Rider**.
 
-Zanim zaczniesz pracować z Aspose.Tasks dla .NET, musisz zaimportować wymagane przestrzenie nazw do swojego projektu. Ten krok umożliwia dostęp do klas i metod niezbędnych do zarządzania wyjątkami kalendarza.
+## Importowanie przestrzeni nazw
+
+Te dyrektywy `using` zapewniają dostęp do klas potrzebnych do manipulacji kalendarzem.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Podzielmy teraz podany przykład na kilka kroków:
+## Czym jest wyjątek kalendarza?
 
-## Krok 1: Załaduj projekt i pobierz kalendarz
+*Wyjątek kalendarza* reprezentuje okres, w którym normalny harmonogram pracy jest zmieniony – na przykład ogólnozakładowe święto lub tymczasowy harmonogram nadgodzin. Dodając wyjątki do kalendarza, możesz modelować rzeczywiste ograniczenia bez zmiany bazowego kalendarza.
+
+## Jak ustawić standardowy kalendarz w Aspose.Tasks
+
+Pierwszym krokiem jest wczytanie pliku projektu i pobranie kalendarza, z którym chcesz pracować.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-Na tym etapie ładujemy plik projektu i pobieramy żądany kalendarz według jego UID.
+### Krok 1: Usuń istniejące wyjątki i zresetuj do standardowego kalendarza
 
-## Krok 2: Usuń istniejące wyjątki i ustaw kalendarz standardowy
+Przed dodaniem nowych reguł, dobrą praktyką jest usunięcie starych wyjątków i **set standard calendar** ustawień. Zapewnia to czystą bazę.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Ten krok usuwa wszelkie istniejące wyjątki z kalendarza i ustawia go do standardowej konfiguracji.
+### Krok 2: Zdefiniuj wyjątek czasu pracy
 
-## Krok 3: Zdefiniuj i dodaj wyjątek dotyczący czasu pracy
+Czasami trzeba stworzyć tymczasowy harmonogram (np. wydłużone godziny przy wprowadzaniu produktu). Poniższy fragment definiuje wyjątek czasu pracy obejmujący kilka dni i zawierający dwa dzienne okresy pracy.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-W tym kroku definiuje się wyjątek czasu pracy z określonymi datami początkowymi i końcowymi oraz czasem pracy w tych datach i dodaje go do kalendarza.
+### Krok 3: Dodaj wyjątki czasu niepracującego (święta)
 
-## Krok 4: Zdefiniuj i dodaj wyjątki dotyczące czasu wolnego od pracy
+Aby **manage project holidays**, utwórz wyjątki, w których `DayWorking` jest `false`. Poniższy przykład dodaje dwudniowy blok świąteczny.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// W razie potrzeby dodaj więcej wyjątków
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-W tym kroku definiuje się wyjątki w czasie wolnym od pracy, takie jak święta, i dodaje je do kalendarza.
+### Krok 4: Wyświetl wyjątki kalendarza (weryfikacja)
 
-## Krok 5: Wyświetl wyjątki kalendarza
+Po dodaniu wyjątków często chcesz zweryfikować, czy zostały poprawnie zapisane. Poniższa pętla wypisuje szczegóły każdego wyjątku na konsolę.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-W tym kroku zostaną wyświetlone dodane wyjątki kalendarza wraz z ich szczegółami.
+### Krok 5: Usuń wszystkie wyjątki (czyszczenie)
 
-## Krok 6: Usuń wszystkie wyjątki
+Jeśli potrzebujesz przywrócić kalendarz do pierwotnego stanu, możesz programowo usunąć wszystkie wyjątki.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Na koniec ten krok usuwa wszystkie wyjątki z kalendarza.
+## Typowe problemy i rozwiązania
 
-## Wniosek
+| Problem | Powód | Rozwiązanie |
+|-------|--------|-----|
+| Wyjątki nie pojawiają się po zapisaniu | Projekt nie został zapisany po modyfikacjach | Wywołaj `project.Save("output.mpp")` po wprowadzeniu zmian. |
+| Nakładające się wyjątki powodują nieoczekiwane godziny pracy | Aspose.Tasks używa ostatnio dodanego wyjątku dla nakładających się okresów | Ułóż wywołania `Add` ostrożnie lub ręcznie dostosuj priorytety. |
+| `MakeStandardCalendar` resetuje niestandardowe godziny pracy | Celowo usuwa niestandardowe godziny; w razie potrzeby dodaj je ponownie po wywołaniu. | Dodaj własne obiekty `WorkingTime` po wywołaniu `MakeStandardCalendar`. |
 
-Zarządzanie wyjątkami w kalendarzu ma kluczowe znaczenie dla dokładnego planowania projektu. Aspose.Tasks dla .NET upraszcza to zadanie, udostępniając kompleksowy zestaw funkcji, w tym kolekcję wyjątków kalendarza. Wykonując kroki opisane w tym samouczku, możesz efektywnie obsługiwać różne scenariusze planowania w swoich projektach.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**Q: Czy mogę dodać wiele wyjątków do jednego kalendarza?**  
+A: Tak, możesz dodać wiele wyjątków do kalendarza używając metody `AddRange`.
 
-### P1: Czy mogę dodać wiele wyjątków do jednego kalendarza?
+**Q: Jak obsłużyć powtarzające się wyjątki, takie jak cotygodniowe święta?**  
+A: Możesz programowo obliczyć powtarzające się wyjątki i dodać je do kalendarza przy użyciu własnej logiki.
 
- O1: Tak, możesz dodać wiele wyjątków do kalendarza za pomocą`AddRange` metoda.
+**Q: Czy można importować wyjątki kalendarza z zewnętrznych źródeł?**  
+A: Tak, możesz odczytać wyjątki kalendarza z zewnętrznych źródeł, takich jak bazy danych czy pliki CSV i zintegrować je z projektem.
 
-### P2: Jak sobie poradzić z powtarzającymi się wyjątkami, takimi jak cotygodniowe święta?
+**Q: Co się stanie, jeśli w kalendarzu wystąpią nakładające się wyjątki?**  
+A: Aspose.Tasks dla .NET pozwala obsłużyć nakładające się wyjątki, definiując priorytety lub rozwiązując konflikty zgodnie z wymaganiami projektu.
 
-Odpowiedź 2: Możesz programowo obliczyć powtarzające się wyjątki i dodać je do kalendarza przy użyciu logiki niestandardowej.
+**Q: Czy mogę dostosować godziny pracy dla każdego dnia w ramach wyjątku?**  
+A: Tak, możesz określić własne godziny pracy dla poszczególnych dni w ramach wyjątku, aby dopasować je do konkretnych potrzeb harmonogramu.
 
-### P3: Czy można importować wyjątki kalendarza ze źródeł zewnętrznych?
+## Podsumowanie
 
-Odpowiedź 3: Tak, możesz czytać wyjątki kalendarza ze źródeł zewnętrznych, takich jak bazy danych lub pliki CSV i integrować je ze swoim projektem.
+Poprzez **setting a standard calendar** najpierw, a następnie nakładanie własnych wyjątków, zyskujesz pełną kontrolę nad planowaniem projektu, co ułatwia **manage project holidays** oraz inne specjalne terminy. Kolekcja Calendar Exception w Aspose.Tasks zapewnia czysty, programowy sposób modelowania rzeczywistych kalendarzy bezpośrednio w aplikacjach .NET.
 
-### P4: Co się stanie, jeśli w kalendarzu pojawią się nakładające się wyjątki?
+---
 
-O4: Aspose.Tasks dla .NET umożliwia obsługę nakładających się wyjątków poprzez definiowanie priorytetów lub rozwiązywanie konfliktów w oparciu o wymagania projektu.
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-### P5: Czy mogę dostosować godziny pracy na każdy dzień w ramach wyjątku?
-
-Odpowiedź 5: Tak, możesz określić niestandardowe godziny pracy dla poszczególnych dni w ramach wyjątku, aby uwzględnić określone potrzeby związane z harmonogramem.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

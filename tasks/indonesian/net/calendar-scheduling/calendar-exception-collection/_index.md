@@ -1,63 +1,78 @@
 ---
-title: Kumpulan Pengecualian Kalender di Aspose.Tasks
-linktitle: Kumpulan Pengecualian Kalender di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara menangani pengecualian kalender secara efisien di proyek .NET Anda menggunakan Aspose.Tasks, memastikan penjadwalan dan manajemen sumber daya yang akurat.
-weight: 13
+date: 2026-04-09
+description: Pelajari cara mengatur kalender standar dan mengelola hari libur proyek
+  dalam proyek .NET Anda menggunakan Aspose.Tasks untuk penjadwalan yang akurat.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Atur Kalender Standar dan Tangani Pengecualian di Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Atur Kalender Standar dan Tangani Pengecualian di Aspose.Tasks
 url: /id/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kumpulan Pengecualian Kalender di Aspose.Tasks
+# Setel Kalender Standar dan Tangani Pengecualian di Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Dalam manajemen proyek, penjadwalan yang tepat sangat penting untuk kesuksesan. Namun, skenario dunia nyata sering kali memerlukan penyimpangan dari jadwal standar karena hari libur, acara khusus, atau faktor lainnya. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk mengelola pengecualian tersebut melalui fitur Koleksi Pengecualian Kalender. Tutorial ini akan memandu Anda melalui proses pemanfaatan fungsi ini langkah demi langkah.
+Penjadwalan yang akurat adalah tulang punggung setiap proyek yang berhasil, dan rencana dunia nyata sering harus menyimpang dari kalender kerja default karena hari libur, acara khusus, atau penghentian tak terduga. Aspose.Tasks untuk .NET memudahkan untuk **set standard calendar** settings dan kemudian menambahkan pengecualian khusus di atasnya. Dalam tutorial ini Anda akan belajar cara memuat kalender proyek, menyetel kalender standar, dan mengelola hari libur proyek melalui fitur Calendar Exception Collection.
+
+## Jawaban Cepat
+- **Apa yang dilakukan “set standard calendar”?** Ini mengatur ulang kalender ke waktu kerja default (09.00‑17.00, Senin‑Jumat) sebelum Anda menambahkan pengecualian khusus.  
+- **Metode mana yang menghapus pengecualian yang ada?** `Calendar.Exceptions.Clear()` menghapus semua pengecualian yang sebelumnya didefinisikan.  
+- **Bagaimana cara menambahkan hari libur?** Buat `CalendarException` dengan `DayWorking = false` dan tambahkan ke koleksi.  
+- **Apakah saya perlu memuat ulang proyek setelah perubahan?** Tidak, perubahan diterapkan langsung ke objek `Project` dalam memori.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Tasks untuk .NET (versi .NET yang didukung) dan namespace `System`.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke kode, pastikan Anda memiliki:
 
-1.  Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
-2. Pengetahuan dasar C#: Keakraban dengan bahasa pemrograman C# akan membantu dalam memahami contoh-contoh.
-3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan pilihan Anda, seperti Visual Studio atau JetBrains Rider.
+1. **Aspose.Tasks for .NET** – unduh di [here](https://releases.aspose.com/tasks/net/).  
+2. Pengetahuan dasar tentang **C#** – Anda akan menulis beberapa potongan kode singkat.  
+3. Lingkungan pengembangan seperti **Visual Studio** atau **JetBrains Rider**.
 
 ## Impor Namespace
 
-Sebelum Anda mulai bekerja dengan Aspose.Tasks untuk .NET, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek Anda. Langkah ini memungkinkan Anda mengakses kelas dan metode yang diperlukan untuk mengelola pengecualian kalender.
+Direktif `using` ini memberi Anda akses ke kelas yang diperlukan untuk manipulasi kalender.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah:
+## Apa itu Pengecualian Kalender?
 
-## Langkah 1: Muat Proyek dan Ambil Kalender
+*Pengecualian kalender* mewakili periode di mana jadwal kerja normal diubah – misalnya, libur perusahaan atau jadwal lembur sementara. Dengan menambahkan pengecualian ke kalender, Anda dapat memodelkan kendala dunia nyata tanpa mengubah kalender dasar.
+
+## Cara Menyetel Kalender Standar di Aspose.Tasks
+
+Langkah pertama adalah memuat file proyek Anda dan mengambil kalender yang ingin Anda gunakan.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-Pada langkah ini, kami memuat file proyek dan mengambil kalender yang diinginkan berdasarkan UID-nya.
+### Langkah 1: Hapus Pengecualian yang Ada dan Atur Ulang ke Kalender Standar
 
-## Langkah 2: Hapus Pengecualian yang Ada dan Tetapkan Kalender Standar
+Sebelum menambahkan aturan baru, sebaiknya hapus semua pengecualian lama dan **set standard calendar** settings. Ini memastikan baseline yang bersih.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Langkah ini menghapus semua pengecualian yang ada dari kalender dan menetapkannya ke konfigurasi standar.
+### Langkah 2: Definisikan Pengecualian Waktu Kerja
 
-## Langkah 3: Tentukan dan Tambahkan Pengecualian Waktu Kerja
+Kadang‑kadang Anda perlu membuat jadwal sementara (misalnya, jam kerja tambahan untuk peluncuran produk). Potongan kode berikut mendefinisikan pengecualian waktu kerja yang mencakup beberapa hari dan dua periode kerja harian.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Langkah ini menentukan pengecualian waktu kerja dengan tanggal mulai dan akhir tertentu, beserta waktu kerja dalam tanggal tersebut, dan menambahkannya ke kalender.
+### Langkah 3: Tambahkan Pengecualian Waktu Non‑Kerja (Hari Libur)
 
-## Langkah 4: Tentukan dan Tambahkan Pengecualian Waktu Non-Kerja
+Untuk **manage project holidays**, buat pengecualian di mana `DayWorking` bernilai `false`. Contoh di bawah menambahkan blok libur selama dua hari.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Tambahkan lebih banyak pengecualian jika diperlukan
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Langkah ini menentukan pengecualian waktu non-kerja, seperti hari libur, dan menambahkannya ke kalender.
+### Langkah 4: Tampilkan Pengecualian Kalender (Verifikasi)
 
-## Langkah 5: Tampilkan Pengecualian Kalender
+Setelah menambahkan pengecualian, Anda sering ingin memverifikasi bahwa mereka tercatat dengan benar. Loop berikut mencetak detail setiap pengecualian ke konsol.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Langkah ini menampilkan pengecualian kalender yang ditambahkan beserta detailnya.
+### Langkah 5: Hapus Semua Pengecualian (Pembersihan)
 
-## Langkah 6: Hapus Semua Pengecualian
+Jika Anda perlu mengembalikan kalender ke keadaan semula, Anda dapat menghapus setiap pengecualian secara programatik.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Terakhir, langkah ini menghapus semua pengecualian dari kalender.
+## Masalah Umum dan Solusi
+
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| Pengecualian tidak muncul setelah menyimpan | Proyek tidak disimpan setelah modifikasi | Panggil `project.Save("output.mpp")` setelah melakukan perubahan. |
+| Pengecualian yang tumpang tindih menyebabkan jam kerja yang tidak terduga | Aspose.Tasks menggunakan pengecualian yang ditambahkan terakhir untuk periode yang tumpang tindih | Urutkan pemanggilan `Add` Anda dengan hati-hati atau sesuaikan prioritas secara manual. |
+| `MakeStandardCalendar` mengatur ulang waktu kerja khusus | Ini memang menghapus waktu khusus; tambahkan kembali setelah pemanggilan jika diperlukan. | Tambahkan objek `WorkingTime` khusus Anda setelah memanggil `MakeStandardCalendar`. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menambahkan beberapa pengecualian ke satu kalender?**  
+A: Ya, Anda dapat menambahkan beberapa pengecualian ke kalender menggunakan metode `AddRange`.
+
+**Q: Bagaimana cara menangani pengecualian berulang, seperti libur mingguan?**  
+A: Anda dapat menghitung pengecualian berulang secara programatik dan menambahkannya ke kalender menggunakan logika khusus.
+
+**Q: Apakah memungkinkan mengimpor pengecualian kalender dari sumber eksternal?**  
+A: Ya, Anda dapat membaca pengecualian kalender dari sumber eksternal seperti basis data atau file CSV dan mengintegrasikannya ke dalam proyek Anda.
+
+**Q: Apa yang terjadi jika ada pengecualian yang tumpang tindih dalam kalender?**  
+A: Aspose.Tasks untuk .NET memungkinkan Anda menangani pengecualian yang tumpang tindih dengan mendefinisikan prioritas atau menyelesaikan konflik berdasarkan kebutuhan proyek Anda.
+
+**Q: Bisakah saya menyesuaikan waktu kerja untuk setiap hari dalam sebuah pengecualian?**  
+A: Ya, Anda dapat menentukan waktu kerja khusus untuk hari-hari tertentu dalam sebuah pengecualian guna memenuhi kebutuhan penjadwalan spesifik.
 
 ## Kesimpulan
 
-Mengelola pengecualian kalender sangat penting untuk penjadwalan proyek yang akurat. Aspose.Tasks untuk .NET menyederhanakan tugas ini dengan menyediakan serangkaian fitur lengkap, termasuk Koleksi Pengecualian Kalender. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat menangani berbagai skenario penjadwalan dalam proyek Anda secara efisien.
+Dengan **set standard calendar** terlebih dahulu dan kemudian menambahkan pengecualian khusus, Anda mendapatkan kontrol penuh atas penjadwalan proyek, memudahkan **manage project holidays** dan timeline khusus lainnya. Koleksi Pengecualian Kalender di Aspose.Tasks menyediakan cara yang bersih dan programatik untuk memodelkan kalender dunia nyata langsung dalam aplikasi .NET Anda.
 
-## FAQ
+---
 
-### Q1: Bisakah saya menambahkan beberapa pengecualian ke satu kalender?
+**Terakhir Diperbarui:** 2026-04-09  
+**Diuji Dengan:** Aspose.Tasks 24.12 untuk .NET  
+**Penulis:** Aspose  
 
- A1: Ya, Anda dapat menambahkan beberapa pengecualian ke kalender menggunakan`AddRange` metode.
-
-### Q2: Bagaimana cara menangani pengecualian berulang, seperti hari libur mingguan?
-
-A2: Anda dapat menghitung pengecualian berulang secara terprogram dan menambahkannya ke kalender menggunakan logika khusus.
-
-### Q3: Apakah mungkin mengimpor pengecualian kalender dari sumber eksternal?
-
-A3: Ya, Anda dapat membaca pengecualian kalender dari sumber eksternal seperti database atau file CSV dan mengintegrasikannya ke dalam proyek Anda.
-
-### Q4: Apa yang terjadi jika ada pengecualian yang tumpang tindih di kalender?
-
-A4: Aspose.Tasks untuk .NET memungkinkan Anda menangani pengecualian yang tumpang tindih dengan menentukan prioritas atau menyelesaikan konflik berdasarkan kebutuhan proyek Anda.
-
-### Q5: Dapatkah saya menyesuaikan waktu kerja untuk setiap hari dalam pengecualian?
-
-A5: Ya, Anda dapat menentukan waktu kerja khusus untuk setiap hari dalam pengecualian untuk mengakomodasi kebutuhan penjadwalan tertentu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
