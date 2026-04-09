@@ -1,63 +1,78 @@
 ---
-title: Sammlung von Kalenderausnahmen in Aspose.Tasks
-linktitle: Sammlung von Kalenderausnahmen in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie mit Aspose.Tasks Kalenderausnahmen in Ihren .NET-Projekten effizient behandeln und so eine genaue Planung und Ressourcenverwaltung gewährleisten.
-weight: 13
+date: 2026-04-09
+description: Erfahren Sie, wie Sie den Standardkalender festlegen und Projektfeiertage
+  in Ihren .NET‑Projekten mit Aspose.Tasks für eine genaue Terminplanung verwalten.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Standardkalender festlegen und Ausnahmen in Aspose.Tasks behandeln
+second_title: Aspose.Tasks .NET API
+title: Standardkalender festlegen und Ausnahmen in Aspose.Tasks behandeln
 url: /de/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sammlung von Kalenderausnahmen in Aspose.Tasks
+# Standardkalender festlegen und Ausnahmen in Aspose.Tasks behandeln
 
 ## Einführung
 
-Im Projektmanagement ist eine genaue Terminplanung entscheidend für den Erfolg. Allerdings erfordern reale Szenarien aufgrund von Feiertagen, besonderen Ereignissen oder anderen Faktoren häufig Abweichungen von Standardplänen. Aspose.Tasks für .NET bietet über die Funktion „Kalender-Ausnahmesammlung“ eine robuste Lösung für die Verwaltung solcher Ausnahmen. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess der Nutzung dieser Funktionalität.
+Eine genaue Terminplanung ist das Rückgrat jedes erfolgreichen Projekts, und reale Pläne müssen häufig vom Standardarbeitskalender abweichen, etwa wegen Feiertagen, besonderen Ereignissen oder unerwarteten Stilllegungen. Aspose.Tasks für .NET erleichtert das **Festlegen eines Standardkalenders** und das Hinzufügen benutzerdefinierter Ausnahmen. In diesem Tutorial lernen Sie, wie Sie einen Projektkalender laden, einen Standardkalender festlegen und Projektfeiertage über die Calendar Exception Collection verwalten.
+
+## Schnelle Antworten
+- **Was bewirkt „set standard calendar“?** Es setzt einen Kalender auf die Standardarbeitszeit zurück (9 Uhr‑17 Uhr, Montag‑Freitag), bevor Sie benutzerdefinierte Ausnahmen hinzufügen.  
+- **Welche Methode löscht vorhandene Ausnahmen?** `Calendar.Exceptions.Clear()` entfernt alle zuvor definierten Ausnahmen.  
+- **Wie kann ich einen Feiertag hinzufügen?** Erstellen Sie ein `CalendarException` mit `DayWorking = false` und fügen Sie es zur Sammlung hinzu.  
+- **Muss ich das Projekt nach Änderungen neu laden?** Nein, Änderungen werden direkt auf das im Speicher befindliche `Project`‑Objekt angewendet.  
+- **Welche Bibliotheken werden benötigt?** Aspose.Tasks für .NET (jede unterstützte .NET‑Version) und die `System`‑Namespaces.  
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
-2. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# wird zum Verständnis der Beispiele hilfreich sein.
-3. Entwicklungsumgebung: Richten Sie Ihre bevorzugte Entwicklungsumgebung ein, z. B. Visual Studio oder JetBrains Rider.
+1. **Aspose.Tasks für .NET** – laden Sie es [hier](https://releases.aspose.com/tasks/net/) herunter.  
+2. Grundkenntnisse in **C#** – Sie werden ein paar kurze Code‑Snippets schreiben.  
+3. Eine Entwicklungsumgebung wie **Visual Studio** oder **JetBrains Rider**.  
 
 ## Namespaces importieren
 
-Bevor Sie mit Aspose.Tasks für .NET arbeiten, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren. Dieser Schritt ermöglicht Ihnen den Zugriff auf die Klassen und Methoden, die zum Verwalten von Kalenderausnahmen erforderlich sind.
+Diese `using`‑Direktiven geben Ihnen Zugriff auf die Klassen, die für die Kalendermanipulation benötigt werden.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte unterteilen:
+## Was ist eine Calendar Exception?
 
-## Schritt 1: Projekt laden und Kalender abrufen
+Eine *Calendar Exception* stellt einen Zeitraum dar, in dem der normale Arbeitsplan geändert wird – zum Beispiel ein unternehmensweiter Feiertag oder ein vorübergehender Überstundenplan. Durch das Hinzufügen von Ausnahmen zu einem Kalender können Sie reale Einschränkungen modellieren, ohne den Basis‑Kalender zu ändern.
+
+## Wie man einen Standardkalender in Aspose.Tasks festlegt
+
+Der erste Schritt besteht darin, Ihre Projektdatei zu laden und den Kalender abzurufen, mit dem Sie arbeiten möchten.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-In diesem Schritt laden wir eine Projektdatei und rufen den gewünschten Kalender anhand seiner UID ab.
+### Schritt 1: Vorhandene Ausnahmen löschen und auf einen Standardkalender zurücksetzen
 
-## Schritt 2: Vorhandene Ausnahmen löschen und Standardkalender festlegen
+Bevor Sie neue Regeln hinzufügen, ist es ratsam, alte Ausnahmen zu löschen und die **Standardkalender**‑Einstellungen festzulegen. Das sorgt für eine saubere Ausgangsbasis.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Dieser Schritt löscht alle vorhandenen Ausnahmen aus dem Kalender und setzt ihn auf eine Standardkonfiguration.
+### Schritt 2: Eine Arbeitszeit‑Ausnahme definieren
 
-## Schritt 3: Arbeitszeitausnahme definieren und hinzufügen
+Manchmal müssen Sie einen vorübergehenden Zeitplan erstellen (z. B. verlängerte Arbeitszeiten für eine Produkteinführung). Das folgende Snippet definiert eine Arbeitszeit‑Ausnahme, die mehrere Tage umfasst und zwei tägliche Arbeitsperioden enthält.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Dieser Schritt definiert eine Arbeitszeitausnahme mit bestimmten Start- und Enddaten sowie Arbeitszeiten innerhalb dieser Daten und fügt sie dem Kalender hinzu.
+### Schritt 3: Nicht‑Arbeitszeit‑Ausnahmen hinzufügen (Feiertage)
 
-## Schritt 4: Ausnahmen für arbeitsfreie Zeit definieren und hinzufügen
+Um **Projektfeiertage zu verwalten**, erstellen Sie Ausnahmen, bei denen `DayWorking` auf `false` gesetzt ist. Das nachstehende Beispiel fügt einen zweitägigen Feiertagsblock hinzu.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Fügen Sie bei Bedarf weitere Ausnahmen hinzu
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-In diesem Schritt werden arbeitsfreie Ausnahmen wie Feiertage definiert und dem Kalender hinzugefügt.
+### Schritt 4: Kalenderausnahmen anzeigen (Verifizierung)
 
-## Schritt 5: Kalenderausnahmen anzeigen
+Nach dem Hinzufügen von Ausnahmen möchten Sie häufig überprüfen, ob sie korrekt erfasst wurden. Die folgende Schleife gibt die Details jeder Ausnahme in der Konsole aus.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-In diesem Schritt werden die hinzugefügten Kalenderausnahmen zusammen mit ihren Details angezeigt.
+### Schritt 5: Alle Ausnahmen entfernen (Aufräumen)
 
-## Schritt 6: Alle Ausnahmen entfernen
+Wenn Sie den Kalender in seinen ursprünglichen Zustand zurückversetzen müssen, können Sie jede Ausnahme programmgesteuert entfernen.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Schließlich entfernt dieser Schritt alle Ausnahmen aus dem Kalender.
+## Häufige Probleme und Lösungen
 
-## Abschluss
+| Problem | Ursache | Lösung |
+|---------|----------|--------|
+| Ausnahmen erscheinen nach dem Speichern nicht | Projekt wurde nach Änderungen nicht gespeichert | Rufen Sie `project.Save("output.mpp")` nach den Änderungen auf. |
+| Überschneidende Ausnahmen führen zu unerwarteten Arbeitszeiten | Aspose.Tasks verwendet für überlappende Zeiträume die zuletzt hinzugefügte Ausnahme | Ordnen Sie Ihre `Add`‑Aufrufe sorgfältig oder passen Sie die Prioritäten manuell an. |
+| `MakeStandardCalendar` setzt benutzerdefinierte Arbeitszeiten zurück | Es löscht absichtlich benutzerdefinierte Zeiten; fügen Sie sie bei Bedarf nach dem Aufruf erneut hinzu. | Fügen Sie Ihre benutzerdefinierten `WorkingTime`‑Objekte nach dem Aufruf von `MakeStandardCalendar` hinzu. |
 
-Die Verwaltung von Kalenderausnahmen ist für eine genaue Projektplanung von entscheidender Bedeutung. Aspose.Tasks für .NET vereinfacht diese Aufgabe durch die Bereitstellung umfassender Funktionen, einschließlich der Calendar Exception Collection. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie verschiedene Planungsszenarien in Ihren Projekten effizient bewältigen.
+## Häufig gestellte Fragen
 
-## FAQs
+**Q: Kann ich mehrere Ausnahmen zu einem einzelnen Kalender hinzufügen?**  
+A: Ja, Sie können mehrere Ausnahmen zu einem Kalender hinzufügen, indem Sie die Methode `AddRange` verwenden.
 
-### F1: Kann ich einem einzelnen Kalender mehrere Ausnahmen hinzufügen?
+**Q: Wie gehe ich mit wiederkehrenden Ausnahmen um, z. B. wöchentlichen Feiertagen?**  
+A: Sie können wiederkehrende Ausnahmen programmgesteuert berechnen und sie mit benutzerdefinierter Logik zum Kalender hinzufügen.
 
- A1: Ja, Sie können mit dem mehrere Ausnahmen zu einem Kalender hinzufügen`AddRange` Methode.
+**Q: Ist es möglich, Kalenderausnahmen aus externen Quellen zu importieren?**  
+A: Ja, Sie können Kalenderausnahmen aus externen Quellen wie Datenbanken oder CSV‑Dateien lesen und in Ihr Projekt integrieren.
 
-### F2: Wie gehe ich mit wiederkehrenden Ausnahmen wie wöchentlichen Feiertagen um?
+**Q: Was passiert, wenn im Kalender überlappende Ausnahmen vorhanden sind?**  
+A: Aspose.Tasks für .NET ermöglicht es Ihnen, überlappende Ausnahmen zu handhaben, indem Sie Prioritäten festlegen oder Konflikte basierend auf Ihren Projektanforderungen lösen.
 
-A2: Sie können wiederkehrende Ausnahmen programmgesteuert berechnen und sie mithilfe benutzerdefinierter Logik zum Kalender hinzufügen.
+**Q: Kann ich die Arbeitszeiten für jeden Tag innerhalb einer Ausnahme anpassen?**  
+A: Ja, Sie können für einzelne Tage innerhalb einer Ausnahme benutzerdefinierte Arbeitszeiten festlegen, um spezifische Terminierungsbedürfnisse zu erfüllen.
 
-### F3: Ist es möglich, Kalenderausnahmen aus externen Quellen zu importieren?
+## Fazit
 
-A3: Ja, Sie können Kalenderausnahmen aus externen Quellen wie Datenbanken oder CSV-Dateien lesen und in Ihr Projekt integrieren.
+Indem Sie zuerst einen **Standardkalender festlegen** und anschließend benutzerdefinierte Ausnahmen hinzufügen, erhalten Sie die volle Kontrolle über die Projektplanung, wodurch es einfach wird, **Projektfeiertage** und andere Sonderzeitpläne zu **verwalten**. Die Calendar Exception Collection in Aspose.Tasks bietet eine saubere, programmgesteuerte Methode, reale Kalender direkt in Ihren .NET‑Anwendungen zu modellieren.
 
-### F4: Was passiert, wenn es im Kalender überlappende Ausnahmen gibt?
+---
 
-A4: Mit Aspose.Tasks für .NET können Sie überlappende Ausnahmen behandeln, indem Sie Prioritäten definieren oder Konflikte basierend auf Ihren Projektanforderungen lösen.
+**Zuletzt aktualisiert:** 2026-04-09  
+**Getestet mit:** Aspose.Tasks 24.12 für .NET  
+**Autor:** Aspose  
 
-### F5: Kann ich innerhalb einer Ausnahme die Arbeitszeiten für jeden Tag anpassen?
-
-A5: Ja, Sie können innerhalb einer Ausnahme benutzerdefinierte Arbeitszeiten für einzelne Tage festlegen, um spezifischen Planungsanforderungen gerecht zu werden.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,63 +1,77 @@
 ---
-title: Collection of Calendar Exceptions in Aspose.Tasks
-linktitle: Collection of Calendar Exceptions in Aspose.Tasks
+title: Set Standard Calendar and Handle Exceptions in Aspose.Tasks
+linktitle: Set Standard Calendar and Handle Exceptions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
+description: Learn how to set standard calendar and manage project holidays in your .NET projects using Aspose.Tasks for accurate scheduling.
+date: 2026-04-09
 weight: 13
 url: /net/calendar-scheduling/calendar-exception-collection/
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Collection of Calendar Exceptions in Aspose.Tasks
+# Set Standard Calendar and Handle Exceptions in Aspose.Tasks
 
 ## Introduction
 
-In project management, precise scheduling is vital for success. However, real-world scenarios often require deviations from standard schedules due to holidays, special events, or other factors. Aspose.Tasks for .NET provides a robust solution for managing such exceptions through its Calendar Exception Collection feature. This tutorial will guide you through the process of utilizing this functionality step by step.
+Accurate scheduling is the backbone of any successful project, and real‑world plans often need to deviate from the default work calendar because of holidays, special events, or unexpected shutdowns. Aspose.Tasks for .NET makes it easy to **set standard calendar** settings and then layer custom exceptions on top. In this tutorial you’ll learn how to load a project calendar, set a standard calendar, and manage project holidays through the Calendar Exception Collection feature.
+
+## Quick Answers
+- **What does “set standard calendar” do?** It resets a calendar to the default working time (9 AM‑5 PM, Monday‑Friday) before you add custom exceptions.  
+- **Which method clears existing exceptions?** `Calendar.Exceptions.Clear()` removes all previously defined exceptions.  
+- **How can I add a holiday?** Create a `CalendarException` with `DayWorking = false` and add it to the collection.  
+- **Do I need to reload the project after changes?** No, changes are applied directly to the in‑memory `Project` object.  
+- **What libraries are required?** Aspose.Tasks for .NET (any supported .NET version) and `System` namespaces.
 
 ## Prerequisites
 
-Before diving into the tutorial, ensure you have the following prerequisites:
+Before diving into the code, make sure you have:
 
-1. Aspose.Tasks for .NET: Make sure you have the library installed. You can download it [here](https://releases.aspose.com/tasks/net/).
-2. Basic knowledge of C#: Familiarity with C# programming language will be helpful in understanding the examples.
-3. Development Environment: Set up your preferred development environment, such as Visual Studio or JetBrains Rider.
+1. **Aspose.Tasks for .NET** – download it [here](https://releases.aspose.com/tasks/net/).  
+2. Basic knowledge of **C#** – you’ll be writing a few short snippets.  
+3. A development environment such as **Visual Studio** or **JetBrains Rider**.
 
 ## Import Namespaces
 
-Before you begin working with Aspose.Tasks for .NET, you need to import the required namespaces into your project. This step enables you to access the classes and methods necessary for managing calendar exceptions.
+These `using` directives give you access to the classes needed for calendar manipulation.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Now, let's break down the example provided into multiple steps:
+## What is a Calendar Exception?
 
-## Step 1: Load Project and Retrieve Calendar
+A *calendar exception* represents a period where the normal working schedule is altered – for example, a company‑wide holiday or a temporary overtime schedule. By adding exceptions to a calendar you can model real‑world constraints without changing the base calendar.
+
+## How to Set Standard Calendar in Aspose.Tasks
+
+The first step is to load your project file and retrieve the calendar you want to work with.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-In this step, we load a project file and retrieve the desired calendar by its UID.
+### Step 1: Clear Existing Exceptions and Reset to a Standard Calendar
 
-## Step 2: Clear Existing Exceptions and Set Standard Calendar
+Before adding new rules, it’s a good practice to clear any old exceptions and **set standard calendar** settings. This ensures a clean baseline.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-This step clears any existing exceptions from the calendar and sets it to a standard configuration.
+### Step 2: Define a Working‑Time Exception
 
-## Step 3: Define and Add Working Time Exception
+Sometimes you need to create a temporary schedule (e.g., extended hours for a product launch). The following snippet defines a working‑time exception that spans several days and includes two daily work periods.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +88,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-This step defines a working time exception with specific start and end dates, along with working times within those dates, and adds it to the calendar.
+### Step 3: Add Non‑Working Time Exceptions (Holidays)
 
-## Step 4: Define and Add Non-Working Time Exceptions
+To **manage project holidays**, create exceptions where `DayWorking` is `false`. The example below adds a two‑day holiday block.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -91,9 +105,9 @@ nonWorkingExceptions[0].Name = "Exception 2";
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-This step defines non-working time exceptions, such as holidays, and adds them to the calendar.
+### Step 4: Display Calendar Exceptions (Verification)
 
-## Step 5: Display Calendar Exceptions
+After adding exceptions, you’ll often want to verify that they were recorded correctly. The following loop prints each exception’s details to the console.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +123,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-This step displays the added calendar exceptions along with their details.
+### Step 5: Remove All Exceptions (Cleanup)
 
-## Step 6: Remove All Exceptions
+If you need to revert the calendar back to its original state, you can remove every exception programmatically.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +136,40 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Finally, this step removes all exceptions from the calendar.
+## Common Issues and Solutions
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Exceptions not appearing after saving | Project not saved after modifications | Call `project.Save("output.mpp")` after making changes. |
+| Overlapping exceptions cause unexpected work hours | Aspose.Tasks uses the last added exception for overlapping periods | Order your `Add` calls carefully or adjust priorities manually. |
+| `MakeStandardCalendar` resets custom working times | It intentionally clears custom times; re‑add them after the call if needed. | Add your custom `WorkingTime` objects after invoking `MakeStandardCalendar`. |
+
+## Frequently Asked Questions
+
+**Q: Can I add multiple exceptions to a single calendar?**  
+A: Yes, you can add multiple exceptions to a calendar using the `AddRange` method.
+
+**Q: How do I handle recurring exceptions, such as weekly holidays?**  
+A: You can programmatically calculate recurring exceptions and add them to the calendar using custom logic.
+
+**Q: Is it possible to import calendar exceptions from external sources?**  
+A: Yes, you can read calendar exceptions from external sources like databases or CSV files and integrate them into your project.
+
+**Q: What happens if there are overlapping exceptions in the calendar?**  
+A: Aspose.Tasks for .NET allows you to handle overlapping exceptions by defining priorities or resolving conflicts based on your project requirements.
+
+**Q: Can I customize the working times for each day within an exception?**  
+A: Yes, you can specify custom working times for individual days within an exception to accommodate specific scheduling needs.
 
 ## Conclusion
 
-Managing calendar exceptions is crucial for accurate project scheduling. Aspose.Tasks for .NET simplifies this task by providing a comprehensive set of features, including the Calendar Exception Collection. By following the steps outlined in this tutorial, you can efficiently handle various scheduling scenarios within your projects.
+By **setting a standard calendar** first and then layering custom exceptions, you gain full control over project scheduling, making it easy to **manage project holidays** and any other special‑case timelines. The Calendar Exception Collection in Aspose.Tasks provides a clean, programmatic way to model real‑world calendars directly within your .NET applications.
 
-## FAQ's
+---
 
-### Q1: Can I add multiple exceptions to a single calendar?
-
-A1: Yes, you can add multiple exceptions to a calendar using the `AddRange` method.
-
-### Q2: How do I handle recurring exceptions, such as weekly holidays?
-
-A2: You can programmatically calculate recurring exceptions and add them to the calendar using custom logic.
-
-### Q3: Is it possible to import calendar exceptions from external sources?
-
-A3: Yes, you can read calendar exceptions from external sources like databases or CSV files and integrate them into your project.
-
-### Q4: What happens if there are overlapping exceptions in the calendar?
-
-A4: Aspose.Tasks for .NET allows you to handle overlapping exceptions by defining priorities or resolving conflicts based on your project requirements.
-
-### Q5: Can I customize the working times for each day within an exception?
-
-A5: Yes, you can specify custom working times for individual days within an exception to accommodate specific scheduling needs.
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
