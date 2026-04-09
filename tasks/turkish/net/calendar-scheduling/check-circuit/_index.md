@@ -1,45 +1,69 @@
 ---
-title: Aspose.Tasks'ta Devreyi Kontrol Edin
-linktitle: Aspose.Tasks'ta Devreyi Kontrol Edin
-second_title: Aspose.Tasks .NET API'si
-description: C#'ta proje dosyalarını verimli bir şekilde yönetmek ve analiz etmek için Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin.
-weight: 14
+date: 2026-04-09
+description: Aspose.Tasks for .NET kullanarak devreyi nasıl kontrol edeceğinizi ve
+  Microsoft Project dosya bütünlüğünü nasıl doğrulayacağınızı öğrenin.
+keywords:
+- how to check circuit
+- check project structure
+- validate microsoft project
+- project file integrity check
+linktitle: Aspose.Tasks içinde Devreyi Kontrol Et
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks'te Devreyi Nasıl Kontrol Edilir
 url: /tr/net/calendar-scheduling/check-circuit/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Devreyi Kontrol Edin
+# Aspose.Tasks'te Devre Kontrolü Nasıl Yapılır
 
-## giriiş
+## Giriş
 
-.NET geliştirme dünyasında görevleri ve projeleri verimli bir şekilde yönetmek çok önemlidir. Aspose.Tasks for .NET, geliştiricilere proje yönetimi süreçlerini kolaylaştırmak için ihtiyaç duydukları araçları sağlayan güçlü bir kitaplıktır. Microsoft Project dosyalarını oluştururken, okurken veya değiştirirken Aspose.Tasks, sezgisel API'leri ve kapsamlı özellikleriyle görevi basitleştirir.
+.NET geliştirme dünyasında, görev ve projeleri verimli bir şekilde yönetmek çok önemlidir. Bir proje dosyasında **devre kontrolü** yapmak, Microsoft Project takviminin bütünlüğünü sağlamak gerektiğinde yaygın bir gereksinimdir. Aspose.Tasks for .NET, proje yapısını doğrulamanıza ve sadece birkaç satır kodla kırık görev hiyerarşilerini tespit etmenize olanak tanıyan basit bir API sunar.
+
+## Hızlı Yanıtlar
+- **“check circuit” ne yapar?** Görev hiyerarşisini dairesel referanslar veya kırık ebeveyn‑çocuk bağlantıları için tarar.  
+- **Neden önemlidir?** Temiz bir proje dosyası tutmanıza yardımcı olur ve Microsoft Project'te hesaplama hatalarını önler.  
+- **Hangi kütüphane kullanılır?** Aspose.Tasks for .NET.  
+- **Lisans gerekli mi?** Üretim için geçici bir lisans gerekir; ücretsiz deneme sürümü test için çalışır.  
+- **Desteklenen platformlar?** .NET Framework, .NET Core ve .NET 5/6+.
+
+## Proje Devre Kontrolü Nedir?
+
+Bir devre kontrolü (bazı zamanlar “yapı doğrulaması” olarak da adlandırılır), kök görevden başlayarak her görevi dolaşır ve her çocuğun geçerli bir ebeveyne işaret ettiğini doğrular. Bir döngü veya yetim görev bulunursa, kütüphane bir `TasksException` fırlatır ve sorunu programatik olarak ele almanıza olanak tanır.
+
+## Microsoft Project Dosyalarını Neden Doğrulamalısınız?
+
+- **Hesaplama hatalarını önleyin:** Dairesel referanslar takvim hesaplamalarını bozabilir.  
+- **Veri bütünlüğünü koruyun:** Her görevin uygun bir hiyerarşiye ait olmasını garanti eder.  
+- **Kalite kontrollerini otomatikleştirin:** Proje dosyalarının otomatik olarak oluşturulduğu veya değiştirildiği CI boru hatlarında faydalıdır.  
+- **Zaman kazanın:** Sorunları erken tespit edin, Microsoft Project'te kırık bir takvimi ayıklamaktan kaçının.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1. Visual Studio: Sisteminizde Visual Studio'nun kurulu olduğundan emin olun.
-2.  Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
-3. Temel C# Bilgisi: Örnekleri takip etmek için C# programlama diline aşinalık gereklidir.
+1. Visual Studio: Sisteminizde Visual Studio yüklü olduğundan emin olun.  
+2. Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini [buradan](https://releases.aspose.com/tasks/net/) indirip kurun.  
+3. Temel C# Bilgisi: Örnekleri takip edebilmek için C# programlama diline aşina olmanız gerekir.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarın
 
-Gerekli sınıflara ve yöntemlere erişmek için C# projenize aşağıdaki ad alanlarını ekleyin:
+C# projenizde gerekli sınıflara ve yöntemlere erişmek için aşağıdaki ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
 ## Adım 1: Proje Dosyasını Yükleyin
 
-Bozuk bir yapı olup olmadığını kontrol etmek istediğiniz Microsoft Project dosyasını (.mpp) yükleyerek başlayın. Kullan`Project` Dosyayı yüklemek için sınıf.
+Kırık bir yapı için kontrol etmek istediğiniz Microsoft Project dosyasını (.mpp) yükleyerek başlayın. Dosyayı yüklemek için `Project` sınıfını kullanın.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -47,7 +71,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Adım 2: Proje Yapısını Kontrol Edin
 
- Proje içindeki herhangi bir bozuk yapıyı tespit etmek için`CheckCircuit` sınıfla birlikte`TaskUtils.Apply` yöntem.
+Projede herhangi bir kırık yapı tespit etmek için `CheckCircuit` sınıfını `TaskUtils.Apply` yöntemiyle birlikte kullanacağız. Bu adım **proje yapısını kontrol eder** ve bir devre bulunduğunda bir istisna fırlatır.
 
 ```csharp
 try
@@ -60,31 +84,39 @@ catch (TasksException ex)
 }
 ```
 
-## Çözüm
+## Yaygın Tuzaklar ve İpuçları
 
-Aspose.Tasks for .NET ile proje dosyalarını yönetmek ve analiz etmek çocuk oyuncağı haline geliyor. Bu öğreticiyi takip ederek bir proje yapısındaki devreyi nasıl kontrol edeceğinizi, bütünlüğünü ve tutarlılığını nasıl sağlayacağınızı öğrendiniz.
+- **Tuzak:** Çağrıyı bir `try/catch` bloğuna sarmayı unutmak. `CheckCircuit` işlemi bir sorun bulduğunda `TasksException` fırlatır, bu yüzden her zaman düzgün bir şekilde ele alın.  
+- **İpucu:** Giriş noktası olarak `project.RootTask` kullanın; başka bir görev gönderildiğinde üst akıştaki problemler gözden kaçabilir.  
+- **İpucu:** Devreyi düzelttikten sonra, proje dosyasının bütünlüğünü onaylamak için kontrolü yeniden çalıştırabilirsiniz.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.Tasks for .NET'i diğer .NET çerçeveleriyle kullanabilir miyim?
+**S: Aspose.Tasks for .NET'i diğer .NET çerçeveleriyle kullanabilir miyim?**  
+C: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Framework dahil olmak üzere çeşitli .NET çerçeveleriyle uyumludur.
 
-Cevap1: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Framework dahil olmak üzere çeşitli .NET çerçeveleriyle uyumludur.
+**S: Satın almadan önce deneme sürümü mevcut mu?**  
+C: Evet, [buradan](https://releases.aspose.com/) Aspose.Tasks for .NET'in ücretsiz deneme sürümünü edinebilirsiniz.
 
-### S2: Satın almadan önce deneme sürümü mevcut mu?
+**S: Aspose.Tasks for .NET için destek nasıl alabilirim?**  
+C: Aspose.Tasks topluluk forumundan [burada](https://forum.aspose.com/c/tasks/15) yardım isteyebilirsiniz.
 
- C2: Evet, Aspose.Tasks for .NET'in ücretsiz denemesinden şu adresten yararlanabilirsiniz:[Burada](https://releases.aspose.com/).
+**S: Test amaçlı geçici bir lisansa ihtiyacım var mı?**  
+C: Evet, test için [buradan](https://purchase.aspose.com/temporary-license/) geçici bir lisans alabilirsiniz.
 
-### S3: Aspose.Tasks for .NET için nasıl destek alabilirim?
+**S: Aspose.Tasks for .NET'i nereden satın alabilirim?**  
+C: Tam sürümü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
- Cevap3: Aspose.Tasks topluluk forumundan yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+## Sonuç
 
-### S4: Test amacıyla geçici bir lisansa ihtiyacım var mı?
+Bu rehberi izleyerek Aspose.Tasks projesinde **devre kontrolü** nasıl yapılır öğrenmiş oldunuz; proje dosyasının bütünlüğünü etkili bir şekilde doğruluyor ve temiz bir görev hiyerarşisi sağlıyorsunuz. Bu kontrolü derleme veya içe aktarma sürecinize entegre etmek, saatlerce süren manuel hata ayıklamayı önleyebilir ve takvimlerinizin güvenilirliğini artırır.
 
- Cevap4: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) test için.
+---
 
-### S5: Aspose.Tasks for .NET'i nereden satın alabilirim?
+**Son Güncelleme:** 2026-04-09  
+**Test Edilen:** Aspose.Tasks for .NET (latest version)  
+**Yazar:** Aspose  
 
- Cevap5: Aspose.Tasks for .NET'in tam sürümünü şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

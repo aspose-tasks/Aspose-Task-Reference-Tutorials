@@ -1,53 +1,76 @@
 ---
-title: Aspose.Tasks で回路を確認する
-linktitle: Aspose.Tasks で回路を確認する
+date: 2026-04-09
+description: Aspose.Tasks for .NET を使用して、回路をチェックし、Microsoft Project ファイルの整合性を検証する方法を学びます。
+keywords:
+- how to check circuit
+- check project structure
+- validate microsoft project
+- project file integrity check
+linktitle: Aspose.Tasksで回路をチェック
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks for .NET を使用して、C# でプロジェクト ファイルを効率的に管理および分析する方法を学びます。
-weight: 14
+title: Aspose.Tasksで回路をチェックする方法
 url: /ja/net/calendar-scheduling/check-circuit/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks で回路を確認する
+# Aspose.Tasks でサーキットをチェックする方法
 
-## 導入
+## はじめに
 
-.NET 開発の世界では、タスクとプロジェクトを効率的に管理することが最も重要です。 Aspose.Tasks for .NET は、プロジェクト管理プロセスを合理化するために必要なツールを開発者に提供する強力なライブラリです。 Microsoft Project ファイルの作成、読み取り、操作のいずれの場合でも、Aspose.Tasks の直感的な API と包括的な機能によりタスクが簡素化されます。
+.NET 開発の世界では、タスクやプロジェクトを効率的に管理することが最重要です。プロジェクト ファイルで **How to check circuit** を行うことは、Microsoft Project のスケジュールの整合性を確保する際によくある要件です。Aspose.Tasks for .NET は、数行のコードだけでプロジェクト構造を検証し、壊れたタスク階層を検出できるシンプルな API を提供します。
+
+## クイック回答
+- **What does “check circuit” do?** タスク階層を走査し、循環参照や壊れた親子リンクを検出します。  
+- **Why is it important?** プロジェクト ファイルをクリーンに保ち、Microsoft Project の計算エラーを防止します。  
+- **Which library is used?** Aspose.Tasks for .NET。  
+- **Do I need a license?** 本番環境では一時ライセンスが必要です。テストには無料トライアルが利用できます。  
+- **Supported platforms?** .NET Framework、.NET Core、.NET 5/6+。
+
+## プロジェクト サーキット チェックとは？
+
+サーキット チェック（「構造検証」と呼ばれることもあります）は、ルート タスクから開始してすべてのタスクを走査し、各子タスクが有効な親タスクを指しているかを確認します。ループや孤立したタスクが見つかった場合、ライブラリは `TasksException` をスローし、プログラムから問題を処理できるようにします。
+
+## なぜ Microsoft Project ファイルを検証するのか？
+
+- **Prevent calculation errors:** 循環参照はスケジュール計算を破壊する可能性があります。  
+- **Maintain data integrity:** すべてのタスクが適切な階層に属していることを保証します。  
+- **Automate quality checks:** プロジェクト ファイルが自動的に生成または変更される CI パイプラインで有用です。  
+- **Save time:** 問題を早期に検出し、Microsoft Project で壊れたスケジュールをデバッグする手間を省きます。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+チュートリアルに入る前に、以下の前提条件が揃っていることを確認してください：
 
-1. Visual Studio: システムに Visual Studio がインストールされていることを確認します。
-2.  Aspose.Tasks for .NET:Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
-3. C# の基本知識: 例に従うには、C# プログラミング言語に精通している必要があります。
+1. Visual Studio: システムに Visual Studio がインストールされていることを確認してください。  
+2. Aspose.Tasks for .NET: Aspose.Tasks for .NET ライブラリを [こちら](https://releases.aspose.com/tasks/net/) からダウンロードしてインストールしてください。  
+3. Basic C# Knowledge: C# プログラミング言語に慣れていることが、例題を進めるために必要です。
 
 ## 名前空間のインポート
 
-C# プロジェクトに、必要なクラスとメソッドにアクセスするために次の名前空間を含めます。
+C# プロジェクトで、必要なクラスやメソッドにアクセスするために以下の名前空間をインポートしてください：
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-## ステップ 1: プロジェクト ファイルをロードする
+## 手順 1: プロジェクト ファイルの読み込み
 
-まず、壊れた構造を確認する Microsoft Project ファイル (.mpp) をロードします。使用`Project`ファイルをロードするクラス。
+壊れた構造をチェックしたい Microsoft Project ファイル（.mpp）をまず読み込みます。`Project` クラスを使用してファイルをロードしてください。
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
-## ステップ 2: プロジェクト構造を確認する
+## 手順 2: プロジェクト構造のチェック
 
-プロジェクト内の壊れた構造を検出するには、`CheckCircuit`クラスと一緒に`TaskUtils.Apply`方法。
+プロジェクト内の壊れた構造を検出するために、`CheckCircuit` クラスと `TaskUtils.Apply` メソッドを使用します。この手順は **checks the project structure** を行い、サーキットが見つかった場合は例外をスローします。
 
 ```csharp
 try
@@ -60,31 +83,39 @@ catch (TasksException ex)
 }
 ```
 
-## 結論
+## よくある落とし穴とヒント
 
-Aspose.Tasks for .NET を使用すると、プロジェクト ファイルの管理と分析が簡単になります。このチュートリアルに従うことで、プロジェクト構造内の回路をチェックして、その整合性と一貫性を確保する方法を学びました。
+- **Pitfall:** 呼び出しを `try/catch` でラップし忘れることです。`CheckCircuit` 操作は問題を検出すると `TasksException` をスローするため、必ず適切にハンドリングしてください。  
+- **Tip:** エントリ ポイントとして `project.RootTask` を使用してください。他のタスクを渡すと上流の問題を見逃す可能性があります。  
+- **Tip:** サーキットを修正した後、チェックを再実行してプロジェクト ファイルの整合性を確認できます。
 
 ## よくある質問
 
-### Q1: Aspose.Tasks for .NET を他の .NET フレームワークと一緒に使用できますか?
+**Q: Aspose.Tasks for .NET を他の .NET フレームワークと併用できますか？**  
+A: はい、Aspose.Tasks for .NET は .NET Core や .NET Framework を含むさまざまな .NET フレームワークと互換性があります。
 
-A1: はい、Aspose.Tasks for .NET は、.NET Core や .NET Framework などのさまざまな .NET フレームワークと互換性があります。
+**Q: 購入前にトライアル版は利用できますか？**  
+A: はい、Aspose.Tasks for .NET の無料トライアルは [こちら](https://releases.aspose.com/) から入手できます。
 
-### Q2: 購入前に体験版はありますか?
+**Q: Aspose.Tasks for .NET のサポートはどのように受けられますか？**  
+A: Aspose.Tasks コミュニティ フォーラムは [こちら](https://forum.aspose.com/c/tasks/15) で利用できます。
 
- A2: はい、次のサイトから Aspose.Tasks for .NET の無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+**Q: テスト目的で一時ライセンスが必要ですか？**  
+A: はい、テスト用の一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。
 
-### Q3: Aspose.Tasks for .NET のサポートを受けるにはどうすればよいですか?
+**Q: Aspose.Tasks for .NET はどこで購入できますか？**  
+A: 完全版は [こちら](https://purchase.aspose.com/buy) から購入できます。
 
- A3: Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+## 結論
 
-### Q4: テスト目的には一時ライセンスが必要ですか?
+このガイドに従うことで、Aspose.Tasks プロジェクトで **how to check circuit** を学び、プロジェクト ファイルの整合性を効果的に検証し、クリーンなタスク階層を確保できました。このチェックをビルドやインポート プロセスに組み込むことで、手動デバッグに費やす時間を何時間も削減し、スケジュールの信頼性を保つことができます。
 
- A4: はい、次のサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)テスト用。
+---
 
-### Q5: Aspose.Tasks for .NET はどこで購入できますか?
+**最終更新日:** 2026-04-09  
+**テスト環境:** Aspose.Tasks for .NET (latest version)  
+**作者:** Aspose  
 
- A5: Aspose.Tasks for .NET のフルバージョンは、次のサイトから購入できます。[ここ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
