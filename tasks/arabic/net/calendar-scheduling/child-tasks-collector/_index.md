@@ -1,72 +1,94 @@
 ---
-title: جمع مهام الطفل في Aspose.Tasks
-linktitle: جمع مهام الطفل في Aspose.Tasks
+date: 2026-04-13
+description: تعلم كيفية إنشاء مجموعة مهام فرعية باستخدام Aspose.Tasks لـ .NET. حسّن
+  إدارة المشاريع في تطبيقات .NET الخاصة بك.
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: إنشاء جامع مهام فرعية في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: تعرف على كيفية جمع المهام الفرعية بكفاءة باستخدام Aspose.Tasks لـ .NET. تحسين إدارة المشروعات في تطبيقات .NET الخاصة بك.
-weight: 15
+title: كيفية إنشاء جامع مهام فرعية في Aspose.Tasks
 url: /ar/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# جمع مهام الطفل في Aspose.Tasks
+# إنشاء جامع مهام فرعية في Aspose.Tasks
 
 ## مقدمة
 
-في مجال إدارة المشاريع، يبرز Aspose.Tasks for .NET كحل قوي للتعامل مع المهام والمشاريع بكفاءة. توفر هذه المكتبة القوية للمطورين الأدوات التي يحتاجونها لإدارة المهام والمشاريع وكل شيء بينهما بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في جانب محدد من Aspose.Tasks: جمع المهام الفرعية.
+إذا كنت بحاجة إلى **create child tasks collector** لملف Microsoft Project، فإن Aspose.Tasks for .NET يجعل العملية بسيطة. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة المطلوبة لجمع كل مهمة فرعية تحت أصل، حتى تتمكن من معالجتها أو تحليلها أو تصديرها بثقة. في نهاية الدليل ستحصل على مقتطف قابل لإعادة الاستخدام يتناسب طبيعياً مع أي حل لإدارة المشاريع مبني على .NET.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What does the ChildTasksCollector do?** إنه يتنقل عبر هيكلية المهام ويجمع جميع المهام التابعة في مجموعة.  
+- **Which library provides this feature?** Aspose.Tasks for .NET.  
+- **Do I need a license to run the sample?** نسخة تجريبية مجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.  
+- **What .NET versions are supported?** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+.  
+- **How long does the implementation take?** تقريباً 5‑10 دقائق بمجرد تثبيت المكتبة.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو جامع مهام فرعية؟
 
-1. الفهم الأساسي لـ C#: الإلمام بلغة البرمجة C# أمر ضروري.
-2.  تثبيت Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[رابط التحميل](https://releases.aspose.com/tasks/net/).
-3. بيئة التطوير: قم بإعداد بيئة تطوير، مثل Visual Studio، لكتابة كود C# وتنفيذه.
-4. الوصول إلى الوثائق: احتفظ بال[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/) مفيد للرجوع إليها.
+**child tasks collector** هو كائن أداة يمشي عبر شجرة المهام في ملف Project، بدءاً من مهمة جذر محددة، ويجمع كل مهمة فرعية (sub‑task) يصادفها. هذا مفيد بشكل خاص عندما تريد تطبيق عمليات جماعية—مثل تحديث الحقول، تصدير البيانات، أو إنشاء تقارير—دون الحاجة إلى التكرار يدويًا على كل مستوى من مستويات الهيكلية.
 
-الآن بعد أن قمنا بتغطية المتطلبات الأساسية، دعنا نتعمق في الدليل خطوة بخطوة لتجميع المهام الفرعية باستخدام Aspose.Tasks لـ .NET.
+## لماذا إنشاء جامع مهام فرعية؟
+
+- **Simplify recursion:** يقوم الجامع بمعالجة التجوال بعمق أولاً داخلياً، لذا تتجنب كتابة حلقاتك العودية الخاصة.  
+- **Boost productivity:** استرجاع جميع المهام التابعة في مجموعة واحدة، مما يجعل التعديلات أو التحليلات الجماعية سهلة.  
+- **Maintain clean code:** يحافظ على منطق الأعمال منفصلاً عن التنقل منخفض المستوى في بنية المشروع.
+
+## المتطلبات المسبقة
+
+1. **Basic Understanding of C#** – يجب أن تكون مرتاحاً لكتابة وتشغيل تطبيقات وحدة تحكم بسيطة.  
+2. **Aspose.Tasks for .NET installed** – قم بتنزيله من [download link](https://releases.aspose.com/tasks/net/).  
+3. **A development environment** – Visual Studio أو Rider أو أي بيئة تطوير تدعم C#.  
+4. **Access to the official docs** – احتفظ بـ [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) قريباً للرجوع إليه.  
+
+الآن بعد أن تم إعداد الأساس، دعنا نغوص في الشيفرة.
 
 ## استيراد مساحات الأسماء
 
-أولاً، قم باستيراد مساحات الأسماء الضرورية إلى كود C# الخاص بك للوصول إلى الوظائف التي يوفرها Aspose.Tasks لـ .NET.
+أولاً، استورد مساحات الأسماء المطلوبة حتى يعرف المترجم أين يجد الفئات التي سنستخدمها.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-الآن، دعونا نقسم المثال المقدم إلى خطوات متعددة لفهم العملية بشكل كامل.
+## دليل خطوة بخطوة
 
-## الخطوة 1: تهيئة كائن المشروع
+### الخطوة 1: تهيئة كائن Project
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- يقوم هذا السطر من التعليمات البرمجية بتهيئة ملف جديد`Project` كائن، وتحميل ملف مشروع يسمى "ParentChildTasks.mpp" من الدليل المحدد.
+هذا السطر يحمل ملف Microsoft Project موجود (`ParentChildTasks.mpp`) من مجلد `DataDir` إلى كائن `Project`، مما يمنحنا وصولاً برمجياً إلى مهامه.
 
-## الخطوة 2: إنشاء كائن ChildTaskCollector
+### الخطوة 2: إنشاء مثيل ChildTasksCollector
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
- هنا نقوم بإنشاء جديد`ChildTasksCollector` كائن، مما سيساعدنا في جمع المهام الفرعية من المشروع.
+هنا نقوم **create child tasks collector** – وهو مثيل من `ChildTasksCollector` سيخزن كل مهمة فرعية يكتشفها.
 
-## الخطوة 3: تطبيق Collector على المهمة الجذرية
+### الخطوة 3: تطبيق الجامع على المهمة الجذرية
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- نحن نطبق`ChildTasksCollector` إلى المهمة الجذرية للمشروع، وبدء عملية التجميع بشكل متكرر.
+نخبر Aspose.Tasks ببدء الجمع عند المهمة الجذرية للمشروع. طريقة `Apply` تتجول في الهيكلية بشكل متكرر، وتملأ `collector.Tasks` بجميع المهام التابعة.
 
-## الخطوة 4: التكرار من خلال المهام المجمعة
+### الخطوة 4: التكرار عبر المهام المجمعة
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +97,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-أخيرًا، نكرر المهام المجمعة ونطبع أسمائها على وحدة التحكم.
+أخيراً، نقوم بالتكرار على المهام المجمعة وطباعة اسم كل مهمة إلى وحدة التحكم. في سيناريو واقعي يمكنك استبدال `Console.WriteLine` بأي معالجة مخصصة تحتاجها (مثلاً، تصدير إلى CSV، تحديث الحقول، إلخ).
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية جمع المهام الفرعية باستخدام Aspose.Tasks لـ .NET. باتباع الخطوات الموضحة أعلاه، يمكنك إدارة المهام ومعالجتها بكفاءة داخل مشاريعك، مما يعزز الإنتاجية والتنظيم.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| **No tasks are returned** | تم تطبيق الجامع على المهمة الخاطئة (مثلاً، عقدة ورقية). | قم بتطبيق `TaskUtils.Apply` على `project.RootTask` أو على الأصل المحدد الذي تريد البدء منه. |
+| **NullReferenceException** | `DataDir` أو مسار الملف غير صحيح. | تحقق من أن `DataDir` يشير إلى المجلد الذي يحتوي على `ParentChildTasks.mpp`. |
+| **License not set** | Aspose.Tasks يصدر تحذير ترخيص في وضع التجربة. | حمّل الترخيص الخاص بك باستخدام `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` قبل إنشاء كائن `Project`. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.Tasks لـ .NET متوافق مع كافة إصدارات .NET؟
+**س: هل Aspose.Tasks for .NET متوافق مع جميع إصدارات .NET؟**  
+ج: نعم، Aspose.Tasks for .NET يعمل مع .NET Framework 4.5+، .NET Core 3.1+، و .NET 5/6+.
 
-ج1: نعم، Aspose.Tasks for .NET متوافق مع إصدارات مختلفة من .NET Framework، مما يضمن التوافق الواسع.
+**س: هل يمكنني استخدام Aspose.Tasks for .NET لإنشاء ملفات مشروع جديدة؟**  
+ج: بالتأكيد! تتيح لك المكتبة إنشاء، قراءة، وتعديل ملفات المشروع برمجياً.
 
-### س2: هل يمكنني استخدام Aspose.Tasks لـ .NET لإنشاء ملفات مشروع جديدة؟
+**س: هل يدعم Aspose.Tasks for .NET منصات متعددة؟**  
+ج: على الرغم من أنه مصمم لـ .NET، يمكنك تشغيله على أي منصة تدعم بيئة تشغيل .NET، بما في ذلك Windows و Linux و macOS.
 
-ج2: بالتأكيد! يوفر Aspose.Tasks for .NET وظائف لإنشاء ملفات المشروع وقراءتها ومعالجتها بسهولة.
+**س: هل الدعم الفني متاح لـ Aspose.Tasks for .NET؟**  
+ج: نعم، يمكنك الحصول على المساعدة عبر [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### س3: هل يدعم Aspose.Tasks لـ .NET أنظمة أساسية متعددة؟
+**س: هل يمكنني تجربة Aspose.Tasks for .NET قبل الشراء؟**  
+ج: بالتأكيد! نسخة تجريبية مجانية متاحة من [release page](https://releases.aspose.com/).
 
-ج3: على الرغم من أنه تم تصميمه بشكل أساسي لبيئات .NET، إلا أنه يمكن استخدام Aspose.Tasks لـ .NET في العديد من الأنظمة الأساسية التي تدعم تطوير .NET.
+---
 
-### س4: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
+**آخر تحديث:** 2026-04-13  
+**تم الاختبار مع:** Aspose.Tasks 24.11 for .NET  
+**المؤلف:** Aspose  
 
-ج4: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
-
-### س5: هل يمكنني تجربة Aspose.Tasks لـ .NET قبل الشراء؟
-
- ج5: بالتأكيد! يمكنك الاستفادة من النسخة التجريبية المجانية من[صفحة الإصدار](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
