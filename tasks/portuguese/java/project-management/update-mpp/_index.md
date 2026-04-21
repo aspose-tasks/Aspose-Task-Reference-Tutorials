@@ -93,18 +93,6 @@ O projeto atualizado, agora contendo a nova tarefa, é persistido como **AfterLi
 | **Exceção de licença** | Instale uma licença válida do Aspose.Tasks antes de chamar qualquer API para evitar marcas d'água de avaliação. |
 
 ## Perguntas Frequentes
-### Q: O Aspose.Tasks for Java pode lidar com estruturas de projeto complexas?
-A: Sim, o Aspose.Tasks for Java fornece recursos robustos para lidar com estruturas de projeto complexas de forma eficiente.  
-### Q: Existe uma versão de teste gratuita disponível para Aspose.Tasks for Java?
-A: Sim, você pode baixar uma versão de teste gratuita do [website](https://releases.aspose.com/).  
-### Q: O Aspose.Tasks for Java suporta diferentes versões de arquivos Microsoft Project?
-A: Absolutamente, o Aspose.Tasks for Java suporta várias versões de arquivos Microsoft Project, incluindo formatos MPP, MPT e XML.  
-### Q: Posso obter licenças temporárias para Aspose.Tasks for Java?
-A: Sim, licenças temporárias estão disponíveis para fins de teste. Você pode obtê‑las na [temporary license page](https://purchase.aspose.com/temporary-license/).  
-### Q: Onde posso buscar ajuda ou suporte sobre Aspose.Tasks for Java?
-A: Você pode visitar o [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) para qualquer assistência ou dúvidas.
-
-## Perguntas Frequentes
 **Q: Como adiciono várias tarefas de uma vez?**  
 A: Percorra uma coleção de nomes de tarefas e repita o bloco “create task” dentro do loop.
 

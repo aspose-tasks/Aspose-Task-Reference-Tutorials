@@ -93,18 +93,6 @@ Proyek yang telah diperbarui, kini berisi tugas baru, disimpan sebagai **AfterLi
 | **Tanggal tidak tepat** | Ingat bahwa bulan pada `Calendar` dimulai dari nol; `Calendar.JULY` adalah nilai yang tepat untuk Juli. |
 | **Pengecualian lisensi** | Pasang lisensi Aspose.Tasks yang valid sebelum memanggil API apa pun untuk menghindari watermark evaluasi. |
 
-## FAQ's
-### Q: Bisakah Aspose.Tasks untuk Java menangani struktur proyek yang kompleks?
-A: Ya, Aspose.Tasks untuk Java menyediakan fitur kuat untuk menangani struktur proyek yang kompleks secara efisien.  
-### Q: Apakah ada versi percobaan gratis untuk Aspose.Tasks untuk Java?
-A: Ya, Anda dapat mengunduh versi percobaan gratis dari [situs web](https://releases.aspose.com/).  
-### Q: Apakah Aspose.Tasks untuk Java mendukung berbagai versi file Microsoft Project?
-A: Tentu saja, Aspose.Tasks untuk Java mendukung berbagai versi file Microsoft Project, termasuk format MPP, MPT, dan XML.  
-### Q: Bisakah saya mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
-A: Ya, lisensi sementara tersedia untuk tujuan pengujian. Anda dapat memperolehnya dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).  
-### Q: Di mana saya dapat mencari bantuan atau dukungan terkait Aspose.Tasks untuk Java?
-A: Anda dapat mengunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk bantuan atau pertanyaan apa pun.
-
 ## Pertanyaan yang Sering Diajukan
 **Q: Bagaimana cara menambahkan beberapa tugas sekaligus?**  
 A: Lakukan iterasi pada koleksi nama tugas dan ulangi blok “create task” di dalam loop.

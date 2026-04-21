@@ -1,6 +1,6 @@
 ---
-title: Add Legend to Image: Print Pages to Separate Image
-linktitle: Add Legend to Image: Print Pages to Separate Image
+title: Add Legend to Image - Print Pages to Separate Image
+linktitle: Add Legend to Image - Print Pages to Separate Image
 second_title: Aspose.Tasks Java API
 description: Learn how to add legend to image and print pages to separate images in Aspose.Tasks for Java, enabling you to save project as image with full control.
 weight: 22

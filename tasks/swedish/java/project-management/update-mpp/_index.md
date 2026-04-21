@@ -93,18 +93,6 @@ Det uppdaterade projektet, som nu innehåller den nya uppgiften, sparas som **Af
 | **Licensundantag** | Installera en giltig Aspose.Tasks‑licens innan du anropar något API för att undvika utvärderingsvattenstämplar. |
 
 ## Vanliga frågor
-### Q: Kan Aspose.Tasks för Java hantera komplexa projektstrukturer?
-A: Ja, Aspose.Tasks för Java erbjuder robusta funktioner för att effektivt hantera komplexa projektstrukturer.  
-### Q: Finns det en gratis provversion av Aspose.Tasks för Java?
-A: Ja, du kan ladda ner en gratis provversion från [website](https://releases.aspose.com/).  
-### Q: Stöder Aspose.Tasks för Java olika versioner av Microsoft Project‑filer?
-A: Absolut, Aspose.Tasks för Java stöder olika versioner av Microsoft Project‑filer, inklusive MPP, MPT och XML‑format.  
-### Q: Kan jag få tillfälliga licenser för Aspose.Tasks för Java?
-A: Ja, tillfälliga licenser finns tillgängliga för teständamål. Du kan erhålla dem via [temporary license page](https://purchase.aspose.com/temporary-license/).  
-### Q: Var kan jag få hjälp eller support för Aspose.Tasks för Java?
-A: Du kan besöka [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för assistans eller frågor.
-
-## Vanliga frågor
 **Q: Hur lägger jag till flera uppgifter samtidigt?**  
 A: Loopa över en samling av uppgiftsnamn och upprepa “create task”-blocket inom loopen.
 

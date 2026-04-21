@@ -93,18 +93,6 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 | **License exception** | ติดตั้งใบอนุญาต Aspose.Tasks ที่ถูกต้องก่อนเรียกใช้ API ใด ๆ เพื่อหลีกเลี่ยงลายน้ำการประเมิน. |
 
 ## คำถามที่พบบ่อย
-### Q: Aspose.Tasks for Java สามารถจัดการโครงสร้างโครงการที่ซับซ้อนได้หรือไม่?
-A: ใช่, Aspose.Tasks for Java มีฟีเจอร์ที่แข็งแกร่งเพื่อจัดการโครงสร้างโครงการที่ซับซ้อนได้อย่างมีประสิทธิภาพ.  
-### Q: มีการทดลองใช้ฟรีสำหรับ Aspose.Tasks for Java หรือไม่?
-A: มี, คุณสามารถดาวน์โหลดการทดลองใช้ฟรีจาก [website](https://releases.aspose.com/).  
-### Q: Aspose.Tasks for Java รองรับเวอร์ชันต่าง ๆ ของไฟล์ Microsoft Project หรือไม่?
-A: แน่นอน, Aspose.Tasks for Java รองรับเวอร์ชันต่าง ๆ ของไฟล์ Microsoft Project รวมถึงรูปแบบ MPP, MPT, และ XML.  
-### Q: ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks for Java ได้หรือไม่?
-A: มี, ใบอนุญาตชั่วคราวพร้อมให้ใช้เพื่อการทดสอบ. คุณสามารถรับได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/).  
-### Q: ฉันสามารถขอความช่วยเหลือหรือสนับสนุนเกี่ยวกับ Aspose.Tasks for Java ได้จากที่ไหน?
-A: คุณสามารถเยี่ยมชม [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) เพื่อขอความช่วยเหลือหรือสอบถามได้.
-
-## คำถามที่พบบ่อย
 **Q: ฉันจะเพิ่มหลายงานพร้อมกันได้อย่างไร?**  
 A: วนลูปผ่านคอลเลกชันของชื่องานและทำซ้ำบล็อก “create task” ภายในลูป.
 

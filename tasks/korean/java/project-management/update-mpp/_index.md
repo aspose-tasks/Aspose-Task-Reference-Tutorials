@@ -91,18 +91,6 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 | **날짜 오류** | `Calendar`의 월은 0부터 시작한다는 점을 기억하세요; `Calendar.JULY`는 7월을 의미합니다. |
 | **라이선스 예외** | 평가용 워터마크를 방지하려면 API 호출 전에 유효한 Aspose.Tasks 라이선스를 설치하세요. |
 
-## FAQ
-### Q: Aspose.Tasks for Java가 복잡한 프로젝트 구조를 처리할 수 있나요?
-A: 예, Aspose.Tasks for Java는 복잡한 프로젝트 구조를 효율적으로 처리할 수 있는 강력한 기능을 제공합니다.  
-### Q: Aspose.Tasks for Java의 무료 체험판을 이용할 수 있나요?
-A: 예, [웹사이트](https://releases.aspose.com/)에서 무료 체험판을 다운로드할 수 있습니다.  
-### Q: Aspose.Tasks for Java가 다양한 버전의 Microsoft Project 파일을 지원하나요?
-A: 물론입니다. Aspose.Tasks for Java는 MPP, MPT, XML 형식을 포함한 다양한 버전의 Microsoft Project 파일을 지원합니다.  
-### Q: Aspose.Tasks for Java의 임시 라이선스를 받을 수 있나요?
-A: 예, 테스트 용도로 임시 라이선스를 제공하고 있습니다. [임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.  
-### Q: Aspose.Tasks for Java에 대한 도움이나 지원을 어디서 받을 수 있나요?
-A: 도움이나 문의 사항이 있으면 [Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)을 방문하세요.
-
 ## 자주 묻는 질문
 **Q: 여러 작업을 한 번에 추가하려면 어떻게 해야 하나요?**  
 A: 작업 이름 컬렉션을 순회하면서 루프 안에서 “작업 생성” 블록을 반복합니다.

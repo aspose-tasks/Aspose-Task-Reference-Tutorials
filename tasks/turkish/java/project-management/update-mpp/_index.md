@@ -16,32 +16,32 @@ weight: 19
 
 # Aspose.Tasks'te Görev Ekleme ve MPP Dosyasını Güncelleme
 
-## Introduction
-Bu öğreticide **görev ekleme** ve Aspose.Tasks for Java kullanarak bir MPP dosyasını güncelleme işlemini göstereceğiz; bu, önde gelen **java proje yönetimi kütüphanesidir**. Özel bir zamanlayıcı oluşturuyor ya da mevcut proje planlarını programlı olarak değiştirmek istiyor olun, bu rehber dosyayı yüklemeden değişiklikleri yeni bir MPP belgesi olarak kaydetmeye kadar tüm adımları size anlatır.
+## Giriiş
+Bu öğreticide **görev ekleme** ve Aspose.Tasks for Java kullanarak bir MPP dosyasının güncelleme sürecini görüntülersiniz; bu, önde gelen **java proje yönetimi kütüphanesidir**. Özel bir zamanlayıcı oluşturulması ya da mevcut proje planlarını programlı olarak değiştirilmesi istenmelidir, bu rehberde değişiklik yapılması yeni bir MPP belgesi olarak kaydedilmesine kadar tüm adımların boyutu anlatılır.
 
-## Quick Answers
-- **Bu bağlamda “how to add task” ne anlama geliyor?** Mevcut bir Microsoft Project (MPP) dosyası içinde programlı olarak yeni bir görev oluşturmayı ifade eder.  
-- **İşlemi hangi kütüphane gerçekleştiriyor?** Aspose.Tasks for Java, sağlam bir java proje yönetimi kütüphanesidir.  
-- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
-- **Sonucu MPP olarak kaydedebilir miyim?** Evet—`project.save(..., SaveFileFormat.Mpp)` kullanarak **projeyi mpp olarak kaydedin**.  
-- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri.
+## Hızlı Yanıtlar
+- **Bu bağlamda “nasıl görev eklenir” ne anlaşılıyor?**Mevcut bir Microsoft Project (MPP) dosyası içinde programlı olarak yeni bir görev oluşturmayı ifade eder.
+- **İşlemi hangi kütüphaneyi gerçekleştiriyor?**Aspose.Tasks for Java, sağlam bir java proje yönetimidir.
+- **Lisans gerekir mi?**Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.
+- **Sonucu MPP olarak kaydedebilir miyim?**Evet—`project.save(..., SaveFileFormat.Mpp)` kullanarak **projeyi mpp olarak kaydetme**.
+- **Hangi Java sürümü gerekiyor mu?**Java8 veya üzeri.
 
-## What is “how to add task” in an MPP file?
-Görev eklemek, proje hiyerarşisine yeni bir iş öğesi eklemek, başlangıç/bitiş tarihlerini tanımlamak ve değişikliği MPP dosyasına geri yazmak anlamına gelir. Aspose.Tasks, düşük seviyeli dosya formatı detaylarını soyutlayarak iş mantığınıza odaklanmanızı sağlar.
+## MPP dosyasına "görev nasıl eklenir" nedir?
+Görev değiştirme, proje ilerlemesine yeni bir iş öğesi seçme, başlangıç/bitiş tarihlerini büyütme ve değiştirme MPP dosyasına yazmak geri anlamına gelir. Aspose.Tasks, düşük seviyeli dosya formatı detaylarını soyutlayarak iş mantığınıza odaklanmanızı sağlar.
 
-## Why use Aspose.Tasks for Java?
-- **Microsoft Project 2007‑2021 dosyalarıyla tam uyumluluk**.  
-- **COM veya Office kurulumu gerekmez**—tamamen Java API'si.  
-- **Zengin özellik seti**: görev bağlama, kaynak tahsisi, özel alanlar ve daha fazlası.  
-- **Büyük proje dosyaları için yüksek performans**, sunucu‑tarafı otomasyon için idealdir.
+## Aspose.Tasks for Java'yı neden kullanmalısınız?
+- **Microsoft Project 2007‑2021 dosyalarıyla tam uyumluluk**.
+- **COM veya Office kurulumuna gerek yoktur**—tamamen Java API'si.
+- **Zengin özellik seti**: görev bağlama, kaynak dağıtımı, özel alanlar ve daha fazlası.
+- **Büyük proje dosyaları için yüksek performans**, sunucu‑tarafı otomasyonları için idealdir.
 
-## Prerequisites
-1. **Java Geliştirme Ortamı** – JDK 8+ yüklü ve yapılandırılmış.  
-2. **Aspose.Tasks for Java** – [indirme sayfasından](https://releases.aspose.com/tasks/java/) indirin.  
-3. **Temel Java bilgisi** – Sınıflar, nesneler ve tarih işleme konularına aşina olun.  
+## Önkoşullar
+1. **Java Geliştirme Ortamı** – JDK8+ yüklü ve çalışıyor.
+2. **Aspose.Tasks for Java** – [indirme sayfasının](https://releases.aspose.com/tasks/java/) indirilir.
+3. **Temel Java bilgisi** – Sınıflar, nesneler ve tarih işleme konularına hakim olun.
 
-## Import Packages
-First, import the classes you’ll need. This gives you access to project manipulation, task properties, and date handling.
+## Paketleri İçe Aktar
+Öncelikle ihtiyacınız olacak sınıfları içe aktarın. Bu, proje düzenlemeye, görev özelliklerine ve tarih işlemeye erişmenizi sağlar.
 
 ```java
 import com.aspose.tasks.Project;
@@ -51,25 +51,25 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Step 1: Define Data Directory
+## Adım 1: Veri Dizini Tanımlama
 ```java
 String dataDir = "Your Data Directory";
 ```
 `"Your Data Directory"` ifadesini, kaynak MPP dosyanızın bulunduğu mutlak yol ile değiştirin.
 
-## Step 2: Read Existing Project
+## Adım 2: Mevcut Projeyi Okuma
 ```java
 Project project = new Project(dataDir + "SampleMSP2010.mpp");
 ```
 `Project` yapıcısı **SampleMSP2010.mpp** dosyasını yükler ve üzerinde çalışabileceğiniz bir nesne modeli sunar.
 
-## Step 3: Create a New Task (how to add task)
+## Adım 3: Yeni Bir Görev Oluşturma (görev nasıl eklenir)
 ```java
 Task task = project.getRootTask().getChildren().add("Task1");
 ```
 Bu satır, kök göreve *Task1* adlı bir alt görev ekleyerek **görevi mpp içinde oluşturur**.
 
-## Step 4: Set Start and Finish Dates
+## Adım 4: Başlangıç ​​ve Bitiş Tarihlerini Belirleme
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2012, Calendar.JULY, 1, 8, 0, 0);
@@ -79,52 +79,40 @@ task.set(Tsk.FINISH, cal.getTime());
 ```
 Burada yeni eklenen görevin takvimini tanımlıyoruz. Tarihleri proje zaman çizelgenize uygun şekilde ayarlayın.
 
-## Step 5: Save the Project (save project as mpp)
+## Adım 5: Projeyi Kaydetme (projeyi mpp olarak kaydetme)
 ```java
 project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 ```
 Güncellenen proje, yeni görevle birlikte **AfterLinking.mpp** olarak kalıcı hale getirilir.
 
-## Common Issues and Solutions
-| Issue | Solution |
-|-------|----------|
-| **File not found** | `dataDir` sonunun bir yol ayırıcı (`/` veya `\\`) içerdiğini ve dosya adının doğru olduğunu doğrulayın. |
-| **Incorrect dates** | `Calendar` aylarının sıfır‑tabanlı olduğunu unutmayın; Temmuz için `Calendar.JULY` doğrudur. |
-| **License exception** | Değerlendirme su işaretlerini önlemek için herhangi bir API çağrısından önce geçerli bir Aspose.Tasks lisansı yükleyin. |
+## Yaygın Sorunlar ve Çözümler
+| Sayı | Çözüm |
+|----------|----------|
+| **Dosya bulunamadı** | `dataDir` sonunun bir yol ayırıcısının (`/` veya `\\`) görünmesini ve dosya adının doğru olduğunu doğrulayın. |
+| **Yanlış tarihler** | `Takvim` aylarının sıfır‑tabanlı olduğunu unutmayın; Temmuz için `Takvim.JULY` geçerlidir. |
+| **Lisans istisnası** | Değerlendirme su işaretlerini önlemek için herhangi bir API programından önce geçerli bir Aspose.Tasks lisansını yükleyin. |
 
-## FAQ's
-### Q: Aspose.Tasks for Java karmaşık proje yapılarıyla başa çıkabilir mi?
-A: Evet, Aspose.Tasks for Java, karmaşık proje yapılarıyla verimli bir şekilde çalışmak için güçlü özellikler sunar.  
-### Q: Aspose.Tasks for Java için ücretsiz bir deneme sürümü mevcut mu?
-A: Evet, [web sitesinden](https://releases.aspose.com/) ücretsiz bir deneme sürümü indirebilirsiniz.  
-### Q: Aspose.Tasks for Java farklı Microsoft Project dosya sürümlerini destekliyor mu?
-A: Kesinlikle, Aspose.Tasks for Java MPP, MPT ve XML formatları dahil olmak üzere çeşitli Microsoft Project dosya sürümlerini destekler.  
-### Q: Aspose.Tasks for Java için geçici lisans alabilir miyim?
-A: Evet, test amaçlı geçici lisanslar mevcuttur. Bunları [geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.  
-### Q: Aspose.Tasks for Java ile ilgili yardım veya destek nasıl alınır?
-A: Herhangi bir sorunuz veya ihtiyacınız için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
+## Sıkça Sorulan Sorular
+**S: Birden fazla görev aynı anda nasıl eklerim?**
+A: Görev adları koleksiyonunu döngüye alıp “görev oluştur” aralığını döngü içinde sürekli olarak.
 
-## Frequently Asked Questions
-**Q: Birden fazla görevi aynı anda nasıl eklerim?**  
-A: Görev adları koleksiyonunu döngüye alıp “görev oluştur” bloğunu döngü içinde tekrarlayın.
-
-**Q: Yeni görev için özel alanlar ayarlayabilir miyim?**  
+**S: Yeni görev için özel alanları ayarlayabilir miyim?**
 A: Evet—`task.set(Tsk.CUSTOM_FIELD_x, value)` kullanın; *x* alan indeksidir.
 
-**Q: Mevcut bir görevi şablon olarak kopyalamak mümkün mü?**  
+**S: Mevcut bir programın düzeni olarak kopyalamak mümkün mü?**
 A: Kaynak görevi (`Task cloned = sourceTask.clone();`) klonlayın ve ardından istediğiniz ebeveyne ekleyin.
 
-**Q: Yeni bir görev eklemek yerine mevcut bir görevi güncellemem gerekirse ne yapmalıyım?**  
-A: Görevi ID ile alın (`Task existing = project.getRootTask().getChildren().getById(id);`) ve özelliklerini değiştirin.
+**S: Yeni bir görev seçme yerine mevcut bir görevi güncellemem gerekiyorsa ne yapmalıyım?**
+A: Görevi ID ile alın (`Görev mevcut = project.getRootTask().getChildren().getById(id);`) ve özellikleri verilir.
 
-**Q: Aspose.Tasks PDF veya PNG gibi diğer formatlarda kaydetmeyi destekliyor mu?**  
+**S: Aspose.Tasks PDF veya PNG gibi diğer formatlarda saklamayı mı sakladınız?**
 A: Evet—`project.save("output.pdf", SaveFileFormat.Pdf);` veya görsel temsiller için `SaveFileFormat.Png` kullanın.
 
 ---
 
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-28
+**Test Edildiği Sürüm:** Aspose.Tasks for Java 24.12
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

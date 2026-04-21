@@ -92,18 +92,6 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 | **تواريخ غير صحيحة** | تذكر أن شهور `Calendar` تبدأ من الصفر؛ `Calendar.JULY` هو الصحيح لشهر يوليو. |
 | **استثناء الترخيص** | قم بتثبيت ترخيص Aspose.Tasks صالح قبل استدعاء أي API لتجنب علامات التقييم. |
 
-## الأسئلة المتكررة
-### س: هل يمكن لـ Aspose.Tasks for Java التعامل مع هياكل مشاريع معقدة؟
-ج: نعم، توفر Aspose.Tasks for Java ميزات قوية للتعامل مع هياكل مشاريع معقدة بكفاءة.  
-### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks for Java؟
-ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [الموقع الإلكتروني](https://releases.aspose.com/).  
-### س: هل يدعم Aspose.Tasks for Java إصدارات مختلفة من ملفات Microsoft Project؟
-ج: بالتأكيد، يدعم Aspose.Tasks for Java إصدارات متعددة من ملفات Microsoft Project، بما في ذلك صيغ MPP و MPT و XML.  
-### س: هل يمكنني الحصول على تراخيص مؤقتة لـ Aspose.Tasks for Java؟
-ج: نعم، تتوفر تراخيص مؤقتة لأغراض الاختبار. يمكنك الحصول عليها من [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).  
-### س: أين يمكنني طلب المساعدة أو الدعم بخصوص Aspose.Tasks for Java؟
-ج: يمكنك زيارة [منتدى Aspose.Tasks](https://forum.aspose.com/c/tasks/15) لأي مساعدة أو استفسارات.
-
 ## أسئلة شائعة أخرى
 **س: كيف يمكنني إضافة عدة مهام مرة واحدة؟**  
 ج: كرّر حلقة على مجموعة من أسماء المهام وكرر كتلة “إنشاء مهمة” داخل الحلقة.

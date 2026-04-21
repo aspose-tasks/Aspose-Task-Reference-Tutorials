@@ -93,18 +93,6 @@ Zaktualizowany projekt, zawierający nowe zadanie, zostaje zapisany jako **After
 | **Nieprawidłowe daty** | Pamiętaj, że miesiące w `Calendar` są zerowo‑indeksowane; `Calendar.JULY` oznacza lipiec. |
 | **Wyjątek licencyjny** | Zainstaluj ważną licencję Aspose.Tasks przed wywołaniem jakiegokolwiek API, aby uniknąć znaków wodnych wersji ewaluacyjnej. |
 
-## FAQ
-### Q: Czy Aspose.Tasks dla Java radzi sobie ze złożonymi strukturami projektów?
-A: Tak, Aspose.Tasks dla Java oferuje solidne funkcje umożliwiające efektywne zarządzanie złożonymi strukturami projektów.  
-### Q: Czy dostępna jest darmowa wersja próbna Aspose.Tasks dla Java?
-A: Tak, darmową wersję próbną można pobrać ze [strony internetowej](https://releases.aspose.com/).  
-### Q: Czy Aspose.Tasks dla Java obsługuje różne wersje plików Microsoft Project?
-A: Oczywiście, Aspose.Tasks dla Java obsługuje różne wersje plików Microsoft Project, w tym formaty MPP, MPT i XML.  
-### Q: Czy mogę uzyskać tymczasowe licencje na Aspose.Tasks dla Java?
-A: Tak, tymczasowe licencje są dostępne do celów testowych. Można je uzyskać na [stronie tymczasowych licencji](https://purchase.aspose.com/temporary-license/).  
-### Q: Gdzie mogę uzyskać pomoc lub wsparcie dotyczące Aspose.Tasks dla Java?
-A: Odwiedź [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), aby uzyskać pomoc lub zadać pytania.
-
 ## Najczęściej zadawane pytania
 **Q: Jak dodać wiele zadań jednocześnie?**  
 A: Przejdź pętlą po kolekcji nazw zadań i powtórz blok „utwórz zadanie” wewnątrz pętli.

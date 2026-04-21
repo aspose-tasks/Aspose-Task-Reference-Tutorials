@@ -90,18 +90,6 @@ The updated project, now containing the new task, is persisted as **AfterLinking
 | **Incorrect dates** | Remember that `Calendar` months are zero‑based; `Calendar.JULY` is correct for July. |
 | **License exception** | Install a valid Aspose.Tasks license before calling any API to avoid evaluation watermarks. |
 
-## FAQ's
-### Q: Can Aspose.Tasks for Java handle complex project structures?
-A: Yes, Aspose.Tasks for Java provides robust features to handle complex project structures efficiently.  
-### Q: Is there a free trial available for Aspose.Tasks for Java?
-A: Yes, you can download a free trial from the [website](https://releases.aspose.com/).  
-### Q: Does Aspose.Tasks for Java support different versions of Microsoft Project files?
-A: Absolutely, Aspose.Tasks for Java supports various versions of Microsoft Project files, including MPP, MPT, and XML formats.  
-### Q: Can I get temporary licenses for Aspose.Tasks for Java?
-A: Yes, temporary licenses are available for testing purposes. You can obtain them from the [temporary license page](https://purchase.aspose.com/temporary-license/).  
-### Q: Where can I seek help or support regarding Aspose.Tasks for Java?
-A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries.
-
 ## Frequently Asked Questions
 **Q: How do I add multiple tasks at once?**  
 A: Loop over a collection of task names and repeat the “create task” block inside the loop.

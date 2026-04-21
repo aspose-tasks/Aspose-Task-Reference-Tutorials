@@ -93,18 +93,6 @@ Aktualizovaný projekt, nyní obsahující nový úkol, je uložen jako **AfterL
 | **Výjimka licence** | Nainstalujte platnou licenci Aspose.Tasks před voláním jakéhokoli API, aby se zabránilo vodoznakům z hodnocení. |
 
 ## Často kladené otázky
-### Q: Dokáže Aspose.Tasks pro Java zvládat složité struktury projektů?
-A: Ano, Aspose.Tasks pro Java poskytuje robustní funkce pro efektivní práci se složitými strukturami projektů.  
-### Q: Je k dispozici bezplatná zkušební verze Aspose.Tasks pro Java?
-A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [webu](https://releases.aspose.com/).  
-### Q: Podporuje Aspose.Tasks pro Java různé verze souborů Microsoft Project?
-A: Ano, Aspose.Tasks pro Java podporuje různé verze souborů Microsoft Project, včetně formátů MPP, MPT a XML.  
-### Q: Mohu získat dočasné licence pro Aspose.Tasks pro Java?
-A: Ano, dočasné licence jsou k dispozici pro testovací účely. Můžete je získat na [stránce dočasných licencí](https://purchase.aspose.com/temporary-license/).  
-### Q: Kde mohu získat pomoc nebo podporu ohledně Aspose.Tasks pro Java?
-A: Můžete navštívit [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakoukoli pomoc nebo dotazy.
-
-## Často kladené otázky
 **Q: Jak mohu přidat více úkolů najednou?**  
 A: Projděte kolekci názvů úkolů a opakujte blok “create task” uvnitř smyčky.
 

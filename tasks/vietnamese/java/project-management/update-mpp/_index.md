@@ -93,18 +93,6 @@ Dự án đã cập nhật, hiện chứa nhiệm vụ mới, được lưu lạ
 | **License exception** | Cài đặt giấy phép Aspose.Tasks hợp lệ trước khi gọi bất kỳ API nào để tránh dấu nước đánh giá. |
 
 ## Câu hỏi thường gặp
-### Q: Aspose.Tasks cho Java có thể xử lý cấu trúc dự án phức tạp không?
-A: Có, Aspose.Tasks cho Java cung cấp các tính năng mạnh mẽ để xử lý cấu trúc dự án phức tạp một cách hiệu quả.  
-### Q: Có bản dùng thử miễn phí cho Aspose.Tasks cho Java không?
-A: Có, bạn có thể tải bản dùng thử miễn phí từ [trang web](https://releases.aspose.com/).  
-### Q: Aspose.Tasks cho Java có hỗ trợ các phiên bản khác nhau của tệp Microsoft Project không?
-A: Chắc chắn, Aspose.Tasks cho Java hỗ trợ nhiều phiên bản tệp Microsoft Project, bao gồm các định dạng MPP, MPT và XML.  
-### Q: Tôi có thể nhận giấy phép tạm thời cho Aspose.Tasks cho Java không?
-A: Có, giấy phép tạm thời có sẵn cho mục đích thử nghiệm. Bạn có thể lấy chúng từ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).  
-### Q: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ về Aspose.Tasks cho Java ở đâu?
-A: Bạn có thể truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ hoặc đặt câu hỏi.
-
-## Câu hỏi thường gặp
 **Q: Làm thế nào để thêm nhiều nhiệm vụ cùng một lúc?**  
 A: Lặp qua một tập hợp các tên nhiệm vụ và lặp lại khối “create task” bên trong vòng lặp.
 

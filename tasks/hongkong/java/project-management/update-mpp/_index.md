@@ -91,18 +91,6 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 | **日期不正確** | 記得 `Calendar` 的月份是從 0 開始計算；`Calendar.JULY` 才是七月。 |
 | **授權例外** | 在呼叫任何 API 前先安裝有效的 Aspose.Tasks 授權，以避免評估水印。 |
 
-## 常見問答
-### 問：Aspose.Tasks for Java 能處理複雜的專案結構嗎？
-答：可以，Aspose.Tasks for Java 提供強大的功能，能有效處理複雜的專案結構。  
-### 問：是否提供 Aspose.Tasks for Java 的免費試用？
-答：可以，您可從 [website](https://releases.aspose.com/) 下載免費試用版。  
-### 問：Aspose.Tasks for Java 是否支援不同版本的 Microsoft Project 檔案？
-答：當然支援，Aspose.Tasks for Java 支援多種 Microsoft Project 檔案版本，包括 MPP、MPT 與 XML 格式。  
-### 問：我可以取得 Aspose.Tasks for Java 的臨時授權嗎？
-答：可以，臨時授權可供測試使用。您可從 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得。  
-### 問：我可以在哪裡尋求 Aspose.Tasks for Java 的協助或支援？
-答：您可前往 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 取得協助或提出問題。
-
 ## 常見問題
 **問：如何一次新增多個任務？**  
 答：在任務名稱集合上迴圈，於迴圈內重複「建立任務」的程式碼區塊。

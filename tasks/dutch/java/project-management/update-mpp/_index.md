@@ -92,18 +92,6 @@ Het bijgewerkte project, nu met de nieuwe taak, wordt opgeslagen als **AfterLink
 | **Onjuiste datums** | Onthoud dat de maanden van `Calendar` nul‑gebaseerd zijn; `Calendar.JULY` is correct voor juli. |
 | **Licentie‑exceptie** | Installeer een geldige Aspose.Tasks‑licentie voordat u een API aanroept om evaluatiewatermerken te vermijden. |
 
-## FAQ's
-### Q: Kan Aspose.Tasks for Java complexe projectstructuren aan?
-A: Ja, Aspose.Tasks for Java biedt robuuste functies om complexe projectstructuren efficiënt te verwerken.  
-### Q: Is er een gratis proefversie beschikbaar voor Aspose.Tasks for Java?
-A: Ja, u kunt een gratis proefversie downloaden van de [website](https://releases.aspose.com/).  
-### Q: Ondersteunt Aspose.Tasks for Java verschillende versies van Microsoft Project‑bestanden?
-A: Absoluut, Aspose.Tasks for Java ondersteunt verschillende versies van Microsoft Project‑bestanden, inclusief MPP-, MPT- en XML‑formaten.  
-### Q: Kan ik tijdelijke licenties krijgen voor Aspose.Tasks for Java?
-A: Ja, tijdelijke licenties zijn beschikbaar voor testdoeleinden. U kunt ze verkrijgen via de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).  
-### Q: Waar kan ik hulp of ondersteuning krijgen voor Aspose.Tasks for Java?
-A: U kunt het [Aspose.Tasks‑forum](https://forum.aspose.com/c/tasks/15) bezoeken voor hulp of vragen.
-
 ## Veelgestelde vragen
 **Q: Hoe voeg ik meerdere taken tegelijk toe?**  
 A: Loop over een collectie van taaknamen en herhaal het “create task”‑blok binnen de lus.

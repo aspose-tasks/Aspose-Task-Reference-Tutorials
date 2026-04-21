@@ -93,23 +93,6 @@ A frissített projekt, amely már tartalmazza az új feladatot, **AfterLinking.m
 | **Incorrect dates** | Ne feledje, hogy a `Calendar` hónapjai nullától indulnak; a `Calendar.JULY` a július helyes értéke. |
 | **License exception** | Telepítsen érvényes Aspose.Tasks licencet az API hívása előtt, hogy elkerülje a kiértékelési vízjelek megjelenését. |
 
-## GYIK
-
-### K: Kezelhet‑e az Aspose.Tasks for Java összetett projektstruktúrákat?
-V: Igen, az Aspose.Tasks for Java robusztus funkciókat biztosít az összetett projektstruktúrák hatékony kezeléséhez.  
-
-### K: Elérhető‑e ingyenes próba az Aspose.Tasks for Java‑hoz?
-V: Igen, letölthet egy ingyenes próbaverziót a [weboldalról](https://releases.aspose.com/).  
-
-### K: Támogatja‑e az Aspose.Tasks for Java a Microsoft Project fájlok különböző verzióit?
-V: Teljes mértékben, az Aspose.Tasks for Java számos Microsoft Project fájlverziót támogat, beleértve az MPP, MPT és XML formátumokat.  
-
-### K: Kaphatok ideiglenes licenceket az Aspose.Tasks for Java‑hoz?
-V: Igen, ideiglenes licencek elérhetők tesztelési célokra. Szerezze be őket a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalon.  
-
-### K: Hol kérhetek segítséget vagy támogatást az Aspose.Tasks for Java‑hoz?
-V: Látogasson el az [Aspose.Tasks fórumra](https://forum.aspose.com/c/tasks/15) bármilyen kérdés vagy segítség esetén.
-
 ## Gyakran Ismételt Kérdések
 **K: Hogyan adhatok hozzá több feladatot egyszerre?**  
 V: Iteráljon egy feladatneveket tartalmazó gyűjteményen, és ismételje meg a “create task” blokkot a cikluson belül.

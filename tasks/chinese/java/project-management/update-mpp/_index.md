@@ -91,18 +91,6 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 | **日期不正确** | 记住 `Calendar` 的月份是从零开始的；`Calendar.JULY` 表示七月。 |
 | **许可证异常** | 在调用任何 API 之前安装有效的 Aspose.Tasks 许可证，以避免评估水印。 |
 
-## 常见问答
-### Q: Aspose.Tasks for Java 能处理复杂的项目结构吗？
-A: 能，Aspose.Tasks for Java 提供强大的功能，能够高效处理复杂的项目结构。  
-### Q: Aspose.Tasks for Java 有免费试用吗？
-A: 有，您可以从[官网](https://releases.aspose.com/)下载免费试用版。  
-### Q: Aspose.Tasks for Java 支持不同版本的 Microsoft Project 文件吗？
-A: 当然，Aspose.Tasks for Java 支持多种 Microsoft Project 文件版本，包括 MPP、MPT 和 XML 格式。  
-### Q: 我可以获取 Aspose.Tasks for Java 的临时许可证吗？
-A: 可以，临时许可证用于测试目的，可从[临时许可证页面](https://purchase.aspose.com/temporary-license/)获取。  
-### Q: 哪里可以获取 Aspose.Tasks for Java 的帮助或支持？
-A: 您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求帮助或提问。
-
 ## 常见问题
 **Q: 如何一次性添加多个任务？**  
 A: 在任务名称集合上循环，在循环内部重复“创建任务”代码块。
