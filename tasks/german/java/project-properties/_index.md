@@ -57,13 +57,6 @@ Erfahren Sie, wie Sie Microsoft‑Project‑Informationen mit Aspose.Tasks für 
 ### [MS‑Project‑Manipulation mit Aspose.Tasks für Java meistern](./write-project-info/)
 Erfahren Sie, wie Sie MS‑Project‑Informationen effizient mit Aspose.Tasks für Java schreiben. Schritt‑für‑Schritt‑Leitfaden für Java‑Entwickler.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich benutzerdefinierte Felder lesen, die in Microsoft Project hinzugefügt wurden?**  
@@ -86,3 +79,10 @@ A: Öffnen Sie die Datei mit dem entsprechenden Passwort über `new Project(file
 **Zuletzt aktualisiert:** 2025-12-31  
 **Getestet mit:** Aspose.Tasks für Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

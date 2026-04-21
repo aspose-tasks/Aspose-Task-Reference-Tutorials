@@ -56,13 +56,6 @@ weight: 24
 ### [精通使用 Aspose.Tasks for Java 操作 MS Project](./write-project-info/)
 學習如何使用 Aspose.Tasks for Java 高效寫入 MS Project 資訊。為 Java 開發者提供的步驟式指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以讀取在 Microsoft Project 中新增的自訂欄位嗎？**  
@@ -85,3 +78,10 @@ A: 在存取屬性之前，使用 `new Project(filePath, new LoadOptions(passwor
 **最後更新：** 2025-12-31  
 **測試環境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

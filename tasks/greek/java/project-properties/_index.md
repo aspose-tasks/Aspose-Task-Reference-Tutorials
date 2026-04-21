@@ -57,13 +57,6 @@ weight: 24
 ### [Κατάκτηση της Διαχείρισης MS Project με Aspose.Tasks for Java](./write-project-info/)
 Μάθετε πώς να γράφετε αποδοτικά πληροφορίες MS Project χρησιμοποιώντας το Aspose.Tasks for Java. Οδηγός βήμα‑βήμα για προγραμματιστές Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q:** Μπορώ να διαβάσω προσαρμοσμένα πεδία που προστέθηκαν στο Microsoft Project;  
@@ -86,3 +79,10 @@ weight: 24
 **Τελευταία Ενημέρωση:** 2025-12-31  
 **Δοκιμή Με:** Aspose.Tasks for Java 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

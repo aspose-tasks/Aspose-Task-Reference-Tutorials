@@ -57,13 +57,6 @@ Dowiedz się, jak wyodrębniać informacje Microsoft Project przy użyciu Aspose
 ### [Opanowanie manipulacji MS Project za pomocą Aspose.Tasks for Java](./write-project-info/)
 Dowiedz się, jak efektywnie zapisywać informacje MS Project przy użyciu Aspose.Tasks for Java. Przewodnik krok po kroku dla programistów Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę odczytać pola niestandardowe dodane w Microsoft Project?**  
@@ -86,3 +79,10 @@ A: Otwórz plik z odpowiednim hasłem używając `new Project(filePath, new Load
 **Last Updated:** 2025-12-31  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

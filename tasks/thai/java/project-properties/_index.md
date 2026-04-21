@@ -13,48 +13,72 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Project Properties
+#คุณสมบัติของโครงการ
 
-## Introduction
+## การแนะนำ
 
-คุณพร้อมที่จะยกระดับทักษะ Aspose.Tasks for Java ของคุณหรือยัง? ในชุดบทเรียนนี้เราจะสาธิต **วิธีอ่าน metadata** จากไฟล์โครงการของคุณ, ดึงข้อมูลสำคัญของ Microsoft Project, และเชี่ยวชาญการจัดการโครงการ การเข้าใจ **วิธีอ่าน metadata** จะทำให้คุณเห็นภาพลึกซึ้งเกี่ยวกับไทม์ไลน์ของโครงการ, ทรัพยากร, และฟิลด์ที่กำหนดเอง, ช่วยให้ตัดสินใจอย่างฉลาดในโซลูชันที่ใช้ Java ใด ๆ
+คุณพร้อมที่จะยกระดับทักษะ Aspose.Tasks for Java ของคุณหรือยัง? ชุดบทเรียนนี้เราจะสาธิต **วิธีอ่านเมตาดาต้า** จากไฟล์โครงการของคุณ, แรงดึงข้อมูลของ Microsoft Project, และระบบควบคุมโครงการการเข้าใจ **วิธีอ่านเมตาดาต้า** ให้คุณคำนึงถึงในเรื่องที่เกี่ยวกับไทม์ไลน์ของโครงการ, ทรัพยากร, และประสิทธิภาพการทำงาน, การตัดสินใจอย่างฉลาดในประสิทธิภาพที่ใช้ Java ใดๆ ก็ได้
 
-## Quick Answers
-- **What is metadata in a project file?** เป็นข้อมูลเชิงบรรยาย เช่น ผู้เขียน, วันที่สร้าง, ฟิลด์ที่กำหนดเอง, และคุณสมบัติอื่น ๆ ที่จัดเก็บคู่กับข้อมูลงาน  
-- **Why read metadata?** เพื่ออัตโนมัติการรายงาน, บังคับใช้มาตรฐาน, และขับเคลื่อนการวิเคราะห์โดยไม่ต้องพาร์สงานทุกรายการ  
-- **Which API method reads metadata?** ใช้ `Project.getProperties()` และ `Project.getExtendedAttributes()` จาก Aspose.Tasks for Java  
-- **Do I need a license?** จำเป็นต้องมีใบอนุญาต Aspose.Tasks ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต; มีรุ่นทดลองฟรีสำหรับการประเมินผล  
-- **Is this compatible with Java 17?** ใช่, ไลบรารีรองรับ Java 8 ขึ้นไป รวมถึง Java 17
+## คำตอบด่วน
+- **ข้อมูลเมตาในไฟล์โครงการคืออะไร** เป็นข้อมูลเชิงสำรวจเช่นรายงาน, วันที่สร้าง, อินเทอร์เฟซ, และคุณสมบัติอื่น ๆ ที่จัดเก็บข้อมูลร่วมกับงาน
+- **ทำไมต้องอ่าน metadata?** เพื่อให้เป็นไปตามอัตโนมัติ, หลักการมาตรฐาน, และความยืดหยุ่นที่เป็นส่วนหนึ่งสงานทุกรายการ
+- **API method ใดอ่าน metadata?** ใช้ `Project.getProperties()` และ `Project.getExtedAttributes()` จาก Aspose.Tasks for Java
+- **ฉันจำเป็นต้องมีใบอนุญาตหรือไม่** จำเป็นต้องมี Aspose.Tasks ที่จำเป็นสำหรับการผลิต; มีรุ่นทดลองฟรีสำหรับ...
+- **Is thisเข้ากันได้กับ Java17?** ไลบรารีรองรับ Java8 ขึ้นไปและ Java17
 
-## How to Read Metadata with Aspose.Tasks for Java
-การอ่าน metadata เป็นขั้นตอนแรกสู่การเปิดศักยภาพเต็มรูปแบบของไฟล์โครงการของคุณ ด้านล่างนี้คุณจะพบบทเรียนสามส่วนที่เน้นการทำงานตั้งแต่การเข้าถึงคุณสมบัติพื้นฐานจนถึงการจัดการขั้นสูง
+## วิธีอ่านข้อมูลเมตาด้วย Aspose.Tasks สำหรับ Java
+บทอ่านเมตาดาต้าเป็นขั้นตอนแรกสู่ส่วนที่สำคัญที่สุดของไฟล์โครงการของคุณ เอกสารประกอบสามส่วนเน้นการทำงานตั้งแต่คุณสมบัติพื้นฐานจนถึงการวินิจฉัยขั้นสูง
 
-### Read Meta Properties in Aspose.Tasks Projects
-ในโลกที่เปลี่ยนแปลงอย่างรวดเร็วของ Aspose.Tasks for Java การเข้าใจ meta properties มีความสำคัญอย่างยิ่ง บทเรียนของเราที่สอนการอ่าน meta properties จะมอบความรู้ให้คุณปลดล็อกพลังของ metadata อย่างง่ายดาย เรียนรู้วิธีนำทางและดึงข้อมูลสำคัญที่ช่วยให้คุณเข้าใจโครงการของคุณลึกซึ้งยิ่งขึ้น ตั้งแต่การเริ่มต้นโครงการจนถึงการเสร็จสิ้น ใช้ข้อมูลเชิงลึกจาก meta properties เพื่อการตัดสินใจที่มีประสิทธิภาพและการจัดการโครงการที่ราบรื่น
+### อ่านคุณสมบัติ Meta ในโครงการ Aspose.Tasks
+ในโลกที่ปรับปรุงอย่างรวดเร็วของ Aspose.Tasks สำหรับ Java การเข้าใจคุณสมบัติ meta ความสำคัญในการควบคุมของเราที่สอนคุณสมบัติของ meta จะปล่อยความรู้ให้คุณค้นพบพลังของ metadata และจากนั้นมาดูและดึงข้อมูลสำคัญที่จะช่วยให้เข้าใจโครงการของคุณอีกครั้งในประสิทธิภาพการทำงานของโครงการจนถึงการที่สามารถนำมาใช้จากคุณสมบัติ meta โดยตรงและการจัดการโครงการที่มีความสำคัญ
 
-[Read more about extracting meta properties](./read-meta-properties/)
+[อ่านเพิ่มเติมเกี่ยวกับการแยกคุณสมบัติเมตา](./read-meta-properties/)
 
-### Extract Microsoft Project Info with Aspose.Tasks for Java
-การจัดการโครงการที่มีประสิทธิภาพพึ่งพาการเข้าถึงข้อมูลที่แม่นยำและทันเวลา ดำดิ่งสู่บทเรียนของเราที่สอนการสกัดข้อมูล Microsoft Project ด้วย Aspose.Tasks for Java รับข้อมูลเชิงลึกเกี่ยวกับการสกัดข้อมูลโครงการ ช่วยให้คุณเสริมแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือผู้ที่หลงใหลใน Java คู่มือขั้นตอนนี้จะทำให้คุณใช้ศักยภาพเต็มที่ของ Aspose.Tasks for Java ทำให้การจัดการโครงการเป็นเรื่องง่าย
+### แยกข้อมูลโครงการ Microsoft ด้วย Aspose.Tasks สำหรับ Java
+โครงการส่วนใหญ่มักจะหาข้อมูลข่าวสารและทันเวลาดำดิ่งสู่บทเรียนของเราที่สอนการสกัดข้อมูล Microsoft Project ด้วย Aspose.Tasks for Java รับน้ำหนักสำหรับสกัดข้อมูลโครงการที่ช่วยให้สามารถเสริมแอปพลิเคชัน Java ของคุณระบบควบคุมการดูแลสุขภาพเป็นการควบคุมหรือผู้ที่ได้รับผลกระทบใน Java ที่สำคัญขั้นตอนนี้จะใช้เฉพาะเต็มรูปแบบของ Aspose.Tasks สำหรับ Java ระบบควบคุมการรักษาโครงการเป็นเรื่องง่ายๆ
 
-[Explore the tutorial on extracting project info](./read-project-info/)
+[สำรวจบทแนะนำเกี่ยวกับการดึงข้อมูลโปรเจ็กต์](./read-project-info/)
 
-### Mastering MS Project Manipulation with Aspose.Tasks for Java
-สำหรับนักพัฒนา Java ที่ต้องการเชี่ยวชาญการจัดการข้อมูล MS Project บทเรียนของเราคือคู่มือครบวงจร ปลดล็อกประสิทธิภาพของการเขียนข้อมูล MS Project ด้วย Aspose.Tasks for Java ผ่านขั้นตอนที่ชัดเจน นำทางผ่านความซับซ้อนของการจัดการโครงการ เพื่อให้แอปพลิเคชัน Java ของคุณทำงานได้อย่างราบรื่น ยกระดับการจัดการโครงการของคุณด้วยแหล่งข้อมูลอันมีค่าแห่งนี้
+### เชี่ยวชาญการจัดการโครงการ MS ด้วย Aspose.Tasks สำหรับ Java
+สำหรับการปรับปรุง Java ต้องการการจัดการข้อมูล MS Project บทเรียนของเราคือคู่มือครบวงจรสำหรับการเข้าถึงข้อมูล MS Project ด้วย Aspose.Tasks for Java ผ่านขั้นตอนที่ชัดเจนว่าผ่านการตรวจสอบของการจัดการโครงการเพื่อให้แอปพลิเคชัน Java ของคุณทำงานได้อย่างยกระดับการจัดการโครงการโดยไม่ต้องมีอันทรงพลัง
 
-[Master MS Project manipulation with our tutorial](./write-project-info/)
+[การจัดการโครงการ MS ต้นแบบด้วยบทช่วยสอนของเรา](./write-project-info/)
 
-โดยสรุป, บทเรียน Project Properties ของเราช่วยให้นักพัฒนา Java เปิดศักยภาพเต็มที่ของ Aspose.Tasks ไม่ว่าคุณจะกำลังสำรวจ **วิธีอ่าน metadata**, สกัดข้อมูล Microsoft Project, หรือเชี่ยวชาญการจัดการ MS Project, บทเรียนเหล่านี้ให้ความรู้และข้อมูลเชิงลึกที่จำเป็นสำหรับความสำเร็จ ยกระดับการพัฒนา Java ของคุณวันนี้!
+โดยสรุป, คุณสมบัติของโปรเจ็กต์ การควบคุมของเราช่วยให้ Java เปิดอย่างเต็มที่ของ Aspose.Tasks การทำงานในการสำรวจ **วิธีอ่านเมตาดาต้า**, สกัดข้อมูล Microsoft Project, หรือผู้เชี่ยวชาญด้านการจัดการ MS Project, การทำงานให้ความรู้และการทำงานที่ประสบความสำเร็จ ยกระดับการพัฒนา Java ของคุณวันนี้!
 
-## Project Properties Tutorials
-### [Read Meta Properties in Aspose.Tasks Projects](./read-meta-properties/)
-ปลดล็อกพลังของ metadata ในโครงการ Aspose.Tasks ด้วยบทเรียนที่ครอบคลุมนี้ เรียนรู้การสกัดและใช้ประโยชน์จาก meta‑properties อย่างง่ายดาย
+## บทช่วยสอนคุณสมบัติของโครงการ
+### [อ่านคุณสมบัติ Meta ในโครงการ Aspose.Tasks](./read-meta-properties/)
+การตรวจสอบพลังของเมทาดาทา การตรวจสอบ Aspose.Tasks ด้วยการประกาศนี้ทำให้เกิดการสกัดและคุณสมบัติเมตาดังต่อไปนี้
 
-### [Extract Microsoft Project Info with Aspose.Tasks for Java](./read-project-info/)
-เรียนรู้วิธีสกัดข้อมูล Microsoft Project ด้วย Aspose.Tasks for Java เสริมการจัดการโครงการในแอปพลิเคชัน Java อย่างไม่มีอุปสรรค
+### [แยกข้อมูลโครงการ Microsoft ด้วย Aspose.Tasks สำหรับ Java](./read-project-info/)
+ฟังค์ชั่นสกัดข้อมูล Microsoft Project ด้วย Aspose.Tasks for Java เสริมการจัดการโครงการในแอปพลิเคชัน Java เหมือนกับไม่มีการละเมิด
 
-### [Mastering MS Project Manipulation with Aspose.Tasks for Java](./write-project-info/)
-เรียนรู้วิธีเขียนข้อมูล MS Project อย่างมีประสิทธิภาพด้วย Aspose.Tasks for Java คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา Java
+### [เชี่ยวชาญการจัดการโครงการ MS ด้วย Aspose.Tasks สำหรับ Java](./write-project-info/)
+อ่านข้อมูลเขียนข้อมูล MS Project ได้อย่างมีประสิทธิภาพด้วย Aspose.Tasks for Java คู่มือขั้นตอนต่อขั้นตอนสำหรับการปรับปรุง Java
+
+## คำถามที่พบบ่อย
+
+**ถาม: ฉันสามารถอ่านฟิลด์แบบกำหนดเองที่เพิ่มใน Microsoft Project ได้หรือไม่**
+ก. ใช่. ฟิลด์ที่กำหนดเองจะถูกจัดเก็บเป็นแอตทริบิวต์เพิ่มเติมและสามารถเข้าถึงได้ผ่าน `Project.getExtendedAttributes()`
+
+**ถาม: การอ่านเมตาเดต้าส่งผลต่อประสิทธิภาพหรือไม่?**
+ตอบ: การดึงคุณสมบัติของโปรเจ็กต์นั้นใช้ทรัพยากรน้อย ไม่โหลดข้อมูลงานเว้นแต่คุณจะร้องขออย่างชัดเจน
+
+**ถาม: มีวิธีกรองเมตาเดต้าตามประเภทหรือไม่?**
+ตอบ: คุณสามารถสอบถาม `ProjectPropertyCollection` และตรวจสอบ `PropertyType` ของแต่ละคุณสมบัติเพื่อกรองตามต้องการ
+
+**ถาม: ต้องใช้ Aspose.Tasks เวอร์ชันใด?**
+ตอบ: เวอร์ชันเสถียรล่าสุดรองรับคุณสมบัติทั้งหมดที่แสดงในบทช่วยสอนเหล่านี้ เวอร์ชันก่อนหน้าอาจมีการครอบคลุม API ที่จำกัด
+
+**ถาม: ฉันจะจัดการกับไฟล์โปรเจ็กต์ที่เข้ารหัสเมื่ออ่านเมตาเดต้าได้อย่างไร?**
+ตอบ: เปิดไฟล์ด้วยรหัสผ่านที่เหมาะสมโดยใช้ `new Project(filePath, new LoadOptions(password))` ก่อนเข้าถึงคุณสมบัติ
+
+
+---
+
+**อัปเดตล่าสุด:** 31 ธันวาคม 2025
+**ทดสอบกับ:** Aspose.Tasks for Java 24.12
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -62,26 +86,3 @@ weight: 24
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
-
-**Q: Can I read custom fields that were added in Microsoft Project?**  
-A: Yes. Custom fields are stored as extended attributes and can be accessed via `Project.getExtendedAttributes()`.
-
-**Q: Does reading metadata affect performance?**  
-A: Retrieving project properties is lightweight; it does not load task data unless you explicitly request it.
-
-**Q: Is there a way to filter metadata by type?**  
-A: You can query the `ProjectPropertyCollection` and check each property's `PropertyType` to filter as needed.
-
-**Q: What version of Aspose.Tasks is required?**  
-A: The latest stable release supports all features demonstrated in these tutorials; earlier versions may have limited API coverage.
-
-**Q: How do I handle encrypted Project files when reading metadata?**  
-A: Open the file with the appropriate password using `new Project(filePath, new LoadOptions(password))` before accessing properties.
-
----
-
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

@@ -56,13 +56,6 @@ Lär dig hur du extraherar Microsoft Project‑information med Aspose.Tasks for 
 ### [Behärska MS Project‑manipulation med Aspose.Tasks for Java](./write-project-info/)
 Lär dig hur du effektivt skriver MS Project‑information med Aspose.Tasks for Java. Steg‑för‑steg‑guide för Java‑utvecklare.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag läsa anpassade fält som lagts till i Microsoft Project?**  
@@ -85,3 +78,10 @@ A: Öppna filen med rätt lösenord genom att använda `new Project(filePath, ne
 **Senast uppdaterad:** 2025-12-31  
 **Testat med:** Aspose.Tasks for Java 24.12  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

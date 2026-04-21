@@ -55,13 +55,6 @@ Learn how to extract Microsoft Project information using Aspose.Tasks for Java. 
 ### [Mastering MS Project Manipulation with Aspose.Tasks for Java](./write-project-info/)
 Learn how to efficiently write MS Project information using Aspose.Tasks for Java. Step‑by‑step guide for Java developers.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I read custom fields that were added in Microsoft Project?**  
@@ -84,3 +77,10 @@ A: Open the file with the appropriate password using `new Project(filePath, new 
 **Last Updated:** 2025-12-31  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

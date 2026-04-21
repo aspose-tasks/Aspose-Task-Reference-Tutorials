@@ -57,13 +57,6 @@ Tanuld meg, hogyan nyerj ki Microsoft Project információkat az Aspose.Tasks fo
 ### [MS Project manipuláció elsajátítása Aspose.Tasks for Java‑val](./write-project-info/)
 Tanuld meg, hogyan írj hatékonyan MS Project információkat az Aspose.Tasks for Java‑val. Lépésről‑lépésre útmutató Java fejlesztőknek.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Olvashatok egyéni mezőket, amelyeket a Microsoft Project-ben adtak hozzá?**  
@@ -86,3 +79,10 @@ A: Nyisd meg a fájlt a megfelelő jelszóval a `new Project(filePath, new LoadO
 **Last Updated:** 2025-12-31  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

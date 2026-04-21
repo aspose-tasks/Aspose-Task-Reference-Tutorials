@@ -57,13 +57,6 @@ Scopri come estrarre le informazioni di Microsoft Project usando Aspose.Tasks pe
 ### [Padroneggia la manipolazione di MS Project con Aspose.Tasks per Java](./write-project-info/)
 Scopri come scrivere in modo efficiente le informazioni di MS Project usando Aspose.Tasks per Java. Guida passo‑passo per gli sviluppatori Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **D: Posso leggere i campi personalizzati aggiunti in Microsoft Project?**  
@@ -86,3 +79,10 @@ R: Apri il file con la password appropriata usando `new Project(filePath, new Lo
 **Ultimo aggiornamento:** 2025-12-31  
 **Testato con:** Aspose.Tasks per Java 24.12  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -56,13 +56,6 @@ Naučte se, jak extrahovat informace Microsoft Project pomocí Aspose.Tasks for 
 ### [Ovládání manipulace s MS Project pomocí Aspose.Tasks for Java](./write-project-info/)
 Naučte se efektivně zapisovat informace MS Project pomocí Aspose.Tasks for Java. Průvodce krok za krokem pro vývojáře Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Můžu číst vlastní pole, která byla přidána v Microsoft Project?**  
@@ -85,3 +78,10 @@ A: Otevřete soubor s příslušným heslem pomocí `new Project(filePath, new L
 **Poslední aktualizace:** 2025-12-31  
 **Testováno s:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

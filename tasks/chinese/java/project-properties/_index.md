@@ -56,13 +56,6 @@ weight: 24
 ### [使用 Aspose.Tasks for Java 掌握 MS Project 操作](./write-project-info/)
 学习如何高效使用 Aspose.Tasks for Java 编写 MS Project 信息。面向 Java 开发者的分步指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以读取在 Microsoft Project 中添加的自定义字段吗？**  
@@ -85,3 +78,10 @@ A: 在访问属性之前，使用 `new Project(filePath, new LoadOptions(passwor
 **最后更新：** 2025-12-31  
 **测试环境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

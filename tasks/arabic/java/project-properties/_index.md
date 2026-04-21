@@ -56,13 +56,6 @@ weight: 24
 ### [إتقان تعديل MS Project باستخدام Aspose.Tasks for Java](./write-project-info/)
 تعلم كيفية كتابة معلومات MS Project بفعالية باستخدام Aspose.Tasks for Java. دليل خطوة بخطوة لمطوري Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني قراءة الحقول المخصصة التي أضيفت في Microsoft Project؟**  
@@ -85,3 +78,10 @@ weight: 24
 **آخر تحديث:** 2025-12-31  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

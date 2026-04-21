@@ -57,13 +57,6 @@ Leer hoe je Microsoft Project‑informatie kunt extraheren met Aspose.Tasks for 
 ### [MS Project‑manipulatie beheersen met Aspose.Tasks for Java](./write-project-info/)
 Leer hoe je efficiënt MS Project‑informatie kunt schrijven met Aspose.Tasks for Java. Stap‑voor‑stap‑gids voor Java‑ontwikkelaars.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Kan ik aangepaste velden lezen die zijn toegevoegd in Microsoft Project?**  
@@ -86,3 +79,10 @@ A: Open het bestand met het juiste wachtwoord via `new Project(filePath, new Loa
 **Laatst bijgewerkt:** 2025-12-31  
 **Getest met:** Aspose.Tasks for Java 24.12  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

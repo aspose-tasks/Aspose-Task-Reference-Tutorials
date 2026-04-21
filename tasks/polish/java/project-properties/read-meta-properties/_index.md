@@ -16,32 +16,32 @@ weight: 10
 
 # Odczytywanie właściwości projektu w projektach Aspose.Tasks
 
-## Introduction
-Jeśli potrzebujesz **odczytać właściwości projektu** z plików Microsoft Project, Aspose.Tasks for Java zapewnia czyste, typowo‑bezpieczne API umożliwiające pobranie zarówno wbudowanych, jak i własnych metadanych. W tym samouczku dowiesz się, dlaczego dostęp do tych właściwości ma znaczenie, co możesz zrobić z uzyskanymi informacjami oraz dokładnie, jak je pobrać w kilku prostych krokach.
+## Wstęp
+Jeśli **odczytać właściwości projektu** z plików Microsoft Project, Aspose.Tasks for Java zapewnia czyste, typowo-bezpieczne API, pobranie równych, jak i urządzeń metadanych. W tym samouczku dowiesz się, dlaczego dostęp do tych właściwości ma znaczenie, co może spowodować, że zostaną dostarczone oraz dokładne, jak można je otrzymać w kilku prostych krokach.
 
-## Quick Answers
-- **What can I extract?** Both built‑in (Author, Title, etc.) and custom project properties.  
-- **Which library version?** The latest Aspose.Tasks for Java release (compatible with JDK 11+).  
-- **Prerequisites?** JDK installed and Aspose.Tasks for Java added to your project.  
-- **How long does implementation take?** Typically under 10 minutes for a basic read‑only scenario.  
-- **Is a license required?** A temporary license works for evaluation; a full license is needed for production.
+## Szybkie odpowiedzi
+- **Co mogę wyodrębnić?** Zarówno wbudowane (autor, tytuł itp.), jak i niestandardowe właściwości projektu.
+- **Która wersja biblioteki?** Najnowsza wersja Aspose.Tasks dla Java (kompatybilna z JDK11+).
+- **Wymagania wstępne?** Zainstalowano JDK i dodano Aspose.Tasks for Java do Twojego projektu.
+- **Jak długo trwa wdrożenie?** Zwykle poniżej 10 minut w przypadku podstawowego scenariusza tylko do odczytu.
+- **Czy wymagana jest licencja?** Licencja tymczasowa służy do oceny; do produkcji wymagana jest pełna licencja.
 
-## What is “read project properties”?
-Odczytywanie właściwości projektu oznacza dostęp do metadanych przechowywanych wewnątrz pliku projektu (np. *.mpp*). Metadane te obejmują szczegóły na poziomie harmonogramu, informacje o autorze oraz wszelkie własne pola dodane przez Ciebie lub Twoją organizację. Udostępniając te wartości, możesz generować raporty, audytować zmiany lub przekazywać dane do systemów downstream.
+## Co to jest „czytaj właściwości projektu”?
+Odczytywanie właściwości projektu oznacza dostęp do metadanych przechowywanych wewnątrz pliku projektu (np. *.mpp*). Metadane obejmują szczegóły na poziomie harmonogramu, informacje o autorze oraz inne własne pola dodane przez Ciebie lub Twoją organizację. Udostępniając te wartości, możesz wygenerować raporty, audytować zmianę lub przekazać dane do dalszych systemów.
 
-## Why read project properties?
-- **Better reporting:** Pull author, title, and custom fields to feed dashboards.  
-- **Data validation:** Ensure required custom properties exist before processing.  
-- **Automation:** Use property values to drive conditional logic in your applications.
+## Po co czytać właściwości projektu?
+- **Lepsze raportowanie:** Pobieraj pola autora, tytułu i niestandardowe, aby zasilać pulpity nawigacyjne.
+- **Weryfikacja danych:** Przed przetworzeniem upewnij się, że istnieją wymagane właściwości niestandardowe.
+- **Automatyzacja:** Użyj wartości właściwości do sterowania logiką warunkową w swoich aplikacjach.
 
-## Prerequisites
-Before you start, make sure the following are ready:
+## Wymagania wstępne
+Zanim zaczniesz, upewnij się, że masz przygotowane następujące elementy:
 
-1. **Java Development Kit (JDK):** Install the latest JDK from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Tasks for Java Library:** Download the library from the [download link](https://releases.aspose.com/tasks/java/) and add the JAR files to your project's classpath.
+1. **Java Development Kit (JDK):** Zainstaluj najnowszy pakiet JDK z [tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Biblioteka Aspose.Tasks dla Javy:** Pobierz bibliotekę z [linku do pobrania](https://releases.aspose.com/tasks/java/) i dodaj pliki JAR do ścieżki klas swojego projektu.
 
-## Import Packages
-First, import the classes you’ll need. The code block below is unchanged from the original tutorial.
+## Importowanie pakietów
+Najpierw zaimportuj potrzebne klasy. Poniższy blok kodu nie zmienił się od oryginalnego samouczka.
 
 ```java
 import com.aspose.tasks.BuiltInProjectProperty;
@@ -50,22 +50,22 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.examples.Tasks.ActualProperties;
 ```
 
-## Step 1. Set Data Directory
-Specify the folder that contains your *.mpp* file.
+## Krok 1. Ustaw katalog danych
+Określ folder zawierający plik *.mpp*.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Step 2. Initialize Project Object
-Create a `Project` instance by passing the full path to the project file.
+## Krok 2. Zainicjuj obiekt projektu
+Utwórz instancję `Project`, przekazując pełną ścieżkę do pliku projektu.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Step 3. Read Custom Properties
-To **read custom properties**, iterate over the collection returned by `getCustomProps()`. This loop prints each property's type, name, and value.
+## Krok 3. Odczyt właściwości niestandardowych
+Aby **odczytać właściwości niestandardowe**, przejrzyj kolekcję zwróconą przez `getCustomProps()`. Ta pętla wyświetla typ, nazwę i wartość każdej właściwości.
 
 ```java
 for (CustomProjectProperty property : project.getCustomProps()) {
@@ -75,16 +75,16 @@ for (CustomProjectProperty property : project.getCustomProps()) {
 }
 ```
 
-## Step 4. Access Built‑in Properties
-Built‑in properties are available directly through the `getBuiltInProps()` accessor. Here we read the author and title as examples.
+## Krok 4. Dostęp do właściwości wbudowanych
+Właściwości wbudowane są dostępne bezpośrednio poprzez akcesor `getBuiltInProps()`. W tym przypadku odczytujemy autora i tytuł jako przykłady.
 
 ```java
 System.out.println("Author: " + project.getBuiltInProps().getAuthor());
 System.out.println("Title: " + project.getBuiltInProps().getTitle());
 ```
 
-## Step 5. Iterate Through Built‑in Properties
-If you prefer to enumerate all built‑in properties, use the iterable returned by `getBuiltInProps()`.
+## Krok 5. Przejrzyj właściwości wbudowane
+Jeśli wolisz wyliczyć wszystkie właściwości wbudowane, użyj obiektu iterowalnego zwróconego przez `getBuiltInProps()`.
 
 ```java
 for (BuiltInProjectProperty property : project.getBuiltInProps()) {
@@ -93,31 +93,31 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
 }
 ```
 
-## Common Issues & Tips
-- **Null values:** Some built‑in properties may be `null` if they were never set. Always check for `null` before using the value.  
-- **Encoding problems:** When dealing with non‑ASCII characters, ensure your JVM is configured with the appropriate file encoding (e.g., `-Dfile.encoding=UTF-8`).  
-- **Performance:** Reading properties is fast, but loading very large *.mpp* files can consume memory; consider using a 64‑bit JVM for big projects.
+## Typowe problemy i wskazówki
+- **Wartości null:** Niektóre właściwości wbudowane mogą mieć wartość `null`, jeśli nigdy nie zostały ustawione. Zawsze sprawdzaj, czy wartość `null` występuje przed użyciem danej wartości.
+- **Problemy z kodowaniem:** W przypadku znaków spoza zestawu ASCII upewnij się, że Twoja maszyna wirtualna Java (JVM) jest skonfigurowana z odpowiednim kodowaniem plików (np. `-Dfile.encoding=UTF-8`).
+- **Wydajność:** Odczyt właściwości jest szybki, ale ładowanie bardzo dużych plików *.mpp* może zużywać pamięć; w przypadku dużych projektów warto rozważyć użycie 64-bitowej maszyny wirtualnej Java.
 
-## Conclusion
-By following these steps you now know how to **read project properties**—both built‑in and custom—from Aspose.Tasks projects. Leveraging this metadata can streamline reporting, improve data quality, and empower automation across your project‑management workflows.
+## Wnioski
+Wykonując te kroki, wiesz już, jak **odczytywać właściwości projektu** — zarówno wbudowane, jak i niestandardowe — z projektów Aspose.Tasks. Wykorzystanie tych metadanych może usprawnić raportowanie, poprawić jakość danych i usprawnić automatyzację przepływów pracy w zarządzaniu projektami.
 
-## FAQs
-### Q: Can Aspose.Tasks handle custom meta-properties efficiently?
-A: Aspose.Tasks provides robust support for both custom and built-in meta-properties, ensuring efficient extraction and manipulation.  
-### Q: Is Aspose.Tasks compatible with different project file formats?
-A: Yes, Aspose.Tasks supports a wide range of project file formats, including MPP, XML, and more.  
-### Q: How can I obtain temporary licenses for Aspose.Tasks?
-A: You can acquire temporary licenses for Aspose.Tasks through the [temporary license portal](https://purchase.aspose.com/temporary-license/).  
-### Q: Does Aspose.Tasks offer comprehensive documentation?
-A: Yes, you can find extensive documentation for Aspose.Tasks on the [documentation page](https://reference.aspose.com/tasks/java/).  
-### Q: Where can I seek support for Aspose.Tasks-related queries?
-A: For any assistance or queries regarding Aspose.Tasks, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for dedicated support from the community and experts.
+## FAQ
+### P: Czy Aspose.Tasks może wydajnie obsługiwać niestandardowe metawłaściwości?
+O: Aspose.Tasks zapewnia solidne wsparcie zarówno dla niestandardowych, jak i wbudowanych metawłaściwości, zapewniając wydajną ekstrakcję i manipulację.
+### P: Czy Aspose.Tasks jest kompatybilny z różnymi formatami plików projektów?
+O: Tak, Aspose.Tasks obsługuje szeroką gamę formatów plików projektów, w tym MPP, XML i inne.
+### P: Jak mogę uzyskać tymczasowe licencje na Aspose.Tasks?
+O: Tymczasowe licencje na Aspose.Tasks można uzyskać za pośrednictwem [portalu licencji tymczasowych](https://purchase.aspose.com/temporary-license/).
+### P: Czy Aspose.Tasks oferuje kompleksową dokumentację?
+O: Tak, obszerną dokumentację Aspose.Tasks można znaleźć na [stronie dokumentacji](https://reference.aspose.com/tasks/java/).
+### P: Gdzie mogę szukać pomocy w kwestiach związanych z Aspose.Tasks?
+O: W przypadku pytań dotyczących Aspose.Tasks, można odwiedzić [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie można uzyskać dedykowane wsparcie od społeczności i ekspertów.
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Tasks for Java (latest release)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-31
+**Testowano z:** Aspose.Tasks dla Java (najnowsza wersja)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

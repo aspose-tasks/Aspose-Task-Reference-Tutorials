@@ -57,13 +57,6 @@ Aspose.Tasks for Java kullanarak Microsoft Project bilgilerini nasıl çıkaraca
 ### [Aspose.Tasks for Java ile MS Project Manipülasyonunu Ustalıkla Yapma](./write-project-info/)
 Aspose.Tasks for Java ile MS Project bilgilerini verimli bir şekilde nasıl yazacağınızı öğrenin. Java geliştiricileri için adım adım rehber.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Microsoft Project'te eklenen özel alanları okuyabilir miyim?**  
@@ -86,3 +79,10 @@ A: Özelliklere erişmeden önce `new Project(filePath, new LoadOptions(password
 **Last Updated:** 2025-12-31  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -25,42 +25,42 @@ W tym samouczku dowiesz się, jak **set project start date** oraz zapisać dodat
 - **Which format should I use to export the project?** Save as XML with `SaveFileFormat.Xml`.  
 - **Do I need a license for production use?** A valid Aspose.Tasks license is required for full functionality.
 
-## What is **set project start date**?
-Ustawienie daty rozpoczęcia projektu definiuje kalendarzowy dzień, od którego zaczynają się wszystkie zaplanowane zadania. Jest to punkt odniesienia dla obliczeń takich jak czas trwania zadań, zależności i ścieżki krytyczne. Programowe ustawienie tej daty zapewnia spójność w wielu plikach projektów i eliminuje błędy ręcznego wprowadzania.
+## Co to jest **ustalona data rozpoczęcia projektu**?
+Ustalenie daty rozpoczęcia projektu kalendarzowego, od którego zależą wszystkie zadania. Jest to punkt odniesienia dla obliczeń takich jak czas trwania skutków, skutki i skutki uboczne. Programowe ustawienie tej daty zapewnia spójność w wielu plikach błędów i błędów ręcznych.
 
-## Why use Aspose.Tasks for Java to write project information?
-- **Full API coverage:** Read, modify, and write every Project property without needing Microsoft Project installed.  
-- **Cross‑platform:** Works on Windows, Linux, and macOS.  
-- **Automation‑ready:** Ideal for batch processing, CI pipelines, or back‑end services that generate project schedules on the fly.  
+## Po co używać Aspose.Tasks dla Java do pisania informacji o projekcie?
+- **Pełne pokrycie API:** Odczytuj, modyfikuj i zapisuj każdą właściwość projektu bez konieczności instalowania programu Microsoft Project.
+- **Wiele platform:** działa w systemach Windows, Linux i macOS.
+- **Gotowość do automatyzacji:** Idealny do przetwarzania wsadowego, potoków CI lub usług zaplecza, które na bieżąco generują harmonogramy projektów.
 
-## Prerequisites
-Before you begin, make sure you have:
+## Warunki wstępne
+Zanim zaczniesz, upewnij się, że masz:
 
-1. **Java Development Kit (JDK)** – any recent version (8+ recommended).  
-2. **Aspose.Tasks for Java library** – download it from [here](https://releases.aspose.com/tasks/java/).  
-3. **An IDE** – IntelliJ IDEA, Eclipse, or your favorite Java editor.  
+1. **Java Development Kit (JDK)** – dowolna nowsza wersja (zalecane 8+).
+2. **Biblioteka Aspose.Tasks dla Javy** – pobierz ją [tutaj](https://releases.aspose.com/tasks/java/).
+3. **Środowisko IDE** – IntelliJ IDEA, Eclipse lub Twój ulubiony edytor Javy.
 
-## Import Packages
-First, import the necessary packages in your Java project:
+## Importowanie pakietów
+Najpierw zaimportuj niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-## Step 1: Set Up Data Directory
-Define the directory where your project data will be stored.
+## Krok 1: Skonfiguruj katalog danych
+Zdefiniuj katalog, w którym będą przechowywane dane projektu.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Step 2: Create Project Instance
-Initialize a new project instance.
+## Krok 2: Utwórz instancję projektu
+Zainicjuj nową instancję projektu.
 ```java
 Project project = new Project();
 ```
 
-## Step 3: Set Project Information Properties
-Here we set the **project start date**, schedule from start, and status date—covering the primary and secondary keywords *write project information* and *how to set status*.
+## Krok 3: Ustaw właściwości informacji o projekcie
+Tutaj ustawiamy **datę rozpoczęcia projektu**, harmonogram od początku i datę statusu — obejmując podstawowe i dodatkowe słowa kluczowe *zapisz informacje o projekcie* oraz *jak ustawić status*.
 ```java
 project.set(Prj.SCHEDULE_FROM_START, new NullableBool(true));
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -70,39 +70,39 @@ project.set(Prj.CURRENT_DATE, cal.getTime());
 project.set(Prj.STATUS_DATE, cal.getTime());
 ```
 
-## Step 4: Save Project as XML
-Finally, persist the updated project file. This demonstrates the secondary keyword **save project as xml**.
+## Krok 4: Zapisz projekt jako XML
+Na koniec zapisz zaktualizowany plik projektu. To pokazuje dodatkowe słowo kluczowe **zapisz projekt jako xml**.
 ```java
 project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues and Solutions
-| Issue | Reason | Fix |
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Poprawka |
 |-------|--------|-----|
-| **Incorrect start date** | Calendar month is zero‑based in Java. | Use `Calendar.JULY` (or add 1 to month index) as shown. |
-| **File not saved** | `dataDir` does not exist or lacks write permission. | Create the directory beforehand or choose a writable path. |
-| **License warning** | Running without a license adds a watermark. | Apply a valid Aspose.Tasks license before creating the `Project` object. |
+| **Nieprawidłowa data rozpoczęcia** | Miesiąc kalendarzowy w Javie zaczyna się od zera. | Użyj `Calendar.JULY` (lub dodaj 1 do indeksu miesiąca) zgodnie z ilustracją. |
+| **Plik nie został zapisany** | `dataDir` nie istnieje lub nie ma uprawnień do zapisu. | Utwórz katalog wcześniej lub wybierz ścieżkę z możliwością zapisu. |
+| **Ostrzeżenie dotyczące licencji** | Uruchamianie bez licencji powoduje dodanie znaku wodnego. | Zastosuj prawidłową licencję Aspose.Tasks przed utworzeniem obiektu `Project`. |
 
-## Najczęściej zadawane pytania
-### Q: Czy mogę używać Aspose.Tasks dla Javy do odczytu plików MS Project?
-A: Yes, Aspose.Tasks for Java provides robust functionalities for both reading and writing MS Project files.  
-### Q: Czy Aspose.Tasks dla Javy jest kompatybilny z różnymi wersjami MS Project?
-A: Absolutely, Aspose.Tasks for Java supports various versions of MS Project, ensuring compatibility across different file formats.  
-### Q: Czy istnieją ograniczenia wersji próbnej Aspose.Tasks dla Javy?
-A: While the trial version allows you to explore the library's capabilities, it has certain limitations such as watermarks on output files.  
-### Q: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla Javy?
-A: You can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).  
-### Q: Czy mogę kupić tymczasową licencję na Aspose.Tasks dla Javy?
-A: Yes, temporary licenses are available for short‑term usage. You can obtain one from [here](https://purchase.aspose.com/temporary-license/).
+## Nie zadawane pytania
+### P: Czy mogę używać Aspose.Tasks dla Javy do odczytu plików MS Project?
+O: Tak, Aspose.Tasks dla Javy zapewnia rozbudowane funkcje zarówno do odczytu, jak i zapisu plików MS Project.
+### P: Czy Aspose.Tasks dla Javy jest wydany z następującymi wersjami MS Project?
+O: Oczywiście, Aspose.Tasks dla Java obsługuje różne wersje MS Project, zapewniając kompatybilność z różnymi formatami plików.
+### P: Czy rozwiązanie problemu wersji próbnej Aspose.Tasks dla Javy?
+O: Chociaż wersja próbna umożliwia poznanie możliwości biblioteki, ma ona pewne ograniczenia, takie jak znaki wodne na plikach wyjściowych.
+### P: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla Javy?
+Odp.: Możesz zwrócić się o pomoc na forum społeczności Aspose.Tasks [tutaj] (https://forum.aspose.com/c/tasks/15).
+### Q: Czy mogę kupić tymczasową odpowiedź na Aspose.Tasks dla Javy?
+Odpowiedź: Tak, dostępne są licencje tymczasowe do użytku krótkoterminowego. Możesz go pobrać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
-You’ve now learned how to **set project start date**, write essential project information, and **save project as XML** using Aspose.Tasks for Java. These building blocks empower you to automate project‑management workflows, generate consistent schedules, and integrate MS Project data into your Java applications.
+## Podsumowanie
+Nauczyłeś się już, jak **ustawić datę rozpoczęcia projektu**, zapisać niezbędne informacje o projekcie i **zapisać projekt w formacie XML** za pomocą Aspose.Tasks dla Javy. Te elementy składowe umożliwiają automatyzację przepływów pracy związanych z zarządzaniem projektami, generowanie spójnych harmonogramów i integrację danych MS Project z aplikacjami Java.
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-31
+**Testowano z:** Aspose.Tasks dla Javy 24.12
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

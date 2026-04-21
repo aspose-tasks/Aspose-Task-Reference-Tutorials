@@ -57,13 +57,6 @@ Tìm hiểu cách trích xuất thông tin Microsoft Project bằng Aspose.Tasks
 ### [Làm Chủ Việc Thao tác MS Project với Aspose.Tasks for Java](./write-project-info/)
 Tìm hiểu cách ghi thông tin MS Project một cách hiệu quả bằng Aspose.Tasks for Java. Hướng dẫn từng bước dành cho các nhà phát triển Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **H: Tôi có thể đọc các trường tùy chỉnh được thêm trong Microsoft Project không?**  
@@ -86,3 +79,10 @@ Tìm hiểu cách ghi thông tin MS Project một cách hiệu quả bằng Aspo
 **Cập nhật lần cuối:** 2025-12-31  
 **Kiểm tra với:** Aspose.Tasks for Java 24.12  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
