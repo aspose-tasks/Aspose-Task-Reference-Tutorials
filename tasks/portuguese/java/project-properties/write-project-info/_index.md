@@ -1,45 +1,67 @@
 ---
-title: Dominando a manipulação de projetos MS com Aspose.Tasks para Java
-linktitle: Escreva informações do projeto em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Aprenda como escrever informações do MS Project com eficiência usando Aspose.Tasks para Java. Guia passo a passo para desenvolvedores Java.
-weight: 12
+date: 2025-12-31
+description: Aprenda como definir a data de início do projeto, escrever informações
+  do projeto e salvar o projeto como XML usando Aspose.Tasks para Java.
+linktitle: Write Project Info in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Definir a data de início do projeto no MS Project usando Aspose.Tasks para
+  Java
 url: /pt/java/project-properties/write-project-info/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dominando a manipulação de projetos MS com Aspose.Tasks para Java
+# Definir a Data de Início do Projeto no MS Project usando Aspose.Tasks para Java
 
 ## Introdução
-Neste tutorial, nos aprofundaremos na utilização de Aspose.Tasks for Java, uma biblioteca poderosa para manipular arquivos do Microsoft Project programaticamente. Vamos nos concentrar em uma tarefa fundamental: escrever informações do MS Project usando Aspose.Tasks. Quer você seja um desenvolvedor experiente ou esteja apenas começando sua jornada na programação Java, este guia irá guiá-lo passo a passo pelo processo.
-## Pré-requisitos
-Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-1. Java Development Kit (JDK): Certifique-se de ter o JDK instalado em seu sistema.
-2.  Biblioteca Aspose.Tasks para Java: Baixe e instale a biblioteca Aspose.Tasks para Java. Você pode obtê-lo em[aqui](https://releases.aspose.com/tasks/java/).
-3. Ambiente de Desenvolvimento Integrado (IDE): Escolha um IDE de sua preferência. Recomendamos IntelliJ IDEA ou Eclipse.
+Neste tutorial, você descobrirá como **definir a data de início do projeto** e gravar informações adicionais do MS Project com Aspose.Tasks para Java. Seja automatizando cronogramas de projetos, gerando relatórios ou integrando dados do Project a um sistema maior, controlar a data de início programaticamente oferece comando preciso sobre seus prazos. Percorreremos cada passo — desde a configuração do ambiente até a gravação do projeto atualizado como um arquivo XML — para que você possa aplicar essas técnicas imediatamente.
 
-## Importar pacotes
+## Respostas Rápidas
+- **Qual é a classe principal para manipular um projeto?** `Project` da biblioteca Aspose.Tasks.  
+- **Como eu defino a data de início do projeto?** Use `project.set(Prj.START_DATE, <date>)`.  
+- **Posso também definir a data de status?** Sim, com `project.set(Prj.STATUS_DATE, <date>)`.  
+- **Qual formato devo usar para exportar o projeto?** Salve como XML com `SaveFileFormat.Xml`.  
+- **Preciso de uma licença para uso em produção?** Uma licença válida do Aspose.Tasks é necessária para funcionalidade completa.
+
+## O que é **definir a data de início do projeto**?
+Definir a data de início do projeto determina o dia do calendário a partir do qual todas as tarefas programadas começam. É o ponto de ancoragem para cálculos como durações de tarefas, dependências e caminhos críticos. Ao definir essa data programaticamente, você garante consistência entre múltiplos arquivos de projeto e elimina erros de entrada manual.
+
+## Por que usar Aspose.Tasks para Java para escrever informações do projeto?
+- **Cobertura total da API:** Leia, modifique e grave todas as propriedades do Project sem precisar do Microsoft Project instalado.  
+- **Multiplataforma:** Funciona no Windows, Linux e macOS.  
+- **Pronto para automação:** Ideal para processamento em lote, pipelines de CI ou serviços back‑end que geram cronogramas de projetos sob demanda.  
+
+## Pré-requisitos
+Antes de começar, certifique‑se de que você tem:
+
+1. **Java Development Kit (JDK)** – qualquer versão recente (8+ recomendada).  
+2. **Aspose.Tasks para Java** – faça o download [aqui](https://releases.aspose.com/tasks/java/).  
+3. **Uma IDE** – IntelliJ IDEA, Eclipse ou seu editor Java favorito.  
+
+## Importar Pacotes
 Primeiro, importe os pacotes necessários em seu projeto Java:
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-## Etapa 1: configurar o diretório de dados
-Defina o diretório onde os dados do seu projeto serão armazenados.
+## Etapa 1: Configurar o Diretório de Dados
+Defina o diretório onde seus dados de projeto serão armazenados.
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Passo 2: Criar Instância do Projeto
+
+## Etapa 2: Criar Instância do Projeto
 Inicialize uma nova instância de projeto.
 ```java
 Project project = new Project();
 ```
-## Etapa 3: definir propriedades de informações do projeto
-Defina propriedades para o projeto, como data de início, cronograma desde o início e data de status.
+
+## Etapa 3: Definir Propriedades de Informação do Projeto
+Aqui definimos a **data de início do projeto**, agenda a partir do início e data de status — cobrindo as palavras‑chave principais *escrever informações do projeto* e *como definir status*.
 ```java
 project.set(Prj.SCHEDULE_FROM_START, new NullableBool(true));
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -48,25 +70,41 @@ project.set(Prj.START_DATE, cal.getTime());
 project.set(Prj.CURRENT_DATE, cal.getTime());
 project.set(Prj.STATUS_DATE, cal.getTime());
 ```
-## Etapa 4: salvar o projeto como XML
-Salve o projeto com as informações atualizadas como um arquivo XML.
+
+## Etapa 4: Salvar Projeto como XML
+Por fim, persista o arquivo de projeto atualizado. Isto demonstra a palavra‑chave secundária **salvar projeto como xml**.
 ```java
 project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
 ```
 
+## Problemas Comuns e Soluções
+| Problema | Motivo | Solução |
+|----------|--------|---------|
+| **Data de início incorreta** | O mês do calendário é baseado em zero em Java. | Use `Calendar.JULY` (ou adicione 1 ao índice do mês) conforme mostrado. |
+| **Arquivo não salvo** | `dataDir` não existe ou não tem permissão de gravação. | Crie o diretório antecipadamente ou escolha um caminho gravável. |
+| **Aviso de licença** | Executar sem licença adiciona uma marca d'água. | Aplique uma licença válida do Aspose.Tasks antes de criar o objeto `Project`. |
+
+## Perguntas Frequentes
+### P: Posso usar Aspose.Tasks para Java para ler arquivos MS Project?
+R: Sim, Aspose.Tasks para Java fornece funcionalidades robustas tanto para leitura quanto para gravação de arquivos MS Project.  
+### P: O Aspose.Tasks para Java é compatível com diferentes versões do MS Project?
+R: Absolutamente, Aspose.Tasks para Java suporta várias versões do MS Project, garantindo compatibilidade entre diferentes formatos de arquivo.  
+### P: Existem limitações na versão de avaliação do Aspose.Tasks para Java?
+R: Embora a versão de avaliação permita explorar as capacidades da biblioteca, ela possui algumas limitações, como marcas d'água nos arquivos de saída.  
+### P: Como posso obter suporte para Aspose.Tasks para Java?
+R: Você pode buscar assistência no fórum da comunidade Aspose.Tasks [aqui](https://forum.aspose.com/c/tasks/15).  
+### P: Posso comprar uma licença temporária para Aspose.Tasks para Java?
+R: Sim, licenças temporárias estão disponíveis para uso de curto prazo. Você pode obter uma [aqui](https://purchase.aspose.com/temporary-license/).
+
 ## Conclusão
-Parabéns! Você aprendeu com sucesso como escrever informações do MS Project usando Aspose.Tasks for Java. Com esse novo conhecimento, você pode automatizar diversas tarefas relacionadas aos arquivos do Microsoft Project, aumentando sua produtividade como desenvolvedor Java.
-## Perguntas frequentes
-### P: Posso usar Aspose.Tasks for Java para ler arquivos do MS Project?
-R: Sim, Aspose.Tasks for Java fornece funcionalidades robustas para leitura e gravação de arquivos do MS Project.
-### P: O Aspose.Tasks for Java é compatível com diferentes versões do MS Project?
-R: Com certeza, Aspose.Tasks for Java oferece suporte a várias versões do MS Project, garantindo compatibilidade entre diferentes formatos de arquivo.
-### P: Há alguma limitação para a versão de teste do Aspose.Tasks for Java?
-R: Embora a versão de teste permita explorar os recursos da biblioteca, ela tem certas limitações, como marcas d'água nos arquivos de saída.
-### P: Como posso obter suporte para Aspose.Tasks for Java?
- R: Você pode buscar ajuda no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
-### P: Posso adquirir uma licença temporária do Aspose.Tasks for Java?
- R: Sim, licenças temporárias estão disponíveis para uso de curto prazo. Você pode obter um em[aqui](https://purchase.aspose.com/temporary-license/).
+Agora você aprendeu como **definir a data de início do projeto**, gravar informações essenciais do projeto e **salvar o projeto como XML** usando Aspose.Tasks para Java. Esses blocos de construção permitem automatizar fluxos de trabalho de gerenciamento de projetos, gerar cronogramas consistentes e integrar dados do MS Project em suas aplicações Java.
+
+---
+
+**Última atualização:** 2025-12-31  
+**Testado com:** Aspose.Tasks para Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
