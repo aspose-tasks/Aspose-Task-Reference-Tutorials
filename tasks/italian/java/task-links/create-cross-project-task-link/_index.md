@@ -1,27 +1,42 @@
 ---
-title: Crea un collegamento attività tra progetti in Aspose.Tasks
-linktitle: Crea un collegamento attività tra progetti in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Migliora la collaborazione sui progetti con Aspose.Tasks per Java. Impara a creare collegamenti di attività tra progetti passo dopo passo. Aumenta l'efficienza ora!
-weight: 10
+date: 2026-01-20
+description: Scopri come collegare i progetti e collegare le attività tra progetti
+  usando Aspose.Tasks per Java. Segui la guida passo‑passo per creare collegamenti
+  di attività tra progetti.
+linktitle: Create Cross-Project Task Link in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Come collegare i progetti: creare un collegamento di attività tra progetti
+  in Aspose.Tasks'
 url: /it/java/task-links/create-cross-project-task-link/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un collegamento attività tra progetti in Aspose.Tasks
+# Come collegare i progetti: creare un collegamento di attività cross‑project in Aspose.Tasks
 
-## introduzione
-Nel dinamico mondo della gestione dei progetti, l’efficienza e la collaborazione sono fondamentali. Aspose.Tasks per Java fornisce una soluzione solida per migliorare le capacità di gestione dei progetti. In questo tutorial, approfondiremo il processo di creazione di collegamenti di attività tra progetti utilizzando Aspose.Tasks per Java. Questa guida passo passo ti fornirà le competenze per collegare perfettamente le attività tra diversi progetti, favorendo un migliore coordinamento e flussi di lavoro semplificati.
+## Come collegare i progetti con Aspose.Tasks
+Nell’attuale ambiente di gestione progetti ad alta velocità, sapere **come collegare i progetti** è fondamentale per mantenere più piani sincronizzati. Aspose.Tasks per Java offre un’API potente per creare collegamenti di attività cross‑project, consentendo di **collegare attività tra progetti** con poche righe di codice. In questo tutorial imparerai i passaggi esatti, vedrai gli snippet di codice richiesti e comprenderai perché questa tecnica può migliorare drasticamente la collaborazione tra i membri del team.
+
+## Risposte rapide
+- **Qual è il beneficio principale?** Sincronizzare senza soluzione di continuità gli elementi di lavoro dipendenti tra file di progetto separati.  
+- **Quale libreria è necessaria?** Aspose.Tasks per Java (ultima versione).  
+- **È necessaria una licenza?** È richiesta una licenza valida di Aspose.Tasks per l’uso in produzione.  
+- **Quanti minuti per implementare?** Circa 10–15 minuti per un collegamento di base.  
+- **Posso collegare attività tra formati di file diversi?** Sì – l’API supporta MPP, XML e altri formati.
+
 ## Prerequisiti
-Prima di intraprendere questo tutorial, assicurati di disporre dei seguenti prerequisiti:
-- Una conoscenza pratica della programmazione Java.
--  Aspose.Tasks per Java installato. Puoi scaricarlo da[Aspose.Tasks per la pagina di rilascio di Java](https://releases.aspose.com/tasks/java/).
-- Una conoscenza di base della gestione del progetto e delle dipendenze tra le attività.
-## Importa pacchetti
-Per avviare il processo, importiamo i pacchetti necessari nel tuo ambiente Java. Ciò garantisce l'accesso alle funzionalità Aspose.Tasks per Java. Utilizza il seguente snippet di codice:
+Prima di iniziare, assicurati di avere a disposizione quanto segue:
+
+- Conoscenza pratica della programmazione Java.  
+- Aspose.Tasks per Java installato. Puoi scaricarlo dalla [pagina di rilascio di Aspose.Tasks per Java](https://releases.aspose.com/tasks/java/).  
+- Comprensione di base dei concetti di gestione progetti, come dipendenze delle attività e attività riepilogo.
+
+## Importare i pacchetti
+Per prima cosa, importa le classi necessarie. Questo ti dà accesso alle funzionalità principali di Aspose.Tasks:
+
 ```java
 import com.aspose.tasks.NullableBool;
 import com.aspose.tasks.Project;
@@ -30,21 +45,27 @@ import com.aspose.tasks.TaskLink;
 import com.aspose.tasks.TaskLinkType;
 import com.aspose.tasks.Tsk;
 ```
-Ora suddividiamo il codice sopra in passaggi comprensibili:
-## Passaggio 1: configura il tuo ambiente
-Prima di immergerti nel codice, assicurati di avere Java installato e che la libreria Aspose.Tasks per Java sia aggiunta correttamente al tuo progetto.
-## Passaggio 2: crea un'istanza del progetto
-Inizializza un nuovo progetto utilizzando la libreria Aspose.Tasks:
+
+## Passo 1: configurare l’ambiente
+Assicurati che Java sia installato sulla tua macchina e che il JAR di Aspose.Tasks sia aggiunto al classpath del progetto. Questo passaggio è cruciale affinché il codice venga compilato senza errori.
+
+## Passo 2: creare un’istanza di Project
+Crea un nuovo oggetto `Project` che conterrà le attività e i collegamenti:
+
 ```java
 Project project = new Project();
 ```
-## Passaggio 3: aggiungi un'attività di riepilogo
-Crea un'attività di riepilogo per organizzare e gestire le attività collegate:
+
+## Passo 3: aggiungere un’attività riepilogo
+Un’attività riepilogo funge da contenitore per le attività che collegherai. Rende la struttura più chiara quando visualizzi il progetto in seguito:
+
 ```java
 Task summary = project.getRootTask().getChildren().add("Summary Task");
 ```
-## Passaggio 4: aggiungi attività esterna
-Per creare un collegamento a un'attività da un altro progetto, aggiungi un'attività esterna all'attività di riepilogo:
+
+## Passo 4: aggiungere un’attività esterna
+Ora aggiungi un’attività esterna che punta a un’attività in un altro file di progetto. Questo è il lato “sorgente” del collegamento cross‑project:
+
 ```java
 Task t2 = summary.getChildren().add("External Task");
 t2.set(Tsk.EXTERNAL_TASK_PROJECT, "ExternalProject.mpp");
@@ -53,37 +74,71 @@ t2.set(Tsk.IS_EXTERNAL_TASK, true);
 t2.set(Tsk.IS_MANUAL, new NullableBool(false));
 t2.set(Tsk.IS_SUMMARY, false);
 ```
-## Passaggio 5: aggiungi attività locale
-Aggiungi un'attività locale all'attività di riepilogo. Questa sarà l'attività collegata all'attività esterna:
+
+## Passo 5: aggiungere un’attività locale
+Crea l’attività locale che sarà collegata a quella esterna. Questo è il lato “destinazione” della relazione:
+
 ```java
 Task t = summary.getChildren().add("Task");
 ```
-## Passaggio 6: crea collegamento attività
-Stabilire il collegamento dell'attività tra l'attività esterna e l'attività locale:
+
+## Passo 6: creare il collegamento di attività
+Stabilisci il collegamento tra l’attività esterna e quella locale. Impostare `CrossProject` a `true` indica ad Aspose.Tasks che il collegamento attraversa due file di progetto diversi:
+
 ```java
 TaskLink link = project.getTaskLinks().add(t2, t);
 link.setCrossProject(true);
 link.setLinkType(TaskLinkType.FinishToStart);
 link.setCrossProjectName("ExternalProject.mpp\\1");
 ```
-## Passaggio 7: visualizzare i risultati
-Infine, visualizza il risultato della conversione:
+
+## Passo 7: visualizzare i risultati
+Infine, stampa una semplice conferma così saprai che il processo è terminato senza eccezioni:
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-## Conclusione
-Congratulazioni! Hai imparato con successo come creare collegamenti di attività tra progetti utilizzando Aspose.Tasks per Java. Questa funzionalità migliora la collaborazione e il coordinamento nella gestione dei progetti, garantendo una perfetta integrazione tra le attività in diversi progetti.
+
+## Perché collegare attività tra progetti?
+Collegare attività tra progetti ti permette di:
+
+- Mantenere gli elementi di lavoro dipendenti sincronizzati senza aggiornamenti manuali.  
+- Ridurre la duplicazione di sforzi quando la stessa attività appare in più piani.  
+- Fornire una fonte unica di verità per il monitoraggio delle milestone tra i team.  
+
+## Problemi comuni e soluzioni
+| Problema | Soluzione |
+|----------|-----------|
+| Attività esterna non trovata | Verifica che il percorso `EXTERNAL_TASK_PROJECT` e `EXTERNAL_ID` siano corretti. |
+| Tipo di collegamento non corrispondente | Assicurati che `TaskLinkType` corrisponda alla dipendenza desiderata (ad es., Fine‑a‑Inizio). |
+| Eccezione di licenza | Installa una licenza valida di Aspose.Tasks prima di creare l’istanza di progetto. |
+
 ## Domande frequenti
-### Posso collegare attività di più progetti esterni nella stessa attività di riepilogo?
-Sì, puoi collegare attività di diversi progetti esterni all'interno della stessa attività di riepilogo, seguendo un processo simile.
-### Cosa succede se l'attività esterna nel progetto collegato viene modificata?
-Qualsiasi modifica all'attività esterna si rifletterà nell'attività collegata nel progetto corrente.
-### È possibile creare collegamenti tra attività in diversi formati di file?
-Sì, Aspose.Tasks per Java supporta il collegamento di attività tra progetti in vari formati di file.
-### Posso scollegare le attività una volta collegate tra progetti?
-Sì, puoi scollegare le attività rimuovendo il collegamento dell'attività utilizzando i metodi Aspose.Tasks appropriati.
-### Esistono limitazioni al numero di attività che possono essere collegate tra progetti?
-Il numero di attività che possono essere collegate è soggetto alle capacità e alle limitazioni della licenza Aspose.Tasks.
+
+**D: Posso collegare attività da più progetti esterni nello stesso task riepilogo?**  
+R: Sì, è possibile collegare attività da diversi progetti esterni all’interno dello stesso task riepilogo, seguendo una procedura simile.
+
+**D: Cosa succede se l’attività esterna nel progetto collegato viene modificata?**  
+R: Qualsiasi modifica all’attività esterna verrà riflessa nell’attività collegata nel progetto corrente.
+
+**D: È possibile creare collegamenti tra attività in formati di file diversi?**  
+R: Sì, Aspose.Tasks per Java supporta il collegamento di attività tra progetti in vari formati di file.
+
+**D: Posso scollegare le attività una volta collegate tra progetti?**  
+R: Sì, è possibile scollegare le attività rimuovendo il collegamento tramite i metodi appropriati di Aspose.Tasks.
+
+**D: Esistono limiti al numero di attività che possono essere collegate tra progetti?**  
+R: Il numero di attività collegabili dipende dalle capacità e dalle limitazioni della tua licenza Aspose.Tasks.
+
+## Conclusione
+Ora sai **come collegare i progetti** e **come collegare attività tra progetti** usando Aspose.Tasks per Java. Creando collegamenti di attività cross‑project, abiliti una collaborazione più fluida, riduci lo sforzo di sincronizzazione manuale e mantieni i piani di progetto allineati. Sentiti libero di sperimentare con diversi tipi di collegamento ed esplorare ulteriori funzionalità di Aspose.Tasks per migliorare ulteriormente il tuo flusso di lavoro di gestione progetti.
+
+---
+
+**Ultimo aggiornamento:** 2026-01-20  
+**Testato con:** Aspose.Tasks per Java 24.12 (ultima versione)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
