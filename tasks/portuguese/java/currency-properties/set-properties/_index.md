@@ -1,11 +1,11 @@
 ---
-date: 2025-12-04
-description: Aprenda como definir a moeda em projetos Aspose.Tasks Java, incluindo
-  como alterar a moeda e mudar o símbolo da moeda em Java. Manipule arquivos do Microsoft
-  Project sem esforço.
+date: 2026-02-07
+description: Aprenda como definir o código de moeda em Java nos projetos Aspose.Tasks,
+  alterar o símbolo da moeda e aplicar um formato de moeda personalizado para arquivos
+  do Microsoft Project.
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
-title: Como definir a moeda em projetos Aspose.Tasks – Guia Java
+title: Código de moeda Java – Como definir em projetos Aspose.Tasks
 url: /pt/java/currency-properties/set-properties/
 weight: 11
 ---
@@ -14,32 +14,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Definir a Moeda em Projetos Aspose.Tasks – Guia Java
+# Como Definir o Código da Moeda no Aspose.Tasks – Guia Java
 
 ## Introdução
-Neste tutorial você aprenderá **como definir a moeda** para um arquivo Microsoft Project usando a API Aspose.Tasks para Java. Seja para *alterar a moeda* para equipes internacionais ou ajustar o *símbolo da moeda* em Java, os passos abaixo irão guiá‑lo pelo processo com explicações claras e código pronto‑para‑executar.
+Neste tutorial você aprenderá **como definir o código da moeda java** para um arquivo Microsoft Project usando a API Java do Aspose.Tasks. Seja para *alterar a moeda* para equipes internacionais, ajustar o *símbolo da moeda*, ou aplicar um **formato de moeda personalizado**, os passos abaixo o guiarão pelo processo com explicações claras e código pronto‑para‑executar.
 
 ## Respostas Rápidas
-- **Qual biblioteca é necessária?** Aspose.Tasks para Java.  
+- **Qual biblioteca é necessária?** Aspose.Tasks for Java.  
 - **Posso mudar o símbolo da moeda?** Sim – use `CurrencySymbolPositionType` e `Prj.CURRENCY_SYMBOL`.  
 - **Quais formatos de arquivo são suportados?** XML, MPP e muitos outros via `SaveFileFormat`.  
-- **Preciso de licença para desenvolvimento?** Um teste gratuito funciona para testes; uma licença é necessária para produção.  
+- **Preciso de licença para desenvolvimento?** Uma avaliação gratuita funciona para testes; uma licença é necessária para produção.  
 - **Quanto tempo leva a implementação?** Cerca de 5‑10 minutos para uma configuração básica.
 
-## O que é “moeda” em um arquivo Project?
-A moeda de um Project define como os valores de custo são exibidos—código (por exemplo, `AUD`), número de casas decimais, símbolo (`$`) e a posição do símbolo. Definir essas propriedades garante que todos os campos relacionados a custos (taxas de recursos, orçamentos de tarefas, etc.) reflitam o formato monetário correto para o seu público.
+## Como Definir o Código da Moeda Java no Aspose.Tasks
+A moeda de um Project define como os valores de custo são exibidos — código (por exemplo, `AUD`), número de casas decimais, símbolo (`$`) e a posição do símbolo. Definir essas propriedades garante que todos os campos relacionados a custos (taxas de recursos, orçamentos de tarefas, etc.) reflitam o formato monetário correto para o seu público.
 
-## Por que usar Aspose.Tasks para mudar a moeda?
+## Por que Usar o Aspose.Tasks para Alterar a Moeda?
 - **Nenhuma instalação do Microsoft Project necessária** – manipule arquivos em qualquer servidor.  
-- **Cobertura total da API** – todos os campos relacionados à moeda são expostos através das constantes `Prj`.  
+- **Cobertura completa da API** – todos os campos relacionados à moeda são expostos através das constantes `Prj`.  
 - **Multiplataforma** – funciona no Windows, Linux e macOS com qualquer IDE compatível com Java.  
-- **Alto desempenho** – processe arquivos de projeto grandes de forma rápida e confiável.
+- **Alto desempenho** – processa arquivos de projeto grandes de forma rápida e confiável.  
+- **Suporta formato de moeda personalizado** – você pode definir símbolos, casas decimais e posicionamento para corresponder aos padrões regionais.
 
-## Pré‑requisitos
+## Pré-requisitos
 Antes de começar, certifique‑se de que você tem:
 
 1. **Java Development Kit (JDK)** – versão 8 ou superior.  
-2. **Aspose.Tasks para Java** – baixe o JAR mais recente na [página de download do Aspose.Tasks](https://releases.aspose.com/tasks/java/).  
+2. **Aspose.Tasks for Java** – baixe o JAR mais recente da [página de download do Aspose.Tasks](https://releases.aspose.com/tasks/java/).  
 3. **Uma IDE** – Eclipse, IntelliJ IDEA ou qualquer editor de sua preferência.  
 4. **Uma pasta gravável** – onde o arquivo de projeto gerado será salvo.
 
@@ -55,22 +56,22 @@ import com.aspose.tasks.SaveFileFormat;
 
 ## Guia Passo a Passo
 
-### Etapa 1: Definir o Diretório de Dados
+### Passo 1: Definir o Diretório de Dados
 Especifique a pasta que contém seus arquivos de origem e onde a saída será gravada.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Etapa 2: Criar uma Nova Instância de Projeto
-Instancie um novo objeto `Project`. Esse objeto representa um arquivo Microsoft em memória.
+### Passo 2: Criar uma Nova Instância de Projeto
+Instancie um novo objeto `Project`. Este objeto representa um arquivo Microsoft Project em memória.
 
 ```java
 Project project = new Project();
 ```
 
-### Etapa 3: Definir Propriedades da Moeda
-Aqui é onde definimos **como definir a moeda**, incluindo código, casas decimais, símbolo e posição do símbolo.
+### Passo 3: Definir Propriedades da Moeda
+É aqui que definimos os detalhes de **como definir a moeda**, como código, casas decimais, símbolo e posição do símbolo.
 
 ```java
 project.set(Prj.CURRENCY_CODE, "AUD");                         // Currency code (e.g., AUD, USD)
@@ -79,17 +80,17 @@ project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to displ
 project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
 
-> **Dica profissional:** Se precisar **alterar a moeda** de um projeto existente, basta carregar o arquivo com `new Project("file.mpp")` antes de aplicar as configurações acima.
+> **Dica profissional:** Se precisar **alterar a moeda do projeto** para um arquivo existente, basta carregá‑lo com `new Project("file.mpp")` antes de aplicar as configurações acima.
 
-### Etapa 4: Salvar o Projeto Atualizado
+### Passo 4: Salvar o Projeto Atualizado
 Grave o projeto de volta ao disco no formato desejado. Neste exemplo usamos o formato XML, mas você também pode escolher `SaveFileFormat.MPP`.
 
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-### Etapa 5: Confirmar o Sucesso
-Imprima uma mensagem amigável para saber que a operação foi concluída sem erros.
+### Passo 5: Confirmar o Sucesso
+Imprima uma mensagem amigável para que você saiba que a operação foi concluída sem erros.
 
 ```java
 System.out.println("Process completed Successfully");
@@ -98,35 +99,35 @@ System.out.println("Process completed Successfully");
 ## Problemas Comuns & Soluções
 | Problema | Motivo | Solução |
 |----------|--------|---------|
-| **`NullPointerException` ao chamar `project.save`** | `dataDir` não é um caminho válido ou não tem permissão de gravação. | Certifique‑se de que o diretório existe e que seu processo Java tem acesso de escrita. |
-| **Símbolo da moeda não aparece** | A posição do símbolo está configurada incorretamente para seu locale. | Use `CurrencySymbolPositionType.Before` se o símbolo deve preceder o valor. |
-| **Arquivo de projeto não abre no MS Project** | Salvando em um formato antigo com configurações incompatíveis. | Salve usando `SaveFileFormat.MPP` para total compatibilidade com versões recentes do MS Project. |
+| **`NullPointerException` ao `project.save`** | `dataDir` não é um caminho válido ou não tem permissão de gravação. | Certifique‑se de que o diretório exista e que seu processo Java tenha acesso de gravação. |
+| **Símbolo da moeda não exibido** | A posição do símbolo está configurada incorretamente para sua localidade. | Use `CurrencySymbolPositionType.Before` se o símbolo deve preceder o valor. |
+| **Arquivo de projeto não abre no MS Project** | Salvando em um formato antigo com configurações incompatíveis. | Salve usando `SaveFileFormat.MPP` para total compatibilidade com as versões recentes do MS Project. |
 
 ## Perguntas Frequentes
 
-**P: Posso definir múltiplas moedas em um único projeto usando Aspose.Tasks?**  
-R: Sim, o Aspose.Tasks permite lidar com várias moedas dentro de um mesmo arquivo de projeto definindo propriedades de moeda por recurso ou por tarefa.
+**Q: Posso definir múltiplas moedas em um único projeto usando Aspose.Tasks?**  
+A: Sim, o Aspose.Tasks permite lidar com várias moedas dentro de um único arquivo de projeto definindo propriedades de moeda por recurso ou por tarefa.
 
-**P: O Aspose.Tasks é compatível com diferentes versões de arquivos Microsoft Project?**  
-R: Absolutamente. A biblioteca suporta arquivos MPP do Project 2000 até as versões mais recentes, além de XML e outros formatos.
+**Q: O Aspose.Tasks é compatível com diferentes versões de arquivos Microsoft Project?**  
+A: Absolutamente. A biblioteca suporta arquivos MPP desde o Project 2000 até as versões mais recentes, além de XML e outros formatos.
 
-**P: O Aspose.Tasks oferece suporte a formatos de moeda personalizados?**  
-R: Sim, você pode definir símbolos personalizados, casas decimais e posicionamento para atender a qualquer requisito regional.
+**Q: O Aspose.Tasks oferece suporte a formatos de moeda personalizados?**  
+A: Sim, você pode definir símbolos personalizados, casas decimais e posicionamento para atender a qualquer exigência regional.
 
-**P: Posso integrar o Aspose.Tasks com outras bibliotecas ou frameworks Java?**  
-R: Certamente. A API é pura Java, funcionando perfeitamente com Spring, Hibernate, Maven, Gradle e outros ecossistemas.
+**Q: Posso integrar o Aspose.Tasks com outras bibliotecas ou frameworks Java?**  
+A: Certamente. A API é pura Java, portanto funciona perfeitamente com Spring, Hibernate, Maven, Gradle e outros ecossistemas.
 
-**P: Onde posso encontrar suporte ou assistência adicional para o Aspose.Tasks?**  
-R: Visite o [fórum do Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para ajuda da comunidade, ou consulte a documentação oficial para referências detalhadas da API.
+**Q: Onde posso encontrar suporte ou assistência adicional para o Aspose.Tasks?**  
+A: Visite o [fórum do Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para ajuda da comunidade, ou consulte a documentação oficial para referências detalhadas da API.
 
 ## Conclusão
-Agora você sabe **como definir a moeda**, como **alterar valores de moeda** e como **alterar o símbolo da moeda em Java** usando o Aspose.Tasks para Java. Esses recursos permitem adaptar dados de custo para equipes globais, gerar relatórios específicos por região e manter seus arquivos de projeto consistentes em diferentes países.
+Agora você sabe **como definir o código da moeda java**, como **alterar valores de moeda** e como **alterar o símbolo da moeda** usando o Aspose.Tasks para Java. Esses recursos permitem adaptar os dados de custo para equipes globais, gerar relatórios específicos por localidade e manter seus arquivos de projeto consistentes em diferentes regiões.
 
 ---
 
-**Última atualização:** 2025-12-04  
-**Testado com:** Aspose.Tasks para Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
