@@ -1,10 +1,11 @@
 ---
-date: 2025-12-07
-description: Tìm hiểu cách **tạo dự án thử nghiệm** và **thêm trường tùy chỉnh** khi
-  thao tác với các tệp Microsoft Project bằng Aspose.Tasks cho Java.
+date: 2026-02-13
+description: Tìm hiểu cách tính số ngày giữa các ngày, tạo dự án thử nghiệm và thêm
+  trường tùy chỉnh khi thao tác với các tệp Microsoft Project bằng Aspose.Tasks cho
+  Java.
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Tạo dự án thử nghiệm và sử dụng công thức với Aspose.Tasks cho Java
+title: Tính số ngày giữa các ngày với Aspose.Tasks cho Java
 url: /vi/java/formulas/work-with-formulas/
 weight: 11
 ---
@@ -13,52 +14,60 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Dự Án Kiểm Thử và Sử Dụng Công Thức với Aspose.Tasks cho Java
+# Tính số ngày giữa các ngày với Aspose.Tasks cho Java
 
-## Introduction
-Trong hướng dẫn này, bạn sẽ **tạo các tệp dự án kiểm thử**, thêm một trường tùy chỉnh, và làm việc với các công thức MS Project bằng thư viện Aspose.Tasks cho Java. Aspose.Tasks giúp việc **điều khiển dữ liệu Microsoft Project** một cách lập trình trở nên đơn giản—cho dù bạn cần tạo lịch trình, tính toán ngày, hoặc tự động hoá báo cáo. Khi kết thúc hướng dẫn, bạn sẽ có một ví dụ có thể chạy được, định nghĩa một thuộc tính mở rộng, đặt thời hạn cho một nhiệm vụ, và lưu dự án dưới dạng tệp MPP.
+## Giới thiệu
+Trong hướng dẫn này, bạn sẽ **tính số ngày giữa các ngày** bằng cách tạo một dự án thử nghiệm, thêm một trường tùy chỉnh và sử dụng các công thức Microsoft Project thông qua thư viện Aspose.Tasks cho Java. Dù bạn cần tạo lịch trình, tính toán thời hạn, hay tự động hoá báo cáo, Aspose.Tasks cho phép bạn thao tác dữ liệu Project một cách lập trình mà không cần cài đặt phần mềm trên máy tính. Khi kết thúc hướng dẫn, bạn sẽ có một ví dụ có thể chạy được, định nghĩa một thuộc tính mở rộng, đặt thời hạn cho một nhiệm vụ và lưu dự án dưới dạng tệp MPP.
 
-## Quick Answers
-- **Hướng dẫn bao gồm gì?** Tạo dự án kiểm thử, thêm trường tùy chỉnh, định nghĩa thuộc tính mở rộng, và đặt thời hạn cho nhiệm vụ bằng công thức.  
-- **Thư viện nào cần thiết?** Aspose.Tasks cho Java (phiên bản mới nhất).  
-- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; cần giấy phép cho môi trường sản xuất.  
+## Trả lời nhanh
+- **Nội dung hướng dẫn bao gồm gì?** Tạo dự án thử nghiệm, thêm trường tùy chỉnh, định nghĩa thuộc tính mở rộng và đặt thời hạn cho nhiệm vụ bằng công thức để tính số ngày giữa các ngày.  
+- **Thư viện nào được yêu cầu?** Aspose.Tasks cho Java (phiên bản mới nhất).  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc phát triển; cần giấy phép cho môi trường sản xuất.  
 - **IDE nào có thể dùng?** Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, VS Code) hỗ trợ JDK 8+.  
-- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút để sao chép mã và chạy.
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút để sao chép mã và chạy thử.
 
-## What is a “Test Project” in Aspose.Tasks?
-Một **dự án kiểm thử** là một tệp Microsoft Project nhẹ được tạo lập trình để minh họa hoặc xác thực chức năng. Nó chứa một tập hợp tối thiểu các nhiệm vụ, nguồn lực và trường tùy chỉnh mà bạn có thể thao tác mà không ảnh hưởng đến dữ liệu dự án thực.
+## “Tính số ngày giữa các ngày” trong Aspose.Tasks là gì?
+Tính số ngày giữa các ngày có nghĩa là sử dụng công thức Project để trừ một trường ngày (ví dụ, **Finish**) khỏi một trường ngày khác (ví dụ, **Deadline**) và trả về giá trị số ngày. Điều này hữu ích cho việc theo dõi trễ lịch, đo thời gian đệm, hoặc tạo báo cáo tùy chỉnh.
 
-## Why Use Aspose.Tasks to Manipulate Microsoft Project?
+## Tại sao nên dùng Aspose.Tasks để tính số ngày giữa các ngày?
 - **Bao phủ đầy đủ API** – truy cập mọi thuộc tính của Project, Task và Resource.  
 - **Không cần cài đặt Office** – hoạt động trên máy chủ, pipeline CI và container Docker.  
-- **Đa nền tảng** – chạy trên Windows, Linux và macOS với cùng một mã Java.  
-- **Công cụ công thức mạnh mẽ** – tính toán ngày, thời lượng và trường tùy chỉnh trực tiếp trong tệp dự án.
+- **Đa nền tảng** – chạy trên Windows, Linux và macOS với cùng một đoạn mã Java.  
+- **Engine công thức mạnh mẽ** – cho phép bạn định nghĩa các phép tính như `[Deadline] - [Finish]` trực tiếp trong tệp dự án.
 
-## Prerequisites
-- **Java Development Kit (JDK) 8+** – tải xuống từ trang web Oracle hoặc sử dụng OpenJDK.  
-- **Aspose.Tasks cho Java** – lấy JAR mới nhất từ [trang tải Aspose.Tasks cho Java](https://releases.aspose.com/tasks/java/) và thêm vào classpath của dự án hoặc phụ thuộc Maven/Gradle.
+## Cách đặt thời hạn cho một nhiệm vụ
+Đặt thời hạn là bước đầu tiên trước khi bạn có thể tính khoảng thời gian. Thời hạn được lưu trong trường `Tsk.DEADLINE` của một nhiệm vụ và có thể gán bằng một đối tượng `java.util.Calendar`.
 
-## Import Packages
-First, import the classes we’ll need:
+## Cách định nghĩa thuộc tính mở rộng
+Thuộc tính mở rộng là trường tùy chỉnh sẽ chứa kết quả của công thức. Bạn định nghĩa nó một lần, đặt một bí danh để dễ đọc, và sau đó gắn công thức thực hiện phép trừ ngày.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn bạn đã có:
+
+- **Java Development Kit (JDK) 8+** – tải về từ trang web Oracle hoặc sử dụng OpenJDK.  
+- **Aspose.Tasks cho Java** – lấy JAR mới nhất từ [trang tải Aspose.Tasks cho Java](https://releases.aspose.com/tasks/java/) và thêm vào classpath của dự án hoặc vào phụ thuộc Maven/Gradle.
+
+## Nhập gói
+Đầu tiên, nhập các lớp cần thiết:
 
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-## Step‑by‑Step Guide
+## Hướng dẫn từng bước
 
-### Step 1: Create a Test Project with a Custom Field
-We begin by **creating test project** and adding a custom field that will later hold our formula result.
+### Bước 1: Tạo dự án thử nghiệm với trường tùy chỉnh
+Chúng ta bắt đầu bằng **tạo một dự án thử nghiệm** và thêm một trường tùy chỉnh sẽ chứa kết quả công thức sau này.
 
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
 
-> *Mẹo chuyên nghiệp:*CreateTestProjectWithCustomField()` là một phương thức trợ giúp tạo lịch tối thiểu và đăng ký một thuộc tính mở rộng sẵn sàng cho việc gán công thức.
+> *Mẹo:* `CreateTestProjectWithCustomField()` là phương thức trợ giúp tạo một lịch tối thiểu và đăng ký một thuộc tính mở rộng sẵn sàng cho việc gán công thức.
 
-### Step 2: Define an Extended Attribute (Add Custom Field)
-Next, we **define extended attribute** – essentially the custom field – and give it a friendly alias. This is where we **add custom field** logic.
+### Bước 2: Định nghĩa thuộc tính mở rộng (Thêm trường tùy chỉnh)
+Tiếp theo, chúng ta **định nghĩa một thuộc tính mở rộng** – về cơ bản là trường tùy chỉnh – và đặt cho nó một bí danh thân thiện. Đây là nơi chúng ta **thêm logic trường tùy chỉnh**.
 
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
@@ -67,10 +76,10 @@ attr.setFormula("[Deadline] - [Finish]");
 ```
 
 - **Alias** giúp trường hiển thị dễ đọc trong Project.  
-- **Formula** tính số ngày giữa ngày *Finish* và *Deadline* của một nhiệm vụ.
+- **Formula** tính số ngày giữa ngày *Finish* và *Deadline* của nhiệm vụ – là trọng tâm của *tính số ngày giữa các ngày*.
 
-### Step 3: Set Deadline for a Task (Add Deadline Task & Set Task Deadline)
-Now we **add deadline task** data by setting the *Deadline* property on a specific task.
+### Bước 3: Đặt thời hạn cho một nhiệm vụ (Thêm nhiệm vụ Deadline & Đặt thời hạn)
+Bây giờ chúng ta **thêm dữ liệu nhiệm vụ deadline** bằng cách đặt thuộc tính *Deadline* cho một nhiệm vụ cụ thể.
 
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -80,45 +89,45 @@ task.set(Tsk.DEADLINE, cal.getTime());
 ```
 
 - Đối tượng `Calendar` xác định thời điểm deadline chính xác.  
-- `set(Tsk.DEADLINE, …)` **đặt deadline cho nhiệm vụ** đã chọn.
+- `set(Tsk.DEADLINE, …)` **đặt thời hạn cho nhiệm vụ** đã chọn.
 
-### Step 4: Save the Project (Manipulate Microsoft Project File)
-Finally, we **manipulate Microsoft Project** by persisting the changes to an MPP file.
+### Bước 4: Lưu dự án (Xử lý tệp Microsoft Project)
+Cuối cùng, chúng ta **xử lý Microsoft Project** bằng cách ghi các thay đổi vào tệp MPP.
 
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
 
-Bạn có thể mở `SaveFile.mpp` trong Microsoft Project để xem trường tùy chỉnh, kết quả công thức và deadline được phản ánh trong lịch trình.
+Bạn có thể mở `SaveFile.mpp` trong Microsoft Project để xem trường tùy chỉnh, kết quả công thức và thời hạn đã được phản ánh trong lịch trình.
 
-## Common Issues and Solutions
-| Issue | Solution |
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
 |-------|----------|
 | **Công thức không tính toán** | Đảm bảo chuỗi `Formula` của thuộc tính sử dụng đúng tên trường (ví dụ, `[Deadline]`, `[Finish]`). |
-| **Không tìm thấy nhiệm vụ** | Xác minh ID nhiệm vụ (`1` trong ví dụ) tồn tại; sử dụng `project.getRootTask().getChildren().size()` để gỡ lỗi. |
+| **Không tìm thấy nhiệm vụ** | Kiểm tra ID nhiệm vụ (`1` trong ví dụ) có tồn tại; dùng `project.getRootTask().getChildren().size()` để debug. |
 | **Lỗi giấy phép** | Áp dụng giấy phép Aspose.Tasks hợp lệ trước khi gọi bất kỳ phương thức API nào (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: Tôi có thể sử dụng Aspose.Tasks với các ngôn ngữ lập trình khác không?**  
-A: Có, Aspose.Tasks cung cấp API cho .NET, Java và các nền tảng khác, cho phép bạn **điều khiển Microsoft Project** bằng ngôn ngữ bạn chọn.
+**Hỏi: Tôi có thể dùng Aspose.Tasks với các ngôn ngữ lập trình khác không?**  
+Đáp: Có, Aspose.Tasks cung cấp API cho .NET, Java và các nền tảng khác, cho phép bạn **thao tác tệp Microsoft Project** bằng ngôn ngữ bạn chọn.
 
-**Q: Có bản dùng thử miễn phí cho Aspose.Tasks không?**  
-A: Tất nhiên. Tải bản dùng thử đầy đủ chức năng từ [trang tải Aspose.Tasks](https://releases.aspose.com/).
+**Hỏi: Có bản dùng thử miễn phí cho Aspose.Tasks không?**  
+Đáp: Chắc chắn. Tải bản dùng thử đầy đủ chức năng từ [trang tải Aspose.Tasks](https://releases.aspose.com/).
 
-**Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.Tasks ở đâu?**  
-A: Tài liệu chính thức được lưu trữ tại [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
+**Hỏi: Tôi có thể tìm tài liệu chi tiết cho Aspose.Tasks ở đâu?**  
+Đáp: Tài liệu chính thức được lưu trữ tại [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
 
-**Q: Làm sao tôi có thể nhận hỗ trợ cho Aspose.Tasks?**  
-A: Truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để đặt câu hỏi và chia sẻ kinh nghiệm với cộng đồng.
+**Hỏi: Làm sao tôi có thể nhận hỗ trợ cho Aspose.Tasks?**  
+Đáp: Truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để đặt câu hỏi và chia sẻ kinh nghiệm với cộng đồng.
 
-**Q: Tôi có cần giấy phép tạm thời để đánh giá không?**  
-A: Giấy phép tạm thời có sẵn cho việc thử nghiệm ngắn hạn; bạn có thể yêu cầu tại [đây](https://purchase.aspose.com/temporary-license/).
+**Hỏi: Tôi có cần giấy phép tạm thời để đánh giá không?**  
+Đáp: Có, giấy phép tạm thời có sẵn cho việc thử nghiệm ngắn hạn; bạn có thể yêu cầu tại [đây](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-07  
-**Được kiểm tra với:** Aspose.Tasks for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Cập nhật lần cuối:** 2026-02-13  
+**Kiểm tra với:** Aspose.Tasks cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

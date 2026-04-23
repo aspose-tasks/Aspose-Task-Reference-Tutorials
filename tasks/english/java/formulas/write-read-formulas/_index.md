@@ -1,11 +1,11 @@
 ---
-title: Save Project File and Write MS Project Formulas with Aspose.Tasks
-linktitle: Save Project File & Write Formulas in Aspose.Tasks
+title: Custom Field Formula Example: Save Project with Aspose.Tasks
+linktitle: Custom Field Formula Example – Save Project with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to save project file, write and read MS Project formulas, and add custom field formulas using Aspose.Tasks for Java.
+description: Learn a custom field formula example with Aspose.Tasks for Java, including a double task cost formula, saving the project file and reading MS Project formulas.
 weight: 12
 url: /java/formulas/write-read-formulas/
-date: 2025-12-07
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,7 +15,7 @@ date: 2025-12-07
 # Save Project File and Write MS Project Formulas with Aspose.Tasks
 
 ## Introduction
-In the realm of project management, effective handling of data is paramount. Aspose.Tasks for Java is a robust solution that facilitates the manipulation and extraction of data from Microsoft Project files. One powerful feature it offers is the ability to write and read MS Project formulas. **You’ll also learn how to *save project file* after applying those formulas**, ensuring your changes are persisted for future analysis. This tutorial will guide you through the process of leveraging this functionality to enhance your project management tasks.
+In this tutorial you’ll see a **custom field formula example** that shows how to **save a project file**, write and read MS Project formulas, and apply a **double task cost formula** using Aspose.Tasks for Java. By the end you’ll understand why custom fields are powerful, how to embed calculations directly into a project, and how to persist those changes for later reporting.
 
 ## Quick Answers
 - **What does “save project file” do?** It writes all in‑memory changes back to a .mpp file on disk.  
@@ -24,8 +24,11 @@ In the realm of project management, effective handling of data is paramount. Asp
 - **Which IDE works best?** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) will compile the sample.  
 - **Is the API compatible with the latest MS Project version?** Aspose.Tasks supports all recent .mpp formats.
 
+## Custom Field Formula Example Overview
+A **custom field formula example** lets you automate calculations that would otherwise require manual updates. In this guide we’ll add a text‑type custom field called *Double Costs* and attach a **double task cost formula** (`[Cost]*2`). The formula is stored inside the project file, so every time the task cost changes, the custom field updates automatically.
+
 ## What is “save project file” in Aspose.Tasks?
-Saving a project file means persisting the `Project` object’s current state—including tasks, resources, and any custom formulas—to a physical Microsoft Project file (`.mpp`). This operation is essential after you modify data, such as adding a custom field or changing task costs.
+Saving a project file means perserving the `Project` object’s current state—including tasks, resources, and any custom formulas—to a physical Microsoft Project file (`.mpp`). This operation is essential after you modify data, such as adding a custom field or changing task costs.
 
 ## Why add a custom field and create a custom field formula?
 Adding a custom field gives you a flexible container for extra information that isn’t covered by default fields. By attaching a formula—like one that **double task cost**—you automate calculations, reduce manual errors, and keep your schedule data consistent.
@@ -38,8 +41,6 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 3. **Integrated Development Environment (IDE)** – Choose your preferred IDE for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).  
 
 ## Importing Packages
-To begin, import the necessary packages into your Java project:
-
 ```java
 import com.aspose.tasks.*;
 import java.io.IOException;
@@ -69,7 +70,7 @@ attr.setAlias("Double Costs");
 attr.setFormula("[Cost]*2");   // This formula doubles the task cost
 project.getExtendedAttributes().add(attr);
 ```
-In this step we **add custom field** “Double Costs” and **create custom field formula** that multiplies the task’s `[Cost]` by 2, effectively **double task cost**. The `setFormula` method embeds the calculation directly into the project file.
+In this step we **add a custom field** “Double Costs” and **create a custom field formula** that multiplies the task’s `[Cost]` by 2, effectively implementing a **double task cost formula**. The `setFormula` method embeds the calculation directly into the project file.
 
 ## Step 4: Add Task and Set Cost
 ```java
@@ -108,11 +109,11 @@ A: Yes, the library runs on any platform that supports Java, including Windows, 
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community help, or open a support ticket if you have a commercial license.
 
 ## Conclusion
-In this tutorial we covered how to **save project file**, **add custom field**, and **create a custom field formula** that **double task cost** using Aspose.Tasks for Java. By following these steps you can automate calculations, enrich your project data, and ensure all changes are persisted for future reporting and analysis.
+In this **custom field formula example** we covered how to **save project file**, **add a custom field**, and **create a double task cost formula** that automatically doubles the task cost. By following these steps you can automate calculations, enrich your project data, and ensure all changes are persisted for future reporting and analysis.
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
