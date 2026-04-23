@@ -1,10 +1,10 @@
 ---
-date: 2025-12-02
-description: Aspose.Tasks for Java kullanarak proje takvimini nasıl oluşturacağınızı
-  ve Gantt şemasını nasıl yapılandıracağınızı öğrenin. Kapsamlı öğreticiler, örnekler
-  ve en iyi uygulamalar.
+date: 2026-02-05
+description: Aspose.Tasks for Java kullanarak Java’da proje takvimi oluşturmayı ve
+  Gantt şemasını yapılandırmayı öğrenin. Kapsamlı öğreticiler, örnekler ve en iyi
+  uygulamalar.
 linktitle: Aspose.Tasks for Java Tutorials
-title: Aspose ile Proje Takvimi Oluşturma – Aspose.Tasks for Java Rehberi
+title: Java Proje Takvimi Oluşturma – Aspose.Tasks for Java Rehberi
 url: /tr/java/
 weight: 10
 ---
@@ -13,130 +13,139 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Proje Takvimini Oluşturma Aspose – Aspose.Tasks for Java Kılavuzu
+# Create Project Calendar Java – Aspose.Tasks for Java Guide
 
-## Giriş
-Bu kapsamlı kılavuzda, Aspose.Tasks kullanarak Java'da **create project calendar aspose** nasıl oluşturacağınızı öğrenecek, proje zaman çizelgelerini, kaynakları ve istisnaları verimli bir şekilde yönetebileceksiniz. Yeni bir proje yönetim çözümü oluşturuyor ya da mevcut bir çözümü genişletiyor olun, bu öğreticiler gerçek dünya senaryoları üzerinden—takvim yönetiminden VBA entegrasyonuna—size rehberlik eder, böylece iş akışlarınızı güvenle sadeleştirebilirsiniz.
+## Introduction
+Bu kapsamlı rehberde, Aspose.Tasks for Java kullanarak **create project calendar java** nasıl oluşturacağınızı öğreneceksiniz. Takvimleri, istisnaları ve Gantt şeması ayarlarını yönetmek, yeni bir proje‑yönetim çözümü geliştiriyor ya da mevcut bir uygulamayı genişletiyor olsanız da son derece basit hale gelir. Gerçek dünya senaryoları üzerinden ilerleyecek, her adımın *neden*ini açıklayacak ve takvimlerinizi doğru, kodunuzu temiz tutmanız için pratik ipuçları sunacağız.
 
-## Hızlı Yanıtlar
-- **What does “create project calendar aspose” mean?** Bu, Aspose.Tasks for Java kullanarak Microsoft Project dosyalarındaki takvim verilerini tanımlamak, değiştirmek ve almak anlamına gelir.  
-- **Do I need a license?** Bir ücretsiz deneme mevcuttur, ancak üretim kullanımında ticari bir lisans gereklidir.  
-- **Which Java version is supported?** Aspose.Tasks, Java 8 ve sonrası sürümlerini destekler.  
-- **Can I configure Gantt chart java settings?** Evet—Aspose.Tasks, çubuk stilleri ve zaman ölçekleri gibi Gantt şeması özelliklerini programlı olarak yapılandırmanıza olanak tanır.  
-- **Where can I find sample code?** Aşağıda bağlantılı her öğreticide, uyarlayabileceğiniz hazır çalışan örnekler bulunur.
+## Quick Answers
+- **“create project calendar java” ne anlama geliyor?** Aspose.Tasks for Java kullanarak Microsoft Project dosyalarında takvim verilerini tanımlamayı, değiştirmeyi ve almayı ifade eder.  
+- **Lisans gerekir mi?** Ücretsiz deneme sürümü mevcuttur, ancak üretim kullanımı için ticari bir lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** Aspose.Tasks, Java 8 ve sonrası sürümleri destekler.  
+- **Gantt chart java ayarlarını yapılandırabilir miyim?** Evet—Aspose.Tasks, çubuk stilleri ve zaman ölçekleri gibi Gantt şeması özelliklerini programlı olarak yapılandırmanıza olanak tanır.  
+- **Örnek kodları nerede bulabilirim?** Aşağıdaki her öğreticide, uyarlayabileceğiniz çalıştırmaya hazır örnekler bulunur.
 
-## Java'da Aspose ile proje takvimi nasıl oluşturulur
-Proje takvimlerini yönetmek, doğru zamanlama için gereklidir. Aşağıda, Aspose.Tasks kullanarak çalışma günlerini tanımlamayı, istisnaları ayarlamayı ve takvim bilgilerini almayı gösteren adım adım öğreticileri bulacaksınız.
+## What is “create project calendar java”?
+Java’da bir proje takvimi oluşturmak, çalışma günlerini, çalışılmayan günleri ve istisnaları programlı olarak tanımlamak anlamına gelir; böylece takvim, organizasyonunuzun gerçek dünyadaki kullanılabilirliğini yansıtır. Aspose.Tasks, Microsoft Project dosyalarının altında yatan XML yapısını soyutlayan akıcı bir API sunar ve iş mantığınıza odaklanmanızı sağlar.
 
-## Aspose.Tasks ile Java'da Gantt şemasını nasıl yapılandırılır
+## Why use Aspose.Tasks for Java to manage project calendars?
+- **Full control** haftaiçi günleri, tatiller ve özel istisnalar üzerinde manuel dosya düzenlemesi yapmadan tam kontrol sağlar.  
+- **Seamless integration** mevcut Java kod tabanları ve derleme araçlarıyla sorunsuz entegrasyon.  
+- **Cross‑platform** destek – Windows, Linux ve macOS’ta çalışır.  
+- **Rich Gantt chart customization** (configure gantt chart java) sayesinde paydaşlar zaman çizelgelerini anında görselleştirebilir.
+
+## How to create project calendar java
+Proje takvimlerini yönetmek, doğru zamanlama için kritiktir. Aşağıda, çalışma günlerini tanımlama, istisnaları ayarlama ve takvim bilgilerini Aspose.Tasks kullanarak alma adımlarını gösteren adım‑adım öğreticiler bulacaksınız.
+
+## How to configure Gantt chart java with Aspose.Tasks
 İyi yapılandırılmış bir Gantt şeması, görev ilişkilerini, kilometre taşlarını ve kritik yolları görselleştirir. Öğreticilerimiz, çubuk stillerini, zaman ölçeklerini ve diğer Gantt‑özel ayarları doğrudan Java kodundan nasıl özelleştireceğinizi gösterir.
 
-## Takvim İstisnaları Öğreticisi
-Aspose.Tasks kullanarak Java projelerinde takvim istisnalarını zahmetsizce yönetebilir, tanımlayabilir, işleyebilir ve alabilirsiniz. Adım adım öğreticilerimiz, proje iş akışlarınızı sadeleştirmenizi sağlayarak verimli proje yönetimini temin eder. Daha fazla bilgi için [buraya](./calendar-exceptions/) tıklayın.
+## Calendar Exceptions Tutorial
+Aspose.Tasks kullanarak Java projelerinde takvim istisnalarını zahmetsizce yönetebilir, tanımlayabilir, işleyebilir ve alabilirsiniz. Adım‑adım öğreticilerimiz, proje iş akışlarını sadeleştirerek verimli proje yönetimini sağlar. Daha fazla bilgi için [burada](./calendar-exceptions/) öğrenin.
 
-## Takvimler Öğreticisi
-Aspose.Tasks öğreticileriyle Java proje yönetimi becerilerinizi geliştirin. Takvim yönetiminde uzmanlaşın, hafta içi günlerini oluşturun, tanımlayın ve takvimleri kolayca güncelleyin. Proje yönetiminizi bir üst seviyeye taşıyın [buradan](./calendars/).
+## Calendars Tutorial
+Aspose.Tasks öğreticileriyle Java proje yönetimi becerilerinizi geliştirin. Takvim yönetimini ustalaşın, haftaiçi günlerini oluşturun, tanımlayın ve takvimleri kolayca güncelleyin. Proje yönetiminizi bir üst seviyeye taşımak için [buraya](./calendars/) göz atın.
 
-## Para Birimi Öğreticisi
-Aspose.Tasks for Java ile MS Project dosyalarında para birimi kodlarını, basamakları ve sembolleri zahmetsizce yönetin. Takip etmesi kolay öğreticilerle proje yönetimini sadeleştirin. Para birimi yönetimi dünyasına [buradan](./currency/) dalın.
+## Currency Tutorial
+Aspose.Tasks for Java ile MS Project dosyalarında para birimi kodlarını, basamak sayılarını ve sembolleri zahmetsizce yönetin. Kolay‑takip öğreticilerimizle proje yönetimini hızlandırın. Para birimi yönetimi dünyasına [buradan](./currency/) dalın.
 
-## Formüller Öğreticisi
-Aspose.Tasks for Java ile proje yönetimi becerilerinizi yükseltin. MS Project formüllerinde uzmanlaşın, verimliliği artırın ve formülleri kolayca yazıp okuyun. Formüllerin gücünü [burada](./formulas/) keşfedin.
+## Formulas Tutorial
+Aspose.Tasks for Java ile proje yönetimi becerilerinizi yükseltin. MS Project formüllerini ustalaşın, verimliliği artırın ve formülleri kolayca yazıp okuyun. Formüllerin gücünü keşfetmek için [buraya](./formulas/) tıklayın.
 
-## Proje Özellikleri Öğreticisi
-Aspose.Tasks for Java'ın potansiyelini Proje Özellikleri Öğreticilerimizle ortaya çıkarın. Microsoft Project bilgilerini zahmetsizce çıkarın, kullanın ve manipüle edin. Proje özellikleri hakkında daha fazla bilgi için [buraya](./project-properties/) tıklayın.
+## Project Properties Tutorial
+Aspose.Tasks for Java’ın Project Properties Öğreticileriyle potansiyelinizi açığa çıkarın. Microsoft Project bilgilerini zahmetsizce çıkarın, kullanın ve manipüle edin. Proje özellikleri hakkında daha fazla bilgi için [burada](./project-properties/) öğrenin.
 
-## Para Birimi Özellikleri Öğreticisi
-Aspose.Tasks for Java Öğreticileriyle gücü ortaya çıkarın. MS Project dosyalarında para birimi özelliklerini okuma ve ayarlama konusunda adım adım rehberler keşfedin. Para birimi özelliklerini [burada](./currency-properties/) inceleyin.
+## Currency Properties Tutorial
+Aspose.Tasks for Java Öğreticileriyle gücünüzü artırın. MS Project dosyalarında para birimi özelliklerini okuma ve ayarlama konusunda adım‑adım rehberler keşfedin. Para birimi özelliklerini incelemek için [buraya](./currency-properties/) bakın.
 
-## Proje Yapılandırma Öğreticisi
-Aspose.Tasks for Java'ın gücünü kapsamlı öğreticilerimizle keşfedin. Gantt şemalarını yapılandırın, MS Project dosyaları oluşturun ve proje yönetimini sadeleştirin. Proje yapılandırmasına [buradan](./project-configuration/) dalın.
+## Project Configuration Tutorial
+Aspose.Tasks for Java’ın kapsamlı öğreticileriyle gücünü keşfedin. Gantt şemalarını yapılandırın, MS Project dosyaları oluşturun ve proje yönetimini sadeleştirin. Proje yapılandırması hakkında daha fazla bilgi için [burada](./project-configuration/) inceleyin.
 
-## Proje Yönetimi Öğreticisi
-Kapsamlı proje yönetimi öğreticilerimizle Aspose.Tasks Java'yı keşedin. Kritik yol hesaplamalarından mali yıl özelliklerine kadar iş akışınızı sadeleştirin. Proje yönetimi hakkında daha fazla bilgi için [buraya](./project-management/) tıklayın.
+## Project Management Tutorial
+Aspose.Tasks Java ile kapsamlı proje yönetimi öğreticilerimizi keşfedin. Kritik yol hesaplamalarından mali yıl özelliklerine kadar iş akışınızı sadeleştirin. Proje yönetimi hakkında daha fazla bilgi için [burada](./project-management/) öğrenin.
 
-## Proje Veri Okuma Öğreticisi
-Aspose.Tasks for Java'ın gücünü öğreticilerimizle ortaya çıkarın! Grup tanımlarını okumaktan Gantt şeması verilerini çıkarmaya kadar sorunsuz entegrasyonu öğrenin. Proje veri okuma hakkında [buradan](./project-data-reading/) bilgi edinin.
+## Project Data Reading Tutorial
+Aspose.Tasks for Java’ın öğreticileriyle gücünüzü açığa çıkarın! Grup tanımlarını okumaktan Gantt şeması verilerini çıkarmaya kadar sorunsuz entegrasyonu ustalaşın. Proje veri okuma hakkında daha fazla bilgi için [burada](./project-data-reading/) keşfedin.
 
-## Proje Dosyası İşlemleri Öğreticisi
-Aspose.Tasks for Java ile MS Project düzenlerini zahmetsizce optimize edin. Boşlukları azaltma, veri işleme, takvim değiştirme ve daha fazlası konularında adım adım öğreticileri öğrenin. Proje dosyası işlemlerini [burada](./project-file-operations/) keşfedin.
+## Project File Operations Tutorial
+Aspose.Tasks for Java ile MS Project düzenlerini zahmetsizce optimize edin. Boşlukları azaltma, veri renderleme, takvim değiştirme ve daha fazlası üzerine adım‑adım öğreticiler öğrenin. Proje dosyası işlemleri hakkında daha fazla bilgi için [burada](./project-file-operations/) göz atın.
 
-## Kaynak Atamaları Öğreticisi
-Kaynak atamaları öğreticilerimizle Aspose.Tasks for Java'ı zahmetsizce öğrenin. MS Project manipülasyonu, atama bütçeleri, maliyetler ve daha fazlasını yönetin. Kaynak atamaları hakkında [buradan](./resource-assignments/) bilgi edinin.
+## Resource Assignments Tutorial
+Aspose.Tasks for Java ile kaynak atamaları öğreticilerimizle zahmetsizce uzmanlaşın. MS Project manipülasyonu, atama bütçeleri, maliyetler ve daha fazlasını yönetin. Kaynak atamaları hakkında daha fazla bilgi için [burada](./resource-assignments/) keşfedin.
 
-## Kaynak Yönetimi Öğreticisi
-Aspose.Tasks for Java ile MS Project'te kaynak yönetiminde uzmanlaşın. Oluşturma, yineleme, maliyet yönetimi ve daha fazlasını öğrenin. Kaynak yönetimi öğreticilerimizle geliştirmeyi optimize edin [burada](./resource-management/).
+## Resource Management Tutorial
+Aspose.Tasks for Java ile MS Project’te kaynak yönetimini ustalaştırın. Kaynak oluşturma, yineleme, maliyet yönetimi ve daha fazlasını öğrenin. Kaynak yönetimi öğreticilerimizle geliştirmeyi optimize edin; detaylar için [burada](./resource-management/) inceleyin.
 
-## Görev Temel Çizgileri Öğreticisi
-Aspose.Tasks Java ile Görev Temel Çizgileri Öğreticilerimizi keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel çizgileri oluşturun ve temel çizgi süresi yönetinde uzmanlaşın. Görev temel çizgilerini [burada](./task-baselines/) keşfedin.
+## Task Baselines Tutorial
+Aspose.Tasks Java ile Task Baselines Öğreticilerini keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel hatlarını oluşturun ve temel süre yönetimini ustalaştırın. Görev temel hatları hakkında daha fazla bilgi için [burada](./task-baselines/) öğrenin.
 
-## Görev Bağlantıları Öğreticisi
-Aspose.Tasks Java ile Görev Temel Çizgileri Öğreticilerimizi keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel çizgileri oluşturun ve temel çizgi süresi yönetiminde uzmanlaşın. Görev bağlantılarına [buradan](./task-links/) göz atın.
+## Task Links Tutorial
+Aspose.Tasks Java ile Task Baselines Öğreticilerini keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel hatlarını oluşturun ve temel süre yönetimini ustalaştırın. Görev bağlantıları hakkında daha fazla bilgi için [burada](./task-links/) inceleyin.
 
-## Görev Özellikleri Öğreticisi
-Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerin yönetiminden maliyetlerin takibine kadar görev özellikleri üzerine öğreticileri keşfedin. Projenizi bugün görev özellikleriyle optimize edin [burada](./task-properties/).
+## Task Properties Tutorial
+Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerden maliyet yönetimine kadar görev özellikleri üzerine öğreticileri keşfedin. Projenizi bugün görev özellikleriyle optimize edin; detaylar için [burada](./task-properties/) bulun.
 
-## VBA Entegrasyonu Öğreticisi
+## VBA Integration Tutorial
 Aspose.Tasks Java ile VBA entegrasyonunu keşfedin. Proje iş akışlarını sadeleştirin ve görev takibini iyileştirin. Sorunsuz VBA entegrasyonu için kapsamlı öğreticileri [burada](./vba-integration/) inceleyin.
 
-Aspose.Tasks for Java'ın tam potansiyelini detaylı öğreticilerimiz ve örneklerimizle ortaya çıkarın. İster yeni başlayan ister deneyimli bir geliştirici olun, kaynaklarımız proje yönetiminin karmaşıklıklarını zahmetsizce aşmanıza olanak tanır. Hemen başlayın ve Java projelerinizi bugün optimize edin!
+Aspose.Tasks for Java’ın tam potansiyelini ayrıntılı öğreticilerimiz ve örneklerimizle ortaya çıkarın. İster yeni başlayan, ister deneyimli bir geliştirici olun, kaynaklarımız proje yönetiminin karmaşıklıklarını zahmetsizce aşmanıza yardımcı olur. Şimdi dalın ve Java projelerinizi bugün optimize edin!
 
-## Aspose.Tasks for Java Öğreticileri
-### [Takvim İstisnaları](./calendar-exceptions/)
-Aspose.Tasks ile Java projelerinde takvim istisnalarını zahmetsizce yönetin, tanımlayın, işleyin ve alın. Verimli proje yönetimi için proje iş akışlarını sadeleştirin.
-### [Takvimler](./calendars/)
-Aspose.Tasks öğreticileriyle Java proje yönetimi becerilerinizi geliştirin. Takvim yönetiminde uzmanlaşın, hafta içi günlerini oluşturun, tanımlayın ve takvimleri kolayca güncelleyin.
-### [Para Birimi](./currency/)
-Aspose.Tasks for Java ile MS Project dosyalarında para birimi kodlarını, basamakları ve sembolleri zahmetsizce yönetin. Takip etmesi kolay öğreticilerle proje yönetimini sadeleştirin.
-### [Formüller](./formulas/)
-Aspose.Tasks for Java ile proje yönetimi becerilerinizi yükseltin. MS Project formüllerinde uzmanlaşın, verimliliği artırın ve formülleri kolayca yazıp okuyun.
-### [Proje Özellikleri](./project-properties/)
-Aspose.Tasks for Java'ın potansiyelini Proje Özellikleri Öğreticilerimizle ortaya çıkarın. Microsoft Project bilgilerini zahmetsizce çıkarın, kullanın ve manipüle edin.
-### [Para Birimi Özellikleri](./currency-properties/)
-Aspose.Tasks for Java Öğreticileriyle gücü ortaya çıkarın. MS Project dosyalarında para birimi özelliklerini okuma ve ayarlama konusunda adım adım rehberler keşfedin.
-### [Proje Yapılandırma](./project-configuration/)
-Kapsamlı öğreticilerimizle Aspose.Tasks for Java'ıncünü keşfedin. Gantt şemalarını yapılandırın, MS Project dosyaları oluşturun ve proje yönetimini sadeleştirin.
-### [Proje Yönetimi](./project-management/)
-Kapsamlı proje yönetimi öğreticilerimizle Aspose.Tasks Java'yı keşfedin. Kritik yol hesaplamalarından mali yıl özelliklerine kadar iş akışınızı sadeleştirin.
-### [Proje Veri Okuma](./project-data-reading/)
-Aspose.Tasks for Java'ın gücünü öğreticilerimizle ortaya çıkarın! Grup tanımlarını okumaktan Gantt şeması verilerini çıkarmaya kadar sorunsuz entegrasyonu öğrenin.
-### [Proje Dosyası İşlemleri](./project-file-operations/)
-Aspose.Tasks for Java ile MS Project düzenlerini zahmetsizce optimize edin. Boşlukları azaltma, veri işleme, takvim değiştirme ve daha fazlası konularında adım adım öğreticileri öğrenin.
-### [Kaynak Atamaları](./resource-assignments/)
-Kaynak atamaları öğreticilerimizle Aspose.Tasks for Java'ı zahmetsizce öğrenin. MS Project manipülasyonu, atama bütçeleri, maliyetler ve daha fazlasını yönetin.
-### [Kaynak Yönetimi](./resource-management/)
-Aspose.Tasks for Java ile MS Project'te kaynak yönetiminde uzmanlaşın. Oluşturma, yineleme, maliyet yönetimi ve daha fazlasını öğrenin. Öğreticilerimizle geliştirmeyi optimize edin.
-### [Görev Temel Çizgileri](./task-baselines/)
-Aspose.Tasks Java ile Görev Temel Çizgileri Öğreticilerimizi keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel çizgileri oluşturun ve temel çizgi süresi yönetiminde uzmanlaşın.
-### [Görev Bağlantıları](./task-links/)
-Aspose.Tasks Java ile Görev Temel Çizgileri Öğreticilerimizi keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel çizgileri oluşturun ve temel çizgi süresi yönetiminde uzmanlaşın.
-### [Görev Özellikleri](./task-properties/)
-Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerin yönetiminden maliyetlerin takibine kadar görev özellikleri üzerine öğreticileri keşfedin. Projenizi bugün optimize edin!
-### [VBA Entegrasyonu](./vba-integration/)
+## Aspose.Tasks for Java Tutorials
+### [Calendar Exceptions](./calendar-exceptions/)
+Aspose.Tasks ile Java projelerinde takvim istisnalarını zahmetsizce yönetin, tanımlayın, işleyin ve alın. Verimli proje yönetimi için iş akışlarını sadeleştirin.
+### [Calendars](./calendars/)
+Aspose.Tasks öğreticileriyle Java proje yönetimi becerilerinizi geliştirin. Takvim yönetimini ustalaşın, haftaiçi günlerini oluşturun, tanımlayın ve takvimleri kolayca güncelleyin.
+### [Currency](./currency/)
+Aspose.Tasks for Java ile MS Project dosyalarında para birimi kodlarını, basamak sayılarını ve sembolleri zahmetsizce yönetin. Kolay‑takip öğreticilerimizle proje yönetimini hızlandırın.
+### [Formulas](./formulas/)
+Aspose.Tasks for Java ile proje yönetimi becerilerinizi yükseltin. MS Project formüllerini ustalaşın, verimliliği artırın ve formülleri kolayca yazıp okuyun.
+### [Project Properties](./project-properties/)
+Aspose.Tasks for Java’ın Project Properties Öğreticileriyle potansiyelinizi açığa çıkarın. Microsoft Project bilgilerini zahmetsizce çıkarın, kullanın ve manipüle edin.
+### [Currency Properties](./currency-properties/)
+Aspose.Tasks for Java Öğreticileriyle gücünüzü artırın. MS Project dosyalarında para birimi özelliklerini okuma ve ayarlama konusunda adım‑adım rehberler keşfedin.
+### [Project Configuration](./project-configuration/)
+Aspose.Tasks for Java’ın kapsamlı öğreticileriyle gücünü keşfedin. Gantt şemalarını yapılandırın, MS Project dosyaları oluşturun ve proje yönetimini sadeleştirin.
+### [Project Management](./project-management/)
+Aspose.Tasks Java ile kapsamlı proje yönetimi öğreticilerimizi keşfedin. Kritik yol hesaplamalarından mali yıl özelliklerine kadar iş akışınızı sadeleştirin.
+### [Project Data Reading](./project-data-reading/)
+Aspose.Tasks for Java’ın öğreticileriyle gücünüzü açığa çıkarın! Grup tanımlarını okumaktan Gantt şeması verilerini çıkarmaya kadar sorunsuz entegrasyonu ustalaşın.
+### [Project File Operations](./project-file-operations/)
+Aspose.Tasks for Java ile MS Project düzenlerini zahmetsizce optimize edin. Boşlukları azaltma, veri renderleme, takvim değiştirme ve daha fazlası üzerine adım‑adım öğreticiler öğrenin.
+### [Resource Assignments](./resource-assignments/)
+Aspose.Tasks for Java ile kaynak atamaları öğreticilerimizle zahmetsizce uzmanlaşın. MS Project manipülasyonu, atama bütçeleri, maliyetler ve daha fazlasını yönetin.
+### [Resource Management](./resource-management/)
+Aspose.Tasks for Java ile MS Project’te kaynak yönetimini ustalaştırın. Kaynak oluşturma, yineleme, maliyet yönetimi ve daha fazlasını öğrenin. Geliştirmeyi optimize edin.
+### [Task Baselines](./task-baselines/)
+Aspose.Tasks Java ile Task Baselines Öğreticilerini keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel hatlarını oluşturun ve temel süre yönetimini ustalaştırın.
+### [Task Links](./task-links/)
+Aspose.Tasks Java ile Task Baselines Öğreticilerini keşfedin. Görev zamanlamasını sadeleştirin, MS Project görev temel hatlarını oluşturun ve temel süre yönetimini ustalaştırın.
+### [Task Properties](./task-properties/)
+Aspose.Tasks ile Java proje yönetimini geliştirin. Önceliklerden maliyet yönetimine kadar görev özellikleri üzerine öğreticileri keşfedin.
+### [VBA Integration](./vba-integration/)
 Aspose.Tasks Java ile VBA entegrasyonunu keşfedin. Proje iş akışlarını sadeleştirin ve görev takibini iyileştirin. Sorunsuz VBA entegrasyonu için kapsamlı öğreticileri inceleyin!
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**Q: Aspose.Tasks for Java'ı ticari bir uygulamada kullanabilir miyim?**  
-A: Evet, geçerli bir Aspose lisansı ile ticari olarak kullanabilirsiniz. Değerlendirme için ücretsiz bir deneme mevcuttur.
+**S: Aspose.Tasks for Java’ı ticari bir uygulamada kullanabilir miyim?**  
+C: Evet, geçerli bir Aspose lisansı ile ticari olarak kullanabilirsiniz. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
 
-**Q: Hangi Java sürümleri destekleniyor?**  
-A: Aspose.Tasks for Java, Java 8, 11 ve daha yeni sürümleri destekler.
+**S: Hangi Java sürümleri destekleniyor?**  
+C: Aspose.Tasks for Java, Java 8, 11 ve daha yeni sürümleri destekler.
 
-**Q: Takvim istisnasını programlı olarak nasıl eklerim?**  
-A: `Calendar` sınıfını kullanarak bir `Exception` nesnesi oluşturun, başlangıç/bitiş tarihlerini ayarlayın ve projeye ait takvim koleksiyonuna ekleyin.
+**S: Takvim istisnasını programlı olarak nasıl eklerim?**  
+C: `Calendar` sınıfını kullanarak bir `Exception` nesnesi oluşturun, başlangıç/bitiş tarihlerini ayarlayın ve projeye ait takvim koleksiyonuna ekleyin.
 
-**Q: Gantt şeması çubuk stillerini kod ile özelleştirmek mümkün mü?**  
-A: Kesinlikle—Aspose.Tasks, çubuk renklerini, desenlerini ve diğer görsel özellikleri ayarlayabileceğiniz `GanttChartView` nesnesini sağlar.
+**S: Gantt şeması çubuk stillerini kod üzerinden özelleştirmek mümkün mü?**  
+C: Kesinlikle—Aspose.Tasks, çubuk renklerini, desenlerini ve diğer görsel özellikleri ayarlayabileceğiniz `GanttChartView` nesnesini sağlar.
 
-**Q: En son API belgelerini nerede bulabilirim?**  
-A: Resmi dokümantasyon, Aspose web sitesinde Aspose.Tasks for Java bölümünde barındırılmaktadır.
+**S: En güncel API belgelerini nerede bulabilirim?**  
+C: Resmi dokümantasyon, Aspose web sitesinde Aspose.Tasks for Java bölümü altında yayınlanmaktadır.
 
 ---
 
-**Last Updated:** 2025-12-02  
-**Tested With:** Aspose.Tasks for Java 24.12 (yazım zamanındaki en son sürüm)  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-05  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım zamanı en yeni)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -144,5 +153,3 @@ A: Resmi dokümantasyon, Aspose web sitesinde Aspose.Tasks for Java bölümünde
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
