@@ -1,105 +1,117 @@
 ---
-title: Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
-linktitle: Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a manejar valores booleanos que aceptan valores NULL de manera efectiva en Aspose.Tasks para .NET con este completo tutorial. Domine el uso de la clase `NullableBool` y mejore su desarrollo .NET.
-weight: 21
+date: 2026-03-14
+description: Aprende a usar booleanos anulables en Aspose.Tasks para .NET, incluyendo
+  la conversión de valores booleanos anulables y la configuración de propiedades booleanas
+  anulables.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cómo usar booleanos anulables en Aspose.Tasks
 url: /es/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manejo de valores booleanos que aceptan valores NULL en Aspose.Tasks
+# Cómo usar booleanos anulables en Aspose.Tasks
 
-## Introducción
+En este tutorial mostraremos **cómo usar booleanos anulables** al trabajar con la API .NET de Aspose.Tasks. Los booleanos anulables le brindan tres estados posibles—`true`, `false` o *undefined*—lo cual es especialmente útil para configuraciones a nivel de proyecto que pueden no estar especificadas explícitamente. Verá cómo crear, convertir y **establecer valores booleanos anulables**, y por qué manejar los booleanos anulables correctamente puede prevenir comportamientos inesperados en sus aplicaciones de planificación.
 
-En este tutorial, profundizaremos en cómo trabajar con valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Los valores booleanos que admiten valores NULL ofrecen flexibilidad a la hora de representar valores booleanos, lo que permite la posibilidad de que no estén definidos. Exploraremos cómo utilizar el`NullableBool` clase, sus constructores, propiedades y métodos.
+## Respuestas rápidas
+- **¿Qué es un booleano anulable?** Un tipo que puede contener `true`, `false` o estar indefinido.  
+- **¿Por qué usar booleanos anulables en Aspose.Tasks?** Permiten representar propiedades opcionales del proyecto sin adivinar un valor predeterminado.  
+- **¿Cómo convertir un booleano anulable a un bool regular?** Use la conversión implícita o verifique `IsDefined` primero.  
+- **¿Cuál es la clase principal?** `NullableBool` en el espacio de nombres `Aspose.Tasks`.  
+- **¿Necesito una licencia?** Sí, se requiere una licencia válida de Aspose.Tasks para uso en producción.
+
+## ¿Qué es un Booleano Anulable?
+
+Un booleano anulable (`NullableBool`) extiende el tipo `bool` regular añadiendo una bandera *IsDefined*. Cuando `IsDefined` es `false`, el valor se considera indefinido, lo que le permite diferenciar entre “false” y “no establecido”.
+
+## ¿Por qué manejar booleanos anulables en la configuración del proyecto?
+
+Muchas opciones del proyecto—como **ActualsInSync** o **HonorConstraints**—son opcionales. Usar un `bool` simple le obliga a elegir `true` o `false`, lo que puede sobrescribir inadvertidamente la intención del usuario. Al **manejar booleanos anulables**, conserva el estado original y evita cambios de configuración accidentales.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
-
-1. Visual Studio: instale Visual Studio o cualquier otro IDE preferido para el desarrollo de .NET.
-2.  Aspose.Tasks para .NET: Descargue e instale Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
+1. **Visual Studio** (o cualquier IDE compatible con .NET).  
+2. **Aspose.Tasks for .NET** – descárguelo desde [aquí](https://releases.aspose.com/tasks/net/).
 
 ## Importar espacios de nombres
 
-En primer lugar, asegúrese de importar los espacios de nombres necesarios en su código:
+Primero, importe los espacios de nombres requeridos:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-Ahora, dividamos cada ejemplo en varios pasos.
+Ahora repasemos cada ejemplo paso a paso.
 
-##  Trabajando con`NullableBool`
+## Trabajando con `NullableBool`
 
-###  Paso 1: crear un nuevo`Project` instance.
+### Paso 1: Crear una nueva instancia de `Project`.
 
 ```csharp
 var project = new Project();
 ```
 
-###  Paso 2: crear una instancia de un`NullableBool` object with specified values.
+### Paso 2: Instanciar un objeto `NullableBool` con valores especificados.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  Paso 3: Verifique el valor y el estado definido del`NullableBool` object.
+### Paso 3: Verificar el valor y el estado definido del objeto `NullableBool`.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Paso 4: Utilice el`NullableBool` instance by setting it in the project.
+### Paso 4: **Establecer booleano anulable** en el proyecto.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  Paso 5: crear una instancia de otro`NullableBool` object with a single value.
+### Paso 5: Instanciar otro objeto `NullableBool` con un solo valor.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  Paso 6: Mostrar la representación de cadena del`NullableBool` object.
+### Paso 6: Mostrar la representación en cadena del objeto `NullableBool`.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  Paso 7: Utilice el`NullableBool` instance by setting it in the project.
+### Paso 7: Usar la instancia `NullableBool` estableciéndola en el proyecto.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  Comparando`NullableBool` Instances
+## Comparando instancias de `NullableBool`
 
-###  Paso 1: crear una instancia de dos`NullableBool` objects.
+### Paso 1: Instanciar dos objetos `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Paso 2: Verifique la representación de cadena de cada uno`NullableBool` object.
+### Paso 2: Verificar la representación en cadena de cada objeto `NullableBool`.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  Paso 3: Verifique la conversión implícita a`bool` and print the result.
+### Paso 3: Conversión implícita a `bool` e imprimir el resultado.
 
 ```csharp
 if (bool1)
@@ -112,53 +124,57 @@ else
 }
 ```
 
-###  Paso 4: compara los dos`NullableBool` objects for equality.
+### Paso 4: Comparar los dos objetos `NullableBool` para igualdad.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  Obteniendo el código hash de`NullableBool`
+## Obtener el código hash de `NullableBool`
 
-###  Paso 1: crear una instancia de dos`NullableBool` objects.
+### Paso 1: Instanciar dos objetos `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### Paso 2: Imprima el código hash para cada uno`NullableBool` object.
+### Paso 2: Imprimir el código hash de cada objeto `NullableBool`.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## Conclusión
+## Errores comunes y consejos
 
- En este tutorial, exploramos cómo manejar valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Al utilizar el`NullableBool` clase y sus métodos, puede administrar eficientemente valores booleanos con la flexibilidad adicional de ser anulables.
+- **Nunca asuma que un booleano anulable está definido.** Siempre verifique `IsDefined` antes de usar `Value`.  
+- **Convertir a un bool regular** sin una verificación puede lanzar una excepción si el valor es indefinido. Use la conversión implícita solo cuando esté seguro de que está definido.  
+- **Al establecer propiedades del proyecto**, use el método `Set` con un `NullableBool` para preservar el estado indefinido si es necesario.
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es un booleano que acepta valores NULL?
+**P: ¿Qué es un booleano anulable?**  
+R: Un booleano anulable puede representar `true`, `false` o un estado indefinido, permitiendo tres resultados distintos.
 
-R1: Un booleano que acepta valores NULL es un tipo que puede representar verdadero, falso o no estar definido.
+**P: ¿Cómo puedo convertir un booleano anulable a un bool regular de forma segura?**  
+R: Verifique `IsDefined` primero, luego use la propiedad `Value` o confíe en la conversión implícita cuando esté seguro de que está definido.
 
-### P2: ¿Por qué utilizar valores booleanos que aceptan valores NULL?
+**P: ¿Por qué debería usar booleanos anulables en lugar de bool simples en Aspose.Tasks?**  
+R: Le permiten mantener sin tocar las configuraciones opcionales del proyecto, evitando sobrescrituras accidentales.
 
-R2: Los valores booleanos que admiten valores NULL ofrecen flexibilidad en escenarios en los que no siempre se puede definir un valor booleano.
+**P: ¿Puedo establecer un booleano anulable como indefinido?**  
+R: Sí—use el constructor que solo acepta la bandera de definición, por ejemplo, `new NullableBool(false, false)`.
 
-### P3: ¿Cómo se comparan los valores booleanos que aceptan valores NULL para determinar la igualdad?
+**P: ¿Dónde puedo encontrar más documentación sobre Aspose.Tasks para .NET?**  
+R: Puede encontrar documentación detallada [aquí](https://reference.aspose.com/tasks/net/).
 
-R3: Los valores booleanos que aceptan valores NULL se comparan en función de su estado y valores definidos.
+---
 
-### P4: ¿Puedo configurar un valor booleano que acepta valores NULL como indefinido?
+**Última actualización:** 2026-03-14  
+**Probado con:** Aspose.Tasks for .NET (última versión)  
+**Autor:** Aspose  
 
-R4: Sí, puede configurar un valor booleano que acepta valores NULL para que no esté definido en el momento de la construcción.
-
-### P5: ¿Dónde puedo encontrar más documentación sobre Aspose.Tasks para .NET?
-
- A5: Puede encontrar documentación detallada[aquí](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

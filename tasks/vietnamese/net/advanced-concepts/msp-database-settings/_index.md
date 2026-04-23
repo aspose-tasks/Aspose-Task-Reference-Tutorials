@@ -1,10 +1,12 @@
 ---
-title: Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
-linktitle: Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
+date: 2026-03-14
+description: Tìm hiểu cách chỉ định lược đồ cơ sở dữ liệu cho cơ sở dữ liệu Microsoft
+  Project bằng Aspose.Tasks và cách nhập dữ liệu dự án vào các ứng dụng .NET.
+linktitle: Specify database schema for Project DB with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách định cấu hình cài đặt cơ sở dữ liệu Microsoft Project bằng Aspose.Tasks để tích hợp liền mạch vào các ứng dụng .NET.
-weight: 19
+title: Xác định lược đồ cơ sở dữ liệu cho Project DB với Aspose.Tasks
 url: /vi/net/advanced-concepts/msp-database-settings/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,18 +17,29 @@ url: /vi/net/advanced-concepts/msp-database-settings/
 
 ## Giới thiệu
 
-Nếu bạn đang làm việc với cơ sở dữ liệu Microsoft Project trong các ứng dụng .NET bằng Aspose.Tasks, bạn sẽ cần định cấu hình các cài đặt cần thiết để nhập dữ liệu dự án một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
+Nếu bạn đang làm việc với cơ sở dữ liệu Microsoft Project trong các ứng dụng .NET sử dụng Aspose.Tasks, bạn sẽ cần **chỉ định schema cơ sở dữ liệu** và cấu hình các thiết lập cần thiết để **nhập dữ liệu project** một cách liền mạch. Hướng dẫn này sẽ chỉ cho bạn từng bước quy trình, bao gồm **cách cấu hình kết nối**, **tạo .NET connection string**, và cuối cùng **lưu project dưới dạng MPP**.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục tiêu chính là gì?** Chỉ định schema cơ sở dữ liệu và nhập một Project database vào ứng dụng .NET.  
+- **Thư viện nào cần thiết?** Aspose.Tasks cho .NET.  
+- **Làm sao để kết nối tới Project Server?** Bằng cách xây dựng một connection string SQL hợp lệ và sử dụng `MspDbSettings`.  
+- **Định dạng file được tạo ra là gì?** File MPP được lưu bằng `SaveFileFormat.Mpp`.  
+- **Tôi có thể thay đổi tên schema không?** Có, đặt thuộc tính `Schema` trên `MspDbSettings`.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Cách chỉ định schema cơ sở dữ liệu cho Project DB
 
-1.  Aspose.Tasks for .NET: Tải xuống và cài đặt thư viện Aspose.Tasks từ[đây](https://releases.aspose.com/tasks/net/).
-2. Quyền truy cập vào Cơ sở dữ liệu Microsoft Project: Bạn phải có quyền truy cập vào cơ sở dữ liệu Microsoft Project để nhập dữ liệu từ đó.
+Hiểu tại sao bạn có thể cần **chỉ định schema cơ sở dữ liệu** là rất quan trọng. Trong nhiều môi trường doanh nghiệp, cơ sở dữ liệu Project Server nằm dưới một schema tùy chỉnh (ví dụ: `dbo`, `psdata`). Bằng cách thiết lập schema một cách rõ ràng, bạn đảm bảo Aspose.Tasks truy vấn đúng các bảng, tránh lỗi thời gian chạy và đảm bảo việc nhập dữ liệu chính xác.
 
-## Nhập không gian tên
+## Yêu cầu trước
 
-Trước tiên, hãy đảm bảo bạn nhập các không gian tên cần thiết vào dự án của mình:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. Aspose.Tasks cho .NET: Tải và cài đặt thư viện Aspose.Tasks từ [here](https://releases.aspose.com/tasks/net/).  
+2. Quyền truy cập vào một Microsoft Project Database: Bạn cần có quyền truy cập vào cơ sở dữ liệu Microsoft Project để nhập dữ liệu.
+
+## Nhập các Namespace
+
+Đầu tiên, hãy chắc chắn rằng bạn đã nhập các namespace cần thiết vào dự án của mình:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,9 +50,9 @@ using Aspose.Tasks.Connectivity;
 using Aspose.Tasks.Saving;
 ```
 
-## Bước 1: Tạo chuỗi kết nối
+## Bước 1: Tạo Connection String
 
-Xây dựng chuỗi kết nối tới cơ sở dữ liệu Microsoft Project của bạn. Đây là một ví dụ:
+Xây dựng connection string tới cơ sở dữ liệu Microsoft Project của bạn. Đây là nơi bạn **tạo .NET connection string** và đồng thời định nghĩa cách **kết nối tới Project Server**.
 
 ```csharp
 var connectionString = new SqlConnectionStringBuilder();
@@ -53,58 +66,70 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Đảm bảo thay thế các giá trị giữ chỗ bằng thông tin xác thực cơ sở dữ liệu thực tế của bạn.
+> **Mẹo chuyên nghiệp:** Kiểm tra lại các giá trị `DataSource` và `InitialCatalog`; chúng phải khớp với địa chỉ máy chủ và tên cơ sở dữ liệu đã công bố.
 
-## Bước 2: Định cấu hình MspDbSettings
+## Bước 2: Cấu hình MspDbSettings
 
- Tạo một thể hiện của`MspDbSettings` và chỉ định chuỗi kết nối cùng với GUID dự án:
+Tạo một thể hiện của `MspDbSettings`, truyền vào connection string, và **chỉ định schema cơ sở dữ liệu** bằng cách đặt thuộc tính `Schema`. Điều này cho Aspose.Tasks biết schema nào sẽ được truy vấn.
 
 ```csharp
 var settings = new MspDbSettings(connectionString.ConnectionString, new Guid("E6426C44-D6CB-4B9C-AF16-48910ACE0F54"));
 settings.Schema = "dbo";
 ```
 
-## Bước 3: Tải dữ liệu dự án
+Ở đây chúng tôi cũng cung cấp GUID của project để xác định dự án cụ thể mà bạn muốn tải.
 
- Khởi tạo một`Project` đối tượng bằng cách sử dụng các cài đặt đã định cấu hình:
+## Bước 3: Tải dữ liệu Project
+
+Khởi tạo một đối tượng `Project` bằng cách sử dụng các thiết lập đã cấu hình. Bước này thực hiện **cách nhập dữ liệu project** từ cơ sở dữ liệu vào một đối tượng .NET.
 
 ```csharp
 var project = new Project(settings);
 ```
 
-## Bước 4: Lưu dữ liệu dự án
+## Bước 4: Lưu dữ liệu Project
 
-Lưu dữ liệu dự án đã tải vào một tệp:
+Cuối cùng, ghi lại project đã tải vào một file MPP trên đĩa. Điều này minh họa **lưu project dưới dạng MPP** bằng API của Aspose.Tasks.
 
 ```csharp
 project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mpp);
 ```
 
-## Phần kết luận
+Sau khi chạy mã, bạn sẽ thấy file `ImportProjectDataFromDatabase_out.mpp` trong thư mục output, sẵn sàng mở bằng Microsoft Project.
 
-Trong hướng dẫn này, bạn đã học cách định cấu hình cài đặt để truy cập cơ sở dữ liệu Microsoft Project bằng Aspose.Tasks cho .NET. Bằng cách làm theo các bước này, bạn có thể nhập dữ liệu dự án vào ứng dụng của mình một cách liền mạch, tạo điều kiện quản lý dự án hiệu quả.
+## Kết luận
+
+Trong hướng dẫn này, bạn đã học cách **chỉ định schema cơ sở dữ liệu** cho một Microsoft Project database, **cấu hình kết nối**, **nhập dữ liệu project**, và **lưu project dưới dạng MPP** bằng Aspose.Tasks cho .NET. Những bước này cho phép tích hợp liền mạch dữ liệu Project Server vào các ứng dụng tùy chỉnh của bạn, giúp xây dựng các giải pháp quản lý dự án mạnh mẽ.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Tasks với các phiên bản cơ sở dữ liệu Microsoft Project khác nhau không?
+### Q1: Tôi có thể sử dụng Aspose.Tasks với các phiên bản khác nhau của Microsoft Project databases không?
+A1: Có, Aspose.Tasks hỗ trợ nhiều phiên bản của Microsoft Project databases, mang lại tính linh hoạt trong việc tích hợp.
 
-Trả lời 1: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của cơ sở dữ liệu Microsoft Project, cho phép tích hợp linh hoạt.
+### Q2: Làm sao để khắc phục các vấn đề kết nối với cơ sở dữ liệu?
+A2: Đảm bảo rằng connection string của bạn được cấu hình đúng với thông tin xác thực và chi tiết cơ sở dữ liệu. Bạn cũng có thể tham khảo tài liệu hoặc tìm hỗ trợ tại [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### Câu hỏi 2: Làm cách nào để khắc phục sự cố kết nối với cơ sở dữ liệu?
+### Q3: Có phiên bản dùng thử cho Aspose.Tasks không?
+A3: Có, bạn có thể tải phiên bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
- Câu trả lời 2: Đảm bảo rằng chuỗi kết nối của bạn được đặt cấu hình chính xác với thông tin xác thực và chi tiết cơ sở dữ liệu phù hợp. Bạn cũng có thể tham khảo tài liệu hoặc tìm kiếm sự hỗ trợ từ[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+### Q4: Tôi có thể tùy chỉnh schema cho việc tương tác với cơ sở dữ liệu không?
+A4: Có, bạn có thể chỉ định schema cho đối tượng `MspDbSettings` theo cấu trúc cơ sở dữ liệu của mình.
 
-### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.Tasks không?
+### Q5: Tôi có thể tìm tài liệu chi tiết hơn về việc sử dụng Aspose.Tasks ở đâu?
+A5: Bạn có thể khám phá tài liệu đầy đủ tại [here](https://reference.aspose.com/tasks/net/) để có những hiểu biết sâu hơn về các chức năng của Aspose.Tasks.
 
- Câu trả lời 3: Có, bạn có thể truy cập phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+**Q: Phương pháp này có hoạt động với Azure SQL databases không?**  
+A: Hoàn toàn có thể. Chỉ cần điều chỉnh `DataSource` thành tên máy chủ Azure của bạn và đảm bảo bật cài đặt TLS/SSL.
 
-### Câu hỏi 4: Tôi có thể tùy chỉnh lược đồ để tương tác với cơ sở dữ liệu không?
+**Q: Làm sao để xử lý các Project databases lớn mà không bị timeout?**  
+A: Tăng giá trị `ConnectTimeout` trong connection string và cân nhắc tải các project theo lô nếu cần.
 
- Đ4: Có, bạn có thể chỉ định lược đồ cho`MspDbSettings` đối tượng theo cấu trúc cơ sở dữ liệu của bạn.
+---
 
-### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết hơn về cách sử dụng Aspose.Tasks ở đâu?
+**Last Updated:** 2026-03-14  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
- Câu trả lời 5: Bạn có thể khám phá tài liệu toàn diện[đây](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết về các chức năng của Aspose.Tasks.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

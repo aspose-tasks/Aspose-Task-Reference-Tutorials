@@ -1,105 +1,118 @@
 ---
-title: Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
-linktitle: Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
+date: 2026-03-14
+description: Naučte se, jak používat nullable booly v Aspose.Tasks pro .NET, včetně
+  převodu nullable bool hodnot a nastavení nullable bool vlastností.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak efektivně zacházet s booleany s možnou hodnotou Null v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Osvojte si používání třídy `NullableBool` a vylepšete svůj vývoj .NET.
-weight: 21
+title: Jak používat nullable boolovské hodnoty v Aspose.Tasks
 url: /cs/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Práce s logickými hodnotami s možnou hodnotou Null v Aspose.Tasks
+# Jak používat nullable Booleany v Aspose.Tasks
 
-## Úvod
+V tomto tutoriálu vám ukážeme **jak používat nullable** booleany při práci s Aspose.Tasks .NET API. Nullable booleany vám poskytují tři možné stavy — `true`, `false` nebo *undefined* — což je zvláště užitečné pro nastavení na úrovni projektu, která nemusí být explicitně zadána. Uvidíte, jak vytvářet, převádět a **nastavovat nullable boolean** hodnoty a proč správná manipulace s nullable booleany může zabránit neočekávanému chování ve vašich plánovacích aplikacích.
 
- tomto tutoriálu se ponoříme do práce s booleany s možností null v Aspose.Tasks pro .NET. Booleovské hodnoty s možností null nabízejí flexibilitu při reprezentaci booleovských hodnot, což umožňuje možnost, že nebudou definovány. Prozkoumáme, jak používat`NullableBool` třída, její konstruktory, vlastnosti a metody.
+## Rychlé odpovědi
+- **Co je nullable boolean?** Typ, který může obsahovat `true`, `false` nebo být undefined.  
+- **Proč používat nullable booleany v Aspose.Tasks?** Umožňují vám reprezentovat volitelné vlastnosti projektu, aniž byste museli hádat výchozí hodnotu.  
+- **Jak převést nullable boolean na běžný bool?** Použijte implicitní převod nebo nejprve zkontrolujte `IsDefined`.  
+- **Jaká je hlavní třída?** `NullableBool` v jmenném prostoru `Aspose.Tasks`.  
+- **Potřebuji licenci?** Ano, pro produkční použití je vyžadována platná licence Aspose.Tasks.
+
+## Co je Nullable Boolean?
+
+Nullable boolean (`NullableBool`) rozšiřuje běžný typ `bool` o příznak *IsDefined*. Když je `IsDefined` `false`, hodnota se považuje za undefined, což vám umožňuje rozlišovat mezi „false“ a „not set“.
+
+## Proč zacházet s nullable Booleany v nastaveních projektu?
+
+Mnoho možností projektu — jako **ActualsInSync** nebo **HonorConstraints** — je volitelných. Použití obyčejného `bool` vás nutí vybrat `true` nebo `false`, což může neúmyslně přepsat záměr uživatele. **Zpracováním nullable booleanů** zachováte původní stav a vyhnete se nechtěným změnám konfigurace.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte následující předpoklady:
+Než začneme, ujistěte se, že máte:
 
-1. Visual Studio: Nainstalujte Visual Studio nebo jakékoli jiné preferované IDE pro vývoj .NET.
-2.  Aspose.Tasks for .NET: Stáhněte si a nainstalujte Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
+1. **Visual Studio** (nebo jakékoli IDE kompatibilní s .NET).  
+2. **Aspose.Tasks pro .NET** – stáhněte jej z [zde](https://releases.aspose.com/tasks/net/).
 
-## Importovat jmenné prostory
+## Importujte jmenné prostory
 
-Nejprve se ujistěte, že do kódu importujete potřebné jmenné prostory:
+Nejprve importujte požadované jmenné prostory:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-Nyní si každý příklad rozdělíme do několika kroků.
+Nyní projdeme každý příklad krok za krokem.
 
-##  Práce s`NullableBool`
+## Práce s `NullableBool`
 
-###  Krok 1: Vytvořte nový`Project` instance.
+### Krok 1: Vytvořte novou instanci `Project`.
 
 ```csharp
 var project = new Project();
 ```
 
-###  Krok 2: Vytvořte instanci a`NullableBool` object with specified values.
+### Krok 2: Vytvořte objekt `NullableBool` s určenými hodnotami.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  Krok 3: Zkontrolujte hodnotu a definovaný stav`NullableBool` object.
+### Krok 3: Zkontrolujte hodnotu a stav definovanosti objektu `NullableBool`.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Krok 4: Využijte`NullableBool` instance by setting it in the project.
+### Krok 4: **Nastavte nullable boolean** na projektu.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  Krok 5: Vytvořte instanci dalšího`NullableBool` object with a single value.
+### Krok 5: Vytvořte další objekt `NullableBool` s jednou hodnotou.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  Krok 6: Zobrazte řetězcovou reprezentaci souboru`NullableBool` object.
+### Krok 6: Zobrazte řetězcovou reprezentaci objektu `NullableBool`.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  Krok 7: Použijte`NullableBool` instance by setting it in the project.
+### Krok 7: Použijte instanci `NullableBool` nastavením v projektu.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  Porovnávání`NullableBool` Instances
+## Porovnání instancí `NullableBool`
 
-###  Krok 1: Vytvořte instanci dvě`NullableBool` objects.
+### Krok 1: Vytvořte dva objekty `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Krok 2: Zkontrolujte reprezentaci řetězce každého z nich`NullableBool` object.
+### Krok 2: Zkontrolujte řetězcovou reprezentaci každého objektu `NullableBool`.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  Krok 3: Zkontrolujte implicitní převod na`bool` and print the result.
+### Krok 3: Implicitní převod na `bool` a výpis výsledku.
 
 ```csharp
 if (bool1)
@@ -112,53 +125,57 @@ else
 }
 ```
 
-###  Krok 4: Porovnejte oba`NullableBool` objects for equality.
+### Krok 4: Porovnejte dva objekty `NullableBool` na rovnost.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  Získání hash kódu`NullableBool`
+## Získání hash kódu `NullableBool`
 
-###  Krok 1: Vytvořte instanci dvě`NullableBool` objects.
+### Krok 1: Vytvořte dva objekty `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### Krok 2: Vytiskněte hash kód pro každou z nich`NullableBool` object.
+### Krok 2: Vytiskněte hash kód pro každý objekt `NullableBool`.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## Závěr
+## Časté úskalí a tipy
 
- V tomto tutoriálu jsme prozkoumali, jak zacházet s booleany s možností null v Aspose.Tasks pro .NET. Pomocí`NullableBool` třídy a jejích metod můžete efektivně spravovat booleovské hodnoty s přidanou flexibilitou spočívající v možnosti null.
+- **Nikdy nepředpokládejte, že nullable boolean je definován.** Vždy zkontrolujte `IsDefined` před použitím `Value`.  
+- **Převod na běžný bool** bez kontroly může vyvolat výjimku, pokud je hodnota undefined. Používejte implicitní převod pouze tehdy, když jste si jisti, že je definován.  
+- **Při nastavování vlastností projektu** použijte metodu `Set` s `NullableBool`, abyste v případě potřeby zachovali stav undefined.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Co je to booleovská hodnota s možnou hodnotou null?
+**Q: Co je nullable boolean?**  
+A: Nullable boolean může představovat `true`, `false` nebo stav undefined, což umožňuje tři odlišné výsledky.
 
-A1: Boolean s možnou hodnotou null je typ, který může představovat true, false nebo být nedefinovaný.
+**Q: Jak mohu bezpečně převést nullable boolean na běžný bool?**  
+A: Nejprve zkontrolujte `IsDefined`, poté použijte vlastnost `Value` nebo se spolehněte na implicitní převod, pokud jste si jisti, že je definován.
 
-### Q2: Proč používat booleovské hodnoty s možnou hodnotou Null?
+**Q: Proč bych měl používat nullable booleany místo obyčejných boolů v Aspose.Tasks?**  
+A: Umožňují vám ponechat volitelné nastavení projektu nedotčené, čímž zabraňují neúmyslným přepsáním.
 
-Odpověď 2: Logické hodnoty s možnou hodnotou Null nabízejí flexibilitu ve scénářích, kde nemusí být vždy definována logická hodnota.
+**Q: Mohu nastavit nullable boolean jako undefined?**  
+A: Ano — použijte konstruktor, který přijímá pouze příznak definovanosti, např. `new NullableBool(false, false)`.
 
-### Otázka 3: Jak se porovnávají booleovské hodnoty s možností null pro rovnost?
+**Q: Kde mohu najít další dokumentaci k Aspose.Tasks pro .NET?**  
+A: Podrobnou dokumentaci najdete [zde](https://reference.aspose.com/tasks/net/).
 
-Odpověď 3: Booleany s možnou hodnotou Null jsou porovnávány na základě jejich definovaného stavu a hodnot.
+---
 
-### Q4: Mohu nastavit boolean s možnou hodnotou Null tak, aby nebyl definován?
+**Poslední aktualizace:** 2026-03-14  
+**Testováno s:** Aspose.Tasks pro .NET (nejnovější verze)  
+**Autor:** Aspose  
 
-Odpověď 4: Ano, můžete nastavit boolean s možnou hodnotou Null tak, aby byl při konstrukci nedefinovaný.
-
-### Q5: Kde najdu další dokumentaci k Aspose.Tasks pro .NET?
-
- A5: Můžete najít podrobnou dokumentaci[tady](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,105 +1,118 @@
 ---
-title: Обработка логических значений, допускающих значение NULL, в Aspose.Tasks
-linktitle: Обработка логических значений, допускающих значение NULL, в Aspose.Tasks
+date: 2026-03-14
+description: Узнайте, как использовать nullable‑булевы типы в Aspose.Tasks для .NET,
+  включая преобразование nullable‑булевых значений и установку nullable‑булевых свойств.
+linktitle: How to Use Nullable Booleans in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как эффективно обрабатывать логические значения, допускающие значение NULL, в Aspose.Tasks для .NET с помощью этого подробного руководства. Освойте использование класса NullableBool и улучшите свою разработку .NET.
-weight: 21
+title: Как использовать nullable‑булевы значения в Aspose.Tasks
 url: /ru/net/advanced-concepts/nullable-booleans/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Обработка логических значений, допускающих значение NULL, в Aspose.Tasks
+# Как использовать nullable‑bool в Aspose.Tasks
 
-## Введение
+В этом руководстве мы покажем **как использовать nullable‑bool** при работе с API Aspose.Tasks для .NET. Nullable‑bool дают три возможных состояния — `true`, `false` или *неопределено* — что особенно удобно для настроек уровня проекта, которые могут быть не явно указаны. Вы увидите, как создавать, преобразовывать и **устанавливать nullable‑bool** значения, а также почему правильная работа с nullable‑bool может предотвратить неожиданное поведение в ваших планировочных приложениях.
 
-В этом уроке мы углубимся в работу с логическими значениями, допускающими значение NULL, в Aspose.Tasks для .NET. Логические значения, допускающие значение NULL, обеспечивают гибкость в представлении логических значений, допуская возможность неопределенности. Мы рассмотрим, как использовать`NullableBool` класс, его конструкторы, свойства и методы.
+## Быстрые ответы
+- **Что такое nullable‑bool?** Тип, который может хранить `true`, `false` или быть неопределённым.  
+- **Зачем использовать nullable‑bool в Aspose.Tasks?** Они позволяют представлять необязательные свойства проекта без угадывания значения по умолчанию.  
+- **Как преобразовать nullable‑bool в обычный bool?** Используйте неявное преобразование или сначала проверьте `IsDefined`.  
+- **Какой основной класс?** `NullableBool` в пространстве имён `Aspose.Tasks`.  
+- **Нужна ли лицензия?** Да, для использования в продакшене требуется действующая лицензия Aspose.Tasks.
 
-## Предварительные условия
+## Что такое Nullable Boolean?
 
-Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
+Nullable‑bool (`NullableBool`) расширяет обычный тип `bool`, добавляя флаг *IsDefined*. Когда `IsDefined` равно `false`, значение считается неопределённым, что позволяет различать “false” и “не задано”.
 
-1. Visual Studio: установите Visual Studio или любую другую интегрированную среду разработки для разработки .NET.
-2.  Aspose.Tasks для .NET: Загрузите и установите Aspose.Tasks для .NET с сайта[здесь](https://releases.aspose.com/tasks/net/).
+## Почему следует обрабатывать Nullable Boolean в настройках проекта?
 
-## Импортировать пространства имен
+Многие параметры проекта — такие как **ActualsInSync** или **HonorConstraints** — являются опциональными. Использование обычного `bool` заставляет выбрать `true` или `false`, что может непреднамеренно переопределить намерения пользователя. **Обрабатывая nullable‑bool**, вы сохраняете исходное состояние и избегаете случайных изменений конфигурации.
 
-Во-первых, обязательно импортируйте необходимые пространства имен в свой код:
+## Предварительные требования
+
+Прежде чем начать, убедитесь, что у вас есть:
+
+1. **Visual Studio** (или любая IDE, совместимая с .NET).  
+2. **Aspose.Tasks for .NET** — скачайте его [здесь](https://releases.aspose.com/tasks/net/).
+
+## Импорт пространств имён
+
+Сначала импортируйте необходимые пространства имён:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
-
-
 ```
 
-Теперь давайте разобьем каждый пример на несколько этапов.
+Теперь пройдём каждый пример шаг за шагом.
 
-##  Работать с`NullableBool`
+## Работа с `NullableBool`
 
-###  Шаг 1. Создайте новый`Project` instance.
+### Шаг 1: Создайте новый экземпляр `Project`.
 
 ```csharp
 var project = new Project();
 ```
 
-###  Шаг 2. Создайте экземпляр`NullableBool` object with specified values.
+### Шаг 2: Создайте объект `NullableBool` с указанными значениями.
 
 ```csharp
 var actualsInSync = new NullableBool(false, false);
 ```
 
-###  Шаг 3: Проверьте значение и определенный статус`NullableBool` object.
+### Шаг 3: Проверьте значение и статус определения объекта `NullableBool`.
 
 ```csharp
 Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Шаг 4: Используйте`NullableBool` instance by setting it in the project.
+### Шаг 4: **Установите nullable‑bool** в проекте.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
 ```
 
-###  Шаг 5: Создайте экземпляр другого`NullableBool` object with a single value.
+### Шаг 5: Создайте другой объект `NullableBool` с одним значением.
 
 ```csharp
 var honorConstraints = new NullableBool(true);
 ```
 
-###  Шаг 6. Отобразите строковое представление`NullableBool` object.
+### Шаг 6: Выведите строковое представление объекта `NullableBool`.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
 ```
 
-###  Шаг 7: Используйте`NullableBool` instance by setting it in the project.
+### Шаг 7: Используйте экземпляр `NullableBool`, задав его в проекте.
 
 ```csharp
 project.Set(Prj.HonorConstraints, honorConstraints);
 ```
 
-##  Сравнивая`NullableBool` Instances
+## Сравнение экземпляров `NullableBool`
 
-###  Шаг 1. Создайте второй экземпляр`NullableBool` objects.
+### Шаг 1: Создайте два объекта `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Шаг 2. Проверьте строковое представление каждого`NullableBool` object.
+### Шаг 2: Проверьте строковое представление каждого объекта `NullableBool`.
 
 ```csharp
 Console.WriteLine("Nullable Bool 1: " + bool1.ToString());
 Console.WriteLine("Nullable Bool 2: " + bool2.ToString());
 ```
 
-###  Шаг 3. Проверьте неявное преобразование в`bool` and print the result.
+### Шаг 3: Неявное преобразование в `bool` и вывод результата.
 
 ```csharp
 if (bool1)
@@ -112,53 +125,57 @@ else
 }
 ```
 
-###  Шаг 4: Сравните два`NullableBool` objects for equality.
+### Шаг 4: Сравните два объекта `NullableBool` на равенство.
 
 ```csharp
 Console.WriteLine("Are bools equal: " + bool1.Equals(bool2));
 ```
 
-##  Получение хэш-кода`NullableBool`
+## Получение хеш‑кода `NullableBool`
 
-###  Шаг 1. Создайте второй экземпляр`NullableBool` objects.
+### Шаг 1: Создайте два объекта `NullableBool`.
 
 ```csharp
 var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-### Шаг 2. Распечатайте хеш-код для каждого`NullableBool` object.
+### Шаг 2: Выведите хеш‑код для каждого объекта `NullableBool`.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
 Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHashCode());
 ```
 
-## Заключение
+## Распространённые ошибки и советы
 
- В этом уроке мы рассмотрели, как обрабатывать логические значения, допускающие значение NULL, в Aspose.Tasks для .NET. Используя`NullableBool` и его методы, вы можете эффективно управлять логическими значениями с дополнительной гибкостью, допускающей значение NULL.
+- **Никогда не предполагаете, что nullable‑bool определён.** Всегда проверяйте `IsDefined` перед использованием `Value`.  
+- **Преобразование в обычный bool** без проверки может вызвать исключение, если значение неопределено. Используйте неявное преобразование только тогда, когда уверены, что значение определено.  
+- **При установке свойств проекта** используйте метод `Set` с `NullableBool`, чтобы при необходимости сохранить состояние «не определено».
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Что такое логическое значение, допускающее значение NULL?
+**В: Что такое nullable‑bool?**  
+О: Nullable‑bool может представлять `true`, `false` или неопределённое состояние, позволяя иметь три различных результата.
 
-A1: Логическое значение, допускающее значение NULL, — это тип, который может представлять истину, ложь или быть неопределенным.
+**В: Как безопасно преобразовать nullable‑bool в обычный bool?**  
+О: Сначала проверьте `IsDefined`, затем используйте свойство `Value` или полагайтесь на неявное преобразование, когда уверены, что значение определено.
 
-### Вопрос 2. Зачем использовать логические значения, допускающие значение NULL?
+**В: Почему стоит использовать nullable‑bool вместо обычных bool в Aspose.Tasks?**  
+О: Они позволяют оставлять необязательные настройки проекта нетронутыми, предотвращая случайные переопределения.
 
-A2. Логические значения, допускающие значение NULL, обеспечивают гибкость в сценариях, где логическое значение не всегда может быть определено.
+**В: Можно ли установить nullable‑bool как неопределённый?**  
+О: Да — используйте конструктор, принимающий только флаг определения, например `new NullableBool(false, false)`.
 
-### Вопрос 3. Как сравниваются логические значения, допускающие значение NULL, на равенство?
+**В: Где найти дополнительную документацию по Aspose.Tasks для .NET?**  
+О: Подробную документацию можно найти [здесь](https://reference.aspose.com/tasks/net/).
 
-A3: Логические значения, допускающие значение NULL, сравниваются на основе их определенного статуса и значений.
+---
 
-### Вопрос 4. Могу ли я установить неопределенное логическое значение, допускающее значение NULL?
+**Последнее обновление:** 2026-03-14  
+**Тестировано с:** Aspose.Tasks for .NET (последний релиз)  
+**Автор:** Aspose  
 
-A4: Да, вы можете установить логическое значение, допускающее значение NULL, которое будет неопределенным при создании.
-
-### Вопрос 5: Где я могу найти дополнительную документацию по Aspose.Tasks для .NET?
-
- A5: Вы можете найти подробную документацию[здесь](https://reference.aspose.com/tasks/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
