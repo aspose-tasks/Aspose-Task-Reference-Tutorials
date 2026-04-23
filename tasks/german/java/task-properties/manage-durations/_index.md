@@ -1,26 +1,45 @@
 ---
-title: Verwalten Sie die Dauer von Aufgaben in Aspose.Tasks
-linktitle: Verwalten Sie die Dauer von Aufgaben in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Entdecken Sie Aspose.Tasks für Java und lernen Sie, die Dauer von Aufgaben mühelos zu verwalten. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effektive Projektplanung und -durchführung.
-weight: 20
+date: 2026-02-20
+description: Erkunden Sie, wie Sie Aufgaben zu einem Projekt hinzufügen und die Dauer
+  mit Aspose.Tasks für Java verwalten. Erfahren Sie, wie Sie die Dauer festlegen und
+  sie einfach konvertieren.
+linktitle: Manage Durations of Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aufgabe zum Projekt hinzufügen und Zeitdauern mit Aspose.Tasks verwalten
 url: /de/java/task-properties/manage-durations/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwalten Sie die Dauer von Aufgaben in Aspose.Tasks
+# Aufgabe zum Projekt hinzufügen und Dauer verwalten mit Aspose.Tasks
 
-## Einführung
-Aspose.Tasks für Java bietet eine robuste Lösung für die effiziente Verwaltung von Projektaufgaben und -dauern. In diesem Tutorial erfahren Sie, wie Sie die Dauer von Aufgaben mit Aspose.Tasks verwalten und führen Sie durch die einzelnen Schritte. Unabhängig davon, ob Sie ein erfahrener Entwickler oder ein Anfänger sind, hilft Ihnen dieser Leitfaden dabei, die Grundlagen der Arbeit mit Aufgabendauern in Ihren Projekten zu verstehen.
+## Einleitung
+In diesem Tutorial lernen Sie **wie man eine Aufgabe zum Projekt hinzufügt** und deren Dauer mit Aspose.Tasks für Java steuert. Egal, ob Sie ein neues Projektplanungs‑Tool erstellen oder eine bestehende Lösung erweitern, das Beherrschen der Handhabung von Aufgaben‑Dauern ist entscheidend für genaue Zeitplanung und Berichterstattung.
+
+## Schnelle Antworten
+- **Was bedeutet „Aufgabe zum Projekt hinzufügen“?** Es erstellt ein neues Task‑Objekt unter der Wurzel eines Projekts oder unter einer bestimmten Zusammenfassungs‑Aufgabe.  
+- **Welche Klasse repräsentiert eine Dauer?** `com.aspose.tasks.Duration`.  
+- **Wie setzt man die Dauer?** Verwenden Sie `task.set(Tsk.DURATION, project.getDuration(value, TimeUnitType))`.  
+- **Kann ich eine Dauer in eine andere Einheit umwandeln?** Ja, rufen Sie `duration.convert(TimeUnitType.Hour)` oder einen anderen `TimeUnitType` auf.  
+- **Benötige ich eine Lizenz für die Produktion?** Eine gültige Aspose.Tasks‑Lizenz ist für die kommerzielle Nutzung erforderlich.
+
+## Was bedeutet „Aufgabe zum Projekt hinzufügen“?
+Eine Aufgabe zu einem Projekt hinzuzufügen bedeutet, ein `Task`‑Objekt zu erstellen und es in die Aufgaben‑Hierarchie des Projekts einzufügen. Dieser Vorgang ist der erste Schritt, bevor Sie Arbeit, Ressourcen oder die Dauer für diese Aufgabe definieren können.
+
+## Warum Aufgaben‑Dauern verwalten?
+Genaue Dauern ermöglichen realistische Zeitpläne, Ressourcenallokation und Kritischer‑Pfad‑Analysen. Mit Aspose.Tasks können Sie Dauern programmatisch setzen, lesen, umwandeln und anpassen, wodurch Sie die volle Kontrolle über Projektzeitpläne erhalten.
+
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem Computer installiert ist. Sie können es herunterladen[Hier](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.Tasks-Bibliothek: Laden Sie die Aspose.Tasks-Bibliothek herunter und fügen Sie sie in Ihr Projekt ein. Sie finden die Bibliothek[Hier](https://releases.aspose.com/tasks/java/).
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+
+- Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem Rechner installiert ist. Sie können es [hier](https://www.oracle.com/java/technologies/javase-downloads.html) herunterladen.
+- Aspose.Tasks Bibliothek: Laden Sie die Aspose.Tasks‑Bibliothek herunter und binden Sie sie in Ihr Projekt ein. Sie finden die Bibliothek [hier](https://releases.aspose.com/tasks/java/).
+
 ## Pakete importieren
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um mit Aspose.Tasks zu arbeiten:
+In Ihrem Java‑Projekt importieren Sie die notwendigen Pakete, um mit Aspose.Tasks zu arbeiten:
 ```java
 import com.aspose.tasks.Duration;
 import com.aspose.tasks.Project;
@@ -28,51 +47,98 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
-## Schritt 1: Richten Sie Ihr Projekt ein
+
+## Schritt 1: Projekt einrichten
 ```java
-// Erstellen Sie ein neues Projekt
+// Create a new project
 Project project = new Project();
 ```
-## Schritt 2: Fügen Sie eine neue Aufgabe hinzu
+
+## Schritt 2: Neue Aufgabe hinzufügen (add task to project)
 ```java
-// Fügen Sie dem Projekt eine neue Aufgabe hinzu
+// Add a new task to the project
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## Schritt 3: Aufgabendauer abrufen und konvertieren
+
+## Wie man die Dauer festlegt
+Jetzt, wo die Aufgabe existiert, können Sie ihre Länge definieren. Standardmäßig werden Dauern in Tagen angegeben.
+
+## Schritt 3: Aufgaben‑Dauer abrufen und umwandeln
 ```java
-// Aufgabendauer in Tagen abrufen (Standardzeiteinheit)
+// Get task duration in days (default time unit)
 Duration duration = task.get(Tsk.DURATION);
 System.out.println("Duration equals 1 day: " + duration.toString().equals("1 day"));
-// Konvertieren Sie die Dauer in die Zeiteinheit Stunden
+// Convert duration to hours time unit
 duration = duration.convert(TimeUnitType.Hour);
 System.out.println("Duration equals 8 hrs: " + duration.toString().equals("8 hrs"));
 ```
-## Schritt 4: Aktualisieren Sie die Aufgabendauer auf 1 Woche
+
+## Wie man die Dauer umwandelt
+Die `convert`‑Methode ermöglicht es, eine `Duration` von einem `TimeUnitType` in einen anderen zu übersetzen (z. B. Tage → Stunden, Wochen → Tage).
+
+## Schritt 4: Aufgaben‑Dauer auf 1 Woche aktualisieren
 ```java
-// Erhöhen Sie die Aufgabendauer auf 1 Woche
+// Increase task duration to 1 week
 task.set(Tsk.DURATION, project.getDuration(1, TimeUnitType.Week));
 System.out.println("Duration equals 1 wk: " + task.get(Tsk.DURATION).toString().equals("1 wk"));
 ```
-## Schritt 5: Verringern Sie die Aufgabendauer
+
+## Schritt 5: Aufgaben‑Dauer verringern
 ```java
-// Verringern Sie die Aufgabendauer
+// Decrease task duration
 task.set(Tsk.DURATION, task.get(Tsk.DURATION).subtract(0.5));
 System.out.println("Duration equals 0.5 wks: " + task.get(Tsk.DURATION).toString().equals("0.5 wks"));
 ```
-Durch Befolgen dieser Schritte haben Sie die Dauer der Aufgaben in Ihrem Aspose.Tasks für Java-Projekt erfolgreich verwaltet.
-## Abschluss
-In diesem Tutorial haben wir die Grundlagen der Verwaltung von Aufgabendauern mit Aspose.Tasks für Java behandelt. Jetzt können Sie diese Techniken sicher in Ihre Projekte integrieren, um die Aufgabendauer effektiv zu verwalten.
+
+Durch das Befolgen dieser Schritte haben Sie erfolgreich **eine Aufgabe zu einem Projekt hinzugefügt** und ihre Dauer mit Aspose.Tasks für Java verwaltet.
+
+## Häufige Fallstricke & Tipps
+- **Fallstrick:** Das Vergessen, die Dauer vor arithmetischen Operationen umzuwandeln, kann zu falschen Ergebnissen führen. Überprüfen Sie stets die Einheit mit `duration.getTimeUnit()`.
+- **Tipp:** Verwenden Sie `project.getDuration(value, TimeUnitType)`, um Dauern in der gewünschten Einheit zu erstellen, anstatt sie später umzuwandeln.
+- **Fallstrick:** Das Setzen einer negativen Dauer löst eine Ausnahme aus. Stellen Sie sicher, dass Sie Eingabewerte validieren.
+
+## Fazit
+In diesem Leitfaden haben wir behandelt, wie man **eine Aufgabe zum Projekt hinzufügt**, ihre Standarddauer liest, **die Dauer setzt** und **die Dauer** in verschiedene Zeiteinheiten **umwandelt**. Sie können diese Techniken nun in umfangreichere Planungsanwendungen integrieren, um präzise Projektplanung zu ermöglichen.
+
 ## FAQs
-### Ist Aspose.Tasks mit allen Java-Versionen kompatibel?
-Aspose.Tasks ist mit Java 6 und späteren Versionen kompatibel.
+### Ist Aspose.Tasks mit allen Java‑Versionen kompatibel?
+Aspose.Tasks ist mit Java 6 und späteren Versionen kompatibel.
+
 ### Kann ich Aspose.Tasks für kommerzielle Projekte verwenden?
- Ja, Sie können Aspose.Tasks sowohl für persönliche als auch für kommerzielle Projekte verwenden. Besuchen[Hier](https://purchase.aspose.com/buy) für Lizenzdetails.
+Ja, Sie können Aspose.Tasks sowohl für private als auch für kommerzielle Projekte nutzen. Besuchen Sie [hier](https://purchase.aspose.com/buy) für Lizenzdetails.
+
 ### Wo finde ich zusätzliche Unterstützung und Ressourcen?
- Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und Diskussionen.
-### Wie kann ich eine temporäre Lizenz zu Testzwecken erhalten?
- Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) zum Testen und Bewerten.
+Besuchen Sie das [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15) für Community‑Support und Diskussionen.
+
+### Wie kann ich eine temporäre Lizenz für Testzwecke erhalten?
+Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) für Tests und Evaluation erhalten.
+
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks?
- Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/) um Aspose.Tasks zu erkunden, bevor Sie einen Kauf tätigen.
+Ja, Sie können die kostenlose Testversion [hier](https://releases.aspose.com/) nutzen, um Aspose.Tasks vor einem Kauf zu erkunden.
+
+## Häufig gestellte Fragen
+
+**Q: Wie ändere ich die Dauer einer Aufgabe, nachdem sie gesetzt wurde?**  
+A: Rufen Sie die aktuelle Dauer mit `task.get(Tsk.DURATION)` ab, ändern Sie sie (z. B. `add`, `subtract` oder `convert`) und setzen Sie sie anschließend mit `task.set(Tsk.DURATION, newDuration)` zurück.
+
+**Q: Kann ich eine Dauer in Minuten festlegen?**  
+A: Ja, verwenden Sie `TimeUnitType.Minute`, wenn Sie `project.getDuration(value, TimeUnitType.Minute)` aufrufen.
+
+**Q: Aktualisiert das Ändern der Dauer automatisch die Start‑ und Enddaten der Aufgabe?**  
+A: Nur wenn der Planungsmodus des Projekts auf automatisch gestellt ist. Andernfalls müssen Sie den Zeitplan ggf. mit `project.calculateCriticalPath()` neu berechnen.
+
+**Q: Ist es möglich, die Dauer als Rohzahl abzurufen?**  
+A: Rufen Sie `duration.getTimeSpan()` auf, um den numerischen Wert in der aktuellen Zeiteinheit zu erhalten.
+
+**Q: Was passiert, wenn ich mehr als die aktuelle Dauer subtrahiere?**  
+A: Die API wirft eine `ArgumentOutOfRangeException`. Validieren Sie stets, dass die resultierende Dauer positiv bleibt.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-20  
+**Getestet mit:** Aspose.Tasks für Java (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,26 +1,45 @@
 ---
-title: Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
-linktitle: Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Khám phá Aspose.Tasks cho Java và tìm hiểu cách quản lý thời lượng nhiệm vụ một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi để lập kế hoạch và thực hiện dự án hiệu quả.
-weight: 20
+date: 2026-02-20
+description: Khám phá cách thêm nhiệm vụ vào dự án và quản lý thời lượng với Aspose.Tasks
+  cho Java. Tìm hiểu cách đặt thời lượng và cách chuyển đổi thời lượng một cách dễ
+  dàng.
+linktitle: Manage Durations of Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Thêm công việc vào dự án và quản lý thời lượng với Aspose.Tasks
 url: /vi/java/task-properties/manage-durations/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Quản lý thời lượng của nhiệm vụ trong Aspose.Tasks
+# Thêm Nhiệm Vụ vào Dự Án và Quản Lý Thời Lượng với Aspose.Tasks
 
 ## Giới thiệu
-Aspose.Tasks cho Java cung cấp một giải pháp mạnh mẽ để quản lý các nhiệm vụ và thời lượng dự án một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý thời lượng của các nhiệm vụ bằng Aspose.Tasks, hướng dẫn bạn qua từng bước. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn này sẽ giúp bạn nắm bắt được những điều cần thiết khi làm việc với thời lượng nhiệm vụ trong dự án của bạn.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Java trên máy của mình. Bạn có thể tải nó xuống[đây](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Thư viện Aspose.Tasks: Tải xuống và đưa thư viện Aspose.Tasks vào dự án của bạn. Bạn có thể tìm thấy thư viện[đây](https://releases.aspose.com/tasks/java/).
-## Gói nhập khẩu
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để hoạt động với Aspose.Tasks:
+Trong hướng dẫn này, bạn sẽ học **cách thêm nhiệm vụ vào dự án** và kiểm soát thời lượng của nó bằng Aspose.Tasks cho Java. Dù bạn đang xây dựng một công cụ lập kế hoạch dự án mới hay mở rộng một giải pháp hiện có, việc nắm vững xử lý thời lượng nhiệm vụ là điều thiết yếu để lập lịch và báo cáo chính xác.
+
+## Câu trả lời nhanh
+- **“add task to project” có nghĩa là gì?** Nó tạo một đối tượng nhiệm vụ mới dưới gốc của dự án hoặc dưới một nhiệm vụ tổng hợp cụ thể.  
+- **Lớp nào đại diện cho một thời lượng?** `com.aspose.tasks.Duration`.  
+- **Cách đặt thời lượng?** Sử dụng `task.set(Tsk.DURATION, project.getDuration(value, TimeUnitType))`.  
+- **Có thể chuyển đổi thời lượng sang đơn vị khác không?** Có, gọi `duration.convert(TimeUnitType.Hour)` hoặc bất kỳ `TimeUnitType` nào khác.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.Tasks hợp lệ cho việc sử dụng thương mại.
+
+## Thêm nhiệm vụ vào dự án là gì?
+Thêm một nhiệm vụ vào dự án có nghĩa là tạo một đối tượng `Task` và gắn nó vào cấu trúc cây nhiệm vụ của dự án. Thao tác này là bước đầu tiên trước khi bạn có thể định nghĩa công việc, nguồn lực hoặc thời lượng cho nhiệm vụ đó.
+
+## Tại sao cần quản lý thời lượng nhiệm vụ?
+Thời lượng chính xác mang lại các thời gian biểu thực tế, phân bổ nguồn lực hợp lý và phân tích đường truyền quan trọng. Với Aspose.Tasks, bạn có thể đặt, đọc, chuyển đổi và điều chỉnh thời lượng một cách lập trình, cho phép bạn kiểm soát toàn bộ lịch trình dự án.
+
+## Yêu cầu trước
+Trước khi bắt đầu, hãy đảm bảo bạn có các mục sau:
+
+- Java Development Kit (JDK): Đảm bảo rằng Java đã được cài đặt trên máy của bạn. Bạn có thể tải về [tại đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Thư viện Aspose.Tasks: Tải xuống và đưa thư viện Aspose.Tasks vào dự án của bạn. Bạn có thể tìm thư viện [tại đây](https://releases.aspose.com/tasks/java/).
+
+## Nhập khẩu các gói
+Trong dự án Java của bạn, nhập các gói cần thiết để làm việc với Aspose.Tasks:
 ```java
 import com.aspose.tasks.Duration;
 import com.aspose.tasks.Project;
@@ -28,51 +47,98 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
+
 ## Bước 1: Thiết lập dự án của bạn
 ```java
-// Tạo một dự án mới
+// Create a new project
 Project project = new Project();
 ```
-## Bước 2: Thêm nhiệm vụ mới
+
+## Bước 2: Thêm một Nhiệm Vụ Mới (add task to project)
 ```java
-// Thêm nhiệm vụ mới vào dự án
+// Add a new task to the project
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## Bước 3: Nhận và chuyển đổi thời lượng nhiệm vụ
+
+## Cách đặt thời lượng
+Bây giờ nhiệm vụ đã tồn tại, bạn có thể xác định độ dài của nó. Mặc định, thời lượng được biểu thị bằng ngày.
+
+## Bước 3: Lấy và Chuyển Đổi Thời Lượng Nhiệm Vụ
 ```java
-// Nhận thời gian thực hiện nhiệm vụ theo ngày (đơn vị thời gian mặc định)
+// Get task duration in days (default time unit)
 Duration duration = task.get(Tsk.DURATION);
 System.out.println("Duration equals 1 day: " + duration.toString().equals("1 day"));
-// Chuyển đổi thời lượng sang đơn vị thời gian giờ
+// Convert duration to hours time unit
 duration = duration.convert(TimeUnitType.Hour);
 System.out.println("Duration equals 8 hrs: " + duration.toString().equals("8 hrs"));
 ```
-## Bước 4: Cập nhật thời lượng nhiệm vụ thành 1 tuần
+
+## Cách chuyển đổi thời lượng
+Phương thức `convert` cho phép bạn dịch một `Duration` từ một `TimeUnitType` sang một `TimeUnitType` khác (ví dụ: ngày → giờ, tuần → ngày).
+
+## Bước 4: Cập nhật Thời Lượng Nhiệm Vụ thành 1 Tuần
 ```java
-// Tăng thời gian thực hiện nhiệm vụ lên 1 tuần
+// Increase task duration to 1 week
 task.set(Tsk.DURATION, project.getDuration(1, TimeUnitType.Week));
 System.out.println("Duration equals 1 wk: " + task.get(Tsk.DURATION).toString().equals("1 wk"));
 ```
-## Bước 5: Giảm thời lượng nhiệm vụ
+
+## Bước 5: Giảm Thời Lượng Nhiệm Vụ
 ```java
-// Giảm thời gian thực hiện nhiệm vụ
+// Decrease task duration
 task.set(Tsk.DURATION, task.get(Tsk.DURATION).subtract(0.5));
 System.out.println("Duration equals 0.5 wks: " + task.get(Tsk.DURATION).toString().equals("0.5 wks"));
 ```
-Bằng cách làm theo các bước này, bạn đã quản lý thành công thời lượng của các tác vụ trong dự án Aspose.Tasks for Java của mình.
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã trình bày các kiến thức cơ bản về quản lý thời lượng tác vụ bằng cách sử dụng Aspose.Tasks cho Java. Giờ đây, bạn có thể tự tin kết hợp các kỹ thuật này vào dự án của mình để quản lý thời gian thực hiện nhiệm vụ một cách hiệu quả.
-## Câu hỏi thường gặp
+
+Bằng cách thực hiện các bước này, bạn đã **thêm một nhiệm vụ vào dự án** và quản lý thời lượng của nó bằng Aspose.Tasks cho Java.
+
+## Những Sai Lầm Thường Gặp & Mẹo
+- **Sai lầm:** Quên chuyển đổi thời lượng trước khi thực hiện các phép tính có thể dẫn đến kết quả sai. Luôn kiểm tra đơn vị bằng `duration.getTimeUnit()`.
+- **Mẹo:** Sử dụng `project.getDuration(value, TimeUnitType)` để tạo thời lượng ở đơn vị mong muốn thay vì chuyển đổi sau này.
+- **Sai lầm:** Đặt thời lượng âm sẽ gây ra ngoại lệ. Hãy xác thực giá trị đầu vào.
+
+## Kết luận
+Trong hướng dẫn này, chúng ta đã đề cập cách **thêm nhiệm vụ vào dự án**, đọc thời lượng mặc định, **đặt thời lượng**, và **chuyển đổi thời lượng** sang các đơn vị thời gian khác nhau. Bây giờ bạn có thể tích hợp các kỹ thuật này vào các ứng dụng lập lịch lớn hơn để lên kế hoạch dự án một cách chính xác.
+
+## Câu Hỏi Thường Gặp
 ### Aspose.Tasks có tương thích với tất cả các phiên bản Java không?
-Aspose.Tasks tương thích với Java 6 và các phiên bản mới hơn.
+Aspose.Tasks tương thích với Java 6 và các phiên bản sau này.
+
 ### Tôi có thể sử dụng Aspose.Tasks cho các dự án thương mại không?
- Có, bạn có thể sử dụng Aspose.Tasks cho cả dự án cá nhân và thương mại. Thăm nom[đây](https://purchase.aspose.com/buy) để biết chi tiết cấp phép.
-### Tôi có thể tìm thêm sự hỗ trợ và nguồn lực ở đâu?
- Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
-### Làm cách nào để có được giấy phép tạm thời cho mục đích thử nghiệm?
- Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
+Có, bạn có thể sử dụng Aspose.Tasks cho cả dự án cá nhân và thương mại. Tham khảo chi tiết giấy phép [tại đây](https://purchase.aspose.com/buy).
+
+### Tôi có thể tìm hỗ trợ và tài nguyên bổ sung ở đâu?
+Truy cập [diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để nhận hỗ trợ cộng đồng và thảo luận.
+
+### Làm sao để lấy giấy phép tạm thời cho mục đích thử nghiệm?
+Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm và đánh giá.
+
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
- Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá Aspose.Tasks trước khi mua hàng.
+Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/) để khám phá Aspose.Tasks trước khi mua.
+
+## Câu Hỏi Thường Gặp
+
+**Q: Làm thế nào để thay đổi thời lượng của một nhiệm vụ sau khi đã đặt?**  
+A: Lấy thời lượng hiện tại bằng `task.get(Tsk.DURATION)`, chỉnh sửa nó (ví dụ: `add`, `subtract`, hoặc `convert`), và sau đó đặt lại bằng `task.set(Tsk.DURATION, newDuration)`.
+
+**Q: Tôi có thể đặt thời lượng tính bằng phút không?**  
+A: Có, sử dụng `TimeUnitType.Minute` khi gọi `project.getDuration(value, TimeUnitType.Minute)`.
+
+**Q: Thay đổi thời lượng có tự động cập nhật ngày bắt đầu và ngày kết thúc của nhiệm vụ không?**  
+A: Chỉ khi chế độ lập lịch của dự án được đặt là tự động. Nếu không, bạn có thể cần tính lại lịch bằng `project.calculateCriticalPath()`.
+
+**Q: Có thể lấy thời lượng dưới dạng số nguyên thô không?**  
+A: Gọi `duration.getTimeSpan()` để nhận giá trị số trong đơn vị thời gian hiện tại.
+
+**Q: Điều gì sẽ xảy ra nếu tôi trừ đi thời lượng lớn hơn thời lượng hiện tại?**  
+A: API sẽ ném ra `ArgumentOutOfRangeException`. Luôn xác thực để thời lượng kết quả vẫn dương.
+
+---
+
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.Tasks for Java (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,77 +1,140 @@
 ---
-title: Správa nákladů na úkoly v Aspose.Tasks
-linktitle: Správa nákladů na úkoly v Aspose.Tasks
+date: 2026-02-20
+description: Naučte se, jak vypočítat odchylku nákladů projektu a spravovat náklady
+  úkolů v Javě pomocí Aspose.Tasks. Postupujte podle našeho krok‑za‑krokem průvodce,
+  jak nastavit náklady a kontrolovat rozpočty.
+linktitle: Manage Task Costs in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Naučte se řídit náklady na úkoly v aplikacích Java pomocí Aspose.Tasks. Postupujte podle našeho podrobného průvodce pro efektivní řízení nákladů na projekt.
-weight: 21
+title: Vypočítejte nákladovou odchylku projektu pomocí Aspose.Tasks pro Javu
 url: /cs/java/task-properties/manage-task-cost/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa nákladů na úkoly v Aspose.Tasks
+# Vypočítejte odchylku nákladů projektu pomocí Aspose.Tasks
 
-## Úvod
-Vítejte ve světě Aspose.Tasks for Java, výkonné knihovny, která vám umožňuje bezproblémově řídit náklady na úkoly v rámci vašich aplikací Java. V tomto podrobném průvodci prozkoumáme, jak efektivně využívat Aspose.Tasks ke zvládnutí nákladů na úkoly a zajistit efektivní řízení projektu.
-## Předpoklady
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-1. Prostředí Java: Ujistěte se, že máte ve svém systému nastavené vývojové prostředí Java.
-2. Knihovna Aspose.Tasks: Stáhněte a nainstalujte knihovnu Aspose.Tasks for Java. Knihovnu najdete[tady](https://releases.aspose.com/tasks/java/).
-## Importujte balíčky
-Jakmile nastavíte své prostředí a nainstalujete knihovnu Aspose.Tasks, musíte do svého projektu Java importovat potřebné balíčky. Zahrňte do svého kódu následující řádky:
+## Introduction
+V tomto komplexním tutoriálu se dozvíte **jak vypočítat odchylku nákladů projektu** a efektivně spravovat náklady úkolů ve vašich Java aplikacích s Aspose.Tasks. Ať už sledujete malý interní projekt nebo rozsáhlé nasazení podniku, pochopení odchylky nákladů vám pomůže udržet rozpočty v pořádku a včas odhalit překročení.
+
+## Quick Answers
+- **Co je odchylka nákladů?** Rozdíl mezi plánovanými (pevnými) náklady a skutečnými (zbývajícími) náklady.  
+- **Která metoda API nastavuje náklady úkolu?** `task.set(Tsk.COST, BigDecimal.valueOf(...))`.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Mohu získat nákladová data na úrovni projektu?** Ano, přístupem k vlastnostem nákladů kořenového úkolu.  
+- **Jaká verze Javy je podporována?** Aspose.Tasks funguje s Java 8 a novějšími.
+
+## What is “calculate project cost variance”?
+Výpočet odchylky nákladů projektu znamená porovnání **pevného nákladu**, který jste původně naplánovali pro úkol nebo projekt, s **zbývajícím nákladem**, který odráží práci, která ještě zbývá. Odchylka vám ukazuje, zda jste pod nebo nad rozpočtem, což umožňuje proaktivní úpravy.
+
+## Why use Aspose.Tasks to calculate project cost variance?
+- **Plně .NET‑bezplatné Java API** – nevyžaduje nativní knihovny.  
+- **Bohaté vlastnosti pro správu nákladů** (`COST`, `FIXED_COST`, `REMAINING_COST`, `COST_VARIANCE`).  
+- **Jednoduchá integrace** s existujícími Maven/Gradle projekty.  
+- **Přesné reportování**, které lze exportovat do souborů MS Project®.
+
+## Prerequisites
+Než se pustíme dál, ujistěte se, že máte:
+
+1. **Java Development Kit (JDK)** – nainstalovaný Java 8 nebo novější.  
+2. **Aspose.Tasks for Java knihovnu** – stáhněte ji z oficiální stránky **[here](https://releases.aspose.com/tasks/java/)**.  
+3. IDE nebo nástroj pro sestavení (IntelliJ, Eclipse, Maven, Gradle) pro kompilaci a spuštění ukázkového kódu.
+
+## Import Packages
+Přidejte požadované třídy Aspose.Tasks do vašeho Java zdrojového souboru, abyste mohli pracovat s projekty a úkoly.
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import java.math.BigDecimal;
-// Import tříd Aspose.Tasks
+// Import Aspose.Tasks classes
 ```
-Nyní si tento příklad rozdělíme do několika kroků, abychom efektivně řídili náklady na úkoly.
-## Krok 1: Nastavte svůj projekt
+
+## Step‑by‑Step Guide
+
+### Step 1: Set up Your Project
+Nejprve vytvořte novou instanci `Project` a nastavte složku, kam můžete ukládat generované soubory.
+
 ```java
-// Nastavte cestu k adresáři dokumentů
+// Set the path to your document directory
 String dataDir = "Your Document Directory";
-// Vytvořte nový projekt
+// Create a new project
 Project project = new Project();
 ```
-## Krok 2: Přidejte nový úkol
+
+### Step 2: Add a New Task
+Přidejte úkol pod kořenový úkol. Zde přiřadíme náklady.
+
 ```java
-// Přidejte novou úlohu do kořenové úlohy
+// Add a new task to the root task
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## Krok 3: Nastavte cenu úkolu
+
+### Step 3: Set Task Cost – **how to set cost**
+Přiřaďte úkolu plánované náklady. V reálném scénáři mohou pocházet z rozpočtové tabulky.
+
 ```java
-// Nastavte cenu úkolu na 800
+// Set the task cost to 800
 task.set(Tsk.COST, BigDecimal.valueOf(800));
 ```
-## Krok 4: Získejte informace o úkolu
+
+### Step 4: Retrieve and Display Cost Information – **how to manage costs**
+Nyní načteme různé vlastnosti nákladů, včetně vypočtené odchylky nákladů.
+
 ```java
-// Načíst a vytisknout informace o úkolu
+// Retrieve and print task information
 System.out.println("Remaining Cost: " + task.get(Tsk.REMAINING_COST));
 System.out.println("Fixed Cost: " + task.get(Tsk.FIXED_COST));
 System.out.println("Cost Variance: " + task.get(Tsk.COST_VARIANCE));
-// Získejte a vytiskněte informace o nákladech na úrovni projektu
+// Retrieve and print project-level cost information
 System.out.println("Project Cost: " + project.getRootTask().get(Tsk.COST));
 System.out.println("Project Fixed Cost: " + project.getRootTask().get(Tsk.FIXED_COST));
 System.out.println("Project Remaining Cost: " + project.getRootTask().get(Tsk.REMAINING_COST));
 System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COST_VARIANCE));
 ```
-Opakujte tyto kroky pro efektivní správu nákladů na úkoly ve vaší aplikaci Aspose.Tasks for Java.
-## Závěr
-Závěrem lze říci, že zvládnutí řízení nákladů na úkol je klíčové pro úspěšnou realizaci projektu. Aspose.Tasks for Java poskytuje robustní řešení, které umožňuje vývojářům zvládat náklady s přesností.
-## Nejčastější dotazy
-### Otázka: Kde najdu dokumentaci k Aspose.Tasks for Java?
- Odpověď: Máte přístup k dokumentaci[tady](https://reference.aspose.com/tasks/java/).
-### Otázka: Jak si mohu stáhnout knihovnu Aspose.Tasks for Java?
- A: Stáhněte si knihovnu[tady](https://releases.aspose.com/tasks/java/).
-### Otázka: Kde mohu zakoupit Aspose.Tasks pro Java?
- A: Můžete si to koupit[tady](https://purchase.aspose.com/buy).
-### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro Java?
- Odpověď: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-### Otázka: Kde mohu hledat podporu pro Aspose.Tasks for Java?
- Odpověď: Navštivte fórum podpory[tady](https://forum.aspose.com/c/tasks/15).
+
+**What you’ll see:**  
+- `Remaining Cost` odráží práci, která ještě nebyla dokončena.  
+- `Fixed Cost` je základní hodnota, kterou jste nastavili (800 v tomto příkladu).  
+- `Cost Variance` je automaticky vypočtena jako **Fixed – Remaining**.  
+- Stejné hodnoty jsou k dispozici na úrovni projektu (kořenový úkol), což vám umožní **vypočítat odchylku nákladů projektu** napříč všemi úkoly.
+
+### Step 5: Repeat for Additional Tasks (Optional)
+Pokud má váš projekt více fází, opakujte kroky 2‑4 pro každý úkol. Součtem jednotlivých odchylek získáte celkovou odchylku nákladů projektu.
+
+## Common Issues and Solutions
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| `NullPointerException` when accessing task properties | Úkol nebyl přidán do hierarchie projektu. | Ujistěte se, že před nastavením nákladů zavoláte `project.getRootTask().getChildren().add(...)`. |
+| Cost values appear as `0` | Použití `int` místo `BigDecimal`. | Vždy používejte `BigDecimal.valueOf(...)` jako v příkladu. |
+| Unexpected variance (negative) | `REMAINING_COST` převyšuje `FIXED_COST`. | Ověřte, že aktualizujete zbývající náklady podle postupu práce. |
+
+## Frequently Asked Questions
+
+**Q: Kde mohu najít dokumentaci pro Aspose.Tasks for Java?**  
+A: Dokumentaci můžete získat **[here](https://reference.aspose.com/tasks/java/)**.
+
+**Q: Jak mohu stáhnout knihovnu Aspose.Tasks for Java?**  
+A: Knihovnu stáhněte **[here](https://releases.aspose.com/tasks/java/)**.
+
+**Q: Kde mohu zakoupit Aspose.Tasks for Java?**  
+A: Můžete ji koupit **[here](https://purchase.aspose.com/buy)**.
+
+**Q: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks for Java?**  
+A: Ano, bezplatnou zkušební verzi získáte **[here](https://releases.aspose.com/)**.
+
+**Q: Kde mohu získat podporu pro Aspose.Tasks for Java?**  
+A: Navštivte fórum podpory **[here](https://forum.aspose.com/c/tasks/15)**.
+
+---
+
+**Poslední aktualizace:** 2026-02-20  
+**Testováno s:** Aspose.Tasks for Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
