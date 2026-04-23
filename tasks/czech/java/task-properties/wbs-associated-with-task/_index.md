@@ -1,26 +1,47 @@
 ---
-title: WBS spojené s úlohou v Aspose.Tasks
-linktitle: WBS spojené s úlohou v Aspose.Tasks
+date: 2026-03-03
+description: Naučte se, jak v Aspose.Tasks pro Javu převyčíslit WBS, spravovat rozdělení
+  práce a efektivně přizpůsobit kódy WBS s příklady krok za krokem.
+linktitle: WBS Associated with Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Zvládněte WBS pomocí Aspose.Tasks for Java - Naučte se číst a přečíslovat kódy úkolu WBS. Zvyšte efektivitu řízení projektů!
-weight: 36
+title: Jak přenumerovat WBS v Aspose.Tasks pro Javu
 url: /cs/java/task-properties/wbs-associated-with-task/
+weight: 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# WBS spojené s úlohou v Aspose.Tasks
+# Jak přečíslovat WBS v Aspose.Tasks pro Java
 
 ## Úvod
-Vítejte ve světě projektového řízení s Aspose.Tasks for Java! V tomto tutoriálu se ponoříme do složitosti Work Breakdown Structure (WBS) spojené s úkoly pomocí Aspose.Tasks for Java. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vám pomůže procházet základy efektivní správy kódů WBS.
+Pokud potřebujete **jak přečíslovat WBS** v souboru Microsoft Project pomocí Aspose.Tasks pro Java, jste na správném místě. Tento tutoriál vás provede čtením existujících kódů WBS, jejich přizpůsobením a následným přečíslováním hierarchie, aby váš projekt zůstal uspořádaný. Ať už čistíte starý plán nebo vytváříte nový od nuly, zvládnutí těchto kroků vám pomůže **spravovat struktury rozdělení práce** s jistotou.
+
+## Rychlé odpovědi
+- **Co dělá přečíslování WBS?** Přepočítá hierarchické číslování úkolů tak, aby odráželo jakékoli strukturální změny.  
+- **Která třída provádí přečíslování?** `Project.renumberWBSCode`.  
+- **Potřebuji licenci pro spuštění kódu?** Pro produkční použití je vyžadována platná licence Aspose.Tasks.  
+- **Mohu přizpůsobit formát WBS?** Ano — použijte `Task.set(Tsk.WBS, "...")` k přiřazení libovolného řetězce.  
+- **Jaké jsou hlavní předpoklady?** Java JDK, knihovna Aspose.Tasks pro Java a platný soubor projektu (.mpp).
+
+## Co je Work Breakdown Structure (WBS)?
+Work Breakdown Structure (WBS) je hierarchické znázornění výstupů a úkolů projektu. Každý úkol získá kód (např. 1.2.3), který odráží jeho pozici v hierarchii. Přečíslování se stává nezbytným, když jsou úkoly přidány, odebrány nebo přeuspořádány, aby kódy zůstaly logické a snadno čitelné.
+
+## Proč spravovat rozdělení práce a přizpůsobovat kódy WBS?
+- **Přehlednost:** Jasné kódy WBS usnadňují zúčastněným stranám nalezení úkolů.  
+- **Reportování:** Mnoho nástrojů pro reportování se spoléhá na konzistentní číslování.  
+- **Flexibilita:** Vlastní kódy vám umožní sladit strukturu projektu s interními standardy.  
+
 ## Předpoklady
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Knihovna Aspose.Tasks pro Java byla stažena a přidána do vašeho projektu. Můžete to získat od[tady](https://releases.aspose.com/tasks/java/).
-## Importujte balíčky
-Ujistěte se, že importujete potřebné balíčky pro nastartování vašeho projektu:
+Než se ponoříme do kódu, ujistěte se, že máte následující:
+
+- Java Development Kit (JDK) nainstalovaný na vašem počítači.  
+- Knihovna Aspose.Tasks pro Java přidaná do vašeho projektu. Můžete ji získat [zde](https://releases.aspose.com/tasks/java/).  
+
+## Importovat balíčky
+Ujistěte se, že importujete potřebné balíčky pro zahájení vašeho projektu:
+
 ```java
 import com.aspose.tasks.ChildTasksCollector;
 import com.aspose.tasks.Project;
@@ -30,18 +51,22 @@ import com.aspose.tasks.Tsk;
 import java.util.ArrayList;
 import java.util.List;
 ```
-## Přečtěte si kódy WBS
-Začněme čtením kódů WBS spojených s úkoly. Následuj tyto kroky:
-## Krok 1: Načtěte projekt
+
+## Číst kódy WBS
+Nejprve načteme existující kódy WBS, abyste viděli, s čím pracujete.
+
+### Krok 1: Načíst projekt
 ```java
 Project project = new Project("Your Document Directory" + "input.mpp");
 ```
-## Krok 2: Sbírejte úkoly
+
+### Krok 2: Shromáždit úkoly
 ```java
 ChildTasksCollector collector = new ChildTasksCollector();
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
-## Krok 3: Analýza a přizpůsobení
+
+### Krok 3: Analyzovat a přizpůsobit
 ```java
 for (Task tsk : collector.getTasks()) {
     System.out.println(tsk.get(Tsk.WBS));
@@ -49,25 +74,31 @@ for (Task tsk : collector.getTasks()) {
     tsk.set(Tsk.WBS, "custom wbs");
 }
 ```
-Tento fragment čte a přizpůsobuje kódy WBS spojené s úkoly ve vašem projektu.
-## Přečíslovat kódy WBS úkolu
-Nyní se podívejme na přečíslování WBS kódů pro úkoly:
-## Krok 1: Načtěte projekt
+
+Ukázkový kód výše vypíše aktuální WBS a úroveň každého úkolu a poté demonstruje **přizpůsobení kódů WBS** přiřazením nového řetězce.
+
+## Přečíslovat WBS kódy úkolů
+Nyní skutečně přečíslujeme hierarchii WBS.
+
+### Krok 1: Načíst projekt (příklad přečíslování)
 ```java
 Project project = new Project("Your Document Directory" + "RenumberExample.mpp");
 ```
-## Krok 2: Vyberte Všechny úkoly
+
+### Krok 2: Vybrat všechny úkoly
 ```java
 List<Task> tasks = (List<Task>) project.getRootTask().selectAllChildTasks();
 ```
-## Krok 3: Výstup počátečních kódů WBS
+
+### Krok 3: Vypsat počáteční kódy WBS
 ```java
 System.out.println("WBS codes before: ");
 for (Task task : tasks) {
     System.out.println("\"" + task.get(Tsk.WBS) + "\"" + "; ");
 }
 ```
-## Krok 4: Přečíslujte kódy WBS
+
+### Krok 4: Přečíslovat kódy WBS
 ```java
 List<Integer> listIds = new ArrayList<>();
 listIds.add(1);
@@ -75,27 +106,51 @@ listIds.add(2);
 listIds.add(3);
 project.renumberWBSCode(listIds);
 ```
-## Krok 5: Výstup aktualizovaných kódů WBS
+
+### Krok 5: Vypsat aktualizované kódy WBS
 ```java
 System.out.println("\nWBS codes after: ");
 for (Task task : tasks) {
     System.out.println("\"" + task.get(Tsk.WBS) + "\"" + "; ");
 }
 ```
-Pomocí těchto kroků účinně přečíslujete kódy WBS pro úkoly ve vašem projektu.
-## Závěr
-Gratulujeme! Úspěšně jste se naučili pracovat s kódy WBS pomocí Aspose.Tasks for Java. Tyto znalosti vám umožní efektivně spravovat a přizpůsobovat hierarchii úkolů vašeho projektu.
-## Nejčastější dotazy
-### Otázka: Kde najdu dokumentaci k Aspose.Tasks for Java?
- Odpověď: Dokumentace je k dispozici[tady](https://reference.aspose.com/tasks/java/).
-### Otázka: Jak si mohu stáhnout Aspose.Tasks for Java?
- A: Můžete si to stáhnout[tady](https://releases.aspose.com/tasks/java/).
-### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro Java?
- Odpověď: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-### Otázka: Kde mohu získat podporu pro Aspose.Tasks for Java?
- A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu.
-### Otázka: Mohu získat dočasnou licenci pro Aspose.Tasks for Java?
- Odpověď: Ano, získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+
+Dodržením těchto kroků efektivně **přečíslujete WBS** pro libovolnou sadu úkolů ve vašem souboru projektu.
+
+## Časté problémy a řešení
+- **WBS se po volání `set` nezmění:** Ujistěte se, že pracujete se správnou instancí úkolu a že je projekt po úpravách uložen.  
+- **`renumberWBSCode` vyvolá výjimku:** Ověřte, že seznam ID odpovídá počtu úkolů nejvyšší úrovně; jinak metoda nemůže správně přiřadit nová čísla.  
+- **Chybějící hodnoty WBS:** Některé úkoly mohou mít `null` WBS, pokud byly importovány ze souboru, který žádný nedefinoval. Použijte náhradní hodnotu před výpisem.
+
+## Často kladené otázky
+
+**Q: Kde mohu najít dokumentaci pro Aspose.Tasks pro Java?**  
+A: Dokumentace je k dispozici [zde](https://reference.aspose.com/tasks/java/).
+
+**Q: Jak mohu stáhnout Aspose.Tasks pro Java?**  
+A: Můžete jej stáhnout [zde](https://releases.aspose.com/tasks/java/).
+
+**Q: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro Java?**  
+A: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+
+**Q: Kde mohu získat podporu pro Aspose.Tasks pro Java?**  
+A: Navštivte [Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) pro podporu.
+
+**Q: Mohu získat dočasnou licenci pro Aspose.Tasks pro Java?**  
+A: Ano, získáte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
+
+**Q: Mohu po přečíslování přejmenovat formát WBS?**  
+A: Rozhodně. Po volání `renumberWBSCode` můžete iterovat přes úkoly a použít `task.set(Tsk.WBS, "NewFormat-" + task.get(Tsk.WBS))` podle vašich pojmenovacích konvencí.
+
+**Q: Ovlivňuje přečíslování závislosti úkolů?**  
+A: Ne. Metoda aktualizuje pouze řetězec WBS; odkazy a omezení úkolů zůstávají beze změny.
+
+---
+
+**Poslední aktualizace:** 2026-03-03  
+**Testováno s:** Aspose.Tasks for Java 24.12 (nejnovější)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

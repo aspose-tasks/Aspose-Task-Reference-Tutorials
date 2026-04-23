@@ -1,26 +1,48 @@
 ---
-title: WBS Aspose.Tasks feladathoz társítva
-linktitle: WBS Aspose.Tasks feladathoz társítva
+date: 2026-03-03
+description: Tanulja meg, hogyan lehet újraszámozni a WBS-t az Aspose.Tasks for Java-ban,
+  kezelje a munkafelosztást, és hatékonyan testreszabja a WBS-kódokat lépésről‑lépésre
+  bemutatott példákkal.
+linktitle: WBS Associated with Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: A WBS elsajátítása Aspose.Tasks for Java segítségével – Tanulja meg a feladatok WBS kódjainak olvasását és újraszámozását. Növelje a projektmenedzsment hatékonyságát!
-weight: 36
+title: Hogyan lehet újraszámozni a WBS-t az Aspose.Tasks for Java-ban
 url: /hu/java/task-properties/wbs-associated-with-task/
+weight: 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# WBS Aspose.Tasks feladathoz társítva
+# Hogyan számozzuk újra a WBS-t az Aspose.Tasks for Java-ban
 
-## Bevezetés
-Üdvözöljük az Aspose.Tasks for Java projektmenedzsment világában! Ebben az oktatóanyagban az Aspose.Tasks for Java használatával kapcsolatos feladatokhoz kapcsolódó Work Breakdown Structure (WBS) bonyolultságaival foglalkozunk. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató segít eligazodni a WBS-kódok hatékony kezelésének alapjaiban.
-## Előfeltételek
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-- Java Development Kit (JDK) telepítve a gépére.
--  Aspose.Tasks a Java könyvtárhoz letöltve és hozzáadva a projekthez. től lehet kapni[itt](https://releases.aspose.com/tasks/java/).
-## Csomagok importálása
-Győződjön meg róla, hogy importálja a szükséges csomagokat a projekt elindításához:
+## Introduction
+Ha **hogyan számozzuk újra a WBS-t** szeretnél egy Microsoft Project fájlban az Aspose.Tasks for Java használatával, jó helyen vagy. Ez az útmutató végigvezet a meglévő WBS-kódok beolvasásán, testreszabásán, majd a hierarchia újraszámozásán, hogy a projekted rendezett maradjon. Akár egy régi ütemtervet tisztítasz meg, akár egy újat építesz fel a semmiből, ezeknek a lépéseknek a elsajátítása segít **a munka lebontási** struktúrák magabiztos kezelésében.
+
+## Quick Answers
+- **Mit csinál a WBS újraszámozása?** Újraszámolja a feladatok hierarchikus számozását, hogy tükrözze a struktúraváltozásokat.  
+- **Melyik osztály végzi az újraszámozást?** `Project.renumberWBSCode`.  
+- **Szükségem van licencre a kód futtatásához?** Egy érvényes Aspose.Tasks licenc szükséges a termelési környezetben.  
+- **Testreszabhatom a WBS formátumot?** Igen – használhatod a `Task.set(Tsk.WBS, "...")` metódust, hogy bármilyen karakterláncot hozzárendelj.  
+- **Mik a fő előfeltételek?** Java JDK, Aspose.Tasks for Java könyvtár, és egy érvényes projektfájl (.mpp).
+
+## What is a Work Breakdown Structure (WBS)?
+A Work Breakdown Structure (WBS) egy hierarchikus ábrázolása a projekt szállítmányainak és feladatainak. Minden feladat kap egy kódot (pl. 1.2.3), amely a hierarchiában elfoglalt helyét tükrözi. Az újraszámozás akkor válik szükségessé, amikor feladatokat adnak hozzá, távolítanak el vagy átrendeznek, biztosítva, hogy a kódok logikusak és könnyen olvashatóak maradjanak.
+
+## Why manage work breakdown and customize WBS codes?
+- **Átláthatóság:** A tiszta WBS-kódok egyszerűvé teszik a résztvevők számára a feladatok megtalálását.  
+- **Jelentéskészítés:** Sok jelentéskészítő eszköz a konzisztens számozásra támaszkodik.  
+- **Rugalmasság:** Az egyedi kódok lehetővé teszik, hogy a projekt struktúráját a belső szabványokhoz igazítsd.  
+
+## Prerequisites
+Mielőtt a kódba merülnél, ellenőrizd, hogy a következők rendelkezésre állnak:
+
+- Java Development Kit (JDK) telepítve van a gépeden.  
+- Aspose.Tasks for Java könyvtár hozzáadva a projektedhez. Letöltheted [itt](https://releases.aspose.com/tasks/java/).  
+
+## Import Packages
+Győződj meg róla, hogy importálod a szükséges csomagokat a projekt elindításához:
+
 ```java
 import com.aspose.tasks.ChildTasksCollector;
 import com.aspose.tasks.Project;
@@ -30,18 +52,22 @@ import com.aspose.tasks.Tsk;
 import java.util.ArrayList;
 import java.util.List;
 ```
-## Olvassa el a WBS kódokat
-Kezdjük a feladatokhoz kapcsolódó WBS kódok elolvasásával. Kovesd ezeket a lepeseket:
-## 1. lépés: Töltse be a projektet
+
+## Read WBS Codes
+Először beolvassuk a meglévő WBS-kódokat, hogy lásd, mivel dolgozol.
+
+### Step 1: Load the Project
 ```java
 Project project = new Project("Your Document Directory" + "input.mpp");
 ```
-## 2. lépés: Gyűjtse össze a feladatokat
+
+### Step 2: Collect Tasks
 ```java
 ChildTasksCollector collector = new ChildTasksCollector();
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
-## 3. lépés: Elemzés és testreszabás
+
+### Step 3: Parse and Customize
 ```java
 for (Task tsk : collector.getTasks()) {
     System.out.println(tsk.get(Tsk.WBS));
@@ -49,25 +75,31 @@ for (Task tsk : collector.getTasks()) {
     tsk.set(Tsk.WBS, "custom wbs");
 }
 ```
-Ez a kódrészlet beolvassa és testreszabja a projektben lévő feladatokhoz társított WBS-kódokat.
-## Újraszámozza a feladat WBS kódjait
-Most pedig nézzük meg a feladatok WBS-kódjainak újraszámozását:
-## 1. lépés: Töltse be a projektet
+
+A fenti kódrészlet kiírja minden feladat aktuális WBS-ét és szintjét, majd bemutatja a **WBS-kódok testreszabását** egy új karakterlánc hozzárendelésével.
+
+## Renumber Task WBS Codes
+Most pedig ténylegesen újraszámozzuk a WBS-hierarchiát.
+
+### Step 1: Load the Project (Renumber Example)
 ```java
 Project project = new Project("Your Document Directory" + "RenumberExample.mpp");
 ```
-## 2. lépés: Válassza az Összes feladat lehetőséget
+
+### Step 2: Select All Tasks
 ```java
 List<Task> tasks = (List<Task>) project.getRootTask().selectAllChildTasks();
 ```
-## 3. lépés: A kezdeti WBS kódok kiadása
+
+### Step 3: Output Initial WBS Codes
 ```java
 System.out.println("WBS codes before: ");
 for (Task task : tasks) {
     System.out.println("\"" + task.get(Tsk.WBS) + "\"" + "; ");
 }
 ```
-## 4. lépés: Számolja át a WBS kódokat
+
+### Step 4: Renumber WBS Codes
 ```java
 List<Integer> listIds = new ArrayList<>();
 listIds.add(1);
@@ -75,27 +107,51 @@ listIds.add(2);
 listIds.add(3);
 project.renumberWBSCode(listIds);
 ```
-## 5. lépés: Frissített WBS-kódok kiadása
+
+### Step 5: Output Updated WBS Codes
 ```java
 System.out.println("\nWBS codes after: ");
 for (Task task : tasks) {
     System.out.println("\"" + task.get(Tsk.WBS) + "\"" + "; ");
 }
 ```
-Ha követi ezeket a lépéseket, hatékonyan újraszámozza a projektben lévő feladatok WBS-kódjait.
-## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan kell WBS-kódokkal dolgozni az Aspose.Tasks for Java segítségével. Ez a tudás lehetővé teszi a projekt feladathierarchiájának hatékony kezelését és testreszabását.
-## GYIK
-### K: Hol találom az Aspose.Tasks for Java dokumentációját?
- V: A dokumentáció elérhető[itt](https://reference.aspose.com/tasks/java/).
-### K: Hogyan tölthetem le az Aspose.Tasks for Java-t?
- V: Letöltheti[itt](https://releases.aspose.com/tasks/java/).
-### K: Elérhető az Aspose.Tasks for Java ingyenes próbaverziója?
- V: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
-### K: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?
- V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatásért.
-### K: Kaphatok ideiglenes licencet az Aspose.Tasks for Java számára?
- V: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+
+Ezeket a lépéseket követve hatékonyan **hogyan számozzuk újra a WBS-t** bármely feladathalmazra a projektfájlodban.
+
+## Common Issues and Solutions
+- **A WBS nem változik a `set` hívás után:** Győződj meg róla, hogy a megfelelő feladatpéldányon dolgozol, és a projektet mentetted a módosítások után.  
+- **A `renumberWBSCode` kivételt dob:** Ellenőrizd, hogy az azonosítók listája megegyezik a legfelső szintű feladatok számával; különben a metódus nem tudja helyesen hozzárendelni az új számokat.  
+- **Hiányzó WBS értékek:** Egyes feladatok `null` WBS-sel rendelkezhetnek, ha olyan fájlból importálták őket, amely nem definiált ilyet. Használj tartalékértéket a kiírás előtt.
+
+## Frequently Asked Questions
+
+**Q: Hol találom meg az Aspose.Tasks for Java dokumentációját?**  
+A: A dokumentáció elérhető [itt](https://reference.aspose.com/tasks/java/).
+
+**Q: Hogyan tölthetem le az Aspose.Tasks for Java-t?**  
+A: Letöltheted [itt](https://releases.aspose.com/tasks/java/).
+
+**Q: Van ingyenes próbaverzió az Aspose.Tasks for Java-hoz?**  
+A: Igen, ingyenes próbaverziót kaphatsz [itt](https://releases.aspose.com/).
+
+**Q: Hol kaphatok támogatást az Aspose.Tasks for Java-hoz?**  
+A: Látogasd meg az [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) támogatásért.
+
+**Q: Kaphatok ideiglenes licencet az Aspose.Tasks for Java-hoz?**  
+A: Igen, ideiglenes licencet szerezhetsz [itt](https://purchase.aspose.com/temporary-license/).
+
+**Q: Át tudom nevezni a WBS formátumot az újraszámozás után?**  
+A: Természetesen. A `renumberWBSCode` meghívása után iterálhatsz a feladatokon, és alkalmazhatod a `task.set(Tsk.WBS, "NewFormat-" + task.get(Tsk.WBS))` kifejezést a saját elnevezési konvencióidnak megfelelően.
+
+**Q: Az újraszámozás befolyásolja a feladatfüggőségeket?**  
+A: Nem. A metódus csak a WBS karakterláncot frissíti; a feladakhivatkozások és korlátozások változatlanok maradnak.
+
+---
+
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
