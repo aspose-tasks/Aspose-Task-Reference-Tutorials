@@ -1,11 +1,15 @@
 ---
-date: 2025-12-31
-description: Aspose.Tasks for Java'da proje özelliklerini ve özel özellikleri nasıl
-  okuyacağınızı öğrenin. Bu adım adım kılavuz, MPP dosyalarından meta verileri nasıl
-  çıkaracağınızı gösterir.
-linktitle: Read Project Properties in Aspose.Tasks Projects
+date: 2026-04-24
+description: Aspose.Tasks for Java kullanarak Java’da proje özelliklerini nasıl okuyacağınızı
+  öğrenin. Bu adım adım kılavuz, MPP dosyalarından meta verileri nasıl çıkaracağınızı
+  gösterir.
+keywords:
+- read project properties java
+- Aspose.Tasks Java
+- read custom project properties
+linktitle: Aspose.Tasks ile Java'da Proje Özelliklerini Okuma
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks Projelerinde Proje Özelliklerini Okuma
+title: Aspose.Tasks ile Java’da Proje Özelliklerini Okuma
 url: /tr/java/project-properties/read-meta-properties/
 weight: 10
 ---
@@ -14,34 +18,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Projelerinde Proje Özelliklerini Okuma
+# Java ile Aspose.Tasks Kullanarak Proje Özelliklerini Okuma
 
 ## Giriş
-Microsoft Project dosyalarından **proje özelliklerini** okumanız gerekiyorsa, Aspose.Tasks for Java, yerleşik ve özel meta verileri çekmek için temiz, tip‑güvenli bir API sunar. Bu öğreticide, bu özelliklere erişmenin neden önemli olduğunu, elde edilen bilgilerle neler yapabileceğinizi ve birkaç basit adımda nasıl alacağınızı keşfedeceksiniz.
+Microsoft Project dosyalarından **read project properties java** okumanız gerekiyorsa, Aspose.Tasks for Java, yerleşik ve özel meta verileri çekmek için temiz, tip‑güvenli bir API sunar. Bu öğreticide, bu özelliklere erişmenin neden önemli olduğunu, bu bilgilerle neler yapabileceğinizi ve birkaç basit adımda nasıl alacağınızı keşfedeceksiniz.
 
 ## Hızlı Yanıtlar
-- **Ne çıkarabilirim?** Yerleşik (Author, Title vb.) ve özel proje özellikleri.  
-- **Hangi kütüphane sürümü?** En yeni Aspose.Tasks for Java sürümü (JDK 11+ ile uyumlu).  
-- **Önkoşullar?** JDK yüklü ve Aspose.Tasks for Java projenize eklenmiş.  
-- **Uygulama süresi ne kadar?** Temel yalnızca okuma senaryosu için genellikle 10 dakikadan az.  
-- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterli; üretim için tam lisans gerekir.
+- **Ne çıkarabilirim?** Both built‑in (Author, Title, etc.) and custom project properties.  
+- **Hangi kütüphane sürümü?** The latest Aspose.Tasks for Java release (compatible with JDK 11+).  
+- **Önkoşullar?** JDK installed and Aspose.Tasks for Java added to your project.  
+- **Uygulama ne kadar sürer?** Typically under 10 minutes for a basic read‑only scenario.  
+- **Lisans gerekli mi?** A temporary license works for evaluation; a full license is needed for production.
 
-## “Proje özelliklerini okuma” nedir?
-Proje özelliklerini okumak, bir proje dosyasının (ör. *.mpp*) içinde depolanan meta veriye erişmek anlamına gelir. Bu meta veri, zaman çizelgesi detayları, yazar bilgileri ve sizin ya da kuruluşunuzun eklediği özel alanları içerir. Bu değerleri ortaya çıkararak raporlar oluşturabilir, değişiklikleri denetleyebilir veya verileri sonraki sistemlere aktarabilirsiniz.
+## Java ile Proje Özelliklerini Okuma
+Proje özelliklerini okumak, bir proje dosyasının (örn., *.mpp*) içinde depolanan meta verilere erişmek anlamına gelir. Bu meta veriler, takvim‑seviyesi ayrıntılar, yazar bilgileri ve sizin ya da kuruluşunuzun eklediği özel alanları içerir. Bu değerleri ortaya çıkararak raporlar oluşturabilir, değişiklikleri denetleyebilir veya verileri sonraki sistemlere aktarabilirsiniz.
 
-## Neden proje özelliklerini okumalısınız?
-- **Daha iyi raporlama:** Yazar, başlık ve özel alanları çekerek panolara besleyin.  
-- **Veri doğrulama:** İşleme başlamadan önce gerekli özel özelliklerin varlığını kontrol edin.  
-- **Otomasyon:** Özellik değerlerini uygulamalarınızda koşullu mantığı yönlendirmek için kullanın.
+## Bunun Projeleriniz İçin Önemi
+- **Daha iyi raporlama:** Pull author, title, and custom fields to feed dashboards.  
+- **Veri doğrulama:** Ensure required custom properties exist before processing.  
+- **Otomasyon:** Use property values to drive conditional logic in your applications.  
 
 ## Önkoşullar
-Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
+Başlamadan önce, aşağıdakilerin hazır olduğundan emin olun:
 
-1. **Java Development Kit (JDK):** En yeni JDK’yı [buradan](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin.  
-2. **Aspose.Tasks for Java Kütüphanesi:** Kütüphaneyi [indirme bağlantısından](https://releases.aspose.com/tasks/java/) indirin ve JAR dosyalarını projenizin sınıf yoluna ekleyin.
+1. **Java Development Kit (JDK):** En son JDK'yı [buradan](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) yükleyin.  
+2. **Aspose.Tasks for Java Library:** Kütüphaneyi [download link](https://releases.aspose.com/tasks/java/) üzerinden indirin ve JAR dosyalarını projenizin sınıf yoluna ekleyin.
 
 ## Paketleri İçe Aktarma
-İhtiyacınız olan sınıfları önce içe aktarın. Aşağıdaki kod bloğu orijinal öğreticiden değiştirilmemiştir.
+İlk olarak, ihtiyacınız olan sınıfları içe aktarın.
 
 ```java
 import com.aspose.tasks.BuiltInProjectProperty;
@@ -50,22 +54,22 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.examples.Tasks.ActualProperties;
 ```
 
-## Adım 1. Veri Dizinini Ayarlama
-*.mpp* dosyanızın bulunduğu klasörü belirtin.
+## Adım 1. Veri Dizinini Ayarla
+*.mpp* dosyanızı içeren klasörü belirtin.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Adım 2. Project Nesnesini Başlatma
-Proje dosyasının tam yolunu geçirerek bir `Project` örneği oluşturun.
+## Adım 2. Project Nesnesini Başlat
+`Project` örneğini, proje dosyasının tam yolunu geçirerek oluşturun.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Adım 3. Özel Özellikleri Okuma
-**Özel özellikleri okumak** için `getCustomProps()` tarafından döndürülen koleksiyon üzerinde döngü kurun. Bu döngü her özelliğin tipini, adını ve değerini yazdırır.
+## Adım 3. Özel Özellikleri Oku
+**Özel özellikleri okumak** için, `getCustomProps()` tarafından döndürülen koleksiyonu yineleyin. Bu döngü her özelliğin tipini, adını ve değerini yazdırır.
 
 ```java
 for (CustomProjectProperty property : project.getCustomProps()) {
@@ -75,16 +79,16 @@ for (CustomProjectProperty property : project.getCustomProps()) {
 }
 ```
 
-## Adım 4. Yerleşik Özelliklere Erişim
-Yerleşik özellikler, `getBuiltInProps()` erişimcisi aracılığıyla doğrudan kullanılabilir. Burada örnek olarak yazar ve başlık okunmaktadır.
+## Adım 4. Yerleşik Özelliklere Eriş
+Yerleşik özellikler, `getBuiltInProps()` erişicisi aracılığıyla doğrudan kullanılabilir. Burada örnek olarak yazar ve başlığı okuyoruz.
 
 ```java
 System.out.println("Author: " + project.getBuiltInProps().getAuthor());
 System.out.println("Title: " + project.getBuiltInProps().getTitle());
 ```
 
-## Adım 5. Yerleşik Özellikler Üzerinde Dolaşma
-Tüm yerleşik özellikleri listelemek isterseniz, `getBuiltInProps()` tarafından döndürülen iterable’ı kullanın.
+## Adım 5. Yerleşik Özellikler Üzerinde Döngü
+Tüm yerleşik özellikleri listelemek isterseniz, `getBuiltInProps()` tarafından döndürülen yinelemeyi kullanın.
 
 ```java
 for (BuiltInProjectProperty property : project.getBuiltInProps()) {
@@ -93,30 +97,37 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
 }
 ```
 
-## Yaygın Sorunlar ve İpuçları
+## Yaygın Kullanım Senaryoları
+- **Gösterge paneli oluşturma:** Pull project metadata to populate KPI dashboards.  
+- **Geçiş betikleri:** Export custom properties before moving projects to another system.  
+- **Uyumluluk kontrolleri:** Verify that mandatory fields (e.g., “Project Sponsor”) are populated.  
+
+## Sorun Giderme ve İpuçları
 - **Null değerler:** Bazı yerleşik özellikler hiç ayarlanmamışsa `null` olabilir. Değeri kullanmadan önce her zaman `null` kontrolü yapın.  
-- **Kodlama sorunları:** ASCII dışı karakterlerle çalışırken JVM’inizin uygun dosya kodlamasıyla (ör. `-Dfile.encoding=UTF-8`) yapılandırıldığından emin olun.  
-- **Performans:** Özellikleri okumak hızlıdır, ancak çok büyük *.mpp* dosyalarını yüklemek bellek tüketebilir; büyük projeler için 64‑bit JVM kullanmayı düşünün.
+- **Kodlama sorunları:** ASCII dışı karakterlerle çalışırken, JVM'nizin uygun dosya kodlamasıyla (örn., `-Dfile.encoding=UTF-8`) yapılandırıldığından emin olun.  
+- **Performans:** Çok büyük *.mpp* dosyalarını yüklemek önemli bellek tüketebilir; 64‑bit bir JVM kullanmayı ve yığın boyutunu (`-Xmx2g`) artırmayı düşünün.  
 
-## Sonuç
-Bu adımları izleyerek Aspose.Tasks projelerinden **proje özelliklerini**—hem yerleşik hem de özel—okuyabileceğinizi öğrendiniz. Bu meta veriyi kullanarak raporlamayı kolaylaştırabilir, veri kalitesini artırabilir ve proje‑yönetimi iş akışlarınızda otomasyonu güçlendirebilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS
-### S: Aspose.Tasks özel meta‑özellikleri verimli bir şekilde işleyebilir mi?
-C: Aspose.Tasks, hem özel hem de yerleşik meta‑özellikler için güçlü destek sağlar ve verimli çıkarma ve manipülasyon imkanı sunar.  
-### S: Aspose.Tasks farklı proje dosya formatlarıyla uyumlu mu?
-C: Evet, Aspose.Tasks MPP, XML ve daha fazlası dahil olmak üzere geniş bir proje dosyası formatı yelpazesini destekler.  
-### S: Aspose.Tasks için geçici lisansları nasıl alabilirim?
-C: Aspose.Tasks için geçici lisansları [geçici lisans portalından](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.  
-### S: Aspose.Tasks kapsamlı bir dokümantasyona sahip mi?
-C: Evet, Aspose.Tasks için kapsamlı dokümantasyonu [dokümantasyon sayfasında](https://reference.aspose.com/tasks/java/) bulabilirsiniz.  
-### S: Aspose.Tasks ile ilgili sorular için nereden destek alabilirim?
-C: Aspose.Tasks ile ilgili her türlü yardım ve sorular için topluluk ve uzmanlardan destek alabileceğiniz [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
+**S:** Aspose.Tasks özel meta‑özellikleri verimli bir şekilde işleyebilir mi?  
+**C:** Evet. Aspose.Tasks, hem özel hem de yerleşik meta‑özellikler için güçlü destek sağlar, verimli çıkarım ve manipülasyon sağlar.
+
+**S:** Aspose.Tasks farklı proje dosya formatlarıyla uyumlu mu?  
+**C:** Kesinlikle. MPP, XML ve MPX ve Planner dosyaları gibi çeşitli diğer formatları destekler.
+
+**S:** Aspose.Tasks için geçici bir lisans nasıl alabilirim?  
+**C:** Geçici lisansı [geçici lisans portalı](https://purchase.aspose.com/temporary-license/) üzerinden edinebilirsiniz.
+
+**S:** Ayrıntılı API belgelerini nerede bulabilirim?  
+**C:** Kapsamlı dokümantasyon [dokümantasyon sayfası](https://reference.aspose.com/tasks/java/) adresinde mevcuttur.
+
+**S:** Topluluk desteği alabileceğim veya teknik sorular sorabileceğim yer neresi?  
+**C:** Hem topluluktan hem de Aspose uzmanlarından yardım almak için [Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) adresini ziyaret edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-31  
-**Test Edilen Versiyon:** Aspose.Tasks for Java (en son sürüm)  
+**Son Güncelleme:** 2026-04-24  
+**Test Edilen:** Aspose.Tasks for Java (latest release)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

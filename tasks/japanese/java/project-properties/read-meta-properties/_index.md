@@ -1,10 +1,14 @@
 ---
-date: 2025-12-31
-description: Aspose.Tasks for Javaでプロジェクト プロパティの読み取りとカスタム プロパティの読み取り方法を学びます。このステップバイステップ
+date: 2026-04-24
+description: Aspose.Tasks for Java を使用して Java でプロジェクト プロパティを読み取る方法を学びましょう。このステップバイステップ
   ガイドでは、MPP ファイルからメタデータを抽出する方法を示します。
-linktitle: Read Project Properties in Aspose.Tasks Projects
+keywords:
+- read project properties java
+- Aspose.Tasks Java
+- read custom project properties
+linktitle: Aspose.Tasks を使用した Java でプロジェクト プロパティを読み取る
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks プロジェクトのプロパティを読み取る
+title: Aspose.Tasks を使用した Java でプロジェクト プロパティを読み取る
 url: /ja/java/project-properties/read-meta-properties/
 weight: 10
 ---
@@ -13,34 +17,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks プロジェクトでプロジェクト プロパティを読み取る
+# Aspose.Tasks を使用した Java のプロジェクト プロパティの読み取り
 
 ## はじめに
-Microsoft Project ファイルから **プロジェクト プロパティを読み取る** 必要がある場合、Aspose.Tasks for Java は組み込みおよびカスタム メタデータの取得に適した、型安全なクリーンな API を提供します。このチュートリアルでは、これらのプロパティにアクセスする重要性、取得した情報でできること、そして数ステップで正確に取得する方法を学びます。
+Microsoft Project ファイルから **read project properties java** を読み取る必要がある場合、Aspose.Tasks for Java は、組み込みおよびカスタムメタデータの両方を取得できるクリーンで型安全な API を提供します。このチュートリアルでは、これらのプロパティにアクセスする重要性、取得した情報でできること、そして数ステップでそれらを取得する方法を紹介します。
 
 ## クイック回答
-- **何を抽出できますか？** 組み込みプロパティ（Author、Title など）とカスタム プロジェクト プロパティの両方です。  
-- **使用するライブラリのバージョンは？** 最新の Aspose.Tasks for Java リリース（JDK 11+ と互換性あり）。  
+- **何を抽出できますか？** Both built‑in (Author, Title, etc.) and custom project properties.  
+- **どのライブラリ バージョンですか？** The latest Aspose.Tasks for Java release (compatible with JDK 11+).  
 - **前提条件は？** JDK がインストールされ、Aspose.Tasks for Java がプロジェクトに追加されていること。  
-- **実装にどれくらい時間がかかりますか？** 基本的な読み取り専用シナリオで通常 10 分未満です。  
-- **ライセンスは必要ですか？** 評価用に一時ライセンスが利用可能です。製品環境では正式ライセンスが必要です。
+- **実装にどれくらい時間がかかりますか？** 基本的な読み取り専用シナリオでは通常 10 分未満です。  
+- **ライセンスは必要ですか？** 評価には一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。
 
-## 「プロジェクト プロパティを読み取る」とは何ですか？
-プロジェクト プロパティを読み取るとは、プロジェクト ファイル（例: *.mpp*）内部に保存されているメタデータにアクセスすることを指します。このメタデータにはスケジュール情報、作成者情報、組織が追加したカスタム フィールドなどが含まれます。これらの値を取得することで、レポート作成、変更の監査、下流システムへのデータ供給が可能になります。
+## Java でプロジェクト プロパティを読み取る方法
+プロジェクト プロパティを読み取るとは、プロジェクト ファイル（例: *.mpp*）に保存されているメタデータにアクセスすることを意味します。このメタデータには、スケジュールレベルの詳細、作成者情報、組織が追加したカスタム フィールドが含まれます。これらの値を取得することで、レポートの作成、変更の監査、または下流システムへのデータ供給が可能になります。
 
-## なぜプロジェクト プロパティを読み取るのか？
-- **レポートの向上:** 作者、タイトル、カスタム フィールドを取得してダッシュボードに供給します。  
-- **データ検証:** 必要なカスタム プロパティが存在することを処理前に確認します。  
-- **自動化:** プロパティ値を使用してアプリケーションの条件ロジックを駆動します。
+## これがプロジェクトにとって重要な理由
+- **レポートの向上:** Pull author, title, and custom fields to feed dashboards.  
+- **データ検証:** Ensure required custom properties exist before processing.  
+- **自動化:** Use property values to drive conditional logic in your applications.  
 
 ## 前提条件
 開始する前に、以下が準備できていることを確認してください。
 
-1. **Java Development Kit (JDK):** 最新の JDK を [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) からインストールします。  
-2. **Aspose.Tasks for Java Library:** ライブラリを [download link](https://releases.aspose.com/tasks/java/) からダウンロードし、JAR ファイルをプロジェクトのクラスパスに追加します。
+1. **Java Development Kit (JDK):** 最新の JDK を [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) からインストールしてください。  
+2. **Aspose.Tasks for Java Library:** ライブラリを [download link](https://releases.aspose.com/tasks/java/) からダウンロードし、JAR ファイルをプロジェクトのクラスパスに追加してください。
 
 ## パッケージのインポート
-まず、必要なクラスをインポートします。以下のコードブロックはオリジナルのチュートリアルと同一です。
+まず、必要なクラスをインポートします。
 
 ```java
 import com.aspose.tasks.BuiltInProjectProperty;
@@ -50,21 +54,21 @@ import com.aspose.tasks.examples.Tasks.ActualProperties;
 ```
 
 ## 手順 1. データ ディレクトリの設定
-*.mpp* ファイルが格納されているフォルダーを指定します。
+*.mpp* ファイルが格納されているフォルダーを指定してください。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
 ## 手順 2. Project オブジェクトの初期化
-プロジェクト ファイルへのフルパスを渡して `Project` インスタンスを作成します。
+`Project` インスタンスを、プロジェクト ファイルへのフルパスを渡して作成します。
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
 ## 手順 3. カスタム プロパティの読み取り
-**カスタム プロパティを読み取る** には、`getCustomProps()` が返すコレクションを反復処理します。このループは各プロパティの型、名前、値を出力します。
+**カスタム プロパティを読み取る**には、`getCustomProps()` が返すコレクションを反復処理します。このループは各プロパティの型、名前、値を出力します。
 
 ```java
 for (CustomProjectProperty property : project.getCustomProps()) {
@@ -75,7 +79,7 @@ for (CustomProjectProperty property : project.getCustomProps()) {
 ```
 
 ## 手順 4. 組み込みプロパティへのアクセス
-組み込みプロパティは `getBuiltInProps()` アクセサを介して直接取得できます。ここでは例として作者とタイトルを読み取ります。
+組み込みプロパティは `getBuiltInProps()` アクセサーを通じて直接取得できます。ここでは例として author と title を読み取ります。
 
 ```java
 System.out.println("Author: " + project.getBuiltInProps().getAuthor());
@@ -92,31 +96,38 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
 }
 ```
 
-## よくある問題とヒント
-- **Null 値:** 設定されていない場合、組み込みプロパティは `null` になることがあります。使用前に必ず `null` チェックを行ってください。  
-- **エンコーディングの問題:** 非 ASCII 文字を扱う際は、JVM が適切なファイルエンコーディング（例: `-Dfile.encoding=UTF-8`）で設定されていることを確認してください。  
-- **パフォーマンス:** プロパティの読み取りは高速ですが、非常に大きな *.mpp* ファイルをロードするとメモリを消費します。大規模プロジェクトでは 64 ビット JVM の使用を検討してください。
+## 一般的な使用例
+- **ダッシュボード生成:** Pull project metadata to populate KPI dashboards.  
+- **マイグレーション スクリプト:** Export custom properties before moving projects to another system.  
+- **コンプライアンスチェック:** Verify that mandatory fields (e.g., “Project Sponsor”) are populated.  
 
-## 結論
-これらの手順に従うことで、Aspose.Tasks プロジェクトから **組み込みおよびカスタム** の両方のプロジェクト プロパティを **読み取る** 方法が分かります。このメタデータを活用すれば、レポート作成の効率化、データ品質の向上、プロジェクト管理ワークフロー全体の自動化が実現できます。
+## トラブルシューティングとヒント
+- **Null values:** 設定されていない場合、いくつかの組み込みプロパティは `null` になることがあります。使用する前に必ず `null` かどうかを確認してください。  
+- **Encoding problems:** 非 ASCII 文字を扱う場合、JVM が適切なファイルエンコーディング（例: `-Dfile.encoding=UTF-8`）で設定されていることを確認してください。  
+- **Performance:** 非常に大きな *.mpp* ファイルをロードすると大量のメモリを消費する可能性があります。64 ビット JVM の使用とヒープサイズ（`-Xmx2g`）の増加を検討してください。  
 
-## FAQ
-### Q: Aspose.Tasks はカスタム メタ プロパティを効率的に処理できますか？
-A: Aspose.Tasks はカスタムおよび組み込みメタ プロパティの両方に対して堅牢なサポートを提供し、効率的な抽出と操作を実現します。  
-### Q: Aspose.Tasks はさまざまなプロジェクト ファイル形式に対応していますか？
-A: はい、Aspose.Tasks は MPP、XML など、幅広いプロジェクト ファイル形式をサポートしています。  
-### Q: Aspose.Tasks の一時ライセンスはどう取得できますか？
-A: 一時ライセンスは [temporary license portal](https://purchase.aspose.com/temporary-license/) から取得できます。  
-### Q: Aspose.Tasks は包括的なドキュメントを提供していますか？
-A: はい、詳細なドキュメントは [documentation page](https://reference.aspose.com/tasks/java/) にあります。  
-### Q: Aspose.Tasks に関する質問のサポートはどこで受けられますか？
-A: Aspose.Tasks に関する支援や質問は、[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) でコミュニティや専門家から受けられます。
+## よくある質問
+
+**Q: Aspose.Tasks はカスタム メタプロパティを効率的に処理できますか？**  
+A: Yes. Aspose.Tasks provides robust support for both custom and built‑in meta‑properties, ensuring efficient extraction and manipulation.
+
+**Q: Aspose.Tasks はさまざまなプロジェクト ファイル形式に対応していますか？**  
+A: Absolutely. It supports MPP, XML, and several other formats such as MPX and Planner files.
+
+**Q: Aspose.Tasks の一時ライセンスはどう取得できますか？**  
+A: You can acquire a temporary license through the [temporary license portal](https://purchase.aspose.com/temporary-license/).
+
+**Q: 詳細な API ドキュメントはどこで見つけられますか？**  
+A: Comprehensive documentation is available on the [documentation page](https://reference.aspose.com/tasks/java/).
+
+**Q: コミュニティサポートや技術的な質問はどこで受けられますか？**  
+A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for help from both the community and Aspose experts.
 
 ---
 
-**最終更新日:** 2025-12-31  
-**テスト環境:** Aspose.Tasks for Java（最新リリース）  
-**作成者:** Aspose  
+**最終更新日:** 2026-04-24  
+**テスト環境:** Aspose.Tasks for Java (latest release)  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
