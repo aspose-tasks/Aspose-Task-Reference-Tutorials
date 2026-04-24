@@ -1,10 +1,15 @@
 ---
-date: 2025-12-28
-description: เรียนรู้วิธีการอ่านไฟล์ XML ของ Primavera ไปยัง MS Project ด้วย Aspose.Tasks
-  for Java เพื่อให้การแลกเปลี่ยนข้อมูลเป็นไปอย่างราบรื่นและการจัดการโครงการดีขึ้น
-linktitle: Read Project from Primavera in Aspose.Tasks
+date: 2026-04-24
+description: เรียนรู้วิธีใช้ Aspose.Tasks Java เพื่อนำเข้า Primavera XML ไปยัง MS
+  Project เพื่อให้การแลกเปลี่ยนข้อมูลเป็นไปอย่างราบรื่นและการจัดการโครงการดีขึ้น
+keywords:
+- aspose tasks java
+- import xml ms project
+- java read project
+- java project xml
+linktitle: อ่านโครงการจาก Primavera ใน Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: วิธีอ่านไฟล์ XML ของ Primavera ไปยัง MS Project ด้วย Aspose.Tasks สำหรับ Java
+title: aspose tasks java – อ่านไฟล์ XML ของ Primavera ไปยัง MS Project
 url: /th/java/project-management/read-primavera/
 weight: 20
 ---
@@ -13,35 +18,35 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# อ่าน MS Project จาก Primavera ด้วย Aspose.Tasks for Java
+# อ่าน MS Project จาก Primavera ด้วย Aspose.Tasks สำหรับ Java
 
 ## บทนำ
-ในการจัดการโครงการสมัยใหม่ การย้ายข้อมูลระหว่างเครื่องมือโดยไม่สูญเสียรายละเอียดเป็นสิ่งสำคัญ บทเรียนนี้จะแสดงให้คุณ **วิธีอ่านไฟล์ primavera xml** และนำเข้าไปยัง Microsoft Project ด้วย Aspose.Tasks for Java เมื่อเสร็จแล้ว คุณจะสามารถดึงคุณสมบัติงานเฉพาะของ Primavera ออกมา ทำให้การวิเคราะห์ข้ามแพลตฟอร์มเป็นเรื่องง่ายและมีประสิทธิภาพ
+ในโลกการจัดการโครงการที่เคลื่อนที่อย่างรวดเร็วในวันนี้ คุณมักต้องย้ายกำหนดการระหว่าง Primavera P6 และ Microsoft Project โดยไม่สูญเสียรายละเอียดใด ๆ คู่มือฉบับนี้แสดง **วิธีอ่านไฟล์ Primavera XML** และนำเข้าไปยัง MS Project ด้วย **aspose tasks java** เมื่อจบคู่มือคุณจะสามารถดึงคุณสมบัติงานที่เฉพาะของ Primavera ไปยังแอปพลิเคชัน Java ได้ ทำให้คุณมีแหล่งข้อมูลเดียวสำหรับการวิเคราะห์ รายงาน หรือการทำอัตโนมัติต่อไป
 
 ## คำตอบอย่างรวดเร็ว
-- **Aspose.Tasks for Java ทำอะไรได้บ้าง?** มันสามารถอ่านและเขียนไฟล์โครงการหลายรูปแบบ รวมถึง Primavera XML และ Microsoft Project (MPP)  
-- **ต้องใช้ไลเซนส์หรือไม่?** มีรุ่นทดลองฟรีสำหรับการประเมินผล; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานในสภาพแวดล้อมจริง  
-- **รองรับเวอร์ชัน Java ใด?** ต้องใช้ Java 8 หรือสูงกว่า  
-- **สามารถอ่านรูปแบบอื่นนอกจาก Primavera XML ได้หรือไม่?** ได้, Aspose.Tasks รองรับ MPP, XML และรูปแบบอื่น ๆ อีกมากมาย  
-- **วิธีนี้เหมาะกับโครงการระดับองค์กรขนาดใหญ่หรือไม่?** แน่นอน—Aspose.Tasks ถูกออกแบบมาสำหรับสถานการณ์ระดับองค์กรที่ต้องการประสิทธิภาพสูง
+- **Aspose.Tasks for Java ทำอะไร?** มันอ่านและเขียนรูปแบบไฟล์โครงการหลายประเภท รวมถึง Primavera XML และ Microsoft Project (MPP).  
+- **ต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีสามารถใช้เพื่อประเมินผลได้; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **รองรับเวอร์ชัน Java ใด?** จำเป็นต้องใช้ Java 8 หรือสูงกว่า.  
+- **สามารถนำเข้ารูปแบบอื่น ๆ นอกจาก Primavera XML ได้หรือไม่?** ได้, aspose tasks java ยังรองรับ MPP, XML, และรูปแบบอื่น ๆ อีกมาก.  
+- **วิธีนี้เหมาะกับโครงการระดับองค์กรขนาดใหญ่หรือไม่?** แน่นอน—Aspose.Tasks ถูกออกแบบมาสำหรับสถานการณ์ที่ต้องการประสิทธิภาพสูงและระดับองค์กร.  
 
-## Primavera XML คืออะไร?
-การอ่าน Primavera XML หมายถึงการแยกวิเคราะห์ไฟล์ XML ที่ส่งออกจาก Oracle Primavera P6 เพื่อดึงข้อมูลกำหนดการโครงการ—งาน, ระยะเวลา, ทรัพยากร, และคุณสมบัติเฉพาะของ Primavera—เพื่อให้เครื่องมืออื่น ๆ เช่น Microsoft Project สามารถนำไปใช้ได้
+## aspose tasks java – การอ่าน Primavera XML
+การอ่าน Primavera XML หมายถึงการแยกวิเคราะห์ไฟล์ XML ที่ส่งออกจาก Oracle Primavera P6 เพื่อดึงข้อมูลกำหนดการโครงการ เช่น งาน, ระยะเวลา, ทรัพยากร, และคุณลักษณะเฉพาะของ Primavera เพื่อให้สามารถนำไปใช้กับเครื่องมืออื่น ๆ เช่น Microsoft Project.
 
-## ทำไมต้องใช้ Aspose.Tasks for Java เพื่ออ่าน Primavera XML?
-- **ความสมบูรณ์แบบเต็มรูปแบบ:** คุณสมบัติเฉพาะของ Primavera ทั้งหมดจะถูกเก็บรักษาไว้  
-- **ไม่มีการพึ่งพาไลบรารีภายนอก:** เป็นไลบรารี Java แท้ ๆ ไม่ต้องติดตั้ง Primavera หรือ MS Project  
-- **ขยายขนาดได้:** จัดการโครงการขนาดใหญ่ที่มีงานหลายพันรายการได้อย่างมีประสิทธิภาพ  
-- **ข้ามแพลตฟอร์ม:** ทำงานบน Windows, Linux, และ macOS
+## ทำไมต้องใช้ Aspose.Tasks สำหรับ Java เพื่ออ่าน Primavera XML?
+- **ความสมบูรณ์แบบเต็มรูปแบบ:** คุณสมบัติเฉพาะของ Primavera ทั้งหมดจะถูกเก็บรักษา.  
+- **ไม่มีการพึ่งพาภายนอก:** ไลบรารี Java แท้ ๆ ไม่ต้องติดตั้ง Primavera หรือ MS Project.  
+- **ขยายได้:** จัดการโครงการขนาดใหญ่ที่มีงานหลายพันรายการได้อย่างมีประสิทธิภาพ.  
+- **ข้ามแพลตฟอร์ม:** ทำงานบน Windows, Linux, และ macOS.  
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนเริ่มทำตามขั้นตอน ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
-1. **Java Development Kit (JDK)** – ติดตั้ง Java 8 หรือใหม่กว่า  
-2. **Aspose.Tasks for Java** – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/tasks/java/)  
-3. ไฟล์ Primavera XML (เช่น `PrimaveraProject.xml`) ที่ต้องการอ่าน
+ก่อนที่คุณจะเริ่ม โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+1. **Java Development Kit (JDK)** – ติดตั้ง Java 8 หรือใหม่กว่า.  
+2. **Aspose.Tasks for Java** – ดาวน์โหลดจาก [here](https://releases.aspose.com/tasks/java/).  
+3. ไฟล์ Primavera XML (เช่น `PrimaveraProject.xml`) ที่คุณต้องการอ่าน.  
 
-## วิธีอ่านไฟล์โครงการด้วย Java และ Aspose.Tasks?
-ต่อไปนี้เป็นคำแนะนำแบบขั้นตอนที่พาคุณผ่านกระบวนการทั้งหมด
+## วิธีอ่านไฟล์โครงการ java ด้วย Aspose.Tasks?
+ด้านล่างเป็นคู่มือขั้นตอนต่อขั้นตอนที่พาคุณผ่านกระบวนการทั้งหมด.
 
 ### นำเข้าแพ็กเกจ
 ```java
@@ -52,11 +57,11 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeDelta;
 ```
 
-### ขั้นตอนที่ 1: ตั้งค่าโฟลเดอร์ข้อมูล
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีข้อมูล
 ```java
 String dataDir = "Your Data Directory";
 ```
-เปลี่ยน `"Your Data Directory"` ให้เป็นเส้นทางเต็มที่ไฟล์ Primavera XML ของคุณอยู่
+แทนที่ `"Your Data Directory"` ด้วยเส้นทางเต็มที่ไฟล์ Primavera XML ของคุณอยู่.
 
 ### ขั้นตอนที่ 2: อ่านโครงการจาก Primavera XML
 ```java
@@ -64,9 +69,9 @@ PrimaveraReadOptions options = new PrimaveraReadOptions();
 options.setProjectUid(3883);
 Project project = new Project(dataDir + "PrimaveraProject.xml", options);
 ```
-อัปเดต `"PrimaveraProject.xml"` ให้เป็นชื่อไฟล์ที่คุณส่งออกจาก Primavera จริง
+อัปเดต `"PrimaveraProject.xml"` ด้วยชื่อไฟล์จริงของการส่งออก Primavera ของคุณ.
 
-### ขั้นตอนที่ 3: วนลูปผ่านงานและดึงคุณสมบัติเฉพาะของ Primavera
+### ขั้นตอนที่ 3: วนผ่านงานและดึงคุณสมบัติที่เฉพาะของ Primavera
 ```java
 for (Task task : project.enumerateAllChildTasks()) {
     System.out.println("Task '" + task.getName() + "'");
@@ -105,37 +110,37 @@ for (Task task : project.enumerateAllChildTasks()) {
     System.out.println("Units % Complete: " + task.getPrimaveraProperties().getUnitsPercentComplete());
 }
 ```
-ลูปนี้จะแสดงรายละเอียดเฉพาะของแต่ละงาน เช่น Activity ID, ลำดับ WBS, ประเภทระยะเวลา, การแยกค่าใช้จ่าย ฯลฯ
+ลูปนี้จะแสดงรายละเอียดเฉพาะของ Primavera สำหรับแต่ละงาน เช่น Activity ID, ลำดับ WBS, ประเภทระยะเวลา, การแยกค่าใช้จ่าย, และอื่น ๆ.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
-- **ข้อผิดพลาดไฟล์ไม่พบ:** ตรวจสอบว่า `dataDir` ลงท้ายด้วยตัวคั่นเส้นทาง (`/` หรือ `\\`) และชื่อไฟล์ XML ถูกต้อง  
-- **คุณสมบัติ Primavera หาย:** ตรวจสอบว่าไฟล์ XML ถูกส่งออกพร้อมฟิลด์ที่ต้องการ; เวอร์ชัน Primavera เก่าบางรุ่นอาจไม่รวมคุณสมบัติบางอย่าง  
-- **ประสิทธิภาพเมื่อไฟล์ใหญ่:** พิจารณาเพิ่มขนาด heap ของ JVM (`-Xmx2g` หรือมากกว่า) สำหรับโครงการที่มีงานหลายหมื่นรายการ
+## ปัญหาทั่วไปและวิธีแก้
+- **ข้อผิดพลาดไฟล์ไม่พบ:** ตรวจสอบว่า `dataDir` ลงท้ายด้วยตัวคั่นเส้นทาง (`/` หรือ `\\`) และชื่อไฟล์ XML ถูกต้อง.  
+- **คุณสมบัติ Primavera ขาดหาย:** ตรวจสอบว่า XML ถูกส่งออกพร้อมฟิลด์ที่จำเป็นทั้งหมด; รุ่น Primavera เก่าบางรุ่นอาจละเว้นบางคุณลักษณะ.  
+- **ประสิทธิภาพกับไฟล์ขนาดใหญ่:** พิจารณาเพิ่มขนาด heap ของ JVM (`-Xmx2g` หรือสูงกว่า) สำหรับโครงการที่มีงานหลายหมื่นรายการ.  
 
 ## คำถามที่พบบ่อย
-### Q: สามารถแก้ไขคุณสมบัติเฉพาะของงาน Primavera ด้วย Aspose.Tasks for Java ได้หรือไม่?
-A: ได้, Aspose.Tasks for Java มี API ให้แก้ไขคุณสมบัติเฉพาะของงาน Primavera ตามต้องการ
+### Q: ฉันสามารถแก้ไขคุณสมบัติเฉพาะของ Primavera สำหรับงานโดยใช้ Aspose.Tasks for Java ได้หรือไม่?
+A: ได้, Aspose.Tasks for Java มี API เพื่อแก้ไขคุณสมบัติเฉพาะของ Primavera สำหรับงานตามความต้องการ.
 
 ### Q: Aspose.Tasks for Java รองรับการอ่านรูปแบบไฟล์โครงการอื่น ๆ หรือไม่?
-A: ได้, Aspose.Tasks for Java รองรับการอ่านไฟล์โครงการหลายรูปแบบรวมถึง MPP, XML, และ Primavera XML
+A: ได้, Aspose.Tasks for Java รองรับการอ่านรูปแบบไฟล์โครงการต่าง ๆ รวมถึง MPP, XML, และ Primavera XML.
 
 ### Q: Aspose.Tasks for Java เหมาะกับแอปพลิเคชันการจัดการโครงการระดับองค์กรหรือไม่?
-A: แน่นอน, Aspose.Tasks for Java มีฟีเจอร์และความสามารถในการขยายขนาดที่ทำให้เหมาะกับการใช้งานระดับองค์กร
+A: แน่นอน, Aspose.Tasks for Java มีคุณลักษณะที่แข็งแกร่งและสามารถขยายได้ ทำให้เหมาะกับแอปพลิเคชันการจัดการโครงการระดับองค์กร.
 
-### Q: สามารถดึงข้อมูลทรัพยากรจากโครงการ Primavera ด้วย Aspose.Tasks for Java ได้หรือไม่?
-A: ได้, Aspose.Tasks for Java สามารถดึงข้อมูลทรัพยากรร่วมกับรายละเอียดงานจากโครงการ Primavera
+### Q: ฉันสามารถดึงข้อมูลทรัพยากรจากโครงการ Primavera ด้วย Aspose.Tasks for Java ได้หรือไม่?
+A: ได้, Aspose.Tasks for Java อนุญาตให้คุณดึงข้อมูลทรัพยากรร่วมกับรายละเอียดงานจากโครงการ Primavera.
 
-### Q: จะหาเอกสารหรือการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?
-A: คุณสามารถดูเอกสารฉบับเต็มและเข้าถึงฟอรั่มสนับสนุนได้ที่หน้า [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/)
+### Q: ฉันจะหาเอกสารหรือการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?
+A: คุณสามารถค้นหาเอกสารฉบับเต็มและเข้าถึงฟอรั่มสนับสนุนได้ที่หน้า [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).  
 
 ## สรุป
-คุณได้เรียนรู้ **วิธีอ่านไฟล์ primavera xml** และดึงข้อมูลงานละเอียดเข้าสู่แอปพลิเคชัน Java ด้วย Aspose.Tasks ความสามารถนี้ช่วยเชื่อมช่องว่างระหว่าง Primavera และ Microsoft Project ให้คุณมองเห็นข้อมูลข้ามแพลตฟอร์มได้อย่างครบถ้วนและเพิ่มประสิทธิภาพการจัดการโครงการโดยรวม
+คุณได้เรียนรู้ **วิธีอ่านไฟล์ primavera xml** และดึงข้อมูลงานอย่างละเอียดเข้าสู่แอปพลิเคชัน Java ด้วย **aspose tasks java** ความสามารถนี้เชื่อมช่องว่างระหว่าง Primavera และ Microsoft Project ให้คุณมองเห็นข้อมูลครบถ้วนข้ามแพลตฟอร์มและเพิ่มประสิทธิภาพการจัดการโครงการโดยรวม
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-28  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.11  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
