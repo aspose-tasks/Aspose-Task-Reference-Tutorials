@@ -1,26 +1,43 @@
 ---
-title: Utwórz linię bazową zadań MS Project w Aspose.Tasks
-linktitle: Tworzenie planu bazowego zadań w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak utworzyć linię bazową zadań Microsoft Project w Javie przy użyciu Aspose.Tasks, potężnej biblioteki do łatwego zarządzania danymi projektu.
-weight: 11
+date: 2026-01-18
+description: Dowiedz się, jak utworzyć listę zadań w Javie i dodać zadanie do Microsoft
+  Project, ustawiając bazę odniesienia bez użycia MS Project przy użyciu Aspose.Tasks.
+linktitle: Creating a Task Baseline in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Utwórz listę zadań w Javie – bazę projektu MS Project przy użyciu Aspose.Tasks
 url: /pl/java/task-baselines/create-task-baseline/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz linię bazową zadań MS Project w Aspose.Tasks
+# Utwórz listę zadań Java – baza linii czasu MS Project przy użyciu Aspose.Tasks
 
-## Wstęp
-tym samouczku zagłębimy się w proces tworzenia linii bazowej zadań Microsoft Project przy użyciu Aspose.Tasks dla Java. Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project. Dzięki Aspose.Tasks możesz bez wysiłku manipulować danymi projektu, w tym zadaniami, zasobami i kalendarzami, aby usprawnić zadania związane z zarządzaniem projektami.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
-1. Zestaw Java Development Kit (JDK): Aspose.Tasks for Java wymaga zainstalowania pakietu JDK w systemie. Możesz pobrać i zainstalować JDK ze strony internetowej Oracle.
-2.  Biblioteka Aspose.Tasks for Java: Pobierz bibliotekę Aspose.Tasks for Java z witryny[link do pobrania](https://releases.aspose.com/tasks/java/) pod warunkiem, że.
+## Wprowadzenie
+W tym samouczku **utworzysz listę zadań Java** generując bazę linii czasu zadania Microsoft Project przy użyciu Aspose.Tasks dla Javy. Aspose.Tasks pozwala pracować z plikami Project bez zainstalowanego Microsoft Project, dzięki czemu możesz **dodać zadanie do Microsoft Project**, manipulować zasobami i nawet **ustawić bazę linii czasu bez MS Project** — wszystko z czystego kodu Java.
 
-## Importuj pakiety
+## Szybkie odpowiedzi
+- **Co robi Aspose.Tasks?** Udostępnia API Java do tworzenia, odczytywania i edytowania plików Microsoft Project bez MS Project.  
+- **Czy muszę mieć zainstalowany Microsoft Project?** Nie, Aspose.Tasks działa niezależnie.  
+- **Jaka wersja Javy jest wymagana?** JDK 8 lub wyższa.  
+- **Czy mogę ustawić bazę linii czasu dla pojedynczego zadania?** Tak, użyj `setBaseline` z listą zadań.  
+- **Czy wymagana jest licencja do produkcji?** Tak, licencja komercyjna usuwa ograniczenia wersji próbnej.
+
+## Czym jest baza linii czasu zadania?
+Baza linii czasu zadania zapisuje pierwotne planowane wartości rozpoczęcia, zakończenia i pracy dla zadania. Służy jako punkt odniesienia do porównania rzeczywistego postępu z pierwotnym planem.
+
+## Dlaczego używać Aspose.Tasks do tworzenia listy zadań Java?
+- **Brak zależności od MS Project** – idealne do automatyzacji po stronie serwera.  
+- **Pełna kontrola** nad zadaniami, zasobami i kalendarzami za pomocą kodu Java.  
+- **Kompatybilność między wersjami** z plikami Project 2007‑2024.
+
+## Wymagania wstępne
+1. **Java Development Kit (JDK)** – zainstaluj JDK 8 lub nowszy.  
+2. **Aspose.Tasks for Java** – pobierz bibliotekę z [download link](https://releases.aspose.com/tasks/java/).
+
+## Importowanie pakietów
 Aby rozpocząć pracę z Aspose.Tasks w swoim projekcie Java, zaimportuj niezbędne pakiety:
 ```java
 import com.aspose.tasks.BaselineType;
@@ -30,44 +47,71 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Krok 1: Utwórz obiekt projektu
+## Krok 1: Utwórz obiekt Project
 ```java
 Project project = new Project();
 ```
- Najpierw utwórz nowy`Project` obiekt. Ten obiekt reprezentuje plik Microsoft Project, z którym będziesz pracować.
+Tutaj tworzymy nowy obiekt `Project` – reprezentuje on plik MS Project, który będzie zawierał naszą listę zadań.
+
 ## Krok 2: Dodaj zadanie do projektu
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
- Używając`getRootTask()` uzyskaj dostęp do zadania głównego projektu, a następnie dodaj do niego nowe zadanie za pomocą metody`add()` metoda. Podaj nazwę zadania w nawiasach.
-## Krok 3: Ustaw linię bazową dla określonych zadań
+Używając `getRootTask()` uzyskujemy dostęp do korzenia hierarchii projektu i **dodajemy zadanie do Microsoft Project**. Ciąg znaków `"Task"` jest nazwą zadania; możesz go zamienić na dowolny opis, którego potrzebujesz.
+
+## Krok 3: Ustaw bazę linii czasu dla wybranych zadań
 ```java
 List<Task> myList = new ArrayList<Task>();
 project.setBaseline(BaselineType.Baseline, (Iterable<Task>) myList);
 ```
-Aby ustawić punkt odniesienia dla konkretnych zadań, utwórz listę zadań (`myList` w tym przypadku) i wypełnij go zadaniami, dla których chcesz ustawić linię bazową. Następnie skorzystaj z`setBaseline()` metodę, określając typ bazowy i listę zadań.
-## Krok 4: Ustaw linię bazową dla całego projektu
+Aby **ustawić bazę linii czasu bez MS Project**, utwórz listę zadań, które chcesz uwzględnić w bazie (tutaj `myList`) i przekaż ją do `setBaseline`. Wypełnij `myList` zadaniami, które dodałeś, jeśli potrzebujesz tylko wybranej bazy.
+
+## Krok 4: Ustaw bazę linii czasu dla całego projektu
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
- Alternatywnie możesz ustawić punkt odniesienia dla całego projektu, po prostu wywołując metodę`setBaseline()` metodę z określonym typem linii bazowej.
+Jeśli wolisz ustawić bazę dla całego projektu jednym wywołaniem, po prostu wywołaj `setBaseline` z żądanym `BaselineType`.
 
-## Wniosek
-W tym samouczku omówiliśmy, jak utworzyć linię bazową zadań programu Microsoft Project przy użyciu Aspose.Tasks dla języka Java. Wykonując czynności opisane powyżej, możesz efektywnie zarządzać danymi projektu i z łatwością usprawniać zadania związane z zarządzaniem projektami.
-## Często zadawane pytania
-### Czy mogę używać Aspose.Tasks dla Java bez zainstalowanego programu Microsoft Project?
-Tak, Aspose.Tasks for Java umożliwia pracę z plikami Microsoft Project bez konieczności instalowania Microsoft Project w systemie.
-### Czy Aspose.Tasks for Java jest kompatybilny z różnymi wersjami Microsoft Project?
-Tak, Aspose.Tasks for Java obsługuje różne wersje Microsoft Project, zapewniając kompatybilność w różnych środowiskach.
-### Czy mogę manipulować zasobami projektu za pomocą Aspose.Tasks dla Java?
-Absolutnie Aspose.Tasks dla Java zapewnia solidne funkcje do manipulowania zasobami projektu, w tym dodawania, aktualizowania i usuwania zasobów w razie potrzeby.
-### Czy Aspose.Tasks for Java obsługuje ustawianie zależności zadań?
-Tak, możesz bez wysiłku ustawić zależności zadań za pomocą Aspose.Tasks dla Java, umożliwiając ustalenie sekwencji zadań w projekcie.
-### Czy dostępna jest pomoc techniczna dla Aspose.Tasks dla Java?
- Tak, możesz uzyskać dostęp do pomocy technicznej dla Aspose.Tasks dla Java poprzez[forum wsparcia](https://forum.aspose.com/c/tasks/15), gdzie możesz zadawać pytania i zwracać się o pomoc do społeczności oraz personelu pomocniczego Aspose.
+## Jak dodać zadanie do Microsoft Project przy użyciu Aspose.Tasks
+Poza pojedynczym zadaniem pokazanym powyżej, możesz dodać wiele zadań, pod‑zadań i przydzielić zasoby. Każde wywołanie `add()` zwraca obiekt `Task`, który możesz dalej konfigurować (czas trwania, data rozpoczęcia itp.).
+
+## Jak ustawić bazę linii czasu bez MS Project
+Aspose.Tasks umożliwia tworzenie bazy linii czasu w pełni za pomocą kodu. Możesz ustawiać różne typy baz (Baseline, Baseline1‑Baseline10) zmieniając enum `BaselineType`, co pozwala śledzić wiele wersji baz bez konieczności otwierania MS Project.
+
+## Typowe problemy i rozwiązania
+- **Baza nie pojawia się:** Upewnij się, że wywołujesz `project.save("output.mpp")` po ustawieniu bazy (krok zapisu pominięty tutaj dla zwięzłości).  
+- **Lista zadań jest pusta:** Sprawdź, czy dodajesz zadania do właściwego rodzica (`getRootTask()` lub pod‑zadania).  
+- **Błędy niezgodności wersji:** Użyj najnowszego pliku JAR Aspose.Tasks, aby zapewnić kompatybilność z nowszymi formatami .mpp.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać Aspose.Tasks dla Javy bez zainstalowanego Microsoft Project?**  
+A: Tak, Aspose.Tasks działa niezależnie i nie wymaga Microsoft Project na maszynie hosta.
+
+**Q: Czy Aspose.Tasks dla Javy jest kompatybilny z różnymi wersjami Microsoft Project?**  
+A: Zdecydowanie. Biblioteka obsługuje pliki Project od 2007 do najnowszych wydań z 2024 roku.
+
+**Q: Czy mogę manipulować zasobami projektu przy użyciu Aspose.Tasks dla Javy?**  
+A: Tak, możesz programowo dodawać, aktualizować i usuwać zasoby, tak jak zadania.
+
+**Q: Czy Aspose.Tasks dla Javy obsługuje ustawianie zależności zadań?**  
+A: Tak, możesz definiować zależności poprzednik‑następca używając klasy `TaskLink`.
+
+**Q: Czy dostępne jest wsparcie techniczne dla Aspose.Tasks dla Javy?**  
+A: Tak, możesz uzyskać pomoc na [forum wsparcia](https://forum.aspose.com/c/tasks/15), gdzie pracownicy Aspose i społeczność odpowiadają na pytania.
+
+## Podsumowanie
+Postępując zgodnie z tymi krokami, nauczyłeś się jak **utworzyć listę zadań Java**, **dodać zadanie do Microsoft Project** oraz **ustawić bazę linii czasu bez MS Project** przy użyciu Aspose.Tasks. To podejście usprawnia automatyzację projektów, eliminuje potrzebę instalacji desktopowej wersji Project i daje pełną programistyczną kontrolę nad danymi projektu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose

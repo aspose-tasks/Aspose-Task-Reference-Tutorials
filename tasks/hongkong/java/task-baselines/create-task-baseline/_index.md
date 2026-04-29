@@ -1,27 +1,44 @@
 ---
-title: 在 Aspose.Tasks 中建立 MS Project 任務基線
-linktitle: 在 Aspose.Tasks 中建立任務基線
+date: 2026-01-18
+description: 學習如何使用 Java 建立工作清單，並將工作新增至 Microsoft Project，使用 Aspose.Tasks 在不使用 MS
+  Project 的情況下設定基準。
+linktitle: Creating a Task Baseline in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks 在 Java 中建立 Microsoft Project 任務基線，Aspose.Tasks 是一個用於輕鬆管理專案資料的強大函式庫。
-weight: 11
+title: 使用 Aspose.Tasks 建立 Java 任務清單 – MS Project 基線
 url: /zh-hant/java/task-baselines/create-task-baseline/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中建立 MS Project 任務基線
+# 建立任務清單 Java – MS Project 基線與 Aspose.Tasks
 
 ## 介紹
-在本教程中，我們將深入研究使用 Aspose.Tasks for Java 建立 Microsoft Project 任務基線的過程。 Aspose.Tasks 是一個功能強大的 Java 程式庫，可讓開發人員使用 Microsoft Project 文件，而無需安裝 Microsoft Project。透過 Aspose.Tasks，您可以輕鬆操作專案數據，包括任務、資源和日曆，以簡化專案管理任務。
-## 先決條件
-在我們開始之前，請確保您符合以下先決條件：
-1. Java 開發工具包 (JDK)：Aspose.Tasks for Java 需要在您的系統上安裝 JDK。您可以從 Oracle 網站下載並安裝 JDK。
-2.  Aspose.Tasks for Java 函式庫：從下列位置下載 Aspose.Tasks for Java 函式庫：[下載連結](https://releases.aspose.com/tasks/java/)假如。
+在本教學中，您將 **建立任務清單 Java**，透過 Aspose.Tasks for Java 產生 Microsoft Project 任務基線。Aspose.Tasks 讓您在未安裝 Microsoft Project 的情況下操作 Project 檔案，您可以 **將任務新增至 Microsoft Project**、操作資源，甚至 **在未使用 MS Project 的情況下設定基線**——全部以純 Java 程式碼完成。
 
-## 導入包
-若要開始在 Java 專案中使用 Aspose.Tasks，請匯入必要的套件：
+## 快速回答
+- **Aspose.Tasks 做什麼？** 它提供一套 Java API，用於在沒有 MS Project 的環境下建立、讀取與編輯 Microsoft Project 檔案。  
+- **需要安裝 Microsoft Project 嗎？** 不需要，Aspose.Tasks 可獨立運作。  
+- **需要哪個版本的 Java？** JDK 8 或以上。  
+- **可以為單一任務設定基線嗎？** 可以，使用 `setBaseline` 搭配任務清單即可。  
+- **正式環境需要授權嗎？** 需要，商業授權可移除評估版限制。
+
+## 什麼是任務基線？
+任務基線會記錄任務原始規劃的開始、結束與工作量數值，作為比較實際進度與原始計畫的參考點。
+
+## 為什麼使用 Aspose.Tasks 來建立任務清單 Java？
+- **無需 MS Project 相依** – 非常適合伺服器端自動化。  
+- **完整控制** 任務、資源與行事曆，全部透過 Java 程式碼。  
+- **跨版本相容**，支援 Project 2007‑2024 檔案。
+
+## 前置條件
+1. **Java Development Kit (JDK)** – 安裝 JDK 8 或更新版本。  
+2. **Aspose.Tasks for Java** – 從 [download link](https://releases.aspose.com/tasks/java/) 下載程式庫。  
+
+## 匯入套件
+開始在 Java 專案中使用 Aspose.Tasks 前，先匯入必要的套件：
 ```java
 import com.aspose.tasks.BaselineType;
 import com.aspose.tasks.Project;
@@ -30,44 +47,73 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## 第 1 步：建立專案對象
+## 步驟 1：建立 Project 物件
 ```java
 Project project = new Project();
 ```
-首先，建立一個新的`Project`目的。該物件代表您將使用的 Microsoft Project 檔案。
-## 第 2 步：為專案新增任務
+此處我們實例化一個新的 `Project` 物件——它代表將要保存任務清單的 MS Project 檔案。
+
+## 步驟 2：將任務新增至專案
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-使用`getRootTask()`方法，存取專案的根任務，然後使用以下命令向其新增任務`add()`方法。在括號內提供任務的名稱。
+使用 `getRootTask()` 取得專案層級的根節點，**將任務新增至 Microsoft Project**。字串 `"Task"` 為任務名稱，您可以自行替換成任何描述。
+
 ## 步驟 3：為指定任務設定基線
 ```java
 List<Task> myList = new ArrayList<Task>();
 project.setBaseline(BaselineType.Baseline, (Iterable<Task>) myList);
 ```
-若要為特定任務設定基線，請建立任務清單 (`myList`在本例中）並用您要為其設定基線的任務填充它。然後，使用`setBaseline()`方法，指定基線類型和任務清單。
-## 第 4 步：為整個專案設定基線
+要 **在未使用 MS Project 的情況下設定基線**，先建立要設定基線的任務清單（此處為 `myList`），再傳入 `setBaseline`。如果只需要針對特定任務設定基線，請將您新增的任務加入 `myList`。
+
+## 步驟 4：為整個專案設定基線
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-或者，您可以透過簡單地呼叫來為整個專案設定基線`setBaseline()`指定基線類型的方法。
+若想一次為整個專案設定基線，只需以所需的 `BaselineType` 呼叫 `setBaseline` 即可。
+
+## 如何使用 Aspose.Tasks 將任務新增至 Microsoft Project
+除了上述單一任務外，您還可以新增多個任務、子任務，並指派資源。每次呼叫 `add()` 都會回傳一個 `Task` 物件，您可以進一步設定其持續時間、開始日期等屬性。
+
+## 如何在未使用 MS Project 的情況下設定基線
+Aspose.Tasks 完全透過程式碼建立基線。您可以透過變更 `BaselineType` 列舉（Baseline、Baseline1‑Baseline10）來設定不同的基線類型，從而追蹤多次修訂的基線，而不必開啟 MS Project。
+
+## 常見問題與解決方案
+- **基線未顯示：** 確認在設定基線後呼叫 `project.save("output.mpp")`（此處為簡化示範，未列出保存步驟）。  
+- **任務清單顯示為空：** 檢查是否將任務新增至正確的父節點（`getRootTask()` 或子任務）。  
+- **版本不相容錯誤：** 使用最新的 Aspose.Tasks JAR，以確保與較新 .mpp 格式相容。
+
+## 常見問答
+
+**Q: 可以在未安裝 Microsoft Project 的環境下使用 Aspose.Tasks for Java 嗎？**  
+A: 可以，Aspose.Tasks 可獨立運作，無需在主機上安裝 Microsoft Project。
+
+**Q: Aspose.Tasks for Java 是否相容不同版本的 Microsoft Project？**  
+A: 完全相容。此程式庫支援 2007 年至最新 2024 版的 Project 檔案。
+
+**Q: 可以使用 Aspose.Tasks for Java 操作專案資源嗎？**  
+A: 可以，您可以以程式方式新增、更新與刪除資源，操作方式與任務相同。
+
+**Q: Aspose.Tasks for Java 支援設定任務相依性嗎？**  
+A: 支援，您可以使用 `TaskLink` 類別定義前置任務與後續任務的關係。
+
+**Q: 有提供 Aspose.Tasks for Java 的技術支援嗎？**  
+A: 有，您可透過 [support forum](https://forum.aspose.com/c/tasks/15) 向 Aspose 工作人員與社群尋求協助。
 
 ## 結論
-在本教學中，我們探討如何使用 Aspose.Tasks for Java 建立 Microsoft Project 任務基準。透過執行上述步驟，您可以有效率地管理專案資料並輕鬆簡化專案管理任務。
-## 常見問題解答
-### 我可以在未安裝 Microsoft Project 的情況下使用 Aspose.Tasks for Java 嗎？
-是的，Aspose.Tasks for Java 允許您使用 Microsoft Project 文件，而無需在系統上安裝 Microsoft Project。
-### Aspose.Tasks for Java 是否與不同版本的 Microsoft Project 相容？
-是的，Aspose.Tasks for Java 支援各種版本的 Microsoft Project，確保不同環境之間的相容性。
-### 我可以使用 Aspose.Tasks for Java 操作專案資源嗎？
-當然，Aspose.Tasks for Java 提供了操作專案資源的強大功能，包括根據需要新增、更新和刪除資源。
-### Aspose.Tasks for Java是否支援設定任務依賴關係？
-是的，您可以使用 Aspose.Tasks for Java 輕鬆設定任務依賴關係，讓您能夠在專案中建立任務順序。
-### Aspose.Tasks for Java 是否提供技術支援？
-是的，您可以透過以下方式存取 Aspose.Tasks for Java 的技術支援：[支援論壇](https://forum.aspose.com/c/tasks/15)，您可以在其中提出問題並尋求社區和 Aspose 支援人員的協助。
+透過上述步驟，您已學會如何 **建立任務清單 Java**、**將任務新增至 Microsoft Project**，以及 **在未使用 MS Project 的情況下設定基線**，全部使用 Aspose.Tasks。此方法可簡化專案自動化流程，免除桌面版 Project 的安裝需求，並讓您完整程式化掌控專案資料。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-01-18  
+**測試環境：** Aspose.Tasks for Java 24.12  
+**作者：** Aspose  
+
+---

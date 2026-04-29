@@ -1,24 +1,40 @@
 ---
-title: Create MS Project Task Baseline in Aspose.Tasks
+title: "Create Task List Java – MS Project Baseline using Aspose.Tasks"
 linktitle: Creating a Task Baseline in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to create a Microsoft Project task baseline in Java using Aspose.Tasks, a powerful library for managing project data effortlessly.
+description: "Learn how to create task list Java and add task to Microsoft Project, setting a baseline without MS Project using Aspose.Tasks."
 weight: 11
 url: /java/task-baselines/create-task-baseline/
+date: 2026-01-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create MS Project Task Baseline in Aspose.Tasks
+# Create Task List Java – MS Project Baseline with Aspose.Tasks
 
 ## Introduction
-In this tutorial, we'll delve into the process of creating a Microsoft Project task baseline using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that enables developers to work with Microsoft Project files without requiring Microsoft Project to be installed. With Aspose.Tasks, you can effortlessly manipulate project data, including tasks, resources, and calendars, to streamline project management tasks.
+In this tutorial, you'll **create task list Java** by generating a Microsoft Project task baseline using Aspose.Tasks for Java. Aspose.Tasks lets you work with Project files without having Microsoft Project installed, so you can **add task to Microsoft Project**, manipulate resources, and even **set baseline without MS Project**—all from pure Java code.
+
+## Quick Answers
+- **What does Aspose.Tasks do?** It provides a Java API for creating, reading, and editing Microsoft Project files without MS Project.  
+- **Do I need Microsoft Project installed?** No, Aspose.Tasks works independently.  
+- **Which Java version is required?** JDK 8 or higher.  
+- **Can I set a baseline for a single task?** Yes, use `setBaseline` with a task list.  
+- **Is a license needed for production?** Yes, a commercial license removes evaluation limits.
+
+## What is a Task Baseline?
+A task baseline records the original planned start, finish, and work values for a task. It serves as a reference point to compare actual progress against the original plan.
+
+## Why use Aspose.Tasks to create task list Java?
+- **No MS Project dependency** – ideal for server‑side automation.  
+- **Full control** over tasks, resources, and calendars via Java code.  
+- **Cross‑version compatibility** with Project 2007‑2024 files.
+
 ## Prerequisites
-Before we begin, ensure you have the following prerequisites:
-1. Java Development Kit (JDK): Aspose.Tasks for Java requires JDK installed on your system. You can download and install JDK from the Oracle website.
-2. Aspose.Tasks for Java Library: Download the Aspose.Tasks for Java library from the [download link](https://releases.aspose.com/tasks/java/) provided.
+1. **Java Development Kit (JDK)** – install JDK 8 or newer.  
+2. **Aspose.Tasks for Java** – download the library from the [download link](https://releases.aspose.com/tasks/java/).  
 
 ## Import Packages
 To start working with Aspose.Tasks in your Java project, import the necessary packages:
@@ -34,37 +50,57 @@ import java.util.List;
 ```java
 Project project = new Project();
 ```
-First, create a new `Project` object. This object represents the Microsoft Project file you'll be working with.
+Here we instantiate a new `Project` object – this represents the MS Project file that will hold our task list.
+
 ## Step 2: Add a Task to the Project
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Using the `getRootTask()` method, access the root task of the project and then add a new task to it using the `add()` method. Provide a name for the task within the parentheses.
+Using `getRootTask()` we access the root of the project hierarchy and **add task to Microsoft Project**. The string `"Task"` is the task name; you can replace it with any description you need.
+
 ## Step 3: Set Baseline for Specified Tasks
 ```java
 List<Task> myList = new ArrayList<Task>();
 project.setBaseline(BaselineType.Baseline, (Iterable<Task>) myList);
 ```
-To set a baseline for specific tasks, create a list of tasks (`myList` in this case) and populate it with the tasks for which you want to set the baseline. Then, use the `setBaseline()` method, specifying the baseline type and the list of tasks.
+To **set baseline without MS Project**, create a list of the tasks you want to baseline (here `myList`) and pass it to `setBaseline`. Populate `myList` with the tasks you added if you only need a selective baseline.
+
 ## Step 4: Set Baseline for the Entire Project
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-Alternatively, you can set a baseline for the entire project by simply calling the `setBaseline()` method with the baseline type specified.
+If you prefer to baseline the whole project in one call, simply invoke `setBaseline` with the desired `BaselineType`.
+
+## How to add task to Microsoft Project using Aspose.Tasks
+Beyond the single task shown above, you can add multiple tasks, sub‑tasks, and assign resources. Each call to `add()` returns a `Task` object that you can further configure (duration, start date, etc.).
+
+## How to set baseline without MS Project
+Aspose.Tasks enables baseline creation entirely through code. You can set different baseline types (Baseline, Baseline1‑Baseline10) by changing the `BaselineType` enum, allowing you to track multiple revision baselines without ever opening MS Project.
+
+## Common Issues and Solutions
+- **Baseline not appearing:** Ensure you call `project.save("output.mpp")` after setting the baseline (saving step omitted here for brevity).  
+- **Task list appears empty:** Verify that you are adding tasks to the correct parent (`getRootTask()` or a sub‑task).  
+- **Version mismatch errors:** Use the latest Aspose.Tasks JAR to guarantee compatibility with newer .mpp formats.
+
+## Frequently Asked Questions
+
+**Q: Can I use Aspose.Tasks for Java without Microsoft Project installed?**  
+A: Yes, Aspose.Tasks works independently and does not require Microsoft Project on the host machine.
+
+**Q: Is Aspose.Tasks for Java compatible with different versions of Microsoft Project?**  
+A: Absolutely. The library supports Project files from 2007 through the latest 2024 releases.
+
+**Q: Can I manipulate project resources using Aspose.Tasks for Java?**  
+A: Yes, you can add, update, and delete resources programmatically, just like tasks.
+
+**Q: Does Aspose.Tasks for Java support setting task dependencies?**  
+A: Yes, you can define predecessor‑successor relationships using the `TaskLink` class.
+
+**Q: Is technical support available for Aspose.Tasks for Java?**  
+A: Yes, you can get help via the [support forum](https://forum.aspose.com/c/tasks/15), where Aspose staff and the community respond to queries.
 
 ## Conclusion
-In this tutorial, we've explored how to create a Microsoft Project task baseline using Aspose.Tasks for Java. By following the steps outlined above, you can efficiently manage project data and streamline project management tasks with ease.
-## FAQ's
-### Can I use Aspose.Tasks for Java without Microsoft Project installed?
-Yes, Aspose.Tasks for Java allows you to work with Microsoft Project files without requiring Microsoft Project to be installed on your system.
-### Is Aspose.Tasks for Java compatible with different versions of Microsoft Project?
-Yes, Aspose.Tasks for Java supports various versions of Microsoft Project, ensuring compatibility across different environments.
-### Can I manipulate project resources using Aspose.Tasks for Java?
-Absolutely, Aspose.Tasks for Java provides robust features for manipulating project resources, including adding, updating, and removing resources as needed.
-### Does Aspose.Tasks for Java support setting task dependencies?
-Yes, you can set task dependencies effortlessly using Aspose.Tasks for Java, enabling you to establish the sequence of tasks within your project.
-### Is technical support available for Aspose.Tasks for Java?
-Yes, you can access technical support for Aspose.Tasks for Java via the [support forum](https://forum.aspose.com/c/tasks/15), where you can ask questions and seek assistance from the community and Aspose support staff.
+By following these steps, you've learned how to **create task list Java**, **add task to Microsoft Project**, and **set baseline without MS Project** using Aspose.Tasks. This approach streamlines project automation, eliminates the need for desktop Project installations, and gives you full programmatic control over your project data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,3 +108,11 @@ Yes, you can access technical support for Aspose.Tasks for Java via the [support
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---

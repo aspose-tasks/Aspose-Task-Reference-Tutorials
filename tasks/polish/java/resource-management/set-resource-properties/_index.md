@@ -1,31 +1,53 @@
 ---
-title: Ustaw właściwości zasobów w Aspose.Tasks
-linktitle: Ustaw właściwości zasobów w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak ustawić właściwości zasobów MS Project w Javie przy użyciu Aspose.Tasks w celu zapewnienia bezproblemowej integracji i wydajnego zarządzania zadaniami.
-weight: 20
+date: 2026-01-18
+description: Dowiedz się, jak ustawić standardową stawkę i inne właściwości zasobów
+  w MS Project przy użyciu Aspose.Tasks dla Javy, w tym jak dodać zasób w MS Project
+  i efektywnie zarządzać zasobami.
+linktitle: Set Resource Properties in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Jak ustawić standardową stawkę dla zasobów w Aspose.Tasks
 url: /pl/java/resource-management/set-resource-properties/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw właściwości zasobów w Aspose.Tasks
+# Ustaw standardową stawkę dla zasobów w Aspose.Tasks
 
-## Wstęp
-dziedzinie programowania w języku Java efektywne zarządzanie zadaniami jest kluczowym aspektem zarządzania projektami. Aspose.Tasks dla Java zapewnia programistom solidne rozwiązanie do interakcji z plikami Microsoft Project, umożliwiając bezproblemową integrację funkcji zarządzania zadaniami z aplikacjami Java. W tym samouczku zajmiemy się ustawianiem właściwości zasobów MS Project za pomocą Aspose.Tasks dla Java. Pod koniec tego przewodnika będziesz mieć pełną wiedzę na temat manipulowania właściwościami zasobów w projektach Java.
-## Warunki wstępne
-Zanim zagłębisz się w ten samouczek, upewnij się, że spełnione są następujące wymagania wstępne:
+## Wprowadzenie
+Jeśli tworzysz aplikacje Java, które muszą współpracować z plikami Microsoft Project, **ustawianie standardowej stawki** dla zasobu jest jednym z najczęstszych zadań. W tym samouczku dowiesz się, jak **ustawić standardową stawkę** oraz inne właściwości zasobu przy użyciu Aspose.Tasks for Java. Po zakończeniu przewodnika będziesz w stanie utworzyć obiekt projektu, dodać zasób do pliku MS Project i zarządzać zasobami MS Project z pewnością.
+
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do pracy z plikiem Project?** `Project`
+- **Która metoda dodaje nowy zasób?** `project.getResources().add()`
+- **Jak ustawić standardową stawkę?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
+- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest ważna licencja Aspose.Tasks.
+- **Która wersja Javy jest obsługiwana?** Java 8+ (zalecana najnowsza JDK).
+
+## Co to jest „ustaw standardową stawkę”?
+Operacja *ustaw standardową stawkę* przypisuje zasobowi domyślny koszt godzinowy. Kierownicy projektów używają tej wartości do obliczania kosztów pracy, generowania raportów kosztowych i prognozowania budżetów.
+
+## Dlaczego ustawiać stawki przy użyciu Aspose.Tasks?
+- **Brak konieczności instalacji Microsoft Project** – manipulacja plikami bezpośrednio z Java.  
+- **Pełna wierność** – wszystkie pola zasobów, w tym nadgodziny i stawki kosztów, są zachowane.  
+- **Cross‑platform** – działa na Windows, Linux i macOS.  
+- **Przyjazny automatyzacji** – idealny do przetwarzania wsadowego lub integracji z pipeline’ami CI.
+
+## Wymagania wstępne
+Przed rozpoczęciem upewnij się, że masz następujące elementy:
+
 ### Konfiguracja środowiska programistycznego Java
-1.  Zainstaluj pakiet JDK: Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK). Można go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Konfiguracja IDE: Wybierz zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans, i skonfiguruj je na swoim komputerze.
-### Aspose.Tasks do instalacji Java
-1.  Pobierz Aspose.Tasks dla Java: Przejdź do[strona pobierania](https://releases.aspose.com/tasks/java/) zdobądź najnowszą wersję Aspose.Tasks dla Java.
-2. Integracja z projektem: Włącz bibliotekę Aspose.Tasks for Java do swojego projektu Java, dodając ją jako zależność.
+1. **Zainstaluj JDK:** Upewnij się, że masz zainstalowany Java Development Kit (JDK) w systemie. Możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Konfiguracja IDE:** Wybierz Zintegrowane Środowisko Programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans i skonfiguruj je na swoim komputerze.
 
-## Importuj pakiety
-Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.Tasks dla Java do swojego projektu. Ten krok gwarantuje, że będziesz mieć dostęp do wymaganych funkcjonalności.
+### Instalacja Aspose.Tasks for Java
+1. **Pobierz Aspose.Tasks for Java:** Przejdź do [strony pobierania](https://releases.aspose.com/tasks/java/) i pobierz najnowszą wersję Aspose.Tasks for Java.  
+2. **Integracja z projektem:** Dodaj bibliotekę Aspose.Tasks for Java do swojego projektu Java, dodając ją jako zależność.
+
+## Importowanie pakietów
+Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.Tasks for Java do swojego projektu. Ten krok zapewnia dostęp do wymaganych funkcjonalności.
 
 ```java
 import com.aspose.tasks.Project;
@@ -34,44 +56,65 @@ import com.aspose.tasks.Rsc;
 import java.math.BigDecimal;
 ```
 
-## Krok 1: Utwórz obiekt projektu
- Po pierwsze, utwórz instancję a`Project` obiekt, aby rozpocząć pracę z danymi MS Project.
+## Krok 1: Utwórz obiekt Project
+Utworzenie **obiektu projektu** jest pierwszym krokiem do dowolnej manipulacji MS Project. Reprezentuje on cały plik projektu w pamięci.
 
 ```java
 Project project = new Project();
 ```
-## Krok 2: Dodaj zasób
- Następnie dodaj zasób do projektu za pomocą metody`add()` metoda`Resources` kolekcja.
+
+## Krok 2: Dodaj zasób (add resource ms project)
+Teraz **dodamy zasób MS Project** przy użyciu kolekcji Resources. Nazwa zasobu może być dowolna, pod warunkiem że ma sens w twoim harmonogramie.
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
 ```
-## Krok 3: Ustaw właściwości zasobu
- Teraz możesz ustawić różne właściwości zasobów, takie jak stawka standardowa i stawka za nadgodziny, używając odpowiednich stałych dostarczonych przez`Rsc` klasa.
+
+## Krok 3: Ustaw właściwości zasobu (how to set rates)
+Tutaj **ustawiamy standardową stawkę** oraz pokazujemy, jak ustawić stawkę nadgodzin. Stawki te są przechowywane jako wartości `BigDecimal`, aby zachować precyzję.
 
 ```java
-// Ustaw stawkę standardową dla zasobu
+// Set standard rate for the resource
 rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(15));
-// Ustaw stawkę za nadgodziny dla zasobu
+// Set overtime rate for the resource
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ```
 
-## Wniosek
-Podsumowując, Aspose.Tasks for Java oferuje wygodne rozwiązanie do zarządzania właściwościami zasobów MS Project w aplikacjach Java. Wykonując kroki opisane w tym samouczku, możesz bezproblemowo zintegrować funkcje zarządzania zasobami ze swoimi projektami, zwiększając wydajność i produktywność.
-## Często zadawane pytania
-### Czy Aspose.Tasks for Java obsługuje złożone pliki MS Project?
-Tak, Aspose.Tasks for Java jest w stanie obsłużyć szeroką gamę formatów plików MS Project, w tym złożone formaty z rozbudowaną hierarchią zadań.
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla Java?
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla Java z[Tutaj](https://releases.aspose.com/).
-### Gdzie mogę znaleźć wsparcie dla Aspose.Tasks dla Java?
- Możesz szukać pomocy i brać udział w dyskusjach związanych z Aspose.Tasks for Java na stronie[forum wsparcia](https://forum.aspose.com/c/tasks/15).
-### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks dla Java?
- Licencję tymczasową można uzyskać od firmy[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
-### Gdzie mogę kupić licencjonowaną wersję Aspose.Tasks dla Java?
- Licencjonowaną wersję Aspose.Tasks dla Java można kupić w witrynie[strona zakupu](https://purchase.aspose.com/buy).
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| `NullPointerException` podczas wywoływania `set` | Zasób nie został poprawnie dodany. | Upewnij się, że `project.getResources().add()` zwraca nie‑nullowy `Resource`. |
+| Stawki pojawiają się jako 0 w zapisanym pliku | Używanie `int` zamiast `BigDecimal`. | Zawsze używaj `BigDecimal.valueOf()` dla wartości pieniężnych. |
+| Nie znaleziono licencji | Plik licencji nie został załadowany przed utworzeniem `Project`. | Załaduj licencję (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) na początku programu. |
+
+## Podsumowanie
+Postępując zgodnie z tymi krokami, nauczyłeś się **tworzyć obiekt projektu**, **dodawać zasób MS Project** oraz **ustawiać standardową stawkę** wraz z innymi właściwościami zasobu. Daje to możliwość automatyzacji obliczeń kosztów, generowania niestandardowych raportów i pełnego zarządzania zasobami MS Project z poziomu Java.
+
+## FAQ
+### Czy Aspose.Tasks for Java radzi sobie z złożonymi plikami MS Project?
+Tak, Aspose.Tasks for Java jest w stanie obsługiwać szeroką gamę formatów plików MS Project, w tym złożone, zawierające rozbudowane hierarchie zadań.
+
+### Czy dostępna jest darmowa wersja próbna Aspose.Tasks for Java?
+Tak, możesz uzyskać darmową wersję próbną Aspose.Tasks for Java [tutaj](https://releases.aspose.com/).
+
+### Gdzie mogę znaleźć wsparcie dla Aspose.Tasks for Java?
+Możesz uzyskać pomoc i uczestniczyć w dyskusjach dotyczących Aspose.Tasks for Java na [forum wsparcia](https://forum.aspose.com/c/tasks/15).
+
+### Jak mogę uzyskać tymczasową licencję dla Aspose.Tasks for Java?
+Możesz uzyskać tymczasową licencję ze [strony tymczasowych licencji](https://purchase.aspose.com/temporary-license/) w celu oceny.
+
+### Gdzie mogę kupić licencjonowaną wersję Aspose.Tasks for Java?
+Możesz zakupić licencjonowaną wersję Aspose.Tasks for Java na [stronie zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-18  
+**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose
