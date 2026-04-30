@@ -1,93 +1,113 @@
 ---
-title: Aspose.Tasks 中不同類型的基線
-linktitle: Aspose.Tasks 中不同類型的基線
+date: 2026-04-30
+description: 學習如何使用 Aspose.Tasks for .NET 設定基準線並有效操作專案基準線。
+keywords:
+- how to set baseline
+- track project progress
+- baseline vs actual schedule
+- set project baseline
+- manage project baselines
+linktitle: Aspose.Tasks 中的不同基準線類型
 second_title: Aspose.Tasks .NET API
-description: 學習使用 Aspose.Tasks for .NET 有效地設定和操作專案基準。
-weight: 21
+title: 如何在 Aspose.Tasks 中設定基準 – 不同的基準類型
 url: /zh-hant/net/advanced-features/baseline-types/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中不同類型的基線
+# Aspose.Tasks 中的不同基準類型
 
 ## 介紹
 
-在專案管理領域，精確性和遠見至關重要。 Aspose.Tasks for .NET 提供了一個強大的工具包，可有效管理專案數據，讓使用者可以深入研究專案規劃、追蹤和執行的各個方面。 Aspose.Tasks 提供的一項重要功能是設定基準的能力，該基準可作為根據初始計劃衡量專案進度的參考點。
+在專案管理中，正確的 **設定基準線** 方式可能決定專案是保持在正軌上，還是失控。Aspose.Tasks for .NET 為您提供完整功能的 API，能建立、更新與比較基準線，讓您 **追蹤專案進度** 與原始計畫對照。在本教學中，您將學習如何設定基準線、使用多種基準類型，並利用資料分析專案的 **基準與實際排程**。
 
-## 先決條件
+## 快速解答
+- **什麼是基準線？** 在專案的特定時間點所拍攝的排程、成本與工作資料快照。  
+- **Aspose.Tasks 能儲存多少個基準線？** 每個專案最多可有 11 個不同的基準線。  
+- **為什麼要設定基準線？** 用於將實際表現與原始計畫比較，並找出差異。  
+- **試用是否需要授權？** 提供免費試用；正式使用需購買授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
 
-在使用 Aspose.Tasks for .NET 深入研究基線世界之前，請確保滿足以下先決條件：
+## Aspose.Tasks 中的「如何設定基準線」是什麼？
+設定基準線即是對 `Project` 物件呼叫 `SetBaseline` 方法。此 API 允許您從多個 `BaselineType` 值 (Baseline、Baseline1 … Baseline10) 中選擇，以便在專案演進過程中保留歷史快照。
 
-### 1.熟悉C#和.NET Framework
+## 為什麼要管理專案基準線？
+- **衡量差異：** 快速查看工作是否提前或延遲。  
+- **成本控制：** 比較基準成本與實際支出。  
+- **利害關係人報告：** 將基準資料匯出為 PDF、XLSX 或其他格式，以便清晰溝通。  
+- **情境規劃：** 儲存多個基準線以評估「假設」排程。
 
-要利用 Aspose.Tasks 的強大功能，對 C# 程式語言和 .NET 框架有基本的了解至關重要。這包括類別、方法和物件導向程式設計概念的知識。
+## 前置條件
 
-### 2.安裝Aspose.Tasks for .NET
+### 1. 熟悉 C# 與 .NET Framework
+需要具備 C# 類別、方法與物件導向概念的基本了解。
 
-請確定您已在開發環境中安裝了 Aspose.Tasks for .NET 程式庫。您可以從[Aspose.Tasks 網站](https://releases.aspose.com/tasks/net/)或透過 NuGet 套件管理器。
+### 2. 安裝 Aspose.Tasks for .NET
+確保已將此函式庫加入您的專案。您可以從 [Aspose.Tasks 官方網站](https://releases.aspose.com/tasks/net/) 下載，或透過 NuGet 安裝。
 
-### 3.整合開發環境（IDE）
+### 3. 整合開發環境 (IDE)
+建議使用 Visual Studio（或其他相容的 IDE）來編寫、編譯與偵錯 C# 程式碼。
 
-在系統上安裝 Visual Studio 等 IDE，以便無縫地編寫、編譯和偵錯 C# 程式碼。
+## 匯入命名空間
 
-## 導入命名空間
-
-在我們開始在 C# 專案中使用 Aspose.Tasks 之前，我們需要匯入必要的命名空間來存取所需的類別和方法。按著這些次序：
+在我們的 C# 專案中開始使用 Aspose.Tasks 前，需要匯入必要的命名空間以存取所需的類別與方法。請依照以下步驟：
 
 ```csharp
 
 ```
 
-現在我們已經設定了先決條件並導入了必要的命名空間，讓我們深入研究使用 Aspose.Tasks for .NET 設定不同類型的基準。為了清晰和易於理解，我們將每個範例分解為多個步驟。
+現在我們已完成前置條件設定與必要命名空間的匯入，讓我們深入探討使用 Aspose.Tasks for .NET 設定不同類型的基準線。為了清晰易懂，我們會將每個範例拆解成多個步驟。
 
-## 第 1 步：載入專案文件
+## 如何在 Aspose.Tasks 中設定基準線
 
-首先，我們需要載入要設定基線的專案文件。此步驟涉及初始化`Project`對象並載入專案文件。您可以這樣做：
+### 步驟 1：載入專案檔案
+首先，我們需要載入欲設定基準線的專案檔案。此步驟包括初始化 `Project` 物件並載入專案檔案。以下是實作方式：
 
 ```csharp
 var project = new Project("Project2.mpp");
 ```
 
-## 第 2 步：設定基線
-
-載入項目後，我們可以繼續設定基線。基準提供了專案初始進度的快照，可作為專案進度時進行比較的參考點。使用`SetBaseline`方法設定基線。例如，要設定整個專案的基線，請使用`BaselineType.Baseline`枚舉：
+### 步驟 2：設定基準線
+專案載入後，即可進行基準線設定。基準線提供專案初始排程的快照，作為專案進行過程中比較的參考點。使用 `SetBaseline` 方法來設定基準線。例如，若要為整個專案設定基準線，請使用 `BaselineType.Baseline` 列舉：
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## 第 3 步：使用專案基線
+### 步驟 3：使用專案基準線
+設定基準線後，您可以使用各種專案基準欄位來精確分析與追蹤專案進度。此步驟涉及存取基準資料，如開始日期、結束日期、工期與成本。您可利用 Aspose.Tasks 提供的豐富功能，依需求操作基準資料。
 
-設定基準後，您可以使用各種專案基準欄位來準確分析和追蹤專案進度。此步驟涉及存取基線數據，例如開始日期、完成日期、持續時間和成本。在這裡，您可以利用 Aspose.Tasks 提供的豐富功能來根據您的要求操作基準資料。
+## 常見問題與解決方案
+- **基準線未套用：** 呼叫 `SetBaseline` 後請確保儲存專案檔案。若需保留變更，使用 `project.Save("output.mpp");`。  
+- **多個基準線衝突：** 設定超過一個基準線時，請指定正確的 `BaselineType`（例如 `Baseline1`、`Baseline2`）。  
+- **版本不匹配：** 確認 Aspose.Tasks DLL 版本與目標 .NET 執行環境相符。
 
-## 結論
+## 常見問答
 
-總之，Aspose.Tasks for .NET 為開發人員提供了有效管理專案基準的強大工具。透過遵循本教學中概述的步驟，您可以無縫設定和操作不同類型的基線，讓您能夠精確、敏捷地監控專案進度。
+**Q: 我可以在單一專案中使用 Aspose.Tasks for .NET 設定多個基準線嗎？**  
+A: 可以，Aspose.Tasks 允許為專案設定最多 11 個基準線，提供完整的追蹤功能。
 
-## 常見問題解答
+**Q: Aspose.Tasks 是否相容於不同的專案檔案格式？**  
+A: 當然！Aspose.Tasks 支援多種專案檔案格式，如 MPP、XML 與 MPX，確保在不同平台間的相容性。
 
-### Q1：我可以使用 Aspose.Tasks for .NET 為單一專案設定多個基準嗎？
+**Q: 我該如何在專案中可視化基準資料？**  
+A: 您可使用 Aspose.Tasks 將專案資料匯出為常見檔案格式，如 PDF 或 XLSX，方便視覺化與分享基準資訊。
 
-A1：是的，Aspose.Tasks 允許您為一個項目設定多達 11 個基線，提供全面的追蹤功能。
+**Q: Aspose.Tasks 是否提供與專案管理工具整合的支援？**  
+A: Aspose.Tasks 提供豐富的文件與支援論壇，協助開發者將其功能無縫整合至流行的專案管理工具與平台。
 
-### Q2：Aspose.Tasks 是否相容於不同的專案檔案格式？
+**Q: 我可以在購買前先試用 Aspose.Tasks 嗎？**  
+A: 可以，您可於官方網站取得免費試用，親自體驗其功能。
 
-A2：當然！ Aspose.Tasks支援多種專案文件格式，例如MPP、XML和MPX，確保跨不同平台的兼容性。
+---
 
-### 問題 3：如何視覺化專案中的基線資料？
+**Last Updated:** 2026-04-30  
+**Tested With:** Aspose.Tasks for .NET (latest stable release)  
+**Author:** Aspose  
 
-A3：您可以利用 Aspose.Tasks 將專案資料匯出為流行的檔案格式，例如 PDF 或 XLSX，從而輕鬆實現基準資訊的視覺化和共用。
-
-### Q4：Aspose.Tasks 是否提供與專案管理工具整合的支援？
-
-A4：Aspose.Tasks 提供了廣泛的文件和支援論壇，以幫助開發人員將其功能與流行的專案管理工具和平台無縫整合。
-
-### Q5：我可以在購買前試用Aspose.Tasks嗎？
-
-A5：是的，您可以透過網站上提供的免費試用版探索 Aspose.Tasks，讓您親身體驗其功能。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

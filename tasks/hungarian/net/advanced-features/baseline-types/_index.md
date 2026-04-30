@@ -1,93 +1,114 @@
 ---
-title: Különböző típusú alapvonalak az Aspose.Tasks-ban
-linktitle: Különböző típusú alapvonalak az Aspose.Tasks-ban
+date: 2026-04-30
+description: Tanulja meg, hogyan állíthat be alapvonalat, és hogyan kezelheti hatékonyan
+  a projekt alapvonalakat az Aspose.Tasks for .NET segítségével.
+keywords:
+- how to set baseline
+- track project progress
+- baseline vs actual schedule
+- set project baseline
+- manage project baselines
+linktitle: Az Aspose.Tasks különböző alapvonal típusai
 second_title: Aspose.Tasks .NET API
-description: Tanulja meg hatékonyan beállítani és kezelni a projekt alapvonalait az Aspose.Tasks for .NET használatával.
-weight: 21
+title: Hogyan állítsunk be alapvonalat az Aspose.Tasks-ben – Különböző alapvonal típusok
 url: /hu/net/advanced-features/baseline-types/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Különböző típusú alapvonalak az Aspose.Tasks-ban
+# Az Aspose.Tasks különböző típusú bázisvonalai
 
 ## Bevezetés
 
-A projektmenedzsment területén a precizitás és az előrelátás a legfontosabb. Az Aspose.Tasks for .NET robusztus eszközkészletet biztosít a projektadatok hatékony kezeléséhez, lehetővé téve a felhasználók számára, hogy elmélyüljenek a projekttervezés, nyomon követés és végrehajtás különböző szempontjaiban. Az Aspose.Tasks egyik kulcsfontosságú funkciója az alapvonalak meghatározásának képessége, amelyek referenciapontként szolgálnak a projekt előrehaladásának mérésére a kezdeti tervekhez képest.
+A projektmenedzsmentben a **bázisvonal helyes beállítása** döntő lehet egy olyan projekt és egy olyan projekt között, amely a pályán marad, illetve amely kicsúszik az irányítás alól. Az Aspose.Tasks for .NET egy teljes körű API-t biztosít a bázisvonalak létrehozásához, frissítéséhez és összehasonlításához, lehetővé téve a **projekt előrehaladásának nyomon követését** az eredeti tervhez képest. Ebben az útmutatóban megtanulja, hogyan állítson be bázisvonalat, hogyan dolgozzon több bázisvonal típussal, és hogyan használja az adatokat a projekt **bázisvonal és a tényleges ütemezés** elemzéséhez.
+
+## Gyors válaszok
+- **Mi a bázisvonal?** A projekt egy adott pontjában készített ütemezés, költség és munkaadatok pillanatképe.  
+- **Hány bázisvonalat tud az Aspose.Tasks tárolni?** Projektenként legfeljebb 11 különálló bázisvonal.  
+- **Miért állítunk be bázisvonalat?** Az aktuális teljesítmény összehasonlításához az eredeti tervvel és az eltérések azonosításához.  
+- **Szükségem van licencre a kipróbáláshoz?** Ingyenes próba elérhető; licenc szükséges a termelési használathoz.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Mi a „bázisvonal beállítása” az Aspose.Tasks-ben?
+A bázisvonal beállítása azt jelenti, hogy meghívja a `SetBaseline` metódust egy `Project` objektumon. Az API lehetővé teszi, hogy több `BaselineType` érték közül válasszon (Baseline, Baseline1 … Baseline10), így a projekt fejlődése során megőrizheti a történelmi pillanatképeket.
+
+## Miért kezeljük a projekt bázisvonalait?
+- **Eltérés mérése:** Gyorsan látható, hogy a feladatok előre vagy később vannak-e az ütemtervnél.  
+- **Költségkontroll:** A bázisvonal költség összehasonlítása a tényleges kiadással.  
+- **Érintetti jelentés:** Bázisvonal adatok exportálása PDF, XLSX vagy más formátumokba a tiszta kommunikáció érdekében.  
+- **Forgatókönyv tervezés:** Több bázisvonal tárolása a „mi‑ha” ütemezések kiértékeléséhez.
 
 ## Előfeltételek
 
-Mielőtt belemerülne az alapvonalak világába az Aspose.Tasks for .NET segítségével, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-
 ### 1. C# és .NET Framework ismerete
+Alapvető ismeretekre van szükség a C# osztályok, metódusok és objektum‑orientált koncepciók terén.
 
-Az Aspose.Tasks erejének kihasználásához elengedhetetlen a C# programozási nyelv és a .NET keretrendszer alapvető ismerete. Ez magában foglalja az osztályok, módszerek és objektumorientált programozási koncepciók ismeretét.
+### 2. Az Aspose.Tasks for .NET telepítése
+Győződjön meg róla, hogy a könyvtár hozzá van adva a projektjéhez. Letöltheti a [Aspose.Tasks weboldaláról](https://releases.aspose.com/tasks/net/), vagy telepítheti a NuGet-en keresztül.
 
-### 2. Az Aspose.Tasks telepítése .NET-hez
-
-Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat a fejlesztői környezetben. Letöltheti a[Aspose.Tasks webhely](https://releases.aspose.com/tasks/net/) vagy a NuGet csomagkezelőn keresztül.
-
-### 3. Integrált fejlesztési környezet (IDE)
-
-Telepítsen a rendszerére egy IDE-t, például a Visual Studio-t a C#-kód zökkenőmentes írásához, fordításához és hibakereséséhez.
+### 3. Integrált fejlesztőkörnyezet (IDE)
+A Visual Studio (vagy bármely kompatibilis IDE) ajánlott C# kód írásához, fordításához és hibakereséséhez.
 
 ## Névterek importálása
 
-Mielőtt elkezdenénk dolgozni az Aspose.Tasks-szal C# projektünkben, importálnunk kell a szükséges névtereket a szükséges osztályok és metódusok eléréséhez. Kovesd ezeket a lepeseket:
+Mielőtt elkezdenénk az Aspose.Tasks használatát a C# projektünkben, importálnunk kell a szükséges névtereket a kívánt osztályok és metódusok eléréséhez. Kövesse ezeket a lépéseket:
 
 ```csharp
 
 ```
 
-Most, hogy beállítottuk az előfeltételeinket és importáltuk a szükséges névtereket, merüljünk el a különböző típusú alapvonalak beállításában az Aspose.Tasks for .NET segítségével. Az egyértelműség és a könnyebb érthetőség érdekében az egyes példákat több lépésre bontjuk.
+Miután beállítottuk az előfeltételeket és importáltuk a szükséges névtereket, merüljünk el a különböző típusú bázisvonalak beállításában az Aspose.Tasks for .NET segítségével. Minden példát több lépésre bontunk a tisztaság és a könnyű megértés érdekében.
 
-## 1. lépés: Töltse be a projektfájlt
+## Hogyan állítsunk be bázisvonalat az Aspose.Tasks-ben
 
- Először is be kell töltenünk azt a projektfájlt, amelyre az alapvonalat szeretnénk beállítani. Ez a lépés magában foglalja a`Project` objektumot, és betölti a projektfájlt. A következőképpen teheti meg:
+### 1. lépés: A projektfájl betöltése
+Először be kell töltenünk a projektfájlt, amelyre a bázisvonalat szeretnénk beállítani. Ez a lépés egy `Project` objektum inicializálását és a projektfájl betöltését jelenti. Íme, hogyan teheti meg:
 
 ```csharp
 var project = new Project("Project2.mpp");
 ```
 
-## 2. lépés: Állítsa be az alapvonalat
-
- projekt betöltése után folytathatjuk az alapvonal beállítását. Az alapvonalak pillanatképet adnak a projekt kezdeti ütemtervéről, amely referenciapontként szolgál a projekt előrehaladtával történő összehasonlításhoz. Használja a`SetBaseline` módszer az alapvonal beállításához. Például a teljes projekt alapvonalának beállításához használja a`BaselineType.Baseline` felsorolás:
+### 2. lépés: Bázisvonal beállítása
+Miután a projekt betöltődött, folytathatjuk a bázisvonal beállításával. A bázisvonalak a projekt kezdeti ütemezésének pillanatképét biztosítják, amely összehasonlítási referencia pontként szolgál a projekt előrehaladtával. Használja a `SetBaseline` metódust a bázisvonal beállításához. Például a teljes projekt bázisvonalának beállításához használja a `BaselineType.Baseline` felsorolást:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## 3. lépés: Munka a Project Baseline-okkal
+### 3. lépés: Munka a projekt bázisvonalakkal
+A bázisvonal beállítása után különböző projektbázisvonal mezőkkel dolgozhat a projekt előrehaladásának pontos elemzéséhez és nyomon követéséhez. Ez a lépés a bázisvonal adatok, például a kezdési dátumok, befejezési dátumok, időtartamok és költségek elérését jelenti. Itt használhatja az Aspose.Tasks által nyújtott gazdag funkciókészletet a bázisvonal adatok igényei szerinti manipulálásához.
 
-Az alapvonal beállítása után különböző projekt alapmezőkkel dolgozhat a projekt előrehaladásának pontos elemzéséhez és nyomon követéséhez. Ez a lépés magában foglalja az alapadatok, például a kezdési dátumok, befejezési dátumok, időtartamok és költségek elérését. Itt használhatja ki az Aspose.Tasks által biztosított gazdag szolgáltatáskészletet az alapadatok igény szerinti manipulálásához.
+## Gyakori problémák és megoldások
+- **Bázisvonal nem alkalmazva:** Győződjön meg róla, hogy a projektfájl mentve van a `SetBaseline` hívása után. Használja a `project.Save("output.mpp");` parancsot, ha a változtatásokat meg kell őrizni.  
+- **Több bázisvonal ütközése:** Több bázisvonal beállításakor adja meg a megfelelő `BaselineType` értéket (pl. `Baseline1`, `Baseline2`).  
+- **Verzióeltérés:** Ellenőrizze, hogy az Aspose.Tasks DLL verziója megegyezik a cél .NET futtatókörnyezettel.
 
-## Következtetés
+## Gyakran ismételt kérdések
 
-Összefoglalva, az Aspose.Tasks for .NET hatékony eszközökkel látja el a fejlesztőket a projekt alaphelyzeteinek hatékony kezeléséhez. Az ebben az oktatóanyagban vázolt lépések követésével zökkenőmentesen állíthat be és kezelhet különböző típusú alapvonalakat, lehetővé téve a projekt előrehaladásának precíz és mozgékony nyomon követését.
+**Q: Beállíthatok több bázisvonalat egyetlen projekthez az Aspose.Tasks for .NET használatával?**  
+A: Igen, az Aspose.Tasks lehetővé teszi, hogy egy projekthez legfeljebb 11 bázisvonalat állítson be, átfogó nyomon követési lehetőségekkel.
 
-## GYIK
+**Q: Az Aspose.Tasks kompatibilis különböző projektfájlformátumokkal?**  
+A: Teljes mértékben! Az Aspose.Tasks számos projektfájlformátumot támogat, például MPP, XML és MPX, biztosítva a kompatibilitást különböző platformok között.
 
-### 1. kérdés: Beállíthatok több alapvonalat egyetlen projekthez az Aspose.Tasks for .NET használatával?
+**Q: Hogyan jeleníthetem meg a bázisvonal adatokat a projektemben?**  
+A: Az Aspose.Tasks segítségével exportálhatja a projekt adatokat népszerű formátumokba, mint a PDF vagy XLSX, így könnyen megjelenítheti és megoszthatja a bázisvonal információkat.
 
-1. válasz: Igen, az Aspose.Tasks lehetővé teszi akár 11 alapvonal beállítását egy projekthez, átfogó nyomkövetési lehetőségeket biztosítva.
+**Q: Az Aspose.Tasks támogatja a projektmenedzsment eszközökkel való integrációt?**  
+A: Az Aspose.Tasks kiterjedt dokumentációt és támogatási fórumokat kínál, hogy a fejlesztők zökkenőmentesen integrálhassák funkcióit a népszerű projektmenedzsment eszközökkel és platformokkal.
 
-### 2. kérdés: Az Aspose.Tasks kompatibilis a különböző projektfájlformátumokkal?
+**Q: Kipróbálhatom az Aspose.Tasks-et vásárlás előtt?**  
+A: Igen, a weboldalon elérhető ingyenes próba segítségével felfedezheti az Aspose.Tasks-et, és első kézből megtapasztalhatja annak képességeit.
 
-A2: Abszolút! Az Aspose.Tasks különféle projektfájlformátumokat támogat, például MPP, XML és MPX, így biztosítja a kompatibilitást a különböző platformokon.
+---
 
-### 3. kérdés: Hogyan tudom megjeleníteni az alapadatokat a projektemben?
+**Utoljára frissítve:** 2026-04-30  
+**Tesztelve:** Aspose.Tasks for .NET (legújabb stabil kiadás)  
+**Szerző:** Aspose  
 
-3. válasz: Az Aspose.Tasks segítségével exportálhatja a projektadatokat olyan népszerű fájlformátumokba, mint a PDF vagy XLSX, lehetővé téve az alapinformációk egyszerű megjelenítését és megosztását.
-
-### 4. kérdés: Az Aspose.Tasks támogatja a projektmenedzsment eszközökkel való integrációt?
-
-4. válasz: Az Aspose.Tasks kiterjedt dokumentációt és támogatási fórumokat biztosít, hogy segítse a fejlesztőket abban, hogy zökkenőmentesen integrálják szolgáltatásait népszerű projektmenedzsment eszközökkel és platformokkal.
-
-### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
-
-5. válasz: Igen, felfedezheti az Aspose.Tasks-t a webhelyen elérhető ingyenes próbaverzión keresztül, amely lehetővé teszi, hogy első kézből tapasztalja meg a képességeit.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,93 +1,114 @@
 ---
-title: Diferentes tipos de líneas de base en Aspose.Tasks
-linktitle: Diferentes tipos de líneas de base en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a establecer y manipular líneas base de proyectos de manera eficiente usando Aspose.Tasks para .NET.
-weight: 21
+date: 2026-04-30
+description: Aprende cómo establecer la línea base y manipular las líneas base del
+  proyecto de manera eficiente usando Aspose.Tasks para .NET.
+keywords:
+- how to set baseline
+- track project progress
+- baseline vs actual schedule
+- set project baseline
+- manage project baselines
+linktitle: Diferentes tipos de líneas base en Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cómo establecer la línea base en Aspose.Tasks – Diferentes tipos de línea base
 url: /es/net/advanced-features/baseline-types/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Diferentes tipos de líneas de base en Aspose.Tasks
+# Tipos diferentes de líneas base en Aspose.Tasks
 
 ## Introducción
 
-En el ámbito de la gestión de proyectos, la precisión y la previsión son primordiales. Aspose.Tasks para .NET proporciona un conjunto de herramientas sólido para administrar los datos del proyecto de manera eficiente, lo que permite a los usuarios profundizar en varios aspectos de la planificación, el seguimiento y la ejecución del proyecto. Una característica crucial que ofrece Aspose.Tasks es la capacidad de establecer líneas de base, que sirven como puntos de referencia para medir el progreso del proyecto en comparación con los planes iniciales.
+En la gestión de proyectos, **cómo establecer la línea base** correctamente puede marcar la diferencia entre un proyecto que se mantiene en camino y uno que se sale de control. Aspose.Tasks para .NET le brinda una API completa para crear, actualizar y comparar líneas base, permitiéndole **seguimiento del progreso del proyecto** contra el plan original. En este tutorial aprenderá cómo establecer una línea base, trabajar con varios tipos de líneas base y usar los datos para analizar la **línea base vs cronograma real** de su proyecto.
+
+## Respuestas rápidas
+- **¿Qué es una línea base?** Una captura instantánea del cronograma, costo y datos de trabajo tomada en un punto específico de un proyecto.  
+- **¿Cuántas líneas base puede almacenar Aspose.Tasks?** Hasta 11 líneas base distintas por proyecto.  
+- **¿Por qué establecer una línea base?** Para comparar el rendimiento real con el plan original e identificar variaciones.  
+- **¿Necesito una licencia para probar esto?** Hay una prueba gratuita disponible; se requiere una licencia para uso en producción.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ¿Qué es “cómo establecer la línea base” en Aspose.Tasks?
+Establecer una línea base significa llamar al método `SetBaseline` en un objeto `Project`. La API le permite elegir entre varios valores de `BaselineType` (Baseline, Baseline1 … Baseline10) para que pueda conservar capturas históricas a medida que el proyecto evoluciona.
+
+## ¿Por qué gestionar líneas base del proyecto?
+- **Medir la variación:** Ver rápidamente si las tareas están adelantadas o retrasadas respecto al cronograma.  
+- **Control de costos:** Comparar el costo de la línea base con el gasto real.  
+- **Informes a interesados:** Exportar datos de la línea base a PDF, XLSX u otros formatos para una comunicación clara.  
+- **Planificación de escenarios:** Almacenar múltiples líneas base para evaluar cronogramas “what‑if”.
 
 ## Requisitos previos
 
-Antes de sumergirse en el mundo de las líneas de base con Aspose.Tasks para .NET, asegúrese de cumplir con los siguientes requisitos previos:
-
 ### 1. Familiaridad con C# y .NET Framework
-
-Para aprovechar el poder de Aspose.Tasks, es esencial tener un conocimiento básico del lenguaje de programación C# y del marco .NET. Esto incluye conocimiento de clases, métodos y conceptos de programación orientada a objetos.
+Se requiere una comprensión básica de clases, métodos y conceptos orientados a objetos en C#.
 
 ### 2. Instalación de Aspose.Tasks para .NET
+Asegúrese de que la biblioteca esté añadida a su proyecto. Puede descargarla desde el [sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) o instalarla mediante NuGet.
 
-Asegúrese de haber instalado la biblioteca Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargarlo desde el[Sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) o mediante el administrador de paquetes NuGet.
-
-### 3. Entorno de desarrollo integrado (IDE)
-
-Tenga un IDE como Visual Studio instalado en su sistema para escribir, compilar y depurar código C# sin problemas.
+### 3. Entorno de Desarrollo Integrado (IDE)
+Visual Studio (o cualquier IDE compatible) se recomienda para escribir, compilar y depurar código C#.
 
 ## Importar espacios de nombres
 
-Antes de comenzar a trabajar con Aspose.Tasks en nuestro proyecto C#, necesitamos importar los espacios de nombres necesarios para acceder a las clases y métodos requeridos. Sigue estos pasos:
+Antes de comenzar a trabajar con Aspose.Tasks en nuestro proyecto C#, necesitamos importar los espacios de nombres necesarios para acceder a las clases y métodos requeridos. Siga estos pasos:
 
 ```csharp
 
 ```
 
-Ahora que hemos configurado nuestros requisitos previos e importado los espacios de nombres necesarios, profundicemos en la configuración de diferentes tipos de líneas base usando Aspose.Tasks para .NET. Dividiremos cada ejemplo en varios pasos para mayor claridad y facilidad de comprensión.
+Ahora que hemos configurado los requisitos previos e importado los espacios de nombres necesarios, vamos a sumergirnos en la configuración de diferentes tipos de líneas base usando Aspose.Tasks para .NET. Desglosaremos cada ejemplo en varios pasos para mayor claridad y facilidad de comprensión.
 
-## Paso 1: cargue el archivo del proyecto
+## Cómo establecer una línea base en Aspose.Tasks
 
- En primer lugar, necesitamos cargar el archivo del proyecto en el que pretendemos establecer la línea base. Este paso implica inicializar un`Project` objeto y cargar el archivo del proyecto. Así es como puedes hacerlo:
+### Paso 1: Cargar el archivo del proyecto
+Primero, necesitamos cargar el archivo del proyecto en el que pretendemos establecer la línea base. Este paso implica inicializar un objeto `Project` y cargar el archivo del proyecto. Así es como puede hacerlo:
 
 ```csharp
 var project = new Project("Project2.mpp");
 ```
 
-## Paso 2: establecer la línea de base
-
-Una vez cargado el proyecto, podemos proceder a establecer la línea base. Las líneas de base proporcionan una instantánea del cronograma inicial del proyecto, que sirve como punto de referencia para comparar a medida que avanza el proyecto. Utilizar el`SetBaseline` método para establecer la línea de base. Por ejemplo, para establecer la línea base para todo el proyecto, utilice el`BaselineType.Baseline` enumeración:
+### Paso 2: Establecer la línea base
+Una vez que el proyecto está cargado, podemos proceder a establecer la línea base. Las líneas base proporcionan una captura del cronograma inicial del proyecto, que sirve como punto de referencia para la comparación a medida que el proyecto avanza. Use el método `SetBaseline` para establecer la línea base. Por ejemplo, para establecer la línea base para todo el proyecto, use la enumeración `BaselineType.Baseline`:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Paso 3: trabajar con líneas base del proyecto
+### Paso 3: Trabajar con líneas base del proyecto
+Después de establecer la línea base, puede trabajar con varios campos de líneas base del proyecto para analizar y rastrear el progreso del proyecto con precisión. Este paso implica acceder a datos de la línea base como fechas de inicio, fechas de finalización, duraciones y costos. Aquí es donde puede aprovechar el amplio conjunto de funciones que ofrece Aspose.Tasks para manipular los datos de la línea base según sus requisitos.
 
-Después de establecer la línea base, puede trabajar con varios campos de línea base del proyecto para analizar y realizar un seguimiento preciso del progreso del proyecto. Este paso implica acceder a datos de referencia, como fechas de inicio, fechas de finalización, duraciones y costos. Aquí es donde puede aprovechar el amplio conjunto de funciones proporcionadas por Aspose.Tasks para manipular datos de referencia según sus requisitos.
-
-## Conclusión
-
-En conclusión, Aspose.Tasks para .NET equipa a los desarrolladores con potentes herramientas para gestionar las líneas base de proyectos de forma eficaz. Si sigue los pasos descritos en este tutorial, podrá establecer y manipular sin problemas diferentes tipos de líneas base, lo que le permitirá monitorear el progreso del proyecto con precisión y agilidad.
+## Problemas comunes y soluciones
+- **Línea base no aplicada:** Asegúrese de que el archivo del proyecto se guarde después de llamar a `SetBaseline`. Use `project.Save("output.mpp");` si necesita conservar los cambios.  
+- **Conflicto de múltiples líneas base:** Al establecer más de una línea base, especifique el `BaselineType` correcto (p.ej., `Baseline1`, `Baseline2`).  
+- **Desajuste de versión:** Verifique que la versión del DLL de Aspose.Tasks coincida con el runtime .NET objetivo.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo establecer varias líneas de base para un solo proyecto usando Aspose.Tasks para .NET?
+**Q: ¿Puedo establecer múltiples líneas base para un solo proyecto usando Aspose.Tasks para .NET?**  
+A: Sí, Aspose.Tasks permite establecer hasta 11 líneas base para un proyecto, proporcionando capacidades de seguimiento exhaustivas.
 
-R1: Sí, Aspose.Tasks le permite configurar hasta 11 líneas de base para un proyecto, proporcionando capacidades de seguimiento integrales.
+**Q: ¿Es Aspose.Tasks compatible con diferentes formatos de archivo de proyecto?**  
+A: ¡Absolutamente! Aspose.Tasks soporta varios formatos de archivo de proyecto como MPP, XML y MPX, garantizando compatibilidad en diferentes plataformas.
 
-### P2: ¿Aspose.Tasks es compatible con diferentes formatos de archivos de proyectos?
+**Q: ¿Cómo puedo visualizar los datos de la línea base en mi proyecto?**  
+A: Puede utilizar Aspose.Tasks para exportar los datos del proyecto a formatos de archivo populares como PDF o XLSX, lo que permite una visualización y compartición fácil de la información de la línea base.
 
-R2: ¡Absolutamente! Aspose.Tasks admite varios formatos de archivos de proyecto, como MPP, XML y MPX, lo que garantiza la compatibilidad entre diferentes plataformas.
+**Q: ¿Aspose.Tasks ofrece soporte para integrarse con herramientas de gestión de proyectos?**  
+A: Aspose.Tasks proporciona documentación extensa y foros de soporte para ayudar a los desarrolladores a integrar sin problemas sus funciones con herramientas y plataformas populares de gestión de proyectos.
 
-### P3: ¿Cómo puedo visualizar datos de referencia en mi proyecto?
+**Q: ¿Puedo probar Aspose.Tasks antes de comprar?**  
+A: Sí, puede explorar Aspose.Tasks mediante una prueba gratuita disponible en el sitio web, lo que le permite experimentar sus capacidades de primera mano.
 
-R3: Puede utilizar Aspose.Tasks para exportar datos del proyecto a formatos de archivo populares como PDF o XLSX, lo que permite visualizar e intercambiar fácilmente información de referencia.
+---
 
-### P4: ¿Aspose.Tasks ofrece soporte para la integración con herramientas de gestión de proyectos?
+**Última actualización:** 2026-04-30  
+**Probado con:** Aspose.Tasks for .NET (última versión estable)  
+**Autor:** Aspose  
 
-R4: Aspose.Tasks proporciona documentación extensa y foros de soporte para ayudar a los desarrolladores a integrar perfectamente sus funciones con plataformas y herramientas de gestión de proyectos populares.
-
-### P5: ¿Puedo probar Aspose.Tasks antes de comprar?
-
-R5: Sí, puedes explorar Aspose.Tasks a través de una prueba gratuita disponible en el sitio web, lo que te permitirá experimentar sus capacidades de primera mano.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

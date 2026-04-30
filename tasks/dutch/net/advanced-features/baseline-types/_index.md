@@ -1,93 +1,116 @@
 ---
-title: Verschillende soorten basislijnen in Aspose.Tasks
-linktitle: Verschillende soorten basislijnen in Aspose.Tasks
+date: 2026-04-30
+description: Leer hoe u een baseline instelt en projectbaselines efficiënt manipuleert
+  met Aspose.Tasks voor .NET.
+keywords:
+- how to set baseline
+- track project progress
+- baseline vs actual schedule
+- set project baseline
+- manage project baselines
+linktitle: Verschillende soorten baselines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer projectbasislijnen efficiënt in te stellen en te manipuleren met Aspose.Tasks voor .NET.
-weight: 21
+title: Hoe een basislijn instellen in Aspose.Tasks – Verschillende basislinietypen
 url: /nl/net/advanced-features/baseline-types/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verschillende soorten basislijnen in Aspose.Tasks
+# Verschillende soorten baselines in Aspose.Tasks
 
-## Invoering
+## Inleiding
 
-Op het gebied van projectmanagement zijn precisie en vooruitziendheid van het grootste belang. Aspose.Tasks voor .NET biedt een robuuste toolkit voor het efficiënt beheren van projectgegevens, waardoor gebruikers zich kunnen verdiepen in verschillende aspecten van projectplanning, tracking en uitvoering. Een cruciale functie van Aspose.Tasks is de mogelijkheid om basislijnen vast te stellen, die dienen als referentiepunten voor het meten van de projectvoortgang ten opzichte van de initiële plannen.
+In projectmanagement kan **how to set baseline** correct toepassen het verschil maken tussen een project dat op koers blijft en een project dat uit de hand loopt. Aspose.Tasks for .NET biedt u een volledig uitgeruste API om baselines te maken, bij te werken en te vergelijken, zodat u **projectvoortgang volgen** kunt volgen ten opzichte van het oorspronkelijke plan. In deze tutorial leert u hoe u een baseline instelt, werkt met meerdere baseline‑typen, en de gegevens gebruikt om het **baseline versus de werkelijke planning** van uw project te analyseren.
+
+## Snelle antwoorden
+- **Wat is een baseline?** Een momentopname van planning, kosten en werkgegevens die op een specifiek moment in een project is genomen.  
+- **Hoeveel baselines kan Aspose.Tasks opslaan?** Tot 11 verschillende baselines per project.  
+- **Waarom een baseline instellen?** Om de werkelijke prestaties te vergelijken met het oorspronkelijke plan en afwijkingen te identificeren.  
+- **Heb ik een licentie nodig om dit te proberen?** Er is een gratis proefversie beschikbaar; een licentie is vereist voor productiegebruik.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Wat is “how to set baseline” in Aspose.Tasks?
+
+Een baseline instellen betekent dat u de `SetBaseline`‑methode aanroept op een `Project`‑object. De API stelt u in staat te kiezen uit verschillende `BaselineType`‑waarden (Baseline, Baseline1 … Baseline10) zodat u historische momentopnamen kunt behouden terwijl het project evolueert.
+
+## Waarom project‑baselines beheren?
+
+- **Variantie meten:** Zie snel of taken voor- of achterlopen op de planning.  
+- **Kostenbeheersing:** Vergelijk baseline‑kosten met de werkelijke uitgaven.  
+- **Rapportage aan belanghebbenden:** Exporteer baseline‑gegevens naar PDF, XLSX of andere formaten voor duidelijke communicatie.  
+- **Scenario‑planning:** Bewaar meerdere baselines om “what‑if”‑planningen te evalueren.
 
 ## Vereisten
 
-Voordat u met Aspose.Tasks voor .NET in de wereld van basislijnen duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-
 ### 1. Bekendheid met C# en .NET Framework
-
-Om de kracht van Aspose.Tasks te benutten, is een basiskennis van de programmeertaal C# en het .NET-framework essentieel. Dit omvat kennis van klassen, methoden en objectgeoriënteerde programmeerconcepten.
+Een basisbegrip van C#‑klassen, methoden en objectgeoriënteerde concepten is vereist.
 
 ### 2. Installatie van Aspose.Tasks voor .NET
-
-Zorg ervoor dat u de Aspose.Tasks voor .NET-bibliotheek in uw ontwikkelomgeving hebt geïnstalleerd. Je kunt het downloaden van de[Aspose.Tasks-website](https://releases.aspose.com/tasks/net/) of via NuGet-pakketbeheerder.
+Zorg ervoor dat de bibliotheek aan uw project is toegevoegd. U kunt deze downloaden van de [Aspose.Tasks website](https://releases.aspose.com/tasks/net/) of installeren via NuGet.
 
 ### 3. Geïntegreerde ontwikkelomgeving (IDE)
+Visual Studio (of een andere compatibele IDE) wordt aanbevolen voor het schrijven, compileren en debuggen van C#‑code.
 
-Zorg ervoor dat een IDE zoals Visual Studio op uw systeem is geïnstalleerd, zodat u C#-code naadloos kunt schrijven, compileren en debuggen.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Voordat we in ons C#-project met Aspose.Tasks gaan werken, moeten we de benodigde naamruimten importeren om toegang te krijgen tot de vereiste klassen en methoden. Volg deze stappen:
+Voordat we beginnen met het werken met Aspose.Tasks in ons C#‑project, moeten we de benodigde namespaces importeren om toegang te krijgen tot de vereiste klassen en methoden. Volg deze stappen:
 
 ```csharp
 
 ```
 
-Nu we onze vereisten hebben ingesteld en de benodigde naamruimten hebben geïmporteerd, gaan we dieper in op het instellen van verschillende typen basislijnen met behulp van Aspose.Tasks voor .NET. We zullen elk voorbeeld opsplitsen in meerdere stappen voor duidelijkheid en begrijpelijkheid.
+Nu we onze vereisten hebben ingesteld en de benodigde namespaces hebben geïmporteerd, laten we duiken in het instellen van verschillende soorten baselines met Aspose.Tasks voor .NET. We zullen elk voorbeeld in meerdere stappen opsplitsen voor duidelijkheid en gemakkelijke begrip.
 
-## Stap 1: Laad het projectbestand
+## Hoe een baseline instellen in Aspose.Tasks
 
- Eerst moeten we het projectbestand laden waarop we de basislijn willen instellen. Deze stap omvat het initialiseren van a`Project` object en laadt het projectbestand. Hier ziet u hoe u het kunt doen:
+### Stap 1: Laad het projectbestand
+Eerst moeten we het projectbestand laden waarop we de baseline willen instellen. Deze stap omvat het initialiseren van een `Project`‑object en het laden van het projectbestand. Hier is hoe u het kunt doen:
 
 ```csharp
 var project = new Project("Project2.mpp");
 ```
 
-## Stap 2: Basislijn instellen
-
-Zodra het project is geladen, kunnen we doorgaan met het instellen van de basislijn. Basislijnen bieden een momentopname van de oorspronkelijke planning van het project, die als referentiepunt voor vergelijking dient naarmate het project vordert. Gebruik de`SetBaseline` methode om de basislijn vast te stellen. Als u bijvoorbeeld de basislijn voor het hele project wilt instellen, gebruikt u de`BaselineType.Baseline` opsomming:
+### Stap 2: Baseline instellen
+Zodra het project is geladen, kunnen we de baseline instellen. Baselines bieden een momentopname van de initiële planning van het project, die dient als referentiepunt voor vergelijking naarmate het project vordert. Gebruik de `SetBaseline`‑methode om de baseline in te stellen. Bijvoorbeeld, om de baseline voor het gehele project in te stellen, gebruikt u de `BaselineType.Baseline`‑enumeratie:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Stap 3: Werk met projectbasislijnen
+### Stap 3: Werken met project‑baselines
+Na het instellen van de baseline kunt u werken met verschillende project‑baseline‑velden om de voortgang van het project nauwkeurig te analyseren en bij te houden. Deze stap omvat het benaderen van baseline‑gegevens zoals startdatums, einddatums, duur en kosten. Hier kunt u de uitgebreide functionaliteit van Aspose.Tasks benutten om baseline‑gegevens te manipuleren volgens uw vereisten.
 
-Nadat u de basislijn hebt ingesteld, kunt u met verschillende projectbasislijnvelden werken om de projectvoortgang nauwkeurig te analyseren en bij te houden. Deze stap omvat toegang tot basisgegevens zoals startdatums, einddatums, duur en kosten. Hier kunt u gebruikmaken van de uitgebreide reeks functies van Aspose.Tasks om basisgegevens te manipuleren volgens uw vereisten.
-
-## Conclusie
-
-Kortom, Aspose.Tasks voor .NET voorziet ontwikkelaars van krachtige tools voor het effectief beheren van projectbasislijnen. Door de stappen in deze zelfstudie te volgen, kunt u naadloos verschillende soorten basislijnen instellen en manipuleren, zodat u de projectvoortgang nauwkeurig en flexibel kunt volgen.
+## Veelvoorkomende problemen en oplossingen
+- **Baseline niet toegepast:** Zorg ervoor dat het projectbestand wordt opgeslagen na het aanroepen van `SetBaseline`. Gebruik `project.Save("output.mpp");` als u de wijzigingen wilt behouden.  
+- **Conflict bij meerdere baselines:** Wanneer u meer dan één baseline instelt, specificeer dan de juiste `BaselineType` (bijv. `Baseline1`, `Baseline2`).  
+- **Versiemismatch:** Controleer of de Aspose.Tasks‑DLL‑versie overeenkomt met de doel‑.NET‑runtime.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik meerdere basislijnen instellen voor één project met Aspose.Tasks voor .NET?
+**Q: Kan ik meerdere baselines instellen voor één project met Aspose.Tasks voor .NET?**  
+A: Ja, Aspose.Tasks stelt u in staat tot 11 baselines voor een project in te stellen, waardoor uitgebreide traceermogelijkheden worden geboden.
 
-A1: Ja, met Aspose.Tasks kunt u maximaal 11 basislijnen voor een project instellen, wat uitgebreide trackingmogelijkheden biedt.
+**Q: Is Aspose.Tasks compatibel met verschillende projectbestandsformaten?**  
+A: Absoluut! Aspose.Tasks ondersteunt diverse projectbestandsformaten zoals MPP, XML en MPX, waardoor compatibiliteit over verschillende platforms wordt gegarandeerd.
 
-### V2: Is Aspose.Tasks compatibel met verschillende projectbestandsformaten?
+**Q: Hoe kan ik baseline‑gegevens visualiseren in mijn project?**  
+A: U kunt Aspose.Tasks gebruiken om projectgegevens te exporteren naar populaire bestandsformaten zoals PDF of XLSX, waardoor eenvoudige visualisatie en delen van baseline‑informatie mogelijk is.
 
-A2: Absoluut! Aspose.Tasks ondersteunt verschillende projectbestandsformaten zoals MPP, XML en MPX, waardoor compatibiliteit tussen verschillende platforms wordt gegarandeerd.
+**Q: Biedt Aspose.Tasks ondersteuning voor integratie met projectmanagementtools?**  
+A: Aspose.Tasks biedt uitgebreide documentatie en ondersteuningsforums om ontwikkelaars te helpen bij het naadloos integreren van de functionaliteit met populaire projectmanagementtools en -platformen.
 
-### Vraag 3: Hoe kan ik basisgegevens in mijn project visualiseren?
+**Q: Kan ik Aspose.Tasks uitproberen voordat ik het koop?**  
+A: Ja, u kunt Aspose.Tasks verkennen via een gratis proefversie die beschikbaar is op de website, zodat u de mogelijkheden zelf kunt ervaren.
 
-A3: U kunt Aspose.Tasks gebruiken om projectgegevens te exporteren naar populaire bestandsformaten zoals PDF of XLSX, waardoor eenvoudige visualisatie en uitwisseling van basisinformatie mogelijk wordt.
+---
 
-### V4: Biedt Aspose.Tasks ondersteuning voor integratie met projectmanagementtools?
+**Laatst bijgewerkt:** 2026-04-30  
+**Getest met:** Aspose.Tasks for .NET (latest stable release)  
+**Auteur:** Aspose  
 
-A4: Aspose.Tasks biedt uitgebreide documentatie en ondersteuningsforums om ontwikkelaars te helpen bij het naadloos integreren van de functies met populaire projectmanagementtools en -platforms.
-
-### V5: Kan ik Aspose.Tasks uitproberen voordat ik een aankoop doe?
-
-A5: Ja, u kunt Aspose.Tasks verkennen via een gratis proefversie die beschikbaar is op de website, zodat u de mogelijkheden uit de eerste hand kunt ervaren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
