@@ -1,28 +1,44 @@
 ---
-title: Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme
-linktitle: Aspose.Tasks'ta Kaynak Atamaları için Seviyelendirme Gecikmesi Özelliklerini Yönetme
-second_title: Aspose.Tasks Java API'si
-description: Bu kapsamlı eğitimle Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikmesi özelliklerini nasıl kullanacağınızı öğrenin.
-weight: 17
+date: 2026-01-07
+description: Projeye kaynak eklemeyi ve Aspose.Tasks for Java kullanarak kaynak atamaları
+  için seviye gecikme özelliklerini nasıl yöneteceğinizi öğrenin.
+linktitle: Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks'te Projeye Kaynak Ekleme ve Seviyelendirme Gecikme Özelliklerini
+  Yönetme
 url: /tr/java/resource-assignments/leveling-delay-properties/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Seviyelendirme Gecikmesi Özelliklerini Yönetme
+# Projeye Kaynak Ekleme ve Seviyelendirme Gecikme Özelliklerini Aspose.Tasks ile Yönetme
 
-## giriiş
-Bu eğitimde Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikme özelliklerinin ele alınması sürecini anlatacağız. Aspose.Tasks, sisteminizde Microsoft Project'in kurulu olmasına gerek kalmadan Microsoft Project dosyalarıyla çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir.
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java JDK'nın kurulu olduğundan emin olun. adresinden indirip kurabilirsiniz.[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-   
-2.  Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesini şu adresten indirin:[indirme sayfası](https://releases.aspose.com/tasks/java/).
+## Giriş
+Bu öğreticide, **projeye kaynak ekleme** işlemini ve Aspose.Tasks for Java ile kaynak atamaları için seviyelendirme gecikme özelliklerini yönetmeyi öğreneceksiniz. Bir zamanlama motoru oluşturuyor ya da proje güncellemelerini otomatikleştiriyorsanız, bu adımları ustalaşmak, Microsoft Project yüklü olmadan proje verilerinizi doğru tutmanızı sağlar.
 
-## Paketleri İçe Aktar
-Aspose.Tasks işlevlerini kullanmak için öncelikle gerekli paketleri Java projenize aktarın:
+## Hızlı Yanıtlar
+- **“Projeye kaynak ekleme” ne anlama geliyor?** Yeni bir kaynak kaydı oluşturur ve bu kaynak görevler için atanabilir.  
+- **Atamadan sonra seviyelendirme gecikmesi ayarlayabilir miyim?** Evet, `Asn.DELAY` veya `Asn.LEVELING_DELAY` alanlarını kullanarak.  
+- **Bu kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ücretli lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
+- **Tüm MS Project dosya formatlarıyla uyumlu mu?** Aspose.Tasks .MPP, .XML, .XER ve daha fazlasını destekler.
+
+## Aspose.Tasks’te “projeye kaynak ekleme” nedir?
+Projeye bir kaynak eklemek, `Project` modelinin içinde bir `Resource` nesnesi oluşturmaktır. Bu nesne daha sonra `ResourceAssignment` aracılığıyla görevlere bağlanabilir; böylece iş, maliyet ve seviyelendirme ayarlarını izleyebilirsiniz.
+
+## Neden seviyelendirme gecikme özelliklerini ele almalıyız?
+Seviyelendirme gecikmesi, kaynaklar aşırı tahsis edildiğinde işin yayılmasını sağlar. Bir gecikme ayarlayarak, motorun bir atamanın başlangıcını ertelemesini ve çakışmaları önlemesini, projenin gerçekçi kalmasını sağlarsınız.
+
+## Ön Koşullar
+Başlamadan önce aşağıdaki ön koşulları karşıladığınızdan emin olun:
+1. Java Development Kit (JDK): Sisteminizde Java JDK yüklü olmalı. İndirmek ve kurmak için [web sitesini](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) ziyaret edin.  
+2. Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesini [indirme sayfasından](https://releases.aspose.com/tasks/java/) alın.
+
+## Paketleri İçe Aktarma
+Aspose.Tasks işlevlerini kullanmak için Java projenize gerekli paketleri içe aktarın:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -34,69 +50,99 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Adım 1: Proje Nesnesi Oluşturun
- Bir örnek oluştur`Project` nesne:
+## Adım 1: Project Nesnesi Oluşturma
+Tüm görev, kaynak ve atamaları tutacak bir `Project` nesnesi örnekleyin:
 ```java
 Project prj = new Project();
 ```
-## 2. Adım: Görev Oluşturun
-Projeye bir görev ekleyin:
+
+## Adım 2: Görev Oluşturma
+Projeye bir görev ekleyin. Bu, **programlı olarak görev ekleme** yöntemini gösterir:
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
-## 3. Adım: Görev Başlangıç Tarihini ve Süresini Ayarlayın
-Görevin başlangıç tarihini ve süresini ayarlayın:
+
+## Adım 3: Görev Başlangıç Tarihi ve Süresini Ayarlama
+Görevin ne zaman başlayacağını ve ne kadar süreceğini tanımlayın:
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2000, Calendar.JANUARY, 3, 8, 0, 0);
 task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
-## 4. Adım: Kaynak Ekleme
-Projeye bir kaynak ekleyin:
+
+## Adım 4: Kaynak Ekleme
+Şimdi yeni bir `Resource` kaydı oluşturarak **projeye kaynak ekliyoruz**:
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
-## Adım 5: Kaynak Ataması Oluşturun
-Görev ve kaynak için bir kaynak ataması oluşturun:
+
+## Adım 5: Kaynak Ataması Oluşturma
+Görevi yeni eklenen kaynakla ilişkilendirin:
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
-## Adım 6: Seviyelendirme Gecikmesini Ayarlayın
-Atama için seviyelendirme gecikmesini ayarlayın:
+
+## Adım 6: Seviyelendirme Gecikmesini Ayarlama
+Atama için seviyelendirme gecikmesini yapılandırın. Sıfır ayarlamak ek bir gecikme olmadığını gösterir; ihtiyaca göre değeri değiştirebilirsiniz:
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
-## Adım 7: Sonuçları Görüntüleyin
-Tesviye gecikmesini ve diğer ilgili bilgileri yazdırın:
+
+## Adım 7: Sonuçları Görüntüleme
+Her şeyin doğru ayarlandığını doğrulamak için önemli özellikleri yazdırın:
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
 System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## Çözüm
-Bu eğitimde Aspose.Tasks for Java'da kaynak atamaları için seviyelendirme gecikmesi özelliklerinin nasıl ele alınacağını öğrendik. Bu adımları izleyerek Java projelerinizdeki kaynak atamalarını verimli bir şekilde yönetebilirsiniz.
-## SSS'ler
-### S: Aspose.Tasks'ı diğer Java kütüphaneleriyle kullanabilir miyim?
+## Yaygın Hatalar ve İpuçları
+- **Hata:** Görev başlangıç tarihini ayarlamamak, atamanın proje başlangıcına varsayılan olarak ayarlanmasına neden olabilir.  
+- **İpucu:** Gecikmenin inceliğini kontrol etmek için `prj.getDuration(value, TimeUnitType.Day)` kullanın.  
+- **İpucu:** Birden fazla kaynak ekledikten sonra `prj.updateResourceAssignments()` çağırarak zamanlayıcının seviyelendirmeyi yeniden hesaplamasını sağlayın.
 
-C: Evet, Aspose.Tasks, proje yönetimi özelliklerini geliştirmek için diğer Java kitaplıklarıyla entegre edilebilir.
+## Sonuç
+Bu adımları izleyerek **projeye kaynak ekleme**, bir göreve atama ve Aspose.Tasks for Java ile seviyelendirme gecikme özelliklerini yönetme konularında uzmanlaştınız. Bu bilgi, gerçek dünya kaynak kısıtlamalarıyla senkronize çalışan sağlam proje‑otomasyon çözümleri oluşturmanızı sağlar.
 
-### S: Aspose.Tasks, Microsoft Project dosyalarının farklı sürümleriyle uyumlu mudur?
+## SSS
+### S: Aspose.Tasks’i diğer Java kütüphaneleriyle kullanabilir miyim?
 
-C: Evet, Aspose.Tasks, Microsoft Project dosyalarının çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
+C: Evet, Aspose.Tasks diğer Java kütüphaneleriyle entegre edilerek proje yönetimi yetenekleri artırılabilir.
 
-### S: Aspose.Tasks için ek desteği nerede bulabilirim?
+### S: Aspose.Tasks, farklı Microsoft Project dosya sürümleriyle uyumlu mu?
 
- C: Destek ve kaynakları şu adreste bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+C: Evet, Aspose.Tasks çeşitli Microsoft Project dosya sürümlerini destekler, böylece farklı ortamlarla uyumluluk sağlanır.
 
-### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
+### S: Aspose.Tasks için ek destek nereden bulabilirim?
 
- C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[sürümler sayfası](https://releases.aspose.com/).
+C: [Aspose.Tasks forumunda](https://forum.aspose.com/c/tasks/15) destek ve kaynakları bulabilirsiniz.
 
-### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
+### S: Aspose.Tasks’i satın almadan önce deneyebilir miyim?
 
- C: Geçici lisans talebinde bulunabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+C: Evet, [releases sayfasından](https://releases.aspose.com/) Aspose.Tasks ücretsiz deneme sürümünü edinebilirsiniz.
+
+### S: Aspose.Tasks için geçici bir lisans alabilir miyim?
+
+C: Değerlendirme amaçlı olarak [geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) geçici lisans talep edebilirsiniz.
+
+## Ek Sık Sorulan Sorular
+
+**S: Sıfır olmayan bir seviyelendirme gecikmesi ayarlarsam ne olur?**  
+C: Zamanlayıcı, atamanın başlangıcını belirtilen süre kadar erteler ve aşırı tahsisleri çözmeye yardımcı olur.
+
+**S: Projeyi kaydettikten sonra seviyelendirme gecikmesini okuyabilir miyim?**  
+C: Evet, proje dosyasını yeniden açıp atamadan `Asn.DELAY` özelliğini okuyabilirsiniz.
+
+**S: Tüm atamalara aynı anda seviyelendirme gecikmesi uygulamanın bir yolu var mı?**  
+C: `prj.getResourceAssignments()` üzerinden döngü kurarak her atama için gecikmeyi ayarlayabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

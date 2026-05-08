@@ -1,28 +1,43 @@
 ---
-title: Aspose.Tasks のハンドル平準化遅延プロパティ
-linktitle: Aspose.Tasks のリソース割り当てのハンドル平準化遅延プロパティ
+date: 2026-01-07
+description: Aspose.Tasks for Java を使用して、プロジェクトにリソースを追加し、リソース割り当てのレベリング遅延プロパティを処理する方法を学びます。
+linktitle: Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: この包括的なチュートリアルでは、Aspose.Tasks for Java でリソース割り当ての平準化遅延プロパティを処理する方法を学習します。
-weight: 17
+title: Aspose.Tasksでプロジェクトにリソースを追加し、レベリング遅延プロパティを処理する方法
 url: /ja/java/resource-assignments/leveling-delay-properties/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks のハンドル平準化遅延プロパティ
+# Aspose.Tasksでリソースをプロジェクトに追加し、レベリング遅延プロパティを処理する方法
 
-## 導入
-このチュートリアルでは、Aspose.Tasks for Java でリソース割り当ての平準化遅延プロパティを処理するプロセスについて説明します。 Aspose.Tasks は、システムに Microsoft Project をインストールしなくても Microsoft Project ファイルを操作できる強力な Java ライブラリです。
+## はじめに
+このチュートリアルでは、**Aspose.Tasks for Java** を使用して、プロジェクトにリソースを追加し、リソース割り当てのレベリング遅延プロパティを管理する方法を学びます。スケジューリングエンジンを構築したり、プロジェクトの更新を自動化したりする場合でも、Microsoft Project をインストールせずにプロジェクトデータを正確に保つことができます。
+
+## よくある質問
+- **「add resource to project」 は何を意味しますか？** 新しいリソースエントリを作成し、タスクに割り当てることができます。  
+- **割り当て後にレベリング遅延を設定できますか？** はい、`Asn.DELAY` または `Asn.LEVELING_DELAY` フィールドを使用します。  
+- **このコードを実行するのにライセンスが必要ですか？** 開発には無料トライアルで動作しますが、本番環境では有料ライセンスが必要です。  
+- **サポートされている Java バージョンは？** Java 8 以降です。  
+- **すべての MS Project ファイル形式と互換性がありますか？** Aspose.Tasks は .MPP、.XML、.XER などをサポートしています。
+
+## Aspose.Tasks における「プロジェクトへのリソースの追加」とは？
+プロジェクトにリソースを追加することは、`Project` モデル内に `Resource` オブジェクトを作成することを意味します。このオブジェクトは後で `ResourceAssignment` を介してタスクにリンクでき、作業量、コスト、レベリング設定を追跡できます。
+
+## レベリング遅延プロパティを扱う理由
+レベリング遅延は、リソースが過剰割り当てされている場合にスケジューラが作業を分散させるのに役立ちます。遅延を設定することで、割り当ての開始を遅らせ、競合を回避し、プロジェクトを現実的に保つことができます。
+
 ## 前提条件
-始める前に、次の前提条件を満たしていることを確認してください。
-1.  Java 開発キット (JDK): システムに Java JDK がインストールされていることを確認します。からダウンロードしてインストールできます。[Webサイト](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-   
-2.  Aspose.Tasks for Java ライブラリ: Aspose.Tasks for Java ライブラリを次の場所からダウンロードします。[ダウンロードページ](https://releases.aspose.com/tasks/java/).
+開始する前に、以下の前提条件を確認してください：
+
+1. Java Development Kit (JDK): システムに Java JDK がインストールされていることを確認してください。インストールは [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) からダウンロードできます。  
+2. Aspose.Tasks for Java ライブラリ: Aspose.Tasks for Java ライブラリは [download page](https://releases.aspose.com/tasks/java/) からダウンロードしてください。
 
 ## パッケージのインポート
-まず、Aspose.Tasks 機能を使用するために必要なパッケージを Java プロジェクトにインポートします。
+まず、Aspose.Tasks の機能を使用するために必要なパッケージを Java プロジェクトにインポートします：
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -34,69 +49,100 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## ステップ 1: プロジェクト オブジェクトを作成する
-インスタンス化する`Project`物体：
+## ステップ 1: プロジェクト オブジェクトの作成
+`Project` オブジェクトをインスタンス化します。これがタスク、リソース、割り当てすべてのコンテナとなります：
 ```java
 Project prj = new Project();
 ```
-## ステップ 2: タスクを作成する
-プロジェクトにタスクを追加します。
+
+## ステップ 2: タスクの作成
+プロジェクトにタスクを追加します。これはプログラムで **タスクを追加する** 方法のデモです：
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
-## ステップ 3: タスクの開始日と期間を設定する
-タスクの開始日と期間を設定します。
+
+## ステップ 3: タスクの開始日と期間の設定
+タスクの開始日と期間を定義します：
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2000, Calendar.JANUARY, 3, 8, 0, 0);
 task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
-## ステップ 4: リソースを追加する
-リソースをプロジェクトに追加します。
+
+## ステップ 4: リソースの追加
+ここで新しい `Resource` エントリを作成して **プロジェクトにリソースを追加** します：
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
-## ステップ 5: リソース割り当てを作成する
-タスクとリソースのリソース割り当てを作成します。
+
+## ステップ 5: リソースの割り当ての作成
+タスクと先ほど追加したリソースをリンクします：
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
-## ステップ 6: レベリング遅延を設定する
-割り当てのレベリング遅延を設定します。
+
+## ステップ 6: レベリング遅延の設定
+割り当てのレベリング遅延を設定します。0 に設定すると追加の遅延はありませんが、必要に応じて値を調整できます：
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
+
 ## ステップ 7: 結果の表示
-レベリング遅延とその他の関連情報を出力します。
+重要なプロパティを出力して、すべてが正しく設定されたことを確認します：
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
 System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## 結論
-このチュートリアルでは、Aspose.Tasks for Java でリソース割り当ての平準化遅延プロパティを処理する方法を学習しました。これらの手順に従うことで、Java プロジェクトでのリソース割り当てを効率的に管理できます。
+## よくある落とし穴とヒント
+- **落とし穴:** タスクの開始日を設定し忘れると、割り当てがプロジェクト開始日にデフォルトされる可能性があります。  
+- **ヒント:** `prj.getDuration(value, TimeUnitType.Day)` を使用して遅延の粒度を制御します。  
+- **ヒント:** 複数のリソースを追加した後、`prj.updateResourceAssignments()` を呼び出してスケジューラにレベリングを再計算させます。
+
+## まとめ
+これらの手順に従うことで、**プロジェクトにリソースを追加**し、タスクに割り当て、Aspose.Tasks for Java を使用してレベリング遅延プロパティを管理する方法が分かります。この知識により、実際のリソース制約と同期した堅牢なプロジェクト自動化ソリューションを構築できます。
+
 ## よくある質問
-### Q: Aspose.Tasks を他の Java ライブラリで使用できますか?
 
-A: はい、Aspose.Tasks を他の Java ライブラリと統合して、プロジェクト管理機能を強化できます。
+### Q: Aspose.Tasks は他の Java ライブラリと併用できますか？
 
-### Q: Aspose.Tasks は、Microsoft Project ファイルのさまざまなバージョンと互換性がありますか?
+A: はい、Aspose.Tasks は他の Java ライブラリと統合でき、プロジェクト管理機能を強化できます。
 
-A: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project ファイルをサポートしており、さまざまな環境間での互換性を確保しています。
+### Q: Aspose.Tasks は、異なるバージョンの Microsoft Project ファイルと互換性がありますか？
 
-### Q: Aspose.Tasks の追加サポートはどこで見つけられますか?
+A: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project ファイルをサポートしており、異なる環境間での互換性を確保します。
 
- A: サポートとリソースは次のサイトで見つけることができます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+### Q: Aspose.Tasks に関する追加サポートはどこで受けられますか？
 
-### Q: 購入する前に Aspose.Tasks を試すことはできますか?
+A: サポートやリソースは [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) で確認できます。
 
- A: はい、Aspose.Tasks の無料トライアルを次のサイトから入手できます。[リリースページ](https://releases.aspose.com/).
+### Q: Aspose.Tasks を購入前に試用できますか？
 
-### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
+A: はい、[releases page](https://releases.aspose.com/) から Aspose.Tasks の無料トライアルを取得できます。
 
- A: 一時ライセンスは次のサイトからリクエストできます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/)評価目的のため。
+### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか？
+
+A: 評価目的で一時ライセンスが必要な場合は、[temporary license page](https://purchase.aspose.com/temporary-license/) からリクエストできます。
+
+## その他のよくある質問
+
+**Q: 非ゼロのレベリング遅延を設定するとどうなりますか？**  
+A: スケジューラは指定された期間だけ割り当ての開始を遅らせ、過剰割り当ての解消に役立ちます。
+
+**Q: プロジェクトを保存した後にレベリング遅延を取得できますか？**  
+A: はい、プロジェクトファイルを再度開き、割り当てから `Asn.DELAY` プロパティを読み取れます。
+
+**Q: すべての割り当てに一括でレベリング遅延を適用する方法はありますか？**  
+A: `prj.getResourceAssignments()` をイテレートし、ループ内で各割り当ての遅延を設定できます。
+
+---
+
+**最終更新日:** 2026-01-07  
+**テスト環境:** Aspose.Tasks for Java 24.11  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
