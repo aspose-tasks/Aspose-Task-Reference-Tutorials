@@ -133,15 +133,15 @@ C: Bütçe değerleri sayısal tutarlar olarak saklanır; bunları ekranda göst
 
 ---
 
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen:** Aspose.Tasks for Java 24.12 (latest)  
+**Yazar:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Son Güncelleme:** 2026-01-07  
-**Test Edilen:** Aspose.Tasks for Java 24.12 (latest)  
-**Yazar:** Aspose  
-
----

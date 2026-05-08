@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Naučte se, jak provádět sledování nákladů projektu, sledovat přesčasy,
   vypočítat zbývající práci a řídit náklady v Java projektech pomocí Aspose.Tasks.
   Jednoduché kroky pro efektivní řízení projektů.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Sledování nákladů projektu s Aspose.Tasks: přesčasy a práce'
+title: 'Sledování nákladů projektu s Aspose.Tasks - přesčasy a práce'
 url: /cs/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

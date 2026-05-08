@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Học cách thực hiện giám sát chi phí dự án, theo dõi làm thêm giờ, tính
   toán công việc còn lại và quản lý chi phí trong các dự án Java bằng Aspose.Tasks.
   Các bước dễ dàng để quản lý dự án hiệu quả.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Giám sát chi phí dự án với Aspose.Tasks: Thời gian làm thêm & Công việc'
+title: 'Giám sát chi phí dự án với Aspose.Tasks - Thời gian làm thêm & Công việc'
 url: /vi/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

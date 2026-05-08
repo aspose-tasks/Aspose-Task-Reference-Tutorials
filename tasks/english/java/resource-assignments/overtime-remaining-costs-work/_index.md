@@ -1,6 +1,6 @@
 ---
-title: "Project Cost Monitoring with Aspose.Tasks: Overtime & Work"
-linktitle: "Project Cost Monitoring with Aspose.Tasks: Overtime & Work"
+title: "Project Cost Monitoring with Aspose.Tasks - Overtime & Work"
+linktitle: "Project Cost Monitoring with Aspose.Tasks - Overtime & Work"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to perform project cost monitoring, track overtime, calculate remaining work, and manage costs in Java projects using Aspose.Tasks. Easy steps for effective project management."
 date: 2026-01-07

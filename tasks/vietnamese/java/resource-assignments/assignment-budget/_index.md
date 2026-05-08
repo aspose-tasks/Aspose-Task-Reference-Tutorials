@@ -133,15 +133,15 @@ Trong hướng dẫn này, chúng ta đã trình bày cách **quản lý ngân s
 
 ---
 
+**Cập nhật lần cuối:** 2026-01-07  
+**Đã kiểm tra với:** Aspose.Tasks for Java 24.12 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Cập nhật lần cuối:** 2026-01-07  
-**Đã kiểm tra với:** Aspose.Tasks for Java 24.12 (phiên bản mới nhất)  
-**Tác giả:** Aspose  
-
----

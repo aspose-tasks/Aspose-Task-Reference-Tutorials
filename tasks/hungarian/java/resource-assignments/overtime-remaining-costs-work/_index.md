@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Tanulja meg, hogyan végezze a projektköltség-nyomonkövetést, kövesse
   nyomon a túlórákat, számolja ki a hátralévő munkát, és kezelje a költségeket Java
   projektekben az Aspose.Tasks használatával. Egyszerű lépések a hatékony projektmenedzsmenthez.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Projekt költségmonitorozás az Aspose.Tasks használatával: túlóra és munka'
+title: 'Projekt költségmonitorozás az Aspose.Tasks használatával - túlóra és munka'
 url: /hu/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

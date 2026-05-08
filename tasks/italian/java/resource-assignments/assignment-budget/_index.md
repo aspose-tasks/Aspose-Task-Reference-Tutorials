@@ -110,6 +110,7 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 In questo tutorial abbiamo dimostrato come **manage assignment budget java** con Aspose.Tasks. Seguendo i passaggi sopra potrai leggere, visualizzare e successivamente modificare le informazioni relative al budget per qualsiasi assegnazione di risorsa, rendendo i tuoi strumenti di gestione progetti basati su Java più potenti e guidati dai dati.
 
 ## FAQ
+
 ### Q: Aspose.Tasks for Java è compatibile con tutte le versioni dei file Microsoft Project?
 A: Sì, Aspose.Tasks for Java supporta varie versioni dei file Microsoft Project, inclusi i formati MPP, MPT e XML.  
 ### Q: Posso modificare i budget delle assegnazioni programmaticamente usando Aspose.Tasks for Java?
@@ -131,15 +132,17 @@ A: Sì—usa `ra.set(Asn.BUDGET_COST, newValue)` e poi chiama `prj.save("updated
 **Q: Aspose.Tasks supporta budget multi‑valuta?**  
 A: I valori di budget sono memorizzati come importi numerici; puoi applicare la conversione di valuta nel tuo codice prima di visualizzarli.  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 **Last Updated:** 2026-01-07  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest)  
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

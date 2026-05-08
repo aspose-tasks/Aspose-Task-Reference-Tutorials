@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Lär dig hur du utför projektkostnadsövervakning, spårar övertid, beräknar
   återstående arbete och hanterar kostnader i Java‑projekt med Aspose.Tasks. Enkla
   steg för effektiv projektledning.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Projektkostnadsövervakning med Aspose.Tasks: Övertid & Arbete'
+title: 'Projektkostnadsövervakning med Aspose.Tasks - Övertid & Arbete'
 url: /sv/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

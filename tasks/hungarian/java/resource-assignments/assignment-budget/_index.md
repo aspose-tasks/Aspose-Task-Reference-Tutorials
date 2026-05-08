@@ -137,15 +137,15 @@ Ebben az útmutatóban bemutattuk, hogyan lehet a **manage assignment budget jav
 
 ---
 
+**Legutóbb frissítve:** 2026-01-07  
+**Tesztelt verzió:** Aspose.Tasks for Java 24.12 (latest)  
+**Szerző:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Legutóbb frissítve:** 2026-01-07  
-**Tesztelt verzió:** Aspose.Tasks for Java 24.12 (latest)  
-**Szerző:** Aspose  
-
----

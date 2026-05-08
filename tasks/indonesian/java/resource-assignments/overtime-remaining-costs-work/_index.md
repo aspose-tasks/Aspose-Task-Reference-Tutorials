@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Pelajari cara melakukan pemantauan biaya proyek, melacak lembur, menghitung
   sisa pekerjaan, dan mengelola biaya dalam proyek Java menggunakan Aspose.Tasks.
   Langkah mudah untuk manajemen proyek yang efektif.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Pemantauan Biaya Proyek dengan Aspose.Tasks: Lembur & Kerja'
+title: 'Pemantauan Biaya Proyek dengan Aspose.Tasks - Lembur & Kerja'
 url: /id/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

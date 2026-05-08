@@ -2,9 +2,9 @@
 date: 2026-01-07
 description: Aspose.Tasks를 사용하여 Java 프로젝트에서 프로젝트 비용 모니터링을 수행하고, 초과 근무를 추적하며, 남은 작업을
   계산하고, 비용을 관리하는 방법을 배워보세요. 효과적인 프로젝트 관리를 위한 쉬운 단계들.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Aspose.Tasks를 이용한 프로젝트 비용 모니터링: 초과 근무 및 작업'
+title: 'Aspose.Tasks를 이용한 프로젝트 비용 모니터링 - 초과 근무 및 작업'
 url: /ko/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

@@ -110,6 +110,7 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 Neste tutorial demonstramos como **gerenciar orçamento de atribuição java** com Aspose.Tasks. Seguindo os passos acima, você pode ler, exibir e, posteriormente, modificar informações relacionadas ao orçamento de qualquer atribuição de recurso, tornando suas ferramentas de gerenciamento de projetos baseadas em Java mais poderosas e orientadas a dados.
 
 ## Perguntas Frequentes
+
 ### Q: O Aspose.Tasks for Java é compatível com todas as versões de arquivos Microsoft Project?
 A: Sim, Aspose.Tasks for Java suporta várias versões de arquivos Microsoft Project, incluindo formatos MPP, MPT e XML.  
 ### Q: Posso modificar orçamentos de atribuição programaticamente usando Aspose.Tasks for Java?
@@ -133,15 +134,15 @@ A: Os valores de orçamento são armazenados como quantias numéricas; você pod
 
 ---
 
+**Última atualização:** 2026-01-07  
+**Testado com:** Aspose.Tasks for Java 24.12 (mais recente)  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Última atualização:** 2026-01-07  
-**Testado com:** Aspose.Tasks for Java 24.12 (mais recente)  
-**Autor:** Aspose  
-
----

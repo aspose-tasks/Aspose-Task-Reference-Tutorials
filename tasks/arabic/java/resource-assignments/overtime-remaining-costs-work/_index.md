@@ -3,9 +3,9 @@ date: 2026-01-07
 description: تعلم كيفية مراقبة تكلفة المشروع، وتتبع ساعات العمل الإضافية، وحساب العمل
   المتبقي، وإدارة التكاليف في مشاريع جافا باستخدام Aspose.Tasks. خطوات سهلة لإدارة
   مشروع فعّالة.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'مراقبة تكلفة المشروع باستخدام Aspose.Tasks: العمل الإضافي والعمل'
+title: 'مراقبة تكلفة المشروع باستخدام Aspose.Tasks - العمل الإضافي والعمل'
 url: /ar/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Apprenez à effectuer le suivi des coûts de projet, à suivre les heures
   supplémentaires, à calculer le travail restant et à gérer les coûts dans les projets
   Java en utilisant Aspose.Tasks. Des étapes simples pour une gestion de projet efficace.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Suivi des coûts du projet avec Aspose.Tasks : Heures supplémentaires et travail'
+title: 'Suivi des coûts du projet avec Aspose.Tasks - Heures supplémentaires et travail'
 url: /fr/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

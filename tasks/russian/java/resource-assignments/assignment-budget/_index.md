@@ -133,15 +133,15 @@ A: Значения бюджета хранятся как числовые су
 
 ---
 
+**Последнее обновление:** 2026-01-07  
+**Тестировано с:** Aspose.Tasks for Java 24.12 (latest)  
+**Автор:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Последнее обновление:** 2026-01-07  
-**Тестировано с:** Aspose.Tasks for Java 24.12 (latest)  
-**Автор:** Aspose  
-
----

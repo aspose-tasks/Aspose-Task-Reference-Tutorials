@@ -133,15 +133,15 @@ A: Budgetwaarden worden opgeslagen als numerieke bedragen; je kunt valutaconvers
 
 ---
 
+**Laatst bijgewerkt:** 2026-01-07  
+**Getest met:** Aspose.Tasks voor Java 24.12 (latest)  
+**Auteur:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Laatst bijgewerkt:** 2026-01-07  
-**Getest met:** Aspose.Tasks voor Java 24.12 (latest)  
-**Auteur:** Aspose  
-
----

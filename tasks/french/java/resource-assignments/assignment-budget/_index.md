@@ -133,15 +133,15 @@ R : Les valeurs budgétaires sont stockées sous forme de nombres ; vous pou
 
 ---
 
+**Dernière mise à jour :** 2026-01-07  
+**Testé avec :** Aspose.Tasks for Java 24.12 (latest)  
+**Auteur :** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Dernière mise à jour :** 2026-01-07  
-**Testé avec :** Aspose.Tasks for Java 24.12 (latest)  
-**Auteur :** Aspose  
-
----

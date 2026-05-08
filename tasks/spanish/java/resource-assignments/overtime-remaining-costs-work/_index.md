@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Aprenda a realizar el monitoreo de costos del proyecto, rastrear horas
   extra, calcular el trabajo restante y gestionar los costos en proyectos Java usando
   Aspose.Tasks. Pasos sencillos para una gestión de proyectos eficaz.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Monitoreo de costos del proyecto con Aspose.Tasks: Horas extra y trabajo'
+title: 'Monitoreo de costos del proyecto con Aspose.Tasks - Horas extra y trabajo'
 url: /es/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

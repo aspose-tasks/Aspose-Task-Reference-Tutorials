@@ -110,6 +110,7 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 Σε αυτόν τον οδηγό δείξαμε πώς να **manage assignment budget java** με το Aspose.Tasks. Ακολουθώντας τα παραπάνω βήματα μπορείτε να διαβάζετε, να εμφανίζετε και αργότερα να τροποποιείτε τις πληροφορίες σχετικές με τον προϋπολογισμό για οποιαδήποτε ανάθεση πόρου, καθιστώντας τα εργαλεία διαχείρισης έργων βασισμένα σε Java πιο ισχυρά και δεδομενο‑προσανατολισμένα.
 
 ## Συχνές Ερωτήσεις
+
 ### Ε: Είναι το Aspose.Tasks for Java συμβατό με όλες τις εκδόσεις αρχείων Microsoft Project;
 Α: Ναι, το Aspose.Tasks for Java υποστηρίζει διάφορες εκδόσεις αρχείων Microsoft Project, συμπεριλαμβανομένων των μορφών MPP, MPT και XML.
 
@@ -137,15 +138,15 @@ System.out.println(ra.get(Asn.BUDGET_WORK).toString());
 
 ---
 
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

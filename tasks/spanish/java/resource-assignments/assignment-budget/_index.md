@@ -131,15 +131,17 @@ A: Sí—usa `ra.set(Asn.BUDGET_COST, newValue)` y luego llama a `prj.save("upda
 **Q: ¿Aspose.Tasks soporta presupuestos multi‑moneda?**  
 A: Los valores del presupuesto se almacenan como cantidades numéricas; puedes aplicar la conversión de moneda en tu código antes de mostrarlos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 **Última actualización:** 2026-01-07  
 **Probado con:** Aspose.Tasks for Java 24.12 (latest)  
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

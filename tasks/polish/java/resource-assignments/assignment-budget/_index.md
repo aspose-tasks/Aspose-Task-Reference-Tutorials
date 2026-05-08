@@ -136,15 +136,17 @@ A: Tak — użyj `ra.set(Asn.BUDGET_COST, newValue)` i następnie wywołaj `prj.
 **Q: Czy Aspose.Tasks obsługuje budżety wielowalutowe?**  
 A: Wartości budżetu są przechowywane jako liczby; możesz zastosować konwersję walut w swoim kodzie przed ich wyświetleniem.  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 **Ostatnia aktualizacja:** 2026-01-07  
 **Testowano z:** Aspose.Tasks for Java 24.12 (latest)  
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

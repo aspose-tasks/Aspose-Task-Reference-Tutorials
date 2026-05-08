@@ -3,9 +3,9 @@ date: 2026-01-07
 description: Aspose.Tasks kullanarak Java projelerinde proje maliyet izlemeyi, fazla
   mesai takibini, kalan işi hesaplamayı ve maliyetleri yönetmeyi öğrenin. Etkili proje
   yönetimi için kolay adımlar.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
+linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 'Aspose.Tasks ile Proje Maliyet İzleme: Fazla Mesai ve İş'
+title: 'Aspose.Tasks ile Proje Maliyet İzleme - Fazla Mesai ve İş'
 url: /tr/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

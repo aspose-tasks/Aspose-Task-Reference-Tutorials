@@ -3,7 +3,7 @@ date: 2026-01-07
 description: 學習如何在 Java 專案中使用 Aspose.Tasks 進行專案成本監控、追蹤加班、計算剩餘工作量以及管理成本。簡單步驟，助您有效管理專案。
 linktitle: 'Project Cost Monitoring with Aspose.Tasks: Overtime & Work'
 second_title: Aspose.Tasks Java API
-title: 使用 Aspose.Tasks 監控項目成本：加班與工作
+title: 使用 Aspose.Tasks 監控項目成本 - 加班與工作
 url: /zh-hant/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---

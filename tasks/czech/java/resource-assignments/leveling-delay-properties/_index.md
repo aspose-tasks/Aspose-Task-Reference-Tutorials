@@ -16,29 +16,29 @@ weight: 17
 
 # Jak přidat zdroj do projektu a spravovat vlastnosti zpoždění levelingu v Aspose.Tasks
 
-## Introduction
-V tomto tutoriálu se naučíte **jak přidat zdroj do projektu** a zároveň spravovat vlastnosti zpoždění levelingu pro přiřazení zdrojů pomocí Aspose.Tasks pro Java. Ať už budujete plánovací engine nebo automatizujete aktualizace projektů, zvládnutí těchto kroků vám umožní udržet data projektu přesná, aniž byste potřebovali nainstalovaný Microsoft Project.
+## Úvod
+V tomto tutoriálu se naučíte **jak přidat zdroj do projektu** a zároveň spravovat vlastnosti zpoždění levelingu pro přiřazení zdrojů pomocí Aspose.Tasks pro Java. Ať už budujete plánovací modul nebo automatizujete aktualizace projektů, provádíte tyto kroky vám umožní udržet data projektu přesná, aniž byste potřebovali nainstalovaný Microsoft Project.
 
-## Quick Answers
-- **Co znamená „add resource to project“?** Vytvoří novou položku zdroje, kterou lze přiřadit úkolům.  
-- **Mohu nastavit zpoždění levelingu po přiřazení?** Ano, pomocí polí `Asn.DELAY` nebo `Asn.LEVELING_DELAY`.  
-- **Potřebuji licenci pro spuštění tohoto kódu?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována placená licence.  
-- **Jaká verze Javy je podporována?** Java 8 nebo novější.  
+## Rychlé odpovědi
+- **Co znamená „add resource to project“?** Vytvořte novou položku zdroje, kterou lze přiřadit úkoly.
+- **Mohu nastavit zpoždění levelingu po přiřazení?** Ano, pomocí polí `Asn.DELAY` nebo `Asn.LEVELING_DELAY`.
+- **Potřebuji licenci pro spuštění tohoto kódu?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována placená licence.
+- **Jaká verze Javy je podporována?** Java8nebo novější.
 - **Je to kompatibilní se všemi formáty souborů MS Project?** Aspose.Tasks podporuje .MPP, .XML, .XER a další.
 
-## What is “add resource to project” in Aspose.Tasks?
-Přidání zdroje do projektu znamená vytvoření objektu `Resource` uvnitř modelu `Project`. Tento objekt může být později propojen s úkoly pomocí `ResourceAssignment`, což vám umožní sledovat práci, náklady a nastavení levelingu.
+## Co je to „přidat zdroj do projektu“ v Aspose.Tasks?
+Přidání zdrojů do projektu znamená vytvoření objektu `Resource` uvnitř modelu `Project`. Tento objekt může být později propojen s úkoly pomocí `ResourceAssignment`, což vám umožní sledovat práci, náklady a nastavení levelingu.
 
-## Why handle leveling delay properties?
+## Proč zacházet s vlastnostmi zpoždění vyrovnání?
 Zpoždění levelingu pomáhá plánovači rozložit práci, když jsou zdroje přetížené. Nastavením zpoždění řeknete enginu, aby odložil začátek přiřazení, čímž se vyhnete konfliktům a projekt zůstane realistický.
 
-## Prerequisites
-Než začneme, ujistěte se, že máte následující předpoklady:
-1. Java Development Kit (JDK): Ujistěte se, že máte nainstalovaný Java JDK na svém systému. Můžete jej stáhnout a nainstalovat z [webové stránky](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. Aspose.Tasks for Java Library: Stáhněte knihovnu Aspose.Tasks for Java z [download page](https://releases.aspose.com/tasks/java/).
+## Předpoklady
+Než začneme, zjistíme, že máte následující předpoklady:
+1. Java Development Kit (JDK): přichází se, že máte nainstalovaný Java JDK na svém systému. Můžete si ji stáhnout a nainstalovat z [webové stránky](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+2. Aspose.Tasks for Java Library: Přidejte knihovnu Aspose.Tasks for Java z [stránka ke stažení](https://releases.aspose.com/tasks/java/).
 
-## Import Packages
-Nejprve importujte potřebné balíčky do svého Java projektu, abyste mohli využívat funkce Aspose.Tasks:
+## Importujte balíčky
+Nejprve importujte potřebné balíčky do svého Java projektu, abyste mohli využívat funkce Aspose.Úkoly:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -50,19 +50,19 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Step 1: Create a Project Object
+## Krok 1: Vytvoření objektu projektu
 Vytvořte instanci objektu `Project`, který bude sloužit jako kontejner pro všechny úkoly, zdroje a přiřazení:
 ```java
 Project prj = new Project();
 ```
 
-## Step 2: Create a Task
+## Krok 2: Vytvoření úkolu
 Přidejte úkol do projektu. Toto demonstruje **how to add task** programově:
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
 
-## Step 3: Set Task Start Date and Duration
+## Krok 3: Nastavení data zahájení a trvání úkolu
 Definujte, kdy úkol začíná a jak dlouho bude trvat:
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -71,25 +71,25 @@ task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
 
-## Step 4: Add a Resource
+## Krok 4: Přidání zdroje
 Nyní **add resource to project** vytvořením nové položky `Resource`:
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
 
-## Step 5: Create a Resource Assignment
+## Krok 5: Vytvoření přiřazení zdroje
 Propojte úkol a nově přidaný zdroj:
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
 
-## Step 6: Set Leveling Delay
+## Krok 6: Nastavení zpoždění vyrovnání
 Nastavte zpoždění levelingu pro přiřazení. Nastavení na nulu znamená žádné další zpoždění, ale hodnotu můžete upravit podle potřeby:
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
 
-## Step 7: Display Results
+## Krok 7: Zobrazení výsledků
 Vytiskněte důležité vlastnosti pro ověření, že vše bylo nastaveno správně:
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
@@ -97,50 +97,50 @@ System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## Common Pitfalls & Tips
-- **Pitfall:** Zapomenutí nastavit datum zahájení úkolu může způsobit, že přiřazení výchozí na začátek projektu.  
-- **Tip:** Použijte `prj.getDuration(value, TimeUnitType.Day)` pro kontrolu granularity zpoždění.  
-- **Tip:** Po přidání více zdrojů zavolejte `prj.updateResourceAssignments()`, aby plánovač přepočítal leveling.
+## Běžná úskalí a tipy
+- **Pitfall:** Zapomenutí nastavení datum zahájení úkolu může způsobit, že přiřazení výchozí na začátek projektu.
+- **Tip:** Použijte `prj.getDuration(value, TimeUnitType.Day)` pro zpoždění kontroly granularity.
+- **Tip:** Po přidání více zdrojů zavolejte `prj.updateResourceAssignments()`, aby plánovač přepočítal levelování.
 
-## Conclusion
-Postupováním podle těchto kroků nyní víte **jak přidat zdroj do projektu**, přiřadit jej k úkolu a spravovat vlastnosti zpoždění levelingu pomocí Aspose.Tasks pro Java. Tato znalost vám umožní vytvářet robustní řešení pro automatizaci projektů, která zůstávají v souladu s reálnými omezeními zdrojů.
+## Závěr
+Postupováním podle těchto kroků nyní víte **jak přidat zdroj do projektu**, přiřadit jej k úkolu a spravovat vlastnosti zpoždění levelingu pomocí Aspose.Tasks pro Java. Tato znalost vám umožní vytvořit robustní řešení pro automatizaci projektů, která jsou v souladu s reálnými omezeními zdrojů.
 
-## FAQ's
-### Q: Can I use Aspose.Tasks with other Java libraries?
+## Nejčastější dotazy
+### Otázka: Mohu používat Aspose.Tasks s jinými Java knihovnami?
 
-A: Yes, Aspose.Tasks can be integrated with other Java libraries to enhance project management capabilities.
+Odpověď: Ano, Aspose.Tasks lze integrovat s jinými knihovnami Java, aby se zlepšily možnosti řízení projektů.
 
-### Q: Is Aspose.Tasks compatible with different versions of Microsoft Project files?
+### Otázka: Je Aspose.Tasks kompatibilní s různými verzemi souborů Microsoft Project?
 
-A: Yes, Aspose.Tasks supports various versions of Microsoft Project files, ensuring compatibility across different environments.
+Odpověď: Ano, Aspose.Tasks podporuje různé verze souborů Microsoft Project a zajišťuje kompatibilitu v různých prostředích.
 
-### Q: Where can I find additional support for Aspose.Tasks?
+### Otázka: Kde najdu další podporu pro Aspose.Tasks?
 
-A: You can find support and resources on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+Odpověď: Podporu a zdroje najdete na [Fóru Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### Q: Can I try Aspose.Tasks before purchasing?
+### Otázka: Mohu si Aspose.Tasks před nákupem vyzkoušet?
 
-A: Yes, you can obtain a free trial of Aspose.Tasks from the [releases page](https://releases.aspose.com/).
+Odpověď: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks na [stránce vydání](https://releases.aspose.com/).
 
-### Q: How can I obtain a temporary license for Aspose.Tasks?
+### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
 
-A: You can request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+Odpověď: Na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/) si můžete vyžádat dočasnou licenci pro účely hodnocení.
 
-## Additional Frequently Asked Questions
+## Další často kladené otázky
 
-**Q: Co se stane, když nastavím nenulové zpoždění levelingu?**  
+**Q: Co se stane, když nastavím nenulové zpoždění levelingu?**
 A: Plánovač odloží začátek přiřazení o zadanou dobu, což pomáhá řešit přetížení.
 
-**Q: Mohu získat zpoždění levelingu po uložení projektu?**  
-A: Ano, můžete znovu otevřít soubor projektu a přečíst vlastnost `Asn.DELAY` z přiřazení.
+**O: Mohu získat zpoždění levelingu po uložení projektu?**
+A: Ano, můžete znovu otevřít soubor projektu a přečíst si vlastnost `Asn.DELAY` z přiřazení.
 
-**Q: Existuje způsob, jak aplikovat zpoždění levelingu na všechna přiřazení najednou?**  
+**Q: Existuje způsob, jak aplikovat zpoždění levelingu na všechna přiřazení najednou?**
 A: Můžete iterovat přes `prj.getResourceAssignments()` a nastavit zpoždění pro každé přiřazení ve smyčce.
 
 ---
 
-**Poslední aktualizace:** 2026-01-07  
-**Testováno s:** Aspose.Tasks for Java 24.11  
+**Poslední aktualizace:** 2026-01-07
+**Testováno s:** Aspose.Tasks for Java 24.11
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
