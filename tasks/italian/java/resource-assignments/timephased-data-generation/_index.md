@@ -1,27 +1,46 @@
 ---
-title: Genera dati rapportati alla scala cronologica in Aspose.Tasks
-linktitle: Genera dati rapportati alla scala cronologica per le assegnazioni di risorse in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come generare dati rapportati alla scala cronologica per le assegnazioni di risorse utilizzando Aspose.Tasks per Java. Migliora l'efficienza della gestione dei progetti con questa guida completa.
-weight: 24
+date: 2026-01-10
+description: Scopri come modificare il contorno e generare dati temporizzati per le
+  assegnazioni delle risorse usando Aspose.Tasks per Java, migliorando l'efficienza
+  della gestione dei progetti.
+linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Come modificare il contorno in Aspose.Tasks per i dati temporizzati
 url: /it/java/resource-assignments/timephased-data-generation/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Genera dati rapportati alla scala cronologica in Aspose.Tasks
+# Come cambiare il contorno in Aspose.Tasks per dati a intervalli temporali
 
-## introduzione
-In questo tutorial, esamineremo il processo di generazione di dati rapportati alla scala cronologica per le assegnazioni di risorse utilizzando Aspose.Tasks per Java. I dati temporali forniscono informazioni preziose su come le risorse vengono allocate nel tempo all'interno di un progetto, aiutando i project manager a prendere decisioni informate.
+## Introduzione
+In questo tutorial, scoprirai **come cambiare il contorno** per un'assegnazione di risorsa e generare dati a intervalli temporali usando Aspose.Tasks per Java. I dati a intervalli temporali mostrano la distribuzione del lavoro lungo la cronologia del progetto, consentendoti di perfezionare i piani, bilanciare i carichi di lavoro e prendere decisioni basate sui dati.
+
+## Risposte rapide
+- **Che cos'è un contorno?** Un contorno di lavoro definisce come lo sforzo è distribuito nella durata di un'attività (es. Flat, Turtle, Bell).  
+- **Perché cambiare un contorno?** Per riflettere schemi di lavoro realistici come il caricamento anticipato o posticipato dello sforzo.  
+- **Quale libreria è necessaria?** Aspose.Tasks per Java (qualsiasi versione recente).  
+- **È necessaria una licenza?** Sì, è necessaria una licenza valida di Aspose.Tasks per l'uso in produzione.  
+- **Posso vedere i risultati nella console?** L'esempio stampa le date di inizio e i valori per ogni segmento a intervalli temporali.
+
+## Che cosa significa “come cambiare il contorno”?
+Cambiare un contorno significa aggiornare la proprietà `WORK_CONTOUR` di un `ResourceAssignment`. Aspose.Tasks supporta diversi contorni predefiniti (Flat, Turtle, Bell, ecc.) che influenzano come il lavoro è assegnato nel tempo.
+
+## Perché usare Aspose.Tasks per generare dati a intervalli temporali?
+- **Reportistica accurata:** Esporta una distribuzione precisa del lavoro per gli strumenti di reporting.  
+- **Pianificazione di scenari:** Prova diversi contorni senza modificare il programma originale.  
+- **Automazione:** Integra nei pipeline CI per convalidare automaticamente lo stato del progetto.
+
 ## Prerequisiti
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
-1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo sistema. È possibile scaricare e installare JDK da[Qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Tasks per Java Library: è necessario disporre della libreria Aspose.Tasks per Java. Puoi scaricarlo da[sito web](https://releases.aspose.com/tasks/java/).
+1. Java Development Kit (JDK): Assicurati di avere il JDK installato sul tuo sistema. Puoi scaricare e installare il JDK da [qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Libreria Aspose.Tasks per Java: È necessario avere la libreria Aspose.Tasks per Java. Puoi scaricarla dal [sito web](https://releases.aspose.com/tasks/java/).
 
-## Importa pacchetti
-Innanzitutto, importiamo i pacchetti necessari per lavorare con Aspose.Tasks:
+## Importa i pacchetti
+Prima, importiamo i pacchetti necessari per lavorare con Aspose.Tasks:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Prj;
@@ -31,85 +50,95 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimephasedData;
 import com.aspose.tasks.WorkContourType;
 ```
-## Passaggio 1: leggere il file MPP di origine
+
+## Passo 1: Leggi il file MPP di origine
 ```java
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Leggere il file MPP di origine
+// Read the source MPP file
 Project project = new Project(dataDir + "project.mpp");
 ```
-## Passaggio 2: ottenere l'assegnazione di attività e risorse
+
+## Passo 2: Ottieni l'attività e l'assegnazione della risorsa
 ```java
-// Ottieni il primo compito del progetto
+// Get the first task of the Project
 Task task = project.getRootTask().getChildren().getById(1);
-// Ottieni la prima assegnazione di risorse del progetto
+// Get the first resource assignment of the project
 ResourceAssignment firstRA = project.getResourceAssignments().toList().get(0);
 ```
-## Passaggio 3: generare dati rapportati alla scala cronologica con contorno piatto
+
+## Come cambiare il contorno – Flat (Predefinito)
 ```java
-// Il contorno piatto è il contorno predefinito
+// Flat contour is the default contour
 System.out.println("Flat contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 4: cambia contorno in Tartaruga
+
+## Come cambiare il contorno – Turtle
 ```java
-// Cambia contorno in Tartaruga
+// Change contour to Turtle
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Turtle);
 System.out.println("Turtle contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 5: modificare il contorno in BackLoaded
+
+## Come cambiare il contorno – BackLoaded
 ```java
-// Cambia il contorno in BackLoaded
+// Change contour to BackLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 System.out.println("BackLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 6: modificare il contorno in FrontLoaded
+
+## Come cambiare il contorno – FrontLoaded
 ```java
-// Cambia il contorno in FrontLoaded
+// Change contour to FrontLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FrontLoaded);
 System.out.println("FrontLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 7: cambia contorno in campana
+
+## Come cambiare il contorno – Bell
 ```java
-// Cambia contorno in Bell
+// Change contour to Bell
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Bell);
 System.out.println("Bell contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 8: modificare il contorno in EarlyPeak
+
+## Come cambiare il contorno – EarlyPeak
 ```java
-// Cambia contorno in EarlyPeak
+// Change contour to EarlyPeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EarlyPeak);
 System.out.println("EarlyPeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 9: cambia Contour in LatePeak
+
+## Come cambiare il contorno – LatePeak
 ```java
-// Cambia contorno in LatePeak
+// Change contour to LatePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LatePeak);
 System.out.println("LatePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Passaggio 10: cambia Contorno in DoublePeak
+
+## Come cambiare il contorno – DoublePeak
 ```java
-// Cambia contorno in DoublePeak
+// Change contour to DoublePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DoublePeak);
 System.out.println("DoublePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
@@ -117,19 +146,33 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Conclusione
-In questo tutorial, abbiamo spiegato come generare dati rapportati alla scala cronologica per le assegnazioni di risorse utilizzando Aspose.Tasks per Java. Comprendere i diversi profili di lavoro può aiutare i project manager a gestire in modo efficace l'allocazione e la pianificazione delle risorse nei loro progetti.
-## Domande frequenti
-### Posso utilizzare Aspose.Tasks con altre librerie Java?
+## Problemi comuni e suggerimenti
+- **Il contorno non si aggiorna?** Assicurati di chiamare `firstRA.set(Asn.WORK_CONTOUR, …)` *prima* di recuperare i dati a intervalli temporali.
+- **Valori inattesi?** Verifica che le date di inizio e fine dell'attività siano impostate correttamente nel MPP di origine.
+- **Suggerimento di performance:** Riutilizza la stessa istanza `Project` quando iteri attraverso più contorni per evitare I/O di file non necessario.
+
+## FAQ
+### Posso usare Aspose.Tasks con altre librerie Java?
 Sì, Aspose.Tasks può essere integrato con altre librerie Java per migliorare le capacità di gestione dei progetti.
-### Aspose.Tasks è adatto a progetti aziendali su larga scala?
-Assolutamente, Aspose.Tasks è progettato per gestire progetti di tutte le dimensioni, compresi progetti aziendali su larga scala.
+
+### Aspose.Tasks è adatto per progetti aziendali su larga scala?
+Assolutamente, Aspose.Tasks è progettato per gestire progetti di tutte le dimensioni, incluse iniziative aziendali su larga scala.
+
 ### Aspose.Tasks fornisce supporto per diversi formati di file di progetto?
-Sì, Aspose.Tasks supporta vari formati di file di progetto, inclusi MPP, XML e MPX.
-### Posso personalizzare i contorni del lavoro in base ai requisiti del mio progetto?
-Sì, Aspose.Tasks consente agli utenti di definire contorni di lavoro personalizzati per soddisfare le loro specifiche esigenze di progetto.
-### Esiste un forum della community in cui posso ottenere assistenza con Aspose.Tasks?
- Sì, puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto e discussioni.
+Sì, Aspose.Tasks supporta una varietà di formati, come MPP, XML e MPX.
+
+### Posso personalizzare i contorni di lavoro in base ai requisiti del mio progetto?
+Sì, puoi definire contorni di lavoro personalizzati per soddisfare esigenze di pianificazione specifiche.
+
+### Esiste un forum della community dove posso ottenere assistenza su Aspose.Tasks?
+Sì, puoi visitare il [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto e discussioni.
+
+---
+
+**Ultimo aggiornamento:** 2026-01-10  
+**Testato con:** Aspose.Tasks per Java (ultima versione)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

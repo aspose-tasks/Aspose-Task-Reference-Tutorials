@@ -1,27 +1,46 @@
 ---
-title: Δημιουργήστε δεδομένα χρονικής φάσης στο Aspose.Tasks
-linktitle: Δημιουργήστε δεδομένα χρονικής φάσης για αναθέσεις πόρων στο Aspose.Tasks
+date: 2026-01-10
+description: Μάθετε πώς να αλλάζετε το περίγραμμα και να δημιουργείτε δεδομένα χρονικής
+  φάσης για τις αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks for Java, βελτιώνοντας
+  την αποδοτικότητα της διαχείρισης έργων.
+linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Μάθετε πώς να δημιουργείτε δεδομένα χρονικής φάσης για αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Βελτιώστε την αποτελεσματικότητα της διαχείρισης έργου με αυτόν τον περιεκτικό οδηγό.
-weight: 24
+title: Πώς να αλλάξετε το περίγραμμα στο Aspose.Tasks για δεδομένα χρονικής φάσης
 url: /el/java/resource-assignments/timephased-data-generation/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργήστε δεδομένα χρονικής φάσης στο Aspose.Tasks
+# Πώς να Αλλάξετε το Contour στο Aspose.Tasks για Δεδομένα Χρονικής Φάσης
 
 ## Εισαγωγή
-Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία δημιουργίας δεδομένων χρονικής φάσης για αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Τα δεδομένα χρονικής φάσης παρέχουν πολύτιμες πληροφορίες για τον τρόπο κατανομής των πόρων με την πάροδο του χρόνου σε ένα έργο, βοηθώντας τους διαχειριστές του έργου να λαμβάνουν τεκμηριωμένες αποφάσεις.
-## Προαπαιτούμενα
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
-1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε το JDK από[εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Tasks for Java Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Tasks for Java. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://releases.aspose.com/tasks/java/).
+Σε αυτό το tutorial, θα ανακαλύψετε **πώς να αλλάξετε το contour** για μια ανάθεση πόρου και να δημιουργήσετε δεδομένα χρονικής φάσης χρησιμοποιώντας το Aspose.Tasks for Java. Τα δεδομένα χρονικής φάσης αποκαλύπτουν την κατανομή της εργασίας κατά τη διάρκεια του χρονοδιαγράμματος του έργου, επιτρέποντάς σας να βελτιστοποιήσετε τα προγράμματα, να εξισορροπήσετε τα φορτία εργασίας και να λαμβάνετε αποφάσεις βάσει δεδομένων.
 
-## Εισαγωγή πακέτων
-Αρχικά, ας εισάγουμε τα απαραίτητα πακέτα για να δουλέψουμε με το Aspose.Tasks:
+## Γρήγορες Απαντήσεις
+- **Τι είναι ένα contour;** Ένα contour εργασίας ορίζει πώς κατανέμεται η προσπάθεια κατά τη διάρκεια μιας εργασίας (π.χ., Flat, Turtle, Bell).  
+- **Γιατί να αλλάξω ένα contour;** Για να αντικατοπτρίσει ρεαλιστικά πρότυπα εργασίας όπως η προ-φόρτωση ή η μετα-φόρτωση της προσπάθειας.  
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Tasks for Java (οποιαδήποτε πρόσφατη έκδοση).  
+- **Χρειάζομαι άδεια;** Ναι, απαιτείται έγκυρη άδεια Aspose.Tasks για χρήση σε παραγωγή.  
+- **Μπορώ να δω τα αποτελέσματα στην κονσόλα;** Το παράδειγμα εκτυπώνει τις ημερομηνίες έναρξης και τις τιμές για κάθε τμήμα χρονικής φάσης.
+
+## Τι σημαίνει «πώς να αλλάξετε το contour»;
+Η αλλαγή ενός contour σημαίνει την ενημέρωση της ιδιότητας `WORK_CONTOUR` ενός `ResourceAssignment`. Το Aspose.Tasks υποστηρίζει αρκετά προ‑ορισμένα contours (Flat, Turtle, Bell κ.λπ.) που επηρεάζουν τον τρόπο κατανομής της εργασίας στο χρόνο.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Tasks για τη δημιουργία δεδομένων χρονικής φάσης;
+- **Ακριβής αναφορά:** Εξαγωγή ακριβούς κατανομής εργασίας για εργαλεία αναφοράς.  
+- **Σχεδιασμός σεναρίων:** Δοκιμή διαφορετικών contours χωρίς αλλαγή του αρχικού χρονοδιαγράμματος.  
+- **Αυτοματοποίηση:** Ενσωμάτωση σε CI pipelines για αυτόματη επαλήθευση της υγείας του έργου.
+
+## Προαπαιτούμενα
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι διαθέτετε τα παρακάτω προαπαιτούμενα:
+1. Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε και να το εγκαταστήσετε από [εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. Aspose.Tasks for Java Library: Πρέπει να έχετε τη βιβλιοθήκη Aspose.Tasks for Java. Μπορείτε να την κατεβάσετε από την [ιστοσελίδα](https://releases.aspose.com/tasks/java/).
+
+## Εισαγωγή Πακέτων
+Αρχικά, ας εισάγουμε τα απαραίτητα πακέτα για εργασία με το Aspose.Tasks:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Prj;
@@ -31,85 +50,95 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimephasedData;
 import com.aspose.tasks.WorkContourType;
 ```
-## Βήμα 1: Διαβάστε το αρχείο προέλευσης MPP
+
+## Βήμα 1: Ανάγνωση του Πηγαίου Αρχείου MPP
 ```java
-// Η διαδρομή προς τον κατάλογο εγγράφων.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Διαβάστε το αρχείο MPP προέλευσης
+// Read the source MPP file
 Project project = new Project(dataDir + "project.mpp");
 ```
-## Βήμα 2: Λάβετε ανάθεση εργασιών και πόρων
+
+## Βήμα 2: Λήψη Εργασίας και Ανάθεσης Πόρου
 ```java
-// Αποκτήστε την πρώτη εργασία του Έργου
+// Get the first task of the Project
 Task task = project.getRootTask().getChildren().getById(1);
-// Λάβετε την πρώτη ανάθεση πόρων του έργου
+// Get the first resource assignment of the project
 ResourceAssignment firstRA = project.getResourceAssignments().toList().get(0);
 ```
-## Βήμα 3: Δημιουργήστε δεδομένα χρονικής φάσης με επίπεδο περίγραμμα
+
+## Πώς να Αλλάξετε το Contour – Flat (Προεπιλογή)
 ```java
-// Το επίπεδο περίγραμμα είναι το προεπιλεγμένο περίγραμμα
+// Flat contour is the default contour
 System.out.println("Flat contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 4: Αλλάξτε το περίγραμμα σε Χελώνα
+
+## Πώς να Αλλάξετε το Contour – Turtle
 ```java
-// Αλλάξτε το περίγραμμα σε Turtle
+// Change contour to Turtle
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Turtle);
 System.out.println("Turtle contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 5: Αλλάξτε το περίγραμμα σε Backloaded
+
+## Πώς να Αλλάξετε το Contour – BackLoaded
 ```java
-// Αλλάξτε το περίγραμμα σε Backloaded
+// Change contour to BackLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 System.out.println("BackLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 6: Αλλάξτε το Contour σε FrontLoaded
+
+## Πώς να Αλλάξετε το Contour – FrontLoaded
 ```java
-// Αλλάξτε το περίγραμμα σε FrontLoaded
+// Change contour to FrontLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FrontLoaded);
 System.out.println("FrontLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 7: Αλλάξτε το περίγραμμα σε Bell
+
+## Πώς να Αλλάξετε το Contour – Bell
 ```java
-// Αλλάξτε το περίγραμμα σε Bell
+// Change contour to Bell
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Bell);
 System.out.println("Bell contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 8: Αλλάξτε το περίγραμμα σε EarlyPeak
+
+## Πώς να Αλλάξετε το Contour – EarlyPeak
 ```java
-// Αλλάξτε το περίγραμμα σε EarlyPeak
+// Change contour to EarlyPeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EarlyPeak);
 System.out.println("EarlyPeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 9: Αλλάξτε το Contour σε LatePeak
+
+## Πώς να Αλλάξετε το Contour – LatePeak
 ```java
-// Αλλαγή περιγράμματος σε LatePeak
+// Change contour to LatePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LatePeak);
 System.out.println("LatePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Βήμα 10: Αλλάξτε το περίγραμμα σε DoublePeak
+
+## Πώς να Αλλάξετε το Contour – DoublePeak
 ```java
-// Αλλάξτε το περίγραμμα σε DoublePeak
+// Change contour to DoublePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DoublePeak);
 System.out.println("DoublePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
@@ -117,19 +146,33 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## συμπέρασμα
-Σε αυτό το σεμινάριο, έχουμε καλύψει τον τρόπο δημιουργίας δεδομένων χρονικής φάσης για αναθέσεις πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Η κατανόηση διαφορετικών περιγραμμάτων εργασίας μπορεί να βοηθήσει τους διαχειριστές έργων να διαχειριστούν αποτελεσματικά την κατανομή πόρων και τον προγραμματισμό στα έργα τους.
-## Συχνές ερωτήσεις
+## Συχνά Προβλήματα & Συμβουλές
+- **Το contour δεν ενημερώνεται;** Βεβαιωθείτε ότι καλείτε `firstRA.set(Asn.WORK_CONTOUR, …)` *πριν* την ανάκτηση των δεδομένων χρονικής φάσης.  
+- **Απρόσμενες τιμές;** Επαληθεύστε ότι οι ημερομηνίες έναρξης και λήξης της εργασίας έχουν οριστεί σωστά στο πηγαίο MPP.  
+- **Συμβουλή απόδοσης:** Επαναχρησιμοποιήστε την ίδια παρουσία `Project` όταν επαναλαμβάνετε πολλαπλά contours για να αποφύγετε περιττές ενέργειες I/O αρχείων.
+
+## Συχνές Ερωτήσεις
 ### Μπορώ να χρησιμοποιήσω το Aspose.Tasks με άλλες βιβλιοθήκες Java;
-Ναι, το Aspose.Tasks μπορεί να ενσωματωθεί με άλλες βιβλιοθήκες Java για τη βελτίωση των δυνατοτήτων διαχείρισης έργου.
+Ναι, το Aspose.Tasks μπορεί να ενσωματωθεί με άλλες βιβλιοθήκες Java για ενίσχυση των δυνατοτήτων διαχείρισης έργων.
+
 ### Είναι το Aspose.Tasks κατάλληλο για μεγάλης κλίμακας εταιρικά έργα;
-Οπωσδήποτε, το Aspose.Tasks έχει σχεδιαστεί για να χειρίζεται έργα όλων των μεγεθών, συμπεριλαμβανομένων μεγάλων επιχειρηματικών έργων.
-### Το Aspose.Tasks παρέχει υποστήριξη για διαφορετικές μορφές αρχείων έργου;
-Ναι, το Aspose.Tasks υποστηρίζει διάφορες μορφές αρχείων έργου, συμπεριλαμβανομένων των MPP, XML και MPX.
-### Μπορώ να προσαρμόσω τα περιγράμματα εργασίας σύμφωνα με τις απαιτήσεις του έργου μου;
-Ναι, το Aspose.Tasks επιτρέπει στους χρήστες να ορίζουν προσαρμοσμένα περιγράμματα εργασίας για να ταιριάζουν στις συγκεκριμένες ανάγκες του έργου τους.
-### Υπάρχει κάποιο φόρουμ κοινότητας όπου μπορώ να λάβω βοήθεια με το Aspose.Tasks;
- Ναι, μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για υποστήριξη και συζητήσεις.
+Απολύτως, το Aspose.Tasks έχει σχεδιαστεί για να χειρίζεται έργα κάθε μεγέθους, συμπεριλαμβανομένων μεγάλων εταιρικών πρωτοβουλιών.
+
+### Παρέχει το Aspose.Tasks υποστήριξη για διαφορετικές μορφές αρχείων έργου;
+Ναι, το Aspose.Tasks υποστηρίζει μια ποικιλία μορφών, όπως MPP, XML και MPX.
+
+### Μπορώ να προσαρμόσω τα contours εργασίας σύμφωνα με τις απαιτήσεις του έργου μου;
+Ναι, μπορείτε να ορίσετε προσαρμοσμένα contours εργασίας ώστε να ταιριάζουν σε συγκεκριμένες ανάγκες χρονοπρογραμματισμού.
+
+### Υπάρχει φόρουμ κοινότητας όπου μπορώ να λάβω βοήθεια για το Aspose.Tasks;
+Ναι, μπορείτε να επισκεφθείτε το [φόρουμ Aspose.Tasks](https://forum.aspose.com/c/tasks/15) για υποστήριξη και συζητήσεις.
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-10  
+**Δοκιμασμένο Με:** Aspose.Tasks for Java (τελευταία έκδοση)  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

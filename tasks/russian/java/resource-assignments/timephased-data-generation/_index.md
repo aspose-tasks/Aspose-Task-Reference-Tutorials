@@ -1,27 +1,45 @@
 ---
-title: Генерация повременных данных в Aspose.Tasks
-linktitle: Генерация повременных данных для назначения ресурсов в Aspose.Tasks
-second_title: API Aspose.Tasks Java
-description: Узнайте, как генерировать повременные данные для назначения ресурсов с помощью Aspose.Tasks для Java. Повысьте эффективность управления проектами с помощью этого подробного руководства.
-weight: 24
+date: 2026-01-10
+description: Узнайте, как изменить контур и сгенерировать временные данные для назначений
+  ресурсов с помощью Aspose.Tasks for Java, повышая эффективность управления проектами.
+linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Как изменить контур в Aspose.Tasks для данных с временными фазами
 url: /ru/java/resource-assignments/timephased-data-generation/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Генерация повременных данных в Aspose.Tasks
+# Как изменить контур в Aspose.Tasks для данных с фазированием времени
 
 ## Введение
-В этом руководстве мы рассмотрим процесс генерации повременных данных для назначения ресурсов с помощью Aspose.Tasks для Java. Повременные данные дают ценную информацию о том, как ресурсы распределяются во времени в рамках проекта, помогая менеджерам проектов принимать обоснованные решения.
-## Предварительные условия
-Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
-1.  Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете загрузить и установить JDK с сайта[здесь](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Библиотека Aspose.Tasks для Java: вам необходима библиотека Aspose.Tasks для Java. Вы можете скачать его с сайта[Веб-сайт](https://releases.aspose.com/tasks/java/).
+В этом руководстве вы узнаете **как изменить контур** для назначения ресурса и сгенерировать данные с фазированием времени, используя Aspose.Tasks для Java. Данные с фазированием времени показывают распределение работы по графику проекта, позволяя точно настраивать расписания, балансировать нагрузку и принимать решения, основанные на данных.
 
-## Импортировать пакеты
-Для начала импортируем необходимые пакеты для работы с Aspose.Tasks:
+## Быстрые ответы
+- **Что такое контур?** Контур работы определяет, как усилия распределяются в течение длительности задачи (например, Flat, Turtle, Bell).  
+- **Зачем менять контур?** Чтобы отразить реалистичные модели работы, такие как предварительное или последующее распределение усилий.  
+- **Какая библиотека требуется?** Aspose.Tasks для Java (любая актуальная версия).  
+- **Нужна ли лицензия?** Да, для использования в продакшене требуется действующая лицензия Aspose.Tasks.  
+- **Можно ли увидеть результаты в консоли?** Пример выводит даты начала и значения для каждого фазированного сегмента.
+
+## Что означает «как изменить контур»?
+Изменение контура означает обновление свойства `WORK_CONTOUR` у объекта `ResourceAssignment`. Aspose.Tasks поддерживает несколько предопределённых контуров (Flat, Turtle, Bell и др.), которые влияют на распределение работы во времени.
+
+## Почему стоит использовать Aspose.Tasks для генерации данных с фазированием времени?
+- **Точная отчетность:** Экспорт точного распределения работы для инструментов отчетности.  
+- **Планирование сценариев:** Тестирование разных контуров без изменения исходного расписания.  
+- **Автоматизация:** Интеграция в CI‑конвейеры для автоматической проверки состояния проекта.
+
+## Предварительные требования
+Прежде чем начать, убедитесь, что у вас есть следующие требования:
+1. Java Development Kit (JDK): Убедитесь, что JDK установлен в вашей системе. Вы можете скачать и установить JDK по ссылке [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Библиотека Aspose.Tasks для Java: Необходимо иметь библиотеку Aspose.Tasks для Java. Вы можете скачать её с [website](https://releases.aspose.com/tasks/java/).
+
+## Импорт пакетов
+Сначала импортируем необходимые пакеты для работы с Aspose.Tasks:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Prj;
@@ -31,85 +49,95 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TimephasedData;
 import com.aspose.tasks.WorkContourType;
 ```
-## Шаг 1. Прочтите исходный файл MPP.
+
+## Шаг 1: Чтение исходного файла MPP
 ```java
-// Путь к каталогу документов.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Прочтите исходный файл MPP
+// Read the source MPP file
 Project project = new Project(dataDir + "project.mpp");
 ```
-## Шаг 2. Получите назначение задач и ресурсов
+
+## Шаг 2: Получение задачи и назначения ресурса
 ```java
-// Получите первое задание Проекта
+// Get the first task of the Project
 Task task = project.getRootTask().getChildren().getById(1);
-// Получите первое назначение ресурсов проекта.
+// Get the first resource assignment of the project
 ResourceAssignment firstRA = project.getResourceAssignments().toList().get(0);
 ```
-## Шаг 3. Сгенерируйте повременные данные с плоским контуром
+
+## Как изменить контур – Flat (по умолчанию)
 ```java
-// Плоский контур — контур по умолчанию.
+// Flat contour is the default contour
 System.out.println("Flat contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 4: Измените контур на черепаху
+
+## Как изменить контур – Turtle
 ```java
-// Изменить контур на Черепаху
+// Change contour to Turtle
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Turtle);
 System.out.println("Turtle contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 5. Измените контур на BackLoaded
+
+## Как изменить контур – BackLoaded
 ```java
-// Изменить контур на BackLoaded
+// Change contour to BackLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 System.out.println("BackLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 6. Измените Contour на FrontLoaded
+
+## Как изменить контур – FrontLoaded
 ```java
-// Изменить контур на FrontLoaded
+// Change contour to FrontLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FrontLoaded);
 System.out.println("FrontLoaded contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 7: Измените контур на колокольчик
+
+## Как изменить контур – Bell
 ```java
-// Изменить контур на Bell
+// Change contour to Bell
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Bell);
 System.out.println("Bell contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 8: Измените контур на EarlyPeak
+
+## Как изменить контур – EarlyPeak
 ```java
-// Изменить контур на EarlyPeak
+// Change contour to EarlyPeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EarlyPeak);
 System.out.println("EarlyPeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 9: измените контур на LatePeak
+
+## Как изменить контур – LatePeak
 ```java
-// Изменить контур на LatePeak
+// Change contour to LatePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LatePeak);
 System.out.println("LatePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
     System.out.println(td.getStart().toString() + " " + td.getValue());
 }
 ```
-## Шаг 10: Измените контур на DoublePeak
+
+## Как изменить контур – DoublePeak
 ```java
-// Изменить контур на DoublePeak
+// Change contour to DoublePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DoublePeak);
 System.out.println("DoublePeak contour");
 for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), project.get(Prj.FINISH_DATE))) {
@@ -117,19 +145,33 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Заключение
-В этом руководстве мы рассмотрели, как генерировать повременные данные для назначения ресурсов с помощью Aspose.Tasks для Java. Понимание различных контуров работы может помочь менеджерам проектов эффективно управлять распределением ресурсов и планированием в своих проектах.
+## Распространённые проблемы и советы
+- **Контур не обновляется?** Убедитесь, что вызываете `firstRA.set(Asn.WORK_CONTOUR, …)` *до* получения фазированных данных.
+- **Неожиданные значения?** Проверьте, что даты начала и окончания задачи правильно заданы в исходном файле MPP.
+- **Совет по производительности:** Переиспользуйте один экземпляр `Project` при переборе нескольких контуров, чтобы избежать лишних операций ввода‑вывода файлов.
+
 ## Часто задаваемые вопросы
-### Могу ли я использовать Aspose.Tasks с другими библиотеками Java?
+### Можно ли использовать Aspose.Tasks с другими библиотеками Java?
 Да, Aspose.Tasks можно интегрировать с другими библиотеками Java для расширения возможностей управления проектами.
+
 ### Подходит ли Aspose.Tasks для крупномасштабных корпоративных проектов?
-Безусловно, Aspose.Tasks предназначен для реализации проектов любого размера, включая крупномасштабные корпоративные проекты.
-### Обеспечивает ли Aspose.Tasks поддержку различных форматов файлов проекта?
-Да, Aspose.Tasks поддерживает различные форматы файлов проектов, включая MPP, XML и MPX.
-### Могу ли я настроить рабочие контуры в соответствии с требованиями моего проекта?
-Да, Aspose.Tasks позволяет пользователям определять собственные контуры работы в соответствии с потребностями их конкретных проектов.
-### Есть ли форум сообщества, где я могу получить помощь по Aspose.Tasks?
- Да, вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) за поддержку и обсуждения.
+Безусловно, Aspose.Tasks разработан для работы с проектами любого размера, включая крупномасштабные корпоративные инициативы.
+
+### Предоставляет ли Aspose.Tasks поддержку различных форматов файлов проектов?
+Да, Aspose.Tasks поддерживает множество форматов, таких как MPP, XML и MPX.
+
+### Можно ли настроить контуры работы в соответствии с требованиями проекта?
+Да, вы можете определить пользовательские контуры работы, соответствующие конкретным потребностям планирования.
+
+### Есть ли сообщество, где можно получить помощь по Aspose.Tasks?
+Да, вы можете посетить [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) для получения поддержки и обсуждения.
+
+---
+
+**Последнее обновление:** 2026-01-10  
+**Тестировано с:** Aspose.Tasks для Java (последний релиз)  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
