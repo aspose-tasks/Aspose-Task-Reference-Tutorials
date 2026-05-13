@@ -96,22 +96,6 @@ In this block we **check stop date** and **check resume date** for each assignme
 - **Incorrect file path** – Ensure `dataDir` ends with a path separator (`/` or `\\`) appropriate for your OS.  
 - **Version mismatch** – Use the latest Aspose.Tasks for Java version to avoid missing enum values.
 
-## FAQ's
-### Can I use Aspose.Tasks without Microsoft Project installed?
-Yes, Aspose.Tasks allows you to work with Microsoft Project files without needing Microsoft Project installed on your system.
-
-### Where can I find more documentation?
-You can find detailed documentation [here](https://reference.aspose.com/tasks/java/).
-
-### Is there a free trial available?
-Yes, you can get a free trial [here](https://releases.aspose.com/).
-
-### How can I get support if I encounter any issues?
-You can get support from the community [here](https://forum.aspose.com/c/tasks/15).
-
-### Can I purchase a temporary license?
-Yes, you can purchase a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
 ## Frequently Asked Questions
 
 **Q: How do I programmatically set a stop date for an assignment?**  

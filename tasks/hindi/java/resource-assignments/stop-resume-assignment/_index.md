@@ -99,22 +99,6 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 - **वर्ज़न मिसमैच** – लापता enum वैल्यूज़ से बचने के लिए नवीनतम Aspose.Tasks for Java संस्करण का उपयोग करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या मैं Microsoft Project स्थापित किए बिना Aspose.Tasks का उपयोग कर सकता हूँ?
-हाँ, Aspose.Tasks आपको Microsoft Project फ़ाइलों के साथ काम करने की अनुमति देता है बिना आपके सिस्टम पर Microsoft Project स्थापित किए।
-
-### और अधिक दस्तावेज़ कहाँ मिल सकते हैं?
-आप विस्तृत दस्तावेज़ीकरण [here](https://reference.aspose.com/tasks/java/) पर पा सकते हैं।
-
-### क्या कोई फ्री ट्रायल उपलब्ध है?
-हाँ, आप फ्री ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
-
-### यदि मुझे कोई समस्या आती है तो मैं समर्थन कैसे प्राप्त कर सकता हूँ?
-आप समुदाय से समर्थन [here](https://forum.aspose.com/c/tasks/15) पर प्राप्त कर सकते हैं।
-
-### क्या मैं एक अस्थायी लाइसेंस खरीद सकता हूँ?
-हाँ, आप एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से खरीद सकते हैं।
-
-## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: मैं प्रोग्रामेटिक रूप से असाइनमेंट के लिए स्टॉप डेट कैसे सेट करूँ?**  
 A: `ra.set(Asn.STOP, yourDateObject);` का उपयोग करें जहाँ `yourDateObject` एक `java.util.Date` है।

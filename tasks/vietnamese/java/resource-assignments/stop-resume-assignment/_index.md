@@ -96,22 +96,6 @@ Trong khối này chúng ta **kiểm tra ngày dừng** và **kiểm tra ngày t
 - **Phiên bản không khớp** – Sử dụng phiên bản mới nhất của Aspose.Tasks cho Java để tránh thiếu các giá trị enum.  
 
 ## Câu hỏi thường gặp
-### Tôi có thể sử dụng Aspose.Tasks mà không cần cài đặt Microsoft Project không?
-Có, Aspose.Tasks cho phép bạn làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên hệ thống của mình.
-
-### Tôi có thể tìm tài liệu chi tiết ở đâu?
-Bạn có thể tìm tài liệu chi tiết [here](https://reference.aspose.com/tasks/java/).
-
-### Có bản dùng thử miễn phí không?
-Có, bạn có thể nhận bản dùng thử miễn phí [here](https://releases.aspose.com/).
-
-### Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?
-Bạn có thể nhận hỗ trợ từ cộng đồng [here](https://forum.aspose.com/c/tasks/15).
-
-### Tôi có thể mua giấy phép tạm thời không?
-Có, bạn có thể mua giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
-
-## Câu hỏi thường gặp
 
 **H: Làm thế nào để lập trình đặt ngày dừng cho một giao nhiệm vụ?**  
 Đ: Sử dụng `ra.set(Asn.STOP, yourDateObject);` trong đó `yourDateObject` là một `java.util.Date`.

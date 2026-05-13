@@ -101,18 +101,6 @@ System.out.println("Process completed Successfully");
 - **Notizen erscheinen nicht in der UI:** Stellen Sie sicher, dass Sie das Zuweisungs‑Notizen‑Fenster in Microsoft Project oder einem anderen Viewer, der Zuweisungs‑Notizen unterstützt, geöffnet haben.  
 - **RTF‑Ausgabe ist leer:** Die API gibt nur RTF zurück, wenn die Notizen Rich‑Text‑Formatierungen enthalten; reiner Klartext führt zu einer leeren RTF‑Zeichenkette.
 
-## FAQ's
-### Ist Aspose.Tasks für Java mit allen Java‑IDEs kompatibel?
-Aspose.Tasks für Java ist mit jeder Java‑IDE kompatibel, einschließlich IntelliJ IDEA, Eclipse und NetBeans.  
-### Kann ich Aspose.Tasks für Java vor dem Kauf testen?
-Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java [hier](https://releases.aspose.com/) herunterladen.  
-### Wie erhalte ich Support für Aspose.Tasks für Java?
-Sie erhalten Support im Aspose.Tasks‑Community‑Forum [hier](https://forum.aspose.com/c/tasks/15).  
-### Benötige ich eine temporäre Lizenz für die Nutzung von Aspose.Tasks für Java während der Testphase?
-Nein, für die Testphase ist keine temporäre Lizenz erforderlich. Sie können die Testversion ohne Lizenz verwenden.  
-### Wo kann ich Aspose.Tasks für Java kaufen?
-Sie können Aspose.Tasks für Java über die Kaufseite [hier](https://purchase.aspose.com/buy) erwerben.
-
 ## Häufig gestellte Fragen
 **F: Kann ich Notizen nach dem Setzen noch bearbeiten?**  
 A: Ja, rufen Sie einfach `assn.set(Asn.NOTES_TEXT, "Aktualisierte Notiz")` erneut mit dem neuen Inhalt auf.
@@ -132,13 +120,6 @@ A: Ja, iterieren Sie über `prj.getResourceAssignments()` und setzen Sie `Asn.NO
 ## Fazit
 Durch Befolgen dieser Schritte wissen Sie jetzt **wie man Notizen** zu Ressourcen‑Zuweisungen in Aspose.Tasks für Java hinzufügt. Das Einbinden von Notizen verbessert die Projektklarheit und liefert einen wertvollen Audit‑Trail. Erkunden Sie gerne weitere API‑Funktionen wie Massen‑Updates, RTF‑Formatierung und die Integration in Ihre bestehenden Projekt‑Management‑Workflows.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-01-10  
@@ -146,3 +127,10 @@ Durch Befolgen dieser Schritte wissen Sie jetzt **wie man Notizen** zu Ressource
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

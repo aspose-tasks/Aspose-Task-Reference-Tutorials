@@ -101,22 +101,6 @@ System.out.println("Process completed Successfully");
 - **Catatan tidak muncul di UI:** Pastikan Anda melihat panel catatan penugasan di Microsoft Project atau penampil lain yang mendukung catatan penugasan.  
 - **Output RTF terlihat kosong:** API hanya mengembalikan RTF jika catatan berisi pemformatan teks kaya; teks biasa akan menghasilkan string RTF kosong.
 
-## FAQ
-### Apakah Aspose.Tasks untuk Java kompatibel dengan semua IDE Java?
-Aspose.Tasks untuk Java kompatibel dengan semua IDE Java, termasuk IntelliJ IDEA, Eclipse, dan NetBeans.
-
-### Bisakah saya mencoba Aspose.Tasks untuk Java sebelum membeli?
-Ya, Anda dapat mengunduh percobaan gratis Aspose.Tasks untuk Java dari [sini](https://releases.aspose.com/).
-
-### Bagaimana saya dapat mendapatkan dukungan untuk Aspose.Tasks untuk Java?
-Anda dapat mendapatkan dukungan dari forum komunitas Aspose.Tasks [sini](https://forum.aspose.com/c/tasks/15).
-
-### Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Tasks untuk Java selama periode percobaan?
-Tidak, lisensi sementara tidak diperlukan selama periode percobaan. Anda dapat menggunakan versi percobaan tanpa lisensi apa pun.
-
-### Di mana saya dapat membeli Aspose.Tasks untuk Java?
-Anda dapat membeli Aspose.Tasks untuk Java dari halaman pembelian [sini](https://purchase.aspose.com/buy).
-
 ## Pertanyaan yang Sering Diajukan
 **Q: Bisakah saya mengedit catatan setelah ditetapkan?**  
 A: Ya, cukup panggil `assn.set(Asn.NOTES_TEXT, "Updated note")` lagi dengan konten baru.
@@ -136,15 +120,15 @@ A: Ya, iterasi melalui `prj.getResourceAssignments()` dan atur `Asn.NOTES_TEXT` 
 ## Kesimpulan
 Dengan mengikuti langkah‑langkah ini, Anda kini mengetahui **cara menambahkan catatan** ke penugasan sumber daya di Aspose.Tasks untuk Java. Mengintegrasikan catatan meningkatkan kejelasan proyek dan menyediakan jejak audit yang berharga. Jangan ragu untuk menjelajahi fitur API lebih lanjut seperti pembaruan massal, pemformatan RTF, dan integrasi dengan alur kerja manajemen proyek Anda yang sudah ada.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-10  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-10  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (terbaru pada saat penulisan)  
-**Penulis:** Aspose

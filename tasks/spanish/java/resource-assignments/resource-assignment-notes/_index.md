@@ -102,18 +102,6 @@ System.out.println("Process completed Successfully");
 - **La salida RTF aparece vacía:** La API solo devuelve RTF si las notas contienen formato de texto enriquecido; el texto plano producirá una cadena RTF vacía.
 
 ## Preguntas frecuentes
-### ¿Aspose.Tasks para Java es compatible con todos los IDE de Java?
-Aspose.Tasks para Java es compatible con cualquier IDE de Java, incluidos IntelliJ IDEA, Eclipse y NetBeans.  
-### ¿Puedo probar Aspose.Tasks para Java antes de comprar?
-Sí, puede descargar una prueba gratuita de Aspose.Tasks para Java desde [aquí](https://releases.aspose.com/).  
-### ¿Cómo puedo obtener soporte para Aspose.Tasks para Java?
-Puede obtener soporte en el foro de la comunidad de Aspose.Tasks [aquí](https://forum.aspose.com/c/tasks/15).  
-### ¿Necesito una licencia temporal para usar Aspose.Tasks para Java durante el período de prueba?
-No, no se requiere una licencia temporal durante el período de prueba. Puede usar la versión de prueba sin ninguna licencia.  
-### ¿Dónde puedo comprar Aspose.Tasks para Java?
-Puede adquirir Aspose.Tasks para Java en la página de compra [aquí](https://purchase.aspose.com/buy).
-
-## Preguntas frecuentes
 **P: ¿Puedo editar las notas después de haberlas establecido?**  
 R: Sí, simplemente llame a `assn.set(Asn.NOTES_TEXT, "Updated note")` nuevamente con el nuevo contenido.
 
@@ -132,15 +120,15 @@ R: Sí, itere sobre `prj.getResourceAssignments()` y establezca `Asn.NOTES_TEXT`
 ## Conclusión
 Al seguir estos pasos, ahora sabe **cómo agregar notas** a las asignaciones de recursos en Aspose.Tasks para Java. Incorporar notas mejora la claridad del proyecto y proporciona un valioso rastro de auditoría. Siéntase libre de explorar más funciones de la API, como actualizaciones masivas, formato RTF e integración con sus flujos de trabajo de gestión de proyectos existentes.
 
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

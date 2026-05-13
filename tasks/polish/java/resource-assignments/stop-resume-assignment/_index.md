@@ -14,36 +14,36 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zatrzymać przydział i wznowić przydziały zasobów w Aspose.Tasks
+# Jak można przydział i wznowić przydziały zasobów w Aspose.Tasks
 
-## Introduction
-W tym samouczku **dowiesz się, jak zatrzymać przydział** i później go wznowić przy użyciu Aspose.Tasks for Java. Aspose.Tasks to potężne API Java, które umożliwia odczytywanie plików projektów w formacie Java, manipulowanie danymi Microsoft Project oraz zarządzanie przydziałami zasobów bez konieczności posiadania zainstalowanego Microsoft Project. Przejdziemy krok po kroku przez każdy etap, wyjaśnimy, dlaczego każda linia ma znaczenie, i podamy praktyczne wskazówki, które możesz zastosować w rzeczywistych projektach.
+## Wstęp
+W tym samouczku **dowiesz się, jak przydział** i później przejdź do zmiany przy użyciu Aspose.Tasks for Java. Aspose.Tasks to API Java, które umożliwiają korzystanie z plików w Java, fizycznie dostępnych w Microsoft Project oraz przydziałami zarządzania bez konieczności posiadania go Microsoft Project. Przejdziemy krok po kroku przez każdy etap, uzasadnimy, dlaczego każda linia ma znaczenie, i jest to praktyczne, które jest rozpoznawane w odpowiednich projektach.
 
-## Quick Answers
-- **Co oznacza „stop assignment”?** Oznacza to przydział zasobu jako tymczasowo nieaktywny od określonej daty zatrzymania.  
-- **Czy mogę później wznowić ten sam przydział?** Tak, ustawiając datę wznowienia w tym samym przydziale.  
-- **Czy potrzebuję Microsoft Project, aby używać tego API?** Nie, Aspose.Tasks działa niezależnie od Microsoft Project.  
-- **Jaka wersja Javy jest wymagana?** Zalecana jest Java 8 lub nowsza.  
-- **Gdzie mogę pobrać bibliotekę?** Ze strony oficjalnej pobierania Aspose.Tasks Java.
+## Szybkie odpowiedzi
+- **Co oznacza „zatrzymaj przypisanie”?** do przydziału zasobu jako podstawowego nieaktywnego od danych daty dostępu.
+- **Czy mogę później opóźnić ten sam przydział?** Tak, ustawiając datę aktualizacji w tym samym miejscu.
+- **Czy jest dostępny Microsoft Project, aby dostosować tego API?** Nie, Aspose.Tasks działa od Microsoft Project.
+- **Jaka wersja Javy jest wymagana?** Zalecana jest Java8 lub terazsza.
+- **Gdzie można odebrać bibliotekę?** Ze strony pobierania Aspose.Tasks Java.
 
-## What is “how to stop assignment” in the context of Aspose.Tasks?
-Zatrzymanie przydziału informuje planistę, aby ignorował pracę przydzieloną zasobowi po **dacie zatrzymania** aż do **daty wznowienia** (jeśli istnieje). Jest to przydatne przy obsłudze urlopów, przestojów sprzętu lub dowolnego okresu, w którym zasób nie powinien być uznawany za aktywny.
+## Co to jest „jak zatrzymać przypisanie” w kontekście Aspose.Tasks?
+Zatrzymanie przydziału użytkowania planistę, aby zapewnić obciążenie przydzielonej zasobowi po **dacie dostępu** aż do **data wznowienia** (jeśli istnieje). Jest to dodatek do użytku przy urlopach, przestojów sprzętu lub pierwszego dnia, w którym zasób nie powinien być uznawany za aktywny.
 
-## Why use Aspose.Tasks to manage resource assignments?
-- **Brak potrzeby Microsoft Project** – pracuj bezpośrednio z plikami .mpp.  
-- **Pełna kontrola nad datami** – możesz programowo sprawdzać datę zatrzymania, datę wznowienia i je modyfikować.  
-- **Cross‑platform** – działa na każdym systemie operacyjnym obsługującym Javę.  
-- **Bogate API** – udostępnia *resource assignment example*, które możesz rozbudować o własne raporty.
+## Dlaczego warto używać Aspose.Tasks do zarządzania przypisaniami zasobów?
+- **Brak konieczności korzystania z Microsoft Project** – pracuj bezpośrednio z plikami .mpp.
+- **Pełna kontrola nad danymi** – możesz zaprogramować datę opóźnienia, datę aktualizacji i je zachować.
+- **Międzyplatformowy** – działa na każdym systemie uruchamiającym obsługującym Javę.
+- **Bogate API** – udostępnienie *przykład przypisania zasobów*, które można rozbudować o własne raporty.
 
-## Prerequisites
-Zanim zaczniemy, upewnij się, że masz:
+## Warunki wstępne
+Zanim uruchomimy, wykonamy, że masz:
 
-- Zainstalowany Java Development Kit (JDK) na swoim komputerze.  
-- Pobraną bibliotekę Aspose.Tasks for Java. Możesz ją pobrać z [tutaj](https://releases.aspose.com/tasks/java/).  
-- Podstawową znajomość programowania w Javie.  
+- Zainstalowany zestaw Java Development Kit (JDK) na swoim komputerze.
+- Pobraną bibliotekę Aspose.Zadania dla Java. Możesz ją zabrać z [tutaj](https://releases.aspose.com/tasks/java/).
+- Podstawową przyjemność programowania w Javie.
 
-## Import Packages
-Najpierw zaimportuj niezbędne pakiety do swojego projektu Java:
+## Importuj pakiety
+Ostatni zaimportuj niezbędny pakiety do swojego projektu Java:
 
 ```java
 import com.aspose.tasks.Asn;
@@ -54,7 +54,7 @@ import java.util.GregorianCalendar;
 import java.util.Objects;
 ```
 
-## Step 1: Load the Project File
+## Krok 1: Załaduj plik projektu
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -64,7 +64,7 @@ Project prj = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 
 Tutaj **odczytujemy plik projektu Java** w formacie (`.mpp`) i tworzymy obiekt `Project`, który daje dostęp do wszystkich danych projektu, w tym przydziałów zasobów.
 
-## Step 2: Iterate Through Resource Assignments
+## Krok 2: Przejrzyj przypisania zasobów
 ```java
 // Define minimum date
 java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTime();
@@ -74,7 +74,7 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 
 Ustawiamy **minimalną datę**, aby odfiltrować daty zastępcze, a następnie iterujemy po każdym przydziale. To typowy wzorzec *resource assignment example* używany, gdy trzeba przejrzeć lub zmodyfikować przydziały.
 
-## Step 3: Check Stop and Resume Dates
+## Krok 3: Sprawdź daty zakończenia i wznowienia
 ```java
     // Check stop date
     if (ra.get(Asn.STOP).before(minDate)) {
@@ -91,54 +91,38 @@ Ustawiamy **minimalną datę**, aby odfiltrować daty zastępcze, a następnie i
 }
 ```
 
-W tym bloku **sprawdzamy datę zatrzymania** i **datę wznowienia** dla każdego przydziału. Jeśli data jest wcześniejsza niż nasz `minDate`, traktujemy ją jako nieustawioną (`"NA"`); w przeciwnym razie wyświetlamy rzeczywistą datę. Ta logika jest niezbędna do **zarządzania przydziałami zasobów** prawidłowo.
+W tym bloku **sprawdzamy datę rejestracji** i **data odnowienia** dla każdego przydziału. Jeśli dane są wcześniejsza niż nasz `minDate`, następujemy ją jako nieustawioną („NA”`); w razie wypadku wyświetlamy rzeczywistą datę. Ta logika jest równa do **zarządzania przydziałami zasobów** prawidłowych.
 
-## Common Issues and Solutions
-- **Null dates** – `ra.get(Asn.STOP)` może zwrócić `null`. Zabezpiecz się przed tym, dodając sprawdzenie null przed wywołaniem `.before(minDate)`.  
-- **Incorrect file path** – Upewnij się, że `dataDir` kończy się separatorem ścieżki (`/` lub `\\`) odpowiednim dla twojego systemu operacyjnego.  
-- **Version mismatch** – Użyj najnowszej wersji Aspose.Tasks for Java, aby uniknąć brakujących wartości wyliczeniowych.
+## Typowe problemy i rozwiązania
+- **Daty zerowe** – `ra.get(Asn.STOP)` może oznaczać `null`. Zabezpieczenie się przed tym, dodając null przed wywołaniem `.before(minDate)`.
+- **Nieprawidłowa ścieżka pliku** – następuje, że `dataDir` kończy się separatorem systemowym (`/` lub `\\`) kontrolowanym dla systemu operacyjnego.
+- **Niezgodność wersji** – dostępna najnowsza wersja Aspose.Tasks dla Java, aby uzyskać brakujące wartości wyliczeniowe.
 
-## FAQ's
-### Czy mogę używać Aspose.Tasks bez zainstalowanego Microsoft Project?
-Tak, Aspose.Tasks pozwala pracować z plikami Microsoft Project bez konieczności instalacji Microsoft Project na twoim komputerze.
+## Często zadawane pytania
 
-### Gdzie mogę znaleźć więcej dokumentacji?
-Szczegółową dokumentację znajdziesz [tutaj](https://reference.aspose.com/tasks/java/).
+**P: Jak programowo ustawić datę zakończenia zadania?**
+O: Użyj `ra.set(Asn.STOP, yourDateObject);`, gdzie `yourDateObject` to `java.util.Date`.
 
-### Czy dostępna jest darmowa wersja próbna?
-Tak, darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
+**P: Co się stanie, jeśli data wznowienia jest wcześniejsza niż data zakończenia?**
+O: API nie wymusza kolejności chronologicznej; jednak harmonogram potraktuje zadanie jako aktywne dopiero po późniejszej z dwóch dat, dlatego należy samodzielnie zweryfikować daty.
 
-### Jak mogę uzyskać wsparcie, jeśli napotkam problemy?
-Wsparcie od społeczności dostępne jest [tutaj](https://forum.aspose.com/c/tasks/15).
+**P: Czy mogę filtrować zadania tylko do tych, które mają ustawioną datę zakończenia?**
+O: Tak, przeprowadź iterację przez `prj.getResourceAssignments()` i sprawdź, czy `ra.get(Asn.STOP) != null`.
 
-### Czy mogę kupić tymczasową licencję?
-Tak, tymczasową licencję możesz zakupić [tutaj](https://purchase.aspose.com/temporary-license/).
+**P: Czy można usunąć raz ustawioną datę zakończenia?**
+O: Ustaw datę końcową na „null” za pomocą „ra.set(Asn.STOP, null);”, a następnie zapisz projekt.
 
-## Frequently Asked Questions
+**P: Czy Aspose.Tasks obsługuje inne pola związane z datą, takie jak początek, koniec lub faktyczny początek?**
+O: Absolutnie. Wyliczenie `Asn` zapewnia stałe dla wszystkich pól przypisania, takie jak `Asn.START`, `Asn.FINISH` itp.
 
-**Q: How do I programmatically set a stop date for an assignment?**  
-A: Use `ra.set(Asn.STOP, yourDateObject);` where `yourDateObject` is a `java.util.Date`.
-
-**Q: What happens if the resume date is earlier than the stop date?**  
-A: The API does not enforce chronological order; however, the scheduler will treat the assignment as active only after the later of the two dates, so you should validate dates yourself.
-
-**Q: Can I filter assignments to only those that have a stop date set?**  
-A: Yes, iterate through `prj.getResourceAssignments()` and check `ra.get(Asn.STOP) != null`.
-
-**Q: Is it possible to remove a stop date once set?**  
-A: Set the stop date to `null` with `ra.set(Asn.STOP, null);` and then save the project.
-
-**Q: Does Aspose.Tasks support other date‑related fields like start, finish, or actual start?**  
-A: Absolutely. The `Asn` enum provides constants for all assignment fields, such as `Asn.START`, `Asn.FINISH`, etc.
-
-## Conclusion
-Postępując zgodnie z tymi krokami, teraz wiesz **jak zatrzymać przydział**, sprawdzić daty zatrzymania/wznowienia i wznowić przydział w razie potrzeby. Ta funkcjonalność pozwala **zarządzać przydziałami zasobów** precyzyjniej, szczególnie w sytuacjach takich jak urlopy zasobów czy przestoje sprzętu. Śmiało rozbudowuj przykład, aby aktualizować daty, generować raporty lub integrować go z własną logiką planowania.
+## Wniosek
+Po wykonaniu tych kroków, teraz wiesz **jak przydział**, sprawdzenie daty zakończenia/wznowienia i powtórzenie przydziału w razie potrzeby. Ta funkcjonalność pozwala **zarządzać przydziałami zasobów**, szczegółowo określając, w szczególności w sytuacjach takich jak zasoby urlopowe czy przestoje sprzętu. Śmiało rozbudowuj przykład, aby aktualizować daty, generować raporty lub integrować go z własną logiką internetową.
 
 ---
 
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-01-10
+**Testowano z:** Aspose.Tasks dla Java 24.12
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

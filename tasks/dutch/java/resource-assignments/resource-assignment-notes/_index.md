@@ -102,22 +102,6 @@ System.out.println("Process completed Successfully");
 - **RTF‑output lijkt leeg:** De API geeft alleen RTF terug als de notities opmaak bevatten; platte tekst resulteert in een lege RTF‑string.
 
 ## Veelgestelde vragen
-### Is Aspose.Tasks voor Java compatibel met alle Java‑IDE's?
-Aspose.Tasks voor Java is compatibel met elke Java‑IDE, inclusief IntelliJ IDEA, Eclipse en NetBeans.
-
-### Kan ik Aspose.Tasks voor Java uitproberen voordat ik het koop?
-Ja, je kunt een gratis proefversie van Aspose.Tasks voor Java downloaden vanaf [hier](https://releases.aspose.com/).
-
-### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor Java?
-Je kunt ondersteuning krijgen via het Aspose.Tasks community‑forum [hier](https://forum.aspose.com/c/tasks/15).
-
-### Heb ik een tijdelijke licentie nodig om Aspose.Tasks voor Java te gebruiken tijdens de proefperiode?
-Nee, een tijdelijke licentie is niet vereist voor de proefperiode. Je kunt de proefversie gebruiken zonder licentie.
-
-### Waar kan ik Aspose.Tasks voor Java kopen?
-Je kunt Aspose.Tasks voor Java kopen via de aankooppagina [hier](https://purchase.aspose.com/buy).
-
-## Veelgestelde vragen
 **V: Kan ik notities bewerken nadat ze zijn ingesteld?**  
 A: Ja, roep simpelweg `assn.set(Asn.NOTES_TEXT, "Updated note")` opnieuw aan met de nieuwe inhoud.
 
@@ -136,15 +120,15 @@ A: Ja, iterate over `prj.getResourceAssignments()` en stel `Asn.NOTES_TEXT` in v
 ## Conclusie
 Door deze stappen te volgen, weet je nu **hoe je notities** kunt toevoegen aan resource‑toewijzingen in Aspose.Tasks voor Java. Het opnemen van notities verbetert de projectduidelijkheid en biedt een waardevol auditspoor. Voel je vrij om verdere API‑functies te verkennen, zoals bulk‑updates, RTF‑opmaak en integratie met je bestaande project‑managementworkflows.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-10  
+**Getest met:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-10  
-**Getest met:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Auteur:** Aspose

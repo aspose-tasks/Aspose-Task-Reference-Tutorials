@@ -98,22 +98,6 @@ In dit blok **controleren we de stopdatum** en **de hervatdatum** voor elke toew
 - **Onjuiste bestands‑pad** – Zorg ervoor dat `dataDir` eindigt op een pad‑separator (`/` of `\\`) die geschikt is voor jouw OS.  
 - **Versiemis‑match** – Gebruik de nieuwste Aspose.Tasks voor Java‑versie om ontbrekende enum‑waarden te vermijden.
 
-## FAQ's
-### Kan ik Aspose.Tasks gebruiken zonder Microsoft Project geïnstalleerd?
-Ja, Aspose.Tasks stelt je in staat om met Microsoft Project‑bestanden te werken zonder dat Microsoft Project op je systeem geïnstalleerd hoeft te zijn.
-
-### Waar vind ik meer documentatie?
-Gedetailleerde documentatie vind je [hier](https://reference.aspose.com/tasks/java/).
-
-### Is er een gratis proefversie beschikbaar?
-Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
-
-### Hoe krijg ik ondersteuning als ik problemen tegenkom?
-Je kunt ondersteuning krijgen van de community [hier](https://forum.aspose.com/c/tasks/15).
-
-### Kan ik een tijdelijke licentie aanschaffen?
-Ja, een tijdelijke licentie kun je aanschaffen [hier](https://purchase.aspose.com/temporary-license/).
-
 ## Veelgestelde Vragen
 
 **Q: Hoe stel ik programmatic een stopdatum in voor een toewijzing?**  

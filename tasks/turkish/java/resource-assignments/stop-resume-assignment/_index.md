@@ -15,33 +15,33 @@ weight: 23
 
 # Aspose.Tasks'te Atamayı Durdurma ve Kaynak Atamalarını Yeniden Başlatma Nasıl Yapılır
 
-## Introduction
-Bu öğreticide **atamayı nasıl durduracağınızı** ve daha sonra Aspose.Tasks for Java kullanarak nasıl yeniden başlatacağınızı keşfedeceksiniz. Aspose.Tasks, proje dosyalarını Java formatlarında okuyabilen, Microsoft Project verilerini manipüle edebilen ve Microsoft Project yüklü olmadan kaynak atamalarını yönetebilen güçlü bir Java API'sidir. Her adımı adım adım inceleyecek, her satırın neden önemli olduğunu açıklayacak ve gerçek dünya projelerinde uygulayabileceğiniz pratik ipuçları sunacağız.
+## Giriiş
+Bu öğreticide **atamayı nasıl durduracağınızı** ve daha sonra Aspose.Tasks for Java'yı kullanarak nasıl yeniden başlatacağınızı keşfedeceksiniz. Aspose.Tasks, projenin Java formatlarında okunabilir, Microsoft Project lisanslarında manipüle edilebilir ve Microsoft Project yüklü olmadan kaynak atamalarını yönetebilen güçlü bir Java API'sidir. Her adım adım adım inceleyecek, bilgilerinin neden önemli olduğunu açıklayacak ve gerçek dünya projelerinde uygulayabileceğiniz pratik ipuçları sunacağız.
 
-## Quick Answers
-- **“Atamayı durdurma” ne anlama gelir?** Belirli bir durdurma tarihinden itibaren bir kaynak atamasını geçici olarak pasif işaretler.  
-- **Aynı atamayı daha sonra yeniden başlatabilir miyim?** Evet, aynı atama üzerinde bir yeniden başlatma tarihi ayarlayarak.  
-- **Bu API'yi kullanmak için Microsoft Project gerekir mi?** Hayır, Aspose.Tasks Microsoft Project'ten bağımsız çalışır.  
-- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri önerilir.  
-- **Kütüphaneyi nereden indirebilirim?** Resmi Aspose.Tasks Java indirme sayfasından.
+## Hızlı Yanıtlar
+- **“Atamayı durdurma” ne anlama gelir?** Bir kaynak atamasından itibaren bir saklamayı geçici olarak pasif işaretler.
+- **Aynı atamayı daha sonra yeniden başlatabilir miyim?** Evet, aynı üzerinde bir yeniden başlatma tarihini ayarlayarak.
+- **Bu API'yi kullanmak için Microsoft Project gerekir mi?** Hayır, Aspose.Tasks Microsoft Project'ten bağımsız çalışır.
+- **Hangi Java sürümü gereklidir?** Java8 veya üzeri önerilir.
+- **Kütüphaneyi Nereden indirebilirim?** Resmi Aspose.Tasks Java indirme sayfasının.
 
-## What is “how to stop assignment” in the context of Aspose.Tasks?
-Bir atamayı durdurmak, planlayıcıya **durdurma tarihi** sonrasındaki işi **yeniden başlatma tarihi** (varsa) gelene kadar yok saymasını söyler. Bu, tatiller, ekipman arızaları veya bir kaynağın aktif olmaması gereken herhangi bir dönem için faydalıdır.
+## Aspose.Tasks bağlamında "ödeme nasıl durdurulur" nedir?
+Bir atamayı verir, planlayıcıya **durdurma tarihi** sonrasındaki işi **yeniden başlatma tarihi** (varsa) gelene kadar yok saymasını söyler. Bu, tatiller, ekipman arızaları veya bir kaynağın aktif olmaması, herhangi bir dönem için faydalıdır.
 
-## Why use Aspose.Tasks to manage resource assignments?
-- **Microsoft Project gerekmez** – .mpp dosyalarıyla doğrudan çalışın.  
-- **Tarihler üzerinde tam kontrol** – durdurma tarihi, yeniden başlatma tarihi gibi değerleri programatik olarak kontrol edip ayarlayabilirsiniz.  
-- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
-- **Zengin API** – *resource assignment example* örneğini alıp özel raporlamalar için genişletebilirsiniz.
+## Kaynak atamalarını yönetmek için neden Aspose.Tasks'ı kullanmalısınız?
+- **Microsoft Project gerekmez** – .mpp dosyalarıyla doğrudan dağıtılır.
+- **Tarihler üzerinde tam kontrol** – durdurma tarihi, yeniden başlatma tarihi gibi değerleri programatik olarak kontrol edip ayarlayabilirsiniz.
+- **Çapraz platformu** – Java'yı destekleyen herhangi bir işlem işlemi çalışır.
+- **Zengin API** – *kaynak atama örneği* örneğini dağıtmak özel raporlamalar için genişletebilirsiniz.
 
-## Prerequisites
+## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Sisteminizde yüklü Java Development Kit (JDK).  
-- Aspose.Tasks for Java kütüphanesi indirilmiş. Kütüphaneyi [buradan](https://releases.aspose.com/tasks/java/) indirebilirsiniz.  
+- Sisteminizde yüklü Java Development Kit (JDK).
+- Aspose.Tasks for Java kütüphanesi indirilmiştir. Kütüphaneyi [buradan](https://releases.aspose.com/tasks/java/) indirebilirsiniz.
 - Java programlamaya temel bir anlayış.
 
-## Import Packages
+## Paketleri İçe Aktar
 İlk olarak, gerekli paketleri Java projemize ekleyelim:
 
 ```java
@@ -53,7 +53,7 @@ import java.util.GregorianCalendar;
 import java.util.Objects;
 ```
 
-## Step 1: Load the Project File
+## Adım 1: Proje Dosyasını Yükleyin
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -63,7 +63,7 @@ Project prj = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 
 Burada **project file Java** formatındaki (`.mpp`) dosyayı okuyup tüm proje verilerine, özellikle kaynak atamalarına erişim sağlayan bir `Project` nesnesi oluşturuyoruz.
 
-## Step 2: Iterate Through Resource Assignments
+## Adım 2: Kaynak Atamaları Üzerinde Yineleme Yapın
 ```java
 // Define minimum date
 java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTime();
@@ -73,7 +73,7 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 
 Yer tutucu tarihleri filtrelemek için bir **minimum tarih** belirliyoruz ve ardından her atamayı döngüye alıyoruz. Bu, atamaları incelemek veya değiştirmek istediğinizde kullanılan tipik *resource assignment example* desenidir.
 
-## Step 3: Check Stop and Resume Dates
+## Adım 3: Durdurma ve Devam Etme Tarihlerini Kontrol Edin
 ```java
     // Check stop date
     if (ra.get(Asn.STOP).before(minDate)) {
@@ -92,52 +92,36 @@ Yer tutucu tarihleri filtrelemek için bir **minimum tarih** belirliyoruz ve ard
 
 Bu blokta her atama için **durdurma tarihini** ve **yeniden başlatma tarihini** kontrol ediyoruz. Tarih `minDate`'den önceyse ayarlanmamış (`"NA"`) olarak kabul ediyor, aksi takdirde gerçek tarihi yazdırıyoruz. Bu mantık, **manage resource assignments** işlemini doğru bir şekilde yapabilmek için kritiktir.
 
-## Common Issues and Solutions
-- **Null tarihleri** – `ra.get(Asn.STOP)` `null` dönebilir. `.before(minDate)` çağrısı öncesinde null kontrolü ekleyin.  
-- **Yanlış dosya yolu** – `dataDir`'in işletim sisteminize uygun bir yol ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
-- **Sürüm uyumsuzluğu** – Eksik enum değerlerinden kaçınmak için en yeni Aspose.Tasks for Java sürümünü kullanın.
+## Yaygın Sorunlar ve Çözümler
+- **Null bağlı** – `ra.get(Asn.STOP)` `null` dönebilir. `.before(minDate)` günün öncesindeki null kontrolünü ekleyin.
+- **Yanlış dosya yolu** – `dataDir`'in işletim sisteminize uygun bir yol ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.
+- **Sürüm uyumsuzluğu** – Eksik enum değerlerinden fiyatları için en yeni Aspose.Tasks for Java yazılımını kullanın.
 
-## FAQ's
-### Aspose.Tasks'i Microsoft Project yüklü olmadan kullanabilir miyim?
-Evet, Aspose.Tasks Microsoft Project dosyalarıyla çalışmanıza olanak tanır ve Microsoft Project'in sisteminizde yüklü olmasını gerektirmez.
+## Sıkça Sorulan Sorular
 
-### Daha fazla belgeyi nerede bulabilirim?
-Detaylı belgeleri [burada](https://reference.aspose.com/tasks/java/) bulabilirsiniz.
+**S: Atama için programlı olarak bir durdurma tarihi nasıl belirlenir?**
+C: `ra.set(Asn.STOP, yourDateObject);` birimini kullanın; `yourDateObject` bir `java.util.Date` nesnesidir.
 
-### Ücretsiz deneme mevcut mu?
-Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
+**S: Yeniden başlatma tarihini kaydetmeden önce olursa ne olur?**
+C: API kronolojik sıralamayı zorlamaz; Ancak planlayıcı, iki devamlılığı daha sonraki tarih geldiğinde atamayı aktif olarak kabul eder, bu nedenle seçtiğinizi kendiniz doğrulamalısınız.
 
-### Sorun yaşarsam nasıl destek alabilirim?
-Topluluk desteğini [buradan](https://forum.aspose.com/c/tasks/15) alabilirsiniz.
+**S: Yalnızca tarihi ayarlanmış atamaları filtreleyebilir miyim?**
+C: Evet, `prj.getResourceAssignments()` üzerinden dönerken `ra.get(Asn.STOP) != null` kontrolünü yapın.
 
-### Geçici bir lisans satın alabilir miyim?
-Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) satın alabilirsiniz.
+**S: Bir durdurma tarihi bir kez ayarlandıktan sonra kaldırılabilir mi?**
+C: `ra.set(Asn.STOP, null);` ile durmadan `null` görüntüdeki projeyi kaydedebilirsiniz.
 
-## Frequently Asked Questions
+**S: Aspose.Tasks, başlangıç, bitiş veya gerçek başlangıçlar gibi diğer tarihlerdeki sürücüler mi?**
+C: elbette. `Asn` enum'ı `Asn.START`, `Asn.FINISH` gibi tüm atama alanları için sabitler sunar.
 
-**S: Atama için programlı olarak bir durdurma tarihi nasıl ayarlanır?**  
-C: `ra.set(Asn.STOP, yourDateObject);` ifadesini kullanın; `yourDateObject` bir `java.util.Date` nesnesidir.
-
-**S: Yeniden başlatma tarihi durdurma tarihinden önce olursa ne olur?**  
-C: API kronolojik sıralamayı zorlamaz; ancak planlayıcı, iki tarihten daha sonraki tarih geldiğinde atamayı aktif kabul eder, bu yüzden tarihleri kendiniz doğrulamalısınız.
-
-**S: Sadece durdurma tarihi ayarlanmış atamaları filtreleyebilir miyim?**  
-C: Evet, `prj.getResourceAssignments()` üzerinden dönerken `ra.get(Asn.STOP) != null` kontrolü yapın.
-
-**S: Bir durdurma tarihi bir kez ayarlandıktan sonra kaldırılabilir mi?**  
-C: `ra.set(Asn.STOP, null);` ile durdurma tarihini `null` yapıp projeyi kaydedebilirsiniz.
-
-**S: Aspose.Tasks, başlangıç, bitiş veya gerçek başlangıç gibi diğer tarih alanlarını destekliyor mu?**  
-C: Kesinlikle. `Asn` enum'ı `Asn.START`, `Asn.FINISH` gibi tüm atama alanları için sabitler sunar.
-
-## Conclusion
-Bu adımları izleyerek **atamayı nasıl durduracağınızı**, durdurma/yeniden başlatma tarihlerini nasıl inceleyeceğinizi ve gerektiğinde atamayı nasıl yeniden başlatacağınızı öğrendiniz. Bu özellik, özellikle kaynak tatilleri veya ekipman arızaları gibi senaryolarda **manage resource assignments** işlemini daha hassas bir şekilde yapmanızı sağlar. Örneği tarihleri güncellemek, raporlar üretmek veya kendi zamanlama mantığınızla entegre etmek için genişletmekten çekinmeyin.
+## Çözüm
+Bu adımları izleyerek **atamayı nasıl durduracağınızı**, durdurma/yeniden başlatma tarihlerini nasıl inceleyeceğinizi ve atamalarınızı nasıl yeniden başlatmanızı sağlayacaksınız. Bu özellik, özellikle kaynak tatilleri veya ekipman arızaları gibi senaryolarda **kaynak atamalarını yönetme** sürecin daha hassas bir şekilde yapılmasını sağlar. Örneği isteğe bağlı güncellemek, rapor dökümü veya kendi zamanlama mantığınızla entegre etmek için genişletilmekten.
 
 ---
 
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-01-10
+**Şunlarla Test Edildi:** Aspose.Tasks for Java 24.12
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

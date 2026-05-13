@@ -97,22 +97,6 @@ I detta block **kontrollerar vi stoppdatum** och **kontrollerar återupptagnings
 - **Felaktig filsökväg** – Se till att `dataDir` slutar med en sökvägsseparator (`/` eller `\\`) som är lämplig för ditt OS.  
 - **Version‑mismatch** – Använd den senaste versionen av Aspose.Tasks för Java för att undvika saknade enum‑värden.
 
-## Vanliga frågor
-### Kan jag använda Aspose.Tasks utan att Microsoft Project är installerat?
-Ja, Aspose.Tasks låter dig arbeta med Microsoft Project‑filer utan att behöva ha Microsoft Project installerat på ditt system.
-
-### Var kan jag hitta mer dokumentation?
-Du kan hitta detaljerad dokumentation [here](https://reference.aspose.com/tasks/java/).
-
-### Finns det en gratis provversion tillgänglig?
-Ja, du kan få en gratis provversion [here](https://releases.aspose.com/).
-
-### Hur kan jag få support om jag stöter på problem?
-Du kan få support från communityn [here](https://forum.aspose.com/c/tasks/15).
-
-### Kan jag köpa en tillfällig licens?
-Ja, du kan köpa en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).
-
 ## Vanliga frågor och svar
 
 **Q: Hur sätter jag programatiskt ett stoppdatum för en tilldelning?**  

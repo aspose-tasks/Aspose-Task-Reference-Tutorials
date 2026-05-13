@@ -98,22 +98,6 @@ In diesem Block **prüfen wir das Stopp‑Datum** und **das Wiederaufnahme‑Dat
 - **Falscher Dateipfad** – Stellen Sie sicher, dass `dataDir` mit einem Pfad‑Trennzeichen (`/` oder `\\`) endet, das zu Ihrem OS passt.  
 - **Versionskonflikt** – Verwenden Sie die neueste Aspose.Tasks‑Java‑Version, um fehlende Enum‑Werte zu vermeiden.
 
-## FAQ's
-### Kann ich Aspose.Tasks ohne Microsoft Project verwenden?
-Ja, Aspose.Tasks ermöglicht die Arbeit mit Microsoft‑Project‑Dateien, ohne dass Microsoft Project auf Ihrem System installiert sein muss.
-
-### Wo finde ich weitere Dokumentation?
-Detaillierte Dokumentation finden Sie [hier](https://reference.aspose.com/tasks/java/).
-
-### Gibt es eine kostenlose Testversion?
-Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
-
-### Wie erhalte ich Support, wenn ich auf Probleme stoße?
-Support erhalten Sie von der Community [hier](https://forum.aspose.com/c/tasks/15).
-
-### Kann ich eine temporäre Lizenz erwerben?
-Ja, eine temporäre Lizenz können Sie [hier](https://purchase.aspose.com/temporary-license/) erwerben.
-
 ## Häufig gestellte Fragen
 
 **F: Wie setze ich programmgesteuert ein Stopp‑Datum für eine Zuweisung?**  

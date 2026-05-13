@@ -15,10 +15,10 @@ weight: 23
 
 # Aspose.Tasks で割り当てを停止し、リソース割り当てを再開する方法
 
-## Introduction
+## はじめに
 このチュートリアルでは、**Aspose.Tasks for Java** を使用して割り当てを停止し、後で再開する方法を学びます。Aspose.Tasks は、プロジェクトファイル（Java フォーマット）を読み取り、Microsoft Project データを操作し、Microsoft Project をインストールせずにリソース割り当てを管理できる強力な Java API です。各ステップを順に解説し、各行が重要な理由を説明し、実際のプロジェクトに適用できる実用的なヒントを提供します。
 
-## Quick Answers
+## 簡単な回答
 - **“割り当ての停止”とは何ですか？** 特定の停止日からリソース割り当てを一時的に非アクティブとしてマークします。  
 - **同じ割り当てを後で再開できますか？** はい、同じ割り当てに再開日を設定すれば再開できます。  
 - **この API を使用するのに Microsoft Project は必要ですか？** いいえ、Aspose.Tasks は Microsoft Project とは独立して動作します。  
@@ -97,24 +97,7 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 - **ファイルパスが不正** – `dataDir` が OS に適したパス区切り文字（`/` または `\\`）で終わっていることを確認してください。  
 - **バージョン不一致** – 列挙値が欠落しないよう、最新の Aspose.Tasks for Java バージョンを使用してください。  
 
-## FAQ
-
-### Microsoft Project をインストールせずに Aspose.Tasks を使用できますか？
-はい、Aspose.Tasks は Microsoft Project がインストールされていなくても Microsoft Project ファイルを操作できます。
-
-### さらに詳しいドキュメントはどこで見つけられますか？
-詳細なドキュメントは [here](https://reference.aspose.com/tasks/java/) にあります。
-
-### 無料トライアルはありますか？
-はい、無料トライアルは [here](https://releases.aspose.com/) から取得できます。
-
-### 問題が発生した場合、どこでサポートを受けられますか？
-コミュニティサポートは [here](https://forum.aspose.com/c/tasks/15) で利用できます。
-
-### 一時ライセンスを購入できますか？
-はい、一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から購入できます。
-
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 割り当ての停止日をプログラムで設定するにはどうすればよいですか？**  
 A: `ra.set(Asn.STOP, yourDateObject);` を使用します。`yourDateObject` は `java.util.Date` 型です。

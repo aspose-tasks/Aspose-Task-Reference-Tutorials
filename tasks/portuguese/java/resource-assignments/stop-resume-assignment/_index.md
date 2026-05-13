@@ -99,22 +99,6 @@ Neste bloco verificamos a **data de parada** e a **data de retomada** para cada 
 - **Incompatibilidade de versão** – Use a versão mais recente do Aspose.Tasks para Java para evitar valores de enum ausentes.
 
 ## Perguntas Frequentes
-### Posso usar o Aspose.Tasks sem o Microsoft Project instalado?
-Sim, o Aspose.Tasks permite trabalhar com arquivos do Microsoft Project sem precisar do Microsoft Project instalado no seu sistema.
-
-### Onde posso encontrar mais documentação?
-Você pode encontrar documentação detalhada [aqui](https://reference.aspose.com/tasks/java/).
-
-### Existe uma versão de avaliação gratuita disponível?
-Sim, você pode obter uma avaliação gratuita [aqui](https://releases.aspose.com/).
-
-### Como posso obter suporte se encontrar algum problema?
-Você pode obter suporte da comunidade [aqui](https://forum.aspose.com/c/tasks/15).
-
-### Posso comprar uma licença temporária?
-Sim, você pode comprar uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
-
-## Perguntas Frequentes
 
 **Q: Como eu programaticamente defino uma data de parada para uma atribuição?**  
 A: Use `ra.set(Asn.STOP, yourDateObject);` onde `yourDateObject` é um `java.util.Date`.

@@ -99,22 +99,6 @@ Dans ce bloc, nous **vérifions la date d’arrêt** et **la date de reprise** p
 - **Chemin de fichier incorrect** – Assurez‑vous que `dataDir` se termine par un séparateur de chemin (`/` ou `\\`) adapté à votre OS.  
 - **Incompatibilité de version** – Utilisez la dernière version d’Aspose.Tasks pour Java afin d’éviter les valeurs d’énumération manquantes.
 
-## FAQ
-### Puis‑je utiliser Aspose.Tasks sans Microsoft Project installé ?
-Oui, Aspose.Tasks vous permet de travailler avec les fichiers Microsoft Project sans avoir besoin de Microsoft Project installé sur votre système.
-
-### Où puis‑je trouver plus de documentation ?
-Vous pouvez trouver une documentation détaillée [ici](https://reference.aspose.com/tasks/java/).
-
-### Existe‑t‑il un essai gratuit ?
-Oui, vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
-
-### Comment obtenir du support en cas de problème ?
-Vous pouvez obtenir du support de la communauté [ici](https://forum.aspose.com/c/tasks/15).
-
-### Puis‑je acheter une licence temporaire ?
-Oui, vous pouvez acheter une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
-
 ## Questions fréquentes
 
 **Q : Comment définir programmétiquement une date d’arrêt pour une affectation ?**  

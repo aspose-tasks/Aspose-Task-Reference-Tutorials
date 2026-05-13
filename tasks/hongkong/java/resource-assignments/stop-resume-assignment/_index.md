@@ -14,10 +14,10 @@ weight: 23
 
 # 如何在 Aspose.Tasks 中停止指派並恢復資源指派
 
-## Introduction
+## 引言
 在本教學中，**您將了解如何停止指派**，以及稍後使用 Aspose.Tasks for Java 重新啟動它。Aspose.Tasks 是一個功能強大的 Java API，讓您能讀取專案檔案的 Java 格式，操作 Microsoft Project 資料，並在未安裝 Microsoft Project 的情況下管理資源指派。我們將逐步說明每一步，解釋每行程式碼的意義，並提供您可套用於實務專案的實用技巧。
 
-## Quick Answers
+## 快速解答
 - **「停止指派」是什麼意思？** 它會將資源指派標記為自特定停止日期起暫時不活動。  
 - **我可以稍後恢復相同的指派嗎？** 可以，透過在同一指派上設定恢復日期。  
 - **使用此 API 是否需要 Microsoft Project？** 不需要，Aspose.Tasks 可獨立於 Microsoft Project 使用。  
@@ -95,22 +95,6 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 - **空值日期** – `ra.get(Asn.STOP)` 可能回傳 `null`。在呼叫 `.before(minDate)` 前加入空值檢查以防止錯誤。  
 - **檔案路徑不正確** – 確認 `dataDir` 以適合您作業系統的路徑分隔符（`/` 或 `\\`）結尾。  
 - **版本不匹配** – 使用最新的 Aspose.Tasks for Java 版本，以避免缺少列舉值。  
-
-## 常見問答
-### 我可以在未安裝 Microsoft Project 的情況下使用 Aspose.Tasks 嗎？
-是的，Aspose.Tasks 讓您能在系統上未安裝 Microsoft Project 的情況下處理 Microsoft Project 檔案。
-
-### 我可以在哪裡找到更多文件？
-您可在 [此處](https://reference.aspose.com/tasks/java/) 找到詳細文件。
-
-### 是否提供免費試用？
-是的，您可在 [此處](https://releases.aspose.com/) 取得免費試用。
-
-### 若遇到問題，我該如何取得支援？
-您可在社群 [此處](https://forum.aspose.com/c/tasks/15) 取得支援。
-
-### 我可以購買臨時授權嗎？
-是的，您可在 [此處](https://purchase.aspose.com/temporary-license/) 購買臨時授權。
 
 ## 常見問題
 

@@ -101,22 +101,6 @@ System.out.println("Process completed Successfully");
 - **บันทึกย่อไม่แสดงใน UI:** ตรวจสอบว่าคุณกำลังดูแผงบันทึกย่อการมอบหมายใน Microsoft Project หรือโปรแกรมดูอื่นที่รองรับบันทึกย่อการมอบหมาย.  
 - **ผลลัพธ์ RTF ว่างเปล่า:** API จะคืนค่า RTF เฉพาะเมื่อบันทึกย่อมีการจัดรูปแบบ rich‑text; ข้อความธรรมดาจะให้สตริง RTF ว่าง.
 
-## คำถามที่พบบ่อย
-### Aspose.Tasks for Java รองรับกับ IDE ของ Java ทั้งหมดหรือไม่?
-Aspose.Tasks for Java รองรับกับ IDE ของ Java ใด ๆ รวมถึง IntelliJ IDEA, Eclipse, และ NetBeans.
-
-### ฉันสามารถทดลองใช้ Aspose.Tasks for Java ก่อนซื้อได้หรือไม่?
-ได้ คุณสามารถดาวน์โหลดการทดลองใช้ฟรีของ Aspose.Tasks for Java จาก [here](https://releases.aspose.com/).
-
-### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks for Java อย่าง?
-คุณสามารถรับการสนับสนุนจากฟอรั่มชุมชน Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
-
-### จำเป็นต้องมีลิขสิทธิ์ชั่วคราวเพื่อใช้ Aspose.Tasks for Java ในช่วงทดลองหรือไม่?
-ไม่ จำเป็นต้องมีลิขสิทธิ์ชั่วคราวสำหรับช่วงทดลองใช้ คุณสามารถใช้เวอร์ชันทดลองได้โดยไม่ต้องมีลิขสิทธิ์ใด ๆ.
-
-### ฉันสามารถซื้อ Aspose.Tasks for Java ได้จากที่ไหน?
-คุณสามารถซื้อ Aspose.Tasks for Java ได้จากหน้าการซื้อ [here](https://purchase.aspose.com/buy).
-
 ## คำถามที่พบบ่อย (FAQ)
 **Q: ฉันสามารถแก้ไขบันทึกย่อหลังจากตั้งค่าแล้วได้หรือไม่?**  
 A: ได้ เพียงเรียก `assn.set(Asn.NOTES_TEXT, "Updated note")` อีกครั้งพร้อมเนื้อหาใหม่.
@@ -136,15 +120,15 @@ A: ได้ ให้วนลูปผ่าน `prj.getResourceAssignments()`
 ## สรุป
 โดยทำตามขั้นตอนเหล่านี้ คุณจะรู้ **วิธีเพิ่มบันทึกย่อ** ให้กับการมอบหมายทรัพยากรใน Aspose.Tasks for Java การรวมบันทึกย่อช่วยเพิ่มความชัดเจนของโครงการและให้บันทึกการตรวจสอบที่มีคุณค่า อย่าลังเลที่จะสำรวจคุณลักษณะ API เพิ่มเติม เช่น การอัปเดตแบบกลุ่ม การจัดรูปแบบ RTF และการรวมเข้ากับกระบวนการทำงานการจัดการโครงการที่คุณมีอยู่.
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-10  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-10  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose

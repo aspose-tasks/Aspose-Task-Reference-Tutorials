@@ -102,18 +102,6 @@ System.out.println("Process completed Successfully");
 - **RTF आउटपुट खाली दिख रहा है:** API केवल तभी RTF लौटाता है जब नोट्स में रिच‑टेक्स्ट फ़ॉर्मेटिंग हो; प्लेन टेक्स्ट के लिए खाली RTF स्ट्रिंग मिलेगी।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या Aspose.Tasks for Java सभी Java IDEs के साथ संगत है?
-Aspose.Tasks for Java किसी भी Java IDE के साथ संगत है, जिसमें IntelliJ IDEA, Eclipse, और NetBeans शामिल हैं।  
-### क्या मैं खरीदने से पहले Aspose.Tasks for Java आज़मा सकता हूँ?
-हाँ, आप [यहाँ](https://releases.aspose.com/) से Aspose.Tasks for Java का फ्री ट्रायल डाउनलोड कर सकते हैं।  
-### मैं Aspose.Tasks for Java के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
-आप Aspose.Tasks कम्युनिटी फ़ोरम से समर्थन प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/tasks/15)।  
-### क्या ट्रायल अवधि के दौरान Aspose.Tasks for Java उपयोग करने के लिए मुझे अस्थायी लाइसेंस चाहिए?
-नहीं, ट्रायल अवधि के लिए कोई अस्थायी लाइसेंस आवश्यक नहीं है। आप बिना किसी लाइसेंस के ट्रायल संस्करण उपयोग कर सकते हैं।  
-### मैं Aspose.Tasks for Java कहाँ खरीद सकता हूँ?
-आप Aspose.Tasks for Java को खरीद पेज से खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy)।
-
-## अक्सर पूछे जाने वाले प्रश्न
 **Q: क्या मैं सेट किए जाने के बाद नोट्स को संपादित कर सकता हूँ?**  
 A: हाँ, बस `assn.set(Asn.NOTES_TEXT, "Updated note")` को फिर से नए कंटेंट के साथ कॉल करें।
 
@@ -132,15 +120,15 @@ A: हाँ, `prj.getResourceAssignments()` पर इटरेट करके
 ## निष्कर्ष
 इन चरणों का पालन करके, अब आप **Aspose.Tasks for Java में रिसोर्स असाइनमेंट्स में नोट्स कैसे जोड़ें** जानते हैं। नोट्स को शामिल करने से प्रोजेक्ट की स्पष्टता बढ़ती है और एक मूल्यवान ऑडिट ट्रेल मिलता है। आगे API की अन्य सुविधाओं जैसे बल्क अपडेट, RTF फ़ॉर्मेटिंग, और आपके मौजूदा प्रोजेक्ट‑मैनेजमेंट वर्कफ़्लोज़ के साथ इंटीग्रेशन का अन्वेषण करें।
 
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

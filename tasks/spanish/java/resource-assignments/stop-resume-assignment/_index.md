@@ -98,22 +98,6 @@ En este bloque **verificamos la stop date** y **verificamos la resume date** par
 - **Ruta de archivo incorrecta** – Asegúrate de que `dataDir` termine con un separador de ruta (`/` o `\\`) apropiado para tu SO.  
 - **Desajuste de versión** – Usa la última versión de Aspose.Tasks para Java para evitar valores de enum faltantes.
 
-## Preguntas frecuentes
-### ¿Puedo usar Aspose.Tasks sin Microsoft Project instalado?
-Sí, Aspose.Tasks te permite trabajar con archivos de Microsoft Project sin necesidad de tener Microsoft Project instalado en tu sistema.
-
-### ¿Dónde puedo encontrar más documentación?
-Puedes encontrar documentación detallada [aquí](https://reference.aspose.com/tasks/java/).
-
-### ¿Hay una versión de prueba gratuita disponible?
-Sí, puedes obtener una prueba gratuita [aquí](https://releases.aspose.com/).
-
-### ¿Cómo puedo obtener soporte si encuentro algún problema?
-Puedes obtener soporte de la comunidad [aquí](https://forum.aspose.com/c/tasks/15).
-
-### ¿Puedo comprar una licencia temporal?
-Sí, puedes adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
-
 ## Preguntas y respuestas frecuentes
 
 **P: ¿Cómo establezco programáticamente una stop date para una asignación?**  

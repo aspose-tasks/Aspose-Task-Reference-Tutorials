@@ -101,18 +101,6 @@ System.out.println("Process completed Successfully");
 - **Les notes n’apparaissent pas dans l’interface :** Assurez‑vous de visualiser le volet des notes d’affectation dans Microsoft Project ou un autre visualiseur qui prend en charge les notes d’affectation.  
 - **La sortie RTF semble vide :** L’API ne renvoie du RTF que si les notes contiennent une mise en forme riche ; du texte brut produira une chaîne RTF vide.
 
-## FAQ
-### Aspose.Tasks pour Java est‑il compatible avec tous les IDE Java ?
-Aspose.Tasks pour Java est compatible avec n’importe quel IDE Java, y compris IntelliJ IDEA, Eclipse et NetBeans.  
-### Puis‑je essayer Aspose.Tasks pour Java avant d’acheter ?
-Oui, vous pouvez télécharger un essai gratuit d’Aspose.Tasks pour Java [ici](https://releases.aspose.com/).  
-### Comment obtenir du support pour Aspose.Tasks pour Java ?
-Vous pouvez obtenir du support sur le forum communautaire Aspose.Tasks [ici](https://forum.aspose.com/c/tasks/15).  
-### Ai‑je besoin d’une licence temporaire pendant la période d’essai ?
-Non, aucune licence temporaire n’est requise pendant la période d’essai. Vous pouvez utiliser la version d’essai sans aucune licence.  
-### Où puis‑je acheter Aspose.Tasks pour Java ?
-Vous pouvez acheter Aspose.Tasks pour Java depuis la page d’achat [ici](https://purchase.aspose.com/buy).
-
 ## Questions fréquentes
 **Q : Puis‑je modifier les notes après les avoir définies ?**  
 R : Oui, il suffit d’appeler `assn.set(Asn.NOTES_TEXT, "Note mise à jour")` avec le nouveau contenu.
@@ -132,13 +120,6 @@ R : Oui, parcourez `prj.getResourceAssignments()` et définissez `Asn.NOTES_TE
 ## Conclusion
 En suivant ces étapes, vous savez maintenant **comment ajouter des notes** aux affectations de ressources dans Aspose.Tasks pour Java. L’ajout de notes améliore la clarté du projet et fournit une traçabilité précieuse. N’hésitez pas à explorer d’autres fonctionnalités de l’API telles que les mises à jour en masse, la mise en forme RTF et l’intégration avec vos flux de travail de gestion de projet existants.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-10  
@@ -146,3 +127,10 @@ En suivant ces étapes, vous savez maintenant **comment ajouter des notes** aux 
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

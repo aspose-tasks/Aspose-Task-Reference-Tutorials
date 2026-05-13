@@ -102,18 +102,6 @@ System.out.println("Process completed Successfully");
 - **Вывод RTF пустой:** API возвращает RTF только если заметки содержат форматирование rich‑text; простой текст приведёт к пустой строке RTF.
 
 ## Часто задаваемые вопросы
-### Совместим ли Aspose.Tasks for Java со всеми IDE Java?
-Aspose.Tasks for Java совместим с любой Java IDE, включая IntelliJ IDEA, Eclipse и NetBeans.  
-### Могу ли я попробовать Aspose.Tasks for Java перед покупкой?
-Да, вы можете скачать бесплатную пробную версию Aspose.Tasks for Java [здесь](https://releases.aspose.com/).  
-### Как получить поддержку Aspose.Tasks for Java?
-Вы можете получить поддержку на форуме сообщества Aspose.Tasks [здесь](https://forum.aspose.com/c/tasks/15).  
-### Нужна ли временная лицензия для использования Aspose.Tasks for Java в течение пробного периода?
-Нет, временная лицензия не требуется в пробный период. Вы можете использовать пробную версию без каких‑либо лицензий.  
-### Где можно приобрести Aspose.Tasks for Java?
-Вы можете приобрести Aspose.Tasks for Java на странице покупки [здесь](https://purchase.aspose.com/buy).
-
-## Часто задаваемые вопросы
 **В: Можно ли редактировать заметки после их установки?**  
 **О:** Да, просто вызовите `assn.set(Asn.NOTES_TEXT, "Updated note")` снова с новым содержимым.
 
@@ -132,13 +120,6 @@ Aspose.Tasks for Java совместим с любой Java IDE, включая 
 ## Заключение
 Следуя этимам, вы теперь знаете **как добавить заметки** к назначениям ресурсов в Aspose.Tasks для Java. Добавление заметок повышает ясность проекта и обеспечивает ценную аудиторскую трассу. Не стесняйтесь исследовать дополнительные возможности API, такие как массовые обновления, форматирование RTF и интеграцию с вашими текущими процессами управления проектами.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-10  
@@ -146,3 +127,10 @@ Aspose.Tasks for Java совместим с любой Java IDE, включая 
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

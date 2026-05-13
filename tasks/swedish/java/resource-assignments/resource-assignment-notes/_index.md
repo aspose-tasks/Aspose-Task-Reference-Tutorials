@@ -102,22 +102,6 @@ System.out.println("Process completed Successfully");
 - **RTF‑utdata ser tom ut:** API:et returnerar endast RTF om anteckningarna innehåller rik text‑formatering; vanlig text ger en tom RTF‑sträng.
 
 ## Vanliga frågor
-### Är Aspose.Tasks for Java kompatibel med alla Java‑IDE:er?
-Aspose.Tasks for Java är kompatibel med alla Java‑IDE:er, inklusive IntelliJ IDEA, Eclipse och NetBeans.
-
-### Kan jag prova Aspose.Tasks for Java innan jag köper?
-Ja, du kan ladda ner en gratis provversion av Aspose.Tasks for Java från [här](https://releases.aspose.com/).
-
-### Hur kan jag få support för Aspose.Tasks for Java?
-Du kan få support från Aspose.Tasks‑community‑forumet [här](https://forum.aspose.com/c/tasks/15).
-
-### Behöver jag en tillfällig licens för att använda Aspose.Tasks for Java under provperioden?
-Nej, en tillfällig licens krävs inte under provperioden. Du kan använda provversionen utan någon licens.
-
-### Var kan jag köpa Aspose.Tasks for Java?
-Du kan köpa Aspose.Tasks for Java från köpsidan [här](https://purchase.aspose.com/buy).
-
-## Vanliga frågor
 **Q: Kan jag redigera anteckningar efter att de har satts?**  
 A: Ja, anropa helt enkelt `assn.set(Asn.NOTES_TEXT, "Updated note")` igen med det nya innehållet.
 
@@ -136,15 +120,15 @@ A: Ja, iterera över `prj.getResourceAssignments()` och sätt `Asn.NOTES_TEXT` f
 ## Slutsats
 Genom att följa dessa steg vet du nu **hur man lägger till anteckningar** till resursuppdrag i Aspose.Tasks for Java. Att införliva anteckningar förbättrar projektets tydlighet och ger ett värdefullt spårningsunderlag. Känn dig fri att utforska ytterligare API‑funktioner såsom massuppdateringar, RTF‑formatering och integration med dina befintliga projekt‑hanteringsarbetsflöden.
 
+---
+
+**Senast uppdaterad:** 2026-01-10  
+**Testad med:** Aspose.Tasks for Java 24.12 (senaste vid skrivande)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-10  
-**Testad med:** Aspose.Tasks for Java 24.12 (senaste vid skrivande)  
-**Författare:** Aspose

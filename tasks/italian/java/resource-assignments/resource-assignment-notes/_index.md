@@ -101,18 +101,6 @@ System.out.println("Process completed Successfully");
 - **Le note non compaiono nell'interfaccia:** Assicurati di visualizzare il riquadro delle note di assegnazione in Microsoft Project o in un altro visualizzatore che supporti le note di assegnazione.  
 - **L'output RTF appare vuoto:** L'API restituisce RTF solo se le note contengono formattazione rich‑text; il testo semplice genera una stringa RTF vuota.
 
-## FAQ
-### Aspose.Tasks per Java è compatibile con tutti gli IDE Java?
-Aspose.Tasks per Java è compatibile con qualsiasi IDE Java, inclusi IntelliJ IDEA, Eclipse e NetBeans.  
-### Posso provare Aspose.Tasks per Java prima di acquistarlo?
-Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks per Java [qui](https://releases.aspose.com/).  
-### Come posso ottenere supporto per Aspose.Tasks per Java?
-Puoi ottenere supporto dal forum della community di Aspose.Tasks [qui](https://forum.aspose.com/c/tasks/15).  
-### È necessaria una licenza temporanea per usare Aspose.Tasks per Java durante il periodo di prova?
-No, non è richiesta alcuna licenza temporanea durante il periodo di prova. Puoi utilizzare la versione di prova senza licenza.  
-### Dove posso acquistare Aspose.Tasks per Java?
-Puoi acquistare Aspose.Tasks per Java dalla pagina di acquisto [qui](https://purchase.aspose.com/buy).
-
 ## Domande frequenti
 **D: Posso modificare le note dopo averle impostate?**  
 R: Sì, basta chiamare nuovamente `assn.set(Asn.NOTES_TEXT, "Nota aggiornata")` con il nuovo contenuto.
@@ -132,13 +120,6 @@ R: Sì, itera su `prj.getResourceAssignments()` e imposta `Asn.NOTES_TEXT` per o
 ## Conclusione
 Seguendo questi passaggi, ora sai **come aggiungere note** alle assegnazioni di risorse in Aspose.Tasks per Java. L'integrazione delle note migliora la chiarezza del progetto e fornisce una preziosa traccia di audit. Sentiti libero di esplorare ulteriori funzionalità dell'API come aggiornamenti in blocco, formattazione RTF e integrazione con i tuoi flussi di lavoro di project‑management esistenti.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-01-10  
@@ -146,3 +127,10 @@ Seguendo questi passaggi, ora sai **come aggiungere note** alle assegnazioni di 
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

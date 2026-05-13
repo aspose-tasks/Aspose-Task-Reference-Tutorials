@@ -102,18 +102,6 @@ System.out.println("Process completed Successfully");
 - **A megjegyzések nem jelennek meg a felhasználói felületen:** Győződj meg róla, hogy a hozzárendelés megjegyzés panelt nézed a Microsoft Projectben vagy egy másik, a hozzárendelés megjegyzéseket támogató nézőben.  
 - **Az RTF kimenet üresnek tűnik:** Az API csak akkor ad vissza RTF-et, ha a megjegyzés gazdag szöveges formázást tartalmaz; egyszerű szöveg esetén üres RTF karakterlánc jön létre.
 
-## Gyakran ismételt kérdések
-### Az Aspose.Tasks for Java kompatibilis-e minden Java IDE-vel?
-Az Aspose.Tasks for Java kompatibilis bármely Java IDE-vel, beleértve az IntelliJ IDEA-t, az Eclipse-et és a NetBeans-et.  
-### Kipróbálhatom az Aspose.Tasks for Java-t vásárlás előtt?
-Igen, letöltheti az Aspose.Tasks for Java ingyenes próbaverzióját [innen](https://releases.aspose.com/).  
-### Hogyan kaphatok támogatást az Aspose.Tasks for Java-hoz?
-Támogatást kaphat az Aspose.Tasks közösségi fórumon [itt](https://forum.aspose.com/c/tasks/15).  
-### Szükségem van ideiglenes licencre az Aspose.Tasks for Java használatához a próbaidőszak alatt?
-Nem, a próbaidőszak alatt nem szükséges ideiglenes licenc. A próbaverziót licencelés nélkül használhatja.  
-### Hol vásárolhatom meg az Aspose.Tasks for Java-t?
-Az Aspose.Tasks for Java-t a vásárlási oldalon [itt](https://purchase.aspose.com/buy) szerezheti be.
-
 ## Gyakran feltett kérdések
 **K: Szerkeszthetem a megjegyzéseket, miután be lettek állítva?**  
 V: Igen, egyszerűen hívd meg újra a `assn.set(Asn.NOTES_TEXT, "Updated note")` metódust az új tartalommal.
@@ -133,13 +121,6 @@ V: Igen, iterálj a `prj.getResourceAssignments()` gyűjteményen, és állítsd
 ## Következtetés
 A lépések követésével most már **tudja, hogyan adjon megjegyzéseket** az erőforrás hozzárendelésekhez az Aspose.Tasks for Java-ban. A megjegyzések beépítése javítja a projekt átláthatóságát és értékes audit nyomvonalat biztosít. Nyugodtan fedezze fel a további API funkciókat, például a tömeges frissítéseket, az RTF formázást és az integrációt a meglévő projektmenedzsment folyamatokkal.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-10  
@@ -147,3 +128,10 @@ A lépések követésével most már **tudja, hogyan adjon megjegyzéseket** az 
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -96,22 +96,6 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 - **文件路径不正确** – 确保 `dataDir` 以适合您操作系统的路径分隔符（`/` 或 `\\`）结尾。  
 - **版本不匹配** – 使用最新的 Aspose.Tasks for Java 版本，以避免缺少枚举值。
 
-## 常见问题
-### 我可以在未安装 Microsoft Project 的情况下使用 Aspose.Tasks 吗？
-是的，Aspose.Tasks 允许您在系统上未安装 Microsoft Project 的情况下处理 Microsoft Project 文件。
-
-### 在哪里可以找到更多文档？
-您可以在 [此处](https://reference.aspose.com/tasks/java/) 找到详细文档。
-
-### 是否提供免费试用？
-是的，您可以在 [此处](https://releases.aspose.com/) 获取免费试用。
-
-### 如果遇到问题，我该如何获取支持？
-您可以在社区 [此处](https://forum.aspose.com/c/tasks/15) 获取支持。
-
-### 我可以购买临时许可证吗？
-是的，您可以在 [此处](https://purchase.aspose.com/temporary-license/) 购买临时许可证。
-
 ## 常见问答
 
 **Q: 如何以编程方式为分配设置停止日期？**  

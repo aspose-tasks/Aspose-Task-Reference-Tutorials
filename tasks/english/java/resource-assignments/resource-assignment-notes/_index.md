@@ -100,18 +100,6 @@ System.out.println("Process completed Successfully");
 - **Notes not appearing in the UI:** Ensure you are viewing the assignment notes pane in Microsoft Project or another viewer that supports assignment notes.  
 - **RTF output looks empty:** The API only returns RTF if the notes contain rich‑text formatting; plain text will result in an empty RTF string.
 
-## FAQ's
-### Is Aspose.Tasks for Java compatible with all Java IDEs?
-Aspose.Tasks for Java is compatible with any Java IDE, including IntelliJ IDEA, Eclipse, and NetBeans.  
-### Can I try Aspose.Tasks for Java before purchasing?
-Yes, you can download a free trial of Aspose.Tasks for Java from [here](https://releases.aspose.com/).  
-### How can I get support for Aspose.Tasks for Java?
-You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).  
-### Do I need a temporary license to use Aspose.Tasks for Java during the trial period?
-No, a temporary license is not required for the trial period. You can use the trial version without any licensing.  
-### Where can I purchase Aspose.Tasks for Java?
-You can purchase Aspose.Tasks for Java from the purchase page [here](https://purchase.aspose.com/buy).
-
 ## Frequently Asked Questions
 **Q: Can I edit notes after they have been set?**  
 A: Yes, simply call `assn.set(Asn.NOTES_TEXT, "Updated note")` again with the new content.
@@ -131,13 +119,6 @@ A: Yes, iterate over `prj.getResourceAssignments()` and set `Asn.NOTES_TEXT` for
 ## Conclusion
 By following these steps, you now know **how to add notes** to resource assignments in Aspose.Tasks for Java. Incorporating notes improves project clarity and provides a valuable audit trail. Feel free to explore further API features such as bulk updates, RTF formatting, and integration with your existing project‑management workflows.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-10  
@@ -145,3 +126,10 @@ By following these steps, you now know **how to add notes** to resource assignme
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

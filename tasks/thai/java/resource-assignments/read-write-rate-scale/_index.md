@@ -106,36 +106,36 @@ System.out.println(resavedMaterialResourceAssignment.get(Asn.RATE_SCALE));
 ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getResourceAssignments().getByUid(2);
 ```
 
-## Common Pitfalls & Tips
-- **UID Mismatch** – เมื่อดึงการมอบหมายโดยใช้ UID ให้ตรวจสอบให้แน่ใจว่า UID ตรงกับค่าที่กำหนดในระหว่างการสร้าง  
-- **Incorrect Resource Type** – การใช้ `ResourceType.Material` สำหรับทรัพยากรงานจะทำให้การคำนวณอัตราแสดงผลไม่ถูกต้อง  
-- **Saving Format** – ควรบันทึกโดยใช้ `SaveFileFormat.Mpp` (หรือรูปแบบที่รองรับอื่น) เพื่อรักษาฟิลด์ที่กำหนดเองเช่น rate scale
+## ข้อผิดพลาดและเคล็ดลับทั่วไป
+- **UID Mismatch** – ในกรณีที่ดึงการค้นคว้าวิจัย UID สามารถตรวจสอบได้ว่า UID โดยปกติค่าที่กำหนดสำหรับการสร้าง
+- **Incorrect Resource Type** – `ResourceType.Material` สำหรับทรัพยากรงานของเธอที่รวบรวมข้อมูลอัตราการเต้นของหัวใจ
+- **รูปแบบการบันทึก** – คุณสมบัติบันทึกของข้อมูลต่างๆ `SaveFileFormat.Mpp` (หรือรูปแบบที่รองรับสิ่งอื่น) ในส่วนของข้อมูลเช่น สเกลอัตรา
 
-## Conclusion
-การจัดการและตรวจสอบ rate scale สำหรับการมอบหมายทรัพยากรใน Aspose.Tasks for Java เป็นเรื่องง่ายเมื่อคุณรู้จักคลาสและคุณสมบัติที่เกี่ยวข้อง ด้วยการทำตามคู่มือนี้คุณสามารถ **read rate** ข้อมูล, **define material resource** objects, **set scale**, และ **assign resources to task** ได้อย่างมั่นใจ
+## บทสรุป
+บางครั้งอัตราสเกลที่จำเป็นต้องใช้ทรัพยากรใน Aspose.Tasks for Java ไม่จำเป็นต้องรู้จักคลาสและคุณสมบัติที่ทำตามคู่มือนี้เพื่อดู **อัตราการอ่าน** ข้อมูล, **กำหนดทรัพยากรวัสดุ** อ็อบเจ็กต์, **กำหนดสเกล**, และ **มอบหมายทรัพยากรให้กับงาน**
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถใช้ Aspose.Tasks for Java กับ IDE Java ใดก็ได้หรือไม่?**  
-A: ใช่, Aspose.Tasks for Java รองรับ IDE Java หลักทั้งหมด รวมถึง IntelliJ IDEA, Eclipse, และ NetBeans
+**ถาม: ฉันสามารถใช้ Aspose.Tasks for Java กับ IDE Java อัพโหลดหรือไม่?**
+ตอบ: ตรวจสอบได้, Aspose.Tasks for Java เข้ากันได้กับ IDE Java หลักทั้งหมดและ IntelliJ IDEA, Eclipse, และ NetBeans
 
-**Q: Aspose.Tasks รองรับรูปแบบไฟล์อื่นนอกจาก MPP หรือไม่?**  
-A: ใช่, Aspose.Tasks รองรับรูปแบบไฟล์หลายรูปแบบ รวมถึง MPP, XML, และ HTML
+**ถาม: Aspose.Tasks รูปแบบไฟล์ที่รองรับไฟล์อื่นนอกจาก MPP เป็นอย่างไร?**
+ตอบ: ถูกต้อง, Aspose.Tasks ที่รองรับรูปแบบไฟล์หลายรูปแบบรวมถึง MPP, XML, และ HTML
 
-**Q: Aspose.Tasks เหมาะสำหรับการจัดการโครงการระดับองค์กรหรือไม่?**  
-A: แน่นอน, Aspose.Tasks มีฟีเจอร์ครบถ้วนสำหรับการจัดการโครงการทุกขนาด ทำให้เหมาะกับการจัดการโครงการระดับองค์กร
+**ถาม: Aspose.Tasks สำหรับการจัดการโครงการระดับองค์กรหรือไม่**
+ตอบ: แน่นอน Aspose.Tasks มีครบถ้วนสำหรับการจัดการโครงการทุกขนาดที่ไม่เหมาะกับการจัดการโครงการระดับองค์กร
 
-**Q: ฉันสามารถปรับแต่งการมอบหมายทรัพยากรได้มากกว่าการตั้งค่า rate scale หรือไม่?**  
-A: ใช่, Aspose.Tasks มีความสามารถกว้างขวางสำหรับการปรับแต่งการมอบหมายทรัพยากร รวมถึงค่าใช้จ่าย, งาน, และการปรับระยะเวลา
+**ถาม: ฉันสามารถตรวจสอบการทำอะไรเพิ่มเติมได้ที่เรตสเกล?**
+ตอบ: ถูกต้อง, Aspose.Tasks จำเป็นต้องมีการพิจารณาการที่ต้องใช้ทรัพยากรและค่าใช้จ่าย, งาน, และต้องใช้เวลานาน
 
-**Q: มีฟอรั่มชุมชนสำหรับการสนับสนุน Aspose.Tasks หรือไม่?**  
-A: มี, คุณสามารถหาแหล่งสนับสนุนและโต้ตอบกับผู้ใช้คนอื่นได้ในฟอรั่ม Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+**ถาม: มีฟอรั่มชุมชนสำหรับ Aspose.Tasks หรือเปล่า?**
+ตอบ: มีแหล่งที่มาหลายแห่งสนับสนุนและพบกับผู้ใช้คนอื่นได้ในฟอรั่ม Aspose.Tasks [ที่นี่](https://forum.aspose.com/c/tasks/15)
 
 ---
 
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-01-10
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (เวอร์ชันล่าสุด ณ เวลาที่เขียน)
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
