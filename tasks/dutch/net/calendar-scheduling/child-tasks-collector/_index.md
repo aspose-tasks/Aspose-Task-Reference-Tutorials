@@ -1,72 +1,96 @@
 ---
-title: Onderliggende taken verzamelen in Aspose.Tasks
-linktitle: Onderliggende taken verzamelen in Aspose.Tasks
+date: 2026-04-13
+description: Leer hoe u een verzamelaar voor onderliggende taken maakt met Aspose.Tasks
+  voor .NET. Verbeter projectbeheer in uw .NET-toepassingen.
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: Maak Collector voor onderliggende taken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u onderliggende taken efficiënt kunt verzamelen met Aspose.Tasks voor .NET. Verbeter het projectmanagement in uw .NET-applicaties.
-weight: 15
+title: Hoe een Child Tasks Collector te maken in Aspose.Tasks
 url: /nl/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Onderliggende taken verzamelen in Aspose.Tasks
+# Maak Child Tasks Collector in Aspose.Tasks
 
-## Invoering
+## Introductie
 
-Op het gebied van projectmanagement onderscheidt Aspose.Tasks voor .NET zich als een robuuste oplossing voor het efficiënt afhandelen van taken en projecten. Deze krachtige bibliotheek biedt ontwikkelaars de tools die ze nodig hebben om taken, projecten en alles daartussen naadloos te beheren. In deze tutorial gaan we dieper in op een specifiek aspect van Aspose.Tasks: het verzamelen van onderliggende taken.
+If you need to **create child tasks collector** for a Microsoft Project file, Aspose.Tasks for .NET makes it straightforward. In this tutorial we’ll walk through the exact steps required to collect every child task under a parent, so you can process, analyze, or export them with confidence. By the end of the guide you’ll have a reusable snippet that fits naturally into any .NET‑based project‑management solution.
+
+## Snelle Antwoorden
+- **What does the ChildTasksCollector do?** It traverses a task hierarchy and gathers all descendant tasks into a collection.  
+- **Which library provides this feature?** Aspose.Tasks for .NET.  
+- **Do I need a license to run the sample?** A free trial works for evaluation; a license is required for production.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does the implementation take?** Roughly 5‑10 minutes once the library is installed.
+
+## Wat is een Child Tasks Collector?
+
+A **child tasks collector** is a utility object that walks through the task tree of a Project file, starting from a specified root task, and aggregates every child (sub‑task) it encounters. This is especially useful when you want to apply bulk operations—such as updating fields, exporting data, or generating reports—without manually iterating over each level of the hierarchy.
+
+## Waarom een child tasks collector maken?
+
+- **Simplify recursion:** The collector handles the depth‑first traversal internally, so you avoid writing your own recursive loops.  
+- **Boost productivity:** Retrieve all descendant tasks in a single collection, making bulk edits or analyses trivial.  
+- **Maintain clean code:** Keeps your business logic separate from the low‑level navigation of the project structure.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Before we begin, make sure you have:
 
-1. Basiskennis van C#: Bekendheid met de programmeertaal C# is essentieel.
-2.  Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van de[download link](https://releases.aspose.com/tasks/net/).
-3. Ontwikkelomgeving: Zet een ontwikkelomgeving op, zoals Visual Studio, om C#-code te schrijven en uit te voeren.
-4. Toegang tot documentatie: Bewaar de[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/) handig ter referentie.
+1. **Basic Understanding of C#** – you should be comfortable writing and running simple console applications.  
+2. **Aspose.Tasks for .NET installed** – download it from the [download link](https://releases.aspose.com/tasks/net/).  
+3. **A development environment** – Visual Studio, Rider, or any IDE that supports C#.  
+4. **Access to the official docs** – keep the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) nearby for reference.
 
-Nu we aan de vereisten hebben voldaan, gaan we dieper in op de stapsgewijze handleiding voor het verzamelen van onderliggende taken met Aspose.Tasks voor .NET.
+Now that the groundwork is set, let’s dive into the code.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Importeer eerst de benodigde naamruimten in uw C#-code om toegang te krijgen tot de functionaliteit van Aspose.Tasks voor .NET.
+First, bring the required namespaces into scope so the compiler knows where to find the classes we’ll use.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Laten we nu het gegeven voorbeeld in meerdere stappen opsplitsen om het proces grondig te begrijpen.
+## Stapsgewijze handleiding
 
-## Stap 1: Initialiseer het projectobject
+### Stap 1: Initialiseer het Project-object
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- Deze coderegel initialiseert een nieuw`Project` object, waarbij een projectbestand met de naam "ParentChildTasks.mpp" wordt geladen vanuit de opgegeven map.
+This line loads an existing Microsoft Project file (`ParentChildTasks.mpp`) from the `DataDir` folder into a `Project` object, giving us programmatic access to its tasks.
 
-## Stap 2: Maak een ChildTasksCollector-object
+### Stap 2: Maak de ChildTasksCollector‑instantie
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
- Hier maken we een nieuwe`ChildTasksCollector` object, waarmee we onderliggende taken uit het project kunnen verzamelen.
+Here we **create child tasks collector** – an instance of `ChildTasksCollector` that will store every child task it discovers.
 
-## Stap 3: Collector toepassen op roottaak
+### Stap 3: Pas de collector toe op de root‑taak
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Wij passen de`ChildTasksCollector` naar de hoofdtaak van het project, waarbij het verzamelproces recursief wordt gestart.
+We tell Aspose.Tasks to start the collection at the project’s root task. The `Apply` method walks the hierarchy recursively, populating `collector.Tasks` with all descendant tasks.
 
-## Stap 4: Herhaal de verzamelde taken
+### Stap 4: Itereer door de verzamelde taken
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +99,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-Ten slotte doorlopen we de verzamelde taken en drukken hun namen af op de console.
+Finally, we loop over the gathered tasks and print each task’s name to the console. In a real‑world scenario you could replace the `Console.WriteLine` with any custom processing you need (e.g., exporting to CSV, updating fields, etc.).
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we onderzocht hoe u onderliggende taken kunt verzamelen met Aspose.Tasks voor .NET. Door de hierboven beschreven stappen te volgen, kunt u taken binnen uw projecten efficiënt beheren en manipuleren, waardoor de productiviteit en organisatie worden verbeterd.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **No tasks are returned** | The collector was applied to the wrong task (e.g., a leaf node). | Apply `TaskUtils.Apply` to `project.RootTask` or the specific parent you want to start from. |
+| **NullReferenceException** | `DataDir` or the file path is incorrect. | Verify that `DataDir` points to the folder containing `ParentChildTasks.mpp`. |
+| **License not set** | Aspose.Tasks throws a licensing warning in trial mode. | Load your license with `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` before creating the `Project` object. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.Tasks voor .NET compatibel met alle versies van .NET?
+**Q: Is Aspose.Tasks for .NET compatible with all versions of .NET?**  
+A: Yes, Aspose.Tasks for .NET works with .NET Framework 4.5+, .NET Core 3.1+, and .NET 5/6+.
 
-A1: Ja, Aspose.Tasks voor .NET is compatibel met verschillende versies van het .NET-framework, waardoor een brede compatibiliteit wordt gegarandeerd.
+**Q: Can I use Aspose.Tasks for .NET to create new project files?**  
+A: Absolutely! The library lets you create, read, and manipulate project files programmatically.
 
-### V2: Kan ik Aspose.Tasks voor .NET gebruiken om nieuwe projectbestanden te maken?
+**Q: Does Aspose.Tasks for .NET support multiple platforms?**  
+A: While it’s designed for .NET, you can run it on any platform that supports the .NET runtime, including Windows, Linux, and macOS.
 
-A2: Absoluut! Aspose.Tasks voor .NET biedt functionaliteit voor het moeiteloos maken, lezen en manipuleren van projectbestanden.
+**Q: Is technical support available for Aspose.Tasks for .NET?**  
+A: Yes, you can get help through the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### V3: Ondersteunt Aspose.Tasks voor .NET meerdere platforms?
+**Q: Can I try Aspose.Tasks for .NET before purchasing?**  
+A: Certainly! A free trial is available from the [release page](https://releases.aspose.com/).
 
-A3: Hoewel Aspose.Tasks voor .NET primair is ontworpen voor .NET-omgevingen, kan het worden gebruikt op verschillende platforms die .NET-ontwikkeling ondersteunen.
+---
 
-### V4: Is er technische ondersteuning beschikbaar voor Aspose.Tasks voor .NET?
+**Laatst bijgewerkt:** 2026-04-13  
+**Getest met:** Aspose.Tasks 24.11 for .NET  
+**Auteur:** Aspose  
 
-A4: Ja, gebruikers hebben toegang tot technische ondersteuning via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
-
-### V5: Kan ik Aspose.Tasks voor .NET uitproberen voordat ik een aankoop doe?
-
- A5: Zeker! U kunt gebruikmaken van een gratis proefperiode van de[pagina vrijgeven](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

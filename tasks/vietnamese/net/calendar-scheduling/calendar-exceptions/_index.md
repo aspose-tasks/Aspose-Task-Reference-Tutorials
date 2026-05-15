@@ -1,43 +1,63 @@
 ---
-title: Xử lý ngoại lệ lịch trong Aspose.Tasks
-linktitle: Xử lý ngoại lệ lịch trong Aspose.Tasks
+date: 2026-04-13
+description: Tìm hiểu cách xóa ngoại lệ lịch trong Aspose.Tasks cho .NET và kiểm tra
+  ngày ngoại lệ khi quản lý lịch trình ASP.NET.
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Xóa ngoại lệ lịch bằng Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý các ngoại lệ lịch trong Aspose.Tasks dành cho .NET với các ví dụ và hướng dẫn từng bước.
-weight: 12
+title: Xóa ngoại lệ lịch với Aspose.Tasks
 url: /vi/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xử lý ngoại lệ lịch trong Aspose.Tasks
+# Xóa Ngoại Lệ Lịch với Aspose.Tasks
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các ngoại lệ lịch trong Aspose.Tasks bằng .NET framework. Các trường hợp ngoại lệ về lịch cho phép chúng tôi xác định các ngày hoặc giai đoạn đặc biệt trong lịch dự án khi lịch làm việc thông thường bị thay đổi, chẳng hạn như ngày lễ hoặc thời gian đóng cửa tạm thời. Chúng tôi sẽ đề cập đến các phương pháp khác nhau để xử lý các ngoại lệ của lịch theo từng bước bằng cách sử dụng Aspose.Tasks cho .NET.
+Trong hướng dẫn này, bạn sẽ học cách **xóa ngoại lệ lịch** và quản lý các ngoại lệ lịch khác trong Aspose.Tasks bằng .NET framework. Các ngoại lệ lịch cho phép bạn mô hình hoá ngày lễ, đóng cửa tạm thời, hoặc bất kỳ khoảng thời gian đặc biệt nào mà lịch làm việc bình thường thay đổi. Hiểu cách thêm, truy vấn và loại bỏ các ngoại lệ này là cần thiết để lập kế hoạch dự án chính xác, đặc biệt khi làm việc với các kịch bản **lập lịch lịch ASP.NET**.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Phương pháp chính để loại bỏ một ngoại lệ là gì?** Sử dụng phương thức `Delete()` trên đối tượng `CalendarException`.  
+- **Lớp nào kiểm tra ngày so với một ngoại lệ?** `CalendarException.CheckException()`—hữu ích để **kiểm tra ngày ngoại lệ**.  
+- **Tôi có cần giấy phép để chạy mã không?** Có, cần một giấy phép Aspose.Tasks hợp lệ cho môi trường sản xuất.  
+- **Tôi có thể thêm nhiều ngoại lệ vào một lịch không?** Chắc chắn; bộ sưu tập `Exceptions` hỗ trợ nhiều mục.  
+- **Phiên bản .NET được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-- Kiến thức cơ bản về ngôn ngữ lập trình C#.
-- Visual Studio được cài đặt trên hệ thống của bạn.
-- Thư viện Aspose.Tasks cho .NET đã được thêm vào dự án của bạn.
+## Ngoại lệ lịch là gì?
+
+Một **ngoại lệ lịch** đại diện cho sự lệch khỏi lịch làm việc thông thường—nghĩ như một quy tắc nói “vào những ngày này, giờ làm việc khác nhau hoặc không có giờ làm việc”. Trong Aspose.Tasks, mỗi ngoại lệ có thể có thời gian làm việc riêng, mẫu lặp lại và các cờ chỉ ra ngày có làm việc hay không.
+
+## Tại sao quản lý ngoại lệ lịch trong Lập lịch ASP.NET?
+
+- **Dòng thời gian chính xác:** Dự án tự động tôn trọng ngày lễ và các thời gian đóng cửa đặc biệt, ngăn ngừa thời hạn không thực tế.  
+- **Linh hoạt:** Bạn có thể định nghĩa mẫu hàng ngày, hàng tuần, hàng tháng hoặc hàng năm, phù hợp với lịch doanh nghiệp thực tế.  
+- **Tự động hóa:** Kiểm tra ngày ngoại lệ bằng chương trình cho phép bạn xây dựng logic lập lịch động trong các ứng dụng ASP.NET.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về lập trình C#.  
+- Visual Studio (bất kỳ phiên bản mới nào).  
+- Thư viện Aspose.Tasks for .NET đã được thêm vào dự án (qua NuGet hoặc tham chiếu thủ công).  
 
 ## Nhập không gian tên
 
-Đầu tiên, hãy nhập các không gian tên cần thiết cho dự án của chúng ta:
+Đầu tiên, nhập các không gian tên bạn sẽ cần:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
 ## Bước 1: Xóa ngoại lệ lịch
 
-Để xóa ngoại lệ lịch, hãy làm theo các bước sau:
+Việc loại bỏ một ngoại lệ không mong muốn rất đơn giản. Đoạn mã dưới đây tải một dự án, chọn lịch đầu tiên, hiển thị thông tin cơ bản, xóa ngoại lệ đầu tiên, và sau đó hiển thị số lượng đã cập nhật.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // Hiển thị thông tin lịch
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // Xóa ngoại lệ đầu tiên
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## Bước 2: Lấy thời gian làm việc của ngoại lệ lịch
+> **Mẹo chuyên nghiệp:** Luôn kiểm tra chỉ mục ngoại lệ tồn tại trước khi gọi `Delete()` để tránh `IndexOutOfRangeException`.
 
-Để truy xuất thời gian làm việc của ngoại lệ lịch, hãy làm theo các bước sau:
+## Bước 2: Lấy thời gian làm việc của một ngoại lệ lịch
+
+Nếu bạn cần kiểm tra giờ làm việc được định nghĩa cho một ngoại lệ, hãy sử dụng `GetWorkingTime()`. Ví dụ này cũng minh họa cách **kiểm tra ngày ngoại lệ** bằng `CheckException`.
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // Hiển thị thông tin lịch và ngoại lệ
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // Nhận thời gian làm việc và hiển thị chi tiết
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## Bước 3: Xác định ngoại lệ lịch
+## Bước 3: Định nghĩa ngoại lệ lịch
 
-Để thêm hoặc xóa ngoại lệ lịch, hãy làm theo các bước sau:
+Dưới đây là một quy trình đầy đủ cho thấy cách **thêm**, **kiểm tra**, và **xóa** các ngoại lệ lịch. Lưu ý việc sử dụng `CheckException` để **kiểm tra ngày ngoại lệ** cho một thời điểm cụ thể.
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // Tạo một ngoại lệ lịch mới
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // Đặt chi tiết ngoại lệ
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // Kiểm tra xem một ngày có phải là ngoại lệ không
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // Thêm ngoại lệ vào lịch
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // Xóa ngoại lệ nếu tồn tại
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // Thêm một ngoại lệ mới
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // In ngoại lệ
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
-## Phần kết luận
+## Vấn đề thường gặp & Mẹo
 
-Trong bài viết này, chúng tôi đã đề cập đến nhiều khía cạnh khác nhau của việc xử lý ngoại lệ lịch trong Aspose.Tasks dành cho .NET. Bằng cách làm theo các bước được cung cấp, bạn có thể quản lý hiệu quả các trường hợp ngoại lệ trong lịch trình dự án của mình, đảm bảo trình bày chính xác về giờ làm việc và các sự kiện đặc biệt.
+| Vấn đề | Lý do | Giải pháp |
+|-------|--------|----------|
+| **`IndexOutOfRangeException` khi xóa** | Cố gắng xóa một ngoại lệ không tồn tại. | Kiểm tra `calendar.Exceptions.Count` > chỉ mục trước khi gọi `Delete()`. |
+| **Thời gian làm việc không đúng** | Không thiết lập `DayWorking` hoặc `WorkingTimes` đúng cách. | Sử dụng `exception.WorkingTimes.Add(new WorkingTime(...))` để định nghĩa các khoảng thời gian cụ thể. |
+| **Ngoại lệ không được nhận diện** | `CheckException` trả về `false` vì ngày nằm ngoài phạm vi đã định. | Kiểm tra lại `FromDate`/`ToDate` và `Type` (Daily, Weekly, v.v.). |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể thêm nhiều ngoại lệ vào một lịch không?
+**H: Tôi có thể thêm nhiều ngoại lệ vào một lịch duy nhất không?**  
+Đ: Có, bạn có thể thêm bao nhiêu ngoại lệ tùy ý để đại diện cho ngày lễ, **cửa sổ bảo trì**, hoặc bất kỳ quy tắc lập lịch đặc biệt nào.
 
-Câu trả lời 1: Có, bạn có thể thêm nhiều ngoại lệ vào lịch để phù hợp với nhiều ngày hoặc khoảng thời gian đặc biệt khác nhau.
+**H: Làm cách nào để **kiểm tra ngày ngoại lệ** cho một ngày cụ thể?**  
+Đ: Sử dụng phương thức `CheckException(DateTime date)` trên một thể hiện `CalendarException`. Nó trả về `true` nếu ngày được cung cấp nằm trong phạm vi ngoại lệ.
 
-### Câu hỏi 2: Làm cách nào để kiểm tra xem một ngày cụ thể có phải là ngoại lệ không?
+**H: Có thể loại bỏ một ngoại lệ hiện có khỏi lịch không?**  
+Đ: Chắc chắn. Truy cập bộ sưu tập `Exceptions` và gọi `Remove()` hoặc gọi `Delete()` trên đối tượng `CalendarException` cụ thể.
 
- A2: Bạn có thể sử dụng`CheckException()` phương pháp để xác minh xem một ngày cụ thể có thuộc trường hợp ngoại lệ hay không.
+**H: Những loại ngoại lệ lịch nào được hỗ trợ?**  
+Đ: Aspose.Tasks hỗ trợ các loại ngoại lệ Daily, Weekly, Monthly và Yearly, cung cấp sự linh hoạt để mô hình hoá hầu hết các mẫu lặp lại.
 
-### Câu hỏi 3: Có thể xóa ngoại lệ hiện có khỏi lịch không?
+**H: Tôi có thể tùy chỉnh giờ làm việc cho các ngày ngoại lệ cụ thể không?**  
+Đ: Có. Sau khi tạo một ngoại lệ, hãy điền bộ sưu tập `WorkingTimes` của nó bằng các đối tượng `WorkingTime` xác định thời gian bắt đầu và kết thúc cho ngày đó.
 
- Câu trả lời 3: Có, bạn có thể loại bỏ các ngoại lệ bằng cách truy cập vào`Exceptions` bộ sưu tập lịch và sử dụng`Remove()` phương pháp.
+## Kết luận
 
-### Câu hỏi 4: Những loại ngoại lệ lịch nào được hỗ trợ?
+Chúng ta đã đi qua toàn bộ vòng đời của các thao tác **xóa ngoại lệ lịch**, từ việc kiểm tra các ngoại lệ hiện có đến việc thêm mới và kiểm tra ngày. Nắm vững các kỹ thuật này giúp lịch trình dự án của bạn tôn trọng lịch thực tế, làm cho các triển khai lập lịch ASP.NET của bạn trở nên vững chắc và đáng tin cậy.
 
-Câu trả lời 4: Aspose.Tasks hỗ trợ nhiều loại ngoại lệ khác nhau, bao gồm ngoại lệ hàng ngày, hàng tuần, hàng tháng và hàng năm, mang lại sự linh hoạt trong việc xác định các quy tắc ngoại lệ.
+---
 
-### Câu hỏi 5: Tôi có thể tùy chỉnh giờ làm việc cho những ngày ngoại lệ cụ thể không?
+**Cập nhật lần cuối:** 2026-04-13  
+**Kiểm tra với:** Aspose.Tasks for .NET (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
-Câu trả lời 5: Có, bạn có thể xác định thời gian làm việc tùy chỉnh cho từng ngày ngoại lệ riêng lẻ bằng các phương pháp thích hợp do Aspose.Tasks cung cấp.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

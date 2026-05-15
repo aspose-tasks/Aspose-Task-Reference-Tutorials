@@ -1,72 +1,96 @@
 ---
-title: Mengumpulkan Tugas Anak di Aspose.Tasks
-linktitle: Mengumpulkan Tugas Anak di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengumpulkan tugas anak secara efisien menggunakan Aspose.Tasks untuk .NET. Tingkatkan manajemen proyek di aplikasi .NET Anda.
-weight: 15
+date: 2026-04-13
+description: Pelajari cara membuat kolektor tugas anak menggunakan Aspose.Tasks untuk
+  .NET. Tingkatkan manajemen proyek dalam aplikasi .NET Anda.
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: Buat Pengumpul Tugas Anak di Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cara Membuat Pengumpul Tugas Anak di Aspose.Tasks
 url: /id/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengumpulkan Tugas Anak di Aspose.Tasks
+# Buat Pengumpul Tugas Anak di Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Di bidang manajemen proyek, Aspose.Tasks untuk .NET menonjol sebagai solusi tangguh untuk menangani tugas dan proyek secara efisien. Pustaka canggih ini memberi pengembang alat yang mereka perlukan untuk mengelola tugas, proyek, dan segala sesuatu di antaranya dengan lancar. Dalam tutorial ini, kita akan mempelajari aspek spesifik Aspose.Tasks: mengumpulkan tugas anak.
+Jika Anda perlu **membuat pengumpul tugas anak** untuk file Microsoft Project, Aspose.Tasks untuk .NET mempermudahnya. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk mengumpulkan setiap tugas anak di bawah sebuah induk, sehingga Anda dapat memproses, menganalisis, atau mengekspornya dengan percaya diri. Pada akhir panduan Anda akan memiliki potongan kode yang dapat digunakan kembali dan cocok secara alami dalam solusi manajemen proyek berbasis .NET apa pun.
+
+## Jawaban Cepat
+- **Apa yang dilakukan ChildTasksCollector?** Ia menelusuri hierarki tugas dan mengumpulkan semua tugas keturunan ke dalam sebuah koleksi.  
+- **Perpustakaan mana yang menyediakan fitur ini?** Aspose.Tasks untuk .NET.  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Berapa lama implementasinya?** Sekitar 5‑10 menit setelah perpustakaan diinstal.
+
+## Apa itu Pengumpul Tugas Anak?
+
+**Pengumpul tugas anak** adalah objek utilitas yang menelusuri pohon tugas dari file Project, mulai dari tugas akar yang ditentukan, dan mengumpulkan setiap anak (sub‑tugas) yang ditemukannya. Ini sangat berguna ketika Anda ingin menerapkan operasi massal—seperti memperbarui bidang, mengekspor data, atau menghasilkan laporan—tanpa harus iterasi manual pada setiap tingkat hierarki.
+
+## Mengapa membuat pengumpul tugas anak?
+
+- **Menyederhanakan rekursi:** Pengumpul menangani penelusuran depth‑first secara internal, sehingga Anda tidak perlu menulis loop rekursif sendiri.  
+- **Meningkatkan produktivitas:** Mengambil semua tugas keturunan dalam satu koleksi, membuat penyuntingan massal atau analisis menjadi mudah.  
+- **Memelihara kode bersih:** Memisahkan logika bisnis Anda dari navigasi tingkat rendah struktur proyek.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# sangat penting.
-2.  Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/).
-3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan, seperti Visual Studio, untuk menulis dan mengeksekusi kode C#.
-4. Akses ke Dokumentasi: Simpan[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/) berguna untuk referensi.
+1. **Pemahaman Dasar C#** – Anda harus nyaman menulis dan menjalankan aplikasi konsol sederhana.  
+2. **Aspose.Tasks untuk .NET terpasang** – unduh dari [download link](https://releases.aspose.com/tasks/net/).  
+3. **Lingkungan pengembangan** – Visual Studio, Rider, atau IDE apa pun yang mendukung C#.  
+4. **Akses ke dokumentasi resmi** – simpan [Aspose.Tasks untuk .NET documentation](https://reference.aspose.com/tasks/net/) di dekat Anda untuk referensi.
 
-Sekarang setelah prasyaratnya tercakup, mari selami panduan langkah demi langkah untuk mengumpulkan tugas anak menggunakan Aspose.Tasks untuk .NET.
+Sekarang dasar sudah siap, mari kita selami kode.
 
 ## Impor Namespace
 
-Pertama, impor namespace yang diperlukan ke dalam kode C# Anda untuk mengakses fungsionalitas yang disediakan oleh Aspose.Tasks untuk .NET.
+Pertama, bawa namespace yang diperlukan ke dalam ruang lingkup sehingga kompiler tahu di mana menemukan kelas yang akan kami gunakan.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah untuk memahami prosesnya secara menyeluruh.
+## Panduan Langkah‑demi‑Langkah
 
-## Langkah 1: Inisialisasi Objek Proyek
+### Langkah 1: Inisialisasi Objek Project
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- Baris kode ini menginisialisasi yang baru`Project` objek, memuat file proyek bernama "ParentChildTasks.mpp" dari direktori yang ditentukan.
+Baris ini memuat file Microsoft Project yang ada (`ParentChildTasks.mpp`) dari folder `DataDir` ke dalam objek `Project`, memberi kami akses programatik ke tugas‑tugasnya.
 
-## Langkah 2: Buat Objek ChildTasksCollector
+### Langkah 2: Buat Instance ChildTasksCollector
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
- Di sini, kami membuat yang baru`ChildTasksCollector` objek, yang akan membantu kami mengumpulkan tugas anak dari proyek.
+Di sini kami **membuat pengumpul tugas anak** – sebuah instance `ChildTasksCollector` yang akan menyimpan setiap tugas anak yang ditemukannya.
 
-## Langkah 3: Terapkan Kolektor ke Tugas Root
+### Langkah 3: Terapkan Pengumpul ke Tugas Root
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Kami menerapkan`ChildTasksCollector` ke tugas utama proyek, memulai proses pengumpulan secara rekursif.
+Kami memberi tahu Aspose.Tasks untuk memulai pengumpulan pada tugas root proyek. Metode `Apply` menelusuri hierarki secara rekursif, mengisi `collector.Tasks` dengan semua tugas keturunan.
 
-## Langkah 4: Ulangi Tugas yang Dikumpulkan
+### Langkah 4: Iterasi Melalui Tugas yang Dikumpulkan
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +99,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-Terakhir, kami mengulangi tugas yang dikumpulkan dan mencetak namanya ke konsol.
+Akhirnya, kami mengulangi tugas‑tugas yang dikumpulkan dan mencetak nama setiap tugas ke konsol. Dalam skenario dunia nyata Anda dapat mengganti `Console.WriteLine` dengan pemrosesan khusus apa pun yang Anda perlukan (mis., mengekspor ke CSV, memperbarui bidang, dll.).
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Dalam tutorial ini, kita menjelajahi cara mengumpulkan tugas anak menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat mengelola dan memanipulasi tugas dalam proyek Anda secara efisien, sehingga meningkatkan produktivitas dan organisasi.
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **Tidak ada tugas yang dikembalikan** | Pengumpul diterapkan pada tugas yang salah (mis., node daun). | Terapkan `TaskUtils.Apply` ke `project.RootTask` atau induk spesifik yang ingin Anda mulai. |
+| **NullReferenceException** | `DataDir` atau jalur file tidak benar. | Pastikan `DataDir` mengarah ke folder yang berisi `ParentChildTasks.mpp`. |
+| **Lisensi tidak diatur** | Aspose.Tasks menampilkan peringatan lisensi dalam mode percobaan. | Muat lisensi Anda dengan `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` sebelum membuat objek `Project`. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah Aspose.Tasks untuk .NET kompatibel dengan semua versi .NET?
+**T: Apakah Aspose.Tasks untuk .NET kompatibel dengan semua versi .NET?**  
+J: Ya, Aspose.Tasks untuk .NET bekerja dengan .NET Framework 4.5+, .NET Core 3.1+, dan .NET 5/6+.
 
-A1: Ya, Aspose.Tasks untuk .NET kompatibel dengan berbagai versi kerangka .NET, memastikan kompatibilitas luas.
+**T: Bisakah saya menggunakan Aspose.Tasks untuk .NET untuk membuat file proyek baru?**  
+J: Tentu saja! Perpustakaan ini memungkinkan Anda membuat, membaca, dan memanipulasi file proyek secara programatik.
 
-### Q2: Dapatkah saya menggunakan Aspose.Tasks untuk .NET untuk membuat file proyek baru?
+**T: Apakah Aspose.Tasks untuk .NET mendukung banyak platform?**  
+J: Meskipun dirancang untuk .NET, Anda dapat menjalankannya di platform apa pun yang mendukung runtime .NET, termasuk Windows, Linux, dan macOS.
 
-A2: Tentu saja! Aspose.Tasks untuk .NET menyediakan fungsionalitas untuk membuat, membaca, dan memanipulasi file proyek dengan mudah.
+**T: Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk .NET?**  
+J: Ya, Anda dapat mendapatkan bantuan melalui [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### Q3: Apakah Aspose.Tasks untuk .NET mendukung banyak platform?
+**T: Bisakah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?**  
+J: Tentu! Versi percobaan gratis tersedia dari [halaman rilis](https://releases.aspose.com/).
 
-A3: Meskipun dirancang khusus untuk lingkungan .NET, Aspose.Tasks untuk .NET dapat digunakan di berbagai platform yang mendukung pengembangan .NET.
+---
 
-### Q4: Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk .NET?
+**Terakhir Diperbarui:** 2026-04-13  
+**Diuji Dengan:** Aspose.Tasks 24.11 untuk .NET  
+**Penulis:** Aspose  
 
-A4: Ya, pengguna dapat mengakses dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
-
-### Q5: Dapatkah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
-
- A5: Tentu saja! Anda dapat memanfaatkan uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

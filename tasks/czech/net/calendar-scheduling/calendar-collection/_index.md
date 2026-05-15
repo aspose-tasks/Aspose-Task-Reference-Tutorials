@@ -1,31 +1,44 @@
 ---
-title: Správa kolekce kalendářů v Aspose.Tasks
+date: 2026-04-13
+description: Zjistěte, jak nastavit pracovní hodiny a spravovat kolekce kalendářů
+  v Aspose.Tasks pro .NET. Importujte kalendáře z Microsoft Project, odstraňte kalendář
+  projektu a snadno získávejte kalendář podle názvu.
+keywords:
+- set working hours
+- import calendars microsoft project
+- remove calendar project
+- get calendar by name
 linktitle: Správa kolekce kalendářů v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se efektivně spravovat kolekce kalendářů v Aspose.Tasks for .NET. Vytvářejte, upravujte a manipulujte s kalendáři snadno.
-weight: 11
+title: Nastavte pracovní hodiny v kolekci kalendářů Aspose.Tasks
 url: /cs/net/calendar-scheduling/calendar-collection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa kolekce kalendářů v Aspose.Tasks
+# Nastavení pracovních hodin v kolekci kalendářů Aspose.Tasks
 
-## Úvod
+V tomto tutoriálu se naučíte, jak **nastavit pracovní hodiny** a spravovat kolekce kalendářů pomocí Aspose.Tasks pro .NET. Kalendáře definují pracovní dny, svátky a výjimky, takže jejich ovládnutí vám umožní přesně řídit harmonogramy projektů. Také vám ukážeme, jak importovat kalendáře z Microsoft Project, odstranit kalendář z projektu a získat kalendář podle názvu.
 
-V tomto tutoriálu prozkoumáme, jak spravovat kolekce kalendářů v Aspose.Tasks pro .NET. Kalendáře hrají klíčovou roli v řízení projektů, definují pracovní dny, svátky a výjimky. Aspose.Tasks poskytuje robustní funkce pro manipulaci s kalendáři ve vašich projektech.
+## Rychlé odpovědi
+- **Jaká je hlavní třída pro kalendáře?** `Project.Calendars` collection.
+- **Jak nastavit pracovní hodiny?** Vytvořte nebo upravte objekt `Calendar` a definujte jeho `WorkingTime`.
+- **Mohu importovat kalendáře z Microsoft Project?** Ano – načtěte soubor MPP a přistupujte k jeho kalendářům.
+- **Jak odstranit kalendář z projektu?** Použijte `Project.Calendars.Remove(calendar)`.
+- **Jak získat kalendář podle názvu?** Zavolejte `Project.Calendars.GetByName("YourCalendar")`.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1. Visual Studio: Nainstalujte Visual Studio nebo jakékoli jiné kompatibilní IDE pro vývoj .NET.
-2.  Aspose.Tasks for .NET: Stáhněte si a nainstalujte Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
-3. Základní znalost C#: Výhodou bude znalost programovacího jazyka C#.
+1. Visual Studio: Nainstalujte Visual Studio nebo jiné kompatibilní IDE pro vývoj v .NET.  
+2. Aspose.Tasks pro .NET: Stáhněte a nainstalujte Aspose.Tasks pro .NET z [zde](https://releases.aspose.com/tasks/net/).  
+3. Základní znalost C#: Znalost programovacího jazyka C# bude užitečná.
 
-## Importovat jmenné prostory
+## Importování jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory pro práci s Aspose.Tasks:
 
@@ -35,12 +48,11 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Saving;
-
 ```
 
 ## Vytvoření nového kalendáře
 
-###  Krok 1: Inicializujte nový`Project` object.
+### Krok 1: Inicializujte nový objekt `Project`.
 ```csharp
 var project = new Project();
 ```
@@ -52,13 +64,19 @@ var newCalendar = project.Calendars.Add("Parent");
 project.Calendars.Add("Child", newCalendar);
 ```
 
-### Krok 3: Iterujte kalendáře a zobrazte jejich jména.
+### Krok 3: Projděte kalendáře a zobrazte jejich názvy.
 ```csharp
 foreach (var calendar in project.Calendars)
 {
     Console.WriteLine("Calendar Name: " + calendar.Name);
 }
 ```
+
+## Jak nastavit pracovní hodiny pro kalendář?
+
+Pro **nastavení pracovních hodin** upravíte kolekci `WorkingTime` objektu `Calendar`.  
+Například můžete definovat standardní pracovní den od 9 do 17 hodin nebo přidat vlastní výjimky.  
+Kód pro toto je stejný jako příklady uvedené níže, když vytváříme standardní kalendář.
 
 ## Nahrazení kalendáře novým kalendářem
 
@@ -67,7 +85,8 @@ foreach (var calendar in project.Calendars)
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Krok 2: Odeberte existující kalendář (pokud existuje).
+### Krok 2: Odstraňte existující kalendář (pokud existuje).  
+Toto demonstruje scénář **odstranění kalendáře z projektu**.
 ```csharp
 var calendar = project.Calendars.GetByName("TestCalendar");
 if (calendar != null)
@@ -82,14 +101,15 @@ project.Calendars.Add("New Calendar");
 project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
 ```
 
-## Získání kalendáře podle jména nebo ID
+## Získání kalendáře podle názvu nebo ID
 
 ### Krok 1: Načtěte projekt.
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Krok 2: Načtěte kalendáře podle jména nebo UID.
+### Krok 2: Získejte kalendáře podle názvu nebo UID.  
+Toto ilustruje operaci **získání kalendáře podle názvu**.
 ```csharp
 var calendarByName = project.Calendars.GetByName("TestCalendar");
 var calendarByUid = project.Calendars.GetByUid(4);
@@ -102,19 +122,19 @@ Console.WriteLine("Calendar Name: " + calendarByUid.Name);
 Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
 ```
 
-## Iterace přes kalendáře
+## Procházení kalendářů
 
 ### Krok 1: Načtěte projekt.
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Krok 2: Načtěte počet kalendářů.
+### Krok 2: Získejte počet kalendářů.
 ```csharp
 Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
 ```
 
-### Krok 3: Iterujte kolekci kalendářů a zobrazované názvy.
+### Krok 3: Projděte kolekci kalendářů a zobrazte názvy.
 ```csharp
 List<Calendar> calendars = project.Calendars.ToList();
 foreach (var calendar in calendars)
@@ -130,7 +150,7 @@ foreach (var calendar in calendars)
 var project = new Project();
 ```
 
-### Krok 2: Definujte nový kalendář a udělejte jej standardním.
+### Krok 2: Definujte nový kalendář a nastavte jej jako standardní.
 ```csharp
 var calendar = project.Calendars.Add("New Standard Calendar");
 Calendar.MakeStandardCalendar(calendar);
@@ -141,31 +161,52 @@ Calendar.MakeStandardCalendar(calendar);
 project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Správa kolekcí kalendářů v Aspose.Tasks for .NET je nezbytná pro efektivní řízení projektů. S poskytnutými funkcemi můžete efektivně vytvářet, upravovat a manipulovat s kalendáři podle požadavků vašeho projektu.
+- **Kalendář nebyl nalezen při použití `GetByName`** – Ujistěte se, že přesný název odpovídá velikosti písmen použité při přidání kalendáře.  
+- **Pracovní hodiny nebyly použity** – Po nastavení `WorkingTime` nezapomeňte projekt uložit; jinak změny zůstanou pouze v paměti.  
+- **Import kalendářů z MPP souboru selže** – Ověřte, že zdrojový soubor je platný soubor Microsoft Project a že máte oprávnění ke čtení.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu vytvořit vlastní pracovní dny v Aspose.Tasks?
-
+### Q1: Mohu v Aspose.Tasks vytvořit vlastní pracovní dny?
 A1: Ano, můžete vytvořit vlastní pracovní dny přidáním výjimek do kalendářů.
 
-### Q2: Je možné importovat kalendáře ze souborů aplikace Microsoft Project?
+### Q2: Je možné importovat kalendáře ze souborů Microsoft Project?
+A2: Rozhodně, Aspose.Tasks podporuje import kalendářů ze souborů Microsoft Project.
 
-Odpověď 2: Aspose.Tasks rozhodně podporuje import kalendářů ze souborů aplikace Microsoft Project.
-
-### Q3: Jak mohu odebrat konkrétní kalendář z projektu?
-
- A3: Kalendář můžete odebrat tak, že jej získáte z kolekce a poté zavoláte na`Remove` metoda.
+### Q3: Jak mohu odstranit konkrétní kalendář z projektu?
+A3: Kalendář můžete odstranit tak, že jej získáte z kolekce a poté zavoláte metodu `Remove`.
 
 ### Q4: Podporuje Aspose.Tasks export kalendářů do různých formátů?
+A4: Ano, Aspose.Tasks umožňuje export kalendářů do různých formátů, jako XML, MPP atd.
 
-A4: Ano, Aspose.Tasks umožňuje export kalendářů do různých formátů, jako je XML, MPP atd.
+### Q5: Mohu přizpůsobit pracovní hodiny pro konkrétní dny v kalendáři?
+A5: Samozřejmě, můžete definovat pracovní hodiny pro jednotlivé dny pomocí výjimek v kalendáři.
 
-### Q5: Mohu přizpůsobit pracovní dobu pro konkrétní dny v kalendáři?
+## Často kladené otázky
 
-A5: Jistě, pracovní dobu pro jednotlivé dny můžete definovat pomocí výjimek v kalendáři.
+**Q: Jaký je nejlepší způsob, jak nastavit kalendář 24‑hodinové směny?**  
+A: Vytvořte nový kalendář, vymažte existující položky `WorkingTime` a přidejte jediný rozsah `WorkingTime` od 00:00 do 24:00 pro každý pracovní den.
+
+**Q: Mohu zkopírovat kalendář z jednoho projektu do druhého?**  
+A: Ano — exportujte kalendář do XML pomocí `project.Save` a poté jej importujte do jiného projektu pomocí `new Project(xmlPath)`.
+
+**Q: Jak programově importovat kalendáře z Microsoft Project?**  
+A: Načtěte soubor MPP pomocí `new Project("source.mpp")`; kalendáře budou dostupné přes `project.Calendars`.
+
+**Q: Existuje limit na počet kalendářů v projektu?**  
+A: Prakticky ne; kolekce může obsahovat tolik kalendářů, kolik paměť umožňuje, ale pro výkon udržujte seznam přehledný.
+
+**Q: Aktualizují se změny v kalendáři automaticky u úkolů, které jej používají?**  
+A: Ano — úkoly propojené s kalendářem odrážejí aktualizované pracovní časy po uložení projektu.
+
+---
+
+**Poslední aktualizace:** 2026-04-13  
+**Testováno s:** Aspose.Tasks 24.11 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

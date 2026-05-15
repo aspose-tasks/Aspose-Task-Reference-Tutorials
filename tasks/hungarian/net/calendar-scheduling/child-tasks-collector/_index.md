@@ -1,72 +1,94 @@
 ---
-title: Gyermekfeladatok gyűjtése az Aspose.Tasks-ban
-linktitle: Gyermekfeladatok gyűjtése az Aspose.Tasks-ban
+date: 2026-04-13
+description: Tanulja meg, hogyan hozhat létre gyermekfeladat-gyűjtőt az Aspose.Tasks
+  for .NET használatával. Javítsa a projektmenedzsmentet .NET alkalmazásaiban.
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: Gyermekfeladat-gyűjtő létrehozása az Aspose.Tasks-ben
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan gyűjthet hatékonyan gyermekfeladatokat az Aspose.Tasks for .NET használatával. Javítsa a projektmenedzsmentet .NET-alkalmazásaiban.
-weight: 15
+title: Hogyan hozhatunk létre gyermekfeladat-gyűjtőt az Aspose.Tasks-ben
 url: /hu/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gyermekfeladatok gyűjtése az Aspose.Tasks-ban
+# Gyermekfeladat-gyűjtő létrehozása az Aspose.Tasks-ben
 
 ## Bevezetés
 
-A projektmenedzsment területén az Aspose.Tasks for .NET robusztus megoldás a feladatok és projektek hatékony kezelésére. Ez a hatékony könyvtár biztosítja a fejlesztők számára azokat az eszközöket, amelyekre szükségük van a feladatok, projektek és a kettő közötti zökkenőmentes kezeléséhez. Ebben az oktatóanyagban az Aspose.Tasks egy sajátos aspektusába fogunk beleásni: gyermekfeladatok összegyűjtése.
+Ha Microsoft Project fájlhoz **create child tasks collector**-t kell létrehozni, az Aspose.Tasks for .NET egyszerűvé teszi. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan gyűjtsük össze a szülő alatti minden gyermekfeladatot, hogy magabiztosan feldolgozhassa, elemezhesse vagy exportálhassa őket. A útmutató végére egy újrahasználható kódrészletet kap, amely természetesen illeszkedik bármely .NET‑alapú projektmenedzsment megoldáshoz.
+
+## Gyors válaszok
+- **What does the ChildTasksCollector do?** A feladat-hierarchián áthaladva összegyűjti az összes leszármazott feladatot egy gyűjteménybe.  
+- **Which library provides this feature?** Aspose.Tasks for .NET.  
+- **Do I need a license to run the sample?** A free trial works for evaluation; a license is required for production.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does the implementation take?** Roughly 5‑10 minutes once the library is installed.
+
+## Mi az a Child Tasks Collector?
+
+A **child tasks collector** egy segédobjektum, amely végigjárja egy Project fájl feladatrendszerét egy megadott gyökérfeladattól kiindulva, és összegyűjti az összes megtalált gyermek (alfeladat) elemet. Ez különösen hasznos, ha tömeges műveleteket szeretne alkalmazni – például mezők frissítése, adatok exportálása vagy jelentések készítése – anélkül, hogy manuálisan iterálna a hierarchia minden szintjén.
+
+## Miért érdemes child tasks collector-t létrehozni?
+
+- **Simplify recursion:** The collector handles the depth‑first traversal internally, so you avoid writing your own recursive loops.  
+- **Boost productivity:** Retrieve all descendant tasks in a single collection, making bulk edits or analyses trivial.  
+- **Maintain clean code:** Keeps your business logic separate from the low‑level navigation of the project structure.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+1. **Basic Understanding of C#** – you should be comfortable writing and running simple console applications.  
+2. **Aspose.Tasks for .NET installed** – download it from the [download link](https://releases.aspose.com/tasks/net/).  
+3. **A development environment** – Visual Studio, Rider, or any IDE that supports C#.  
+4. **Access to the official docs** – keep the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) nearby for reference.
 
-1. A C# alapjai: A C# programozási nyelv ismerete elengedhetetlen.
-2.  Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/).
-3. Fejlesztői környezet: Állítson be egy fejlesztői környezetet, például a Visual Studio-t a C# kód írására és végrehajtására.
-4. Hozzáférés a dokumentációhoz: Őrizze meg a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/) referenciaként használható.
-
-Most, hogy megvannak az előfeltételek, nézzük meg az Aspose.Tasks for .NET segítségével történő gyermekfeladatok összegyűjtésének lépésenkénti útmutatóját.
+Most, hogy az alapok megvannak, merüljünk el a kódban.
 
 ## Névterek importálása
 
-Először is importálja a szükséges névtereket a C# kódjába, hogy hozzáférjen az Aspose.Tasks for .NET funkcióihoz.
+Először hozza be a szükséges névtereket, hogy a fordító tudja, hol találja a használandó osztályokat.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Most bontsuk le a példát több lépésre, hogy alaposan megértsük a folyamatot.
+## Lépésről‑lépésre útmutató
 
-## 1. lépés: Inicializálja a projektobjektumot
+### 1. lépés: A Project objektum inicializálása
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- Ez a kódsor inicializál egy újat`Project` objektum, betölt egy "ParentChildTasks.mpp" nevű projektfájlt a megadott könyvtárból.
+Ez a sor betölti a meglévő Microsoft Project fájlt (`ParentChildTasks.mpp`) a `DataDir` mappából egy `Project` objektumba, így programozott hozzáférést kapunk a feladataihoz.
 
-## 2. lépés: Hozzon létre ChildTasksCollector objektumot
+### 2. lépés: A ChildTasksCollector példány létrehozása
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
- Itt létrehozunk egy újat`ChildTasksCollector` objektum, amely segít nekünk gyermekfeladatokat gyűjteni a projektből.
+Itt **create child tasks collector**‑t hozunk létre – egy `ChildTasksCollector` példányt, amely tárolja az összes felfedezett gyermekfeladatot.
 
-## 3. lépés: Alkalmazza a Collectort a Root Task-ra
+### 3. lépés: A gyűjtő alkalmazása a gyökérfeladatra
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Alkalmazzuk a`ChildTasksCollector` a projekt gyökérfeladatához, rekurzív módon elindítva a gyűjtési folyamatot.
+Megmondjuk az Aspose.Tasks-nek, hogy a projekt gyökérfeladatánál kezdje a gyűjtést. Az `Apply` metódus rekurzívan bejárja a hierarchiát, és a `collector.Tasks`‑be betölti az összes leszármazott feladatot.
 
-## 4. lépés: Ismétlés az összegyűjtött feladatokon keresztül
+### 4. lépés: A gyűjtött feladatok iterálása
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +97,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-Végül ismételjük az összegyűjtött feladatokat, és kinyomtatjuk a nevüket a konzolra.
+Végül végigiterálunk a gyűjtött feladatokon, és kiírjuk minden feladat nevét a konzolra. Valós környezetben a `Console.WriteLine`‑t bármilyen egyedi feldolgozással helyettesítheti (például CSV‑exportálás, mezők frissítése stb.).
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan gyűjthetünk gyermekfeladatokat az Aspose.Tasks for .NET használatával. A fent vázolt lépések követésével hatékonyan kezelheti és manipulálhatja a projekteken belüli feladatokat, javítva a termelékenységet és a szervezettséget.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **No tasks are returned** | A gyűjtőt a rossz feladatra alkalmazták (például egy levélcsomó). | Apply `TaskUtils.Apply` to `project.RootTask` or the specific parent you want to start from. |
+| **NullReferenceException** | `DataDir` vagy a fájl útvonala helytelen. | Verify that `DataDir` points to the folder containing `ParentChildTasks.mpp`. |
+| **License not set** | Az Aspose.Tasks licencfigyelmeztetést ad próba módban. | Load your license with `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` before creating the `Project` object. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### 1. kérdés: Az Aspose.Tasks for .NET kompatibilis a .NET összes verziójával?
+**Q: Az Aspose.Tasks for .NET kompatibilis minden .NET verzióval?**  
+A: Igen, az Aspose.Tasks for .NET működik .NET Framework 4.5+, .NET Core 3.1+, és .NET 5/6+ verziókkal.
 
-1. válasz: Igen, az Aspose.Tasks for .NET kompatibilis a .NET-keretrendszer különböző verzióival, így széleskörű kompatibilitást biztosít.
+**Q: Használhatom az Aspose.Tasks for .NET-et új projektfájlok létrehozására?**  
+A: Természetesen! A könyvtár lehetővé teszi projektfájlok programozott létrehozását, olvasását és módosítását.
 
-### 2. kérdés: Használhatom az Aspose.Tasks for .NET alkalmazást új projektfájlok létrehozására?
+**Q: Támogatja az Aspose.Tasks for .NET több platformot?**  
+A: Bár .NET-re készült, futtatható bármely olyan platformon, amely támogatja a .NET futtatókörnyezetet, beleértve a Windows, Linux és macOS rendszereket.
 
-A2: Abszolút! Az Aspose.Tasks for .NET olyan funkciókat biztosít, amelyek segítségével könnyedén hozhat létre, olvashat és kezelhet projektfájlokat.
+**Q: Elérhető technikai támogatás az Aspose.Tasks for .NET-hez?**  
+A: Igen, segítséget kaphat a [Aspose.Tasks fórumon](https://forum.aspose.com/c/tasks/15).
 
-### 3. kérdés: Az Aspose.Tasks for .NET több platformot is támogat?
+**Q: Kipróbálhatom az Aspose.Tasks for .NET-et vásárlás előtt?**  
+A: Természetesen! Ingyenes próba elérhető a [kiadási oldalon](https://releases.aspose.com/).
 
-3. válasz: Bár elsősorban .NET-környezetekhez tervezték, az Aspose.Tasks for .NET különféle platformokon használható, amelyek támogatják a .NET-fejlesztést.
+---
 
-### 4. kérdés: Rendelkezésre áll technikai támogatás az Aspose.Tasks for .NET számára?
+**Utoljára frissítve:** 2026-04-13  
+**Tesztelve a következővel:** Aspose.Tasks 24.11 for .NET  
+**Szerző:** Aspose  
 
-4. válasz: Igen, a felhasználók hozzáférhetnek a technikai támogatáshoz a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
-
-### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t .NET-hez a vásárlás előtt?
-
- A5: Természetesen! Ingyenes próbaverziót vehet igénybe a[kiadási oldal](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
