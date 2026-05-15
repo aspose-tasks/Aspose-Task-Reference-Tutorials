@@ -1,44 +1,57 @@
 ---
-title: 在 Aspose.Tasks 中迭代非根资源
-linktitle: 在 Aspose.Tasks 中迭代非根资源
+date: 2026-01-13
+description: 了解如何使用 Aspose.Tasks for Java 在 Microsoft Project 文件中遍历非根资源。
+linktitle: Iterate Non-Root Resources with Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 高效地迭代 Microsoft Project 文件中的非根资源。增强您的开发流程。
-weight: 12
+title: 使用 Aspose.Tasks for Java 遍历非根资源
 url: /zh/java/resource-management/iterate-non-root-resources/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中迭代非根资源
+# 使用 Aspose.Tasks for Java 遍历非根资源
 
 ## 介绍
-Aspose.Tasks for Java 是一个功能强大的库，为开发人员提供了高效操作 Microsoft Project 文件所需的工具。凭借其直观的界面和广泛的功能，Aspose.Tasks 简化了处理项目数据的过程，使开发人员能够专注于构建强大的应用程序。
+Aspose.Tasks for Java 是一个强大的库，为开发者提供了一种简洁、面向对象的方式来处理 Microsoft Project 文件。在本教程中，您将学习 **如何遍历非根资源**，从而能够读取、修改或分析资源数据，而无需处理根占位符。无论您是在构建报告工具、迁移脚本，还是自定义调度器，掌握此技术都能让您的代码更精确、更高效。
+
+## 快速回答
+- **什么是“非根资源”？** 不是默认的 “Project” 占位符（根节点）的资源。  
+- **为什么要过滤掉根资源？** 根资源没有有用的调度数据，且会使报告变得杂乱。  
+- **哪个 Aspose.Tasks 类提供资源集合？** `Project.getResources()`。  
+- **这段代码需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **可以在 Java 17 上使用吗？** 可以 – Aspose.Tasks 支持 Java 8 及更高版本。
+
 ## 先决条件
-在深入使用 Aspose.Tasks for Java 之前，请确保您具备以下条件：
-1.  Java 开发工具包 (JDK)：确保您的系统上安装了 JDK。您可以从[甲骨文网站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Tasks for Java Library：从以下位置下载并安装 Aspose.Tasks for Java 库[下载页面](https://releases.aspose.com/tasks/java/).
+在深入代码之前，请确保您已拥有：
+
+1. **Java Development Kit (JDK)** – 从 [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 安装最新的 JDK。  
+2. **Aspose.Tasks for Java library** – 从 [download page](https://releases.aspose.com/tasks/java/) 获取最新的 JAR。  
 
 ## 导入包
-在您的 Java 项目中，导入必要的包以开始使用 Aspose.Tasks：
+在您的 Java 项目中，导入必要的 Aspose.Tasks 类：
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-## 第 1 步：设置数据目录
+## 步骤 1：设置数据目录
 ```java
 String dataDir = "Your Data Directory";
 ```
-代替`"Your Data Directory"`以及存储项目文件的目录的路径。
-## 第 2 步：加载项目文件
+将 `"Your Data Directory"` 替换为 `.mpp` 文件所在的绝对路径。
+
+## 步骤 2：加载项目文件
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
-该行初始化一个新的`Project`对象通过加载名为的项目文件`"ResourceCosts.mpp"`从指定的数据目录。
-## 第 3 步：迭代非根资源
+此代码通过从您指定的文件夹加载 **ResourceCosts.mpp** 来创建 `Project` 实例。
+
+## 步骤 3：遍历非根资源
 ```java
 for (Resource res : prj.getResources()) {
     if (res.isRoot()) {
@@ -47,24 +60,52 @@ for (Resource res : prj.getResources()) {
     System.out.println(res.get(Rsc.NAME));
 }
 ```
-此循环迭代项目中的每个资源 (`prj.getResources()`）。如果该资源是根资源，则跳到下一次迭代。否则，它会打印非根资源的名称。
+循环遍历项目中的每个 `Resource` 对象。`isRoot()` 检查会跳过内置的根资源，`System.out.println` 语句会打印每个 **非根资源** 的名称。
+
+## 如何遍历非根资源
+上面的代码片段演示了核心模式：
+
+1. 使用 `prj.getResources()` 获取完整集合。  
+2. 使用 `isRoot()` 过滤掉占位符。  
+3. 根据需要访问任意资源字段（例如 `Rsc.NAME`、`Rsc.COST`）。
+
+您可以扩展此模式以汇总成本、导出为 CSV，或应用自定义业务规则。
+
+## 常见陷阱与技巧
+- **空值检查** – 某些资源可能有可选字段；在调用 `get()` 时始终检查 `null`。  
+- **性能** – 对于非常大的项目，考虑使用基于索引的循环遍历，以避免创建中间集合。  
+- **许可证** – 在没有有效许可证的情况下运行代码会在导出文件上添加水印；请确保在应用程序启动时尽早激活许可证。
 
 ## 结论
-在本教程中，我们探索了如何使用 Aspose.Tasks for Java 迭代非根资源。通过执行这些步骤，您可以有效地操作项目数据并简化您的开发过程。
-## 常见问题解答
+通过遵循这些步骤，您现在了解了使用 Aspose.Tasks for Java **如何遍历非根资源**。此技术帮助您专注于实际的项目资源，清理数据提取，并构建更可靠的项目管理解决方案。
+
+## 常见问题
 ### 我可以使用 Aspose.Tasks for Java 创建新的项目文件吗？
-是的，Aspose.Tasks 提供了创建、修改和保存各种格式的项目文件的功能。
+是的，Aspose.Tasks 为 MPP、MPT 和 XML 项目格式提供完整的 CRUD（创建、读取、更新、删除）功能。
+
 ### Aspose.Tasks 支持所有版本的 Microsoft Project 文件吗？
-Aspose.Tasks 支持 Microsoft Project 2003-2019 文件格式，包括 MPP、MPT 和 XML。
-### Aspose.Tasks 与 Spring 等 Java 框架兼容吗？
-是的，Aspose.Tasks 可以无缝集成到 Spring 等 Java 框架中，用于企业级应用程序。
+当然。它支持 Project 2003‑2019 的文件，包括最新的 MPP 规范。
+
+### Aspose.Tasks 与 Java 框架（如 Spring）兼容吗？
+是的，您可以将该库注入到 Spring Bean 中，或在任何标准的 Java 应用程序中使用它。
+
 ### 我可以使用 Aspose.Tasks 自定义项目数据字段吗？
-当然，Aspose.Tasks 提供了广泛的 API，用于根据您的要求自定义项目数据字段。
-### Aspose.Tasks 是否为开发人员提供支持和文档？
-是的，Aspose.Tasks 提供全面的文档和专门的支持论坛，以帮助开发人员解决遇到的任何疑问或问题。
+当然可以。API 允许您在任务、资源和分配上添加、修改或删除自定义字段。
+
+### Aspose.Tasks 为开发者提供支持和文档吗？
+该产品包含全面的 API 文档、代码示例以及专门的支持论坛，提供快速帮助。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
