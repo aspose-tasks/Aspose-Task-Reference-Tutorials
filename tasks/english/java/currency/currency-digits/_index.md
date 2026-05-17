@@ -1,21 +1,21 @@
 ---
-title: "Handle ms project currency Digits with Aspose.Tasks"
-linktitle: "Handle ms project currency Digits with Aspose.Tasks"
+title: "How to Get Currency from MS Project using Aspose.Tasks"
+linktitle: "How to Get Currency from MS Project using Aspose.Tasks"
 second_title: "Aspose.Tasks Java API"
-description: "Learn how to handle ms project currency digits efficiently using Aspose.Tasks for Java. Step-by-step guide covering java project file handling and how to load mpp files."
+description: "Learn how to get currency values, read MS Project file and convert project file Java using Aspose.Tasks. Step‑by‑step guide for extracting currency digits."
 weight: 11
 url: /java/currency/currency-digits/
-date: 2025-12-05
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Handle ms project currency Digits with Aspose.Tasks
+# How to Get Currency from MS Project using Aspose.Tasks
 
 ## Introduction
-In this comprehensive tutorial you’ll discover **how to work with ms project currency** values using the Aspose.Tasks library for Java. Whether you’re building a reporting tool, a migration utility, or simply need to read the currency settings from a **java project file**, this guide walks you through every step—from loading an *.mpp* file to extracting the currency digits. By the end, you’ll be comfortable handling ms project currency data in your own applications.
+If you’re wondering **how to get currency** information from a Microsoft Project file, you’ve landed in the right place. In this comprehensive tutorial you’ll discover **how to work with ms project currency** values using the Aspose.Tasks library for Java. Whether you’re building a reporting tool, a migration utility, or simply need to read the currency settings from a **java project file**, this guide walks you through every step—from loading an *.mpp* file to extracting the currency digits. By the end, you’ll be comfortable handling ms project currency data in your own applications.
 
 ## Quick Answers
 - **What library reads MS Project files?** Aspose.Tasks for Java.  
@@ -92,10 +92,13 @@ A: Yes, you can download a free trial version from [here](https://releases.aspos
 **Q: Where can I get support for Aspose.Tasks?**  
 A: You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
+## Conclusion
+You now know **how to get currency** digits from an MS Project file using Aspose.Tasks for Java. The process is straightforward: load the project, call `project.get(Prj.CURRENCY_DIGITS)`, and use the result in your application. Feel free to explore other project properties with the same pattern, and integrate this logic into larger reporting or migration solutions.
+
 ---
 
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.Tasks for Java (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

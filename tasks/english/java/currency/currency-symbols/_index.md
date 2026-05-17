@@ -1,11 +1,11 @@
 ---
-title: Extract currency symbol mpp using Aspose.Tasks for Java
+title: "java project properties – Extract currency symbol from MPP using Aspose.Tasks for Java"
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: Learn how to extract currency symbol mpp and change currency symbol java with Aspose.Tasks for Java. Retrieve currency symbol java quickly for project management.
+description: Learn how to extract and update java project properties such as the currency symbol using Aspose.Tasks for Java. Change project currency and retrieve currency symbol easily.
 weight: 12
 url: /java/currency/currency-symbols/
-date: 2025-12-05
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,7 +15,7 @@ date: 2025-12-05
 # Extract currency symbol mpp using Aspose.Tasks for Java
 
 ## Introduction
-In this tutorial you'll **extract currency symbol mpp** from a Microsoft Project file and discover how to **change currency symbol java** or **retrieve currency symbol java** using the Aspose.Tasks library. Whether you’re building a reporting tool, integrating Project data into a finance system, or simply need to display the correct currency symbol in your UI, mastering this small but essential task will make your Java applications more robust and user‑friendly.
+In this tutorial you'll learn how to work with **java project properties**—specifically how to extract the currency symbol from a Microsoft Project (MPP) file and how to **change currency symbol java** or **retrieve currency symbol java** using the Aspose.Tasks library. Whether you’re building a reporting tool, integrating Project data into a finance system, or simply need to display the correct currency symbol in your UI, mastering this small but essential task will make your Java applications more robust and user‑friendly.
 
 ## Quick Answers
 - **What does “extract currency symbol mpp” mean?** It means reading the currency symbol stored in an MPP (Microsoft Project) file.  
@@ -27,8 +27,8 @@ In this tutorial you'll **extract currency symbol mpp** from a Microsoft Project
 ## What is “extract currency symbol mpp”?
 Microsoft Project stores the currency symbol (e.g., $, €, £) in the project file header. The **extract currency symbol mpp** operation reads that value so you can display or manipulate it programmatically.
 
-## Why change currency symbol java?
-Projects often span multiple regions. Being able to **change currency symbol java** at runtime lets you adapt reports, invoices, or dashboards to the local market without recreating the whole project file.
+## Why update currency symbol in java project properties?
+Projects often span multiple regions. Being able to **change project currency** or **update currency symbol** at runtime lets you adapt reports, invoices, or dashboards to the local market without recreating the whole project file. This flexibility is a core part of managing java project properties effectively.
 
 ## Prerequisites
 Before we dive in, make sure you have:
@@ -62,7 +62,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ## Step 3: Retrieve (and optionally change) the Currency Symbol
-Now we **retrieve currency symbol java** by reading the `Prj.CURRENCY_SYMBOL` property. You can also **change currency symbol java** by assigning a new string to the same property.
+Now we **retrieve currency symbol java** by reading the `Prj.CURRENCY_SYMBOL` property. You can also **change currency symbol java** (or **change project currency**) by assigning a new string to the same property.
 
 ```java
 // Retrieve the current currency symbol
@@ -101,7 +101,7 @@ A: Temporary licenses are provided on the [Aspose temporary‑license page](http
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
