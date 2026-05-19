@@ -1,27 +1,49 @@
 ---
-title: Vykreslení využití zdrojů a zobrazení listu v Aspose.Tasks
-linktitle: Vykreslení využití zdrojů a zobrazení listu v Aspose.Tasks
+date: 2026-01-15
+description: Naučte se, jak uložit projekt jako PDF a vykreslit zobrazení Resource
+  Usage a Sheet v MS Project pomocí Aspose.Tasks pro Javu. Postupujte podle našeho
+  krok‑za‑krokem průvodce a snadno exportujte projekt do PDF.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Naučte se vykreslovat MS Project Resource Us a zobrazení listu v Aspose.Tasks pro Java. Postupujte podle našeho podrobného průvodce a snadno vygenerujte podrobné zprávy ve formátu PDF.
-weight: 16
+title: Uložit projekt jako PDF – vykreslit využití zdrojů a listový pohled v Aspose.Tasks
 url: /cs/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vykreslení využití zdrojů a zobrazení listu v Aspose.Tasks
+# Uložení projektu jako PDF – vykreslení zobrazení Využití zdrojů a Listu v Aspose.Tasks
 
 ## Úvod
-V tomto tutoriálu se naučíme, jak používat Aspose.Tasks pro Javu k vykreslení MS Project Resource Usage a zobrazení listu. Aspose.Tasks je výkonná Java knihovna, která umožňuje vývojářům pracovat se soubory Microsoft Project bez nutnosti instalace Microsoft Project.
-## Předpoklady
-Než začneme, ujistěte se, že máte nainstalované a nastavené následující předpoklady:
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit. Nejnovější verzi JDK si můžete stáhnout a nainstalovat z webu Oracle.
-2.  Aspose.Tasks for Java: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for Java z[stránka ke stažení](https://releases.aspose.com/tasks/java/).
+V tomto tutoriálu se dozvíte, jak **uložit projekt jako PDF** při vykreslování zobrazení Využití zdrojů a Listu souboru Microsoft Project. Ať už potřebujete vytvořit tisknutelnou zprávu pro zainteresované strany nebo převést soubory MPP do univerzálně zobrazitelného formátu, Aspose.Tasks pro Java proces zjednodušuje – není vyžadována instalace Microsoft Project.
 
-## Importujte balíčky
-Nejprve musíte do svého projektu Java importovat potřebné balíčky:
+##ychlé odpovědi
+- **Co dělá „uložit projekt jako pdf“?** Převádí soubor projektu (MPP) do PDF dokumentu se zachováním vybraného zobrazení.  
+- **Které zobrazení lze exportovat?** Využití zdrojů, List, Gantt, Využití úkolů a další.  
+- **Mohu v PDF změnit časovou osu?** Ano – možnosti zahrnují Dny, TřetinyMěsíců a Měsíce.  
+- **Je potřeba mít nainstalovaný Microsoft Project?** Ne, Aspose.Tasks funguje samostatně.  
+- **Je pro produkční použití vyžadována licence?** Ano, pro ne‑zkušební použití je potřeba komerční licence.
+
+## Co je „uložit projekt jako PDF“?
+Uložení projektu jako PDF vytvoří statické, vysoce rozlišené zobrazení vybraného pohledu projektu. To je ideální pro sdílení s klienty, archivaci nebo tisk bez odhalení podkladového souboru projektu.
+
+## Proč použít Aspose.Tasks k exportu projektu do PDF?
+- **Žádné externí závislosti** – funguje na jakékoli platformě podporující Java.  
+- **Detailní kontrola** – můžete vybrat pohled, časovou osu a rozvržení.  
+- **Vysoká věrnost** – PDF odráží vzhled původního pohledu v Projectu.  
+- **Připraveno pro automatizaci** – integrujte do CI pipeline, reportingových služeb nebo dávkových konvertorů.
+
+## Prerequisites
+Než se pustíme dál, ujistěte se, že máte:
+
+1. **Java Development Kit (JDK)** – doporučena nejnovější verze.  
+2. **Aspose.Tasks for Java** – stáhněte z [stránky ke stažení](https://releases.aspose.com/tasks/java/).  
+
+## Import balíčků
+Nejprve importujte potřebné třídy do svého Java projektu:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +52,93 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## Krok 1: Přečtěte si zdrojový projekt
+
+## Průvodce krok za krokem
+
+### Krok 1: Načtení zdrojového projektu
+Načtěte soubor MPP, který chcete převést.
+
 ```java
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Přečtěte si zdrojový projekt
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-V tomto kroku určíme cestu ke zdrojovému souboru projektu (`ResourceUsageView.mpp` ) a použijte`Project` třídy, aby si to přečetl.
-## Krok 2: Definujte SaveOptions s požadovaným nastavením TimeScale
+
+### Krok 2: Definujte SaveOptions s požadovanou časovou osou (Export projektu do PDF)
+Nastavte možnosti exportu PDF a zvolte požadovanou časovou osu.  
+*Zde používáme jako příklad **Days**.*
+
 ```java
-// Definujte SaveOptions s požadovaným nastavením TimeScale jako dny
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- Zde definujeme`SaveOptions` s požadovaným`TimeScale` nastavení. V tomto příkladu nastavíme`TimeScale` do Dnů.
-## Krok 3: Nastavte formát prezentace na ResourceUsage
+
+### Krok 3: Nastavte PresentationFormat na ResourceUsage
+Vyberte pohled, který chcete vykreslit. V tomto případě pohled **Resource Usage**.
+
 ```java
-// Nastavte formát prezentace na ResourceUsage
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- Formát prezentace jsme nastavili na`ResourceUsage`, což znamená, že chceme vykreslit zobrazení Využití zdrojů.
-## Krok 4: Uložte projekt
-```java
-// Uložte projekt
-project.save(dataDir + days, options);
-```
-Nakonec projekt uložíme se zadanými možnostmi. V tomto příkladu bude výstupní soubor uložen jako`result_days.pdf`.
-## Krok 5: Vykreslení zobrazení pro jiná nastavení časového měřítka
-Opakujte kroky 2 až 4 pro vykreslování pohledů s různým nastavením časového měřítka (ThirdsOfMonths a Months).
-```java
-// Nastavte nastavení časové osy na ThirdsOfMonths
-options.setTimescale(Timescale.ThirdsOfMonths);
-// Uložte projekt
-project.save(thirds, options);
-// Nastavte nastavení Časové osy na Měsíce
-options.setTimescale(Timescale.Months);
-// Uložte projekt
-project.save(dataDir + months, options);
-```
- Ujistěte se, že jste změnili`Timescale` odpovídajícím způsobem pro každý pohled.
 
-## Závěr
-V tomto tutoriálu jsme prozkoumali, jak používat Aspose.Tasks pro Javu k vykreslení MS Project Resource Usage a zobrazení listu. Podle výše uvedených kroků můžete efektivně generovat tyto pohledy ve formátu PDF, což usnadňuje vizualizaci a analýzu dat vašeho projektu.
-## FAQ
-### Může Aspose.Tasks vykreslovat jiná zobrazení kromě Využití zdrojů a List?
-Aspose.Tasks podporuje vykreslování různých zobrazení, jako je Ganttův diagram, Používání úkolů a zobrazení kalendáře, mezi ostatními.
+### Krok 4: Uložení projektu (převod MPP na PDF)
+Spusťte konverzi a vygenerujte PDF soubor.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### Krok 5: Vykreslení pohledů pro jiné nastavení časové osy (Změna časové osy PDF)
+Opakujte předchozí kroky k vytvoření PDF s různými časovými osami, jako jsou **ThirdsOfMonths** a **Months**.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## Časté problémy a řešení
+- **Chyby souboru nenalezen** – Ověřte, že `dataDir` ukazuje na správnou složku a že název souboru MPP přesně odpovídá.  
+- **Prázdný výstup PDF** – Ujistěte se, že `PresentationFormat` odpovídá pohledu, který obsahuje data (např. ResourceUsage).  
+- **Nesprávná časová osa** – Zkontrolujte, že `options.setTimescale()` je voláno před každým `project.save()`.
+
+## Často kladené otázky
+
+### Může Aspose.Tasks vykreslovat jiné pohledy kromě Využití zdrojů a Listu?
+Aspose.Tasks podporuje vykreslování různých pohledů, jako jsou Gantt Chart, Task Usage a Calendar, a další.
+
 ### Je Aspose.Tasks kompatibilní s různými verzemi souborů Microsoft Project?
-Ano, Aspose.Tasks podporuje širokou škálu formátů souborů aplikace Microsoft Project, včetně formátů MPP, MPT a XML.
-### Mohu upravit vzhled vykreslených pohledů pomocí Aspose.Tasks?
-Absolutně! Aspose.Tasks poskytuje rozsáhlé možnosti pro přizpůsobení vzhledu a rozvržení vykreslených pohledů tak, aby vyhovovaly vašim specifickým požadavkům.
-### Vyžaduje Aspose.Tasks, aby byl v systému nainstalován Microsoft Project?
-Ne, Aspose.Tasks je samostatná knihovna a ke svému fungování nevyžaduje instalaci Microsoft Project.
-### Je pro uživatele Aspose.Tasks k dispozici technická podpora?
- Ano, uživatelé Aspose.Tasks mohou využívat technickou podporu prostřednictvím[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Ano, Aspose.Tasks podporuje širokou škálu formátů souborů Microsoft Project, včetně MPP, MPT a XML.
+
+### Mohu přizpůsobit vzhled vykreslených pohledů pomocí Aspose.Tasks?
+Rozhodně! Aspose.Tasks poskytuje rozsáhlé možnosti pro přizpůsobení vzhledu a rozvržení vykreslených pohledů podle vašich konkrétních požadavků.
+
+### Vyžaduje Aspose.Tasks instalaci Microsoft Project na systému?
+Ne, Aspose.Tasks je samostatná knihovna a nevyžaduje instalaci Microsoft Project pro své fungování.
+
+### Je technická podpora k dispozici pro uživatele Aspose.Tasks?
+Ano, uživatelé Aspose.Tasks mohou využít technickou podporu prostřednictvím [fóra Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-01-15  
+**Testováno s:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---

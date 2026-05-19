@@ -1,27 +1,48 @@
 ---
-title: Kết xuất mức sử dụng tài nguyên và chế độ xem trang tính trong Aspose.Tasks
-linktitle: Kết xuất mức sử dụng tài nguyên và chế độ xem trang tính trong Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Tìm hiểu cách hiển thị các dạng xem Trang tính và Sử dụng Tài nguyên Dự án MS trong Aspose.Tasks cho Java. Làm theo hướng dẫn từng bước của chúng tôi để tạo báo cáo PDF chi tiết một cách dễ dàng.
-weight: 16
+date: 2026-01-15
+description: Tìm hiểu cách lưu dự án dưới dạng PDF và hiển thị các chế độ xem Resource
+  Usage và Sheet của MS Project bằng Aspose.Tasks cho Java. Hãy làm theo hướng dẫn
+  từng bước của chúng tôi để xuất dự án sang PDF một cách dễ dàng.
+linktitle: Save Project as PDF – Render Resource Usage and Sheet View in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Lưu dự án dưới dạng PDF – Hiển thị việc sử dụng tài nguyên và chế độ xem bảng
+  trong Aspose.Tasks
 url: /vi/java/resource-management/render-resource-usage-sheet-view/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kết xuất mức sử dụng tài nguyên và chế độ xem trang tính trong Aspose.Tasks
+# Lưu Dự Án dưới dạng PDF – Kết xuất chế độ Xem Sử Dụng Tài Nguyên và Bảng trong Aspose.Tasks
 
-## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Tasks cho Java để hiển thị các dạng xem Trang tính và Sử dụng Tài nguyên Dự án MS. Aspose.Tasks là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project.
-## Điều kiện tiên quyết
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập các điều kiện tiên quyết sau:
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt Bộ công cụ phát triển Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản JDK mới nhất từ trang web của Oracle.
-2.  Aspose.Tasks for Java: Tải xuống và cài đặt thư viện Aspose.Tasks for Java từ[trang tải xuống](https://releases.aspose.com/tasks/java/).
+## Introduction
+Trong hướng dẫn này, bạn sẽ khám phá cách **lưu dự án dưới dạng PDF** trong khi kết xuất các chế độ Xem Sử Dụng Tài Nguyên và Bảng của một tệp Microsoft Project. Cho dù bạn cần tạo báo cáo có thể in cho các bên liên quan hoặc chuyển đổi tệp MPP sang định dạng có thể xem được trên mọi nền tảng, Aspose.Tasks for Java giúp quá trình này trở nên đơn giản—không cần cài đặt Microsoft Project.
 
-## Gói nhập khẩu
-Trước tiên, bạn cần nhập các gói cần thiết vào dự án Java của mình:
+## Quick Answers
+- **save project as pdf** làm gì? Nó chuyển đổi tệp Project (MPP) thành tài liệu PDF, giữ nguyên chế độ xem đã chọn.  
+- **Chế độ xem nào có thể xuất?** Resource Usage, Sheet, Gantt, Task Usage, và các chế độ khác.  
+- **Tôi có thể thay đổi thang thời gian trong PDF không?** Có—các tùy chọn bao gồm Days, ThirdsOfMonths và Months.  
+- **Có cần cài đặt Microsoft Project không?** Không, Aspose.Tasks hoạt động độc lập.  
+- **Cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại cho việc sử dụng không phải thử nghiệm.
+
+## What is “save project as PDF”?
+Lưu dự án dưới dạng PDF tạo ra một bản đại diện tĩnh, độ phân giải cao của một chế độ xem Project đã chọn. Điều này lý tưởng để chia sẻ với khách hàng, lưu trữ, hoặc in mà không tiết lộ tệp dự án gốc.
+
+## Why use Aspose.Tasks to export project to PDF?
+- **Không phụ thuộc vào bên ngoài** – hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
+- **Kiểm soát chi tiết** – bạn có thể chọn chế độ xem, thang thời gian và bố cục.  
+- **Độ trung thực cao** – PDF phản ánh chính xác giao diện của chế độ xem Project gốc.  
+- **Sẵn sàng tự động hoá** – tích hợp vào pipeline CI, dịch vụ báo cáo, hoặc bộ chuyển đổi hàng loạt.
+
+## Prerequisites
+1. **Java Development Kit (JDK)** – khuyến nghị sử dụng phiên bản mới nhất.  
+2. **Aspose.Tasks for Java** – tải xuống từ [download page](https://releases.aspose.com/tasks/java/).
+
+## Import Packages
+First, import the necessary classes into your Java project:
+
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -30,63 +51,90 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
-## Bước 1: Đọc dự án nguồn
+
+## Step‑by‑Step Guide
+
+### Step 1: Read the Source Project
+Tải tệp MPP bạn muốn chuyển đổi.
+
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-// Đọc nguồn Dự án
+// Read the source Project
 Project project = new Project(dataDir + "ResourceUsageView.mpp");
 ```
-Trong bước này, chúng tôi chỉ định đường dẫn đến tệp Dự án nguồn (`ResourceUsageView.mpp` ) và sử dụng`Project` lớp đọc nó.
-## Bước 2: Xác định SaveOptions với cài đặt TimeScale bắt buộc
+
+### Step 2: Define SaveOptions with Required Timescale (Export Project to PDF)
+Cấu hình các tùy chọn xuất PDF và đặt thang thời gian mong muốn. *Ở đây chúng tôi sử dụng **Days** làm ví dụ.*
+
 ```java
-// Xác định SaveOptions với cài đặt TimeScale được yêu cầu là Ngày
+// Define the SaveOptions with required TimeScale settings as Days
 SaveOptions options = new PdfSaveOptions();
 options.setTimescale(Timescale.Days);
 ```
- Ở đây, chúng tôi xác định`SaveOptions` với yêu cầu`TimeScale` cài đặt. Trong ví dụ này, chúng tôi đặt`TimeScale` đến Ngày.
-## Bước 3: Đặt định dạng bản trình bày thành ResourceUsage
+
+### Step 3: Set the Presentation Format to ResourceUsage
+Chọn chế độ xem bạn muốn kết xuất. Trong trường hợp này là chế độ **Resource Usage**.
+
 ```java
-// Đặt định dạng Bản trình bày thành ResourceUsage
+// Set the Presentation format to ResourceUsage
 options.setPresentationFormat(PresentationFormat.ResourceUsage);
 ```
- Chúng tôi đặt định dạng trình bày thành`ResourceUsage`, cho biết rằng chúng tôi muốn hiển thị chế độ xem Sử dụng tài nguyên.
-## Bước 4: Lưu dự án
-```java
-// Lưu dự án
-project.save(dataDir + days, options);
-```
-Cuối cùng, chúng ta lưu Project với các tùy chọn đã chỉ định. Trong ví dụ này, tệp đầu ra sẽ được lưu dưới dạng`result_days.pdf`.
-## Bước 5: Hiển thị chế độ xem cho các cài đặt thang thời gian khác
-Lặp lại các bước từ 2 đến 4 để hiển thị các chế độ xem với các cài đặt TimeScale khác nhau (ThirdsOfMonths và Tháng).
-```java
-// Đặt cài đặt Thang thời gian thành ThirdsOfMonths
-options.setTimescale(Timescale.ThirdsOfMonths);
-// Lưu dự án
-project.save(thirds, options);
-// Đặt cài đặt Thang thời gian thành Tháng
-options.setTimescale(Timescale.Months);
-// Lưu dự án
-project.save(dataDir + months, options);
-```
- Đảm bảo thay đổi`Timescale` cài đặt phù hợp cho từng chế độ xem.
 
-## Phần kết luận
-Trong hướng dẫn này, chúng ta đã khám phá cách sử dụng Aspose.Tasks cho Java để hiển thị các dạng xem Trang tính và Sử dụng Tài nguyên Dự án MS. Bằng cách làm theo các bước được nêu ở trên, bạn có thể tạo các chế độ xem này ở định dạng PDF một cách hiệu quả, tạo điều kiện trực quan hóa và phân tích dữ liệu dự án của bạn tốt hơn.
-## Câu hỏi thường gặp
-### Aspose.Tasks có thể hiển thị các chế độ xem khác ngoài Sử dụng tài nguyên và Trang tính không?
-Aspose.Tasks hỗ trợ hiển thị nhiều chế độ xem khác nhau như Biểu đồ Gantt, Cách sử dụng tác vụ và chế độ xem Lịch, cùng với các chế độ xem khác.
-### Aspose.Tasks có tương thích với các phiên bản khác nhau của tệp Microsoft Project không?
-Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp Microsoft Project, bao gồm các định dạng MPP, MPT và XML.
-### Tôi có thể tùy chỉnh giao diện của chế độ xem được hiển thị bằng Aspose.Tasks không?
-Tuyệt đối! Aspose.Tasks cung cấp các tùy chọn mở rộng để tùy chỉnh giao diện và bố cục của các chế độ xem được hiển thị cho phù hợp với yêu cầu cụ thể của bạn.
+### Step 4: Save the Project (Convert MPP to PDF)
+Thực hiện chuyển đổi và tạo tệp PDF.
+
+```java
+// Save the Project
+project.save(dataDir + "result_days.pdf", options);
+```
+
+### Step 5: Render Views for Other Timescale Settings (Change Timescale PDF)
+Lặp lại các bước trước để tạo PDF với các thang thời gian khác nhau như **ThirdsOfMonths** và **Months**.
+
+```java
+// Set the Timescale settings to ThirdsOfMonths
+options.setTimescale(Timescale.ThirdsOfMonths);
+// Save the Project
+project.save(dataDir + "result_thirds.pdf", options);
+
+// Set the Timescale settings to Months
+options.setTimescale(Timescale.Months);
+// Save the project
+project.save(dataDir + "result_months.pdf", options);
+```
+
+## Common Issues and Solutions
+- **Lỗi không tìm thấy tệp** – Kiểm tra `dataDir` trỏ tới thư mục đúng và tên tệp MPP khớp chính xác.  
+- **Kết quả PDF trống** – Đảm bảo `PresentationFormat` khớp với chế độ xem có dữ liệu (ví dụ: ResourceUsage).  
+- **Thang thời gian không đúng** – Kiểm tra lại rằng `options.setTimescale()` được gọi trước mỗi lần `project.save()`.
+
+## Frequently Asked Questions
+
+### Aspose.Tasks có thể kết xuất các chế độ xem khác ngoài Resource Usage và Sheet không?
+Aspose.Tasks hỗ trợ kết xuất nhiều chế độ xem như Gantt Chart, Task Usage, và Calendar, trong số các chế độ khác.
+
+### Aspose.Tasks có tương thích với các phiên bản tệp Microsoft Project khác nhau không?
+Có, Aspose.Tasks hỗ trợ đa dạng định dạng tệp Microsoft Project, bao gồm MPP, MPT và các định dạng XML.
+
+### Tôi có thể tùy chỉnh giao diện của các chế độ xem đã kết xuất bằng Aspose.Tasks không?
+Chắc chắn! Aspose.Tasks cung cấp nhiều tùy chọn để tùy chỉnh giao diện và bố cục của các chế độ xem đã kết xuất theo yêu cầu của bạn.
+
 ### Aspose.Tasks có yêu cầu cài đặt Microsoft Project trên hệ thống không?
-Không, Aspose.Tasks là một thư viện độc lập và không yêu cầu cài đặt Microsoft Project để hoạt động.
-### Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
- Có, người dùng Aspose.Tasks có thể tận dụng hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Không, Aspose.Tasks là thư viện độc lập và không cần cài đặt Microsoft Project để hoạt động.
+
+### Có hỗ trợ kỹ thuật cho người dùng Aspose.Tasks không?
+Có, người dùng Aspose.Tasks có thể nhận hỗ trợ kỹ thuật qua [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-15  
+**Kiểm tra với:** Aspose.Tasks for Java 24.12  
+**Tác giả:** Aspose

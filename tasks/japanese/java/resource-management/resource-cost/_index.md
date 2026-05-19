@@ -1,33 +1,45 @@
 ---
-title: Aspose.Tasks for Java を使用して MS プロジェクトのリソース コストを管理する
-linktitle: Aspose.Tasks でリソース コストを処理する
+date: 2026-01-15
+description: Aspose.Tasks for Java を使用して、Microsoft Project ファイルにスケジュールされた予算コスト作業の扱い方を学びましょう。ステップバイステップのガイドに従ってください。
+linktitle: Handle Resource Cost in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して MS Project のリソース コストを効率的に管理する方法を学びます。ステップバイステップのガイドに従ってください。
-weight: 18
+title: Aspose.Tasks for Java を使用した予算コスト作業のスケジュール
 url: /ja/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks for Java を使用して MS プロジェクトのリソース コストを管理する
+# Aspose.Tasks for Java を使用した予算コスト作業予定
 
-## 導入
+## はじめに
 
-プロジェクト管理では、プロジェクトを予算内に抑え、収益性を確保するために、リソースコストの監視と管理が非常に重要です。 Aspose.Tasks for Java は、Microsoft Project のリソース コストを効率的に処理するための強力なツールを提供します。このチュートリアルでは、Aspose.Tasks for Java を使用してリソース コストを効果的に管理する方法を詳しく説明し、各ステップをわかりやすい手順に分けて説明します。
+**予算コスト作業予定**（BCWS）の管理は、プロジェクトを計画通りに進め、財務予測が計画された作業と合致していることを確認するために不可欠です。Microsoft Project では、BCWS は特定の日付までにスケジュールされた作業に対して支出されるべき金額を表します。Aspose.Tasks for Java を使用すると、これらの値をプログラムから完全に制御でき、.mpp ファイルを手動で開くことなくリソースコストの読み取り、変更、レポートが可能です。このチュートリアルでは、プロジェクトを読み込み、リソースを列挙し、他の主要コスト指標とともに予算コスト作業予定を表示する完全なサンプルを順を追って解説します。
+
+## クイック回答
+- **BCWS とは何ですか？** 予算コスト作業予定 – 現在までにスケジュールされた作業の計画コスト。  
+- **どの API プロパティで BCWS を取得しますか？** `Resource` オブジェクトの `Rsc.BCWS`。  
+- **サンプル実行にライセンスは必要ですか？** 無料評価ライセンスでテストは可能です。商用環境ではフルライセンスが必要です。  
+- **BCWS の値を変更できますか？** はい、他の数値フィールドと同様に `Rsc.BCWS` を設定できます。  
+- **対応している Project バージョンは？** 2000 以降のすべての Microsoft Project バージョンおよび最新の .mpp 形式。
+
+## 予算コスト作業予定とは？
+
+**Budgeted Cost Work Scheduled (BCWS)** は、特定の時点までに計画された作業に対して発生すべきコストを示すパフォーマンス指標です。Earned Value Management（EVM）の基礎であり、計画支出と実績支出を比較する際にプロジェクトマネージャーが使用します。
 
 ## 前提条件
 
-このチュートリアルに入る前に、次の前提条件を満たしていることを確認してください。
+コードに入る前に、以下を確認してください。
 
-1. Java プログラミングの基本的な理解。
-2. Aspose.Tasks for Java のインストール。
-3. Microsoft Project ファイル (.mpp) に精通していること。
+1. Java の基礎知識があること。  
+2. Aspose.Tasks for Java がプロジェクトに追加されていること（Maven/Gradle または JAR）。  
+3. コストデータを含むリソースが設定された Microsoft Project ファイル（例: *ResourceCosts.mpp*）。
 
 ## パッケージのインポート
 
-まず、Aspose.Tasks for Java を使用するために必要なパッケージをインポートする必要があります。次のインポート ステートメントを Java ファイルに追加します。
+プロジェクトとリソースを操作するために必要な Aspose.Tasks クラスをインポートします。
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,33 +47,31 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-サンプルコードを複数のステップに分けてみましょう。
-
-## ステップ 1: データ ディレクトリを定義する
+## 手順 1: データディレクトリの定義
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-交換する`"Your Data Directory"` MS Project ファイルへのパスを置き換えます。
+`"Your Data Directory"` を *ResourceCosts.mpp* が格納されている絶対パスまたは相対パスに置き換えてください。
 
-## ステップ 2: MS プロジェクト ファイルをロードする
+## 手順 2: MS Project ファイルの読み込み
 
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
 
-新しいを作成します`Project`オブジェクトのパスを使用して MS Project ファイルをロードします。
+`Project` コンストラクタは .mpp ファイルを読み取り、メモリ上にクエリ可能なオブジェクトモデルを構築します。
 
-## ステップ 3: リソースを反復処理する
+## 手順 3: リソースの列挙
 
 ```java
 for (Resource res : prj.getResources()) {
 ```
 
-プロジェクト内の各リソースを繰り返し処理します。
+このループはプロジェクト内のすべてのリソースを走査し、各リソースのコストフィールドへアクセスできるようにします。
 
-## ステップ 4: リソース名とコストを確認する
+## 手順 4: リソース名とコストの確認
 
 ```java
 if (res.get(Rsc.NAME) != null) {
@@ -72,36 +82,59 @@ if (res.get(Rsc.NAME) != null) {
 }
 ```
 
-リソース名が null でないかどうかを確認し、コスト、実際の作業実行コスト (ACWP)、スケジュールされた作業の予算コスト (BCWS)、および実行された予算のコスト (BCWP) などのコスト関連属性を出力します。
+`if` ブロック内で以下を実行します。
+
+* **総コスト** (`Rsc.COST`) を出力。  
+* **実績作業コスト** (`Rsc.ACWP`) を出力。  
+* **予算コスト作業予定** (`Rsc.BCWS`) – 本チュートリアルの中心指標。  
+* **予算コスト作業実績** (`Rsc.BCWP`) を出力。
+
+これら 4 つの値で、プロジェクトの財務状況を簡潔に把握できます。
+
+## 予算コスト作業予定を監視する重要性
+
+* **早期警告:** BCWS が実績コストより大幅に高い場合、リソースの過剰割り当てが疑われます。  
+* **Earned Value 分析:** BCWS は Cost Variance（CV）や Schedule Variance（SV）算出の重要入力です。  
+* **予測:** 正確な BCWS データは将来のキャッシュフロー予測を支援し、ステークホルダーへの報告に活用できます。
+
+## よくある問題とトラブルシューティング
+
+| 症状 | 考えられる原因 | 対策 |
+|------|----------------|------|
+| BCWS が `null` と表示される | リソースにコストレートテーブルが未設定 | Microsoft Project でコストレートテーブルを定義するか、`Rsc.COST_RATE_TABLE` でプログラム的に設定 |
+| リソース列挙時に `ArrayIndexOutOfBoundsException` が発生 | プロジェクトファイルが破損している、または空リソースが含まれる | Microsoft Project で .mpp を検証し、空リソースを削除 |
+| 予期しない値（例: 負の BCWS） | カスタムフィールドが標準コストフィールドを上書きしている | 標準の `Rsc.BCWS` を使用していることを確認し、同名のカスタムフィールドを排除 |
+
+## FAQ（よくある質問）
+
+**Q: BCWS の値をプログラムから更新できますか？**  
+A: はい。`res.set(Rsc.BCWS, newValue)` を使用し、`prj.save("Updated.mpp")` でプロジェクトを保存します。
+
+**Q: Aspose.Tasks はマルチ通貨プロジェクトに対応していますか？**  
+A: 対応しています。コストフィールドはプロジェクトファイルで設定された通貨設定を尊重します。
+
+**Q: これらのコスト指標を CSV にエクスポートできますか？**  
+A: リソースを列挙して値を `StringBuilder` に書き込むか、CSV ライブラリを使用してファイルを生成できます。
+
+**Q: BCWS と BCWP の違いは何ですか？**  
+A: BCWS はスケジュールされた作業の計画コスト、BCWP（Budgeted Cost Work Performed）は実際に完了した作業の計画コストです。
+
+**Q: コストデータを読むだけでも特別なライセンスが必要ですか？**  
+A: 評価ライセンスでもフルの読み書きが可能ですが、商用環境では正式ライセンスが必要です。
 
 ## 結論
 
-リソース コストを効果的に管理することはプロジェクトの成功に不可欠であり、Aspose.Tasks for Java はその堅牢な機能によりこのプロセスを簡素化します。このチュートリアルで概説されている手順に従うことで、Aspose.Tasks for Java を使用して Microsoft Project ファイルのリソース コストを効率的に処理できます。
+Aspose.Tasks for Java を活用すれば、**予算コスト作業予定** をはじめとする重要なコスト指標に対して正確かつプログラム的にアクセスできます。これにより、カスタム ダッシュボードの構築や Earned Value レポートの自動化が可能となり、Microsoft Project に手動で触れることなくプロジェクトの財務管理を実現できます。
 
-## よくある質問
-
-### Q1: Aspose.Tasks for Java は複雑なプロジェクト構造を処理できますか?
-
-A1: はい、Aspose.Tasks for Java は、リソース、タスク、割り当てなどの複雑なプロジェクト構造を処理するための包括的なサポートを提供します。
-
-### Q2: Aspose.Tasks for Java は、Microsoft Project ファイルのさまざまなバージョンと互換性がありますか?
-
-A2: はい、Aspose.Tasks for Java はさまざまなバージョンの Microsoft Project ファイルをサポートしており、さまざまな環境間での互換性を確保しています。
-
-### Q3: Aspose.Tasks for Java を他の Java ライブラリと統合できますか?
-
-A3: もちろん、Aspose.Tasks for Java は他の Java ライブラリと簡単に統合でき、プロジェクト管理機能をさらに強化できます。
-
-### Q4: Aspose.Tasks for Java はカスタマー サポートを提供しますか?
-
-A4: はい、Aspose はフォーラムを通じて優れたカスタマー サポートを提供しており、ユーザーはそこで質問したり支援を求めることができます。
-
-### Q5: Aspose.Tasks for Java に利用できる無料トライアルはありますか?
-
-A5: はい、購入を決定する前に、Aspose.Tasks for Java の無料トライアルにアクセスしてその機能を調べることができます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-01-15  
+**テスト環境:** Aspose.Tasks for Java 24.12（最新）  
+**作成者:** Aspose

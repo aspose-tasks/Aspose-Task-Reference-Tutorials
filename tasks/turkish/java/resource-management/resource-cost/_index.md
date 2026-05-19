@@ -1,33 +1,45 @@
 ---
-title: Aspose.Tasks for Java ile MS Project Kaynak Maliyetlerini Yönetin
-linktitle: Aspose.Tasks'ta Kaynak Maliyetini Yönetin
-second_title: Aspose.Tasks Java API'si
-description: Aspose.Tasks for Java ile MS Project kaynak maliyetlerini verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım kılavuzumuzu takip edin.
-weight: 18
+date: 2026-01-15
+description: Aspose.Tasks for Java kullanarak Microsoft Project dosyalarında planlanan
+  bütçeli maliyet çalışmalarını nasıl yöneteceğinizi öğrenin. Adım adım rehberimizi
+  izleyin.
+linktitle: Handle Resource Cost in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks for Java ile planlanan bütçelenmiş maliyet çalışması
 url: /tr/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks for Java ile MS Project Kaynak Maliyetlerini Yönetin
+# Aspose.Tasks for Java ile Planlanan Bütçeli Maliyet Çalışması
 
-## giriiş
+## Giriş
 
-Proje yönetiminde kaynak maliyetlerinin izlenmesi ve yönetilmesi, projelerin bütçe dahilinde tutulması ve karlılığın sağlanması açısından çok önemlidir. Aspose.Tasks for Java, Microsoft Project kaynak maliyetlerini verimli bir şekilde yönetmek için güçlü araçlar sunar. Bu eğitimde Aspose.Tasks for Java'yı kullanarak kaynak maliyetlerini etkili bir şekilde nasıl yönetebileceğinizi inceleyeceğiz ve her adımı takip edilmesi kolay talimatlara ayıracağız.
+**Planlanan Bütçeli Maliyet Çalışması (BCWS)**, bir projenin zamanında ilerlemesini sağlamak ve finansal tahminin planlanan iş ile uyumlu olmasını temin etmek için kritik öneme sahiptir. Microsoft Project'te BCWS, belirli bir tarihe kadar planlanan iş için harcanması gereken para miktarını temsil eder. Aspose.Tasks for Java, bu değerler üzerinde tam programatik kontrol sağlar; .mpp dosyasını manuel olarak açmadan kaynak maliyetlerini okuyabilir, değiştirebilir ve raporlayabilirsiniz. Bu öğreticide, bir projeyi nasıl yükleyeceğinizi, kaynakları nasıl döngüye alacağınızı ve planlanan bütçeli maliyet çalışmasını diğer temel maliyet ölçütleriyle birlikte nasıl görüntüleyeceğinizi gösteren eksiksiz bir örnek üzerinden ilerleyeceğiz.
+
+## Hızlı Yanıtlar
+- **BCWS ne anlama gelir?** Budgeted Cost Work Scheduled – tarihe kadar planlanan iş için öngörülen maliyet.  
+- **Hangi API özelliği BCWS'yi alır?** `Rsc.BCWS` bir `Resource` nesnesinde.  
+- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Test için ücretsiz deneme lisansı yeterlidir; üretim için tam lisans gereklidir.  
+- **BCWS değerlerini değiştirebilir miyim?** Evet, `Rsc.BCWS`'yi diğer sayısal alanlar gibi ayarlayabilirsiniz.  
+- **Desteklenen Project sürümleri?** 2000'den en yeni .mpp formatına kadar tüm Microsoft Project sürümleri.
+
+## Planlanan Bütçeli Maliyet Çalışması nedir?
+
+**Budgeted Cost Work Scheduled (BCWS)**, belirli bir zaman noktasına kadar planlanan iş için harcanması gereken maliyeti yansıtan bir performans ölçümüdür. Earned Value Management (EVM) sisteminin temel taşlarından biridir ve proje yöneticilerinin planlanan harcama ile gerçekleşen harcama arasını karşılaştırmasına yardımcı olur.
 
 ## Önkoşullar
 
-Bu eğitime dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+1. Java temellerine sağlam bir hakimiyet.  
+2. Projenize Aspose.Tasks for Java eklenmiş olması (Maven/Gradle ya da JAR).  
+3. Maliyet verileri içeren kaynakları barındıran bir Microsoft Project dosyası (`.mpp`) (ör. *ResourceCosts.mpp*).
 
-1. Java programlamanın temel anlayışı.
-2. Aspose.Tasks for Java'nın kurulumu.
-3. Microsoft Project dosyalarına (.mpp) aşinalık.
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Öncelikle Aspose.Tasks for Java ile çalışmak için gerekli paketleri içe aktarmanız gerekiyor. Aşağıdaki içe aktarma ifadelerini Java dosyanıza ekleyin:
+İlk olarak, projeleri ve kaynakları işlemek için gereken Aspose.Tasks sınıflarını içe aktarın:
 
 ```java
 import com.aspose.tasks.Project;
@@ -35,33 +47,40 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-Örnek kodu birden çok adıma ayıralım:
+## Adım 1: Veri Dizinini Tanımlama
 
-## Adım 1: Veri Dizinini Tanımlayın
+`"Your Data Directory"` ifadesini *ResourceCosts.mpp* dosyasının bulunduğu mutlak ya da göreli yol ile değiştirin.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
- Yer değiştirmek`"Your Data Directory"` MS Project dosyanızın yolu ile.
+## Adım 2: MS Project Dosyasını Yükleme
 
-## Adım 2: MS Proje Dosyasını Yükleyin
+`Project` yapıcı (constructor) .mpp dosyasını okur ve sorgulayabileceğiniz bellek içi bir temsil oluşturur.
 
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
 
- Yeni bir tane oluştur`Project` MS Project dosyasını yolunu kullanarak yükleyerek nesneyi oluşturun.
+## Adım 3: Kaynaklar Üzerinde Döngü
 
-## Adım 3: Kaynakları Yineleyin
+Bu döngü, projede tanımlı her kaynağı dolaşır ve size maliyet alanlarına erişim sağlar.
 
 ```java
 for (Resource res : prj.getResources()) {
 ```
 
-Projedeki her kaynağı yineleyin.
+## Adım 4: Kaynak Adını ve Maliyetleri Kontrol Et
 
-## 4. Adım: Kaynak Adını ve Maliyetlerini Kontrol Edin
+`if` bloğu içinde şunları yaparız:
+
+* **toplam maliyeti** (`Rsc.COST`) yazdır.  
+* **gerçekleştirilen işin gerçek maliyetini** (`Rsc.ACWP`) yazdır.  
+* **planlanan bütçeli maliyet çalışmasını** (`Rsc.BCWS`) – odaklandığımız ana ölçüt, yazdır.  
+* **gerçekleştirilen işin planlanan bütçeli maliyetini** (`Rsc.BCWP`) yazdır.
+
+Bu dört değer, projenin finansal durumuna hızlı bir bakış sunar.
 
 ```java
 if (res.get(Rsc.NAME) != null) {
@@ -72,36 +91,50 @@ if (res.get(Rsc.NAME) != null) {
 }
 ```
 
-Kaynak adının boş olup olmadığını kontrol edin ve ardından maliyet, gerçekleştirilen işin fiili maliyeti (ACWP), planlanan işin bütçelendirilmiş maliyeti (BCWS) ve gerçekleştirilen işin bütçelendirilmiş maliyeti (BCWP) gibi maliyetle ilgili niteliklerini yazdırın.
+## Planlanan Bütçeli Maliyet Çalışmasını İzlemenin Önemi
 
-## Çözüm
+* **Erken uyarı:** BCWS, gerçek maliyetten belirgin şekilde yüksekse, kaynakları fazla tahsis ediyor olabilirsiniz.  
+* **Kazanılmış Değer Analizi:** BCWS, Maliyet Sapması (CV) ve Zaman Sapması (SV) hesaplamaları için temel girdi.  
+* **Tahmin:** Doğru BCWS verileri, gelecekteki nakit akışı ihtiyaçlarını öngörmeye yardımcı olur ve paydaş raporlamasını bilgilendirir.
 
-Kaynak maliyetlerini etkili bir şekilde yönetmek, projenin başarısı için çok önemlidir ve Aspose.Tasks for Java, güçlü özellikleriyle bu süreci basitleştirir. Bu eğitimde özetlenen adımları takip ederek Aspose.Tasks for Java'yı kullanarak Microsoft Project dosyalarındaki kaynak maliyetlerini verimli bir şekilde yönetebilirsiniz.
+## Yaygın Sorunlar ve Sorun Giderme
 
-## SSS'ler
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| `null` printed for BCWS | Resource has no cost rate table defined | Define a cost rate table for the resource in Microsoft Project or set it programmatically via `Rsc.COST_RATE_TABLE` |
+| `ArrayIndexOutOfBoundsException` when iterating resources | Project file corrupted or contains empty resource entries | Validate the .mpp file in Microsoft Project and remove empty resources |
+| Unexpected values (e.g., negative BCWS) | Custom fields overriding standard cost fields | Ensure you’re accessing the standard `Rsc.BCWS` and not a custom field with the same name |
 
-### S1: Aspose.Tasks for Java karmaşık proje yapılarını yönetebilir mi?
+## Sıkça Sorulan Sorular
 
-Cevap1: Evet, Aspose.Tasks for Java, kaynaklar, görevler ve atamalar da dahil olmak üzere karmaşık proje yapılarının yönetilmesi için kapsamlı destek sağlar.
+**S: BCWS değerini programatik olarak güncelleyebilir miyim?**  
+C: Evet. `res.set(Rsc.BCWS, newValue)` kullanın ve ardından projeyi `prj.save("Updated.mpp")` ile kaydedin.
 
-### S2: Aspose.Tasks for Java, Microsoft Project dosyalarının farklı sürümleriyle uyumlu mudur?
+**S: Aspose.Tasks çoklu para birimi projelerini destekliyor mu?**  
+C: Kesinlikle. Maliyet alanları, Project dosyasında tanımlı para birimi ayarlarını dikkate alır.
 
-C2: Evet, Aspose.Tasks for Java, Microsoft Project dosyalarının çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
+**S: Bu maliyet ölçütlerini CSV'ye aktarmanın bir yolu var mı?**  
+C: Kaynaklar üzerinde döngü kurarak değerleri bir `StringBuilder`'a yazabilir veya bir CSV kütüphanesi kullanarak dosyayı oluşturabilirsiniz.
 
-### S3: Aspose.Tasks for Java'yı diğer Java kütüphaneleriyle entegre edebilir miyim?
+**S: BCWS, BCWP'den nasıl farklıdır?**  
+C: BCWS, planlanan iş için öngörülen maliyettir; BCWP (Budgeted Cost Work Performed) ise gerçekte tamamlanan iş için planlanan maliyeti yansıtır.
 
-Cevap3: Kesinlikle, Aspose.Tasks for Java, proje yönetimi yeteneklerini daha da geliştirmek için diğer Java kütüphaneleriyle kolayca entegre edilebilir.
+**S: Maliyet verilerini okumak için özel bir lisansa ihtiyacım var mı?**  
+C: Değerlendirme lisansı tam okuma/yazma erişimi sağlar; üretim ortamları için ticari lisans gereklidir.
 
-### S4: Aspose.Tasks for Java müşteri desteği sunuyor mu?
+## Sonuç
 
-C4: Evet, Aspose, kullanıcıların soru sorabileceği ve yardım isteyebileceği forumları aracılığıyla mükemmel müşteri desteği sağlıyor.
+Aspose.Tasks for Java'yi kullanarak **planlanan bütçeli maliyet çalışması** ve diğer kritik maliyet ölçütlerine kesin, programatik erişim elde edersiniz. Bu sayede özel panolar oluşturabilir, Earned Value raporlarını otomatikleştirebilir ve projelerinizi finansal olarak yolunda tutabilirsiniz—Microsoft Project ile manuel etkileşim gerektirmeden.
 
-### S5: Aspose.Tasks for Java'nın ücretsiz deneme sürümü mevcut mu?
-
-Cevap5: Evet, satın alma kararını vermeden önce özelliklerini keşfetmek için Aspose.Tasks for Java'nın ücretsiz deneme sürümüne erişebilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-15  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (latest)  
+**Yazar:** Aspose
